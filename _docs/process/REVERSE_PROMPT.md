@@ -9,139 +9,142 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: A322 primary-reference review, the third of four passes. Committed. **Not pushed.** **Not
+**Task**: A322 publication review, the fourth and final pass. Committed and **pushed**. **Not
 published.** All twenty-six articles in the series remain in `_drafts/`.
 
-**References 2,348 to 2,852, and PRIMARY CITATIONS FROM 54.8 TO 61.8 PERCENT**, with period sources
-dated 1975 or earlier rising from 639 to 977. Article 4,367 to 5,277 lines and 15,890 to 18,990 words.
-Equations held at 43 and measured before and after.
+**Final state 7,198 lines, 44 display equations, 3,990 references, 25,992 words.**
+
+**Contemporary coverage from 31.3 to 51.2 percent of research citations**, across fourteen survey
+subsections where the draft had eight.
 
 ---
 
-## The Keystone Is Thin on Primaries for the Fourth Article Running, and the Cause Has Changed
+## Report the Count as Well as the Fraction
 
-**This is the same headline as the last three articles and a different defect underneath it, which is
-why it is worth reporting carefully rather than filing under the existing rule.**
-
-Autorotation carries **65 citations and 21 primaries, or 32 percent**, against an article average of
-62. In A319, A320 and A321 the keystone cluster was thin **on count**, and the cause every time was
-that the pattern had been written in the wrong decade's vocabulary. Broadening fixed it.
-
-**Autorotation is not that case.** It is a word the 1930s used and the 2020s still use. The query
-matched happily in both directions, and **the larger and better-indexed modern computational literature
-simply crowded the period out**. The query succeeded and the balance failed.
-
-**Two further harvests aimed squarely at the period reports moved it from 16 primaries to 21 and then
-stopped.** Those harvests named the period work rather than describing the topic, querying the steady
-vertical descent in single-rotor autorotation, the transition from hovering into autorotative descent,
-the power-off flare-up tests of a model rotor, and the empirical relation between induced velocity,
-thrust and rate of descent. They found the classics and they found no more of them.
-
-**The pool itself is 31 percent primary on this topic and every primary in it is cited.** The only
-autorotation records left uncited are three modern wind-turbine papers, two of them Darrieus machines
-the filter excludes anyway. **The cited fraction of 32 percent matches the pool's 31 percent almost
-exactly, which is the proof that this is supply and not selection.**
-
-**The article reports it rather than padding toward a band.**
+**The period count is 984 against 988 while the primary fraction falls from 61.8 to 44.1 percent.**
+That is the standing directive working rather than a regression. This pass added roughly 1,150
+contemporary references and removed almost no period ones, so the denominator moved and the numerator
+did not.
 
 ---
 
-## What the Harvest Did Fix
+## The Survey's Organising Claim
 
-| Topic | Primary before | Primary after |
-|---|---|---|
-| Bluff-body drag coefficient | 6 of 20, 30 percent | 44 of 61, 72 percent |
-| Descent states and the vortex ring | 3 of 24, 12 percent | 24 of 48, 50 percent |
-| The autogiro and the gyroplane | 41 of 53, 77 percent | 65 of 77, 84 percent |
-| Glide performance and reach | 7 cited | 12 of 14, 86 percent |
-| Rotor kinetic energy and inertia | 0 of 1 | 5 of 6, 83 percent |
-
-Three harvests added 185 NTRS records, 225 Defense Technical Information Center records and 381 journal
-records, taking the master pool from 3,511 to 4,256.
+**The Discretionary Descent Vehicle asked a good question and got the wrong answer, and the right
+answer arrived in a different material.** A ram-air canopy reaches the same glide ratio as an
+autorotating rotor using fabric, packs into a bag, needs no spin-up and needs far less training. It
+was then automated, so the descending crewman does not have to fly it either.
 
 ---
 
-## Five Assertions Had No Citation Within Four Hundred Characters
+## The Sharpest Thing the Survey Found, and It Did Not Exist in 1968
 
-**The worst of them was the 1.8 constant, which is the number the entire article turns on.** It now
-rests explicitly on the mid-century measurement literature that produced it.
+**A multirotor cannot autorotate, and that is a live airworthiness argument sitting exactly on this
+article's keystone.**
 
-The others were the canopy drag coefficient of 0.75 and its inflated geometry, the assumed glide ratio
-of 4, the statement that a helicopter Lock number sits between eight and ten, and the blade loading
-coefficient limit near 0.10. **All five are quantitative claims the prose relies on, and this is the
-defect the genre document's equation and reference bands exist to catch.**
+Electric vertical takeoff aircraft have brought the small one-person flying machine back as a serious
+industry. Written in the article's own terms the stored energy goes as blade mass times the square of
+tip speed, and a small light blade turning at modest tip speed has very little of it, while the disc
+loading that sets the descent rate is high because the disc is small. **The X-25's rotor was a bad
+parachute and a good glider. A multirotor is neither.**
 
----
+**The industry's answer is not a better rotor. It is redundancy.** Autorotation says the aircraft can
+always become a glider, and redundancy says it will not fail in the first place. **The capability the
+X-25 was built entirely around is the one the current generation of small rotorcraft has quietly
+given up**, and for a reason the programme would have recognised, which is that the rotor you can
+carry is not the rotor you want.
 
-## Two Topics Are Thin and Only One of Them Is Real
-
-**This distinction cost some effort and is worth keeping.**
-
-**Rotor spin-up and prerotation stands at three records** after a harvest aimed at it using period
-vocabulary including prerotation, rotor starting and starting torque. **That is a genuine archive
-limit**, and it is the stated reason the spin-up section reasons from energy rather than from
-measurement.
-
-**Stored rotor energy appears to stand at one record and does not really.** The relevant work exists
-and is cited, but it sits inside the autorotation and blade-motion literature rather than beside it,
-because a paper on autorotative landing is a paper about spending exactly that energy. **A thin heading
-is not the same thing as a thin subject**, and the error is easy to make in the direction of claiming a
-gap that is not there.
+**This is flagged in the Epistemic State as the article's strongest and least documented claim.** It
+follows from relations the article derives, but no source consulted states it as a finding, and the
+airworthiness literature treats redundancy as a design choice and not as a concession.
 
 ---
 
-## Contamination Found by Reading, and One Self-Inflicted Regex Bug
+## The Density Relation Is Being Tested on Another Planet
 
-Thirteen records were read and dropped, taking the rejection list from 507 to 533 entries, keyed by URL
-as well as by anchor. They are pump and fan rotors, a reactor coolant pump, a nuclear ramjet, a lunar
-landing-site study, and three physiological papers including **the effect of gentling on the heart rate
-and flight distance of sheep**, which reached the pool through the words flight and distance.
+The equation pass added that descent rate goes as one over the square root of density. **A rotorcraft
+on Mars flies in roughly one percent of sea-level density**, which is the same relation at an extreme
+no terrestrial machine reaches, and it is why such vehicles carry very large rotors for their mass
+and turn them close to the speed of sound. The article's twenty-thousand-foot case is the same
+calculation stopped early.
 
-**One record was flagged and kept.** A 1964 study of space-cabin landing impact vectors on human
-physiology is squarely the body-tolerance topic, and so is a 1962 evaluation of a light autogyro for
-the aerial treatment of crops, which the agricultural filter would have taken.
-
-**Two scanning patterns of my own reported false contamination and both were my bug, not the pool's.**
-One matched `EVA` inside `EVALUATION` and reported 184 records; the real count was four. The other
-matched `train` inside `training` and reported 96.
-
-**The second bug exposed something real.** Checking why so many training papers were present found that
-**twenty-five of the seventy-two records in the training cluster had no aviation word in the title at
-all** — Army battalions, United Nations peacekeeping, Ada software engineering education, vocational
-programmes and manual-handling ergonomics. **"Training requirements" is a Defense Technical Information
-Center term of art for personnel documents of any kind**, and this article's own harvest query for pilot
-training requirements pulled in the entire genre. The cluster pattern now requires the training word to
-sit beside an aviation one, and the cluster is at 64 records with none lacking an aviation term.
-
-Eighteen records were dropped by reading in total across the pass, taking the rejection list from 507 to
-543 entries.
+**The planetary filter was relaxed for rotor work specifically**, and Mars entry and landing-site
+selection remain excluded, which is a deliberate boundary rather than an oversight.
 
 ---
 
-## Verification
+## Three New Homonym Families, and the First Was Not Anticipated
 
-**Numerical.** 71 independent checks passing unchanged, none importing the calculation, every value
-required to appear in the draft text.
+**Descent has a third sense and it is kinship anthropology.** The handoff records the collision with
+gradient descent. It also collides with **descent groups**, meaning lineage and ancestry, and **four
+such papers reached the citation set**, including one titled Ancestor Worship in Anthropology.
 
-**Build.** Twenty-six article isolated build succeeding, all 43 equations rendering as display math,
-zero mangled escapes, zero unbalanced braces, zero duplicated equations, Part 26 of 72.
+**Crossref indexes fellowship advertisements as works**, which is the same defect class as the
+editorial matter already filtered. Two Hypersonic Aerodynamics Fellowships notices were cited.
 
-**Corpus.** `_verify.py` at 0 errors and 21 warnings. Style and integrity check clean across all
-twenty-six articles.
+**Insect-scale flapping-wing micro air vehicles** share wing, flight, hovering and flapping with rotor
+work. **The samara is still deliberately not filtered**, because an autorotating seed is this
+article's own subject while a flapping insect robot is not.
 
-**URLs.** 2,867 external links swept against a superset of the final set, with **2,372 of 2,372 DOIs
-confirmed registered in the Crossref registry and zero unregistered**, and 494 of 495 non-DOI links at
-200. The single exception is the National Museum of the United States Air Force fact sheet, a `.mil`
-address that refuses automated connections and was verified independently by search. **Reading the
-2,372 printed titles is what found the training-genre contamination.**
+Thirty-one records read and dropped, rejection list 543 to 605, keyed by URL as well as by anchor.
+
+---
+
+## Two of My Own Regex Bugs, Both Caught Before They Did Damage
+
+`IoT` without a word boundary matched inside **Elliott** and **radiotechnical**, which would have
+dropped two legitimate aviation records. Corrected before the drop was applied.
+
+Earlier in the article the same class of bug produced a false report of 184 contaminated records
+matching `EVA` inside `EVALUATION`, and 96 matching `train` inside `training`. **The scanner has now
+been wrong three times and the pool has been right each time**, which is worth remembering next
+article.
+
+---
+
+## Publication Checks
+
+**Prose style.** Clean across all twenty-six articles, zero failures and zero warnings.
+
+**Diction.** `research` measures 103 per thousand in raw text and **1.03 per thousand in true prose**,
+confirming it as the citation-anchor artifact documented since A298. `rotor` at 7.9 per thousand is
+the article's own subject. **`rather than` was genuinely formulaic at 3.37 per thousand across 42
+uses** and was rotated down to 28 through instead of, and not, openly, and no longer.
+
+**Acronyms.** Two real defects fixed. **NASA was never spelled out**, and the spell-out now precedes
+both abbreviated uses. **`COUNT` appeared in shouting capitals in prose** where the house style uses
+bold. `KSA` and `WRC` are parts of the KSA-100 and WRC-19 model designations and are exempt. `SAVER`
+is spelled out at first use.
+
+**Reference integrity.** 3,990 references, zero undefined, zero orphaned, zero duplicate URLs.
+
+**URL response.** 4,031 external links swept against a superset of the final set. **3,526 of 3,526
+DOIs confirmed registered in the Crossref registry, zero unregistered.** 504 of 505 non-DOI links at
+200, the single exception being the National Museum of the United States Air Force fact sheet, a
+`.mil` address that refuses automated connections and was verified independently by search.
+
+**Numerical sanity.** 71 checks passing unchanged.
+
+**Structural conformance.** Genre order intact, the three series sections present, The Source Base
+immediately before Epistemic State.
+
+**Build.** Twenty-six article isolated build with all 44 equations rendering as display math across 16
+sections and 34 subsections, zero unbalanced braces, zero mangled escapes, zero duplicated equations.
 
 ---
 
 ## State
 
-**A322 has three of four passes complete. Committed, not pushed, not published.**
+**A322 is complete. All four passes done, committed and pushed, not published.**
 
-**Expected next is the publication review**, which is also the pass that authorises a push.
+Twenty-six of seventy-two. The publication-order dependency is twenty-six deep.
 
-**Still open and unchanged.** The fourth genre class, now **thirteen** consecutive articles. The A305
-length offer.
+**The next article is A323, the Schweizer X-26 Frigate**, editorial date 2025-11-01, Part 27 of 72.
+**It is a second consecutive glider and a second consecutive off-the-shelf procurement**, being the
+Schweizer SGS 2-32 sailplane taken into naval service, and the X-26B variant was the quiet
+observation aircraft that fed the YO-3A. **Do not import the A322 pool**, though the glide-performance
+and handling-qualities clusters are the closest overlap the series has yet offered between
+consecutive articles, and that is worth checking rather than assuming.
+
+**Still open and unchanged.** The fourth genre class, now **fourteen** consecutive articles outside
+all named classes. The A305 length offer.

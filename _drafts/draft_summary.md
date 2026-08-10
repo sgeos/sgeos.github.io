@@ -22,10 +22,11 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_bensen_x25.markdown`, A322, editorial date 2025-10-31, series `x_planes` index 26 of 72.
 
 4,094 lines, 19 display equations, 2,342 references, 13,732 words after the draft pass. 4,367 lines,
-43 display equations, 2,348 references, 15,890 words after the equation review. **5,277 lines, 43
+43 display equations, 2,348 references, 15,890 words after the equation review. 5,277 lines, 43
 display equations, 2,852 references, 18,990 words after the primary-reference review, with primary
-citations from 54.8 to 61.8 percent.** Three of four passes complete. Committed, **not pushed**, not
-published.
+citations from 54.8 to 61.8 percent. **7,198 lines, 44 display equations, 3,990 references, 25,992
+words after the publication review, with contemporary coverage from 31.3 to 51.2 percent.** All four
+passes complete. Committed and **pushed**. Not published.
 
 **The keystone is autorotation, and the obvious reading of it is wrong.** An autorotating rotor is not a
 gentler way down than a parachute but a worse one, because descent rate goes as the square root of disc
@@ -76,6 +77,18 @@ computational literature crowded the period out. Two harvests naming the period 
 in it is cited**, which is the proof that this is supply rather than selection, and the article reports
 it rather than padding. Bluff-body drag went 30 to 72 percent primary, descent states 12 to 50.
 **Five assertions had no citation at all, the worst being the 1.8 constant the whole article turns on.**
+
+**The publication survey found something that did not exist in 1968 and lands on the keystone.** A
+MULTIROTOR CANNOT AUTOROTATE. Electric vertical takeoff aircraft brought the small one-person flying
+machine back as an industry, and the capability the X-25 was built entirely around is the one
+distributed electric propulsion gave up, answering with redundancy instead. **Flagged in the Epistemic
+State as the article's strongest and least documented claim.** The density relation the equation pass
+added is also being tested on Mars at one percent of sea-level density. **Three new homonym families**,
+the first unanticipated: DESCENT collides with DESCENT GROUPS in kinship anthropology and four such
+papers were cited, Crossref indexes FELLOWSHIP ADVERTISEMENTS as works, and insect-scale flapping-wing
+vehicles share vocabulary with rotor work while the samara stays deliberately unfiltered. NASA was
+never spelled out and is now. The period count held at 984 against 988 while the primary fraction fell
+to 44.1 percent, which is the directive working.
 
 **The keystone-vocabulary rule was applied before writing for the first time** rather than as a repair
 after it, and found four topics at zero that the article's own equations needed. **Two inherited

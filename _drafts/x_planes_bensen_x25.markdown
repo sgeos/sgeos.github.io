@@ -132,7 +132,7 @@ the B-8, became the [X-25B][ref_afftc_x25b].
 **The unpowered aircraft flew first, by more than four months, and that ordering is the programme's own statement of what it was about.**
 An escape vehicle has no engine. The X-25A exists because teaching someone to fly a gyroplane is easier when
 the aircraft can climb back up and try again, and because the programme's own finding turned out to concern
-training rather than aerodynamics.
+training and not aerodynamics.
 
 **Two specifications are not settled by the public record and the article does not pretend otherwise.** The
 rotor diameter is given as twenty feet in the B-8M description and as twenty feet six inches in at least one
@@ -176,7 +176,7 @@ blade][research_ballard_1979], [Ballard et al 1979, Effect of tip shape on blade
 ### What Autorotation Is
 
 A rotor in [autorotation][ref_autorotation] has no shaft power. It turns because the airflow through the
-disc, which in a descent comes from below, drives the blades rather than being driven by them. Momentum
+disc, which in a descent comes from below, drives the blades instead of being driven by them. Momentum
 theory describes this as the **windmill brake state**, a name that is not a metaphor. A wind turbine
 extracting power from an oncoming stream and a descending rotor holding an aircraft up are the same flow
 state written in different reference frames, and that identity is the reason a large part of this article's
@@ -384,7 +384,7 @@ Garrard 1982][research_konicke_garrard_1982], [Peterson and Johnson 1983][resear
 2002][research_accorsi_leonard_2002], [Johari and Desabrais 2002][research_johari_desabrais_2002], [Stein
 2005][research_stein_2005], [Sengupta et al 2008][research_sengupta_2008], [Sengupta et al
 2009][research_sengupta_2009].
-**The area it actually presents to the flow is smaller, because an inflated canopy is a shallow bowl rather than a disc**,
+**The area it actually presents to the flow is smaller, because an inflated canopy is a shallow bowl and not a flat disc**,
 and the two areas are related through the projected diameter,
 
 $$S_p = \left( \frac{D_p}{D_0} \right)^{2} S_0$$
@@ -497,7 +497,8 @@ $$V_d = k \sqrt{\frac{W / A}{\rho}}, \qquad k = \sqrt{\frac{2}{C_D}}$$
 
 with $k = 1.27$ for the rotor at $C_D = 1.23$ and $k = 1.63$ for the canopy at $C_D = 0.75$.
 **The rotor has the better coefficient and the worse loading, and the loading wins.** Sizing practice around
-this quantity is [Gessow 1948, Effect of rotor-blade twist and][research_gessow_1948_2], [Robert D Powell
+this quantity is [Gianmarco Sahragard-Monfared et al][research_gianmarco_sahragard_monfared], [Gessow 1948,
+Effect of rotor-blade twist and][research_gessow_1948_2], [Robert D Powell
 1954][research_robert_d_powell_1954], [Mann and Marston 1961][research_mann_marston_1961], [Young and Lytwyn
 1967][research_young_lytwyn_1967], [Jenney et al 1968][research_jenney_1968], [Wright
 1969][research_wright_1969], [Miller 1983][research_miller_1983], [Zaitsev 1987][research_zaitsev_1987].
@@ -547,9 +548,9 @@ $$V_s = \frac{V}{L/D} = \frac{66.0 \, \text{ft/s}}{4} = 16.5 \, \text{ft/s}$$
 
 $$V_s = V \sin\gamma = 66.0 \sin(14.04^\circ) = 16.0 \, \text{ft/s}$$
 
-**The article uses the simpler form throughout and it is three percent high.** That is stated rather than
-hidden, and it does not move any conclusion, since the comparison against a canopy descending at 21.3 feet
-per second is not close.
+**The article uses the simpler form throughout and it is three percent high.** That is stated openly, and it
+does not move any conclusion, since the comparison against a canopy descending at 21.3 feet per second is
+not close.
 
 **Now it beats the canopy on descent rate as well, at 16.5 feet per second against 21.3.** The glide
 literature is [Collins 1934][research_collins_1934], [Gliding Flight in Germany
@@ -629,7 +630,8 @@ fabric,
 $$C_D A = 1.23 \times 314.2 = 388 \, \text{ft}^2, \qquad S_0 = \frac{388}{0.75} = 517 \, \text{ft}^2$$
 
 **Forty-four square feet of canopy for every square foot of blade.** That ratio is the entire engineering
-appeal of the idea, and the sizing literature behind it is [Gessow 1948, Effect of rotor-blade twist
+appeal of the idea, and the sizing literature behind it is [Gianmarco Sahragard-Monfared et
+al][research_gianmarco_sahragard_monfared], [Gessow 1948, Effect of rotor-blade twist
 and][research_gessow_1948_2], [Robert D Powell 1954][research_robert_d_powell_1954], [Mann and Marston
 1961][research_mann_marston_1961], [Young and Lytwyn 1967][research_young_lytwyn_1967], [Jenney et al
 1968][research_jenney_1968], [Wright 1969][research_wright_1969], [Miller 1983][research_miller_1983],
@@ -695,7 +697,7 @@ this article has already used $\gamma$ for the glide angle, and a collision betw
 is resolved by marking one rather than by silently reusing it.
 
 **A helicopter sits between eight and ten, so this blade is heavy for its air loads.** Blade inertia and the
-flapping behaviour it governs are measured subjects rather than assumed ones, in [Horvay
+flapping behaviour it governs are measured subjects and not assumed ones, in [Horvay
 1947][research_horvay_1947], [Horvay and Yuan 1947][research_horvay_yuan_1947], [Chawla
 1952][research_chawla_1952], [Meyer and Falabella 1953][research_meyer_falabella_1953], [Hohenemser
 1954][research_hohenemser_1954], [Payne 1954, High Offset Flapping Pin Rotor][research_payne_1954_3], [Payne
@@ -758,10 +760,11 @@ $$C_T = \frac{W}{\rho A (\Omega R)^2} = \frac{350}{(0.002377)(314.2)(400)^2} = 0
 and dividing by solidity gives the blade loading coefficient, which is the quantity that actually approaches
 a stall limit near 0.10.
 **Where that limit sits, and how blade area, blade count and chord distribution move it, is a design literature of its own**,
-in [Gessow 1948, Effect of rotor-blade twist and][research_gessow_1948_2], [Robert D Powell
-1954][research_robert_d_powell_1954], [Mann and Marston 1961][research_mann_marston_1961], [Young and Lytwyn
-1967][research_young_lytwyn_1967], [Jenney et al 1968][research_jenney_1968], [Wright
-1969][research_wright_1969], [Miller 1983][research_miller_1983], [Zaitsev 1987][research_zaitsev_1987],
+in [Gianmarco Sahragard-Monfared et al][research_gianmarco_sahragard_monfared], [Gessow 1948, Effect of
+rotor-blade twist and][research_gessow_1948_2], [Robert D Powell 1954][research_robert_d_powell_1954], [Mann
+and Marston 1961][research_mann_marston_1961], [Young and Lytwyn 1967][research_young_lytwyn_1967], [Jenney
+et al 1968][research_jenney_1968], [Wright 1969][research_wright_1969], [Miller 1983][research_miller_1983],
+[Zaitsev 1987][research_zaitsev_1987],
 
 $$\frac{C_T}{\sigma} = \frac{0.0029}{0.037} = 0.079$$
 
@@ -771,31 +774,93 @@ $$\lambda = \frac{\Omega R}{V_d} = \frac{400}{27.6} = 14.5$$
 
 **A horizontal axis wind turbine runs at a tip speed ratio of six to eight. This rotor runs at fifteen**, so
 it is a very lightly loaded machine in the same flow state, which is why its induction factor is small and
-its thrust coefficient is a few thousandths. That family of work is [Tammaruckwattana et al
-2015][research_tammaruckwattana_2015], [Bai and Shiah 2016][research_bai_shiah_2016], [Lee et al
-2016][research_lee_2016], [Sun et al 2016][research_sun_2016], [Yang et al 2016][research_yang_2016],
-[Dehouck et al 2017][research_dehouck_2017], [Xie et al 2017, Wind tunnel testing and
-improved][research_xie_2017], [Karthikeyan and Gokul Karthik 2018][research_karthikeyan_gokul_karthik_2018],
-[Tahir et al 2018][research_tahir_2018], [Tang et al 2018][research_tang_2018], [Yoshida
-2018][research_yoshida_2018], [Zhang et al 2018, Fatigue damage assessment of wind][research_zhang_2018_3],
-[Augusto et al 2019][research_augusto_2019], [Bhargava and Samala 2019][research_bhargava_samala_2019],
-[Bidikli 2019][research_bidikli_2019], [Tabatabaei et al 2019][research_tabatabaei_2019], [Yang et al
-2019][research_yang_2019], [Kao et al 2020][research_kao_2020], [Moshfeghi and Hur
-2020][research_moshfeghi_hur_2020], [Tien 2020][research_tien_2020], [Chabaud 2021][research_chabaud_2021],
-[Mujahid et al 2021][research_mujahid_2021], [Siram et al 2021][research_siram_2021], [Corniglion et al
-2022][research_corniglion_2022], [Hosseini et al 2022][research_hosseini_2022], [Syed Ahmed Kabir et al
-2022][research_syed_ahmed_kabir_2022], [Yin et al 2022][research_yin_2022], [Asadi and Hassanzadeh
-2023][research_asadi_hassanzadeh_2023], [Ju 2023][research_ju_2023], [Nishi et al
-2023][research_nishi_2023], [Pratama Ricky Novianto et al 2023][research_pratama_ricky_novianto_2023],
-[Yilmaz 2023][research_yilmaz_2023], [Özkan and Genç 2023][research_ozkan_genc_2023], [Abbas et al
-2024][research_abbas_2024], [Baisthakur and Fitzgerald 2024][research_baisthakur_fitzgerald_2024], [Kulak et
-al 2024][research_kulak_2024], [Ludlam et al 2024][research_ludlam_2024], [Saulescu and Neagoe
-2024][research_saulescu_neagoe_2024], [Shen et al 2024, The influence of the rotor][research_shen_2024_2],
-[Abedi and Eskilsson 2025][research_abedi_eskilsson_2025], [Le et al 2025][research_le_2025], [Selvatici and
-Stevens 2025][research_selvatici_stevens_2025], [Yushan et al 2025][research_yushan_2025], [Adema et al
-2026][research_adema_2026], [Fu 2026][research_fu_2026], [Rotor Speed Recovery Strategy
-2026][research_rotor_speed_2026], [Zhang et al 2026, Real-time hybrid testing of
-rotor][research_zhang_2026_3].
+its thrust coefficient is a few thousandths. That family of work is [Dimitrov 2015][research_dimitrov_2015],
+[Eliassen et al 2015][research_eliassen_2015], [Erhard and Strauch 2015][research_erhard_strauch_2015],
+[Gong and Chen 2015][research_gong_chen_2015], [Ichter et al 2015][research_ichter_2015], [Luhur et al
+2015][research_luhur_2015], [Park 2015][research_park_2015], [Schlipf et al 2015][research_schlipf_2015],
+[Sineglazov 2015][research_sineglazov_2015], [Tammaruckwattana et al 2015][research_tammaruckwattana_2015],
+[Wang et al 2015][research_wang_2015], [Bai and Shiah 2016][research_bai_shiah_2016], [Barnes and Morozov
+2016][research_barnes_morozov_2016], [Berg et al 2016][research_berg_2016], [Bromm et al
+2016][research_bromm_2016], [Holtslag et al 2016][research_holtslag_2016], [Jun and Wenlong
+2016][research_jun_wenlong_2016], [Khanjari et al 2016][research_khanjari_2016], [Kosasih and Saleh Hudin
+2016][research_kosasih_saleh_hudin_2016], [Lee et al 2016][research_lee_2016], [Moghadassian et al
+2016][research_moghadassian_2016], [Patil et al 2016][research_patil_2016], [Pirrung et al
+2016][research_pirrung_2016], [Shi et al 2016, Numerical study of ice-induced][research_shi_2016],
+[Sineglazov et al 2016][research_sineglazov_2016], [Sultania and Manuel
+2016][research_sultania_manuel_2016], [Sun et al 2016][research_sun_2016], [Yang et al 2016, Inverse
+Aerodynamic Optimization][research_yang_2016], [Yoshida et al 2016][research_yoshida_2016], [Attaf
+2017][research_attaf_2017], [Bagherpoor and Xuemin 2017][research_bagherpoor_xuemin_2017], [Bontempo and
+Manna 2017][research_bontempo_manna_2017], [Chen 2017, Experimental investigation on][research_chen_2017_2],
+[Dehouck et al 2017][research_dehouck_2017], [Fagan et al 2017][research_fagan_2017], [Guo and
+Ganapathysubramanian 2017][research_guo_ganapathysubramanian_2017], [Herráez et al
+2017][research_herraez_2017], [Park 2017, A Study on Structural Design and][research_park_2017_2], [Park
+2017, Structural Design and Analysis of][research_park_2017], [Richmond-Navarro et al
+2017][research_richmond_navarro_2017], [Xie et al 2017, Wind tunnel testing and
+improved][research_xie_2017], [Analysis Model of a 2018][research_analysis_model_2018], [Berger and Kühn
+2018][research_berger_kuhn_2018], [Ehrich et al 2018][research_ehrich_2018], [Karthikeyan and Gokul Karthik
+2018][research_karthikeyan_gokul_karthik_2018], [Khanjari et al 2018][research_khanjari_2018], [Pamuji and
+Bramantya 2018][research_pamuji_bramantya_2018], [Sakurai et al 2018][research_sakurai_2018], [Schafhirt and
+Muskulus 2018][research_schafhirt_muskulus_2018], [Tahir et al 2018][research_tahir_2018], [Tang et al
+2018][research_tang_2018], [Wang et al 2018, LES simulation and experimental][research_wang_2018_7],
+[Yoshida 2018][research_yoshida_2018], [Zhang et al 2018, Fatigue damage assessment of
+wind][research_zhang_2018_3], [Al-Solihat et al 2019][research_al_solihat_2019], [Antar et al
+2019][research_antar_2019], [Augusto et al 2019][research_augusto_2019], [Bhargava and Samala
+2019][research_bhargava_samala_2019], [Bidikli 2019][research_bidikli_2019], [Castillo et al
+2019][research_castillo_2019], [Choi et al 2019, Structural design and analyses of][research_choi_2019_3],
+[Goit and Ishihara 2019][research_goit_ishihara_2019], [Hannesdóttir et al
+2019][research_hannesdottir_2019], [Lipian et al 2019][research_lipian_2019], [Robertson et al
+2019][research_robertson_2019], [Santo et al 2019][research_santo_2019], [Tabatabaei et al
+2019][research_tabatabaei_2019], [Yang et al 2019, Research on the characteristic][research_yang_2019],
+[Zhang et al 2019, Influence of Low-Level Jet][research_zhang_2019_2], [Zhang et al 2019, Influence of the
+Heights of][research_zhang_2019], [Apsley and Stansby 2020][research_apsley_stansby_2020], [Bangga et al
+2020][research_bangga_2020], [De Tavernier and Ferreira 2020][research_de_tavernier_ferreira_2020], [Kao et
+al 2020][research_kao_2020], [Moshfeghi and Hur 2020][research_moshfeghi_hur_2020], [Nukala and Maddula
+2020][research_nukala_maddula_2020], [Perez-Becker et al 2020][research_perez_becker_2020], [Pirrung
+2020][research_pirrung_2020], [Song and Paek 2020][research_song_paek_2020], [Tang et al
+2020][research_tang_2020], [Tien 2020][research_tien_2020], [Ullah et al 2020][research_ullah_2020],
+[Chabaud 2021][research_chabaud_2021], [El Beshbichi et al 2021][research_el_beshbichi_2021], [Fang et al
+2021][research_fang_2021], [Ferede and Gandhi 2021][research_ferede_gandhi_2021], [Greco and Testa
+2021][research_greco_testa_2021], [Kc et al 2021][research_kc_2021], [Liu et al 2021, Frequency Trajectory
+Planning][research_liu_2021], [Liu et al 2021, Lagrangian actuator model for][research_liu_2021_4], [Mujahid
+et al 2021][research_mujahid_2021], [Neagoe et al 2021][research_neagoe_2021], [Potentier et al
+2021][research_potentier_2021], [Prajapat et al 2021][research_prajapat_2021], [Siram et al
+2021][research_siram_2021], [Wester et al 2021][research_wester_2021], [Corniglion et al
+2022][research_corniglion_2022], [Ferreira et al 2022][research_ferreira_2022], [He and Xia
+2022][research_he_xia_2022], [Hosseini et al 2022][research_hosseini_2022], [Ismaiel
+2022][research_ismaiel_2022], [Kaminski et al 2022][research_kaminski_2022], [Qin et al
+2022][research_qin_2022], [Radi and Djebli 2022][research_radi_djebli_2022], [Syed Ahmed Kabir et al
+2022][research_syed_ahmed_kabir_2022], [Yin et al 2022][research_yin_2022], [Zhao et al 2022, Research on
+the rotor speed and][research_zhao_2022_2], [Asadi and Hassanzadeh 2023][research_asadi_hassanzadeh_2023],
+[Boatto et al 2023][research_boatto_2023], [Chandana and Radha 2023][research_chandana_radha_2023], [Ju
+2023][research_ju_2023], [Manga et al 2023][research_manga_2023], [Nishi et al 2023][research_nishi_2023],
+[Pratama Ricky Novianto et al 2023][research_pratama_ricky_novianto_2023], [Qi et al
+2023][research_qi_2023], [Raibaudo et al 2023][research_raibaudo_2023], [Trigaux et al
+2023][research_trigaux_2023], [Uchida et al 2023][research_uchida_2023], [Wan Muhammad and Mohd
+2023][research_wan_muhammad_mohd_2023], [Wood and Golmirzaee 2023][research_wood_golmirzaee_2023], [Yan et
+al 2023, Design and Analysis of an][research_yan_2023_3], [Yilmaz 2023][research_yilmaz_2023], [Zhao et al
+2023, Effect of the yaw angle on the][research_zhao_2023_4], [Özkan and Genç
+2023][research_ozkan_genc_2023], [Abbas et al 2024][research_abbas_2024], [Baisthakur and Fitzgerald
+2024][research_baisthakur_fitzgerald_2024], [Bao et al 2024, The Study of Structural
+Dynamic][research_bao_2024_2], [Cheung et al 2024][research_cheung_2024], [Kulak et al
+2024][research_kulak_2024], [Lee and Park 2024][research_lee_park_2024], [Leng et al
+2024][research_leng_2024], [Li and Yang 2024][research_li_yang_2024], [Ludlam et al
+2024][research_ludlam_2024], [N. Ell et al 2024][research_n_ell_2024], [Peng et al 2024, Nonlinear dynamic
+analysis of][research_peng_2024_3], [Saulescu and Neagoe 2024][research_saulescu_neagoe_2024], [Savino et al
+2024][research_savino_2024], [Shen et al 2024, The influence of the rotor][research_shen_2024_2], [Wang et
+al 2024, Rendezvous Trajectory Planning][research_wang_2024_6], [Yoshida and Fekry
+2024][research_yoshida_fekry_2024], [van der Laan et al 2024][research_van_der_laan_2024], [Abedi and
+Eskilsson 2025][research_abedi_eskilsson_2025], [Giri Ajay et al 2025][research_giri_ajay_2025], [Le et al
+2025, Application of blade element][research_le_2025], [Selvatici and Stevens
+2025][research_selvatici_stevens_2025], [Wiley et al 2025][research_wiley_2025], [Yin et al 2025, A new
+Blade Element Momentum][research_yin_2025_2], [Yushan et al 2025][research_yushan_2025], [Adema et al
+2026][research_adema_2026], [Bibi et al 2026][research_bibi_2026], [Fu 2026][research_fu_2026], [Han et al
+2026, The vibration mechanism of a][research_han_2026_2], [Hoghooghi and Bottasso
+2026][research_hoghooghi_bottasso_2026], [Jia et al 2026][research_jia_2026], [Manohare et al
+2026][research_manohare_2026], [Panda et al 2026][research_panda_2026], [Rotor Speed Recovery Strategy
+2026][research_rotor_speed_2026], [Shen et al 2026, Maximum power coefficient of][research_shen_2026_2],
+[Störtenbecker and Dalhoff 2026][research_stortenbecker_dalhoff_2026], [Vlastos et al
+2026][research_vlastos_2026], [Winning et al 2026][research_winning_2026], [Wu et al
+2026][research_wu_2026], [Zhang et al 2026, Real-time hybrid testing of rotor][research_zhang_2026_3].
 
 ### Getting It Turning, and a Result That Comes Out Negative
 
@@ -947,9 +1012,9 @@ The Kaman KSA-100 SAVER, for Stowable Aircrew Vehicle Escape Rotorseat, was the 
 completion for the United States Navy. Its rotor was two telescopic blades folded into the seat itself,
 deployed by a drogue within four seconds of ejection. It flew towed on 28 December 1971, free the following
 day, and with the telescoping rotor on 10 January 1972. Kaman made over 1,500 air drops of the deployment
-system, and a full-scale unpowered article was tested in the NASA Ames full-scale tunnel in 1970. The
-concept paper is Hollrock and Barzda's description of a stowable autogyro that serves as the crewman's seat
-and converts to a flight vehicle after ejection.
+system, and a full-scale unpowered article was tested in the National Aeronautics and Space Administration
+Ames full-scale tunnel in 1970. The concept paper is Hollrock and Barzda's description of a stowable
+autogyro that serves as the crewman's seat and converts to a flight vehicle after ejection.
 
 **Stowability forces the geometry, and the geometry forces the descent rate.** A rotor that must fold into a
 seat cannot be 20 feet across. The SAVER's was 14. Since
@@ -1023,8 +1088,8 @@ that it explains Kaman's engine selection.
 
 ## What the Data Changed
 
-**Almost nothing directly, and the article says so rather than inflating it.** The Discretionary Descent
-Vehicle did not enter service. No operational aircraft has ever carried one.
+**Almost nothing directly, and the article says so plainly.** The Discretionary Descent Vehicle did not
+enter service. No operational aircraft has ever carried one.
 
 **The question outlived the answer.** The SAVER pursued the same idea with a stowable rotor and an engine
 and was also cancelled, the Navy concluding the idea was not viable. What survived is the question, namely
@@ -1076,113 +1141,408 @@ regardless. **On that accounting the rotor is worse than this article makes it l
 **The Discretionary Descent Vehicle asked a good question and got the wrong answer, and the right answer arrived in a different material.**
 This section surveys the present state of every thread the programme touched.
 
+**Two of those threads have become livelier since 1968 instead of quieter, and both land on the keystone.**
+Autorotation is now a certification argument about aircraft that cannot perform it, and the density relation
+this article derives is being tested on another planet.
+
+### When the Engine Stops, Now
+
+**Autorotation is no longer primarily an aerodynamic subject. It is a safety and training subject**, and the
+literature has moved with it. Contemporary work covers the safety analysis of autorotative landing
+execution, the transfer of autorotation training between simulator and aircraft, the height-velocity diagram
+for variable-speed rotors, emergency landing after engine failure including on hybrid electric tiltrotors,
+and rotorcraft crashworthiness, in [Murugan et al 2014][research_murugan_2014], [Tokuoka and Miwa 2015,
+2A2-F07 Emergency Landing Control][research_tokuoka_miwa_2015], [Ligai et al 2017][research_ligai_2017],
+[Chi et al 2019][research_chi_2019], [Yan and Chen 2019][research_yan_chen_2019], [van der Wall
+2019][research_van_der_wall_2019], [Anantharaman et al 2020][research_anantharaman_2020], [Astori et al
+2020][research_astori_2020], [Mohanty et al 2020][research_mohanty_2020], [White et al
+2021][research_white_2021], [Scaramuzzino et al 2022][research_scaramuzzino_2022], [Lee et al 2023, Guidance
+and control for][research_lee_2023_2], [Francesco Scaramuzzino et al
+2024][research_francesco_scaramuzzino_2024], [Germanetti 2024][research_germanetti_2024], [Serafini et al
+2024][research_serafini_2024].
+
+**The height-velocity diagram is the direct descendant of this article's spin-up section.** It maps the
+combinations of height and forward speed from which a safe autorotative landing cannot be reached, and it
+exists because entering autorotation costs both altitude and time.
+**The X-25's deployment problem is the same problem drawn on different axes.**
+
 ### Autorotation Became a Computation
 
-Autorotation is now modelled, optimised and flown by algorithm rather than characterised by test pilots. The
+Autorotation is now modelled, optimised and flown by algorithm, no longer characterised by test pilots. The
 contemporary work covers trajectory optimisation for autorotative landing, entry transients, vortex-ring
 modelling and autonomous emergency descent, in [Bachelder et al 2011][research_bachelder_2011], [Rezgui and
 Lowenberg 2015][research_rezgui_lowenberg_2015], [Sunada et al 2015][research_sunada_2015], [Sunberg et al
-2015][research_sunberg_2015], [Bohr and Markvorsen 2016][research_bohr_markvorsen_2016], [Grande et al
-2016][research_grande_2016], [Ligai et al 2017][research_ligai_2017], [Luchinsky et al
-2017][research_luchinsky_2017], [Taamallah et al 2017][research_taamallah_2017], [Ishiko and Uno
-2018][research_ishiko_uno_2018], [Rostami and Fernandes 2018][research_rostami_fernandes_2018], [Zheng et al
-2018, A turboshaft engine NMPC scheme][research_zheng_2018], [Dalmau et al 2019][research_dalmau_2019],
-[Fauli et al 2019][research_fauli_2019], [Win et al 2019, Design, modelling and control
-of][research_win_2019_2], [Win et al 2019, Dynamics and Control of a][research_win_2019], [Elkhaldi et al
-2020][research_elkhaldi_2020], [Morozov et al 2020][research_morozov_2020], [Talaeizadeh et al
-2020][research_talaeizadeh_2020], [Tomita and Fujiwara 2021][research_tomita_fujiwara_2021], [Czyż et al
-2022][research_czyz_2022], [El Makdah et al 2022][research_el_makdah_2022], [McConnell and Das
-2022][research_mcconnell_das_2022], [Niu et al 2022][research_niu_2022], [Scaramuzzino et al
-2022][research_scaramuzzino_2022], [Sohn and Im 2022][research_sohn_im_2022], [Wen et al
-2022][research_wen_2022], [Win et al 2022][research_win_2022], [Improved Blade Element Theory
-2023][research_improved_blade_2023], [Jung and Rezgui 2023][research_jung_rezgui_2023], [Lee et al 2023,
-Guidance and control for][research_lee_2023_2], [Li et al 2023, Rotor Wake Investigation
+2015][research_sunberg_2015], [Tokuoka and Miwa 2015, 801 Emergency Landing Control
+of][research_tokuoka_miwa_2015_2], [Bohr and Markvorsen 2016][research_bohr_markvorsen_2016], [Grande et al
+2016][research_grande_2016], [Lee and Lee 2016][research_lee_lee_2016], [Noiri and Fujuwara
+2016][research_noiri_fujuwara_2016], [Luchinsky et al 2017][research_luchinsky_2017], [Taamallah et al
+2017][research_taamallah_2017], [Ishiko and Uno 2018][research_ishiko_uno_2018], [Rostami and Fernandes
+2018][research_rostami_fernandes_2018], [Zheng et al 2018, A turboshaft engine NMPC
+scheme][research_zheng_2018], [Dalmau et al 2019][research_dalmau_2019], [Fauli et al
+2019][research_fauli_2019], [Win et al 2019, Design, modelling and control of][research_win_2019_2], [Win et
+al 2019, Dynamics and Control of a][research_win_2019], [Elkhaldi et al 2020][research_elkhaldi_2020],
+[Morozov et al 2020][research_morozov_2020], [Talaeizadeh et al 2020][research_talaeizadeh_2020], [Scarpari
+et al 2021][research_scarpari_2021], [Tomita and Fujiwara 2021][research_tomita_fujiwara_2021], [Czyż et al
+2022][research_czyz_2022], [El Makdah et al 2022][research_el_makdah_2022], [Hartley et al
+2022][research_hartley_2022], [McConnell and Das 2022][research_mcconnell_das_2022], [Niu et al
+2022][research_niu_2022], [Sohn and Im 2022][research_sohn_im_2022], [Wen et al 2022][research_wen_2022],
+[Win et al 2022][research_win_2022], [Improved Blade Element Theory 2023][research_improved_blade_2023],
+[Jung and Rezgui 2023][research_jung_rezgui_2023], [Li et al 2023, Rotor Wake Investigation
 Under][research_li_2023_2], [McConnell and Das 2023][research_mcconnell_das_2023], [Saetti et al
-2023][research_saetti_2023], [Francesco Scaramuzzino et al 2024][research_francesco_scaramuzzino_2024],
-[Patnala et al 2024][research_patnala_2024], [Liu et al 2025, Effects of wings number on
-the][research_liu_2025], [Mori et al 2025][research_mori_2025], [Riegler et al 2025][research_riegler_2025],
-[Tran and Lopez 2025][research_tran_lopez_2025], [Braunshtein et al 2026][research_braunshtein_2026],
-[Fattizzo et al 2026][research_fattizzo_2026], [Li et al 2026, Aerodynamics of
-autorotating][research_li_2026], [Lolli et al 2026][research_lolli_2026].
+2023][research_saetti_2023], [Patnala et al 2024][research_patnala_2024], [Jo et al 2025][research_jo_2025],
+[Liu et al 2025, Effects of wings number on the][research_liu_2025], [Mori et al 2025][research_mori_2025],
+[Riegler et al 2025][research_riegler_2025], [Tran and Lopez 2025][research_tran_lopez_2025], [Braunshtein
+et al 2026][research_braunshtein_2026], [Fattizzo et al 2026][research_fattizzo_2026], [Li et al 2026,
+Aerodynamics of autorotating][research_li_2026], [Lolli et al 2026][research_lolli_2026].
 
 ### The Answer Arrived in Fabric
 
 **The ram-air canopy is the device the Discretionary Descent Vehicle was reaching for.** It reaches the same
 glide ratio as an autorotating rotor with no rigid structure, no spin-up transient and far lower training
-demand, and it is the reason no aircraft carries a rotor seat. The contemporary literature is [Chiel and
-Dever 2015][research_chiel_dever_2015], [Feng et al 2015][research_feng_2015], [Geiselman et al
-2015][research_geiselman_2015], [Slegers et al 2015][research_slegers_2015], [Surendra et al
-2015][research_surendra_2015], [Devalla et al 2016][research_devalla_2016], [Gao et al 2016, Parachute
-dynamics and][research_gao_2016], [Kim et al 2016][research_kim_2016], [Montalvo and Costello
-2016][research_montalvo_costello_2016], [Cacan and Costello 2018][research_cacan_costello_2018], [Wu et al
-2018][research_wu_2018], [Cacan et al 2019][research_cacan_2019], [Chen et al 2019, A Virtual Structure
-Formation][research_chen_2019_3], [Jóźwiak and Kurzawiński 2019][research_jozwiak_kurzawinski_2019], [Tan et
-al 2019][research_tan_2019], [Tao et al 2019][research_tao_2019], [Wachlin et al
-2019][research_wachlin_2019], [Yang and Jeon 2019][research_yang_jeon_2019], [Lv et al
-2020][research_lv_2020], [Zhao et al 2020][research_zhao_2020], [Chen et al 2021, Consensus-Based
-Cooperative][research_chen_2021_2], [Long et al 2021][research_long_2021], [Zhao et al
-2021][research_zhao_2021], [Gao and Tao 2022][research_gao_tao_2022], [Leeman et al
-2022][research_leeman_2022], [Zhang et al 2022, New general correlations for][research_zhang_2022], [Zhu et
-al 2022, Altitude Control of Powered][research_zhu_2022_2], [Ding et al 2023][research_ding_2023], [Li and
-Nan 2023][research_li_nan_2023], [Lucrezia 2023][research_lucrezia_2023], [Prateek Sazawal and Ghosh
-2023][research_prateek_sazawal_ghosh_2023], [Tan et al 2023][research_tan_2023], [Zhu et al 2023,
-Aerodynamic prediction for flight][research_zhu_2023], [Chiel and Dever 2024][research_chiel_dever_2024],
-[Wang and Yang 2024][research_wang_yang_2024], [Ward et al 2024][research_ward_2024], [Wei et al 2024,
-Dynamic-model-based closed-loop][research_wei_2024], [Cui et al 2025][research_cui_2025], [Qi et al 2025,
-Research on Parafoil Precision][research_qi_2025_2], [Yan et al 2025][research_yan_2025], [Yang et al 2025,
-Dual-loop linear active][research_yang_2025], [Yi et al 2025][research_yi_2025], [Cao et al
-2026][research_cao_2026], [Jin et al 2026][research_jin_2026], [Wei et al 2026][research_wei_2026], [Yu et
-al 2026][research_yu_2026].
+demand, and it is the reason no aircraft carries a rotor seat. The contemporary literature is [Feng et al
+2015][research_feng_2015], [Gang 2015][research_gang_2015], [Kim and Song 2015][research_kim_song_2015],
+[Surendra et al 2015][research_surendra_2015], [Devalla et al 2016][research_devalla_2016], [Gao et al 2016,
+Parachute dynamics and][research_gao_2016], [Kim et al 2016, A Study on the Autonomous
+Powered][research_kim_2016], [Montalvo and Costello 2016][research_montalvo_costello_2016], [Tao et al
+2016][research_tao_2016], [Tao et al 2017][research_tao_2017], [Cacan and Costello
+2018][research_cacan_costello_2018], [Dowling and Costello 2018][research_dowling_costello_2018], [Wu et al
+2018, Accurate calculation of][research_wu_2018], [Cacan et al 2019][research_cacan_2019], [Chen et al 2019,
+A Virtual Structure Formation][research_chen_2019_3], [Jóźwiak and Kurzawiński
+2019][research_jozwiak_kurzawinski_2019], [Lv et al 2019, An Improved Nonlinear
+Multibody][research_lv_2019_2], [Tan et al 2019][research_tan_2019], [Tao et al 2019][research_tao_2019],
+[Yang and Jeon 2019][research_yang_jeon_2019], [Lv et al 2020][research_lv_2020], [Sun et al
+2020][research_sun_2020], [Zhao et al 2020][research_zhao_2020], [Chen et al 2021, Consensus-Based
+Cooperative][research_chen_2021_2], [Long et al 2021][research_long_2021], [Zhang et al 2021, Numerical
+investigation of][research_zhang_2021_4], [Zhao et al 2021, Model-Free Adaptive Control
+for][research_zhao_2021], [Gao and Tao 2022][research_gao_tao_2022], [He et al 2022][research_he_2022], [Yu
+et al 2022][research_yu_2022], [Zhang et al 2022, New general correlations for][research_zhang_2022], [Zhu
+et al 2022, Altitude Control of Powered][research_zhu_2022_2], [Ding et al 2023][research_ding_2023], [Li
+and Nan 2023][research_li_nan_2023], [Long et al 2023][research_long_2023], [Lucrezia
+2023][research_lucrezia_2023], [Prateek Sazawal and Ghosh 2023][research_prateek_sazawal_ghosh_2023], [Tan
+et al 2023][research_tan_2023], [Vambol and Kaluzhynov 2023][research_vambol_kaluzhynov_2023], [Xing et al
+2023][research_xing_2023], [Zheng et al 2023][research_zheng_2023], [Zhu et al 2023, Aerodynamic prediction
+for flight][research_zhu_2023], [Wang and Yang 2024][research_wang_yang_2024], [Ward et al
+2024][research_ward_2024], [Xing et al 2024][research_xing_2024], [Cui et al 2025, Rapid in-flight alignment
+method][research_cui_2025], [Cui et al 2025, Sparse identification of parafoil][research_cui_2025_4], [Xu et
+al 2025, Multi Zones Fluid Structure][research_xu_2025_2], [Yan et al 2025][research_yan_2025], [Yang et al
+2025, Dual-loop linear active][research_yang_2025], [Yi et al 2025][research_yi_2025], [Yu et al 2025,
+Dynamic Path Planning for][research_yu_2025_3], [Yu et al 2025, High-feasibility parafoil
+dynamic][research_yu_2025_2], [Cao et al 2026][research_cao_2026], [Fan et al 2026, Trajectory tracking
+control of][research_fan_2026_2], [Jin et al 2026][research_jin_2026], [Long et al 2026, Dynamic response
+analysis of][research_long_2026_2], [Luan et al 2026][research_luan_2026], [Wei et al
+2026][research_wei_2026], [Yan et al 2026][research_yan_2026], [Yang et al 2026, SAC-based decoupling
+LADRC][research_yang_2026_6], [Yu et al 2026][research_yu_2026].
 
 ### And Then It Was Automated
 
 **The second half of the answer removes the crewman from the control loop entirely.** Guided precision
 airdrop steers a ram-air canopy to a surveyed point without a person aboard, which is discretionary descent
-with the discretion delegated to software, in [Ivanovic and Orsag 2022][research_ivanovic_orsag_2022], [Wang
-et al 2022, Neural network-based simulation][research_wang_2022].
+with the discretion delegated to software, in [Chiel and Dever 2015][research_chiel_dever_2015], [Geiselman
+et al 2015][research_geiselman_2015], [Slegers et al 2015][research_slegers_2015], [Mukhopadhyay et al
+2016][research_mukhopadhyay_2016], [Wachlin et al 2019][research_wachlin_2019], [Ilango and R.
+2020][research_ilango_r_2020], [Ivanovic and Orsag 2022][research_ivanovic_orsag_2022], [Leeman et al
+2022][research_leeman_2022], [Wang et al 2022, Neural network-based simulation][research_wang_2022], [Yan et
+al 2023, Dynamics Modeling and Autonomous][research_yan_2023], [Chiel and Dever
+2024][research_chiel_dever_2024], [Wei et al 2024, Dynamic-model-based closed-loop][research_wei_2024], [Qi
+et al 2025, Research on Parafoil Precision][research_qi_2025_2].
+
+### The Machine That Cannot Do It
+
+**This is the thread the X-25 would find most interesting and it did not exist in 1968.**
+
+Electric vertical takeoff aircraft have brought the small one-person or few-person flying machine back as a
+serious industry, with certification programmes, conceptual design literature and an airworthiness apparatus
+behind it, in [Avanzini et al 2017][research_avanzini_2017], [Moore and Ning
+2019][research_moore_ning_2019], [Van et al 2019][research_van_2019], [Yan et al 2019][research_yan_2019],
+[Brown and Harris 2020][research_brown_harris_2020], [Cokorilo 2020][research_cokorilo_2020], [Fujihara et
+al 2020][research_fujihara_2020], [Hou et al 2020][research_hou_2020], [Lee et al 2020][research_lee_2020],
+[Lien et al 2020][research_lien_2020], [Ma et al 2020][research_ma_2020], [Nguyen Van et al
+2020][research_nguyen_van_2020], [Piccinini et al 2020][research_piccinini_2020], [Wang et al 2020,
+Helicopter Safe Landing][research_wang_2020], [Yang and Wei 2020][research_yang_wei_2020], [Akash et al
+2021][research_akash_2021], [Alonso Castilla et al 2021][research_alonso_castilla_2021], [Kevin Li and Lee
+2021][research_kevin_li_lee_2021], [Perry et al 2021][research_perry_2021], [Pukhova et al
+2021][research_pukhova_2021], [Saias et al 2021][research_saias_2021], [Weng et al
+2021][research_weng_2021], [Yang et al 2021][research_yang_2021], [Cheng et al 2022][research_cheng_2022],
+[Ci̇zreli̇oğullari et al 2022][research_cizreliogullari_2022], [Dalwadi et al 2022, Observer based rotor
+failure][research_dalwadi_2022_2], [Dalwadi et al 2022, Rotor Failure Compensation in
+a][research_dalwadi_2022], [Goyal and Cohen 2022][research_goyal_cohen_2022], [Healy et al
+2022][research_healy_2022], [Johnsen et al 2022][research_johnsen_2022], [Li et al 2022][research_li_2022],
+[Ma et al 2022, A Conceptual Design and][research_ma_2022_2], [Mao et al 2022][research_mao_2022], [Mendolia
+et al 2022][research_mendolia_2022], [Preis and Hornung 2022][research_preis_hornung_2022], [Saetti et al
+2022][research_saetti_2022], [Schweiger and Preis 2022][research_schweiger_preis_2022], [Shin et al
+2022][research_shin_2022], [Siena Whiteside and Beau Pollard
+2022][research_siena_whiteside_beau_pollard_2022], [Transport - Medical Aircraft
+2022][research_transport_2022], [Vechtel and Buch 2022][research_vechtel_buch_2022], [Wang et al 2022,
+Complexity Optimal Air Traffic][research_wang_2022_6], [Wei et al 2022][research_wei_2022], [Ambroziak et al
+2023][research_ambroziak_2023], [Boucher et al 2023][research_boucher_2023], [Bridgelall et al 2023,
+Integrating Electric Vertical][research_bridgelall_2023], [Chin et al 2023][research_chin_2023], [Cusati et
+al 2023][research_cusati_2023], [Golden et al 2023][research_golden_2023], [Husemann et al
+2023][research_husemann_2023], [Nakamoto et al 2023][research_nakamoto_2023], [Perry et al
+2023][research_perry_2023], [Rostami et al 2023][research_rostami_2023], [Sharma et al
+2023][research_sharma_2023], [Simmons 2023][research_simmons_2023], [Tomaszewski and Kołakowski
+2023][research_tomaszewski_koakowski_2023], [Ugwueze et al 2023][research_ugwueze_2023], [Wang et al 2023,
+Bi-layer sizing and design][research_wang_2023], [Wu et al 2023][research_wu_2023], [Xie et al
+2023][research_xie_2023], [Zhang et al 2023, Experimental research on][research_zhang_2023_3], [Zhao et al
+2023, Modeling and Dynamic Stability][research_zhao_2023], [Abeyratne 2024][research_abeyratne_2024],
+[Bilgin et al 2024][research_bilgin_2024], [Bridgelall 2024, Aircraft Innovation
+Trends][research_bridgelall_2024], [Bridgelall 2024, Spatial Analysis of Advanced
+Air][research_bridgelall_2024_2], [Cecutta 2024][research_cecutta_2024], [Dai et al
+2024][research_dai_2024], [Farazi and Zou 2024][research_farazi_zou_2024], [Goldschmidt et al
+2024][research_goldschmidt_2024], [Goshtasbi et al 2024][research_goshtasbi_2024], [Hoffmann et al
+2024][research_hoffmann_2024], [Ison 2024][research_ison_2024], [Jebelli et al 2024][research_jebelli_2024],
+[Kaneko and Martins 2024][research_kaneko_martins_2024], [Lange et al 2024][research_lange_2024], [Lee and
+Yee 2024, Novel Electric Propulsion System][research_lee_yee_2024], [Li and Lee 2024][research_li_lee_2024],
+[Lympany and Page 2024][research_lympany_page_2024], [McKercher et al 2024][research_mckercher_2024], [Nam
+et al 2024][research_nam_2024], [Oyama et al 2024][research_oyama_2024], [Purtell et al
+2024][research_purtell_2024], [Qin et al 2024][research_qin_2024], [Saied et al 2024][research_saied_2024],
+[Satria Palar et al 2024][research_satria_palar_2024], [Schweighofer et al
+2024][research_schweighofer_2024], [Shi 2024, Aviation Safety for Urban Air][research_shi_2024_2], [Shi et
+al 2024, Rapid Design Method of][research_shi_2024], [Turchetti and Condé Rocha Murça
+2024][research_turchetti_conde_rocha_murca_2024], [Vempati et al 2024][research_vempati_2024], [Wei et al
+2024, Aerodynamic simulations of an][research_wei_2024_2], [Xin and Lee 2024][research_xin_lee_2024], [Yan
+et al 2024, Rotor cross-tilt optimization for][research_yan_2024_3], [Zhao et al 2024, Design and Flight
+Simulation][research_zhao_2024_3], [Zhao et al 2024, Liquid Cooling Systems for][research_zhao_2024], [Zhou
+et al 2024][research_zhou_2024], [Campanale and Grace 2025][research_campanale_grace_2025], [Charnsethikul
+et al 2025][research_charnsethikul_2025], [Chen et al 2025][research_chen_2025], [Comunian et al
+2025][research_comunian_2025], [Czyż et al 2025][research_czyz_2025], [Darvishpoor et al
+2025][research_darvishpoor_2025], [Dulia and Shihab 2025][research_dulia_shihab_2025], [Gu et al
+2025][research_gu_2025], [Jia and Li 2025][research_jia_li_2025], [Kang et al 2025][research_kang_2025],
+[Khoshnood 2025][research_khoshnood_2025], [Kim and Zhang 2025][research_kim_zhang_2025], [Kim et al 2025,
+Improved Conceptual Design of][research_kim_2025_2], [Kirste and Stumpf 2025][research_kirste_stumpf_2025],
+[Liang et al 2025][research_liang_2025], [Ma et al 2025, Aeropropulsive Coupling][research_ma_2025_2], [Ma
+et al 2025, Autonomous Emergency Gliding][research_ma_2025], [Montazeri et al
+2025][research_montazeri_2025], [Namuduri and Gambold 2025][research_namuduri_gambold_2025], [Panish and
+Bacic 2025][research_panish_bacic_2025], [Park 2025, A weight fraction-based][research_park_2025_2], [Perez
+et al 2025][research_perez_2025], [Raza et al 2025][research_raza_2025], [Shang et al
+2025][research_shang_2025], [Shon and Lee 2025][research_shon_lee_2025], [Simha and Ambroziak
+2025][research_simha_ambroziak_2025], [Su and Xu 2025][research_su_xu_2025], [Zhyriakov et al
+2025][research_zhyriakov_2025], [Ziakkas and Natakusuma 2025][research_ziakkas_natakusuma_2025], [Zuo et al
+2025][research_zuo_2025], [Alulema et al 2026][research_alulema_2026], [Beak and Kim
+2026][research_beak_kim_2026], [Cai et al 2026][research_cai_2026], [Chen et al 2026, Flight path planning
+with ground][research_chen_2026_4], [Choi et al 2026][research_choi_2026], [Critchfield and Ning
+2026][research_critchfield_ning_2026], [Dožić et al 2026][research_dozic_2026], [Granata et al
+2026][research_granata_2026], [Hasselmann 2026][research_hasselmann_2026], [He et al 2026, A Hierarchical
+Optimization][research_he_2026], [Hu et al 2026, Urban Air Mobility Risk][research_hu_2026_2], [Huang et al
+2026, Rotor configuration optimization][research_huang_2026_3], [Immersion and Invariance Adaptive
+2026][research_immersion_and_2026], [Keller et al 2026][research_keller_2026], [Kim and Moon
+2026][research_kim_moon_2026], [Kopyt and Stephens 2026][research_kopyt_stephens_2026], [Kwak
+2026][research_kwak_2026], [Li and Zhang 2026][research_li_zhang_2026], [Liang et al
+2026][research_liang_2026], [Liu et al 2026, Adopting electric vertical][research_liu_2026], [Lombardi et al
+2026][research_lombardi_2026], [Mason-Wilkes 2026][research_mason_wilkes_2026], [Mirković et al
+2026][research_mirkovic_2026], [Monemi Nodehi et al 2026][research_monemi_nodehi_2026], [Montaruli et al
+2026][research_montaruli_2026], [Nasr et al 2026][research_nasr_2026], [Navarrete
+2026][research_navarrete_2026], [Nguyen 2026][research_nguyen_2026], [Pang et al 2026][research_pang_2026],
+[Spadão et al 2026][research_spadao_2026], [Wang et al 2026, Aerodynamic Interaction
+Analysis][research_wang_2026_2], [Yanev and Staack 2026][research_yanev_staack_2026], [Yang et al 2026,
+Phase-segmented feature][research_yang_2026_3], [Hu et al 2027][research_hu_2027], [Zhou and Ng
+2027][research_zhou_ng_2027].
+
+**A multirotor cannot autorotate.** A helicopter rotor stores energy in a large disc turning fast, and a
+lift rotor on a distributed-propulsion aircraft is small, lightly loaded and often fixed in pitch, so the
+two properties autorotation needs are both absent. Written in this article's own terms, the stored energy is
+
+$$E = \frac{N}{6} m_b V_{tip}^2$$
+
+and a small light blade turning at modest tip speed has very little of it, while the disc loading that sets
+the descent rate is high because the disc is small.
+**The X-25's rotor was a bad parachute and a good glider. A multirotor is neither.**
+
+**The industry's answer is not a better rotor. It is redundancy**, meaning enough independent lift units
+that the loss of one is survivable, which is a completely different safety philosophy from the one the X-25
+embodies.
+**Autorotation says the aircraft can always become a glider. Redundancy says the aircraft will not fail in the first place.**
+The contemporary literature on rotor failure, fault-tolerant control and propulsion redundancy is where that
+argument is being had.
+
+**That is the sharpest thing this survey has to say.** The capability the Discretionary Descent Vehicle was
+built entirely around is the one the current generation of small rotorcraft has quietly given up, and it
+gave it up for a reason the X-25 would have recognised, which is that the rotor you can carry is not the
+rotor you want.
 
 ### The Same Physics, Now Called Wind Energy
 
 **The windmill brake state is no longer an emergency. It is a business.** A wind turbine rotor is an
 autorotating rotor in a different reference frame, and the blade-element momentum machinery this article
 uses to size a descent is the same machinery used to size a turbine.
-**The largest living body of work on the X-25's keystone physics is in wind energy**, in [Tammaruckwattana
-et al 2015][research_tammaruckwattana_2015], [Bai and Shiah 2016][research_bai_shiah_2016], [Lee et al
-2016][research_lee_2016], [Sun et al 2016][research_sun_2016], [Yang et al 2016][research_yang_2016],
-[Dehouck et al 2017][research_dehouck_2017], [Xie et al 2017, Wind tunnel testing and
-improved][research_xie_2017], [Karthikeyan and Gokul Karthik 2018][research_karthikeyan_gokul_karthik_2018],
-[Tahir et al 2018][research_tahir_2018], [Tang et al 2018][research_tang_2018], [Yoshida
-2018][research_yoshida_2018], [Zhang et al 2018, Fatigue damage assessment of wind][research_zhang_2018_3],
-[Augusto et al 2019][research_augusto_2019], [Bhargava and Samala 2019][research_bhargava_samala_2019],
-[Bidikli 2019][research_bidikli_2019], [Tabatabaei et al 2019][research_tabatabaei_2019], [Yang et al
-2019][research_yang_2019], [Kao et al 2020][research_kao_2020], [Moshfeghi and Hur
-2020][research_moshfeghi_hur_2020], [Tien 2020][research_tien_2020], [Chabaud 2021][research_chabaud_2021],
-[Mujahid et al 2021][research_mujahid_2021], [Siram et al 2021][research_siram_2021], [Corniglion et al
-2022][research_corniglion_2022], [Hosseini et al 2022][research_hosseini_2022], [Syed Ahmed Kabir et al
-2022][research_syed_ahmed_kabir_2022], [Yin et al 2022][research_yin_2022], [Asadi and Hassanzadeh
-2023][research_asadi_hassanzadeh_2023], [Ju 2023][research_ju_2023], [Nishi et al
-2023][research_nishi_2023], [Pratama Ricky Novianto et al 2023][research_pratama_ricky_novianto_2023],
-[Yilmaz 2023][research_yilmaz_2023], [Özkan and Genç 2023][research_ozkan_genc_2023], [Abbas et al
-2024][research_abbas_2024], [Baisthakur and Fitzgerald 2024][research_baisthakur_fitzgerald_2024], [Kulak et
-al 2024][research_kulak_2024], [Ludlam et al 2024][research_ludlam_2024], [Saulescu and Neagoe
-2024][research_saulescu_neagoe_2024], [Shen et al 2024, The influence of the rotor][research_shen_2024_2],
-[Abedi and Eskilsson 2025][research_abedi_eskilsson_2025], [Le et al 2025][research_le_2025], [Selvatici and
-Stevens 2025][research_selvatici_stevens_2025], [Yushan et al 2025][research_yushan_2025], [Adema et al
-2026][research_adema_2026], [Fu 2026][research_fu_2026], [Rotor Speed Recovery Strategy
-2026][research_rotor_speed_2026], [Zhang et al 2026, Real-time hybrid testing of
-rotor][research_zhang_2026_3].
+**The largest living body of work on the X-25's keystone physics is in wind energy**, in [Dimitrov
+2015][research_dimitrov_2015], [Eliassen et al 2015][research_eliassen_2015], [Erhard and Strauch
+2015][research_erhard_strauch_2015], [Gong and Chen 2015][research_gong_chen_2015], [Ichter et al
+2015][research_ichter_2015], [Luhur et al 2015][research_luhur_2015], [Park 2015][research_park_2015],
+[Schlipf et al 2015][research_schlipf_2015], [Sineglazov 2015][research_sineglazov_2015], [Tammaruckwattana
+et al 2015][research_tammaruckwattana_2015], [Wang et al 2015][research_wang_2015], [Bai and Shiah
+2016][research_bai_shiah_2016], [Barnes and Morozov 2016][research_barnes_morozov_2016], [Berg et al
+2016][research_berg_2016], [Bromm et al 2016][research_bromm_2016], [Holtslag et al
+2016][research_holtslag_2016], [Jun and Wenlong 2016][research_jun_wenlong_2016], [Khanjari et al
+2016][research_khanjari_2016], [Kosasih and Saleh Hudin 2016][research_kosasih_saleh_hudin_2016], [Lee et al
+2016][research_lee_2016], [Moghadassian et al 2016][research_moghadassian_2016], [Patil et al
+2016][research_patil_2016], [Pirrung et al 2016][research_pirrung_2016], [Shi et al 2016, Numerical study of
+ice-induced][research_shi_2016], [Sineglazov et al 2016][research_sineglazov_2016], [Sultania and Manuel
+2016][research_sultania_manuel_2016], [Sun et al 2016][research_sun_2016], [Yang et al 2016, Inverse
+Aerodynamic Optimization][research_yang_2016], [Yoshida et al 2016][research_yoshida_2016], [Attaf
+2017][research_attaf_2017], [Bagherpoor and Xuemin 2017][research_bagherpoor_xuemin_2017], [Bontempo and
+Manna 2017][research_bontempo_manna_2017], [Chen 2017, Experimental investigation on][research_chen_2017_2],
+[Dehouck et al 2017][research_dehouck_2017], [Fagan et al 2017][research_fagan_2017], [Guo and
+Ganapathysubramanian 2017][research_guo_ganapathysubramanian_2017], [Herráez et al
+2017][research_herraez_2017], [Park 2017, A Study on Structural Design and][research_park_2017_2], [Park
+2017, Structural Design and Analysis of][research_park_2017], [Richmond-Navarro et al
+2017][research_richmond_navarro_2017], [Xie et al 2017, Wind tunnel testing and
+improved][research_xie_2017], [Analysis Model of a 2018][research_analysis_model_2018], [Berger and Kühn
+2018][research_berger_kuhn_2018], [Ehrich et al 2018][research_ehrich_2018], [Karthikeyan and Gokul Karthik
+2018][research_karthikeyan_gokul_karthik_2018], [Khanjari et al 2018][research_khanjari_2018], [Pamuji and
+Bramantya 2018][research_pamuji_bramantya_2018], [Sakurai et al 2018][research_sakurai_2018], [Schafhirt and
+Muskulus 2018][research_schafhirt_muskulus_2018], [Tahir et al 2018][research_tahir_2018], [Tang et al
+2018][research_tang_2018], [Wang et al 2018, LES simulation and experimental][research_wang_2018_7],
+[Yoshida 2018][research_yoshida_2018], [Zhang et al 2018, Fatigue damage assessment of
+wind][research_zhang_2018_3], [Al-Solihat et al 2019][research_al_solihat_2019], [Antar et al
+2019][research_antar_2019], [Augusto et al 2019][research_augusto_2019], [Bhargava and Samala
+2019][research_bhargava_samala_2019], [Bidikli 2019][research_bidikli_2019], [Castillo et al
+2019][research_castillo_2019], [Choi et al 2019, Structural design and analyses of][research_choi_2019_3],
+[Goit and Ishihara 2019][research_goit_ishihara_2019], [Hannesdóttir et al
+2019][research_hannesdottir_2019], [Lipian et al 2019][research_lipian_2019], [Robertson et al
+2019][research_robertson_2019], [Santo et al 2019][research_santo_2019], [Tabatabaei et al
+2019][research_tabatabaei_2019], [Yang et al 2019, Research on the characteristic][research_yang_2019],
+[Zhang et al 2019, Influence of Low-Level Jet][research_zhang_2019_2], [Zhang et al 2019, Influence of the
+Heights of][research_zhang_2019], [Apsley and Stansby 2020][research_apsley_stansby_2020], [Bangga et al
+2020][research_bangga_2020], [De Tavernier and Ferreira 2020][research_de_tavernier_ferreira_2020], [Kao et
+al 2020][research_kao_2020], [Moshfeghi and Hur 2020][research_moshfeghi_hur_2020], [Nukala and Maddula
+2020][research_nukala_maddula_2020], [Perez-Becker et al 2020][research_perez_becker_2020], [Pirrung
+2020][research_pirrung_2020], [Song and Paek 2020][research_song_paek_2020], [Tang et al
+2020][research_tang_2020], [Tien 2020][research_tien_2020], [Ullah et al 2020][research_ullah_2020],
+[Chabaud 2021][research_chabaud_2021], [El Beshbichi et al 2021][research_el_beshbichi_2021], [Fang et al
+2021][research_fang_2021], [Ferede and Gandhi 2021][research_ferede_gandhi_2021], [Greco and Testa
+2021][research_greco_testa_2021], [Kc et al 2021][research_kc_2021], [Liu et al 2021, Frequency Trajectory
+Planning][research_liu_2021], [Liu et al 2021, Lagrangian actuator model for][research_liu_2021_4], [Mujahid
+et al 2021][research_mujahid_2021], [Neagoe et al 2021][research_neagoe_2021], [Potentier et al
+2021][research_potentier_2021], [Prajapat et al 2021][research_prajapat_2021], [Siram et al
+2021][research_siram_2021], [Wester et al 2021][research_wester_2021], [Corniglion et al
+2022][research_corniglion_2022], [Ferreira et al 2022][research_ferreira_2022], [He and Xia
+2022][research_he_xia_2022], [Hosseini et al 2022][research_hosseini_2022], [Ismaiel
+2022][research_ismaiel_2022], [Kaminski et al 2022][research_kaminski_2022], [Qin et al
+2022][research_qin_2022], [Radi and Djebli 2022][research_radi_djebli_2022], [Syed Ahmed Kabir et al
+2022][research_syed_ahmed_kabir_2022], [Yin et al 2022][research_yin_2022], [Zhao et al 2022, Research on
+the rotor speed and][research_zhao_2022_2], [Asadi and Hassanzadeh 2023][research_asadi_hassanzadeh_2023],
+[Boatto et al 2023][research_boatto_2023], [Chandana and Radha 2023][research_chandana_radha_2023], [Ju
+2023][research_ju_2023], [Manga et al 2023][research_manga_2023], [Nishi et al 2023][research_nishi_2023],
+[Pratama Ricky Novianto et al 2023][research_pratama_ricky_novianto_2023], [Qi et al
+2023][research_qi_2023], [Raibaudo et al 2023][research_raibaudo_2023], [Trigaux et al
+2023][research_trigaux_2023], [Uchida et al 2023][research_uchida_2023], [Wan Muhammad and Mohd
+2023][research_wan_muhammad_mohd_2023], [Wood and Golmirzaee 2023][research_wood_golmirzaee_2023], [Yan et
+al 2023, Design and Analysis of an][research_yan_2023_3], [Yilmaz 2023][research_yilmaz_2023], [Zhao et al
+2023, Effect of the yaw angle on the][research_zhao_2023_4], [Özkan and Genç
+2023][research_ozkan_genc_2023], [Abbas et al 2024][research_abbas_2024], [Baisthakur and Fitzgerald
+2024][research_baisthakur_fitzgerald_2024], [Bao et al 2024, The Study of Structural
+Dynamic][research_bao_2024_2], [Cheung et al 2024][research_cheung_2024], [Kulak et al
+2024][research_kulak_2024], [Lee and Park 2024][research_lee_park_2024], [Leng et al
+2024][research_leng_2024], [Li and Yang 2024][research_li_yang_2024], [Ludlam et al
+2024][research_ludlam_2024], [N. Ell et al 2024][research_n_ell_2024], [Peng et al 2024, Nonlinear dynamic
+analysis of][research_peng_2024_3], [Saulescu and Neagoe 2024][research_saulescu_neagoe_2024], [Savino et al
+2024][research_savino_2024], [Shen et al 2024, The influence of the rotor][research_shen_2024_2], [Wang et
+al 2024, Rendezvous Trajectory Planning][research_wang_2024_6], [Yoshida and Fekry
+2024][research_yoshida_fekry_2024], [van der Laan et al 2024][research_van_der_laan_2024], [Abedi and
+Eskilsson 2025][research_abedi_eskilsson_2025], [Giri Ajay et al 2025][research_giri_ajay_2025], [Le et al
+2025, Application of blade element][research_le_2025], [Selvatici and Stevens
+2025][research_selvatici_stevens_2025], [Wiley et al 2025][research_wiley_2025], [Yin et al 2025, A new
+Blade Element Momentum][research_yin_2025_2], [Yushan et al 2025][research_yushan_2025], [Adema et al
+2026][research_adema_2026], [Bibi et al 2026][research_bibi_2026], [Fu 2026][research_fu_2026], [Han et al
+2026, The vibration mechanism of a][research_han_2026_2], [Hoghooghi and Bottasso
+2026][research_hoghooghi_bottasso_2026], [Jia et al 2026][research_jia_2026], [Manohare et al
+2026][research_manohare_2026], [Panda et al 2026][research_panda_2026], [Rotor Speed Recovery Strategy
+2026][research_rotor_speed_2026], [Shen et al 2026, Maximum power coefficient of][research_shen_2026_2],
+[Störtenbecker and Dalhoff 2026][research_stortenbecker_dalhoff_2026], [Vlastos et al
+2026][research_vlastos_2026], [Winning et al 2026][research_winning_2026], [Wu et al
+2026][research_wu_2026], [Zhang et al 2026, Real-time hybrid testing of rotor][research_zhang_2026_3].
+
+### The Rotor at One Percent of Sea Level
+
+**The equation pass added the relation that descent rate goes as one over the square root of density. That relation is now being tested at an extreme no terrestrial machine reaches.**
+
+A rotorcraft flying on Mars operates in roughly one percent of sea-level density. Everything this article
+derives about disc loading and descent follows the same algebra there, and the consequences are severe and
+not academic, which is why such vehicles carry very large rotors for their mass and turn them close to the
+speed of sound. The contemporary work on rotor aerodynamics at low density and low Reynolds number is [San
+Martin et al 2017][research_san_martin_2017], [Koning 2019, Airfoil Selection for Mars
+Rotor][research_koning_2019_2], [Koning et al 2019, Improved Mars Helicopter][research_koning_2019_3],
+[Koning et al 2019, Performance Optimization of Plate][research_koning_2019], [Serré et al
+2019][research_serre_2019], [Zhao et al 2019][research_zhao_2019], [Franklin D. Harris
+2020][research_franklin_d_harris_2020], [Koning et al 2020][research_koning_2020], [McElreath et al
+2020][research_mcelreath_2020], [Chen and Hubner 2021, Experimental and
+Analytical][research_chen_hubner_2021_2], [Fox 2021][research_fox_2021], [Gojon et al
+2021][research_gojon_2021], [Kamruzzaman et al 2021][research_kamruzzaman_2021], [Kruesi
+2021][research_kruesi_2021], [Leslie 2021][research_leslie_2021], [Veismann et al
+2021][research_veismann_2021], [Zhang and Yang 2021][research_zhang_yang_2021], [Nepal et al
+2023][research_nepal_2023], [Ravi Lumba et al 2023][research_ravi_lumba_2023], [Yamaguchi and Anyoji
+2023][research_yamaguchi_anyoji_2023], [Joshua Bowman et al 2024][research_joshua_bowman_2024], [Wang et al
+2024, Genetic algorithm based][research_wang_2024_5], [Zhao et al 2025][research_zhao_2025], [Datta et al
+2026][research_datta_2026], [Zhang et al 2026, Trajectory Planning and][research_zhang_2026_7], [tang et al
+2026][research_tang_2026].
+
+**The article's own altitude section is the same calculation stopped early.** A rotor at twenty thousand
+feet descends 37 percent faster than at sea level. A rotor at Martian density would descend about ten times
+faster, which is the reason the comparison is worth making at all.
 
 ### The Seed Had It First
 
 Autorotation is not an invention. A maple samara descends by autorotating, and the contemporary
 rotary-decelerator and micro air vehicle literature cites it directly, in [Deng 2015][research_deng_2015],
-[Liu et al 2015][research_liu_2015], [OS1 Bio-inspired Flight System 2015][research_os1_bio_inspired_2015],
-[Pounds and Singh 2015][research_pounds_singh_2015], [Liu 2016, Bio-inspired flight system
-and][research_liu_2016_3], [Kotelnikova 2017][research_kotelnikova_2017], [Wu et al 2017][research_wu_2017],
-[Suhadi et al 2022][research_suhadi_2022], [Tong et al 2022, Longitudinal flight
-dynamics][research_tong_2022], [Cai et al 2025, Design and Optimization of a][research_cai_2025], [Huang et
-al 2026, A bio-inspired hybrid flapping][research_huang_2026], [Zhang et al 2026, Noise reduction mechanism
-of a][research_zhang_2026_4].
+[Dormiyani et al 2015][research_dormiyani_2015], [Liu et al 2015][research_liu_2015], [OS1 Bio-inspired
+Flight System 2015][research_os1_bio_inspired_2015], [Pounds and Singh 2015][research_pounds_singh_2015],
+[Liu 2016, Bio-inspired flight system and][research_liu_2016_3], [Kotelnikova
+2017][research_kotelnikova_2017], [Wu et al 2017][research_wu_2017], [Li and Guo
+2018][research_li_guo_2018], [Porritiello et al 2022][research_porritiello_2022], [Suhadi et al
+2022][research_suhadi_2022], [Tong et al 2022, Longitudinal flight dynamics][research_tong_2022], [Cai et al
+2025, Design and Optimization of a][research_cai_2025], [Huang et al 2026, A bio-inspired hybrid
+flapping][research_huang_2026], [Zhang et al 2026, Noise reduction mechanism of a][research_zhang_2026_4].
+
+### How Loud the Tips Are
+
+**This article assumed a tip speed of 400 feet per second and never said what bounds it.** At the upper end
+the limit is compressibility on the advancing blade. At the lower end it is stored energy, which this
+article has already shown goes as the square of tip speed.
+**In between, and dominating modern design, sits noise.** Rotor noise rises steeply with tip speed, and
+community noise acceptability has become a design driver and no longer a courtesy, in [Delattre et al
+2016][research_delattre_2016], [van der Wall et al 2017][research_van_der_wall_2017], [Greenwood and Schmitz
+2018][research_greenwood_schmitz_2018], [Szulc and Doerffer 2018][research_szulc_doerffer_2018], [Yang et al
+2018, A Dual Compact Model for Rotor][research_yang_2018_2], [Shukla and Komerath
+2019][research_shukla_komerath_2019], [Sou 2019][research_sou_2019], [Yang et al 2019, Study of Active Rotor
+Control for][research_yang_2019_3], [Jia and Lee 2020][research_jia_lee_2020], [Li and Lee
+2020][research_li_lee_2020], [Polyzos et al 2020][research_polyzos_2020], [Bauer et al
+2021][research_bauer_2021], [Tormen et al 2021][research_tormen_2021], [Vouros et al
+2021][research_vouros_2021], [Lukianov 2022][research_lukianov_2022], [Nowoświat et al
+2022][research_nowoswiat_2022], [Christopher S. Thurman and James D. Baeder
+2023][research_christopher_s_thurman_james_d_baeder_2023], [Eric Greenwood et al
+2023][research_eric_greenwood_2023], [Fu et al 2023][research_fu_2023], [Gjestland
+2023][research_gjestland_2023], [Kingan et al 2023][research_kingan_2023], [Su Jung et al
+2023][research_su_jung_2023], [Buǧday and Saetti 2024][research_bugday_saetti_2024], [Goudswaard et al
+2024][research_goudswaard_2024], [Johnson-Groh 2024][research_johnson_groh_2024], [Saetti et al 2024,
+Linearized Models of the Coupled][research_saetti_2024_2], [Shao et al 2024][research_shao_2024], [Yuk et al
+2024][research_yuk_2024], [Arystanbekov et al 2025][research_arystanbekov_2025], [Boucher
+2025][research_boucher_2025], [Jung et al 2025][research_jung_2025], [Pereira et al
+2025][research_pereira_2025], [Turhan et al 2025][research_turhan_2025], [Melo et al
+2026][research_melo_2026], [Philipps-Bertin et al 2026][research_philipps_bertin_2026], [Stefan J Letica and
+Stephen A Rizzi 2026][research_stefan_j_letica_stephen_a_rizzi_2026].
+
+**That is a constraint the X-25 did not have and an eVTOL cannot escape**, and it pushes tip speed down at
+exactly the moment the stored-energy argument wants it up.
+
+### The Gyroplane Did Not Disappear
+
+**The type the X-25 belonged to is still flying and still being written about**, with contemporary work on
+gyroplane flight dynamics, stability and experimental rotor measurement, in [Czyż et al
+2015][research_czyz_2015], [Shin and Kim 2015][research_shin_kim_2015], [Wu 2015, A Controller for Tracking
+Steep][research_wu_2015], [Figat 2017][research_figat_2017], [Houston and Thomson
+2017][research_houston_thomson_2017], [Stalewski 2017][research_stalewski_2017], [Cai et al
+2018][research_cai_2018], [Cieślak and Krzymień 2018][research_cieslak_krzymien_2018], [Czyż et al
+2018][research_czyz_2018], [Lee et al 2018][research_lee_2018], [Stalewski 2018][research_stalewski_2018],
+[Лучко and Зінченко 2018][research___2018], [Design of Composite Gyrocopter 2019][research_design_of_2019],
+[Wojtas and Sobieszek 2019][research_wojtas_sobieszek_2019], [Czarnigowski
+2020][research_czarnigowski_2020], [Rezgui and Lowenberg 2020][research_rezgui_lowenberg_2020], [Łusiak
+2022][research_usiak_2022].
+
+**Its safety record is the part that bears on this article.** The gyroplane has a long-standing reputation
+for being unforgiving of mishandled rotor speed and of pitch inputs that unload the rotor, which is
+precisely the property that makes it a poor choice for a person who has just ejected and has no rotorcraft
+training.
+**The programme's own conclusion, that the hard problem was training rather than aerodynamics, has been restated by the accident record of the type over the following half century.**
 
 ### Rotors on Everything
 
@@ -1191,71 +1551,116 @@ vehicles, multirotors and distributed propulsion have made rotor sizing a mass-m
 [Billings and Durlach 2010][research_billings_durlach_2010], [Bostian and Young
 2011][research_bostian_young_2011], [Yang 2013][research_yang_2013], [Horowitz et al
 2014][research_horowitz_2014], [Oncu and Yildiz 2014][research_oncu_yildiz_2014], [Design and Fluid Flow
-2015][research_design_and_2015], [Hwang et al 2015][research_hwang_2015], [Miao and Li
-2015][research_miao_li_2015], [Multi-Rotors A Revolution In 2015][research_multi_rotors_a_2015], [Vargas et
-al 2015][research_vargas_2015], [Aziz et al 2016][research_aziz_2016], [Bezandry et al
-2016][research_bezandry_2016], [Kumari and Raghunath 2016][research_kumari_raghunath_2016], [Szabolcsi
-2016][research_szabolcsi_2016], [An Overview On Unmanned 2017][research_an_overview_2017], [Katz
-2017][research_katz_2017], [Gavrilovic et al 2018][research_gavrilovic_2018], [Sharma et al
-2018][research_sharma_2018], [Zhang et al 2018, Measurement of Unmanned Aerial][research_zhang_2018_2], [Lin
-et al 2019][research_lin_2019], [Luo et al 2019][research_luo_2019], [Sadasivan
-2019][research_sadasivan_2019], [Song et al 2019][research_song_2019], [Vladimirov and Koceski
+2015][research_design_and_2015], [Friedrich and Robertson 2015][research_friedrich_robertson_2015], [Hwang
+et al 2015][research_hwang_2015], [Li et al 2015, Monocular Snapshot-based Sensing][research_li_2015_2],
+[Miao and Li 2015][research_miao_li_2015], [Multi-Rotors A Revolution In
+2015][research_multi_rotors_a_2015], [Vargas et al 2015][research_vargas_2015], [Aziz et al
+2016][research_aziz_2016], [Bezandry et al 2016][research_bezandry_2016], [Coombes et al
+2016][research_coombes_2016], [Dong et al 2016][research_dong_2016], [Dougherty and Lee
+2016][research_dougherty_lee_2016], [Kumari and Raghunath 2016][research_kumari_raghunath_2016], [Szabolcsi
+2016][research_szabolcsi_2016], [Adibi et al 2017][research_adibi_2017], [An Overview On Unmanned
+2017][research_an_overview_2017], [Bezzaoucha et al 2017][research_bezzaoucha_2017], [Bondarenko et al
+2017][research_bondarenko_2017], [Gonçalves et al 2017][research_goncalves_2017], [Hu et al
+2017][research_hu_2017], [Huang et al 2017][research_huang_2017], [Katz 2017][research_katz_2017], [Merheb
+et al 2017][research_merheb_2017], [Ong and Kochenderfer 2017][research_ong_kochenderfer_2017], [Verbeke and
+Schutter 2017][research_verbeke_schutter_2017], [Wang et al 2017, Fault-Tolerant Adaptive
+Control][research_wang_2017_2], [Zheng et al 2017, Adaptive Sliding Mode Relative][research_zheng_2017_2],
+[AL-Madani et al 2018][research_al_madani_2018], [Autonomous flight control of
+2018][research_autonomous_flight_2018], [Gavrilovic et al 2018][research_gavrilovic_2018], [Hayashi et al
+2018][research_hayashi_2018], [Huang et al 2018][research_huang_2018], [Polvara et al
+2018][research_polvara_2018], [Saif et al 2018][research_saif_2018], [Sharma et al
+2018][research_sharma_2018], [Tripathi et al 2018][research_tripathi_2018], [Wang and Zhang
+2018][research_wang_zhang_2018], [Zhang and Li 2018, Detection of multiple][research_zhang_li_2018], [Zhang
+et al 2018, Measurement of Unmanned Aerial][research_zhang_2018_2], [Lin et al 2019][research_lin_2019],
+[Liu et al 2019, An Onboard Vision-Based System][research_liu_2019_3], [Luo et al 2019][research_luo_2019],
+[Sadasivan 2019][research_sadasivan_2019], [Saied et al 2019, Active versus passive][research_saied_2019_2],
+[Saied et al 2019, BFA fuzzy logic based control][research_saied_2019], [Shavin and Pritykin
+2019][research_shavin_pritykin_2019], [Song et al 2019][research_song_2019], [Vladimirov and Koceski
 2019][research_vladimirov_koceski_2019], [Yıldırım et al 2019][research_yldrm_2019], [Abdelmaksoud et al
-2020][research_abdelmaksoud_2020], [Annepu and Rajesh 2020][research_annepu_rajesh_2020], [Fujihara et al
-2020][research_fujihara_2020], [Gan and Xu 2020][research_gan_xu_2020], [Lei and Cheng
-2020][research_lei_cheng_2020], [Ma et al 2020][research_ma_2020], [Çoban 2020][research_coban_2020],
-[Bodunkov and Kim 2021][research_bodunkov_kim_2021], [Deng et al 2021][research_deng_2021], [Lee et al
-2021][research_lee_2021], [Loureiro et al 2021][research_loureiro_2021], [Su and Wang
-2021][research_su_wang_2021], [Turan et al 2021][research_turan_2021], [Yang et al
-2021][research_yang_2021], [Jung and Oh 2022][research_jung_oh_2022], [Kantibhai Gohel
-2022][research_kantibhai_gohel_2022], [Siena Whiteside and Beau Pollard
-2022][research_siena_whiteside_beau_pollard_2022], [Bridgelall et al 2023][research_bridgelall_2023], [Chen
-et al 2023, Joint Unmanned Aerial Vehicle][research_chen_2023_2], [Jiang and Yin
-2023][research_jiang_yin_2023], [Meng et al 2023][research_meng_2023], [Nakamoto et al
-2023][research_nakamoto_2023], [Wang et al 2023][research_wang_2023], [Xie et al 2023][research_xie_2023],
-[Zhao et al 2023, Modeling and Dynamic Stability][research_zhao_2023], [Cai et al 2024][research_cai_2024],
-[Ducard and Carughi 2024][research_ducard_carughi_2024], [Evdokimenkov et al 2024, Operational control of
-an][research_evdokimenkov_2024], [FEATURES OF DEVELOPING A 2024][research_features_of_2024], [Farazi and Zou
-2024][research_farazi_zou_2024], [Ison 2024][research_ison_2024], [Lee and Yee 2024][research_lee_yee_2024],
-[Lympany and Page 2024][research_lympany_page_2024], [Oktay and Eraslan 2024][research_oktay_eraslan_2024],
-[Uzun 2024][research_uzun_2024], [Wei et al 2024, Aerodynamic simulations of an][research_wei_2024_2], [Yin
-et al 2024][research_yin_2024], [Zhang et al 2024, KDP-Net An Efficient Semantic][research_zhang_2024_3],
-[Zhao et al 2024][research_zhao_2024], [Approach to solving the 2025][research_approach_to_2025],
-[Farajijalal et al 2025][research_farajijalal_2025], [Gu et al 2025][research_gu_2025], [Ishaque et al
-2025][research_ishaque_2025], [Kang et al 2025][research_kang_2025], [Kim et al 2025][research_kim_2025],
-[Li 2025, Beyond Conventional Drones A][research_li_2025], [Liang et al 2025][research_liang_2025], [Liu et
-al 2025, ISSA-Based Evaluation Method of][research_liu_2025_2], [Ma et al 2025][research_ma_2025], [Mpanza
-and Pedro 2025][research_mpanza_pedro_2025], [Park 2025, A weight fraction-based][research_park_2025_2],
-[Perez et al 2025][research_perez_2025], [Titov et al 2025][research_titov_2025], [Bhandari et al
-2026][research_bhandari_2026], [Cai et al 2026][research_cai_2026], [Critchfield and Ning
-2026][research_critchfield_ning_2026], [He et al 2026][research_he_2026], [Jayakumar et al
-2026][research_jayakumar_2026], [Liang et al 2026][research_liang_2026], [Liu et al 2026, Adopting electric
-vertical][research_liu_2026], [Lu et al 2026][research_lu_2026], [Spadão et al 2026][research_spadao_2026],
-[Wang et al 2026, Aerodynamic Interaction Analysis][research_wang_2026_2], [Yang et al 2026, Phase-segmented
-feature][research_yang_2026_3], [Zhang 2026, Comparative Analysis of][research_zhang_2026].
+2020][research_abdelmaksoud_2020], [Annepu and Rajesh 2020][research_annepu_rajesh_2020], [Baldini et al
+2020][research_baldini_2020], [Chung and Son 2020][research_chung_son_2020], [Gan and Xu
+2020][research_gan_xu_2020], [Gillini and Arrichiello 2020][research_gillini_arrichiello_2020], [Huang et al
+2020, Adaptive backstepping control for][research_huang_2020_3], [Lei and Cheng
+2020][research_lei_cheng_2020], [Lei and Wang 2020][research_lei_wang_2020], [The algorithm of the
+2020][research_the_algorithm_2020], [Çoban 2020][research_coban_2020], [Рязанова and Жуйян
+2020][research___2020], [Ambroziak and Ciężkowski 2021][research_ambroziak_ciezkowski_2021], [Bodunkov and
+Kim 2021][research_bodunkov_kim_2021], [Bravo et al 2021][research_bravo_2021], [Deng et al
+2021][research_deng_2021], [Ghasemi et al 2021][research_ghasemi_2021], [Lee et al 2021, Autonomous Landing
+of Micro][research_lee_2021], [Loureiro et al 2021][research_loureiro_2021], [Peng 2021, Autonomous Mission
+Management][research_peng_2021], [Shah Alam and Oluoch 2021][research_shah_alam_oluoch_2021], [Slim et al
+2021][research_slim_2021], [Su and Wang 2021][research_su_wang_2021], [Tang et al 2021, Quadrotor going
+through a window][research_tang_2021_2], [Turan et al 2021][research_turan_2021], [Vafamand and Arefi
+2021][research_vafamand_arefi_2021], [Alkhanov et al 2022][research_al_khanov_2022], [Aoki and Ishigami
+2022][research_aoki_ishigami_2022], [Awad and Stumpf 2022][research_awad_stumpf_2022], [Davoudi Dehkordi and
+Danesh 2022][research_davoudi_dehkordi_danesh_2022], [Guo et al 2022, Autonomous Landing of a
+Quadrotor][research_guo_2022_2], [Jung and Oh 2022][research_jung_oh_2022], [Ma et al 2022,
+Multidisciplinary Design][research_ma_2022], [Mechali et al 2022][research_mechali_2022], [Villeneuve et al
+2022][research_villeneuve_2022], [Wauters 2022][research_wauters_2022], [Xia et al 2022][research_xia_2022],
+[Yang and Wang 2022][research_yang_wang_2022], [kanahara 2022][research_kanahara_2022], [Chen et al 2023,
+Joint Unmanned Aerial Vehicle][research_chen_2023_2], [Cui et al 2023][research_cui_2023], [Danesh et al
+2023][research_danesh_2023], [Do et al 2023][research_do_2023], [Gu and Tian 2023][research_gu_tian_2023],
+[Jiang and Yin 2023][research_jiang_yin_2023], [Kedarisetty 2023][research_kedarisetty_2023], [Meng et al
+2023][research_meng_2023], [Morales et al 2023][research_morales_2023], [Pessanha Santos et al
+2023][research_pessanha_santos_2023], [Volobuev et al 2023][research_volobuev_2023], [Wang et al 2023, An
+Autonomous Tracking and][research_wang_2023_3], [Xu et al 2023, An Active Landing Recovery
+Method][research_xu_2023], [Zhu et al 2023, A nonlinear model predictive][research_zhu_2023_3], [de Vries
+and Vos 2023][research_de_vries_vos_2023], [Cai et al 2024][research_cai_2024], [Ducard and Carughi
+2024][research_ducard_carughi_2024], [Evdokimenkov et al 2024, Operational control of
+an][research_evdokimenkov_2024], [FEATURES OF DEVELOPING A 2024][research_features_of_2024], [Hung et al
+2024][research_hung_2024], [Lv et al 2024][research_lv_2024], [Mobile Autonomous Recovery Landing
+2024][research_mobile_autonomous_2024], [Oktay and Eraslan 2024][research_oktay_eraslan_2024], [Poggi et al
+2024][research_poggi_2024], [Tsitses et al 2024][research_tsitses_2024], [Uzun 2024][research_uzun_2024],
+[Xiao et al 2024][research_xiao_2024], [Yin et al 2024, Cross-View Multi-Scale][research_yin_2024], [Yu et
+al 2024, Aeroacoustic analysis of fixed][research_yu_2024_4], [Yu et al 2024, Fault-Tolerant Control
+for][research_yu_2024_2], [Yuan and Duan 2024][research_yuan_duan_2024], [Yuan et al
+2024][research_yuan_2024], [An and Kim 2025][research_an_kim_2025], [Approach to solving the
+2025][research_approach_to_2025], [Farajijalal et al 2025][research_farajijalal_2025], [Gilbrook et al
+2025][research_gilbrook_2025], [Ishaque et al 2025][research_ishaque_2025], [Kim et al 2025, Investigation
+of Vertical][research_kim_2025], [Lee Hongrui and Srigrarom 2025][research_lee_hongrui_srigrarom_2025], [Li
+2025, Beyond Conventional Drones A][research_li_2025], [Liao et al 2025][research_liao_2025], [Liu et al
+2025, ISSA-Based Evaluation Method of][research_liu_2025_2], [Lunsford and Bradley
+2025][research_lunsford_bradley_2025], [Mpanza and Pedro 2025][research_mpanza_pedro_2025], [Noboni and Das
+2025][research_noboni_das_2025], [Noboni et al 2025][research_noboni_2025], [Qi and Zhao
+2025][research_qi_zhao_2025], [Sajjadi et al 2025][research_sajjadi_2025], [Titov et al
+2025][research_titov_2025], [Zhang and Wu 2025][research_zhang_wu_2025], [Ahmadi Dastgerdi and
+Nabavi-Chashmi 2026][research_ahmadi_dastgerdi_nabavi_chashmi_2026], [Atte and Rauleder
+2026][research_atte_rauleder_2026], [Bhandari et al 2026][research_bhandari_2026], [Chen and Chen
+2026][research_chen_chen_2026], [Durmuşoğlu 2026][research_durmusoglu_2026], [Jayakumar et al
+2026][research_jayakumar_2026], [Kuang et al 2026][research_kuang_2026], [Lovas 2026][research_lovas_2026],
+[Lu et al 2026][research_lu_2026], [Sarikaya et al 2026][research_sarikaya_2026], [Strampe and Klingauf
+2026][research_strampe_klingauf_2026], [Strelkov and Bozhko 2026][research_strelkov_bozhko_2026], [Xie et al
+2026][research_xie_2026], [Zhan et al 2026][research_zhan_2026], [Zhang 2026, Comparative Analysis
+of][research_zhang_2026], [Zhang and Wu 2026][research_zhang_wu_2026], [Zhu et al 2026, Research on
+Vision-Based][research_zhu_2026], [Zhang et al 2027][research_zhang_2027].
 
 ### Escape Systems Now
 
 Crew escape remains an active discipline concerned with injury criteria and occupant protection rather than
 with flight after ejection, in [Do and deWeck 2011][research_do_deweck_2011], [Maloney
-2011][research_maloney_2011], [Ito et al 2015][research_ito_2015], [Song et al 2015][research_song_2015],
-[Buller 2017][research_buller_2017], [Fox et al 2018][research_fox_2018], [Kowaleczko et al
-2018][research_kowaleczko_2018], [Mao and Liang 2019][research_mao_liang_2019], [Wang et al 2019, Research
-on the Application of][research_wang_2019], [Ying 2019][research_ying_2019], [Qu et al
-2020][research_qu_2020], [Bao et al 2021][research_bao_2021], [Chen et al 2021, Child occupant injury risk
-in][research_chen_2021_6], [Ejection Seat Testing 2021][research_ejection_seat_2021], [Jana et al
-2021][research_jana_2021], [Lakshmi et al 2021][research_lakshmi_2021], [Saravanan et al
+2011][research_maloney_2011], [Ito et al 2015][research_ito_2015], [Mitchell et al
+2015][research_mitchell_2015], [Song et al 2015][research_song_2015], [Leavitt and Vincent
+2016][research_leavitt_vincent_2016], [Buller 2017][research_buller_2017], [Ishikawa et al
+2017][research_ishikawa_2017], [Fox et al 2018][research_fox_2018], [Kowaleczko et al
+2018][research_kowaleczko_2018], [Sarkar et al 2018][research_sarkar_2018], [Mao and Liang
+2019][research_mao_liang_2019], [Perry et al 2019][research_perry_2019], [Wang et al 2019, Research on the
+Application of][research_wang_2019], [Ying 2019][research_ying_2019], [Meng and Untaroiu
+2020][research_meng_untaroiu_2020], [Qu et al 2020][research_qu_2020], [Yoganandan et al
+2020][research_yoganandan_2020], [Bao et al 2021][research_bao_2021], [Chen et al 2021, Child occupant
+injury risk in][research_chen_2021_6], [Ejection Seat Testing 2021][research_ejection_seat_2021], [Jana et
+al 2021][research_jana_2021], [Lakshmi et al 2021][research_lakshmi_2021], [Saravanan et al
 2021][research_saravanan_2021], [Smitha et al 2021][research_smitha_2021], [Somanath et al
-2021][research_somanath_2021], [Sreenivasulu et al 2021][research_sreenivasulu_2021], [Chen et al 2022,
-Adult occupant injury risk in][research_chen_2022_2], [Hill et al 2022][research_hill_2022], [Liu et al
-2022][research_liu_2022], [Schultz et al 2022][research_schultz_2022], [Umale et al
-2022][research_umale_2022], [Wakabayashi et al 2022][research_wakabayashi_2022], [Garcia et al
-2023][research_garcia_2023], [Rahman et al 2023][research_rahman_2023], [Viano 2023][research_viano_2023],
-[Zhou et al 2023][research_zhou_2023], [Avirah et al 2024][research_avirah_2024], [Rahman et al
+2021][research_somanath_2021], [Sreenivasulu et al 2021][research_sreenivasulu_2021], [Tierney
+2021][research_tierney_2021], [Chen et al 2022, Adult occupant injury risk in][research_chen_2022_2], [Hill
+et al 2022][research_hill_2022], [Liu et al 2022, Analysis and verification of][research_liu_2022], [Schultz
+et al 2022][research_schultz_2022], [Umale et al 2022][research_umale_2022], [Wakabayashi et al
+2022][research_wakabayashi_2022], [Wang et al 2022, Safety of active pre-collision][research_wang_2022_7],
+[Garcia et al 2023][research_garcia_2023], [Rahman et al 2023][research_rahman_2023], [Viano
+2023][research_viano_2023], [Zhou et al 2023, Simulink-Based Simulation of Gas][research_zhou_2023], [Avirah
+et al 2024][research_avirah_2024], [Devane et al 2024][research_devane_2024], [Rahman et al
 2024][research_rahman_2024], [Kowaleczko et al 2025][research_kowaleczko_2025], [Parate
 2025][research_parate_2025], [Rahman et al 2025][research_rahman_2025], [Davidescu et al
-2026][research_davidescu_2026], [Deng et al 2026][research_deng_2026], [Wang et al 2026, The impact of
-physical-mental][research_wang_2026_3].
+2026][research_davidescu_2026], [Deng et al 2026][research_deng_2026], [Du et al 2026][research_du_2026],
+[Wang et al 2026, The impact of physical-mental][research_wang_2026_3].
 
 ### The Field Around It
 
@@ -1285,295 +1690,661 @@ et al 2012][research_vanweddingen_2012], [Woolf 2012][research_woolf_2012], [Wri
 2014][research_david_b_stephens_2014], [Jack et al 2014][research_jack_2014], [Jessie
 2014][research_jessie_2014], [Knapp and LaPort 2014][research_knapp_laport_2014], [Labun
 2014][research_labun_2014], [Lawrence 2014][research_lawrence_2014], [Leishman
-2014][research_leishman_2014], [Lim et al 2014][research_lim_2014], [Murugan et al
-2014][research_murugan_2014], [Newby et al 2014][research_newby_2014], [Nguyen and Castelli
-2014][research_nguyen_castelli_2014], [Phelps 2014][research_phelps_2014], [Scott
-2014][research_scott_2014], [Sekula and Wilbur 2014][research_sekula_wilbur_2014], [Biggers et al
-2015][research_biggers_2015], [Chen and Liu 2015][research_chen_liu_2015], [Chen et al
-2015][research_chen_2015], [Danelson et al 2015][research_danelson_2015], [Drever et al
-2015][research_drever_2015], [Evaluating The Use of 2015][research_evaluating_the_2015], [Gallon et al
-2015][research_gallon_2015], [Golman et al 2015][research_golman_2015], [Herbst et al
-2015][research_herbst_2015], [Hua et al 2015][research_hua_2015], [Jessie 2015][research_jessie_2015],
-[Komerath et al 2015][research_komerath_2015], [Kutty et al 2015][research_kutty_2015], [Lee and Aldredge
-2015][research_lee_aldredge_2015], [Leylek and Costello 2015][research_leylek_costello_2015], [Li
-2015][research_li_2015], [Martiarena et al 2015][research_martiarena_2015], [Mastropietro et al
-2015][research_mastropietro_2015], [Murayama 2015][research_murayama_2015], [Nembhard et al
+2014][research_leishman_2014], [Lim et al 2014][research_lim_2014], [Newby et al 2014][research_newby_2014],
+[Nguyen and Castelli 2014][research_nguyen_castelli_2014], [Phelps 2014][research_phelps_2014], [Scott
+2014][research_scott_2014], [Sekula and Wilbur 2014][research_sekula_wilbur_2014], [Ali et al
+2015][research_ali_2015], [Andersh et al 2015][research_andersh_2015], [Bagade et al
+2015][research_bagade_2015], [Baker 2015][research_baker_2015], [Biggers et al 2015][research_biggers_2015],
+[Bleier et al 2015][research_bleier_2015], [Bottasso and Montinari 2015][research_bottasso_montinari_2015],
+[Brodecki and Subbarao 2015][research_brodecki_subbarao_2015], [Cacan et al 2015][research_cacan_2015], [Cai
+2015][research_cai_2015], [Charny et al 2015][research_charny_2015], [Chen and Liu
+2015][research_chen_liu_2015], [Chen et al 2015][research_chen_2015], [Childs and Garvey
+2015][research_childs_garvey_2015], [Chu 2015][research_chu_2015], [Cochran 2015][research_cochran_2015],
+[Crandell and Tobalske 2015][research_crandell_tobalske_2015], [Danelson et al
+2015][research_danelson_2015], [Drever et al 2015][research_drever_2015], [Evaluating The Use of
+2015][research_evaluating_the_2015], [Ferguson and Thomson 2015][research_ferguson_thomson_2015], [Friedman
+and Rand 2015][research_friedman_rand_2015], [Gallon et al 2015][research_gallon_2015], [Gekht and Idan
+2015][research_gekht_idan_2015], [Golman et al 2015][research_golman_2015], [Greenwood et al
+2015][research_greenwood_2015], [Herbst et al 2015][research_herbst_2015], [Hodges
+2015][research_hodges_2015], [Hua et al 2015][research_hua_2015], [Huo et al 2015][research_huo_2015],
+[Hwang and Kwon 2015][research_hwang_kwon_2015], [Høye 2015, Safety effects of section
+control][research_hye_2015], [Ikeda et al 2015][research_ikeda_2015], [Jessie 2015][research_jessie_2015],
+[Jiang et al 2015][research_jiang_2015], [Johnson and Boling 2015][research_johnson_boling_2015], [Knabl et
+al 2015][research_knabl_2015], [Komerath et al 2015][research_komerath_2015], [Kutty et al
+2015][research_kutty_2015], [Lee and Aldredge 2015][research_lee_aldredge_2015], [Lee et al
+2015][research_lee_2015], [Leylek and Costello 2015][research_leylek_costello_2015], [Li 2015, Verification
+and Validation of][research_li_2015], [Lim 2015][research_lim_2015], [Ma et al 2015][research_ma_2015],
+[Martiarena et al 2015][research_martiarena_2015], [Masarati et al 2015][research_masarati_2015],
+[Mastropietro et al 2015][research_mastropietro_2015], [Mekki et al 2015][research_mekki_2015], [Mohrmann et
+al 2015][research_mohrmann_2015], [Moon and Phan 2015][research_moon_phan_2015], [Murayama
+2015][research_murayama_2015], [Naka and Hashimoto 2015][research_naka_hashimoto_2015], [Nembhard et al
 2015][research_nembhard_2015], [Nguyen et al 2015, Aeroelasticity of Axially Loaded][research_nguyen_2015],
-[Nguyen et al 2015, Funding and Strategic Alignment][research_nguyen_2015_2], [Opoku-Anane et al
-2015][research_opoku_anane_2015], [Paletta et al 2015][research_paletta_2015], [Ruffa
-2015][research_ruffa_2015], [Selikoff 2015][research_selikoff_2015], [Serafini et al
-2015][research_serafini_2015], [Shin and Kim 2015][research_shin_kim_2015], [Simulation of Vortex Ring
-2015][research_simulation_of_2015], [Sineglazov and Boyko 2015][research_sineglazov_boyko_2015], [Singh and
-Wereley 2015][research_singh_wereley_2015], [Skinner et al 2015][research_skinner_2015], [Su and Wang
+[Nguyen et al 2015, Funding and Strategic Alignment][research_nguyen_2015_2], [Niemi and Bevillard
+2015][research_niemi_bevillard_2015], [Opoku-Anane et al 2015][research_opoku_anane_2015], [Paddock et al
+2015][research_paddock_2015], [Paletta et al 2015][research_paletta_2015], [Petranelli et al
+2015][research_petranelli_2015], [Romli et al 2015][research_romli_2015], [Ruffa 2015][research_ruffa_2015],
+[Salord Losantos and Sánchez-Arriaga 2015][research_salord_losantos_sanchez_arriaga_2015], [Selikoff
+2015][research_selikoff_2015], [Serafini et al 2015][research_serafini_2015], [Silvestre and Luckner
+2015][research_silvestre_luckner_2015], [Simulation of Vortex Ring 2015][research_simulation_of_2015],
+[Sineglazov and Boyko 2015][research_sineglazov_boyko_2015], [Singh and Wereley
+2015][research_singh_wereley_2015], [Skinner et al 2015][research_skinner_2015], [Song and Xia
+2015][research_song_xia_2015], [St. Pierre et al 2015][research_st_pierre_2015], [Su and Wang
 2015][research_su_wang_2015], [Sunnevång et al 2015][research_sunnevang_2015], [Takizawa et al
 2015][research_takizawa_2015], [Tam 2015][research_tam_2015], [Tang et al 2015][research_tang_2015], [Tanner
-et al 2015][research_tanner_2015], [Tardiff et al 2015][research_tardiff_2015], [Thomas
-2015][research_thomas_2015], [Uchiyam 2015][research_uchiyam_2015], [Walker 2015][research_walker_2015], [Wu
-2015][research_wu_2015], [Yang et al 2015, Fluid-Structure Interaction Study][research_yang_2015], [ul Islam
-Rizvi et al 2015][research_ul_islam_rizvi_2015], [van der Wall et al 2015][research_van_der_wall_2015],
-[Abrego et al 2016][research_abrego_2016], [Abwanzo 2016][research_abwanzo_2016], [Barbely et al
-2016][research_barbely_2016], [Barnard and Bauerle 2016][research_barnard_bauerle_2016], [Bradley
-2016][research_bradley_2016], [Chakravarthy and Ghose 2016][research_chakravarthy_ghose_2016], [Cheng et al
-2016][research_cheng_2016], [Editor 2016][research_editor_2016], [Gao et al 2016, Fluid-Structure
-Interaction][research_gao_2016_2], [Gori et al 2016][research_gori_2016], [He et al 2016][research_he_2016],
-[Karlgaard et al 2016][research_karlgaard_2016], [Kiefer et al 2016][research_kiefer_2016], [Kim and Park
-2016][research_kim_park_2016], [Larsen 2016][research_larsen_2016], [Lim et al 2016][research_lim_2016],
-[Liu et al 2016, Heavyweight airdrop flight][research_liu_2016], [Lu et al 2016][research_lu_2016],
-[Minwalla et al 2016][research_minwalla_2016], [Misa et al 2016][research_misa_2016], [Moreno-Ramos et al
-2016][research_moreno_ramos_2016], [Mustafa and Shofiqul 2016][research_mustafa_shofiqul_2016], [Othman and
-Kanazaki 2016][research_othman_kanazaki_2016], [Ponta et al 2016][research_ponta_2016], [Ren
-2016][research_ren_2016], [Riboldi and Gualdoni 2016][research_riboldi_gualdoni_2016], [Schau et al
-2016][research_schau_2016], [Shaji and Bonifus 2016][research_shaji_bonifus_2016], [Shou
-2016][research_shou_2016], [Simons and Bradshaw 2016, Do accelerometers mounted on
-the][research_simons_bradshaw_2016_2], [Simons and Bradshaw 2016, Reliability of accelerometry
-to][research_simons_bradshaw_2016], [Song and Qi 2016][research_song_qi_2016], [Sreeja and Hablani
-2016][research_sreeja_hablani_2016], [Subramanya and Deb 2016][research_subramanya_deb_2016], [The Use of
-Simulation 2016][research_the_use_2016], [Tischler and Tobias 2016][research_tischler_tobias_2016], [Vocke
-and Nunez 2016][research_vocke_nunez_2016], [Weiss and Patel 2016][research_weiss_patel_2016], [Wenqian et
-al 2016][research_wenqian_2016], [Yao et al 2016][research_yao_2016], [Zhao and He
-2016][research_zhao_he_2016], [Zhu and Zhao 2016][research_zhu_zhao_2016], [Abdul Awal
-2017][research_abdul_awal_2017], [Avanzini et al 2017][research_avanzini_2017], [Balaji
-2017][research_balaji_2017], [Cao et al 2017][research_cao_2017], [Cole 2017][research_cole_2017], [Coombes
-et al 2017][research_coombes_2017], [Das et al 2017][research_das_2017], [Dekoninck and Int Panis
-2017][research_dekoninck_int_panis_2017], [Diasinos et al 2017][research_diasinos_2017], [Fallast and
+et al 2015][research_tanner_2015], [Tao et al 2015][research_tao_2015], [Tardiff et al
+2015][research_tardiff_2015], [Thai and Kim 2015][research_thai_kim_2015], [Thomas 2015, General Atomics
+Pulsed Power][research_thomas_2015], [Thomas et al 2015, Percutaneous ventricular][research_thomas_2015_2],
+[Tsao 2015][research_tsao_2015], [Uchiyam 2015][research_uchiyam_2015], [Walker 2015][research_walker_2015],
+[Wood 2015][research_wood_2015], [Yang et al 2015, Fluid-Structure Interaction Study][research_yang_2015],
+[Yeo and Johnson 2015][research_yeo_johnson_2015], [ul Islam Rizvi et al
+2015][research_ul_islam_rizvi_2015], [van der Wall et al 2015][research_van_der_wall_2015], [Abrego et al
+2016][research_abrego_2016], [Abwanzo 2016][research_abwanzo_2016], [Aircraft and Rotorcraft System
+2016][research_aircraft_and_2016], [Augustyniak 2016][research_augustyniak_2016], [Barbely et al
+2016][research_barbely_2016], [Barnard and Bauerle 2016][research_barnard_bauerle_2016], [Bazilevs and
+Takizawa 2016][research_bazilevs_takizawa_2016], [Bhatnagar and Dr 2016][research_bhatnagar_dr_2016],
+[Bijlsma and Vermeulen 2016][research_bijlsma_vermeulen_2016], [Boznyakov et al
+2016][research_boznyakov_2016], [Bradley 2016][research_bradley_2016], [Cameron et al
+2016][research_cameron_2016], [Chakravarthy and Ghose 2016][research_chakravarthy_ghose_2016], [Chen and Liu
+2016][research_chen_liu_2016], [Cheng et al 2016][research_cheng_2016], [Darshankumar Ragunath
+2016][research_darshankumar_ragunath_2016], [DeVries and Paley 2016][research_devries_paley_2016], [Dvořák
+2016][research_dvorak_2016], [Editor 2016][research_editor_2016], [Experimental verification of blade
+2016][research_experimental_verification_2016], [Feng et al 2016][research_feng_2016], [Friedman et al
+2016][research_friedman_2016], [Gagnon and Zingg 2016][research_gagnon_zingg_2016], [Gao et al 2016,
+Fluid-Structure Interaction][research_gao_2016_2], [Gori et al 2016][research_gori_2016], [Hassanalian and
+Abdelkefi 2016][research_hassanalian_abdelkefi_2016], [Haupt et al 2016][research_haupt_2016], [He et al
+2016][research_he_2016], [Hooi et al 2016][research_hooi_2016], [Jain et al 2016, An Assessment of RCAS
+Performance][research_jain_2016_2], [Jiang and Zhang 2016][research_jiang_zhang_2016], [Jin et al
+2016][research_jin_2016], [Karlgaard et al 2016][research_karlgaard_2016], [Kiefer et al
+2016][research_kiefer_2016], [Kim and Park 2016][research_kim_park_2016], [Kim et al 2016, A bio-inspired
+device for drag][research_kim_2016_2], [Kumar 2016][research_kumar_2016], [Kumar and Venkatesan
+2016][research_kumar_venkatesan_2016], [Larsen 2016][research_larsen_2016], [Lehmann and Tillich
+2016][research_lehmann_tillich_2016], [Lim 2016, Consideration of structural][research_lim_2016_2], [Lim et
+al 2016, Optimization of Rotor Structural][research_lim_2016], [Liu et al 2016, Heavyweight airdrop
+flight][research_liu_2016], [Lu et al 2016, Development of Occupant-Preferred][research_lu_2016], [Manimaran
+et al 2016][research_manimaran_2016], [Martin et al 2016][research_martin_2016], [Minwalla et al
+2016][research_minwalla_2016], [Misa et al 2016][research_misa_2016], [Modarres and Peters
+2016][research_modarres_peters_2016], [Moreno-Ramos et al 2016][research_moreno_ramos_2016], [Mustafa and
+Shofiqul 2016][research_mustafa_shofiqul_2016], [Myers 2016][research_myers_2016], [Othman and Kanazaki
+2016][research_othman_kanazaki_2016], [Petrović et al 2016][research_petrovic_2016], [Piera et al
+2016][research_piera_2016], [Pipkorn et al 2016][research_pipkorn_2016], [Ponta et al
+2016][research_ponta_2016], [Prasetyo 2016][research_prasetyo_2016], [Ren 2016][research_ren_2016], [Riboldi
+and Gualdoni 2016][research_riboldi_gualdoni_2016], [Schau et al 2016][research_schau_2016], [Shaji and
+Bonifus 2016][research_shaji_bonifus_2016], [Shi et al 2016, Experimental investigation
+on][research_shi_2016_2], [Shou 2016][research_shou_2016], [Shrestha et al 2016][research_shrestha_2016],
+[Simons and Bradshaw 2016, Do accelerometers mounted on the][research_simons_bradshaw_2016_2], [Simons and
+Bradshaw 2016, Reliability of accelerometry to][research_simons_bradshaw_2016], [Smeur et al
+2016][research_smeur_2016], [Song and Qi 2016][research_song_qi_2016], [Sreeja and Hablani
+2016][research_sreeja_hablani_2016], [Subramanya and Deb 2016][research_subramanya_deb_2016], [Syneglazov
+and Glukhov 2016][research_syneglazov_glukhov_2016], [Taha et al 2016][research_taha_2016], [Tejero E. et al
+2016][research_tejero_e_2016], [Teng et al 2016][research_teng_2016], [The Use of Simulation
+2016][research_the_use_2016], [Tischler and Tobias 2016][research_tischler_tobias_2016], [Viano and White
+2016][research_viano_white_2016], [Vocke and Nunez 2016][research_vocke_nunez_2016], [Vu et al
+2016][research_vu_2016], [Weiss and Patel 2016][research_weiss_patel_2016], [Wenqian et al
+2016][research_wenqian_2016], [Xue et al 2016][research_xue_2016], [Yao et al 2016, Improved discrete
+Fourier][research_yao_2016], [Yue et al 2016, Study of droplets distribution on][research_yue_2016], [Zhao
+and He 2016][research_zhao_he_2016], [Zhu and Zhao 2016][research_zhu_zhao_2016], [de Bruin and Jones
+2016][research_de_bruin_jones_2016], [Abdul Awal 2017][research_abdul_awal_2017], [Amaral and Costa
+2017][research_amaral_costa_2017], [Balaji 2017][research_balaji_2017], [Borshchova and OYoung
+2017][research_borshchova_oyoung_2017], [Brown and Brown 2017][research_brown_brown_2017], [Cao et al
+2017][research_cao_2017], [Chen et al 2017, Take-off and landing control for][research_chen_2017], [Chu et
+al 2017][research_chu_2017], [Ciarcià et al 2017][research_ciarcia_2017], [Cole 2017][research_cole_2017],
+[Coombes et al 2017][research_coombes_2017], [Das et al 2017][research_das_2017], [Deng et al 2017, Design
+of noise-reduction seats][research_deng_2017_2], [Diasinos et al 2017][research_diasinos_2017], [Enciu and
+Horn 2017][research_enciu_horn_2017], [Enciu and Rosen 2017][research_enciu_rosen_2017], [Fallast and
 Messnarz 2017][research_fallast_messnarz_2017], [Fang et al 2017, Aerodynamics and Flight
-Dynamics][research_fang_2017], [Figat 2017][research_figat_2017], [Fluck and Crawford
-2017][research_fluck_crawford_2017], [Frequency Evaluation and Design
-2017][research_frequency_evaluation_2017], [German-Galkin and Gavrilov
-2017][research_german_galkin_gavrilov_2017], [Houston and Thomson 2017][research_houston_thomson_2017],
-[Jeong and Shin 2017][research_jeong_shin_2017], [Jones 2017][research_jones_2017], [Kawakami et al
-2017][research_kawakami_2017], [Keßler 2017][research_keler_2017], [Kim et al 2017][research_kim_2017], [Lim
-et al 2017][research_lim_2017], [Liu et al 2017][research_liu_2017], [Logan et al
-2017][research_logan_2017], [Ma et al 2017][research_ma_2017], [Mahmuddin 2017][research_mahmuddin_2017],
-[Mozaffari and Azad 2017][research_mozaffari_azad_2017], [Overmeyer and Martin
-2017][research_overmeyer_martin_2017], [Perfect et al 2017][research_perfect_2017], [Shin et al
-2017][research_shin_2017], [Shultz 2017][research_shultz_2017], [Sun 2017, Trajectory-linearization
-Based][research_sun_2017], [Sun et al 2017, Improved fixed point iterative][research_sun_2017_2], [Takato
-and Shirayama 2017][research_takato_shirayama_2017], [Tang et al 2017][research_tang_2017], [Venkataraman et
-al 2017][research_venkataraman_2017], [Viano and Parenteau 2017][research_viano_parenteau_2017], [Wood and
-Okulov 2017][research_wood_okulov_2017], [Xie et al 2017, Multidisciplinary
-Aerodynamic][research_xie_2017_2], [Zaseck et al 2017][research_zaseck_2017], [Abhiram et al
-2018][research_abhiram_2018], [Burton and Hoburg 2018][research_burton_hoburg_2018], [Castilla
-2018][research_castilla_2018], [Chang et al 2018][research_chang_2018], [DAngelo
-2018][research_d_angelo_2018], [Dai et al 2018][research_dai_2018], [Danis et al 2018][research_danis_2018],
-[Fedele and Mungiguerra 2018][research_fedele_mungiguerra_2018], [Han 2018][research_han_2018], [Hinzmann et
-al 2018][research_hinzmann_2018], [Ignatkin et al 2018][research_ignatkin_2018], [Jacobs et al
-2018][research_jacobs_2018], [Janse van Rensburg et al 2018][research_janse_van_rensburg_2018], [Jiang and
-Zhang 2018][research_jiang_zhang_2018], [Lee et al 2018][research_lee_2018], [Leishman
-2018][research_leishman_2018], [Liu et al 2018, Ship Trajectory Tracking Control][research_liu_2018_2], [Ma
-et al 2018][research_ma_2018], [Makeich and Kryukov 2018][research_makeich_kryukov_2018], [Miyagawa et al
-2018][research_miyagawa_2018], [Noda et al 2018][research_noda_2018], [Papa and Ponte
-2018][research_papa_ponte_2018], [Park and Park 2018][research_park_park_2018], [Pölzlbauer et al
-2018][research_polzlbauer_2018], [Rajaram et al 2018][research_rajaram_2018], [Rayavarapu
-2018][research_rayavarapu_2018], [Riboldi et al 2018][research_riboldi_2018], [Rogalski
-2018][research_rogalski_2018], [Schairer et al 2018][research_schairer_2018], [Stalewski
-2018][research_stalewski_2018], [Takahashi et al 2018][research_takahashi_2018], [The Biomechanics of Impact
-2018][research_the_biomechanics_2018], [Vratny and Hornung 2018][research_vratny_hornung_2018], [Wang et al
-2018, A Wind Estimation Method with an][research_wang_2018_2], [Wang et al 2018, Integrated optimization
-on][research_wang_2018], [Wei et al 2018][research_wei_2018], [Yang et al 2018][research_yang_2018], [Zhang
-et al 2018, Correlation of Occupant][research_zhang_2018], [Zhao et al 2018][research_zhao_2018], [Лучко and
-Зінченко 2018][research___2018], [Aghazadeh et al 2019][research_aghazadeh_2019], [Amalia et al
-2019][research_amalia_2019], [Bailly and Bailly 2019][research_bailly_bailly_2019], [Bhargavapuri et al
-2019][research_bhargavapuri_2019], [Boyd 2019][research_boyd_2019], [Chen et al 2019, Extraction of Dynamic
-Inflow][research_chen_2019], [Chen et al 2019, Hamiltonian-based minimum-energy][research_chen_2019_4], [Cui
-et al 2019][research_cui_2019], [Dahms and Bardenhagen 2019][research_dahms_bardenhagen_2019], [Design of
-Composite Gyrocopter 2019][research_design_of_2019], [Goulos and Bonesso
-2019][research_goulos_bonesso_2019], [Groesbeck et al 2019][research_groesbeck_2019], [Hannah L Morgan
-2019][research_hannah_l_morgan_2019], [Hiremath et al 2019][research_hiremath_2019], [Ho and Yeo
-2019][research_ho_yeo_2019], [Hurley et al 2019][research_hurley_2019], [Ignatkin et al
-2019][research_ignatkin_2019], [Isogaya et al 2019][research_isogaya_2019], [Kotwicz Herniczek et al
-2019][research_kotwicz_herniczek_2019], [Koyama et al 2019][research_koyama_2019], [Lee et al
-2019][research_lee_2019], [Lei and Liu 2019][research_lei_liu_2019], [Liu et al 2019, Numerical simulation
-of flow][research_liu_2019], [Lusk et al 2019][research_lusk_2019], [Lv et al 2019][research_lv_2019], [Ng
-and Datta 2019][research_ng_datta_2019], [O. Hamdoon et al 2019][research_o_hamdoon_2019], [Seymore et al
-2019][research_seymore_2019], [Shahid et al 2019][research_shahid_2019], [Singh 2019][research_singh_2019],
-[Sou 2019][research_sou_2019], [Stalewski and Surmacz 2019][research_stalewski_surmacz_2019], [Stanisławski
-2019][research_stanisawski_2019], [Turgut et al 2019][research_turgut_2019], [Venkataraman and Seiler
-2019][research_venkataraman_seiler_2019], [Wang et al 2019, Stability Analysis of
-Tailsitters][research_wang_2019_2], [Waxman et al 2019][research_waxman_2019], [Wei et al
-2019][research_wei_2019], [Wojtas and Sobieszek 2019][research_wojtas_sobieszek_2019], [Xia et al
-2019][research_xia_2019], [Yan et al 2019][research_yan_2019], [Ye et al 2019, A study of the novel
-vision][research_ye_2019_2], [Zare et al 2019][research_zare_2019], [de Vries et al
-2019][research_de_vries_2019], [A Novel Sliding Mode 2020][research_a_novel_2020], [Ali et al
-2020][research_ali_2020], [Bouzidi et al 2020][research_bouzidi_2020], [Castillo-Rivera and Tomas-Rodriguez
-2020][research_castillo_rivera_tomas_rodriguez_2020], [Cheng et al 2020, Aerodynamics and
-dynamic][research_cheng_2020], [Cole et al 2020][research_cole_2020], [Cristiani et al
-2020][research_cristiani_2020], [Czarnigowski 2020][research_czarnigowski_2020], [D. 2020][research_d_2020],
-[Dececchi et al 2020, Aerodynamics Show][research_dececchi_2020], [Dececchi et al 2020, Aerodynamics Show
-Membrane-Winged][research_dececchi_2020_2], [Finger et al 2020][research_finger_2020], [Franklin D. Harris
-2020][research_franklin_d_harris_2020], [Gao et al 2020, An experimental study on the][research_gao_2020_2],
-[Gao et al 2020, Fluid-structure Interactions on][research_gao_2020], [Greene 2020][research_greene_2020],
-[Ignatyev et al 2020][research_ignatyev_2020], [Innovated inertia control of
-2020][research_innovated_inertia_2020], [Jia and Lee 2020][research_jia_lee_2020], [Kirchner et al
+Dynamics][research_fang_2017], [Fault tolerant control of 2017][research_fault_tolerant_2017], [Feng et al
+2017][research_feng_2017], [Fluck and Crawford 2017][research_fluck_crawford_2017], [Frequency Evaluation
+and Design 2017][research_frequency_evaluation_2017], [German-Galkin and Gavrilov
+2017][research_german_galkin_gavrilov_2017], [Ghemari and Saad 2017][research_ghemari_saad_2017], [Gladkov
+I. A. Application 2017][research_gladkov_i_2017], [Hariyadi 2017][research_hariyadi_2017], [He Lipeng et al
+2017][research_he_lipeng_2017], [Heath et al 2017][research_heath_2017], [Ho et al 2017][research_ho_2017],
+[Hodgkinson 2017][research_hodgkinson_2017], [Holness et al 2017][research_holness_2017], [Iannelli et al
+2017][research_iannelli_2017], [Jeong and Shin 2017][research_jeong_shin_2017], [Jo et al
+2017][research_jo_2017], [Jones 2017][research_jones_2017], [Kawakami et al 2017][research_kawakami_2017],
+[Keßler 2017][research_keler_2017], [Kim 2017, A Study on the Design of HMD Head][research_kim_2017_2], [Kim
+et al 2017, Speed Detection of Motor by Using][research_kim_2017], [Kojima et al
+2017][research_kojima_2017], [Kovalovs et al 2017][research_kovalovs_2017], [Krishnamurthi and Gandhi
+2017][research_krishnamurthi_gandhi_2017], [Lee et al 2017][research_lee_2017], [Lim et al 2017, Further
+Improvement in Rotor][research_lim_2017], [Lim et al 2017, Preventing Rendering Speed][research_lim_2017_2],
+[Liu et al 2017][research_liu_2017], [Logan et al 2017][research_logan_2017], [Luo et al
+2017][research_luo_2017], [Ma et al 2017][research_ma_2017], [Mahajan 2017][research_mahajan_2017],
+[Mahmuddin 2017][research_mahmuddin_2017], [Makarenko et al 2017][research_makarenko_2017], [McKinnon et al
+2017][research_mckinnon_2017], [Mele et al 2017][research_mele_2017], [Mozaffari and Azad
+2017][research_mozaffari_azad_2017], [Muscarello et al 2017][research_muscarello_2017], [Nickels
+2017][research_nickels_2017], [Nik Mohd 2017][research_nik_mohd_2017], [Novel Automatic Demoulding and
+2017][research_novel_automatic_2017], [Octaviani et al 2017][research_octaviani_2017], [Ortun et al
+2017][research_ortun_2017], [Oruc et al 2017][research_oruc_2017], [Overmeyer and Martin
+2017][research_overmeyer_martin_2017], [Park and Menon 2017][research_park_menon_2017], [Patterson et al
+2017][research_patterson_2017], [Perfect et al 2017][research_perfect_2017], [Qibin et al
+2017][research_qibin_2017], [Rakic et al 2017][research_rakic_2017], [Reich et al
+2017][research_reich_2017], [Representations of Flight and 2017][research_representations_of_2017], [Rosti
+et al 2017][research_rosti_2017], [Sakthivel and Venkatesan 2017][research_sakthivel_venkatesan_2017],
+[Shahmiri 2017][research_shahmiri_2017], [Shan et al 2017][research_shan_2017], [Shin et al
+2017][research_shin_2017], [Shultz 2017][research_shultz_2017], [Sineglazov and Glukhov
+2017][research_sineglazov_glukhov_2017], [Singh et al 2017][research_singh_2017], [Smith et al 2017, Towards
+certification of][research_smith_2017], [Sun 2017, Trajectory-linearization Based][research_sun_2017], [Sun
+et al 2017, Improved fixed point iterative][research_sun_2017_2], [Takahashi et al
+2017][research_takahashi_2017], [Takato and Shirayama 2017][research_takato_shirayama_2017], [Tang et al
+2017][research_tang_2017], [Teng and Li 2017][research_teng_li_2017], [Tian et al 2017][research_tian_2017],
+[Valasek et al 2017][research_valasek_2017], [Venkataraman et al 2017][research_venkataraman_2017], [Viano
+and Parenteau 2017][research_viano_parenteau_2017], [Vieira 2017][research_vieira_2017], [Voskuijl and
+Verhagen 2017][research_voskuijl_verhagen_2017], [Wang et al 2017, Neural network fuzzy control
+for][research_wang_2017_4], [Wood and Okulov 2017][research_wood_okulov_2017], [Xie et al 2017,
+Multidisciplinary Aerodynamic][research_xie_2017_2], [Xin et al 2017, Study on process design
+of][research_xin_2017_2], [Yang et al 2017, Push-Off Mechanics in Actual][research_yang_2017], [Yu et al
+2017][research_yu_2017], [Zaseck et al 2017][research_zaseck_2017], [Zhang and Liu
+2017][research_zhang_liu_2017], [Zhao et al 2017][research_zhao_2017], [van de Berg et al
+2017][research_van_de_berg_2017], [Abhiram et al 2018][research_abhiram_2018], [Alifanov et al
+2018][research_alifanov_2018], [Alizadeh et al 2018][research_alizadeh_2018], [Ayaz
+2018][research_ayaz_2018], [Balakin and Krikunov 2018][research_balakin_krikunov_2018], [Borobia et al
+2018][research_borobia_2018], [Bowen-Davies and Yeo 2018][research_bowen_davies_yeo_2018], [Bp et al
+2018][research_bp_2018], [Burton and Hoburg 2018][research_burton_hoburg_2018], [COMPUTER-AIDED SYSTEM OF
+AIRCRAFT 2018][research_computer_aided_system_2018], [Cantisani et al 2018][research_cantisani_2018],
+[Castilla 2018][research_castilla_2018], [Chang et al 2018][research_chang_2018], [Changchuan et al
+2018][research_changchuan_2018], [Chen et al 2018, A high-precision constant wire][research_chen_2018],
+[Chen et al 2018, Unsteady aerodynamics of a][research_chen_2018_2], [Chenglong et al
+2018][research_chenglong_2018], [DAngelo 2018][research_d_angelo_2018], [Dai et al 2018][research_dai_2018],
+[Danis et al 2018][research_danis_2018], [Dmcc 2018][research_dmcc_2018], [Dolgov
+2018][research_dolgov_2018], [Du and Gao 2018][research_du_gao_2018], [Dursun and Çuhadar
+2018][research_dursun_cuhadar_2018], [Ekman and Debacker 2018][research_ekman_debacker_2018], [Erdmann et al
+2018][research_erdmann_2018], [Falconì et al 2018][research_falconi_2018], [Fedele and Mungiguerra
+2018][research_fedele_mungiguerra_2018], [Feil et al 2018][research_feil_2018], [Fogle et al
+2018][research_fogle_2018], [Greiser 2018][research_greiser_2018], [Guerreiro et al
+2018][research_guerreiro_2018], [Güzelbey et al 2018][research_guzelbey_2018], [Halder and Benedict
+2018][research_halder_benedict_2018], [Han 2018][research_han_2018], [Haridas and Pawar
+2018][research_haridas_pawar_2018], [Heister 2018][research_heister_2018], [Hinzmann et al
+2018][research_hinzmann_2018], [Ignatkin et al 2018][research_ignatkin_2018], [Jackson and Burgess
+2018][research_jackson_burgess_2018], [Jacobs et al 2018][research_jacobs_2018], [Jacobson and Smith
+2018][research_jacobson_smith_2018], [Jang and Yang 2018][research_jang_yang_2018], [Janse van Rensburg et
+al 2018][research_janse_van_rensburg_2018], [Jiang and Zhang 2018][research_jiang_zhang_2018], [Jimenez
+Garcia and Barakos 2018][research_jimenez_garcia_barakos_2018], [Kim et al 2018][research_kim_2018], [Kumar
+Gupta et al 2018][research_kumar_gupta_2018], [Kutsenko et al 2018][research_kutsenko_2018], [Kwak and Sung
+2018][research_kwak_sung_2018], [Langer and Yang 2018][research_langer_yang_2018], [Leishman
+2018][research_leishman_2018], [Liu and Dai 2018][research_liu_dai_2018], [Liu et al 2018, Ship Trajectory
+Tracking Control][research_liu_2018_2], [Ma et al 2018][research_ma_2018], [Makeich and Kryukov
+2018][research_makeich_kryukov_2018], [Miyagawa et al 2018][research_miyagawa_2018], [Moon and Phan
+2018][research_moon_phan_2018], [Mori and Kuzuo 2018][research_mori_kuzuo_2018], [Mukadam et al
+2018][research_mukadam_2018], [Nam and Mavris 2018][research_nam_mavris_2018], [Noda et al
+2018][research_noda_2018], [Papa and Ponte 2018][research_papa_ponte_2018], [Park and Park
+2018][research_park_park_2018], [Pölzlbauer et al 2018][research_polzlbauer_2018], [Rajaram et al
+2018][research_rajaram_2018], [Rand and Khromov 2018][research_rand_khromov_2018], [Rayavarapu
+2018][research_rayavarapu_2018], [Riboldi et al 2018][research_riboldi_2018], [Richez
+2018][research_richez_2018], [Rogalski 2018][research_rogalski_2018], [Sanchez-Carmona and Cuerno-Rejado
+2018][research_sanchez_carmona_cuerno_rejado_2018], [Schairer et al 2018][research_schairer_2018],
+[Schneeberger et al 2018][research_schneeberger_2018], [Shafiei et al 2018][research_shafiei_2018], [Sheng
+2018][research_sheng_2018], [Su et al 2018][research_su_2018], [Takahashi et al
+2018][research_takahashi_2018], [Tang and Kumar 2018][research_tang_kumar_2018], [Teixeira et al
+2018][research_teixeira_2018], [The Biomechanics of Impact 2018][research_the_biomechanics_2018], [Turkoglu
+2018][research_turkoglu_2018], [Vechtel et al 2018][research_vechtel_2018], [Vogel and Rudolph
+2018][research_vogel_rudolph_2018], [Vratny and Hornung 2018][research_vratny_hornung_2018], [Wang 2018,
+Dynamic Modeling and Simulation][research_wang_2018_6], [Wang et al 2018, A Wind Estimation Method with
+an][research_wang_2018_2], [Wang et al 2018, A method for compensating][research_wang_2018_9], [Wang et al
+2018, High-resolution simulation for][research_wang_2018_8], [Wang et al 2018, Integrated optimization
+on][research_wang_2018], [Wang et al 2018, Research on Integrated Control][research_wang_2018_4], [Warner
+and Rogers 2018][research_warner_rogers_2018], [Wei et al 2018][research_wei_2018], [Yang et al 2018,
+Fluid-structure interaction study][research_yang_2018], [Yao et al 2018][research_yao_2018], [Zhang et al
+2018, Correlation of Occupant][research_zhang_2018], [Zhao 2018, Numerical Simulation of Rotor
+in][research_zhao_2018_2], [Zhao et al 2018, Aerodynamics of a Wing with a][research_zhao_2018], [Abutunis
+et al 2019][research_abutunis_2019], [Aghazadeh et al 2019][research_aghazadeh_2019], [Amalia et al
+2019][research_amalia_2019], [Ament et al 2019][research_ament_2019], [Anderson et al
+2019][research_anderson_2019], [Antonakis et al 2019][research_antonakis_2019], [Ashton and Skaperdas
+2019][research_ashton_skaperdas_2019], [Bailly and Bailly 2019][research_bailly_bailly_2019], [Bhargavapuri
+et al 2019][research_bhargavapuri_2019], [Boyd 2019][research_boyd_2019], [Cameron and Sirohi
+2019][research_cameron_sirohi_2019], [Chen et al 2019, A bio-inspired
+self-propelling][research_chen_2019_5], [Chen et al 2019, Extraction of Dynamic Inflow][research_chen_2019],
+[Chen et al 2019, Hamiltonian-based minimum-energy][research_chen_2019_4], [Choi et al 2019, Design,
+fabrication, and][research_choi_2019_2], [Choi et al 2019, Wake structures behind a
+rotor][research_choi_2019], [Cui et al 2019][research_cui_2019], [Dahms and Bardenhagen
+2019][research_dahms_bardenhagen_2019], [Daş and Kumpas 2019][research_das_kumpas_2019], [Diekmann
+2019][research_diekmann_2019], [Dulf et al 2019][research_dulf_2019], [Désert et al
+2019][research_desert_2019], [Gosine et al 2019][research_gosine_2019], [Goulos and Bonesso
+2019][research_goulos_bonesso_2019], [Groesbeck et al 2019][research_groesbeck_2019], [Han et al
+2019][research_han_2019], [Hannah L Morgan 2019][research_hannah_l_morgan_2019], [Harris
+2019][research_harris_2019], [He et al 2019][research_he_2019], [Hiremath et al
+2019][research_hiremath_2019], [Ho and Yeo 2019][research_ho_yeo_2019], [Hurley et al
+2019][research_hurley_2019], [Hwang and Kwon 2019][research_hwang_kwon_2019], [Ignatkin et al
+2019][research_ignatkin_2019], [Isogaya et al 2019][research_isogaya_2019], [Khalesi et al
+2019][research_khalesi_2019], [Knapik 2019, United States Military Parachute][research_knapik_2019], [Knapik
+2019, United States Military Parachute][research_knapik_2019_2], [Kotwicz Herniczek et al
+2019][research_kotwicz_herniczek_2019], [Koyama et al 2019][research_koyama_2019], [Krampe and Junge
+2019][research_krampe_junge_2019], [Krawczyk et al 2019][research_krawczyk_2019], [Kropiventseva and Sedova
+2019][research_kropiventseva_sedova_2019], [Kurtulus 2019][research_kurtulus_2019], [Lee et al
+2019][research_lee_2019], [Lei and Liu 2019][research_lei_liu_2019], [Li et al 2019][research_li_2019], [Liu
+et al 2019, Numerical simulation of flow][research_liu_2019], [Lu et al 2019][research_lu_2019], [Lusk et al
+2019][research_lusk_2019], [Lv et al 2019, Ship Trajectory Control System][research_lv_2019], [Malik and
+Hussain 2019][research_malik_hussain_2019], [McKay et al 2019][research_mckay_2019], [Mercy Kingsta et al
+2019][research_mercy_kingsta_2019], [Murea 2019][research_murea_2019], [Neff 2019][research_neff_2019], [Ng
+and Datta 2019][research_ng_datta_2019], [O. Hamdoon et al 2019][research_o_hamdoon_2019], [Obioma Godspower
+and John Chuku 2019][research_obioma_godspower_john_chuku_2019], [Onyeneke 2019][research_onyeneke_2019],
+[Papayanopoulos et al 2019][research_papayanopoulos_2019], [Petermann et al 2019][research_petermann_2019],
+[Qi 2019][research_qi_2019], [Ramadevi 2019][research_ramadevi_2019], [Rodak 2019][research_rodak_2019],
+[Saetti et al 2019][research_saetti_2019], [Seymore et al 2019][research_seymore_2019], [Shahid et al
+2019][research_shahid_2019], [Singh 2019][research_singh_2019], [Soave et al 2019][research_soave_2019],
+[Soni and Tiwari 2019][research_soni_tiwari_2019], [Stalewski and Surmacz
+2019][research_stalewski_surmacz_2019], [Stanisławski 2019][research_stanisawski_2019], [Takahashi et al
+2019][research_takahashi_2019], [Takita and Kashitani 2019][research_takita_kashitani_2019], [Toma et al
+2019][research_toma_2019], [Turgut et al 2019][research_turgut_2019], [Vechtel 2019][research_vechtel_2019],
+[Venkataraman and Seiler 2019][research_venkataraman_seiler_2019], [Wang et al 2019, Stability Analysis of
+Tailsitters][research_wang_2019_2], [Warner and Rogers 2019][research_warner_rogers_2019], [Waxman et al
+2019][research_waxman_2019], [Weber et al 2019][research_weber_2019], [Wei et al 2019][research_wei_2019],
+[Wilk and Guzikowski 2019][research_wilk_guzikowski_2019], [Xia et al 2019][research_xia_2019], [Xue et al
+2019][research_xue_2019], [Ye et al 2019, A study of the novel vision][research_ye_2019_2], [Yetgi̇n and
+Tezcan 2019][research_yetgin_tezcan_2019], [Zare et al 2019][research_zare_2019], [de Vries et al
+2019][research_de_vries_2019], [Джанджгава et al 2019][research__2019], [A Novel Sliding Mode
+2020][research_a_novel_2020], [Alexandridis 2020][research_alexandridis_2020], [Alguacil et al
+2020][research_alguacil_2020], [Ali et al 2020][research_ali_2020], [Altava et al
+2020][research_altava_2020], [Arjun Ram and Akella 2020][research_arjun_ram_akella_2020], [Asmayawati and
+Nixon 2020][research_asmayawati_nixon_2020], [Azarnoosh and Hassanipour
+2020][research_azarnoosh_hassanipour_2020], [Bardera et al 2020][research_bardera_2020], [Bouzidi et al
+2020][research_bouzidi_2020], [Caprace et al 2020][research_caprace_2020], [Castillo-Rivera and
+Tomas-Rodriguez 2020][research_castillo_rivera_tomas_rodriguez_2020], [Cheng et al 2020, Aerodynamics and
+dynamic][research_cheng_2020], [Chu et al 2020][research_chu_2020], [Cole et al 2020][research_cole_2020],
+[Cristiani et al 2020][research_cristiani_2020], [D. 2020][research_d_2020], [Dececchi et al 2020,
+Aerodynamics Show][research_dececchi_2020], [Dececchi et al 2020, Aerodynamics Show
+Membrane-Winged][research_dececchi_2020_2], [Donkels 2020][research_donkels_2020], [Finger et al
+2020][research_finger_2020], [Gao et al 2020, An experimental study on the][research_gao_2020_2], [Gao et al
+2020, Fluid-structure Interactions on][research_gao_2020], [Greene 2020][research_greene_2020], [Gu et al
+2020][research_gu_2020], [Huang 2020, Further Improving General][research_huang_2020_2], [Ignatkin et al
+2020][research_ignatkin_2020], [Ignatyev et al 2020][research_ignatyev_2020], [Innovated inertia control of
+2020][research_innovated_inertia_2020], [Jamali and Sehat 2020][research_jamali_sehat_2020], [Kalateh and
+Koosheh 2020][research_kalateh_koosheh_2020], [Kim and Kim 2020][research_kim_kim_2020], [Kirchner et al
 2020][research_kirchner_2020], [Ko et al 2020][research_ko_2020], [Koo 2020][research_koo_2020], [Kosiyuk
-and Kosiyuk 2020][research_kosiyuk_kosiyuk_2020], [Lee and Dassonville 2020][research_lee_dassonville_2020],
-[Li and Mosleh 2020][research_li_mosleh_2020], [Li et al 2020, Rotor segment split and
-its][research_li_2020], [Markus and Kertesz 2020][research_markus_kertesz_2020], [Minotra and Feigh
+and Kosiyuk 2020][research_kosiyuk_kosiyuk_2020], [Kovtun 2020][research_kovtun_2020], [Krikunov
+2020][research_krikunov_2020], [Lee and Dassonville 2020][research_lee_dassonville_2020], [Lei and Ye
+2020][research_lei_ye_2020], [Lei et al 2020][research_lei_2020], [Li and Mosleh
+2020][research_li_mosleh_2020], [Li et al 2020, Rotor segment split and its][research_li_2020], [M et al
+2020][research_m_2020], [Markus and Kertesz 2020][research_markus_kertesz_2020], [Melis et al
+2020][research_melis_2020], [Mieloszyk et al 2020][research_mieloszyk_2020], [Minotra and Feigh
 2020][research_minotra_feigh_2020], [Misiorowski et al 2020][research_misiorowski_2020], [Mosov et al
-2020][research_mosov_2020], [Numerical Simulation of Aerodynamics 2020][research_numerical_simulation_2020],
-[Parate 2020][research_parate_2020], [Park 2020][research_park_2020], [Park and Park
-2020][research_park_park_2020], [Polyzos et al 2020][research_polyzos_2020], [Pongsakornsathien et al
-2020][research_pongsakornsathien_2020], [Qi and Wu 2020][research_qi_wu_2020], [Romanchuk et al
-2020][research_romanchuk_2020], [Saito et al 2020][research_saito_2020], [Samad et al
-2020][research_samad_2020], [Schuchardt et al 2020][research_schuchardt_2020], [Single-beam laser Surface
-angle 2020][research_single_beam_laser_2020], [Stalewski and Surmacz 2020][research_stalewski_surmacz_2020],
-[Vorobуev et al 2020][research_vorobev_2020], [Váňa et al 2020][research_vana_2020], [Wang et al 2020,
-Helicopter Safe Landing][research_wang_2020], [Yang et al 2020][research_yang_2020], [Yao et al
-2020][research_yao_2020], [Addo-Akoto et al 2021][research_addo_akoto_2021], [Arena et al
-2021][research_arena_2021], [Blahitko et al 2021][research_blahitko_2021], [Cai and Yao
-2021][research_cai_yao_2021], [Cao and Zhang 2021][research_cao_zhang_2021], [Chen and Hubner
-2021][research_chen_hubner_2021], [Chen et al 2021, A review of mathematical][research_chen_2021], [Chen et
-al 2021, Numerical visualization of drop][research_chen_2021_3], [Cieślak 2021][research_cieslak_2021],
-[Elkatmis 2021][research_elkatmis_2021], [Fang and Xiao 2021][research_fang_xiao_2021], [Feil and Hajek
-2021][research_feil_hajek_2021], [Fitzgibbon et al 2021][research_fitzgibbon_2021], [Gaylor and Junge
+2020][research_mosov_2020], [Nguyen et al 2020][research_nguyen_2020], [Nixon et al
+2020][research_nixon_2020], [Parate 2020][research_parate_2020], [Park 2020][research_park_2020], [Park and
+Park 2020][research_park_park_2020], [Parmentier and Meunier 2020][research_parmentier_meunier_2020],
+[Pongsakornsathien et al 2020][research_pongsakornsathien_2020], [Powers et al 2020][research_powers_2020],
+[Qi and Wu 2020][research_qi_wu_2020], [Radil and Berkebile 2020][research_radil_berkebile_2020], [Ren and
+Shu 2020][research_ren_shu_2020], [Roh et al 2020][research_roh_2020], [Saito et al
+2020][research_saito_2020], [Samad et al 2020][research_samad_2020], [Scholten et al
+2020][research_scholten_2020], [Schuchardt et al 2020][research_schuchardt_2020], [Semakov and Semakova
+2020][research_semakov_semakova_2020], [Single-beam laser Surface angle
+2020][research_single_beam_laser_2020], [Smeur et al 2020][research_smeur_2020], [Stalewski and Surmacz
+2020][research_stalewski_surmacz_2020], [Sziroczak et al 2020][research_sziroczak_2020], [Villeneuve et al
+2020, Numerical and Experimental][research_villeneuve_2020], [Villeneuve et al 2020, Numerical and
+Experimental][research_villeneuve_2020_2], [Vorobуev et al 2020][research_vorobev_2020], [Váňa et al
+2020][research_vana_2020], [Walko and Peinecke 2020][research_walko_peinecke_2020], [Wang et al 2020, An
+Iterative Convex Programming][research_wang_2020_3], [Wang et al 2020, Disturbance
+Attenuation][research_wang_2020_5], [Wu et al 2020][research_wu_2020], [Yacoub et al
+2020][research_yacoub_2020], [Yang et al 2020, Fluid structure interaction][research_yang_2020], [Yang et al
+2020, The calculation of road traffic][research_yang_2020_3], [Yao et al 2020][research_yao_2020], [Yoakum
+and Cerreta 2020][research_yoakum_cerreta_2020], [Yu et al 2020][research_yu_2020], [Yust
+2020][research_yust_2020], [Безденежных et al 2020][research__2020], [Addo-Akoto et al
+2021][research_addo_akoto_2021], [Akerkouch and Le 2021][research_akerkouch_le_2021], [Antony and Maniyeri
+2021][research_antony_maniyeri_2021], [Aqil and Hur 2021][research_aqil_hur_2021], [Arena et al
+2021][research_arena_2021], [Automatic Mosquito Control Device 2021][research_automatic_mosquito_2021],
+[Blahitko et al 2021][research_blahitko_2021], [Bretschneider et al 2021][research_bretschneider_2021], [Cai
+and Yao 2021][research_cai_yao_2021], [Cao and Zhang 2021][research_cao_zhang_2021], [Cao et al
+2021][research_cao_2021], [Chen and Hubner 2021, Experimental Investigation of][research_chen_hubner_2021],
+[Chen et al 2021, A review of mathematical][research_chen_2021], [Chen et al 2021, Numerical visualization
+of drop][research_chen_2021_3], [Chitsaz et al 2021][research_chitsaz_2021], [Cieślak
+2021][research_cieslak_2021], [DEVELOPMENT AND VALIDATION OF 2021][research_development_and_2021], [Dynamic
+Response Analysis of 2021][research_dynamic_response_2021], [Elkatmis 2021][research_elkatmis_2021], [Fang
+and Xiao 2021][research_fang_xiao_2021], [Farvardin Ahranjani and Banazadeh
+2021][research_farvardin_ahranjani_banazadeh_2021], [Feil and Hajek 2021][research_feil_hajek_2021],
+[Fitzgibbon et al 2021][research_fitzgibbon_2021], [Flindell et al 2021][research_flindell_2021], [Fluid
+Structure Interaction FSI 2021][research_fluid_structure_2021], [Fluid-Structure Interaction Simulation of
+2021][research_fluid_structure_interaction_2021], [Gao et al 2021][research_gao_2021], [Gaylor and Junge
 2021][research_gaylor_junge_2021], [Ghellab et al 2021][research_ghellab_2021], [Gokbel and Ersoy
-2021][research_gokbel_ersoy_2021], [Greco et al 2021][research_greco_2021], [Hall et al
-2021][research_hall_2021], [Koh and Hu 2021][research_koh_hu_2021], [L 2021][research_l_2021], [Ledoux et al
-2021][research_ledoux_2021], [León et al 2021, Ground and Flight Tests of an][research_leon_2021], [León et
-al 2021, Rotorcraft Dynamic Platform][research_leon_2021_2], [Makeev et al 2021, Numerical investigation of
-full][research_makeev_2021_2], [Makeev et al 2021, Numerical study of the main rotor][research_makeev_2021],
-[Mao et al 2021][research_mao_2021], [Mertova and Bures 2021][research_mertova_bures_2021], [Mojaddarasil
-and Sadigh 2021][research_mojaddarasil_sadigh_2021], [Mrusek 2021][research_mrusek_2021], [Pamnani and
-Jeughale 2021][research_pamnani_jeughale_2021], [Paxton 2021][research_paxton_2021], [Porkolab and Lakatos
-2021][research_porkolab_lakatos_2021], [Roy 2021][research_roy_2021], [Savino et al
-2021][research_savino_2021], [Sengupta et al 2021][research_sengupta_2021], [Sinha et al
-2021][research_sinha_2021], [Song et al 2021][research_song_2021], [Stanford 2021][research_stanford_2021],
-[Su et al 2021][research_su_2021], [Talaeizadeh et al 2021][research_talaeizadeh_2021], [Tormen et al
-2021][research_tormen_2021], [Vouros et al 2021][research_vouros_2021], [Wakabayashi et al
-2021][research_wakabayashi_2021], [Wu et al 2021, Deployable self-regulating][research_wu_2021_2], [Wu et al
-2021, Unsteady aerodynamics of a micro][research_wu_2021], [Zanoosi et al 2021][research_zanoosi_2021],
-[Zhang et al 2021, An image measurement technique][research_zhang_2021], [Zhou and Wu
-2021][research_zhou_wu_2021], [Zhu et al 2021, An occupant-centric][research_zhu_2021_2], [Agarwal et al
-2022][research_agarwal_2022], [Akturk and Camci 2022][research_akturk_camci_2022], [Arjun Ram and Akella
-2022][research_arjun_ram_akella_2022], [Boustani et al 2022][research_boustani_2022], [Chatzikalymnios and
-Moustakas 2022][research_chatzikalymnios_moustakas_2022], [Chen and Ye 2022][research_chen_ye_2022], [Chen
-et al 2022, Effects of bore-hole design on][research_chen_2022], [Chernenko and Burnashev
+2021][research_gokbel_ersoy_2021], [Gong and Fang 2021][research_gong_fang_2021], [Greco et al
+2021][research_greco_2021], [Gu et al 2021][research_gu_2021], [Guner et al 2021][research_guner_2021],
+[Habibnia and Pascoa 2021][research_habibnia_pascoa_2021], [Halim et al 2021][research_halim_2021], [Hall et
+al 2021][research_hall_2021], [Han et al 2021][research_han_2021], [Heidari and Saska
+2021][research_heidari_saska_2021], [Hillman 2021][research_hillman_2021], [Hryshchenko et al
+2021][research_hryshchenko_2021], [Islam and Mehedi 2021][research_islam_mehedi_2021], [Jacobellis et al
+2021][research_jacobellis_2021], [Jäger et al 2021][research_jager_2021], [Kandyba
+2021][research_kandyba_2021], [Khurramov and Bobomurodov 2021][research_khurramov_bobomurodov_2021], [Kilic
+and Unal 2021][research_kilic_unal_2021], [Koh and Hu 2021][research_koh_hu_2021], [Kulkarni et al
+2021][research_kulkarni_2021], [Kuprikov et al 2021][research_kuprikov_2021], [L 2021][research_l_2021],
+[Ledoux et al 2021][research_ledoux_2021], [Lee et al 2021, Reverse Design for
+Composite][research_lee_2021_3], [Lei et al 2021][research_lei_2021], [León et al 2021, Ground and Flight
+Tests of an][research_leon_2021], [León et al 2021, Rotorcraft Dynamic Platform][research_leon_2021_2], [Li
+and Zuo 2021][research_li_zuo_2021], [Li et al 2021, Helicopter Training Simulator][research_li_2021_2],
+[Linton et al 2021][research_linton_2021], [Liu and Hong 2021][research_liu_hong_2021], [Lorenz et al
+2021][research_lorenz_2021], [Ma et al 2021][research_ma_2021], [Makeev et al 2021, Numerical investigation
+of full][research_makeev_2021_2], [Makeev et al 2021, Numerical study of the main
+rotor][research_makeev_2021], [Mao et al 2021][research_mao_2021], [Maru et al 2021][research_maru_2021],
+[Mertova and Bures 2021][research_mertova_bures_2021], [Mojaddarasil and Sadigh
+2021][research_mojaddarasil_sadigh_2021], [Mpanza and Pedro 2021][research_mpanza_pedro_2021], [Mrusek
+2021][research_mrusek_2021], [Nakka and Alexander-Ramos 2021][research_nakka_alexander_ramos_2021],
+[Nimbalkar et al 2021][research_nimbalkar_2021], [Pamnani and Jeughale
+2021][research_pamnani_jeughale_2021], [Park and Kwon 2021][research_park_kwon_2021], [Paxton
+2021][research_paxton_2021], [Pigusov 2021][research_pigusov_2021], [Porkolab and Lakatos
+2021][research_porkolab_lakatos_2021], [Pozzi et al 2021][research_pozzi_2021], [Ramanujam R and Mohan
+2021][research_ramanujam_r_mohan_2021], [Riedmaier et al 2021][research_riedmaier_2021], [Roelofs et al
+2021][research_roelofs_2021], [Roy 2021][research_roy_2021], [Savelev 2021][research_savelev_2021], [Savino
+et al 2021][research_savino_2021], [Scullion et al 2021][research_scullion_2021], [Seher-Weiß and Jones
+2021][research_seher_wei_jones_2021], [Senatorov and Glazkowa 2021][research_senatorov_glazkowa_2021],
+[Sengupta et al 2021][research_sengupta_2021], [Singh and Friedmann 2021][research_singh_friedmann_2021],
+[Sinha et al 2021][research_sinha_2021], [Smith and Moushegian 2021][research_smith_moushegian_2021], [Song
+et al 2021][research_song_2021], [Stachiw et al 2021][research_stachiw_2021], [Stanford
+2021][research_stanford_2021], [Su et al 2021][research_su_2021], [Talaeizadeh et al
+2021][research_talaeizadeh_2021], [Tamer and Masarati 2021][research_tamer_masarati_2021], [Tao et al
+2021][research_tao_2021], [Tschisgale et al 2021][research_tschisgale_2021], [Uluocak et al
+2021][research_uluocak_2021], [Wakabayashi et al 2021][research_wakabayashi_2021], [Webb and Rogers
+2021][research_webb_rogers_2021], [Win et al 2021][research_win_2021], [Woodward
+2021][research_woodward_2021], [Wu et al 2021, Aerodynamics of two-dimensional][research_wu_2021_3], [Wu et
+al 2021, Deployable self-regulating][research_wu_2021_2], [Wu et al 2021, Unsteady aerodynamics of a
+micro][research_wu_2021], [Yakhlef and Murea 2021][research_yakhlef_murea_2021], [Yin et al
+2021][research_yin_2021], [Yulianingtyas and Haqi 2021][research_yulianingtyas_haqi_2021], [Yun et al
+2021][research_yun_2021], [Zanoosi et al 2021][research_zanoosi_2021], [Zhang et al 2021, An image
+measurement technique][research_zhang_2021], [Zhou and Wu 2021][research_zhou_wu_2021], [Zhu et al 2021, An
+occupant-centric][research_zhu_2021_2], [Zhu et al 2021, The Spatial Variation
+Mechanism][research_zhu_2021_3], [Özen et al 2021][research_ozen_2021], [Adams et al
+2022][research_adams_2022], [Agarwal et al 2022][research_agarwal_2022], [Ahuja and Mavris
+2022][research_ahuja_mavris_2022], [Akturk and Camci 2022][research_akturk_camci_2022], [Aláez et al
+2022][research_alaez_2022], [Amelin 2022][research_amelin_2022], [Arjun Ram and Akella
+2022][research_arjun_ram_akella_2022], [Arush et al 2022][research_arush_2022], [Arıol Taymaz
+2022][research_arol_taymaz_2022], [Barbosa et al 2022][research_barbosa_2022], [Behera et al 2022,
+Development of scheme to evaluate][research_behera_2022], [Behera et al 2022, Effect of fabric
+construction][research_behera_2022_2], [Bhardwaj et al 2022][research_bhardwaj_2022], [Boisard
+2022][research_boisard_2022], [Boustani et al 2022][research_boustani_2022], [Bouwmeester et al
+2022][research_bouwmeester_2022], [Chae et al 2022][research_chae_2022], [Chakraborty and Roy
+2022][research_chakraborty_roy_2022], [Chatzikalymnios and Moustakas
+2022][research_chatzikalymnios_moustakas_2022], [Chen and Ye 2022][research_chen_ye_2022], [Chen et al 2022,
+Effects of bore-hole design on][research_chen_2022], [Chernenko and Burnashev
 2022][research_chernenko_burnashev_2022], [Efimov and Chernigin 2022][research_efimov_chernigin_2022],
-[Finger et al 2022][research_finger_2022], [Fritz et al 2022][research_fritz_2022], [Ghosh and Rajagopalan
-2022][research_ghosh_rajagopalan_2022], [Han and Barakos 2022][research_han_barakos_2022], [Jeffrey J.
-Berton 2022][research_jeffrey_j_berton_2022], [Ji et al 2022][research_ji_2022], [Jin et al
-2022][research_jin_2022], [Krishnan et al 2022][research_krishnan_2022], [Larsson
-2022][research_larsson_2022], [Lee et al 2022, Generic Design Methodology for][research_lee_2022_2], [Lee et
-al 2022, Review of vortex methods for][research_lee_2022], [Makeev et al 2022][research_makeev_2022], [Mao
-et al 2022][research_mao_2022], [Masterson and Warne 2022][research_masterson_warne_2022], [Mihalik and
-Keane 2022][research_mihalik_keane_2022], [Morelli and Guardone 2022][research_morelli_guardone_2022],
-[Palleja-Cabre et al 2022][research_palleja_cabre_2022], [Parate 2022][research_parate_2022], [Park
-2022][research_park_2022], [Saadat et al 2022][research_saadat_2022], [Sahebzadeh et al
-2022][research_sahebzadeh_2022], [Saias et al 2022][research_saias_2022], [Santos et al
-2022][research_santos_2022], [Talebi et al 2022][research_talebi_2022], [Tobalske
-2022][research_tobalske_2022], [Venelin Stoyanov Jivkov 2022][research_venelin_stoyanov_jivkov_2022], [Wang
-2022, Analysis of emergency landing][research_wang_2022_2], [Wu et al 2022][research_wu_2022], [Zanotti
-2022][research_zanotti_2022], [Zhu et al 2022, Correlation Analysis of Energy][research_zhu_2022], [Albrecht
-et al 2023][research_albrecht_2023], [Aryaman et al 2023][research_aryaman_2023], [Barman and Sinha
-2023][research_barman_sinha_2023], [Chakraborty and Mishra 2023][research_chakraborty_mishra_2023],
-[Chakraborty et al 2023][research_chakraborty_2023], [Chandak 2023][research_chandak_2023], [Chen et al
-2023, Online Trajectory Optimization][research_chen_2023], [Cheng et al 2023][research_cheng_2023],
-[Christopher S Thurman et al 2023][research_christopher_s_thurman_2023], [Christopher S. Thurman and James
-D. Baeder 2023][research_christopher_s_thurman_james_d_baeder_2023], [Dukhnovskiy
-2023][research_dukhnovskiy_2023], [Eric Greenwood et al 2023][research_eric_greenwood_2023], [Feng et al
-2023][research_feng_2023], [Fike et al 2023][research_fike_2023], [Fu et al 2023][research_fu_2023], [Gaeid
-et al 2023][research_gaeid_2023], [He et al 2023][research_he_2023], [Henderson
-2023][research_henderson_2023], [Irfanullah et al 2023][research_irfanullah_2023], [Kim et al
-2023][research_kim_2023], [Larry A. Young 2023][research_larry_a_young_2023], [Lee et al 2023, Intelligent
-Vision-based][research_lee_2023], [Li 2023, Aerodynamics-based forward-swept][research_li_2023], [Li et al
-2023, Optimization and numerical][research_li_2023_3], [Liem 2023][research_liem_2023], [Liu et al 2023,
-Unsteady numerical simulation of][research_liu_2023], [Lu et al 2023, Multi-Phase Vertical Take-Off
-and][research_lu_2023], [Lu et al 2023, Numerical investigation of the][research_lu_2023_2], [Mahmood and ur
-Rehman 2023][research_mahmood_ur_rehman_2023], [Mancini et al 2023][research_mancini_2023], [Mathur and
-Atkins 2023][research_mathur_atkins_2023], [Müller and Moormann 2023][research_muller_moormann_2023], [Nie
-et al 2023][research_nie_2023], [Papa 2023][research_papa_2023], [Park et al 2023][research_park_2023],
-[Pickles et al 2023, The vortex ring state of a rotor][research_pickles_2023_2], [Pickles et al 2023, Vortex
-ring state of a shrouded][research_pickles_2023], [Qin 2023][research_qin_2023], [Ran et al
-2023][research_ran_2023], [Ruh and Hwang 2023][research_ruh_hwang_2023], [Saias et al
-2023][research_saias_2023], [Sheen et al 2023][research_sheen_2023], [Son et al 2023][research_son_2023],
-[Thomas et al 2023][research_thomas_2023], [Toffol and Ricci 2023][research_toffol_ricci_2023], [Veismann et
-al 2023][research_veismann_2023], [Wernick and Chen 2023][research_wernick_chen_2023], [Xiong et al
-2023][research_xiong_2023], [Xue et al 2023][research_xue_2023], [Yang 2023, Reduced-Order Static
-L2-Gain][research_yang_2023], [Yatsukhno 2023][research_yatsukhno_2023], [Zhang et al
-2023][research_zhang_2023], [Zhao and Zhang 2023][research_zhao_zhang_2023], [Buǧday and Saetti
-2024][research_bugday_saetti_2024], [Cao et al 2024][research_cao_2024], [Evdokimenkov et al 2024,
-Operational Control of an][research_evdokimenkov_2024_2], [Fian and Hauger 2024][research_fian_hauger_2024],
-[Goldschmidt et al 2024][research_goldschmidt_2024], [Hong and Jung 2024][research_hong_jung_2024], [Jin
-2024][research_jin_2024], [Joshua Bowman et al 2024][research_joshua_bowman_2024], [Kalra et al
-2024][research_kalra_2024], [Kocjan and Rogólski 2024][research_kocjan_rogolski_2024], [Konow and Roberts
-2024][research_konow_roberts_2024], [Li et al 2024, The Functions of Phasic Wing-Tip][research_li_2024], [Li
-et al 2024, Vehicle Occupant Detection Based][research_li_2024_3], [Liang et al 2024][research_liang_2024],
-[Liu et al 2024][research_liu_2024], [Makeev et al 2024][research_makeev_2024], [Morris et al
-2024][research_morris_2024], [Mou et al 2024][research_mou_2024], [Muda et al 2024][research_muda_2024],
-[Proulx-Cabana et al 2024][research_proulx_cabana_2024], [Richardson et al 2024][research_richardson_2024],
-[Rohan G Deshmukh et al 2024][research_rohan_g_deshmukh_2024], [Roncolini et al
-2024][research_roncolini_2024], [Saetti 2024][research_saetti_2024], [Shah et al 2024][research_shah_2024],
-[Shen 2024, Robotic trajectory tracking][research_shen_2024], [Simon 2024][research_simon_2024], [Sun
-2024][research_sun_2024], [Sánchez-Rodríguez et al 2024][research_sanchez_rodriguez_2024], [Talebi et al
-2024][research_talebi_2024], [Taylor et al 2024][research_taylor_2024], [Teresa M Reiber et al
-2024][research_teresa_m_reiber_2024], [Viano 2024][research_viano_2024], [Wang 2024, Low-cost Badminton
-Trajectory][research_wang_2024], [Wang et al 2024, Sensitivity Analysis for Design][research_wang_2024_4],
-[Xu et al 2024][research_xu_2024], [Yan et al 2024, Landing trajectory and control][research_yan_2024], [Yan
-et al 2024, Research on the Calculation][research_yan_2024_2], [Yang et al 2024, Effect of midsole hardness
-and][research_yang_2024_2], [Yano and Morrison 2024][research_yano_morrison_2024], [Yu et al
-2024][research_yu_2024], [Yuk et al 2024][research_yuk_2024], [Zeng et al 2024][research_zeng_2024], [Zhang
-et al 2024, Extension of a sharp-interface][research_zhang_2024], [Zhang et al 2024, Recent progress in
-precision][research_zhang_2024_5], [Zhang et al 2024, Toward high-lift low-solidity][research_zhang_2024_4],
-[Zhou and Deng 2024][research_zhou_deng_2024], [Aldawsari 2025][research_aldawsari_2025], [Arnold
-2025][research_arnold_2025], [Cadieux and Barad 2025][research_cadieux_barad_2025], [Cao et al
-2025][research_cao_2025], [Chen and Luo 2025][research_chen_luo_2025], [Effect of Solidity and
-2025][research_effect_of_2025], [Fu et al 2025][research_fu_2025], [Georgiev 2025][research_georgiev_2025],
-[Gholampour and Beaver 2025][research_gholampour_beaver_2025], [Gonzalo et al 2025][research_gonzalo_2025],
-[Guan et al 2025][research_guan_2025], [He et al 2025][research_he_2025], [Hussien et al
-2025][research_hussien_2025], [Iliev 2025][research_iliev_2025], [Investigation of Aeroelastic Coupling
-2025][research_investigation_of_2025], [Karamalian et al 2025][research_karamalian_2025], [Kaspar and Grim
-2025][research_kaspar_grim_2025], [Kaza 2025][research_kaza_2025], [Kiciński and Topczewski
-2025][research_kicinski_topczewski_2025], [Kiselev et al 2025][research_kiselev_2025], [Li et al 2025,
-Design and Study of a New Rotary][research_li_2025_2], [Liu et al 2025, Clearance measurement of
-a][research_liu_2025_3], [Lutz et al 2025][research_lutz_2025], [Mohan et al 2025][research_mohan_2025],
-[Oxendale and Smith 2025][research_oxendale_smith_2025], [Page and Bailey 2025][research_page_bailey_2025],
-[Pereira et al 2025][research_pereira_2025], [Qi et al 2025, Boundary criterion of vortex
-ring][research_qi_2025], [Saj et al 2025][research_saj_2025], [Shi et al 2025][research_shi_2025], [Si et al
-2025][research_si_2025], [Son et al 2025][research_son_2025], [Sánchez-Mendoza et al
-2025][research_sanchez_mendoza_2025], [Terahara et al 2025][research_terahara_2025], [Wang and Cao
+[Erskine et al 2022][research_erskine_2022], [Finger et al 2022][research_finger_2022], [Fritz et al
+2022][research_fritz_2022], [Genç et al 2022][research_genc_2022], [Ghosh and Rajagopalan
+2022][research_ghosh_rajagopalan_2022], [Gu et al 2022][research_gu_2022], [Han and Barakos
+2022][research_han_barakos_2022], [Hon et al 2022][research_hon_2022], [Hou et al 2022, Aerodynamic
+Deceleration of][research_hou_2022_2], [Hu et al 2022][research_hu_2022], [Huang 2022, Analysis of Rocket
+Modelling][research_huang_2022_2], [Indriawati et al 2022][research_indriawati_2022], [Jeffrey J. Berton
+2022][research_jeffrey_j_berton_2022], [Ji et al 2022][research_ji_2022], [Jin et al
+2022][research_jin_2022], [Jo et al 2022][research_jo_2022], [Kacem et al 2022][research_kacem_2022],
+[Khaled and Aly 2022][research_khaled_aly_2022], [Krishnan et al 2022][research_krishnan_2022], [Kumar et al
+2022, Investigations on Aerodynamic][research_kumar_2022_2], [Kusumoto et al 2022][research_kusumoto_2022],
+[Larsson 2022][research_larsson_2022], [Lee and Park 2022][research_lee_park_2022], [Lee et al 2022, Generic
+Design Methodology for][research_lee_2022_2], [Lee et al 2022, Review of vortex methods
+for][research_lee_2022], [Liu et al 2022, Effects of different][research_liu_2022_3], [Makarov et al
+2022][research_makarov_2022], [Makeev et al 2022][research_makeev_2022], [Masterson and Warne
+2022][research_masterson_warne_2022], [Mehling et al 2022][research_mehling_2022], [Methodology for
+assessing the 2022][research_methodology_for_2022], [Mihalik and Keane 2022][research_mihalik_keane_2022],
+[Morelli and Guardone 2022][research_morelli_guardone_2022], [Müllhäuser and Lusardi
+2022][research_mullhauser_lusardi_2022], [Na and Cho 2022][research_na_cho_2022], [Nawafleh et al
+2022][research_nawafleh_2022], [Palleja-Cabre et al 2022][research_palleja_cabre_2022], [Papadakis et al
+2022][research_papadakis_2022], [Parachute science and Caribbean 2022][research_parachute_science_2022],
+[Parate 2022][research_parate_2022], [Park 2022, Blade Element Momentum Method for][research_park_2022],
+[Ramanujam and Abhishek 2022][research_ramanujam_abhishek_2022], [Saadat et al 2022][research_saadat_2022],
+[Saetti and Rogers 2022][research_saetti_rogers_2022], [Sahebzadeh et al 2022][research_sahebzadeh_2022],
+[Saias et al 2022][research_saias_2022], [Santos et al 2022][research_santos_2022], [Schmaus and Chopra
+2022][research_schmaus_chopra_2022], [Sedlmair et al 2022][research_sedlmair_2022], [Sisson et al 2022,
+Digital Twin Approach for][research_sisson_2022_2], [Sisson et al 2022, Digital twin for
+component][research_sisson_2022], [Sridharan and Govindarajan 2022][research_sridharan_govindarajan_2022],
+[Struniawski 2022][research_struniawski_2022], [Talebi et al 2022][research_talebi_2022], [Tischler
+2022][research_tischler_2022], [Tobalske 2022][research_tobalske_2022], [Venelin Stoyanov Jivkov
+2022][research_venelin_stoyanov_jivkov_2022], [Wang 2022, Analysis of emergency
+landing][research_wang_2022_2], [Wang et al 2022, Limit cycle oscillation][research_wang_2022_8], [Wang et
+al 2022, Numerical and Experimental Study][research_wang_2022_5], [Wu et al 2022, Aerodynamics of two
+parallel][research_wu_2022_2], [Wu et al 2022, The dynamic analysis of the][research_wu_2022], [Xi et al
+2022][research_xi_2022], [Xu and Prasad 2022][research_xu_prasad_2022], [Xue et al 2022][research_xue_2022],
+[Zanon and De Gennaro 2022][research_zanon_de_gennaro_2022], [Zanotti 2022][research_zanotti_2022], [Zhang
+and Wang 2022][research_zhang_wang_2022], [Zhou et al 2022][research_zhou_2022], [Zhu et al 2022,
+Correlation Analysis of Energy][research_zhu_2022], [Бабаков and Финченко 2022][research___2022], [Afari et
+al 2023][research_afari_2023], [Albrecht et al 2023][research_albrecht_2023], [An et al
+2023][research_an_2023], [Anton et al 2023][research_anton_2023], [Aryaman et al
+2023][research_aryaman_2023], [Barman and Sinha 2023][research_barman_sinha_2023], [Behera et al
+2023][research_behera_2023], [Bhardwaj et al 2023][research_bhardwaj_2023], [Bogoslovskii et al
+2023][research_bogoslovskii_2023], [Chakraborty and Mishra 2023, Sizing and Analysis of
+a][research_chakraborty_mishra_2023_2], [Chakraborty and Mishra 2023, Sizing of Tilt-Wing Aircraft
+with][research_chakraborty_mishra_2023], [Chakraborty et al 2023][research_chakraborty_2023], [Chandak
+2023][research_chandak_2023], [Chen et al 2023, Online Trajectory Optimization][research_chen_2023], [Cheng
+et al 2023][research_cheng_2023], [Christopher S Thurman et al 2023][research_christopher_s_thurman_2023],
+[Colletti and Ansell 2023][research_colletti_ansell_2023], [Design and Application of
+2023][research_design_and_2023], [Dukhnovskiy 2023][research_dukhnovskiy_2023], [Elfering et al
+2023][research_elfering_2023], [Escobar and Yeo 2023][research_escobar_yeo_2023], [Fang et al 2023, Model
+Predictive Control With][research_fang_2023], [Farahbakhsh et al 2023][research_farahbakhsh_2023], [Feng et
+al 2023, Control Design and Flight Test of][research_feng_2023], [Fike et al 2023][research_fike_2023],
+[Fominykh and Levin 2023][research_fominykh_levin_2023], [Gaeid et al 2023][research_gaeid_2023], [Gah et al
+2023][research_gah_2023], [Gaunaa et al 2023][research_gaunaa_2023], [He et al 2023][research_he_2023],
+[Henderson 2023][research_henderson_2023], [Hopwood et al 2023][research_hopwood_2023], [Hou et al
+2023][research_hou_2023], [Huang et al 2023][research_huang_2023], [Ibrahim et al
+2023][research_ibrahim_2023], [Irfanullah et al 2023][research_irfanullah_2023], [Ishiguro et al
+2023][research_ishiguro_2023], [K. Senthil Kumar and J. Shanmugam
+2023][research_k_senthil_kumar_j_shanmugam_2023], [Kim et al 2023][research_kim_2023], [Kramer et al
+2023][research_kramer_2023], [Larry A. Young 2023][research_larry_a_young_2023], [Lee et al 2023,
+Intelligent Vision-based][research_lee_2023], [Lei et al 2023, Aerodynamic Performance of
+V8][research_lei_2023], [Lei et al 2023, Aerodynamic performance of a][research_lei_2023_3], [Li 2023,
+Aerodynamics-based forward-swept][research_li_2023], [Li et al 2023, Experimental Investigation
+on][research_li_2023_7], [Li et al 2023, Modelling of Parachute Airborne][research_li_2023_6], [Li et al
+2023, Optimization and numerical][research_li_2023_3], [Li et al 2023, Reliability analysis
+and][research_li_2023_5], [Liem 2023][research_liem_2023], [Liu et al 2023, Unsteady numerical simulation
+of][research_liu_2023], [Lu et al 2023, Multi-Phase Vertical Take-Off and][research_lu_2023], [Lu et al
+2023, Numerical investigation of the][research_lu_2023_2], [Lv et al 2023][research_lv_2023], [Lyu et al
+2023][research_lyu_2023], [Mahmood and ur Rehman 2023][research_mahmood_ur_rehman_2023], [Mancini et al
+2023][research_mancini_2023], [Markiewicz 2023][research_markiewicz_2023], [Mathur and Atkins
+2023][research_mathur_atkins_2023], [Matsubara et al 2023][research_matsubara_2023], [Meadley et al
+2023][research_meadley_2023], [Mustafa et al 2023][research_mustafa_2023], [Müller and Moormann
+2023][research_muller_moormann_2023], [Müller et al 2023][research_muller_2023], [Nie et al
+2023][research_nie_2023], [Olszko et al 2023][research_olszko_2023], [Oussi et al
+2023][research_oussi_2023], [Papa 2023][research_papa_2023], [Park et al 2023, Simulation of Rotorcraft
+Fuselage][research_park_2023], [Park et al 2023, Trajectory optimization for][research_park_2023_2],
+[Pepermans et al 2023][research_pepermans_2023], [Pickles et al 2023, The vortex ring state of a
+rotor][research_pickles_2023_2], [Pickles et al 2023, Vortex ring state of a
+shrouded][research_pickles_2023], [Pollack and van Kampen 2023][research_pollack_van_kampen_2023], [Pérez
+Gordillo et al 2023][research_perez_gordillo_2023], [Qin 2023][research_qin_2023], [Quang sang et al
+2023][research_quang_sang_2023], [Rafique 2023][research_rafique_2023], [Ran et al 2023][research_ran_2023],
+[Refinement of aircraft dynamics 2023][research_refinement_of_2023], [Ruh and Hwang
+2023][research_ruh_hwang_2023], [Ryan and Granger 2023][research_ryan_granger_2023], [Saias et al
+2023][research_saias_2023], [Salinas et al 2023][research_salinas_2023], [Sheen et al
+2023][research_sheen_2023], [Smith et al 2023][research_smith_2023], [Son and Kim
+2023][research_son_kim_2023], [Son et al 2023][research_son_2023], [Song et al 2023][research_song_2023],
+[Sun et al 2023][research_sun_2023], [Sysoyeva 2023][research_sysoyeva_2023], [Tahmasian
+2023][research_tahmasian_2023], [Thomas et al 2023][research_thomas_2023], [Toffol and Ricci
+2023][research_toffol_ricci_2023], [Toth and Szalay 2023][research_toth_szalay_2023], [Veismann et al
+2023][research_veismann_2023], [Wernick and Chen 2023][research_wernick_chen_2023], [Westcott et al
+2023][research_westcott_2023], [Xiong et al 2023][research_xiong_2023], [Xu 2023, Design of a new sweptback
+wing][research_xu_2023_3], [Xue et al 2023][research_xue_2023], [Yang 2023, Reduced-Order Static
+L2-Gain][research_yang_2023], [Yatsukhno 2023][research_yatsukhno_2023], [Zhang et al 2023, Switched Control
+of Fixed-Wing][research_zhang_2023], [Zhao and Zhang 2023][research_zhao_zhang_2023], [Zhou et al 2023,
+Formation control of unmanned][research_zhou_2023_2], [Zhu et al 2023, Experimental Investigation
+on][research_zhu_2023_4], [Zimmer and Gagnon 2023][research_zimmer_gagnon_2023], [Ünal et al
+2023][research_unal_2023], [Вищекин et al 2023, EQUIPMENT FOR PARACHUTE-FREE][research__2023_2],
+[2024][research__2024], [Abu Salem 2024][research_abu_salem_2024], [Accuracy Performance Evaluation System
+2024][research_accuracy_performance_2024], [Ahmed et al 2024][research_ahmed_2024], [Andersen et al
+2024][research_andersen_2024], [Bhandari et al 2024][research_bhandari_2024], [Biertümpfel et al
+2024][research_biertumpfel_2024], [Boniface et al 2024][research_boniface_2024], [Cao et al 2024, Numerical
+study on aerodynamic][research_cao_2024_2], [Cao et al 2024, Uncertainty Quantification][research_cao_2024],
+[Daniilidis et al 2024][research_daniilidis_2024], [De Almeida and Dias
+2024][research_de_almeida_dias_2024], [Evdokimenkov et al 2024, Operational Control of
+an][research_evdokimenkov_2024_2], [Fan et al 2024][research_fan_2024], [Fian and Hauger
+2024][research_fian_hauger_2024], [Gamagedara et al 2024][research_gamagedara_2024], [Garg et al
+2024][research_garg_2024], [Gnatowska and Gajewska 2024][research_gnatowska_gajewska_2024], [Gul and Datta
+2024][research_gul_datta_2024], [Guo and Ma 2024][research_guo_ma_2024], [Halefom et al
+2024][research_halefom_2024], [Han et al 2024, Large-Workspace Dual Multi-Rotor][research_han_2024_2], [Hong
+and Jung 2024][research_hong_jung_2024], [Huang et al 2024, Fault Tolerant Control for
+Open][research_huang_2024_2], [Ishola et al 2024][research_ishola_2024], [Ivanov
+2024][research_ivanov_2024], [Jaspers et al 2024][research_jaspers_2024], [Jiang and Ge
+2024][research_jiang_ge_2024], [Jin 2024][research_jin_2024], [Johnson and Sirohi
+2024][research_johnson_sirohi_2024], [Kalra et al 2024][research_kalra_2024], [Kocjan and Rogólski
+2024][research_kocjan_rogolski_2024], [Konow and Roberts 2024][research_konow_roberts_2024], [Kusumoaji et
+al 2024][research_kusumoaji_2024], [Li et al 2024, The Functions of Phasic Wing-Tip][research_li_2024], [Li
+et al 2024, Vehicle Occupant Detection Based][research_li_2024_3], [Liang et al 2024, Design and Development
+of][research_liang_2024_2], [Liang et al 2024, Set-Membership Filtering Based][research_liang_2024], [Liu et
+al 2024, Gradient projection-based][research_liu_2024], [Luebcke et al 2024][research_luebcke_2024], [Luo
+and Zheng 2024][research_luo_zheng_2024], [Makeev et al 2024][research_makeev_2024], [Mekhmonaliyev
+2024][research_mekhmonaliyev_2024], [Midhun and Ratnoo 2024][research_midhun_ratnoo_2024], [Mohammed
+2024][research_mohammed_2024], [Morris et al 2024][research_morris_2024], [Moshkov
+2024][research_moshkov_2024], [Mou et al 2024][research_mou_2024], [Muda et al 2024][research_muda_2024],
+[Multi-classifier models to improve 2024][research_multi_classifier_models_2024], [Oszczypała et al
+2024][research_oszczypaa_2024], [Papadopoulos et al 2024][research_papadopoulos_2024], [Pawar et al
+2024][research_pawar_2024], [Petit 2024][research_petit_2024], [Prasannakumar et al
+2024][research_prasannakumar_2024], [Proulx-Cabana et al 2024][research_proulx_cabana_2024], [Pulok and
+Chakravarty 2024][research_pulok_chakravarty_2024], [Rahal and Dutta 2024][research_rahal_dutta_2024],
+[Richardson et al 2024][research_richardson_2024], [Rohan G Deshmukh et al
+2024][research_rohan_g_deshmukh_2024], [Roncolini et al 2024][research_roncolini_2024], [Rout and Hota
+2024][research_rout_hota_2024], [Saetti 2024, Real-Time Simulation of a][research_saetti_2024], [Saetti et
+al 2024, On the effects of rotor induced][research_saetti_2024_3], [Safadi and Haddad
+2024][research_safadi_haddad_2024], [Saki and Hagen 2024][research_saki_hagen_2024], [Sekula and Russell
+2024][research_sekula_russell_2024], [Sen and Vaidya 2024][research_sen_vaidya_2024], [Shah et al
+2024][research_shah_2024], [Shen 2024, Robotic trajectory tracking][research_shen_2024], [Siddavatam et al
+2024][research_siddavatam_2024], [Simon 2024][research_simon_2024], [Sivakumar et al
+2024][research_sivakumar_2024], [Sivrioglu and Basaran 2024][research_sivrioglu_basaran_2024], [Stouti et al
+2024][research_stouti_2024], [Structural and permeable contortion 2024][research_structural_and_2024], [Su
+Jung et al 2024][research_su_jung_2024], [Sun 2024, Exploring Aerodynamics The Impact][research_sun_2024],
+[Sánchez-Rodríguez et al 2024][research_sanchez_rodriguez_2024], [Talebi et al 2024][research_talebi_2024],
+[Taylor et al 2024][research_taylor_2024], [Teresa M Reiber et al 2024][research_teresa_m_reiber_2024],
+[Tian et al 2024][research_tian_2024], [Trifonov et al 2024][research_trifonov_2024], [Tupkalo and Cherepkov
+2024][research_tupkalo_cherepkov_2024], [Viano 2024][research_viano_2024], [Wang 2024, Low-cost Badminton
+Trajectory][research_wang_2024], [Wang et al 2024, Analytical and Experimental
+Study][research_wang_2024_11], [Wang et al 2024, Bio-inspired designs for wet gas][research_wang_2024_9],
+[Wang et al 2024, Effect of flight helmet mass][research_wang_2024_7], [Wang et al 2024, Sensitivity
+Analysis for Design][research_wang_2024_4], [Xiao and Shi 2024][research_xiao_shi_2024], [Xu et al 2024,
+Parametric Modelling and][research_xu_2024], [Xu et al 2024, Trajectory Planning Method
+in][research_xu_2024_2], [Yan et al 2024, Landing trajectory and control][research_yan_2024], [Yan et al
+2024, Research on the Calculation][research_yan_2024_2], [Yang et al 2024, Effect of midsole hardness
+and][research_yang_2024_2], [Yano and Morrison 2024][research_yano_morrison_2024], [Yin 2024, Preliminary
+Design of New Escape][research_yin_2024_2], [Yoshida and Fukui 2024][research_yoshida_fukui_2024], [Yoshida
+et al 2024][research_yoshida_2024], [Yu 2024, Adaptive Iterative Learning][research_yu_2024_3], [Yu et al
+2024, Research on efficient design][research_yu_2024], [Zeng et al 2024][research_zeng_2024], [Zhang et al
+2024, Extension of a sharp-interface][research_zhang_2024], [Zhao and Liu 2024][research_zhao_liu_2024],
+[Zhou and Deng 2024][research_zhou_deng_2024], [Zhu et al 2024][research_zhu_2024], [Zinage et al
+2024][research_zinage_2024], [Özel and Kopmaz 2024][research_ozel_kopmaz_2024], [Пичкуров and Артюхин
+2024][research___2024], [Aldawsari 2025][research_aldawsari_2025], [Amraouy et al
+2025][research_amraouy_2025], [Arnold 2025][research_arnold_2025], [Atayagul and Sooraksa
+2025][research_atayagul_sooraksa_2025], [Aziz and Loya 2025][research_aziz_loya_2025], [Babakov
+2025][research_babakov_2025], [Beck et al 2025][research_beck_2025], [Bergeron et al
+2025][research_bergeron_2025], [Cadieux and Barad 2025][research_cadieux_barad_2025], [Cao et al
+2025][research_cao_2025], [Chang et al 2025][research_chang_2025], [Chen and Luo
+2025][research_chen_luo_2025], [Comi and Atumo 2025][research_comi_atumo_2025], [Cui et al 2025, Real-Time
+Zero-Sequence-Voltage][research_cui_2025_3], [Cândido et al 2025][research_candido_2025], [Dai et al
+2025][research_dai_2025], [Daniel 2025][research_daniel_2025], [Dekemele et al
+2025][research_dekemele_2025], [Effect of Solidity and 2025][research_effect_of_2025], [Fang et al
+2025][research_fang_2025], [Fedukhin and Mukha 2025][research_fedukhin_mukha_2025], [Fu et al 2025,
+Relationships between lower][research_fu_2025], [Gahlot et al 2025][research_gahlot_2025], [Genov et al
+2025][research_genov_2025], [Georgiev 2025][research_georgiev_2025], [Gholampour and Beaver
+2025][research_gholampour_beaver_2025], [Ghoul and Sayed 2025][research_ghoul_sayed_2025], [Giacomini and
+Westerberg 2025][research_giacomini_westerberg_2025], [Gonzalo et al 2025][research_gonzalo_2025], [Guan et
+al 2025][research_guan_2025], [He and Leang 2025][research_he_leang_2025], [He et al
+2025][research_he_2025], [Heinrich et al 2025][research_heinrich_2025], [Huang and Ding
+2025][research_huang_ding_2025], [Hussien et al 2025][research_hussien_2025], [Iliev
+2025][research_iliev_2025], [Investigation of Aeroelastic Coupling 2025][research_investigation_of_2025],
+[Jammeh et al 2025][research_jammeh_2025], [Jia 2025][research_jia_2025], [Jiao and Zheng
+2025][research_jiao_zheng_2025], [Karamalian et al 2025][research_karamalian_2025], [Kaspar and Grim
+2025][research_kaspar_grim_2025], [Kaza 2025][research_kaza_2025], [Kelly 2025][research_kelly_2025],
+[Khuntia and Manivannan 2025][research_khuntia_manivannan_2025], [Kiciński and Topczewski
+2025][research_kicinski_topczewski_2025], [Kiselev et al 2025][research_kiselev_2025], [Kistyarev and Wang
+2025][research_kistyarev_wang_2025], [Kuban and Teichmann 2025][research_kuban_teichmann_2025], [Le et al
+2025, Lyapunov Truncation for Low-Order][research_le_2025_2], [Lee et al 2025][research_lee_2025], [Li et al
+2025, Design and Study of a New Rotary][research_li_2025_2], [Liu et al 2025, Adaptive Kalman
+Filter-Based][research_liu_2025_6], [Liu et al 2025, Clearance measurement of a][research_liu_2025_3], [Lou
+et al 2025][research_lou_2025], [Lutz et al 2025][research_lutz_2025], [Lv et al 2025][research_lv_2025],
+[Lyu and Yang 2025][research_lyu_yang_2025], [Löhrer and Fröhlich 2025][research_lohrer_frohlich_2025],
+[Magryta and Pietrykowski 2025][research_magryta_pietrykowski_2025], [Mangold and Strohmayer
+2025][research_mangold_strohmayer_2025], [Mohan et al 2025][research_mohan_2025], [Murakami and Yamada
+2025][research_murakami_yamada_2025], [Oxendale and Smith 2025][research_oxendale_smith_2025], [Page and
+Bailey 2025][research_page_bailey_2025], [Paul et al 2025][research_paul_2025], [Peng et al 2025, Numerical
+Investigation of Water][research_peng_2025_2], [Peng et al 2025, Reliability assessment of
+urban][research_peng_2025], [Qi et al 2025, Boundary criterion of vortex ring][research_qi_2025],
+[Randriambololona et al 2025][research_randriambololona_2025], [Saetti 2025][research_saetti_2025], [Sahin
+et al 2025][research_sahin_2025], [Saj et al 2025][research_saj_2025], [Salem 2025][research_salem_2025],
+[Schier-Morgenthal et al 2025][research_schier_morgenthal_2025], [Serkin 2025][research_serkin_2025], [Shan
+et al 2025, Hybrid Electric Propulsion Design][research_shan_2025], [Shi et al 2025][research_shi_2025], [Si
+et al 2025][research_si_2025], [Somerville et al 2025][research_somerville_2025], [Son et al
+2025][research_son_2025], [Sun et al 2025][research_sun_2025], [Sánchez-Mendoza et al
+2025][research_sanchez_mendoza_2025], [Taneich and Rinoie 2025][research_taneich_rinoie_2025], [Terahara et
+al 2025][research_terahara_2025], [Tran 2025][research_tran_2025], [Uchman 2025][research_uchman_2025],
+[Uçar et al 2025][research_ucar_2025], [Veneruso et al 2025][research_veneruso_2025], [Wan
+2025][research_wan_2025], [Wan and Yong 2025][research_wan_yong_2025], [Wang and Cao
 2025][research_wang_cao_2025], [Wang et al 2025, Aerodynamic Characteristics and][research_wang_2025], [Wang
 et al 2025, Effects of oscillating][research_wang_2025_2], [Wang et al 2025, Numerical simulation of
-fluid][research_wang_2025_3], [Wei et al 2025][research_wei_2025], [Wen et al 2025][research_wen_2025], [Win
-Thu et al 2025][research_win_thu_2025], [Yamaki et al 2025][research_yamaki_2025], [Yang et al 2025,
-Explicit finite element modeling][research_yang_2025_3], [Yang et al 2025, Fuel Weight Fraction
-Estimation][research_yang_2025_2], [Yin et al 2025][research_yin_2025], [Yu et al 2025][research_yu_2025],
+fluid][research_wang_2025_3], [Watson et al 2025][research_watson_2025], [Wei et al
+2025][research_wei_2025], [Wen et al 2025][research_wen_2025], [Win Thu et al 2025][research_win_thu_2025],
+[Xiao et al 2025][research_xiao_2025], [Xu et al 2025, Performance Analysis and Flow][research_xu_2025_4],
+[Yamaki et al 2025][research_yamaki_2025], [Yang et al 2025, A GO-FTA-GERTS dual model
+for][research_yang_2025_5], [Yang et al 2025, Explicit finite element modeling][research_yang_2025_3], [Yang
+et al 2025, Fuel Weight Fraction Estimation][research_yang_2025_2], [Yang et al 2025, Initial Weight
+Modeling and][research_yang_2025_4], [Yang et al 2025, Nonlinear Tracking][research_yang_2025_6], [Ye et al
+2025][research_ye_2025], [Yeşilbaş 2025][research_yesilbas_2025], [Yin et al 2025, Flight Dynamics Modeling
+and][research_yin_2025], [Yu et al 2025, Transient Vibration Loads][research_yu_2025], [Zhang and Wang
+2025][research_zhang_wang_2025], [Zhang et al 2025, Evaluating the effectiveness of][research_zhang_2025_4],
 [Zhang et al 2025, Exploration and performance][research_zhang_2025], [Zhu et al 2025][research_zhu_2025],
-[Zou et al 2025][research_zou_2025], [Andrew Woodgate and N․ Barakos
-2026][research_andrew_woodgate_n_barakos_2026], [Arace et al 2026][research_arace_2026], [Barry et al
-2026][research_barry_2026], [Bonavita et al 2026][research_bonavita_2026], [Bucherelli et al
+[Zou et al 2025][research_zou_2025], [Řehounek and Ženíšek 2025][research_rehounek_zenisek_2025], [孙
+2025][research__2025], [Abergo et al 2026][research_abergo_2026], [Aimeur et al 2026][research_aimeur_2026],
+[Andrew Woodgate and N․ Barakos 2026][research_andrew_woodgate_n_barakos_2026], [Arace et al
+2026][research_arace_2026], [Arnould and Laurendeau 2026][research_arnould_laurendeau_2026], [Babakov
+2026][research_babakov_2026], [Barry et al 2026][research_barry_2026], [Bonavita et al
+2026][research_bonavita_2026], [Buccio et al 2026][research_buccio_2026], [Bucherelli et al
 2026][research_bucherelli_2026], [Chang and Ai 2026][research_chang_ai_2026], [Chen et al 2026, Research on
-Aerodynamic][research_chen_2026], [Choi et al 2026][research_choi_2026], [Elatife et al
-2026][research_elatife_2026], [Gharehcheloo et al 2026][research_gharehcheloo_2026], [Graham and Weinhandl
-2026][research_graham_weinhandl_2026], [Guo et al 2026, Trajectory simulation of][research_guo_2026],
-[Haefner et al 2026][research_haefner_2026], [Hu et al 2026][research_hu_2026], [Jun et al
-2026][research_jun_2026], [Kim 2026][research_kim_2026], [Knight et al 2026][research_knight_2026], [Li and
-Yu 2026][research_li_yu_2026], [Li et al 2026, Trajectory-aware feedforward][research_li_2026_2], [Liu et al
-2026, Optimal rotational speed rotor][research_liu_2026_2], [Ma et al 2026][research_ma_2026], [Makeev
-2026][research_makeev_2026], [Mashrafi 2026][research_mashrafi_2026], [Melo et al 2026][research_melo_2026],
-[Modeling and Analysis of 2026][research_modeling_and_2026], [Mohammad et al 2026][research_mohammad_2026],
-[Mokotoff et al 2026][research_mokotoff_2026], [Moore et al 2026][research_moore_2026], [Nongyue et al
-2026][research_nongyue_2026], [Qian et al 2026][research_qian_2026], [Qiao and Zhou
-2026][research_qiao_zhou_2026], [Reyner and Liem 2026][research_reyner_liem_2026], [Sade et al
-2026][research_sade_2026], [Setiawarman and Sasongko 2026][research_setiawarman_sasongko_2026], [Sorbello et
-al 2026][research_sorbello_2026], [Stefan J Letica and Stephen A Rizzi
-2026][research_stefan_j_letica_stephen_a_rizzi_2026], [Sun et al 2026, AIS-data-guided
+Aerodynamic][research_chen_2026], [Chen et al 2026, Shock Response Spectrum][research_chen_2026_3],
+[Choephel et al 2026][research_choephel_2026], [Deneke and Carter 2026][research_deneke_carter_2026],
+[Elatife et al 2026][research_elatife_2026], [Gharehcheloo et al 2026][research_gharehcheloo_2026],
+[Golombek et al 2026][research_golombek_2026], [González-Tejeda et al 2026][research_gonzalez_tejeda_2026],
+[Graham and Weinhandl 2026][research_graham_weinhandl_2026], [Gruchet 2026][research_gruchet_2026], [Guo et
+al 2026, Trajectory simulation of][research_guo_2026], [Haefner et al 2026][research_haefner_2026], [Han et
+al 2026, Robust coordinated fault-tolerant][research_han_2026], [He et al 2026, Equilibrium Flight
+Envelope][research_he_2026_2], [Hill 2026][research_hill_2026], [Hu et al 2026, A novel
+high-performance][research_hu_2026], [Jun et al 2026, Flight Dynamics of a Coaxial][research_jun_2026], [Jun
+et al 2026, Stability and Control of a][research_jun_2026_2], [Karpiński 2026][research_karpinski_2026],
+[Kikumoto et al 2026][research_kikumoto_2026], [Kim 2026][research_kim_2026], [Kim and Kirollos
+2026][research_kim_kirollos_2026], [Knight et al 2026][research_knight_2026], [Konstantinov et al
+2026][research_konstantinov_2026], [Kumar et al 2026, Trust-aware urban mobility][research_kumar_2026], [Li
+and Yu 2026][research_li_yu_2026], [Li et al 2026, Trajectory-aware feedforward][research_li_2026_2], [Liao
+et al 2026, A distributed differential game][research_liao_2026_2], [Liu et al 2026, Optimal rotational
+speed rotor][research_liu_2026_2], [Liu et al 2026, Rotor Magnetic Source][research_liu_2026_4], [Luo and
+Tang 2026][research_luo_tang_2026], [Ma et al 2026][research_ma_2026], [Makeev 2026, Blade Twist and Disc
+Loading][research_makeev_2026], [Makeev 2026, Comparative study of required][research_makeev_2026_2],
+[Mashrafi 2026][research_mashrafi_2026], [Mielczarek 2026][research_mielczarek_2026], [Mihaila et al
+2026][research_mihaila_2026], [Minioli et al 2026][research_minioli_2026], [Modeling and Analysis of
+2026][research_modeling_and_2026], [Mohammad et al 2026][research_mohammad_2026], [Mokotoff et al
+2026][research_mokotoff_2026], [Moore et al 2026][research_moore_2026], [Mortimer et al
+2026][research_mortimer_2026], [Nongyue et al 2026][research_nongyue_2026], [Perez et al
+2026][research_perez_2026], [Pros et al 2026][research_pros_2026], [Qian et al 2026][research_qian_2026],
+[Qiao and Zhou 2026][research_qiao_zhou_2026], [Reyner and Liem 2026][research_reyner_liem_2026], [Rodriguez
+Varona 2026][research_rodriguez_varona_2026], [Rui et al 2026][research_rui_2026], [Sade et al
+2026][research_sade_2026], [Saetti and Petit 2026][research_saetti_petit_2026], [Saetti et al
+2026][research_saetti_2026], [Sajid et al 2026][research_sajid_2026], [Sarker et al
+2026][research_sarker_2026], [Saxena et al 2026][research_saxena_2026], [Schmidt and Wild
+2026][research_schmidt_wild_2026], [Sener and Ertasgin 2026][research_sener_ertasgin_2026], [Setiawarman and
+Sasongko 2026][research_setiawarman_sasongko_2026], [Somerville et al 2026][research_somerville_2026],
+[Sorbello et al 2026][research_sorbello_2026], [Sun et al 2026, AIS-data-guided
 trajectory][research_sun_2026], [Sun et al 2026, Structure optimization of a][research_sun_2026_2],
-[Teichert et al 2026][research_teichert_2026], [Wang et al 2026, A fluid-structure
-interaction][research_wang_2026], [Yang et al 2026, Differential-Flatness-Based][research_yang_2026], [Ye et
-al 2026][research_ye_2026], [Zhou et al 2026, Explainable AI in Rotorcraft][research_zhou_2026], [de Paula
-et al 2026][research_de_paula_2026], [von Hessling et al 2026][research_von_hessling_2026].
+[Teichert et al 2026][research_teichert_2026], [Vasilchenko et al 2026][research_vasilchenko_2026], [Wang et
+al 2026, A fluid-structure interaction][research_wang_2026], [Wang et al 2026, Application of an efficient
+fluid][research_wang_2026_4], [Warsch et al 2026][research_warsch_2026], [Yadav et al
+2026][research_yadav_2026], [Yang et al 2026, Differential-Flatness-Based][research_yang_2026], [Yang et al
+2026, Low Threshold Voltage][research_yang_2026_8], [Ye et al 2026][research_ye_2026], [Zhao et al 2026,
+Conceptual Design Methodology for][research_zhao_2026_2], [Zhou et al 2026, Explainable AI in
+Rotorcraft][research_zhou_2026], [Zhu et al 2026, Splash erosivity under maize][research_zhu_2026_2], [de
+Paula et al 2026][research_de_paula_2026], [von Hessling et al 2026][research_von_hessling_2026], [Cui et al
+2027][research_cui_2027].
 
 ### What the Survey Shows
 
-**Every thread the X-25 touched is alive except the one it was actually about.** The physics is thriving in
-wind energy, the mission is being flown by guided canopies, and the vehicle concept is dead.
-**That is what it looks like when a programme asks the right question with the wrong hardware.**
+**Every thread the X-25 touched is alive, and the one it was actually about has been abandoned twice over.**
+
+The physics is thriving under a different name, since a wind turbine rotor is an autorotating rotor in
+another reference frame and blade element momentum theory is now worked hardest by people generating
+electricity. The mission is being flown, but by guided ram-air canopies rather than by rotors, and
+increasingly without a person in the loop at all.
+**The vehicle concept is dead, and the capability it was built around has been given up a second time by the industry that most resembles it**,
+because a multirotor cannot autorotate and has chosen redundancy instead.
+
+**Three things this survey establishes that the programme record alone does not.**
+
+**The question was good.** Giving a descending crewman a choice of landing point is a real capability and it
+is now routinely delivered, which retrospectively vindicates the Air Force for asking.
+
+**The answer was wrong in a way that was knowable at the time.** The arithmetic that shows a rotor to be a
+worse decelerator than a canopy, and valuable only because it glides, needs nothing that was not available
+in 1968.
+**So does the observation that the gain is range rather than safety, and that the price is cutting away a working parachute.**
+
+**And the concept failed on the axis the programme itself identified.** The record says the aircraft were
+flown to determine piloting technique and training requirements. Half a century of gyroplane accident data
+says the same thing at greater length. **The hard problem was never the rotor.**
 
 ## The Source Base
 
 **The record for the aircraft itself is the thinnest in the series so far, and the record for the physics around it is not.**
-That asymmetry shapes the whole article and is worth stating plainly rather than leaving a reader to infer
-it from the reference list.
+That asymmetry shapes the whole article and is worth stating plainly, so that a reader does not have to
+infer it from the reference list.
 
 **The vehicle itself has essentially no technical literature.** A harvested pool of several thousand
 records, swept across the NASA and Defense Technical Information Center archives and the journal literature,
@@ -1589,11 +2360,11 @@ theory, blade element theory, parachutes and escape systems are all well documen
 
 **The keystone is thin on primary sources and it is not a search failure.** Autorotation carries sixty-five
 citations and twenty-one of them are primary, which is 32 percent against an article average near 62. Two
-harvests aimed squarely at the period reports, naming their own subjects rather than describing the topic,
+harvests aimed squarely at the period reports, naming their own subjects instead of describing the topic,
 moved that count from sixteen to twenty-one and then stopped.
 
 **The reason is a vocabulary that spans both eras rather than one written in the wrong decade.** The three
-preceding articles in this series each had a keystone cluster that was thin on COUNT because the pattern
+preceding articles in this series each had a keystone cluster that was thin on **count** because the pattern
 used modern words for a period subject. Autorotation is not that case. It is a word the 1930s used and the
 2020s still use, so the query matched happily in both directions and
 **the larger and better-indexed modern computational literature simply crowded the period out**. The query
@@ -1601,13 +2372,13 @@ succeeded and the balance failed, which is a different defect and is not curable
 
 **The pool itself is 31 percent primary on this topic and every primary in it is cited.** The only
 autorotation records left uncited are three modern wind-turbine papers.
-**That is a statement about what these archives contain rather than about how they were searched**, and the
+**That is a statement about what these archives contain and not about how they were searched**, and the
 article reports it rather than padding toward a band.
 
 **One further topic is genuinely thin and one only appears to be, and the difference is worth stating.**
 
 **Rotor spin-up and prerotation stands at three records** after a harvest aimed at it using period
-vocabulary including prerotation, rotor starting and starting torque. That is an archive limit rather than a
+vocabulary including prerotation, rotor starting and starting torque. That is an archive limit and not a
 search failure, and it is the reason the spin-up section of this article reasons from energy rather than
 from measurement.
 
@@ -1623,20 +2394,21 @@ testing, which is a different discipline that happens to store energy in somethi
 **That homonym was created by the search rather than found in the archive**, and it was removed by reading
 the records rather than by any check.
 
-The period record generally is [Brenda S Henderson et al][research_brenda_s_henderson], [Brett R. Hiller et
-al][research_brett_r_hiller], [Caleb Hull et al][research_caleb_hull], [Christopher S Thurman and Nikolas S
+The period record generally is [B Natalia Perez Perez et al][research_b_natalia_perez_perez], [Brenda S
+Henderson et al][research_brenda_s_henderson], [Brett R. Hiller et al][research_brett_r_hiller], [Caleb Hull
+et al][research_caleb_hull], [Christopher S Thurman and Nikolas S
 Zawodny][research_christopher_s_thurman_nikolas_s_zawodny], [Christopher S Thurman et
-al][research_christopher_s_thurman], [Daniel Ingraham and Robert
+al][research_christopher_s_thurman], [Cuyler Dull et al][research_cuyler_dull], [Daniel Ingraham and Robert
 Falck][research_daniel_ingraham_robert_falck], [James H Stephenson et al][research_james_h_stephenson],
 [Jason Cornelius and Sven Schmitz][research_jason_cornelius_sven_schmitz], [Loran Allen Haworth et
 al][research_loran_allen_haworth], [Matthew J Andreini et al][research_matthew_j_andreini], [N Newby et
 al][research_n_newby], [Nicholas J Peters et al][research_nicholas_j_peters], [P Greenhalgh et
-al][research_p_greenhalgh], [Siena K S Whiteside and Beau P
+al][research_p_greenhalgh], [Ravi Lumba et al][research_ravi_lumba], [Siena K S Whiteside and Beau P
 Pollard][research_siena_k_s_whiteside_beau_p_pollard], [Stephen J. Wright][research_stephen_j_wright], [Sven
 Schmitz et al][research_sven_schmitz], [Teresa M Reiber et al][research_teresa_m_reiber], [Teresa Reiber et
-al][research_teresa_reiber], [Dryden and Ballif 1930][research_dryden_ballif_1930], [Martin
-1930][research_martin_1930], [Performance characteristics of two-blade
-1930][research_performance_characteristics_1930], [Ridley 1930][research_ridley_1930], [Wheatley
+al][research_teresa_reiber], [Witold J.F. Koning et al][research_witold_j_f_koning], [Dryden and Ballif
+1930][research_dryden_ballif_1930], [Martin 1930][research_martin_1930], [Performance characteristics of
+two-blade 1930][research_performance_characteristics_1930], [Ridley 1930][research_ridley_1930], [Wheatley
 1930][research_wheatley_1930], [Entwistle 1931][research_entwistle_1931], [Gliding and Motorless Flight
 1931][research_gliding_and_1931], [Coe and Rives 1932][research_coe_rives_1932], [High Speed and Flight
 1932][research_high_speed_1932], [1 Sailplanes their Design 1933][research_1_sailplanes_1933], [Flight Speed
@@ -1702,11 +2474,11 @@ Board Fort Rucker Al 1957][research_army_aviation_board_fort_rucker_al_1957], [H
 [Kettle 1958][research_kettle_1958], [Lightfoot 1958][research_lightfoot_1958], [MacNeal
 1958][research_macneal_1958], [Moffitt 1958][research_moffitt_1958], [Taylor 1958][research_taylor_1958],
 [Velkoff 1958][research_velkoff_1958], [Bierman 1959][research_bierman_1959], [Bolanovich and Marks
-1959][research_bolanovich_marks_1959], [Davenport 1959][research_davenport_1959], [Doblhoff
-1959][research_doblhoff_1959], [Head 1959][research_head_1959], [Kee 1959][research_kee_1959], [Liu
-1959][research_liu_1959], [McKay 1959][research_mckay_1959], [Moser 1959][research_moser_1959], [Nikolsky
-1959][research_nikolsky_1959], [Payne 1959][research_payne_1959], [Perisho 1959][research_perisho_1959],
-[Reeder 1959][research_reeder_1959], [Stange 1959][research_stange_1959], [Vague and Seibel
+1959][research_bolanovich_marks_1959], [Doblhoff 1959][research_doblhoff_1959], [Head
+1959][research_head_1959], [Kee 1959][research_kee_1959], [Liu 1959][research_liu_1959], [McKay
+1959][research_mckay_1959], [Moser 1959][research_moser_1959], [Nikolsky 1959][research_nikolsky_1959],
+[Payne 1959][research_payne_1959], [Perisho 1959][research_perisho_1959], [Reeder
+1959][research_reeder_1959], [Stange 1959][research_stange_1959], [Vague and Seibel
 1959][research_vague_seibel_1959], [Campbell 1960][research_campbell_1960], [Collar
 1960][research_collar_1960], [Crosse et al 1960][research_crosse_1960], [Fisher 1960][research_fisher_1960],
 [Gessow and Gustafson 1960][research_gessow_gustafson_1960], [Hewes and Hassell
@@ -1787,16 +2559,16 @@ Hilzinger 1965][research_carlson_hilzinger_1965], [Crimi 1965][research_crimi_19
 1965][research_muffley_1965], [Puvrez 1965][research_puvrez_1965], [Segel 1965][research_segel_1965],
 [Sissom 1965][research_sissom_1965], [Stein 1965][research_stein_1965], [Upton and Young
 1965][research_upton_young_1965], [Weinberg and Turnbow 1965][research_weinberg_turnbow_1965], [Wyrick
-1965][research_wyrick_1965], [Air Drag on a 1966][research_air_drag_1966], [Ancestor Worship in Anthropology
-1966][research_ancestor_worship_1966], [Anderson and Holmes 1966][research_anderson_holmes_1966], [Baker
-1966][research_baker_1966], [Beppu et al 1966][research_beppu_1966], [Bramwell
-1966][research_bramwell_1966], [Burns and Barker 1966][research_burns_barker_1966], [Cooper et al
-1966][research_cooper_1966], [DuWaldt and Statler 1966][research_duwaldt_statler_1966], [Fenwick 1966,
-Evaluation of AM2 Landing Mat][research_fenwick_1966_2], [Fenwick 1966, XV5A Aircraft Flight
-Tests][research_fenwick_1966], [Fenwick and Mathews 1966][research_fenwick_mathews_1966], [Finkelstein
-1966][research_finkelstein_1966], [Goldberger 1966][research_goldberger_1966], [Green
-1966][research_green_1966], [Hale 1966][research_hale_1966], [Head 1966][research_head_1966], [James L.
-Hassell and Robert H. Kirby 1966][research_james_l_hassell_robert_h_kirby_1966], [Johnson and Anderson
+1965][research_wyrick_1965], [Air Drag on a 1966][research_air_drag_1966], [Anderson and Holmes
+1966][research_anderson_holmes_1966], [Baker 1966][research_baker_1966], [Beppu et al
+1966][research_beppu_1966], [Bramwell 1966][research_bramwell_1966], [Burns and Barker
+1966][research_burns_barker_1966], [Cooper et al 1966][research_cooper_1966], [DuWaldt and Statler
+1966][research_duwaldt_statler_1966], [Fenwick 1966, Evaluation of AM2 Landing
+Mat][research_fenwick_1966_2], [Fenwick 1966, XV5A Aircraft Flight Tests][research_fenwick_1966], [Fenwick
+and Mathews 1966][research_fenwick_mathews_1966], [Finkelstein 1966][research_finkelstein_1966], [Goldberger
+1966][research_goldberger_1966], [Green 1966][research_green_1966], [Hale 1966][research_hale_1966], [Head
+1966][research_head_1966], [James L. Hassell and Robert H. Kirby
+1966][research_james_l_hassell_robert_h_kirby_1966], [Johnson and Anderson
 1966][research_johnson_anderson_1966], [Julian L. Jenkins 1966][research_julian_l_jenkins_1966], [Kidwell
 and Foster 1966][research_kidwell_foster_1966], [Kobori 1966][research_kobori_1966], [Kotik
 1966][research_kotik_1966], [Kuchinka 1966][research_kuchinka_1966], [Lieske and Kochenderfer
@@ -1812,21 +2584,20 @@ Tocci 1966][research_wax_tocci_1966], [Wimpress 1966][research_wimpress_1966], [
 1966][research_young_1966], [Air Force Test Pilot School Edwards Afb Ca 1967, Volume 1. Performance
 Flight][research_air_force_test_pilot_school_edwards_afb_ca_1967], [Air Force Test Pilot School Edwards Afb
 Ca 1967, Volume 1. Performance Flight][research_air_force_test_pilot_school_edwards_afb_ca_1967_2], [Alle
-1967][research_alle_1967], [Balcerak 1967][research_balcerak_1967], [Basehart and Scheffler
-1967][research_basehart_scheffler_1967], [Brabston 1967][research_brabston_1967], [Dominick and Watts
-1967][research_dominick_watts_1967], [Dutton 1967][research_dutton_1967], [Earl 1967][research_earl_1967],
-[Fagan 1967][research_fagan_1967], [Fenwick 1967][research_fenwick_1967], [Gilman and Burdges
-1967][research_gilman_burdges_1967], [Gruber and Woltornist 1967][research_gruber_woltornist_1967],
-[Ichikawa 1967][research_ichikawa_1967], [Kelly 1967][research_kelly_1967], [Kisielowski et al
-1967][research_kisielowski_1967], [Langston 1967][research_langston_1967], [Madden
-1967][research_madden_1967], [Moellmann and OConnor 1967][research_moellmann_o_connor_1967], [Oakes
-1967][research_oakes_1967], [Perry 1967][research_perry_1967], [Polson 1967][research_polson_1967], [Simpson
-1967][research_simpson_1967], [Turnbow et al 1967][research_turnbow_1967], [Armstrong and Miller
-1968][research_armstrong_miller_1968], [Brown and Fisher 1968][research_brown_fisher_1968], [Doyle et al
-1968][research_doyle_1968], [Drees 1968][research_drees_1968], [Fagan 1968][research_fagan_1968], [Fenwick
-1968][research_fenwick_1968], [Finnestead 1968][research_finnestead_1968], [Harris
-1968][research_harris_1968], [Higgins et al 1968][research_higgins_1968], [Irvine
-1968][research_irvine_1968], [Johnston 1968][research_johnston_1968], [Keesing 1968][research_keesing_1968],
+1967][research_alle_1967], [Balcerak 1967][research_balcerak_1967], [Brabston 1967][research_brabston_1967],
+[Dominick and Watts 1967][research_dominick_watts_1967], [Dutton 1967][research_dutton_1967], [Earl
+1967][research_earl_1967], [Fagan 1967][research_fagan_1967], [Fenwick 1967][research_fenwick_1967], [Gilman
+and Burdges 1967][research_gilman_burdges_1967], [Gruber and Woltornist
+1967][research_gruber_woltornist_1967], [Ichikawa 1967][research_ichikawa_1967], [Kelly
+1967][research_kelly_1967], [Kisielowski et al 1967][research_kisielowski_1967], [Langston
+1967][research_langston_1967], [Madden 1967][research_madden_1967], [Moellmann and OConnor
+1967][research_moellmann_o_connor_1967], [Oakes 1967][research_oakes_1967], [Perry
+1967][research_perry_1967], [Polson 1967][research_polson_1967], [Simpson 1967][research_simpson_1967],
+[Turnbow et al 1967][research_turnbow_1967], [Armstrong and Miller 1968][research_armstrong_miller_1968],
+[Brown and Fisher 1968][research_brown_fisher_1968], [Doyle et al 1968][research_doyle_1968], [Drees
+1968][research_drees_1968], [Fagan 1968][research_fagan_1968], [Fenwick 1968][research_fenwick_1968],
+[Finnestead 1968][research_finnestead_1968], [Harris 1968][research_harris_1968], [Higgins et al
+1968][research_higgins_1968], [Irvine 1968][research_irvine_1968], [Johnston 1968][research_johnston_1968],
 [Lehman 1968][research_lehman_1968], [Leonard and Rose 1968][research_leonard_rose_1968], [Melton and Hall
 1968][research_melton_hall_1968], [Nagata et al 1968][research_nagata_1968], [Olmstead and Hector
 1968][research_olmstead_hector_1968], [Reddy 1968][research_reddy_1968], [Schade
@@ -2017,8 +2788,8 @@ Innis 1977][research_franklin_innis_1977], [Friedmann 1977][research_friedmann_1
 Profile Performance][research_cleek_1978], [Cleek et al 1978, Flight Profile
 Performance][research_cleek_1978_2], [Cleek et al 1978, Flight Profile Performance][research_cleek_1978_3],
 [Coker and Magnusson 1978][research_coker_magnusson_1978], [Cunningham 1978][research_cunningham_1978],
-[David 1978][research_david_1978], [Demarchi and Haning 1978][research_demarchi_haning_1978], [Discussion on
-Measurement of 1978][research_discussion_on_1978], [Englar et al 1978][research_englar_1978], [George
+[Demarchi and Haning 1978][research_demarchi_haning_1978], [Discussion on Measurement of
+1978][research_discussion_on_1978], [Englar et al 1978][research_englar_1978], [George
 1978][research_george_1978], [Hoffrichter 1978][research_hoffrichter_1978], [Homans et al
 1978][research_homans_1978], [Hoogterp 1978][research_hoogterp_1978], [Hunt et al 1978][research_hunt_1978],
 [Kelley 1978][research_kelley_1978], [Leggat and Siddon 1978][research_leggat_siddon_1978], [Logan et al
@@ -2089,12 +2860,11 @@ on][research_reddy_1981], [Shaw and Albion 1981][research_shaw_albion_1981], [Si
 1982][research_picasso_1982], [Pilkey 1982][research_pilkey_1982], [Prussing and Lin
 1982][research_prussing_lin_1982], [Sandford and Belko 1982][research_sandford_belko_1982], [Sheridan et al
 1982][research_sheridan_1982], [Sivaneri and Chopra 1982][research_sivaneri_chopra_1982], [Sneyd et al
-1982][research_sneyd_1982], [Springer et al 1982][research_springer_1982], [Tsuchiya
-1982][research_tsuchiya_1982], [Turner 1982][research_turner_1982], [Velkoff and Parker
-1982][research_velkoff_parker_1982], [Wadia and Booth 1982][research_wadia_booth_1982], [Chandrasekaran and
-Bartlett 1983][research_chandrasekaran_bartlett_1983], [Christiansen 1983][research_christiansen_1983],
-[Conceptual design and evaluation 1983][research_conceptual_design_1983], [Gangwani
-1983][research_gangwani_1983], [Grosser 1983][research_grosser_1983], [Huber and Polz
+1982][research_sneyd_1982], [Tsuchiya 1982][research_tsuchiya_1982], [Turner 1982][research_turner_1982],
+[Velkoff and Parker 1982][research_velkoff_parker_1982], [Wadia and Booth 1982][research_wadia_booth_1982],
+[Chandrasekaran and Bartlett 1983][research_chandrasekaran_bartlett_1983], [Christiansen
+1983][research_christiansen_1983], [Conceptual design and evaluation 1983][research_conceptual_design_1983],
+[Gangwani 1983][research_gangwani_1983], [Grosser 1983][research_grosser_1983], [Huber and Polz
 1983][research_huber_polz_1983], [Keckler 1983][research_keckler_1983], [Martone
 1983][research_martone_1983], [Mazelsky 1983][research_mazelsky_1983], [Menger et al
 1983][research_menger_1983], [Peters et al 1983][research_peters_1983], [Prussing and Lin
@@ -2161,21 +2931,21 @@ and Hong 1987][research_bauchau_hong_1987], [Berry et al 1987][research_berry_19
 1987][research_sun_berreth_1987], [Adelman and Mantay 1988][research_adelman_mantay_1988], [Althoff 1988,
 Effect of advanced rotorcraft][research_althoff_1988], [Althoff et al 1988, Inflow measurement made with
 a][research_althoff_1988_2], [Althoff et al 1988, Inflow measurements made with a][research_althoff_1988_3],
-[Anderson and Jr 1988][research_anderson_jr_1988], [Bielawa 1988][research_bielawa_1988], [Centrone et al
-1988][research_centrone_1988], [Cole 1988][research_cole_1988], [Elliott et al 1988, Inflow Measurements
-Made with a][research_elliott_1988_3], [Elliott et al 1988, Inflow measurement made with
-a][research_elliott_1988], [Elliott et al 1988, Inflow measurement made with a][research_elliott_1988_2],
-[Folds and Beard 1988][research_folds_beard_1988], [Gessow 1988][research_gessow_1988], [Grossman et al
-1988][research_grossman_1988], [Hoad et al 1988][research_hoad_1988], [Jayaraman et al
-1988][research_jayaraman_1988], [Kane and William D. 1988][research_kane_william_d_1988], [Kondepudi and
-ONeal 1988][research_kondepudi_o_neal_1988], [Law and Puterbaugh 1988][research_law_puterbaugh_1988], [Nixon
-1988][research_nixon_1988], [Obergefell and Kaleps 1988][research_obergefell_kaleps_1988], [Oda and Ara
-1988][research_oda_ara_1988], [Peters 1988][research_peters_1988], [Reddy 1988][research_reddy_1988],
-[Schwartz 1988][research_schwartz_1988], [Srinivasan and McCroskey 1988, Navier-Stokes calculations
-of][research_srinivasan_mccroskey_1988_2], [Srinivasan and Mccroskey 1988, Navier-Stokes simulations of
-tip][research_srinivasan_mccroskey_1988], [Tarnawski and Yuet 1988][research_tarnawski_yuet_1988], [Thompson
-et al 1988][research_thompson_1988], [Amer 1989][research_amer_1989], [Assanis 1989][research_assanis_1989],
-[Baldwin and Flam 1989][research_baldwin_flam_1989], [C S Lee 1989][research_c_s_lee_1989], [Caruso et al
+[Bielawa 1988][research_bielawa_1988], [Centrone et al 1988][research_centrone_1988], [Cole
+1988][research_cole_1988], [Elliott et al 1988, Inflow Measurements Made with a][research_elliott_1988_3],
+[Elliott et al 1988, Inflow measurement made with a][research_elliott_1988], [Elliott et al 1988, Inflow
+measurement made with a][research_elliott_1988_2], [Folds and Beard 1988][research_folds_beard_1988],
+[Gessow 1988][research_gessow_1988], [Grossman et al 1988][research_grossman_1988], [Hoad et al
+1988][research_hoad_1988], [Jayaraman et al 1988][research_jayaraman_1988], [Kane and William D.
+1988][research_kane_william_d_1988], [Kondepudi and ONeal 1988][research_kondepudi_o_neal_1988], [Law and
+Puterbaugh 1988][research_law_puterbaugh_1988], [Nixon 1988][research_nixon_1988], [Obergefell and Kaleps
+1988][research_obergefell_kaleps_1988], [Oda and Ara 1988][research_oda_ara_1988], [Peters
+1988][research_peters_1988], [Reddy 1988][research_reddy_1988], [Schwartz 1988][research_schwartz_1988],
+[Srinivasan and McCroskey 1988, Navier-Stokes calculations of][research_srinivasan_mccroskey_1988_2],
+[Srinivasan and Mccroskey 1988, Navier-Stokes simulations of tip][research_srinivasan_mccroskey_1988],
+[Tarnawski and Yuet 1988][research_tarnawski_yuet_1988], [Thompson et al 1988][research_thompson_1988],
+[Amer 1989][research_amer_1989], [Assanis 1989][research_assanis_1989], [Baldwin and Flam
+1989][research_baldwin_flam_1989], [C S Lee 1989][research_c_s_lee_1989], [Caruso et al
 1989][research_caruso_1989], [Cerbe and Reichert 1989][research_cerbe_reichert_1989], [Chattopadhyay et al
 1989][research_chattopadhyay_1989], [Design of a spanloader 1989][research_design_of_1989], [Er-El et al
 1989][research_er_el_1989], [Gato and de O. Falcão 1989][research_gato_de_o_falcao_1989], [Hughes and
@@ -2206,12 +2976,12 @@ rotor blade][research_hodges_1990], [Jabboury and Darwish 1990][research_jabbour
 [Singleton et al 1990][research_singleton_1990], [Smith and Nelson 1990][research_smith_nelson_1990],
 [Stremel 1990][research_stremel_1990], [Wallman and Fisk 1990][research_wallman_fisk_1990], [Air Force Test
 Pilot School Edwards Afb Ca 1991, Volume 1. Performance
-Flight][research_air_force_test_pilot_school_edwards_afb_ca_1991], [Anderson and John D.
-1991][research_anderson_john_d_1991], [Attachment of a rotor 1991][research_attachment_of_1991], [Cenkci
-1991][research_cenkci_1991], [Flemming et al 1991][research_flemming_1991], [Graber et al
-1991][research_graber_1991], [Hashimoto and Mizokami 1991][research_hashimoto_mizokami_1991], [Jensen et al
-1991][research_jensen_1991], [Libbert 1991][research_libbert_1991], [Noonan 1991][research_noonan_1991],
-[Rand 1991][research_rand_1991], [Rutledge et al 1991][research_rutledge_1991], [Schobeiri and Abouelkheir
+Flight][research_air_force_test_pilot_school_edwards_afb_ca_1991], [Attachment of a rotor
+1991][research_attachment_of_1991], [Cenkci 1991][research_cenkci_1991], [Flemming et al
+1991][research_flemming_1991], [Graber et al 1991][research_graber_1991], [Hashimoto and Mizokami
+1991][research_hashimoto_mizokami_1991], [Jensen et al 1991][research_jensen_1991], [Libbert
+1991][research_libbert_1991], [Noonan 1991][research_noonan_1991], [Rand 1991][research_rand_1991],
+[Rutledge et al 1991][research_rutledge_1991], [Schobeiri and Abouelkheir
 1991][research_schobeiri_abouelkheir_1991], [Shappell and Bartosh 1991][research_shappell_bartosh_1991],
 [Stroub 1991][research_stroub_1991], [Talbot 1991][research_talbot_1991], [Verma 1991, Guaranteed
 Performance][research_verma_1991], [Air Force Test Pilot School Edwards Afb Ca
@@ -2356,7 +3126,10 @@ autorotating rotor descends faster than a personnel canopy at equal weight follo
 The glide range figures follow from an assumed lift-to-drag ratio of 4. The spin-up energy of about 57 feet
 of ideal height loss follows from an assumed blade mass and tip speed. The SAVER descent rate of 56 feet per
 second follows from documented weight and rotor diameter and is the least assumption-dependent number in the
-article.
+article. The statement that a rotor at Martian density descends about ten times faster is the same
+square-root relation evaluated at one percent of sea-level density and assumes nothing else,
+**though it is an illustration of the relation and not a claim about any particular Mars vehicle**, which
+would fly a rotor sized for that atmosphere.
 
 **Assumed, and marked as such throughout.** The escape-configuration gross weight of 350 pounds. The
 lift-to-drag ratio of 4. The best-glide speed of 45 miles per hour. The blade mass of 12 pounds each and tip
@@ -2367,9 +3140,19 @@ weight and a drag coefficient of 0.75. **None of these is a measurement of an X-
 aerodynamics is an inference from the record's statement that the aircraft were used to evaluate piloting
 technique and training requirements, combined with the absence of any aerodynamic finding. That the ram-air
 parachute is the historical answer to the Discretionary Descent Vehicle question is an inference from
-capability comparison, not from any documented decision connecting the two. The vehicle-by-vehicle programme
-record for the X-series generally is [Jenkins, Landis and Miller on the American
-X-vehicles][book_jenkins_landis_miller_2003].
+capability comparison, not from any documented decision connecting the two.
+
+**Two further inferences were added by the contemporary survey and are labelled here because they are the article's strongest claims and its least documented.**
+That a multirotor cannot autorotate follows from the stored-energy and disc-loading relations this article
+derives, applied to a configuration those relations describe accurately, but
+**no source consulted here states it as a finding and the airworthiness literature treats redundancy as a design choice rather than as a concession**.
+And that the gyroplane accident record supports the programme's own conclusion about training is an
+inference from the type's general reputation and from the contemporary safety literature,
+**not from any study that compares trained and untrained gyroplane pilots**, which would be the evidence the
+claim actually wants.
+
+The vehicle-by-vehicle programme record for the X-series generally is [Jenkins, Landis and Miller on the
+American X-vehicles][book_jenkins_landis_miller_2003].
 
 **What the record does not settle.** Whether the rotor diameter was 20 feet or 20 feet 6 inches. Whether the
 engine was 72 or 90 horsepower. What the third ordered aircraft was and what became of it. Whether the
@@ -2441,7 +3224,15 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 ### Research
 
 [research_1_sailplanes_1933]: https://doi.org/10.1038/132839b0
+[research__2019]: https://doi.org/10.25791/pfim.01.2019.498
+[research__2020]: https://doi.org/10.25791/aviakosmos.07.2020.1168
+[research__2023_2]: https://doi.org/10.37657/vniipo.avpb.2023.82.13.003
+[research__2024]: https://doi.org/10.36948/ijfmr.2024.v06i04.25302
+[research__2025]: https://doi.org/10.12677/mos.2025.146492
 [research___2018]: https://doi.org/10.20535/2219-3804182018134708
+[research___2020]: https://doi.org/10.25791/infizik.01.2020.1112
+[research___2022]: https://doi.org/10.26162/ls.2022.58.4.002
+[research___2024]: https://doi.org/10.36535/0235-5000-2023-12-2
 [research_a_novel_2020]: https://doi.org/10.46300/9106.2020.14.6
 [research_abbas_2024]: https://doi.org/10.1177/0309524x241293140
 [research_abbott_1977]: https://doi.org/10.21236/ada045222
@@ -2449,30 +3240,42 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_abdelmaksoud_2020]: https://doi.org/10.1109/access.2020.3031326
 [research_abdul_awal_2017]: https://doi.org/10.21660/2017.40.79849
 [research_abedi_eskilsson_2025]: https://doi.org/10.3390/wind5010006
+[research_abergo_2026]: https://doi.org/10.1063/5.0316657
+[research_abeyratne_2024]: https://doi.org/10.6000/2817-2302.2024.03.11
 [research_abhiram_2018]: https://doi.org/10.2514/1.c034539
 [research_abraham_1970]: https://doi.org/10.1063/1.1693218
 [research_abrego_2001]: https://ntrs.nasa.gov/citations/20020052595
 [research_abrego_2002]: https://ntrs.nasa.gov/citations/20030063074
 [research_abrego_2016]: https://ntrs.nasa.gov/citations/20160007400
+[research_abu_salem_2024]: https://doi.org/10.3390/aerospace11090734
+[research_abutunis_2019]: https://doi.org/10.1016/j.renene.2018.09.105
 [research_abwanzo_2016]: https://doi.org/10.2139/ssrn.2861230
 [research_accorsi_leonard_2002]: https://doi.org/10.21236/ada413498
+[research_accuracy_performance_2024]: https://doi.org/10.3901/jme.2024.16.062
 [research_ackerman_1999]: https://doi.org/10.21236/ada360448
 [research_acree_1984]: https://doi.org/10.4050/jahs.29.65
 [research_acree_2001]: https://ntrs.nasa.gov/citations/20020038574
+[research_adams_2022]: https://doi.org/10.14814/phy2.15418
 [research_addo_akoto_2021]: https://doi.org/10.1016/j.jfluidstructs.2021.103317
 [research_adelgren_2004]: https://doi.org/10.21236/ada428090
 [research_adelman_mantay_1988]: https://doi.org/10.21236/ada239205
 [research_adema_2026]: https://doi.org/10.5194/wes-11-2037-2026
+[research_adibi_2017]: https://doi.org/10.1017/s0269888917000121
 [research_advanced_design_1985]: https://doi.org/10.1108/eb036167
 [research_advisory_group_for_aerospace_research_and_development_1999]: https://ntrs.nasa.gov/citations/19990032449
 [research_aerodynamic_design_1965]: https://doi.org/10.1108/eb034056
 [research_aerodynamic_design_1969]: https://doi.org/10.1108/eb034586
 [research_aerodynamics_swing_1972]: https://doi.org/10.1038/237252a0
+[research_afari_2023]: https://doi.org/10.3390/app13042543
 [research_agarwal_2022]: https://doi.org/10.1017/aer.2021.123
 [research_aghazadeh_2019]: https://doi.org/10.1049/iet-epa.2018.5802
 [research_ahmadi_1984]: https://ntrs.nasa.gov/citations/19850015065
+[research_ahmadi_dastgerdi_nabavi_chashmi_2026]: https://doi.org/10.3390/machines14060639
+[research_ahmed_2024]: https://doi.org/10.1142/s230138502550027x
+[research_ahuja_mavris_2022]: https://doi.org/10.2514/1.c036654
 [research_aiken_1986]: https://doi.org/10.4050/jahs.31.3.27
 [research_aiken_2000]: https://ntrs.nasa.gov/citations/20000119051
+[research_aimeur_2026]: https://doi.org/10.47176/jafm.19.4.3953
 [research_air_drag_1966]: https://doi.org/10.1119/1.1973002
 [research_air_force_flight_test_center_edwards_afb_ca_1970]: https://doi.org/10.21236/ada529707
 [research_air_force_flight_test_center_edwards_afb_ca_1974]: https://doi.org/10.21236/ada011562
@@ -2493,35 +3296,60 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_air_force_test_pilot_school_edwards_afb_ca_1991_2]: https://doi.org/10.21236/ada319981
 [research_air_force_test_pilot_school_edwards_afb_ca_1992]: https://doi.org/10.21236/ada320221
 [research_air_force_test_pilot_school_edwards_afb_ca_1993]: https://doi.org/10.21236/ada320063
+[research_aircraft_and_2016]: https://doi.org/10.1109/mcs.2015.2512078
 [research_aircraft_landing_1971]: https://doi.org/10.1108/eb034716
+[research_akash_2021]: https://doi.org/10.3390/electronics11010020
+[research_akerkouch_le_2021]: https://doi.org/10.3390/fluids6040139
 [research_akturk_camci_2022]: https://doi.org/10.2514/1.c036386
+[research_al_khanov_2022]: https://doi.org/10.34759/vst-2022-3-209-221
+[research_al_madani_2018]: https://doi.org/10.1155/2018/2964583
+[research_al_solihat_2019]: https://doi.org/10.1115/1.4043104
+[research_alaez_2022]: https://doi.org/10.3390/info13120585
 [research_alatishe_2007]: https://doi.org/10.21236/ada467595
 [research_albrecht_2023]: https://doi.org/10.3390/aerospace10050395
 [research_aldawsari_2025]: https://doi.org/10.1038/s41598-025-93458-8
+[research_alexandridis_2020]: https://doi.org/10.3390/en13153814
 [research_alfaro_1932]: https://doi.org/10.1115/1.4021701
 [research_alford_knarr_1999]: https://doi.org/10.21236/ada371942
 [research_alfred_gessow_1954]: https://ntrs.nasa.gov/citations/19930083909
+[research_alguacil_2020]: https://doi.org/10.2514/1.j058230
+[research_ali_2015]: https://doi.org/10.1115/1.4031204
 [research_ali_2020]: https://doi.org/10.1049/iet-epa.2019.0476
+[research_alifanov_2018]: https://doi.org/10.1134/s0038094618070031
+[research_alizadeh_2018]: https://doi.org/10.1016/j.ifacol.2018.07.030
 [research_alle_1967]: https://doi.org/10.1108/eb034316
 [research_allen_white_1957]: https://doi.org/10.21236/ad0118718
 [research_almanza_1994]: https://doi.org/10.21236/ada281580
+[research_alonso_castilla_2021]: https://doi.org/10.3390/aerospace9010005
+[research_altava_2020]: https://doi.org/10.2514/1.c035934
 [research_althoff_1988]: https://ntrs.nasa.gov/citations/19890014893
 [research_althoff_1988_2]: https://ntrs.nasa.gov/citations/19880014371
 [research_althoff_1988_3]: https://ntrs.nasa.gov/citations/19880013479
 [research_althoff_1989]: https://doi.org/10.4050/jahs.34.4.18
 [research_altman_2008]: https://doi.org/10.21236/ada494088
+[research_alulema_2026]: https://doi.org/10.1038/s41598-026-54743-2
 [research_amalia_2019]: https://doi.org/10.1088/1757-899x/645/1/012006
+[research_amaral_costa_2017]: https://doi.org/10.24840/2183-6493_001.001_0008
+[research_ambroziak_2023]: https://doi.org/10.3390/s23021048
+[research_ambroziak_ciezkowski_2021]: https://doi.org/10.3390/s21134540
+[research_amelin_2022]: https://doi.org/10.18127/j20700784-202212-10
+[research_ament_2019]: https://ntrs.nasa.gov/citations/20190025422
 [research_amer_1964]: https://doi.org/10.4050/jahs.9.3
 [research_amer_1989]: https://doi.org/10.4050/jahs.34.1.63
 [research_amer_laforge_1977]: https://doi.org/10.4050/jahs.22.1.11
 [research_american_autogiro_1929]: https://doi.org/10.2307/3905106
+[research_amraouy_2025]: https://doi.org/10.1016/j.urbmob.2025.100150
+[research_an_2023]: https://doi.org/10.1016/j.ifacol.2023.10.094
+[research_an_kim_2025]: https://doi.org/10.1007/s12555-023-0884-7
 [research_an_overview_2017]: https://doi.org/10.21884/ijmter.2017.4120.y54mr
+[research_analysis_model_2018]: https://doi.org/10.20508/ijrer.v8i4.8235.g7549
+[research_anantharaman_2020]: https://doi.org/10.1007/s42797-019-00014-5
 [research_anastasi_2004]: https://ntrs.nasa.gov/citations/20040075547
-[research_ancestor_worship_1966]: https://doi.org/10.1086/200770
+[research_andersen_2024]: https://doi.org/10.1088/1742-6596/2767/9/092002
+[research_andersh_2015]: https://doi.org/10.1007/s10514-015-9430-7
+[research_anderson_2019]: https://doi.org/10.2514/1.g004000
 [research_anderson_holmes_1966]: https://doi.org/10.21236/ad0628681
-[research_anderson_john_d_1991]: https://doi.org/10.21236/ada233584
 [research_anderson_johnston_1974]: https://ntrs.nasa.gov/citations/19740026394
-[research_anderson_jr_1988]: https://doi.org/10.21236/ada194265
 [research_anderson_toivanen_1970]: https://doi.org/10.21236/ad0706001
 [research_anderson_watts_1976]: https://doi.org/10.4050/jahs.21.32
 [research_ando_1978]: https://doi.org/10.2514/3.7574
@@ -2529,15 +3357,23 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_andrews_1941]: https://doi.org/10.1108/eb030849
 [research_annepu_rajesh_2020]: https://doi.org/10.1007/s11277-020-07496-8
 [research_anschuetz_ii_1994]: https://doi.org/10.21236/ada280260
+[research_antar_2019]: https://doi.org/10.3390/en12081446
 [research_antaran_1992]: https://ntrs.nasa.gov/citations/19930008977
+[research_anton_2023]: https://doi.org/10.2514/1.a35583
+[research_antonakis_2019]: https://doi.org/10.2514/1.c035508
+[research_antony_maniyeri_2021]: https://doi.org/10.1016/j.matpr.2021.06.326
+[research_aoki_ishigami_2022]: https://doi.org/10.1080/01691864.2022.2141078
 [research_appa_1998]: https://doi.org/10.21236/ada366980
 [research_appendix_1990]: https://doi.org/10.1016/0273-1177(90)90405-o
 [research_approach_to_2025]: https://doi.org/10.36652/0869-4931-2025-79-3-125-128
+[research_apsley_stansby_2020]: https://doi.org/10.1016/j.jfluidstructs.2020.103141
+[research_aqil_hur_2021]: https://doi.org/10.3390/electronics10091038
 [research_arace_2026]: https://doi.org/10.2514/1.c038404
 [research_arcidiacono_1964]: https://doi.org/10.4050/jahs.9.34
 [research_ardema_1974]: https://ntrs.nasa.gov/citations/19740013541
 [research_arena_2021]: https://doi.org/10.3390/aerospace8020052
 [research_arents_1977]: https://doi.org/10.21236/ada042063
+[research_arjun_ram_akella_2020]: https://doi.org/10.2514/1.g004481
 [research_arjun_ram_akella_2022]: https://doi.org/10.2514/1.g006184
 [research_arms_hama_1965]: https://doi.org/10.1063/1.1761268
 [research_armstrong_1977]: https://doi.org/10.21236/adb029224
@@ -2556,34 +3392,56 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_army_war_coll_carlisle_barracks_pa_1952]: https://doi.org/10.21236/ada390507
 [research_army_war_coll_carlisle_barracks_pa_2006]: https://doi.org/10.21236/ada481301
 [research_arnold_2025]: https://doi.org/10.1017/aer.2024.95
+[research_arnould_laurendeau_2026]: https://doi.org/10.2514/1.c038469
+[research_arol_taymaz_2022]: https://doi.org/10.21595/jme.2022.22337
 [research_artis_jr_1975]: https://doi.org/10.21236/adb004715
+[research_arush_2022]: https://doi.org/10.4050/jahs.67.032010
 [research_aryaman_2023]: https://doi.org/10.1016/j.matpr.2023.06.022
+[research_arystanbekov_2025]: https://doi.org/10.3390/aerospace12030167
 [research_asadi_hassanzadeh_2023]: https://doi.org/10.1080/15435075.2023.2220372
 [research_ashley_m_korzun]: https://ntrs.nasa.gov/citations/20230017166
+[research_ashton_skaperdas_2019]: https://doi.org/10.2514/1.c034918
 [research_asif_khandwawala_1982]: https://doi.org/10.1016/0198-7593(82)90020-0
+[research_asmayawati_nixon_2020]: https://doi.org/10.1016/j.apergo.2019.102953
 [research_assanis_1989]: https://doi.org/10.1016/0890-4332(89)90151-8
 [research_assertive_training_1981]: https://doi.org/10.1093/sw/26.2.164
+[research_astori_2020]: https://doi.org/10.3390/aerospace7120174
+[research_atayagul_sooraksa_2025]: https://doi.org/10.18494/sam5957
 [research_attachment_of_1991]: https://doi.org/10.1016/0010-4361(91)90411-9
+[research_attaf_2017]: https://doi.org/10.1504/ijdsss.2017.088051
+[research_atte_rauleder_2026]: https://doi.org/10.4050/jahs.71.042004
 [research_atzmueller_voegtle_1979]: https://doi.org/10.1002/chin.197913073
 [research_augusto_2019]: https://doi.org/10.1088/1755-1315/268/1/012098
+[research_augustyniak_2016]: https://doi.org/10.15199/48.2016.08.46
 [research_autogiro_possesses_1939]: https://doi.org/10.2307/3915587
 [research_autogiro_safety_1940]: https://doi.org/10.1038/scientificamerican1140-261
+[research_automatic_mosquito_2021]: https://doi.org/10.7176/isde/12-3-01
+[research_autonomous_flight_2018]: https://doi.org/10.1299/jsmecs.2018.56.1215
 [research_avant_cunningham_1952]: https://doi.org/10.21236/ad0008257
 [research_avanzini_2017]: https://doi.org/10.1177/0954410017726810
 [research_aveline_fowlie_1987]: https://doi.org/10.1002/smi.2460030106
 [research_avirah_2024]: https://doi.org/10.4271/2024-26-0469
+[research_awad_stumpf_2022]: https://doi.org/10.1108/aeat-06-2021-0178
+[research_ayaz_2018]: https://doi.org/10.12928/telkomnika.v16i1.6814
 [research_azad_1985]: https://doi.org/10.1016/0198-7593(85)90224-3
 [research_azad_1986]: https://doi.org/10.1016/0198-7593(86)90074-3
+[research_azarnoosh_hassanipour_2020]: https://doi.org/10.1115/1.4045949
 [research_aziz_2016]: https://doi.org/10.18178/joig.4.1.36-41
+[research_aziz_loya_2025]: https://doi.org/10.3389/arc.2025.14524
 [research_azuma_obata_1968]: https://doi.org/10.2514/3.43954
 [research_azuma_saito_1982]: https://doi.org/10.4050/jahs.27.1.58
 [research_b_34_u_1963]: https://doi.org/10.1016/0019-1035(63)90063-0
+[research_b_natalia_perez_perez]: https://ntrs.nasa.gov/citations/20250010782
+[research_babakov_2025]: https://doi.org/10.1134/s2070048224700662
+[research_babakov_2026]: https://doi.org/10.1134/s0965542526700314
 [research_babister_1958]: https://doi.org/10.1038/182695a0
 [research_babuska_scapolla_1987]: https://doi.org/10.21236/ada187402
 [research_bachelder_2011]: https://ntrs.nasa.gov/citations/20110014470
 [research_badenoch_1945]: https://doi.org/10.1136/bmj.2.4426.601
 [research_bader_coleman_1967]: https://doi.org/10.21236/ad0654446
+[research_bagade_2015]: https://doi.org/10.12783/fae.2015.0401.03
 [research_bagai_leishman_1992]: https://ntrs.nasa.gov/citations/19930030785
+[research_bagherpoor_xuemin_2017]: https://doi.org/10.1016/j.egypro.2017.03.420
 [research_bai_shiah_2016]: https://doi.org/10.1017/jmech.2016.93
 [research_baier_1970]: https://doi.org/10.21236/ad0878050
 [research_bailey_1939]: https://ntrs.nasa.gov/citations/20180002404
@@ -2598,25 +3456,33 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_baisthakur_fitzgerald_2024]: https://doi.org/10.1016/j.renene.2024.120122
 [research_baker_1966]: https://doi.org/10.2514/3.43708
 [research_baker_1974]: https://doi.org/10.21236/ada036487
+[research_baker_2015]: https://doi.org/10.1016/j.apacoust.2015.01.018
 [research_baker_cooter_1979]: https://doi.org/10.1007/bf00613087
 [research_bakhtadze_1970]: https://doi.org/10.1007/bf00982017
 [research_balaji_2017]: https://doi.org/10.22214/ijraset.2017.4013
+[research_balakin_krikunov_2018]: https://doi.org/10.18287/2541-7533-2018-17-4-18-26
 [research_balcerak_1967]: https://doi.org/10.21236/ad0656755
 [research_balcerak_1969]: https://doi.org/10.21236/ad0860352
 [research_balch_1979]: https://doi.org/10.4050/jahs.24.45
 [research_balch_1985]: https://doi.org/10.4050/jahs.30.49
+[research_baldini_2020]: https://doi.org/10.1007/s10846-020-01150-y
 [research_baldwin_flam_1989]: https://doi.org/10.1007/bf02707664
 [research_bales_1973]: https://doi.org/10.21236/ad0766450
 [research_balje_1981]: https://doi.org/10.1115/1.3230689
 [research_ballard_1979]: https://ntrs.nasa.gov/citations/19800005793
 [research_ballard_1979_2]: https://ntrs.nasa.gov/citations/19790065041
 [research_ballard_1980]: https://doi.org/10.4050/jahs.25.30
+[research_bangga_2020]: https://doi.org/10.5194/wes-5-1037-2020
 [research_bao_2021]: https://doi.org/10.3389/fbioe.2021.759442
+[research_bao_2024_2]: https://doi.org/10.3390/en17164057
 [research_barbely_2016]: https://ntrs.nasa.gov/citations/20190001477
 [research_barbini_1970]: https://doi.org/10.21236/ad0869906
+[research_barbosa_2022]: https://doi.org/10.2514/1.g006271
+[research_bardera_2020]: https://doi.org/10.3390/fluids5040191
 [research_barkley_weaver_1977]: https://doi.org/10.21236/ada041462
 [research_barman_sinha_2023]: https://doi.org/10.2514/1.g006913
 [research_barnard_bauerle_2016]: https://doi.org/10.1175/jhm-d-16-0049.1
+[research_barnes_morozov_2016]: https://doi.org/10.1016/j.compstruct.2016.05.013
 [research_barnes_statham_1970]: https://doi.org/10.21236/ad0707372
 [research_barnette_1978]: https://doi.org/10.21236/ada051798
 [research_baron_1964]: https://doi.org/10.21236/ad0605828
@@ -2624,15 +3490,21 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_barry_2026]: https://doi.org/10.1016/j.rineng.2026.110807
 [research_barry_magliozzi_1971]: https://doi.org/10.21236/ad0729432
 [research_bartlett_she_1977]: https://doi.org/10.1364/ol.1.000175
-[research_basehart_scheffler_1967]: https://doi.org/10.1086/200837
 [research_batesole_1982]: https://ntrs.nasa.gov/citations/19830010970
 [research_bauch_lair_1970]: https://doi.org/10.21236/ad0878074
 [research_bauchau_hong_1987]: https://doi.org/10.4050/jahs.32.60
 [research_bauchau_lemnios_1997]: https://doi.org/10.21236/ada344153
 [research_baudinette_schmidt_nielsen_1974]: https://doi.org/10.1038/248083b0
+[research_bauer_2021]: https://doi.org/10.3397/in-2021-1638
 [research_bayley_wood_1969]: https://doi.org/10.1017/s0001924000051654
+[research_bazilevs_takizawa_2016]: https://doi.org/10.1016/j.compfluid.2016.11.001
+[research_beak_kim_2026]: https://doi.org/10.1080/12265934.2026.2648837
+[research_beck_2025]: https://doi.org/10.1016/j.strusafe.2025.102603
 [research_beek_1977]: https://doi.org/10.3233/isp-1977-2427701
 [research_beeler_2003]: https://ntrs.nasa.gov/citations/20040031358
+[research_behera_2022]: https://doi.org/10.1177/15280837221080103
+[research_behera_2022_2]: https://doi.org/10.1080/00405000.2022.2131360
+[research_behera_2023]: https://doi.org/10.1080/00405000.2023.2266949
 [research_belitskii_1974]: https://doi.org/10.1007/bf01286324
 [research_bell_aerospace_co_buffalo_ny_1955]: https://doi.org/10.21236/ad0125726
 [research_bement_1979]: https://ntrs.nasa.gov/citations/19790049613
@@ -2641,6 +3513,9 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_bender_1985]: https://doi.org/10.21236/ada177973
 [research_bennett_1933]: https://ntrs.nasa.gov/citations/19930094688
 [research_beppu_1966]: https://doi.org/10.21236/ad0640945
+[research_berg_2016]: https://doi.org/10.1002/we.1963
+[research_berger_kuhn_2018]: https://doi.org/10.1088/1742-6596/1037/5/052017
+[research_bergeron_2025]: https://doi.org/10.3390/aerospace12020116
 [research_berman_1956]: https://doi.org/10.2514/8.3523
 [research_berman_1965]: https://doi.org/10.4050/jahs.10.15
 [research_berry_1982]: https://ntrs.nasa.gov/citations/19820014377
@@ -2651,16 +3526,25 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_berton_1995]: https://doi.org/10.1615/jflowvisimageproc.v2.i1.20
 [research_beyer_costello_2008]: https://doi.org/10.21236/ada500872
 [research_bezandry_2016]: https://doi.org/10.21236/ad1006022
+[research_bezzaoucha_2017]: https://doi.org/10.1016/j.ifacol.2017.08.2180
+[research_bhandari_2024]: https://doi.org/10.2514/1.c037343
 [research_bhandari_2026]: https://doi.org/10.2514/1.c038411
+[research_bhardwaj_2022]: https://doi.org/10.1109/lra.2022.3205454
+[research_bhardwaj_2023]: https://doi.org/10.1088/1748-3190/acd739
 [research_bhargava_samala_2019]: https://doi.org/10.5028/jatm.v11.1045
 [research_bhargavapuri_2019]: https://doi.org/10.1016/j.conengprac.2019.05.015
+[research_bhatnagar_dr_2016]: https://doi.org/10.14429/dsj.66.9659
+[research_bibi_2026]: https://doi.org/10.3390/en19030619
 [research_bidikli_2019]: https://doi.org/10.1080/00207179.2019.1566644
 [research_bielawa_1988]: https://ntrs.nasa.gov/citations/19880017774
 [research_bierman_1959]: https://doi.org/10.1016/0002-9394(59)90753-6
+[research_biertumpfel_2024]: https://doi.org/10.1016/j.ifacol.2024.08.493
 [research_biggers_2015]: https://ntrs.nasa.gov/citations/20150021268
 [research_biggers_orloff_1975]: https://doi.org/10.4050/jahs.20.1.2
+[research_bijlsma_vermeulen_2016]: https://doi.org/10.1016/j.jfs.2016.11.001
 [research_bilegan_fetcu_1982]: https://doi.org/10.1016/0198-7593(82)90043-1
 [research_bilger_stowell_1977]: https://doi.org/10.1103/physreva.16.313
+[research_bilgin_2024]: https://doi.org/10.2514/1.g007691
 [research_bill_1990]: https://ntrs.nasa.gov/citations/19910012218
 [research_bill_1992]: https://ntrs.nasa.gov/citations/19920071402
 [research_billings_durlach_2008]: https://doi.org/10.21236/ada493588
@@ -2672,6 +3556,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_blaha_evanich_1981]: https://ntrs.nasa.gov/citations/19810010533
 [research_blahitko_2021]: https://doi.org/10.15407/fmmit2021.32.085
 [research_blankenship_harvey_1962]: https://doi.org/10.4050/jahs.7.55
+[research_bleier_2015]: https://doi.org/10.1016/j.ifacol.2015.08.080
 [research_blessing_1961]: https://doi.org/10.21236/ad0268481
 [research_blessing_1962]: https://doi.org/10.21236/ad0296840
 [research_blessing_1963]: https://doi.org/10.21236/ad0404708
@@ -2683,6 +3568,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_blood_1976_2]: https://doi.org/10.1063/1.861344
 [research_blotter_1975]: https://doi.org/10.2514/3.59884
 [research_blythe_2007]: https://doi.org/10.21236/ada470926
+[research_boatto_2023]: https://doi.org/10.1016/j.renene.2023.04.050
 [research_bobo_1972]: https://ntrs.nasa.gov/citations/19730004301
 [research_bodunkov_kim_2021]: https://doi.org/10.3103/s1068798x2101007x
 [research_boeing_co_morton_pa_vertol_div_1961]: https://doi.org/10.21236/ad0256426
@@ -2692,27 +3578,41 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_boeing_vertol_co_philadelphia_pa_1974]: https://doi.org/10.21236/ada955522
 [research_boeing_vertol_co_philadelphia_pa_1977]: https://doi.org/10.21236/ada050592
 [research_boeing_vertol_co_philadelphia_pa_1977_2]: https://doi.org/10.21236/ada053423
+[research_bogoslovskii_2023]: https://doi.org/10.32743/unitech.2023.109.4.15358
 [research_bohon_miserentino_1971]: https://doi.org/10.2514/3.59752
 [research_bohr_markvorsen_2016]: https://doi.org/10.1088/0031-8949/91/2/023005
 [research_boirun_1979]: https://doi.org/10.4050/jahs.24.51
+[research_boisard_2022]: https://doi.org/10.4050/jahs.67.012005
 [research_bolanovich_marks_1959]: https://doi.org/10.4050/jahs.4.2.22
 [research_bolds_1961]: https://doi.org/10.21236/ad0269208
 [research_bolds_1962]: https://doi.org/10.21236/ad0277128
 [research_bolender_doman_2005]: https://doi.org/10.21236/ada444974
 [research_bonavita_2026]: https://doi.org/10.2514/1.c038065
+[research_bondarenko_2017]: https://doi.org/10.18522/2311-3103-2017-1-279293
+[research_boniface_2024]: https://doi.org/10.1016/j.ifacol.2024.10.100
 [research_bonser_mlinar_1977]: https://doi.org/10.21236/ada038018
+[research_bontempo_manna_2017]: https://doi.org/10.1016/j.enconman.2017.02.031
 [research_boothe_1974]: https://doi.org/10.21236/ad0782218
+[research_borobia_2018]: https://doi.org/10.2514/1.g003581
+[research_borshchova_oyoung_2017]: https://doi.org/10.1139/juvs-2015-0044
 [research_bose_1983]: https://doi.org/10.3233/isp-1983-3034802
 [research_bostian_young_2011]: https://doi.org/10.21236/ada546145
+[research_bottasso_montinari_2015]: https://doi.org/10.4050/jahs.60.022005
+[research_boucher_2023]: https://doi.org/10.4271/2023-01-1107
+[research_boucher_2025]: https://doi.org/10.1121/10.0038350
 [research_bousman_2003]: https://ntrs.nasa.gov/citations/20040081236
 [research_boustani_2022]: https://doi.org/10.1016/j.ast.2022.107596
+[research_bouwmeester_2022]: https://doi.org/10.1016/j.ress.2021.108288
 [research_bouzidi_2020]: https://doi.org/10.1080/15397734.2019.1706558
 [research_bowen_1970]: https://doi.org/10.21236/ad0874373
+[research_bowen_davies_yeo_2018]: https://doi.org/10.4050/jahs.63.032004
 [research_bowers_1981]: https://doi.org/10.2514/3.57530
 [research_bowers_2007]: https://ntrs.nasa.gov/citations/20070021633
 [research_bowers_2011]: https://ntrs.nasa.gov/citations/20110015355
 [research_boyd_2009]: https://ntrs.nasa.gov/citations/20090034970
 [research_boyd_2019]: https://doi.org/10.3357/amhp.5249.2019
+[research_boznyakov_2016]: https://doi.org/10.1051/matecconf/20168601028
+[research_bp_2018]: https://doi.org/10.14429/dsj.68.12235
 [research_braasch_2006]: https://doi.org/10.21236/ada456221
 [research_brabston_1967]: https://doi.org/10.21236/ad0737767
 [research_bradley_1956]: https://doi.org/10.4050/jahs.1.32
@@ -2730,6 +3630,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_braun_walcott_1963]: https://doi.org/10.21236/ad0402777
 [research_braunshtein_2026]: https://doi.org/10.1016/j.actbio.2026.01.042
 [research_brauser_1982]: https://doi.org/10.1016/s1474-6670(17)62884-2
+[research_bravo_2021]: https://doi.org/10.1016/j.energy.2020.118823
 [research_bray_1973]: https://doi.org/10.1177/001872087301500607
 [research_brazzel_1963]: https://doi.org/10.21236/ad0423963
 [research_breakwell_1977]: https://doi.org/10.2514/3.58853
@@ -2737,16 +3638,21 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_brenckmann_1958]: https://doi.org/10.2514/8.7650
 [research_brenda_s_henderson]: https://ntrs.nasa.gov/citations/20240004786
 [research_brender_1996]: https://ntrs.nasa.gov/citations/19970005490
+[research_bretschneider_2021]: https://doi.org/10.3390/atmos13010035
 [research_brett_r_hiller]: https://ntrs.nasa.gov/citations/20230016544
 [research_briardy_1970]: https://doi.org/10.21236/ad0710425
 [research_bridgelall_2023]: https://doi.org/10.3390/futuretransp3030057
+[research_bridgelall_2024]: https://doi.org/10.3390/inventions9040084
+[research_bridgelall_2024_2]: https://doi.org/10.3390/info15070397
 [research_brinkman_1992]: https://doi.org/10.21236/ada389071
 [research_british_research_1962]: https://doi.org/10.1108/eb033620
 [research_britton_1992]: https://ntrs.nasa.gov/citations/19920006749
+[research_brodecki_subbarao_2015]: https://doi.org/10.2514/1.g000220
 [research_brodsky_luby_2013]: https://doi.org/10.21236/ada602311
 [research_brogan_1961]: https://doi.org/10.21236/ad0265569
 [research_broglio_1961]: https://doi.org/10.21236/ad0294976
 [research_brogna_hawks_1978]: https://doi.org/10.2514/3.58385
+[research_bromm_2016]: https://doi.org/10.1002/we.2010
 [research_broockmann_2012]: https://doi.org/10.21236/ada613284
 [research_brookes_1981]: https://doi.org/10.1039/an9810600403
 [research_brooks_1987]: https://ntrs.nasa.gov/citations/19870043868
@@ -2755,14 +3661,17 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_brown_1975]: https://doi.org/10.21236/ada018612
 [research_brown_1980]: https://doi.org/10.21236/ada130938
 [research_brown_1980_2]: https://doi.org/10.21236/ada130959
+[research_brown_brown_2017]: https://doi.org/10.1177/1548512917705494
 [research_brown_farassat_1976]: https://doi.org/10.21236/ada025982
 [research_brown_fisher_1968]: https://doi.org/10.2514/3.43963
+[research_brown_harris_2020]: https://doi.org/10.2514/1.c035756
 [research_brown_mckinlay_1973]: https://doi.org/10.1017/s0373463300022840
 [research_brown_schmidt_1963]: https://doi.org/10.4050/jahs.8.4.1
 [research_bruenner_lou_1971]: https://doi.org/10.21236/ad0883627
 [research_brunk_1963]: https://doi.org/10.21236/ad0407183
 [research_brunk_1975]: https://doi.org/10.21236/ada019525
 [research_bruno_1980]: https://doi.org/10.21236/ada092669
+[research_buccio_2026]: https://doi.org/10.4050/jahs.71.042003
 [research_bucherelli_2026]: https://doi.org/10.1063/5.0311688
 [research_buckalew_1990]: https://doi.org/10.21236/ada396165
 [research_buckanin_guin_1977]: https://doi.org/10.21236/ada058785
@@ -2788,9 +3697,12 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_bynum_1978]: https://doi.org/10.21236/ada060566
 [research_byreddy_2003]: https://doi.org/10.21236/ada417124
 [research_c_s_lee_1989]: https://ntrs.nasa.gov/citations/19910001551
+[research_cacan_2015]: https://doi.org/10.1109/tmech.2015.2405851
 [research_cacan_2019]: https://doi.org/10.1016/j.ast.2018.08.008
 [research_cacan_costello_2018]: https://doi.org/10.2514/1.g003039
 [research_cadieux_barad_2025]: https://doi.org/10.1016/j.compfluid.2025.106800
+[research_cai_2015]: https://doi.org/10.1080/10618562.2015.1016426
+[research_cai_2018]: https://doi.org/10.1007/s11432-018-9577-3
 [research_cai_2024]: https://doi.org/10.3390/drones8100524
 [research_cai_2025]: https://doi.org/10.1109/lra.2025.3575316
 [research_cai_2026]: https://doi.org/10.3390/drones10050325
@@ -2800,14 +3712,22 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_calise_1984]: https://doi.org/10.2514/3.8554
 [research_cals_test_network_wright_patterson_afb_oh_1992_8]: https://doi.org/10.21236/ada312708
 [research_cals_test_network_wright_patterson_afb_oh_1994]: https://doi.org/10.21236/ada309342
+[research_cameron_2016]: https://doi.org/10.2514/1.c033442
+[research_cameron_sirohi_2019]: https://doi.org/10.4050/jahs.64.022002
+[research_campanale_grace_2025]: https://doi.org/10.69554/ntbe3843
 [research_campbell_1960]: https://doi.org/10.1038/scientificamerican0860-41
+[research_candido_2025]: https://doi.org/10.3390/aerospace12050392
 [research_candler_2001]: https://doi.org/10.21236/ada387503
+[research_cantisani_2018]: https://doi.org/10.1016/j.simpat.2018.09.007
 [research_cantwell_1993]: https://doi.org/10.21236/ada271008
 [research_cao_2017]: https://doi.org/10.1177/0954410017705900
+[research_cao_2021]: https://doi.org/10.1061/(asce)as.1943-5525.0001342
 [research_cao_2024]: https://doi.org/10.1088/1742-6596/2767/5/052033
+[research_cao_2024_2]: https://doi.org/10.1016/j.ast.2024.108924
 [research_cao_2025]: https://doi.org/10.1016/j.renene.2025.123181
 [research_cao_2026]: https://doi.org/10.1016/j.ast.2025.110809
 [research_cao_zhang_2021]: https://doi.org/10.1109/access.2021.3055526
+[research_caprace_2020]: https://doi.org/10.1063/5.0015162
 [research_cardinale_1969]: https://doi.org/10.21236/ad0863063
 [research_carico_1998]: https://doi.org/10.21236/ada350677
 [research_carico_2000]: https://doi.org/10.21236/ada375767
@@ -2827,6 +3747,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_case_1985]: https://doi.org/10.1016/0094-114x(85)90063-1
 [research_cassarino_1970]: https://doi.org/10.21236/ad0877174
 [research_castilla_2018]: https://doi.org/10.1155/2018/5253102
+[research_castillo_2019]: https://doi.org/10.1177/0309524x19852350
 [research_castillo_rivera_tomas_rodriguez_2020]: https://doi.org/10.1515/ijnsns-2019-0102
 [research_castles_1958]: https://ntrs.nasa.gov/citations/19930085195
 [research_castles_1959]: https://ntrs.nasa.gov/citations/19980235520
@@ -2836,26 +3757,35 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_castles_durham_1956_2]: https://doi.org/10.4050/jahs.1.17
 [research_castles_gray_1951]: https://ntrs.nasa.gov/citations/19920074916
 [research_catapang_1993]: https://ntrs.nasa.gov/citations/19930018052
+[research_cecutta_2024]: https://doi.org/10.12968/s1478-2774(25)50003-0
 [research_celi_1991]: https://doi.org/10.4050/jahs.36.35
 [research_cenkci_1991]: https://doi.org/10.21236/ada241143
 [research_centrone_1988]: https://doi.org/10.21236/ada577879
 [research_cerbe_reichert_1989]: https://doi.org/10.2514/3.45863
 [research_chabaud_2021]: https://doi.org/10.1002/we.2626
+[research_chae_2022]: https://doi.org/10.1017/jfm.2022.913
 [research_chakoian_1969]: https://doi.org/10.21236/ad0699342
 [research_chakraborty_2023]: https://doi.org/10.2514/1.c036811
 [research_chakraborty_mishra_2023]: https://doi.org/10.2514/1.c036813
+[research_chakraborty_mishra_2023_2]: https://doi.org/10.2514/1.c037044
+[research_chakraborty_roy_2022]: https://doi.org/10.1063/5.0084538
 [research_chakravarthy_ghose_2016]: https://doi.org/10.2514/1.g001546
 [research_chaloff_1974]: https://doi.org/10.21236/ada002858
 [research_chandak_2023]: https://doi.org/10.47363/jeast/2023(5)e170
+[research_chandana_radha_2023]: https://doi.org/10.53555/jaz.v45i1.3021
 [research_chandler_1967]: https://doi.org/10.21236/ad0653972
 [research_chandrasekaran_1985]: https://ntrs.nasa.gov/citations/19850014058
 [research_chandrasekaran_bartlett_1983]: https://ntrs.nasa.gov/citations/19830055069
 [research_chandrasekharan_1985]: https://doi.org/10.2514/3.45204
 [research_chang_2018]: https://doi.org/10.1007/s12555-017-0014-5
+[research_chang_2025]: https://doi.org/10.3390/acoustics7010004
 [research_chang_ai_2026]: https://doi.org/10.3390/aerospace13060516
+[research_changchuan_2018]: https://doi.org/10.2514/1.c034162
 [research_chappell_1979]: https://doi.org/10.4050/jahs.24.47
 [research_characteristics_of_1985]: https://doi.org/10.1016/0042-207x(85)90330-6
 [research_charlwood_1970]: https://doi.org/10.1042/bj1200113
+[research_charnsethikul_2025]: https://doi.org/10.3390/aerospace12040306
+[research_charny_2015]: https://doi.org/10.7205/milmed-d-14-00483
 [research_chattopadhyay_1989]: https://ntrs.nasa.gov/citations/19890011611
 [research_chattopadhyay_1993]: https://doi.org/10.1080/03052159308940966
 [research_chattopadhyay_1997]: https://ntrs.nasa.gov/citations/19990052617
@@ -2873,9 +3803,14 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_chen_2002]: https://doi.org/10.21236/ada399365
 [research_chen_2002_2]: https://doi.org/10.21236/ada410310
 [research_chen_2015]: https://doi.org/10.2514/1.j054024
+[research_chen_2017]: https://doi.org/10.1108/aeat-01-2016-0017
+[research_chen_2017_2]: https://doi.org/10.1016/j.compstruct.2016.10.086
+[research_chen_2018]: https://doi.org/10.1016/j.precisioneng.2018.05.001
+[research_chen_2018_2]: https://doi.org/10.1063/1.5024925
 [research_chen_2019]: https://ntrs.nasa.gov/citations/20190027651
 [research_chen_2019_3]: https://doi.org/10.1109/access.2019.2938078
 [research_chen_2019_4]: https://doi.org/10.1007/s40435-019-00537-6
+[research_chen_2019_5]: https://doi.org/10.1088/1748-3190/ab45c9
 [research_chen_2021]: https://doi.org/10.1016/j.paerosci.2020.100681
 [research_chen_2021_2]: https://doi.org/10.1109/tase.2020.3020558
 [research_chen_2021_3]: https://doi.org/10.1007/s12650-021-00797-5
@@ -2884,27 +3819,44 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_chen_2022_2]: https://doi.org/10.1080/15389588.2022.2034797
 [research_chen_2023]: https://doi.org/10.3390/math11020288
 [research_chen_2023_2]: https://doi.org/10.3390/electronics12163438
+[research_chen_2025]: https://doi.org/10.3390/drones9090662
 [research_chen_2026]: https://doi.org/10.2514/1.j066616
+[research_chen_2026_3]: https://doi.org/10.1134/s0015462826604572
+[research_chen_2026_4]: https://doi.org/10.1016/j.ress.2025.112176
 [research_chen_chang_1972]: https://doi.org/10.1115/1.3422883
 [research_chen_chang_1973]: https://doi.org/10.1115/1.3423061
+[research_chen_chen_2026]: https://doi.org/10.2514/1.c038684
 [research_chen_hubner_2021]: https://doi.org/10.2514/1.c035763
+[research_chen_hubner_2021_2]: https://doi.org/10.1061/(asce)as.1943-5525.0001307
 [research_chen_liu_2015]: https://doi.org/10.21236/ada623927
+[research_chen_liu_2016]: https://doi.org/10.1109/maes.2016.150053
 [research_chen_luo_2025]: https://doi.org/10.1016/j.jprocont.2025.103535
 [research_chen_talbot_1978]: https://doi.org/10.4050/jahs.23.23
 [research_chen_ye_2022]: https://doi.org/10.2316/j.2022.201-0208
 [research_cheney_1972]: https://doi.org/10.4050/jahs.17.16
 [research_cheng_2016]: https://doi.org/10.1177/1528083716661203
 [research_cheng_2020]: https://doi.org/10.1186/s42774-020-0029-0
+[research_cheng_2022]: https://doi.org/10.1016/j.ast.2022.107714
 [research_cheng_2023]: https://doi.org/10.1109/lra.2023.3318128
 [research_cheng_pellettiere_2005]: https://doi.org/10.21236/ada441783
+[research_chenglong_2018]: https://doi.org/10.1088/1757-899x/428/1/012073
 [research_chernenko_burnashev_2022]: https://doi.org/10.20535/0203-3771422021268461
+[research_cheung_2024]: https://doi.org/10.1002/we.2956
 [research_chi_1985]: https://doi.org/10.2514/3.45231
+[research_chi_2019]: https://doi.org/10.1016/j.ast.2019.05.003
 [research_chiang_1980]: https://doi.org/10.21236/ada092721
 [research_chicarello_shpilberg_1976]: https://doi.org/10.1007/bf02624805
 [research_chiel_dever_2015]: https://doi.org/10.2514/1.g000676
 [research_chiel_dever_2024]: https://doi.org/10.2514/1.g000676.c1
+[research_childs_garvey_2015]: https://doi.org/10.1016/j.jppr.2015.02.006
+[research_chin_2023]: https://doi.org/10.2514/1.d0298
 [research_chipman_1975]: https://doi.org/10.2514/3.59903
+[research_chitsaz_2021]: https://doi.org/10.1016/j.expthermflusci.2020.110286
 [research_cho_lee_1994]: https://doi.org/10.2514/3.12217
+[research_choephel_2026]: https://doi.org/10.1061/jaeeez.aseng-6817
+[research_choi_2019]: https://doi.org/10.1063/1.5054039
+[research_choi_2019_2]: https://doi.org/10.1177/1687814019852258
+[research_choi_2019_3]: https://doi.org/10.1080/09243046.2019.1626187
 [research_choi_2026]: https://doi.org/10.2514/1.c038503
 [research_chopra_1985]: https://ntrs.nasa.gov/citations/19860005827
 [research_chopra_2000]: https://doi.org/10.21236/ada378791
@@ -2918,9 +3870,16 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_christopher_s_thurman_2023]: https://ntrs.nasa.gov/citations/20230004245
 [research_christopher_s_thurman_james_d_baeder_2023]: https://ntrs.nasa.gov/citations/20230008089
 [research_christopher_s_thurman_nikolas_s_zawodny]: https://ntrs.nasa.gov/citations/20210013432
+[research_chu_2015]: https://doi.org/10.3901/jme.2015.12.170
+[research_chu_2017]: https://doi.org/10.1016/j.asr.2017.07.024
+[research_chu_2020]: https://doi.org/10.1080/00207179.2020.1749887
+[research_chung_son_2020]: https://doi.org/10.1109/tmech.2020.2982436
 [research_chyu_1986]: https://ntrs.nasa.gov/citations/19890003527
+[research_ciarcia_2017]: https://doi.org/10.2514/1.g002585
 [research_cicolani_2010]: https://doi.org/10.21236/ada517702
 [research_cieslak_2021]: https://doi.org/10.37105/sd.110
+[research_cieslak_krzymien_2018]: https://doi.org/10.2478/tar-2018-0001
+[research_cizreliogullari_2022]: https://doi.org/10.32936/pssj.v6i2.335
 [research_clark_maskew_1982]: https://ntrs.nasa.gov/citations/19840036851
 [research_cleek_1978]: https://doi.org/10.21236/ada060057
 [research_cleek_1978_2]: https://doi.org/10.21236/ada060056
@@ -2933,10 +3892,12 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_cloutier_1967]: https://doi.org/10.2514/3.59555
 [research_coating_makes_1980]: https://doi.org/10.1007/bf02473090
 [research_coban_2020]: https://doi.org/10.1108/aeat-08-2019-0171
+[research_cochran_2015]: https://doi.org/10.2514/1.g000628
 [research_coe_rives_1932]: https://doi.org/10.1109/ee.1932.6429852
 [research_coffin_haldeman_1973]: https://doi.org/10.21236/ad0755108
 [research_coffman_1987]: https://doi.org/10.4050/jahs.32.34
 [research_coker_magnusson_1978]: https://doi.org/10.21236/ada071814
+[research_cokorilo_2020]: https://doi.org/10.1016/j.trpro.2020.02.058
 [research_cole_1980]: https://doi.org/10.21236/ada207109
 [research_cole_1988]: https://doi.org/10.21236/ada196247
 [research_cole_1996]: https://doi.org/10.21236/ada304107
@@ -2944,14 +3905,18 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_cole_2020]: https://doi.org/10.1088/1742-6596/1618/2/022026
 [research_coleman_1972]: https://doi.org/10.1051/lhb/1972001
 [research_collar_1960]: https://doi.org/10.1017/s0368393100071893
+[research_colletti_ansell_2023]: https://doi.org/10.2514/1.c036755
 [research_collins_1934]: https://doi.org/10.1038/133688a0
+[research_comi_atumo_2025]: https://doi.org/10.1016/j.urbmob.2025.100161
 [research_compilation_of_1962]: https://ntrs.nasa.gov/citations/19730061695
 [research_composite_helicopter_1974]: https://doi.org/10.1016/0010-4361(74)90411-x
 [research_composite_helicopter_1990]: https://doi.org/10.1016/0010-4361(90)90187-2
 [research_composite_propeller_1972]: https://doi.org/10.1016/0010-4361(72)90442-9
 [research_composite_rotor_1980]: https://doi.org/10.1016/0010-4361(80)90065-8
 [research_composite_rotor_1993]: https://doi.org/10.1016/0010-4361(93)90069-k
+[research_computer_aided_system_2018]: https://doi.org/10.14357/19922264180103
 [research_computer_techniques_1976]: https://doi.org/10.1016/0010-4485(76)90140-8
+[research_comunian_2025]: https://doi.org/10.2514/1.c038541
 [research_conceptual_design_1983]: https://ntrs.nasa.gov/citations/19850002822
 [research_concha_barrientos_1982]: https://doi.org/10.1016/0301-7516(82)90025-4
 [research_conklin_1962]: https://doi.org/10.1177/001872086200400601
@@ -2964,6 +3929,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_cook_1974]: https://doi.org/10.21236/ad0786560
 [research_cook_hickey_1975]: https://ntrs.nasa.gov/citations/19750015485
 [research_coombe_1970]: https://doi.org/10.1108/eb034670
+[research_coombes_2016]: https://doi.org/10.2514/1.i010432
 [research_coombes_2017]: https://doi.org/10.2514/1.c033856
 [research_cooper_1966]: https://doi.org/10.21236/ad0635125
 [research_copeland_1994]: https://doi.org/10.1006/jfls.1994.1006
@@ -2976,6 +3942,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_couch_brooks_1973]: https://ntrs.nasa.gov/citations/19740001903
 [research_cox_1973]: https://doi.org/10.4050/jahs.18.3
 [research_cox_geymayer_1970]: https://doi.org/10.21236/ad0706846
+[research_crandell_tobalske_2015]: https://doi.org/10.1242/jeb.116228
 [research_crawford_hodgson_1961]: https://doi.org/10.21236/ad0256791
 [research_cresap_1962]: https://doi.org/10.4050/jahs.7.32
 [research_crespodasilva_1981]: https://ntrs.nasa.gov/citations/19810017580
@@ -2995,15 +3962,24 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_crowe_carlson_1970]: https://doi.org/10.2514/3.6114
 [research_crox_john_f_1961]: https://doi.org/10.21236/ad0259833
 [research_cui_2019]: https://doi.org/10.2514/1.c035047
+[research_cui_2023]: https://doi.org/10.1016/j.birob.2023.100088
 [research_cui_2025]: https://doi.org/10.1088/1361-6501/adeac9
+[research_cui_2025_3]: https://doi.org/10.3390/s25247655
+[research_cui_2025_4]: https://doi.org/10.1017/aer.2025.10078
+[research_cui_2027]: https://doi.org/10.1016/j.ress.2026.113157
 [research_cummings_1982]: https://doi.org/10.21236/ada117552
 [research_cunningham_1978]: https://doi.org/10.1115/1.3453969
 [research_curtiss_1973]: https://doi.org/10.2514/3.60228
 [research_curtiss_1984]: https://doi.org/10.4050/jahs.29.48
 [research_curtiss_mckillip_1992]: https://ntrs.nasa.gov/citations/19930003155
+[research_cusati_2023]: https://doi.org/10.3390/aerospace10030276
+[research_cuyler_dull]: https://ntrs.nasa.gov/citations/20210026235
 [research_cyrus_fogarty_1979]: https://doi.org/10.21236/ada210053
 [research_czarnigowski_2020]: https://doi.org/10.12913/22998624/120928
+[research_czyz_2015]: https://doi.org/10.12913/22998624/2370
+[research_czyz_2018]: https://doi.org/10.1088/1742-6596/1101/1/012003
 [research_czyz_2022]: https://doi.org/10.15866/irease.v15i1.21319
+[research_czyz_2025]: https://doi.org/10.1016/j.engfailanal.2025.110136
 [research_d_2020]: https://doi.org/10.5373/jardcs/v12sp4/20201659
 [research_d_andrea_2008]: https://doi.org/10.21236/ada530333
 [research_d_angelo_2018]: https://doi.org/10.1016/j.simpat.2018.02.005
@@ -3011,31 +3987,45 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_dahlke_batiuk_1990]: https://doi.org/10.21236/ada226182
 [research_dahms_bardenhagen_2019]: https://doi.org/10.1108/aeat-01-2018-0033
 [research_dai_2018]: https://doi.org/10.2507/ijsimm17(2)co6
+[research_dai_2024]: https://doi.org/10.1016/j.ress.2023.109908
+[research_dai_2025]: https://doi.org/10.1016/j.ast.2025.110122
 [research_dalmau_2019]: https://ntrs.nasa.gov/citations/20190002559
+[research_dalwadi_2022]: https://doi.org/10.3390/drones6070176
+[research_dalwadi_2022_2]: https://doi.org/10.1016/j.asej.2022.101748
 [research_danelson_2015]: https://doi.org/10.1115/1.4028816
+[research_danesh_2023]: https://doi.org/10.1007/s40435-023-01139-z
+[research_daniel_2025]: https://doi.org/10.1063/10.0035849
 [research_daniel_ingraham_robert_falck]: https://ntrs.nasa.gov/citations/20240015364
+[research_daniilidis_2024]: https://doi.org/10.1016/j.jfa.2024.110626
 [research_danis_2018]: https://ntrs.nasa.gov/citations/20180003214
+[research_darshankumar_ragunath_2016]: https://doi.org/10.17577/ijertv5is010281
+[research_darvishpoor_2025]: https://doi.org/10.3390/app15063181
 [research_darwin_williams_2001]: https://doi.org/10.21236/ada389838
 [research_das_2009]: https://doi.org/10.21236/ada511002
 [research_das_2017]: https://doi.org/10.1016/j.ifacol.2017.08.050
+[research_das_kumpas_2019]: https://doi.org/10.29137/umagd.454156
+[research_datta_2026]: https://doi.org/10.4050/jahs.71.032002
 [research_dau_1965]: https://doi.org/10.21236/ad0623827
 [research_daughaday_duwaldt_1955]: https://doi.org/10.21236/ad0103817
-[research_davenport_1959]: https://doi.org/10.1525/aa.1959.61.4.02a00010
 [research_davenport_1964]: https://doi.org/10.4050/jahs.9.26
-[research_david_1978]: https://doi.org/10.1111/j.1365-3032.1978.tb00148.x
 [research_david_b_stephens_2014]: https://ntrs.nasa.gov/citations/20150000320
 [research_davidescu_2026]: https://doi.org/10.13111/2066-8201.2026.18.2.3
 [research_davis_1965]: https://doi.org/10.21236/ad0628580
 [research_davis_1974]: https://doi.org/10.21236/ad0782756
 [research_davis_1974_2]: https://doi.org/10.21236/ad0782854
 [research_davis_1977]: https://doi.org/10.21236/ada050059
+[research_davoudi_dehkordi_danesh_2022]: https://doi.org/10.2514/1.g006154
+[research_de_almeida_dias_2024]: https://doi.org/10.5433/1679-0375.2024.v45.51520
+[research_de_bruin_jones_2016]: https://doi.org/10.1016/j.ifacol.2016.09.030
 [research_de_la_cierva_1930]: https://doi.org/10.1115/1.4057226
 [research_de_la_cierva_1934]: https://doi.org/10.1108/eb029805
 [research_de_la_cierva_1962]: https://doi.org/10.21236/ad0609053
 [research_de_paula_2026]: https://doi.org/10.2514/1.g009512
 [research_de_santis_schwering_1975]: https://doi.org/10.21236/ada016866
 [research_de_silva_carmichael_1978]: https://doi.org/10.2514/3.58435
+[research_de_tavernier_ferreira_2020]: https://doi.org/10.1002/we.2480
 [research_de_vries_2019]: https://doi.org/10.2514/1.c035388
+[research_de_vries_vos_2023]: https://doi.org/10.2514/1.c036909
 [research_dean_1979]: https://doi.org/10.21236/ada071034
 [research_debenedictis_woestman_1973]: https://doi.org/10.21236/ad0761127
 [research_dececchi_2020]: https://doi.org/10.2139/ssrn.3640840
@@ -3048,23 +4038,33 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_defense_documentation_center_alexandria_va_1971]: https://doi.org/10.21236/ad0724500
 [research_dehouck_2017]: https://doi.org/10.1115/1.4038046
 [research_deitering_hilliard_1965]: https://doi.org/10.21236/ad0464786
-[research_dekoninck_int_panis_2017]: https://doi.org/10.3390/atmos8110230
+[research_dekemele_2025]: https://doi.org/10.1016/j.ifacol.2025.11.039
+[research_delattre_2016]: https://doi.org/10.1177/1475472x16643461
 [research_dellacorte_bruckner_2007]: https://ntrs.nasa.gov/citations/20070023441
 [research_demarchi_haning_1978]: https://doi.org/10.21236/ada060326
+[research_deneke_carter_2026]: https://doi.org/10.2514/1.c038488
 [research_deng_2015]: https://doi.org/10.1299/jsmeapbio.2015.8.69
+[research_deng_2017_2]: https://doi.org/10.1007/s11465-017-0438-x
 [research_deng_2021]: https://doi.org/10.1155/2021/6289822
 [research_deng_2026]: https://doi.org/10.3390/biomimetics11020126
 [research_department_of_the_air_force_washington_dc_2005]: https://doi.org/10.21236/ada495209
 [research_derbidge_dahm_1976]: https://doi.org/10.21236/ada029571
 [research_derschmidt_1962]: https://doi.org/10.4050/jahs.7.9
+[research_desert_2019]: https://doi.org/10.1016/j.ast.2019.05.064
 [research_design_and_2015]: https://doi.org/10.21275/v4i11.nov151216
+[research_design_and_2023]: https://doi.org/10.23977/jeeem.2023.060204
 [research_design_of_1989]: https://ntrs.nasa.gov/citations/19940004551
 [research_design_of_2019]: https://doi.org/10.2478/jeppm-2019-0011
 [research_desmidt_2013]: https://ntrs.nasa.gov/citations/20130014755
 [research_devalla_2016]: https://doi.org/10.18520/cs/v111/i6/1045-1054
+[research_devane_2024]: https://doi.org/10.1080/15389588.2024.2411028
+[research_development_and_2021]: https://doi.org/10.7708/ijtte.2021.11(2).04
+[research_devries_paley_2016]: https://doi.org/10.2514/1.g001138
 [research_diasinos_2017]: https://doi.org/10.1115/1.4035877
 [research_diekmann_1979]: https://doi.org/10.21236/ada097689
+[research_diekmann_2019]: https://doi.org/10.2514/1.c034910
 [research_dieter_reich_josef_wimbauer_1975]: https://ntrs.nasa.gov/citations/19750013149
+[research_dimitrov_2015]: https://doi.org/10.1002/we.1861
 [research_ding_2023]: https://doi.org/10.4236/wjet.2023.114065
 [research_dinyavari_friedmann_1986]: https://doi.org/10.2514/3.9459
 [research_director_army_safety_office_washington_dc_1993]: https://doi.org/10.21236/ada372899
@@ -3072,13 +4072,18 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_disselkoen_1989]: https://doi.org/10.2514/3.45834
 [research_dixon_1980]: https://doi.org/10.21236/ada086754
 [research_djouadi_2010]: https://doi.org/10.21236/ada547079
+[research_dmcc_2018]: https://doi.org/10.4172/2157-7110.1000746
+[research_do_2023]: https://doi.org/10.3390/drones7090548
 [research_do_deweck_2011]: https://ntrs.nasa.gov/citations/20110015920
 [research_doblhoff_1956]: https://doi.org/10.21236/ad0109767
 [research_doblhoff_1959]: https://doi.org/10.4050/jahs.4.12
 [research_dodgson_1973]: https://doi.org/10.1108/eb035038
 [research_dohme_1981]: https://doi.org/10.21236/adp001308
+[research_dolgov_2018]: https://doi.org/10.3390/safety4020015
 [research_dolinar_2000]: https://doi.org/10.21236/ada375818
 [research_dominick_watts_1967]: https://doi.org/10.21236/ada951581
+[research_dong_2016]: https://doi.org/10.1016/j.robot.2016.05.005
+[research_donkels_2020]: https://doi.org/10.2514/1.g004678
 [research_donner_1954]: https://doi.org/10.1366/000370254774634468
 [research_donovan_grollman_1978]: https://doi.org/10.21236/ada054326
 [research_dooley_1976]: https://doi.org/10.21236/ada034459
@@ -3087,12 +4092,16 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_dooley_yeary_1979]: https://doi.org/10.21236/ada071648
 [research_doran_1975]: https://doi.org/10.21236/adb013123
 [research_dorfler_1986]: https://doi.org/10.21236/ada215910
+[research_dormiyani_2015]: https://doi.org/10.4028/www.scientific.net/amm.772.401
 [research_doucet_1990]: https://doi.org/10.21236/ada230995
+[research_dougherty_lee_2016]: https://doi.org/10.2514/1.g001229
 [research_douglas_aircraft_co_long_beach_ca_1983]: https://doi.org/10.21236/ada133628
 [research_dowell_1990]: https://doi.org/10.21236/ada227930
+[research_dowling_costello_2018]: https://doi.org/10.2514/1.c034832
 [research_downing_1956]: https://doi.org/10.21236/ad0122635
 [research_downwards_escape_1956]: https://doi.org/10.5694/j.1326-5377.1956.tb49388.x
 [research_doyle_1968]: https://doi.org/10.21236/ad0672735
+[research_dozic_2026]: https://doi.org/10.1016/j.trpro.2026.02.061
 [research_drees_1963]: https://doi.org/10.4050/jahs.8.21
 [research_drees_1968]: https://doi.org/10.1111/j.1749-6632.1968.tb15212.x
 [research_drela_1990]: https://doi.org/10.2514/3.25342
@@ -3101,22 +4110,30 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_dryden_ballif_1930]: https://doi.org/10.6028/jres.005.011
 [research_drysdale_1981]: https://doi.org/10.21236/ada105502
 [research_drysdale_2013]: https://doi.org/10.21236/ada589953
+[research_du_2026]: https://doi.org/10.3357/amhp.6751.2026
+[research_du_gao_2018]: https://doi.org/10.1360/n092017-00203
 [research_dubin_1962]: https://ntrs.nasa.gov/citations/19630016702
 [research_dubin_1966]: https://ntrs.nasa.gov/citations/19660045194
 [research_ducard_carughi_2024]: https://doi.org/10.3390/drones8120727
 [research_dufek_bates_1992]: https://doi.org/10.1016/0167-9457(92)90002-s
 [research_dukhnovskiy_2023]: https://doi.org/10.1007/s42401-023-00242-5
+[research_dulf_2019]: https://doi.org/10.1136/injuryprev-2018-042989
+[research_dulia_shihab_2025]: https://doi.org/10.2514/1.d0447
 [research_dunham_1970]: https://doi.org/10.1017/s0001924000047539
 [research_dunham_1970_2]: https://doi.org/10.1017/s0001924000047321
 [research_dunlap_1956]: https://doi.org/10.21236/ad0098048
 [research_dunlap_porter_1971]: https://doi.org/10.21236/ad0725741
 [research_dunlap_worthey_1975]: https://doi.org/10.21236/ada021576
 [research_durand_wasicko_1967]: https://doi.org/10.2514/3.43812
+[research_durmusoglu_2026]: https://doi.org/10.3390/math14122195
 [research_durso_2002]: https://doi.org/10.21236/ada405300
+[research_dursun_cuhadar_2018]: https://doi.org/10.1016/j.ress.2018.05.011
 [research_dutton_1967]: https://doi.org/10.21236/ad0651416
 [research_duval_1979]: https://ntrs.nasa.gov/citations/19790010745
 [research_duwaldt_statler_1966]: https://doi.org/10.21236/ad0631494
+[research_dvorak_2016]: https://doi.org/10.1051/epjconf/201611401001
 [research_dyke_1971]: https://doi.org/10.1063/1.1693541
+[research_dynamic_response_2021]: https://doi.org/10.5829/ije.2021.34.01a.22
 [research_dynamics_research_corp_wilmington_ma_2001]: https://doi.org/10.21236/ada398643
 [research_earl_1967]: https://doi.org/10.21236/ad0817527
 [research_eckstrom_1970]: https://ntrs.nasa.gov/citations/20070031005
@@ -3129,11 +4146,16 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_efimov_chernigin_2022]: https://doi.org/10.1007/s42401-021-00128-4
 [research_egolf_landgrebe_1982]: https://ntrs.nasa.gov/citations/19820023420
 [research_egolf_landgrebe_1984]: https://ntrs.nasa.gov/citations/19850049835
+[research_ehrich_2018]: https://doi.org/10.3390/app8122513
 [research_ejection_seat_2021]: https://doi.org/10.12968/s1478-2774(22)50457-3
+[research_ekman_debacker_2018]: https://doi.org/10.1016/j.ssci.2017.12.039
 [research_ekquist_1965]: https://doi.org/10.21236/ad0623129
+[research_el_beshbichi_2021]: https://doi.org/10.1016/j.oceaneng.2021.109441
 [research_el_makdah_2022]: https://doi.org/10.1088/1748-3190/ac68bb
 [research_elatife_2026]: https://doi.org/10.20508/ijrer.v16i1.15166.g9156
 [research_electronic_control_1962]: https://doi.org/10.1108/eb033546
+[research_elfering_2023]: https://doi.org/10.1016/j.oceaneng.2022.113555
+[research_eliassen_2015]: https://doi.org/10.1016/j.egypro.2015.11.418
 [research_elkatmis_2021]: https://doi.org/10.1016/j.measen.2021.100244
 [research_elkhaldi_2020]: https://doi.org/10.15866/ireme.v14i6.18271
 [research_ellinwood_1977]: https://doi.org/10.21236/ada048695
@@ -3142,45 +4164,69 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_elliott_1988_2]: https://ntrs.nasa.gov/citations/19880012631
 [research_elliott_1988_3]: https://ntrs.nasa.gov/citations/19880015223
 [research_ellis_1971]: https://ntrs.nasa.gov/citations/19710043554
+[research_enciu_horn_2017]: https://doi.org/10.2514/1.c034111
+[research_enciu_rosen_2017]: https://doi.org/10.4050/jahs.62.012007
 [research_endo_1995]: https://doi.org/10.1016/0389-4304(95)94877-p
 [research_eney_1981]: https://doi.org/10.21236/ada102575
 [research_englar_1978]: https://doi.org/10.2514/3.58337
 [research_entwistle_1931]: https://doi.org/10.1017/s0368393100115688
 [research_er_el_1989]: https://doi.org/10.2514/3.45754
+[research_erdmann_2018]: https://doi.org/10.1016/j.hpb.2018.06.2518
+[research_erhard_strauch_2015]: https://doi.org/10.1016/j.conengprac.2015.03.001
 [research_eric_greenwood_2023]: https://ntrs.nasa.gov/citations/20230008744
 [research_erickson_1972]: https://doi.org/10.21236/ad0756640
 [research_ericsson_reding_1977]: https://doi.org/10.2514/3.58915
+[research_erskine_2022]: https://doi.org/10.1016/j.apgeog.2022.102652
+[research_escobar_yeo_2023]: https://doi.org/10.4050/jahs.68.032002
 [research_etkin_1961]: https://doi.org/10.2514/8.9191
 [research_evaluating_the_2015]: https://doi.org/10.21535/rt4q5x62
 [research_evdokimenkov_2024]: https://doi.org/10.31857/s0002338824030196
 [research_evdokimenkov_2024_2]: https://doi.org/10.1134/s1064230724700394
 [research_everett_elber_2000]: https://ntrs.nasa.gov/citations/20000032860
 [research_ewen_1973]: https://doi.org/10.1115/1.3445739
+[research_experimental_verification_2016]: https://doi.org/10.20528/cjsmec.2016.09.021
 [research_fackrell_1975]: https://doi.org/10.1017/s000192590000740x
 [research_faconti_epps_1975]: https://doi.org/10.21236/ada017165
 [research_fagan_1967]: https://doi.org/10.21236/ad0661614
 [research_fagan_1968]: https://doi.org/10.4050/jahs.13.13
+[research_fagan_2017]: https://doi.org/10.1016/j.compstruct.2016.12.037
 [research_faiz_1973]: https://doi.org/10.21236/ad0774270
+[research_falconi_2018]: https://doi.org/10.2478/amcs-2018-0022
 [research_falkner_1943]: https://doi.org/10.1108/eb030997
 [research_fallast_messnarz_2017]: https://doi.org/10.1007/s13272-017-0252-5
+[research_fan_2024]: https://doi.org/10.1049/cim2.70000
+[research_fan_2026_2]: https://doi.org/10.1038/s41598-026-54074-2
 [research_fang_2017]: https://doi.org/10.4236/wjet.2017.54b012
+[research_fang_2021]: https://doi.org/10.1016/j.energy.2020.119519
+[research_fang_2023]: https://doi.org/10.1109/taes.2023.3235321
+[research_fang_2025]: https://doi.org/10.1109/access.2025.3550127
 [research_fang_xiao_2021]: https://doi.org/10.1109/jsen.2020.3027373
+[research_farahbakhsh_2023]: https://doi.org/10.1088/1873-7005/acba44
 [research_farajijalal_2025]: https://doi.org/10.3390/drones9020141
 [research_farazi_zou_2024]: https://doi.org/10.1016/j.tre.2024.103661
 [research_farkas_1976]: https://doi.org/10.21236/adb016517
 [research_farokhi_1994]: https://doi.org/10.2514/3.46453
+[research_farvardin_ahranjani_banazadeh_2021]: https://doi.org/10.1016/j.ast.2020.106381
 [research_fattizzo_2026]: https://doi.org/10.2514/1.c038348
 [research_fauli_2019]: https://doi.org/10.1103/physreve.100.013108
+[research_fault_tolerant_2017]: https://doi.org/10.23919/cjee.2017.8048414
 [research_features_of_2024]: https://doi.org/10.31673/2786-8362.2024.026490
 [research_fedele_mungiguerra_2018]: https://doi.org/10.1016/j.actaastro.2018.05.044
+[research_fedukhin_mukha_2025]: https://doi.org/10.34121/1028-9763-2025-1-134-139
+[research_feil_2018]: https://doi.org/10.4050/jahs.63.042004
 [research_feil_hajek_2021]: https://doi.org/10.2514/1.c035684
 [research_feng_2015]: https://doi.org/10.4028/www.scientific.net/amm.713-715.274
+[research_feng_2016]: https://doi.org/10.1109/jdt.2015.2509064
+[research_feng_2017]: https://doi.org/10.1002/jsid.553
 [research_feng_2023]: https://doi.org/10.2514/1.g007591
 [research_fenwick_1966]: https://doi.org/10.21236/ad0737274
 [research_fenwick_1966_2]: https://doi.org/10.21236/ad0736728
 [research_fenwick_1967]: https://doi.org/10.21236/ad0738376
 [research_fenwick_1968]: https://doi.org/10.21236/ad0734313
 [research_fenwick_mathews_1966]: https://doi.org/10.21236/ad0736642
+[research_ferede_gandhi_2021]: https://doi.org/10.1002/we.2681
+[research_ferguson_thomson_2015]: https://doi.org/10.1177/0954410015577997
+[research_ferreira_2022]: https://doi.org/10.5194/wes-7-469-2022
 [research_ferrell_1974]: https://doi.org/10.21236/ada109440
 [research_fetter_1974]: https://doi.org/10.1103/physreva.10.1724
 [research_fewell_1980]: https://doi.org/10.1177/152808378000900401
@@ -3207,8 +4253,13 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_flemming_1991]: https://ntrs.nasa.gov/citations/19920012445
 [research_flight_characteristics_1951]: https://doi.org/10.1108/eb032032
 [research_flight_speed_1933]: https://doi.org/10.2307/4077639
+[research_flindell_2021]: https://doi.org/10.1016/j.apacoust.2021.108032
 [research_fluck_crawford_2017]: https://doi.org/10.1002/we.2148
+[research_fluid_structure_2021]: https://doi.org/10.21152/1750-9548.15.4.389
+[research_fluid_structure_interaction_2021]: https://doi.org/10.47176/jafm.14.02.31717
+[research_fogle_2018]: https://doi.org/10.1093/milmed/usx097
 [research_folds_beard_1988]: https://doi.org/10.1177/154193128803200212
+[research_fominykh_levin_2023]: https://doi.org/10.1051/e3sconf/202338305003
 [research_ford_1979]: https://doi.org/10.1108/eb035554
 [research_ford_1985]: https://doi.org/10.1108/eb036142
 [research_forehand_bair_1969]: https://doi.org/10.2514/3.44086
@@ -3219,6 +4270,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_foulke_1965]: https://doi.org/10.21236/ad0617966
 [research_fowler_1981]: https://doi.org/10.1177/001872088102300201
 [research_fox_2018]: https://doi.org/10.1080/14763141.2018.1498535
+[research_fox_2021]: https://doi.org/10.1038/d41586-021-01060-5
 [research_fradenburgh_1961]: https://doi.org/10.21236/ad0263542
 [research_fradenburgh_1973]: https://doi.org/10.21236/ad0771037
 [research_fradenburgh_1984]: https://doi.org/10.4050/jahs.29.73
@@ -3233,6 +4285,8 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_frengley_1972]: https://doi.org/10.21236/ad0758464
 [research_frequency_evaluation_2017]: https://doi.org/10.21275/art20178467
 [research_friedman_1951]: https://ntrs.nasa.gov/citations/19930093733
+[research_friedman_2016]: https://doi.org/10.2514/1.c033304
+[research_friedman_rand_2015]: https://doi.org/10.1016/j.ast.2015.06.007
 [research_friedmann_1977]: https://doi.org/10.2514/3.60615
 [research_friedmann_1987]: https://doi.org/10.1016/s0889-9746(87)90194-0
 [research_friedmann_2000]: https://doi.org/10.21236/ada391158
@@ -3241,6 +4295,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_friedmann_silverthorn_1975]: https://doi.org/10.2514/3.60490
 [research_friedmann_venkatesan_1985]: https://ntrs.nasa.gov/citations/19860005824
 [research_friedmann_yuan_1977]: https://doi.org/10.2514/3.60735
+[research_friedrich_robertson_2015]: https://doi.org/10.2514/1.c032660
 [research_fries_1996]: https://doi.org/10.21236/ada310293
 [research_fries_2000]: https://doi.org/10.21236/ada378211
 [research_frint_1977]: https://doi.org/10.21236/ada037307
@@ -3256,19 +4311,25 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_gaeid_2023]: https://doi.org/10.1016/j.rico.2023.100301
 [research_gaffey_1969]: https://doi.org/10.4050/jahs.14.2.49
 [research_gaffey_1969_2]: https://doi.org/10.4050/jahs.14.49
+[research_gagnon_zingg_2016]: https://doi.org/10.2514/1.c033592
+[research_gah_2023]: https://doi.org/10.1109/lcsys.2022.3187685
+[research_gahlot_2025]: https://doi.org/10.4050/jahs.70.042001
 [research_gainer_sullivan_1976]: https://doi.org/10.21236/ada030420
 [research_gallagher_mckinley_2011]: https://doi.org/10.21236/ada550649
 [research_gallagher_stalnaker_1975]: https://doi.org/10.2514/3.59861
 [research_gallaway_hankey_1985]: https://doi.org/10.2514/3.45235
 [research_gallon_2015]: https://ntrs.nasa.gov/citations/20170008182
+[research_gamagedara_2024]: https://doi.org/10.1016/j.conengprac.2023.105791
 [research_gamota_1972]: https://doi.org/10.1103/physrevlett.28.1691
 [research_gan_xu_2020]: https://doi.org/10.1088/1757-899x/719/1/012025
 [research_gandhi_1995]: https://ntrs.nasa.gov/citations/20000072489
+[research_gang_2015]: https://doi.org/10.1016/j.proeng.2014.12.614
 [research_gangwani_1983]: https://doi.org/10.4050/jahs.28.37
 [research_gao_2016]: https://doi.org/10.1016/j.cja.2016.04.003
 [research_gao_2016_2]: https://doi.org/10.1155/2016/1438727
 [research_gao_2020]: https://doi.org/10.1088/1757-899x/751/1/012010
 [research_gao_2020_2]: https://doi.org/10.1016/j.measurement.2019.107406
+[research_gao_2021]: https://doi.org/10.1007/s12555-020-0643-y
 [research_gao_tao_2022]: https://doi.org/10.3390/mca27050075
 [research_gaonkar_1971]: https://doi.org/10.1016/0022-460x(71)90709-7
 [research_gaonkar_1972]: https://doi.org/10.2514/3.44334
@@ -3280,6 +4341,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_garcia_2002]: https://doi.org/10.21236/ada406515
 [research_garcia_2023]: https://doi.org/10.1080/14763141.2023.2191867
 [research_garcia_pardo_2001]: https://doi.org/10.21236/ada593397
+[research_garg_2024]: https://doi.org/10.1002/net.22211
 [research_garrard_1987]: https://doi.org/10.2514/3.45422
 [research_garrard_liebst_1990]: https://doi.org/10.4050/jahs.35.23
 [research_garrard_low_1990]: https://doi.org/10.21236/ada231588
@@ -3288,20 +4350,25 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_gasaway_1970]: https://doi.org/10.21236/ad0705964
 [research_gates_1963]: https://doi.org/10.4050/jahs.8.14
 [research_gato_de_o_falcao_1989]: https://doi.org/10.1016/0020-7403(89)90078-7
+[research_gaunaa_2023]: https://doi.org/10.5194/wes-8-503-2023
 [research_gavrilovic_2018]: https://doi.org/10.2514/1.c034531
 [research_gay_kovia_1963]: https://doi.org/10.21236/ad0479143
 [research_gaylor_junge_2021]: https://doi.org/10.1080/15389588.2021.1894638
 [research_geiselman_2015]: https://doi.org/10.1080/10508414.2015.1162630
+[research_gekht_idan_2015]: https://doi.org/10.2514/1.g000211
+[research_genc_2022]: https://doi.org/10.1051/epjconf/202226901016
 [research_general_dynamics_astronautics_san_diego_ca_1961]: https://doi.org/10.21236/ad0843200
 [research_general_dynamics_astronautics_san_diego_ca_1962]: https://doi.org/10.21236/ad0852659
 [research_general_dynamics_astronautics_san_diegoca_1961]: https://doi.org/10.21236/ad0843112
 [research_general_electric_co_schenectady_ny_1952]: https://doi.org/10.21236/ad0000287
+[research_genov_2025]: https://doi.org/10.1016/j.nucengdes.2025.113892
 [research_gentry_1972]: https://doi.org/10.1017/s0001924000043013
 [research_george_1978]: https://doi.org/10.21236/ada058388
 [research_george_1996]: https://ntrs.nasa.gov/citations/19970004232
 [research_georgiev_2025]: https://doi.org/10.3846/aviation.2025.23587
 [research_gerlach_1979]: https://doi.org/10.21236/ada068906
 [research_german_galkin_gavrilov_2017]: https://doi.org/10.17587/mau.18.56-63
+[research_germanetti_2024]: https://doi.org/10.4050/jahs.69.032001
 [research_gershzohn_1980]: https://doi.org/10.1177/001872088002200510
 [research_gessow_1948]: https://ntrs.nasa.gov/citations/19930082289
 [research_gessow_1948_2]: https://ntrs.nasa.gov/citations/19930082219
@@ -3313,14 +4380,24 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_ghalebsaz_jeddi_2012]: https://ntrs.nasa.gov/citations/20120010542
 [research_ghareeb_1964]: https://doi.org/10.21236/ad0619285
 [research_gharehcheloo_2026]: https://doi.org/10.1038/s41598-026-38071-z
+[research_ghasemi_2021]: https://doi.org/10.1017/s0263574721001181
 [research_ghee_hall_2000]: https://doi.org/10.21236/ada382837
 [research_ghellab_2021]: https://doi.org/10.1016/j.measurement.2020.108472
+[research_ghemari_saad_2017]: https://doi.org/10.1166/sl.2017.3792
 [research_gholampour_beaver_2025]: https://doi.org/10.1109/lcsys.2025.3642222
 [research_ghosh_rajagopalan_2022]: https://doi.org/10.4050/jahs.67.012001
+[research_ghoul_sayed_2025]: https://doi.org/10.1016/j.aap.2025.107923
+[research_giacomini_westerberg_2025]: https://doi.org/10.3390/app151810299
+[research_gianmarco_sahragard_monfared]: https://ntrs.nasa.gov/citations/20250003348
 [research_gibs_1975]: https://ntrs.nasa.gov/citations/19750034312
 [research_giffin_1977]: https://ntrs.nasa.gov/citations/19800006828
+[research_gilbrook_2025]: https://doi.org/10.1108/aeat-06-2024-0160
 [research_gilewicz_1978]: https://doi.org/10.21236/ada373272
+[research_gillini_arrichiello_2020]: https://doi.org/10.1016/j.ifacol.2020.12.2388
 [research_gilman_burdges_1967]: https://doi.org/10.2514/3.43894
+[research_giri_ajay_2025]: https://doi.org/10.5194/wes-10-1829-2025
+[research_gjestland_2023]: https://doi.org/10.1016/j.apacoust.2022.109162
+[research_gladkov_i_2017]: https://doi.org/10.7256/2453-8817.2017.2.23099
 [research_glaister_1978]: https://doi.org/10.1016/0020-1383(78)90006-2
 [research_glasgow_corrigan_1982]: https://ntrs.nasa.gov/citations/19830010963
 [research_glauert_1927]: https://doi.org/10.1017/s0368393100133206
@@ -3329,18 +4406,27 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_gliding_and_1931]: https://doi.org/10.1017/s0368393100113203
 [research_gliding_and_1938]: https://doi.org/10.1038/141442b0
 [research_gliding_flight_1935]: https://doi.org/10.1108/eb029915
+[research_gnatowska_gajewska_2024]: https://doi.org/10.3390/en18010066
 [research_godwin_1964]: https://doi.org/10.21236/ad0613504
 [research_goglia_1952]: https://doi.org/10.21236/ad0003890
+[research_goit_ishihara_2019]: https://doi.org/10.1002/we.2449
+[research_gojon_2021]: https://doi.org/10.1121/10.0005068
 [research_gokbel_ersoy_2021]: https://doi.org/10.21595/jmai.2021.22339
 [research_goland_1955]: https://doi.org/10.21236/ad0112882
 [research_goland_1956]: https://doi.org/10.21236/ad0091337
 [research_goldberger_1966]: https://doi.org/10.21236/ad0644191
+[research_golden_2023]: https://doi.org/10.1007/s10479-023-05714-7
 [research_goldschmidt_2024]: https://doi.org/10.2514/1.j063568
 [research_goldspink_1978]: https://doi.org/10.1007/bf01939668
 [research_goldsworthy_1979]: https://doi.org/10.1016/0022-1910(79)90097-0
 [research_golman_2015]: https://doi.org/10.1080/10255842.2015.1056523
+[research_golombek_2026]: https://doi.org/10.1007/s13272-026-00996-6
 [research_gombos_reed_1975]: https://doi.org/10.21236/ada008560
+[research_goncalves_2017]: https://doi.org/10.1016/j.ress.2017.06.021
+[research_gong_chen_2015]: https://doi.org/10.12989/was.2015.20.5.609
+[research_gong_fang_2021]: https://doi.org/10.2514/1.j059440
 [research_gonzalez_portilla_1987]: https://doi.org/10.1080/01932698708943611
+[research_gonzalez_tejeda_2026]: https://doi.org/10.1142/s2301385027410056
 [research_gonzalo_2025]: https://doi.org/10.1186/s42774-025-00205-8
 [research_goodall_1977]: https://doi.org/10.21236/ada048891
 [research_goodman_1979]: https://doi.org/10.5957/jsr.1979.23.4.242
@@ -3353,24 +4439,33 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_gori_2016]: https://doi.org/10.1007/s13272-016-0196-1
 [research_gorlin_khudyakov_1969]: https://doi.org/10.1007/bf01014981
 [research_gorton_1996]: https://ntrs.nasa.gov/citations/20040110412
+[research_goshtasbi_2024]: https://doi.org/10.1016/j.jpowsour.2024.235188
+[research_gosine_2019]: https://doi.org/10.1016/j.apergo.2019.102900
+[research_goudswaard_2024]: https://doi.org/10.1016/j.ast.2024.109734
 [research_goulos_bonesso_2019]: https://doi.org/10.1016/j.ast.2019.03.040
+[research_goyal_cohen_2022]: https://doi.org/10.3390/app12031183
 [research_graber_1991]: https://doi.org/10.1017/s0001924000023812
 [research_gragg_1982]: https://doi.org/10.21236/ada122870
 [research_graham_1951]: https://ntrs.nasa.gov/citations/19930086578
 [research_graham_weinhandl_2026]: https://doi.org/10.3390/biomechanics6020043
+[research_granata_2026]: https://doi.org/10.1016/j.ast.2026.112734
 [research_grande_2016]: https://doi.org/10.4050/jahs.61.022006
 [research_grant_1961]: https://doi.org/10.21236/ad0269001
 [research_granville_1972]: https://doi.org/10.2514/3.48122
 [research_gray_1956]: https://doi.org/10.21236/ad0122600
 [research_gray_1960]: https://ntrs.nasa.gov/citations/19980228193
 [research_greco_2021]: https://doi.org/10.1016/j.ress.2020.107309
+[research_greco_testa_2021]: https://doi.org/10.1016/j.renene.2020.08.002
 [research_green_1966]: https://doi.org/10.21236/ad0737272
 [research_green_carr_1965]: https://doi.org/10.21236/ad0735910
 [research_greene_1977]: https://doi.org/10.2514/3.44577
 [research_greene_2020]: https://doi.org/10.4271/01-14-01-0001
 [research_greenly_1962]: https://doi.org/10.1017/s0368393100077890
 [research_greenspan_1960]: https://doi.org/10.1063/1.1706092
+[research_greenwood_2015]: https://doi.org/10.4050/jahs.60.022007
+[research_greenwood_schmitz_2018]: https://doi.org/10.4050/jahs.63.032001
 [research_gregory_1941]: https://doi.org/10.2514/8.10728
+[research_greiser_2018]: https://doi.org/10.1007/s13272-018-0345-9
 [research_grendahl_pepi_2003]: https://doi.org/10.21236/ada421230
 [research_grether_1973]: https://doi.org/10.21236/ad0767203
 [research_griffin_1975]: https://doi.org/10.21236/ada016929
@@ -3387,11 +4482,22 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_grubb_1995]: https://doi.org/10.21236/ada294051
 [research_grubb_2001]: https://doi.org/10.21236/ada396904
 [research_gruber_woltornist_1967]: https://doi.org/10.4050/jahs.12.16
+[research_gruchet_2026]: https://doi.org/10.32370/ia_2026_02_3
+[research_gu_2020]: https://doi.org/10.1016/j.compstruct.2020.112855
+[research_gu_2021]: https://doi.org/10.1016/j.compstruct.2021.114417
+[research_gu_2022]: https://doi.org/10.1016/j.compstruct.2022.115414
 [research_gu_2025]: https://doi.org/10.1109/access.2025.3588128
+[research_gu_tian_2023]: https://doi.org/10.1109/access.2023.3330230
 [research_guan_2025]: https://doi.org/10.1063/5.0249139
+[research_guerreiro_2018]: https://doi.org/10.1109/tcst.2017.2705058
 [research_guidos_cooper_1999]: https://doi.org/10.21236/ada373577
+[research_gul_datta_2024]: https://doi.org/10.4050/jahs.69.012011
+[research_guner_2021]: https://doi.org/10.4050/jahs.66.022007
 [research_gunn_1963]: https://doi.org/10.1109/tpas.1963.291356
+[research_guo_2022_2]: https://doi.org/10.3390/aerospace9010034
 [research_guo_2026]: https://doi.org/10.1371/journal.pone.0343305
+[research_guo_ganapathysubramanian_2017]: https://doi.org/10.1002/we.2108
+[research_guo_ma_2024]: https://doi.org/10.1016/j.ress.2023.109732
 [research_gupta_lessen_1975]: https://doi.org/10.2514/3.60435
 [research_gustafson_1940]: https://ntrs.nasa.gov/citations/20150014027
 [research_gustafson_1941]: https://ntrs.nasa.gov/citations/20150014029
@@ -3399,11 +4505,16 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_gustafson_1956]: https://doi.org/10.4050/jahs.1.1.16
 [research_gustafson_calapodas_1976]: https://doi.org/10.21236/ada021472
 [research_guy_1976]: https://doi.org/10.2514/3.44533
+[research_guzelbey_2018]: https://doi.org/10.31466/kfbd.423932
+[research_habibnia_pascoa_2021]: https://doi.org/10.1016/j.ast.2021.107141
 [research_haefner_2026]: https://doi.org/10.2514/1.c038360
 [research_hafner_1938]: https://doi.org/10.1017/s0368393100101385
 [research_hafner_1946]: https://doi.org/10.1017/s2976691500000121
 [research_haider_levenspiel_1989]: https://doi.org/10.1016/0032-5910(89)80008-7
+[research_halder_benedict_2018]: https://doi.org/10.2514/1.c034712
 [research_hale_1966]: https://doi.org/10.21236/ad0478353
+[research_halefom_2024]: https://doi.org/10.2514/1.g007836
+[research_halim_2021]: https://doi.org/10.32722/pt.v20i1.3496
 [research_hall_1965]: https://ntrs.nasa.gov/citations/20000011972
 [research_hall_1971]: https://doi.org/10.2514/3.59106
 [research_hall_2021]: https://doi.org/10.1017/aer.2021.65
@@ -3417,9 +4528,17 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_hammon_horowitz_1987]: https://doi.org/10.21236/ada190370
 [research_hammon_horowitz_1990]: https://doi.org/10.21236/ada228582
 [research_han_2018]: https://doi.org/10.1108/aeat-09-2015-0209
+[research_han_2019]: https://doi.org/10.2514/1.c035298
+[research_han_2021]: https://doi.org/10.1016/j.ast.2021.106733
+[research_han_2024_2]: https://doi.org/10.1109/access.2024.3366704
+[research_han_2026]: https://doi.org/10.1177/00202940261419018
+[research_han_2026_2]: https://doi.org/10.1016/j.energy.2026.141145
 [research_han_barakos_2022]: https://doi.org/10.2514/1.c036549
 [research_hannah_l_morgan_2019]: https://doi.org/10.23880/eoij-16000205
+[research_hannesdottir_2019]: https://doi.org/10.5194/wes-4-325-2019
 [research_hansford_1987]: https://doi.org/10.4050/jahs.32.43
+[research_haridas_pawar_2018]: https://doi.org/10.1016/j.matpr.2017.12.162
+[research_hariyadi_2017]: https://doi.org/10.22219/jemmme.v2i1.4905
 [research_harley_odegard_1975]: https://ntrs.nasa.gov/citations/19760019107
 [research_harmon_baaklini_2001]: https://ntrs.nasa.gov/citations/20020012807
 [research_harper_sardanowsky_1969]: https://doi.org/10.21236/ad0858184
@@ -3430,34 +4549,51 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_harris_1980]: https://doi.org/10.21236/ada125758
 [research_harris_1980_2]: https://doi.org/10.1177/0032258x8005300411
 [research_harris_2008]: https://ntrs.nasa.gov/citations/20090005978
+[research_harris_2019]: https://doi.org/10.4050/jahs.64.015001
 [research_hart_1951]: https://ntrs.nasa.gov/citations/19930086743
 [research_hart_1956]: https://doi.org/10.21236/ad0108104
 [research_hart_katz_1949]: https://ntrs.nasa.gov/citations/20050019251
+[research_hartley_2022]: https://doi.org/10.1177/10648046221124786
 [research_harvey_ryan_2012]: https://doi.org/10.21236/ada563152
 [research_hashimoto_1961]: https://doi.org/10.2322/jjsass1953.9.309
 [research_hashimoto_mizokami_1991]: https://doi.org/10.1002/ecja.4410741008
+[research_hassanalian_abdelkefi_2016]: https://doi.org/10.1007/s11012-016-0475-2
+[research_hasselmann_2026]: https://doi.org/10.1007/s40864-026-00282-y
 [research_hatakeyama_1976]: https://doi.org/10.2473/shigentosozai1953.92.1065_713
+[research_haupt_2016]: https://doi.org/10.4028/www.scientific.net/ddf.366.97
 [research_hausknecht_vaitys_1961]: https://doi.org/10.21236/ad0268378
 [research_hawker_payne_1979]: https://doi.org/10.21236/ada068614
 [research_hawkins_1985]: https://ntrs.nasa.gov/citations/19860020339
+[research_hayashi_2018]: https://doi.org/10.1299/jsmermd.2018.2a2-e17
 [research_hayes_2006]: https://doi.org/10.21236/ada463638
 [research_hazard_1953]: https://doi.org/10.1108/eb032250
 [research_hazen_seckel_1950]: https://doi.org/10.21236/ada952420
 [research_he_2016]: https://doi.org/10.7763/ijet.2016.v8.886
+[research_he_2019]: https://doi.org/10.1016/j.apacoust.2019.01.003
+[research_he_2022]: https://doi.org/10.3390/automation3020014
 [research_he_2023]: https://doi.org/10.1017/jfm.2022.1017
 [research_he_2025]: https://doi.org/10.3390/machines13090843
 [research_he_2026]: https://doi.org/10.1109/tits.2025.3648294
+[research_he_2026_2]: https://doi.org/10.1007/s42401-026-00494-x
+[research_he_leang_2025]: https://doi.org/10.1016/j.ast.2024.109748
+[research_he_lipeng_2017]: https://doi.org/10.3788/lop54.122201
 [research_he_peters_1993]: https://ntrs.nasa.gov/citations/19930068457
+[research_he_xia_2022]: https://doi.org/10.3390/en15082709
 [research_head_1959]: https://doi.org/10.4050/jahs.4.4
 [research_head_1962]: https://doi.org/10.4050/jahs.7.28
 [research_head_1966]: https://doi.org/10.21236/ad0489862
 [research_head_hohenemser_1951]: https://doi.org/10.21236/ad0109764
 [research_healy_1969]: https://doi.org/10.1121/1.1972312
+[research_healy_2022]: https://doi.org/10.4050/jahs.67.012006
+[research_heath_2017]: https://doi.org/10.2514/1.c034036
 [research_hegenwald_1958]: https://ntrs.nasa.gov/citations/19930092389
+[research_heidari_saska_2021]: https://doi.org/10.1016/j.mechmachtheory.2020.104140
 [research_heinrich_1961]: https://doi.org/10.21236/ad0272404
 [research_heinrich_1966]: https://doi.org/10.21236/ad0479786
 [research_heinrich_1966_2]: https://doi.org/10.2514/3.43713
+[research_heinrich_2025]: https://doi.org/10.1016/j.igie.2025.10.018
 [research_heinrich_saari_1978]: https://doi.org/10.2514/3.58402
+[research_heister_2018]: https://doi.org/10.4050/jahs.63.032008
 [research_helf_1973]: https://ntrs.nasa.gov/citations/19730016343
 [research_helicopter_rotor_1976]: https://doi.org/10.1049/ree.1976.0030
 [research_helicopter_strakes_1993]: https://ntrs.nasa.gov/citations/20020080936
@@ -3467,6 +4603,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_henry_1963]: https://doi.org/10.1139/p63-113
 [research_hepler_1973]: https://doi.org/10.21236/ad0776359
 [research_herbst_2015]: https://doi.org/10.1007/s13272-015-0176-x
+[research_herraez_2017]: https://doi.org/10.1088/1742-6596/854/1/012022
 [research_hess_1995]: https://doi.org/10.2514/3.56654
 [research_hess_james_1975]: https://doi.org/10.21236/ada006588
 [research_hewes_hassell_1960]: https://ntrs.nasa.gov/citations/19980223968
@@ -3485,10 +4622,13 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_hill_1975]: https://doi.org/10.1017/s0022112075002406
 [research_hill_1982]: https://doi.org/10.21236/adp000449
 [research_hill_2022]: https://doi.org/10.1080/14763141.2022.2056075
+[research_hill_2026]: https://doi.org/10.1177/15578682261441527
+[research_hillman_2021]: https://doi.org/10.1080/09617353.2021.1920300
 [research_hinds_shames_1975]: https://doi.org/10.21236/ada011449
 [research_hinzmann_2018]: https://doi.org/10.1109/lra.2018.2809962
 [research_hiremath_2019]: https://doi.org/10.1007/s00348-019-2740-3
 [research_hirsh_1965]: https://doi.org/10.21236/ad0621684
+[research_ho_2017]: https://doi.org/10.4050/jahs.62.022005
 [research_ho_david_2013]: https://doi.org/10.21236/ada587336
 [research_ho_yeo_2019]: https://doi.org/10.1007/s42405-019-00221-1
 [research_hoad_1976]: https://doi.org/10.2514/3.58693
@@ -3498,11 +4638,15 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_hodges_1957]: https://doi.org/10.2514/8.3958
 [research_hodges_1980]: https://doi.org/10.4050/jahs.25.48
 [research_hodges_1990]: https://doi.org/10.2514/3.10430
+[research_hodges_2015]: https://doi.org/10.4050/jahs.60.011001
+[research_hodgkinson_2017]: https://doi.org/10.4050/jahs.62.047001
 [research_hoerner_1936]: https://doi.org/10.1108/eb030033
 [research_hoffman_1996]: https://ntrs.nasa.gov/citations/19970001269
 [research_hoffman_velkoff_1971]: https://doi.org/10.2514/3.44297
+[research_hoffmann_2024]: https://doi.org/10.3390/systems12050178
 [research_hoffrichter_1978]: https://doi.org/10.21236/ada065010
 [research_hogan_1992]: https://doi.org/10.21236/ada252389
+[research_hoghooghi_bottasso_2026]: https://doi.org/10.5194/wes-11-373-2026
 [research_hoh_ashkenas_1981]: https://doi.org/10.4050/jahs.26.19
 [research_hohenemser_1938]: https://ntrs.nasa.gov/citations/19930094545
 [research_hohenemser_1950]: https://doi.org/10.2514/8.1724
@@ -3514,16 +4658,21 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_hohenemser_yin_1971]: https://ntrs.nasa.gov/citations/19720004241
 [research_hohenemser_yin_1973]: https://ntrs.nasa.gov/citations/19730050266
 [research_hollrock_barzda_1972]: https://ntrs.nasa.gov/citations/19730010163
+[research_holness_2017]: https://doi.org/10.1177/1756829317734836
+[research_holtslag_2016]: https://doi.org/10.1002/we.1959
 [research_homans_1978]: https://doi.org/10.21236/ada051999
+[research_hon_2022]: https://doi.org/10.2478/tar-2022-0009
 [research_hone_1975]: https://doi.org/10.21236/ada008394
 [research_honeywell_marine_systems_center_seattle_wa_1973]: https://doi.org/10.21236/ad0758722
 [research_hong_chopra_1985]: https://doi.org/10.4050/jahs.30.57
 [research_hong_chopra_1986]: https://doi.org/10.4050/jahs.31.4.29
 [research_hong_jung_2024]: https://doi.org/10.5139/jksas.2024.52.12.1019
 [research_hoogterp_1978]: https://doi.org/10.21236/ada063589
+[research_hooi_2016]: https://doi.org/10.4050/jahs.61.042004
 [research_hopke_slattery_1970]: https://doi.org/10.1002/aic.690160228
 [research_hopkins_1977]: https://doi.org/10.2514/3.58766
 [research_hopkins_1980]: https://doi.org/10.21236/ada085484
+[research_hopwood_2023]: https://doi.org/10.2514/1.g007016
 [research_horikawa_1970]: https://doi.org/10.5100/jje.6.157
 [research_horowitz_1986]: https://doi.org/10.21236/ada169594
 [research_horowitz_2014]: https://doi.org/10.21236/ada608340
@@ -3531,16 +4680,33 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_horvay_1947]: https://doi.org/10.1090/qam/22002
 [research_horvay_yuan_1947]: https://doi.org/10.2514/8.1459
 [research_hosseini_2022]: https://doi.org/10.3390/wind2040036
+[research_hou_2020]: https://doi.org/10.1016/j.ast.2020.105716
+[research_hou_2022_2]: https://doi.org/10.1007/s12217-022-09972-1
+[research_hou_2023]: https://doi.org/10.1016/j.oceaneng.2023.115488
 [research_houston_thomson_2017]: https://doi.org/10.1016/j.paerosci.2016.11.001
 [research_howard_1999]: https://ntrs.nasa.gov/citations/19990064157
 [research_howland_1979]: https://doi.org/10.21236/ada072444
 [research_hrebien_hendler_1983]: https://doi.org/10.21236/ada138520
+[research_hryshchenko_2021]: https://doi.org/10.2478/ecce-2021-0008
 [research_hsieh_1979]: https://doi.org/10.21236/ada077345
 [research_hsieh_davis_1974]: https://doi.org/10.21236/ad0782841
 [research_hsin_1974]: https://doi.org/10.2514/3.60342
+[research_hu_2017]: https://doi.org/10.1002/asjc.1693
+[research_hu_2022]: https://doi.org/10.1109/tmag.2021.3083664
 [research_hu_2026]: https://doi.org/10.1016/j.engstruct.2026.122695
+[research_hu_2026_2]: https://doi.org/10.3390/drones10010046
+[research_hu_2027]: https://doi.org/10.1016/j.ress.2026.113153
 [research_hua_2015]: https://doi.org/10.1515/tjj-2014-0038
+[research_huang_2017]: https://doi.org/10.1007/s12555-015-0478-0
+[research_huang_2018]: https://doi.org/10.1049/iet-cta.2017.0998
+[research_huang_2020_2]: https://doi.org/10.22488/okstate.20.100206
+[research_huang_2020_3]: https://doi.org/10.1002/asjc.2326
+[research_huang_2022_2]: https://doi.org/10.1007/s42405-021-00439-y
+[research_huang_2023]: https://doi.org/10.3390/app13085058
+[research_huang_2024_2]: https://doi.org/10.1007/s42835-024-01784-0
 [research_huang_2026]: https://doi.org/10.1007/s13272-026-00973-z
+[research_huang_2026_3]: https://doi.org/10.1007/s42401-026-00492-z
+[research_huang_ding_2025]: https://doi.org/10.1016/j.precisioneng.2025.01.014
 [research_hubbard_harris_1982]: https://ntrs.nasa.gov/citations/19820057020
 [research_hubbard_leighton_1984]: https://doi.org/10.2514/3.44971
 [research_huber_1976]: https://doi.org/10.21236/ada031202
@@ -3553,24 +4719,38 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_hughes_wernicke_1974]: https://doi.org/10.21236/ad0783393
 [research_hujsak_1979]: https://doi.org/10.21236/ada081263
 [research_hulse_1957]: https://doi.org/10.1038/1791096a0
+[research_hung_2024]: https://doi.org/10.35534/dav.2024.10005
 [research_hunt_1967]: https://doi.org/10.1017/s0001924000053781
 [research_hunt_1978]: https://doi.org/10.1017/s0001925900008416
 [research_hunter_green_1971]: https://doi.org/10.1177/002029407100401003
 [research_hunton_1949]: https://ntrs.nasa.gov/citations/20090026347
+[research_huo_2015]: https://doi.org/10.4050/jahs.60.042004
 [research_hurley_2019]: https://doi.org/10.1115/1.4043326
+[research_husemann_2023]: https://doi.org/10.1016/j.jairtraman.2023.102372
 [research_hussien_2025]: https://doi.org/10.4050/jahs.70.022003
 [research_hutto_1976]: https://doi.org/10.4050/jahs.21.1.32
 [research_hwang_2003]: https://doi.org/10.21236/ada428448
 [research_hwang_2015]: https://doi.org/10.2514/1.c032828
+[research_hwang_kwon_2015]: https://doi.org/10.5139/ijass.2015.16.2.295
+[research_hwang_kwon_2019]: https://doi.org/10.1016/j.ast.2018.10.023
+[research_hye_2015]: https://doi.org/10.1016/j.aap.2014.10.016
+[research_iannelli_2017]: https://doi.org/10.2514/1.c033648
+[research_ibrahim_2023]: https://doi.org/10.1088/1742-6596/2616/1/012006
 [research_ichikawa_1967]: https://doi.org/10.2514/3.43822
+[research_ichter_2015]: https://doi.org/10.1002/we.1855
 [research_idzubuchi_kito_1941]: https://doi.org/10.2534/jjasnaoe1903.1940.213
 [research_ignatkin_2018]: https://doi.org/10.3103/s1068799818030121
 [research_ignatkin_2019]: https://doi.org/10.3103/s1068799819020107
+[research_ignatkin_2020]: https://doi.org/10.3846/aviation.2020.12714
 [research_ignatyev_2020]: https://doi.org/10.1016/j.ast.2020.105914
+[research_ikeda_2015]: https://doi.org/10.2514/1.j053664
+[research_ilango_r_2020]: https://doi.org/10.1016/j.procs.2020.04.155
 [research_iliev_2025]: https://doi.org/10.3390/wind5040025
+[research_immersion_and_2026]: https://doi.org/10.66967/jaics.2026.v2i104
 [research_impact_tests_1975]: https://doi.org/10.1016/0010-4361(75)90358-4
 [research_improved_blade_2023]: https://doi.org/10.23977/jemm.2023.080303
 [research_improvements_in_1933]: https://doi.org/10.1038/132776c0
+[research_indriawati_2022]: https://doi.org/10.15866/ireaco.v15i3.20190
 [research_innovated_inertia_2020]: https://doi.org/10.17775/cseejpes.2020.03180
 [research_intano_howse_1991]: https://doi.org/10.21236/ada243594
 [research_investigation_of_2025]: https://doi.org/10.3901/jme.2025.14.273
@@ -3581,38 +4761,54 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_isaac_moradi]: https://ntrs.nasa.gov/citations/20230007704
 [research_iseler_1995]: https://ntrs.nasa.gov/citations/20020032306
 [research_ishaque_2025]: https://doi.org/10.2514/1.c038543
+[research_ishiguro_2023]: https://doi.org/10.3389/frobt.2023.1255666
 [research_ishii_zuber_1979]: https://doi.org/10.1002/aic.690250513
+[research_ishikawa_2017]: https://doi.org/10.5779/hypothesis.v14i1.455
 [research_ishiko_uno_2018]: https://doi.org/10.1299/jsmefed.2018.gs7-5
+[research_ishola_2024]: https://doi.org/10.3390/robotics13120179
 [research_iskierka_1992]: https://doi.org/10.1016/0168-874x(92)90024-7
+[research_islam_mehedi_2021]: https://doi.org/10.1155/2021/9902390
+[research_ismaiel_2022]: https://doi.org/10.54623/fue.fej.3.1.4
 [research_isogai_1987]: https://doi.org/10.3131/jvsj.30.799
 [research_isogaya_2019]: https://doi.org/10.1299/jsmermd.2019.1p2-n09
 [research_ison_2024]: https://doi.org/10.22488/okstate.24.100223
 [research_ito_2015]: https://doi.org/10.1299/jsmeapbio.2015.8.211
 [research_itt_systems_rome_ny_1987]: https://doi.org/10.21236/ada396019
+[research_ivanov_2024]: https://doi.org/10.18127/j20700784-202405-04
 [research_ivanovic_orsag_2022]: https://doi.org/10.1109/access.2022.3164434
 [research_iversen_1979]: https://doi.org/10.1017/s0022112079000641
 [research_izumi_1989]: https://ntrs.nasa.gov/citations/19890016640
 [research_j_martin_barbadillo_1936]: https://doi.org/10.2307/40075574
 [research_jabboury_darwish_1990]: https://doi.org/10.1016/0890-4332(90)90006-6
 [research_jack_2014]: https://ntrs.nasa.gov/citations/20140011502
+[research_jackson_burgess_2018]: https://doi.org/10.1177/2516598418765352
+[research_jacobellis_2021]: https://doi.org/10.1016/j.ast.2021.106847
 [research_jacobs_2018]: https://doi.org/10.1080/14763141.2018.1535617
 [research_jacobson_1952]: https://doi.org/10.21236/ad0029208
+[research_jacobson_smith_2018]: https://doi.org/10.2514/1.c034112
 [research_jaffe_1953]: https://doi.org/10.1109/irepg-i.1953.5007329
+[research_jager_2021]: https://doi.org/10.1515/noise-2021-0007
 [research_jailer_1960]: https://doi.org/10.21236/ad0246490
+[research_jain_2016_2]: https://doi.org/10.4050/jahs.61.042005
+[research_jamali_sehat_2020]: https://doi.org/10.1063/5.0010665
 [research_james_h_stephenson]: https://ntrs.nasa.gov/citations/20250001958
 [research_james_l_hassell_robert_h_kirby_1966]: https://ntrs.nasa.gov/citations/19660015321
 [research_jameson_2001]: https://doi.org/10.21236/ada407255
+[research_jammeh_2025]: https://doi.org/10.13031/ja.16364
 [research_jana_2021]: https://doi.org/10.18520/cs/v120/i1/147-151
 [research_janardhan_grandhi_2003]: https://doi.org/10.21236/ada417106
 [research_janetzke_kaza_1981]: https://ntrs.nasa.gov/citations/19820015831
 [research_janetzke_kaza_1983]: https://ntrs.nasa.gov/citations/19830059548
 [research_jang_chopra_1987]: https://ntrs.nasa.gov/citations/19870046485
+[research_jang_yang_2018]: https://doi.org/10.3390/app8101868
 [research_janse_van_rensburg_2018]: https://doi.org/10.1016/j.measurement.2018.03.009
 [research_jarvinen_1973]: https://doi.org/10.2514/3.44352
 [research_jarvineva_1951]: https://doi.org/10.1108/eb032009
 [research_jason_cornelius_sven_schmitz]: https://ntrs.nasa.gov/citations/20240000677
+[research_jaspers_2024]: https://doi.org/10.1186/s12909-024-05753-z
 [research_jayakumar_2026]: https://doi.org/10.1109/access.2026.3680339
 [research_jayaraman_1988]: https://ntrs.nasa.gov/citations/19890027865
+[research_jebelli_2024]: https://doi.org/10.2316/j.2024.206-0940
 [research_jeffrey_j_berton_2022]: https://ntrs.nasa.gov/citations/20220015470
 [research_jenkins_2008]: https://doi.org/10.21236/ada478613
 [research_jenkins_marks_1975]: https://doi.org/10.21236/ada008965
@@ -3625,17 +4821,30 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_jessie_2014]: https://ntrs.nasa.gov/citations/20150005303
 [research_jessie_2015]: https://ntrs.nasa.gov/citations/20160005374
 [research_ji_2022]: https://doi.org/10.3390/math10122093
+[research_jia_2025]: https://doi.org/10.70251/hyjr2348.36283289
+[research_jia_2026]: https://doi.org/10.1142/s2301385027410020
 [research_jia_lee_2020]: https://doi.org/10.2514/1.j058295
+[research_jia_li_2025]: https://doi.org/10.1061/jaeeez.aseng-6131
+[research_jiang_2015]: https://doi.org/10.3390/aerospace2040555
+[research_jiang_ge_2024]: https://doi.org/10.1088/1742-6596/2764/1/012011
 [research_jiang_yin_2023]: https://doi.org/10.3390/rs15184514
+[research_jiang_zhang_2016]: https://doi.org/10.3390/aerospace3040030
 [research_jiang_zhang_2018]: https://doi.org/10.4050/jahs.63.042005-1
 [research_jianping_1995]: https://doi.org/10.21236/ada300160
+[research_jiao_zheng_2025]: https://doi.org/10.3390/s25061911
+[research_jimenez_garcia_barakos_2018]: https://doi.org/10.2514/1.c034144
+[research_jin_2016]: https://doi.org/10.1016/j.euromechflu.2016.07.008
 [research_jin_2022]: https://doi.org/10.1080/00405000.2022.2114282
 [research_jin_2024]: https://doi.org/10.54097/xv395z51
 [research_jin_2026]: https://doi.org/10.1016/j.ast.2026.113411
 [research_jines_1980]: https://doi.org/10.21236/ada087275
+[research_jo_2017]: https://doi.org/10.6108/kspe.2017.21.6.083
+[research_jo_2022]: https://doi.org/10.1002/admt.202200437
+[research_jo_2025]: https://doi.org/10.1016/j.snr.2025.100393
 [research_johansen_1987]: https://doi.org/10.21236/ada202155
 [research_johari_desabrais_2002]: https://doi.org/10.21236/ada411095
 [research_john_b_wheatley_1934]: https://ntrs.nasa.gov/citations/19930091596
+[research_johnsen_2022]: https://doi.org/10.3390/app12167961
 [research_johnson_1972]: https://ntrs.nasa.gov/citations/19730005279
 [research_johnson_1972_2]: https://doi.org/10.21236/ad0754909
 [research_johnson_1972_3]: https://doi.org/10.21236/ad0771914
@@ -3658,7 +4867,10 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_johnson_2007]: https://ntrs.nasa.gov/citations/20080047713
 [research_johnson_2012]: https://ntrs.nasa.gov/citations/20120011711
 [research_johnson_anderson_1966]: https://doi.org/10.21236/ada951585
+[research_johnson_boling_2015]: https://doi.org/10.4050/jahs.60.042003
 [research_johnson_chopra_1979]: https://doi.org/10.2514/3.58494
+[research_johnson_groh_2024]: https://doi.org/10.1063/10.0028512
+[research_johnson_sirohi_2024]: https://doi.org/10.2514/1.c037555
 [research_johnson_sleeman_1963]: https://ntrs.nasa.gov/citations/19630021500
 [research_johnston_1968]: https://doi.org/10.2307/4083618
 [research_johnston_cassarino_1976]: https://doi.org/10.21236/ada020871
@@ -3683,21 +4895,32 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_judge_1980]: https://doi.org/10.21236/ada091799
 [research_julian_l_jenkins_1966]: https://ntrs.nasa.gov/citations/19660015319
 [research_jun_2026]: https://doi.org/10.4050/jahs.71.012008
+[research_jun_2026_2]: https://doi.org/10.4050/jahs.71.032009
+[research_jun_wenlong_2016]: https://doi.org/10.14257/ijca.2016.9.12.23
 [research_jung_2012]: https://ntrs.nasa.gov/citations/20120016449
+[research_jung_2025]: https://doi.org/10.2514/1.c038132
 [research_jung_oh_2022]: https://doi.org/10.7717/peerj-cs.1119
 [research_jung_rezgui_2023]: https://doi.org/10.3390/aerospace10050414
 [research_justin_littell_jacob_putnam]: https://ntrs.nasa.gov/citations/20230006558
+[research_k_senthil_kumar_j_shanmugam_2023]: https://doi.org/10.61653/joast.v60i4.2008.798
+[research_kacem_2022]: https://doi.org/10.1016/j.shaw.2021.12.1063
+[research_kalateh_koosheh_2020]: https://doi.org/10.1016/j.matcom.2020.01.019
 [research_kallergis_1987]: https://doi.org/10.3397/1.2827688
 [research_kalra_2024]: https://doi.org/10.4050/jahs.69.012002
 [research_kaman_aircraft_corp_bloomfield_ct_1964]: https://doi.org/10.21236/ad0602018
 [research_kamimura_2013]: https://doi.org/10.21236/ada580868
+[research_kaminski_2022]: https://doi.org/10.1002/we.2794
 [research_kamoulakos_1982]: https://ntrs.nasa.gov/citations/19830013237
+[research_kamruzzaman_2021]: https://doi.org/10.51983/ajeat-2021.10.2.2953
+[research_kanahara_2022]: https://doi.org/10.2139/ssrn.4158440
+[research_kandyba_2021]: https://doi.org/10.36074/2663-4139.17.01
 [research_kane_william_d_1988]: https://doi.org/10.21236/ada198583
+[research_kaneko_martins_2024]: https://doi.org/10.1016/j.ast.2024.109617
 [research_kang_2025]: https://doi.org/10.2514/1.g008466
-[research_kantibhai_gohel_2022]: https://doi.org/10.21275/sr220110100905
 [research_kao_2020]: https://doi.org/10.12720/sgce.9.1.44-51
 [research_karamalian_2025]: https://doi.org/10.1049/elp2.70031
 [research_karlgaard_2016]: https://ntrs.nasa.gov/citations/20160007703
+[research_karpinski_2026]: https://doi.org/10.1016/j.ast.2025.111526
 [research_karthikeyan_gokul_karthik_2018]: https://doi.org/10.70729/ijser18312
 [research_kaspar_grim_2025]: https://doi.org/10.1108/aeat-12-2024-0370
 [research_kato_1981]: https://doi.org/10.2514/3.44715
@@ -3710,15 +4933,18 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_kawakami_2017]: https://doi.org/10.1299/jsmeshd.2017.b-23
 [research_kaza_2025]: https://doi.org/10.69980/redvet.v26i1.2079
 [research_kazan_1963]: https://doi.org/10.1111/j.1749-6632.1963.tb13284.x
+[research_kc_2021]: https://doi.org/10.1016/j.renene.2021.01.049
 [research_keckler_1983]: https://ntrs.nasa.gov/citations/19840004161
+[research_kedarisetty_2023]: https://doi.org/10.2316/j.2023.201-0248
 [research_kee_1959]: https://doi.org/10.4050/jahs.4.4.29
-[research_keesing_1968]: https://doi.org/10.1086/200930
 [research_keith_selberg_1985]: https://doi.org/10.2514/3.45138
 [research_kel_zon_yakovlev_1971]: https://doi.org/10.1007/bf01033247
 [research_keler_2017]: https://doi.org/10.1002/pamm.201710038
+[research_keller_2026]: https://doi.org/10.4050/jahs.71.032010
 [research_kelley_1978]: https://ntrs.nasa.gov/citations/19780012196
 [research_kelley_1987]: https://ntrs.nasa.gov/citations/19870015871
 [research_kelly_1967]: https://doi.org/10.21236/ad0657853
+[research_kelly_2025]: https://doi.org/10.5194/wes-10-535-2025
 [research_kemp_1945]: https://ntrs.nasa.gov/citations/20100027413
 [research_kennedy_1999]: https://doi.org/10.21236/ada377912
 [research_kenner_1972]: https://doi.org/10.2514/3.58950
@@ -3727,25 +4953,47 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_kerwin_leopold_1963]: https://doi.org/10.5957/jsr.1963.7.4.1
 [research_kesselring_1969]: https://doi.org/10.4050/jahs.14.25
 [research_kettle_1958]: https://doi.org/10.1108/eb032913
+[research_kevin_li_lee_2021]: https://doi.org/10.4050/jahs.66.032004
 [research_key_aiken_1984]: https://ntrs.nasa.gov/citations/19850008505
 [research_keyser_1948]: https://doi.org/10.1109/ee.1948.6444490
+[research_khaled_aly_2022]: https://doi.org/10.1186/s42774-022-00114-0
+[research_khalesi_2019]: https://doi.org/10.1007/s40997-019-00288-x
+[research_khanjari_2016]: https://doi.org/10.1115/1.4034640
+[research_khanjari_2018]: https://doi.org/10.1504/ijex.2018.096002
+[research_khoshnood_2025]: https://doi.org/10.1007/s44245-025-00146-y
 [research_khudaiberdiev_1984]: https://doi.org/10.1007/bf01530013
+[research_khuntia_manivannan_2025]: https://doi.org/10.1007/s42979-025-04019-9
+[research_khurramov_bobomurodov_2021]: https://doi.org/10.5958/2249-7137.2021.02031.0
 [research_kicinski_topczewski_2025]: https://doi.org/10.1108/aeat-11-2024-0338
 [research_kidd_bull_1963]: https://doi.org/10.21236/ad0400265
 [research_kidwell_foster_1966]: https://doi.org/10.21236/ad0811482
 [research_kiefer_2016]: https://doi.org/10.1115/1.4032286
 [research_kiehl_1960]: https://doi.org/10.21236/ad0246659
+[research_kikumoto_2026]: https://doi.org/10.3390/aerospace13040316
+[research_kilic_unal_2021]: https://doi.org/10.1108/aeat-01-2021-0018
 [research_kim_2004]: https://doi.org/10.21236/ada423149
 [research_kim_2016]: https://doi.org/10.12985/ksaa.2016.24.1.055
+[research_kim_2016_2]: https://doi.org/10.1088/1748-3190/11/2/026004
 [research_kim_2017]: https://doi.org/10.14257/ijca.2017.10.3.20
+[research_kim_2017_2]: https://doi.org/10.18555/kicpd.2017.51.6
+[research_kim_2018]: https://doi.org/10.1080/03081060.2018.1435437
 [research_kim_2023]: https://doi.org/10.1115/1.4062317
 [research_kim_2025]: https://doi.org/10.3390/atmos16010093
+[research_kim_2025_2]: https://doi.org/10.1007/s42405-025-00888-9
 [research_kim_2026]: https://doi.org/10.1002/asjc.70154
+[research_kim_kim_2020]: https://doi.org/10.12985/ksaa.2020.28.1.075
+[research_kim_kirollos_2026]: https://doi.org/10.3389/fphys.2026.1763485
+[research_kim_moon_2026]: https://doi.org/10.2514/1.i011666
 [research_kim_park_2016]: https://doi.org/10.5103/kjsb.2016.26.4.433
+[research_kim_song_2015]: https://doi.org/10.12985/ksaa.2015.23.1.008
+[research_kim_zhang_2025]: https://doi.org/10.1016/j.urbmob.2025.100162
+[research_kingan_2023]: https://doi.org/10.3397/in_2023_0327
 [research_kirchner_2020]: https://doi.org/10.1016/j.ifacol.2020.12.2381
 [research_kirk_gunter_1976]: https://doi.org/10.1115/1.3452771
+[research_kirste_stumpf_2025]: https://doi.org/10.1016/j.jatrs.2025.100082
 [research_kiselev_2025]: https://doi.org/10.14489/hb.2025.03.pp.036-045
 [research_kisielowski_1967]: https://doi.org/10.21236/ad0648874
+[research_kistyarev_wang_2025]: https://doi.org/10.1007/s42496-025-00249-5
 [research_kitaplioglu_1986]: https://ntrs.nasa.gov/citations/19860037961
 [research_kitaplioglu_2000]: https://ntrs.nasa.gov/citations/20100023447
 [research_kitaplioglu_shinoda_1985]: https://ntrs.nasa.gov/citations/19860009843
@@ -3757,8 +5005,11 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_klemin_ruffner_1931]: https://doi.org/10.1108/eb029482
 [research_klimas_1977]: https://doi.org/10.2514/3.58823
 [research_klimas_1979]: https://doi.org/10.2514/3.44642
+[research_knabl_2015]: https://doi.org/10.1016/j.promfg.2015.07.558
 [research_knacke_1985]: https://doi.org/10.21236/ada157839
 [research_knapik_2011]: https://doi.org/10.21236/ada571307
+[research_knapik_2019]: https://doi.org/10.55460/z8wl-vms6
+[research_knapik_2019_2]: https://doi.org/10.55460/f7wx-vug8
 [research_knapp_1971]: https://doi.org/10.21236/ad0726949
 [research_knapp_barton_1968]: https://doi.org/10.2514/3.43917
 [research_knapp_heffner_2011]: https://doi.org/10.21236/ada552618
@@ -3774,40 +5025,72 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_kocjan_rogolski_2024]: https://doi.org/10.1108/aeat-03-2024-0084
 [research_koh_hu_2021]: https://doi.org/10.1504/ijvs.2021.121453
 [research_kohlman_brainerd_1974]: https://ntrs.nasa.gov/citations/19740057117
+[research_kojima_2017]: https://doi.org/10.1299/jsmemm.2017.os0412
 [research_kolwey_1999]: https://doi.org/10.21236/ada375758
 [research_komerath_2015]: https://doi.org/10.21236/ad1006776
 [research_kominek_shamansky_2001]: https://doi.org/10.21236/ada397118
 [research_konar_1974]: https://doi.org/10.21236/ada002320
 [research_kondepudi_o_neal_1988]: https://doi.org/10.1016/0890-4332(88)90036-1
 [research_konicke_garrard_1982]: https://doi.org/10.2514/3.57434
+[research_koning_2019]: https://ntrs.nasa.gov/citations/20190030870
+[research_koning_2019_2]: https://ntrs.nasa.gov/citations/20190031929
+[research_koning_2019_3]: https://doi.org/10.2514/1.j058045
+[research_koning_2020]: https://ntrs.nasa.gov/citations/20200000324
 [research_konow_roberts_2024]: https://doi.org/10.1016/j.jbiomech.2024.112022
+[research_konstantinov_2026]: https://doi.org/10.26467/2079-0619-2026-29-2-106-120
 [research_koo_2020]: https://doi.org/10.3795/ksme-b.2020.44.1.013
+[research_kopyt_stephens_2026]: https://doi.org/10.61089/aot2026.z4fb7v39
 [research_korkan_1984]: https://ntrs.nasa.gov/citations/19840041408
+[research_kosasih_saleh_hudin_2016]: https://doi.org/10.1016/j.renene.2015.10.013
 [research_kosiyuk_kosiyuk_2020]: https://doi.org/10.31891/2307-5732-2020-285-3-19
 [research_kotelnikova_2017]: https://doi.org/10.17816/snv201761108
 [research_kotik_1966]: https://doi.org/10.21236/ad0647085
 [research_kottapalli_2012]: https://ntrs.nasa.gov/citations/20120010553
 [research_kotwicz_herniczek_2019]: https://doi.org/10.1139/juvs-2017-0005
+[research_kovalovs_2017]: https://doi.org/10.1007/s11029-017-9652-1
+[research_kovtun_2020]: https://doi.org/10.14498/tech.2020.3.3
 [research_kowaleczko_2018]: https://doi.org/10.2478/jok-2018-0069
 [research_kowaleczko_2025]: https://doi.org/10.61089/aot2025.a4bewn26
 [research_koyama_2019]: https://doi.org/10.1299/jsmeshd.2019.b-2
 [research_kozapalli_warmbrodt_1997]: https://ntrs.nasa.gov/citations/20020062770
 [research_kozina_1976]: https://doi.org/10.21236/ada029467
+[research_kramer_2023]: https://doi.org/10.1016/j.tcr.2023.100906
+[research_krampe_junge_2019]: https://doi.org/10.1080/15389588.2019.1579319
 [research_krause_1980]: https://doi.org/10.21236/ada085870
+[research_krawczyk_2019]: https://doi.org/10.1108/aeat-06-2018-0161
 [research_kreiser_2006]: https://doi.org/10.21236/ada448588
 [research_kriebel_1973]: https://doi.org/10.21236/ad0764613
+[research_krikunov_2020]: https://doi.org/10.18287/2541-7533-2020-19-1-41-50
+[research_krishnamurthi_gandhi_2017]: https://doi.org/10.4050/jahs.63.012007
 [research_krishnan_2022]: https://doi.org/10.1088/1742-6596/2265/3/032057
 [research_kristof_2011]: https://doi.org/10.21236/ad1019070
 [research_kron_1975]: https://doi.org/10.21236/ada017468
 [research_kron_1975_2]: https://doi.org/10.21236/ada017467
+[research_kropiventseva_sedova_2019]: https://doi.org/10.25198/2077-7175-2019-8-98
 [research_krueger_minzner_1976]: https://ntrs.nasa.gov/citations/19760059918
+[research_kruesi_2021]: https://doi.org/10.1088/2058-7058/34/06/14
 [research_krupka_kezios_1964]: https://doi.org/10.1115/1.3629656
+[research_kuang_2026]: https://doi.org/10.2514/1.g009728
+[research_kuban_teichmann_2025]: https://doi.org/10.1016/j.trpro.2025.04.104
 [research_kuchinka_1966]: https://doi.org/10.2514/3.43727
 [research_kulak_2024]: https://doi.org/10.1016/j.egyr.2024.10.036
+[research_kulkarni_2021]: https://doi.org/10.21275/sr21601120824
 [research_kumai_1972]: https://doi.org/10.5109/7172230
+[research_kumar_2016]: https://doi.org/10.1007/s11668-016-0165-3
+[research_kumar_2022_2]: https://doi.org/10.4273/ijvss.14.5.18
+[research_kumar_2026]: https://doi.org/10.1007/s41872-026-00422-0
+[research_kumar_gupta_2018]: https://doi.org/10.14419/ijet.v7i4.25.22240
+[research_kumar_venkatesan_2016]: https://doi.org/10.1017/aer.2015.11
 [research_kumari_raghunath_2016]: https://doi.org/10.18535/ijecs/v5i6.05
+[research_kuprikov_2021]: https://doi.org/10.13111/2066-8201.2021.13.s.11
+[research_kurtulus_2019]: https://doi.org/10.1177/1756829319890609
+[research_kusumoaji_2024]: https://doi.org/10.19184/jid.v25i2.43794
+[research_kusumoto_2022]: https://doi.org/10.2514/1.a35043
+[research_kutsenko_2018]: https://doi.org/10.3846/aviation.2018.7082
 [research_kutty_2015]: https://ntrs.nasa.gov/citations/20150006855
 [research_kvaternik_kohn_1977]: https://ntrs.nasa.gov/citations/19780004096
+[research_kwak_2026]: https://doi.org/10.71429/kmcr.2026.26.01.11
+[research_kwak_sung_2018]: https://doi.org/10.1109/access.2018.2854712
 [research_kwan_2003]: https://doi.org/10.21236/ada412405
 [research_l_2021]: https://doi.org/10.54026/esecr/1036
 [research_laananen_1978]: https://doi.org/10.2514/3.58408
@@ -3827,6 +5110,8 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_landgrebe_egolf_1976]: https://doi.org/10.21236/ada021202
 [research_landgrebe_johnson_1974]: https://doi.org/10.4050/jahs.19.39
 [research_landsberg_1961]: https://doi.org/10.1038/189654a0
+[research_lange_2024]: https://doi.org/10.1139/dsa-2024-0013
+[research_langer_yang_2018]: https://doi.org/10.1016/j.matcom.2016.07.008
 [research_langston_1967]: https://doi.org/10.21236/ad0813281
 [research_larina_1985]: https://doi.org/10.1007/bf01091056
 [research_larry_a_young_2023]: https://ntrs.nasa.gov/citations/20220017246
@@ -3844,22 +5129,33 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_lawrence_2014]: https://ntrs.nasa.gov/citations/20140013447
 [research_lax_1975]: https://ntrs.nasa.gov/citations/19760008970
 [research_le_2025]: https://doi.org/10.1007/s44189-025-00078-y
+[research_le_2025_2]: https://doi.org/10.18196/jrc.v6i4.27251
+[research_leavitt_vincent_2016]: https://doi.org/10.1249/jsr.0000000000000254
 [research_lecar_1964]: https://ntrs.nasa.gov/citations/19650011991
 [research_ledoux_2021]: https://doi.org/10.1137/20m133542x
 [research_lee_1973]: https://doi.org/10.21236/ad0761621
 [research_lee_1985]: https://ntrs.nasa.gov/citations/19860020337
 [research_lee_1986]: https://ntrs.nasa.gov/citations/19860062967
 [research_lee_1988]: https://ntrs.nasa.gov/citations/19880041024
+[research_lee_2015]: https://doi.org/10.2514/1.g000599
 [research_lee_2016]: https://doi.org/10.1016/j.jweia.2015.12.002
+[research_lee_2017]: https://doi.org/10.1016/j.apacoust.2016.11.003
 [research_lee_2018]: https://doi.org/10.5139/jksas.2018.46.6.452
 [research_lee_2019]: https://ntrs.nasa.gov/citations/20190031843
+[research_lee_2020]: https://doi.org/10.3390/app10155112
 [research_lee_2021]: https://doi.org/10.3390/app11188555
+[research_lee_2021_3]: https://doi.org/10.5139/jksas.2021.49.7.539
 [research_lee_2022]: https://doi.org/10.1186/s42774-022-00111-3
 [research_lee_2022_2]: https://doi.org/10.2514/1.c036214
 [research_lee_2023]: https://doi.org/10.4050/jahs.68.022010
 [research_lee_2023_2]: https://doi.org/10.1016/j.ast.2022.108051
+[research_lee_2025]: https://doi.org/10.3390/aerospace12121110
 [research_lee_aldredge_2015]: https://doi.org/10.1016/j.ast.2015.08.004
 [research_lee_dassonville_2020]: https://doi.org/10.4050/jahs.65.042005
+[research_lee_hongrui_srigrarom_2025]: https://doi.org/10.3390/aerospace12070606
+[research_lee_lee_2016]: https://doi.org/10.1007/s12206-016-0129-2
+[research_lee_park_2022]: https://doi.org/10.1016/j.apacoust.2021.108472
+[research_lee_park_2024]: https://doi.org/10.1016/j.prostr.2023.12.026
 [research_lee_rausch_biedron_2009]: https://ntrs.nasa.gov/citations/20090023144
 [research_lee_swegle_1963]: https://doi.org/10.21236/ad0408930
 [research_lee_white_1974]: https://ntrs.nasa.gov/citations/19740014520
@@ -3868,8 +5164,15 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_leggat_siddon_1978]: https://doi.org/10.1121/1.382065
 [research_leggatt_siddon_1976]: https://doi.org/10.1121/1.2002914
 [research_lehman_1968]: https://doi.org/10.21236/ad0671670
+[research_lehmann_tillich_2016]: https://doi.org/10.21314/jrmv.2016.159
+[research_lei_2020]: https://doi.org/10.3390/pr8111364
+[research_lei_2021]: https://doi.org/10.3390/aerospace8120378
+[research_lei_2023]: https://doi.org/10.3390/machines11040429
+[research_lei_2023_3]: https://doi.org/10.1007/s12206-023-0519-1
 [research_lei_cheng_2020]: https://doi.org/10.1177/0020294019901313
 [research_lei_liu_2019]: https://doi.org/10.1016/j.mechatronics.2019.06.008
+[research_lei_wang_2020]: https://doi.org/10.3390/app10041272
+[research_lei_ye_2020]: https://doi.org/10.1109/access.2020.3042797
 [research_leighton_1982]: https://doi.org/10.4050/jahs.27.3.11
 [research_leishman_1990]: https://doi.org/10.4050/jahs.35.29
 [research_leishman_2008]: https://doi.org/10.21236/ada498268
@@ -3877,12 +5180,14 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_leishman_2018]: https://doi.org/10.2514/1.c034806
 [research_leletty_1996]: https://ntrs.nasa.gov/citations/19960047693
 [research_lemnios_dunn_1976]: https://ntrs.nasa.gov/citations/19780025142
+[research_leng_2024]: https://doi.org/10.1016/j.oceaneng.2024.119403
 [research_leon_2021]: https://doi.org/10.4050/jahs.66.042003
 [research_leon_2021_2]: https://doi.org/10.1115/1.4051751
 [research_leonard_iii_2001]: https://doi.org/10.21236/ada430859
 [research_leonard_rose_1968]: https://doi.org/10.2514/3.4519
 [research_lepicovsky_bell_1984]: https://doi.org/10.2514/3.48257
 [research_lescarboura_swift_1968]: https://doi.org/10.1002/aic.690140419
+[research_leslie_2021]: https://doi.org/10.1016/j.eng.2021.09.003
 [research_lesoinne_2007]: https://doi.org/10.21236/ada481320
 [research_levenetz_1973]: https://doi.org/10.21236/ad0771973
 [research_leweke_2000]: https://doi.org/10.21236/ada390655
@@ -3892,26 +5197,43 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_lewis_sorenson_1987]: https://doi.org/10.21236/ada185922
 [research_leylek_costello_2015]: https://doi.org/10.2514/1.c033056
 [research_li_2015]: https://doi.org/10.21236/ada623612
+[research_li_2015_2]: https://doi.org/10.1002/rob.21574
+[research_li_2019]: https://doi.org/10.32604/cmes.2019.06635
 [research_li_2020]: https://doi.org/10.1016/j.egyr.2020.11.062
+[research_li_2021_2]: https://doi.org/10.1088/1742-6596/2143/1/012011
+[research_li_2022]: https://doi.org/10.3390/drones6030078
 [research_li_2023]: https://doi.org/10.54254/2755-2721/10/20230134
 [research_li_2023_2]: https://doi.org/10.1109/access.2023.3243251
 [research_li_2023_3]: https://doi.org/10.1515/tjj-2023-0011
+[research_li_2023_5]: https://doi.org/10.1016/j.ress.2023.109373
+[research_li_2023_6]: https://doi.org/10.3390/aerospace10010051
+[research_li_2023_7]: https://doi.org/10.3390/s23146413
 [research_li_2024]: https://doi.org/10.3390/biomimetics9030183
 [research_li_2024_3]: https://doi.org/10.3390/s24113334
 [research_li_2025]: https://doi.org/10.3390/drones9050323
 [research_li_2025_2]: https://doi.org/10.3390/pr13093015
 [research_li_2026]: https://doi.org/10.1063/5.0314284
 [research_li_2026_2]: https://doi.org/10.1016/j.conengprac.2025.106674
+[research_li_guo_2018]: https://doi.org/10.1098/rsos.171307
+[research_li_lee_2020]: https://doi.org/10.4050/jahs.65.042006
+[research_li_lee_2024]: https://doi.org/10.4050/jahs.69.032005
 [research_li_mosleh_2020]: https://doi.org/10.1016/j.ress.2017.05.020
 [research_li_nan_2023]: https://doi.org/10.3390/app13148115
+[research_li_yang_2024]: https://doi.org/10.1017/jfm.2023.1097
 [research_li_yu_2026]: https://doi.org/10.1063/5.0321221
+[research_li_zhang_2026]: https://doi.org/10.1016/j.trc.2026.105858
+[research_li_zuo_2021]: https://doi.org/10.1088/1742-6596/1875/1/012007
 [research_liang_2024]: https://doi.org/10.1002/acs.3906
+[research_liang_2024_2]: https://doi.org/10.3390/s24196232
 [research_liang_2025]: https://doi.org/10.1109/tte.2024.3427841
 [research_liang_2026]: https://doi.org/10.1016/j.ress.2026.112878
+[research_liao_2025]: https://doi.org/10.1016/j.conengprac.2025.106497
+[research_liao_2026_2]: https://doi.org/10.1371/journal.pone.0344989
 [research_libbert_1991]: https://doi.org/10.21236/ada238014
 [research_libbey_1964]: https://ntrs.nasa.gov/citations/19650025663
 [research_liebeck_1971]: https://doi.org/10.21236/ad0737126
 [research_liem_2023]: https://doi.org/10.1016/j.ifacsc.2023.100228
+[research_lien_2020]: https://doi.org/10.3390/app10103503
 [research_lieske_kochenderfer_1966]: https://doi.org/10.21236/ad0809790
 [research_ligai_2017]: https://doi.org/10.3103/s1068799817040079
 [research_light_1993]: https://doi.org/10.4050/jahs.38.34
@@ -3919,8 +5241,11 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_ligtenberg_1962]: https://doi.org/10.3233/isp-1962-99504
 [research_liiva_1969]: https://doi.org/10.2514/3.44000
 [research_lim_2014]: https://ntrs.nasa.gov/citations/20150000567
+[research_lim_2015]: https://doi.org/10.1017/s0001924000011386
 [research_lim_2016]: https://doi.org/10.4050/jahs.61.012005
+[research_lim_2016_2]: https://doi.org/10.1017/aer.2016.77
 [research_lim_2017]: https://doi.org/10.5139/ijass.2017.18.4.641
+[research_lim_2017_2]: https://doi.org/10.14257/ijsip.2017.10.7.02
 [research_lim_chopra_1989]: https://doi.org/10.4050/jahs.34.1.52
 [research_lin_1979]: https://doi.org/10.2514/3.61175
 [research_lin_2019]: https://doi.org/10.3390/s19153410
@@ -3928,7 +5253,9 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_ling_1970]: https://doi.org/10.2514/3.44119
 [research_lintern_1979]: https://doi.org/10.1177/107118137902300178
 [research_lintern_1980]: https://doi.org/10.1177/001872088002200109
+[research_linton_2021]: https://doi.org/10.2514/1.j059952
 [research_liou_1989]: https://doi.org/10.2514/3.45766
+[research_lipian_2019]: https://doi.org/10.1016/j.energy.2019.115855
 [research_liquid_helium_1972]: https://doi.org/10.1038/240075a0
 [research_liston_1963]: https://doi.org/10.21236/ad0479781
 [research_liu_1959]: https://doi.org/10.1017/s0022112059000325
@@ -3940,32 +5267,49 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_liu_2017]: https://doi.org/10.1088/1873-7005/aa79d0
 [research_liu_2018_2]: https://doi.org/10.2478/pomr-2018-0093
 [research_liu_2019]: https://doi.org/10.1016/j.desal.2018.10.016
+[research_liu_2019_3]: https://doi.org/10.3390/s19214703
+[research_liu_2021]: https://doi.org/10.1049/icp.2021.2054
+[research_liu_2021_4]: https://doi.org/10.1016/j.energy.2021.121074
 [research_liu_2022]: https://doi.org/10.1049/icp.2022.1775
+[research_liu_2022_3]: https://doi.org/10.1080/10255842.2022.2124860
 [research_liu_2023]: https://doi.org/10.1049/icp.2023.1941
 [research_liu_2024]: https://doi.org/10.1080/23307706.2024.2349632
 [research_liu_2025]: https://doi.org/10.1063/5.0244050
 [research_liu_2025_2]: https://doi.org/10.3390/aerospace12040357
 [research_liu_2025_3]: https://doi.org/10.1016/j.measen.2024.101603
+[research_liu_2025_6]: https://doi.org/10.3390/acoustics8010001
 [research_liu_2026]: https://doi.org/10.1016/j.fmre.2025.04.002
 [research_liu_2026_2]: https://doi.org/10.1016/j.ast.2025.111181
+[research_liu_2026_4]: https://doi.org/10.1109/tte.2026.3688765
+[research_liu_dai_2018]: https://doi.org/10.1002/tal.1482
+[research_liu_hong_2021]: https://doi.org/10.1016/j.engfailanal.2021.105620
 [research_loewy_sutton_1966]: https://doi.org/10.1016/0022-460x(66)90131-3
 [research_logan_1976]: https://doi.org/10.21236/ada029372
 [research_logan_1978]: https://doi.org/10.21236/ada065298
 [research_logan_2017]: https://ntrs.nasa.gov/citations/20170007230
+[research_lohrer_frohlich_2025]: https://doi.org/10.1017/jfm.2025.407
 [research_lolli_2026]: https://doi.org/10.1088/1748-3190/ae4f46
+[research_lombardi_2026]: https://doi.org/10.1016/j.ssci.2026.107146
 [research_long_2021]: https://doi.org/10.3390/en14227460
+[research_long_2023]: https://doi.org/10.1016/j.istruc.2023.105454
+[research_long_2026_2]: https://doi.org/10.1108/ec-08-2025-0905
 [research_longobardi_1976]: https://doi.org/10.21236/ada027206
 [research_longobardi_1976_2]: https://doi.org/10.21236/ada027280
 [research_longobardi_fournier_1973]: https://doi.org/10.21236/ad0762198
 [research_loran_allen_haworth]: https://ntrs.nasa.gov/citations/20240002362
 [research_lorch_1981]: https://doi.org/10.21236/ada109808
+[research_lorenz_2021]: https://doi.org/10.2514/1.a34818
+[research_lou_2025]: https://doi.org/10.1016/j.ress.2024.110555
 [research_loureiro_2021]: https://doi.org/10.3390/rs13101930
+[research_lovas_2026]: https://doi.org/10.3390/drones10050395
 [research_lovell_lipson_1949]: https://ntrs.nasa.gov/citations/19930082607
 [research_low_garrard_1993]: https://doi.org/10.2514/3.11429
 [research_lu_2016]: https://doi.org/10.2514/1.g001608
+[research_lu_2019]: https://doi.org/10.1155/2019/5737212
 [research_lu_2023]: https://doi.org/10.3390/aerospace11010039
 [research_lu_2023_2]: https://doi.org/10.1016/j.ast.2022.108075
 [research_lu_2026]: https://doi.org/10.1016/j.measurement.2026.122812
+[research_luan_2026]: https://doi.org/10.1016/j.ast.2026.112482
 [research_lucey_jasper_1998]: https://doi.org/10.21236/ada351056
 [research_lucey_jr_2000]: https://doi.org/10.21236/ada372518
 [research_luchinsky_2017]: https://ntrs.nasa.gov/citations/20170010233
@@ -3976,21 +5320,40 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_ludtke_1973]: https://doi.org/10.21236/ad0768755
 [research_ludtke_1982]: https://doi.org/10.21236/ada115046
 [research_ludtke_1991]: https://doi.org/10.21236/ada244417
+[research_luebcke_2024]: https://doi.org/10.59297/jn2t4y03
+[research_luhur_2015]: https://doi.org/10.1115/1.4028963
+[research_lukianov_2022]: https://doi.org/10.31651/2076-5886-2022-1-4-18
 [research_lundberg_1937]: https://doi.org/10.1108/eb030250
 [research_lundberg_1938]: https://doi.org/10.1108/eb030261
+[research_lunsford_bradley_2025]: https://doi.org/10.2514/1.c037434
+[research_luo_2017]: https://doi.org/10.1016/j.apacoust.2016.09.029
 [research_luo_2019]: https://doi.org/10.3390/app9152976
+[research_luo_tang_2026]: https://doi.org/10.1016/j.ress.2026.112409
+[research_luo_zheng_2024]: https://doi.org/10.3390/pr13010052
 [research_lusk_2019]: https://doi.org/10.2514/1.i010706
 [research_lutz_2025]: https://doi.org/10.2514/1.c038004
 [research_lv_2019]: https://doi.org/10.2112/si98-027.1
+[research_lv_2019_2]: https://doi.org/10.1109/access.2019.2943496
 [research_lv_2020]: https://doi.org/10.1109/access.2020.2977535
+[research_lv_2023]: https://doi.org/10.1063/5.0124888
+[research_lv_2024]: https://doi.org/10.3390/s24051645
+[research_lv_2025]: https://doi.org/10.3390/aerospace12040300
 [research_lykken_shah_1972]: https://doi.org/10.2514/3.58988
 [research_lympany_page_2024]: https://doi.org/10.1121/10.0027133
 [research_lynn_1970]: https://doi.org/10.4050/jahs.15.4.2
 [research_lypaczewski_1987]: https://ntrs.nasa.gov/citations/19880059218
+[research_lyu_2023]: https://doi.org/10.3390/app13063518
+[research_lyu_yang_2025]: https://doi.org/10.1061/jaeeez.aseng-5501
+[research_m_2020]: https://doi.org/10.15406/emij.2020.08.00285
+[research_ma_2015]: https://doi.org/10.1007/s11071-015-2564-5
 [research_ma_2017]: https://doi.org/10.1016/j.ifacol.2017.08.1404
 [research_ma_2018]: https://doi.org/10.1080/0305215x.2018.1472774
 [research_ma_2020]: https://doi.org/10.2514/1.c035581
+[research_ma_2021]: https://doi.org/10.1016/j.cja.2020.09.055
+[research_ma_2022]: https://doi.org/10.2514/1.c036559
+[research_ma_2022_2]: https://doi.org/10.3390/aerospace9110690
 [research_ma_2025]: https://doi.org/10.3390/aerospace12010063
+[research_ma_2025_2]: https://doi.org/10.1061/jaeeez.aseng-5669
 [research_ma_2026]: https://doi.org/10.2514/1.c038399
 [research_maccarthy_1954]: https://doi.org/10.21236/ada451760
 [research_maccormack_2007]: https://doi.org/10.21236/ada474960
@@ -4000,22 +5363,32 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_macneal_1958]: https://doi.org/10.4050/jahs.3.4.35
 [research_madden_1967]: https://doi.org/10.4050/jahs.12.2.41
 [research_magee_taylor_1971]: https://doi.org/10.21236/ad0735733
+[research_magryta_pietrykowski_2025]: https://doi.org/10.1016/j.engfailanal.2025.109569
+[research_mahajan_2017]: https://doi.org/10.1007/s40030-017-0219-x
 [research_mahmood_ur_rehman_2023]: https://doi.org/10.1016/j.rico.2023.100259
 [research_mahmuddin_2017]: https://doi.org/10.1016/j.egypro.2017.03.477
 [research_maier_1999]: https://ntrs.nasa.gov/citations/20090031914
 [research_majendie_1963]: https://doi.org/10.1017/s0373463300018506
+[research_makarenko_2017]: https://doi.org/10.21778/2413-9599-2017-1-96-103
+[research_makarov_2022]: https://doi.org/10.46418/2619-0729_2022_1_2
 [research_makeev_2021]: https://doi.org/10.1088/1742-6596/1925/1/012004
 [research_makeev_2021_2]: https://doi.org/10.1016/j.cja.2020.12.011
 [research_makeev_2022]: https://doi.org/10.3390/aerospace9020061
 [research_makeev_2024]: https://doi.org/10.26467/2079-0619-2024-27-2-80-93
 [research_makeev_2026]: https://doi.org/10.1590/jatm.v18.1440
+[research_makeev_2026_2]: https://doi.org/10.26467/2079-0619-2026-29-2-121-132
 [research_makeich_kryukov_2018]: https://doi.org/10.1088/1742-6596/1009/1/012009
 [research_maksymiuk_watson_viken_1986]: https://ntrs.nasa.gov/citations/19860000153
+[research_malik_hussain_2019]: https://doi.org/10.1186/s43067-019-0005-0
 [research_malone_1986]: https://doi.org/10.2514/3.45352
 [research_maloney_2011]: https://ntrs.nasa.gov/citations/20110012275
 [research_mancini_2023]: https://doi.org/10.5194/wes-8-193-2023
+[research_manga_2023]: https://doi.org/10.4314/dujopas.v9i1b.19
+[research_mangold_strohmayer_2025]: https://doi.org/10.3390/aerospace12040275
 [research_mangum_1965]: https://doi.org/10.21236/ad0656438
+[research_manimaran_2016]: https://doi.org/10.1016/j.protcy.2016.08.232
 [research_mann_marston_1961]: https://doi.org/10.1115/1.3662307
+[research_manohare_2026]: https://doi.org/10.1016/j.apacoust.2026.111280
 [research_mantay_1977]: https://ntrs.nasa.gov/citations/19770068241
 [research_manwaring_fleeter_1990]: https://doi.org/10.2514/3.23260
 [research_mao_2021]: https://doi.org/10.1080/14763141.2020.1833969
@@ -4024,6 +5397,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_marchman_abtahi_1985]: https://doi.org/10.2514/3.45176
 [research_maresca_1974]: https://doi.org/10.2514/3.49444
 [research_marine_corps_equipment_board_quantico_va_1961]: https://doi.org/10.21236/ad0260546
+[research_markiewicz_2023]: https://doi.org/10.18287/2541-7533-2023-22-1-29-40
 [research_markley_1971]: https://doi.org/10.1007/bf01694074
 [research_marks_1960]: https://doi.org/10.4050/jahs.5.4.13
 [research_markus_kertesz_2020]: https://doi.org/10.1016/j.simpat.2019.102042
@@ -4034,17 +5408,22 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_martin_1956]: https://doi.org/10.1017/s000192400012648x
 [research_martin_1978]: https://doi.org/10.21236/ada066904
 [research_martin_1996]: https://doi.org/10.21236/ada315263
+[research_martin_2016]: https://doi.org/10.1136/injuryprev-2015-041857
 [research_martin_co_denver_co_1966]: https://doi.org/10.21236/ad0378020
 [research_martin_way_1987]: https://doi.org/10.1177/154193128703100933
 [research_martinbaker_1988]: https://doi.org/10.1108/eb036720
 [research_martone_1983]: https://doi.org/10.21236/ada138501
+[research_maru_2021]: https://doi.org/10.2322/tastj.19.660
+[research_masarati_2015]: https://doi.org/10.2514/1.g000837
 [research_mashrafi_2026]: https://doi.org/10.26643/ijss/3
+[research_mason_wilkes_2026]: https://doi.org/10.14512/tatup.7277
 [research_masterson_warne_2022]: https://doi.org/10.1080/14763141.2022.2105744
 [research_mastropietro_2015]: https://ntrs.nasa.gov/citations/20170007025
 [research_matheny_1975]: https://doi.org/10.21236/ada016486
 [research_mather_1968]: https://doi.org/10.1097/00005373-196811000-00010
 [research_mathur_1985]: https://doi.org/10.21236/ada166760
 [research_mathur_atkins_2023]: https://doi.org/10.2514/1.c036916
+[research_matsubara_2023]: https://doi.org/10.1051/e3sconf/202339601016
 [research_matsuo_1983]: https://doi.org/10.21236/ada139928
 [research_matthew_j_andreini]: https://ntrs.nasa.gov/citations/20240014344
 [research_matthew_l_wilbur_2000]: https://ntrs.nasa.gov/citations/20040086736
@@ -4072,32 +5451,48 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_mccormick_b_w_1956]: https://doi.org/10.21236/ad0140228
 [research_mcdonnell_aircraft_corp_st_louis_mo_1950]: https://doi.org/10.21236/ad0109763
 [research_mcdougall_1965]: https://doi.org/10.1080/05331846509432220
+[research_mcelreath_2020]: https://doi.org/10.2514/1.j058207
 [research_mcentire_shanahan_1997]: https://doi.org/10.21236/ada328597
 [research_mcgahan_1973]: https://doi.org/10.1242/jeb.58.1.225
 [research_mcgrath_1966]: https://doi.org/10.1108/eb034158
 [research_mcintyre_1963]: https://doi.org/10.21236/ad0602427
 [research_mcinville_moore_1994]: https://doi.org/10.21236/ada277965
 [research_mckay_1959]: https://ntrs.nasa.gov/citations/19980227362
+[research_mckay_2019]: https://doi.org/10.4050/jahs.64.042006
 [research_mckenney_1970]: https://doi.org/10.21236/ad0708916
 [research_mckenzie_1969]: https://doi.org/10.1002/j.2161-4296.1969.tb01645.x
+[research_mckercher_2024]: https://doi.org/10.3390/aerospace11030220
 [research_mckillip_1996]: https://ntrs.nasa.gov/citations/19970011097
+[research_mckinnon_2017]: https://doi.org/10.3233/oer-170245
 [research_mclaren_1969]: https://doi.org/10.1038/223828a0
 [research_mclemore_peterson_1960]: https://ntrs.nasa.gov/citations/19980228270
 [research_mcmorrow_1977]: https://doi.org/10.21236/ada054359
 [research_mcnulty_1988]: https://doi.org/10.4050/jahs.33.17
 [research_mcveigh_mchugh_1984]: https://doi.org/10.4050/jahs.29.55
+[research_meadley_2023]: https://doi.org/10.1016/j.apergo.2022.103934
+[research_mechali_2022]: https://doi.org/10.1016/j.conengprac.2022.105150
 [research_meck_galli_1973]: https://doi.org/10.21236/ad0759956
 [research_meeker_william_q_1975]: https://doi.org/10.21236/ada013241
+[research_mehling_2022]: https://doi.org/10.4050/jahs.67.042004
+[research_mekhmonaliyev_2024]: https://doi.org/10.32743/unitech.2024.127.10.18323
+[research_mekki_2015]: https://doi.org/10.1016/j.isatra.2015.02.004
+[research_mele_2017]: https://doi.org/10.2514/1.c034288
+[research_melis_2020]: https://doi.org/10.1016/j.ssci.2020.104749
 [research_melo_2026]: https://doi.org/10.1121/10.0044421
 [research_melton_hall_1968]: https://doi.org/10.21236/ad0830136
 [research_melzig_schmidt_1965]: https://doi.org/10.21236/ad0631777
 [research_menard_1967]: https://doi.org/10.21236/ad0815808
+[research_mendolia_2022]: https://doi.org/10.2514/1.d0290
 [research_menduni_1988]: https://doi.org/10.1007/bf01560328
 [research_meng_2023]: https://doi.org/10.1088/1748-3190/acb97c
+[research_meng_untaroiu_2020]: https://doi.org/10.1016/j.aap.2020.105700
 [research_menger_1983]: https://ntrs.nasa.gov/citations/19830015004
+[research_mercy_kingsta_2019]: https://doi.org/10.37506/v10/i12/2019/ijphrd/191980
+[research_merheb_2017]: https://doi.org/10.1109/tmech.2017.2652399
 [research_meriwether_harris_1962]: https://doi.org/10.21236/ad0404420
 [research_merrick_1971]: https://doi.org/10.2514/3.44225
 [research_mertova_bures_2021]: https://doi.org/10.5194/agile-giss-2-35-2021
+[research_methodology_for_2022]: https://doi.org/10.36652/0869-4931-2022-76-12-551-554
 [research_metzger_1970]: https://doi.org/10.21236/ad0714111
 [research_metzger_hedrick_1975]: https://doi.org/10.2514/3.59886
 [research_meyer_1958]: https://doi.org/10.21236/ad0208856
@@ -4106,7 +5501,11 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_meyne_1974]: https://doi.org/10.3233/isp-1974-2123701
 [research_miao_li_2015]: https://doi.org/10.1109/jas.2015.7032912
 [research_michal_1970]: https://doi.org/10.21236/ad0736361
+[research_midhun_ratnoo_2024]: https://doi.org/10.2514/1.g007752
+[research_mielczarek_2026]: https://doi.org/10.1080/17477778.2026.2653194
 [research_miele_1963]: https://doi.org/10.2514/3.1486
+[research_mieloszyk_2020]: https://doi.org/10.1016/j.ast.2020.106193
+[research_mihaila_2026]: https://doi.org/10.3390/eng7070335
 [research_mihalik_keane_2022]: https://doi.org/10.2514/1.c035944
 [research_mikuteit_bottenberg_1975]: https://doi.org/10.21236/ada007785
 [research_miller_1954]: https://doi.org/10.21236/ada451678
@@ -4118,6 +5517,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_miller_koch_1985]: https://doi.org/10.21236/ada158227
 [research_min_2004]: https://ntrs.nasa.gov/citations/20040112044
 [research_min_2004_2]: https://ntrs.nasa.gov/citations/20050198900
+[research_minioli_2026]: https://doi.org/10.1016/j.expthermflusci.2026.111718
 [research_minnesota_univ_minneapolis_inst_of_tech_1962]: https://doi.org/10.21236/ad0605144
 [research_minnicino_sands_2011]: https://doi.org/10.21236/ada551765
 [research_minotra_feigh_2020]: https://doi.org/10.4050/jahs.65.042009
@@ -4126,36 +5526,52 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_minzner_1973]: https://ntrs.nasa.gov/citations/19730007714
 [research_minzner_1976]: https://ntrs.nasa.gov/citations/19760017709
 [research_minzner_1977]: https://ntrs.nasa.gov/citations/19770063370
+[research_mirkovic_2026]: https://doi.org/10.1016/j.urbmob.2025.100181
 [research_misa_2016]: https://doi.org/10.1097/01.aog.0000483325.82412.83
 [research_misiorowski_2020]: https://doi.org/10.2514/1.j058851
 [research_mistree_1987]: https://ntrs.nasa.gov/citations/19880027060
+[research_mitchell_2015]: https://doi.org/10.1016/j.aap.2015.05.023
 [research_mittal_2005]: https://doi.org/10.21236/ada440555
 [research_miyagawa_2018]: https://doi.org/10.1299/jsmeshd.2018.b-38
 [research_miyajima_1979]: https://doi.org/10.4050/jahs.24.3.29
 [research_mizrahi_susak_1982]: https://doi.org/10.1243/emed_jour_1982_011_039_02
 [research_mizunoya_1960]: https://doi.org/10.1093/oxfordjournals.jbchem.a127103
+[research_mobile_autonomous_2024]: https://doi.org/10.3901/jme.2024.03.034
+[research_modarres_peters_2016]: https://doi.org/10.1016/j.cja.2016.04.015
 [research_modeling_and_2026]: https://doi.org/10.25212/lfu.qzj.11.2.54
 [research_modeling_tool_2007]: https://ntrs.nasa.gov/citations/20080003931
 [research_modi_shrivastava_1973]: https://doi.org/10.2514/3.50556
 [research_moellmann_o_connor_1967]: https://doi.org/10.21236/ad0649534
 [research_moffitt_1958]: https://ntrs.nasa.gov/citations/19930093765
+[research_moghadassian_2016]: https://doi.org/10.3390/en9070571
 [research_mohammad_2026]: https://doi.org/10.69793/ijmcs/02.2026/mklsm
+[research_mohammed_2024]: https://doi.org/10.15199/48.2024.01.26
 [research_mohan_2025]: https://doi.org/10.1016/j.jsse.2025.10.004
+[research_mohanty_2020]: https://doi.org/10.1016/j.engfailanal.2020.104731
+[research_mohrmann_2015]: https://doi.org/10.1027/2192-0923/a000079
 [research_mojaddarasil_sadigh_2021]: https://doi.org/10.1080/10255842.2021.1925257
 [research_mokotoff_2026]: https://doi.org/10.2514/1.c038452
 [research_moline_wendt_2010]: https://doi.org/10.21236/ada542469
 [research_moline_wendt_2011]: https://doi.org/10.21236/ada547644
 [research_molyneux_1962]: https://doi.org/10.1017/s0001925900002456
+[research_monemi_nodehi_2026]: https://doi.org/10.2514/1.d0506
 [research_montalvo_costello_2016]: https://doi.org/10.2514/1.g001545
+[research_montaruli_2026]: https://doi.org/10.1007/s13272-026-00975-x
+[research_montazeri_2025]: https://doi.org/10.1016/j.ress.2025.110897
+[research_moon_phan_2015]: https://doi.org/10.4050/jahs.60.042009
+[research_moon_phan_2018]: https://doi.org/10.4050/jahs.63.042006
 [research_moore_1972]: https://doi.org/10.21236/ad0754098
 [research_moore_2026]: https://doi.org/10.1016/j.ergon.2026.103928
 [research_moore_brabazon_1934]: https://doi.org/10.1017/s0368393100109794
+[research_moore_ning_2019]: https://doi.org/10.2514/1.c035321
+[research_morales_2023]: https://doi.org/10.3390/s23020829
 [research_morduchow_1953]: https://doi.org/10.21236/ad0021969
 [research_morduchow_1955]: https://doi.org/10.1115/1.4011086
 [research_morelli_guardone_2022]: https://doi.org/10.1016/j.ast.2021.107157
 [research_moreno_ramos_2016]: https://doi.org/10.1088/0169-5983/48/6/061424
 [research_morey_1992]: https://doi.org/10.21236/ada252239
 [research_mori_2025]: https://doi.org/10.1016/j.jocs.2025.102528
+[research_mori_kuzuo_2018]: https://doi.org/10.2322/astj.jsass-d-17-00067
 [research_morimura_1995]: https://doi.org/10.1627/jpi1958.38.185
 [research_morozov_2020]: https://doi.org/10.34759/vst-2020-2-185-195
 [research_morris_1974]: https://doi.org/10.21236/ada015947
@@ -4166,15 +5582,18 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_morse_1956]: https://doi.org/10.21236/ad0116274
 [research_mort_1967]: https://ntrs.nasa.gov/citations/19860067997
 [research_mort_weiberg_1967]: https://ntrs.nasa.gov/citations/19670015726
+[research_mortimer_2026]: https://doi.org/10.4050/jahs.71.042007
 [research_moschetta_2010]: https://doi.org/10.21236/ada535140
 [research_moser_1959]: https://doi.org/10.4050/jahs.4.2.39
 [research_moshfeghi_hur_2020]: https://doi.org/10.1016/j.jweia.2020.104352
+[research_moshkov_2024]: https://doi.org/10.18287/2409-4579-2024-10-2-27-34
 [research_mosov_2020]: https://doi.org/10.33269/nvcz.2020.1.34-41
 [research_motyka_1975]: https://doi.org/10.21236/ada025359
 [research_mou_2024]: https://doi.org/10.1007/s11071-024-10306-6
 [research_moxon_green_1990]: https://ntrs.nasa.gov/citations/19910032090
 [research_moyson_petruzella_1961]: https://doi.org/10.21236/ad0268398
 [research_mozaffari_azad_2017]: https://doi.org/10.1504/ijbic.2017.10002850
+[research_mpanza_pedro_2021]: https://doi.org/10.3390/a14060178
 [research_mpanza_pedro_2025]: https://doi.org/10.1016/j.engappai.2025.110163
 [research_mrusek_2021]: https://doi.org/10.19080/ttsr.2021.05.555651
 [research_mu_ller_1990]: https://doi.org/10.4050/jahs.35.16
@@ -4186,33 +5605,56 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_mueller_heuermann_1985]: https://ntrs.nasa.gov/citations/19850015439
 [research_muffley_1965]: https://doi.org/10.21236/ad0476493
 [research_mujahid_2021]: https://doi.org/10.52763/pjsir.phys.sci.64.1.2021.65.75
+[research_mukadam_2018]: https://doi.org/10.1007/s10514-018-9770-1
+[research_mukhopadhyay_2016]: https://doi.org/10.1177/1528083716629136
+[research_muller_2023]: https://doi.org/10.4050/jahs.68.022007
 [research_muller_moormann_2023]: https://doi.org/10.1142/s2301385024430040
+[research_mullhauser_lusardi_2022]: https://doi.org/10.4050/jahs.67.032006
+[research_multi_classifier_models_2024]: https://doi.org/10.19101/ijatee.2023.10102060
 [research_multi_passenger_aircraft_1986]: https://doi.org/10.1016/0010-4361(86)90387-3
 [research_multi_rotors_a_2015]: https://doi.org/10.21275/v4i11.nov151540
 [research_muntz_1977]: https://doi.org/10.21236/ada039119
+[research_murakami_yamada_2025]: https://doi.org/10.1038/s41598-025-04601-4
 [research_murayama_2015]: https://doi.org/10.9746/jcmsi.8.15
+[research_murea_2019]: https://doi.org/10.3390/fluids4020094
 [research_murphy_moro_1999]: https://doi.org/10.21236/ada371212
 [research_murphy_moro_1999_2]: https://doi.org/10.21236/ada371213
 [research_murray_1961]: https://doi.org/10.21236/ad0256874
 [research_murray_2009]: https://doi.org/10.21236/ada494083
 [research_murro_whitlock_1963]: https://ntrs.nasa.gov/citations/20070030980
 [research_murugan_2014]: https://doi.org/10.21236/ada599910
+[research_muscarello_2017]: https://doi.org/10.4050/jahs.62.022003
+[research_mustafa_2023]: https://doi.org/10.3390/s23229265
 [research_mustafa_shofiqul_2016]: https://doi.org/10.14569/ijacsa.2016.070341
 [research_muzzey_1956]: https://doi.org/10.1115/1.4013597
+[research_myers_2016]: https://doi.org/10.3390/safety2010003
+[research_n_ell_2024]: https://doi.org/10.24084/repqj13.298
 [research_n_newby]: https://ntrs.nasa.gov/citations/20210022452
+[research_na_cho_2022]: https://doi.org/10.12985/ksaa.2022.30.2.007
 [research_nagaraj_shanthakumar_1975]: https://doi.org/10.1016/0022-460x(75)90013-9
 [research_nagaraja_pierce_1977]: https://doi.org/10.2514/3.44586
 [research_nagata_1968]: https://doi.org/10.21236/ad0834574
 [research_nagata_1973]: https://doi.org/10.21236/ad0776360
 [research_nagata_1981]: https://doi.org/10.21236/ada132068
+[research_naka_hashimoto_2015]: https://doi.org/10.1299/jsmemipe.2015._web-4-4-1
 [research_nakajima_1960]: https://doi.org/10.2534/jjasnaoe1952.1960.108_81
 [research_nakamoto_2023]: https://doi.org/10.1299/jsmeidecon.2023.0_34
+[research_nakka_alexander_ramos_2021]: https://doi.org/10.2514/1.c035678
+[research_nam_2024]: https://doi.org/10.1016/j.ast.2024.109529
+[research_nam_mavris_2018]: https://doi.org/10.2514/1.c032099
+[research_namuduri_gambold_2025]: https://doi.org/10.33548/scientia1159
+[research_nasr_2026]: https://doi.org/10.1007/s40435-026-02055-8
 [research_national_advisory_1937]: https://doi.org/10.1016/s0016-0032(37)90736-1
 [research_naval_air_test_center_patuxent_river_md_1963]: https://doi.org/10.21236/ad0669901
+[research_navarrete_2026]: https://doi.org/10.17226/358003
+[research_nawafleh_2022]: https://doi.org/10.2139/ssrn.4187523
+[research_neagoe_2021]: https://doi.org/10.3390/app11198834
 [research_neal_m_chaderjian]: https://ntrs.nasa.gov/citations/20220009716
 [research_neat_osmundsen_1979]: https://doi.org/10.1042/bj1800445
 [research_neeb_1961]: https://doi.org/10.21236/ad0267350
+[research_neff_2019]: https://doi.org/10.15394/ijaaa.2019.1303
 [research_nembhard_2015]: https://doi.org/10.1016/j.measurement.2015.08.007
+[research_nepal_2023]: https://doi.org/10.51983/arme-2023.12.1.3670
 [research_nero_1970]: https://doi.org/10.29173/bluejay3996
 [research_new_autogiro_1933]: https://doi.org/10.1038/131646d0
 [research_new_autogyro_1939]: https://doi.org/10.1038/143402b0
@@ -4221,15 +5663,22 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_ng_datta_2019]: https://doi.org/10.2514/1.c035218
 [research_nguyen_2015]: https://ntrs.nasa.gov/citations/20160000197
 [research_nguyen_2015_2]: https://ntrs.nasa.gov/citations/20150019737
+[research_nguyen_2020]: https://doi.org/10.3846/aviation.2020.12424
+[research_nguyen_2026]: https://doi.org/10.35940/ijies.h1278.13060626
 [research_nguyen_castelli_2014]: https://doi.org/10.21236/ada607908
+[research_nguyen_van_2020]: https://doi.org/10.1007/s13272-020-00481-8
 [research_nicholas_j_peters]: https://ntrs.nasa.gov/citations/20210026292
+[research_nickels_2017]: https://doi.org/10.1080/15575330.2017.1400200
 [research_nicolaides_tragarz_1971]: https://doi.org/10.21236/ad0731143
 [research_nie_2023]: https://doi.org/10.1016/j.cja.2023.06.026
 [research_niederer_mihora_1972]: https://ntrs.nasa.gov/citations/19730010289
+[research_niemi_bevillard_2015]: https://doi.org/10.2514/1.c032639
 [research_niemi_jr_1992]: https://doi.org/10.21236/ada250882
+[research_nik_mohd_2017]: https://doi.org/10.5028/jatm.v9i1.610
 [research_nikolsky_1959]: https://doi.org/10.21236/ada952031
 [research_nikolsky_seckel_1949]: https://ntrs.nasa.gov/citations/19930082584
 [research_nikolsky_seckel_1949_2]: https://ntrs.nasa.gov/citations/19930082585
+[research_nimbalkar_2021]: https://doi.org/10.4271/01-14-01-0004
 [research_ninety_ninth_air_base_wing_1999]: https://doi.org/10.21236/ada637420
 [research_nishi_2023]: https://doi.org/10.5293/ijfms.2023.16.1.034
 [research_nishimura_1980]: https://doi.org/10.2514/3.57903
@@ -4238,8 +5687,12 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_nix_jack_p_1989]: https://doi.org/10.21236/ada209620
 [research_nixon_1988]: https://ntrs.nasa.gov/citations/19880013050
 [research_nixon_1993]: https://ntrs.nasa.gov/citations/19940020471
+[research_nixon_2020]: https://doi.org/10.1016/j.ssci.2020.104903
 [research_nixon_farshchi_1987]: https://doi.org/10.21236/ada181490
+[research_noboni_2025]: https://doi.org/10.2514/1.g008573
+[research_noboni_das_2025]: https://doi.org/10.1016/j.ifacol.2025.12.343
 [research_noda_2018]: https://doi.org/10.1299/jsmebiofro.2018.29.2c33
+[research_noiri_fujuwara_2016]: https://doi.org/10.1299/jsmetld.2016.25.1124
 [research_nongyue_2026]: https://doi.org/10.2514/1.j065498
 [research_noonan_1990]: https://ntrs.nasa.gov/citations/19900014923
 [research_noonan_1991]: https://ntrs.nasa.gov/citations/19930020261
@@ -4251,14 +5704,18 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_northrop_aircraft_inc_hawthorne_ca_1952_2]: https://doi.org/10.21236/ad0024361
 [research_northrop_aircraft_inc_hawthorne_ca_1953]: https://doi.org/10.21236/ad0013465
 [research_norton_1990]: https://doi.org/10.21236/ada257262
+[research_novel_automatic_2017]: https://doi.org/10.23883/ijrter.2017.3122.qsydg
 [research_nowak_kelly_1977]: https://doi.org/10.2514/3.58769
-[research_numerical_simulation_2020]: https://doi.org/10.36884/jafm.13.05.30951
+[research_nowoswiat_2022]: https://doi.org/10.1016/j.apacoust.2022.108954
+[research_nukala_maddula_2020]: https://doi.org/10.1186/s42774-020-00036-9
 [research_nygren_1990]: https://ntrs.nasa.gov/citations/19910004020
 [research_o_brien_1992]: https://doi.org/10.21236/ada252820
 [research_o_donnell_1999]: https://doi.org/10.21236/ada372633
 [research_o_hamdoon_2019]: https://doi.org/10.26480/jmerd.05.2019.163.167
 [research_oakes_1967]: https://doi.org/10.21236/ad0814366
 [research_obergefell_kaleps_1988]: https://doi.org/10.1016/0895-7177(88)90529-8
+[research_obioma_godspower_john_chuku_2019]: https://doi.org/10.47119/ijrp100392102019754
+[research_octaviani_2017]: https://doi.org/10.17509/jmee.v4i1.7435
 [research_oda_ara_1988]: https://doi.org/10.1541/ieejias.108.778
 [research_odom_1955]: https://doi.org/10.21236/ad0076717
 [research_odom_1955_2]: https://doi.org/10.21236/ad0062388
@@ -4271,42 +5728,72 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_olmstead_hector_1968]: https://doi.org/10.1090/qam/99872
 [research_olson_allison_1939]: https://ntrs.nasa.gov/citations/20090015021
 [research_olson_selberg_1976]: https://doi.org/10.2514/3.44523
+[research_olszko_2023]: https://doi.org/10.1093/milmed/usad071
 [research_oncu_yildiz_2014]: https://doi.org/10.21236/ada620843
+[research_ong_kochenderfer_2017]: https://doi.org/10.2514/1.g001822
+[research_onyeneke_2019]: https://doi.org/10.11648/j.cssp.20190801.12
 [research_opoku_anane_2015]: https://doi.org/10.1016/j.jmig.2015.08.091
 [research_ormiston_1991]: https://doi.org/10.4050/jahs.36.2.3
+[research_ortun_2017]: https://doi.org/10.4050/jahs.62.032005
+[research_oruc_2017]: https://doi.org/10.2514/1.c034101
 [research_os1_bio_inspired_2015]: https://doi.org/10.1299/jsmeapbio.2015.8.61
 [research_osborn_1929]: https://doi.org/10.1038/scientificamerican1029-290
+[research_oszczypaa_2024]: https://doi.org/10.1016/j.ress.2023.109780
 [research_othman_kanazaki_2016]: https://doi.org/10.1016/j.ast.2016.08.019
+[research_oussi_2023]: https://doi.org/10.1186/s12909-023-04719-x
 [research_overmeyer_martin_2017]: https://ntrs.nasa.gov/citations/20170005472
 [research_oxendale_smith_2025]: https://doi.org/10.1371/journal.pone.0326882
+[research_oyama_2024]: https://doi.org/10.1108/aeat-06-2023-0167
 [research_oz_1998]: https://doi.org/10.21236/ada361224
 [research_ozaki_kobayashi_1981]: https://doi.org/10.1093/jee/74.5.520
+[research_ozel_kopmaz_2024]: https://doi.org/10.2507/ijsimm23-3-692
+[research_ozen_2021]: https://doi.org/10.1016/j.engfailanal.2020.105175
 [research_ozkan_genc_2023]: https://doi.org/10.1016/j.enconman.2023.116937
 [research_p_greenhalgh]: https://ntrs.nasa.gov/citations/20260000309
+[research_paddock_2015]: https://doi.org/10.5811/westjem.2015.1.23720
 [research_page_bailey_2025]: https://doi.org/10.3390/drones9120857
 [research_paglino_beno_1971]: https://doi.org/10.21236/ad0734338
 [research_paletta_2015]: https://doi.org/10.1016/j.proeng.2015.08.030
 [research_palko_1984]: https://doi.org/10.21236/ada146051
 [research_palleja_cabre_2022]: https://doi.org/10.2514/1.j061661
 [research_pamnani_jeughale_2021]: https://doi.org/10.21275/sr21908201517
+[research_pamuji_bramantya_2018]: https://doi.org/10.1051/matecconf/201819708015
+[research_panda_2026]: https://doi.org/10.1016/j.renene.2025.124343
 [research_pang_1996]: https://ntrs.nasa.gov/citations/19960052926
+[research_pang_2026]: https://doi.org/10.3390/drones10050337
+[research_panish_bacic_2025]: https://doi.org/10.2514/1.c037862
 [research_papa_2023]: https://doi.org/10.3390/electronics12071591
 [research_papa_ponte_2018]: https://doi.org/10.3390/electronics7120435
+[research_papadakis_2022]: https://doi.org/10.1016/j.jbiomech.2022.111084
 [research_papadales_basil_s_1979]: https://doi.org/10.21236/ada073100
+[research_papadopoulos_2024]: https://doi.org/10.1115/1.4064479
+[research_papayanopoulos_2019]: https://doi.org/10.1115/1.4044735
+[research_parachute_science_2022]: https://doi.org/10.32907/ro-130-2792199864
 [research_parate_2020]: https://doi.org/10.28991/hij-2020-01-03-03
 [research_parate_2022]: https://doi.org/10.1080/23311916.2022.2034267
 [research_parate_2025]: https://doi.org/10.22211/cejem/205988
 [research_parawing_patent_1966]: https://doi.org/10.2307/3950969
+[research_park_2015]: https://doi.org/10.1080/09243046.2015.1052186
+[research_park_2017]: https://doi.org/10.12783/dtetr/apetc2017/11425
+[research_park_2017_2]: https://doi.org/10.1051/matecconf/201713900026
 [research_park_2020]: https://doi.org/10.2514/1.g004058
 [research_park_2022]: https://doi.org/10.1007/s42405-022-00535-7
 [research_park_2023]: https://doi.org/10.4050/jahs.68.022006
+[research_park_2023_2]: https://doi.org/10.1016/j.ast.2023.108489
 [research_park_2025_2]: https://doi.org/10.1016/j.energy.2025.139192
+[research_park_kwon_2021]: https://doi.org/10.1007/s42405-021-00420-9
+[research_park_menon_2017]: https://doi.org/10.2514/1.g002716
 [research_park_park_2018]: https://doi.org/10.6112/kscfe.2018.23.3.094
 [research_park_park_2020]: https://doi.org/10.6112/kscfe.2020.25.2.065
 [research_parker_2008]: https://doi.org/10.21236/ada499395
 [research_parks_1976]: https://doi.org/10.21236/ada030173
+[research_parmentier_meunier_2020]: https://doi.org/10.1016/j.omega.2019.05.009
+[research_patil_2016]: https://doi.org/10.1016/j.engstruct.2016.04.020
 [research_patnala_2024]: https://doi.org/10.2514/1.c036912
 [research_patterson_1977]: https://doi.org/10.21236/ada043435
+[research_patterson_2017]: https://doi.org/10.1080/24748706.2017.1329574
+[research_paul_2025]: https://doi.org/10.1080/00140139.2024.2449110
+[research_pawar_2024]: https://doi.org/10.1007/s00348-024-03824-x
 [research_paxton_2021]: https://doi.org/10.21236/ad1135318
 [research_payne_1954]: https://doi.org/10.1108/eb032456
 [research_payne_1954_2]: https://doi.org/10.1108/eb032377
@@ -4323,20 +5810,33 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_pedersen_1961]: https://doi.org/10.21236/ad0267502
 [research_pedersen_1964]: https://doi.org/10.21236/ad0607036
 [research_pegg_1968]: https://ntrs.nasa.gov/citations/19680012564
+[research_peng_2021]: https://doi.org/10.1142/s2737480721500096
+[research_peng_2024_3]: https://doi.org/10.1016/j.tws.2024.112032
+[research_peng_2025]: https://doi.org/10.1016/j.ress.2024.110795
+[research_peng_2025_2]: https://doi.org/10.3390/modelling6030095
 [research_pennycuick_1960]: https://doi.org/10.1242/jeb.37.2.330
 [research_pennycuick_1968]: https://doi.org/10.1242/jeb.49.3.509
 [research_pennycuick_1971_2]: https://doi.org/10.1242/jeb.55.3.833
+[research_pepermans_2023]: https://doi.org/10.1016/j.jsse.2022.12.003
 [research_pepper_biesterveld_1973]: https://doi.org/10.2514/3.60282
 [research_pepper_holt_1971]: https://doi.org/10.2514/3.44271
 [research_pepper_mchugh_1942]: https://ntrs.nasa.gov/citations/19930093327
 [research_pereira_2025]: https://doi.org/10.3397/in_2025_1076674
 [research_perez_2025]: https://doi.org/10.1016/j.jairtraman.2024.102731
+[research_perez_2026]: https://doi.org/10.3389/frvir.2026.1815082
+[research_perez_becker_2020]: https://doi.org/10.5194/wes-5-721-2020
+[research_perez_gordillo_2023]: https://doi.org/10.3390/aerospace10020130
 [research_perfect_2017]: https://doi.org/10.1007/s13272-017-0255-2
 [research_performance_characteristics_1930]: https://doi.org/10.1016/s0016-0032(30)90828-9
 [research_perisho_1959]: https://doi.org/10.4050/jahs.4.2.4
 [research_perrin_1956]: https://doi.org/10.1002/j.2161-4296.1956.tb01567.x
 [research_perry_1967]: https://doi.org/10.1109/thfe.1967.234315
 [research_perry_2007]: https://doi.org/10.21236/ada519316
+[research_perry_2019]: https://doi.org/10.3390/safety5040071
+[research_perry_2021]: https://doi.org/10.2514/1.c036048
+[research_perry_2023]: https://doi.org/10.2514/1.c036616
+[research_pessanha_santos_2023]: https://doi.org/10.3390/drones7040243
+[research_petermann_2019]: https://doi.org/10.4050/jahs.64.042002
 [research_peters_1975]: https://doi.org/10.4050/jahs.20.4.2
 [research_peters_1982]: https://ntrs.nasa.gov/citations/19820025498
 [research_peters_1983]: https://ntrs.nasa.gov/citations/19830010445
@@ -4349,18 +5849,28 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_peterson_johnson_1983]: https://doi.org/10.2514/3.44826
 [research_peterson_johnson_1991]: https://ntrs.nasa.gov/citations/19910022820
 [research_peterson_warmbrodt_1984]: https://ntrs.nasa.gov/citations/19840010122
+[research_petit_2024]: https://doi.org/10.4050/jahs.69.042002
+[research_petranelli_2015]: https://doi.org/10.1249/01.mss.0000478950.79597.52
+[research_petrovic_2016]: https://doi.org/10.1061/(asce)as.1943-5525.0000555
 [research_pfluger_1940]: https://ntrs.nasa.gov/citations/19930094488
 [research_phelps_2014]: https://doi.org/10.21236/ada611899
+[research_philipps_bertin_2026]: https://doi.org/10.1016/j.apacoust.2026.111330
 [research_phillips_1970]: https://doi.org/10.21236/ad0712741
 [research_phillips_mcclintock_1974]: https://doi.org/10.1088/0022-3719/7/7/003
 [research_piacentino_1978]: https://doi.org/10.21236/ada062429
 [research_piatak_1997]: https://ntrs.nasa.gov/citations/19970016974
 [research_picard_whitley_2002]: https://doi.org/10.21236/ada407860
 [research_picasso_1982]: https://doi.org/10.21236/ada125270
+[research_piccinini_2020]: https://doi.org/10.3390/en13225995
 [research_pickles_2023]: https://doi.org/10.1007/s00348-023-03609-8
 [research_pickles_2023_2]: https://doi.org/10.1063/5.0143406
+[research_piera_2016]: https://doi.org/10.1057/jos.2014.42
+[research_pigusov_2021]: https://doi.org/10.34759/vst-2021-4-39-47
 [research_pilkey_1982]: https://doi.org/10.21236/ada113239
 [research_pilot_escape_1961]: https://doi.org/10.1108/eb033385
+[research_pipkorn_2016]: https://doi.org/10.1080/15389588.2016.1201204
+[research_pirrung_2016]: https://doi.org/10.1002/we.1969
+[research_pirrung_2020]: https://doi.org/10.1002/we.2522
 [research_pisani_1977]: https://doi.org/10.21236/ada047858
 [research_pitcairn_1930]: https://doi.org/10.1016/s0016-0032(30)90850-2
 [research_piziali_duwaldt_1962]: https://doi.org/10.21236/ad0295089
@@ -4368,29 +5878,41 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_pleasants_white_1983]: https://doi.org/10.4050/jahs.28.16
 [research_plotkin_1971]: https://doi.org/10.2514/3.6269
 [research_plunkett_1949]: https://doi.org/10.1115/1.4010011
+[research_poggi_2024]: https://doi.org/10.2514/1.c037486
 [research_pogorzelski_cable_2001]: https://doi.org/10.21236/ada395307
+[research_pollack_van_kampen_2023]: https://doi.org/10.2514/1.g006576
 [research_pollock_1965]: https://doi.org/10.1016/0031-9163(65)90764-x
 [research_polson_1967]: https://doi.org/10.1042/bj1040410
+[research_polvara_2018]: https://doi.org/10.3390/drones2020015
 [research_polyzos_2020]: https://doi.org/10.1016/j.ast.2020.106356
 [research_polzlbauer_2018]: https://doi.org/10.1007/s13272-018-0341-0
 [research_pongsakornsathien_2020]: https://doi.org/10.3390/aerospace7110154
 [research_ponta_2016]: https://doi.org/10.1016/j.renene.2016.01.098
 [research_pope_1987]: https://doi.org/10.1097/00007632-198712000-00016
 [research_porkolab_lakatos_2021]: https://doi.org/10.1556/606.2021.00306
+[research_porritiello_2022]: https://doi.org/10.1504/ijad.2022.130036
 [research_portage_inc_idaho_falls_id_2013]: https://doi.org/10.21236/ada596203
 [research_porterfield_alexander_1970]: https://doi.org/10.4050/jahs.15.3.22
 [research_poteate_solomonides_1964]: https://doi.org/10.4050/jahs.9.21
+[research_potentier_2021]: https://doi.org/10.1002/ese3.908
 [research_pounds_singh_2015]: https://doi.org/10.1109/mpot.2014.2359034
 [research_powell_1959]: https://ntrs.nasa.gov/citations/19980228301
 [research_powell_1962]: https://doi.org/10.21236/ad0424725
+[research_powers_2020]: https://doi.org/10.2514/1.g004397
+[research_pozzi_2021]: https://doi.org/10.1007/s00021-021-00598-8
+[research_prajapat_2021]: https://doi.org/10.1504/ijista.2021.121326
+[research_prasannakumar_2024]: https://doi.org/10.2514/1.c037398
+[research_prasetyo_2016]: https://doi.org/10.14203/widyariset.2.2.2016.131-142
 [research_pratama_ricky_novianto_2023]: https://doi.org/10.47577/technium.v17i.10109
 [research_prateek_sazawal_ghosh_2023]: https://doi.org/10.61653/joast.v67i2.2015.307
+[research_preis_hornung_2022]: https://doi.org/10.3390/app12147260
 [research_preisser_1967]: https://ntrs.nasa.gov/citations/20070031000
 [research_prewitt_1938]: https://doi.org/10.2514/8.741
 [research_pribyla_1989]: https://doi.org/10.21236/ada217615
 [research_prieur_1989]: https://doi.org/10.4050/jahs.34.42
 [research_prieur_1992]: https://doi.org/10.4050/jahs.37.82
 [research_project_egress_1990]: https://ntrs.nasa.gov/citations/19900015846
+[research_pros_2026]: https://doi.org/10.1016/j.trpro.2026.01.019
 [research_proulx_cabana_2024]: https://doi.org/10.3390/fluids9010024
 [research_prouty_1976]: https://doi.org/10.4050/jahs.21.13
 [research_pruppacher_schlamp_1975]: https://doi.org/10.1029/jc080i003p00380
@@ -4398,43 +5920,67 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_prussing_lin_1983]: https://doi.org/10.4050/jahs.28.3.42
 [research_pruyn_1966]: https://doi.org/10.21236/ad0801262
 [research_psychological_research_1946]: https://doi.org/10.1037/h0062889
+[research_pukhova_2021]: https://doi.org/10.1016/j.urbmob.2021.100002
 [research_pullin_1979]: https://doi.org/10.1063/1.862606
+[research_pulok_chakravarty_2024]: https://doi.org/10.1007/s00707-024-03871-9
+[research_purtell_2024]: https://doi.org/10.1016/j.jairtraman.2024.102569
 [research_putman_1961]: https://doi.org/10.21236/ad0270217
 [research_puvrez_1965]: https://doi.org/10.2514/3.43654
+[research_qi_2019]: https://doi.org/10.3901/jme.2019.01.042
+[research_qi_2023]: https://doi.org/10.1016/j.renene.2023.04.144
 [research_qi_2025]: https://doi.org/10.1007/s42401-024-00340-y
 [research_qi_2025_2]: https://doi.org/10.1016/j.ifacol.2025.11.401
 [research_qi_wu_2020]: https://doi.org/10.1088/1742-6596/1449/1/012107
+[research_qi_zhao_2025]: https://doi.org/10.2514/1.c038199
 [research_qian_2026]: https://doi.org/10.3390/drones10080610
 [research_qiao_zhou_2026]: https://doi.org/10.1016/j.ast.2025.110825
+[research_qibin_2017]: https://doi.org/10.1002/sdtp.11972
+[research_qin_2022]: https://doi.org/10.1016/j.compstruct.2022.115487
 [research_qin_2023]: https://doi.org/10.54254/2753-8818/13/20240810
+[research_qin_2024]: https://doi.org/10.2514/1.d0415
 [research_qu_2020]: https://doi.org/10.1080/14763141.2019.1690570
 [research_quackenbush_1987]: https://ntrs.nasa.gov/citations/19880030066
+[research_quang_sang_2023]: https://doi.org/10.54939/1859-1043.j.mst.87.2023.78-84
 [research_r_a_f_high_speed_1938]: https://doi.org/10.1038/141321c0
 [research_rachman_1990]: https://doi.org/10.21236/ada231563
 [research_rachman_mcmillan_1986]: https://doi.org/10.21236/ada176275
+[research_radi_djebli_2022]: https://doi.org/10.1051/e3sconf/202233600008
+[research_radil_berkebile_2020]: https://doi.org/10.1080/10402004.2020.1737285
 [research_rae_1977]: https://doi.org/10.21236/ada046086
+[research_rafique_2023]: https://doi.org/10.2139/ssrn.4382476
 [research_raghavan_1990]: https://ntrs.nasa.gov/citations/19900035101
 [research_raghunathan_tan_1983]: https://doi.org/10.2514/3.48075
+[research_rahal_dutta_2024]: https://doi.org/10.1007/s12046-023-02349-z
 [research_rahman_2023]: https://doi.org/10.3389/fmech.2023.1255051
 [research_rahman_2024]: https://doi.org/10.1051/matecconf/202439303002
 [research_rahman_2025]: https://doi.org/10.1007/s12046-025-02758-2
+[research_raibaudo_2023]: https://doi.org/10.5194/wes-8-1711-2023
 [research_rajaram_2018]: https://doi.org/10.2514/1.c034661
 [research_raju_1976]: https://doi.org/10.1017/s0022112076000682
+[research_rakic_2017]: https://doi.org/10.1016/j.engfailanal.2017.04.014
 [research_ramachandran_1990]: https://ntrs.nasa.gov/citations/19900051629
+[research_ramadevi_2019]: https://doi.org/10.22214/ijraset.2019.11019
 [research_ramakers_1967]: https://ntrs.nasa.gov/citations/19670014989
+[research_ramanujam_abhishek_2022]: https://doi.org/10.2514/1.c036664
+[research_ramanujam_r_mohan_2021]: https://doi.org/10.4050/jahs.66.012007
 [research_ramasamy_2010]: https://ntrs.nasa.gov/citations/20100038442
 [research_rampy_1966]: https://doi.org/10.21236/ad0641371
 [research_ran_2023]: https://doi.org/10.3397/in_2022_0835
 [research_rand_1989]: https://doi.org/10.4050/jahs.34.28
 [research_rand_1991]: https://doi.org/10.4050/jahs.36.3
+[research_rand_khromov_2018]: https://doi.org/10.4050/jahs.63.042007
 [research_rand_symposium_1972]: https://doi.org/10.1016/s0003-6870(72)80084-x
+[research_randriambololona_2025]: https://doi.org/10.1063/5.0281714
 [research_rankin_mcdaniel_1980]: https://doi.org/10.21236/ada095007
 [research_rao_jones_1974]: https://ntrs.nasa.gov/citations/19740026389
 [research_rash_2001]: https://doi.org/10.21236/ada396085
+[research_ravi_lumba]: https://ntrs.nasa.gov/citations/20220000004
+[research_ravi_lumba_2023]: https://ntrs.nasa.gov/citations/20220009340
 [research_rawson_1963]: https://doi.org/10.21236/ad0429114
 [research_rayavarapu_2018]: https://doi.org/10.1007/s11668-018-0529-y
 [research_rayman_1979]: https://doi.org/10.21236/ada067833
 [research_rayner_1979]: https://doi.org/10.1017/s0022112079000422
+[research_raza_2025]: https://doi.org/10.2514/1.d0440
 [research_reader_1980]: https://doi.org/10.21236/ada080953
 [research_reason_1999]: https://doi.org/10.21236/ada377892
 [research_reddy_1968]: https://doi.org/10.1007/bf01691348
@@ -4443,11 +5989,15 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_reddy_1988]: https://doi.org/10.2514/3.45546
 [research_reed_2000]: https://doi.org/10.21236/ada457928
 [research_reeder_1959]: https://ntrs.nasa.gov/citations/19980231066
+[research_refinement_of_2023]: https://doi.org/10.36652/0869-4931-2023-77-2-86-94
+[research_rehounek_zenisek_2025]: https://doi.org/10.3390/buildings15213855
+[research_reich_2017]: https://doi.org/10.2514/1.c034250
 [research_reid_1978]: https://doi.org/10.2514/3.58307
 [research_reif_1966]: https://doi.org/10.21236/ad0809915
 [research_reissner_1951]: https://doi.org/10.2514/8.1905
 [research_reitz_1986]: https://doi.org/10.21236/ada192019
 [research_ren_2016]: https://doi.org/10.3901/jme.2016.02.195
+[research_ren_shu_2020]: https://doi.org/10.32604/fdmp.2020.09563
 [research_rennak_1946]: https://ntrs.nasa.gov/citations/19930081813
 [research_report_no_1932]: https://doi.org/10.1016/s0016-0032(32)91416-1
 [research_report_no_1934]: https://doi.org/10.1016/s0016-0032(34)90529-9
@@ -4456,10 +6006,12 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_report_no_1936]: https://doi.org/10.1016/s0016-0032(36)90290-9
 [research_report_no_1937]: https://doi.org/10.1016/s0016-0032(37)90482-4
 [research_report_no_1937_2]: https://doi.org/10.1016/s0016-0032(37)90822-6
+[research_representations_of_2017]: https://doi.org/10.1353/mlr.2017.0090
 [research_reubush_1979]: https://doi.org/10.2514/3.58532
 [research_reyner_liem_2026]: https://doi.org/10.3390/drones10060426
 [research_reynolds_1953]: https://doi.org/10.1115/1.4015634
 [research_rezgui_lowenberg_2015]: https://doi.org/10.1098/rsta.2014.0411
+[research_rezgui_lowenberg_2020]: https://doi.org/10.4050/jahs.65.012005
 [research_rhodes_1972]: https://doi.org/10.1007/bf01740721
 [research_riboldi_2018]: https://doi.org/10.1016/j.trpro.2018.02.034
 [research_riboldi_gualdoni_2016]: https://doi.org/10.1016/j.ast.2016.07.014
@@ -4469,8 +6021,11 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_richardson_1986]: https://doi.org/10.1061/(asce)0733-9445(1986)112:7(1723)
 [research_richardson_2024]: https://doi.org/10.1080/15389588.2024.2381084
 [research_richardson_liiva_1970]: https://doi.org/10.21236/ad0869949
+[research_richez_2018]: https://doi.org/10.4050/jahs.63.022006
+[research_richmond_navarro_2017]: https://doi.org/10.1109/tste.2016.2604082
 [research_ridley_1930]: https://ntrs.nasa.gov/citations/19930081092
 [research_riebe_1973]: https://ntrs.nasa.gov/citations/19730046587
+[research_riedmaier_2021]: https://doi.org/10.1016/j.simpat.2021.102274
 [research_riegler_2025]: https://doi.org/10.1016/j.actaastro.2025.04.008
 [research_rinehart_1970]: https://doi.org/10.21236/ad0704804
 [research_rinehart_1971]: https://doi.org/10.4050/jahs.16.48
@@ -4481,23 +6036,28 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_robert_d_powell_1954]: https://ntrs.nasa.gov/citations/19930083901
 [research_roberts_2011]: https://ntrs.nasa.gov/citations/20110008762
 [research_roberts_wagner_1973]: https://doi.org/10.21236/ad0762730
+[research_robertson_2019]: https://doi.org/10.5194/wes-4-479-2019
 [research_robinson_1970]: https://doi.org/10.4050/jahs.15.46
 [research_rock_habchi_1997]: https://doi.org/10.21236/ada353481
+[research_rodak_2019]: https://doi.org/10.2478/tar-2019-0001
+[research_rodriguez_varona_2026]: https://doi.org/10.2139/ssrn.6067088
+[research_roelofs_2021]: https://doi.org/10.2514/1.c035985
 [research_rogallo_1960]: https://ntrs.nasa.gov/citations/19980227770
 [research_rogallo_1963]: https://ntrs.nasa.gov/citations/19640041912
 [research_rogallo_1972]: https://ntrs.nasa.gov/citations/19720049516
 [research_rogalski_2018]: https://doi.org/10.1108/aeat-02-2018-0088
 [research_rogers_1974]: https://doi.org/10.21236/ad0785597
 [research_rogers_asbury_2000]: https://ntrs.nasa.gov/citations/20010018610
+[research_roh_2020]: https://doi.org/10.1155/2020/7059209
 [research_rohan_g_deshmukh_2024]: https://ntrs.nasa.gov/citations/20240008579
 [research_roithmayr_2003]: https://ntrs.nasa.gov/citations/20030014715
 [research_roithmayr_2003_2]: https://ntrs.nasa.gov/citations/20030038806
-[research_romanchuk_2020]: https://doi.org/10.1016/j.jbiomech.2020.110064
 [research_romander_2006]: https://ntrs.nasa.gov/citations/20100021114
 [research_romander_2006_2]: https://ntrs.nasa.gov/citations/20070017932
 [research_romander_2007]: https://ntrs.nasa.gov/citations/20070017933
 [research_romanov_masnik_1977]: https://doi.org/10.1007/bf01137615
 [research_romere_1979]: https://doi.org/10.2514/3.58510
+[research_romli_2015]: https://doi.org/10.15866/irease.v8i3.6246
 [research_roncolini_2024]: https://doi.org/10.1007/s13272-024-00753-7
 [research_rosen_isser_1995]: https://doi.org/10.4050/jahs.40.17
 [research_rosen_isser_1995_2]: https://doi.org/10.4050/jahs.40.6
@@ -4510,38 +6070,68 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_rossow_1985]: https://doi.org/10.4050/jahs.30.53
 [research_rostad_2003]: https://doi.org/10.21236/ada414825
 [research_rostad_2003_2]: https://doi.org/10.21236/ada414823
+[research_rostami_2023]: https://doi.org/10.3390/aerospace10080718
 [research_rostami_fernandes_2018]: https://doi.org/10.1016/j.cnsns.2017.09.003
+[research_rosti_2017]: https://doi.org/10.1080/14685248.2017.1314486
 [research_roth_1996]: https://doi.org/10.21236/ada328075
 [research_rotor_blade_1975]: https://doi.org/10.1016/0010-4361(75)90158-5
 [research_rotor_blade_1990]: https://doi.org/10.1016/0010-4361(90)90304-f
 [research_rotor_speed_2026]: https://doi.org/10.17775/cseejpes.2022.00750
 [research_rotorcraft_dynamics_1985]: https://ntrs.nasa.gov/citations/19860005810
+[research_rout_hota_2024]: https://doi.org/10.1016/j.compstruct.2023.117667
 [research_roy_2021]: https://doi.org/10.3390/eng2010006
 [research_royston_1964]: https://doi.org/10.1016/0029-554x(64)90270-8
 [research_rudinger_1970]: https://doi.org/10.1115/1.3424925
 [research_ruffa_2015]: https://doi.org/10.21236/ad1003915
 [research_ruh_hwang_2023]: https://doi.org/10.2514/1.j062611
+[research_rui_2026]: https://doi.org/10.1016/j.simpat.2026.103273
 [research_rummel_1978]: https://doi.org/10.1007/bf00876536
 [research_rutledge_1991]: https://ntrs.nasa.gov/citations/19920002774
 [research_ryack_1984]: https://doi.org/10.21236/ada139478
 [research_ryan_aeronautical_co_san_diego_ca_1962]: https://doi.org/10.21236/ad0283754
+[research_ryan_granger_2023]: https://doi.org/10.1016/j.jsse.2023.08.005
 [research_saadat_2022]: https://doi.org/10.1080/14763141.2022.2088399
 [research_sadasivan_2019]: https://doi.org/10.15394/ijaaa.2019.1352
 [research_sade_2026]: https://doi.org/10.1038/s41598-026-48920-6
+[research_saetti_2019]: https://doi.org/10.2514/1.g004406
+[research_saetti_2022]: https://doi.org/10.4050/jahs.67.032012
 [research_saetti_2023]: https://doi.org/10.3390/aerospace11010033
 [research_saetti_2024]: https://doi.org/10.2514/1.c037389
+[research_saetti_2024_2]: https://doi.org/10.4050/jahs.69.022002
+[research_saetti_2024_3]: https://doi.org/10.1007/s13272-024-00718-w
+[research_saetti_2025]: https://doi.org/10.4050/jahs.70.032005
+[research_saetti_2026]: https://doi.org/10.4050/jahs.71.042002
+[research_saetti_petit_2026]: https://doi.org/10.4050/jahs.71.022002
+[research_saetti_rogers_2022]: https://doi.org/10.2514/1.g006447
+[research_safadi_haddad_2024]: https://doi.org/10.1016/j.ifacol.2024.07.356
 [research_sahebzadeh_2022]: https://doi.org/10.1016/j.egyr.2022.04.030
+[research_sahin_2025]: https://doi.org/10.4050/jahs.70.042006
 [research_sahu_1997]: https://doi.org/10.21236/ada330375
+[research_saias_2021]: https://doi.org/10.1115/1.4052057
 [research_saias_2022]: https://doi.org/10.1016/j.ijhydene.2022.06.316
 [research_saias_2023]: https://doi.org/10.1115/1.4056855
+[research_saied_2019]: https://doi.org/10.1017/aer.2019.58
+[research_saied_2019_2]: https://doi.org/10.1017/aer.2019.149
+[research_saied_2024]: https://doi.org/10.1109/maes.2023.3327697
+[research_saif_2018]: https://doi.org/10.1007/s12555-017-0099-x
 [research_saito_2020]: https://doi.org/10.1080/14763141.2019.1691642
 [research_saito_iwama_1974]: https://doi.org/10.1246/cl.1974.389
 [research_saj_2025]: https://doi.org/10.4050/jahs.70.022004
+[research_sajid_2026]: https://doi.org/10.3390/designs10010009
+[research_sajjadi_2025]: https://doi.org/10.1002/adc2.70008
 [research_sakamoto_1975]: https://doi.org/10.1299/jsme1958.18.1126
+[research_saki_hagen_2024]: https://doi.org/10.1016/j.urbmob.2024.100083
+[research_sakthivel_venkatesan_2017]: https://doi.org/10.1017/aer.2017.8
+[research_sakurai_2018]: https://doi.org/10.1299/jsmemecj.2018.j0510305
+[research_salem_2025]: https://doi.org/10.3390/aerospace12121080
 [research_salemka_beck_1975]: https://doi.org/10.21236/ada023984
+[research_salinas_2023]: https://doi.org/10.1109/tcst.2023.3240541
 [research_sallet_1975]: https://doi.org/10.1063/1.860982
+[research_salord_losantos_sanchez_arriaga_2015]: https://doi.org/10.2514/1.c032825
 [research_samad_2020]: https://doi.org/10.3390/aerospace7070090
+[research_san_martin_2017]: https://ntrs.nasa.gov/citations/20210007713
 [research_sanberg_1975]: https://ntrs.nasa.gov/citations/19750022994
+[research_sanchez_carmona_cuerno_rejado_2018]: https://doi.org/10.1108/aeat-05-2017-0129
 [research_sanchez_mendoza_2025]: https://doi.org/10.3390/atmos16030281
 [research_sanchez_rodriguez_2024]: https://doi.org/10.1155/2024/9514486
 [research_sanders_1957]: https://doi.org/10.1108/eb032813
@@ -4550,39 +6140,55 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_sanger_1950]: https://ntrs.nasa.gov/citations/19930093955
 [research_sann_1970]: https://doi.org/10.1115/1.3427711
 [research_santarelli_1984]: https://doi.org/10.1119/1.13869
+[research_santo_2019]: https://doi.org/10.3390/en12071208
 [research_santos_2022]: https://doi.org/10.14393/rcg238759320
 [research_saravanan_2021]: https://doi.org/10.18520/cs/v120/i1/105-109
+[research_sarikaya_2026]: https://doi.org/10.2514/1.c038893
+[research_sarkar_2018]: https://doi.org/10.1615/critrevbiomedeng.2018027249
+[research_sarker_2026]: https://doi.org/10.3390/vibration9010004
+[research_satria_palar_2024]: https://doi.org/10.2514/1.c037848
 [research_saulescu_neagoe_2024]: https://doi.org/10.3390/app15010191
+[research_savelev_2021]: https://doi.org/10.18287/2542-0445-2021-27-4-85-91
 [research_savell_wells_1975]: https://doi.org/10.1115/1.3445890
 [research_savick_2002]: https://doi.org/10.21236/ada408167
 [research_savino_1985]: https://ntrs.nasa.gov/citations/19850026131
 [research_savino_2021]: https://doi.org/10.3390/en14216979
+[research_savino_2024]: https://doi.org/10.3390/en17071517
+[research_saxena_2026]: https://doi.org/10.1016/j.urbmob.2026.100206
 [research_saxton_1997]: https://doi.org/10.21236/ada418470
 [research_scaramuzzino_2022]: https://doi.org/10.2514/1.c036217
+[research_scarpari_2021]: https://doi.org/10.1038/s41598-021-96773-y
 [research_scarpati_1974]: https://doi.org/10.4050/jahs.19.29
 [research_schad_1965]: https://doi.org/10.4050/jahs.10.39
 [research_schade_1968]: https://ntrs.nasa.gov/citations/19680064091
 [research_schaefer_smith_1949]: https://ntrs.nasa.gov/citations/19930082712
 [research_schafer_1971]: https://doi.org/10.21236/ad0773717
+[research_schafhirt_muskulus_2018]: https://doi.org/10.5194/wes-3-25-2018
 [research_schairer_2018]: https://ntrs.nasa.gov/citations/20180004532
 [research_schapker_1963]: https://doi.org/10.2514/3.1976
 [research_schau_2016]: https://doi.org/10.1017/aer.2016.47
 [research_schaub_1974]: https://doi.org/10.1115/1.3445841
 [research_scherberg_ferguson_1952]: https://doi.org/10.21236/ad0005010
 [research_scherer_1974]: https://doi.org/10.5957/mt1.1974.11.3.270
+[research_schier_morgenthal_2025]: https://doi.org/10.1007/s13272-024-00802-1
 [research_schillings_reinesch_1989]: https://doi.org/10.4050/jahs.34.26
 [research_schiotz_volsoe_1959]: https://doi.org/10.2307/1440407
 [research_schlechtriem_ballmann_1994]: https://doi.org/10.21236/ada286593
 [research_schlegel_bausch_1969]: https://doi.org/10.4050/jahs.14.3.38
+[research_schlipf_2015]: https://doi.org/10.1127/metz/2015/0634
+[research_schmaus_chopra_2022]: https://doi.org/10.4050/jahs.67.012004
 [research_schmeisser_2008]: https://doi.org/10.21236/ada478702
 [research_schmid_hempel_1984]: https://doi.org/10.1007/bf00292993
 [research_schmidt_1979]: https://doi.org/10.2514/3.58495
 [research_schmidt_1983]: https://doi.org/10.21236/ada128042
 [research_schmidt_plostins_1983]: https://doi.org/10.21236/ada130011
+[research_schmidt_wild_2026]: https://doi.org/10.2514/1.c038185
 [research_schmitz_1971]: https://doi.org/10.2514/3.59162
 [research_schmitz_boxwell_1976]: https://doi.org/10.4050/jahs.21.2
+[research_schneeberger_2018]: https://doi.org/10.4050/jahs.63.042009
 [research_schobeiri_abouelkheir_1991]: https://ntrs.nasa.gov/citations/19910057082
 [research_schoeler_1987]: https://doi.org/10.21236/ada195832
+[research_scholten_2020]: https://doi.org/10.2514/1.g005066
 [research_schrage_1997]: https://doi.org/10.21236/ada326337
 [research_schreadley_1977]: https://doi.org/10.21236/ada043979
 [research_schroers_antoniou_1964]: https://doi.org/10.21236/ada951588
@@ -4594,40 +6200,62 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_schuyler_1969]: https://doi.org/10.2514/3.55475
 [research_schwartz_1988]: https://doi.org/10.21236/ada200453
 [research_schwartz_wray_1969]: https://doi.org/10.21236/ad0864071
+[research_schweiger_preis_2022]: https://doi.org/10.3390/drones6070179
+[research_schweighofer_2024]: https://doi.org/10.2514/1.g007909
 [research_science_applications_inc_orlando_fl_1983]: https://doi.org/10.21236/ada139392
 [research_scientific_and_technical_information_division_1966]: https://ntrs.nasa.gov/citations/19660015317
 [research_scott_2014]: https://ntrs.nasa.gov/citations/20140016570
+[research_scullion_2021]: https://doi.org/10.1115/1.4049163
+[research_sedlmair_2022]: https://doi.org/10.2514/1.g005917
 [research_segel_1965]: https://doi.org/10.21236/ad0624860
 [research_segel_1967]: https://doi.org/10.21236/ad0655268
+[research_seher_wei_jones_2021]: https://doi.org/10.2514/1.g005931
 [research_seidel_1987]: https://doi.org/10.2514/3.45430
 [research_sekula_2003]: https://ntrs.nasa.gov/citations/20040027951
+[research_sekula_russell_2024]: https://doi.org/10.4050/jahs.69.032007
 [research_sekula_wilbur_2014]: https://ntrs.nasa.gov/citations/20140011914
 [research_selberg_nicholls_1968]: https://doi.org/10.2514/3.4513
 [research_selikoff_2015]: https://doi.org/10.21236/ada626887
 [research_selleck_1978]: https://doi.org/10.21236/ada059239
 [research_selvatici_stevens_2025]: https://doi.org/10.1016/j.renene.2024.122265
+[research_semakov_semakova_2020]: https://doi.org/10.3103/s1068799820040108
 [research_sen_1990_2]: https://doi.org/10.21236/ada227196
+[research_sen_vaidya_2024]: https://doi.org/10.18502/jovr.v19i2.7442
+[research_senatorov_glazkowa_2021]: https://doi.org/10.5604/01.3001.0015.2505
+[research_sener_ertasgin_2026]: https://doi.org/10.3390/aerospace13020185
 [research_sengupta_2008]: https://ntrs.nasa.gov/citations/20150014736
 [research_sengupta_2009]: https://ntrs.nasa.gov/citations/20150011976
 [research_sengupta_2021]: https://doi.org/10.1016/j.ast.2021.107140
 [research_senturia_1949]: https://doi.org/10.1093/milmed/105.3.205
 [research_serafini_2015]: https://doi.org/10.1017/s0001924000011155
+[research_serafini_2024]: https://doi.org/10.1109/tte.2023.3306456
+[research_serkin_2025]: https://doi.org/10.17586/0021-3454-2025-68-1-50-55
+[research_serre_2019]: https://doi.org/10.1177/1475472x19890260
 [research_sethuraman_raynor_1975]: https://doi.org/10.1029/jc080i036p04983
 [research_setiawarman_sasongko_2026]: https://doi.org/10.1142/s2737480726400078
 [research_seville_research_corp_pensacola_fl_1979]: https://doi.org/10.21236/ada092021
 [research_seville_research_corp_pensacola_fl_1979_2]: https://doi.org/10.21236/ada092020
 [research_seymore_2019]: https://doi.org/10.1371/journal.pone.0211129
+[research_shafiei_2018]: https://doi.org/10.1016/j.simpat.2018.04.006
 [research_shah_2024]: https://doi.org/10.1063/5.0224091
+[research_shah_alam_oluoch_2021]: https://doi.org/10.1016/j.eswa.2021.115091
 [research_shahid_2019]: https://doi.org/10.3390/app9040649
+[research_shahmiri_2017]: https://doi.org/10.1108/aeat-02-2015-0032
 [research_shaji_bonifus_2016]: https://doi.org/10.1016/j.protcy.2016.05.066
 [research_shamie_friedmann_1976]: https://ntrs.nasa.gov/citations/19770044015
 [research_shamie_friedmann_1977]: https://ntrs.nasa.gov/citations/19770066328
+[research_shan_2017]: https://doi.org/10.2514/1.g002761
+[research_shan_2025]: https://doi.org/10.3390/wevj16040212
 [research_shane_1985]: https://ntrs.nasa.gov/citations/19850026871
 [research_shane_1985_2]: https://ntrs.nasa.gov/citations/19850025821
+[research_shang_2025]: https://doi.org/10.1049/pel2.70134
 [research_shannon_wang_1973]: https://doi.org/10.21236/ad0764866
+[research_shao_2024]: https://doi.org/10.1016/j.cja.2024.03.029
 [research_shappell_bartosh_1991]: https://doi.org/10.21236/ada245922
 [research_sharkey_2005]: https://doi.org/10.21236/ada437527
 [research_sharma_2018]: https://doi.org/10.5120/ijca2018917286
+[research_sharma_2023]: https://doi.org/10.32866/001c.66207
+[research_shavin_pritykin_2019]: https://doi.org/10.17587/mau.20.629-639
 [research_shaw_albion_1981]: https://doi.org/10.4050/jahs.26.32
 [research_shcherbina_1974]: https://doi.org/10.1007/bf00882956
 [research_sheehy_1977]: https://doi.org/10.4050/jahs.22.2.2
@@ -4635,30 +6263,44 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_shen_1972]: https://doi.org/10.1115/1.3428186
 [research_shen_2024]: https://doi.org/10.1016/j.measen.2023.101006
 [research_shen_2024_2]: https://doi.org/10.1016/j.energy.2024.133274
+[research_shen_2026_2]: https://doi.org/10.1016/j.enconman.2026.121369
 [research_shender_2000_2]: https://doi.org/10.21236/ada378150
 [research_shenfeld_1970]: https://doi.org/10.1080/00046973.1970.9676578
+[research_sheng_2018]: https://doi.org/10.2514/1.c034137
 [research_shenoy_1984]: https://doi.org/10.4050/jahs.29.1.34
 [research_shepardson_1954]: https://doi.org/10.21236/ada452674
 [research_sherer_jr_1945]: https://doi.org/10.21236/adb972518
 [research_sheridan_1982]: https://ntrs.nasa.gov/citations/19820024498
+[research_shi_2016]: https://doi.org/10.1016/j.coldregions.2015.12.007
+[research_shi_2016_2]: https://doi.org/10.1177/1756829316667770
+[research_shi_2024]: https://doi.org/10.3390/en17040786
+[research_shi_2024_2]: https://doi.org/10.1007/s10846-024-02070-x
 [research_shi_2025]: https://doi.org/10.47297/taposatwsp2633-456904.20250607
 [research_shi_eckstein_1966]: https://doi.org/10.2514/3.55302
 [research_shicun_1990]: https://doi.org/10.4050/jahs.35.92
 [research_shin_2017]: https://doi.org/10.1016/j.ast.2017.07.018
+[research_shin_2022]: https://doi.org/10.1016/j.cor.2021.105611
 [research_shin_kim_2015]: https://doi.org/10.5139/jksas.2015.43.11.971
 [research_shindo_rae_1978]: https://ntrs.nasa.gov/citations/19780045733
 [research_shipman_1974]: https://doi.org/10.21236/ada002671
 [research_shipman_wood_1971]: https://doi.org/10.2514/3.59198
+[research_shon_lee_2025]: https://doi.org/10.1016/j.jairtraman.2024.102720
 [research_shou_2016]: https://doi.org/10.1080/02286203.2015.1115215
 [research_shpund_levin_1991]: https://ntrs.nasa.gov/citations/19910047560
+[research_shrestha_2016]: https://doi.org/10.2514/1.c033621
 [research_shudde_1976]: https://doi.org/10.21236/ada024547
+[research_shukla_komerath_2019]: https://doi.org/10.1007/s00348-018-2668-z
 [research_shulman_1956]: https://doi.org/10.2514/8.3631
 [research_shultz_2017]: https://doi.org/10.1126/science.aal0980
 [research_si_2025]: https://doi.org/10.3390/app15115796
+[research_siddavatam_2024]: https://doi.org/10.3390/wevj15050187
 [research_sieber_1975]: https://doi.org/10.21236/ada021132
 [research_siena_k_s_whiteside_beau_p_pollard]: https://ntrs.nasa.gov/citations/20210025911
 [research_siena_whiteside_beau_pollard_2022]: https://ntrs.nasa.gov/citations/20220000161
+[research_silvestre_luckner_2015]: https://doi.org/10.2514/1.j054023
+[research_simha_ambroziak_2025]: https://doi.org/10.1038/s41598-025-26264-x
 [research_simizu_1944]: https://doi.org/10.1299/kikai1938.9.37-1_210
+[research_simmons_2023]: https://doi.org/10.2514/1.c036896
 [research_simon_2010]: https://doi.org/10.21236/ada548128
 [research_simon_2024]: https://doi.org/10.3397/in_2024_2648
 [research_simon_savage_1975]: https://doi.org/10.21236/ada016921
@@ -4673,9 +6315,14 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_simulation_of_2015]: https://doi.org/10.4172/2090-8369.1000120
 [research_sinacori_1986]: https://doi.org/10.21236/ada359459
 [research_sinacori_lange_1961]: https://doi.org/10.21236/ad0266422
+[research_sineglazov_2015]: https://doi.org/10.18372/1990-5548.46.9971
+[research_sineglazov_2016]: https://doi.org/10.18372/1990-5548.49.11250
 [research_sineglazov_boyko_2015]: https://doi.org/10.18372/1990-5548.44.8895
+[research_sineglazov_glukhov_2017]: https://doi.org/10.18372/1990-5548.54.12325
 [research_singh_2005]: https://doi.org/10.21236/ada440286
+[research_singh_2017]: https://doi.org/10.1080/00405000.2017.1312674
 [research_singh_2019]: https://doi.org/10.24926/jcotr.v26i1.2115
+[research_singh_friedmann_2021]: https://doi.org/10.4050/jahs.66.012010
 [research_singh_wereley_2015]: https://doi.org/10.2514/1.c032910
 [research_single_beam_laser_2020]: https://doi.org/10.17586/1023-5086-2020-87-04-62-65
 [research_singleton_1990]: https://ntrs.nasa.gov/citations/19900011658
@@ -4686,17 +6333,24 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_sissingh_1964]: https://doi.org/10.4050/jahs.9.2.32
 [research_sissingh_kuczynski_1970]: https://doi.org/10.4050/jahs.15.2.2
 [research_sissom_1965]: https://doi.org/10.21236/ada396358
+[research_sisson_2022]: https://doi.org/10.1007/s00158-022-03413-8
+[research_sisson_2022_2]: https://doi.org/10.2514/1.j060770
+[research_sivakumar_2024]: https://doi.org/10.1007/s12206-023-1211-1
 [research_sivaneri_chopra_1981]: https://ntrs.nasa.gov/citations/19810045109
 [research_sivaneri_chopra_1982]: https://doi.org/10.2514/3.51129
 [research_sivaneri_chopra_1984]: https://doi.org/10.4050/jahs.29.42
+[research_sivrioglu_basaran_2024]: https://doi.org/10.1108/aeat-04-2024-0118
 [research_skelton_abbott_1974]: https://doi.org/10.21236/ad0785195
 [research_skinner_2015]: https://doi.org/10.1016/j.jbiomech.2015.04.029
 [research_slaymaker_gray_1953]: https://ntrs.nasa.gov/citations/19930083724
 [research_sleeman_1971]: https://doi.org/10.2514/3.59114
 [research_slegers_2015]: https://doi.org/10.1016/j.conengprac.2014.12.002
+[research_slim_2021]: https://doi.org/10.1134/s2075108721020061
 [research_small_business_1992]: https://ntrs.nasa.gov/citations/20020083235
 [research_smelt_1955]: https://doi.org/10.21236/ad0064755
 [research_smeltzer_1983]: https://doi.org/10.2514/3.44950
+[research_smeur_2016]: https://doi.org/10.2514/1.g001490
+[research_smeur_2020]: https://doi.org/10.2514/1.g004520
 [research_smith_1968]: https://doi.org/10.21236/ad0684315
 [research_smith_1970]: https://doi.org/10.1017/s0001924000049058
 [research_smith_1970_2]: https://doi.org/10.1029/jc075i033p06758
@@ -4705,9 +6359,12 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_smith_1979_2]: https://doi.org/10.1017/s0022112079000574
 [research_smith_1983]: https://doi.org/10.1016/0166-5316(83)90046-9
 [research_smith_1999]: https://ntrs.nasa.gov/citations/19990053144
+[research_smith_2017]: https://doi.org/10.1017/aer.2017.118
+[research_smith_2023]: https://doi.org/10.4050/jahs.68.032008
 [research_smith_betzina_1986]: https://ntrs.nasa.gov/citations/19990116080
 [research_smith_chopra_1992]: https://ntrs.nasa.gov/citations/19930051907
 [research_smith_chopra_1993]: https://ntrs.nasa.gov/citations/19950040969
+[research_smith_moushegian_2021]: https://doi.org/10.1017/aer.2021.108
 [research_smith_nelson_1990]: https://doi.org/10.2514/3.45965
 [research_smitha_2021]: https://doi.org/10.18520/cs/v120/i1/161-165
 [research_smode_1979]: https://doi.org/10.21236/ada070826
@@ -4717,18 +6374,26 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_sntvedt_1974]: https://doi.org/10.1016/0045-7949(74)90082-0
 [research_snyder_1950]: https://doi.org/10.21236/ad0109766
 [research_snyder_1959]: https://doi.org/10.2307/40025009
+[research_soave_2019]: https://doi.org/10.1007/s10916-019-1340-3
 [research_sohn_im_2022]: https://doi.org/10.1007/s12650-021-00812-9
 [research_solomon_1953]: https://ntrs.nasa.gov/citations/19930083646
 [research_somanath_2021]: https://doi.org/10.18520/cs/v120/i1/81-88
 [research_some_current_1968]: https://doi.org/10.1108/eb034335
 [research_somers_2010]: https://doi.org/10.21236/ada532301
+[research_somerville_2025]: https://doi.org/10.1186/s42492-025-00206-w
+[research_somerville_2026]: https://doi.org/10.3390/sci8040070
 [research_somsel_1970]: https://doi.org/10.21236/ad0703719
 [research_son_2023]: https://doi.org/10.1016/j.jfluidstructs.2023.103953
 [research_son_2025]: https://doi.org/10.1063/5.0296874
+[research_son_kim_2023]: https://doi.org/10.3390/aerospace10060494
 [research_song_2015]: https://doi.org/10.1299/jsmeapbio.2015.8.104
 [research_song_2019]: https://doi.org/10.1177/1687814019847863
 [research_song_2021]: https://doi.org/10.1080/14763141.2021.1877337
+[research_song_2023]: https://doi.org/10.1016/j.asd.2022.101225
+[research_song_paek_2020]: https://doi.org/10.3390/en13246604
 [research_song_qi_2016]: https://doi.org/10.1504/ijmic.2016.080302
+[research_song_xia_2015]: https://doi.org/10.4050/jahs.60.032013
+[research_soni_tiwari_2019]: https://doi.org/10.1007/s12046-018-1018-4
 [research_sopher_hallock_1985]: https://ntrs.nasa.gov/citations/19860005821
 [research_sorbello_2026]: https://doi.org/10.1002/anr3.70090
 [research_sou_2019]: https://doi.org/10.31979/mrj.2019.1511
@@ -4743,15 +6408,18 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_sponder_1950]: https://ntrs.nasa.gov/citations/20050028453
 [research_spreiter_stahara_1971]: https://doi.org/10.2514/3.49980
 [research_spring_1979]: https://doi.org/10.21236/ada080138
-[research_springer_1982]: https://doi.org/10.21236/ada121253
 [research_squire_1951]: https://doi.org/10.1017/s2753447200001360
 [research_squire_1968]: https://doi.org/10.2514/3.59588
 [research_sreeja_hablani_2016]: https://doi.org/10.2514/1.g000382
 [research_sreenivasulu_2021]: https://doi.org/10.18520/cs/v120/i1/96-104
+[research_sridharan_govindarajan_2022]: https://doi.org/10.4050/jahs.67.022004
 [research_srinivasan_mccroskey_1988]: https://ntrs.nasa.gov/citations/19890043972
 [research_srinivasan_mccroskey_1988_2]: https://doi.org/10.2514/3.45673
+[research_st_pierre_2015]: https://doi.org/10.1016/j.displa.2014.10.005
+[research_stachiw_2021]: https://doi.org/10.2514/1.c035921
 [research_stackfleth_1964]: https://doi.org/10.21236/ad0607781
 [research_stainback_2001]: https://doi.org/10.21236/ada389727
+[research_stalewski_2017]: https://doi.org/10.2478/tar-2017-0031
 [research_stalewski_2018]: https://doi.org/10.3390/computation6010016
 [research_stalewski_surmacz_2019]: https://doi.org/10.1051/matecconf/201930402011
 [research_stalewski_surmacz_2020]: https://doi.org/10.1108/aeat-12-2019-0264
@@ -4788,9 +6456,13 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_stockman_1974]: https://doi.org/10.1115/1.3445842
 [research_stone_1945]: https://doi.org/10.21236/ada801302
 [research_stone_1946]: https://doi.org/10.21236/ada801439
+[research_stortenbecker_dalhoff_2026]: https://doi.org/10.1088/1742-6596/3224/9/092030
+[research_stouti_2024]: https://doi.org/10.15866/irease.v17i2.24685
+[research_strampe_klingauf_2026]: https://doi.org/10.2514/1.g009745
 [research_straub_1984]: https://ntrs.nasa.gov/citations/19850007406
 [research_straub_1994]: https://doi.org/10.4050/jahs.39.56
 [research_strawn_biswas_1995]: https://doi.org/10.4050/jahs.40.66
+[research_strelkov_bozhko_2026]: https://doi.org/10.46684/2026.2.3
 [research_stremel_1990]: https://ntrs.nasa.gov/citations/19910001620
 [research_stresses_in_1938]: https://doi.org/10.1016/s0016-0032(38)90054-7
 [research_strier_1955]: https://doi.org/10.21236/ad0073570
@@ -4801,24 +6473,34 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_stroub_1979]: https://doi.org/10.4050/jahs.24.28
 [research_stroub_1991]: https://ntrs.nasa.gov/citations/19910009765
 [research_stroub_1992]: https://ntrs.nasa.gov/citations/19920000482
+[research_structural_and_2024]: https://doi.org/10.56042/ijftr.v49i4.3580
+[research_struniawski_2022]: https://doi.org/10.5604/01.3001.0015.8885
 [research_stuart_1943]: https://doi.org/10.2514/8.11009
 [research_studwell_1980]: https://doi.org/10.21236/ada088474
 [research_study_of_1971]: https://doi.org/10.1016/0042-207x(71)92643-1
 [research_sturgeon_bennett_1976]: https://ntrs.nasa.gov/citations/19770003424
 [research_stutz_1952]: https://doi.org/10.21236/ad0004986
+[research_su_2018]: https://doi.org/10.3390/app8050779
 [research_su_2021]: https://doi.org/10.2139/ssrn.3931672
+[research_su_jung_2023]: https://doi.org/10.4050/jahs.68.032010
+[research_su_jung_2024]: https://doi.org/10.4050/jahs.69.022004
 [research_su_wang_2015]: https://doi.org/10.1016/j.neucom.2015.03.063
 [research_su_wang_2021]: https://doi.org/10.1016/j.dt.2021.07.008
+[research_su_xu_2025]: https://doi.org/10.1109/tiv.2024.3426915
 [research_subramanya_deb_2016]: https://doi.org/10.1007/s40799-016-0053-5
 [research_suggs_1969]: https://doi.org/10.4050/jahs.14.3.25
 [research_suhadi_2022]: https://doi.org/10.1016/j.matpr.2022.09.011
 [research_sullivan_1944]: https://doi.org/10.21236/ad0050515
 [research_sullivan_1973]: https://doi.org/10.21236/ad0778768
 [research_sulsky_2010]: https://doi.org/10.21236/ada521324
+[research_sultania_manuel_2016]: https://doi.org/10.12989/was.2016.22.5.525
 [research_sun_2016]: https://doi.org/10.1016/j.renene.2016.05.035
 [research_sun_2017]: https://doi.org/10.5755/j01.itc.45.4.13678
 [research_sun_2017_2]: https://doi.org/10.1002/we.2110
+[research_sun_2020]: https://doi.org/10.1016/j.ast.2019.105631
+[research_sun_2023]: https://doi.org/10.3390/app14010144
 [research_sun_2024]: https://doi.org/10.54097/54mphq42
+[research_sun_2025]: https://doi.org/10.1007/s42405-025-00891-0
 [research_sun_2026]: https://doi.org/10.1016/j.oceaneng.2026.124270
 [research_sun_2026_2]: https://doi.org/10.1016/j.applthermaleng.2026.132006
 [research_sun_berreth_1987]: https://doi.org/10.21236/ada199310
@@ -4836,15 +6518,24 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_sweet_jenkins_1963]: https://doi.org/10.4050/jahs.8.4
 [research_swingle_1995]: https://doi.org/10.21236/ada296937
 [research_syed_ahmed_kabir_2022]: https://doi.org/10.3390/wind2040034
+[research_syneglazov_glukhov_2016]: https://doi.org/10.18372/1990-5548.48.11217
+[research_sysoyeva_2023]: https://doi.org/10.61260/1998-8990-2023-3-50-59
 [research_szabolcsi_2016]: https://doi.org/10.19062/1842-9238.2016.14.2.1
 [research_szewczyk_1992]: https://doi.org/10.21236/ada259501
+[research_sziroczak_2020]: https://doi.org/10.1016/j.energy.2020.117937
+[research_szulc_doerffer_2018]: https://doi.org/10.1088/1742-6596/1101/1/012042
 [research_t_k_c_1932]: https://doi.org/10.1016/s0016-0032(32)91056-4
 [research_taamallah_2017]: https://doi.org/10.1016/j.conengprac.2016.08.009
 [research_tabatabaei_2019]: https://doi.org/10.1115/1.4042713
+[research_taha_2016]: https://doi.org/10.2514/1.g001280
 [research_tahir_2018]: https://doi.org/10.1177/0309524x18791395
+[research_tahmasian_2023]: https://doi.org/10.1007/s11071-023-09053-x
 [research_takahashi_1994]: https://doi.org/10.4050/jahs.39.50
+[research_takahashi_2017]: https://doi.org/10.4050/jahs.62.032009
 [research_takahashi_2018]: https://doi.org/10.4050/jahs.63.042001
+[research_takahashi_2019]: https://doi.org/10.4050/jahs.64.032001
 [research_takato_shirayama_2017]: https://doi.org/10.1299/jsmedsd.2017.27.3305
+[research_takita_kashitani_2019]: https://doi.org/10.1299/jsmemovic.2019.16.b113
 [research_takizawa_2015]: https://doi.org/10.1007/s00466-014-1095-0
 [research_talaeizadeh_2020]: https://doi.org/10.1016/j.mechatronics.2020.102362
 [research_talaeizadeh_2021]: https://doi.org/10.1109/lra.2021.3052436
@@ -4855,17 +6546,27 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_talebi_2022]: https://doi.org/10.1109/tia.2022.3191300
 [research_talebi_2024]: https://doi.org/10.1109/tia.2024.3425802
 [research_tam_2015]: https://doi.org/10.21236/ada625859
+[research_tamer_masarati_2021]: https://doi.org/10.3390/aerospace9010010
 [research_tammaruckwattana_2015]: https://doi.org/10.1002/tee.22170
 [research_tan_2019]: https://doi.org/10.1002/oca.2506
 [research_tan_2023]: https://doi.org/10.1007/s11071-023-08619-z
+[research_taneich_rinoie_2025]: https://doi.org/10.2514/1.c035961
 [research_tang_2015]: https://ntrs.nasa.gov/citations/20160001843
 [research_tang_2017]: https://doi.org/10.3390/rs9111170
 [research_tang_2018]: https://doi.org/10.1109/tpwrs.2018.2827402
+[research_tang_2020]: https://doi.org/10.1016/j.renene.2019.12.042
+[research_tang_2021_2]: https://doi.org/10.1016/j.conengprac.2021.104827
+[research_tang_2026]: https://doi.org/10.34133/space.0448
 [research_tang_dowell_1995]: https://doi.org/10.2514/3.56920
+[research_tang_kumar_2018]: https://doi.org/10.1146/annurev-control-060117-105149
 [research_tangler_1979]: https://doi.org/10.21236/ada074141
 [research_tanner_2013]: https://ntrs.nasa.gov/citations/20150007467
 [research_tanner_2015]: https://ntrs.nasa.gov/citations/20170008183
+[research_tao_2015]: https://doi.org/10.1051/matecconf/20152205021
+[research_tao_2016]: https://doi.org/10.1007/s11771-016-3390-8
+[research_tao_2017]: https://doi.org/10.1109/tmech.2017.2766882
 [research_tao_2019]: https://doi.org/10.1109/access.2019.2905632
+[research_tao_2021]: https://doi.org/10.1016/j.ast.2021.106570
 [research_tapia_intano_1976]: https://doi.org/10.21236/ada021903
 [research_tappan_barbadillo_1937]: https://doi.org/10.2307/40078019
 [research_tardiff_2015]: https://doi.org/10.21236/ada622123
@@ -4877,6 +6578,10 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_taylor_mcnulty_1962]: https://ntrs.nasa.gov/citations/19730061711
 [research_technical_and_1976]: https://ntrs.nasa.gov/citations/19760021137
 [research_teichert_2026]: https://doi.org/10.1109/access.2026.3706820
+[research_teixeira_2018]: https://doi.org/10.1590/1806-9282.64.09.853
+[research_tejero_e_2016]: https://doi.org/10.4050/jahs.61.012001
+[research_teng_2016]: https://doi.org/10.1177/0037549716644507
+[research_teng_li_2017]: https://doi.org/10.1016/j.triboint.2016.09.030
 [research_terahara_2025]: https://doi.org/10.1007/s00466-025-02679-1
 [research_teresa_m_reiber]: https://ntrs.nasa.gov/citations/20240007845
 [research_teresa_m_reiber_2024]: https://ntrs.nasa.gov/citations/20240001933
@@ -4885,7 +6590,9 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_testea_1993]: https://doi.org/10.21236/ada267147
 [research_tetervin_1943]: https://ntrs.nasa.gov/citations/19930092777
 [research_tetervin_1963]: https://doi.org/10.21236/ad0400708
+[research_thai_kim_2015]: https://doi.org/10.1016/j.engfailanal.2015.07.005
 [research_the_advanced_1974]: https://doi.org/10.1108/eb035129
+[research_the_algorithm_2020]: https://doi.org/10.36652/0869-4931-2020-74-2-78-84
 [research_the_application_1985]: https://doi.org/10.1016/0003-6870(85)90060-2
 [research_the_autogiro_1925]: https://doi.org/10.1126/science.62.1611.x-u
 [research_the_autogiro_1934]: https://doi.org/10.1038/scientificamerican1034-172
@@ -4900,31 +6607,53 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_thomas_1961]: https://doi.org/10.21236/ad0400231
 [research_thomas_1993]: https://ntrs.nasa.gov/citations/19940009482
 [research_thomas_2015]: https://doi.org/10.21236/ada625771
+[research_thomas_2015_2]: https://doi.org/10.4244/eijv11i6a143
 [research_thomas_2023]: https://doi.org/10.1038/s41598-022-26770-2
 [research_thompson_1937]: https://doi.org/10.2514/8.455
 [research_thompson_1988]: https://doi.org/10.2514/3.45710
 [research_thompson_1989]: https://doi.org/10.1080/07481756.1989.12022919
+[research_tian_2017]: https://doi.org/10.1061/(asce)as.1943-5525.0000761
+[research_tian_2024]: https://doi.org/10.1109/lra.2024.3380925
 [research_tien_2020]: https://doi.org/10.54939/1859-1043.j.mst.68.2020.97-107
+[research_tierney_2021]: https://doi.org/10.1080/14763141.2021.2016929
 [research_tischler_1985]: https://doi.org/10.4050/jahs.30.38
+[research_tischler_2022]: https://doi.org/10.4050/jahs.67.041001
 [research_tischler_tobias_2016]: https://doi.org/10.21236/ad1008448
 [research_titov_2025]: https://doi.org/10.26467/2079-0619-2025-28-4-67-83
 [research_tobalske_2022]: https://doi.org/10.1016/j.cub.2022.07.007
 [research_toffol_ricci_2023]: https://doi.org/10.1016/j.compstruct.2022.116557
 [research_togino_1941]: https://doi.org/10.2534/jjasnaoe1903.1941.79
+[research_tokuoka_miwa_2015]: https://doi.org/10.1299/jsmermd.2015._2a2-f07_1
+[research_tokuoka_miwa_2015_2]: https://doi.org/10.1299/jsmecs.2015.53._801-1_
+[research_toma_2019]: https://doi.org/10.12792/jiiae.7.59
+[research_tomaszewski_koakowski_2023]: https://doi.org/10.3390/drones7090556
 [research_tomcsak_1960]: https://doi.org/10.21236/ad0243159
 [research_tomita_fujiwara_2021]: https://doi.org/10.1299/transjsme.20-00440
 [research_toms_1947]: https://doi.org/10.1108/eb031506
 [research_tong_2022]: https://doi.org/10.1063/5.0130626
 [research_tormen_2021]: https://doi.org/10.2514/1.j059314
+[research_toth_szalay_2023]: https://doi.org/10.3390/machines11111028
+[research_tran_2025]: https://doi.org/10.56651/lqdtu.jst.v20.n02.934
 [research_tran_lopez_2025]: https://doi.org/10.2514/1.c038190
+[research_transport_2022]: https://doi.org/10.1049/et.2022.0722
 [research_traven_whitley_1995]: https://doi.org/10.21236/ada300965
+[research_trifonov_2024]: https://doi.org/10.1007/s42401-023-00253-2
+[research_trigaux_2023]: https://doi.org/10.1088/1742-6596/2505/1/012034
+[research_tripathi_2018]: https://doi.org/10.1016/j.ifacol.2018.05.080
 [research_triplett_1984]: https://doi.org/10.2514/3.44968
 [research_trumpler_1966]: https://doi.org/10.1115/1.3625086
+[research_tsao_2015]: https://doi.org/10.1249/01.mss.0000476821.86120.8b
+[research_tschisgale_2021]: https://doi.org/10.1017/jfm.2020.858
+[research_tsitses_2024]: https://doi.org/10.3390/s24020680
 [research_tsuchiya_1982]: https://doi.org/10.1115/1.3256353
 [research_tublitz_1979]: https://doi.org/10.4148/1941-4765.1708
 [research_tung_ting_1967]: https://doi.org/10.1063/1.1762240
+[research_tupkalo_cherepkov_2024]: https://doi.org/10.33955/v7(2024)-043
 [research_turan_2021]: https://doi.org/10.31127/tuje.744954
+[research_turchetti_conde_rocha_murca_2024]: https://doi.org/10.58922/transportes.v32i1.2896
 [research_turgut_2019]: https://doi.org/10.2514/1.c033911
+[research_turhan_2025]: https://doi.org/10.3390/drones9080544
+[research_turkoglu_2018]: https://doi.org/10.1109/mcs.2018.2851088
 [research_turnbow_1967]: https://doi.org/10.21236/ad0661088
 [research_turner_1975]: https://doi.org/10.21236/ada013500
 [research_turner_1982]: https://doi.org/10.2514/3.57431
@@ -4933,20 +6662,36 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_u_s_standard_1962]: https://ntrs.nasa.gov/citations/19630003300
 [research_u_s_standard_1966]: https://ntrs.nasa.gov/citations/19670028571
 [research_u_s_standard_1976]: https://ntrs.nasa.gov/citations/19770009539
+[research_ucar_2025]: https://doi.org/10.55525/tjst.1518569
+[research_uchida_2023]: https://doi.org/10.1177/0309524x221150219
 [research_uchiyam_2015]: https://doi.org/10.4172/2090-8369.1000107
+[research_uchman_2025]: https://doi.org/10.5604/01.3001.0055.5046
+[research_ugwueze_2023]: https://doi.org/10.3390/aerospace10030311
 [research_ul_islam_rizvi_2015]: https://doi.org/10.1108/aeat-04-2013-0079
+[research_ullah_2020]: https://doi.org/10.1016/j.compstruct.2020.112426
+[research_uluocak_2021]: https://doi.org/10.1016/j.ast.2021.106671
 [research_umale_2022]: https://doi.org/10.1080/15389588.2022.2135373
+[research_unal_2023]: https://doi.org/10.1108/aeat-02-2022-0056
 [research_unitary_plan_1962]: https://ntrs.nasa.gov/citations/20070030960
 [research_upton_1966]: https://doi.org/10.4050/jahs.11.11
 [research_upton_young_1965]: https://doi.org/10.21236/ad0656439
 [research_use_of_1974]: https://doi.org/10.1016/0010-4361(74)90389-9
+[research_usiak_2022]: https://doi.org/10.12913/22998624/155168
 [research_usry_1969]: https://ntrs.nasa.gov/citations/19690008066
 [research_utreja_1977]: https://doi.org/10.2514/3.57170
 [research_uzun_2024]: https://doi.org/10.1108/aeat-11-2023-0302
+[research_vafamand_arefi_2021]: https://doi.org/10.1002/rnc.5933
 [research_vagianos_rooney_1964]: https://doi.org/10.21236/ad0625722
 [research_vague_seibel_1959]: https://doi.org/10.4050/jahs.4.4.22
+[research_valasek_2017]: https://doi.org/10.2514/1.g001888
 [research_valle_girolamo_1975]: https://doi.org/10.1111/j.2153-3490.1975.tb01660.x
+[research_vambol_kaluzhynov_2023]: https://doi.org/10.15407/knit2023.05.033
+[research_van_2019]: https://doi.org/10.1016/j.ifacol.2019.11.295
+[research_van_de_berg_2017]: https://doi.org/10.1016/j.jvir.2016.07.018
+[research_van_der_laan_2024]: https://doi.org/10.5194/wes-9-1985-2024
 [research_van_der_wall_2015]: https://ntrs.nasa.gov/citations/20190027229
+[research_van_der_wall_2017]: https://doi.org/10.4050/jahs.62.042001
+[research_van_der_wall_2019]: https://doi.org/10.1017/aer.2019.59
 [research_van_gaasbeek_1980]: https://doi.org/10.21236/ada089008
 [research_van_gunsteren_1971]: https://doi.org/10.3233/isp-1971-1820601
 [research_van_leeuwen_1960]: https://doi.org/10.1108/eb033314
@@ -4959,31 +6704,49 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_vance_1974]: https://doi.org/10.21236/ad0787319
 [research_vanweddingen_2012]: https://ntrs.nasa.gov/citations/20130010988
 [research_vargas_2015]: https://doi.org/10.14323/ijuseng.2015.3
+[research_vasilchenko_2026]: https://doi.org/10.26898/0370-8799-2026-1-7
 [research_vaughan_1966]: https://doi.org/10.2307/1378121
+[research_vechtel_2018]: https://doi.org/10.1007/s13272-018-0318-z
+[research_vechtel_2019]: https://doi.org/10.1007/s13272-019-00410-4
+[research_vechtel_buch_2022]: https://doi.org/10.1007/s13272-022-00595-1
+[research_veismann_2021]: https://doi.org/10.1007/s00348-021-03278-5
 [research_veismann_2023]: https://doi.org/10.1017/flo.2022.31
 [research_velkoff_1958]: https://doi.org/10.4050/jahs.3.4.3
 [research_velkoff_1969]: https://doi.org/10.21236/ad0860689
 [research_velkoff_1971]: https://doi.org/10.2514/3.44236
 [research_velkoff_1981]: https://ntrs.nasa.gov/citations/19820010285
 [research_velkoff_parker_1982]: https://ntrs.nasa.gov/citations/19820056976
+[research_vempati_2024]: https://doi.org/10.2514/1.d0366
 [research_venelin_stoyanov_jivkov_2022]: https://doi.org/10.30574/gjeta.2022.13.3.0151
+[research_veneruso_2025]: https://doi.org/10.3390/s25082429
 [research_venkataraman_2017]: https://doi.org/10.2514/1.c033832
 [research_venkataraman_seiler_2019]: https://doi.org/10.2514/1.c035141
 [research_ventres_1972]: https://doi.org/10.1090/qam/99748
+[research_verbeke_schutter_2017]: https://doi.org/10.1177/1756829317736204
 [research_verma_1991]: https://doi.org/10.21236/ada604301
 [research_vertical_take_off_1935]: https://doi.org/10.1038/135464b0
 [research_viano_2023]: https://doi.org/10.1080/15389588.2023.2171177
 [research_viano_2024]: https://doi.org/10.1080/15389588.2024.2315892
 [research_viano_parenteau_2017]: https://doi.org/10.1080/15389588.2017.1307970
+[research_viano_white_2016]: https://doi.org/10.1080/15389588.2015.1111513
+[research_vieira_2017]: https://doi.org/10.4172/2329-9533.1000e103
 [research_viets_1973]: https://doi.org/10.1115/1.3423060
+[research_villeneuve_2020]: https://doi.org/10.3390/aerospace7050062
+[research_villeneuve_2020_2]: https://doi.org/10.3390/aerospace7050054
+[research_villeneuve_2022]: https://doi.org/10.3390/drones6110345
 [research_violette_1984]: https://ntrs.nasa.gov/citations/19880004715
 [research_vladimirov_koceski_2019]: https://doi.org/10.5120/ijca2019919296
+[research_vlastos_2026]: https://doi.org/10.1088/1742-6596/3224/4/042035
 [research_vocke_nunez_2016]: https://doi.org/10.21236/ad1011994
+[research_vogel_rudolph_2018]: https://doi.org/10.18287/2223-9537-2018-8-3-323-346
+[research_volobuev_2023]: https://doi.org/10.36535/0235-5000-2023-01-1
 [research_von_bahr_1950]: https://doi.org/10.1017/s2753447200005102
 [research_von_hessling_2026]: https://doi.org/10.3390/neurolint18010016
 [research_vorobev_2020]: https://doi.org/10.26467/2079-0619-2020-23-4-33-44
+[research_voskuijl_verhagen_2017]: https://doi.org/10.4050/jahs.63.012005
 [research_vouros_2021]: https://doi.org/10.4050/jahs.66.012005
 [research_vratny_hornung_2018]: https://doi.org/10.1016/j.trpro.2018.02.037
+[research_vu_2016]: https://doi.org/10.1016/j.cja.2016.10.001
 [research_wachlin_2019]: https://doi.org/10.1016/j.ast.2019.04.036
 [research_wadia_booth_1982]: https://doi.org/10.1115/1.3227245
 [research_wagner_1983]: https://doi.org/10.1109/tmag.1983.1062665
@@ -4991,6 +6754,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_wakabayashi_2022]: https://doi.org/10.1016/j.jbiomech.2022.111382
 [research_walcott_1963]: https://doi.org/10.21236/ad0296915
 [research_walker_2015]: https://doi.org/10.31356/avi-fac0003
+[research_walko_peinecke_2020]: https://doi.org/10.1117/1.oe.59.4.043104
 [research_wall_1973]: https://doi.org/10.21236/ad0772947
 [research_wallace_2000]: https://doi.org/10.21236/ada382563
 [research_wallace_h_deckert_1966]: https://ntrs.nasa.gov/citations/19660015323
@@ -5002,39 +6766,72 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_walsh_1977]: https://doi.org/10.2514/3.7386
 [research_walsh_1984]: https://ntrs.nasa.gov/citations/19870002320
 [research_walsh_1992]: https://ntrs.nasa.gov/citations/19920011175
+[research_wan_2025]: https://doi.org/10.54691/c5dzar63
+[research_wan_muhammad_mohd_2023]: https://doi.org/10.30880/paat.2023.03.02.003
+[research_wan_yong_2025]: https://doi.org/10.1049/cth2.70094
 [research_wang_1995]: https://ntrs.nasa.gov/citations/19960022316
 [research_wang_1999]: https://ntrs.nasa.gov/citations/20040086741
+[research_wang_2015]: https://doi.org/10.4028/www.scientific.net/msf.813.10
+[research_wang_2017_2]: https://doi.org/10.1016/j.ifacol.2017.08.609
+[research_wang_2017_4]: https://doi.org/10.1177/0142331217713837
 [research_wang_2018]: https://doi.org/10.1016/j.cja.2018.01.024
 [research_wang_2018_2]: https://doi.org/10.3390/s18124504
+[research_wang_2018_4]: https://doi.org/10.1515/tjj-2018-0004
+[research_wang_2018_6]: https://doi.org/10.2514/1.j057118
+[research_wang_2018_7]: https://doi.org/10.1016/j.energy.2018.06.093
+[research_wang_2018_8]: https://doi.org/10.1016/j.cja.2018.03.001
+[research_wang_2018_9]: https://doi.org/10.1016/j.measurement.2018.04.049
 [research_wang_2019]: https://doi.org/10.1088/1742-6596/1215/1/012041
 [research_wang_2019_2]: https://doi.org/10.2514/1.c035209
 [research_wang_2020]: https://doi.org/10.3390/app10082917
+[research_wang_2020_3]: https://doi.org/10.1007/s40295-020-00235-y
+[research_wang_2020_5]: https://doi.org/10.1109/access.2020.2977681
 [research_wang_2022]: https://doi.org/10.1016/j.ast.2021.107302
 [research_wang_2022_2]: https://doi.org/10.1049/icp.2022.1550
+[research_wang_2022_5]: https://doi.org/10.1109/access.2022.3171337
+[research_wang_2022_6]: https://doi.org/10.2139/ssrn.4000399
+[research_wang_2022_7]: https://doi.org/10.1080/13588265.2022.2075099
+[research_wang_2022_8]: https://doi.org/10.1007/s11071-021-07145-0
 [research_wang_2023]: https://doi.org/10.1016/j.energy.2023.129052
+[research_wang_2023_3]: https://doi.org/10.3390/drones7120703
 [research_wang_2024]: https://doi.org/10.31449/inf.v48i23.6741
+[research_wang_2024_11]: https://doi.org/10.3390/act13020076
 [research_wang_2024_4]: https://doi.org/10.3390/aerospace11040322
+[research_wang_2024_5]: https://doi.org/10.1016/j.actaastro.2024.01.006
+[research_wang_2024_6]: https://doi.org/10.1109/access.2024.3492200
+[research_wang_2024_7]: https://doi.org/10.1016/j.taml.2024.100538
+[research_wang_2024_9]: https://doi.org/10.1016/j.device.2024.100293
 [research_wang_2025]: https://doi.org/10.56028/aetr.13.1.251.2025
 [research_wang_2025_2]: https://doi.org/10.1063/5.0282078
 [research_wang_2025_3]: https://doi.org/10.1186/s42774-024-00192-2
 [research_wang_2026]: https://doi.org/10.1088/1742-6596/3240/1/012007
 [research_wang_2026_2]: https://doi.org/10.47176/jafm.19.9.4322
 [research_wang_2026_3]: https://doi.org/10.3389/fpsyg.2026.1778145
+[research_wang_2026_4]: https://doi.org/10.1063/5.0293303
 [research_wang_cao_2025]: https://doi.org/10.1007/s11831-025-10261-4
 [research_wang_talbot_1989]: https://ntrs.nasa.gov/citations/19900025714
 [research_wang_yang_2024]: https://doi.org/10.3390/aerospace11020118
+[research_wang_zhang_2018]: https://doi.org/10.1109/tie.2017.2772153
 [research_ward_1970]: https://doi.org/10.21236/ada036485
 [research_ward_2024]: https://doi.org/10.2514/1.c037791
 [research_ward_smith_1983]: https://doi.org/10.1016/0021-9290(83)90116-1
 [research_warner_1993]: https://doi.org/10.21236/ada267019
+[research_warner_rogers_2018]: https://doi.org/10.2514/1.c034827
+[research_warner_rogers_2019]: https://doi.org/10.2514/1.c035201
+[research_warsch_2026]: https://doi.org/10.3390/aerospace13070623
 [research_warsett_1953]: https://doi.org/10.21236/ad0015981
 [research_washington_1975]: https://doi.org/10.21236/ada017378
 [research_wasserstrom_1983]: https://doi.org/10.2514/3.8179
+[research_watson_2025]: https://doi.org/10.1016/j.amj.2025.06.002
 [research_watts_1947]: https://doi.org/10.1126/science.105.2735.583
+[research_wauters_2022]: https://doi.org/10.1177/17568293221092139
 [research_wax_tocci_1966]: https://doi.org/10.21236/ad0647365
 [research_waxman_2019]: https://doi.org/10.1515/ijnes-2018-0067
+[research_webb_rogers_2021]: https://doi.org/10.2514/1.c036206
+[research_weber_2019]: https://doi.org/10.4050/jahs.64.035001
 [research_wei_2018]: https://doi.org/10.1155/2018/5904724
 [research_wei_2019]: https://doi.org/10.1177/1729881418817971
+[research_wei_2022]: https://doi.org/10.1016/j.ifacol.2022.07.277
 [research_wei_2024]: https://doi.org/10.1016/j.ast.2024.108964
 [research_wei_2024_2]: https://doi.org/10.1063/5.0212347
 [research_wei_2025]: https://doi.org/10.1016/j.energy.2025.138575
@@ -5055,6 +6852,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_wells_brunk_1979]: https://doi.org/10.1016/0003-2697(79)90346-4
 [research_wen_2022]: https://doi.org/10.3390/aerospace10010015
 [research_wen_2025]: https://doi.org/10.1051/jnwpu/20254361101
+[research_weng_2021]: https://doi.org/10.3390/wevj12040199
 [research_wenqian_2016]: https://doi.org/10.1016/j.ifacol.2016.12.210
 [research_wentworth_1995]: https://doi.org/10.21236/ada296675
 [research_wentz_1980]: https://ntrs.nasa.gov/citations/19800019302
@@ -5065,6 +6863,8 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_wernicke_1977]: https://ntrs.nasa.gov/citations/19770057206
 [research_wesolek_2007]: https://doi.org/10.21236/ada465655
 [research_west_1980]: https://doi.org/10.21236/ada096597
+[research_westcott_2023]: https://doi.org/10.1016/j.ast.2023.108552
+[research_wester_2021]: https://doi.org/10.18409/ispiv.v1i1.195
 [research_wheatley_1930]: https://ntrs.nasa.gov/citations/19930081369
 [research_wheatley_1933]: https://ntrs.nasa.gov/citations/19930091508
 [research_wheatley_1934]: https://doi.org/10.2514/8.22
@@ -5076,11 +6876,14 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_wheatley_1945]: https://ntrs.nasa.gov/citations/20180002406
 [research_white_1968]: https://doi.org/10.2514/3.48092
 [research_white_1969]: https://doi.org/10.4050/jahs.14.2.3
+[research_white_2021]: https://doi.org/10.1007/s13272-021-00542-6
 [research_whitlow_whitner_1976]: https://ntrs.nasa.gov/citations/19760018069
 [research_wickens_dixon_2002]: https://doi.org/10.21236/ada496813
 [research_wiesner_kohler_1974]: https://doi.org/10.4050/jahs.19.3.2
 [research_wilbur_wilkie_2004]: https://ntrs.nasa.gov/citations/20040191534
 [research_wilcox_1963]: https://doi.org/10.21236/ad0400570
+[research_wiley_2025]: https://doi.org/10.5194/wes-10-941-2025
+[research_wilk_guzikowski_2019]: https://doi.org/10.2478/tar-2019-0020
 [research_wilkerson_1974]: https://doi.org/10.4050/jahs.19.2.2
 [research_wilkerson_1983]: https://doi.org/10.21236/ada141725
 [research_wilkerson_smith_2008]: https://ntrs.nasa.gov/citations/20110012988
@@ -5101,11 +6904,14 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_wimpress_1966]: https://doi.org/10.1108/eb034156
 [research_win_2019]: https://doi.org/10.1109/lra.2019.2924837
 [research_win_2019_2]: https://doi.org/10.1007/s41315-019-00091-6
+[research_win_2021]: https://doi.org/10.1088/1748-3190/ac253a
 [research_win_2022]: https://doi.org/10.1109/tro.2021.3091275
 [research_win_thu_2025]: https://doi.org/10.1109/access.2025.3531696
 [research_wing_landing_1933]: https://doi.org/10.2514/8.10099
 [research_winn_kishi_1972]: https://doi.org/10.21236/ad0753343
+[research_winning_2026]: https://doi.org/10.1177/0309524x261418581
 [research_winzen_research_inc_minneapolis_mn_1963]: https://doi.org/10.21236/ad0292960
+[research_witold_j_f_koning]: https://ntrs.nasa.gov/citations/20230012866
 [research_wojtas_sobieszek_2019]: https://doi.org/10.2478/kones-2019-0082
 [research_wolfe_1973]: https://doi.org/10.21236/ad0759676
 [research_wolfe_peters_1968]: https://doi.org/10.21236/ad0666476
@@ -5114,8 +6920,11 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_woloshen_1974]: https://doi.org/10.21236/ada043527
 [research_wong_mastroianni_1999]: https://doi.org/10.21236/ada362873
 [research_wood_1957]: https://doi.org/10.1086/107632
+[research_wood_2015]: https://doi.org/10.4271/2015-01-2859
+[research_wood_golmirzaee_2023]: https://doi.org/10.3389/fenrg.2023.1256308
 [research_wood_okulov_2017]: https://doi.org/10.1016/j.renene.2017.02.027
 [research_woodward_1984]: https://doi.org/10.2514/3.45012
+[research_woodward_2021]: https://doi.org/10.1353/mfs.2021.0035
 [research_woolf_2012]: https://doi.org/10.21236/ada583117
 [research_woomer_carico_1977]: https://doi.org/10.21236/ada039234
 [research_wortman_1969]: https://doi.org/10.2514/3.29567
@@ -5126,19 +6935,47 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_wu_2015]: https://doi.org/10.9734/bjast/2015/17376
 [research_wu_2017]: https://doi.org/10.1016/s1672-6529(16)60438-9
 [research_wu_2018]: https://doi.org/10.1177/1729881418766190
+[research_wu_2020]: https://doi.org/10.2514/1.g004088
 [research_wu_2021]: https://doi.org/10.1016/j.ast.2021.106530
 [research_wu_2021_2]: https://doi.org/10.1016/j.ast.2021.106710
+[research_wu_2021_3]: https://doi.org/10.1063/5.0050236
 [research_wu_2022]: https://doi.org/10.1177/16878132221107473
+[research_wu_2022_2]: https://doi.org/10.1038/s41598-022-15068-y
+[research_wu_2023]: https://doi.org/10.3390/aerospace10050387
+[research_wu_2026]: https://doi.org/10.1016/j.energy.2026.141567
 [research_wu_sigman_1975]: https://ntrs.nasa.gov/citations/19750019952
 [research_wyckhouse_cresap_1963]: https://doi.org/10.21236/ad0422034
 [research_wyrick_1965]: https://doi.org/10.21236/ad0627372
+[research_xi_2022]: https://doi.org/10.1109/access.2022.3199004
 [research_xia_2019]: https://doi.org/10.1177/1461348419861837
+[research_xia_2022]: https://doi.org/10.1016/j.conengprac.2022.105288
+[research_xiao_2024]: https://doi.org/10.3390/aerospace11050408
+[research_xiao_2025]: https://doi.org/10.3390/aerospace12111009
+[research_xiao_shi_2024]: https://doi.org/10.1088/1742-6596/2784/1/012011
 [research_xie_2017]: https://doi.org/10.1016/j.energy.2016.12.051
 [research_xie_2017_2]: https://doi.org/10.3390/app7060639
 [research_xie_2023]: https://doi.org/10.2514/1.c037239
+[research_xie_2026]: https://doi.org/10.1016/j.ast.2026.112617
+[research_xin_2017_2]: https://doi.org/10.1088/1755-1315/94/1/012199
+[research_xin_lee_2024]: https://doi.org/10.3390/wevj15090423
+[research_xing_2023]: https://doi.org/10.1061/jaeeez.aseng-4856
+[research_xing_2024]: https://doi.org/10.1109/taes.2024.3383815
 [research_xiong_2023]: https://doi.org/10.1016/j.est.2023.108598
+[research_xu_2023]: https://doi.org/10.1016/j.ifacol.2023.10.1483
+[research_xu_2023_3]: https://doi.org/10.54254/2753-8818/18/20230256
 [research_xu_2024]: https://doi.org/10.1134/s0015462824603814
+[research_xu_2024_2]: https://doi.org/10.3390/systems12120523
+[research_xu_2025_2]: https://doi.org/10.1007/s42405-025-01049-8
+[research_xu_2025_4]: https://doi.org/10.3390/drones9040269
+[research_xu_prasad_2022]: https://doi.org/10.2217/cer-2021-0171
+[research_xue_2016]: https://doi.org/10.1177/1756829316663705
+[research_xue_2019]: https://doi.org/10.1016/j.ast.2019.105491
+[research_xue_2022]: https://doi.org/10.3390/jmse10111774
 [research_xue_2023]: https://doi.org/10.3390/electronics12041029
+[research_yacoub_2020]: https://doi.org/10.1177/0037549720946107
+[research_yadav_2026]: https://doi.org/10.1007/s10686-026-10051-1
+[research_yakhlef_murea_2021]: https://doi.org/10.3390/fluids6020051
+[research_yamaguchi_anyoji_2023]: https://doi.org/10.4236/jfcmv.2023.112003
 [research_yamakawa_1972]: https://doi.org/10.21236/ad0771051
 [research_yamakawa_1972_2]: https://doi.org/10.21236/ad0771161
 [research_yamakawa_1977]: https://doi.org/10.21236/ada074895
@@ -5148,30 +6985,49 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_yamanaka_1976]: https://doi.org/10.1252/kakoronbunshu.2.222
 [research_yamauchi_johnson_1984]: https://ntrs.nasa.gov/citations/19840058565
 [research_yan_2019]: https://doi.org/10.1051/jnwpu/20193761138
+[research_yan_2023]: https://doi.org/10.1109/access.2023.3271861
+[research_yan_2023_3]: https://doi.org/10.3390/en16227529
 [research_yan_2024]: https://doi.org/10.1016/j.ast.2023.108828
 [research_yan_2024_2]: https://doi.org/10.3390/aerospace11050332
+[research_yan_2024_3]: https://doi.org/10.1016/j.cja.2023.09.016
 [research_yan_2025]: https://doi.org/10.1016/j.jocs.2025.102639
+[research_yan_2026]: https://doi.org/10.3390/aerospace13030276
+[research_yan_chen_2019]: https://doi.org/10.1016/j.cja.2018.06.010
+[research_yanev_staack_2026]: https://doi.org/10.3390/aerospace13070566
 [research_yang_2004]: https://doi.org/10.21236/ada426510
 [research_yang_2013]: https://doi.org/10.21236/ada592189
 [research_yang_2015]: https://doi.org/10.1177/155892501501000119
 [research_yang_2016]: https://doi.org/10.3390/en9121023
+[research_yang_2017]: https://doi.org/10.17485/ijst/2017/v10i3/105778
 [research_yang_2018]: https://doi.org/10.1108/ec-06-2016-0195
+[research_yang_2018_2]: https://doi.org/10.4050/jahs.63.022007
 [research_yang_2019]: https://doi.org/10.1016/j.energy.2019.116270
+[research_yang_2019_3]: https://doi.org/10.2514/1.c034873
 [research_yang_2020]: https://doi.org/10.1016/j.cja.2020.03.005
+[research_yang_2020_3]: https://doi.org/10.1016/j.apacoust.2019.107128
 [research_yang_2021]: https://doi.org/10.1016/j.joule.2021.05.001
 [research_yang_2023]: https://doi.org/10.2514/1.g007191
 [research_yang_2024_2]: https://doi.org/10.1016/j.jbiomech.2024.111996
 [research_yang_2025]: https://doi.org/10.1016/j.ast.2024.109910
 [research_yang_2025_2]: https://doi.org/10.1155/ijae/2699168
 [research_yang_2025_3]: https://doi.org/10.1007/s44270-025-00017-7
+[research_yang_2025_4]: https://doi.org/10.3390/drones9100690
+[research_yang_2025_5]: https://doi.org/10.1016/j.aets.2025.10.005
+[research_yang_2025_6]: https://doi.org/10.1109/tase.2025.3591880
 [research_yang_2026]: https://doi.org/10.3390/aerospace13080669
 [research_yang_2026_3]: https://doi.org/10.1007/s00202-026-03570-9
+[research_yang_2026_6]: https://doi.org/10.1016/j.ast.2026.112365
+[research_yang_2026_8]: https://doi.org/10.1109/led.2026.3707181
 [research_yang_jeon_2019]: https://doi.org/10.2514/1.g003944
+[research_yang_wang_2022]: https://doi.org/10.1016/j.eswa.2022.117582
+[research_yang_wei_2020]: https://doi.org/10.2514/1.g005000
 [research_yano_morrison_2024]: https://doi.org/10.1017/jfm.2024.485
 [research_yao_2016]: https://doi.org/10.1016/j.measurement.2016.01.028
+[research_yao_2018]: https://doi.org/10.2514/1.g003501
 [research_yao_2020]: https://doi.org/10.1016/j.measurement.2019.107317
 [research_yatsukhno_2023]: https://doi.org/10.1134/s0015462823601080
 [research_ye_2019_2]: https://doi.org/10.1016/j.advengsoft.2017.10.010
+[research_ye_2025]: https://doi.org/10.1016/j.aap.2025.108014
 [research_ye_2026]: https://doi.org/10.3357/amhp.6814.2026
 [research_yeager_1997]: https://doi.org/10.21236/ada406400
 [research_yeager_mantay_1981]: https://ntrs.nasa.gov/citations/19820005234
@@ -5180,28 +7036,55 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_yen_1978]: https://doi.org/10.21236/ada076375
 [research_yeo_johnson_2006]: https://ntrs.nasa.gov/citations/20070017929
 [research_yeo_johnson_2006_2]: https://ntrs.nasa.gov/citations/20070017928
+[research_yeo_johnson_2015]: https://doi.org/10.2514/1.c032693
+[research_yesilbas_2025]: https://doi.org/10.1007/s12046-025-02850-7
+[research_yetgin_tezcan_2019]: https://doi.org/10.21923/jesd.448187
 [research_yi_2025]: https://doi.org/10.1016/j.cie.2025.111391
 [research_yilmaz_2023]: https://doi.org/10.1016/j.energy.2023.128607
+[research_yin_2021]: https://doi.org/10.1166/jno.2021.2996
 [research_yin_2022]: https://doi.org/10.1088/1742-6596/2265/4/042058
 [research_yin_2024]: https://doi.org/10.3390/math12233739
+[research_yin_2024_2]: https://doi.org/10.4236/ojsst.2024.142002
 [research_yin_2025]: https://doi.org/10.3390/drones9050329
+[research_yin_2025_2]: https://doi.org/10.1016/j.enconman.2025.119619
 [research_ying_2019]: https://doi.org/10.1088/1757-899x/631/4/042005
 [research_yldrm_2019]: https://doi.org/10.1016/j.measurement.2019.07.062
+[research_yoakum_cerreta_2020]: https://doi.org/10.15394/ijaaa.2020.1524
+[research_yoganandan_2020]: https://doi.org/10.1080/15389588.2020.1829925
+[research_yoshida_2016]: https://doi.org/10.3390/en9090742
 [research_yoshida_2018]: https://doi.org/10.3390/en11102521
+[research_yoshida_2024]: https://doi.org/10.3390/app14114782
+[research_yoshida_fekry_2024]: https://doi.org/10.3390/en17051030
+[research_yoshida_fukui_2024]: https://doi.org/10.3390/biomimetics9040249
 [research_yoshizawa_1972]: https://doi.org/10.1143/jpsj.32.1677
 [research_young_1964]: https://doi.org/10.4050/jahs.9.12
 [research_young_1966]: https://doi.org/10.1016/0022-460x(66)90136-2
 [research_young_1974]: https://ntrs.nasa.gov/citations/19740026396
 [research_young_2001]: https://ntrs.nasa.gov/citations/20020044432
 [research_young_lytwyn_1967]: https://doi.org/10.4050/jahs.12.38
+[research_yu_2017]: https://doi.org/10.3791/56288
+[research_yu_2020]: https://doi.org/10.1007/s11071-020-05915-w
+[research_yu_2022]: https://doi.org/10.3390/app12168189
 [research_yu_2024]: https://doi.org/10.1049/elp2.12447
+[research_yu_2024_2]: https://doi.org/10.1109/tie.2023.3347848
+[research_yu_2024_3]: https://doi.org/10.3390/math12111673
+[research_yu_2024_4]: https://doi.org/10.3397/in_2024_3431
 [research_yu_2025]: https://doi.org/10.3390/app151910493
+[research_yu_2025_2]: https://doi.org/10.1016/j.neucom.2025.130176
+[research_yu_2025_3]: https://doi.org/10.1109/tase.2025.3563071
 [research_yu_2026]: https://doi.org/10.1016/j.rineng.2026.112054
+[research_yuan_2024]: https://doi.org/10.1109/jas.2024.124254
+[research_yuan_duan_2024]: https://doi.org/10.1109/tii.2023.3268439
+[research_yue_2016]: https://doi.org/10.1016/j.ast.2016.08.015
 [research_yuk_2024]: https://doi.org/10.3397/in_2024_3428
+[research_yulianingtyas_haqi_2021]: https://doi.org/10.20473/ijosh.v10i1.2021.97-104
+[research_yun_2021]: https://doi.org/10.3390/s21124037
 [research_yushan_2025]: https://doi.org/10.1063/5.0249868
+[research_yust_2020]: https://doi.org/10.1111/musa.12138
 [research_yuvarajan_2001]: https://doi.org/10.21236/ada399688
 [research_zachary_stapper_1998]: https://doi.org/10.21236/ada351965
 [research_zaitsev_1987]: https://doi.org/10.1007/bf01524153
+[research_zanon_de_gennaro_2022]: https://doi.org/10.2514/1.c036601
 [research_zanoosi_2021]: https://doi.org/10.1504/ijvs.2021.121451
 [research_zanotti_2022]: https://doi.org/10.3390/en15062072
 [research_zare_2019]: https://doi.org/10.1016/j.measurement.2018.08.074
@@ -5211,40 +7094,78 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [research_zeng_2024]: https://doi.org/10.1063/5.0200688
 [research_zenobi_1977]: https://doi.org/10.21236/ada038762
 [research_zenobi_1978]: https://doi.org/10.21236/ada067124
+[research_zhan_2026]: https://doi.org/10.1109/access.2026.3701403
 [research_zhang_2018]: https://doi.org/10.12783/dtcse/cmee2017/20035
 [research_zhang_2018_2]: https://doi.org/10.3390/s18082655
 [research_zhang_2018_3]: https://doi.org/10.1016/j.measurement.2018.06.045
+[research_zhang_2019]: https://doi.org/10.3390/atmos10030132
+[research_zhang_2019_2]: https://doi.org/10.1080/19942060.2019.1585953
 [research_zhang_2021]: https://doi.org/10.1504/ijes.2021.120256
+[research_zhang_2021_4]: https://doi.org/10.1016/j.ast.2020.106400
 [research_zhang_2022]: https://doi.org/10.1016/j.ast.2022.107844
 [research_zhang_2023]: https://doi.org/10.2514/1.g007398
+[research_zhang_2023_3]: https://doi.org/10.1016/j.cja.2022.07.024
 [research_zhang_2024]: https://doi.org/10.1186/s42774-023-00162-0
-[research_zhang_2024_3]: https://doi.org/10.3390/drones8020046
-[research_zhang_2024_4]: https://doi.org/10.1016/j.energy.2024.133034
-[research_zhang_2024_5]: https://doi.org/10.1016/j.measurement.2024.114990
 [research_zhang_2025]: https://doi.org/10.1016/j.enconman.2025.119872
+[research_zhang_2025_4]: https://doi.org/10.1038/s41598-025-12929-0
 [research_zhang_2026]: https://doi.org/10.54097/8b2agg53
 [research_zhang_2026_3]: https://doi.org/10.1016/j.renene.2026.126132
 [research_zhang_2026_4]: https://doi.org/10.1063/5.0318862
+[research_zhang_2026_7]: https://doi.org/10.3390/machines14070813
+[research_zhang_2027]: https://doi.org/10.1016/j.ress.2026.113082
+[research_zhang_li_2018]: https://doi.org/10.1049/el.2017.4317
+[research_zhang_liu_2017]: https://doi.org/10.3389/fenrg.2017.00031
+[research_zhang_wang_2022]: https://doi.org/10.1177/17568293221125846
+[research_zhang_wang_2025]: https://doi.org/10.1038/s41598-025-03263-6
+[research_zhang_wu_2025]: https://doi.org/10.1177/10775463251347061
+[research_zhang_wu_2026]: https://doi.org/10.1109/tie.2025.3629369
+[research_zhang_yang_2021]: https://doi.org/10.1515/tjj-2021-0008
+[research_zhao_2017]: https://doi.org/10.3390/app7040381
 [research_zhao_2018]: https://doi.org/10.3390/fluids3020029
+[research_zhao_2018_2]: https://doi.org/10.1051/matecconf/201817903011
+[research_zhao_2019]: https://doi.org/10.1016/j.ast.2019.01.052
 [research_zhao_2020]: https://doi.org/10.1109/access.2020.3017539
 [research_zhao_2021]: https://doi.org/10.1109/access.2021.3050275
+[research_zhao_2022_2]: https://doi.org/10.1016/j.energy.2022.123580
 [research_zhao_2023]: https://doi.org/10.2514/1.c037208
+[research_zhao_2023_4]: https://doi.org/10.1016/j.oceaneng.2023.114974
 [research_zhao_2024]: https://doi.org/10.2514/1.c037404
+[research_zhao_2024_3]: https://doi.org/10.3390/drones8070311
+[research_zhao_2025]: https://doi.org/10.1016/j.actaastro.2024.11.056
+[research_zhao_2026_2]: https://doi.org/10.2514/1.c038671
 [research_zhao_he_2016]: https://doi.org/10.4050/jahs.61.022011
+[research_zhao_liu_2024]: https://doi.org/10.61360/bonicetr242015590104
 [research_zhao_zhang_2023]: https://doi.org/10.1002/adc2.165
+[research_zheng_2017_2]: https://doi.org/10.1109/access.2017.2671440
 [research_zheng_2018]: https://doi.org/10.1016/j.ast.2018.01.034
+[research_zheng_2023]: https://doi.org/10.1016/j.ast.2023.108497
+[research_zhou_2022]: https://doi.org/10.1155/2022/3146658
 [research_zhou_2023]: https://doi.org/10.1088/1742-6596/2489/1/012032
+[research_zhou_2023_2]: https://doi.org/10.1007/s43684-023-00049-3
+[research_zhou_2024]: https://doi.org/10.3390/biomimetics9030125
 [research_zhou_2026]: https://doi.org/10.3390/aerospace13070590
 [research_zhou_deng_2024]: https://doi.org/10.1142/s2301385025500487
+[research_zhou_ng_2027]: https://doi.org/10.1016/j.ress.2026.113063
 [research_zhou_wu_2021]: https://doi.org/10.1007/s42235-021-0014-2
 [research_zhu_2021_2]: https://doi.org/10.1016/j.buildenv.2021.107749
+[research_zhu_2021_3]: https://doi.org/10.3390/w13152083
 [research_zhu_2022]: https://doi.org/10.32604/cmc.2022.023293
 [research_zhu_2022_2]: https://doi.org/10.3390/app122312069
 [research_zhu_2023]: https://doi.org/10.1007/s11071-023-08442-6
+[research_zhu_2023_3]: https://doi.org/10.1049/ccs2.12081
+[research_zhu_2023_4]: https://doi.org/10.3390/drones7110677
+[research_zhu_2024]: https://doi.org/10.1007/s11517-024-03220-x
 [research_zhu_2025]: https://doi.org/10.2514/1.g008194
+[research_zhu_2026]: https://doi.org/10.3390/machines14050460
+[research_zhu_2026_2]: https://doi.org/10.1016/j.agwat.2026.110395
 [research_zhu_zhao_2016]: https://doi.org/10.1177/0954410016650908
+[research_zhyriakov_2025]: https://doi.org/10.3390/jsan14020039
+[research_ziakkas_natakusuma_2025]: https://doi.org/10.1016/j.jairtraman.2025.102787
+[research_zimmer_gagnon_2023]: https://doi.org/10.1115/1.4056844
 [research_zimmerman_weissenburger_1964]: https://doi.org/10.2514/3.43581
+[research_zinage_2024]: https://doi.org/10.2514/1.g008323
 [research_zou_2025]: https://doi.org/10.3390/electronics14214285
+[research_zuo_2025]: https://doi.org/10.1088/1742-6596/3169/1/012080
 [research_zwieback_1964]: https://doi.org/10.2514/3.59209
 
 ### Related Post
