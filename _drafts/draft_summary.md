@@ -17,6 +17,56 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## Why SpaceX Built a Ladder Instead of a Moonshot A369 2026-08-06
+
+`spacex_ladder_not_moonshot.markdown`, A369, editorial date 2026-08-06, standalone rather than part of
+a series.
+
+412 lines, 7 display equations, 43 references, 3,602 words. **A general-audience retarget of the
+published A285**, the decomposability article of the History of SpaceX series, on human-pilot
+instruction. Committed, **not pushed**, not published.
+
+**Three things changed and the substance was not reduced.** The framework scaffolding went, since a
+general reader does not need the mapping problem, the methodological commitments, the four analytical
+traditions or the forcing-function vocabulary to follow an argument that is strong on its own. **The
+notation was replaced by arithmetic**, since the source carries 69 display equations of which almost
+none compute anything, and the analytical essay genre is explicit that essays carry equations only
+where a real quantitative relationship exists. **And the argument was made falsifiable**, since the
+source describes the pattern while this version states what it costs, where it does not apply, and
+what the article cannot establish.
+
+**The central result is that a ladder does not need better odds than a monolith, only the same odds
+arranged differently.** Eight stages at ninety percent each give a monolith a 0.43 chance of
+delivering everything and a 0.57 chance of delivering nothing, while the same stages arranged as
+independently valuable rungs deliver 64 percent of the value in expectation and deliver something
+ninety percent of the time. **The shape of the risk matters more than its size**, since the monolith's
+outcome is binary and the ladder's is graded, and a programme with three delivered rungs is much
+harder to cancel than a hole in Texas.
+
+**The strongest argument is one the vehicle-by-vehicle telling misses entirely.** Falcon 1 used one
+Merlin, Falcon 9 uses nine and Falcon Heavy twenty-seven, so every vehicle pays into the same learning
+curve. On Wright's law at a 0.85 learning rate a nine-engine design reaches a unit engine cost 40
+percent below a one-engine design on the same number of airframes, **and the ratio is independent of
+fleet size**, because nine times the units is a fixed 3.17 extra doublings whatever the fleet.
+
+**The article names three costs and says the third is the interesting one**, being that a rung which
+pays well is a reason not to climb, which is the same mechanism that makes successful firms slow to
+replace their own products. **The ladder does not remove that problem. It creates it.**
+
+**Two things are said against the thesis rather than for it.** The Superconducting Super Collider
+could not have been built as a ladder because a collider's energy is set by its circumference, so the
+lesson is that some projects genuinely do not decompose rather than that its managers chose badly.
+And Apollo is placed among the cautionary cases rather than the successes, because its rungs were
+technical rather than commercial, so when political demand ended there was no customer to keep paying.
+
+Verification: 23 independent checks with the ladder expectation recovered by **simulation** over
+400,000 trials rather than by the closed-form sum, the outcome distribution required to sum to one,
+and the fleet-size independence of the engine ratio tested as a **property** across six fleet sizes.
+Prose style clean with zero em dashes, en dashes, prose colons, prose semicolons or parentheticals,
+zero unbalanced bold, all seven display equations on single lines and zero doubled backslashes.
+Isolated build succeeding with all seven equations rendering, zero Liquid errors and zero unresolved
+links.
+
 ## X-Planes Schweizer X-26 Frigate A323 2025-11-01
 
 `x_planes_schweizer_x26.markdown`, A323, editorial date 2025-11-01, series `x_planes` index 27 of 72.

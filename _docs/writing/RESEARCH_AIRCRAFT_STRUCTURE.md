@@ -29,39 +29,83 @@ The hybrid takes the keystone as the technical spine and the essay as the histor
 11. `## Conclusion` section summarising what the aircraft answered.
 12. `## References` section with the sorted, categorized reference index.
 
-## The Three Article Classes
+## The Article Classes
 
-Depth is a function of the surviving record, not of the author's diligence. Three classes are recognised, and an article should state which it is rather than pad toward the largest.
+Depth is a function of the surviving record, not of the author's diligence. Four classes are
+recognised, and an article should state which it is.
 
-| Class | Lines | Display equations | References | Sections |
-|-------|-------|-------------------|------------|----------|
-| Series opener | 1,300 to 1,600 | 120 to 160 | 250 to 380 | Framing order, see below |
-| Full aircraft | 1,300 to 1,600 | 90 to 130 | 250 to 380 | The full order above |
-| Documentation-poor | 150 to 400 | 0 to 15 | 20 to 60 | Full order, short sections, explicit statement of what is unknown |
-| Designation anomaly | 40 to 150 | 0 to 2 | 8 to 30 | Reduced order, see below |
+**The classes are about SECTION ORDER, which is prescriptive. The numbers beside them are MEASURED
+DESCRIPTIONS of what the series has produced, and they are not targets.**
 
-The line and reference figures are the History of SpaceX medians and are descriptive rather than
-prescriptive. Do not pad an article to reach them. Do not strip one to stay under them.
+| Class | Section order |
+|-------|---------------|
+| Series opener | Framing order, see below |
+| Full aircraft | The full twelve-section order above, plus the three series sections |
+| Documentation-poor | Full order, short sections, explicit statement of what is unknown |
+| Designation anomaly | Reduced order, see below |
 
-The equation bands are not the SpaceX medians. They were raised on 2026-08-05 after A297 and A298
-were each taken through an explicit equation-density review, which is a standing expectation for this
-series rather than an exception. Both articles landed far above the original 60 to 80 band once every
-relation the prose named or relied upon was actually displayed, at 147 and 108 respectively. The
-band now records what the series does. The rule that produces the number is the one to follow rather
-than the number itself, and it is this. **If the prose names a result, relies on a relation, or
-quotes a value that some relation produced, show the relation.** A result cited by author and year
-but never displayed is the defect these bands exist to prevent, and it is what both reviews actually
-found.
+### What the Series Actually Produces
+
+**Amended 2026-08-09 against measurements of all twenty-seven articles then drafted, A297 through
+A323.** The previous version of this table carried bands drawn from the History of SpaceX medians that
+no recent article matched, and it had drifted far enough from practice to be misleading.
+
+| | Lines | Display equations | References |
+|---|---|---|---|
+| Minimum | 937 | 25 | 335 |
+| Median | 1,488 | 94 | 404 |
+| Maximum | 7,198 | 200 | 3,990 |
+
+**The corpus contains two regimes and the transitions are sharp.**
+
+| Group | Lines | Equations | References |
+|---|---|---|---|
+| A297 to A312 | 1,302 to 2,226 | 91 to 200 | 335 to 474 |
+| A313 to A317 | 937 to 1,237 | 29 to 78 | 387 to 468 |
+| A318 to A323 | 1,692 to 7,198 | 25 to 72 | 1,192 to 3,990 |
+
+**The equation count fell at A313 and the reference count rose by an order of magnitude at A318.**
+Neither is a change of standard. **The equation count follows the subject**, since the governing rule
+displays whatever relations the prose relies on, and a multi-disciplinary vehicle such as the A305
+Aerobee produces 200 while a single-question vehicle produces 30. **The reference count follows the
+contemporary-survey directive**, which from A318 onward was satisfied by citing a topic as a body of
+literature rather than by a few exemplars.
+
+### The Governing Directive
+
+**The human pilot directed on 2026-08-09 that the goal is for these articles to be as comprehensive as
+possible and that doing more is not a problem.**
+
+**Exceeding any figure above is therefore not a defect, requires no justification, and is not to be
+trimmed toward.** A305 stands at 2,226 lines, 200 equations and 474 references and was explicitly left
+as it is.
+
+**Padding toward a figure is equally forbidden.** Comprehensiveness means earning the length, not
+manufacturing it. **Report the counts, because the record is useful. Do not target them.**
+
+### The Rules That Actually Produce the Numbers
+
+**Equations.** **If the prose names a result, relies on a relation, or quotes a value that some
+relation produced, show the relation.** A result cited by author and year but never displayed is the
+defect the equation-density review exists to find. Every article in this series takes that review as a
+standing expectation rather than an exception.
+
+**References.** Prefer primary sources, meaning original research reports and papers contemporary with
+the work. **Report the period COUNT as well as the primary FRACTION**, because adding a contemporary
+survey lowers the fraction while leaving the count unchanged, and reporting only the fraction reads as
+a regression when it is the directive working.
+
+**Length.** Whatever the first two produce, plus the prose needed to carry the argument.
 
 ### The Series Opener
 
 A series opener is not a per-aircraft article and does not use the twelve-section order. It carries
 the analytical model, the shared sizing derivations, and the statement of what the series can and
-cannot establish. Its equation band is roughly double the per-aircraft band for a structural reason
-rather than an editorial one. Every relation derived once in the opener is a relation the
-per-aircraft articles reference instead of repeating, so density there buys brevity seventy-one times
-over. The opener should still show any relation it names. A result cited by author and year but never
-displayed is the defect this band exists to prevent.
+cannot establish. **It is denser in equations than a per-aircraft article for a structural reason
+rather than an editorial one**, and A297 measured 147 against a per-aircraft median of 94. Every
+relation derived once in the opener is a relation the per-aircraft articles reference instead of
+repeating, so density there buys brevity seventy-one times over. The opener should still show any
+relation it names.
 
 ### Designation Anomalies
 
@@ -75,6 +119,8 @@ Some designations were refused, reserved and never assigned, skipped, duplicated
 6. `## References`.
 
 An article stating that the X-52 designation was requested in 2006, was refused because of possible confusion with the B-52, and that the programme became the X-53 is complete at that length. Padding it with an Out of Scope section it does not need is worse than leaving it short.
+
+**The anomaly class has a boundary and A320 established it.** The X-23 is listed among the designation anomalies, but the SV-5D actually flew three times and returned a measurement, so it was written as a full-aircraft article with the anomaly given its own section. **The test is whether a vehicle existed and produced data, not whether the designation is disputed.** Where no vehicle was ever built, the reduced order is the honest choice however interesting the paperwork is.
 
 ### Required Regardless of Length
 

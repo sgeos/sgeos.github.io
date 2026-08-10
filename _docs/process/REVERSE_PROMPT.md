@@ -9,141 +9,134 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: A323 publication review, the fourth and final pass. Committed and **pushed**. **Not
-published.** All twenty-seven articles in the series remain in `_drafts/`.
-
-**Final state 6,636 lines, 35 display equations, 3,630 references, 23,241 words.**
-
-**Contemporary coverage from 25.7 to 49.2 percent of research citations**, across twelve survey
-subsections where the draft had eight.
+**Task**: Two items on human-pilot instruction. **A369 drafted** as a general-audience retarget of the
+published A285, editorial date 2026-08-06. **`RESEARCH_AIRCRAFT_STRUCTURE.md` amended** to describe
+what the series actually does. Committed, **not pushed**, not published.
 
 ---
 
-## Report the Count as Well as the Fraction
+## A369, Why SpaceX Built a Ladder Instead of a Moonshot
 
-**The period count is 920 against 922 while the primary fraction falls from 64.0 to 43.7 percent.**
-That is the standing directive working. This pass added roughly 1,130 contemporary references and
-removed almost no period ones, so the denominator moved and the numerator did not.
+**412 lines, 7 display equations, 43 references, 3,602 words. Standalone rather than part of a
+series**, since the History of SpaceX series is complete at twelve articles and no further article in
+it was planned.
+
+### What Changed, and What Did Not
+
+**The framework scaffolding went.** A general reader does not need the mapping problem, the
+methodological commitments, the four analytical traditions or the forcing-function vocabulary to
+follow an argument that is strong on its own.
+
+**The notation was replaced by arithmetic.** The source carries 69 display equations and almost none
+of them compute anything. They are definitional forms that restate a sentence in symbols. **The
+analytical essay genre is explicit on this**, saying essays carry equations only where a real
+quantitative relationship exists and that token equations belong to a different genre. **All seven
+equations here produce a number the reader can check.**
+
+**The argument was made falsifiable.** The source describes the pattern. This version states what it
+costs, where it does not apply, and what it cannot establish.
+
+**The substance was not reduced.** The vehicle history, the negation cases and a 43-reference base are
+carried forward, and the counterfactual is quantified where the source only named it.
+
+### The Central Result
+
+**A ladder does not need better odds than a monolith. It needs the same odds arranged differently.**
+
+Eight stages at ninety percent each give a monolith a 0.43 chance of delivering everything and a 0.57
+chance of delivering **nothing**. The same stages arranged as independently valuable rungs deliver 64
+percent of the value in expectation and deliver **something** ninety percent of the time. **The gap
+widens as the odds get worse**, which is where long technical programmes live.
+
+**The shape of the risk matters more than its size.** The monolith's outcome is binary and the
+ladder's is graded, and a programme with three delivered rungs is far harder to cancel than a hole in
+Texas.
+
+### The Strongest Argument Is One the Vehicle List Misses
+
+Falcon 1 used one Merlin engine, Falcon 9 uses nine, Falcon Heavy twenty-seven. **Every vehicle pays
+into the same learning curve.** On Wright's law at a 0.85 learning rate a nine-engine design reaches a
+unit engine cost **40 percent below** a one-engine design on the same number of airframes.
+
+**And the ratio does not depend on fleet size**, because nine times the units is a fixed 3.17 extra
+doublings whether the fleet is ten aircraft or three hundred. **That is the ladder operating on a
+component rather than on a vehicle**, and unlike the vehicle sequence it does not depend on commercial
+judgement or good fortune.
+
+### Where the Article Argues Against Itself
+
+**The Super Collider could not have been built as a ladder.** A collider's energy is set by its
+circumference and half a ring is not a small ring. **So the lesson is that some projects genuinely do
+not decompose, not that its managers chose badly**, and those projects need a different kind of
+political protection.
+
+**Apollo is placed among the cautionary cases rather than the successes.** Its rungs were technical
+rather than commercial, so when political demand ended there was no customer to keep paying and the
+capability was dismantled. **A rung that only an internal sponsor values vanishes when the sponsor
+does.**
+
+**Three costs are named and the third is the interesting one.** A rung that pays well is a reason not
+to climb. That is the mechanism that makes successful firms slow to replace their own products, and
+**the ladder does not remove it. The ladder creates it.**
+
+### Verification
+
+**23 independent checks.** The ladder expectation is recovered by **simulation over 400,000 trials**
+rather than by the closed-form sum, and the two are required to agree. The outcome distribution is
+required to sum to one. The fleet-size independence of the engine ratio is tested as a **property**
+across six fleet sizes.
+
+**One check was itself corrected**, since a relative tolerance was too tight on the smallest table
+entry, where the real question is whether 5.76 percent rounds to the quoted 6.
+
+Prose style clean with zero em dashes, en dashes, prose colons, prose semicolons or parentheticals,
+zero unbalanced bold, all seven equations on single lines, zero doubled backslashes, and the fourteen
+apostrophes audited as possessives. Isolated build succeeding with zero Liquid errors and zero
+unresolved links.
+
+**`tmp/errata/check_any.py` does not apply to this article** and correctly reports A369 as absent from
+the X-Planes roster. That is the tool working, not a defect.
 
 ---
 
-## The Survey's Organising Claim
+## The Genre Document, Amended
 
-**Both halves of the X-26 were about a human in the aircraft, and in both cases the modern answer
-removed the human.**
+**The previous bands were drawn from the History of SpaceX medians and no recent article matched
+them.** They had drifted far enough from practice to be misleading.
 
-**The X-26A existed to teach a pilot to notice adverse yaw.** That mission has been promoted into a
-regulation, since loss of control in flight is now the leading cause of fatal commercial accidents and
-upset prevention and recovery training became a requirement rather than a good idea. **The X-26A's
-justification, which was an assertion in 1968 and which nobody ever measured, is now a certification
-rule.**
+Measured across all twenty-seven X-Planes articles then drafted:
 
-**And it has simultaneously been undercut.** Envelope protection prevents the excursion instead of
-training the recovery, which is a different philosophy and is in tension with the first. **An aircraft
-that cannot be upset does not teach its pilot what an upset feels like**, and the training requirement
-exists partly because of that.
+| | Lines | Equations | References |
+|---|---|---|---|
+| Minimum | 937 | 25 | 335 |
+| Median | 1,488 | 94 | 404 |
+| Maximum | 7,198 | 200 | 3,990 |
 
-**The X-26B existed to make a manned aircraft inaudible.** Its entire difficulty was that a manned
-aircraft has to be big enough to carry a person, which set the wing, the weight, the power and
-therefore the noise. **That mission is now flown by small unmanned aircraft which are quiet because
-they are small and not because anyone silenced them.** The mufflers, the extension shaft and the slow
-propeller were all answered by deleting the constraint they were built to fight.
+**The corpus contains two regimes and the transitions are sharp.** The equation count fell at A313 and
+the reference count rose by an order of magnitude at A318.
 
-**This is the same shape of answer the previous article found.** The X-25 asked how to give a
-descending crewman a choice and was answered by a device made of fabric. **In both cases the
-programme's binding constraint turned out to be the thing that could be removed.**
+**Neither is a change of standard, and the document now says why.** The equation count follows the
+**subject**, since the governing rule displays whatever relations the prose relies on. The reference
+count follows the **contemporary-survey directive**, which from A318 was satisfied by citing a topic
+as a body of literature rather than by a few exemplars.
 
----
+**The class table is now explicitly about section order, which stays prescriptive**, while the numbers
+are labelled measured descriptions and not targets. The comprehensiveness directive is recorded, so
+exceeding a figure is not a defect and needs no justification, **while padding toward one remains
+equally forbidden.**
 
-## And the Detection Problem Has Been Inverted
-
-**The QT-2 spent its whole budget on not being heard.** The contemporary literature overwhelmingly
-wants to hear small aircraft, with microphone arrays and classifiers, and it is a security industry.
-**The same equations serve both sides and are now used more often by the listener than by the flyer.**
-
-**Noise also stopped being about concealment and became about acceptability.** The physics is
-identical, spherical spreading still costs 6 decibels per doubling, but the threshold is no longer an
-ambient level and a listening sentry. It is a population and its tolerance.
-
----
-
-## What the Survey Explicitly Does Not Show
-
-**Nothing found anywhere in this literature measures whether flying a sailplane actually teaches
-adverse yaw better than a simulator or a briefing does.**
-
-**The X-26A's central claim remains untested sixty years on**, which is a curious position for an
-argument that has meanwhile been written into regulation. The article states the absence rather than
-letting the reader assume the evidence exists.
-
----
-
-## Four New Homonym Families, All Found by Reading
-
-**Startle.** In aviation human factors it is the surprise response a pilot must be trained through. In
-psychology it is the startle reflex of fear conditioning, with its own anxiety literature. **The
-upset-training query retrieved both.**
-
-**Wind turbines, which had to be excluded explicitly rather than by omission.** A322 admitted them
-because autorotation is the windmill brake state. This article withdrew that, but the turbine **noise**
-literature is large and shares propagation, annoyance and psychoacoustics with the article's own
-subject, so it needed a filter of its own.
-
-**The unmanned ground vehicle**, which shares almost every acronym with the aerial one.
-
-**Architectural and environmental acoustics**, as distinct from the propagation physics, including
-building façade prediction and marine noise pollution.
-
-Sixty records read and dropped across the pass, rejection list 661 to 721, keyed by URL as well as by
-anchor.
-
----
-
-## Publication Checks
-
-**Prose style.** Clean across all twenty-seven articles, zero failures and zero warnings.
-
-**Diction.** `research` measures 108 per thousand raw and **0.37 per thousand in true prose**,
-confirming the citation-anchor artifact. `aircraft` at 6.85 is the article's own subject. **`rather
-than` was formulaic again at 3.11 per thousand across 34 uses** and was rotated down to 22 through
-instead of, and not, and plainly.
-
-**Acronyms.** One real defect fixed. **NASA was used once and never spelled out**, the same defect
-A322 had. `QT`, `SGS` and `YO` are parts of the QT-2, SGS 2-32 and YO-3A model designations and are
-exempt.
-
-**Reference integrity.** 3,630 references, zero undefined, zero orphaned, zero duplicate URLs.
-
-**URL response.** 3,637 external links swept against a superset of the final set. **3,177 of 3,177
-DOIs confirmed registered, zero unregistered, and 460 of 460 non-DOI links at 200 with no exceptions.**
-That is the third consecutive clean sweep for this article and the second article in a row with
-nothing at all to report.
-
-**Numerical sanity.** 74 checks passing unchanged.
-
-**Structural conformance.** Genre order intact, the three series sections present, The Source Base
-immediately before Epistemic State.
-
-**Build.** Twenty-seven article isolated build with all 35 equations rendering as display math across
-16 sections and 30 subsections, zero unbalanced braces, zero mangled escapes, zero duplicated
-equations.
+**Two further sections were reconciled.** The series-opener paragraph no longer quotes a withdrawn
+band. And **the designation-anomaly section now records the boundary A320 established**, that the test
+is whether a vehicle existed and produced data rather than whether the designation is disputed.
+**That bears directly on A324**, where no vehicle was ever built.
 
 ---
 
 ## State
 
-**A323 is complete. All four passes done, committed and pushed, not published.**
+**Committed, not pushed.** Neither item is a publication-review pass, so the push rule does not apply.
+Nothing is published.
 
-Twenty-seven of seventy-two. The publication-order dependency is twenty-seven deep.
-
-**The next article is A324, the Lockheed X-27**, editorial date 2025-11-02, Part 28 of 72. **It is a
-designation anomaly and the genre document's short class may apply.** The X-27 was a Lockheed
-company-funded fighter proposal, the CL-1200 Lancer, an F-104 derivative offered for export. **It was
-never built and never flew**, so there is no flight record, and the article will need to establish
-early whether it belongs in the designation-anomaly class of 40 to 150 lines or whether enough design
-material survives for a fuller treatment. **A320 set the precedent for treating an anomaly at full
-length when a real vehicle existed. Here no vehicle existed at all**, which is the other side of that
-precedent.
-
-**Still open and unchanged.** The fourth genre class, now **sixteen** consecutive articles. The A305
-length offer.
+Twenty-seven X-Planes articles complete and pushed, plus A369 drafted. **The next X-Planes article is
+A324, the Lockheed X-27**, and the amended genre document now gives it a clearer test for which class
+it belongs to.
