@@ -23,7 +23,66 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 7,781 lines, 29 display equations, 2,207 reference definitions, 44,542 words after the draft pass.
 **8,028 lines, 69 display equations, 2,207 references, 46,399 words after the equation review.**
-Committed, not pushed. **The primary-reference and publication passes remain.**
+**9,435 lines, 69 display equations, 2,657 references, 53,518 words after the primary-reference
+review.** Committed, not pushed. **The publication pass remains.**
+
+**REFERENCE PASS: 2,207 to 2,657 definitions and 2,144 to 2,594 cited**, equations held at 69 and
+measured before and after. **Primary sources from 1,317 to 1,763, or 61.4 to 68.0 percent of dated
+references**, and the period count from 1,130 to 1,529 at a period fraction of 58.9.
+
+**THE COUNT-VERSUS-FRACTION TRAP FIRES IN THE CLASSIC DIRECTION AND THE SOURCE BASE RECORDS IT.** The
+contemporary count did not fall, it **rose from 850 to 856**, while its fraction fell from 39.6 to
+33.0 percent purely because four hundred period sources arrived underneath it. Nothing was removed.
+
+**THE AUDIT RAN BEFORE THE HARVEST AND SAID SUPPLY RATHER THAN SELECTION, UNAMBIGUOUSLY.** For every
+topic the article relies on, **the cited count equalled the pool count exactly**, so nothing was being
+dropped by the selector and the eleven promoted subjects were thin because the pool held almost
+nothing on them. **Five stood at zero.** That is the ninth consecutive article in which an equation
+pass promotes subjects the reference base must follow, and the new cause is that the mechanics beneath
+an equation are not the same literature as the technology above it.
+
+**TWO SILENT DEFECTS IN THE SELECTOR WERE FOUND, AND THE FIRST HAD BEEN NARROWING THE WHOLE ARTICLE.**
+The anchor gate wrapped its entire alternation in a leading AND trailing word boundary, so every stem
+meant as a PREFIX was forced to match as a whole word. **`structur` failed on "structural" and
+"structures", `buckl` failed on "Buckling", `stabilit` failed on "stability", `redundan` failed on
+"redundancy", and `flying qualit` failed on "flying qualities".** This is the word-boundary family
+again and it is a **NEW VARIANT: not a false positive from a missing boundary but a FALSE NEGATIVE
+from an extra one.** The gate now separates WORDS, which keep both boundaries, from STEMS, which keep
+only the leading one, and handling qualities alone recovered from 112 to 148 records.
+
+**THE PRICE OF WIDENING WAS PAID AT THE MOMENT OF WIDENING RATHER THAN IN THE SWEEP.** Admitting the
+general mechanics vocabulary of plates, beams, shells and vibration would have recovered the
+structural-mechanics literature and would also have admitted **prestressed concrete beams, quartz
+plate oscillators and laminate manufacturing patents**, all of which appeared in a trial run. Those
+words were therefore refused. What was admitted instead is the **named methods themselves**, being
+Rayleigh, Ritz, Galerkin, Southwell, Nyquist and DATCOM, which are specific enough to carry no such
+freight, with three noise patterns added for the civil-engineering, materials-processing and
+pure-numerical-analysis contaminants that still arrive.
+
+**A HOMONYM WAS FOUND THAT WAS NOT PREDICTED.** "Short period" is a control-theory phrase and also
+**short-period geomagnetic secular variation, short-period meteoroid streams, short-period crustal
+dynamics and short-period superlattices**. The anchor gate rejected every one, which is the gate
+working, and the judgement is now recorded so it is reusable.
+
+**TWO SUBJECTS ARE REPORTED AS THIN RATHER THAN PADDED, AND IN BOTH THE SUBJECT EXISTS WHILE THE
+HEADING DOES NOT.** Sustained turn and manoeuvre performance returned **one record from six targeted
+queries across two rounds**, because the period says ENERGY STATE, TIME TO CLIMB and EXCESS THRUST;
+once the heading was widened to that vocabulary the records were there. Laminate stiffness likewise
+returns one, because the mechanics of the bend-twist coupling matrix are written up **inside** the
+composite structure literature the article cites 365 times and the tailoring literature it cites 108
+times, so reporting a gap there would misdescribe where the work is.
+
+**EQUATION CITATION SUPPORT 50 GAPS TO 32**, and the last step was deliberately **not** more research
+papers. The remaining gaps are textbook identities, and attaching a technical report to the definition
+of dynamic pressure would raise the count and lower the scholarship, so the standard works were cited
+at four points instead, being Raymer and Niu for the sizing ratios, Jones and Tsai and Hahn for the
+laminate mechanics, Bisplinghoff and Hodges for the aeroelastic consequences, and Etkin with Stevens
+and Lewis for the derivative estimation.
+
+Verification after the reference pass. 88 numerical checks passing unchanged, reference integrity at
+2,657 with zero undefined, zero orphaned and zero duplicate URLs, **zero search-endpoint citations**,
+`_verify.py` at the 21-warning baseline, check_any clean, zero constructions above the corpus maximum,
+and a 30-article isolated build rendering all 69 equations across 19 tables.
 
 **EQUATION PASS: 29 to 69 across 23 edits**, references held at 2,207 and measured before and after.
 The audit found the same three categories the last two articles did. **Quoted values with no relation

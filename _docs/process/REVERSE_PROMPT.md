@@ -9,114 +9,115 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A326 equation-density review, the second of four passes. Committed, **not pushed**.
+**Task**: A326 primary-reference review, the third of four passes. Committed, **not pushed**.
 
-**State: 8,028 lines, 69 display equations, 2,207 reference definitions, 46,399 words.** Thirty
+**State: 9,435 lines, 69 display equations, 2,657 reference definitions, 53,518 words.** Thirty
 articles drafted, all in `_drafts/`, **none published**.
 
 ---
 
-## The Equation Pass
+## What Moved
 
-**29 to 69 across 23 edits**, references held at 2,207 and measured before and after.
+**References 2,207 to 2,657 defined and 2,144 to 2,594 cited**, equations held at 69 and measured
+before and after.
 
-The audit found the same three categories the last two articles did. **Quoted values with no relation
-behind them**, the Vehicle table stating thirty-two numbers and displaying nothing while the
-lift-curve slopes and lift-to-drag figures appeared from nowhere. **Relations used throughout and
-defined nowhere**, being dynamic pressure, equivalent airspeed, the pitching moment derivative, the
-drag polar and the induced drag factor. **And whole sections arguing quantitatively with no equation
-at all**, the worst being the vehicle description and the instrumentation section.
+**Primary sources 1,317 to 1,763, or 61.4 to 68.0 percent of dated references.** The period count went
+from 1,130 to 1,529, a period fraction of 58.9.
 
----
-
-## The Two Additions That Are More Than Bookkeeping
-
-**The closed form of the untailored root**, which the draft never displayed although the entire sweep
-argument rests on it. It splits the reciprocal boundary into a torsion term that is always positive
-and a bending term **whose sign is the sign of the sweep**, which is the forward-sweep problem in one
-line. It agrees with the eigenvalue solver **to one part in a billion at every sweep angle tested**,
-and it gives the critical sweepback in closed form as **48.013 degrees**.
-
-**That corrects a value the draft stated.** The draft said sweepback beyond about 47 degrees removes
-the boundary, which came from an integer scan.
-
-**The doubling time from rest.** A disturbance released with zero pitch rate follows cosh rather than
-a pure exponential, so it doubles in arcosh(2) over lambda rather than ln(2) over lambda. **The ratio
-is 1.900**, large enough to read as a real discrepancy if the two are confused. The article uses the
-exponential figure throughout, which is the conservative one.
+**The contemporary count did not fall. It rose, from 850 to 856**, while its fraction fell from 39.6
+to 33.0 percent, purely because four hundred period sources arrived underneath it. **Nothing was
+removed**, and the Source Base now states both movements so the fraction is not misread as a cut.
 
 ---
 
-## A Closed Form Written and Then Deleted
+## The Audit Said Supply, Not Selection
 
-**The candidate for the Southwell sensitivity was 1/(1 - r_max)**, which is clean and gives 1.600 at
-the aircraft's own reach. The simulation gives 1.389, stable to three figures across a factor of ten
-in noise.
+**Running it before the harvest is what made this unambiguous.** For every topic the article relies on,
+**the cited count equalled the pool count exactly**, so nothing was being dropped by the selector. The
+eleven subjects the equation pass promoted were thin because the pool held almost nothing on them, and
+**five stood at zero**.
 
-**They disagree because they are not the same quantity.** The closed form is the amplification of the
-twist at the topmost data point; the reported figure is the sensitivity of an eight-point
-least-squares slope. **A clean form that lands near a measured number is not an explanation of it**,
-so the article reports the simulated value and says it was simulated.
-
----
-
-## One Finding Fell Out of the New Equations
-
-**The sustained load factor at Mach 0.9 at sea level is 10.66 against an 8 g structural design
-limit**, so the airframe rather than the engine is what binds low down. It follows from the
-thrust-to-weight ratio exceeding unity at the manoeuvre design weight, which the Vehicle section now
-computes.
-
-**The keystone sensitivity is also derived rather than asserted.** Writing the inversion as
-q_D = q r/(r - 1) gives an elasticity of -1.667 at r = 1.6, so a one percent error in the published
-ratio is a 1.67 percent error in the boundary, and the two-significant-figure rounding costs 5.2
-percent.
+That is the ninth consecutive article in which an equation pass promotes subjects the reference base
+must follow, and the cause here is new. **The mechanics beneath an equation are not the same
+literature as the technology above it.** The original harvest asked for forward sweep, tailoring and
+digital flight control, and never for Rayleigh-Ritz, the Southwell method or lift-curve slope
+estimation.
 
 ---
 
-## Two Verifier Defects, Both Silent
+## Two Silent Selector Defects, and the First Had Been Narrowing the Whole Article
 
-**`require_in_text` appends to the failure list**, so calling it after `report` meant anything it
-found was never printed, and it returns True when nothing is missing, so the guard around it was
-inverted as well. **Together those made a silent check look like a passing one.**
+**The anchor gate wrapped its entire alternation in a leading and a trailing word boundary**, so every
+stem meant as a prefix was forced to match as a whole word. **`structur` failed on "structural" and
+"structures". `buckl` failed on "Buckling". `stabilit` failed on "stability". `redundan` failed on
+"redundancy". `flying qualit` failed on "flying qualities".**
 
-**The coarse determinant scan quantises its root to the grid step**, producing apparent disagreements
-with the closed form of up to 0.31 percent that were entirely the grid. A tolerance loose enough to
-absorb that would have been looser than the quantity it was checking, so the scan now brackets and
-then bisects.
+This is the word-boundary family again and it is a **new variant. Not a false positive from a missing
+boundary but a false negative from an extra one.** The gate now separates words, which keep both
+boundaries, from stems, which keep only the leading one. Handling qualities alone recovered from 112
+to 148 records.
 
-The verifier now separates two kinds of check. `chk` records a value the article states so
-`require_in_text` can insist it appears, while agreements between two computed routes use a separate
-helper, because the article deliberately withholds the model's absolute divergence pressures and
-demanding they appear would require printing numbers it has argued are meaningless.
+**The price of widening was paid at the moment of widening rather than in the sweep.** Admitting the
+general mechanics vocabulary of plates, beams, shells and vibration would have recovered the
+structural-mechanics literature and would also have admitted **prestressed concrete beams, quartz
+plate oscillators and laminate manufacturing patents**, all of which appeared in a trial run. Those
+words were refused. What was admitted instead is the **named methods** themselves, being Rayleigh,
+Ritz, Galerkin, Southwell, Nyquist and DATCOM, with three new noise patterns for the
+civil-engineering, materials-processing and pure-numerical-analysis contaminants that still arrive.
+
+**An unpredicted homonym.** "Short period" is also short-period geomagnetic secular variation,
+short-period meteoroid streams, short-period crustal dynamics and short-period superlattices. The
+anchor gate rejected every one, which is the gate working, and the judgement is now recorded so it is
+reusable.
+
+---
+
+## Two Subjects Reported as Thin Rather Than Padded
+
+**In both, the subject exists and the heading did not.**
+
+**Sustained turn and manoeuvre performance returned one record from six targeted queries across two
+rounds.** The period says energy state, time to climb and excess thrust, and widening the heading to
+that vocabulary found the records.
+
+**Laminate stiffness likewise returns one**, because the mechanics of the bend-twist coupling matrix
+are written up inside the composite structure literature the article cites 365 times and the tailoring
+literature it cites 108 times. Reporting a gap there would misdescribe where the work is.
+
+---
+
+## Equation Support
+
+**50 citation gaps to 32**, and the last step was deliberately not more research papers. The remaining
+gaps are textbook identities, and attaching a technical report to the definition of dynamic pressure
+would raise the count and lower the scholarship. The standard works were cited at four points instead,
+being Raymer and Niu for the sizing ratios, Jones with Tsai and Hahn for the laminate mechanics,
+Bisplinghoff with Hodges for the aeroelastic consequences, and Etkin with Stevens and Lewis for the
+derivative estimation.
 
 ---
 
 ## Verification
 
-**88 of 88 independent checks passing, none importing the calculation.** The amplification derivation
-is tested as a randomised property over the moment balance, the critical sweepback is reached both in
-closed form and by bisection on the determinant scan, the cosh doubling is confirmed by Runge-Kutta
-integration, and the sustained load factor is found by scanning for where thrust equals drag.
-**All article-facing verified values are confirmed present in the draft.**
+88 numerical checks passing unchanged, with all article-facing values confirmed present in the draft.
+Reference integrity at 2,657 with zero undefined, zero orphaned and zero duplicate URLs, and **zero
+search-endpoint citations**.
 
-`_verify.py` at the 21-warning baseline, check_any clean, `_lib/test_lib.py` at 45 of 45, reference
-integrity unchanged at 2,207 with zero undefined, zero orphaned, zero duplicate URLs and zero
-search-endpoint citations, zero constructions above the corpus maximum after rotating two more across
-two distinct phrasings, and a 30-article isolated build rendering **all 69 equations as display math
-across 17 sections and 18 tables**.
+**The full set was swept.** 2,217 DOIs registry-verified at zero unresolved, all 378 NTRS identifiers
+resolving, and all 13 books and 19 curated URLs resolving. The single reported mismatch remains the
+record with a Cyrillic surname, where `fold` returns empty so no surname can ever match; its title and
+year agree exactly, so it is a checker limitation rather than a citation defect.
 
-**The citation sweep from the draft pass stands**, since the reference set did not change. 1,767 DOIs
-registry-verified at zero unresolved, all 378 NTRS identifiers resolving, and all books and curated
-URLs resolving.
+`_verify.py` at the 21-warning baseline, check_any clean, zero constructions above the corpus maximum,
+and a 30-article isolated build rendering all 69 equations across 19 tables.
 
 ---
 
 ## Awaiting Instruction
 
-**A326 has completed the draft and equation passes.** The primary-reference and publication passes
-remain, each on its own prompt.
+**A326 has completed the draft, equation and primary-reference passes.** The publication review
+remains.
 
-**The audit now reports 49 displayed equations with no nearby citation**, which is the ninth
-consecutive article in which an equation pass promotes subjects the reference base has to follow.
-That is the reference pass's material.
+**Contemporary coverage is the obvious candidate for it**, standing at 856 references and 33.0 percent
+against a standing directive that these articles serve as a comprehensive survey of the current
+literature. The contemporary pool was not extended in this pass, which was aimed at primary sources.
