@@ -17,6 +17,88 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Grumman X-29 A326 2025-11-04
+
+`x_planes_grumman_x29.markdown`, A326, editorial date 2025-11-04, series `x_planes` index 30 of 72.
+
+7,784 lines, 29 display equations, 2,208 reference definitions, 44,545 words after the draft pass.
+Committed, not pushed. **The equation, primary-reference and publication passes remain.**
+
+**THE RUN OF FOUR PURCHASED DESIGNATIONS ENDS HERE.** After an off-the-shelf autogyro, an
+off-the-shelf sailplane, a fighter that was never built and a five-thousand-dollar homebuilt flying
+boat, the X-29 is the first purpose-built research aeroplane in the series since the X-24. **The
+harvest method reverses with it.** A324 and A325 both returned nothing from the Technical Reports
+Server under the vehicle's own name and had to harvest the physics instead. This subject returns a
+great deal, and 378 of the cited references are recalled by fixed NASA document identifier.
+
+**THE KEYSTONE CONNECTS TWO PUBLISHED FIGURES THROUGH A RELATION NEITHER WAS DERIVED FROM.** The
+primary record gives the wing's predicted elastic-to-rigid lift-curve-slope ratio as about 1.6 and,
+separately, the design dynamic pressure as 1,700 pounds per square foot. In the single-degree-of-freedom
+divergence model the elastic-to-rigid ratio is exactly 1/(1 - q/q_D), **so the two together fix a
+divergence dynamic pressure of 4,533 pounds per square foot that nobody published**, with no assumption
+whatever about the wing's stiffness, geometry or material. The margin is 2.667 in dynamic pressure and
+**only 1.633 in equivalent airspeed**.
+
+**THE DESIGN POINT CHECKS AGAINST ITSELF.** It is quoted twice, once as a dynamic pressure and once as
+a Mach number at an altitude, and recomputing one from the other agrees to **0.24 percent**. The quoted
+span agrees with the span implied by the quoted aspect ratio and area to **0.99 percent**.
+
+**FOUR DEFECTS IN THE ANALYSIS WERE FOUND BY WRITING THE RELATION DOWN, AND ONE OF THEM PRINTED FREE
+ENERGY.** The two-mode divergence eigenvalue has an identically zero quadratic coefficient, so the
+characteristic equation is linear; trusting floating point to notice sent the solver down the quadratic
+branch and it **returned 5.7 x 10^21 pounds per square foot at twenty degrees of forward sweep**. An
+absolute tolerance cannot catch a residue that large in absolute terms, and the test had to be made
+relative to the magnitude of what cancelled. **The bend-twist coupling sign was also backwards**,
+reporting that tailoring LOWERED the divergence boundary, which is the reverse of the entire point of
+the technology. **The trim analysis conflated the surface's own lift coefficient with the
+wing-referenced increment**, inflating the trim load by the inverse area ratio, a factor of five, and
+driving the drag comparison to ratios above nine hundred. **The transonic box comparison was made at
+equal leading-edge sweep when the source's claim is at equal shock sweep**, and the two questions give
+opposite answers.
+
+**THE MODEL EARNS ITS TRUST BY REPRODUCING A RESULT IT WAS NOT FITTED TO.** Sweepback beyond about 47
+degrees removes the divergence boundary entirely, which is the classical textbook result, recovered
+here from an independent scan of the determinant.
+
+**THE REQUIRED TAILORING SURVIVES ITS OWN ASSUMPTIONS.** Reaching the observed margin needs a
+non-dimensional bend-twist coupling of 0.627 against a hard positive-definiteness bound of 1.0, and
+across a factor of more than five in the assumed stiffness ratio that requirement stays between 0.61
+and 0.79. **The boundary scales linearly with the overall stiffness level, so the required coupling is
+independent of it entirely.**
+
+**THE SOUTHWELL METHOD WAS APPLIED TO FLIGHT TEST DATA FOR THE FIRST TIME ON THIS AIRCRAFT**, and the
+report says the estimate was highly sensitive to measurement error without saying how sensitive. It is
+about **1.4 times the twist measurement error** at the aircraft's own reach of 0.375 of the boundary.
+
+**THE CANARD'S DIVERGENCE BOUNDARY WAS SET BY THE PITCH LOOP.** The primary record states in one
+sentence that the pitch-loop stiffness required for control system stability put the canard's predicted
+divergence boundary beyond the wing's. **A control-law requirement fixed a structural boundary**, which
+is the article's argument for treating structure and control as one system rather than two.
+
+**INSTABILITY MEASURED IN FRAMES RATHER THAN IN PROBABILITY.** At Mach 0.9 at sea level the airframe
+doubles a pitch disturbance in about 100 milliseconds, which is **four frames at 40 hertz**, of which
+the act of sampling consumes 37.5. A voter needing three frames to isolate a failed channel spends
+**75 percent of a doubling time** doing it.
+
+**HOMONYM CONTAMINATION WAS FOUND BY READING THE ASSEMBLED DRAFT, NOT BY PREDICTION.** Biological
+flight reached the pool through vocabulary that is entirely aeronautical, and **two records reached the
+keystone cluster itself**, on Drosophila population divergence and butterfly wing volatile divergence,
+because the evolutionary patterns written in advance required phrases those titles do not use. Twenty-nine
+records were dropped once the organism rather than the phrasing became the discriminator.
+
+**THE X-29A SUFFIX DEFECT IS THE WORD-BOUNDARY BUG ARRIVING FROM THE OPPOSITE DIRECTION.** The pattern
+`\bX-?29\b` fails on "X-29A" because the boundary after 29 requires a non-word character, and the
+aircraft's own reports call it the X-29A. **Seven records were missed, including the flight-measured
+drag polar and the buffet interaction.**
+
+Verification. 42 of 42 independent numerical checks passing, with the verifier reaching every value by
+a different route, namely bisection on the amplification, a determinant scan for the eigenvalue, a
+non-linear fit for the Southwell estimate, Runge-Kutta integration for the doubling time, and
+enumeration for the redundancy. **One of the article's own literals was wrong and the verifier caught
+it.** `_verify.py` at the 21-warning baseline, check_any clean, zero constructions above the corpus
+maximum after rotating four across four distinct phrasings, and a 30-article isolated build rendering
+all 29 equations across 17 sections with 97 internal series links resolving.
+
 ## X-Planes Osprey X-28 Sea Skimmer A325 2025-11-03
 
 `x_planes_osprey_x28.markdown`, A325, editorial date 2025-11-03, series `x_planes` index 29 of 72.
