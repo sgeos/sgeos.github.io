@@ -22,9 +22,10 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_schweizer_x26.markdown`, A323, editorial date 2025-11-01, series `x_planes` index 27 of 72.
 
 3,613 lines, 17 display equations, 2,016 references, 12,061 words after the draft pass. 3,785 lines,
-35 display equations, 2,016 references, 13,226 words after the equation review. **4,800 lines, 35
-display equations, 2,503 references, 16,985 words after the primary-reference review.** Three of four
-passes complete. Committed, **not pushed**, not published. Primary 64.0 percent, period count 922.
+35 display equations, 2,016 references, 13,226 words after the equation review. 4,800 lines, 35 display
+equations, 2,503 references, 16,985 words after the primary-reference review. **6,636 lines, 35 display
+equations, 3,630 references, 23,241 words after the publication review, with contemporary coverage from
+25.7 to 49.2 percent.** All four passes complete. Committed and **pushed**. Not published.
 
 **One airframe, two aircraft, and a single number.** The Schweizer SGS 2-32 sailplane was bought twice
 by the American military and given the same X-designation both times, for purposes with nothing in
@@ -91,6 +92,23 @@ that lineage without a source. **Reading the URL sweep found a homonym the warsh
 entirely: SHIP ROLL DAMPING.** Vessels roll, roll damping is a major subject in naval hydrodynamics
 with its own nonlinear models, and those papers never say frigate. Also MARINE SNOW, where sinking
 speed is an oceanographic term of art. Twenty-four records dropped, rejection list 637 to 661.
+
+**The publication survey's organising claim is that BOTH HALVES OF THE X-26 WERE ABOUT A HUMAN IN THE
+AIRCRAFT AND BOTH HAVE BEEN ANSWERED BY REMOVING THE HUMAN.** The X-26A taught a pilot to notice
+adverse yaw, and that mission has been PROMOTED INTO A REGULATION since upset prevention and recovery
+training is now a requirement, **while simultaneously being undercut by envelope protection**, which
+prevents the excursion instead of teaching the recovery. The X-26B made a manned aircraft inaudible,
+and that mission is now flown by small unmanned aircraft **quiet because they are small and not
+because anyone silenced them**, which is the same shape of answer the X-25 article found. **And the
+detection problem is inverted**, since the contemporary literature wants to HEAR small aircraft and is
+a security industry. **The survey states one absence explicitly**, namely that nothing measures whether
+flying a sailplane teaches adverse yaw better than a simulator does, so the X-26A's central claim
+remains untested sixty years on while having been written into regulation. **Four new homonym
+families**, including STARTLE, which is fear conditioning in psychology, and wind turbines, which had
+to be excluded EXPLICITLY once the A322 exemption was withdrawn because the turbine noise literature
+shares propagation and psychoacoustics with this article. Sixty records dropped, rejection list 661 to
+721. NASA was used once and never spelled out, the same defect A322 had. The period count held at 920
+against 922 while the primary fraction fell to 43.7 percent, which is the directive working.
 
 ## X-Planes Bensen X-25 A322 2025-10-31
 
