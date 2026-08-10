@@ -262,6 +262,36 @@ def check_post(path, text, rep, exemptions=None, is_draft=False):
     stripped = re.sub(r"`[^`\n]+`", " ", stripped)
     if stripped.count("$$") % 2:
         rep.error("math-delimiters", f"{name}: odd number of $$ delimiters")
+
+    # `\,` is a thin space. Typing it inside a Python rf-string generator emits
+    # `\\,`, which MathJax reads as a LINE BREAK followed by a comma, silently
+    # wrecking the equation. This shipped in three consecutive X-Planes
+    # articles, once in a file whose own docstring warned against it, and was
+    # found each time only by reading rendered output. Five generator scripts
+    # warned about it in prose; none ever checked for it.
+    # `\\` is legitimate as a row separator, so only a spacing macro directly
+    # after it is flagged. Corpus-wide count when added: zero.
+    for mm in re.finditer(r"\\\\[,;:!]", stripped):
+        rep.error(
+            "math-doubled-backslash",
+            f"{name}: {mm.group(0)!r} is a doubled spacing macro; MathJax reads it as a line break",
+        )
+        break
+
+    # A heading glued to the end of a prose line renders as literal `##` text.
+    # Confirmed against kramdown: `text. ## H` yields `<p>text. ## H</p>`,
+    # whereas a heading merely lacking a preceding blank line renders correctly
+    # as a heading and is therefore NOT checked. Shipped in A369 after a reflow
+    # joined a heading onto the paragraph above it, and survived into a pushed
+    # commit because the source looked unremarkable. Corpus-wide count when
+    # added: zero.
+    for mm in re.finditer(r"\S ##+ [A-Za-z]", stripped):
+        rep.error(
+            "heading-inline",
+            f"{name}: heading glued to prose near {mm.group(0)!r}; renders as literal text",
+        )
+        break
+
     for env in ("align", "equation", "gather"):
         if re.search(rf"\$\$\s*\n\s*\\begin\{{{env}\}}", text):
             rep.error(

@@ -1,0 +1,3700 @@
+{
+ "https://doi.org/10.1002/lary.70528": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1002/stc.1831": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1007/bf00723349": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1007/bf01150376": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1007/bf01608092": {
+  "title": "Worker-crop contact analysis as a means of evaluating reentry hazards",
+  "why": "AGRICULTURAL REENTRY, meaning workers re-entering a treated field",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1007/s11270-022-05889-y": {
+  "title": "3D High-Resolution Modeling of Aircraft-Induced NOx Emission Dispersion in CAEPport Configuration Using Landing and Take-Off Trajectory Tracking",
+  "why": "aircraft NOx emission dispersion; dispersion homonym in air pollution",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/0021-9169(74)90009-9": {
+  "title": "Solar proton entry to the magnetosphere on 18 November 1968 and 25 February 1969—I. Interpretation of satellite data using trajectory computations in a model magnetosphere",
+  "why": "solar proton entry to the magnetosphere; entry homonym in space physics",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/0021-9169(74)90010-5": {
+  "title": "Solar proton entry to the magnetosphere on 18 November 1968 and 25 February 1969—II. Comparison of trajectory computations in two model magnetospheres",
+  "why": "solar proton entry to the magnetosphere; entry homonym in space physics",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/0029-8018(90)90021-w": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/0038-092x(78)90126-3": {
+  "title": "Steering a field of mirrors using a shared computer-based controller",
+  "why": "heliostat field steering, Solar Energy; steering homonym",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/0038-092x(90)90087-s": {
+  "title": "Dependence of speed of sound on salinity and temperature in concentrated NaCl solutions",
+  "why": "speed of sound in NaCl solutions; the homonym my own query created",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/0147-619x(80)90046-3": {
+  "title": "Host range, entry exclusion, and incompatibility of Pseudomonas aeruginosa FP plasmids",
+  "why": "bacterial plasmid biology; host range and entry exclusion are microbiology terms",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/0168-1591(90)90140-9": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/0198-0149(87)90117-8": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/0261-3069(94)90057-4": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/0360-1323(78)90026-4": {
+  "title": "Measurements of wind drag on people standing in a wind tunnel",
+  "why": "pedestrian wind comfort in the built environment, not aircraft drag",
+  "article": "A321",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.anucene.2021.108631": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.apacoust.2026.111280": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.applthermaleng.2025.128608": {
+  "title": "A new TEG-supported thermal management system of the battery system for an electric vehicle",
+  "why": "battery thermal management for an electric road vehicle",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.ast.2018.06.007": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.cogr.2023.02.001": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.ecoinf.2024.102471": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.ecolmodel.2025.111117": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.energy.2022.123720": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.energy.2024.131974": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.engfailanal.2022.107042": {
+  "title": "Metallurgical failure analysis of AA 7050 main landing gear brake reducer for reusable launch vehicle",
+  "why": "landing gear brake metallurgy, not entry physics or recovery dynamics",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.envsoft.2017.06.019": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.euromechflu.2019.12.008": {
+  "title": "Longitudinal maneuvering motions of the supercavitating vehicle",
+  "why": "supercavitating UNDERWATER vehicle, the underwater family the filter missed",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.ifacol.2015.12.096": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.ifacol.2023.10.094": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.jairtraman.2025.102750": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.jweia.2018.01.028": {
+  "title": "A numerical wake alignment method for horizontal axis wind turbines with the lifting line theory",
+  "why": "horizontal axis wind turbine wake, the diffuser-augmented turbine family again",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.measurement.2017.10.006": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.measurement.2021.109422": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.measurement.2022.110696": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.measurement.2022.111776": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.oceaneng.2018.09.018": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.oceaneng.2022.112122": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.piutam.2016.03.017": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.solener.2016.11.037": {
+  "title": "Novel solar powered electric vehicle charging station with the capability of vehicle-to-grid",
+  "why": "solar powered electric vehicle charging station, not a launch or entry vehicle",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1016/j.vacuum.2015.06.029": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1029/jz072i005p01461": {
+  "title": "Entry of solar cosmic rays into the polar cap atmosphere",
+  "why": "solar cosmic ray entry into the polar cap; entry homonym in space physics",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1038/s41467-018-05556-z": {
+  "title": "A novel probe to assess cytosolic entry of exogenous proteins",
+  "why": "CYTOSOLIC ENTRY of exogenous proteins; entry homonym in cell biology",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1049/smt2.12141": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1051/aacus/2023051": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1063/1.5022995": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1063/10.0007160": {
+  "why": "dropped by reading the URL sweep, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1063/5.0031693": {
+  "why": "dropped by reading the URL sweep, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1063/5.0197830": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1080/00222338908052008": {
+  "title": "Gas Chromatography/Mass Spectrometry Study of the Low-Molecular-Weight Fraction of Plasma-Polymerized N,N'-Bis-(Dimethylsilyl)Tetramethylcyclodisilazane",
+  "why": "gas chromatography of plasma polymers, macromolecular chemistry",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1080/00423117508968484": {
+  "title": "Simulation of Lateral Motion of 2-Axle Railway Vehicle in Running",
+  "why": "road and rail vehicle lateral dynamics, not entry crossrange",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1080/00423117708968519": {
+  "title": "Automatic Lateral Control of Vehicles. Theory and Experiment",
+  "why": "road and rail vehicle lateral dynamics, not entry crossrange",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1080/02640414.2016.1240878": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1080/07055900.1983.9649178": {
+  "title": "The surface heat flux density of a bare soil",
+  "why": "surface heat flux of bare soil, soil physics",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1086/109915": {
+  "title": "Earth deceleration from ancient solar eclipses",
+  "why": "deceleration of the Earth's rotation from ancient eclipses, astronomy",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1086/200770": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1086/200837": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1086/200930": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1088/1748-3190/ac220d": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1108/ci-03-2021-0049": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1108/eb031792": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1108/hff-07-2024-945": {
+  "title": "Guest editorial: High-speed aerodynamics, from transonic to hypersonic",
+  "why": "journal guest editorial, or construction machinery and soil interaction",
+  "article": "A321",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1109/access.2021.3117295": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1109/access.2021.3120406": {
+  "title": "Hierarchical Model Predictive Control for Optimization of Vehicle Speed and Battery Thermal Using Vehicle Connectivity",
+  "why": "road vehicle speed and battery thermal model predictive control",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1111/j.1365-3032.1978.tb00148.x": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1111/j.1475-2743.1990.tb00798.x": {
+  "title": "GUIDANCE FOR AUTHORS",
+  "why": "journal front matter, Guidance for Authors in Soil Use and Management",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1111/j.1559-3584.1965.tb04959.x": {
+  "title": "NEW AMPHIBIOUS VEHICLE PROGRAMS",
+  "why": "amphibious vehicle programmes, Naval Engineers Journal",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1111/j.1559-3584.1977.tb04192.x": {
+  "title": "VERTICAL ATTITUDE TAKE—OFF AND LANDING (VATOL) REMOTELY PILOTED DEMONSTRATION VEHICLE",
+  "why": "VATOL remotely piloted demonstrator, not an entry vehicle",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1115/1.3446266": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1115/1.3601701": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1115/1.3677567": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1121/1.2369244": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1126/science.127.3302.811": {
+  "title": "Temperatures of a Close Earth Satellite Due to Solar and Terrestrial Heating",
+  "why": "on-orbit satellite thermal balance, not entry heating",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1127/metz/2018/0910": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1149/ma2019-02/57/2459": {
+  "title": "Regenerative Solid Oxide Fuel Cells for Venus Interior Probe Energy Storage",
+  "why": "solid oxide fuel cell energy storage, not entry",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1175/1520-0450(1969)008<0122:coifcw>2.0.co;2": {
+  "why": "dropped by reading the URL sweep, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1177/000348948809700207": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1177/1461348418757884": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1177/1729881417750787": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1177/17568293251332010": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1260/1708-5284.12.1.83": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1288/00005537-195801000-00009": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1299/jsmeapbio.2015.8.71": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1299/jsmermd.2018.2a1-k02": {
+  "title": "Towards High-fidelity Simulator of Construction Machine Based on Accurate Machine-soil Interaction Mechanics",
+  "why": "journal guest editorial, or construction machinery and soil interaction",
+  "article": "A321",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.14313/jamris-2025-035": {
+  "title": "In-Flight Solar Radiation Intensity Measurement Using a Small Unmanned Aerial Vehicle",
+  "why": "solar radiation measurement from a small unmanned aerial vehicle",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1515/tjj-2022-0082": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1515/tsd-1989-260515": {
+  "title": "Photosedimentometer with new handling qualities",
+  "why": "SOLAR flare physics, or unrelated instrumentation; the flare homonym the filter missed",
+  "article": "A321",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.1525/aa.1959.61.4.02a00010": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.15406/emij.2017.05.00113": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ad0350533": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ad0775682": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada026176": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada038187": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada107866": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada110958": {
+  "title": "Energy Management for Navy Family Housing: A Manual for Voluntary Residential Energy Conservation",
+  "why": "energy management in buildings, housing, robots or sensor networks, not trajectory energy",
+  "article": "A321",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada121253": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada194265": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada206251": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada233584": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada298561": {
+  "title": "Performance of Energy Management Control Systems (EMCS) in Selected Texas LoanStar Buildings,",
+  "why": "energy management in buildings, housing, robots or sensor networks, not trajectory energy",
+  "article": "A321",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada337010": {
+  "title": "Motion Planning for Energy Management in Autonomous Vehicles.",
+  "why": "energy management in buildings, housing, robots or sensor networks, not trajectory energy",
+  "article": "A321",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada345641": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada378859": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada380588": {
+  "why": "dropped by reading the selection, A323, quantum optics",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada421059": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada468743": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada471718": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada593521": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada634647": {
+  "title": "Extending Sensor Deployment Through Integrated Energy Management",
+  "why": "energy management in buildings, housing, robots or sensor networks, not trajectory energy",
+  "article": "A321",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada801485": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21236/ada801486": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21275/art20178467": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.21275/sr220110100905": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.22214/ijraset.2026.82249": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.23883/ijrter.2018.4011.bmel0": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.24425/aee.2018.124736": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.2478/amns-2024-0585": {
+  "title": "Analysis of new energy vehicle battery temperature prediction by combining BP neural network",
+  "why": "new energy road vehicle battery temperature prediction",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.2514/3.1569": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.2514/3.29939": {
+  "title": "Attitude control of a sun-pointing spinning spacecraft by means of solar radiation pressure",
+  "why": "solar radiation pressure attitude control, not entry reaction control",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.2514/3.62169": {
+  "title": "Attitude Control of Solar Electric Spacecraft by Thruster Gimballing",
+  "why": "solar electric spacecraft thruster gimballing; electric propulsion homonym",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.2514/3.62542": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.2514/3.62565": {
+  "title": "Low-Cost, Space Shuttle Power Extension Package Solar Array Design",
+  "why": "Shuttle solar array power extension package, not entry",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.2514/3.62656": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.29052/2412-3188.v10.i2.2023.68-75": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.29303/dtm.v13i1.631": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.30518/jav.1638338": {
+  "title": "Flight Delay Prediction with Airport Traffic Density Data from an Aviation Risk Management Perspective",
+  "why": "flight delay prediction from airport traffic density",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.30987/2658-4026-2023-4-385-393": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3109/00016488209130867": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3139/120.111134": {
+  "title": "Partial repair of thermally sprayed and sealed corrosion protection – Organic coating material or thermal spraying?",
+  "why": "thermally sprayed corrosion protection coatings, materials testing",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3233/isp-1988-3540101": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.32604/fdmp.2025.067087": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/agriculture13010158": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/app12073509": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/app12073598": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/atmos8110230": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/biomimetics10050328": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/biomimetics8060460": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/drones8020046": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/drones8100571": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/drones9060424": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/en12173339": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/en12244626": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/en13174518": {
+  "title": "Sizing of Lithium-Ion Battery/Supercapacitor Hybrid Energy Storage System for Forklift Vehicle",
+  "why": "battery and supercapacitor sizing for a forklift",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/en15176474": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/rs14194863": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/s24010212": {
+  "title": "Fully Convolutional Neural Network for Vehicle Speed and Emergency-Brake Prediction",
+  "why": "road vehicle speed and emergency brake prediction",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/wevj15100460": {
+  "why": "dropped by reading the URL sweep, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3390/wevj9040045": {
+  "title": "Sensitivity Analysis of the Battery Model for Model Predictive Control: Implementable to a Plug-In Hybrid Electric Vehicle",
+  "why": "battery model sensitivity for model predictive control, road vehicles",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3397/in_2023_0232": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3397/nc_2023_0173": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.35193/bseufbd.741368": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.36884/jafm.13.05.30951": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.37701/ts.01.2023.05": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.3813/aaa.919382": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.4315/0362-028x-41.2.100": {
+  "title": "Thermal Inactivation of Clostridium perfringens Enterotoxin",
+  "why": "food microbiology; thermal inactivation of Clostridium enterotoxin",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.4315/0362-028x-41.7.533": {
+  "title": "Thermal Injury and Recovery of Bacillus cereus",
+  "why": "food microbiology; thermal injury and RECOVERY of Bacillus cereus",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.4315/0362-028x-42.2.131": {
+  "title": "Thermal Resistance of Vibrio parahaemolyticus in Clam Homogenate",
+  "why": "food microbiology; thermal resistance of Vibrio in clam homogenate",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.5109/7172230": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.52710/mt.82": {
+  "title": "Energy Management Strategy of Fuel Cell Hybrid Electric Vehicle Based on Model Predictive Control",
+  "why": "fuel cell hybrid ROAD vehicle energy management",
+  "article": "A320",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.5293/ijfms.2023.16.1.034": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.5359/jawe.1983.51": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.54393/pjhs.v6i7.3294": {
+  "why": "dropped by reading the URL sweep, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.5755/j02.mech.23789": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.5957/jsr.1978.22.3.178": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.5957/jsr.1985.29.2.127": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "doi"
+ },
+ "https://doi.org/10.7748/ns.3.10.50.s96": {
+  "title": "Range of powered and unpowered wheelchairs",
+  "why": "wheelchairs; powered and unpowered RANGE is a mobility-aid measure",
+  "article": "A321",
+  "key_kind": "doi"
+ },
+ "https://ntrs.nasa.gov/citations/19850016593": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19990047711": {
+  "title": "A Reassessment of Heavy-Duty Truck Aerodynamic Design Features and Priorities",
+  "why": "heavy-duty truck aerodynamics; same author and same base-drag physics, different vehicle class",
+  "article": "A321",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20050092391": {
+  "title": "Slow-rise and Fast-rise Phases of an Erupting Solar Filament and Flare Emission Onset",
+  "why": "SOLAR flare physics, or unrelated instrumentation; the flare homonym the filter missed",
+  "article": "A321",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20050181953": {
+  "title": "Flare Emission Onset in the Slow-Rise and Fast-Rise Phases of an Erupting Solar Filament Observed with TRACE",
+  "why": "SOLAR flare physics, or unrelated instrumentation; the flare homonym the filter missed",
+  "article": "A321",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20130001702": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "url"
+ },
+ "research_5th_colloquium_1982": {
+  "why": "wrong field: 5th colloquium on industrial aerodynamics Aachen",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_advanced_gas_1981": {
+  "why": "AUTOMOTIVE gas turbine powertrain",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_aerodynamic_characteristics_1971": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: AERODYNAMIC CHARACTERISTICS OF ATMOSPHERIC BOUNDARY LAYERS.",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_aerodynamic_design_1980": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Aerodynamic design of electric and hybrid vehicles: a guideb",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_aerodynamic_resistance_1979": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Aerodynamic resistance reduction of electric and hybrid vehi",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_air_water_testing_1979": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Air-water testing of a full flow perforated drag plate (beve",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_al_ghussain_bailey_2022": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_albeaino_2021": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_ali_2024": {
+  "why": "wrong field: Propeller–hull interaction simulation for self-propulsion ",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_ali_shimer_2024": {
+  "why": "wrong field: Thermal Performance of a Laminar Flow Double Pipe Heat Exchang",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_aliakbari_2025": {
+  "why": "wrong field: A study on crankshaft failure in diesel engine of wheel load",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_allen_1975": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_allwood_drinkwater_1971": {
+  "why": "wrong field: The stability of acoustic extensometers designed to measure ",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_altunoglu_aknet_2025": {
+  "title": "Flight Delay Prediction with Airport Traffic Density Data from an Aviation Risk Management Perspective",
+  "why": "flight delay prediction from airport traffic density",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_an_2023": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_ancestor_worship_1966": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_anderson_john_d_1991": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_anderson_jr_1988": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_ang_2023": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_angevine_2020": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_angevine_2020_2": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_annihilation_model_1979": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Annihilation model of the Tormac sheath",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_arai_yokose_1975": {
+  "title": "Simulation of Lateral Motion of 2-Axle Railway Vehicle in Running",
+  "why": "road and rail vehicle lateral dynamics, not entry crossrange",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_arya_1984": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_asper_1987": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_atilgan_calvert_1980": {
+  "why": "wrong field: Geometry of transition sections between ducts of equal area",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_aubrey_speer_1983": {
+  "why": "wrong field: Sediment Transport in a Tidal Inlet.",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_avery_cook_1945": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_awan_2025": {
+  "why": "dropped by reading the URL sweep, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_babu_thittayath_padmanabhan_2026": {
+  "why": "wrong field: Noise reduction through open ventilation windows using res",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_baines_1974": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_baker_1946": {
+  "why": "wrong field: The Thrust of a Marine Screw Propeller",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_baker_1980": {
+  "why": "wrong field: The theory of flow between two buildings - experimental veri",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_balckford_1985": {
+  "why": "wrong field: Windmill thrusters: A comparison of theory and experiment",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_bao_2025": {
+  "why": "wrong field: Robust fault-tolerant control for dynamic positioning vess",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_baranger_1958": {
+  "why": "General Impact Theory of PRESSURE BROADENING, spectroscopy",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_barr_2016": {
+  "why": "venue European Journal of Surgical Oncology (EJSO)",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_barr_kreitzberg_1975": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_basehart_scheffler_1967": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_basic_research_1979": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Basic research needs in fluid mechanics",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_basic_research_1979_2": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Basic research in engineering: fluid dynamics and thermal pr",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_bass_haddara_1988": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_bell_1993": {
+  "why": "Titan III guidance Monte Carlo for a MARS mission",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_bergman_1999": {
+  "why": "dropped by reading the selection, A323, quantum optics",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_beveridge_1962": {
+  "why": "wrong field: THRUST DEDUCTION DUE TO A PROPELLER BEHIND A HYDROFOIL",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_beveridge_1971": {
+  "why": "ducted propeller for SUBMARINES, hydrodynamic",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_bibliography_on_1979": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Bibliography on augmentation of convective heat and mass tra",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_birket_smith_1981": {
+  "why": "a Cretaceous stick-insect FOSSIL wing",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_black_1956": {
+  "why": "leading-edge STALL at high incidence, not cruise laminar flow",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_block_novelo_2019": {
+  "why": "compressor WATER INJECTION for emissions, not a suction system",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_bloom_1959": {
+  "why": "hypersonic similarity for NOZZLES",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_bo_li_2024": {
+  "title": "Energy Management Strategy of Fuel Cell Hybrid Electric Vehicle Based on Model Predictive Control",
+  "why": "fuel cell hybrid ROAD vehicle energy management",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_boes_1970": {
+  "why": "wrong field: Der Propeller im instationären geschwindigkeitsfeld (The pro",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_bontempo_2016": {
+  "why": "ducted MARINE propellers part I, naval architecture",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_bontempo_manna_2018": {
+  "why": "ducted MARINE propellers part II, naval architecture",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_borg_1982": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_braham_1967": {
+  "why": "cirrus cloud SEEDING to trigger storms, weather modification",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_breslin_1961": {
+  "why": "wrong field: The Wave and Induced Drag of a Hydrofoil of Finite Span in Water o",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_breuer_2005": {
+  "why": "turbulent BL control for NAVAL applications, ships not aircraft",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_bridge_paint_2013": {
+  "why": "venue CoatingsPro",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_broersma_tasseron_1967": {
+  "why": "wrong field: Propeller maintenance – propeller efficiency and blade rough",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_brown_1974": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_brunner_1982": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_bryan_2016": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_buchsbaum_1963": {
+  "why": "thermal stress on CELLULAR STRUCTURE, meaning cell biology and heat shock",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_building_automation": {
+  "why": "title: Building Automation System Replacement and Improvements duri",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_busch_1973": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_bush_rosen_1968": {
+  "why": "Newtonian theory of normal SHOCK WAVE STRUCTURE",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_calaf_2022": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_camenen_larson_2007": {
+  "why": "wrong field: A Unified Sediment Transport Formulation for Coastal Inlet",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_cao_anvar_2012": {
+  "why": "wrong field: Design, Modelling and Simulation of Maritime UAV-VTOL Flig",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_carden_1978": {
+  "title": "Steering a field of mirrors using a shared computer-based controller",
+  "why": "heliostat field steering, Solar Energy; steering homonym",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_carl_1965": {
+  "title": "NEW AMPHIBIOUS VEHICLE PROGRAMS",
+  "why": "amphibious vehicle programmes, Naval Engineers Journal",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_carlson_stoner_1977": {
+  "why": "thermal barrier coating on INDUSTRIAL GAS TURBINES",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_caughey_1977": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_celik_patel_1982": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_centrifugal_fan_1986": {
+  "why": "wrong field: Centrifugal fan now has inlet guide vane control",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_centrifugal_pump_1980": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Centrifugal pump hydraulic instability. Final report",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_chaudhary_roy_2015": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_chen_2020": {
+  "why": "wrong field: WITHDRAWN: Simulation Research on Ship Electric Propulsion",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_chen_2022_4": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_chen_2023_3": {
+  "why": "wrong field: Simulation research on ship electric propulsion speed regu",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_chen_2024": {
+  "why": "wrong field: Experimental investigation on aerodynamic noise of a small-s",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_chin_1975": {
+  "why": "wrong field: Shape Change and Conduction for Nosetips at Angle of Attack",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_chirarattananon_wood_2015": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_chock_1978": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_christ_1977": {
+  "title": "Automatic Lateral Control of Vehicles. Theory and Experiment",
+  "why": "road and rail vehicle lateral dynamics, not entry crossrange",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_clemente_suarez_2016": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_continuous_monitoring_2023": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_cook_1975": {
+  "why": "wrong field: A boundary layer wind tunnel for building aerodynamics",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_cook_1981": {
+  "why": "wrong field: Fourth colloquium on industrial aerodynamics, Aachen, June 1",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_coombes_2022": {
+  "why": "wrong field: The influence of rotor downwash on spray distribution unde",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_coon_1963": {
+  "why": "wrong field: PROPELLER VORTEX CAVITATION INCEPTION STUDIES",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_cormier_1975": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_costello_2000": {
+  "why": "portable suction pump, DTIC, not an aircraft suction system",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_crocker_1970": {
+  "title": "Attitude control of a sun-pointing spinning spacecraft by means of solar radiation pressure",
+  "why": "solar radiation pressure attitude control, not entry reaction control",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_cummings_1976": {
+  "why": "wrong field: The effect of propeller wake deformation on propeller design",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_curott_1966": {
+  "title": "Earth deceleration from ancient solar eclipses",
+  "why": "deceleration of the Earth's rotation from ancient eclipses, astronomy",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_dai_2023": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_dalzell_1978": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_danilin_1993": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_dash_poelma_2022": {
+  "why": "wrong field: Long-time-scale transients in an industrial-scale slurry pipel",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_davenport_1959": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_david_1978": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_davis_1981": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_davis_1989": {
+  "why": "wrong field: Formation and development of a tidal inlet from a washover",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_deacon_1973": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_deardorff_1974": {
+  "why": "Boundary-Layer Meteorology, atmospheric boundary layer",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_definitive_generic_1979": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Definitive generic study for the effect of high lift airfoil",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_dekam_calvert_1985": {
+  "why": "wrong field: Area distribution along general transition geometries",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_dekoninck_int_panis_2017": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_deleon_2018": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_delmore_crisley_1979": {
+  "title": "Thermal Resistance of Vibrio parahaemolyticus in Clam Homogenate",
+  "why": "food microbiology; thermal resistance of Vibrio in clam homogenate",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_depalma_1976": {
+  "why": "wrong field: Final Report on Marine Biofouling Studies at Admiralty Inl",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_detao_2026": {
+  "why": "wrong field: Fluorinated Recycled Wind Turbine Blade Powders for High-Perfo",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_development_of_1979": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Development of a model and computer code to describe solar g",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_devices_for_1979": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Devices for launching 0. 1-g projectiles to 150 km/s or more",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_diehl_grutzun_2018": {
+  "why": "venue Atmospheric Chemistry and Physics",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_diffusion_of_1978": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Diffusion of a chemical species through a viscous boundary l",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_dighe_2020": {
+  "why": "wrong field: Effects of yawed inflow on the aerodynamic and aeroacoustic ",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_discussion_of_1983": {
+  "why": "wrong field: Discussion of session 15 — Fundamentals of bluff body aerody",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_doosti_abukheyli_2017": {
+  "why": "suction in rectangular FUEL CELL CHANNELS, internal duct flow",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_drach_2021": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_drag_reductions_1974": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Drag Reductions Obtained by Modifying a Box-Shaped Ground Ve",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_drozdetskaya_fidlin_2016": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_du_2025": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_dugundji_ghareeb_1965": {
+  "why": "bending FLUTTER of a swept wing, aeroelasticity",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_dworski_1964": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_edwards_2020": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_effati_banazadeh_2013": {
+  "why": "wrong field: Frequency Response Analysis for Dynamic Model Identificati",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_effects_on_1977": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Effects on atmospheric diffusion of meterological processes ",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_eilertson_1977": {
+  "title": "VERTICAL ATTITUDE TAKE—OFF AND LANDING (VATOL) REMOTELY PILOTED DEMONSTRATION VEHICLE",
+  "why": "VATOL remotely piloted demonstrator, not an entry vehicle",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_eisenberg_2018": {
+  "why": "wrong field: Wind turbine blade coating leading edge rain erosion model: De",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_el_guernaoui_2025": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_ellenberg_2016": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_elsaesser_2013": {
+  "why": "venue Bulletin of Environmental Contamination and ",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_em_0211_1976": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: EM 0211: standpipe-bubbler pump level control study, cover g",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_emmanuel_1975": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_energy_conservation_1979": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Energy conservation via heat transfer enhancement. Quarterly",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_epri_workshop_1980": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: EPRI workshop proceedings: basic two-phase flow modeling in ",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_ertasgin_2020": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_experimental_two_phase_1977": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Experimental two-phase liquid--metal magnetohydrodynamic gen",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_fadaeian_banazadeh_2012": {
+  "why": "wrong field: Model Reference Adaptive Control Design for a Ducted Fan A",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_fathabadi_2017": {
+  "title": "Novel solar powered electric vehicle charging station with the capability of vehicle-to-grid",
+  "why": "solar powered electric vehicle charging station, not a launch or entry vehicle",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_finger_krishnapillai_1980": {
+  "title": "Host range, entry exclusion, and incompatibility of Pseudomonas aeruginosa FP plasmids",
+  "why": "bacterial plasmid biology; host range and entry exclusion are microbiology terms",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_firing_of_2018": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_fowler_lagrone_1969": {
+  "why": "dropped by reading the URL sweep, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_frank_2007": {
+  "why": "wrong field: Laminar Flow Air: A Comparison of Operating Room Air Purity in",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_frenzen_1974": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_frequency_evaluation_2017": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_friehe_1999": {
+  "why": "title: Aircraft Measurements of Air-Sea Fluxes and the Marine Atmos",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_fu_2017": {
+  "why": "wrong field: Marine drag reduction of shark skin inspired riblet surfaces",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_fulcher_1969": {
+  "why": "brushless dc torquer REACTION WHEEL, a satellite device",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_gadekar_2023": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_galowin_1974": {
+  "why": "laminar flow in a POROUS PIPE, internal flow not a wing",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_gardner_1945": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_garfinkle_1994": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_garratt_1982": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_garry_1981": {
+  "why": "wrong field: Fourth colloquium on industrial aerodynamics, Aachen, June 1",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_gas_cooled_fast_1979": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Gas-cooled fast breeder reactor. Quarterly progress report, ",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_gearhart_1966": {
+  "why": "wrong field: Tip Clearance Cavitation in Shrouded Underwater Propulsors",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_genta_maffione_2016": {
+  "why": "low-thrust trajectories for SPACECRAFT electric propulsion, not aircraft motors",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_george_1979": {
+  "why": "wrong field: A Model of an Axisymmetrical Ducted Propeller with Zero Tip ",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_ghedhaifi_2022": {
+  "title": "3D High-Resolution Modeling of Aircraft-Induced NOx Emission Dispersion in CAEPport Configuration Using Landing and Take-Off Trajectory Tracking",
+  "why": "aircraft NOx emission dispersion; dispersion homonym in air pollution",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_gibbons_1958": {
+  "why": "thermal expansion of DIAMOND-structure crystals",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_goard_1966": {
+  "why": "pyrometer instrument paper",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_goldschmied_1968": {
+  "why": "UNDERWATER hovering control, the hovering homonym",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_goncalves_2026": {
+  "why": "wrong field: Prediction of diffuser noise footprint of a ducted wind turb",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_gorji_2018": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_goto_goto_1987": {
+  "why": "wrong field: Continuous separation using an annular chromatograph with ",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_greenway_wood_1979": {
+  "why": "wrong field: The Oxford University 4 m × 2 m industrial aerodynamics wind",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_guidance_for_1987": {
+  "title": "GUIDANCE FOR AUTHORS",
+  "why": "journal front matter, Guidance for Authors in Soil Use and Management",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_guidance_for_1990": {
+  "title": "GUIDANCE FOR AUTHORS",
+  "why": "journal front matter, Guidance for Authors in Soil Use and Management",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_guidance_for_1990_2": {
+  "title": "GUIDANCE FOR AUTHORS",
+  "why": "journal front matter, Guidance for Authors in Soil Use and Management",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_guide_to_1977": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Guide to the design and general use of the Waltz Mill Forced",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_guo_2021": {
+  "why": "wrong field: Micro-scale analysis on shear characteristics of unsaturated s",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_guo_2025": {
+  "why": "wrong field: Effect of surface roughness on axial soil-pipe interaction: a ",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_guza_feddersen_2015": {
+  "why": "wrong field: Transport and Dispersion of Dye-tracer and Drifters at a T",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_guzewich_smith_2019": {
+  "why": "MARTIAN water ice clouds",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_ha_ahn_2014": {
+  "why": "wrong field: Laminar flow-based micro fuel cell utilizing grooved electrode",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_haddara_bass_1990": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_hakura_1967": {
+  "title": "Entry of solar cosmic rays into the polar cap atmosphere",
+  "why": "solar cosmic ray entry into the polar cap; entry homonym in space physics",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_han_zhang_2022": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_hao_2021": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_hargreaves_hutson_1990": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_hashim_2015": {
+  "why": "micro-bubble SHIP resistance reduction, marine",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_hasse_dunckel_1974": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_hay_1984": {
+  "why": "wrong field: Analyses of wind and response data from the Wye and Erskine ",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_he_2013": {
+  "why": "wrong field: Research on Hover Characteristics of Ducted Fan with Coaxi",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_he_liu_2023": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_heimann_2018": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_heisel_chamecki_2024": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_hershey_smolin_1967": {
+  "why": "laminar regime transition for BLOOD FLOW in tubes",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_heymsfield_willis_2014": {
+  "why": "secondary ice production in TROPICAL MARITIME CONVECTION, not cirrus at altitude",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_hilburn_2017": {
+  "why": "wrong field: Uncertainty in orthorhombic model building: Analysis, mitigati",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_hill_2003": {
+  "why": "Marine Corps casualty evacuation medical supply",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_hitschfeld_1968": {
+  "why": "comment on cloud seeding for storm development",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_hohenemser_swift_1983": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_holmes_1972": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_hong_2013": {
+  "why": "wrong field: Electric Servo Loading System Applied to Flight Simulator",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_horton_1951": {
+  "why": "HIGH-LIFT boundary layer control for take-off, the other BLC",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_hou_2025": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_hovercraft_hover_over_1970": {
+  "why": "wrong field: Hovercraft: Hover-Over from Canada",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_hoxit_1975": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_hristov_2003": {
+  "why": "title: Study of EM Signals Propagation through Marine Atmospheric B",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_hsu_1974": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_hsu_2015": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_hu_2010": {
+  "why": "wrong field: Fan Rotating Stall Fault Diagnosis and Treatment",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_hu_lu_2023": {
+  "why": "wrong field: Study on soil-rock slope instability at mesoscopic scale using",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_huang_hou_2014": {
+  "why": "wrong field: Adaptive Control for Steering Engine Fault of Ducted Fan U",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_hughes_2000": {
+  "why": "wrong field: Effect of Offset Jetties on Tidal Inlet Flood Flow",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_hurin_matvieiev_2023": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_improvements_to_1980": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Improvements to the COBRA-TF (EPRI) computer code for steam ",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_infante_2019": {
+  "why": "wrong field: Failure analysis of a crankshaft of a helicopter engine",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_international_conference_1985": {
+  "why": "wrong field: International conference on aerodynamics at low reynolds num",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_itu_danescu_2023": {
+  "title": "Fully Convolutional Neural Network for Vehicle Speed and Emergency-Brake Prediction",
+  "why": "road vehicle speed and emergency brake prediction",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_jahkola_1985": {
+  "why": "wrong field: Aerodynamics of a triangular jib and boom combination",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_jain_reed_2019": {
+  "why": "wrong field: Laminar Air Flow Handling Systems in the Operating Room",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_jalaja_2023": {
+  "title": "Metallurgical failure analysis of AA 7050 main landing gear brake reducer for reusable launch vehicle",
+  "why": "landing gear brake metallurgy, not entry physics or recovery dynamics",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_jang_2021": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_janour_1975": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_jensen_1983": {
+  "why": "wrong field: Escarpment induced flow perturbations, a comparison of measu",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_jia_2022": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_johansson_2019": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_johnson_1978": {
+  "why": "wrong field: Architectural aerodynamics",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_johnson_groh_2021": {
+  "why": "dropped by reading the URL sweep, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_jonas_1953": {
+  "why": "aerodynamic heating effect on FUEL SYSTEMS",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_judd_1963": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_jung_ahn_2020": {
+  "why": "co-laminar flow FUEL CELL, a microfluidic battery",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_k_2021": {
+  "why": "nanofluid laminar flow in a DOUBLE PIPE HEAT EXCHANGER",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_kan_1958": {
+  "why": "wrong field: Effect of fouling of a ship’s hull and propeller upon propul",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_kang_2019": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_kantibhai_gohel_2022": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_kato_1975": {
+  "why": "wrong field: A new cavitation erosion test method and its application to ",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_katsaros_1980": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_katskova_chushkin_1967": {
+  "why": "wrong field: Numerical calculation of supersonic flow about ducted bodies",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_kavitha_2018": {
+  "why": "wrong field: Technology at finger tips laminar air flow in the operating ro",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_kayser_2023": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_ke_2025": {
+  "why": "active-passive thermal control of an EXTERNAL spacecraft surface",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_keesing_1968": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_keyword_index_1974": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Keyword index to unclassified ORGDP formal reports, July 194",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_khelif_2003": {
+  "why": "title: Marine Boundary-Layer and Air-Sea Interaction",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_khelif_2006": {
+  "why": "title: Marine Boundary-Layer and Air-Sea Interaction",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_khelif_2007": {
+  "why": "title: Marine Boundary-Layer and Air-Sea Interaction",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_kim_kinnas_2022": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_kimmel_2011": {
+  "why": "HIFiRE hypersonic boundary layer transition",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_kinetics_of_1979": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Kinetics of lignite pyrolysis in fixed bed and entrained flo",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_kinnas_2015": {
+  "why": "wrong field: A Panel Method with a Full Wake Alignment Model for the Pred",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_kinnas_2015_2": {
+  "why": "wrong field: A Panel Method with a Full Wake Alignment Model for the Pred",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_kito_1955": {
+  "why": "wrong field: On Performance of a Propeller under a State of Fully Devel",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_klarman_skeba_1976": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_kleis_sanchez_1990": {
+  "title": "Dependence of speed of sound on salinity and temperature in concentrated NaCl solutions",
+  "why": "speed of sound in NaCl solutions; the homonym my own query created",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_kline_2019": {
+  "why": "boundary layer stability for MARTIAN ATMOSPHERIC ENTRY, hypersonic not LFC",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_korvin_kroukovsky_1954": {
+  "why": "wrong field: On the numerical calculation of wake fraction and thrust ded",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_kowalski_1971": {
+  "why": "wrong field: Effect of Polymer Additives on Propeller Performance",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_kramer_1984": {
+  "why": "wrong field: Wind tunnels for industrial aerodynamics",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_kraus_1971": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_krishna_1980": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_kumai_1972": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_kumano_2020": {
+  "why": "wrong field: Experimental study on flow characteristics of ice slurry throu",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_kuo_1975": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_kuo_1982": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_lacaze_1976": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_laminar_flow_1979": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Laminar flow cyclone development program. Quarterly technica",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_laminar_flow_1980": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Laminar flow cyclone development program. Quarterly technica",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_laminar_flow_1980_2": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Laminar flow cyclone development program. Quarterly technica",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_laminar_flow_1980_3": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Laminar flow cyclone development program. Quarterly technica",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_laze_2024": {
+  "why": "wrong field: An overview of patents of noise reduction in buildings",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_lazna_2018": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_leahey_1975": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_lee_lundquist_2017": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_lettau_1977": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_lettau_1983": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_lewandowski_2024": {
+  "why": "venue Cureus",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_li_2020_2": {
+  "why": "wrong field: Statistical energy method for noise reduction performance ",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_li_2024_4": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_li_2024_7": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_li_2025_3": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_li_2025_4": {
+  "why": "wrong field: Thermo-hydraulic performance of offset fin microchannel heat e",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_li_2026_3": {
+  "why": "wrong field: In-situ 3D reconstruction and analysis of droplet motion c",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_li_liu_2024": {
+  "why": "dropped by reading the URL sweep, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_lian_2015": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_lipian_2020": {
+  "why": "wrong field: Small wind turbine augmentation: Numerical investigations of",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_liu_2022_3": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_liu_2023_2": {
+  "why": "Bayesian geoacoustic inversion in shallow water, underwater acoustics",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_liu_2025_2": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_lochmatov_1968": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_logan_fichtl_1975": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_lu_2018_2": {
+  "title": "A novel probe to assess cytosolic entry of exogenous proteins",
+  "why": "CYTOSOLIC ENTRY of exogenous proteins; entry homonym in cell biology",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_lu_2021": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_lu_2022": {
+  "title": "A novel probe to assess cytosolic entry of exogenous proteins",
+  "why": "cytosolic entry of exogenous proteins; entry homonym in cell biology",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_ma_bao_2016": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_macala_2002": {
+  "why": "Cassini reaction wheel design",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_mackay_1971": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_magnetohydrodynamics_test_1975": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Magnetohydrodynamics test of a one-sixth scale model of a CT",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_magnetohydrodynamics_test_1975_2": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Magnetohydrodynamics test of a one-sixth scale model of a CT",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_magono_kikuchi_1960": {
+  "why": "wrong field: On the Measurement of Electric Charge on individual Cloud Particle",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_mahrt_1981": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_manohare_2026": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_mao_liu_2018": {
+  "why": "tip leakage in a COMPRESSOR CASCADE, turbomachinery not LFC",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_markley_1991": {
+  "why": "GOES-N weather satellite attitude control",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_maroneze_2018": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_maroneze_2023": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_marsh_1974": {
+  "title": "Attitude Control of Solar Electric Spacecraft by Thruster Gimballing",
+  "why": "solar electric spacecraft thruster gimballing; electric propulsion homonym",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_mass_transport_1976": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Mass transport in dead-end tubes with selectively permeating",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_mavi_arslan_2025": {
+  "title": "A new TEG-supported thermal management system of the battery system for an electric vehicle",
+  "why": "battery thermal management for an electric road vehicle",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_mayne_1979": {
+  "why": "wrong field: Third colloquium on industrial aerodynamics, June 14–16, 197",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_mcmillin_1969": {
+  "why": "high temperature alloy DIE CASTING process",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_mctaggart_1963": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_measuring_and_1977": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Measuring and predicting the dynamic effects of a confined t",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_mehdizadeh_2024": {
+  "why": "cloud seeding and snowfall, weather modification",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_melo_2018": {
+  "title": "A numerical wake alignment method for horizontal axis wind turbines with the lifting line theory",
+  "why": "horizontal axis wind turbine wake, the diffuser-augmented turbine family again",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_mertaugh_1998": {
+  "why": "naval rotary wing flight test approval process, not LFC",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_meyer_1960": {
+  "why": "MAGNETOHYDRODYNAMIC quasi-Newtonian flow",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_meyne_1975": {
+  "why": "wrong field: Propeller manufacture – propeller materials – propeller stre",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_mhd_generator_1978": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: MHD generator component development. Quarterly report, April",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_miles_1948": {
+  "why": "rolling moment due to sideslip, a stability derivative",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_mishra_2017": {
+  "why": "causes of engine failure in SHIPS and maintenance",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_misra_1977": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_misra_1980": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_mit_extraction_1980": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: MIT extraction method for measuring average subchannel axial",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_mitsuta_fujitani_1974": {
+  "why": "turbulent fluxes on a cruising SHIP, meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_mizukami_nakazono_2014": {
+  "why": "Dawn spacecraft reaction control flight experience",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_mller_1958": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_modeling_of_1980": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Modeling of dry deposition of SO/sub 2/ and sulfate aerosols",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_monchalin_bussiere_1984": {
+  "why": "ULTRASONIC absorption measured by thermo-emissivity",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_mondal_2023": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_mondal_2025": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_naca_1966": {
+  "why": "interplanetary guidance computer program description",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_nafeez_talukder": {
+  "why": "Building Automation System replacement",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_naik_duncan_1978": {
+  "title": "Thermal Inactivation of Clostridium perfringens Enterotoxin",
+  "why": "food microbiology; thermal inactivation of Clostridium enterotoxin",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_nan_2014": {
+  "why": "wrong field: Parameter Identification and Attitude Control of Ducted Fa",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_nanavath_vedantam_2025": {
+  "why": "laminar oscillatory flow REACTORS, chemical engineering",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_narita_1974": {
+  "why": "wrong field: Model and Full Scale Ducted Propeller Cavitation Observation",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_natural_convection_1979": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Natural convection heat transfer from an external receiver",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_nauta_1988_2": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_nayak_2025": {
+  "why": "wrong field: THERMAL PERFORMANCE ANALYSIS OF FLAT-PLATE SOLAR COLLECTOR USI",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_ndllalane_2026": {
+  "why": "wrong field: Demand-responsive optimization of blood allocation under p",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_newman_1983": {
+  "why": "wrong field: Actuator-disc theory for vertical-axis wind turbines",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_nguyen_han_2018": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_nishi_2023": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_nishioka_2009": {
+  "why": "wrong field: Observation of Inertial Particle Motion in Laminar Flow in a S",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_nishiyama_1959": {
+  "why": "wrong field: LIFTING‐LINE THEORY OF THE SUBMERGED HYDROFOIL OF FINITE SPAN",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_nishiyama_1960": {
+  "why": "wrong field: LIFTING‐LINE THEORY OF THE SUBMERGED HYDROFOIL OF FINITE SPAN",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_nishiyama_1960_2": {
+  "why": "wrong field: LIFTING‐LINE THEORY OF THE SUBMERGED HYDROFOIL OF FINITE SPAN",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_nobel_1968": {
+  "why": "PORTABLE CLINICAL SUCTION DEVICE for hyperbaric chambers, medical",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_noor_zafirah_abu_bakar_muhamad_hasbullah_padzillah_2023": {
+  "why": "wrong field: Influence of Blade-Flow Interactions on Flow Behaviours and Bl",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_novak_black_1983": {
+  "title": "The surface heat flux density of a bare soil",
+  "why": "surface heat flux of bare soil, soil physics",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_nuhija_2021": {
+  "why": "GEOPOLITICS of near-space, political science rather than engineering",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_numerical_simulation_2020": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_oke_east_1971": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_oosterveld_1972": {
+  "why": "wrong field: Ducted propeller systems suitable for tugs and pushboats1",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_oosterveld_van_den_berg_1976": {
+  "why": "wrong field: Research in a depressurized towing tank on ducted propeller-",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_open_cycle_1980": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Open Cycle OTEC System With Falling Jet Evaporator and Conde",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_optimization_of_2020": {
+  "why": "wrong field: Optimization of the Electric Vehicle HVAC Duct System Base",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_ortolani_dubbioso_2022": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_ozog_2025": {
+  "title": "In-Flight Solar Radiation Intensity Measurement Using a Small Unmanned Aerial Vehicle",
+  "why": "solar radiation measurement from a small unmanned aerial vehicle",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_pache_2026": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_paderin_1984": {
+  "why": "emissivity of insulation at LOW temperatures",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_painton_shaw_1988": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_panofsky_1973": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_park_lee_2017": {
+  "why": "wrong field: Sources of broadband noise of an automotive cooling fan",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_parkinson_1984": {
+  "why": "wrong field: A tolerant wind tunnel for industrial aerodynamics",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_patrick_2018": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_paul_2020": {
+  "title": "Sizing of Lithium-Ion Battery/Supercapacitor Hybrid Energy Storage System for Forklift Vehicle",
+  "why": "battery and supercapacitor sizing for a forklift",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_peekna_2002": {
+  "why": "wrong field: Measuring Time-Dependent Pavement Deflection Profiles Unde",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_pellacani_lupini_1975": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_peng_2015": {
+  "why": "venue Atmospheric Chemistry and Physics",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_peng_2020": {
+  "why": "cooling fan module noise, stator rotor interaction, industrial",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_perminov_1969": {
+  "why": "wing of given volume in HYPERSONIC flow",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_perry_1949": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_petrova_1985": {
+  "why": "pulse measurement apparatus for specific heat and resistivity",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_phetteplace_2007": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_piao_2021": {
+  "title": "Hierarchical Model Predictive Control for Optimization of Vehicle Speed and Battery Thermal Using Vehicle Connectivity",
+  "why": "road vehicle speed and battery thermal model predictive control",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_pietrasanta_1957": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_pollutant_control_1979": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Pollutant control through staged combustion of pulverized co",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_pollutant_transport_1979": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Pollutant transport and sediment dispersal in the Washington",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_postula_1971": {
+  "why": "RADIOISOTOPE fuelled capsule",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_prasad_1967": {
+  "why": "bending-torsional FLUTTER of a swept wing, aeroelasticity",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_pressure_dependence_1974": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Pressure dependence of the thermoelectric power of sodium be",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_process_efficiency_and_1977": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Process-efficiency and controls-category plan for aerodynami",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_promvonge_2022": {
+  "why": "wrong field: Heat transfer augmentation in solar heat exchanger duct wi",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_qiao_2022": {
+  "why": "the same bend-tube study, duplicate subject",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_qiao_2023": {
+  "why": "discrete inclined ribs in a BEND TUBE, heat-exchanger internals",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_qiao_2024": {
+  "why": "thermal-electric utilisation scheme, power generation rather than TPS",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_quispe_abad_muller_2023": {
+  "why": "wrong field: Finding an absolute maximum theoretical power coefficient fo",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_rafiee_2017": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_rahman_hasnain_2024": {
+  "why": "wrong field: Enhancing heat exchanger performance with perforated/non‐perfo",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_rappaport_goepfert_1978": {
+  "title": "Thermal Injury and Recovery of Bacillus cereus",
+  "why": "food microbiology; thermal injury and RECOVERY of Bacillus cereus",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_rasche_2002": {
+  "why": "wrong field: Test and Evaluation of a Networked Patient Simulator System:",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_rauh_1956": {
+  "why": "work function and emissivity of URANIUM",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_reddering_1983": {
+  "why": "wrong field: An inlet sequence produced by migration of a small microti",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_reduction_of_1976": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Reduction of mixed spinel oxides. Progress report, April 1, ",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_reed_2000": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_ren_wang_2025": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_research_and_1980": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Research and development studies for MHD/coal power flow tra",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_revised_draft_1977": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Revised draft program plan report for applied research in ro",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_rice_wilson_1964": {
+  "why": "wrong field: HYDRODYNAMICS AND STABILITY AND CONTROL OF A TANDEM PROPELLE",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_richards_hoxey_2024": {
+  "why": "wrong field: Strong suction events during reformation of leading edge vorti",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_rizqiansyah_caprani_2024": {
+  "why": "wrong field: Hierarchical Bayesian modeling of highway bridge network e",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_roberts_1966": {
+  "why": "distributed suction HIGH-LIFT BLC system, the other BLC",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_roberts_1985": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_roelandt_2025": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_roshan_2015": {
+  "why": "wrong field: RANS simulations of the stepped duct effect on the performan",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_rubis_1974": {
+  "why": "wrong field: Gas turbine performance under varying torque propeller loads",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_russotti_2003": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_russotti_greeb_1973": {
+  "why": "dropped by reading the URL sweep, A323 primary pass, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_rynell_2018": {
+  "why": "shrouded subsonic AUTOMOTIVE fan noise",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_saleem_2023": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_salesky_2016": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_sanders_1973": {
+  "why": "wrong field: Effects of Polyethylene-Oxide Solutions on the Performance o",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_scanlan_1983": {
+  "why": "wrong field: On linearized airfoil and bluff-body stability theory and th",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_scheele_greene_1966": {
+  "why": "nonisothermal PIPE FLOW transition, internal flow",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_schneider_1963": {
+  "why": "high-emissivity coating for PICTURE-TUBE heaters, television",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_scott_1966": {
+  "why": "noise figure and FIGURE OF MERIT for NUCLEAR-RADIATION DETECTORS",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_seabergh_2001": {
+  "why": "wrong field: Tidal Inlet Equilibrium Area Experiments, Inlet Laboratory",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_seginer_1972": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_seginer_1975": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_sekularac_2016": {
+  "why": "wrong field: Experimental determination of tunnel ventilation axial ducte",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_sepulveda_araya_2025": {
+  "why": "venue Atmospheric Chemistry and Physics",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_serdar_genc_2019": {
+  "why": "wrong field: Investigation of pre-stall flow control on wind turbine blade ",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_shan_bilgen_2024": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_shaughnessy_1974": {
+  "why": "attitude control and ENERGY STORAGE flywheel",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_shepherd_hubbard_1985": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_sibulkin_1962": {
+  "why": "turbulent to laminar PIPE FLOW, internal flow",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_simiu_2015": {
+  "why": "wrong field: Planetary Boundary-Layer Modelling and Tall Building Design",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_simon_1960": {
+  "why": "thermal conductivity by the PELTIER effect",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_simpson_2003": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_sinclair_2026": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_singh_1986": {
+  "why": "adaptive attitude control using reaction WHEELS",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_skora_2018": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_smeda_1979": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_smith_1967": {
+  "why": "wrong field: BREAKING STRENGTH AND ENDURANCE TESTING OF AIRCRAFT CONTROL CABLES",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_smith_2013": {
+  "why": "venue The Journal of Arthroplasty",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_smith_dunn_1997": {
+  "why": "wrong field: Enhancing AUV Operational Capabilities: Hovering, Rendezvo",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_smith_schwartzberg_1985": {
+  "why": "wrong field: Ice Crystal Size Changes During Ripening in Freeze Concentration",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_sockeel_2018": {
+  "title": "Sensitivity Analysis of the Battery Model for Model Predictive Control: Implementable to a Plug-In Hybrid Electric Vehicle",
+  "why": "battery model sensitivity for model predictive control, road vehicles",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_song_2024": {
+  "why": "ducted vs non-ducted ARCHIMEDES screw turbine, hydro power",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_sorbjan_uliasz_1982": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_sossai_2011": {
+  "why": "venue Journal of Orthopaedics and Traumatology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_souza_1982": {
+  "title": "Low-Cost, Space Shuttle Power Extension Package Solar Array Design",
+  "why": "Shuttle solar array power extension package, not entry",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_specifications_and_1979": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Specifications and design of a pressurized laminar-flow isot",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_springer_1982": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_staab_1998": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_stagnation_liquid_1969": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: STAGNATION LIQUID LAYER ABLATION OF SMALL SPHERES IN HYPERSO",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_stariha_2019": {
+  "title": "Regenerative Solid Oxide Fuel Cells for Venus Interior Probe Energy Storage",
+  "why": "solid oxide fuel cell energy storage, not entry",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_stathopoulos_1984": {
+  "why": "wrong field: Design and fabrication of a wind tunnel for building aerodyn",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_stewart_2018": {
+  "why": "wrong field: Reliability-based load factor design model for explosive b",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_stoll_1961": {
+  "why": "thermal protection capacity of aviator's TEXTILES, meaning clothing",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_stonebridge_2011": {
+  "why": "venue Methodist DeBakey Cardiovascular Journal",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_strohbehn_1973": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_studies_in_1980": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Studies in support of recirculating bed reactors for the pro",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_study_group_for_wind_effects_1983": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_supriadi_2015": {
+  "why": "riblets on SHIP HULLS, marine",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_suresh_babu_2026": {
+  "why": "wrong field: Investigation of thrust augmentation in multi-foil flappin",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_surface_roughness_1977": {
+  "why": "OSTI, Department of Energy corpus, not aerodynamics: Surface roughness effects on the hypersonic turbulent bounda",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_svet_1969": {
+  "why": "radiometry theory of continuous spectra",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_swaminathan_2024": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_swinbank_1974": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_sykes_1977": {
+  "why": "wrong field: A new wind tunnel for industrial aerodynamics",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_tacutu_2019": {
+  "why": "wrong field: Operating room ventilation with laminar air flow ceiling and a",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_tarabini_scaccabarozzi_2018": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_taylor_1953": {
+  "why": "fuselage lift distribution, load distribution not LFC",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_taylor_2015": {
+  "why": "wrong field: Hydrodynamic Drag Reduction",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_tewfik_yang_1963": {
+  "why": "emissivity of POROUS materials",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_the_effect_1953": {
+  "why": "wrong field: THE EFFECT OF RADIAL‐PITCH VARIATION ON THE PERFORMANCE OF A",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_thomas_1974": {
+  "title": "Solar proton entry to the magnetosphere on 18 November 1968 and 25 February 1969—I. Interpretation of satellite data using trajectory computations in a model magnetosphere",
+  "why": "solar proton entry to the magnetosphere; entry homonym in space physics",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_thoms_2007": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_thurston_amsler_1966": {
+  "why": "review of MARINE propellers and ducted propulsive devices",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_tiainen_2021": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_tikekar_1970": {
+  "why": "porous PIPE flow with heat transfer, internal flow engineering",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_tira_2023": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_tjernstroem_1999": {
+  "why": "title: Transport Processes in the Coastal Atmospheric Boundary Laye",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_tjernstrom_2000": {
+  "why": "title: Transport Processes in the Coastal Atmospheric Boundary Laye",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_tweedt_2012": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_van_aken_tasseron_1955": {
+  "why": "wrong field: Comparison between the open-water efficiency and thrust of t",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_van_aken_tasseron_1956": {
+  "why": "wrong field: Results of propeller tests in the “astern” condition for com",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_van_manen_1962": {
+  "why": "wrong field: Effect of radial load distribution on the performance of shr",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_venkatram_1977": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_vogel_2018": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_vogelweith_2015": {
+  "why": "venue Journal of Insect Physiology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_wald_1965": {
+  "why": "wrong field: Performance of a Propeller in a Wake and the Interaction of ",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_wallace_riegert_2023": {
+  "why": "wrong field: Unregulated Warehouse Truck Traffic and Mitigating Communi",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_walters_1976": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_wandini_2016": {
+  "why": "wrong field: Estimation of Lateral/Directional Static Stability Charact",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_wang_2021": {
+  "why": "wrong field: Numerical verification on influence of multi-feature param",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_wang_2025_4": {
+  "why": "wrong field: Numerical investigation of laminar flow heat transfer characte",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_watanabe_2019": {
+  "why": "wrong field: Power Output Enhancement of a Ducted Wind Turbine by Stabili",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_waterman_1973": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_webster_shacham_1977": {
+  "why": "wrong field: A Water-Turbine Driven Propeller for High Performance Ship P",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_weiler_1972": {
+  "why": "ceramic bricks in a WIND TUNNEL HEATER, not vehicle structure",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_weisman_1975": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_wells_1970": {
+  "why": "pipe flow correlations for DRAG-REDUCING FLUIDS, polymer rheology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_wentz_1981": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_white_2022": {
+  "why": "wrong field: Difference between Pavement Thickness Design and Pavement Life",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_wicker_guthrie_1980": {
+  "title": "Worker-crop contact analysis as a means of evaluating reentry hazards",
+  "why": "AGRICULTURAL REENTRY, meaning workers re-entering a treated field",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_wieringa_1972": {
+  "why": "Boundary-Layer Meteorology, trivane turbulence measurement",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_wildmann_2015": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_wilhelm_klesen_2018": {
+  "title": "Partial repair of thermally sprayed and sealed corrosion protection – Organic coating material or thermal spraying?",
+  "why": "thermally sprayed corrosion protection coatings, materials testing",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_willis_1974": {
+  "title": "Solar proton entry to the magnetosphere on 18 November 1968 and 25 February 1969—II. Comparison of trajectory computations in two model magnetospheres",
+  "why": "solar proton entry to the magnetosphere; entry homonym in space physics",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_wilson_1958": {
+  "title": "Temperatures of a Close Earth Satellite Due to Solar and Terrestrial Heating",
+  "why": "on-orbit satellite thermal balance, not entry heating",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_wilson_1980": {
+  "why": "wrong field: Wind-turbine aerodynamics",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_windsor_1968": {
+  "why": "wrong field: EFFECTS OF STREAMWISE GAPS, HULL FLOW AND PROPELLER SLIPST",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_wisler_1977": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_wolf_2018": {
+  "why": "venue Atmospheric Chemistry and Physics",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_wood_1978": {
+  "why": "wrong field: On the use of static tubes in architectural aerodynamics",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_woodiga_2018": {
+  "why": "wrong field: Skin-friction topology on tail plate for tractor—trailer truck",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_wrenger_cuxart_2017": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_wright_1984": {
+  "why": "wrong field: Centrifugal Fan Performance With Inlet Clearance",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_wrobel_1989": {
+  "title": "Gas Chromatography/Mass Spectrometry Study of the Low-Molecular-Weight Fraction of Plasma-Polymerized N,N'-Bis-(Dimethylsilyl)Tetramethylcyclodisilazane",
+  "why": "gas chromatography of plasma polymers, macromolecular chemistry",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_wu_2024_2": {
+  "why": "wrong field: A mixing scheme of ice particle models for global ice cloud measur",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_wu_2025": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_wyngaard_1994": {
+  "why": "title: Research in Marine Boundary Layer Intermittency",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_xia_2023": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_xie_2024_3": {
+  "title": "Analysis of new energy vehicle battery temperature prediction by combining BP neural network",
+  "why": "new energy road vehicle battery temperature prediction",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_xu_2019_2": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_xu_2026": {
+  "why": "ducted parameters on HYDRODYNAMIC performance, marine",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_xu_mao_2016": {
+  "why": "wrong field: Experimental investigation of metal foam for controlling cen",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_xu_mao_2016_2": {
+  "why": "wrong field: Passive control of centrifugal fan noise by employing open-c",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_xu_yu_2018": {
+  "why": "wrong field: Failure analysis of a truck diesel engine crankshaft",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_xu_yu_2021": {
+  "why": "wrong field: Failure analysis of a truck diesel engine injector nozzle-va",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_xunwei_2026": {
+  "why": "wrong field: Modeling the impact of multi-rotor UAV downwash on granula",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_yadav_lanjewar_2022": {
+  "why": "wrong field: Experimental analysis of solar air heater duct with discrete a",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_yallappa_2023": {
+  "why": "wrong field: Effect of Downwash Airflow Distribution of Multi-Rotor Unm",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_yamada_murakami_2023": {
+  "why": "wrong field: Individual Pitch Control of Wind Turbine System by Estimat",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_yang_2023_2": {
+  "why": "dropped by reading the selection, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_yang_hong_2024": {
+  "why": "wrong field: Particle Dynamics Study on Influencing Factors of Ice Slurry F",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_yang_liu_2023": {
+  "why": "wrong field: Research on Sliding Mode Control of Dual Active Bridge Con",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_yarema_1982": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_ye_2023": {
+  "why": "a NEWS item in Nature about China's spaceplane, not research",
+  "article": "A317",
+  "key_kind": "anchor"
+ },
+ "research_ye_feng_xu_2024": {
+  "why": "wrong field: Classification of Ice Crystal Images from Airborne Cloud Particle ",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_yeo_2022": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_yigit_2020": {
+  "why": "wrong field: Effect of Air-Ducted Blade Design on Horizontal Axis Wind ",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_yordanov_1983": {
+  "why": "venue Boundary-Layer Meteorology",
+  "article": "A318",
+  "key_kind": "anchor"
+ },
+ "research_yu_xu_2019": {
+  "why": "wrong field: Fatigue failure of high-pressure oil-pipes of truck diesel e",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_yuasa_1980": {
+  "why": "wrong field: Application of Numerical Lifting-Surface Theory on Steady Pe",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_zamri_2011": {
+  "why": "wrong field: CFD Simulation for a New Ducted-Fan UAV Configuration",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_zemlyanskii_1969": {
+  "why": "HYPERSONIC flow past ducted blunt bodies",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_zerrik_2017": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_zhang_2022": {
+  "why": "dropped by reading the publication URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_zhang_2022_2": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_zhang_2024_3": {
+  "why": "dropped by reading the publication URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_zhang_fan_2012": {
+  "why": "wrong field: Dynamic Analysis of a Ducted Fan UAV in Forward Flight",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_zhang_qu_2021": {
+  "why": "dropped by reading the URL sweep, A322 primary pass, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ },
+ "research_zhao_2019": {
+  "why": "dropped by reading the URL sweep, A323, off-subject",
+  "article": "A323",
+  "key_kind": "anchor"
+ },
+ "research_zhao_anvar_2012": {
+  "why": "wrong field: Modelling and Simulation of Maritime UAV-VTOL Robot Flight",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_zhou_2013": {
+  "why": "wrong field: Control System Design of Ducted Fan Aerial Vehicle",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_zhou_2025_2": {
+  "why": "wrong field: Hydrodynamic performance and maneuverability design for a ",
+  "article": "A319",
+  "key_kind": "anchor"
+ },
+ "research_zou_wang_2020": {
+  "title": "Longitudinal maneuvering motions of the supercavitating vehicle",
+  "why": "supercavitating UNDERWATER vehicle, the underwater family the filter missed",
+  "article": "A320",
+  "key_kind": "anchor"
+ },
+ "research_zuo_2023": {
+  "why": "dropped by reading the URL sweep, A322, off-subject",
+  "article": "A322",
+  "key_kind": "anchor"
+ }
+}

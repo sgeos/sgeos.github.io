@@ -25,3 +25,9 @@ tmp/*
 
 # Whitelist .gitkeep files globally.
 !.gitkeep
+
+# Python bytecode. A compiled .pyc under __pycache__ is already tracked from
+# before this rule; it is left in place rather than untracked here, since
+# removing tracked files is a separate decision.
+__pycache__/
+*.pyc
