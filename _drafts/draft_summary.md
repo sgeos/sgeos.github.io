@@ -17,6 +17,102 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Lockheed X-27 A324 2025-11-02
+
+`x_planes_lockheed_x27.markdown`, A324, editorial date 2025-11-02, series `x_planes` index 28 of 72.
+
+6,066 lines, 39 display equations, 1,650 references, 23,720 words after the draft pass. Committed, not
+pushed. **Draft pass only. The equation, primary-reference and publication passes remain.**
+
+**The subject never existed.** No X-27 was built and no CL-1200 was built. One full-scale mock-up of wood
+with a metal skin was completed and up to three fuselages were reportedly worked. There is no flight
+record, no wind-tunnel report, and **the NASA Technical Reports Server returns zero results for the
+vehicle under any of its names**, which was confirmed rather than assumed before the harvest was
+designed.
+
+**Classed as a FULL-ORDER article rather than the reduced designation-anomaly order, and the reasoning
+is recorded because the handoff predicted the opposite.** The handoff written before this pass said the
+short class was the honest default. The design record turned out to support more: complete published
+geometry, weights, engine ratings and performance estimates, plus a parent aircraft that flew for thirty
+years and can therefore anchor the derivative's claims. **The genre document's test is whether there is
+a keystone to dimension systems against, and here there is one**, namely the X-27's stated objective of
+testing advanced-technology engines at Mach 2.6.
+
+**The keystone is the propulsion question and not the manoeuvrability one.** The article treats both and
+keeps them apart, on the ground that silently replacing a programme's stated purpose with a more
+interesting one is writing about a different programme.
+
+**Three quantitative results, two negative and one strongly positive.**
+
+**The inlet cannot meet the standard with one cone at Mach 2.6.** Taylor-Maccoll was integrated rather
+than assumed. The best single cone reaches 0.7442 against a MIL-E-5008B reference of 0.8585, an 11.44
+point shortfall, **and that is a floor rather than an estimate because the calculation is inviscid and
+charges nothing for bleed, friction or off-design operation.** The same arrangement CLEARS the standard
+at Mach 2.0 by 0.19 points, which is the control showing the method is not biased against the design. A
+two-ramp arrangement capped at 25 degrees of total turning recovers 8.18 of the missing points. **The
+record states that the X-27 was to have rectangular intakes and does not say why. This is offered as the
+explanation, explicitly as inference.**
+
+**The structure cannot hold its strength there.** Recovery temperature at Mach 2.6 and 35,000 feet is
+210.8 degrees Celsius, where 2024-T81 retains about 69 percent of its yield. **The dash defence does not
+survive**, because the skin time constant computed from a flat-plate Stanton number at the Eckert
+reference temperature is 26.2 seconds, so the skin is 89.9 percent of the way there after one minute.
+
+**THE STRONGEST RESULT IS AN INVERSION THAT CHECKS.** The cowl radius is not in the public record and
+the four inches of spike travel is, so shock-on-lip geometry was inverted to ask what radius that travel
+implies. A twenty-five degree cone, an entirely ordinary half-angle, gives a total capture area of 5.401
+square feet against the 5.639 square feet the TF30-P-100's documented 260 pounds per second needs at Mach
+2.0. **Agreement to 4.2 percent between two figures published by different people for unrelated purposes,
+connected through a cone angle nobody published.**
+
+**On the metric the 1970 competition actually used, the Lancer was the better aeroplane.** Sustained load
+factor 6.34 against the F-5E's 5.33 at 15,000 feet and Mach 0.9, and specific excess power of 830 feet
+per second **within 3.5 percent of the F-15A's 860**. The ordering is invariant across the whole
+leading-edge suction range from zero to one and across zero-lift drag from 0.015 to 0.025, which makes
+it a statement about ORDERING rather than about the absolute numbers. **It also makes the reported Air
+Force concern about the F-15 quantitatively reasonable, which is a consistency and not a motive.**
+
+**Three claims checked against the brochure and one fails.** The 60,000 feet per minute climb exceeds the
+best computed sea-level specific excess power by 23.5 percent, and specific excess power is a hard ceiling
+on steady climb. The takeoff run claim is conservative. **The combat radius claim SURVIVES**, at a mission
+factor of 0.171 of still-air range against a normal 0.15 to 0.25. The 46 percent fuel increase sits 3
+percent away from what the weight breakdown implies, a mild inconsistency reported as one.
+
+**Two of my own errors are recorded in the article because they were instructive.** A Breguet
+implementation carried a spurious factor of g and produced 27 nautical miles against a claim of 367,
+which looked devastating and was a defect in the checker. **A discrepancy near an order of magnitude is a
+hint that the checker is at fault, exactly as a suspiciously clean factor is.** And an inlet calculation
+converted maximum CORRECTED airflow to physical flow at Mach 2.6 and obtained three times the sea-level
+rating, where the arithmetic was right and the premise was wrong.
+
+**Verification.** 59 of 59 independent checks pass in a verifier that does not import the calculation,
+reaching values by different routes: the conical shock angle by scanning rather than bisection, the
+normal-shock recovery through the Rayleigh pitot relation, the skin transient by forward simulation
+rather than the exponential solution, and the Breguet range by stepwise integration. **Two genuine bugs
+in the VERIFIER were found and fixed**, one admitting the strong-shock branch and one mismatching the
+property-test calling convention.
+
+**Reference base.** 1,650 definitions with zero undefined and zero orphaned. **718 date from 1982 or
+earlier and 595 from 2015 onward**, the count reported alongside the fraction. **Zero search-endpoint
+citations**, which is the defect A297 left open. All 75 hand-curated URLs resolve, five having been
+repointed after the sweep found them dead.
+
+**The keystone cluster was thin again, which is now six articles running.** Energy manoeuvrability
+returned 28 records against 232 for materials at elevated temperature, and a second harvest in the period
+vocabulary of specific excess power, minimum time to climb and turning performance raised it to 51.
+**Reported in the article rather than padded**, along with the reason, which is that the foundational
+documents are Air Force internal reports that were never journal articles.
+
+**A finding accumulating across the series is now three deep.** A322, A323 and A324 are three consecutive
+designations that did not go to a research aeroplane. The first two were off-the-shelf aircraft bought
+for properties they already had; the third did not exist at all. **This belongs in the closing article.**
+
+**One shared-module defect was fixed.** `_lib/reflow.py` held reference link pairs atomic but not inline
+`[text](url)` links, while `_lib/lint.py` reported both, so the two modules disagreed and reflow would
+produce a file it had just declared finished that lint then failed. Fixed with a regression test, and
+confirmed to change nothing on A369, the one article authored with reflow. Library tests now 45 of 45.
+
+
 ## X-Planes Schweizer X-26 Frigate A323 2025-11-01
 
 `x_planes_schweizer_x26.markdown`, A323, editorial date 2025-11-01, series `x_planes` index 27 of 72.

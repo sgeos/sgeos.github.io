@@ -52,6 +52,15 @@ _BOLD = re.compile(r"\*\*.+?\*\*", re.S)
 _LINKPAIR = post.LINK_PAIR
 _DEF = re.compile(rf"^\[{post.ANCHOR}\]:")
 
+# INLINE LINKS ARE ATOMIC TOO, AND THIS WAS MISSING. `lint.py` reports a split link
+# whenever a line's brackets do not balance, which catches `[text](url)` exactly as it
+# catches `[text][anchor]`, but only the reference form was held together here. The two
+# modules therefore DISAGREED: reflow would split an inline link and lint would then
+# report it, on a file reflow had just declared finished. A324 hit it on an in-page
+# section link. Two shared modules that disagree about the same rule is the defect, not
+# the wrapping.
+_INLINE_LINK = re.compile(r"\[[^\]\n]*\]\([^)\s]*\)")
+
 
 def _passthrough(block):
     s = block.lstrip("\n")
@@ -66,7 +75,7 @@ def _passthrough(block):
 def reflow_paragraph(text, width=WIDTH):
     """Rewrap one paragraph, treating bold spans and link pairs as single tokens."""
     flat = " ".join(text.split("\n"))
-    for rx in (_BOLD, _LINKPAIR):
+    for rx in (_BOLD, _LINKPAIR, _INLINE_LINK):
         flat = rx.sub(lambda m: m.group(0).replace(" ", _SENTINEL), flat)
     atoms = [a.replace(_SENTINEL, " ") for a in flat.split()]
     lines, cur = [], ""

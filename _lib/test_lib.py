@@ -474,6 +474,24 @@ def t_library_imports_are_acyclic():
     assert not (imported & names), f"post.py imports from the library: {imported & names}"
 
 
+
+def t_reflow_keeps_inline_links_atomic():
+    """An inline [text](url) must not be split, exactly as a reference pair must not.
+
+    REGRESSION FOR A REAL DISAGREEMENT BETWEEN TWO SHARED MODULES. `lint.scan` reports a
+    split link whenever a line's brackets do not balance, which covers the inline form,
+    but `reflow` held only the reference form together. Reflow would split an inline link
+    and lint would then report a defect on a file reflow had just declared a fixed point.
+    A324 hit it on an in-page section link.
+    """
+    para = ("word " * 18) + "and the [ground-prediction section](#comparison-with-ground-prediction) says so."
+    out = reflow.reflow_paragraph(para)
+    assert "\n" in out, "the fixture must be long enough to wrap, or it proves nothing"
+    for line in out.split("\n"):
+        assert line.count("[") == line.count("]"), f"split link in: {line!r}"
+        assert line.count("(") == line.count(")"), f"split link in: {line!r}"
+
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)
