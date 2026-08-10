@@ -11,10 +11,10 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `2631729`
+- **Parent commit** (the repository state this handoff describes): `eefb64e`
 - **Written**: 2026-08-10
 - **Tree at write**: clean, nothing unpushed
-- **Context**: the X-Planes series is IN PROGRESS. **Twenty-nine of seventy-two articles drafted, all
+- **Context**: the X-Planes series is IN PROGRESS. **Thirty-one of seventy-two articles drafted, all
   four passes complete on each. None published.**
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
@@ -33,32 +33,35 @@ described.
 
 ---
 
-## Resume prompt, and the next prompt will be "Please draft A326, 'X-Planes: Grumman X-29.'"
+## Resume prompt, and the next prompt will be "Please draft A328, 'X-Planes: Rockwell-MBB X-31.'"
 
-**Nothing is outstanding.** A325 finished all four passes, is committed and pushed, and both it and A324
-return 404 while the site root returns 200, which is correct because nothing in the series is published.
-There is no half-finished pass to pick up.
+**Nothing is outstanding.** A327 finished all four passes, is committed and pushed, and returns 404
+while the site root returns 200, which is correct because nothing in the series is published. There is
+no half-finished pass to pick up.
 
-**Wait for the pilot's prompt. Do not begin A326 unprompted.**
+**Wait for the pilot's prompt. Do not begin A328 unprompted.**
 
-**A326 BREAKS THE PATTERN OF THE LAST FOUR AND THAT IS THE THING TO NOTICE FIRST.** Editorial date
-2025-11-04, Part 30 of 72. The Grumman X-29 was **built from nothing to answer a question that could not
-be answered any other way**, namely whether forward-swept-wing aeroelastic divergence can be controlled
-rather than avoided. **It is the first purpose-built research aeroplane in the series since the X-24**,
-and it is a full-order article without argument.
+**A328 IS THE THIRD DISTINCT SHAPE IN THREE ARTICLES AND THAT IS THE THING TO NOTICE.** Editorial date
+2025-11-06, Part 32 of 72. The X-29 was built and measured what it existed to measure. The X-30 was
+never built and its central quantity could not be measured on the ground at all. **The Rockwell-MBB
+X-31 was built, two were flown, and it answered its question in the most direct way any aircraft in
+this series has managed**, by performing manoeuvres no conventional aircraft could and then being
+flown against conventional aircraft to find out whether that mattered.
 
-**It is also the best-documented subject the series has had in a long while.** Two aircraft were built,
-they flew 242 and 120 sorties, NASA Dryden published extensively, and NTRS will return a great deal
-under the vehicle's own name. **That reverses the method of the last two articles**, which had to harvest
-the physics because the vehicle returned nothing. Check before assuming either way.
+**THE KEYSTONE IS ALMOST CERTAINLY THE CLOSE-IN COMBAT UTILITY QUESTION RATHER THAN THE THRUST
+VECTORING.** Post-stall manoeuvrability was demonstrable and was demonstrated. What was genuinely
+unknown was whether it WINS, and the programme answered that with adversarial engagements against
+F-18s, which is an experimental design rather than a flight envelope. **Look for the exchange-ratio
+data before settling the keystone.** It is a joint German and American programme, so expect material
+in both national records.
 
-**The keystone is not the forward sweep on its own.** Divergence was understood; what was new was the
-claim that active control could hold a statically unstable, aeroelastically divergent configuration.
-The aircraft is about **35 percent unstable** and depends on a triplex digital flight control system at
-40 hertz. **The binding question is the control law and the structure together**, not the planform.
+**EXPECT THE VEHICLE RECORD TO BE RICH.** Two aircraft, several hundred flights, NASA Dryden and DLR
+involvement, and a well-documented loss of one airframe in 1995 to a pitot icing and air-data failure.
+**That accident is a control-system and instrumentation story and probably belongs in the article**,
+because it is about what an unstable airframe does when its air data is wrong.
 
-**Four consecutive designations did not go to purpose-built research aircraft**, being X-25, X-26, X-27
-and X-28. **A326 ends that run**, and the ending is itself evidence for the closing article. Say so.
+**THE HARVEST METHOD SHOULD FOLLOW A326 RATHER THAN A327.** The vehicle's own name will return a great
+deal. Check before assuming either way.
 
 ---
 
@@ -67,15 +70,16 @@ and X-28. **A326 ends that run**, and the ending is itself evidence for the clos
 Seventy-two articles, A297 through A368, back-dated one per day from 2025-10-06 to 2025-12-16, covering
 every X-designation from X-1 through X-76.
 
-**Twenty-nine complete**, A297 through A325, all four passes each, all in `_drafts/`, **none published**.
+**Thirty-one complete**, A297 through A327, all four passes each, all in `_drafts/`, **none
+published**.
 
 | Article | Aircraft | Final state |
 |---|---|---|
-| A321 | Martin Marietta X-24 | 3,684 lines, 53 eq, 3,144 refs |
-| A322 | Bensen X-25 | 7,198 lines, 44 eq, 3,990 refs |
 | A323 | Schweizer X-26 Frigate | 6,636 lines, 35 eq, 3,630 refs |
 | A324 | Lockheed X-27 | 9,895 lines, 77 eq, 2,803 refs |
 | A325 | Osprey X-28 Sea Skimmer | 7,136 lines, 42 eq, 2,089 refs |
+| A326 | Grumman X-29 | 14,071 lines, 69 eq, 4,180 refs |
+| A327 | Rockwell X-30 and NASP | 10,596 lines, 54 eq, 3,118 refs |
 
 Read `_drafts/draft_summary.md` for per-article detail rather than re-deriving it.
 
@@ -113,6 +117,44 @@ band.
 ## Method Rules Earned the Hard Way
 
 ### On the analysis
+
+**AN IDENTITY THE QUANTITY MUST SATISFY IS WORTH MORE THAN A SECOND OPINION.** A327's Rayleigh
+choking relation was missing a factor of gamma plus one on the fourth-power term, and no amount of
+re-reading would have shown it. **The Rayleigh ratio must be EXACTLY unity at Mach one**, because that
+is the definition of the sonic reference state, and the wrong form returned 1.108. One line of test
+found what inspection could not.
+
+**AN ARITHMETIC LINE THAT DOES NOT EVALUATE TO ITS OWN STATED ANSWER IS THE EASIEST DEFECT TO SHIP.**
+A327 displayed a substitution reading 220.6 times 13.8 equals 3,086. The true static temperature is
+223.7 and the product of the numbers as written is 3,044. **Both figures look reasonable in isolation
+and the line is wrong on its face**, which is exactly why nobody notices.
+
+**A GUARD CAN BE TOO STRICT AND SILENTLY REMOVE THE CASE YOU NEEDED.** A327's Rayleigh function
+rejected subsonic entry as an error, which is precisely the ramjet case its comparison existed to
+make. The relation holds on both branches and only the sonic point is inadmissible.
+
+**A CONFIDENT ANSWER THAT MOVES WITH AN ASSUMPTION IS A FINDING ABOUT THE ASSUMPTION.** A327 searched
+for the speed at which net thrust reaches zero, found 16,577 metres per second, and nearly reported it
+as a ceiling set by chemistry. **In an ideal engine net thrust never crosses zero.** The crossing moves
+to 8,880 at a nozzle efficiency of 0.90 and vanishes at 1.00. Report the quantity that assumes nothing,
+which there was the loss budget.
+
+**A BOUND THAT OWES NOTHING TO THE MODEL IS THE BEST CHECK ON THE MODEL.** A327's ascent integration
+gives a propellant fraction of 45.44 percent, and thermodynamics alone puts the floor at 26.9. The
+integrated answer sits 1.69 times above it. **A result below the bound would have been proof of an
+error**, and nothing else available could have said so.
+
+**A CLEAN CLOSED FORM THAT LANDS NEAR A MEASURED NUMBER IS NOT AN EXPLANATION OF IT.** A326 wrote
+1/(1 - r) for the Southwell sensitivity, which is tidy and gives 1.600 against a simulated 1.389. They
+are different estimators. **The closed form was deleted rather than displayed.**
+
+**THE QUADRATIC TERM MAY BE IDENTICALLY ZERO AND FLOATING POINT WILL NOT TELL YOU.** A326's two-mode
+divergence eigenvalue has an exactly vanishing quadratic coefficient, so the characteristic equation is
+linear. The residue is sixteen orders below the terms that cancelled and still enormous in absolute
+terms, so **an absolute tolerance cannot catch it**. The test must be relative to what cancelled.
+
+**A COARSE SCAN QUANTISES ITS ROOT TO THE GRID STEP.** A326's determinant scan produced apparent
+disagreements of up to 0.31 percent that were entirely the grid. Bracket, then bisect.
 
 **A DISCREPANCY NEAR AN ORDER OF MAGNITUDE IS A HINT THAT THE CHECKER IS AT FAULT, exactly as a
 suspiciously clean factor is.** A324's Breguet carried a spurious factor of g and produced a combat
@@ -185,6 +227,30 @@ negative rather than dropped.
 a statement rather than a gap.
 
 ### On harvesting and selection
+
+**AN EQUATION PASS PROMOTES SUBJECTS AND THIS IS NOW TEN ARTICLES RUNNING, WITH A NEW CAUSE NAMED IN
+A327.** The mechanics beneath an equation are not the same literature as the technology above it. The
+original harvest asked for forward sweep, tailoring and digital flight control, and never for
+Rayleigh-Ritz, the Southwell method or lift-curve slope estimation. A327 asked for scramjets and
+never for inlet starting, mass capture or the energy required to reach orbit. **Three of A327's ten
+promoted subjects stood at ZERO in a pool of four thousand records.**
+
+**THE KEYSTONE CLUSTER HAS NOW BEEN THIN SEVEN ARTICLES RUNNING AND A327 WAS THE STARKEST.** Searching
+the entire 2,333-record pool for "specific impulse", "ram drag", "net thrust" and "thrust margin"
+returned **zero titles**. The field says FORCE ACCOUNTING, THRUST MINUS DRAG, INSTALLED PERFORMANCE and
+CYCLE ANALYSIS. A second harvest in that vocabulary took the cluster from 2 to 32.
+
+**THE ANCHOR GATE CAN SILENTLY NARROW EVERYTHING, AND THIS IS A NEW VARIANT OF THE WORD-BOUNDARY
+FAMILY.** A326 wrapped its whole alternation in a LEADING AND TRAILING boundary, which forces every
+stem meant as a PREFIX to match as a whole word. `structur` failed on "structural", `buckl` on
+"Buckling", `stabilit` on "stability", `flying qualit` on "flying qualities". **A false negative from
+an EXTRA boundary, not a false positive from a missing one.** Separate WORDS, which keep both
+boundaries, from STEMS, which keep only the leading one.
+
+**HARVESTING A RECORD AND NEVER CITING IT IS DOING THE WORK AND THROWING IT AWAY.** A327 had 249
+records sitting uncited because the article carried a marker for the period half of several clusters
+and none for the modern half, and one cluster had no marker at all. **That is bookkeeping, not
+research.** Check for uncited master records before every commit; it is one line.
 
 **AN EQUATION PASS PROMOTES SUBJECTS AND THE REFERENCE BASE MUST FOLLOW. THIS IS NOW EIGHT ARTICLES
 RUNNING AND IT HAS A NEW CAUSE.** In A324 and A325 the promoted subjects were not merely thin, they were
@@ -275,6 +341,16 @@ to the discipline or inside the article's own vocabulary.
 
 | Phrase | The other field |
 |---|---|
+| **divergence** | **THE KEYSTONE WORD OF A326 AND ITS WORST HOMONYM.** The vector operator, the Kullback-Leibler divergence, beam divergence, evolutionary divergence, and economic divergence |
+| **orbit** | **THE ORBIT OF A GROUP ACTION in pure mathematics**, the atomic orbital, and the orbit of the eye |
+| **short period** | **geomagnetic secular variation, meteoroid streams, crustal dynamics and superlattices.** Not predicted, and it arrived from one control-theory phrase |
+| **energy budget** | **oceanography and meteorology.** Internal waves in the South China Sea, stratospheric budgets, surface energy balance. Not predicted |
+| **isolator** | the ELECTRICAL and VIBRATION isolator. The scramjet isolator is a duct |
+| **bridge** | **THE STRAIN-GAUGE BRIDGE, and A326 carried eighteen at every load station.** Cannot be filtered bare |
+| **building** | **THE BUILDING-BLOCK APPROACH to composite certification**, a term of art. Cannot be filtered bare |
+| **transition** | phase, energy, democratic, demographic and nutritional transition, against the boundary-layer one |
+| **hydrogen** | the hydrogen ECONOMY, storage and fuel cells. **Embrittlement is legitimate** where tanks are metal |
+| **enthalpy** | chemical thermodynamics generally |
 | **descent** | **THREE senses.** Gradient descent in optimisation; **descent groups in kinship anthropology**, which put four papers on ancestor worship in A322; and the aeronautical one |
 | **rotor** | **turbomachinery**, where it is a compressor blade row, which was A322's largest single contaminant at 44 records. Also the electrical machine rotor and the meteorological mountain rotor |
 | **frigate** | **the warship, inside an aircraft's own name.** Also the frigatebird |
@@ -329,6 +405,26 @@ pools. A322 cited two Hypersonic Aerodynamics Fellowships notices.
 
 ### On tooling
 
+**A PUBLISHER TITLE CAN CARRY LATEX AND BREAK THE PAGE.** A327 hit a Springer title reading
+"Al/MLG/CuO/$${\text{Bi}}_{2}{\text{O}}_{3}$$ Nanothermite". Truncated for link text it left **a
+single unbalanced `$$`, which opens a MathJax display block and swallows the rest of the page**.
+`refs.clean` stripped HTML, ampersands, brackets and braces and **not dollars or LaTeX commands**. It
+now strips both, and `_verify.py` catches the symptom as an odd delimiter count.
+
+**A TEST APPENDED TO THE END OF `test_lib.py` NEVER RUNS.** Discovery is a module-level loop over
+`globals()`, so anything defined after it is invisible, and the suite reports a healthy count while
+silently omitting the new case. **A test that is never collected is worse than no test, because it
+reads as coverage.** Insert above the loop.
+
+**`require_in_text` APPENDS TO THE FAILURE LIST AND RETURNS TRUE WHEN NOTHING IS MISSING.** Calling it
+after `report()` means anything it finds is never printed, and guarding on its return inverts the
+sense. A326 made both mistakes at once, **which made a silent check look like a passing one.** Call it
+before `report`.
+
+**SEPARATE TWO KINDS OF NUMERIC CHECK.** `chk` records a value the article STATES, so
+`require_in_text` can later insist it appears. Agreements between two computed routes need a different
+helper, because an article that deliberately withholds a number should not be forced to print it.
+
 **THE DOUBLED-BACKSLASH DEFECT SHIPPED IN THREE CONSECUTIVE ARTICLES.** In an rf-string `\\,` stays
 **two characters**, and MathJax reads it as a line break followed by a comma. The equation count is
 right, the braces balance and the build succeeds. **A323 did it in a file whose own docstring warns
@@ -382,7 +478,7 @@ command issued after a `cd`.**
 describing each module: `fetch` for archive queries, `refs` for anchors and the reference block, `edits`
 for guarded editing, `reflow`, `lint`, `diction` for word and phrase overuse, `audit` for equation and
 citation gaps, `numcheck` for independent re-derivation, and `citations` for registry verification. Run
-`python3 _lib/test_lib.py`, which should report 44 of 44. `_research/rejected.json` holds 721 accumulated
+`python3 _lib/test_lib.py`, which should report **46 of 46**. `_research/rejected.json` holds the accumulated
 sweep judgements, reused through `_research/homonyms.py`, whose curated pattern list is now 22 and which gained marine propulsion, open-channel energy height and battery specific energy from A324.
 
 **`tmp/*` IS GITIGNORED**, and what belongs there is the article's own payload only, meaning harvest
@@ -482,7 +578,7 @@ had come to mean** and belongs in the closing article.
 
 **The `post_url` interlock.** A `post_url` tag whose target is absent fails the **entire** site build.
 Cross-references are **back-reference only** within the series. The publication-order dependency is
-**twenty-nine deep**, A325 back to A297, so these articles publish in order or together. **Links to
+**thirty-one deep**, A327 back to A297, so these articles publish in order or together. **Links to
 other series are necessarily forward-dated** and that is not a defect.
 
 **Pushing drafts is safe.** The deploy workflow builds without `--drafts`. Confirm after every push
@@ -609,7 +705,8 @@ reproduced here so it survives a clean checkout.
 Short articles by design, and the evidence for the closing article. The designation system is not a
 counter.
 
-**X-23 and X-27 ARE NOW WRITTEN. The rest remain ahead.**
+**X-23 and X-27 ARE NOW WRITTEN, and X-30 is written although it is not one of the nine.
+The rest remain ahead.**
 
 - **X-23**, attributed to the Martin Marietta SV-5D PRIME, but USAF nomenclature records reportedly
   show X-23A was never assigned. State the conflict, do not resolve it. **Written at full length in
@@ -629,11 +726,23 @@ counter.
 - **X-67**, skipped, with the slot consumed by the General Atomics XQ-67A.
 - **X-69 to X-75**, unassigned and leapfrogged.
 
-**THE FINDING THAT HAS ACCUMULATED ACROSS FOUR ARTICLES AND BELONGS IN THE CLOSER.** X-25, X-26, X-27
-and X-28 are **four consecutive designations that did not go to a purpose-built research aeroplane**.
-Three were aircraft that already existed and were bought for properties they already had, and the fourth
-did not exist at all. **The X-28A is the clearest case**, since the Navy watched a man demonstrate his
-own aeroplane and wrote him a cheque. **A326 ends the run**, and that ending is itself evidence.
+**THE FIRST FINDING FOR THE CLOSER, NOW COMPLETE.** X-25, X-26, X-27 and X-28 are **four consecutive
+designations that did not go to a purpose-built research aeroplane**. Three were aircraft that already
+existed and were bought for properties they already had, and the fourth did not exist at all. **The
+X-28A is the clearest case**, since the Navy watched a man demonstrate his own aeroplane and wrote him
+a cheque. **A326 ends the run**, and that ending is itself evidence.
+
+**THE SECOND FINDING, ADDED BY A327, IS THAT THERE ARE TWO KINDS OF NEVER BUILT AND THEY ARE
+OPPOSITES.** The X-27 was not built **because nobody bought it**. The design existed, the manufacturer
+was ready, and no customer appeared, which is a procurement fact. The X-30 was not built **because the
+thing it was meant to demonstrate could not be shown to be achievable before building it**, after
+roughly three billion dollars and a decade. **A designation can mark an absence of demand or an
+absence of knowledge**, and the closer should not collapse the two.
+
+**A THIRD OBSERVATION WORTH CARRYING.** A326 and A327 are consecutive articles whose keystones are
+mirror images. The X-29 could measure the thing it existed to measure. The X-30's central quantity
+could not be measured by anything on the ground at all. **The series is accumulating a spectrum of how
+answerable a research question was**, which is more interesting than a list of what flew.
 
 X-58 and X-67 were lost to the **parallel XQ- unmanned series drawing from the same numeric pool**,
 which is a genuine finding about how the system evolved and belongs in the closer.
