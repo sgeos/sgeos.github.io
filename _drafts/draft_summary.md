@@ -17,9 +17,9 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## Compiler Backend Bring-Up A369 2026-08-09
+## Compiler Backend Bring-Up A369 2026-08-06
 
-`native_lowering_coverage.markdown`, A369, editorial date 2026-08-09, series `keleusma_native` index 1
+`native_lowering_coverage.markdown`, A369, editorial date 2026-08-06, series `keleusma_native` index 1
 of an unstated total, titled Compiler Backend Bring-Up: Blocking Frequency as the Ordering Principle
 for Instruction-Set Coverage.
 
@@ -51,10 +51,12 @@ undefined, zero orphaned, zero duplicate URLs and correct anchor sorting. Isolat
 with all 47 equations rendering, zero Liquid errors, zero unresolved links and series navigation
 reporting Part 1.
 
+**The editorial date of 2026-08-06 was set by the pilot** and fills the day immediately after the
+published History of SpaceX series, which ends 2026-08-05.
+
 **Outstanding and awaiting the pilot.** Whether a general-audience retarget is wanted, since the
-article is highly technical and none has been done. Whether the editorial date of 2026-08-09 is
-intended, since it is the present date rather than a forward slot. And whether siblings in the
-`keleusma_native` series are planned, since the navigation currently reads Part 1 of 1.
+article is highly technical and none has been done. And whether siblings in the `keleusma_native`
+series are planned, since the navigation currently reads Part 1 of 1.
 
 ## X-Planes Schweizer X-26 Frigate A323 2025-11-01
 

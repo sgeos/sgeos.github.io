@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Compiler Backend Bring-Up: Blocking Frequency as the Ordering Principle for Instruction-Set Coverage"
-date: 2026-08-09 09:00:00 +0000
+date: 2026-08-06 09:00:00 +0000
 categories: engineering compilers verification
 series: keleusma_native
 series_title: Keleusma Native Code Generation
