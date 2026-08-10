@@ -55,6 +55,39 @@ fleet and ratio routes asserted to agree EXACTLY rather than within a tolerance*
 required to appear in the draft and all 58 do. `_verify.py` at the 21-warning baseline, check_any clean,
 reference integrity unchanged at 990, and a 29-article isolated build with all 42 equations rendering.
 
+**PRIMARY-REFERENCE PASS: references 990 to 1,234, article 3,788 to 4,558 lines and 14,862 to 17,232
+words, equations held at 42 and measured before and after.** **Primary sources to 673, or 57.2 percent,
+and the PERIOD COUNT from 355 to 573** at a period fraction of 48.7.
+
+**THE CONTEMPORARY COUNT DID NOT MOVE AT ALL**, holding at 511 while its fraction fell from 54.8 to 43.4
+percent purely because three hundred period sources arrived underneath it. **The Source Base now says so
+explicitly**, because reading the fraction alone would suggest coverage was cut when nothing was.
+
+**THE AUDIT RAN BEFORE THE HARVEST** and found the same pattern as A324, **eighth article running**: the
+four subjects the equation pass promoted had 8, 2, 3 and 2 records, because no cluster existed for any
+of them when the first harvest ran. Four clusters were added and **placed FIRST**, since `cluster_of`
+returns the first match, and a second harvest of 22 NTRS, 14 DTIC and 20 Crossref queries in period
+vocabulary followed, taking the master pool from 1,150 to 1,734.
+
+**Vocabulary again.** The period says PROBABILITY OF DETECTION and OPERATIONS RESEARCH rather than random
+search, PROPELLER CHARTS and BLADE ELEMENT rather than advance ratio, ACTUATOR DISK and SLIPSTREAM rather
+than momentum theory, and SPEED-LENGTH RATIO and GET-AWAY SPEED rather than Froude number.
+
+**One subject stays genuinely thin and is reported rather than padded.** Porpoising and the trim limits
+of stability supplied a single new record, because the article had already cited nearly all of the
+twenty-three that exist.
+
+**Equation citation support 23 of 42 thin, then 19, then 16**, and the last step was not more research
+papers. **The remaining gaps are textbook identities**, and attaching a NACA tank test to the definition
+of dynamic pressure would raise the count and lower the scholarship, so the standard works were cited at
+six points instead.
+
+**Verification.** 62 numerical checks passing unchanged, reference integrity at 1,234 with zero
+undefined, zero orphaned and zero duplicate URLs, **zero search-endpoint citations**, `_verify.py` at the
+21-warning baseline, and a 29-article isolated build with all 42 equations rendering. **The 244 added
+references swept by source: 29 of 29 NTRS resolving, 60 of 60 sampled Crossref and 40 of 40 sampled DTIC
+registered.**
+
 **THE CHEAPEST X-PLANE, AND THE PRICE WAS THE REQUIREMENT RATHER THAN THE RESULT.** The Naval Air
 Development Center study asked for an aircraft that could patrol under visual flight rules, be built in
 Southeast Asia, be trailered under a thousand pounds, work from canals as little as twenty-five feet
