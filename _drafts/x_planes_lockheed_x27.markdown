@@ -241,14 +241,38 @@ Above the tropopause it is constant, and the pressure falls exponentially.
 
 $$ p(h) = p_{11} \exp\left(-\frac{g_0 (h - h_{11})}{R T}\right) $$
 
+The density follows from the equation of state rather than from the pressure directly, and the draft quotes
+it without showing where it comes from.
+
+$$ \rho = \frac{p}{R T} = \frac{23{,}842.3}{287.05 \times 218.81} = 0.3796\ \mathrm{kg/m^3} $$
+
 At 35,000 feet, which is 10,668 metres and above the tropopause, this gives a temperature of 218.81 kelvin,
 a density of 0.3796 kilograms per cubic metre, and a speed of sound of
 
 $$ a = \sqrt{\gamma R T} = \sqrt{1.4 \times 287.05\ \times 218.81} = 296.54\ \mathrm{m/s} = 663.3\ \mathrm{mph} $$
 
+The Mach number is the ratio the whole article is written in, and it is worth writing down once.
+
+$$ M = \frac{V}{a} $$
+
+$$ M = \frac{1{,}700\ \mathrm{mph} \times 0.44704}{296.54\ \mathrm{m/s}} = \frac{760.0}{296.54} = 2.563 $$
+
 **The claimed maximum speed of 1,700 miles per hour at 35,000 feet is therefore Mach 2.563**, which is
 consistent with the Mach 2.57 quoted in one source and with the Mach 2.5 quoted in another as a rounding.
 The X-27's stated test objective of Mach 2.6 sits just above it.
+
+Two further quantities are used throughout and are defined here so that later sections can call on them. The
+dynamic pressure is what converts a coefficient into a force, and the specific heat at constant pressure
+follows from the gas constant and the ratio of specific heats.
+
+$$ q = \tfrac{1}{2}\rho V^2 $$
+
+$$ c_p = \frac{\gamma R}{\gamma - 1} = \frac{1.4 \times 287.05}{0.4} = 1004.7\ \mathrm{J/(kg\,K)} $$
+
+At 15,000 feet and Mach 0.9, the condition every manoeuvre result below is evaluated at, the dynamic
+pressure is
+
+$$ q = \tfrac{1}{2} \times 0.7708 \times 290.0^2 = 32{,}415\ \mathrm{Pa} = 677.1\ \mathrm{lb/ft^2} $$
 
 The literature on supersonic flight conditions, atmospheric modelling and high-speed flight testing is
 extensive.
@@ -461,6 +485,13 @@ $$ T^* = T_e\left(0.5\left(1 + \frac{T_w}{T_e}\right) + 0.16\,r\,\frac{\gamma-1}
 
 $$ \mathrm{St} = 0.0296\,\mathrm{Re}_x^{-1/5}\,\Pr^{-2/3}, \qquad h = \mathrm{St}\,\rho^* u_e c_p $$
 
+The Reynolds number in that correlation is itself a defined quantity, and the viscosity inside it comes from
+Sutherland's law rather than from a table.
+
+$$ \mathrm{Re}_x = \frac{\rho^* u_e x}{\mu^*}, \qquad \mu(T) = \frac{1.458 \times 10^{-6}\,T^{3/2}}{T + 110.4} $$
+
+$$ \mathrm{Re}_x = \frac{0.2109 \times 771.0 \times 5.0}{2.2598 \times 10^{-5}} = 3.598 \times 10^{7} $$
+
 For a two-millimetre aluminium skin five metres back from the nose at Mach 2.6 and 35,000 feet, the Reynolds
 number is $3.60 \times 10^7$, the coefficient is 185.5 watts per square metre kelvin, and
 
@@ -476,6 +507,32 @@ $$ T_{\mathrm{skin}}(t) = T_\infty + \left(T_r - T_\infty\right)\left(1 - e^{-t/
 | 60 s | 190.9 °C | 89.9 percent | 77.2 percent |
 | 120 s | 208.8 °C | 99.0 percent | 69.9 percent |
 | 180 s | 210.6 °C | 99.9 percent | 68.9 percent |
+
+#### The Heating Also Loads the Structure, Which Is a Separate Objection
+
+**Losing yield strength is not the only thing high temperature does.** A skin that wants to expand and is
+restrained by cooler structure behind it develops stress without any aerodynamic load at all.
+
+$$ \sigma_{\mathrm{th}} = E\,\alpha\,\Delta T $$
+
+Taking aluminium alloy at a Young's modulus of 72 gigapascals and a coefficient of thermal expansion of 23
+parts per million per kelvin, and the full excursion from a cold start to the recovery temperature at Mach
+2.6,
+
+$$ \sigma_{\mathrm{th}} = 72 \times 10^{9} \times 23 \times 10^{-6} \times 190.8 = 316\ \mathrm{MPa} $$
+
+**The retained yield at that temperature is about 275 megapascals**, taking 400 at room temperature and the
+68.8 percent from the table above. **The fully restrained thermal stress exceeds it, at 115 percent.**
+
+**That number is an upper bound and not a prediction**, because no real airframe is fully restrained. The
+whole structure heats, so what matters is the DIFFERENCE in temperature between skin and substructure, and
+the honest way to use the relation is to invert it and ask how much difference the material can afford.
+
+$$ \Delta T_{1/2} = \frac{0.5\,\sigma_{\mathrm{yield}}(T)}{E\,\alpha} = \frac{0.5 \times 275 \times 10^{6}}{72 \times 10^{9} \times 23 \times 10^{-6}} = 83\ \mathrm{K} $$
+
+**Eighty-three kelvin of differential consumes half the remaining strength.** That is not a large number for
+a structure with a thin hot skin over cooler spars and frames, and it says the Mach 2.6 objective posed a
+thermal-stress problem on top of the strength problem, which the record does not discuss at all.
 
 **The defence does not survive.** The skin is nine-tenths of the way to its equilibrium temperature after
 one minute. A dash long enough to be worth making is a dash long enough to heat the structure, and
@@ -608,6 +665,18 @@ $$ \frac{dV_r'}{d\theta} = V_\theta' $$
 
 $$ \frac{dV_\theta'}{d\theta} = \frac{V_r' V_\theta'^2 - a'^2\left(2V_r' + V_\theta' \cot\theta\right)}{a'^2 - V_\theta'^2}, \qquad a'^2 = \frac{\gamma-1}{2}\left(1 - V_r'^2 - V_\theta'^2\right) $$
 
+**Every oblique shock relation reduces to a normal one through the component of Mach number along the wave**,
+which is the bookkeeping that lets a single set of formulae serve both cases.
+
+$$ M_{n1} = M_1 \sin\beta $$
+
+$$ M_{2}^{2} = \frac{1 + \frac{\gamma-1}{2}M_{n1}^{2}}{\gamma M_{n1}^{2} - \frac{\gamma-1}{2}} \bigg/ \sin^{2}(\beta - \theta_d) $$
+
+The wave angle cannot fall below the Mach angle, which is the weakest disturbance the flow will carry and
+therefore the lower bound on every search below.
+
+$$ \mu = \arcsin\frac{1}{M}, \qquad \mu(2.0) = 30.00^\circ, \qquad \mu(2.6) = 22.62^\circ $$
+
 The integration starts immediately behind the shock, where the [oblique shock][ref_oblique_shock] relations
 give the deflection from the wave angle $\beta$,
 
@@ -657,6 +726,24 @@ Computing the two-ramp arrangement requires the same oblique-shock relation appl
 normal shock.
 
 $$ \eta_{\mathrm{2-ramp}} = \frac{p_{t2}}{p_{t1}}\bigg|_{\delta_1} \cdot \frac{p_{t3}}{p_{t2}}\bigg|_{\delta_2} \cdot \frac{p_{t4}}{p_{t3}}\bigg|_{\mathrm{normal}} $$
+
+**The result that says how to divide the compression is [Oswatitsch's][ref_oswatitsch], and the draft named it without writing it down.**
+For a given number of oblique shocks the recovery is greatest when they are of equal strength, meaning equal
+normal Mach components.
+
+$$ M_1 \sin\beta_1 = M_2 \sin\beta_2 = \cdots = M_n \sin\beta_n $$
+
+**That is a theorem worth checking rather than quoting**, and checking it required fixing an unfair
+comparison. An earlier version searched equal pairs without the turning constraint while searching unequal
+pairs with it, so the equal pair appeared to win by exceeding a limit the other obeyed. Under the same
+twenty-five degree cap the two agree closely.
+
+| Mach | Best equal pair | Recovery | Best free pair | Recovery | Free advantage |
+|---|---|---|---|---|---|
+| 2.0 | 10.8° + 10.8° | 0.9569 | 10.4° + 11.1° | 0.9570 | 0.010 points |
+| 2.6 | 12.5° + 12.5° | 0.8251 | 11.4° + 13.6° | 0.8261 | 0.104 points |
+
+**The free optimum beats the equal-strength arrangement by a tenth of a point at most, which confirms the theorem rather than contradicting it.**
 
 **The search must be constrained or it returns nonsense.** An unconstrained optimisation returns four
 degrees followed by twenty at Mach 2.0, for a recovery of 0.9974, and that is arithmetic rather than a
@@ -984,10 +1071,24 @@ By 1970 the argument about fighters had moved. Top speed and rate of climb had b
 with [John Boyd][ref_boyd] and [Thomas Christie][ref_christie], which asks not how fast an aircraft can go
 but how much energy it can gain or hold while turning.
 
-The central quantity is [specific excess power][ref_specific_excess_power], the rate at which an aircraft
-can add energy height.
+The framework's primitive is energy height, the altitude an aircraft would reach if it traded all its speed
+for height without loss, and the draft named it without writing it.
 
-$$ P_s = V\,\frac{T - D}{W} $$
+$$ h_e = h + \frac{V^2}{2g} $$
+
+At 15,000 feet and Mach 0.9 that is
+
+$$ h_e = 4{,}572 + \frac{290.0^2}{2 \times 9.80665} = 4{,}572 + 4{,}289 = 8{,}861\ \mathrm{m} = 29{,}072\ \mathrm{ft} $$
+
+The central quantity is [specific excess power][ref_specific_excess_power],
+**which is the rate of change of that height and not an independent definition**.
+
+$$ P_s = \frac{dh_e}{dt} = V\,\frac{T - D}{W} $$
+
+**The thrust-to-weight ratio is the other term the comparison turns on**, and it is tabulated below without
+ever being written.
+
+$$ \frac{T}{W} = \frac{25{,}000\ \mathrm{lbf}}{24{,}385\ \mathrm{lb}} = 1.025 $$
 
 **A re-winged F-104 improves on the old metrics. The question is what it does to this one.**
 
@@ -1239,9 +1340,20 @@ then solving for the load factor gives
 
 $$ n_{\mathrm{sus}} = \sqrt{\frac{q S}{K W}\left(\frac{T}{W} - \frac{q S C_{D_0}}{W}\right)} $$
 
-and the turn rate follows from the load factor and the speed.
+and the turn rate follows from the load factor and the speed, as does the radius, which is the other axis of
+the diagram this framework is usually drawn on.
 
 $$ \dot\psi = \frac{g\sqrt{n^2 - 1}}{V} $$
+
+$$ R = \frac{V^2}{g\sqrt{n^2 - 1}} $$
+
+The load factor is also what the bank angle costs, in level flight.
+
+$$ n = \frac{1}{\cos\phi} $$
+
+At the sustained load factor computed below the Lancer is banked at
+
+$$ \phi = \arccos\frac{1}{6.34} = 80.9^\circ, \qquad R = \frac{290.0^2}{9.80665\sqrt{6.34^2 - 1}} = 1{,}371\ \mathrm{m} = 4{,}496\ \mathrm{ft} $$
 
 Evaluating at 15,000 feet and Mach 0.9, a representative combat condition, gives the comparison the whole
 sales case rested on.
@@ -1310,11 +1422,15 @@ aerodynamically.
 
 $$ V^* = \sqrt{\frac{2\,n_{\mathrm{limit}}\,W}{\rho\,S\,C_{L_{\max}}}} $$
 
-| $C_{L_{\max}}$ | Corner speed at 15,000 ft | Mach |
-|---|---|---|
-| 1.0 | 528.9 kt | 0.844 |
-| 1.2 | 482.8 kt | 0.771 |
-| 1.4 | 447.0 kt | 0.713 |
+| $C_{L_{\max}}$ | Stall speed at sea level | Corner speed at 15,000 ft | Mach |
+|---|---|---|---|
+| 1.0 | 154.9 kt | 528.9 kt | 0.844 |
+| 1.2 | 141.4 kt | 482.8 kt | 0.771 |
+| 1.4 | 131.0 kt | 447.0 kt | 0.713 |
+
+The corner speed is built on the stall speed, which is the same relation at a load factor of one.
+
+$$ V_{\mathrm{stall}} = \sqrt{\frac{2W}{\rho\,S\,C_{L_{\max}}}} , \qquad V^{*} = \sqrt{n_{\mathrm{limit}}}\;V_{\mathrm{stall}} $$
 
 **The maximum lift coefficient is the weakest input in this article.** A thin sharp-edged wing of aspect
 ratio 2.8 does not achieve much of one, and the record supplies no figure. The table is therefore given
@@ -1522,11 +1638,46 @@ the redesigned centre and rear fuselage, the enlarged intakes and the translatin
 - [The Performance of a Subsonic Diffuser Designed for High...][research_biesiadnythomasj_wendtbrucej_2004]
 - [Sea Level Operation Demonstration of F404-GE-400 Turbofan...][research_chippa_2010]
 
+#### Ram Drag, Which the Draft Did Not Mention and the Keystone Needs
+
+**An engine at high Mach spends a large part of its gross thrust cancelling the momentum of the air it swallowed.**
+Net thrust is the difference between what leaves and what arrived.
+
+$$ F_{\mathrm{net}} = \dot m\left(V_e - V_0\right) $$
+
+The second term is the ram drag, and at Mach 2.6 the free stream arrives at 771 metres per second.
+
+$$ D_{\mathrm{ram}} = \dot m V_0 = 117.93 \times 771.0 = 90{,}926\ \mathrm{N} = 20{,}441\ \mathrm{lbf} $$
+
+**The engine's rated 25,000 pounds of net thrust therefore requires 45,441 pounds gross, so 45.0 percent of the gross thrust is spent on the air's own momentum.**
+
+**The relation is more useful inverted than asserted**, because holding the sea-level rating across the
+whole Mach range is not defensible. Asking instead what exhaust velocity the rating would require at that
+condition gives a checkable number.
+
+$$ V_e = \frac{F_{\mathrm{net}} + \dot m V_0}{\dot m} = \frac{111{,}206 + 90{,}926}{117.93} = 1{,}714\ \mathrm{m/s} $$
+
+$$ V_{e,\,\mathrm{static}} = \frac{F_{\mathrm{net}}}{\dot m} = \frac{111{,}206}{117.93} = 943\ \mathrm{m/s} $$
+
+**Seventeen hundred metres per second is within reach of an afterburning nozzle, so the requirement is not absurd.**
+What it is not is free. A higher exhaust velocity needs a higher total pressure at the engine face,
+**and total pressure at the engine face is precisely what the inlet section showed the single cone failing to deliver at this Mach number.**
+The two halves of the keystone are the same problem seen from either end.
+
+The propulsive efficiency at that condition follows.
+
+$$ \eta_p = \frac{2V_0}{V_0 + V_e} = \frac{2 \times 771.0}{771.0 + 1714} = 0.621 $$
+
 ### Aerodynamics
 
 The wing grew 53.0 percent in area and 33.0 percent in span while retaining the F-104's aerofoil section,
 its 3.36 percent thickness ratio and its 10 degrees of anhedral. **Aspect ratio rose only 15.5 percent**,
 from 2.455 to 2.836, because the area grew nearly as fast as the span squared.
+
+The lift the wing produces is the coefficient carried on the dynamic pressure and the area, which is the
+identity every load factor below is measured against.
+
+$$ L = q\,S\,C_L $$
 
 **That is the limit of what the redesign could do without a new wing.** The induced-drag penalty of a low
 aspect ratio is not much relieved by going from 2.455 to 2.836, and the table above shows the Lancer's $K$
@@ -1547,6 +1698,39 @@ The equations of motion and the stability derivatives behind this discussion are
 low-aspect-ratio wing risks the horizontal surface entering the wing wake at high angle of attack, whereupon
 pitch control is lost while the aircraft is already pitching up. The F-104 had a well-documented and
 unforgiving departure behaviour.
+
+The tail's contribution to longitudinal stability is carried by the tail volume coefficient, which collects
+the geometry into one number, and by the rate at which the wing's downwash turns the flow the tail sees.
+
+$$ V_H = \frac{S_t\,l_t}{S\,\bar{c}} $$
+
+$$ C_{m_\alpha,\,\mathrm{tail}} = -a_t\,V_H\,\eta_t\left(1 - \frac{d\varepsilon}{d\alpha}\right) $$
+
+$$ \mathrm{SM} = -\frac{C_{m_\alpha}}{C_{L_\alpha}} = \frac{x_{np} - x_{cg}}{\bar{c}} $$
+
+**The tail geometry of the CL-1200 is not in the public record**, so these are written to show what the
+change acted on rather than to produce a number, and no static margin is asserted.
+
+**One thing they do let us test is an expectation that turns out to be wrong.** The far-field downwash
+gradient goes inversely with aspect ratio, which invites the conclusion that a low-aspect-ratio wing washes
+its tail harder and therefore suffers more.
+
+$$ \frac{d\varepsilon}{d\alpha} \approx \frac{2\,C_{L_\alpha}}{\pi A} $$
+
+| Aircraft | Aspect ratio | $C_{L_\alpha}$ | Far-field $d\varepsilon/d\alpha$ |
+|---|---|---|---|
+| F-104G | 2.455 | 3.592 | 0.931 |
+| CL-1200-2 | 2.836 | 4.064 | 0.912 |
+| F-15A | 3.014 | 4.275 | 0.903 |
+| F-5E | 3.824 | 5.158 | 0.859 |
+
+**The expectation does not survive being written down.** The lift-curve slope falls with aspect ratio at
+very nearly the same rate as the divisor, so the ratio is almost flat, and the F-104 differs from the F-5E
+by eight percent rather than by the large factor the framing implied.
+**The negative is reported rather than dropped**, and it means the tail-position argument has to rest on the
+wake geometry at high angle of attack, which it does, rather than on a downwash gradient that does not
+discriminate. The far-field form also overestimates what a tail at a finite distance actually sees, so the
+absolute values should not be read as tail conditions.
 
 - [Analysis and prediction of longitudinal stability of airplanes][research_gilruthrr_whitemd_1941]
 - [Calculated effects of full-span slotted and Fowler flaps on...][research_goransonrfabian_1942]
@@ -1694,19 +1878,30 @@ share a truth. The section is written to make the weakness explicit rather than 
 
 ### The Climb Claim, Which Does Not Check Out
 
-Specific excess power is a hard ceiling on steady rate of climb, because an aircraft cannot climb faster
-than it can add energy without giving up speed. The claimed 60,000 feet per minute is 305 metres per second,
-and the best $P_s$ the published thrust and weight produce at sea level is 247 metres per second at about
-Mach 1.2.
+Specific excess power is a hard ceiling on steady rate of climb, and the reason is one line of algebra
+rather than an assertion. Differentiating energy height and holding speed constant leaves the climb rate
+equal to $P_s$, and any acceleration takes from the same budget.
+
+$$ \frac{dh_e}{dt} = \frac{dh}{dt} + \frac{V}{g}\frac{dV}{dt} = P_s \qquad \Longrightarrow \qquad \left.\frac{dh}{dt}\right|_{\max} = P_s $$
+
+The claimed 60,000 feet per minute is 305 metres per second, and the best $P_s$ the published thrust and
+weight produce at sea level is 250.6 metres per second at Mach 1.095.
 
 | Sea-level Mach | $P_s$ |
 |---|---|
 | 0.3 | 17,468 ft/min |
 | 0.6 | 35,803 ft/min |
 | 0.9 | 47,035 ft/min |
+| 1.095 | 49,332 ft/min |
 | 1.2 | 48,585 ft/min |
 
-**The claim exceeds the computed ceiling by 23.5 percent.**
+**The claim exceeds the computed ceiling by 21.6 percent.**
+
+**That figure is a correction.** An earlier version of this article evaluated $P_s$ on a four-point grid and
+reported the peak as 48,585 feet per minute at Mach 1.2, giving a 23.5 percent shortfall. A fine scan puts
+the maximum at Mach 1.095, so the shortfall is smaller than first stated.
+**The independent checker did not catch it because its tolerance on that value was three percent and the error was one and a half**,
+which is a tolerance wide enough to hide the quantity it was checking.
 
 **Two explanations fit and the article cannot choose between them.** The figure may be a zoom rather than a
 steady climb, in which case it is a transient trade of speed for height and is not a rate of climb in the
@@ -1737,6 +1932,25 @@ the two numbers may refer to volume and weight respectively, and a three percent
 the resolution of the source material.
 **It is recorded because reporting the small disagreements is what makes the large agreement in the inlet section credible.**
 
+### The Takeoff Claim, Which Is Conservative
+
+The ground roll is not taken from a rule of thumb. The acceleration is integrated from rest to lift-off
+against thrust, drag, and the rolling friction on whatever weight the wing is not yet carrying.
+
+$$ s = \int_0^{V_{\mathrm{LOF}}} \frac{V\,dV}{a(V)}, \qquad a(V) = \frac{T - D - \mu\left(W - L\right)}{W/g} $$
+
+$$ V_{\mathrm{LOF}} = 1.1\,V_{\mathrm{stall}} $$
+
+| $C_{L_{\max}}$ at takeoff | $V_{\mathrm{LOF}}$ | Computed roll | Claim |
+|---|---|---|---|
+| 1.0 | 170.4 kt | 1,296 ft | 1,450 ft |
+| 1.2 | 155.6 kt | 1,078 ft | 1,450 ft |
+| 1.4 | 144.1 kt | 922 ft | 1,450 ft |
+
+**The claim is longer than the computation at every assumption**, which is the direction that does not
+oversell. The integration takes full afterburner and charges nothing for installation losses, so it is
+optimistic by construction, and the gap between the two is the room that optimism occupies.
+
 ### The Radius Claim, Which Survives
 
 An earlier attempt at this check produced 27 nautical miles against a claim of 367, which looked devastating
@@ -1749,6 +1963,18 @@ consumption is quoted per hour, because such a figure is already a weight of fue
 time.
 
 $$ R = \frac{V}{c_t}\,\frac{L}{D}\,\ln\frac{W_0}{W_1} $$
+
+The end weight is the start weight less the usable fraction of the fuel, and the ratio is what the logarithm
+acts on.
+
+$$ W_1 = W_0 - f\,W_{\mathrm{fuel}} = 35{,}000 - 0.85 \times 14{,}360 = 22{,}794\ \mathrm{lb} $$
+
+$$ \frac{W_0}{W_1} = \frac{35{,}000}{22{,}794} = 1.5355 $$
+
+The mission factor is then a defined ratio rather than a rule of thumb, and quoting it is what keeps a
+Breguet integral from being mistaken for a mission.
+
+$$ k_m = \frac{R_{\mathrm{combat}}}{R_{\mathrm{still\,air}}} = \frac{367}{2{,}141} = 0.171 $$
 
 | $L/D$ | $c_t$ | Still-air range | The 367 nmi claim as a fraction |
 |---|---|---|---|

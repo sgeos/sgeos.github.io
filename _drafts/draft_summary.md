@@ -21,8 +21,63 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_lockheed_x27.markdown`, A324, editorial date 2025-11-02, series `x_planes` index 28 of 72.
 
-6,066 lines, 39 display equations, 1,650 references, 23,720 words after the draft pass. Committed, not
-pushed. **Draft pass only. The equation, primary-reference and publication passes remain.**
+6,066 lines, 39 display equations, 1,650 references, 23,720 words after the draft pass. **6,292 lines,
+77 display equations, 1,650 references, 25,265 words after the equation review.** Committed, not pushed.
+**The primary-reference and publication passes remain.**
+
+**EQUATION PASS: 39 to 77 across eighteen edits, all applied or none.** The additions fall in three
+categories, all of them gaps rather than decoration. **Quoted values whose relation was absent**, being
+the density from the gas law, the Mach number from a division, the Reynolds number from its definition
+and the viscosity inside it from Sutherland. **Relations named in prose and never written**, being the
+Oswatitsch equal-strength result which was named by that name, and energy height, of which specific
+excess power is the derivative, so the draft displayed a rate without its quantity. **Arguments resting
+on an undisplayed relation**, being the climb ceiling, which is the whole of the climb argument, and the
+takeoff ground roll, described as an integration with no integral shown.
+
+**TWO CORRECTIONS TO NUMBERS ALREADY IN THE DRAFT TRAVELLED WITH THE PASS.** The sea-level specific
+excess power peak was computed on a FOUR-POINT grid and reported as 48,585 feet per minute at Mach 1.2
+for a 23.5 percent shortfall. **A fine scan puts the peak at 49,332 at Mach 1.095, so the shortfall is
+21.6 percent.** The verifier did not catch it because **its tolerance on that value was three percent and
+the error was one and a half**, which is a tolerance wider than the thing it was checking; the tolerance
+is now 0.2 percent. And the Oswatitsch comparison was **unfair in the draft's favour**, since the
+equal-strength search ran unconstrained while the free search was capped at 25 degrees of total turning.
+Under the same cap the free optimum beats the equal pair by 0.010 points at Mach 2.0 and 0.104 at Mach
+2.6, **which confirms the theorem rather than contradicting it**.
+
+**ONE GENUINE PROMOTION, AND IT BELONGS TO THE KEYSTONE.** Ram drag was absent from the draft entirely.
+At Mach 2.6 the free stream arrives at 771 metres per second, so the engine must first cancel 20,441
+pounds of momentum and **45.0 percent of gross thrust is spent on the air's own momentum**. Inverted
+rather than asserted, the rated net thrust at that condition requires an exhaust velocity of 1,714 metres
+per second against 943 static. **Seventeen hundred is within reach of an afterburning nozzle, but it
+needs total pressure at the engine face, which is exactly what the inlet section showed the single cone
+failing to deliver.** The two halves of the keystone are one problem seen from either end, which the
+draft had not connected.
+
+**A SECOND STRUCTURAL OBJECTION WAS ADDED BECAUSE THE THERMAL SECTION ARGUED ONLY HALF THE CASE.** Losing
+yield is not all that heating does. A restrained skin at the Mach 2.6 excursion develops 316 megapascals,
+**which exceeds the 275 megapascals of retained yield, at 115 percent**. That is an upper bound rather
+than a prediction since no airframe is fully restrained, so the relation is inverted: **83 kelvin of
+skin-to-substructure differential consumes half the remaining strength**, which is not a large number
+for a thin hot skin over cooler frames.
+
+**A NEGATIVE RESULT IS REPORTED AS A RESULT.** The natural expectation is that a low-aspect-ratio wing
+washes its tail harder, since the far-field downwash gradient goes as 1/A. **It does not survive being
+written down**, because the lift-curve slope falls with aspect ratio at nearly the same rate, so the
+F-104 exceeds the F-5E by eight percent rather than by the large factor the framing implied. The
+tail-position argument now rests on wake geometry, which is where it belongs.
+
+**Verification 59 to 105 checks, all passing, none importing the calculation**, with the thermal stress
+reached by BISECTING for the temperature that produces it rather than evaluating it, the ram result
+checked by closing the momentum balance rather than repeating the formula, and the downwash flatness and
+the turn-rate-radius consistency both tested as randomised PROPERTIES. **Every one of the 95 verified
+values was required to appear in the draft text and every one does.**
+
+**THE REFERENCE BASE MUST NOW FOLLOW, WHICH IS SEVEN ARTICLES RUNNING.** 47 of the 77 equations carry
+fewer than three citations within nine hundred characters, and the newly promoted subjects at or near
+zero are **thermal stress and restrained expansion, ram drag and propulsive efficiency, the downwash
+gradient and tail volume, energy height and the climb ceiling, and the takeoff ground roll**. Reported
+here as the target list for the primary-reference pass rather than acted on, since the passes are
+separate.
 
 **The subject never existed.** No X-27 was built and no CL-1200 was built. One full-scale mock-up of wood
 with a metal skin was completed and up to three fuselages were reportedly worked. There is no flight

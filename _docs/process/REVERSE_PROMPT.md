@@ -9,130 +9,108 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A324, the Lockheed X-27, drafted. **Draft pass only.** Committed, not pushed, not published.
+**Task**: A324 equation-density review, the second of four passes. Committed, not pushed, not published.
+
+**39 display equations to 77 across eighteen edits.** 6,066 to 6,292 lines, 23,720 to 25,265 words.
+References held at 1,650 and measured before and after.
 
 ---
 
-## The Class Question, Settled Against the Handoff's Prediction
+## What Was Missing, in Three Categories
 
-**The handoff written before this pass said the short designation-anomaly order was the honest default,
-and the record does not support that.** It was right that nothing flew and wrong about what follows.
+**Quoted values whose relation was absent.** The density 0.3796, the Mach 2.563, the Reynolds number
+3.598 × 10⁷ and the viscosity inside it all appeared as numbers with none of the four relations shown.
 
-The X-27 was the CL-1200 Lancer, a Lockheed private venture derived from the F-104 and offered for
-export. **No aircraft was built.** One full-scale mock-up of wood with a metal skin was completed and up
-to three fuselages were reportedly worked. **The NASA Technical Reports Server returns zero results for
-the vehicle under any of its names**, which was confirmed before designing the harvest rather than
-discovered during it.
+**Relations named in prose and never written.** The draft **named the Oswatitsch result by that name**
+without stating it. Worse, it displayed specific excess power while never displaying **energy height, of
+which specific excess power is the derivative**, so it showed a rate without its quantity.
 
-**But the design record is complete enough to dimension systems against, and the parent flew for thirty
-years.** Published geometry, weights, engine ratings and performance estimates all exist, and a
-derivative can be checked against the thing it was derived from. **The genre document's test is whether
-there is a keystone**, and the X-27's stated objective of testing advanced-technology engines at Mach
-2.6 is one. It is therefore a full-order article, at 6,066 lines, 39 equations and 1,650 references.
-
-**The harvest had to be written for the physics rather than the vehicle**, since no query naming the
-aircraft returns anything. That is the methodological move this subject required.
+**Arguments resting on an undisplayed relation.** The climb claim fails because specific excess power is
+a ceiling on rate of climb, and **that inequality is the entire argument and was nowhere written**. The
+takeoff section said the roll came from integrating the acceleration and showed no integral.
 
 ---
 
-## What the Article Establishes
+## Two Corrections to Numbers Already in the Draft
 
-**The binding question is whether a turbofan can be fed at Mach 2.6 through an inlet descended from a
-Mach 2.0 turbojet installation, in an aluminium airframe.** Two of the three answers are negative.
+**The specific excess power peak was computed on a four-point grid.** The draft reported 48,585 feet per
+minute at Mach 1.2 and a 23.5 percent shortfall against the claim. A fine scan puts the peak at **49,332
+at Mach 1.095, so the shortfall is 21.6 percent**. The article now states the correction and why.
 
-**The inlet cannot meet the standard with one cone.** Taylor-Maccoll was integrated rather than assumed.
-The best single cone reaches 0.7442 against a reference recovery of 0.8585, an 11.44 point shortfall.
-**That is a floor rather than an estimate**, because the calculation is inviscid and charges nothing for
-bleed, friction or off-design operation, while the reference standard includes all of them. The same
-arrangement clears the standard at Mach 2.0, which is the control showing the method is not biased
-against the design. **Two ramps recover 8.18 of the missing points, and the record says the X-27 was to
-have rectangular intakes without saying why.** The article offers this as the explanation and labels it
-inference.
+**The verifier did not catch it, and the reason is worth recording.** Its tolerance on that value was
+three percent and the error was one and a half. **A tolerance wider than the quantity it is checking is
+not a check.** It is now 0.2 percent.
 
-**The structure cannot hold its strength there.** Recovery temperature at Mach 2.6 is 210.8 degrees
-Celsius, where the alloy retains about 69 percent of its yield. **The dash defence does not survive**,
-since the skin time constant is 26.2 seconds and the skin is nine-tenths of the way there after a minute.
-
-**The manoeuvre answer is favourable to Lockheed.** Sustained load factor 6.34 against the F-5E's 5.33,
-and specific excess power within 3.5 percent of the F-15A's. **The ordering holds across the whole range
-of both free parameters**, which makes it a statement about ordering rather than about the absolute
-numbers, and the article says so.
+**The Oswatitsch comparison was unfair in the draft's favour.** The equal-strength search ran
+unconstrained while the free search was capped at twenty-five degrees of total turning, so the equal pair
+appeared to win by exceeding a limit the other obeyed. Under the same cap the free optimum wins by 0.010
+points at Mach 2.0 and 0.104 at Mach 2.6, **which confirms the theorem rather than contradicting it**.
 
 ---
 
-## The Result Worth Your Attention
+## The Addition That Matters Most
 
-**Two published figures that were never derived from one another agree through geometry connecting them.**
+**Ram drag was absent from the draft entirely**, which is a serious omission in an article asking whether
+a turbofan can work at Mach 2.6.
 
-The cowl radius is not in the public record and the four inches of spike travel is, so shock-on-lip
-geometry was inverted to ask what radius that travel implies. **A twenty-five degree cone, an entirely
-ordinary half-angle, gives 5.401 square feet of capture against the 5.639 the TF30's documented 260
-pounds per second needs at Mach 2.0.** Agreement to 4.2 percent.
+The free stream arrives at 771 metres per second, so the engine must first cancel 20,441 pounds of
+momentum, and **45.0 percent of gross thrust is spent on the air's own momentum**. Inverted rather than
+asserted, since holding the sea-level rating across the Mach range is not defensible, the rated net
+thrust requires an exhaust velocity of 1,714 metres per second against 943 static.
 
-**It does not establish that the aircraft would have worked.** It establishes that the published airframe
-and engine figures are mutually consistent, which is evidence the design was worked out rather than
-sketched, and nothing beyond that. The article says exactly this.
-
----
-
-## Three of My Own Errors, Two of Them in the Article
-
-**A Breguet implementation carried a spurious factor of g** and produced a combat radius of 27 nautical
-miles against a claimed 367. That looked like a devastating finding about the brochure and was a defect
-in the checker. **A discrepancy near an order of magnitude is a hint that the checker is at fault,
-exactly as a suspiciously clean factor is.** Corrected, the claim survives.
-
-**An inlet calculation converted maximum corrected airflow to physical flow at Mach 2.6** and obtained
-three times the sea-level rating. The arithmetic was right and the premise was wrong.
-
-**A cone-angle search ran to its bound and returned a total-pressure recovery of 1.227**, which is not
-merely wrong but impossible. The function now returns nothing on shock detachment and raises on any
-recovery outside the unit interval. **A checker that can print free energy is not checking.**
-
-**And two genuine bugs were found in the verifier itself**, one admitting the strong-shock branch and one
-mismatching the property-test calling convention. 59 of 59 checks now pass, none importing the
-calculation.
+**That is within reach of an afterburning nozzle, but it needs total pressure at the engine face, which
+is exactly what the inlet section showed the single cone failing to deliver.** The two halves of the
+keystone turn out to be one problem seen from either end, and the draft had not connected them.
 
 ---
 
-## One Shared-Module Defect Fixed
+## A Second Structural Objection, and a Negative Result
 
-**`_lib/reflow.py` held reference link pairs atomic but not inline `[text](url)` links, while
-`_lib/lint.py` reported both.** The two modules disagreed, so reflow would produce a file it had just
-declared a fixed point and lint would then fail it. Fixed with a regression test, and confirmed by a
-controlled before-and-after diff to change nothing on A369, the one article authored with reflow.
-Library tests are 45 of 45.
+**The thermal section argued only half its case.** Losing yield is not all that heating does. A restrained
+skin at the Mach 2.6 excursion develops 316 megapascals against 275 of retained yield, **at 115 percent**.
+That is an upper bound rather than a prediction, so the relation is inverted: **83 kelvin of
+skin-to-substructure differential consumes half the remaining strength**, which is not much for a thin hot
+skin over cooler frames.
 
----
-
-## Patterns Continuing
-
-**The keystone cluster was thin for the sixth article running.** Energy manoeuvrability returned 28
-records against 232 for materials at elevated temperature, and period vocabulary raised it to 51.
-**Reported in the article rather than padded**, with the reason, which is that the foundational documents
-are Air Force internal reports that were never journal articles.
-
-**The designation finding is now three deep.** A322, A323 and A324 are three consecutive designations
-that did not go to a research aeroplane. The first two were off-the-shelf aircraft bought for properties
-they already had. **The third did not exist at all.** This belongs in the closing article.
+**And one expectation did not survive being written down.** The far-field downwash gradient goes as one
+over aspect ratio, which invites the conclusion that a low-aspect-ratio wing washes its tail harder. **The
+lift-curve slope falls with aspect ratio at nearly the same rate**, so the F-104 exceeds the F-5E by eight
+percent rather than by the large factor the framing implied. Reported as a negative, and the tail-position
+argument now rests on wake geometry, where it belongs.
 
 ---
 
-## State
+## Verification
 
-Working tree has the new draft and the process files, committed. **Not pushed**, per the draft-pass
-convention. `_verify.py` at zero errors and the 21-warning baseline, check_any clean, 45 of 45 library
-tests passing, reference integrity showing 1,650 definitions with zero undefined and zero orphaned, and
-an isolated 28-article build succeeding with all 27 back-references resolving and the page rendering
-correctly.
+**59 to 105 checks, all passing, none importing the calculation.** The thermal stress is reached by
+bisecting for the temperature that produces it rather than by evaluating it, the ram result by closing the
+momentum balance rather than repeating the formula, and both the downwash flatness and the
+turn-rate-against-radius consistency as randomised properties. **All 95 verified values were required to
+appear in the draft text and all 95 do.**
+
+`_verify.py` at the 21-warning baseline, check_any clean, 45 of 45 library tests, reference integrity
+unchanged at 1,650 with zero undefined and zero orphaned, and a 28-article isolated build with **all 77
+equations rendering as display math, zero doubled backslashes and zero unbalanced braces**.
+
+---
+
+## What the Next Pass Inherits
+
+**The reference base must now follow the equations, which is seven articles running.** 47 of the 77
+equations carry fewer than three citations within nine hundred characters. The newly promoted subjects at
+or near zero are:
+
+- **thermal stress and restrained thermal expansion**
+- **ram drag, net thrust and propulsive efficiency**
+- **the downwash gradient, tail volume and static margin**
+- **energy height and the climb ceiling**
+- **the takeoff ground roll**
+
+**Reported as a target list rather than acted on**, since the passes are separate and reference work
+belongs to the next prompt.
 
 ---
 
 ## Awaiting Instruction
 
-**A324 has completed the first of four passes.** The expected next prompt is the equation-density review.
-
-**One thing is worth deciding before that pass.** The article carries 39 display equations against a
-series median of 94, and the reason is that its subject is narrow. Whether that is a subject producing a
-low count or an equation pass waiting to happen is exactly what the next pass exists to determine, and I
-have not pre-judged it.
+**A324 has completed two of four passes.** The expected next prompt is the primary-reference review.
