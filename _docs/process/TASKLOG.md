@@ -8,11 +8,19 @@ Current task state and verification log. This file is the shared source of truth
 ## Current Task
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
-**Status**: A297 through A322 drafted, twenty-six of seventy-two. A297 through A321 have all four passes
-complete. A297 through A322 are complete at all four passes and pushed. A297 through A323 are all complete at four passes and pushed. None is published.
-The next article to draft is A324, the Lockheed X-27, editorial date 2025-11-02. None is published. **All twenty-six
-remain in `_drafts/` and none has been published. Publication has never been authorised.** The
-`post_url` dependency is twenty-six deep, so these publish in order or together.
+**Status**: **A297 through A323 drafted, twenty-seven of seventy-two, all four passes complete on every
+one, all pushed, none published.** The next article to draft is A324, the Lockheed X-27, editorial date
+2025-11-02.
+
+**Publication has never been authorised.** All twenty-seven remain in `_drafts/`. Twenty-six of them are
+`post_url` targets of another draft in the set and none of those targets exists in `_posts/`, so **the set
+publishes in order or together**, and publishing any one alone fails the build.
+
+This block was rewritten on 2026-08-09 because successive edits had left it self-contradictory, asserting
+twenty-six drafted, then A297 to A322, then A297 to A323, in three consecutive sentences. **A resume
+channel that disagrees with itself is worse than one that is merely out of date**, so the counts above
+were verified against the working tree rather than carried forward.
+
 **Started**: 2026-08-05
 
 ## Success Criteria
