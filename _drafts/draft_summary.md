@@ -21,8 +21,39 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_osprey_x28.markdown`, A325, editorial date 2025-11-03, series `x_planes` index 29 of 72.
 
-3,695 lines, 23 display equations, 990 references, 14,380 words after the draft pass. Committed, not
-pushed. **Draft pass only. The equation, primary-reference and publication passes remain.**
+3,695 lines, 23 display equations, 990 references, 14,380 words after the draft pass. **3,788 lines, 42
+display equations, 990 references, 14,862 words after the equation review.** Committed, not pushed.
+**The primary-reference and publication passes remain.**
+
+**EQUATION PASS: 23 to 42 across ten edits.** Twenty-three was the lowest count in the series against a
+median of 94, and the audit found the same three categories A324 did. **Quoted values with no relation
+behind them**, being the wing loading, the power loading and the weight fractions. **Relations used
+throughout and defined nowhere**, being the dynamic pressure, the drag equation, the full rate-of-climb
+expression of which only the ceiling was shown, and range as endurance times speed. **And whole sections
+carrying a quantitative argument with no equation at all**, the worst being **AREA PER DOLLAR at 969
+words, which is the article's central claim and displayed nothing**.
+
+**THE MOST USEFUL ADDITION IS THE FLEET FORM OF THE COST ARGUMENT.** Writing the figure of merit down
+shows why it is a rate divided by a price rather than a rate: fleet coverage is the budget multiplied by
+the area per dollar, so the ratio is the quantity and the coverage rate on its own is not. Multiplying
+up gives 7,200 aircraft covering 741,600 square nautical miles an hour against one Orion's 6,560, and
+**the fleet route and the ratio route agree to machine precision**, which the verifier asserts.
+
+**THE SECOND IS THE RANDOM-SEARCH LAW**, which the draft needed and never wrote. Covering an area once
+finds 63.2 percent of what is in it, and that exponential is the quantitative form of the argument the
+cost section makes in dollars, which is why patrol aircraft are bought in numbers.
+
+**Also added**: the propeller's advance ratio, helical tip speed and tip Mach number of 0.776, which is
+where a fixed-pitch propeller wants to be and explains the diameter and engine speed; the disc loading
+and induced velocity from the same momentum balance that gave the static thrust; Archimedes for the
+displaced volume of 14.1 cubic feet; and the beam Froude number, which is the parameter the hump occurs
+at a fixed value of.
+
+**Verification 39 to 62 checks, all passing, none importing the calculation**, with the helical tip
+speed tested as a randomised PROPERTY, the detection probability's monotonicity likewise, and **the
+fleet and ratio routes asserted to agree EXACTLY rather than within a tolerance**. All 58 verified values
+required to appear in the draft and all 58 do. `_verify.py` at the 21-warning baseline, check_any clean,
+reference integrity unchanged at 990, and a 29-article isolated build with all 42 equations rendering.
 
 **THE CHEAPEST X-PLANE, AND THE PRICE WAS THE REQUIREMENT RATHER THAN THE RESULT.** The Naval Air
 Development Center study asked for an aircraft that could patrol under visual flight rules, be built in

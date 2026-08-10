@@ -143,6 +143,17 @@ because the sources that disagree are all secondary and none of them shows its w
 | Service ceiling | 18,000 ft |
 | Construction | wood, fibreglass, expanded polystyrene |
 
+The two loadings are worth writing down, because between them they explain most of what follows.
+
+$$ \frac{W}{S} = \frac{900\ \mathrm{lb}}{97\ \mathrm{ft}^2} = 9.28\ \mathrm{lb/ft^2} $$
+
+$$ \frac{W}{P} = \frac{900\ \mathrm{lb}}{90\ \mathrm{hp}} = 10.0\ \mathrm{lb/hp} $$
+
+The weight breakdown is equally plain, and the fuel fraction is the number every endurance figure below is
+proportional to.
+
+$$ \frac{W_{\mathrm{empty}}}{W_{\mathrm{gross}}} = \frac{600}{900} = 0.667, \qquad \frac{W_{\mathrm{fuel}}}{W_{\mathrm{gross}}} = \frac{90}{900} = 0.10 $$
+
 **Two numbers in that table are the whole aeroplane.**
 
 **The wing loading is 9.28 pounds per square foot**, which is about a tenth of the
@@ -178,6 +189,15 @@ quoted weight and area are mutually consistent.
 
 $$ C_D = C_{D_0} + K C_L^2, \qquad K = \frac{1}{\pi A e} $$
 
+The dynamic pressure and the drag it produces are used from here to the end of the article and are defined
+once.
+
+$$ q = \tfrac{1}{2}\rho V^2, \qquad D = q\,S\,C_D $$
+
+At the loiter condition computed below, which is twenty percent above the stall,
+
+$$ q = \tfrac{1}{2} \times 1.225 \times (29.63)^2 = 537.8\ \mathrm{Pa}, \qquad C_L = \frac{W}{qS} = 0.826, \qquad D = 85.0\ \mathrm{lbf} $$
+
 The sizing relations used here follow [Raymer][book_raymer], [Torenbeek][book_torenbeek] and
 [Gudmundsson][book_gudmundsson], with the drag data behind them in [Hoerner][book_hoerner] and the
 underlying flight mechanics in [Anderson][book_anderson].
@@ -201,7 +221,7 @@ The quoted rate of climb is 2,200 feet per minute, which for a nine-hundred-poun
 horsepower deserves checking. **Power available divided by weight is an absolute ceiling on rate of climb**,
 reachable only by an aircraft with no drag whatever.
 
-$$ \left.\frac{dh}{dt}\right|_{\mathrm{ceiling}} = \frac{\eta_p P}{W} $$
+$$ \frac{dh}{dt} = \frac{\eta_p P - D V}{W} \qquad \Longrightarrow \qquad \left.\frac{dh}{dt}\right|_{\mathrm{ceiling}} = \frac{\eta_p P}{W} $$
 
 | Propeller efficiency | Zero-drag ceiling | Claim as a fraction of it |
 |---|---|---|
@@ -266,6 +286,13 @@ of fuel, which the record does not give and which is stated as an assumption,
 | 1.3 $V_s$, 62.4 kt | 84.0 lbf | 21.5 hp | 8.39 h | 523 nmi |
 | 1.5 $V_s$, 72.0 kt | 87.7 lbf | 25.8 hp | 6.97 h | 502 nmi |
 
+Range follows from endurance and speed, and the loiter speed itself follows from a stall margin rather than
+from the power curve, for the reason just given.
+
+$$ R = E\,V_{\mathrm{loiter}}, \qquad V_{\mathrm{loiter}} = k\,V_{\mathrm{stall}}, \qquad k \ge 1.2 $$
+
+$$ R = 8.98\ \mathrm{h} \times 57.6\ \mathrm{kt} = 517\ \mathrm{nmi} $$
+
 **Nine hours is a great deal of patrol from ninety pounds of fuel**, and it is worth saying so before the
 criticism arrives. Twenty horsepower of ninety installed is what the aeroplane needs to loiter, which is the
 same margin the [X-26B][related_post_a323_schweizer_x26] exploited two articles ago for a different purpose.
@@ -327,6 +354,19 @@ than twice the sighting range, which inflated every coverage figure that used it
 | 0.5 nmi | 0.5 | 0.50 nmi | 51.5 nmi²/h |
 | 1.0 nmi | 0.5 | 1.00 nmi | 103.0 nmi²/h |
 | 1.0 nmi | 0.8 | 1.60 nmi | 164.8 nmi²/h |
+
+**A sweep width is only half the answer.** What a commander wants is the probability that a target present
+in the area was found, and for a search whose track spacing is not controlled that is the random-search law,
+which follows from treating each element of area as independently exposed.
+
+$$ C_{\mathrm{cov}} = \frac{W_{\mathrm{sweep}}\,V\,t}{A_{\mathrm{search}}}, \qquad P_{\mathrm{det}} = 1 - e^{-C_{\mathrm{cov}}} $$
+
+**Covering an area once finds about sixty-three percent of what is in it.**
+
+$$ P_{\mathrm{det}}(C_{\mathrm{cov}} = 1) = 1 - e^{-1} = 0.632 $$
+
+That exponential is the reason patrol aircraft are bought in numbers rather than singly, and it is the
+quantitative form of the argument the next section makes in dollars.
 
 **The tested altitude was three hundred feet**, restricted by airspace around Philadelphia rather than by
 the aircraft. The geometric horizon there is 20.3 nautical miles, which
@@ -395,6 +435,14 @@ operations-research work and much of it is contemporary with the programme.
 flies in worse weather not at all, and it sees only what a pilot can see. The comparison the requirement
 asks for is area examined per hour per dollar spent.
 
+The quantity being compared is a rate divided by a price, and the fleet form of it is what the requirement
+was actually asking about.
+
+$$ \frac{\dot{A}}{C} = \frac{W_{\mathrm{sweep}}\,V}{C}, \qquad N = \frac{B}{C}, \qquad \dot{A}_{\mathrm{fleet}} = N\,W_{\mathrm{sweep}}\,V = B\,\frac{\dot{A}}{C} $$
+
+**The fleet coverage is the budget multiplied by the area per dollar**, which is why that ratio is the
+figure of merit and not the coverage rate on its own.
+
 **Each aircraft is given its own sweep width, because giving them the same one is not a comparison.** A
 maritime patrol aircraft carries search radar. The X-28A carried a man looking out of an open cockpit.
 
@@ -403,6 +451,14 @@ maritime patrol aircraft carries search radar. The X-28A carried a man looking o
 | **X-28A, visual at 300 ft** | 103 kt | 1.00 nmi | 103 nmi²/h | $5,000 | **20.60 nmi²/h** |
 | [OV-10A Bronco][ref_ov10], visual | 223 kt | 1.00 nmi | 223 nmi²/h | $480,000 | 0.46 nmi²/h |
 | [P-3C Orion][ref_p3], search radar | 328 kt | 20.00 nmi | 6,560 nmi²/h | $36,000,000 | 0.18 nmi²/h |
+
+Put the same budget through both columns and the comparison becomes concrete.
+
+$$ N = \frac{\$36{,}000{,}000}{\$5{,}000} = 7{,}200 $$
+
+$$ \dot{A}_{\mathrm{fleet}} = 7{,}200 \times 103 = 741{,}600\ \mathrm{nmi^2/h} \quad \text{against} \quad 6{,}560\ \mathrm{nmi^2/h} $$
+
+$$ \frac{741{,}600}{6{,}560} = 113 $$
 
 **The X-28A is about a hundred and thirteen times better per dollar than the Orion, after giving the Orion a twenty-mile radar sweep against the Osprey's one-mile eyeball.**
 The Orion covers sixty-four times the area per hour and costs seven thousand two hundred times as much.
@@ -517,6 +573,11 @@ speed. [Momentum theory][ref_momentum_theory] gives the scaling.
 
 $$ T_{\mathrm{static}} = \left(2\rho A_{\mathrm{disc}} P^2\right)^{1/3} $$
 
+The same momentum balance gives the disc loading and the velocity the propeller must add to the air, which
+is what makes the static case computable at all.
+
+$$ \frac{T}{A_{\mathrm{disc}}} = 21.9\ \mathrm{lb/ft^2}, \qquad w = \sqrt{\frac{T}{2\rho A_{\mathrm{disc}}}} = 20.7\ \mathrm{m/s} $$
+
 | Propeller diameter | Static thrust |
 |---|---|
 | 5.0 ft | 549 lbf |
@@ -539,6 +600,25 @@ The beam loading coefficient is the parameter every tank test is indexed by, and
 parametrically for the same reason.
 
 $$ C_{\Delta_0} = \frac{\Delta}{\gamma_w b^3} $$
+
+The displacement itself follows from Archimedes, and it is a small volume of water.
+
+$$ \nabla = \frac{\Delta}{\rho_w g} = \frac{4{,}003}{1025 \times 9.807} = 0.398\ \mathrm{m^3} = 14.1\ \mathrm{ft^3} $$
+
+The speed at which a hull transitions from displacing to planing is set by the beam Froude number, which is
+the parameter the hump occurs at a fixed value of.
+
+$$ \mathrm{Fr}_b = \frac{V}{\sqrt{g\,b}} $$
+
+| Speed | Beam Froude number at a 2.5 ft beam |
+|---|---|
+| 0.3 $V_s$, 14.4 kt | 2.71 |
+| 0.5 $V_s$, 24.0 kt | 4.52 |
+| 0.7 $V_s$, 33.6 kt | 6.32 |
+
+**The hump for a hull of this loading falls in the lower part of that range**, which is well below the speed
+at which the wing is carrying any useful share of the weight, and which is why the thrust margin computed
+above is the whole of the answer.
 
 | Beam | $C_{\Delta_0}$ |
 |---|---|
@@ -825,7 +905,20 @@ documented.
 ### Propulsion
 
 A ninety-horsepower Continental C90-12, a four-cylinder horizontally opposed air-cooled engine of the kind
-fitted to light aircraft in tens of thousands.
+fitted to light aircraft in tens of thousands. The propeller is characterised by its advance ratio, and by
+the helical speed of its tip, which is what limits how fast it may be turned.
+
+$$ J = \frac{V}{n D}, \qquad V_{\mathrm{tip}} = \sqrt{(\pi n D)^2 + V^2}, \qquad M_{\mathrm{tip}} = \frac{V_{\mathrm{tip}}}{a} $$
+
+At cruise, with a six-foot propeller at 2,700 revolutions per minute,
+
+$$ J = \frac{53.0}{45.0 \times 1.829} = 0.644, \qquad V_{\mathrm{tip}} = 263.9\ \mathrm{m/s}, \qquad M_{\mathrm{tip}} = 0.776 $$
+
+**Under Mach 0.8 at the tip is exactly where a fixed-pitch propeller wants to be**, and it is the reason the
+diameter and the engine speed are what they are.
+
+$$ \eta_p = \frac{T V}{P_{\mathrm{shaft}}} $$
+
 **The engine is the single most conventional thing about the aeroplane, and that is a design decision rather than an omission.**
 An aircraft required to be manufacturable in Southeast Asia and maintainable by whoever is there cannot
 carry an engine that only one factory understands.
