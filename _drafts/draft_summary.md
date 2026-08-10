@@ -23,9 +23,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 of an unstated total, titled Compiler Backend Bring-Up: Blocking Frequency as the Ordering Principle
 for Instruction-Set Coverage.
 
-543 lines, 47 display equations, 88 references, roughly 9,500 words. **Imported from
-`keleusma-worktrees/llvm-backend-spike/tmp/` on human-pilot instruction and brought to blog standards.
-No retarget has been performed.** Committed, **not pushed**, not published.
+1,135 lines, 47 display equations, 88 references, roughly 10,500 words. **Imported from
+`keleusma-worktrees/llvm-backend-spike/tmp/`, brought to blog standards and retargeted for a general
+audience**, both on human-pilot instruction. Committed, **not pushed**, not published.
 
 **The article argues that the ordering principle in common use for compiler backend bring-up, which
 ranks remaining work by implementation cost and architectural tidiness, is systematically wrong, and
@@ -51,12 +51,29 @@ undefined, zero orphaned, zero duplicate URLs and correct anchor sorting. Isolat
 with all 47 equations rendering, zero Liquid errors, zero unresolved links and series navigation
 reporting Part 1.
 
-**The editorial date of 2026-08-06 was set by the pilot** and fills the day immediately after the
-published History of SpaceX series, which ends 2026-08-05.
+**The retarget did not simplify the analysis, which is the article's value.** It supplies a way in and
+leaves the technical content intact. **The opening was a single 700-word abstract naming seven
+literature traditions before it said what happened**, and now leads with the two numbers that carry
+the whole argument, being 87 percent of instructions against 34 percent of programs. A short section
+explains what a compiler backend is and why the ordering question exists. The seven traditions became
+a table. Four on-ramps were added ahead of the formal passages, the most useful being that a sum
+forgives a missing term while a product forgives nothing.
 
-**Outstanding and awaiting the pilot.** Whether a general-audience retarget is wanted, since the
-article is highly technical and none has been done. And whether siblings in the `keleusma_native`
-series are planned, since the navigation currently reads Part 1 of 1.
+**Three genre sections the file arrived without were written.** Epistemic State, which sorts the
+claims into measured, derived, assumed, corrected-during-writing and not-established, and names corpus
+representativeness as the weakest link. Out of Scope. And Conclusion.
+
+**One real defect was found and fixed.** The article said it reported three errors in one place while
+the abstract and a later paragraph both said four.
+
+**The whole body was reflowed.** The source used one unwrapped line per paragraph, at up to 3,690
+characters, and the added prose was hard-wrapped, which produced thirty lines with bold spanning a
+break. The corpus invariant is that bold never spans a line break, satisfied by every other article
+either by not wrapping or by wrapping around it, so the body now wraps at 108 characters with bold
+kept atomic.
+
+**Outstanding and awaiting the pilot.** Whether siblings in the `keleusma_native` series are planned,
+since the navigation currently reads Part 1 of 1.
 
 ## X-Planes Schweizer X-26 Frigate A323 2025-11-01
 

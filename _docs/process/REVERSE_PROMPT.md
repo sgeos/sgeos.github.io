@@ -9,151 +9,106 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: Two items on human-pilot instruction. **A370 drafted** as a general-audience retarget of the
-published A285, editorial date 2026-08-06. **`RESEARCH_AIRCRAFT_STRUCTURE.md` amended** to describe
-what the series actually does. Committed, **not pushed**, not published.
+**Task**: A369 brought to normal article standards and retargeted for a general audience. Committed,
+**not pushed**, not published.
+
+**543 to 1,135 lines, 47 display equations held, 88 references unchanged, roughly 10,500 words.**
 
 ---
 
-## A370, Why SpaceX Built a Ladder Instead of a Moonshot
+## What the Retarget Did Not Do
 
-**412 lines, 7 display equations, 43 references, 3,602 words. Standalone rather than part of a
-series**, since the History of SpaceX series is complete at twelve articles and no further article in
-it was planned.
-
-### What Changed, and What Did Not
-
-**The framework scaffolding went.** A general reader does not need the mapping problem, the
-methodological commitments, the four analytical traditions or the forcing-function vocabulary to
-follow an argument that is strong on its own.
-
-**The notation was replaced by arithmetic.** The source carries 69 display equations and almost none
-of them compute anything. They are definitional forms that restate a sentence in symbols. **The
-analytical essay genre is explicit on this**, saying essays carry equations only where a real
-quantitative relationship exists and that token equations belong to a different genre. **All seven
-equations here produce a number the reader can check.**
-
-**The argument was made falsifiable.** The source describes the pattern. This version states what it
-costs, where it does not apply, and what it cannot establish.
-
-**The substance was not reduced.** The vehicle history, the negation cases and a 43-reference base are
-carried forward, and the counterfactual is quantified where the source only named it.
-
-### The Central Result
-
-**A ladder does not need better odds than a monolith. It needs the same odds arranged differently.**
-
-Eight stages at ninety percent each give a monolith a 0.43 chance of delivering everything and a 0.57
-chance of delivering **nothing**. The same stages arranged as independently valuable rungs deliver 64
-percent of the value in expectation and deliver **something** ninety percent of the time. **The gap
-widens as the odds get worse**, which is where long technical programmes live.
-
-**The shape of the risk matters more than its size.** The monolith's outcome is binary and the
-ladder's is graded, and a programme with three delivered rungs is far harder to cancel than a hole in
-Texas.
-
-### The Strongest Argument Is One the Vehicle List Misses
-
-Falcon 1 used one Merlin engine, Falcon 9 uses nine, Falcon Heavy twenty-seven. **Every vehicle pays
-into the same learning curve.** On Wright's law at a 0.85 learning rate a nine-engine design reaches a
-unit engine cost **40 percent below** a one-engine design on the same number of airframes.
-
-**And the ratio does not depend on fleet size**, because nine times the units is a fixed 3.17 extra
-doublings whether the fleet is ten aircraft or three hundred. **That is the ladder operating on a
-component rather than on a vehicle**, and unlike the vehicle sequence it does not depend on commercial
-judgement or good fortune.
-
-### Where the Article Argues Against Itself
-
-**The Super Collider could not have been built as a ladder.** A collider's energy is set by its
-circumference and half a ring is not a small ring. **So the lesson is that some projects genuinely do
-not decompose, not that its managers chose badly**, and those projects need a different kind of
-political protection.
-
-**Apollo is placed among the cautionary cases rather than the successes.** Its rungs were technical
-rather than commercial, so when political demand ended there was no customer to keep paying and the
-capability was dismantled. **A rung that only an internal sponsor values vanishes when the sponsor
-does.**
-
-**Three costs are named and the third is the interesting one.** A rung that pays well is a reason not
-to climb. That is the mechanism that makes successful firms slow to replace their own products, and
-**the ladder does not remove it. The ladder creates it.**
-
-### Verification
-
-**23 independent checks.** The ladder expectation is recovered by **simulation over 400,000 trials**
-rather than by the closed-form sum, and the two are required to agree. The outcome distribution is
-required to sum to one. The fleet-size independence of the engine ratio is tested as a **property**
-across six fleet sizes.
-
-**One check was itself corrected**, since a relative tolerance was too tight on the smallest table
-entry, where the real question is whether 5.76 percent rounds to the quoted 6.
-
-Prose style clean with zero em dashes, en dashes, prose colons, prose semicolons or parentheticals,
-zero unbalanced bold, all seven equations on single lines, zero doubled backslashes, and the fourteen
-apostrophes audited as possessives. Isolated build succeeding with zero Liquid errors and zero
-unresolved links.
-
-**`tmp/errata/check_any.py` does not apply to this article** and correctly reports it as absent from
-the X-Planes roster. That is the tool working, not a defect.
+**It did not simplify the analysis, which is the article's value.** The formal apparatus, the seven
+literature traditions, the confidence bounds and the threats to validity are all intact. What changed
+is that a reader who has never written a compiler can now get in.
 
 ---
 
-## A Numbering Collision, and the Gap That Allowed It
+## The Opening
 
-**This article was drafted as A369 and renumbered to A370 on human-pilot correction.** A369 is
-reserved for "Compiler Backend Bring-Up: Blocking Frequency as the Ordering Principle for
-Instruction-Set Coverage".
+**The file led with a single 700-word abstract that named seven literature traditions before it said
+what had happened.** It now opens with the two numbers that carry the whole argument.
 
-**The repository carried no record of that reservation.** The title appears nowhere in `_docs/`,
-`_drafts/` or `_posts/`, and the tasklog's next-available line pointed at A369 as free. **The
-collision was therefore not detectable from the tree**, which is a gap in the record rather than a
-misreading of it.
+**A compiler was 87 percent finished. It could not compile two thirds of the programs it was for.**
 
-**A reservations list is now kept in the tasklog Notes**, and the rule is that a number promised to an
-article that does not exist yet is recorded there at the moment it is promised. **A369 is the first
-entry.**
+Both are correct. The first counts instructions, the second counts whole programs, and the gap exists
+because **a program needs every instruction it uses, not most of them.** Then the falsified
+recommendation, and the instrument that took twenty minutes to build and two seconds to run.
+
+A short section now explains what a compiler backend is and why an ordering question exists at all.
+**The seven traditions became a table**, with the point that none of them answers the question stated
+once rather than buried in a list.
+
+**Four on-ramps were added ahead of the formal passages.** The most useful is that **a sum forgives a
+missing term and a product forgives nothing**, which is the entire reason the two coverage measures
+diverge and was previously left for the reader to infer from the notation.
 
 ---
 
-## The Genre Document, Amended
+## Three Genre Sections the File Arrived Without
 
-**The previous bands were drawn from the History of SpaceX medians and no recent article matched
-them.** They had drifted far enough from practice to be misleading.
+**Epistemic State**, sorting the claims into measured, derived, assumed, corrected-during-writing and
+not-established. **It names corpus representativeness as the weakest link** and says that a reader who
+doubts it should read the ordering as established for the present consumer rather than the eventual
+one. It also records that the article's own conclusion about operand type recovery was too broad, since
+the capability was later needed by a different workstream at 18 compilation units.
 
-Measured across all twenty-seven X-Planes articles then drafted:
+**Out of Scope** and **Conclusion**, neither of which existed.
 
-| | Lines | Equations | References |
-|---|---|---|---|
-| Minimum | 937 | 25 | 335 |
-| Median | 1,488 | 94 | 404 |
-| Maximum | 7,198 | 200 | 3,990 |
+---
 
-**The corpus contains two regimes and the transitions are sharp.** The equation count fell at A313 and
-the reference count rose by an order of magnitude at A318.
+## One Real Defect, and One Convention Clash
 
-**Neither is a change of standard, and the document now says why.** The equation count follows the
-**subject**, since the governing rule displays whatever relations the prose relies on. The reference
-count follows the **contemporary-survey directive**, which from A318 was satisfied by citing a topic
-as a body of literature rather than by a few exemplars.
+**The article said it reported three errors in one place while the abstract and a later paragraph both
+said four.** Fixed to four, with a note that the fourth is described inside the description of the
+third, which is the point of that section.
 
-**The class table is now explicitly about section order, which stays prescriptive**, while the numbers
-are labelled measured descriptions and not targets. The comprehensiveness directive is recorded, so
-exceeding a figure is not a defect and needs no justification, **while padding toward one remains
-equally forbidden.**
+**The whole body was reflowed.** The source used one unwrapped line per paragraph, up to 3,690
+characters, and the prose I added was hard-wrapped, which produced **thirty lines with bold spanning a
+break**. The corpus invariant is that **bold never spans a line break**, which every other article
+satisfies either by not wrapping at all or by wrapping around it. The body now wraps at 108 characters
+with bold kept atomic.
 
-**Two further sections were reconciled.** The series-opener paragraph no longer quotes a withdrawn
-band. And **the designation-anomaly section now records the boundary A320 established**, that the test
-is whether a vehicle existed and produced data rather than whether the designation is disputed.
-**That bears directly on A324**, where no vehicle was ever built.
+---
+
+## Verification
+
+**A 13-check independent verifier** recomputing the article's arithmetic from its stated inputs. It
+includes **a property test over 20,000 random corpora that unit coverage can never exceed instruction
+coverage**, which is what the product form forbids, and a check that the withdrawn citation-defect
+rate really was the more alarming of the two.
+
+All arithmetic confirmed: 64,116 of 73,434 at 0.8731, 168 of 496 at 0.3387, a gap of 0.5344, a
+workstream ratio of 9.54, a clustering coefficient of 5.51, and a defect rate of 5.5 percent over 91
+candidates.
+
+**Prose style clean.** Zero em dashes, en dashes, prose colons, prose semicolons or parentheticals
+beyond the permitted `console.log` tag, zero unbalanced bold, all 47 equations on single lines, zero
+doubled backslashes.
+
+**Build.** Isolated build at the 2026-08-06 date, all 47 equations rendering, six tables, 20 sections
+and 16 subsections, zero Liquid errors, zero unresolved links, series navigation reporting Part 1.
+
+---
+
+## A Note on the Article Itself
+
+**It documents its own author's formal recommendation being falsified by a two-second measurement, and
+then documents four errors made while writing it, observing that all four ran toward a more striking
+result and that the fourth was committed inside the paragraph warning against the first three.**
+
+That is unusual and it is the most valuable thing in the article. **The retarget was written to make
+that reachable, not to soften it.**
 
 ---
 
 ## State
 
-**Committed, not pushed.** Neither item is a publication-review pass, so the push rule does not apply.
-Nothing is published.
+**Committed, not pushed, not published.** Not a publication-review pass, so the push rule does not
+apply.
 
-Twenty-seven X-Planes articles complete and pushed, plus A370 drafted. **The next X-Planes article is
-A324, the Lockheed X-27**, and the amended genre document now gives it a clearer test for which class
-it belongs to.
+**One question remains**, being whether siblings in the `keleusma_native` series are planned, since
+the navigation reads Part 1 of 1.
+
+The X-Planes series is untouched at twenty-seven articles complete and pushed. **The next X-Planes
+article is A324, the Lockheed X-27.**
