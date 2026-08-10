@@ -269,6 +269,43 @@ def check_post(path, text, rep, exemptions=None, is_draft=False):
                 rep.error("anchor-order", f"{name}: link definitions not sorted (block at line {r[0]+1})")
                 break
 
+    # A link definition renders as NOTHING. A reference block holding only
+    # `[anchor]: url` lines produces a heading with empty subheadings and no
+    # visible references at all. This shipped live in A369, which served 1,765
+    # definitions under four empty headings, and it is latent in seventeen
+    # X-Planes drafts. The corpus convention is a bulleted `- [text][anchor]`
+    # list beside the definitions. Corpus-wide count when added: zero posts.
+    if "## References" in text:
+        block = text.split("## References", 1)[1]
+        ndef = len(re.findall(rf"(?m)^\[{ANCHOR}\]:", block))
+        nvis = len(re.findall(r"(?m)^\s*[-*]\s*\[[^\]]+\]\[", block))
+        if ndef and not nvis:
+            rep.error("references-invisible",
+                      f"{name}: {ndef} link definitions and no visible list; "
+                      "the References section renders empty")
+
+    # kramdown reads a paragraph whose FIRST line contains `|` as a table, so
+    # inline math carrying a cardinality bar such as `$|S| = 39$` at the start
+    # of a paragraph turns the prose into table cells and shreds the math
+    # across them, leaving raw `$` on the page. Found on the live A369, where
+    # three paragraphs had become tables. Use `\lvert` and `\rvert` instead.
+    # A WARNING, not an error: seventeen published posts already do this and
+    # fixing them is a separate decision from stopping it recurring.
+    if re.search(r"^mathjax:\s*true", fm, re.M):
+        code_free = re.sub(r"(?s)```.*?```", " ", text)
+        code_free = re.sub(r"(?s)\{%\s*highlight.*?\{%\s*endhighlight\s*%\}", " ", code_free)
+        body_only = code_free.split("## References")[0]
+        for para in body_only.split("\n\n"):
+            s = para.strip("\n")
+            if not s.strip() or s.startswith(("$$", "#", "    ", "\t")) or s.lstrip().startswith("|"):
+                continue
+            first = s.split("\n")[0]
+            if re.search(r"(?<!\$)\$(?!\$)[^$\n]*\|[^$\n]*\$", first):
+                rep.warn("math-pipe-table",
+                         f"{name}: paragraph opens with inline math containing `|`; "
+                         f"kramdown renders it as a table. Near {first[:60]!r}")
+                break
+
     stripped = re.sub(r"(?s)```.*?```", " ", text)
     stripped = re.sub(r"(?s)\{%\s*highlight.*?\{%\s*endhighlight\s*%\}", " ", stripped)
     stripped = re.sub(r"`[^`\n]+`", " ", stripped)

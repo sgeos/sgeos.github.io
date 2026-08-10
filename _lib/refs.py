@@ -153,11 +153,23 @@ def assign_anchors(records, taken=(), kind="research"):
     return out
 
 
-def emit_blocks(definitions):
-    """Categorised, sorted `## References` block from {anchor: url}.
+def emit_blocks(definitions, texts=None):
+    """Categorised `## References` block from {anchor: url}.
 
-    Grouping is by anchor prefix and sorting is within each group, which is
-    exactly what the `anchor-order` check in `_verify.py` enforces.
+    A LINK DEFINITION IS INVISIBLE. `[anchor]: url` renders as nothing at all,
+    so a block containing only definitions produces a heading with empty
+    subheadings and no references. That shipped in the published A369, which
+    served 1,765 definitions under four empty headings, and it is latent in
+    seventeen of the twenty-seven X-Planes drafts.
+
+    The corpus convention is a VISIBLE bulleted list of `- [text][anchor]`
+    followed by the definitions, and `texts` supplies the display text. Passing
+    no `texts` still emits definitions alone, which is what the defect looked
+    like, so callers that want a rendered section must supply it.
+
+    Definitions stay sorted by anchor within each group, which is what the
+    `anchor-order` check in `_verify.py` enforces. Bullets sort by display text,
+    since that is the order a reader scans.
     """
     groups = {}
     for anc, url in definitions.items():
@@ -167,6 +179,10 @@ def emit_blocks(definitions):
     for head in sorted(groups):
         out.append(f"### {head}")
         out.append("")
+        if texts:
+            for anc, _url in sorted(groups[head], key=lambda p: (texts.get(p[0], p[0]).lower(), p[0])):
+                out.append(f"- [{texts.get(anc, anc)}][{anc}]")
+            out.append("")
         for anc, url in sorted(groups[head]):
             out.append(f"[{anc}]: {url}")
         out.append("")
