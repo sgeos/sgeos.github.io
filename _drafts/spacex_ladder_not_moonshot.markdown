@@ -7,8 +7,8 @@ date: 2026-08-06 09:00:00 +0000
 categories: business history aerospace
 ---
 
-<!-- A369 -->
-<script>console.log("A369");</script>
+<!-- A370 -->
+<script>console.log("A370");</script>
 
 On 21 October 1993 the United States Congress cancelled the [Superconducting Super Collider][ref_ssc_wiki].
 About two billion dollars had been spent. Fourteen miles of tunnel had been bored under Waxahachie, Texas.

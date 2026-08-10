@@ -9,13 +9,13 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: Two items on human-pilot instruction. **A369 drafted** as a general-audience retarget of the
+**Task**: Two items on human-pilot instruction. **A370 drafted** as a general-audience retarget of the
 published A285, editorial date 2026-08-06. **`RESEARCH_AIRCRAFT_STRUCTURE.md` amended** to describe
 what the series actually does. Committed, **not pushed**, not published.
 
 ---
 
-## A369, Why SpaceX Built a Ladder Instead of a Moonshot
+## A370, Why SpaceX Built a Ladder Instead of a Moonshot
 
 **412 lines, 7 display equations, 43 references, 3,602 words. Standalone rather than part of a
 series**, since the History of SpaceX series is complete at twelve articles and no further article in
@@ -94,8 +94,25 @@ zero unbalanced bold, all seven equations on single lines, zero doubled backslas
 apostrophes audited as possessives. Isolated build succeeding with zero Liquid errors and zero
 unresolved links.
 
-**`tmp/errata/check_any.py` does not apply to this article** and correctly reports A369 as absent from
+**`tmp/errata/check_any.py` does not apply to this article** and correctly reports it as absent from
 the X-Planes roster. That is the tool working, not a defect.
+
+---
+
+## A Numbering Collision, and the Gap That Allowed It
+
+**This article was drafted as A369 and renumbered to A370 on human-pilot correction.** A369 is
+reserved for "Compiler Backend Bring-Up: Blocking Frequency as the Ordering Principle for
+Instruction-Set Coverage".
+
+**The repository carried no record of that reservation.** The title appears nowhere in `_docs/`,
+`_drafts/` or `_posts/`, and the tasklog's next-available line pointed at A369 as free. **The
+collision was therefore not detectable from the tree**, which is a gap in the record rather than a
+misreading of it.
+
+**A reservations list is now kept in the tasklog Notes**, and the rule is that a number promised to an
+article that does not exist yet is recorded there at the moment it is promised. **A369 is the first
+entry.**
 
 ---
 
@@ -137,6 +154,6 @@ is whether a vehicle existed and produced data rather than whether the designati
 **Committed, not pushed.** Neither item is a publication-review pass, so the push rule does not apply.
 Nothing is published.
 
-Twenty-seven X-Planes articles complete and pushed, plus A369 drafted. **The next X-Planes article is
+Twenty-seven X-Planes articles complete and pushed, plus A370 drafted. **The next X-Planes article is
 A324, the Lockheed X-27**, and the amended genre document now gives it a clearer test for which class
 it belongs to.

@@ -17,9 +17,9 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## Why SpaceX Built a Ladder Instead of a Moonshot A369 2026-08-06
+## Why SpaceX Built a Ladder Instead of a Moonshot A370 2026-08-06
 
-`spacex_ladder_not_moonshot.markdown`, A369, editorial date 2026-08-06, standalone rather than part of
+`spacex_ladder_not_moonshot.markdown`, A370, editorial date 2026-08-06, standalone rather than part of
 a series.
 
 412 lines, 7 display equations, 43 references, 3,602 words. **A general-audience retarget of the
