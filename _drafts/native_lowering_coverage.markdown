@@ -91,8 +91,8 @@ approximated.
 The three traditions agree that the instruction set must eventually be covered in full and disagree about
 the intermediate ordering. The present article adopts the verification tradition for correctness obligations
 and argues that none of the three supplies an adequate ordering principle, because all three reason about
-instructions in isolation while the quantity that governs delivered capability is a property of programs
-rather than of instructions.
+instructions in isolation while the quantity that governs delivered capability is a property of programs and
+not of instructions.
 
 ### Notation
 
@@ -139,7 +139,7 @@ The product form of $\chi$ is the whole difficulty. The generator exploits struc
 in the sense of the structured program theorem of [Bohm and Jacopini 1966][research_bohm_jacopini_1966], so
 that basic blocks fall out of the instruction stream without the control-flow-graph reconstruction [Allen
 1970][research_allen_1970] formalised, and the conjunction is therefore a property of the instruction
-multiset rather than of any recovered graph. Lowerability is a conjunction over the unit, so a single
+multiset and not of any recovered graph. Lowerability is a conjunction over the unit, so a single
 unimplemented instruction sets the indicator to zero regardless of how many instances were handled. The
 refusal is not a defect. It is the required behaviour under the verification tradition, since a generator
 that approximated an unimplemented instruction would emit native code whose semantics were never proven. The
@@ -187,8 +187,21 @@ The ordering problem is therefore the selection
 
 $$\iota^{\star} = \arg\max_{\iota \in I \setminus S} \lambda(\iota, S), \qquad \lambda(\iota, S) = \frac{|B(\iota, S)|}{\kappa(\iota)}$$
 
-with $\kappa(\iota)$ the implementation cost and $\lambda$ the leverage ratio. The ordering principle in
-common use is the degenerate variant
+with $\kappa(\iota)$ the implementation cost and $\lambda$ the leverage ratio.
+
+**That selection rule is not new and it is worth naming, because naming it imports both a guarantee and the precise conditions under which the guarantee fails.**
+Choosing repeatedly the candidate with the greatest newly covered mass per unit cost is the cost-weighted
+greedy heuristic for set covering, analysed by [Johnson 1974][research_johnson_1974] and [Chvatal
+1979][research_chvatal_1979], which established the logarithmic approximation ratio, sharpened by [Slavik
+1997][research_slavik_1997] and shown to be essentially the best obtainable unless the complexity classes
+collapse by [Lund and Yannakakis 1994][research_lund_yannakakis_1994] and [Feige 1998][research_feige_1998].
+**The ordering problem posed here is set cover with costs, and the leverage ratio is the classical greedy rule for it.**
+
+**The guarantee attaches to the covering formulation and not to the objective this article measures**, a
+distinction the supermodularity section makes precise and which is the reason the greedy rule is offered
+below as a heuristic rather than as an approximation algorithm.
+
+The ordering principle in common use is the degenerate variant
 
 $$\iota^{\star}_{\text{naive}} = \arg\min_{\iota \in I \setminus S} \kappa(\iota)$$
 
@@ -222,7 +235,8 @@ $$S \subseteq S' \subseteq I, \quad \iota \notin S' \implies g(\iota, S) \ \le\ 
 which is **increasing** marginal returns. The objective is supermodular, not submodular.
 
 **The contrast is worth writing out, because the whole force of the error lies in a reversed inequality.**
-Submodularity, the property that was asserted, is diminishing returns,
+The two properties, and the convex and concave structure that separates them, are set out in [Lovasz
+1983][research_lovasz_1983]. Submodularity, the property that was asserted, is diminishing returns,
 
 $$S \subseteq S' \implies g(\iota, S) \ \ge\ g(\iota, S') \qquad \text{(submodular, and FALSE here)}$$
 
@@ -265,15 +279,15 @@ sets are one observation viewed three ways.
 ### Workstream aggregation
 
 Instructions that share a design prerequisite are implemented together, so the practically available choices
-are workstreams rather than individual instructions. Let $W \subseteq I \setminus S$ denote a workstream.
-The workstream blocking set and counterfactual gain are
+are workstreams and not individual instructions. Let $W \subseteq I \setminus S$ denote a workstream. The
+workstream blocking set and counterfactual gain are
 
 $$B(W, S) = \bigl\{ c_m : \chi(c_m, S) = 0 \ \wedge\ \chi(c_m, S \cup W) = 1 \bigr\}, \qquad \Delta\rho^{\text{unit}}(W) = \frac{|B(W, S)|}{M}.$$
 
 Workstream-level counterfactuals are better identified than instruction-level ones, because the
-co-occurrence that defeats instruction-level attribution is largely within workstreams rather than across
-them. An instruction reading a data-segment slot co-occurs with an instruction writing one far more often
-than either co-occurs with a coroutine suspension.
+co-occurrence that defeats instruction-level attribution is largely within workstreams and not across them.
+An instruction reading a data-segment slot co-occurs with an instruction writing one far more often than
+either co-occurs with a coroutine suspension.
 
 ## The Code Generation Literature, and Where Ordering Is Absent From It
 
@@ -288,8 +302,18 @@ selection by parsing the intermediate representation against a machine grammar, 
 Proebsting 1992][research_fraser_1992] reduced the approach to a practical generator generator. [Ertl
 1999][research_ertl_1999] extended optimality from trees to directed acyclic graphs. At the extreme,
 [Massalin 1987][research_massalin_1987] searched the instruction space exhaustively for the shortest program
-computing a function. Every one of these results presupposes that the target instruction set is available in
-its entirety. None addresses the partial-implementation regime, because none has a reason to.
+computing a function.
+**The tradition also learned to synthesise the rules rather than write them, which is worth recording because it changes what a lowering costs without changing what this article measures.**
+[Davidson and Fraser 1984][research_davidson_fraser_1984] generated peephole optimisations automatically
+from a machine description, [Aho, Ganapathi and Tjiang 1989][research_aho_ganapathi_1989] reduced
+instruction selection to tree matching with dynamic programming, [Bansal and Aiken
+2006][research_bansal_aiken_2006] harvested a peephole superoptimiser by enumeration over the target, and
+[Schkufza, Sharma and Aiken 2013][research_schkufza_2013] replaced enumeration with stochastic search over
+loop-free binaries. **Synthesis lowers $\kappa$ and leaves $|B|$ untouched**, so it changes the leverage
+ratio through its denominator only and reorders nothing that the numerator determines.
+
+Every one of these results presupposes that the target instruction set is available in its entirety. None
+addresses the partial-implementation regime, because none has a reason to.
 
 The supporting analyses are likewise complete-set analyses. [Allen 1970][research_allen_1970] established
 control-flow analysis, [Kildall 1973][research_kildall_1973] the unified dataflow framework, [Ferrante and
@@ -306,8 +330,8 @@ the [LLVM Language Reference][ref_llvm_langref].
 The observation to draw is that this literature optimises within a covered instruction set and is silent on
 how to reach one. A backend author consulting it finds a great deal about how to lower an instruction well
 and nothing about which instruction to lower next. The silence is not an oversight, because in the settings
-these works address the instruction set is a fixed input rather than a schedule. It becomes an oversight
-only when the set is being covered incrementally, which is the universal condition of a backend under
+these works address the instruction set is a fixed input and not a schedule. It becomes an oversight only
+when the set is being covered incrementally, which is the universal condition of a backend under
 construction and a condition the literature treats as a transient state not worth theorising.
 
 ## Verified and Validated Compilation as the Governing Constraint
@@ -359,7 +383,7 @@ rather than admitted, is forced by classical undecidability. [Rice 1953][researc
 that every non-trivial semantic property of programs is undecidable, and [Landi 1992][research_landi_1992]
 sharpened the consequence for static analysis specifically. A verifier that admits only what it can prove
 will therefore reject some programs that are in fact well behaved, and the size of that gap is a design
-parameter rather than a defect.
+parameter and not a defect.
 
 This bears on the ordering problem in a way not immediately obvious. The corpus measured below consists of
 programs the front end accepts, which is a population already shaped by the conservative stance.
@@ -367,7 +391,7 @@ Instructions associated with constructs the verifier rejects cannot appear in th
 so their measured blocking contribution is zero for a reason unrelated to demand. The measurement therefore
 estimates blocking frequency conditional on admissibility, and an instruction whose frequency would be high
 in an unconstrained population may measure at zero here. No such case is known to arise in the present data,
-but the conditioning is a real limitation of the method rather than a hypothetical one.
+but the conditioning is a real limitation of the method and not a hypothetical one.
 
 ## Worst-Case Resource Analysis and the Native Transfer Problem
 
@@ -441,6 +465,18 @@ Instruction-level coverage $\rho^{\text{inst}}$ is the attractive, easily comput
 uninformative measure. Unit-level coverage $\rho^{\text{unit}}$ is the one that tracks delivered capability,
 and the two differ here by $\Gamma = 0.534$.
 
+**The testing literature also solved the selection problem this article poses, in its own setting and with the same formal object.**
+Reducing a test suite to a subset preserving coverage is set cover, stated as such by [Harrold, Gupta and
+Soffa 1993][research_harrold_1993], and the ordering variant is test-case prioritisation, formalised by
+[Rothermel and colleagues 2001][research_rothermel_2001] and surveyed with selection and minimisation by
+[Yoo and Harman 2012][research_yoo_harman_2012]. Safe selection, meaning selection that cannot discard a
+test capable of exposing a difference, is due to [Rothermel and Harrold
+1997][research_rothermel_harrold_1997]. **The cautionary result belongs beside them.** [Wong and colleagues
+1995][research_wong_1995] found that minimising a suite while holding coverage constant can reduce
+fault-detection effectiveness, which is the same warning the present article issues in the opposite
+direction.
+**A coverage-preserving reduction and a coverage-maximising ordering are the same optimisation read forwards and backwards, and both are vulnerable to the measure standing in for the goal.**
+
 The correctness discipline used throughout the development this article reports is mutation testing,
 introduced by [DeMillo, Lipton and Sayward 1978][research_demillo_1978] and surveyed by [Jia and Harman
 2011][research_jia_harman_2011]. Every structural assertion in the generator's test suite carries a
@@ -473,7 +509,7 @@ statement that the property is untested and untestable, which is the only honest
 
 The four demand different responses and were nearly conflated. Only the mutation runs distinguished them,
 and the vacuous-test kind recurred three times across the work despite being actively watched for, which is
-the strongest available evidence that the failure is structural rather than attributable to inattention.
+the strongest available evidence that the failure is structural and not attributable to inattention.
 
 ## Submodular Optimisation, Coverage, and Prioritisation
 
@@ -511,8 +547,13 @@ established above.
 
 The principled resolution of the attribution problem is the value of [Shapley 1953][research_shapley_1953],
 which distributes the total unblocking across contributors by averaging each contributor's marginal gain
-over all orders in which the contributors might be added. Writing $\mathcal{W}$ for the set of workstreams,
-the Shapley attribution of workstream $W$ is
+over all orders in which the contributors might be added.
+**It is the only attribution satisfying efficiency, symmetry, the null-contributor property and additivity together**,
+and [Young 1985][research_young_1985] showed that additivity may be replaced by a monotonicity requirement
+without changing the answer, which matters here because monotonicity in the marginal gain is the property an
+ordering argument actually wants. [Owen 1972][research_owen_1972] gave the multilinear extension that makes
+the average tractable to reason about. Writing $\mathcal{W}$ for the set of workstreams, the Shapley
+attribution of workstream $W$ is
 
 $$\phi(W) = \sum_{T \subseteq \mathcal{W} \setminus \{W\}} \frac{|T|!\,\bigl(|\mathcal{W}| - |T| - 1\bigr)!}{|\mathcal{W}|!} \Bigl[ \rho^{\text{unit}}\bigl(S \cup \textstyle\bigcup T \cup W\bigr) - \rho^{\text{unit}}\bigl(S \cup \textstyle\bigcup T\bigr) \Bigr]$$
 
@@ -523,7 +564,7 @@ $$\sum_{W \in \mathcal{W}} \phi(W) = \rho^{\text{unit}}\bigl(S \cup \textstyle\b
 so the attributions sum exactly to the total unblocking with no double counting, which is precisely the
 property the naive per-instruction count lacks. With $|\mathcal{W}| = 6$ the exact computation requires
 $2^{6} = 64$ evaluations of $\rho^{\text{unit}}$, each a linear pass over the corpus, so the exact Shapley
-attribution is computationally trivial here and its omission is a matter of scope rather than tractability.
+attribution is computationally trivial here and its omission is a matter of scope and not of tractability.
 
 The article therefore reports two statistics with different properties rather than attempting a single
 attribution. The first is the instance count $n(\iota)$, an upper bound on effort saved that carries no
@@ -563,8 +604,8 @@ of its three results. Any instrument reasoning over source text would have misco
 
 The instrument excludes files the front end rejects. Five of the sixty-three files were rejected, all of
 them real-time operating system scripts referring to host functions registered by the embedding application
-rather than declared in the script. The exclusion is environmental rather than linguistic, and including
-those files would add instances to the native application binary interface class, reinforcing the reported
+rather than declared in the script. The exclusion is environmental and not linguistic, and including those
+files would add instances to the native application binary interface class, reinforcing the reported
 conclusion rather than qualifying it.
 
 The instrument carries a guard assertion
@@ -698,7 +739,16 @@ than on the instrument.
 ### The independence null and the clustering coefficient
 
 The unit-level collapse invites an obvious explanation, that unimplemented instructions are simply spread
-thinly across many units. That explanation is testable. Under an independence null in which each instruction
+thinly across many units. That explanation is testable.
+**Comparing an observed count structure against an independence null is standard practice**, and the general
+statistic for departure from it is a test for overdispersion, treated by [Dean 1992][research_dean_1992].
+**The expectation that the departure will be large is not a guess either.** Defects in software are known
+empirically to concentrate rather than distribute evenly, established by [Fenton and Ohlsson
+2000][research_fenton_ohlsson_2000] and measured at scale by [Ostrand and Weyuker
+2002][research_ostrand_weyuker_2002] and [Ostrand, Weyuker and Bell 2005][research_ostrand_weyuker_2005],
+who found small fractions of modules carrying most faults.
+**Unimplemented instructions are not defects, but the concentration argument transfers**, because both arise
+from uneven use of a shared vocabulary across a corpus. Under an independence null in which each instruction
 instance in a unit is lowered with probability $p = \rho^{\text{inst}}(S)$ independently, the expected
 unit-level coverage is
 
@@ -743,10 +793,10 @@ direction in which errors are least likely to be questioned.
 ### Confidence bounds on the zero counts
 
 Two instruction classes occur zero times as blockers. A zero count is not an assertion of impossibility, and
-the appropriate summary is an upper confidence bound rather than a point estimate. For zero events observed
-in $n$ independent trials, the rule of three stated by [Hanley and Lippman-Hand 1983][research_hanley_1983]
-and examined by [Jovanovic and Levy 1997][research_jovanovic_levy_1997], a normal-approximation shortcut on
-the exact interval of [Clopper and Pearson 1934][research_clopper_pearson_1934], gives the approximate
+the appropriate summary is an upper confidence bound and not a point estimate. For zero events observed in
+$n$ independent trials, the rule of three stated by [Hanley and Lippman-Hand 1983][research_hanley_1983] and
+examined by [Jovanovic and Levy 1997][research_jovanovic_levy_1997], a normal-approximation shortcut on the
+exact interval of [Clopper and Pearson 1934][research_clopper_pearson_1934], gives the approximate
 ninety-five percent upper bound
 
 $$(1 - p)^{n} = 0.05 \implies p = 1 - 0.05^{1/n} \approx \frac{\ln 20}{n} = \frac{2.996}{n}$$
@@ -844,17 +894,18 @@ most transferable observation available.
 an accident and is the point of the section.
 
 The first is the convexity shortcut described above,
-**which is Jensen's inequality applied in the wrong direction**, since $p^{x}$ is convex in $x$ and the mean
-of the powers therefore exceeds the power of the mean rather than equalling it. It would have inflated a
-clustering coefficient by seven orders of magnitude. The second is a false modularity theorem, in which the
-coverage objective was asserted to be submodular so that a classical approximation guarantee could be
-invoked, when the objective is supermodular and no such guarantee exists. The third occurred while
-assembling this article's references. Of ninety-one candidate digital object identifiers supplied from
-memory, four resolved to entirely different works and one did not resolve at all, an error rate of five and
-a half percent. One resolved to a paper on record allocation for drum storage in place of a paper on optimal
-code generation for expression trees, and one to a paper on a lambda calculus of objects in place of a paper
-on lightweight bytecode verification. Each of the four would have returned a successful response to a
-reachability check, so only comparison of the resolved title against the claimed title detected them.
+**which is [Jensen's inequality][research_jensen_1906] applied in the wrong direction**, since $p^{x}$ is
+convex in $x$ and the mean of the powers therefore exceeds the power of the mean rather than equalling it.
+It would have inflated a clustering coefficient by seven orders of magnitude. The second is a false
+modularity theorem, in which the coverage objective was asserted to be submodular so that a classical
+approximation guarantee could be invoked, when the objective is supermodular and no such guarantee exists.
+The third occurred while assembling this article's references. Of ninety-one candidate digital object
+identifiers supplied from memory, four resolved to entirely different works and one did not resolve at all,
+an error rate of five and a half percent. One resolved to a paper on record allocation for drum storage in
+place of a paper on optimal code generation for expression trees, and one to a paper on a lambda calculus of
+objects in place of a paper on lightweight bytecode verification. Each of the four would have returned a
+successful response to a reachability check, so only comparison of the resolved title against the claimed
+title detected them.
 
 **A draft of this article reported this rate as near ten percent over forty-two candidates.** That figure is
 the first three verification batches taken alone, which is the worse subsample, and the later batches were
@@ -885,8 +936,8 @@ efficient way to manufacture such errors because its conclusions carry borrowed 
 were used here and are recommended generally. Evaluate aggregates over the observed distribution rather than
 at its mean whenever the aggregating function is not affine. Test a formal claim by brute-force enumeration
 over instances small enough to check exhaustively before relying on it. Verify every citation against the
-resolved record rather than against memory, since the failure mode is a plausible reference rather than a
-broken link.
+resolved record rather than against memory, since the failure mode is a plausible reference and not a broken
+link.
 
 ## Threats to Validity
 
@@ -915,8 +966,8 @@ $$\frac{f_\pi(W_{\text{data}})}{\max_{W \ne W_{\text{data}}} f_\pi(W)} = \frac{2
 and an order-dependence artefact would have to be extreme to invert a margin approaching ten to one. For the
 ordering of the second, third and fourth workstreams, at $28$, $24$ and $9$, the artefact could plausibly
 reorder them, and no claim about that ordering should be read as established. The exact cost is worth
-deriving rather than quoting, since it is the reason the shortcut is hard to defend. The Shapley value needs
-$\rho^{\text{unit}}$ evaluated on every subset of workstreams,
+deriving rather than quoting, since it is the reason the shortcut is hard to defend. The [Shapley
+value][research_shapley_1953] needs $\rho^{\text{unit}}$ evaluated on every subset of workstreams,
 
 $$\bigl| 2^{\mathcal{W}} \bigr| = 2^{|\mathcal{W}|} = 2^{6} = 64$$
 
@@ -924,11 +975,20 @@ and each evaluation is one pass over 496 units. Since the exact Shapley attribut
 sixty-four corpus passes, the honest characterisation is that the surrogate was used for scope reasons and
 that the secondary ordering could be settled cheaply whenever it matters.
 
+**The cheapness is a property of the aggregation and not of the method, and the distinction is worth stating because it bounds how far the result generalises.**
+Six workstreams give sixty-four subsets. The same attribution at instruction granularity ranges over subsets
+of the unimplemented instruction set, which is not enumerable, and there the exact value is unavailable
+rather than merely unattempted. **The literature has an answer for that regime**, in the sampling estimator
+of [Castro, Gomez and Tejada 2009][research_castro_2009], which averages marginal gains over randomly drawn
+permutations and converges at the usual rate in the number of samples, and in the closely related
+attribution scheme of [Strumbelj and Kononenko 2013][research_strumbelj_kononenko_2013].
+**Neither was needed here and both would be needed for any instruction-level restatement of the same question.**
+
 The zero results are subject to the corpus caveat and are bounded above rather than asserted absent, as
 quantified in the confidence-bound section. The correct inference is not that the typed arithmetic class
 will never matter but that it does not matter now, which is the question an ordering principle asks.
 
-The measurement is static rather than dynamic. It counts instruction instances in compiled units and not
+The measurement is static and not dynamic. It counts instruction instances in compiled units and not
 executions, so it estimates the difficulty of lowering a program and not the time a program spends in any
 instruction. For the ordering question this is the correct unit, since a refusal is a static property, but
 the resulting figures must not be read as execution profiles. [Georges and colleagues
@@ -947,12 +1007,23 @@ which is offered as mitigation rather than as a claim that the concern is closed
 The abstract mechanic generalises beyond compiler backends to any incremental capability programme in which
 a consumer requires a conjunction of features rather than any one of them.
 
+**The product form is worth naming as well, because it is the founding object of a mature discipline.** A
+system that functions only when every one of its components functions is a series system, and the
+consequences of that structure were worked out for reliability by [Esary and Proschan
+1963][research_esary_proschan_1963].
+**The attribution question this article poses has a direct counterpart there**, in the component importance
+measure of [Birnbaum 1968][research_birnbaum_1968], which ranks components by the probability that the
+system's functioning turns on that component alone. That is the same quantity as a blocking set, computed in
+a different vocabulary.
+
 The mechanic has three parts. First, when a consumer requires every element of a set to be present,
 delivered capability is governed by the product form $\chi = \prod_i \mathbf{1}[\,\cdot\,]$ and not by the
 sum form $\rho^{\text{inst}} = \frac{1}{N}\sum_i \mathbf{1}[\,\cdot\,]$, so per-element progress measures
 overstate delivered capability by the gap $\Gamma$, which grows with the dispersion of the missing elements.
-**That claim has computable extremes and is worth pinning down.** With $Q = N(1 - \rho^{\text{inst}})$
-missing instances distributed over $M$ units, the number of blocked units is bounded by
+**That claim has computable extremes and is worth pinning down**, and the counting argument is the
+elementary one that underlies covering problems generally, in [Karp 1972][research_karp_1972] and [Feige
+1998][research_feige_1998]. With $Q = N(1 - \rho^{\text{inst}})$ missing instances distributed over $M$
+units, the number of blocked units is bounded by
 
 $$\Bigl\lceil Q / L_{\max} \Bigr\rceil \ \le\ \bigl| \{ m : \chi(c_m, S) = 0 \} \bigr| \ \le\ \min(Q, M)$$
 
@@ -989,9 +1060,9 @@ approximation guarantee is available to substitute for the measurement.
 The mechanic carries a self-application. An implementer reasoning carefully about dependency structure
 produces recommendations that feel well-founded, because they are well-founded with respect to the question
 of what is required. The recommendation acquires unearned authority from the rigour of the dependency
-argument, and the missing question is not visible from inside that argument. The defence is procedural
-rather than intellectual. Before accepting an ordering derived from structure, measure the frequency, and
-treat the structural argument as establishing feasibility rather than priority.
+argument, and the missing question is not visible from inside that argument. The defence is procedural and
+not intellectual. Before accepting an ordering derived from structure, measure the frequency, and treat the
+structural argument as establishing feasibility rather than priority.
 
 A second self-application concerns the analysis itself, and this article contains four instances of it,
 comprising a convexity shortcut, a false modularity theorem, a defect rate in citations supplied from
@@ -1019,9 +1090,9 @@ supplied from memory, four resolved to different works and one did not resolve, 
 percent.
 
 **Derived, and checkable from the definitions.** That unit-level coverage cannot exceed instruction-level
-coverage follows from the product form. That the objective is supermodular rather than submodular, so that
-the classical greedy approximation guarantee does not apply, is established by counterexample. The
-clustering coefficient of 5.51 and the confidence bounds on the zero counts follow from the stated method.
+coverage follows from the product form. That the objective is supermodular and not submodular, so that the
+classical greedy approximation guarantee does not apply, is established by counterexample. The clustering
+coefficient of 5.51 and the confidence bounds on the zero counts follow from the stated method.
 
 **Assumed, and marked as such.** The first-blocker attribution is order-dependent and the full blocking
 lattice was not computed, so **the ordering of the second, third and fourth workstreams is not established**
@@ -1086,17 +1157,17 @@ clearest evidence available that knowing about a bias does not protect anyone fr
 
 [ref_jvm_spec]: https://docs.oracle.com/javase/specs/jvms/se21/html/index.html
 [ref_llvm_langref]: https://llvm.org/docs/LangRef.html
-
-### Research
-
 [research_agresti_coull_1998]: https://doi.org/10.1080/00031305.1998.10480550
+[research_aho_ganapathi_1989]: https://doi.org/10.1145/69558.75700
 [research_allamanis_sutton_2013]: https://doi.org/10.1109/MSR.2013.6624029
 [research_allen_1970]: https://doi.org/10.1145/800028.808479
 [research_amdahl_1967]: https://doi.org/10.1145/1465482.1465560
 [research_andrews_2005]: https://doi.org/10.1109/ICSE.2005.1553583
 [research_appel_1998]: https://doi.org/10.1145/278283.278285
+[research_bansal_aiken_2006]: https://doi.org/10.1145/1168857.1168906
 [research_basili_weiss_1984]: https://doi.org/10.1109/TSE.1984.5010301
 [research_berger_2002]: https://doi.org/10.1145/582419.582421
+[research_birnbaum_1968]: https://doi.org/10.21236/ad0670563
 [research_blackburn_2006]: https://doi.org/10.1145/1167473.1167488
 [research_blackburn_2016]: https://doi.org/10.1145/2983574
 [research_blanchet_2003]: https://doi.org/10.1145/781131.781153
@@ -1104,18 +1175,24 @@ clearest evidence available that knowing about a bias does not protect anyone fr
 [research_bohm_jacopini_1966]: https://doi.org/10.1145/355592.365646
 [research_braun_2013]: https://doi.org/10.1007/978-3-642-37051-9_6
 [research_buchbinder_2015]: https://doi.org/10.1137/130929205
+[research_castro_2009]: https://doi.org/10.1016/j.cor.2008.04.004
 [research_chaitin_1982]: https://doi.org/10.1145/872726.806984
 [research_chen_2016]: https://doi.org/10.1145/2908080.2908095
+[research_chvatal_1979]: https://doi.org/10.1287/moor.4.3.233
 [research_clopper_pearson_1934]: https://doi.org/10.1093/biomet/26.4.404
 [research_conforti_cornuejols_1984]: https://doi.org/10.1016/0166-218X(84)90003-9
 [research_conway_1963]: https://doi.org/10.1145/366663.366704
 [research_cousot_1977]: https://doi.org/10.1145/512950.512973
 [research_cytron_1991]: https://doi.org/10.1145/115372.115320
+[research_davidson_fraser_1984]: https://doi.org/10.1145/502874.502885
+[research_dean_1992]: https://doi.org/10.1080/01621459.1992.10475225
 [research_demillo_1978]: https://doi.org/10.1109/C-M.1978.218136
 [research_dyer_2013]: https://doi.org/10.1109/ICSE.2013.6606588
 [research_elbaum_2002]: https://doi.org/10.1109/32.988497
 [research_ertl_1999]: https://doi.org/10.1145/292540.292562
+[research_esary_proschan_1963]: https://doi.org/10.1080/00401706.1963.10490075
 [research_feige_1998]: https://doi.org/10.1145/285055.285059
+[research_fenton_ohlsson_2000]: https://doi.org/10.1109/32.879815
 [research_ferdinand_wilhelm_1999]: https://doi.org/10.1023/A:1008186323068
 [research_ferrante_1987]: https://doi.org/10.1145/24039.24041
 [research_fraser_1992]: https://doi.org/10.1145/151640.151642
@@ -1125,10 +1202,12 @@ clearest evidence available that knowing about a bias does not protect anyone fr
 [research_gustafson_1988]: https://doi.org/10.1145/42411.42415
 [research_hanley_1983]: https://doi.org/10.1001/jama.1983.03330370053031
 [research_hanson_1990]: https://doi.org/10.1002/spe.4380200104
+[research_harrold_1993]: https://doi.org/10.1145/152388.152391
 [research_inozemtseva_holmes_2014]: https://doi.org/10.1145/2568225.2568271
 [research_ioannidis_2005]: https://doi.org/10.1371/journal.pmed.0020124
 [research_jensen_1906]: https://doi.org/10.1007/BF02418571
 [research_jia_harman_2011]: https://doi.org/10.1109/TSE.2010.62
+[research_johnson_1974]: https://doi.org/10.1016/s0022-0000(74)80044-9
 [research_jovanovic_levy_1997]: https://doi.org/10.1080/00031305.1997.10473947
 [research_just_2014]: https://doi.org/10.1145/2635868.2635929
 [research_kang_2018]: https://doi.org/10.1145/3192366.3192377
@@ -1147,6 +1226,7 @@ clearest evidence available that knowing about a bias does not protect anyone fr
 [research_liu_layland_1973]: https://doi.org/10.1145/321738.321743
 [research_lopes_2021]: https://doi.org/10.1145/3453483.3454030
 [research_lovasz_1983]: https://doi.org/10.1007/978-3-642-68874-4_10
+[research_lund_yannakakis_1994]: https://doi.org/10.1145/185675.306789
 [research_massalin_1987]: https://doi.org/10.1145/36206.36194
 [research_meehl_1967]: https://doi.org/10.1086/288135
 [research_moura_ierusalimschy_2009]: https://doi.org/10.1145/1462166.1462167
@@ -1156,6 +1236,9 @@ clearest evidence available that knowing about a bias does not protect anyone fr
 [research_necula_lee_1998]: https://doi.org/10.1145/277650.277752
 [research_nemhauser_1978]: https://doi.org/10.1007/BF01588971
 [research_nemhauser_wolsey_1978b]: https://doi.org/10.1287/moor.3.3.177
+[research_ostrand_weyuker_2002]: https://doi.org/10.1145/566172.566181
+[research_ostrand_weyuker_2005]: https://doi.org/10.1109/tse.2005.49
+[research_owen_1972]: https://doi.org/10.1287/mnsc.18.5.64
 [research_pnueli_1998]: https://doi.org/10.1007/BFb0054170
 [research_puschner_burns_2000]: https://doi.org/10.1023/A:1008119029962
 [research_ray_2014]: https://doi.org/10.1145/2635868.2635922
@@ -1164,14 +1247,22 @@ clearest evidence available that knowing about a bias does not protect anyone fr
 [research_rice_1953]: https://doi.org/10.1090/S0002-9947-1953-0053041-6
 [research_richards_2010]: https://doi.org/10.1145/1806596.1806598
 [research_rosenthal_1979]: https://doi.org/10.1037/0033-2909.86.3.638
+[research_rothermel_2001]: https://doi.org/10.1109/32.962562
+[research_rothermel_harrold_1997]: https://doi.org/10.1145/248233.248262
+[research_schkufza_2013]: https://doi.org/10.1145/2451116.2451150
 [research_sethi_ullman_1970]: https://doi.org/10.1145/321607.321620
 [research_sewell_2013]: https://doi.org/10.1145/2491956.2462183
 [research_shapley_1953]: https://doi.org/10.1515/9781400881970-018
 [research_simmons_2011]: https://doi.org/10.1177/0956797611417632
+[research_slavik_1997]: https://doi.org/10.1006/jagm.1997.0887
+[research_strumbelj_kononenko_2013]: https://doi.org/10.1007/s10115-013-0679-x
 [research_tofte_talpin_1997]: https://doi.org/10.1006/inco.1996.2613
 [research_wegman_zadeck_1991]: https://doi.org/10.1145/103135.103136
 [research_wilhelm_2008]: https://doi.org/10.1145/1347375.1347389
 [research_wilson_1927]: https://doi.org/10.1080/01621459.1927.10502953
+[research_wong_1995]: https://doi.org/10.1145/225014.225018
 [research_yang_2011]: https://doi.org/10.1145/1993498.1993532
+[research_yoo_harman_2012]: https://doi.org/10.1002/stvr.430
+[research_young_1985]: https://doi.org/10.1007/bf01769885
 [research_zhao_2012]: https://doi.org/10.1145/2103656.2103709
 [research_zhu_1997]: https://doi.org/10.1145/267580.267590

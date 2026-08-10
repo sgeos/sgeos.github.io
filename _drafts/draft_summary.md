@@ -23,9 +23,19 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 of an unstated total, titled Compiler Backend Bring-Up: Blocking Frequency as the Ordering Principle
 for Instruction-Set Coverage.
 
-1,178 lines, 54 display equations, 88 references, roughly 10,800 words. **Imported from
+1,268 lines, 54 display equations, 111 references, roughly 11,800 words. **Imported from
 `keleusma-worktrees/llvm-backend-spike/tmp/`, brought to blog standards and retargeted for a general
-audience**, both on human-pilot instruction. Committed, **not pushed**, not published.
+audience**, both on human-pilot instruction. Equation-density and primary-reference reviews complete.
+Committed, **not pushed**, not published.
+
+**The primary-reference pass added twenty-three references and verified every one of the existing
+eighty-eight.** The article documents a 5.5 percent defect rate among digital object identifiers it
+supplied from memory, four of ninety-one having resolved to entirely different works, and observes that
+only comparison of the resolved title against the claimed title detects that failure. **That check was
+run against the whole reference base and found zero defects**, at eighty-six of eighty-six digital
+object identifiers resolving to the claimed author and year. The check matches surname and year, so a
+same-author same-year substitution would pass it undetected, and that limitation is stated rather than
+elided.
 
 **The article argues that the ordering principle in common use for compiler backend bring-up, which
 ranks remaining work by implementation cost and architectural tidiness, is systematically wrong, and
