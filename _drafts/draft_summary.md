@@ -17,6 +17,53 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Schweizer X-26 Frigate A323 2025-11-01
+
+`x_planes_schweizer_x26.markdown`, A323, editorial date 2025-11-01, series `x_planes` index 27 of 72.
+
+**3,613 lines, 17 display equations, 2,016 references, 12,061 words after the draft pass.** One of four
+passes complete. Committed, **not pushed**, not published. Primary 64.7 percent, contemporary 25.2.
+
+**One airframe, two aircraft, and a single number.** The Schweizer SGS 2-32 sailplane was bought twice
+by the American military and given the same X-designation both times, for purposes with nothing in
+common. As the X-26A it was flown unmodified at the Naval Test Pilot School to teach adverse yaw. As
+the X-26B it was the QT-2 Quiet Thruster, flown over the Mekong Delta at night in 1968 to watch the
+ground without being heard. **One programme wanted a fault made as visible as possible and the other
+wanted the aircraft made as absent as possible.**
+
+**Both follow from the lift-to-drag ratio.** Read as a wing requirement it demands a long slender wing,
+and a long slender wing flown slowly produces adverse yaw four and a half times a jet's and seventeen
+times slower, an observability index of seventy-five. Read as a power requirement it demands only
+twenty-four horsepower of the hundred installed, which is the margin that buys deep throttling, oversize
+mufflers and a large slow propeller. **The connection is derived here and is explicitly NOT claimed as
+anyone's stated rationale at the time.**
+
+**The acoustic keystone is exact where it can be and honest where it cannot.** Spherical spreading costs
+6.02 dB per doubling of range, and the QT-2PC missed its 1,500 foot specification by exactly one
+doubling. **The detection-range table is calibrated backwards out of the single reported detection
+distance and therefore reproduces it by construction rather than by prediction**, which the article
+states plainly. What it does yield is the sensitivity, and a five decibel change in night ambient moves
+the detection range by 78 percent.
+
+**A scaling law was wrong and the discrepancy caught it.** The observability index omitted directional
+stiffness and disagreed with the worked cases by exactly two, which is the ratio of the two aircraft's
+assumed values. Corrected, the helix angle cancels out entirely, verified as a property over two
+thousand randomised pairs.
+
+**A quoted figure was reconciled rather than dismissed.** The best-glide speed disagreed with the
+quoted 55.9 mph by 13 percent until the weight was matched, at which point it agreed to two percent.
+The quoted performance is a one-pilot number.
+
+**The keystone was thin for the fifth article running and for the usual reason**, standing at seven
+records until the queries were rewritten in the 1930s vocabulary of aileron yawing moment and lateral
+control research, at which point it reached forty-eight. **Five homonym families were anticipated
+before writing** including the warship in the aircraft's own name, and the cited set came back with a
+single contaminant, which is by far the cleanest first pass the series has had. Reading the URL sweep
+found audiology, where the acoustic reflex is a middle-ear muscle contraction.
+
+**Three of four X-26A airframes were lost and the article says it does not know why**, declining the
+plausible inference.
+
 ## X-Planes Bensen X-25 A322 2025-10-31
 
 `x_planes_bensen_x25.markdown`, A322, editorial date 2025-10-31, series `x_planes` index 26 of 72.

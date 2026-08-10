@@ -9,142 +9,168 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: A322 publication review, the fourth and final pass. Committed and **pushed**. **Not
-published.** All twenty-six articles in the series remain in `_drafts/`.
+**Task**: A323 draft pass, the first of four. Committed. **Not pushed**, per the rhythm. **Not
+published.** All twenty-seven articles in the series remain in `_drafts/`.
 
-**Final state 7,198 lines, 44 display equations, 3,990 references, 25,992 words.**
-
-**Contemporary coverage from 31.3 to 51.2 percent of research citations**, across fourteen survey
-subsections where the draft had eight.
+**Draft state 3,613 lines, 17 display equations, 2,016 references, 12,061 words.** Primary 64.7
+percent, contemporary 25.2.
 
 ---
 
-## Report the Count as Well as the Fraction
+## One Airframe, Two Aircraft, and a Single Number
 
-**The period count is 984 against 988 while the primary fraction falls from 61.8 to 44.1 percent.**
-That is the standing directive working rather than a regression. This pass added roughly 1,150
-contemporary references and removed almost no period ones, so the denominator moved and the numerator
-did not.
+**The Schweizer SGS 2-32 is a 1962 club sailplane. The American military bought it twice, gave it the
+same X-designation both times, and used it for purposes with nothing in common.**
 
----
+As the **X-26A** it was flown unmodified at the Naval Test Pilot School to teach student test pilots
+what adverse yaw feels like. As the **X-26B** it was the QT-2 Quiet Thruster, a silenced engine and a
+slow-turning propeller on the same airframe, flown over the Mekong Delta at night in 1968 to watch the
+ground without being heard.
 
-## The Survey's Organising Claim
+**One programme wanted the aircraft's worst handling trait made as visible as possible. The other
+wanted the aircraft made as close to absent as possible.** Both got what they wanted from the same
+property.
 
-**The Discretionary Descent Vehicle asked a good question and got the wrong answer, and the right
-answer arrived in a different material.** A ram-air canopy reaches the same glide ratio as an
-autorotating rotor using fabric, packs into a bag, needs no spin-up and needs far less training. It
-was then automated, so the descending crewman does not have to fly it either.
+    (L/D)_max = (1/2) sqrt( pi e A / C_D0 )
 
----
+Read as a wing requirement it **demands a long slender wing**, and a long slender wing flown slowly is
+what produces adverse yaw. Read through the power required it **demands very little power**, and an
+engine barely working can be silenced.
 
-## The Sharpest Thing the Survey Found, and It Did Not Exist in 1968
-
-**A multirotor cannot autorotate, and that is a live airworthiness argument sitting exactly on this
-article's keystone.**
-
-Electric vertical takeoff aircraft have brought the small one-person flying machine back as a serious
-industry. Written in the article's own terms the stored energy goes as blade mass times the square of
-tip speed, and a small light blade turning at modest tip speed has very little of it, while the disc
-loading that sets the descent rate is high because the disc is small. **The X-25's rotor was a bad
-parachute and a good glider. A multirotor is neither.**
-
-**The industry's answer is not a better rotor. It is redundancy.** Autorotation says the aircraft can
-always become a glider, and redundancy says it will not fail in the first place. **The capability the
-X-25 was built entirely around is the one the current generation of small rotorcraft has quietly
-given up**, and for a reason the programme would have recognised, which is that the rotor you can
-carry is not the rotor you want.
-
-**This is flagged in the Epistemic State as the article's strongest and least documented claim.** It
-follows from relations the article derives, but no source consulted states it as a finding, and the
-airworthiness literature treats redundancy as a design choice and not as a concession.
+**The article derives this connection and explicitly does not claim it as anyone's stated rationale.**
+Nobody at Patuxent River chose the aircraft because its aspect ratio implied a low power requirement.
+Each programme chose it for its own reason and the common cause is visible only in retrospect.
 
 ---
 
-## The Density Relation Is Being Tested on Another Planet
+## The Teaching Argument, Made Quantitative
 
-The equation pass added that descent rate goes as one over the square root of density. **A rotorcraft
-on Mars flies in roughly one percent of sea-level density**, which is the same relation at an extreme
-no terrestrial machine reaches, and it is why such vehicles carry very large rotors for their mass
-and turn them close to the speed of sound. The article's twenty-thousand-foot case is the same
-calculation stopped early.
+Adverse yaw is proportional to lift coefficient through the classical elliptic result, and a long span
+rolls slowly because roll rate goes as speed over span. Taking the X-26A at 60 miles per hour against a
+generic jet trainer at 300, **with every jet quantity assumed**:
 
-**The planetary filter was relaxed for rotor work specifically**, and Mars entry and landing-site
-selection remain excluded, which is a deliberate boundary rather than an oversight.
+| | X-26A | jet, assumed |
+|---|---|---|
+| Sideslip developed, deg | 6.2 | 1.4 |
+| Time to 45 degrees of bank, s | 4.25 | 0.25 |
 
----
-
-## Three New Homonym Families, and the First Was Not Anticipated
-
-**Descent has a third sense and it is kinship anthropology.** The handoff records the collision with
-gradient descent. It also collides with **descent groups**, meaning lineage and ancestry, and **four
-such papers reached the citation set**, including one titled Ancestor Worship in Anthropology.
-
-**Crossref indexes fellowship advertisements as works**, which is the same defect class as the
-editorial matter already filtered. Two Hypersonic Aerodynamics Fellowships notices were cited.
-
-**Insect-scale flapping-wing micro air vehicles** share wing, flight, hovering and flapping with rotor
-work. **The samara is still deliberately not filtered**, because an autorotating seed is this
-article's own subject while a flapping insect robot is not.
-
-Thirty-one records read and dropped, rejection list 543 to 605, keyed by URL as well as by anchor.
+**Four and a half times as much sideslip, developing seventeen times slower**, for an observability
+index of seventy-five. **Neither aircraft is worse behaved in any dimensionless sense.** The sailplane
+runs the same physics slowly and at large amplitude, which is the whole pedagogical case as arithmetic.
 
 ---
 
-## Two of My Own Regex Bugs, Both Caught Before They Did Damage
+## A Scaling Law That Was Wrong, and the Discrepancy That Caught It
 
-`IoT` without a word boundary matched inside **Elliott** and **radiotechnical**, which would have
-dropped two legitimate aviation records. Corrected before the drop was applied.
+The index written as a scaling disagreed with the worked cases by **exactly a factor of two**, which is
+the standing hint that the checker is at fault. It was: the scaling omitted directional stiffness, and
+two is the ratio of the two aircraft's assumed values.
 
-Earlier in the article the same class of bug produced a false report of 184 contaminated records
-matching `EVA` inside `EVALUATION`, and 96 matching `train` inside `training`. **The scanner has now
-been wrong three times and the pool has been right each time**, which is worth remembering next
-article.
+**Corrected, the helix angle cancels out of the expression entirely**, so the comparison does not
+depend on how powerful the ailerons are. That is not obvious and the verifier tests it as a property
+over two thousand randomised helix-angle pairs.
 
 ---
 
-## Publication Checks
+## Where the Acoustics Is Exact and Where It Is Not
 
-**Prose style.** Clean across all twenty-six articles, zero failures and zero warnings.
+**Spherical spreading costs 6.02 decibels per doubling of slant range, exactly.** The Army asked for
+inaudibility at 1,500 feet and the QT-2PC betrayed itself at 750, so **it missed its specification by
+exactly one doubling**. That is a small miss for a first article and is why the line continued to the
+Q-Star and the YO-3A.
 
-**Diction.** `research` measures 103 per thousand in raw text and **1.03 per thousand in true prose**,
-confirming it as the citation-anchor artifact documented since A298. `rotor` at 7.9 per thousand is
-the article's own subject. **`rather than` was genuinely formulaic at 3.37 per thousand across 42
-uses** and was rotated down to 28 through instead of, and not, openly, and no longer.
+**The detection-range table cannot be checked and the article says so.** The source level was
+calibrated backwards out of the single reported detection distance, so the table reproduces that
+distance **by construction rather than by prediction**. What it does yield is the sensitivity, and
+that is the finding: **a five decibel change in night ambient moves the detection range by 78
+percent**, so the aircraft's usable altitude was never a property of the aircraft alone.
 
-**Acronyms.** Two real defects fixed. **NASA was never spelled out**, and the spell-out now precedes
-both abbreviated uses. **`COUNT` appeared in shouting capitals in prose** where the house style uses
-bold. `KSA` and `WRC` are parts of the KSA-100 and WRC-19 model designations and are exempt. `SAVER`
-is spelled out at first use.
+**The tip-speed lever is far stronger than the shortfall needed**, at tens of decibels against six,
+**which is why the interesting question is not how they made it quiet but what was still audible once
+they had.**
 
-**Reference integrity.** 3,990 references, zero undefined, zero orphaned, zero duplicate URLs.
+---
 
-**URL response.** 4,031 external links swept against a superset of the final set. **3,526 of 3,526
-DOIs confirmed registered in the Crossref registry, zero unregistered.** 504 of 505 non-DOI links at
-200, the single exception being the National Museum of the United States Air Force fact sheet, a
-`.mil` address that refuses automated connections and was verified independently by search.
+## A Quoted Figure Reconciled Rather Than Dismissed
 
-**Numerical sanity.** 71 checks passing unchanged.
+The best-glide relation disagreed with the quoted 55.9 miles per hour by 13 percent. The same sources
+quote a wing loading of 6.0 pounds per square foot, which is about 1,080 pounds and not the 1,430 pound
+gross. **At the matched weight the relation gives 54.7 against 55.9, agreement to two percent.** The
+quoted performance is a one-pilot number and the discrepancy was in the reading.
 
-**Structural conformance.** Genre order intact, the three series sections present, The Source Base
-immediately before Epistemic State.
+**That is worth more than the glide-ratio check**, which lands within seven percent using two assumed
+parameters and therefore demonstrates very little. The article says so.
 
-**Build.** Twenty-six article isolated build with all 44 equations rendering as display math across 16
-sections and 34 subsections, zero unbalanced braces, zero mangled escapes, zero duplicated equations.
+---
+
+## Method
+
+**The keystone was thin for the fifth article running and for the usual reason.** Adverse yaw stood at
+**seven** records until the queries were rewritten in the period's own vocabulary of aileron yawing
+moment, lateral control research and rolling and yawing moments, at which point it reached **48**.
+
+**Five homonym families were anticipated before writing rather than discovered afterwards**, including
+**the warship in the aircraft's own name**, which is the first time the series has had a homonym inside
+a designation. Also astronomical and Earth observation, epidemiological surveillance, electronic noise
+which had to be filtered without taking the acoustic sense with it, and mechanical coupling.
+
+**The cited set came back with a single contaminant**, which is by far the cleanest first pass this
+series has had, and it is the direct payoff of anticipating rather than repairing.
+
+**Reading the URL sweep still found one new family.** **Audiology**, where the acoustic reflex is a
+contraction of the middle-ear muscles and acoustic impedance is a clinical measurement. Also the marine
+propeller, which shares nearly every word with the aeronautical one. Thirty records dropped, rejection
+list 605 to 637.
+
+**Two inherited exemptions were withdrawn.** A322 admitted wind turbines and samaras because
+autorotation is the windmill brake state. Neither is relevant to a fixed-wing acoustics article and
+both are excluded again, which is the rule that a filter earned in one article is not automatically
+valid in the next, applied in the other direction.
+
+**My own scanner produced two more false-positive bugs**, matching `crop` inside **microphone** and
+`tire` inside **entire**. That is four such bugs across two articles, all the same mistake, and the
+lesson is now explicit: **word boundaries by default in every scanning pattern.**
+
+---
+
+## Verification
+
+**Numerical.** 40 independent checks, none importing the calculation. The maximum lift-to-drag ratio is
+found by **scanning the polar** rather than quoting the closed form, the decibel-per-doubling by
+**bisection** rather than by evaluating a logarithm, the helix-angle cancellation as a **randomised
+property**, and the acoustic calibration by inverting the round trip. **All pass, and every value was
+required to appear in the draft text.**
+
+**Build.** Twenty-seven article isolated build, all 17 equations rendering as display math, zero
+mangled escapes, zero duplicates, Part 27 of 72.
+
+**URLs.** 2,006 external links swept. **1,597 of 1,597 DOIs confirmed registered, zero unregistered,
+and 409 of 409 non-DOI links at 200 with no exceptions**, which is the first sweep in the series with
+nothing at all to report.
+
+**Corpus.** `_verify.py` at 0 errors and 21 warnings. Style and integrity clean across all
+twenty-seven articles.
+
+---
+
+## Open Questions the Article Declines to Answer
+
+**Three of the four X-26A airframes were lost and replaced.** A docile sailplane operated by
+professional test pilots should not have that record. **The article states this as an open question
+rather than reaching for the plausible inference** that an aircraft used to demonstrate departures will
+occasionally depart.
 
 ---
 
 ## State
 
-**A322 is complete. All four passes done, committed and pushed, not published.**
+**A323 has one of four passes complete. Committed, not pushed, not published.**
 
-Twenty-six of seventy-two. The publication-order dependency is twenty-six deep.
+Twenty-seven of seventy-two. The publication-order dependency is twenty-seven deep.
 
-**The next article is A323, the Schweizer X-26 Frigate**, editorial date 2025-11-01, Part 27 of 72.
-**It is a second consecutive glider and a second consecutive off-the-shelf procurement**, being the
-Schweizer SGS 2-32 sailplane taken into naval service, and the X-26B variant was the quiet
-observation aircraft that fed the YO-3A. **Do not import the A322 pool**, though the glide-performance
-and handling-qualities clusters are the closest overlap the series has yet offered between
-consecutive articles, and that is worth checking rather than assuming.
+**Expected next is the equation-density review.** At 17 equations this is the lowest count of any
+full-aircraft article in the series so far, and the acoustics side in particular names several
+relations it does not display.
 
-**Still open and unchanged.** The fourth genre class, now **fourteen** consecutive articles outside
-all named classes. The A305 length offer.
+**Still open and unchanged.** The fourth genre class, now **fifteen** consecutive articles. The A305
+length offer.
