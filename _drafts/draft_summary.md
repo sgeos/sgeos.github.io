@@ -17,6 +17,45 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Rockwell-MBB X-31 A328 2025-11-06
+
+`x_planes_rockwell_mbb_x31.markdown`, A328, editorial date 2025-11-06, series `x_planes` index 32
+of 72.
+
+**4,825 lines, 35 display equations, 1,054 reference definitions, 24,316 words after the draft
+pass.** Committed, **not pushed**, **not published**.
+
+**THE KEYSTONE IS AN EXPERIMENTAL DESIGN RATHER THAN A MEASUREMENT, WHICH IS NEW IN THIS SERIES.**
+Every previous article asked what a number was. This one asks whether an advantage exists, and the
+answer is a count of outcomes over a designed set of trials.
+
+**The central result is arithmetic on published figures.** A pooled exchange ratio is the mean of
+the per-condition ratios weighted by the losses of the denominator side, so the published overall
+of 1.83 sits 3.514 times below the 6.43 average of the four conditions it summarises. Inverting
+that identity brackets the share of losses that must have fallen in the two conditions the
+aircraft lost at **81.9 to 93.6 percent**, and the bracket assumes nothing about counts.
+
+**Two of the four starting conditions could not have settled anything.** At twelve scored outcomes
+the defensive result does not separate from parity, and the high-speed line-abreast ratio of 0.86
+would need **691** scored outcomes against a few dozen flown.
+
+**The departure boundary is recovered from two reports that were never compared.** Inverting the
+vectoring authority against the measured forebody asymmetry of 0.080 returns a moment arm of 16.22
+feet, placing the centre of gravity at 60.1 percent of fuselage length, which is where a canard
+delta's belongs.
+
+**The accident is quantified.** The loop gain stood between 2.890 and 12.543 times design against
+a gain-margin factor of 1.995, and the displayed airspeed and vane angle disagreed by 11.2 degrees
+at the moment the pilot remarked on it, a dynamic-pressure error of 2.266 that had already
+exceeded the margin.
+
+**Verification.** 67 of 67 numerical checks passing with every article-facing value confirmed
+present in the draft, `_verify.py` at the 21-warning baseline with zero errors, check_any clean,
+`_lib/test_lib.py` at 46 of 46, and a 32-article isolated build rendering 16 sections, 87
+subsections, 19 tables and all 35 equations. The reference sweep returned **zero hard failures**
+across all 50 NTRS identifiers, 240 of 811 sampled journal DOIs, 80 of 121 sampled DTIC DOIs, all
+15 books and all 25 curated URLs.
+
 ## X-Planes Rockwell X-30 and the National Aero-Space Plane A327 2025-11-05
 
 `x_planes_rockwell_x30.markdown`, A327, editorial date 2025-11-05, series `x_planes` index 31 of 72.
@@ -6078,8 +6117,8 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Thirty-four files exist in `_drafts/`. One is a template.
-Twenty-five are the in-progress X-Planes series, A297 through A321, none of them published.
+Forty-two files exist in `_drafts/`. One is a template. One is this summary.
+Thirty-two are the in-progress X-Planes series, A297 through A328, none of them published.
 Eight are the pre-release candidates listed below.
 No stubs remain.
 A79 through A144 have been published.
