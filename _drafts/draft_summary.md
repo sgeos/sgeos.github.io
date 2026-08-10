@@ -88,6 +88,37 @@ undefined, zero orphaned and zero duplicate URLs, **zero search-endpoint citatio
 references swept by source: 29 of 29 NTRS resolving, 60 of 60 sampled Crossref and 40 of 40 sampled DTIC
 registered.**
 
+**PUBLICATION REVIEW, the fourth and final pass. Committed and PUSHED. NOT published.** Final state
+**7,136 lines, 42 display equations, 2,089 references, 24,766 words**. All twenty-nine articles in the
+series remain in `_drafts/`.
+
+**Contemporary coverage 511 to 1,366 references, or 43.4 to 67.2 percent**, per the standing directive,
+from a harvest of 42 Crossref and 6 NTRS queries that took the modern pool from 876 to 1,545 and the
+master from 1,734 to 2,407. All seven survey subsections were extended, by 855 references in total.
+
+**THE COUNT-VERSUS-FRACTION TRAP CAUGHT THIS ARTICLE FROM BOTH ENDS, AND THE SOURCE BASE NOW RECORDS
+BOTH.** At the reference pass the contemporary count sat unchanged at 511 while its fraction fell eleven
+points, because three hundred period sources arrived underneath it. **At this pass the period count sits
+unchanged at 573 while its fraction falls twenty points**, because eight hundred contemporary sources
+arrived underneath that. **Nothing was removed at any point.**
+
+**Publication checks.** Prose style clean, zero em dashes and zero en dashes. **TWO CONSTRUCTIONS WERE
+ABOVE THE CORPUS MAXIMUM**, `and it is` at 2.34 per thousand against a peer maximum of 2.11 and `which
+is why` at 0.67 against 0.58. **Both were ROTATED across six different phrasings rather than substituted
+with a single replacement**, which is the A369 lesson applied, and the article now shows zero
+constructions above the maximum. `aircraft` at 11.39 per thousand is the subject noun.
+
+**THE ACRONYM DEFECT WAS NACA THIS TIME RATHER THAN NASA.** It appeared in author prose without ever
+being spelled out. **Both prose occurrences now read National Advisory Committee for Aeronautics**, and
+because a parenthetical is not permitted here the abbreviation is not introduced at all. Osprey II
+remains flagged and is exempt as a model designation.
+
+**Final verification.** 62 numerical checks passing unchanged, reference integrity at 2,089 with zero
+undefined, zero orphaned and zero duplicate URLs, **zero search-endpoint citations**, `_verify.py` at the
+21-warning baseline, and a 29-article isolated build with all 42 equations rendering across 18 sections.
+**The 1,099 references added since the reference pass swept by source: 33 of 33 NTRS resolving, 120 of
+120 sampled Crossref and 40 of 40 sampled DTIC registered, and all 29 hand-curated URLs resolving.**
+
 **THE CHEAPEST X-PLANE, AND THE PRICE WAS THE REQUIREMENT RATHER THAN THE RESULT.** The Naval Air
 Development Center study asked for an aircraft that could patrol under visual flight rules, be built in
 Southeast Asia, be trailered under a thousand pounds, work from canals as little as twenty-five feet
