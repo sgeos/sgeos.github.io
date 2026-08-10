@@ -159,6 +159,48 @@ back catalogue and from its competitors, which is why two research aeroplanes we
 | Design load factor | 8 g subsonic, 6.5 g supersonic |
 | Design dynamic pressure | 1,700 lb/ft² at Mach 1.07, sea level |
 
+### What the Table Implies
+
+Before either of those, the table supports a handful of ratios that it does not state, and they place the
+aircraft among its contemporaries.
+
+The wing loading is the gross weight carried per unit of reference area.
+
+$$ \frac{W}{S} = \frac{17{,}800\ \mathrm{lb}}{188.84\ \mathrm{ft}^2} = 94.26\ \mathrm{lb/ft^2} $$
+
+At the manoeuvre design gross weight the same relation gives 79.43 pounds per square foot, and both figures
+are ordinary for a fighter-sized aircraft of the period.
+
+The thrust-to-weight ratio uses the engine's class rating rather than an installed figure, which is the only
+thrust the record gives.
+
+$$ \frac{T}{W} = \frac{16{,}000\ \mathrm{lb}}{17{,}800\ \mathrm{lb}} = 0.899 $$
+
+$$ \left.\frac{T}{W}\right|_{\mathrm{manoeuvre}} = \frac{16{,}000\ \mathrm{lb}}{15{,}000\ \mathrm{lb}} = 1.067 $$
+
+**At the manoeuvre design weight the aircraft has more thrust than weight**, which matters below because it
+makes the airframe rather than the engine the binding limit in a sustained turn.
+
+The canard is quoted only as a percentage, so its area and chord follow.
+
+$$ S_c = 0.20\,S = 0.20 \times 188.84\ \mathrm{ft}^2 = 37.77\ \mathrm{ft}^2 $$
+
+$$ \bar{c}_c = 0.76\,\bar{c} = 0.76 \times 7.217\ \mathrm{ft} = 5.485\ \mathrm{ft} $$
+
+The design load and the fuel fraction complete the picture.
+
+$$ n W = 8.0 \times 15{,}000\ \mathrm{lb} = 120{,}000\ \mathrm{lb} $$
+
+**The wing carries 120,000 pounds at the subsonic design limit**, which is the load the structural box and
+its tailored skins had to survive while also satisfying the divergence requirement.
+
+$$ \frac{W_{\mathrm{fuel}}}{W_{\max}} = \frac{4{,}000\ \mathrm{lb}}{17{,}800\ \mathrm{lb}} = 0.225 $$
+
+**The heaviest weight actually flown exceeded the manoeuvre design weight by eighteen percent**, which the
+record states and which the ratio confirms.
+
+$$ \frac{17{,}700}{15{,}000} - 1 = 0.180 $$
+
 **Two entries in that table are the aeroplane and everything else follows from them.**
 
 The first is the **structural axis sweep of 36.2 degrees forward**, which is seven degrees more forward than
@@ -166,7 +208,7 @@ the leading edge. That difference is not incidental. It means the structure is s
 the planform suggests, and since divergence is governed by the elastic axis rather than by the leading edge,
 **the wing is aeroelastically more forward-swept than it looks.**
 
-The second is the **static margin of minus thirty-five percent**, which is not a small number. A
+Beside it stands the **static margin of minus thirty-five percent**, which is not a small number. A
 conventional fighter of the period sat within a few percent of neutral.
 **This aircraft was built an order of magnitude further into instability than the aircraft it was meant to inform.**
 
@@ -213,6 +255,32 @@ $$ \frac{C_{L_\alpha}^{\mathrm{elastic}}}{C_{L_\alpha}^{\mathrm{rigid}}} = \frac
 Here $q$ is the free-stream dynamic pressure and $q_D$ is the divergence dynamic pressure, the value at
 which the amplification becomes unbounded.
 
+### Where the Amplification Comes From
+
+The relation is not asserted. It follows from the feedback the wing closes on itself.
+
+An unswept wing with its aerodynamic centre a distance $e$ ahead of the elastic axis, restrained by a
+torsional stiffness $K_\theta$, twists under its own lift until the elastic moment balances the aerodynamic
+one.
+
+$$ K_\theta\,\theta = q\,S\,e\,a\left(\alpha_0 + \theta\right) $$
+
+Solving for the elastic twist shows the denominator that governs everything.
+
+$$ \theta = \frac{q\,S\,e\,a\,\alpha_0}{K_\theta - q\,S\,e\,a} $$
+
+The twist becomes unbounded when the denominator vanishes, which defines the divergence dynamic pressure.
+
+$$ q_D = \frac{K_\theta}{S\,e\,a} $$
+
+Substituting that back gives the total angle of attack, and therefore the lift, as the rigid value
+multiplied by a single factor.
+
+$$ \alpha_0 + \theta = \frac{\alpha_0}{1 - q/q_D} $$
+
+**The amplification is the same factor for lift, for twist and for the loads**, which is why a prediction of
+it is worth publishing and why an error in it moves everything at once.
+
 **The primary record states both of the quantities needed to invert this.** That same memorandum gives the
 wing's **predicted elastic-to-rigid lift-curve-slope ratio as about 1.6**, and gives the
 **design dynamic pressure as 1,700 pounds per square foot at Mach 1.07 at sea level**. Those two figures
@@ -251,7 +319,12 @@ The margin is best stated twice, because dynamic pressure and speed are not the 
 
 $$ \frac{q_D}{q_{\mathrm{design}}} = 2.667, \qquad \frac{V_D}{V_{\mathrm{design}}} = \sqrt{2.667} = 1.633 $$
 
-Expressed as equivalent airspeeds, using $V_e = \sqrt{2q/\rho_0}$,
+Dynamic pressure and equivalent airspeed are related through sea-level density alone, which is what makes
+equivalent airspeed the natural currency for a structural limit.
+
+$$ q = \tfrac{1}{2}\rho V^2 = \tfrac{1}{2}\rho_0 V_e^2, \qquad V_e = \sqrt{\frac{2q}{\rho_0}} $$
+
+Expressed as equivalent airspeeds,
 
 $$ V_{e,\mathrm{design}} = 709\ \mathrm{kt}, \qquad V_{e,D} = 1157\ \mathrm{kt} $$
 
@@ -273,6 +346,19 @@ boundary is the reason the whole problem is difficult.
 | 3,000 | 0.662 | 2.957 |
 | 4,000 | 0.882 | 8.500 |
 | 4,400 | 0.971 | 34.000 |
+
+### How Hard the Answer Leans on a Rounded Figure
+
+The boundary was inverted from a ratio quoted to two significant figures, so it is worth asking how much
+that rounding costs. Writing the inversion as a product makes the sensitivity immediate.
+
+$$ q_D = \frac{q\,r}{r - 1} \quad \Longrightarrow \quad \frac{d \ln q_D}{d \ln r} = -\frac{1}{r - 1} $$
+
+$$ \left.\frac{d \ln q_D}{d \ln r}\right|_{r = 1.6} = -\frac{1}{0.6} = -1.667 $$
+
+**A one percent error in the published ratio is a 1.67 percent error in the boundary derived from it**, and
+the sign is negative, so a ratio that was optimistically low produces a boundary that is optimistically
+high. That elasticity is used again in the section on where the framing breaks down.
 
 **The last two rows are the reason the margin had to be as large as it was.** Between 3,000 and 4,000 pounds
 per square foot the wing's lift amplification triples, and a design error of ten percent in the predicted
@@ -357,6 +443,12 @@ with the structural and aerodynamic matrices following from the assumed modes,
 
 $$ \mathbf{S} = \begin{bmatrix} 4EI/L^3 & 2K/L^2 \\ 2K/L^2 & GJ/L \end{bmatrix}, \qquad \mathbf{A} = c\,a\begin{bmatrix} -\tfrac{1}{2}\sin\Lambda & \tfrac{L}{4}\cos\Lambda \\ -\tfrac{2e}{3}\sin\Lambda & \tfrac{eL}{3}\cos\Lambda \end{bmatrix} $$
 
+The structural matrix follows from the strain energy of the coupled beam evaluated on those shapes.
+
+$$ U = \tfrac{1}{2}\int_0^L \left[ EI\,(w'')^2 + GJ\,(\theta')^2 + 2K\,w''\theta' \right] dy $$
+
+$$ \int_0^L (\phi'')^2 dy = \frac{4}{L^3}, \qquad \int_0^L (\psi')^2 dy = \frac{1}{L}, \qquad \int_0^L \phi''\psi'\,dy = \frac{2}{L^2} $$
+
 **The characteristic equation is linear rather than quadratic, and that is a property of the model rather than an approximation.**
 The quadratic coefficient is
 
@@ -367,6 +459,28 @@ floating-point precision, take the quadratic branch, and return values with no p
 **The first version of this calculation did exactly that and reported a divergence dynamic pressure of 5.7 × 10²¹ pounds per square foot at twenty degrees of forward sweep.**
 A residue sixteen orders of magnitude below the terms that produced it is enormous in absolute terms, so an
 absolute tolerance cannot catch it and the test has to be made relative to the magnitude of what cancelled.
+
+### The Root in Closed Form, Which Is Where the Argument Actually Lives
+
+Because the characteristic equation is linear, the untailored root can be written out, and it is far more
+informative than the eigenvalue it came from.
+
+$$ \frac{1}{q_D} = \underbrace{\frac{c\,a\,e\,L^2\cos\Lambda}{3\,GJ}}_{\text{torsion}} \;-\; \underbrace{\frac{c\,a\,L^3\sin\Lambda}{8\,EI}}_{\text{bending}} $$
+
+**The first term is ordinary torsional divergence and is always positive.** What follows it is the bending
+contribution, and **its sign is the sign of the sweep**. Aft sweep subtracts from the reciprocal and raises
+the boundary. Forward sweep adds to it and lowers the boundary. The forward-sweep problem is one minus sign
+in one term.
+
+**And the relation says something the eigenvalue does not.** If aft sweep is carried far enough the two
+terms cancel, the reciprocal vanishes, and the boundary goes to infinity. Setting them equal and dividing
+through by the cosine gives the critical angle in closed form.
+
+$$ \tan\Lambda_{\mathrm{crit}} = \frac{8\,e\,EI}{3\,GJ\,L} = 48.013^\circ $$
+
+**This is a check on the numerical solver as much as a result.** The closed form and the eigenvalue scan
+agree to every digit printed at every sweep angle tested, from forty degrees forward to forty-eight aft,
+which is what makes the sweep table below trustworthy despite resting on stiffnesses nobody published.
 
 ### The Sweep Trend
 
@@ -389,7 +503,7 @@ carry meaning and the table is normalised on the unswept case.
 **Sweeping aft raises the boundary steeply and sweeping forward lowers it**, which is the expected
 direction. Pushed further, the model does something better than agreeing in direction.
 
-$$ \Lambda \geq 47^\circ \implies \text{no positive root, and therefore no divergence boundary at all} $$
+$$ \Lambda \geq \Lambda_{\mathrm{crit}} = 48.0^\circ \implies \text{no positive root, and therefore no divergence boundary at all} $$
 
 **Sufficient sweepback removes divergence entirely**, which is the classical textbook result and is not
 something the model was fitted to reproduce. Recovering it from an independent scan of the determinant is
@@ -402,6 +516,10 @@ Bend-twist coupling is reported here as a non-dimensional ratio, because the raw
 without the others.
 
 $$ \psi = \frac{K}{\sqrt{EI \cdot GJ}} $$
+
+The bound on it is the determinant of the stiffness matrix staying positive.
+
+$$ EI \cdot GJ - K^2 > 0 \quad \Longleftrightarrow \quad \lvert \psi \rvert < 1 $$
 
 **The bound $\lvert \psi \rvert < 1$ is not a modelling convenience. It is positive definiteness of the stiffness matrix**,
 which is to say it is a statement about energy, and no laminate at any ply angle can exceed it. That bound
@@ -464,6 +582,10 @@ $$ \theta(q) = \theta_0 \frac{q/q_D}{1 - q/q_D} $$
 which rearranges into a straight line.
 
 $$ \frac{\theta}{q} = \frac{1}{q_D}\theta + \frac{\theta_0}{q_D} $$
+
+The slope is recovered by least squares over the measured points, and the boundary is its reciprocal.
+
+$$ \hat{m} = \frac{\sum_i (\theta_i - \bar{\theta})(y_i - \bar{y})}{\sum_i (\theta_i - \bar{\theta})^2}, \qquad y_i = \frac{\theta_i}{q_i}, \qquad \hat{q}_D = \frac{1}{\hat{m}} $$
 
 **Plotting $\theta/q$ against $\theta$ gives a line whose slope is the reciprocal of the divergence dynamic pressure.**
 The X-29A generated the data from constant-altitude windup turns and pushover-pullup manoeuvres, using both
@@ -603,6 +725,23 @@ they exist to **aeroelastically tailor the wing deflection and inhibit wing stru
 mechanism is stated as **proper ply orientation** producing
 **bend-twist coupling combined with high material stiffness properties** to minimise
 **the natural washin tendencies under load**.
+
+The structural axis is swept further forward than the planform, and the difference is not small.
+
+$$ \Lambda_{\mathrm{struct}} - \Lambda_{LE} = 36.2^\circ - 29.3^\circ = 6.9^\circ $$
+
+**Divergence is governed by the elastic axis rather than by the leading edge**, so the wing is
+aeroelastically almost seven degrees more forward-swept than it appears, and the closed-form root above
+depends on the sine of that larger angle rather than the smaller one.
+
+The amplification applies to the loads as well as to the lift, which is what makes it a structural
+requirement rather than an aerodynamic curiosity.
+
+$$ \frac{M_{\mathrm{root}}^{\mathrm{elastic}}}{M_{\mathrm{root}}^{\mathrm{rigid}}} \;\geq\; \frac{1}{1 - q/q_D} = 1.6 \quad \text{at the design point} $$
+
+**The inequality runs that way because washin loads the tip preferentially**, moving the centre of pressure
+outboard and lengthening the lever arm, so the bending moment grows by at least the lift amplification and
+in general by more.
 
 **The record is equally explicit that the cure was partial.** It states that even so, the aeroelastic
 properties **remain significantly adverse**, and it is that sentence which the elastic-to-rigid ratio of 1.6
@@ -854,6 +993,19 @@ less available time rather than more,
 
 $$ M_\alpha = \frac{q\,S\,\bar{c}\,C_{m_\alpha}}{I_{yy}}, \qquad t_2 = \frac{\ln 2}{\sqrt{M_\alpha}} $$
 
+The lift-curve slope in the table below is not quoted anywhere in the record and is estimated from the
+planform by the standard low-aspect-ratio relation.
+
+$$ C_{L_\alpha} = \frac{2\pi A}{2 + \sqrt{\dfrac{A^2\beta^2}{\eta^2}\left(1 + \dfrac{\tan^2\Lambda_{c/2}}{\beta^2}\right) + 4}}, \qquad \beta^2 = 1 - M^2 $$
+
+At Mach 0.9 that returns 5.037 per radian, and the pitching moment derivative follows from the static
+margin.
+
+$$ C_{m_\alpha} = -C_{L_\alpha}\,\mathrm{SM} = -5.037 \times (-0.35) = 1.763 $$
+
+**A positive pitching moment derivative is the whole of the aircraft's difficulty**, because it means a
+disturbance in angle of attack produces a moment that increases it.
+
 with $C_{m_\alpha} = -C_{L_\alpha} \cdot \mathrm{SM}$, so that a negative static margin makes the pitching
 moment derivative positive and the root real.
 
@@ -876,10 +1028,40 @@ feet, which spans the range for aircraft of this size and mass. Every figure bel
 the low inertia bracket in 76 milliseconds. **The controller gets four frames in which to notice and act**,
 and at the low bracket rather closer to three.
 
+### Two Doubling Times, and Confusing Them Looks Like a Finding
+
+The figure above is the doubling time of an established exponential. A disturbance released from rest with
+zero pitch rate does not follow an exponential, because both roots are excited, and the response is a
+hyperbolic cosine.
+
+$$ \alpha(t) = \alpha_0 \cosh\left(\lambda t\right), \qquad \lambda = \sqrt{M_\alpha} = 6.931\ \mathrm{s^{-1}} $$
+
+The two doubling times therefore differ by a fixed factor.
+
+$$ t_2^{\exp} = \frac{\ln 2}{\lambda} = 0.100\ \mathrm{s}, \qquad t_2^{\cosh} = \frac{\operatorname{arcosh} 2}{\lambda} = 0.190\ \mathrm{s} $$
+
+$$ \frac{t_2^{\cosh}}{t_2^{\exp}} = \frac{\operatorname{arcosh} 2}{\ln 2} = 1.900 $$
+
+**A factor of 1.900 is large enough to read as a real discrepancy if the two are mixed up**, and this
+article uses the exponential figure throughout, which is the conservative one.
+
 That number should be set against the delay the controller itself introduces. A zero-order hold contributes
 half a sample on average and the computation contributes whole frames, so
 
 $$ \tau_{\mathrm{eff}} = \frac{0.5 + n_{\mathrm{compute}}}{f_s} = \frac{1.5}{40\ \mathrm{Hz}} = 37.5\ \mathrm{ms} $$
+
+The same rate sets a ceiling on what the loop can see at all, and a lag that grows with frequency.
+
+$$ f_{\mathrm{Nyquist}} = \frac{f_s}{2} = 20\ \mathrm{Hz} $$
+
+$$ \varphi = 360^\circ f \tau_{\mathrm{eff}} $$
+
+| Frequency | Phase lag from 37.5 ms |
+|---|---|
+| 0.5 Hz | 6.75° |
+| 1.0 Hz | 13.50° |
+| 2.0 Hz | 27.00° |
+| 5.0 Hz | 67.50° |
 
 **Thirty-seven and a half milliseconds of the aircraft's hundred-millisecond doubling time is consumed by the act of sampling.**
 That is the argument for forty hertz stated as a ratio rather than as a specification, and it explains why
@@ -901,6 +1083,8 @@ $$ P_{\mathrm{loss}} = \sum_{k=0}^{1} \binom{3}{k}(1-p)^k p^{3-k} $$
 
 **That is the easy half of the redundancy argument and it is not the binding one.** Voting requires
 detecting and isolating a failed channel, and that takes frames, which the airframe does not have many of.
+
+$$ \frac{\Delta t_{\mathrm{isolate}}}{t_2} = \frac{n_{\mathrm{frames}}/f_s}{t_2} $$
 
 | Frames to isolate | Fraction of a doubling time consumed |
 |---|---|
@@ -1347,6 +1531,8 @@ what it is.
 actuator with the flight control system's pitch loop. A stiffness bought to make the control law stable
 turned out to be the stiffness that kept the surface from diverging.
 
+$$ K_\theta^{\mathrm{req}} = q_D\,e\,S_c\,a, \qquad e = \left(x_{\mathrm{axis}} - x_{ac}\right)\bar{c}_c $$
+
 Inverting the relation for the loop stiffness that would place the canard's boundary at the wing's 4,533
 pounds per square foot gives the scale of what was required.
 
@@ -1377,6 +1563,11 @@ region of zero stiffness, and a spring with a dead band in it has no stiffness a
 
 ### Trim and the Case for Putting the Surface in Front
 
+The static margin itself is the distance from the centre of gravity to the neutral point, measured in mean
+aerodynamic chords, and it is negative when the neutral point lies ahead.
+
+$$ \mathrm{SM} = \frac{x_{np} - x_{cg}}{\bar{c}} = -0.35 $$
+
 A supercritical section carries a large nose-down pitching moment about its aerodynamic centre, which is the
 price of its aft loading. That moment must be trimmed at every flight condition, and
 **the sign of the load that trims it is the entire argument for a canard.**
@@ -1402,6 +1593,11 @@ At a canard arm of 1.75 mean aerodynamic chords and an area ratio of 0.20, givin
 0.35, and taking the section moment as **assumed** at $-0.10$,
 
 $$ \Delta C_L = \frac{0.10}{1.75} = 0.0571 $$
+
+The induced drag both configurations pay follows the usual relation, with the wing carrying whatever the
+trimming surface does not.
+
+$$ C_{D_i} = \frac{C_L^2}{\pi A e} = k\,C_L^2, \qquad k = \frac{1}{\pi A e} = \frac{1}{\pi \times 4.0 \times 0.85} = 0.0936 $$
 
 Evaluating both configurations at the same total lift coefficient of 0.8, so that the comparison is fair,
 the wing carries 0.743 with a canard and 0.857 with an aft tail, and the induced drag follows the square.
@@ -1546,10 +1742,29 @@ $$ \Lambda_{LE}^{\mathrm{aft}} = 44.70^\circ \quad \text{to match} \quad \Lambda
 **The aft-swept wing needs 44.70 degrees of leading-edge sweep to achieve what the forward-swept wing achieves with 29.30, a difference of 15.40 degrees.**
 The primary source's claim is therefore correct and now has a number attached to it.
 
+Sweep earns its keep by reducing the Mach number the section actually sees, and the isobar sweep rather than
+the leading-edge sweep is what governs that.
+
+$$ M_n = M\cos\Lambda_{50\%} $$
+
+| Flight Mach | Normal to the 50 percent isobar |
+|---|---|
+| 0.90 | 0.711 |
+| 1.07 | 0.846 |
+| 1.48 | 1.170 |
+
+**At the design point of Mach 1.07 the section sees 0.846**, which is subsonic, and that is the whole
+purpose of sweeping a wing at all.
+
 The structural consequence follows. Computing the box length between a fifteen percent front spar and a
 seventy percent rear spar for both planforms at equal isobar sweep gives
 **17.12 feet forward-swept against 17.66 feet aft-swept**, a ratio of 0.969, so the forward-swept box is
 **about three percent shorter**.
+
+The reason a shorter box is worth having is that it shortens the lever arm the root bending moment acts
+through.
+
+$$ M_{\mathrm{root}} = \tfrac{1}{2}n\,W\,\eta_{cp}\,\frac{b}{2} = \tfrac{1}{2} \times 8.0 \times 15{,}000 \times 0.4 \times 13.74\ \mathrm{ft} = 3.30 \times 10^{5}\ \mathrm{ft\,lb} $$
 
 **That comparison must be made at equal shock sweep and not at equal leading-edge sweep, and the difference between those two questions reverses the answer.**
 At equal leading-edge sweep the same calculation gives 17.12 feet forward against 14.70 feet aft, making the
@@ -1731,6 +1946,11 @@ tanks. Design symmetric load factors were
 notes that gross weights actually flown ranged from about 14,800 to 17,700 pounds, the upper figure being
 **an eighteen percent increase over the manoeuvre design gross weight**.
 
+The drag polar assumed for the sensitivity below is the ordinary parabolic one, and its maximum lift-to-drag
+ratio has a closed form.
+
+$$ C_D = C_{D_0} + k\,C_L^2, \qquad \left(\frac{L}{D}\right)_{\max} = \frac{1}{2}\sqrt{\frac{\pi A e}{C_{D_0}}}, \qquad C_L^{\mathrm{opt}} = \sqrt{\frac{C_{D_0}}{k}} $$
+
 A drag polar is not published in a form that permits a clean lift-to-drag figure, but the sensitivity can
 still be tabulated for an aspect ratio of 4.0 and an **assumed** span efficiency of 0.85.
 
@@ -1739,6 +1959,21 @@ still be tabulated for an aspect ratio of 4.0 and an **assumed** span efficiency
 | 0.020 | 11.56 | 0.462 |
 | 0.024 | 10.55 | 0.506 |
 | 0.028 | 9.77 | 0.547 |
+
+The more interesting question for this aircraft is the sustained load factor, where thrust equals drag in a
+level turn.
+
+$$ \frac{T}{W} = \frac{q\,C_{D_0}}{W/S} + \frac{k\,(W/S)\,n^2}{q} \quad \Longrightarrow \quad n = \sqrt{\frac{q}{k\,(W/S)}\left(\frac{T}{W} - \frac{q\,C_{D_0}}{W/S}\right)} $$
+
+| Altitude | Sustained load factor at Mach 0.9 |
+|---|---|
+| Sea level | 10.66 |
+| 20,000 ft | 8.17 |
+| 40,000 ft | 5.46 |
+
+**At sea level that exceeds the 8 g structural design limit**, on the assumed polar and at the manoeuvre
+design weight, which means **the airframe rather than the engine is what binds low down**. It is a
+consequence of the thrust-to-weight ratio computed at the top of the article exceeding unity at that weight.
 
 **Ten to eleven is an unremarkable figure for a fighter-sized aircraft of this aspect ratio**, and the
 X-29's aerodynamic interest was never in its cruise efficiency.
@@ -1750,8 +1985,16 @@ X-29's aerodynamic interest was never in its cruise efficiency.
 link a single point of failure for the research product if not for the aircraft.
 
 The ten-bit remote-unit pulse-code modulation system sampled **from 25 to 400 samples per second** depending
-on the frequency range required, with fourteen selected parameters raised to 200 or 400. A
-constant-bandwidth frequency modulation system handled high-response acceleration and vibration data. The
+on the frequency range required, with fourteen selected parameters raised to 200 or 400. Those rates are
+chosen against the same criterion that governs the flight control system, and the range from 25 to 400
+samples per second corresponds to a usable band an order of magnitude wide.
+
+$$ f_{\max} \leq \frac{f_s}{2} \quad \Longrightarrow \quad 12.5\ \mathrm{Hz} \leq f_{\max} \leq 200\ \mathrm{Hz} $$
+
+**The structural modes the aeroservoelastic work needed to see lie inside that band**, which is why fourteen
+parameters were raised to the top of it.
+
+A constant-bandwidth frequency modulation system handled high-response acceleration and vibration data. The
 **flight deflection measurement system** supplied the wing twist that the Southwell analysis depended on,
 which makes it the instrument the keystone result rests on.
 
@@ -3163,6 +3406,10 @@ The elastic-to-rigid ratio of 1.6 is described in the source as predicted, so th
 pressure derived from it is the boundary the designers believed in and not the one the aircraft had. The
 flight record says the real boundary was lower.
 **Every number in this article that descends from 4,533 pounds per square foot inherits that, and the Southwell sensitivity analysis is the one place where it matters most, because it uses the same figure to describe how well the figure could have been measured.**
+
+**The elasticity derived earlier turns that rounding into a number rather than a worry.**
+
+$$ \frac{\Delta q_D}{q_D} \approx -\frac{1}{r-1}\cdot\frac{\Delta r}{r} = -1.667 \times \left(\pm\frac{0.05}{1.6}\right) = \mp 5.2\ \mathrm{percent} $$
 
 **The ratio is also quoted as about 1.6, and the rounding is not harmless.** At 1.55 the implied boundary is
 4,791 pounds per square foot and at 1.65 it is 4,315, a spread of about ten percent from a figure given to

@@ -21,8 +21,76 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_grumman_x29.markdown`, A326, editorial date 2025-11-04, series `x_planes` index 30 of 72.
 
-7,784 lines, 29 display equations, 2,208 reference definitions, 44,545 words after the draft pass.
-Committed, not pushed. **The equation, primary-reference and publication passes remain.**
+7,781 lines, 29 display equations, 2,207 reference definitions, 44,542 words after the draft pass.
+**8,028 lines, 69 display equations, 2,207 references, 46,399 words after the equation review.**
+Committed, not pushed. **The primary-reference and publication passes remain.**
+
+**EQUATION PASS: 29 to 69 across 23 edits**, references held at 2,207 and measured before and after.
+The audit found the same three categories the last two articles did. **Quoted values with no relation
+behind them**, the Vehicle table stating thirty-two numbers and displaying nothing, the lift-curve
+slopes and the lift-to-drag figures appearing from nowhere. **Relations used throughout and defined
+nowhere**, being dynamic pressure, equivalent airspeed, the pitching moment derivative, the drag polar
+and the induced drag factor. **And whole sections arguing quantitatively with no equation at all**,
+the worst being the vehicle description and the instrumentation section.
+
+**THE MOST USEFUL ADDITION IS THE CLOSED FORM OF THE UNTAILORED ROOT**, which the draft never
+displayed although the entire sweep argument rests on it. It splits the reciprocal boundary into a
+torsion term that is always positive and a bending term **whose sign is the sign of the sweep**, which
+is the forward-sweep problem in one line. **It agrees with the eigenvalue solver to one part in a
+billion at every sweep angle tested**, and it yields the critical sweepback in closed form as
+**48.013 degrees**, which **corrects the draft's stated 47 degrees** that came from an integer scan.
+
+**THE SECOND IS THE DOUBLING TIME FROM REST.** A disturbance released with zero pitch rate follows
+cosh rather than a pure exponential, so it doubles in arcosh(2)/lambda rather than ln(2)/lambda, and
+**the ratio is 1.900**, large enough to read as a real discrepancy if the two are confused. The
+article uses the exponential figure throughout, which is the conservative one.
+
+**THE KEYSTONE SENSITIVITY IS NOW DERIVED RATHER THAN ASSERTED.** Writing the inversion as
+q_D = q r/(r - 1) gives an elasticity of -1/(r - 1), or **-1.667 at r = 1.6**, so a one percent error
+in the published ratio is a 1.67 percent error in the boundary, and the two-significant-figure
+rounding costs 5.2 percent. The linearised band agrees with the exact one to within a third of a
+percent.
+
+**A CLOSED FORM WAS WRITTEN FOR THE SOUTHWELL SENSITIVITY AND THEN DELETED.** The candidate
+1/(1 - r_max) is clean and gives 1.600 at the aircraft's reach, against a simulated 1.389 stable to
+three figures across a factor of ten in noise. **They disagree because they are not the same
+quantity**, the closed form being the single-point twist amplification and the reported figure the
+sensitivity of an eight-point least-squares slope. A clean form that lands near a measured number is
+not an explanation of it, so the article reports the simulated value and says it was simulated.
+
+**ONE FINDING FELL OUT OF THE PERFORMANCE EQUATIONS.** The sustained load factor at Mach 0.9 at sea
+level is 10.66 against an 8 g structural design limit, so **the airframe rather than the engine is
+what binds low down**, which follows from the thrust-to-weight ratio exceeding unity at the manoeuvre
+design weight.
+
+**TWO VERIFIER DEFECTS WERE FOUND AND BOTH WERE SILENT.** `require_in_text` APPENDS to the failure
+list, so calling it after `report()` meant anything it found was never printed, and it returns True
+when nothing is missing, so the guard around it was inverted as well; **the two mistakes together made
+a silent check look like a passing one**. And the coarse determinant scan quantises its root to the
+grid step, producing apparent disagreements with the closed form of up to 0.31 percent that were
+entirely the grid; **a tolerance loose enough to absorb that would have been looser than the quantity
+it was checking**, so the scan now brackets and then bisects.
+
+**THE VERIFIER NOW DISTINGUISHES TWO KINDS OF CHECK.** `chk` records a value the article states and
+`require_in_text` later insists it appears; route agreements between two ways of computing the same
+thing use a separate helper, because the article deliberately withholds the model's absolute
+divergence pressures and demanding they appear would require printing numbers it has argued are
+meaningless.
+
+Verification after the equation pass. **88 of 88 independent checks passing, none importing the
+calculation**, with the amplification derivation tested as a randomised property over the moment
+balance, the critical sweepback reached both in closed form and by bisection on the determinant scan,
+the cosh doubling confirmed by Runge-Kutta integration, and the sustained load factor found by
+scanning for where thrust equals drag. **All article-facing verified values confirmed present in the
+draft.** `_verify.py` at the 21-warning baseline, check_any clean, reference integrity unchanged at
+2,207 with zero undefined, zero orphaned, zero duplicate URLs and zero search-endpoint citations,
+zero constructions above the corpus maximum after rotating two more across two distinct phrasings, and
+a 30-article isolated build rendering **all 69 equations as display math across 17 sections and 18
+tables**.
+
+**FOR THE REFERENCE PASS.** The equation pass promoted subjects and the audit now reports **49
+displayed equations with no nearby citation**, which is the ninth consecutive article in which the
+reference base must follow the equations.
 
 **THE RUN OF FOUR PURCHASED DESIGNATIONS ENDS HERE.** After an off-the-shelf autogyro, an
 off-the-shelf sailplane, a fighter that was never built and a five-thousand-dollar homebuilt flying

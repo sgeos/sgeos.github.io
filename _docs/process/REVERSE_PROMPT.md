@@ -9,105 +9,114 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A326 draft pass, the first of four. Committed, **not pushed**, per the rhythm.
+**Task**: A326 equation-density review, the second of four passes. Committed, **not pushed**.
 
-**State: 7,784 lines, 29 display equations, 2,208 reference definitions, 44,545 words.** Thirty
+**State: 8,028 lines, 69 display equations, 2,207 reference definitions, 46,399 words.** Thirty
 articles drafted, all in `_drafts/`, **none published**.
 
 ---
 
-## The Run of Four Ends, and the Method Reverses With It
+## The Equation Pass
 
-**The X-29 is the first purpose-built research aeroplane in this series since the X-24.** The four
-before it were an off-the-shelf autogyro, an off-the-shelf sailplane, a fighter never built, and a
-five-thousand-dollar homebuilt flying boat.
+**29 to 69 across 23 edits**, references held at 2,207 and measured before and after.
 
-**That changes how the article had to be researched.** A324 and A325 both returned nothing from the
-Technical Reports Server under the vehicle's own name and had to harvest the physics instead. This
-subject returns a great deal, and **378 of the cited references are recalled by fixed document
-identifier**, including the two primary reports that carry most of the article's numbers.
-
----
-
-## The Keystone
-
-**Two published figures connect through a relation neither was derived from.** The primary record gives
-the wing's predicted elastic-to-rigid lift-curve-slope ratio as about 1.6, and separately gives the
-design dynamic pressure as 1,700 pounds per square foot. The single-degree-of-freedom divergence model
-makes that ratio exactly one over one minus the pressure ratio, so the two together fix **a divergence
-dynamic pressure of 4,533 pounds per square foot that nobody published**, with no assumption about the
-wing's stiffness, geometry or material.
-
-**The margin is 2.667 in dynamic pressure and only 1.633 in equivalent airspeed**, and the second is
-the number a pilot experiences.
-
-**The design point checks against itself.** It is quoted twice, as a pressure and as a Mach number at
-an altitude, and recomputing one from the other agrees to 0.24 percent.
+The audit found the same three categories the last two articles did. **Quoted values with no relation
+behind them**, the Vehicle table stating thirty-two numbers and displaying nothing while the
+lift-curve slopes and lift-to-drag figures appeared from nowhere. **Relations used throughout and
+defined nowhere**, being dynamic pressure, equivalent airspeed, the pitching moment derivative, the
+drag polar and the induced drag factor. **And whole sections arguing quantitatively with no equation
+at all**, the worst being the vehicle description and the instrumentation section.
 
 ---
 
-## Defects Found by Writing the Relation Down
+## The Two Additions That Are More Than Bookkeeping
 
-**One of them printed free energy.** The two-mode divergence eigenvalue has an identically zero
-quadratic coefficient, so the characteristic equation is linear. Trusting floating point to notice sent
-the solver down the quadratic branch, which **returned 5.7 times ten to the twenty-first pounds per
-square foot**. An absolute tolerance cannot catch a residue that is sixteen orders below the terms that
-produced it and still enormous, so the test had to be made relative to the magnitude of what cancelled.
+**The closed form of the untailored root**, which the draft never displayed although the entire sweep
+argument rests on it. It splits the reciprocal boundary into a torsion term that is always positive
+and a bending term **whose sign is the sign of the sweep**, which is the forward-sweep problem in one
+line. It agrees with the eigenvalue solver **to one part in a billion at every sweep angle tested**,
+and it gives the critical sweepback in closed form as **48.013 degrees**.
 
-**The bend-twist coupling sign was backwards**, reporting that tailoring lowered the divergence
-boundary, which is the reverse of the point of the technology.
+**That corrects a value the draft stated.** The draft said sweepback beyond about 47 degrees removes
+the boundary, which came from an integer scan.
 
-**The trim analysis conflated the surface's own lift coefficient with the wing-referenced increment**,
-inflating the trim load by a factor of five and driving the drag comparison above nine hundred.
-
-**The transonic comparison was made at equal leading-edge sweep when the source's claim is at equal
-shock sweep**, and those two questions give opposite answers.
+**The doubling time from rest.** A disturbance released with zero pitch rate follows cosh rather than
+a pure exponential, so it doubles in arcosh(2) over lambda rather than ln(2) over lambda. **The ratio
+is 1.900**, large enough to read as a real discrepancy if the two are confused. The article uses the
+exponential figure throughout, which is the conservative one.
 
 ---
 
-## What the Analysis Established
+## A Closed Form Written and Then Deleted
 
-**The model reproduces a result it was not fitted to.** Sweepback beyond about 47 degrees removes the
-divergence boundary entirely, which is the classical result, recovered from an independent determinant
-scan.
+**The candidate for the Southwell sensitivity was 1/(1 - r_max)**, which is clean and gives 1.600 at
+the aircraft's own reach. The simulation gives 1.389, stable to three figures across a factor of ten
+in noise.
 
-**The required tailoring survives its own assumptions.** Reaching the observed margin needs a
-non-dimensional coupling of 0.627 against a hard bound of 1.0, and that stays between 0.61 and 0.79
-across a factor of more than five in the assumed stiffness ratio.
+**They disagree because they are not the same quantity.** The closed form is the amplification of the
+twist at the topmost data point; the reported figure is the sensitivity of an eight-point
+least-squares slope. **A clean form that lands near a measured number is not an explanation of it**,
+so the article reports the simulated value and says it was simulated.
 
-**The Southwell method was applied to flight data for the first time on this aircraft.** The report
-calls the estimate highly sensitive without saying how sensitive. It is about 1.4 times the twist
-measurement error at the aircraft's own reach.
+---
 
-**A control-law requirement fixed a structural boundary.** The canard's divergence boundary was set by
-the pitch-loop stiffness required for control stability, which is the article's argument for treating
-structure and control as one system.
+## One Finding Fell Out of the New Equations
 
-**Instability measured in frames rather than probability.** About 100 milliseconds to double at Mach 0.9
-at sea level, four frames at 40 hertz, of which sampling consumes 37.5. Isolating a failed channel in
-three frames spends 75 percent of a doubling time.
+**The sustained load factor at Mach 0.9 at sea level is 10.66 against an 8 g structural design
+limit**, so the airframe rather than the engine is what binds low down. It follows from the
+thrust-to-weight ratio exceeding unity at the manoeuvre design weight, which the Vehicle section now
+computes.
+
+**The keystone sensitivity is also derived rather than asserted.** Writing the inversion as
+q_D = q r/(r - 1) gives an elasticity of -1.667 at r = 1.6, so a one percent error in the published
+ratio is a 1.67 percent error in the boundary, and the two-significant-figure rounding costs 5.2
+percent.
+
+---
+
+## Two Verifier Defects, Both Silent
+
+**`require_in_text` appends to the failure list**, so calling it after `report` meant anything it
+found was never printed, and it returns True when nothing is missing, so the guard around it was
+inverted as well. **Together those made a silent check look like a passing one.**
+
+**The coarse determinant scan quantises its root to the grid step**, producing apparent disagreements
+with the closed form of up to 0.31 percent that were entirely the grid. A tolerance loose enough to
+absorb that would have been looser than the quantity it was checking, so the scan now brackets and
+then bisects.
+
+The verifier now separates two kinds of check. `chk` records a value the article states so
+`require_in_text` can insist it appears, while agreements between two computed routes use a separate
+helper, because the article deliberately withholds the model's absolute divergence pressures and
+demanding they appear would require printing numbers it has argued are meaningless.
 
 ---
 
 ## Verification
 
-**42 of 42 independent checks passing**, the verifier reaching every value by a different route than
-the calculation, namely bisection, a determinant scan, a non-linear fit, Runge-Kutta integration and
-enumeration. **One of the article's own literals was wrong and the verifier caught it.**
+**88 of 88 independent checks passing, none importing the calculation.** The amplification derivation
+is tested as a randomised property over the moment balance, the critical sweepback is reached both in
+closed form and by bisection on the determinant scan, the cosh doubling is confirmed by Runge-Kutta
+integration, and the sustained load factor is found by scanning for where thrust equals drag.
+**All article-facing verified values are confirmed present in the draft.**
 
-`_verify.py` at the 21-warning baseline, check_any clean, zero constructions above the corpus maximum
-after rotating four across four distinct phrasings, and a 30-article isolated build rendering all 29
-equations across 17 sections with 97 internal series links resolving.
+`_verify.py` at the 21-warning baseline, check_any clean, `_lib/test_lib.py` at 45 of 45, reference
+integrity unchanged at 2,207 with zero undefined, zero orphaned, zero duplicate URLs and zero
+search-endpoint citations, zero constructions above the corpus maximum after rotating two more across
+two distinct phrasings, and a 30-article isolated build rendering **all 69 equations as display math
+across 17 sections and 18 tables**.
 
-**The citation sweep was still running when this was written and its result is not yet recorded.**
+**The citation sweep from the draft pass stands**, since the reference set did not change. 1,767 DOIs
+registry-verified at zero unresolved, all 378 NTRS identifiers resolving, and all books and curated
+URLs resolving.
 
 ---
 
 ## Awaiting Instruction
 
-**A326 has completed the draft pass only.** The equation, primary-reference and publication passes
+**A326 has completed the draft and equation passes.** The primary-reference and publication passes
 remain, each on its own prompt.
 
-**29 display equations is low against a corpus median of 94**, and the audit already names sixteen
-sections that state numbers with no displayed relation behind them. The equation pass has plenty to
-work with.
+**The audit now reports 49 displayed equations with no nearby citation**, which is the ninth
+consecutive article in which an equation pass promotes subjects the reference base has to follow.
+That is the reference pass's material.
