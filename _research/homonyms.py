@@ -81,6 +81,15 @@ NOISE_PATTERNS = [
     (r"\bclassroom\b|\bcurricul|\bpedagog", "'instruction' is a machine term and a TEACHING term"),
     (r"\bnanoparticle|\bcatalys", "'synthesis' is a program term and a CHEMICAL term"),
     (r"\bwireless sensor network", "'coverage' in sensor networks is a different problem"),
+    (r"\bsupertanker|\bsingle[- ]screw\b|\bmarine propuls",
+     "A324: MARINE PROPULSION, and it was CREATED by widening an anchor list. Adding "
+     "`propulsive` so that 'Propulsive efficiency from an energy utilization standpoint' "
+     "would pass also admitted 'the propulsive efficiency of single-screw supertankers'. "
+     "Widening an anchor list has a price and this is the shape of it"),
+    (r"\benergy height\b.{0,40}\b(?:channel|weir|flume|hydraulic)|\bspecific energy\b.{0,30}"
+     r"\b(?:batter|cell|electrode)",
+     "A324: ENERGY HEIGHT is a term of art in OPEN-CHANNEL HYDRAULICS and SPECIFIC ENERGY "
+     "belongs to BATTERIES, which is now far larger than the aeronautical sense"),
 ]
 
 _COMPILED = [(re.compile(p, re.I), why) for p, why in NOISE_PATTERNS]

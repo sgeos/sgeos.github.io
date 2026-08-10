@@ -72,12 +72,52 @@ checked by closing the momentum balance rather than repeating the formula, and t
 the turn-rate-radius consistency both tested as randomised PROPERTIES. **Every one of the 95 verified
 values was required to appear in the draft text and every one does.**
 
-**THE REFERENCE BASE MUST NOW FOLLOW, WHICH IS SEVEN ARTICLES RUNNING.** 47 of the 77 equations carry
-fewer than three citations within nine hundred characters, and the newly promoted subjects at or near
-zero are **thermal stress and restrained expansion, ram drag and propulsive efficiency, the downwash
-gradient and tail volume, energy height and the climb ceiling, and the takeoff ground roll**. Reported
-here as the target list for the primary-reference pass rather than acted on, since the passes are
-separate.
+**PRIMARY-REFERENCE PASS: references 1,650 to 1,863, article 6,292 to 6,994 lines and 25,265 to 27,738
+words, equations held at 77 and measured before and after.** Primary sources **963 to 1,176**, or 62.2 to
+66.8 percent, and the **PERIOD COUNT 718 to 912** against a period fraction of 46.4 to 51.8.
+
+**THE CONTEMPORARY FIGURES SHOW THE MIRROR OF THE USUAL WARNING AND THE ARTICLE SAYS SO.** The
+contemporary count held at 595, unchanged, while its fraction fell from 38.4 to 33.8 percent purely
+because the period base grew underneath it. **Reporting only the fraction would read as contemporary
+coverage having been cut, and nothing was cut.**
+
+**THE AUDIT RAN BEFORE THE HARVEST**, which is the rule that costs one script and saves a rewrite, and it
+found six subjects thin on primaries: energy manoeuvrability at pool 4 and **primary ZERO**, conical and
+oblique shocks at 11, and the four the equation pass promoted, namely thermal stress at 3, ram drag at 2,
+downwash and tail volume at 1, and energy height at 2.
+
+**THE CAUSE WAS A SELECTOR DEFECT AND IT IS THE THIN-HEADING RULE ARRIVING FROM THE OTHER DIRECTION.**
+No cluster existed for the four promoted subjects when the first two harvests were written, so the
+selector was discarding **every record about them as "no cluster"**. Six clusters were added and placed
+FIRST, because `cluster_of` returns the first match and a specific cluster placed after a broad one never
+sees its own records.
+
+**ONE ANCHOR-LIST WIDENING AND THE HOMONYM IT IMMEDIATELY CREATED.** Records such as "Optimum Climb to
+Height" and "Propulsive efficiency from an energy utilization standpoint" were being rejected for want of
+a subject noun, so climb, takeoff, propulsive and trajectory were admitted. **That admitted "the
+propulsive efficiency of single-screw supertankers" in the same run.** Marine propulsion is now filtered
+and recorded in the durable store, along with energy height in open-channel hydraulics and specific
+energy in batteries. **Widening an anchor list has a price and it was paid here rather than discovered in
+the URL sweep.**
+
+**TWO SUBJECTS ARE GENUINELY THIN AFTER A HARVEST AIMED AT THEM AND ARE REPORTED RATHER THAN PADDED.** Of
+6,518 harvested records, **thirteen carry ram drag, momentum drag or installed performance in their
+titles and seven carry energy height, energy state or minimum time to climb**. The article states both
+figures and states why: the work exists inside adjacent literatures, since ram-drag bookkeeping is
+settled in the papers on inlet additive drag and spillage, and energy height is indexed under trajectory
+optimisation, with Boyd's own documents never journal-indexed at all.
+
+**EQUATION CITATION SUPPORT 47 OF 77 THIN, THEN 36, THEN 20.** The last step was not more research
+papers. **The remaining gaps were textbook identities, and attaching a period NACA report to $M = V/a$
+would raise the count and lower the scholarship**, so the standard works were cited at fourteen points
+instead. The final 20 are numerical evaluations sitting immediately under their already-cited defining
+relation.
+
+**Verification.** 105 numerical checks passing unchanged, `_verify.py` at the 21-warning baseline,
+check_any clean, reference integrity at 1,863 with zero undefined, zero orphaned and zero duplicate URLs,
+and a 28-article isolated build with all 77 equations rendering. **The 213 added references swept by
+source: 40 of 40 NTRS resolving, 60 of 60 sampled Crossref DOIs registered, and 40 of 40 sampled DTIC
+DOIs registered.**
 
 **The subject never existed.** No X-27 was built and no CL-1200 was built. One full-scale mock-up of wood
 with a metal skin was completed and up to three fuselages were reportedly worked. There is no flight

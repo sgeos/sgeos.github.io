@@ -231,8 +231,10 @@ two predictions rather than between a prediction and a fact.
 
 ### The Flight Condition
 
-The [International Standard Atmosphere][ref_isa] gives the conditions at the altitude every performance
-claim is quoted at. Below 11 kilometres the temperature falls linearly with height at the standard lapse
+The [International Standard Atmosphere][ref_isa] gives the conditions at the altitude every
+performance claim is quoted at. The compressible-flow relations used from here to the end of the inlet
+section are standard and are set out in [Shapiro][book_shapiro] and [Anderson][book_anderson], which are
+the sources for every identity below that carries no other citation. Below 11 kilometres the temperature falls linearly with height at the standard lapse
 rate.
 
 $$ T(h) = T_0 - \lambda h, \qquad T_0 = 288.15\ \mathrm{K}, \qquad \lambda = 0.0065\ \mathrm{K/m} $$
@@ -261,7 +263,8 @@ $$ M = \frac{1{,}700\ \mathrm{mph} \times 0.44704}{296.54\ \mathrm{m/s}} = \frac
 consistent with the Mach 2.57 quoted in one source and with the Mach 2.5 quoted in another as a rounding.
 The X-27's stated test objective of Mach 2.6 sits just above it.
 
-Two further quantities are used throughout and are defined here so that later sections can call on them. The
+Two further quantities are used throughout and are defined here so that later sections can call on them,
+following [Anderson][book_anderson]. The
 dynamic pressure is what converts a coefficient into a force, and the specific heat at constant pressure
 follows from the gas constant and the ratio of specific heats.
 
@@ -311,6 +314,16 @@ extensive.
 - [Aerodynamic Heating Computations for Projectiles. Volume 3...][research_beck_1984_b]
 - [Kinetic Energy Finned Projectile Aerodynamic Heating...][research_schoeler_1987]
 - [Thermal stress analysis of space shuttle orbiter subjected to...][research_kowilliaml_fieldsrogera_1987]
+- [Laboratory Simulation of Kinetic Heating][research_horton_1954]
+- [STAGNATION TEMPERATURE PROBES FOR USE AT HIGH SUPERSONIC...][research_winkler_1954]
+- [Heat Transfer to Dry Ice Spheres Subjected to Supersonic Air...][research_brooke_1957]
+- [Oblique Shock Relations for Air at Mach 7.8 and 7200 R...][research_nagamatsu_workman_1960]
+- [Experimental Investigation at Mach Number 3.0 of the Effects...][research_dixonsidneyc_griffithgeorgee_1961]
+- [COMPARISONS OF EXPERIMENTAL AND THEORETICAL HEAT TRANSFER TO...][research_pasiuk_1963]
+- [Flow phenomena and convective heat transfer in a conical...][research_back_massier_1967]
+- [THE FLOW FIELD AND HEAT TRANSFER DOWNSTREAM OF A REARWARD...][research_smith_1967]
+- [Thrust Vector Control, Heat Transfer Modeling][research_leitner_1986]
+- [Time dependent heat transfer rates in high Reynolds number...][research_flanaganmichaelj_1992]
 
 ### The Temperature the Skin Reaches
 
@@ -485,8 +498,8 @@ $$ T^* = T_e\left(0.5\left(1 + \frac{T_w}{T_e}\right) + 0.16\,r\,\frac{\gamma-1}
 
 $$ \mathrm{St} = 0.0296\,\mathrm{Re}_x^{-1/5}\,\Pr^{-2/3}, \qquad h = \mathrm{St}\,\rho^* u_e c_p $$
 
-The Reynolds number in that correlation is itself a defined quantity, and the viscosity inside it comes from
-Sutherland's law rather than from a table.
+The Reynolds number in that correlation is itself a defined quantity, and the viscosity inside it comes
+from Sutherland's law rather than from a table, both as given in [Anderson][book_anderson].
 
 $$ \mathrm{Re}_x = \frac{\rho^* u_e x}{\mu^*}, \qquad \mu(T) = \frac{1.458 \times 10^{-6}\,T^{3/2}}{T + 110.4} $$
 
@@ -512,6 +525,48 @@ $$ T_{\mathrm{skin}}(t) = T_\infty + \left(T_r - T_\infty\right)\left(1 - e^{-t/
 
 **Losing yield strength is not the only thing high temperature does.** A skin that wants to expand and is
 restrained by cooler structure behind it develops stress without any aerodynamic load at all.
+
+Thermal stress, thermal buckling of heated panels, and the thermoelastic analysis of restrained structure
+are a substantial period literature, driven by exactly the aircraft that were trying to fly faster than
+aluminium comfortably allows.
+
+- [Transient Thermal Stresses in Wings][research_parkes_1953]
+- [A Conference on Thermal Stress][research_a_conference_1954]
+- [The Problem of Thermal Stresses in Aircraft Structures][research_loveless_boswell_1954]
+- [Wings Under Repeated Thermal Stress][research_parkes_1954]
+- [STUDIES ON THERMAL STRESSES FOR AIRCRAFT STRUCTURES EXPOSED...][research_mahlmeister_ishimoto_1955]
+- [SUBMICROSCOPIC STRUCTURE OF RABBIT CORNEA STUDIED BY...][research_kikkawa_1955]
+- [Incremental Collapse Due to Thermal Stress][research_parkes_1956]
+- [Panels under Thermal Stress][research_parkes_1956_b]
+- [SIMILARITY LAWS REQUIRED FOR EXPERIMENTAL AERO-THERMOELASTIC...][research_calligeros_dugundji_1961]
+- [Thermal Stresses in I‐section Beams][research_ayers_1962]
+- [THERMAL STRESS ON CELLULAR STRUCTURE AND FUNCTION][research_buchsbaum_1963]
+- [THERMOELASTICITY AND TEMPERATURE VARIATION OF UNPERTURBED...][research_nakajima_yanagawa_1963]
+- [THERMAL STRESS ANALYSIS OF SANDWICH CYLINDERS][research_rivello_1965]
+- [Temperature variation of unperturbed chain dimension of...][research_sakurada_nakajima_1965]
+- [Thermal stress and instability of sandwich cylinders on rigid...][research_gellatly_bijlaard_1965]
+- [STRESS REVIEWS. I. THERMAL STRESS - COLD][research_findikyan_duke_1966]
+- [Thermal Buckling of a Circular Plate][research_mansfield_1967]
+- [Thermoelasticity and the temperature coefficient of...][research_puett_1967]
+- [Thermoelasticity and the Temperature Coefficient of...][research_puett_1968]
+- [Low Temperature Effects and Generalized Thermoelasticity][research_fox_1969]
+- [Some problems in thermoelasticity with temperature-dependent...][research_tang_1969]
+- [Effect of Side-Chain Structure on Thermoelasticity of Acrylic...][research_cirlin_shen_1971]
+- [Thermal Buckling of Rotating Orthotropic Annular Plates][research_uthgenannt_1971]
+- [Stability of waves and shock structure in generalised...][research_beevers_1973]
+- [Wave propagation in the two temperature theory of...][research_warren_chen_1973]
+- [1554. Thermal regime and thermal stresses in bodies on...][research_1554_thermal_1974]
+- [Thermal Buckling of Parallelogram Panels Subjected to Heating][research_matsumoto_sekiya_1975]
+- [Calculation of temperature fields in problems of...][research_soltanov_1977]
+- [Construction of the equations of thermoelasticity of a...][research_khoroshun_soltanov_1977]
+- [A THEORY OF ANISOTROPIC THERMOELASTICITY AT LOW REFERENCE...][research_pao_banerjee_1978]
+- [A UNIQUENESS THEOREM FOR STRESS-TEMPERATURE EQUATIONS OF...][research_ignaczak_1978]
+- [Axisymmetric thermoelasticity problem for two-temperature...][research_khoroshun_soltanov_1978]
+- [Thermal Buckling of an Annular Plate With Axisymmetric...][research_tani_1978]
+- [Analysis of Interim Thermal Stress Limits for a Portable...][research_bondi_1979]
+- [Correlation of predicted and measured thermal stresses on an...][research_jenkinsjm_1979]
+- [Thermal Stress and Gas Bending Effects on Vibration of...][research_chen_dugundji_1980]
+- [Axisymmetric problem of thermoelasticity for a...][research_soltanov_1982]
 
 $$ \sigma_{\mathrm{th}} = E\,\alpha\,\Delta T $$
 
@@ -657,7 +712,32 @@ losing much less total pressure than it would across a normal shock at the same 
 then crosses a weaker normal shock at the throat.
 
 **The flow behind a conical shock is not uniform**, which is what distinguishes it from the two-dimensional
-wedge case and what makes it require an integration rather than a formula. The governing relation is the
+wedge case and what makes it require an integration rather than a formula.
+
+The conical-flow literature is a distinct body of work from the inlet literature that uses it, and it is
+where the tabulations that made the integration usable before computers were published.
+
+- [A Wing-Body Problem in a Supersonic Conical Flow][research_browne_friedman_1948]
+- [Aerodynamic Characteristics of a Slender Cone-cylinder Body...][research_jackjohnr_1951]
+- [Preliminary Investigation of Use of Conical Flow Separation...][research_moeckelwe_evanspjjr_1951]
+- [Transonic Flow Past Cone Cylinders][research_solomongeorgee_1955]
+- [A Review of Source Superposition and Conical Flow Methods in...][research_stewart_1956]
+- [The Numerical Calculation of Flow Past Conical Bodies...][research_briggsbenjaminr_1960]
+- [Effect of Deceleration on Pressure Distribution Along a...][research_hsu_anderson_1961]
+- [An approximate analysis for the turbulent boundary layer...][research_hrubecky_1963]
+- [Study of base pressure fluctuations behind a cone in...][research_panov_shvets_1966]
+- [Study of flow structure behind a cone in supersonic flow][research_panov_shvets_1967]
+- [Aerodynamic Force Tests of Cone Cylinder Flechette Models at...][research_opalka_1968]
+- [PRESSURE MEASUREMENTS ON FOUR CONE-CYLINDER-FLARE...][research_washington_humphrey_1969]
+- [Supersonic gas flow past a cone at angle of attack][research_vasilev_1970]
+- [Approximate analytic solution for the position and strength...][research_davis_1971]
+- [A pressure formula for an inclined circular cone in...][research_jones_1972]
+- [Experimental Study of Separation from the Base of a Cone at...][research_kayser_danberg_1974]
+- [An Experimental Investigation of Three-Dimensional Shock...][research_yamanaka_kamimura_1975]
+- [Simple Formulae for Supersonic Flow past a Cone][research_hui_1975]
+- [A Numerical Method for Supersonic Conical Flow without Axial...][research_isugiyama_1976]
+- [A NUMERICAL METHOD FOR SUPERSONIC CONICAL FLOW WITHOUT AXIAL...][research_sugiyama_1977]
+- [Supersonic Laminar Viscous Flow Past a Cone at Angle of...][research_agarwal_rakich_1982] The governing relation is the
 [Taylor-Maccoll equation][ref_taylor_maccoll], written here for the velocity components normalised by the
 maximum adiabatic velocity.
 
@@ -672,8 +752,10 @@ $$ M_{n1} = M_1 \sin\beta $$
 
 $$ M_{2}^{2} = \frac{1 + \frac{\gamma-1}{2}M_{n1}^{2}}{\gamma M_{n1}^{2} - \frac{\gamma-1}{2}} \bigg/ \sin^{2}(\beta - \theta_d) $$
 
-The wave angle cannot fall below the Mach angle, which is the weakest disturbance the flow will carry and
-therefore the lower bound on every search below.
+The wave angle cannot fall below the Mach angle, which is the weakest disturbance the flow will carry
+and therefore the lower bound on every search below. The oblique-shock and Mach-angle relations are
+standard, in [Shapiro][book_shapiro] and [Anderson][book_anderson], and the inlet application of them is
+[Seddon and Goldsmith][book_seddon_goldsmith].
 
 $$ \mu = \arcsin\frac{1}{M}, \qquad \mu(2.0) = 30.00^\circ, \qquad \mu(2.6) = 22.62^\circ $$
 
@@ -950,6 +1032,9 @@ The travel needed between two Mach numbers follows immediately.
 
 $$ \Delta L = r\left(\cot\beta_{\mathrm{hi}} - \cot\beta_{\mathrm{lo}}\right) $$
 
+The shock-on-lip condition and the capture-area bookkeeping that follows it are set out in
+[Seddon and Goldsmith][book_seddon_goldsmith].
+
 **The record gives the travel and not the radius.** Four inches of movement is documented; the diameter of
 the Lancer's inlets is not. **So the relation is inverted**, which is the honest move when a parameter is
 unknown, and it turns a quoted number into a checkable one.
@@ -1056,7 +1141,8 @@ Mach 2.6 and obtained 356 kilograms per second, three times the sea-level rating
 
 $$ \dot m_{\mathrm{corr}} = \frac{\dot m \sqrt{\theta}}{\delta}, \qquad \theta = \frac{T_{t2}}{288.15}, \qquad \delta = \frac{p_{t2}}{101325} $$
 
-**The arithmetic was right and the premise was wrong.** A compressor does not hold its maximum corrected
+**The arithmetic was right and the premise was wrong.** Corrected airflow and the engine matching it
+governs are treated in [Oates][book_oates] and [Mattingly][book_mattingly_engine]. A compressor does not hold its maximum corrected
 flow while its inlet total temperature rises by two hundred kelvin, because the corrected speed falls and
 the operating point walks down the map.
 **The engine's flow schedule at high Mach is not in the public record**, so the comparison above is made at
@@ -1071,8 +1157,23 @@ By 1970 the argument about fighters had moved. Top speed and rate of climb had b
 with [John Boyd][ref_boyd] and [Thomas Christie][ref_christie], which asks not how fast an aircraft can go
 but how much energy it can gain or hold while turning.
 
-The framework's primitive is energy height, the altitude an aircraft would reach if it traded all its speed
-for height without loss, and the draft named it without writing it.
+The framework's primitive is energy height, the altitude an aircraft would reach if it traded all its
+speed for height without loss, and the draft named it without writing it. The treatment followed here is
+[Whitford][book_whitford], with the equations of motion behind it in
+[Stevens and Lewis][book_stevens_lewis].
+
+**This heading is thinner than any other in the article and the thinness is a finding.** Of the same
+6,518 records, seven carry energy height, energy state or minimum time to climb in their titles, and all
+seven are cited here. **The subject is not small. It is indexed elsewhere**, inside trajectory
+optimisation and inside the optimum-climb literature, and its foundational documents are Air Force
+internal reports that no journal indexed.
+
+- [Optimum Climb to Height][research_corner_1940]
+- [The Rate of Climb of Turbo‐Jet Aircraft][research_whittley_1952]
+- [On the solution of a degenerate variational problem and the...][research_egorov_1958]
+- [Optimum Path of an Airplane -- Minimum Time to Climb][research_theodorsen_1959]
+- [Optimum climb trajectories at constant lift coefficient][research_andrews_1969]
+- [Optimum Climb to Cruise Noise Trajectories for the High Speed...][research_bertonjeffreyj_2003]
 
 $$ h_e = h + \frac{V^2}{2g} $$
 
@@ -1152,8 +1253,9 @@ turning around it, and the limiting case is that the resultant force tilts back 
 
 $$ K_{\mathrm{none}} = \frac{1}{C_{L_\alpha}} $$
 
-At these aspect ratios the lift-curve slope is nowhere near $2\pi$, and using the high-aspect-ratio value
-would understate the very penalty this section exists to measure. The [Helmbold-Diederich][ref_helmbold]
+At these aspect ratios the lift-curve slope is nowhere near $2\pi$, and using the high-aspect-ratio
+value would understate the very penalty this section exists to measure. The form used is the one given by
+[Raymer][book_raymer] and [Nicolai][book_nicolai]. The [Helmbold-Diederich][ref_helmbold]
 form applies.
 
 $$ C_{L_\alpha} = \frac{2\pi A}{2 + \sqrt{4 + \dfrac{A^2\beta^2}{\eta^2}\left(1 + \dfrac{\tan^2\Lambda_{c/2}}{\beta^2}\right)}}, \qquad \beta = \sqrt{|1 - M^2|} $$
@@ -1328,6 +1430,25 @@ area rule underpins every line of that table.
 - [Turbulent Vortex-Flow Simulation Over a 65 deg Sharp and...][research_ghaffarifarhad_2005]
 - [Trapped Vortex Combustor Development for Military Aircraft][research_barlow_burrus_2008]
 - [Development of Advanced High Lift Leading Edge Technology for...][research_brightmichellem_korntheuerandrea_2013]
+- [The Lift Distribution on Conical and Nonconical Flow Regions...][research_goodman_1949]
+- [Supersonic Flow Past Wing-Body Combinations][research_chester_1953]
+- [REDUCTION OF DRAG DUE TO LIFT AT SUPERSONIC SPEEDS][research_graham_lagerstrom_1954]
+- [An Extension of the Method of Generalised Conical Flows for...][research_portnoy_1963]
+- [Uniform second-order solution for supersonic flow over delta...][research_clarke_wallace_1964]
+- [LEADING-EDGE WEDGES TO REDUCE THE DRAG OF THICK WINGS AT...][research_hartley_furey_1965]
+- [LIFT-TO-DRAG RATIOS OF SEMISPAN DELTA WING CONFIGURATIONS AT...][research_pfaff_1968]
+- [Tests of Vortex Generators to Prevent Separation of...][research_gartling_1970]
+- [The Effects of Yaw on Conical Wings at High Supersonic Speeds][research_hillier_1970]
+- [A Numerical Method for Calculating the Trailing Vortex System...][research_butter_hancock_1971]
+- [Structure of Betz Vortex Cores][research_jordan_1973]
+- [Vortex Measurements Behind a Swept Wing Transport Model][research_orloff_ciffone_1974]
+- [Recent Loads Calibration Experience With a Delta Wing Airplane][research_jenkinsjeraldm_kuhlalberte_1977]
+- [Measured Wake-Vortex Characteristics of Aircraft in Ground...][research_ciffone_pedley_1979]
+- [An Integral Equation for the Linearized Unsteady Supersonic...][research_guderley_1987]
+- [An Integral Equation for the Linearized Supersonic Flow Over...][research_guderley_1988]
+- [Measurements of Supersonic Wing Tip Vortices][research_smartmichaelk_kalkhoranirajm_1994]
+- [Invariance of Hypersonic Normal Force Coefficients with...][research_hawkinsrichard_penlandjima_1997]
+- [Experimental Investigation of Vortex-Tail Interaction on a...][research_ghee_gonzalez_1999]
 
 ### Sustained Turning
 
@@ -1428,7 +1549,8 @@ $$ V^* = \sqrt{\frac{2\,n_{\mathrm{limit}}\,W}{\rho\,S\,C_{L_{\max}}}} $$
 | 1.2 | 141.4 kt | 482.8 kt | 0.771 |
 | 1.4 | 131.0 kt | 447.0 kt | 0.713 |
 
-The corner speed is built on the stall speed, which is the same relation at a load factor of one.
+The corner speed is built on the stall speed, which is the same relation at a load factor of one, and
+both are standard sizing relations in [Raymer][book_raymer] and [Nicolai][book_nicolai].
 
 $$ V_{\mathrm{stall}} = \sqrt{\frac{2W}{\rho\,S\,C_{L_{\max}}}} , \qquad V^{*} = \sqrt{n_{\mathrm{limit}}}\;V_{\mathrm{stall}} $$
 
@@ -1531,6 +1653,16 @@ this, and the F-104 needed blown flaps to land at all.
 - [Computational Modeling of MEMS Microjets for Turbulent...][research_goldstein_2004]
 - [DNS for New Applications of Surface Textures and MEMS...][research_goldstein_2006]
 - [Hybrid LES/RANS Simulation of the Effects of Boundary Layer...][research_edwards_2010]
+- [Langley Full-scale-tunnel Investigation of Maximum Lift and...][research_lovelljcalvin_wilsonherbertajr_1947]
+- [TAKEOFF AND LANDING CAPABILITIES OF THE CARIBOU CV-2B...][research_kidwell_1963]
+- [Trailing Vortices of Jet Transport Aircraft during Takeoff...][research_zwieback_1964]
+- [Preliminary Measurements of Take-Off and Landing Noise from a...][research_tannercaroles_mcleodnormanj_1965]
+- [Measurement of takeoff and landing performance using an...][research_baker_1966]
+- [Prediction of off-runway takeoff and landing performance][research_kuchinka_1966]
+- [STOL Tactical Aircraft Investigation. Volume 3. Performance...][research_hebert_j_1973]
+- [Laser system for aircraft takeoff and landing - "Glissada"][research_basov_berezhnoy_1977]
+- [Height of Spray Produced by Vertical Takeoff and Landing VTOL...][research_kuhn_1979]
+- [The size and performance effects of high lift system...][research_sullivanrl_1979]
 
 ## Dependent Systems
 
@@ -1637,11 +1769,36 @@ the redesigned centre and rear fuselage, the enlarged intakes and the translatin
 - [KLIN Cycle Engine - Deeply Cooled Turbojet DCTJ Engine...][research_airforceresearchlabedwardsafbca_2000]
 - [The Performance of a Subsonic Diffuser Designed for High...][research_biesiadnythomasj_wendtbrucej_2004]
 - [Sea Level Operation Demonstration of F404-GE-400 Turbofan...][research_chippa_2010]
+- [Altitude Performance of a Turbojet Engine Using Pentaborane...][research_sivojosephn_1957]
+- [The Thrust of a Supersonic Conical Nozzle with Non-Isentropic...][research_rowe_1958]
+- [HEAVY-LIFT TIP TURBOJET ROTOR SYSTEM. VOLUME 10. STABILITY...][research_hilleraircraftcorppaloaltoca_1965_c]
+- [Detection of oblique shocks in a conical nozzle with a...][research_backlh_cuffelrf_1966]
+- [Flight investigation of airframe installation effects on an...][research_burleyrr_1971]
+- [Prediction of Installed Nozzle Flowfields][research_presz_konarski_1971]
+- [Solution of the variational problem of shaping a nozzle to...][research_rylov_1974]
+- [On the Conventional Definitions of Thrust/Drag of an Aircraft...][research_cassetti_1978]
+- [Numerical Solution of a Supersonic Nozzle Afterbody Flow with...][research_mikhail_1979]
+- [Two-Component Simultaneous LDV Laser Doppler Velocimeter...][research_heltsley_crosswy_1983]
+- [Performance Off-Design Cycle Analysis for a Turbofan Engine...][research_liewkh_uripe_2005]
+- [Calibration for Thrust and Airflow Measurements in the CE-22...][research_wernerrogera_wolterjohnd_2010]
 
 #### Ram Drag, Which the Draft Did Not Mention and the Keystone Needs
 
 **An engine at high Mach spends a large part of its gross thrust cancelling the momentum of the air it swallowed.**
 Net thrust is the difference between what leaves and what arrived.
+
+**The literature under this heading is genuinely thin and the reason is worth stating.** Of 6,518 records
+harvested for this article, thirteen carry ram drag, momentum drag or installed performance in their
+titles, and nine of those are cited here. **The subject is not thin. The heading is.** Thrust and drag
+bookkeeping is settled inside the papers on inlet additive drag and spillage already cited above, because
+deciding what counts as inlet drag and what counts as lost thrust is the same accounting question.
+
+- [The Propulsive Efficiency and Best Division of Power in an...][research_stephenson_1953]
+- [Measurement of net thrust in flight][research_davidson_1964]
+- [PROPULSIVE EFFICIENCY OF MAN IN THE SEA][research_taggart_1966]
+- [Propulsive efficiency of breaststroke and freestyle swimming][research_holmr_1974]
+- [Propulsive efficiency from an energy utilization standpoint][research_lewis_1976]
+- [A new method for flight test determination of propulsive...][research_bullg_bridgespd_1983]
 
 $$ F_{\mathrm{net}} = \dot m\left(V_e - V_0\right) $$
 
@@ -1650,6 +1807,9 @@ The second term is the ram drag, and at Mach 2.6 the free stream arrives at 771 
 $$ D_{\mathrm{ram}} = \dot m V_0 = 117.93 \times 771.0 = 90{,}926\ \mathrm{N} = 20{,}441\ \mathrm{lbf} $$
 
 **The engine's rated 25,000 pounds of net thrust therefore requires 45,441 pounds gross, so 45.0 percent of the gross thrust is spent on the air's own momentum.**
+
+The thrust equation and the propulsive efficiency that follows from it are standard, in
+[Oates][book_oates] and [Mattingly][book_mattingly_engine].
 
 **The relation is more useful inverted than asserted**, because holding the sea-level rating across the
 whole Mach range is not defensible. Asking instead what exhaust velocity the rating would require at that
@@ -1675,7 +1835,8 @@ its 3.36 percent thickness ratio and its 10 degrees of anhedral. **Aspect ratio 
 from 2.455 to 2.836, because the area grew nearly as fast as the span squared.
 
 The lift the wing produces is the coefficient carried on the dynamic pressure and the area, which is the
-identity every load factor below is measured against.
+identity every load factor below is measured against, and the drag data behind the coefficients used with
+it is [Hoerner][book_hoerner], with the configuration context in [Kuchemann][book_kuchemann].
 
 $$ L = q\,S\,C_L $$
 
@@ -1701,6 +1862,74 @@ unforgiving departure behaviour.
 
 The tail's contribution to longitudinal stability is carried by the tail volume coefficient, which collects
 the geometry into one number, and by the rate at which the wing's downwash turns the flow the tail sees.
+
+Downwash surveys behind wings, neutral-point determination and the static longitudinal stability of wing and
+tail combinations are among the oldest quantitative subjects in the field, and the measurements behind the
+relations below are mostly period work.
+
+- [The Effect of Horizontal Variations in Center of Gravity...][research_jenney_1935]
+- [A Simplified Analysis of Static Longitudinal Stability][research_reid_1937]
+- [Report no. 609, Experimental investigation of wind-tunnel...][research_report_no_1937]
+- [Wind-tunnel interference with particular reference to...][research_silversteinabe_whitejamesa_1937]
+- [Report No. 648, Design charts for predicting downwash angles...][research_report_no_1939]
+- [Estimation of Static Longitudinal Stability][research_archbold_1945]
+- [Calculation of Downwash Behind a Supersonic Wing][research_ward_1949]
+- [The Calculation of Supersonic Downwash Using Line Vortex...][research_harold_haefeli_1950]
+- [Theoretical Analysis of the Downwash Distribution Over...][research_hazen_seckel_1950]
+- [The Rolling Up of the Trailing Vortex Sheet and Its Effect on...][research_spreiter_sacks_1951]
+- [Downwash Behind a Two-Dimensional Wing Oscillating in...][research_lapin_crookshanks_1952]
+- [Investigation of the Influence of Fuselage and Tail Surfaces...][research_birdjohnd_lichtensteinjacobh_1952]
+- [SUPERSONIC THEORY OF DOWNWASH FIELDS][research_leslie_1952]
+- [The Measurement of Downwash and Sidewash Behind a Rectangular...][research_davis_1952]
+- [A Method for Estimating the Rolling Moments Caused by...][research_edwardssherman_hikidokatsumi_1953]
+- [A method for calculating the lift and center of pressure of...][research_nielsenjackn_kaattarigeorgee_1953]
+- [Further Note on the Use of the Neutral Point as a Stability...][research_deitchman_1953]
+- [On the Use of the Neutral Point as a Stability Parameter][research_baron_1953]
+- [A Note on the Evaluation of the Supersonic Downwash Integral][research_hunn_1954]
+- [An Empirical Method for Correction of a Wing Downwash Field...][research_deitchman_1954]
+- [STATIC STABILITY AND MAGNUS CHARACTERISTICS OF THE 5-INCH...][research_greene_1955]
+- [STATIC STABILITY AND MAGNUS CHARACTERISTICS OF A LOW-DRAG...][research_greene_1956]
+- [The Effect of Wing Plan Form on the Downwash behind Wings][research_mitsuyasu_1956]
+- [Comparison of Experimental and Theoretical Zero-Lift...][research_petersenrb_1957]
+- [STATIC STABILITY AND MAGNUS CHARACTERISTICS OF THE U.S. NAVY...][research_greene_1957]
+- [The Transient Downwash Resulting From the Encounter of an...][research_hobbs_1957]
+- [Wind-Tunnel Investigation of Some Effects of Wing Sweep and...][research_fisherlewisr_williamsjamesl_1958]
+- [A Buffet Investigation at High Subsonic Speeds of...][research_suttonfredb_1959]
+- [A Transonic Wind-Tunnel Investigation of the Performance and...][research_bielatralphp_1959]
+- [The downwash of the flow behind the swept vortex of finite...][research_biriukov_1959]
+- [STATIC STABILITY AND DRAG OF THE HOPI WEAPON][research_carroll_1960]
+- [Hovering Static Stability and Performance Experiments on...][research_carmichael_mcnay_1961]
+- [INVESTIGATION OF STATIC STABILITY AND AERODYNAMIC EFFECTS OF...][research_anderson_1961]
+- [Aerodynamic Processes in the Downwash-Impingement Problem][research_vidal_1962]
+- [Corrections and Comments on "Aerodynamic Processes in the...][research_vidal_1963]
+- [STATIC STABILITY TESTS ON A 0.098 SCALE STANDARD LAUNCH...][research_ziegler_1963]
+- [DOWNWASH IMPINGEMENT DESIGN CRITERIA FOR VTOL AIRCRAFT][research_george_perlmutter_1964]
+- [Comment on "The Neutral Point in Stability and Control...][research_roache_1965]
+- [DOWNWASH TESTS OF THE DUAL TANDEM DUCTED PROPELLER VTOL...][research_curtiss_hc_1965]
+- [LIFT, DRAG, AND STATIC STABILITY OF A BLUNT CONICAL MODEL IN...][research_boylan_1965]
+- [The neutral point in stability and control analysis][research_rodgers_1965]
+- [Relationship between the neutral point, maneuver point, and...][research_rodgers_1966]
+- [Static stability characteristics at Mach numbers from 1.90 to...][research_fullerde_1967]
+- [BOATTAIL EFFECTS ON STATIC STABILITY AT SMALL ANGLES OF ATTACK][research_washington_pettis_1968]
+- [LIFTING SURFACE THEORY AND TAIL DOWNWASH CALCULATIONS FOR...][research_levinsky_thommen_1968]
+- [Model experiments of soil erosion by V.T.O.L. aircraft...][research_barton_edwards_1968]
+- [The Static Stability of a Cone-Cylinder Flare and Two...][research_mathur_1969]
+- [Contrails and aircraft downwash][research_scorer_davenport_1970]
+- [Downwash correction for a two-dimensional finite wing][research_ness_1971]
+- [Effects of Modifying a Rotor Tip Vortex by Injection on...][research_rinehart_1971]
+- [Maneuver Load Control and Relaxed Static Stability Applied to...][research_anderson_berger_1973]
+- [Effect of canard location and size on canard-wing...][research_glossbb_1974]
+- [Rotor Downwash Velocities about the UH-1M Helicopter - Flight...][research_jenkins_marks_1975]
+- [Static stability and aperiodic divergence][research_sachs_1975]
+- [Static Stability Characteristics of the MK-82/84...][research_paulk_anderson_1976]
+- [A new concept of static stability and its flight testing in...][research_sachs_1977]
+- [Static Stability and Drag Effects of Various External Store...][research_whoric_1977]
+- [Downwash and induced drag corrections for a lifting wing at...][research_bera_1980]
+- [Effect of downwash on the induced drag of canard-wing...][research_butler_1982]
+- [Volume II. Flying Qualities Phase. Chapter 5 Longitudinal...][research_airforcetestpilotschooledwardsafbca_1990]
+- [Volume II. Flying Qualities Phase. Chapter 7...][research_airforcetestpilotschooledwardsafbca_1990_b]
+- [Modeling of Longitudinal Unsteady Aerodynamics of a Wing-Tail...][research_kleinvladislav_1999]
+- [Estimation of Longitudinal Unsteady Aerodynamics of a...][research_murphypatrickc_kleinvladislav_2006]
 
 $$ V_H = \frac{S_t\,l_t}{S\,\bar{c}} $$
 
@@ -1813,6 +2042,19 @@ absolute values should not be read as tail conditions.
 - [Optimal nonlinear estimation for aircraft flight control in...][research_mulgundsandeeps_1994]
 - [Computational Fluid Dynamics Study for a Deep Stall Air...][research_ramamurti_2011]
 - [Theory, Guidance, and Flight Control for High Maneuverability...][research_fresconi_celmins_2014]
+- [Longitudinal Stability in Aeroplanes][research_bryant_1933]
+- [Longitudinal Stability][research_crowe_1937]
+- [Longitudinal Stability and Control][research_gates_1940]
+- [Wind-Tunnel Investigation of Effects of Unsymmetrical...][research_purserpaule_spearmargaretf_1947]
+- [Longitudinal Stability Characteristics of a 1/40-Scale Model...][research_craneharoldl_beckhardtarnoldr_1948]
+- [Longitudinal-stability Investigation of High-lift and...][research_fostergeraldv_fitzpatrickjamese_1948]
+- [Preliminary Results of an Investigation by the Wing-Flow...][research_craneharoldl_1948]
+- [Static Longitudinal Stability of a Tandem-Coupled...][research_hewesdonalde_1950]
+- [An analysis of the effects of aeroelasticity on static...][research_skoogrichardb_1951]
+- [Aircraft Wake Flow Effect and Horizontal Tail Buffet][research_hwang_pi_1979]
+- [Assessment of propeller influence on lateral-directional...][research_vanrooyen_eshelby_1981]
+- [Performance improvements of an F-15 airplane with an...][research_myerslawrencep_walshkevinr_1988]
+- [A New Approach to Prediction of Aircraft Spin][research_squires_2002]
 
 ### Structure and Materials
 
@@ -1879,7 +2121,7 @@ share a truth. The section is written to make the weakness explicit rather than 
 ### The Climb Claim, Which Does Not Check Out
 
 Specific excess power is a hard ceiling on steady rate of climb, and the reason is one line of algebra
-rather than an assertion. Differentiating energy height and holding speed constant leaves the climb rate
+rather than an assertion, as [Whitford][book_whitford] sets out. Differentiating energy height and holding speed constant leaves the climb rate
 equal to $P_s$, and any acceleration takes from the same budget.
 
 $$ \frac{dh_e}{dt} = \frac{dh}{dt} + \frac{V}{g}\frac{dV}{dt} = P_s \qquad \Longrightarrow \qquad \left.\frac{dh}{dt}\right|_{\max} = P_s $$
@@ -1935,7 +2177,20 @@ the resolution of the source material.
 ### The Takeoff Claim, Which Is Conservative
 
 The ground roll is not taken from a rule of thumb. The acceleration is integrated from rest to lift-off
-against thrust, drag, and the rolling friction on whatever weight the wing is not yet carrying.
+against thrust, drag, and the rolling friction on whatever weight the wing is not yet carrying, following
+the method in [Raymer][book_raymer].
+
+Takeoff and landing ground-run prediction is a small and practical literature, and the period work is where
+the friction coefficients and the lift-off margins used here come from.
+
+- [NOISE CONTROL FOR AIRCRAFT ENGINE TEST CELLS AND GROUND...][research_doelling_bolt_1961]
+- [ESTIMATION OF TAKEOFF GROUND-RUN DISTANCES FOR JET-PROPELLED...][research_linnell_1963]
+- [Takeoff performance of jet-propelled conventional and...][research_krenkel_salzman_1968]
+- [Landing and Takeoff Roll-Out Augmentation][research_muehter_1974]
+- [Airworthiness and Flight Characteristics Test, OV-1C Takeoff...][research_smith_yamakawa_1979]
+- [Propagation of aircraft ground run-up noise including the...][research_chessell_1979]
+- [Take-off ground roll of propeller driven aircraft][research_hawks_1982]
+- [Short Takeoff Performance Using a Gravity Assist Ski Jump][research_furey_1983]
 
 $$ s = \int_0^{V_{\mathrm{LOF}}} \frac{V\,dV}{a(V)}, \qquad a(V) = \frac{T - D - \mu\left(W - L\right)}{W/g} $$
 
@@ -1964,8 +2219,9 @@ time.
 
 $$ R = \frac{V}{c_t}\,\frac{L}{D}\,\ln\frac{W_0}{W_1} $$
 
-The end weight is the start weight less the usable fraction of the fuel, and the ratio is what the logarithm
-acts on.
+The Breguet relation and the mission bookkeeping around it are as given in [Raymer][book_raymer] and
+[Nicolai][book_nicolai]. The end weight is the start weight less the usable fraction of the fuel, and the
+ratio is what the logarithm acts on.
 
 $$ W_1 = W_0 - f\,W_{\mathrm{fuel}} = 35{,}000 - 0.85 \times 14{,}360 = 22{,}794\ \mathrm{lb} $$
 
@@ -2749,6 +3005,14 @@ retained parts are worth, and quantifying that trade is now a research subject i
 - [System-Level, Large-Scale Multidisciplinary Design...][research_ruh_warner_2026]
 - [Transfer learning in surrogate modeling with emphasis on...][research_tfaily_bartoli_2026]
 - [Two-dimensional principal component analysis and stall...][research_chen_zheng_2026]
+- [Aircraft Wing Weight Estimation][research_carreyette_1950]
+- [RAMJET TECHNOLOGY. CHAPTER 3. ENGINE REQUIREMENTS FOR...][research_walker_1952]
+- [Ramjet supersonic “flight tests”][research_ramjet_supersonic_1958]
+- [RESULTS OF THE PHASE II LONG-TERM ENVIRONMENTAL STORAGE TEST...][research_whitney_1963]
+- [Design optimization of aircraft structures with thermal...][research_hackman_richardson_1964]
+- [A fundamental approach to aircraft manufacturing cost...][research_gregorytj_wilcoxde_1970]
+- [Prediction of wing group weight for preliminary design][research_torenbeek_1971]
+- [Preliminary Design and Cost Study of Recirculating Chromate...][research_clark_hallow_1972]
 
 ### Agility metrics settled the argument the competition was having
 
@@ -2874,9 +3138,21 @@ The 260 pounds per second, the four inches of spike travel, the 896 gallons and 
 each stated in secondary literature without a cited primary source.
 **The inlet agreement computed above is a check on their mutual consistency and is offered as partial corroboration of figures that are otherwise uncorroborated.**
 
-**Period coverage.** Of the references gathered, 718 date from 1982 or earlier and 595 from 2015 or later.
-**The count is reported alongside the fraction**, because adding a contemporary survey lowers the period
-fraction while leaving the period count untouched.
+**Period coverage, and both figures are given because either alone misleads.** Of the research references
+cited, **912 date from 1982 or earlier and 595 from 2015 or later**, and 1,176 are primary in the sense of
+an original report or a paper contemporary with the work.
+
+| | Count | Fraction of cited research |
+|---|---|---|
+| Primary | 1,176 | 66.8 percent |
+| Period, through 1982 | 912 | 51.8 percent |
+| Contemporary, 2015 onward | 595 | 33.8 percent |
+
+**The contemporary figures show the mirror of the usual warning.** The count held at 595 and unchanged
+while its fraction fell from 38.4 to 33.8 percent, purely because the period base grew underneath it.
+**Reporting only the fraction would read as contemporary coverage having been cut, and nothing was cut.**
+The same caution applies in the other direction when a survey is added, which is why the count and the
+fraction are given together throughout this article.
 
 ## Epistemic State
 
@@ -3192,7 +3468,9 @@ broke, namely an aircraft that existed and flew.
 
 ### Research
 
+- [1554. Thermal regime and 1974][research_1554_thermal_1974]
 - [16 percent. Aluminium-iron alloy 1954][research_16_percent_1954]
+- [A Conference on Thermal 1954][research_a_conference_1954]
 - [Abdelghany 2025][research_abdelghany_2025]
 - [Abdelwahab, M. 1977][research_abdelwahabm_1977]
 - [Abdelwahab, M. 1981][research_abdelwahabm_1981]
@@ -3205,12 +3483,15 @@ broke, namely an aircraft that existed and flew.
 - [Aerodynamic and Landing Measurements 1960][research_aerodynamic_and_1960]
 - [Afonso et al 2017][research_afonso_vale_2017]
 - [Agag et al 2026][research_agag_ali_2026]
+- [Agarwal and Rakich 1982][research_agarwal_rakich_1982]
 - [Aggarwal et al 2010][research_aggarwal_valerdi_2010]
 - [Agung Saputra et al 2026][research_agungsaputra_bhimashaktiarafat_2026]
 - [Ahuja and Mavris 2022][research_ahuja_mavris_2022]
 - [Air Force Research Lab Edwards Afb Ca 2000][research_airforceresearchlabedwardsafbca_2000]
 - [Air Force Test Pilot School Edwards Afb Ca 1988][research_airforcetestpilotschooledwardsafbca_1988]
 - [Air Force Test Pilot School Edwards Afb Ca 1989][research_airforcetestpilotschooledwardsafbca_1989]
+- [Air Force Test Pilot School Edwards Afb Ca 1990][research_airforcetestpilotschooledwardsafbca_1990]
+- [Air Force Test Pilot School Edwards Afb Ca 1990][research_airforcetestpilotschooledwardsafbca_1990_b]
 - [Akhlaghi et al 2022][research_akhlaghi_azizi_2022]
 - [Al-Saffar et al 1980][research_alsaffar_ashworth_1980]
 - [Alag, G. S. and Kaufman, H. 1974][research_alaggs_kaufmanh_1974]
@@ -3230,8 +3511,10 @@ broke, namely an aircraft that existed and flew.
 - [Analysis of Anti-surge Control 2021][research_analysis_of_2021]
 - [Anantachaisilp and Lin 2020][research_anantachaisilp_lin_2020]
 - [Anatomy of a turbofan 1970][research_anatomy_of_1970]
+- [Anderson 1961][research_anderson_1961]
 - [Anderson 2017][research_anderson_2017]
 - [Anderson et al 1969][research_anderson_murthy_1969]
+- [Anderson et al 1973][research_anderson_berger_1973]
 - [Anderson, Adrien E 1947][research_andersonadriene_1947]
 - [Anderson, B. H. 1974][research_andersonbh_1974]
 - [Anderson, B. H. and Bowditch, D. N. 1958][research_andersonbh_bowditchdn_1958]
@@ -3240,6 +3523,7 @@ broke, namely an aircraft that existed and flew.
 - [Anderson, Bernhard H. and Weir, Lois 2014][research_andersonbernhardh_weirlois_2014]
 - [Anderson, Seth B and Bray, Richard S 1951][research_andersonsethb_brayrichards_1951]
 - [Anderson, Seth B and Bray, Richard S 1955][research_andersonsethb_brayrichards_1955]
+- [Andrews 1969][research_andrews_1969]
 - [Anglin 1978][research_anglin_1978]
 - [Anglin and Satran 1980][research_anglin_satran_1980]
 - [Antaran, Albert et al 1992][research_antaranalbert_beletehailu_1992]
@@ -3251,6 +3535,7 @@ broke, namely an aircraft that existed and flew.
 - [Application of PLC in 2021][research_application_of_2021_b]
 - [Application Practice of Anti-surge 2021][research_application_practice_2021]
 - [Araújo et al 2021][research_araujo_pereira_2021]
+- [Archbold 1945][research_archbold_1945]
 - [Aribi and Boushaki 2023][research_aribi_boushaki_2023]
 - [Arif et al 2021][research_arif_iftikhar_2021]
 - [Arkoosh and Fiore 1972][research_arkoosh_fiore_1972]
@@ -3264,13 +3549,17 @@ broke, namely an aircraft that existed and flew.
 - [Askari and Soltani 2023][research_askari_soltani_2023]
 - [Awerbuch 1980][research_awerbuch_1980]
 - [Axelson, John A. and Crown, J. Conrad 1948][research_axelsonjohna_crownjconrad_1948]
+- [Ayers 1962][research_ayers_1962]
 - [Azizi and Brouwer 2017][research_azizi_brouwer_2017]
 - [Baag et al 2020][research_baag_mahapatra_2020]
 - [Babaei et al 2018][research_babaei_setayandeh_2018]
 - [Babinsky 2014][research_babinsky_2014]
+- [Back et al 1967][research_back_massier_1967]
+- [Back, L. H. and Cuffel, R. F. 1966][research_backlh_cuffelrf_1966]
 - [Bacon 1988][research_bacon_1988]
 - [Bagby and Andersen 1966][research_bagby_andersen_1966]
 - [Bailey 1963][research_bailey_1963]
+- [Baker 1966][research_baker_1966]
 - [Balashov and Petukhov 1969][research_balashov_petukhov_1969]
 - [Baldo and Will 1990][research_baldo_will_1990]
 - [Baldwin et al 1976][research_baldwin_cliborn_1976]
@@ -3280,9 +3569,12 @@ broke, namely an aircraft that existed and flew.
 - [Bangert et al 1982][research_bangert_santman_1982]
 - [Banks, Daniel W. and Paulson, John W., Jr. 1987][research_banksdanielw_paulsonjohnwjr_1987]
 - [Barlow et al 2008][research_barlow_burrus_2008]
+- [Baron 1953][research_baron_1953]
 - [Barry 1971][research_barry_1971]
 - [Barry, F. W. 1968][research_barryfw_1968]
+- [Barton and Edwards 1968][research_barton_edwards_1968]
 - [Baryshev et al 1976][research_baryshev_leontev_1976]
+- [Basov et al 1977][research_basov_berezhnoy_1977]
 - [Batayev et al 2022][research_batayev_suleimenov_2022]
 - [Batterton, P. G. et al 1974][research_battertonpg_arpasidj_1974]
 - [Bauer, Steven X. S. and Mcmillin, S. Naomi 1988][research_bauerstevenxs_mcmillinsnaomi_1988]
@@ -3295,6 +3587,7 @@ broke, namely an aircraft that existed and flew.
 - [Bedell 2010][research_bedell_2010]
 - [Beesly 1966][research_beesly_1966]
 - [Beesly 1966][research_beesly_1966_b]
+- [Beevers 1973][research_beevers_1973]
 - [Beheim, M. A. and Gertsma, L. W. 1956][research_beheimma_gertsmalw_1956]
 - [Benaouali and Kachel 2019][research_benaouali_kachel_2019]
 - [Bennet-Clark 1972][research_bennetclark_1972]
@@ -3303,11 +3596,14 @@ broke, namely an aircraft that existed and flew.
 - [Benson, Thomas J. 1997][research_bensonthomasj_1997]
 - [Beppu et al 1966][research_beppu_curtiss_1966]
 - [Bera 1975][research_bera_1975]
+- [Bera† 1980][research_bera_1980]
 - [Bergstedt et al 1959][research_bergstedt_turner_1959]
 - [Berto et al 2020][research_berto_benini_2020]
+- [Berton, Jeffrey J. 2003][research_bertonjeffreyj_2003]
 - [Bertram, M. H. and Ulmann, E. F. 1953][research_bertrammh_ulmannef_1953]
 - [Bhandari et al 2025][research_bhandari_gaur_2025]
 - [Bhunia et al 2026][research_bhunia_abbas_2026]
+- [Bielat, Ralph P. 1959][research_bielatralphp_1959]
 - [Biesiadny, T. J. et al 1976][research_biesiadnytj_greyre_1976]
 - [Biesiadny, Thomas J. and Wendt, Bruce J. 2004][research_biesiadnythomasj_wendtbrucej_2004]
 - [Bihrle and Barnhart 1982][research_bihrle_barnhart_1982]
@@ -3316,6 +3612,8 @@ broke, namely an aircraft that existed and flew.
 - [Bilwakesh, K. R. et al 1971][research_bilwakeshkr_doylevl_1971]
 - [Bilwakesh, K. R. et al 1972][research_bilwakeshkr_kochcc_1972]
 - [Birch et al 1978][research_birch_paynter_1978]
+- [Bird, John D et al 1952][research_birdjohnd_lichtensteinjacobh_1952]
+- [Biriukov 1959][research_biriukov_1959]
 - [Blaha, B. J. and Johns, A. L. 1971][research_blahabj_johnsal_1971]
 - [Bleviss and Struble 1954][research_bleviss_struble_1954]
 - [Bloxsom 1958][research_bloxsom_1958]
@@ -3325,6 +3623,7 @@ broke, namely an aircraft that existed and flew.
 - [Boles, Michael A. and Heavner, Richard L. 1991][research_bolesmichaela_heavnerrichardl_1991]
 - [Bollech, Thomas V. and Kelly, H. Neale 1954][research_bollechthomasv_kellyhneale_1954]
 - [Bond and Key 2026][research_bond_key_2026]
+- [Bondi 1979][research_bondi_1979]
 - [Bortins, Richard and Sorensen, John A. 1993][research_bortinsrichard_sorensenjohna_1993]
 - [Boudreau 1977][research_boudreau_1977]
 - [Boussios et al 1992][research_boussios_epstein_1992]
@@ -3332,6 +3631,7 @@ broke, namely an aircraft that existed and flew.
 - [Bowditch, D. N. and Coltrin, R. E. 1983][research_bowditchdn_coltrinre_1983]
 - [Bowers 1981][research_bowers_1981]
 - [Bowling et al 1971][research_bowling_hurkamp_1971]
+- [Boylan 1965][research_boylan_1965]
 - [Boytos 1969][research_boytos_1969]
 - [Braithwaite and Soeder 1980][research_braithwaite_soeder_1980]
 - [Braithwaite, W. M. 1973][research_braithwaitewm_1973]
@@ -3342,19 +3642,26 @@ broke, namely an aircraft that existed and flew.
 - [Brazzel et al 1970][research_brazzel_henderson_1970]
 - [Breaks 1973][research_breaks_1973]
 - [Brianas 2005][research_brianas_2005]
+- [Briggs, Benjamin R. 1960][research_briggsbenjaminr_1960]
 - [Bright, Michelle M. et al 2013][research_brightmichellem_korntheuerandrea_2013]
 - [Brodsky 1970][research_brodsky_1970]
+- [Brooke 1957][research_brooke_1957]
 - [Brophy and Hawk 1990][research_brophy_hawk_1990]
 - [Brown 1970][research_brown_1970]
 - [Brown, Clinton E 1946][research_brownclintone_1946]
 - [Brown, S. C. et al 1983][research_brownsc_hardygh_1983]
 - [Brown, Stuart C. 1959][research_brownstuartc_1959]
+- [Browne et al 1948][research_browne_friedman_1948]
+- [Bryant 1933][research_bryant_1933]
 - [Bryce L Horvath and Douglas P Wells 2018][research_brycelhorvath_douglaspwells_2018]
 - [Bryson et al 2016][research_bryson_marks_2016]
 - [Buchholz, Mark D. 1992][research_buchholzmarkd_1992]
 - [Buchholz, Mark D. and Tso, Jin 1993][research_buchholzmarkd_tsojin_1993]
+- [Buchsbaum 1963][research_buchsbaum_1963]
+- [Bull, G. and Bridges, P. D. 1983][research_bullg_bridgespd_1983]
 - [Burk, S. M., Jr. and Ware, G. M. 1967][research_burksmjr_waregm_1967]
 - [Burkhalter 1982][research_burkhalter_1982]
+- [Burley, R. R. 1971][research_burleyrr_1971]
 - [Burley, R. R. and Mansour, A. H. 1969][research_burleyrr_mansourah_1969]
 - [Burley, R. R. and Mansour, A. H. 1970][research_burleyrr_mansourah_1970]
 - [Burley, R. R. and Samanich, N. E. 1970][research_burleyrr_samanichne_1970]
@@ -3362,13 +3669,16 @@ broke, namely an aircraft that existed and flew.
 - [Burstadt, P. L. and Wenzel, L. M. 1976][research_burstadtpl_wenzellm_1976]
 - [Burstadt, P. L. et al 1971][research_burstadtpl_calogerasje_1971]
 - [Burton et al 2004][research_burton_noordhuizen_2004]
+- [Butler 1982][research_butler_1982]
 - [Butler 2025][research_butler_2025]
+- [Butter and Hancock 1971][research_butter_hancock_1971]
 - [Cabrera Cruz et al 2020][research_cabreracruz_pezzini_2020]
 - [Cai and Huang 2022][research_cai_huang_2022_c]
 - [Cai et al 2022][research_cai_huang_2022]
 - [Cai et al 2022][research_cai_huang_2022_b]
 - [Cain and Mogonye 2021][research_cain_mogonye_2021]
 - [Callahan and Stenning 1971][research_callahan_stenning_1971]
+- [Calligeros and Dugundji 1961][research_calligeros_dugundji_1961]
 - [Calogeras, J. E. and Burstadt, P. L. 1974][research_calogerasje_burstadtpl_1974]
 - [Calogeras, J. E. and Coltrin, R. E. 1969][research_calogerasje_coltrinre_1969]
 - [Calogeras, J. E. et al 1974][research_calogerasje_johnsenrl_1974]
@@ -3386,8 +3696,12 @@ broke, namely an aircraft that existed and flew.
 - [Carlin, C. M. et al 2003][research_carlincm_frischi_2003]
 - [Carlson and Schwope 1952][research_carlson_schwope_1952]
 - [Carlyle 1976][research_carlyle_1976]
+- [Carmichael and McNay 1961][research_carmichael_mcnay_1961]
 - [Carosiello 1963][research_carosiello_1963]
+- [Carreyette 1950][research_carreyette_1950]
+- [Carroll 1960][research_carroll_1960]
 - [Cary and Walker 1974][research_cary_walker_1974]
+- [Cassetti 1978][research_cassetti_1978]
 - [Celesio’s acquisition of wholesaler 2016][research_celesios_acquisition_2016]
 - [Cervay 1975][research_cervay_1975]
 - [Chace 2015][research_chace_2015]
@@ -3400,6 +3714,7 @@ broke, namely an aircraft that existed and flew.
 - [Chapman 1979][research_chapman_1979]
 - [Chapman, Dave et al 2005][research_chapmandave_smithcf_2005]
 - [Chell et al 2021][research_chell_hoffenson_2021]
+- [Chen and Dugundji 1980][research_chen_dugundji_1980]
 - [Chen and Tan 2019][research_chen_tan_2019]
 - [Chen and Zhang 2021][research_chen_zhang_2021]
 - [Chen et al 2016][research_chen_chen_2016]
@@ -3414,6 +3729,8 @@ broke, namely an aircraft that existed and flew.
 - [Cheng et al 2024][research_cheng_huang_2024]
 - [Chennuru et al 2025][research_chennuru_corral_2025]
 - [Chesney 2005][research_chesney_2005]
+- [Chessell 1979][research_chessell_1979]
+- [Chester 1953][research_chester_1953]
 - [Child, R. D. and Henderson, W. P. 1978][research_childrd_hendersonwp_1978]
 - [Chima, ROdrick V. 2011][research_chimarodrickv_2011]
 - [Chima, Rodrick V. 2012][research_chimarodrickv_2012]
@@ -3426,7 +3743,11 @@ broke, namely an aircraft that existed and flew.
 - [Chou and Smith 1974][research_chou_smith_1974]
 - [Chun and Burr 1969][research_chun_burr_1969]
 - [Ciepluch, Carl C. 1948][research_ciepluchcarlc_1948]
+- [Ciffone and Pedley 1979][research_ciffone_pedley_1979]
+- [Cirlin and Shen 1971][research_cirlin_shen_1971]
+- [Clark and Hallow 1972][research_clark_hallow_1972]
 - [Clark, L. E. and Richie, C. B. 1977][research_clarkle_richiecb_1977]
+- [Clarke and Wallace 1964][research_clarke_wallace_1964]
 - [Cliett 1952][research_cliett_1952]
 - [Cloos and Nelson 1990][research_cloos_nelson_1990]
 - [Coalson 1968][research_coalson_1968]
@@ -3452,6 +3773,7 @@ broke, namely an aircraft that existed and flew.
 - [Coppi and Sigmar 1973][research_coppi_sigmar_1973]
 - [Cordner 1967][research_cordner_1967]
 - [Cornell Aeronautical Lab Inc Buffalo Ny 1947][research_cornellaeronauticallabincbuffalony_1947]
+- [Corner 1940][research_corner_1940]
 - [Cortright, Edgar M , Jr 1951][research_cortrightedgarmjr_1951]
 - [Cossar et al 1980][research_cossar_moffatt_1980]
 - [Costakis, W. G. 1974][research_costakiswg_1974]
@@ -3464,15 +3786,19 @@ broke, namely an aircraft that existed and flew.
 - [Cox and Roy 1988][research_cox_roy_1988]
 - [Cox, Brian et al 1990][research_coxbrian_borcherspaul_1990]
 - [Craidon, C., B. 1986][research_craidoncb_1986]
+- [Crane, Harold L. 1948][research_craneharoldl_1948]
+- [Crane, Harold L. and Beckhardt, Arnold R. 1948][research_craneharoldl_beckhardtarnoldr_1948]
 - [Crest Engineering Inc Tulsa Ok 1976][research_crestengineeringinctulsaok_1976]
 - [Croan et al 1959][research_croan_rizzitano_1959]
 - [Crossey 1992][research_crossey_1992]
 - [Crosthwait 1970][research_crosthwait_1970]
 - [Crothers 1997][research_crothers_1997]
+- [Crowe 1937][research_crowe_1937]
 - [Crown 1950][research_crown_1950]
 - [Cubillos Chacon 2007][research_cubilloschacon_2007]
 - [Cummings et al 2018][research_cummings_liersch_2018]
 - [Cumpsty and Greitzer 1982][research_cumpsty_greitzer_1982]
+- [Curtiss and H. C. 1965][research_curtiss_hc_1965]
 - [Curtiss and Howard C. 1969][research_curtiss_howardc_1969]
 - [Custis 1978][research_custis_1978]
 - [Cyrus et al 1982][research_cyrus_piscopo_1982]
@@ -3481,6 +3807,9 @@ broke, namely an aircraft that existed and flew.
 - [Daniele and Teren 1975][research_daniele_teren_1975]
 - [Daniele, C. J. and Teren, F. 1975][research_danielecj_terenf_1975]
 - [Das and Prasad 2023][research_das_prasad_2023]
+- [Davidson 1964][research_davidson_1964]
+- [Davis 1952][research_davis_1952]
+- [Davis 1971][research_davis_1971]
 - [Davis, David O. et al 2012][research_davisdavido_vyasmanana_2012]
 - [Davis, R. A. et al 1972][research_davisra_elrodsd_1972]
 - [Davoudzadeh et al 1987][research_davoudzadeh_liu_1987]
@@ -3496,6 +3825,8 @@ broke, namely an aircraft that existed and flew.
 - [Defense Acquisition Univ Ft Belvoir Va 2010][research_defenseacquisitionunivftbelvoirva_2010]
 - [Dehner et al 2021][research_dehner_selamet_2021]
 - [Dehua and Changyou 1993][research_dehua_changyou_1993]
+- [Deitchman 1953][research_deitchman_1953]
+- [Deitchman 1954][research_deitchman_1954]
 - [DeLaurier 1980][research_delaurier_1980]
 - [Demarchi and Haning 1978][research_demarchi_haning_1978]
 - [Dement 1990][research_dement_1990]
@@ -3535,9 +3866,11 @@ broke, namely an aircraft that existed and flew.
 - [Discussion on Control Points 2021][research_discussion_on_2021]
 - [Discussion on the Anti-surge 2021][research_discussion_on_2021_d]
 - [Discussion on the Application 2021][research_discussion_on_2021_c]
+- [Dixon, Sidney C. et al 1961][research_dixonsidneyc_griffithgeorgee_1961]
 - [Dobeš et al 2019][research_dobes_dymacek_2019]
 - [Dobos-Bubno and Hartsook 1977][research_dobosbubno_hartsook_1977]
 - [Doe 2002][research_doe_2002]
+- [Doelling and Bolt 1961][research_doelling_bolt_1961]
 - [Doggett, Robert V., Jr. and Soistmann, David L. 1989][research_doggettrobertvjr_soistmanndavidl_1989]
 - [Dong 2019][research_dong_2019]
 - [Dong et al 2015][research_dong_huang_2015]
@@ -3558,10 +3891,12 @@ broke, namely an aircraft that existed and flew.
 - [Dvirnyk et al 2019][research_dvirnyk_pavlenko_2019]
 - [Dymáček et al 2024][research_dymacek_jary_2024]
 - [Edwards 2010][research_edwards_2010]
+- [Edwards, Sherman and Hikido, Katsumi 1953][research_edwardssherman_hikidokatsumi_1953]
 - [Effect of inlet Mach 2023][research_effect_of_2023]
 - [Effect of Preoperative Oral 2026][research_effect_of_2026]
 - [Egan and Shadowen 1979][research_egan_shadowen_1979]
 - [Eggers 1961][research_eggers_1961]
+- [Egorov 1958][research_egorov_1958]
 - [Eiband 2005][research_eiband_2005]
 - [Elliott 1968][research_elliott_1968]
 - [Ellis and Brownstein 1974][research_ellis_brownstein_1974]
@@ -3612,19 +3947,24 @@ broke, namely an aircraft that existed and flew.
 - [Fett 1971][research_fett_1971]
 - [Ficht 1979][research_ficht_1979]
 - [Filimonov 1972][research_filimonov_1972]
+- [Findikyan et al 1966][research_findikyan_duke_1966]
 - [Fine 1959][research_fine_1959]
 - [Fine and Weertman 1983][research_fine_weertman_1983]
 - [Finnie 1961][research_finnie_1961]
 - [Finsgar 2017][research_finsgar_2017]
 - [Fisher 1977][research_fisher_1977]
+- [Fisher, Lewis R. and Williams, James L. 1958][research_fisherlewisr_williamsjamesl_1958]
 - [FitzSimmons et al 1981][research_fitzsimmons_mckinnon_1981]
+- [Flanagan, Michael J. 1992][research_flanaganmichaelj_1992]
 - [Fleeter et al 1974][research_fleeter_mcclure_1974]
 - [Fleeter et al 1975][research_fleeter_mcclure_1975]
 - [Flow Field Study of 2020][research_flow_field_2020]
 - [Formentini et al 2022][research_formentini_bouissiere_2022]
 - [Forward 1970][research_forward_1970]
 - [Foster, G. V. and Robinson, R. B. 1961][research_fostergv_robinsonrb_1961]
+- [Foster, Gerald V and Fitzpatrick, James E 1948][research_fostergeraldv_fitzpatrickjamese_1948]
 - [Foust, J. W. 1979][research_foustjw_1979]
+- [Fox 1969][research_fox_1969]
 - [Fox and Fuchs 1978][research_fox_fuchs_1978]
 - [Fraiser 1960][research_fraiser_1960]
 - [Franciscus, L. 1972][research_franciscusl_1972]
@@ -3640,6 +3980,8 @@ broke, namely an aircraft that existed and flew.
 - [Fu et al 2021][research_fu_fu_2021_b]
 - [Fujiwara et al 2019][research_fujiwara_takagi_2019]
 - [Fukusako et al 1971][research_fukusako_kiya_1971]
+- [Fuller, D. E. 1967][research_fullerde_1967]
+- [Furey 1983][research_furey_1983]
 - [Furukawa et al 2015][research_furukawa_yamada_2015]
 - [Gabriel, David S et al 1953][research_gabrieldavids_krebsrichardp_1953]
 - [Galindo et al 2022][research_galindo_climent_2022]
@@ -3647,15 +3989,20 @@ broke, namely an aircraft that existed and flew.
 - [Gansler 1972][research_gansler_1972]
 - [Gao et al 2017][research_gao_liu_2017]
 - [Garcia-Benitez et al 2016][research_garciabenitez_cuernorejado_2016]
+- [Gartling 1970][research_gartling_1970]
+- [Gates 1940][research_gates_1940]
 - [Gayton 2004][research_gayton_2004]
 - [Ge et al 2021][research_ge_shang_2021]
 - [Gebhard 1953][research_gebhard_1953]
 - [Gelder, Thomas F 1957][research_gelderthomasf_1957]
 - [Gellatly and Gallagher 1964][research_gellatly_gallagher_1964]
+- [Gellatly et al 1965][research_gellatly_bijlaard_1965]
 - [Geng et al 2025][research_geng_yang_2025]
+- [George et al 1964][research_george_perlmutter_1964]
 - [Gerken 1979][research_gerken_1979]
 - [Gershbein and Peigin 1979][research_gershbein_peigin_1979]
 - [Ghaffari, Farhad 2005][research_ghaffarifarhad_2005]
+- [Ghee et al 1999][research_ghee_gonzalez_1999]
 - [Gilinsky, M. et al 2003][research_gilinskym_gonoral_2003]
 - [Gilinsky, Mikhail et al 2000][research_gilinskymikhail_morganmorrish_2000]
 - [Gillespie, Warren, Jr. 1960][research_gillespiewarrenjr_1960]
@@ -3666,12 +4013,14 @@ broke, namely an aircraft that existed and flew.
 - [Gliebe, P. R. and Kerschen, E. J. 1979][research_gliebepr_kerschenej_1979]
 - [Gliszczyński et al 2021][research_gliszczynski_czechowski_2021]
 - [Glorioso 1960][research_glorioso_1960]
+- [Gloss, B. B. 1974][research_glossbb_1974]
 - [Goldstein 2004][research_goldstein_2004]
 - [Goldstein 2006][research_goldstein_2006]
 - [Golombek et al 2026][research_golombek_bustamante_2026]
 - [Golovin and Sergievskii 1970][research_golovin_sergievskii_1970]
 - [Golubkin 1980][research_golubkin_1980]
 - [Golubkin 1980][research_golubkin_1980_b]
+- [Goodman 1949][research_goodman_1949]
 - [Goodykoontz, J. H. et al 1972][research_goodykoontzjh_olsenwa_1972]
 - [Goodykoontz, J. H. et al 1973][research_goodykoontzjh_dorschrg_1973]
 - [Goodykoontz, J. H. et al 1973][research_goodykoontzjh_wagnerjm_1973]
@@ -3683,11 +4032,16 @@ broke, namely an aircraft that existed and flew.
 - [Gotovtsev 1972][research_gotovtsev_1972]
 - [Gowthaman and Sathiyagnanam 2018][research_gowthaman_sathiyagnanam_2018]
 - [Graham 1969][research_graham_1969]
+- [Graham et al 1954][research_graham_lagerstrom_1954]
 - [Gray 1969][research_gray_1969]
 - [Gray and Wright 1970][research_gray_wright_1970]
 - [Gray et al 2020][research_gray_mader_2020]
 - [Greebler and Suarez 1989][research_greebler_suarez_1989]
+- [Greene 1955][research_greene_1955]
+- [Greene 1956][research_greene_1956]
+- [Greene 1957][research_greene_1957]
 - [Greer 2010][research_greer_2010]
+- [Gregory, T. J. and Wilcox, D. E. 1970][research_gregorytj_wilcoxde_1970]
 - [Greitzer 1972][research_greitzer_1972]
 - [Greitzer 1976][research_greitzer_1976]
 - [Greitzer 1976][research_greitzer_1976_b]
@@ -3701,9 +4055,12 @@ broke, namely an aircraft that existed and flew.
 - [Gros 1963][research_gros_1963]
 - [Gu et al 2023][research_gu_xu_2023]
 - [Guan et al 2019][research_guan_zhou_2019]
+- [Guderley 1987][research_guderley_1987]
+- [Guderley 1988][research_guderley_1988]
 - [Gupta and Ramkumar 2015][research_gupta_ramkumar_2015]
 - [Gómez-Rodríguez et al 2019][research_gomezrodriguez_sanchezcarmona_2019]
 - [Haas and Karanian 1981][research_haas_karanian_1981]
+- [Hackman and Richardson 1964][research_hackman_richardson_1964]
 - [Hale 1973][research_hale_1973]
 - [Hall et al 2017][research_hall_greitzer_2017]
 - [Hall et al 2022][research_hall_greitzer_2022]
@@ -3726,12 +4083,14 @@ broke, namely an aircraft that existed and flew.
 - [Harle 1979][research_harle_1979]
 - [Harman 1978][research_harman_1978]
 - [Harmsworth 1961][research_harmsworth_1961]
+- [Harold and Haefeli 1950][research_harold_haefeli_1950]
 - [Harris, T. M. and Beerman, D. A. 1983][research_harristm_beermanda_1983]
 - [Harris, T. M. et al 1984][research_harristm_beermanda_1984]
 - [Harry and Trobaugh 1966][research_harry_trobaugh_1966]
 - [Hart 1956][research_hart_1956]
 - [Hart 1968][research_hart_1968]
 - [Hart 1974][research_hart_1974]
+- [Hartley et al 1965][research_hartley_furey_1965]
 - [Hartmann 1968][research_hartmann_1968]
 - [Hasan et al 2018][research_hasan_sachs_2018]
 - [Hasel, Lowell E. et al 1953][research_hasellowelle_lankfordjohnl_1953]
@@ -3741,18 +4100,24 @@ broke, namely an aircraft that existed and flew.
 - [Havko et al 2020][research_havko_kapali_2020]
 - [Hawkings 1974][research_hawkings_1974]
 - [Hawkins, J. E. et al 1976][research_hawkinsje_kirklandfp_1976]
+- [Hawkins, Richard and Penland, Jim A. 1997][research_hawkinsrichard_penlandjima_1997]
+- [Hawks 1982][research_hawks_1982]
 - [Hawthorne et al 1978][research_hawthorne_mitchell_1978]
 - [Hayasi 1965][research_hayasi_1965]
 - [Hayes, W. C., Jr. and Sleeman, W. C., Jr. 1959][research_hayeswcjr_sleemanwcjr_1959]
+- [Hazen and Seckel 1950][research_hazen_seckel_1950]
+- [Hebert et al 1973][research_hebert_j_1973]
 - [Heidelberg, Laurence J. and Hall, David G. 1992][research_heidelberglaurencej_halldavidg_1992]
 - [Heidelberg, Laurence J. and Hall, David G. 1993][research_heidelberglaurencej_halldavidg_1993]
 - [Heidmann et al 1980][research_heidmann_saule_1980]
 - [Heimerl, George J. and Hardrath, Herbert F. 1965][research_heimerlgeorgej_hardrathherbertf_1965]
 - [Helmbold 1958][research_helmbold_1958]
+- [Heltsley and Crosswy 1983][research_heltsley_crosswy_1983]
 - [Henderson 1965][research_henderson_1965]
 - [Herbst and Krogull 1973][research_herbst_krogull_1973]
 - [Hernandez, Gloria et al 1994][research_hernandezgloria_woodrichardm_1994]
 - [Herold and Mahoney 1974][research_herold_mahoney_1974]
+- [Hewes, Donald E. 1950][research_hewesdonalde_1950]
 - [Hickey, David H 1956][research_hickeydavidh_1956]
 - [Hickey, David H. and Aoyagi, Kiyoshi 1960][research_hickeydavidh_aoyagikiyoshi_1960]
 - [High temperature-high strength alloy 1974][research_high_temperature_high_1974]
@@ -3762,8 +4127,11 @@ broke, namely an aircraft that existed and flew.
 - [Hill, G. C. and Bowles, J. V. 1976][research_hillgc_bowlesjv_1976]
 - [Hiller Aircraft Corp Palo Alto Ca 1965][research_hilleraircraftcorppaloaltoca_1965]
 - [Hiller Aircraft Corp Palo Alto Ca 1965][research_hilleraircraftcorppaloaltoca_1965_b]
+- [Hiller Aircraft Corp Palo Alto Ca 1965][research_hilleraircraftcorppaloaltoca_1965_c]
+- [Hillier 1970][research_hillier_1970]
 - [Hinkle et al 2011][research_hinkle_tulkoff_2011]
 - [Hirsch 1998][research_hirsch_1998]
+- [Hobbs 1957][research_hobbs_1957]
 - [Hodder, B. K. 1981][research_hodderbk_1981]
 - [Hodder, B. K. et al 1981][research_hodderbk_farquharbw_1981]
 - [Hoffler, K. D. et al 1986][research_hofflerkd_raodm_1986]
@@ -3772,6 +4140,7 @@ broke, namely an aircraft that existed and flew.
 - [Hoh and Mitchell 1983][research_hoh_mitchell_1983]
 - [Holdaway, George H. et al 1959][research_holdawaygeorgeh_lazzeronifranka_1959]
 - [Holl 1975][research_holl_1975]
+- [Holm�r 1974][research_holmr_1974]
 - [Holota 2020][research_holota_2020]
 - [Holroyd and Hardie 1981][research_holroyd_hardie_1981]
 - [Holubik 1988][research_holubik_1988]
@@ -3779,10 +4148,13 @@ broke, namely an aircraft that existed and flew.
 - [Honeycutt 1970][research_honeycutt_1970]
 - [Hooper et al 1957][research_hooper_whidden_1957]
 - [Hopkins, E. J. 1975][research_hopkinsej_1975]
+- [Horton 1954][research_horton_1954]
 - [Horton, Elmer A et al 1951][research_hortonelmera_loftinlaurencek_1951]
 - [Hosseindokht et al 2026][research_hosseindokht_matas_2026]
 - [Hosseini et al 2024][research_hosseini_vaziryzanjany_2024]
 - [Hou et al 2020][research_hou_zhou_2020]
+- [Hrubecky 1963][research_hrubecky_1963]
+- [Hsu and Anderson 1961][research_hsu_anderson_1961]
 - [Hu 2024][research_hu_2024]
 - [Hu et al 2026][research_hu_zhao_2026]
 - [Huang et al 2019][research_huang_zhang_2019]
@@ -3792,12 +4164,16 @@ broke, namely an aircraft that existed and flew.
 - [Hubble and Smith 1979][research_hubble_smith_1979]
 - [Hube 1968][research_hube_1968]
 - [Hughes, D. L. and Mackall, K. G. 1984][research_hughesdl_mackallkg_1984]
+- [Hui 1975][research_hui_1975]
+- [Hunn 1954][research_hunn_1954]
 - [Huntley 1972][research_huntley_1972]
 - [Hunziker 1960][research_hunziker_1960]
 - [Huppert and Benser 1953][research_huppert_benser_1953]
 - [Hutchins and Jones 1975][research_hutchins_jones_1975]
 - [Hutchins and Jr 1978][research_hutchins_jr_1978]
+- [Hwang and Pi 1979][research_hwang_pi_1979]
 - [Iek, Chanthy et al 1993][research_iekchanthy_burleyrichardr_1993]
+- [Ignaczak 1978][research_ignaczak_1978]
 - [Imani et al 2017][research_imani_jahedmotlagh_2017]
 - [Imani et al 2018][research_imani_malekizade_2018]
 - [Imanishi et al 2015][research_imanishi_wang_2015]
@@ -3807,7 +4183,9 @@ broke, namely an aircraft that existed and flew.
 - [Innis, Robert C. and Quigley, Hervey C. 1961][research_innisrobertc_quigleyherveyc_1961]
 - [Iseki and Nicholas 1979][research_iseki_nicholas_1979]
 - [Islam et al 2015][research_islam_fermin_2015]
+- [Isugiyama 1976][research_isugiyama_1976]
 - [Jablon 1972][research_jablon_1972]
+- [Jack, John R 1951][research_jackjohnr_1951]
 - [Jacobs 1973][research_jacobs_1973]
 - [Jacocks and Kneile 1975][research_jacocks_kneile_1975]
 - [James F Connors et al 1957][research_jamesfconnors_georgeawise_1957]
@@ -3815,6 +4193,10 @@ broke, namely an aircraft that existed and flew.
 - [Jaquet, Byron M 1951][research_jaquetbyronm_1951]
 - [Jarvinen 1973][research_jarvinen_1973]
 - [Jelev et al 2019][research_jelev_keane_2019]
+- [Jenkins and Marks 1975][research_jenkins_marks_1975]
+- [Jenkins, J. M. 1979][research_jenkinsjm_1979]
+- [Jenkins, Jerald M. and Kuhl, Albert E. 1977][research_jenkinsjeraldm_kuhlalberte_1977]
+- [Jenney 1935][research_jenney_1935]
 - [Jia et al 2024][research_jia_chen_2024]
 - [Jiang et al 2024][research_jiang_yao_2024]
 - [Jiang et al 2026][research_jiang_liu_2026]
@@ -3827,6 +4209,7 @@ broke, namely an aircraft that existed and flew.
 - [Johnson III and Wu 1974][research_johnsoniii_wu_1974]
 - [Johnson, H. J. and Montoya, E. J. 1973][research_johnsonhj_montoyaej_1973]
 - [Jonathan A Lee and Po-Shou Chen 2005][research_jonathanalee_poshouchen_2005]
+- [Jones 1972][research_jones_1972]
 - [Jones 1973][research_jones_1973]
 - [Jones and Placzankis 2016][research_jones_placzankis_2016]
 - [Jones, Arthur L et al 1947][research_jonesarthurl_flanaganmildredg_1947]
@@ -3835,6 +4218,7 @@ broke, namely an aircraft that existed and flew.
 - [Jones, R. T. 1976][research_jonesrt_1976]
 - [Jones, Robert T 1956][research_jonesrobertt_1956]
 - [Jones, Robert T. 1953][research_jonesrobertt_1953]
+- [Jordan 1973][research_jordan_1973]
 - [Jung et al 2022][research_jung_oh_2022]
 - [Justicia Alados et al 2026][research_justiciaalados_trezza_2026]
 - [K James et al 2021][research_kjames_suryan_2021]
@@ -3855,6 +4239,7 @@ broke, namely an aircraft that existed and flew.
 - [Kawamura and Karashima 1957][research_kawamura_karashima_1957]
 - [Kawamura, T. et al 1987][research_kawamurat_chyuwj_1987]
 - [Kaye and Yeh 1955][research_kaye_yeh_1955]
+- [Kayser and Danberg 1974][research_kayser_danberg_1974]
 - [Kayser and Hillsamer 1960][research_kayser_hillsamer_1960]
 - [Kazula and Höschler 2020][research_kazula_hoschler_2020]
 - [Kazula et al 2019][research_kazula_mischke_2019]
@@ -3870,9 +4255,13 @@ broke, namely an aircraft that existed and flew.
 - [Khazaali and Fereshteh-Saniee 2018][research_khazaali_fereshtehsaniee_2018]
 - [Khobragade et al 2021][research_khobragade_unnikrishnan_2021]
 - [Kholyavko 1971][research_kholyavko_1971]
+- [Khoroshun and Soltanov 1977][research_khoroshun_soltanov_1977]
+- [Khoroshun and Soltanov 1978][research_khoroshun_soltanov_1978]
 - [Kida and Miyai 1978][research_kida_miyai_1978]
+- [Kidwell 1963][research_kidwell_1963]
 - [Kier, D. A. et al 1972][research_kierda_powersbg_1972]
 - [Kigotho et al 2022][research_kigotho_bodylski_2022]
+- [Kikkawa 1955][research_kikkawa_1955]
 - [Kim 2024][research_kim_2024]
 - [Kim and Lee 2022][research_kim_lee_2022]
 - [Kim and Park 2026][research_kim_park_2026]
@@ -3886,6 +4275,7 @@ broke, namely an aircraft that existed and flew.
 - [Klann, G. A. et al 1984][research_klannga_barthrl_1984]
 - [Kleckner, Harold F 1945][research_klecknerharoldf_1945]
 - [Kleckner, Harold F 1946][research_klecknerharoldf_1946]
+- [Klein, Vladislav 1999][research_kleinvladislav_1999]
 - [Klimowitch 1978][research_klimowitch_1978]
 - [Klujber 1973][research_klujber_1973]
 - [Knight 1991][research_knight_1991]
@@ -3920,9 +4310,12 @@ broke, namely an aircraft that existed and flew.
 - [Krause 1981][research_krause_1981]
 - [Krause 1997][research_krause_1997]
 - [Krawczyk et al 2024][research_krawczyk_paul_2024]
+- [Krenkel and Salzman 1968][research_krenkel_salzman_1968]
 - [Kretov 2021][research_kretov_2021]
 - [Krishnaswamy and Nath 1982][research_krishnaswamy_nath_1982]
 - [Krivenyuk et al 1971][research_krivenyuk_tsvilyuk_1971]
+- [Kuchinka 1966][research_kuchinka_1966]
+- [Kuhn 1979][research_kuhn_1979]
 - [Kumar 2022][research_kumar_2022]
 - [Kumar and Capolungo 2022][research_kumar_capolungo_2022]
 - [Kumar and Gaur 2017][research_kumar_gaur_2017]
@@ -3942,6 +4335,7 @@ broke, namely an aircraft that existed and flew.
 - [Lamar, John E. 1987][research_lamarjohne_1987]
 - [Lambert, H. H. and Mizukami, M. 1999][research_lamberthh_mizukamim_1999]
 - [Lapin and Sharov 1974][research_lapin_sharov_1974]
+- [Lapin et al 1952][research_lapin_crookshanks_1952]
 - [Lappas and Ikenaga 2019][research_lappas_ikenaga_2019]
 - [Large 1981][research_large_1981]
 - [Larrabee, E. E. 1975][research_larrabeeee_1975]
@@ -3962,11 +4356,15 @@ broke, namely an aircraft that existed and flew.
 - [Lehtinen and Zeller 1972][research_lehtinen_zeller_1972]
 - [Lehtinen, B. and Zeller, J. R. 1971][research_lehtinenb_zellerjr_1971]
 - [Lehtinen, B. et al 1978][research_lehtinenb_zellerjr_1978]
+- [Leitner 1986][research_leitner_1986]
 - [Lemay, S. P. et al 1988][research_lemaysp_batillsm_1988]
 - [Lengyel-Kampmann et al 2024][research_lengyelkampmann_karboujian_2024]
+- [Leslie 1952][research_leslie_1952]
 - [Leslie and Perry 1954][research_leslie_perry_1954]
+- [Levinsky et al 1968][research_levinsky_thommen_1968]
 - [Levy, Lionel L., Jr. 1959][research_levylionelljr_1959]
 - [Levy, Lionel L., Jr. and Yoshikawa, Kenneth K. 1959][research_levylionelljr_yoshikawakennethk_1959]
+- [Lewis 1976][research_lewis_1976]
 - [Lewis 1998][research_lewis_1998]
 - [Li and Geiselhart 2021][research_li_geiselhart_2021]
 - [Li and Geiselhart 2022][research_li_geiselhart_2022]
@@ -3987,10 +4385,12 @@ broke, namely an aircraft that existed and flew.
 - [Li et al 2025][research_li_sun_2025]
 - [Lichtenstein, Jacob H 1952][research_lichtensteinjacobh_1952]
 - [Lieu 1964][research_lieu_1964]
+- [Liew, K. H. et al 2005][research_liewkh_uripe_2005]
 - [Lin et al 2022][research_lin_bai_2022]
 - [Lin et al 2025][research_lin_li_2025]
 - [Linek et al 2016][research_linek_chytilek_2016]
 - [Ling 1970][research_ling_1970]
+- [Linnell 1963][research_linnell_1963]
 - [Liu and Jiang 2022][research_liu_jiang_2022]
 - [Liu and Vo 2024][research_liu_vo_2024]
 - [Liu et al 2018][research_liu_gao_2018]
@@ -4012,6 +4412,8 @@ broke, namely an aircraft that existed and flew.
 - [Longest 1964][research_longest_1964]
 - [Lou et al 2022][research_lou_harrison_2022]
 - [Lourenco et al 1996][research_lourenco_shih_1996]
+- [Loveless and Boswell 1954][research_loveless_boswell_1954]
+- [Lovell, J Calvin and Wilson, Herbert A JR 1947][research_lovelljcalvin_wilsonherbertajr_1947]
 - [Lowe 1967][research_lowe_1967]
 - [Lu et al 2025][research_lu_li_2025]
 - [Lucas 1978][research_lucas_1978]
@@ -4035,6 +4437,7 @@ broke, namely an aircraft that existed and flew.
 - [Maeda 1961][research_maeda_1961]
 - [Maekawa et al 1978][research_maekawa_higashi_1978]
 - [Magrini and Benini 2026][research_magrini_benini_2026]
+- [Mahlmeister et al 1955][research_mahlmeister_ishimoto_1955]
 - [Mahorter and Robert G. 1961][research_mahorter_robertg_1961]
 - [Maikapar 1959][research_maikapar_1959]
 - [Maikapar 1966][research_maikapar_1966]
@@ -4047,6 +4450,7 @@ broke, namely an aircraft that existed and flew.
 - [Malmuth 1966][research_malmuth_1966_b]
 - [Malone, Michael B. and Peavey, Charles C. 1999][research_malonemichaelb_peaveycharlesc_1999]
 - [Malvi and Roy 2021][research_malvi_roy_2021]
+- [Mansfield 1967][research_mansfield_1967]
 - [Mao and Liu 2016][research_mao_liu_2016]
 - [Maples 1979][research_maples_1979]
 - [Margalida et al 2020][research_margalida_joseph_2020]
@@ -4060,7 +4464,9 @@ broke, namely an aircraft that existed and flew.
 - [Mathauser, Eldon E and Deveikis, William D 1955][research_mathausereldone_deveikiswilliamd_1955]
 - [Mathauser, Eldon E and Deveikis, William D 1957][research_mathausereldone_deveikiswilliamd_1957]
 - [MATHEMATICAL MODELING AND EXPERIMENTAL 2018][research_mathematical_modeling_2018]
+- [Mathur 1969][research_mathur_1969]
 - [Matranga, Gene J. and Armstrong, Neil A. 1959][research_matrangagenej_armstrongneila_1959]
+- [Matsumoto and Sekiya 1975][research_matsumoto_sekiya_1975]
 - [Matzdorf et al 1999][research_matzdorf_kane_1999]
 - [Mauch et al 1980][research_mauch_oldakowski_1980]
 - [Mays 1971][research_mays_1971]
@@ -4100,6 +4506,7 @@ broke, namely an aircraft that existed and flew.
 - [Michell, G. A. 1971][research_michellga_1971]
 - [Miele 1954][research_miele_1954]
 - [Miele, Angelo 1955][research_mieleangelo_1955]
+- [Mikhail 1979][research_mikhail_1979]
 - [Mikhailov et al 2017][research_mikhailov_mikhailova_2017]
 - [Miles 1953][research_miles_1953]
 - [MILITARY PRESENCE AND ARMS 2025][research_military_presence_2025]
@@ -4109,7 +4516,9 @@ broke, namely an aircraft that existed and flew.
 - [Mineta et al 2022][research_mineta_saijo_2022]
 - [Minnicino et al 2009][research_minnicino_gray_2009]
 - [Mireles et al 2019][research_mireles_ficke_2019]
+- [Mitsuyasu 1956][research_mitsuyasu_1956]
 - [Moeckel, W E 1955][research_moeckelwe_1955]
+- [Moeckel, W E and Evans, P J , Jr 1951][research_moeckelwe_evanspjjr_1951]
 - [Moffat et al 1978][research_moffat_healzer_1978]
 - [Moin and Lele 1998][research_moin_lele_1998]
 - [Mokotoff et al 2026][research_mokotoff_arnson_2026]
@@ -4126,6 +4535,7 @@ broke, namely an aircraft that existed and flew.
 - [Mount 1965][research_mount_1965]
 - [Moëns 2022][research_moens_2022]
 - [Muchmore, C. B., Jr. 1988][research_muchmorecbjr_1988]
+- [Muehter 1974][research_muehter_1974]
 - [Mugridge 1975][research_mugridge_1975]
 - [Mulgund, Sandeep S. 1994][research_mulgundsandeeps_1994]
 - [Muller and Gasko 1967][research_muller_gasko_1967]
@@ -4133,18 +4543,22 @@ broke, namely an aircraft that existed and flew.
 - [Mungall, Robert C 1948][research_mungallrobertc_1948]
 - [Munk et al 2019][research_munk_auld_2019]
 - [Muraida et al 1998][research_muraida_grimes_1998]
+- [Murphy, Patrick C. and Klein, Vladislav 2006][research_murphypatrickc_kleinvladislav_2006]
 - [Mushkat 1979][research_mushkat_1979]
 - [Mushtaq and Gaetani 2023][research_mushtaq_gaetani_2023]
 - [Mushtaq and Gaetani 2023][research_mushtaq_gaetani_2023_b]
 - [Mushtaq et al 2024][research_mushtaq_pini_2024]
+- [Myers, Lawrence P. and Walsh, Kevin R. 1988][research_myerslawrencep_walshkevinr_1988]
 - [Myokan et al 2020][research_myokan_kubota_2020]
 - [Mårtensson 2021][research_martensson_2021]
 - [Mårtensson and Billson 2024][research_martensson_billson_2024]
 - [Mårtensson et al 2022][research_martensson_lejon_2022]
 - [N.A. 2021][research_na_2021]
+- [Nagamatsu et al 1960][research_nagamatsu_workman_1960]
 - [Nagao et al 2019][research_nagao_yoshida_2019]
 - [Nagasaka et al 2019][research_nagasaka_muroga_2019]
 - [Nagler 2026][research_nagler_2026]
+- [Nakajima and Yanagawa 1963][research_nakajima_yanagawa_1963]
 - [Nam and Mavris 2018][research_nam_mavris_2018]
 - [Nandy et al 2021][research_nandy_baag_2021]
 - [Narayan 1975][research_narayan_1975]
@@ -4157,6 +4571,7 @@ broke, namely an aircraft that existed and flew.
 - [Nelson, D. P. 1983][research_nelsondp_1983]
 - [Nelson, D. P. and Bresnahan, D. L. 1983][research_nelsondp_bresnahandl_1983]
 - [Nelson, Robert L. and Welsh, Clement J. 1960][research_nelsonrobertl_welshclementj_1960]
+- [Ness 1971][research_ness_1971]
 - [Neumark 1950][research_neumark_1950]
 - [Neverlien et al 2020][research_neverlien_moe_2020]
 - [Newsom, William A., Jr. and Tosti, Louis P. 1959][research_newsomwilliamajr_tostilouisp_1959]
@@ -4167,6 +4582,7 @@ broke, namely an aircraft that existed and flew.
 - [Nichols, Mark R and Pendley, Robert E 1952][research_nicholsmarkr_pendleyroberte_1952]
 - [Nicolay et al 2021][research_nicolay_karpuk_2021]
 - [Nielsen, J. N. 1985][research_nielsenjn_1985]
+- [Nielsen, Jack N et al 1953][research_nielsenjackn_kaattarigeorgee_1953]
 - [Niewald, Roy J and Moul, Martin T 1950][research_niewaldroyj_moulmartint_1950]
 - [Nikitenko 2018][research_nikitenko_2018]
 - [Nimal et al 2019][research_nimal_m_2019]
@@ -4192,8 +4608,10 @@ broke, namely an aircraft that existed and flew.
 - [Ohyama 1978][research_ohyama_1978]
 - [Okumoto and Elsanker 1973][research_okumoto_elsanker_1973]
 - [Old 1957][research_old_1957]
+- [Opalka 1968][research_opalka_1968]
 - [Ordaz and Li 2016][research_ordaz_li_2016]
 - [Ordaz et al 2015][research_ordaz_geiselhart_2015]
+- [Orloff and Ciffone 1974][research_orloff_ciffone_1974]
 - [Orman et al 1951][research_orman_rae_1951]
 - [Oruc and Baklacioglu 2022][research_oruc_baklacioglu_2022]
 - [Oruc and Baklacioglu 2023][research_oruc_baklacioglu_2023]
@@ -4213,8 +4631,11 @@ broke, namely an aircraft that existed and flew.
 - [Palko 1975][research_palko_1975]
 - [Pan et al 2017][research_pan_huang_2017]
 - [Pan et al 2022][research_pan_shi_2022]
+- [Panov and Shvets 1967][research_panov_shvets_1967]
+- [Panov et al 1966][research_panov_shvets_1966]
 - [Panton 1972][research_panton_1972]
 - [Panton 1973][research_panton_1973]
+- [Pao and Banerjee 1978][research_pao_banerjee_1978]
 - [Papadales and Basil S. 1979][research_papadales_basils_1979]
 - [Papageorgiou et al 2018][research_papageorgiou_tarkian_2018]
 - [Paraguassu 2015][research_paraguassu_2015]
@@ -4226,11 +4647,17 @@ broke, namely an aircraft that existed and flew.
 - [Park et al 2016][research_park_chung_2016]
 - [Park et al 2018][research_park_chung_2018]
 - [Park et al 2026][research_park_kim_2026]
+- [Parkes 1953][research_parkes_1953]
+- [Parkes 1954][research_parkes_1954]
+- [Parkes 1956][research_parkes_1956]
+- [Parkes 1956][research_parkes_1956_b]
 - [Parrish and Jr 1978][research_parrish_jr_1978]
 - [Parthasarathy, S. P. et al 1975][research_parthasarathysp_massierpf_1975]
+- [Pasiuk 1963][research_pasiuk_1963]
 - [Patel and Chudoba 2026][research_patel_chudoba_2026]
 - [Patel et al 2020][research_patel_dubey_2020]
 - [Patil 2018][research_patil_2018]
+- [Paulk and Anderson 1976][research_paulk_anderson_1976]
 - [Payne 1957][research_payne_1957]
 - [Pendergraft, Odis C., Jr. et al 1992][research_pendergraftodiscjr_ingraldianthonym_1992]
 - [Pendley and Marsh 1968][research_pendley_marsh_1968]
@@ -4239,11 +4666,13 @@ broke, namely an aircraft that existed and flew.
 - [Penland, J. A. et al 1978][research_penlandja_creeltrjr_1978]
 - [Pennington, J. E. and Meintel, A. J., Jr. 1980][research_penningtonje_meintelajjr_1980]
 - [Pereira and Williams 2015][research_pereira_williams_2015]
+- [Petersen, R. B. 1957][research_petersenrb_1957]
 - [Peterson, Victor L. and Menees, Gene P. 1959][research_petersonvictorl_meneesgenep_1959]
 - [Petricone and Sisto 1971][research_petricone_sisto_1971]
 - [Pettes-Duler et al 2021][research_pettesduler_roboam_2021]
 - [Pečinka et al 2017][research_pecinka_bugajski_2017]
 - [Pfaff 1965][research_pfaff_1965]
+- [Pfaff 1968][research_pfaff_1968]
 - [Pflag 1972][research_pflag_1972]
 - [Phillips and Jr 1999][research_phillips_jr_1999]
 - [PHYSICAL AND THERMAL PROPERTIES 2017][research_physical_and_2017]
@@ -4255,16 +4684,21 @@ broke, namely an aircraft that existed and flew.
 - [Polhamus, E. C. 1966][research_polhamusec_1966]
 - [Polhamus, E. C. 1968][research_polhamusec_1968]
 - [Pope, H. A. 1971][research_popeha_1971]
+- [Portnoy 1963][research_portnoy_1963]
 - [Powell, A. G. et al 1985][research_powellag_welgehr_1985]
 - [Powers 1964][research_powers_1964]
 - [Powers, B. G. 1966][research_powersbg_1966]
 - [Prasad 2025][research_prasad_2025]
 - [Preisser, J. S. et al 1981][research_preisserjs_schoensterja_1981]
 - [Preisser, J. S. et al 1984][research_preisserjs_silcoxrj_1984]
+- [Presz et al 1971][research_presz_konarski_1971]
 - [Prince 1976][research_prince_1976]
 - [Procurement Process Geared Up 1980][research_procurement_process_1980]
 - [Provenza et al 2018][research_provenza_duffy_2018]
 - [Pue 2021][research_pue_2021]
+- [Puett 1967][research_puett_1967]
+- [Puett 1968][research_puett_1968]
+- [Purser, Paul E. and Spear, Margaret F. 1947][research_purserpaule_spearmargaretf_1947]
 - [Puvrez 1965][research_puvrez_1965]
 - [Pyle 1971][research_pyle_1971]
 - [Qi et al 2024][research_qi_jin_2024]
@@ -4281,6 +4715,7 @@ broke, namely an aircraft that existed and flew.
 - [Rains 1955][research_rains_1955]
 - [Ramamurti 2011][research_ramamurti_2011]
 - [Ramaswamy and Viswanathan 1975][research_ramaswamy_viswanathan_1975]
+- [Ramjet supersonic “flight tests” 1958][research_ramjet_supersonic_1958]
 - [Rand 1963][research_rand_1963]
 - [Rao et al 2023][research_rao_chen_2023]
 - [Raspet 1957][research_raspet_1957]
@@ -4291,10 +4726,13 @@ broke, namely an aircraft that existed and flew.
 - [Reedy and Gorrell 2025][research_reedy_gorrell_2025]
 - [Rees 1977][research_rees_1977]
 - [Reichert and Brock 1977][research_reichert_brock_1977]
+- [Reid 1937][research_reid_1937]
 - [Reid and Moore 1980][research_reid_moore_1980]
 - [Reimer and Hudson 1998][research_reimer_hudson_1998]
 - [Reinbold et al 2026][research_reinbold_breitsamter_2026]
 - [Report and discussion on 1966][research_report_and_1966]
+- [Report no. 609, Experimental 1937][research_report_no_1937]
+- [Report No. 648, Design 1939][research_report_no_1939]
 - [Reshotko et al 1977][research_reshotko_karchmer_1977]
 - [Rettie and Lewis 1968][research_rettie_lewis_1968]
 - [Reukauf, P. J. and Burcham, F. W., Jr. 1976][research_reukaufpj_burchamfwjr_1976]
@@ -4308,13 +4746,18 @@ broke, namely an aircraft that existed and flew.
 - [Riffel and Fleeter 1981][research_riffel_fleeter_1981]
 - [Riffin 1943][research_riffin_1943]
 - [Riley 1976][research_riley_1976]
+- [Rinehart 1971][research_rinehart_1971]
+- [Rivello 1965][research_rivello_1965]
 - [RlDHA 1969][research_rldha_1969]
+- [Roache 1965][research_roache_1965]
 - [Roark and Cuda 2010][research_roark_cuda_2010]
 - [Robert S. Osborne and Thomas C. Kelly 1960][research_robertsosborne_thomasckelly_1960]
 - [Roberts 1965][research_roberts_1965]
 - [Roberts et al 1966][research_roberts_smith_1966]
 - [Robins, A. W. et al 1985][research_robinsaw_beissnerfljr_1985]
 - [Rockwell 2001][research_rockwell_2001]
+- [Rodgers 1965][research_rodgers_1965]
+- [Rodgers 1966][research_rodgers_1966]
 - [Rodriguez and Liscouët-Hanke 2025][research_rodriguez_liscouethanke_2025]
 - [Roelofs et al 2021][research_roelofs_kurowicka_2021]
 - [Rokicki 1982][research_rokicki_1982]
@@ -4322,6 +4765,7 @@ broke, namely an aircraft that existed and flew.
 - [Rosenbaum, H. and Zeiberg, S. L. 1965][research_rosenbaumh_zeibergsl_1965]
 - [Roskam and Dusto 1969][research_roskam_dusto_1969]
 - [Roskam et al 1968][research_roskam_holgate_1968]
+- [Rowe 1958][research_rowe_1958]
 - [Rowe and Sussman 1971][research_rowe_sussman_1971]
 - [Roy Salam and Bil 2016][research_roysalam_bil_2016]
 - [Ruban et al 2020][research_ruban_menezes_2020]
@@ -4329,12 +4773,16 @@ broke, namely an aircraft that existed and flew.
 - [Rudolph, Peter K. C. 1997][research_rudolphpeterkc_1997]
 - [Ruh et al 2026][research_ruh_warner_2026]
 - [Rumsey, Charles B. and Lee, Dorothy B. 1961][research_rumseycharlesb_leedorothyb_1961]
+- [Rylov 1974][research_rylov_1974]
+- [Sachs 1975][research_sachs_1975]
+- [Sachs 1977][research_sachs_1977]
 - [Safavi et al 2015][research_safavi_tarkian_2015]
 - [Safoklov et al 2025][research_safoklov_demidov_2025]
 - [Sahai et al 2017][research_sahai_snellen_2017]
 - [Sajadifar et al 2023][research_sajadifar_maier_2023]
 - [Sakata, I. F. and Davis, G. W. 1977][research_sakataif_davisgw_1977]
 - [Sakata, I. F. et al 1975][research_sakataif_davisgw_1975]
+- [Sakurada et al 1965][research_sakurada_nakajima_1965]
 - [Samberger et al 2023][research_samberger_weissensteiner_2023]
 - [Samimy et al 2011][research_samimy_webb_2011]
 - [Sanchez and Liscouët-Hanke 2020][research_sanchez_liscouethanke_2020]
@@ -4360,6 +4808,7 @@ broke, namely an aircraft that existed and flew.
 - [Schwanz 1972][research_schwanz_1972]
 - [Schweikhardt and Grippe 1971][research_schweikhardt_grippe_1971]
 - [Schwendemann, M. F. 1981][research_schwendemannmf_1981]
+- [Scorer and Davenport 1970][research_scorer_davenport_1970]
 - [Secchi et al 2021][research_secchi_lacava_2021]
 - [Sedlock 1985][research_sedlock_1985]
 - [Segletes 2004][research_segletes_2004]
@@ -4394,6 +4843,7 @@ broke, namely an aircraft that existed and flew.
 - [Shu et al 2025][research_shu_gao_2025]
 - [Shulman et al 1966][research_shulman_parry_1966]
 - [Silva et al 2021][research_silva_resende_2021]
+- [Silverstein, Abe and White, James A 1937][research_silversteinabe_whitejamesa_1937]
 - [Simonelli et al 2023][research_simonelli_zou_2023]
 - [Simpson 1971][research_simpson_1971]
 - [Sinaiskii et al 1972][research_sinaiskii_pogrebnyak_1972]
@@ -4403,7 +4853,9 @@ broke, namely an aircraft that existed and flew.
 - [Sinha et al 2026][research_sinha_singh_2026]
 - [Sissingh 1951][research_sissingh_1951]
 - [Sivaramakrishnan 1981][research_sivaramakrishnan_1981]
+- [Sivo, Joseph N 1957][research_sivojosephn_1957]
 - [Sizemore and Jr 1973][research_sizemore_jr_1973]
+- [Skoog, Richard B 1951][research_skoogrichardb_1951]
 - [Skow et al 1982][research_skow_moore_1982]
 - [Slater, John W. 2011][research_slaterjohnw_2011]
 - [Slater, John W. 2014][research_slaterjohnw_2014]
@@ -4414,8 +4866,11 @@ broke, namely an aircraft that existed and flew.
 - [Sleeman, William C., Jr. 1957][research_sleemanwilliamcjr_1957]
 - [Sleeman, William C., Jr. 1961][research_sleemanwilliamcjr_1961]
 - [Smaili et al 2018][research_smaili_rouwhorst_2018]
+- [Smart, Michael K. et al 1994][research_smartmichaelk_kalkhoranirajm_1994]
 - [Smeltzer, D. B. and Sorensen, N. E. 1972][research_smeltzerdb_sorensenne_1972]
+- [Smith 1967][research_smith_1967]
 - [Smith et al 1973][research_smith_lebacqz_1973]
+- [Smith et al 1979][research_smith_yamakawa_1979]
 - [Smith, P. M. 1978][research_smithpm_1978]
 - [Smith, Williard G. 1954][research_smithwilliardg_1954]
 - [Smits and Miles 2002][research_smits_miles_2002]
@@ -4426,7 +4881,10 @@ broke, namely an aircraft that existed and flew.
 - [Soeder, R. H. and Bobula, G. A. 1982][research_soederrh_bobulaga_1982]
 - [Soeder, R. H. and Mehalic, C. M. 1984][research_soederrh_mehaliccm_1984]
 - [Sokolov and Karpati 1978][research_sokolov_karpati_1978]
+- [Solomon, George E 1955][research_solomongeorgee_1955]
 - [Soltani and Askari 2019][research_soltani_askari_2019]
+- [Soltanov 1977][research_soltanov_1977]
+- [Soltanov 1982][research_soltanov_1982]
 - [Sorensen and Bencze 1974][research_sorensen_bencze_1974]
 - [Sorensen and Latham 1975][research_sorensen_latham_1975]
 - [Sorensen et al 1969][research_sorensen_smeltzer_1969]
@@ -4440,6 +4898,8 @@ broke, namely an aircraft that existed and flew.
 - [Spencer, Bernard, Jr. 1961][research_spencerbernardjr_1961]
 - [Spooner, Stanley H and Martina, Albert P 1948][research_spoonerstanleyh_martinaalbertp_1948]
 - [Spreemann, Kenneth P 1958][research_spreemannkennethp_1958]
+- [Spreiter and Sacks 1951][research_spreiter_sacks_1951]
+- [Squires 2002][research_squires_2002]
 - [Stancil 1979][research_stancil_1979]
 - [Stanišić 1961][research_stanisic_1961]
 - [Starken and Lichtfuss 1970][research_starken_lichtfuss_1970]
@@ -4447,9 +4907,11 @@ broke, namely an aircraft that existed and flew.
 - [Stenning 1980][research_stenning_1980]
 - [Stenning 1980][research_stenning_1980_b]
 - [Stephens, Emily W. 1959][research_stephensemilyw_1959]
+- [Stephenson 1953][research_stephenson_1953]
 - [Stephenson 1958][research_stephenson_1958]
 - [Stephenson and Shohet 1967][research_stephenson_shohet_1967]
 - [Sterbentz, William H. and Davids, Joseph 1952][research_sterbentzwilliamh_davidsjoseph_1952]
+- [Stewart 1956][research_stewart_1956]
 - [Stewart et al 1975][research_stewart_dominick_1975]
 - [Stewart et al 2011][research_stewart_bull_2011]
 - [Stewartson 1950][research_stewartson_1950]
@@ -4466,9 +4928,11 @@ broke, namely an aircraft that existed and flew.
 - [Subramanian and DeLaurentis 2016][research_subramanian_delaurentis_2016]
 - [Sugiyama 1971][research_sugiyama_1971]
 - [Sugiyama 1971][research_sugiyama_1971_b]
+- [Sugiyama 1977][research_sugiyama_1977]
 - [Sui et al 2025][research_sui_lu_2025]
 - [Sullivan 1943][research_sullivan_1943]
 - [Sullivan, P. G. 1978][research_sullivanpg_1978]
+- [Sullivan, R. L. 1979][research_sullivanrl_1979]
 - [Sun and Smith 2019][research_sun_smith_2019]
 - [Sun and Zhang 2016][research_sun_zhang_2016]
 - [Sun et al 2015][research_sun_nie_2015]
@@ -4484,10 +4948,12 @@ broke, namely an aircraft that existed and flew.
 - [Surber and Sedlock 1979][research_surber_sedlock_1979]
 - [Surwase and Kumar 2025][research_surwase_kumar_2025]
 - [Sussman 1968][research_sussman_1968]
+- [Sutton, Fred B. 1959][research_suttonfredb_1959]
 - [Syberg and Koncsek 1976][research_syberg_koncsek_1976]
 - [Syberg, J. and Koncsek, J. L. 1972][research_sybergj_koncsekjl_1972]
 - [Szusta 2018][research_szusta_2018]
 - [Sélim et al 2023][research_selim_liscouethanke_2023]
+- [Taggart 1966][research_taggart_1966]
 - [Taghi-Abad et al 2026][research_taghiabad_esfandabadi_2026]
 - [Tahmasebi and Karimi M. 2015][research_tahmasebi_karimim_2015]
 - [Tahsini 2020][research_tahsini_2020]
@@ -4499,8 +4965,11 @@ broke, namely an aircraft that existed and flew.
 - [Tanaka and Murata 1975][research_tanaka_murata_1975_c]
 - [Tanaka and Nojima 1971][research_tanaka_nojima_1971]
 - [Taneich and Rinoie 2025][research_taneich_rinoie_2025]
+- [Tang 1969][research_tang_1969]
 - [Tanguy et al 2018][research_tanguy_macmanus_2018]
+- [Tani 1978][research_tani_1978]
 - [Tanida 1972][research_tanida_1972]
+- [Tanner, Carole S. and McLeod, Norman J. 1965][research_tannercaroles_mcleodnormanj_1965]
 - [Tao et al 2024][research_tao_wang_2024]
 - [Tarnowski et al 2021][research_tarnowski_borowski_2021]
 - [Tate and Gillard 1975][research_tate_gillard_1975]
@@ -4517,6 +4986,7 @@ broke, namely an aircraft that existed and flew.
 - [The Rolls‐Royce RB.211 Three 1968][research_the_rollsroyce_1968]
 - [The Rolls‐Royce Spey Junior 1967][research_the_rollsroyce_1967]
 - [Thein 2018][research_thein_2018]
+- [Theodorsen 1959][research_theodorsen_1959]
 - [Thomas 1965][research_thomas_1965]
 - [Thomas and Srinivasan 1974][research_thomas_srinivasan_1974]
 - [Thomas, Randy and Stueber, Thomas J. 2013][research_thomasrandy_stueberthomasj_2013]
@@ -4530,6 +5000,7 @@ broke, namely an aircraft that existed and flew.
 - [Toll, Thomas A 1942][research_tollthomasa_1942]
 - [Tondl 1979][research_tondl_1979]
 - [Tongguang et al 2015][research_tongguang_changhui_2015]
+- [Torenbeek 1971][research_torenbeek_1971]
 - [Torgerson et al 2019][research_torgerson_mantri_2019]
 - [Torić et al 2017][research_toric_brnic_2017]
 - [Torić et al 2018][research_toric_glavinic_2018]
@@ -4557,6 +5028,7 @@ broke, namely an aircraft that existed and flew.
 - [Uludag and Turan 2015][research_uludag_turan_2015]
 - [Um 2016][research_um_2016]
 - [Using Tip Injection to 2022][research_using_tip_2022]
+- [Uthgenannt 1971][research_uthgenannt_1971]
 - [Utomo and Bura 2019][research_utomo_bura_2019]
 - [Valencia et al 2017][research_valencia_hidalgo_2017]
 - [Valencia et al 2020][research_valencia_alulema_2020]
@@ -4564,15 +5036,19 @@ broke, namely an aircraft that existed and flew.
 - [Valoppi et al 2017][research_valoppi_bruschi_2017]
 - [Van Deusen and Mardoc 1972][research_vandeusen_mardoc_1972]
 - [Van Dommelen 1995][research_vandommelen_1995]
+- [van Rooyen and Eshelby 1981][research_vanrooyen_eshelby_1981]
 - [Vance F. Dippold III 2022][research_vancefdippoldiii_2022]
 - [Vandervelden, Alexander J. M. and Kroo, Ilan 1990][research_vanderveldenalexanderjm_krooilan_1990]
 - [VanSchalkwyk, Christian et al 2001][research_vanschalkwykchristian_brightmichellem_2001]
+- [Vasil'ev 1970][research_vasilev_1970]
 - [Vazsonyi 1950][research_vazsonyi_1950]
 - [Veeresh Kumar et al 2021][research_veereshkumar_nagasailaja_2021]
 - [Venturelli and Benini 2016][research_venturelli_benini_2016]
 - [Veresnikov et al 2026][research_veresnikov_goncharenko_2026]
 - [Verlaine 2023][research_verlaine_2023]
 - [Verma 2018][research_verma_2018]
+- [Vidal 1962][research_vidal_1962]
+- [Vidal 1963][research_vidal_1963]
 - [Vieira et al 2020][research_vieira_koch_2020]
 - [Vijayakumar et al 2015][research_vijayakumar_senthilvelan_2015]
 - [Vinogradov et al 2017][research_vinogradov_makarov_2017]
@@ -4587,6 +5063,7 @@ broke, namely an aircraft that existed and flew.
 - [Vu et al 2025][research_vu_nguyen_2025]
 - [Wacker 1967][research_wacker_1967]
 - [Wahler et al 2025][research_wahler_maruyama_2025]
+- [Walker 1952][research_walker_1952]
 - [Walker 1955][research_walker_1955]
 - [Walker et al 1980][research_walker_heming_1980]
 - [Walker, Harold J and Berggren, Robert E 1948][research_walkerharoldj_berggrenroberte_1948]
@@ -4613,7 +5090,11 @@ broke, namely an aircraft that existed and flew.
 - [Wang et al 2025][research_wang_zhao_2025]
 - [Wang et al 2026][research_wang_guan_2026]
 - [Wang et al 2026][research_wang_zhao_2026]
+- [Ward 1949][research_ward_1949]
+- [Warren and Chen 1973][research_warren_chen_1973]
 - [Warsch et al 2026][research_warsch_carbone_2026]
+- [Washington and Humphrey 1969][research_washington_humphrey_1969]
+- [Washington et al 1968][research_washington_pettis_1968]
 - [Wasserbauer, J. F. and Gerstenmaier, W. H. 1978][research_wasserbauerjf_gerstenmaierwh_1978]
 - [Wasserbauer, J. F. et al 1985][research_wasserbauerjf_neumannhe_1985]
 - [Wasserman and Mitchell 1973][research_wasserman_mitchell_1973]
@@ -4628,6 +5109,7 @@ broke, namely an aircraft that existed and flew.
 - [Weissman 1973][research_weissman_1973]
 - [Wells 1993][research_wells_1993]
 - [Welna et al 1969][research_welna_dahlberg_1969]
+- [Werner, Roger A. and Wolter, John D. 2010][research_wernerrogera_wolterjohnd_2010]
 - [Wetzel, Benton E 1955][research_wetzelbentone_1955]
 - [Whalen, Paul P and Wilcox, Fred A 1956][research_whalenpaulp_wilcoxfreda_1956]
 - [Whalley, Matthew S. 1991][research_whalleymatthews_1991]
@@ -4637,8 +5119,11 @@ broke, namely an aircraft that existed and flew.
 - [Whitcomb, Richard T. 1953][research_whitcombrichardt_1953]
 - [Whitcomb, Richard T. and Sevier, John R., Jr. 1960][research_whitcombrichardt_sevierjohnrjr_1960]
 - [White 1997][research_white_1997]
+- [Whitney 1963][research_whitney_1963]
 - [Whitson et al 1950][research_whitson_bartimo_1950]
+- [Whittley 1952][research_whittley_1952]
 - [Whoric 1973][research_whoric_1973]
+- [Whoric 1977][research_whoric_1977]
 - [Wickert 1985][research_wickert_1985]
 - [Wilcox, Fred A 1957][research_wilcoxfreda_1957]
 - [Wilde and Pickerell 1968][research_wilde_pickerell_1968]
@@ -4647,6 +5132,7 @@ broke, namely an aircraft that existed and flew.
 - [Williams and Yost 1973][research_williams_yost_1973]
 - [Willis 1981][research_willis_1981]
 - [Wilson et al 1993][research_wilson_riley_1993]
+- [Winkler 1954][research_winkler_1954]
 - [Winograd and Miles 1956][research_winograd_miles_1956]
 - [Winternitz and Ramsay 1957][research_winternitz_ramsay_1957]
 - [Wisniewski 1951][research_wisniewski_1951]
@@ -4670,6 +5156,7 @@ broke, namely an aircraft that existed and flew.
 - [Yagn and Kal'ko 1972][research_yagn_kalko_1972]
 - [Yamaguchi 1964][research_yamaguchi_1964]
 - [Yamamoto et al 2020][research_yamamoto_kojima_2020]
+- [Yamanaka and Kamimura 1975][research_yamanaka_kamimura_1975]
 - [Yan et al 2025][research_yan_pan_2025]
 - [Yang et al 2021][research_yang_ji_2021]
 - [Yang et al 2021][research_yang_lu_2021]
@@ -4730,6 +5217,7 @@ broke, namely an aircraft that existed and flew.
 - [Zhu et al 2020][research_zhu_luo_2020]
 - [Zhu et al 2023][research_zhu_wu_2023]
 - [Zhu et al 2023][research_zhu_xing_2023]
+- [Ziegler 1963][research_ziegler_1963]
 - [Zien and Ragsdale 1979][research_zien_ragsdale_1979]
 - [Ziganshin and Logachev 2020][research_ziganshin_logachev_2020]
 - [Zimmerman, C H 1935][research_zimmermanch_1935]
@@ -4738,12 +5226,15 @@ broke, namely an aircraft that existed and flew.
 - [Zubtsov and Sudakov 1982][research_zubtsov_sudakov_1982]
 - [Zukoski and Auerbach 1976][research_zukoski_auerbach_1976]
 - [zurLippe 2013][research_zurlippe_2013]
+- [Zwieback 1964][research_zwieback_1964]
 - [Ünal et al 2023][research_unal_oz_2023]
 - [王 et al 2022][research___2022]
 
+[research_1554_thermal_1974]: https://doi.org/10.1016/0042-207x(74)92406-3
 [research_16_percent_1954]: https://doi.org/10.1016/s0042-207x(54)80174-6
 [research___2022]: https://doi.org/10.1360/ssi-2022-0185
 [research___2023]: https://doi.org/10.36948/ijfmr.2023.v05i05.7351
+[research_a_conference_1954]: https://doi.org/10.1108/eb032393
 [research_abdelghany_2025]: https://doi.org/10.21608/ijaes.2024.319394.1027
 [research_abdelwahabm_1977]: https://ntrs.nasa.gov/citations/19770024209
 [research_abdelwahabm_1981]: https://ntrs.nasa.gov/citations/19820010348
@@ -4756,12 +5247,15 @@ broke, namely an aircraft that existed and flew.
 [research_aerodynamic_and_1960]: https://ntrs.nasa.gov/citations/19980228350
 [research_afonso_vale_2017]: https://doi.org/10.1016/j.ast.2017.03.029
 [research_agag_ali_2026]: https://doi.org/10.1016/j.tourman.2026.105427
+[research_agarwal_rakich_1982]: https://doi.org/10.2514/3.51132
 [research_aggarwal_valerdi_2010]: https://doi.org/10.21236/ada568331
 [research_agungsaputra_bhimashaktiarafat_2026]: https://doi.org/10.55606/teknik.v6i1.8537
 [research_ahuja_mavris_2022]: https://doi.org/10.2514/1.c036654
 [research_airforceresearchlabedwardsafbca_2000]: https://doi.org/10.21236/ada404927
 [research_airforcetestpilotschooledwardsafbca_1988]: https://doi.org/10.21236/ada319984
 [research_airforcetestpilotschooledwardsafbca_1989]: https://doi.org/10.21236/ada319980
+[research_airforcetestpilotschooledwardsafbca_1990]: https://doi.org/10.21236/ada319976
+[research_airforcetestpilotschooledwardsafbca_1990_b]: https://doi.org/10.21236/ada319978
 [research_akhlaghi_azizi_2022]: https://doi.org/10.3390/machines10080706
 [research_alaggs_kaufmanh_1974]: https://ntrs.nasa.gov/citations/19740055118
 [research_alberts_1995]: https://doi.org/10.21236/ada296175
@@ -4781,7 +5275,9 @@ broke, namely an aircraft that existed and flew.
 [research_analysis_of_2021]: https://doi.org/10.47939/et.v2i6.122
 [research_anantachaisilp_lin_2020]: https://doi.org/10.3390/act9030075
 [research_anatomy_of_1970]: https://doi.org/10.1016/0010-4361(70)90311-3
+[research_anderson_1961]: https://doi.org/10.21236/ad0322137
 [research_anderson_2017]: https://doi.org/10.69554/kqzv7354
+[research_anderson_berger_1973]: https://doi.org/10.2514/3.60204
 [research_anderson_murthy_1969]: https://doi.org/10.2514/3.48102
 [research_andersonadriene_1947]: https://ntrs.nasa.gov/citations/19930085723
 [research_andersonbernhardh_levyralph_1991]: https://ntrs.nasa.gov/citations/19920004741
@@ -4791,6 +5287,7 @@ broke, namely an aircraft that existed and flew.
 [research_andersonbh_bowditchdn_1960]: https://ntrs.nasa.gov/citations/19630002315
 [research_andersonsethb_brayrichards_1951]: https://ntrs.nasa.gov/citations/19930086840
 [research_andersonsethb_brayrichards_1955]: https://ntrs.nasa.gov/citations/19930092243
+[research_andrews_1969]: https://doi.org/10.2514/3.44090
 [research_anglin_1978]: https://doi.org/10.2514/3.58445
 [research_anglin_satran_1980]: https://doi.org/10.2514/3.57980
 [research_antaranalbert_beletehailu_1992]: https://ntrs.nasa.gov/citations/19930008977
@@ -4802,6 +5299,7 @@ broke, namely an aircraft that existed and flew.
 [research_application_of_2021_b]: https://doi.org/10.47939/et.v2i5.118
 [research_application_practice_2021]: https://doi.org/10.47939/et.v2i10.366
 [research_araujo_pereira_2021]: https://doi.org/10.1016/j.ast.2021.106864
+[research_archbold_1945]: https://doi.org/10.1017/s0001924000108632
 [research_aribi_boushaki_2023]: https://doi.org/10.37394/232016.2023.18.1
 [research_arif_iftikhar_2021]: https://doi.org/10.1177/09544100211002970
 [research_arkoosh_fiore_1972]: https://doi.org/10.1007/bf02643237
@@ -4815,13 +5313,17 @@ broke, namely an aircraft that existed and flew.
 [research_askari_soltani_2023]: https://doi.org/10.2514/1.c037043
 [research_awerbuch_1980]: https://doi.org/10.21236/ada111006
 [research_axelsonjohna_crownjconrad_1948]: https://ntrs.nasa.gov/citations/19930085834
+[research_ayers_1962]: https://doi.org/10.1108/eb033637
 [research_azizi_brouwer_2017]: https://doi.org/10.1016/j.jpowsour.2017.09.010
 [research_baag_mahapatra_2020]: https://doi.org/10.1016/j.jtherbio.2019.102494
 [research_babaei_setayandeh_2018]: https://doi.org/10.1016/j.cja.2018.04.018
 [research_babinsky_2014]: https://doi.org/10.21236/ada602774
+[research_back_massier_1967]: https://doi.org/10.2514/3.29015
+[research_backlh_cuffelrf_1966]: https://ntrs.nasa.gov/citations/19670036104
 [research_bacon_1988]: https://doi.org/10.21236/ada192789
 [research_bagby_andersen_1966]: https://doi.org/10.2514/3.43750
 [research_bailey_1963]: https://doi.org/10.21236/ad0437102
+[research_baker_1966]: https://doi.org/10.2514/3.43708
 [research_balashov_petukhov_1969]: https://doi.org/10.1007/bf01543222
 [research_baldo_will_1990]: https://doi.org/10.21236/ada239727
 [research_baldwin_cliborn_1976]: https://doi.org/10.21236/ada035863
@@ -4831,9 +5333,12 @@ broke, namely an aircraft that existed and flew.
 [research_bangert_santman_1982]: https://doi.org/10.2514/3.57356
 [research_banksdanielw_paulsonjohnwjr_1987]: https://ntrs.nasa.gov/citations/19870005747
 [research_barlow_burrus_2008]: https://doi.org/10.21236/ada478871
+[research_baron_1953]: https://doi.org/10.2514/8.2565
 [research_barry_1971]: https://doi.org/10.2514/3.44269
 [research_barryfw_1968]: https://ntrs.nasa.gov/citations/19710028359
+[research_barton_edwards_1968]: https://doi.org/10.1016/0022-4898(68)90110-9
 [research_baryshev_leontev_1976]: https://doi.org/10.1007/bf00863655
+[research_basov_berezhnoy_1977]: https://doi.org/10.1109/jqe.1977.1069590
 [research_batayev_suleimenov_2022]: https://doi.org/10.11591/ijece.v12i2.pp1419-1428
 [research_battertonpg_arpasidj_1974]: https://ntrs.nasa.gov/citations/19740025659
 [research_bauerstevenxs_mcmillinsnaomi_1988]: https://ntrs.nasa.gov/citations/19880053539
@@ -4846,6 +5351,7 @@ broke, namely an aircraft that existed and flew.
 [research_bedell_2010]: https://doi.org/10.21236/ada561210
 [research_beesly_1966]: https://doi.org/10.1108/eb034195
 [research_beesly_1966_b]: https://doi.org/10.1049/tpe.1966.0073
+[research_beevers_1973]: https://doi.org/10.1007/bf01260879
 [research_beheimma_gertsmalw_1956]: https://ntrs.nasa.gov/citations/19630002647
 [research_benaouali_kachel_2019]: https://doi.org/10.1016/j.ast.2019.06.040
 [research_bennetclark_1972]: https://doi.org/10.1038/239451b0
@@ -4854,11 +5360,14 @@ broke, namely an aircraft that existed and flew.
 [research_bensonthomasj_1997]: https://ntrs.nasa.gov/citations/20050179350
 [research_beppu_curtiss_1966]: https://doi.org/10.21236/ad0640945
 [research_bera_1975]: https://doi.org/10.2514/3.44499
+[research_bera_1980]: https://doi.org/10.1080/0020739800110412
 [research_bergstedt_turner_1959]: https://doi.org/10.21236/ad0402171
 [research_berto_benini_2020]: https://doi.org/10.2514/1.j058764
+[research_bertonjeffreyj_2003]: https://ntrs.nasa.gov/citations/20040008601
 [research_bertrammh_ulmannef_1953]: https://ntrs.nasa.gov/citations/19630010653
 [research_bhandari_gaur_2025]: https://doi.org/10.1016/j.engfailanal.2025.109534
 [research_bhunia_abbas_2026]: https://doi.org/10.61653/joast.v78i2.2026.1160
+[research_bielatralphp_1959]: https://ntrs.nasa.gov/citations/19980232001
 [research_biesiadnythomasj_wendtbrucej_2004]: https://ntrs.nasa.gov/citations/20050040781
 [research_biesiadnytj_greyre_1976]: https://ntrs.nasa.gov/citations/19760014125
 [research_bihrle_barnhart_1982]: https://doi.org/10.2514/3.44789
@@ -4867,6 +5376,8 @@ broke, namely an aircraft that existed and flew.
 [research_bilwakeshkr_doylevl_1971]: https://ntrs.nasa.gov/citations/19710023725
 [research_bilwakeshkr_kochcc_1972]: https://ntrs.nasa.gov/citations/19720020168
 [research_birch_paynter_1978]: https://doi.org/10.2514/3.58395
+[research_birdjohnd_lichtensteinjacobh_1952]: https://ntrs.nasa.gov/citations/19930083189
+[research_biriukov_1959]: https://doi.org/10.1016/0021-8928(59)90174-1
 [research_blahabj_johnsal_1971]: https://ntrs.nasa.gov/citations/19710009388
 [research_bleviss_struble_1954]: https://doi.org/10.2514/8.3176
 [research_bloxsom_1958]: https://doi.org/10.2514/8.7403
@@ -4876,6 +5387,7 @@ broke, namely an aircraft that existed and flew.
 [research_bolesmichaela_heavnerrichardl_1991]: https://ntrs.nasa.gov/citations/19910014810
 [research_bollechthomasv_kellyhneale_1954]: https://ntrs.nasa.gov/citations/20090022756
 [research_bond_key_2026]: https://doi.org/10.2514/1.j066481
+[research_bondi_1979]: https://doi.org/10.21236/ada077035
 [research_bortinsrichard_sorensenjohna_1993]: https://ntrs.nasa.gov/citations/19950004810
 [research_boudreau_1977]: https://doi.org/10.2514/3.58889
 [research_boussios_epstein_1992]: https://doi.org/10.21236/ada252771
@@ -4883,6 +5395,7 @@ broke, namely an aircraft that existed and flew.
 [research_bowditchdn_coltrinre_1983]: https://ntrs.nasa.gov/citations/19830064291
 [research_bowers_1981]: https://doi.org/10.2514/3.57530
 [research_bowling_hurkamp_1971]: https://doi.org/10.2514/3.59119
+[research_boylan_1965]: https://doi.org/10.21236/ad0460154
 [research_boytos_1969]: https://doi.org/10.2514/3.44107
 [research_braithwaite_soeder_1980]: https://doi.org/10.2514/3.57927
 [research_braithwaitewm_1973]: https://ntrs.nasa.gov/citations/19740002609
@@ -4893,19 +5406,26 @@ broke, namely an aircraft that existed and flew.
 [research_brazzel_henderson_1970]: https://doi.org/10.21236/ad0871756
 [research_breaks_1973]: https://doi.org/10.2514/3.60235
 [research_brianas_2005]: https://doi.org/10.21236/ada435694
+[research_briggsbenjaminr_1960]: https://ntrs.nasa.gov/citations/19980227791
 [research_brightmichellem_korntheuerandrea_2013]: https://ntrs.nasa.gov/citations/20130003192
 [research_brodsky_1970]: https://doi.org/10.21236/ad0716026
+[research_brooke_1957]: https://doi.org/10.21236/ad0154531
 [research_brophy_hawk_1990]: https://doi.org/10.21236/ada378098
 [research_brown_1970]: https://doi.org/10.21236/ad0712047
 [research_brownclintone_1946]: https://ntrs.nasa.gov/citations/19930090940
+[research_browne_friedman_1948]: https://doi.org/10.2514/8.11620
 [research_brownsc_hardygh_1983]: https://ntrs.nasa.gov/citations/19830018574
 [research_brownstuartc_1959]: https://ntrs.nasa.gov/citations/19980228294
+[research_bryant_1933]: https://doi.org/10.1108/eb029696
 [research_brycelhorvath_douglaspwells_2018]: https://ntrs.nasa.gov/citations/20190000431
 [research_bryson_marks_2016]: https://doi.org/10.2514/1.c033455
 [research_buchholzmarkd_1992]: https://ntrs.nasa.gov/citations/19940019630
 [research_buchholzmarkd_tsojin_1993]: https://ntrs.nasa.gov/citations/19970022303
+[research_buchsbaum_1963]: https://doi.org/10.21236/ad0402905
+[research_bullg_bridgespd_1983]: https://ntrs.nasa.gov/citations/19840029551
 [research_burkhalter_1982]: https://doi.org/10.2514/3.44793
 [research_burksmjr_waregm_1967]: https://ntrs.nasa.gov/citations/19670027396
+[research_burleyrr_1971]: https://ntrs.nasa.gov/citations/19720004062
 [research_burleyrr_mansourah_1969]: https://ntrs.nasa.gov/citations/19690025535
 [research_burleyrr_mansourah_1970]: https://ntrs.nasa.gov/citations/19700015497
 [research_burleyrr_samanichne_1970]: https://ntrs.nasa.gov/citations/19700057447
@@ -4913,13 +5433,16 @@ broke, namely an aircraft that existed and flew.
 [research_burstadtpl_calogerasje_1974]: https://ntrs.nasa.gov/citations/19740022130
 [research_burstadtpl_wenzellm_1976]: https://ntrs.nasa.gov/citations/19760055251
 [research_burton_noordhuizen_2004]: https://doi.org/10.21236/ada432867
+[research_butler_1982]: https://doi.org/10.2514/3.44764
 [research_butler_2025]: https://doi.org/10.21552/edseq/2026/1/7
+[research_butter_hancock_1971]: https://doi.org/10.1017/s0001924000046133
 [research_cabreracruz_pezzini_2020]: https://doi.org/10.1115/1.4045218
 [research_cai_huang_2022]: https://doi.org/10.3390/en15113879
 [research_cai_huang_2022_b]: https://doi.org/10.3390/en15145057
 [research_cai_huang_2022_c]: https://doi.org/10.3389/fenrg.2022.884540
 [research_cain_mogonye_2021]: https://doi.org/10.21236/ad1153484
 [research_callahan_stenning_1971]: https://doi.org/10.2514/3.44259
+[research_calligeros_dugundji_1961]: https://doi.org/10.21236/ad0253970
 [research_calogerasje_burstadtpl_1974]: https://ntrs.nasa.gov/citations/19740021193
 [research_calogerasje_coltrinre_1969]: https://ntrs.nasa.gov/citations/19690054687
 [research_calogerasje_johnsenrl_1974]: https://ntrs.nasa.gov/citations/19740014513
@@ -4937,8 +5460,12 @@ broke, namely an aircraft that existed and flew.
 [research_carlincm_frischi_2003]: https://ntrs.nasa.gov/citations/20030065839
 [research_carlson_schwope_1952]: https://doi.org/10.21236/ada076046
 [research_carlyle_1976]: https://doi.org/10.21236/ada956001
+[research_carmichael_mcnay_1961]: https://doi.org/10.21236/ad0282125
 [research_carosiello_1963]: https://doi.org/10.21236/ad0406931
+[research_carreyette_1950]: https://doi.org/10.1108/eb031848
+[research_carroll_1960]: https://doi.org/10.21236/ad0316227
 [research_cary_walker_1974]: https://doi.org/10.1080/03071847409421162
+[research_cassetti_1978]: https://doi.org/10.1108/eb035480
 [research_celesios_acquisition_2016]: https://doi.org/10.1211/pj.2016.20201477
 [research_cervay_1975]: https://doi.org/10.21236/ada021689
 [research_chace_2015]: https://doi.org/10.21236/ada619434
@@ -4952,6 +5479,7 @@ broke, namely an aircraft that existed and flew.
 [research_chapmandave_smithcf_2005]: https://ntrs.nasa.gov/citations/20050061002
 [research_chell_hoffenson_2021]: https://doi.org/10.1115/1.4049657
 [research_chen_chen_2016]: https://doi.org/10.4028/www.scientific.net/amm.853.122
+[research_chen_dugundji_1980]: https://doi.org/10.2514/3.57942
 [research_chen_sun_2023]: https://doi.org/10.1088/2053-1591/acc831
 [research_chen_tan_2017]: https://doi.org/10.2514/1.j056066
 [research_chen_tan_2018]: https://doi.org/10.2514/1.j056674
@@ -4965,6 +5493,8 @@ broke, namely an aircraft that existed and flew.
 [research_chengt_greitzerem_1987]: https://ntrs.nasa.gov/citations/19870058127
 [research_chennuru_corral_2025]: https://doi.org/10.1115/1.4070233
 [research_chesney_2005]: https://doi.org/10.21236/ada434426
+[research_chessell_1979]: https://doi.org/10.1121/1.2017371
+[research_chester_1953]: https://doi.org/10.1017/s0001925900000950
 [research_childrd_hendersonwp_1978]: https://ntrs.nasa.gov/citations/19780063995
 [research_chimarodrickv_2011]: https://ntrs.nasa.gov/citations/20110011335
 [research_chimarodrickv_2012]: https://ntrs.nasa.gov/citations/20120009203
@@ -4977,6 +5507,10 @@ broke, namely an aircraft that existed and flew.
 [research_chou_smith_1974]: https://doi.org/10.21236/ada001135
 [research_chun_burr_1969]: https://doi.org/10.2514/3.44056
 [research_ciepluchcarlc_1948]: https://ntrs.nasa.gov/citations/20050040787
+[research_ciffone_pedley_1979]: https://doi.org/10.2514/3.58491
+[research_cirlin_shen_1971]: https://doi.org/10.1080/00222337108061110
+[research_clark_hallow_1972]: https://doi.org/10.21236/ad0753214
+[research_clarke_wallace_1964]: https://doi.org/10.1017/s0022112064000179
 [research_clarkle_richiecb_1977]: https://ntrs.nasa.gov/citations/19770017117
 [research_cliett_1952]: https://doi.org/10.21236/ad0006050
 [research_cloos_nelson_1990]: https://doi.org/10.21236/ada238985
@@ -5003,6 +5537,7 @@ broke, namely an aircraft that existed and flew.
 [research_coppi_sigmar_1973]: https://doi.org/10.1063/1.1694486
 [research_cordner_1967]: https://doi.org/10.21236/ad0656480
 [research_cornellaeronauticallabincbuffalony_1947]: https://doi.org/10.21236/ada800190
+[research_corner_1940]: https://doi.org/10.1108/eb030643
 [research_cortrightedgarmjr_1951]: https://ntrs.nasa.gov/citations/19930086879
 [research_cossar_moffatt_1980]: https://doi.org/10.1115/1.3230338
 [research_costakiswg_1974]: https://ntrs.nasa.gov/citations/19740010284
@@ -5015,15 +5550,19 @@ broke, namely an aircraft that existed and flew.
 [research_cox_roy_1988]: https://doi.org/10.21236/ada202871
 [research_coxbrian_borcherspaul_1990]: https://ntrs.nasa.gov/citations/19900014078
 [research_craidoncb_1986]: https://ntrs.nasa.gov/citations/19850000541
+[research_craneharoldl_1948]: https://ntrs.nasa.gov/citations/20050028619
+[research_craneharoldl_beckhardtarnoldr_1948]: https://ntrs.nasa.gov/citations/20050031072
 [research_crestengineeringinctulsaok_1976]: https://doi.org/10.21236/ada955268
 [research_croan_rizzitano_1959]: https://doi.org/10.21236/ada952362
 [research_crossey_1992]: https://doi.org/10.21236/ada262148
 [research_crosthwait_1970]: https://doi.org/10.2514/3.44216
 [research_crothers_1997]: https://doi.org/10.21236/ada343061
+[research_crowe_1937]: https://doi.org/10.1108/eb030157
 [research_crown_1950]: https://doi.org/10.21236/ad0062509
 [research_cubilloschacon_2007]: https://doi.org/10.21236/ada473261
 [research_cummings_liersch_2018]: https://doi.org/10.2514/1.c033808
 [research_cumpsty_greitzer_1982]: https://doi.org/10.1115/1.3227246
+[research_curtiss_hc_1965]: https://doi.org/10.21236/ad0628669
 [research_curtiss_howardc_1969]: https://doi.org/10.21236/ad0859276
 [research_custis_1978]: https://doi.org/10.1093/milmed/143.2.81
 [research_cyrus_piscopo_1982]: https://doi.org/10.1115/1.3227281
@@ -5032,6 +5571,9 @@ broke, namely an aircraft that existed and flew.
 [research_daniele_teren_1975]: https://doi.org/10.2514/3.59880
 [research_danielecj_terenf_1975]: https://ntrs.nasa.gov/citations/19750034195
 [research_das_prasad_2023]: https://doi.org/10.61653/joast.v61i2.2009.526
+[research_davidson_1964]: https://doi.org/10.2514/3.43575
+[research_davis_1952]: https://doi.org/10.2514/8.2275
+[research_davis_1971]: https://doi.org/10.2514/3.6508
 [research_davisdavido_vyasmanana_2012]: https://ntrs.nasa.gov/citations/20120013594
 [research_davisra_elrodsd_1972]: https://ntrs.nasa.gov/citations/19740022813
 [research_davoudzadeh_liu_1987]: https://doi.org/10.21236/ada193109
@@ -5047,6 +5589,8 @@ broke, namely an aircraft that existed and flew.
 [research_defenseacquisitionunivftbelvoirva_2010]: https://doi.org/10.21236/ada522556
 [research_dehner_selamet_2021]: https://doi.org/10.3397/1/376925
 [research_dehua_changyou_1993]: https://doi.org/10.21236/ada262374
+[research_deitchman_1953]: https://doi.org/10.2514/8.2659
+[research_deitchman_1954]: https://doi.org/10.2514/8.2924
 [research_delaurier_1980]: https://doi.org/10.2514/3.57906
 [research_demarchi_haning_1978]: https://doi.org/10.21236/ada060326
 [research_dement_1990]: https://doi.org/10.21236/ada231970
@@ -5086,9 +5630,11 @@ broke, namely an aircraft that existed and flew.
 [research_discussion_on_2021_b]: https://doi.org/10.47939/et.v2i6.50
 [research_discussion_on_2021_c]: https://doi.org/10.47939/et.v2i1.52
 [research_discussion_on_2021_d]: https://doi.org/10.47939/et.v2i11.437
+[research_dixonsidneyc_griffithgeorgee_1961]: https://ntrs.nasa.gov/citations/19980227795
 [research_dobes_dymacek_2019]: https://doi.org/10.1016/j.msea.2019.05.033
 [research_dobosbubno_hartsook_1977]: https://doi.org/10.21236/ada062008
 [research_doe_2002]: https://doi.org/10.21236/ada420718
+[research_doelling_bolt_1961]: https://doi.org/10.21236/ad0403730
 [research_doggettrobertvjr_soistmanndavidl_1989]: https://ntrs.nasa.gov/citations/19890010723
 [research_dong_2019]: https://doi.org/10.2514/1.i010684
 [research_dong_huang_2015]: https://doi.org/10.2514/1.c032764
@@ -5109,10 +5655,12 @@ broke, namely an aircraft that existed and flew.
 [research_dvirnyk_pavlenko_2019]: https://doi.org/10.3390/aerospace6120132
 [research_dymacek_jary_2024]: https://doi.org/10.3390/ma17204984
 [research_edwards_2010]: https://doi.org/10.21236/ada547418
+[research_edwardssherman_hikidokatsumi_1953]: https://ntrs.nasa.gov/citations/19930087843
 [research_effect_of_2023]: https://doi.org/10.1063/5.0146900
 [research_effect_of_2026]: https://doi.org/10.29271/jcpsp.2026.04.476
 [research_egan_shadowen_1979]: https://doi.org/10.2514/3.58573
 [research_eggers_1961]: https://doi.org/10.21236/ad0256165
+[research_egorov_1958]: https://doi.org/10.1016/0021-8928(58)90081-9
 [research_eiband_2005]: https://doi.org/10.21236/ada441760
 [research_elliott_1968]: https://doi.org/10.1093/qjmam/21.1.77
 [research_ellis_brownstein_1974]: https://doi.org/10.2514/3.60331
@@ -5162,19 +5710,24 @@ broke, namely an aircraft that existed and flew.
 [research_fett_1971]: https://doi.org/10.2514/3.44306
 [research_ficht_1979]: https://doi.org/10.21236/ada071051
 [research_filimonov_1972]: https://doi.org/10.1016/0021-8928(72)90108-6
+[research_findikyan_duke_1966]: https://doi.org/10.21236/ad0681038
 [research_fine_1959]: https://doi.org/10.1080/14786435908233372
 [research_fine_weertman_1983]: https://doi.org/10.21236/ada135956
 [research_finnie_1961]: https://doi.org/10.1115/1.3658952
 [research_finsgar_2017]: https://doi.org/10.1149/ma2017-03/1/171
 [research_fisher_1977]: https://doi.org/10.1093/milmed/142.2.165
+[research_fisherlewisr_williamsjamesl_1958]: https://ntrs.nasa.gov/citations/19980232008
 [research_fitzsimmons_mckinnon_1981]: https://doi.org/10.2514/3.57553
+[research_flanaganmichaelj_1992]: https://ntrs.nasa.gov/citations/19930004476
 [research_fleeter_mcclure_1974]: https://doi.org/10.1121/1.1919886
 [research_fleeter_mcclure_1975]: https://doi.org/10.2514/3.59853
 [research_flow_field_2020]: https://doi.org/10.47176/jafm.13.06.31428
 [research_formentini_bouissiere_2022]: https://doi.org/10.1016/j.jii.2022.100327
 [research_forward_1970]: https://doi.org/10.2307/20634400
+[research_fostergeraldv_fitzpatrickjamese_1948]: https://ntrs.nasa.gov/citations/19930085540
 [research_fostergv_robinsonrb_1961]: https://ntrs.nasa.gov/citations/19650014316
 [research_foustjw_1979]: https://ntrs.nasa.gov/citations/19790008738
+[research_fox_1969]: https://doi.org/10.1093/imamat/5.4.373
 [research_fox_fuchs_1978]: https://doi.org/10.1520/jte10944j
 [research_fraiser_1960]: https://doi.org/10.2514/8.8575
 [research_franciscusl_1972]: https://ntrs.nasa.gov/citations/19730006301
@@ -5190,6 +5743,8 @@ broke, namely an aircraft that existed and flew.
 [research_fu_fu_2021_b]: https://doi.org/10.1080/21642583.2021.1888818
 [research_fujiwara_takagi_2019]: https://doi.org/10.2320/matertrans.m2018366
 [research_fukusako_kiya_1971]: https://doi.org/10.1007/bf00413203
+[research_fullerde_1967]: https://ntrs.nasa.gov/citations/19670024546
+[research_furey_1983]: https://doi.org/10.21236/ada126456
 [research_furukawa_yamada_2015]: https://doi.org/10.1299/jsmemecj.2015._j0520305-
 [research_gabrieldavids_krebsrichardp_1953]: https://ntrs.nasa.gov/citations/19930087143
 [research_galindo_climent_2022]: https://doi.org/10.3390/app12031751
@@ -5197,15 +5752,20 @@ broke, namely an aircraft that existed and flew.
 [research_gansler_1972]: https://doi.org/10.1002/j.2161-4296.1972.tb01691.x
 [research_gao_liu_2017]: https://doi.org/10.3397/1/3773
 [research_garciabenitez_cuernorejado_2016]: https://doi.org/10.1108/aeat-11-2014-0204
+[research_gartling_1970]: https://doi.org/10.21236/ad0734154
+[research_gates_1940]: https://doi.org/10.1108/eb030684
 [research_gayton_2004]: https://doi.org/10.21236/ada424697
 [research_ge_shang_2021]: https://doi.org/10.1088/1742-6596/1985/1/012037
 [research_gebhard_1953]: https://doi.org/10.21236/ad0015832
 [research_gelderthomasf_1957]: https://ntrs.nasa.gov/citations/19930093764
+[research_gellatly_bijlaard_1965]: https://doi.org/10.2514/3.43617
 [research_gellatly_gallagher_1964]: https://doi.org/10.21236/ad0431959
 [research_geng_yang_2025]: https://doi.org/10.1016/j.ast.2024.109778
+[research_george_perlmutter_1964]: https://doi.org/10.21236/ad0608185
 [research_gerken_1979]: https://doi.org/10.21236/ada132587
 [research_gershbein_peigin_1979]: https://doi.org/10.1007/bf01409803
 [research_ghaffarifarhad_2005]: https://ntrs.nasa.gov/citations/20050198856
+[research_ghee_gonzalez_1999]: https://doi.org/10.21236/ada368657
 [research_gilinskym_gonoral_2003]: https://ntrs.nasa.gov/citations/20040053459
 [research_gilinskymikhail_morganmorrish_2000]: https://ntrs.nasa.gov/citations/20010012156
 [research_gillespiewarrenjr_1960]: https://ntrs.nasa.gov/citations/20040046997
@@ -5216,6 +5776,7 @@ broke, namely an aircraft that existed and flew.
 [research_gliebepr_kerschenej_1979]: https://ntrs.nasa.gov/citations/19800014610
 [research_gliszczynski_czechowski_2021]: https://doi.org/10.3390/ma14112928
 [research_glorioso_1960]: https://doi.org/10.21236/ad0281801
+[research_glossbb_1974]: https://ntrs.nasa.gov/citations/19740020361
 [research_goldstein_2004]: https://doi.org/10.21236/ada430475
 [research_goldstein_2006]: https://doi.org/10.21236/ada472644
 [research_golombek_bustamante_2026]: https://doi.org/10.1007/s13272-026-00996-6
@@ -5223,6 +5784,7 @@ broke, namely an aircraft that existed and flew.
 [research_golubkin_1980]: https://doi.org/10.1007/bf01089616
 [research_golubkin_1980_b]: https://doi.org/10.1007/bf01089658
 [research_gomezrodriguez_sanchezcarmona_2019]: https://doi.org/10.1016/j.ast.2019.04.041
+[research_goodman_1949]: https://doi.org/10.2514/8.11808
 [research_goodykoontzjh_dorschrg_1973]: https://ntrs.nasa.gov/citations/19730015332
 [research_goodykoontzjh_olsenwa_1972]: https://ntrs.nasa.gov/citations/19730002285
 [research_goodykoontzjh_wagnerjm_1973]: https://ntrs.nasa.gov/citations/19730012332
@@ -5234,11 +5796,16 @@ broke, namely an aircraft that existed and flew.
 [research_gotovtsev_1972]: https://doi.org/10.1007/bf01209043
 [research_gowthaman_sathiyagnanam_2018]: https://doi.org/10.1016/j.aej.2017.08.011
 [research_graham_1969]: https://doi.org/10.21236/ad0859822
+[research_graham_lagerstrom_1954]: https://doi.org/10.21236/ad0063453
 [research_gray_1969]: https://doi.org/10.1243/pime_conf_1969_184_182_02
 [research_gray_mader_2020]: https://doi.org/10.2514/1.c035845
 [research_gray_wright_1970]: https://doi.org/10.2514/3.44139
 [research_greebler_suarez_1989]: https://doi.org/10.21236/ada208222
+[research_greene_1955]: https://doi.org/10.21236/ad0086878
+[research_greene_1956]: https://doi.org/10.21236/ad0092484
+[research_greene_1957]: https://doi.org/10.21236/ad0132012
 [research_greer_2010]: https://doi.org/10.21236/ada537484
+[research_gregorytj_wilcoxde_1970]: https://ntrs.nasa.gov/citations/19700064255
 [research_greitzer_1972]: https://doi.org/10.2514/3.59027
 [research_greitzer_1976]: https://doi.org/10.1115/1.3446138
 [research_greitzer_1976_b]: https://doi.org/10.1115/1.3446139
@@ -5252,8 +5819,11 @@ broke, namely an aircraft that existed and flew.
 [research_gros_1963]: https://doi.org/10.21236/ad0436090
 [research_gu_xu_2023]: https://doi.org/10.1016/j.ast.2022.108079
 [research_guan_zhou_2019]: https://doi.org/10.1080/19942060.2019.1639216
+[research_guderley_1987]: https://doi.org/10.21236/ada193773
+[research_guderley_1988]: https://doi.org/10.21236/ada191408
 [research_gupta_ramkumar_2015]: https://doi.org/10.12783/fae.2015.0401.02
 [research_haas_karanian_1981]: https://doi.org/10.2514/3.57819
+[research_hackman_richardson_1964]: https://doi.org/10.2514/3.43555
 [research_hale_1973]: https://doi.org/10.21236/ad0757197
 [research_hall_greitzer_2017]: https://doi.org/10.1115/1.4035631
 [research_hall_greitzer_2022]: https://doi.org/10.1115/1.4055645
@@ -5276,12 +5846,14 @@ broke, namely an aircraft that existed and flew.
 [research_harle_1979]: https://doi.org/10.1177/001083677901400103
 [research_harman_1978]: https://doi.org/10.1115/1.3446305
 [research_harmsworth_1961]: https://doi.org/10.21236/ad0268569
+[research_harold_haefeli_1950]: https://doi.org/10.2514/8.1512
 [research_harristm_beermanda_1983]: https://ntrs.nasa.gov/citations/19880004718
 [research_harristm_beermanda_1984]: https://ntrs.nasa.gov/citations/19840059567
 [research_harry_trobaugh_1966]: https://doi.org/10.21236/ad0641246
 [research_hart_1956]: https://doi.org/10.21236/ad0108104
 [research_hart_1968]: https://doi.org/10.2514/3.29502
 [research_hart_1974]: https://doi.org/10.1049/ep.1974.0461
+[research_hartley_furey_1965]: https://doi.org/10.21236/ad0626655
 [research_hartmann_1968]: https://doi.org/10.2514/3.43978
 [research_hasan_sachs_2018]: https://doi.org/10.1007/s13272-018-0309-0
 [research_hasellowelle_lankfordjohnl_1953]: https://ntrs.nasa.gov/citations/20050019413
@@ -5291,18 +5863,24 @@ broke, namely an aircraft that existed and flew.
 [research_havko_kapali_2020]: https://doi.org/10.3390/plants9020172
 [research_hawkings_1974]: https://doi.org/10.1016/s0022-460x(74)80007-6
 [research_hawkinsje_kirklandfp_1976]: https://ntrs.nasa.gov/citations/19760017152
+[research_hawkinsrichard_penlandjima_1997]: https://ntrs.nasa.gov/citations/19980008542
+[research_hawks_1982]: https://doi.org/10.2514/3.44751
 [research_hawthorne_mitchell_1978]: https://doi.org/10.1115/1.3446409
 [research_hayasi_1965]: https://doi.org/10.2514/3.3372
 [research_hayeswcjr_sleemanwcjr_1959]: https://ntrs.nasa.gov/citations/19630010604
+[research_hazen_seckel_1950]: https://doi.org/10.21236/ada952420
+[research_hebert_j_1973]: https://doi.org/10.21236/ad0766942
 [research_heidelberglaurencej_halldavidg_1992]: https://ntrs.nasa.gov/citations/19930007516
 [research_heidelberglaurencej_halldavidg_1993]: https://ntrs.nasa.gov/citations/19930040786
 [research_heidmann_saule_1980]: https://doi.org/10.2514/3.57930
 [research_heimerlgeorgej_hardrathherbertf_1965]: https://ntrs.nasa.gov/citations/20000011991
 [research_helmbold_1958]: https://doi.org/10.21236/ad0209045
+[research_heltsley_crosswy_1983]: https://doi.org/10.21236/ada129606
 [research_henderson_1965]: https://doi.org/10.1017/s0001925900003358
 [research_herbst_krogull_1973]: https://doi.org/10.2514/3.60220
 [research_hernandezgloria_woodrichardm_1994]: https://ntrs.nasa.gov/citations/19950003616
 [research_herold_mahoney_1974]: https://doi.org/10.2307/421338
+[research_hewesdonalde_1950]: https://ntrs.nasa.gov/citations/20050028478
 [research_hickeydavidh_1956]: https://ntrs.nasa.gov/citations/19930088539
 [research_hickeydavidh_aoyagikiyoshi_1960]: https://ntrs.nasa.gov/citations/19980227096
 [research_high_temperature_high_1974]: https://doi.org/10.1016/0010-4361(74)90482-0
@@ -5311,9 +5889,12 @@ broke, namely an aircraft that existed and flew.
 [research_hill_1971]: https://doi.org/10.2514/3.44264
 [research_hilleraircraftcorppaloaltoca_1965]: https://doi.org/10.21236/ad0625821
 [research_hilleraircraftcorppaloaltoca_1965_b]: https://doi.org/10.21236/ad0625823
+[research_hilleraircraftcorppaloaltoca_1965_c]: https://doi.org/10.21236/ad0625822
 [research_hillgc_bowlesjv_1976]: https://ntrs.nasa.gov/citations/19760026102
+[research_hillier_1970]: https://doi.org/10.1017/s0001925900005394
 [research_hinkle_tulkoff_2011]: https://doi.org/10.21236/ada552348
 [research_hirsch_1998]: https://doi.org/10.21236/ada352323
+[research_hobbs_1957]: https://doi.org/10.2514/8.3955
 [research_hodderbk_1981]: https://ntrs.nasa.gov/citations/19810021546
 [research_hodderbk_farquharbw_1981]: https://ntrs.nasa.gov/citations/19820030404
 [research_hofflerkd_raodm_1986]: https://ntrs.nasa.gov/citations/19860017727
@@ -5322,6 +5903,7 @@ broke, namely an aircraft that existed and flew.
 [research_hoh_mitchell_1983]: https://doi.org/10.21236/ada132857
 [research_holdawaygeorgeh_lazzeronifranka_1959]: https://ntrs.nasa.gov/citations/19980223578
 [research_holl_1975]: https://doi.org/10.1108/eb035216
+[research_holmr_1974]: https://doi.org/10.1007/bf00449511
 [research_holota_2020]: https://doi.org/10.32702/2307-2105-2020.4.72
 [research_holroyd_hardie_1981]: https://doi.org/10.1016/0010-938x(81)90097-4
 [research_holubik_1988]: https://doi.org/10.21236/ada194398
@@ -5329,10 +5911,13 @@ broke, namely an aircraft that existed and flew.
 [research_honeycutt_1970]: https://doi.org/10.21236/ad0875636
 [research_hooper_whidden_1957]: https://doi.org/10.21236/ad0407619
 [research_hopkinsej_1975]: https://ntrs.nasa.gov/citations/19750055435
+[research_horton_1954]: https://doi.org/10.1108/eb032421
 [research_hortonelmera_loftinlaurencek_1951]: https://ntrs.nasa.gov/citations/19930092102
 [research_hosseindokht_matas_2026]: https://doi.org/10.3390/app16104616
 [research_hosseini_vaziryzanjany_2024]: https://doi.org/10.3390/aerospace11040273
 [research_hou_zhou_2020]: https://doi.org/10.3390/app10134651
+[research_hrubecky_1963]: https://doi.org/10.1007/bf03184628
+[research_hsu_anderson_1961]: https://doi.org/10.2514/8.8910
 [research_hu_2024]: https://doi.org/10.1088/1742-6596/2731/1/012048
 [research_hu_zhao_2026]: https://doi.org/10.1016/j.ast.2026.112874
 [research_huang_lv_2025]: https://doi.org/10.1016/j.energy.2025.135239
@@ -5342,12 +5927,16 @@ broke, namely an aircraft that existed and flew.
 [research_hubble_smith_1979]: https://doi.org/10.21236/ada072743
 [research_hube_1968]: https://doi.org/10.21236/ad0388036
 [research_hughesdl_mackallkg_1984]: https://ntrs.nasa.gov/citations/19860015876
+[research_hui_1975]: https://doi.org/10.1017/s0001925900007150
+[research_hunn_1954]: https://doi.org/10.1017/s0001925900001128
 [research_huntley_1972]: https://doi.org/10.1017/s0001924000043104
 [research_hunziker_1960]: https://doi.org/10.1007/bf01595402
 [research_huppert_benser_1953]: https://doi.org/10.2514/8.2871
 [research_hutchins_jones_1975]: https://doi.org/10.21236/ada955236
 [research_hutchins_jr_1978]: https://doi.org/10.21236/ada062134
+[research_hwang_pi_1979]: https://doi.org/10.2514/3.58518
 [research_iekchanthy_burleyrichardr_1993]: https://ntrs.nasa.gov/citations/19930014929
+[research_ignaczak_1978]: https://doi.org/10.1080/01495737808926939
 [research_imani_jahedmotlagh_2017]: https://doi.org/10.1080/21642583.2017.1367732
 [research_imani_malekizade_2018]: https://doi.org/10.1080/00051144.2018.1498204
 [research_imanishi_wang_2015]: https://doi.org/10.1149/ma2015-01/2/392
@@ -5357,7 +5946,9 @@ broke, namely an aircraft that existed and flew.
 [research_innisrobertc_quigleyherveyc_1961]: https://ntrs.nasa.gov/citations/20040008110
 [research_iseki_nicholas_1979]: https://doi.org/10.1007/bf00772731
 [research_islam_fermin_2015]: https://doi.org/10.1017/s1431927615002238
+[research_isugiyama_1976]: https://doi.org/10.1299/kikai1938.42.3186
 [research_jablon_1972]: https://doi.org/10.1016/0375-9601(72)90195-8
+[research_jackjohnr_1951]: https://ntrs.nasa.gov/citations/19930086899
 [research_jacobs_1973]: https://doi.org/10.2307/1958810
 [research_jacocks_kneile_1975]: https://doi.org/10.21236/ada004104
 [research_jamesfconnors_georgeawise_1957]: https://ntrs.nasa.gov/citations/19930089639
@@ -5365,6 +5956,10 @@ broke, namely an aircraft that existed and flew.
 [research_jaquetbyronm_1951]: https://ntrs.nasa.gov/citations/19930086998
 [research_jarvinen_1973]: https://doi.org/10.2514/3.44352
 [research_jelev_keane_2019]: https://doi.org/10.2514/1.c034897
+[research_jenkins_marks_1975]: https://doi.org/10.21236/ada008965
+[research_jenkinsjeraldm_kuhlalberte_1977]: https://ntrs.nasa.gov/citations/20020086520
+[research_jenkinsjm_1979]: https://ntrs.nasa.gov/citations/19790012818
+[research_jenney_1935]: https://doi.org/10.2514/8.126
 [research_jia_chen_2024]: https://doi.org/10.1049/icp.2024.3929
 [research_jiang_liu_2026]: https://doi.org/10.1007/s44210-025-00077-z
 [research_jiang_yao_2024]: https://doi.org/10.1063/5.0197991
@@ -5377,6 +5972,7 @@ broke, namely an aircraft that existed and flew.
 [research_johnsonhj_montoyaej_1973]: https://ntrs.nasa.gov/citations/19730015310
 [research_johnsoniii_wu_1974]: https://doi.org/10.21236/ada017631
 [research_jonathanalee_poshouchen_2005]: https://ntrs.nasa.gov/citations/20050237966
+[research_jones_1972]: https://doi.org/10.2514/3.6568
 [research_jones_1973]: https://doi.org/10.21236/ad0773559
 [research_jones_placzankis_2016]: https://doi.org/10.21236/ad1012477
 [research_jonesarthurl_flanaganmildredg_1947]: https://ntrs.nasa.gov/citations/19930082115
@@ -5385,6 +5981,7 @@ broke, namely an aircraft that existed and flew.
 [research_jonesrobertt_1953]: https://ntrs.nasa.gov/citations/20050081861
 [research_jonesrobertt_1956]: https://ntrs.nasa.gov/citations/19930092281
 [research_jonesrt_1976]: https://ntrs.nasa.gov/citations/19760012011
+[research_jordan_1973]: https://doi.org/10.2514/3.60285
 [research_jung_oh_2022]: https://doi.org/10.11627/jksie.2022.45.1.010
 [research_justiciaalados_trezza_2026]: https://doi.org/10.58286/33934
 [research_ka_2018]: https://doi.org/10.4172/2332-0796.1000267
@@ -5403,6 +6000,7 @@ broke, namely an aircraft that existed and flew.
 [research_kawamura_karashima_1957]: https://doi.org/10.2322/jjsass1953.5.93
 [research_kawamurat_chyuwj_1987]: https://ntrs.nasa.gov/citations/19870037658
 [research_kaye_yeh_1955]: https://doi.org/10.2514/8.3454
+[research_kayser_danberg_1974]: https://doi.org/10.2514/3.49559
 [research_kayser_hillsamer_1960]: https://doi.org/10.21236/ad0318532
 [research_kazula_hoschler_2020]: https://doi.org/10.1108/aeat-11-2019-0225
 [research_kazula_mischke_2019]: https://doi.org/10.1051/matecconf/201930402016
@@ -5418,9 +6016,13 @@ broke, namely an aircraft that existed and flew.
 [research_khazaali_fereshtehsaniee_2018]: https://doi.org/10.1007/s40430-018-1003-1
 [research_khobragade_unnikrishnan_2021]: https://doi.org/10.2514/1.j060591
 [research_kholyavko_1971]: https://doi.org/10.1007/bf01019800
+[research_khoroshun_soltanov_1977]: https://doi.org/10.1007/bf00901811
+[research_khoroshun_soltanov_1978]: https://doi.org/10.1007/bf00883729
 [research_kida_miyai_1978]: https://doi.org/10.1017/s0001925900008477
+[research_kidwell_1963]: https://doi.org/10.21236/ad0440406
 [research_kierda_powersbg_1972]: https://ntrs.nasa.gov/citations/19730024215
 [research_kigotho_bodylski_2022]: https://doi.org/10.2514/1.c036582
+[research_kikkawa_1955]: https://doi.org/10.2170/jjphysiol.5.167
 [research_kim_2024]: https://doi.org/10.18703/silj.2024.12.31.2.151
 [research_kim_choi_2022]: https://doi.org/10.2514/1.b38484
 [research_kim_lee_2022]: https://doi.org/10.5139/jksas.2022.50.5.297
@@ -5436,6 +6038,7 @@ broke, namely an aircraft that existed and flew.
 [research_klannga_barthrl_1984]: https://ntrs.nasa.gov/citations/19850056914
 [research_klecknerharoldf_1945]: https://ntrs.nasa.gov/citations/19930092870
 [research_klecknerharoldf_1946]: https://ntrs.nasa.gov/citations/19930081790
+[research_kleinvladislav_1999]: https://ntrs.nasa.gov/citations/19990100653
 [research_klimowitch_1978]: https://doi.org/10.21236/ada061148
 [research_klujber_1973]: https://doi.org/10.2514/3.60264
 [research_knight_1991]: https://doi.org/10.21236/ada235867
@@ -5470,10 +6073,13 @@ broke, namely an aircraft that existed and flew.
 [research_krause_1981]: https://doi.org/10.2514/3.50927
 [research_krause_1997]: https://doi.org/10.21236/ada397873
 [research_krawczyk_paul_2024]: https://doi.org/10.2514/1.c037420
+[research_krenkel_salzman_1968]: https://doi.org/10.2514/3.43962
 [research_kretov_2021]: https://doi.org/10.1108/aeat-11-2020-0256
 [research_krishnaswamy_nath_1982]: https://doi.org/10.1016/0045-7930(82)90017-2
 [research_krivenyuk_tsvilyuk_1971]: https://doi.org/10.1007/bf01533595
+[research_kuchinka_1966]: https://doi.org/10.2514/3.43727
 [research_kucuk_tuncer_2024]: https://doi.org/10.1007/s11081-023-09877-x
+[research_kuhn_1979]: https://doi.org/10.21236/ada073099
 [research_kumar_2022]: https://doi.org/10.26706/jtfs.3.1.20211202
 [research_kumar_capolungo_2022]: https://doi.org/10.1016/j.ijplas.2022.103411
 [research_kumar_gaur_2017]: https://doi.org/10.31142/ijtsrd5779
@@ -5490,6 +6096,7 @@ broke, namely an aircraft that existed and flew.
 [research_lamarje_1986]: https://ntrs.nasa.gov/citations/19860052312
 [research_lamarjohne_1987]: https://ntrs.nasa.gov/citations/19880003937
 [research_lamberthh_mizukamim_1999]: https://ntrs.nasa.gov/citations/19990110638
+[research_lapin_crookshanks_1952]: https://doi.org/10.2514/8.2336
 [research_lapin_sharov_1974]: https://doi.org/10.1007/bf01092647
 [research_lappas_ikenaga_2019]: https://doi.org/10.3390/aerospace6100107
 [research_large_1981]: https://doi.org/10.1017/s0001924000030062
@@ -5512,11 +6119,15 @@ broke, namely an aircraft that existed and flew.
 [research_lehtinen_zeller_1972]: https://doi.org/10.1016/0005-1098(72)90027-1
 [research_lehtinenb_zellerjr_1971]: https://ntrs.nasa.gov/citations/19720004248
 [research_lehtinenb_zellerjr_1978]: https://ntrs.nasa.gov/citations/19780015081
+[research_leitner_1986]: https://doi.org/10.21236/ada522372
 [research_lemaysp_batillsm_1988]: https://ntrs.nasa.gov/citations/19880053508
 [research_lengyelkampmann_karboujian_2024]: https://doi.org/10.1007/s13272-024-00717-x
+[research_leslie_1952]: https://doi.org/10.1093/qjmam/5.3.292
 [research_leslie_perry_1954]: https://doi.org/10.1098/rspa.1954.0198
+[research_levinsky_thommen_1968]: https://doi.org/10.21236/ad0680969
 [research_levylionelljr_1959]: https://ntrs.nasa.gov/citations/19980232076
 [research_levylionelljr_yoshikawakennethk_1959]: https://ntrs.nasa.gov/citations/19980228237
+[research_lewis_1976]: https://doi.org/10.2514/3.44525
 [research_lewis_1998]: https://doi.org/10.21236/ada346210
 [research_li_chen_2024]: https://doi.org/10.1016/j.ijplas.2024.103892
 [research_li_ding_2023]: https://doi.org/10.1016/j.ast.2023.108667
@@ -5537,10 +6148,12 @@ broke, namely an aircraft that existed and flew.
 [research_li_zhu_2024_b]: https://doi.org/10.1016/j.ast.2024.109007
 [research_lichtensteinjacobh_1952]: https://ntrs.nasa.gov/citations/19930092137
 [research_lieu_1964]: https://doi.org/10.21236/ad0448477
+[research_liewkh_uripe_2005]: https://ntrs.nasa.gov/citations/20050207438
 [research_lin_bai_2022]: https://doi.org/10.1155/2022/1139648
 [research_lin_li_2025]: https://doi.org/10.1049/icp.2024.2995
 [research_linek_chytilek_2016]: https://doi.org/10.13060/00380288.2016.52.5.275
 [research_ling_1970]: https://doi.org/10.2514/3.44119
+[research_linnell_1963]: https://doi.org/10.21236/ad0408661
 [research_liu_chen_2021]: https://doi.org/10.1016/j.ijfatigue.2021.106446
 [research_liu_du_2025]: https://doi.org/10.1115/1.4069738
 [research_liu_du_2026]: https://doi.org/10.1016/j.cja.2026.104346
@@ -5563,6 +6176,8 @@ broke, namely an aircraft that existed and flew.
 [research_lopez_baldomir_2017]: https://doi.org/10.1007/s00158-017-1740-2
 [research_lou_harrison_2022]: https://doi.org/10.1115/1.4055866
 [research_lourenco_shih_1996]: https://doi.org/10.21236/ada310244
+[research_loveless_boswell_1954]: https://doi.org/10.1108/eb032412
+[research_lovelljcalvin_wilsonherbertajr_1947]: https://ntrs.nasa.gov/citations/19930093794
 [research_lowe_1967]: https://doi.org/10.21236/ad0823139
 [research_lu_li_2025]: https://doi.org/10.1063/5.0288892
 [research_lucas_1978]: https://doi.org/10.21236/adb028240
@@ -5584,6 +6199,7 @@ broke, namely an aircraft that existed and flew.
 [research_maeda_1961]: https://doi.org/10.2320/matertrans1960.2.44
 [research_maekawa_higashi_1978]: https://doi.org/10.1299/kikai1938.44.2304
 [research_magrini_benini_2026]: https://doi.org/10.1063/5.0329926
+[research_mahlmeister_ishimoto_1955]: https://doi.org/10.21236/ad0093337
 [research_mahorter_robertg_1961]: https://doi.org/10.21236/ad0266590
 [research_maikapar_1959]: https://doi.org/10.1016/0021-8928(59)90104-2
 [research_maikapar_1966]: https://doi.org/10.1016/0021-8928(66)90071-2
@@ -5596,6 +6212,7 @@ broke, namely an aircraft that existed and flew.
 [research_malmuth_1966_b]: https://doi.org/10.2514/3.55271
 [research_malonemichaelb_peaveycharlesc_1999]: https://ntrs.nasa.gov/citations/20000044629
 [research_malvi_roy_2021]: https://doi.org/10.1007/s11666-021-01189-9
+[research_mansfield_1967]: https://doi.org/10.1017/s000192400005418x
 [research_mao_liu_2016]: https://doi.org/10.1177/0954410016630565
 [research_maples_1979]: https://doi.org/10.21236/ada069807
 [research_margalida_joseph_2020]: https://doi.org/10.3390/ijtpp5030016
@@ -5612,7 +6229,9 @@ broke, namely an aircraft that existed and flew.
 [research_mathausereldone_deveikiswilliamd_1955]: https://ntrs.nasa.gov/citations/19930093819
 [research_mathausereldone_deveikiswilliamd_1957]: https://ntrs.nasa.gov/citations/19930092300
 [research_mathematical_modeling_2018]: https://doi.org/10.15593/perm.mech/eng.2018.3.09
+[research_mathur_1969]: https://doi.org/10.1017/s0001924000052477
 [research_matrangagenej_armstrongneila_1959]: https://ntrs.nasa.gov/citations/19980235626
+[research_matsumoto_sekiya_1975]: https://doi.org/10.1299/kikai1938.41.736
 [research_matzdorf_kane_1999]: https://doi.org/10.21236/ada375739
 [research_mauch_oldakowski_1980]: https://doi.org/10.21236/ada089067
 [research_mays_1971]: https://doi.org/10.2514/3.44258
@@ -5652,6 +6271,7 @@ broke, namely an aircraft that existed and flew.
 [research_michellga_1971]: https://ntrs.nasa.gov/citations/19720002377
 [research_miele_1954]: https://doi.org/10.2514/8.3207
 [research_mieleangelo_1955]: https://ntrs.nasa.gov/citations/19930093841
+[research_mikhail_1979]: https://doi.org/10.21236/ada076116
 [research_mikhailov_mikhailova_2017]: https://doi.org/10.1016/j.proeng.2017.02.290
 [research_miles_1953]: https://doi.org/10.1017/s0001925900000901
 [research_military_presence_2025]: https://doi.org/10.31249/ape/2025.04.08
@@ -5661,8 +6281,10 @@ broke, namely an aircraft that existed and flew.
 [research_minnicino_gray_2009]: https://doi.org/10.21236/ada506416
 [research_mintint_2018]: https://doi.org/10.47119/ijrp10020112019484
 [research_mireles_ficke_2019]: https://doi.org/10.1109/tifs.2019.2912551
+[research_mitsuyasu_1956]: https://doi.org/10.2322/jjsass1953.4.131
 [research_mjamhuri_nizar_2024]: https://doi.org/10.66187/jipski.v2i1.251
 [research_moeckelwe_1955]: https://ntrs.nasa.gov/citations/19930084178
+[research_moeckelwe_evanspjjr_1951]: https://ntrs.nasa.gov/citations/19930090411
 [research_moens_2022]: https://doi.org/10.3390/aerospace10010007
 [research_moffat_healzer_1978]: https://doi.org/10.1115/1.3450487
 [research_moin_lele_1998]: https://doi.org/10.21236/ada343835
@@ -5679,6 +6301,7 @@ broke, namely an aircraft that existed and flew.
 [research_mosca_sudhi_2024]: https://doi.org/10.2514/1.c037362
 [research_mount_1965]: https://doi.org/10.2514/3.43670
 [research_muchmorecbjr_1988]: https://ntrs.nasa.gov/citations/19880053479
+[research_muehter_1974]: https://doi.org/10.21236/ada043526
 [research_mugridge_1975]: https://doi.org/10.1016/s0022-460x(75)80059-9
 [research_mulgundsandeeps_1994]: https://ntrs.nasa.gov/citations/19940022793
 [research_muller_gasko_1967]: https://doi.org/10.2514/3.43825
@@ -5686,15 +6309,19 @@ broke, namely an aircraft that existed and flew.
 [research_mungallrobertc_1948]: https://ntrs.nasa.gov/citations/19930082436
 [research_munk_auld_2019]: https://doi.org/10.1007/s00158-019-02250-6
 [research_muraida_grimes_1998]: https://doi.org/10.21236/ada362149
+[research_murphypatrickc_kleinvladislav_2006]: https://ntrs.nasa.gov/citations/20060047570
 [research_mushkat_1979]: https://doi.org/10.1177/003231877903100202
 [research_mushtaq_gaetani_2023]: https://doi.org/10.1063/5.0160706
 [research_mushtaq_gaetani_2023_b]: https://doi.org/10.1115/1.4064135
 [research_mushtaq_pini_2024]: https://doi.org/10.1115/1.4067242
+[research_myerslawrencep_walshkevinr_1988]: https://ntrs.nasa.gov/citations/19880051520
 [research_myokan_kubota_2020]: https://doi.org/10.2514/1.j058519
 [research_na_2021]: https://doi.org/10.1504/ijpm.2021.10045018
+[research_nagamatsu_workman_1960]: https://doi.org/10.2514/8.5173
 [research_nagao_yoshida_2019]: https://doi.org/10.2322/astj.jsass-d-18-00007
 [research_nagasaka_muroga_2019]: https://doi.org/10.1088/1741-4326/ab1c8f
 [research_nagler_2026]: https://doi.org/10.1177/15485129261459679
+[research_nakajima_yanagawa_1963]: https://doi.org/10.1021/j100797a028
 [research_nam_mavris_2018]: https://doi.org/10.2514/1.c032099
 [research_nandy_baag_2021]: https://doi.org/10.1016/j.jtherbio.2020.102829
 [research_narayan_1975]: https://doi.org/10.1017/s0001925900007332
@@ -5707,6 +6334,7 @@ broke, namely an aircraft that existed and flew.
 [research_nelsondp_1983]: https://ntrs.nasa.gov/citations/19830018545
 [research_nelsondp_bresnahandl_1983]: https://ntrs.nasa.gov/citations/19830055105
 [research_nelsonrobertl_welshclementj_1960]: https://ntrs.nasa.gov/citations/19980227964
+[research_ness_1971]: https://doi.org/10.2514/3.44301
 [research_neumark_1950]: https://doi.org/10.1108/eb031964
 [research_neverlien_moe_2020]: https://doi.org/10.4173/mic.2020.2.1
 [research_newsomerw_thomasjl_1986]: https://ntrs.nasa.gov/citations/19860017733
@@ -5716,6 +6344,7 @@ broke, namely an aircraft that existed and flew.
 [research_nguyenlt_anglinel_1976]: https://ntrs.nasa.gov/citations/19760053944
 [research_nicholsmarkr_pendleyroberte_1952]: https://ntrs.nasa.gov/citations/19930086995
 [research_nicolay_karpuk_2021]: https://doi.org/10.1016/j.ijhydene.2021.07.127
+[research_nielsenjackn_kaattarigeorgee_1953]: https://ntrs.nasa.gov/citations/19930093732
 [research_nielsenjn_1985]: https://ntrs.nasa.gov/citations/19850037607
 [research_niewaldroyj_moulmartint_1950]: https://ntrs.nasa.gov/citations/19930086447
 [research_nikitenko_2018]: https://doi.org/10.32652/olympic2018.3_5
@@ -5742,8 +6371,10 @@ broke, namely an aircraft that existed and flew.
 [research_okumoto_elsanker_1973]: https://doi.org/10.21236/ad0767182
 [research_old_1957]: https://doi.org/10.1121/1.1918877
 [research_omalley_chamot_1987]: https://doi.org/10.21236/ada192006
+[research_opalka_1968]: https://doi.org/10.21236/ad0393552
 [research_ordaz_geiselhart_2015]: https://doi.org/10.2514/1.c033160
 [research_ordaz_li_2016]: https://doi.org/10.2514/1.c033159
+[research_orloff_ciffone_1974]: https://doi.org/10.2514/3.59259
 [research_orman_rae_1951]: https://doi.org/10.1098/rspa.1951.0206
 [research_oruc_baklacioglu_2022]: https://doi.org/10.1016/j.energy.2022.125069
 [research_oruc_baklacioglu_2023]: https://doi.org/10.1016/j.energy.2023.126819
@@ -5762,8 +6393,11 @@ broke, namely an aircraft that existed and flew.
 [research_palko_1975]: https://doi.org/10.21236/ada012880
 [research_pan_huang_2017]: https://doi.org/10.5028/jatm.v9i1.736
 [research_pan_shi_2022]: https://doi.org/10.3390/en15165791
+[research_panov_shvets_1966]: https://doi.org/10.1007/bf01022287
+[research_panov_shvets_1967]: https://doi.org/10.1007/bf01015152
 [research_panton_1972]: https://doi.org/10.2514/3.59052
 [research_panton_1973]: https://doi.org/10.2514/3.60212
+[research_pao_banerjee_1978]: https://doi.org/10.1080/01495737808926934
 [research_papadales_basils_1979]: https://doi.org/10.21236/ada073100
 [research_papageorgiou_tarkian_2018]: https://doi.org/10.2514/1.c034314
 [research_paraguassu_2015]: https://doi.org/10.17485/ijst/2015/v8i31/87309
@@ -5775,11 +6409,17 @@ broke, namely an aircraft that existed and flew.
 [research_park_lee_2015]: https://doi.org/10.1108/aeat-07-2013-0128
 [research_park_lee_2025]: https://doi.org/10.3390/s25247494
 [research_park_zaki_2018]: https://doi.org/10.1017/jfm.2018.819
+[research_parkes_1953]: https://doi.org/10.1108/eb032367
+[research_parkes_1954]: https://doi.org/10.1108/eb032500
+[research_parkes_1956]: https://doi.org/10.1108/eb032761
+[research_parkes_1956_b]: https://doi.org/10.1108/eb032699
 [research_parrish_jr_1978]: https://doi.org/10.21236/ada093689
 [research_parthasarathysp_massierpf_1975]: https://ntrs.nasa.gov/citations/19750043862
+[research_pasiuk_1963]: https://doi.org/10.21236/ad0448887
 [research_patel_chudoba_2026]: https://doi.org/10.1108/aeat-01-2025-0015
 [research_patel_dubey_2020]: https://doi.org/10.1080/15567036.2020.1785592
 [research_patil_2018]: https://doi.org/10.23940/ijpe.18.01.p2.916
+[research_paulk_anderson_1976]: https://doi.org/10.21236/adb014346
 [research_payne_1957]: https://doi.org/10.1108/eb032840
 [research_pecinka_bugajski_2017]: https://doi.org/10.14311/ap.2017.57.0022
 [research_pendergraftodiscjr_ingraldianthonym_1992]: https://ntrs.nasa.gov/citations/19920009760
@@ -5789,10 +6429,12 @@ broke, namely an aircraft that existed and flew.
 [research_penlandja_fournierrh_1975]: https://ntrs.nasa.gov/citations/19760004991
 [research_penningtonje_meintelajjr_1980]: https://ntrs.nasa.gov/citations/19810061133
 [research_pereira_williams_2015]: https://doi.org/10.4028/www.scientific.net/msf.828-829.93
+[research_petersenrb_1957]: https://ntrs.nasa.gov/citations/19660010455
 [research_petersonvictorl_meneesgenep_1959]: https://ntrs.nasa.gov/citations/19980228241
 [research_petricone_sisto_1971]: https://doi.org/10.1115/1.3445372
 [research_pettesduler_roboam_2021]: https://doi.org/10.3390/electronics10111297
 [research_pfaff_1965]: https://doi.org/10.21236/ad0467448
+[research_pfaff_1968]: https://doi.org/10.21236/ad0832104
 [research_pflag_1972]: https://doi.org/10.1093/milmed/137.8.321
 [research_phillips_jr_1999]: https://doi.org/10.21236/ada397472
 [research_physical_and_2017]: https://doi.org/10.21884/ijmter.2017.4354.igqdx
@@ -5804,6 +6446,7 @@ broke, namely an aircraft that existed and flew.
 [research_polhamusec_1966]: https://ntrs.nasa.gov/citations/19670003842
 [research_polhamusec_1968]: https://ntrs.nasa.gov/citations/19680022518
 [research_popeha_1971]: https://ntrs.nasa.gov/citations/19710025608
+[research_portnoy_1963]: https://doi.org/10.1017/s0001925900002833
 [research_powellag_welgehr_1985]: https://ntrs.nasa.gov/citations/19850018399
 [research_powers_1964]: https://doi.org/10.21236/ad0600749
 [research_powersbg_1966]: https://ntrs.nasa.gov/citations/19660023036
@@ -5811,10 +6454,14 @@ broke, namely an aircraft that existed and flew.
 [research_prasad_2025]: https://doi.org/10.1115/1.4069510
 [research_preisserjs_schoensterja_1981]: https://ntrs.nasa.gov/citations/19810036194
 [research_preisserjs_silcoxrj_1984]: https://ntrs.nasa.gov/citations/19840035345
+[research_presz_konarski_1971]: https://doi.org/10.2514/3.59196
 [research_prince_1976]: https://doi.org/10.1115/1.3446142
 [research_procurement_process_1980]: https://doi.org/10.1108/eb035653
 [research_provenza_duffy_2018]: https://doi.org/10.1115/1.4040739
 [research_pue_2021]: https://doi.org/10.1017/s0047279421000751
+[research_puett_1967]: https://doi.org/10.1002/macp.1967.021000121
+[research_puett_1968]: https://doi.org/10.5254/1.3547195
+[research_purserpaule_spearmargaretf_1947]: https://ntrs.nasa.gov/citations/19930082127
 [research_puvrez_1965]: https://doi.org/10.2514/3.43654
 [research_pyle_1971]: https://doi.org/10.2514/3.59202
 [research_qi_jin_2024]: https://doi.org/10.1016/j.ast.2023.108782
@@ -5831,6 +6478,7 @@ broke, namely an aircraft that existed and flew.
 [research_rains_1955]: https://doi.org/10.1115/1.4014392
 [research_ramamurti_2011]: https://doi.org/10.21236/ada546062
 [research_ramaswamy_viswanathan_1975]: https://doi.org/10.2514/3.44506
+[research_ramjet_supersonic_1958]: https://doi.org/10.1016/0016-0032(58)90466-6
 [research_rand_1963]: https://doi.org/10.21236/ad0419249
 [research_rao_chen_2023]: https://doi.org/10.3390/aerospace10040331
 [research_raspet_1957]: https://doi.org/10.21236/ad0135753
@@ -5841,10 +6489,13 @@ broke, namely an aircraft that existed and flew.
 [research_reedy_gorrell_2025]: https://doi.org/10.1115/1.4070352
 [research_rees_1977]: https://doi.org/10.1109/temc.1977.303553
 [research_reichert_brock_1977]: https://doi.org/10.21236/ada056782
+[research_reid_1937]: https://doi.org/10.2514/8.438
 [research_reid_moore_1980]: https://doi.org/10.1115/1.3230353
 [research_reimer_hudson_1998]: https://doi.org/10.21236/ada343448
 [research_reinbold_breitsamter_2026]: https://doi.org/10.2514/1.c038409
 [research_report_and_1966]: https://doi.org/10.1049/tpe.1966.0074
+[research_report_no_1937]: https://doi.org/10.1016/s0016-0032(37)90824-x
+[research_report_no_1939]: https://doi.org/10.1016/s0016-0032(39)90757-x
 [research_reshotko_karchmer_1977]: https://doi.org/10.2514/3.58830
 [research_rettie_lewis_1968]: https://doi.org/10.2514/3.43977
 [research_reukaufpj_burchamfwjr_1976]: https://ntrs.nasa.gov/citations/19770011066
@@ -5858,13 +6509,18 @@ broke, namely an aircraft that existed and flew.
 [research_riffel_fleeter_1981]: https://doi.org/10.2514/3.57552
 [research_riffin_1943]: https://doi.org/10.21236/ada954228
 [research_riley_1976]: https://doi.org/10.1017/s0305004100053160
+[research_rinehart_1971]: https://doi.org/10.4050/jahs.16.48
+[research_rivello_1965]: https://doi.org/10.21236/ad0471246
 [research_rldha_1969]: https://doi.org/10.2514/3.44045
+[research_roache_1965]: https://doi.org/10.2514/3.59234
 [research_roark_cuda_2010]: https://doi.org/10.21236/ada519882
 [research_roberts_1965]: https://doi.org/10.21236/ad0615928
 [research_roberts_smith_1966]: https://doi.org/10.21236/ad0635953
 [research_robertsosborne_thomasckelly_1960]: https://ntrs.nasa.gov/citations/20040047133
 [research_robinsaw_beissnerfljr_1985]: https://ntrs.nasa.gov/citations/19850010668
 [research_rockwell_2001]: https://doi.org/10.21236/ada402569
+[research_rodgers_1965]: https://doi.org/10.2514/3.43615
+[research_rodgers_1966]: https://doi.org/10.2514/3.43765
 [research_rodriguez_liscouethanke_2025]: https://doi.org/10.2514/1.c037723
 [research_roelofs_kurowicka_2021]: https://doi.org/10.2514/1.c035985
 [research_rokicki_1982]: https://doi.org/10.21236/ada121908
@@ -5872,6 +6528,7 @@ broke, namely an aircraft that existed and flew.
 [research_rosenbaumh_zeibergsl_1965]: https://ntrs.nasa.gov/citations/19660030698
 [research_roskam_dusto_1969]: https://doi.org/10.2514/3.44100
 [research_roskam_holgate_1968]: https://doi.org/10.2514/3.43981
+[research_rowe_1958]: https://doi.org/10.1243/pime_proc_1958_172_066_02
 [research_rowe_sussman_1971]: https://doi.org/10.2514/3.44275
 [research_roysalam_bil_2016]: https://doi.org/10.1017/aer.2016.59
 [research_ruban_menezes_2020]: https://doi.org/10.1115/1.4048141
@@ -5879,12 +6536,16 @@ broke, namely an aircraft that existed and flew.
 [research_rudolphpeterkc_1997]: https://ntrs.nasa.gov/citations/20080004619
 [research_ruh_warner_2026]: https://doi.org/10.2514/1.c038533
 [research_rumseycharlesb_leedorothyb_1961]: https://ntrs.nasa.gov/citations/19980235513
+[research_rylov_1974]: https://doi.org/10.1007/bf01031315
+[research_sachs_1975]: https://doi.org/10.2514/3.44471
+[research_sachs_1977]: https://doi.org/10.2514/3.44623
 [research_safavi_tarkian_2015]: https://doi.org/10.1177/1063293x15587020
 [research_safoklov_demidov_2025]: https://doi.org/10.3103/s1068799825070025
 [research_sahai_snellen_2017]: https://doi.org/10.2514/1.c034009
 [research_sajadifar_maier_2023]: https://doi.org/10.3390/cryst13020269
 [research_sakataif_davisgw_1975]: https://ntrs.nasa.gov/citations/19750055457
 [research_sakataif_davisgw_1977]: https://ntrs.nasa.gov/citations/19770018637
+[research_sakurada_nakajima_1965]: https://doi.org/10.1002/macp.1965.020870109
 [research_samberger_weissensteiner_2023]: https://doi.org/10.1016/j.actamat.2023.118952
 [research_samimy_webb_2011]: https://doi.org/10.21236/ada564713
 [research_sanchez_liscouethanke_2020]: https://doi.org/10.1016/j.ast.2020.105946
@@ -5910,6 +6571,7 @@ broke, namely an aircraft that existed and flew.
 [research_schwanz_1972]: https://doi.org/10.21236/ada006391
 [research_schweikhardt_grippe_1971]: https://doi.org/10.2514/3.59197
 [research_schwendemannmf_1981]: https://ntrs.nasa.gov/citations/19830003774
+[research_scorer_davenport_1970]: https://doi.org/10.1017/s0022112070002501
 [research_secchi_lacava_2021]: https://doi.org/10.2514/1.c035932
 [research_sedlock_1985]: https://doi.org/10.21236/ada153767
 [research_segletes_2004]: https://doi.org/10.21236/ada421229
@@ -5945,6 +6607,7 @@ broke, namely an aircraft that existed and flew.
 [research_shu_gao_2025]: https://doi.org/10.1063/5.0279923
 [research_shulman_parry_1966]: https://doi.org/10.1121/1.1942873
 [research_silva_resende_2021]: https://doi.org/10.1007/s00158-021-03033-8
+[research_silversteinabe_whitejamesa_1937]: https://ntrs.nasa.gov/citations/19930091622
 [research_simonelli_zou_2023]: https://doi.org/10.1016/j.mtla.2023.101856
 [research_simpson_1971]: https://doi.org/10.1016/0017-9310(71)90029-9
 [research_sinaiskii_pogrebnyak_1972]: https://doi.org/10.1007/bf01527569
@@ -5954,7 +6617,9 @@ broke, namely an aircraft that existed and flew.
 [research_sinha_singh_2026]: https://doi.org/10.5937/fme2602380s
 [research_sissingh_1951]: https://doi.org/10.2514/8.1843
 [research_sivaramakrishnan_1981]: https://doi.org/10.2514/3.57591
+[research_sivojosephn_1957]: https://ntrs.nasa.gov/citations/19930090576
 [research_sizemore_jr_1973]: https://doi.org/10.21236/ada024610
+[research_skoogrichardb_1951]: https://ntrs.nasa.gov/citations/19930086551
 [research_skow_moore_1982]: https://doi.org/10.2514/3.61562
 [research_slaterjohnw_2011]: https://ntrs.nasa.gov/citations/20110011374
 [research_slaterjohnw_2014]: https://ntrs.nasa.gov/citations/20140016826
@@ -5965,8 +6630,11 @@ broke, namely an aircraft that existed and flew.
 [research_sleemanwilliamcjr_1957]: https://ntrs.nasa.gov/citations/20050019253
 [research_sleemanwilliamcjr_1961]: https://ntrs.nasa.gov/citations/20040047139
 [research_smaili_rouwhorst_2018]: https://doi.org/10.2514/1.c034422
+[research_smartmichaelk_kalkhoranirajm_1994]: https://ntrs.nasa.gov/citations/19970001786
 [research_smeltzerdb_sorensenne_1972]: https://ntrs.nasa.gov/citations/19730005050
+[research_smith_1967]: https://doi.org/10.21236/ad0655370
 [research_smith_lebacqz_1973]: https://doi.org/10.21236/ad0754840
+[research_smith_yamakawa_1979]: https://doi.org/10.21236/ada069827
 [research_smithpm_1978]: https://ntrs.nasa.gov/citations/19780013110
 [research_smithwilliardg_1954]: https://ntrs.nasa.gov/citations/20090025453
 [research_smits_miles_2002]: https://doi.org/10.21236/ada405454
@@ -5977,7 +6645,10 @@ broke, namely an aircraft that existed and flew.
 [research_soederrh_bobulaga_1982]: https://ntrs.nasa.gov/citations/19830007035
 [research_soederrh_mehaliccm_1984]: https://ntrs.nasa.gov/citations/19850001760
 [research_sokolov_karpati_1978]: https://doi.org/10.1115/1.3424330
+[research_solomongeorgee_1955]: https://ntrs.nasa.gov/citations/19930090996
 [research_soltani_askari_2019]: https://doi.org/10.1016/j.ast.2019.05.045
+[research_soltanov_1977]: https://doi.org/10.1007/bf00882946
+[research_soltanov_1982]: https://doi.org/10.1007/bf00605903
 [research_sorensen_bencze_1974]: https://doi.org/10.2514/3.59241
 [research_sorensen_latham_1975]: https://doi.org/10.2514/3.44491
 [research_sorensen_smeltzer_1969]: https://doi.org/10.2514/3.44033
@@ -5991,6 +6662,8 @@ broke, namely an aircraft that existed and flew.
 [research_spencerbernardjr_1961]: https://ntrs.nasa.gov/citations/19980228059
 [research_spoonerstanleyh_martinaalbertp_1948]: https://ntrs.nasa.gov/citations/19930085375
 [research_spreemannkennethp_1958]: https://ntrs.nasa.gov/citations/19930085045
+[research_spreiter_sacks_1951]: https://doi.org/10.2514/8.1830
+[research_squires_2002]: https://doi.org/10.21236/ada410100
 [research_stancil_1979]: https://doi.org/10.2514/3.58481
 [research_stanisic_1961]: https://doi.org/10.1002/zamm.19610410903
 [research_starken_lichtfuss_1970]: https://doi.org/10.1115/1.3445351
@@ -5998,9 +6671,11 @@ broke, namely an aircraft that existed and flew.
 [research_stenning_1980]: https://doi.org/10.1115/1.3240630
 [research_stenning_1980_b]: https://doi.org/10.1115/1.3240618
 [research_stephensemilyw_1959]: https://ntrs.nasa.gov/citations/19980232232
+[research_stephenson_1953]: https://doi.org/10.2514/8.2736
 [research_stephenson_1958]: https://doi.org/10.1017/s0368393100068395
 [research_stephenson_shohet_1967]: https://doi.org/10.4050/jahs.12.3.26
 [research_sterbentzwilliamh_davidsjoseph_1952]: https://ntrs.nasa.gov/citations/20090016318
+[research_stewart_1956]: https://doi.org/10.2514/8.3590
 [research_stewart_bull_2011]: https://doi.org/10.21236/ada606209
 [research_stewart_dominick_1975]: https://doi.org/10.21236/ada018420
 [research_stewartson_1950]: https://doi.org/10.1017/s0305004100025779
@@ -6017,9 +6692,11 @@ broke, namely an aircraft that existed and flew.
 [research_subramanian_delaurentis_2016]: https://doi.org/10.1002/sys.21358
 [research_sugiyama_1971]: https://doi.org/10.1299/jsme1958.14.1077
 [research_sugiyama_1971_b]: https://doi.org/10.1299/kikai1938.37.295
+[research_sugiyama_1977]: https://doi.org/10.1299/jsme1958.20.711
 [research_sui_lu_2025]: https://doi.org/10.3390/met15091059
 [research_sullivan_1943]: https://doi.org/10.21236/ada954458
 [research_sullivanpg_1978]: https://ntrs.nasa.gov/citations/19790008753
+[research_sullivanrl_1979]: https://ntrs.nasa.gov/citations/19790065319
 [research_sun_chen_2026]: https://doi.org/10.1007/s00158-026-04375-x
 [research_sun_ding_2026]: https://doi.org/10.1360/sst-2025-0362
 [research_sun_gu_2021]: https://doi.org/10.1177/09596518211057423
@@ -6035,9 +6712,11 @@ broke, namely an aircraft that existed and flew.
 [research_surber_sedlock_1979]: https://doi.org/10.2514/3.58575
 [research_surwase_kumar_2025]: https://doi.org/10.1186/s44147-025-00749-y
 [research_sussman_1968]: https://doi.org/10.2514/3.43914
+[research_suttonfredb_1959]: https://ntrs.nasa.gov/citations/19980230678
 [research_syberg_koncsek_1976]: https://doi.org/10.2514/3.58712
 [research_sybergj_koncsekjl_1972]: https://ntrs.nasa.gov/citations/19730028643
 [research_szusta_2018]: https://doi.org/10.1016/j.ijfatigue.2018.05.025
+[research_taggart_1966]: https://doi.org/10.1111/j.1559-3584.1966.tb05032.x
 [research_taghiabad_esfandabadi_2026]: https://doi.org/10.1016/j.ast.2025.110963
 [research_tahmasebi_karimim_2015]: https://doi.org/10.1108/aeat-12-2012-0241
 [research_tahsini_2020]: https://doi.org/10.1108/aeat-12-2019-0268
@@ -6049,8 +6728,11 @@ broke, namely an aircraft that existed and flew.
 [research_tanaka_nojima_1971]: https://doi.org/10.2472/jsms.20.418
 [research_tanchoonsooi_suderkenneth_2003]: https://ntrs.nasa.gov/citations/20030067316
 [research_taneich_rinoie_2025]: https://doi.org/10.2514/1.c035961
+[research_tang_1969]: https://doi.org/10.2514/3.29574
 [research_tanguy_macmanus_2018]: https://doi.org/10.1016/j.ast.2018.04.031
+[research_tani_1978]: https://doi.org/10.1115/1.3424390
 [research_tanida_1972]: https://doi.org/10.1007/bf01593986
+[research_tannercaroles_mcleodnormanj_1965]: https://ntrs.nasa.gov/citations/20000011978
 [research_tao_wang_2024]: https://doi.org/10.3390/coatings14080960
 [research_tarnowski_borowski_2021]: https://doi.org/10.1016/j.jallcom.2021.158896
 [research_tate_gillard_1975]: https://doi.org/10.21236/ada018691
@@ -6067,6 +6749,7 @@ broke, namely an aircraft that existed and flew.
 [research_the_rollsroyce_1967]: https://doi.org/10.1108/eb034271
 [research_the_rollsroyce_1968]: https://doi.org/10.1108/eb034361
 [research_thein_2018]: https://doi.org/10.47119/ijrp10020112019483
+[research_theodorsen_1959]: https://doi.org/10.2514/8.8239
 [research_thomas_1965]: https://doi.org/10.2514/3.3031
 [research_thomas_srinivasan_1974]: https://doi.org/10.1016/0036-9748(74)90488-8
 [research_thomasrandy_stueberthomasj_2013]: https://ntrs.nasa.gov/citations/20140001129
@@ -6080,6 +6763,7 @@ broke, namely an aircraft that existed and flew.
 [research_tollthomasa_1942]: https://ntrs.nasa.gov/citations/19930092608
 [research_tondl_1979]: https://doi.org/10.1016/0020-7462(79)90014-3
 [research_tongguang_changhui_2015]: https://doi.org/10.1016/j.proeng.2014.12.581
+[research_torenbeek_1971]: https://doi.org/10.1108/eb034787
 [research_torgerson_mantri_2019]: https://doi.org/10.1016/j.wear.2018.12.046
 [research_toric_boko_2020]: https://doi.org/10.1016/j.firesaf.2020.102971
 [research_toric_brnic_2017]: https://doi.org/10.3390/met7040126
@@ -6108,6 +6792,7 @@ broke, namely an aircraft that existed and flew.
 [research_um_2016]: https://doi.org/10.14731/kjir.2016.03.56.1.111
 [research_unal_oz_2023]: https://doi.org/10.1108/aeat-02-2022-0056
 [research_using_tip_2022]: https://doi.org/10.47176/jafm.15.06.1089
+[research_uthgenannt_1971]: https://doi.org/10.2514/3.59180
 [research_utomo_bura_2019]: https://doi.org/10.23960/ins.v2i2.90
 [research_valencia_alulema_2020]: https://doi.org/10.1016/j.tsep.2020.100515
 [research_valencia_hidalgo_2017]: https://doi.org/10.1016/j.cja.2016.12.005
@@ -6117,13 +6802,17 @@ broke, namely an aircraft that existed and flew.
 [research_vanderveldenalexanderjm_krooilan_1990]: https://ntrs.nasa.gov/citations/19900019224
 [research_vandeusen_mardoc_1972]: https://doi.org/10.2514/3.58933
 [research_vandommelen_1995]: https://doi.org/10.21236/ada329654
+[research_vanrooyen_eshelby_1981]: https://doi.org/10.2514/3.44710
 [research_vanschalkwykchristian_brightmichellem_2001]: https://ntrs.nasa.gov/citations/20050196613
+[research_vasilev_1970]: https://doi.org/10.1007/bf01014997
 [research_vazsonyi_1950]: https://doi.org/10.2514/8.1673
 [research_veereshkumar_nagasailaja_2021]: https://doi.org/10.21275/sr21713140558
 [research_venturelli_benini_2016]: https://doi.org/10.1016/j.ast.2016.08.021
 [research_veresnikov_goncharenko_2026]: https://doi.org/10.1134/s1064562426700055
 [research_verlaine_2023]: https://doi.org/10.1504/ijpm.2023.132139
 [research_verma_2018]: https://doi.org/10.2139/ssrn.3242663
+[research_vidal_1962]: https://doi.org/10.2514/8.9698
+[research_vidal_1963]: https://doi.org/10.2514/3.54857
 [research_vieira_koch_2020]: https://doi.org/10.2514/1.c035847
 [research_vijayakumar_senthilvelan_2015]: https://doi.org/10.4028/www.scientific.net/amm.813-814.252
 [research_vinogradov_makarov_2017]: https://doi.org/10.1615/tsagiscij.2017022808
@@ -6138,6 +6827,7 @@ broke, namely an aircraft that existed and flew.
 [research_vu_nguyen_2025]: https://doi.org/10.1088/2631-8695/adffff
 [research_wacker_1967]: https://doi.org/10.21236/ad0656573
 [research_wahler_maruyama_2025]: https://doi.org/10.2514/1.c037516
+[research_walker_1952]: https://doi.org/10.21236/ad0041745
 [research_walker_1955]: https://doi.org/10.1017/s036839310011689x
 [research_walker_heming_1980]: https://doi.org/10.1038/283286a0
 [research_walkerharoldj_berggrenroberte_1948]: https://ntrs.nasa.gov/citations/19930090356
@@ -6164,7 +6854,11 @@ broke, namely an aircraft that existed and flew.
 [research_wang_zhao_2023_b]: https://doi.org/10.1016/j.ast.2023.108420
 [research_wang_zhao_2025]: https://doi.org/10.1016/j.eswa.2025.126782
 [research_wang_zhao_2026]: https://doi.org/10.1016/j.measurement.2026.122215
+[research_ward_1949]: https://doi.org/10.1017/s0001925900000056
+[research_warren_chen_1973]: https://doi.org/10.1007/bf01177123
 [research_warsch_carbone_2026]: https://doi.org/10.3390/aerospace13070623
+[research_washington_humphrey_1969]: https://doi.org/10.21236/ad0699359
+[research_washington_pettis_1968]: https://doi.org/10.21236/ad0695658
 [research_wasserbauerjf_gerstenmaierwh_1978]: https://ntrs.nasa.gov/citations/19780019182
 [research_wasserbauerjf_neumannhe_1985]: https://ntrs.nasa.gov/citations/19850016950
 [research_wasserman_mitchell_1973]: https://doi.org/10.21236/ad0761120
@@ -6179,6 +6873,7 @@ broke, namely an aircraft that existed and flew.
 [research_weissman_1973]: https://doi.org/10.2514/3.60216
 [research_wells_1993]: https://doi.org/10.21236/ada265083
 [research_welna_dahlberg_1969]: https://doi.org/10.21236/ada056285
+[research_wernerrogera_wolterjohnd_2010]: https://ntrs.nasa.gov/citations/20100042397
 [research_wetzelbentone_1955]: https://ntrs.nasa.gov/citations/19930088409
 [research_whalenpaulp_wilcoxfreda_1956]: https://ntrs.nasa.gov/citations/19930089419
 [research_whalleymatthews_1991]: https://ntrs.nasa.gov/citations/19910022831
@@ -6188,8 +6883,11 @@ broke, namely an aircraft that existed and flew.
 [research_whitcombrichardt_1953]: https://ntrs.nasa.gov/citations/20050019402
 [research_whitcombrichardt_sevierjohnrjr_1960]: https://ntrs.nasa.gov/citations/19980223605
 [research_white_1997]: https://doi.org/10.21236/ada330361
+[research_whitney_1963]: https://doi.org/10.21236/ad0423790
 [research_whitson_bartimo_1950]: https://doi.org/10.21236/ad0459075
+[research_whittley_1952]: https://doi.org/10.1108/eb032129
 [research_whoric_1973]: https://doi.org/10.21236/ad0914456
+[research_whoric_1977]: https://doi.org/10.21236/ada038494
 [research_wickert_1985]: https://doi.org/10.21236/ada157504
 [research_wilcoxfreda_1957]: https://ntrs.nasa.gov/citations/19930089790
 [research_wilde_pickerell_1968]: https://doi.org/10.1108/eb034344
@@ -6198,6 +6896,7 @@ broke, namely an aircraft that existed and flew.
 [research_williams_yost_1973]: https://doi.org/10.1017/s0001924000041610
 [research_willis_1981]: https://doi.org/10.2514/3.57577
 [research_wilson_riley_1993]: https://doi.org/10.21236/ada273685
+[research_winkler_1954]: https://doi.org/10.21236/ad0058826
 [research_winograd_miles_1956]: https://doi.org/10.1017/s0001925900010167
 [research_winternitz_ramsay_1957]: https://doi.org/10.1017/s036839310013086x
 [research_wisniewski_1951]: https://doi.org/10.1108/eb032109
@@ -6221,6 +6920,7 @@ broke, namely an aircraft that existed and flew.
 [research_yagn_kalko_1972]: https://doi.org/10.1007/bf01529907
 [research_yamaguchi_1964]: https://doi.org/10.1299/jsme1958.7.91
 [research_yamamoto_kojima_2020]: https://doi.org/10.1016/j.ast.2019.105523
+[research_yamanaka_kamimura_1975]: https://doi.org/10.1299/jsme1958.18.689
 [research_yan_pan_2025]: https://doi.org/10.1063/5.0294481
 [research_yang_ji_2021]: https://doi.org/10.3390/met11020303
 [research_yang_kong_2026]: https://doi.org/10.1016/j.ast.2026.112146
@@ -6281,6 +6981,7 @@ broke, namely an aircraft that existed and flew.
 [research_zhu_qin_2019_b]: https://doi.org/10.1016/j.actamat.2019.04.043
 [research_zhu_wu_2023]: https://doi.org/10.1016/j.intermet.2023.108076
 [research_zhu_xing_2023]: https://doi.org/10.1177/00368504231175712
+[research_ziegler_1963]: https://doi.org/10.21236/ad0405158
 [research_zien_ragsdale_1979]: https://doi.org/10.21236/ada073217
 [research_ziganshin_logachev_2020]: https://doi.org/10.1016/j.jobe.2020.101666
 [research_zimmermanch_1935]: https://ntrs.nasa.gov/citations/19930081303
@@ -6289,3 +6990,4 @@ broke, namely an aircraft that existed and flew.
 [research_zubtsov_sudakov_1982]: https://doi.org/10.1007/bf01091274
 [research_zukoski_auerbach_1976]: https://doi.org/10.1115/1.3446114
 [research_zurlippe_2013]: https://doi.org/10.21236/ada620525
+[research_zwieback_1964]: https://doi.org/10.2514/3.59209
