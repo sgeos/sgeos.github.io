@@ -119,6 +119,58 @@ and a 28-article isolated build with all 77 equations rendering. **The 213 added
 source: 40 of 40 NTRS resolving, 60 of 60 sampled Crossref DOIs registered, and 40 of 40 sampled DTIC
 DOIs registered.**
 
+**PUBLICATION REVIEW, the fourth and final pass. Committed and PUSHED. NOT published.** Final state
+**9,895 lines, 77 display equations, 2,803 references, 37,006 words**. All twenty-eight articles in the
+series remain in `_drafts/`.
+
+**Contemporary coverage 595 to 1,535 references, or 33.8 to 56.8 percent**, per the standing directive. A
+fourth harvest of 70 Crossref and 8 NTRS queries took the modern pool from 931 to 1,615 and the master
+from 2,162 to 2,860.
+
+**FOUR NEW SURVEY SUBSECTIONS, EACH ANSWERING SOMETHING THE ARTICLE'S OWN ANALYSIS RAISED**, taking the
+survey from seven subsections to eleven. **Ram drag and high-speed propulsion integration**, which is the
+keystone's other half and which the draft survey never reached, live again under supersonic civil
+transport and variable-cycle engines. **Aerothermoelasticity**, because the article computes a thermal
+stress by hand and the modern name for that computation is a coupled thermal-structural problem.
+**Derivative and legacy design**, which is **the one contemporary thread that takes the article's own
+subject as its object of study**, and which prices the inherited-constraint trade the Lancer lost on.
+**Evaluating an aircraft that was never built**, which is **the closest thing to a resolution the
+article's central difficulty has and it arrived fifty years late**, and which the article notes is a
+primitive version of what it is itself doing.
+
+**THE COUNT-VERSUS-FRACTION TRAP CAUGHT THIS ARTICLE FROM BOTH ENDS AND THE SOURCE BASE NOW SAYS SO.** At
+the reference pass the contemporary count sat unchanged at 595 while its fraction fell, because the
+period base was growing. At this pass **the period count sits unchanged at 912 while its fraction falls
+from 51.8 to 33.8 percent**, because the contemporary base is growing, and **the primary count ROSE from
+1,176 to 1,188 while its fraction fell from 66.8 to 44.0**. Neither movement is a fact about coverage.
+Both are facts about the denominator.
+
+**Publication checks.** Prose style clean at zero failures. **Two em dashes found in table cells and
+removed**, being placeholders rather than prose but the rule is absolute. **One prose semicolon that I
+introduced in this pass, caught and removed.** **One capitalised emphasis, `DIFFERENCE`, converted to
+bold**, since emphasis is bold and never capitals.
+
+**THE NASA DEFECT RECURRED FOR THE THIRD CONSECUTIVE ARTICLE AND WAS CAUGHT AGAIN.** It was used without
+being spelled out, including inside link text, which is prose in this corpus. Both occurrences now read
+National Aeronautics and Space Administration. **`US gallons` corrected to United States gallons.** CL
+and YF remain flagged and are exempt as model designations.
+
+**Diction measured against 27 peers: zero constructions above the corpus maximum.** `rather than` at 4.61
+per thousand against a peer median of 4.12 and maximum of 6.78 is inside range and doing real work in an
+article that repeatedly contrasts what was done with what was not, so **it was left alone rather than
+mechanically substituted, which is the A369 lesson applied**. `mach` at 6.18 per thousand is the
+article's subject noun.
+
+**Three section headings carried no prose at all** and rendered as a heading followed immediately by a
+subheading. Each now has an orienting sentence.
+
+**Final verification.** 105 numerical checks passing unchanged, reference integrity at 2,803 with zero
+undefined, zero orphaned and zero duplicate URLs, **zero search-endpoint citations**, `_verify.py` at the
+21-warning baseline, 45 of 45 library tests, and a 28-article isolated build with all 77 equations
+rendering as display math across 18 sections and 45 subsections, 21 intended tables and zero unexpanded
+markers. **The 940 references added this pass swept by source: 11 of 11 NTRS resolving, 120 of 120
+sampled Crossref DOIs registered, 1 of 1 DTIC registered, and all 75 hand-curated URLs resolving.**
+
 **The subject never existed.** No X-27 was built and no CL-1200 was built. One full-scale mock-up of wood
 with a metal skin was completed and up to three fuselages were reportedly worked. There is no flight
 record, no wind-tunnel report, and **the NASA Technical Reports Server returns zero results for the
