@@ -140,6 +140,22 @@ physically meaningful target is the orbital velocity itself.
 
 $$ V_{\mathrm{orbit}} = \sqrt{\frac{\mu}{R_\oplus + h}} = \sqrt{\frac{3.986 \times 10^{14}}{6.371 \times 10^6 + 2 \times 10^5}} = 7{,}789\ \mathrm{m/s} $$
 
+Mach number is the ratio of flight speed to the local speed of sound, and the speed of sound depends only on
+temperature.
+
+$$ a = \sqrt{\gamma R T}, \qquad M = \frac{V}{a} $$
+
+At forty-eight kilometres the atmosphere is warm enough that
+
+$$ a = \sqrt{1.4 \times 287.05 \times 270.65} = 329.8\ \mathrm{m/s} $$
+
+so orbital velocity there corresponds to
+
+$$ M_{\mathrm{orbit}} = \frac{7{,}789}{329.8} = 23.62 $$
+
+**Mach 25 at that altitude is 8,245 metres per second, which overshoots orbital velocity by six percent.**
+The programme's headline number was never a velocity target at all.
+
 **Everything in this article is computed against that number rather than against a Mach number**, because a
 Mach number at these speeds is a statement about the atmosphere and not about the vehicle.
 
@@ -176,6 +192,17 @@ own kinetic energy grows as the square of flight speed.
 **So the fuel becomes a smaller and smaller perturbation on a larger and larger number**, and the difference
 that pushes the vehicle is squeezed between them.
 
+### Specific Impulse, and Why the Air-Breather's Figure Looks So Large
+
+Specific impulse is thrust divided by the weight flow of propellant, and
+**the propellant an air-breather is charged for is the fuel alone**, because it does not carry its oxidiser.
+
+$$ I_{sp} = \frac{F_{\mathrm{net}}}{\dot{m}_{\mathrm{fuel}}\,g_0} = \frac{F_{\mathrm{net}}/\dot{m}_0}{f\,g_0} $$
+
+**That single difference in convention is why figures above a thousand seconds appear below**, against about
+450 for a hydrogen rocket. It is not that the engine is four times better. It is that three quarters of what
+a rocket carries is free.
+
 ### What That Looks Like in Numbers
 
 Taking hydrogen at a lower heating value of 119.96 megajoules per kilogram, a stoichiometric fuel-air ratio
@@ -194,10 +221,42 @@ metres per second.
 | 7,000 | 7,351.7 | 7,000.0 | 351.7 | 0.0478 | 20.90 | 1,232.5 | 0.1282 |
 | 7,500 | 7,818.9 | 7,500.0 | 318.9 | 0.0408 | 24.52 | 1,117.6 | 0.1117 |
 
+Taking the row at seven thousand metres per second and substituting,
+
+$$ V_e = \sqrt{\frac{2 \times 0.95\left(\tfrac{1}{2}\left(7000\right)^2 + 0.0291 \times 0.90 \times 119.96 \times 10^6\right)}{1.0291}} = 7{,}143.8\ \mathrm{m/s} $$
+
+$$ \frac{F_{\mathrm{gross}}}{\dot{m}_0} = 1.0291 \times 7143.8 = 7{,}351.7\ \mathrm{m/s} $$
+
+$$ \frac{F_{\mathrm{net}}}{\dot{m}_0} = 7351.7 - 7000 = 351.7\ \mathrm{m/s} $$
+
+$$ I_{sp} = \frac{351.7}{0.0291 \times 9.80665} = 1{,}232.5\ \mathrm{s} $$
+
+$$ \frac{f\,\eta_c\,h_{\mathrm{fuel}}}{\tfrac{1}{2}V_0^2} = \frac{3.142 \times 10^6}{2.45 \times 10^7} = 0.1282 $$
+
+**The exhaust leaves 143.8 metres per second faster than the air arrived**, on a flight speed of seven
+thousand. That is the whole of the engine's contribution, and everything else in the table follows from it.
+
 **Read the last column first.** At a thousand metres per second the fuel supplies more than six times the
 kinetic energy the stream already has, and the engine is doing something close to what a jet engine does.
 **At seven thousand it supplies about an eighth of it.** The engine has become a device that adds a modest
 amount of energy to an enormous flow, and takes its living from the difference.
+
+### From Specific Thrust to a Vehicle
+
+The figures above are per unit mass flow of captured air. Converting them into forces requires the capture
+area, and the conversion deserves its own line because the result is startling.
+
+$$ \dot{m}_0 = \rho\,V_0\,A_{\mathrm{capture}} $$
+
+At Mach 20 and forty-two kilometres, where the density is 2.878 × 10⁻³ kilograms per cubic metre and the
+flight speed 6,423 metres per second, a ten square metre capture area gives
+
+$$ \dot{m}_0 = 2.878 \times 10^{-3} \times 6423 \times 10 = 184.9\ \mathrm{kg/s} $$
+
+$$ F_{\mathrm{gross}} = 184.9 \times 6{,}816 = 1{,}260\ \mathrm{kN}, \qquad F_{\mathrm{net}} = 184.9 \times 394 = 72.9\ \mathrm{kN} $$
+
+**An engine developing 1,260 kilonewtons of gross thrust pushes the vehicle with 73.** The other 1,187
+kilonewtons are spent getting the air up to the speed it was already travelling at.
 
 ### The Amplification, Which Is the Number That Matters
 
@@ -258,6 +317,28 @@ efficiency, and it moves as follows.
 | 0.92 | 10,572 m/s |
 | 0.90 | 8,880 m/s |
 
+### Buying Thrust by Running Rich
+
+The fuel-air ratio is not fixed at stoichiometric, and running rich is the lever the programme kept reaching
+for. The equivalence ratio scales it.
+
+$$ \phi = \frac{f}{f_{\mathrm{stoich}}} $$
+
+At six and a half thousand metres per second,
+
+| $\phi$ | Net specific thrust | $I_{sp}$ | Amplification |
+|---|---|---|---|
+| 0.6 | 169.5 m/s | 990.0 s | 39.34 |
+| 1.0 | 388.3 m/s | 1,360.6 s | 17.74 |
+| 2.0 | 923.4 m/s | 1,617.9 s | 8.04 |
+| 3.0 | 1,444.4 m/s | 1,687.1 s | 5.50 |
+
+**Running at three times stoichiometric nearly quadruples the net thrust and cuts the amplification from eighteen to five and a half**,
+which makes the vehicle both more capable and far easier to predict.
+**It also burns three times the fuel for a twenty-four percent gain in specific impulse**, and the extra
+hydrogen is the same hydrogen the cooling system needs. That trade, between thrust, fuel and coolant, is the
+one the design kept circling.
+
 **A number that moves by a factor of two when one assumed efficiency moves by five percent is not a finding about propulsion.**
 It is a finding about the assumption. The loss budget above says the same thing honestly, because it makes
 no efficiency assumption at all.
@@ -313,12 +394,36 @@ third row of that table.
 and the computational methods that were meant to substitute for the facilities had to model chemistry that
 the facilities could not produce cleanly enough to validate against.
 
+### The Other Quantity That Explodes
+
+Temperature is the difficulty a facility is usually judged on. **Pressure grows faster.**
+
+$$ \frac{p_0}{p} = \left(1 + \frac{\gamma - 1}{2}M^2\right)^{\frac{\gamma}{\gamma - 1}} $$
+
+| Flight Mach | Total to static pressure ratio |
+|---|---|
+| 4 | 1.518 × 10² |
+| 8 | 9.763 × 10³ |
+| 12 | 1.445 × 10⁵ |
+| 20 | 4.783 × 10⁶ |
+| 25 | 2.245 × 10⁷ |
+
+**Twenty-two million at Mach 25.** A facility must contain that, an engine must be built to hold it, and the
+ideal-gas relation that produced the number has already failed for the same reason the temperature relation
+did. **The structural problem grows faster than the thermal one and is discussed far less.**
+
 ### Why Milliseconds Are Not Enough
 
 Facilities that reach the required enthalpy do so by storing energy and releasing it quickly, and their run
 times are short compared with the time the flow needs to establish itself in an engine duct.
 
 $$ t_{\mathrm{flow}} = \frac{L}{V_{\mathrm{duct}}} = \frac{5\ \mathrm{m}}{2{,}500\ \mathrm{m/s}} = 2.0\ \mathrm{ms} $$
+
+The count of flow-through times a run provides is the ratio.
+
+$$ N = \frac{t_{\mathrm{run}}}{t_{\mathrm{flow}}} = \frac{5 \times 10^{-3}}{2.0 \times 10^{-3}} = 2.50 \quad \text{for a reflected shock tunnel} $$
+
+$$ N = \frac{2 \times 10^{-4}}{2.0 \times 10^{-3}} = 0.10 \quad \text{for an expansion tube} $$
 
 Steady flow is not established until several of these have passed, because the starting shock system must
 sweep out of the duct and the boundary layers must grow to their equilibrium thickness. Taking eight
@@ -465,6 +570,16 @@ almost the whole stagnation temperature. Keeping the flow at $M_c \approx 2.5$ d
 | 16 | 12,812 K | 12,586 K | 5,694 K | 0.0321 percent |
 | 20 | 20,789 K | 20,421 K | 9,239 K | 0.0108 percent |
 
+The total pressure recovery in the last column is the normal shock relation.
+
+$$ \frac{p_{0,2}}{p_{0,1}} = \left[\frac{\left(\gamma + 1\right)M^2}{2 + \left(\gamma - 1\right)M^2}\right]^{\frac{\gamma}{\gamma - 1}}\left[\frac{\gamma + 1}{2\gamma M^2 - \left(\gamma - 1\right)}\right]^{\frac{1}{\gamma - 1}} $$
+
+Substituting the Mach 8 condition,
+
+$$ T_0 = 223.7\left(1 + 0.2 \times 64\right) = 3{,}086\ \mathrm{K} $$
+
+$$ T_{\mathrm{entry}}\big|_{M_c = 2.5} = \frac{3086}{1 + 0.2 \times 6.25} = 1{,}372\ \mathrm{K}, \qquad T_{\mathrm{entry}}\big|_{M_c = 0.3} = \frac{3086}{1.018} = 3{,}032\ \mathrm{K} $$
+
 **Combustion products begin to dissociate around three thousand kelvin**, and above it the energy released
 by burning hydrogen goes into breaking molecules apart rather than into raising pressure. Reading down the
 subsonic column, that threshold is crossed **between Mach 6 and Mach 8**, which is where ramjets in fact
@@ -495,11 +610,19 @@ Residence time in the burner is short but not the binding constraint.
 
 $$ t_{\mathrm{res}} = \frac{L}{M_c\sqrt{\gamma R T}} = \frac{5\ \mathrm{m}}{2.5\sqrt{1.4 \times 287 \times 1500}} = 2.58\ \mathrm{ms} $$
 
+$$ N_{\mathrm{ignition}} = \frac{t_{\mathrm{res}}}{t_{\mathrm{ignition}}} $$
+
+| Assumed ignition delay | Delays available within the residence time |
+|---|---|
+| 10 μs | 258 |
+| 50 μs | 52 |
+| 100 μs | 26 |
+
 **Hydrogen ignition delay at these pressures and temperatures is measured in tens of microseconds**, so
 there is ample time to ignite. **What there is not time for is mixing.** Fuel injected into a stream moving
 at two and a half kilometres per second must penetrate, mix and burn within a couple of milliseconds, and
-mixing is the slow step. That is why so much of the scramjet literature is about injector geometry rather
-than about chemistry.
+mixing is the slow step, which is why so much of the scramjet literature concerns injector geometry rather
+than chemistry.
 
 - [Supersonic combustion][research_kydd_mullaney_1961]
 - [Theoretical Analysis of Turbulent Mixing of Reactive Gases...][research_libby_1962]
@@ -590,6 +713,38 @@ the inlet's exit conditions, which depend on the forebody boundary layer, which 
 depends on the flight environment. A test of the nozzle requires the combustor exit conditions.
 **Each piece can be tested only against an assumption about the piece before it**, and the assumptions are
 exactly what the flight vehicle was meant to check.
+
+### Why Unstart Cannot Be Undone at Speed
+
+**The draft of this article asserted that unstart is catastrophic and never said why it is irreversible. The reason is a pair of area ratios that do not overlap.**
+
+A fixed-geometry inlet must swallow its own starting shock. The largest internal contraction at which it can
+do so is the Kantrowitz limit, being the contraction at which the flow behind a normal shock at the entry
+reaches sonic conditions at the throat.
+
+$$ \left(\frac{A_{\mathrm{entry}}}{A_{\mathrm{throat}}}\right)_{\mathrm{start}} = \frac{1}{M_2}\left[\frac{2}{\gamma + 1}\left(1 + \frac{\gamma - 1}{2}M_2^2\right)\right]^{\frac{\gamma + 1}{2\left(\gamma - 1\right)}} $$
+
+where $M_2$ is the Mach number behind that shock. Once started, the same duct can hold far more, because the
+flow through it is supersonic and the limit becomes the isentropic area ratio.
+
+$$ \left(\frac{A}{A^{*}}\right)_{\mathrm{run}} = \frac{1}{M}\left[\frac{2}{\gamma + 1}\left(1 + \frac{\gamma - 1}{2}M^2\right)\right]^{\frac{\gamma + 1}{2\left(\gamma - 1\right)}} $$
+
+| Flight Mach | Mach behind the shock | Contraction that will start | Contraction that will run | Ratio |
+|---|---|---|---|---|
+| 3 | 0.4752 | 1.390 | 4.235 | 3.05 |
+| 5 | 0.4152 | 1.543 | 25.00 | 16.2 |
+| 8 | 0.3929 | 1.614 | 190.1 | 117.8 |
+| 12 | 0.3847 | 1.642 | 1,276 | 777 |
+| 20 | 0.3804 | 1.657 | 15,377 | 9,279 |
+
+**At Mach 20 an inlet can run at a contraction nine thousand times what it could start at.** The starting
+limit barely moves with Mach number, sitting between 1.4 and 1.7 across the whole range, while the running
+limit grows without bound.
+
+**So a hypersonic inlet is started at low speed and must never let go.** If it unstarts at Mach 20 it cannot
+restart there, and the vehicle must decelerate a long way before it can try again.
+**Unstart is therefore a loss-of-vehicle event rather than a transient**, and it is the clearest single
+reason the flowpath cannot be treated as a component.
 
 **Inlet unstart is the failure mode this arrangement creates.** If the shock system in the isolator is
 driven forward by too much heat release, it disgorges from the inlet, mass capture collapses, thrust
@@ -757,6 +912,12 @@ centimetres,
 | Mach 20 at 42 km | 1,107 W/cm² | 3,893 K |
 | Mach 25 at 48 km | 1,548 W/cm² | 4,234 K |
 
+Substituting the Mach 20 condition at forty-two kilometres,
+
+$$ \dot{q}_s = 1.7415 \times 10^{-4}\sqrt{\frac{2.878 \times 10^{-3}}{0.05}}\left(6{,}423\right)^3 = 1.107 \times 10^{7}\ \mathrm{W/m^2} = 1{,}107\ \mathrm{W/cm^2} $$
+
+$$ T_w = \left(\frac{1.107 \times 10^{7}}{0.85 \times 5.670 \times 10^{-8}}\right)^{1/4} = 3{,}893\ \mathrm{K} $$
+
 where the radiation equilibrium temperature is the wall temperature at which re-radiation alone balances the
 incoming flux, with an **assumed** emissivity of 0.85. The aerothermodynamic relations here follow
 [Bertin][book_bertin] and [Hirschel][book_hirschel].
@@ -770,6 +931,12 @@ fuel.
 Each kilogram of hydrogen can absorb a computable amount of heat before it is too hot to burn well.
 
 $$ Q_{\mathrm{sink}} = c_{p,H_2}\,\Delta T = 14{,}300 \times 800 = 11.44\ \mathrm{MJ/kg} $$
+
+The balance is between the heat arriving on the wetted area and the heat the fuel flow can take up.
+
+$$ \frac{\dot{Q}_{\mathrm{capacity}}}{\dot{Q}_{\mathrm{load}}} = \frac{f\,\dot{m}_0\,c_{p,H_2}\,\Delta T}{\kappa\,\dot{q}_s\,A_{\mathrm{wetted}}} $$
+
+where $\kappa$ is the ratio of average surface flux to the stagnation-point value.
 
 Whether that is enough depends on the ratio of average surface heat flux to the stagnation-point value,
 which is **assumed** rather than known, so it is swept rather than asserted. Taking Mach 20 at forty-two
@@ -1098,6 +1265,32 @@ second to a transition speed and then rocketing to orbital velocity.
 | 6,000 m/s | 45.44 percent | 54.56 percent | 52.56 percent |
 | 7,000 m/s | 36.52 percent | 63.48 percent | 61.48 percent |
 
+Taking the six thousand metre per second row and showing the integration,
+
+$$ \ln\frac{m_0}{m_f} = 0.60594 \quad \Longrightarrow \quad \frac{m_0}{m_f} = 1.8330 $$
+
+$$ \text{propellant fraction} = 1 - \frac{1}{1.8330} = 45.44\ \mathrm{percent} $$
+
+### A Bound That Owes Nothing to Any Engine
+
+**The integrated result deserves a check that does not depend on the thrust model, and thermodynamics supplies one.**
+
+Reaching orbit requires a definite energy per unit mass of vehicle, being the kinetic energy of orbital
+velocity plus the potential energy of the altitude.
+
+$$ e_{\mathrm{orbit}} = \frac{V_{\mathrm{orbit}}^2}{2} + \mu\left(\frac{1}{R_\oplus} - \frac{1}{R_\oplus + h}\right) = 30.33 + 1.90 = 32.24\ \mathrm{MJ/kg} $$
+
+Hydrogen carries 119.96 megajoules per kilogram.
+**If every joule went into the vehicle and none into the exhaust, the atmosphere or the structure**, the
+fuel fraction could not fall below
+
+$$ \left(\frac{m_{\mathrm{fuel}}}{m_0}\right)_{\min} = \frac{32.24}{119.96} = 26.9\ \mathrm{percent} $$
+
+**The integrated ascent gives 45.44 percent, which is 1.69 times the bound.** A perfect engine could do no
+better than a factor of 1.69 improvement on the answer above, and
+**that is the strongest evidence available here that the integration is not producing a fantasy**, because a
+result below the bound would have been proof of an error.
+
 **Air-breathing to six kilometres per second moves the permitted structural fraction from twelve percent to fifty-two.**
 That is not a marginal improvement. It is the difference between a vehicle that cannot be built and one with
 room to spare.
@@ -1169,8 +1362,19 @@ $$ q = \tfrac{1}{2}\rho V^2 $$
 | 20 | 43.63 km | 38.48 km |
 | 25 | 47.11 km | 41.76 km |
 
+Working the Mach 25 case,
+
+$$ q = \tfrac{1}{2}\left(1.409 \times 10^{-3}\right)\left(8{,}245\right)^2 = 47{,}880\ \mathrm{Pa} \quad \text{at}\ 47.11\ \mathrm{km} $$
+
 **The corridor is a line, not a region.** The vehicle must climb along it as it accelerates, and the heat
-load, the structural load and the engine's operating point are all set by where on that line it sits. A
+load, the structural load and the engine's operating point are all set by where on that line it sits.
+
+What it does along that line is set by the acceleration equation, in which the net thrust of this whole
+article appears once and is then reduced again by the vehicle's own drag.
+
+$$ m\frac{dV}{dt} = F_{\mathrm{net}} - D - m g \sin\gamma, \qquad D = q\,S_{\mathrm{ref}}\,C_D $$
+
+**Every term on the right is smaller than the gross thrust, and the first of them is the smallest.** A
 trajectory that strays high loses the air it needs, and one that strays low melts.
 
 - [Estimating Aerodynamic Characteristic Times in Hypersonic Flow][research_scala_1958]
@@ -1208,6 +1412,17 @@ trajectory that strays high loses the air it needs, and one that strays low melt
 
 **The Copper Canyon conclusion rested on computational fluid dynamics being ready**, and the X-30 is the
 first vehicle in this series whose feasibility case was made primarily in software.
+
+The Reynolds number that sets where transition occurs is itself modest, which is part of the difficulty,
+since these flows sit in the range where transition is most sensitive rather than safely laminar or safely
+turbulent.
+
+$$ \frac{Re}{L} = \frac{\rho V}{\mu}, \qquad \mu = \frac{1.458 \times 10^{-6}\,T^{3/2}}{T + 110.4} $$
+
+| Condition | Unit Reynolds number |
+|---|---|
+| Mach 8 at 27 km | 4.73 × 10⁶ per metre |
+| Mach 20 at 42 km | 1.13 × 10⁶ per metre |
 
 That was a reasonable bet in 1985 and it was not vindicated. Hypersonic flows combine turbulence,
 finite-rate chemistry, boundary layer transition and shock interactions, and each of those was, and

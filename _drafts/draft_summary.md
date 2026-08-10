@@ -22,7 +22,59 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_rockwell_x30.markdown`, A327, editorial date 2025-11-05, series `x_planes` index 31 of 72.
 
 4,978 lines, 22 display equations, 1,375 reference definitions, 28,697 words after the draft pass.
-Committed, not pushed. **The equation, primary-reference and publication passes remain.**
+**5,193 lines, 54 display equations, 1,375 references, 30,357 words after the equation review.**
+Committed, not pushed. **The primary-reference and publication passes remain.**
+
+**EQUATION PASS: 22 to 54 across 17 edits**, references held at 1,375 and measured before and after.
+The audit found the same three categories, now ten articles running. The thrust table stated
+sixty-eight numbers and showed no substitution, specific impulse appeared in a column heading and was
+never defined, Mach number and the speed of sound were used on every page and never written down, and
+the inlet section argued quantitatively with no equation at all.
+
+**THE BEST ADDITION IS THE KANTROWITZ LIMIT, AND IT ANSWERS A QUESTION THE DRAFT RAISED AND DROPPED.**
+The draft asserted that inlet unstart is catastrophic and never said why it is irreversible. **A
+fixed-geometry inlet at Mach 20 can SELF-START at a contraction of at most 1.657 and can RUN at
+15,377, a ratio of 9,279**, and the starting limit barely moves with Mach number while the running
+limit grows without bound. **So a hypersonic inlet is started at low speed and must never let go**,
+because it cannot restart at speed. That is the clearest single reason the flowpath cannot be treated
+as a component.
+
+**THE SECOND IS A THERMODYNAMIC BOUND THAT OWES NOTHING TO ANY ENGINE MODEL.** Reaching orbit takes
+30.33 MJ/kg of kinetic energy plus 1.90 of potential, or **32.24 MJ/kg**, and hydrogen carries 119.96,
+so **the fuel fraction cannot fall below 26.9 percent** however perfect the engine. The integrated
+ascent gives 45.44 percent, **1.69 times the floor**, which is the strongest available evidence that
+the integration is not a fantasy, since a result below the bound would have proved an error.
+
+**THE THIRD IS THE OTHER EXPLOSIVE QUANTITY.** The draft discussed the thermal problem at length and
+never mentioned that the structural one grows faster. **The total-to-static pressure ratio reaches
+2.245 x 10^7 at Mach 25.**
+
+**THE VERIFIER CAUGHT A WRONG NUMBER IN THE ARTICLE'S OWN WORKED SUBSTITUTION.** The static temperature
+at 27 km is 223.7 K and the draft wrote 220.6, which made the displayed line internally inconsistent
+because 220.6 times 13.8 is 3,044 rather than the 3,086 it claimed. **An arithmetic line that does not
+evaluate to its own stated answer is the easiest defect to ship and the hardest to notice.**
+
+Also added: the vehicle-level bridge from specific thrust, where a ten square metre capture at Mach 20
+gives 184.9 kg/s and **an engine developing 1,260 kN of gross thrust pushes the vehicle with 73**; the
+worked substitution at 7,000 m/s showing the exhaust leaves only 143.8 m/s faster than the air
+arrived; the equivalence-ratio trade, where running at three times stoichiometric nearly quadruples net
+thrust and cuts the amplification from 18 to 5.5 while consuming the hydrogen the cooling system needs;
+the normal shock recovery relation that filled a table column without appearing; the ignition margin
+showing 26 to 258 delays fit inside the residence time, confirming mixing rather than chemistry is the
+limit; the unit Reynolds number; and the acceleration equation in which the net thrust of the whole
+article appears once and is reduced again by drag.
+
+Verification after the equation pass. **98 of 98 independent checks passing, none importing the
+calculation**, with the Kantrowitz starting contraction reached both in closed form and by bisection,
+the inequality that an inlet can always run at more contraction than it can start at tested as a
+randomised property, and every worked substitution re-derived. **All article-facing verified values
+confirmed present in the draft.** `_verify.py` at the 21-warning baseline, check_any clean, reference
+integrity unchanged at 1,375 with zero undefined, zero orphaned and zero duplicate URLs, **zero
+constructions above the corpus maximum after rotating three across three distinct phrasings**, and a
+31-article isolated build rendering **all 54 equations across 17 sections and 18 tables**.
+
+**FOR THE REFERENCE PASS.** The audit reports 26 displayed equations with no nearby citation, and the
+equation pass promoted the inlet-starting and orbital-energy subjects that no cluster was written for.
 
 **THIS ARTICLE INVERTS THE ONE BEFORE IT.** The X-29 was built and left a flight record. **The X-30
 left a technology record and no aeroplane**, and the pair is useful because the X-29 could measure the
