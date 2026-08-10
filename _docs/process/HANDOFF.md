@@ -11,9 +11,17 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `7ef3e41`
+- **Parent commit** (the repository state this handoff describes): `7ef3e41`, **VOID, see below**
 - **Written**: 2026-08-09
 - **Tree at write**: clean, nothing unpushed
+
+> **THIS HANDOFF IS STALE AND ITS PARENT COMMIT NO LONGER RESOLVES.** It was already stale before the
+> history was touched, because eight commits landed after it was written, so its `HEAD~1` check was
+> failing on the ordinary rule below. Separately, on 2026-08-09 the history was rewritten to remove
+> tracked Python bytecode, which gave 147 commits new identifiers. **`7ef3e41` is not reachable from
+> `master` and does not exist at all in a fresh clone.** Pre-rewrite identifiers recorded anywhere in
+> `_docs/` are void for the same reason. The pre-rewrite history is preserved on the remote as the tag
+> `pre-pycache-rewrite`. Treat this file as INVALID and read the live channels instead.
 - **Context**: the X-Planes series is IN PROGRESS. **Twenty-seven of seventy-two articles drafted, all
   four passes complete on each. None published.**
 
