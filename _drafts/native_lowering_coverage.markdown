@@ -50,18 +50,18 @@ operation to implement next is the ordering problem this article treats.
 
 **The ordering principle in common use ranks the remaining work by how hard each item is to build and by how tidily it fits the architecture.**
 This article argues that principle is systematically wrong, and that the correct one ranks by
-**measured frequency of blocking** over a representative body of real programs. The argument is empirical
-rather than asserted. An instrument was built over the 58 compilable programs of the shipped corpus,
-comprising 73,434 instruction instances across 496 compilation units, and the resulting distribution is
-reported in full, including the negative results and confidence bounds on them.
+**measured frequency of blocking** over a representative body of real programs. The argument is empirical,
+and nothing here is asserted without measurement. An instrument was built over the 58 compilable programs of
+the shipped corpus, comprising 73,434 instruction instances across 496 compilation units, and the resulting
+distribution is reported in full, including the negative results and confidence bounds on them.
 
 **Anywhere a customer needs a conjunction of features rather than any one of them, the same trap is available**,
 and the Pattern Extraction section at the end states it without reference to compilers.
 
 ### Seven literatures touch this problem and none of them answers it
 
-**That absence is worth stating plainly, because it is the gap the article fills.** Each of the following
-traditions has something to say about coverage, and none supplies an ordering principle.
+**That absence is the gap the article fills.** Each of the following traditions has something to say about
+coverage, and none supplies an ordering principle.
 
 | Tradition | Range surveyed here |
 |---|---|
@@ -84,8 +84,8 @@ a target population of programs that the generator is intended to serve. The pro
 formalizations depending on the engineering tradition consulted.
 
 The compiler-construction tradition treats the coverage property as an instruction-selection completeness
-question, in which the generator must eventually cover the whole instruction set and the intermediate
-ordering is a matter of developer convenience. The staged-delivery tradition, in the form
+question, where the generator must eventually cover the whole instruction set and the intermediate ordering
+is a matter of developer convenience. The staged-delivery tradition, in the form
 [Boehm 1988][research_boehm_1988] gave it, treats the coverage property as an incremental-capability
 question, in which each increment should deliver a demonstrable capability to some consumer. The
 verification tradition, which is the governing tradition for the present case because the Keleusma value
@@ -95,19 +95,19 @@ proposition is definitive worst-case execution time and worst-case memory usage 
 soundness-preservation question, in the sense [Leroy 2009][research_leroy_2009] establishes for a realistic
 compiler and [Pnueli and colleagues 1998][research_pnueli_1998] formulate as translation validation, in
 which every implemented instruction must be shown to preserve the semantics already proven on the bytecode
-artefact and every unimplemented instruction must be refused rather than approximated.
+artefact and every unimplemented instruction must be refused, never approximated.
 
 The three traditions agree that the instruction set must eventually be covered in full and disagree about
 the intermediate ordering. The present article adopts the verification tradition for correctness obligations
 and argues that none of the three supplies an adequate ordering principle, because all three reason about
-instructions in isolation while the quantity that governs delivered capability is a property of programs and
+instructions in isolation while the quantity that governs delivered capability is a property of programs,
 not of instructions.
 
 ### Notation
 
 **The formal machinery below is worth the four symbols it costs, because the central result is a comparison between two averages that look interchangeable and are not.**
 A reader who prefers prose can take the following and skip to the results.
-**One measure averages over instructions. The other averages over programs. The second is the one a user experiences, and it is far lower.**
+**One measure averages over instructions. The other averages over programs, and that one is what a user experiences. It is far lower.**
 
 Let $I$ denote the instruction set, with $|I| = 66$ in the present case. Let $S \subseteq I$ denote the
 subset the generator currently lowers, with $|S| = 39$ at the time of measurement. Let
@@ -138,21 +138,20 @@ the unit-level coverage is
 
 $$\rho^{\text{unit}}(S) = \frac{1}{M} \sum_{m=1}^{M} \chi(c_m, S).$$
 
-**The product is the whole difficulty, and it is worth pausing on.** A sum forgives a missing term, since
-ninety-nine present out of a hundred still averages to 0.99. **A product does not forgive anything**,
-because a single zero anywhere sets the entire result to zero. The first measure is a sum over instructions
-and the second is an average of products over programs, which is why they can differ so widely while both
-being correct.
+**The product is the whole difficulty.** A sum forgives a missing term, since ninety-nine present out of a
+hundred still averages to 0.99. **A product does not forgive anything**, because a single zero anywhere sets
+the entire result to zero. The first measure is a sum over instructions and the second is an average of
+products over programs, which is why they can differ so widely while both being correct.
 
 The product form of $\chi$ is the whole difficulty. The generator exploits structured control flow directly,
 in the sense of the structured program theorem of [Bohm and Jacopini 1966][research_bohm_jacopini_1966], so
 that basic blocks fall out of the instruction stream without the control-flow-graph reconstruction
 [Allen 1970][research_allen_1970] formalised, and the conjunction is therefore a property of the instruction
-multiset and not of any recovered graph. Lowerability is a conjunction over the unit, so a single
+multiset, and no recovered graph enters into it. Lowerability is a conjunction over the unit, so a single
 unimplemented instruction sets the indicator to zero regardless of how many instances were handled. The
 refusal is not a defect. It is the required behaviour under the verification tradition, since a generator
 that approximated an unimplemented instruction would emit native code whose semantics were never proven. The
-stance is the one [Necula 1997][research_necula_1997] formalises as proof-carrying code, in which the
+stance is the one [Necula 1997][research_necula_1997] formalises as proof-carrying code, under which the
 artefact carries its own evidence, extended to a certifying compiler by
 [Necula and Lee 1998][research_necula_lee_1998], and the bytecode-level analogue is the bytecode
 verification treated by [Leroy 2003][research_leroy_2003] and specified for the Java virtual machine by the
@@ -198,7 +197,7 @@ $$\iota^{\star} = \arg\max_{\iota \in I \setminus S} \lambda(\iota, S), \qquad \
 
 with $\kappa(\iota)$ the implementation cost and $\lambda$ the leverage ratio.
 
-**That selection rule is not new and it is worth naming, because naming it imports both a guarantee and the precise conditions under which the guarantee fails.**
+**That selection rule is not new, and naming it imports both a guarantee and the precise conditions under which the guarantee fails.**
 Choosing repeatedly the candidate with the greatest newly covered mass per unit cost is the cost-weighted
 greedy heuristic for set covering, analysed by [Johnson 1974][research_johnson_1974] and
 [Chvatal 1979][research_chvatal_1979], which established the logarithmic approximation ratio, sharpened by
@@ -207,8 +206,8 @@ classes collapse by [Lund and Yannakakis 1994][research_lund_yannakakis_1994] an
 [Feige 1998][research_feige_1998].
 **The ordering problem posed here is set cover with costs, and the leverage ratio is the classical greedy rule for it.**
 
-**The guarantee attaches to the covering formulation and not to the objective this article measures**, a
-distinction the supermodularity section makes precise and which is the reason the greedy rule is offered
+**The guarantee attaches to the covering formulation, while the objective measured here falls outside it**,
+a distinction the supermodularity section makes precise and which is the reason the greedy rule is offered
 below as a heuristic rather than as an approximation algorithm.
 
 The ordering principle in common use is the degenerate variant
@@ -220,7 +219,7 @@ instructions. The assumption is false in the case measured below.
 
 ### Supermodularity, and why greedy carries no guarantee here
 
-The ordering principle advocated here is greedy, and it is worth asking whether greediness admits the usual
+The ordering principle advocated here is greedy, and the question is whether greediness admits the usual
 formal justification. It does not, and the reason is structurally important.
 
 Write $R_m \subseteq I$ for the set of distinct instructions appearing in unit $c_m$, so that $\chi(c_m, S)
@@ -244,15 +243,15 @@ $$S \subseteq S' \subseteq I, \quad \iota \notin S' \implies g(\iota, S) \ \le\ 
 
 which is **increasing** marginal returns. The objective is supermodular, not submodular.
 
-**The contrast is worth writing out, because the whole force of the error lies in a reversed inequality.**
-The two properties, and the convex and concave structure that separates them, are set out in
+**The whole force of the error lies in a reversed inequality, so both forms belong side by side.** The two
+properties, and the convex and concave structure that separates them, are set out in
 [Lovasz 1983][research_lovasz_1983]. Submodularity, the property that was asserted, is diminishing returns,
 
 $$S \subseteq S' \implies g(\iota, S) \ \ge\ g(\iota, S') \qquad \text{(submodular, and FALSE here)}$$
 
 $$S \subseteq S' \implies g(\iota, S) \ \le\ g(\iota, S') \qquad \text{(supermodular, and true here)}$$
 
-**And the guarantee that submodularity would have bought is worth stating too**, since invoking it by name
+**And the guarantee that submodularity would have bought belongs here too**, since invoking it by name
 without stating it is what let the error pass. For a monotone submodular objective under a cardinality
 constraint the greedy algorithm satisfies
 
@@ -289,20 +288,20 @@ sets are one observation viewed three ways.
 ### Workstream aggregation
 
 Instructions that share a design prerequisite are implemented together, so the practically available choices
-are workstreams and not individual instructions. Let $W \subseteq I \setminus S$ denote a workstream. The
+are workstreams, not individual instructions. Let $W \subseteq I \setminus S$ denote a workstream. The
 workstream blocking set and counterfactual gain are
 
 $$B(W, S) = \bigl\{ c_m : \chi(c_m, S) = 0 \ \wedge\ \chi(c_m, S \cup W) = 1 \bigr\}, \qquad \Delta\rho^{\text{unit}}(W) = \frac{|B(W, S)|}{M}.$$
 
 Workstream-level counterfactuals are better identified than instruction-level ones, because the
-co-occurrence that defeats instruction-level attribution is largely within workstreams and not across them.
-An instruction reading a data-segment slot co-occurs with an instruction writing one far more often than
-either co-occurs with a coroutine suspension.
+co-occurrence that defeats instruction-level attribution is largely within workstreams instead of across
+them. An instruction reading a data-segment slot co-occurs with an instruction writing one far more often
+than either co-occurs with a coroutine suspension.
 
 ## The Code Generation Literature, and Where Ordering Is Absent From It
 
-The instruction-selection literature is mature and supplies no ordering principle, which is worth
-establishing rather than asserting, because the absence is the gap this article addresses.
+The instruction-selection literature is mature and supplies no ordering principle, which this section
+establishes instead of asserting, because the absence is the gap this article addresses.
 
 The tradition begins with optimality results for restricted shapes.
 [Sethi and Ullman 1970][research_sethi_ullman_1970] gave optimal code generation for arithmetic expressions
@@ -313,7 +312,7 @@ selection by parsing the intermediate representation against a machine grammar, 
 generator. [Ertl 1999][research_ertl_1999] extended optimality from trees to directed acyclic graphs. At the
 extreme, [Massalin 1987][research_massalin_1987] searched the instruction space exhaustively for the
 shortest program computing a function.
-**The tradition also learned to synthesise the rules rather than write them, which is worth recording because it changes what a lowering costs without changing what this article measures.**
+**The tradition also learned to synthesise the rules rather than write them, which matters because it changes what a lowering costs without changing what this article measures.**
 [Davidson and Fraser 1984][research_davidson_fraser_1984] generated peephole optimisations automatically
 from a machine description, [Aho, Ganapathi and Tjiang 1989][research_aho_ganapathi_1989] reduced
 instruction selection to tree matching with dynamic programming,
@@ -341,20 +340,20 @@ machinery. The generator targets the intermediate representation of
 The observation to draw is that this literature optimises within a covered instruction set and is silent on
 how to reach one. A backend author consulting it finds a great deal about how to lower an instruction well
 and nothing about which instruction to lower next. The silence is not an oversight, because in the settings
-these works address the instruction set is a fixed input and not a schedule. It becomes an oversight only
+these works address the instruction set is a fixed input, never a schedule. It becomes an oversight only
 when the set is being covered incrementally, which is the universal condition of a backend under
 construction and a condition the literature treats as a transient state not worth theorising.
 
 ## Verified and Validated Compilation as the Governing Constraint
 
 The refusal discipline that makes $\chi$ a conjunction is inherited from the verified-compilation
-literature, and the strength of the inheritance determines how much of the ordering problem is forced rather
-than chosen.
+literature, and the strength of the inheritance determines how much of the ordering problem is forced and
+how much is chosen.
 
 Two families of technique exist. The first proves the compiler correct once and for all, of which
 [Leroy 2009][research_leroy_2009] is the canonical instance for a realistic C compiler and
 [Kumar and colleagues 2014][research_kumar_2014] the analogous result for a functional language with a
-verified implementation down to machine code. The second validates each compilation run rather than the
+verified implementation down to machine code. The second validates each compilation run instead of the
 compiler, an approach [Pnueli and colleagues 1998][research_pnueli_1998] introduced as translation
 validation, [Sewell and colleagues 2013][research_sewell_2013] applied to a verified operating-system
 kernel, and [Kang and colleagues 2018][research_kang_2018] carried into the LLVM setting as credible
@@ -378,7 +377,7 @@ ordering problem therefore acquires its characteristic structure directly from t
 rather than from any property of the instruction set. A generator willing to emit unverified approximations
 would face a smooth ordering problem with diminishing returns and would be able to invoke the classical
 greedy guarantee. The verification stance is what makes the objective supermodular and the guarantee
-unavailable, which is a cost of that stance worth stating plainly alongside its benefits.
+unavailable, which is a cost of that stance and belongs plainly beside its benefits.
 
 ## Static Analysis, Undecidability, and the Conservative Stance
 
@@ -389,12 +388,12 @@ avionics software and within which [Regehr and colleagues 2005][research_regehr_
 overflow in embedded software by bounding stack depth statically. The last of these is the closest published
 analogue to the native memory-bound problem the present workstream faces.
 
-The conservative stance the language adopts, under which programs whose bounds cannot be proven are rejected
-rather than admitted, is forced by classical undecidability. [Rice 1953][research_rice_1953] established
-that every non-trivial semantic property of programs is undecidable, and [Landi 1992][research_landi_1992]
-sharpened the consequence for static analysis specifically. A verifier that admits only what it can prove
-will therefore reject some programs that are in fact well behaved, and the size of that gap is a design
-parameter and not a defect.
+The conservative stance the language adopts, under which programs whose bounds cannot be proven are
+rejected, is forced by classical undecidability. [Rice 1953][research_rice_1953] established that every
+non-trivial semantic property of programs is undecidable, and [Landi 1992][research_landi_1992] sharpened
+the consequence for static analysis specifically. A verifier that admits only what it can prove will
+therefore reject some programs that are in fact well behaved, and the size of that gap is a design parameter
+and not a defect.
 
 This bears on the ordering problem in a way not immediately obvious. The corpus measured below consists of
 programs the front end accepts, which is a population already shaped by the conservative stance.
@@ -458,15 +457,14 @@ questions about code quality.
 Two lessons from this tradition bear directly on the present measurement. The first is that the gap between
 permitted and actual is routinely large, which is exactly the gap the zero result below occupies, since the
 four instructions in question are fully supported by the language and used by no program in the corpus. The
-second is that corpus composition dominates conclusions, a point
+second concerns corpus composition, which dominates conclusions, a point
 [Ray and colleagues 2014][research_ray_2014] and its subsequent reanalyses illustrate at length, and which
-the threats-to-validity section below treats as the principal limitation of this work rather than as a
-formality.
+the threats-to-validity section below treats as the principal limitation of this work, never as a formality.
 
 ## Coverage Adequacy, Mutation, and What a Passing Suite Permits
 
 The instrument reports a coverage figure, and the software-testing literature has spent decades establishing
-what coverage figures do and do not mean. The parallel is close enough to be worth drawing explicitly.
+what coverage figures do and do not mean. The parallel is close enough to draw explicitly.
 
 [Zhu, Hall and May 1997][research_zhu_1997] surveyed test coverage and adequacy criteria and the
 relationships among them. The decisive empirical result is
@@ -499,11 +497,11 @@ silent. The empirical justification for treating mutants as a proxy for real def
 [Just and colleagues 2014][research_just_2014], which found mutant detection to be correlated with
 real-fault detection to a degree that supports the practice.
 
-The practice earned its place during this work rather than being adopted on authority. Of twenty-two
+The practice earned its place during this work instead of being adopted on authority. Of twenty-two
 mutations run across the increments this article reports, five failed to fire on first execution, and those
 five were of four distinct kinds.
 
-One was a **null mutation**, in which the mutated code is semantically identical to the original, so no test
+One was a **null mutation**, where the mutated code is semantically identical to the original, so no test
 could distinguish it and none should. Changing an arithmetic shift to a logical one before a truncation that
 discards the differing bits is of this kind. A null mutation is not evidence of a coverage gap and treating
 it as one leads to writing a test that can never fail.
@@ -512,8 +510,8 @@ One was a **real coverage gap** in a target-specific case, where the hardware ha
 behaviour that the undefined-behaviour rule permitted the compiler to exploit, so no behavioural test on
 that target could observe the defect. The response is a structural assertion over the emitted code.
 
-Two were **vacuous tests**, in which the test data carried a symmetry that concealed the asymmetry under
-test. In one, two branches of a differential case returned identical values. In the other, the callee of a
+Two were **vacuous tests**, whose test data carried a symmetry that concealed the asymmetry under test. In
+one, two branches of a differential case returned identical values. In the other, the callee of a
 cross-function call performed a commutative operation, so exchanging its arguments changed nothing. The
 response is redesigned input.
 
@@ -522,7 +520,7 @@ statement that the property is untested and untestable, which is the only honest
 
 The four demand different responses and were nearly conflated. Only the mutation runs distinguished them,
 and the vacuous-test kind recurred three times across the work despite being actively watched for, which is
-the strongest available evidence that the failure is structural and not attributable to inattention.
+the strongest available evidence that the failure is structural, so inattention does not explain it.
 
 ## Submodular Optimisation, Coverage, and Prioritisation
 
@@ -577,12 +575,13 @@ $$\sum_{W \in \mathcal{W}} \phi(W) = \rho^{\text{unit}}\bigl(S \cup \textstyle\b
 so the attributions sum exactly to the total unblocking with no double counting, which is precisely the
 property the naive per-instruction count lacks. With $|\mathcal{W}| = 6$ the exact computation requires
 $2^{6} = 64$ evaluations of $\rho^{\text{unit}}$, each a linear pass over the corpus, so the exact Shapley
-attribution is computationally trivial here and its omission is a matter of scope and not of tractability.
+attribution is computationally trivial here and its omission is a matter of scope, since tractability was
+never the obstacle.
 
-The article therefore reports two statistics with different properties rather than attempting a single
+The article therefore reports two statistics with different properties instead of attempting a single
 attribution. The first is the instance count $n(\iota)$, an upper bound on effort saved that carries no
-unblocking claim whatsoever. The second is the first-blocker distribution, which assigns each blocked unit
-to exactly one workstream and therefore partitions the blocked population without double counting,
+unblocking claim whatsoever. The second reports the first-blocker distribution, which assigns each blocked
+unit to exactly one workstream and therefore partitions the blocked population without double counting,
 
 $$\sum_{W} f(W) = M \cdot \bigl(1 - \rho^{\text{unit}}(S)\bigr), \qquad f(W) = \bigl| \{ c_m : \text{first blocking instance of } c_m \in W \} \bigr|.$$
 
@@ -593,9 +592,9 @@ not compute
 $$\bar f(W) = \mathbb{E}_{\pi \sim \mathcal{U}}\bigl[ f_\pi(W) \bigr]$$
 
 over the uniform distribution on orders, nor the full blocking lattice over subsets of $I \setminus S$. This
-is stated rather than left as an implicit claim to completeness. The first-blocker partition should be read
-as a cheap surrogate for $\phi$, agreeing with it in ordering when one workstream dominates and unreliable
-when several are comparable.
+is stated outright, never left as an implicit claim to completeness. The first-blocker partition should be
+read as a cheap surrogate for $\phi$, agreeing with it in ordering when one workstream dominates and
+unreliable when several are comparable.
 
 ## Method
 
@@ -607,19 +606,19 @@ compilation unit by the lowerability indicator $\chi$.
 Three properties bound the strength of the conclusions.
 
 The instrument measures the reference compiler's output rather than source text, following the precedent
-[Knuth 1971][research_knuth_1971] set in measuring what programs actually contain rather than what their
-authors assume, and the data-collection discipline [Basili and Weiss 1984][research_basili_weiss_1984]
-formalise. This is the correct choice, because the generator consumes bytecode rather than source, and
-because the relationship between surface syntax and emitted instructions is not obvious in this language. A
-prior increment established that the four instructions named for ordinary arithmetic do not carry integer
-operands at all, and that all integer arithmetic is emitted as a checked form followed by a discard of two
-of its three results. Any instrument reasoning over source text would have miscounted that entirely.
+[Knuth 1971][research_knuth_1971] set in measuring what programs actually contain, not what their authors
+assume, and the data-collection discipline [Basili and Weiss 1984][research_basili_weiss_1984] formalise.
+This is the correct choice, because the generator consumes bytecode rather than source, and because the
+relationship between surface syntax and emitted instructions is not obvious in this language. A prior
+increment established that the four instructions named for ordinary arithmetic do not carry integer operands
+at all, and that all integer arithmetic is emitted as a checked form followed by a discard of two of its
+three results. Any instrument reasoning over source text would have miscounted that entirely.
 
 The instrument excludes files the front end rejects. Five of the sixty-three files were rejected, all of
 them real-time operating system scripts referring to host functions registered by the embedding application
 rather than declared in the script. The exclusion is environmental and not linguistic, and including those
 files would add instances to the native application binary interface class, reinforcing the reported
-conclusion rather than qualifying it.
+conclusion instead of qualifying it.
 
 The instrument carries a guard assertion
 
@@ -680,7 +679,7 @@ $$\frac{\rho^{\text{unit}}(S')}{\rho^{\text{prog}}(S')} = \frac{0.8710}{0.2069} 
 and the article as first drafted quoted the middle one. That is the same category of error the article was
 written to describe, committed one level up, in the section reporting the error. The general form is that a
 conjunction exists at every level of aggregation the consumer's requirement spans, and an analysis must find
-the OUTERMOST one rather than the first one that looks like a unit of work.
+the OUTERMOST one, not the first one that looks like a unit of work.
 
 ### Ground truth, and why the original instrument could not supply it
 
@@ -742,7 +741,7 @@ architectural weight. Coroutines in the sense [Conway 1963][research_conway_1963
 modern treatment of [Moura and Ierusalimschy 2009][research_moura_ierusalimschy_2009], are the load-bearing
 primitive for the streaming execution model the language targets, so the workstream sits on the critical
 path for reasons the blocking count does not express. The ordering principle advocated here is a claim about
-marginal capability and not a claim about architectural sequencing, and where a low-blocking workstream is a
+marginal capability, leaving architectural sequencing untouched, and where a low-blocking workstream is a
 prerequisite for a high-blocking one the dependency order dominates. No such dependency is known to hold
 between coroutines and the data segment in the present case, and the data-segment lowering does not appear
 to require suspension support. That is an engineering judgement about the two designs rather than a measured
@@ -776,16 +775,16 @@ Evaluating with the measured length distribution gives
 
 $$\rho^{\text{unit}}_{0} = 6.152 \times 10^{-2}, \qquad \Phi = \frac{0.3387}{0.06152} = 5.51$$
 
-so the blocking instructions are clustered, and by a factor of roughly five and a half rather than by an
-overwhelming margin. Repeating the calculation at $|S'| = 46$ gives $\rho^{\text{unit}}_{0} = 3.275 \times
-10^{-1}$ and $\Phi = 2.66$, a weaker clustering, which is again the expected direction, since as fewer
-instructions block, those that remain have less opportunity to concentrate. Unimplemented instructions
-concentrate in units that use them repeatedly, which is the expected consequence of a data-segment-heavy
-workload, and the concentration is real but moderate.
+so the blocking instructions are clustered, and by a factor of roughly five and a half, which is moderate.
+Repeating the calculation at $|S'| = 46$ gives $\rho^{\text{unit}}_{0} = 3.275 \times 10^{-1}$ and $\Phi =
+2.66$, a weaker clustering, which is again the expected direction, since as fewer instructions block, those
+that remain have less opportunity to concentrate. Unimplemented instructions concentrate in units that use
+them repeatedly, which is the expected consequence of a data-segment-heavy workload, and the concentration
+is real but moderate.
 
 ### A methodological near-miss worth reporting
 
-The null above must be evaluated per unit and not at the mean unit length. Since $x \mapsto p^{x}$ is convex
+The null above must be evaluated per unit, never at the mean unit length. Since $x \mapsto p^{x}$ is convex
 for $0 < p < 1$, the inequality of [Jensen 1906][research_jensen_1906] gives
 
 $$\frac{1}{M} \sum_{m=1}^{M} p^{|c_m|} \ \ge\ p^{\,\bar{L}}, \qquad \bar{L} = \frac{1}{M}\sum_{m=1}^{M} |c_m| = 148.05$$
@@ -910,8 +909,8 @@ an accident and is the point of the section.
 The first is the convexity shortcut described above,
 **which is [Jensen's inequality][research_jensen_1906] applied in the wrong direction**, since $p^{x}$ is
 convex in $x$ and the mean of the powers therefore exceeds the power of the mean rather than equalling it.
-It would have inflated a clustering coefficient by seven orders of magnitude. The second is a false
-modularity theorem, in which the coverage objective was asserted to be submodular so that a classical
+It would have inflated a clustering coefficient by seven orders of magnitude. The second was a false
+modularity theorem, where the coverage objective was asserted to be submodular so that a classical
 approximation guarantee could be invoked, when the objective is supermodular and no such guarantee exists.
 The third occurred while assembling this article's references. Of ninety-one candidate digital object
 identifiers supplied from memory, four resolved to entirely different works and one did not resolve at all,
@@ -925,7 +924,7 @@ title detected them.
 the first three verification batches taken alone, which is the worse subsample, and the later batches were
 run after the sentence was written and never folded into it. The effect was to report a more alarming number
 than the data supported, in the section of the article devoted to the tendency to report more alarming
-numbers than the data support. The error is left visible here rather than silently repaired, because a
+numbers than the data support. The error is left visible here instead of silently repaired, because a
 corrected figure with no record of the correction would conceal the most instructive part of the episode.
 
 All four errors ran toward a more striking or better-founded-looking result. The clustering error would have
@@ -947,8 +946,8 @@ result the author expects and welcomes receives less checking than one that surp
 The engineering translation is direct. An error that weakens a claim tends to be noticed because it is
 unwelcome. An error that strengthens one is congenial and passes unexamined, and a formal apparatus is an
 efficient way to manufacture such errors because its conclusions carry borrowed authority. Three defences
-were used here and are recommended generally. Evaluate aggregates over the observed distribution rather than
-at its mean whenever the aggregating function is not affine. Test a formal claim by brute-force enumeration
+were used here and are recommended generally. Evaluate aggregates over the observed distribution, never at
+its mean, whenever the aggregating function is not affine. Test a formal claim by brute-force enumeration
 over instances small enough to check exhaustively before relying on it. Verify every citation against the
 resolved record rather than against memory, since the failure mode is a plausible reference and not a broken
 link.
@@ -979,8 +978,8 @@ $$\frac{f_\pi(W_{\text{data}})}{\max_{W \ne W_{\text{data}}} f_\pi(W)} = \frac{2
 
 and an order-dependence artefact would have to be extreme to invert a margin approaching ten to one. For the
 ordering of the second, third and fourth workstreams, at $28$, $24$ and $9$, the artefact could plausibly
-reorder them, and no claim about that ordering should be read as established. The exact cost is worth
-deriving rather than quoting, since it is the reason the shortcut is hard to defend. The
+reorder them, and no claim about that ordering should be read as established. The exact cost is derived here
+instead of quoted, since it is the reason the shortcut is hard to defend. The
 [Shapley value][research_shapley_1953] needs $\rho^{\text{unit}}$ evaluated on every subset of workstreams,
 
 $$\bigl| 2^{\mathcal{W}} \bigr| = 2^{|\mathcal{W}|} = 2^{6} = 64$$
@@ -989,7 +988,7 @@ and each evaluation is one pass over 496 units. Since the exact Shapley attribut
 sixty-four corpus passes, the honest characterisation is that the surrogate was used for scope reasons and
 that the secondary ordering could be settled cheaply whenever it matters.
 
-**The cheapness is a property of the aggregation and not of the method, and the distinction is worth stating because it bounds how far the result generalises.**
+**The cheapness is a property of the aggregation, since the method itself does not become cheaper, and the distinction bounds how far the result generalises.**
 Six workstreams give sixty-four subsets. The same attribution at instruction granularity ranges over subsets
 of the unimplemented instruction set, which is not enumerable, and there the exact value is unavailable
 rather than merely unattempted. **The literature has an answer for that regime**, in the sampling estimator
@@ -1002,8 +1001,8 @@ The zero results are subject to the corpus caveat and are bounded above rather t
 quantified in the confidence-bound section. The correct inference is not that the typed arithmetic class
 will never matter but that it does not matter now, which is the question an ordering principle asks.
 
-The measurement is static and not dynamic. It counts instruction instances in compiled units and not
-executions, so it estimates the difficulty of lowering a program and not the time a program spends in any
+The measurement is static. It counts instruction instances in compiled units, never executions, so it
+estimates the difficulty of lowering a program and says nothing about the time a program spends in any
 instruction. For the ordering question this is the correct unit, since a refusal is a static property, but
 the resulting figures must not be read as execution profiles.
 [Georges and colleagues 2007][research_georges_2007] set out why execution-time claims require a different
@@ -1021,10 +1020,9 @@ which is offered as mitigation rather than as a claim that the concern is closed
 The abstract mechanic generalises beyond compiler backends to any incremental capability programme in which
 a consumer requires a conjunction of features rather than any one of them.
 
-**The product form is worth naming as well, because it is the founding object of a mature discipline.** A
-system that functions only when every one of its components functions is a series system, and the
-consequences of that structure were worked out for reliability by
-[Esary and Proschan 1963][research_esary_proschan_1963].
+**The product form has a name as well, since it is the founding object of a mature discipline.** A system
+that functions only when every one of its components functions is a series system, and the consequences of
+that structure were worked out for reliability by [Esary and Proschan 1963][research_esary_proschan_1963].
 **The attribution question this article poses has a direct counterpart there**, in the component importance
 measure of [Birnbaum 1968][research_birnbaum_1968], which ranks components by the probability that the
 system's functioning turns on that component alone. That is the same quantity as a blocking set, computed in
@@ -1034,10 +1032,10 @@ The mechanic has three parts. First, when a consumer requires every element of a
 delivered capability is governed by the product form $\chi = \prod_i \mathbf{1}[\,\cdot\,]$ and not by the
 sum form $\rho^{\text{inst}} = \frac{1}{N}\sum_i \mathbf{1}[\,\cdot\,]$, so per-element progress measures
 overstate delivered capability by the gap $\Gamma$, which grows with the dispersion of the missing elements.
-**That claim has computable extremes and is worth pinning down**, and the counting argument is the
-elementary one that underlies covering problems generally, in [Karp 1972][research_karp_1972] and
-[Feige 1998][research_feige_1998]. With $Q = N(1 - \rho^{\text{inst}})$ missing instances distributed over
-$M$ units, the number of blocked units is bounded by
+**That claim has computable extremes**, and the counting argument is the elementary one that underlies
+covering problems generally, in [Karp 1972][research_karp_1972] and [Feige 1998][research_feige_1998]. With
+$Q = N(1 - \rho^{\text{inst}})$ missing instances distributed over $M$ units, the number of blocked units is
+bounded by
 
 $$\Bigl\lceil Q / L_{\max} \Bigr\rceil \ \le\ \bigl| \{ m : \chi(c_m, S) = 0 \} \bigr| \ \le\ \min(Q, M)$$
 
@@ -1445,7 +1443,7 @@ built it is not treated as a research object.
 
 ### The middle of the compiler became shared infrastructure
 
-Lowering is now typically staged through a series of intermediate representations rather than performed in
+Lowering is now typically staged through a series of intermediate representations instead of performed in
 one step, and the infrastructure for that is common property, in
 [LAYANAN CLOUD COMPUTING BERBASIS INFRASTRUCTURE AS A...][research_wintolo_2015],
 [LLVM parallel intermediate representation][research_khaldi_2015],
@@ -1969,10 +1967,9 @@ numbers of real defects, in [An Empirical Study of Bug Fixing Rate][research_zou
 [Understanding and Finding JIT Compiler Performance Bugs][research_yi_2026],
 [WuppieFuzz: Coverage-Guided, Stateful REST API Fuzzing][research_rooijakkers_2026].
 
-**And the entire apparatus is blind to the question asked here, for a reason worth stating precisely.** A
-fuzzer generates programs and checks whether the compiler handles them correctly.
-**It therefore tests what is implemented.** An unimplemented instruction is not a bug the fuzzer can find,
-because the compiler correctly refuses it.
+**And the entire apparatus is blind to the question asked here, for a precise reason.** A fuzzer generates
+programs and checks whether the compiler handles them correctly. **It therefore tests what is implemented.**
+An unimplemented instruction is not a bug the fuzzer can find, because the compiler correctly refuses it.
 **The most sophisticated compiler-testing machinery ever built cannot tell an engineer what to implement next**,
 and nothing in that literature claims otherwise.
 
@@ -2515,10 +2512,10 @@ and distributed algorithms, in [Randomized Composable Core-sets for Distributed.
 [Streaming submodular maximization with fairness...][research_guo_2026_b],
 [Submodular Maximization Subject to Uniform and Partition...][research_kia_2026].
 
-**The transfer runs the wrong way for the present problem and that is worth recording.** Those literatures
-overwhelmingly assume a submodular or approximately submodular objective, because that is where the
-guarantees live. **The coverage objective here is supermodular**, which is exactly the regime the
-contemporary work sets aside, so the tooling is available and the guarantees are not.
+**The transfer runs the wrong way for the present problem.** Those literatures overwhelmingly assume a
+submodular or approximately submodular objective, because that is where the guarantees live.
+**The coverage objective here is supermodular**, which is exactly the regime the contemporary work sets
+aside, so the tooling is available and the guarantees are not.
 
 ### The compiler started learning, which changes the corpus
 
@@ -2907,9 +2904,9 @@ testing one, and that gap has no literature.
 
 **This survey rests on 3,155 records harvested from Crossref across sixty-one queries, filtered to 1,678 by removing homonym contamination and reduced to 1,650 by removing duplicate titles.**
 The queries were written to span the argument rather than the subject, so each cluster corresponds to a
-claim above and not to a keyword.
+claim above instead of to a keyword.
 
-**The filtering was not incidental and the failures are worth naming**, because they are the reason the
+**The filtering was not incidental and the failures explain the counts**, because they are the reason the
 counts are what they are. A query on binary translation returned a large body of work on the static
 dielectric constants of binary liquid mixtures. A query on code corpora returned linguistic corpora. A query
 on interpreters returned the training of human interpreters. A venue-level filter alone was insufficient,
@@ -2924,7 +2921,7 @@ foundational base carries the derivations and stands at 111 references with a me
 **Adding a contemporary survey lowers the primary fraction while leaving the primary count unchanged**, so
 the fraction on its own would read as a regression when it is the directive working.
 
-**One property of this survey's references is worth stating, because the article devotes a section to the opposite case.**
+**One property of this survey's references matters here, because the article devotes a section to the opposite case.**
 The citation defect reported earlier arose because identifiers were supplied from memory, so a digital
 object identifier could be paired with a title it did not belong to.
 **These were retrieved rather than recalled.** The identifier, title, author and year of each come from a
@@ -2993,8 +2990,8 @@ careful methodology. The Keleusma language itself and its implementation history
 ## Conclusion
 
 **Eighty-seven percent of the instructions and thirty-four percent of the programs are the same compiler on the same day.**
-The first number is what a progress report contains and the second is what a user experiences, and the
-distance between them is created entirely by the fact that a program needs every instruction it uses.
+The first number is what a progress report contains and the second what a user experiences, and the distance
+between them is created entirely by the fact that a program needs every instruction it uses.
 
 **The practical rule is short.** When a consumer requires a conjunction of features, per-feature progress
 overstates delivered capability, and the amount of the overstatement is not visible from inside the work.

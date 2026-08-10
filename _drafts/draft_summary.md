@@ -23,7 +23,15 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 of an unstated total, titled Compiler Backend Bring-Up: Blocking Frequency as the Ordering Principle
 for Instruction-Set Coverage.
 
-4,789 lines, 54 display equations, 1,765 references, roughly 25,000 words. **Imported from
+4,787 lines, 54 display equations, 1,765 references, roughly 24,900 words.
+
+**A pathological word-usage pass followed publication review.** Constructions were measured against
+twenty-seven peer drafts in the same voice rather than against fixed thresholds, and five exceeded the
+maximum of the entire corpus. **The worst was self-inflicted**, since the primary-reference pass had
+mechanically rewritten fifteen instances of `rather than` to `and not` to clear a word-frequency limit,
+pushing the replacement past every article in the corpus. All five are now inside range and none is above
+the corpus maximum. **The word the pilot named as a known problem, `specific`, was never one here**, at
+0.68 per thousand against a peer median of 0.99. **Imported from
 `keleusma-worktrees/llvm-backend-spike/tmp/`, brought to blog standards and retargeted for a general
 audience**, both on human-pilot instruction. Equation-density and primary-reference reviews complete.
 Committed, **not pushed**, not published.

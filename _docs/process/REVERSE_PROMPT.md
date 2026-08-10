@@ -9,117 +9,89 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: A369 publication review. Committed **and pushed**. **Not published.** The draft remains in
-`_drafts/`.
+**Task**: A369 pathological word-usage pass. Committed and pushed. **Not published.**
 
-**111 references to 1,765. 1,268 to 4,789 lines.** 54 display equations held, roughly 25,000 words.
-
----
-
-## The Survey, and What It Found
-
-A contemporary survey of **1,650 references across fourteen clusters** was added, organised by what each
-body of work says about the ordering question rather than by keyword.
-
-**The finding is that the question has become more urgent since it was posed and no more answered.**
-Backend bring-up used to be rare, performed by a handful of vendors. RISC-V made custom instruction sets
-cheap, WebAssembly made a new target universal, staged lowering multiplied the steps, and accelerators
-multiplied the targets. **The occasions for asking have multiplied and the principle is still missing.**
-
-**The extension-identification literature comes closest and misses for a precise reason.** It selects
-instructions by measured corpus frequency, which sounds like the same idea, but it selects instructions to
-add to a **complete** machine for **speed**, where the objective is a sum. This article selects
-instructions to implement next in an **incomplete** compiler for **capability**, where it is a product.
-That is the whole difference and it is now stated.
-
-**The sharpest new observation is that compiler fuzzing cannot answer this question at all.** Fuzzing is a
-genuine success story and has found very large numbers of real defects. But a fuzzer generates programs
-and checks whether the compiler handles them correctly, so **it tests what is implemented**. An
-unimplemented instruction is not a bug it can find, because the compiler correctly refuses it. **The most
-sophisticated compiler-testing machinery ever built cannot tell an engineer what to implement next.**
-
-**And the blindness generalises.** Testing asks whether what exists is correct. Coverage tooling asks how
-much of what exists is exercised. Verification asks whether what exists is sound. **All three presuppose
-the artefact.** The question falls in the gap between building a compiler and testing one.
-
-**The one decisive change cuts in the article's favour, and it is an argument the article was not
-previously making.** Mining software repositories made corpus measurement ordinary. The twenty-minute
-instrument is now the cheap part. **Measuring before ordering was expensive advice in 1978 and is nearly
-free in 2026**, which is the strongest case for adopting the recommendation.
-
-Two smaller observations were recorded. **Synthesis reduces implementation cost and leaves the blocking
-set untouched**, so it moves the leverage ratio through its denominator only and reorders nothing.
-**Machine-generated code is a growing fraction of any corpus**, so the representativeness caveat sharpens
-rather than softens.
+**57 edits.** 4,789 to 4,787 lines, 54 display equations and 1,765 references held.
 
 ---
 
-## Four Defects Fixed
+## The Method Was the Finding
 
-**A heading had been glued to the end of a paragraph by an earlier reflow.** `### Seven literatures touch
-this problem and none of them answers it` would have shipped as literal `###` text. It was invisible in
-the source and detectable only because the heading was missing from a section listing. The reflow function
-now keeps link pairs atomic as well as bold spans.
+**Constructions were measured against twenty-seven peer drafts in the same voice, not against fixed
+thresholds.** A fixed threshold cannot tell a subject noun from a tic. `instruction` at 5.41 per thousand
+looks alarming until one notices it is what the article is about.
 
-**All 111 reference definitions sat under a single `### Reference` heading** although 109 were `research_`
-anchors. Split into Reference, Related Post and Research per the corpus convention.
+**Five constructions exceeded the maximum of the entire corpus.**
 
-**The article carried zero related-post links** despite this blog holding a Keleusma corpus. Four
-back-references were added. **The important one is A216, Keleusma's Self-Hosting Strategy**, because that
-compiler emits bytecode and this article is about lowering bytecode to native code. **That is a direct
-sequel relationship the article had not stated.**
+| construction | A369 before | peer median | peer max |
+|---|---|---|---|
+| `and not` | 2.19 | 0.36 | 1.73 |
+| `worth` | 1.77 | 1.05 | 1.61 |
+| `the second is` | 0.59 | 0.06 | 0.19 |
+| `in which the` | 0.59 | 0.17 | 0.50 |
+| `outright` | 0.17 | 0.00 | 0.14 |
 
-And two Source Base figures were wrong on first writing, a query count and a harvest total. Both corrected
-against the logs.
+All five are now inside range, and nothing sits above the corpus maximum.
 
 ---
 
-## Homonyms, Found by Reading
+## The Worst One Was Self-Inflicted
 
-**Every contaminant was found by sampling the clusters and none by anticipating it**, which is the
-standing rule and it held again.
+**The primary-reference pass created it.** That pass found `rather` at 6.0 per thousand against the
+verifier's limit of 5.0 and mechanically rewrote fifteen instances of `rather than` to `and not`. The
+count came down and the limit was cleared. **What actually happened is that one tic was traded for
+another**, and the replacement was pushed past every article in the corpus.
 
-A query on binary translation returned forty-five records on **the static dielectric constants of binary
-liquid mixtures**. A query on code corpora returned **linguistic** corpora. A query on interpreters
-returned the training of **human** interpreters. And a study of **industrial chiller faults** reached the
-shortlist through the word `empirical` in a software-engineering venue.
+**A mechanical substitution is not an edit.** The 57 replacements here are varied deliberately, and the
+load is spread across `instead of`, `never`, comma-not and outright restructuring, **each of which now
+sits below the corpus maximum instead of one absorbing all of it**.
 
-**The lesson is that a weak anchor is worse than no anchor.** `empirical`, `optimization`, `performance`
-and `benchmark` were removed from the relevance test in favour of strong computing terms. 3,155 harvested
-became 1,678 after filtering and 1,650 after title deduplication.
+`worth` was cut from 22 occurrences to 3, because it is mostly announcement. A sentence saying that a
+point is worth stating says less than the point does. `rather than` fell from 60 to 42, from 5.05 to 3.55
+per thousand, now below the peer median of 4.00.
+
+**The word named in the prompt was not a problem here.** `specific` stands at 0.68 per thousand against a
+peer median of 0.99 and a maximum of 1.91, and `specifically` appears twice.
+
+---
+
+## A Separate Finding, and It Concerns the Verifier
+
+**`prose_text` in `_verify.py` strips math, code and Liquid but not `[text][anchor]` link pairs.**
+
+The consequence is that the 1,650 harvested paper titles count as prose. They inflate the denominator
+from 11,800 words to 27,178 and **dilute the word-frequency check into insensitivity**. That is why CI
+reported nothing while two constructions sat above the corpus maximum.
+
+**In the reference-heavy regime established at A318, this check is much weaker than it looks.** The
+analysis here was therefore run twice, once as the verifier sees the file and once over author prose
+only, and only the second was informative.
+
+**This is a real gap in the tooling and I have not changed `_verify.py`**, since that is a corpus-wide
+behaviour change affecting 297 posts and is the pilot's call. The two candidate fixes are stripping link
+pairs in `prose_text`, which makes the check sensitive again but shifts every existing rate, or leaving
+it and treating the prose-only measurement as a manual step in the publication pass.
 
 ---
 
 ## Verification
 
-120 of the 1,650 harvested identifiers were sampled and **all 120 resolve**. **An epistemic distinction is
-now recorded in the article**, that harvested identifiers cannot carry the memory-substitution defect the
-article documents, because identifier, title, author and year come from a single record. That is a
-structural guarantee and not a verified one, and it is written that way. The foundational 86 were checked
-exhaustively and all resolve to the claimed author and year.
+`_verify.py` reports zero errors and no style or word-frequency warning for this article. Prose clean
+with zero em dashes, en dashes, prose colons, prose semicolons or parentheticals beyond front matter and
+the permitted `console.log` tag, zero unbalanced bold, zero split link pairs, zero glued headings, all 54
+display equations on single lines, and **24 apostrophes programmatically confirmed to be possessives with
+zero contractions**.
 
-`_verify.py`, run against a scratch tree with the draft installed as a post, reports **zero errors and no
-style or word-frequency warning for this article**. Prose clean with zero em dashes, en dashes, prose
-colons, prose semicolons or parentheticals beyond front matter and the permitted `console.log` tag, zero
-unbalanced bold, zero split link pairs, zero glued headings, all 54 display equations on single lines, and
-**23 apostrophes audited as possessives with zero contractions**.
-
-**The isolated production build was run over the full 297-post tree, which is what proves the four new
-`post_url` tags resolve.** 54 equations render, zero `$$` survivors, 1,791 resolved identifier anchors,
-zero unresolved links, zero Liquid errors, 23 sections, 32 subsections, six tables, series navigation
-reporting Part 1.
-
-**Counts and fraction are both reported, as the genre document requires.** The base spans 1906 to 2026
-with a median of 2022. The contemporary fraction is 94.2 percent and **the foundational count is unchanged
-at 111 with 62 predating 2000**. Adding a survey lowers the fraction while leaving the primary count
-untouched, so the fraction alone would read as a regression when it is the directive working.
+Isolated production build over the full 297-post tree succeeds, with 54 equations rendering, 1,791
+resolved identifier anchors, zero unresolved links and zero Liquid errors.
 
 ---
 
 ## Awaiting Instruction
 
-**The article is complete through all four passes and is committed and pushed. It has not been published**
-and remains in `_drafts/`.
+**The article is complete through four passes plus this one, committed and pushed. It has not been
+published** and remains in `_drafts/`.
 
-**One question is still open.** The `keleusma_native` series navigation reads Part 1 of 1. Whether
-siblings are planned would change the series framing but nothing in the current draft.
+**Two questions are open.** Whether siblings in the `keleusma_native` series are planned, since navigation
+reads Part 1 of 1. And whether `_verify.py` should strip link pairs from `prose_text`, which would restore
+the word-frequency check in the reference-heavy regime at the cost of shifting every recorded rate.
