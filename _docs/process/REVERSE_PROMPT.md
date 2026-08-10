@@ -9,111 +9,111 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A326 publication review, the fourth and final pass. Committed and **pushed**. **Not
-published.**
+**Task**: A327 draft pass, the first of four. Committed, **not pushed**, per the rhythm.
 
-**Final state: 14,071 lines, 69 display equations, 4,180 reference definitions, 77,421 words.** All
-thirty articles in the series remain in `_drafts/`.
-
----
-
-## The Contemporary Survey
-
-**Contemporary coverage 856 to 2,381 references, or 33.0 to 58.0 percent.** A harvest of 78 Crossref
-queries under a 2015 filter and 15 NTRS queries took the modern pool from 1,047 to 3,290 and the
-article's cited set from 2,594 to 4,117.
-
-**Five survey subsections were added for subjects that were not fields in 1984**, being machine
-learning applied to aeroelastic and aerodynamic prediction, morphing structures, digital twins and
-structural health monitoring, additive manufacture and topology optimisation, and uncertainty
-quantification.
-
-**The last of those bears directly on the article's keystone.** The X-29 handled uncertainty in its
-divergence boundary with a margin of 2.667, the flight data then showed the real boundary was lower
-than predicted, and the margin absorbed the error. **That margin was doing the work a probability
-distribution does now.**
-
-The survey was also reordered so the original grouping stays together and the five new subjects follow
-behind a bridging heading, rather than being interleaved.
+**State: 4,978 lines, 22 display equations, 1,375 reference definitions, 28,697 words.** Thirty-one
+articles drafted, all in `_drafts/`, **none published**.
 
 ---
 
-## The Count-Versus-Fraction Trap, Both Ways
+## This Article Inverts the One Before It
 
-**At the primary pass the contemporary count ROSE**, from 850 to 856, while its fraction fell eleven
-points because four hundred period sources arrived underneath it.
-
-**At this pass the reverse.** The period count sits unchanged at 1,527 while its fraction falls,
-because fifteen hundred contemporary sources arrived underneath that.
-
-**Nothing was removed at any point.** A reader watching only the fractions would have seen two
-apparent regressions where there were none, and the Source Base now records both movements.
+**The X-29 was built and left a flight record. The X-30 left a technology record and no aeroplane.**
+The pair is useful because the X-29 could measure the thing it existed to measure, and the X-30's
+central quantity could not be measured by anything on the ground at all.
 
 ---
 
-## The Price of the New Clusters, Paid Again
+## The Keystone
 
-**Digital twins and machine learning are cross-disciplinary methods**, so their literatures are
-dominated by civil infrastructure and road vehicles. Reading the assembled draft found fourteen
-contaminants, including bridge damage assessment, historical building monitoring, railway digital
-twins, tall building aerodynamics and an **automotive occupant restraint system**.
+**It is the verification gap, not the scramjet.** Supersonic combustion was demonstrated in the 1960s.
 
-**Two words could not be filtered bare and both were tempting.** "Bridge" is a strain-gauge bridge,
-and this aircraft carried eighteen of them at every load station. "Building" is the **building-block
-approach** to composite certification, which is a term of art the survey itself cites. Both are now
-filtered only in an unambiguous civil-structure context. Thirty-four records were dropped.
+**What accelerates the vehicle is gross thrust minus ram drag**, and at orbital speed those are nearly
+equal. At 7,000 metres per second **net thrust is 4.78 percent of gross**, the amplification from a
+gross-thrust error to a net-thrust error is **20.90**, and the fuel's chemical energy is only **12.82
+percent** of the stream's kinetic energy. Read as a budget, everything the vehicle loses to spillage,
+shock losses, incomplete combustion, cooling and external drag must together fit inside 4.78 percent.
 
----
-
-## Two Defects Found by This Review
-
-**One stale value.** The Epistemic State still carried the pre-correction figure of about 47 degrees
-for the critical sweepback, which the equation pass had already replaced with the closed-form 48.013.
-
-**One duplicated block.** The Source Base carried a paragraph twice, because the primary-reference
-pass inserted a new heading above text it also kept.
-
-**An article that contradicts itself between sections is worse than one that is merely incomplete**,
-and both defects were introduced by earlier passes of this same article rather than by the draft.
+**And nobody could measure it.** Mach 25 carries 34.26 megajoules per kilogram of stagnation enthalpy.
+The flow needs 2.0 milliseconds to cross a five-metre combustor and about eight flow-through times to
+establish. A reflected shock tunnel gives 2.5 of them and an expansion tube gives 0.1. **The facilities
+that reach the enthalpy cannot hold it, and the ones that can hold it cannot reach it.**
 
 ---
 
-## Publication Checks
+## The Result That Surprised Me
 
-Prose style clean, with **zero em dashes, zero en dashes, zero contractions and zero prose
-parentheticals**. The only two semicolons are LaTeX medium spaces inside display equations. **Zero
-prose colons**, every colon tracing to a verbatim reference title or the table-of-contents marker.
+**The rocket equation was never the X-30's problem.** Integrating it with the specific impulse allowed
+to decay, rather than assuming a constant value and so begging the question, an all-rocket single stage
+permits **12.19 percent** of its mass to be structure. **Air-breathing to six kilometres per second
+permits 52.56 percent**, and it keeps closing even when drag takes sixty percent of thrust throughout.
 
-**Zero acronyms unspelled in authorial prose.** NASA, DARPA and NACA are all spelled out before first
-abbreviation, and DATCOM appears only inside verbatim document titles, which are exempt.
-
-**Zero constructions above the corpus maximum.** Only two content words exceed five per thousand,
-being `wing` at 6.39 and `aircraft` at 6.22, and **both are the article's own subject nouns and are
-left alone**.
+**The concept is not forbidden by mass fraction. It is deferred by uncertainty.**
 
 ---
 
-## Final Verification
+## Three Errors in My Own Physics, and the Verifier Caught the Worst
 
-88 numerical checks passing unchanged, with all article-facing values confirmed present in the draft.
-Reference integrity at 4,180 with zero undefined, zero orphaned and zero duplicate URLs, and **zero
-search-endpoint citations**.
+**The Rayleigh choking relation was missing a factor of (gamma + 1)** on the fourth-power term. A
+one-line identity exposed it, because the ratio must be **exactly unity at Mach one** and the wrong
+form returned 1.108. **An identity a quantity must satisfy is worth more than a second opinion.**
 
-**The final set was swept with zero hard failures.** All 378 NTRS identifiers resolve, 240 of 240
-sampled journal DOIs are registered and matching against 3,139, 80 of 80 sampled DTIC DOIs are
-registered against 602, and all 13 books and 19 curated URLs resolve.
+**The guard on that same function then rejected subsonic entry**, which is precisely the ramjet case
+the comparison needed.
 
-`_verify.py` at the 21-warning baseline, check_any clean, `_lib/test_lib.py` at 45 of 45, equation
-citation gaps 32 to 27, and a 30-article isolated build rendering **all 69 equations across 17
-sections, 55 subsections and 19 tables** with 97 internal series links resolving.
+**And the combustion comparison used Mach 1.2 as its subsonic case, which is supersonic.** A ramjet
+decelerates to about Mach 0.3.
+
+**Corrected, the analysis reproduces something it was not fitted to.** Burner entry static temperature
+crosses the dissociation threshold of about 3,000 kelvin **between Mach 6 and Mach 8** for subsonic
+combustion, which is where ramjets in fact give way to scramjets. The reason for a scramjet is a
+temperature argument rather than a choking one.
+
+---
+
+## A Confident Wrong Answer, Reported as Such
+
+The first analysis searched for the speed at which net thrust reaches zero, found 16,577 metres per
+second, and was about to call it a ceiling set by chemistry. **In an ideal engine net thrust never
+crosses zero at all.** The crossing moves to 8,880 metres per second at a nozzle efficiency of 0.90 and
+**disappears entirely at 1.00**, so it was a finding about the assumption. The article states the loss
+budget instead, which assumes no efficiency.
+
+---
+
+## The Keystone Cluster Was Thin for the Seventh Article Running
+
+**The cause was supply and it was unambiguous.** Searching the whole 2,333-record pool for "specific
+impulse", "ram drag", "net thrust" and "thrust margin" returned **zero titles**. The field says force
+accounting, thrust minus drag, installed performance and cycle analysis. A second harvest in that
+vocabulary took the cluster from **2 to 32**.
+
+Three further headings were thinner than their subjects, in each case because a pattern required a
+phrase the titles do not use.
+
+---
+
+## Verification
+
+**58 of 58 independent checks passing, none importing the calculation.** The hydrostatic profile is
+checked by numerical integration, the Rayleigh relation by its Mach-one identity and two randomised
+properties, the normal shock recovery by two independent formulations, the ascent mass fraction by
+Simpson quadrature against a midpoint rule, the radiation equilibrium temperature by bisection rather
+than a fourth root, and the corridor altitudes by scanning rather than bisecting.
+
+`_verify.py` at the 21-warning baseline, check_any clean after removing **four prose semicolons I had
+introduced**, reference integrity at 1,375 with zero undefined, orphaned or duplicate URLs, **zero
+search-endpoint citations**, the full set swept with **zero hard failures**, zero constructions above
+the corpus maximum, and a 31-article isolated build rendering all 22 equations across 17 sections and
+13 tables.
 
 ---
 
 ## Awaiting Instruction
 
-**A326 is complete through all four passes.** Thirty of seventy-two drafted, **none published**.
+**A327 has completed the draft pass only.** The equation, primary-reference and publication passes
+remain, each on its own prompt.
 
-The next article to draft is **A327, the Rockwell X-30 and the National Aero-Space Plane**, editorial
-date 2025-11-05, series index 31. **It reverses this article again.** The X-29 was built and flew 242
-and 120 sorties. The X-30 was never built at all, and asked a larger question than anything else in
-this series.
+**22 display equations is low against a corpus median of 94**, and the audit already names twelve
+sections that state numbers with no displayed relation behind them. The equation pass has ample
+material.

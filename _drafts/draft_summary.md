@@ -17,6 +17,81 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Rockwell X-30 and the National Aero-Space Plane A327 2025-11-05
+
+`x_planes_rockwell_x30.markdown`, A327, editorial date 2025-11-05, series `x_planes` index 31 of 72.
+
+4,978 lines, 22 display equations, 1,375 reference definitions, 28,697 words after the draft pass.
+Committed, not pushed. **The equation, primary-reference and publication passes remain.**
+
+**THIS ARTICLE INVERTS THE ONE BEFORE IT.** The X-29 was built and left a flight record. **The X-30
+left a technology record and no aeroplane**, and the pair is useful because the X-29 could measure the
+thing it existed to measure while the X-30's central quantity could not be measured by anything on the
+ground at all.
+
+**THE KEYSTONE IS THE VERIFICATION GAP, NOT THE SCRAMJET.** Supersonic combustion was demonstrated in
+the 1960s. What accelerates the vehicle is **gross thrust minus ram drag**, and at orbital speeds those
+are nearly equal, so the useful output is a small difference between two large numbers. **At 7,000 m/s
+net thrust is 4.78 percent of gross**, the amplification from gross-thrust error to net-thrust error is
+**20.90**, and the fuel's chemical energy is only **12.82 percent** of the stream's kinetic energy.
+Read as a budget, everything else the vehicle loses must fit inside 4.78 percent.
+
+**THE SECOND HALF IS THAT NOBODY COULD MEASURE IT.** Mach 25 carries **34.26 MJ/kg** of stagnation
+enthalpy; the flow needs **2.0 ms** to cross a five-metre combustor and about eight flow-through times
+to establish; a reflected shock tunnel gives **2.5 flow-throughs**, short by 3.2, and an expansion tube
+gives 0.1. **The facilities that reach the enthalpy cannot hold it and the ones that can hold it cannot
+reach it.**
+
+**THE MOST SURPRISING RESULT IS WHAT WAS NOT THE PROBLEM.** The rocket equation, integrated with the
+specific impulse allowed to decay rather than assumed constant, says an all-rocket single stage permits
+**12.19 percent** of its mass to be structure, while air-breathing to 6,000 m/s permits **52.56
+percent**, and it keeps closing even when drag takes sixty percent of thrust throughout. **The concept
+is not forbidden by mass fraction. It is deferred by uncertainty.**
+
+**THREE ERRORS IN MY OWN PHYSICS, AND THE VERIFIER CAUGHT THE WORST.** The Rayleigh choking relation
+was missing a factor of (gamma + 1) on the M^4 term, which a one-line identity exposed because **the
+ratio must be exactly unity at Mach one** and the wrong form returned 1.108. The guard on that function
+then **rejected subsonic entry**, which is precisely the ramjet case the comparison needs. And the
+combustion analysis used **Mach 1.2 as its subsonic case, which is supersonic**, where a ramjet
+decelerates to about Mach 0.3.
+
+**THE CORRECTED ANALYSIS REPRODUCES A RESULT IT WAS NOT FITTED TO.** Burner entry static temperature
+crosses the dissociation threshold of about 3,000 K **between Mach 6 and Mach 8** for subsonic
+combustion, which is where ramjets in fact give way to scramjets. Normal shock total pressure recovery
+falls from 13.9 percent at Mach 4 to **0.0108 percent at Mach 20**, saying the same thing by a second
+route. **The reason for a scramjet is a temperature argument, not a choking one.**
+
+**A CONFIDENT WRONG ANSWER WAS FOUND AND REPORTED AS SUCH.** The first analysis searched for the speed
+at which net thrust reaches zero, found 16,577 m/s, and was about to call it a chemistry ceiling. In an
+ideal engine net thrust **never** crosses zero, tending to fuel energy over flight speed. The crossing
+moves to 8,880 m/s at a nozzle efficiency of 0.90 and **disappears entirely at 1.00**, so it was a
+finding about the assumption. The article states the loss budget instead, which assumes no efficiency.
+
+**THE KEYSTONE CLUSTER WAS THIN FOR THE SEVENTH ARTICLE RUNNING AND THE CAUSE WAS SUPPLY.** Searching
+the whole 2,333-record pool for "specific impulse", "ram drag", "net thrust" and "thrust margin"
+returned **zero titles**. The field says FORCE ACCOUNTING, THRUST MINUS DRAG, INSTALLED PERFORMANCE and
+CYCLE ANALYSIS. A second harvest in that vocabulary took the cluster from **2 to 32**.
+
+**THREE CLUSTER HEADINGS WERE THINNER THAN THEIR SUBJECTS.** `airframe_integration` required an
+adjacency that "Scramjet integration on hypersonic research airplane concepts" does not contain,
+`ground_test` required the word "facility" and missed "testing", and `hyp_control` missed "control law"
+entirely.
+
+Verification. **58 of 58 independent checks passing, none importing the calculation**, with the
+hydrostatic profile checked by numerical integration, the Rayleigh relation by its Mach-one identity
+and by two randomised properties, the normal shock recovery by two independent formulations, the ascent
+mass fraction by Simpson quadrature against a midpoint rule, the radiation equilibrium temperature by
+bisection rather than a fourth root, and the corridor altitudes by scanning rather than bisecting.
+`_verify.py` at the 21-warning baseline, check_any clean after removing four prose semicolons I had
+introduced, reference integrity at 1,375 with zero undefined, zero orphaned and zero duplicate URLs,
+**zero search-endpoint citations**, the full set swept with **zero hard failures** including all 322
+NTRS identifiers, 240 of 240 sampled journal DOIs and 80 of 80 sampled DTIC DOIs, zero constructions
+above the corpus maximum, and a 31-article isolated build rendering all 22 equations across 17 sections
+and 13 tables.
+
+**22 equations is low against a corpus median of 94**, and the audit names twelve sections stating
+numbers with no displayed relation. That is the equation pass's material.
+
 ## X-Planes Grumman X-29 A326 2025-11-04
 
 `x_planes_grumman_x29.markdown`, A326, editorial date 2025-11-04, series `x_planes` index 30 of 72.
