@@ -22,8 +22,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_rockwell_mbb_x31.markdown`, A328, editorial date 2025-11-06, series `x_planes` index 32
 of 72.
 
-**4,825 lines, 35 display equations, 1,054 reference definitions, 24,316 words after the draft
-pass.** Committed, **not pushed**, **not published**.
+4,825 lines, 35 display equations, 1,054 reference definitions, 24,316 words after the draft pass.
+**4,978 lines, 55 display equations, 1,054 reference definitions, 25,489 words after the equation
+review.** Committed, **not pushed**, **not published**.
 
 **THE KEYSTONE IS AN EXPERIMENTAL DESIGN RATHER THAN A MEASUREMENT, WHICH IS NEW IN THIS SERIES.**
 Every previous article asked what a number was. This one asks whether an advantage exists, and the
@@ -49,10 +50,19 @@ a gain-margin factor of 1.995, and the displayed airspeed and vane angle disagre
 at the moment the pilot remarked on it, a dynamic-pressure error of 2.266 that had already
 exceeded the margin.
 
-**Verification.** 67 of 67 numerical checks passing with every article-facing value confirmed
+**EQUATION PASS: 35 TO 55 DISPLAY EQUATIONS ACROSS 16 EDITS**, references held at 1,054 and
+measured before and after. **Two of the additions changed what the article concludes rather than
+merely displaying what it already said.** Solving the weighting identity for the share that would
+drive the pooled ratio to parity gives **92.14 percent**, which lies **inside** the established
+bracket of 81.9 to 93.6, so the published claim of an overall advantage is not robust to the
+unknown weight distribution. And the wind-axis roll kinematics show that at seventy degrees a roll
+about the velocity vector is **94.0 percent yaw rate**, which explains a sentence in the
+programme's own conclusions that otherwise reads as a correction of itself.
+
+**Verification.** 107 of 107 numerical checks passing with every article-facing value confirmed
 present in the draft, `_verify.py` at the 21-warning baseline with zero errors, check_any clean,
-`_lib/test_lib.py` at 46 of 46, and a 32-article isolated build rendering 16 sections, 87
-subsections, 19 tables and all 35 equations. The reference sweep returned **zero hard failures**
+`_lib/test_lib.py` at 46 of 46, and a 32-article isolated build rendering 16 sections, 88
+subsections, 21 tables and all 55 equations. The reference sweep returned **zero hard failures**
 across all 50 NTRS identifiers, 240 of 811 sampled journal DOIs, 80 of 121 sampled DTIC DOIs, all
 15 books and all 25 curated URLs.
 

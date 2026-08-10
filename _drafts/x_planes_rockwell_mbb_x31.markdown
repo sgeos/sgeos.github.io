@@ -316,13 +316,38 @@ number of engagements, and nothing about the aircraft.
 something the programme's own summaries do not. The headline 1.83 is dominated by the conditions in which
 post-stall manoeuvring did not help.
 
+### The Headline Result Sits on a Knife Edge
+
+**The same identity answers a question the programme never asked, and the answer is uncomfortable.** Rather
+than solving for the weight that reproduces 1.83, solve for the weight that would have driven the pooled
+figure to **parity**,
+
+$$w_{\text{tip}} = \frac{E_{\text{win,min}} - 1}{E_{\text{win,min}} - E_{\text{lose,min}}} = \frac{8.5 - 1}{8.5 - 0.36} = 0.9214$$
+
+**A losing share above 92.14 percent would have put the overall exchange ratio below one**, which is to say
+it would have reversed the programme's headline conclusion from an advantage into a disadvantage.
+
+**The bracket established above runs from 81.9 to 93.6 percent, and it contains that threshold.** The
+published result is therefore consistent with weight distributions that produce an overall advantage and
+with distributions that produce an overall disadvantage, and the published figures do not distinguish
+between them.
+
+**That is not a claim that the programme was wrong.** It is a statement about what its headline number
+establishes on its own, which is less than it appears to. The flight testing that followed is what settles
+the question, and it settles it conditionally, which is exactly what the arithmetic predicts.
+
 ### The Same Arithmetic Applied to the Other Two Comparisons
 
 The programme published two further sets. Without post-stall technology, the X-31 against the F/A-18 gave
 0.20, 1.25, 0.25 and 0.85 across the four conditions with an overall of 0.37. The X-31 with post-stall
 technology against an identical X-31 without it gave 0.27, 23, 6.67 and 2.8 with an overall of 2.67.
 
-Applying the same bracket to each gives a sharp contrast.
+Applying the same bracket to each gives a sharp contrast. The two-point extremes are the same construction
+in each case,
+
+$$w_{\min} = \frac{E_{\text{win,min}} - E_{\text{pool}}}{E_{\text{win,min}} - E_{\text{lose,min}}} \qquad w_{\max} = \frac{E_{\text{win,max}} - E_{\text{pool}}}{E_{\text{win,max}} - E_{\text{lose,max}}}$$
+
+and the width of the answer depends entirely on how far the winning ratios sit from the pooled value.
 
 | Comparison | Mean of the four | Pooled | Losing-condition share |
 |---|---|---|---|
@@ -384,7 +409,14 @@ The claim being tested is that an advantage exists, and a conservative interval 
 that the data do not support.
 
 The counts are not published. The question is therefore asked the other way round.
-**For a stated number of scored outcomes per condition, what does each published ratio establish?**
+**For a stated number of scored outcomes per condition, what does each published ratio establish?** A ratio
+and a sample size together fix the split, since the adversary losses are
+
+$$k = \operatorname{round}\left( \frac{n E}{1 + E} \right) \qquad \text{and} \qquad b = n - k$$
+
+and the test applied to the resulting interval is simply whether it contains parity,
+
+$$\text{separates} \iff 1 \notin [E_{\text{lo}}, E_{\text{hi}}] \iff \tfrac{1}{2} \notin [p_{\text{lo}}, p_{\text{hi}}]$$
 
 | Condition | Ratio | 12 outcomes | 24 outcomes | 48 outcomes |
 |---|---|---|---|---|
@@ -513,8 +545,13 @@ $$C_{L\alpha} = \frac{2 \pi A}{2 + \sqrt{\dfrac{A^{2} \beta^{2}}{\kappa^{2}} \le
 
 at 56.6 degrees of leading-edge sweep. **The inferred whole-aircraft value of 2.769 sits between them**,
 21.5 percent above the swept-wing figure, and the canard accounts for the difference in the right direction.
-The canard is 10.4 percent of the wing area and at a slope near 2.5 per radian with upwash it contributes
-about 0.313 to the total, giving 2.591 against an inferred 2.769, which is 6.4 percent apart.
+A surface ahead of the wing contributes to the whole-aircraft slope in proportion to its own area and its
+own slope, referred to the wing reference area and scaled by an efficiency that accounts for upwash,
+
+$$\Delta C_{L\alpha} = \eta \, \frac{S_c}{S} \, C_{L\alpha,c}$$
+
+The canard is 10.4 percent of the wing area, and at a slope near 2.5 per radian with an efficiency of 1.2 it
+contributes 0.313, giving 2.591 against an inferred 2.769, which is 6.4 percent apart.
 
 **The first version of this calculation compared the inferred value against the unswept formula alone and explained the disagreement by appealing to the canard, which is backwards.**
 A canard in trim carries positive lift and therefore raises the whole-aircraft slope. Sweep is what lowers
@@ -632,13 +669,28 @@ lapsed with the pressure ratio of the standard atmosphere, which is the working 
 at fixed Mach number.
 
 **The atmosphere model is the 1976 standard troposphere and the density and pressure ratios it supplies are what the thrust lapse and the true-airspeed conversions rest on**,
-so they are tabulated rather than left implicit.
+so the relations are given rather than left implicit. Writing the temperature, pressure and density ratios
+against their sea-level values,
+
+$$\theta = \frac{T}{T_0} = 1 - 6.87535 \times 10^{-6} \, h \qquad \delta = \frac{p}{p_0} = \theta^{5.2559} \qquad \sigma = \frac{\rho}{\rho_0} = \frac{\delta}{\theta}$$
+
+and the speed of sound follows from the temperature alone,
+
+$$a = \sqrt{\gamma R T} = \sqrt{\gamma R T_0 \theta}$$
 
 | Altitude | Density ratio | Pressure ratio |
 |---|---|---|
 | 10,000 ft | 0.7385 | 0.6877 |
 | 20,000 ft | 0.5328 | 0.4595 |
 | 30,000 ft | 0.3741 | 0.2970 |
+
+**Thrust is lapsed with the pressure ratio.** A turbofan at fixed Mach number carries thrust roughly in
+proportion to the ambient pressure, so the working model is
+
+$$T(h) = T_{\text{SL}} \, \delta(h)^{n}$$
+
+with the exponent near unity. The exponent is carried explicitly rather than buried, so that its effect on
+the answer can be reported rather than assumed away.
 
 | Altitude | Calibrated airspeed | Dynamic pressure | Thrust | Available $C_n$ | Against 0.080 | Against 0.100 |
 |---|---|---|---|---|---|---|
@@ -669,6 +721,15 @@ reaching almost 0.100, and in the worst single case the asymmetry swung from 0.0
 degrees to 0.088 to the left by 55 degrees, a total change of
 
 $$\Delta C_n = 0.165 \ \text{across three degrees of angle of attack}$$
+
+The coefficient is a moment divided by a scale, so the disturbance the control system actually faces at a
+given flight condition is
+
+$$N_{0} = C_{n0} \, q S b$$
+
+which at twenty thousand feet and 150 knots calibrated is 4,108 foot-pounds for every hundredth of
+coefficient, so the measured bound of 0.080 is **32,863 foot-pounds** and the worst observed swing of 0.165
+is **67,780 foot-pounds**, delivered across three degrees of angle of attack.
 
 **A yawing moment coefficient that reverses sign and changes by 0.165 over three degrees is not a disturbance a control system rejects. It is a cliff.**
 
@@ -763,6 +824,15 @@ $$r = \frac{V^{2}}{g \sqrt{n^{2} - 1}}$$
 
 which falls with speed and rises when the available load factor falls. A post-stall aircraft has both a low
 speed and a very low available load factor, and the two effects work against each other.
+
+The load factor a wing can produce is the lift it can produce divided by the weight,
+
+$$n = \frac{q S C_L}{W}$$
+
+and setting that to one gives the slowest speed at which the aircraft can hold a given angle of attack in
+level flight,
+
+$$V_{\text{level}} = \sqrt{\frac{2 W}{\rho_0 S C_L}}$$
 
 Taking a lift coefficient of 1.00 at seventy degrees of angle of attack, which is past the vortex-lift peak
 and is an estimate rather than a measurement, the available load factor and the resulting radius are as
@@ -878,9 +948,26 @@ propulsion control system, with the canard floating rather than being commanded 
 and the flight-test report records 180 flight hours of trouble-free operation of the vectoring system.
 
 Lateral stick commanded roll rate about the velocity vector rather than about the body axis, which is the
-correct command variable at high angle of attack and is what makes the manoeuvre flyable. The maximum roll
-rate that could be commanded depended on the control power available at the flight condition, which is to
-say on altitude, Mach number, dynamic pressure and angle of attack together.
+correct command variable at high angle of attack and is what makes the manoeuvre flyable.
+**The distinction is not cosmetic and the kinematics say why.** A roll about the velocity vector is a
+combination of body-axis roll and yaw rates weighted by the angle of attack,
+
+$$p_w = p \cos \alpha + r \sin \alpha$$
+
+| Angle of attack | Roll-rate share | Yaw-rate share |
+|---|---|---|
+| 20 degrees | 0.9397 | 0.3420 |
+| 30 degrees | 0.8660 | 0.5000 |
+| 70 degrees | 0.3420 | 0.9397 |
+
+**At seventy degrees a roll about the velocity vector is 94.0 percent yaw rate.** That single line explains
+a sentence in the programme's own conclusions which otherwise reads as a correction of itself, where the
+main advantage is described as an apparent directional nose-pointing rate which is, in actuality, yaw rate
+or velocity-vector roll capability. **At seventy degrees those are the same manoeuvre**, and it is the yaw
+axis that has to supply it, which is precisely the axis whose aerodynamic control has been lost and whose
+vectored control the paddles restore. The maximum roll rate that could be commanded depended on the control
+power available at the flight condition, which is to say on altitude, Mach number, dynamic pressure and
+angle of attack together.
 
 **Two control-law responses to the asymmetry problem are worth recording.** Integrators were added to the
 roll-rate and sideslip feedbacks to tighten control of sideslip and velocity-vector roll rate in the
@@ -970,9 +1057,15 @@ For a yaw-only divergence the eigenvalue and the aerodynamic stiffness are relat
 $$\lambda^{2} = -\frac{q S b \, C_{n\beta}}{I_z}$$
 
 **A single time to double fixes the ratio of stiffness to inertia and cannot fix either factor, and the yaw inertia of this aircraft is not published.**
-The ratio is therefore what is reported. At thirty thousand feet the speed of sound is 994.8 feet per
-second, so at Mach 1.2 the true airspeed is 1,194 feet per second and the dynamic pressure is 633.4 pounds
-per square foot, giving
+The ratio is therefore what is reported. The condition is quoted as a Mach number and an altitude and the
+relation needs a dynamic pressure, so the conversion runs through the speed of sound and the density ratio,
+
+$$V_{\text{true}} = M a \qquad V_{\text{eq}} = V_{\text{true}} \sqrt{\sigma} \qquad q = \tfrac{1}{2} \rho_0 \sigma V_{\text{true}}^{2} = \tfrac{1}{2} \rho_0 V_{\text{eq}}^{2}$$
+
+**The last equality is the check.** Both routes must give the same dynamic pressure, and at thirty thousand
+feet the speed of sound is 994.8 feet per second, so Mach 1.2 is a true airspeed of 1,194 feet per second
+and an equivalent airspeed of 730.1 feet per second, or 432.6 knots, and both routes return 633.4 pounds per
+square foot. Substituting gives
 
 $$-\frac{C_{n\beta}}{I_z} = 1.6724 \times 10^{-6} \ \text{per slug foot squared per radian}$$
 
@@ -1089,6 +1182,18 @@ accident four of the five active pilots believed the pitot heat worked.
 
 ### The Failure Mode Nobody Analysed
 
+**What the probe actually measures is a pressure difference, and everything downstream is derived from it.**
+The impact pressure is the difference between total and static pressure,
+
+$$q_c = p_t - p_s = p_0 \left[ \left( 1 + \tfrac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}} - 1 \right]$$
+
+and calibrated airspeed is defined as the speed that would produce that impact pressure at sea-level
+conditions.
+**Ice in the probe corrupts the total pressure and therefore corrupts everything derived from it at once.**
+At 170 knots calibrated the impact pressure is 99.47 pounds per square foot and at 48 knots it is 7.81, a
+ratio of **12.735**, which is the same factor as the loop-gain error computed below because at these speeds
+the compressible and incompressible forms agree to within two percent.
+
 **Pitot pressure fed two air data computers, each supplying two of the four flight control computers.** A
 disagreement between the two air data computers would raise a fault and a reversion request.
 **A shared error would not**, because both computers received the same pneumatic signal from the same single
@@ -1142,6 +1247,10 @@ airspeed was 170.
 |---|---|---|---|
 | 100 kt | 170 kt | 2.890 | 9.22 dB |
 | 48 kt | 170 kt | 12.543 | 21.97 dB |
+
+A gain margin is quoted in decibels and the relation is
+
+$$\text{dB} = 20 \log_{10} \left( \frac{K_{\text{actual}}}{K_{\text{design}}} \right)$$
 
 **A conventional six-decibel gain margin is a factor of 1.995.** The least severe reading of the error
 exceeded the entire design gain margin by a factor of 1.445, and the most severe exceeded it more than
@@ -1319,7 +1428,15 @@ parsing it returns quantities nobody tabulated.
 | Busiest day | 4 flights |
 
 **The parse recovers 578 of a published 580, and the three sequence numbers it could not recover account for the difference.**
-That is close enough to treat the extraction as sound and far enough from exact to say so.
+That is 99.66 percent of the published total, which is close enough to treat the extraction as sound and far
+enough from exact to say so.
+
+The tempo follows from the counts and the span,
+
+$$\dot{N} = \frac{N}{\Delta t} \qquad \text{and} \qquad \frac{N}{D} = \text{flights per flying day}$$
+
+which over the 1,712 days from first flight to the end of the first programme gives
+**10.28 flights per month** and **1.66 flights per distinct flying day**.
 
 The annual distribution shows the shape of the programme.
 
@@ -1399,8 +1516,15 @@ flight and expanding the post-stall envelope to forty degrees of angle of attack
 
 ### The Tactical Utility Flight Test
 
-**The flight programme flew 87 sorties in the tactical utility phase, of which 80 were scored. Those produced 407 engagements, of which 325 were scored**,
-or nearly eighty percent. Six pilots from the International Test Organization flew in each condition.
+**The flight programme flew 87 sorties in the tactical utility phase, of which 80 were scored. Those produced 407 engagements, of which 325 were scored.**
+Six pilots from the International Test Organization flew in each condition. Reducing those to rates,
+
+$$\frac{80}{87} = 92.0 \ \text{percent of sorties scored} \qquad \frac{325}{407} = 79.9 \ \text{percent of engagements scored}$$
+
+$$\frac{407}{80} = 5.09 \ \text{engagements per scored sortie} \qquad \frac{325}{80} = 4.06 \ \text{scored engagements per scored sortie}$$
+
+**Four scored engagements per sortie is a high rate and it is the direct product of the real-time kill determination described above.**
+It is also the reason the flight programme reached a few hundred engagements rather than a few dozen.
 
 The flight programme could not reproduce the simulation exactly, and the most consequential difference is an
 envelope restriction.
@@ -1528,8 +1652,22 @@ against 192 with a modified high-lift configuration.
 | Slow-speed line abreast | 20 | 6.67 |
 | High-speed line abreast | 1.5 | 2.8 |
 
-**The offensive condition reproduced almost exactly and the slow-speed line-abreast condition differed by a factor of three.**
-The defensive condition differed by a factor of two and a half in the other direction.
+Taking the ratio of one campaign to the other condition by condition puts a number on the disagreement,
+
+$$\rho_i = \frac{E_i^{\text{I}}}{E_i^{\text{II}}}$$
+
+| Condition | Pinball I | Pinball II | Ratio |
+|---|---|---|---|
+| Defensive | 1.2 | 0.47 | 2.553 |
+| Offensive | 22 | 23 | 0.957 |
+| Slow-speed line abreast | 20 | 6.67 | 2.999 |
+| High-speed line abreast | 1.5 | 2.8 | 0.536 |
+
+**The offensive condition reproduced to within 4.3 percent and the slow-speed line-abreast condition differed by a factor of 2.999.**
+The defensive condition differed by a factor of 2.553 in one direction and the high-speed line-abreast by
+1.866 in the other. The means of the two campaigns are 11.175 and 8.235, a ratio of 1.357, so
+**the campaigns agree far better in aggregate than they do anywhere in particular**, which is the signature
+of sampling variation rather than of a systematic difference.
 
 The programme's explanation for the defensive disagreement is that the use of post-stall technology on the
 initial move differed. In Pinball I a standard initial move was used that usually neutralised the attacker's
@@ -1783,7 +1921,18 @@ other accountings whose provenance this article has not been able to trace to a 
 **That inconsistency is itself the finding.** A programme whose keystone was a measured rate produced at
 least four different headline rates that circulate independently, and the arithmetic above shows why that is
 easy. The pooled value depends on the mix of starting conditions, and nobody quoting a single number says
-which mix produced it. The general form of that hazard is known in statistics as
+which mix produced it.
+
+**The condition under which pooling reverses a conclusion can be written down.** A set of per-condition
+ratios supports a claim of advantage on average while the pooled figure denies it whenever
+
+$$\frac{1}{N} \sum_i E_i > 1 \qquad \text{and} \qquad \sum_i w_i E_i < 1$$
+
+which is possible for any set that contains at least one ratio below parity, because the weights are free.
+For the published set the two sides are 6.43 and 1.83, so both inequalities are satisfied with room to spare
+in the first and by a margin of 0.83 in the second.
+**The margin is what the knife-edge calculation above measures**, and it is smaller than the uncertainty in
+the weights. The general form of that hazard is known in statistics as
 [the reversal that can occur when groups are pooled][ref_simpson].
 
 ## The Contemporary Literature

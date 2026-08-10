@@ -9,11 +9,67 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A328, the Rockwell-MBB X-31, drafted. The first of four passes. Committed, **not pushed**,
+**Task**: A328 equation-density review, the second of four passes. Committed, **not pushed**,
 **not published**.
 
-**State: 4,825 lines, 35 display equations, 1,054 reference definitions, 24,316 words.** All
-thirty-two articles in the series remain in `_drafts/`.
+**State: 4,978 lines, 55 display equations, 1,054 reference definitions, 25,489 words**, from
+4,825 lines and 35 equations after the draft pass. References were held and measured before and
+after. All thirty-two articles in the series remain in `_drafts/`.
+
+---
+
+## Two Additions Changed What the Article Concludes
+
+**An equation pass usually displays what the prose already said. Two of these did not.**
+
+**THE HEADLINE RESULT SITS ON A KNIFE EDGE.** The draft established that between 81.9 and 93.6
+percent of the aircraft's simulated losses fell in the two conditions where it was behind. Solving
+the same identity for the share that would drive the pooled ratio to **parity** rather than to the
+published 1.83 gives
+
+    w = (8.5 - 1) / (8.5 - 0.36) = 0.9214
+
+and **that threshold lies inside the bracket.** The published figures are therefore consistent with
+weight distributions that produce an overall advantage and with distributions that produce an
+overall disadvantage, and they do not distinguish between them. **The claim of an overall advantage
+is not robust to a quantity the programme never published.** The flight testing is what settles the
+question, and it settles it conditionally, which is what the arithmetic predicts.
+
+**AT SEVENTY DEGREES A ROLL ABOUT THE VELOCITY VECTOR IS 94.0 PERCENT YAW RATE.** Writing the
+kinematics down explains a sentence in the programme's own conclusions that otherwise reads as a
+correction of itself, where the main advantage is called an apparent directional nose-pointing rate
+which is, in actuality, yaw rate. **At seventy degrees those are the same manoeuvre**, and the axis
+that has to supply it is exactly the one whose aerodynamic control has been lost and whose vectored
+control the paddles restore. The article asserted the equivalence and did not have the relation
+that makes it true.
+
+---
+
+## What Else Was Added
+
+The atmosphere ratios and the speed of sound, which every altitude-dependent result rests on and
+none of which appeared. The thrust-lapse model, carried as a sentence only. The true-against-
+equivalent airspeed conversion, with **both routes required to return the same 633.4 pounds per
+square foot** as a check. The load factor from lift and the level-flight speed, which are the
+post-stall table's own columns. The canard contribution, quoted as a bare 0.313. The decibel
+definition for a table column that had none. The impact-pressure relation the iced probe corrupted,
+whose ratio between 170 and 48 knots is **12.735** and independently reproduces the 12.543
+loop-gain factor. The asymmetry expressed as a moment, **32,863 foot-pounds at the measured bound
+and 67,780 at the worst swing**. The separability test and the split relation. The counted rates,
+including **4.06 scored engagements per sortie**, which is the direct product of real-time kill
+determination. The flight tempo. The Pinball campaign ratios, where the offensive condition
+reproduces to **4.3 percent** while slow-speed line abreast differs by **2.999**, so the campaigns
+agree far better in aggregate than anywhere in particular.
+
+---
+
+## One Error in My Own Edit
+
+**The asymmetry moment was written as 1,452 foot-pounds per hundredth of coefficient against a true
+4,108**, a factor of 2.8 wrong in a line introduced specifically to make a quantity concrete. It
+was caught by recomputing before committing rather than by any check, which is the argument for
+recomputing every number an edit introduces even when the edit exists only to display a relation
+that was already correct.
 
 ---
 
@@ -192,7 +248,10 @@ the narrative**, dating the programme's recovery to within a day.
 
 ## Verification
 
-**67 of 67 independent checks passing, none importing the calculation.** The aggregation identity is
+**107 of 107 independent checks passing, none importing the calculation.** The tipping weight is
+reached by bisection on the pooled value rather than in closed form and is asserted to lie inside
+the bracket. The wind-axis shares are checked by rotating a vector. The impact pressure is inverted
+for speed as well as evaluated forward. The aggregation identity is
 tested as a randomised property over 20,000 count vectors, the weight bracket by Monte Carlo against
 the analytic extremes, the binomial endpoints by evaluating the tail rather than repeating the
 bisection, corner speed by scanning the load-factor curve, the moment arm by bisection, the energy
@@ -207,23 +266,25 @@ contraction inside a quoted radio call, `_lib/test_lib.py` at 46 of 46, and refe
 sampled journal DOIs, 80 of 121 sampled DTIC DOIs, all 15 books and all 25 curated URLs, after
 replacing two dead Wikipedia targets.
 
-**A 32-article isolated build renders the page at 16 sections, 87 subsections, 19 tables and all 35
+**A 32-article isolated build renders the page at 16 sections, 88 subsections, 21 tables and all 55
 equations.**
 
 ---
 
-## For the Equation Pass
+## For the Reference Pass
 
-**35 display equations is low against a corpus median of 94**, and that is this pass's material
-rather than a defect to apologise for. Sections stating numbers without displaying the relation
-behind them include the thrust-lapse model, the atmosphere, the drag polar, the turn-rate and
-radius derivations where only the final figures appear, the binomial term itself, and the
-specific-energy accounting.
+**20 displayed equations have no nearby citation**, and that is the next pass's material.
+
+**The equation pass promoted subjects again, which is now eleven articles running.** The relations
+added here reach into the standard atmosphere, engine thrust lapse, airspeed-system instrumentation,
+inference on rates from small samples, and flight-dynamics kinematics. None of those was a heading
+the original harvest was written for.
 
 ---
 
 ## Awaiting Instruction
 
-**A328 has completed the draft pass only.** Thirty-two of seventy-two drafted, **none published**.
+**A328 has completed the draft and equation passes.** Thirty-two of seventy-two drafted, **none
+published**.
 
-The next pass is the equation-density review.
+The next pass is the primary-reference review.
