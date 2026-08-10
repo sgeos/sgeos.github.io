@@ -9,115 +9,86 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: A323 equation-density review, the second of four passes. Committed. **Not pushed.** **Not
+**Task**: A323 primary-reference review, the third of four passes. Committed. **Not pushed.** **Not
 published.** All twenty-seven articles in the series remain in `_drafts/`.
 
-**17 display equations to 35**, across twelve edits each asserted to match its anchor exactly once,
-taking the article from 3,613 to 3,785 lines and 12,061 to 13,226 words.
+**References 2,016 to 2,503**, article 3,785 to 4,800 lines and 13,226 to 16,985 words. Equations held
+at 35 and measured before and after. **Primary 64.7 to 64.0 percent while the period count rose from
+742 to 922**, which is the count moving with the fraction roughly steady.
 
 ---
 
-## The Largest Omission Was the Relation Everything Rests On
+## The Promoted-Subjects Rule, Sixth Article Running
 
-**The drag polar was never displayed.**
+**Eight of the eleven subjects the equation pass promoted were at or near zero.**
 
-    C_D = C_D0 + C_L^2 / (pi e A)
+| Subject | Cited before | Cited after |
+|---|---|---|
+| Adding noise sources | **0** | 6 |
+| The drag polar as an object | 1 | 8 |
+| Local incidence and strip theory | 1 | 8 |
+| The decibel and sound level | 2 | 9 |
+| Minimum sink and the speed polar | 3 | 6 |
+| Atmospheric absorption | 5 | 17 |
+| Roll damping and the helix angle | 7 | 24 |
+| Advance ratio and tip Mach | 11 | 23 |
 
-**That second term is the common root of both halves of the article.** It is what makes the
-lift-to-drag ratio high, because it falls as aspect ratio rises. **And it is what makes a rolling wing
-drag asymmetrically**, which is the adverse yaw the whole first half is about. The article derived
-from this polar twice and displayed only its consequences.
+**The worst case carried the article's sharpest acoustic claim.** Adding noise sources was at zero
+records while the article argued from it that the limit moved to the exhaust once the propeller was
+slowed. **The second worst was the drag polar at one**, which is the relation both halves of the
+article rest on.
 
-Two further assertions had no derivation behind them. **Where the elliptic result comes from** is one
-line, since rolling changes local incidence by `p y / V` and therefore local induced drag. **And the
-helix angle was called a property of the configuration without proof**, when writing the steady roll
-balance down is exactly what shows the speed dropping out.
-
----
-
-## Best Glide Is Not Minimum Power, and the Quiet Aircraft Wanted the Second
-
-**The draft did not distinguish these and they are different speeds.** Minimising power puts the
-parasite term at three times the induced one, where maximising lift-to-drag puts them equal.
-
-    C_L,mp = sqrt(3) C_L*      V_mp = V_bg / 3^(1/4) = 0.760 V_bg      (L/D)mp = 0.866 (L/D)max
-
-**A 12.3 percent power saving for flying 24 percent slower.** For the QT-2PC that puts best glide at
-81.5 miles per hour and minimum power at 62.0, and **the quoted quiet cruise of 70 to 80 falls between
-them**, which is what an aircraft needing both endurance and a speed margin does.
-
-**The noise value of that choice is 0.57 decibels.** Saying so keeps two motives from being confused:
-**the loiter speed was chosen for endurance, not for quiet.**
+**Period vocabulary closed them.** The era does not say induced drag theory, it says **lifting line**
+and **downwash** and **span loading**. It does not say adding noise sources, it says **noise source
+identification** and **component noise**. It does not say the decibel, it says **sound level meter**
+and **loudness level** and **phon**.
 
 ---
 
-## And It Supplied a Second Independent Check
+## Two Records About the Aircraft Were Sitting Uncited
 
-**Minimum sink is the minimum-power condition, and minimum sink is a quoted number.** Predicted **129
-feet per minute at 42 miles per hour against a quoted 124 at 46**, which is 4 percent in sink and 10
-in speed, **from the same two assumed parameters that produced the glide ratio and with no further
-fitting**.
+**One of them is the only primary flight-test document this whole lineage has produced.**
 
-**One polar now reproduces two independent quoted figures.** That is worth considerably more than
-reproducing either alone, and it was available in the draft without being taken.
+The pool contains exactly two records matching the X-26, the SGS 2-32, the QT-2 or the Q-Star, and
+**neither is about either X-26**. One is a NASA flutter clearance of a different Schweizer sailplane.
+The other is **the Army's preliminary evaluation of the YO-3A**, the QT-2's operational descendant.
 
----
-
-## The One Logarithm Behind the Sharpest Acoustic Claim
-
-**The article asserted that the limit moved to the exhaust and airframe once the propeller was slowed,
-and never showed why it must.** Incoherent sources add in power,
-
-    L_total = 10 log10( sum of 10^(Li/10) )
-
-so **quieting one source has a ceiling set by the others**. With the propeller starting ten decibels
-above everything else, a **seventeen decibel propeller reduction buys ten**, and removing the
-propeller entirely buys 10.4 and no more.
-
-**A related pair of numbers turned out to be one statement.** A detection range is a slant range, so
-above 750 feet the detection sphere cannot reach the ground at all. **The 750 foot detection distance
-and the 800 foot minimum mission altitude are the same fact with fifty feet of margin**, which is a
-cleaner reading of the record than treating them as unrelated.
+**The article discussed that lineage with no source for it.** Both are now cited and the Source Base
+says exactly what they are and are not.
 
 ---
 
-## The Verifier Caught a Wrong Number in the New Material
+## A Homonym the Warship Filter Missed Entirely
 
-**A stall prediction of 45.9 miles per hour from an assumed maximum lift coefficient of 1.4 is wrong
-by five miles an hour.** The true value at that coefficient is 40.9.
+**Ship roll damping.**
 
-**The claim was replaced by inverting the relation rather than by adjusting the assumption.** The
-stall cannot be predicted without knowing the maximum lift coefficient, but the quoted 46 miles per
-hour can be asked what coefficient it implies, which is **1.11 at the light weight and 1.47 at gross**.
+The article filters frigates, warships, naval vessels and hull forms, because the aircraft's own name
+is a warship. **None of that caught this**, because papers on nonlinear models of ship roll damping
+and free-decay identification of roll damping moments never use any of those words. **Vessels roll,
+and roll damping is a major subject in naval hydrodynamics**, so the query for the aeronautical
+damping-in-roll derivative retrieved it directly.
 
-**That turned an error into a better finding.** A coefficient of 1.11 is entirely ordinary for an
-unflapped sailplane section and 1.47 is high for one, so this is a **third independent piece of
-evidence that the quoted performance figures belong to the lighter aircraft**, agreeing with what the
-glide-speed reconciliation already showed.
+**A second precise collision came with it.** "Sinking speed" is a term of art in oceanography for the
+descent of organic particle aggregates, so the sailplane query returned **marine snow**.
 
----
+Twenty-four records read and dropped, rejection list 637 to 661, keyed by URL as well as by anchor.
 
-## Two Defects Found by Reading
-
-**A doubled backslash survived an rf-string once more**, in a file whose own docstring warns against
-exactly that. It is now the third occurrence across three articles and it passes every automated check
-every time.
-
-**Two adjacent equations stated the same sink relation with different symbols** and were merged.
-
-**Five sentences referring to what the draft had said were removed**, applying the A322 lesson at the
-first opportunity rather than waiting for the publication pass to find them.
+**Both were found by reading the printed titles**, which remains the only pass that catches this class
+of thing.
 
 ---
 
 ## Verification
 
-**Numerical.** Extended from 40 to **74 independent checks**, none importing the calculation. Minimum
-power is found by **scanning the power curve** rather than by the analytic factors, and the searched
-ratio is then required to equal three to the minus one quarter. The incoherent-addition ceiling is
-verified **as a limit rather than at a point**, by confirming that no reduction however large can
-exceed it. The inverted maximum lift coefficient is required to reproduce the quoted stall on a
-forward pass. **All pass, and every value was required to appear in the draft text.**
+**Numerical.** 74 independent checks passing unchanged, none importing the calculation, every value
+required to appear in the draft text.
+
+**Every one of the twelve equations the previous pass added now has citation support**, where eight
+had fewer than three references within five hundred characters before this pass.
+
+**URLs.** 2,491 external links swept. **2,031 of 2,031 DOIs confirmed registered, zero unregistered,
+and 460 of 460 non-DOI links at 200 with no exceptions.** That is the second consecutive clean sweep
+for this article.
 
 **Build.** Twenty-seven article isolated build, all 35 equations rendering as display math, zero
 mangled escapes, zero duplicates, Part 27 of 72.
@@ -129,10 +100,11 @@ twenty-seven articles.
 
 ## State
 
-**A323 has two of four passes complete. Committed, not pushed, not published.**
+**A323 has three of four passes complete. Committed, not pushed, not published.**
 
-**Expected next is the primary-reference review.** The coverage audit will need rewriting for this
-subject, since the topic list it currently carries is A322's rotor vocabulary.
+**Expected next is the publication review**, which is also the pass that authorises a push.
+Contemporary coverage currently stands at about 26 percent and the standing directive will want it
+substantially higher.
 
 **Still open and unchanged.** The fourth genre class, now **fifteen** consecutive articles. The A305
 length offer.

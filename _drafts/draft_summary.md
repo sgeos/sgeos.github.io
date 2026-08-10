@@ -21,9 +21,10 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_schweizer_x26.markdown`, A323, editorial date 2025-11-01, series `x_planes` index 27 of 72.
 
-3,613 lines, 17 display equations, 2,016 references, 12,061 words after the draft pass. **3,785 lines,
-35 display equations, 2,016 references, 13,226 words after the equation review.** Two of four passes
-complete. Committed, **not pushed**, not published. Primary 64.7 percent, contemporary 25.2.
+3,613 lines, 17 display equations, 2,016 references, 12,061 words after the draft pass. 3,785 lines,
+35 display equations, 2,016 references, 13,226 words after the equation review. **4,800 lines, 35
+display equations, 2,503 references, 16,985 words after the primary-reference review.** Three of four
+passes complete. Committed, **not pushed**, not published. Primary 64.0 percent, period count 922.
 
 **One airframe, two aircraft, and a single number.** The Schweizer SGS 2-32 sailplane was bought twice
 by the American military and given the same X-designation both times, for purposes with nothing in
@@ -77,6 +78,19 @@ ten because the other sources cap it. **The verifier caught a wrong stall predic
 against a true 40.9**, and the claim was replaced by INVERTING the relation, which yields an implied
 maximum lift coefficient of 1.11 at the light weight against 1.47 at gross and is therefore a THIRD
 piece of evidence that the quoted performance belongs to the lighter aircraft.
+
+**The primary-reference review found the promoted-subjects rule firing for the sixth article running,
+with EIGHT of eleven equation-promoted topics at or near zero.** The worst was ADDING NOISE SOURCES at
+zero while carrying the article's sharpest acoustic claim, and the second worst was THE DRAG POLAR at
+one, which is the relation both halves rest on. Period vocabulary closed them, since the era says
+lifting line and downwash rather than induced drag theory, noise source identification rather than
+adding noise sources, and sound level meter and phon rather than the decibel. **Two records about the
+aircraft were sitting UNCITED**, one of them the Army's preliminary evaluation of the YO-3A, which is
+**the only primary flight-test document the whole lineage has produced** and the article had discussed
+that lineage without a source. **Reading the URL sweep found a homonym the warship filter had missed
+entirely: SHIP ROLL DAMPING.** Vessels roll, roll damping is a major subject in naval hydrodynamics
+with its own nonlinear models, and those papers never say frigate. Also MARINE SNOW, where sinking
+speed is an oceanographic term of art. Twenty-four records dropped, rejection list 637 to 661.
 
 ## X-Planes Bensen X-25 A322 2025-10-31
 
