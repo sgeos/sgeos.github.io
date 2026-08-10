@@ -24,7 +24,64 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 7,781 lines, 29 display equations, 2,207 reference definitions, 44,542 words after the draft pass.
 **8,028 lines, 69 display equations, 2,207 references, 46,399 words after the equation review.**
 **9,435 lines, 69 display equations, 2,657 references, 53,518 words after the primary-reference
-review.** Committed, not pushed. **The publication pass remains.**
+review.** **14,071 lines, 69 display equations, 4,180 reference definitions, 77,421 words after the
+publication review.** Committed and **pushed**. **Not published.**
+
+**PUBLICATION PASS: CONTEMPORARY COVERAGE 856 TO 2,381 REFERENCES, OR 33.0 TO 58.0 PERCENT.** A
+harvest of 78 Crossref queries under a 2015 filter and 15 NTRS queries took the modern pool from
+1,047 to 3,290 and the master from 4,155 records, and the article's cited set from 2,594 to 4,117.
+
+**THE COUNT-VERSUS-FRACTION TRAP RAN BOTH WAYS ACROSS THE TWO REFERENCE PASSES AND THE SOURCE BASE
+NOW RECORDS BOTH.** At the primary pass the contemporary count **rose** from 850 to 856 while its
+fraction fell eleven points, because four hundred period sources arrived underneath it. At this pass
+the reverse, with **the period count sitting unchanged at 1,527** while its fraction falls, because
+fifteen hundred contemporary sources arrived underneath that. **Nothing was removed at any point**,
+and a reader watching only the fractions would have seen two apparent regressions where there were
+none.
+
+**FIVE SURVEY SUBSECTIONS WERE ADDED FOR SUBJECTS THAT WERE NOT FIELDS IN 1984**, being machine
+learning applied to aeroelastic and aerodynamic prediction, morphing structures, digital twins and
+structural health monitoring, additive manufacture and topology optimisation, and uncertainty
+quantification. **The last of these bears directly on the article's keystone**: the X-29 handled
+uncertainty in its divergence boundary with a margin of 2.667, the flight data then showed the real
+boundary was lower than predicted, and the margin absorbed the error, which is **the work a
+probability distribution does now**. The survey was also reordered so the original grouping stays
+together and the five new subjects follow behind a bridging heading.
+
+**THE PRICE OF THE NEW CLUSTERS WAS PAID AT THE MOMENT OF WIDENING, AGAIN.** Digital twins and
+machine learning are cross-disciplinary methods, so their literatures are dominated by civil
+infrastructure and road vehicles, and reading the assembled draft found fourteen contaminants
+including bridge damage assessment, historical building monitoring, railway digital twins, tall
+building aerodynamics and an **automotive occupant restraint system**. Two filters were added and
+**two words could not be filtered bare, both tempting**. "Bridge" is a strain-gauge bridge and this
+aircraft carried eighteen at every load station. "Building" is the **building-block approach** to
+composite certification, a term of art the survey itself cites. Both are now filtered only in an
+unambiguous civil-structure context, and 34 records were dropped.
+
+**ONE STALE VALUE AND ONE DUPLICATED BLOCK WERE FOUND AND FIXED.** The Epistemic State still carried
+the pre-correction figure of **about 47 degrees** for the critical sweepback, which the equation pass
+had already replaced with the closed-form 48.013, and the Source Base carried a paragraph twice
+because the primary pass had inserted a new heading above text it also kept. **An article that
+contradicts itself between sections is worse than one that is merely incomplete**, which is what this
+review exists to catch.
+
+Publication checks. Prose style clean with **zero em dashes, zero en dashes, zero contractions, zero
+prose parentheticals**, and the only two semicolons being LaTeX medium spaces inside display
+equations. **Zero prose colons**, with every colon found tracing to a verbatim reference title or the
+table-of-contents marker. **Zero acronyms unspelled in authorial prose**, with NASA, DARPA and NACA
+all spelled out before first abbreviation and DATCOM appearing only inside verbatim document titles,
+which are exempt. **Zero constructions above the corpus maximum.** Only two content words exceed five
+per thousand, being `wing` at 6.39 and `aircraft` at 6.22, and **both are the article's own subject
+nouns and are left alone**.
+
+Final verification. 88 numerical checks passing unchanged with all article-facing values confirmed
+present. Reference integrity at 4,180 with zero undefined, zero orphaned and zero duplicate URLs, and
+**zero search-endpoint citations**. **The final set was swept with zero hard failures**, namely all
+378 NTRS identifiers resolving, 240 of 240 sampled journal DOIs registered and matching against
+3,139, 80 of 80 sampled DTIC DOIs registered against 602, and all 13 books and 19 curated URLs
+resolving. `_verify.py` at the 21-warning baseline, check_any clean, `_lib/test_lib.py` at 45 of 45,
+equation citation gaps 32 to 27, and a 30-article isolated build rendering **all 69 equations across
+17 sections, 55 subsections and 19 tables** with 97 internal series links resolving.
 
 **REFERENCE PASS: 2,207 to 2,657 definitions and 2,144 to 2,594 cited**, equations held at 69 and
 measured before and after. **Primary sources from 1,317 to 1,763, or 61.4 to 68.0 percent of dated
