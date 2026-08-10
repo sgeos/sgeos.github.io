@@ -9,110 +9,117 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-09
-**Task**: A369 primary-reference review, following the equation-density pass. Committed, **not
-pushed**, not published.
+**Task**: A369 publication review. Committed **and pushed**. **Not published.** The draft remains in
+`_drafts/`.
 
-**88 references to 111 across seven placement edits.** 1,178 to 1,268 lines, 54 display equations
-held.
-
----
-
-## The Pass Found Six Subjects at Zero
-
-**The promoted-subjects rule has now fired on seven consecutive articles.** An equation pass promotes
-subjects, and the reference base has to follow. Seventeen of the fifty-four display equations carried
-no citation within nine hundred characters. Most of those are the article's own arithmetic and
-legitimately need no source. **Six were real subjects with substantial primary literature and nothing
-cited at all.**
-
-**The leverage ratio is the greedy set-cover rule, and the article had not said so.** It writes down
-the selection that repeatedly takes the candidate with the greatest newly covered mass per unit cost,
-which is exactly the cost-weighted greedy heuristic. Naming it imports the logarithmic approximation
-guarantee of Johnson 1974 and Chvatal 1979, sharpened by Slavik 1997 and shown essentially optimal by
-Lund and Yannakakis 1994. **It also imports the precise reason that guarantee does not attach here**,
-which the supermodularity section already establishes, so the rule is now offered as a heuristic on
-stated grounds rather than on none.
-
-**The program-level coverage measure is a series system.** A product over components is the founding
-object of reliability theory and the article cited none of it. Esary and Proschan 1963 supplies the
-structure. **Birnbaum 1968 supplies something better**, being a component importance measure that
-ranks components by the probability the system's functioning turns on that component alone. **That is
-the same quantity as a blocking set, computed in a different vocabulary**, which is worth a reader
-knowing.
-
-**The clustering coefficient is an overdispersion statistic.** Dean 1992 gives the test. And the
-expectation that the departure from independence would be large was not a guess either, since defects
-in software are known empirically to concentrate, established by Fenton and Ohlsson 2000 and measured
-at scale by Ostrand and Weyuker. **Unimplemented instructions are not defects and the article now says
-so explicitly**, along with why the concentration argument transfers anyway.
-
-**Shapley was carrying the whole attribution section alone.** Young 1985 replaces additivity with
-monotonicity, which matters here because monotonicity in the marginal gain is what an ordering
-argument actually wants. Owen 1972 gives the multilinear extension. **And the sampling estimators went
-in at the one place they are genuinely needed rather than where they sound impressive.** Sixty-four
-workstream subsets are trivial and the article is right to say so. The same attribution at instruction
-granularity is not enumerable, and there the exact value is unavailable rather than merely unattempted.
-
-Rule synthesis and the testing literature's own version of the selection problem were the remaining
-two, the latter being the closer parallel. **Suite reduction is set cover and prioritisation is the
-ordering variant**, and Wong and colleagues 1995 found that minimising a suite at constant coverage
-can reduce fault detection, **which is the same warning this article issues in the opposite
-direction**.
+**111 references to 1,765. 1,268 to 4,789 lines.** 54 display equations held, roughly 25,000 words.
 
 ---
 
-## The Article's Own Standard, Applied to the Article
+## The Survey, and What It Found
 
-**This is the check worth reporting.** The article documents that four of ninety-one digital object
-identifiers it supplied from memory resolved to entirely different works, that each would have passed
-a reachability check, and that only comparing the resolved title against the claimed title detects it.
-**That check had never been run against what the article now carries.**
+A contemporary survey of **1,650 references across fourteen clusters** was added, organised by what each
+body of work says about the ordering question rather than by keyword.
 
-It has been. **All eighty-six digital object identifiers resolve to the claimed author and year. Zero
-defects.** The twenty-three new references were verified before insertion rather than after.
+**The finding is that the question has become more urgent since it was posed and no more answered.**
+Backend bring-up used to be rare, performed by a handful of vendors. RISC-V made custom instruction sets
+cheap, WebAssembly made a new target universal, staged lowering multiplied the steps, and accelerators
+multiplied the targets. **The occasions for asking have multiplied and the principle is still missing.**
 
-**Three apparent mismatches were my own bug and not the article's.** ASCII folding drops the
-diacritics in Bohm, Lovasz, Munafo and Slavik, the last folding to `slavk` through a dotless i.
+**The extension-identification literature comes closest and misses for a precise reason.** It selects
+instructions by measured corpus frequency, which sounds like the same idea, but it selects instructions to
+add to a **complete** machine for **speed**, where the objective is a sum. This article selects
+instructions to implement next in an **incomplete** compiler for **capability**, where it is a product.
+That is the whole difference and it is now stated.
 
-**The limitation is stated rather than elided.** Matching surname and year cannot catch a same-author
-same-year substitution. That is a narrower hole than the one the article describes, but it is a hole.
+**The sharpest new observation is that compiler fuzzing cannot answer this question at all.** Fuzzing is a
+genuine success story and has found very large numbers of real defects. But a fuzzer generates programs
+and checks whether the compiler handles them correctly, so **it tests what is implemented**. An
+unimplemented instruction is not a bug it can find, because the compiler correctly refuses it. **The most
+sophisticated compiler-testing machinery ever built cannot tell an engineer what to implement next.**
+
+**And the blindness generalises.** Testing asks whether what exists is correct. Coverage tooling asks how
+much of what exists is exercised. Verification asks whether what exists is sound. **All three presuppose
+the artefact.** The question falls in the gap between building a compiler and testing one.
+
+**The one decisive change cuts in the article's favour, and it is an argument the article was not
+previously making.** Mining software repositories made corpus measurement ordinary. The twenty-minute
+instrument is now the cheap part. **Measuring before ordering was expensive advice in 1978 and is nearly
+free in 2026**, which is the strongest case for adopting the recommendation.
+
+Two smaller observations were recorded. **Synthesis reduces implementation cost and leaves the blocking
+set untouched**, so it moves the leverage ratio through its denominator only and reorders nothing.
+**Machine-generated code is a growing fraction of any corpus**, so the representativeness caveat sharpens
+rather than softens.
 
 ---
 
-## One CI Failure Caught Before It Could Happen
+## Four Defects Fixed
 
-The word `rather` stood at 66 occurrences for 6.0 per thousand against the verifier's limit of 5.0.
-**The verifier scans `_posts/` and not `_drafts/`, so this would have failed on the day the file was
-published and not before.** Fifteen occurrences were rewritten to `and not`, and it now stands at 51
-for 4.3 per thousand.
+**A heading had been glued to the end of a paragraph by an earlier reflow.** `### Seven literatures touch
+this problem and none of them answers it` would have shipped as literal `###` text. It was invisible in
+the source and detectable only because the heading was missing from a section listing. The reflow function
+now keeps link pairs atomic as well as bold spans.
+
+**All 111 reference definitions sat under a single `### Reference` heading** although 109 were `research_`
+anchors. Split into Reference, Related Post and Research per the corpus convention.
+
+**The article carried zero related-post links** despite this blog holding a Keleusma corpus. Four
+back-references were added. **The important one is A216, Keleusma's Self-Hosting Strategy**, because that
+compiler emits bytecode and this article is about lowering bytecode to native code. **That is a direct
+sequel relationship the article had not stated.**
+
+And two Source Base figures were wrong on first writing, a query count and a harvest total. Both corrected
+against the logs.
+
+---
+
+## Homonyms, Found by Reading
+
+**Every contaminant was found by sampling the clusters and none by anticipating it**, which is the
+standing rule and it held again.
+
+A query on binary translation returned forty-five records on **the static dielectric constants of binary
+liquid mixtures**. A query on code corpora returned **linguistic** corpora. A query on interpreters
+returned the training of **human** interpreters. And a study of **industrial chiller faults** reached the
+shortlist through the word `empirical` in a software-engineering venue.
+
+**The lesson is that a weak anchor is worse than no anchor.** `empirical`, `optimization`, `performance`
+and `benchmark` were removed from the relevance test in favour of strong computing terms. 3,155 harvested
+became 1,678 after filtering and 1,650 after title deduplication.
 
 ---
 
 ## Verification
 
-`_verify.py` at the 21-warning baseline with zero errors. Reference integrity at 111 defined and 111
-used, zero undefined, zero orphaned, zero duplicate URLs, correct sorting. Prose style clean with zero
-em dashes, en dashes, prose colons, prose semicolons or parentheticals beyond the permitted
-`console.log` tag, zero unbalanced bold, and all 54 display equations on single lines.
+120 of the 1,650 harvested identifiers were sampled and **all 120 resolve**. **An epistemic distinction is
+now recorded in the article**, that harvested identifiers cannot carry the memory-substitution defect the
+article documents, because identifier, title, author and year come from a single record. That is a
+structural guarantee and not a verified one, and it is written that way. The foundational 86 were checked
+exhaustively and all resolve to the claimed author and year.
 
-**Zero doubled backslashes, confirmed by grep after my own regex reported eight false positives.**
-That trap has hit three consecutive articles in this corpus, so it is checked twice now.
+`_verify.py`, run against a scratch tree with the draft installed as a post, reports **zero errors and no
+style or word-frequency warning for this article**. Prose clean with zero em dashes, en dashes, prose
+colons, prose semicolons or parentheticals beyond front matter and the permitted `console.log` tag, zero
+unbalanced bold, zero split link pairs, zero glued headings, all 54 display equations on single lines, and
+**23 apostrophes audited as possessives with zero contractions**.
 
-Isolated production build at the 2026-08-06 date succeeds. All 54 equations render as display math
-with zero `$$` survivors, 141 resolved reference anchors, zero unresolved links, zero Liquid errors,
-six tables, twenty sections and fifteen subsections, series navigation reporting Part 1.
+**The isolated production build was run over the full 297-post tree, which is what proves the four new
+`post_url` tags resolve.** 54 equations render, zero `$$` survivors, 1,791 resolved identifier anchors,
+zero unresolved links, zero Liquid errors, 23 sections, 32 subsections, six tables, series navigation
+reporting Part 1.
 
-**The article carries no `post_url` tags**, so it has no build-interlock exposure.
-
-The reference base now spans 1906 to 2021 with a median of 1997, and 62 of the 108 dated sources
-predate 2000.
+**Counts and fraction are both reported, as the genre document requires.** The base spans 1906 to 2026
+with a median of 2022. The contemporary fraction is 94.2 percent and **the foundational count is unchanged
+at 111 with 62 predating 2000**. Adding a survey lowers the fraction while leaving the primary count
+untouched, so the fraction alone would read as a regression when it is the directive working.
 
 ---
 
 ## Awaiting Instruction
 
-**The publication review is the remaining pass**, and it is the one that authorises a push.
+**The article is complete through all four passes and is committed and pushed. It has not been published**
+and remains in `_drafts/`.
 
-**One question is still open from the import.** The `keleusma_native` series navigation reads Part 1
-of 1. Whether siblings are planned affects nothing in the current draft but would change the series
-framing if the answer is yes.
+**One question is still open.** The `keleusma_native` series navigation reads Part 1 of 1. Whether
+siblings are planned would change the series framing but nothing in the current draft.

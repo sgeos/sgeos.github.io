@@ -23,10 +23,22 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 of an unstated total, titled Compiler Backend Bring-Up: Blocking Frequency as the Ordering Principle
 for Instruction-Set Coverage.
 
-1,268 lines, 54 display equations, 111 references, roughly 11,800 words. **Imported from
+4,789 lines, 54 display equations, 1,765 references, roughly 25,000 words. **Imported from
 `keleusma-worktrees/llvm-backend-spike/tmp/`, brought to blog standards and retargeted for a general
 audience**, both on human-pilot instruction. Equation-density and primary-reference reviews complete.
 Committed, **not pushed**, not published.
+
+**The publication pass added a contemporary-literature survey of 1,650 references across fourteen
+clusters**, taking the article from 1,268 to 4,789 lines. The survey is organised by what each body of
+work says about the ordering question rather than by keyword, and its central finding is that **the
+question is asked far more often than it was and still has no published principle**. Custom instruction
+sets, WebAssembly, staged lowering pipelines and accelerator back ends multiplied the occasions for
+asking it. **The blindness is structural.** Compiler testing asks whether what exists is correct,
+coverage tooling how much of what exists is exercised, and verification whether what exists is sound, so
+all three presuppose the artefact and none asks what is absent. **The one decisive change cuts in the
+article's favour**, since corpus measurement became ordinary and the advice to measure before ordering is
+now nearly free to follow. Four back-references to the published Keleusma and compiler articles were
+added, the article previously having had none.
 
 **The primary-reference pass added twenty-three references and verified every one of the existing
 eighty-eight.** The article documents a 5.5 percent defect rate among digital object identifiers it
