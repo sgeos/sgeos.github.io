@@ -17,6 +17,79 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Osprey X-28 Sea Skimmer A325 2025-11-03
+
+`x_planes_osprey_x28.markdown`, A325, editorial date 2025-11-03, series `x_planes` index 29 of 72.
+
+3,695 lines, 23 display equations, 990 references, 14,380 words after the draft pass. Committed, not
+pushed. **Draft pass only. The equation, primary-reference and publication passes remain.**
+
+**THE CHEAPEST X-PLANE, AND THE PRICE WAS THE REQUIREMENT RATHER THAN THE RESULT.** The Naval Air
+Development Center study asked for an aircraft that could patrol under visual flight rules, be built in
+Southeast Asia, be trailered under a thousand pounds, work from canals as little as twenty-five feet
+wide, and **cost under five thousand dollars**. Four of those five are not flight requirements.
+
+**IT IS THE EXACT COMPLEMENT OF A324.** The X-27 was expensive and never built. The X-28 was nearly free
+and actually flew, for five weeks on the Delaware River. **And both were bought for the same war**, the
+X-26B having been flown over the Mekong Delta made expensive so it could be silent, while the X-28 was
+meant for the same waters made cheap so there could be many.
+
+**THE KEYSTONE IS NOT AERODYNAMIC AND THAT IS THE FINDING.** The wingspan is twenty-three feet and the
+canal is twenty-five, which is **twelve inches of clearance each side**. The span sets the aspect ratio
+at 5.454, the aspect ratio sets the induced drag, and the induced drag sets the endurance, which is the
+patrol mission's actual product.
+
+**THE SHARPEST RESULT IS A COLLISION BETWEEN TWO REQUIREMENTS.** The minimum-power speed is 47.2 knots
+and the stall speed is 48.0, a ratio of **0.984**, so **the endurance optimum lies below the stall and is
+unreachable**. The trailer limit pushed the weight and therefore the stall speed down; the canal pushed
+the span down and therefore the minimum-power speed down further. **The two requirements pushed the same
+two speeds toward each other until they crossed.**
+
+**WHAT THE CANAL COST, COMPUTED.** At a twenty percent stall margin the aircraft loiters 8.98 hours on an
+assumed ninety pounds of fuel. A thirty-foot span, which a thirty-two-foot canal would pass, gives 11.08
+hours, **a gain of 23.3 percent**. The article prices the constraint and then says the constraint was
+still right, because an aircraft that cannot reach its water has no endurance at all.
+
+**AREA PER DOLLAR IS THE ONLY COMPARISON THE REQUIREMENT PERMITS**, and each aircraft is given its own
+sweep width because giving them the same one is not a comparison. The X-28A returns 20.6 square nautical
+miles per hour per thousand dollars against a P-3C Orion's 0.18, **a factor of 113, after giving the
+Orion a twenty-mile radar against the Osprey's one-mile eyeball**.
+
+**THE WATER WAS NEVER THE PROBLEM.** Static thrust exceeds the resistance hump by between 2.75 and 4.59
+across every hull the record permits, so **a flying boat's characteristic difficulty does not arise at
+ten pounds per horsepower**. The real water limit is sea state: at a two-second period the hull spans
+0.842 of a wavelength.
+
+**TWO OF MY OWN ERRORS WERE CAUGHT BEFORE WRITING.** A sweep-width function had the inequality
+**backwards**, returning more than twice the sighting range and inflating every coverage figure. And an
+area-per-dollar comparison gave all three aircraft the same sweep width, which flattered the Osprey; the
+conclusion survives a fair comparison but the first version did not deserve to.
+
+**THE CLIMB CLAIM HAS NO ROOM IN IT.** 2,200 feet per minute is 88.9 percent of the zero-drag ceiling at
+a propeller efficiency of 0.75 and requires 0.823 to be reached. Inverting for drag instead returns a
+zero-lift coefficient of 0.0050, a quarter of a clean sailplane's, so the premise rather than the
+arithmetic is wrong.
+
+**THE DESIGNATION FINDING IS NOW FOUR DEEP.** X-25, X-26, X-27 and X-28 are four consecutive designations
+that did not go to a purpose-built research aeroplane, and **the X-28A is the clearest case**, since the
+Navy watched a man demonstrate his own aeroplane and wrote him a cheque.
+
+**TWO SELECTOR DEFECTS, BOTH ORDERING.** A proximity requirement in the hull cluster rejected 86 NACA
+tank tests because "Hydrodynamic Tests in the N.A.C.A. Tank of a Model of the Hull of the Short Calcutta
+Flying Boat" has its two ends ninety characters apart. Broadening it then made it swallow porpoising,
+spray and water loads, so the specific clusters were moved ahead of it. **One filter from A324 was
+deliberately withdrawn**, since that article filtered the ship hull as marine noise and here it is
+adjacent rather than noise.
+
+**Verification.** 39 independent checks passing, none importing the calculation, with the minimum-power
+speed found by SCANNING, the endurance by fuel-burn SIMULATION, the static thrust by CLOSING the momentum
+balance, and the span ordering as a randomised PROPERTY. Reference integrity 990 with zero undefined,
+zero orphaned and zero duplicate URLs. **Zero search-endpoint citations.** All 29 hand-curated URLs
+resolve, 50 of 50 sampled NTRS resolve, 60 of 60 sampled Crossref and 40 of 40 sampled DTIC are
+registered. `_verify.py` at the 21-warning baseline, check_any clean, and a 29-article isolated build
+with all 23 equations rendering.
+
+
 ## X-Planes Lockheed X-27 A324 2025-11-02
 
 `x_planes_lockheed_x27.markdown`, A324, editorial date 2025-11-02, series `x_planes` index 28 of 72.

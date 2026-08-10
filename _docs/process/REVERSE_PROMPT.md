@@ -9,106 +9,88 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A324 publication review, the fourth and final pass. Committed and **pushed**. **Not published.**
+**Task**: A325, the Osprey X-28 Sea Skimmer, drafted. **Draft pass only.** Committed, not pushed.
 
-**Final state: 9,895 lines, 77 display equations, 2,803 references, 37,006 words.** All twenty-eight
-articles in the series remain in `_drafts/`.
-
----
-
-## The Contemporary Survey
-
-**Contemporary coverage 595 to 1,535 references, or 33.8 to 56.8 percent.** A fourth harvest of 70
-Crossref and 8 NTRS queries took the modern pool from 931 to 1,615.
-
-**The survey went from seven subsections to eleven, and each new one answers something the article's own
-analysis raised rather than filling a gap in the outline.**
-
-- **Ram drag and high-speed propulsion integration.** This is the keystone's other half and the draft
-  survey never reached it. It is live again under supersonic civil transport and variable-cycle engines.
-- **Aerothermoelasticity.** The article computes a thermal stress by hand. The modern name for that
-  computation is a coupled thermal-structural problem in which the deformation changes the flow doing
-  the heating.
-- **Derivative and legacy design.** **The one contemporary thread that takes the article's own subject as
-  its object of study.** The Lancer kept the F-104's aerofoil and thickness ratio, and pricing that
-  inherited constraint is now a research subject.
-- **Evaluating an aircraft that was never built.** Surrogate modelling, uncertainty quantification,
-  model-based systems engineering. **This is the closest thing to a resolution the article's central
-  difficulty has, and it arrived fifty years late.** The article notes that its own analysis is a
-  primitive version of the same idea.
+3,695 lines, 23 display equations, 990 references, 14,380 words.
 
 ---
 
-## The Count-Versus-Fraction Trap Caught This Article From Both Ends
+## The Cheapest X-Plane, and the Price Was the Requirement
 
-**At the reference pass**, the contemporary count sat unchanged at 595 while its fraction fell, because
-the period base was growing underneath it.
+The Naval Air Development Center asked for an aircraft that could patrol under visual flight rules, be
+built in Southeast Asia, be trailered under a thousand pounds, work from canals as little as twenty-five
+feet wide, and **cost under five thousand dollars**. **Four of those five are not flight requirements.**
 
-**At this pass, the reverse.** The period count sits unchanged at **912** while its fraction falls from
-51.8 to 33.8 percent. The primary count **rose**, from 1,176 to 1,188, while its fraction fell from 66.8
-to 44.0.
-
-**Neither movement is a fact about coverage. Both are facts about the denominator.** The Source Base now
-says this in the article rather than leaving the fractions to be misread as a regression.
-
----
-
-## Defects Found and Fixed
-
-**The NASA defect recurred for the third consecutive article.** It was used without being spelled out,
-including inside link text, which is prose in this corpus. Both occurrences now read National Aeronautics
-and Space Administration. **`US gallons` corrected to United States gallons.**
-
-**Two em dashes in table cells**, used as placeholders rather than as prose. Removed anyway, because the
-rule is absolute.
-
-**One prose semicolon that I introduced in this very pass**, caught by the checker immediately after the
-edit that created it.
-
-**One capitalised emphasis**, `DIFFERENCE`, converted to bold. Emphasis is bold and never capitals.
-
-**Three section headings carried no prose at all** and rendered as a heading immediately followed by a
-subheading. Each now has an orienting sentence.
+**It is the exact complement of A324.** The X-27 was expensive and never built. This was nearly free and
+flew for five weeks on the Delaware River. **And both were bought for the same war**, since the X-26B
+was flown over the Mekong Delta made expensive so that it could be silent, while the X-28 was meant for
+the same waters made cheap so that there could be many.
 
 ---
 
-## Diction
+## The Keystone Is Not Aerodynamic
 
-**Zero constructions above the corpus maximum**, measured against 27 peers. `rather than` sits at 4.61 per
-thousand against a peer median of 4.12 and a maximum of 6.78.
+**The wingspan is twenty-three feet and the canal is twenty-five.** Twelve inches of clearance each side.
+The span sets the aspect ratio at 5.454, the aspect ratio sets the induced drag, and the induced drag
+sets the endurance, which is the patrol mission's actual product.
 
-**It was left alone deliberately.** The article repeatedly contrasts what was done with what was not, so
-the construction is doing real work, and **the A369 lesson is that a mechanical substitution creates a
-worse tic than the one it removes**. `mach` at 6.18 per thousand is the article's own subject noun.
+**The sharpest result is a collision between two requirements.** The minimum-power speed is 47.2 knots
+and the stall speed is 48.0, a ratio of **0.984**, so **the endurance optimum lies below the stall and
+cannot be reached**. The trailer limit pushed the stall speed down, the canal pushed the minimum-power
+speed down further, and the two crossed.
+
+**The canal cost 23.3 percent of the endurance.** The article prices it and then says the constraint was
+still right, because an aircraft that cannot reach the water it patrols has no endurance at all.
+
+**Area per dollar is the only comparison the requirement permits.** Giving each aircraft its own sweep
+width, the X-28A returns 20.6 square nautical miles per hour per thousand dollars against a P-3C Orion's
+0.18, **a factor of 113, after giving the Orion a twenty-mile radar against a one-mile eyeball.**
+
+**The water was never the problem.** Static thrust exceeds the resistance hump by between 2.75 and 4.59
+across every hull the record permits. The real limit is sea state.
+
+---
+
+## Two of My Own Errors, Caught Before Writing
+
+**A sweep-width function had the inequality backwards**, returning more than twice the sighting range and
+inflating every coverage figure that used it. Sweep width is the integral of the lateral-range curve and
+can never exceed twice the definite range.
+
+**An area-per-dollar comparison gave all three aircraft the same sweep width**, which flattered the
+Osprey badly. The conclusion survives a fair comparison. The first version did not deserve to.
+
+**And the climb claim has no room in it.** 2,200 feet per minute is 88.9 percent of the zero-drag ceiling
+and needs a propeller efficiency of 0.823. Inverting for drag instead returns 0.0050, a quarter of a
+clean sailplane's, so the premise is wrong rather than the arithmetic.
+
+---
+
+## The Designation Finding Is Now Four Deep
+
+X-25, X-26, X-27 and X-28 are **four consecutive designations that did not go to a purpose-built research
+aeroplane**, and the X-28A is the clearest case. The Navy did not commission anything. It watched a man
+demonstrate his own aeroplane, recognised its own requirements document, and wrote him a cheque.
 
 ---
 
 ## Verification
 
-105 numerical checks passing unchanged. Reference integrity at 2,803 with zero undefined, zero orphaned
-and zero duplicate URLs. **Zero search-endpoint citations**, the defect A297 left open and which this
-article has never had. `_verify.py` at the 21-warning baseline, 45 of 45 library tests, and a 28-article
-isolated build with all 77 equations rendering across 18 sections and 45 subsections.
+**39 independent checks passing, none importing the calculation**, with the minimum-power speed found by
+scanning, the endurance by fuel-burn simulation, the static thrust by closing the momentum balance, and
+the span ordering as a randomised property.
 
-**The 940 references added this pass were swept by source type**: 11 of 11 NTRS resolve, 120 of 120
-sampled Crossref DOIs are registered, 1 of 1 DTIC is registered, and all 75 hand-curated URLs resolve.
-
----
-
-## State
-
-**Pushed to `origin/master`.** The deploy builds without `--drafts`, so the article is not served. Nothing
-is outstanding.
+Reference integrity 990 with zero undefined, zero orphaned and zero duplicate URLs. **Zero
+search-endpoint citations.** All 29 hand-curated URLs resolve, 50 of 50 sampled NTRS resolve, 60 of 60
+sampled Crossref and 40 of 40 sampled DTIC are registered. `_verify.py` at the 21-warning baseline,
+check_any clean, and a 29-article isolated build with all 23 equations rendering.
 
 ---
 
 ## Awaiting Instruction
 
-**A324 is complete through all four passes.** Twenty-eight of seventy-two drafted, **none published**.
+**A325 has completed the first of four passes.** The expected next prompt is the equation-density review.
 
-The next article to draft is **A325, the Osprey X-28 Sea Skimmer**, editorial date 2025-11-03, series
-index 29. It is the other side of the X-27: a homebuilt single-seat flying boat that the Navy bought and
-actually flew, after a study into patrol aircraft that had to cost under five thousand dollars. **After
-three consecutive designations that did not go to research aeroplanes, A325 returns to an aircraft that
-existed** and is the fourth consecutive off-the-shelf purchase, which is worth watching for the closing
-article.
+**One thing to weigh before it.** The article carries 23 equations against a series median of 94, which
+is the lowest count in the series. That may be a narrow subject or an equation pass waiting to happen,
+and I have not pre-judged it.
