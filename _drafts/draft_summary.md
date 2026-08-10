@@ -23,7 +23,57 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 4,978 lines, 22 display equations, 1,375 reference definitions, 28,697 words after the draft pass.
 **5,193 lines, 54 display equations, 1,375 references, 30,357 words after the equation review.**
-Committed, not pushed. **The primary-reference and publication passes remain.**
+**7,408 lines, 54 display equations, 2,084 references, 41,972 words after the primary-reference
+review.** Committed, not pushed. **The publication pass remains.**
+
+**REFERENCE PASS: 1,375 to 2,084 definitions and 1,345 to 2,054 cited**, equations held at 54 and
+measured before and after. **Primary sources 940 to 1,304** and the period count 798 to 1,102.
+
+**THE COUNT-VERSUS-FRACTION TRAP FIRED AGAIN AND THE SOURCE BASE RECORDS BOTH NUMBERS.** The primary
+count rose by a third while the primary **fraction FELL** from 71.3 to 64.3 percent, because the same
+pass also cited seven hundred contemporary sources that had been harvested and left unused. Nothing
+was removed.
+
+**TWO CAUSES WERE AT WORK AND ONLY ONE OF THEM WAS SUPPLY.**
+
+**The first was supply and the audit said so unambiguously**, since for nine of the ten subjects the
+equation pass promoted, the cited count equalled the pool count exactly, and **three stood at zero**.
+Energy requirements to orbit went 0 to 4, mass capture 0 to 2, stagnation pressure and structural load
+0 to 8, normal shock and total pressure recovery 1 to 16, equivalence ratio 1 to 37, Reynolds and
+transition criteria 3 to 53, ignition delay and kinetics 4 to 52, and inlet starting 9 to 50.
+
+**THE SECOND WAS SELECTION AND IT WAS MINE.** **249 harvested records were sitting uncited** because
+the article carried a marker for the period half of several clusters and none for the modern half, and
+`structures_general` had no marker at all. **That is not a research finding, it is a bookkeeping
+error**, and it is recorded because an article that harvests a record and never cites it has done the
+work and thrown it away. Every one of the 2,028 master records is now cited.
+
+**A LIBRARY DEFECT WAS FOUND BY `_verify.py` AND FIXED IN `_lib/refs.py`.** A Springer title reading
+"Al/MLG/CuO/$${\text{Bi}}_{2}{\text{O}}_{3}$$ Nanothermite" reached link text, and truncated for
+display it left **a single unbalanced `$$` that opens a MathJax display block and swallows the rest of
+the page**. `refs.clean` stripped HTML, ampersands, brackets and braces and **not dollars or LaTeX
+commands**. It now strips both, `test_lib.py` gained a regression test, and the suite is at 46.
+
+**THE TEST WAS INITIALLY APPENDED TO THE END OF THE FILE AND NEVER RAN**, because discovery is a
+module-level loop over `globals()` and anything defined after it is invisible. The suite reported 45
+of 45 and looked healthy. **A test that is never collected is worse than no test**, because it reads
+as coverage.
+
+**ONE SUBJECT IS REPORTED AS THIN RATHER THAN PADDED.** Mass capture returns two records from five
+targeted queries, because the quantity is discussed **inside** the inlet literature, which the article
+cites 268 times, rather than under a heading of its own.
+
+**AN UNPREDICTED HOMONYM.** The energy-to-orbit vocabulary collides with **oceanographic and
+meteorological energy budgets**, and eleven of sixteen matching records were internal waves in the
+South China Sea, stratospheric budgets and surface energy balance. The anchor gate rejected every one.
+
+Verification after the reference pass. 98 numerical checks passing unchanged with all article-facing
+values confirmed present, `_lib/test_lib.py` at 46 of 46, reference integrity at 2,084 with zero
+undefined, zero orphaned and zero duplicate URLs, **zero search-endpoint citations**, the full set
+swept with **zero hard failures** including all 435 NTRS identifiers, 240 of 240 sampled journal DOIs
+and 80 of 80 sampled DTIC DOIs, `_verify.py` at the 21-warning baseline, check_any clean, zero
+constructions above the corpus maximum, equation citation gaps 26 to 20, and a 31-article isolated
+build rendering all 54 equations across 17 sections and 19 tables.
 
 **EQUATION PASS: 22 to 54 across 17 edits**, references held at 1,375 and measured before and after.
 The audit found the same three categories, now ten articles running. The thrust table stated

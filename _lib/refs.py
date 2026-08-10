@@ -68,6 +68,14 @@ def slug(s):
 def clean(s):
     """Strip what the prose rules forbid from anything that becomes link text."""
     s = re.sub(r"<[^>]+>", " ", s or "").replace("&amp;", "and")
+    # LATEX IN A TITLE BREAKS THE PAGE, NOT JUST THE PROSE. Publishers emit titles
+    # containing inline math, and a stray `$$` in link text opens a MathJax display block
+    # that swallows everything after it. A327 hit this with a Springer title reading
+    # "Al/MLG/CuO/$${\text{Bi}}_{2}{\text{O}}_{3}$$ Nanothermite", whose truncated form
+    # left a single unbalanced `$$` and tripped the math-delimiter check. Strip the command
+    # sequences first, then the dollars, and let the existing brace rule take the rest.
+    s = re.sub(r"\\[a-zA-Z]+", " ", s)
+    s = s.replace("$", " ")
     s = re.sub(r"[():;\[\]{}]", " ", s)
     s = s.replace("—", " ").replace("–", " ").replace("−", "-")
     return re.sub(r"\s+", " ", s).strip(" ,.-")

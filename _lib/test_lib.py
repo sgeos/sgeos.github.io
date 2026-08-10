@@ -492,6 +492,21 @@ def t_reflow_keeps_inline_links_atomic():
         assert line.count("(") == line.count(")"), f"split link in: {line!r}"
 
 
+def t_clean_strips_latex_from_titles():
+    """A publisher title carrying inline math must not reach link text.
+
+    A327 hit a Springer title reading "Al/MLG/CuO/$${\\text{Bi}}_{2}{\\text{O}}_{3}$$
+    Nanothermite". Truncated for link text it left a single unbalanced `$$`, which opens a
+    MathJax display block that swallows the rest of the page, and `_verify.py` caught it
+    only as an odd delimiter count.
+    """
+    out = refs.clean("Study of Al/MLG/CuO/$${\\text{Bi}}_{2}{\\text{O}}_{3}$$ Nanothermite")
+    assert "$" not in out, out
+    assert "\\" not in out, out
+    assert "Bi" in out and "Nanothermite" in out, out
+    assert refs.clean("plain title") == "plain title"
+
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)
