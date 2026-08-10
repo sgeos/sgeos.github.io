@@ -186,3 +186,22 @@ def integrity(text):
     return {"used": len(used), "defined": len(defined),
             "undefined": sorted(used - defined), "orphaned": sorted(defined - used),
             "duplicate_urls": {u: a for u, a in urls.items() if len(a) > 1}}
+
+def parse_anchor(anchor):
+    """Read (kind, surname, year) back out of an anchor. Inverse of anchor_stem.
+
+    ONE PARSER, DELIBERATELY. `audit` and `citations` each grew their own and
+    they disagreed: a year written as `1978b`, with no separator before the
+    disambiguator, parsed in one and silently returned None in the other, so a
+    year check was skipped without any signal. Both now call this.
+
+    Handles `_1997`, `_1978b` and `_2023_b`.
+    """
+    m = re.match(r"([a-z]+)_(.+)$", anchor or "")
+    if not m:
+        return None, None, None
+    kind, rest = m.group(1), m.group(2)
+    ym = re.search(r"_(\d{4})[a-z]?(?:_[a-z0-9]+)?$", "_" + rest)
+    year = int(ym.group(1)) if ym else None
+    sm = re.match(r"([a-z]+)", rest)
+    return kind, (sm.group(1) if sm else None), year

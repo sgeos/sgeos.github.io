@@ -31,14 +31,28 @@ article-specific content alone.
 
 ## Modules
 
-| Module | Responsibility |
-|--------|----------------|
-| `fetch.py` | One HTTP client with backoff and per-host throttling, plus Crossref, NTRS, DTIC, OSTI and Open Library adapters |
-| `edits.py` | Whitespace-tolerant, all-or-nothing edit application with equation and invariant guards |
-| `refs.py` | Anchor generation, link text, deduplication, and the categorised reference block |
-| `reflow.py` | Paragraph rewrapping that keeps bold spans and link pairs atomic |
-| `lint.py` | Mid-edit invariant scan, separating defects from house conventions |
-| `test_lib.py` | Regression tests, one per shipped defect |
+| Module | Responsibility | Replaces |
+|--------|----------------|----------|
+| `fetch.py` | One HTTP client with backoff and per-host throttling, plus Crossref, NTRS, DTIC, OSTI and Open Library adapters | 90 retry loops, 121 user agents |
+| `edits.py` | Whitespace-tolerant, all-or-nothing edit application with equation and invariant guards | 148 edit loops |
+| `refs.py` | Anchor generation and parsing, link text, deduplication, and the categorised reference block | 19 `gen_refs`, 17 `gen_master` |
+| `reflow.py` | Paragraph rewrapping that keeps bold spans and link pairs atomic | 2 partial copies |
+| `lint.py` | Mid-edit invariant scan, separating defects from house conventions | 7 `check.py` |
+| `diction.py` | Word and phrase overuse, measured against peer articles rather than a fixed threshold | 4 `diction.py` |
+| `audit.py` | Equation gaps, citation gaps, thin sections, primary count and fraction | 13 `ref_audit`, 8 `eqn_scan` |
+| `numcheck.py` | Harness for re-deriving stated values independently, with property and bisection checks | 18 `verify_numbers` |
+| `citations.py` | Registry verification of recalled identifiers, sampling for retrieved ones | 13 `url_check`, 6 `verify_urls` |
+| `test_lib.py` | Regression tests, one per shipped defect | |
+
+**`diction.py` is the cautionary case.** A version of it existed in A320 and was copied into A321,
+A322 and A323. A369 never received a copy, and the same analysis was redone by hand, rediscovering the
+same prose-stripping rules and the same phrase list while missing the acronym check the original had.
+Four copies and then silence is the pattern this library exists to end.
+
+**Do not name a module after a standard library module.** `numcheck.py` was first written as
+`numbers.py`, which shadowed the standard library and broke `statistics` for every caller through the
+`fractions` import chain, because article scripts put `_lib` first on `sys.path`. A test now guards
+the whole package against it.
 
 ## Usage
 

@@ -285,6 +285,139 @@ def t_crossref_fields_missing_pieces():
     assert fetch.crossref_fields({"title": []}) == ("", [], None, "")
 
 
+# ---------------------------------------------------------------- package hygiene
+
+def t_no_stdlib_shadowing():
+    """A module named `numbers` shadowed the standard library and broke `statistics`.
+
+    Article scripts put `_lib` first on sys.path, so any module here named after
+    a stdlib module is imported instead of it. `numbers.py` did exactly that and
+    broke every caller through the fractions import chain inside `statistics`.
+    """
+    here = os.path.dirname(os.path.abspath(__file__))
+    names = {f[:-3] for f in os.listdir(here) if f.endswith(".py")}
+    clash = sorted(names & set(sys.stdlib_module_names))
+    assert not clash, f"modules shadow the standard library: {clash}"
+
+
+def t_statistics_still_importable_with_lib_first():
+    import importlib
+    importlib.import_module("statistics")
+    importlib.import_module("fractions")
+
+
+# ---------------------------------------------------------------- diction
+
+def t_diction_strips_citation_link_text():
+    """The reason _verify.py cannot do this: link text is not prose."""
+    import diction
+    t = FM + "Real prose here. [A Very Long Harvested Paper Title][research_x_2020]\n"
+    p = diction.prose(t)
+    assert "Harvested" not in p and "Real prose here." in p
+
+
+def t_diction_ignores_hyphenated_compounds():
+    """`application-specific` is a domain term, not an overuse of `specific`."""
+    import diction
+    t = FM + "This is application-specific and target-specific, but one specific case matters.\n"
+    r, _n = diction.rates(t, ["specific"])
+    assert r["specific"][0] == 1, r["specific"]
+
+
+def t_diction_baseline_flags_over_max():
+    import diction, tempfile, os as _os
+    peers = []
+    for i in range(3):
+        fh = tempfile.NamedTemporaryFile("w", suffix=".markdown", delete=False)
+        fh.write(FM + ("Plain sentence here. " * 40) + "rather than once.\n")
+        fh.close()
+        peers.append(fh.name)
+    try:
+        heavy = FM + ("rather than " * 30) + ("filler word " * 60)
+        rows, n, npeers = diction.compare(heavy, peers, ["rather than"])
+        assert npeers == 3
+        assert rows[0][5] == "over-max", rows[0]
+    finally:
+        for p_ in peers:
+            _os.unlink(p_)
+
+
+# ---------------------------------------------------------------- audit
+
+def t_audit_citation_gap_detection():
+    import audit
+    t = FM + "Prose with no source.\n\n$$a = b$$\n\nMore prose.\n"
+    assert len(audit.citation_gaps(t)) == 1
+    t2 = FM + "Prose citing [X][research_x_2020].\n\n$$a = b$$\n\nMore.\n"
+    assert audit.citation_gaps(t2) == []
+
+
+def t_audit_primary_reports_count_and_fraction():
+    import audit
+    t = (FM + "body [A][research_a_1960] [B][research_b_2020]\n\n## References\n\n"
+         "[research_a_1960]: https://x\n[research_b_2020]: https://y\n")
+    pf = audit.primary_fraction(t, 1999)
+    assert pf["primary_count"] == 1 and pf["dated"] == 2
+    assert abs(pf["primary_fraction"] - 0.5) < 1e-9
+
+
+def t_anchor_parser_is_single_and_agrees():
+    """audit and citations each grew a parser and they disagreed on `1978b`."""
+    import audit, citations, refs
+    a = "research_nemhauser_wolsey_1978b"
+    assert refs.parse_anchor(a) == ("research", "nemhauser", 1978)
+    assert audit.year_of(a) == 1978
+    assert citations.claimed_from_anchor(a) == ("nemhauser", 1978)
+    assert refs.parse_anchor("research_zhao_2023_b")[2] == 2023
+
+
+# ---------------------------------------------------------------- numcheck
+
+def t_numcheck_catches_wrong_value():
+    import numcheck
+    c = numcheck.Checker("t")
+    c.chk("good", 10.0, 10.05, tol=0.01)
+    c.chk("bad", 10.0, 42.0, tol=0.01)
+    assert c.ok == 1 and len(c.failures) == 1
+
+
+def t_numcheck_property_reports_counterexample():
+    import numcheck
+    c = numcheck.Checker("t")
+    c.prop("always positive", lambda x: x > 0, lambda r: r.uniform(-1, 1), trials=500)
+    assert len(c.failures) == 1 and "property failed" in c.failures[0]
+
+
+def t_numcheck_requires_values_in_draft():
+    import numcheck, tempfile, os as _os
+    fh = tempfile.NamedTemporaryFile("w", suffix=".markdown", delete=False)
+    fh.write("The article states 1234 and nothing else.\n")
+    fh.close()
+    try:
+        c = numcheck.Checker("t")
+        c.chk("present", 1234, 1234, tol=0)
+        c.chk("absent", 9999, 9999, tol=0)
+        c.require_in_text(fh.name)
+        assert any("absent" in f for f in c.failures), c.failures
+    finally:
+        _os.unlink(fh.name)
+
+
+# ---------------------------------------------------------------- citations
+
+def t_citations_flags_search_endpoints():
+    import citations
+    t = ("body [A][ref_a]\n\n## References\n\n"
+         "[ref_a]: https://openlibrary.org/search?q=x\n")
+    assert "ref_a" in citations.search_endpoint_citations(t)
+
+
+def t_citations_fold_handles_diacritics():
+    import citations
+    for raw, want in [("Slavík", "slavik"), ("Böhm", "bohm"), ("Munafò", "munafo")]:
+        assert citations.fold(raw) == want, (raw, citations.fold(raw))
+
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)
