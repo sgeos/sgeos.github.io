@@ -219,20 +219,37 @@ and for $S \subseteq S'$ the qualifying set for $S$ is contained in the qualifyi
 
 $$S \subseteq S' \subseteq I, \quad \iota \notin S' \implies g(\iota, S) \ \le\ g(\iota, S')$$
 
-which is **increasing** marginal returns. The objective is supermodular, not submodular. An initial draft of
-this article asserted the opposite and invoked the [Nemhauser, Wolsey and Fisher
-1978][research_nemhauser_1978] result to claim that greedy selection attains $\bigl(1 - \tfrac{1}{e}\bigr)
-\approx 0.632$ of the optimum under a cardinality constraint. That claim is false. The classical guarantee
-requires diminishing returns, whose tightness [Nemhauser and Wolsey 1978][research_nemhauser_wolsey_1978b]
-establish, whose dependence on curvature [Conforti and Cornuejols 1984][research_conforti_cornuejols_1984]
-characterise, whose geometric character [Lovasz 1983][research_lovasz_1983] develops, whose budgeted variant
-[Khuller and colleagues 1999][research_khuller_1999] treat, and whose unconstrained non-monotone case
-[Buchbinder and colleagues 2015][research_buchbinder_2015] settle at one half. Maximisation of a monotone
-supermodular function admits no constant-factor approximation in general, the containment being of the
-set-cover family whose completeness [Karp 1972][research_karp_1972] established and whose logarithmic
-inapproximability threshold [Feige 1998][research_feige_1998] proved. The greedy ordering advocated here is
-therefore an empirically justified heuristic with no approximation guarantee attached, and the article says
-so rather than borrowing authority from a theorem that does not apply.
+which is **increasing** marginal returns. The objective is supermodular, not submodular.
+
+**The contrast is worth writing out, because the whole force of the error lies in a reversed inequality.**
+Submodularity, the property that was asserted, is diminishing returns,
+
+$$S \subseteq S' \implies g(\iota, S) \ \ge\ g(\iota, S') \qquad \text{(submodular, and FALSE here)}$$
+
+$$S \subseteq S' \implies g(\iota, S) \ \le\ g(\iota, S') \qquad \text{(supermodular, and true here)}$$
+
+**And the guarantee that submodularity would have bought is worth stating too**, since invoking it by name
+without stating it is what let the error pass. For a monotone submodular objective under a cardinality
+constraint the greedy algorithm satisfies
+
+$$f(S_{\text{greedy}}) \ \ge\ \Bigl( 1 - \tfrac{1}{e} \Bigr) f(S_{\text{OPT}}) \approx 0.632 \, f(S_{\text{OPT}})$$
+
+**No such bound is available here.** Under supermodularity the greedy choice can be arbitrarily bad, because
+an instruction with zero marginal gain today may have large gain once its companions are present, which is
+exactly the situation equation for $|B(\iota, S)| = 0$ above describes. An initial draft of this article
+asserted the opposite and invoked the [Nemhauser, Wolsey and Fisher 1978][research_nemhauser_1978] result to
+claim that greedy selection attains $\bigl(1 - \tfrac{1}{e}\bigr) \approx 0.632$ of the optimum under a
+cardinality constraint. That claim is false. The classical guarantee requires diminishing returns, whose
+tightness [Nemhauser and Wolsey 1978][research_nemhauser_wolsey_1978b] establish, whose dependence on
+curvature [Conforti and Cornuejols 1984][research_conforti_cornuejols_1984] characterise, whose geometric
+character [Lovasz 1983][research_lovasz_1983] develops, whose budgeted variant [Khuller and colleagues
+1999][research_khuller_1999] treat, and whose unconstrained non-monotone case [Buchbinder and colleagues
+2015][research_buchbinder_2015] settle at one half. Maximisation of a monotone supermodular function admits
+no constant-factor approximation in general, the containment being of the set-cover family whose
+completeness [Karp 1972][research_karp_1972] established and whose logarithmic inapproximability threshold
+[Feige 1998][research_feige_1998] proved. The greedy ordering advocated here is therefore an empirically
+justified heuristic with no approximation guarantee attached, and the article says so rather than borrowing
+authority from a theorem that does not apply.
 
 The correction is not merely a repair, because the increasing-returns structure explains an empirical fact
 the erroneous version could not. Under increasing returns the singleton blocking sets are typically empty,
@@ -732,6 +749,8 @@ and examined by [Jovanovic and Levy 1997][research_jovanovic_levy_1997], a norma
 the exact interval of [Clopper and Pearson 1934][research_clopper_pearson_1934], gives the approximate
 ninety-five percent upper bound
 
+$$(1 - p)^{n} = 0.05 \implies p = 1 - 0.05^{1/n} \approx \frac{\ln 20}{n} = \frac{2.996}{n}$$
+
 $$\hat{p}_{\text{upper}} \approx \frac{3}{n}$$
 
 which follows from solving $(1 - p)^n = 0.05$ and using $\log(0.05) \approx -3$. Applied to the two units of
@@ -824,16 +843,18 @@ most transferable observation available.
 **Three are described below and the fourth is described inside the description of the third**, which is not
 an accident and is the point of the section.
 
-The first is the convexity shortcut described above, which would have inflated a clustering coefficient by
-seven orders of magnitude. The second is a false modularity theorem, in which the coverage objective was
-asserted to be submodular so that a classical approximation guarantee could be invoked, when the objective
-is supermodular and no such guarantee exists. The third occurred while assembling this article's references.
-Of ninety-one candidate digital object identifiers supplied from memory, four resolved to entirely different
-works and one did not resolve at all, an error rate of five and a half percent. One resolved to a paper on
-record allocation for drum storage in place of a paper on optimal code generation for expression trees, and
-one to a paper on a lambda calculus of objects in place of a paper on lightweight bytecode verification.
-Each of the four would have returned a successful response to a reachability check, so only comparison of
-the resolved title against the claimed title detected them.
+The first is the convexity shortcut described above,
+**which is Jensen's inequality applied in the wrong direction**, since $p^{x}$ is convex in $x$ and the mean
+of the powers therefore exceeds the power of the mean rather than equalling it. It would have inflated a
+clustering coefficient by seven orders of magnitude. The second is a false modularity theorem, in which the
+coverage objective was asserted to be submodular so that a classical approximation guarantee could be
+invoked, when the objective is supermodular and no such guarantee exists. The third occurred while
+assembling this article's references. Of ninety-one candidate digital object identifiers supplied from
+memory, four resolved to entirely different works and one did not resolve at all, an error rate of five and
+a half percent. One resolved to a paper on record allocation for drum storage in place of a paper on optimal
+code generation for expression trees, and one to a paper on a lambda calculus of objects in place of a paper
+on lightweight bytecode verification. Each of the four would have returned a successful response to a
+reachability check, so only comparison of the resolved title against the claimed title detected them.
 
 **A draft of this article reported this rate as near ten percent over forty-two candidates.** That figure is
 the first three verification batches taken alone, which is the worse subsample, and the later batches were
@@ -893,9 +914,15 @@ $$\frac{f_\pi(W_{\text{data}})}{\max_{W \ne W_{\text{data}}} f_\pi(W)} = \frac{2
 
 and an order-dependence artefact would have to be extreme to invert a margin approaching ten to one. For the
 ordering of the second, third and fourth workstreams, at $28$, $24$ and $9$, the artefact could plausibly
-reorder them, and no claim about that ordering should be read as established. Since the exact Shapley
-attribution requires only sixty-four corpus passes, the honest characterisation is that the surrogate was
-used for scope reasons and that the secondary ordering could be settled cheaply whenever it matters.
+reorder them, and no claim about that ordering should be read as established. The exact cost is worth
+deriving rather than quoting, since it is the reason the shortcut is hard to defend. The Shapley value needs
+$\rho^{\text{unit}}$ evaluated on every subset of workstreams,
+
+$$\bigl| 2^{\mathcal{W}} \bigr| = 2^{|\mathcal{W}|} = 2^{6} = 64$$
+
+and each evaluation is one pass over 496 units. Since the exact Shapley attribution therefore requires only
+sixty-four corpus passes, the honest characterisation is that the surrogate was used for scope reasons and
+that the secondary ordering could be settled cheaply whenever it matters.
 
 The zero results are subject to the corpus caveat and are bounded above rather than asserted absent, as
 quantified in the confidence-bound section. The correct inference is not that the typed arithmetic class
@@ -924,6 +951,15 @@ The mechanic has three parts. First, when a consumer requires every element of a
 delivered capability is governed by the product form $\chi = \prod_i \mathbf{1}[\,\cdot\,]$ and not by the
 sum form $\rho^{\text{inst}} = \frac{1}{N}\sum_i \mathbf{1}[\,\cdot\,]$, so per-element progress measures
 overstate delivered capability by the gap $\Gamma$, which grows with the dispersion of the missing elements.
+**That claim has computable extremes and is worth pinning down.** With $Q = N(1 - \rho^{\text{inst}})$
+missing instances distributed over $M$ units, the number of blocked units is bounded by
+
+$$\Bigl\lceil Q / L_{\max} \Bigr\rceil \ \le\ \bigl| \{ m : \chi(c_m, S) = 0 \} \bigr| \ \le\ \min(Q, M)$$
+
+**In the present case $Q = 9{,}318$ against $M = 496$, so maximal dispersion would block every unit**,
+giving $\rho^{\text{unit}} = 0$ and $\Gamma = \rho^{\text{inst}} = 0.8731$. The observed 328 blocked units
+and $\Gamma = 0.5344$ therefore sit well inside the dispersed extreme,
+**which is the same fact the clustering coefficient of 5.51 reports and is an independent way of seeing it.**
 Second, the natural ordering heuristics available to an implementer, which are implementation cost $\kappa$,
 architectural elegance, and dependency depth, are all properties of elements considered in isolation, and
 none carries information about $|B(\iota, S)|$. Third, the corrective is a frequency measurement over a
@@ -937,8 +973,15 @@ independent of the cost of the work being ordered.
 The observation is old. [Knuth 1971][research_knuth_1971] measured a corpus of FORTRAN programs precisely
 because the profession's assumptions about which constructs mattered were untested, and [Amdahl
 1967][research_amdahl_1967] had already given the arithmetic showing that effort spent outside the dominant
-term is bounded above by a small number regardless of how well it is spent, a bound [Gustafson
-1988][research_gustafson_1988] later reframed without dissolving. The present article adds only that the
+term is bounded above by a small number regardless of how well it is spent. Writing $f$ for the fraction of
+the work the improvement touches and $s$ for how much faster that fraction becomes,
+
+$$\text{speedup} = \frac{1}{(1 - f) + f/s} \ \xrightarrow[\ s \to \infty\ ]{} \ \frac{1}{1 - f}$$
+
+so an improvement addressing half the work cannot exceed a factor of two **however good it is**, a bound
+[Gustafson 1988][research_gustafson_1988] later reframed without dissolving.
+**The parallel to the present case is exact.** An instruction that blocks nothing is a term with $f = 0$,
+and no quality of implementation raises its contribution above zero. The present article adds only that the
 same asymmetry applies to feature ordering under a conjunctive consumer, that the dominant term is not
 visible from the structure of the work, and that the conjunction makes the objective supermodular so that no
 approximation guarantee is available to substitute for the measurement.

@@ -23,7 +23,7 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 of an unstated total, titled Compiler Backend Bring-Up: Blocking Frequency as the Ordering Principle
 for Instruction-Set Coverage.
 
-1,135 lines, 47 display equations, 88 references, roughly 10,500 words. **Imported from
+1,178 lines, 54 display equations, 88 references, roughly 10,800 words. **Imported from
 `keleusma-worktrees/llvm-backend-spike/tmp/`, brought to blog standards and retargeted for a general
 audience**, both on human-pilot instruction. Committed, **not pushed**, not published.
 
@@ -71,6 +71,21 @@ characters, and the added prose was hard-wrapped, which produced thirty lines wi
 break. The corpus invariant is that bold never spans a line break, satisfied by every other article
 either by not wrapping or by wrapping around it, so the body now wraps at 108 characters with bold
 kept atomic.
+
+**The equation review added seven relations and padded nothing**, since the analytical essay genre
+carries equations only where a real quantitative relationship exists. All seven were named or relied
+on by the prose without being shown. **Submodularity was named as the false theorem and never
+written**, so a reader could not see what the reversed inequality actually was, and the classical
+greedy guarantee it would have bought at 0.632 was invoked by name and never stated. **The
+sixty-four corpus passes were quoted as a cost and are now derived** as two to the sixth over the
+workstream powerset. The rule of three appeared as three over n with no indication of where the three
+comes from, and is now derived from the binomial. **Amdahl was cited for arithmetic that was not
+shown**, and the parallel is now explicit, since an instruction that blocks nothing is a term with
+zero fraction and no quality of implementation raises it. **The claim that the coverage gap grows with
+dispersion is now bounded**, and the bound is illuminating: with 9,318 missing instances over 496
+units, maximal dispersion would block every unit, so the observed 328 blocked sits well inside that
+extreme and says the same thing the clustering coefficient of 5.51 says by a different route. Jensen's
+inequality was used and called a convexity shortcut without being named.
 
 **Outstanding and awaiting the pilot.** Whether siblings in the `keleusma_native` series are planned,
 since the navigation currently reads Part 1 of 1.
