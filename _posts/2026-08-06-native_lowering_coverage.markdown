@@ -1105,196 +1105,198 @@ body of work is placed by what it says about the ordering question.
 **Backend bring-up used to be a rare activity performed by a few vendors, and it is now routine.** An open
 instruction set with a ratified extension mechanism means anyone can add instructions, and the surrounding
 literature covers custom extension design, automatic extension identification, application-specific
-processors, accelerator compilation and vectorisation, in
-[A proposed synthesis method for Application-Specific...][research_horvath_2015],
-[Accelerating H.264/HEVC video slice processing using...][research_mandal_2015],
-[Automatic complex instruction identification for...][research_nery_2015],
-[Efficient Compilation for Application Specific...][research_sohl_2015],
-[FPGA-based SHA-3 acceleration on a 32-bit processor via...][research_wang_2015],
-[Fast and accurate power estimation for...][research_hesselbarth_2015],
-[ISA customization for application specific instruction...][research_singh_2015],
-[Implementing an Application-Specific Instruction-Set...][research_heo_2015],
-[Timing speculation-aware instruction set extension for...][research_ahmed_2015],
-[A Domain-Specific Compiler for a Parallel Multiresolution...][research_rajbhandari_2016],
-[A RISC-V instruction set processor-micro-architecture...][research_raveendran_2016],
-[A basic linear algebra compiler for structured matrices][research_spampinato_2016],
-[An Application-Specific Instruction Set Processor for...][research_vaas_2016],
-[Application specific instruction set processor for sensor...][research_sisto_2016],
-[Development of a Code Generation Support System in...][research_kwon_2016],
-[Exploring Compiler Optimization Opportunities for the...][research_hayashi_2016],
-[Hardware implementation of a SHA-3 application-specific...][research_elmohr_2016],
-[Matlab to C Compilation Targeting Application Specific...][research_latifis_2016],
-[Oolong: A Baseband processor extension to the RISC-V ISA][research_melo_2016],
-[Outer-Loop Auto-Vectorization for SIMD Architectures...][research_dong_2016],
-[Regression Test Suites Optimization for...][research_zachariaova_2016],
-[SHA-3 Instruction Set Extension for A 32-bit RISC...][research_eissa_2016],
-[Vectorization in PyPy's Tracing Just-In-Time Compiler][research_plangger_2016],
-[Video SIMDBench: Benchmarking the Compiler Vectorization...][research_alvanos_2016],
-[A Domain-Specific Language and Compiler for...][research_yu_2017],
-[A MATLAB Vectorizing Compiler Targeting...][research_latifis_2017],
-[Application-Specific Instruction Set Processors for Video...][research_kim_2017],
-[Automatic generation of fast BLAS3-GEMM: A portable...][research_su_2017],
-[Compiler Techniques for Efficient MATLAB to OpenCL Code...][research_reis_2017],
-[Compiler auto-vectorization of matrix multiplication...][research_lambert_2017],
-[Design of an Application Specific Instruction Set...][research_xiao_2017],
-[Domain specific compiler for coordinated signal...][research_li_2017],
-[Instruction set extension and hardware acceleration for...][research_pang_2017],
-[Intermediate-Code Generation][research_mogensen_2017], [Machine-Code Generation][research_mogensen_2017_b],
-[Metacasanova: an optimized meta-compiler for...][research_digiacomo_2017],
-[Metamodeling and Code Generation in the Hardware/Software...][research_ecker_2017],
-[Polyhedral Compiler Technology in Collaboration with...][research_hall_2017],
-[SuperGraph-SLP Auto-Vectorization][research_porpodas_2017],
-[A compiler for cyber-physical digital microfluidic...][research_curtis_2018],
-[A low-cost synthesizable RISC-V dual-issue processor core...][research_patsidis_2018],
-[An application specific instruction set processor (ASIP)...][research_hu_2018],
-[Automatic Configurable Hardware Code Generation for...][research_tsoeunyane_2018],
-[CAnDL: a domain specific language for compiler analysis][research_ginsbach_2018],
-[COpt: A High Level Domain-Specific Language to Generate...][research_venkat_2018],
-[Design and Simulation Of 64-Bit Hybrid Processor...][research_ms_2018],
-[Design of RLWE Cryptoprocessor Based on...][research_zhang_2018],
-[Dominance-based duplication simulation (DBDS): code...][research_leopoldseder_2018],
-[Optimization of Specific Instruction Set Processor for...][research_lei_2018],
-[System on Chip Implementation of Compiler Stack with a...][research_ismael_2018],
-[A compiler architecture for domain-specific type error...][research_serrano_2019],
-[An Application-Specific VLIW Processor with Vector...][research_bytyn_2019],
-[An Application-specific Instruction Set Processor for...][research_brenes_2019],
-[An Efficient Application Specific Instruction Set...][research_huang_2019],
-[Application Specific Instruction Set Processor Design for...][research_samal_2019],
-[Compiler-Assisted Selection of Hardware Acceleration...][research_zacharopoulos_2019],
-[Compiler-support for Critical Data Persistence in NVM][research_elkhouly_2019],
-[Enhancing Python Compiler Error Messages via Stack][research_thiselton_2019],
-[Proposal of Scalable Vector Extension for Embedded RISC-V...][research_kimura_2019],
-[Research on Instruction Set Architecture of 40-Bit...][research_anon_2019],
-[Translating CUDA to OpenCL for Hardware Generation using...][research_kim_2019],
-[A Compiler Comparison in the RISC-V Ecosystem][research_poorhosseini_2020],
-[Agile Autotuning of a Transprecision Tensor Accelerator...][research_diamantopoulos_2020],
-[BOSON - Application-Specific Instruction Set Processor...][research_mazurek_2020],
-[Lightweight Cryptographic Instruction Set Extension on...][research_eisenkraemer_2020],
-[Really Embedding Domain-Specific Languages into C++][research_finkel_2020],
-[A RISC-V Post Quantum Cryptography Instruction Set...][research_nannipieri_2021],
-[An Agile Instruction Set Extension Method Based on the...][research_hu_2021],
-[An Interval Compiler for Sound Floating-Point Computations][research_rivera_2021],
-[Compact native code generation for dynamic languages on...][research_jamieson_2021],
-[Development of RISC-V Based Soft-core Processor with...][research_kimura_2021],
-[Exploring the RISC-V Vector Extension for the Classic...][research_pircher_2021],
-[MLIR: Scaling Compiler Infrastructure for Domain Specific...][research_lattner_2021],
-[RISC-VTF: RISC-V Based Extended Instruction Set for...][research_jiao_2021],
-[Relaxed Peephole Optimization: A Novel Compiler...][research_liu_2021],
-[SSA Form and Code Generation][research_dupontdedinech_2021],
-[Variable Bit-Precision Vector Extension for RISC-V Based...][research_rk_2021],
-[A Compiler for Sound Floating-Point Computations using...][research_rivera_2022],
-[A Pluggable Vector Unit for RISC-V Vector Extension][research_maisto_2022],
-[A Trigonometric Function Instruction Set Extension Method...][research_gao_2022],
-[An Efficient Application Specific Instruction Set...][research_liu_2022],
-[Audio Denoising Coprocessor Based on RISC-V Custom...][research_yuan_2022],
-[Automatic compiler/interpreter generation from programs...][research_kovacevic_2022],
-[Automating Cryptographic Code Generation][research_yarom_2022],
-[Backward Graph Construction and Lowering in DL Compiler...][research_kwon_2022],
-[Bratter: An Instruction Set Extension for Forward...][research_park_2022],
-[Communications Signal Processing Using RISC-V Vector...][research_razilov_2022],
-[Design of RISC Processor with IEEE754 Standard...][research_ozkilbac_2022],
-[Effective Performance Modeling and Domain-Specific...][research_xu_2022],
-[Efficient Support of the Scan Vector Model for RISC-V...][research_lai_2022],
-[Just-In-Time Compiler System in Aspect-Oriented...][research_ishimura_2022],
-[Lowering Barriers to Application Development With...][research_perezalvarez_2022],
-[MLIR-based code generation for GPU tensor cores][research_katel_2022],
-[OpenASIP 2.0: Co-Design Toolset for RISC-V...][research_hepola_2022],
-[RVVRadar: A Framework for Supporting the Programmer in...][research_klemmer_2022],
-["A Multi-Pass Compiler with Code Optimized Abstract...][research_odim_2023],
-[A RISC-V Instruction Set Extension for Flexible...][research_lozachmeur_2023],
-[A buffer overflow detection and defense method based on...][research_liu_2023],
-[An extension to the RISC-V instruction set architecture...][research_jones_2023],
-[Artifact for Lifting Code Generation of Cardiac...][research_thangamani_2023],
-[Automatically Localizing Dynamic Code Generation Bugs in...][research_lim_2023],
-[Building a domain-specific compiler for emerging...][research_li_2023],
-[Design and Implementation of a Compiler Supporting RISC-V...][research_zou_2023],
-[Design, development and testing of a 16-bit reduced...][research_jain_2023],
-[Efficient Compiler Design for a Geometric Shape...][research_gupta_2023],
-[Evaluating RISC-V Vector Instruction Set Architecture...][research_li_2023_b],
-[Flexible and Efficient Implementation of CRYSTALS-KYBER...][research_zhang_2023],
-[FlowPix: Accelerating Image Processing Pipelines on an...][research_choudhury_2023],
-[Implementation and Reliability Evaluation of a RISC-V...][research_imianosky_2023],
-[Integration of a Real-Time CCSDS 410.0-B-32...][research_kuo_2023],
-[JIT Compiler Security through Low-Cost RISC-V Extension][research_ducasse_2023],
-[Lifting Code Generation of Cardiac Physiology Simulation...][research_thangamani_2023_b],
-[PEMBANGUNAN COMPILER DOMAIN SPECIFIC LANGUAGE SEBAGAI...][research_adiyoso_2023],
-[PIMFlow: Compiler and Runtime Support for CNN Models on...][research_shin_2023],
-[RISC-V Instruction Set Architecture Extensions: A Survey][research_cui_2023],
-[Resource-efficient RISC-V Vector Extension Architecture...][research_islam_2023],
-[The Design of Optimized RISC Processor for Edge...][research_oh_2023],
-[Vectorized Nonlinear Functions with the RISC-V Vector...][research_bavier_2023],
-[A Tensor Algebra Compiler for Sparse Differentiation][research_shaikhha_2024],
-[An FPGA-Based RISC-V Instruction Set Extension and Memory...][research_ibrahim_2024],
-[An MLIR-Based Compiler for Hardware Acceleration with...][research_li_2024],
-[Compile-Time Analysis of Compiler Frameworks for Query...][research_engelke_2024],
-[Compiler Testing with Relaxed Memory Models][research_geeson_2024],
-[Configurable Loop Shuffling via Instruction Set Extensions][research_cui_2024],
-[Convex: A RISC-V Instruction Set Extension Scheme for...][research_liu_2024],
-[Designing RISC-V Instruction Set Extensions for...][research_balasubramania_2024],
-[Enabling Fine-Grained Incremental Builds by Making...][research_han_2024],
-[Evaluating and optimising compiler code generation for...][research_jesus_2024],
-[Fast Template-Based Code Generation for MLIR][research_drescher_2024],
-[Fully Automatic Compiler Retargeting and CV-X-IF Hardware...][research_hepola_2024],
-[High Performance Instruction-Data Level Parallelism Based...][research_israel_2024],
-[Implementation of Application Specific Instruction set...][research_deole_2024],
-[Improving the Accuracy of Batik Classification using Deep...][research_dzulqarnain_2024],
-[Intermediate-Code Generation][research_mogensen_2024],
-[LLVM Library for a Dedicated Processor Instruction Set –...][research_zubert_2024],
-[Machine-Code Generation][research_mogensen_2024_b],
-[RVCE-FAL: A RISC-V Scalar-Vector Custom Extension for...][research_yu_2024],
-[Special Session: Reliability and Performance Evaluation...][research_imianosky_2024],
-[Whose Baseline Compiler is it Anyway?][research_titzer_2024],
-[eCC++ : A Compiler Construction Framework for Embedded...][research_tallada_2024],
-[A Domain-Specific Compiler for Embedded DSP Development...][research_zhu_2025],
-[A Graph-Based Learning Framework for Compiler Loop...][research_xiao_2025],
-[A RISC-V Vector Extension for Multi-word Arithmetic][research_lan_2025],
-[A Way to Identify Potential Functions for Vectorization...][research_stojkovic_2025],
-[AI Edge Processor Using RISC - V Instruction Set...][research_borade_2025],
-[Accelerating Machine Learning using RISC-V Vector...][research_nunes_2025],
-[Accelerating Machine Learning with RISC-V Vector...][research_nunes_2025_b],
-[Accelerating NTT with RISC-V Vector Extension for Fully...][research_rodrigues_2025],
-[Acceleration of McEliece Cryptosystem with Instruction...][research_kennedy_2025],
-[Analysis of the RISC-V Vector Extension for Vulkan...][research_troiber_2025],
-[Application-Specific Instruction Set Processor][research_chakravarthi_2025],
-[Compiler-Like Code Generation for fUML: Reducing Overhead...][research_hammer_2025],
-[Efficient TinyML Inference on a Fault-Tolerant RISC-V SoC...][research_imianosky_2025],
-[Eight-Bit Vector SoftFloat Extension for the RISC-V Spike...][research_marcelli_2025],
-[Fast Interpreter-Based Instruction Set Simulation for...][research_schlagl_2025],
-[Finding Bugs in MLIR Compiler Infrastructure via Lowering...][research_liang_2025],
-[Functional Validation of the RISC-V Unlimited Vector...][research_fernandes_2025],
-[Key Operator Vectorization for LeNet and ResNet Based on...][research_chen_2025],
-[Logic Gate Network Inference Acceleration with RISC-V...][research_wang_2025],
-[Low-Power Implementation of DSP Instruction Set Extension...][research_li_2025],
-[Microarchitecture Design and Benchmarking of Custom SHA-3...][research_bolat_2025],
-[Optimizing TinyEngine for the RISC-V Vector Extension][research_tan_2025],
-[Performance Evaluation of CNN using RISC-V Vector...][research_okawara_2025],
-[RI-MAC: Optimising MAC Operation Using Custom RISC-V...][research_longchar_2025],
-[RISC-TAE: Instruction Set Extension for Transformer Model...][research_liu_2025],
-[RISC-V SIMD Instructions - Vector Extension (Load/Store)][research_b_2025],
-[RISC‐V Processor Hardware Modelling with Custom...][research_antony_2025],
-[Research on RISC-V-based Edge Convolution Acceleration...][research_luan_2025],
-[SySTeC: A Symmetric Sparse Tensor Compiler][research_patel_2025],
-[Tensor Program Optimization for the RISC-V Vector...][research_peccia_2025],
-[TinyML Unleashed: Accelerating TensorFlow Lite Micro...][research_mahmoudi_2025],
-[A Reinforcement Learning Environment for Automatic Code...][research_tirichine_2026],
-[An Embedded RISC-V Vector Extension for Edge-Oriented...][research_corral_2026],
-[CKTI: A Domain-Specific Compiler for Lowering CUDA...][research_shi_2026],
-[CREF-Lang: A domain-specific language and compiler for...][research_undheim_2026],
-[Compiler-ASR: Bridging the IR-to-Assembly Gap for...][research_zhang_2026],
-[Compiler-Assisted Instruction Fusion][research_reddy_2026],
-[Design Space Exploration of RISC-V Vector Extension...][research_nunes_2026],
-[Enabling Automatic Compiler-Driven Vectorization of...][research_alladi_2026],
-[Evaluation and Benefit Modeling of Auto-Vectorization...][research_yao_2026],
-[Exploring Instruction Set Extension Emulation for...][research_gorius_2026],
-[FPGA-Based ORB Accelerator: Effects of Compiler...][research_rostum_2026],
-[FWHT-RVV: A RISC-V vector processor with FWHT instruction...][research_lv_2026],
-[Hikami: A Lightweight Hypervisor for Emulating RISC-V...][research_takana_2026],
-[Instruction Set Optimization for FM-Type Digital Signal...][research_ayeoribe_2026],
-[PERFORMANCE EVALUATION OF THE UETRV-PCORE USING RISC-V...][research_zia_2026],
-[TPDE: A Fast Adaptable Compiler Back-End Framework][research_schwarz_2026],
-[Thinking Fast and Correct: Automated Rewriting of...][research_qian_2026],
-[TinyGen: Portable and Compact Code Generation for Tiny...][research_ko_2026],
-[Vmxdotp: A RISC-V Vector ISA Extension for Efficient...][research_wipfli_2026].
+processors, accelerator compilation and vectorisation.
+
+- [A proposed synthesis method for Application-Specific...][research_horvath_2015]
+- [Accelerating H.264/HEVC video slice processing using...][research_mandal_2015]
+- [Automatic complex instruction identification for...][research_nery_2015]
+- [Efficient Compilation for Application Specific...][research_sohl_2015]
+- [FPGA-based SHA-3 acceleration on a 32-bit processor via...][research_wang_2015]
+- [Fast and accurate power estimation for...][research_hesselbarth_2015]
+- [ISA customization for application specific instruction...][research_singh_2015]
+- [Implementing an Application-Specific Instruction-Set...][research_heo_2015]
+- [Timing speculation-aware instruction set extension for...][research_ahmed_2015]
+- [A Domain-Specific Compiler for a Parallel Multiresolution...][research_rajbhandari_2016]
+- [A RISC-V instruction set processor-micro-architecture...][research_raveendran_2016]
+- [A basic linear algebra compiler for structured matrices][research_spampinato_2016]
+- [An Application-Specific Instruction Set Processor for...][research_vaas_2016]
+- [Application specific instruction set processor for sensor...][research_sisto_2016]
+- [Development of a Code Generation Support System in...][research_kwon_2016]
+- [Exploring Compiler Optimization Opportunities for the...][research_hayashi_2016]
+- [Hardware implementation of a SHA-3 application-specific...][research_elmohr_2016]
+- [Matlab to C Compilation Targeting Application Specific...][research_latifis_2016]
+- [Oolong: A Baseband processor extension to the RISC-V ISA][research_melo_2016]
+- [Outer-Loop Auto-Vectorization for SIMD Architectures...][research_dong_2016]
+- [Regression Test Suites Optimization for...][research_zachariaova_2016]
+- [SHA-3 Instruction Set Extension for A 32-bit RISC...][research_eissa_2016]
+- [Vectorization in PyPy's Tracing Just-In-Time Compiler][research_plangger_2016]
+- [Video SIMDBench: Benchmarking the Compiler Vectorization...][research_alvanos_2016]
+- [A Domain-Specific Language and Compiler for...][research_yu_2017]
+- [A MATLAB Vectorizing Compiler Targeting...][research_latifis_2017]
+- [Application-Specific Instruction Set Processors for Video...][research_kim_2017]
+- [Automatic generation of fast BLAS3-GEMM: A portable...][research_su_2017]
+- [Compiler Techniques for Efficient MATLAB to OpenCL Code...][research_reis_2017]
+- [Compiler auto-vectorization of matrix multiplication...][research_lambert_2017]
+- [Design of an Application Specific Instruction Set...][research_xiao_2017]
+- [Domain specific compiler for coordinated signal...][research_li_2017]
+- [Instruction set extension and hardware acceleration for...][research_pang_2017]
+- [Intermediate-Code Generation][research_mogensen_2017]
+- [Machine-Code Generation][research_mogensen_2017_b]
+- [Metacasanova: an optimized meta-compiler for...][research_digiacomo_2017]
+- [Metamodeling and Code Generation in the Hardware/Software...][research_ecker_2017]
+- [Polyhedral Compiler Technology in Collaboration with...][research_hall_2017]
+- [SuperGraph-SLP Auto-Vectorization][research_porpodas_2017]
+- [A compiler for cyber-physical digital microfluidic...][research_curtis_2018]
+- [A low-cost synthesizable RISC-V dual-issue processor core...][research_patsidis_2018]
+- [An application specific instruction set processor (ASIP)...][research_hu_2018]
+- [Automatic Configurable Hardware Code Generation for...][research_tsoeunyane_2018]
+- [CAnDL: a domain specific language for compiler analysis][research_ginsbach_2018]
+- [COpt: A High Level Domain-Specific Language to Generate...][research_venkat_2018]
+- [Design and Simulation Of 64-Bit Hybrid Processor...][research_ms_2018]
+- [Design of RLWE Cryptoprocessor Based on...][research_zhang_2018]
+- [Dominance-based duplication simulation (DBDS): code...][research_leopoldseder_2018]
+- [Optimization of Specific Instruction Set Processor for...][research_lei_2018]
+- [System on Chip Implementation of Compiler Stack with a...][research_ismael_2018]
+- [A compiler architecture for domain-specific type error...][research_serrano_2019]
+- [An Application-Specific VLIW Processor with Vector...][research_bytyn_2019]
+- [An Application-specific Instruction Set Processor for...][research_brenes_2019]
+- [An Efficient Application Specific Instruction Set...][research_huang_2019]
+- [Application Specific Instruction Set Processor Design for...][research_samal_2019]
+- [Compiler-Assisted Selection of Hardware Acceleration...][research_zacharopoulos_2019]
+- [Compiler-support for Critical Data Persistence in NVM][research_elkhouly_2019]
+- [Enhancing Python Compiler Error Messages via Stack][research_thiselton_2019]
+- [Proposal of Scalable Vector Extension for Embedded RISC-V...][research_kimura_2019]
+- [Research on Instruction Set Architecture of 40-Bit...][research_anon_2019]
+- [Translating CUDA to OpenCL for Hardware Generation using...][research_kim_2019]
+- [A Compiler Comparison in the RISC-V Ecosystem][research_poorhosseini_2020]
+- [Agile Autotuning of a Transprecision Tensor Accelerator...][research_diamantopoulos_2020]
+- [BOSON - Application-Specific Instruction Set Processor...][research_mazurek_2020]
+- [Lightweight Cryptographic Instruction Set Extension on...][research_eisenkraemer_2020]
+- [Really Embedding Domain-Specific Languages into C++][research_finkel_2020]
+- [A RISC-V Post Quantum Cryptography Instruction Set...][research_nannipieri_2021]
+- [An Agile Instruction Set Extension Method Based on the...][research_hu_2021]
+- [An Interval Compiler for Sound Floating-Point Computations][research_rivera_2021]
+- [Compact native code generation for dynamic languages on...][research_jamieson_2021]
+- [Development of RISC-V Based Soft-core Processor with...][research_kimura_2021]
+- [Exploring the RISC-V Vector Extension for the Classic...][research_pircher_2021]
+- [MLIR: Scaling Compiler Infrastructure for Domain Specific...][research_lattner_2021]
+- [RISC-VTF: RISC-V Based Extended Instruction Set for...][research_jiao_2021]
+- [Relaxed Peephole Optimization: A Novel Compiler...][research_liu_2021]
+- [SSA Form and Code Generation][research_dupontdedinech_2021]
+- [Variable Bit-Precision Vector Extension for RISC-V Based...][research_rk_2021]
+- [A Compiler for Sound Floating-Point Computations using...][research_rivera_2022]
+- [A Pluggable Vector Unit for RISC-V Vector Extension][research_maisto_2022]
+- [A Trigonometric Function Instruction Set Extension Method...][research_gao_2022]
+- [An Efficient Application Specific Instruction Set...][research_liu_2022]
+- [Audio Denoising Coprocessor Based on RISC-V Custom...][research_yuan_2022]
+- [Automatic compiler/interpreter generation from programs...][research_kovacevic_2022]
+- [Automating Cryptographic Code Generation][research_yarom_2022]
+- [Backward Graph Construction and Lowering in DL Compiler...][research_kwon_2022]
+- [Bratter: An Instruction Set Extension for Forward...][research_park_2022]
+- [Communications Signal Processing Using RISC-V Vector...][research_razilov_2022]
+- [Design of RISC Processor with IEEE754 Standard...][research_ozkilbac_2022]
+- [Effective Performance Modeling and Domain-Specific...][research_xu_2022]
+- [Efficient Support of the Scan Vector Model for RISC-V...][research_lai_2022]
+- [Just-In-Time Compiler System in Aspect-Oriented...][research_ishimura_2022]
+- [Lowering Barriers to Application Development With...][research_perezalvarez_2022]
+- [MLIR-based code generation for GPU tensor cores][research_katel_2022]
+- [OpenASIP 2.0: Co-Design Toolset for RISC-V...][research_hepola_2022]
+- [RVVRadar: A Framework for Supporting the Programmer in...][research_klemmer_2022]
+- ["A Multi-Pass Compiler with Code Optimized Abstract...][research_odim_2023]
+- [A RISC-V Instruction Set Extension for Flexible...][research_lozachmeur_2023]
+- [A buffer overflow detection and defense method based on...][research_liu_2023]
+- [An extension to the RISC-V instruction set architecture...][research_jones_2023]
+- [Artifact for Lifting Code Generation of Cardiac...][research_thangamani_2023]
+- [Automatically Localizing Dynamic Code Generation Bugs in...][research_lim_2023]
+- [Building a domain-specific compiler for emerging...][research_li_2023]
+- [Design and Implementation of a Compiler Supporting RISC-V...][research_zou_2023]
+- [Design, development and testing of a 16-bit reduced...][research_jain_2023]
+- [Efficient Compiler Design for a Geometric Shape...][research_gupta_2023]
+- [Evaluating RISC-V Vector Instruction Set Architecture...][research_li_2023_b]
+- [Flexible and Efficient Implementation of CRYSTALS-KYBER...][research_zhang_2023]
+- [FlowPix: Accelerating Image Processing Pipelines on an...][research_choudhury_2023]
+- [Implementation and Reliability Evaluation of a RISC-V...][research_imianosky_2023]
+- [Integration of a Real-Time CCSDS 410.0-B-32...][research_kuo_2023]
+- [JIT Compiler Security through Low-Cost RISC-V Extension][research_ducasse_2023]
+- [Lifting Code Generation of Cardiac Physiology Simulation...][research_thangamani_2023_b]
+- [PEMBANGUNAN COMPILER DOMAIN SPECIFIC LANGUAGE SEBAGAI...][research_adiyoso_2023]
+- [PIMFlow: Compiler and Runtime Support for CNN Models on...][research_shin_2023]
+- [RISC-V Instruction Set Architecture Extensions: A Survey][research_cui_2023]
+- [Resource-efficient RISC-V Vector Extension Architecture...][research_islam_2023]
+- [The Design of Optimized RISC Processor for Edge...][research_oh_2023]
+- [Vectorized Nonlinear Functions with the RISC-V Vector...][research_bavier_2023]
+- [A Tensor Algebra Compiler for Sparse Differentiation][research_shaikhha_2024]
+- [An FPGA-Based RISC-V Instruction Set Extension and Memory...][research_ibrahim_2024]
+- [An MLIR-Based Compiler for Hardware Acceleration with...][research_li_2024]
+- [Compile-Time Analysis of Compiler Frameworks for Query...][research_engelke_2024]
+- [Compiler Testing with Relaxed Memory Models][research_geeson_2024]
+- [Configurable Loop Shuffling via Instruction Set Extensions][research_cui_2024]
+- [Convex: A RISC-V Instruction Set Extension Scheme for...][research_liu_2024]
+- [Designing RISC-V Instruction Set Extensions for...][research_balasubramania_2024]
+- [Enabling Fine-Grained Incremental Builds by Making...][research_han_2024]
+- [Evaluating and optimising compiler code generation for...][research_jesus_2024]
+- [Fast Template-Based Code Generation for MLIR][research_drescher_2024]
+- [Fully Automatic Compiler Retargeting and CV-X-IF Hardware...][research_hepola_2024]
+- [High Performance Instruction-Data Level Parallelism Based...][research_israel_2024]
+- [Implementation of Application Specific Instruction set...][research_deole_2024]
+- [Improving the Accuracy of Batik Classification using Deep...][research_dzulqarnain_2024]
+- [Intermediate-Code Generation][research_mogensen_2024]
+- [LLVM Library for a Dedicated Processor Instruction Set –...][research_zubert_2024]
+- [Machine-Code Generation][research_mogensen_2024_b]
+- [RVCE-FAL: A RISC-V Scalar-Vector Custom Extension for...][research_yu_2024]
+- [Special Session: Reliability and Performance Evaluation...][research_imianosky_2024]
+- [Whose Baseline Compiler is it Anyway?][research_titzer_2024]
+- [eCC++ : A Compiler Construction Framework for Embedded...][research_tallada_2024]
+- [A Domain-Specific Compiler for Embedded DSP Development...][research_zhu_2025]
+- [A Graph-Based Learning Framework for Compiler Loop...][research_xiao_2025]
+- [A RISC-V Vector Extension for Multi-word Arithmetic][research_lan_2025]
+- [A Way to Identify Potential Functions for Vectorization...][research_stojkovic_2025]
+- [AI Edge Processor Using RISC - V Instruction Set...][research_borade_2025]
+- [Accelerating Machine Learning using RISC-V Vector...][research_nunes_2025]
+- [Accelerating Machine Learning with RISC-V Vector...][research_nunes_2025_b]
+- [Accelerating NTT with RISC-V Vector Extension for Fully...][research_rodrigues_2025]
+- [Acceleration of McEliece Cryptosystem with Instruction...][research_kennedy_2025]
+- [Analysis of the RISC-V Vector Extension for Vulkan...][research_troiber_2025]
+- [Application-Specific Instruction Set Processor][research_chakravarthi_2025]
+- [Compiler-Like Code Generation for fUML: Reducing Overhead...][research_hammer_2025]
+- [Efficient TinyML Inference on a Fault-Tolerant RISC-V SoC...][research_imianosky_2025]
+- [Eight-Bit Vector SoftFloat Extension for the RISC-V Spike...][research_marcelli_2025]
+- [Fast Interpreter-Based Instruction Set Simulation for...][research_schlagl_2025]
+- [Finding Bugs in MLIR Compiler Infrastructure via Lowering...][research_liang_2025]
+- [Functional Validation of the RISC-V Unlimited Vector...][research_fernandes_2025]
+- [Key Operator Vectorization for LeNet and ResNet Based on...][research_chen_2025]
+- [Logic Gate Network Inference Acceleration with RISC-V...][research_wang_2025]
+- [Low-Power Implementation of DSP Instruction Set Extension...][research_li_2025]
+- [Microarchitecture Design and Benchmarking of Custom SHA-3...][research_bolat_2025]
+- [Optimizing TinyEngine for the RISC-V Vector Extension][research_tan_2025]
+- [Performance Evaluation of CNN using RISC-V Vector...][research_okawara_2025]
+- [RI-MAC: Optimising MAC Operation Using Custom RISC-V...][research_longchar_2025]
+- [RISC-TAE: Instruction Set Extension for Transformer Model...][research_liu_2025]
+- [RISC-V SIMD Instructions - Vector Extension (Load/Store)][research_b_2025]
+- [RISC‐V Processor Hardware Modelling with Custom...][research_antony_2025]
+- [Research on RISC-V-based Edge Convolution Acceleration...][research_luan_2025]
+- [SySTeC: A Symmetric Sparse Tensor Compiler][research_patel_2025]
+- [Tensor Program Optimization for the RISC-V Vector...][research_peccia_2025]
+- [TinyML Unleashed: Accelerating TensorFlow Lite Micro...][research_mahmoudi_2025]
+- [A Reinforcement Learning Environment for Automatic Code...][research_tirichine_2026]
+- [An Embedded RISC-V Vector Extension for Edge-Oriented...][research_corral_2026]
+- [CKTI: A Domain-Specific Compiler for Lowering CUDA...][research_shi_2026]
+- [CREF-Lang: A domain-specific language and compiler for...][research_undheim_2026]
+- [Compiler-ASR: Bridging the IR-to-Assembly Gap for...][research_zhang_2026]
+- [Compiler-Assisted Instruction Fusion][research_reddy_2026]
+- [Design Space Exploration of RISC-V Vector Extension...][research_nunes_2026]
+- [Enabling Automatic Compiler-Driven Vectorization of...][research_alladi_2026]
+- [Evaluation and Benefit Modeling of Auto-Vectorization...][research_yao_2026]
+- [Exploring Instruction Set Extension Emulation for...][research_gorius_2026]
+- [FPGA-Based ORB Accelerator: Effects of Compiler...][research_rostum_2026]
+- [FWHT-RVV: A RISC-V vector processor with FWHT instruction...][research_lv_2026]
+- [Hikami: A Lightweight Hypervisor for Emulating RISC-V...][research_takana_2026]
+- [Instruction Set Optimization for FM-Type Digital Signal...][research_ayeoribe_2026]
+- [PERFORMANCE EVALUATION OF THE UETRV-PCORE USING RISC-V...][research_zia_2026]
+- [TPDE: A Fast Adaptable Compiler Back-End Framework][research_schwarz_2026]
+- [Thinking Fast and Correct: Automated Rewriting of...][research_qian_2026]
+- [TinyGen: Portable and Compact Code Generation for Tiny...][research_ko_2026]
+- [Vmxdotp: A RISC-V Vector ISA Extension for Efficient...][research_wipfli_2026]
 
 **Every one of those projects faces the ordering question and none of the papers answers it.** The
 extension-identification work comes closest, since it selects instructions by measured frequency over a
@@ -1306,136 +1308,137 @@ The objective is a sum in that setting and a product in this one, which is the w
 
 WebAssembly is the closest thing to a natural experiment. A new target appeared, and a great many
 implementations were brought up against it more or less simultaneously, producing work on runtimes, formal
-semantics, binary size, ahead-of-time compilation and runtime bugs, in
-[Adjustable-Cost Overlays for Runtime Compilation][research_coole_2015],
-[Augmenting JavaScript JIT with ahead-of-time compilation][research_zhuykov_2015],
-[Bytecode-to-C Ahead-of-Time Compilation for Android...][research_oh_2015],
-[Error-tolerant processors: Formal specification and...][research_golnari_2015],
-[Executable Semantics for the Formal Specification and...][research_qasim_2015],
-[Formal Semantics of Runtime Monitoring, Verification...][research_chen_2015],
-[Is dynamic compilation possible for embedded systems?][research_charles_2015],
-[Javascript ahead-of-time compilation for embedded web...][research_park_2015],
-[Runtime Value Numbering: A Profiling Technique to...][research_wen_2015],
-[Automated formal verification of the refined...][research_maron_2016],
-[Modular specification and verification of a...][research_mcmillan_2016],
-[Testing-Based Formal Verification for Theorems and Its...][research_liu_2016],
-[Advanced ahead-of-time compilation for Javascript engine][research_park_2017],
-[Ahead-of-time compilation of JavaScript programs][research_zhuykov_2017],
-[DAME: Runtime-compilation for data movement][research_prabhu_2017],
-[Enhancing formal specification and verification of...][research_alrefai_2017],
-[Erratum to: Formal Description Techniques and Protocol...][research_budkowski_2017],
-[Formal Specification and Verification of Security...][research_zhioua_2017],
-[Formal verification of ABAP by Z specification][research_rodruksa_2017],
-[Hyperhierarchy of Semantics - A Formal Framework for...][research_mastroeni_2017],
-[KART – A Runtime Compilation Library for Improving HPC...][research_noack_2017],
-[Formal Specification and Verification of Self-Adaptive...][research_fakhir_2018],
-[HiPEAC compilation architecture][research_debosschere_2018],
-[Intrinsic Compilation Model to enhance Performance of...][research_aradhya_2018],
-[Reusing the Optimized Code for JavaScript Ahead-of-Time...][research_park_2018],
-[A Customized Real-Time Compilation for Motion Control in...][research_wu_2019],
-[Floating-point Semantics of Analyzed Programs][research_garoche_2019],
-[Formal Specification Technique in Smart Contract...][research_lee_2019],
-[Formal Specification and Verification of Smart Contracts][research_jiao_2019],
-[Formal specification and verification][research_merz_2019],
-[Improved Ahead-of-time Compilation of Stack-based JVM...][research_reijers_2019],
-[POSTER: Runtime Adaptations for Energy-Efficient VSLAM][research_khalufa_2019],
-[Towards a WebAssembly standalone runtime on GraalVM][research_salim_2019],
-[Analysis of WebAssembly as a Strategy to Improve...][research_oliveira_2020],
-[Conclusion: Debugging Blazor WebAssembly][research_himschoot_2020],
-[Introducing H, an Institution-Based Formal Specification...][research_diaconescu_2020],
-[Runtime prediction of high-performance computing jobs...][research_chen_2020],
-[Synchronized Shared Memory and Procedural Abstraction...][research_gretz_2020],
-[Targeting both Blazor Server and Blazor WebAssembly][research_himschoot_2020_b],
-[Valent-Blocks: Scalable High-Performance Compilation of...][research_scheidl_2020],
-[A Case Study in Formal Specification and Runtime...][research_luppen_2021],
-[A Self-certifying Compilation Framework for WebAssembly][research_namjoshi_2021],
-[Correction: A Case Study in Formal Specification and...][research_luppen_2021_b],
-[Formal Specification and Verification of MQTT Protocol in...][research_akhtar_2021],
-[HERTI: A Reinforcement Learning-Augmented System for...][research_han_2021],
-[On the Runtime and Energy Performance of WebAssembly: Is...][research_demacedo_2021],
-[Runtime Metric Analysis in NoSQL Database Performance...][research_andor_2021],
-[Twine: An Embedded Trusted Runtime for WebAssembly][research_menetrey_2021],
-[Vivienne: Relational Verification of Cryptographic...][research_tsoupidi_2021],
-[WAFL: Binary-Only WebAssembly Fuzzing with Fast Snapshots][research_haler_2021],
-[WebAssembly Module Internals: Sections and Memory Model][research_jain_2021],
-[Breaking the Vendor Lock][research_doerfert_2022],
-[Formal Verification of SUBLEQ Microcode implementing the...][research_klemmer_2022_b],
-[On JavaScript Ahead-of-Time Compilation Performance...][research_serrano_2022],
-[Potential of WebAssembly for Embedded Systems][research_wallentowitz_2022],
-[WaTZ: A Trusted WebAssembly Runtime Environment with...][research_menetrey_2022],
-[WebAssembly versus JavaScript: Energy and Runtime...][research_demacedo_2022],
-[A Comprehensive Study of Bugs in Embedded WebAssembly...][research_zheng_2023],
-[A Comprehensive Study of WebAssembly Runtime Bugs][research_wang_2023],
-[Automated WebAssembly Function Purpose Identification...][research_romano_2023],
-[CWASI: A WebAssembly Runtime Shim for Inter-function...][research_marcelino_2023],
-[Characterizing and Detecting WebAssembly Runtime Bugs][research_zhang_2023_b],
-[Formal Specification and Verification of JDK’s Identity...][research_deboer_2023],
-[Formal Verification Platform as a Service: WebAssembly...][research_deng_2023],
-[High-Performance Web Frontend Using WebAssembly][research_lyu_2023],
-[Hybrid Execution: Combining Ahead-of-Time and...][research_pichler_2023],
-[Of Ahead Time: Evaluating Disassembly of Android Apps...][research_bleier_2023],
-[Optimizing Tensor Computations: From Applications to...][research_boehm_2023],
-[Profile Guided Optimization Transfer-Learning for...][research_he_2023],
-[Studying WebAssembly and comparison of its performance...][research_rokotyanskaya_2023],
-[Support for Just-in-Time Compilation of WebAssembly for...][research_moron_2023],
-[WaVe: a verifiably secure WebAssembly sandboxing runtime][research_johnson_2023],
-[WasmSlim: Optimizing WebAssembly Binary Distribution via...][research_wen_2023],
-[When Function Inlining Meets WebAssembly...][research_romano_2023_b],
-[A Compilation of Experimental Binary Alloy Surface...][research_mazurowski_2024],
-[A Comprehensive Trusted Runtime for WebAssembly With...][research_menetrey_2024],
-[A Semantics of Structures, Unions, and Underspecified...][research_gauthier_2024],
-[Accelerating Embedded WebAssembly Based on FPGA][research_kim_2024],
-[Ahead-of-time Compilation for Diverse Samplers of...][research_madkour_2024],
-[Bringing Binary Exploitation at Port 80: Understanding C...][research_massidda_2024],
-[Challenges of Multilingual Program Specification and...][research_furia_2024],
-[Characterizing Dynamic Memory Behavior in WebAssembly...][research_qin_2024],
-[Formal Specification and Verification of MQTT Protocol...][research_talamali_2024],
-[SCALE-Ahead-Of-Time Compilation of CUDA for AMD GPUs][research_pavlidakis_2024],
-[TreeHouse: An MLIR-based Compilation Flow for Real-Time...][research_su_2024],
-[WARDuino: An embedded WebAssembly virtual machine][research_lauwaerts_2024],
-[Wapplique: Testing WebAssembly Runtime via Execution...][research_zhao_2024],
-[Wasm-Mutate: Fast and effective binary diversification...][research_cabreraarteaga_2024],
-[WebAssembly as a Fuzzing Compilation Target (Registered...][research_bauckholt_2024],
-[A QUANTITATIVE ANALYSIS OF WEBASSEMBLY INTEGRATION...][research_stepanov_2025],
-[A Two-step Approach to Find Short Compilation...][research_delatorre_2025],
-[Adaptivity in AdaptiveCpp: Optimizing Performance by...][research_alpay_2025],
-[Ahead of Time Generation for GPSA Protection in RISC-V...][research_savary_2025],
-[Application of WebAssembly for High-Performance...][research_anon_2025],
-[Archs: A WebAssembly Runtime for Cross-host Heterogeneous...][research_sun_2025],
-[Benchmarking WebAssembly for Embedded Systems][research_moron_2025],
-[Bringing Together Cross-ISA Checkpoint/Restoration and...][research_tamura_2025],
-[CWAMR: REIMAGINING A CAPABILITYBASED WEBASSEMBLY RUNTIME...][research_subramanyan_2025],
-[Calibro: Compilation-Assisted Linking-Time Binary Code...][research_liang_2025_b],
-[Detecting WebAssembly Runtime Bugs With Grammar-Guided...][research_lu_2025],
-[Distinguishability-Guided Test Program Generation for...][research_jiang_2025],
-[Ductape: Optimizing Dynamically Typed Programs Using...][research_harif_2025],
-[Ensuring Reliability in Self-Adaptive Systems: A...][research_basiturrahim_2025],
-[ForMAt: Formal Verification of Scalable Multiply and...][research_weingarten_2025],
-[Formal Specification and Verification of Smart...][research_yoon_2025],
-[FreeWavm: Enhanced WebAssembly Runtime Fuzzing Guided by...][research_qian_2025],
-[Furina: A Light-weight WebAssembly Runtime for ICS][research_lei_2025],
-[Hybrid WebAssembly-Container Orchestration in Embedded...][research_fan_2025],
-[HybridServe: Adaptive WebAssembly-Container Runtime...][research_kang_2025],
-[Investigating the Role of Formal Verification in Software...][research_masoudi_2025],
-[Lumos: Performance Characterization of WebAssembly as a...][research_marcelino_2025],
-[Performance and Usability Implications of Multiplatform...][research_kakati_2025],
-[Research of WebAssembly usage for high-performance code...][research_soluian_2025],
-[Runtime prediction model for high performance computing...][research_tian_2025],
-[Seamless Self-Healing in WebAssembly Container...][research_matsubara_2025],
-[Self-Hosted WebAssembly Runtime for Runtime-Neutral...][research_nakata_2025],
-[Specification and Formal Verification of...][research_trippel_2025],
-[Specification and Verification of a Formal Model for a...][research_anon_2025_b],
-[Typestates Specification and Verification in Frama-C][research_patte_2025],
-[WBSan: WebAssembly Bug Detection for Sanitization and...][research_wu_2025],
-[WebAssembly for Container Runtime: Are We There Yet?][research_liu_2025_b],
-[An Analysis of Modern Web Security Vulnerabilities Inside...][research_corrias_2026],
-[QJWasm: A lightweight runtime system for efficient...][research_hu_2026],
-[Stack-based static WebAssembly binary slicing and...][research_choi_2026],
-[SurtGIS: A high-performance raster geospatial analysis...][research_parra_2026],
-[Unleashing Triton on CPUs: Compilation and Runtime...][research_li_2026],
-[WARD: Efficient Memory Protection for WebAssembly on Tiny...][research_shin_2026],
-[Wasm-WCET: Worst-Case Execution-Time Analysis of...][research_seidler_2026],
-[WasmWeaver: A Framework for Runtime-Aware WebAssembly...][research_muller_2026].
+semantics, binary size, ahead-of-time compilation and runtime bugs.
+
+- [Adjustable-Cost Overlays for Runtime Compilation][research_coole_2015]
+- [Augmenting JavaScript JIT with ahead-of-time compilation][research_zhuykov_2015]
+- [Bytecode-to-C Ahead-of-Time Compilation for Android...][research_oh_2015]
+- [Error-tolerant processors: Formal specification and...][research_golnari_2015]
+- [Executable Semantics for the Formal Specification and...][research_qasim_2015]
+- [Formal Semantics of Runtime Monitoring, Verification...][research_chen_2015]
+- [Is dynamic compilation possible for embedded systems?][research_charles_2015]
+- [Javascript ahead-of-time compilation for embedded web...][research_park_2015]
+- [Runtime Value Numbering: A Profiling Technique to...][research_wen_2015]
+- [Automated formal verification of the refined...][research_maron_2016]
+- [Modular specification and verification of a...][research_mcmillan_2016]
+- [Testing-Based Formal Verification for Theorems and Its...][research_liu_2016]
+- [Advanced ahead-of-time compilation for Javascript engine][research_park_2017]
+- [Ahead-of-time compilation of JavaScript programs][research_zhuykov_2017]
+- [DAME: Runtime-compilation for data movement][research_prabhu_2017]
+- [Enhancing formal specification and verification of...][research_alrefai_2017]
+- [Erratum to: Formal Description Techniques and Protocol...][research_budkowski_2017]
+- [Formal Specification and Verification of Security...][research_zhioua_2017]
+- [Formal verification of ABAP by Z specification][research_rodruksa_2017]
+- [Hyperhierarchy of Semantics - A Formal Framework for...][research_mastroeni_2017]
+- [KART – A Runtime Compilation Library for Improving HPC...][research_noack_2017]
+- [Formal Specification and Verification of Self-Adaptive...][research_fakhir_2018]
+- [HiPEAC compilation architecture][research_debosschere_2018]
+- [Intrinsic Compilation Model to enhance Performance of...][research_aradhya_2018]
+- [Reusing the Optimized Code for JavaScript Ahead-of-Time...][research_park_2018]
+- [A Customized Real-Time Compilation for Motion Control in...][research_wu_2019]
+- [Floating-point Semantics of Analyzed Programs][research_garoche_2019]
+- [Formal Specification Technique in Smart Contract...][research_lee_2019]
+- [Formal Specification and Verification of Smart Contracts][research_jiao_2019]
+- [Formal specification and verification][research_merz_2019]
+- [Improved Ahead-of-time Compilation of Stack-based JVM...][research_reijers_2019]
+- [POSTER: Runtime Adaptations for Energy-Efficient VSLAM][research_khalufa_2019]
+- [Towards a WebAssembly standalone runtime on GraalVM][research_salim_2019]
+- [Analysis of WebAssembly as a Strategy to Improve...][research_oliveira_2020]
+- [Conclusion: Debugging Blazor WebAssembly][research_himschoot_2020]
+- [Introducing H, an Institution-Based Formal Specification...][research_diaconescu_2020]
+- [Runtime prediction of high-performance computing jobs...][research_chen_2020]
+- [Synchronized Shared Memory and Procedural Abstraction...][research_gretz_2020]
+- [Targeting both Blazor Server and Blazor WebAssembly][research_himschoot_2020_b]
+- [Valent-Blocks: Scalable High-Performance Compilation of...][research_scheidl_2020]
+- [A Case Study in Formal Specification and Runtime...][research_luppen_2021]
+- [A Self-certifying Compilation Framework for WebAssembly][research_namjoshi_2021]
+- [Correction: A Case Study in Formal Specification and...][research_luppen_2021_b]
+- [Formal Specification and Verification of MQTT Protocol in...][research_akhtar_2021]
+- [HERTI: A Reinforcement Learning-Augmented System for...][research_han_2021]
+- [On the Runtime and Energy Performance of WebAssembly: Is...][research_demacedo_2021]
+- [Runtime Metric Analysis in NoSQL Database Performance...][research_andor_2021]
+- [Twine: An Embedded Trusted Runtime for WebAssembly][research_menetrey_2021]
+- [Vivienne: Relational Verification of Cryptographic...][research_tsoupidi_2021]
+- [WAFL: Binary-Only WebAssembly Fuzzing with Fast Snapshots][research_haler_2021]
+- [WebAssembly Module Internals: Sections and Memory Model][research_jain_2021]
+- [Breaking the Vendor Lock][research_doerfert_2022]
+- [Formal Verification of SUBLEQ Microcode implementing the...][research_klemmer_2022_b]
+- [On JavaScript Ahead-of-Time Compilation Performance...][research_serrano_2022]
+- [Potential of WebAssembly for Embedded Systems][research_wallentowitz_2022]
+- [WaTZ: A Trusted WebAssembly Runtime Environment with...][research_menetrey_2022]
+- [WebAssembly versus JavaScript: Energy and Runtime...][research_demacedo_2022]
+- [A Comprehensive Study of Bugs in Embedded WebAssembly...][research_zheng_2023]
+- [A Comprehensive Study of WebAssembly Runtime Bugs][research_wang_2023]
+- [Automated WebAssembly Function Purpose Identification...][research_romano_2023]
+- [CWASI: A WebAssembly Runtime Shim for Inter-function...][research_marcelino_2023]
+- [Characterizing and Detecting WebAssembly Runtime Bugs][research_zhang_2023_b]
+- [Formal Specification and Verification of JDK’s Identity...][research_deboer_2023]
+- [Formal Verification Platform as a Service: WebAssembly...][research_deng_2023]
+- [High-Performance Web Frontend Using WebAssembly][research_lyu_2023]
+- [Hybrid Execution: Combining Ahead-of-Time and...][research_pichler_2023]
+- [Of Ahead Time: Evaluating Disassembly of Android Apps...][research_bleier_2023]
+- [Optimizing Tensor Computations: From Applications to...][research_boehm_2023]
+- [Profile Guided Optimization Transfer-Learning for...][research_he_2023]
+- [Studying WebAssembly and comparison of its performance...][research_rokotyanskaya_2023]
+- [Support for Just-in-Time Compilation of WebAssembly for...][research_moron_2023]
+- [WaVe: a verifiably secure WebAssembly sandboxing runtime][research_johnson_2023]
+- [WasmSlim: Optimizing WebAssembly Binary Distribution via...][research_wen_2023]
+- [When Function Inlining Meets WebAssembly...][research_romano_2023_b]
+- [A Compilation of Experimental Binary Alloy Surface...][research_mazurowski_2024]
+- [A Comprehensive Trusted Runtime for WebAssembly With...][research_menetrey_2024]
+- [A Semantics of Structures, Unions, and Underspecified...][research_gauthier_2024]
+- [Accelerating Embedded WebAssembly Based on FPGA][research_kim_2024]
+- [Ahead-of-time Compilation for Diverse Samplers of...][research_madkour_2024]
+- [Bringing Binary Exploitation at Port 80: Understanding C...][research_massidda_2024]
+- [Challenges of Multilingual Program Specification and...][research_furia_2024]
+- [Characterizing Dynamic Memory Behavior in WebAssembly...][research_qin_2024]
+- [Formal Specification and Verification of MQTT Protocol...][research_talamali_2024]
+- [SCALE-Ahead-Of-Time Compilation of CUDA for AMD GPUs][research_pavlidakis_2024]
+- [TreeHouse: An MLIR-based Compilation Flow for Real-Time...][research_su_2024]
+- [WARDuino: An embedded WebAssembly virtual machine][research_lauwaerts_2024]
+- [Wapplique: Testing WebAssembly Runtime via Execution...][research_zhao_2024]
+- [Wasm-Mutate: Fast and effective binary diversification...][research_cabreraarteaga_2024]
+- [WebAssembly as a Fuzzing Compilation Target (Registered...][research_bauckholt_2024]
+- [A QUANTITATIVE ANALYSIS OF WEBASSEMBLY INTEGRATION...][research_stepanov_2025]
+- [A Two-step Approach to Find Short Compilation...][research_delatorre_2025]
+- [Adaptivity in AdaptiveCpp: Optimizing Performance by...][research_alpay_2025]
+- [Ahead of Time Generation for GPSA Protection in RISC-V...][research_savary_2025]
+- [Application of WebAssembly for High-Performance...][research_anon_2025]
+- [Archs: A WebAssembly Runtime for Cross-host Heterogeneous...][research_sun_2025]
+- [Benchmarking WebAssembly for Embedded Systems][research_moron_2025]
+- [Bringing Together Cross-ISA Checkpoint/Restoration and...][research_tamura_2025]
+- [CWAMR: REIMAGINING A CAPABILITYBASED WEBASSEMBLY RUNTIME...][research_subramanyan_2025]
+- [Calibro: Compilation-Assisted Linking-Time Binary Code...][research_liang_2025_b]
+- [Detecting WebAssembly Runtime Bugs With Grammar-Guided...][research_lu_2025]
+- [Distinguishability-Guided Test Program Generation for...][research_jiang_2025]
+- [Ductape: Optimizing Dynamically Typed Programs Using...][research_harif_2025]
+- [Ensuring Reliability in Self-Adaptive Systems: A...][research_basiturrahim_2025]
+- [ForMAt: Formal Verification of Scalable Multiply and...][research_weingarten_2025]
+- [Formal Specification and Verification of Smart...][research_yoon_2025]
+- [FreeWavm: Enhanced WebAssembly Runtime Fuzzing Guided by...][research_qian_2025]
+- [Furina: A Light-weight WebAssembly Runtime for ICS][research_lei_2025]
+- [Hybrid WebAssembly-Container Orchestration in Embedded...][research_fan_2025]
+- [HybridServe: Adaptive WebAssembly-Container Runtime...][research_kang_2025]
+- [Investigating the Role of Formal Verification in Software...][research_masoudi_2025]
+- [Lumos: Performance Characterization of WebAssembly as a...][research_marcelino_2025]
+- [Performance and Usability Implications of Multiplatform...][research_kakati_2025]
+- [Research of WebAssembly usage for high-performance code...][research_soluian_2025]
+- [Runtime prediction model for high performance computing...][research_tian_2025]
+- [Seamless Self-Healing in WebAssembly Container...][research_matsubara_2025]
+- [Self-Hosted WebAssembly Runtime for Runtime-Neutral...][research_nakata_2025]
+- [Specification and Formal Verification of...][research_trippel_2025]
+- [Specification and Verification of a Formal Model for a...][research_anon_2025_b]
+- [Typestates Specification and Verification in Frama-C][research_patte_2025]
+- [WBSan: WebAssembly Bug Detection for Sanitization and...][research_wu_2025]
+- [WebAssembly for Container Runtime: Are We There Yet?][research_liu_2025_b]
+- [An Analysis of Modern Web Security Vulnerabilities Inside...][research_corrias_2026]
+- [QJWasm: A lightweight runtime system for efficient...][research_hu_2026]
+- [Stack-based static WebAssembly binary slicing and...][research_choi_2026]
+- [SurtGIS: A high-performance raster geospatial analysis...][research_parra_2026]
+- [Unleashing Triton on CPUs: Compilation and Runtime...][research_li_2026]
+- [WARD: Efficient Memory Protection for WebAssembly on Tiny...][research_shin_2026]
+- [Wasm-WCET: Worst-Case Execution-Time Analysis of...][research_seidler_2026]
+- [WasmWeaver: A Framework for Runtime-Aware WebAssembly...][research_muller_2026]
 
 **The interesting absence is that none of it reports a bring-up ORDER.** The specifications say what the
 instruction set is, the papers say how fast the result runs, and the sequence in which the implementers
@@ -1444,83 +1447,84 @@ built it is not treated as a research object.
 ### The middle of the compiler became shared infrastructure
 
 Lowering is now typically staged through a series of intermediate representations instead of performed in
-one step, and the infrastructure for that is common property, in
-[LAYANAN CLOUD COMPUTING BERBASIS INFRASTRUCTURE AS A...][research_wintolo_2015],
-[LLVM parallel intermediate representation][research_khaldi_2015],
-[LLVM-based communication optimizations for PGAS programs][research_hayashi_2015],
-[PENERAPAN PEMROSESAN PARALEL UNTUK MENGUJI WAKTU...][research_ngadiyono_2015],
-[Modular SDN Compiler Design with Intermediate...][research_li_2016],
-[The ARES High-Level Intermediate Representation][research_moss_2016],
-[Towards Automatic HBM Allocation Using LLVM: A Case Study...][research_khaldi_2016],
-[Multi-level physical hierarchy floorplanning using IC...][research_roze_2017],
-[A cost model for a graph-based...][research_leopoldseder_2018_b],
-[AIWC: OpenCL-Based Architecture-Independent Workload...][research_johnston_2018],
-[CLACC: Translating OpenACC to OpenMP in Clang][research_denny_2018],
-[Compiler and language design for quantum computing...][research_heim_2018],
-[Function/Kernel Vectorization via Loop Vectorizer][research_masten_2018],
-[LLVM and the Automatic Vectorization of Loops Invoking...][research_petrogalli_2018],
-[OP2-Clang: A Source-to-Source Translator Using Clang/LLVM...][research_balogh_2018],
-[OpenMP GPU Offload in Flang and LLVM][research_ozen_2018],
-[The CakeML Compiler Explorer][research_hjort_2018],
-[User-Directed Loop-Transformations in Clang][research_kruse_2018],
-[Comparing Mutation Testing at the Levels of Source Code...][research_hariri_2019],
-[Design of Cyanobyte: An Intermediate Representation to...][research_felker_2020],
-[Flexible Runtime Reconfigurable Computing Overlay...][research_shah_2020],
-[Introducing multi-level parallelism, at coarse, fine and...][research_gratien_2020],
-[LLHD: a multi-level intermediate representation for...][research_schuiki_2020],
-[Leveraging Compiler Intermediate Representation for...][research_garzella_2020],
-[Replication Package for Paper: LLHD: A Multi-level...][research_schuiki_2020_b],
-[Robust Practical Binary Optimization at Run-time using...][research_engelke_2020],
-[Static Neural Compiler Optimization via Deep...][research_mammadli_2020],
-[3CPS: The Design of an Environment-Focussed Intermediate...][research_quiring_2021],
-[A High Performance Sparse Tensor Algebra Compiler in MLIR][research_tian_2021],
-[Building SSA in a Compiler for PHP][research_biggar_2021],
-[Extending LLVM IR for DPC++ Matrix Support: A Case Study...][research_khaldi_2021],
-[Facilitating CoDesign with Automatic Code Similarity...][research_nguyen_2021],
-[Flacc: Towards OpenACC support for Fortran in the LLVM...][research_clement_2021],
-[Functional Representations of SSA][research_beringer_2021],
-[Improved Circuit Compilation for Hybrid MPC via Compiler...][research_demmler_2021],
-[Integrating a functional pattern-based IR into MLIR][research_lucke_2021],
-[Redundancy Elimination][research_chow_2021],
-[STERILIZER CHAMBER DESIGN WITH TELEGRAM-BASED INTERNET OF...][research_kusumaningrum_2021],
-[Toward an Automated Hardware Pipelining LLVM Pass...][research_leidel_2021],
-[An MLIR-based Compiler Flow for System-Level Design and...][research_agostini_2022],
-[Caffeine: CoArray Fortran Framework of Efficient...][research_rouson_2022],
-[Design of automatic aircraft parking system module...][research_kusumaningrum_2022],
-[Logic Synthesis with Design Compiler][research_chin_2022],
-[Reinforcement Learning Strategies for Compiler...][research_shahzad_2022],
-[SPNC: An Open-Source MLIR-Based Compiler for Fast...][research_sommer_2022],
-[ScaleHLS: A New Scalable High-Level Synthesis Framework...][research_ye_2022],
-[Towards Supporting Semiring in MLIR-Based COMET Compiler][research_guo_2022],
-[Unleashing the power of compiler intermediate...][research_li_2022],
-[Use of Compiler Intermediate Representation for Reverse...][research_mzid_2022],
-[ASPIRE: An Intermediate Representation for Abstract...][research_bhamidipati_2023],
-[INR-Arch: A Dataflow Architecture and Compiler for...][research_abikaram_2023],
-[Intermediate Representations][research_cooper_2023],
-[LAGrad: Statically Optimized Differentiable Programming...][research_peng_2023],
-[MLIRSmith: Random Program Generation for Fuzzing MLIR...][research_wang_2023_b],
-[Experiences Building an MLIR-Based SYCL Compiler][research_tiotto_2024],
-[Fully integrating the Flang Fortran compiler with...][research_brown_2024],
-[Fuzzing MLIR Compiler Infrastructure via Operation...][research_suo_2024],
-[MLIR-Based Homomorphic Encryption Compiler for GPU][research_nozaki_2024],
-[MLIR-to-CGRA: A Versatile MLIR-Based Compiler Framework...][research_yu_2024_b],
-[Open-Source MLIR-Based Intermediate Representation for...][research_kamkin_2024],
-[Paddle-Mlir: A Compiler Based on MLIR for Accelerating...][research_huang_2024],
-[VCNN: A compiler of CNNs based on MLIR for multi-core...][research_chen_2024],
-[An Innovation Study on Luggage Wheel Design for Seamless...][research_kurudirek_2025],
-[DESIL: Detecting Silent Bugs in MLIR Compiler...][research_suo_2025],
-[Enhancing Compiler Design for Machine Learning Workflows...][research_ankushjitendra_2025],
-[MLIR: A Panacea for ML Compiler Challenges?][research_agrawal_2025],
-[P4IRS: An intermediate representation and compiler for...][research_raveduttilucio_2025],
-[PolyMorphous: An MLIR-Based Polyhedral Compiler with Loop...][research_zhao_2025],
-[The MLIR Transform Dialect][research_lucke_2025],
-[Towards a Unified Multi-Target Mlir-Based Compiler: A...][research_letras_2025],
-[CombRewriter: Enabling Combinational Logic Simplification...][research_zheng_2026],
-[Compiling Linear Algebra Workloads from C to Quantum...][research_conte_2026],
-[GeoIR-Compiler: A Geospatial Intermediate Representation...][research_zhang_2026_b],
-[Quantum Circuit Synthesis from C via Multi-Level...][research_lancellotti_2026],
-[Quantum Oracle Synthesis from HDL Designs via Multi Level...][research_lancellotti_2026_b],
-[RV-IR: An MLIR-Based Architecture-Aware Intermediate...][research_jian_2026].
+one step, and the infrastructure for that is common property.
+
+- [LAYANAN CLOUD COMPUTING BERBASIS INFRASTRUCTURE AS A...][research_wintolo_2015]
+- [LLVM parallel intermediate representation][research_khaldi_2015]
+- [LLVM-based communication optimizations for PGAS programs][research_hayashi_2015]
+- [PENERAPAN PEMROSESAN PARALEL UNTUK MENGUJI WAKTU...][research_ngadiyono_2015]
+- [Modular SDN Compiler Design with Intermediate...][research_li_2016]
+- [The ARES High-Level Intermediate Representation][research_moss_2016]
+- [Towards Automatic HBM Allocation Using LLVM: A Case Study...][research_khaldi_2016]
+- [Multi-level physical hierarchy floorplanning using IC...][research_roze_2017]
+- [A cost model for a graph-based...][research_leopoldseder_2018_b]
+- [AIWC: OpenCL-Based Architecture-Independent Workload...][research_johnston_2018]
+- [CLACC: Translating OpenACC to OpenMP in Clang][research_denny_2018]
+- [Compiler and language design for quantum computing...][research_heim_2018]
+- [Function/Kernel Vectorization via Loop Vectorizer][research_masten_2018]
+- [LLVM and the Automatic Vectorization of Loops Invoking...][research_petrogalli_2018]
+- [OP2-Clang: A Source-to-Source Translator Using Clang/LLVM...][research_balogh_2018]
+- [OpenMP GPU Offload in Flang and LLVM][research_ozen_2018]
+- [The CakeML Compiler Explorer][research_hjort_2018]
+- [User-Directed Loop-Transformations in Clang][research_kruse_2018]
+- [Comparing Mutation Testing at the Levels of Source Code...][research_hariri_2019]
+- [Design of Cyanobyte: An Intermediate Representation to...][research_felker_2020]
+- [Flexible Runtime Reconfigurable Computing Overlay...][research_shah_2020]
+- [Introducing multi-level parallelism, at coarse, fine and...][research_gratien_2020]
+- [LLHD: a multi-level intermediate representation for...][research_schuiki_2020]
+- [Leveraging Compiler Intermediate Representation for...][research_garzella_2020]
+- [Replication Package for Paper: LLHD: A Multi-level...][research_schuiki_2020_b]
+- [Robust Practical Binary Optimization at Run-time using...][research_engelke_2020]
+- [Static Neural Compiler Optimization via Deep...][research_mammadli_2020]
+- [3CPS: The Design of an Environment-Focussed Intermediate...][research_quiring_2021]
+- [A High Performance Sparse Tensor Algebra Compiler in MLIR][research_tian_2021]
+- [Building SSA in a Compiler for PHP][research_biggar_2021]
+- [Extending LLVM IR for DPC++ Matrix Support: A Case Study...][research_khaldi_2021]
+- [Facilitating CoDesign with Automatic Code Similarity...][research_nguyen_2021]
+- [Flacc: Towards OpenACC support for Fortran in the LLVM...][research_clement_2021]
+- [Functional Representations of SSA][research_beringer_2021]
+- [Improved Circuit Compilation for Hybrid MPC via Compiler...][research_demmler_2021]
+- [Integrating a functional pattern-based IR into MLIR][research_lucke_2021]
+- [Redundancy Elimination][research_chow_2021]
+- [STERILIZER CHAMBER DESIGN WITH TELEGRAM-BASED INTERNET OF...][research_kusumaningrum_2021]
+- [Toward an Automated Hardware Pipelining LLVM Pass...][research_leidel_2021]
+- [An MLIR-based Compiler Flow for System-Level Design and...][research_agostini_2022]
+- [Caffeine: CoArray Fortran Framework of Efficient...][research_rouson_2022]
+- [Design of automatic aircraft parking system module...][research_kusumaningrum_2022]
+- [Logic Synthesis with Design Compiler][research_chin_2022]
+- [Reinforcement Learning Strategies for Compiler...][research_shahzad_2022]
+- [SPNC: An Open-Source MLIR-Based Compiler for Fast...][research_sommer_2022]
+- [ScaleHLS: A New Scalable High-Level Synthesis Framework...][research_ye_2022]
+- [Towards Supporting Semiring in MLIR-Based COMET Compiler][research_guo_2022]
+- [Unleashing the power of compiler intermediate...][research_li_2022]
+- [Use of Compiler Intermediate Representation for Reverse...][research_mzid_2022]
+- [ASPIRE: An Intermediate Representation for Abstract...][research_bhamidipati_2023]
+- [INR-Arch: A Dataflow Architecture and Compiler for...][research_abikaram_2023]
+- [Intermediate Representations][research_cooper_2023]
+- [LAGrad: Statically Optimized Differentiable Programming...][research_peng_2023]
+- [MLIRSmith: Random Program Generation for Fuzzing MLIR...][research_wang_2023_b]
+- [Experiences Building an MLIR-Based SYCL Compiler][research_tiotto_2024]
+- [Fully integrating the Flang Fortran compiler with...][research_brown_2024]
+- [Fuzzing MLIR Compiler Infrastructure via Operation...][research_suo_2024]
+- [MLIR-Based Homomorphic Encryption Compiler for GPU][research_nozaki_2024]
+- [MLIR-to-CGRA: A Versatile MLIR-Based Compiler Framework...][research_yu_2024_b]
+- [Open-Source MLIR-Based Intermediate Representation for...][research_kamkin_2024]
+- [Paddle-Mlir: A Compiler Based on MLIR for Accelerating...][research_huang_2024]
+- [VCNN: A compiler of CNNs based on MLIR for multi-core...][research_chen_2024]
+- [An Innovation Study on Luggage Wheel Design for Seamless...][research_kurudirek_2025]
+- [DESIL: Detecting Silent Bugs in MLIR Compiler...][research_suo_2025]
+- [Enhancing Compiler Design for Machine Learning Workflows...][research_ankushjitendra_2025]
+- [MLIR: A Panacea for ML Compiler Challenges?][research_agrawal_2025]
+- [P4IRS: An intermediate representation and compiler for...][research_raveduttilucio_2025]
+- [PolyMorphous: An MLIR-Based Polyhedral Compiler with Loop...][research_zhao_2025]
+- [The MLIR Transform Dialect][research_lucke_2025]
+- [Towards a Unified Multi-Target Mlir-Based Compiler: A...][research_letras_2025]
+- [CombRewriter: Enabling Combinational Logic Simplification...][research_zheng_2026]
+- [Compiling Linear Algebra Workloads from C to Quantum...][research_conte_2026]
+- [GeoIR-Compiler: A Geospatial Intermediate Representation...][research_zhang_2026_b]
+- [Quantum Circuit Synthesis from C via Multi-Level...][research_lancellotti_2026]
+- [Quantum Oracle Synthesis from HDL Designs via Multi Level...][research_lancellotti_2026_b]
+- [RV-IR: An MLIR-Based Architecture-Aware Intermediate...][research_jian_2026]
 
 **Staging multiplies the number of lowering steps and does not touch the conjunction problem.** A program
 still needs every step on its path.
@@ -1531,116 +1535,117 @@ one level up, which suggests the measure generalises and does not suggest anyone
 
 The instruction-selection tradition surveyed earlier did not stop in 1999. Selection is surveyed as a field,
 superoptimisation became practical, peephole rules are generated and verified automatically, and program
-synthesis acquired solver-based and syntax-guided formulations, in
-[A Formal Approach based on Fuzzy Logic for the...][research_koutsoumpas_2015],
-[An innovative approach for automatic generation...][research_sortino_2015],
-[Counterexample-guided simulation framework for formal...][research_patil_2015],
-[Finding Good Compiler Optimization Sets - A Case-based...][research_queirozjunior_2015],
-[Keynote talk I: Syntax-guided synthesis][research_alur_2015],
-[PERANCANGAN PENGAMANAN SERVER SECARA OTOMATIS MENGGUNAKAN...][research_kusumaningrum_2015],
-[The Correctness-Security Gap in Compiler Optimization][research_dsilva_2015],
-[Alive-FP: Automated Verification of Floating Point Based...][research_menendez_2016],
-[Automatic Testbench Generation for Simulation-based...][research_weissnegger_2016],
-[Automatic data layout generation and kernel mapping for...][research_majeti_2016],
-[Counterexample-guided diagnosis][research_riener_2016],
-[A New Functional-Logic Compiler for Curry: Sprite][research_antoy_2017],
-[Accurate quasi-P traveltimes in 3D transversely isotropic...][research_padhi_2017],
-[Automatic Generation of the AADL ALISA Verification Plan...][research_wu_2017],
-[Automatic generation of simulation workflows for system...][research_hammadi_2017],
-[Counterexample-guided approach to finding numerical...][research_nguyen_2017],
-[HSS cluster-based direct solver for acoustic wave equation][research_kostin_2017],
-[Look for the Proof to Find the Program...][research_gascon_2017],
-[Automatic security verification of mobile app...][research_costa_2018],
-[Compiler optimization for scientific computation in C/C++][research_botor_2018],
-[Fast and flexible instruction selection with constraints][research_thier_2018],
-[Synthesizing an instruction selection rule library from...][research_buchwald_2018],
-[A Survey of Automatic Generation of Source Code Comments...][research_song_2019],
-[Accurate quasi-SV traveltimes in 3D transversely...][research_padhi_2019],
-[AliveInLean: A Verified LLVM Peephole Optimization...][research_lee_2019_b],
-[Alumni’s Perception on Program Specification of ELT...][research_refnaldi_2019],
-[Automatic Verification of FSA Strategies via...][research_luo_2019],
-[Design and Development of Bridge AI bid Program based on...][research_zhang_2019],
-[FrAngel: component-based synthesis with control structures][research_shi_2019],
-[Multi-target Compiler for the Deployment of Machine...][research_castrolopez_2019],
-[An Empirical Study of Counterexample-Guided Fuzzing for...][research_yi_2020],
-[An approach to generate text-based IDEs for syntax...][research_sasano_2020],
-[Artifact for article: Exact and Approximate Methods for...][research_hu_2020],
-[Automatic Generation of Multi-Objective Polyhedral...][research_chelini_2020],
-[Automatic compiler optimization on embedded software...][research_werner_2020],
-[Boosting component-based synthesis with control structure...][research_liu_2020],
-[Dataflow-based pruning for speeding up superoptimization][research_mukherjee_2020],
-[Exact and approximate methods for proving unrealizability...][research_hu_2020_b],
-[Grammar Filtering for Syntax-Guided Synthesis][research_morton_2020],
-[Performance Improvement of Kotlin Program in...][research_sonoyama_2020],
-[Specification and automatic verification of trust-based...][research_drawel_2020],
-[Automatic Verification of Data Summaries][research_rezgui_2021],
-[Can reactive synthesis and syntax-guided synthesis be...][research_choi_2021],
-[Compression Optimization For Automatic Verification of...][research_wang_2021],
-[Counterexample Guided Inductive Repair of Reactive...][research_hussein_2021],
-[EMPIRICAL INVESTIGATION OF CLOUD, GRID AND VIRTUALIZATION...][research_ilesanmi_2021],
-[Instruction Code Selection][research_ebner_2021],
-[Multi-modal program inference: a marriage of pre-trained...][research_rahmani_2021],
-[Open-Source Memory Compiler for Automatic RRAM Generation...][research_antoniadis_2021],
-[Solver-based gradual type migration][research_phippscostin_2021],
-[Special Issue on Syntax-Guided Synthesis Preface][research_fisman_2021],
-[The Impact of Undefined Behavior on Compiler Optimization][research_shen_2021],
-[Thread-Aware Area-Efficient High-Level Synthesis Compiler...][research_kim_2021],
-[Towards a Domain-Extensible Compiler: Optimizing an Image...][research_koehler_2021],
-[When Function Signature Recovery Meets Compiler...][research_lin_2021],
-[A Novel Counterexample-Guided Inductive Synthesis...][research_ding_2022],
-[Boosting Compiler Testing via Compiler Optimization...][research_chen_2022],
-[Can reactive synthesis and syntax-guided synthesis be...][research_choi_2022],
-[Cape: compiler-aided program transformation for HTM-based...][research_zhang_2022],
-[Code Generation Techniques in Compiler Design: Conceptual...][research_akanbi_2022],
-[SRTuner: Effective Compiler Optimization Customization by...][research_park_2022_b],
-[Specification-guided component-based synthesis from...][research_mishra_2022],
-[Testing a PL/I Compiler Using Precomputation-based...][research_postema_2022],
-[Threaded Code Generation with a Meta-Tracing JIT Compiler][research_izawa_2022],
-[Towards Automatic Property Generation for SoC Security...][research_wang_2022],
-[Accurate Compiler and Optimization Independent Function...][research_mckee_2023],
-[An Automatic Generation and Verification Method of...][research_wei_2023],
-[Automatic Benchmark Generation for Object Constraint...][research_jha_2023],
-[Component‐based specification, design and verification of...][research_graics_2023],
-[Counterexample Guided Knowledge Compilation for Boolean...][research_akshay_2023],
-[Fast Compiler Optimization Flag Selection][research_peker_2023],
-[From SMT to ASP: Solver-Based Approaches to Solving...][research_bembenek_2023],
-[Introduction to Optimization][research_cooper_2023_b],
-[Modular Component-Based Quantum Circuit Synthesis][research_kang_2023],
-[Neuroevolutionary Compiler Control for Code Optimization][research_heckel_2023],
-[Optimization of production planning using integer linear...][research_astuti_2023],
-[Optimization-Aware Compiler-Level Event Profiling][research_basso_2023],
-[Relational Solver for Java Generics Type System][research_lozov_2023],
-[An Experimental Analysis of RL based Compiler...][research_nikith_2024],
-[Association Rule Learning Based Approach to Automatic...][research_ferchichi_2024],
-[DEVELOPING SITUATIONAL CONDITIONS AND PROGRAM CODES FOR...][research_atanassov_2024],
-[Passenger Queue Simulation Analysis and Optimization at...][research_putra_2024],
-[Reinforcement Learning and Data-Generation for...][research_parsert_2024],
-[Revealing Compiler Heuristics Through Automated Discovery...][research_seeker_2024],
-[Rule modeling for automatic verification of RDC-50...][research_miyamoto_2024],
-[Automatic Generation of Assertions for Security...][research_heidariiman_2025],
-[Automatic Generation of Assertions for Functional...][research_heidariiman_2025_b],
-[Automatic Test Case Generation for Jasper App HDL...][research_crepalde_2025],
-[CTDip: a diversity-guided test program synthesis approach...][research_tang_2025],
-[CompilerDream: Learning a Compiler World Model for...][research_deng_2025],
-[Counterexample-Guided Inference of Modular Specifications][research_hallahan_2025],
-[LLM Compiler: Foundation Language Models for Compiler...][research_cummins_2025],
-[MarQSim: Reconciling Determinism and Randomness in...][research_cao_2025],
-[Optimasi Pemanfaatan Air Menggunakan Program Solver di...][research_supriyatna_2025],
-[Optimization-Directed Compiler Fuzzing for Continuous...][research_kwon_2025],
-[Programming Assessment in E-Learning through Rule-Based...][research_saputro_2025],
-[SAGE-HLS: Syntax-Aware AST-Guided LLM for High-Level...][research_khan_2025],
-[Accelerating Sparse Algebra with Program Synthesis][research_desouzamagalha_2026],
-[Accelerating Syntax-Guided Program Synthesis by...][research_ye_2026],
-[An Ultralow-latency Constrained Quadratic Program (QP)...][research_jimoh_2026],
-[CHEHAB: Automatic Compiler Code Optimization for Fully...][research_seddiki_2026],
-[CPerfSmith: A Randomized C Program Generator for...][research_boda_2026],
-[Compiler-Runtime Co-operative Chain of Verification for...][research_kwon_2026],
-[Distributionally robust optimization with...][research_jin_2026],
-[Hexcute: A Compiler Framework for Automating Layout...][research_zhang_2026_c],
-[LLM-VeriOpt: Verification-Guided Reinforcement Learning...][research_fang_2026],
-[SecSwift, a Compiler-Based Framework for Software...][research_deferriere_2026],
-[Synthesizing Instruction Selection Back-Ends from ISA...][research_drescher_2026],
-[Tensor Program Superoptimization through Cost-Guided...][research_brauckmann_2026].
+synthesis acquired solver-based and syntax-guided formulations.
+
+- [A Formal Approach based on Fuzzy Logic for the...][research_koutsoumpas_2015]
+- [An innovative approach for automatic generation...][research_sortino_2015]
+- [Counterexample-guided simulation framework for formal...][research_patil_2015]
+- [Finding Good Compiler Optimization Sets - A Case-based...][research_queirozjunior_2015]
+- [Keynote talk I: Syntax-guided synthesis][research_alur_2015]
+- [PERANCANGAN PENGAMANAN SERVER SECARA OTOMATIS MENGGUNAKAN...][research_kusumaningrum_2015]
+- [The Correctness-Security Gap in Compiler Optimization][research_dsilva_2015]
+- [Alive-FP: Automated Verification of Floating Point Based...][research_menendez_2016]
+- [Automatic Testbench Generation for Simulation-based...][research_weissnegger_2016]
+- [Automatic data layout generation and kernel mapping for...][research_majeti_2016]
+- [Counterexample-guided diagnosis][research_riener_2016]
+- [A New Functional-Logic Compiler for Curry: Sprite][research_antoy_2017]
+- [Accurate quasi-P traveltimes in 3D transversely isotropic...][research_padhi_2017]
+- [Automatic Generation of the AADL ALISA Verification Plan...][research_wu_2017]
+- [Automatic generation of simulation workflows for system...][research_hammadi_2017]
+- [Counterexample-guided approach to finding numerical...][research_nguyen_2017]
+- [HSS cluster-based direct solver for acoustic wave equation][research_kostin_2017]
+- [Look for the Proof to Find the Program...][research_gascon_2017]
+- [Automatic security verification of mobile app...][research_costa_2018]
+- [Compiler optimization for scientific computation in C/C++][research_botor_2018]
+- [Fast and flexible instruction selection with constraints][research_thier_2018]
+- [Synthesizing an instruction selection rule library from...][research_buchwald_2018]
+- [A Survey of Automatic Generation of Source Code Comments...][research_song_2019]
+- [Accurate quasi-SV traveltimes in 3D transversely...][research_padhi_2019]
+- [AliveInLean: A Verified LLVM Peephole Optimization...][research_lee_2019_b]
+- [Alumni’s Perception on Program Specification of ELT...][research_refnaldi_2019]
+- [Automatic Verification of FSA Strategies via...][research_luo_2019]
+- [Design and Development of Bridge AI bid Program based on...][research_zhang_2019]
+- [FrAngel: component-based synthesis with control structures][research_shi_2019]
+- [Multi-target Compiler for the Deployment of Machine...][research_castrolopez_2019]
+- [An Empirical Study of Counterexample-Guided Fuzzing for...][research_yi_2020]
+- [An approach to generate text-based IDEs for syntax...][research_sasano_2020]
+- [Artifact for article: Exact and Approximate Methods for...][research_hu_2020]
+- [Automatic Generation of Multi-Objective Polyhedral...][research_chelini_2020]
+- [Automatic compiler optimization on embedded software...][research_werner_2020]
+- [Boosting component-based synthesis with control structure...][research_liu_2020]
+- [Dataflow-based pruning for speeding up superoptimization][research_mukherjee_2020]
+- [Exact and approximate methods for proving unrealizability...][research_hu_2020_b]
+- [Grammar Filtering for Syntax-Guided Synthesis][research_morton_2020]
+- [Performance Improvement of Kotlin Program in...][research_sonoyama_2020]
+- [Specification and automatic verification of trust-based...][research_drawel_2020]
+- [Automatic Verification of Data Summaries][research_rezgui_2021]
+- [Can reactive synthesis and syntax-guided synthesis be...][research_choi_2021]
+- [Compression Optimization For Automatic Verification of...][research_wang_2021]
+- [Counterexample Guided Inductive Repair of Reactive...][research_hussein_2021]
+- [EMPIRICAL INVESTIGATION OF CLOUD, GRID AND VIRTUALIZATION...][research_ilesanmi_2021]
+- [Instruction Code Selection][research_ebner_2021]
+- [Multi-modal program inference: a marriage of pre-trained...][research_rahmani_2021]
+- [Open-Source Memory Compiler for Automatic RRAM Generation...][research_antoniadis_2021]
+- [Solver-based gradual type migration][research_phippscostin_2021]
+- [Special Issue on Syntax-Guided Synthesis Preface][research_fisman_2021]
+- [The Impact of Undefined Behavior on Compiler Optimization][research_shen_2021]
+- [Thread-Aware Area-Efficient High-Level Synthesis Compiler...][research_kim_2021]
+- [Towards a Domain-Extensible Compiler: Optimizing an Image...][research_koehler_2021]
+- [When Function Signature Recovery Meets Compiler...][research_lin_2021]
+- [A Novel Counterexample-Guided Inductive Synthesis...][research_ding_2022]
+- [Boosting Compiler Testing via Compiler Optimization...][research_chen_2022]
+- [Can reactive synthesis and syntax-guided synthesis be...][research_choi_2022]
+- [Cape: compiler-aided program transformation for HTM-based...][research_zhang_2022]
+- [Code Generation Techniques in Compiler Design: Conceptual...][research_akanbi_2022]
+- [SRTuner: Effective Compiler Optimization Customization by...][research_park_2022_b]
+- [Specification-guided component-based synthesis from...][research_mishra_2022]
+- [Testing a PL/I Compiler Using Precomputation-based...][research_postema_2022]
+- [Threaded Code Generation with a Meta-Tracing JIT Compiler][research_izawa_2022]
+- [Towards Automatic Property Generation for SoC Security...][research_wang_2022]
+- [Accurate Compiler and Optimization Independent Function...][research_mckee_2023]
+- [An Automatic Generation and Verification Method of...][research_wei_2023]
+- [Automatic Benchmark Generation for Object Constraint...][research_jha_2023]
+- [Component‐based specification, design and verification of...][research_graics_2023]
+- [Counterexample Guided Knowledge Compilation for Boolean...][research_akshay_2023]
+- [Fast Compiler Optimization Flag Selection][research_peker_2023]
+- [From SMT to ASP: Solver-Based Approaches to Solving...][research_bembenek_2023]
+- [Introduction to Optimization][research_cooper_2023_b]
+- [Modular Component-Based Quantum Circuit Synthesis][research_kang_2023]
+- [Neuroevolutionary Compiler Control for Code Optimization][research_heckel_2023]
+- [Optimization of production planning using integer linear...][research_astuti_2023]
+- [Optimization-Aware Compiler-Level Event Profiling][research_basso_2023]
+- [Relational Solver for Java Generics Type System][research_lozov_2023]
+- [An Experimental Analysis of RL based Compiler...][research_nikith_2024]
+- [Association Rule Learning Based Approach to Automatic...][research_ferchichi_2024]
+- [DEVELOPING SITUATIONAL CONDITIONS AND PROGRAM CODES FOR...][research_atanassov_2024]
+- [Passenger Queue Simulation Analysis and Optimization at...][research_putra_2024]
+- [Reinforcement Learning and Data-Generation for...][research_parsert_2024]
+- [Revealing Compiler Heuristics Through Automated Discovery...][research_seeker_2024]
+- [Rule modeling for automatic verification of RDC-50...][research_miyamoto_2024]
+- [Automatic Generation of Assertions for Security...][research_heidariiman_2025]
+- [Automatic Generation of Assertions for Functional...][research_heidariiman_2025_b]
+- [Automatic Test Case Generation for Jasper App HDL...][research_crepalde_2025]
+- [CTDip: a diversity-guided test program synthesis approach...][research_tang_2025]
+- [CompilerDream: Learning a Compiler World Model for...][research_deng_2025]
+- [Counterexample-Guided Inference of Modular Specifications][research_hallahan_2025]
+- [LLM Compiler: Foundation Language Models for Compiler...][research_cummins_2025]
+- [MarQSim: Reconciling Determinism and Randomness in...][research_cao_2025]
+- [Optimasi Pemanfaatan Air Menggunakan Program Solver di...][research_supriyatna_2025]
+- [Optimization-Directed Compiler Fuzzing for Continuous...][research_kwon_2025]
+- [Programming Assessment in E-Learning through Rule-Based...][research_saputro_2025]
+- [SAGE-HLS: Syntax-Aware AST-Guided LLM for High-Level...][research_khan_2025]
+- [Accelerating Sparse Algebra with Program Synthesis][research_desouzamagalha_2026]
+- [Accelerating Syntax-Guided Program Synthesis by...][research_ye_2026]
+- [An Ultralow-latency Constrained Quadratic Program (QP)...][research_jimoh_2026]
+- [CHEHAB: Automatic Compiler Code Optimization for Fully...][research_seddiki_2026]
+- [CPerfSmith: A Randomized C Program Generator for...][research_boda_2026]
+- [Compiler-Runtime Co-operative Chain of Verification for...][research_kwon_2026]
+- [Distributionally robust optimization with...][research_jin_2026]
+- [Hexcute: A Compiler Framework for Automating Layout...][research_zhang_2026_c]
+- [LLM-VeriOpt: Verification-Guided Reinforcement Learning...][research_fang_2026]
+- [SecSwift, a Compiler-Based Framework for Software...][research_deferriere_2026]
+- [Synthesizing Instruction Selection Back-Ends from ISA...][research_drescher_2026]
+- [Tensor Program Superoptimization through Cost-Guided...][research_brauckmann_2026]
 
 **This is the most direct engagement with the cost side of the ordering problem and it leaves the value side untouched.**
 Synthesis makes an individual lowering cheaper to produce. In the notation used here it reduces $\kappa$ and
@@ -1651,159 +1656,160 @@ leaves $\lvert B \rvert$ exactly where it was,
 
 The conservative stance this article depends on, in which anything not provably handled is refused, is no
 longer exotic. Verified compilation, translation validation, refinement checking for optimisations and
-certified static analysis are an active field with several mature systems, in
-[A verified type system for CakeML][research_tan_2015],
-[Abstract Interpretation with Infinitesimals][research_kido_2015],
-[An optimizing compiler for a purely functional...][research_chlipala_2015],
-[Certified Abstract Interpretation with Pretty-Big-Step...][research_bodin_2015],
-[Correctness of Isabelle's Cyclicity Checker][research_kuncar_2015],
-[Machine-Checked Verification of the Correctness and...][research_chargueraud_2015],
-[Many-core compiler fuzzing][research_lidbury_2015],
-[Modular translation validation of a full-sized...][research_ngo_2015],
-[Pilsner: a compositionally verified compiler for a...][research_neis_2015],
-[Session details: Session 4A: Compiler Correctness][research_chlipala_2015_b],
-[Towards a verified compiler prototype for the synchronous...][research_yang_2015],
-[Verification by abstract interpretation, soundness and...][research_cousot_2015],
-[A Mechanical Soundness Proof for Subtyping Over Recursive...][research_jones_2016],
-[A new verified compiler backend for CakeML][research_tan_2016],
-[Abstract Interpretation of Supermodular Games][research_ranzato_2016],
-[Automated compiler optimization of multiple vector...][research_aleen_2016],
-[Bounded Abstract Interpretation][research_christakis_2016],
-[From Array Domains to Abstract Interpretation Under...][research_suzanne_2016],
-[LifeJacket: verifying precise floating-point...][research_notzli_2016],
-[Mechanizing conventional SSA for a verified destruction...][research_demange_2016],
-[ModelPlex: verified runtime validation of verified...][research_mitsch_2016],
-[Static Analysis by Abstract Interpretation of the...][research_journault_2016],
-[Static analysis of Sequential Function Charts using...][research_simon_2016],
-[Termination-checking for LLVM peephole optimizations][research_menendez_2016_b],
-[Verified construction of static single assignment form][research_buchwald_2016],
-[Verified lifting of stencil computations][research_kamil_2016],
-[Verified peephole optimizations for CompCert][research_mullen_2016],
-[A Verified CompCert Front-End for a Memory Model...][research_besson_2017],
-[A Verified Generational Garbage Collector for CakeML][research_sandbergericss_2017],
-[A formally verified compiler for Lustre][research_bourke_2017],
-[A simple soundness proof for dependent object types][research_rapoport_2017],
-[Alive-Infer: data-driven precondition inference for...][research_menendez_2017],
-[Automated Compiler Optimization of Multiple Vector...][research_aleen_2017],
-[Automated Test Case Generation from OTS/CafeOBJ...][research_mori_2017],
-[Combining Forward and Backward Abstract Interpretation of...][research_bakhirkin_2017],
-[Handling Environments in a Nested Relational Algebra with...][research_auerbach_2017],
-[Lifting proof-relevant unification to higher dimensions][research_cockx_2017],
-[Modeling Undefined Behaviour Semantics for Checking...][research_dahiya_2017],
-[Prototype implementation of the OpenGL ES 2.0 shading...][research_baek_2017],
-[Reduction of Workflow Nets for Generalised Soundness...][research_bride_2017],
-[Skeletal program enumeration for rigorous compiler testing][research_zhang_2017],
-[Taming undefined behavior in LLVM][research_lee_2017],
-[Tutorial on Static Inference of Numeric Invariants by...][research_mine_2017],
-[Verified compilation of CakeML to multiple machine-code...][research_fox_2017],
-[A Proof Score Approach to Formal Verification of an...][research_daudier_2018],
-[A Verified Compiler from Isabelle/HOL to CakeML][research_hupel_2018],
-[A Verified Generational Garbage Collector for CakeML][research_sandbergericss_2018],
-[A fully verified container library][research_polikarpova_2018],
-[A machine-checked correctness proof for Pastry][research_azmy_2018],
-[CompCertS: A Memory-Aware Verified C Compiler Using a...][research_besson_2018],
-[Compiler-agnostic Translation Validation][research_banerjee_2018],
-[Compiler-aided Type Tracking for Correctness Checking of...][research_huck_2018],
-[Delta Debugging Type Errors with a Blackbox Compiler][research_sharrad_2018],
-[HHVM JIT: a profile-guided, region-based compiler for PHP...][research_ottoni_2018],
-[Mechanising a Type-Safe Model of Multithreaded Java with...][research_lochbihler_2018],
-[Reconciling high-level optimizations and low-level code...][research_lee_2018],
-[Securing a compiler transformation][research_deng_2018],
-[Static Value Analysis of Python Programs by Abstract...][research_fromherz_2018],
-[Towards a verified Lustre compiler with modular reset][research_bourke_2018],
-[VeriPhy: verified controller executables from verified...][research_bohrer_2018],
-[A verified protocol buffer compiler][research_ye_2019],
-[Testing and Verifying Parallel Programs Using Data...][research_martinjeremymr_2019],
-[The verified CakeML compiler backend][research_kiamtan_2019],
-[Verified compilation on a verified processor][research_loow_2019],
-[A Formal Proof of the Soundness of the Hybrid CPS Clock...][research_wang_2020],
-[Compiler and runtime support for continuation marks][research_flatt_2020],
-[CoreJIT: a Replication Package for Article...][research_barriere_2020],
-[Do you have space for dessert? a verified space cost...][research_gomezlondono_2020],
-[IMPLEMENTATION OF GENETIC ALGORITHM IN COLLEGE SCHEDULING...][research_saputra_2020],
-[Implementation and Performance Evaluation of Omni Compiler][research_nakao_2020],
-[Lost In Translation: Exposing Hidden Compiler...][research_georgiou_2020],
-[On a Machine-Checked Proof for Fraction Arithmetic over a...][research_meshveliani_2020],
-[Proof pearl: Braun trees][research_nipkow_2020],
-[Testing static analyses for precision and soundness][research_taneja_2020],
-[Towards compiler-aided correctness checking of adjoint...][research_huck_2020],
-[Translation from Visual to Layout-based Android Test...][research_coppola_2020],
-[A minimalistic verified bootstrapped compiler (proof...][research_myreen_2021],
-[Accessible Formal Methods for Verified Parser Development][research_li_2021],
-[CoStar: a verified ALL(*) parser][research_lasser_2021],
-[Compiler Module of Abstract Machine Code for Formal...][research_steingartner_2021],
-[Formally verified speculation and deoptimization in a JIT...][research_barriere_2021],
-[Hyperchaining Optimizations for an LLVM-Based Binary...][research_lai_2021],
-[Lutsig: a verified Verilog compiler for verified circuit...][research_loow_2021],
-[Machine-checked ZKP for NP relations: Formally Verified...][research_almeida_2021],
-[Parallelizing Compiler Translation Validation Using...][research_han_2021_b],
-[Static Analysis of Endian Portability by Abstract...][research_delmas_2021],
-[A machine-checked direct proof of the Steiner-lehmus...][research_kellison_2022],
-[AV-AFL: A Vulnerability Detection Fuzzing Approach by...][research_godboley_2022],
-[Certified abstract machines for skeletal semantics][research_ambal_2022],
-[CirC: Compiler infrastructure for proof systems, software...][research_ozdemir_2022],
-[DISTAL: the distributed tensor algebra compiler][research_yadav_2022],
-[Gradual Soundness: Lessons from Static Python][research_lu_2022],
-[LocSeq: Automated Localization for Compiler Optimization...][research_zhou_2022],
-[Machine-checked Verification of Cognitive Agents][research_jensen_2022],
-[SMT-Based Translation Validation for Machine Learning...][research_bang_2022],
-[Simulink Model Static Analysis Results based on Abstract...][research_yang_2022],
-[The Trusted Computing Base of the CompCert Verified...][research_monniaux_2022],
-[Towards Verified Rounding Error Analysis for Stationary...][research_kellison_2022_b],
-[Verifying optimizations of concurrent programs in the...][research_zha_2022],
-[A Control Flow based Static Analysis of GRAFCET using...][research_schnakenbeck_2023],
-[A Hotspot-Driven Semi-automated Competitive Analysis...][research_mu_2023],
-[CompCert: A Journey through the Landscape of Mechanized...][research_blazy_2023],
-[Completeness in Static Analysis by Abstract...][research_monniaux_2023],
-[Enhancing LLVM Optimizations for Linear Recurrence...][research_lai_2023],
-[Formalising Sharkovsky’s Theorem (Proof Pearl)][research_mehta_2023],
-[Formally Verified Native Code Generation in an Effectful...][research_barriere_2023],
-[Formally Verifying Optimizations with Block Simulations][research_gourdin_2023],
-[Improved Assistance for Interactive Proof (Keynote)][research_kaliszyk_2023],
-[Lazy Code Transformations in a Formally Verified Compiler][research_gourdin_2023_b],
-[PureCake: A Verified Compiler for a Lazy Functional...][research_kanabar_2023],
-[Syntax-Driven Translation][research_cooper_2023_c],
-[Terms for Efficient Proof Checking and Parsing][research_farber_2023],
-[Translation Validation of Information Leakage of Compiler...][research_panigrahi_2023],
-[Verified Propagation Redundancy and Compositional UNSAT...][research_tan_2023],
-[Verifying Term Graph Optimizations using Isabelle/HOL][research_webb_2023],
-[A Mechanised and Constructive Reverse Analysis of...][research_shillito_2024],
-[A Safe Low-Level Language for Computer Algebra and Its...][research_melquiond_2024],
-[A Verified Compiler for a Functional Tensor Language][research_liu_2024_b],
-[Assuring Correctness, Testing, and Verification of...][research_sanusi_2024],
-[Automated Testing to Evaluate Employee Attendance System...][research_hafizhah_2024],
-[Enhancing Translation Validation of Compiler...][research_wang_2024],
-[Extracting Invariants from Conditional Branches for...][research_baek_2024],
-[Leveraging LLVM OpenMP GPU Offload Optimizations for...][research_gayatri_2024],
-[Memory Simulations, Security and Optimization in a...][research_monniaux_2024],
-[PfComp: A Verified Compiler for Packet Filtering...][research_chavanon_2024],
-[Refinement of Parallel Algorithms Down to LLVM: Applied...][research_lammich_2024],
-[Source code obfuscation with genetic algorithms using...][research_delatorre_2024],
-[Tinyrossa: A Compiler Framework for Vertical, Verified...][research_vrany_2024],
-[Translation Validation for JIT Compiler in the V8...][research_kwon_2024],
-[A Formal Verification Library Design for Behavioral...][research_kim_2025],
-[A Formally Verified Microcoded RISC-V Platform][research_klemmer_2025],
-[A Fully Automated Agent for End-to-End Code Translation...][research_erer_2025],
-[A Proof-Producing Compiler for Blockchain Applications][research_avigad_2025],
-[A Universal Quantum Compiler GPT: Multi-Framework...][research_petchartee_2025],
-[CIRE: LLVM Analysis for Floating-Point Rounding Error...][research_tirpankar_2025],
-[FormalGym: Deep Reinforcement Learning Agent Based Formal...][research_majumder_2025],
-[Modeling and implementation of Common LISP functional...][research_chaplygin_2025],
-[ORMorpher: An Interactive Framework for ORM Translation...][research_abraham_2025],
-[Static analysis by abstract interpretation against data...][research_urban_2025],
-[Toward a Formally Verified Compiler for a Synchronous...][research_girault_2025],
-[A Calculus for Web Services Choreography: Formal...][research_yang_2026],
-[A Rose Tree Is Blooming (Proof Pearl)][research_korkut_2026],
-[Brack: A Verified Compiler for Scheme via CakeML][research_lasnier_2026],
-[CODO: An Automated Compiler for Comprehensive Dataflow...][research_zhang_2026_d],
-[CPP '26 Artifact - Brack: A Verified Compiler for Scheme...][research_lasnier_2026_b],
-[Chariot: Compiler-Aware Heterogeneous Graph...][research_huang_2026],
-[Inductor-TV: Formal Methods for the Pytorch Compiler][research_majumder_2026],
-[Making Time Observable: Compiler Correctness for...][research_lion_2026],
-[Test case sampling optimization for safety validation of...][research_qian_2026_b],
-[Testing, Credible Compilation, and Verification in the...][research_rinard_2026],
-[Towards Verified Security: Formal Methods for LLM-Based...][research_dauksevic_2026],
-[Verified VCG and Verified Compiler for Dafny][research_nezamabadi_2026].
+certified static analysis are an active field with several mature systems.
+
+- [A verified type system for CakeML][research_tan_2015]
+- [Abstract Interpretation with Infinitesimals][research_kido_2015]
+- [An optimizing compiler for a purely functional...][research_chlipala_2015]
+- [Certified Abstract Interpretation with Pretty-Big-Step...][research_bodin_2015]
+- [Correctness of Isabelle's Cyclicity Checker][research_kuncar_2015]
+- [Machine-Checked Verification of the Correctness and...][research_chargueraud_2015]
+- [Many-core compiler fuzzing][research_lidbury_2015]
+- [Modular translation validation of a full-sized...][research_ngo_2015]
+- [Pilsner: a compositionally verified compiler for a...][research_neis_2015]
+- [Session details: Session 4A: Compiler Correctness][research_chlipala_2015_b]
+- [Towards a verified compiler prototype for the synchronous...][research_yang_2015]
+- [Verification by abstract interpretation, soundness and...][research_cousot_2015]
+- [A Mechanical Soundness Proof for Subtyping Over Recursive...][research_jones_2016]
+- [A new verified compiler backend for CakeML][research_tan_2016]
+- [Abstract Interpretation of Supermodular Games][research_ranzato_2016]
+- [Automated compiler optimization of multiple vector...][research_aleen_2016]
+- [Bounded Abstract Interpretation][research_christakis_2016]
+- [From Array Domains to Abstract Interpretation Under...][research_suzanne_2016]
+- [LifeJacket: verifying precise floating-point...][research_notzli_2016]
+- [Mechanizing conventional SSA for a verified destruction...][research_demange_2016]
+- [ModelPlex: verified runtime validation of verified...][research_mitsch_2016]
+- [Static Analysis by Abstract Interpretation of the...][research_journault_2016]
+- [Static analysis of Sequential Function Charts using...][research_simon_2016]
+- [Termination-checking for LLVM peephole optimizations][research_menendez_2016_b]
+- [Verified construction of static single assignment form][research_buchwald_2016]
+- [Verified lifting of stencil computations][research_kamil_2016]
+- [Verified peephole optimizations for CompCert][research_mullen_2016]
+- [A Verified CompCert Front-End for a Memory Model...][research_besson_2017]
+- [A Verified Generational Garbage Collector for CakeML][research_sandbergericss_2017]
+- [A formally verified compiler for Lustre][research_bourke_2017]
+- [A simple soundness proof for dependent object types][research_rapoport_2017]
+- [Alive-Infer: data-driven precondition inference for...][research_menendez_2017]
+- [Automated Compiler Optimization of Multiple Vector...][research_aleen_2017]
+- [Automated Test Case Generation from OTS/CafeOBJ...][research_mori_2017]
+- [Combining Forward and Backward Abstract Interpretation of...][research_bakhirkin_2017]
+- [Handling Environments in a Nested Relational Algebra with...][research_auerbach_2017]
+- [Lifting proof-relevant unification to higher dimensions][research_cockx_2017]
+- [Modeling Undefined Behaviour Semantics for Checking...][research_dahiya_2017]
+- [Prototype implementation of the OpenGL ES 2.0 shading...][research_baek_2017]
+- [Reduction of Workflow Nets for Generalised Soundness...][research_bride_2017]
+- [Skeletal program enumeration for rigorous compiler testing][research_zhang_2017]
+- [Taming undefined behavior in LLVM][research_lee_2017]
+- [Tutorial on Static Inference of Numeric Invariants by...][research_mine_2017]
+- [Verified compilation of CakeML to multiple machine-code...][research_fox_2017]
+- [A Proof Score Approach to Formal Verification of an...][research_daudier_2018]
+- [A Verified Compiler from Isabelle/HOL to CakeML][research_hupel_2018]
+- [A Verified Generational Garbage Collector for CakeML][research_sandbergericss_2018]
+- [A fully verified container library][research_polikarpova_2018]
+- [A machine-checked correctness proof for Pastry][research_azmy_2018]
+- [CompCertS: A Memory-Aware Verified C Compiler Using a...][research_besson_2018]
+- [Compiler-agnostic Translation Validation][research_banerjee_2018]
+- [Compiler-aided Type Tracking for Correctness Checking of...][research_huck_2018]
+- [Delta Debugging Type Errors with a Blackbox Compiler][research_sharrad_2018]
+- [HHVM JIT: a profile-guided, region-based compiler for PHP...][research_ottoni_2018]
+- [Mechanising a Type-Safe Model of Multithreaded Java with...][research_lochbihler_2018]
+- [Reconciling high-level optimizations and low-level code...][research_lee_2018]
+- [Securing a compiler transformation][research_deng_2018]
+- [Static Value Analysis of Python Programs by Abstract...][research_fromherz_2018]
+- [Towards a verified Lustre compiler with modular reset][research_bourke_2018]
+- [VeriPhy: verified controller executables from verified...][research_bohrer_2018]
+- [A verified protocol buffer compiler][research_ye_2019]
+- [Testing and Verifying Parallel Programs Using Data...][research_martinjeremymr_2019]
+- [The verified CakeML compiler backend][research_kiamtan_2019]
+- [Verified compilation on a verified processor][research_loow_2019]
+- [A Formal Proof of the Soundness of the Hybrid CPS Clock...][research_wang_2020]
+- [Compiler and runtime support for continuation marks][research_flatt_2020]
+- [CoreJIT: a Replication Package for Article...][research_barriere_2020]
+- [Do you have space for dessert? a verified space cost...][research_gomezlondono_2020]
+- [IMPLEMENTATION OF GENETIC ALGORITHM IN COLLEGE SCHEDULING...][research_saputra_2020]
+- [Implementation and Performance Evaluation of Omni Compiler][research_nakao_2020]
+- [Lost In Translation: Exposing Hidden Compiler...][research_georgiou_2020]
+- [On a Machine-Checked Proof for Fraction Arithmetic over a...][research_meshveliani_2020]
+- [Proof pearl: Braun trees][research_nipkow_2020]
+- [Testing static analyses for precision and soundness][research_taneja_2020]
+- [Towards compiler-aided correctness checking of adjoint...][research_huck_2020]
+- [Translation from Visual to Layout-based Android Test...][research_coppola_2020]
+- [A minimalistic verified bootstrapped compiler (proof...][research_myreen_2021]
+- [Accessible Formal Methods for Verified Parser Development][research_li_2021]
+- [CoStar: a verified ALL(*) parser][research_lasser_2021]
+- [Compiler Module of Abstract Machine Code for Formal...][research_steingartner_2021]
+- [Formally verified speculation and deoptimization in a JIT...][research_barriere_2021]
+- [Hyperchaining Optimizations for an LLVM-Based Binary...][research_lai_2021]
+- [Lutsig: a verified Verilog compiler for verified circuit...][research_loow_2021]
+- [Machine-checked ZKP for NP relations: Formally Verified...][research_almeida_2021]
+- [Parallelizing Compiler Translation Validation Using...][research_han_2021_b]
+- [Static Analysis of Endian Portability by Abstract...][research_delmas_2021]
+- [A machine-checked direct proof of the Steiner-lehmus...][research_kellison_2022]
+- [AV-AFL: A Vulnerability Detection Fuzzing Approach by...][research_godboley_2022]
+- [Certified abstract machines for skeletal semantics][research_ambal_2022]
+- [CirC: Compiler infrastructure for proof systems, software...][research_ozdemir_2022]
+- [DISTAL: the distributed tensor algebra compiler][research_yadav_2022]
+- [Gradual Soundness: Lessons from Static Python][research_lu_2022]
+- [LocSeq: Automated Localization for Compiler Optimization...][research_zhou_2022]
+- [Machine-checked Verification of Cognitive Agents][research_jensen_2022]
+- [SMT-Based Translation Validation for Machine Learning...][research_bang_2022]
+- [Simulink Model Static Analysis Results based on Abstract...][research_yang_2022]
+- [The Trusted Computing Base of the CompCert Verified...][research_monniaux_2022]
+- [Towards Verified Rounding Error Analysis for Stationary...][research_kellison_2022_b]
+- [Verifying optimizations of concurrent programs in the...][research_zha_2022]
+- [A Control Flow based Static Analysis of GRAFCET using...][research_schnakenbeck_2023]
+- [A Hotspot-Driven Semi-automated Competitive Analysis...][research_mu_2023]
+- [CompCert: A Journey through the Landscape of Mechanized...][research_blazy_2023]
+- [Completeness in Static Analysis by Abstract...][research_monniaux_2023]
+- [Enhancing LLVM Optimizations for Linear Recurrence...][research_lai_2023]
+- [Formalising Sharkovsky’s Theorem (Proof Pearl)][research_mehta_2023]
+- [Formally Verified Native Code Generation in an Effectful...][research_barriere_2023]
+- [Formally Verifying Optimizations with Block Simulations][research_gourdin_2023]
+- [Improved Assistance for Interactive Proof (Keynote)][research_kaliszyk_2023]
+- [Lazy Code Transformations in a Formally Verified Compiler][research_gourdin_2023_b]
+- [PureCake: A Verified Compiler for a Lazy Functional...][research_kanabar_2023]
+- [Syntax-Driven Translation][research_cooper_2023_c]
+- [Terms for Efficient Proof Checking and Parsing][research_farber_2023]
+- [Translation Validation of Information Leakage of Compiler...][research_panigrahi_2023]
+- [Verified Propagation Redundancy and Compositional UNSAT...][research_tan_2023]
+- [Verifying Term Graph Optimizations using Isabelle/HOL][research_webb_2023]
+- [A Mechanised and Constructive Reverse Analysis of...][research_shillito_2024]
+- [A Safe Low-Level Language for Computer Algebra and Its...][research_melquiond_2024]
+- [A Verified Compiler for a Functional Tensor Language][research_liu_2024_b]
+- [Assuring Correctness, Testing, and Verification of...][research_sanusi_2024]
+- [Automated Testing to Evaluate Employee Attendance System...][research_hafizhah_2024]
+- [Enhancing Translation Validation of Compiler...][research_wang_2024]
+- [Extracting Invariants from Conditional Branches for...][research_baek_2024]
+- [Leveraging LLVM OpenMP GPU Offload Optimizations for...][research_gayatri_2024]
+- [Memory Simulations, Security and Optimization in a...][research_monniaux_2024]
+- [PfComp: A Verified Compiler for Packet Filtering...][research_chavanon_2024]
+- [Refinement of Parallel Algorithms Down to LLVM: Applied...][research_lammich_2024]
+- [Source code obfuscation with genetic algorithms using...][research_delatorre_2024]
+- [Tinyrossa: A Compiler Framework for Vertical, Verified...][research_vrany_2024]
+- [Translation Validation for JIT Compiler in the V8...][research_kwon_2024]
+- [A Formal Verification Library Design for Behavioral...][research_kim_2025]
+- [A Formally Verified Microcoded RISC-V Platform][research_klemmer_2025]
+- [A Fully Automated Agent for End-to-End Code Translation...][research_erer_2025]
+- [A Proof-Producing Compiler for Blockchain Applications][research_avigad_2025]
+- [A Universal Quantum Compiler GPT: Multi-Framework...][research_petchartee_2025]
+- [CIRE: LLVM Analysis for Floating-Point Rounding Error...][research_tirpankar_2025]
+- [FormalGym: Deep Reinforcement Learning Agent Based Formal...][research_majumder_2025]
+- [Modeling and implementation of Common LISP functional...][research_chaplygin_2025]
+- [ORMorpher: An Interactive Framework for ORM Translation...][research_abraham_2025]
+- [Static analysis by abstract interpretation against data...][research_urban_2025]
+- [Toward a Formally Verified Compiler for a Synchronous...][research_girault_2025]
+- [A Calculus for Web Services Choreography: Formal...][research_yang_2026]
+- [A Rose Tree Is Blooming (Proof Pearl)][research_korkut_2026]
+- [Brack: A Verified Compiler for Scheme via CakeML][research_lasnier_2026]
+- [CODO: An Automated Compiler for Comprehensive Dataflow...][research_zhang_2026_d]
+- [CPP '26 Artifact - Brack: A Verified Compiler for Scheme...][research_lasnier_2026_b]
+- [Chariot: Compiler-Aware Heterogeneous Graph...][research_huang_2026]
+- [Inductor-TV: Formal Methods for the Pytorch Compiler][research_majumder_2026]
+- [Making Time Observable: Compiler Correctness for...][research_lion_2026]
+- [Test case sampling optimization for safety validation of...][research_qian_2026_b]
+- [Testing, Credible Compilation, and Verification in the...][research_rinard_2026]
+- [Towards Verified Security: Formal Methods for LLM-Based...][research_dauksevic_2026]
+- [Verified VCG and Verified Compiler for Dafny][research_nezamabadi_2026]
 
 **That matters to the argument in a specific way.** The product form arises because a verifying compiler
 must refuse a program containing anything it cannot lower correctly.
@@ -1814,158 +1820,160 @@ the less the result depends on one project's unusual strictness.
 
 Compiler fuzzing is one of the genuine success stories of the last fifteen years. Random program generation,
 equivalence modulo inputs, differential testing and empirical studies of compiler bugs have found very large
-numbers of real defects, in [An Empirical Study of Bug Fixing Rate][research_zou_2015],
-[An Empirical Study on Real Bug Fixes][research_zhong_2015],
-[Finding deep compiler bugs via guided stochastic program...][research_le_2015],
-[Test program generation for mixed-signal integrated...][research_mosin_2015],
-[An application of metamorphic testing for testing...][research_ding_2016],
-[An empirical study on how expert knowledge affects bug...][research_rodeghero_2016],
-[Efficient Program Tracing and Monitoring Through Power...][research_moreno_2016],
-[From Android Bug Reports to Android Bug Handling Process][research_yu_2016],
-[How Are Discussions Associated with Bug Reworking?][research_zhao_2016],
-[Metamorphic testing for (graphics) compilers][research_donaldson_2016],
-[Random testing of C compilers based on test program...][research_nakamura_2016],
-[A XOR data compiler: Combined with physical unclonable...][research_cambou_2017],
-[Are tweets useful in the bug fixing process? An empirical...][research_mezouar_2017],
-[Bug Propagation through Code Cloning: An Empirical Study][research_mondal_2017],
-[Common Bug-Fix Patterns: A Large-Scale Observational Study][research_campos_2017],
-[Empirical Study on Software Bug Prediction][research_rizwan_2017],
-[Experience Report: Security Vulnerability Profiles of...][research_gosevapopstoja_2017],
-[Faster mutation analysis via equivalence modulo states][research_wang_2017],
-[Metamorphic Testing for Adobe Data Analytics Software][research_jarman_2017],
-[PENERAPAN EIGENFACE UNTUK COMPUTER BASED TEST (CBT)...][research_sajati_2017],
-[Understanding Key Features of High-Impact Bug Reports][research_karim_2017],
-[An Empirical Study of Multi-entity Changes in Real Bug...][research_wang_2018],
-[Empirical study on developer factors affecting tossing...][research_wu_2018],
-[Equivalence Class Testing][research_jorgensen_2018],
-[Fault detection effectiveness of source test case...][research_saha_2018],
-[Finding missed compiler optimizations by differential...][research_barany_2018],
-[INSTRIM: Lightweight Instrumentation for Coverage-guided...][research_hsu_2018],
-[Not all bug reopens are negative: A case study on eclipse...][research_mi_2018],
-[Preventing duplicate bug reports by continuously querying...][research_hindle_2018],
-[Quality assurance of bioinformatics software][research_srinivasan_2018],
-[Compiler bug isolation via effective witness test program...][research_chen_2019],
-[Coverage-Guided Learning-Assisted Grammar-Based Fuzzing][research_jitsunari_2019],
-[Full-Speed Fuzzing: Reducing Fuzzing Overhead through...][research_nagy_2019],
-[Haskell Compiler Testing Automation Based on...][research_li_2019],
-[History-Guided Configuration Diversification for Compiler...][research_chen_2019_b],
-[Reinforcement-Learning-Based Test Program Generation for...][research_chen_2019_c],
-[Verifying Instruction Set Simulators using...][research_herdt_2019],
-[An Empirical Study of Bug Bounty Programs][research_walshe_2020],
-[Enhanced compiler bug isolation via memoized search][research_chen_2020_b],
-[On the relationship between bug reports and queries for...][research_mills_2020],
-[Demystifying the challenges and benefits of analyzing...][research_chen_2021],
-[EPF: An Evolutionary, Protocol-Aware, and Coverage-Guided...][research_helmke_2021],
-[How to Better Distinguish Security Bug Reports (Using...][research_shu_2021],
-[Metamorphic Testing on the Continuum of Verification and...][research_raunak_2021],
-[REST API Fuzzing by Coverage Level Guided Blackbox Testing][research_tsai_2021],
-[ReFuzz: A Remedy for Saturation in Coverage-Guided Fuzzing][research_lyu_2021],
-[Same Coverage, Less Bloat: Accelerating Binary-only...][research_nagy_2021],
-[Similarity-Aware Architecture/Compiler Co-Designed...][research_zhao_2021],
-[The forgotten role of search queries in IR-based bug...][research_rahman_2021],
-[Type-Centric Kotlin Compiler Fuzzing: Preserving Test...][research_stepanov_2021],
-[Why Some Bug-bounty Vulnerability Reports are Invalid?][research_shafigh_2021],
-[CAGFuzz: Coverage-Guided Adversarial Generative Fuzzing...][research_zhang_2022_b],
-[An Empirical Study of Aging Related Bug Prediction Using...][research_kaur_2022],
-[An Empirical Study of the Bug Link Rate][research_li_2022_b],
-[An empirical study of the effectiveness of IR-based bug...][research_li_2022_c],
-[Application of Property-based Testing Tools for...][research_alzahrani_2022],
-[Backend Bug Finder — a platform for effective compiler...][research_stepanov_2022],
-[CsmithEdge: more effective compiler testing by handling...][research_evenmendoza_2022],
-[Efficient Cross-Level Processor Verification using...][research_bruns_2022],
-[Enriching Compiler Testing with Real Program from Bug...][research_zhong_2022],
-[Fine-Grained Coverage-Based Fuzzing][research_nongpoh_2022],
-[FitM: Binary-Only Coverage-Guided Fuzzing for Stateful...][research_maier_2022],
-[High‐coverage metamorphic testing of concurrency support...][research_windsor_2022],
-[Investigating Coverage Guided Fuzzing with Mutation...][research_qian_2022],
-[Metamorphic testing in bioinformatics software][research_stacy_2022],
-[POWER: Program Option-Aware Fuzzer for High Bug Detection...][research_lee_2022],
-[Remgen: Remanufacturing a Random Program Generator for...][research_tu_2022],
-[SpinalFuzz: Coverage-Guided Fuzzing for SpinalHDL Designs][research_ruep_2022],
-[Testing ocean software with metamorphic testing][research_luu_2022],
-[Unified HW/SW Coverage: A Novel Metric to Boost...][research_bruns_2022_b],
-[Upstream bug management in Linux distributions][research_lin_2022],
-[Bug characterization in machine learning-based systems][research_morovati_2023],
-[Compiler Test-Program Generation via Memoized...][research_chen_2023],
-[Coverage-Guided Fuzzing for Plan-Based Robotics][research_meywerk_2023],
-[Finding Unstable Code via Compiler-Driven Differential...][research_li_2023_c],
-[Fuzzing Deep Learning Compilers with HirGen][research_ma_2023],
-[GrayC: Greybox Fuzzing of Compilers and Analysers for C][research_evenmendoza_2023],
-[Improve Model Testing by Integrating Bounded Model...][research_yang_2023],
-[Inferring test models from user bug reports using...][research_guizzo_2023],
-[JITfuzz: Coverage-guided Fuzzing for JVM Just-in-Time...][research_wu_2023],
-[Poster: BugOss: A Regression Bug Benchmark for Empirical...][research_kim_2023],
-[Program Reconditioning: Avoiding Undefined Behaviour When...][research_lecoeur_2023],
-[Rainfuzz: Reinforcement-Learning Driven Heat-Maps for...][research_binosi_2023],
-[RustSmith: Random Differential Compiler Testing for Rust][research_sharma_2023],
-[Silent Compiler Bug De-duplication via Three-Dimensional...][research_yang_2023_b],
-[A study of common bug fix patterns in Rust][research_robatishirzad_2024],
-[An empirical study on the potential of word embedding...][research_chen_2024_b],
-[Automated SC-MCC test case generation using...][research_golla_2024],
-[Automatic program bug fixing by focusing on finding the...][research_yousofvand_2024],
-[Boosting Compiler Testing by Injecting Real-World Code][research_li_2024_b],
-[Bug numbers matter: An empirical study of effort‐aware...][research_yang_2024],
-[CatchFuzz: Reliable active anti-fuzzing techniques...][research_kim_2024_b],
-[Compatible Branch Coverage Driven Symbolic Execution for...][research_yi_2024],
-[Compiler Bug Isolation via Enhanced Test Program Mutation][research_liu_2024_c],
-[Detecting Optimizing Compiler Bugs via History-Driven...][research_zeng_2024],
-[Diffy: Data-Driven Bug Finding for Configurations][research_kakarla_2024],
-[Discretized optimization algorithms for finding the...][research_arasteh_2024],
-[FOX: Coverage-guided Fuzzing as Online Stochastic Control][research_she_2024],
-[Fuzzing Command-line Interface by Edge Coverage Guided...][research_lu_2024],
-[Fuzzing JavaScript Interpreters with Coverage-Guided...][research_eom_2024],
-[Fuzzing guided by context-sensitive branch coverage][research_liu_2024_d],
-[History-driven Compiler Fuzzing via Assembling and...][research_fan_2024],
-[Industrial adoption of machine learning techniques for...][research_laiq_2024],
-[Inside Bug Report Templates: An Empirical Study on Bug...][research_zhang_2024],
-[Optimising Bcrypt Parameters: Finding the Optimal Number...][research_listiawan_2024],
-[RLGFuzz: Reinforcement Learning Guided Fuzzing with...][research_shen_2024],
-[Rust-twins: Automatic Rust Compiler Testing through...][research_yang_2024_b],
-[Rustlantis: Randomized Differential Testing of the Rust...][research_wang_2024_b],
-[Semantic-Type-Guided Bug Finding][research_qian_2024],
-[Testing Error Handling Code With Software Fault Injection...][research_bai_2024],
-[Testing the Unknown: A Framework for OpenMP Testing via...][research_laguna_2024],
-[When Compiler Optimizations Meet Symbolic Execution: An...][research_zhang_2024_b],
-[Automated Test Generation from Program Documentation...][research_denaro_2025],
-[BoostPolyGlot: A Structured IR Generation-Based Fuzz...][research_liu_2025_c],
-[CBGF: Callback Coverage Guided Fuzzing][research_hwang_2025],
-[Can We Enhance Bug Report Quality Using LLMs?: An...][research_acharya_2025],
-[Compiler Optimization Testing Based on...][research_wu_2025_b],
-[DeepUIFuzz: A Guided Fuzzing Strategy for Testing UI...][research_chowdhury_2025],
-[Differential Fuzzing Go Compilers using LLMs: A...][research_terres_2025],
-[Finding Compiler Bugs through Cross-Language Code...][research_feng_2025],
-[From Bug Reports to Workarounds: The Real-World Impact of...][research_he_2025],
-[Fuzzing JavaScript JIT compilers with a high-quality...][research_li_2025_b],
-[GrammLLM: Grammar-Guided LLM Test Generation for Compiler...][research_talaat_2025],
-[HFuzz: Havoc Mode Guided Fuzzing][research_xie_2025],
-[Hybrid Equivalence/Non-Equivalence Testing][research_sarker_2025],
-[Interleaving Large Language Models for Compiler Testing][research_ni_2025],
-[IntraFuzz: Coverage-Guided Intra-Enclave Fuzzing for...][research_cui_2025],
-[MALintent: Coverage Guided Intent Fuzzing Framework for...][research_askar_2025],
-[Metamorphic Relation Patterns for Metamorphic Testing...][research_ying_2025],
-[Research on coverage-guided fuzzing technique based on...][research_ma_2025],
-[SSFuzz: Synthesizing and scheduling bug-triggering code...][research_hu_2025],
-[Scalable SMT Sampling for Floating-Point Formulas via...][research_carrasco_2025],
-[Shepherd: High-Precision Coverage Inference for...][research_shimizu_2025],
-[Solsmith: Solidity Random Program Generator for Compiler...][research_li_2025_c],
-[Symbolic MRD: Dynamic Memory, Undefined Behaviour, and...][research_richards_2025],
-[Synchronized Behavior Checking: A Method for Finding...][research_zhang_2025],
-[Testing Autonomous Driving Systems Through Blind-Spot...][research_moussa_2025],
-[An Empirical Comparison of Human and LLM-Assisted Bug...][research_nasui_2026],
-[An exploratory study of bug-introducing changes...][research_schulte_2026],
-[Automated Inference of Expressive Metamorphic Relations...][research_nolasco_2026],
-[Batch Me If You Can: Coverage-Guided RPKI Fuzzing at Scale][research_schulmann_2026],
-[Coverage-Guided Multi-Agent Harness Generation for Java...][research_loose_2026],
-[Detecting Compiler-Introduced Security Bugs via IR...][research_oh_2026],
-[Grammar-Aware Coverage-Guided Fuzzing with Grammarinator...][research_hodovan_2026],
-[How Effective Is Coverage-Guided Fuzzing to Test Deep...][research_qin_2026],
-[QEMI: A Quantum Software Stacks Testing Framework via...][research_luo_2026],
-[TYPEFUZZ: Type Coverage Directed JavaScript Engine...][research_wienand_2026],
-[TenSure: Fuzzing Sparse Tensor Compilers (Registered...][research_mahathevan_2026],
-[Towards Path-Aware Coverage-Guided Fuzzing][research_priamo_2026],
-[Understanding Bug-Reproducing Tests: A First Empirical...][research_hora_2026],
-[Understanding and Finding JIT Compiler Performance Bugs][research_yi_2026],
-[WuppieFuzz: Coverage-Guided, Stateful REST API Fuzzing][research_rooijakkers_2026].
+numbers of real defects.
+
+- [An Empirical Study of Bug Fixing Rate][research_zou_2015]
+- [An Empirical Study on Real Bug Fixes][research_zhong_2015]
+- [Finding deep compiler bugs via guided stochastic program...][research_le_2015]
+- [Test program generation for mixed-signal integrated...][research_mosin_2015]
+- [An application of metamorphic testing for testing...][research_ding_2016]
+- [An empirical study on how expert knowledge affects bug...][research_rodeghero_2016]
+- [Efficient Program Tracing and Monitoring Through Power...][research_moreno_2016]
+- [From Android Bug Reports to Android Bug Handling Process][research_yu_2016]
+- [How Are Discussions Associated with Bug Reworking?][research_zhao_2016]
+- [Metamorphic testing for (graphics) compilers][research_donaldson_2016]
+- [Random testing of C compilers based on test program...][research_nakamura_2016]
+- [A XOR data compiler: Combined with physical unclonable...][research_cambou_2017]
+- [Are tweets useful in the bug fixing process? An empirical...][research_mezouar_2017]
+- [Bug Propagation through Code Cloning: An Empirical Study][research_mondal_2017]
+- [Common Bug-Fix Patterns: A Large-Scale Observational Study][research_campos_2017]
+- [Empirical Study on Software Bug Prediction][research_rizwan_2017]
+- [Experience Report: Security Vulnerability Profiles of...][research_gosevapopstoja_2017]
+- [Faster mutation analysis via equivalence modulo states][research_wang_2017]
+- [Metamorphic Testing for Adobe Data Analytics Software][research_jarman_2017]
+- [PENERAPAN EIGENFACE UNTUK COMPUTER BASED TEST (CBT)...][research_sajati_2017]
+- [Understanding Key Features of High-Impact Bug Reports][research_karim_2017]
+- [An Empirical Study of Multi-entity Changes in Real Bug...][research_wang_2018]
+- [Empirical study on developer factors affecting tossing...][research_wu_2018]
+- [Equivalence Class Testing][research_jorgensen_2018]
+- [Fault detection effectiveness of source test case...][research_saha_2018]
+- [Finding missed compiler optimizations by differential...][research_barany_2018]
+- [INSTRIM: Lightweight Instrumentation for Coverage-guided...][research_hsu_2018]
+- [Not all bug reopens are negative: A case study on eclipse...][research_mi_2018]
+- [Preventing duplicate bug reports by continuously querying...][research_hindle_2018]
+- [Quality assurance of bioinformatics software][research_srinivasan_2018]
+- [Compiler bug isolation via effective witness test program...][research_chen_2019]
+- [Coverage-Guided Learning-Assisted Grammar-Based Fuzzing][research_jitsunari_2019]
+- [Full-Speed Fuzzing: Reducing Fuzzing Overhead through...][research_nagy_2019]
+- [Haskell Compiler Testing Automation Based on...][research_li_2019]
+- [History-Guided Configuration Diversification for Compiler...][research_chen_2019_b]
+- [Reinforcement-Learning-Based Test Program Generation for...][research_chen_2019_c]
+- [Verifying Instruction Set Simulators using...][research_herdt_2019]
+- [An Empirical Study of Bug Bounty Programs][research_walshe_2020]
+- [Enhanced compiler bug isolation via memoized search][research_chen_2020_b]
+- [On the relationship between bug reports and queries for...][research_mills_2020]
+- [Demystifying the challenges and benefits of analyzing...][research_chen_2021]
+- [EPF: An Evolutionary, Protocol-Aware, and Coverage-Guided...][research_helmke_2021]
+- [How to Better Distinguish Security Bug Reports (Using...][research_shu_2021]
+- [Metamorphic Testing on the Continuum of Verification and...][research_raunak_2021]
+- [REST API Fuzzing by Coverage Level Guided Blackbox Testing][research_tsai_2021]
+- [ReFuzz: A Remedy for Saturation in Coverage-Guided Fuzzing][research_lyu_2021]
+- [Same Coverage, Less Bloat: Accelerating Binary-only...][research_nagy_2021]
+- [Similarity-Aware Architecture/Compiler Co-Designed...][research_zhao_2021]
+- [The forgotten role of search queries in IR-based bug...][research_rahman_2021]
+- [Type-Centric Kotlin Compiler Fuzzing: Preserving Test...][research_stepanov_2021]
+- [Why Some Bug-bounty Vulnerability Reports are Invalid?][research_shafigh_2021]
+- [CAGFuzz: Coverage-Guided Adversarial Generative Fuzzing...][research_zhang_2022_b]
+- [An Empirical Study of Aging Related Bug Prediction Using...][research_kaur_2022]
+- [An Empirical Study of the Bug Link Rate][research_li_2022_b]
+- [An empirical study of the effectiveness of IR-based bug...][research_li_2022_c]
+- [Application of Property-based Testing Tools for...][research_alzahrani_2022]
+- [Backend Bug Finder — a platform for effective compiler...][research_stepanov_2022]
+- [CsmithEdge: more effective compiler testing by handling...][research_evenmendoza_2022]
+- [Efficient Cross-Level Processor Verification using...][research_bruns_2022]
+- [Enriching Compiler Testing with Real Program from Bug...][research_zhong_2022]
+- [Fine-Grained Coverage-Based Fuzzing][research_nongpoh_2022]
+- [FitM: Binary-Only Coverage-Guided Fuzzing for Stateful...][research_maier_2022]
+- [High‐coverage metamorphic testing of concurrency support...][research_windsor_2022]
+- [Investigating Coverage Guided Fuzzing with Mutation...][research_qian_2022]
+- [Metamorphic testing in bioinformatics software][research_stacy_2022]
+- [POWER: Program Option-Aware Fuzzer for High Bug Detection...][research_lee_2022]
+- [Remgen: Remanufacturing a Random Program Generator for...][research_tu_2022]
+- [SpinalFuzz: Coverage-Guided Fuzzing for SpinalHDL Designs][research_ruep_2022]
+- [Testing ocean software with metamorphic testing][research_luu_2022]
+- [Unified HW/SW Coverage: A Novel Metric to Boost...][research_bruns_2022_b]
+- [Upstream bug management in Linux distributions][research_lin_2022]
+- [Bug characterization in machine learning-based systems][research_morovati_2023]
+- [Compiler Test-Program Generation via Memoized...][research_chen_2023]
+- [Coverage-Guided Fuzzing for Plan-Based Robotics][research_meywerk_2023]
+- [Finding Unstable Code via Compiler-Driven Differential...][research_li_2023_c]
+- [Fuzzing Deep Learning Compilers with HirGen][research_ma_2023]
+- [GrayC: Greybox Fuzzing of Compilers and Analysers for C][research_evenmendoza_2023]
+- [Improve Model Testing by Integrating Bounded Model...][research_yang_2023]
+- [Inferring test models from user bug reports using...][research_guizzo_2023]
+- [JITfuzz: Coverage-guided Fuzzing for JVM Just-in-Time...][research_wu_2023]
+- [Poster: BugOss: A Regression Bug Benchmark for Empirical...][research_kim_2023]
+- [Program Reconditioning: Avoiding Undefined Behaviour When...][research_lecoeur_2023]
+- [Rainfuzz: Reinforcement-Learning Driven Heat-Maps for...][research_binosi_2023]
+- [RustSmith: Random Differential Compiler Testing for Rust][research_sharma_2023]
+- [Silent Compiler Bug De-duplication via Three-Dimensional...][research_yang_2023_b]
+- [A study of common bug fix patterns in Rust][research_robatishirzad_2024]
+- [An empirical study on the potential of word embedding...][research_chen_2024_b]
+- [Automated SC-MCC test case generation using...][research_golla_2024]
+- [Automatic program bug fixing by focusing on finding the...][research_yousofvand_2024]
+- [Boosting Compiler Testing by Injecting Real-World Code][research_li_2024_b]
+- [Bug numbers matter: An empirical study of effort‐aware...][research_yang_2024]
+- [CatchFuzz: Reliable active anti-fuzzing techniques...][research_kim_2024_b]
+- [Compatible Branch Coverage Driven Symbolic Execution for...][research_yi_2024]
+- [Compiler Bug Isolation via Enhanced Test Program Mutation][research_liu_2024_c]
+- [Detecting Optimizing Compiler Bugs via History-Driven...][research_zeng_2024]
+- [Diffy: Data-Driven Bug Finding for Configurations][research_kakarla_2024]
+- [Discretized optimization algorithms for finding the...][research_arasteh_2024]
+- [FOX: Coverage-guided Fuzzing as Online Stochastic Control][research_she_2024]
+- [Fuzzing Command-line Interface by Edge Coverage Guided...][research_lu_2024]
+- [Fuzzing JavaScript Interpreters with Coverage-Guided...][research_eom_2024]
+- [Fuzzing guided by context-sensitive branch coverage][research_liu_2024_d]
+- [History-driven Compiler Fuzzing via Assembling and...][research_fan_2024]
+- [Industrial adoption of machine learning techniques for...][research_laiq_2024]
+- [Inside Bug Report Templates: An Empirical Study on Bug...][research_zhang_2024]
+- [Optimising Bcrypt Parameters: Finding the Optimal Number...][research_listiawan_2024]
+- [RLGFuzz: Reinforcement Learning Guided Fuzzing with...][research_shen_2024]
+- [Rust-twins: Automatic Rust Compiler Testing through...][research_yang_2024_b]
+- [Rustlantis: Randomized Differential Testing of the Rust...][research_wang_2024_b]
+- [Semantic-Type-Guided Bug Finding][research_qian_2024]
+- [Testing Error Handling Code With Software Fault Injection...][research_bai_2024]
+- [Testing the Unknown: A Framework for OpenMP Testing via...][research_laguna_2024]
+- [When Compiler Optimizations Meet Symbolic Execution: An...][research_zhang_2024_b]
+- [Automated Test Generation from Program Documentation...][research_denaro_2025]
+- [BoostPolyGlot: A Structured IR Generation-Based Fuzz...][research_liu_2025_c]
+- [CBGF: Callback Coverage Guided Fuzzing][research_hwang_2025]
+- [Can We Enhance Bug Report Quality Using LLMs?: An...][research_acharya_2025]
+- [Compiler Optimization Testing Based on...][research_wu_2025_b]
+- [DeepUIFuzz: A Guided Fuzzing Strategy for Testing UI...][research_chowdhury_2025]
+- [Differential Fuzzing Go Compilers using LLMs: A...][research_terres_2025]
+- [Finding Compiler Bugs through Cross-Language Code...][research_feng_2025]
+- [From Bug Reports to Workarounds: The Real-World Impact of...][research_he_2025]
+- [Fuzzing JavaScript JIT compilers with a high-quality...][research_li_2025_b]
+- [GrammLLM: Grammar-Guided LLM Test Generation for Compiler...][research_talaat_2025]
+- [HFuzz: Havoc Mode Guided Fuzzing][research_xie_2025]
+- [Hybrid Equivalence/Non-Equivalence Testing][research_sarker_2025]
+- [Interleaving Large Language Models for Compiler Testing][research_ni_2025]
+- [IntraFuzz: Coverage-Guided Intra-Enclave Fuzzing for...][research_cui_2025]
+- [MALintent: Coverage Guided Intent Fuzzing Framework for...][research_askar_2025]
+- [Metamorphic Relation Patterns for Metamorphic Testing...][research_ying_2025]
+- [Research on coverage-guided fuzzing technique based on...][research_ma_2025]
+- [SSFuzz: Synthesizing and scheduling bug-triggering code...][research_hu_2025]
+- [Scalable SMT Sampling for Floating-Point Formulas via...][research_carrasco_2025]
+- [Shepherd: High-Precision Coverage Inference for...][research_shimizu_2025]
+- [Solsmith: Solidity Random Program Generator for Compiler...][research_li_2025_c]
+- [Symbolic MRD: Dynamic Memory, Undefined Behaviour, and...][research_richards_2025]
+- [Synchronized Behavior Checking: A Method for Finding...][research_zhang_2025]
+- [Testing Autonomous Driving Systems Through Blind-Spot...][research_moussa_2025]
+- [An Empirical Comparison of Human and LLM-Assisted Bug...][research_nasui_2026]
+- [An exploratory study of bug-introducing changes...][research_schulte_2026]
+- [Automated Inference of Expressive Metamorphic Relations...][research_nolasco_2026]
+- [Batch Me If You Can: Coverage-Guided RPKI Fuzzing at Scale][research_schulmann_2026]
+- [Coverage-Guided Multi-Agent Harness Generation for Java...][research_loose_2026]
+- [Detecting Compiler-Introduced Security Bugs via IR...][research_oh_2026]
+- [Grammar-Aware Coverage-Guided Fuzzing with Grammarinator...][research_hodovan_2026]
+- [How Effective Is Coverage-Guided Fuzzing to Test Deep...][research_qin_2026]
+- [QEMI: A Quantum Software Stacks Testing Framework via...][research_luo_2026]
+- [TYPEFUZZ: Type Coverage Directed JavaScript Engine...][research_wienand_2026]
+- [TenSure: Fuzzing Sparse Tensor Compilers (Registered...][research_mahathevan_2026]
+- [Towards Path-Aware Coverage-Guided Fuzzing][research_priamo_2026]
+- [Understanding Bug-Reproducing Tests: A First Empirical...][research_hora_2026]
+- [Understanding and Finding JIT Compiler Performance Bugs][research_yi_2026]
+- [WuppieFuzz: Coverage-Guided, Stateful REST API Fuzzing][research_rooijakkers_2026]
 
 **And the entire apparatus is blind to the question asked here, for a precise reason.** A fuzzer generates
 programs and checks whether the compiler handles them correctly. **It therefore tests what is implemented.**
@@ -1977,49 +1985,51 @@ and nothing in that literature claims otherwise.
 
 The motivation for native code generation in this project is worst-case resource behaviour, and that subject
 remains active, with multicore timing, cache predictability and time-predictable architecture carrying the
-effort, in [Calculation of worst-case execution time for multicore...][research_mushtaq_2015],
-[Efficient Worst-Case Execution Time Analysis of Dynamic...][research_puffitsch_2016],
-[FIFO Cache Analysis for WCET Estimation][research_guan_2016],
-[MRU Cache Analysis for WCET Estimation][research_guan_2016_b],
-[Operator-data type pair based execution environments...][research_seo_2016],
-[Time-Accurate ASM as a Refinement Scheme for Worst-Case...][research_mguidich_2016],
-[Worst-Case Execution Time Analysis for Many-Core...][research_skalistis_2016],
-[Architecture of a tool for automated testing the...][research_fedasyuk_2017],
-[Class-based query-optimization for minimizing worst-case...][research_tabassam_2017],
-[Combining loop unrolling strategies and code predication...][research_carminati_2017],
-[Integration of Static Worst-Case Execution Time and Stack...][research_hausladen_2017],
-[On the Criticality of Probabilistic Worst-Case Execution...][research_santinelli_2017],
-[Predicting Worst-Case Execution Time Trends in Long-Lived...][research_dai_2017],
-[Replacing conjectures by positive knowledge: Inferring...][research_knoop_2017],
-[On the use of static branch prediction to reduce the...][research_carminati_2018],
-[PSO based optimization of worst-case execution time for...][research_venkanna_2018],
-[Static Worst-Case Execution Time Optimization using DPSO...][research_venkanna_2018_b],
-[Worst-Case Execution Time Testing via Evolutionary...][research_aquino_2018],
-[Correction to: A compiler framework for the reduction of...][research_falk_2019],
-[Software UART: A Use Case for VSCPU Worst-Case Execution...][research_yildiz_2019],
-[Symbolic Execution and Recent Applications to Worst-Case...][research_pasareanu_2019],
-[Reliability Test based on a Binomial Experiment for...][research_arcaro_2020],
-[Survey on Estimation and Optimization of Worst-case...][research_meng_2020],
-[Worst-case Execution Time Estimation of Legacy Vehicular...][research_ventovaara_2020],
-[Deep Neural Network Approach to Estimate Early Worst-Case...][research_kumar_2021],
-[Experiences from Adjusting Industrial Software for...][research_denzler_2021],
-[Practical Examples of Timing Problems][research_gliwa_2021],
-[Timing Analysis Techniques][research_gliwa_2021_b],
-[Use of Measurements in Worst-Case Execution Time...][research_costa_2021],
-[CUDA Acceleration of Worst-Case Execution Time Analysis...][research_wanxin_2022],
-[Worst-Case Execution Time Estimation for Numerical...][research_susca_2022],
-[Analysis of benchmark program results of worst case...][research_paraman_2023],
-[Design of DMS-RRIP replacement algorithm for L1-cache of...][research_ma_2023_b],
-[Worst Case Execution Time and Power Estimation of...][research_rodriguezferra_2023],
-[Analyzing Data Flow and Control Flow of Multicore...][research_thomas_2024],
-[Exact Worst-Case Execution-Time Analysis for Implicit...][research_arnstrom_2024],
-[Utilizing Machine Learning Techniques for Worst-Case...][research_kumar_2024],
-[Worst-Case Execution Time Analysis of Real-Time Robotic...][research_samiei_2024],
-[Determining Worst-Case Execution Time Bounds for...][research_kaestner_2025],
-[Hardware/Software Co-Analysis for Worst Case Execution...][research_lehmann_2025],
-[Static Timing and Power Analysis of a RISC-V Pipelined...][research_kadarkarai_2025],
-[Worst-Case Execution Time Analysis of a Real-Time System...][research_merazga_2025],
-[A Time-Predictable Multicore RISC-V Architecture for...][research_munezero_2026].
+effort.
+
+- [Calculation of worst-case execution time for multicore...][research_mushtaq_2015]
+- [Efficient Worst-Case Execution Time Analysis of Dynamic...][research_puffitsch_2016]
+- [FIFO Cache Analysis for WCET Estimation][research_guan_2016]
+- [MRU Cache Analysis for WCET Estimation][research_guan_2016_b]
+- [Operator-data type pair based execution environments...][research_seo_2016]
+- [Time-Accurate ASM as a Refinement Scheme for Worst-Case...][research_mguidich_2016]
+- [Worst-Case Execution Time Analysis for Many-Core...][research_skalistis_2016]
+- [Architecture of a tool for automated testing the...][research_fedasyuk_2017]
+- [Class-based query-optimization for minimizing worst-case...][research_tabassam_2017]
+- [Combining loop unrolling strategies and code predication...][research_carminati_2017]
+- [Integration of Static Worst-Case Execution Time and Stack...][research_hausladen_2017]
+- [On the Criticality of Probabilistic Worst-Case Execution...][research_santinelli_2017]
+- [Predicting Worst-Case Execution Time Trends in Long-Lived...][research_dai_2017]
+- [Replacing conjectures by positive knowledge: Inferring...][research_knoop_2017]
+- [On the use of static branch prediction to reduce the...][research_carminati_2018]
+- [PSO based optimization of worst-case execution time for...][research_venkanna_2018]
+- [Static Worst-Case Execution Time Optimization using DPSO...][research_venkanna_2018_b]
+- [Worst-Case Execution Time Testing via Evolutionary...][research_aquino_2018]
+- [Correction to: A compiler framework for the reduction of...][research_falk_2019]
+- [Software UART: A Use Case for VSCPU Worst-Case Execution...][research_yildiz_2019]
+- [Symbolic Execution and Recent Applications to Worst-Case...][research_pasareanu_2019]
+- [Reliability Test based on a Binomial Experiment for...][research_arcaro_2020]
+- [Survey on Estimation and Optimization of Worst-case...][research_meng_2020]
+- [Worst-case Execution Time Estimation of Legacy Vehicular...][research_ventovaara_2020]
+- [Deep Neural Network Approach to Estimate Early Worst-Case...][research_kumar_2021]
+- [Experiences from Adjusting Industrial Software for...][research_denzler_2021]
+- [Practical Examples of Timing Problems][research_gliwa_2021]
+- [Timing Analysis Techniques][research_gliwa_2021_b]
+- [Use of Measurements in Worst-Case Execution Time...][research_costa_2021]
+- [CUDA Acceleration of Worst-Case Execution Time Analysis...][research_wanxin_2022]
+- [Worst-Case Execution Time Estimation for Numerical...][research_susca_2022]
+- [Analysis of benchmark program results of worst case...][research_paraman_2023]
+- [Design of DMS-RRIP replacement algorithm for L1-cache of...][research_ma_2023_b]
+- [Worst Case Execution Time and Power Estimation of...][research_rodriguezferra_2023]
+- [Analyzing Data Flow and Control Flow of Multicore...][research_thomas_2024]
+- [Exact Worst-Case Execution-Time Analysis for Implicit...][research_arnstrom_2024]
+- [Utilizing Machine Learning Techniques for Worst-Case...][research_kumar_2024]
+- [Worst-Case Execution Time Analysis of Real-Time Robotic...][research_samiei_2024]
+- [Determining Worst-Case Execution Time Bounds for...][research_kaestner_2025]
+- [Hardware/Software Co-Analysis for Worst Case Execution...][research_lehmann_2025]
+- [Static Timing and Power Analysis of a RISC-V Pipelined...][research_kadarkarai_2025]
+- [Worst-Case Execution Time Analysis of a Real-Time System...][research_merazga_2025]
+- [A Time-Predictable Multicore RISC-V Architecture for...][research_munezero_2026]
 
 **The relevant point is that the analysis is only as complete as the lowering.** A bound that cannot be
 computed for a program the compiler refuses is not a bound at all, so the coverage question sits upstream of
@@ -2028,138 +2038,139 @@ the timing question rather than beside it.
 ### Measuring a corpus became routine, which strengthens the recommendation
 
 **This is the largest change and it cuts in the article's favour.** Mining software repositories is a mature
-field with its own venue, and large-scale study of what code actually contains is ordinary work now, in
-[A Large Scale Study of License Usage on GitHub][research_vendome_2015],
-[A large-scale study on the usage of Java’s concurrent...][research_pinto_2015],
-[Characteristics of Useful Code Reviews: An Empirical...][research_bosu_2015],
-[Co-evolution of Infrastructure and Source Code - An...][research_jiang_2015],
-[Code Ownership and Software Quality: A Replication Study][research_greiler_2015],
-[Code coverage and test suite effectiveness: Empirical...][research_kochhar_2015],
-[Fuse: A Reproducible, Extendable, Internet-Scale Corpus...][research_barik_2015],
-[Graph-Based Statistical Language Model for Code][research_nguyen_2015],
-[License Usage and Changes: A Large-Scale Study of Java...][research_vendome_2015_b],
-[Novice comprehension of Object-Oriented OO programs: An...][research_alardawi_2015],
-[Partitioning Composite Code Changes to Facilitate Code...][research_tao_2015],
-[Quality Questions Need Quality Code: Classifying Code...][research_duijn_2015],
-[Query by example in large-scale code repositories][research_balachandran_2015],
-[A Taxonomy of Spanish Nouns, a Statistical Algorithm to...][research_nazar_2016],
-[A large-scale empirical study on self-admitted technical...][research_bavota_2016],
-[A large-scale study on repetitiveness, containment, and...][research_nguyen_2016],
-[License usage and changes: a large-scale study on gitHub][research_vendome_2016],
-[Mining performance regression inducing code changes in...][research_luo_2016],
-[Mining the modern code review repositories][research_yang_2016],
-[A Large-Scale Study of the Impact of Feature Selection...][research_ghotra_2017],
-[A large-scale study of programming languages and code...][research_ray_2017],
-[An Empirical Study on Real Bugs for Machine Learning...][research_sun_2017],
-[Bug Characteristics in Blockchain Systems: A Large-Scale...][research_wan_2017],
-[Classifying Code Comments in Java Open-Source Software...][research_pascarella_2017],
-[Creating and Analyzing Source Code Repository Models - A...][research_scheidgen_2017],
-[PRPA REPERCUSSIONS and IMPLICATIONS FOR REAL WORLD STUDY...][research_anon_2017],
-[Statistical Unigram Analysis for Source Code Repository][research_xu_2017],
-[Who Will Leave the Company?: A Large-Scale Industry Study...][research_bao_2017],
-[A benchmark study on the effectiveness of search-based...][research_hosseini_2018],
-[Analyzing False Positive Source Code Vulnerabilities...][research_cheirdari_2018],
-[Large-scale analysis of the co-commit patterns of the...][research_cohen_2018],
-[SLAMPA: Recommending Code Snippets with Statistical...][research_zhou_2018],
-[Syntax, predicates, idioms — what really affects code...][research_ajami_2018],
-[The Expansion of Source Code Abbreviations Using a...][research_alatawi_2018],
-[Why are Android apps removed from Google Play?][research_wang_2018_b],
-[A Convolutional Neural Network for Language-Agnostic...][research_moore_2019],
-[A Large-Scale Study About Quality and Reproducibility of...][research_pimentel_2019],
-[Branch Use in Practice: A Large-Scale Empirical Study of...][research_zou_2019],
-[Combining Program Analysis and Statistical Language Model...][research_nguyen_2019],
-[GreenSource: A Large-Scale Collection of Android Code...][research_rua_2019],
-[Impact of Stack Overflow Code Snippets on Software...][research_ahmad_2019],
-[git2net - Mining Time-Stamped Co-Editing Networks from...][research_gote_2019],
-[A Large-Scale Comparative Evaluation of IR-Based Tools...][research_akbar_2020],
-[Big code != big vocabulary][research_karampatsis_2020],
-[Building Intelligent Integrated Development Environment...][research_althar_2020],
-[Dockerfile Changes in Practice: A Large-Scale Empirical...][research_wu_2020],
-[Empirical Study about Class Change Proneness Prediction...][research_martins_2020],
-[How does combinatorial testing perform in the real world...][research_hu_2020_c],
-[How to Evaluate the Productivity of Software Ecosystem: A...][research_liao_2020],
-[Large-Scale Manual Validation of Bugfixing Changes][research_herbold_2020],
-[Open Source Software (OSS) for Big Data][research_segall_2020],
-[Querying Big Source Code][research_garciaalvarado_2020],
-[RTFM: Towards Understanding Source Code using Natural...][research_galanis_2020],
-[The Software Heritage Graph Dataset][research_pietri_2020],
-[Using Large-Scale Anomaly Detection on Code to Improve...][research_bryksin_2020],
-[A Large Scale Study of Long-Time Contributor Prediction...][research_bao_2021],
-[A Large-Scale Empirical Study of COVID-19 Themed GitHub...][research_wang_2021_b],
-[A large-scale study on human-cloned changes for automated...][research_madeiral_2021],
-[An Empirical Study of Real-World WebAssembly Binaries][research_hilbig_2021],
-[An Empirical Study on the Impact of Aspect-oriented...][research_menolli_2021],
-[AndroidCompass: A Dataset of Android Compatibility Checks...][research_nielebock_2021],
-[CCEyes: An Effective Tool for Code Clone Detection on...][research_zhang_2021],
-[Does Code Review Promote Conformance? A Study of...][research_sriiesaranusor_2021],
-[Machine Learning Approaches for Authorship Attribution...][research_frankel_2021],
-[Predicting Design Impactful Changes in Modern Code...][research_uchoa_2021],
-[QScored: A Large Dataset of Code Smells and Quality...][research_sharma_2021],
-[A Mechanism for Automatically Extracting Reusable and...][research_papoudakis_2022],
-[A large-scale comparison of Python code in Jupyter...][research_grotov_2022],
-[A large-scale dataset of (open source) license text...][research_zacchiroli_2022],
-[Geographic diversity in public code contributions][research_rossi_2022],
-[How to improve deep learning for software analytics][research_yedida_2022],
-[Low Level Source Code Vulnerability Detection Using...][research_alqarni_2022],
-[Mining the usage of reactive programming APIs][research_zimmerle_2022],
-[A Large Scale Analysis of Semantic Versioning in NPM][research_pinckney_2023],
-[APR4Vul: an empirical study of automatic program repair...][research_bui_2023],
-[DeepSurveySim: Simulation Software and Benchmark...][research_voetberg_2023],
-[Enriching Source Code with Contextual Data for Code...][research_vandam_2023],
-[Improving Code Completion by Solving Data Inconsistencies...][research_yang_2023_c],
-[Language usage analysis for EMF metamodels on GitHub][research_babur_2023],
-[Large Language Models for Code Obfuscation Evaluation of...][research_kochberger_2023],
-[Naturalness in Source Code Summarization. How Significant...][research_ferretti_2023],
-[Source Code Features and their Dependencies: An...][research_toosi_2023],
-[Source Code Implied Language Structure Abstraction...][research_wang_2023_c],
-[Source Code Plagiarism Detection with Pre-Trained Model...][research_anon_2023],
-[A Large-Scale Empirical Study of Open Source License...][research_wu_2024],
-[A Methodology for Analysing Code Anomalies in Open-Source...][research_campbell_2024],
-[An Empirical Analysis of Issue Templates Usage in...][research_sulun_2024],
-[Can Large Language Model Detect Plagiarism in Source Code?][research_brach_2024],
-[EnStack: An Ensemble Stacking Framework of Large Language...][research_ridoy_2024],
-[How accessibility affects other quality attributes of...][research_zhao_2024_b],
-[Large-Scale Analysis of GitHub and CVEs to Determine...][research_dennis_2024],
-[Multi-faceted Code Smell Detection at Scale using...][research_sharma_2024],
-[Naturalness of Attention: Revisiting Attention in Code...][research_saad_2024],
-[Propagating Large Language Models Programming Feedback][research_koutcheme_2024],
-[CASTL: A Composable Source Code Query Language for...][research_johnson_2025],
-[Can LLMs Generate Higher Quality Code Than Humans? An...][research_jamil_2025],
-[CoUpJava: A Dataset of Code Upgrade Histories in...][research_jiang_2025_b],
-[Combining Large Language Models with Static Analyzers for...][research_jaoua_2025],
-[Come for syntax, stay for speed, write secure code: an...][research_zhang_2025_b],
-[Examining the impact of bias mitigation algorithms on the...][research_demartino_2025],
-[GHALogs: Large-Scale Dataset of GitHub Actions Runs][research_moriconi_2025],
-[Generating Software Architecture Description from Source...][research_hatahet_2025],
-[Harnessing Large Language Models for Curated Code Reviews][research_sghaier_2025],
-[HyperAST: Incrementally Mining Large Source Code...][research_ledilavrec_2025],
-[Java Source Code Vulnerability Detection Using Large...][research_anbiya_2025],
-[Large Language Models for Computer Programming Education...][research_zhu_2025_b],
-[OSS License Identification at Scale: A Comprehensive...][research_jahanshahi_2025],
-[Programming Large Language Models][research_calamo_2025],
-[RETRACTION: Study on Large‐Scale Promotion of...][research_programming_2025],
-[Towards understanding code review practices for...][research_bessghaier_2025],
-[Understanding Feature Request Practice on GitHub via a...][research_li_2025_d],
-[Wild SBOMs: a Large-scale Dataset of Software Bills of...][research_soeiro_2025],
-[rFocal: Run 'FOCAL' Language Source Code][research_witthoft_2025],
-[A Large-Scale Dataset of MCP Implementations on GitHub][research_toeppe_2026],
-[A Large-Scale Investigation Into the Loss of Pull Request...][research_tang_2026],
-[AI builds, We Analyze: An Empirical Study of AI-Generated...][research_ghammam_2026],
-[An Empirical Study of SBOM Usage Through GitHub Actions][research_kanemoto_2026],
-[Automating Software Documentation with n8n and Large...][research_toprak_2026],
-[Beyond Single Code Changes: An Empirical Study of...][research_chouchen_2026],
-[Empirical Study on Real-time System Modeling and Code...][research_hu_2026_b],
-[Floating-Point Usage on GitHub: A Large-Scale Study of...][research_gilot_2026],
-[GeoAutoModuler: a knowledge–enhanced large language model...][research_liang_2026],
-[GitEvo: Code Evolution Analysis for Git Repositories][research_hora_2026_b],
-[HackRep: A Large-Scale Dataset of GitHub Hackathon...][research_halmans_2026],
-[How AI Coding Agents Modify Code: A Large-Scale Study of...][research_ogenrwot_2026],
-[How challenging it is to identify real code authors: an...][research_gong_2026],
-[Integrating Large Language Models in Software Engineering...][research_khan_2026],
-[Modeling Sampling Workflows for Code Repositories][research_lefeuvre_2026],
-[OSSGameBench: A Large-Scale Dataset of Development...][research_marsad_2026],
-[Running Large Language Models at Scale for Mining...][research_su_2026],
-[Understanding Binary Code Similarity for Real-World...][research_guo_2026].
+field with its own venue, and large-scale study of what code actually contains is ordinary work now.
+
+- [A Large Scale Study of License Usage on GitHub][research_vendome_2015]
+- [A large-scale study on the usage of Java’s concurrent...][research_pinto_2015]
+- [Characteristics of Useful Code Reviews: An Empirical...][research_bosu_2015]
+- [Co-evolution of Infrastructure and Source Code - An...][research_jiang_2015]
+- [Code Ownership and Software Quality: A Replication Study][research_greiler_2015]
+- [Code coverage and test suite effectiveness: Empirical...][research_kochhar_2015]
+- [Fuse: A Reproducible, Extendable, Internet-Scale Corpus...][research_barik_2015]
+- [Graph-Based Statistical Language Model for Code][research_nguyen_2015]
+- [License Usage and Changes: A Large-Scale Study of Java...][research_vendome_2015_b]
+- [Novice comprehension of Object-Oriented OO programs: An...][research_alardawi_2015]
+- [Partitioning Composite Code Changes to Facilitate Code...][research_tao_2015]
+- [Quality Questions Need Quality Code: Classifying Code...][research_duijn_2015]
+- [Query by example in large-scale code repositories][research_balachandran_2015]
+- [A Taxonomy of Spanish Nouns, a Statistical Algorithm to...][research_nazar_2016]
+- [A large-scale empirical study on self-admitted technical...][research_bavota_2016]
+- [A large-scale study on repetitiveness, containment, and...][research_nguyen_2016]
+- [License usage and changes: a large-scale study on gitHub][research_vendome_2016]
+- [Mining performance regression inducing code changes in...][research_luo_2016]
+- [Mining the modern code review repositories][research_yang_2016]
+- [A Large-Scale Study of the Impact of Feature Selection...][research_ghotra_2017]
+- [A large-scale study of programming languages and code...][research_ray_2017]
+- [An Empirical Study on Real Bugs for Machine Learning...][research_sun_2017]
+- [Bug Characteristics in Blockchain Systems: A Large-Scale...][research_wan_2017]
+- [Classifying Code Comments in Java Open-Source Software...][research_pascarella_2017]
+- [Creating and Analyzing Source Code Repository Models - A...][research_scheidgen_2017]
+- [PRPA REPERCUSSIONS and IMPLICATIONS FOR REAL WORLD STUDY...][research_anon_2017]
+- [Statistical Unigram Analysis for Source Code Repository][research_xu_2017]
+- [Who Will Leave the Company?: A Large-Scale Industry Study...][research_bao_2017]
+- [A benchmark study on the effectiveness of search-based...][research_hosseini_2018]
+- [Analyzing False Positive Source Code Vulnerabilities...][research_cheirdari_2018]
+- [Large-scale analysis of the co-commit patterns of the...][research_cohen_2018]
+- [SLAMPA: Recommending Code Snippets with Statistical...][research_zhou_2018]
+- [Syntax, predicates, idioms — what really affects code...][research_ajami_2018]
+- [The Expansion of Source Code Abbreviations Using a...][research_alatawi_2018]
+- [Why are Android apps removed from Google Play?][research_wang_2018_b]
+- [A Convolutional Neural Network for Language-Agnostic...][research_moore_2019]
+- [A Large-Scale Study About Quality and Reproducibility of...][research_pimentel_2019]
+- [Branch Use in Practice: A Large-Scale Empirical Study of...][research_zou_2019]
+- [Combining Program Analysis and Statistical Language Model...][research_nguyen_2019]
+- [GreenSource: A Large-Scale Collection of Android Code...][research_rua_2019]
+- [Impact of Stack Overflow Code Snippets on Software...][research_ahmad_2019]
+- [git2net - Mining Time-Stamped Co-Editing Networks from...][research_gote_2019]
+- [A Large-Scale Comparative Evaluation of IR-Based Tools...][research_akbar_2020]
+- [Big code != big vocabulary][research_karampatsis_2020]
+- [Building Intelligent Integrated Development Environment...][research_althar_2020]
+- [Dockerfile Changes in Practice: A Large-Scale Empirical...][research_wu_2020]
+- [Empirical Study about Class Change Proneness Prediction...][research_martins_2020]
+- [How does combinatorial testing perform in the real world...][research_hu_2020_c]
+- [How to Evaluate the Productivity of Software Ecosystem: A...][research_liao_2020]
+- [Large-Scale Manual Validation of Bugfixing Changes][research_herbold_2020]
+- [Open Source Software (OSS) for Big Data][research_segall_2020]
+- [Querying Big Source Code][research_garciaalvarado_2020]
+- [RTFM: Towards Understanding Source Code using Natural...][research_galanis_2020]
+- [The Software Heritage Graph Dataset][research_pietri_2020]
+- [Using Large-Scale Anomaly Detection on Code to Improve...][research_bryksin_2020]
+- [A Large Scale Study of Long-Time Contributor Prediction...][research_bao_2021]
+- [A Large-Scale Empirical Study of COVID-19 Themed GitHub...][research_wang_2021_b]
+- [A large-scale study on human-cloned changes for automated...][research_madeiral_2021]
+- [An Empirical Study of Real-World WebAssembly Binaries][research_hilbig_2021]
+- [An Empirical Study on the Impact of Aspect-oriented...][research_menolli_2021]
+- [AndroidCompass: A Dataset of Android Compatibility Checks...][research_nielebock_2021]
+- [CCEyes: An Effective Tool for Code Clone Detection on...][research_zhang_2021]
+- [Does Code Review Promote Conformance? A Study of...][research_sriiesaranusor_2021]
+- [Machine Learning Approaches for Authorship Attribution...][research_frankel_2021]
+- [Predicting Design Impactful Changes in Modern Code...][research_uchoa_2021]
+- [QScored: A Large Dataset of Code Smells and Quality...][research_sharma_2021]
+- [A Mechanism for Automatically Extracting Reusable and...][research_papoudakis_2022]
+- [A large-scale comparison of Python code in Jupyter...][research_grotov_2022]
+- [A large-scale dataset of (open source) license text...][research_zacchiroli_2022]
+- [Geographic diversity in public code contributions][research_rossi_2022]
+- [How to improve deep learning for software analytics][research_yedida_2022]
+- [Low Level Source Code Vulnerability Detection Using...][research_alqarni_2022]
+- [Mining the usage of reactive programming APIs][research_zimmerle_2022]
+- [A Large Scale Analysis of Semantic Versioning in NPM][research_pinckney_2023]
+- [APR4Vul: an empirical study of automatic program repair...][research_bui_2023]
+- [DeepSurveySim: Simulation Software and Benchmark...][research_voetberg_2023]
+- [Enriching Source Code with Contextual Data for Code...][research_vandam_2023]
+- [Improving Code Completion by Solving Data Inconsistencies...][research_yang_2023_c]
+- [Language usage analysis for EMF metamodels on GitHub][research_babur_2023]
+- [Large Language Models for Code Obfuscation Evaluation of...][research_kochberger_2023]
+- [Naturalness in Source Code Summarization. How Significant...][research_ferretti_2023]
+- [Source Code Features and their Dependencies: An...][research_toosi_2023]
+- [Source Code Implied Language Structure Abstraction...][research_wang_2023_c]
+- [Source Code Plagiarism Detection with Pre-Trained Model...][research_anon_2023]
+- [A Large-Scale Empirical Study of Open Source License...][research_wu_2024]
+- [A Methodology for Analysing Code Anomalies in Open-Source...][research_campbell_2024]
+- [An Empirical Analysis of Issue Templates Usage in...][research_sulun_2024]
+- [Can Large Language Model Detect Plagiarism in Source Code?][research_brach_2024]
+- [EnStack: An Ensemble Stacking Framework of Large Language...][research_ridoy_2024]
+- [How accessibility affects other quality attributes of...][research_zhao_2024_b]
+- [Large-Scale Analysis of GitHub and CVEs to Determine...][research_dennis_2024]
+- [Multi-faceted Code Smell Detection at Scale using...][research_sharma_2024]
+- [Naturalness of Attention: Revisiting Attention in Code...][research_saad_2024]
+- [Propagating Large Language Models Programming Feedback][research_koutcheme_2024]
+- [CASTL: A Composable Source Code Query Language for...][research_johnson_2025]
+- [Can LLMs Generate Higher Quality Code Than Humans? An...][research_jamil_2025]
+- [CoUpJava: A Dataset of Code Upgrade Histories in...][research_jiang_2025_b]
+- [Combining Large Language Models with Static Analyzers for...][research_jaoua_2025]
+- [Come for syntax, stay for speed, write secure code: an...][research_zhang_2025_b]
+- [Examining the impact of bias mitigation algorithms on the...][research_demartino_2025]
+- [GHALogs: Large-Scale Dataset of GitHub Actions Runs][research_moriconi_2025]
+- [Generating Software Architecture Description from Source...][research_hatahet_2025]
+- [Harnessing Large Language Models for Curated Code Reviews][research_sghaier_2025]
+- [HyperAST: Incrementally Mining Large Source Code...][research_ledilavrec_2025]
+- [Java Source Code Vulnerability Detection Using Large...][research_anbiya_2025]
+- [Large Language Models for Computer Programming Education...][research_zhu_2025_b]
+- [OSS License Identification at Scale: A Comprehensive...][research_jahanshahi_2025]
+- [Programming Large Language Models][research_calamo_2025]
+- [RETRACTION: Study on Large‐Scale Promotion of...][research_programming_2025]
+- [Towards understanding code review practices for...][research_bessghaier_2025]
+- [Understanding Feature Request Practice on GitHub via a...][research_li_2025_d]
+- [Wild SBOMs: a Large-scale Dataset of Software Bills of...][research_soeiro_2025]
+- [rFocal: Run 'FOCAL' Language Source Code][research_witthoft_2025]
+- [A Large-Scale Dataset of MCP Implementations on GitHub][research_toeppe_2026]
+- [A Large-Scale Investigation Into the Loss of Pull Request...][research_tang_2026]
+- [AI builds, We Analyze: An Empirical Study of AI-Generated...][research_ghammam_2026]
+- [An Empirical Study of SBOM Usage Through GitHub Actions][research_kanemoto_2026]
+- [Automating Software Documentation with n8n and Large...][research_toprak_2026]
+- [Beyond Single Code Changes: An Empirical Study of...][research_chouchen_2026]
+- [Empirical Study on Real-time System Modeling and Code...][research_hu_2026_b]
+- [Floating-Point Usage on GitHub: A Large-Scale Study of...][research_gilot_2026]
+- [GeoAutoModuler: a knowledge–enhanced large language model...][research_liang_2026]
+- [GitEvo: Code Evolution Analysis for Git Repositories][research_hora_2026_b]
+- [HackRep: A Large-Scale Dataset of GitHub Hackathon...][research_halmans_2026]
+- [How AI Coding Agents Modify Code: A Large-Scale Study of...][research_ogenrwot_2026]
+- [How challenging it is to identify real code authors: an...][research_gong_2026]
+- [Integrating Large Language Models in Software Engineering...][research_khan_2026]
+- [Modeling Sampling Workflows for Code Repositories][research_lefeuvre_2026]
+- [OSSGameBench: A Large-Scale Dataset of Development...][research_marsad_2026]
+- [Running Large Language Models at Scale for Mining...][research_su_2026]
+- [Understanding Binary Code Similarity for Real-World...][research_guo_2026]
 
 **The instrument this article describes took twenty minutes to build because that is now a twenty-minute job.**
 When the instruction-selection classics were written it was not.
@@ -2170,209 +2181,210 @@ which is the strongest argument for adopting it and is an argument the article d
 
 The specific failure this article reports, where an easily computed measure stands in for the property
 actually wanted, is not confined to compilers. Coverage as a proxy for suite quality, mutation scores, flaky
-tests, benchmarking methodology and replication have all produced the same warning, in
-[An Empirical Study on Effects of Code Visibility on Code...][research_ma_2015],
-[An Initiative to Improve Reproducibility and Empirical...][research_oliveiraneto_2015],
-[An empirical study of bugs in test code][research_vahabzadeh_2015],
-[Beyond code coverage and#x2014; An approach for test...][research_tengeri_2015],
-[Do Automatically Generated Unit Tests Find Real Faults?...][research_shamshiri_2015],
-[Exploring Test Suite Diversification and Code Coverage in...][research_mondal_2015],
-[Investigations about replication of empirical studies in...][research_demagalhaes_2015],
-[Mutation testing in practice using Ruby][research_li_2015],
-[On the Benefits and Barriers When Adopting Software...][research_vetro_2015],
-[Replication of Empirical Studies in Software Engineering...][research_bezerra_2015],
-[Using Artificial Bee Colony for Code Coverage Based Test...][research_konsaard_2015],
-[Using text clustering to predict defect resolution time...][research_assar_2015],
-[A detailed investigation of the effectiveness of whole...][research_rojas_2016],
-[A large-scale study of call graph-based impact prediction...][research_musco_2016],
-[Assessing the Test Suite of a Large System Based on Code...][research_vidacs_2016],
-[Characterizing logging practices in Java-based open...][research_chen_2016_b],
-[Empirical study of correlation between mutation score and...][research_felbinger_2016],
-[Global vs. local models for cross-project defect...][research_herbold_2016],
-[Relating Code Coverage, Mutation Score and Test Suite...][research_tengeri_2016],
-[System-Level Test Case Prioritization Using Machine...][research_lachmann_2016],
-[Techniques of Test Case Prioritization][research_puri_2016],
-[UML Associations - Reducing the Gap in Test Coverage...][research_eriksson_2016],
-[Using docker containers to improve reproducibility in...][research_cito_2016],
-[An Empirical Study of Activity, Popularity, Size...][research_gautam_2017],
-[An Empirical Study of the Personnel Overhead of...][research_manglaviti_2017],
-[An Empirical Study on the Cross-Project Predictability of...][research_xia_2017],
-[An empirical study of regression test suite reduction...][research_singhal_2017],
-[An empirical study on the application of mutation testing...][research_ramler_2017],
-[Analytics-Driven Load Testing: An Industrial Experience...][research_chen_2017],
-[Assessing and Improving the Mutation Testing Practice of...][research_laurent_2017],
-[Could We Predict the Result of a Continuous Integration...][research_xia_2017_b],
-[Creating and Running Tests with Xamarin Test Cloud][research_versluis_2017],
-[Extended firm mutation testing: A cost reduction...][research_singh_2017],
-[How effective are mutation testing tools? An empirical...][research_kintis_2017],
-[Impact of Static and Dynamic Coverage on Test-Case...][research_zhou_2017],
-[Integrating Tests into Your Builds][research_versluis_2017_b],
-[Reinforcement learning for automatic test case...][research_spieker_2017],
-[12.4 - Machine Learning-Driven Test Case Prioritization...][research_lachmann_2018],
-[An Empirical Study of Flaky Tests in Android Apps][research_thorve_2018],
-[An Industrial Application of Mutation Testing: Lessons...][research_petrovic_2018],
-[An empirical study of inadequate and adequate test suite...][research_coviello_2018],
-[Are mutation scores correlated with real fault detection?][research_papadakis_2018],
-[Continuous Integration and Visual GUI Testing: Benefits...][research_alegroth_2018],
-[Generating Effective Test Suite for Multiparameter...][research_patil_2018],
-[Prediction of relatedness in stack overflow: deep...][research_xu_2018],
-[Program comprehension of domain-specific and...][research_kosar_2018],
-[Redefining prioritization][research_liang_2018],
-[Reproducibility and credibility in empirical software...][research_rodriguezperez_2018],
-[State of mutation testing at google][research_petrovic_2018_b],
-[Test case prioritization and selection technique in...][research_xiao_2018],
-[Test prioritization in continuous integration environments][research_haghighatkhah_2018],
-[The role and value of replication in empirical software...][research_shepperd_2018],
-[A Time Window based Reinforcement Learning Reward for...][research_wu_2019_b],
-[An Empirical Study of the Relationship between Continuous...][research_sizilionery_2019],
-[An empirical study of the long duration of continuous...][research_ghaleb_2019],
-[Combining Code and Requirements Coverage with Execution...][research_marchetto_2019],
-[Comprehending Test Code: An Empirical Study][research_yu_2019],
-[Meta-analysis for families of experiments in software...][research_kitchenham_2019],
-[RETRACTED ARTICLE: The smell of fear: on the relation...][research_palomba_2019],
-[Temporal Discounting in Software Engineering: A...][research_fagerholm_2019],
-[Test Case Design and Test Case Prioritization using...][research_anon_2019_b],
-[TestCov: Robust Test-Suite Execution and Coverage...][research_beyer_2019],
-[A study on the lifecycle of flaky tests][research_lam_2020],
-[Code review effectiveness: an empirical study on selected...][research_jureczko_2020],
-[Data Science and Empirical Software Engineering][research_scott_2020],
-[De-Flake Your Tests : Automatically Locating Root Causes...][research_ziftci_2020],
-[Effective Test Suite Optimization for Improving the...][research_karuppusamy_2020],
-[Empirical Software Engineering Experimentation with Human...][research_sabou_2020],
-[Empirical Study of Restarted and Flaky Builds on Travis CI][research_durieux_2020],
-[Empirical Study of Software Test Suite Evolution][research_aljedaani_2020],
-[Learning-based prioritization of test cases in continuous...][research_lima_2020],
-[Multi-Armed Bandit Test Case Prioritization in Continuous...][research_lima_2020_b],
-[Resources for Reproducibility of Experiments in Empirical...][research_anchundia_2020],
-[Retraction Note: Retraction note to: The smell of fear...][research_palomba_2020],
-[TABU Search Prioritized Ant Colony Metaheuristic...][research_t_2020],
-[Test Case Prioritization in Continuous Integration...][research_pradolima_2020],
-[The Application Of Machine Learning In Test Case...][research_mece_2020],
-[The Evolution of Empirical Methods in Software Engineering][research_felderer_2020],
-[A Review on Continuous Integration and Continuous...][research_mahida_2021],
-[An Empirical Analysis of UI-Based Flaky Tests][research_romano_2021],
-[An Empirical Study of Flaky Tests in Python][research_gruber_2021],
-[Assessment of off-the-shelf SE-specific sentiment...][research_novielli_2021],
-[DeepCrime: mutation testing of deep learning systems...][research_humbatova_2021],
-[DeepOrder: Deep Learning for Test Case Prioritization in...][research_sharif_2021],
-[Empirical evaluation of tools for hairy requirements...][research_berry_2021],
-[Extreme mutation testing in practice: An industrial case...][research_betka_2021],
-[Genetic programming for feature model synthesis: a...][research_vescan_2021],
-[Industrial Scale Passive Testing with T-EARS][research_flemstrom_2021],
-[Lessons Learnt on Reproducibility in Machine Learning...][research_daoudi_2021],
-[Locating faults with program slicing: an empirical...][research_soremekun_2021],
-[Reflections on the Empirical Software Engineering journal][research_basili_2021],
-[Release synchronization in software ecosystems][research_foundjem_2021],
-[Statement frequency coverage: A code coverage criterion...][research_aghamohammadi_2021],
-[Test case selection and prioritization using machine...][research_pan_2021],
-[Understanding and improving the quality and...][research_pimentel_2021],
-[Weighted Reward for Reinforcement Learning based Test...][research_li_2021_b],
-[When is Continuous Integration Useful? Empirical Study on...][research_imai_2021],
-[A Comprehensive Study on Code Coverage Analysis for...][research_bandyopadhyay_2022],
-[A Multi-Armed Bandit Approach for Test Case...][research_lima_2022],
-[A Qualitative Study on the Sources, Impacts, and...][research_habchi_2022],
-[An Empirical Study of Flaky Tests in JavaScript][research_hashemi_2022],
-[An Improvement to Test Case Prioritization Techniques...][research_khan_2022],
-[Breaking bad? Semantic versioning and impact of breaking...][research_ochoa_2022],
-[Checked coverage for test suite reduction][research_koitzhristov_2022],
-[Cost-effective learning-based strategies for test case...][research_pradolima_2022],
-[Evaluating classifiers in SE research: the ECSER pipeline...][research_dellanna_2022],
-[Excluding code from test coverage: practices...][research_hora_2022],
-[Machine Learning Regression Techniques for Test Case...][research_daroza_2022],
-[Mutation analysis and its industrial applications][research_gopinath_2022],
-[Patterns of Code-to-Test Co-evolution for Automated Test...][research_shimmi_2022],
-[Preempting flaky tests via non-idempotent-outcome tests][research_wei_2022],
-[Real world projects, real faults: evaluating spectrum...][research_widyasari_2022],
-[Reinforcement Learning Reward Function for Test Case...][research_mirzaei_2022],
-[Revisiting the building of past snapshots — a replication...][research_maesbermejo_2022],
-[Static detection of equivalent mutants in real-time...][research_basile_2022],
-[The reproducibility of programming-related issues in...][research_mondal_2022],
-[What do developer-repaired Flaky tests tell us about the...][research_parry_2022],
-[An Empirical Study of Greedy Test Suite Minimization...][research_jehan_2023],
-[An Empirical Study of Regression Testing for Android Apps...][research_wang_2023_d],
-[An Empirical Study on the Correlation between Neuron...][research_li_2023_d],
-[An Evaluation of Ranking-to-Learn Approaches for Test...][research_lima_2023],
-[An Improved Method for Test Case Prioritization in...][research_han_2023],
-[Automated NFR testing in continuous integration...][research_yu_2023],
-[Comparative study of machine learning test case...][research_marijan_2023],
-[DeepCrime: from Real Faults to Mutation Testing Tool for...][research_humbatova_2023],
-[Evaluation of Coverage Metrics for Assessing Test Suite...][research_chippagi_2023],
-[Guest editorial: special issue on empirical software...][research_baldassarre_2023],
-[How Closely are Common Mutation Operators Coupled to Real...][research_gay_2023],
-[How Do Deep Learning Faults Affect AI-Enabled...][research_arrieta_2023],
-[Model vs system level testing of autonomous driving...][research_stocco_2023],
-[Mutation Testing in Continuous Integration: An...][research_orgard_2023],
-[Mutation Testing of Deep Reinforcement Learning Based on...][research_tambon_2023],
-[Neural Network-Based Test Case Prioritization in...][research_vescan_2023],
-[On factors that impact the relationship between code...][research_barani_2023],
-[Operationalizing validity of empirical software...][research_hartel_2023],
-[Optimizing test case prioritization using machine...][research_sharma_2023_b],
-[Parallel mutation testing for large scale systems][research_canizares_2023],
-[Revisiting Machine Learning based Test Case...][research_zhao_2023],
-[Revisiting the reproducibility of empirical software...][research_gonzalezbaraho_2023],
-[Scalable and Accurate Test Case Prioritization in...][research_yaraghi_2023],
-[Semantic Coverage: Measuring Test Suite Effectiveness][research_alblwi_2023],
-[Semantic‐aware two‐phase test case prioritization for...][research_li_2023_e],
-[Syntactic Versus Semantic Similarity of Artificial and...][research_ojdanic_2023],
-[Test Case Prioritization using Transfer Learning in...][research_mamata_2023],
-[The Vocabulary of Flaky Tests in the Context of SAP HANA][research_berndt_2023],
-[A Preliminary Framework for Optimising Test Case...][research_ndlovu_2024],
-[An Empirical Study on Code Coverage of Performance Testing][research_imran_2024],
-[An Exploratory Study on Soft Skills present in Software...][research_kapitsaki_2024],
-[An extensive replication study of the ABLoTS approach for...][research_niu_2024],
-[Cost of Flaky Tests in Continuous Integration: An...][research_leinen_2024],
-[Deployment and Integration of Machine Learning Methods...][research_wham_2024],
-[Examining ownership models in software teams][research_koana_2024],
-[Explainable Test Case Prioritization in Continuous...][research_garg_2024],
-[Exploring the Effectiveness of LLM based Test-driven...][research_fakhoury_2024],
-[FlakeSync: Automatically Repairing Async Flaky Tests][research_rahman_2024],
-[Leveraging Rough Sets for Enhanced Test Case...][research_gaceanu_2024],
-[Machine Learning for Test Case Prioritization in...][research_kumar_2024_b],
-[Machine Learning-based Test Case Prioritization using...][research_khan_2024],
-[Nonlinear Reinforcement Learning-Based Dynamic Test Case...][research_srinivasaraoko_2024],
-[On the use of contextual information for machine learning...][research_roza_2024],
-[Reinforcement learning for online testing of autonomous...][research_giamattei_2024],
-[Test Case Prioritization for Regression Testing Using...][research_sawant_2024],
-[Test code refactoring unveiled: where and how does it...][research_martins_2024],
-[Towards enhancing the reproducibility of deep learning...][research_shah_2024],
-[Using rapid reviews to support software engineering...][research_pizard_2024],
-[$\mu \text{PRL}$: A Mutation Testing Pipeline for Deep...][research_thomas_2025],
-[A Defect Taxonomy for Infrastructure as Code: A...][research_oliveira_2025],
-[A Preliminary Study of Fixed Flaky Tests in Rust Projects...][research_schroeder_2025],
-[AI-Driven Test Case Generation for Continuous Integration...][research_subrahmanyam_2025],
-[Achieving High-Integrity Software Quality and Security...][research_niharika_2025],
-[An Effective GRU-Based Deep Learning Method for Test Case...][research_behera_2025],
-[An Empirical Study of Web Flaky Tests: Understanding and...][research_pei_2025],
-[An Environment Adaptation Agent of Reinforcement Learning...][research_li_2025_e],
-[An Explainable Deep Learning Model in Improving Test Case...][research_ramakrishnan_2025],
-[Attention Transfer Reinforcement Learning for Test Case...][research_su_2025],
-[Dynamic Test Case Prioritization and Selection for...][research_waseem_2025],
-[Evaluating Machine Learning-Based Test Case...][research_son_2025],
-[How Does Test Code Differ from Production Code in Terms...][research_horikawa_2025],
-[Identifying and Mitigating Flaky Tests in JavaScript][research_hashemi_2025],
-[Intelligent Test Case Prioritization: A Review of Machine...][research_razi_2025],
-[Is code coverage of performance tests related to source...][research_imran_2025],
-[Mutation Operators for Mutation Testing of Angular Web...][research_augustin_2025],
-[Mutation Testing for Industrial Robotic Systems][research_goncalvesdossa_2025],
-[Mutation Testing of Programs for Industrial Robots][research_ashraf_2025],
-[Opportunities and security risks of technical leverage: A...][research_samaana_2025],
-[Optimizing Test Case Prioritization With Meta Deep...][research_alrakban_2025],
-[Ranking Relevant Tests for Order-Dependent Flaky Tests][research_rahman_2025],
-[Rechecking Recheck Requests in Continuous Integration: An...][research_brus_2025],
-[Reimagining Studies’ Replication: A Validity-Driven...][research_azevedo_2025],
-[Reproducibility Practices of Software Engineering...][research_cordeiro_2025],
-[Reviewing Reproducibility in Software Engineering Research][research_cordeiro_2025_b],
-[muttest: Mutation Testing][research_sobolewski_2025],
-[A large-scale empirical study of configurations, errors...][research_zhang_2026_e],
-[Adaptive and Explainable Test Case Prioritization in...][research_kongarana_2026],
-[Beyond Coverage: Automatic Test Suite Augmentation for...][research_lu_2026],
-[Can We Classify Flaky Tests Using Only Test Code? an...][research_berndt_2026],
-[Fuzzy-Graph Contrastive Test Case Prioritization...][research_kumar_2026],
-[Industrial Application of Deep Learning based Fault...][research_yang_2026_b],
-[Interruptibility of software developers and its...][research_poreba_2026],
-[Is this build failure related to my patch? An empirical...][research_huang_2026_b],
-[Mitigating omitted variable bias in empirical software...][research_furia_2026],
-[Neural-MCTS Test Prioritization for Smart Contract...][research_barboni_2026].
+tests, benchmarking methodology and replication have all produced the same warning.
+
+- [An Empirical Study on Effects of Code Visibility on Code...][research_ma_2015]
+- [An Initiative to Improve Reproducibility and Empirical...][research_oliveiraneto_2015]
+- [An empirical study of bugs in test code][research_vahabzadeh_2015]
+- [Beyond code coverage and#x2014; An approach for test...][research_tengeri_2015]
+- [Do Automatically Generated Unit Tests Find Real Faults?...][research_shamshiri_2015]
+- [Exploring Test Suite Diversification and Code Coverage in...][research_mondal_2015]
+- [Investigations about replication of empirical studies in...][research_demagalhaes_2015]
+- [Mutation testing in practice using Ruby][research_li_2015]
+- [On the Benefits and Barriers When Adopting Software...][research_vetro_2015]
+- [Replication of Empirical Studies in Software Engineering...][research_bezerra_2015]
+- [Using Artificial Bee Colony for Code Coverage Based Test...][research_konsaard_2015]
+- [Using text clustering to predict defect resolution time...][research_assar_2015]
+- [A detailed investigation of the effectiveness of whole...][research_rojas_2016]
+- [A large-scale study of call graph-based impact prediction...][research_musco_2016]
+- [Assessing the Test Suite of a Large System Based on Code...][research_vidacs_2016]
+- [Characterizing logging practices in Java-based open...][research_chen_2016_b]
+- [Empirical study of correlation between mutation score and...][research_felbinger_2016]
+- [Global vs. local models for cross-project defect...][research_herbold_2016]
+- [Relating Code Coverage, Mutation Score and Test Suite...][research_tengeri_2016]
+- [System-Level Test Case Prioritization Using Machine...][research_lachmann_2016]
+- [Techniques of Test Case Prioritization][research_puri_2016]
+- [UML Associations - Reducing the Gap in Test Coverage...][research_eriksson_2016]
+- [Using docker containers to improve reproducibility in...][research_cito_2016]
+- [An Empirical Study of Activity, Popularity, Size...][research_gautam_2017]
+- [An Empirical Study of the Personnel Overhead of...][research_manglaviti_2017]
+- [An Empirical Study on the Cross-Project Predictability of...][research_xia_2017]
+- [An empirical study of regression test suite reduction...][research_singhal_2017]
+- [An empirical study on the application of mutation testing...][research_ramler_2017]
+- [Analytics-Driven Load Testing: An Industrial Experience...][research_chen_2017]
+- [Assessing and Improving the Mutation Testing Practice of...][research_laurent_2017]
+- [Could We Predict the Result of a Continuous Integration...][research_xia_2017_b]
+- [Creating and Running Tests with Xamarin Test Cloud][research_versluis_2017]
+- [Extended firm mutation testing: A cost reduction...][research_singh_2017]
+- [How effective are mutation testing tools? An empirical...][research_kintis_2017]
+- [Impact of Static and Dynamic Coverage on Test-Case...][research_zhou_2017]
+- [Integrating Tests into Your Builds][research_versluis_2017_b]
+- [Reinforcement learning for automatic test case...][research_spieker_2017]
+- [12.4 - Machine Learning-Driven Test Case Prioritization...][research_lachmann_2018]
+- [An Empirical Study of Flaky Tests in Android Apps][research_thorve_2018]
+- [An Industrial Application of Mutation Testing: Lessons...][research_petrovic_2018]
+- [An empirical study of inadequate and adequate test suite...][research_coviello_2018]
+- [Are mutation scores correlated with real fault detection?][research_papadakis_2018]
+- [Continuous Integration and Visual GUI Testing: Benefits...][research_alegroth_2018]
+- [Generating Effective Test Suite for Multiparameter...][research_patil_2018]
+- [Prediction of relatedness in stack overflow: deep...][research_xu_2018]
+- [Program comprehension of domain-specific and...][research_kosar_2018]
+- [Redefining prioritization][research_liang_2018]
+- [Reproducibility and credibility in empirical software...][research_rodriguezperez_2018]
+- [State of mutation testing at google][research_petrovic_2018_b]
+- [Test case prioritization and selection technique in...][research_xiao_2018]
+- [Test prioritization in continuous integration environments][research_haghighatkhah_2018]
+- [The role and value of replication in empirical software...][research_shepperd_2018]
+- [A Time Window based Reinforcement Learning Reward for...][research_wu_2019_b]
+- [An Empirical Study of the Relationship between Continuous...][research_sizilionery_2019]
+- [An empirical study of the long duration of continuous...][research_ghaleb_2019]
+- [Combining Code and Requirements Coverage with Execution...][research_marchetto_2019]
+- [Comprehending Test Code: An Empirical Study][research_yu_2019]
+- [Meta-analysis for families of experiments in software...][research_kitchenham_2019]
+- [RETRACTED ARTICLE: The smell of fear: on the relation...][research_palomba_2019]
+- [Temporal Discounting in Software Engineering: A...][research_fagerholm_2019]
+- [Test Case Design and Test Case Prioritization using...][research_anon_2019_b]
+- [TestCov: Robust Test-Suite Execution and Coverage...][research_beyer_2019]
+- [A study on the lifecycle of flaky tests][research_lam_2020]
+- [Code review effectiveness: an empirical study on selected...][research_jureczko_2020]
+- [Data Science and Empirical Software Engineering][research_scott_2020]
+- [De-Flake Your Tests : Automatically Locating Root Causes...][research_ziftci_2020]
+- [Effective Test Suite Optimization for Improving the...][research_karuppusamy_2020]
+- [Empirical Software Engineering Experimentation with Human...][research_sabou_2020]
+- [Empirical Study of Restarted and Flaky Builds on Travis CI][research_durieux_2020]
+- [Empirical Study of Software Test Suite Evolution][research_aljedaani_2020]
+- [Learning-based prioritization of test cases in continuous...][research_lima_2020]
+- [Multi-Armed Bandit Test Case Prioritization in Continuous...][research_lima_2020_b]
+- [Resources for Reproducibility of Experiments in Empirical...][research_anchundia_2020]
+- [Retraction Note: Retraction note to: The smell of fear...][research_palomba_2020]
+- [TABU Search Prioritized Ant Colony Metaheuristic...][research_t_2020]
+- [Test Case Prioritization in Continuous Integration...][research_pradolima_2020]
+- [The Application Of Machine Learning In Test Case...][research_mece_2020]
+- [The Evolution of Empirical Methods in Software Engineering][research_felderer_2020]
+- [A Review on Continuous Integration and Continuous...][research_mahida_2021]
+- [An Empirical Analysis of UI-Based Flaky Tests][research_romano_2021]
+- [An Empirical Study of Flaky Tests in Python][research_gruber_2021]
+- [Assessment of off-the-shelf SE-specific sentiment...][research_novielli_2021]
+- [DeepCrime: mutation testing of deep learning systems...][research_humbatova_2021]
+- [DeepOrder: Deep Learning for Test Case Prioritization in...][research_sharif_2021]
+- [Empirical evaluation of tools for hairy requirements...][research_berry_2021]
+- [Extreme mutation testing in practice: An industrial case...][research_betka_2021]
+- [Genetic programming for feature model synthesis: a...][research_vescan_2021]
+- [Industrial Scale Passive Testing with T-EARS][research_flemstrom_2021]
+- [Lessons Learnt on Reproducibility in Machine Learning...][research_daoudi_2021]
+- [Locating faults with program slicing: an empirical...][research_soremekun_2021]
+- [Reflections on the Empirical Software Engineering journal][research_basili_2021]
+- [Release synchronization in software ecosystems][research_foundjem_2021]
+- [Statement frequency coverage: A code coverage criterion...][research_aghamohammadi_2021]
+- [Test case selection and prioritization using machine...][research_pan_2021]
+- [Understanding and improving the quality and...][research_pimentel_2021]
+- [Weighted Reward for Reinforcement Learning based Test...][research_li_2021_b]
+- [When is Continuous Integration Useful? Empirical Study on...][research_imai_2021]
+- [A Comprehensive Study on Code Coverage Analysis for...][research_bandyopadhyay_2022]
+- [A Multi-Armed Bandit Approach for Test Case...][research_lima_2022]
+- [A Qualitative Study on the Sources, Impacts, and...][research_habchi_2022]
+- [An Empirical Study of Flaky Tests in JavaScript][research_hashemi_2022]
+- [An Improvement to Test Case Prioritization Techniques...][research_khan_2022]
+- [Breaking bad? Semantic versioning and impact of breaking...][research_ochoa_2022]
+- [Checked coverage for test suite reduction][research_koitzhristov_2022]
+- [Cost-effective learning-based strategies for test case...][research_pradolima_2022]
+- [Evaluating classifiers in SE research: the ECSER pipeline...][research_dellanna_2022]
+- [Excluding code from test coverage: practices...][research_hora_2022]
+- [Machine Learning Regression Techniques for Test Case...][research_daroza_2022]
+- [Mutation analysis and its industrial applications][research_gopinath_2022]
+- [Patterns of Code-to-Test Co-evolution for Automated Test...][research_shimmi_2022]
+- [Preempting flaky tests via non-idempotent-outcome tests][research_wei_2022]
+- [Real world projects, real faults: evaluating spectrum...][research_widyasari_2022]
+- [Reinforcement Learning Reward Function for Test Case...][research_mirzaei_2022]
+- [Revisiting the building of past snapshots — a replication...][research_maesbermejo_2022]
+- [Static detection of equivalent mutants in real-time...][research_basile_2022]
+- [The reproducibility of programming-related issues in...][research_mondal_2022]
+- [What do developer-repaired Flaky tests tell us about the...][research_parry_2022]
+- [An Empirical Study of Greedy Test Suite Minimization...][research_jehan_2023]
+- [An Empirical Study of Regression Testing for Android Apps...][research_wang_2023_d]
+- [An Empirical Study on the Correlation between Neuron...][research_li_2023_d]
+- [An Evaluation of Ranking-to-Learn Approaches for Test...][research_lima_2023]
+- [An Improved Method for Test Case Prioritization in...][research_han_2023]
+- [Automated NFR testing in continuous integration...][research_yu_2023]
+- [Comparative study of machine learning test case...][research_marijan_2023]
+- [DeepCrime: from Real Faults to Mutation Testing Tool for...][research_humbatova_2023]
+- [Evaluation of Coverage Metrics for Assessing Test Suite...][research_chippagi_2023]
+- [Guest editorial: special issue on empirical software...][research_baldassarre_2023]
+- [How Closely are Common Mutation Operators Coupled to Real...][research_gay_2023]
+- [How Do Deep Learning Faults Affect AI-Enabled...][research_arrieta_2023]
+- [Model vs system level testing of autonomous driving...][research_stocco_2023]
+- [Mutation Testing in Continuous Integration: An...][research_orgard_2023]
+- [Mutation Testing of Deep Reinforcement Learning Based on...][research_tambon_2023]
+- [Neural Network-Based Test Case Prioritization in...][research_vescan_2023]
+- [On factors that impact the relationship between code...][research_barani_2023]
+- [Operationalizing validity of empirical software...][research_hartel_2023]
+- [Optimizing test case prioritization using machine...][research_sharma_2023_b]
+- [Parallel mutation testing for large scale systems][research_canizares_2023]
+- [Revisiting Machine Learning based Test Case...][research_zhao_2023]
+- [Revisiting the reproducibility of empirical software...][research_gonzalezbaraho_2023]
+- [Scalable and Accurate Test Case Prioritization in...][research_yaraghi_2023]
+- [Semantic Coverage: Measuring Test Suite Effectiveness][research_alblwi_2023]
+- [Semantic‐aware two‐phase test case prioritization for...][research_li_2023_e]
+- [Syntactic Versus Semantic Similarity of Artificial and...][research_ojdanic_2023]
+- [Test Case Prioritization using Transfer Learning in...][research_mamata_2023]
+- [The Vocabulary of Flaky Tests in the Context of SAP HANA][research_berndt_2023]
+- [A Preliminary Framework for Optimising Test Case...][research_ndlovu_2024]
+- [An Empirical Study on Code Coverage of Performance Testing][research_imran_2024]
+- [An Exploratory Study on Soft Skills present in Software...][research_kapitsaki_2024]
+- [An extensive replication study of the ABLoTS approach for...][research_niu_2024]
+- [Cost of Flaky Tests in Continuous Integration: An...][research_leinen_2024]
+- [Deployment and Integration of Machine Learning Methods...][research_wham_2024]
+- [Examining ownership models in software teams][research_koana_2024]
+- [Explainable Test Case Prioritization in Continuous...][research_garg_2024]
+- [Exploring the Effectiveness of LLM based Test-driven...][research_fakhoury_2024]
+- [FlakeSync: Automatically Repairing Async Flaky Tests][research_rahman_2024]
+- [Leveraging Rough Sets for Enhanced Test Case...][research_gaceanu_2024]
+- [Machine Learning for Test Case Prioritization in...][research_kumar_2024_b]
+- [Machine Learning-based Test Case Prioritization using...][research_khan_2024]
+- [Nonlinear Reinforcement Learning-Based Dynamic Test Case...][research_srinivasaraoko_2024]
+- [On the use of contextual information for machine learning...][research_roza_2024]
+- [Reinforcement learning for online testing of autonomous...][research_giamattei_2024]
+- [Test Case Prioritization for Regression Testing Using...][research_sawant_2024]
+- [Test code refactoring unveiled: where and how does it...][research_martins_2024]
+- [Towards enhancing the reproducibility of deep learning...][research_shah_2024]
+- [Using rapid reviews to support software engineering...][research_pizard_2024]
+- [$\mu \text{PRL}$: A Mutation Testing Pipeline for Deep...][research_thomas_2025]
+- [A Defect Taxonomy for Infrastructure as Code: A...][research_oliveira_2025]
+- [A Preliminary Study of Fixed Flaky Tests in Rust Projects...][research_schroeder_2025]
+- [AI-Driven Test Case Generation for Continuous Integration...][research_subrahmanyam_2025]
+- [Achieving High-Integrity Software Quality and Security...][research_niharika_2025]
+- [An Effective GRU-Based Deep Learning Method for Test Case...][research_behera_2025]
+- [An Empirical Study of Web Flaky Tests: Understanding and...][research_pei_2025]
+- [An Environment Adaptation Agent of Reinforcement Learning...][research_li_2025_e]
+- [An Explainable Deep Learning Model in Improving Test Case...][research_ramakrishnan_2025]
+- [Attention Transfer Reinforcement Learning for Test Case...][research_su_2025]
+- [Dynamic Test Case Prioritization and Selection for...][research_waseem_2025]
+- [Evaluating Machine Learning-Based Test Case...][research_son_2025]
+- [How Does Test Code Differ from Production Code in Terms...][research_horikawa_2025]
+- [Identifying and Mitigating Flaky Tests in JavaScript][research_hashemi_2025]
+- [Intelligent Test Case Prioritization: A Review of Machine...][research_razi_2025]
+- [Is code coverage of performance tests related to source...][research_imran_2025]
+- [Mutation Operators for Mutation Testing of Angular Web...][research_augustin_2025]
+- [Mutation Testing for Industrial Robotic Systems][research_goncalvesdossa_2025]
+- [Mutation Testing of Programs for Industrial Robots][research_ashraf_2025]
+- [Opportunities and security risks of technical leverage: A...][research_samaana_2025]
+- [Optimizing Test Case Prioritization With Meta Deep...][research_alrakban_2025]
+- [Ranking Relevant Tests for Order-Dependent Flaky Tests][research_rahman_2025]
+- [Rechecking Recheck Requests in Continuous Integration: An...][research_brus_2025]
+- [Reimagining Studies’ Replication: A Validity-Driven...][research_azevedo_2025]
+- [Reproducibility Practices of Software Engineering...][research_cordeiro_2025]
+- [Reviewing Reproducibility in Software Engineering Research][research_cordeiro_2025_b]
+- [muttest: Mutation Testing][research_sobolewski_2025]
+- [A large-scale empirical study of configurations, errors...][research_zhang_2026_e]
+- [Adaptive and Explainable Test Case Prioritization in...][research_kongarana_2026]
+- [Beyond Coverage: Automatic Test Suite Augmentation for...][research_lu_2026]
+- [Can We Classify Flaky Tests Using Only Test Code? an...][research_berndt_2026]
+- [Fuzzy-Graph Contrastive Test Case Prioritization...][research_kumar_2026]
+- [Industrial Application of Deep Learning based Fault...][research_yang_2026_b]
+- [Interruptibility of software developers and its...][research_poreba_2026]
+- [Is this build failure related to my patch? An empirical...][research_huang_2026_b]
+- [Mitigating omitted variable bias in empirical software...][research_furia_2026]
+- [Neural-MCTS Test Prioritization for Smart Contract...][research_barboni_2026]
 
 **Instruction-level coverage is a metric that became a target.** It is the measure a bring-up effort
 naturally reports because it moves smoothly and always improves, and it is nearly uninformative about
@@ -2382,135 +2394,137 @@ whether anything works.
 
 The Shapley machinery invoked for the attribution problem is no longer a game-theory curiosity. It is
 production tooling for model explanation and data valuation, and submodular maximisation acquired streaming
-and distributed algorithms, in [Randomized Composable Core-sets for Distributed...][research_mirrokni_2015],
-[Risk Attribution Using the Shapley Value: Methodology and...][research_tarashev_2015],
-[Submodular maximization meets streaming: matchings...][research_chakrabarti_2015],
-[On distributed submodular maximization with limited...][research_gharesifard_2016],
-[The Shapley Value as a Sustainable Cooperative Solution...][research_gromova_2016],
-[A distributed algorithm for partitioned robust submodular...][research_bogunovic_2017],
-[Bicriteria Distributed Submodular Maximization in a Few...][research_epasto_2017],
-[Shapley Value of a Cooperative Game with Fuzzy Set of...][research_mashchenko_2017],
-[Distributed Submodular Maximization on Partition Matroids...][research_corah_2018],
-[Distributed matroid-constrained submodular maximization...][research_corah_2018_b],
-[Greedily Excluding Algorithm for Submodular Maximization][research_seo_2018],
-[Streaming Non-Monotone Submodular Maximization...][research_mirzasoleiman_2018],
-[An Approximation Algorithm for Distributed Resilient...][research_zhou_2019],
-[Collaboration Formation and Profit Sharing Between...][research_fahimullah_2019],
-[Distributed Submodular Maximization with Bounded...][research_castiglia_2019],
-[Hodge decomposition and the Shapley value of a...][research_stern_2019],
-[Shapley Value Approximation with Divisive Clustering][research_corder_2019],
-[Streaming Submodular Maximization Under Noises][research_yang_2019],
-[The Shapley Value, a Crown Jewel of Cooperative Game...][research_thomson_2019],
-[The Shapley and Position Values to Design Coalitional...][research_muros_2019],
-[A cooperative game theory application in chicks brood...][research_haque_2020],
-[An Improved Shapley Value Benefit Distribution Mechanism...][research_xie_2020],
-[Distributed Attack-Robust Submodular Maximization for...][research_zhou_2020],
-[Distributed Maximization of Submodular and Approximately...][research_ye_2020],
-[Distributed Submodular Maximization with Parallel...][research_sun_2020],
-[Sequence submodular maximization meets streaming][research_yang_2020],
-[A Multi-pass Streaming Algorithm for Regularized...][research_gong_2021],
-[A Streaming Model for Monotone Lattice Submodular...][research_zhang_2021_b],
-[Fast derivation of Shapley based feature importances...][research_liu_2021_b],
-[Fixed-size video summarization over streaming data via...][research_lu_2021],
-[Improved Prediction of Total Energy Consumption and...][research_pokharel_2021],
-[Multi-Pass Streaming Algorithms for Monotone Submodular...][research_huang_2021],
-[One‐pass streaming algorithm for monotone lattice...][research_zhang_2021_c],
-[Shapley-Value Data Valuation for Semi-supervised Learning][research_courtnage_2021],
-[Streaming algorithms for robust submodular maximization][research_yang_2021],
-[A Programming Approach for Worst-case Studies in...][research_downie_2022],
-[An Optimal Streaming Algorithm for Submodular...][research_alaluf_2022],
-[An optimal streaming algorithm for non-submodular...][research_liu_2022_b],
-[Application of an Improved Shapley Value Method in...][research_ma_2022],
-[CS-Shapley: Class-Wise Shapley Values for Data Valuation...][research_schoch_2022],
-[Data Shapley Valuation for Efficient Batch Active Learning][research_ghorbani_2022],
-[Distributed submodular maximization: trading performance...][research_rezazadeh_2022],
-[One-pass streaming algorithm for DR-submodular...][research_tan_2022],
-[Poster Abstract: Towards Shapley Value based Security...][research_marbukh_2022],
-[Regularized two-stage submodular maximization under...][research_yang_2022_b],
-[Resource-Aware Distributed Submodular Maximization: A...][research_xu_2022_b],
-[Shapley Value is an Equitable Metric for Data Valuation][research_shobeiri_2022],
-[Streaming submodular maximization under d-knapsack...][research_chen_2022_b],
-[A Model-Agnostic Feature Attribution Approach to...][research_fan_2023],
-[Algorithms to estimate Shapley value feature attributions][research_chen_2023_b],
-[Cooperative game amongst prefabricated building chain...][research_zhao_2023_b],
-[DASH: A Distributed and Parallelizable Algorithm for...][research_dey_2023],
-[Data valuation using Shapley value in machine learning][research_sharma_2023_c],
-[Distributed strategy selection: A submodular set function...][research_rezazadeh_2023],
-[Erratum: Weighted shapley value: a cooperative game...][research_anon_2023_b],
-[Fair and Efficient Alternatives to Shapley-based...][research_condevaux_2023],
-[Integrating Staleness and Shapley Value Consistency for...][research_jiang_2023],
-[Machine Learning for Data Center Optimizations: Feature...][research_gebreyesus_2023],
-[Streaming Algorithms for Constrained Submodular...][research_cui_2023_b],
-[Streaming Algorithms for Non-Submodular Maximization on...][research_tan_2023_b],
-[Streaming adaptive submodular maximization][research_tang_2023],
-[Weighted shapley value: A cooperative game theory for...][research_singh_2023],
-[Zoish: A Novel Feature Selection Approach Leveraging...][research_sadaei_2023],
-[A Semi-streaming Algorithm for Monotone Regularized...][research_nong_2024],
-[An Improved Space Semi-Streaming Algorithm for Submodular...][research_bao_2024],
-[An innovative machine learning workflow to research...][research_wang_2024_c],
-[Applications and Computation of the Shapley Value in...][research_luo_2024],
-[Approximation Algorithm for Connected Submodular Function...][research_xu_2024],
-[Blending Shapley values for feature ranking in machine...][research_guleria_2024],
-[Bridging efficacy and efficiency: Innovations in Shapley...][research_yang_2024_c],
-[Codes for machine learning and Shapley value analysis][research_he_2024],
-[DU-Shapley: A Shapley Value Proxy for Efficient Dataset...][research_garridolucero_2024],
-[Deterministic Algorithm and Faster Algorithm for...][research_buchbinder_2024],
-[Deterministic streaming algorithms for non-monotone...][research_sun_2024],
-[Efficient Shapley Value Driven Federated Learning System...][research_wu_2024_b],
-[Efficient Shapley performance attribution for...][research_bell_2024],
-[Explaining 3D Object Detection Through Shapley...][research_kuroki_2024],
-[Greedy algorithm for maximization of semi-monotone...][research_shi_2024],
-[Greedy+Singleton: An efficient approximation algorithm...][research_tang_2024],
-[Machine learning models with distinct Shapley value...][research_roth_2024],
-[Machine learning-based modelling, feature importance and...][research_karathanasopou_2024],
-[Multipass Streaming Algorithms for Regularized Submodular...][research_gong_2024],
-[Optimizing Shapley Value for Client Valuation in...][research_arbaoui_2024],
-[SHapley Additive exPlanations (SHAP) for Efficient...][research_santos_2024],
-[Semi-streaming Algorithms for Submodular Function...][research_huang_2024_b],
-[Shapley value in machine learning modeling: optimizing...][research_ciano_2024],
-[Shapley value: from cooperative game to explainable...][research_li_2024_c],
-[Shapley-Based Data Valuation Method for the Machine...][research_baghcheband_2024],
-[The Forward-Reverse Greedy Algorithm for Distributed...][research_tackett_2024],
-[Why Shapley Value and Its Variants Are Useful in Machine...][research_bokati_2024],
-[A Scalable and Efficient Intrusion Detection System Based...][research_rocca_2025],
-[DERIVATIVE-BASED SHAPLEY VALUE FOR GLOBAL SENSITIVITY...][research_duan_2025],
-[Data Valuation Method Based on Federated Learning and...][research_tan_2025_b],
-[Data Valuation with Shapley-based Methods for Medical...][research_akcelik_2025],
-[Data valuation with Leave-One-Out (LOO) test and Shapley...][research_martin_2025],
-[Deterministic Algorithm and Faster Algorithm for...][research_buchbinder_2025],
-[Fast Shapley Value Approximation Through Machine Learning...][research_guckel_2025],
-[Heterogeneous Graph Data Valuation: A Shapley Value-based...][research_tang_2025_b],
-[Integrating Shapley Value and Least Core Attribution for...][research_wang_2025_b],
-[Localized Data Shapley: Accelerating Valuation for...][research_zhang_2025_c],
-[Offline and Online Distributed Submodular Maximization...][research_ye_2025],
-[Online and Streaming Algorithms for Constrained...][research_spaeh_2025],
-[Optimizing Task Allocation in IT Project Management Using...][research_garmsirinejad_2025],
-[Privacy-Preserving Feature Valuation in Vertical...][research_laskurain_2025],
-[Reward-Aware Shapley Compensation: a Probabilistic and...][research_li_2025_f],
-[Shapley Patch Valuation Method for Histopathological...][research_karadeniz_2025],
-[Shapley value-based data valuation for machine learning...][research_baghcheband_2025],
-[Shapley-Based Data Valuation for Weighted $k$-Nearest...][research_zhang_2025_d],
-[Shapley-Based Data Valuation with Mutual Information: A...][research_vahedifar_2025],
-[Shapley-Value Based Feature Attribution for...][research_aldarmini_2025],
-[Streaming Stochastic Submodular Maximization with...][research_wang_2025_c],
-[Streaming algorithms for non-monotone DR-submodular...][research_zhang_2025_e],
-[Toward learnable and interpretable data Shapley valuation...][research_li_2025_g],
-[k-Submodular Maximization Under Individual Knapsack...][research_tran_2025],
-[A Priority-Ordered Swapping Algorithm for Submodular...][research_peng_2026],
-[A Shapley-value cooperative game-based risk decision...][research_wang_2026],
-[A primal-dual algorithm for monotone submodular...][research_chakrabarty_2026],
-[A streaming algorithm for non-monotone regularized...][research_zhang_2026_f],
-[Dynamic valuation of data assets via multi-agent...][research_xie_2026],
-[Energy-Based Model for Accurate Estimation of Shapley...][research_lu_2026_b],
-[Improving the accuracy and stability of privacy-aware...][research_tang_2026_b],
-[LTSV: Layered Type-Constrained Shapley Value for...][research_tang_2026_c],
-[Light Shapley: Improving the Scalability of Equitable...][research_li_2026_b],
-[P30 - Möbius-Shapley: Native Feature Attribution for...][research_dhahbi_2026],
-[Ripple Shapley: Data Influence Attribution in One...][research_zeng_2026],
-[Shapley Value-Based Feature Attribution for Data Masking][research_qu_2026],
-[Streaming Submodular Maximization Under Matroid...][research_feldman_2026],
-[Streaming submodular maximization with fairness...][research_guo_2026_b],
-[Submodular Maximization Subject to Uniform and Partition...][research_kia_2026].
+and distributed algorithms.
+
+- [Randomized Composable Core-sets for Distributed...][research_mirrokni_2015]
+- [Risk Attribution Using the Shapley Value: Methodology and...][research_tarashev_2015]
+- [Submodular maximization meets streaming: matchings...][research_chakrabarti_2015]
+- [On distributed submodular maximization with limited...][research_gharesifard_2016]
+- [The Shapley Value as a Sustainable Cooperative Solution...][research_gromova_2016]
+- [A distributed algorithm for partitioned robust submodular...][research_bogunovic_2017]
+- [Bicriteria Distributed Submodular Maximization in a Few...][research_epasto_2017]
+- [Shapley Value of a Cooperative Game with Fuzzy Set of...][research_mashchenko_2017]
+- [Distributed Submodular Maximization on Partition Matroids...][research_corah_2018]
+- [Distributed matroid-constrained submodular maximization...][research_corah_2018_b]
+- [Greedily Excluding Algorithm for Submodular Maximization][research_seo_2018]
+- [Streaming Non-Monotone Submodular Maximization...][research_mirzasoleiman_2018]
+- [An Approximation Algorithm for Distributed Resilient...][research_zhou_2019]
+- [Collaboration Formation and Profit Sharing Between...][research_fahimullah_2019]
+- [Distributed Submodular Maximization with Bounded...][research_castiglia_2019]
+- [Hodge decomposition and the Shapley value of a...][research_stern_2019]
+- [Shapley Value Approximation with Divisive Clustering][research_corder_2019]
+- [Streaming Submodular Maximization Under Noises][research_yang_2019]
+- [The Shapley Value, a Crown Jewel of Cooperative Game...][research_thomson_2019]
+- [The Shapley and Position Values to Design Coalitional...][research_muros_2019]
+- [A cooperative game theory application in chicks brood...][research_haque_2020]
+- [An Improved Shapley Value Benefit Distribution Mechanism...][research_xie_2020]
+- [Distributed Attack-Robust Submodular Maximization for...][research_zhou_2020]
+- [Distributed Maximization of Submodular and Approximately...][research_ye_2020]
+- [Distributed Submodular Maximization with Parallel...][research_sun_2020]
+- [Sequence submodular maximization meets streaming][research_yang_2020]
+- [A Multi-pass Streaming Algorithm for Regularized...][research_gong_2021]
+- [A Streaming Model for Monotone Lattice Submodular...][research_zhang_2021_b]
+- [Fast derivation of Shapley based feature importances...][research_liu_2021_b]
+- [Fixed-size video summarization over streaming data via...][research_lu_2021]
+- [Improved Prediction of Total Energy Consumption and...][research_pokharel_2021]
+- [Multi-Pass Streaming Algorithms for Monotone Submodular...][research_huang_2021]
+- [One‐pass streaming algorithm for monotone lattice...][research_zhang_2021_c]
+- [Shapley-Value Data Valuation for Semi-supervised Learning][research_courtnage_2021]
+- [Streaming algorithms for robust submodular maximization][research_yang_2021]
+- [A Programming Approach for Worst-case Studies in...][research_downie_2022]
+- [An Optimal Streaming Algorithm for Submodular...][research_alaluf_2022]
+- [An optimal streaming algorithm for non-submodular...][research_liu_2022_b]
+- [Application of an Improved Shapley Value Method in...][research_ma_2022]
+- [CS-Shapley: Class-Wise Shapley Values for Data Valuation...][research_schoch_2022]
+- [Data Shapley Valuation for Efficient Batch Active Learning][research_ghorbani_2022]
+- [Distributed submodular maximization: trading performance...][research_rezazadeh_2022]
+- [One-pass streaming algorithm for DR-submodular...][research_tan_2022]
+- [Poster Abstract: Towards Shapley Value based Security...][research_marbukh_2022]
+- [Regularized two-stage submodular maximization under...][research_yang_2022_b]
+- [Resource-Aware Distributed Submodular Maximization: A...][research_xu_2022_b]
+- [Shapley Value is an Equitable Metric for Data Valuation][research_shobeiri_2022]
+- [Streaming submodular maximization under d-knapsack...][research_chen_2022_b]
+- [A Model-Agnostic Feature Attribution Approach to...][research_fan_2023]
+- [Algorithms to estimate Shapley value feature attributions][research_chen_2023_b]
+- [Cooperative game amongst prefabricated building chain...][research_zhao_2023_b]
+- [DASH: A Distributed and Parallelizable Algorithm for...][research_dey_2023]
+- [Data valuation using Shapley value in machine learning][research_sharma_2023_c]
+- [Distributed strategy selection: A submodular set function...][research_rezazadeh_2023]
+- [Erratum: Weighted shapley value: a cooperative game...][research_anon_2023_b]
+- [Fair and Efficient Alternatives to Shapley-based...][research_condevaux_2023]
+- [Integrating Staleness and Shapley Value Consistency for...][research_jiang_2023]
+- [Machine Learning for Data Center Optimizations: Feature...][research_gebreyesus_2023]
+- [Streaming Algorithms for Constrained Submodular...][research_cui_2023_b]
+- [Streaming Algorithms for Non-Submodular Maximization on...][research_tan_2023_b]
+- [Streaming adaptive submodular maximization][research_tang_2023]
+- [Weighted shapley value: A cooperative game theory for...][research_singh_2023]
+- [Zoish: A Novel Feature Selection Approach Leveraging...][research_sadaei_2023]
+- [A Semi-streaming Algorithm for Monotone Regularized...][research_nong_2024]
+- [An Improved Space Semi-Streaming Algorithm for Submodular...][research_bao_2024]
+- [An innovative machine learning workflow to research...][research_wang_2024_c]
+- [Applications and Computation of the Shapley Value in...][research_luo_2024]
+- [Approximation Algorithm for Connected Submodular Function...][research_xu_2024]
+- [Blending Shapley values for feature ranking in machine...][research_guleria_2024]
+- [Bridging efficacy and efficiency: Innovations in Shapley...][research_yang_2024_c]
+- [Codes for machine learning and Shapley value analysis][research_he_2024]
+- [DU-Shapley: A Shapley Value Proxy for Efficient Dataset...][research_garridolucero_2024]
+- [Deterministic Algorithm and Faster Algorithm for...][research_buchbinder_2024]
+- [Deterministic streaming algorithms for non-monotone...][research_sun_2024]
+- [Efficient Shapley Value Driven Federated Learning System...][research_wu_2024_b]
+- [Efficient Shapley performance attribution for...][research_bell_2024]
+- [Explaining 3D Object Detection Through Shapley...][research_kuroki_2024]
+- [Greedy algorithm for maximization of semi-monotone...][research_shi_2024]
+- [Greedy+Singleton: An efficient approximation algorithm...][research_tang_2024]
+- [Machine learning models with distinct Shapley value...][research_roth_2024]
+- [Machine learning-based modelling, feature importance and...][research_karathanasopou_2024]
+- [Multipass Streaming Algorithms for Regularized Submodular...][research_gong_2024]
+- [Optimizing Shapley Value for Client Valuation in...][research_arbaoui_2024]
+- [SHapley Additive exPlanations (SHAP) for Efficient...][research_santos_2024]
+- [Semi-streaming Algorithms for Submodular Function...][research_huang_2024_b]
+- [Shapley value in machine learning modeling: optimizing...][research_ciano_2024]
+- [Shapley value: from cooperative game to explainable...][research_li_2024_c]
+- [Shapley-Based Data Valuation Method for the Machine...][research_baghcheband_2024]
+- [The Forward-Reverse Greedy Algorithm for Distributed...][research_tackett_2024]
+- [Why Shapley Value and Its Variants Are Useful in Machine...][research_bokati_2024]
+- [A Scalable and Efficient Intrusion Detection System Based...][research_rocca_2025]
+- [DERIVATIVE-BASED SHAPLEY VALUE FOR GLOBAL SENSITIVITY...][research_duan_2025]
+- [Data Valuation Method Based on Federated Learning and...][research_tan_2025_b]
+- [Data Valuation with Shapley-based Methods for Medical...][research_akcelik_2025]
+- [Data valuation with Leave-One-Out (LOO) test and Shapley...][research_martin_2025]
+- [Deterministic Algorithm and Faster Algorithm for...][research_buchbinder_2025]
+- [Fast Shapley Value Approximation Through Machine Learning...][research_guckel_2025]
+- [Heterogeneous Graph Data Valuation: A Shapley Value-based...][research_tang_2025_b]
+- [Integrating Shapley Value and Least Core Attribution for...][research_wang_2025_b]
+- [Localized Data Shapley: Accelerating Valuation for...][research_zhang_2025_c]
+- [Offline and Online Distributed Submodular Maximization...][research_ye_2025]
+- [Online and Streaming Algorithms for Constrained...][research_spaeh_2025]
+- [Optimizing Task Allocation in IT Project Management Using...][research_garmsirinejad_2025]
+- [Privacy-Preserving Feature Valuation in Vertical...][research_laskurain_2025]
+- [Reward-Aware Shapley Compensation: a Probabilistic and...][research_li_2025_f]
+- [Shapley Patch Valuation Method for Histopathological...][research_karadeniz_2025]
+- [Shapley value-based data valuation for machine learning...][research_baghcheband_2025]
+- [Shapley-Based Data Valuation for Weighted $k$-Nearest...][research_zhang_2025_d]
+- [Shapley-Based Data Valuation with Mutual Information: A...][research_vahedifar_2025]
+- [Shapley-Value Based Feature Attribution for...][research_aldarmini_2025]
+- [Streaming Stochastic Submodular Maximization with...][research_wang_2025_c]
+- [Streaming algorithms for non-monotone DR-submodular...][research_zhang_2025_e]
+- [Toward learnable and interpretable data Shapley valuation...][research_li_2025_g]
+- [k-Submodular Maximization Under Individual Knapsack...][research_tran_2025]
+- [A Priority-Ordered Swapping Algorithm for Submodular...][research_peng_2026]
+- [A Shapley-value cooperative game-based risk decision...][research_wang_2026]
+- [A primal-dual algorithm for monotone submodular...][research_chakrabarty_2026]
+- [A streaming algorithm for non-monotone regularized...][research_zhang_2026_f]
+- [Dynamic valuation of data assets via multi-agent...][research_xie_2026]
+- [Energy-Based Model for Accurate Estimation of Shapley...][research_lu_2026_b]
+- [Improving the accuracy and stability of privacy-aware...][research_tang_2026_b]
+- [LTSV: Layered Type-Constrained Shapley Value for...][research_tang_2026_c]
+- [Light Shapley: Improving the Scalability of Equitable...][research_li_2026_b]
+- [P30 - Möbius-Shapley: Native Feature Attribution for...][research_dhahbi_2026]
+- [Ripple Shapley: Data Influence Attribution in One...][research_zeng_2026]
+- [Shapley Value-Based Feature Attribution for Data Masking][research_qu_2026]
+- [Streaming Submodular Maximization Under Matroid...][research_feldman_2026]
+- [Streaming submodular maximization with fairness...][research_guo_2026_b]
+- [Submodular Maximization Subject to Uniform and Partition...][research_kia_2026]
 
 **The transfer runs the wrong way for the present problem.** Those literatures overwhelmingly assume a
 submodular or approximately submodular objective, because that is where the guarantees live.
@@ -2520,130 +2534,131 @@ aside, so the tooling is available and the guarantees are not.
 ### The compiler started learning, which changes the corpus
 
 Machine learning entered the compiler itself, in phase ordering, learned cost models and heuristic
-replacement, and large language models entered code production, in
-[Checking correctness of code generator architecture...][research_hasabnis_2015],
-[Compiler-Directed Power Management for Superscalars][research_hajyihia_2015],
-[S-compiler: A code vulnerability detection method][research_monicacatherin_2015],
-[A Compiler Approach for Exploiting Partial SIMD...][research_zhou_2016],
-[A graph-based iterative compiler pass selection and phase...][research_nobre_2016],
-[Clustering-Based Selection for the Exploration of...][research_martins_2016],
-[JavaScript Parallelizing Compiler for Exploiting...][research_na_2016],
-[Compiler-Assisted Loop Hardening Against Fault Attacks][research_proy_2017],
-[On the Interactions Between Value Prediction and Compiler...][research_endo_2017],
-[Machine Learning in Compiler Optimization][research_wang_2018_c],
-[AutoPhase: Compiler Phase-Ordering for HLS with Deep...][research_huang_2019_b],
-[Nonio — modular automatic compiler phase selection and...][research_nobre_2019],
-[Identifying Compiler and Optimization Options from Binary...][research_pizzolotto_2020],
-[Reliable Compilation Optimization Phase-ordering...][research_wu_2020_b],
-[Automatic Joint Optimization of Algorithm-Level...][research_liu_2021_c],
-[Identifying Compiler and Optimization Level in Binary...][research_pizzolotto_2021],
-[Memory Utilization and Machine Learning Techniques for...][research_shreyasmadhav_2021],
-[Towards Compile-Time-Reducing Compiler Optimization...][research_jayatilaka_2021],
-[A Novel Prediction Model for Compiler Optimization with...][research_kadam_2022],
-[Automating reinforcement learning architecture design for...][research_wang_2022_b],
-[CARL: Compiler Assigned Reference Leasing][research_ding_2022_b],
-[Compiler Optimization Parameter Selection Method Based on...][research_liu_2022_c],
-[Compiler Support for Sparse Tensor Computations in MLIR][research_bik_2022],
-[Hybrid Approach based on Multi‐agent System and Fuzzy...][research_yahyaoui_2022],
-[Language models can prioritize patches for practical...][research_kang_2022],
-[Object Intersection Captures on Interactive Apps to Drive...][research_mpeis_2022],
-[An Evaluation Method for Large Language Models’ Code...][research_su_2023],
-[Automated Program Repair in the Era of Large Pre-trained...][research_xia_2023],
-[Compiler Optimization for Quantum Computing Using...][research_quetschlich_2023],
-[Is Your Code Generated by ChatGPT Really Correct?...][research_liu_2023_b],
-[Large Language Models for Automated Program Repair][research_ribeiro_2023],
-[Work-in-Progress: Searching Optimal Compiler Optimization...][research_chang_2023],
-[A Comparative Evaluation of Prompting Strategies for Code...][research_fanyizhao_2024],
-[A Digital Twin Modeling Code Generation Framework based...][research_dong_2024],
-[A Multi-Expert Large Language Model Architecture for...][research_nadimi_2024],
-[A Survey of Optimized Compiler Using Advanced Machine...][research_pandey_2024],
-[Advancements and Challenges of Large Language Model-Based...][research_wang_2024_d],
-[Assessing the Impact of Compiler Optimizations on GPUs...][research_santos_2024_b],
-[Automated C/C++ Program Repair for High-Level Synthesis...][research_xu_2024_b],
-[Chinese Generation and Security Index Evaluation Based on...][research_zhang_2024_c],
-[CodeJudge: Evaluating Code Generation with Large Language...][research_tong_2024],
-[Compiler-Based Memory Encryption for Machine Learning on...][research_maeng_2024],
-[Exponentially Expanding the Phase-Ordering Search Space...][research_han_2024_b],
-[FormalEval: A Method for Automatic Evaluation of Code...][research_yang_2024_d],
-[LLM-based Control Code Generation using Image Recognition][research_koziolek_2024],
-[Large Language Models Meet Automated Program Repair...][research_tang_2024_b],
-[Large Language Models in Automated Repair of Haskell Type...][research_santos_2024_c],
-[Machine Learning Based Compiler Optimization Technique][research_iqbal_2024],
-[Machine Learning-Driven GCC Loop Unrolling Optimization...][research_shi_2024_b],
-[Research on Program Automatic Repair Method Combining...][research_li_2024_d],
-[WhiteFox: White-Box Compiler Fuzzing Empowered by Large...][research_yang_2024_e],
-[A Systematic Review about Large Language Models (LLMs)...][research_alecsandrobaci_2025],
-[AI for Code: Reinforcement-Learned Compiler Optimizations...][research_peta_2025],
-[APICoder: A Multi-Role Large Language Model Framework for...][research_yang_2025],
-[AUTOMATED GENERATION AND EVALUATION OF VOCABULARY TESTS...][research_nakanishi_2025],
-[Advancements in AI-Based Compiler Optimization Techniques...][research_shankar_2025],
-[Applying Knowledge-Guided Deep Reinforcement Learning...][research_li_2025_h],
-[Balancing Security and Correctness in Code Generation: An...][research_black_2025],
-[Beyond Functional Correctness: An Empirical Evaluation of...][research_nogueira_2025],
-[CWEval: Outcome-driven Evaluation on Functionality and...][research_peng_2025],
-[Can AI Fix Buggy Code? Exploring the Use of Large...][research_zhang_2025_f],
-[Causality-Aided Evaluation and Explanation of Large...][research_ji_2025],
-[Compiler-Assisted Optimization Using Neural Code...][research_matteordonelli_2025],
-[Compiler-R1: Towards Agentic Compiler Auto-tuning with...][research_pan_2025],
-[CompilerGPT: Leveraging Large Language Models for...][research_pirkelbauer_2025],
-[DeCOS: Data-Efficient Reinforcement Learning for Compiler...][research_cui_2025_b],
-[Efficient program optimization through knowledge-enhanced...][research_xu_2025],
-[EvoAPR: Enhancing Large Language Models for Automatic...][research_zhang_2025_g],
-[Exploiting Booster Pass Chain for Compiler Phase Ordering][research_chen_2025_b],
-[Finding Missed Code Size Optimizations in Compilers using...][research_italiano_2025],
-[Finetune-Then-Merge: Democratizing Large Language Model...][research_che_2025],
-[Holistic evaluation of LLM-Based Code Generation][research_holl_2025],
-[Hybrid Automated Program Repair by Combining Large...][research_li_2025_i],
-[Implement Machine Learning to Schedule Instructions to...][research_rajendran_2025],
-[InstructRepair: Instruct Large Language Models With Rich...][research_fu_2025],
-[Knowledge Graph Based Repository-Level Code Generation][research_athale_2025],
-[LMFuzz: Program repair fuzzing based on large language...][research_lin_2025],
-[Large Language Model Generation Safety: A Comprehensive...][research_zhang_2025_h],
-[LegoFuzz: Interleaving Large Language Models for Compiler...][research_ni_2025_b],
-[Leveraging Compilation Statistics for Compiler Phase...][research_zhao_2025_b],
-[Model-Driven Quantum Code Generation Using Large Language...][research_siavash_2025],
-[Navigating the SIMD Optimization Maze: A Reinforcement...][research_pan_2025_b],
-[Optimization, Machine Learning, and Fuzzy Logic][research_kingslystephen_2025],
-[Proving the Coding Interview: A Benchmark for Formally...][research_dougherty_2025],
-[ReAPR: Automatic program repair via retrieval-augmented...][research_liu_2025_d],
-[Reductive Analysis with Compiler-Guided Large Language...][research_wang_2025_d],
-[RepairBench: Leaderboard of Frontier Models for Program...][research_silva_2025],
-[Research on Compiler Optimization Technology Based on...][research_cui_2025_c],
-[Revisiting Unnaturalness for Automated Program Repair in...][research_yang_2025_b],
-[Role-Aware Intelligent Agent Framework for Enhanced Code...][research_roshan_2025],
-[SPRoC: Semantics-Preserving Mutations for Robustness...][research_shi_2025],
-[Supporting Dynamic Program Sizes in Deep Learning-Based...][research_hakimi_2025],
-[T 3 : Multi-level Tree-based Automatic Program Repair...][research_liu_2025_e],
-[TOWARDS AUTONOMOUS CODE OPTIMIZATION: A REINFORCEMENT...][research_svenkatesan_2025],
-[Template-Guided Program Repair in the Era of Large...][research_huang_2025],
-[The Impact of Fine-Tuning Large Language Models on...][research_machacek_2025],
-[The use of large language models for program repair][research_zubair_2025],
-[Toward Green Code: Prompting Small Language Models for...][research_ashraf_2025_b],
-[Usage of Large Language Model for Code Generation Tasks...][research_bistarelli_2025],
-[VEGA: Automatically Generating Compiler Backends using a...][research_zhong_2025],
-[A Systematic Literature Review on Automated Program...][research_hamdi_2026],
-[A comparative analysis of the role of Large Language...][research_patricio_2026],
-[Academic english writing generation-evaluation...][research_yingzhe_2026],
-[An overview of evaluation and enhancement methods for...][research_truong_2026],
-[ArkTS code generation: A comprehensive evaluation with...][research_erkus_2026],
-[Automatic Program Repair Using Large Language Models in...][research_ajiki_2026],
-[Automating code generation for a new ecosystem...][research_aytekin_2026],
-[Benchmarking Cross-Language Code Smell Detection with...][research_moldovan_2026],
-[Can test cases generated by large language models...][research_zhang_2026_g],
-[Combining Static Code Analysis and Large Language Models...][research_neumuller_2026],
-[Exploring Generalizable Automated Program Repair With...][research_campos_2026],
-[From Natural Language to Interpretable Code: Automated...][research_chen_2026],
-[Large Language Model-Based Interactive Code Generation...][research_hamasaki_2026],
-[Large Language Models for Code Translation: An In-Depth...][research_feischl_2026],
-[Model-Agnostic Empirical Evaluation of Test-Driven Prompt...][research_rizqullah_2026],
-[PredComp: Predicting Compiler Optimization Options with...][research_gao_2026],
-[PromptTone: A Dataset for Evaluating Large Language Model...][research_andruccioli_2026],
-[Protean Compiler: An Agile Framework to Drive Fine-grain...][research_ashouri_2026],
-[RE-APR: Reasoning-Enhanced Automated Program Repair via...][research_du_2026],
-[Rethinking Correctness and Efficiency in AI-Assisted Code...][research_altunel_2026],
-[SAGE: A Compiler-assisted Reinforcement Learning-based...][research_maity_2026],
-[Technical Perspective: Fusing Large Language Models with...][research_bavota_2026],
-[Towards defect-type-aware adaptive program repair: A...][research_zhang_2026_h].
+replacement, and large language models entered code production.
+
+- [Checking correctness of code generator architecture...][research_hasabnis_2015]
+- [Compiler-Directed Power Management for Superscalars][research_hajyihia_2015]
+- [S-compiler: A code vulnerability detection method][research_monicacatherin_2015]
+- [A Compiler Approach for Exploiting Partial SIMD...][research_zhou_2016]
+- [A graph-based iterative compiler pass selection and phase...][research_nobre_2016]
+- [Clustering-Based Selection for the Exploration of...][research_martins_2016]
+- [JavaScript Parallelizing Compiler for Exploiting...][research_na_2016]
+- [Compiler-Assisted Loop Hardening Against Fault Attacks][research_proy_2017]
+- [On the Interactions Between Value Prediction and Compiler...][research_endo_2017]
+- [Machine Learning in Compiler Optimization][research_wang_2018_c]
+- [AutoPhase: Compiler Phase-Ordering for HLS with Deep...][research_huang_2019_b]
+- [Nonio — modular automatic compiler phase selection and...][research_nobre_2019]
+- [Identifying Compiler and Optimization Options from Binary...][research_pizzolotto_2020]
+- [Reliable Compilation Optimization Phase-ordering...][research_wu_2020_b]
+- [Automatic Joint Optimization of Algorithm-Level...][research_liu_2021_c]
+- [Identifying Compiler and Optimization Level in Binary...][research_pizzolotto_2021]
+- [Memory Utilization and Machine Learning Techniques for...][research_shreyasmadhav_2021]
+- [Towards Compile-Time-Reducing Compiler Optimization...][research_jayatilaka_2021]
+- [A Novel Prediction Model for Compiler Optimization with...][research_kadam_2022]
+- [Automating reinforcement learning architecture design for...][research_wang_2022_b]
+- [CARL: Compiler Assigned Reference Leasing][research_ding_2022_b]
+- [Compiler Optimization Parameter Selection Method Based on...][research_liu_2022_c]
+- [Compiler Support for Sparse Tensor Computations in MLIR][research_bik_2022]
+- [Hybrid Approach based on Multi‐agent System and Fuzzy...][research_yahyaoui_2022]
+- [Language models can prioritize patches for practical...][research_kang_2022]
+- [Object Intersection Captures on Interactive Apps to Drive...][research_mpeis_2022]
+- [An Evaluation Method for Large Language Models’ Code...][research_su_2023]
+- [Automated Program Repair in the Era of Large Pre-trained...][research_xia_2023]
+- [Compiler Optimization for Quantum Computing Using...][research_quetschlich_2023]
+- [Is Your Code Generated by ChatGPT Really Correct?...][research_liu_2023_b]
+- [Large Language Models for Automated Program Repair][research_ribeiro_2023]
+- [Work-in-Progress: Searching Optimal Compiler Optimization...][research_chang_2023]
+- [A Comparative Evaluation of Prompting Strategies for Code...][research_fanyizhao_2024]
+- [A Digital Twin Modeling Code Generation Framework based...][research_dong_2024]
+- [A Multi-Expert Large Language Model Architecture for...][research_nadimi_2024]
+- [A Survey of Optimized Compiler Using Advanced Machine...][research_pandey_2024]
+- [Advancements and Challenges of Large Language Model-Based...][research_wang_2024_d]
+- [Assessing the Impact of Compiler Optimizations on GPUs...][research_santos_2024_b]
+- [Automated C/C++ Program Repair for High-Level Synthesis...][research_xu_2024_b]
+- [Chinese Generation and Security Index Evaluation Based on...][research_zhang_2024_c]
+- [CodeJudge: Evaluating Code Generation with Large Language...][research_tong_2024]
+- [Compiler-Based Memory Encryption for Machine Learning on...][research_maeng_2024]
+- [Exponentially Expanding the Phase-Ordering Search Space...][research_han_2024_b]
+- [FormalEval: A Method for Automatic Evaluation of Code...][research_yang_2024_d]
+- [LLM-based Control Code Generation using Image Recognition][research_koziolek_2024]
+- [Large Language Models Meet Automated Program Repair...][research_tang_2024_b]
+- [Large Language Models in Automated Repair of Haskell Type...][research_santos_2024_c]
+- [Machine Learning Based Compiler Optimization Technique][research_iqbal_2024]
+- [Machine Learning-Driven GCC Loop Unrolling Optimization...][research_shi_2024_b]
+- [Research on Program Automatic Repair Method Combining...][research_li_2024_d]
+- [WhiteFox: White-Box Compiler Fuzzing Empowered by Large...][research_yang_2024_e]
+- [A Systematic Review about Large Language Models (LLMs)...][research_alecsandrobaci_2025]
+- [AI for Code: Reinforcement-Learned Compiler Optimizations...][research_peta_2025]
+- [APICoder: A Multi-Role Large Language Model Framework for...][research_yang_2025]
+- [AUTOMATED GENERATION AND EVALUATION OF VOCABULARY TESTS...][research_nakanishi_2025]
+- [Advancements in AI-Based Compiler Optimization Techniques...][research_shankar_2025]
+- [Applying Knowledge-Guided Deep Reinforcement Learning...][research_li_2025_h]
+- [Balancing Security and Correctness in Code Generation: An...][research_black_2025]
+- [Beyond Functional Correctness: An Empirical Evaluation of...][research_nogueira_2025]
+- [CWEval: Outcome-driven Evaluation on Functionality and...][research_peng_2025]
+- [Can AI Fix Buggy Code? Exploring the Use of Large...][research_zhang_2025_f]
+- [Causality-Aided Evaluation and Explanation of Large...][research_ji_2025]
+- [Compiler-Assisted Optimization Using Neural Code...][research_matteordonelli_2025]
+- [Compiler-R1: Towards Agentic Compiler Auto-tuning with...][research_pan_2025]
+- [CompilerGPT: Leveraging Large Language Models for...][research_pirkelbauer_2025]
+- [DeCOS: Data-Efficient Reinforcement Learning for Compiler...][research_cui_2025_b]
+- [Efficient program optimization through knowledge-enhanced...][research_xu_2025]
+- [EvoAPR: Enhancing Large Language Models for Automatic...][research_zhang_2025_g]
+- [Exploiting Booster Pass Chain for Compiler Phase Ordering][research_chen_2025_b]
+- [Finding Missed Code Size Optimizations in Compilers using...][research_italiano_2025]
+- [Finetune-Then-Merge: Democratizing Large Language Model...][research_che_2025]
+- [Holistic evaluation of LLM-Based Code Generation][research_holl_2025]
+- [Hybrid Automated Program Repair by Combining Large...][research_li_2025_i]
+- [Implement Machine Learning to Schedule Instructions to...][research_rajendran_2025]
+- [InstructRepair: Instruct Large Language Models With Rich...][research_fu_2025]
+- [Knowledge Graph Based Repository-Level Code Generation][research_athale_2025]
+- [LMFuzz: Program repair fuzzing based on large language...][research_lin_2025]
+- [Large Language Model Generation Safety: A Comprehensive...][research_zhang_2025_h]
+- [LegoFuzz: Interleaving Large Language Models for Compiler...][research_ni_2025_b]
+- [Leveraging Compilation Statistics for Compiler Phase...][research_zhao_2025_b]
+- [Model-Driven Quantum Code Generation Using Large Language...][research_siavash_2025]
+- [Navigating the SIMD Optimization Maze: A Reinforcement...][research_pan_2025_b]
+- [Optimization, Machine Learning, and Fuzzy Logic][research_kingslystephen_2025]
+- [Proving the Coding Interview: A Benchmark for Formally...][research_dougherty_2025]
+- [ReAPR: Automatic program repair via retrieval-augmented...][research_liu_2025_d]
+- [Reductive Analysis with Compiler-Guided Large Language...][research_wang_2025_d]
+- [RepairBench: Leaderboard of Frontier Models for Program...][research_silva_2025]
+- [Research on Compiler Optimization Technology Based on...][research_cui_2025_c]
+- [Revisiting Unnaturalness for Automated Program Repair in...][research_yang_2025_b]
+- [Role-Aware Intelligent Agent Framework for Enhanced Code...][research_roshan_2025]
+- [SPRoC: Semantics-Preserving Mutations for Robustness...][research_shi_2025]
+- [Supporting Dynamic Program Sizes in Deep Learning-Based...][research_hakimi_2025]
+- [T 3 : Multi-level Tree-based Automatic Program Repair...][research_liu_2025_e]
+- [TOWARDS AUTONOMOUS CODE OPTIMIZATION: A REINFORCEMENT...][research_svenkatesan_2025]
+- [Template-Guided Program Repair in the Era of Large...][research_huang_2025]
+- [The Impact of Fine-Tuning Large Language Models on...][research_machacek_2025]
+- [The use of large language models for program repair][research_zubair_2025]
+- [Toward Green Code: Prompting Small Language Models for...][research_ashraf_2025_b]
+- [Usage of Large Language Model for Code Generation Tasks...][research_bistarelli_2025]
+- [VEGA: Automatically Generating Compiler Backends using a...][research_zhong_2025]
+- [A Systematic Literature Review on Automated Program...][research_hamdi_2026]
+- [A comparative analysis of the role of Large Language...][research_patricio_2026]
+- [Academic english writing generation-evaluation...][research_yingzhe_2026]
+- [An overview of evaluation and enhancement methods for...][research_truong_2026]
+- [ArkTS code generation: A comprehensive evaluation with...][research_erkus_2026]
+- [Automatic Program Repair Using Large Language Models in...][research_ajiki_2026]
+- [Automating code generation for a new ecosystem...][research_aytekin_2026]
+- [Benchmarking Cross-Language Code Smell Detection with...][research_moldovan_2026]
+- [Can test cases generated by large language models...][research_zhang_2026_g]
+- [Combining Static Code Analysis and Large Language Models...][research_neumuller_2026]
+- [Exploring Generalizable Automated Program Repair With...][research_campos_2026]
+- [From Natural Language to Interpretable Code: Automated...][research_chen_2026]
+- [Large Language Model-Based Interactive Code Generation...][research_hamasaki_2026]
+- [Large Language Models for Code Translation: An In-Depth...][research_feischl_2026]
+- [Model-Agnostic Empirical Evaluation of Test-Driven Prompt...][research_rizqullah_2026]
+- [PredComp: Predicting Compiler Optimization Options with...][research_gao_2026]
+- [PromptTone: A Dataset for Evaluating Large Language Model...][research_andruccioli_2026]
+- [Protean Compiler: An Agile Framework to Drive Fine-grain...][research_ashouri_2026]
+- [RE-APR: Reasoning-Enhanced Automated Program Repair via...][research_du_2026]
+- [Rethinking Correctness and Efficiency in AI-Assisted Code...][research_altunel_2026]
+- [SAGE: A Compiler-assisted Reinforcement Learning-based...][research_maity_2026]
+- [Technical Perspective: Fusing Large Language Models with...][research_bavota_2026]
+- [Towards defect-type-aware adaptive program repair: A...][research_zhang_2026_h]
 
 **The second of those affects this article's method rather than its argument.** A corpus of real programs is
 the instrument's foundation, and a growing fraction of real programs is now machine-generated.
@@ -2653,143 +2668,144 @@ and if it does not, then the corpus caveat this article already states becomes s
 ### Ordering engineering work is a discipline, and it counts costs
 
 There is a literature on deciding what to build next, covering technical debt prioritisation, requirements
-prioritisation and effort estimation, in
-[Accuracy Comparison of Analogy-Based Software Development...][research_idri_2015],
-[An Empirical Approach for Estimation of the Software...][research_jakhar_2015],
-[An Empirical Investigation on Effort Estimation in Agile...][research_britto_2015],
-[An empirical evaluation of ensemble adjustment methods...][research_azzeh_2015],
-[Analysis of task effort estimation accuracy based on use...][research_popovic_2015],
-[Automated selection of a software effort estimation model...][research_nayebi_2015],
-[Empirical Application of Simulated Annealing Using...][research_rizvi_2015],
-[How do open source software (OSS) developers practice and...][research_kuriakose_2015],
-[Prediction accuracy measurements as a fitness function...][research_urbanek_2015],
-[A large-scale empirical comparison of static and dynamic...][research_luo_2016_b],
-[A stability assessment of solution adaptation techniques...][research_phannachitta_2016],
-[Assessment and Comparison of Fuzzy Based Test Suite...][research_chaudhary_2016],
-[How do software development teams manage technical debt?...][research_ylihuumo_2016],
-[Negative results for software effort estimation][research_menzies_2016],
-[Realistic assessment of software effort estimation models][research_sigweni_2016],
-[Systematic Mapping Study of Ensemble Effort Estimation][research_idri_2016],
-[Technical debt prioritization using predictive analytics][research_codabux_2016],
-[AHP_GORE_PSR: Applying analytic hierarchy process in goal...][research_sadiq_2017],
-[An Empirical Comparison of Similarity Measures for...][research_huang_2017],
-[An Empirical Study of Technical Debt in Open-Source...][research_alfayez_2017],
-[An Evaluation of Selection Methods for Time-Aware Effort...][research_amasaki_2017],
-[DRank: A semi-automated requirements prioritization...][research_shao_2017],
-[Empirical Assessment of Machine Learning Models for...][research_satapathy_2017],
-[Empirical evaluation of fuzzy analogy for software...][research_abnane_2017],
-[Entropy-based Framework Dealing with Error in Software...][research_elkoutbi_2017],
-[Evaluating Pred(p) and standardized accuracy criteria in...][research_idri_2017],
-[Fuzzy_MoSCoW: A fuzzy based MoSCoW method for the...][research_ahmad_2017],
-[Identifying self-admitted technical debt in open source...][research_huang_2017_b],
-[Looking for Peace of Mind? Manage Your (Technical) Debt...][research_ghanbari_2017],
-[On the Evaluation of Effort Estimation Models][research_lavazza_2017],
-[Startups and Technical Debt: Managing Technical Debt with...][research_chicote_2017],
-[Cuckoo search based hybrid models for improving the...][research_kumari_2018],
-[Effective fault localization of automotive Simulink...][research_liu_2018],
-[Empirical evaluation of an entropy‐based approach to...][research_elkoutbi_2018],
-[Flaws of Quantification Method as applied to Software...][research_mshanmuganatha_2018],
-[Identification and prioritization of SLR search tool...][research_alzubidy_2018],
-[On the value of a prioritization scheme for resolving...][research_mensah_2018],
-[Prioritizing solution-oriented software requirements...][research_ibriwesh_2018],
-[Project productivity evaluation in early software effort...][research_azzeh_2018],
-[Software Development Effort Estimation Using Random...][research_anon_2018],
-[Towards a functional requirements prioritization with...][research_condorifernand_2018],
-[A novel online supervised hyperparameter tuning procedure...][research_minku_2019],
-[An Effort Estimation Support Tool for Agile Software...][research_dantas_2019],
-[An Empirical Study on Technical Debt in a Finnish SME][research_lenarduzzi_2019],
-[Analogy-Based Approaches to Improve Software Project...][research_resmi_2019],
-[Business-Driven Technical Debt Prioritization][research_reboucasdealme_2019],
-[Technical Debt Prioritization: A Search-Based Approach][research_alfayez_2019],
-[Tracy: A Business-Driven Technical Debt Prioritization...][research_reboucasdealme_2019_b],
-[Usability Technical Debt in Software Projects: A...][research_lage_2019],
-[A Taste of the Software Industry Perception of Technical...][research_apa_2020],
-[A systematic literature review of technical debt...][research_alfayez_2020],
-[Continuous Debt Valuation Approach (CoDVA) for Technical...][research_stochel_2020],
-[Empirical Evaluation of Mimic Software Project Data Sets...][research_gan_2020],
-[Evaluating the agreement among technical debt measurement...][research_amanatidis_2020],
-[Improving Estimation Accuracy Prediction of Software...][research_mahmood_2020],
-[Long-Term Evaluation of Technical Debt in Open-Source...][research_molnar_2020],
-[Profiling Developers Through the Lens of Technical Debt][research_codabux_2020],
-[Using Extremely Simplified Functional Size Measures for...][research_lavazza_2020],
-[Wait for it: identifying “On-Hold” self-admitted...][research_maipradit_2020],
-[A Collaborative Effort-Benefit-Value Analysis Model to...][research_gupta_2021],
-[A Stacking Ensemble-based Approach for Software Effort...][research_shukla_2021],
-[A systematic literature review on Technical Debt...][research_lenarduzzi_2021],
-[AI Techniques for Software Requirements Prioritization][research_felfernig_2021],
-[An Extreme Learning Machine based Approach for Software...][research_shukla_2021_b],
-[Applying test case prioritization to software...][research_laaber_2021],
-[Correction to: Wait for it: identifying “On-Hold”...][research_maipradit_2021],
-[Flower Pollination Algorithm for Software Effort...][research_puspaningrum_2021],
-[Measuring affective states from technical debt][research_olsson_2021],
-[Neural Networks based Software Development Effort...][research_boujida_2021],
-[Refactorings and Technical Debt in Docker Projects: An...][research_ksontini_2021],
-[Self-admitted technical debt practices: a comparison...][research_zampetti_2021],
-[Software effort estimation accuracy prediction of machine...][research_mahmood_2021],
-[Technical Debt Prioritization: Taxonomy, Methods Results...][research_pina_2021],
-[23 shades of self-admitted technical debt: an empirical...][research_obrien_2022],
-[Adopting DevOps Paradigm in Technical Debt Prioritization...][research_stochel_2022],
-[An Empirical Study on Software Test Effort Estimation for...][research_cibir_2022],
-[An empirical study on self-admitted technical debt in...][research_azuma_2022],
-[An extended study on applicability and performance of...][research_amasaki_2022],
-[Asking about Technical Debt: Characteristics and...][research_kozanidis_2022],
-[Blockchain-Based Software Effort Estimation: An Empirical...][research_ahmed_2022],
-[Characterizing Technical Debt in Evolving Open-source...][research_molnar_2022],
-[DebtFree: minimizing labeling cost in self-admitted...][research_tu_2022_b],
-[Development effort estimation in free/open source...][research_robles_2022],
-[Empirical Research for Self-Admitted Technical Debt...][research_yubin_2022],
-[Evaluation of Context-Aware Language Models and Experts...][research_alhamed_2022],
-[FIXME: synchronize with database! An empirical study of...][research_muse_2022],
-[Heterogeneous Graph Neural Networks for Software Effort...][research_phan_2022],
-[Identifying self-admitted technical debt in issue...][research_li_2022_d],
-[MCBRank Method to Improve Software Requirements...][research_ahmad_2022],
-[On the documentation of self-admitted technical debt in...][research_xavier_2022],
-[OurRank: A Software Requirements Prioritization Method...][research_rojas_2022],
-[PriorTD: A Method for Prioritization Technical Debt][research_detofeno_2022],
-[Security Requirements Prioritization Techniques: A Survey...][research_khanneh_2022],
-[Self-Admitted Technical Debt and comments’ polarity: an...][research_cassee_2022],
-[Solution to CAD Designer Effort Estimation based on...][research_nikiforova_2022],
-[Technical Debt, Software Evolution and Legacy][research_bass_2022],
-[Technical debt prioritization][research_pina_2022],
-[The Influence of Cost Drivers on Effort Estimation in...][research_iqbal_2022],
-[Toward prioritization of self-admitted technical debt: an...][research_delima_2022],
-[Use Case-Based Analytical Hierarchy Process Method for...][research_naufalmaulana_2022],
-[A practical approach for technical debt prioritization...][research_tsoukalas_2023],
-[Automatic identification of self-admitted technical debt...][research_li_2023_f],
-[Evaluating ensemble imputation in software effort...][research_abnane_2023],
-[Exploring Technical Debt in Security Questions on Stack...][research_edbert_2023],
-[Heterogeneous Ensemble Model to Optimize Software Effort...][research_ali_2023],
-[Improving Software Requirements Prioritization through...][research_winton_2023],
-[Much more than a prediction: Expert-based software effort...][research_matsubara_2023],
-[Software effort estimation using validated accuracy...][research_v_2023],
-[Technical Debt Contagiousness Metrics for Measurement and...][research_bi_2023],
-[An Empirical Study on Self-Admitted Technical Debt in...][research_ishimoto_2024],
-[Optimizing Software Effort Estimation Accuracy with a...][research_raghuraman_2024],
-[Quantifying and characterizing clones of self-admitted...][research_xiao_2024],
-[Technical Debt Tools: a Survey and an Empirical Evaluation][research_gomes_2024],
-[The broken windows theory applies to technical debt][research_leven_2024],
-[The method of requirements prioritization in software...][research_anon_2024],
-[Agile Effort Estimation Improved by Feature Selection and...][research_perezpiqueras_2025],
-[An Empirical Study on Software Developer-Related Factors...][research_sawasdee_2025],
-[How do Community Smells Influence Self-Admitted Technical...][research_cynthia_2025],
-[Identifying Key Requirements Prioritization Criteria for...][research_pattyn_2025],
-[Negativity in self-admitted technical debt: how sentiment...][research_cassee_2025],
-[Software effort estimation using validated accuracy...][research_jeyaram_2025],
-[Swarm Intelligence for Software Effort Estimation: An...][research_laboudi_2025],
-[Understanding practitioners’ reasoning and requirements...][research_biazotto_2025],
-[A Rigorous Empirical Benchmark of Machine Learning Models...][research_jaskirat_2026],
-[An Empirical Study of Self-Admitted Technical Debt in...][research_bhatia_2026],
-[An empirical evaluation of white-box and black-box test...][research_arrieta_2026],
-[Effort-optimized, accuracy-driven labelling and...][research_amini_2026],
-[Hybrid Model for Improving the Accuracy of Software...][research_silva_2026],
-[Input perturbation robustness for software effort...][research_phannachitta_2026],
-[Leveraging explainable AI for requirements prioritization...][research_alhumam_2026],
-[Reducing labeling effort in architecture technical debt...][research_sutoyo_2026],
-[TagDebt: a bot to support technical debt management][research_biazotto_2026],
-[Test input prioritization for image segmentation: an...][research_li_2026_c],
-[Towards Interpretable Ensemble Learning for Software...][research_doshi_2026],
-[Understanding Self-Admitted Technical Debt in Test Code...][research_nakamura_2026],
-[VECTR: A Lightweight Requirements Prioritization Method...][research_pattyn_2026].
+prioritisation and effort estimation.
+
+- [Accuracy Comparison of Analogy-Based Software Development...][research_idri_2015]
+- [An Empirical Approach for Estimation of the Software...][research_jakhar_2015]
+- [An Empirical Investigation on Effort Estimation in Agile...][research_britto_2015]
+- [An empirical evaluation of ensemble adjustment methods...][research_azzeh_2015]
+- [Analysis of task effort estimation accuracy based on use...][research_popovic_2015]
+- [Automated selection of a software effort estimation model...][research_nayebi_2015]
+- [Empirical Application of Simulated Annealing Using...][research_rizvi_2015]
+- [How do open source software (OSS) developers practice and...][research_kuriakose_2015]
+- [Prediction accuracy measurements as a fitness function...][research_urbanek_2015]
+- [A large-scale empirical comparison of static and dynamic...][research_luo_2016_b]
+- [A stability assessment of solution adaptation techniques...][research_phannachitta_2016]
+- [Assessment and Comparison of Fuzzy Based Test Suite...][research_chaudhary_2016]
+- [How do software development teams manage technical debt?...][research_ylihuumo_2016]
+- [Negative results for software effort estimation][research_menzies_2016]
+- [Realistic assessment of software effort estimation models][research_sigweni_2016]
+- [Systematic Mapping Study of Ensemble Effort Estimation][research_idri_2016]
+- [Technical debt prioritization using predictive analytics][research_codabux_2016]
+- [AHP_GORE_PSR: Applying analytic hierarchy process in goal...][research_sadiq_2017]
+- [An Empirical Comparison of Similarity Measures for...][research_huang_2017]
+- [An Empirical Study of Technical Debt in Open-Source...][research_alfayez_2017]
+- [An Evaluation of Selection Methods for Time-Aware Effort...][research_amasaki_2017]
+- [DRank: A semi-automated requirements prioritization...][research_shao_2017]
+- [Empirical Assessment of Machine Learning Models for...][research_satapathy_2017]
+- [Empirical evaluation of fuzzy analogy for software...][research_abnane_2017]
+- [Entropy-based Framework Dealing with Error in Software...][research_elkoutbi_2017]
+- [Evaluating Pred(p) and standardized accuracy criteria in...][research_idri_2017]
+- [Fuzzy_MoSCoW: A fuzzy based MoSCoW method for the...][research_ahmad_2017]
+- [Identifying self-admitted technical debt in open source...][research_huang_2017_b]
+- [Looking for Peace of Mind? Manage Your (Technical) Debt...][research_ghanbari_2017]
+- [On the Evaluation of Effort Estimation Models][research_lavazza_2017]
+- [Startups and Technical Debt: Managing Technical Debt with...][research_chicote_2017]
+- [Cuckoo search based hybrid models for improving the...][research_kumari_2018]
+- [Effective fault localization of automotive Simulink...][research_liu_2018]
+- [Empirical evaluation of an entropy‐based approach to...][research_elkoutbi_2018]
+- [Flaws of Quantification Method as applied to Software...][research_mshanmuganatha_2018]
+- [Identification and prioritization of SLR search tool...][research_alzubidy_2018]
+- [On the value of a prioritization scheme for resolving...][research_mensah_2018]
+- [Prioritizing solution-oriented software requirements...][research_ibriwesh_2018]
+- [Project productivity evaluation in early software effort...][research_azzeh_2018]
+- [Software Development Effort Estimation Using Random...][research_anon_2018]
+- [Towards a functional requirements prioritization with...][research_condorifernand_2018]
+- [A novel online supervised hyperparameter tuning procedure...][research_minku_2019]
+- [An Effort Estimation Support Tool for Agile Software...][research_dantas_2019]
+- [An Empirical Study on Technical Debt in a Finnish SME][research_lenarduzzi_2019]
+- [Analogy-Based Approaches to Improve Software Project...][research_resmi_2019]
+- [Business-Driven Technical Debt Prioritization][research_reboucasdealme_2019]
+- [Technical Debt Prioritization: A Search-Based Approach][research_alfayez_2019]
+- [Tracy: A Business-Driven Technical Debt Prioritization...][research_reboucasdealme_2019_b]
+- [Usability Technical Debt in Software Projects: A...][research_lage_2019]
+- [A Taste of the Software Industry Perception of Technical...][research_apa_2020]
+- [A systematic literature review of technical debt...][research_alfayez_2020]
+- [Continuous Debt Valuation Approach (CoDVA) for Technical...][research_stochel_2020]
+- [Empirical Evaluation of Mimic Software Project Data Sets...][research_gan_2020]
+- [Evaluating the agreement among technical debt measurement...][research_amanatidis_2020]
+- [Improving Estimation Accuracy Prediction of Software...][research_mahmood_2020]
+- [Long-Term Evaluation of Technical Debt in Open-Source...][research_molnar_2020]
+- [Profiling Developers Through the Lens of Technical Debt][research_codabux_2020]
+- [Using Extremely Simplified Functional Size Measures for...][research_lavazza_2020]
+- [Wait for it: identifying “On-Hold” self-admitted...][research_maipradit_2020]
+- [A Collaborative Effort-Benefit-Value Analysis Model to...][research_gupta_2021]
+- [A Stacking Ensemble-based Approach for Software Effort...][research_shukla_2021]
+- [A systematic literature review on Technical Debt...][research_lenarduzzi_2021]
+- [AI Techniques for Software Requirements Prioritization][research_felfernig_2021]
+- [An Extreme Learning Machine based Approach for Software...][research_shukla_2021_b]
+- [Applying test case prioritization to software...][research_laaber_2021]
+- [Correction to: Wait for it: identifying “On-Hold”...][research_maipradit_2021]
+- [Flower Pollination Algorithm for Software Effort...][research_puspaningrum_2021]
+- [Measuring affective states from technical debt][research_olsson_2021]
+- [Neural Networks based Software Development Effort...][research_boujida_2021]
+- [Refactorings and Technical Debt in Docker Projects: An...][research_ksontini_2021]
+- [Self-admitted technical debt practices: a comparison...][research_zampetti_2021]
+- [Software effort estimation accuracy prediction of machine...][research_mahmood_2021]
+- [Technical Debt Prioritization: Taxonomy, Methods Results...][research_pina_2021]
+- [23 shades of self-admitted technical debt: an empirical...][research_obrien_2022]
+- [Adopting DevOps Paradigm in Technical Debt Prioritization...][research_stochel_2022]
+- [An Empirical Study on Software Test Effort Estimation for...][research_cibir_2022]
+- [An empirical study on self-admitted technical debt in...][research_azuma_2022]
+- [An extended study on applicability and performance of...][research_amasaki_2022]
+- [Asking about Technical Debt: Characteristics and...][research_kozanidis_2022]
+- [Blockchain-Based Software Effort Estimation: An Empirical...][research_ahmed_2022]
+- [Characterizing Technical Debt in Evolving Open-source...][research_molnar_2022]
+- [DebtFree: minimizing labeling cost in self-admitted...][research_tu_2022_b]
+- [Development effort estimation in free/open source...][research_robles_2022]
+- [Empirical Research for Self-Admitted Technical Debt...][research_yubin_2022]
+- [Evaluation of Context-Aware Language Models and Experts...][research_alhamed_2022]
+- [FIXME: synchronize with database! An empirical study of...][research_muse_2022]
+- [Heterogeneous Graph Neural Networks for Software Effort...][research_phan_2022]
+- [Identifying self-admitted technical debt in issue...][research_li_2022_d]
+- [MCBRank Method to Improve Software Requirements...][research_ahmad_2022]
+- [On the documentation of self-admitted technical debt in...][research_xavier_2022]
+- [OurRank: A Software Requirements Prioritization Method...][research_rojas_2022]
+- [PriorTD: A Method for Prioritization Technical Debt][research_detofeno_2022]
+- [Security Requirements Prioritization Techniques: A Survey...][research_khanneh_2022]
+- [Self-Admitted Technical Debt and comments’ polarity: an...][research_cassee_2022]
+- [Solution to CAD Designer Effort Estimation based on...][research_nikiforova_2022]
+- [Technical Debt, Software Evolution and Legacy][research_bass_2022]
+- [Technical debt prioritization][research_pina_2022]
+- [The Influence of Cost Drivers on Effort Estimation in...][research_iqbal_2022]
+- [Toward prioritization of self-admitted technical debt: an...][research_delima_2022]
+- [Use Case-Based Analytical Hierarchy Process Method for...][research_naufalmaulana_2022]
+- [A practical approach for technical debt prioritization...][research_tsoukalas_2023]
+- [Automatic identification of self-admitted technical debt...][research_li_2023_f]
+- [Evaluating ensemble imputation in software effort...][research_abnane_2023]
+- [Exploring Technical Debt in Security Questions on Stack...][research_edbert_2023]
+- [Heterogeneous Ensemble Model to Optimize Software Effort...][research_ali_2023]
+- [Improving Software Requirements Prioritization through...][research_winton_2023]
+- [Much more than a prediction: Expert-based software effort...][research_matsubara_2023]
+- [Software effort estimation using validated accuracy...][research_v_2023]
+- [Technical Debt Contagiousness Metrics for Measurement and...][research_bi_2023]
+- [An Empirical Study on Self-Admitted Technical Debt in...][research_ishimoto_2024]
+- [Optimizing Software Effort Estimation Accuracy with a...][research_raghuraman_2024]
+- [Quantifying and characterizing clones of self-admitted...][research_xiao_2024]
+- [Technical Debt Tools: a Survey and an Empirical Evaluation][research_gomes_2024]
+- [The broken windows theory applies to technical debt][research_leven_2024]
+- [The method of requirements prioritization in software...][research_anon_2024]
+- [Agile Effort Estimation Improved by Feature Selection and...][research_perezpiqueras_2025]
+- [An Empirical Study on Software Developer-Related Factors...][research_sawasdee_2025]
+- [How do Community Smells Influence Self-Admitted Technical...][research_cynthia_2025]
+- [Identifying Key Requirements Prioritization Criteria for...][research_pattyn_2025]
+- [Negativity in self-admitted technical debt: how sentiment...][research_cassee_2025]
+- [Software effort estimation using validated accuracy...][research_jeyaram_2025]
+- [Swarm Intelligence for Software Effort Estimation: An...][research_laboudi_2025]
+- [Understanding practitioners’ reasoning and requirements...][research_biazotto_2025]
+- [A Rigorous Empirical Benchmark of Machine Learning Models...][research_jaskirat_2026]
+- [An Empirical Study of Self-Admitted Technical Debt in...][research_bhatia_2026]
+- [An empirical evaluation of white-box and black-box test...][research_arrieta_2026]
+- [Effort-optimized, accuracy-driven labelling and...][research_amini_2026]
+- [Hybrid Model for Improving the Accuracy of Software...][research_silva_2026]
+- [Input perturbation robustness for software effort...][research_phannachitta_2026]
+- [Leveraging explainable AI for requirements prioritization...][research_alhumam_2026]
+- [Reducing labeling effort in architecture technical debt...][research_sutoyo_2026]
+- [TagDebt: a bot to support technical debt management][research_biazotto_2026]
+- [Test input prioritization for image segmentation: an...][research_li_2026_c]
+- [Towards Interpretable Ensemble Learning for Software...][research_doshi_2026]
+- [Understanding Self-Admitted Technical Debt in Test Code...][research_nakamura_2026]
+- [VECTR: A Lightweight Requirements Prioritization Method...][research_pattyn_2026]
 
 **Read for the ordering question, it is almost entirely a cost-side literature.** Effort estimation predicts
 $\kappa$. Technical debt prioritisation ranks by remediation cost and interest.
@@ -2799,86 +2815,89 @@ capability is gated on a single unbuilt item, which is the quantity this article
 ### The runtime side, and reading machine code back
 
 Two smaller bodies of work bound the subject. The choice between interpretation, just-in-time compilation
-and ahead-of-time compilation is the alternative to native lowering rather than a part of it, in
-[14. Compilation of dictionaries of the Chinese language][research_hongbo_2015],
-[A Bytecode Interpreter for Secure Program Execution in...][research_seitzer_2015],
-[A Software-Managed Approach to Die-Stacked DRAM][research_oskin_2015],
-[Formal Certification of Non-interferent Android Bytecode...][research_gunadi_2015],
-[Load Balancing in Decoupled Look-ahead: A Do-It-Yourself...][research_parihar_2015],
-[The Simian concept: Parallel Discrete Event Simulation...][research_santhi_2015],
-[Buddhist studies on Seokbosangjeol and tasks ahead...][research_oh_2016],
-[Compilation for Operation Execution Time Variability][research_pop_2016],
-[Programming GPUs with C++14 and Just-In-Time Compilation][research_haidlmichael_2016],
-[A Study of Virtual Machine Placement Optimization in Data...][research_challita_2017],
-[Adaptive just-in-time and relevant vector machine based...][research_liu_2017],
-[DRUT: An Efficient Turbo Boost Solution via Load...][research_parihar_2017],
-[Fast Failure Erasure Encoding Using Just in Time...][research_rohr_2017],
-[Just-In-Time GPU Compilation for Interpreted Languages...][research_fumero_2017],
-[Corpus Compilation and Exploitation in Language...][research_mosel_2018],
-[ClangJIT: Enhancing C++ with Just-in-Time Compilation][research_finkel_2019],
-[Just-In-Time Compilation for Verilog][research_schkufza_2019],
-[POSTER: Tango: An Optimizing Compiler for Just-In-Time...][research_tine_2019],
-[JIT Leaks: Inducing Timing Side Channels through...][research_brennan_2020],
-[PHPIL: Fuzzing the PHP Interpreter with Custom Bytecode][research_rao_2020],
-[Automatically exploiting the memory hierarchy of GPUs...][research_papadimitriou_2021],
-[Fractional Artificial Bee Chicken Swarm Optimization...][research_pushpa_2022],
-[Just-In-Time Compilation on ARM—A Closer Look at...][research_hartley_2022],
-[Just-in-Time Compilation and Link-Time Optimization for...][research_tian_2022],
-[Just-in-time scheduling in identical parallel machine...][research_goli_2022],
-[Preprocessing and Compilation][research_uzayr_2022],
-[Quantum simulation with just-in-time compilation][research_efthymiou_2022],
-[A Low-Level Virtual Machine Just-In-Time Prototype for...][research_stirb_2023],
-[AHEAD-OF-TIME and JUST-IN-TIME technologies][research_anon_2023_c],
-[CHERI Performance Enhancement for a Bytecode Interpreter][research_lowther_2023],
-[Hybrid Metaheuristic Technique for Optimization of...][research_chayan_2023],
-[Reducing the Compilation Time of Quantum Circuits Using...][research_quetschlich_2023_b],
-[Remote Just-in-Time Compilation for Dynamic Languages][research_pecimuth_2023],
-[Resource Optimization based Virtual Machine Allocation...][research_dubey_2023],
-[Reverse Engineering of Obfuscated Lua Bytecode via...][research_luo_2023],
-[Compilation Optimization Methods in the Customization of...][research_wang_2024_e],
-[Efficient Virtual Machine Allocation Technique Based on...][research_rawat_2024],
-[Interactive Programming for Microcontrollers by...][research_mochizuki_2024],
-[Accelerating Startup Time of React Native Applications by...][research_li_2025_j],
-[An efficient load balance using virtual machine migration...][research_sivalingam_2025],
-[FPGA-Accelerated Neural Network Inference via a...][research_park_2025],
-[From Source to Bytecode: How.py Becomes.pyc][research_kao_2025],
-[Intelligent Power Grid Startup Scheme Based on Rule...][research_wu_2025_c],
-[Proteus: Portable Runtime Optimization of GPU Kernel...][research_georgakoudis_2025],
-[Trace-Based Bytecode Interpreter Visualization for...][research_herber_2025],
-[WebAssembly: How Low Can a Bytecode Go?][research_titzer_2025],
-[AST, Bytecode, and the Space In Between: An Exploration...][research_larose_2026],
-[Designing quantum chemistry algorithms with just-in-time...][research_wu_2026],
-[Practical Python FPGA Acceleration with Fast Just-In-Time...][research_dickerson_2026],
-[Why Just-In-Time Compilation Matters: Evaluating Runtime...][research_maia_2026]. And the inverse problem
-of recovering structure from machine code has its own methods, in
-[Lifting Assembly to Intermediate Representation][research_hasabnis_2016],
-[Zipr: Efficient Static Binary Rewriting for Security][research_hawkins_2017],
-[Evolving Exact Decompilation][research_schulte_2018],
-[Towards Incremental Static Race Detection in OpenMP...][research_swain_2018],
-[CLIK on PLCs! Attacking Control Logic with Decompilation...][research_kalle_2019],
-[Performance, Correctness, Exceptions: Pick Three][research_gussoni_2019],
-[How far we have come: testing decompilation correctness...][research_liu_2020_b],
-[PARCOACH Extension for Static MPI Nonblocking and...][research_nguyen_2020],
-[High-Precision Evaluation of Both Static and Dynamic...][research_lin_2021_b],
-[Beyond the C: Retargetable Decompilation using Neural...][research_hosseini_2022],
-[NemesisGuard: Mitigating interrupt latency side channel...][research_salehi_2022],
-[Performant Binary Fuzzing without Source Code using...][research_pauley_2022],
-[Static Local Concurrency Errors Detection in MPI-RMA...][research_saillard_2022],
-[BIRD: A Binary Intermediate Representation for Formally...][research_engel_2023],
-[BREWasm: A General Static Binary Rewriting Framework for...][research_cao_2023],
-[Cross-Language Binary-Source Code Matching Based on Rust...][research_mao_2023],
-[Static Analysis of JNI Programs via Binary Decompilation][research_park_2023],
-[dewolf: Improving Decompilation by leveraging User Surveys][research_enders_2023],
-[Automatically Mitigating Vulnerabilities in Binary...][research_reiter_2025],
-[Binary Similarity Detection Based on Intermediate...][research_li_2025_k],
-[Binary–Source Code Matching Based on Decompilation...][research_aljebreen_2025],
-[dAngr: Lifting Software Debugging to a Symbolic Level][research_deruck_2025],
-[Does Representation Matter? Evaluating IRs for LLM-based...][research_pelayobenedet_2026],
-[LAPSE: Automatic, Formal Fault-Tolerant Correctness...][research_averill_2026],
-[LLM-assisted end-to-end binary decompilation: a...][research_alruqaishi_2026],
-[Large Language Models for Binary Decompilation...][research_wang_2026_b],
-[NOProbe: A NOP-Based Dynamic Binary Instrumentation...][research_bushehri_2026],
-[Representation learning for coincidental correctness in...][research_hu_2026_c].
+and ahead-of-time compilation is the alternative to native lowering rather than a part of it.
+
+- [14. Compilation of dictionaries of the Chinese language][research_hongbo_2015]
+- [A Bytecode Interpreter for Secure Program Execution in...][research_seitzer_2015]
+- [A Software-Managed Approach to Die-Stacked DRAM][research_oskin_2015]
+- [Formal Certification of Non-interferent Android Bytecode...][research_gunadi_2015]
+- [Load Balancing in Decoupled Look-ahead: A Do-It-Yourself...][research_parihar_2015]
+- [The Simian concept: Parallel Discrete Event Simulation...][research_santhi_2015]
+- [Buddhist studies on Seokbosangjeol and tasks ahead...][research_oh_2016]
+- [Compilation for Operation Execution Time Variability][research_pop_2016]
+- [Programming GPUs with C++14 and Just-In-Time Compilation][research_haidlmichael_2016]
+- [A Study of Virtual Machine Placement Optimization in Data...][research_challita_2017]
+- [Adaptive just-in-time and relevant vector machine based...][research_liu_2017]
+- [DRUT: An Efficient Turbo Boost Solution via Load...][research_parihar_2017]
+- [Fast Failure Erasure Encoding Using Just in Time...][research_rohr_2017]
+- [Just-In-Time GPU Compilation for Interpreted Languages...][research_fumero_2017]
+- [Corpus Compilation and Exploitation in Language...][research_mosel_2018]
+- [ClangJIT: Enhancing C++ with Just-in-Time Compilation][research_finkel_2019]
+- [Just-In-Time Compilation for Verilog][research_schkufza_2019]
+- [POSTER: Tango: An Optimizing Compiler for Just-In-Time...][research_tine_2019]
+- [JIT Leaks: Inducing Timing Side Channels through...][research_brennan_2020]
+- [PHPIL: Fuzzing the PHP Interpreter with Custom Bytecode][research_rao_2020]
+- [Automatically exploiting the memory hierarchy of GPUs...][research_papadimitriou_2021]
+- [Fractional Artificial Bee Chicken Swarm Optimization...][research_pushpa_2022]
+- [Just-In-Time Compilation on ARM—A Closer Look at...][research_hartley_2022]
+- [Just-in-Time Compilation and Link-Time Optimization for...][research_tian_2022]
+- [Just-in-time scheduling in identical parallel machine...][research_goli_2022]
+- [Preprocessing and Compilation][research_uzayr_2022]
+- [Quantum simulation with just-in-time compilation][research_efthymiou_2022]
+- [A Low-Level Virtual Machine Just-In-Time Prototype for...][research_stirb_2023]
+- [AHEAD-OF-TIME and JUST-IN-TIME technologies][research_anon_2023_c]
+- [CHERI Performance Enhancement for a Bytecode Interpreter][research_lowther_2023]
+- [Hybrid Metaheuristic Technique for Optimization of...][research_chayan_2023]
+- [Reducing the Compilation Time of Quantum Circuits Using...][research_quetschlich_2023_b]
+- [Remote Just-in-Time Compilation for Dynamic Languages][research_pecimuth_2023]
+- [Resource Optimization based Virtual Machine Allocation...][research_dubey_2023]
+- [Reverse Engineering of Obfuscated Lua Bytecode via...][research_luo_2023]
+- [Compilation Optimization Methods in the Customization of...][research_wang_2024_e]
+- [Efficient Virtual Machine Allocation Technique Based on...][research_rawat_2024]
+- [Interactive Programming for Microcontrollers by...][research_mochizuki_2024]
+- [Accelerating Startup Time of React Native Applications by...][research_li_2025_j]
+- [An efficient load balance using virtual machine migration...][research_sivalingam_2025]
+- [FPGA-Accelerated Neural Network Inference via a...][research_park_2025]
+- [From Source to Bytecode: How.py Becomes.pyc][research_kao_2025]
+- [Intelligent Power Grid Startup Scheme Based on Rule...][research_wu_2025_c]
+- [Proteus: Portable Runtime Optimization of GPU Kernel...][research_georgakoudis_2025]
+- [Trace-Based Bytecode Interpreter Visualization for...][research_herber_2025]
+- [WebAssembly: How Low Can a Bytecode Go?][research_titzer_2025]
+- [AST, Bytecode, and the Space In Between: An Exploration...][research_larose_2026]
+- [Designing quantum chemistry algorithms with just-in-time...][research_wu_2026]
+- [Practical Python FPGA Acceleration with Fast Just-In-Time...][research_dickerson_2026]
+- [Why Just-In-Time Compilation Matters: Evaluating Runtime...][research_maia_2026]
+And the inverse problem
+of recovering structure from machine code has its own methods.
+
+- [Lifting Assembly to Intermediate Representation][research_hasabnis_2016]
+- [Zipr: Efficient Static Binary Rewriting for Security][research_hawkins_2017]
+- [Evolving Exact Decompilation][research_schulte_2018]
+- [Towards Incremental Static Race Detection in OpenMP...][research_swain_2018]
+- [CLIK on PLCs! Attacking Control Logic with Decompilation...][research_kalle_2019]
+- [Performance, Correctness, Exceptions: Pick Three][research_gussoni_2019]
+- [How far we have come: testing decompilation correctness...][research_liu_2020_b]
+- [PARCOACH Extension for Static MPI Nonblocking and...][research_nguyen_2020]
+- [High-Precision Evaluation of Both Static and Dynamic...][research_lin_2021_b]
+- [Beyond the C: Retargetable Decompilation using Neural...][research_hosseini_2022]
+- [NemesisGuard: Mitigating interrupt latency side channel...][research_salehi_2022]
+- [Performant Binary Fuzzing without Source Code using...][research_pauley_2022]
+- [Static Local Concurrency Errors Detection in MPI-RMA...][research_saillard_2022]
+- [BIRD: A Binary Intermediate Representation for Formally...][research_engel_2023]
+- [BREWasm: A General Static Binary Rewriting Framework for...][research_cao_2023]
+- [Cross-Language Binary-Source Code Matching Based on Rust...][research_mao_2023]
+- [Static Analysis of JNI Programs via Binary Decompilation][research_park_2023]
+- [dewolf: Improving Decompilation by leveraging User Surveys][research_enders_2023]
+- [Automatically Mitigating Vulnerabilities in Binary...][research_reiter_2025]
+- [Binary Similarity Detection Based on Intermediate...][research_li_2025_k]
+- [Binary–Source Code Matching Based on Decompilation...][research_aljebreen_2025]
+- [dAngr: Lifting Software Debugging to a Symbolic Level][research_deruck_2025]
+- [Does Representation Matter? Evaluating IRs for LLM-based...][research_pelayobenedet_2026]
+- [LAPSE: Automatic, Formal Fault-Tolerant Correctness...][research_averill_2026]
+- [LLM-assisted end-to-end binary decompilation: a...][research_alruqaishi_2026]
+- [Large Language Models for Binary Decompilation...][research_wang_2026_b]
+- [NOProbe: A NOP-Based Dynamic Binary Instrumentation...][research_bushehri_2026]
+- [Representation learning for coincidental correctness in...][research_hu_2026_c]
 
 **The second matters here for a methodological reason.** The instrument measures the compiler's bytecode
 output rather than source text, which is a lifting problem in miniature, and the difficulties that
