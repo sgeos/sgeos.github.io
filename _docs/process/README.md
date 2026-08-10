@@ -16,6 +16,7 @@ Development process, content workflow, and human-AI communication protocol.
 | [Research Agent](./RESEARCH_AGENT.md) | Pattern for verifying factual claims with a background agent |
 | [URL Verification](./URL_VERIFICATION.md) | URL response-code rules and the catalogue of canonical bot-detected sites |
 | [Research Sweep Store](../../_research/README.md) | Durable rejection records and homonym patterns for literature sweeps |
+| [Article Tooling Library](../../_lib/README.md) | Shared fetch, edit, reference, reflow and lint mechanism for article scripts |
 | [Style Verification](./STYLE_VERIFICATION.md) | Verification scripts for style, references, math, and URLs |
 | [Sister Session](./SISTER_SESSION.md) | Coordination when a second session drafts in parallel |
 | [Communication](./COMMUNICATION.md) | Bidirectional human-AI communication protocol |
