@@ -521,7 +521,7 @@ The interaction axis characterization for competitor-attack techniques introduce
 
 $$w_{A \to T}(t) = -\text{sign}(A \to T) \cdot \|d_{\text{attack}}(t)\|$$
 
-with the negative sign encoding the antagonistic direction and $\|d_{\text{attack}}(t)\|$ the magnitude of the intended damage.
+with the negative sign encoding the antagonistic direction and $\\lvert d_{\text{attack}}(t)\ \rvert$ the magnitude of the intended damage.
 
 The adaptation axis characterization varies as for self-promotion. Individual competitor-attack operations exhibit slow adaptation. Commercial complaint-farm services exhibit rapid adaptation with dedicated engineering resources. State-sponsored operations exhibit rapid adaptation with dedicated intelligence-service infrastructure. Ad-hoc brigading operations exhibit rapid mobilization but slow between-campaign learning, producing a distinctive adaptation-axis signature that differs from both commercial and state-sponsored operations. The adaptation axis is operationalized as the technique-migration time constant $\tau_k$ under the first-order relaxation dynamics.
 

@@ -143,7 +143,7 @@ The Oudeyer Kaplan Hafner 2007 intrinsic motivation systems framework provided t
 
 $$\text{LP}(x) = \|\epsilon_{t-w}(x)\| - \|\epsilon_t(x)\|$$
 
-with $\epsilon_t(x)$ the current-model prediction error on task or region $x$ and $\|\cdot\|$ a suitable norm. The learning-progress-based framework has proved particularly influential in developmental robotics through its prediction that developmental agents should preferentially explore states where learning is neither too easy nor too hard.
+with $\epsilon_t(x)$ the current-model prediction error on task or region $x$ and $\\lvert \cdot\ \rvert$ a suitable norm. The learning-progress-based framework has proved particularly influential in developmental robotics through its prediction that developmental agents should preferentially explore states where learning is neither too easy nor too hard.
 
 The Baldassarre and Mirolli 2013 Intrinsically Motivated Learning in Natural and Artificial Systems edited volume consolidated the field and provided the systematic treatment of intrinsic motivation across artificial and biological systems. The model identifies the relationships between intrinsic motivation, developmental progression, and the emergence of sophisticated capabilities.
 
@@ -521,7 +521,7 @@ Embodied Question Answering of [Das Datta Gkioxari Lee Parikh Batra 2018][resear
 
 $$\pi^*(q) = \arg\max_\pi \, \mathbb{E}_{\tau \sim \pi(\cdot \mid q)}\!\left[\log p(a^* \mid q, \tau)\right] - \lambda \, |\tau|$$
 
-with $q$ the question, $\tau$ the exploration trajectory, $a^*$ the correct answer, and $|\tau|$ a length penalty. The framework connects embodied AI to language understanding through the requirement of grounding linguistic queries in embodied experience.
+with $q$ the question, $\tau$ the exploration trajectory, $a^*$ the correct answer, and $\lvert \tau \rvert$ a length penalty. The framework connects embodied AI to language understanding through the requirement of grounding linguistic queries in embodied experience.
 
 RT-1 and RT-2 of Brohan et al treated in articles nine and eleven provide the modern foundation-model-scale embodied learning systems that transfer capabilities from vision-language pretraining to real-robot control. The account provides the bridge between the modern foundation model literature and embodied artificial intelligence.
 

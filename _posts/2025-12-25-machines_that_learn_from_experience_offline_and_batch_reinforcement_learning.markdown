@@ -61,7 +61,7 @@ extrapolates the Q-function to actions that may be poorly represented in the dat
 
 $$\mathbb{E}[\max_a \hat{Q}(s, a)] - \max_a Q^*(s, a) \geq c(|\mathcal{A}|) \sigma$$
 
-where $c(|\mathcal{A}|)$ grows with the action space size, capturing the Jensen-gap for the max operator over noisy estimates. When $Q$ overestimates value at such actions, the Bellman update propagates the overestimation to predecessor states, and the compounding error catastrophically destroys value estimates over many training iterations.
+where $c(\lvert \mathcal{A} \rvert)$ grows with the action space size, capturing the Jensen-gap for the max operator over noisy estimates. When $Q$ overestimates value at such actions, the Bellman update propagates the overestimation to predecessor states, and the compounding error catastrophically destroys value estimates over many training iterations.
 
 The problem is fundamental to Q-learning-with-function-approximation combined with off-policy data, and does not arise for on-policy methods or for exact-Q-learning in tabular settings. It manifests through two mechanisms. First, the max operator selects actions with the highest predicted Q-value, and these are systematically the actions where the function approximator has extrapolated most incorrectly. Second, the Bellman update propagates these overestimated targets through the value function via bootstrapping, amplifying the error. The maximization bias was documented for tabular Q-learning by [Thrun and Schwartz 1993][research_thrun_schwartz_1993] and formally addressed by [van Hasselt 2010][research_van_hasselt_2010] Double Q-learning, both of which anticipated the more severe offline manifestation. The [Kumar Agarwal Ma Courville Tucker Levine 2021][research_kumar_et_al_2021_dr3] DR3 analysis provided the mechanistic account of implicit under-regularization in offline Q-learning through examination of feature co-adaptation and rank collapse.
 
@@ -173,7 +173,7 @@ Implicit Q-Learning (IQL) of [Kostrikov Nair Levine 2022][research_kostrikov_nai
 
 $$L_{\text{IQL}}(V) = \mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[L_2^\tau(Q_{\text{target}}(s, a) - V(s))\right]$$
 
-with expectile loss $L_2^\tau(u) = |\tau - \mathbb{1}\{u < 0\}| u^2$ for quantile $\tau \in (0, 1)$. The Q-function is updated with respect to the fitted value baseline,
+with expectile loss $L_2^\tau(u) = \lvert \tau - \mathbb{1}\{u < 0\} \rvert u^2$ for quantile $\tau \in (0, 1)$. The Q-function is updated with respect to the fitted value baseline,
 
 $$L_{\text{IQL}}(Q) = \mathbb{E}_{(s, a, r, s') \sim \mathcal{D}}\!\left[(r + \gamma V(s') - Q(s, a))^2\right]$$
 

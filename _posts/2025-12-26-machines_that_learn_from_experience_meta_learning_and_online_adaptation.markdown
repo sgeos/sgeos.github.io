@@ -81,7 +81,7 @@ with actions conditioned on both the current state and the current belief. Bayes
 
 Two critical quantities characterize meta-reinforcement learning problems. The adaptation budget $H$ specifies how many steps of task-data collection are available. The task distribution $p(\mathcal{T})$ specifies the range of variation the meta-algorithm is expected to handle. Different meta-learning methods target different regimes of these two variables.
 
-For small adaptation budgets $H \ll |\mathcal{S}||\mathcal{A}|$, the meta-algorithm must exploit strong prior structure and cannot recover the task from data alone. For large budgets, meta-learning provides diminishing returns over separate training on each task. The intermediate regime, where $H$ is large enough to identify the task but small enough that generic reinforcement learning would fail, is the target of most contemporary meta-reinforcement learning research.
+For small adaptation budgets $H \ll \lvert \mathcal{S} \rvert\lvert \mathcal{A} \rvert$, the meta-algorithm must exploit strong prior structure and cannot recover the task from data alone. For large budgets, meta-learning provides diminishing returns over separate training on each task. The intermediate regime, where $H$ is large enough to identify the task but small enough that generic reinforcement learning would fail, is the target of most contemporary meta-reinforcement learning research.
 
 ## Recurrent Meta-Reinforcement Learning
 

@@ -75,7 +75,7 @@ derived from Chernoff-Hoeffding confidence intervals on the estimated Q-value. U
 
 $$\mathcal{M}_t = \left\{(P', R') : \| P'(\cdot \mid s, a) - \hat{P}_t(\cdot \mid s, a) \|_1 \leq c_1 \sqrt{\log(t)/N_t(s, a)}, \; |R'(s, a) - \hat{R}_t(s, a)| \leq c_2 \sqrt{\log(t)/N_t(s, a)}\right\}$$
 
-and following the policy optimal for the most-optimistic MDP in the confidence set. Both approaches achieve regret bounds of order $\tilde{\mathcal{O}}(D \sqrt{|\mathcal{S}| |\mathcal{A}| T})$ for MDP diameter $D$.
+and following the policy optimal for the most-optimistic MDP in the confidence set. Both approaches achieve regret bounds of order $\tilde{\mathcal{O}}(D \sqrt{\lvert \mathcal{S} \rvert \lvert \mathcal{A} \rvert T})$ for MDP diameter $D$.
 
 Optimism-based methods extend to function approximation but require additional care. The key challenge is characterizing uncertainty over $V^*$ or $Q^*$ when the value function is parameterized by a neural network rather than tabulated. Bootstrapped DQN of [Osband Blundell Pritzel and Van Roy 2016][research_osband_blundell_pritzel_van_roy_2016_exploration] maintains an ensemble of $K$ Q-networks trained on bootstrap samples of the replay buffer and uses their disagreement as an implicit optimism signal. At each episode, the agent randomly selects one head of the ensemble and follows it greedily, producing an approximate posterior-sampling behavior.
 
@@ -127,7 +127,7 @@ Reward-free exploration is the theoretical framework in which an agent explores 
 
 The reward-free framework was formalized by [Jin Krishnamurthy Simchowitz Yu 2020][research_jin_krishnamurthy_simchowitz_yu_2020] for tabular MDPs with a two-stage protocol. An exploration stage lets the agent interact with the environment for a budget of $K$ episodes without observing rewards, followed by a planning stage where the agent is given a reward function and must produce a near-optimal policy. The exploration algorithm receives no reward signal, so it must construct a policy that visits states in a way that supports planning against arbitrary reward functions.
 
-The main result establishes that reward-free exploration requires $\tilde{\mathcal{O}}(H^5 |\mathcal{S}|^2 |\mathcal{A}| / \epsilon^2)$ episodes to achieve $\epsilon$-near-optimality for any reward function with probability at least $1 - \delta$, comparable to reward-informed exploration up to logarithmic factors. The bound demonstrates that the reward signal provides little advantage in the tabular setting.
+The main result establishes that reward-free exploration requires $\tilde{\mathcal{O}}(H^5 \lvert \mathcal{S} \rvert^2 \lvert \mathcal{A} \rvert / \epsilon^2)$ episodes to achieve $\epsilon$-near-optimality for any reward function with probability at least $1 - \delta$, comparable to reward-informed exploration up to logarithmic factors. The bound demonstrates that the reward signal provides little advantage in the tabular setting.
 
 Extensions to linear MDPs of [Wang Salakhutdinov and Yang 2020][research_wang_salakhutdinov_yang_2020] and to low-rank MDPs of [Modi Chen Krishnamurthy Jiang Agarwal 2021][research_modi_chen_krishnamurthy_2021] extend the account to function-approximation settings. The reward-free framework has proved productive as a theoretical setting for exploration analysis and connects to the intrinsic-motivation methods surveyed above through the shared emphasis on task-agnostic state coverage.
 

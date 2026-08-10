@@ -209,7 +209,7 @@ applied to the camera-relative lateral and vertical coordinates.
 The second term
 is the depth-driven screen-space shift
 along the direction $\mathbf{d}(\phi)$
-with magnitude $\alpha z |w_z - c_z|$.
+with magnitude $\alpha z \lvert w_z - c_z \rvert$.
 
 The sign convention
 matches the $y$-down screen convention.
@@ -230,7 +230,7 @@ $$
 $$
 
 The separation is parallel to $\mathbf{d}(\phi)$,
-has magnitude $\alpha z |w_{z,1} - w_{z,2}|$,
+has magnitude $\alpha z \lvert w_{z,1} - w_{z,2} \rvert$,
 and is independent of the lateral and vertical coordinates.
 The depth-direction screen-shift
 is the operational reading

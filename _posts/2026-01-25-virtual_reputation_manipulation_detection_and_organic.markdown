@@ -71,7 +71,7 @@ The generic anomaly-score statistic under the null-model $H_0$ takes the standar
 
 $$z_{\text{anomaly}} = \frac{T(\mathbf{x}) - E_{H_0}[T]}{\sqrt{\text{Var}_{H_0}[T]}}$$
 
-with $T(\mathbf{x})$ the test statistic evaluated on the observed data $\mathbf{x}$. Detection triggers when $|z_{\text{anomaly}}|$ exceeds a chosen threshold calibrated to a desired false-positive rate. The multiple-testing correction under $M$ simultaneous tests takes the form the Bonferroni bound
+with $T(\mathbf{x})$ the test statistic evaluated on the observed data $\mathbf{x}$. Detection triggers when $\lvert z_{\text{anomaly}} \rvert$ exceeds a chosen threshold calibrated to a desired false-positive rate. The multiple-testing correction under $M$ simultaneous tests takes the form the Bonferroni bound
 
 $$\alpha_{\text{corrected}} = \alpha_{\text{single}} / M$$
 
@@ -590,7 +590,7 @@ with the posterior sharpening as more empirical observations accumulate through 
 
 $$\text{BF}_{s_A, s_B} = \log \frac{\Pr(\text{observed} \mid s_A)}{\Pr(\text{observed} \mid s_B)}$$
 
-with $|\text{BF}| > 2$ conventionally interpreted as substantial evidence favoring the higher-likelihood scenario.
+with $\lvert \text{BF} \rvert > 2$ conventionally interpreted as substantial evidence favoring the higher-likelihood scenario.
 
 ## Contingency Analysis
 

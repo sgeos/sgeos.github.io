@@ -300,7 +300,10 @@ def check_post(path, text, rep, exemptions=None, is_draft=False):
             if not s.strip() or s.startswith(("$$", "#", "    ", "\t")) or s.lstrip().startswith("|"):
                 continue
             first = s.split("\n")[0]
-            if re.search(r"(?<!\$)\$(?!\$)[^$\n]*\|[^$\n]*\$", first):
+            # A BACKSLASH-ESCAPED PIPE IS NOT A DELIMITER. `\|` is LaTeX's
+            # double-bar norm and kramdown leaves it alone, so requiring an
+            # unescaped pipe removes a false positive on `\text{KL}(p \| q)`.
+            if re.search(r"(?<!\$)\$(?!\$)[^$\n]*(?<!\\)\|[^$\n]*\$", first):
                 rep.warn("math-pipe-table",
                          f"{name}: paragraph opens with inline math containing `|`; "
                          f"kramdown renders it as a table. Near {first[:60]!r}")

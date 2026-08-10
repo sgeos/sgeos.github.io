@@ -395,7 +395,7 @@ treats the per-scanline scaling in detail.
 
 The belt-scroll ground-plane matrix
 has $\det(A_{\text{belt-scroll}}) = -\beta z^2$
-with $|\det| = \beta z^2$.
+with $\lvert \det \rvert = \beta z^2$.
 A unit ground-tile area
 covers $\beta z^2$ screen pixels,
 which is smaller than the top-down case
@@ -593,7 +593,7 @@ and 224 pixels tall.
 The mecha boss sprite
 is 64 pixels wide and 64 pixels tall
 in sprite-local coordinates
-with extent $|u| \leq 32$, $|v| \leq 32$.
+with extent $\lvert u \rvert \leq 32$, $\lvert v \rvert \leq 32$.
 The sprite's current screen anchor is $\mathbf{c} = (160, 140)$.
 The sprite's current scale factor is $s = 2$.
 The sprite's current orientation is $\theta = \pi/6$
@@ -633,7 +633,7 @@ $$
 $$
 
 The bounding-box test
-verifies $|19.8| \leq 32$ and $|-5.7| \leq 32$.
+verifies $\lvert 19.8 \rvert \leq 32$ and $\lvert -5.7 \rvert \leq 32$.
 Both conditions hold,
 so the click hits the sprite.
 
@@ -680,7 +680,7 @@ The smaller sprite
 covers less screen area
 and the click at $(200, 150)$
 at offset $(40, 10)$ from the anchor
-falls outside its local extent $|u| \leq 32$.
+falls outside its local extent $\lvert u \rvert \leq 32$.
 The smaller sprite does not register a hit.
 
 When both sprites are visible,
@@ -974,7 +974,7 @@ distinguishes the three disambiguation strategies
 that the inverse map admits,
 treats the numerical stability of the inverse
 through the condition number $\kappa(A)$,
-gives the area-scaling interpretation of the determinant $|\det(A)|$,
+gives the area-scaling interpretation of the determinant $\lvert \det(A) \rvert$,
 treats the canonical sprite-scale-and-rotate hit test
 $\mathbf{p}_{\text{local}} = (1/s) R(-\theta) (\mathbf{p}_{\text{screen}} - \mathbf{c})$
 that Battle Clash and Metal Combat used

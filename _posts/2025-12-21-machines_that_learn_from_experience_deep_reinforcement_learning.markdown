@@ -25,7 +25,7 @@ The deep reinforcement learning field has largely accepted this arrangement. Emp
 
 The neural function-approximation universe adopted by deep reinforcement learning consists of the standard architectural families of deep learning, including convolutional neural networks for pixel input, multi-layer perceptrons for low-dimensional continuous state, recurrent networks for partial observability and long-range temporal dependencies, and increasingly transformers for both state processing and sequence modeling of trajectories. The [Goodfellow Bengio and Courville 2016][book_goodfellow_bengio_courville_2016] textbook and the [LeCun Bengio and Hinton 2015][research_lecun_bengio_hinton_2015] review together provide the standard references for the deep learning background that deep reinforcement learning presumes.
 
-In deep Q-learning, the action-value function is represented as $Q_\theta(s, a) = f_\theta(s)_a$ for discrete actions, with the network $f_\theta : \mathcal{S} \to \mathbb{R}^{|\mathcal{A}|}$ mapping states to a vector of one $Q$-value per action. For continuous action spaces the parameterization becomes $Q_\theta(s, a) = g_\theta(s, a)$ where both state and action are network inputs. Policy networks parameterize $\pi_\theta(a \mid s) = h_\theta(s, a)$ for discrete actions via softmax outputs or, for continuous actions, as a Gaussian $\pi_\theta(a \mid s) = \mathcal{N}(\mu_\theta(s), \Sigma_\theta(s))$ with state-conditional mean and covariance.
+In deep Q-learning, the action-value function is represented as $Q_\theta(s, a) = f_\theta(s)_a$ for discrete actions, with the network $f_\theta : \mathcal{S} \to \mathbb{R}^{\lvert \mathcal{A} \rvert}$ mapping states to a vector of one $Q$-value per action. For continuous action spaces the parameterization becomes $Q_\theta(s, a) = g_\theta(s, a)$ where both state and action are network inputs. Policy networks parameterize $\pi_\theta(a \mid s) = h_\theta(s, a)$ for discrete actions via softmax outputs or, for continuous actions, as a Gaussian $\pi_\theta(a \mid s) = \mathcal{N}(\mu_\theta(s), \Sigma_\theta(s))$ with state-conditional mean and covariance.
 
 ## Deep Q-Networks
 
@@ -35,7 +35,7 @@ $$L(\theta) = \mathbb{E}_{(s, a, r, s') \sim \mathcal{D}}\!\left[\left(r + \gamm
 
 where $\mathcal{D}$ is the experience replay buffer, $\theta$ are the online network parameters, and $\theta^{-}$ are the target network parameters that are held fixed and periodically copied from $\theta$.
 
-The convolutional architecture takes as input a stack of four grayscale $84 \times 84$ frames representing recent history and produces one Q-value output per admissible action. Three convolutional layers are followed by a fully-connected layer and an output layer of size $|\mathcal{A}|$. The frame stacking provides limited temporal context, more sophisticated approaches use recurrent networks.
+The convolutional architecture takes as input a stack of four grayscale $84 \times 84$ frames representing recent history and produces one Q-value output per admissible action. Three convolutional layers are followed by a fully-connected layer and an output layer of size $\lvert \mathcal{A} \rvert$. The frame stacking provides limited temporal context, more sophisticated approaches use recurrent networks.
 
 Training details established the practical template for deep Q-learning that persists to the present. Experience replay uses a first-in-first-out buffer of $10^6$ transitions, from which random minibatches of size 32 are drawn for gradient updates. The target network is copied from the online network every $C = 10^4$ optimizer steps. Exploration uses $\epsilon$-greedy with $\epsilon$ linearly decayed from 1.0 to 0.1 over the first million environment steps. Reward clipping to $\{-1, 0, +1\}$ standardizes scale across games. The RMSprop optimizer with learning rate $2.5 \times 10^{-4}$ and momentum 0.95 provides the parameter updates.
 
@@ -59,7 +59,7 @@ Prioritized experience replay of [Schaul Quan Antonoglou Silver 2016][research_s
 
 $$P(i) = \frac{p_i^\alpha}{\sum_j p_j^\alpha}$$
 
-where $p_i = |\delta_i| + \epsilon$ is the priority derived from the transition's absolute TD error and $\alpha \in [0, 1]$ controls the degree of prioritization. To correct for the sampling bias introduced by prioritization, gradient updates are weighted by importance-sampling weights
+where $p_i = \lvert \delta_i \rvert + \epsilon$ is the priority derived from the transition's absolute TD error and $\alpha \in [0, 1]$ controls the degree of prioritization. To correct for the sampling bias introduced by prioritization, gradient updates are weighted by importance-sampling weights
 
 $$w_i = \left(\frac{1}{N \cdot P(i)}\right)^\beta$$
 

@@ -223,7 +223,7 @@ PackNet of Mallya and Lazebnik 2018 uses iterative pruning to identify a task-pa
 
 $$\theta^{(k)} = m^{(k)} \odot \theta$$
 
-with $m^{(k)} \in \{0, 1\}^{|\theta|}$ the task-$k$ binary mask and $\odot$ the elementwise product. Subsequent tasks are trained on the remaining unmasked parameters. The mechanism supports many tasks within a single fixed-size network but requires careful mask management.
+with $m^{(k)} \in \{0, 1\}^{\lvert \theta \rvert}$ the task-$k$ binary mask and $\odot$ the elementwise product. Subsequent tasks are trained on the remaining unmasked parameters. The mechanism supports many tasks within a single fixed-size network but requires careful mask management.
 
 Hard Attention to the Task (HAT) of Serra et al 2018 uses learned per-task attention masks over the network activations, allowing each task to select the units it uses without directly modifying the shared parameters. The task-gates provide soft parameter isolation and are learned jointly with the standard task loss. The HAT layer computation applies a learned per-task soft mask
 

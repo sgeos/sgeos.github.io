@@ -259,7 +259,7 @@ The investor set across the sequence has broadened from a small group of venture
 
 $$C^{\text{coalition}}(S) = \gamma \cdot |S| \cdot \left( 1 - h \right)$$
 
-with $|S|$ the coalition size required and $h$ a concentration measure of the investor base. The cost rises as the base disperses, so that the dispersion supplements the voting arithmetic rather than merely accompanying it.
+with $\lvert S \rvert$ the coalition size required and $h$ a concentration measure of the investor base. The cost rises as the base disperses, so that the dispersion supplements the voting arithmetic rather than merely accompanying it.
 
 ## The January 2015 Google and Fidelity Round
 

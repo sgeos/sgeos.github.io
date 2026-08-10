@@ -97,7 +97,7 @@ British global dominance from 1815 through 1914 is often called the Pax Britanni
 
 **Napoleonic War financing.** The wars against Revolutionary and Napoleonic France between 1793 and 1815 stressed the British state to a fiscal extremity no earlier polity had endured and survived. British government debt reached roughly two hundred fifty percent of gross domestic product by 1815, and the debt was serviced without default across the entire nineteenth century. The financial credibility that emerged from the Napoleonic War experience was itself a structural asset that later served as the foundation for the British capital-export era.
 
-**Naval supremacy and the two-power standard.** The Royal Navy emerged from the Napoleonic Wars as the dominant sea force in the world by a wide margin. The Naval Defence Act of 1889 formalized the two-power standard as an explicit British strategic doctrine, holding that the Royal Navy should be at least equal in strength to the combined navies of the second and third largest naval powers. Formally, if $|N_i|$ denotes the naval capital-ship tonnage of the $i$-th ranked navy in the world, the two-power standard requires
+**Naval supremacy and the two-power standard.** The Royal Navy emerged from the Napoleonic Wars as the dominant sea force in the world by a wide margin. The Naval Defence Act of 1889 formalized the two-power standard as an explicit British strategic doctrine, holding that the Royal Navy should be at least equal in strength to the combined navies of the second and third largest naval powers. Formally, if $\lvert N_i \rvert$ denotes the naval capital-ship tonnage of the $i$-th ranked navy in the world, the two-power standard requires
 
 $$
 |N_{\text{RN}}| \geq |N_2| + |N_3|
@@ -115,7 +115,7 @@ $$
 B_{\text{ca}} = B_{\text{visible}} + B_{\text{invisible}}
 $$
 
-with $B_{\text{visible}} < 0$ and $B_{\text{invisible}} \gg |B_{\text{visible}}|$ producing $B_{\text{ca}} > 0$. The composition matters because it establishes that late-Victorian Britain was already a financial and services economy running behind a manufacturing base whose relative competitiveness was eroding. The pattern would intensify through the twentieth century until financial services and related invisibles came to dominate British external earnings entirely.
+with $B_{\text{visible}} < 0$ and $B_{\text{invisible}} \gg \lvert B_{\text{visible}} \rvert$ producing $B_{\text{ca}} > 0$. The composition matters because it establishes that late-Victorian Britain was already a financial and services economy running behind a manufacturing base whose relative competitiveness was eroding. The pattern would intensify through the twentieth century until financial services and related invisibles came to dominate British external earnings entirely.
 
 ## The Long Depression and the Second Industrial Revolution
 

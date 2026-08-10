@@ -333,7 +333,7 @@ Regret analysis for options under UCRL2-style optimism was given by [Fruit and L
 
 $$R_T = \tilde{\mathcal{O}}\!\left(D_O \sqrt{|\mathcal{S}| |\mathcal{O}| T}\right)$$
 
-where $D_O$ is the diameter of the option-induced SMDP and $|\mathcal{O}|$ is the number of options. When $|\mathcal{O}| \ll |\mathcal{A}|$ and $D_O$ is comparable to the primitive-action diameter $D$, hierarchical exploration achieves markedly better regret than flat exploration.
+where $D_O$ is the diameter of the option-induced SMDP and $\lvert \mathcal{O} \rvert$ is the number of options. When $\lvert \mathcal{O} \rvert \ll \lvert \mathcal{A} \rvert$ and $D_O$ is comparable to the primitive-action diameter $D$, hierarchical exploration achieves markedly better regret than flat exploration.
 
 [Wen Precup Ibarz Barreto Silver Van Roy 2020][research_wen_precup_ibarz_2020] provided efficient reinforcement learning via hierarchy analysis with sub-linear regret bounds under favorable option structures. The theoretical understanding of when hierarchical decomposition provably reduces sample complexity remains a productive research area with contributions continuing through the 2020s. Extensions include analysis of hierarchical policy iteration, sample-complexity bounds for MAXQ-style decompositions, and hierarchical PAC-MDP frameworks.
 

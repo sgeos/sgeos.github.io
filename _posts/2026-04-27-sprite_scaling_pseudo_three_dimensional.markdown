@@ -433,7 +433,7 @@ looking forward along the world $w_z$ axis.
 
 A sprite is a 64-by-32-pixel enemy mecha
 at sprite-local pixel extent
-$|u| \le 32$, $|v| \le 16$.
+$\lvert u \rvert \le 32$, $\lvert v \rvert \le 16$.
 The mecha's world position is
 $\mathbf{p}_{\text{world}}^{\text{sprite}} = (15, 0, 50)$,
 15 units to the right of the camera
@@ -516,7 +516,7 @@ and dividing by 2 gives $(31.8,\ -16)$.
 The inverse-mapped click
 is at sprite-local position $(31.8, -16)$,
 which lies within the sprite's local rectangle
-$|u| \le 32$, $|v| \le 16$.
+$\lvert u \rvert \le 32$, $\lvert v \rvert \le 16$.
 The bounding-box test succeeds
 and the engine reports a hit on the first mecha.
 

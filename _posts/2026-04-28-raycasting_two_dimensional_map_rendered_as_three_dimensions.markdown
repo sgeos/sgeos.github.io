@@ -178,7 +178,7 @@ $c_y = (w_y^{\text{floor}} + w_y^{\text{ceiling}})/2$.
 The camera looks forward
 along a unit-length direction vector
 $\mathbf{d} = (d_x, d_z)$
-with $|\mathbf{d}| = 1$.
+with $\lvert \mathbf{d} \rvert = 1$.
 
 The camera plane vector $\mathbf{p}$
 is perpendicular to $\mathbf{d}$
@@ -189,10 +189,10 @@ $$
 $$
 
 For a 90-degree field of view,
-$|\mathbf{p}| = 1$.
+$\lvert \mathbf{p} \rvert = 1$.
 For a 66-degree field of view
 common in early raycasters,
-$|\mathbf{p}| \approx 0.66$.
+$\lvert \mathbf{p} \rvert \approx 0.66$.
 
 The per-column ray cast
 emits one ray per screen column $s_x \in \{0, 1, \dots, W-1\}$.
@@ -481,7 +481,7 @@ matching the personal-computer Mode 13h display
 that early raycasters targeted.
 The horizontal field of view is 66 degrees,
 so the camera plane magnitude is
-$|\mathbf{p}| = \tan(33°) \approx 0.65$.
+$\lvert \mathbf{p} \rvert = \tan(33°) \approx 0.65$.
 The vertical focal length is $f = 200$ pixels per world unit at unit distance,
 chosen so that a wall of height 1 at distance 1 fills the screen vertically.
 

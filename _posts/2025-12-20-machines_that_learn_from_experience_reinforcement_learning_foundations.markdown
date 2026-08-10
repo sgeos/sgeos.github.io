@@ -45,7 +45,7 @@ $$J(\pi) = \mathbb{E}_{\pi} \left[ G_0 \right] = \mathbb{E}_{s \sim \mu_0}[V^{\p
 
 where $V^{\pi}(s)$ is the state value function defined below.
 
-Finite MDPs have $|\mathcal{S}|, |\mathcal{A}| < \infty$. Countable and uncountable state and action spaces are treated in the extensions section. Episodic tasks introduce a terminal absorbing state and may use $\gamma = 1$. Continuing tasks have $\gamma < 1$ or use the average-reward formulation treated later.
+Finite MDPs have $\lvert \mathcal{S} \rvert, \lvert \mathcal{A} \rvert < \infty$. Countable and uncountable state and action spaces are treated in the extensions section. Episodic tasks introduce a terminal absorbing state and may use $\gamma = 1$. Continuing tasks have $\gamma < 1$ or use the average-reward formulation treated later.
 
 An MDP is called unichain if under every stationary policy the induced Markov chain has a single recurrent class plus a possibly-empty set of transient states, and multichain otherwise. The distinction matters for the average-reward setting where multichain MDPs require a more careful treatment.
 
@@ -85,7 +85,7 @@ The Bellman expectation equation for the state value function is
 
 $$V^{\pi}(s) = \sum_a \pi(a \mid s) \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V^{\pi}(s') \right]$$
 
-This is a linear system in $V^{\pi}$ over $|\mathcal{S}|$ unknowns and has a unique solution when $\gamma < 1$. In matrix form for finite MDPs, letting $\mathbf{V}^{\pi} \in \mathbb{R}^{|\mathcal{S}|}$ be the value vector, $\mathbf{R}^{\pi}$ the expected immediate reward vector under $\pi$, and $\mathbf{P}^{\pi}$ the $|\mathcal{S}| \times |\mathcal{S}|$ policy-induced transition matrix, the equation is
+This is a linear system in $V^{\pi}$ over $\lvert \mathcal{S} \rvert$ unknowns and has a unique solution when $\gamma < 1$. In matrix form for finite MDPs, letting $\mathbf{V}^{\pi} \in \mathbb{R}^{\lvert \mathcal{S} \rvert}$ be the value vector, $\mathbf{R}^{\pi}$ the expected immediate reward vector under $\pi$, and $\mathbf{P}^{\pi}$ the $\lvert \mathcal{S} \rvert \times \lvert \mathcal{S} \rvert$ policy-induced transition matrix, the equation is
 
 $$\mathbf{V}^{\pi} = \mathbf{R}^{\pi} + \gamma \mathbf{P}^{\pi} \mathbf{V}^{\pi}$$
 
@@ -115,7 +115,7 @@ and the Bellman optimality operator,
 
 $$(T^* V)(s) = \max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V(s') \right]$$
 
-Both operators are $\gamma$-contractions on $\mathbb{R}^{|\mathcal{S}|}$ under the supremum norm,
+Both operators are $\gamma$-contractions on $\mathbb{R}^{\lvert \mathcal{S} \rvert}$ under the supremum norm,
 
 $$\| T^{\pi} V - T^{\pi} V' \|_{\infty} \leq \gamma \| V - V' \|_{\infty}, \quad \| T^* V - T^* V' \|_{\infty} \leq \gamma \| V - V' \|_{\infty}$$
 
@@ -169,7 +169,7 @@ averages over all visits with $N(s)$ the total visit count and shares the same l
 
 Monte Carlo prediction converges to $V^{\pi}$ almost surely under mild conditions on the episode distribution and policy. Monte Carlo control alternates policy evaluation via Monte Carlo estimation with policy improvement via greedy or $\epsilon$-greedy action selection, subject to the exploration issue that greedy improvement over Monte Carlo estimates can leave some state-action pairs unvisited.
 
-The standard resolutions are the assumption of exploring starts, in which each episode begins from a state-action pair drawn uniformly, or the use of $\epsilon$-soft policies that assign at least $\epsilon/|\mathcal{A}|$ probability to every action, ensuring infinite visitation of all state-action pairs.
+The standard resolutions are the assumption of exploring starts, in which each episode begins from a state-action pair drawn uniformly, or the use of $\epsilon$-soft policies that assign at least $\epsilon/\lvert \mathcal{A} \rvert$ probability to every action, ensuring infinite visitation of all state-action pairs.
 
 Off-policy Monte Carlo control learns about a target policy $\pi$ from data generated under a behavior policy $\mu$ via importance sampling. The per-episode importance sampling ratio for an episode of length $T$ is
 
@@ -293,7 +293,7 @@ and updates all state values in proportion to their eligibility on each TD error
 
 $$V(s) \leftarrow V(s) + \alpha \delta_t e_t(s) \quad \forall s$$
 
-The forward and backward views are equivalent in expectation and produce identical updates over episodes. The backward view is computationally efficient because it operates online with $\mathcal{O}(|\mathcal{S}|)$ storage rather than requiring the full trajectory to be observed before updates begin.
+The forward and backward views are equivalent in expectation and produce identical updates over episodes. The backward view is computationally efficient because it operates online with $\mathcal{O}(\lvert \mathcal{S} \rvert)$ storage rather than requiring the full trajectory to be observed before updates begin.
 
 Watkins's Q($\lambda$) and [Peng and Williams 1996][research_peng_williams_1996] Q($\lambda$) provide off-policy variants of TD($\lambda$) for the action-value case, differing in how they handle exploratory actions that break the eligibility trace. [Precup Sutton and Singh 2000][research_precup_sutton_singh_2000] developed the off-policy eligibility-trace framework using importance-sampling corrections, providing the theoretical basis for later off-policy multistep methods.
 
@@ -443,7 +443,7 @@ Finite-sample analyses under the Wasserstein-metric framework of [Munos et al 20
 
 The sample complexity of reinforcement learning is the number of environment interactions required to obtain a near-optimal policy with high probability. The PAC-MDP framework of [Kakade 2003][book_kakade_thesis_2003] defines an algorithm to be probably approximately correct if its sample complexity, defined as the number of steps in which the policy is not $\epsilon$-optimal, is bounded with high probability by a polynomial in the problem parameters.
 
-The E3 algorithm of [Kearns and Singh 2002][research_kearns_singh_2002] and the R-MAX algorithm of [Brafman and Tennenholtz 2002][research_brafman_tennenholtz_2002] achieve PAC-MDP guarantees for finite MDPs with sample complexity polynomial in $|\mathcal{S}|$, $|\mathcal{A}|$, and $1/(1-\gamma)$. The R-MAX sample complexity bound has the form
+The E3 algorithm of [Kearns and Singh 2002][research_kearns_singh_2002] and the R-MAX algorithm of [Brafman and Tennenholtz 2002][research_brafman_tennenholtz_2002] achieve PAC-MDP guarantees for finite MDPs with sample complexity polynomial in $\lvert \mathcal{S} \rvert$, $\lvert \mathcal{A} \rvert$, and $1/(1-\gamma)$. The R-MAX sample complexity bound has the form
 
 $$\tilde{\mathcal{O}}\!\left(\frac{|\mathcal{S}|^2 |\mathcal{A}|}{\epsilon^3 (1-\gamma)^6} \log(1/\delta)\right)$$
 
@@ -453,7 +453,7 @@ Regret-based analysis of finite MDPs began with the UCRL2 algorithm of [Jaksch O
 
 $$R_T = \tilde{\mathcal{O}}(D \sqrt{|\mathcal{S}| |\mathcal{A}| T})$$
 
-involves the diameter $D$ of the MDP, the state and action-space sizes, and the horizon $T$. The minimax lower bound of [Azar Osband and Munos 2017][research_azar_osband_munos_2017] establishes $\Omega(\sqrt{H |\mathcal{S}| |\mathcal{A}| T})$ for finite-horizon MDPs, and their UCBVI algorithm matches this bound. Posterior sampling for reinforcement learning of [Osband and Van Roy 2013][research_osband_van_roy_2013] extends Thompson sampling from bandits to MDPs and achieves Bayesian regret bounds of similar order under the Bayesian setting.
+involves the diameter $D$ of the MDP, the state and action-space sizes, and the horizon $T$. The minimax lower bound of [Azar Osband and Munos 2017][research_azar_osband_munos_2017] establishes $\Omega(\sqrt{H \lvert \mathcal{S} \rvert \lvert \mathcal{A} \rvert T})$ for finite-horizon MDPs, and their UCBVI algorithm matches this bound. Posterior sampling for reinforcement learning of [Osband and Van Roy 2013][research_osband_van_roy_2013] extends Thompson sampling from bandits to MDPs and achieves Bayesian regret bounds of similar order under the Bayesian setting.
 
 Model-based interval estimation with exploration bonuses of [Strehl Li and Littman 2009][research_strehl_li_littman_2009] provided a unified analysis of several PAC-MDP algorithms under a common framework. Sample complexity results for continuous-state MDPs and for MDPs with function approximation require substantial additional apparatus. Recent work has established polynomial sample complexity for finite-horizon linear MDPs and for MDPs with low-rank transition structure, connecting reinforcement learning theory to the low-rank matrix estimation literature.
 

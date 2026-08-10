@@ -603,7 +603,7 @@ $$
 \Delta v_2 = \sqrt{\frac{\mu}{r_2}} \left(1 - \sqrt{\frac{2 r_1}{r_1 + r_2}}\right)
 $$
 
-The total velocity change is $\Delta v_{total} = |\Delta v_1| + |\Delta v_2|$.
+The total velocity change is $\Delta v_{total} = \lvert \Delta v_1 \rvert + \lvert \Delta v_2 \rvert$.
 
 The transfer time is half the period of the transfer ellipse.
 

@@ -48,7 +48,7 @@ The constants $c^0$ and $c^1$ are indeed 1 and $c$, respectively.
 
 Any value can be used for $c$.
 The "spiral" version starts to look like a sphere when $c$ is at least 12, and the "beachball" when $c$ is at least 6.
-Values of less than one $\bbox[cyan] {\left| c \right| \lt 1}$ are relatively broken.
+Values of less than one $\bbox[cyan] {\left\lvert  c \right \rvert \lt 1}$ are relatively broken.
 When $c=\infty$, the function *is* a sphere.
 The "spiral" scans a complete circle from the top of the sphere to the bottom $\bbox[cyan] {z \in 1 \to -1}$,
 and the "beachball" rotates a circle around the z axis.

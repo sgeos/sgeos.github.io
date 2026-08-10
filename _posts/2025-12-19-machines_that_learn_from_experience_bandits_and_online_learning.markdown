@@ -221,7 +221,7 @@ For general contextual bandits without linear structure, the epoch-greedy family
 
 $$R_T = \mathcal{O}\left(\sqrt{T K \log |\Pi|}\right)$$
 
-where $|\Pi|$ is the cardinality of a fixed policy class. For infinite policy classes indexed by a bounded-VC-dimension hypothesis space, the bound generalizes with $\log |\Pi|$ replaced by the appropriate complexity measure.
+where $\lvert \Pi \rvert$ is the cardinality of a fixed policy class. For infinite policy classes indexed by a bounded-VC-dimension hypothesis space, the bound generalizes with $\log \lvert \Pi \rvert$ replaced by the appropriate complexity measure.
 
 Contextual bandits provide the algorithmic foundation for personalized recommendation, targeted content selection, and other applied problems that this series does not treat directly. The theoretical apparatus that supports the applied deployments is treated here.
 
@@ -247,7 +247,7 @@ Combinatorial bandits treat problems where the arm set has combinatorial structu
 
 $$R_T = \mathcal{O}(m \sqrt{T \log |\mathcal{A}|})$$
 
-where $m$ is the size of each combinatorial action and $|\mathcal{A}|$ is the combinatorial action set size, exploiting the combinatorial structure to avoid regret bounds that scale linearly with the exponentially large arm set.
+where $m$ is the size of each combinatorial action and $\lvert \mathcal{A} \rvert$ is the combinatorial action set size, exploiting the combinatorial structure to avoid regret bounds that scale linearly with the exponentially large arm set.
 
 Continuum-armed or Lipschitz bandits allow an uncountable action set with rewards Lipschitz-continuous in the action. The [Kleinberg Slivkins and Upfal 2008][research_kleinberg_slivkins_upfal_2008] zooming algorithm achieves regret
 

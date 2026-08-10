@@ -225,7 +225,7 @@ The threshold property also explains the deployment sequence's geographic order.
 
 $$\text{coverage density}(\lambda) \; \propto \; \frac{1}{\sqrt{\sin^2 i - \sin^2 \lambda}} \qquad \text{for} \qquad |\lambda| < i$$
 
-with the density rising toward $|\lambda| \to i$ and vanishing beyond it. Coverage was therefore established first at the latitudes the inclination favored and extended subsequently, so that revenue began at high northern latitudes where terrestrial broadband was poorest and the competing alternatives weakest. The commercial sequence follows from orbital geometry rather than from a market-selection decision.
+with the density rising toward $\lvert \lambda \rvert \to i$ and vanishing beyond it. Coverage was therefore established first at the latitudes the inclination favored and extended subsequently, so that revenue began at high northern latitudes where terrestrial broadband was poorest and the competing alternatives weakest. The commercial sequence follows from orbital geometry rather than from a market-selection decision.
 
 ## Vertical Integration and the Internal Transfer Price
 
