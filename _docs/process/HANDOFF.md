@@ -11,19 +11,14 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `7ef3e41`, **VOID, see below**
+- **Parent commit** (the repository state this handoff describes): `551b0e7`
 - **Written**: 2026-08-09
 - **Tree at write**: clean, nothing unpushed
-
-> **THIS HANDOFF IS STALE AND ITS PARENT COMMIT NO LONGER RESOLVES.** It was already stale before the
-> history was touched, because eight commits landed after it was written, so its `HEAD~1` check was
-> failing on the ordinary rule below. Separately, on 2026-08-09 the history was rewritten to remove
-> tracked Python bytecode, which gave 147 commits new identifiers. **`7ef3e41` is not reachable from
-> `master` and does not exist at all in a fresh clone.** Pre-rewrite identifiers recorded anywhere in
-> `_docs/` are void for the same reason. The pre-rewrite history is preserved on the remote as the tag
-> `pre-pycache-rewrite`. Treat this file as INVALID and read the live channels instead.
 - **Context**: the X-Planes series is IN PROGRESS. **Twenty-seven of seventy-two articles drafted, all
   four passes complete on each. None published.**
+
+**Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
+and 147 commits took new identifiers. Anything older than this handoff will not resolve.
 
 **Validate before trusting.** Compare the recorded **Parent commit** to `git rev-parse HEAD~1`. Because
 this handoff file is itself committed, its commit becomes the branch tip and its parent is the state
@@ -43,6 +38,13 @@ described.
 **Nothing is outstanding.** A323 finished all four passes, is committed and pushed, its deploy
 succeeded, and the article returns 404 while the site root returns 200, which is correct because
 nothing in the series is published. There is no half-finished pass to pick up.
+
+**One change since A323 touches seventeen of the drafts and is already done.** Their reference blocks
+held only `[anchor]: url` link definitions, which render as nothing, so the References section came out
+as empty headings. **Every draft now carries a visible `- [text][anchor]` list beside the definitions**,
+which is the corpus convention and what `_verify.py` now enforces. All twenty-seven build together with
+rendering reference lists and no accidental tables. **Do not regenerate those blocks by hand**, use
+`_lib/refs.py` `emit_blocks`, which takes the display text.
 
 **Wait for the pilot's prompt. Do not begin A324 unprompted.**
 
@@ -266,11 +268,15 @@ pools. A322 cited two Hypersonic Aerodynamics Fellowships notices.
 
 ### On tooling
 
-**THE DOUBLED-BACKSLASH DEFECT HAS NOW SHIPPED IN THREE CONSECUTIVE ARTICLES AND PASSES EVERY
-AUTOMATED CHECK EVERY TIME.** In an rf-string `\\,` stays **two characters**, and MathJax reads it as a
-line break followed by a comma. The equation count is right, the braces balance and the build
-succeeds. **A323 did it in a file whose own docstring warns against it.** Use `\,` and **read the
-rendered output**.
+**THE DOUBLED-BACKSLASH DEFECT SHIPPED IN THREE CONSECUTIVE ARTICLES.** In an rf-string `\\,` stays
+**two characters**, and MathJax reads it as a line break followed by a comma. The equation count is
+right, the braces balance and the build succeeds. **A323 did it in a file whose own docstring warns
+against it.** Use `\,`. **`_verify.py` now has a `math-doubled-backslash` error for it**, so this one is
+caught, but the general lesson stands: **read the rendered output.**
+
+**A BARE `|` IN INLINE MATH AT THE START OF A PARAGRAPH TURNS THE PROSE INTO A TABLE.** kramdown reads a
+paragraph whose first line contains a pipe as a table, so `$|S| = 39$` opening a paragraph shreds the
+math across table cells. **Write `\lvert S \rvert`.** `_verify.py` warns on it as `math-pipe-table`.
 
 **READ THE GENERATED BODY AND THE RENDERED EQUATIONS.** Every article has produced at least one defect
 that only reading found: mangled LaTeX, link text truncated mid-word, duplicated equations, symbol
@@ -288,7 +294,7 @@ wrong" refer to a revision the reader never saw. A322 shipped five and A323 six;
 belong in the body as live `{c('...')}` calls.
 
 **A DISPLAY EQUATION MUST OCCUPY EXACTLY ONE SOURCE LINE, AND A BOLD SPAN MUST NOT CROSS ONE.** The
-style checker validates per line. `write.py` carries a `reflow()` that enforces both.
+style checker validates per line. `_lib/reflow.py` enforces both and is a fixed point after one pass.
 
 **`check_any.py` REPLACES the per-article `check.py`.** It lives at `tmp/errata/check_any.py`, derives
 the article number from the `<!-- Axxx -->` marker, and validates date and series index against the
@@ -304,28 +310,36 @@ command issued after a `cd`.**
 
 ## Verification Toolchain
 
-**`tmp/*` IS GITIGNORED, so none of this survives a fresh clone.** Per-article scripts are rebuilt by
-copying the previous article's directory and repointing. **Repoint every path**, including the draft
-filename inside `diction.py`, `ref_audit.py`, `url_check.py`, `gen_refs.py` and `verify_numbers.py`.
-**And rewrite `ref_audit.py`'s topic list**, which otherwise still describes the previous subject.
+**THE SHARED MECHANISM IS COMMITTED AND MUST NOT BE REBUILT.** `_lib/` holds it, with `README.md`
+describing each module: `fetch` for archive queries, `refs` for anchors and the reference block, `edits`
+for guarded editing, `reflow`, `lint`, `diction` for word and phrase overuse, `audit` for equation and
+citation gaps, `numcheck` for independent re-derivation, and `citations` for registry verification. Run
+`python3 _lib/test_lib.py`, which should report 44 of 44. `_research/rejected.json` holds 721 accumulated
+sweep judgements, reused through `_research/homonyms.py`.
 
-| Script | Purpose |
+**`tmp/*` IS GITIGNORED**, and what belongs there is the article's own payload only, meaning harvest
+queries, cluster definitions and edit text. **Repoint every path** when copying a previous article's
+directory, **and rewrite the topic list** used by the coverage audit, which otherwise still describes the
+previous subject.
+
+**Committed, in `_lib/`.** Use these rather than writing new ones.
+
+| Module | Purpose |
 |---|---|
-| `tmp/errata/check_any.py` | style and integrity for any or all articles, roster-validated |
-| `tmp/errata/build_check.sh` | real Jekyll build of every draft staged as a post |
-| `harvest.py` … `harvest6.py` | archive sweeps; later ones close audit gaps and drive the contemporary survey |
-| `ntrs_detail.py` | per-record NTRS metadata, incremental; **search returns no authors** |
-| `gen_master.py` | master index; **deduplicates same-title records, truncates at word boundaries, strips HTML and quotes** |
-| `gen_refs.py` | emits the reference section; enforces the link-text invariant |
-| `ref_audit.py` | coverage by topic, era and source; **run BEFORE selecting and rewrite its topics** |
-| `pick.py` | cluster selection; **not named `select.py`** |
-| `diction.py` | word frequency; **measure TRUE PROSE, since anchors inflate `research` a hundredfold** |
-| `read_and_dropped.json` | persisted decisions, now 721 entries, keyed by URL as well as anchor |
-| `calc.py`, `calc2.py` | the article's physics; calc2 carries the equation pass |
-| `verify_numbers.py` | independent re-derivation; **must not import the calculation** |
-| `url_check.py` | external sweep; Crossref registry for DOIs, HTTP for archives, **prints titles** |
+| `fetch` | archive queries with backoff; Crossref, NTRS, DTIC, OSTI, Open Library. **NTRS search returns no authors**, so `ntrs_detail` supplies them |
+| `refs` | anchors, link text, deduplication by title AND year, and `emit_blocks` for the reference section. **Truncates at word boundaries** |
+| `edits` | whitespace-tolerant, all-or-nothing edits with equation and invariant guards |
+| `reflow` | rewrapping that keeps bold spans and link pairs atomic. **Opt-in per article, not a corpus normaliser** |
+| `lint` | mid-edit invariant scan, defects separated from house conventions |
+| `diction` | word and phrase overuse **measured against peer articles**, since a fixed threshold cannot tell a tic from a subject noun. Strips citation link text |
+| `audit` | equation gaps, citation gaps, thin sections, primary count AND fraction. **Run `citation_gaps` after every equation pass** |
+| `numcheck` | independent re-derivation harness; **must not import the calculation** |
+| `citations` | Crossref registry verification for recalled identifiers, sampling for retrieved ones |
 
-### The Endpoints, Embedded Because the Scripts Are Not Committed
+**Per article, in gitignored `tmp/`.** Harvest queries, cluster definitions, the physics in `calc.py`,
+and the edit payloads. These are the article's argument and do not belong in `_lib`.
+
+### The Endpoints, Also Documented Here Because They Are Easy to Get Wrong
 
 - **NTRS search** — `https://ntrs.nasa.gov/api/citations/search?q=<terms>`, detail at
   `https://ntrs.nasa.gov/api/citations/<id>`. **Cite `https://ntrs.nasa.gov/citations/<id>`.** Caps at
@@ -349,7 +363,10 @@ filename inside `diction.py`, `ref_audit.py`, `url_check.py`, `gen_refs.py` and 
 
 **An HTTP 200 does not verify a citation.**
 
-**Independence matters.** `verify_numbers.py` must not import the calculation module. A323 finds its
+**Independence matters.** The article's verifier must not import its calculation module.
+`_lib/numcheck.py` is the harness, with `prop` for randomised property checks, `bisect` for reaching a
+value by a different route, and `require_in_text` to fail when a verified number is absent from the
+draft. A323 finds its
 maximum lift-to-drag ratio by **scanning the polar**, its decibel-per-doubling by **bisection**, and
 tests the helix-angle cancellation as a **randomised property**.
 
@@ -359,17 +376,13 @@ tests the helix-angle cancellation as a **randomised property**.
 
 **Categories — SETTLED and not to be revisited.** `aerospace history engineering`.
 
-**A fourth genre class.** `_docs/writing/RESEARCH_AIRCRAFT_STRUCTURE.md` names four classes. **A313
-through A323 have each finished outside all of them on two of three measures, in the same direction,
-across SIXTEEN consecutive articles.** References land far above band while lines and equations land
-below.
-
-**The comprehensiveness directive settles what this is NOT.** It is not a quality problem and the
-articles are not to be trimmed toward the bands. **What remains open is only whether the genre document
-should be amended to describe what the series actually does**, since a band no recent article matches
-is documentation that has drifted from practice. **Do not amend it unprompted**, since it defines the
-series' own standards, but the offer to propose a fourth class with bands drawn from those sixteen
-stands.
+**The genre bands — SETTLED on 2026-08-09 and not to be revisited.**
+`_docs/writing/RESEARCH_AIRCRAFT_STRUCTURE.md` was amended on the pilot's instruction to describe what
+the series actually does. The old bands, drawn from the History of SpaceX medians, matched no recent
+article. **The document now carries measured figures across all twenty-seven drafts**, records that the
+class table is about SECTION ORDER rather than size, and states the comprehensiveness directive
+explicitly. **Exceeding any figure in it is not a defect and requires no justification. Padding toward
+one is forbidden.** Report the counts, do not target them.
 
 **A305 length — SETTLED on 2026-08-09 and not to be revisited.** The pilot has directed that **the
 goal is for these articles to be as comprehensive as possible and that doing more is not a problem**,
