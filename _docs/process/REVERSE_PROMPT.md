@@ -9,90 +9,89 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A327 primary-reference review, the third of four passes. Committed, **not pushed**.
+**Task**: A327 publication review, the fourth and final pass. Committed and **pushed**. **Not
+published.**
 
-**State: 7,408 lines, 54 display equations, 2,084 reference definitions, 41,972 words.** Thirty-one
-articles drafted, all in `_drafts/`, **none published**.
-
----
-
-## What Moved
-
-**References 1,375 to 2,084 defined and 1,345 to 2,054 cited.** Equations held at 54, measured before
-and after. **Primary sources 940 to 1,304**, and the period count 798 to 1,102.
-
-**The primary fraction fell while the primary count rose by a third**, from 71.3 to 64.3 percent,
-because the same pass also cited seven hundred contemporary sources that had been harvested and left
-unused. Nothing was removed, and the Source Base states both numbers.
+**Final state: 10,596 lines, 54 display equations, 3,118 reference definitions, 58,563 words.** All
+thirty-one articles in the series remain in `_drafts/`.
 
 ---
 
-## Two Causes, and Only One of Them Was Supply
+## The Contemporary Survey
 
-**The first was supply, and the audit said so unambiguously.** For nine of the ten subjects the
-equation pass promoted, the cited count equalled the pool count exactly, and **three stood at zero**.
-Energy requirements to orbit went from 0 to 4, mass capture 0 to 2, stagnation pressure and structural
-load 0 to 8, normal shock and pressure recovery 1 to 16, equivalence ratio 1 to 37, Reynolds and
-transition criteria 3 to 53, ignition delay and kinetics 4 to 52, and inlet starting 9 to 50.
+**Contemporary coverage 753 to 1,784 references, or 37.1 to 58.9 percent.** A deliberate harvest of 60
+Crossref queries under a 2015 filter and 10 NTRS queries took the modern pool from 1,089 to 2,701 and
+the master from 2,028 to 3,062 records, **every one of which is now cited**.
 
-**The second was selection, and it was mine.** **Two hundred and forty-nine harvested records were
-sitting uncited**, because the article carried a marker for the period half of several clusters and
-none for the modern half, and one cluster had no marker at all.
-
-**That is not a research finding. It is a bookkeeping error**, and it is recorded because an article
-that harvests a record and then never cites it has done the work and thrown it away. **Every one of
-the 2,028 master records is now cited.**
+**Seven survey subsections were added for subjects that were not fields in 1993**, being
+detonation-based propulsion, precooled engines, machine learning applied to hypersonic prediction,
+uncertainty quantification, additive manufacture of cooled structures, aerothermoelasticity, and the
+economics of reusable launch.
 
 ---
 
-## A Library Defect, Found by the Corpus Checker
+## The Most Important Development Is Not Aerodynamic
 
-**A Springer title containing inline LaTeX reached link text.** Truncated for display it left **a
-single unbalanced `$$`, which opens a MathJax display block and swallows the rest of the page.**
+**Reusable rocket first stages lowered the cost of access to space substantially, without
+air-breathing.** That was the X-30's entire justification.
 
-`refs.clean` stripped HTML, ampersands, brackets and braces, and **not dollars or LaTeX commands**. It
-now strips both, and `_lib/test_lib.py` gained a regression test.
+**The argument was answered by a different technology, and the physics the X-30 could not settle is
+exactly where it was left.** That seemed worth saying plainly in the survey, because it is the reason
+the question has not been reopened rather than any technical verdict on it.
 
-**The test was initially appended to the end of that file and never ran.** Discovery is a module-level
-loop over `globals()`, so anything defined after it is invisible, and the suite reported 45 of 45 and
-looked healthy. **A test that is never collected is worse than no test, because it reads as coverage.**
-Moved above the loop, the suite is at **46 of 46**.
-
----
-
-## Reported Rather Than Padded
-
-**Mass capture returns two records from five targeted queries.** The quantity is discussed **inside**
-the inlet literature, which this article cites 268 times, rather than under a heading of its own.
-
-**And one homonym was not predicted.** The energy-to-orbit vocabulary collides with **oceanographic
-and meteorological energy budgets**, and eleven of sixteen matching records were internal waves in the
-South China Sea, stratospheric budgets and surface energy balance. The anchor gate rejected every one,
-which is the gate working.
+**Two of the new subjects bear directly on the article's own arithmetic.** Detonation approaches
+constant-volume heat release and so extracts more work from the same chemical energy, which attacks
+precisely the difficulty that the fuel is a small perturbation on a very large stream. And uncertainty
+quantification is the discipline that answers the twenty-fold amplification, since **a twenty-fold
+amplification is not an argument against computing but an argument for computing the amplification.**
 
 ---
 
-## Verification
+## The Count-Versus-Fraction Trap, Both Ways
+
+**At the primary pass the primary count rose** from 940 to 1,304 while its fraction fell from 71.3 to
+64.3 percent.
+
+**At this pass the reverse.** The period count sits essentially unchanged at 1,103 while its fraction
+falls, because a further thousand contemporary sources arrived underneath it.
+
+**Nothing was removed at any point**, and the Source Base records both movements.
+
+---
+
+## Publication Checks
+
+Prose style clean, with **zero em dashes, zero en dashes, zero contractions, zero prose parentheticals,
+zero prose colons and zero prose semicolons** in the body. Every colon found traces to YAML front
+matter.
+
+**No acronyms appear in authorial prose at all.** The only all-capital tokens are the unit symbols MW
+and MJ, and NASA appears solely inside verbatim citation titles, which are exempt.
+
+**Zero constructions above the corpus maximum.**
+
+---
+
+## Final Verification
 
 98 numerical checks passing unchanged, with all article-facing values confirmed present in the draft.
-`_lib/test_lib.py` at 46 of 46. Reference integrity at 2,084 with zero undefined, orphaned or
+`_lib/test_lib.py` at 46 of 46. Reference integrity at 3,118 with zero undefined, orphaned or
 duplicate URLs, and **zero search-endpoint citations**.
 
-**The full set was swept with zero hard failures**, including all 435 NTRS identifiers, 240 of 240
-sampled journal DOIs, 80 of 80 sampled DTIC DOIs, and all books and curated URLs.
+**The final set was swept with zero hard failures**, including all 435 NTRS identifiers, 240 of 240
+sampled journal DOIs against 2,305, 80 of 80 sampled DTIC DOIs against 324, and all books and curated
+URLs.
 
-`_verify.py` at the 21-warning baseline, check_any clean, zero constructions above the corpus maximum,
-equation citation gaps 26 to 20, and a 31-article isolated build rendering all 54 equations across 17
-sections and 19 tables.
+`_verify.py` at the 21-warning baseline, check_any clean, and a 31-article isolated build rendering
+**all 54 equations across 17 sections, 55 subsections and 19 tables**.
 
 ---
 
 ## Awaiting Instruction
 
-**A327 has completed the draft, equation and primary-reference passes.** The publication review
-remains.
+**A327 is complete through all four passes.** Thirty-one of seventy-two drafted, **none published**.
 
-**Contemporary coverage stands at 753 references and 37.1 percent**, against a standing directive that
-these articles serve as a comprehensive survey of the current literature. The contemporary pool was
-extended during this pass only as a side effect of citing what was already harvested, so there is
-material for a deliberate contemporary harvest.
+The next article to draft is **A328, the Rockwell-MBB X-31**, editorial date 2025-11-06, series index
+32. **It inverts this one again.** The X-31 was built, two were flown, and it answered its question in
+the most direct way available, by flying manoeuvres no conventional aircraft could perform and then
+being flown against conventional aircraft to see whether that mattered.

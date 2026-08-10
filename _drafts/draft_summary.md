@@ -24,7 +24,49 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 4,978 lines, 22 display equations, 1,375 reference definitions, 28,697 words after the draft pass.
 **5,193 lines, 54 display equations, 1,375 references, 30,357 words after the equation review.**
 **7,408 lines, 54 display equations, 2,084 references, 41,972 words after the primary-reference
-review.** Committed, not pushed. **The publication pass remains.**
+review.** **10,596 lines, 54 display equations, 3,118 reference definitions, 58,563 words after the
+publication review.** Committed and **pushed**. **Not published.**
+
+**PUBLICATION PASS: CONTEMPORARY COVERAGE 753 TO 1,784 REFERENCES, OR 37.1 TO 58.9 PERCENT.** A
+deliberate harvest of 60 Crossref queries under a 2015 filter and 10 NTRS queries took the modern pool
+from 1,089 to 2,701 and the master from 2,028 to 3,062 records, **every one of which is now cited**.
+
+**THE COUNT-VERSUS-FRACTION TRAP RAN BOTH WAYS ACROSS THE TWO REFERENCE PASSES.** At the primary pass
+the primary count rose from 940 to 1,304 while its fraction fell from 71.3 to 64.3 percent. At this
+pass the reverse, with **the period count sitting essentially unchanged at 1,103** while its fraction
+falls, because a further thousand contemporary sources arrived underneath it. Nothing was removed at
+any point and the Source Base records both movements.
+
+**SEVEN SURVEY SUBSECTIONS WERE ADDED FOR SUBJECTS THAT WERE NOT FIELDS IN 1993.** Detonation-based
+propulsion, precooled engines, machine learning applied to hypersonic prediction, uncertainty
+quantification, additive manufacture of cooled structures, aerothermoelasticity, and **the economics of
+reusable launch**.
+
+**THE LAST OF THOSE IS THE MOST IMPORTANT AND IT IS NOT AERODYNAMIC.** Reusable rocket first stages
+lowered the cost of access to space substantially **without air-breathing**, which was the X-30's
+entire justification. **The argument was answered by a different technology and the physics the X-30
+could not settle is exactly where it was left.**
+
+**TWO OF THE NEW SUBJECTS BEAR DIRECTLY ON THE ARTICLE'S OWN ARITHMETIC.** Detonation approaches
+constant-volume heat release and so extracts more work from the same chemical energy, which attacks
+precisely the difficulty that the fuel is a small perturbation on a very large stream. And uncertainty
+quantification is the discipline that answers the article's twenty-fold amplification, since **a
+twenty-fold amplification is not an argument against computing but an argument for computing the
+amplification.**
+
+Publication checks. Prose style clean with **zero em dashes, zero en dashes, zero contractions, zero
+prose parentheticals, zero prose colons and zero prose semicolons** in the body, every colon found
+tracing to YAML front matter. **No acronyms in authorial prose at all**, the only all-capital tokens
+being the unit symbols MW and MJ, and NASA appearing solely inside verbatim citation titles, which are
+exempt. **Zero constructions above the corpus maximum.**
+
+Final verification. 98 numerical checks passing unchanged with all article-facing values confirmed
+present, `_lib/test_lib.py` at 46 of 46, reference integrity at 3,118 with zero undefined, zero
+orphaned and zero duplicate URLs, **zero search-endpoint citations**, **the final set swept with zero
+hard failures** including all 435 NTRS identifiers, 240 of 240 sampled journal DOIs against 2,305 and
+80 of 80 sampled DTIC DOIs against 324, `_verify.py` at the 21-warning baseline, check_any clean, and
+a 31-article isolated build rendering **all 54 equations across 17 sections, 55 subsections and 19
+tables**.
 
 **REFERENCE PASS: 1,375 to 2,084 definitions and 1,345 to 2,054 cited**, equations held at 54 and
 measured before and after. **Primary sources 940 to 1,304** and the period count 798 to 1,102.
