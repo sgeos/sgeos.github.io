@@ -29,8 +29,13 @@ they suit different jobs, since an author-year label is unreadable when four
 hundred of them sit in one paragraph.
 """
 
+import os
 import re
+import sys
 import unicodedata
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import post  # noqa: E402
 
 PREFIX_TO_HEADING = {
     "book": "Books",
@@ -170,15 +175,15 @@ def emit_blocks(definitions):
 
 def replace_block(text, definitions):
     """Swap a post's reference block for a freshly emitted one."""
-    head = text.split("## References")[0]
-    return head + emit_blocks(definitions)
+    front, body_text, _refs = post.split(text)
+    return front + body_text + emit_blocks(definitions)
 
 
 def integrity(text):
     """Used, defined, undefined and orphaned anchors, plus duplicate URLs."""
-    body, refs = text.split("## References", 1) if "## References" in text else (text, "")
-    used = set(re.findall(r"\]\[([A-Za-z0-9_-]+)\]", body))
-    defs = re.findall(r"(?m)^\[([A-Za-z0-9_-]+)\]:\s*(\S.*)$", refs)
+    _front, body_text, refs_block = post.split(text)
+    used = set(post.USE.findall(body_text))
+    defs = post.DEF_LINE.findall(refs_block)
     defined = {a for a, _ in defs}
     urls = {}
     for a, u in defs:

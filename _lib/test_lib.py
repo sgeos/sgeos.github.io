@@ -418,6 +418,62 @@ def t_citations_fold_handles_diacritics():
         assert citations.fold(raw) == want, (raw, citations.fold(raw))
 
 
+# ---------------------------------------------------------------- anti-duplication
+
+def t_no_duplicate_function_bodies_across_modules():
+    """The library reproduced its own defect within a day of being written.
+
+    An audit found `fold` byte-identical in two modules, seven independent
+    splits on `## References` across four, and nine hard-codings of the anchor
+    character class across six. Extracting shared mechanism does not stop shared
+    mechanism reappearing, because re-deriving two lines is always locally
+    cheaper than adding an import. So it is checked rather than trusted.
+    """
+    import hashlib
+    import re as _re
+    here = os.path.dirname(os.path.abspath(__file__))
+    bodies = {}
+    for fn in sorted(os.listdir(here)):
+        if not fn.endswith(".py") or fn.startswith("test_"):
+            continue
+        src = open(os.path.join(here, fn), encoding="utf-8").read()
+        for m in _re.finditer(r"(?m)^def ([a-z_]+)\(.*?:\n((?:(?:    .*)?\n)*)", src):
+            q = chr(34) * 3  # a literal triple quote would end this file's own strings
+            body = _re.sub(r"\s+", " ",
+                           _re.sub(q + r".*?" + q, "", m.group(2), flags=_re.S)).strip()
+            if len(body) < 40:
+                continue
+            bodies.setdefault(hashlib.sha256(body.encode()).hexdigest(), []).append((fn, m.group(1)))
+    dup = [v for v in bodies.values() if len({f for f, _ in v}) > 1]
+    assert not dup, f"identical function bodies in different modules: {dup}"
+
+
+def t_document_structure_lives_in_one_module():
+    """Only post.py may know how a post splits or what an anchor looks like."""
+    import re as _re
+    here = os.path.dirname(os.path.abspath(__file__))
+    offenders = []
+    for fn in sorted(os.listdir(here)):
+        if not fn.endswith(".py") or fn.startswith("test_") or fn == "post.py":
+            continue
+        src = open(os.path.join(here, fn), encoding="utf-8").read()
+        if _re.search(r'split\("## References"', src):
+            offenders.append(f"{fn}: splits on '## References' directly")
+        if "A-Za-z0-9_-" in src:
+            offenders.append(f"{fn}: hard-codes the anchor character class")
+    assert not offenders, "; ".join(offenders)
+
+
+def t_library_imports_are_acyclic():
+    """post imports nothing from the library, so the graph cannot cycle."""
+    import re as _re
+    here = os.path.dirname(os.path.abspath(__file__))
+    names = {f[:-3] for f in os.listdir(here) if f.endswith(".py") and not f.startswith("test_")}
+    src = open(os.path.join(here, "post.py"), encoding="utf-8").read()
+    imported = set(_re.findall(r"(?m)^import ([a-z_]+)", src))
+    assert not (imported & names), f"post.py imports from the library: {imported & names}"
+
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)

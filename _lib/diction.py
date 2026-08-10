@@ -31,6 +31,10 @@ import glob as _glob
 import os
 import re
 import statistics
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import post  # noqa: E402
 
 # Constructions worth watching. The first group came from the A320 tool, the
 # rest were found in A369 by comparing against peers.
@@ -57,14 +61,10 @@ def prose(text):
     Order matters. Link pairs go first, because a title containing a dollar sign
     or a pipe would otherwise be partly eaten by the later rules and leave debris.
     """
-    body = text.split("## References")[0]
-    m = re.match(r"(?s)\A---\n.*?\n---\n", body)
-    if m:
-        body = body[m.end():]
-    p = re.sub(r"\[[^\]\n]+\]\[[A-Za-z0-9_-]+\]", " ", body)
-    p = re.sub(r"(?m)^\[[A-Za-z0-9_-]+\]:.*$", " ", p)
-    p = re.sub(r"(?s)```.*?```", " ", p)
-    p = re.sub(r"(?s)\{%\s*highlight.*?\{%\s*endhighlight\s*%\}", " ", p)
+    body = post.body(text)
+    p = post.LINK_PAIR.sub(" ", body)
+    p = re.sub(rf"(?m)^\[{post.ANCHOR}\]:.*$", " ", p)
+    p = post.strip_code(p)
     p = re.sub(r"(?s)\$\$.*?\$\$", " ", p)
     p = re.sub(r"(?<!\$)\$(?!\$)[^$\n]+\$(?!\$)", " ", p)
     p = re.sub(r"`[^`\n]+`", " ", p)

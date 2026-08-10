@@ -30,23 +30,14 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import post  # noqa: E402
 import refs  # noqa: E402
 
-ANCHOR = r"[A-Za-z0-9_-]+"
+ANCHOR = post.ANCHOR
 
 
-def _body(text):
-    return text.split("## References")[0]
-
-
-def sections(text):
-    """(heading, content) pairs, including the untitled opening."""
-    body = _body(text)
-    parts = re.split(r"(?m)^(#{2,3} .+)$", body)
-    out = [("(opening)", parts[0])]
-    for i in range(1, len(parts), 2):
-        out.append((parts[i].strip(), parts[i + 1] if i + 1 < len(parts) else ""))
-    return out
+_body = post.body
+sections = post.sections
 
 
 def equation_gaps(text, min_words=200):
@@ -110,7 +101,7 @@ def primary_fraction(text, cutoff):
     There is no sensible default, because primary for a 1958 aircraft and
     primary for a 2024 compiler are different years.
     """
-    block = text.split("## References", 1)[1] if "## References" in text else ""
+    block = post.references(text)
     anchors = re.findall(rf"(?m)^\[({ANCHOR})\]:", block)
     years = [(a, year_of(a)) for a in anchors]
     dated = [(a, y) for a, y in years if y]
@@ -122,7 +113,7 @@ def primary_fraction(text, cutoff):
 
 
 def period_histogram(text, bands=((0, 1979), (1980, 1999), (2000, 2014), (2015, 2100))):
-    block = text.split("## References", 1)[1] if "## References" in text else ""
+    block = post.references(text)
     years = [year_of(a) for a in re.findall(rf"(?m)^\[({ANCHOR})\]:", block)]
     years = [y for y in years if y]
     out = []

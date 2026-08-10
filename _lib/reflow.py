@@ -38,14 +38,19 @@ It is a fixed point after one pass on every file in the corpus, which is the
 property that makes it safe to run repeatedly between edit batches.
 """
 
+import os
 import re
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import post  # noqa: E402
 
 WIDTH = 108
 _SENTINEL = "\x00"
 
 _BOLD = re.compile(r"\*\*.+?\*\*", re.S)
-_LINKPAIR = re.compile(r"\[[^\]\n]+\]\[[A-Za-z0-9_-]+\]")
-_DEF = re.compile(r"^\[[A-Za-z0-9_-]+\]:")
+_LINKPAIR = post.LINK_PAIR
+_DEF = re.compile(rf"^\[{post.ANCHOR}\]:")
 
 
 def _passthrough(block):

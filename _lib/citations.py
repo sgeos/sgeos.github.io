@@ -33,11 +33,13 @@ import random
 import re
 import sys
 import os
-import unicodedata
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import fetch  # noqa: E402
+import post  # noqa: E402
 import refs  # noqa: E402
+
+fold = refs.fold  # ONE fold. It was byte-identical in two modules.
 
 # Hosts confirmed to refuse scripted requests while being properly indexed.
 # Verified by web search at the time each was added; a 403 from these is
@@ -54,19 +56,8 @@ SEARCH_ENDPOINTS = ("openlibrary.org/search", "ntrs.nasa.gov/api/citations/searc
                     "google.com/search", "worldcat.org/search")
 
 
-def fold(s):
-    s = unicodedata.normalize("NFKD", s or "")
-    s = "".join(c for c in s if not unicodedata.combining(c))
-    s = (s.replace("ı", "i").replace("ø", "o").replace("đ", "d")
-           .replace("ł", "l").replace("ß", "ss").replace("æ", "ae").replace("œ", "oe"))
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
-    return re.sub(r"[^a-z0-9]+", "", s.lower())
+definitions = post.definitions  # one definition-reader, in post.py
 
-
-def definitions(text):
-    """Anchor to URL, from a post's reference block."""
-    refs = text.split("## References", 1)[1] if "## References" in text else text
-    return dict(re.findall(r"(?m)^\[([A-Za-z0-9_-]+)\]:\s*(\S+)$", refs))
 
 
 def claimed_from_anchor(anchor):

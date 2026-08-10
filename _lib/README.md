@@ -42,7 +42,16 @@ article-specific content alone.
 | `audit.py` | Equation gaps, citation gaps, thin sections, primary count and fraction | 13 `ref_audit`, 8 `eqn_scan` |
 | `numcheck.py` | Harness for re-deriving stated values independently, with property and bisection checks | 18 `verify_numbers` |
 | `citations.py` | Registry verification of recalled identifiers, sampling for retrieved ones | 13 `url_check`, 6 `verify_urls` |
-| `test_lib.py` | Regression tests, one per shipped defect | |
+| `post.py` | What a post is made of. Document structure, defined once | 7 splits, 9 anchor patterns |
+| `test_lib.py` | Regression tests, one per shipped defect, plus anti-duplication guards | |
+
+**The library reproduced its own defect within a day.** An audit found `fold` byte-identical in two
+modules, seven independent splits on `## References` across four, and nine hard-codings of the anchor
+character class across six. Extracting shared mechanism does not, by itself, stop shared mechanism
+reappearing, because re-deriving two lines is always locally cheaper than adding an import.
+`post.py` now owns document structure, and three tests fail if a byte-identical function body appears
+in two modules, if any module other than `post.py` splits on `## References` or hard-codes the anchor
+class, or if `post.py` acquires a library import and makes the graph cyclic.
 
 **`diction.py` is the cautionary case.** A version of it existed in A320 and was copied into A321,
 A322 and A323. A369 never received a copy, and the same analysis was redone by hand, rediscovering the

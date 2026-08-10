@@ -20,27 +20,25 @@ anywhere. Only findings marked DEFECT are things that actually break.
 """
 
 import collections
+import os
 import re
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import post  # noqa: E402
 
 DEFECT = "defect"
 CONVENTION = "convention"
 
-ANCHOR = r"[A-Za-z0-9_-]+"
+ANCHOR = post.ANCHOR
 
 
 def _split(text):
-    m = re.match(r"(?s)(\A---\n.*?\n---\n)(.*)", text)
-    rest = m.group(2) if m else text
-    if "\n## References" in rest:
-        body, refs = rest.split("\n## References", 1)
-        return body, refs
-    return rest, ""
+    _front, body, refs = post.split(text)
+    return body, refs
 
 
-def _strip_code(text):
-    t = re.sub(r"(?s)```.*?```", " ", text)
-    t = re.sub(r"(?s)\{%\s*highlight.*?\{%\s*endhighlight\s*%\}", " ", t)
-    return re.sub(r"`[^`\n]+`", " ", t)
+_strip_code = post.strip_code
 
 
 def scan(text):
