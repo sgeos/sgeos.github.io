@@ -21,8 +21,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_schweizer_x26.markdown`, A323, editorial date 2025-11-01, series `x_planes` index 27 of 72.
 
-**3,613 lines, 17 display equations, 2,016 references, 12,061 words after the draft pass.** One of four
-passes complete. Committed, **not pushed**, not published. Primary 64.7 percent, contemporary 25.2.
+3,613 lines, 17 display equations, 2,016 references, 12,061 words after the draft pass. **3,785 lines,
+35 display equations, 2,016 references, 13,226 words after the equation review.** Two of four passes
+complete. Committed, **not pushed**, not published. Primary 64.7 percent, contemporary 25.2.
 
 **One airframe, two aircraft, and a single number.** The Schweizer SGS 2-32 sailplane was bought twice
 by the American military and given the same X-designation both times, for purposes with nothing in
@@ -63,6 +64,19 @@ found audiology, where the acoustic reflex is a middle-ear muscle contraction.
 
 **Three of four X-26A airframes were lost and the article says it does not know why**, declining the
 plausible inference.
+
+**The equation review closed five omissions, and the verifier killed a claim.** THE DRAG POLAR was
+never displayed although it is the common root of both halves. The origin of C_n_p was asserted and
+never derived. The helix angle was called a property of the configuration without proof, and writing
+the roll balance down is what shows the speed dropping out. **BEST GLIDE IS NOT MINIMUM POWER**, which
+the quiet aircraft actually wanted, and separating them gives a SECOND independent check because
+minimum sink is a quoted number: predicted 129 ft/min at 42 mph against a quoted 124 at 46, from the
+same two assumed parameters. **And incoherent sources add in POWER**, which is the one logarithm behind
+the article's sharpest acoustic claim, showing that a seventeen decibel propeller reduction buys only
+ten because the other sources cap it. **The verifier caught a wrong stall prediction of 45.9 mph
+against a true 40.9**, and the claim was replaced by INVERTING the relation, which yields an implied
+maximum lift coefficient of 1.11 at the light weight against 1.47 at gross and is therefore a THIRD
+piece of evidence that the quoted performance belongs to the lighter aircraft.
 
 ## X-Planes Bensen X-25 A322 2025-10-31
 
