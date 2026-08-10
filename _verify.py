@@ -170,9 +170,21 @@ def prose_lines(text):
 
 
 def prose_text(text):
+    """Prose with math, code, Liquid and citation link text removed.
+
+    THE LINK-PAIR STRIP WAS MISSING AND THE FILE DISAGREED WITH ITSELF. The dash
+    and contraction checks below already strip `[text][anchor]`, so only the
+    word-frequency check counted reference titles as the author's prose. In a
+    reference-heavy article that is fatal rather than cosmetic: A369 measured
+    27,120 words where the author wrote 11,819, diluting every rate by more than
+    half and rendering the check unable to fire on exactly the articles carrying
+    the most text. Two real overuses of `framework` were being masked.
+
+    Measured before changing, across 297 posts: 39 warnings become 40.
+    """
     body = []
     for _, l in prose_lines(text):
-        l = re.sub(r"\$[^$\n]+\$|`[^`\n]+`|\{%.*?%\}", " ", l)
+        l = re.sub(r"\$[^$\n]+\$|`[^`\n]+`|\{%.*?%\}|\[[^\]]*\]\[[^\]]*\]", " ", l)
         body.append(l)
     return "\n".join(body)
 
