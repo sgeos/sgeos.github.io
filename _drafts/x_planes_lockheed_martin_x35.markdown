@@ -177,9 +177,13 @@ come out of the engine. **But the fan moves air that the engine never touched**,
 fixed power buys thrust. Doubling the mass flow multiplies the thrust by the square root of two even though
 not one extra joule was spent.
 
-**Said the other way round, and this is the form that makes the design decision obvious, thrust per unit power is inversely proportional to jet velocity**,
-since $T/P = 2/v$. A hovering aeroplane wants the slowest, fattest jet it can arrange. A supersonic
-aeroplane wants the opposite.
+**Said the other way round, and this is the form that makes the design decision obvious, thrust per unit power is inversely proportional to jet velocity.**
+Dividing the two definitions rather than eliminating between them,
+
+$$\frac{T}{P} = \frac{\dot{m} v}{\tfrac{1}{2} \dot{m} v^{2}} = \frac{2}{v}$$
+
+A hovering aeroplane wants the slowest, fattest jet it can arrange. A supersonic aeroplane wants the
+opposite.
 **The lift fan exists because those two wants are irreconcilable in one nozzle and reconcilable in two.**
 
 - [Thrust Augmentors for Rockets Greater Efficiency Through Air...][research_giles_1944]
@@ -396,14 +400,23 @@ which is about ten pounds per square inch.
 ### Why Cold Matters More Than the Thrust Does
 
 The core stream is a different animal. Its footprint pressure needs the nozzle exit area, which is not
-published, so it is bracketed rather than asserted. Taking the implied core mass flow and a dry military
-exit velocity between 550 and 650 metres per second at roughly nine hundred kelvin,
+published, so it is reached from the mass flow already recovered. For a jet expanded to ambient pressure at
+exit temperature $T_e$, continuity gives the area and the footprint follows,
+
+$$\rho_e = \frac{p_0}{R T_e} \qquad \text{and} \qquad A_e = \frac{\dot{m}_{\text{core}}}{\rho_e v_e}$$
+
+so the pressure the core jet applies to the surface below it is
+
+$$\frac{T_r}{A_e} = \frac{T_r \, \rho_e v_e}{\dot{m}_{\text{core}}}$$
+
+At roughly nine hundred kelvin the exit density is 0.3922 kilograms per cubic metre, and taking a dry
+military exit velocity between 550 and 650 metres per second,
 
 | Assumed exit velocity, m/s | Implied exit area, m² | Footprint pressure, kPa | Ratio to the fan |
 |---|---|---|---|
-| 550 | 0.673 | 118.9 | 1.69 |
-| 600 | 0.617 | 129.7 | 1.85 |
-| 650 | 0.570 | 140.5 | 2.00 |
+| 550 | 0.6733 | 118.9 | 1.69 |
+| 600 | 0.6172 | 129.7 | 1.85 |
+| 650 | 0.5697 | 140.5 | 2.00 |
 
 **Across the bracket the core jet presses between 1.69 and 2.00 times as hard as the fan does, and it does so at roughly three times the absolute temperature.**
 The fan's efflux leaves at ambient temperature plus the 46.8 kelvin the compression adds. The core's leaves
@@ -471,9 +484,24 @@ head, giving a pressure ratio of
 
 $$\Pi = \frac{p_0 + q_{\text{jet}}}{p_0} = \frac{101{,}325 + 70{,}229}{101{,}325} = 1.693$$
 
-which for an isentropic compression implies a total temperature rise of 46.8 kelvin, and at a stage loading
-coefficient of 0.40 shared between two stages that implies a blade speed near 242 metres per second and a
-rotational speed near 3,645 revolutions per minute.
+For an isentropic compression the total temperature rise follows from the pressure ratio,
+
+$$\Delta T_0 = T_0 \left(\Pi^{\frac{\gamma - 1}{\gamma}} - 1\right) = 288.15 \times \left(1.693^{0.2857} - 1\right) = 46.8 \ \text{K}$$
+
+so the fan does specific work of
+
+$$w = c_p \Delta T_0 = 1004.7 \times 46.8 = 47.0 \ \text{kJ/kg}$$
+
+and the air leaves it at 334.9 kelvin, which is the number the ground-environment argument above relies on.
+Writing $\psi$ for the stage loading coefficient and taking the work as shared between two stages, the blade
+speed follows from
+
+$$U = \sqrt{\frac{c_p \Delta T_0}{2 \psi}} = \sqrt{\frac{47{,}002}{2 \times 0.40}} = 242.4 \ \text{m/s}$$
+
+**which is a tip Mach number of 0.712**, comfortable for a transonic stage and a check that the assumed
+loading coefficient is not absurd. The rotational speed is then
+
+$$N = \frac{60 U}{\pi D} = \frac{60 \times 242.4}{\pi \times 1.27} = 3{,}645 \ \text{rpm}$$
 
 **That estimate sits inside the threshold band and near its middle.** The honest statement is therefore not
 that counter-rotation saved a specific percentage, but that
@@ -532,10 +560,23 @@ decaying torque, and the dissipated fraction came back as 0.5 in all three cases
 | 37 | 2.70 | 2.70 | 0.125 |
 | 50 | 3.64 | 3.64 | 0.168 |
 
-**The last column is the useful one and it needs no apology for the bracket.** It is the fan's stored
-kinetic energy divided by the power the fan absorbs when running, which is a time, and across the whole
-bracket it is under a fifth of a second.
+**The last column is the useful one and it needs no apology for the bracket.** It is
+
+$$\tau = \frac{E_{\text{fan}}}{P_{\text{shaft}}} = \frac{I \omega_s^{2}}{2 P_{\text{shaft}}}$$
+
+the fan's stored kinetic energy divided by the power it absorbs when running, which has the dimensions of
+time, and across the whole bracket it is under a fifth of a second.
 **The fan stores less than a fifth of a second of its own operating power.**
+
+**The heat has to go somewhere, and the same bracket says where.** For a plate pack of mass $m_p$ and
+specific heat $c_p$, an adiabatic engagement raises its temperature by
+
+$$\Delta T_p = \frac{E_{\text{clutch}}}{m_p c_p} = \frac{I \omega_s^{2}}{2 m_p c_p}$$
+
+and for an assumed twenty kilograms of carbon at 710 joules per kilogram kelvin that is
+**128.3, 189.8 and 256.5 kelvin** across the three inertias.
+**Those are ordinary friction-material temperatures**, which is the first sign that the engagement is
+thermally reasonable rather than heroic.
 
 ### What the Bound Rules Out
 
@@ -576,6 +617,171 @@ scheduled event rather than the flick of a switch.
 - [A New Form of Friction Clutch][research_a_new_1903]
 - [A New Form of Friction Clutch][research_guarini_1905]
 
+### The Force That Appears the Moment the Fan Engages
+
+**The conversion's largest single effect is a force that most descriptions of this aeroplane do not mention.**
+A lift fan running in forward flight ingests air travelling at the aircraft's speed and discharges it
+vertically. **All of that horizontal momentum has to be destroyed, and the reaction is a drag force.**
+
+Writing $\dot{m}$ for the fan's mass flow and $V$ for true airspeed,
+
+$$D_{\text{mom}} = \dot{m} V$$
+
+which is exact and needs nothing beyond the flow the disc analysis already produced.
+**The fan's mass flow was recovered here by a second route**, taking thrust over jet velocity rather than
+density times area times induced velocity. **The two are algebraically the same statement**, since the ideal
+disc has $T = \dot{m} v_j$ identically, so their agreement tests transcription rather than physics and is
+reported as such.
+
+| Speed, kt | Momentum drag, lbf | As a share of the swivel module's thrust | As a share of weight |
+|---|---|---|---|
+| 60 | 1,823 | 10.1 percent | 5.4 percent |
+| 80 | 2,431 | 13.5 percent | 7.2 percent |
+| 120 | 3,646 | 20.3 percent | 10.7 percent |
+| 150 | 4,558 | 25.3 percent | 13.4 percent |
+| 180 | 5,469 | 30.4 percent | 16.1 percent |
+
+**The X-35B made its first in-flight conversion at 180 knots, and at that speed engaging the fan costs 5,469 pounds force of drag.**
+That is 30.4 percent of everything the rear nozzle can produce, and on its own it would decelerate the
+aircraft at
+
+$$a = \frac{D_{\text{mom}}}{m} = \frac{24{,}329}{15{,}422} = 1.578 \ \text{m/s}^{2} = 0.1609 \, g$$
+
+**This is the quantitative content of the claim that the conversion was the hard event.** Nothing about
+hovering, going supersonic or landing vertically produces a step change of that size. Opening the doors and
+letting the clutch in does.
+
+### Where That Drag Acts, Which Matters More Than How Large It Is
+
+The fan sits ahead of the centre of gravity and its inlet is on top of the fuselage,
+**so the momentum drag is a horizontal force applied above and forward of the centre of mass, and it therefore pitches the aircraft as well as decelerating it.**
+
+The height above the centre of gravity is not published, so the relation is inverted rather than evaluated.
+Pitch trim in the hover comes from shifting thrust between the fan and the rear nozzle, and an authority of
+ten percent of the fan's thrust acting on its moment arm gives
+
+$$M_{\text{avail}} = 0.10 \, T_f x_f = 0.10 \times 88{,}964 \times 3.553 = 31{,}606 \ \text{N m}$$
+
+Setting that equal to the momentum-drag moment gives the height at which the two are equal,
+
+$$h^{*} = \frac{M_{\text{avail}}}{D_{\text{mom}}} = \frac{31{,}606}{24{,}329} = 1.299 \ \text{m}$$
+
+**A dorsal fan inlet on a fighter sits roughly a metre above the centre of gravity, so the threshold is not comfortably far away.**
+The honest statement is that the momentum drag's pitching moment is of the same order as the trim authority
+available to oppose it, which is why a conversion is flown as a scheduled and gradual event rather than as a
+switch.
+
+- [Hovering and Transition Flight Tests of a 1/5-Scale Model of...][research_smithcharlescjr_1958]
+- [Measurements of Aerodynamic Heat Transfer and Boundary-Layer...][research_rumseycharlesb_leedorothyb_1961]
+- [Aerodynamic effects of lift-jet and lift-fan inlets in...][research_grahame_1969]
+- [Optimal paths for minimising landing transition distance for...][research_huntley_1972]
+- [Configuration management during transition for a powered lift...][research_johnson_craig_1974]
+- [Integrated Flight/Propulsion Control Design Techniques...][research_sevich_beattie_1974]
+- [Integrated flight/propulsion control by state regulation][research_seitz_1975]
+- [Critical considerations for wind-tunnel testing V/STOL...][research_margason_hoad_1979]
+- [Hover and transition flight performance of a twin...][research_pirera_1983]
+- [Integrated flight/propulsion control system architectures for...][research_bangert_henke_1983]
+- [Integrated flight/fire/propulsion controls][research_knox_meyer_1984]
+- [Integrated Flight/Propulsion Control System Considerations...][research_vizzini_1985]
+- [Integrated flight/propulsion control - Adaptive engine...][research_yonke_terrell_1985]
+- [Integrated flight/propulsion control - Methodology, design...][research_integrated_flight_propulsion_1985]
+
+### The Hover Balance Fixes the Centre of Gravity
+
+**In wing-borne flight an aeroplane trims by moving a control surface. In a hover it cannot, because there is no airflow to work against.**
+The only vertical forces are the fan ahead of the centre of gravity and the rear nozzle behind it, and in
+steady hover their moments must cancel,
+
+$$T_f x_f = T_r x_r$$
+
+Both thrusts are set by hardware rather than chosen, so
+**this equation does not determine the trim. It determines where the centre of gravity has to be.** Writing
+$L$ for the separation between the two,
+
+$$\frac{x_f}{L} = \frac{T_r}{T_f + T_r} = \frac{18{,}000}{38{,}000} = 0.4737$$
+
+**The centre of gravity must sit at 47.37 percent of the distance from the fan to the rear nozzle**, and for
+an assumed separation of 7.5 metres that is 3.553 metres behind the fan and 3.947 metres ahead of the
+nozzle. **The ratio of the two arms is fixed at 0.9 by the ratio of the two thrusts** and by nothing else.
+
+**How tightly that is fixed is the useful question.** Modulating the split in opposite directions moves the
+balance point, and the reachable band was found by scanning rather than by evaluating endpoints.
+
+| Split modulation | Reachable station, fraction from the fan | Travel |
+|---|---|---|
+| 2 percent | 0.4637 to 0.4837 | 5.89 inches |
+| 5 percent | 0.4488 to 0.4987 | 14.72 inches |
+| 10 percent | 0.4241 to 0.5238 | 29.45 inches |
+
+**A few percent of thrust split buys a few inches of centre-of-gravity travel.** That is a tight band for an
+aeroplane whose fuel and stores move the centre of gravity by considerably more, and
+**it is a real cost of the architecture that does not get easier as the aircraft gets lighter**, unlike
+every other margin in this article.
+
+- [A comparative analysis of the effect of the hover control...][research_kazan_krausejr_1967]
+- [A Graphical Summary of Military Helicopter Flying and Ground...][research_griffin_bellaire_1968]
+- [Comparative analysis of effects of hover control concept on...][research_kazan_krause_1968]
+- [VTOL Handling Qualities Criteria Study Through Moving-Base...][research_mccormick_1969]
+- [Volume II. Flying Qualities Phase, Chapter 16. Chapter 16...][research_airforcetestpilotschooledwardsafbca_1969]
+- [A NEW APPROACH TO THE SPECIFICATION AND EVALUATION OF FLYING...][research_anderson_1970]
+- [A reaction attitude control system for jet VTOL research...][research_paulifa_rogersjr_1970]
+- [Category 2 Performance and Flying Qualities Tests of the...][research_barbini_balfe_1970]
+- [Minimum control power for VTOL aircraft stability augmentation][research_swaim_1970]
+- [Factors affecting handling qualities of a lift- fan aircraft...][research_gerdesrm_hynescs_1971]
+- [The Development of Flying Qualities for Lifting Re-Entry...][research_difranco_1971]
+- [The Generation of a Military Specification for Flying...][research_key_1971]
+- [VTOL aircraft control power costs][research_hoffman_1971]
+- [Longitudinal handling qualities during approach and landing...][research_franklinja_innisrc_1972]
+
+### What an Inlet Temperature Rise Costs, in Kelvin
+
+**The lift fan is shaft-driven, which means every pound of vertical thrust in this aircraft is ultimately core thrust.**
+The fan has no combustor of its own. So an engine that swallows its own hot exhaust loses the fan and the
+rear nozzle together, and the ground-environment argument made earlier can now be given a number instead of
+an adjective.
+
+At a fixed corrected operating point the physical mass flow, and with it the thrust, falls as the inverse of
+inlet total temperature.
+**This relation needs a thrust and a temperature in the same expression, and the article has used $T$ for thrust throughout, so thrust is written $F$ here and only here.**
+
+$$\frac{F}{F_{0}} = \frac{T_{\text{amb}}}{T_{\text{amb}} + \Delta T}$$
+
+| Inlet rise, K | Thrust retained | Vertical thrust, lbf | Hover margin |
+|---|---|---|---|
+| 0 | 1.000 | 41,900 | 1.232 |
+| 10 | 0.966 | 40,495 | 1.191 |
+| 20 | 0.935 | 39,181 | 1.152 |
+| 30 | 0.906 | 37,949 | 1.116 |
+| 50 | 0.852 | 35,705 | 1.050 |
+
+The losses are 3.354, 6.490, 9.430 and 14.786 percent respectively.
+**Inverting for the rise that consumes the margin entirely gives**
+
+$$\Delta T_{\text{crit}} = T_{\text{amb}} \left(\frac{F_{\text{total}}}{W} - 1\right) = 288.15 \times 0.2324 = 66.95 \ \text{K}$$
+
+**The X-35B could tolerate a 66.95 kelvin inlet temperature rise before it could no longer hold itself up.**
+That single number is what the cold fan buys. It is why the architecture places a large volume of ambient
+air between the hot core efflux and the inlets rather than treating ingestion as something to be managed
+afterwards,
+**and it converts a comparison with the rival from a matter of adjectives into a matter of kelvin.**
+
+- [PROGRAMS FOR MACHINE COMPUTATION OF ROTOR BLADE DOWNWASH][research_ghareeb_1964]
+- [The influence of fan and ducting characteristics on the...][research_walker_1964]
+- [The involutions in outwash plain south of Gniezno][research_the_involutions_1964]
+- [DOWNWASH TESTS OF THE DUAL TANDEM DUCTED PROPELLER VTOL...][research_curtiss_hc_1965]
+- [Experimental investigation of jet impingement on surfaces of...][research_normansland_leonardvclark_1965]
+- [A STUDY OF THE MEAN AND TURBULENT STRUCTURE OF A FREE JET AND...][research_donaldson_snedeker_1966]
+- [Design data for the jet flap in ground effect][research_lissaman_1967]
+- [Inviscid-incompressible-flow theory of normal and slightly...][research_strand_1967]
+- [Wind tunnel modelling of chimney strong-wind downwash][research_munn_1967]
+- [A generalized experimental investigation of hot gas...][research_cosgrovewj_heimrj_1968]
+- [A linear theory for the jet flap in ground effect][research_lissaman_1968]
+- [Consideration of V/STOL Downwash and the Ground Environment][research_wareing_1968]
+- [LIFTING SURFACE THEORY AND TAIL DOWNWASH CALCULATIONS FOR...][research_levinsky_thommen_1968]
+- [Underexpanded jet noise reduction using radial flow...][research_dosanjh_montegani_1968]
+- [Analysis of thick, cambered jet flap airfoils in ground effect][research_lissaman_1969]
+- [Fluidic Jet Impingement-Analytical Solution and Novel...][research_michelson_1969]
+
 ## The Vehicle
 
 Two airframes covered three configurations. The X-35A flew as a conventional fighter from 24 October 2000,
@@ -607,10 +813,40 @@ need, and they used off-the-shelf components wherever schedule allowed.
 ### The Three-Bearing Swivel Module
 
 The rear nozzle redirects the core exhaust downward through a jointed pipe whose three canted bearings,
-rotated relative to one another, sweep the nozzle through ninety-five degrees in 2.5 seconds.
+rotated relative to one another, sweep the nozzle through ninety-five degrees in 2.5 seconds, a rate of 38.0
+degrees per second.
 **The elegance is that a purely rotational mechanism produces a large angular deflection**, so the sealing
 problem is a set of rotating joints rather than a set of sliding ones, at a station carrying the full core
 efflux.
+
+**The number of bearings is not a styling choice and the geometry says why there are three.** Take a single
+joint whose mating plane is inclined at an angle $\beta$ to the duct axis. Rolling one side relative to the
+other by $\phi$ deflects the downstream axis by $\delta$, where
+
+$$\cos\delta = \cos^{2}\beta + \sin^{2}\beta \cos\phi$$
+
+**This was confirmed against a rotation-matrix composition at five roll angles and the two agree exactly.**
+At half a turn it reduces to $\delta = 2\beta$, so
+**one joint can bend the duct by twice its cant angle and no more.**
+
+$$\beta_{\text{single}} = \frac{95^{\circ}}{2} = 47.5^{\circ}$$
+
+**A single bearing would therefore need its mating plane canted at 47.5 degrees**, which is an extraordinary
+angle for a pressure-tight rotating seal carrying the full exhaust of an augmented turbofan. It is not a
+practical joint.
+
+**Putting joints in series helps only if their cants alternate, and that is the part which is not obvious.**
+A numerical search over the roll angles found that two joints canted the same way reach $2\beta$ and no
+more, because the second can only undo what the first did.
+**Mirror the second joint and the two add to $4\beta$, and three alternating joints reach $6\beta$**, which
+the search confirmed to the grid resolution at a cant of fifteen degrees.
+
+$$\beta_{\text{three}} = \frac{95^{\circ}}{6} = 15.83^{\circ}$$
+
+**Sixteen degrees is an ordinary cant for a rotating duct joint.** So the count of bearings follows from the
+angle a sealed joint can tolerate, divided into the deflection the aircraft needs.
+**The actual cant angles and the gearing between the three rings are not published**, and this article
+claims only the requirement rather than the mechanism.
 
 - [Test Bed for Vectored Thrust Power Plants][research_test_bed_1963]
 - [VECTORED THRUST ENGINES FOR SINGLE AND MULTIENGINED AIRCRAFT][research_frost_bishop_1963]
@@ -655,23 +891,38 @@ for one region of the envelope rather than adjustable across it. For a demonstra
 Bleed from the engine's fan is ducted to nozzles in each wing, giving 1,950 pounds force each.
 **In a hover an aeroplane has no aerodynamic control at all**, so every axis must be held by thrust
 modulation. Pitch comes from splitting thrust between the lift fan and the rear nozzle, yaw from vectoring
-the rear nozzle laterally, and roll from the posts. The earlier finding about counter-rotation is the reason
-the posts are sized for control rather than for trim.
+the rear nozzle laterally, and roll from the posts.
 
-- [A comparative analysis of the effect of the hover control...][research_kazan_krausejr_1967]
-- [A Graphical Summary of Military Helicopter Flying and Ground...][research_griffin_bellaire_1968]
-- [Comparative analysis of effects of hover control concept on...][research_kazan_krause_1968]
-- [VTOL Handling Qualities Criteria Study Through Moving-Base...][research_mccormick_1969]
-- [Volume II. Flying Qualities Phase, Chapter 16. Chapter 16...][research_airforcetestpilotschooledwardsafbca_1969]
-- [A NEW APPROACH TO THE SPECIFICATION AND EVALUATION OF FLYING...][research_anderson_1970]
-- [A reaction attitude control system for jet VTOL research...][research_paulifa_rogersjr_1970]
-- [Category 2 Performance and Flying Qualities Tests of the...][research_barbini_balfe_1970]
-- [Minimum control power for VTOL aircraft stability augmentation][research_swaim_1970]
-- [Factors affecting handling qualities of a lift- fan aircraft...][research_gerdesrm_hynescs_1971]
-- [The Development of Flying Qualities for Lifting Re-Entry...][research_difranco_1971]
-- [The Generation of a Military Specification for Flying...][research_key_1971]
-- [VTOL aircraft control power costs][research_hoffman_1971]
-- [Longitudinal handling qualities during approach and landing...][research_franklinja_innisrc_1972]
+**The earlier counter-rotation result can be turned from a fraction into something a pilot would feel.** The
+posts supply a couple, and dividing by the roll moment of inertia gives an angular acceleration,
+
+$$\dot{p} = \frac{2 F_{\text{post}} \ell}{I_{xx}}$$
+
+The inertia is not published, so it is estimated from a radius of gyration taken as a fraction of span and
+reported across a bracket rather than asserted. At 0.22 of the span,
+
+$$I_{xx} = m k_x^{2} = 15{,}422 \times 2.213^{2} = 75{,}400 \ \text{kg m}^{2}$$
+
+**which is 75400 kilogram metres squared**, and with the posts at 3.5 metres from the centreline the couple
+of 60,718 newton metres gives
+
+$$\dot{p} = \frac{60{,}718}{75{,}400} = 0.805 \ \text{rad/s}^{2} = 46.07 \ \text{deg/s}^{2}$$
+
+**which is a healthy figure for a hovering aircraft.** Across the plausible bracket of radius of gyration
+and post position it runs from 30.6 to 55.7 degrees per second squared.
+
+**Now subtract what a single-rotation fan would have taken.** Its reaction torque at the article's own speed
+estimate is 56,655 newton metres, which is **93.31 percent of the whole couple**, leaving 4,063 newton
+metres and
+
+$$\dot{p}_{\text{residual}} = \frac{4{,}063}{75{,}400} = 3.083 \ \text{deg/s}^{2}$$
+
+**Three degrees per second squared is not a degraded control system. It is not a control system.** A pilot
+holding a hover in a crosswind would have had about one fifteenth of the roll acceleration the aircraft
+actually has.
+**This is what the counter-rotating fan buys, expressed in the units the handling-qualities literature uses**,
+and it is a stronger statement than the percentage the earlier section could make.
+
 - [Revisions to V/STOL handling qualities criteria of AGARD...][research_andersonsb_schroerslg_1972]
 - [Flight Simulator Experiments and Analyses in Support of...][research_vinje_miller_1973]
 - [Structural Mode Effects on Flying Qualities in Turbulence][research_crother_gabelman_1973]
@@ -748,6 +999,21 @@ landing gear, and in whether a lift fan occupies the volume immediately behind t
 **That shared volume is the hardest constraint in the whole design**, because the conventional and carrier
 variants carry fuel where the STOVL variant carries a fan, and the airframe has to be the same airframe for
 the commonality argument to pay.
+
+**The size of that constraint can be estimated rather than gestured at.** The fan bay is at least the swept
+volume of the fan itself,
+
+$$V = \frac{\pi D^{2}}{4} \ell$$
+
+and for the fifty-inch fan over an assumed bay length between 1.2 and 1.6 metres that is 1.52 to 2.03 cubic
+metres. Filled with fuel at 800 kilograms per cubic metre instead,
+
+$$W_{\text{fuel}} = \rho_f V = 800 \times 1.773 = 1{,}419 \ \text{kg} = 3{,}128 \ \text{lb}$$
+
+**so the hovering variant gives up roughly three thousand pounds of internal fuel to the fan**, running from
+2,681 pounds at the short bay to 3,575 at the long one.
+**That is the commonality argument's bill, and it is paid in range by the variant that can least afford it.**
+The estimate is a lower bound, since the bay must also house doors, the drive shaft and the clutch.
 
 - [Methodology for Structural Optimization of STOL Aircraft...][research_wollner_1972]
 - [Quick estimation of wing structural weight for preliminary...][research_torenbeek_1972]
@@ -995,21 +1261,64 @@ carrying three tenths at an ordinary lift coefficient. The number was independen
 on speed at the stated coefficient rather than by solving for the coefficient at the stated speed.
 
 **The sixty-knot takeoff then follows without any new assumption.** At sixty knots the same wing at the same
-coefficient supplies only 5,681 pounds force, so the rear nozzle must be deflected to make up the
-difference, and the angle required is
+coefficient supplies
+
+$$L_{60} = \tfrac{1}{2} \rho V^{2} S C_L = \tfrac{1}{2} \times 1.225 \times 30.87^{2} \times 41.81 \times 1.036 = 25{,}271 \ \text{N}$$
+
+which is 5,681 pounds force, or 16.71 percent of the weight, so the rear nozzle must be deflected to make up
+the difference, and the angle required is
 
 $$\theta = \arcsin\!\left(\frac{34{,}000 - 23{,}900 - 5{,}681}{18{,}000}\right) = 14.21^{\circ}$$
 
 **The two takeoffs differ by about fourteen degrees of nozzle.** That is the entire difference between the
 eighty-knot and the sixty-knot cases, and it is a small deliberate movement of one control.
 
+### The Same Balance Read Upwards Gives the Conversion Corridor
+
+**The relation that explains the takeoff also explains the choice of conversion speed, and this is the cheapest result in the article because it is the same equation read the other way.**
+Setting the wing lift equal to the whole weight rather than to part of it,
+
+$$V_{\text{wb}} = \sqrt{\frac{2W}{\rho S C_L}} = \sqrt{\frac{2 \times 151{,}240}{1.225 \times 41.81 \times 1.036}} = 75.5 \ \text{m/s}$$
+
+**which is 146.8 knots.** Above that speed the wing carries the aeroplane unaided and the lift system is not
+needed for lift at all.
+
+**The X-35B made its first in-flight conversion at 180 knots**, comfortably above it. That is the safest
+place to engage a lift fan, because a failure of the engagement leaves an aircraft that is already flying.
+**And it is still the point at which the momentum drag computed earlier is at its largest.** The conversion
+was flown where lift was free and drag was most expensive, which is the right trade and not an obvious one.
+
+- [Influence of Tire Tread Pattern and Runway Surface Condition...][research_hornewalterb_lelandtraffordjw_1962]
+- [Influence of tire tread pattern and runway surface condition...][research_influence_of_1963]
+- [SIMULATION OF HELICOPTER AND V/STOL AIRCRAFT. VOLUME II...][research_mcintyre_1963]
+- [Takeoff performance of jet-propelled conventional and...][research_krenkel_salzman_1968]
+- [The physics of short takeoff and landing /STOL/][research_carpenter_gotlieb_1970]
+- [A simplified flight-test method for determining aircraft...][research_larsontj_schweikhardwg_1974]
+- [Landing and Takeoff Roll-Out Augmentation][research_muehter_1974]
+- [Tire Testing for Rolling Resistance and Fuel Economy][research_glemming_bowers_1974]
+- [Effects of Tire Rolling Resistance on Vehicle Fuel Consumption][research_crum_mcnall_1975]
+- [Tire Testing for Rolling Resistance and Fuel Economy][research_glemming_bowers_1975]
+- [Tire Rolling Resistance Measurements From Coast-Down Tests][research_dayman_1976]
+- [A Note on Tire Rolling Resistance Due to Test Wheel Curvature][research_bekker_semonin_1977]
+
 ### The Ground Roll, Which Does Not Close Without an Admission
 
 Running the same configuration forward through the ground roll is where a discrepancy appears. With the
-nozzle at 14.21 degrees the horizontal component is 17,449 pounds force, and time-stepping the equation of
-motion with speed-dependent drag and rolling friction on the unloaded wheels reaches sixty knots in
+nozzle at 14.21 degrees the horizontal component is 17,449 pounds force, and the equation of motion is
 
-$$s_{\min} = 314.9 \ \text{ft}$$
+$$m \frac{dV}{dt} = T_r \cos\theta - \mu \left(W - T_v\right) - \tfrac{1}{2} \rho V^{2} S C_{D_0}$$
+
+Writing $A$ for the constant part of the acceleration and $B$ for the quadratic drag coefficient divided by
+mass, this integrates in closed form to
+
+$$s = \frac{1}{2B} \ln\!\left(\frac{A}{A - B V^{2}}\right)$$
+
+and substituting $A = 4.984$ and $B = 4.151 \times 10^{-5}$ gives
+
+$$s_{\min} = 95.97 \ \text{m} = 314.9 \ \text{ft}$$
+
+**The closed form and an independent time-stepping integration agree**, which is the check that the algebra
+was transcribed correctly rather than that the physics is right.
 
 **against a quoted five hundred.** The quoted roll is 1.588 times the minimum, which corresponds to an
 achieved acceleration of 0.3187 times gravity against an available 0.506.
@@ -1029,37 +1338,56 @@ straining, and there is no reason it should have been strained, because of the n
 $$\frac{T_{\text{total}}}{W} = \frac{41{,}900}{34{,}000} = 1.232$$
 
 **At the weight it flew Mission X, the X-35B could have taken off vertically.** It had done so eighteen
-times. The vertical landing weight limit, meaning the weight at which vertical thrust exactly equals weight,
-is 41,900 pounds, and the aircraft was nearly eight thousand pounds below it at the start of the sortie.
+times. The weight at which vertical thrust exactly equals weight follows immediately,
+
+$$W_{\max} = \frac{T_{\text{total}}}{g} = \frac{186{,}381}{9.80665} = 19{,}006 \ \text{kg} = 41{,}900 \ \text{lb}$$
+
+**and the aircraft was nearly eight thousand pounds below it at the start of the sortie.** The numerical
+coincidence between the weight limit in pounds and the thrust in pounds force is an artefact of the unit
+system rather than a result.
 
 **So the short takeoff in Mission X was a demonstration of a technique rather than the relief of a constraint.**
 A short takeoff exists in the operational requirement because the aeroplane that matters will be heavier
 than its vertical thrust, and will need wing lift to get airborne with a useful load. The demonstrator was
 not in that condition on 20 July, and neither the flight nor the arithmetic claims it was.
 
-- [Influence of Tire Tread Pattern and Runway Surface Condition...][research_hornewalterb_lelandtraffordjw_1962]
-- [Influence of tire tread pattern and runway surface condition...][research_influence_of_1963]
-- [SIMULATION OF HELICOPTER AND V/STOL AIRCRAFT. VOLUME II...][research_mcintyre_1963]
-- [Takeoff performance of jet-propelled conventional and...][research_krenkel_salzman_1968]
-- [The physics of short takeoff and landing /STOL/][research_carpenter_gotlieb_1970]
-- [A simplified flight-test method for determining aircraft...][research_larsontj_schweikhardwg_1974]
-- [Landing and Takeoff Roll-Out Augmentation][research_muehter_1974]
-- [Tire Testing for Rolling Resistance and Fuel Economy][research_glemming_bowers_1974]
-- [Effects of Tire Rolling Resistance on Vehicle Fuel Consumption][research_crum_mcnall_1975]
-- [Tire Testing for Rolling Resistance and Fuel Economy][research_glemming_bowers_1975]
-- [Tire Rolling Resistance Measurements From Coast-Down Tests][research_dayman_1976]
-- [A Note on Tire Rolling Resistance Due to Test Wheel Curvature][research_bekker_semonin_1977]
 - [Military The U.S. Navy bets on V/STOL Integrating...][research_steele_aurora_1978]
 - [Airworthiness and Flight Characteristics Test, OV-1C Takeoff...][research_smith_yamakawa_1979]
 - [Inter-Test Facility Rolling Resistance Correlation Via...][research_tillinger_weber_1979]
 - [Use of High Strain Dynamic Viscoelastometer in the Analysis...][research_kwon_prevorsek_1980]
+- [Influence of Landing Gear Flexibility on Aircraft Performance...][research_sivaramakrishnan_1981]
+- [Powered-lift takeoff performance characteristics determined...][research_riddle_innis_1981]
+- [Simulated aircraft takeoff performance with frosted wings][research_dietenberger_1981]
+- [Tire Rolling Resistance and Vehicle Fuel Consumption][research_thompson_reineman_1981]
+- [Test Surface Curvature Reduction Factor for Truck Tire...][research_luchini_1982]
+- [Short Takeoff Performance Using a Gravity Assist Ski Jump][research_furey_1983]
+- [The Effects of Five Basic Design and Construction Parameters...][research_walter_1983]
+- [Prediction of tire rolling resistance and soil compaction...][research_tijink_koolen_1985]
+- [Tensile ski-jump ramp for aircraft takeoff][research_kuznetsov_schumaker_1985]
+- [CTOL ski jump - Analysis, simulation, and flight test][research_clark_walters_1986]
+- [Development of a takeoff performance monitoring system][research_srivatsan_downing_1986]
+- [Evaluation of a takeoff performance monitoring system][research_middleton_srivatsan_1987]
 
 ### The Supersonic Leg Was Thermally Free
 
-Mission X reached Mach 1.05 at twenty-five thousand feet. The standard atmosphere there gives a static
-temperature of 238.62 kelvin, a density of 0.5489 kilograms per cubic metre and a speed of sound of 309.7
-metres per second, so the aircraft was travelling at 325.2 metres per second. The stagnation temperature
-follows from the energy equation,
+Mission X reached Mach 1.05 at twenty-five thousand feet, and the conditions there follow from the standard
+atmosphere rather than from a table. Below the tropopause the temperature falls linearly and the hydrostatic
+equation integrates to a power law,
+
+$$T = T_{\text{SL}} - Lh \qquad \text{and} \qquad p = p_{\text{SL}} \left(\frac{T}{T_{\text{SL}}}\right)^{\frac{g_0}{RL}}$$
+
+whose exponent is
+
+$$\frac{g_0}{RL} = \frac{9.80665}{287.05 \times 0.0065} = 5.2559$$
+
+At 7,620 metres this gives a static temperature of 238.62 kelvin and a pressure of 37,601 pascals, so the
+density and speed of sound are
+
+$$\rho = \frac{p}{RT} = 0.5489 \ \text{kg/m}^{3} \qquad \text{and} \qquad a = \sqrt{\gamma R T} = 309.7 \ \text{m/s}$$
+
+and the aircraft was travelling at 325.2 metres per second.
+**The density ratio against sea level is 0.4481**, which is the number the thrust available depends on. The
+stagnation temperature follows from the energy equation,
 
 $$T_0 = T + \frac{V^{2}}{2 c_p} = 238.62 + \frac{325.2^{2}}{2 \times 1004.7} = 291.2 \ \text{K}$$
 
@@ -1072,11 +1400,43 @@ to stand on. The atmosphere was reached here by numerically integrating the hydr
 by evaluating the barometric power law, and the stagnation temperature through the energy equation rather
 than the Mach-number form.
 
-Nor was thrust scarce. At that condition the dynamic pressure is 29,018 pascals, an estimated transonic drag
-coefficient of 0.035 gives about 9,546 pounds force of drag, and the augmented engine at that density still
-offers roughly 22,805 pounds force, a ratio of
+Nor was thrust scarce, and the draft asserted a lumped drag coefficient where a build-up is available. The
+dynamic pressure is
 
-$$\frac{T}{D} = 2.389$$
+$$q = \tfrac{1}{2} \rho V^{2} = \tfrac{1}{2} \times 0.5489 \times 325.2^{2} = 29{,}018 \ \text{Pa}$$
+
+**which is 29018 pascals**, and the lift coefficient the aircraft needs at that pressure is small,
+
+$$C_L = \frac{W}{qS} = \frac{151{,}240}{29{,}018 \times 41.81} = 0.1247$$
+
+The wing's aspect ratio is $b^2/S = 2.42$, so with an assumed Oswald efficiency of 0.75 the induced drag
+coefficient is
+
+$$C_{D_i} = \frac{C_L^{2}}{\pi \, \mathrm{AR} \, e} = \frac{0.1247^{2}}{\pi \times 2.42 \times 0.75} = 0.002726$$
+
+**which is negligible, and that is itself worth noticing**, because it means the dash is a pure zero-lift
+and wave-drag problem. Adding an assumed subsonic zero-lift coefficient of 0.018 and a wave-drag increment
+of 0.017 at the transonic peak,
+
+$$C_D = C_{D_0} + C_{D_w} + C_{D_i} = 0.018 + 0.017 + 0.002726 = 0.03773$$
+
+$$D = q S C_D = 29{,}018 \times 41.81 \times 0.03773 = 45{,}771 \ \text{N} = 10{,}289 \ \text{lbf}$$
+
+Thrust available falls with density, and taking the usual power-law form,
+
+$$T = T_{\text{SL}} \sigma^{n} = 40{,}000 \times 0.4481^{0.7} = 40{,}000 \times 0.5701 = 22{,}805 \ \text{lbf}$$
+
+**so 22805 pounds force is available**, against a drag of 10,289.
+
+**The exponent is assumed and the conclusion does not depend on it.** Across values from 0.6 to 1.0 the
+thrust available runs from 24,711 down to 17,925 pounds force and the ratio of thrust to drag from 2.589 to
+1.878, so the margin survives the whole range. Taking the build-up rather than the lumped coefficient,
+
+$$\frac{T}{D} = \frac{22{,}805}{10{,}289} = 2.216$$
+
+**against 2.389 from a lumped coefficient of 0.035, which would have given a drag of 9546 pounds force.**
+The two estimates differ by eight percent and neither is close to the value that would make Mach 1.05
+difficult.
 
 **The aircraft was not working to hold Mach 1.05.** It was flying at an envelope limit set by the test
 programme, on a demonstrator whose inlet and structure had been cleared to a little over Mach 1.1, and the
@@ -1114,8 +1474,11 @@ previous sortie had already reached Mach 1.08.
 **The vertical landing came last, which means it came at the lowest weight of the day.** Every pound of fuel
 burned during the climb, the dash and the recovery is a pound the lift system does not have to hold up.
 
-Taking a sortie fuel burn of 3,500 pounds, which is an assumption and is labelled as one, the landing weight
-is 30,500 pounds and the margin becomes
+Taking a sortie fuel burn of 3,500 pounds, which is an assumption and is labelled as one,
+
+$$W_{\text{land}} = W_{\text{TO}} - W_{\text{fuel}} = 34{,}000 - 3{,}500 = 30{,}500 \ \text{lb}$$
+
+and the margin becomes
 
 $$\frac{41{,}900}{30{,}500} = 1.374$$
 
@@ -1165,7 +1528,7 @@ earlier. **What was new on 20 July 2001 was the sequence in one sortie, not the 
 
 **It is not evidence that any of the three regimes was individually difficult for this aircraft, because the arithmetic says none of them was.**
 The short takeoff was flown by an aeroplane that could have gone straight up. The supersonic dash raised the
-stagnation temperature by three kelvin over a sea-level standard day and used 41.9 percent of the thrust
+stagnation temperature by three kelvin over a sea-level standard day and used 45.1 percent of the thrust
 available. The vertical landing happened at the lightest the aircraft had been all day.
 
 **And the sortie was not where the engineering risk was retired.** Every element had been flown already, the
@@ -1184,24 +1547,24 @@ established that the clutch, gearbox and drive shaft survive repeated engagement
 that mode conversion can be flown as a routine event rather than as a test point.
 **And it established, by the counter-rotation argument above, that a fan of this power can be installed without consuming the aircraft's roll authority.**
 
-- [Hovering and Transition Flight Tests of a 1/5-Scale Model of...][research_smithcharlescjr_1958]
-- [Measurements of Aerodynamic Heat Transfer and Boundary-Layer...][research_rumseycharlesb_leedorothyb_1961]
-- [Aerodynamic effects of lift-jet and lift-fan inlets in...][research_grahame_1969]
-- [Optimal paths for minimising landing transition distance for...][research_huntley_1972]
-- [Configuration management during transition for a powered lift...][research_johnson_craig_1974]
-- [Integrated Flight/Propulsion Control Design Techniques...][research_sevich_beattie_1974]
-- [Integrated flight/propulsion control by state regulation][research_seitz_1975]
-- [Critical considerations for wind-tunnel testing V/STOL...][research_margason_hoad_1979]
-- [Hover and transition flight performance of a twin...][research_pirera_1983]
-- [Integrated flight/propulsion control system architectures for...][research_bangert_henke_1983]
-- [Integrated flight/fire/propulsion controls][research_knox_meyer_1984]
-- [Integrated Flight/Propulsion Control System Considerations...][research_vizzini_1985]
-- [Integrated flight/propulsion control - Adaptive engine...][research_yonke_terrell_1985]
-- [Integrated flight/propulsion control - Methodology, design...][research_integrated_flight_propulsion_1985]
 - [Integrated control and display research for transition and...][research_fosterjohnd_moralezernestoiii_1987]
 - [Validation of an integrated flight and propulsion control...][research_shaw_haiges_1987]
 - [Energy management for integrated flight and propulsion...][research_rosenberg_1988]
 - [Integrated control and display research for transition and...][research_fosterjohnd_moralezernestoiii_1988]
+- [Propulsion control specifications in integrated flight...][research_rock_emaminaeini_1988]
+- [Integrated Flight/Propulsion Control Requirements and Issues][research_rock_1989]
+- [Integrated flight/propulsion control study for STOVL...][research_mihaloew_weiss_1989]
+- [Integrated flight/propulsion control system design based on a...][research_garg_mattern_1989]
+- [Integrated flight/propulsion control system design based on a...][research_mattern_garg_1989]
+- [Low-speed Wind-Tunnel Study of Reaction Control-jet...][research_rileydonaldr_shahgautamh_1989]
+- [STOVL aircraft simulation for integrated flight and...][research_mihaloewjamesr_drummondcolink_1989]
+- [Simulation evaluation of transition and hover flying...][research_franklinjamesa_stortzmichaelw_1989_b]
+- [Extended implicit model following as applied to integrated...][research_schmidtdavidk_schiermanjohnd_1990]
+- [H-infinity based integrated flight/propulsion control design...][research_garg_mattern_1990]
+- [Integrated flight/propulsion control for supersonic STOVL...][research_franklinjamesa_stortzmichaelw_1990]
+- [Short take-off and landing maneuver technology demonstrator...][research_clough_1990]
+- [Analysis of airframe/engine interactions in integrated flight...][research_schierman_schmidt_1991]
+- [Application of an integrated flight/propulsion control design...][research_garg_mattern_1991]
 
 ### What It Fed Into
 
@@ -1262,6 +1625,12 @@ conclusions would move if the assumptions moved.
 | Zero-lift drag 0.025, rolling friction 0.03 | Ground roll | Slightly. The gap between 315 and 500 feet is far larger than these move it |
 | Transonic drag coefficient 0.035 | Dash thrust margin | No. The margin is 2.389 and would survive a doubling |
 | Sortie fuel burn of 3,500 lb | Landing weight margin | Yes, and the assumption-free statement is given beside it, being a weight limit of 41,900 pounds |
+| Fan to nozzle separation of 7.5 m | Moment arms and the centre-of-gravity band | Only for the arms in metres. **The station as a FRACTION, 0.4737, needs no separation at all** |
+| Thrust split authority of 10 percent | The pitching-moment threshold | Weakly. It sets the threshold height, and the finding is that the threshold is near a metre rather than far from it |
+| Radius of gyration at 0.20 to 0.25 of span | Roll control power | No. The bracket is reported and the residual after a single-rotation reaction is derisory across all of it |
+| Oswald efficiency of 0.75, zero-lift drag 0.018, wave drag 0.017 | The dash drag build-up | No. Induced drag is 0.0027 of a total 0.0377, so the build-up is insensitive to it |
+| Thrust lapse exponent of 0.7 | Thrust available at altitude | No. The sensitivity is tabulated and the margin survives 0.6 to 1.0 |
+| Clutch plate mass of 20 kg | The plate temperature rise | No. It scales the rise linearly and the conclusion is that the bound is absurd, not that the rise is a particular number |
 
 ### A Demonstration Is Not Only an Experiment
 
@@ -5103,22 +5472,6 @@ and the article says so at every point where an assumption was needed.
 - [Assessment of Cabin Dimensions to Accommodate Infantry...][research_durbin_faughn_2014]
 - [Transparent War Fighter Recharging][research_gibala_greene_2014]
 - [Validation Ice Crystal Icing Engine Test in the Propulsion...][research_olivermichaelj_2014]
-- [PROGRAMS FOR MACHINE COMPUTATION OF ROTOR BLADE DOWNWASH][research_ghareeb_1964]
-- [The influence of fan and ducting characteristics on the...][research_walker_1964]
-- [The involutions in outwash plain south of Gniezno][research_the_involutions_1964]
-- [DOWNWASH TESTS OF THE DUAL TANDEM DUCTED PROPELLER VTOL...][research_curtiss_hc_1965]
-- [Experimental investigation of jet impingement on surfaces of...][research_normansland_leonardvclark_1965]
-- [A STUDY OF THE MEAN AND TURBULENT STRUCTURE OF A FREE JET AND...][research_donaldson_snedeker_1966]
-- [Design data for the jet flap in ground effect][research_lissaman_1967]
-- [Inviscid-incompressible-flow theory of normal and slightly...][research_strand_1967]
-- [Wind tunnel modelling of chimney strong-wind downwash][research_munn_1967]
-- [A generalized experimental investigation of hot gas...][research_cosgrovewj_heimrj_1968]
-- [A linear theory for the jet flap in ground effect][research_lissaman_1968]
-- [Consideration of V/STOL Downwash and the Ground Environment][research_wareing_1968]
-- [LIFTING SURFACE THEORY AND TAIL DOWNWASH CALCULATIONS FOR...][research_levinsky_thommen_1968]
-- [Underexpanded jet noise reduction using radial flow...][research_dosanjh_montegani_1968]
-- [Analysis of thick, cambered jet flap airfoils in ground effect][research_lissaman_1969]
-- [Fluidic Jet Impingement-Analytical Solution and Novel...][research_michelson_1969]
 - [Rotor downwash in ground effect in the presence of a step][research_fanucci_gibbs_1969]
 - [The effect of exhaust conditions, surface winds, and...][research_cosgrovewj_ryanpe_1969]
 - [Underexpanded jet noise reduction using radial flow...][research_dosanjh_montegani_1969]
@@ -6124,20 +6477,6 @@ and the article says so at every point where an assumption was needed.
 - [Evaluation of Downdrift Shore Erosion, Mattituck Inlet, New...][research_batten_kraus_2006]
 - [Supersonic Inlet Flow Control Using Localized Arc Filament...][research_samimy_webb_2011]
 - [Flow Control for Supersonic Inlet Applications][research_babinsky_2014]
-- [Propulsion control specifications in integrated flight...][research_rock_emaminaeini_1988]
-- [Integrated Flight/Propulsion Control Requirements and Issues][research_rock_1989]
-- [Integrated flight/propulsion control study for STOVL...][research_mihaloew_weiss_1989]
-- [Integrated flight/propulsion control system design based on a...][research_garg_mattern_1989]
-- [Integrated flight/propulsion control system design based on a...][research_mattern_garg_1989]
-- [Low-speed Wind-Tunnel Study of Reaction Control-jet...][research_rileydonaldr_shahgautamh_1989]
-- [STOVL aircraft simulation for integrated flight and...][research_mihaloewjamesr_drummondcolink_1989]
-- [Simulation evaluation of transition and hover flying...][research_franklinjamesa_stortzmichaelw_1989_b]
-- [Extended implicit model following as applied to integrated...][research_schmidtdavidk_schiermanjohnd_1990]
-- [H-infinity based integrated flight/propulsion control design...][research_garg_mattern_1990]
-- [Integrated flight/propulsion control for supersonic STOVL...][research_franklinjamesa_stortzmichaelw_1990]
-- [Short take-off and landing maneuver technology demonstrator...][research_clough_1990]
-- [Analysis of airframe/engine interactions in integrated flight...][research_schierman_schmidt_1991]
-- [Application of an integrated flight/propulsion control design...][research_garg_mattern_1991]
 - [Design and piloted simulation evaluation of integrated...][research_franklin_engelland_1991]
 - [Evaluation of the longitudinal stability and control...][research_engelland_1991]
 - [Integrated Flight/Propulsion Control Design for a STOVL...][research_garg_ouzts_1991]
@@ -6509,18 +6848,6 @@ and the article says so at every point where an assumption was needed.
 - [Effect of atmospheric altitude on engine performance][research_shannak_alhasan_2002]
 - [DESIGN AND DEVELOPMENT OF A 70 N THRUST CLASS TURBOJET ENGINE][research_trazzi_2004]
 - [F119 Nozzle Flaps Tested at Lewis' CE-22 Facility][research_f119_nozzle_2005]
-- [Influence of Landing Gear Flexibility on Aircraft Performance...][research_sivaramakrishnan_1981]
-- [Powered-lift takeoff performance characteristics determined...][research_riddle_innis_1981]
-- [Simulated aircraft takeoff performance with frosted wings][research_dietenberger_1981]
-- [Tire Rolling Resistance and Vehicle Fuel Consumption][research_thompson_reineman_1981]
-- [Test Surface Curvature Reduction Factor for Truck Tire...][research_luchini_1982]
-- [Short Takeoff Performance Using a Gravity Assist Ski Jump][research_furey_1983]
-- [The Effects of Five Basic Design and Construction Parameters...][research_walter_1983]
-- [Prediction of tire rolling resistance and soil compaction...][research_tijink_koolen_1985]
-- [Tensile ski-jump ramp for aircraft takeoff][research_kuznetsov_schumaker_1985]
-- [CTOL ski jump - Analysis, simulation, and flight test][research_clark_walters_1986]
-- [Development of a takeoff performance monitoring system][research_srivatsan_downing_1986]
-- [Evaluation of a takeoff performance monitoring system][research_middleton_srivatsan_1987]
 - [Improved method of analyzing takeoff performance data][research_chandrasekharan_1988]
 - [Seaplane takeoff performance - Using delta ratio as a method...][research_deremer_1988]
 - [Simulator evaluation of takeoff performance monitoring system...][research_middleton_personjr_1988]

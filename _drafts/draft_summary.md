@@ -23,8 +23,30 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 36 of 72.
 
 **18,396 lines, 30 display equations, 5,814 reference definitions, 98,627 words after the draft
-pass**, with all 5,678 master records cited and none left over. Committed, **not pushed**. **Not
-published.**
+pass.** **18,723 lines, 71 display equations, 5,814 reference definitions, 101,571 words after the
+equation-density review**, with all 5,678 master records cited and none left over. Committed, **not
+pushed**. **Not published.**
+
+**THE EQUATION PASS GAVE THE THESIS FORCES WHERE IT HAD ONLY A CHRONOLOGY.** Four pieces of physics
+the draft did not reach all point the same way. **Momentum drag**, the destruction of the horizontal
+momentum of everything the fan swallows, is **5,469 pounds force at the 180 knots the aircraft
+actually converted at, or 30.4 percent of the rear nozzle's thrust**. The same lift balance read
+upwards puts the fully wing-borne speed at **146.8 knots**, so the conversion was flown where lift
+was free and drag most expensive. **The hover moment balance fixes the centre of gravity rather than
+being trimmed to it**, at 47.37 percent of the fan-to-nozzle distance with only 14.72 inches of
+travel, which is the one cost in the article that does not ease as the aircraft lightens. And
+inverting for the inlet temperature rise that consumes the hover margin gives **66.95 kelvin**,
+turning hot gas ingestion from an adjective into a number.
+
+**A GEOMETRY RESULT THAT WAS NOT ANTICIPATED.** A canted joint deflects by twice its cant at half a
+turn, so one bearing would need a 47.5 degree cant to reach ninety-five degrees. **Series joints
+help only if their cants alternate**, since two identical cants reach twice the cant and no more,
+the second merely undoing the first. **Three alternating joints at an ordinary 15.83 degree cant
+reach ninety-five**, so the bearing count follows from the cant a seal can tolerate.
+
+**COUNTER-ROTATION, NOW IN HANDLING-QUALITIES UNITS.** The roll posts give 46.07 degrees per second
+squared and a single-rotation fan's reaction torque would leave **3.083**, which is about one
+fifteenth and is not a control system at all.
 
 **THE KEYSTONE IS A COUPLING QUESTION AND THE CHRONOLOGY SETTLES IT.** The article asks whether the
 famous Mission X sortie of 20 July 2001 was evidence or display, and answers that **every element of
@@ -68,10 +90,10 @@ also found ninety cluster markers rendering as nested empty list items. Checking
 than trusting its status code found a link to a page that returns 200 and **contains no aeronautical
 content whatever**.
 
-**Remaining work**: the equation-density review, the primary-reference review and the publication
-review, in that order and each on the pilot's prompt. **The equation count of 30 is low against the
-series median and is reported rather than padded**, the subject having one physical chain rather than
-several.
+**Remaining work**: the primary-reference review and the publication review, each on the pilot's
+prompt. **The promotion rule fired for the fourteenth article running**, with 7 of 10 newly promoted
+subjects thin and the two carrying the sharpest new results, momentum drag and canted joint
+kinematics, standing at **one record each**.
 
 ## X-Planes Orbital Sciences X-34 A331 2025-11-09
 
