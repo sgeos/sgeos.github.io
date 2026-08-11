@@ -58,14 +58,30 @@ def scan(text):
     if stripped.count("$$") % 2:
         out.append((DEFECT, "math-delimiters", "odd number of $$ delimiters"))
 
-    used = set(re.findall(rf"\]\[({ANCHOR})\]", body))
-    defined = re.findall(rf"(?m)^\[({ANCHOR})\]:", refs)
-    dset = set(defined)
+    # ANCHORS ARE COUNTED ACROSS THE WHOLE FILE, NOT BODY AGAINST REFERENCE BLOCK.
+    #
+    # The earlier form asked whether an anchor used IN THE BODY was defined IN THE REFERENCE
+    # BLOCK, and it was wrong in both directions. Run across the corpus on 2026-08-11 it
+    # produced 1,596 defect-severity findings and every one was an artefact.
+    #
+    #   `references()` splits on a literal `## References` heading. Two 2016 posts head their
+    #   link block `## Links:`, so the block landed in the body, the reference block came back
+    #   empty, and all 16 of their anchors were reported undefined. Every one resolves, and the
+    #   rendered pages carry no literal `[text][anchor]` anywhere.
+    #
+    #   The corpus convention puts the visible `- [text][anchor]` entry for each reference
+    #   INSIDE the References section, which body-only counting cannot see. That reported 1,579
+    #   references as defined-but-never-used.
+    #
+    # Kramdown resolves a reference against the whole document, so this does too.
+    used = post.all_used_anchors(text)
+    defined_list = re.findall(rf"(?m)^\[({ANCHOR})\]:", _strip_code(text))
+    dset = set(defined_list)
     for a in sorted(used - dset):
         out.append((DEFECT, "anchor-undefined", f"[{a}] used but never defined; renders literally"))
     for a in sorted(dset - used):
         out.append((DEFECT, "anchor-unused", f"[{a}] defined but never used"))
-    for a, n in collections.Counter(defined).items():
+    for a, n in collections.Counter(defined_list).items():
         if n > 1:
             out.append((DEFECT, "anchor-duplicate", f"[{a}] defined more than once"))
 
@@ -74,7 +90,10 @@ def scan(text):
     # generator correctly refused to emit; A369 shipped the placeholders into
     # the file because they were inserted from a raw string that was never
     # formatted.
-    for mm in re.finditer(r"\{c\(", text):
+    # MATH IS STRIPPED FIRST. `\frac{W_{avail}}{c(t)}` contains the literal bytes `{c(`, so
+    # scanning raw text reported a surviving placeholder against a published article whose
+    # only offence was dividing by a function of time.
+    for mm in re.finditer(r"\{c\('", post.strip_math(_strip_code(text))):
         out.append((DEFECT, "unfilled-template", "a {c('...')} placeholder survived into the file"))
         break
 

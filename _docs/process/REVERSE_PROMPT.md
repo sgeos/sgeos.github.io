@@ -9,102 +9,91 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-11
-**Task**: Close the follow-up concerns from the word-usage and housekeeping work. **Committed and
-pushed.** Two of the five were defects I had introduced hours earlier.
+**Task**: Rendered-output auditing, and repairing `lint.py` so it can be run at all.
+**Committed and pushed.**
 
 ---
 
-## The Two I Broke
+## The Corpus Had No Check That Sees What A Reader Sees
 
-**The collocation annotation contradicted its own arithmetic.** The warning read `` `specific` 59x ...
-top collocate `specific impulse` 57x = 86% ``, and 57 of 59 is 97 percent, not 86. The count came from
-`_verify.py`'s prose extraction and the share from `_lib/diction.py`'s, which disagree by 59 against 66
-on that file. `collocations` and `top_collocate` now take `already_prose`, and the verifier passes its
-own extracted body, so **one body of text produces both numbers**. Verified consistent across all five
-propellant articles by lifting the exemption and reading the output.
+`_verify.py` and `_lib/lint.py` both read markdown source, so both can only predict what
+kramdown and MathJax will do. **They disagreed with each other and with reality.** Run across
+the corpus, lint reported **1,596 defect-severity findings** and the rendered pages carried
+**none of them**.
 
-**The `redirects/` mechanism lived only in files that get overwritten.** It is now in `CLAUDE.md` under
-Architecture, with the rule that an entry is needed whenever a published post's URL changes.
+`_lib/render.py` audits built HTML for defects a reader would see, being an unresolved
+`[text][anchor]`, an unexpanded marker, unrendered Liquid, raw `$$`, empty or nested-empty list
+items, double-escaped entities, and unbalanced MathJax delimiters. It runs in CI immediately
+after the build.
 
----
+**Markup inside `<pre>` and `<code>` is excluded**, because the Jekyll and MathJax tutorial
+posts display that syntax as their subject matter. That exclusion is the difference between
+zero findings and eleven false ones.
 
-## Two Checks Now Exist Because The Defect Shipped
+**Current state of the corpus: 462 pages, 167 carrying display math, no findings.**
 
-**`category-slug-collision` is a new `_verify.py` error.** Two categories that slugify to one path
-destroy an archive page, which is what `c` and `c++` did while `/categories/cpp/` returned 404 live.
-**It is an error rather than a warning because the remedy is not free.** The default permalink joins
-every category, so fixing a collision after the category ships moves the post URL and needs a redirect.
-Catching it beforehand avoids that entirely. Proven to fire by reintroducing `c++` and reading the
-output, then restored.
-
-**The permalink rule is in `CLAUDE.md`.** It previously documented only that the FIRST category shadows
-a URL path, which is the note that made me confident the rename was safe. It now states that every
-category appears in the URL, with the 2026-08-11 breakage as the reason.
+**I proved the gate can fail rather than assuming it.** Injecting one of each defect class into
+a built page produced four findings and exit 1, and restoring the page returned exit 0. A
+checker that has never failed is not evidence of a clean corpus.
 
 ---
 
-## The Harvest Gate Is Shared And The Sampling Is Now The Return Protocol
+## The Math Check Was Wrong Twice And One Error Masked The Other
 
-`_lib/gate.py` carries `Gate`, `select` and `audit`, with the two failures written into the module
-docstring.
+This is the part worth carrying forward, because two plausible implementations both produced
+false alarms against correct pages.
 
-**The point of the module is `audit`, which samples BOTH sides.** Reading kept records catches a
-permissive gate. Reading dropped records catches a narrow one. One side cannot catch both, and no
-summary statistic catches either, since a narrow gate reports a small corpus that reads as a thin
-literature and a permissive gate reports a large corpus that reads as thoroughness.
+- **Version one** counted `\[` and `\]` naively. `\\[2mm]` is a LaTeX line break with a spacing
+  argument, legal inside `cases`, and it counted as an opening delimiter. One correct page
+  reported broken.
+- **Version two** excluded any bracket preceded by a backslash. A display block whose last line
+  ends in a line break closes as `\\\]`, so the legitimate closing delimiter was discarded. Two
+  more correct pages reported broken, **and this version hid the first error**.
+- **Version three** is the rule: a bracket is a delimiter exactly when the run of backslashes
+  before it has **odd** length. Under it every math-carrying page in the corpus balances.
 
-**`audit` requires a `seed` and has no default**, so a reviewer can reproduce exactly what was read.
-**It always prints**, and the test suite captures stdout rather than being given a quiet flag, because
-a quiet flag is precisely what a future caller would reach for to skip the reading the function exists
-to force.
-
-`explain` also names the ambiguous terms in a dropped title, which is the signature of a gate written
-for the wrong subject and is what would have made the A333 failure visible at drop time.
+Had I acted on either of the first two, I would have edited three correct published articles.
 
 ---
 
-## The Instruments Are Runnable And The Method Is Documented
+## `lint.py` Was Unusable Corpus-Wide And Is Now Clean
 
-```sh
-python3 _lib/diction.py collocate <word> <path>     evidence for one word, both directions
-python3 _lib/diction.py outliers  <path> [glob]     words above the peer maximum
-python3 _lib/diction.py tics      <path> [glob]     the enumerated tic class
-python3 _lib/diction.py report    <path> [glob]     multi-word constructions
-```
+It had never been run over the corpus. Only `_lib/edits.py` and the tests call it. All 1,596
+defect-severity findings were artefacts of two structural assumptions.
 
-`outliers` and `tics` were library functions nothing called. **Both print the caveat that a word above
-the peer maximum is usually the subject rather than a tic**, and point at `collocate`.
+- **`references()` splits on a literal `## References` heading.** Two 2016 posts head their link
+  block `## Links:`, so the block landed in the body, the reference block came back empty, and
+  all 16 of their anchors read as undefined. Every one resolves.
+- **Uses were counted in the body only.** The corpus convention puts the visible
+  `- [text][anchor]` entry inside the References section, so **1,579 references read as defined
+  but never used**.
+- **`unfilled-template` scanned raw text.** `\frac{W_{avail}}{c(t)}` contains the literal bytes
+  `{c(`, so a published article was flagged for dividing by a function of time.
 
-**`_docs/writing/STYLE_GUIDE.md` gains a How to measure it section**, carrying the commands, the
-direction rule, a signature table, and the reason a warning must be resolved either way. The method
-previously existed only as a pointer to a log entry.
+Anchors are now counted across the whole document, which is what kramdown does, and the
+template check strips math first. **Defect-severity findings across the corpus: 1,596 to 0.**
+
+**The 2,025 convention-severity findings were left exactly as they are.** `lint.py` documents
+that bold spanning a line break, display math on two lines and duplicate reference URLs were
+measured against the corpus and deliberately not promoted to gates because kramdown renders
+them correctly. I did not touch that judgement.
 
 ---
 
 ## Verification
 
 - `python3 _verify.py` **0 errors, 0 warnings**.
-- `python3 _lib/test_lib.py` **63 of 63**, up from 58. The six new tests cover the slug collision, the
-  two front-matter category forms, the strong-versus-ambiguous gate rule, the drop explanation, and
-  the reproducible two-sided sample.
-- **Isolated production build exit 0 with no conflict, isolated drafts build exit 0**, and both
-  redirect pages still generate.
+- `python3 _lib/test_lib.py` **69 of 69**, up from 63. Six new tests cover the backslash-run
+  parity rule, the code-block exclusion, unbalanced display math, the non-standard reference
+  heading, the visible-entry-counts-as-a-use rule, and the LaTeX-versus-placeholder distinction.
+- `python3 _lib/render.py _site` over a real build: **462 pages, no findings, exit 0**.
+- **Gate proven to fail** on four injected defect classes and to pass again on restore.
+- `lint.scan` across all 343 files: **0 defect, 2,025 convention**.
 
 ---
 
-## Not Acted On, Deliberately
+## Standing Work, Unchanged
 
-**`no_std` slugifies to `no-std`**, so `/categories/no-std/` returns 200 while `/categories/no_std/`
-returns 404. Post URLs keep the literal underscore. **Nothing is broken and nothing links to the
-missing path**, so this is recorded rather than changed. Renaming the category would move two post
-URLs and buy nothing.
+**A334, the Boeing X-37**, editorial date 2025-11-12, Part 38 of 72, on your prompt.
 
----
-
-## Standing Work, Unchanged And Needing Your Instruction
-
-**A334, the Boeing X-37**, editorial date 2025-11-12, Part 38 of 72. A four-pass job that starts on
-your prompt.
-
-**The thirty-seven X-Planes drafts remain unpublished**, and publication has never been authorised for
-them. The eight redated drafts now sit at 2026-08-12 through 2026-08-19 and those dates are arbitrary.
+**The thirty-seven X-Planes drafts remain unpublished and unauthorised.**

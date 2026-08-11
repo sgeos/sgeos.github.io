@@ -22,6 +22,7 @@ import gate
 import lint
 import refs
 import reflow
+import render
 
 FM = ('---\nlayout: post\nmathjax: true\ncomments: true\ntitle: "T"\n'
       "date: 2026-08-06 09:00:00 +0000\ncategories: engineering\n---\n")
@@ -899,6 +900,101 @@ def t_gate_audit_samples_both_sides_reproducibly():
     # a different seed must actually draw a different sample
     ks3, _ = quiet(kept, dropped, seed=8, n=5)
     assert [r["title"] for r in ks3] != [r["title"] for r in ks1]
+
+
+
+
+def t_lint_resolves_anchors_under_a_non_standard_reference_heading():
+    """`references()` SPLITS ON A LITERAL `## References` AND NOT EVERY POST USES IT.
+
+    Two 2016 posts head their link block `## Links:`. The block therefore landed in the body,
+    the reference block came back empty, and all 16 of their anchors were reported undefined
+    against pages whose links all resolve and which carry no literal `[text][anchor]` anywhere
+    in the rendered HTML.
+    """
+    text = (FM + "See [Parametric Curves][parametric] for detail.\n\n"
+            "## Links:\n\n- [Parametric Curves][parametric]\n\n"
+            "[parametric]: http://example.org/parcur/\n")
+    rows = [r for r in lint.scan(text) if r[1].startswith("anchor")]
+    assert rows == [], rows
+
+
+def t_lint_counts_a_visible_reference_entry_as_a_use():
+    """THE CORPUS PUTS THE VISIBLE ENTRY INSIDE THE REFERENCES SECTION.
+
+    Counting uses in the body alone cannot see `- [text][anchor]` lines that sit beside the
+    definitions, so every reference in a convention-following article read as defined but
+    never used. That was 1,579 false defects, the largest single class in the corpus.
+    """
+    text = (FM + "Prose with no citation in it at all.\n\n"
+            "## References\n\n### Research\n\n"
+            "- [Some Paper][research_a_2020]\n\n"
+            "[research_a_2020]: https://doi.org/10.0000/x\n")
+    rows = [r for r in lint.scan(text) if r[1] == "anchor-unused"]
+    assert rows == [], rows
+    # a definition nothing points at anywhere is still reported
+    orphan = text + "[research_b_2021]: https://doi.org/10.0000/y\n"
+    rows2 = [r for r in lint.scan(orphan) if r[1] == "anchor-unused"]
+    assert len(rows2) == 1 and "research_b_2021" in rows2[0][2], rows2
+
+
+def t_unfilled_template_ignores_latex_and_still_catches_a_placeholder():
+    """`\\frac{W}{c(t)}` CONTAINS THE LITERAL BYTES THE CHECK LOOKS FOR.
+
+    Scanning raw text reported a surviving generator placeholder against a published article
+    whose only offence was dividing by a function of time. Math is stripped first, and the
+    real placeholder must still be caught or the fix would be a regression.
+    """
+    latex = FM + "The ceiling is\n\n$$P_{max}(t) = \\frac{W_{avail}}{c(t)}$$\n\nso that.\n"
+    assert [r for r in lint.scan(latex) if r[1] == "unfilled-template"] == []
+    real = FM + "prose {c('cluster')} tail\n"
+    assert [r for r in lint.scan(real) if r[1] == "unfilled-template"], "placeholder missed"
+
+
+
+
+def t_render_math_parity_survives_a_latex_line_break():
+    """TWO WRONG VERSIONS OF THIS CHECK CAME FIRST AND ONE MASKED THE OTHER.
+
+    `\\\\[2mm]` is a LaTeX line break with a spacing argument, legal inside `cases`, and a
+    naive counter reads it as an opening display delimiter. Excluding any bracket preceded by
+    a backslash then discards the legitimate `\\\\\\]` that closes a block whose last line ends
+    in a line break. Only backslash-run parity is right: a bracket is a delimiter when the run
+    before it has ODD length.
+    """
+    # a plain balanced block
+    assert render.delimiter_counts(r"\[x = 1\]")[:2] == (1, 1)
+    # a line break with a spacing argument is not a delimiter
+    assert render.delimiter_counts(r"\[\begin{cases}a \\\\[2mm] b\end{cases}\]")[:2] == (1, 1)
+    # a block closing straight after a line break still closes
+    assert render.delimiter_counts(r"\[a \\\\ \]")[:2] == (1, 1)
+    # inline delimiters are counted separately
+    assert render.delimiter_counts(r"\(y\)")[2:] == (1, 1)
+
+
+def t_render_flags_only_what_a_reader_would_see():
+    """A CONVENTION VIOLATION IS NOT A RENDERING DEFECT.
+
+    An unresolved reference shows its own source text in the prose and is a defect. The same
+    markup inside a code block is the subject matter of the Jekyll and MathJax tutorial posts
+    and must not be flagged.
+    """
+    assert render.audit_html("<p>ordinary prose</p>") == []
+    hit = render.audit_html("<p>see [Some Title][ref_a] here</p>")
+    assert hit and hit[0][0] == "unresolved-reference", hit
+    # the same text inside a code block is legitimate
+    assert render.audit_html("<pre><code>[Some Title][ref_a]</code></pre>") == []
+    assert render.audit_html("<pre><code>{% if page.comments %}</code></pre>") == []
+    # the doubled-list-marker defect that shipped in A332 and A333
+    nested = render.audit_html("<ul><li><ul><li>text</li></ul></li></ul>")
+    assert any(n == "nested-empty-list" for n, _c, _e in nested), nested
+
+
+def t_render_reports_unbalanced_display_math():
+    """AN UNCLOSED DISPLAY BLOCK LEAVES RAW LATEX ON THE PAGE."""
+    rows = render.audit_html(r"<p>text</p> \[x = 1")
+    assert any(n == "math-display-unbalanced" for n, _c, _e in rows), rows
+    assert render.audit_html(r"<p>text</p> \[x = 1\]") == []
 
 
 

@@ -104,6 +104,13 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      # The only check that sees what a reader sees. `_verify.py` and `_lib/lint.py` both
+      # read markdown source, so both can only predict what kramdown and MathJax will do.
+      # On 2026-08-11 lint reported 1,596 defect-severity findings across the corpus and the
+      # rendered pages carried none of them. Placed after the build because it needs the
+      # build, and it is seconds of work on an artefact that already exists.
+      - name: Audit rendered output
+        run: python3 _lib/render.py _site
       # Content-addressed cache of generated downloads. Regenerating all 293
       # posts measured 13m22s on every deploy, even for a docs-only push.
       # restore-keys lets a new run start from the most recent prior cache and

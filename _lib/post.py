@@ -67,12 +67,45 @@ def strip_code(text):
 
 
 def definitions(text):
-    """{anchor: url} from the reference block."""
+    """{anchor: url} from the reference block, or from the whole file if there is none."""
     return {a: u.strip() for a, u in DEF_LINE.findall(references(text) or text)}
 
 
 def used_anchors(text):
     return set(USE.findall(body(text)))
+
+
+def strip_math(text):
+    """Remove display and inline math.
+
+    A LaTeX fragment is not prose and is not markdown. `\\frac{W}{c(t)}` contains the exact
+    byte sequence a template-placeholder check looks for, and bracketed subscripts look like
+    reference links. Any check that scans for markup must strip math first.
+    """
+    t = re.sub(r"(?s)\$\$.*?\$\$", " ", text)
+    return re.sub(r"\$[^$\n]+\$", " ", t)
+
+
+def all_definitions(text):
+    """Every `[anchor]: url` in the file, wherever it sits.
+
+    `references()` splits on a literal `## References` heading. Posts from 2016 use `## Links:`
+    instead, so their reference block lands in the body, `references()` returns empty, and a
+    checker built on it reports every anchor in the post as undefined. That produced 16 false
+    defects against two posts whose links all resolve.
+    """
+    return {a: u.strip() for a, u in DEF_LINE.findall(strip_code(text))}
+
+
+def all_used_anchors(text):
+    """Every `][anchor]` reference in the file, wherever it sits.
+
+    Uses must be counted across the WHOLE document and not only the body. The corpus
+    convention places the visible `- [text][anchor]` entry for each reference INSIDE the
+    References section, so counting body-only usage reports every reference in a
+    convention-following article as unused. That produced 1,579 false defects.
+    """
+    return set(USE.findall(strip_code(text)))
 
 
 def equations(text):

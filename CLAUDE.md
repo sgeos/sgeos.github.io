@@ -44,6 +44,20 @@ link-definition ordering, duplicate article numbers, shadowed first categories, 
 prose style, and word-frequency outliers. Every check exists because that defect actually
 shipped. Citation and URL verification needs the network and lives separately.
 
+**Audit the rendered output (runs in CI after every build):**
+```sh
+python3 _lib/render.py _site        # after a jekyll build
+```
+
+Checks the built HTML for defects a reader would see: an unresolved `[text][anchor]`,
+an unexpanded marker, unrendered Liquid, raw `$$`, empty or nested-empty list items,
+double-escaped entities, and unbalanced MathJax delimiters. **This is the only check that sees
+what a reader sees.** `_verify.py` and `_lib/lint.py` both read markdown source and can only
+predict what kramdown and MathJax will do; on 2026-08-11 lint reported 1,596 defect-severity
+findings across the corpus and the rendered pages carried none of them. Markup inside `<pre>`
+and `<code>` is excluded, because articles about Jekyll and MathJax display that syntax as
+their subject.
+
 **Create a new draft:**
 ```sh
 ./_new_draft.sh my-post-slug   # creates _drafts/my-post-slug.markdown from template
