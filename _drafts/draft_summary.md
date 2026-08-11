@@ -24,8 +24,23 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 **11,068 lines, 13 display equations, 3,467 reference definitions, 59,364 words after the draft
 pass.** **11,229 lines, 28 display equations, 3,467 reference definitions, 60,869 words after the
-equation-density review**, with all 3,352 master records cited and none left over. Committed, **not
-pushed**. **Not published.**
+equation-density review.** **16,068 lines, 28 display equations, 5,063 reference definitions,
+85,923 words after the primary-reference review**, with all 4,948 master records cited and none
+left over. Committed, **not pushed**. **Not published.**
+
+**THE PROMOTION RULE FIRED FOR THE SIXTEENTH ARTICLE RUNNING AND PHASE MARGIN AT ZERO WAS THE WORST
+INSTANCE THIS SERIES HAS PRODUCED**, because it carried the article's headline result. The
+correction was vocabulary and it went from 0 to 142. **The two keystone documents were hunted by
+name and found**: Munk 1924 on airship hulls, the potential-flow result, and Allen and Perkins 1951
+on viscosity over slender inclined bodies of revolution, the correction that makes it usable.
+
+**THREE DEFECTS IN MY OWN SEARCH, ALL FAILING SILENTLY.** The anchor gate **rejected the article's
+oldest primary source outright**, because a gate built from vehicle vocabulary refuses a paper about
+viscosity and slender bodies. A plural boundary refused Munk's paper, titled airship **hulls**,
+**the third time in this project a plural has done this**. And a spelling variant halved a cluster.
+**A FOURTH FAULT IS A SEQUENCING TRAP**: widening the anchor gate after the reports-server detail
+pass leaves newly admitted records without metadata, so they never reach the master set and nothing
+reports an error.
 
 **THE EQUATION PASS TURNED AN ASSERTION INTO A BUDGET.** The draft said a fixed delay is amplified
 by 1.8898. A loop stabilising an unstable pole must cross over above it and a delay costs phase in
@@ -72,8 +87,7 @@ above anything the aircraft flew, **so the split ailerons were margin rather tha
 X-35 won and never had a trace at all, and **the X-36 ran to completion and produced a technique rather
 than a vehicle**, so its contribution is filed under the names of its methods.
 
-**Remaining work**: the primary-reference review and the publication review, each on the pilot's
-prompt. **The promotion rule fired for the sixteenth article running**, with phase margin and delay
+**Remaining work**: the publication review, on the pilot's prompt. **The promotion rule fired for the sixteenth article running**, with phase margin and delay
 margin standing at **zero** although it now carries the article's headline result. **The equation count of 13 is the lowest in the series and is
 reported rather than padded**, the subject having one relation applied repeatedly rather than several
 chains.
