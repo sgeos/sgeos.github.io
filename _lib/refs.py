@@ -30,6 +30,7 @@ hundred of them sit in one paragraph.
 """
 
 import os
+import html
 import re
 import sys
 import unicodedata
@@ -67,7 +68,15 @@ def slug(s):
 
 def clean(s):
     """Strip what the prose rules forbid from anything that becomes link text."""
-    s = re.sub(r"<[^>]+>", " ", s or "").replace("&amp;", "and")
+    # AN UNDECODED HTML ENTITY IS TURNED INTO VISIBLE JUNK BY THE PUNCTUATION RULE BELOW,
+    # AND THIS SHIPPED IN THREE CONSECUTIVE DRAFTS BEFORE ANYONE READ THE REFERENCE LIST.
+    # Publishers emit titles wrapped in `&lt;title&gt;` rather than in a literal tag, so the
+    # tag-stripping regex on the next line never sees them. The later rule that removes
+    # semicolons then converts `&lt;title&gt;` into `&lt title&gt`, which renders as exactly
+    # that. Decoding entities FIRST turns them back into real tags, which the next line
+    # removes, and is the only ordering in which both rules are correct.
+    s = html.unescape(s or "")
+    s = re.sub(r"<[^>]+>", " ", s).replace("&amp;", "and").replace("&", "and")
     # LATEX IN A TITLE BREAKS THE PAGE, NOT JUST THE PROSE. Publishers emit titles
     # containing inline math, and a stray `$$` in link text opens a MathJax display block
     # that swallows everything after it. A327 hit this with a Springer title reading
@@ -139,6 +148,12 @@ def latin_authors(authors):
 
 def anchor_stem(authors, year, title, kind="research"):
     a = latin_authors(authors) or [x for x in (authors or []) if x]
+    # THE TITLE FALLBACK MUST GO THROUGH `clean` AND NOT STRAIGHT INTO `slug`. A publisher
+    # title wrapped in `&lt;title&gt;` otherwise produces an anchor reading
+    # `research_lt_title_gt_..._1998`, in which every meaningful word has been pushed past
+    # the two-word window by markup. `clean` removes the markup first, so the window lands
+    # on the title.
+    title = clean(title)
     if not a:
         stem = slug(" ".join((title or "").split()[:2])) or "anon"
     elif len(a) >= 2:

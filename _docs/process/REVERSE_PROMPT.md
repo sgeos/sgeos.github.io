@@ -9,324 +9,170 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A329 publication review, the fourth and final pass. Committed and **pushed**. **Not
-published.**
+**Task**: A330, the Lockheed Martin X-33, drafted. **The draft pass only.** Committed, **not pushed**,
+**not published.**
 
-**Final state: 19,593 lines, 28 display equations, 6,159 reference definitions, 103,943 words**,
-with all 6,100 master records cited. All thirty-three articles remain in `_drafts/`.
-
----
-
-## The Contemporary Survey Was the Half the Primary Pass Left Behind
-
-**This is the count-versus-fraction trap arriving as an actual gap rather than as an artefact.**
-Coverage from 2015 onward stood at **1,371 records, 34.0 percent**, purely because the period count
-had risen underneath it while nothing was added to the modern half. Nothing had been removed.
-
-**A harvest took it to 3,428 records, or 56.2 percent, with 1,651 published from 2022 onward.**
-Twelve thin modern clusters were filled, the sharpest being momentum theory at 8 rising to 51,
-nozzle design at 14 rising to 121, and computational fluid dynamics at 12 rising to 105.
-
-**Two contemporary subjects the article's own argument reaches had no heading, and both follow from
-results the earlier passes produced rather than from being merely recent.**
-
-**Shipboard thermal and deck interaction is the operational consequence of the disc-loading identity
-the equation pass derived.** An architecture at 2,852 pounds per square foot imposes almost twice the
-pressure of one at 1,467 on the same deck at the same landing weight, and **ships were resurfaced
-because of that number**. The choice that produced it was made on propulsion grounds with the deck
-consequence following.
-
-**Digital engineering and model-based acquisition is what partly replaced the fly-off.** A model does
-not have the X-32's difficulty, since a model can be made to be the proposal. What it does not have
-is what the X-35B's single sortie demonstrated, namely that the integration works in the presence of
-everything nobody modelled. **The trade is between an evidence source that matches the proposal
-exactly and one that matches reality exactly**, and this competition is the case that shows why
-neither alone is sufficient.
+**State after the draft pass: 17,379 lines, 51 display equations, 5,392 reference definitions, 92,916
+words**, with all 5,332 master records cited and none left over. Thirty-four of seventy-two drafted,
+all still in `_drafts/`.
 
 ---
 
-## An Acronym Defect With a Cause Worth Recording
+## The Prediction in the Handoff Was Right and It Is Now Measurable
 
-**The National Aeronautics and Space Administration was never spelled out**, and the reason it
-survived three passes is worth naming. **The reference lists had grown until a verbatim citation
-title carrying the acronym appeared at character 9,460 while the authorial spell-out sat at
-56,304.**
+**The handoff said to expect the opposite documentary problem from A329 and to check rather than
+assume.** Checking took one query.
 
-**A growing reference set can move a verbatim occurrence ahead of an authorial one**, so the check
-has to be re-run after every reference pass rather than once. The spell-out is now in the opening
-prose, ahead of everything.
+**A329 harvested 4,412 records and exactly one carried the X-32 in its title.** The first A330
+harvest returned 620 records from the reports server and **62 of them carried the X-33**, before any
+harvest aimed at the vehicle. The final pool holds **60 after deduplication**.
 
----
-
-## This Article Has Two Primary Bases and They Sit in Different Decades
-
-**A primary source is one contemporary with the work, and here the work is two things that happened
-thirty years apart.**
-
-**The decision is a 1996 to 2002 subject.** Source selection, competitive prototyping, cost
-estimation and requirements commonality are primary in that window and nowhere else, and it holds
-621 records.
-
-**The physics is not.** The vertical-landing research the competition rested on was done in the
-1970s and 1980s, largely by NASA, and **a 1985 report on hot gas ingestion is a primary source for
-this article's central failure mechanism in a way that a 2019 review is not**. That base holds
-**1,324 records across 1970 to 1995** and is the healthier of the two.
-
-**Treating everything before 2003 as one undifferentiated band would hide that**, so the Source Base
-separates them.
+**The cause is institutional and it belongs in the closing article.** A defence competitor is
+documented by its manufacturer and its customer. A cooperative agreement with a research agency is
+documented by an agency that publishes. **The designation is identical in both cases and the
+documentary consequence is not.**
 
 ---
 
-## What the Pass Measured and Moved
+## An Identity Fell Out That I Did Not Expect, and It Is the Article
 
-**The measurement came first.** The set held 2,985 records and only **265, or 8.9 percent, fell in
-the programme window**. The clusters carrying claims were among the thinnest: hot gas ingestion at 7
-in-window against the article's central mechanism, jet-induced ground effects at 6, hover control at
-1, momentum theory at 1 against an identity the equation pass had just promoted, and the winning
-aircraft's own cluster at 3.
+**The lobed tank is the shape a lifting body forces, and I set out to price the penalty.** The
+penalty is exactly zero, and that is a theorem rather than a coincidence.
 
-**A harvest of roughly a hundred and forty narrow queries took the window from 265 to 621 records
-and the whole set from 2,985 to 4,037.** Momentum theory went from 22 to 91, nozzle design from 64
-to 130.
+Sizing every wall by its membrane tension, the mass per unit enclosed volume of a two-lobe section
+involves the retained arc length, the web height and the centre separation. Those satisfy
 
-**The cause of the shortfall was the same mechanical one that caught the previous article.** The
-reports server caps a search at ten results and rewards specificity, and the pool stood at 186
-records for a subject NASA researched for thirty years.
+    arc x radius + web height x separation = 2 x enclosed area
 
----
+**identically, at every radius and every separation at which the lobes intersect.** So the mass per
+unit volume is twice the wall density times the pressure over the allowable, **which is exactly a
+cylinder's value, with the geometry gone.**
 
-## A Homonym Nobody Predicted, and the Dangerous Kind
+**A suspiciously clean factor is normally a defect in the checker and this one is not.** The residual
+is zero to machine precision, the verifier reproduces it from an area and an arc length obtained by
+numerical quadrature rather than from the closed forms, and it survives twenty thousand randomised
+geometries.
 
-**Hot gas ingestion is also a turbomachinery subject, and it uses the identical phrase.** Sealing
-flows between a turbine rotor disc and its stator are an active field whose papers are titled
-"hot-gas ingestion" exactly as the inlet problem is.
-
-**The pool holds 82 titles containing "hot gas" and only 44 belong to this article.** The remainder
-are rim cavities, purge flows and sealing effectiveness, joined by dust, particle and salt
-ingestion.
-
-**That is the most dangerous class, because it is internal to the discipline**, and it was found by
-reading the discarded records rather than by anticipating it. **Bird ingestion remains deliberately
-admitted**, because an inlet swallowing a bird and an inlet swallowing its own exhaust are the same
-fluid mechanics.
+**What it means is the article's thesis.** A designer who sizes a conformal tank by membrane stress
+finds the shape free and is wrong. **The membrane model accounts for 10.6 percent of the mass of the
+tank that was actually built.** The other eighty-nine percent is bending at the junctions, buckling,
+minimum gauge and joints, **and the record independently reports that the complex joints the lobed
+shape demanded are why the composite tank came out heavier than the aluminium tank that replaced
+it.** The derivation predicts what the record says.
 
 ---
 
-## One Subject Reported as Thin Rather Than Padded
+## The Verdict Does Not Depend on the Failure, Which Is the Uncomfortable Part
 
-**Thirteen narrow queries aimed directly at hot gas ingestion moved the cluster from 43 records to
-44.** That is not a failed harvest. The open literature on inlet reingestion is genuinely small,
-because the measurements that matter are full-scale, expensive, and made by manufacturers rather
-than by research agencies.
+**Everyone remembers a tank that came apart on 3 November 1999. The arithmetic that killed the
+concept needs none of it.**
 
-**The article's central failure mechanism rests on a thin public base and now says so.**
+Take the tank efficiency the programme demonstrated, **26.83 percent of the hydrogen held**, and
+apply it to the vehicle the demonstration existed for. At the required propellant fraction the whole
+of VentureStar outside its propellant and payload is 195,683 pounds. **The hydrogen tanks alone come
+to 80,205 pounds, or 41.0 percent of that entire allowance.** Even allowing them fifteen percent of
+it demands a tank **2.73 times better** than the one built and tested.
 
----
-
-## Three Additions Changed What the Article Says
-
-**THE FIRST IS AN IDENTITY THE ARTICLE HAD ALREADY ASSEMBLED WITHOUT STATING.** Momentum theory
-gives the disc loading as twice the density times the induced velocity squared, and the far field
-runs at twice the induced velocity, so **the dynamic pressure in the fully developed jet is the disc
-loading, exactly**.
-
-**That means the table of disc loadings the article was already printing is also a table of the
-pressure each architecture imposes on whatever it is hovering over.** The lift fan puts 1,467 pounds
-per square foot onto the surface and two nozzles two and a half feet across put 2,852, a factor of
-1.94 that deck coatings and ground crew feel directly. It cost nothing extra to derive because it is
-the same quantity the propulsion argument already needed.
-
-**THE SECOND IS THE SQUARE-ROOT LAW SEEN FROM THE OTHER SIDE.** Two streams mix at the mass-weighted
-mean of their temperatures, and because the cold stream is **slower** it carries **more mass per unit
-of thrust**. A 47.7 percent share of the lift is a **60.9 percent share of the mass**, and the
-mixed-mean exhaust falls from 1,200 degrees Fahrenheit with all-hot lift to **505**.
-
-The article had asserted that the lift fan's exhaust is cooler and never written the relation that
-makes the claim quantitative.
-
-**THE THIRD PRICES A CLAIM THE ARTICLE HAD ONLY ASSERTED.** Bleeding a fraction of the mass flow for
-reaction controls removes that fraction of the thrust **before any moment is produced**. A four
-percent bleed costs 1,120 pounds of lift and takes the direct-lift allowance from 2,637 pounds to
-1,570, which is **forty percent of everything the aircraft can bring home**, spent on a roll control
-that has not yet been used. The lift-fan aircraft takes its roll control from posts that are already
-producing lift, so the same function costs it nothing it was not already spending.
+**Had the tank passed every test it would still weigh what it weighed.** The article says so plainly
+and flags the competing programme-management reading as one the record supports at least as well.
 
 ---
 
-## One Defect in My Own Verifier
+## Two Published Numbers Were Convertible Into a Weight Report
 
-**Three checks compared the allowance line against the direct form, which is an agreement between
-two computed routes rather than a value the article states.** Recording them with the harness's
-value-tracking check made `require_in_text` demand that unrounded intermediates such as 2636.67
-appear in the prose.
+**The Government Accountability Office records that the speed objective fell from Mach 15 to Mach
+13.8 because projected weight exceeded requirements, and says no more.** The rocket equation converts
+that sentence. The velocity given up is 408.4 metres per second, and the burnout mass that would have
+reached the original objective is **between 9.9 and 12.6 percent lighter across every plausible
+effective specific impulse.**
 
-**That is exactly the two-kinds-of-check distinction the harness exists to keep**, and the
-comparison is now made without being recorded.
-
----
-
-## The First Aircraft in the Series Built to Win a Competition
-
-**Every other X-plane so far existed to find something out. This one existed to beat another
-aeroplane**, and on 26 October 2001 it did not.
-
-**The keystone is therefore what a fly-off decides and on what evidence**, and it is a question of
-**construct validity** rather than of sampling error. That distinguishes it from the previous
-article. The X-31 flew hundreds of engagements and the difficulty was that a finite sample carries a
-wide interval. Here the sample size is one, and the difficulty is that **the one trial was not a
-trial of the proposed aircraft**.
+**An independent route agrees.** The two families of published specification disagree about the empty
+mass by 12,000 pounds, or 19.0 percent. **Neither table is wrong. They are snapshots of a vehicle
+that was getting heavier**, and the inversion uses neither of them.
 
 ---
 
-## The Propulsion Half Has a Clean Answer in One Relation
+## A Shared-Library Defect That Had Already Shipped Three Times
 
-Static thrust is mass flow times jet velocity and the power added is half the mass flow times the
-velocity squared, so eliminating the velocity gives thrust as the square root of twice the power
-times the mass flow. **At fixed power, doubling the mass flow multiplies thrust by root two.**
+**Found by reading the reference list, which remains the only method that has ever worked for this
+class.**
 
-**That is the entire case for a lift fan over direct lift and it fits on one line.** A lift fan
-spends shaft power on a large cold stream and a direct-lift system spends the same power on a
-smaller hot one.
+**Publishers emit titles wrapped in an escaped title tag rather than in a literal one.** The
+tag-stripping rule in `refs.clean` never sees those, and the later rule that removes semicolons
+mangles the escaped form into visible junk, **which renders as literal entity text in the link
+label.**
 
-**Three published numbers that were never published together turn out to be mutually consistent.**
-The lift fan's 50-inch diameter, its 20,000 pounds of cold thrust and its 29,000 shaft horsepower
-imply a figure of merit of **0.697**, which is what a good ducted fan achieves. Establishing that
-before building an argument on them seemed worth doing, and nobody appears to have checked it in
-print.
+**It is present in A328 at twenty instances, in A329 at eleven, and was present in A330 at nine.**
+`refs.clean` now decodes entities first, `anchor_stem` routes the title fallback through `clean` so
+markup cannot occupy the anchor's two-word window, and `test_lib` has a case. **The suite is now 49
+of 49.**
 
-**The nozzle the direct-lift system would have needed is inverted rather than assumed.** Matching
-the fan's disc loading with 28,000 pounds of core thrust needs 19.09 square feet of nozzle, a single
-opening **4.93 feet across**, on a 45-foot fighter. That is not an engineering trade.
+**A330 is clean. A328 and A329 still carry it**, because repairing them means re-running their
+assemblers, which is outside a draft pass on A330. **Say the word and I will repair both.**
 
 ---
 
-## The Competition in One Number
+## What the Pass Measured
 
-At 24,030 pounds empty and a five percent control margin, direct lift permits a bring-back allowance
-over empty weight of **2,637 pounds** and the lift system permits **15,875**, a ratio of **6.02**.
+| | Value |
+|---|---|
+| Lines | 17,379 |
+| Display equations | 51 |
+| Reference definitions | 5,392 |
+| Words | 92,916 |
+| Master records cited | 5,332 of 5,332, none left over |
+| Period through 2001 | 2,493, or 46.7 percent |
+| Contemporary, 2015 onward | 2,165, or 40.6 percent |
 
-**Both aircraft can hover. One can come home with two and a half thousand pounds of fuel and weapons
-and the other with nearly sixteen thousand.**
+**Both halves are healthy and both were measured after the harvest rather than before**, which is the
+rule A328 and A329 earned in opposite directions.
 
-**And the small number is badly conditioned.** The allowance is a small difference between two large
-numbers, so it amplifies a fractional thrust loss by **10.11** against 2.51 for the lift system, and
-a fifty degree inlet temperature rise from hot gas ingestion takes **45.5 percent of it**. Below
-25,232 pounds of lift the allowance is negative, meaning the aircraft could not land vertically at
-its own empty weight.
+**The citation sweep is clean.** All **616 NTRS fixed identifiers resolved**, **600 of 4,098 sampled
+journal DOIs** registered in the Crossref registry with author and year matching and **zero
+mismatches**, **160 of 619 sampled DTIC DOIs** likewise, all 7 books and all 19 curated URLs
+retrieved, and **zero search-endpoint citations**. **HARD FAILURES: 0.** Sample sizes are stated
+rather than hidden, because saying "sampled" without saying how many reads as full coverage.
 
-**The amplification is reported as badly conditioned rather than as a precise number**, because it
-blows up as the allowance approaches zero and that is the shape of the problem rather than an
-artefact of the arithmetic.
+**Verification.** `verify.py` reports **63 of 63** with **13 agreements between independent routes**,
+reaching the rocket equation by integrating the mass flow, the lobe geometry by quadrature and chord
+summation, the nozzle area ratio by scanning and against the exact sonic condition, and the weight
+inversion by running it forward. `check_any.py` passes. `_verify.py` holds the baseline at **0 errors
+and 21 warnings**. `test_lib.py` is **49 of 49**. The isolated build succeeds with all thirty-four
+series articles staged as posts.
 
----
-
-## The Second Finding Came Out of Building the Reference Set
-
-**In a pool of 4,412 harvested records, exactly one carries the X-32 in its title.** It was written
-by the engine supplier, in 2002, after the decision. Against that, the F-35 appears in 29 titles
-running continuously from 2002 to 2020.
-
-**The winner acquired a literature and the loser did not.**
-
-**The cluster was tested before the claim was made.** Two harvests asked for the aircraft by
-designation, by manufacturer and programme together, and by the pre-competition programme names,
-across the reports server, both Crossref content types and the defence registry. The answer did not
-move.
-
-**The consequence for the article is stated rather than hidden.** Its technical case rests on
-published numbers for the winning system and an assumed upper bound for the losing one, because the
-losing one's numbers were never published. **The evidentiary asymmetry available to a historian is a
-direct inheritance of the asymmetry in the decision.**
+**Three defects were caught before commit.** A prose parenthetical inside an inline arc-cosine, fixed
+by writing the argument as a fraction. A doubled word inside a verbatim citation title, being a
+report on an on-board experiment, which is correct English that a case-insensitive checker cannot
+accept, **so the record was dropped rather than the checker weakened**, which is the third instance in
+three articles. And an inline math span that reflow split across a line, moved into a display of its
+own.
 
 ---
 
-## The Historical Finding
+## Open Concerns
 
-**Boeing flew a wing it had already abandoned.** The demonstrators carried a tailless delta and the
-production proposal used a conventional wing with a canted twin tail, and the change was made before
-the X-32 ever flew.
+**The verdict rests on two reported figures**, a tank mass of 4,600 pounds and a capacity of 29,000
+gallons. If either is wrong the verdict moves proportionally. **The only defence available is that
+the tank capacity, the propellant load and the engine mixture ratio come from three sources that were
+never printed together and imply a tank fill of 94.2 percent**, which is what a cryogenic tank
+actually carries. That is corroboration and not proof, and the article says so.
 
-**A demonstrator that differs from the proposal in the feature under examination is evidence about a
-different aeroplane.** The customer was shown an aircraft nobody intended to build, while the
-competitor's demonstrator flew a short takeoff, a supersonic dash and a vertical landing in a single
-sortie in the configuration it was offering.
+**The claim that the aluminium-lithium replacement tank weighed less than the composite one is
+secondary-sourced.** It agrees with the derivation, **and a result that agrees with one's own
+analysis deserves more scepticism rather than less.** It is flagged at the point of use and again in
+the Source Base.
 
-**The article gives the opposite reading its own subsection**, because a company that finds a
-configuration problem and fixes it before proposing has done what a risk-reduction phase is for, and
-the record does not say which reading the source selection took.
-
----
-
-## Two Defects Found
-
-**An all-remaining marker can legitimately find nothing left**, when an earlier marker for the same
-cluster and era already drained it. The assembler now distinguishes that from a fixed-count marker
-finding nothing, which means the article is citing a subject it does not have.
-
-**`require_in_text` failed on a value that was present in the draft.** The equation wrote
-`20{,}199`, which is LaTeX comma spacing, and the flattened text therefore contained `20{}199`
-rather than `20199`. **A value inside an equation is not reliably findable by a text check**, so the
-figure is now stated in prose as well.
-
-**One record was dropped** for a contraction inside a verbatim citation title, which is the second
-such collision after A328 and is handled identically.
-
----
-
-## Verification
-
-**77 of 77 independent checks passing, none importing the calculation.** The square-root law is
-tested as a randomised property over twenty thousand inputs, the figure of merit is reached by
-numerically integrating the momentum flux through two hundred thousand annuli, the nozzle area by
-bisection, the bring-back allowance by scanning weights upward until the margin fails, and the
-amplification by finite difference.
-
-**The disc-loading identity is checked by computing its two sides separately from their own
-definitions** over twenty thousand random thrust and area pairs, the fan mass flow by dividing the
-momentum flux rather than by thrust over twice the induced velocity, the mixed mean by simulating
-the mixing of forty thousand parcels, and the claim that a slower stream carries a larger mass share
-than thrust share as a property over random velocity pairs rather than at the one published
-point.
-
-`_verify.py` at the 21-warning baseline with zero errors, check_any clean, `_lib/test_lib.py` at 48
-of 48, and reference integrity at 6,159 with zero undefined, zero orphaned and **zero link-text
-defects across 12,259 reference entries**.
-
-**Diction clean, and the two flagged words are legitimate.** `lift` runs at 7.78 per thousand and
-`aircraft` at 7.51. The first is the article's keystone quantity and the second its subject noun, so
-both stay and the judgement is recorded rather than left implicit.
-
-**The final set swept with zero hard failures and zero mismatches**, including all 169 NTRS
-identifiers, 600 of 5,159 sampled journal DOIs, 160 of 773 sampled DTIC DOIs, and all 8 books and 18
-curated URLs, with **zero search-endpoint citations**.
-
-**A 33-article isolated build renders the page at 1.41 megabytes, 16 sections, 58 subsections, 16
-tables, 12,568 list items and all 28 equations**, with zero broken anchors and zero empty
-headings.
-
----
-
-## Citation Gaps, and the Five That Should Stay
-
-**Twelve displayed equations carried no nearby citation and five still do.** They are the three that
-construct the bring-back allowance, the roll moment as differential thrust times a lateral arm, and
-the ratio between the winner's and the loser's record counts.
-
-**The first three and the last are original constructions and the roll moment is elementary
-statics**, so citing any of them would be false attribution or worse. The article says so in its own
-subsection. **Everything else now carries its literature**, including momentum theory, the figure of
-merit, the disc loading as a dynamic pressure, the corrected engine parameters, the ingestion
-correlations and the twin-jet fountain.
+**The failure investigation is thinly represented in retrievable form.** The primary documentation is
+largely presentation material and the retrievable copies are scanned images from which no text can be
+extracted. The article states the limit rather than writing around it.
 
 ---
 
 ## Awaiting Instruction
 
-**A329 is complete through all four passes.** Thirty-three of seventy-two drafted, **none
-published**.
+**A330 has completed the draft pass only.** Thirty-four of seventy-two drafted, **none published**.
 
-The next article to draft is **A330, the Lockheed Martin X-33**, editorial date 2025-11-08, series
-index 34. **It inverts this one.** The X-32 was built, flew 144 times, and lost a competition. The
-X-33 won its competition, was funded, and was cancelled before it ever flew, so the question it
-answers is what a programme establishes when the vehicle never leaves the ground and the failure is
-in a single subsystem.
+The next pass due is the **equation-density review**. Fifty-one equations is low for this series and
+I expect that review to find a good deal, particularly around the buckling and bending terms the
+identity promotes from background to keystone, **which the article currently names and does not
+compute.**

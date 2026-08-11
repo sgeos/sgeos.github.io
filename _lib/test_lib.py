@@ -564,6 +564,33 @@ def t_anchor_and_display_survive_non_latin_author_names():
 
 
 
+def t_clean_decodes_html_entities_before_stripping_punctuation():
+    """AN UNDECODED ENTITY IS TURNED INTO VISIBLE JUNK BY THE PUNCTUATION RULE.
+
+    Publishers emit titles wrapped in `&lt;title&gt;` rather than in a literal tag. The
+    tag-stripping regex never sees those, and the later rule that removes semicolons then
+    converts them into `&lt title&gt`, which renders as exactly that string. THIS SHIPPED
+    IN THREE CONSECUTIVE DRAFTS and was found by reading the reference list, not by any
+    checker.
+    """
+    got = refs.clean("&lt;title&gt;Inspection of metallic thermal protection&lt;/title&gt;")
+    assert got == "Inspection of metallic thermal protection", got
+    assert "&lt" not in got and "&gt" not in got and "<" not in got
+
+    # the literal-tag form must still work, and so must the ampersand entity
+    assert refs.clean("<title>Plain tag form</title>") == "Plain tag form"
+    assert refs.clean("Science &amp; Enabling Technologies") == \
+        "Science and Enabling Technologies"
+    # a BARE ampersand is prose punctuation the style rules do not want either
+    assert "&" not in refs.clean("Reliability & Robust Design")
+
+    # AND THE MARKUP MUST NOT SURVIVE INTO AN ANCHOR EITHER. The title fallback feeds a
+    # two-word window into `slug`, so undecoded markup pushes every meaningful word out of
+    # that window and yields `research_lt_title_gt_..._1998`.
+    anc = refs.anchor_stem([], "1998", "&lt;title&gt;Metallic panels&lt;/title&gt;")
+    assert anc == "research_metallic_panels_1998", anc
+
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)

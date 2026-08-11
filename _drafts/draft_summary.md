@@ -17,6 +17,58 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Lockheed Martin X-33 A330 2025-11-08
+
+`x_planes_lockheed_martin_x33.markdown`, A330, editorial date 2025-11-08, series `x_planes` index 34
+of 72.
+
+**17,379 lines, 51 display equations, 5,392 reference definitions, 92,916 words after the draft
+pass**, with all 5,332 master records cited and none left over. Committed, **not pushed**. **Not
+published.** The next pass due is the equation-density review.
+
+**THIS IS THE EXACT INVERSE OF A329.** The X-32 was built, flew 144 times and lost. **The X-33 won
+its competition, was funded, reached a state reported as eighty-five percent assembled, and was
+cancelled in early 2001 without ever leaving the ground.**
+
+**THE KEYSTONE IS A CHAIN, NOT A SINGLE POINT OF FAILURE**, and naming the single-point reading as a
+trap is part of the article's work. Land on a runway, so the vehicle is a lifting body. Make it a
+lifting body, so the tank must be conformal. Make it conformal, so it must be lobed. Lobe it, so the
+walls carry bending. Carry bending, so the wall is a sandwich. Build a sandwich, so there is a core,
+and the core is a sealed void against liquid hydrogen at twenty kelvin. **Every link is forced by the
+one before it.**
+
+**THE CENTRAL RESULT IS AN IDENTITY THAT WAS NOT ANTICIPATED.** Sizing every wall by its membrane
+tension, the retained arc times the radius plus the web height times the centre separation equals
+twice the enclosed area **identically**, at every radius and every separation. So the membrane mass
+per unit enclosed volume of a lobed section is exactly a cylinder's. **In pure membrane terms lobing
+is free**, which means a designer who sizes a conformal tank by membrane stress finds no penalty and
+is wrong. **The membrane model accounts for 10.6 percent of the mass of the tank that was actually
+built**, and the record independently reports the complex joints the lobed shape demanded as the
+reason the composite tank came out heavier than the aluminium tank that replaced it.
+
+**THE VERDICT OWES NOTHING TO THE FAILURE.** At the demonstrated tank efficiency of 26.83 percent of
+the hydrogen held, VentureStar's hydrogen tanks alone would weigh 80,205 pounds against an entire
+structural allowance of 195,683, or **41.0 percent of everything the vehicle had**. Allowing them
+fifteen percent of that allowance demands a tank **2.73 times better** than the one built and tested.
+Had the tank passed every test, the arithmetic would be unchanged.
+
+**A PUBLISHED SPEED REDUCTION WAS INVERTED INTO A WEIGHT REPORT.** The documented cut from Mach 15 to
+Mach 13.8, made because projected weight exceeded requirements, implies a burnout mass **9.9 to 12.6
+percent heavy** across every plausible effective specific impulse, and two published specification
+tables that disagree by 19.0 percent agree independently.
+
+Microcracking is shown thermodynamically forced, at **2.18 times the transverse failure strain from
+cooldown alone**. Two independent routes reach a core pressure that peels a facesheet, one needing
+**1.509 percent** of the core filled with condensed nitrogen and the other needing no condensation at
+all. The aerospike is confirmed as genuinely compensating rather than a fixed bell **by its own
+published impulse pair**, which a bell of the quoted area ratio could not produce.
+
+**Documentary contrast with A329, measured.** The X-32 left one title carrying its designation in a
+pool of 4,412. The X-33 pool holds **60**.
+
+**Verification.** 63 of 63 numeric checks with 13 agreements between independent routes, the identity
+confirmed by numerical quadrature and over 20,000 randomised geometries. Isolated build succeeds.
+
 ## X-Planes Boeing X-32 A329 2025-11-07
 
 `x_planes_boeing_x32.markdown`, A329, editorial date 2025-11-07, series `x_planes` index 33 of 72.
@@ -6345,8 +6397,8 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Forty-three files exist in `_drafts/`. One is a template. One is this summary.
-Thirty-three are the in-progress X-Planes series, A297 through A329, none of them published.
+Forty-four files exist in `_drafts/`. One is a template. One is this summary.
+Thirty-four are the in-progress X-Planes series, A297 through A330, none of them published.
 Eight are the pre-release candidates listed below.
 No stubs remain.
 A79 through A144 have been published.
