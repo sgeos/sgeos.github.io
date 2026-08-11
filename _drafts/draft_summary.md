@@ -21,8 +21,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_boeing_x32.markdown`, A329, editorial date 2025-11-07, series `x_planes` index 33 of 72.
 
-**7,195 lines, 15 display equations, 2,108 reference definitions, 39,311 words after the draft
-pass.** Committed, **not pushed**, **not published**.
+7,195 lines, 15 display equations, 2,108 reference definitions, 39,311 words after the draft pass.
+**7,303 lines, 28 display equations, 2,108 reference definitions, 40,142 words after the equation
+review.** Committed, **not pushed**, **not published**.
 
 **THIS IS THE FIRST AIRCRAFT IN THE SERIES BUILT TO WIN A COMPETITION RATHER THAN TO ANSWER A
 RESEARCH QUESTION**, and the keystone is what a fly-off decides and on what evidence.
@@ -53,12 +54,35 @@ decision, against 29 for the F-35 running continuously from 2002 to 2020. **The 
 literature and the loser did not**, and the article's own evidentiary asymmetry is a direct
 inheritance of the decision's.
 
-**Verification.** 44 of 44 numerical checks passing with all article-facing values confirmed present
-in the draft, `_verify.py` at the 21-warning baseline with zero errors, check_any clean,
-`_lib/test_lib.py` at 48 of 48, and a 33-article isolated build rendering 16 sections, 50
-subsections, 12 tables and all 15 equations with zero broken anchors and zero empty headings.
+**EQUATION PASS: 15 TO 28 DISPLAY EQUATIONS ACROSS 10 EDITS**, references held at 2,108 and
+measured before and after. **Three of the additions changed what the article says.**
 
-**15 equations is low against a corpus median of 94** and that is the equation pass's material.
+**THE DISC LOADING IS THE FAR-FIELD DYNAMIC PRESSURE, EXACTLY.** Momentum theory gives the loading
+as twice the density times the induced velocity squared, and the far field runs at twice the
+induced velocity, so the dynamic pressure there is the same number. **The article was already
+printing a table of disc loadings and had not noticed it was also printing the pressure each
+architecture imposes on the surface underneath it**, which is 1,467 pounds per square foot for the
+lift fan against 2,852 for two nozzles two and a half feet across.
+
+**THE COLD STREAM CARRIES A LARGER SHARE OF THE MASS THAN OF THE THRUST**, because it is slower. At
+a 47.7 percent share of the lift it carries **60.9 percent of the mass**, and the mixed-mean exhaust
+temperature falls from 1,200 degrees Fahrenheit with all-hot lift to **505**. That is the
+square-root law seen from the other side and the article had asserted the cooler exhaust without
+writing the mixing relation.
+
+**THE BLEED PENALTY IS PAID BEFORE ANY CONTROL MOMENT IS PRODUCED.** A four percent bleed for
+reaction controls costs 1,120 pounds of lift and takes the direct-lift allowance from 2,637 pounds
+to 1,570, which is **forty percent of everything the aircraft can bring home**, spent on a roll
+control that has not yet been used. The lift-fan aircraft takes its roll control from posts already
+producing lift.
+
+**Verification.** 77 of 77 numerical checks passing with all article-facing values confirmed present
+in the draft, `_verify.py` at the 21-warning baseline with zero errors, check_any clean,
+`_lib/test_lib.py` at 48 of 48, and a 33-article isolated build rendering 16 sections, 51
+subsections, 15 tables and all 28 equations with zero broken anchors and zero empty headings.
+
+**For the reference pass: 12 displayed equations have no nearby citation**, and the pass promoted
+momentum theory, corrected engine parameters and stream mixing as subjects.
 
 ## X-Planes Rockwell-MBB X-31 A328 2025-11-06
 

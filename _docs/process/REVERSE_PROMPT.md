@@ -9,11 +9,54 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A329, the Boeing X-32, drafted. The first of four passes. Committed, **not pushed**,
+**Task**: A329 equation-density review, the second of four passes. Committed, **not pushed**,
 **not published**.
 
-**State: 7,195 lines, 15 display equations, 2,108 reference definitions, 39,311 words.** All
-thirty-three articles in the series remain in `_drafts/`.
+**State: 7,303 lines, 28 display equations, 2,108 reference definitions, 40,142 words**, from 7,195
+lines and 15 equations after the draft pass. References were held and measured before and after.
+All thirty-three articles remain in `_drafts/`.
+
+---
+
+## Three Additions Changed What the Article Says
+
+**THE FIRST IS AN IDENTITY THE ARTICLE HAD ALREADY ASSEMBLED WITHOUT STATING.** Momentum theory
+gives the disc loading as twice the density times the induced velocity squared, and the far field
+runs at twice the induced velocity, so **the dynamic pressure in the fully developed jet is the disc
+loading, exactly**.
+
+**That means the table of disc loadings the article was already printing is also a table of the
+pressure each architecture imposes on whatever it is hovering over.** The lift fan puts 1,467 pounds
+per square foot onto the surface and two nozzles two and a half feet across put 2,852, a factor of
+1.94 that deck coatings and ground crew feel directly. It cost nothing extra to derive because it is
+the same quantity the propulsion argument already needed.
+
+**THE SECOND IS THE SQUARE-ROOT LAW SEEN FROM THE OTHER SIDE.** Two streams mix at the mass-weighted
+mean of their temperatures, and because the cold stream is **slower** it carries **more mass per unit
+of thrust**. A 47.7 percent share of the lift is a **60.9 percent share of the mass**, and the
+mixed-mean exhaust falls from 1,200 degrees Fahrenheit with all-hot lift to **505**.
+
+The article had asserted that the lift fan's exhaust is cooler and never written the relation that
+makes the claim quantitative.
+
+**THE THIRD PRICES A CLAIM THE ARTICLE HAD ONLY ASSERTED.** Bleeding a fraction of the mass flow for
+reaction controls removes that fraction of the thrust **before any moment is produced**. A four
+percent bleed costs 1,120 pounds of lift and takes the direct-lift allowance from 2,637 pounds to
+1,570, which is **forty percent of everything the aircraft can bring home**, spent on a roll control
+that has not yet been used. The lift-fan aircraft takes its roll control from posts that are already
+producing lift, so the same function costs it nothing it was not already spending.
+
+---
+
+## One Defect in My Own Verifier
+
+**Three checks compared the allowance line against the direct form, which is an agreement between
+two computed routes rather than a value the article states.** Recording them with the harness's
+value-tracking check made `require_in_text` demand that unrounded intermediates such as 2636.67
+appear in the prose.
+
+**That is exactly the two-kinds-of-check distinction the harness exists to keep**, and the
+comparison is now made without being recorded.
 
 ---
 
@@ -127,31 +170,40 @@ such collision after A328 and is handled identically.
 
 ## Verification
 
-**44 of 44 independent checks passing, none importing the calculation.** The square-root law is
+**77 of 77 independent checks passing, none importing the calculation.** The square-root law is
 tested as a randomised property over twenty thousand inputs, the figure of merit is reached by
-numerically integrating the momentum flux through two hundred thousand annuli rather than by
-evaluating the closed form, the nozzle area by bisection, the bring-back allowance by scanning
-weights upward until the margin fails, and the amplification by finite difference.
+numerically integrating the momentum flux through two hundred thousand annuli, the nozzle area by
+bisection, the bring-back allowance by scanning weights upward until the margin fails, and the
+amplification by finite difference.
+
+**The disc-loading identity is checked by computing its two sides separately from their own
+definitions** over twenty thousand random thrust and area pairs, the fan mass flow by dividing the
+momentum flux rather than by thrust over twice the induced velocity, the mixed mean by simulating
+the mixing of forty thousand parcels, and the claim that a slower stream carries a larger mass share
+than thrust share as a property over random velocity pairs rather than at the one published
+point.
 
 `_verify.py` at the 21-warning baseline with zero errors, check_any clean, `_lib/test_lib.py` at 48
 of 48, and reference integrity at 2,108 with zero undefined and zero orphaned anchors.
 
-**A 33-article isolated build renders the page at 16 sections, 50 subsections, 12 tables and all 15
+**A 33-article isolated build renders the page at 16 sections, 51 subsections, 15 tables and all 28
 equations**, with zero broken anchors and zero empty headings.
 
 ---
 
-## For the Equation Pass
+## For the Reference Pass
 
-**15 display equations is low against a corpus median of 94**, and that is the next pass's material.
-Sections stating numbers without displaying the relation behind them include the wing loading and
-thrust-to-weight arithmetic, the corrected-thrust definition, the hover control balance, the
-reaction-control bleed penalty, and the sensitivity table's own construction.
+**12 displayed equations have no nearby citation**, and that is the next pass's material.
+
+**The equation pass promoted subjects again, which is now twelve articles running.** The relations
+added here reach into momentum theory, corrected engine parameters and the mixing of two streams,
+none of which was a heading the original harvest was written for.
 
 ---
 
 ## Awaiting Instruction
 
-**A329 has completed the draft pass only.** Thirty-three of seventy-two drafted, **none published**.
+**A329 has completed the draft and equation passes.** Thirty-three of seventy-two drafted, **none
+published**.
 
-The next pass is the equation-density review.
+The next pass is the primary-reference review.

@@ -292,6 +292,13 @@ That is 20,199 horsepower of ideal power. Dividing by the delivered shaft power 
 
 $$\text{FM} = \frac{20{,}199}{29{,}000} = 0.697$$
 
+The same two relations fix the mass flow the fan moves, since the thrust is the mass flow times the
+far-field velocity,
+
+$$\dot{m} = \frac{T}{2 V_i} = \frac{20{,}000}{2(555.5)} = 18.00 \ \text{slug/s} = 579 \ \text{lb/s}$$
+
+and the power loading follows as 0.690 pounds of thrust per horsepower delivered.
+
 **A ducted lift fan cannot exceed a figure of merit of about 0.8**, and values near 0.7 are what good ones
 achieve. **The three numbers are mutually consistent**, which is worth establishing before building an
 argument on them, and which nobody appears to have checked in print.
@@ -318,6 +325,31 @@ Taking plausible nozzle sizes instead shows how far from the fan the direct-lift
 | 2.5 ft across | 9.82 sq ft | 2,852 lb/sq ft | 774.6 ft/s | 1.94 |
 | 3.0 ft across | 14.14 sq ft | 1,981 lb/sq ft | 645.5 ft/s | 1.35 |
 
+### The Disc Loading Is Also the Pressure on the Ground
+
+**The table above says more than it appears to, because of an identity the article had already assembled without stating.**
+Momentum theory gives the disc loading as
+
+$$\frac{T}{A} = 2 \rho V_i^{2}$$
+
+and the flow reaches twice the induced velocity far downstream, so the dynamic pressure in the fully
+developed jet is
+
+$$q_{\infty} = \tfrac{1}{2} \rho (2 V_i)^{2} = 2 \rho V_i^{2} = \frac{T}{A}$$
+
+**The disc loading and the dynamic pressure in the jet are the same number.** A table of disc loadings is
+therefore also a table of the pressure each architecture imposes on whatever it is hovering over.
+
+| System | Disc loading | Dynamic pressure at the ground | Against the fan |
+|---|---|---|---|
+| Lift fan | 1,467 lb/sq ft | 1,467 lb/sq ft | 1.00 |
+| Two nozzles 3.0 ft across | 1,981 lb/sq ft | 1,981 lb/sq ft | 1.35 |
+| Two nozzles 2.5 ft across | 2,852 lb/sq ft | 2,852 lb/sq ft | 1.94 |
+| Two nozzles 2.0 ft across | 4,456 lb/sq ft | 4,456 lb/sq ft | 3.04 |
+
+**Deck coatings, runway surfaces and the people standing near the aeroplane all feel that difference**, and
+it costs nothing extra to derive because it is the same quantity the propulsion argument already needed.
+
 **The lift fan is not a better version of a vectoring nozzle. It is a different point on the curve, and the curve is steep.**
 
 ### What the Two Architectures Actually Produced
@@ -333,6 +365,14 @@ The published totals make the consequence plain.
 **The lift system exceeds the Pegasus by a factor of 1.76 and the direct-lift core by 1.18.** The lift fan
 alone contributes 20,000 pounds, the swivel module 18,000 and the roll posts 3,900, and the published total
 is exactly the sum of its published parts.
+
+The partition is exact,
+
+$$L = T_{\text{fan}} + T_{\text{3BSM}} + T_{\text{posts}} = 20{,}000 + 18{,}000 + 3{,}900 = 41{,}900 \ \text{lbf}$$
+
+with shares of 47.7, 43.0 and 9.3 percent,
+**and the published total is precisely the sum of its published parts**, which is a small check worth making
+before relying on any of the four numbers.
 
 **Nearly half of the winning aircraft's vertical lift came from air that never went through the engine.**
 That is the square-root law made physical.
@@ -406,6 +446,14 @@ thrust in the ducting and the vanes.
 | 30,000 lbf | 4,541 lb | 3,256 lb | 6.29 |
 | 32,000 lbf | 6,446 lb | 5,076 lb | 4.73 |
 
+**The allowance is a straight line in the lift**, of slope one over the margin,
+
+$$W_{\text{allowance}} = \frac{1}{k} L - W_{\text{empty}} = 0.9524 \, L - 24{,}030$$
+
+crossing zero at
+
+$$L_{\text{break even}} = k \, W_{\text{empty}} = 1.05 (24{,}030) = 25{,}232 \ \text{lbf}$$
+
 **The amplification blows up as the allowance approaches zero, and that is not a numerical artefact but the shape of the problem.**
 A direct-lift fighter of this size operates near a singularity in its own bring-back capability.
 **The honest statement is not that the amplification is 10.11 but that the quantity is badly conditioned across the whole plausible range**,
@@ -444,8 +492,12 @@ proposal, and
 dimensional record for these aircraft is collected in [the inventory of X-vehicles][book_xvehicles], which
 is also [on the reports server][ref_xvehicles].
 
-**Where the record permits a check, it passes.** The wing loading at maximum weight is 64.41 pounds per
-square foot, the military thrust-to-weight ratio at that weight is 0.737, and with afterburner it is 1.316.
+**Where the record permits a check, it passes.** The two ratios that a specification sheet has to satisfy
+are
+
+$$\frac{W}{S} = \frac{38{,}000}{590} = 64.41 \ \text{lb/ft}^{2} \qquad \text{and} \qquad \frac{T}{W} = \frac{28{,}000}{38{,}000} = 0.737$$
+
+with 1.316 on afterburner, and all three are ordinary values for a fighter of this size.
 
 - [RESEARCH ON HIGH SPEED ROTARY-FIXED WING AIRCRAFT. VOLUME IV...][research_snyder_1950]
 - [DEVELOPMENT PROGRAM FOR AN AUTOMATIC PILOT FOR HIGH...][research_generalelectriccoschenectadyny_1952]
@@ -526,9 +578,13 @@ outward, meet under the fuselage and rise as a fountain. In the far field the ou
 free stream or the aircraft's own motion and rolls up into a ground vortex that carries hot gas forward and
 up into the intake.
 
-**The cost is thrust, and the relation is simple.** A turbofan holding its corrected operating point
-produces thrust in proportion to inlet pressure over the square root of inlet temperature, so a rise of
-$\Delta T$ in inlet total temperature costs a fraction of thrust
+**The cost is thrust, and the relation is simple.** A turbofan matched at a corrected operating point
+carries its mass flow and its thrust in the corrected forms
+
+$$\dot{m}_{\text{corr}} = \frac{\dot{m} \sqrt{\theta}}{\delta} \qquad \text{and} \qquad T_{\text{corr}} = \frac{T}{\delta} \qquad \text{with} \qquad \theta = \frac{T_{t}}{T_{\text{ref}}}, \ \delta = \frac{p_{t}}{p_{\text{ref}}}$$
+
+so at a fixed corrected point and a fixed inlet pressure the delivered thrust falls as the square root of
+inlet total temperature. A rise of $\Delta T$ therefore costs a fraction of thrust
 
 $$\frac{\Delta T_{\text{thrust}}}{T} = 1 - \sqrt{\frac{T_{\text{ref}}}{T_{\text{ref}} + \Delta T}}$$
 
@@ -560,8 +616,11 @@ downward acceleration of
 
 $$a = g \, \frac{\Delta T_{\text{thrust}}}{T}$$
 
-which for a fifty degree rise is **1.45 feet per second squared**, giving 1.45 feet per second after one
-second and 2.89 feet of sink after two.
+which for a fifty degree rise is **1.45 feet per second squared**. Integrating twice gives the sink,
+
+$$s = \tfrac{1}{2} a t^{2} = \tfrac{1}{2} (1.45)(2)^{2} = 2.89 \ \text{ft in two seconds}$$
+
+against 1.50 feet for a twenty-five degree rise.
 
 **And a descent is proximity to the ground, and proximity is more ingestion.** The loop closes on itself.
 The pilot's response is more throttle, which produces more hot gas, which is fed back into the inlet.
@@ -616,10 +675,31 @@ it. A system operating where its allowance is badly conditioned does not.
 **The lift fan attacks hot gas ingestion three times over, and none of the three was designed for that purpose.**
 They are consequences of the square-root law.
 
-**The exhaust is cooler**, because nearly half the lift comes from air that never passed through the
-combustor. **The exhaust is slower**, because the disc loading is lower, and the ground vortex is driven by
-the wall jet's momentum. **And the cold stream is in front**, since the fan sits behind the cockpit and the
-hot core exhausts at the tail, so the cold jet stands between the hot one and the intake.
+**The exhaust is cooler**, and the mixing relation says by how much. Two streams combine at the
+mass-weighted mean of their temperatures,
+
+$$T_{\text{mix}} = \frac{\dot{m}_c T_c + \dot{m}_h T_h}{\dot{m}_c + \dot{m}_h}$$
+
+and the mass flows follow from the thrusts and the velocities, since $\dot{m} = T / V$.
+
+**Here the square-root law appears from the other side, and it is worth pausing on.** The cold stream is
+slower, so it carries **more mass per unit of thrust** than the hot one. At a 47.7 percent share of the lift
+it carries **60.9 percent of the mass**.
+
+| Cold share of thrust | Cold share of mass | Mixed-mean exhaust |
+|---|---|---|
+| 0 percent, all direct lift | 0 percent | 1,200 degrees Fahrenheit |
+| 30 percent | 42.3 percent | 718 degrees |
+| **47.7 percent, the lift system** | **60.9 percent** | **505 degrees** |
+| 60 percent | 72.0 percent | 379 degrees |
+
+**Roughly seven hundred degrees of exhaust temperature is bought by an architecture chosen for thrust per unit of power**,
+and the temperatures above use a representative core exit value rather than a published one, so the column
+is indicative and the trend is not.
+
+**The exhaust is also slower**, because the disc loading is lower, and the ground vortex is driven by the
+wall jet's momentum. **And the cold stream is in front**, since the fan sits behind the cockpit and the hot
+core exhausts at the tail, so the cold jet stands between the hot one and the intake.
 
 **A design chosen for thrust per unit power turns out to solve the ingestion problem as a side effect.**
 That is the sense in which the competition was decided by a relation rather than by a contest.
@@ -633,9 +713,32 @@ The lift-fan aircraft used roll posts in the wings, contributing 3,900 pounds of
 providing roll control by differential throttling, with pitch from the balance between the fan and the
 swivel module and yaw from the swivel module's lateral deflection.
 
+The moment available from a pair of posts is the differential thrust on the lateral arm,
+
+$$M = \Delta T \, y$$
+
+so posts carrying 3,900 pounds between them at a station ten feet outboard command up to 39,000 foot-pounds
+of roll moment at full differential.
+
 **The direct-lift aircraft had a harder problem** because all of its lift came from one place. Roll control
-requires either bleed-air reaction jets, which take air from the compressor and therefore take thrust, or
-differential nozzle modulation, which is limited by how far a single core stream can be split.
+requires either bleed-air reaction jets or differential nozzle modulation, and the first of those has a
+price that is paid before any moment is produced.
+**Bleeding a fraction $b$ of the mass flow removes that fraction of the thrust**,
+
+$$L_{\text{after bleed}} = (1 - b) L$$
+
+and the loss comes off the allowance with the amplification derived earlier.
+
+| Bleed fraction | Lift lost | Allowance remaining |
+|---|---|---|
+| 0 percent | 0 lb | 2,637 lb |
+| 2 percent | 560 lb | 2,103 lb |
+| 4 percent | 1,120 lb | 1,570 lb |
+| 6 percent | 1,680 lb | 1,037 lb |
+
+**A four percent bleed costs forty percent of everything the aircraft can bring home, and buys a roll control that has not yet been used to do anything.**
+The lift-fan aircraft takes its roll control from posts that are already producing lift, so the same
+function costs it nothing it was not already spending.
 
 - [Undercarriages for Deck Landing][research_blinkhorn_1948]
 - [THE X-15-A REACTION CONTROL AIRCRAFT][research_merrick_1960]
@@ -849,7 +952,12 @@ both aircraft and at the programme. Counting titles gives the following.
 **Exactly one record in four thousand four hundred carries the X-32 in its title, and it was written by the engine supplier rather than the airframer.**
 It reports testing of the Rolls-Royce lift system for the X-32B, in 2002, after the competition was over.
 
-**The winner's record runs continuously from 2002 to 2020.** The loser's stops at one.
+**The winner's record runs continuously from 2002 to 2020.** The loser's stops at one. Writing the asymmetry
+as a ratio,
+
+$$R = \frac{N_{\text{winner}}}{N_{\text{loser}}} = \frac{29}{1} = 29$$
+
+against two aircraft that flew in the same years, under the same programme, for the same customer.
 
 **That is not a claim that Boeing did no engineering.** It is a claim about what becomes public. An aircraft
 that enters production is written about for twenty years by the people who build it, operate it, modify it
