@@ -24,7 +24,8 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 7,195 lines, 15 display equations, 2,108 reference definitions, 39,311 words after the draft pass.
 **7,303 lines, 28 display equations, 2,108 reference definitions, 40,142 words after the equation
 review.** **13,353 lines, 28 display equations, 4,096 reference definitions, 71,302 words after the
-primary-reference review.** Committed, **not pushed**, **not published**.
+primary-reference review.** **19,593 lines, 28 display equations, 6,159 reference definitions,
+103,943 words after the publication review.** Committed and **pushed**. **Not published.**
 
 **THIS IS THE FIRST AIRCRAFT IN THE SERIES BUILT TO WIN A COMPETITION RATHER THAN TO ANSWER A
 RESEARCH QUESTION**, and the keystone is what a fly-off decides and on what evidence.
@@ -104,13 +105,42 @@ genuinely small. **The article's central failure mechanism rests on a thin publi
 **CITATION GAPS 12 TO 5**, and the five remaining are the three that construct the bring-back
 allowance, the roll moment as elementary statics, and the documentary ratio.
 
+**PUBLICATION PASS.** References 4,096 to 6,159 definitions and 4,037 to 6,100 cited, with every
+anchored record still cited and none left over.
+
+**THE CONTEMPORARY SURVEY WAS THE HALF THE PRIMARY PASS LEFT BEHIND**, which is the
+count-versus-fraction trap arriving as an actual gap rather than as an artefact. Coverage stood at
+**1,371 records, 34.0 percent**, because the period count had risen underneath it while nothing was
+added to the modern half. **A harvest took it to 3,428 records, or 56.2 percent, with 1,651
+published from 2022 onward.** Twelve thin modern clusters were filled, the sharpest being momentum
+theory at 8 rising to 51, nozzle design at 14 rising to 121, and computational fluid dynamics at 12
+rising to 105.
+
+**TWO CONTEMPORARY SUBJECTS THE ARTICLE'S OWN ARGUMENT REACHES HAD NO HEADING**, and both follow
+from results the earlier passes produced. **Shipboard thermal and deck interaction is the
+operational consequence of the disc-loading identity**, since an architecture at 2,852 pounds per
+square foot imposes almost twice the pressure of one at 1,467 on the same deck at the same landing
+weight, and ships were resurfaced because of that number. **Digital engineering and model-based
+acquisition is what partly replaced the fly-off**, and the trade it embodies is between an evidence
+source that matches the proposal exactly and one that matches reality exactly, which is precisely
+the difficulty this competition exposed.
+
+**AN ACRONYM DEFECT WAS FOUND AND FIXED.** The National Aeronautics and Space Administration was
+never spelled out, and the reference lists had grown until a verbatim citation title carrying the
+acronym appeared at character 9,460 while the authorial spell-out sat at 56,304. **A growing
+reference set can move a verbatim occurrence ahead of an authorial one**, so the spell-out was moved
+into the opening prose.
+
 **Verification.** 77 of 77 numerical checks passing with all article-facing values confirmed present
 in the draft, `_verify.py` at the 21-warning baseline with zero errors, check_any clean,
-`_lib/test_lib.py` at 48 of 48, and a 33-article isolated build rendering 16 sections, 56
-subsections, 16 tables and all 28 equations with zero broken anchors and zero empty headings. The
-sweep returned **zero hard failures** across all 161 NTRS identifiers, 600 of 3,103 sampled journal
-DOIs, 160 of 774 sampled DTIC DOIs, all 8 books and all 18 curated URLs, with zero search-endpoint
-citations and zero link-text defects across 8,133 reference entries.
+`_lib/test_lib.py` at 48 of 48, and a 33-article isolated build rendering 16 sections, 58
+subsections, 16 tables and all 28 equations at 1.41 megabytes and 12,568 list items, with zero
+broken anchors and zero empty headings. The final sweep returned **zero hard failures and zero
+mismatches** across all 169 NTRS identifiers, 600 of 5,159 sampled journal DOIs, 160 of 773 sampled
+DTIC DOIs, all 8 books and all 18 curated URLs, with zero search-endpoint citations and **zero
+link-text defects across 12,259 reference entries**. Diction clean, with `lift` at 7.78 and
+`aircraft` at 7.51 per thousand judged **legitimate as the article's keystone quantity and subject
+noun**.
 
 **For the reference pass: 12 displayed equations have no nearby citation**, and the pass promoted
 momentum theory, corrected engine parameters and stream mixing as subjects.

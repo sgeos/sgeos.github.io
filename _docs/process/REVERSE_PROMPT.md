@@ -9,12 +9,52 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A329 primary-reference review, the third of four passes. Committed, **not pushed**,
-**not published**.
+**Task**: A329 publication review, the fourth and final pass. Committed and **pushed**. **Not
+published.**
 
-**State: 13,353 lines, 28 display equations, 4,096 reference definitions, 71,302 words**, from 7,303
-lines and 2,108 definitions. Equations were held and measured before and after, and all 4,037 master
-records are cited. All thirty-three articles remain in `_drafts/`.
+**Final state: 19,593 lines, 28 display equations, 6,159 reference definitions, 103,943 words**,
+with all 6,100 master records cited. All thirty-three articles remain in `_drafts/`.
+
+---
+
+## The Contemporary Survey Was the Half the Primary Pass Left Behind
+
+**This is the count-versus-fraction trap arriving as an actual gap rather than as an artefact.**
+Coverage from 2015 onward stood at **1,371 records, 34.0 percent**, purely because the period count
+had risen underneath it while nothing was added to the modern half. Nothing had been removed.
+
+**A harvest took it to 3,428 records, or 56.2 percent, with 1,651 published from 2022 onward.**
+Twelve thin modern clusters were filled, the sharpest being momentum theory at 8 rising to 51,
+nozzle design at 14 rising to 121, and computational fluid dynamics at 12 rising to 105.
+
+**Two contemporary subjects the article's own argument reaches had no heading, and both follow from
+results the earlier passes produced rather than from being merely recent.**
+
+**Shipboard thermal and deck interaction is the operational consequence of the disc-loading identity
+the equation pass derived.** An architecture at 2,852 pounds per square foot imposes almost twice the
+pressure of one at 1,467 on the same deck at the same landing weight, and **ships were resurfaced
+because of that number**. The choice that produced it was made on propulsion grounds with the deck
+consequence following.
+
+**Digital engineering and model-based acquisition is what partly replaced the fly-off.** A model does
+not have the X-32's difficulty, since a model can be made to be the proposal. What it does not have
+is what the X-35B's single sortie demonstrated, namely that the integration works in the presence of
+everything nobody modelled. **The trade is between an evidence source that matches the proposal
+exactly and one that matches reality exactly**, and this competition is the case that shows why
+neither alone is sufficient.
+
+---
+
+## An Acronym Defect With a Cause Worth Recording
+
+**The National Aeronautics and Space Administration was never spelled out**, and the reason it
+survived three passes is worth naming. **The reference lists had grown until a verbatim citation
+title carrying the acronym appeared at character 9,460 while the authorial spell-out sat at
+56,304.**
+
+**A growing reference set can move a verbatim occurrence ahead of an authorial one**, so the check
+has to be re-run after every reference pass rather than once. The spell-out is now in the opening
+prose, ahead of everything.
 
 ---
 
@@ -249,15 +289,19 @@ than thrust share as a property over random velocity pairs rather than at the on
 point.
 
 `_verify.py` at the 21-warning baseline with zero errors, check_any clean, `_lib/test_lib.py` at 48
-of 48, and reference integrity at 4,096 with zero undefined, zero orphaned and **zero link-text
-defects across 8,133 reference entries**.
+of 48, and reference integrity at 6,159 with zero undefined, zero orphaned and **zero link-text
+defects across 12,259 reference entries**.
 
-**The set swept with zero hard failures**, including all 161 NTRS identifiers, 600 of 3,103 sampled
-journal DOIs, 160 of 774 sampled DTIC DOIs, and all 8 books and 18 curated URLs, with **zero
-search-endpoint citations**.
+**Diction clean, and the two flagged words are legitimate.** `lift` runs at 7.78 per thousand and
+`aircraft` at 7.51. The first is the article's keystone quantity and the second its subject noun, so
+both stay and the judgement is recorded rather than left implicit.
 
-**A 33-article isolated build renders the page at 977 kilobytes, 16 sections, 56 subsections, 16
-tables, 8,440 list items and all 28 equations**, with zero broken anchors and zero empty
+**The final set swept with zero hard failures and zero mismatches**, including all 169 NTRS
+identifiers, 600 of 5,159 sampled journal DOIs, 160 of 773 sampled DTIC DOIs, and all 8 books and 18
+curated URLs, with **zero search-endpoint citations**.
+
+**A 33-article isolated build renders the page at 1.41 megabytes, 16 sections, 58 subsections, 16
+tables, 12,568 list items and all 28 equations**, with zero broken anchors and zero empty
 headings.
 
 ---
@@ -278,7 +322,11 @@ correlations and the twin-jet fountain.
 
 ## Awaiting Instruction
 
-**A329 has completed the draft, equation and primary-reference passes.** Thirty-three of seventy-two
-drafted, **none published**.
+**A329 is complete through all four passes.** Thirty-three of seventy-two drafted, **none
+published**.
 
-The next pass is the publication review.
+The next article to draft is **A330, the Lockheed Martin X-33**, editorial date 2025-11-08, series
+index 34. **It inverts this one.** The X-32 was built, flew 144 times, and lost a competition. The
+X-33 won its competition, was funded, and was cancelled before it ever flew, so the question it
+answers is what a programme establishes when the vehicle never leaves the ground and the failure is
+in a single subsystem.
