@@ -25,7 +25,31 @@ an open-ended series, categories `engineering compilers verification`.
 **8,937 words, 21 display equations, 53 reference definitions after the standards and retargeting
 pass.** **9,812 words, 31 display equations, 53 reference definitions after the equation-density
 review.** **10,250 words, 31 display equations, 57 reference definitions after the
-primary-reference review.** Not published.
+primary-reference review.** **11,477 prose words, 31 display equations, 2,002 reference definitions
+after the publication review**, of which 1,980 are research citations, being 35 hand-selected and
+1,945 harvested. Not published.
+
+**THE PUBLICATION REVIEW'S FINDING IS THAT THE FIRST HARVEST WAS TWICE THE SIZE AND WORTHLESS.** The
+anchor gate was inherited from A333 and rejected 2,174 compiler-science titles for containing no
+aircraft, which is the defect A333's own primary pass found, recurring because the file was copied.
+The rewrite then **overcorrected into uselessness**, admitting generic stems such as analysis,
+implementation, generation, system and interface, which every discipline uses. The corpus grew to
+4,305 and a random sample of it contained rabies control, seismic depth imaging, veterinary breeding
+soundness, photonic supercontinuum generation, transport appraisal and fibre art. **Only reading a
+random sample of kept records detects this**, since counts and cluster distributions look healthy.
+The final gate requires a computing-specific term and admits 2,021 of 7,334.
+
+**THE ARTICLE NOW STATES WHICH HALF OF ITS BIBLIOGRAPHY IT READ.** Method reports the queries, the
+filter and the two failed gates. The References introduction separates the 35 hand-selected works,
+which the argument depends on, from the 1,945 harvested ones, which were not read. The Epistemic State
+states that the harvested layer supports **coverage and not content**, and that **the harvest makes
+the article's negative claim more exposed rather than less**.
+
+**A SAMPLE OF 250 HARVESTED IDENTIFIERS ALL EXIST, BUT 22 OF THEM, BEING 8.8 PERCENT, RESOLVE ONLY
+THROUGH THE REGISTRY.** Twenty refused the connection, 14 of those being Defense Technical Information
+Center deposits, and 2 returned not-found from a publisher no longer serving the landing page. The
+identifier is registered and correct in every case, so **a reader clicking these references will meet
+roughly one failure in eleven that is not a bad citation**.
 
 **THE PRIMARY PASS FOUND A CLAIM THE ARTICLE CONTRADICTED ITSELF ON.** The References introduction
 asserted that all references are primary and that no secondary literature survey is offered, while the

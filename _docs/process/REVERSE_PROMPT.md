@@ -9,88 +9,117 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-11
-**Task**: A370 primary-reference review. **Committed, not pushed.** **Not published.**
+**Task**: A370 publication review. **Committed and pushed.** **Not published.**
 
-**References 53 to 57 definitions and research citations 31 to 35.** The article moved from 9,812 to
-10,250 words, with equations unchanged at 31.
-
----
-
-## The Article Contradicted Itself and I Nearly Accepted the Contradiction
-
-**The References introduction asserted that all references are primary and that no secondary literature
-survey is offered.** The article carries **31 research citations inside a section titled The Contemporary
-Literature**, which is a secondary literature survey and is one of its longest sections.
-
-**That introduction was a leftover from a draft written before the survey existed.** I flagged the risk
-last pass in the opposite direction, saying a reference review would be a change of character because the
-article was all-primary. **It was not all-primary and had not been for some time.** The introduction now
-says what is true, which is that every source is primary in the sense of being a specification, an
-interface document, reference documentation, **or the original paper that introduced a result the argument
-uses**.
+**References 57 to 2,002 definitions**, of which **1,980 are research citations**, being the 35 hand-selected
+ones and 1,945 harvested. The article moved from 10,250 to 11,477 prose words, with equations unchanged at
+31. The rendered page carries 4,206 links and 4,123 list items.
 
 ---
 
-## Four Primary Sources for Results the Equation Pass Imported
+## The First Harvest Was Twice The Size And Was Worthless
 
-The equation pass added arithmetic that came from somewhere, and **none of it was cited**.
+**This is the finding of the pass and it was nearly shipped.**
 
-- **Clopper and Pearson 1934** for the exact binomial confidence bound the nine-of-nine argument evaluates.
-- **Hanley and Lippman-Hand 1983** for the no-observed-failures case specifically, which is the same
-  arithmetic under a clinical heading, and the article says so.
-- **Shannon 1948** for the channel-capacity framing, of which the bits form is the elementary case.
-- **Cousot and Cousot 1977**, cited **to mark a contrast rather than a precedent**. A sound but incomplete
-  rule is the normal condition of static analysis because an exact answer is often uncomputable. **This
-  article's imprecision was not forced**, since the property is decidable on straight-line bytecode by
-  summing two integers, **which is a worse position than the classical one and an easier one to fix.**
+The contemporary-survey gap was real. A369, this article's published predecessor, carries 1,765 reference
+definitions of which 93.5 percent are from 2015 onward, against A370's 57. So the pass built a harvest.
+
+**The first gate was inherited from A333 and rejected 2,174 compiler-science titles for containing no
+aircraft.** That is the same defect A333's own primary pass found, recurring because the file was copied
+rather than rewritten. It was caught and the gate was rewritten for this subject.
+
+**The rewrite overcorrected into uselessness and the symptom looked like success.** The new gate admitted
+generic stems, being analysis, implementation, generation, evaluation, system, model, performance and
+interface. Every discipline that publishes uses those words. The corpus grew to 4,305 records and I was
+about to treat the larger number as reassurance.
+
+**A random sample of the kept records is what caught it.** The survey contained rabies control, seismic
+depth imaging, breeding soundness examination in veterinary medicine, supercontinuum generation in
+photonics, transport appraisal, fibre art and early-childhood language acquisition. The contamination was
+not confined to the general cluster. It was in `static_analysis` by way of philosophical soundness, in
+`calling_conventions` by way of logistics interoperability, and in `concurrency_runtime` by way of optical
+fibre.
+
+The gate now requires a term that is **computing-specific on its own**, so an ambiguous term contributes
+nothing however many of them a title carries. It admits 2,021 of 7,334. **The corpus is less than half the
+size of the contaminated one and that reduction is the result rather than a cost of it.**
+
+**The lesson I would ask you to hold me to.** A larger harvest is not a better one, and the only instrument
+that detects this failure is reading a random sample of what was kept. No count, no cluster distribution and
+no drop-reason table shows it, because a permissive gate produces healthy-looking numbers in every one of
+them.
 
 ---
 
-## The Citation Audit Produced a Finding the Article Did Not Have
+## The Article Now States Which Half Of Its Bibliography It Read
 
-**All 35 identifiers resolve to the work they are cited as, an error rate of zero.**
+A list of two thousand citations implies a reading it does not represent, so the article says so in three
+places rather than leaving it to be assumed.
 
-**Two instruments flagged different records and that is itself the lesson.** The article's original
-title-overlap heuristic flagged four. A check comparing author surname and year flagged five. **The union
-is eight distinct records and every one was vindicated on individual inspection**, giving four artefact
-categories where the article documented two.
+- **Method** reports the queries, the filter, the count it discarded and the two failed gates above.
+- **The References introduction** separates the 35 hand-selected works, which the argument depends on and
+  which were read, from the 1,945 harvested ones, which were not.
+- **The Epistemic State** states that the harvested layer supports a claim about **coverage** and not about
+  content, and that **the harvest makes the article's negative claim more exposed rather than less**, since
+  a paper answering the question could sit unread in the list.
 
-| Artefact | Records | What the registry does |
-|---|---|---|
-| Title split from subtitle | 3 | Stores a short title where the citation carries the full one |
-| Wrong registration agency | 1 | LIPIcs deposits with DataCite, so a Crossref lookup finds nothing |
-| **Surname particle dropped** | 1 | Stores de Moura as Moura |
-| **Registry typo** | 1 | Stores Dyvbig for Dybvig, so the article is right and the registry is wrong |
-| **Identifier resolves to a reprint** | 2 | Reynolds 1972 and Strachey and Wadsworth 1974 carry identifiers for their 1998 and 2000 reprints |
+**The reconciliation with the article's own caution about citation error is that the two layers have
+different failure modes.** A369's 5.5 percent error rate came from identifiers supplied from memory, which
+is a generative process. A harvested identifier is transcribed from the registry that issued it and was
+never a guess, so **harvesting removes that failure mode rather than reducing it**. What it does not remove
+is a correct record cited for a claim it does not support, and no harvested record is cited for any claim.
 
-**The reprint category is the one worth carrying forward, because it is not instrument error at all.** The
-identifier is correct, the work is correct, and the year genuinely differs, because a foundational paper
-and its journal reprint are two publications of one text. **A checker comparing years will flag every
-reprinted classic in any bibliography**, and a bibliography of foundational work is mostly reprinted
-classics. That is a real limitation of the method this series uses, and it now sits in the article.
+---
 
-The DataCite case was confirmed by querying DataCite directly, which returns the cited title, the cited
-year and both authors.
+## A Reader Clicking These References Will Meet One Failure In Eleven
+
+A random sample of 250 harvested identifiers was resolved. **All 250 exist.**
+
+**Twenty-two of them, being 8.8 percent, resolved only through the registry and not through the identifier
+resolver.** Twenty refused the connection, of which 14 were Defense Technical Information Center deposits,
+and 2 returned not-found from a publisher that no longer serves the landing page. In every case the
+identifier is registered and the record is correct, so the defect is in the resolution path.
+
+**This is in the article** because a reader spot-checking by clicking will hit it and would otherwise read
+it as a bad citation.
+
+---
+
+## Three Smaller Corrections
+
+- **The kept-count was read from the wrong level of a JSON file** and the article briefly stated "discarded
+  7,332 of the 7,334 retrieved records". The file is `{"kept": {...}, "dropped": {...}}`, so its length is
+  2. **A figure wrong by three orders of magnitude still looks like a number**, and only checking it against
+  the console output caught it.
+- **Registry titles carried newlines, HTML tags and `&NA;` where an author belongs.** A newline in a title
+  breaks the list item it is emitted into, so whitespace is collapsed and markup stripped before use.
+- **Two colon-led bold labels** in The Decision This Informs were converted to the corpus pattern of a bold
+  sentence ending in a period.
 
 ---
 
 ## Verification
 
-- `python3 tmp/a370/verify.py` **34 of 34**, unchanged, since this pass added no arithmetic.
 - `python3 _verify.py` **0 errors, 21 warnings**, the unchanged baseline, from the repository root.
-- **57 definitions with zero undefined and zero orphaned**, and the Research block re-sorted by anchor.
-- `lint.scan` **clean**, after a reflow verified a fixed point and content-preserving.
+- **Isolated production build with drafts, exit 0.** The rendered page carries **0 unfilled markers, 0
+  unresolved references, 31 open and 31 close display-math delimiters, 0 empty list items and 0 nested empty
+  lists**, the last being the doubled-marker defect that shipped in A332 and A333.
+- **2,002 definitions with 0 undefined and 0 orphaned**, sorted by anchor.
+- **The `--drafts` build fails on `_drafts/draft_summary.md`**, which carries a literal `post_url` example.
+  That is pre-existing and is the documented reason drafts are off by default. It was moved aside inside the
+  scratch copy only.
+- `lint.scan` **clean**.
 - **Prose scan clean** of em dashes, en dashes, contractions, prose colons, prose semicolons, prose
-  parentheses and italics.
-- **Isolated build exit 0**, with **31 open and 31 close display-math delimiters**.
+  parentheses and italics. The 45 apparent contractions are all possessives.
+- `diction` against 297 published peers, **0 constructions above the corpus maximum**.
+- `python3 tmp/a370/verify.py` **34 of 34**, unchanged, since this pass added no arithmetic.
 
 ---
 
 ## Next
 
-Your call. **Three of the four passes have now been applied to A370**, being the standards brush-up, the
-equation-density review and this one. **A publication review has not**, and for this article that would
-mean a contemporary-literature sweep, a full citation sweep, and a final structural read.
+**All four passes have now been applied to A370.** It is committed and pushed and **is not published**, and
+publication has not been authorised for it or for anything else.
 
-The X-Planes series is unchanged at **thirty-seven of seventy-two**, none published, with **A334, the
-Boeing X-37, next** whenever you want it.
+The X-Planes series is unchanged at **thirty-seven of seventy-two**, none published, with **A334, the Boeing
+X-37, next** whenever you want it.
