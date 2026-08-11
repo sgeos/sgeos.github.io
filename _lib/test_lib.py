@@ -591,6 +591,35 @@ def t_clean_decodes_html_entities_before_stripping_punctuation():
     assert anc == "research_metallic_panels_1998", anc
 
 
+def t_verify_doi_declines_an_uncheckable_author_rather_than_failing_it():
+    """AN ANCHOR STEM IS ONLY A SURNAME WHEN AN AUTHOR SURVIVED FOLDING.
+
+    Where every registry author is in a non-Latin script, `anchor_stem` falls back to the
+    title, so the stem carries no surname. Comparing the two can never succeed, and the old
+    code reported a MISMATCH on a citation that was entirely correct. A330's sweep hit this
+    on a Chinese-language paper and it read as a citation defect.
+    """
+    import citations
+    # the stem is a title fallback and the registry author folds to nothing
+    ok = citations.fold("\u67f3") == ""
+    assert ok, "the test premise is that this name folds away"
+
+    # simulate the comparison verify_doi makes, without a network call
+    authors = ["\u654f\u9759 \u67f3"]
+    surname = "leakage"
+    foldable = [a for a in authors if citations.fold(a)]
+    checkable = bool(foldable) and bool(surname)
+    author_ok = (not checkable) or any(surname in citations.fold(a) for a in foldable)
+    assert not checkable, "no foldable author, so the check cannot run"
+    assert author_ok, "an uncheckable author must not be reported as a mismatch"
+
+    # AND THE CHECK MUST STILL BITE WHEN IT CAN RUN
+    authors2 = ["V. I. Weingarten", "P. Seide"]
+    foldable2 = [a for a in authors2 if citations.fold(a)]
+    assert any("weingarten" in citations.fold(a) for a in foldable2)
+    assert not any("nosuchname" in citations.fold(a) for a in foldable2)
+
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)

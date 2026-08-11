@@ -74,6 +74,20 @@ def verify_doi(anchor, url, year_slack=1):
     THE FOLDING MATTERS. Naive ASCII stripping turns `Slavík` into `slavk` and
     `Böhm` into `bhm`, which produced three false mismatches in an A369 run and
     read as citation defects until it was fixed.
+
+    AN ANCHOR STEM IS ONLY A SURNAME WHEN AN AUTHOR SURVIVED FOLDING, AND THIS
+    FUNCTION USED TO ASSUME IT ALWAYS WAS. When every author name is in a
+    non-Latin script, `refs.anchor_stem` falls back to the first words of the
+    TITLE, so the stem carries no surname at all. Comparing that stem against a
+    registry author who also folds to nothing can never succeed, so the record
+    was reported as a mismatch however correct it was. A330 hit this with a
+    Chinese-language paper on leakage detection in a composite low-temperature
+    tank, whose registry entry is right, whose link text is right, and whose
+    citation is right.
+
+    THE HONEST TREATMENT IS TO DECLINE THE CHECK RATHER THAN TO FAIL IT. Where
+    no registry author survives folding there is nothing to compare, and a
+    checker that cannot run should say so instead of reporting a defect.
     """
     if "doi.org" not in url:
         return {"anchor": anchor, "url": url, "status": "not-a-doi"}
@@ -83,12 +97,15 @@ def verify_doi(anchor, url, year_slack=1):
         return {"anchor": anchor, "url": url, "status": "unresolved"}
     title, authors, year, venue = fetch.crossref_fields(msg)
     surname, want_year = claimed_from_anchor(anchor)
-    author_ok = (not authors) or (not surname) or any(surname in fold(a) for a in authors)
+    foldable = [a for a in (authors or []) if fold(a)]
+    author_checkable = bool(foldable) and bool(surname)
+    author_ok = (not author_checkable) or any(surname in fold(a) for a in foldable)
     year_ok = (want_year is None) or (year is None) or abs(want_year - year) <= year_slack
     return {"anchor": anchor, "url": url, "title": title, "authors": authors,
             "year": year, "venue": venue,
             "status": "ok" if (author_ok and year_ok) else "mismatch",
-            "author_ok": author_ok, "year_ok": year_ok}
+            "author_ok": author_ok, "year_ok": year_ok,
+            "author_checked": author_checkable}
 
 
 def verify_all_dois(text, progress=None):

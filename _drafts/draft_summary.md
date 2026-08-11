@@ -25,8 +25,20 @@ of 72.
 **17,379 lines, 51 display equations, 5,392 reference definitions, 92,916 words after the draft
 pass.** **17,667 lines, 90 display equations, 5,392 reference definitions, 95,132 words after the
 equation review.** **22,653 lines, 90 display equations, 7,028 reference definitions, 120,576 words
-after the primary-reference review**, with all 6,966 master records cited and none left over.
-Committed, **not pushed**. **Not published.** The next and final pass is the publication review.
+after the primary-reference review.** **32,379 lines, 92 display equations, 10,248 reference
+definitions, 170,821 words after the publication review**, with all 10,186 master records cited and
+none left over. Committed and **pushed**. **Not published.**
+
+**THE PUBLICATION PASS FOUND ITS BEST RESULT INSIDE THE ARTICLE'S OWN SENSITIVITY TABLE.** The
+buckling knockdown the article sweeps comes from a 1968 monograph and has been under active revision
+ever since, and **what its conservatism costs depends entirely on whether the wall is a sandwich, by
+a factor of 38.1**. Moving it from 0.2 to 0.5 saves **103 pounds on the composite sandwich and 3,928
+on a metal monocoque of the same geometry**, the latter being **52.8 percent of the entire weight
+growth that cost the Mach 15 objective**. **A sandwich is nearly insulated from a conservative
+buckling allowable and a monocoque is not**, which is a second and independent reason the
+architecture was right. Contemporary coverage went from 2,179 records at 31.3 percent to **5,407 at
+53.1 percent**, and **the count-versus-fraction trap caught the article at both ends in consecutive
+passes**, with the period count held at exactly 4,018 while its fraction fell eighteen points.
 
 **THE PRIMARY PASS FOUND THE PROMOTION RULE AT ITS STARKEST.** Eighteen of the twenty-seven subjects
 the equations name were thin and **six were at zero**, including the rocket equation, minimum gauge

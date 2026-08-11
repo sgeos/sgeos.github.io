@@ -9,147 +9,155 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A330 primary-reference review, the third of four passes. Committed, **not pushed**, **not
+**Task**: A330 publication review, the fourth and final pass. Committed and **pushed**. **Not
 published.**
 
-**References 5,392 to 7,028 definitions and 5,324 to 6,966 cited research records**, article 17,667
-to 22,653 lines and 95,132 to 120,576 words. Display equations unchanged at 90. **All 6,966 master
-records cited with none left over.**
+**Final state: 32,379 lines, 92 display equations, 10,248 reference definitions, 170,821 words**,
+with all 10,186 master records cited and none left over. All thirty-four articles remain in
+`_drafts/`.
 
 ---
 
-## The Promotion Rule Fired Harder Than in Any Previous Article
+## The Contemporary Survey Was Half the Article's Directive and It Was Behind
 
-**I audited the twenty-seven subjects the article's equations actually name against the pool, before
-harvesting rather than after.** Eighteen were thin on period coverage and **six were at zero**,
-including **the rocket equation, the ascent loss budget, minimum gauge, integral tank structure,
-cryopumping and the noncircular pressure vessel.**
+**Coverage from 2015 onward stood at 2,179 records and 31.3 percent**, having fallen nine points
+during the primary pass purely because the period count rose underneath it. **Thirteen clusters held
+fewer than twenty-five modern records**, and the worst of them was carrying an argument.
 
-**None of those is thin because the literature is thin.** They were thin because the first two
-harvests asked for tanks, composites, cryogenics and aerospikes, **and before the equation pass the
-article had no reason to ask for knockdown factors, face wrinkling, flatwise tension or an ideal
-velocity increment.** The harvest that followed used the period's own vocabulary, which is not the
-article's, so shell buckling was sought as design criteria for thin-walled circular cylinders and
-the bond test as flatwise tensile strength.
-
-**Result: 1,531 more records published through 2001 and 464 more from the report literature.**
+**A harvest took the contemporary half to 5,407 records and 53.1 percent, with 2,845 published from
+2022 onward.** The clusters that moved most were the ones the article's own reasoning depends on,
+being reusability and launch economics, guidance and powered descent, cryogenic insulation,
+manufacturing scale-up, and the buckling literature.
 
 ---
 
-## Two Finds Worth Naming
+## The Strongest Thing This Pass Found Was Hiding in the Article's Own Sensitivity Table
 
-**The design monograph the article's own buckling relation comes from is now cited by name.**
-Weingarten, Seide and Peterson, 1968, is the agency's design criteria document for the buckling of
-thin-walled circular cylinders, and it supplies **both** the knockdown factor the article sweeps and
-the pressure-stabilisation term that corrected it. The article was using that practice without
-attributing it.
+**The buckling section sweeps a knockdown factor and calls it its least certain assumption. That
+factor comes from a monograph published in 1968, and replacing it has been an active subject ever
+since.** The 1968 values are deliberately conservative lower bounds, and **conservatism in a buckling
+allowable is paid directly in structural mass.**
 
-**The literature for the one term the article admits it did not price turns out to be thirty years
-older than the X-33.** A 1965 report series on **juncture stress fields in multicellular shell
-structures**, running to at least eight volumes and including the buckling analysis of the junction
-itself, is exactly the bending-at-the-lobe-junction problem the mass build-up leaves unaccounted, and
-a two-hundred-inch multicell tank was pressure tested in 1968. **The knowledge that a lobed tank is
-expensive at its junctions was old when the X-33 was designed**, which makes the membrane model's
-silence a choice of model rather than an absence of information. That sentence is now in the article.
+**What that conservatism is worth on this vehicle depends entirely on whether the wall is a sandwich,
+and the difference between the two answers is a factor of 38.1.** Moving the knockdown from 0.2 to
+0.5 saves **103 pounds** on the composite sandwich, where stiffness is bought with core separation,
+and **3,928 pounds on a metal monocoque of the same geometry**, where the thickness is the stiffness.
 
----
+**That second figure is 5.24 percent of the burnout mass and 52.8 percent of the entire weight growth
+that cost the Mach 15 objective.**
 
-## The Count-Versus-Fraction Trap, in Its Classic Form
+**So a sandwich is very nearly insulated from the conservatism of a buckling allowable and a metal
+monocoque is not**, which is a second and independent reason the architecture was right and is not
+the reason usually given for it. It holds generally rather than at one point, since **a parity
+sandwich is lighter than the metal monocoque at every knockdown between one twentieth and one,
+tested over twenty thousand values.**
 
-| | Before this pass | After |
-|---|---|---|
-| Research references cited | 5,324 | 6,966 |
-| Period through 2001 | 2,488, 46.7% | 4,019, 57.7% |
-| Contemporary 2015 onward | 2,162, 40.6% | **2,186, 31.4%** |
-| Report literature | 1,231, 23.1% | 1,695, 24.3% |
-
-**The contemporary COUNT rose by twenty-four and the contemporary FRACTION fell by nine points.**
-Nothing was removed. The denominator moved. **Reporting only the fraction would have described a
-loss that did not occur**, and reporting only the period gain would have concealed that the modern
-half is now proportionally thinner. The article states both in a subsection of the Source Base and
-says which moved.
+**The uncomfortable corollary is in the article too.** A programme that needed mass, and that cut its
+own speed objective because it could not find any, was sizing structure against a factor known to be
+conservative. Whether better factors were available in the 1990s is not something the article can
+establish, **and the modern literature is evidence that the problem was open rather than that the
+answer existed.**
 
 ---
 
-## Two Subjects Are Genuinely Thin and Are Reported Rather Than Padded
+## A Second Contemporary Thread, and One Cluster That Is Empty for a Reason
 
-**Minimum gauge as a design driver returns nothing at all in a pool of nearly seven thousand
-records**, which is awkward, because the article's own finding is that the facesheets are governed by
-it.
+**The aerospike came back through manufacture rather than through aerodynamics.** A plug engine is a
+great many small chambers and a contoured ramp, and what made it expensive was building it. Additive
+manufacturing removed most of that, which is why the architecture reappeared on small launch vehicles
+rather than large ones. **That is a different kind of afterlife from the tank's**, which came back
+because the problem was understood better.
 
-**Flatwise tensile testing of a core-to-facing bond returns almost nothing retrievable**, and that is
-the more troubling of the two, **because it is the literature of the exact failure that ended the
-programme.** The mechanism is well understood and the test is standard, so the absence is more likely
-an artefact of what is indexed than a gap in what was done. The article says so.
-
----
-
-## Three Homonyms, Two of Which I Created by Widening
-
-**Admitting the word multicell to reach the juncture-stress reports also admitted an eleven-volume
-fluidized bed boiler programme and a nickel-hydrogen battery common pressure vessel.** Both use the
-word exactly as this article does and neither is about a tank. Seventeen records, paid for at the
-moment of widening rather than in the sweep.
-
-**A shell is also a quantum field theory object**, and one Casimir self-stress paper on a perfectly
-conducting cylindrical shell reached the structures cluster. Found by reading a random sample, not by
-anticipation.
-
-**Anticipated and filtered before the harvest ran**: gene knockdown, gauge theory and the railway
-gauge, skin wrinkling in dermatology, the chemical and fruit peel, condensation in chemistry and
-building physics, and separation in psychology and chemical engineering. **Gene knockdown and gauge
-theory would have done real damage**, since the article now uses both words as terms of art.
+**The vehicle's own cluster holds zero contemporary records and the article now says why.** Sixty
+records carry the X-33 designation and every one predates 2002. **A cancelled programme stops
+generating literature under its own name**, which is the mirror image of A329's finding that a losing
+competitor stops generating it the moment it loses.
 
 ---
 
-## Two New Clusters, One of Which Is Part of the Failure Chain
+## The Count-Versus-Fraction Trap Caught This Article at Both Ends, in Consecutive Passes
 
-**Cryogenic insulation was not a heading and should have been.** The purge gas that cryopumped into
-the core exists **because the tank is cold and insulated**, so the insulation system, the purge
-cavity and the sealed core are three parts of one arrangement rather than three independent choices.
-The article now says that, and adds that a tank sized by volume has a large surface for the
-propellant it holds, **so the propellant hardest to contain is also the one with the most surface
-through which to boil away.**
+| | After drafting | After the primary pass | After the contemporary pass |
+|---|---|---|---|
+| Research references cited | 5,318 | 6,958 | 10,186 |
+| Period through 2001 | 2,488, 46.8% | 4,018, 57.7% | **4,018, 39.4%** |
+| Contemporary 2015 onward | 2,156, 40.5% | **2,179, 31.3%** | 5,407, 53.1% |
+| Published 2022 onward | 1,141, 21.5% | 1,145, 16.5% | 2,845, 27.9% |
+| Report literature | 1,229, 23.1% | 1,692, 24.3% | **1,692, 16.6%** |
 
-**Manufacturing and scale-up is the other**, and it holds ten records, which is the thin subject
-above.
+**The primary pass raised the contemporary count by twenty-three and dropped its fraction by nine
+points. The contemporary pass left the period count completely unmoved and dropped its fraction by
+eighteen.** Nothing was ever removed. **The report literature is the clearest case of all**, holding
+at exactly 1,692 records while its share fell from 24.3 percent to 16.6.
 
----
-
-## An Assertion With No Citation, Which Is What This Pass Is For
-
-**The three documents the article leans on most heavily were cited nowhere.** The tank geometry, the
-sandwich construction, the unvented core, the five causes of the failure and the fifteen-minute delay
-were all asserted in prose and all taken from the agency's review of the state of the art in liquid
-hydrogen cryogenic tank structures and from the failure investigation's own findings.
-
-**It does not matter that every assertion was correct.** An unsourced claim about a document is
-indistinguishable from an invented one, and a reference pass that adds sixteen hundred records while
-leaving the article's own foundation uncited would have measured the wrong thing. All three are now
-cited at the point of use, and the word **unvented** has been restored to the description of the
-core, which is the single most important adjective in the failure and had been dropped.
+The article carries all three columns and says which number moved in each pass.
 
 ---
 
-## Verification
+## A Shared-Library Defect the Sweep Exposed
 
-`verify.py` **104 of 104** with **18 agreements between independent routes**, unchanged, since this
-pass added no arithmetic. `check_any.py` passes. `_verify.py` holds the baseline at **0 errors and 21
-warnings**. `test_lib.py` is **49 of 49**.
+**The citation sweep reported one mismatch and the citation was correct.** The record is a
+Chinese-language paper on leakage detection in a composite low-temperature tank, correctly cited,
+correctly rendered, and correctly registered.
 
-**The reference-entry scan found zero punctuation defects across 13,992 visible entries**, with zero
-duplicate definitions, zero undefined uses and zero orphans. **The entity fix from the draft pass is
-holding at more than twice the reference count.**
+**The cause is that an anchor stem is only a surname when an author survived ASCII folding.** Where
+every author is in a non-Latin script, `refs.anchor_stem` falls back to the title, so the stem
+carries no surname at all, **and `citations.verify_doi` was comparing that title fragment against a
+registry author who also folds to nothing.** The comparison could never succeed, so every
+title-fallback anchor was destined to report a defect.
 
-**No acronym appears in authorial prose**, checked with word boundaries after the reference set
-nearly doubled, which is the check that must be re-run after every reference pass.
+**The honest treatment is to decline the check rather than to fail it.** `verify_doi` now reports
+`author_checked` as false where no registry author survives folding, and the check still bites where
+it can run, confirmed against a deliberately bogus surname. `test_lib` has a case and the suite is
+**50 of 50**.
 
-The isolated build succeeds at 1.62 megabytes with **all 90 equations rendering as display blocks**,
-9 tables, 14,291 list items, zero unfilled markers and zero link-definition leakage.
+---
 
-**One inconsistency I introduced and then fixed.** The assembler counted the period through 1999,
-inherited from A329 whose programme ran to 2002, while this article states its programme ran to early
-2001. The rendered count and the sentence beside it disagreed. Both now use 2001.
+## One Thing Deliberately Left Alone
+
+**Four records of nanoscale shell mechanics reached the buckling cluster**, using nonlocal elasticity
+on nanobeams and nanotubes, which is a different theory from the one the article uses. **They were
+left in.** A pattern narrow enough to catch them also catches carbon-nanotube-reinforced ablative
+thermal protection material, which is legitimate aerospace work and is on subject. **Four records in
+ten thousand one hundred and eighty-six is below the level at which a filter does more good than
+harm**, and the widening-has-a-price rule cuts both ways.
+
+---
+
+## What the Review Checked
+
+**Prose style is clean.** Zero em dashes, en dashes, contractions, ellipses and capital emphasis. The
+only semicolon, colon and parenthetical in the whole article are the `console.log` debug tag and the
+table-of-contents marker, which are the permitted locations. Link text was included as prose in every
+scan.
+
+**No acronym appears in authorial prose at all**, checked with word boundaries after the reference set
+grew past ten thousand.
+
+**Reference integrity is exact.** 10,248 definitions, zero duplicates, zero undefined uses, zero
+orphans, and **zero punctuation defects across 20,434 visible entries.**
+
+**Mathematics.** 92 display equations, each on one source line, zero split equations, zero wrapped
+inline spans, zero bold spans crossing a line, an even delimiter count, and balanced braces and
+delimiters in every one. `verify.py` reports **110 of 110** with **19 agreements between independent
+routes**.
+
+**The citation sweep is clean and this time there are no mismatches at all.** All **764 NTRS fixed
+identifiers resolved**, **600 of 8,427 sampled journal DOIs** registry-matched with **zero
+mismatches**, **160 of 998 sampled DTIC DOIs** likewise, all 7 books and 19 curated URLs retrieved,
+and **zero search-endpoint citations**. **HARD FAILURES: 0.** The single mismatch the previous sweep
+reported was the checker defect described above, and it does not recur.
+
+**Structure.** All twelve genre sections present and in order, all three series sections present, and
+the Source Base immediately before the Epistemic State.
+
+**Diction.** One phrase sits above the peer median and inside the peer maximum. The two most frequent
+content words are **tank at 8.48 per thousand and mass at 6.73**, which are the article's subject and
+are left alone.
+
+**The isolated build succeeds at 2.31 megabytes** with all 92 equations rendering as display blocks,
+16 sections, 67 subsections, 10 tables, 20,734 list items, zero unfilled markers and zero
+link-definition leakage.
 
 ---
 
@@ -268,6 +276,11 @@ extracted. The article states the limit rather than writing around it.
 
 ## Awaiting Instruction
 
-**A330 has completed three of four passes.** Thirty-four of seventy-two drafted, **none published**.
+**A330 is complete through all four passes.** Thirty-four of seventy-two drafted, **none published**.
 
-The next and final pass is the **publication review**.
+The next article to draft is **A331, the Orbital Sciences X-34**, editorial date 2025-11-09, series
+index 35. **It was cancelled in the same decision as the X-33 and by the same reasoning**, so the
+programme-management reading this article treats as a competing account is the one A331 will have to
+take seriously. The X-34 flew no powered flights either, but unlike the X-33 it was largely complete
+and two airframes survived in storage for years, **which makes it a third kind of never-flew** to set
+beside the X-27's absence of demand and the X-30's absence of knowledge.
