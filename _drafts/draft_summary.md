@@ -23,8 +23,25 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 37 of 72.
 
 **11,068 lines, 13 display equations, 3,467 reference definitions, 59,364 words after the draft
-pass**, with all 3,352 master records cited and none left over. Committed, **not pushed**. **Not
-published.**
+pass.** **11,229 lines, 28 display equations, 3,467 reference definitions, 60,869 words after the
+equation-density review**, with all 3,352 master records cited and none left over. Committed, **not
+pushed**. **Not published.**
+
+**THE EQUATION PASS TURNED AN ASSERTION INTO A BUDGET.** The draft said a fixed delay is amplified
+by 1.8898. A loop stabilising an unstable pole must cross over above it and a delay costs phase in
+proportion to frequency, so the whole delay budget is a phase margin over a crossover frequency,
+giving **147.7 milliseconds at maximum speed against 279.1 for the full-scale aircraft**. **The whole
+budget is smaller than a human reaction time alone**, so the ground pilot cannot have been inside the
+stabilisation loop and the architecture follows from arithmetic rather than preference.
+
+**A DERIVED DERIVATIVE REPLACED AN ASSUMED ONE.** Slender-body theory gives the directional
+derivative from fuselage volume alone, and the derived value is **2.018 times** the assumed one, so
+**the draft was the optimistic case** and every conclusion that survived it survives more
+comfortably.
+
+**A CLAIM I HAD TO WITHDRAW.** The draft called the split ailerons margin rather than necessity.
+Across the plausible drag increment their moment runs from 22.1 to 132.4 percent of the nozzle's,
+**and the conclusion flips inside the bracket**, so only the structural claim survives.
 
 **THE KEYSTONE IS THE SCALE FACTOR RATHER THAN THE MISSING TAIL.** Every account of this aeroplane
 leads with the absent vertical fin. The interesting number is the 28 percent, because a free-flight
@@ -55,8 +72,9 @@ above anything the aircraft flew, **so the split ailerons were margin rather tha
 X-35 won and never had a trace at all, and **the X-36 ran to completion and produced a technique rather
 than a vehicle**, so its contribution is filed under the names of its methods.
 
-**Remaining work**: the equation-density review, the primary-reference review and the publication
-review, each on the pilot's prompt. **The equation count of 13 is the lowest in the series and is
+**Remaining work**: the primary-reference review and the publication review, each on the pilot's
+prompt. **The promotion rule fired for the sixteenth article running**, with phase margin and delay
+margin standing at **zero** although it now carries the article's headline result. **The equation count of 13 is the lowest in the series and is
 reported rather than padded**, the subject having one relation applied repeatedly rather than several
 chains.
 

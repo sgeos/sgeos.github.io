@@ -190,6 +190,16 @@ $$r_\omega = \frac{1}{\sqrt{\lambda}} = 1.8898 \qquad r_{\dot\omega} = \frac{1}{
 
 $$r_m = \lambda^{3} \qquad r_I = \lambda^{5} = 0.001721 \qquad r_{\mathrm{Re}} = \lambda^{3/2} = 0.1482$$
 
+**The mass and inertia exponents are worth deriving rather than quoting.** Holding density common makes mass
+go as volume, which is the cube. A moment is a force times a length and a force at matched Froude number
+goes as mass, so
+
+$$r_F = \lambda^{3} \qquad r_M = r_F \lambda = \lambda^{4} \qquad r_I = r_m \lambda^{2} = \lambda^{5}$$
+
+and the angular acceleration ratio is the moment ratio over the inertia ratio,
+
+$$r_{\dot\omega} = \frac{\lambda^{4}}{\lambda^{5}} = \frac{1}{\lambda} = 3.571$$
+
 **Each of those was verified as a randomised property over twenty thousand scale factors rather than at 0.28 alone**,
 so a mis-stated exponent would fail everywhere rather than nowhere.
 
@@ -316,13 +326,41 @@ $$N = q S b \, C_{n\beta} \, \beta$$
 **With a fin, $C_{n\beta}$ is positive and the aircraft weathercocks. Without one it is negative and the aircraft diverges.**
 Everything else in this section follows from that sign change.
 
+**The magnitude can be derived rather than assumed, and it should be.** Slender-body theory gives the
+destabilising moment of a body from its **volume alone**, through the apparent-mass difference $k_2 - k_1$,
+which for a fineness ratio above about eight is near 0.9. The derivative per radian is
+
+$$C_{n\beta}^{\text{body}} = -\left(k_2 - k_1\right) \frac{2 \, \mathrm{Vol}}{S b}$$
+
+**The fuselage volume is not published either, so it is bracketed.**
+
+| Fuselage volume | $C_{n\beta}$ per radian | Per degree |
+|---|---|---|
+| 0.60 m³ | 0.1041 | 0.001816 |
+| 0.80 m³ | 0.1388 | 0.002422 |
+| 1.00 m³ | 0.1734 | 0.003027 |
+
+**The derived value at the middle of the bracket is 0.002422 per degree, which is 2.018 times the 0.0012 this article assumed before deriving it.**
+That matters in a specific and welcome direction. **The assumed figure was the optimistic one**, so the
+aircraft was more unstable than the numbers below first suggested, and
+**every conclusion that survived the optimistic case survives the derived one more comfortably.** Both are
+carried through the tables that follow rather than one replacing the other.
+
 **The wing area is not published, so it is inverted from what is.** The approach speed of 110 knots and a
 landing weight of about 1,153 pounds fix the product of area and lift coefficient, and at an approach
 coefficient of 0.8 that gives
 
 $$S = \frac{W}{q C_L} = \frac{5{,}129}{1{,}961 \times 0.8} = 3.269 \ \text{m}^{2}$$
 
-**with an implied aspect ratio of 3.084, a mean chord of 1.029 metres and a wing loading at maximum weight of 1,728 newtons per square metre.**
+and the geometry follows from it,
+
+$$\mathrm{AR} = \frac{b^{2}}{S} = \frac{3.180^{2}}{3.269} = 3.084 \qquad \bar{c} = \frac{S}{b} = 1.029 \ \text{m}$$
+
+$$\frac{W}{S} = \frac{1{,}270 \times 0.4536 \times 9.807}{3.269} = 1{,}728 \ \text{N/m}^{2}$$
+
+**The wing loading is therefore 1728 newtons per square metre at maximum weight**, which at 28 percent scale
+corresponds to 6,171 at full size, since wing loading scales as the length ratio.
+
 An aspect ratio near three is right for this planform class, which is the check that the inversion is not
 nonsense. Across coefficients from 0.7 to 1.0 the aspect ratio runs from 2.699 to 3.855, so the conclusion
 does not depend on the choice.
@@ -356,6 +394,10 @@ motion under their own initial conditions rather than by evaluating an exponent.
 | 0.35 of length | 0.864 s | 1.641 s | 0.391 s | 0.743 s |
 | 0.40 of length | 0.987 s | 1.876 s | 0.447 s | 0.849 s |
 
+**Those use the assumed derivative. The derived one makes them shorter.** At a radius of gyration of 0.35
+the growth rate rises from 0.802 to 1.140 per second at approach and from 1.773 to 2.518 at maximum speed,
+so the modal doubling times fall to **0.608 seconds and 0.275 seconds**.
+
 **Every entry is under two seconds and most are under one.** That is the number the control system had to
 beat, and it is the number the ground pilot's link delay had to be small against.
 
@@ -383,6 +425,58 @@ it stood for, while the delay in reacting to it stayed the same.
 - [Flight investigation of the influence of turbulence on...][research_franklin_1971]
 - [An analysis of aircraft lateral-directional handling...][research_adams_1972]
 
+### The Delay Budget, Which Turns the Handicap Into Milliseconds
+
+**The draft of this article asserted that a fixed delay is amplified by 1.8898. Control theory turns that into a budget, and the budget is small enough to force a conclusion about the architecture.**
+
+A loop that stabilises an unstable pole must cross over above it, because below the pole the loop gain is
+not yet doing anything. Writing $\omega_c$ for the crossover frequency and taking a multiple $\kappa$ of the
+growth rate,
+
+$$\omega_c = \kappa \sigma$$
+
+**A pure delay contributes phase lag in direct proportion to frequency**, which is the whole reason delay is
+dangerous rather than merely annoying,
+
+$$\Delta\phi = \omega \tau$$
+
+so at crossover the delay consumes $\omega_c \tau$ of phase. Setting that equal to the phase margin a
+designer insists on gives the entire delay budget of the loop,
+
+$$\tau_{\max} = \frac{\phi_m}{\omega_c} = \frac{\phi_m}{\kappa \sigma}$$
+
+**And $\sigma$ scales as one over the square root of the scale factor, so the budget scales as its square root.**
+The amplification the draft asserted is exactly this, expressed in the units a control engineer would use.
+
+At a phase margin of 45 degrees and a crossover three times the growth rate,
+
+| Condition | Growth rate | Crossover | Budget, model | Budget, full scale |
+|---|---|---|---|---|
+| 110 kt, assumed derivative | 0.802 /s | 2.41 rad/s | **326.3 ms** | 616.6 ms |
+| 243 kt, assumed derivative | 1.773 /s | 5.32 rad/s | **147.7 ms** | 279.1 ms |
+| 243 kt, derived derivative | 2.518 /s | 7.55 rad/s | **104.0 ms** | 196.5 ms |
+
+**Read the third column against what a video link and a human cost.** A camera, an encoder, a radio path and
+a display are not free, and a human visual reaction time alone is around 250 milliseconds.
+**The entire budget at maximum speed is between 104 and 148 milliseconds.**
+
+**So the ground pilot cannot have been inside the stabilisation loop, and the architecture follows from the arithmetic rather than from a preference.**
+The inner loop that held this aeroplane pointing straight had to be onboard, closing around sensors and
+effectors with no radio in the path, while the pilot on the ground flew the outer loop of where to go and
+how fast. **That is exactly how the aircraft was built**, and this article did not have to be told.
+
+**The budget also explains why the full-scale comparison matters.** The same aeroplane at full size would
+have had between 196 and 279 milliseconds, which is roughly a human reaction time.
+**A full-scale tailless aircraft could conceivably be flown by a pilot whose hands were in the loop. The 28 percent model could not**,
+and that difference is entirely an artefact of the scale rather than of the configuration.
+
+- [Comparison and analysis of pilot-induced oscillation...][research_nguyen_cord_1999]
+- [H ∞ Optimal Controller of Aircraft Roll Dynamics with Time...][research_tokutake_ohta_1999]
+- [Effects of Noise and Time Delay Upon Active Control of...][research_zinn_neumeier_2001]
+- [On oscillation of a food-limited population model with time...][research_berezansky_braverman_2003]
+- [Milling Model With Variable Time Delay][research_long_balachandran_2004]
+- [Pilot-Induced Oscillation Analysis with Actuator Rate...][research_katayanagi_2004]
+
 ### Why a Nozzle and a Fin Are Complementary Rather Than Alternative
 
 **This is the cleanest result in the article and it comes from noticing which terms carry dynamic pressure.**
@@ -407,8 +501,35 @@ so the ratio of what the nozzle can do to what the aerodynamics demand goes as o
 
 **Inverting for the speed at which the nozzle alone can no longer hold ten degrees of sideslip gives 342.2 knots**,
 which is above anything this aircraft ever flew.
-**So across its entire envelope the nozzle alone was sufficient**, and the split ailerons were margin and
-redundancy rather than necessity.
+**So across its entire envelope the nozzle alone was sufficient.**
+
+### What the Split Ailerons Actually Contribute, Which Is Less Settled Than It Looks
+
+A split aileron opens above and below to add drag on one wing, and the yawing moment is that drag increment
+acting at its spanwise centroid,
+
+$$N_{\text{dr}} = q \, S_p \, \Delta C_D \, y$$
+
+where $S_p$ is the panel area and $y$ the arm, here 1.111 metres at 35 percent of span.
+
+**The drag increment is the whole answer and it is not published**, so it is bracketed across the range a
+split surface can produce, from lightly cracked to fully opened.
+
+| Drag increment | Moment at 243 kt as a share of the nozzle | Speed at which it equals the nozzle |
+|---|---|---|
+| 0.10 | 22.1 percent | 517.4 kt |
+| 0.30 | 66.2 percent | 298.7 kt |
+| 0.60 | 132.4 percent | 211.2 kt |
+
+**This changes what can honestly be said, and the earlier version of this article said more than the arithmetic supports.**
+At the bottom of the bracket the nozzle dominates everywhere and the split ailerons really are margin.
+**At the top they overtake the nozzle inside the flight envelope, at 211.2 knots, and become the primary yaw effector at high speed.**
+
+**The bracket spans a factor of six and the conclusion flips inside it, so the correct statement is that it is not determined by public information.**
+What survives is the structural claim, which does not depend on the increment at all.
+**The nozzle's authority is flat with speed and the drag rudder's rises as the square of it**, so whatever
+the crossover speed is, the nozzle owns the low-speed end and the split ailerons own the high-speed end.
+**That is the complementarity the configuration was built around, and it holds across the whole bracket.**
 
 **The complementarity is the general lesson and it survives the particular numbers.** A tailless aircraft
 needs an effector whose authority does not vanish with dynamic pressure, precisely because the condition it
@@ -541,6 +662,15 @@ dynamics were running at nearly twice full-scale speed while it did.
 **Thirty-one flights in twenty-five weeks is one flight every 5.6 days**, which for a research aeroplane
 with no pilot aboard and a half-hour endurance is a brisk rate rather than a leisurely one.
 
+**The fuel load and the mean sortie together imply a fuel flow, which is a check on the engine class rather than a datum.**
+A mean sortie of 1,815 seconds burning 180 pounds gives
+
+$$\dot{w}_f = \frac{180}{1815/3600} = 356.9 \ \text{lb/h} \qquad \Rightarrow \qquad \frac{\dot{w}_f}{T} = 0.510$$
+
+**A mean thrust specific fuel consumption of 0.510 pounds per pound force per hour is right for a small turbofan**,
+which it would not be if either published figure were wrong by much. **It is a weak check and it passes**,
+and the article reports it as weak rather than dressing it up.
+
 ### The Second Programme, Which Is Usually Left Out
 
 In December 1998 the aircraft flew twice more, carrying the Air Force Research Laboratory's
@@ -587,9 +717,17 @@ control law could work out for itself how to fly one whose effectors had changed
 | What is the radar cross section? | Neither, wavelength governs | **No** |
 
 **The middle rows are the honest difficulty and they deserve more than a shrug.** The Reynolds penalty is a
-factor of 6.749, which sounds fatal until both numbers are computed. The model at its maximum speed runs at
-a Reynolds number of about **8.81 million** on the mean chord, **3.988 million** on approach, and the
-full-scale aircraft at the corresponding condition would run at about **59.46 million**.
+factor of 6.749, which sounds fatal until both numbers are computed. The Reynolds number needs the
+viscosity, which follows from Sutherland's law rather than from a table,
+
+$$\mu = \mu_0 \left(\frac{T}{T_0}\right)^{3/2} \frac{T_0 + 110.4}{T + 110.4} = 1.7894 \times 10^{-5} \ \text{Pa s}$$
+
+$$\mathrm{Re} = \frac{\rho V \bar{c}}{\mu} = \frac{1.225 \times 125.0 \times 1.029}{1.7894 \times 10^{-5}} = 8.81 \times 10^{6}$$
+
+so the model runs at **8.81 million** on the mean chord at maximum speed and **3.988 million** on approach,
+while the full-scale aircraft at the corresponding condition would run at
+
+$$\mathrm{Re}_f = \frac{\mathrm{Re}_m}{\lambda^{3/2}} = \frac{8.81 \times 10^{6}}{0.1482} = 59.46 \times 10^{6}$$
 
 **Both of those are deep in the fully turbulent regime.** The penalty does not move the model into a
 different flow regime for attached flow, which is a genuine and slightly surprising mitigation.
@@ -615,6 +753,92 @@ speed. Nothing compressible happens there, and nothing compressible could be lea
 - [Reynolds number effects on the aerodynamics of a body with...][research_daniel_zollars_1984]
 - [Viscous-inviscid analysis of transonic and low Reynolds...][research_drela_giles_1986]
 - [Design and wind tunnel test of a high performance low...][research_evangelista_pfenninger_1987]
+
+### Turning, Which Gives the Time Compression a Second Witness
+
+**The published load factor limit is enough to compute the aircraft's turn performance, and doing so produces the scaling result a second time from an entirely different quantity.**
+A level turn at load factor $n$ has
+
+$$\dot\psi = \frac{g\sqrt{n^{2} - 1}}{V} \qquad R = \frac{V^{2}}{g\sqrt{n^{2} - 1}}$$
+
+| Speed | Turn rate | Radius | Rate expressed at full scale |
+|---|---|---|---|
+| 110 kt | 48.64 deg/s | 67 m | 25.74 deg/s |
+| 160 kt | 33.44 deg/s | 141 m | 17.70 deg/s |
+| 243 kt | 22.02 deg/s | 325 m | 11.65 deg/s |
+
+**The last column is the point.** Turn rate goes as one over speed, speed scales as the square root of the
+scale factor, so **turn rate scales as one over that square root, which is 1.8898 again.** The model turns
+visibly faster than the aeroplane it represents, in exactly the ratio that its divergences develop faster
+and its delay budget shrinks.
+**Three different quantities, one factor, and the article did not have to assume it for any of them.**
+
+The corner speed, where the load factor limit meets the lift limit, follows from the same figures,
+
+$$V^{*} = \sqrt{\frac{2 n W}{\rho S C_{L\max}}} = 210.8 \ \text{kt}$$
+
+**which sits below the 243 knot maximum**, so the aircraft could reach the most demanding point of its own
+manoeuvre envelope.
+
+- [HiMAT - A new approach to the design of highly maneuverable...][research_bellmandr_kierda_1974]
+- [Instrumentation and control system for an F-15 stall/spin][research_pittsfl_holmesdce_1974]
+- [Hypersonic Viscous Shock Layer Calculation of Leeward...][research_adams_1977]
+- [The Influence of Aerodynamic Interference on High Angle of...][research_nelson_mouch_1978]
+- [Wake vortex measurements of bodies at high angle of attack][research_owen_johnson_1978]
+- [Backup flight control system for a highly maneuverable...][research_hoyt_kempel_1980]
+- [Stall/spin flight results for the remotely piloted spin...][research_iliff_1980]
+- [Flow visualization of high angle of attack vortex wake...][research_nelson_1985]
+- [Exploratory investigation of deflectable forebody strakes for...][research_rao_murri_1986]
+- [Forebody vortex management for yaw control at high angles of...][research_raodm_moskovitzc_1986]
+- [Forebody vortex management for yaw control at high angles of...][research_rao_moskovitz_1987]
+- [High angle of attack subsonic non-linear vortex flow...][research_rom_almosnino_1987]
+- [Influence of the aspect ratio on the aerodynamics of the...][research_zohar_erel_1988]
+- [Near optimal feedback control for nonlinear aerodynamic...][research_patten_1988]
+- [Vortex filament model of the wake behind a missile at high...][research_vantuyl_1988]
+- [Wing vortex-flows up into vortex breakdown - A numerical...][research_hitzel_1988]
+- [Experimental investigation of the high angle of attack...][research_meyerhf_yiplp_1989]
+- [Low speed wind tunnel investigation of the flow about delta...][research_jarrah_1989]
+- [Numerical simulation of reversed flow over a supersonic delta...][research_webster_shang_1989]
+- [Roll response criteria for high maneuverable aircraft using...][research_innocenti_1989]
+- [Numerical simulation of the effects of variation of angle of...][research_ekaterinaris_schiff_1990]
+- [High angle of attack control law development for a...][research_wendel_boland_1991]
+- [Volume II. Flying Qualities Flight Testing Phase. Chapter 10...][research_airforcetestpilotschooledwardsafbca_1991]
+- [Forebody vortex control for suppressing wing rock on a...][research_suarezcarlosj_kramerbrianr_1992]
+- [Forebody vortex control with miniature, rotatable nose-boom...][research_suarezcarlosj_malcolmgeraldn_1992]
+- [Full Navier-Stokes calculations on the installed F/A-18 inlet...][research_brunsjamese_smithcf_1992]
+- [Maximizing thrust-vectoring control power and agility metrics][research_galor_1992]
+- [Aerodynamic control of NASP-type vehicles through vortex...][research_suarezcarlosj_smithbrookec_1993]
+- [An investigation of fighter aircraft agility][research_valasekjohn_downingdavidr_1993]
+- [Instantaneous structure of vortex breakdown on a delta wing...][research_towfighi_rockwell_1993]
+- [Mathematical phenomenology for thrust-vectoring-induced...][research_galor_baumann_1993]
+- [Side force augmentation at high angle of attack from...][research_cornelius_lucius_1993_b]
+- [Structure of vortex breakdown on a pitching delta wing][research_visbal_1993]
+- [The evaluation of several agility metrics for fighter...][research_ryangeorgewiii_downingdavidr_1993]
+- [F/A-18 and F-16 forebody vortex control, static and...][research_kramerbrian_smithbrooke_1994]
+- [Hybrid structured/unstructured grid computations for the...][research_roberttbiedron_davidlwhitaker_1994]
+- [Incorporating agility flight test metrics concurrently into...][research_incorporating_agility_1994]
+- [Prediction of vortex breakdown effects on a rolling delta wing][research_prediction_of_1994]
+- [Side force augmentation at high angle of attack from...][research_cornelius_lucius_1994]
+- [Vortex breakdown control by delta wing geometry][research_lowson_riley_1994]
+- [Active control of vortex breakdown over a delta wing][research_gursul_srinivas_1995]
+- [Identification of an unsteady aerodynamic stall model from...][research_fischenberg_1995]
+- [Numerical simulation of spiral vortex breakdown above a delta...][research_visbal_1995]
+- [Transient structure of vortex breakdown on a delta wing][research_lin_rockwell_1995]
+- [View of a breakdown - Scientific visual analysis of vortex...][research_schaeffler_rediniotis_1995]
+- [Vortex breakdown control by delta wing geometry][research_lowson_riley_1995]
+- [Design of Nonlinear Autopilots for High Angle of Attack...][research_menon_yousefpor_1996]
+- [Determination of aircraft stall margins during takeoff][research_kofman_becus_1996]
+- [Difficulties in predicting vortex breakdown effects on a...][research_ericsson_1996]
+- [Flight determination of configurational effects on aircraft...][research_singh_jategaonkar_1996_b]
+- [Multiple-actuator control of vortex breakdown on a pitching...][research_vorobieff_rockwell_1996]
+- [Adaptive, split-flap actuator for retreating blade stall...][research_rusovici_cudney_1997]
+- [Computed Unsteady Structure of Spiral Vortex Breakdown on a...][research_visbal_1997]
+- [Evaluation of Gritting Strategies for High Angle of Attack...][research_hallrobertm_ericksongarye_1998]
+- [Roll-Yaw Control at High Angle of Attack by Forebody...][research_pedreiro_rock_1998]
+- [Prediction of Vortex Breakdown Location on a Banked Delta Wing][research_pelletier_nelson_2000]
+- [Control of Aircraft Stall via Embedded Pressure Sensors and...][research_patel_prince_2002]
+- [Vortex Structure on a Delta Wing at High Angle of Attack][research_ozgoren_sahin_2002]
+- [Simple Engineering Model for Delta-Wing Vortex Breakdown][research_greenwell_2003]
 
 ### The Envelope That Was Opened Rather Than Reached
 
@@ -3569,12 +3793,7 @@ sizing section are inversions or brackets rather than readings, and each says so
 - [On constrained control of fin, rudder or combined fin-rudder...][research_perez_goodwin_2004]
 - [Rudder-roll damping effect by control of the rudder command...][research_nicolau_miholca_2004]
 - [Feedback Control Design for Counterflow Thrust Vectoring][research_collinsjr_2005]
-- [Comparison and analysis of pilot-induced oscillation...][research_nguyen_cord_1999]
-- [H ∞ Optimal Controller of Aircraft Roll Dynamics with Time...][research_tokutake_ohta_1999]
-- [Effects of Noise and Time Delay Upon Active Control of...][research_zinn_neumeier_2001]
-- [On oscillation of a food-limited population model with time...][research_berezansky_braverman_2003]
-- [Milling Model With Variable Time Delay][research_long_balachandran_2004]
-- [Pilot-Induced Oscillation Analysis with Actuator Rate...][research_katayanagi_2004]
+
 - [RESEARCH AND REPORTS ON LAMINAR FLOW BOUNDARY LAYER CONTROL...][research_northropaircraftinchawthorneca_1956]
 - [The Free Flight Aerodynamics Range][research_braun_1958]
 - [DETERMINATION OF THE SINES ON A SPHERE-CONE AT ANGLE OF...][research_harris_1963]
@@ -3636,65 +3855,7 @@ sizing section are inversions or brackets rather than readings, and each says so
 - [Time-Accurate Numerical Prediction of Free Flight...][research_sahu_2005]
 - [Aerodynamic Simulation of Runback Ice Accretion][research_broerenandyp_whalenedwarda_2010]
 - [Aerodynamic Simulation of Ice Accretion on Airfoils][research_broerenandyp_addyharoldejr_2011]
-- [HiMAT - A new approach to the design of highly maneuverable...][research_bellmandr_kierda_1974]
-- [Instrumentation and control system for an F-15 stall/spin][research_pittsfl_holmesdce_1974]
-- [Hypersonic Viscous Shock Layer Calculation of Leeward...][research_adams_1977]
-- [The Influence of Aerodynamic Interference on High Angle of...][research_nelson_mouch_1978]
-- [Wake vortex measurements of bodies at high angle of attack][research_owen_johnson_1978]
-- [Backup flight control system for a highly maneuverable...][research_hoyt_kempel_1980]
-- [Stall/spin flight results for the remotely piloted spin...][research_iliff_1980]
-- [Flow visualization of high angle of attack vortex wake...][research_nelson_1985]
-- [Exploratory investigation of deflectable forebody strakes for...][research_rao_murri_1986]
-- [Forebody vortex management for yaw control at high angles of...][research_raodm_moskovitzc_1986]
-- [Forebody vortex management for yaw control at high angles of...][research_rao_moskovitz_1987]
-- [High angle of attack subsonic non-linear vortex flow...][research_rom_almosnino_1987]
-- [Influence of the aspect ratio on the aerodynamics of the...][research_zohar_erel_1988]
-- [Near optimal feedback control for nonlinear aerodynamic...][research_patten_1988]
-- [Vortex filament model of the wake behind a missile at high...][research_vantuyl_1988]
-- [Wing vortex-flows up into vortex breakdown - A numerical...][research_hitzel_1988]
-- [Experimental investigation of the high angle of attack...][research_meyerhf_yiplp_1989]
-- [Low speed wind tunnel investigation of the flow about delta...][research_jarrah_1989]
-- [Numerical simulation of reversed flow over a supersonic delta...][research_webster_shang_1989]
-- [Roll response criteria for high maneuverable aircraft using...][research_innocenti_1989]
-- [Numerical simulation of the effects of variation of angle of...][research_ekaterinaris_schiff_1990]
-- [High angle of attack control law development for a...][research_wendel_boland_1991]
-- [Volume II. Flying Qualities Flight Testing Phase. Chapter 10...][research_airforcetestpilotschooledwardsafbca_1991]
-- [Forebody vortex control for suppressing wing rock on a...][research_suarezcarlosj_kramerbrianr_1992]
-- [Forebody vortex control with miniature, rotatable nose-boom...][research_suarezcarlosj_malcolmgeraldn_1992]
-- [Full Navier-Stokes calculations on the installed F/A-18 inlet...][research_brunsjamese_smithcf_1992]
-- [Maximizing thrust-vectoring control power and agility metrics][research_galor_1992]
-- [Aerodynamic control of NASP-type vehicles through vortex...][research_suarezcarlosj_smithbrookec_1993]
-- [An investigation of fighter aircraft agility][research_valasekjohn_downingdavidr_1993]
-- [Instantaneous structure of vortex breakdown on a delta wing...][research_towfighi_rockwell_1993]
-- [Mathematical phenomenology for thrust-vectoring-induced...][research_galor_baumann_1993]
-- [Side force augmentation at high angle of attack from...][research_cornelius_lucius_1993_b]
-- [Structure of vortex breakdown on a pitching delta wing][research_visbal_1993]
-- [The evaluation of several agility metrics for fighter...][research_ryangeorgewiii_downingdavidr_1993]
-- [F/A-18 and F-16 forebody vortex control, static and...][research_kramerbrian_smithbrooke_1994]
-- [Hybrid structured/unstructured grid computations for the...][research_roberttbiedron_davidlwhitaker_1994]
-- [Incorporating agility flight test metrics concurrently into...][research_incorporating_agility_1994]
-- [Prediction of vortex breakdown effects on a rolling delta wing][research_prediction_of_1994]
-- [Side force augmentation at high angle of attack from...][research_cornelius_lucius_1994]
-- [Vortex breakdown control by delta wing geometry][research_lowson_riley_1994]
-- [Active control of vortex breakdown over a delta wing][research_gursul_srinivas_1995]
-- [Identification of an unsteady aerodynamic stall model from...][research_fischenberg_1995]
-- [Numerical simulation of spiral vortex breakdown above a delta...][research_visbal_1995]
-- [Transient structure of vortex breakdown on a delta wing][research_lin_rockwell_1995]
-- [View of a breakdown - Scientific visual analysis of vortex...][research_schaeffler_rediniotis_1995]
-- [Vortex breakdown control by delta wing geometry][research_lowson_riley_1995]
-- [Design of Nonlinear Autopilots for High Angle of Attack...][research_menon_yousefpor_1996]
-- [Determination of aircraft stall margins during takeoff][research_kofman_becus_1996]
-- [Difficulties in predicting vortex breakdown effects on a...][research_ericsson_1996]
-- [Flight determination of configurational effects on aircraft...][research_singh_jategaonkar_1996_b]
-- [Multiple-actuator control of vortex breakdown on a pitching...][research_vorobieff_rockwell_1996]
-- [Adaptive, split-flap actuator for retreating blade stall...][research_rusovici_cudney_1997]
-- [Computed Unsteady Structure of Spiral Vortex Breakdown on a...][research_visbal_1997]
-- [Evaluation of Gritting Strategies for High Angle of Attack...][research_hallrobertm_ericksongarye_1998]
-- [Roll-Yaw Control at High Angle of Attack by Forebody...][research_pedreiro_rock_1998]
-- [Prediction of Vortex Breakdown Location on a Banked Delta Wing][research_pelletier_nelson_2000]
-- [Control of Aircraft Stall via Embedded Pressure Sensors and...][research_patel_prince_2002]
-- [Vortex Structure on a Delta Wing at High Angle of Attack][research_ozgoren_sahin_2002]
-- [Simple Engineering Model for Delta-Wing Vortex Breakdown][research_greenwell_2003]
+
 - [Correlation of Predicted and Flight Derived Stability and...][research_weilj_1981]
 - [High angle-of-attack characteristics of a forward-swept wing...][research_graftonsb_gilberwp_1982]
 - [Investigation of the gas density distribution in the vortex...][research_alferov_vernikova_1982]
