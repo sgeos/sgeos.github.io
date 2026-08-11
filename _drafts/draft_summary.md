@@ -17,6 +17,38 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## Two Ways of Doing One Thing A370 2026-08-07
+
+`two_calling_conventions.markdown`, A370, editorial date 2026-08-07, series `keleusma_native` index 2 of
+an open-ended series, categories `engineering compilers verification`.
+
+**8,937 words, 21 display equations, 53 reference definitions, 15 sections and 24 subsections.** Not
+published.
+
+**Brought in from the Keleusma working tree and then given two distinct jobs**, which were to bring it to
+house standards and to retarget it for a general audience.
+
+**STANDARDS.** Twenty-five prose colons and seven prose semicolons removed by restructuring. Ten italic
+emphasis spans converted to bold, matching current practice and the direct predecessor A369, which uses
+none. Six acronyms given first-use spell-outs. The reference block consolidated from three
+`Reference, ...` subheadings into the corpus convention of a single sorted `Reference`. **Colons inside
+verbatim citation titles were left alone**, because A369 carries 846 of them across 3,415 entries, so they
+are established practice in this series rather than a defect.
+
+**RETARGETING.** The title changed to lead with plain words while keeping the memorable second half. **The
+lede now leads with the counting argument, which needs no specialist knowledge**, rather than with compiler
+backends. A **How to read this** section names the three sections a general reader can take and stop, and
+states that the mathematics is optional because every display is preceded by the same claim in words. Seven
+jargon terms are glossed at first use, being backend, host, chunk, stack frame, bytecode, lowering and
+register.
+
+**One error of mine caught on re-reading.** The new lede first said twenty of twenty-odd instances had the
+inviting shape, where the figure that actually misled was **nine of nine**, and a leftover sentence from
+the old lede had been glued onto a new paragraph.
+
+**Remaining work**: the pilot's call. The article is complete and internally verified, and it has not been
+through the four-pass review the X-Planes articles get, because it did not arrive that way.
+
 ## X-Planes McDonnell Douglas X-36 A333 2025-11-11
 
 `x_planes_mcdonnell_douglas_x36.markdown`, A333, editorial date 2025-11-11, series `x_planes` index
