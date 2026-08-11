@@ -116,3 +116,33 @@ See [Style Verification](./STYLE_VERIFICATION.md) for the batch URL-check script
 - [Style Verification](./STYLE_VERIFICATION.md) for the verification scripts
 - [Publication Review](./PUBLICATION_REVIEW.md) for the broader review pass
 - [Style Guide](../writing/STYLE_GUIDE.md) for reference link conventions
+
+
+## Citation Verification Cadence
+
+Two different questions, two different tools, and neither subsumes the other.
+
+| Question | Tool | Cost |
+|---|---|---|
+| Does the identifier resolve at all from here? | `python3 _lib/resolve.py <post> [sample] [seed]` | seconds to minutes |
+| Does it resolve to **the work it is cited as**? | `python3 _verify_citations.py` | roughly one lookup per second, cached |
+
+**`_verify_citations.py` is network-dependent and deliberately outside the deploy path**, so nothing
+runs it automatically and nothing will remind you. **Run it after any pass that adds references**, and
+record the run in the table below.
+
+It reports per article as well as in total. That matters because the corpus is extremely uneven: on
+2026-08-11, two articles carried **92 percent of all 4,036 DOI citations**, at 1,960 and 1,759, so a
+single corpus verdict says almost nothing about the other 47 posts and buries whichever of the two is
+worse.
+
+**An HTTP 200 does not verify a citation.** `_lib/resolve.py` answers only the weaker question, and it
+treats bot mitigation as resolution because publishers return 202 and 403 to robots and a Defense
+Technical Information Center deposit refuses the connection outright. On a 250-record sample, 8.8
+percent of identifiers resolved only through the issuing registry and every one was correct.
+
+### Run record
+
+| Date | Scope | Result |
+|---|---|---|
+| 2026-08-11 | Whole corpus, first run covering A369 and A370 | See the TASKLOG entry for that date |

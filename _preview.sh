@@ -31,6 +31,12 @@
 #     ./_preview.sh 8080       # custom port
 #     DRAFTS=1 ./_preview.sh   # include drafts (may fail, see above)
 #     FUTURE=0 ./_preview.sh   # match the live site: hide forward-dated posts
+#
+# THIS SCRIPT SHOWS YOU A PAGE. IT DOES NOT TELL YOU WHETHER THE DEPLOY WILL
+# PASS. It ends in `jekyll serve --watch`, which never returns, so no check can
+# run after it, and the rendered-output audit CI runs is therefore not run here.
+# Use ./_check.sh for that; it runs _verify.py, a production build and
+# _lib/render.py in the same order CI does.
 
 set -eu
 

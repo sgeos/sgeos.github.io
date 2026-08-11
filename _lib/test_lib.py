@@ -23,6 +23,7 @@ import lint
 import refs
 import reflow
 import render
+import resolve
 
 FM = ('---\nlayout: post\nmathjax: true\ncomments: true\ntitle: "T"\n'
       "date: 2026-08-06 09:00:00 +0000\ncategories: engineering\n---\n")
@@ -995,6 +996,64 @@ def t_render_reports_unbalanced_display_math():
     rows = render.audit_html(r"<p>text</p> \[x = 1")
     assert any(n == "math-display-unbalanced" for n, _c, _e in rows), rows
     assert render.audit_html(r"<p>text</p> \[x = 1\]") == []
+
+
+
+
+def t_resolve_treats_bot_mitigation_as_resolution():
+    """AN HTTP FAILURE IS USUALLY NOT A CITATION FAILURE.
+
+    Publishers run bot mitigation. IEEE answers 202, several others answer 403, and a Defense
+    Technical Information Center deposit refuses the connection outright. On a 250-record
+    sample of A370, 22 identifiers, being 8.8 percent, failed by HTTP and every one was
+    registered and correct. Treating those as broken would condemn one reference in eleven.
+    """
+    for code in (200, 202, 301, 302, 303, 307, 308, 401, 403, 418):
+        assert code in resolve.ACCEPTED, code
+    for code in (404, 410, 500):
+        assert code not in resolve.ACCEPTED, code
+
+
+def t_resolve_extracts_only_identifier_bearing_definitions():
+    """A reference block mixes specifications and documentation with registered identifiers."""
+    text = ("[research_a_2020]: https://doi.org/10.1000/abc\n"
+            "[ref_spec]: https://example.org/spec.html\n"
+            "[research_b_2021]: https://dx.doi.org/10.1000/xyz\n")
+    got = resolve.identifiers(text)
+    assert set(got) == {"research_a_2020", "research_b_2021"}, got
+
+
+def t_resolve_sampling_requires_a_seed_and_is_reproducible():
+    """AN UNSEEDED SAMPLE IS NOT A REPRODUCIBLE MEASUREMENT.
+
+    A reviewer has to be able to check exactly which records were read. The seed is therefore
+    required rather than defaulted, the same rule `gate.audit` follows.
+    """
+    text = "".join(f"[research_x{i}_2020]: https://doi.org/10.1000/{i}\n" for i in range(40))
+    try:
+        resolve.sweep(text, sample=5)
+    except ValueError as e:
+        assert "seed" in str(e), e
+    else:
+        raise AssertionError("sampling without a seed must raise")
+
+    # No network in tests, so the SELECTION path is exercised rather than the sweep itself.
+    import random
+    anchors = sorted(resolve.identifiers(text))
+    a = random.Random(11).sample(anchors, 3)
+    b = random.Random(11).sample(anchors, 3)
+    assert a == b, (a, b)
+
+
+def t_resolve_summarise_reports_the_registry_only_fraction():
+    """THE FIGURE A READER NEEDS IS HOW OFTEN CLICKING FAILS ON A CORRECT CITATION."""
+    rows = [{"anchor": "a", "url": "u", "resolved": True, "route": "http", "status": 200},
+            {"anchor": "b", "url": "u", "resolved": True, "route": "registry", "status": 404},
+            {"anchor": "c", "url": "u", "resolved": False, "route": "", "status": 404}]
+    s = resolve.summarise(rows)
+    assert s["total"] == 3 and s["resolved"] == 2, s
+    assert s["via_registry"] == 1 and abs(s["registry_only_fraction"] - 1 / 3) < 1e-9, s
+    assert len(s["failed"]) == 1 and s["failed"][0]["anchor"] == "c", s
 
 
 

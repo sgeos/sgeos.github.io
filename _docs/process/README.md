@@ -18,6 +18,7 @@ Development process, content workflow, and human-AI communication protocol.
 | [Research Sweep Store](../../_research/README.md) | Durable rejection records and homonym patterns for literature sweeps |
 | [Article Tooling Library](../../_lib/README.md) | Shared fetch, edit, reference, reflow and lint mechanism for article scripts |
 | [Style Verification](./STYLE_VERIFICATION.md) | Verification scripts for style, references, math, and URLs |
+| [Verification Traps](./VERIFICATION_TRAPS.md) | Mistakes the working method has actually made, and the observation that caught each one |
 | [Sister Session](./SISTER_SESSION.md) | Coordination when a second session drafts in parallel |
 | [Communication](./COMMUNICATION.md) | Bidirectional human-AI communication protocol |
 | [Git Strategy](./GIT_STRATEGY.md) | Commit conventions and the two-commit publication pattern |

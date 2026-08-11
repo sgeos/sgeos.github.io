@@ -21,6 +21,7 @@ Exit codes: 0 clean, 1 suspected mismatches or unregistered DOIs.
 """
 
 import argparse
+import collections
 import glob
 import json
 import os
@@ -158,6 +159,8 @@ def main():
     ap.add_argument("--limit", type=int, default=0, help="cap new network lookups")
     ap.add_argument("--refresh", action="store_true")
     ap.add_argument("--quiet", action="store_true")
+    ap.add_argument("--verbose-all", action="store_true",
+                    help="list every article, not only those with findings")
     args = ap.parse_args()
 
     items = collect()
@@ -201,6 +204,35 @@ def main():
             print(f"    {r}")
         if len(rows) > 25:
             print(f"    ... and {len(rows) - 25} more")
+
+    # PER-ARTICLE SUMMARY. A flat list over the whole corpus is unactionable once one
+    # article carries thousands of citations. On 2026-08-11 two articles held 92 percent of
+    # the corpus DOIs, at 1,960 and 1,759, so a single corpus verdict says almost nothing
+    # about the other 47 posts and buries whichever of the two is worse.
+    per_post = collections.defaultdict(lambda: collections.Counter())
+    for item in items:
+        rec = cache.get(item["doi"])
+        if not rec:
+            continue
+        verdict, _detail = assess(item, rec)
+        per_post[item["post"]]["checked"] += 1
+        per_post[item["post"]][verdict if verdict in ("mismatch", "nonexistent", "weak")
+                               else ("ok" if verdict == "ok" else "other")] += 1
+    if per_post:
+        print(f"\n-- per article, worst first --")
+        print(f"  {'checked':>8}{'mismatch':>10}{'absent':>8}{'weak':>7}{'rate':>8}  article")
+        def _bad(c):
+            return c["mismatch"] + c["nonexistent"]
+        for name, c in sorted(per_post.items(),
+                              key=lambda kv: (-_bad(kv[1]), -kv[1]["weak"], kv[0])):
+            bad = _bad(c)
+            if not bad and not c["weak"] and not args.verbose_all:
+                continue
+            rate = 100.0 * bad / c["checked"] if c["checked"] else 0.0
+            print(f"  {c['checked']:8d}{c['mismatch']:10d}{c['nonexistent']:8d}"
+                  f"{c['weak']:7d}{rate:7.1f}%  {name[:58]}")
+        clean = sum(1 for c in per_post.values() if not _bad(c) and not c["weak"])
+        print(f"  {clean} of {len(per_post)} article(s) clean of hard and weak findings")
 
     hard = len(problems["mismatch"]) + len(problems["nonexistent"])
     print(f"\n{hard} hard problem(s), {len(problems['weak'])} weak, {len(problems['other'])} other")

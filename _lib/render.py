@@ -138,10 +138,53 @@ def report(site_dir):
     return len(findings)
 
 
+def weights(site_dir, top=15):
+    """Rendered byte size per page, heaviest first, with the corpus distribution.
+
+    NOTHING MEASURED THIS UNTIL A PAGE REACHED 789 KILOBYTES. A comprehensive survey is a
+    deliberate editorial choice and page weight is therefore NOT a defect and NOT gated here.
+    It is reported because the two survey articles sit far outside the distribution of the
+    other 460 pages, and an author should know that before the pattern repeats.
+    """
+    rows = []
+    for root, _dirs, files in os.walk(site_dir):
+        for fn in files:
+            if not fn.endswith(".html"):
+                continue
+            path = os.path.join(root, fn)
+            try:
+                rows.append((os.path.getsize(path), os.path.relpath(path, site_dir)))
+            except OSError:
+                continue
+    rows.sort(reverse=True)
+    return rows[:top], rows
+
+
+def report_weights(site_dir, top=15):
+    heavy, rows = weights(site_dir, top)
+    if not rows:
+        print(f"no pages under {site_dir}")
+        return 0
+    sizes = sorted(sz for sz, _ in rows)
+    total = sum(sizes)
+    median = sizes[len(sizes) // 2]
+    print(f"page weight over {len(rows):,} pages: total {total / 1e6:.1f} MB, "
+          f"median {median / 1024:.0f} KB")
+    print(f"  {'size':>10}  {'x median':>9}  page")
+    for sz, rel in heavy:
+        print(f"  {sz / 1024:9.0f}K  {sz / median:8.1f}x  {rel[:78]}")
+    return 0
+
+
 if __name__ == "__main__":
     import sys
-    site = sys.argv[1] if len(sys.argv) > 1 else "_site"
+    args = [a for a in sys.argv[1:] if not a.startswith("-")]
+    flags = {a for a in sys.argv[1:] if a.startswith("-")}
+    site = args[0] if args else "_site"
     if not os.path.isdir(site):
-        print(f"no such directory: {site}\nusage: python3 _lib/render.py <built-site-dir>")
+        print(f"no such directory: {site}\n"
+              "usage: python3 _lib/render.py <built-site-dir> [--weights]")
         raise SystemExit(2)
+    if "--weights" in flags:
+        raise SystemExit(report_weights(site))
     raise SystemExit(1 if report(site) else 0)

@@ -44,6 +44,17 @@ link-definition ordering, duplicate article numbers, shadowed first categories, 
 prose style, and word-frequency outliers. Every check exists because that defect actually
 shipped. Citation and URL verification needs the network and lives separately.
 
+**Run the whole deploy gate locally:**
+```sh
+./_check.sh              # _verify.py, a production build, then the rendered audit
+./_check.sh --drafts     # include drafts
+./_check.sh --weights    # also report page weight
+```
+
+`_preview.sh` shows you a page and cannot tell you whether the deploy will pass, because it
+ends in `jekyll serve --watch` and nothing can run after it. `_check.sh` runs the same checks
+CI runs, in the same order, into a throwaway directory.
+
 **Audit the rendered output (runs in CI after every build):**
 ```sh
 python3 _lib/render.py _site        # after a jekyll build
