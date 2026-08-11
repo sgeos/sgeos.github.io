@@ -24,7 +24,8 @@ of 72.
 
 4,825 lines, 35 display equations, 1,054 reference definitions, 24,316 words after the draft pass.
 **4,978 lines, 55 display equations, 1,054 reference definitions, 25,489 words after the equation
-review.** Committed, **not pushed**, **not published**.
+review.** **23,447 lines, 55 display equations, 7,170 reference definitions, 128,682 words after
+the publication review.** Committed and **pushed**. **Not published.**
 
 **THE KEYSTONE IS AN EXPERIMENTAL DESIGN RATHER THAN A MEASUREMENT, WHICH IS NEW IN THIS SERIES.**
 Every previous article asked what a number was. This one asks whether an advantage exists, and the
@@ -59,12 +60,46 @@ unknown weight distribution. And the wind-axis roll kinematics show that at seve
 about the velocity vector is **94.0 percent yaw rate**, which explains a sentence in the
 programme's own conclusions that otherwise reads as a correction of itself.
 
+**PUBLICATION PASS, WHICH ALSO CARRIED THE PRIMARY-REFERENCE WORK.** The third pass was not run
+separately, so this one folded it in. **References 1,054 to 7,170 definitions and 981 to 7,097
+cited, with every anchored record now cited and none left over.** The master set grew from 4,889
+records to 7,097 across two harvests aimed at the subjects the equation pass promoted and at the
+contemporary sweep the standing directive asks for.
+
+**THE COUNT-VERSUS-FRACTION TRAP FIRED IN BOTH DIRECTIONS.** The period count rose from 1,221 to
+1,393 while the period fraction fell from 44.9 percent to 19.6, because nearly four thousand
+contemporary records arrived underneath it. Nothing was removed at any point and the Source Base
+states both movements with a table by band.
+
+**FOUR SUBJECTS THE EQUATION PASS PROMOTED HAD NO CLUSTER AT ALL** and each now has a subsection,
+being the standard atmosphere, engine thrust lapse, airspeed systems as a measurement discipline,
+and the axis transformations behind a velocity-vector roll.
+
+**CITATION GAPS 20 TO 7**, and the seven that remain are constructions original to this article,
+namely the weighting identity, the bracket, the tipping weight, the flight-rate bookkeeping and the
+campaign ratio. **Attaching a citation to them would be false attribution**, and the article says
+so in its own words rather than leaving the gap unexplained.
+
+**THREE SELECTION DEFECTS FOUND AND FIXED.** A pattern for the International Standard Atmosphere
+abbreviation matched the journal ISA Transactions, and because the cluster test runs against title
+and venue together, every paper in that journal landed in the atmosphere cluster. A pattern for
+engine models matched a transient heat-transfer study. And the `schedul` anchor stem, added for
+gain scheduling, admitted job-shop and flow-shop scheduling from operations research.
+
+**A SHARED-LIBRARY DEFECT WAS FOUND AND FIXED IN `_lib/refs.py`.** Thirteen records with Chinese,
+Russian and Ukrainian author names produced anchors reading `research___2023`, because the stem was
+built from two folded names that both folded to nothing and the guard did not fire on a bare
+separator. One record's link text rendered as nothing but a year. The library now prefers an author
+name that survives folding, which recovers the records where Crossref supplies both forms, and
+falls back to the title otherwise. `test_lib.py` gained a regression test and stands at **47 of
+47**.
+
 **Verification.** 107 of 107 numerical checks passing with every article-facing value confirmed
 present in the draft, `_verify.py` at the 21-warning baseline with zero errors, check_any clean,
-`_lib/test_lib.py` at 46 of 46, and a 32-article isolated build rendering 16 sections, 88
-subsections, 21 tables and all 55 equations. The reference sweep returned **zero hard failures**
-across all 50 NTRS identifiers, 240 of 811 sampled journal DOIs, 80 of 121 sampled DTIC DOIs, all
-15 books and all 25 curated URLs.
+`_lib/test_lib.py` at 47 of 47, and a 32-article isolated build rendering 16 sections, 93
+subsections, 22 tables and all 55 equations. The final sweep returned **zero hard failures**
+across all 226 NTRS identifiers, 600 of 6,395 sampled journal DOIs, 160 of 478 sampled DTIC DOIs,
+all 15 books and all 25 curated URLs.
 
 ## X-Planes Rockwell X-30 and the National Aero-Space Plane A327 2025-11-05
 

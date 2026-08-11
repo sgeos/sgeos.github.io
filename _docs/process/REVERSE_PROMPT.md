@@ -9,282 +9,160 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A328 equation-density review, the second of four passes. Committed, **not pushed**,
-**not published**.
+**Task**: A328 publication review, which also carried the primary-reference work. Committed and
+**pushed**. **Not published.**
 
-**State: 4,978 lines, 55 display equations, 1,054 reference definitions, 25,489 words**, from
-4,825 lines and 35 equations after the draft pass. References were held and measured before and
-after. All thirty-two articles in the series remain in `_drafts/`.
-
----
-
-## Two Additions Changed What the Article Concludes
-
-**An equation pass usually displays what the prose already said. Two of these did not.**
-
-**THE HEADLINE RESULT SITS ON A KNIFE EDGE.** The draft established that between 81.9 and 93.6
-percent of the aircraft's simulated losses fell in the two conditions where it was behind. Solving
-the same identity for the share that would drive the pooled ratio to **parity** rather than to the
-published 1.83 gives
-
-    w = (8.5 - 1) / (8.5 - 0.36) = 0.9214
-
-and **that threshold lies inside the bracket.** The published figures are therefore consistent with
-weight distributions that produce an overall advantage and with distributions that produce an
-overall disadvantage, and they do not distinguish between them. **The claim of an overall advantage
-is not robust to a quantity the programme never published.** The flight testing is what settles the
-question, and it settles it conditionally, which is what the arithmetic predicts.
-
-**AT SEVENTY DEGREES A ROLL ABOUT THE VELOCITY VECTOR IS 94.0 PERCENT YAW RATE.** Writing the
-kinematics down explains a sentence in the programme's own conclusions that otherwise reads as a
-correction of itself, where the main advantage is called an apparent directional nose-pointing rate
-which is, in actuality, yaw rate. **At seventy degrees those are the same manoeuvre**, and the axis
-that has to supply it is exactly the one whose aerodynamic control has been lost and whose vectored
-control the paddles restore. The article asserted the equivalence and did not have the relation
-that makes it true.
+**Final state: 23,447 lines, 55 display equations, 7,170 reference definitions, 128,682 words.**
+All thirty-two articles in the series remain in `_drafts/`.
 
 ---
 
-## What Else Was Added
+## One Process Note Before Anything Else
 
-The atmosphere ratios and the speed of sound, which every altitude-dependent result rests on and
-none of which appeared. The thrust-lapse model, carried as a sentence only. The true-against-
-equivalent airspeed conversion, with **both routes required to return the same 633.4 pounds per
-square foot** as a check. The load factor from lift and the level-flight speed, which are the
-post-stall table's own columns. The canard contribution, quoted as a bare 0.313. The decibel
-definition for a table column that had none. The impact-pressure relation the iced probe corrupted,
-whose ratio between 170 and 48 knots is **12.735** and independently reproduces the 12.543
-loop-gain factor. The asymmetry expressed as a moment, **32,863 foot-pounds at the measured bound
-and 67,780 at the worst swing**. The separability test and the split relation. The counted rates,
-including **4.06 scored engagements per sortie**, which is the direct product of real-time kill
-determination. The flight tempo. The Pinball campaign ratios, where the offensive condition
-reproduces to **4.3 percent** while slow-speed line abreast differs by **2.999**, so the campaigns
-agree far better in aggregate than anywhere in particular.
+**The primary-reference pass was not requested separately and this review folded it in.** The
+rhythm is draft, then equations, then primary references, then publication. The prompt that arrived
+was the publication-review prompt, and a publication review cannot leave the article publishable
+while 3,908 harvested records sit uncited and twenty displayed equations carry no citation. **The
+reference work was therefore done as part of this pass rather than skipped.**
+
+If a separate reference pass was intended for A328, it has effectively already happened, and the
+next prompt for this series is the A329 draft.
 
 ---
 
-## One Error in My Own Edit
+## The Reference Base
 
-**The asymmetry moment was written as 1,452 foot-pounds per hundredth of coefficient against a true
-4,108**, a factor of 2.8 wrong in a line introduced specifically to make a quantity concrete. It
-was caught by recomputing before committing rather than by any check, which is the argument for
-recomputing every number an edit introduces even when the edit exists only to display a relation
-that was already correct.
+**References 1,054 to 7,170 definitions and 981 to 7,097 cited. Every anchored record is now cited
+and none is left over.**
 
----
+The audit at the start of this pass found **3,908 of 4,889 master records uncited**, which is the
+A327 bookkeeping lesson repeating. Two harvests, one aimed at the subjects the equation pass
+promoted and one at the contemporary sweep the standing directive asks for, took the master to
+7,097.
 
-## The Keystone Is an Experimental Design, Which Is New in This Series
+**THE COUNT-VERSUS-FRACTION TRAP FIRED IN BOTH DIRECTIONS.** The period count rose from 1,221 to
+1,393 while the period fraction fell from 44.9 percent to 19.6, because nearly four thousand
+contemporary records arrived underneath it. **Nothing was removed at any point.** The Source Base
+now carries a table by band so both movements are visible.
 
-**Every previous article asked what a number was. This one asks whether an advantage exists.** The
-X-1 measured a drag rise, the X-15 measured heating, the X-29 measured a divergence boundary. Each
-of those is a quantity with units and an instrument can be pointed at it.
-
-**The X-31's question has no units**, so the only instrument available was a designed sequence of
-adversarial engagements with an outcome recorded for each. That makes the aircraft the first in the
-series whose keystone is an experimental design, and it changes what the programme had to get
-right. A badly chosen starting condition gives a wrong answer about whether a class of aeroplane is
-worth building.
+**Four subjects the equation pass promoted had no cluster at all** and each now has a subsection of
+its own, being the standard atmosphere, engine thrust lapse, airspeed systems as a measurement
+discipline, and the axis transformations behind a velocity-vector roll.
 
 ---
 
-## The Central Result Is Arithmetic on Published Numbers and It Contradicts the Reputation
+## Citation Gaps, and the Seven That Should Stay
 
-**A pooled exchange ratio is not the average of the per-condition ratios.** It is the ratio of sums,
-which makes it the mean of those ratios **weighted by the losses of the denominator side**, so a
-condition in which the aircraft was shot down fourteen times counts fourteen times as heavily as
-one in which it was shot down once.
+**Twenty displayed equations carried no nearby citation and seven still do.** The seven are the
+weighting identity, the two-point bracket, the tipping weight, the same bracket applied to the
+other two comparisons, the flight-rate bookkeeping and the ratio between the two simulation
+campaigns.
 
-**The published overall figure of 1.83 therefore sits 3.514 times below the 6.43 average of the
-four conditions it summarises.** A reader who computes the average from the table and a reader who
-takes the published overall come away with completely different impressions of the same experiment.
-
-**Inverting that identity brackets the weights.** Between **81.9 and 93.6 percent** of the
-aircraft's simulated losses must have fallen in the two starting conditions where it was behind.
-**That bracket owes nothing to any model.** It assumes no counts, no engagement totals and nothing
-about the aeroplane, and Monte Carlo over 26,971 feasible weight vectors reproduces it at 0.8198 to
-0.9356.
-
-**The aircraft loses in two of the four conditions**, at 0.36 defensive and 0.86 high-speed line
-abreast. The popular account does not mention that.
+**Every one of those is a construction original to this article rather than a result taken from a
+source, so attaching a citation would be false attribution.** The article now says that in its own
+words rather than leaving the gap unexplained, and it draws the distinction against the other
+relations, which are standard results and now carry their literature.
 
 ---
 
-## Two of the Four Conditions Could Not Have Settled Anything
+## Three Selection Defects, One of Them Self-Inflicted
 
-**A ratio estimated from a finite number of engagements carries an interval, and the programme
-never published one.** At twelve scored outcomes per condition the defensive result does not
-separate from parity. The high-speed line-abreast ratio of 0.86 sits so close to parity that it
-would need **691 scored outcomes** to separate, against a few dozen flown, while the slow-speed
-line-abreast 16 needs only six.
+**A pattern for the International Standard Atmosphere abbreviation matched the journal ISA
+Transactions.** Because the cluster test runs against title and venue together, every paper in that
+journal landed in the atmosphere cluster. **That is a homonym I created for myself in the previous
+pass**, and it is the same class as the ones the article warns about.
 
-**The programme reached the correct flight-test priority order by judgement**, putting slow-speed
-line abreast first and high-speed line abreast third, from an analysis of which conditions showed
-the largest difference rather than from any consideration of statistical power.
+**A pattern for engine models matched a transient heat-transfer study**, which is a phrase too
+loose to carry the meaning intended.
 
----
-
-## Two Published Reports Were Never Compared and Their Comparison Reproduces the Departures
-
-The programme reported that departures at 58 degrees of angle of attack were caused by yawing-moment
-asymmetries that overcame the vectoring authority. A different report measured those asymmetries at
-a coefficient of 0.080, reaching 0.100 with transition strips and swinging by **0.165 across three
-degrees** in the worst case.
-
-**Setting one equal to the other determines the moment arm, which is not published anywhere.** It
-returns **16.22 feet**, placing the centre of gravity at **60.1 percent** of fuselage length, which
-is exactly where a canard delta's belongs. The inversion could have returned an arm longer than the
-aeroplane and did not, so it is a check rather than a fit.
+**The `schedul` anchor stem, added for gain scheduling, admitted job-shop and flow-shop scheduling
+from operations research.** The contamination was small at two records, and the filter is recorded
+so it carries forward.
 
 ---
 
-## An Effect the Flight-Test Report Describes in Words Is Computable in One Line
+## A Shared-Library Defect, Found on the Page
 
-The report notes that the traditional build-up approach fails when control power comes from the
-engine, and that manoeuvres impossible at thirty thousand feet became possible at twenty.
+**Thirteen records with Chinese, Russian and Ukrainian author names produced anchors reading
+`research___2023`.** The stem was built from two folded author names, both folded to the empty
+string, and the fallback did not fire **because a lone underscore is truthy**. One record's link
+text rendered as nothing but a year.
 
-**Aerodynamic authority is fixed at constant calibrated airspeed while vectored authority follows
-thrust**, so the vectored share falls with altitude for no change of speed whatever. The ratio is
-**0.6462 between thirty and twenty thousand feet, a loss of 35.4 percent.** The test team found the
-answer empirically because nobody had written the ratio down.
+`_lib/refs.py` now prefers an author name that survives folding, which **recovers** the records
+where Crossref supplies both a Cyrillic and a Latin form of the same name rather than discarding
+them, and falls back to the title where no such form exists. `test_lib.py` gained a regression test
+**inserted above the discovery loop** and stands at **47 of 47**.
 
----
-
-## The Accident Is Now Quantified, and the Redundancy Needed Was Free
-
-**Loop gain scales with the ratio of true to indicated dynamic pressure, which is the square of the
-airspeed ratio.** With the indicated airspeed between 48 and 100 knots against a true 170, the loop
-stood at **2.890 to 12.543 times design** against a conventional gain-margin factor of 1.995. Even
-the least severe reading exceeded the entire margin.
-
-**The failure was detectable from information already displayed.** Angle of attack and airspeed are
-redundant through the lift equation, and the two readings the pilot called out disagreed by **11.2
-degrees**. Expressed as dynamic pressure that is a factor of **2.266, which had already exceeded the
-design gain margin at the moment he spoke.** A second probe would have been heavier. A comparison of
-two signals the aircraft already had would have weighed nothing.
+**This was found by reading the rendered link text, not by any check.** It is the same lesson as
+the two word-boundary variants in the earlier passes.
 
 ---
 
-## The Advantage Is Not What the Summaries Say
+## One Record Dropped Rather Than Weakening a Gate
 
-**It is not a smaller turn radius.** Every radius computed at seventy degrees of angle of attack
-exceeds the 1,171 feet available at corner speed, and below 138 knots the manoeuvre is a descending
-transient rather than a turn.
+**An econometrics working paper on temporal aggregation bias has a title that opens with a
+contraction.** The corpus rule is that link text is prose and prose carries no contractions, and a
+published title cannot be altered without misrepresenting it.
 
-**It is forty degrees of aim-off angle**, which is the difference between a thirty-degree
-conventional limit and a seventy-degree demonstrated one, and which a conventional aircraft can buy
-only by turning its velocity vector through the same angle, taking **1.41 to 3.13 seconds**
-depending on where in the envelope the fight is.
-
-**It costs 4,600 feet of specific energy and 44.7 seconds to repay**, integrated rather than
-estimated, against a single-point estimate that would have said 507 seconds. Forty-five seconds is
-the whole engagement, which is the quantitative form of the programme's own conclusion that the
-technique works only when used selectively.
+**The record was dropped rather than rewritten and rather than weakening the corpus-wide checker.**
+The loss is one record in seven thousand, and it is recorded here rather than hidden.
 
 ---
 
-## Four Errors in My Own Work, All Caught Before Writing
+## Publication Checks
 
-**The integer reconstruction bounded both counts by the same number.** A ratio of sixteen to one
-with three losses on the denominator needs forty-eight on the numerator, so a common bound of forty
-silently forbade every large-denominator realisation. One published set then reported three
-solutions and another reported none, and **both figures were facts about the bound rather than
-about the data**. The article now rests on the weighting identity, which needs no counts at all.
+Prose style clean, with **zero em dashes, zero en dashes, zero contractions, zero prose
+parentheticals, zero prose colons and zero prose semicolons** in the body. Every colon traces to
+the YAML front matter, and the single parenthesis and semicolon to the `console.log` debug tag.
 
-**The rounding tolerance was keyed off magnitude rather than printed precision**, treating a figure
-written "2.8" as though it had been printed to two decimals, which drove one published set to zero
-solutions.
+**Diction clean, and the two flagged items are legitimate rather than filler.** The word `aircraft`
+runs at 8.08 per thousand across 123 uses and `angle of attack` appears 49 times. The first is the
+article's subject noun and the second is its keystone quantity, so both stay and the judgement is
+recorded rather than left implicit.
 
-**The lift curve was extrapolated linearly to seventy degrees**, returning 3.38, roughly twice any
-lift coefficient a delta of this aspect ratio has produced.
+**Acronym spell-out verified.** The National Aeronautics and Space Administration is expanded at
+character 873 against a first acronym use at 14,186, which is itself inside verbatim link text.
 
-**The theory comparison used the unswept slope and explained the disagreement by appealing to the
-canard, which is backwards.** A canard in trim raises the whole-aircraft slope and sweep lowers it.
-**The corrected comparison is stronger than the original**, with the inferred 2.769 per radian
-sitting between a swept 2.278 and an unswept 3.027.
+**Structural conformance confirmed**, with all twelve genre sections present plus the three series
+sections, and The Source Base immediately before Epistemic State.
 
 ---
 
-## The Word-Boundary Family Returned in Two New Variants
+## Final Verification
 
-**Twenty alternation groups closed with a boundary after a stem or a singular**, so a pattern
-reading "agility followed by metric or measure" failed on the phrase "agility metrics", because the
-boundary after "metric" requires a non-word character and "s" is not one.
+**107 of 107 numerical checks passing, none importing the calculation**, with all article-facing
+values confirmed present in the draft.
 
-**Titles use hyphens where the patterns used spaces.** A paper titled "High Angle-of-Attack
-Aerodynamics" fell through to the no-cluster pile, as did "Flush Air-Data Sensing System".
+`_verify.py` at the 21-warning baseline with zero errors, check_any clean, `_lib/test_lib.py` at 47
+of 47, and reference integrity at 7,170 with zero undefined, zero orphaned and zero malformed
+anchors.
 
-**Both were found by reading a random sample of the discarded records rather than by inspecting the
-patterns**, which is the only method that has ever worked for this class of defect.
+**The final set swept with zero hard failures**, including all 226 NTRS identifiers, 600 of 6,395
+sampled journal DOIs, 160 of 478 sampled DTIC DOIs, and all 15 books and 25 curated URLs.
 
----
-
-## A New Variant of the Thin-Heading Rule, and a Whole Literature Missed
-
-**Thirteen cluster-and-era pairs came up short of what the draft cites and twelve were the modern
-half.** The cause was not a thin heading and not a thin subject. **The era was thin**, because the
-harvests asked the modern pool only for the obviously modern subjects and asked the period pool for
-everything else, so the contemporary literature on subjects that existed in 1993 and still exist
-was never requested. A harvest written against that diagnosis moved the modern pool from 1,316
-records to 4,947.
-
-**Separately, two harvests filtered Crossref to journal articles and this aircraft did not publish
-in journals.** It published at meetings of the American Institute of Aeronautics and Astronautics
-and the Society of Experimental Test Pilots. The vehicle cluster stood at eighteen while the two
-most important papers about the programme sat in the registry unqueried. Dropping the filter added
-**638 conference records**.
+**A 32-article isolated build renders the page at 1.71 megabytes, 16 sections, 93 subsections, 22
+tables, 14,619 list items and all 55 equations**, with zero broken anchors and zero empty headings.
 
 ---
 
-## A Flight Log Was Parsed for Distributions Nobody Published
+## What the Article Concludes
 
-The published record gives 580 flights. **The per-flight log in the history's appendix gives the
-distributions**, and parsing it recovers 578 of the published 580 with three sequence numbers
-unrecovered, which accounts for the difference.
+**An exchange ratio is not a property of an aeroplane. It is a property of an engagement**, and the
+adversary has a say in which engagement occurs. The programme measured that with more care than
+anyone had before, and the measurement is usually quoted as a single number by people who did not
+read the table it came from.
 
-**The eighty-four-day stand-down after the accident falls out of the arithmetic rather than out of
-the narrative**, dating the programme's recovery to within a day.
-
----
-
-## Verification
-
-**107 of 107 independent checks passing, none importing the calculation.** The tipping weight is
-reached by bisection on the pooled value rather than in closed form and is asserted to lie inside
-the bracket. The wind-axis shares are checked by rotating a vector. The impact pressure is inverted
-for speed as well as evaluated forward. The aggregation identity is
-tested as a randomised property over 20,000 count vectors, the weight bracket by Monte Carlo against
-the analytic extremes, the binomial endpoints by evaluating the tail rather than repeating the
-bisection, corner speed by scanning the load-factor curve, the moment arm by bisection, the energy
-recovery by integrating forward in time against integration over speed, the eigenvalue by simulating
-the divergence, and the rate limit by generating the sinusoid and differencing it.
-
-`_verify.py` at the 21-warning baseline with zero errors, check_any clean after removing a
-contraction inside a quoted radio call, `_lib/test_lib.py` at 46 of 46, and reference integrity at
-1,054 with zero undefined and zero orphaned anchors.
-
-**The reference set swept with zero hard failures** across all 50 NTRS identifiers, 240 of 811
-sampled journal DOIs, 80 of 121 sampled DTIC DOIs, all 15 books and all 25 curated URLs, after
-replacing two dead Wikipedia targets.
-
-**A 32-article isolated build renders the page at 16 sections, 88 subsections, 21 tables and all 55
-equations.**
-
----
-
-## For the Reference Pass
-
-**20 displayed equations have no nearby citation**, and that is the next pass's material.
-
-**The equation pass promoted subjects again, which is now eleven articles running.** The relations
-added here reach into the standard atmosphere, engine thrust lapse, airspeed-system instrumentation,
-inference on rates from small samples, and flight-dynamics kinematics. None of those was a heading
-the original harvest was written for.
+**The headline figure sits on a knife edge.** Between 81.9 and 93.6 percent of the aircraft's
+simulated losses fell in the two starting conditions where it was behind, and the share that would
+have driven the pooled ratio below parity is 92.14 percent, which lies inside that bracket.
 
 ---
 
 ## Awaiting Instruction
 
-**A328 has completed the draft and equation passes.** Thirty-two of seventy-two drafted, **none
-published**.
+**A328 is complete.** Thirty-two of seventy-two drafted, **none published**.
 
-The next pass is the primary-reference review.
+The next article to draft is **A329, the Boeing X-32**, editorial date 2025-11-07, series index 33.
+**It inverts this one.** The X-31 was a demonstrator that never competed for a production contract
+and answered a research question. The X-32 was a competitor in a procurement, it lost, and the
+question it answers is what a fly-off decides and on what evidence.

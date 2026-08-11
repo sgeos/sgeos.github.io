@@ -507,6 +507,42 @@ def t_clean_strips_latex_from_titles():
     assert refs.clean("plain title") == "plain title"
 
 
+def t_anchor_and_display_survive_non_latin_author_names():
+    """A NAME IN A NON-LATIN SCRIPT MUST NOT PRODUCE A BROKEN ANCHOR.
+
+    `fold` returns the empty string for Chinese, Cyrillic and similar scripts, so an
+    anchor stem built from two such names became a bare underscore, and the `or "anon"`
+    guard did not fire because a lone underscore is truthy. A328 harvested thirteen such
+    records and shipped anchors reading `research___2023` with link text that was, in one
+    case, nothing but a year.
+
+    THE TEST IS INSERTED ABOVE THE DISCOVERY LOOP ON PURPOSE. A327 appended one to the end
+    of this file and it was never collected, and the suite reported a healthy count while
+    silently omitting the new case.
+    """
+    # both author forms present: the folding one must win
+    assert refs.anchor_stem(["Азамов", "Azamov"], "2020", "A pursuit-evasion game") == \
+        "research_azamov_2020"
+    assert refs.display(["Азамов", "Azamov"], "2020", "A pursuit-evasion game") == \
+        "Azamov 2020"
+
+    # no folding form at all: fall back to the title, never to a bare separator
+    stem = refs.anchor_stem(["王", "周"], "2023", "A hierarchical decision making method")
+    assert stem.strip("_") == stem.strip("_") and "__" not in stem, stem
+    assert stem.startswith("research_a_hierarchical"), stem
+    assert refs.display(["王", "周"], "2023", "A hierarchical decision making method") \
+        .startswith("A hierarchical")
+
+    # a placeholder author is not an author
+    assert refs.anchor_stem(["-"], "2023", "Enhancing limited authority") \
+        .startswith("research_enhancing"), refs.anchor_stem(["-"], "2023", "Enhancing limited authority")
+
+    # the ordinary case is untouched
+    assert refs.anchor_stem(["Cobleigh"], "1994", "Yawing moment asymmetry") == \
+        "research_cobleigh_1994"
+
+
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)

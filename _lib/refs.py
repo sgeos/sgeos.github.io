@@ -95,7 +95,7 @@ def shorten(title, limit=58):
 
 def display(authors, year, title, disambiguate=False):
     """Author-year link text, the X-Planes convention."""
-    a = [x for x in (authors or []) if x]
+    a = latin_authors(authors)
     if not a:
         base = clean(" ".join((title or "").split()[:4]))
     elif len(a) == 1:
@@ -113,15 +113,33 @@ def display(authors, year, title, disambiguate=False):
     return clean(out)
 
 
+def latin_authors(authors):
+    """Authors whose names survive ASCII folding, in order.
+
+    A NAME IN A NON-LATIN SCRIPT FOLDS TO THE EMPTY STRING AND THAT PRODUCED BROKEN
+    ANCHORS AND USELESS LINK TEXT. A328 harvested thirteen records with Chinese, Russian
+    and Ukrainian author names and got anchors reading `research___2023`, because the
+    stem was built as `fold(a) + "_" + fold(b)` and both folded away, leaving a bare
+    separator that the `or "anon"` guard did not catch because a lone underscore is
+    truthy. The link text was worse, rendering as a bare surname in a script the rest of
+    the page does not use, and in one case as nothing but a year.
+
+    Crossref frequently supplies BOTH forms of the same name, so preferring the folding
+    ones recovers the record rather than discarding it."""
+    return [x for x in (authors or []) if x and fold(x)]
+
+
 def anchor_stem(authors, year, title, kind="research"):
-    a = [x for x in (authors or []) if x]
+    a = latin_authors(authors) or [x for x in (authors or []) if x]
     if not a:
         stem = slug(" ".join((title or "").split()[:2])) or "anon"
     elif len(a) >= 2:
         stem = f"{fold(a[0])}_{fold(a[1])}"
     else:
         stem = fold(a[0])
-    stem = stem or "anon"
+    # A STEM OF NOTHING BUT SEPARATORS IS EMPTY AND THE OLD GUARD MISSED IT.
+    if not stem.strip("_"):
+        stem = slug(" ".join((title or "").split()[:3])) or "anon"
     return f"{kind}_{stem}_{year}" if year else f"{kind}_{stem}"
 
 
