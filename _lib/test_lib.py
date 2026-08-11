@@ -620,6 +620,23 @@ def t_verify_doi_declines_an_uncheckable_author_rather_than_failing_it():
     assert not any("nosuchname" in citations.fold(a) for a in foldable2)
 
 
+def t_clean_strips_bare_angle_brackets():
+    """A BARE ANGLE BRACKET IS MARKUP AND SURVIVES THE TAG RULE.
+
+    `clean` removes a MATCHED `<...>` pair, so a published title reading "Precision >>
+    Accuracy" keeps both characters. A `>` that reflow places at the start of a line is a
+    markdown blockquote, which is the same family as the unbalanced `$$` and the bare `\(`
+    this file already guards. A331 found one sitting mid-line by luck.
+    """
+    got = refs.clean("Precision >> Accuracy in Probabilistic Risk Assessment")
+    assert ">" not in got and "<" not in got, got
+    assert "Precision" in got and "Accuracy" in got, got
+    # the matched-tag case must still work
+    assert refs.clean("<title>Plain tag form</title>") == "Plain tag form"
+    # and a lone opening bracket must not survive either
+    assert "<" not in refs.clean("Comparison of a < b Under Load")
+
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)

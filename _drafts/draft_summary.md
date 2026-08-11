@@ -17,6 +17,40 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Orbital Sciences X-34 A331 2025-11-09
+
+`x_planes_orbital_sciences_x34.markdown`, A331, editorial date 2025-11-09, series `x_planes` index
+35 of 72.
+
+**10,726 lines, 23 display equations, 3,327 reference definitions, 57,332 words after the draft
+pass**, with all 3,270 master records cited and none left over. Committed, **not pushed**. **Not
+published.** The next pass due is the equation-density review.
+
+**THE KEYSTONE IS NOT A PHYSICAL QUANTITY AND THAT IS NEW IN THIS SERIES.** Every previous article
+dimensioned an aircraft against an unknown with units, conservation laws and instruments. **The
+X-34's binding unknown was cost**, which has none of the three.
+
+**THE PAIR WITH A330 IS EXACT AND INVERTED.** The X-33 was killed by a number it measured. **The
+X-34 was killed by a number it recalculated**, the estimate to complete rising to 348 million
+dollars against 86 budgeted, **a growth of 305 percent**, because reaching acceptable risk required
+the system testing, technical insight and integrated assessment that a low-cost programme removes.
+
+**THREE PUBLISHED ENGINE NUMBERS THAT DO NOT CLOSE, AND THE GAP IS THE CYCLE.** Thrust over total
+flow gives 296.14 seconds against a published 314, and inverting recovers a gas generator flow of
+**5.69 percent**, inside the range the architecture actually uses, with the fractional impulse
+penalty exactly equal to the fractional flow diversion.
+
+**WHERE A330's SCALE INVARIANCE STOPS HOLDING**, which is the best structural result. Minimum gauge
+does not scale, so the gauge is 1.45 times what load needs at the X-33's radius and **4.14 times at
+the X-34's**, and once gauge binds the tank fraction goes as one over the radius. **The X-33's tank
+could stand in for a large vehicle's. The X-34's could not.** The density rescue is a factor of 2.98,
+**exactly the inverse bulk density ratio A330 computed.**
+
+Air launch donates 5.7 percent of an orbital budget while the nozzle benefit recovers **16.0 percent
+of vacuum thrust**. The ablative liner loses 14.8 millimetres per burn, so **a reusable vehicle threw
+away twenty-five combustion chambers a year.** `verify.py` 46 of 46 with 9 independent-route
+agreements.
+
 ## X-Planes Lockheed Martin X-33 A330 2025-11-08
 
 `x_planes_lockheed_martin_x33.markdown`, A330, editorial date 2025-11-08, series `x_planes` index 34
@@ -6432,8 +6466,8 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Forty-four files exist in `_drafts/`. One is a template. One is this summary.
-Thirty-four are the in-progress X-Planes series, A297 through A330, none of them published.
+Forty-five files exist in `_drafts/`. One is a template. One is this summary.
+Thirty-five are the in-progress X-Planes series, A297 through A331, none of them published.
 Eight are the pre-release candidates listed below.
 No stubs remain.
 A79 through A144 have been published.

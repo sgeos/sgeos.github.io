@@ -85,7 +85,11 @@ def clean(s):
     # sequences first, then the dollars, and let the existing brace rule take the rest.
     s = re.sub(r"\\[a-zA-Z]+", " ", s)
     s = s.replace("$", " ")
-    s = re.sub(r"[():;\[\]{}]", " ", s)
+    # A BARE ANGLE BRACKET IS MARKUP AND NOT PROSE. The tag rule above only removes a
+    # MATCHED pair, so a title reading "Precision >> Accuracy" keeps both characters, and a
+    # `>` that reflow happens to place at the start of a line is a blockquote. A331 found
+    # one sitting mid-line by luck rather than by design.
+    s = re.sub(r"[():;\[\]{}<>]", " ", s)
     # `\(` AND `\[` ARE MATHJAX DELIMITERS TOO AND THE COMMAND RULE DOES NOT REACH THEM,
     # because the character after the backslash is punctuation rather than a letter. A328
     # harvested a title reading "\({\mathcal{L}_1}\) Adaptive Loss Fault Tolerance

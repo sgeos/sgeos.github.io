@@ -9,155 +9,153 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A330 publication review, the fourth and final pass. Committed and **pushed**. **Not
-published.**
+**Task**: A331, the Orbital Sciences X-34, drafted. **The draft pass only.** Committed, **not
+pushed**, **not published.**
 
-**Final state: 32,379 lines, 92 display equations, 10,248 reference definitions, 170,821 words**,
-with all 10,186 master records cited and none left over. All thirty-four articles remain in
-`_drafts/`.
-
----
-
-## The Contemporary Survey Was Half the Article's Directive and It Was Behind
-
-**Coverage from 2015 onward stood at 2,179 records and 31.3 percent**, having fallen nine points
-during the primary pass purely because the period count rose underneath it. **Thirteen clusters held
-fewer than twenty-five modern records**, and the worst of them was carrying an argument.
-
-**A harvest took the contemporary half to 5,407 records and 53.1 percent, with 2,845 published from
-2022 onward.** The clusters that moved most were the ones the article's own reasoning depends on,
-being reusability and launch economics, guidance and powered descent, cryogenic insulation,
-manufacturing scale-up, and the buckling literature.
+**State after the draft pass: 10,726 lines, 23 display equations, 3,327 reference definitions,
+57,332 words**, with all 3,270 master records cited and none left over. Thirty-five of seventy-two
+drafted, all in `_drafts/`.
 
 ---
 
-## The Strongest Thing This Pass Found Was Hiding in the Article's Own Sensitivity Table
+## The Keystone Is Not a Physical Quantity, Which Is New in This Series
 
-**The buckling section sweeps a knockdown factor and calls it its least certain assumption. That
-factor comes from a monograph published in 1968, and replacing it has been an active subject ever
-since.** The 1968 values are deliberately conservative lower bounds, and **conservatism in a buckling
-allowable is paid directly in structural mass.**
+**Every previous article dimensioned an aircraft against a physical unknown.** A drag rise, a
+heating rate, a divergence speed, a mass fraction. Those have units, conservation laws and
+instruments.
 
-**What that conservatism is worth on this vehicle depends entirely on whether the wall is a sandwich,
-and the difference between the two answers is a factor of 38.1.** Moving the knockdown from 0.2 to
-0.5 saves **103 pounds** on the composite sandwich, where stiffness is bought with core separation,
-and **3,928 pounds on a metal monocoque of the same geometry**, where the thickness is the stiffness.
+**The X-34's binding unknown was cost.** Cost has none of the three. It has no equation of state, it
+cannot be measured on the article, and every number attached to it is a forecast rather than a
+reading.
 
-**That second figure is 5.24 percent of the burnout mass and 52.8 percent of the entire weight growth
-that cost the Mach 15 objective.**
+**The pair with A330 is exact and inverted.** The X-33's binding quantity was mass, which obeys a
+conservation law, and its demonstrator returned a reading that did not close. **The X-34's
+demonstrator returned a revised estimate.** One programme was killed by a number it measured. The
+other was killed by a number it recalculated.
 
-**So a sandwich is very nearly insulated from the conservatism of a buckling allowable and a metal
-monocoque is not**, which is a second and independent reason the architecture was right and is not
-the reason usually given for it. It holds generally rather than at one point, since **a parity
-sandwich is lighter than the metal monocoque at every knockdown between one twentieth and one,
-tested over twenty thousand values.**
-
-**The uncomfortable corollary is in the article too.** A programme that needed mass, and that cut its
-own speed objective because it could not find any, was sizing structure against a factor known to be
-conservative. Whether better factors were available in the 1990s is not something the article can
-establish, **and the modern literature is evidence that the problem was open rather than that the
-answer existed.**
+**And the programme measured its own keystone.** A restructure plan put the requirement near 348
+million dollars against roughly 86 million budgeted in 1996, **a growth of 305 percent**, and the
+stated reason was that reaching an acceptable level of risk needed more system testing, more
+technical insight and more integrated assessment. **Those are exactly the things a low-cost
+programme removes.** The cost was not eliminated. It was deferred, and the deferral carried
+interest.
 
 ---
 
-## A Second Contemporary Thread, and One Cluster That Is Empty for a Reason
+## Three Published Numbers That Did Not Close, and the Gap Was the Cycle
 
-**The aerospike came back through manufacture rather than through aerodynamics.** A plug engine is a
-great many small chambers and a contoured ramp, and what made it expensive was building it. Additive
-manufacturing removed most of that, which is why the architecture reappeared on small launch vehicles
-rather than large ones. **That is a different kind of afterlife from the tank's**, which came back
-because the problem was understood better.
+**The engine's data sheet gives a vacuum thrust of 60,000 pounds force, a vacuum specific impulse of
+314 seconds and a total mass flow of 91.90 kilograms per second, and those three do not agree.**
+Thrust over total flow gives 296.14 seconds, which is 5.69 percent adrift.
 
-**The vehicle's own cluster holds zero contemporary records and the article now says why.** Sixty
-records carry the X-33 designation and every one predates 2002. **A cancelled programme stops
-generating literature under its own name**, which is the mirror image of A329's finding that a losing
-competitor stops generating it the moment it loses.
+**They are not inconsistent. They describe different flows.** A gas generator dumps its turbine
+exhaust overboard, so the impulse belongs to the chamber flow and the mass flow is what the tanks
+lose. Inverting gives a chamber flow of 86.674 kilograms per second and **a generator flow of 5.226,
+which is 5.69 percent of the total** and lands inside the three to seven percent a gas generator
+actually uses. **An unpublished cycle parameter recovered from three published ones.**
 
----
+**The two percentages are identical and that is an identity rather than a coincidence**, since the
+fractional impulse the cycle costs equals the fractional flow it takes exactly. Tested over twenty
+thousand randomised combinations.
 
-## The Count-Versus-Fraction Trap Caught This Article at Both Ends, in Consecutive Passes
-
-| | After drafting | After the primary pass | After the contemporary pass |
-|---|---|---|---|
-| Research references cited | 5,318 | 6,958 | 10,186 |
-| Period through 2001 | 2,488, 46.8% | 4,018, 57.7% | **4,018, 39.4%** |
-| Contemporary 2015 onward | 2,156, 40.5% | **2,179, 31.3%** | 5,407, 53.1% |
-| Published 2022 onward | 1,141, 21.5% | 1,145, 16.5% | 2,845, 27.9% |
-| Report literature | 1,229, 23.1% | 1,692, 24.3% | **1,692, 16.6%** |
-
-**The primary pass raised the contemporary count by twenty-three and dropped its fraction by nine
-points. The contemporary pass left the period count completely unmoved and dropped its fraction by
-eighteen.** Nothing was ever removed. **The report literature is the clearest case of all**, holding
-at exactly 1,692 records while its share fell from 24.3 percent to 16.6.
-
-The article carries all three columns and says which number moved in each pass.
+**A fourth number closes on the other three.** The propellant load over the flow rate is a 148 second
+burn, against a longest published hot fire of 155, a margin of 1.047. Masses, flow and test duration
+were published separately and describe one vehicle with five percent to spare.
 
 ---
 
-## A Shared-Library Defect the Sweep Exposed
+## The Emblem of the Whole Approach Is a Consumable
 
-**The citation sweep reported one mismatch and the citation was correct.** The record is a
-Chinese-language paper on leakage detection in a composite low-temperature tank, correctly cited,
-correctly rendered, and correctly registered.
+**The Fastrac was cooled ablatively rather than regeneratively, which is a genuine cost argument**,
+because a regenerative chamber is hundreds of brazed passages and an ablative liner is a moulding.
 
-**The cause is that an anchor stem is only a surname when an author survived ASCII folding.** Where
-every author is in a non-Latin script, `refs.anchor_stem` falls back to the title, so the stem
-carries no surname at all, **and `citations.verify_doi` was comparing that title fragment against a
-registry author who also folds to nothing.** The comparison could never succeed, so every
-title-fallback anchor was destined to report a defect.
+**At a tenth of a millimetre per second the liner loses 14.8 millimetres over the 148 second burn**,
+so the consumable layer is centimetres thick and gone at the end. The programme replaced the chamber
+after every flight. **At the planned twenty-five flights a year that is twenty-five combustion
+chambers a year, on a vehicle whose entire purpose was reuse.**
 
-**The honest treatment is to decline the check rather than to fail it.** `verify_doi` now reports
-`author_checked` as false where no registry author survives folding, and the check still bites where
-it can run, confirmed against a deliberately bogus surname. `test_lib` has a case and the suite is
-**50 of 50**.
+**Whether that is cheap depends on what a chamber costs, and the public record does not contain the
+number.** The article computes everything around that hole and says where the hole is.
 
 ---
 
-## One Thing Deliberately Left Alone
+## Where A330's Scale Invariance Stops Holding, Which Is the Best Structural Result
 
-**Four records of nanoscale shell mechanics reached the buckling cluster**, using nonlocal elasticity
-on nanobeams and nanotubes, which is a different theory from the one the article uses. **They were
-left in.** A pattern narrow enough to catch them also catches carbon-nanotube-reinforced ablative
-thermal protection material, which is legitimate aerospace work and is on subject. **Four records in
-ten thousand one hundred and eighty-six is below the level at which a filter does more good than
-harm**, and the widening-has-a-price rule cuts both ways.
+**A330 proved the membrane tank fraction contains no length and concluded that a subscale tank was
+therefore a valid test.** That cancellation holds only while stress sets the thickness.
+
+**Minimum gauge does not scale.** The membrane thickness a pressure needs falls with radius and the
+thinnest manufacturable laminate does not, so at the X-33's 2.15 metre radius the gauge is 1.45
+times what the load asks for and **at the X-34's assumed 0.75 metres it is 4.14 times.** Once gauge
+binds, the tank fraction goes as one over the radius instead of being independent of it, tested as a
+property over twenty thousand random radii and densities.
+
+**So a small demonstrator cannot stand in for a large vehicle's tank fraction. The X-33's tank
+could. The X-34's could not.** Two consecutive articles, the same relation, opposite conclusions,
+both correct.
+
+**And the propellant more than pays for it.** A gauge-limited hydrogen and oxygen tank at that radius
+is 2.44 percent of its propellant against 0.82 for kerosene and oxygen, **a factor of 2.98 which is
+exactly the inverse bulk density ratio A330 computed.** The small vehicle is penalised by its size
+and rescued by what it chose to burn.
 
 ---
 
-## What the Review Checked
+## Two Smaller Results
 
-**Prose style is clean.** Zero em dashes, en dashes, contractions, ellipses and capital emphasis. The
-only semicolon, colon and parenthetical in the whole article are the `console.log` debug tag and the
-table-of-contents marker, which are the permitted locations. Link text was included as prose in every
-scan.
+**Air launch donates less than its own argument claims.** The altitude and speed a carrier supplies
+come to 531.9 metres per second of equivalent velocity, **5.7 percent of an orbital budget.** The
+nozzle benefit is larger, since launching high recovers 42.78 kilonewtons, **16.0 percent of vacuum
+thrust**, nearly three times the energy donation. **And the largest benefit, the ground
+infrastructure never built, has no equation at all.**
 
-**No acronym appears in authorial prose at all**, checked with word boundaries after the reference set
-grew past ten thousand.
+**The cost claim tested both ways on published figures.** Per pound of vehicle, on two programmes
+that both ended without a powered flight, the X-34 spent 2,330 dollars against the X-33's 4,491, so
+it was 1.93 times cheaper. **On the money it would have taken to finish safely it was 7,241 dollars
+per pound, or 1.61 times the X-33's actual spend.** The article says plainly that mass is a poor
+denominator for cost and that it was chosen only because both programmes published one.
 
-**Reference integrity is exact.** 10,248 definitions, zero duplicates, zero undefined uses, zero
-orphans, and **zero punctuation defects across 20,434 visible entries.**
+---
 
-**Mathematics.** 92 display equations, each on one source line, zero split equations, zero wrapped
-inline spans, zero bold spans crossing a line, an even delimiter count, and balanced braces and
-delimiters in every one. `verify.py` reports **110 of 110** with **19 agreements between independent
-routes**.
+## A Second Shared-Library Fix
 
-**The citation sweep is clean and this time there are no mismatches at all.** All **764 NTRS fixed
-identifiers resolved**, **600 of 8,427 sampled journal DOIs** registry-matched with **zero
-mismatches**, **160 of 998 sampled DTIC DOIs** likewise, all 7 books and 19 curated URLs retrieved,
-and **zero search-endpoint citations**. **HARD FAILURES: 0.** The single mismatch the previous sweep
-reported was the checker defect described above, and it does not recur.
+**A verbatim title reading "Precision >> Accuracy" kept both angle brackets**, because `refs.clean`
+removes only a MATCHED tag pair. It happened to sit mid-line, where it renders harmlessly. **A `>`
+that reflow places at the start of a line is a markdown blockquote**, which is the same family as the
+unbalanced dollar pair and the bare MathJax delimiter this library already guards. **The character
+now goes rather than the luck holding.** `test_lib` is **51 of 51**.
 
-**Structure.** All twelve genre sections present and in order, all three series sections present, and
-the Source Base immediately before the Epistemic State.
+---
 
-**Diction.** One phrase sits above the peer median and inside the peer maximum. The two most frequent
-content words are **tank at 8.48 per thousand and mass at 6.73**, which are the article's subject and
-are left alone.
+## Verification
 
-**The isolated build succeeds at 2.31 megabytes** with all 92 equations rendering as display blocks,
-16 sections, 67 subsections, 10 tables, 20,734 list items, zero unfilled markers and zero
-link-definition leakage.
+`verify.py` reports **46 of 46** with **9 agreements between independent routes**, checking the
+inverted gas generator flow forward through the thrust relation, the throat area through the thrust
+coefficient rather than through the characteristic velocity, the constant-gravity approximation
+against an inverse-square integration, and the gauge scaling as a randomised property.
+
+`check_any.py` passes. `_verify.py` holds the baseline at **0 errors and 21 warnings**. Prose style
+is clean with zero em dashes, en dashes, contractions or capital emphasis, and the only semicolon,
+colon and parenthetical are the debug tag and the table-of-contents marker. **6,597 visible reference
+entries with zero punctuation defects**, and zero duplicate, undefined or orphaned definitions.
+
+The isolated 35-article build succeeds at 813 kilobytes with **all 23 equations rendering as display
+blocks**, 16 sections, 50 subsections, 6,875 list items, zero unfilled markers and **zero
+blockquotes**, which was the specific thing the angle-bracket fix was guarding.
+
+---
+
+## Open Concerns
+
+**The tank radius used in the scaling comparison is assumed rather than published**, and the
+comparison moves with it although the direction of the conclusion does not.
+
+**The production cost of the engine's consumable chamber is the hinge of the entire ablative trade
+and is not in the public record.**
+
+**The article treats the 305 percent growth as the price of restoring what low-cost planning
+removed.** A less flattering reading, that the original estimate was simply wrong, is set out in the
+Where the Framing Breaks Down section and is not excluded by anything in the record.
 
 ---
 
@@ -276,11 +274,7 @@ extracted. The article states the limit rather than writing around it.
 
 ## Awaiting Instruction
 
-**A330 is complete through all four passes.** Thirty-four of seventy-two drafted, **none published**.
+**A331 has completed the draft pass only.** Thirty-five of seventy-two drafted, **none published**.
 
-The next article to draft is **A331, the Orbital Sciences X-34**, editorial date 2025-11-09, series
-index 35. **It was cancelled in the same decision as the X-33 and by the same reasoning**, so the
-programme-management reading this article treats as a competing account is the one A331 will have to
-take seriously. The X-34 flew no powered flights either, but unlike the X-33 it was largely complete
-and two airframes survived in storage for years, **which makes it a third kind of never-flew** to set
-beside the X-27's absence of demand and the X-30's absence of knowledge.
+The next pass due is the **equation-density review**. Twenty-three equations is low even for a short
+article, and the ablative recession treatment in particular is a table where it could be a relation.
