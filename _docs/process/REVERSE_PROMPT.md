@@ -9,91 +9,89 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-11
-**Task**: Rendered-output auditing, and repairing `lint.py` so it can be run at all.
-**Committed and pushed.**
+**Task**: A370 correction, acting on `tmp/A370_correction_instructions.md`. **A live article was edited,
+committed and pushed.**
 
 ---
 
-## The Corpus Had No Check That Sees What A Reader Sees
+## Both Defects Are Repaired, And The Second One Was Mine
 
-`_verify.py` and `_lib/lint.py` both read markdown source, so both can only predict what
-kramdown and MathJax will do. **They disagreed with each other and with reality.** Run across
-the corpus, lint reported **1,596 defect-severity findings** and the rendered pages carried
-**none of them**.
+**The widened-return option was published under-costed**, exactly as the instructions state. I verified the
+argument before acting on it rather than transcribing it.
 
-`_lib/render.py` audits built HTML for defects a reader would see, being an unresolved
-`[text][anchor]`, an unexpanded marker, unrendered Liquid, raw `$$`, empty or nested-empty list
-items, double-escaped entities, and unbalanced MathJax delimiters. It runs in CI immediately
-after the build.
+A coroutine resumes at the point it suspended. Under the callback convention that is free because the
+function never returned. Under a return convention the call has ended and nothing survives, which costs
+nothing for the divergent form, since the reset instruction clears every local and the next iteration
+starts from the top, and **is fatal for the terminating form**, because the next call must resume mid-body
+and a function entered at its entry point cannot do that. So the interface is a **triple** carrying a
+continuation, not a pair carrying a tag, and the continuation implies a frame allocation whose lifetime
+spans host execution, which is the property the option was credited with preserving.
 
-**Markup inside `<pre>` and `<code>` is excluded**, because the Jekyll and MathJax tutorial
-posts display that syntax as their subject matter. That exclusion is the difference between
-zero findings and eleven false ones.
-
-**Current state of the corpus: 462 pages, 167 carrying display math, no findings.**
-
-**I proved the gate can fail rather than assuming it.** Injecting one of each defect class into
-a built page produced four findings and exit 1, and restoring the page returned exit 0. A
-checker that has never failed is not evidence of a clean corpus.
+**The option count was my error and it shipped.** The published text said two options remained and then set
+out three. Traced through git, the pre-publication text at `8a53aa3` read "**Remaining, and genuinely
+open:**" with no count. **My pathological-word-usage pass at `21e34c2` replaced that colon-led label with a
+full sentence and invented a count the list never had.** Removing a prose colon introduced a factual error
+into an article that was two commits from going live, and no check I ran afterwards could see it.
 
 ---
 
-## The Math Check Was Wrong Twice And One Error Masked The Other
+## I Found A Third Thing The Instructions Did Not Ask For
 
-This is the part worth carrying forward, because two plausible implementations both produced
-false alarms against correct pages.
+**The correction contradicted another section of the same article, and fixing only the passages listed
+would have shipped that contradiction.**
 
-- **Version one** counted `\[` and `\]` naively. `\\[2mm]` is a LaTeX line break with a spacing
-  argument, legal inside `cases`, and it counted as an opening delimiter. One correct page
-  reported broken.
-- **Version two** excluded any bracket preceded by a backslash. A display block whose last line
-  ends in a line break closes as `\\\]`, so the legitimate closing delimiter was discarded. Two
-  more correct pages reported broken, **and this version hid the first error**.
-- **Version three** is the rule: a bracket is a delimiter exactly when the run of backslashes
-  before it has **odd** length. Under it every math-carrying page in the corpus balances.
+The Contemporary Literature said the convergence of C#, F# and Kotlin on a tagged return is "the strongest
+available evidence for the widened-return option this article identifies". After the correction that
+sentence argues for the under-costed form.
 
-Had I acted on either of the first two, I would have edited three correct published articles.
+**Read carefully, the literature is evidence for the correction.** Not one of those systems returns a bare
+tagged value. Each pairs the tag with a state object that survives the call, the state machine in C# and F#
+and the continuation in Kotlin, precisely because a coroutine that suspends more than once must resume
+mid-body. **They converged on the triple and the article read them as converging on the pair.** That is now
+in the text, and it makes the correction better evidenced than the original claim was.
+
+This is the failure mode A333 hit, where a withdrawn claim survived in two other sections.
 
 ---
 
-## `lint.py` Was Unusable Corpus-Wide And Is Now Clean
+## What Changed
 
-It had never been run over the corpus. Only `_lib/edits.py` and the tests call it. All 1,596
-defect-severity findings were artefacts of two structural assumptions.
+| Location | Change |
+|---|---|
+| The third option | Added the reentrancy argument, the triple interface, and the frame it implies |
+| Cost model | $C_{\mathrm{one}} = (c_{\mathrm{tag}} + c_{\mathrm{frame}}) N$, with $c_{\mathrm{frame}} = 0$ only at most one suspension per call, and the crossover moved down |
+| The 95.83 percent | Now says explicitly it must not be read as the fraction for which a pair suffices |
+| Options list | The frame property is preserved only for at most one suspension per call |
+| Options count | Two to three |
+| The Contemporary Literature | Reconciled with the correction, as above |
+| Epistemic State | Both corrections recorded, including that the corpus could not have exposed the first and that the second came from a later editing pass |
 
-- **`references()` splits on a literal `## References` heading.** Two 2016 posts head their link
-  block `## Links:`, so the block landed in the body, the reference block came back empty, and
-  all 16 of their anchors read as undefined. Every one resolves.
-- **Uses were counted in the body only.** The corpus convention puts the visible
-  `- [text][anchor]` entry inside the References section, so **1,579 references read as defined
-  but never used**.
-- **`unfilled-template` scanned raw text.** `\frac{W_{avail}}{c(t)}` contains the literal bytes
-  `{c(`, so a published article was flagged for dividing by a function of time.
+**No new reference was needed.** `llvm.coro.id.retcon` is cited through the existing
+`ref_llvm_coroutines` anchor.
 
-Anchors are now counted across the whole document, which is what kramdown does, and the
-template check strips math first. **Defect-severity findings across the corpus: 1,596 to 0.**
+---
 
-**The 2,025 convention-severity findings were left exactly as they are.** `lint.py` documents
-that bold spanning a line break, display math on two lines and duplicate reference URLs were
-measured against the corpus and deliberately not promoted to gates because kramdown renders
-them correctly. I did not touch that judgement.
+## What Did Not Change, As Instructed And As Verified
+
+The pigeonhole argument, the semantic-boundary finding, the recommendation, every measurement figure, and
+the citation set. **The correction makes the alternative less attractive, so the recommendation stands a
+fortiori.**
 
 ---
 
 ## Verification
 
 - `python3 _verify.py` **0 errors, 0 warnings**.
-- `python3 _lib/test_lib.py` **69 of 69**, up from 63. Six new tests cover the backslash-run
-  parity rule, the code-block exclusion, unbalanced display math, the non-standard reference
-  heading, the visible-entry-counts-as-a-use rule, and the LaTeX-versus-placeholder distinction.
-- `python3 _lib/render.py _site` over a real build: **462 pages, no findings, exit 0**.
-- **Gate proven to fail** on four injected defect classes and to pass again on restore.
-- `lint.scan` across all 343 files: **0 defect, 2,025 convention**.
+- `python3 _lib/render.py _site` over a full build: **462 pages, no findings, exit 0**. This is the first
+  correction to run through the rendered auditor.
+- **32 display-math blocks, balanced in source and in the rendered page.**
+- `lint.scan` on the article: **0 defect-severity findings**.
+- The `llvm.coro.id.retcon` citation renders as inline code inside a resolved link.
+- **Prose scan clean.** The one colon the scan reports is Keleusma syntax inside a fenced code block.
 
 ---
 
 ## Standing Work, Unchanged
 
-**A334, the Boeing X-37**, editorial date 2025-11-12, Part 38 of 72, on your prompt.
-
-**The thirty-seven X-Planes drafts remain unpublished and unauthorised.**
+**A334, the Boeing X-37**, on your prompt. **The thirty-seven X-Planes drafts remain unpublished and
+unauthorised.**

@@ -333,19 +333,49 @@ which is to widen every coroutine entry point so that it returns a discriminated
 
 $$f : W \longrightarrow (\,\mathsf{tag} \in \{\mathsf{Y}, \mathsf{F}\},\; W\,)$$
 
-so that one convention carries both trace alphabets. The cost is that every call of every coroutine pays a
-wider return and a host-side discrimination, including the **95.83 percent** of the corpus, twenty-three
-chunks of twenty-four, that need only one letter.
+so that one convention carries both trace alphabets.
+
+**That form is sufficient only for a coroutine that suspends at most once per call, and the article as
+published did not say so.**
+A coroutine resumes at the point it suspended, which is the defining property of the construct. Under the
+callback convention that is free, because the native function never returned and its frame, program counter
+and locals are all still live. Under a return convention the call has ended and nothing survives. For the
+divergent form that costs nothing, since the reset instruction clears every local and the next iteration
+legitimately starts from the top. **For the terminating form it is fatal**, because the next call must
+resume mid-body and a function entered at its entry point cannot do that.
+
+A widened return must therefore carry, beyond the value and the tag, something identifying where to resume
+and with what state. That is a continuation, and it is what
+[`llvm.coro.id.retcon`][ref_llvm_coroutines] returns alongside the yielded value. The
+returned-continuation family exists because returning a value at a suspension is not sufficient on its own.
+The general interface is a triple,
+
+$$f : W \longrightarrow (\,\mathsf{tag} \in \{\mathsf{Y}, \mathsf{F}\},\; W,\; \mathsf{cont}\,)$$
+
+and the continuation implies an allocation for the saved frame whose lifetime spans host execution, which is
+the very property this option was credited with preserving.
+
+The cost is therefore that every call of every coroutine pays a wider return and a host-side discrimination,
+including the **95.83 percent** of the corpus, twenty-three chunks of twenty-four, that need only one
+letter, and that the terminating form pays a frame as well.
+**The 95.83 percent is a count of chunks needing one letter and must not be read as the fraction for which a
+pair suffices**, because that is a claim about the terminating form and the corpus holds one instance of
+it.
 
 **Whether that is cheaper than two conventions is an empirical question this article does not answer, and the shape of the comparison can be stated without measuring anything.**
-Writing $c_{\mathrm{tag}}$ for the per-call cost of the discriminator and $c_{\mathrm{meta}}$ for the
-one-off cost of declaring and dispatching two conventions, the totals over $N$ calls are
+Writing $c_{\mathrm{tag}}$ for the per-call cost of the discriminator, $c_{\mathrm{frame}}$ for the
+amortised cost of allocating and reclaiming the saved frame, and $c_{\mathrm{meta}}$ for the one-off cost
+of declaring and dispatching two conventions, the totals over $N$ calls are
 
-$$C_{\mathrm{one}} = c_{\mathrm{tag}} N, \qquad C_{\mathrm{two}} = c_{\mathrm{meta}},$$
+$$C_{\mathrm{one}} = (c_{\mathrm{tag}} + c_{\mathrm{frame}}) N, \qquad C_{\mathrm{two}} = c_{\mathrm{meta}},$$
 
-so the widened return is cheaper only below
+where $c_{\mathrm{frame}} = 0$ only for coroutines that suspend at most once per call, so the widened
+return is cheaper only below
 
-$$N^{*} \;=\; \frac{c_{\mathrm{meta}}}{c_{\mathrm{tag}}}.$$
+$$N^{*} \;=\; \frac{c_{\mathrm{meta}}}{c_{\mathrm{tag}} + c_{\mathrm{frame}}}.$$
+
+**The frame term moves the crossover down**, which strengthens rather than weakens the observation that
+follows.
 
 **A per-call term always loses to a constant eventually**, and a stream abstraction exists to be called many
 times, so the crossover is the whole question.
@@ -660,12 +690,13 @@ The spike was commissioned to inform a choice, and it narrows rather than makes 
 **One option is ruled out on evidence.** A single return-based convention for both forms
 **at a one-word return type** is lossy for the terminating form, and no shape analysis rescues it.
 
-**Two options remain and both are genuinely open.**
+**Three options remain and all are genuinely open.**
 
 **One convention with a widened return.** Every coroutine entry point returns a discriminated pair, which
 the [System V AMD64][ref_sysv_amd64] and [AAPCS64][ref_aapcs64] register-pair rules make free of memory
-traffic on the two targets that matter. One convention for the host, one discriminator to check, and the
-frame property preserved. **This option exists only because the ABI documents were read**, and it was absent
+traffic on the two targets that matter. One convention for the host and one discriminator to check.
+**The frame property is preserved only for coroutines that suspend at most once per call**, and is
+surrendered otherwise, because resuming mid-body needs a continuation that outlives the call. **This option exists only because the ABI documents were read**, and it was absent
 from the draft that preceded the reference pass. It has not been costed.
 
 **Two conventions, declared per entry point.** The artefact states which convention each exported function
@@ -845,6 +876,12 @@ treatment to coroutines with snapshots and give a cost model.
 **Every one of these reports the same discriminator problem and solves it the same way**, by returning a
 tagged or sentinel value. That convergence is the strongest available evidence for the widened-return option
 this article identifies, and it was invisible from inside the backend.
+
+**It is also evidence for the correction recorded in the Epistemic State, and reading it carefully would
+have prevented the error.** Not one of these systems returns a bare tagged value. Each pairs the tag with a
+state object that survives the call, being the state machine in C# and F# and the continuation in Kotlin,
+because a coroutine that suspends more than once must resume mid-body. **The literature converged on the
+triple, and this article originally read it as converging on the pair.**
 
 The alternative is stackful, which the operating-systems literature has costed thoroughly.
 [von Behren and others 2003][research_vonbehren_2003] argue for threads with dynamically sized stacks
@@ -3005,6 +3042,30 @@ option the draft did not contain. An earlier design in this series specified a r
 bodies with several suspension points, of which the corpus contains none. A classification that called
 nineteen suspensions "the general case" was collapsing two structurally different situations, and the
 per-suspension measurement separated them.
+
+**Corrected after publication, and left visible.** Two defects reached the published text and both are
+repaired above rather than silently.
+
+**The widened-return option was published under-costed.** It was presented as costing a wider return and a
+host-side discrimination while preserving the frame property. **A widened return does not give
+reentrancy.** A terminating coroutine that suspends more than once must resume mid-body, which needs saved
+state, which is a frame. The honest interface is a triple carrying a continuation and not a pair carrying a
+tag, the per-call model omitted the frame term entirely, and the claim that the frame property is preserved
+holds only for a coroutine that suspends at most once per call. **The error was in the direction that made
+that option look more attractive than it is**, and the correction therefore strengthens the recommendation
+rather than disturbing it. The pigeonhole argument, the semantic-boundary finding and every measurement are
+unaffected.
+
+**The corpus could not have exposed it, and that is the article's own lesson turned back on the article.**
+The corpus holds exactly one terminating chunk and it suspends at most once per call, so a tagged pair
+genuinely does suffice for it, because resuming mid-body and resuming at entry after the sole suspension
+coincide. The general case never appears. **A distribution over instances cannot answer a question about an
+interface**, which this article establishes at length and then failed to apply when costing an option. It
+was raised before publication and did not reach the text.
+
+**The option count contradicted the list beneath it.** The published text read that two options remained
+and then set out three. The sentence was introduced by a later editing pass that replaced a colon-led label
+with a full sentence and asserted a count the list never had. It now reads three.
 
 **What this article does not establish.** Which of the remaining options is correct, since that turns on an
 ABI decision belonging to a workstream this article does not speak for. Whether the widened-return option is
