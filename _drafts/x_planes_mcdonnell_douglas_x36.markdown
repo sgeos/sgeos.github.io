@@ -69,12 +69,12 @@ out to have an edge that the programme's own accounts do not mention.
 **1.89 times faster in real time** than the full-scale aircraft's. The delay in a video link and the
 reaction time of a human being do not get faster to match.
 **The demonstration was therefore harder than the thing it demonstrated, by a factor this article computes**,
-and that makes the result stronger rather than weaker.
+and that makes the result stronger and not weaker.
 
 **The previous article found the opposite.** The [X-35's][related_post_a332_lockheed_martin_x35] most famous
 sortie was flown in the easiest available ordering, at a weight the production aircraft would never see.
 **This one was flown against a handicap the full-scale aircraft would never carry.** Two consecutive
-demonstrators, opposite directions, and both differences are arithmetic rather than opinion.
+demonstrators, opposite directions, and both differences are arithmetic, not opinion.
 
 ## Programme Origin
 
@@ -103,7 +103,7 @@ Two aircraft were built.
 
 ### Why a Model Rather Than an Aeroplane
 
-**The alternative to a subscale demonstrator was a piloted one, and the arithmetic of that comparison is the reason there is an X-36 rather than an X-36-sized fighter.**
+**The alternative to a subscale demonstrator was a piloted one, and the arithmetic of that comparison is the reason there is an X-36 and not an X-36-sized fighter.**
 A piloted aircraft needs a cockpit, an escape system, a life support system, redundant everything, and a
 structure certified to carry a person.
 **None of that is cheap and none of it is relevant to the question being asked**, which is whether a control
@@ -190,7 +190,7 @@ $$r_\omega = \frac{1}{\sqrt{\lambda}} = 1.8898 \qquad r_{\dot\omega} = \frac{1}{
 
 $$r_m = \lambda^{3} \qquad r_I = \lambda^{5} = 0.001721 \qquad r_{\mathrm{Re}} = \lambda^{3/2} = 0.1482$$
 
-**The mass and inertia exponents are worth deriving rather than quoting.** Holding density common makes mass
+**The mass and inertia exponents are worth deriving, not quoting.** Holding density common makes mass
 go as volume, which is the cube. A moment is a force times a length and a force at matched Froude number
 goes as mass, so
 
@@ -200,8 +200,8 @@ and the angular acceleration ratio is the moment ratio over the inertia ratio,
 
 $$r_{\dot\omega} = \frac{\lambda^{4}}{\lambda^{5}} = \frac{1}{\lambda} = 3.571$$
 
-**Each of those was verified as a randomised property over twenty thousand scale factors rather than at 0.28 alone**,
-so a mis-stated exponent would fail everywhere rather than nowhere.
+**Each of those was verified as a randomised property over twenty thousand scale factors and not at 0.28 alone**,
+so a mis-stated exponent would fail everywhere, not nowhere.
 
 **Three of them deserve reading slowly.**
 
@@ -214,7 +214,7 @@ because moments scale as the fourth power of length and inertias as the fifth.
 **Reynolds number is 0.1482 of full scale, a penalty of 6.749.** That is the price of the choice, and it
 falls on the separated flow at high angle of attack that the experiment exists to study.
 **How much it actually costs is a separate question from how large the ratio is**, and the comparison
-section below puts both Reynolds numbers on the page rather than leaving the factor to speak for itself.
+section below puts both Reynolds numbers on the page and not leaving the factor to speak for itself.
 
 ### The Check That Costs Nothing
 
@@ -344,7 +344,7 @@ $$N = q S b \, C_{n\beta} \, \beta$$
 **With a fin, $C_{n\beta}$ is positive and the aircraft weathercocks. Without one it is negative and the aircraft diverges.**
 Everything else in this section follows from that sign change.
 
-**The magnitude can be derived rather than assumed, and it should be.** Slender-body theory gives the
+**The magnitude can be derived, not assumed, and it should be.** Slender-body theory gives the
 destabilising moment of a body from its **volume alone**, through the apparent-mass difference $k_2 - k_1$,
 which for a fineness ratio above about eight is near 0.9.
 **The result is older than aeronautical stability and control as a discipline**, having been set out by Max

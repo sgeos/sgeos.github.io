@@ -13,9 +13,9 @@ series_index: 2
 <!-- A296 -->
 <script>console.log("A296");</script>
 
-The companion article [Wire Formats, What They Are][related_post_wire_formats_what] established that data interchange encodings, protocol framing, and instruction encodings are the same kind of artifact, and closed by naming five questions that every wire format must answer. This article takes those questions, adds six more that emerge once a format has to survive contact with time, with tooling, and with adversaries, and treats each as a tradeoff rather than a problem with a correct answer. The families are not separated here. Each section shows how one tradeoff appears in all three, because the point of the pairing is that the decisions transfer.
+The companion article [Wire Formats, What They Are][related_post_wire_formats_what] established that data interchange encodings, protocol framing, and instruction encodings are the same kind of artifact, and closed by naming five questions that every wire format must answer. This article takes those questions, adds six more that emerge once a format has to survive contact with time, with tooling, and with adversaries, and treats each as a tradeoff and not a problem with a correct answer. The families are not separated here. Each section shows how one tradeoff appears in all three, because the point of the pairing is that the decisions transfer.
 
-A tradeoff in this sense is a choice where improving one property necessarily degrades another. Where a design appears to escape a tradeoff, it has usually moved the cost somewhere less visible rather than eliminated it, and part of the work below is saying where the cost went.
+A tradeoff in this sense is a choice where improving one property necessarily degrades another. Where a design appears to escape a tradeoff, it has usually moved the cost somewhere less visible, not eliminated it, and part of the work below is saying where the cost went.
 
 ## Where the Schema Lives
 
@@ -29,7 +29,7 @@ $$\bar{H} = \theta I + \left( 1 - \theta \right) H$$
 
 so a table hitting nine times in ten reduces a fifty-byte header to under six bytes when the index costs one. The gain comes entirely from repetition, which is why the technique helps a long conversation and does nothing for a single request.
 
-Fixed schemas are the instruction-encoding position. A processor does not receive a description of its instruction set, because the set is fixed by the architecture specification and burned into the decoder. This gives the lowest possible overhead and the least possible flexibility, and it is why adding an instruction is a multi-year undertaking rather than a deployment.
+Fixed schemas are the instruction-encoding position. A processor does not receive a description of its instruction set, because the set is fixed by the architecture specification and burned into the decoder. This gives the lowest possible overhead and the least possible flexibility, and it is why adding an instruction is a multi-year undertaking and not a deployment.
 
 The cost structure is easy to state. For $N$ messages where the schema costs $s$ bytes and each message carries $d$ bytes of data plus $m$ bytes of inline metadata, the inline total is
 
@@ -43,7 +43,7 @@ so distributing the schema separately wins when
 
 $$N > \frac{s}{m}$$
 
-The threshold is a ratio, not a constant. A format with heavy inline metadata reaches it after a handful of messages. A format with one-byte field tags may never reach it for a low-volume protocol, which is why Protocol Buffers keeping small tags inline is a reasonable middle position rather than a failure to commit.
+The threshold is a ratio, not a constant. A format with heavy inline metadata reaches it after a handful of messages. A format with one-byte field tags may never reach it for a low-volume protocol, which is why Protocol Buffers keeping small tags inline is a reasonable middle position, not a failure to commit.
 
 ## Finding the End of a Unit
 
@@ -55,7 +55,7 @@ $$\ell \leq \ell_{\max}$$
 
 on the declared length $\ell$ before allocating, where $\ell_{\max}$ is a bound the reader chooses independently of the sender. Checking after allocation is not a check.
 
-Delimiting requires no lookahead and permits streaming without knowing the total size in advance, and it forces an escaping scheme for payloads that contain the delimiter. Escaping is where subtle bugs live, because encoder and decoder must agree exactly on what is escaped and the failure mode is silent corruption rather than a clean error. Escaping also costs size. If the delimiter occurs in payload with probability $q$ per byte and each occurrence expands to two bytes, a payload of $p$ bytes becomes
+Delimiting requires no lookahead and permits streaming without knowing the total size in advance, and it forces an escaping scheme for payloads that contain the delimiter. Escaping is where subtle bugs live, because encoder and decoder must agree exactly on what is escaped and the failure mode is silent corruption and not a clean error. Escaping also costs size. If the delimiter occurs in payload with probability $q$ per byte and each occurrence expands to two bytes, a payload of $p$ bytes becomes
 
 $$p' = p \left( 1 + q \right)$$
 
@@ -73,9 +73,9 @@ A reader will eventually encounter something it does not understand. What it doe
 
 The permissive position skips the unknown and continues. Protocol Buffers achieves this through the wire type in each field tag, which tells a decoder how many bytes to skip without knowing what the field means. This is what makes it possible to add a field to a message that old readers will tolerate, and it is the single most important property for a format used across independently deployed systems.
 
-The strict position rejects anything unrecognised. This is correct where the reader must fully understand a message to act safely on it, and it is the right default in consensus systems, where a participant that silently ignores part of a transaction may compute a different result from its peers and cause a chain split rather than a local bug.
+The strict position rejects anything unrecognised. This is correct where the reader must fully understand a message to act safely on it, and it is the right default in consensus systems, where a participant that silently ignores part of a transaction may compute a different result from its peers and cause a chain split, not a local bug.
 
-The permissive position is the robustness principle in its classical form, which counsels being liberal in what a reader accepts. That advice has been substantially revised. The language-theoretic security position holds that a parser should recognise exactly the language the specification defines and nothing beyond it, and that the discipline of building parsers from an explicit grammar rather than from ad hoc control flow eliminates whole categories of defect, an argument [Anantharaman and colleagues][research_anantharaman_input_handling] develop with worked construction rather than exhortation. [Sassaman, Patterson and Bratus][research_sassaman_postel] argue that liberal acceptance is precisely what creates parser differentials, since two readers that are liberal in different ways disagree about what a message means, and [RFC 9413][ref_rfc9413] restates the modern position that tolerance defers cost rather than removing it and that divergent implementations become a maintenance and security burden.
+The permissive position is the robustness principle in its classical form, which counsels being liberal in what a reader accepts. That advice has been substantially revised. The language-theoretic security position holds that a parser should recognise exactly the language the specification defines and nothing beyond it, and that the discipline of building parsers from an explicit grammar and not from ad hoc control flow eliminates whole categories of defect, an argument [Anantharaman and colleagues][research_anantharaman_input_handling] develop with worked construction, not exhortation. [Sassaman, Patterson and Bratus][research_sassaman_postel] argue that liberal acceptance is precisely what creates parser differentials, since two readers that are liberal in different ways disagree about what a message means, and [RFC 9413][ref_rfc9413] restates the modern position that tolerance defers cost and not removing it and that divergent implementations become a maintenance and security burden.
 
 The two positions produce opposite failure modes. Permissive readers stay compatible and can act on messages they only partly understand. Strict readers refuse to act on incomplete understanding and require coordinated upgrades.
 
@@ -83,7 +83,7 @@ Schema evolution formalises this. Let $W$ be the writer schema and $R$ the reade
 
 $$\operatorname{dec}_R\left( \operatorname{enc}_W(v) \right) = v \quad \text{for all } W \preceq R$$
 
-and forward compatibility is the same condition for all $W \succeq R$. A format supports backward compatibility when a reader at $R$ can read data written at an older $W$, and forward compatibility when a reader at $R$ can read data written at a newer $W$. Avro resolves the two schemas explicitly at read time, as described in its [specification][ref_avro_spec], which makes the compatibility rules a stated part of the format rather than an emergent property. Protocol Buffers obtains forward compatibility from skippable unknown fields and constrains what changes are safe, and its [proto3 field presence rules][ref_protobuf_field_presence] document where the constraints bite.
+and forward compatibility is the same condition for all $W \succeq R$. A format supports backward compatibility when a reader at $R$ can read data written at an older $W$, and forward compatibility when a reader at $R$ can read data written at a newer $W$. Avro resolves the two schemas explicitly at read time, as described in its [specification][ref_avro_spec], which makes the compatibility rules a stated part of the format, not an emergent property. Protocol Buffers obtains forward compatibility from skippable unknown fields and constrains what changes are safe, and its [proto3 field presence rules][ref_protobuf_field_presence] document where the constraints bite.
 
 The rule that follows applies to all three families. A format cannot be simultaneously strict about the unrecognised and tolerant of independent deployment. Choosing strictness is choosing coordinated upgrades.
 
@@ -91,7 +91,7 @@ The rule that follows applies to all three families. A format cannot be simultan
 
 A format that a human can read with ordinary tools is easier to debug, easier to log usefully, and easier to learn. That property costs bytes and cycles on every message.
 
-The argument for paying is operational rather than technical. When a distributed system misbehaves at three in the morning, a text format can be read directly from a capture, and a binary one requires tooling that must itself be correct and available. A substantial part of the reason JSON displaced more efficient predecessors is that the debugging story was better, and debugging cost is real cost.
+The argument for paying is operational and not technical. When a distributed system misbehaves at three in the morning, a text format can be read directly from a capture, and a binary one requires tooling that must itself be correct and available. A substantial part of the reason JSON displaced more efficient predecessors is that the debugging story was better, and debugging cost is real cost.
 
 The argument against is that the price is paid continuously by every message in production to benefit the rare occasion when a human looks. HTTP/2 moved to binary framing precisely because the text framing of version 1.1 could not express stream multiplexing without ambiguity, and the human-readability of the header block was not worth the constraint.
 
@@ -105,11 +105,11 @@ $$\forall v, \quad \left| E(v) \right| = 1$$
 
 which is strictly stronger than the unambiguity every wire format already requires. Unambiguity says each byte sequence denotes one value. Canonicity says each value has one byte sequence. A format can satisfy the first and violate the second, and most do. Most formats do not require this, because it constrains encoders for no benefit in ordinary use.
 
-It becomes mandatory the moment bytes are hashed, signed, or compared. If two encoders may legitimately produce different bytes for the same value, then a signature over those bytes verifies the encoding rather than the value, and a hash cannot serve as an identity. CBOR addresses this with the deterministic encoding requirements in [RFC 8949][ref_rfc8949], and ASN.1 has carried the distinction since its Distinguished Encoding Rules in [ITU-T X.690][ref_itu_x690], where Basic Encoding Rules permit choices that Distinguished Encoding Rules remove.
+It becomes mandatory the moment bytes are hashed, signed, or compared. If two encoders may legitimately produce different bytes for the same value, then a signature over those bytes verifies the encoding, not the value, and a hash cannot serve as an identity. CBOR addresses this with the deterministic encoding requirements in [RFC 8949][ref_rfc8949], and ASN.1 has carried the distinction since its Distinguished Encoding Rules in [ITU-T X.690][ref_itu_x690], where Basic Encoding Rules permit choices that Distinguished Encoding Rules remove.
 
 The sources of non-canonicity are consistent across families. Integers may admit multiple lengths, as a varint that could be written with fewer bytes but is not. Map or field ordering may be unconstrained. Optional fields may be present with a default value or absent. Floating point may admit multiple representations of the same quantity. Padding may be unconstrained.
 
-Consensus systems have no choice. Every participant must derive the same result from the same transaction, so the encoding must be canonical, non-canonical encodings must be rejected rather than normalised, and the rejection must itself be part of the specification. Silently normalising is worse than rejecting, because two implementations may normalise differently.
+Consensus systems have no choice. Every participant must derive the same result from the same transaction, so the encoding must be canonical, non-canonical encodings must be rejected and not normalised, and the rejection must itself be part of the specification. Silently normalising is worse than rejecting, because two implementations may normalise differently.
 
 The cost is encoder freedom. A canonical format cannot let an encoder choose a faster representation, and it cannot add a representation later without a version change.
 

@@ -19,7 +19,7 @@ The previous article covered the [X-18][related_post_a315_hiller_x18], which til
 
 The question the X-19 asked instead is whether a propeller can be counted on for lift. Not thrust turned upward, which is trivial, but the force a propeller develops **at right angles to its own axis** when the oncoming flow meets the disc obliquely. Curtiss-Wright called this the radial lift force, and the company's claim was that it is large enough to size a wing around.
 
-The standard inventory entry remains [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003] and the vehicle compilation is [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001]. The keystone's own literature is older than the aircraft by eighteen years and belongs to aerodynamic stability rather than to vertical flight, which is [Ribner 1945, Propellers in yaw][research_ribner_1945_2] and [Ribner 1945][research_ribner_1945].
+The standard inventory entry remains [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003] and the vehicle compilation is [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001]. The keystone's own literature is older than the aircraft by eighteen years and belongs to aerodynamic stability and not to vertical flight, which is [Ribner 1945, Propellers in yaw][research_ribner_1945_2] and [Ribner 1945][research_ribner_1945].
 
 ## The Research Question
 
@@ -45,7 +45,7 @@ That derivative is positive for a tractor propeller, which is destabilising, and
 
 **The scale of that literature is the strongest evidence that the X-19's premise was not eccentric.** Wind tunnel investigation of how a running propeller moves an aeroplane's neutral point was a standing programme at the National Advisory Committee for Aeronautics, hereafter NACA, through the 1940s and 1950s, in [Delany 1942][research_delany_1942], [Pitkin 1943][research_pitkin_1943], [Schuldenfrei 1944][research_schuldenfrei_1944], [Purser and Spear 1947][research_purser_spear_1947], [Hagerman 1947][research_hagerman_1947], [Weil and Sleeman 1948][research_weil_sleeman_1948], [Brewer and May 1948][research_brewer_may_1948], [Lange and Mclemore 1950][research_lange_mclemore_1950], [Queijo et al 1953][research_queijo_1953], [Sleeman 1953][research_sleeman_1953], [VOLLO and BRASSAW 1956][research_vollo_brassaw_1956], [Sleeman 1957][research_sleeman_1957], [Goodson 1961][research_goodson_1961], [Donlan 1976, Factors affecting static longitudi][research_donlan_1976_2], [Nagy and Kirsten 1976][research_nagy_kirsten_1976], [Ostowari and Naik 1986][research_ostowari_naik_1986].
 
-Every one of those reports treats the propeller force as a correction to be predicted and designed around. **Curtiss-Wright's proposal was to change its sign in the accounting rather than its magnitude in the physics.**
+Every one of those reports treats the propeller force as a correction to be predicted and designed around. **Curtiss-Wright's proposal was to change its sign in the accounting, not its magnitude in the physics.**
 
 ### Why This Was the Binding Unknown in 1960
 
@@ -91,13 +91,13 @@ The speed at which a wing alone supports that loading is the stall speed, where 
 
 $$V_{s} = \sqrt{\frac{2W}{\rho S C_{L,\max}}}$$
 
-For an unflapped wing with $C_{L,\max} = 1.4$ at sea level this gives 230.4 feet per second, or **136.5 knots**. At 1.2 it is 147.5 knots and at 1.6 it is 127.7 knots. The record states the wings had no incidence, no dihedral and no sweepback, and mentions no high-lift devices, so the middle value is the generous reading rather than the conservative one.
+For an unflapped wing with $C_{L,\max} = 1.4$ at sea level this gives 230.4 feet per second, or **136.5 knots**. At 1.2 it is 147.5 knots and at 1.6 it is 127.7 knots. The record states the wings had no incidence, no dihedral and no sweepback, and mentions no high-lift devices, so the middle value is the generous reading and not the conservative one.
 
 **An aircraft that stalls at 136 knots and is required to land at zero has a gap of 136 knots to explain.** Tilting the propellers explains most of it, because a propeller pointed upward is a lifting device regardless of any subtlety. The radial lift force is what explains the rest, and the rest is where the wing area was won.
 
 ### What a Propeller Does in Oblique Flow
 
-Write the force from momentum rather than from blade elements, because the momentum form has exactly one unknown and that unknown can be estimated from geometry.
+Write the force from momentum, not from blade elements, because the momentum form has exactly one unknown and that unknown can be estimated from geometry.
 
 Let the disc of area $A$ meet a freestream $V$ with its axis at angle $\alpha_d$ to the flow. Resolve the freestream into a component along the axis and a component in the plane of the disc.
 
@@ -115,13 +115,13 @@ $$N = k \, \rho A \left( V \cos\alpha_d + v_i \right) V \sin\alpha_d$$
 
 ### The Fin Analogy Fixes the Unknown
 
-Leaving $k$ free would make the calculation circular, since any wing area could then be justified by choosing $k$ to suit. [Ribner 1945, Propellers in yaw][research_ribner_1945_2] supplies the constraint. Ribner extends the fin analogy to the form of the side-force expression and identifies the effective fin area with **the projected side area of the propeller**, meaning the blade area seen from the side rather than the disc area.
+Leaving $k$ free would make the calculation circular, since any wing area could then be justified by choosing $k$ to suit. [Ribner 1945, Propellers in yaw][research_ribner_1945_2] supplies the constraint. Ribner extends the fin analogy to the form of the side-force expression and identifies the effective fin area with **the projected side area of the propeller**, meaning the blade area seen from the side and not the disc area.
 
 Write the propeller as a fin of area $S_f$ and lift-curve slope $a_b$ and equate the two expressions at small angle and high speed, where $v_i$ vanishes against $V$.
 
 $$\tfrac{1}{2} \rho V^2 S_f a_b \alpha_d = k \rho A V^2 \alpha_d$$
 
-The dynamic pressure, the freestream and the disc angle all cancel, which is why the fin analogy is useful rather than merely suggestive. What remains is pure geometry.
+The dynamic pressure, the freestream and the disc angle all cancel, which is why the fin analogy is useful, not merely suggestive. What remains is pure geometry.
 
 $$k = \frac{S_f a_b}{2A}$$
 
@@ -177,13 +177,13 @@ which is 0.667 forward and 0.553 aft, and the immersed area is the sum over the 
 
 $$S_{\text{imm}} = \sum_j f_{\text{imm},j} S_j = 91.9 \ \text{ft}^2 = 59.4\% \ \text{of the wing}$$
 
-The download and the flow it comes from were measured for adjacent configurations rather than calculated, in [WHITE et al 1960][research_white_1960], [Curtiss et al 1985][research_curtiss_1985], [Chen and Schweikhard 1985][research_chen_schweikhard_1985], [Leonard and III 2001][research_leonard_iii_2001], [Qin et al 2017][research_qin_2017].
+The download and the flow it comes from were measured for adjacent configurations and not calculated, in [WHITE et al 1960][research_white_1960], [Curtiss et al 1985][research_curtiss_1985], [Chen and Schweikhard 1985][research_chen_schweikhard_1985], [Leonard and III 2001][research_leonard_iii_2001], [Qin et al 2017][research_qin_2017].
 
 The slipstream velocity at the wing is a multiple $\lambda$ of the induced velocity, and the download is that dynamic pressure acting on the immersed area with a normal-flow drag coefficient.
 
 $$D_{\text{down}} = \tfrac{1}{2} \rho \left( \lambda v_i \right)^2 S_{\text{imm}} C_{D,\perp}$$
 
-Thrust and download depend on each other through $v_i$, so they solve together. Substituting the momentum-theory induced velocity into the download makes the pair LINEAR in thrust rather than requiring iteration, because $v_i^2$ is proportional to $T$.
+Thrust and download depend on each other through $v_i$, so they solve together. Substituting the momentum-theory induced velocity into the download makes the pair LINEAR in thrust, not requiring iteration, because $v_i^2$ is proportional to $T$.
 
 $$T = W + \frac{\lambda^{2} S_{\text{imm}} C_{D,\perp}}{4 A} \, T \quad \Longrightarrow \quad T = \frac{W}{1 - \lambda^{2} S_{\text{imm}} C_{D,\perp} / 4A}$$
 

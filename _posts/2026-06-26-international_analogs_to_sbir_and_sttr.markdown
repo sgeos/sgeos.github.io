@@ -29,7 +29,7 @@ The answers differ along a few structural axes, the instrument used, a procureme
 contract or a grant or a tax credit or an equity stake, whether the money is
 non-dilutive or dilutive, whether it is competed against a stated challenge or open
 to any idea, and whether it is staged in phases or paid in one shot, and the survey
-is organized around those axes rather than around a tour of every country.
+is organized around those axes and not around a tour of every country.
 The usual caution applies with unusual force here, that foreign programs change
 their names and their structures often, the British and the Dutch programs both
 having been renamed recently, so the specifics below are
@@ -101,7 +101,7 @@ Innovation Programme for the Mittelstand, the standing federal grant for its sma
 and mid-sized firms that reimburses part of their research costs and funds
 cooperation projects pairing firms with research institutions, the collaboration the
 next section takes up.
-The European model differs from the American one in that the grant, rather than the
+The European model differs from the American one in that the grant, not the
 procurement contract, is the usual instrument, so the European government funds the
 work without positioning itself as the customer for the result, which changes the
 transition path the firm must find.
@@ -113,7 +113,7 @@ The series pairs SBIR with STTR, and the two differ in one feature, that the
 in partnership with a research institution under a minimum division of the work, so
 the international question is not only whether the single-firm model has analogs but
 whether the company-and-institution model does.
-It does, and abroad that collaborative model is often the default rather than a
+It does, and abroad that collaborative model is often the default and not a
 separate track, since the European framework funds many of its projects as consortia
 that must join partners across organizations and the Eureka and Eurostars schemes are
 built around collaboration between firms and research performers in more than one
@@ -121,24 +121,24 @@ country.
 Germany's cooperation projects fund the same firm-and-institution pairing, and South
 Korea has recently moved to add a program of the STTR kind alongside its existing
 schemes, so the research-partnering idea the STTR embodies is widespread and in
-several places the ordinary way of funding rather than a distinct program.
+several places the ordinary way of funding, not a distinct program.
 The American separation of a single-firm SBIR from a partnered STTR is therefore
 itself a design choice, since other countries fold the partnership into the main
-instrument rather than running it as a parallel one.
+instrument and not running it as a parallel one.
 
 ## The Tax-Credit Instrument
 
-A wholly different instrument funds research through the tax system rather than
+A wholly different instrument funds research through the tax system, not
 through an award.
 Canada operates the
 [Scientific Research and Experimental Development][ref_sred] program, a tax credit
 that reimburses a portion of a firm's qualifying research spending, and many
 countries run broadly similar research-relief schemes.
 The contrast with the American award is sharp, since a tax credit is an entitlement
-that any qualifying firm receives for work it chose and funded itself rather than a
+that any qualifying firm receives for work it chose and funded itself and not a
 competed award for work the government wants done, so it is non-dilutive and
 broad-based but it neither directs the research toward a public need nor supplies the
-capital before the work rather than after it.
+capital before the work, not after it.
 A firm that can fund its own research and wants no direction prefers the credit,
 while a firm that needs the capital up front and is willing to address a stated need
 prefers the award, so the two instruments serve different firms and the United
@@ -146,7 +146,7 @@ States and Canada both in fact run versions of each.
 
 ## The State as Investor
 
-At the dilutive end of the spectrum the government takes a stake rather than giving
+At the dilutive end of the spectrum the government takes a stake and not giving
 a grant.
 Israel built much of its technology economy on public innovation funding through the
 body now called the [Israel Innovation Authority][ref_iia], whose grants have

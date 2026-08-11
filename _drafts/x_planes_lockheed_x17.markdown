@@ -21,7 +21,7 @@ The standard inventory entry remains [Jenkins Landis and Miller 2003 American X-
 
 ## The Research Question
 
-The obvious statement of the question is how a nose cone survives re-entry. That is the motivation rather than the question, because it does not say what had to be measured or why measuring it was hard.
+The obvious statement of the question is how a nose cone survives re-entry. That is the motivation and not the question, because it does not say what had to be measured or why measuring it was hard.
 
 ### The Keystone Is What a Test Range Can and Cannot Reproduce
 
@@ -43,13 +43,13 @@ The ground facilities of the period could not close the gap. A shock tube produc
 
 The facilities themselves became a substantial field, and the reason is that none of them ever solved the problem outright. Shock tubes, shock and expansion tunnels, arc-heated jets, ballistic ranges, and ceramic-heated and hotshot tunnels each buy one part of the condition at the cost of another, across [Bleakney et al 1949][research_bleakney_1949], [Lundquist 1952][research_lundquist_1952], [Wegener and Lobb 1952][research_wegener_lobb_1952], [MACK 1954][research_mack_1954], [Walker and Wolowicz 1960][research_walker_wolowicz_1960], [Palmer and Knox 1960][research_palmer_knox_1960], [FILLER 1960][research_filler_1960], [Trimpi 1962, A Preliminary Theoretical Study of][research_trimpi_1962_2], [Bradley et al 1981][research_bradley_1981], [Park and Balakrishnan 1985][research_park_balakrishnan_1985], [Takahashi and Teshima 1985][research_takahashi_teshima_1985], [YANG et al 1985][research_yang_1985], [Hanson 2000][research_hanson_2000], [Yungster and Radhakrishnan 2001][research_yungster_radhakrishnan_2001], [Holden 2004][research_holden_2004], [Balakalyani and Jagadeesh 2019][research_balakalyani_jagadeesh_2019], [Gildfind 2019][research_gildfind_2019], [Wang and Jiang 2020][research_wang_jiang_2020]. **Every one of those is a partial simulation too**, which is worth saying before criticising the X-17 for being one.
 
-None of that gives a full-scale article, in real air, for tens of seconds. **The X-17 was built to obtain exactly the thing no facility could provide, and the vehicle's peculiar architecture is a direct consequence of that requirement rather than of any preference for rockets.**
+None of that gives a full-scale article, in real air, for tens of seconds. **The X-17 was built to obtain exactly the thing no facility could provide, and the vehicle's peculiar architecture is a direct consequence of that requirement, not of any preference for rockets.**
 
 ## Programme Origin
 
 The requirement came from the Air Force ballistic missile programme, which by 1954 was moving quickly toward the Atlas and needed to know what shape a warhead should be. The problem was acute because the answer was counterintuitive. A missile designer's instinct is that a sharp body is better, since sharp bodies have less drag, and less drag had been the right answer for every previous flight regime.
 
-For a re-entering body it is the wrong answer, and the reason was established by Allen and Eggers at the National Advisory Committee for Aeronautics. **A blunt body pushes a detached bow shock ahead of itself and dumps most of the kinetic energy into the air rather than into the vehicle.** A sharp body carries a shock attached to its own nose and heats itself. The theory is compactly presented in [Eggers et al 1958][research_eggers_1958], published after the X-17 had already flown.
+For a re-entering body it is the wrong answer, and the reason was established by Allen and Eggers at the National Advisory Committee for Aeronautics. **A blunt body pushes a detached bow shock ahead of itself and dumps most of the kinetic energy into the air and not into the vehicle.** A sharp body carries a shock attached to its own nose and heats itself. The theory is compactly presented in [Eggers et al 1958][research_eggers_1958], published after the X-17 had already flown.
 
 That is the origin of the tension the programme resolved. **The theory said blunt. Nobody had flown it. The X-17 was built to settle the question with hardware.**
 
@@ -67,7 +67,7 @@ and at a period-typical solid specific impulse of 235 seconds the 2,339 metres p
 
 $$\frac{m_0}{m_1} = \exp\left(\frac{2{,}339}{235 \times 9.807}\right) = 2.759$$
 
-or **63.8 percent propellant by mass** in the descending stack. That is an ordinary figure for a solid motor and is why the architecture was practical at all rather than merely conceivable.
+or **63.8 percent propellant by mass** in the descending stack. That is an ordinary figure for a solid motor and is why the architecture was practical at all, not merely conceivable.
 
 **Published apogees disagree, and not slightly.** One account gives about 100 miles, another about 500,000 feet, and a third 250 miles. The first two agree to within five kilometres. The third is two and a half times the first. This article computes across the range where the answer depends on it and says so.
 
@@ -87,7 +87,7 @@ The two densities that matter below are $\rho = 0.008214$ kilogrammes per cubic 
 
 ### Part One, Falling Is Not Enough
 
-The first thing to establish is that the downward stages were necessary rather than merely convenient. A body released at apogee and allowed to fall converts height into speed, and neglecting drag entirely, which is generous to the falling case,
+The first thing to establish is that the downward stages were necessary and not merely convenient. A body released at apogee and allowed to fall converts height into speed, and neglecting drag entirely, which is generous to the falling case,
 
 $$v_{\text{ff}} = \sqrt{2 g \Delta h}$$
 
@@ -172,7 +172,7 @@ for the intercontinental case and the same 1,398 watts per square centimetre for
 
 ### The Reference Condition Is a Choice, and Deriving It Exposes a Limit
 
-The 7,000 metres per second at 35 kilometres used above is representative rather than derived, and the trajectory solution allows it to be derived instead. Taking the Allen-Eggers peak-heating point for a given ballistic coefficient and asking what altitude the X-17 would need in order to match it gives the following.
+The 7,000 metres per second at 35 kilometres used above is representative, not derived, and the trajectory solution allows it to be derived instead. Taking the Allen-Eggers peak-heating point for a given ballistic coefficient and asking what altitude the X-17 would need in order to match it gives the following.
 
 | Ballistic coefficient, kg/m² | Reference peak, W/cm² | Altitude X-17 needs, km |
 |---|---|---|
@@ -213,7 +213,7 @@ What that energy does to the air is the point. The perfect-gas stagnation temper
 
 $$T_0 = T_\infty + \frac{h_0}{c_p}$$
 
-which gives 8,274 kelvin for the X-17 and 24,627 for the intercontinental case. **Both figures are physically meaningless**, because the air dissociates and ionises long before either, absorbing the energy in chemistry rather than in temperature. The [previous article in this series][related_post_a312_north_american_x15] computed the limit at which the perfect-gas assumption fails, at Mach 7.06, and the X-17 flew at Mach 14.5, which is **2.05 times that limit.**
+which gives 8,274 kelvin for the X-17 and 24,627 for the intercontinental case. **Both figures are physically meaningless**, because the air dissociates and ionises long before either, absorbing the energy in chemistry and not in temperature. The [previous article in this series][related_post_a312_north_american_x15] computed the limit at which the perfect-gas assumption fails, at Mach 7.06, and the X-17 flew at Mach 14.5, which is **2.05 times that limit.**
 
 The relevant thresholds are approximate and standard. Oxygen dissociation begins near 2,500 kelvin and is substantially complete near 4,000. Nitrogen dissociation begins near 4,000. Ionisation becomes significant near 9,000. At 8 megajoules per kilogramme the shock layer is fully dissociated in oxygen and partly in nitrogen. At 24.5 it is far advanced in nitrogen dissociation with ionisation beginning, which is why radio blackout is a re-entry phenomenon and not an X-17 phenomenon.
 
@@ -267,7 +267,7 @@ Below one the gas has no time to react and the flow is frozen. Above one it reac
 
 $$\frac{Da_{\text{X-17}}}{Da_{\text{ICBM}}} = \frac{0.2278 \times 0.5 / 4{,}023}{0.008214 \times 1.5 / 7{,}000} = 16.09$$
 
-**Flying lower to buy the heating rate overshoots the binary scaling parameter by nearly an order of magnitude**, which pushes the shock layer toward chemical equilibrium and away from the nonequilibrium state a real re-entry has. The X-17 therefore missed the third requirement as well as the first, and in a direction that made its flow more benign and more predictable rather than less.
+**Flying lower to buy the heating rate overshoots the binary scaling parameter by nearly an order of magnitude**, which pushes the shock layer toward chemical equilibrium and away from the nonequilibrium state a real re-entry has. The X-17 therefore missed the third requirement as well as the first, and in a direction that made its flow more benign and more predictable, not less.
 
 ### The Total Heat Load Is a Fourth Quantity
 
@@ -283,7 +283,7 @@ against a re-entry lasting four times as long,
 
 $$Q_{\text{ICBM}} \approx \tfrac{1}{2} \times 1{,}398 \times 25 = 174.7\ \text{MJ/m}^{2}$$
 
-The exposure times are representative rather than measured, and the ratio of 4.17 is the point rather than the values. **A material that survives the X-17's pulse has not been shown to survive an intercontinental re-entry's soak.**
+The exposure times are representative and not measured, and the ratio of 4.17 is the point, not the values. **A material that survives the X-17's pulse has not been shown to survive an intercontinental re-entry's soak.**
 
 ### What the Programme Actually Bought
 
@@ -331,7 +331,7 @@ The X-17 flew hemispherical, cubic paraboloid, and blunt nose shapes and the pro
 
 ### The Ablator, Which Is the Answer to the Heat That Arrives Anyway
 
-Bluntness reduces the flux. It does not remove it, and the claim that no passive material survives is checkable in one line rather than assertable. A surface in steady state rejects heat by radiating it,
+Bluntness reduces the flux. It does not remove it, and the claim that no passive material survives is checkable in one line and not assertable. A surface in steady state rejects heat by radiating it,
 
 $$\dot{q} = \varepsilon \sigma T^{4}$$
 
@@ -352,7 +352,7 @@ at an emissivity of 0.85. Against the most refractory materials there are,
 
 Those figures are not casual. The high-temperature behaviour of refractory metals, carbides, ceramics, and the coatings that protect them is a developed field, and the emissivity that appears in the relation above is itself an engineered property, across [Moore et al 1948][research_moore_1948], [Cohen and Homer 1959][research_cohen_homer_1959], [Mathauser et al 1960][research_mathauser_1960], [Fiorello 1961][research_fiorello_1961], [Trout 1963][research_trout_1963], [Foyle 1963][research_foyle_1963], [Wheeler et al 1986][research_wheeler_1986], [Deininger and King 1988][research_deininger_king_1988], [Leiser et al 1992][research_leiser_1992], [Lee et al 1994][research_lee_1994], [Perepezko 2002][research_perepezko_2002], [Vasudevan and Leonard 2002][research_vasudevan_leonard_2002], [Perepezko 2006][research_perepezko_2006], [ZHOU et al 2025][research_zhou_2025].
 
-**Every material available in 1956 fails, including tungsten and graphite.** Only hafnium carbide exceeds the required temperature and only by 73 kelvin, and it was not a structural material. **Passive re-radiation is not an option at this flux**, which makes ablation mandatory rather than merely convenient. The answer is ablation, in which the surface is consumed and carries the heat away with the mass it loses, while the injected gas thickens the boundary layer and blocks part of the incoming flux. The energy balance is
+**Every material available in 1956 fails, including tungsten and graphite.** Only hafnium carbide exceeds the required temperature and only by 73 kelvin, and it was not a structural material. **Passive re-radiation is not an option at this flux**, which makes ablation mandatory, not merely convenient. The answer is ablation, in which the surface is consumed and carries the heat away with the mass it loses, while the injected gas thickens the boundary layer and blocks part of the incoming flux. The energy balance is
 
 $$\dot{m} = \frac{\dot{q}_{\text{net}}}{h_{\text{eff}}}$$
 

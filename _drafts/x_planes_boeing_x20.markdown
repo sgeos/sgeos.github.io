@@ -13,7 +13,7 @@ series_index: 21
 <!-- A317 -->
 <script>console.log("A317");</script>
 
-The [Boeing X-20 Dyna-Soar][ref_x20] was to come back from orbit by flying rather than falling, and the difference is not a matter of style. A capsule sheds its orbital energy in about a minute, lands wherever the arithmetic puts it, and is used once. A glider sheds the same energy over half an hour, can choose its landing site from seventeen hundred nautical miles either side of its ground track, and lands on a runway. **The X-20 was cancelled in December 1963 without flying, so everything in this article is a prediction the vehicle never got to test.** This article is the twenty-first in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], and the [X-19][related_post_a316_curtiss_wright_x19].
+The [Boeing X-20 Dyna-Soar][ref_x20] was to come back from orbit by flying and not falling, and the difference is not a matter of style. A capsule sheds its orbital energy in about a minute, lands wherever the arithmetic puts it, and is used once. A glider sheds the same energy over half an hour, can choose its landing site from seventeen hundred nautical miles either side of its ground track, and lands on a runway. **The X-20 was cancelled in December 1963 without flying, so everything in this article is a prediction the vehicle never got to test.** This article is the twenty-first in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], and the [X-19][related_post_a316_curtiss_wright_x19].
 
 The series has met high-speed heating twice already. The [X-15][related_post_a312_north_american_x15] asked how an aircraft survives a brief hypersonic dash, and the [X-17][related_post_a314_lockheed_x17] asked how a blunt body survives a ballistic reentry that is over in a minute. **The X-20 asks the opposite question and gets the opposite answer**, because a lifting reentry inverts which part of the heating problem is hard.
 
@@ -31,7 +31,7 @@ Add lift and the vehicle flies a shallower path, decelerates more gently, travel
 
 ### Why This Was the Binding Unknown in 1957
 
-By 1957 the ballistic answer was understood. Allen and Eggers had shown that a blunt body survives reentry by putting its energy into the air rather than into itself, and the [X-17][related_post_a314_lockheed_x17] had flown to measure it.
+By 1957 the ballistic answer was understood. Allen and Eggers had shown that a blunt body survives reentry by putting its energy into the air, not into itself, and the [X-17][related_post_a314_lockheed_x17] had flown to measure it.
 
 **A ballistic capsule cannot choose where it lands.** For a reconnaissance or bombing vehicle, which is what the Air Force wanted, that is disqualifying. Crossrange is the ability to land somewhere other than directly under the orbit, and it is what makes a once-a-day overflight into an aircraft that can come home on the pass it chooses.
 
@@ -59,7 +59,7 @@ That aspect ratio is a quarter of an airliner's, which is what hypersonic flight
 
 $$\frac{W}{S} = \frac{11{,}386}{345} = 33.0 \ \text{lb/ft}^{2}$$
 
-**Thirty-three pounds per square foot, against the eighty-eight of the previous article's aircraft.** The [X-19][related_post_a316_curtiss_wright_x19] wanted the highest wing loading it could carry and this vehicle wants the lowest, and the reason is thermal rather than aerodynamic.
+**Thirty-three pounds per square foot, against the eighty-eight of the previous article's aircraft.** The [X-19][related_post_a316_curtiss_wright_x19] wanted the highest wing loading it could carry and this vehicle wants the lowest, and the reason is thermal and not aerodynamic.
 
 ### The Energy
 
@@ -97,7 +97,7 @@ Deceleration follows from the drag that the lift implies.
 
 $$\frac{dV}{dt} = -\frac{D}{m} = -\frac{g \left( 1 - V^{2}/V_c^{2} \right)}{L/D}$$
 
-That deceleration is largest when the centrifugal relief has gone, which is at the slow end rather than the fast one.
+That deceleration is largest when the centrifugal relief has gone, which is at the slow end, not the fast one.
 
 $$\left. \frac{dV}{dt} \right|_{\max} = \frac{g}{L/D} = \frac{32.174}{1.245} = 25.8 \ \text{ft/s}^{2} = 0.803 \, g$$
 
@@ -123,11 +123,11 @@ Crossrange is the quantity the programme actually wanted, and the classical appr
 
 $$\text{CR}_{\max} \approx 0.319 \, R_e \left( \frac{L}{D} \right)^{2}$$
 
-The programme quoted 1,700 nautical miles of crossrange, which is a checkable claim rather than a slogan. Inverting the relation gives the lift-to-drag ratio it requires.
+The programme quoted 1,700 nautical miles of crossrange, which is a checkable claim and not a slogan. Inverting the relation gives the lift-to-drag ratio it requires.
 
 $$\frac{L}{D} = \sqrt{\frac{\text{CR}}{0.319 R_e}} = 1.245$$
 
-**That number can be checked against the configuration rather than merely asserted about it.** At hypersonic speeds a flat surface obeys Newtonian impact theory closely, in which the pressure comes entirely from the normal momentum the surface removes from the flow.
+**That number can be checked against the configuration, not merely asserted about it.** At hypersonic speeds a flat surface obeys Newtonian impact theory closely, in which the pressure comes entirely from the normal momentum the surface removes from the flow.
 
 $$C_N = 2 \sin^{2}\alpha$$
 
@@ -177,7 +177,7 @@ What lift-to-drag ratio changes is the time spent near that rate, through the de
 
 $$Q = \int \dot{q} \, dt = \int \frac{\dot{q}}{|dV/dt|} \, dV \propto \frac{L}{D}$$
 
-The heating correlation underneath all of this is itself a fitted result rather than a derivation, and the measurement programme behind it ran for two decades, in [Luce and Jr 1949][research_luce_jr_1949], [Johnson and Rubesin 1949][research_johnson_rubesin_1949], [Emmons 1951][research_emmons_1951], [Bryson 1952][research_bryson_1952], [Emmons 1955][research_emmons_1955], [McLellan 1955][research_mclellan_1955], [SNODGRASS 1955][research_snodgrass_1955], [BUDIANSKY and MAYERS 1956][research_budiansky_mayers_1956], [Masters and Cohen 1957][research_masters_cohen_1957], [VANDREY 1957][research_vandrey_1957], [Maslen and Ostrach 1957][research_maslen_ostrach_1957], [MIELE 1957][research_miele_1957], [Warmbrod 1963][research_warmbrod_1963], [Reba 1964][research_reba_1964], [Vanmol and Anderson 1992][research_vanmol_anderson_1992].
+The heating correlation underneath all of this is itself a fitted result and not a derivation, and the measurement programme behind it ran for two decades, in [Luce and Jr 1949][research_luce_jr_1949], [Johnson and Rubesin 1949][research_johnson_rubesin_1949], [Emmons 1951][research_emmons_1951], [Bryson 1952][research_bryson_1952], [Emmons 1955][research_emmons_1955], [McLellan 1955][research_mclellan_1955], [SNODGRASS 1955][research_snodgrass_1955], [BUDIANSKY and MAYERS 1956][research_budiansky_mayers_1956], [Masters and Cohen 1957][research_masters_cohen_1957], [VANDREY 1957][research_vandrey_1957], [Maslen and Ostrach 1957][research_maslen_ostrach_1957], [MIELE 1957][research_miele_1957], [Warmbrod 1963][research_warmbrod_1963], [Reba 1964][research_reba_1964], [Vanmol and Anderson 1992][research_vanmol_anderson_1992].
 
 So the three quantities scale in three different ways, and setting them beside each other is the whole argument of this article.
 
@@ -201,7 +201,7 @@ That is a remarkably clean decomposition. **Peak temperature, which selects the 
 
 ### Against the Ballistic Case
 
-The comparison that matters is with the vehicle the X-20 was an alternative to. A ballistic entry needs its own integration, along the Allen-Eggers solution rather than the glide, since a body with no lift does not fly an equilibrium anything.
+The comparison that matters is with the vehicle the X-20 was an alternative to. A ballistic entry needs its own integration, along the Allen-Eggers solution, not the glide, since a body with no lift does not fly an equilibrium anything.
 
 $$V(z) = V_e \exp \left[ -\frac{\rho_0 H}{2 \beta \sin\gamma} e^{-z/H} \right]$$
 
@@ -241,15 +241,15 @@ $$T_{\text{surface}} = \left( \frac{0.12 \, \dot{q}_{\text{peak}}}{\varepsilon \
 
 **The fourth root is what makes the structure possible.** An eightfold reduction in heating buys only a 1,357 degree reduction in temperature, but it is the reduction that puts the primary structure inside a superalloy's range.
 
-**The emissivity in that expression is doing real work and is not well constrained.** Temperature goes as the inverse fourth root of it, so a surface at 0.6 rather than 0.85 runs about 250 degrees hotter, and the measurement of emissivity on refractory metals and oxides at these temperatures was an active subject rather than a settled one, in [Sully et al 1952][research_sully_1952], [Armstrong et al 1961][research_armstrong_1961], [Pai 1966][research_pai_1966], [Vertogradskii 1969][research_vertogradskii_1969], [Peletskii and Shur 1977][research_peletskii_shur_1977], [WANG et al 2011][research_wang_2011].
+**The emissivity in that expression is doing real work and is not well constrained.** Temperature goes as the inverse fourth root of it, so a surface at 0.6 and not 0.85 runs about 250 degrees hotter, and the measurement of emissivity on refractory metals and oxides at these temperatures was an active subject, not a settled one, in [Sully et al 1952][research_sully_1952], [Armstrong et al 1961][research_armstrong_1961], [Pai 1966][research_pai_1966], [Vertogradskii 1969][research_vertogradskii_1969], [Peletskii and Shur 1977][research_peletskii_shur_1977], [WANG et al 2011][research_wang_2011].
 
-**Those two numbers select the two materials.** [René 41][ref_rene41] is a nickel superalloy usable to about 1,800 degrees Fahrenheit, which covers the primary structure. The nose and leading edges need [coated molybdenum][ref_molybdenum], graphite and [zirconia][ref_zirconia], good to around 3,000 degrees. The radiatively cooled structure was studied as a class rather than only as a Dyna-Soar component, in [Montsinger and Camilli 1944][research_montsinger_camilli_1944], [Montsinger and Camilli 1944, Thermal Protection or Transformers][research_montsinger_camilli_1944_2], [Serlin 1957][research_serlin_1957], [Jenness 1958][research_jenness_1958], [HOVEY 1965][research_hovey_1965], [STRAUSS 1967][research_strauss_1967], [RIVERS 1968][research_rivers_1968], [BAUER and KUMMER 1970][research_bauer_kummer_1970], [Alexander and Stanley 1999][research_alexander_stanley_1999], [Stanley et al 2000][research_stanley_2000], [Olds and Cowart 2001, Evaluation of Advanced Thermal Pro][research_olds_cowart_2001_2], [Liu et al 2002][research_liu_2002], [Daryabeigi et al 2006][research_daryabeigi_2006], [Hudson and Stephens 2006][research_hudson_stephens_2006], [Glass 2008][research_glass_2008], [Clarke 2008][research_clarke_2008], [Kowal 2011][research_kowal_2011]. **The coating rather than the metal is the pacing item**, because an uncoated refractory metal oxidises catastrophically in air at the temperatures that make it worth using, and the coating literature of 1960 to 1965 is correspondingly dense, in [MO 1963][research_mo_1963], [Criscione et al 1964][research_criscione_1964], [Turns and Hildebrand 1964][research_turns_hildebrand_1964], [Kaplow et al 1964][research_kaplow_1964], [Stetson and Wimber 1967][research_stetson_wimber_1967], [Phillips 1970][research_phillips_1970], [Peterson and Winter 1970][research_peterson_winter_1970], [Scott 1972][research_scott_1972], [Greenspan and Rizzitano 1972][research_greenspan_rizzitano_1972], [Wheeler and Brainard 1980][research_wheeler_brainard_1980], [Smeggil 1981][research_smeggil_1981], [Miller et al 1983][research_miller_1983], [Weaver 1983][research_weaver_1983], [Mahan 1984][research_mahan_1984], [Santiago-Aviles 1988][research_santiago_aviles_1988], [Glass and Camarda 1990][research_glass_camarda_1990], [Weiss and Srinivasan 1994][research_weiss_srinivasan_1994], [Malone and Walech 1995][research_malone_walech_1995].
+**Those two numbers select the two materials.** [René 41][ref_rene41] is a nickel superalloy usable to about 1,800 degrees Fahrenheit, which covers the primary structure. The nose and leading edges need [coated molybdenum][ref_molybdenum], graphite and [zirconia][ref_zirconia], good to around 3,000 degrees. The radiatively cooled structure was studied as a class and not only as a Dyna-Soar component, in [Montsinger and Camilli 1944][research_montsinger_camilli_1944], [Montsinger and Camilli 1944, Thermal Protection or Transformers][research_montsinger_camilli_1944_2], [Serlin 1957][research_serlin_1957], [Jenness 1958][research_jenness_1958], [HOVEY 1965][research_hovey_1965], [STRAUSS 1967][research_strauss_1967], [RIVERS 1968][research_rivers_1968], [BAUER and KUMMER 1970][research_bauer_kummer_1970], [Alexander and Stanley 1999][research_alexander_stanley_1999], [Stanley et al 2000][research_stanley_2000], [Olds and Cowart 2001, Evaluation of Advanced Thermal Pro][research_olds_cowart_2001_2], [Liu et al 2002][research_liu_2002], [Daryabeigi et al 2006][research_daryabeigi_2006], [Hudson and Stephens 2006][research_hudson_stephens_2006], [Glass 2008][research_glass_2008], [Clarke 2008][research_clarke_2008], [Kowal 2011][research_kowal_2011]. **The coating, not the metal is the pacing item**, because an uncoated refractory metal oxidises catastrophically in air at the temperatures that make it worth using, and the coating literature of 1960 to 1965 is correspondingly dense, in [MO 1963][research_mo_1963], [Criscione et al 1964][research_criscione_1964], [Turns and Hildebrand 1964][research_turns_hildebrand_1964], [Kaplow et al 1964][research_kaplow_1964], [Stetson and Wimber 1967][research_stetson_wimber_1967], [Phillips 1970][research_phillips_1970], [Peterson and Winter 1970][research_peterson_winter_1970], [Scott 1972][research_scott_1972], [Greenspan and Rizzitano 1972][research_greenspan_rizzitano_1972], [Wheeler and Brainard 1980][research_wheeler_brainard_1980], [Smeggil 1981][research_smeggil_1981], [Miller et al 1983][research_miller_1983], [Weaver 1983][research_weaver_1983], [Mahan 1984][research_mahan_1984], [Santiago-Aviles 1988][research_santiago_aviles_1988], [Glass and Camarda 1990][research_glass_camarda_1990], [Weiss and Srinivasan 1994][research_weiss_srinivasan_1994], [Malone and Walech 1995][research_malone_walech_1995].
 
 The hot-structure experiments of the period are in [Pride et al 1960][research_pride_1960], [Baird 1964][research_baird_1964], [Brunner 1966][research_brunner_1966], [Brunner et al 1966, Study of thermal protection requir][research_brunner_1966_2], [Avery 1981][research_avery_1981], [Ko and Fields 1987][research_ko_fields_1987], [Blosser 1988][research_blosser_1988], [Goldstein 1992][research_goldstein_1992], [Carroll et al 1995][research_carroll_1995], [Blosser 1996][research_blosser_1996] and the materials work in [Maxwell 1952][research_maxwell_1952], [Mathauser et al 1960][research_mathauser_1960], [Peters and Rasnick 1961][research_peters_rasnick_1961], [Pride et al 1962][research_pride_1962], [Gangler 1963][research_gangler_1963], [Bliton and Rausch 1963][research_bliton_rausch_1963], [Bowers 1963][research_bowers_1963], [Bowers and Esch 1963][research_bowers_esch_1963], [Leeds 1963][research_leeds_1963], [HUGILL and GAIENNIE 1963][research_hugill_gaiennie_1963].
 
 ### Why the Wing Loading Is Low
 
-Peak heating goes as the square root of wing loading, which turns the loading into a thermal design variable rather than an aerodynamic one.
+Peak heating goes as the square root of wing loading, which turns the loading into a thermal design variable and not an aerodynamic one.
 
 $$\dot{q}_{\text{peak}} \propto \sqrt{\frac{W}{S}}$$
 

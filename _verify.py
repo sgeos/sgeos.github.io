@@ -58,10 +58,17 @@ CONTRACTIONS = re.compile(
 # discriminator: it surfaces topic vocabulary such as `kotlin` or `raycasting`.
 WATCH_WORDS = """specific specifically various comprehensive substantial substantially
 particular significant considerable notable essential fundamental crucial
+rather
 framework configuration mechanism approach aspect factor element component
 distinct underlying appropriate relevant robust effective relatively typically
 admits compact leverage utilize facilitate encompass underscore
 myriad nuanced holistic pivotal seamless intricate paradigm realm landscape""".split()
+# `rather` is watched even though `rather than` is a legitimate contrastive construction and
+# not a vague quantifier. It was the corpus's largest verbal tic and the gate could not see it:
+# 3,739 uses, 99.7 percent of them `rather than`, at or above the limit in 21 articles against a
+# corpus median of 1.29 per thousand. Reduced across those 21 on 2026-08-11 to clear the limit,
+# using structure-preserving forms only. `instead of` CANNOT be substituted mechanically,
+# because `of` takes a noun phrase while `than` does not.
 WORD_RATE_LIMIT = 5.0  # per thousand prose words; a flag, not a verdict
 
 EXEMPTIONS_FILE = "_verify_exemptions.yml"

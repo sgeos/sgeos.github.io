@@ -23,7 +23,7 @@ supply non-dilutive capital in stages against demonstrated
 [risk reduction][ref_trl], a staircase from feasibility to prototype to market, and
 the company that understands the climb uses each award to buy the next rung rather
 than to stand still.
-The company below is a constructed illustration rather than a real firm, and the
+The company below is a constructed illustration and not a real firm, and the
 figures, the timelines, and the program details remain the time-sensitive and
 agency-specific matters the series has flagged throughout, so nothing here is advice
 for a particular campaign and the current solicitations and rules are the authority.
@@ -57,7 +57,7 @@ first customer, both for the mission fit and for the volume of relevant topics o
 possibility.
 It chooses to target a defense agency for its first award and to keep a civilian
 agency in reserve for a parallel track, a portfolio decision made at the very start
-rather than left to chance.
+, not left to chance.
 
 ## Getting Ready
 
@@ -79,7 +79,7 @@ With the groundwork done the company hunts for the right topic, the discipline t
 [solicitation article][related_post_topic] described.
 It finds a defense topic seeking exactly the endurance-per-dollar its airframe
 delivers, reads the topic with the care the article urged, and confirms that its
-technology answers the stated need rather than merely resembling it, then writes the
+technology answers the stated need and not merely resembling it, then writes the
 [Phase I proposal][related_post_phase_one] to prove feasibility.
 The Phase I work is small and short, a feasibility study and a modeling effort that
 takes the airframe concept from a low readiness level to the threshold of a

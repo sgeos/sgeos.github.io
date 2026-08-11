@@ -40,7 +40,7 @@ The grant or contract pays a company to take a technology from one
 funding for the goal has confused the scaffold for the building.
 The strategic frame, then, is to ask what the company is building toward, a
 product, a defense capability, a licensable technology, an acquisition, and to
-treat each award as a stage in that larger arc rather than as an end in itself.
+treat each award as a stage in that larger arc and not as an end in itself.
 A company with a destination uses the awards to get there faster and with less of
 its own equity at stake, and a company without one simply collects them.
 This frame is what separates the two strategic postures the rest of the article
@@ -61,7 +61,7 @@ across the gap, and that cultivation begins long before the work is ready rather
 than after it.
 The sole-source Phase III follow-on the valley-of-death article described is the
 reward such a partner makes possible, a right the company positions itself to
-receive rather than one that arrives on its own, so the partner is a strategic
+receive, not one that arrives on its own, so the partner is a strategic
 asset the company builds deliberately and early.
 A company running as a mill, by contrast, makes serial award-winning its business
 model, living from one Phase I and Phase II to the next without ever transitioning
@@ -72,7 +72,7 @@ exist, and it builds a [commercialization][ref_commercialization] record that th
 agencies increasingly scrutinize through the performance benchmarks the series has
 mentioned.
 The strategic recommendation is therefore to treat every award as a step toward
-transition rather than as an end, because the company built to transition can
+transition and not as an end, because the company built to transition can
 always choose to keep winning awards while the company built only to win awards
 cannot easily learn to transition.
 
@@ -88,7 +88,7 @@ A company spreads its awards across agencies where its technology fits, sequence
 its phases so that a Phase II is performing while the next Phase I is competing,
 and runs parallel tracks where the technology serves more than one mission, so
 that no single loss is fatal.
-Building that pipeline is partly proactive rather than merely reactive, since a
+Building that pipeline is partly proactive, not merely reactive, since a
 company that cultivates relationships with the program offices whose missions it
 serves and anticipates the topics they will publish, reading the solicitations
 with the discipline the [topic article][related_post_topic] described, shapes its

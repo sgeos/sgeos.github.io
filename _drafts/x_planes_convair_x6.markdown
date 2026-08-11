@@ -948,7 +948,7 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [Khan et al 2025 A Novel Neutron-Gamma Spectrum-Based Composite Shielding Material][research_khan_2025]
 - [Kim and Lee 2026 Conceptual Design of a Marine Reactor Modernizing the ML-1 Architecture][research_kim_2026_2]
 - [Kim and Macfarlane 2026 Challenges of Small Modular Reactors, A Comprehensive Exploration][research_kim_2026]
-- [Klein 1948 Lexington Project Report #130, Meeting with Withington of Boeing Aircraft, Col, Demler of A, E, C, , Washington, Col, Wassell and Col,][research_klein_1948]
+- [Klein 1948 Lexington Project Report #130, Meeting with Withington of Boeing Aircraft, Col, Demler of A, E, C, Washington, Col, Wassell and Col][research_klein_1948]
 - [Krasnow et al 1959 The Behavior Of Fuels And Lubricants In Dynamic Test Equipment Operating In The Presence Of Gamma Radiation][research_krasnow_1959]
 - [Kress 1958 Equipment Modifications For The Astr-Tsf Experiment][research_kress_1958]
 - [Kuhlman and Glasgow 1957 Preliminary Report On Thermocouples For Fuel Element Plate Temperature And Control][research_kuhlman_1957]

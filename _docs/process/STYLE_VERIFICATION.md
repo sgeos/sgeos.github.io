@@ -160,3 +160,47 @@ A clean run produces zero style violations, zero missing or unused references, a
 - [URL Verification](./URL_VERIFICATION.md) for URL response handling
 - [Style Guide](../writing/STYLE_GUIDE.md) for the prose rules being verified
 - [MathJax Conventions](../writing/MATHJAX_CONVENTIONS.md) for math density targets
+
+
+## Rendered Output
+
+**Every check above this section reads markdown source and therefore predicts what the renderer will
+do rather than observing it.** Run corpus-wide on 2026-08-11, `_lib/lint.py` reported 1,596
+defect-severity findings and the rendered pages carried none of them.
+
+```sh
+./_check.sh                          # _verify.py, a production build, then the rendered audit
+./_check.sh --drafts                 # include drafts
+./_check.sh --weights                # also report page weight
+python3 _lib/render.py <site>        # the audit alone, against an existing build
+python3 _lib/render.py <site> --weights
+```
+
+`render.py` flags only what a reader would see: an unresolved `[text][anchor]`, an unexpanded marker,
+unrendered Liquid, raw `$$`, empty or nested-empty list items, double-escaped entities, and unbalanced
+MathJax delimiters. **Markup inside `<pre>` and `<code>` is excluded**, because the Jekyll and MathJax
+tutorial posts display that syntax as their subject.
+
+**The math check counts by backslash-run parity**, since `\\[2mm]` is a LaTeX line break rather than a
+delimiter and a block whose last line ends in a break closes as `\\\]`. Two earlier and more obvious
+rules each reported correct pages as broken, and the second masked the first.
+
+**`_preview.sh` cannot tell you whether the deploy will pass**, because it ends in `jekyll serve
+--watch` and nothing can run after it. Use `./_check.sh`.
+
+## Identifier Resolution
+
+Distinct from citation verification and not a substitute for it.
+
+```sh
+python3 _lib/resolve.py <post.markdown>              # every identifier
+python3 _lib/resolve.py <post.markdown> 250 20260811 # a seeded sample
+```
+
+`resolve.py` asks whether an identifier resolves at all. `_verify_citations.py` asks whether it
+resolves to **the work it is cited as**. See the cadence and run record in
+[URL Verification](./URL_VERIFICATION.md).
+
+**Bot mitigation is not a citation failure.** Publishers answer 202 and 403 to robots and a Defense
+Technical Information Center deposit refuses the connection outright, so those count as resolution and
+the fallback asks the issuing registry, which is a different route rather than a retry.

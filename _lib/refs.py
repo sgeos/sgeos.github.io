@@ -137,8 +137,13 @@ def clean(s):
     # so the joining case becomes a hyphen and only the parenthetical case becomes a space.
     s = re.sub(r"(?<=\w)[—–](?=\w)", "-", s)
     s = s.replace("—", " ").replace("–", " ").replace("−", "-")
+    # A REPEATED COMMA IS A REGISTRY ARTEFACT, NOT PUNCTUATION THE TITLE CARRIES. One harvested
+    # title reached a draft reading "Col, Demler of A, E, C, , Washington", where an abbreviation
+    # full stop had already become a comma and the empty field between two of them rendered as
+    # `, ,`. Collapsing the run is safe because no title legitimately carries one.
+    s = re.sub(r",\s*(?:,\s*)+", ", ", s)
+    s = re.sub(r"\s+,", ",", s)
     return re.sub(r"\s+", " ", s).strip(" ,.-")
-
 
 def shorten(title, limit=58):
     """Word-boundary truncation. THE A322 DEFECT WAS CUTTING MID-WORD."""

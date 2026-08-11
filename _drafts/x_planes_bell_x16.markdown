@@ -31,11 +31,11 @@ A requirement is not a research question, but a requirement can still have exact
 
 That is a deliberately unfashionable choice. The famous constraint on a very high aeroplane is the [coffin corner][ref_coffin_corner], the altitude at which the stalling speed rises to meet the Mach limit until no flyable speed remains between them. It is a real mechanism, it is genuinely what limits some aircraft, and the U-2's reputation is built on it.
 
-**It is not what limited the X-16, and this article computes both rather than assuming the famous one.** That distinction is the whole of the analysis below, and it matters because the two mechanisms point at different parts of the aeroplane. If the corner binds, the answer is a better wing. If thrust binds, the answer is a better engine. **The record says the X-16 programme's lasting contribution was an engine**, which is the sort of thing that ought to follow from the arithmetic rather than merely being asserted by historians, and here it does.
+**It is not what limited the X-16, and this article computes both and not assuming the famous one.** That distinction is the whole of the analysis below, and it matters because the two mechanisms point at different parts of the aeroplane. If the corner binds, the answer is a better wing. If thrust binds, the answer is a better engine. **The record says the X-16 programme's lasting contribution was an engine**, which is the sort of thing that ought to follow from the arithmetic, not merely being asserted by historians, and here it does.
 
 ### Why This Was the Binding Unknown in 1953
 
-Flight above sixty thousand feet was not a solved problem when the requirement was written. The atmosphere itself was imperfectly known at those altitudes, and the systematic measurement programmes that fixed it were contemporaneous or later. The standard model this article uses did not exist in its settled form until after the aeroplane was cancelled, and the sequence of measurement and codification runs through [Webster 1947][research_webster_1947], [Lina and Ricker 1952][research_lina_ricker_1952], [NACA 1962][research_naca_1962], [CA 1962, Volume 1. Performance Flight Testi][research_ca_1962_2], [Hudson 1980][research_hudson_1980], [Schmidlin et al 1981][research_schmidlin_1981], [Perkins et al 2001][research_perkins_2001], [Wei et al 2001][research_wei_2001], [Liu et al 2022][research_liu_2022], [Xie et al 2022][research_xie_2022], with the rocketsonde and satellite work in [VA 1960][research_va_1960] arriving five years after the design was frozen. **The aeroplane was sized against an atmosphere that was still being measured.** The behaviour of an axial compressor in very thin air was an active research subject rather than a design input, treated directly in [Wallner and Fleming 1949][research_wallner_fleming_1949]. The performance of a wing at the Reynolds numbers that thin air implies had been measured only at the edges of the range, in work such as [Tucker and Quinn 1944][research_tucker_quinn_1944]. And the interaction of maximum lift with Mach number, which is what closes the corner, was still being mapped in [Stack et al 1943][research_stack_1943], [Spreiter and Steffen 1946][research_spreiter_steffen_1946], and [Furlong and Fitzpatrick 1947][research_furlong_fitzpatrick_1947].
+Flight above sixty thousand feet was not a solved problem when the requirement was written. The atmosphere itself was imperfectly known at those altitudes, and the systematic measurement programmes that fixed it were contemporaneous or later. The standard model this article uses did not exist in its settled form until after the aeroplane was cancelled, and the sequence of measurement and codification runs through [Webster 1947][research_webster_1947], [Lina and Ricker 1952][research_lina_ricker_1952], [NACA 1962][research_naca_1962], [CA 1962, Volume 1. Performance Flight Testi][research_ca_1962_2], [Hudson 1980][research_hudson_1980], [Schmidlin et al 1981][research_schmidlin_1981], [Perkins et al 2001][research_perkins_2001], [Wei et al 2001][research_wei_2001], [Liu et al 2022][research_liu_2022], [Xie et al 2022][research_xie_2022], with the rocketsonde and satellite work in [VA 1960][research_va_1960] arriving five years after the design was frozen. **The aeroplane was sized against an atmosphere that was still being measured.** The behaviour of an axial compressor in very thin air was an active research subject and not a design input, treated directly in [Wallner and Fleming 1949][research_wallner_fleming_1949]. The performance of a wing at the Reynolds numbers that thin air implies had been measured only at the edges of the range, in work such as [Tucker and Quinn 1944][research_tucker_quinn_1944]. And the interaction of maximum lift with Mach number, which is what closes the corner, was still being mapped in [Stack et al 1943][research_stack_1943], [Spreiter and Steffen 1946][research_spreiter_steffen_1946], and [Furlong and Fitzpatrick 1947][research_furlong_fitzpatrick_1947].
 
 Three unknowns, all bearing on one question. The requirement asked for an altitude nobody had sustained, and the design margin at that altitude was small enough that getting any of the three wrong would cost the aeroplane its mission.
 
@@ -47,9 +47,9 @@ Alongside the Air Force competition, and outside it, Clarence Johnson at Lockhee
 
 ### The Designation Was a Cover, and That Is a Fact About the Series
 
-Every previous aircraft in this series carried an X number because it was an instrument built to answer a question. The X-16 carried one because an X number is boring. A reconnaissance aeroplane sized to overfly a foreign country is a diplomatic object, and a research designation makes it look like the [X-13][related_post_a310_ryan_x13] rather than what it was.
+Every previous aircraft in this series carried an X number because it was an instrument built to answer a question. The X-16 carried one because an X number is boring. A reconnaissance aeroplane sized to overfly a foreign country is a diplomatic object, and a research designation makes it look like the [X-13][related_post_a310_ryan_x13], not what it was.
 
-This is the first designation in the series where the number describes the classification rather than the aircraft, and it is worth recording as such rather than treating the X-16 as an anomalous research aeroplane. **The series framing document treats the X series as a register of research questions. The X-16 is the entry that shows the register was also used as camouflage.**
+This is the first designation in the series where the number describes the classification and not the aircraft, and it is worth recording as such, not treating the X-16 as an anomalous research aeroplane. **The series framing document treats the X series as a register of research questions. The X-16 is the entry that shows the register was also used as camouflage.**
 
 ### What the Programme Was Competing Against
 
@@ -59,7 +59,7 @@ That context matters for judging the cancellation. The X-16 was not cancelled be
 
 ## Sizing From First Principles
 
-Everything below rests on published dimensions from secondary compilations, because no primary document exists. Those figures are internally consistent, which is worth checking before relying on them, and the three checks are relations rather than opinions. Aspect ratio is span squared over area,
+Everything below rests on published dimensions from secondary compilations, because no primary document exists. Those figures are internally consistent, which is worth checking before relying on them, and the three checks are relations and not opinions. Aspect ratio is span squared over area,
 
 $$A = \frac{b^{2}}{S} = \frac{114.83^{2}}{1{,}099} = 12.00$$
 
@@ -101,7 +101,7 @@ $$a = \sqrt{1.4 \times 287.05 \times 217.83} = 295.87\ \text{m/s}$$
 
 ### Minimum Drag Does Not Depend on Altitude
 
-This is the relation the whole analysis turns on, and it is worth deriving rather than quoting. Level flight requires that lift equal weight,
+This is the relation the whole analysis turns on, and it is worth deriving, not quoting. Level flight requires that lift equal weight,
 
 $$W = L = \tfrac{1}{2} \rho V^{2} S C_{L}$$
 
@@ -137,7 +137,7 @@ Now the step that matters. Minimum drag is simply
 
 $$D_{\min} = \frac{W}{(L/D)_{\max}}$$
 
-and **there is no density in it.** The reason is worth writing out rather than asserting. Holding the optimum lift coefficient fixes the required speed as a function of density,
+and **there is no density in it.** The reason is worth writing out and not asserting. Holding the optimum lift coefficient fixes the required speed as a function of density,
 
 $$V^{*} = \sqrt{\frac{2 (W/S)}{\rho\, C_L^{*}}}$$
 
@@ -179,7 +179,7 @@ $$\sigma_{\text{ceiling}} \propto W^{1/n} \approx W$$
 
 **The ceiling is a function of instantaneous weight.** This is the single most important consequence in the article, and it is not a subtlety. It means an aeroplane of this kind does not have a ceiling. It has a ceiling at a weight, and since it burns fuel continuously, its ceiling rises throughout the flight. The performance of turbojet aircraft in these terms is set out in [Dommasch et al 1959][research_dommasch_1959].
 
-The method itself is period-standard rather than invented here. Estimating aircraft performance from thrust, drag, and weight was a settled discipline with its own literature by the early 1950s, and the treatments that bracket this calculation are [Klinar 1947][research_klinar_1947], [Sanders 1957][research_sanders_1957], [Cole and Holleman 1958][research_cole_holleman_1958], [Bishop 1960][research_bishop_1960], [Bishop 1961][research_bishop_1961], [Holleman 1964][research_holleman_1964], [Holmes 1980][research_holmes_1980], [Morris 1981, Analytical study of the cruise per][research_morris_1981_2], [Romeo et al 2004][research_romeo_2004], [Akdeniz and Balli 2021][research_akdeniz_balli_2021], [Weiser and Ossmann 2022][research_weiser_ossmann_2022]. Taking $n = 1$, which is the naive assumption that thrust simply follows density, the numbers are as follows.
+The method itself is period-standard, not invented here. Estimating aircraft performance from thrust, drag, and weight was a settled discipline with its own literature by the early 1950s, and the treatments that bracket this calculation are [Klinar 1947][research_klinar_1947], [Sanders 1957][research_sanders_1957], [Cole and Holleman 1958][research_cole_holleman_1958], [Bishop 1960][research_bishop_1960], [Bishop 1961][research_bishop_1961], [Holleman 1964][research_holleman_1964], [Holmes 1980][research_holmes_1980], [Morris 1981, Analytical study of the cruise per][research_morris_1981_2], [Romeo et al 2004][research_romeo_2004], [Akdeniz and Balli 2021][research_akdeniz_balli_2021], [Weiser and Ossmann 2022][research_weiser_ossmann_2022]. Taking $n = 1$, which is the naive assumption that thrust simply follows density, the numbers are as follows.
 
 | Weight, lb | Thrust ceiling, ft |
 |---|---|
@@ -203,7 +203,7 @@ and dividing by the local speed of sound gives a stalling Mach number that rises
 
 $$M_{\text{stall}}(z) = \frac{1}{a(z)} \sqrt{\frac{2 (W/S)}{\rho(z) C_{L\max}}}$$
 
-Both of the coefficients in that expression are themselves functions of Mach number and Reynolds number rather than constants, which is the crudest assumption in this article and is discussed under its limitations. The measurement programme that established the dependence runs from the wartime compressibility work through the later systematic surveys, in [Pepper and Foster 1946][research_pepper_foster_1946], [Bingham and Chen 1972][research_bingham_chen_1972], [Callaghan 1973][research_callaghan_1973], [Anderson et al 1984][research_anderson_1984]. The corner is where $M_{\text{stall}} = M_{\text{buffet}}$, and setting the two equal and solving for density gives a closed form,
+Both of the coefficients in that expression are themselves functions of Mach number and Reynolds number and not constants, which is the crudest assumption in this article and is discussed under its limitations. The measurement programme that established the dependence runs from the wartime compressibility work through the later systematic surveys, in [Pepper and Foster 1946][research_pepper_foster_1946], [Bingham and Chen 1972][research_bingham_chen_1972], [Callaghan 1973][research_callaghan_1973], [Anderson et al 1984][research_anderson_1984]. The corner is where $M_{\text{stall}} = M_{\text{buffet}}$, and setting the two equal and solving for density gives a closed form,
 
 $$\rho_{\text{corner}} = \frac{2 (W/S)}{C_{L\max}\left(M_{\text{buffet}}\, a\right)^{2}}$$
 
@@ -218,7 +218,7 @@ $$\rho_{\text{corner}} = \frac{2 (W/S)}{C_{L\max}\left(M_{\text{buffet}}\, a\rig
 
 **Thrust binds at every weight, and the margin between the two is essentially constant at about fourteen thousand feet.** That constancy is not a coincidence and it is worth stating precisely, because the obvious explanation is wrong. Both limits scale the same way with weight. The thrust ceiling sits at a density ratio exactly proportional to weight, and the corner sits at a density ratio proportional to weight as well, since the corner condition fixes a lift coefficient and therefore fixes a dynamic pressure. Burning fuel moves both by the same factor.
 
-The margin nonetheless widens by 279 feet across the whole fuel burn, from 14,059 to 14,338, and the reason is atmospheric rather than aerodynamic. **The corner sits fourteen thousand feet higher, where the temperature is rising again above the tropopause and the scale height is larger, so an identical change in density ratio buys slightly more altitude there.** A two percent drift in the margin is not a mechanism worth building an argument on. The useful statement is that **the corner and the thrust ceiling move together, so no amount of fuel burn ever brings the aeroplane near the corner.**
+The margin nonetheless widens by 279 feet across the whole fuel burn, from 14,059 to 14,338, and the reason is atmospheric, not aerodynamic. **The corner sits fourteen thousand feet higher, where the temperature is rising again above the tropopause and the scale height is larger, so an identical change in density ratio buys slightly more altitude there.** A two percent drift in the margin is not a mechanism worth building an argument on. The useful statement is that **the corner and the thrust ceiling move together, so no amount of fuel burn ever brings the aeroplane near the corner.**
 
 The width of the usable speed band follows directly,
 
@@ -232,7 +232,7 @@ which in true airspeed is $\Delta M \cdot a = 118.1$ knots. That is not a corner
 
 ### The Buffet Boundary Is a Measured Surface and Not a Number
 
-Treating $M_{\text{buffet}}$ as a single constant is a convenience this article adopts and should not defend. The buffet boundary is a surface in Mach number and lift coefficient, it moves with wing geometry and with Reynolds number, and it was established by flight measurement rather than by prediction throughout the period the X-16 belongs to and for decades afterward. The line of work runs [Huston and Skopinski 1955][research_huston_skopinski_1955], [Rainey and Igoe 1958][research_rainey_igoe_1958], [Cornette 1961][research_cornette_1961], [BARNARD 1969][research_barnard_1969], [MAYES et al 1970][research_mayes_1970], [Levy and Bailey 1981][research_levy_bailey_1981], [Coe 1981][research_coe_1981], [Lee 1984][research_lee_1984], [Rumsey et al 2001][research_rumsey_2001], [Chung et al 2002][research_chung_2002], [Rumsey et al 2003][research_rumsey_2003], [Sugioka et al 2021][research_sugioka_2021], [Soranna et al 2023][research_soranna_2023], [Zahn and Breitsamter 2023][research_zahn_breitsamter_2023].
+Treating $M_{\text{buffet}}$ as a single constant is a convenience this article adopts and should not defend. The buffet boundary is a surface in Mach number and lift coefficient, it moves with wing geometry and with Reynolds number, and it was established by flight measurement and not by prediction throughout the period the X-16 belongs to and for decades afterward. The line of work runs [Huston and Skopinski 1955][research_huston_skopinski_1955], [Rainey and Igoe 1958][research_rainey_igoe_1958], [Cornette 1961][research_cornette_1961], [BARNARD 1969][research_barnard_1969], [MAYES et al 1970][research_mayes_1970], [Levy and Bailey 1981][research_levy_bailey_1981], [Coe 1981][research_coe_1981], [Lee 1984][research_lee_1984], [Rumsey et al 2001][research_rumsey_2001], [Chung et al 2002][research_chung_2002], [Rumsey et al 2003][research_rumsey_2003], [Sugioka et al 2021][research_sugioka_2021], [Soranna et al 2023][research_soranna_2023], [Zahn and Breitsamter 2023][research_zahn_breitsamter_2023].
 
 Two things in that sequence matter here. **The boundary was being measured in flight at exactly the time the X-16 was designed**, which means the number the designers used was empirical and specific to a wing nobody had built. And **the subject did not close**, since onset prediction is still an active computational problem seventy years later, which is why this article's single assumed value carries the sensitivity it does.
 
@@ -268,7 +268,7 @@ $$W = 20{,}000 \times 0.05291 \times 21.095 = 22{,}325\ \text{lb}$$
 
 **The empty weight is 23,280 pounds.** The relation demands a weight 955 pounds below the weight of the aeroplane with nothing in it, which is impossible.
 
-The correct response is not to adjust the quoted ceiling. It is to notice that the same failure lands on all three aircraft built against this requirement. At $n = 1$ the U-2A cannot reach seventy thousand feet on either of two disagreeing published empty weights, and the RB-57D falls more than nine thousand feet short. **A failure that lands on three independent designs in the same direction is one shared wrong assumption rather than three data errors.**
+The correct response is not to adjust the quoted ceiling. It is to notice that the same failure lands on all three aircraft built against this requirement. At $n = 1$ the U-2A cannot reach seventy thousand feet on either of two disagreeing published empty weights, and the RB-57D falls more than nine thousand feet short. **A failure that lands on three independent designs in the same direction is one shared wrong assumption, not three data errors.**
 
 The sensitivity study names the candidate. Across a plausible range of zero-lift drag from 0.014 to 0.030 the ceiling moves 7,786 feet. Across a plausible range of the lapse exponent from 0.70 to 1.15 it moves 32,142 feet. The ratio of the two spans is
 
@@ -278,7 +278,7 @@ $$\frac{\Delta z_{n}}{\Delta z_{C_{D0}}} = \frac{32{,}142}{7{,}786} = 4.13$$
 
 ### Solving for the Exponent Instead of Assuming It
 
-Inverting the relation for the exponent rather than for the weight,
+Inverting the relation for the exponent and not for the weight,
 
 $$n = \frac{\ln\left(W / \left[T_{\text{SL}} (L/D)_{\max}\right]\right)}{\ln \sigma_{\text{quoted}}}$$
 
@@ -292,7 +292,7 @@ and asking what each aeroplane requires to reach its quoted ceiling, at a common
 
 **The two aircraft whose wing areas are actually published agree to within one percent**, at 0.9686 and 0.9780. The RB-57D sits lower, which is expected because its wing area had to be assumed. The mean is 0.9378 and the total spread across three independent designs by three different companies is 0.1111.
 
-That agreement is the article's strongest single result. Three aeroplanes, designed separately against one requirement, are consistent with one statement about how a turbojet behaves in thin air. **What that statement means physically is worked out in the propulsion section below, and it is not the obvious answer.** The mechanism is ram recovery rather than anything about the compressor, and compressor behaviour turns out to work against it rather than for it.
+That agreement is the article's strongest single result. Three aeroplanes, designed separately against one requirement, are consistent with one statement about how a turbojet behaves in thin air. **What that statement means physically is worked out in the propulsion section below, and it is not the obvious answer.** The mechanism is ram recovery, not anything about the compressor, and compressor behaviour turns out to work against it and not for it.
 
 At the solved exponent the picture changes materially,
 
@@ -323,11 +323,11 @@ $$\frac{6{,}285}{36{,}124 - 23{,}280} = 0.489$$
 
 or 48.9 percent. It arrives at the altitude it was built for with a little under half its fuel remaining.
 
-**The design altitude is therefore not a cruise condition. It is a condition reached slightly before the midpoint of the flight and held for the remainder while the aeroplane drifts steadily higher.** Everything about the mission follows from this. The aeroplane cannot be intercepted for the second half of its flight and is progressively more vulnerable the earlier it is caught, which is a statement about the shape of the sortie rather than about the aeroplane.
+**The design altitude is therefore not a cruise condition. It is a condition reached slightly before the midpoint of the flight and held for the remainder while the aeroplane drifts steadily higher.** Everything about the mission follows from this. The aeroplane cannot be intercepted for the second half of its flight and is progressively more vulnerable the earlier it is caught, which is a statement about the shape of the sortie, not about the aeroplane.
 
 ## Dependent Systems
 
-Each system below is dimensioned against the ceiling relation, and the ordering follows dependency rather than convention.
+Each system below is dimensioned against the ceiling relation, and the ordering follows dependency and not convention.
 
 ### The Wing, Which Is Aspect Ratio Bought at a Price
 
@@ -351,7 +351,7 @@ The aerodynamics of a long wing were well understood by the time the requirement
 
 $$W_{\text{wing}} \propto \frac{n_{\text{ult}} W b^{3}}{S t/c}$$
 
-so weight grows with the cube of span at fixed area. Weight estimation of this kind became a formal subject with its own methods, in [TORENBEEK 1972][research_torenbeek_1972], [Hayase 1974][research_hayase_1974], [Hayase 1974, A Structural Weight Estimation Pro][research_hayase_1974_2], [Samuels 1982][research_samuels_1982], [Miura and Shyu 1986][research_miura_shyu_1986], [Mason and Iglesias 2001][research_mason_iglesias_2001], [Regis et al 2004][research_regis_2004], [Matsuda et al 2026][research_matsuda_2026]. **Aspect ratio pays under a square root and charges under a cube.** That is the entire reason these aeroplanes converged on a particular slenderness rather than simply growing wings without limit, and it is why the wing had to be built lighter and more flexibly than jet practice of the period allowed.
+so weight grows with the cube of span at fixed area. Weight estimation of this kind became a formal subject with its own methods, in [TORENBEEK 1972][research_torenbeek_1972], [Hayase 1974][research_hayase_1974], [Hayase 1974, A Structural Weight Estimation Pro][research_hayase_1974_2], [Samuels 1982][research_samuels_1982], [Miura and Shyu 1986][research_miura_shyu_1986], [Mason and Iglesias 2001][research_mason_iglesias_2001], [Regis et al 2004][research_regis_2004], [Matsuda et al 2026][research_matsuda_2026]. **Aspect ratio pays under a square root and charges under a cube.** That is the entire reason these aeroplanes converged on a particular slenderness, not simply growing wings without limit, and it is why the wing had to be built lighter and more flexibly than jet practice of the period allowed.
 
 ### The Wing Is Flexible Enough That Its Shape Is a Variable
 
@@ -379,7 +379,7 @@ The wing loading sits in the denominator. **The property that buys altitude buys
 
 $$\frac{\Delta n_{1}}{\Delta n_{2}} = \frac{a_{1} / (W/S)_{1}}{a_{2} / (W/S)_{2}}$$
 
-so the ratio is fixed by aspect ratio and wing loading alone and is a property of proportions rather than of size, which is the same structural observation the [X-13][related_post_a310_ryan_x13] article made about its own crossover. Evaluating at an equivalent airspeed of 100 metres per second and a derived gust of 15 metres per second, using the finite-wing lift curve slope $a = 2\pi A / (A + 2)$,
+so the ratio is fixed by aspect ratio and wing loading alone and is a property of proportions and not of size, which is the same structural observation the [X-13][related_post_a310_ryan_x13] article made about its own crossover. Evaluating at an equivalent airspeed of 100 metres per second and a derived gust of 15 metres per second, using the finite-wing lift curve slope $a = 2\pi A / (A + 2)$,
 
 | Aircraft and condition | Wing loading, lb/ft² | Aspect ratio | Gust increment |
 |---|---|---|---|
@@ -403,13 +403,13 @@ so the design life in sorties is
 
 $$N = \frac{500}{7.91} = 63.2$$
 
-and **the wing was therefore good for 63 full-radius missions.** An RB-57D lost its wing at fifty thousand feet in 1964 and the survivors were grounded, with the last airframes retired in 1979 for wing spar fractures. The bill for a light flexible wing was presented and it was paid. Fatigue under spectrum loading, which is the mechanism, has its own long literature in [CA 1963][research_ca_1963], [Nordby and Crisman 1964][research_nordby_crisman_1964], [Smith 1964][research_smith_1964], [Grover 1966][research_grover_1966], [Ryder and Walker 1976][research_ryder_walker_1976], [Jones and Eftis 1981][research_jones_eftis_1981], [Wert et al 1983][research_wert_1983], [Ghonem 1987][research_ghonem_1987], [Moore and Cutright 2019][research_moore_cutright_2019], and **the RB-57D's failure is the case those methods exist to prevent rather than an anomaly.**
+and **the wing was therefore good for 63 full-radius missions.** An RB-57D lost its wing at fifty thousand feet in 1964 and the survivors were grounded, with the last airframes retired in 1979 for wing spar fractures. The bill for a light flexible wing was presented and it was paid. Fatigue under spectrum loading, which is the mechanism, has its own long literature in [CA 1963][research_ca_1963], [Nordby and Crisman 1964][research_nordby_crisman_1964], [Smith 1964][research_smith_1964], [Grover 1966][research_grover_1966], [Ryder and Walker 1976][research_ryder_walker_1976], [Jones and Eftis 1981][research_jones_eftis_1981], [Wert et al 1983][research_wert_1983], [Ghonem 1987][research_ghonem_1987], [Moore and Cutright 2019][research_moore_cutright_2019], and **the RB-57D's failure is the case those methods exist to prevent, not an anomaly.**
 
 ### The Propulsion, Which Is Where the Programme's Value Actually Was
 
 The engines are two Pratt and Whitney J57 turbojets of 10,000 pounds force each, modified for high-altitude operation. Sources give the variant as J57-P-19 initially and J57-P-37 subsequently, and one compilation gives J57-PW-37A. The variant that eventually powered the U-2 was the -31 at 11,500 pounds force.
 
-The ceiling analysis says the whole aeroplane lives or dies on the lapse exponent, so the exponent deserves a mechanism rather than a label.
+The ceiling analysis says the whole aeroplane lives or dies on the lapse exponent, so the exponent deserves a mechanism and not a label.
 
 **An earlier version of this article attributed it to Reynolds number degradation of the compressor, and that attribution was the wrong way round.** Degradation makes a compressor perform worse in thin air, which pushes the exponent above one rather than below it. It cannot be what allows thrust to beat proportionality.
 

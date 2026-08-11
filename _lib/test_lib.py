@@ -1057,6 +1057,22 @@ def t_resolve_summarise_reports_the_registry_only_fraction():
 
 
 
+
+def t_clean_collapses_a_repeated_comma_from_a_registry_title():
+    """`, ,` IS A REGISTRY ARTEFACT AND NO TITLE LEGITIMATELY CARRIES ONE.
+
+    A harvested title reached a draft reading "Col, Demler of A, E, C, , Washington", where an
+    abbreviation full stop had already become a comma and the empty field between two of them
+    rendered as a bare `, ,` in the visible reference entry.
+    """
+    got = refs.clean("Col, Demler of A, E, C, , Washington, Col,")
+    assert ", ," not in got, got
+    assert ",," not in got, got
+    # an ordinary comma list must survive untouched
+    assert refs.clean("Smith, Jones and Brown") == "Smith, Jones and Brown"
+
+
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)

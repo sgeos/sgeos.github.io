@@ -75,7 +75,7 @@ sequencing them is scheduling and the flight is a display.
 **So the keystone of this article is a coupling question, and it is answerable.** For each of the three
 events, and for the transitions between them, the article asks what physical quantity was actually scarce,
 and computes it. The answer is not the one the reputation implies, and the article's own counter-arguments
-against that answer are set out in a later section rather than suppressed.
+against that answer are set out in a later section and not suppressed.
 
 **A preview, because a reader is entitled to know where an argument is going.** Two of the three events turn
 out to have been cheap, one of them very cheap indeed, and the expensive thing is not one of the three.
@@ -98,7 +98,7 @@ The competition ran as a fly-off between two concept demonstrator teams. Each bu
 covering the three variants, and each demonstrated a different answer to the hovering problem.
 **Neither team started from nothing.** The technology base both drew on had been accumulating for four
 decades, a great deal of it in reports of the National Aeronautics and Space Administration and its
-predecessor, and most of the period literature this article cites comes from that base rather than from the
+predecessor, and most of the period literature this article cites comes from that base, not from the
 competition itself.
 
 - [Acquisition Cost Estimating Using Simulation][research_parrish_jr_1978]
@@ -138,7 +138,7 @@ Bevilaqua spent the preceding fifteen years on thrust-augmenting ejectors, publi
 [an evaluation of hypermixing][research_bevilaqua_1974] in 1974 and
 [two reviews of advances in ejector thrust augmentation][research_bevilaqua_1984] in the 1980s.
 **The ejector is the other way of adding mass flow to a lift system**, entraining ambient air into a
-high-velocity primary jet rather than driving a fan with a shaft, and it was the leading candidate for
+high-velocity primary jet and not driving a fan with a shaft, and it was the leading candidate for
 supersonic vertical landing for two decades. **The man who displaced it had spent his career on it.**
 
 - [ANALYSIS AND TEST RESULTS OF DIVISION OF POWER BETWEEN LIFT...][research_generalelectriccocincinnatioh_1962]
@@ -171,7 +171,7 @@ the X-35B by installing the lift system. The X-35C was a separate aircraft with 
 structure of the carrier variant.
 **So the aircraft that flew Mission X is the same airframe that had earlier flown as a conventional fighter**,
 which matters later, because it means the conventional and hovering configurations differed by an
-installation rather than by an airframe.
+installation, not by an airframe.
 
 - [Comparison of Aero/Propulsion Transition Characteristics for...][research_naumowicztim_margasonrichard_1996]
 - [Comparison of Hover/Ground-Effect Characteristics for a Joint...][research_hangecraig_naumowicztim_1996]
@@ -190,7 +190,7 @@ installation rather than by an airframe.
 
 ### The Relation That Makes a Fan Worth Carrying
 
-**The previous article on the X-32 derived this and it is reused rather than rebuilt.** A jet that
+**The previous article on the X-32 derived this and it is reused and not rebuilt.** A jet that
 accelerates a mass flow $\dot{m}$ from rest to a velocity $v$ produces a thrust and carries away a kinetic
 power,
 
@@ -209,7 +209,7 @@ fixed power buys thrust. Doubling the mass flow multiplies the thrust by the squ
 not one extra joule was spent.
 
 **Said the other way round, and this is the form that makes the design decision obvious, thrust per unit power is inversely proportional to jet velocity.**
-Dividing the two definitions rather than eliminating between them,
+Dividing the two definitions, not eliminating between them,
 
 $$\frac{T}{P} = \frac{\dot{m} v}{\tfrac{1}{2} \dot{m} v^{2}} = \frac{2}{v}$$
 
@@ -271,12 +271,12 @@ figure of merit is
 $$\mathrm{FM} = \frac{P_{\text{ideal}}}{P_{\text{shaft}}} = \frac{15.06}{21.63} = 0.697$$
 
 **This is the same 0.697 the previous article recovered while examining the rival**, from the same three
-numbers, and it belongs to the X-35's fan rather than the X-32's. A figure of merit near seven tenths is
+numbers, and it belongs to the X-35's fan and not the X-32's. A figure of merit near seven tenths is
 respectable for a heavily loaded fan in a short duct with louvred exit vanes and no time to be elegant.
 
 The result was reached here by a route the earlier derivation did not use. Rather than evaluating the closed
 form for induced velocity, the far-field velocity was recovered by bisecting the streamtube mass balance,
-and the power was then taken as the jet's kinetic flux rather than as thrust times induced velocity.
+and the power was then taken as the jet's kinetic flux, not as thrust times induced velocity.
 **The two routes agree to the last bit of double precision, and what that does and does not establish should be stated plainly.**
 The formulations are algebraically equivalent, so exact agreement is what they ought to produce and is no
 evidence that the physics is right. **What the second route tests is transcription**, and a mistyped
@@ -385,7 +385,7 @@ lands 1.186 times high, which is to say within a fifth,
 
 **That agreement should be read for what it is and not for more.** The relation assumes the total power is
 unchanged between the two arrangements, that both jets are ideal, and that the roll posts belong in the
-numerator, and each of those is approximately rather than exactly true. A model with those concessions
+numerator, and each of those is approximately and not exactly true. A model with those concessions
 landing within twenty percent has demonstrated that the mass-flow mechanism is the dominant one, which is
 worth knowing, and it has not measured the engine.
 
@@ -424,7 +424,7 @@ and the dynamic pressure in the fully developed jet is
 $$q_{\text{jet}} = \tfrac{1}{2} \rho \left(2 v_i\right)^{2} = 2 \rho v_i^{2} = \frac{T}{A}$$
 
 **so the dynamic pressure the jet puts on the ground IS the disc loading, exactly.** The two routes agree to
-the last bit of double precision, which is to say the residual is rounding rather than disagreement, and the
+the last bit of double precision, which is to say the residual is rounding, not disagreement, and the
 identity was confirmed over twenty thousand randomised combinations of thrust, area and density.
 
 This matters because it converts a propulsion number into a facilities number without any further modelling.
@@ -497,12 +497,12 @@ the airframe of
 $$Q = \frac{P}{\omega}$$
 
 and in a hover there is nothing to react it against except the roll posts, which exist to control the
-aircraft rather than to trim it. The roll posts supply a couple of
+aircraft and not to trim it. The roll posts supply a couple of
 
 $$C = 2 F_{\text{post}} \ell$$
 
 where $\ell$ is the distance from the centreline.
-**The fan's rotational speed is not published, so the relation is inverted rather than evaluated.** Asking
+**The fan's rotational speed is not published, so the relation is inverted, not evaluated.** Asking
 what speed would make the reaction torque exactly consume the entire roll-post couple gives
 
 | Roll-post arm, m | Roll-post couple, N·m | Threshold speed, rpm |
@@ -610,7 +610,7 @@ $$\Delta T_p = \frac{E_{\text{clutch}}}{m_p c_p} = \frac{I \omega_s^{2}}{2 m_p c
 and for an assumed twenty kilograms of carbon at 710 joules per kilogram kelvin that is
 **128.3, 189.8 and 256.5 kelvin** across the three inertias.
 **Those are ordinary friction-material temperatures**, which is the first sign that the engagement is
-thermally reasonable rather than heroic.
+thermally reasonable and not heroic.
 
 ### What the Bound Rules Out
 
@@ -628,7 +628,7 @@ vaporisation point of anything. The engagement therefore cannot be anywhere near
 nine seconds gives a mean power between 1.9 and 3.7 percent of what the shaft could deliver.
 **The nine seconds is not the time the energy requires. It is the time the heat requires**, and the
 difference between those two statements is the whole reason a mode change on this aircraft is a deliberate,
-scheduled event rather than the flick of a switch.
+scheduled event, not the flick of a switch.
 
 - [The Friction Clutch][research_the_friction_1846]
 - [Improved Friction Clutch][research_improved_friction_1852]
@@ -662,7 +662,7 @@ Writing $\dot{m}$ for the fan's mass flow and $V$ for true airspeed,
 $$D_{\text{mom}} = \dot{m} V$$
 
 which is exact and needs nothing beyond the flow the disc analysis already produced.
-**The fan's mass flow was recovered here by a second route**, taking thrust over jet velocity rather than
+**The fan's mass flow was recovered here by a second route**, taking thrust over jet velocity and not
 density times area times induced velocity. **The two are algebraically the same statement**, since the ideal
 disc has $T = \dot{m} v_j$ identically, so their agreement tests transcription rather than physics and is
 reported as such.

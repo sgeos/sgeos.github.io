@@ -43,6 +43,9 @@ article-specific content alone.
 | `numcheck.py` | Harness for re-deriving stated values independently, with property and bisection checks | 18 `verify_numbers` |
 | `citations.py` | Registry verification of recalled identifiers, sampling for retrieved ones | 13 `url_check`, 6 `verify_urls` |
 | `post.py` | What a post is made of. Document structure, defined once | 7 splits, 9 anchor patterns |
+| `gate.py` | Subject-anchor gating for a harvested corpus, with the two-sided random audit that is the only thing detecting a mis-tuned gate | 2 copied `select.py` |
+| `render.py` | Audit of BUILT HTML for defects a reader would see, and page-weight reporting | 1 ad hoc `audit_html.py` |
+| `resolve.py` | Whether a cited identifier resolves at all, with registry fallback and bot-mitigation handling | 3 rewritten `sweep.py` |
 | `test_lib.py` | Regression tests, one per shipped defect, plus anti-duplication guards | |
 
 **The library reproduced its own defect within a day.** An audit found `fold` byte-identical in two
@@ -62,6 +65,17 @@ Four copies and then silence is the pattern this library exists to end.
 `numbers.py`, which shadowed the standard library and broke `statistics` for every caller through the
 `fractions` import chain, because article scripts put `_lib` first on `sys.path`. A test now guards
 the whole package against it.
+
+**One distinction matters more than the table suggests.** Every module above except `render.py` reads
+**markdown source**, so every one of them predicts what kramdown and MathJax will do rather than
+observing it. Run corpus-wide on 2026-08-11, `lint.py` reported 1,596 defect-severity findings and the
+rendered pages carried none of them. `render.py` is the only instrument that sees what a reader sees,
+and `./_check.sh` at the repository root runs it the way CI does.
+
+**`resolve.py` and `citations.py` answer different questions and neither subsumes the other.**
+`resolve.py` asks whether an identifier resolves at all, which catches a dead landing page.
+`_verify_citations.py` asks whether it resolves to **the work it is cited as**, which catches a wrong
+identifier. An HTTP 200 does not verify a citation.
 
 ## Usage
 

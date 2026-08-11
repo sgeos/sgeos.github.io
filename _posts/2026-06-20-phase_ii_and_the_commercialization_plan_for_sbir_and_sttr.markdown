@@ -36,7 +36,7 @@ Phase II is the development award, and its character follows from that.
 Where Phase I bought a feasibility study, Phase II buys a
 [prototype][ref_prototype], a working article that develops the proven concept
 into something close to a product, so the award is roughly an order of magnitude
-larger than Phase I and runs about two years rather than months.
+larger than Phase I and runs about two years and not months.
 On the [technology readiness level][ref_trl] scale that the
 [orientation article][related_post_intro] introduced, Phase II carries the
 technology through the middle rungs, from a
@@ -56,7 +56,7 @@ Phase II is not open to everyone, since it is normally the second step of a
 sequence.
 A company competes for Phase II on the strength of its completed or nearly
 completed Phase I, so the gate is the feasibility the Phase I work actually
-demonstrated, and the proposal builds directly on that result rather than
+demonstrated, and the proposal builds directly on that result, not
 starting fresh.
 Between the end of Phase I and the start of Phase II there is usually a gap, a
 stretch of months while the Phase II proposal is written and evaluated during
@@ -82,7 +82,7 @@ harder now, since Phase II brings in manufacturing partners and subcontractors
 and yet the small business must still perform at least half the work.
 What changes is the weight on commercialization, since the criterion that was
 one of three in Phase I now carries much more of the score, and at many agencies
-a formal commercialization plan is a required document rather than a section.
+a formal commercialization plan is a required document and not a section.
 The proposal is written to the criteria as before, but the center of gravity has
 moved, so a Phase II that is technically strong and commercially vague is the
 characteristic way to lose at this stage, the development-phase counterpart to

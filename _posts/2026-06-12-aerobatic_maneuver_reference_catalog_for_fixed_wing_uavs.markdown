@@ -20,7 +20,7 @@ and recognized maneuvers with each one classified in the terms the model
 defines.
 It is written for the people who command unmanned aircraft and the autonomy
 that flies them, so a maneuver here is a commanded trajectory to be selected
-and budgeted rather than a skill to be learned, and the human-pilot concerns of
+and budgeted and not a skill to be learned, and the human-pilot concerns of
 technique and physiology are left out as they were in the model article.
 The maneuver definitions are drawn from the established catalogs, the
 [Aresti system][ref_aresti] codified for competition and the figures recognized
@@ -30,7 +30,7 @@ from the standard [air-combat repertoire][ref_bfm].
 The per-maneuver classification in the cost model is, to my knowledge, an
 original effort, since no catalog records the energy-height behavior, the load
 class, and the regime ceiling of each figure, so that part of the table should
-be read as a derived and qualitative synthesis rather than a sourced
+be read as a derived and qualitative synthesis, not a sourced
 measurement, with the limitations stated below.
 
 ## How to Read the Table
@@ -50,7 +50,7 @@ the model article, whether the figure conserves the energy height, trades
 kinetic for potential energy or the reverse, oscillates it, spends it against
 drag, or dumps it.
 The peak-load column gives the order of the largest load factor and its sign,
-as a qualitative class rather than a measured value.
+as a qualitative class and not a measured value.
 The last column gives the highest speed regime in which the figure remains
 meaningful, together with any flag for a figure that is post-stall, autorotative,
 asymmetric, parametric, or without a closed form.
@@ -80,17 +80,17 @@ The classification of each maneuver in the cost model, the energy-height
 behavior, the peak-load class, and the regime ceiling, is my own derivation
 from the model of the previous article, and to my knowledge has not been
 tabulated this way before, so it is offered as an original and qualitative
-synthesis to be checked rather than as measured data.
+synthesis to be checked, not as measured data.
 Three limitations follow.
 The values are qualitative classes and orders of magnitude, design guidance
-rather than certification figures, and the true numbers depend on the specific
+and not certification figures, and the true numbers depend on the specific
 airframe and how aggressively the figure is flown.
 The catalog lists the named and recognized base figures and notes the
-parametric families separately, rather than enumerating the combinatorial
+parametric families separately, not enumerating the combinatorial
 Aresti space of figures distinguished only by the number of rolls or spins,
 which runs to many thousands of mechanical permutations of no reference value.
 And the post-stall and unsteady figures have no closed-form pricing, so their
-rows carry a flag and are discussed in a dedicated section rather than given a
+rows carry a flag and are discussed in a dedicated section and not given a
 load number the physics does not support.
 
 ## The Catalog
@@ -195,24 +195,24 @@ wing, brief and violent, carrying a transient load the structure must tolerate
 even though its peak resists a tidy formula.
 The post-stall figures, the cobra, the Kulbit, and the Herbst maneuver, are
 deliberate excursions far beyond the stall in which the aircraft is flown on its
-attitude rather than its lift, dumping speed almost in place, and they are
+attitude, not its lift, dumping speed almost in place, and they are
 feasible only where the aircraft keeps control authority past the stall, through
 thrust vectoring or a reaction control system or the sheer surface power the
 unmanned case can carry without a human limit.
 The gyroscopic figures, the Lomcevak and the commanded tumble, draw their
 motion from the precession of the spinning mass of the aircraft and its engine,
-and are characterized by their entry and their energy dump rather than by a
+and are characterized by their entry and their energy dump and not by a
 steady load.
 The [three-dimensional and prop-hang figures][ref_three_d_flying], the harrier
 and the hover and the torque roll, are sustained flight beyond the stall in which
-the propeller thrust rather than the wing carries the aircraft, a regime the
+the propeller thrust, not the wing carries the aircraft, a regime the
 modern [aerobatic][ref_aerobatics] repertoire has opened and one an unmanned
 airframe with thrust to spare and no human aboard is unusually free to use,
-priced like the others by entry and by control authority rather than by a steady
+priced like the others by entry and by control authority and not by a steady
 load.
 For all of these the honest statement is the one the structures article made of
 flutter, that the figure is real and floatable but that its pricing belongs to a
-treatment in unsteady aerodynamics rather than to a closed form, and that for an
+treatment in unsteady aerodynamics, not to a closed form, and that for an
 unmanned aircraft the binding question is whether the autopilot retains the
 authority to enter and leave it safely.
 

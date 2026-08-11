@@ -49,19 +49,19 @@ $$\gamma(T) = 1 + \frac{R}{c_v(T)}, \qquad c_v(T) = \frac{5}{2} R + R \left( \fr
 
 with $\theta_v$ the characteristic vibrational temperature, near 2270 kelvin for oxygen and 3390 for nitrogen. Dissociation follows well above that. At a stagnation temperature of 659 kelvin the vibrational contribution is a few percent and dissociation is absent entirely, so air behaves as a calorically perfect gas throughout the X-2 envelope and $\gamma = 1.4$ holds. Where that assumption fails, which is everywhere above roughly Mach 5, the consequences reach into the boundary layer as in [NASA 1986][research_real_gas_boundary_layer_1986], into its stability as in [NASA 1991][research_real_gas_stability_1991], into trim as in [NASA 1989][research_real_gas_trim_1989], and into whether a ground facility can reproduce the flow at all, which is the subject of [NASA 1987][research_real_gas_facility_1987]. That is a real simplification the aircraft enjoyed and the X-15 did not. That number is the whole programme. Aluminium alloys of the period lose useful strength above roughly 400 kelvin and are unusable above 500. At 611 kelvin steady state an aluminium airframe does not fail dramatically. It creeps, which is worse, because [creep][ref_creep_deformation] is time-dependent and a structure that survives a two-minute exposure may not survive a ten-minute one. The design question was therefore not whether the aircraft could reach Mach 3 but what it should be made of, and how long it could stay there.
 
-Three sub-questions follow, and the article treats each in turn. What is the actual heat flux into the structure, as opposed to the temperature of the air. How does the structure respond in time, since a short exposure and a steady state are different problems. And what does a material chosen for temperature rather than for strength cost in mass.
+Three sub-questions follow, and the article treats each in turn. What is the actual heat flux into the structure, as opposed to the temperature of the air. How does the structure respond in time, since a short exposure and a steady state are different problems. And what does a material chosen for temperature and not for strength cost in mass.
 
 A fourth question was not asked and turned out to matter more. At Mach 3 an airframe with most of its mass in a long fuselage and very little in short swept wings has inertia properties that couple its rotational axes together, and the aerodynamic restoring moments that would ordinarily suppress that coupling weaken with Mach number. That is treated in its place below, and it is what killed the aircraft.
 
 ## Programme Origin
 
-The X-2 was authorized in 1945, the same year as the X-1, under a United States Army Air Forces contract to Bell with a NACA research component. It did not fly under power until 1955. That ten-year gap is the most informative fact about the programme and is worth explaining rather than noting.
+The X-2 was authorized in 1945, the same year as the X-1, under a United States Army Air Forces contract to Bell with a NACA research component. It did not fly under power until 1955. That ten-year gap is the most informative fact about the programme and is worth explaining, not noting.
 
 Two things were being invented at once. The first was a structure in a material nobody built airframes from. The second was a throttleable liquid rocket engine, which is a substantially harder problem than the fixed-thrust chambers of the [X-1][related_post_a298_bell_x1], and the Curtiss-Wright XLR25 took years to become flightworthy. A programme that must invent two things sequentially takes longer than the sum of the parts, because each waits on the other for integration.
 
 The delay had a consequence the programme did not intend. By the time the X-2 flew, the [X-15][ref_na_x15] was already being designed to a far more ambitious specification, and the research airplane committee documented in [NACA 1958][research_x15_conference_1958] was looking past Mach 3 toward Mach 6 and beyond. The X-2 therefore delivered its data into a community that had partly moved on, which is a recurring hazard for long programmes and one this series will meet again.
 
-The configuration decisions follow from the keystone. The wing was swept 40 degrees and of low [aspect ratio][ref_aspect_ratio], on the reasoning of [Jones 1947][research_jones_1947] that sweep reduces the effective Mach number normal to the leading edge. The structure was stainless steel and K-Monel, a nickel-copper alloy related to [Monel][ref_monel], chosen for temperature capability rather than for specific strength. The aircraft was air-launched from a [Boeing B-50 Superfortress][ref_b50], a larger carrier than the X-1 needed, because the X-2 was heavier and needed more altitude at release.
+The configuration decisions follow from the keystone. The wing was swept 40 degrees and of low [aspect ratio][ref_aspect_ratio], on the reasoning of [Jones 1947][research_jones_1947] that sweep reduces the effective Mach number normal to the leading edge. The structure was stainless steel and K-Monel, a nickel-copper alloy related to [Monel][ref_monel], chosen for temperature capability and not for specific strength. The aircraft was air-launched from a [Boeing B-50 Superfortress][ref_b50], a larger carrier than the X-1 needed, because the X-2 was heavier and needed more altitude at release.
 
 One further decision deserves separate mention because it bears on how the programme ended. The X-2 had no [ejection seat][ref_ejection_seat]. It had a jettisonable nose capsule, the stability of which the NACA had investigated as early as [NACA 1949][research_nose_capsule_1949]. The pilot was expected to separate the entire forward fuselage, stabilize, and then leave it under a personal parachute at lower altitude. The [X-15][ref_na_x15] programme reached a different conclusion and used an ejection seat, as [NASA 1958][research_x15_escape_1958] records.
 
@@ -101,7 +101,7 @@ The single largest uncertainty in the whole thermal estimate is whether that bou
 
 $$\frac{St_{\text{turb}}}{St_{\text{lam}}} = \frac{0.0296 \, Re_x^{-1/5}}{0.332 \, Re_x^{-1/2}} = 0.089 \, Re_x^{3/10}$$
 
-which at $Re_x = 10^{7}$ is a factor of about eleven. A structure sized for laminar heating and flown turbulent is not conservatively designed, it is wrong, and that is why transition location rather than peak temperature is the quantity the community chased for the next fifty years. At a stagnation point the flux is given to good accuracy by the correlation used throughout this series,
+which at $Re_x = 10^{7}$ is a factor of about eleven. A structure sized for laminar heating and flown turbulent is not conservatively designed, it is wrong, and that is why transition location, not peak temperature is the quantity the community chased for the next fifty years. At a stagnation point the flux is given to good accuracy by the correlation used throughout this series,
 
 $$\dot{q}_s = k_{SG} \sqrt{\frac{\rho_\infty}{R_n}} \, V_\infty^3, \qquad k_{SG} = 1.7415 \times 10^{-4}$$
 
@@ -115,7 +115,7 @@ $$T_{\text{eq}} = \left( \frac{\dot{q}_s}{\varepsilon \sigma_{SB}} \right)^{1/4}
 
 with $\varepsilon$ the emissivity and $\sigma_{SB} = 5.670 \times 10^{-8}$ watts per square metre per kelvin to the fourth. At $\varepsilon = 0.8$ this gives 1438 kelvin, which no airframe alloy of 1955 could hold.
 
-The X-2 survived because it never reached equilibrium. This is the central design insight of the aircraft and it is a statement about time rather than temperature. Whether a thin skin can be treated as isothermal through its thickness is decided by the [Biot number][ref_biot_number],
+The X-2 survived because it never reached equilibrium. This is the central design insight of the aircraft and it is a statement about time and not temperature. Whether a thin skin can be treated as isothermal through its thickness is decided by the [Biot number][ref_biot_number],
 
 $$Bi = \frac{h_c t_w}{k_w}$$
 
@@ -131,7 +131,7 @@ and for stainless steel at 8000 kilograms per cubic metre, a specific heat of 50
 
 $$\left. \frac{dT_w}{dt} \right|_{t=0} = \frac{\dot{q}_s}{C_A} = \frac{1.94 \times 10^{5}}{6400} = 30 \ \text{kelvin per second}$$
 
-so the skin climbs from an initial 250 kelvin to 800 kelvin in about eighteen seconds. That is the design margin of the entire aircraft. The X-2 was a heat sink flown fast for a short time, not a thermally equilibrated vehicle, and the exposure duration is a hard limit rather than a soft one. The relevant diffusion timescale is set by the [Fourier number][ref_fourier_number],
+so the skin climbs from an initial 250 kelvin to 800 kelvin in about eighteen seconds. That is the design margin of the entire aircraft. The X-2 was a heat sink flown fast for a short time, not a thermally equilibrated vehicle, and the exposure duration is a hard limit, not a soft one. The relevant diffusion timescale is set by the [Fourier number][ref_fourier_number],
 
 $$Fo = \frac{\alpha_{\text{th}} t}{t_w^2}, \qquad \alpha_{\text{th}} = \frac{k_w}{\rho_w c_w}$$
 
