@@ -11,10 +11,10 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `1373df0`
+- **Parent commit** (the repository state this handoff describes): `d2ceb3c`
 - **Written**: 2026-08-11
 - **Tree at write**: clean, nothing unpushed
-- **Context**: the X-Planes series is IN PROGRESS. **Thirty-five of seventy-two articles drafted,
+- **Context**: the X-Planes series is IN PROGRESS. **Thirty-seven of seventy-two articles drafted,
   all four passes complete on each. None published.**
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
@@ -33,52 +33,52 @@ described.
 
 ---
 
-## Resume prompt, and the next prompt will be "Please draft A332, 'X-Planes: Lockheed Martin X-35.'"
+## Resume prompt, and the next prompt will be "Please draft A334, 'X-Planes: Boeing X-37.'"
 
-**Nothing is outstanding.** A331 finished all four passes, is committed and pushed, and returns 404
-while the site root returns 200, which is correct because nothing in the series is published. There
-is no half-finished pass to pick up.
+**Nothing is outstanding.** A333 finished all four passes, is committed and pushed, and returns 404
+while the site root returns 200, which is correct because nothing in the series is published. There is
+no half-finished pass to pick up.
 
-**Wait for the pilot's prompt. Do not begin A332 unprompted.**
+**Wait for the pilot's prompt. Do not begin A334 unprompted.**
 
-**A332 IS THE OTHER HALF OF A329 AND THE TWO ARE A MATCHED PAIR.** Editorial date 2025-11-10, Part 36
-of 72. A329 covered the Joint Strike Fighter competition from the losing side and concluded that the
-difficulty was construct validity, since neither demonstrator was the aircraft being bought.
-**A332 MUST NOT RESTATE THAT ARGUMENT.** It has already been made, at length, two articles ago. The
-question left over is the winner's, and it is a different one. **What did the X-35's demonstration
-actually establish?**
+**A334 IS THE BOEING X-37**, editorial date 2025-11-12, Part 38 of 72. **It is the hardest documentary
+problem the series has met, and the difficulty is the opposite of every previous one.** The X-37 flew,
+is still flying, and has spent more than a decade in orbit across several missions, **and almost
+nothing about what it did up there is public.** Previous articles struggled with vehicles that left too
+little trace. **This one has left a large trace with a hole in the middle.**
 
-**THE FACT A329 IDENTIFIED AS DECISIVE IS THE ONE TO INTERROGATE.** The X-35 flew a short takeoff, a
-supersonic dash and a vertical landing in a single sortie, and the X-32 had to be reconfigured
-between those regimes. **A332 has to say whether that single sortie was evidence or theatre.** It is
-genuinely open. A sortie that demonstrates three things in sequence proves the transitions work in
-one airframe on one day, which is exactly what the X-32 could not show, and it is also a
-demonstration designed to be demonstrated.
+**DECIDE EARLY WHAT THE ARTICLE IS ABOUT, BECAUSE THE OBVIOUS SUBJECT IS UNAVAILABLE.** The mission is
+classified. Writing around that by speculating is the failure mode, and the series has a better
+instrument: **the orbital mechanics are public whether the payload is or not.** Two-line element sets
+for the vehicle have been tracked by amateurs continuously, so **the orbit, its inclination, its
+altitude history, its manoeuvres and their delta-v cost are all recoverable from public data.** That is
+a measurement, not a guess, and it is the honest route into a classified subject.
 
-**A329 ALREADY BUILT MACHINERY THIS ARTICLE SHOULD REUSE RATHER THAN REBUILD.** The relation that
-thrust rises as the square root of mass flow at fixed power is derived there. So is the lift fan's
-figure of merit of 0.697, recovered from three separately published numbers, and it is the X-35's
-fan rather than the X-32's. **Reuse both and extend rather than re-deriving.**
+**MY VIEW OF THE KEYSTONE, OFFERED SO IT CAN BE ARGUED WITH.** The X-37B is a reusable orbital vehicle
+whose distinguishing quantity is **endurance**, since missions have run for hundreds of days. Endurance
+in orbit is a power and thermal problem rather than a propulsion one, so **the binding unknown is what
+sustains a vehicle that long**, and the deployable solar array and the radiator area are the physical
+answers. **A331 and A330 supply the reusable-vehicle machinery** and A317's Dyna-Soar is the direct
+lineal ancestor, being the same idea forty years earlier.
 
-**EXPECT THE OPPOSITE DOCUMENTARY PROBLEM AGAIN, AND IT IS THE THIRD KIND THIS SERIES HAS MET.** A329
-measured one record carrying the X-32 against twenty-nine carrying the winner, running continuously
-from 2002 to 2020. **So the X-35 pool will be rich and the difficulty will be keeping the article off
-the F-35.** The X-35 is the demonstrator and the F-35 is the product, their programmes ran twenty
-years apart, and **the discipline is to decide early how much of the production aircraft's cost and
-schedule history belongs in an article about a demonstrator.** My view is that very little does, and
-that the temptation to write the famous programme instead of the aeroplane is the main hazard here.
+**THE FOUR-CASE PATTERN IS NOW A FIVE-CASE PATTERN AND A334 IS THE FIFTH.** The vehicle cluster has
+been thin in four consecutive articles for four distinct reasons. **The X-37 will be thin for a fifth,
+which is classification**, and that is a different thing again from cancellation, from winning, or from
+producing a technique rather than a vehicle. **Count it and name it.**
 
-**CHECK BEFORE ASSUMING EITHER WAY**, which is now the standing instruction after five articles in a
-row where an assumption about documentary richness would have been wrong.
-
----
+**EXPECT THE CONTEMPORARY HALF TO BE RICH AND THE PERIOD HALF TO BE STRANGE**, because the programme
+has no clean period. It began at the National Aeronautics and Space Administration in 1999, moved to
+the Defense Advanced Research Projects Agency, then to the Air Force, and first flew in 2010. **There
+is no single window to call the period, and the article should say which window it chose and why**
+rather than inheriting 2001 from its predecessors. **The assembler's cutoff must match whatever the
+article states**, which is a defect A330 shipped.
 
 ## Where the Series Stands
 
 Seventy-two articles, A297 through A368, back-dated one per day from 2025-10-06 to 2025-12-16,
 covering every X-designation from X-1 through X-76.
 
-**Thirty-five complete**, A297 through A331, all four passes each, all in `_drafts/`, **none
+**Thirty-seven complete**, A297 through A333, all four passes each, all in `_drafts/`, **none
 published**.
 
 | Article | Aircraft | Final state |
@@ -88,6 +88,8 @@ published**.
 | A329 | Boeing X-32 | 19,593 lines, 28 eq, 6,159 refs |
 | A330 | Lockheed Martin X-33 | 32,379 lines, 92 eq, 10,248 refs |
 | A331 | Orbital Sciences X-34 | 20,006 lines, 38 eq, 6,352 refs |
+| A332 | Lockheed Martin X-35 | 27,560 lines, 71 eq, 8,710 refs |
+| A333 | McDonnell Douglas X-36 | 20,991 lines, 28 eq, 6,696 refs |
 
 **THE REFERENCE COUNTS JUMPED BY A FACTOR OF THREE AT A328 AND THAT IS THE DIRECTIVE WORKING, NOT A
 CHANGE OF STANDARD.** From A328 onward the practice is that **every harvested master record is
@@ -97,6 +99,11 @@ built properly. Do not treat the earlier, smaller counts as the target.
 **THE SIZE VARIES WITH THE SUBJECT AND THAT IS CORRECT.** A330 is the largest article in the series
 and A331 is half its size, because the X-33 has a physics chain worth thirty thousand lines and the
 X-34 does not. **Neither number was targeted.**
+
+**THE EQUATION COUNT VARIES MORE THAN THE LENGTH AND A333 IS THE LOWEST IN THE SERIES AT 28.** That is
+correct too. The X-36 has **one relation applied repeatedly** rather than several chains, and padding
+it toward the median of 94 would have been manufacturing rather than earning. **Report the count and
+move on.**
 
 Read `_drafts/draft_summary.md` for per-article detail rather than re-deriving it.
 
@@ -134,6 +141,82 @@ band.
 ## Method Rules Earned the Hard Way
 
 ### On the analysis
+
+**A DEMONSTRATION CAN BE EASIER OR HARDER THAN THE THING IT DEMONSTRATES, AND BOTH ARE COMPUTABLE.
+TWO CONSECUTIVE ARTICLES FOUND OPPOSITE SIGNS.** A332's famous sortie was flown in the easiest
+available ordering, with the heaviest event first and the most weight-sensitive last, at a weight the
+production aircraft would never see. A333's model carried a handicap the full-scale aircraft would
+never carry, because Froude scaling compresses time by the square root of the scale while a link delay
+and a human reaction time do not compress at all. **Ask which way the demonstration was tilted and by
+how much. It is usually arithmetic rather than opinion.**
+
+**BEFORE REACHING FOR PHYSICS, CHECK WHETHER A CHRONOLOGY ANSWERS THE QUESTION.** A332 spent its
+keystone on whether one sortie was evidence or theatre, and the answer came from dates. Every element
+had been flown already, the first in-flight conversion was eleven days earlier on a sortie that went
+faster, **and the programme's own contemporary statements listed every element as done four days
+before the famous flight.** No calculation was needed and none would have been as decisive.
+
+**TURN AN AMPLIFICATION INTO A BUDGET, BECAUSE A BUDGET FORCES CONCLUSIONS AN AMPLIFICATION CANNOT.**
+A333's draft asserted that a fixed delay is worth 1.8898 times as much at model scale. The equation
+pass wrote the crossover frequency an unstable pole demands and divided a phase margin by it, giving
+**147.7 milliseconds for the model against 279.1 for the full-scale aircraft**. The budget is smaller
+than a human reaction time, **so the ground pilot cannot have been inside the stabilisation loop, and
+the architecture follows from arithmetic rather than from preference.**
+
+**AN IDENTITY THAT DOES NOT DEPEND ON HOW A PROCESS IS MANAGED IS WORTH MORE THAN ITS MAGNITUDE.** A
+clutch engaging a stationary inertia to a constant-speed source destroys **exactly half** the energy
+drawn, whatever the torque profile. A332 verified it by integrating under three unrelated profiles.
+**The magnitude needed an unpublished inertia and the fraction needed nothing.**
+
+**TWO DEFINITIONS OF ONE QUANTITY CAN DIFFER BY AN EXACT CONSTANT AND BOTH BE CORRECT, AND THE
+VERIFIER WILL LOOK LIKE IT FOUND A BUG.** A333's calculation and its verifier disagreed on a doubling
+time by **1.900**, which is arccosh 2 over ln 2. The modal convention measures the growing
+eigen-solution; a disturbance released from rest follows a cosh because it starts with no rate.
+**Neither was wrong. Report both and say which question each answers.**
+
+**AN ASSUMPTION-FREE BOUND WHOSE ABSURDITY IS THE FINDING.** A332 bounded the clutch dissipation by
+rated power times quoted engagement time and got 97.3 megajoules, which would heat the plates by 6,853
+kelvin. **The bound is impossible and that is the result**, because it proves the engagement is limited
+by heat rejection rather than by energy, which is why a mode change is a scheduled event.
+
+**INVERT A CORRECTED-FLOW OR EFFICIENCY RELATION FOR A THRESHOLD IN PHYSICAL UNITS.** A332 turned hot
+gas ingestion from an adjective into **66.95 kelvin**, the inlet temperature rise at which the hover
+margin vanishes. **A comparison between two architectures then becomes a comparison of numbers.**
+
+**A MOMENT BALANCE WHOSE FORCES ARE FIXED BY HARDWARE DETERMINES THE CENTRE OF GRAVITY RATHER THAN
+BEING TRIMMED TO IT.** A332's hover balance fixes the station at 47.37 percent of the fan-to-nozzle
+distance, and a five percent thrust-split modulation buys 14.72 inches of travel. **That is the one
+cost in the article which does not ease as the aircraft gets lighter.**
+
+**DERIVE AN ASSUMED COEFFICIENT AND THEN ASK WHICH DIRECTION THE ASSUMPTION ERRED.** A333 assumed a
+tailless directional derivative and later derived it from slender-body theory, getting **2.018 times**
+the assumption. **The draft was therefore the optimistic case**, and every conclusion that survived it
+survives the derived one more comfortably. Carry both through the tables rather than replacing one.
+
+**A BRACKET THAT SPANS A FACTOR OF SIX AND FLIPS THE CONCLUSION INSIDE ITSELF MEANS THE CONCLUSION IS
+NOT DETERMINED. WITHDRAW IT AND KEEP THE STRUCTURAL CLAIM.** A333 said the split ailerons were margin
+rather than necessity. Across the plausible drag increment they run from 22.1 to 132.4 percent of the
+nozzle's moment. **What survives needs no increment at all**, being that the nozzle's authority is flat
+with speed and the drag rudder's rises as its square, so each owns one end wherever the crossover
+falls.
+
+**A RATIO THAT SOUNDS FATAL MAY NOT BE, AND PUTTING BOTH NUMBERS ON THE PAGE IS HOW YOU TELL.** A333's
+Reynolds penalty is 6.749, which sounds disqualifying until the model turns out to run at 8.81 million
+and the full-scale aircraft at 59.46 million, **both deep in the fully turbulent regime.** The penalty
+is real and confined. **Neither dismiss a ratio nor be frightened of it. Compute both ends.**
+
+**THE SAME FACTOR ARRIVING FROM THREE UNRELATED QUANTITIES IS WORTH MORE THAN ONE DERIVATION.** A333
+gets 1.8898 from the time ratio, from the delay budget and from the turn rate, and assumed it for none
+of them.
+
+**A SECOND ROUTE THAT IS ALGEBRAICALLY THE SAME STATEMENT TESTS TRANSCRIPTION AND NOT PHYSICS. SAY
+WHICH.** A332 recovered a fan mass flow two ways and they agreed exactly, because the ideal disc makes
+them identical. **Exact agreement between equivalent formulations is what they ought to produce and is
+no evidence the physics is right.**
+
+**A WITHDRAWN CLAIM MUST BE CHASED THROUGH THE EPISTEMIC STATE AND THE CONCLUSION.** A333's equation
+pass withdrew a claim about the split ailerons and the withdrawal reached neither. **Both still
+asserted it a pass later**, and only the publication read caught them.
 
 **WHERE A PREVIOUS ARTICLE'S INVARIANCE STOPS HOLDING IS ITSELF A RESULT, AND A331 GOT THE BEST
 STRUCTURAL FINDING IN THE SERIES OUT OF IT.** A330 proved the membrane tank fraction contains no
@@ -595,6 +678,33 @@ to the discipline or inside the article's own vocabulary.
 | **vehicle** | **THE ROAD VEHICLE.** A331's catch-all admitted automotive software and electric city cars on this one word |
 | **condensation, separation** | chemistry, condensed matter and building physics; psychology and chemical engineering |
 
+| Phrase | The other field |
+|---|---|
+| **effector** | **THE BIOLOGICAL EFFECTOR, and the worst word A333 met.** Effector proteins in immunology and in plant-pathogen interaction are a very large and very active literature that owns the word outright. A CONTROL effector is the article's term of art and cannot be filtered bare |
+| **figure of merit** | **THERMOELECTRICS AND PHOTONIC SENSING, and this is a homonym on the article's OWN term.** A contemporary search for hover efficiency returns solar cells and graphene sensors, and those records reached A332's momentum-theory cluster |
+| **clutch** | **THE CLUTCH OF EGGS in ornithology and evolutionary ecology**, where clutch SIZE is a central measured quantity, plus CLUTCH PERFORMANCE in sports psychology. A332's transition argument rests on the mechanical clutch, so the word cannot be excluded |
+| **fountain flow** | **POLYMER INJECTION MOULDING, which describes the advancing melt front with the identical phrase.** Internal to an adjacent engineering discipline, which is the most dangerous kind |
+| **impingement** | **SHOULDER AND FEMOROACETABULAR IMPINGEMENT in orthopaedics.** Jet impingement cooling is legitimate and adjacent and must not be filtered with it |
+| **augmentation** | **DATA AUGMENTATION in machine learning**, now enormous, and BREAST AUGMENTATION in surgery. Thrust augmentation is A332's own term |
+| **thrust** | **THRUST FAULTS AND THRUST BELTS in structural geology** |
+| **variant** | **THE GENETIC VARIANT**, which owns the word outright |
+| **demonstrator** | **THE PROTESTER**, in political science and crowd dynamics |
+| **fin** | **THE HEAT-TRANSFER FIN**, meaning an extended surface, a large thermal-engineering literature, plus the FISH fin. The vertical fin is the thing A333's aircraft does not have |
+| **canard** | **THE HOAX.** In journalism and political science a canard is a false story. Also the duck. The canard surface is A333's pitch effector |
+| **reconfigurable** | **RECONFIGURABLE COMPUTING and the FPGA.** Reconfigurable CONTROL is A333's subject |
+| **RESTORE** | **ECOLOGICAL RESTORATION, which is enormous, and several CLINICAL TRIALS named RESTORE.** It is also the name of the software A333's aircraft flew in 1998 |
+| **tailless** | **BIOLOGY.** Tailless amphibians, the tailless whip scorpion, and the tailless gene in developmental biology |
+| **spin** | **QUANTUM SPIN AND SPINTRONICS**, plus political spin. The spin tunnel and the departure from controlled flight are aeronautical |
+| **vortex** | **SUPERFLUID AND OPTICAL VORTICES.** Vortex breakdown over a slender wing is exactly the aeronautical subject |
+| **joint** | **THE ANATOMICAL JOINT and the JOINT DISTRIBUTION**, plus the joint venture. A programme name carrying the word cannot be filtered bare |
+| **carrier** | the DISEASE carrier, the CHARGE carrier, the CARRIER WAVE and the carrier protein. The aircraft carrier is legitimate |
+| **gearbox** | **THE WIND TURBINE AND AUTOMOTIVE GEARBOX**, adjacent enough that a bare filter cuts real drivetrain work |
+| **hover** | **THE HOVERFLY** and the USER INTERFACE hover state |
+| **allocation** | RESOURCE ALLOCATION in economics and computing, against control allocation |
+| **adaptation** | **EVOLUTIONARY AND CLIMATE adaptation**, both very large, against adaptive control |
+| **Froude** | **NAVAL HYDRODYNAMICS. ADMITTED DELIBERATELY**, because a ship model's scaling argument is the same argument, and it is the older and better documented of the two |
+| **found only by reading a random sample** | railway power protection, bridge aerodynamics in civil engineering, astronomical transient surveys, and point-cloud shape completion. **None of the four was anticipated** |
+
 **Carried forward from earlier articles and still live, condensed rather than dropped.**
 
 | Phrase | The other field |
@@ -619,6 +729,55 @@ pools. A322 cited two Hypersonic Aerodynamics Fellowships notices.
 **QUERY DESIGN PREVENTS MORE THAN FILTERING CURES.**
 
 ### On tooling
+
+**`_verify.py` RESOLVES `_posts` AND `_drafts` RELATIVE TO THE WORKING DIRECTORY, SO RUNNING IT BY
+ABSOLUTE PATH FROM ANYWHERE ELSE SILENTLY CHECKS A DIFFERENT CORPUS.** Invoked from an isolated build
+tree it scanned the staged files there and reported **0 errors and 42 warnings** against a true
+reading of 21. **An absolute path to the script is not enough when the script's own paths are
+relative.** Run it from the repository root and know the expected number.
+
+**A PLURAL BOUNDARY FAILS SILENTLY AND IT HAS NOW DONE SO FOUR TIMES.** A332's cluster matched
+`installation effect` where every report writes `installation effects`, routing a whole subject to the
+catch-all. A333's matched `airship hull` while Munk's keystone paper is titled airship **hulls**,
+sending the article's oldest primary source to the catch-all. **Earlier instances were `Diffusers` and
+`area rules`.** The failure returns a SMALLER answer rather than a wrong one, **which reads as a thin
+literature instead of as a bug**, and that is why it survives passes.
+
+**SPELLING VARIANTS ARE THE SAME DEFECT IN A DIFFERENT DRESS.** British manoeuvrability and American
+maneuverability are different strings and A333's pattern matched neither reliably.
+
+**THE ANCHOR GATE CAN REJECT THE ARTICLE'S BEST PRIMARY SOURCE OUTRIGHT.** A333's keystone is Allen and
+Perkins 1951 on viscosity over slender inclined bodies of revolution, whose title contains no aircraft,
+no aerodynamics and no design. **A gate built from vehicle vocabulary refuses a paper about physics.**
+Admitting the vocabulary of the physics as well as the machine took selection from 4,772 kept to 5,050.
+
+**WIDENING THE ANCHOR GATE AFTER THE REPORTS-SERVER DETAIL PASS LEAVES THE NEWLY ADMITTED RECORDS
+WITHOUT METADATA, SO THEY NEVER REACH THE MASTER SET AND NOTHING REPORTS AN ERROR.** A333's 1951 paper
+passed selection, showed as kept, and was still absent from the article. **Re-run `ntrs_detail` after
+any change to the anchor gate or the cluster patterns.**
+
+**AN ALL-REMAINING MARKER PLACED BEFORE A FIXED-COUNT MARKER FOR THE SAME CLUSTER DRAINS IT**, and the
+fixed-count marker then finds nothing and the assembler refuses to emit an empty list. **That guard is
+correct and earned its place.** Put the count-zero marker last.
+
+**`refs.clean` MUST UNESCAPE TO A FIXED POINT.** Double-escaped markup survives one pass, so an escaped
+paragraph tag plus an escaped non-breaking space decodes to real markup plus a literal entity, the tag
+rule removes the tag, and the ampersand and semicolon rules turn the survivor into `andnbsp`. **A332
+shipped link text reading `andnbsp andnbsp andnbsp`.**
+
+**TYPOGRAPHIC PUNCTUATION MUST BE NORMALISED TO ASCII BEFORE ANY OTHER RULE RUNS, AND THE REASON IS A
+HOLE RATHER THAN AN UNTIDINESS.** The corpus contraction check matches an ASCII apostrophe, so a title
+reading "What's" written with a right single quotation mark **sailed past a check that exists to catch
+exactly that word.** The soft hyphen and stray combining marks are normalised in the same place.
+**Diacritics are untouched, because an author's name is not punctuation.**
+
+**A DASH BETWEEN TWO WORD CHARACTERS IS A COMPOUND JOINER AND NOT A SEPARATOR.** Collapsing every dash
+to a space turned a harvested `jet-jet/film impingement`, written with an en dash, into `jet jet`, and
+**the corpus doubled-word check then reported a defect against a title that never carried one.**
+
+**`git add -A` SWEPT IN A FILE I DID NOT CREATE.** An unrelated draft sitting untracked in the working
+tree went into an article commit. **Stage explicitly.** The fix is `git rm --cached` and
+`git commit --amend`, which leaves the file untouched on disk.
 
 **AN UNDECODED HTML ENTITY IS TURNED INTO VISIBLE JUNK BY THE PUNCTUATION RULE, AND IT SHIPPED IN
 THREE CONSECUTIVE DRAFTS.** Publishers emit titles wrapped in an escaped title tag rather than a
@@ -767,7 +926,7 @@ command issued after a `cd`.**
 describing each module: `fetch` for archive queries, `refs` for anchors and the reference block, `edits`
 for guarded editing, `reflow`, `lint`, `diction` for word and phrase overuse, `audit` for equation and
 citation gaps, `numcheck` for independent re-derivation, and `citations` for registry verification. Run
-`python3 _lib/test_lib.py`, which should report **51 of 51**. `_research/rejected.json` holds the accumulated
+`python3 _lib/test_lib.py`, which should report **54 of 54**. `_research/rejected.json` holds the accumulated
 sweep judgements, reused through `_research/homonyms.py`, whose curated pattern list is now 22 and which gained marine propulsion, open-channel energy height and battery specific energy from A324.
 
 **`tmp/*` IS GITIGNORED**, and what belongs there is the article's own payload only, meaning harvest
@@ -856,6 +1015,21 @@ something requiring justification.
 long because the SV-5D flew and returned a measurement. **A324 is the opposite case and the short class
 is the honest default there.**
 
+**A FINDING NOW FOUR CASES DEEP AND HEADING FOR FIVE, WHICH IS THE STRONGEST EVIDENCE THE CLOSING
+ARTICLE WILL HAVE.** The vehicle's own cluster has been thin in four consecutive articles **and every
+reason was different.**
+
+| Article | Vehicle | Why its cluster is thin |
+|---|---|---|
+| A330 | X-33 | **Cancelled.** Sixty records, every one predating 2002 |
+| A331 | X-34 | **Cancelled.** Same shape, and two instances made it a pattern |
+| A332 | X-35 | **It won, and never had a trace at all.** Zero of 12,974 records carry the designation, because contractor demonstrators flown for a source selection do not produce reports |
+| A333 | X-36 | **It ran to completion and produced a technique rather than a vehicle**, so its contribution is filed under the names of its methods |
+
+**A334's X-37 will be the fifth and its reason is classification**, which is different again. **Count
+them and name each reason.** The conclusion is not that thin clusters mean failure. It is that **the
+documentary trace measures the institution and its circumstances rather than the aircraft.**
+
 **A finding accumulating across articles.** A322 and A323 were both **off-the-shelf civil aircraft
 bought for properties they already had**, and neither generated any development literature, because
 nothing was developed. **If A324 makes three, that is a substantive finding about what the designation
@@ -867,7 +1041,7 @@ had come to mean** and belongs in the closing article.
 
 **The `post_url` interlock.** A `post_url` tag whose target is absent fails the **entire** site build.
 Cross-references are **back-reference only** within the series. The publication-order dependency is
-**thirty-five deep**, A331 back to A297, so these articles publish in order or together. **Links to
+**thirty-seven deep**, A333 back to A297, so these articles publish in order or together. **Links to
 other series are necessarily forward-dated** and that is not a defect.
 
 **Pushing drafts is safe.** The deploy workflow builds without `--drafts`. Confirm after every push
