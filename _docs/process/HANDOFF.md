@@ -11,10 +11,10 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `b7b962d`
-- **Written**: 2026-08-10
+- **Parent commit** (the repository state this handoff describes): `1373df0`
+- **Written**: 2026-08-11
 - **Tree at write**: clean, nothing unpushed
-- **Context**: the X-Planes series is IN PROGRESS. **Thirty-three of seventy-two articles drafted,
+- **Context**: the X-Planes series is IN PROGRESS. **Thirty-five of seventy-two articles drafted,
   all four passes complete on each. None published.**
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
@@ -33,38 +33,43 @@ described.
 
 ---
 
-## Resume prompt, and the next prompt will be "Please draft A330, 'X-Planes: Lockheed Martin X-33.'"
+## Resume prompt, and the next prompt will be "Please draft A332, 'X-Planes: Lockheed Martin X-35.'"
 
-**Nothing is outstanding.** A329 finished all four passes, is committed and pushed, and returns 404
+**Nothing is outstanding.** A331 finished all four passes, is committed and pushed, and returns 404
 while the site root returns 200, which is correct because nothing in the series is published. There
 is no half-finished pass to pick up.
 
-**Wait for the pilot's prompt. Do not begin A330 unprompted.**
+**Wait for the pilot's prompt. Do not begin A332 unprompted.**
 
-**A330 INVERTS A329 AND THAT IS THE THING TO NOTICE.** Editorial date 2025-11-08, Part 34 of 72. The
-X-32 was built, flew 144 times, and lost a competition. **The Lockheed Martin X-33 WON its
-competition, was funded, was built in large part, and was cancelled before it ever flew.** So the
-question it answers is what a programme establishes when the vehicle never leaves the ground and the
-failure is traceable to a single subsystem.
+**A332 IS THE OTHER HALF OF A329 AND THE TWO ARE A MATCHED PAIR.** Editorial date 2025-11-10, Part 36
+of 72. A329 covered the Joint Strike Fighter competition from the losing side and concluded that the
+difficulty was construct validity, since neither demonstrator was the aircraft being bought.
+**A332 MUST NOT RESTATE THAT ARGUMENT.** It has already been made, at length, two articles ago. The
+question left over is the winner's, and it is a different one. **What did the X-35's demonstration
+actually establish?**
 
-**THE KEYSTONE IS ALMOST CERTAINLY THE COMPOSITE LIQUID-HYDROGEN TANK RATHER THAN THE AEROSPIKE OR
-THE LIFTING BODY.** The programme is usually remembered for its linear aerospike engine, which
-worked, and for its lifting-body shape, which was analysable. **What killed it was a multi-lobed
-composite cryogenic tank that failed in test in November 1999**, and the failure mode is the
-interesting one, being microcracking and hydrogen permeation into the honeycomb followed by
-delamination on repressurisation. **Look for the failure investigation before settling the
-keystone.**
+**THE FACT A329 IDENTIFIED AS DECISIVE IS THE ONE TO INTERROGATE.** The X-35 flew a short takeoff, a
+supersonic dash and a vertical landing in a single sortie, and the X-32 had to be reconfigured
+between those regimes. **A332 has to say whether that single sortie was evidence or theatre.** It is
+genuinely open. A sortie that demonstrates three things in sequence proves the transitions work in
+one airframe on one day, which is exactly what the X-32 could not show, and it is also a
+demonstration designed to be demonstrated.
 
-**EXPECT THE OPPOSITE DOCUMENTARY PROBLEM FROM A329.** The X-32 left one record in a pool of four
-thousand four hundred. The X-33 was a NASA programme with a public failure, so expect the reports
-server to be rich and the difficulty to be selection rather than supply. **Check before assuming
-either way**, which is now the standing instruction after three articles in a row where the
-assumption would have been wrong.
+**A329 ALREADY BUILT MACHINERY THIS ARTICLE SHOULD REUSE RATHER THAN REBUILD.** The relation that
+thrust rises as the square root of mass flow at fixed power is derived there. So is the lift fan's
+figure of merit of 0.697, recovered from three separately published numbers, and it is the X-35's
+fan rather than the X-32's. **Reuse both and extend rather than re-deriving.**
 
-**THE SINGLE-POINT-OF-FAILURE FRAMING IS A TRAP WORTH NAMING IN THE ARTICLE.** A tank failure is a
-proximate cause. The programme also carried a mass-fraction requirement that a single-stage-to-orbit
-vehicle makes brutal, and A327 already derived the thermodynamic floor for that class of problem, so
-**the X-33 article can and should reuse that machinery rather than rebuild it.**
+**EXPECT THE OPPOSITE DOCUMENTARY PROBLEM AGAIN, AND IT IS THE THIRD KIND THIS SERIES HAS MET.** A329
+measured one record carrying the X-32 against twenty-nine carrying the winner, running continuously
+from 2002 to 2020. **So the X-35 pool will be rich and the difficulty will be keeping the article off
+the F-35.** The X-35 is the demonstrator and the F-35 is the product, their programmes ran twenty
+years apart, and **the discipline is to decide early how much of the production aircraft's cost and
+schedule history belongs in an article about a demonstrator.** My view is that very little does, and
+that the temptation to write the famous programme instead of the aeroplane is the main hazard here.
+
+**CHECK BEFORE ASSUMING EITHER WAY**, which is now the standing instruction after five articles in a
+row where an assumption about documentary richness would have been wrong.
 
 ---
 
@@ -73,21 +78,25 @@ vehicle makes brutal, and A327 already derived the thermodynamic floor for that 
 Seventy-two articles, A297 through A368, back-dated one per day from 2025-10-06 to 2025-12-16,
 covering every X-designation from X-1 through X-76.
 
-**Thirty-three complete**, A297 through A329, all four passes each, all in `_drafts/`, **none
+**Thirty-five complete**, A297 through A331, all four passes each, all in `_drafts/`, **none
 published**.
 
 | Article | Aircraft | Final state |
 |---|---|---|
-| A325 | Osprey X-28 Sea Skimmer | 7,136 lines, 42 eq, 2,089 refs |
-| A326 | Grumman X-29 | 14,071 lines, 69 eq, 4,180 refs |
 | A327 | Rockwell X-30 and NASP | 10,596 lines, 54 eq, 3,118 refs |
 | A328 | Rockwell-MBB X-31 | 30,008 lines, 55 eq, 9,322 refs |
 | A329 | Boeing X-32 | 19,593 lines, 28 eq, 6,159 refs |
+| A330 | Lockheed Martin X-33 | 32,379 lines, 92 eq, 10,248 refs |
+| A331 | Orbital Sciences X-34 | 20,006 lines, 38 eq, 6,352 refs |
 
 **THE REFERENCE COUNTS JUMPED BY A FACTOR OF THREE AT A328 AND THAT IS THE DIRECTIVE WORKING, NOT A
 CHANGE OF STANDARD.** From A328 onward the practice is that **every harvested master record is
 cited**, with no leftovers, which is what the comprehensiveness directive means once the pool is
 built properly. Do not treat the earlier, smaller counts as the target.
+
+**THE SIZE VARIES WITH THE SUBJECT AND THAT IS CORRECT.** A330 is the largest article in the series
+and A331 is half its size, because the X-33 has a physics chain worth thirty thousand lines and the
+X-34 does not. **Neither number was targeted.**
 
 Read `_drafts/draft_summary.md` for per-article detail rather than re-deriving it.
 
@@ -125,6 +134,49 @@ band.
 ## Method Rules Earned the Hard Way
 
 ### On the analysis
+
+**WHERE A PREVIOUS ARTICLE'S INVARIANCE STOPS HOLDING IS ITSELF A RESULT, AND A331 GOT THE BEST
+STRUCTURAL FINDING IN THE SERIES OUT OF IT.** A330 proved the membrane tank fraction contains no
+length and concluded that a subscale tank was therefore a valid test. **That cancellation holds only
+while STRESS sets the thickness.** Minimum gauge does not scale, so the gauge is 1.45 times what load
+needs at the X-33's radius and 4.14 at the X-34's, and once gauge binds the fraction goes as one over
+the radius. **Two consecutive articles, the same relation, opposite conclusions, both correct.** When
+an article inherits a relation from its predecessor, ask where the predecessor's conclusion stops.
+
+**A FORWARD CALCULATION THAT FAILS BY AN ORDER OF MAGNITUDE IS A FINDING ABOUT THE MODEL, NOT A
+REASON TO ABANDON IT.** A331's ablation balance, run forwards with the energy silica phenolic can
+absorb, predicts 65.9 millimetres of recession over a burn that real chambers survive. **Inverting it
+from the recession such chambers actually show recovers an effective heat of ablation four and a half
+times larger**, and the gap is the transpiration blocking that the absorption model omits. **The
+error located the physics.** Do not delete a calculation that fails; ask what its failure measures.
+
+**ONLY ONE ROW OF A COMPARISON TABLE MAY COMPARE EQUALS, AND SAYING WHICH IS THE DIFFERENCE BETWEEN A
+RESULT AND A MISLEADING ONE.** A330 nearly shipped a sandwich mass table whose later rows compared
+walls of increasing stiffness as though they were alternatives. **Only the equal-stiffness row is
+like for like**, where the saving is 1.72 times; at a thirty millimetre core it is 1.13 and beyond
+40.6 millimetres the sandwich is heavier. The table now labels which row compares equals.
+
+**INVERT FOR THE THRESHOLD RATHER THAN ESTIMATE THE INPUT.** A330 needed to know whether buckling or
+pressure sized the tank wall and did not need the compressive load. Setting the two thicknesses equal
+and solving gives **a threshold line load of 7.54 kilonewtons per metre**, and the only thing that
+then has to be established is that the vehicle clears it, which thrust alone does by a factor of
+seven. **The conclusion needs the input to clear a bar, not to be known.**
+
+**A CONCLUSION THAT SURVIVES ITS OWN CORRECTION IS WORTH FAR MORE THAN ONE THAT NEEDED THE ERROR.**
+A330's buckling section first omitted that internal pressure stabilises a shell, which was an error
+in the article's favour. Including it cut the thickness ratio from 2.64 to 1.80 **and the conclusion
+held**, which is a stronger statement than the original.
+
+**A RELATION SHOWN FOR ITS STRUCTURE MUST BE FLAGGED WHEN IT IS CIRCULAR.** A331 displays the
+factorisation of specific impulse into a chamber term and a nozzle term, and it returns the published
+impulse exactly, **because the throat area was derived from that same impulse.** The article says so
+at the point of use. **Presenting a construction as a confirmation is the easiest dishonesty in
+technical writing and nothing in the toolchain catches it.**
+
+**A BINDING QUANTITY NEED NOT BE PHYSICAL, AND WHEN IT IS NOT, SAY SO FIRST.** A331's keystone is
+cost, which has no units, no conservation law and no instrument, and every number attached to it is a
+forecast rather than a reading. **The article opens by admitting that** and then prices the physical
+fingerprints the cost argument left, which is the only honest route into such a subject.
 
 **AN IDENTITY THE ARTICLE HAS ALREADY ASSEMBLED WITHOUT NOTICING IS THE CHEAPEST RESULT AVAILABLE,
 AND A329 FOUND ONE.** Momentum theory gives the disc loading as twice rho times the induced velocity
@@ -272,6 +324,43 @@ negative rather than dropped.
 a statement rather than a gap.
 
 ### On harvesting and selection
+
+**THE PROMOTION RULE FIRED WITH SIX SUBJECTS AT LITERALLY ZERO IN A331, WHICH IS THE STARKEST YET AND
+THE TWELFTH ARTICLE RUNNING.** Of the seventeen subjects that article's equations name, thirteen were
+thin and six stood at zero, **including the convective heat transfer correlation the article displays
+and the effective heat of ablation it inverts for.** Audit the equations against the pool BEFORE the
+primary harvest, not after.
+
+**A SUBJECT CAN BE THIN FOR A THIRD REASON AND IT IS INVISIBLE TO A COUNT.** Either the work was never
+done, or the heading is wrong, **or the knowledge is so settled that it stopped generating papers.**
+A331's search for the rocket equation and the ascent loss budget returned NOTHING in a pool of four
+thousand three hundred, after a harvest aimed directly at them, because both live in every textbook
+and in no journal article. **Report that rather than padding, and name which of the three kinds it
+is.**
+
+**THE COUNT-VERSUS-FRACTION TRAP CAUGHT TWO CONSECUTIVE ARTICLES AT BOTH ENDS IN CONSECUTIVE PASSES,
+WHICH MAKES IT STRUCTURAL RATHER THAN ACCIDENTAL.** In both A330 and A331 the primary pass raised the
+contemporary COUNT slightly while dropping its FRACTION by nine to twelve points, and the
+contemporary pass then left the period COUNT completely unmoved while dropping its fraction by
+seventeen or eighteen. **The report literature is the clearest case in both, holding at exactly 1,692
+and exactly 884 records while its share fell.** The four-pass rhythm produces this. **Reporting both
+numbers is not optional and both articles carry all three columns.**
+
+**A CANCELLED PROGRAMME STOPS GENERATING LITERATURE UNDER ITS OWN NAME, AND TWO INSTANCES MAKE IT A
+PATTERN.** The X-33 cluster holds sixty records and every one predates 2002. The X-34 cluster holds
+its records and every one predates 2002. **The documentary trace of a vehicle measures how long it
+survived rather than what it contributed**, and that belongs in the closing article.
+
+**WIDENING AN ANCHOR TO REACH ONE GOOD RECORD HAS A PRICE THAT ARRIVES IMMEDIATELY.** A330 admitted
+`multicell` to reach the 1965 juncture-stress reports on multicellular shells and simultaneously
+admitted an eleven-volume FLUIDIZED BED BOILER programme and a nickel-hydrogen BATTERY common
+pressure vessel, seventeen records in all. **Pay it at the moment of widening.**
+
+**THE LITERATURE FOR A TERM AN ARTICLE DECLINES TO COMPUTE MAY BE DECADES OLDER THAN THE VEHICLE.**
+A330's mass build-up leaves the lobe-junction bending unaccounted, and a 1965 report series on
+juncture stress fields in multicellular shell structures is exactly that subject, with a
+two-hundred-inch multicell tank pressure tested in 1968. **The knowledge was thirty years old when
+the X-33 was designed**, which turns an omission into a choice of model.
 
 **THE NASA REPORTS SERVER CAPS A SEARCH AT TEN AND REWARDS SPECIFICITY, SO A BROAD QUERY RETURNS TEN
 RECORDS AND A NARROW ONE RETURNS TEN DIFFERENT RECORDS. THIS IS NOW THE MOST RELIABLE HARVEST RULE
@@ -474,6 +563,38 @@ to the discipline or inside the article's own vocabulary.
 | **Herbst** | a common German surname, so a manoeuvre's name collides with an author name in every field |
 | **duel** | **GAME-THEORY DUELS ARE LEGITIMATE and adjacent** to one-versus-one air combat |
 
+| Phrase | The other field |
+|---|---|
+| **phenolic** | **PLANT POLYPHENOLS in food and agricultural chemistry, and the worst word A331 met.** Silica phenolic is a heat shield and the food literature owns the word |
+| **transpiration** | **PLANT TRANSPIRATION and EVAPOTRANSPIRATION in agronomy and hydrology.** The cooling sense is a boundary-layer term and the agricultural one is enormous |
+| **lobe** | **THE KEYSTONE WORD OF A330.** The brain, lung, liver and thyroid lobe, plus the ANTENNA sidelobe. Five literatures, one word |
+| **core** | **THE REACTOR core, the EARTH's core, the ICE core, core-shell nanoparticles and the CORE COMPETENCY of a firm.** Probably the worst word in A330, because it is also exactly right |
+| **recession** | **THE ECONOMIC RECESSION**, larger by orders of magnitude than the ablation sense, plus gum recession in dentistry |
+| **erosion** | **SOIL AND COASTAL EROSION**, and dental erosion |
+| **pyrolysis** | **BIOMASS AND WASTE PYROLYSIS**, which uses char, tar and volatiles exactly as the ablation literature does |
+| **ablation** | CARDIAC and LASER ablation in medicine, and **GLACIER ablation**, where it is also a mass-loss rate |
+| **spike** | the NEURAL spike train and, **INTERNAL TO THIS DISCIPLINE, the AERODYNAMIC SPIKE on a blunt body.** An aerospike is two different things in aerospace |
+| **tank** | **THE ARMOURED FIGHTING VEHICLE**, which Defense Technical Information Center records make an active hazard |
+| **honeycomb** | **THE HONEYCOMB LATTICE of graphene**, which uses the word as a structural adjective exactly as a sandwich article does |
+| **microcracking** | CONCRETE, rock mechanics, asphalt and dental enamel |
+| **delamination** | **LITHOSPHERIC delamination in geophysics** |
+| **knockdown** | **GENE KNOCKDOWN in molecular biology**, sharing the exact word with the buckling allowable |
+| **gauge** | **GAUGE THEORY in physics** and the RAILWAY gauge, against minimum gauge in structures |
+| **multicell** | **AN ELEVEN-VOLUME FLUIDIZED BED BOILER PROGRAMME** and the nickel-hydrogen battery common pressure vessel. Self-inflicted by widening |
+| **shell** | **A QUANTUM FIELD THEORY OBJECT.** One Casimir self-stress paper reached A330's structures cluster |
+| **RP-1, MC-1** | **GENE AND RECEPTOR NAMES.** RP1 is a retinitis pigmentosa gene and MC1R the melanocortin receptor, so both engine designations collide with molecular biology |
+| **blowing** | the BLOWING AGENT in polymer foams, against blowing into a boundary layer |
+| **wrinkling** | **SKIN WRINKLING in dermatology and cosmetics**, against face wrinkling in sandwich panels |
+| **peel** | the DERMATOLOGICAL and FRUIT peel, against climbing drum peel |
+| **health monitoring** | **HUMAN health monitoring**, which dwarfs the structural sense |
+| **blanket** | the FUSION BREEDING blanket and the bedding one |
+| **redundancy** | **EMPLOYMENT redundancy in British usage** |
+| **drop test** | PACKAGING and consumer electronics drop testing |
+| **kerosene** | the KEROSENE LAMP and its public-health literature |
+| **star, venture** | astronomy and venture capital, which is why VentureStar is not a usable query term |
+| **vehicle** | **THE ROAD VEHICLE.** A331's catch-all admitted automotive software and electric city cars on this one word |
+| **condensation, separation** | chemistry, condensed matter and building physics; psychology and chemical engineering |
+
 **Carried forward from earlier articles and still live, condensed rather than dropped.**
 
 | Phrase | The other field |
@@ -498,6 +619,42 @@ pools. A322 cited two Hypersonic Aerodynamics Fellowships notices.
 **QUERY DESIGN PREVENTS MORE THAN FILTERING CURES.**
 
 ### On tooling
+
+**AN UNDECODED HTML ENTITY IS TURNED INTO VISIBLE JUNK BY THE PUNCTUATION RULE, AND IT SHIPPED IN
+THREE CONSECUTIVE DRAFTS.** Publishers emit titles wrapped in an escaped title tag rather than a
+literal one, the tag-stripping rule never sees them, and the later rule that removes semicolons
+mangles the escaped form into literal entity text in the link label. **`refs.clean` now decodes
+entities first**, which is the only ordering in which both rules are correct, and `anchor_stem`
+routes its title fallback through `clean` so markup cannot occupy the anchor's two-word window.
+
+**A BARE ANGLE BRACKET SURVIVES THE TAG RULE, BECAUSE THAT RULE REMOVES ONLY A MATCHED PAIR.** A331
+harvested a title reading `Precision >> Accuracy`, which sat mid-line by luck. **A `>` that reflow
+places at the start of a line is a markdown blockquote**, the same family as the unbalanced `$$` and
+the bare `\(`. `clean` now removes both brackets and the build is checked for zero blockquotes.
+
+**AN ANCHOR STEM IS ONLY A SURNAME WHEN AN AUTHOR SURVIVED FOLDING.** Where every author is in a
+non-Latin script the stem is a TITLE fallback, and `citations.verify_doi` was comparing that against
+a registry author that also folds to nothing, so a correct citation reported a mismatch. **It now
+declines the check rather than failing it**, reporting `author_checked` as false, and still bites on
+a bogus surname. **A checker that cannot run should say so instead of reporting a defect.**
+
+**THE LATEX COMMA-SPACING PROBLEM HAS NOW HIT FOUR ARTICLES RUNNING.** An equation writing `7{,}784.3`
+flattens to `7{}784.3` and no text check finds it. **State every verified figure in prose as well as
+in its display**, and expect `require_in_text` to catch three or four per pass regardless.
+
+**RECORD VERIFIED VALUES IN THE UNITS THE ARTICLE PRINTS.** A330 recorded fractions while the article
+printed percentages and newtons while it printed kilonewtons, which made `require_in_text` fail on
+twenty-one values that were all present. **The check exists to confirm the article states what was
+verified, so recording a different unit makes it vacuous in one direction and noisy in the other.**
+
+**THE ASSEMBLER'S PERIOD CUTOFF MUST MATCH THE ARTICLE'S OWN STATED WINDOW.** A330 inherited a 1999
+cutoff from A329, whose programme ran to 2002, while stating that its own programme ran to early
+2001. **The rendered count and the sentence beside it disagreed.**
+
+**A FRAGILE STEP IN A DOCUMENT-REWRITE SCRIPT CAN ABORT THE WRITE ENTIRELY AND LOOK LIKE SUCCESS.**
+A331's reverse-prompt rewrite raised on a trailing trim after building the whole new text, so nothing
+was written at all and the surrounding output looked normal. **Check the file after rewriting it, not
+just the exit status of the step that was supposed to.**
 
 **`\(` AND `\[` ARE MATHJAX DELIMITERS AND THE COMMAND RULE DOES NOT REACH THEM.** A328 harvested a
 title beginning `\({\mathcal{L}_1}\)`, and after `refs.clean` stripped the commands and braces the
@@ -610,7 +767,7 @@ command issued after a `cd`.**
 describing each module: `fetch` for archive queries, `refs` for anchors and the reference block, `edits`
 for guarded editing, `reflow`, `lint`, `diction` for word and phrase overuse, `audit` for equation and
 citation gaps, `numcheck` for independent re-derivation, and `citations` for registry verification. Run
-`python3 _lib/test_lib.py`, which should report **48 of 48**. `_research/rejected.json` holds the accumulated
+`python3 _lib/test_lib.py`, which should report **51 of 51**. `_research/rejected.json` holds the accumulated
 sweep judgements, reused through `_research/homonyms.py`, whose curated pattern list is now 22 and which gained marine propulsion, open-channel energy height and battery specific energy from A324.
 
 **`tmp/*` IS GITIGNORED**, and what belongs there is the article's own payload only, meaning harvest
@@ -710,7 +867,7 @@ had come to mean** and belongs in the closing article.
 
 **The `post_url` interlock.** A `post_url` tag whose target is absent fails the **entire** site build.
 Cross-references are **back-reference only** within the series. The publication-order dependency is
-**thirty-three deep**, A329 back to A297, so these articles publish in order or together. **Links to
+**thirty-five deep**, A331 back to A297, so these articles publish in order or together. **Links to
 other series are necessarily forward-dated** and that is not a defect.
 
 **Pushing drafts is safe.** The deploy workflow builds without `--drafts`. Confirm after every push
@@ -891,6 +1048,30 @@ with a single comparison against a rival, where the difficulty was not sampling 
 **construct validity**, since neither demonstrator was the aircraft being bought. **The series is
 accumulating a spectrum of HOW ANSWERABLE a research question was, and the closer should present it
 as one.**
+
+**A SIXTH FINDING, ADDED BY A330 AND A331, AND IT COMPLETES A SET OF FOUR.** The series has now met
+four distinct reasons a designation went to a vehicle that never flew, and they are not variations of
+one thing. The X-27 marks **an absence of demand**, since the design existed and no customer
+appeared. The X-30 marks **an absence of knowledge**, since the thing it was meant to demonstrate
+could not be shown achievable before building it. The X-33 marks **the presence of an answer nobody
+wanted**, since its demonstrator worked, returned a number, and the number did not close. **The X-34
+marks none of those.** It was finished, it was never asked a question it could fail, and it was
+scrapped. **Of the four it is the only one that was ready.**
+
+**A SEVENTH, AND IT IS ABOUT THE RECORD RATHER THAN THE AIRCRAFT.** A cancelled programme stops
+generating literature under its own name almost immediately. Every record carrying the X-33
+designation predates 2002 and so does every record carrying the X-34's, in pools of ten thousand and
+six thousand respectively. **The documentary trace of a vehicle measures how long it survived rather
+than what it contributed**, which sits directly against the series' habit of treating a thin record
+as a thin subject.
+
+**AN EIGHTH, WHICH IS THE SPECTRUM CONTINUING AND NOW HAS A NON-PHYSICAL END.** A326 could measure the
+thing it existed to measure. A327's central quantity could not be measured on the ground at all. A328
+answered with an experimental design. A329 had a construct-validity problem. A330 could answer and
+did, negatively. **A331's binding quantity was COST, which has no units, no conservation law and no
+instrument**, so its demonstrator returned a revised estimate rather than a reading. **One programme
+was killed by a number it measured and the next by a number it recalculated**, and the closer should
+present the spectrum as running from the measurable to the merely estimated.
 
 X-58 and X-67 were lost to the **parallel XQ- unmanned series drawing from the same numeric pool**,
 which is a genuine finding about how the system evolved and belongs in the closer.
