@@ -17,6 +17,62 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Lockheed Martin X-35 A332 2025-11-10
+
+`x_planes_lockheed_martin_x35.markdown`, A332, editorial date 2025-11-10, series `x_planes` index
+36 of 72.
+
+**18,396 lines, 30 display equations, 5,814 reference definitions, 98,627 words after the draft
+pass**, with all 5,678 master records cited and none left over. Committed, **not pushed**. **Not
+published.**
+
+**THE KEYSTONE IS A COUPLING QUESTION AND THE CHRONOLOGY SETTLES IT.** The article asks whether the
+famous Mission X sortie of 20 July 2001 was evidence or display, and answers that **every element of
+it had already been flown**. The first in-flight conversion to hovering mode happened on **9 July**,
+on a sortie that also refuelled in the air and reached **Mach 1.08**, and the short takeoff,
+transition and vertical landing were all flown by **16 July**. **Mission X reached only Mach 1.05, so
+it was not even the aircraft's fastest flight.** What it contained was the assembly.
+
+**THE ARITHMETIC SAYS NONE OF THE THREE EVENTS WAS INDIVIDUALLY DEMANDING.** Vertical thrust of
+41,900 pounds force against a weight of 34,000 gives a margin of **1.232**, so the short takeoff need
+not have been short and the aircraft had already taken off vertically eighteen times. The dash raised
+the stagnation temperature to **291.2 kelvin, which is 3.1 kelvin above a standard sea-level day**, at
+a thrust to drag of 2.389. The vertical landing came last and therefore lightest, the ordering alone
+worth **1.115** in margin. **The expensive event is the conversion, which is not in the name of the
+trick**, and the article then argues against its own deflationary reading rather than resting on it.
+
+**ZERO OF 7,567 HARVESTED RECORDS CARRY X-35 IN THE TITLE**, after three harvests that asked for it
+directly. **This is the control case that inverts A330 and A331's finding.** Those vehicles were
+cancelled and stopped generating literature under their own names; **this one won and never had a
+documentary trace at all.** Forty records name the Joint Strike Fighter and twelve name the F-35. The
+article states the narrow inference, that **the trace measures the institution rather than the
+aircraft**, since contractor demonstrators flown for a source selection do not produce reports.
+
+**AN EXACT IDENTITY INDEPENDENT OF TORQUE PROFILE.** A clutch engaging a stationary inertia to a
+constant-speed source destroys **exactly half** the energy drawn, however gently it is engaged,
+verified by integrating under constant, ramping and decaying torque. The assumption-free bound of
+**97.3 megajoules** over the quoted nine-second engagement would heat the plates by 6,853 kelvin, so
+**the nine seconds is the time the heat requires rather than the time the energy requires**.
+**Counter-rotation is structural rather than decorative**, since a single-rotation fan would consume
+three quarters to all of the roll authority merely to stand still.
+
+**TWO SHARED-LIBRARY DEFECTS FIXED, BOTH FOUND BY SURVEYING CHARACTERS.** `refs.clean` collapsed
+every dash to a space, so an en-dash compound joiner **manufactured** a doubled word; and it left
+typographic punctuation alone, so a **curly apostrophe hid a genuine contraction from a corpus check
+that matches only ASCII**. Both now have regression tests and `test_lib` is 51 to 53.
+
+**THREE OF MY OWN ERRORS, EACH CAUGHT BY THE STEP THAT EXISTS FOR IT.** Reading the rendered prose
+found a false claim that no earlier aircraft combined hovering with supersonic flight, which **the
+Yak-141 did from 1987**, and the correction added the three-bearing swivel nozzle lineage. Reading
+also found ninety cluster markers rendering as nested empty list items. Checking a citation rather
+than trusting its status code found a link to a page that returns 200 and **contains no aeronautical
+content whatever**.
+
+**Remaining work**: the equation-density review, the primary-reference review and the publication
+review, in that order and each on the pilot's prompt. **The equation count of 30 is low against the
+series median and is reported rather than padded**, the subject having one physical chain rather than
+several.
+
 ## X-Planes Orbital Sciences X-34 A331 2025-11-09
 
 `x_planes_orbital_sciences_x34.markdown`, A331, editorial date 2025-11-09, series `x_planes` index

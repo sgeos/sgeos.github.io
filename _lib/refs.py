@@ -76,6 +76,22 @@ def clean(s):
     # that. Decoding entities FIRST turns them back into real tags, which the next line
     # removes, and is the only ordering in which both rules are correct.
     s = html.unescape(s or "")
+    # TYPOGRAPHIC PUNCTUATION MUST BECOME ITS ASCII EQUIVALENT BEFORE ANY OTHER RULE RUNS,
+    # AND THE REASON IS A HOLE RATHER THAN AN UNTIDINESS. The corpus contraction check
+    # matches an ASCII apostrophe, so a harvested title reading "What's" with a RIGHT
+    # SINGLE QUOTATION MARK sails straight past it. A332 shipped exactly that until a
+    # character survey found it. Normalising here means one rule catches both spellings.
+    # The SOFT HYPHEN is invisible and breaks word matching wherever it lands, and a
+    # STANDALONE COMBINING MARK is harvest residue that attaches itself to whatever
+    # character happens to precede it.
+    s = unicodedata.normalize("NFC", s)
+    for src, dst in (("‘", "'"), ("’", "'"), ("‚", "'"), ("‛", "'"),
+                     ("“", '"'), ("”", '"'), ("„", '"'), ("′", "'"),
+                     ("‐", "-"), ("‑", "-"), ("‒", "-"), ("⁃", "-"),
+                     ("…", "..."), (" ", " "), (" ", " "), (" ", " ")):
+        s = s.replace(src, dst)
+    s = s.replace("­", "")
+    s = re.sub(r"(?<![^\W\d_])[̀-ͯ᪰-᫿⃐-⃰]", "", s)
     s = re.sub(r"<[^>]+>", " ", s).replace("&amp;", "and").replace("&", "and")
     # LATEX IN A TITLE BREAKS THE PAGE, NOT JUST THE PROSE. Publishers emit titles
     # containing inline math, and a stray `$$` in link text opens a MathJax display block
@@ -98,6 +114,15 @@ def clean(s):
     # opens a display one, which is the A327 defect arriving through a different delimiter.
     # Any backslash surviving this far is residue and is removed.
     s = s.replace("\\", " ")
+    # AN EM OR EN DASH IS TWO DIFFERENT PUNCTUATION MARKS AND COLLAPSING BOTH TO A SPACE
+    # CORRUPTS ONE OF THEM. Used with spaces around it, a dash is parenthetical and a space
+    # is the right replacement. Used directly between two word characters it is a COMPOUND
+    # JOINER, and a space there both destroys the term and can MANUFACTURE A DOUBLED WORD.
+    # A332 harvested "Applications of jet-jet/film impingement", written with an en dash,
+    # and the old rule turned it into "jet jet", which the corpus doubled-word check then
+    # reported against a title that never contained one. A hyphen is permitted in prose,
+    # so the joining case becomes a hyphen and only the parenthetical case becomes a space.
+    s = re.sub(r"(?<=\w)[—–](?=\w)", "-", s)
     s = s.replace("—", " ").replace("–", " ").replace("−", "-")
     return re.sub(r"\s+", " ", s).strip(" ,.-")
 

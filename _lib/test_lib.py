@@ -621,7 +621,7 @@ def t_verify_doi_declines_an_uncheckable_author_rather_than_failing_it():
 
 
 def t_clean_strips_bare_angle_brackets():
-    """A BARE ANGLE BRACKET IS MARKUP AND SURVIVES THE TAG RULE.
+    r"""A BARE ANGLE BRACKET IS MARKUP AND SURVIVES THE TAG RULE.
 
     `clean` removes a MATCHED `<...>` pair, so a published title reading "Precision >>
     Accuracy" keeps both characters. A `>` that reflow places at the start of a line is a
@@ -635,6 +635,56 @@ def t_clean_strips_bare_angle_brackets():
     assert refs.clean("<title>Plain tag form</title>") == "Plain tag form"
     # and a lone opening bracket must not survive either
     assert "<" not in refs.clean("Comparison of a < b Under Load")
+
+
+def t_clean_keeps_a_joining_dash_as_a_hyphen_rather_than_a_space():
+    """A COMPOUND JOINER MUST NOT BECOME A WORD SEPARATOR.
+
+    A332 harvested "Applications of jet-jet/film impingement for atomization
+    enhancement", written with an EN DASH between the two occurrences of `jet`.
+    Collapsing every dash to a space turned it into "jet jet", and the corpus
+    doubled-word check then reported a defect against a title that never carried
+    one. A hyphen is permitted in prose, so a dash BETWEEN TWO WORD CHARACTERS
+    becomes a hyphen and only a parenthetical dash becomes a space.
+    """
+    got = refs.clean("Applications of jet–jet/film impingement")
+    assert "jet jet" not in got, got
+    assert "jet-jet" in got, got
+    # the em dash joins the same way
+    assert "solid-liquid" in refs.clean("A solid—liquid interface study")
+    # a PARENTHETICAL dash is still a space, because that is what it separates
+    got = refs.clean("Powered lift — a review of the evidence")
+    assert "—" not in got and "-" not in got, got
+    assert "lift a review" in got, got
+    # and neither form leaves a dash behind for the prose rules to trip on
+    for s in ("a–b", "a – b", "a—b", "a — b"):
+        assert "–" not in refs.clean(s) and "—" not in refs.clean(s)
+
+
+def t_clean_normalises_typographic_punctuation_to_ascii():
+    """A CURLY APOSTROPHE HID A CONTRACTION FROM THE CORPUS CHECKER.
+
+    The corpus contraction pattern matches an ASCII apostrophe, so a harvested
+    title reading "What's New" written with U+2019 passed a check that exists to
+    catch exactly that word. A332 shipped it until a character survey found it.
+    A SOFT HYPHEN is invisible and breaks word matching, and a STANDALONE
+    COMBINING MARK attaches itself to whatever precedes it. All three are
+    normalised before any other rule runs. DIACRITICS ARE NOT TOUCHED, because
+    an author's name is not punctuation.
+    """
+    assert refs.clean("What’s New in Powered Lift").startswith("What's"), \
+        refs.clean("What’s New in Powered Lift")
+    assert "‐" not in refs.clean("FAN‐IN‐WING")
+    assert refs.clean("FAN‐IN‐WING") == "FAN-IN-WING"
+    assert "­" not in refs.clean("Systems Analy­sis")
+    assert refs.clean("Coefficient ͞CL") == "Coefficient CL"
+    for src in ("“quoted”", "‘single’", "an ellipsis…"):
+        got = refs.clean(src)
+        for ch in "“”‘’…":
+            assert ch not in got, (src, got)
+    # a name carrying diacritics must survive untouched
+    assert refs.clean("Slavík and Böhm") == "Slavík and Böhm"
+    assert refs.clean("Munafò, Lovász and Štrumbelj") == "Munafò, Lovász and Štrumbelj"
 
 
 for name, fn in sorted(list(globals().items())):
