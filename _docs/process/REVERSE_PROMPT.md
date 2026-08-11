@@ -9,116 +9,121 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-11
-**Task**: A333 primary-reference review, the third of four passes. **Committed, not pushed.** **Not
+**Task**: A333 publication review, the fourth and final pass. Committed and **pushed**. **Not
 published.**
 
-**References 3,467 to 5,063 definitions and 3,352 to 4,948 cited**, with all 4,948 master records cited
-and none left over. The article moved from 11,229 to 16,068 lines and from 60,869 to 85,923 words.
-**Equations unchanged at 28.**
+**Final state: 20,991 lines, 28 display equations, 6,696 reference definitions, 111,381 words**, with
+all 6,581 master records cited and none left over. **All thirty-seven articles remain in `_drafts/`.**
 
 ---
 
-## Both Counts Rose and the Fractions Moved Apart
+## The Contemporary Survey
 
-| | After drafting | After this pass |
-|---|---|---|
-| Cited records | 3,352 | **4,948** |
-| Period count, through 2001 | 1,566 | **2,422** |
-| Period fraction | 46.7 percent | **48.9 percent** |
-| Contemporary count, 2015 onward | 1,567 | **2,214** |
-| Contemporary fraction | 46.7 percent | **44.7 percent** |
+Coverage stood at 2,214 records and 44.7 percent, with ten clusters under forty modern records and two
+of them carrying arguments. **A harvest took it to 3,766 and 57.2 percent, with 1,623 published from
+2022 onward.**
 
-**The period base grew by 856 records and gained 2.2 points of share. The contemporary base grew by 647
-and lost 2.0.** Nothing was removed from either. **The denominator moved**, which is the whole reason
-this series prints the count beside the fraction.
+**The worst gap was the keystone.** Scaling and similitude held **ten** modern records while the
+article claims that dynamically scaled subscale flight testing went from a specialist technique to a
+routine one. **A claim about the present needs the present literature behind it**, and it now has 46.
 
----
+**The most useful find is that the article's Reynolds penalty has a modern name and a large
+literature.** What the period called scale effects the present calls **low Reynolds number
+aerodynamics**, a field that grew because small unmanned aircraft made the regime commercially
+important. That cluster went from 38 modern records to 259.
 
-## The Promotion Rule, Sixteenth Article Running
-
-| Newly promoted subject | Before | After |
-|---|---|---|
-| **Phase margin and delay margin** | **0** | **142** |
-| **Specific fuel consumption and engine performance** | **0** | **161** |
-| Munk moment and slender-body theory | 1 | 111 |
-| Turn performance and corner speed | 4 | 10 |
-
-**Phase margin at zero was the worst instance this series has produced**, because it carried the
-article's headline result. The correction was vocabulary. The article says delay budget; the control
-literature says **gain and phase margin, time delay margin and robustness**, and the aeronautical half
-says **equivalent time delay and pilot-induced oscillation criteria**.
-
-**Turn performance stays thin at 10 and is reported as thin rather than padded.** It is peripheral to
-the article, occupying one subsection.
+**And the placement is worth stating.** At 8.81 million on the mean chord the X-36 sits **above** the
+range where that literature concentrates, **so the penalty this article computes is real and the model
+is not in the difficult part of the curve.** That is a better answer than either dismissing the penalty
+or being frightened of it.
 
 ---
 
-## The Two Keystone Documents, Hunted by Name and Found
+## The Count-Versus-Fraction Trap, in Its Classic Form
 
-The draft derived the Munk moment and cited nobody for it. **It now rests on the two papers that
-established it.**
+| | Draft | Primary pass | Publication pass |
+|---|---|---|---|
+| Cited records | 3,352 | 4,948 | **6,581** |
+| Period count | 1,566 | 2,422 | **2,461** |
+| Period fraction | 46.7 | 48.9 | **37.4 percent** |
+| Contemporary count | 1,567 | 2,214 | **3,766** |
+| Contemporary fraction | 46.7 | 44.7 | **57.2 percent** |
 
-- **Munk 1924**, the aerodynamic forces on airship hulls, which is the potential-flow result.
-- **Allen and Perkins 1951**, a study of effects of viscosity on flow over slender inclined bodies of
-  revolution, which is the correction that makes it usable at real angles of attack.
-
-**The relation this article displays is older than aeronautical stability and control as a
-discipline**, and the article now says so with the sources beside it.
-
----
-
-## Three Defects in My Own Search, and All Three Fail Silently
-
-**This pass exposed more tooling faults than any before it, and the common property is that none of
-them produces a wrong answer. All three produce a smaller one**, which reads as a thin literature
-rather than as a bug, and that is exactly why they survive passes.
-
-**The anchor gate rejected the article's oldest primary source outright.** The 1951 title contains no
-aircraft, no aerodynamics and no design, because it is a paper about **viscosity, flow, slender bodies
-and revolution**. A gate built from vehicle vocabulary refused the single best source for the relation
-the article displays. **The gate now admits the vocabulary of the physics as well as that of the
-machine**, and selection went from 4,772 kept to 5,050 on that change alone.
-
-**A plural boundary refused Munk's paper.** It is titled the aerodynamic forces on airship **hulls**,
-and a pattern written for `hull` declined it. **This is the third time in this project that a plural
-has done exactly this**, after `installation effects` in A332 and the historical `Diffusers` and `area
-rules`.
-
-**A spelling variant halved a cluster.** British manoeuvrability and American maneuverability are
-different strings and my pattern matched neither reliably.
+**The primary pass raised the period count by 856 and its share by 2.2 points. This pass raised the
+period count again, by 39, while its fraction fell 11.5 points.** Nothing was removed at any stage.
+**The period base never shrank; the contemporary survey grew faster**, which is the directive working.
+All three columns are in the article rather than the last one.
 
 ---
 
-## A Fourth Fault, Which Is a Sequencing Trap Rather Than a Pattern
+## Two Stale Claims the Pass Caught, and One Was Mine Twice
 
-**Widening the anchor gate after the reports-server detail pass leaves the newly admitted records
-without metadata, so they never reach the master set at all.** The 1951 paper passed selection, showed
-as kept, and was still absent from the article, because the detail pass had already cached only the
-records that passed the older gate.
+**The equation pass withdrew the claim that the split ailerons were margin rather than necessity,
+because the drag increment that decides it is unpublished and the answer flips inside its bracket.
+That withdrawal did not reach two other places in the article.** The Epistemic State still asserted it
+as close to a deduction, and the Conclusion still carried it as a subordinate clause. **Both are now
+corrected to say that public information does not settle it**, while keeping the structural claim that
+does not depend on the increment.
 
-**Nothing reported an error.** The record was simply not there. **Re-run the detail pass after any
-change to the anchor gate or the cluster patterns**, which is now the rule, and it recovered eight
-records here including the one that mattered.
+**My first correction then broke a different rule.** I wrote that the claim "was claimed in an earlier
+form of this article and is withdrawn", which is **drafting history leaking into the article**, a
+sentence referring to a revision the reader never saw. **Rewritten to keep the epistemic content and
+drop the revision history.**
+
+---
+
+## Diction
+
+**`rather than` stood at 46 occurrences and a rate of 6.95 against a corpus maximum of 6.78.** Reduced
+to 35 by varying ten of them. **Zero constructions now exceed the corpus maximum.**
 
 ---
 
 ## Verification
 
-- `python3 tmp/a333/verify.py` **99 of 99**, unchanged, since this pass added no arithmetic.
-- `python3 _verify.py` **0 errors, 21 warnings**, from the repository root.
-- `python3 tmp/errata/check_any.py` **0 failures, 0 warnings**.
-- **All 4,948 master records cited, none left over.**
-- **Reference scan clean across 10,076 visible entries**, zero punctuation defects, zero duplicate,
-  undefined or orphaned definitions.
-- **80 of 80 sampled DOIs verify against the Crossref registry** with none declining the author check,
-  and **326 of 326 NTRS identifiers resolve.**
-- **Isolated 37-article build exit 0**, page 1.17 MB, **28 open and 28 close display-math delimiters**,
-  zero unexpanded markers, zero nested empty lists, zero blockquotes.
+Every reading below was taken from the repository root, because `_verify.py` resolves its paths
+relative to the working directory.
+
+- `python3 _verify.py` **0 errors, 21 warnings**, the baseline.
+- `python3 tmp/errata/check_any.py` **0 failures, 0 warnings.** Twelve genre sections and three series
+  sections in order, with the Source Base immediately before Epistemic State.
+- `python3 _lib/test_lib.py` **54 of 54**.
+- `python3 tmp/a333/verify.py` **99 of 99** by an independent verifier that does not import the
+  calculation.
+- **Prose style clean**: zero em dashes, en dashes, minus signs, contractions, prose colons, curly
+  quotes and capitals used for emphasis. **The only semicolon and parentheses in the article are the
+  debug tag.**
+- **Reference scan clean across 13,342 visible entries**, zero punctuation defects of any kind in link
+  text, **zero duplicate, undefined or orphaned definitions**, zero blockquotes.
+- **Acronym check re-run after the reference growth.** The authorial spell-out sits at character 5,285
+  against a first citation occurrence at 50,837.
+- **Sweep clean with zero hard failures**: **650 of 650 sampled DOIs verify against the Crossref
+  registry** with 12 honestly declining the author check, **333 of 333 NTRS identifiers resolve**, and
+  **79 of 79 curated URLs return OK.**
+- **Isolated 37-article build exit 0**, page 1.51 MB, **28 open and 28 close display-math delimiters
+  matching the equation count exactly**, zero unexpanded markers, zero nested empty lists, zero
+  blockquotes and zero entity junk.
+- **Confirmed after pushing** that the article returns 404 while the site root returns 200, which is
+  correct because nothing in the series is published.
+
+---
+
+## What Stays Thin and Is Reported Rather Than Padded
+
+**Turn performance holds seven modern records** after a harvest aimed at it. It occupies one
+subsection, it is peripheral to the argument, and padding it would be worse than reporting it.
+
+**The vehicle's own cluster holds five records and no modern ones**, which is the fourth instance in
+four consecutive articles and the fourth distinct reason. The X-33 and X-34 were cancelled, the X-35
+won and never had a trace at all, **and the X-36 ran to completion and produced a technique rather than
+a vehicle**, so its contribution is filed under the names of its methods. **Four vehicles, four
+reasons, one shape**, and that belongs in the closing article.
 
 ---
 
 ## Next
 
-**A333 pass four**, the publication review, on your prompt. **It also asks for a push.** Contemporary
-coverage stands at 2,214 records and 44.7 percent, so I expect that pass to be prose, a contemporary
-harvest for the thin clusters, the full sweep and the final structural check.
+**A334, the Boeing X-37**, editorial date 2025-11-12, Part 38 of 72, on your prompt.
+
+**Publication has still never been authorised and the `post_url` interlock is now thirty-seven deep**,
+so these articles publish in order or together.

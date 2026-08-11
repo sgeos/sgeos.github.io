@@ -25,8 +25,24 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 **11,068 lines, 13 display equations, 3,467 reference definitions, 59,364 words after the draft
 pass.** **11,229 lines, 28 display equations, 3,467 reference definitions, 60,869 words after the
 equation-density review.** **16,068 lines, 28 display equations, 5,063 reference definitions,
-85,923 words after the primary-reference review**, with all 4,948 master records cited and none
-left over. Committed, **not pushed**. **Not published.**
+85,923 words after the primary-reference review.** **20,991 lines, 28 display equations, 6,696 reference definitions,
+111,381 words after the publication review**, with all 6,581 master records cited and none left
+over. Committed and **pushed**. **Not published.**
+
+**THE CONTEMPORARY SURVEY WENT FROM 2,214 RECORDS AT 44.7 PERCENT TO 3,766 AT 57.2 PERCENT**, with
+1,623 from 2022 onward. **The worst gap was the keystone**, scaling and similitude holding ten modern
+records while the article claims that subscale dynamically scaled testing became routine. **The most
+useful find is that the article's Reynolds penalty has a modern name**, low Reynolds number
+aerodynamics, a field that grew because small unmanned aircraft made the regime commercially
+important; and **the X-36 sits above the range where that literature concentrates**, so the penalty
+is real and the model is not in the difficult part of the curve.
+
+**THE COUNT-VERSUS-FRACTION TRAP IN ITS CLASSIC FORM.** The publication pass raised the period count
+by 39 **while its fraction fell 11.5 points**, nothing removed and the period base never shrinking.
+
+**TWO STALE CLAIMS THE PASS CAUGHT AND ONE WAS MINE TWICE.** The equation pass withdrew the claim
+that the split ailerons were margin, **and the withdrawal did not reach the Epistemic State or the
+Conclusion**. My first correction then leaked drafting history into the article and was rewritten.
 
 **THE PROMOTION RULE FIRED FOR THE SIXTEENTH ARTICLE RUNNING AND PHASE MARGIN AT ZERO WAS THE WORST
 INSTANCE THIS SERIES HAS PRODUCED**, because it carried the article's headline result. The
@@ -87,7 +103,8 @@ above anything the aircraft flew, **so the split ailerons were margin rather tha
 X-35 won and never had a trace at all, and **the X-36 ran to completion and produced a technique rather
 than a vehicle**, so its contribution is filed under the names of its methods.
 
-**Remaining work**: the publication review, on the pilot's prompt. **The promotion rule fired for the sixteenth article running**, with phase margin and delay
+**Remaining work**: none. All four passes are complete. **Publication has never been authorised**
+and the `post_url` interlock is thirty-seven deep. **The promotion rule fired for the sixteenth article running**, with phase margin and delay
 margin standing at **zero** although it now carries the article's headline result. **The equation count of 13 is the lowest in the series and is
 reported rather than padded**, the subject having one relation applied repeatedly rather than several
 chains.
