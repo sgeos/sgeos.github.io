@@ -9,164 +9,149 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-11
-**Task**: A332 equation-density review, the second of four passes. **Committed, not pushed.** **Not
+**Task**: A332 primary-reference review, the third of four passes. **Committed, not pushed.** **Not
 published.**
 
-**30 display equations to 71.** The article moved from 18,396 to 18,723 lines and from 98,627 to
-101,571 words, with references unchanged at 5,814 definitions and all 5,678 master records still
-cited.
+**References 5,814 to 7,188 definitions and 5,678 to 7,051 cited**, with all 7,051 master records
+cited and none left over. The article moved from 18,723 to 22,924 lines and from 101,571 to 123,341
+words. **Equations unchanged at 71.**
 
 ---
 
-## Four Pieces of Physics the Draft Did Not Reach, and Every One Serves the Thesis
+## Both Halves Rose, Which Has Not Happened in This Series Before
 
-The draft argued that the conversion between modes was the hard event and that the three celebrated
-manoeuvres were not. **It argued that from a chronology. The equation pass gives it forces.**
-
-### The force that appears the moment the fan engages
-
-**A lift fan in forward flight ingests air at flight speed and throws it downward, so all of that
-horizontal momentum has to be destroyed.** The reaction is a drag, $D = \dot{m} V$, and it is large.
-
-| Speed | Momentum drag | Share of the rear nozzle's thrust |
-|---|---|---|
-| 80 kt | 2,431 lbf | 13.5 percent |
-| 180 kt | **5,469 lbf** | **30.4 percent** |
-
-**The X-35B made its first in-flight conversion at 180 knots**, and at that speed engaging the fan
-costs 5,469 pounds force and decelerates the aircraft at 0.1609 g on its own. **Nothing about hovering,
-going supersonic or landing vertically produces a step change of that size.**
-
-### The same relation read upwards gives the conversion speed
-
-Setting wing lift equal to the whole weight rather than to part of it gives **146.8 knots**, above
-which the wing carries the aeroplane unaided. **The conversion was flown at 180 knots**, comfortably
-clear, which is the safest place to engage a fan and also the point at which the momentum drag is
-largest. **Lift was free and drag was most expensive, which is the right trade and not an obvious
-one.**
-
-### The hover balance fixes the centre of gravity
-
-In a hover there is no airflow to trim against, so the only vertical forces are the fan ahead of the
-centre of gravity and the rear nozzle behind it. Both thrusts are set by hardware, so **the moment
-balance does not determine the trim. It determines where the centre of gravity has to be**, at 47.37
-percent of the distance from one to the other. **A five percent thrust split buys 14.72 inches of
-travel.** That is tight for an aeroplane whose fuel and stores move the centre of gravity by more, and
-**it is the one cost in this article that does not get easier as the aircraft gets lighter.**
-
-### What hot gas ingestion costs, in kelvin
-
-**The fan is shaft-driven, so every pound of vertical thrust is ultimately core thrust.** Inverting for
-the inlet temperature rise that consumes the hover margin gives **66.95 kelvin**. That single number is
-what the cold fan buys, **and it converts the comparison with the rival from a matter of adjectives
-into a matter of kelvin.**
-
----
-
-## The Geometry Result, Which Was Not Anticipated
-
-The three-bearing swivel module was a sentence in the draft. **The kinematics say why there are three
-bearings rather than one.**
-
-A joint whose mating plane is canted at $\beta$ deflects the duct by $\cos\delta = \cos^{2}\beta +
-\sin^{2}\beta\cos\phi$, confirmed against a rotation-matrix composition over five thousand randomised
-inputs. At half a turn that is $2\beta$, **so one joint would need a cant of 47.5 degrees to reach
-ninety-five, which is not a practical pressure-tight seal on a duct carrying an augmented turbofan's
-full exhaust.**
-
-**Then the part I did not expect.** Putting joints in series helps **only if their cants alternate**. A
-search over the roll angles found that two joints canted the same way reach $2\beta$ and no more,
-because the second can only undo the first. **Mirrored, two reach $4\beta$ and three reach $6\beta$**,
-so three alternating joints at an ordinary 15.83 degree cant reach ninety-five. **The bearing count
-follows from the cant a seal can tolerate divided into the deflection the aircraft needs.**
-
-The article claims the requirement and not the mechanism, since the actual cant angles and the gearing
-are not published.
-
----
-
-## The Counter-Rotation Finding, Now in Handling-Qualities Units
-
-The draft said a single-rotation fan would have consumed most of the roll authority. **Dividing the
-couple by an estimated roll inertia turns that into an angular acceleration.**
-
-The posts give **46.07 degrees per second squared**, which is healthy. A single-rotation fan's reaction
-torque is **93.31 percent of the whole couple**, leaving **3.083 degrees per second squared**.
-
-**Three degrees per second squared is not a degraded control system. It is not a control system.** A
-pilot would have had about one fifteenth of the roll acceleration the aircraft actually has.
-
----
-
-## Two Refinements That Made a Number Worse and the Conclusion Stronger
-
-**The draft asserted a lumped transonic drag coefficient of 0.035.** A build-up gives 0.03773, so the
-drag is 10,289 pounds force rather than 9,546 and the thrust to drag ratio falls from 2.389 to
-**2.216**. **The conclusion that Mach 1.05 was not demanding survives, and now rests on a build-up
-rather than on a guess.** Induced drag is 0.0027 of the total, which is itself worth knowing, because
-it means the dash is a pure zero-lift and wave-drag problem.
-
-**The thrust lapse exponent is assumed and is now shown not to matter.** Across 0.6 to 1.0 the ratio
-runs from 2.589 to 1.878 and the margin survives the whole range.
-
----
-
-## One Symbol Collision, Caught by Reading
-
-The relation for thrust loss with inlet temperature needs a thrust and a temperature in the same
-expression, and the article has used $T$ for thrust throughout. **The first version silently wrote both
-as $T$.** Thrust is now written $F$ in that relation and only there, and the article says so at the
-point of use.
-
-I also removed a claim that the momentum drag appears in no account of this aeroplane, which I cannot
-support, and corrected a statement that two derivations of the fan mass flow agreed to a part in five
-hundred. **They are algebraically the same statement**, so the agreement tests transcription rather
-than physics, and the article now says that instead.
-
----
-
-## The Promotion Rule, Fourteenth Article Running, and This Is for the Next Pass
-
-Auditing the ten subjects the new equations name against the pool found **seven thin and one at
-literally zero.** The two carrying the sharpest new results are the worst.
-
-| Newly promoted subject | Records | Period | Modern |
+| | After drafting | After the equation pass | After this pass |
 |---|---|---|---|
-| **Momentum drag of a lift system** | **1** | 0 | 1 |
-| **Canted joint kinematics** | **1** | 0 | 1 |
-| Fan stage loading and tip Mach | 1 | 1 | 0 |
-| Centre of gravity limits in hover | 2 | 0 | 2 |
-| Induced drag and span efficiency | 4 | 3 | 1 |
-| Barometric and standard atmosphere | 8 | 3 | 0 |
-| **Fuel volume and density** | **0** | 0 | 0 |
+| Harvested pool | 7,567 | 7,567 | **10,069** |
+| Cited records | 5,678 | 5,678 | **7,051** |
+| Period count, through 2001 | 2,820 | 2,820 | **3,524** |
+| Period fraction | 49.7 percent | 49.7 percent | **50.0 percent** |
+| Contemporary count, 2015 onward | 2,514 | 2,514 | **3,099** |
+| Contemporary fraction | 44.3 percent | 44.3 percent | **44.0 percent** |
 
-`citation_gaps` reports 25 displayed equations with no citation within nine hundred characters.
-**Both lists are the primary pass's work and are recorded here rather than acted on now.**
+**The period count rose by 704 and its fraction rose by three tenths of a point.** In A330 and A331
+this pass raised the period count while the contemporary fraction fell underneath it, and the standing
+warning is that neither movement is a fact about coverage. **Here both counts rose and both fractions
+barely moved, because the harvest was aimed at subjects rather than at eras.** Both columns are in the
+article.
+
+---
+
+## The Promotion Rule, Fourteenth Article Running, and the Correction Was Vocabulary
+
+**Seven of the ten subjects the new equations name were thin, one stood at zero, and the two carrying
+the article's sharpest new results stood at one record each.**
+
+| Newly promoted subject | Before | After |
+|---|---|---|
+| **Momentum drag of a lift system** | **1** | **74** |
+| **Canted joint kinematics** | **1** | **89** |
+| Fan stage loading and tip Mach | 1 | 129 |
+| Centre of gravity limits in hover | 2 | 32 |
+| Induced drag and span efficiency | 4 | 145 |
+| Barometric and standard atmosphere | 8 | 35 |
+| **Fuel volume and density** | **0** | **49** |
+
+**Not one extra query was needed once the vocabulary was right.** The article says momentum drag and
+the period reports say **inlet momentum drag, ram drag, lift engine installation losses and
+propulsion-induced effects**. The article says canted joint and the period says **swivel duct,
+deflector, skewed axis coupling and spatial mechanism**.
+
+---
+
+## A Defect in My Own Search Pattern, and It Fails Silently
+
+**One of those gaps was mine rather than the literature's.** The cluster pattern matched the singular
+`installation effect` where every report in the field writes `installation effects`, and a word
+boundary after the singular refuses the plural. **An entire subject was routed to the catch-all without
+anything reporting an error.**
+
+**This failure mode returns a smaller answer rather than a wrong one, so it reads as a thin literature
+instead of as a bug.** That is why it survived a draft pass and an equation pass. The same family has
+appeared before in this series. Widening the pattern took momentum drag from 7 records to 36 in its own
+cluster and from 1 to 74 across the pool.
+
+---
+
+## The Keystone Primary Sources, Now Cited by Name
+
+The draft cited this architecture entirely through secondary description. **It now rests on the
+inventor's own record.**
+
+- **The patent**, Bevilaqua and Shumpert, United States Patent 5,209,428, granted 1993.
+- **Bevilaqua 1996**, dual cycle operation of the shaft driven lift fan propulsion system.
+- **Bevilaqua 2009**, the genesis of the F-35, which is the Wright Brothers Lecture, and its companion
+  paper on inventing it. **Both were absent from the pool and were injected deliberately**, and both
+  verify against the Crossref registry.
+- **Palmer and Holdø 2002** and **Sayma and Vahdati 2003**, the first open-literature studies of the
+  fan itself.
+
+**And the pool contained something I did not go looking for.** Bevilaqua published on
+**thrust-augmenting ejectors** in 1974, 1977, 1984 and 1987. **The ejector is the other way of adding
+mass flow to a lift system**, entraining ambient air into a high-velocity primary jet rather than
+driving a fan with a shaft, and it was the leading candidate for supersonic vertical landing for two
+decades. **The man who displaced it had spent fifteen years on it.** That is now in the article.
+
+---
+
+## The Headline Source-Base Claim Survived a Larger Pool
+
+**Zero of 10,069 harvested records carry "X-35" in the title**, after four harvests that asked for it
+directly. The claim was made at 7,567 and **stayed at zero while the pool grew by a third**, which is a
+stronger statement than the one the draft could make. Forty-three records name the Joint Strike Fighter
+and fourteen name the F-35. **Nothing names the aeroplane.**
+
+---
+
+## Two of My Own Style Defects, Caught by the Checks That Exist for Them
+
+**A prose semicolon**, in a sentence I wrote this pass, caught by `check_any`.
+
+**The acronym check fired exactly as the handoff predicted it would.** A growing reference set moved a
+verbatim NASA in a citation title ahead of any authorial spell-out, and there was no authorial
+spell-out at all. The article now spells out the National Aeronautics and Space Administration in
+Programme Origin, before the first citation list, at character 6,487 against the first citation
+occurrence at 6,673.
+
+---
+
+## What Stays Thin, and It Is Now Five Headings and Two Genuine
+
+| Subject | Records | Kind |
+|---|---|---|
+| Ground roll and takeoff distance | 2 | **Settled.** A closed form in every performance textbook |
+| Disc loading | 3 | Wrong heading. It sits inside momentum theory, which holds 175 |
+| Jet footprint and ground erosion | 4 | Wrong heading. It lives inside impingement work, which holds 680 |
+| Rotor spin-up and inertia | 7 | Wrong heading. It lives inside drive-system transients |
+| Thrust lapse with altitude | 12 | Wrong heading. It lives inside installed performance |
+| Stagnation temperature and kinetic heating | 14 | Moved. Its modern half is hypersonics |
+| Standard atmosphere | 35, three modern | **Settled, and the harvest proved it** |
+
+**The standard atmosphere is the clearest case of settled knowledge this series has produced.** A
+harvest aimed directly at it took the count from 9 to 35 and returned almost nothing published after
+2015, because it is a standards document rather than a research subject. **Reporting that is more
+useful than padding it.**
 
 ---
 
 ## Verification
 
-- `python3 tmp/a332/verify.py` **115 of 115**, up from 53, by an independent verifier that does not
-  import the calculation. New routes this pass include a **rotation-matrix composition tested against
-  the closed form over five thousand randomised inputs**, a search over the roll space for what series
-  joints can do, bisection for the critical inlet temperature rise and for the wing-borne speed, a
-  scan for the centre-of-gravity band, the fan mass flow by a second route, and the ground roll in
-  closed form against the time-stepped figure already checked.
+- `python3 tmp/a332/verify.py` **115 of 115**, unchanged, since this pass added no arithmetic.
 - `python3 _verify.py` **0 errors, 21 warnings**, the baseline.
 - `python3 tmp/errata/check_any.py` **0 failures, 0 warnings**.
 - `python3 _lib/test_lib.py` **53 of 53**.
-- **Isolated build exit 0**, and the rendered page carries **71 open and 71 close display-math
-  delimiters**, matching the equation count exactly, with zero unexpanded markers, zero nested empty
-  lists and zero blockquotes.
-- **The comma-spacing trap fired again, fifth consecutive article.** Seven verified values were present
-  only inside displays, where LaTeX comma spacing flattens `29{,}018` to `29{}018`. All seven are now
-  stated in prose as well.
+- **Reference scan clean across 14,321 visible entries**, with zero semicolons, parentheses, dashes,
+  dollars, backslashes, angle brackets, braces, entities, curly quotes or soft hyphens in link text,
+  zero contractions anywhere, and **zero duplicate, undefined or orphaned definitions.**
+- **75 of 75 sampled DOIs verify against the Crossref registry**, including all five keystone records,
+  with two honestly declining the author check.
+- **Isolated build exit 0**, page 1.62 MB, with 71 open and 71 close display-math delimiters, zero
+  unexpanded markers, zero nested empty lists and zero blockquotes.
 
 ---
 
 ## Next
 
-**A332 pass three**, the primary-reference review, on your prompt. The seven thin subjects above are
-the list, and the two at one record each are the ones the article most needs, since they carry its
-newest results.
+**A332 pass four**, the publication review, on your prompt. **It also asks for a push.** The
+contemporary half stands at 3,099 records and 44.0 percent, which is healthy, so I expect that pass to
+be about prose, the full URL sweep and the final structural check rather than about another harvest.

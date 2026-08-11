@@ -24,8 +24,33 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 **18,396 lines, 30 display equations, 5,814 reference definitions, 98,627 words after the draft
 pass.** **18,723 lines, 71 display equations, 5,814 reference definitions, 101,571 words after the
-equation-density review**, with all 5,678 master records cited and none left over. Committed, **not
-pushed**. **Not published.**
+equation-density review.** **22,924 lines, 71 display equations, 7,188 reference definitions,
+123,341 words after the primary-reference review**, with all 7,051 master records cited and none
+left over. Committed, **not pushed**. **Not published.**
+
+**THE PRIMARY PASS RAISED BOTH HALVES, WHICH HAS NOT HAPPENED BEFORE IN THIS SERIES.** The pool went
+from 7,567 to 10,069, the period count from 2,820 to **3,524** and its fraction from 49.7 to **50.0
+percent**, the contemporary count from 2,514 to **3,099** and its fraction from 44.3 to **44.0
+percent**. A330 and A331 both had the period count rise while the contemporary fraction fell
+underneath it. **Here both counts rose and both fractions barely moved, because the harvest was aimed
+at subjects rather than at eras.**
+
+**THE PROMOTION RULE FIRED FOR THE FOURTEENTH ARTICLE RUNNING AND THE CORRECTION WAS VOCABULARY.**
+Seven of ten newly promoted subjects were thin and the two carrying the sharpest new results stood at
+one record each. Asking in the period's words rather than the article's took **momentum drag from 1 to
+74 and canted joint kinematics from 1 to 89**, with fuel volume and density from 0 to 49. **One gap
+was a defect in my own pattern**, which matched the singular `installation effect` where every report
+writes `installation effects`, **routing an entire subject to the catch-all with nothing reporting an
+error**.
+
+**THE KEYSTONE PRIMARY SOURCES ARE NOW CITED BY NAME**, the draft having rested on secondary
+description alone. The Bevilaqua and Shumpert patent, Bevilaqua's 1996 cycle paper and his 2009
+Wright Brothers Lecture were all absent from the pool and were injected deliberately. **And the pool
+held something I did not go looking for**: Bevilaqua published on thrust-augmenting ejectors in 1974,
+1977, 1984 and 1987, **so the man who displaced the ejector had spent fifteen years on it.**
+
+**THE HEADLINE CLAIM SURVIVED A LARGER POOL.** Zero of 10,069 records carry X-35 in the title, the
+claim having been made at 7,567 and **stayed at zero while the pool grew by a third**.
 
 **THE EQUATION PASS GAVE THE THESIS FORCES WHERE IT HAD ONLY A CHRONOLOGY.** Four pieces of physics
 the draft did not reach all point the same way. **Momentum drag**, the destruction of the horizontal
@@ -90,8 +115,7 @@ also found ninety cluster markers rendering as nested empty list items. Checking
 than trusting its status code found a link to a page that returns 200 and **contains no aeronautical
 content whatever**.
 
-**Remaining work**: the primary-reference review and the publication review, each on the pilot's
-prompt. **The promotion rule fired for the fourteenth article running**, with 7 of 10 newly promoted
+**Remaining work**: the publication review, on the pilot's prompt. **The promotion rule fired for the fourteenth article running**, with 7 of 10 newly promoted
 subjects thin and the two carrying the sharpest new results, momentum drag and canted joint
 kinematics, standing at **one record each**.
 
