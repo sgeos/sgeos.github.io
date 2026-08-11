@@ -23,8 +23,20 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 of 72.
 
 **17,379 lines, 51 display equations, 5,392 reference definitions, 92,916 words after the draft
-pass**, with all 5,332 master records cited and none left over. Committed, **not pushed**. **Not
-published.** The next pass due is the equation-density review.
+pass.** **17,667 lines, 90 display equations, 5,392 reference definitions, 95,132 words after the
+equation review**, with all 5,332 master records cited and none left over. Committed, **not
+pushed**. **Not published.** The next pass due is the primary-reference review.
+
+**THE EQUATION PASS PRICED THE TERMS THE IDENTITY POINTED AT.** Buckling governs, reached by
+inverting for the line load at which stability overtakes pressure, **7.54 kN/m against 52.7 from
+thrust alone**. Internal pressure stabilisation, omitted at first and then included, cuts the
+thickness ratio from 2.64 to **1.80**, and the conclusion survives its own correction. **The
+facesheets are minimum-gauge governed**, so material is carried that no load calls for. **The
+sandwich saving is narrower than its reputation**, 1.72 times at equal stiffness but only 1.13 at a
+thirty millimetre core, and **beyond 40.6 mm the sandwich weighs more than the solid wall it
+replaced**. **The mass build-up explains 59.5 percent of the built tank and leaves 844.3 kilograms
+to the joints, longerons and doublers**, which is the finding rather than a failure of the
+build-up.
 
 **THIS IS THE EXACT INVERSE OF A329.** The X-32 was built, flew 144 times and lost. **The X-33 won
 its competition, was funded, reached a state reported as eighty-five percent assembled, and was

@@ -142,16 +142,26 @@ That is a rarer thing in this series than it sounds, and the closing article sho
 
 **The context is the cost of getting to orbit and the fact that it had not fallen.** The stated ambition of
 the [reusable launch vehicle][ref_rlv] technology programme was a reduction from something on the order of
-ten thousand dollars a pound to one thousand, and the mechanism was to be full reusability with airline-like
-operations rather than an expendable stack rebuilt for every flight.
+ten thousand dollars a pound to one thousand, which is a demanded improvement of
+
+$$\frac{10{,}000}{1{,}000} = 10$$
+
+**and the mechanism was to be full reusability** with airline-like operations rather than an expendable
+stack rebuilt for every flight.
+**An order of magnitude is the kind of target that admits no incremental route**, which is worth holding in
+mind against everything that follows.
 
 **The institutional arrangement was unusual and it shaped everything that followed.** The X-33 was not
 procured under a conventional contract. It was run as a **cooperative agreement**, in which industry
 contributed its own funds and expected to own the resulting commercial vehicle. The
 [Government Accountability Office, then the General Accounting Office, reporting on the programme's status in 1999][ref_gao_x33],
 put the agency's contribution to the agreement at 912.4 million dollars and the industry partners' estimated
-contribution at 286.6 million, the latter having grown by 75 million, or 35.4 percent, from an original
-211.6 million.
+contribution at 286.6 million, the latter having grown by 75 million from an original 211.6 million, which
+is
+
+$$\frac{286.6 - 211.6}{211.6} = 0.354$$
+
+**or 35.4 percent, and the growth fell on the industry side rather than the agency's.**
 
 **That structure has a consequence that is easy to miss.** A cooperative agreement in which the contractor
 expects to own and operate the product aligns the incentives toward a commercially viable vehicle. It also
@@ -264,7 +274,31 @@ and the propellant mass fraction $\zeta$, being the share of the gross mass that
 
 $$\zeta = 1 - \frac{m_f}{m_0} = 1 - \exp\!\left(-\frac{\Delta v}{I_{sp} \, g_0}\right)$$
 
-**Reaching low Earth orbit costs about 9,300 metres per second once gravity, drag and steering losses are included, and a hydrogen-oxygen engine delivers a trajectory-effective specific impulse near 430 seconds.**
+**The velocity that has to be produced is mostly, but not only, orbital speed.** A circular orbit of radius
+$r$ about a body of gravitational parameter $\mu$ requires that gravity supply exactly the centripetal
+acceleration,
+
+$$\frac{v^2}{r} = \frac{\mu}{r^2}$$
+
+so that
+
+$$v_{\text{circ}} = \sqrt{\frac{\mu}{r}}$$
+
+**At two hundred kilometres altitude that is**
+
+$$v_{\text{circ}} = \sqrt{\frac{3.986 \times 10^{14}}{6{,}578{,}137}} = 7{,}784.3 \ \text{m/s}$$
+
+**Orbital speed is 7,784.3 metres per second, and the difference between that and the budget is everything the vehicle spends without converting it into orbital speed**,
+being gravity losses while the thrust vector is not horizontal, aerodynamic drag through the lower
+atmosphere, and the steering that turns one into the other,
+
+$$\Delta v_{\text{losses}} = 9{,}300 - 7{,}784.3 = 1{,}515.7 \ \text{m/s}$$
+
+**The losses come to 1,515.7 metres per second, which is 16.3 percent of the whole budget.** They are not a
+rounding allowance. They are a sixth of the requirement, and they are why a launch vehicle cannot be sized
+against orbital speed.
+
+**Reaching low Earth orbit therefore costs about 9,300 metres per second, and a hydrogen-oxygen engine delivers a trajectory-effective specific impulse near 430 seconds.**
 The effective exhaust velocity is then
 
 $$I_{sp} \, g_0 = 430 \times 9.80665 = 4{,}216.9 \ \text{m/s}$$
@@ -610,26 +644,79 @@ remaining eighty-nine percent is shape and manufacture, **and the record says ex
 reported reason the composite tank came out heavier than the aluminium tank that replaced it was the
 complexity of the joints the lobed geometry demanded.
 
-- [WRINKLING OF THE FACINGS OF SANDWICH CONSTRUCTION SUBJECTED...][research_norris_boller_1953]
-- [BUCKLING OF CYLINDERS OF SANDWICH CONSTRUCTION IN AXIAL...][research_march_kuenzi_1957]
-- [Honeycomb Sandwich Construction for Supersonic Aircraft][research_noton_1957]
-- [practical design suggestions for users of Brazed Honeycomb...][research_rechlin_1959]
-- [HEAT TRANSFER IN HONEYCOMB SANDWICH PANELS][research_clifton_1961]
-- [Stability of Honeycomb Sandwich Cylinders][research_kiciman_konishi_1961]
-- [Honeycomb sandwich production techniques][research_treloar_1962]
-- [EXPERIMENTAL CONFIRMATION OF THERMO-ELASTIC EQUATIONS FOR...][research_ebcioglu_roberson_1963]
-- [Lightweight Reinforced Plastic Faced Sandwich Construction][research_phelps_1963]
-- [QUARTZ LAMP RADIANT HEAT BRAZING OF LARGE REFRACTORY METAL...][research_hugill_gaiennie_1963]
-- [TESTS OF RING-STIFFENED AND SANDWICH COMPOSITE CYLINDERS...][research_krenzke_kiernan_1963]
-- [569. Thin oxide film sandwich structure photo cell][research_569_thin_1964]
-- [896. Thin oxide film sandwich structure photocell][research_896_thin_1964]
-- [An analytical model for predicting thermal response in...][research_gonzalez_1964]
-- [RESEARCH IN THE FIELD OF FIBERGLASSREINFORCED SANDWICH...][research_nordby_noyes_1964]
-- [Thin oxide film sandwich structure photocell][research_thin_oxide_1964_b]
-- [Thin oxide films sandwich structure photocell][research_thin_oxide_1964]
-- [STRENGTH PROPERTIES AND RELATIONSHIPS ASSOCIATED WITH VARIOUS...][research_nordby_crisman_1965]
-- [SUMMARY OF DATA AND DESIGN EVALUATION OF SANDWICH...][research_reynolds_1966]
-- [DIFFUSION BONDING OF TITANIUM SANDWICH STRUCTURE FOR SATURN...][research_huffman_laiacona_1967]
+### What the Missing Terms Actually Cost
+
+**An assertion that the cost lives somewhere else is worth very little until the somewhere else is priced.**
+This subsection prices the two that can be priced, being buckling and the sandwich the buckling forces, and
+reports what remains unaccounted.
+
+#### Buckling, Which Governs
+
+**A thin cylindrical shell in axial compression fails by buckling long before it fails by stress.** Writing
+$E$ for the wall modulus, $\nu$ for its Poisson ratio and $\gamma$ for a knockdown factor covering
+imperfection sensitivity, the classical critical stress is
+
+$$\sigma_{cr} = \frac{\gamma E t}{R \sqrt{3\left(1-\nu^2\right)}}$$
+
+so the compressive load per unit circumference the shell can carry is
+
+$$N_{cr} = \sigma_{cr} \, t = \frac{\gamma E t^2}{R \sqrt{3\left(1-\nu^2\right)}}$$
+
+and the thickness stability demands for a given line load $N_x$ is
+
+$$t_{\text{buckling}} = \sqrt{\frac{N_x R \sqrt{3\left(1-\nu^2\right)}}{\gamma E}}$$
+
+**Estimating the X-33's compressive line load would import every uncertainty of its load path, and the argument does not need one.**
+Ask instead for the threshold. Setting the buckling thickness equal to the membrane thickness $pR/\sigma$
+and solving for the load gives
+
+$$N_x^{\ast} = \frac{\gamma E p^2 R}{\sigma^2 \sqrt{3\left(1-\nu^2\right)}}$$
+
+**Above that line load the wall is sized by stability and not by pressure.** At a knockdown of 0.2, a
+laminate modulus of 70 gigapascals and the tank's own radius and pressure, the threshold is
+
+$$N_x^{\ast} = 7.54 \ \text{kN/m}$$
+
+**and the only thing that has to be established about the vehicle is that it clears that bar.** It clears it
+easily. Both engines at sea level produce 1.815 meganewtons, and spreading that across the outer contour of
+both tanks gives
+
+$$N_x = \frac{1.815 \times 10^6}{2 \times 17.223} = 52.7 \ \text{kN/m}$$
+
+**which is 7.0 times the threshold, from thrust alone**, ignoring inertial loads, aerodynamic bending and
+every ground-handling case. The membrane thickness is 1.384 millimetres and the buckling thickness at that
+load is
+
+$$t_{\text{buckling}} = 3.656 \ \text{mm}$$
+
+**a ratio of 2.64.** The tank is a stability structure wearing a pressure vessel's name.
+
+**One correction cuts the other way and it belongs here rather than in a footnote.** Internal pressure
+stabilises a shell, because hoop tension resists the inward lobes of the buckling mode. The effect scales
+with the pressure parameter
+
+$$\frac{p}{E}\left(\frac{R}{t}\right)^2 = 1.430$$
+
+which raises the effective knockdown from 0.2 to 0.429 and drops the required thickness to 2.497
+millimetres, **a ratio to the membrane thickness of 1.80 rather than 2.64.**
+
+**The conclusion survives its own correction.** Stability still asks for nearly twice the thickness pressure
+asks for, with the tank full and pressurised, **and a tank must also survive being empty.**
+
+| Knockdown factor | Buckling thickness | Ratio to membrane |
+|---|---|---|
+| 0.10 | 5.171 mm | 3.74 |
+| 0.15 | 4.222 mm | 3.05 |
+| 0.20 | 3.656 mm | 2.64 |
+| 0.30 | 2.985 mm | 2.16 |
+| 0.50 | 2.312 mm | 1.67 |
+| 1.00 | 1.635 mm | 1.18 |
+
+**Even at a knockdown of one, meaning a shell with no imperfection penalty whatever, buckling asks for 1.635 millimetres against 1.384.**
+There is no value of the least certain assumption in this subsection at which pressure governs.
+
+**The critical stress, the knockdown factor and the pressure-stabilisation term are standard results and are not this article's**,
+and the literature they come from is a large one.
 
 - [BENDING BUCKLING TESTS OF SANDWICH CYLINDERS][research_gerard_1952]
 - [COMPRESSIVE BUCKLING CURVES FOR FLAT SANDWICH PANELS WITH...][research_norris_1958]
@@ -652,18 +739,149 @@ complexity of the joints the lobed geometry demanded.
 - [Recent advances in shell buckling][research_stein_1968]
 - [Buckling of a stiffened cylindrical shell with transverse...][research_lee_1969]
 
-### Why the Wall Became a Sandwich
+#### Why That Forces a Sandwich
 
-**A wall that carries bending as well as membrane load wants its material far from the neutral axis, which is the definition of a [sandwich][ref_sandwich].**
-Two thin facesheets separated by a light core give a bending stiffness proportional to the square of the
-separation for almost no added mass. The reasoning is the ordinary structural one
-[Bruhn sets out for flight vehicle structures][book_analysis_and_design_of_flight_vehicle_st]. For a wall
-that must resist bending at the lobe junctions and buckling under compression, a sandwich is not an exotic
-choice. It is the ordinary one.
+**A wall that must carry bending as well as membrane load wants its material far from the neutral axis, which is the definition of a [sandwich][ref_sandwich]**,
+and the reasoning is the ordinary structural one
+[Bruhn sets out for flight vehicle structures][book_analysis_and_design_of_flight_vehicle_st].
+**A solid wall thick enough not to buckle is a wasteful way to buy bending stiffness**, because a monocoque
+of thickness $t$ has
+
+$$D_{\text{mono}} = \frac{E t^3}{12\left(1-\nu^2\right)} = 313.3 \ \text{N} \cdot \text{m}$$
+
+whereas two facesheets of thickness $t_f$ separated by a core of thickness $h$ have
+
+$$D_{\text{sand}} = \frac{E t_f h^2}{2}$$
+
+**The separation enters squared and the material enters linearly**, which is the whole of the argument for
+the architecture. The core thickness that matches the monocoque's stiffness is
+
+$$h = \sqrt{\frac{2 D_{\text{mono}}}{E t_f}} = 2.99 \ \text{mm}$$
+
+**Three millimetres of core buys what three and a half millimetres of solid laminate buys.**
+
+**So the facesheets are not sized by stiffness at all, and what does size them is the finding.** They share
+the membrane load, so each needs half the membrane thickness,
+
+$$t_f = \frac{t_{\text{membrane}}}{2} = 0.692 \ \text{mm}$$
+
+against a minimum manufacturable gauge for a balanced symmetric quasi-isotropic laminate of eight plies,
+
+$$t_{\text{gauge}} = 8 \times 0.125 = 1.000 \ \text{mm}$$
+
+**Minimum gauge governs.** The sandwich splits the membrane load between two sheets and thereby pushes each
+of them below what can be laid up,
+**so material is carried that no load calls for, and no stress calculation will ever object, because nothing is overstressed.**
+
+#### What the Sandwich Then Weighs
+
+The monocoque wall has an areal mass of
+
+$$\rho_w t_{\text{buckling}} = 1{,}570 \times 0.003656 = 5.740 \ \text{kg/m}^2$$
+
+and the sandwich has
+
+$$2 \rho_w t_f + \rho_c h$$
+
+which depends on a core thickness the record does not give, so it is swept.
+
+**Only the first row of the table below compares equal stiffness**, and that has to be said plainly, because
+the rest of it does not. A thicker core buys bending stiffness the monocoque never had, so the last column
+is a mass comparison between walls of increasing capability rather than a like-for-like saving.
+**A real tank takes the thicker core for reasons this comparison does not price**, namely local buckling of
+the facesheets between cells, damage tolerance, handling stiffness and the insulating value of the core
+itself.
+
+| Core thickness | Facesheets | Core | Total | Mass against the monocoque | Core share |
+|---|---|---|---|---|---|
+| 2.99 mm, equal stiffness | 3.14 | 0.19 | 3.33 | 1.72 times lighter | 5.7% |
+| 5 mm | 3.14 | 0.32 | 3.46 | 1.66 times lighter | 9.2% |
+| 10 mm | 3.14 | 0.64 | 3.78 | 1.52 times lighter | 16.9% |
+| 20 mm | 3.14 | 1.28 | 4.42 | 1.30 times lighter | 29.0% |
+| 30 mm | 3.14 | 1.92 | 5.06 | 1.13 times lighter | 37.9% |
+| 50 mm | 3.14 | 3.20 | 6.34 | 0.91, meaning heavier | 50.5% |
+
+**At equal stiffness the sandwich is 1.72 times lighter and its core is 5.7 percent of the wall.** At a
+thirty millimetre core it is only 1.13 times lighter and the core has become 37.9 percent of the wall mass
+while carrying no membrane load at all. Setting the sandwich mass equal to the monocoque mass and solving
+for the core thickness gives
+
+$$h_{\text{break}} = \frac{\rho_w t_{\text{buckling}} - 2 \rho_w t_f}{\rho_c} = 40.6 \ \text{mm}$$
+
+**Beyond about forty millimetres of core the sandwich weighs more than the solid wall it replaced**, while
+being far stiffer than that wall needed to be.
+
+**The saving is real and it is narrower than the architecture's reputation suggests, and the reason is the minimum gauge above.**
+A sandwich whose facesheets cannot be made thin enough to exploit the separation is paying for two skins and
+a core to do the work that one skin and a thin core would do.
+**The architecture is right and it is not free**, and the part of it that is not free is the part that ends
+this article.
+
+**The failure mode a sandwich is normally checked against is not the one that occurred**, and it is worth
+showing that it was not close. Face wrinkling, the local instability of a facesheet on an elastic
+foundation, occurs near
+
+$$\sigma_{wr} = 0.5 \left(E_f E_c G_c\right)^{1/3} = 559.3 \ \text{MPa}$$
+
+against a laminate allowable of 450, **a margin of 1.24.** The tank did not fail in any mode the stress
+analysis owned.
+
+**The sandwich bending stiffness, the wrinkling correlation and the minimum-gauge argument are likewise standard**,
+and belong to the sandwich structures literature rather than to this article.
+
+- [WRINKLING OF THE FACINGS OF SANDWICH CONSTRUCTION SUBJECTED...][research_norris_boller_1953]
+- [BUCKLING OF CYLINDERS OF SANDWICH CONSTRUCTION IN AXIAL...][research_march_kuenzi_1957]
+- [Honeycomb Sandwich Construction for Supersonic Aircraft][research_noton_1957]
+- [practical design suggestions for users of Brazed Honeycomb...][research_rechlin_1959]
+- [HEAT TRANSFER IN HONEYCOMB SANDWICH PANELS][research_clifton_1961]
+- [Stability of Honeycomb Sandwich Cylinders][research_kiciman_konishi_1961]
+- [Honeycomb sandwich production techniques][research_treloar_1962]
+- [EXPERIMENTAL CONFIRMATION OF THERMO-ELASTIC EQUATIONS FOR...][research_ebcioglu_roberson_1963]
+- [Lightweight Reinforced Plastic Faced Sandwich Construction][research_phelps_1963]
+- [QUARTZ LAMP RADIANT HEAT BRAZING OF LARGE REFRACTORY METAL...][research_hugill_gaiennie_1963]
+- [TESTS OF RING-STIFFENED AND SANDWICH COMPOSITE CYLINDERS...][research_krenzke_kiernan_1963]
+- [569. Thin oxide film sandwich structure photo cell][research_569_thin_1964]
+- [896. Thin oxide film sandwich structure photocell][research_896_thin_1964]
+- [An analytical model for predicting thermal response in...][research_gonzalez_1964]
+- [RESEARCH IN THE FIELD OF FIBERGLASSREINFORCED SANDWICH...][research_nordby_noyes_1964]
+- [Thin oxide film sandwich structure photocell][research_thin_oxide_1964_b]
+- [Thin oxide films sandwich structure photocell][research_thin_oxide_1964]
+- [STRENGTH PROPERTIES AND RELATIONSHIPS ASSOCIATED WITH VARIOUS...][research_nordby_crisman_1965]
+- [SUMMARY OF DATA AND DESIGN EVALUATION OF SANDWICH...][research_reynolds_1966]
+- [DIFFUSION BONDING OF TITANIUM SANDWICH STRUCTURE FOR SATURN...][research_huffman_laiacona_1967]
+
+#### The Mass That Is Still Unaccounted
+
+**Summing the wall over the tank's surface gives a build-up that can be checked against the article that was built.**
+Taking the barrel skin over the outer contour, the web over its own height, and end closures at 1.4 times
+the flat cross-section, the sheet area of one tank is
+
+$$s \, L + h_{\text{web}} L + 2 \times 1.4 \, A = 245.50 \ \text{m}^2$$
+
+and at the thirty millimetre sandwich the wall mass is
+
+$$5.06 \times 245.50 = 1{,}242.2 \ \text{kg}$$
+
+**The wall comes to 1,242.2 kilograms against a built tank of 2,086.5, so the build-up explains 59.5 percent and leaves 844.3 kilograms unaccounted.**
+
+**The shortfall is the result rather than a failure of the build-up.** What is missing is exactly the list
+the identity pointed at and this article has not costed, namely the joints between the three major
+subassemblies, the longerons, the local reinforcement at every penetration and fitting, and the doublers a
+lobe junction needs to carry bending into its web.
+**The membrane model saw none of it. This build-up sees a little over half of what the membrane model missed, and the remainder is the shape.**
+
+**Four relations in this section are constructions of this article rather than citable results, and saying which is better than citing something adjacent and calling it attribution.**
+They are the web tension as pressure times the separation of the lobe centres, the identity that the
+retained arc times the radius plus the web height times the separation equals twice the enclosed area, the
+inversion of that geometry for the line load at which stability overtakes pressure, and the mass build-up
+against the article that was built.
+**The first two are elementary once written down, the third is arithmetic on the first, and the fourth is bookkeeping.**
+None of them is novel physics and none of them has a source, because none of them needs one.
 
 **And a sandwich has a core, and the core is a cellular void, and on this tank it was unvented.** That is
-the last link in the chain, and the next section is about what a sealed void does when it sits against
-liquid hydrogen at twenty kelvin and is then allowed to warm up.
+the last link in the chain. Buckling forced the sandwich, the sandwich brought the core, and the core is
+what sat against liquid hydrogen at twenty kelvin and was then allowed to warm up.
+**The section on what an unvented core does is the end of an argument that begins with the decision to land on a runway.**
 
 ## The Vehicle
 
@@ -762,8 +980,11 @@ hydrogen and the laminate, so the laminate itself is the pressure boundary and t
 flight loads as well as the internal pressure, which is what drives the wall to a sandwich and the core to a
 substantial thickness.
 
-The tanks together weigh 9,200 pounds against a burnout mass of 75,000.
-**One subsystem holding one seventh of the propellant by mass accounts for 12.3 percent of everything the vehicle has left at burnout.**
+The tanks together weigh 9,200 pounds against a burnout mass of 75,000, so
+
+$$\frac{9{,}200}{75{,}000} = 0.1227$$
+
+**One subsystem holding one seventh of the propellant by mass accounts for 12.27 percent of everything the vehicle has left at burnout.**
 
 - [Transient Two-Phase Flow Oscillations During and After Sudden...][research_akyuzlu_1995]
 - [Acoustic Emission Monitoring of the DC-XA Composite Liquid...][research_wilkersonc_1996]
@@ -979,9 +1200,31 @@ Two engines, each rated at 204,000 pounds force at sea level and 266,000 in vacu
 of 339 seconds at sea level and 439 in vacuum, a chamber pressure of 840 pounds per square inch and an
 equivalent area ratio of 58.
 
-**The case for altitude compensation is quantitative and this section makes it.** A conventional bell nozzle
-has a fixed exit area, so its exit pressure is fixed by the chamber conditions and it is correctly expanded
-at exactly one altitude.
+**The case for altitude compensation is quantitative and this section makes it.** Thrust is the momentum
+flux of the exhaust plus a pressure term acting over the exit area,
+
+$$F = \dot{m} v_e + \left(p_e - p_a\right) A_e$$
+
+**and the second term is the whole of the altitude problem**, because it is the only part that depends on
+where the engine is. Normalising by chamber pressure and throat area gives the thrust coefficient,
+
+$$C_F = \frac{F}{p_c A_t}$$
+
+while everything upstream of the throat collects into the characteristic velocity,
+
+$$c^{\ast} = \frac{p_c A_t}{\dot{m}}$$
+
+so that specific impulse factors into a chamber term and a nozzle term,
+
+$$I_{sp} = \frac{F}{\dot{m} g_0} = \frac{C_F \, c^{\ast}}{g_0}$$
+
+**That factorisation is why the comparison below can be made in thrust coefficients alone.** For one engine
+compared against itself at two ambient pressures the chamber is unchanged, so $c^{\ast}$ cancels exactly and
+
+$$\frac{I_{sp,\text{vac}}}{I_{sp,\text{SL}}} = \frac{C_{F,\text{vac}}}{C_{F,\text{SL}}}$$
+
+A conventional bell nozzle has a fixed exit area, so its exit pressure is fixed by the chamber conditions
+and it is correctly expanded at exactly one altitude.
 **Let $p_c$ be chamber pressure, $p_e$ exit pressure, $p_a$ ambient pressure, $\varepsilon$ the area ratio and $\gamma$ the ratio of specific heats.**
 The area ratio follows from the isentropic relations as
 
@@ -996,8 +1239,14 @@ equal one exactly at the critical pressure ratio, and it does so to machine prec
 
 **At an area ratio of 58 and a chamber pressure of 840 pounds per square inch, the exit pressure is 7.552 kilopascals**,
 which is 0.0745 of sea-level ambient. The usual criterion for attached flow puts the separation limit near
-an exit pressure of four tenths of ambient, so
-**a fixed bell of this area ratio is a factor of five inside the separation region and could not be run at sea level at all.**
+
+$$p_e \geq 0.4 \, p_a$$
+
+which at sea level is 40.53 kilopascals, so the nozzle sits
+
+$$\frac{0.4 \times 101{,}325}{7{,}552} = 5.37$$
+
+**times inside the separation region, and a fixed bell of this area ratio could not be run at sea level at all.**
 
 The comparison that matters takes three nozzles on the same chamber.
 
@@ -1189,6 +1438,27 @@ provenance rather than asserted, because the sources for it are secondary.
 If that report is accurate, then the entire rationale for the composite tank had evaporated, and it had
 evaporated for a reason that the identity derived above predicts.
 **The membrane model says the shape is free. The shape was not free. The difference is the joints.**
+
+**The metal tank does not get the trade for nothing, and the quantity that decides it is the same one that cracks the laminate.**
+A tank of length $L$ contracts on filling by
+
+$$\Delta L = \alpha \, \Delta T \, L$$
+
+and over the tank's 8.7 metres, cooling from room temperature to liquid hydrogen, the two materials differ
+by more than an order of magnitude.
+
+| Material | Expansion coefficient | Contraction over 8.7 metres |
+|---|---|---|
+| Graphite epoxy | $2 \times 10^{-6}$ per kelvin | 4.74 mm |
+| Aluminium | $23 \times 10^{-6}$ per kelvin | 54.57 mm |
+
+**The ratio is 11.5.** An aluminium tank moves more than five centimetres relative to everything mounted on
+it, which the attachments, the thermal protection and every line crossing the boundary must absorb.
+
+**So the property that makes the composite crack is the property that makes it stay still.** A near-zero
+expansion coefficient is why the fibres will not let the matrix contract, which is the microcracking derived
+above, **and it is also why the tank barely moves.** The metal tank does not solve the problem. It exchanges
+an internal problem for an external one.
 
 - [HYDROGEN EMBRITTLEMENT OF STEELS][research_brown_baldwin_1953]
 - [DELAYED FAILURE AND HYDROGEN EMBRITTLEMENT IN STEEL][research_frohmberg_barnett_1954]
@@ -1405,7 +1675,11 @@ At a mixture ratio of 5.5 the hydrogen load is 298,972 pounds.
 
 $$0.2683 \times 298{,}972 = 80{,}205 \ \text{lb}$$
 
-**which is 41.0 percent of the entire structural allowance for the whole vehicle.** The allowance is 195,683
+which as a share of the allowance is
+
+$$\frac{80{,}205}{195{,}683} = 0.410$$
+
+**or 41.0 percent of the entire structural allowance for the whole vehicle.** The allowance is 195,683
 pounds and the two hydrogen tanks account for 80,205 of it.
 
 **Forty-one percent, for the tanks alone.** The engines, the oxygen tank, the thermal protection, the
@@ -1415,7 +1689,17 @@ fifty-nine.
 **At the ideal membrane efficiency of 2.85 percent the same tanks would be 8,527 pounds, or 4.4 percent of the allowance**,
 which is comfortable. The distance between 4.4 and 41.0 is the entire technical content of the programme.
 
-**Inverting the question gives the requirement.**
+**Inverting the question gives the requirement.** Allowing the tanks a share $f$ of the structural allowance
+$m_{\text{dry}}$, the efficiency they must reach against a hydrogen load $m_{H_2}$ is
+
+$$\eta = \frac{f \, m_{\text{dry}}}{m_{H_2}}$$
+
+and the improvement demanded over what was demonstrated is $\eta_{\text{X-33}} / \eta$. At fifteen percent
+of the allowance,
+
+$$\eta = \frac{0.15 \times 195{,}683}{298{,}972} = 0.0982$$
+
+$$\frac{0.2683}{0.0982} = 2.73$$
 
 | Share of the structural allowance | Required tank efficiency | Improvement over the X-33 tank |
 |---|---|---|
@@ -1623,8 +1907,12 @@ proportionally. The consistency check below is the only defence available and it
 **Three figures published separately, and never on the same page, can be checked against one another.** The
 tank capacity, the propellant load and the engine mixture ratio imply a fill fraction. The hydrogen load
 implied by 210,000 pounds of propellant at a mixture ratio of 5.5 is 14,655 kilograms, which occupies 206.85
-cubic metres, against a total tank capacity of 219.55. **The implied fill is 94.2 percent**, which is what a
-cryogenic tank actually carries once ullage is allowed for.
+cubic metres, against a total tank capacity of 219.55, so
+
+$$\frac{206.85}{219.55} = 0.942$$
+
+**The implied fill is 94.2 percent**, which is what a cryogenic tank actually carries once ullage is allowed
+for.
 
 **Had the fill come out above unity, or below three quarters, one of the three published numbers would have been wrong.**
 It did not, so the tank mass figure that carries the verdict sits inside a set of numbers that are mutually

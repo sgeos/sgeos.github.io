@@ -9,12 +9,122 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A330, the Lockheed Martin X-33, drafted. **The draft pass only.** Committed, **not pushed**,
-**not published.**
+**Task**: A330 equation-density review, the second of four passes. Committed, **not pushed**, **not
+published.**
 
-**State after the draft pass: 17,379 lines, 51 display equations, 5,392 reference definitions, 92,916
-words**, with all 5,332 master records cited and none left over. Thirty-four of seventy-two drafted,
-all still in `_drafts/`.
+**51 display equations to 90 across 15 edits**, 17,379 to 17,667 lines and 92,916 to 95,132 words.
+References unchanged at 5,392 definitions and all 5,332 master records cited.
+
+---
+
+## The Review Found the Gap the Article Had Dug for Itself
+
+**The draft proved that the membrane model prices conformality at exactly nothing, then asserted
+that the real cost lives in bending, buckling, minimum gauge and joints, and computed none of them.**
+That assertion is the hinge of the whole article and it was carrying no arithmetic at all. A new
+subsection now prices what can be priced and reports what cannot.
+
+**BUCKLING GOVERNS, AND THE ARTICLE REACHES THAT BY INVERSION RATHER THAN BY ESTIMATING A LOAD.**
+Setting the buckling thickness equal to the membrane thickness and solving for the compressive line
+load gives a threshold of **7.54 kilonewtons per metre**. Thrust alone, ignoring inertia,
+aerodynamic bending and every ground-handling case, gives **52.7, which is 7.0 times the
+threshold.** The conclusion needs the load to clear a bar, not to be known.
+
+**THE FIRST VERSION OF THAT SECTION WAS WRONG IN THE ARTICLE'S FAVOUR AND THE CORRECTION IS IN THE
+TEXT.** Internal pressure stabilises a shell, which I had omitted. Including it raises the effective
+knockdown from 0.2 to 0.429 and cuts the ratio of buckling thickness to membrane thickness from 2.64
+to **1.80**. **The conclusion survives its own correction**, and at a knockdown of one, meaning a
+perfect shell, buckling still asks for 1.635 millimetres against 1.384.
+
+**THE FACESHEETS ARE GOVERNED BY MINIMUM GAUGE, WHICH IS A COST NO STRESS CALCULATION CAN SEE.** A
+sandwich splits the membrane load between two sheets, so each needs 0.692 millimetres against a
+minimum manufacturable 1.000. **Material is carried that no load calls for, and nothing is
+overstressed, so nothing objects.**
+
+---
+
+## A Result That Cuts Against the Architecture
+
+**The sandwich saving is narrower than its reputation and I nearly published a table that overstated
+it.** Only the row at the core thickness giving equal stiffness is a like-for-like comparison. There
+the sandwich is **1.72 times lighter** with the core at 5.7 percent of the wall. At a thirty
+millimetre core it is only **1.13 times lighter** and the core has become **37.9 percent of the wall
+mass while carrying no membrane load at all**, and beyond **40.6 millimetres the sandwich weighs more
+than the solid wall it replaced.**
+
+**The table now says which row compares equals and which do not**, and names the reasons a real tank
+takes the thicker core anyway, being local buckling between cells, damage tolerance, handling and the
+insulating value of the core.
+
+**Face wrinkling, the mode a sandwich is normally checked against, has a margin of 1.24 and was not
+close.** The tank did not fail in any mode the stress analysis owned.
+
+---
+
+## The Mass Build-Up Does Not Close, and That Is the Finding
+
+**Summing the sandwich wall over the tank's surface gives 1,242.2 kilograms against a built tank of
+2,086.5, so the build-up explains 59.5 percent and leaves 844.3 kilograms unaccounted.**
+
+**What is missing is exactly the list the identity pointed at**, being the joints between three major
+subassemblies, the longerons, the local reinforcement at every penetration, and the doublers a lobe
+junction needs to carry bending into its web. **The membrane model saw none of it. This build-up sees
+a little over half of what the membrane model missed, and the remainder is the shape.**
+
+---
+
+## Smaller Relations the Draft Used and Did Not Show
+
+**Where the velocity budget comes from.** Orbital speed at two hundred kilometres is **7,784.3 metres
+per second** from the centripetal balance, so the assumed 9,300 implies **1,515.7 metres per second**
+of gravity, drag and steering, which is **16.3 percent of the whole budget** rather than a rounding
+allowance.
+
+**Why a ratio of thrust coefficients is a ratio of specific impulses.** The draft compared thrust
+coefficients and reported the answer as a specific-impulse ratio without showing that the
+characteristic velocity cancels for one engine compared against itself. It now shows it.
+
+**Thermal contraction, which is the metal tank's version of the same property.** Over the tank's 8.7
+metres the composite moves **4.74 millimetres** and aluminium **54.57**, a ratio of **11.5**. **The
+property that makes the composite crack is the property that makes it stay still**, so the metal tank
+exchanges an internal problem for an external one rather than solving anything.
+
+Also displayed rather than asserted: the separation criterion and its factor of 5.37, the cost-target
+factor of ten, the 35.4 percent industry cost growth, the tanks at 12.27 percent of burnout mass, the
+94.2 percent tank fill, the 41.0 percent verdict step, and the required-efficiency inversion.
+
+---
+
+## Attribution, Stated Rather Than Faked
+
+**Four relations in the new section are this article's constructions and it now says so**, being the
+web tension, the lobe identity, the inversion for the threshold line load, and the mass build-up.
+**None is novel physics and none has a source, because none needs one.** The standard results, being
+the critical stress, the knockdown, the pressure-stabilisation term, the sandwich stiffness and the
+wrinkling correlation, are named as standard and their literature now sits beside them rather than
+several hundred lines away.
+
+**Uncited displayed equations fell from 44 to 41** and the remainder are the steps of derivations
+whose opening relation is cited, which is the same disposition A329 reached.
+
+---
+
+## Verification
+
+`verify.py` reports **104 of 104** with **18 agreements between independent routes**. The new work is
+checked by routes it did not use, namely the orbital speed against Kepler's period and against the
+centripetal identity, the threshold line load by scanning rather than by the closed form, the parity
+core thickness put forward through the stiffness relation, and the monotonicity of buckling thickness
+in the knockdown as a randomised property over twenty thousand trials.
+
+`check_any.py` passes. `_verify.py` holds the baseline at **0 errors and 21 warnings**. `test_lib.py`
+is **49 of 49**. The isolated build succeeds and **all 90 equations render as display blocks**, with
+zero split equations, zero wrapped inline spans, zero bold spans crossing a line and an even
+delimiter count.
+
+**Three values were absent from the text and are now stated in prose as well as in their displays**,
+because LaTeX comma spacing writes 7{,}784.3 and a text check cannot find it. That is the fourth
+article in which this has happened.
 
 ---
 
@@ -112,43 +222,6 @@ assemblers, which is outside a draft pass on A330. **Say the word and I will rep
 
 ---
 
-## What the Pass Measured
-
-| | Value |
-|---|---|
-| Lines | 17,379 |
-| Display equations | 51 |
-| Reference definitions | 5,392 |
-| Words | 92,916 |
-| Master records cited | 5,332 of 5,332, none left over |
-| Period through 2001 | 2,493, or 46.7 percent |
-| Contemporary, 2015 onward | 2,165, or 40.6 percent |
-
-**Both halves are healthy and both were measured after the harvest rather than before**, which is the
-rule A328 and A329 earned in opposite directions.
-
-**The citation sweep is clean.** All **616 NTRS fixed identifiers resolved**, **600 of 4,098 sampled
-journal DOIs** registered in the Crossref registry with author and year matching and **zero
-mismatches**, **160 of 619 sampled DTIC DOIs** likewise, all 7 books and all 19 curated URLs
-retrieved, and **zero search-endpoint citations**. **HARD FAILURES: 0.** Sample sizes are stated
-rather than hidden, because saying "sampled" without saying how many reads as full coverage.
-
-**Verification.** `verify.py` reports **63 of 63** with **13 agreements between independent routes**,
-reaching the rocket equation by integrating the mass flow, the lobe geometry by quadrature and chord
-summation, the nozzle area ratio by scanning and against the exact sonic condition, and the weight
-inversion by running it forward. `check_any.py` passes. `_verify.py` holds the baseline at **0 errors
-and 21 warnings**. `test_lib.py` is **49 of 49**. The isolated build succeeds with all thirty-four
-series articles staged as posts.
-
-**Three defects were caught before commit.** A prose parenthetical inside an inline arc-cosine, fixed
-by writing the argument as a fraction. A doubled word inside a verbatim citation title, being a
-report on an on-board experiment, which is correct English that a case-insensitive checker cannot
-accept, **so the record was dropped rather than the checker weakened**, which is the third instance in
-three articles. And an inline math span that reflow split across a line, moved into a display of its
-own.
-
----
-
 ## Open Concerns
 
 **The verdict rests on two reported figures**, a tank mass of 4,600 pounds and a capacity of 29,000
@@ -170,9 +243,8 @@ extracted. The article states the limit rather than writing around it.
 
 ## Awaiting Instruction
 
-**A330 has completed the draft pass only.** Thirty-four of seventy-two drafted, **none published**.
+**A330 has completed two of four passes.** Thirty-four of seventy-two drafted, **none published**.
 
-The next pass due is the **equation-density review**. Fifty-one equations is low for this series and
-I expect that review to find a good deal, particularly around the buckling and bending terms the
-identity promotes from background to keystone, **which the article currently names and does not
-compute.**
+The next pass due is the **primary-reference review**. The equation pass promoted buckling, sandwich
+mechanics and minimum gauge from background to keystone, **and that promotion has not yet reached the
+reference base**, which is the pattern that has held for eleven consecutive articles.
