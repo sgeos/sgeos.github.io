@@ -52,6 +52,44 @@ publication review verified punctuation and reported prose style clean on the wo
 The measurement method and the remediation history are in the 2026-08-05 entry of
 [TASKLOG](../process/TASKLOG.md).
 
+### How to measure it
+
+`_verify.py` flags any watched word above 5.0 uses per thousand author prose words. **A rate alone
+cannot tell a term of art from a tic**, and acting on the rate alone would delete `specific impulse`
+from five rocketry articles. The discriminator is the neighbouring words.
+
+```sh
+python3 _lib/diction.py collocate specific _posts/<file>.markdown   # evidence for one word
+python3 _lib/diction.py outliers  _drafts/<file>.markdown           # words above the peer maximum
+python3 _lib/diction.py tics      _drafts/<file>.markdown           # the enumerated tic class
+python3 _lib/diction.py report    _drafts/<file>.markdown           # multi-word constructions
+```
+
+**Direction depends on part of speech and getting it backwards inverts the answer.** A noun forms its
+compound with the word BEFORE it, so `configuration` is judged by `capability configuration`. An
+adjective forms it with the word AFTER, so `specific` is judged by `specific impulse`. `collocate`
+prints both directions for this reason. Reading only one direction once produced a recommendation to
+rewrite four published articles that did not need it.
+
+**A word above the peer maximum is usually the subject rather than a tic.** No peer article wrote
+about coroutines, so `suspension` exceeds every peer and means nothing. The `tics` mode exists because
+the tic class has to be enumerated in advance. A relative check discovers subjects, not tics.
+
+**Signatures worth knowing.**
+
+| Observation | Reading |
+|---|---|
+| One collocate accounts for most uses, as `specific impulse` at 86 percent | Term of art. Exempt it |
+| Many different content-word modifiers, as `capability configuration` and `vehicle configuration` | Term of art used across distinct referents. Exempt it |
+| Neighbours are determiners and verbs, as `a substantial` and `achieved substantial` | Vague quantifier. Fix it |
+| The word is the article's own subject and the bare uses have a named antecedent | Ordinary anaphora. Exempt it |
+
+**A warning is not a verdict and must be resolved either way.** `_verify_exemptions.yml` records every
+false positive with a measured reason, because an unactioned warning becomes noise and noise is how
+the original `specific` problem stayed invisible for months. Warnings carry their top collocate inline
+so they can be triaged without rerunning anything.
+
+
 ## Code Conventions
 
 - Use triple-backtick markdown fences with a language specifier for all code blocks.

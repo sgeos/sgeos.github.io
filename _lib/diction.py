@@ -233,8 +233,13 @@ not only also very quite rather one two both either neither
 """.split())
 
 
-def collocations(text, word, limit=10):
+def collocations(text, word, limit=10, already_prose=False):
     """Words immediately before and after each occurrence, in author prose only.
+
+    Pass `already_prose=True` when the caller has done its own prose extraction. A count and a
+    share drawn from two different extractions do not agree, and a warning reading
+    "`specific` 59x ... top collocate `specific impulse` 57x = 86%" contradicts its own
+    arithmetic, because 57 of 59 is 97 percent. The 86 came from this module counting 66.
 
     Returns (total, before, after, stats) where before and after are lists of
     (collocate, count) sorted by count, and stats carries the concentration figures a
@@ -243,7 +248,8 @@ def collocations(text, word, limit=10):
     Reference link text is excluded, because a bibliography is other people's words and in a
     citation-heavy article it swamps the author's.
     """
-    tokens = [t.lower() for t in re.findall(r"[A-Za-z][A-Za-z'-]*", prose(text))]
+    body = text if already_prose else prose(text)
+    tokens = [t.lower() for t in re.findall(r"[A-Za-z][A-Za-z'-]*", body)]
     target = word.lower()
     before, after = collections.Counter(), collections.Counter()
     total = 0
@@ -277,13 +283,13 @@ def collocations(text, word, limit=10):
     return total, before.most_common(limit), after.most_common(limit), stats
 
 
-def top_collocate(text, word):
+def top_collocate(text, word, already_prose=False):
     """The single most frequent neighbouring word and its share, either direction.
 
     Intended for a one-line annotation on a frequency warning, so that the warning carries
     the evidence needed to triage it instead of only a count.
     """
-    total, _before, _after, _stats = collocations(text, word)
+    total, _before, _after, _stats = collocations(text, word, already_prose=already_prose)
     if not total:
         return "", 0, 0.0, ""
     # A FUNCTION WORD IS NOT EVIDENCE. "configuration the" is the most frequent pair in one
@@ -412,9 +418,43 @@ def _main(argv):
     if len(argv) >= 3 and argv[1] == "report":
         report(argv[2], argv[3] if len(argv) > 3 else None)
         return 0
+    if len(argv) >= 3 and argv[1] in ("outliers", "tics"):
+        path = argv[2]
+        peer_glob = argv[3] if len(argv) > 3 else os.path.join(
+            os.path.dirname(os.path.abspath(path)) or ".", "*.markdown")
+        peers = [open(q, encoding="utf-8").read()
+                 for q in _glob.glob(peer_glob)
+                 if os.path.abspath(q) != os.path.abspath(path)]
+        text = open(path, encoding="utf-8").read()
+        vocab = TICS if argv[1] == "tics" else None
+        rows, peer_n = word_outliers(text, peers, vocabulary=vocab,
+                                     min_count=1 if argv[1] == "tics" else 6)
+        n = len(words(prose(text)))
+        print(f"{os.path.basename(path)}: {n:,} author prose words against {peer_n} peers")
+        if argv[1] == "tics":
+            print("  the tic class is enumerated, not discovered, because a relative check "
+                  "cannot separate a tic from a subject")
+        print(f"  {'word':22s}{'n':>5}{'rate':>8}{'median':>9}{'peermax':>9}{'x max':>8}  peers")
+        shown = 0
+        for ratio, w, k, rate, med, mx, used in rows:
+            over = ratio is None or ratio > 1.0
+            if not over and shown >= 25:
+                break
+            shown += 1
+            rr = "never" if ratio is None else f"{ratio:.2f}"
+            flag = "  <== OVER PEER MAX" if over else ""
+            print(f"  {w:22s}{k:5d}{rate:8.2f}{med:9.2f}{mx:9.2f}{rr:>8}  {used:3d}{flag}")
+        over_n = sum(1 for r in rows if r[0] is None or r[0] > 1.0)
+        print(f"  {over_n} word(s) at or above the peer maximum")
+        print("  A WORD ABOVE THE PEER MAXIMUM IS USUALLY THE SUBJECT, NOT A TIC. Check the "
+              "collocations before acting:")
+        print("    python3 _lib/diction.py collocate <word> <path>")
+        return 0
     print("usage:\n"
-          "  python3 _lib/diction.py collocate <word> <path>...   evidence for one word\n"
-          "  python3 _lib/diction.py report <path> [peer-glob]    constructions vs peers")
+          "  python3 _lib/diction.py collocate <word> <path>...     evidence for one word\n"
+          "  python3 _lib/diction.py report <path> [peer-glob]      constructions vs peers\n"
+          "  python3 _lib/diction.py outliers <path> [peer-glob]    words above the peer max\n"
+          "  python3 _lib/diction.py tics <path> [peer-glob]        the enumerated tic class")
     return 2
 
 

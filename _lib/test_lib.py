@@ -18,6 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import diction
 import edits
+import gate
 import lint
 import refs
 import reflow
@@ -786,6 +787,118 @@ def t_word_outliers_counts_a_silent_peer_as_a_zero():
     assert rows2[0][6] == 1, rows2[0]
     assert rows2[0][5] > 0, rows2[0]         # a peer maximum now exists
     assert rows2[0][0] > 1.0, rows2[0]       # and this article exceeds it
+
+
+
+
+def _load_verify():
+    """Load `_verify.py` by path. It sits at the repository root and is not importable."""
+    import importlib.util
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    spec = importlib.util.spec_from_file_location("_verify_under_test",
+                                                  os.path.join(root, "_verify.py"))
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def t_category_slug_collision_is_detectable():
+    """TWO CATEGORIES THAT SLUGIFY TO ONE PATH SILENTLY DESTROY A PAGE.
+
+    `c` and `c++` both slugify to `c`, so jekyll-archives wrote /categories/c/index.html
+    twice, one archive overwrote the other, and /categories/cpp/ returned 404 on the live site
+    for as long as both categories existed. The build said only "Conflict" among a screen of
+    Sass deprecations. The remedy is not free either, because the default permalink joins
+    every category, so renaming one moves the post and needs a redirect.
+    """
+    v = _load_verify()
+    assert v.category_slug("c++") == "c", v.category_slug("c++")
+    assert v.category_slug("c") == "c"
+    assert v.category_slug("c#") == "c"
+    assert v.category_slug("node.js") == "node-js"
+    assert v.category_slug("no_std") == "no-std"
+    # the collision is exactly an equality of slugs across distinct names
+    assert v.category_slug("c++") == v.category_slug("c")
+    assert v.category_slug("rust") != v.category_slug("c")
+
+
+def t_post_categories_reads_both_front_matter_forms():
+    """A NAIVE SPLIT ON WHITESPACE MISREADS THE YAML LIST FORM.
+
+    Splitting `categories: [ai, crypto, philosophy]` on spaces yields `[ai,` and `philosophy]`,
+    which slugify to `ai` and `philosophy` and look exactly like a collision with the plain
+    forms. That artefact briefly appeared as sixteen collisions where the corpus had one.
+    """
+    v = _load_verify()
+    assert v.post_categories("categories: gamedev playdate c cpp lua") == [
+        "gamedev", "playdate", "c", "cpp", "lua"]
+    assert v.post_categories("categories: [ai, crypto, philosophy]") == [
+        "ai", "crypto", "philosophy"]
+    assert v.post_categories("title: no categories here\n") == []
+    # a quoted list entry keeps neither quote
+    assert v.post_categories('categories: ["ai-tools", \'rust\']') == ["ai-tools", "rust"]
+
+
+
+
+def t_gate_admits_on_a_strong_term_and_never_on_ambiguous_ones():
+    """A PILE OF AMBIGUOUS WORDS IS STILL AMBIGUOUS.
+
+    A370's second gate admitted generic stems, being analysis, implementation, generation,
+    evaluation, system, model, performance and interface. Every discipline that publishes uses
+    those, so the harvest took in rabies control, seismic depth imaging, veterinary breeding
+    soundness examination and fibre art, and the larger count read as thoroughness.
+    """
+    g = gate.Gate([r"compiler|bytecode|coroutine"], name="test")
+    assert g.admits("A verified compiler backend")
+    assert not g.admits("Rabies control in urban settings")
+    # four ambiguous terms and no subject term must still be refused
+    noise = "A systematic analysis and evaluation of implementation performance"
+    assert not g.admits(noise), noise
+
+
+def t_gate_explains_a_drop_that_carries_ambiguous_terms():
+    """A GATE WRITTEN FOR THE WRONG SUBJECT IS INVISIBLE IN EVERY SUMMARY STATISTIC.
+
+    A333 inherited an aeronautics gate and rejected 2,174 compiler-science titles for
+    containing no aircraft. That reports a small corpus, which reads as a thin literature
+    rather than a bug. Naming the ambiguous terms at drop time is what makes it visible.
+    """
+    g = gate.Gate([r"aerofoil|fuselage"], name="wrong-subject")
+    why = g.explain("A systematic analysis and evaluation of implementation performance")
+    assert why is not None and "ambiguous" in why, why
+    assert g.explain("Fuselage loads in transonic flight") is None
+    # a genuinely off-subject title carrying no ambiguous vocabulary reports the plain reason
+    assert g.explain("Rabies control") == "no subject anchor"
+
+
+def t_gate_audit_samples_both_sides_reproducibly():
+    """ONE SIDE OF THE SAMPLE CANNOT DETECT BOTH FAILURES.
+
+    Reading kept records detects a permissive gate. Reading dropped records detects a narrow
+    one. The seed is required so a reviewer can reproduce exactly what was read.
+    """
+    import contextlib
+    import io
+
+    kept = [{"title": f"compiler paper {i}"} for i in range(50)]
+    dropped = [({"title": f"other paper {i}"}, "no subject anchor") for i in range(50)]
+
+    # `audit` always prints, because printing is the point of it. Stdout is captured HERE
+    # rather than given a quiet flag, since a quiet flag is exactly the thing a future caller
+    # would reach for to skip the reading the function exists to force.
+    def quiet(*a, **kw):
+        with contextlib.redirect_stdout(io.StringIO()):
+            return gate.audit(*a, **kw)
+
+    ks1, ds1 = quiet(kept, dropped, seed=7, n=5)
+    ks2, ds2 = quiet(kept, dropped, seed=7, n=5)
+    assert [r["title"] for r in ks1] == [r["title"] for r in ks2], "sample is not reproducible"
+    assert [r["title"] for r, _ in ds1] == [r["title"] for r, _ in ds2]
+    assert len(ks1) == 5 and len(ds1) == 5
+    # a different seed must actually draw a different sample
+    ks3, _ = quiet(kept, dropped, seed=8, n=5)
+    assert [r["title"] for r in ks3] != [r["title"] for r in ks1]
 
 
 

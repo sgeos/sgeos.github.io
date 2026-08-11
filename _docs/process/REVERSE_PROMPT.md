@@ -9,120 +9,102 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-11
-**Task**: Corpus word-usage triage, tooling promotion, and housekeeping.
-
-**`_verify.py` now reports 0 errors and 0 warnings.** The baseline for this whole session was 0 errors
-and 21 warnings, and it had never been zero before.
+**Task**: Close the follow-up concerns from the word-usage and housekeeping work. **Committed and
+pushed.** Two of the five were defects I had introduced hours earlier.
 
 ---
 
-## Only One Article Needed Rewriting, And My Earlier Recommendation Was Wrong
+## The Two I Broke
 
-**I previously recommended rewriting four live SpaceX history articles for `configuration`. That
-recommendation was wrong and I withdrew it after measuring properly.**
+**The collocation annotation contradicted its own arithmetic.** The warning read `` `specific` 59x ...
+top collocate `specific impulse` 57x = 86% ``, and 57 of 59 is 97 percent, not 86. The count came from
+`_verify.py`'s prose extraction and the share from `_lib/diction.py`'s, which disagree by 59 against 66
+on that file. `collocations` and `top_collocate` now take `already_prose`, and the verifier passes its
+own extracted body, so **one body of text produces both numbers**. Verified consistent across all five
+propellant articles by lifting the exemption and reading the output.
 
-The error was direction. For a noun the compound is formed by the word BEFORE it, and I had read the word
-after. Measured correctly, the modified share is **98 percent in value_capture, 99 percent in
-decomposability, 79 percent in generality_forcing and 62 percent in governance**, led by "capability
-configuration" at 39 uses and "decomposability configuration" at 25. Those name distinct configurations the
-series analyses. **The determiner-led residue is ordinary anaphora with a named antecedent.**
-
-**The one genuine tic was `substantial`** in the hardware description languages article, at 29 uses and
-10.6 per thousand. It is an adjective that never forms a compound, and it was imprecise in an article that
-elsewhere quotes percentages. It now stands at **6 uses and 2.20 per thousand**, with 23 replacements
-varied across nine different words so that one vague quantifier did not become another. No replacement
-exceeds 1.10 per thousand.
-
-**Nine warnings were term-of-art false positives** and are now recorded in `_verify_exemptions.yml` with a
-measured modifier split each, per that file's rule that a reason is an auditable claim.
+**The `redirects/` mechanism lived only in files that get overwritten.** It is now in `CLAUDE.md` under
+Architecture, with the rule that an entry is needed whenever a published post's URL changes.
 
 ---
 
-## The Tooling Now Carries The Discriminator, And It Refuses To Give A Verdict
+## Two Checks Now Exist Because The Defect Shipped
 
-`_lib/diction.py` gains `collocations`, `top_collocate`, `word_rates`, `word_outliers`, `TICS` and a
-`collocation_report`, plus a command line.
+**`category-slug-collision` is a new `_verify.py` error.** Two categories that slugify to one path
+destroy an archive page, which is what `c` and `c++` did while `/categories/cpp/` returned 404 live.
+**It is an error rather than a warning because the remedy is not free.** The default permalink joins
+every category, so fixing a collision after the category ships moves the post URL and needs a redirect.
+Catching it beforehand avoids that entirely. Proven to fire by reintroducing `c++` and reading the
+output, then restored.
+
+**The permalink rule is in `CLAUDE.md`.** It previously documented only that the FIRST category shadows
+a URL path, which is the note that made me confident the rename was safe. It now states that every
+category appears in the URL, with the 2026-08-11 breakage as the reason.
+
+---
+
+## The Harvest Gate Is Shared And The Sampling Is Now The Return Protocol
+
+`_lib/gate.py` carries `Gate`, `select` and `audit`, with the two failures written into the module
+docstring.
+
+**The point of the module is `audit`, which samples BOTH sides.** Reading kept records catches a
+permissive gate. Reading dropped records catches a narrow one. One side cannot catch both, and no
+summary statistic catches either, since a narrow gate reports a small corpus that reads as a thin
+literature and a permissive gate reports a large corpus that reads as thoroughness.
+
+**`audit` requires a `seed` and has no default**, so a reviewer can reproduce exactly what was read.
+**It always prints**, and the test suite captures stdout rather than being given a quiet flag, because
+a quiet flag is precisely what a future caller would reach for to skip the reading the function exists
+to force.
+
+`explain` also names the ambiguous terms in a dropped title, which is the signature of a gate written
+for the wrong subject and is what would have made the A333 failure visible at drop time.
+
+---
+
+## The Instruments Are Runnable And The Method Is Documented
 
 ```sh
-python3 _lib/diction.py collocate substantial _posts/<file>.markdown
-python3 _lib/diction.py report _drafts/<file>.markdown '_posts/*.markdown'
+python3 _lib/diction.py collocate <word> <path>     evidence for one word, both directions
+python3 _lib/diction.py outliers  <path> [glob]     words above the peer maximum
+python3 _lib/diction.py tics      <path> [glob]     the enumerated tic class
+python3 _lib/diction.py report    <path> [glob]     multi-word constructions
 ```
 
-**`_verify.py` word-frequency warnings now carry their own evidence**, so a reader can triage without
-rerunning anything.
+`outliers` and `tics` were library functions nothing called. **Both print the caveat that a word above
+the peer maximum is usually the subject rather than a tic**, and point at `collocate`.
 
-```
-`specific` 59x = 15.6/1k (limit 5.0, top collocate `specific impulse` 57x = 86%)
-```
-
-**The tool reports and deliberately does not classify.** An automatic verdict would need to know that
-"achieved substantial" is a verb followed by an adjective while "capability configuration" is a compound
-noun, which is a part-of-speech judgement with no tagger behind it. A wrong verdict would license deleting
-a term of art from a published article, so the human still writes the reason.
-
-`_lib/test_lib.py` goes from **54 to 58 tests**, covering the term-of-art discriminator, the function-word
-skip, the both-directions requirement, and the silent-peer-counts-as-zero rule.
-
----
-
-## I Applied Two Fixes To The Wrong Directory And Caught It Afterwards
-
-**The Bash working directory persists between commands, and I had left it inside a throwaway build copy.**
-The eight draft date changes and the category rename were written into `tmp/dbuild`, verified there, and
-then deleted with it. The "0 errors, 0 warnings" I first observed was measured against that copy.
-
-The diagnosis and the fixes were correct. They were re-applied to the real repository with absolute paths
-and re-verified. **The lesson is that a `cd` into a scratch tree is sticky and a later edit will silently
-land there**, and that git status is what catches it.
-
----
-
-## Housekeeping, All Four Done
-
-**The `--drafts` build was broken repository-wide and now is not.** `_drafts/draft_summary.md` carried a
-bare `{% post_url %}` with no argument in prose about converting forward references. Jekyll parsed it as a
-real tag, so every drafts build failed, including `DRAFTS=1 ./_preview.sh`. It is now inside a `raw` block.
-**This is a separate cause from the unresolved-cross-reference policy `CLAUDE.md` describes.**
-
-**Eight drafts were dated on days already used by published posts.** No published date in the corpus carries
-two posts, so one article per day is a hard convention and these eight would have violated it at
-publication. They are moved to the eight consecutive free days from **2026-08-12 to 2026-08-19**, order
-preserved, all forward-dated so nothing back-dates into an occupied calendar. **The specific dates are
-arbitrary and easy to change if they cut across your editorial plan.**
-
-**The `categories/c` build conflict was a real defect that was losing a page.** `c` and `c++` both slugify
-to `c`, so `jekyll-archives` wrote `/categories/c/index.html` twice and one archive silently overwrote the
-other. `/categories/cpp/` returned 404 on the live site. The category is renamed to `cpp` in the two posts
-that carry it, and both archives now generate, with 4 posts under `c` and 2 under `cpp`.
-
-**I said this would not change any post URL and I was wrong, so it broke two live pages.** Jekyll's default
-permalink joins **every** category, not only the first, so renaming a category anywhere in the list moves
-the post. Confirmed by rebuilding the previous revision, the 2022 addresses were
-`/gamedev/playdate/c/c++/lua/...` and `/rust/c/c++/asm/...`, and both returned 404 after the push.
-
-**Both are restored by two static redirect pages under `redirects/`**, each pinned to the old address with
-an explicit `permalink`, carrying a canonical link and a meta refresh to the new one. This keeps the archive
-fix rather than trading one defect for another, needs no plugin and no Gemfile change, and the pages are
-marked `sitemap: false` so they do not enter the sitemap.
-
-**The announcement commit is pushed**, along with everything above.
+**`_docs/writing/STYLE_GUIDE.md` gains a How to measure it section**, carrying the commands, the
+direction rule, a signature table, and the reason a warning must be resolved either way. The method
+previously existed only as a pointer to a log entry.
 
 ---
 
 ## Verification
 
-- `python3 _verify.py` **0 errors, 0 warnings**, from the repository root.
-- `python3 _lib/test_lib.py` **58 of 58**.
-- **Isolated production build exit 0, no conflict**, and **isolated drafts build exit 0**.
-- Both category archives generate and A370 still builds.
+- `python3 _verify.py` **0 errors, 0 warnings**.
+- `python3 _lib/test_lib.py` **63 of 63**, up from 58. The six new tests cover the slug collision, the
+  two front-matter category forms, the strong-versus-ambiguous gate rule, the drop explanation, and
+  the reproducible two-sided sample.
+- **Isolated production build exit 0 with no conflict, isolated drafts build exit 0**, and both
+  redirect pages still generate.
 
 ---
 
-## Standing Work, Which I Have Not Started And Will Not Assume
+## Not Acted On, Deliberately
 
-**A334, the Boeing X-37**, is next in the X-Planes series at editorial date 2025-11-12, Part 38 of 72. It is
-a four-pass job and starts on your prompt.
+**`no_std` slugifies to `no-std`**, so `/categories/no-std/` returns 200 while `/categories/no_std/`
+returns 404. Post URLs keep the literal underscore. **Nothing is broken and nothing links to the
+missing path**, so this is recorded rather than changed. Renaming the category would move two post
+URLs and buy nothing.
 
-**The thirty-seven X-Planes drafts remain unpublished.** Publication has never been authorised for them, and
-I did not read the A370 authorisation as extending to them. Publishing thirty-seven articles is
-irreversible and outward-facing, so it needs its own instruction.
+---
+
+## Standing Work, Unchanged And Needing Your Instruction
+
+**A334, the Boeing X-37**, editorial date 2025-11-12, Part 38 of 72. A four-pass job that starts on
+your prompt.
+
+**The thirty-seven X-Planes drafts remain unpublished**, and publication has never been authorised for
+them. The eight redated drafts now sit at 2026-08-12 through 2026-08-19 and those dates are arbitrary.

@@ -70,3 +70,36 @@ Update the draft summary or the REVERSE_PROMPT to record the corrections applied
 - [Publication Review](./PUBLICATION_REVIEW.md) for the broader review pass
 - [URL Verification](./URL_VERIFICATION.md) for the URL-check step
 - [Common Errors](../reference/COMMON_ERRORS.md) for recurring factual traps
+
+
+## The Harvest Anchor Gate
+
+A harvested reference corpus is admitted by a subject-anchor gate. **Build the gate for the article's
+subject and never copy one from a previous article.** `_lib/gate.py` carries the shared machinery and
+the failure history.
+
+```python
+import gate
+g = gate.Gate([r"compiler|bytecode|coroutine|calling convention"], name="a370")
+kept, dropped = gate.select(records, g)
+gate.audit(kept, dropped, seed=20260811)     # READ THE OUTPUT. This is not optional.
+```
+
+**The same defect has shipped twice, in opposite directions, and neither was visible in any summary
+statistic.**
+
+- **A333** inherited an aeronautics gate and applied it to a compiler-science pool, rejecting 2,174
+  titles for containing no aircraft and rejecting the article's oldest primary source. A narrow gate
+  reports a small corpus, which reads as a thin literature rather than a bug.
+- **A370** rewrote the gate and overcorrected, admitting generic stems such as analysis,
+  implementation, generation and performance. It took in rabies control, seismic depth imaging,
+  veterinary breeding soundness examination and fibre art. A permissive gate reports a large corpus,
+  which reads as thoroughness.
+
+**Only reading a random sample detects either one.** Cluster distributions and drop-reason tables look
+plausible in both cases. `gate.audit` samples the kept side, which catches a permissive gate, and the
+dropped side, which catches a narrow one. Its `seed` argument is required so a reviewer can reproduce
+exactly what was read.
+
+**Re-run the metadata pass after any gate change.** Widening a gate after the detail pass leaves newly
+admitted records without metadata, so they never reach the master set and nothing reports an error.

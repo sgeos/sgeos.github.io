@@ -109,7 +109,9 @@ def collocation_hint(text, word):
         import diction
     except Exception:
         return "", 0, 0.0
-    _w, n, share, phrase = diction.top_collocate(text, word)
+    # The caller passes ITS OWN prose extraction, so the count in the warning and the share
+    # in the hint are drawn from one body of text and cannot disagree.
+    _w, n, share, phrase = diction.top_collocate(text, word, already_prose=True)
     return phrase, n, share
 
 
@@ -434,7 +436,7 @@ def check_post(path, text, rep, exemptions=None, is_draft=False):
                 # without rerunning anything. Reported, never acted on automatically.
                 hint = ""
                 try:
-                    phrase, pn, share = collocation_hint(text, w)
+                    phrase, pn, share = collocation_hint(body, w)
                     if pn:
                         hint = f", top collocate `{phrase}` {pn}x = {share * 100:.0f}%"
                 except Exception:
@@ -443,6 +445,23 @@ def check_post(path, text, rep, exemptions=None, is_draft=False):
                          f"{name}: `{w}` {n}x = {rate:.1f}/1k (limit {WORD_RATE_LIMIT}{hint})")
 
     return d
+
+
+
+def category_slug(name):
+    """Jekyll's default slugify, which is what `jekyll-archives` builds its path from."""
+    return re.sub(r"^-+|-+$", "", re.sub(r"[^a-z0-9]+", "-", str(name).lower()))
+
+
+def post_categories(front):
+    """Categories as a list, accepting both the space-separated and YAML-list forms."""
+    m = re.search(r"^categories:\s*(.*)$", front, re.M)
+    if not m:
+        return []
+    raw = m.group(1).strip()
+    if raw.startswith("["):
+        return [c.strip().strip("'\"") for c in raw.strip("[]").split(",") if c.strip()]
+    return raw.split()
 
 
 def main():
@@ -475,6 +494,27 @@ def main():
     for n, files in sorted(numbers.items()):
         if len(files) > 1:
             rep.error("article-number", f"{n} used by {len(files)} posts: {', '.join(files)}")
+
+    # TWO CATEGORIES THAT SLUGIFY TO ONE PATH SILENTLY DESTROY A PAGE. `c` and `c++` both
+    # slugify to `c`, so jekyll-archives wrote /categories/c/index.html twice, one archive
+    # overwrote the other, and /categories/cpp/ returned 404 on the live site for as long as
+    # both categories existed. The build emitted a Conflict line among the Sass deprecations
+    # and nothing else noticed. Fixed 2026-08-11 by renaming the category to `cpp`.
+    #
+    # THE REMEDY IS NOT FREE, WHICH IS WHY THIS IS AN ERROR RATHER THAN A WARNING. The default
+    # permalink joins EVERY category, so renaming one moves the post and needs a `redirects/`
+    # entry. Catching the collision before the category ships avoids that entirely.
+    slugs = collections.defaultdict(set)
+    for p in posts:
+        fm = front_matter(open(p, encoding="utf-8").read())
+        for c in post_categories(fm or ""):
+            slugs[category_slug(c)].add(c)
+    for slug, names in sorted(slugs.items()):
+        if len(names) > 1:
+            rep.error(
+                "category-slug-collision",
+                f"/categories/{slug}/ is claimed by {len(names)} categories: "
+                f"{', '.join(sorted(names))}. One archive will overwrite the other.")
 
     # Drafts: check what would break on publication, without failing the build.
     for p in sorted(glob.glob(os.path.join(DRAFTS, "*.markdown"))):
