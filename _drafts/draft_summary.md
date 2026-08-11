@@ -24,8 +24,18 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 **10,726 lines, 23 display equations, 3,327 reference definitions, 57,332 words after the draft
 pass.** **10,844 lines, 38 display equations, 3,327 reference definitions, 58,261 words after the
-equation review**, with all 3,270 master records cited and none left over. Committed, **not
-pushed**. **Not published.** The next pass due is the primary-reference review.
+equation review.** **14,023 lines, 38 display equations, 4,370 reference definitions, 74,372 words
+after the primary-reference review**, with all 4,313 master records cited and none left over.
+Committed, **not pushed**. **Not published.** The next and final pass is the publication review.
+
+**THE PROMOTION RULE FIRED AT ITS STARKEST ZERO COUNT YET.** Of the seventeen subjects the equations
+name, thirteen were thin and **six stood at literally zero**, including the heat transfer correlation
+the article displays and the effective heat of ablation it inverts for. Harvesting in the period's
+vocabulary added **991 period records and 223 from the report literature**. **Three subjects stay
+thin because they are headings nobody writes papers under**, the rocket equation and the ascent loss
+budget living in every textbook and no journal article, which is a kind of thinness invisible to a
+count. The contemporary count rose by nine while its fraction fell twelve points, which is the
+denominator moving rather than a loss.
 
 **THE EQUATION PASS TURNED AN ASSUMED TABLE INTO A BALANCE, AND THE BALANCE FAILS FORWARDS.** The
 Bartz correlation gives a throat heat flux of **10.41 megawatts per square metre**, which divided by

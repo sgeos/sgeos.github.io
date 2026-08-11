@@ -9,102 +9,99 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A331 equation-density review, the second of four passes. Committed, **not pushed**, **not
+**Task**: A331 primary-reference review, the third of four passes. Committed, **not pushed**, **not
 published.**
 
-**23 display equations to 38 across 7 edits**, 10,726 to 10,844 lines and 57,332 to 58,261 words.
-References unchanged at 3,327 definitions and all 3,270 master records cited.
+**References 3,327 to 4,370 definitions and 3,270 to 4,313 cited research records**, article 10,844
+to 14,023 lines and 58,261 to 74,372 words. Display equations unchanged at 38. **All 4,313 master
+records cited with none left over.**
 
 ---
 
-## The Review Found What the Draft Predicted for Itself
+## The Promotion Rule Fired at Its Starkest Zero Count Yet
 
-**The draft treated the ablative chamber's recession as an assumed rate swept across a table, and a
-recession rate is not an assumption.** It is the output of an energy balance whose inputs can be
-estimated, and running that balance turned the table into a result.
+**Twelfth article running, and this time six subjects the equations name stood at literally zero.**
+An audit of the seventeen subjects the article's relations actually use found thirteen thin on period
+coverage, and among the zeroes were **the convective heat transfer correlation the article displays
+and the effective heat of ablation it inverts for**, which is the central quantity of the entire
+ablation section.
 
-**The balance fails forwards, and the failure is the finding.** The Bartz correlation gives a throat
-heat flux of **10.41 megawatts per square metre**, and dividing by what silica phenolic can actually
-absorb, being 1.76 megajoules per kilogram of heating plus about 12 of vaporisation, predicts a
-recession of **0.445 millimetres per second, or 65.9 millimetres over the burn.** That is absurd. A
-throat losing that much would not survive.
+**The cause is the usual one.** The earlier harvests asked for ablative materials, low-cost engines
+and air launch. **Before the equation pass the article had no reason to ask for gas-side heat
+transfer coefficients, transpiration cooling or mass injection into a boundary layer.**
 
-**So invert it.** Chambers of this class recede at nearer a tenth of a millimetre per second, which
-implies an effective heat of ablation of **61.3 megajoules per kilogram against 13.76 the material
-can absorb, a ratio of 4.5.**
-
-**The ablator is not mostly absorbing the heat. It is blocking it.** Pyrolysis gas leaving the
-decomposing surface thickens the boundary layer and cuts the heat that arrives at all. **Absorption
-is the small term and transpiration is the large one**, by roughly a factor of four, and that is why
-an ablative wall works rather than merely melting. **The forward calculation being wrong by that
-factor is the result**, and it is why a recession rate is measured rather than predicted.
+**Harvesting in the period's own vocabulary took the heat transfer heading from one record to
+twenty-eight and the transpiration heading from nine to forty-two**, and added 991 records published
+through 2001 and 223 from the report literature.
 
 ---
 
-## The Vehicle's Own Velocity Budget, Which the Draft Never Computed
+## Three Subjects That Stay Thin, and the Reason Is Worth Recording
 
-**The draft computed the engine at length and never asked what the vehicle does with it.** The
-effective exhaust velocity is 2,904.2 metres per second and the mass ratio 2.6585, so the ideal
-increment is **2,839.6 metres per second**. Adding the 236.1 the carrier supplied gives 3,075.7
-against a Mach 8 objective near 2,400.
+**The rocket equation returns nothing at all in a pool of four thousand three hundred, and neither
+does the ascent loss budget**, after a harvest aimed directly at them.
 
-**That leaves 675.7 metres per second, or 22.0 percent, for gravity, drag and steering**, which is
-what a suborbital ascent actually spends. **A budget that closed with two percent would be claiming
-no losses and one that closed with fifty would suggest the objective was set well below the
-vehicle**, so the margin is a check on the published masses rather than on the trajectory.
+**That is not a gap. It is a thin heading over a subject nobody writes papers about**, because both
+live in every textbook and in no journal article. The effective heat of ablation returns two records
+for the same reason in milder form, since the quantity is discussed throughout the ablation
+literature under char layers, blowing parameters and surface energy balances rather than under its
+own name.
 
-The thrust to weight at release is **1.248**, and a vehicle released in level flight needs no more
-than one because the wing is already carrying it.
+**A subject can be thin because the work was never done, because the heading is wrong, or because the
+knowledge is so settled that it stopped generating papers.** These three are the third kind, **and
+the third kind is invisible to a count.** The article says so rather than padding.
 
 ---
 
-## One Relation Shown for Its Structure and Explicitly Not as a Check
+## The Count-Versus-Fraction Trap, Again
 
-**The draft computed both the thrust coefficient and the characteristic velocity and never
-multiplied them**, so a reader was not shown that the engine's performance separates into a chamber
-term and a nozzle term. The relation is now displayed.
+| | Before this pass | After |
+|---|---|---|
+| Research references cited | 3,270 | 4,313 |
+| Period through 2001 | 1,242, 38.0% | 2,233, 51.8% |
+| Contemporary 2015 onward | 1,700, 52.0% | **1,709, 39.6%** |
+| Report literature | 663, 20.3% | 886, 20.5% |
 
-**It returns the published impulse exactly, and the article says that is circular.** The throat area
-was derived from the same thrust and impulse, so the product returns them by construction.
-**Presenting that agreement as confirmation would be false**, and the article says so at the point of
-use rather than leaving a reader to notice.
+**The contemporary count rose by nine and the contemporary fraction fell by twelve points.** Nothing
+was removed. The article carries both columns and says which moved.
 
-**The gauge-limited tank fraction was asserted and is now derived**, in three lines, which matters
-because the result is the article's strongest structural claim and a reader cannot check a claim
-whose derivation is absent.
+---
+
+## What the New Literature Let the Article Say
+
+**Both halves of the ablation argument rest on literatures older than the programme.** The convective
+heat transfer to a rocket nozzle was correlated in the late 1950s, and the transpiration and
+mass-injection work that explains the blocking term runs alongside it. **So the physics the X-34's
+chamber depended on was forty years settled when the engine was designed**, which is a sentence the
+article could not support before this pass and can now.
 
 ---
 
 ## Verification
 
-`verify.py` reports **65 of 65** with **13 agreements between independent routes**. The new work is
-checked by routes it did not use, namely the inverted heat of ablation put back through the balance,
-the velocity increment reached by integrating the mass flow rather than by the logarithm, the throat
-flux bounded rather than merely computed, and the monotonic dependence of recession on the effective
-heat of ablation as a randomised property over twenty thousand trials.
+`verify.py` reports **65 of 65** with **13 agreements between independent routes**, unchanged, since
+this pass added no arithmetic. `check_any.py` passes. `_verify.py` holds the baseline at **0 errors
+and 21 warnings**. `test_lib.py` is **51 of 51**.
 
-`check_any.py` passes. `_verify.py` holds the baseline at **0 errors and 21 warnings**. `test_lib.py`
-is **51 of 51**. Zero split equations, zero wrapped inline spans, zero bold spans crossing a line, an
-even delimiter count, balanced braces in all 38 equations, and **zero blockquotes**, which the
-angle-bracket fix from the draft pass was guarding.
+**The reference scan found zero punctuation defects across 8,683 visible entries**, with zero
+duplicate definitions, zero undefined uses and zero orphans, and **zero blockquotes**, which is the
+angle-bracket fix from the draft pass holding at a reference count that has grown by a third.
 
-The isolated 35-article build succeeds at 820 kilobytes with **all 38 equations rendering as display
-blocks**.
+**No acronym appears in authorial prose**, re-checked after the reference set grew, and there are
+zero em dashes, en dashes and capital emphasis.
 
-**Uncited equations fell from 10 to 9** after the ablation literature was moved beside the relations
-it belongs to, and the remainder are derivation steps and the article's own inversions, which are
-named as such.
+The isolated 35-article build succeeds at 1.03 megabytes with **all 38 equations rendering as display
+blocks**, 16 sections, 54 subsections and 8,967 list items.
 
 ---
 
 ## Awaiting Instruction
 
-**A331 has completed two of four passes.** Thirty-five of seventy-two drafted, **none published**.
+**A331 has completed three of four passes.** Thirty-five of seventy-two drafted, **none published**.
 
-The next pass due is the **primary-reference review**. The equation pass promoted ablation
-thermochemistry, boundary-layer heat transfer and transpiration blocking from background to keystone,
-**and that promotion has not yet reached the reference base**, which is the pattern that has now held
-for twelve consecutive articles.
+The next and final pass is the **publication review**. Contemporary coverage stands at 1,709 records
+and 39.6 percent, having fallen twelve points during this pass as the denominator moved, **so the
+contemporary survey is the work that pass will have to do.**
 
 ---
 
