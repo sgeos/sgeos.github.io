@@ -9,117 +9,111 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-11
-**Task**: A370 publication review. **Committed and pushed.** **Not published.**
-
-**References 57 to 2,002 definitions**, of which **1,980 are research citations**, being the 35 hand-selected
-ones and 1,945 harvested. The article moved from 10,250 to 11,477 prose words, with equations unchanged at
-31. The rendered page carries 4,206 links and 4,123 list items.
+**Task**: Pathological word usage pass on A370, plus a corpus-wide scan. **Committed, not pushed.**
+**Not published.** **No published article was edited.**
 
 ---
 
-## The First Harvest Was Twice The Size And Was Worthless
+## The `specific` Problem Is A False Positive And I Can Show It
 
-**This is the finding of the pass and it was nearly shipped.**
+You named `specific` as the example. **It is the highest-rate word in the corpus at 15.07 per thousand, and
+it is not a defect.**
 
-The contemporary-survey gap was real. A369, this article's published predecessor, carries 1,765 reference
-definitions of which 93.5 percent are from 2015 onward, against A370's 57. So the pass built a harvest.
+The two worst articles are `rocket_propellant_chemistry_a_design_tradeoff_space` at 68 uses and
+`rocket_propellant_chemistry_cryogenic_liquid_propellants` at 71. **Fifty-nine of the 68 and seventy of the
+71 are the phrase "specific impulse."** Corpus-wide, 44 percent of all 1,006 uses are terms of art, being
+specific impulse, specific excess power, specific energy, specific heat, specific fuel consumption, specific
+strength and specific thrust. None of them can be paraphrased.
 
-**The first gate was inherited from A333 and rejected 2,174 compiler-science titles for containing no
-aircraft.** That is the same defect A333's own primary pass found, recurring because the file was copied
-rather than rewritten. It was caught and the gate was rewritten for this subject.
+**A rate cannot tell a term of art from a tic, and only the neighbouring words separate them.** When
+filler-only uses are isolated, the worst article in the corpus has **6 of them at 1.59 per thousand**. There
+is no `specific` problem left to fix.
 
-**The rewrite overcorrected into uselessness and the symptom looked like success.** The new gate admitted
-generic stems, being analysis, implementation, generation, evaluation, system, model, performance and
-interface. Every discipline that publishes uses those words. The corpus grew to 4,305 records and I was
-about to treat the larger number as reassurance.
-
-**A random sample of the kept records is what caught it.** The survey contained rabies control, seismic
-depth imaging, breeding soundness examination in veterinary medicine, supercontinuum generation in
-photonics, transport appraisal, fibre art and early-childhood language acquisition. The contamination was
-not confined to the general cluster. It was in `static_analysis` by way of philosophical soundness, in
-`calling_conventions` by way of logistics interoperability, and in `concurrency_runtime` by way of optical
-fibre.
-
-The gate now requires a term that is **computing-specific on its own**, so an ambiguous term contributes
-nothing however many of them a title carries. It admits 2,021 of 7,334. **The corpus is less than half the
-size of the contaminated one and that reduction is the result rather than a cost of it.**
-
-**The lesson I would ask you to hold me to.** A larger harvest is not a better one, and the only instrument
-that detects this failure is reading a random sample of what was kept. No count, no cluster distribution and
-no drop-reason table shows it, because a permissive gate produces healthy-looking numbers in every one of
-them.
+**The same false positive covers `key`.** It flags at 18.26 per thousand in the Solana article and 10.80 in
+the SSH one, and it is public keys, private keys, key pairs and key files throughout.
 
 ---
 
-## The Article Now States Which Half Of Its Bibliography It Read
+## The Real Corpus-Wide Tic Is `rather`, And It Was In A370
 
-A list of two thousand citations implies a reading it does not represent, so the article says so in three
-places rather than leaving it to be assumed.
+**`rather` appears 3,803 times across the corpus and 99.7 percent of those are "rather than."** It sits at or
+above the verifier's 5.0 per thousand limit in **22 articles**, more than every other tic-class word
+combined.
 
-- **Method** reports the queries, the filter, the count it discarded and the two failed gates above.
-- **The References introduction** separates the 35 hand-selected works, which the argument depends on and
-  which were read, from the 1,945 harvested ones, which were not.
-- **The Epistemic State** states that the harvested layer supports a claim about **coverage** and not about
-  content, and that **the harvest makes the article's negative claim more exposed rather than less**, since
-  a paper answering the question could sit unread in the list.
+A370 carried **54 uses at 5.41 per thousand, which is 4.2 times the corpus median**. Twenty-one decorative
+uses were rewritten, leaving **32 at 3.27 per thousand**.
 
-**The reconciliation with the article's own caution about citation error is that the two layers have
-different failure modes.** A369's 5.5 percent error rate came from identifiers supplied from memory, which
-is a generative process. A harvested identifier is transcribed from the registry that issued it and was
-never a guess, so **harvesting removes that failure mode rather than reducing it**. What it does not remove
-is a correct record cited for a claim it does not support, and no harvested record is cited for any claim.
+**The replacements were deliberately varied so that one tic did not simply become another.** They are spread
+across "and not" at 17, "instead of" at 3, a comma contrast, and two places where the sentence was split
+instead. The construction check confirms the result, with **`and not` at 1.74 against a peer maximum of 2.66
+and `instead of` at 0.31 against 6.62**.
 
----
-
-## A Reader Clicking These References Will Meet One Failure In Eleven
-
-A random sample of 250 harvested identifiers was resolved. **All 250 exist.**
-
-**Twenty-two of them, being 8.8 percent, resolved only through the registry and not through the identifier
-resolver.** Twenty refused the connection, of which 14 were Defense Technical Information Center deposits,
-and 2 returned not-found from a publisher that no longer serves the landing page. In every case the
-identifier is registered and the record is correct, so the defect is in the resolution path.
-
-**This is in the article** because a reader spot-checking by clicking will hit it and would otherwise read
-it as a bad citation.
+**Where the contrast is load-bearing the phrase was kept**, as in "a coverage loss rather than a correctness
+loss" and "found by writing rather than by testing."
 
 ---
 
-## Three Smaller Corrections
+## A370 Is Otherwise Clean And The Remaining Outliers Are Its Subject
 
-- **The kept-count was read from the wrong level of a JSON file** and the article briefly stated "discarded
-  7,332 of the 7,334 retrieved records". The file is `{"kept": {...}, "dropped": {...}}`, so its length is
-  2. **A figure wrong by three orders of magnitude still looks like a number**, and only checking it against
-  the console output caught it.
-- **Registry titles carried newlines, HTML tags and `&NA;` where an author belongs.** A newline in a title
-  breaks the list item it is emitted into, so whitespace is collapsed and markup stripped before use.
-- **Two colon-led bold labels** in The Decision This Informs were converted to the corpus pattern of a bold
-  sentence ending in a period.
+- **0 constructions above the corpus maximum** against 297 peers.
+- **0 tics above the peer maximum** against 253 peers, across a 70-word enumerated tic class.
+- **21 words sit above the peer maximum and 20 of them are subject vocabulary**, being suspension, chunk,
+  callback, coroutine, discriminator, sentinel, terminating, yielded and convention. No peer wrote about
+  coroutines, so a peer maximum of zero is not a standard. `harvested` is the twentieth and is new prose
+  about the survey.
+- `convention` sits at exactly 5.00 per thousand and does not trip the verifier.
+
+---
+
+## What I Found In The Corpus And Did Not Touch
+
+**I edited no published article.** These are reported for your decision rather than acted on.
+
+| Article | Word | Uses | Rate | Assessment |
+|---|---|---|---|---|
+| `spacex_history_generality_forcing` | `configuration` | 201 | 10.3 | **Likely genuine** |
+| `spacex_history_decomposability` | `configuration` | 154 | 14.9 | **Likely genuine** |
+| `spacex_history_value_capture` | `configuration` | 94 | 9.6 | **Likely genuine** |
+| `spacex_history_governance` | `configuration` | 92 | 6.0 | **Likely genuine** |
+| `hardware_description_languages_state_of_the_practice` | `substantial` | 29 | 10.5 | **Likely genuine** |
+| four articles | `framework` | 16 to 21 | 5.2 to 7.3 | Unassessed |
+
+**The `configuration` case does not look like a term of art.** Its collocations are "configuration the" 39,
+"configuration that" 17, "configuration exhibits" 10, "configuration comprises" 9 and "configuration
+constitutes" 8, which is **an abstract noun serving as a generic sentence subject** in article after
+article. It also forms the compound "decomposability configuration" 25 times. That is the shape of a tic,
+unlike "specific impulse."
+
+`substantial` at 29 uses is a vague intensifier, with "substantial adoption" 7 times.
+
+**These four SpaceX articles are live**, so fixing them is a rewrite of published work and is your call, not
+mine. The two draft warnings, `factor` in `x_planes_martin_marietta_x24` and `configuration` in
+`claude_code_getting_started_over_ssh`, are **both false positives**, being "load factor" and "a factor of"
+in the first and "configuration file" in the second.
 
 ---
 
 ## Verification
 
-- `python3 _verify.py` **0 errors, 21 warnings**, the unchanged baseline, from the repository root.
-- **Isolated production build with drafts, exit 0.** The rendered page carries **0 unfilled markers, 0
-  unresolved references, 31 open and 31 close display-math delimiters, 0 empty list items and 0 nested empty
-  lists**, the last being the doubled-marker defect that shipped in A332 and A333.
-- **2,002 definitions with 0 undefined and 0 orphaned**, sorted by anchor.
-- **The `--drafts` build fails on `_drafts/draft_summary.md`**, which carries a literal `post_url` example.
-  That is pre-existing and is the documented reason drafts are off by default. It was moved aside inside the
-  scratch copy only.
+- `python3 _verify.py` **0 errors, 21 warnings**, the unchanged baseline, from the repository root. **A370
+  appears in no word-frequency warning.**
+- **Isolated production build with drafts, exit 0**, with 0 unfilled markers, 0 unresolved references, 31
+  matched display-math delimiter pairs and 0 empty list items.
+- **Reflow verified content-preserving and a fixed point**, checked by comparing the token stream before and
+  after rather than assumed.
+- **Prose scan clean** of em dashes, en dashes, contractions, prose semicolons and italics. The single
+  semicolon is the permitted `console.log` debug tag.
 - `lint.scan` **clean**.
-- **Prose scan clean** of em dashes, en dashes, contractions, prose colons, prose semicolons, prose
-  parentheses and italics. The 45 apparent contractions are all possessives.
-- `diction` against 297 published peers, **0 constructions above the corpus maximum**.
-- `python3 tmp/a370/verify.py` **34 of 34**, unchanged, since this pass added no arithmetic.
 
 ---
 
 ## Next
 
-**All four passes have now been applied to A370.** It is committed and pushed and **is not published**, and
-publication has not been authorised for it or for anything else.
+Your call. **A370 has had all four passes plus this one**, is committed, **is not pushed**, and is **not
+published**. I did not push because only the publication-review prompt authorises that.
+
+The open question is whether you want the `configuration` and `substantial` findings acted on in the
+published SpaceX and hardware-description-language articles.
 
 The X-Planes series is unchanged at **thirty-seven of seventy-two**, none published, with **A334, the Boeing
 X-37, next** whenever you want it.

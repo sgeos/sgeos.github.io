@@ -51,6 +51,15 @@ Center deposits, and 2 returned not-found from a publisher no longer serving the
 identifier is registered and correct in every case, so **a reader clicking these references will meet
 roughly one failure in eleven that is not a bad citation**.
 
+**PATHOLOGICAL WORD USAGE PASS.** A370 is clean on the tic class, with **0 constructions above the
+corpus maximum against 297 peers and 0 tics above the peer maximum against 253**. One word needed
+work. **`rather` stood at 54 uses, 5.41 per thousand, above the 5.0 rate the verifier enforces and
+4.2 times the corpus median.** Twenty-one decorative uses were rewritten, spread across "and not",
+"instead of", a comma contrast and two sentence splits so one tic did not become another, leaving 32
+at 3.27 per thousand. **The remaining words above the peer maximum are subject vocabulary**, being
+suspension, chunk, callback, coroutine, discriminator, sentinel and convention, which no peer wrote
+about.
+
 **THE PRIMARY PASS FOUND A CLAIM THE ARTICLE CONTRADICTED ITSELF ON.** The References introduction
 asserted that all references are primary and that no secondary literature survey is offered, while the
 article carries 31 research citations in a section titled The Contemporary Literature. **A leftover

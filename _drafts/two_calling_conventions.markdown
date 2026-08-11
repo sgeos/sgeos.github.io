@@ -29,15 +29,15 @@ about the channel the class must pass through. The second dominates the first an
 
 The article reports the measurement, the way the measurement pointed the wrong direction, and the argument
 that settled it. It also reports a rule this author shipped one increment earlier which turns out to be
-**stricter than the property it enforces**, excluding ten of twenty-four cases for no reason. That was found
-while gathering data for this article rather than by any test.
+**stricter than the property it enforces**, excluding ten of twenty-four cases for no reason. No test found
+that. It surfaced while gathering data for this article.
 
 ### How to read this
 
 **The general argument is in the opening, in the section called The Argument That Settled It, and in Pattern Extraction. Those three need nothing but attention.**
 The sections between them work the argument through a real case with real numbers, and they use the
-vocabulary of the trade. Every term is glossed at first use, but a reader who wants the result rather than
-the machinery can take those three and stop.
+vocabulary of the trade. Every term is glossed at first use, but a reader who wants the result and not the
+machinery can take those three and stop.
 
 **The mathematics is optional throughout.** It appears because the central result is a counting argument,
 and counting arguments are the one place where a line of notation settles what a paragraph of prose can only
@@ -56,7 +56,7 @@ The question this article treats is when that instinct is right and when it is a
 offered is a test, and it is this.
 **Count the observable events each class produces, and count the channels the proposed unification provides.**
 If the counts differ, the unification is lossy and no amount of shape analysis on individual instances will
-rescue it, because the loss lives in the interface rather than in the instances.
+rescue it, because the loss lives in the interface and not in the instances.
 
 **The instinct to unify is not a bad one.** Two ways of doing one thing is a real cost, paid by every
 consumer who must learn both and by every future change that must be made twice. This article does not argue
@@ -199,7 +199,7 @@ several suspension points that would need to be reordered relative to one anothe
 **No such body exists in the corpus.** That design was specified in some detail before the count was taken,
 and the count deleted it.
 
-The nested case looked like the hard one until it was measured per suspension rather than per chunk. All
+The nested case looked like the hard one until it was measured per suspension instead of per chunk. All
 nineteen of its suspensions sit inside conditionals and **not one sits inside a loop**. A suspension inside
 a conditional is a control-flow join, where every path still suspends once and ends. A suspension inside a
 loop crosses a back edge and genuinely needs a frame. The word **nested** had been covering both, and they
@@ -243,7 +243,7 @@ Run it on the reference virtual machine and it produces **two observable events*
 A return-based **lowering**, meaning a translation from the intermediate form down to machine code, has
 **one** return slot. Give the slot the yielded value and the completion is gone. Give it the completion and
 the suspension is gone. There is no third option, and **no analysis of the chunk's shape changes this**,
-because the deficiency is in the calling convention rather than in the chunk.
+because the deficiency is in the calling convention and not in the chunk.
 
 **The obvious objection is that the completion could arrive on a second call, and the reason it cannot is the part of the return convention that is easiest to skip over.**
 The convention has no resumption point. The host drives the chunk by calling a plain function again, passing
@@ -287,7 +287,7 @@ $$\mathrm{obs}(k) \;>\; \mathrm{chan}(\varepsilon) \quad\Longrightarrow\quad \va
 and a non-injective encoding is one in which two distinct executions become indistinguishable to the host,
 which is precisely what it means for a lowering to be wrong.
 
-**The deficit does not grow with the number of suspensions, which is worth checking rather than assuming.**
+**The deficit does not grow with the number of suspensions, which deserves a check and not an assumption.**
 A terminating chunk with $n$ suspensions emits $n$ yielded values and one completion, so its trace carries
 $n+1$ words and the executions it can distinguish number $\lvert W \rvert^{\,n+1}$. The single call it is
 granted distinguishes $\lvert W \rvert$ of them, so the collapse factor is
@@ -324,7 +324,8 @@ $$\lvert \{\mathsf{Y}, \mathsf{F}\} \times W \rvert \;=\; 2 \cdot 2^{64} \;=\; 2
 **a shortfall of exactly one bit.** That single bit is what forces a second register, since $\lceil 65 / 64
 \rceil = 2$, and it is the whole reason the register-pair rules in the two application binary interfaces
 matter to this decision.
-**The expensive-sounding option costs one bit of information and one register of encoding**, a very different proposition from carrying a second word. The pigeonhole refutes the unification *at the signature
+**The expensive-sounding option costs one bit of information and one register of encoding**, a very
+different proposition from carrying a second word. The pigeonhole refutes the unification *at the signature
 the backend currently emits*, not for all time.
 
 That distinction matters and it was not visible from inside the problem. It surfaces a **third option** ,
@@ -349,7 +350,7 @@ $$N^{*} \;=\; \frac{c_{\mathrm{meta}}}{c_{\mathrm{tag}}}.$$
 **A per-call term always loses to a constant eventually**, and a stream abstraction exists to be called many
 times, so the crossover is the whole question.
 **Neither constant is published and this article declines to invent them**, which is why the recommendation
-below rests on the memory property rather than on a cost model.
+below rests on the memory property and not on a cost model.
 
 **Two production language runtimes already do exactly this**, which is the strongest argument available that
 the option is practical rather than merely representable. A [Kotlin][ref_kotlin_coroutines] suspending
@@ -369,9 +370,9 @@ which is 18,446,744,073,709,551,615 usable values, a loss of $2^{-64}$ or about 
 the space, and any program able to produce the reserved value as a legitimate yield becomes unrepresentable.
 **The loss is negligible in measure and total in reachability, and only the second of those matters.** A
 sentinel is available exactly when the yielded type is a proper subset of $W$ missing at least one element,
-a statement about the type rather than about how unlikely the value is. Kotlin can afford it
-because the sentinel is a reference no user value aliases. A backend whose yielded values are arbitrary
-machine words cannot, so for Keleusma the tagged pair is the honest form and the sentinel is unavailable.
+a statement about the type and not about how unlikely the value is. Kotlin can afford it because the
+sentinel is a reference no user value aliases. A backend whose yielded values are arbitrary machine words
+cannot, so for Keleusma the tagged pair is the honest form and the sentinel is unavailable.
 
 **The correction is left in the text rather than folded into the argument**, because the sequence is the
 useful part. A counting argument was stated in a form stronger than the evidence supported, and reading the
@@ -395,8 +396,8 @@ host drives the chunk by iterating the native function, and the correspondence w
 $$f(a) = v_0, \qquad f(r_k) = v_k \;\; (k \ge 1),$$
 
 with **no distinguished first call**, because iteration zero consumes the call argument and iteration $k$
-consumes the $k$-th resume value, exactly as the virtual machine does when it writes the resume
-value into the entry chunk's parameter slot.
+consumes the $k$-th resume value, exactly as the virtual machine does when it writes the resume value into
+the entry chunk's parameter slot.
 
 **So the two conventions are not an accident awaiting cleanup. They track the boundary between a construct that terminates and one that does not**,
 which is a distinction the language already makes, the type checker already enforces, and the memory
@@ -456,7 +457,8 @@ $$R \;\subsetneq\; P, \qquad \lvert P \setminus R \rvert \;\ge\; 10,$$
 
 and the containment is what makes the defect a coverage loss rather than a correctness loss. The property is
 **effect-free and stack-neutral**. The rule is **drawn from a list of two instructions**. Those coincide on
-the corpus the rule was written against and diverge on the next ten cases, the standard failure of a whitelist standing in for a predicate.
+the corpus the rule was written against and diverge on the next ten cases, the standard failure of a
+whitelist standing in for a predicate.
 
 **A sound but incomplete rule is the normal condition of static analysis and this instance is not the normal reason for it.**
 The framework of [Cousot and Cousot 1977][research_cousot_1977] exists because an exact answer is often
@@ -476,7 +478,8 @@ could use it currently do not. The fix is a small generalisation and it is not a
 article's subject is the convention question and a coverage improvement inside it would be a second claim
 wearing the first one's clothes.
 
-**It is reported because it was found by writing rather than by testing**, the second time in this series that assembling a table for publication has surfaced something a green test suite did not.
+**It is reported because it was found by writing rather than by testing**, the second time in this series
+that assembling a table for publication has surfaced something a green test suite did not.
 
 ## Method
 
@@ -485,12 +488,12 @@ stage sources, and the standalone compiler subproject, discarding any that fail 
 resulting module it walks every chunk and classifies it.
 
 Suspension nesting is computed with a depth counter over the block-opening instruction set, which was
-checked against the full block-structured instruction list rather than assumed. A missed opener would report
-a nested suspension as a top-level one and admit a chunk the transformation is wrong for.
+checked against the full block-structured instruction list and not assumed. A missed opener would report a
+nested suspension as a top-level one and admit a chunk the transformation is wrong for.
 
 The tail-position walk **follows jumps** rather than scanning the instruction stream linearly. This is
-necessary rather than fastidious. The instructions textually between a deeply nested suspension and the
-reset include the bodies of sibling branches, which are on different paths and never execute after that
+necessary, not fastidious. The instructions textually between a deeply nested suspension and the reset
+include the bodies of sibling branches, which are on different paths and never execute after that
 suspension. A linear scan answers a question nobody asked.
 
 Suspension nesting is summarised by the enclosing block stack. Writing $B(y)$ for the stack of open blocks
@@ -528,36 +531,36 @@ The harvest issued keyword queries against Crossref and the NASA technical repor
 topic clusters, being coroutines, continuations, effect handlers, calling conventions, code generation,
 verified compilation, compiler testing, resource analysis, static analysis, concurrency runtimes, bytecode
 virtual machines, types and semantics, and a general systems cluster. Each returned record was kept only if
-its title carried a subject anchor, meaning a term specific to computing rather than one shared with every
+its title carried a subject anchor, meaning a term specific to computing and not one shared with every
 discipline. That test discarded 5,313 of the 7,334 retrieved records. Records already
 cited by hand were discarded again at assembly so that no work appears twice under two anchors.
 
-**The count that survives is smaller again.**
-The arithmetic is worth stating rather than leaving to be noticed. Of the records the filter admitted, 85 were duplicates holding the same title and year under two
+**The count that survives is smaller again.** The arithmetic is worth stating and not leaving to be noticed.
+Of the records the filter admitted, 85 were duplicates holding the same title and year under two
 identifiers, 2 carried a doubled word in the title where a registry had concatenated a title with a book
-title, 1 was untitled or undated, and 4 duplicated a hand-selected entry.
-1,945 therefore reach the reference list.
+title, 1 was untitled or undated, and 4 duplicated a hand-selected entry. 1,945
+therefore reach the reference list.
 
 **The anchor filter is the step most likely to be wrong, and it was wrong twice before it was right.**
 
 The first version was inherited from an article on a different subject and tested for the presence of that
 subject's vocabulary, so it rejected 2,174 compiler-science titles for containing no aircraft. That failure
-is loud once looked at and silent otherwise, because a filter that rejects everything reports a small
-corpus rather than an error.
+is loud once looked at and silent otherwise, because a filter that rejects everything reports a small corpus
+rather than an error.
 
 The second version was written for this subject and **overcorrected into uselessness**. It admitted generic
 stems, being analysis, implementation, generation, evaluation, system, model, performance and interface,
 each of which occurs in every discipline that publishes. It admitted 4,305 records, and a sample of them
 contained rabies control, seismic depth imaging, breeding soundness examination in veterinary medicine,
 supercontinuum generation in photonics, transport appraisal and fibre art.
-**A survey listing those has surveyed nothing.**
-The larger count was the symptom rather than the reassurance.
+**A survey listing those has surveyed nothing.** The larger count was the symptom rather than the
+reassurance.
 
 The version used here requires a term that is computing-specific on its own, so an ambiguous term
 contributes nothing however many of them a title carries. It admits 2,021 records of the
 7,334 retrieved.
-**The corpus is less than half the size of the one the permissive filter produced.**
-That reduction is the result rather than a cost of it.
+**The corpus is less than half the size of the one the permissive filter produced.** That reduction is the
+result rather than a cost of it.
 
 What the harvested list therefore supports is a claim about **coverage**, being that the survey did not
 select for agreement with its conclusion, since the queries were fixed before the records were seen. What it
@@ -584,7 +587,7 @@ weaker position for the author and the stronger one for the reader.
 meaning no external symbol, no indirection, and no frame across the suspension. None of that has been
 measured. The machine-code frame sizes that would settle it are emitted only into a section of the
 Executable and Linkable Format, or ELF, which this development host does not produce, so the measurement is
-deferred rather than done.
+deferred and not done.
 
 ## Pattern Extraction
 
@@ -697,8 +700,8 @@ returns control separately from the suspension. Every stream chunk in the corpus
 
 **A fourth option this spike did not evaluate**, and which is recorded so it is not mistaken for absent, is
 to make the delegating chunk's callee terminate. The one delegating stream chunk calls a terminating
-coroutine, and if that call were restructured so the suspension belonged to the stream chunk rather than the
-callee, the whole corpus would fit one convention. This is a change to the source program rather than the
+coroutine, and if that call were restructured so the suspension belonged to the stream chunk instead of the
+callee, the whole corpus would fit one convention. This is a change to the source program and not the
 backend, it is outside the backend's authority, and whether it is reasonable is a language question this
 article is not equipped to answer.
 
@@ -726,11 +729,11 @@ What follows surveys each and marks where the present problem is and is not cove
 ### Coroutines were classified before they were implemented well
 
 The construct is old. [Conway 1963][research_conway_1963] introduced coroutines to structure a separable
-compiler, and the motivating example was a compiler passing tokens between phases, close to the present use. The taxonomy that still governs discussion is
-[de Moura and Ierusalimschy 2009][research_demoura_2009], which separates coroutines along three axes,
-**symmetric or asymmetric**, **first-class or constrained**, and **stackful or stackless**. Keleusma's two
-forms are both asymmetric and constrained, and the article's question is precisely whether the backend must
-be stackful.
+compiler, and the motivating example was a compiler passing tokens between phases, close to the present use.
+The taxonomy that still governs discussion is [de Moura and Ierusalimschy 2009][research_demoura_2009],
+which separates coroutines along three axes, **symmetric or asymmetric**, **first-class or constrained**,
+and **stackful or stackless**. Keleusma's two forms are both asymmetric and constrained, and the article's
+question is precisely whether the backend must be stackful.
 
 That taxonomy already contains the article's finding in a different vocabulary. An asymmetric coroutine
 returns to its resumer, and the resumer must distinguish a suspension from a completion, which
@@ -794,10 +797,11 @@ passing every suspension becomes a call to a continuation and the representation
 there are no returns to collide with.
 
 **It dissolves the question by paying for it everywhere.** The transformation is global, it changes the
-calling convention of every function rather than of coroutines alone, and the resulting closures are heap
+calling convention of every function and not of coroutines alone, and the resulting closures are heap
 allocated unless a later analysis recovers the stack discipline.
 [Danvy and Nielsen 2001][research_danvy_nielsen_2001] show defunctionalisation recovering first-order code
-from the higher-order form, the step that makes continuation passing implementable without a garbage collector, and it is the step a bounded-memory project would have to trust.
+from the higher-order form, the step that makes continuation passing implementable without a garbage
+collector, and it is the step a bounded-memory project would have to trust.
 
 Delimited control is the sharper tool. [Danvy and Filinski 1990][research_danvy_filinski_1990] introduced
 `shift` and `reset`, [Felleisen 1988][research_felleisen_1988] the prompt-based formulation, and
@@ -808,10 +812,9 @@ production system, the closest thing in the literature to a cost report.
 article's reset instruction draws.
 
 The continuation literature harvested for this survey is listed below. It is the thinnest of the modern
-clusters, at 15 records from 2015 onward against
-38 earlier ones, and the imbalance is itself informative. The representation
-question was answered in the 1970s and 1990s and the modern work has moved to the handler formulation
-surveyed further down.
+clusters, at 15 records from 2015 onward against 38 earlier
+ones, and the imbalance is itself informative. The representation question was answered in the 1970s and
+1990s and the modern work has moved to the handler formulation surveyed further down.
 
 - [Todoran and Ciobanu, 2025, Metric Continuation-Passing Semantics for Multiparty Interactions][research_todoran_ciobanu_2025]
 - [Pyzik, 2023, Call-By-Name Is Just Call-By-Value with Delimited Control][research_pyzik_2023]
@@ -1179,8 +1182,8 @@ If native code did not have to carry a bound, the callback convention would simp
 [Wilhelm and others 2008][research_wilhelm_2008] survey the worst-case execution-time problem and the tools
 that address it, and it remains the standard reference for what a sound timing analysis requires. For the
 memory side, [Regehr, Reid and Webb 2005][research_regehr_2005] eliminate stack overflow by abstract
-interpretation of machine code, exactly the analysis a native Keleusma artefact must support and
-exactly what a frame held across arbitrary host execution defeats.
+interpretation of machine code, exactly the analysis a native Keleusma artefact must support and exactly
+what a frame held across arbitrary host execution defeats.
 
 **This is the literature that makes the choice non-obvious**, and it is the one the coroutine implementation
 literature does not cite. A runtime that may allocate is free to choose the general mechanism. A bounded
@@ -1283,8 +1286,8 @@ inputs, and [Chen and others 2020][research_chen_2020] survey compiler testing a
 
 **The warning these carry is directly applicable.** A differential oracle refutes and does not prove, and
 its power is bounded by the inputs supplied. This article's equivalence assertion is checked over a finite
-sample of resume sequences chosen by hand, the weakest form of the technique. Equivalence modulo
-inputs is the natural strengthening and it has not been applied.
+sample of resume sequences chosen by hand, the weakest form of the technique. Equivalence modulo inputs is
+the natural strengthening and it has not been applied.
 
 - [Klimis, 2026, Compilomorphic Fuzzing Turning a Compiler Against Itself][research_klimis_2026]
 - [Boda and others, 2026, CPerfSmith A Randomized C Program Generator for Performance-Oriented Compiler Testing][research_boda_chunduri_2026]
@@ -1392,8 +1395,8 @@ larger literature treats it as an interface contract whose principal property is
 because every separately compiled artefact already linked against it would break.
 **That is the sense in which adding a discriminator to the return convention is expensive**, and it is a
 cost the cardinality argument does not see. The cardinality argument says a wider convention is available.
-The interface literature says a wider convention is a different convention, and that the cost of adopting
-it falls on everything already compiled.
+The interface literature says a wider convention is a different convention, and that the cost of adopting it
+falls on everything already compiled.
 
 Keleusma is pre-1.0 and has no external artefacts to break, so the article is right that the cost is not yet
 being paid. It will be, and the decision made now is the one that will be expensive to revisit.
@@ -1438,11 +1441,11 @@ The rule this article examines admits 14 of 24 chunks while the property it enfo
 is a soundness-preserving imprecision. The literature that names this condition, measures it and reduces it
 is large and the article uses only one paper from it.
 
-**The article's position within this literature is unusual and worth being explicit about.**
-The classical justification for an over-strict rule is that the exact property is
-uncomputable, so an approximation is forced. This article's property is decidable on straight-line bytecode
-by summing two integers, so the imprecision is not forced and the rule is simply cruder than it needs to be.
-That is a better position to be in than the classical one and it is a different problem.
+**The article's position within this literature is unusual and worth being explicit about.** The classical
+justification for an over-strict rule is that the exact property is uncomputable, so an approximation is
+forced. This article's property is decidable on straight-line bytecode by summing two integers, so the
+imprecision is not forced and the rule is simply cruder than it needs to be. That is a better position to be
+in than the classical one and it is a different problem.
 
 - [Iyenghar and others, 2026, Incremental Static Analysis for Detecting and Refactoring Data Clumps in TypeScript][research_iyenghar_baumgartner_2026]
 - [Bardonek and Zachariasova, 2026, Leveraging design static analysis for vertical reuse Analytical interpretation and scalability behavior][research_bardonek_zachariasova_2026]
@@ -1503,10 +1506,10 @@ That is a better position to be in than the classical one and it is a different 
 
 ### The bytecode layer is where the property is actually decidable
 
-The backend consumes a verified bytecode, and the whole argument about stack effects lives at that level
-rather than at the source or the machine level. The virtual-machine literature is therefore where the
-article's decidability claim has to be checked, and it is also the differential oracle's other side, since
-the oracle compares the virtual machine against the native code.
+The backend consumes a verified bytecode, and the whole argument about stack effects lives at that level and
+not at the source or the machine level. The virtual-machine literature is therefore where the article's
+decidability claim has to be checked, and it is also the differential oracle's other side, since the oracle
+compares the virtual machine against the native code.
 
 - [Parashar and others, 2026, A Comparative Architectural and Performance Analysis of WebAssembly and JavaScript for Computationally Intensive Web Applications][research_parashar_kumawat_2026]
 - [Corrias and others, 2026, An Analysis of Modern Web Security Vulnerabilities Inside WebAssembly Applications][research_corrias_pisu_2026]
@@ -1756,7 +1759,7 @@ general answer is correct.
 ### The historical layer
 
 The clusters above are drawn from work published in 2015 or later, which is the survey's contemporary
-window. The older records the harvest returned are listed here in one place rather than distributed through
+window. The older records the harvest returned are listed here in one place instead of distributed through
 the sections above, because for most of these clusters the pre-2015 work is the foundation the contemporary
 work cites rather than a competing account. There are 679 of them.
 
@@ -2917,8 +2920,8 @@ The generator is a detached package inside the Keleusma repository, consuming th
 in-memory module representation and emitting [LLVM intermediate representation][ref_llvm_langref] through
 the [inkwell][ref_inkwell] bindings. The bytecode it consumes has already passed a structural verifier, in
 the tradition the [Java Virtual Machine Specification][ref_jvm_spec] sets out for bytecode verification, so
-the backend refuses anything it cannot lower rather than approximating it. The classification instrument is
-a test in the same package, reporting rather than asserting, with one guard that fails if the corpus walk
+the backend declines what it cannot lower and does not approximate it. The classification instrument is a
+test in the same package, reporting rather than asserting, with one guard that fails if the corpus walk
 finds nothing, because a broken path and a real zero look identical in a report.
 
 The differential oracle drives both the virtual machine and the just-in-time compiled native code over
@@ -2950,25 +2953,24 @@ machine-code section carrying it is not emitted on this host.
 
 **Verified, and the verification method itself produced a finding twice.** All 35 hand-selected research
 identifiers were resolved against the registry and compared with the work they are cited as.
-**Thirty-five of thirty-five resolve to that work, an error rate of zero.**
-The 1,945 harvested identifiers were **not** audited that way and do not need to be,
-because they were transcribed from the registry that issued them rather than recalled, so the failure mode
-the audit exists to catch cannot arise. What the audit would still catch, and did not run for, is a
-harvested record cited for a claim it does not support, and no harvested record is cited for any claim.
+**Thirty-five of thirty-five resolve to that work, an error rate of zero.** The 1,945
+harvested identifiers were **not** audited that way and do not need to be, because they were transcribed
+from the registry that issued them rather than recalled, so the failure mode the audit exists to catch
+cannot arise. What the audit would still catch, and did not run for, is a harvested record cited for a claim
+it does not support, and no harvested record is cited for any claim.
 
 **Sampled, because checking all of them would be checking the registry against itself.** A random sample of
 250 harvested identifiers was resolved, and **250 of 250 exist**. What the sample does establish is a
 transcription check on the pipeline in this repository, since a fault there would affect a constant fraction
-of records rather than a rare one, and no such fraction appeared.
+of records and not a rare one, and no such fraction appeared.
 
-**Twenty-two of the 250, or 8.8 percent, resolved only through the registry.**
-The identifier resolver did not serve them. Twenty refused the connection outright, of which 14 were
-Defense Technical Information Center deposits, and 2 returned a not-found response from a publisher that no
-longer serves the landing page.
-**In every one of the 22 the identifier is registered and the record is correct.**
-The defect is therefore in the resolution path and not in the citation. It is reported because a reader checking a sample of these
-references by clicking them will meet roughly one failure in eleven, and that failure is not evidence of a
-bad citation.
+**Twenty-two of the 250, or 8.8 percent, resolved only through the registry.** The identifier resolver did
+not serve them. Twenty refused the connection outright, of which 14 were Defense Technical Information
+Center deposits, and 2 returned a not-found response from a publisher that no longer serves the landing
+page. **In every one of the 22 the identifier is registered and the record is correct.** The defect is
+therefore in the resolution path and not in the citation. It is reported because a reader checking a sample
+of these references by clicking them will meet roughly one failure in eleven, and that failure is not
+evidence of a bad citation.
 
 **Two passes were run with two different instruments and they flagged different records, which is itself the lesson.**
 A title-overlap heuristic flagged four. A later check comparing author surname and year flagged five.
@@ -3081,7 +3083,7 @@ which is a generative process that produces plausible identifiers for works that
 transcribed from the registry that issued it and was never a guess. What harvesting does not remove is the
 risk that a correctly transcribed record is cited for a claim it does not support, and that risk falls on
 the 35 hand-selected entries, which is why those and only those are also checked against the
-work they are cited as. The result of that check is reported in the Epistemic State rather than assumed.
+work they are cited as. The result of that check is reported in the Epistemic State and not assumed.
 
 ### Reference
 
