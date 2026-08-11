@@ -245,6 +245,20 @@ A return-based **lowering**, meaning a translation from the intermediate form do
 the suspension is gone. There is no third option, and **no analysis of the chunk's shape changes this**,
 because the deficiency is in the calling convention rather than in the chunk.
 
+**The obvious objection is that the completion could arrive on a second call, and the reason it cannot is the part of the return convention that is easiest to skip over.**
+The convention has no resumption point. The host drives the chunk by calling a plain function again, passing
+the resume value as the argument, so the sequence the host executes is
+
+$$f(a) = v_0, \qquad f(r_1) = v_1, \qquad f(r_2) = v_2, \qquad \ldots$$
+
+**and $f$ carries nothing between calls.** For a divergent chunk that is exactly right, because the reset
+instruction rewinds to the same place and clears every local, so re-entering from the top is what resumption
+means there. **For a terminating chunk it is wrong.** A second call re-runs the body from the beginning and
+suspends again, so it yields a second time and never reaches the completion at all.
+
+**Everything the host will ever learn about one terminating execution therefore has to arrive from the first call**,
+which is why the budget is one slot rather than one slot per event.
+
 ### The counting argument, stated once
 
 Under the return convention a single native call exposes exactly the return **register**, which is one of
@@ -258,12 +272,30 @@ and no such injection exists whenever $\lvert W \rvert \ge 2$, by cardinality,
 
 $$\lvert W \times W \rvert \;=\; \lvert W \rvert^{2} \;=\; 2^{128} \;>\; 2^{64} \;=\; \lvert W \rvert.$$
 
+**The same statement in bits is the one that generalises.** An interface of $m$ machine words carries $64m$
+bits and a trace of $k$ words needs $64k$, so a faithful encoding requires
+
+$$64k \;\le\; 64m \qquad \Longleftrightarrow \qquad k \;\le\; m,$$
+
+and here $k = 2$ against $m = 1$. **The shortfall is 64 bits**, which is to say a whole second word.
+
 The general statement is immediate. For any chunk $k$ and convention $\varepsilon$,
 
 $$\mathrm{obs}(k) \;>\; \mathrm{chan}(\varepsilon) \quad\Longrightarrow\quad \varepsilon \text{ is not injective on } \mathcal{T}(k),$$
 
 and a non-injective encoding is one in which two distinct executions become indistinguishable to the host,
 which is precisely what it means for a lowering to be wrong.
+
+**The deficit does not grow with the number of suspensions, which is worth checking rather than assuming.**
+A terminating chunk with $n$ suspensions emits $n$ yielded values and one completion, so its trace carries
+$n+1$ words and the executions it can distinguish number $\lvert W \rvert^{\,n+1}$. The single call it is
+granted distinguishes $\lvert W \rvert$ of them, so the collapse factor is
+
+$$\frac{\lvert W \rvert^{\,n+1}}{\lvert W \rvert} \;=\; \lvert W \rvert^{\,n},$$
+
+which is catastrophic at every $n$ and no worse in kind at $n = 9$ than at $n = 1$.
+**The smallest instance was therefore the right one to check**, and checking a larger one would have added
+nothing.
 
 **The pigeonhole is doing all of the work**, and it is worth noticing how little it needs. It does not
 inspect the body, the number of suspensions, the control flow, or the corpus. It needs the alphabet of the
@@ -280,8 +312,20 @@ signature rather than a constant of the machine, and the honest statement is con
 $$\mathrm{chan}(\varepsilon_{\mathrm{ret}}) = 1 \;\text{ if the return type is } W, \qquad \mathrm{chan}(\varepsilon_{\mathrm{ret}}) = 2 \;\text{ if it is } W \times W.$$
 
 Under a two-word return the injection $\varepsilon : W \times W \to W \times W$ exists trivially, and the
-unification this article rejects becomes **representable**. The pigeonhole refutes the unification *at the
-signature the backend currently emits*, not for all time.
+unification this article rejects becomes **representable**.
+
+**Two designs are being run together here and they cost very different amounts, so they are worth separating.**
+Cramming both events into one call needs the pair $W \times W$, which is 128 bits against 64,
+**a shortfall of a whole word**. Making the convention re-entrant with a discriminator needs only
+
+$$\lvert \{\mathsf{Y}, \mathsf{F}\} \times W \rvert \;=\; 2 \cdot 2^{64} \;=\; 2^{65},$$
+
+**a shortfall of exactly one bit.** That single bit is what forces a second register, since $\lceil 65 / 64
+\rceil = 2$, and it is the whole reason the register-pair rules in the two application binary interfaces
+matter to this decision.
+**The expensive-sounding option costs one bit of information and one register of encoding**, which is a very
+different proposition from carrying a second word. The pigeonhole refutes the unification *at the signature
+the backend currently emits*, not for all time.
 
 That distinction matters and it was not visible from inside the problem. It surfaces a **third option** ,
 which is to widen every coroutine entry point so that it returns a discriminated pair,
@@ -289,8 +333,23 @@ which is to widen every coroutine entry point so that it returns a discriminated
 $$f : W \longrightarrow (\,\mathsf{tag} \in \{\mathsf{Y}, \mathsf{F}\},\; W\,)$$
 
 so that one convention carries both trace alphabets. The cost is that every call of every coroutine pays a
-wider return and a host-side discrimination, including the twenty-three chunks that need only one letter.
-Whether that is cheaper than two conventions is an empirical question this article does not answer.
+wider return and a host-side discrimination, including the **95.83 percent** of the corpus, twenty-three
+chunks of twenty-four, that need only one letter.
+
+**Whether that is cheaper than two conventions is an empirical question this article does not answer, and the shape of the comparison can be stated without measuring anything.**
+Writing $c_{\mathrm{tag}}$ for the per-call cost of the discriminator and $c_{\mathrm{meta}}$ for the
+one-off cost of declaring and dispatching two conventions, the totals over $N$ calls are
+
+$$C_{\mathrm{one}} = c_{\mathrm{tag}} N, \qquad C_{\mathrm{two}} = c_{\mathrm{meta}},$$
+
+so the widened return is cheaper only below
+
+$$N^{*} \;=\; \frac{c_{\mathrm{meta}}}{c_{\mathrm{tag}}}.$$
+
+**A per-call term always loses to a constant eventually**, and a stream abstraction exists to be called many
+times, so the crossover is the whole question.
+**Neither constant is published and this article declines to invent them**, which is why the recommendation
+below rests on the memory property rather than on a cost model.
 
 **Two production language runtimes already do exactly this**, which is the strongest argument available that
 the option is practical rather than merely representable. A [Kotlin][ref_kotlin_coroutines] suspending
@@ -302,11 +361,17 @@ sentinel. Both carry the completion and the suspension through one interface, an
 call.
 
 **The sentinel form has a hazard the tagged form does not**, and it is worth naming because the narrow
-encoding is the tempting one here. Carving a reserved value out of $W$ shrinks the value space to $\lvert W
-\rvert - 1$, and any program able to produce the reserved value as a legitimate yield becomes
-unrepresentable. Kotlin can afford it because the sentinel is a reference no user value aliases. A backend
-whose yielded values are arbitrary machine words cannot, so for Keleusma the tagged pair is the honest form
-and the sentinel is unavailable.
+encoding is the tempting one here. Carving a reserved value out of $W$ shrinks the value space to
+
+$$\lvert W \rvert - 1 \;=\; 2^{64} - 1 \;=\; 18{,}446{,}744{,}073{,}709{,}551{,}615,$$
+
+which is 18,446,744,073,709,551,615 usable values, a loss of $2^{-64}$ or about $5.421 \times 10^{-20}$ of
+the space, and any program able to produce the reserved value as a legitimate yield becomes unrepresentable.
+**The loss is negligible in measure and total in reachability, and only the second of those matters.** A
+sentinel is available exactly when the yielded type is a proper subset of $W$ missing at least one element,
+which is a statement about the type rather than about how unlikely the value is. Kotlin can afford it
+because the sentinel is a reference no user value aliases. A backend whose yielded values are arbitrary
+machine words cannot, so for Keleusma the tagged pair is the honest form and the sentinel is unavailable.
 
 **The correction is left in the text rather than folded into the argument**, because the sequence is the
 useful part. A counting argument was stated in a form stronger than the evidence supported, and reading the
@@ -395,10 +460,15 @@ the corpus the rule was written against and diverge on the next ten cases, which
 a whitelist standing in for a predicate.
 
 **The cost is measurable and is not correctness.** Nothing is mislowered, because the rule refuses rather
-than admits. The cost is coverage, since ten stream chunks that could use the cheap convention currently do
-not. The fix is a small generalisation and it is not attempted here, because this article's subject is the
-convention question and a coverage improvement inside it would be a second claim wearing the first one's
-clothes.
+than admits. The cost is coverage. Writing $R$ for what the rule admits and $P$ for what the property
+licenses,
+
+$$\frac{\lvert R \rvert}{\lvert K_\Sigma \rvert} \;=\; \frac{14}{24} \;=\; 58.33\%, \qquad \frac{\lvert P \rvert}{\lvert K_\Sigma \rvert} \;=\; \frac{24}{24} \;=\; 100\%,$$
+
+so **41.67 percent of the corpus is refused the cheap convention for no reason**, and ten stream chunks that
+could use it currently do not. The fix is a small generalisation and it is not attempted here, because this
+article's subject is the convention question and a coverage improvement inside it would be a second claim
+wearing the first one's clothes.
 
 **It is reported because it was found by writing rather than by testing**, which is the second time in this
 series that assembling a table for publication has surfaced something a green test suite did not.
@@ -489,6 +559,22 @@ nine-out-of-nine figure has the form of a frequency $\hat{p} = 9/9 = 1$ over obs
 frequency estimates a proportion. It does not bound a maximum, and $\Phi$ is a statement about a maximum,
 
 $$\Phi \iff \max_{b \in \mathcal{B}} \mathrm{obs}(b) \le \mathrm{chan}(\iota).$$
+
+**The measurement is weak even taken on its own terms, and it is worth putting a number on how weak.**
+Reading nine successes from nine trials as a sampling exercise, the exact one-sided lower confidence bound
+on the underlying proportion at confidence $1 - \alpha$ is
+
+$$p_{\min} \;=\; \alpha^{1/n} \;=\; 0.05^{1/9} \;=\; 0.7169,$$
+
+so **the observation is consistent with 28.31 percent of cases failing**, and at 99 percent confidence the
+bound falls to 0.5995. A run of twenty-four would give 0.8827 and still leave 11.73 percent unexcluded, and
+licensing a claim of 0.99 at the same confidence would need
+
+$$n \;=\; \frac{\ln \alpha}{\ln 0.99} \;=\; 299$$
+
+consecutive successes. **Nine is not a large number and the arithmetic says so.** That is a separate and
+much weaker objection than the one this section rests on, because the counting argument does not need the
+sample to be small. **It would refute the unification from a sample of a million.**
 
 A uniformity measurement over instances is genuinely useful for deciding what to build first, which is the
 subject of the [previous article in this series][related_post_a369], because that question really is about

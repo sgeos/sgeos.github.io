@@ -22,8 +22,22 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `two_calling_conventions.markdown`, A370, editorial date 2026-08-07, series `keleusma_native` index 2 of
 an open-ended series, categories `engineering compilers verification`.
 
-**8,937 words, 21 display equations, 53 reference definitions, 15 sections and 24 subsections.** Not
-published.
+**8,937 words, 21 display equations, 53 reference definitions after the standards and retargeting
+pass.** **9,812 words, 31 display equations, 53 reference definitions after the equation-density
+review.** Not published.
+
+**THE EQUATION PASS FOUND THE ARTICLE'S LOAD-BEARING PREMISE IMPLICIT.** The return convention
+re-enters the chunk from the top, which the article states for the divergent case and never states as
+the reason the terminating case gets only one call. **I nearly corrected a sound argument before
+re-reading it.** The fix was to display the stateless re-entry and derive the one-call budget.
+
+**THE DEFICIT IS ONE BIT, NOT ONE WORD.** Cramming both events into one call needs 128 bits against
+64. Making the convention re-entrant with a discriminator needs 2^65, **a shortfall of exactly one
+bit**, which is what forces a second register and why the register-pair rules matter.
+
+**A CONFIDENCE BOUND TURNS A SLOGAN INTO A NUMBER.** Nine of nine licenses a lower bound of only
+**0.7169**, so the observation is consistent with **28.31 percent of cases failing**, and licensing a
+claim of 0.99 would need 299 consecutive successes.
 
 **Brought in from the Keleusma working tree and then given two distinct jobs**, which were to bring it to
 house standards and to retarget it for a general audience.
@@ -46,8 +60,9 @@ register.
 inviting shape, where the figure that actually misled was **nine of nine**, and a leftover sentence from
 the old lede had been glued onto a new paragraph.
 
-**Remaining work**: the pilot's call. The article is complete and internally verified, and it has not been
-through the four-pass review the X-Planes articles get, because it did not arrive that way.
+**Remaining work**: the pilot's call. Two of the four X-Planes passes have now been applied, being the
+standards brush-up and the equation-density review. A primary-reference review and a publication review
+have not.
 
 ## X-Planes McDonnell Douglas X-36 A333 2025-11-11
 
