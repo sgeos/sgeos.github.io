@@ -272,8 +272,9 @@ and no such injection exists whenever $\lvert W \rvert \ge 2$, by cardinality,
 
 $$\lvert W \times W \rvert \;=\; \lvert W \rvert^{2} \;=\; 2^{128} \;>\; 2^{64} \;=\; \lvert W \rvert.$$
 
-**The same statement in bits is the one that generalises.** An interface of $m$ machine words carries $64m$
-bits and a trace of $k$ words needs $64k$, so a faithful encoding requires
+**The same statement in bits is the one that generalises**, and it is the elementary case of the
+channel-capacity argument [Shannon 1948][research_shannon_1948] introduced. An interface of $m$ machine
+words carries $64m$ bits and a trace of $k$ words needs $64k$, so a faithful encoding requires
 
 $$64k \;\le\; 64m \qquad \Longleftrightarrow \qquad k \;\le\; m,$$
 
@@ -459,6 +460,13 @@ and the containment is what makes the defect a coverage loss rather than a corre
 the corpus the rule was written against and diverge on the next ten cases, which is the standard failure of
 a whitelist standing in for a predicate.
 
+**A sound but incomplete rule is the normal condition of static analysis and this instance is not the normal reason for it.**
+The framework of [Cousot and Cousot 1977][research_cousot_1977] exists because an exact answer is often
+uncomputable, so an analysis deliberately accepts imprecision in exchange for soundness.
+**The imprecision here was not forced.** The property is decidable on straight-line bytecode by summing two
+integers, so nothing about the problem required an approximation, and the rule is an approximation that
+nobody chose. **That is a worse position than the classical one and an easier one to fix.**
+
 **The cost is measurable and is not correctness.** Nothing is mislowered, because the rule refuses rather
 than admits. The cost is coverage. Writing $R$ for what the rule admits and $P$ for what the property
 licenses,
@@ -562,7 +570,8 @@ $$\Phi \iff \max_{b \in \mathcal{B}} \mathrm{obs}(b) \le \mathrm{chan}(\iota).$$
 
 **The measurement is weak even taken on its own terms, and it is worth putting a number on how weak.**
 Reading nine successes from nine trials as a sampling exercise, the exact one-sided lower confidence bound
-on the underlying proportion at confidence $1 - \alpha$ is
+of [Clopper and Pearson 1934][research_clopper_pearson_1934] on the underlying proportion at confidence $1 -
+\alpha$ is
 
 $$p_{\min} \;=\; \alpha^{1/n} \;=\; 0.05^{1/9} \;=\; 0.7169,$$
 
@@ -572,9 +581,13 @@ licensing a claim of 0.99 at the same confidence would need
 
 $$n \;=\; \frac{\ln \alpha}{\ln 0.99} \;=\; 299$$
 
-consecutive successes. **Nine is not a large number and the arithmetic says so.** That is a separate and
-much weaker objection than the one this section rests on, because the counting argument does not need the
-sample to be small. **It would refute the unification from a sample of a million.**
+consecutive successes. **Nine is not a large number and the arithmetic says so.** The case of no observed
+failures is the one [Hanley and Lippman-Hand 1983][research_hanley_lippmanhand_1983] treat under the heading
+of whether nothing going wrong means everything is all right, where they give the same bound in its
+approximate form as a rule of three.
+**Their subject is clinical and the arithmetic is indifferent to that.** That is a separate and much weaker
+objection than the one this section rests on, because the counting argument does not need the sample to be
+small. **It would refute the unification from a sample of a million.**
 
 A uniformity measurement over instances is genuinely useful for deciding what to build first, which is the
 subject of the [previous article in this series][related_post_a369], because that question really is about
@@ -836,20 +849,33 @@ control-flow join while one inside a loop crosses a back edge.
 are stated and the frame-size measurement that would establish it was not performed, because the
 machine-code section carrying it is not emitted on this host.
 
-**Verified, and the verification method itself produced a finding.** All 31 research identifiers were
-resolved against the registry and compared to the cited title.
-**Thirty-one of thirty-one resolve to the work they are cited as, an error rate of zero.** A title-overlap
-heuristic flagged four, and inspecting each individually vindicated all four, for two distinct reasons worth
-separating. Three are cases where the registry splits a title from its subtitle, so that the stored title is
-"CakeML", "Coroutines" or "Capriccio" while the cited form carries the full descriptive title, and author
-and venue confirm each. The fourth is registered with a different agency than the one queried, since
-proceedings in the LIPIcs series deposit with DataCite rather than Crossref, so a Crossref lookup returns
-nothing for a perfectly valid identifier.
+**Verified, and the verification method itself produced a finding twice.** All 35 research identifiers were
+resolved against the registry and compared with the work they are cited as.
+**Thirty-five of thirty-five resolve to that work, an error rate of zero.**
 
-**The apparent 12.9 percent defect rate was therefore entirely instrument error**, and reporting it as a
-citation problem would have been a measurement mistake of exactly the kind this series keeps documenting. It
-is recorded because the [previous article][related_post_a369] reported a 5.5 percent rate by the same method
-and did not separate these two artefacts from genuine mismatches, which means
+**Two passes were run with two different instruments and they flagged different records, which is itself the lesson.**
+A title-overlap heuristic flagged four. A later check comparing author surname and year flagged five.
+**The union is eight distinct records and every one of them was vindicated on individual inspection**, for
+four separate reasons.
+
+| Artefact | Records | What the registry does |
+|---|---|---|
+| Title split from subtitle | 3 | Stores "CakeML", "Coroutines" or "Capriccio" while the citation carries the full descriptive title |
+| Wrong registration agency | 1 | Proceedings in the LIPIcs series deposit with DataCite, so a Crossref lookup returns nothing for a valid identifier |
+| **Surname particle dropped** | 1 | Stores de Moura as "Moura", so an anchor built from the full surname fails a substring test |
+| **Registry typo** | 1 | Stores "Dyvbig" for Dybvig, so the article is right and the registry is wrong |
+| **Identifier resolves to a reprint** | 2 | Reynolds 1972 and Strachey and Wadsworth 1974 carry identifiers for their 1998 and 2000 reprints in Higher-Order and Symbolic Computation, so the registry year is later than the year cited |
+
+**The last category is the one worth carrying forward, because it is not an instrument error at all.** The
+identifier is correct, the work is correct, and the year genuinely differs, since a foundational paper and
+its journal reprint are two publications of one text.
+**A checker comparing years will flag every reprinted classic in any bibliography**, and a bibliography of
+foundational work is mostly reprinted classics.
+
+**Not one of the eight was a citation defect**, and reporting any of them as one would have been a
+measurement mistake of exactly the kind this series keeps documenting. It is recorded because the
+[previous article][related_post_a369] reported a 5.5 percent rate by the same method and did not separate
+these artefacts from genuine mismatches, which means
 **that figure is an upper bound rather than an estimate** and the true rate there may be lower.
 
 **Corrected during writing, and left visible.** The plan this article set out to support was to unify the
@@ -908,13 +934,17 @@ coincidence.
 
 ## References
 
-**All references below are primary**, meaning language specifications, application binary interface
-documents, and the reference documentation of the compiler infrastructure under discussion.
-**No secondary literature survey is offered.**
-The [previous article in this series][related_post_a369] reports a 5.5
-percent error rate on identifiers supplied from memory, and a survey assembled the same way would carry the
-same defect without the verification pass that caught it there. The primary documents below are cited
-because each states something the argument depends on, and each is verifiable at its published location.
+**Every reference below is a primary source**, meaning a language specification, an application binary
+interface document, the reference documentation of the compiler infrastructure under discussion, or the
+original paper that introduced a result the argument uses.
+**No source is cited at second hand and no reference is included for completeness.**
+Each states something the argument depends on and each is
+verifiable at its published location.
+
+**That constraint is the reason the survey in The Contemporary Literature is shaped as it is.** The
+[previous article in this series][related_post_a369] reports a 5.5 percent error rate on identifiers
+supplied from memory, so every identifier here was resolved against a registry and compared with the work
+it is cited as, and the result of that pass is reported in the Epistemic State rather than assumed.
 
 ### Reference
 
@@ -973,7 +1003,9 @@ because each states something the argument depends on, and each is verifiable at
 - [Compiling with Continuations][research_appel_1992]
 - [Pause 'n' Play: Formalizing Asynchronous C#][research_bierman_2012]
 - [A survey of compiler testing][research_chen_2020]
+- [Clopper and Pearson 1934, The use of confidence or fiducial limits illustrated in the case of the binomial][research_clopper_pearson_1934]
 - [Design of a separable transition-diagram compiler][research_conway_1963]
+- [Cousot and Cousot 1977, Abstract interpretation][research_cousot_1977]
 - [Abstracting control][research_danvy_filinski_1990]
 - [Defunctionalization at work][research_danvy_nielsen_2001]
 - [Revisiting coroutines][research_demoura_2009]
@@ -981,6 +1013,7 @@ because each states something the argument depends on, and each is verifiable at
 - [Kotlin coroutines: design and implementation][research_elizarov_2021]
 - [The theory and practice of first-class prompts][research_felleisen_1988]
 - [Adding delimited and composable control to a production programming environment][research_flatt_2007]
+- [Hanley and Lippman-Hand 1983, If nothing goes wrong, is everything all right?][research_hanley_lippmanhand_1983]
 - [Liberating effects with rows and handlers][research_hillerstrom_2016]
 - [CakeML: a verified implementation of ML][research_kumar_2014]
 - [Compiler validation via equivalence modulo inputs][research_le_2014]
@@ -995,6 +1028,7 @@ because each states something the argument depends on, and each is verifiable at
 - [Eliminating stack overflow by abstract interpretation][research_regehr_2005]
 - [Definitional interpreters for higher-order programming languages][research_reynolds_1972]
 - [Translation validation for a verified OS kernel][research_sewell_2013]
+- [Shannon 1948, A mathematical theory of communication][research_shannon_1948]
 - [Retrofitting effect handlers onto OCaml][research_sivaramakrishnan_2021]
 - [Continuations: A mathematical semantics for handling full jumps][research_strachey_1974]
 - [The F# asynchronous programming model][research_syme_2011]
@@ -1005,7 +1039,9 @@ because each states something the argument depends on, and each is verifiable at
 [research_appel_1992]: https://doi.org/10.1017/CBO9780511609619
 [research_bierman_2012]: https://doi.org/10.1007/978-3-642-31057-7_12
 [research_chen_2020]: https://doi.org/10.1145/3363562
+[research_clopper_pearson_1934]: https://doi.org/10.1093/biomet/26.4.404
 [research_conway_1963]: https://doi.org/10.1145/366663.366704
+[research_cousot_1977]: https://doi.org/10.1145/512950.512973
 [research_danvy_filinski_1990]: https://doi.org/10.1145/91556.91622
 [research_danvy_nielsen_2001]: https://doi.org/10.1145/773184.773202
 [research_demoura_2009]: https://doi.org/10.1145/1462166.1462167
@@ -1013,6 +1049,7 @@ because each states something the argument depends on, and each is verifiable at
 [research_elizarov_2021]: https://doi.org/10.1145/3486607.3486751
 [research_felleisen_1988]: https://doi.org/10.1145/73560.73576
 [research_flatt_2007]: https://doi.org/10.1145/1291151.1291178
+[research_hanley_lippmanhand_1983]: https://doi.org/10.1001/jama.1983.03330370053031
 [research_hillerstrom_2016]: https://doi.org/10.1145/2976022.2976033
 [research_kumar_2014]: https://doi.org/10.1145/2535838.2535841
 [research_le_2014]: https://doi.org/10.1145/2594291.2594334
@@ -1027,6 +1064,7 @@ because each states something the argument depends on, and each is verifiable at
 [research_regehr_2005]: https://doi.org/10.1145/1113830.1113833
 [research_reynolds_1972]: https://doi.org/10.1023/A:1010027404223
 [research_sewell_2013]: https://doi.org/10.1145/2491956.2462183
+[research_shannon_1948]: https://doi.org/10.1002/j.1538-7305.1948.tb00917.x
 [research_sivaramakrishnan_2021]: https://doi.org/10.1145/3453483.3454039
 [research_strachey_1974]: https://doi.org/10.1023/A:1010026413531
 [research_syme_2011]: https://doi.org/10.1007/978-3-642-18378-2_15

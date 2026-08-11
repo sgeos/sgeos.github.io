@@ -24,7 +24,26 @@ an open-ended series, categories `engineering compilers verification`.
 
 **8,937 words, 21 display equations, 53 reference definitions after the standards and retargeting
 pass.** **9,812 words, 31 display equations, 53 reference definitions after the equation-density
-review.** Not published.
+review.** **10,250 words, 31 display equations, 57 reference definitions after the
+primary-reference review.** Not published.
+
+**THE PRIMARY PASS FOUND A CLAIM THE ARTICLE CONTRADICTED ITSELF ON.** The References introduction
+asserted that all references are primary and that no secondary literature survey is offered, while the
+article carries 31 research citations in a section titled The Contemporary Literature. **A leftover
+from a draft that predated the survey**, now rewritten.
+
+**FOUR PRIMARY SOURCES ADDED FOR RESULTS THE EQUATION PASS IMPORTED**, being Clopper and Pearson 1934
+for the exact binomial bound, Hanley and Lippman-Hand 1983 for the no-observed-failures case, Shannon
+1948 for the channel-capacity framing, and Cousot and Cousot 1977 **cited to mark a contrast rather
+than a precedent**, since the classical imprecision is forced by undecidability and this article's was
+not.
+
+**THE CITATION AUDIT PRODUCED A FINDING THE ARTICLE DID NOT HAVE.** All 35 identifiers resolve to the
+work cited, an error rate of zero, but two instruments flagged a union of eight records and all eight
+were vindicated, giving four artefact categories rather than two. **The new one worth carrying forward
+is an identifier resolving to a reprint**, where identifier, work and year are each correct because a
+foundational paper and its journal reprint are two publications of one text, **so a year check will
+flag every reprinted classic in any bibliography**.
 
 **THE EQUATION PASS FOUND THE ARTICLE'S LOAD-BEARING PREMISE IMPLICIT.** The return convention
 re-enters the chunk from the top, which the article states for the divergent case and never states as
@@ -60,9 +79,9 @@ register.
 inviting shape, where the figure that actually misled was **nine of nine**, and a leftover sentence from
 the old lede had been glued onto a new paragraph.
 
-**Remaining work**: the pilot's call. Two of the four X-Planes passes have now been applied, being the
-standards brush-up and the equation-density review. A primary-reference review and a publication review
-have not.
+**Remaining work**: the pilot's call. Three of the four X-Planes passes have now been applied, being
+the standards brush-up, the equation-density review and the primary-reference review. A publication
+review has not.
 
 ## X-Planes McDonnell Douglas X-36 A333 2025-11-11
 

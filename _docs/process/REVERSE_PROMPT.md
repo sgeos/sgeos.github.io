@@ -9,111 +9,88 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-11
-**Task**: A370 equation-density review. **Committed, not pushed.** **Not published.**
+**Task**: A370 primary-reference review. **Committed, not pushed.** **Not published.**
 
-**21 display equations to 31.** The article moved from 8,937 to 9,812 words, with references unchanged
-at 53 definitions.
-
----
-
-## The Pass Nearly Broke a Sound Argument, and That Is the Main Report
-
-**The article's central claim is that a terminating coroutine must convey two events from one call, and my
-first reading concluded it was wrong.** The obvious objection is that the completion can simply arrive on a
-second call, which would make the deficit one bit of discrimination rather than one word of capacity.
-
-**Re-reading the convention showed the objection fails, and the reason was in the article all along without
-being connected to this argument.** The return convention has no resumption point. The host calls a plain
-function again with the resume value as the argument, so a second call **re-runs the body from the top**,
-suspends again, and never reaches the completion. For a divergent chunk that is exactly right, because the
-reset instruction rewinds to the same place and clears every local. **For a terminating chunk it means the
-first call is the entire budget.**
-
-**I have displayed the re-entry so the one-call budget is derived rather than asserted**, because a reader
-will raise the same objection I did and the article did not answer it.
+**References 53 to 57 definitions and research citations 31 to 35.** The article moved from 9,812 to
+10,250 words, with equations unchanged at 31.
 
 ---
 
-## The Deficit Is One Bit, Not One Word
+## The Article Contradicted Itself and I Nearly Accepted the Contradiction
 
-**Two designs were being run together and they cost very different amounts.**
+**The References introduction asserted that all references are primary and that no secondary literature
+survey is offered.** The article carries **31 research citations inside a section titled The Contemporary
+Literature**, which is a secondary literature survey and is one of its longest sections.
 
-| Design | States needed | Bits | Shortfall |
-|---|---|---|---|
-| Cram both events into one call | $\lvert W \times W \rvert = 2^{128}$ | 128 | **a whole word** |
-| Re-enter with a discriminator | $\lvert \{\mathsf{Y},\mathsf{F}\} \times W \rvert = 2^{65}$ | 65 | **one bit** |
-
-That single bit is what forces a second register, since $\lceil 65/64 \rceil = 2$, **and it is the whole
-reason the register-pair rules in the two application binary interfaces matter to the decision.** The
-option the article calls expensive costs one bit of information and one register of encoding.
-
----
-
-## A Confidence Bound Turns a Slogan Into a Number
-
-The article says no quantity of confirming instances establishes a universal claim. **True, and the
-measurement is weak even on its own terms.** Reading nine successes from nine trials as a sampling exercise,
-
-$$p_{\min} = \alpha^{1/n} = 0.05^{1/9} = 0.7169,$$
-
-so **the observation is consistent with 28.31 percent of cases failing**, falling to 0.5995 at 99 percent
-confidence. Licensing a claim of 0.99 would need **299** consecutive successes.
-
-**The article is careful that this is the weaker objection.** The counting argument does not need the sample
-to be small and would refute the unification from a sample of a million.
+**That introduction was a leftover from a draft written before the survey existed.** I flagged the risk
+last pass in the opposite direction, saying a reference review would be a change of character because the
+article was all-primary. **It was not all-primary and had not been for some time.** The introduction now
+says what is true, which is that every source is primary in the sense of being a specification, an
+interface document, reference documentation, **or the original paper that introduced a result the argument
+uses**.
 
 ---
 
-## Three Smaller Additions
+## Four Primary Sources for Results the Equation Pass Imported
 
-**The deficit does not grow with suspension count.** At $n$ suspensions the collapse factor is
-$\lvert W \rvert^{n}$, catastrophic at every $n$ and no worse in kind at nine than at one, **so the
-smallest instance really was the right one to check.**
+The equation pass added arithmetic that came from somewhere, and **none of it was cited**.
 
-**The over-strict rule now has its coverage stated**, at 58.33 percent admitted against 100 percent
-licensed, losing 41.67 percent.
-
-**The sentinel's cost is exact**, at 18,446,744,073,709,551,615 usable values and a loss near
-$5.421 \times 10^{-20}$. **Negligible in measure and total in reachability, and only the second matters.**
+- **Clopper and Pearson 1934** for the exact binomial confidence bound the nine-of-nine argument evaluates.
+- **Hanley and Lippman-Hand 1983** for the no-observed-failures case specifically, which is the same
+  arithmetic under a clinical heading, and the article says so.
+- **Shannon 1948** for the channel-capacity framing, of which the bits form is the elementary case.
+- **Cousot and Cousot 1977**, cited **to mark a contrast rather than a precedent**. A sound but incomplete
+  rule is the normal condition of static analysis because an exact answer is often uncomputable. **This
+  article's imprecision was not forced**, since the property is decidable on straight-line bytecode by
+  summing two integers, **which is a worse position than the classical one and an easier one to fix.**
 
 ---
 
-## Something I Wrote and Deleted
+## The Citation Audit Produced a Finding the Article Did Not Have
 
-**I first costed the two surviving options with a table of nanoseconds per call and a one-off cost in
-equivalent nanoseconds, and then removed it.** Inventing both constants produces a crossover that is a fact
-about the invented numbers.
+**All 35 identifiers resolve to the work they are cited as, an error rate of zero.**
 
-What replaced it is the structure, which needs no measurement. One widened convention pays a discriminator
-on every call and two conventions pay a constant, so the totals are $c_{\mathrm{tag}} N$ against
-$c_{\mathrm{meta}}$ and the crossover is $N^{*} = c_{\mathrm{meta}} / c_{\mathrm{tag}}$. **A per-call term
-always loses to a constant eventually**, and the article says both constants are unpublished rather than
-guessing them.
+**Two instruments flagged different records and that is itself the lesson.** The article's original
+title-overlap heuristic flagged four. A check comparing author surname and year flagged five. **The union
+is eight distinct records and every one was vindicated on individual inspection**, giving four artefact
+categories where the article documented two.
+
+| Artefact | Records | What the registry does |
+|---|---|---|
+| Title split from subtitle | 3 | Stores a short title where the citation carries the full one |
+| Wrong registration agency | 1 | LIPIcs deposits with DataCite, so a Crossref lookup finds nothing |
+| **Surname particle dropped** | 1 | Stores de Moura as Moura |
+| **Registry typo** | 1 | Stores Dyvbig for Dybvig, so the article is right and the registry is wrong |
+| **Identifier resolves to a reprint** | 2 | Reynolds 1972 and Strachey and Wadsworth 1974 carry identifiers for their 1998 and 2000 reprints |
+
+**The reprint category is the one worth carrying forward, because it is not instrument error at all.** The
+identifier is correct, the work is correct, and the year genuinely differs, because a foundational paper
+and its journal reprint are two publications of one text. **A checker comparing years will flag every
+reprinted classic in any bibliography**, and a bibliography of foundational work is mostly reprinted
+classics. That is a real limitation of the method this series uses, and it now sits in the article.
+
+The DataCite case was confirmed by querying DataCite directly, which returns the cited title, the cited
+year and both authors.
 
 ---
 
 ## Verification
 
-- `python3 tmp/a370/verify.py` **34 of 34**, by a verifier that does not import the calculation. The
-  confidence bound is checked by **Monte Carlo over 200,000 trials** rather than by evaluating the closed
-  form, the pigeonhole by **exhaustive enumeration at one to four bit words** rather than by cardinality,
-  and both tail segments by **simulating a stack machine** rather than by summing a table of deltas.
+- `python3 tmp/a370/verify.py` **34 of 34**, unchanged, since this pass added no arithmetic.
 - `python3 _verify.py` **0 errors, 21 warnings**, the unchanged baseline, from the repository root.
+- **57 definitions with zero undefined and zero orphaned**, and the Research block re-sorted by anchor.
 - `lint.scan` **clean**, after a reflow verified a fixed point and content-preserving.
-- **Prose scan clean** of em dashes, en dashes, contractions, prose colons, prose semicolons and italics.
-  The only parentheses are mathematical notation, which the style guide permits.
+- **Prose scan clean** of em dashes, en dashes, contractions, prose colons, prose semicolons, prose
+  parentheses and italics.
 - **Isolated build exit 0**, with **31 open and 31 close display-math delimiters**.
-- **The comma-spacing trap fired**, on a sentinel figure present only inside a display where LaTeX comma
-  spacing flattens it. Stated in prose as well.
 
 ---
 
 ## Next
 
-Your call. Two of the four passes have now been applied to A370, being the standards brush-up and this one.
-**A primary-reference review and a publication review have not**, and the article currently cites only
-primary documents by design, so a reference pass would be a larger change of character than it was for the
-X-Planes articles.
+Your call. **Three of the four passes have now been applied to A370**, being the standards brush-up, the
+equation-density review and this one. **A publication review has not**, and for this article that would
+mean a contemporary-literature sweep, a full citation sweep, and a final structural read.
 
-The X-Planes series is unchanged at **thirty-seven of seventy-two**, none published, with **A334, the Boeing
-X-37, next** whenever you want it.
+The X-Planes series is unchanged at **thirty-seven of seventy-two**, none published, with **A334, the
+Boeing X-37, next** whenever you want it.
