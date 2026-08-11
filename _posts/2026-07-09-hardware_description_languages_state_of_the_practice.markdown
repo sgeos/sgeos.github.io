@@ -240,9 +240,7 @@ formal verification techniques.
 
 **SystemC for system-level modelling.**
 SystemC
-retains
-a
-substantial adoption
+retains wide adoption
 in
 system-on-chip design flows
 where
@@ -270,7 +268,7 @@ subsequent hardware implementation.
 SystemC
 also
 occupies
-a substantial share of
+a large share of
 high-level synthesis flows,
 where
 [Xilinx Vivado HLS][ref_vivado_hls]
@@ -341,12 +339,12 @@ Cadence
 and
 Siemens Electronic-Design-Automation
 provide
-substantial
+extensive
 complementary tooling.
 The concentration
 places
 a
-substantial dependency
+heavy dependency
 on
 the toolchain vendors
 for
@@ -548,7 +546,7 @@ synthesis,
 formal-verification-friendly
 intermediate representations,
 and
-substantial
+thorough
 device-independent optimisation.
 The project
 was
@@ -561,7 +559,7 @@ and
 has
 matured
 into
-a substantial
+a capable
 open-source
 synthesis toolchain
 that
@@ -661,7 +659,7 @@ for
 supported device families.
 Adoption
 is
-substantial in
+strong in
 academic,
 hobbyist,
 and
@@ -685,7 +683,7 @@ in
 a production-ready form,
 which
 excludes
-substantial industrial usage.
+much industrial usage.
 
 ## Embedded-Domain-Specific-Language Adoption
 
@@ -762,7 +760,7 @@ computer architecture research.
 **Amaranth.**
 Amaranth
 occupies
-a substantial share of
+a large share of
 the hobbyist and open-source
 field-programmable-gate-array
 design space.
@@ -781,7 +779,7 @@ target
 Lattice iCE40 and ECP5 devices.
 Amaranth
 has produced
-substantial
+extensive
 open-source hardware libraries,
 including
 LiteX
@@ -815,7 +813,7 @@ The language's
 Scala-based
 generator paradigm
 supports
-substantial parameterisation
+broad parameterisation
 of
 processor variants
 from
@@ -910,7 +908,7 @@ a
 research-only niche
 to
 a
-substantial component
+major component
 of
 industrial verification flows
 across
@@ -941,7 +939,7 @@ or
 Property Specification Language
 descriptions
 have
-substantial adoption
+wide adoption
 in
 industrial verification flows.
 Cadence's JasperGold,
@@ -1183,7 +1181,7 @@ generator framework
 built on
 Migen and Amaranth.
 It provides
-substantial libraries
+extensive libraries
 of
 pre-designed
 peripherals,
@@ -1299,7 +1297,7 @@ VHDL
 and
 SystemVerilog
 with
-substantial
+deep
 formal verification integration.
 The verification-methodology adoption
 in
@@ -1343,7 +1341,7 @@ The verification-methodology adoption
 in
 these segments
 is
-substantial
+strong
 but
 somewhat behind
 the safety-critical segments,
@@ -1393,7 +1391,7 @@ and
 Kami and Koika
 all
 occupying
-substantial shares
+sizeable shares
 of
 the academic project space.
 The academic segment
@@ -1430,7 +1428,7 @@ design flows
 because
 proprietary toolchains
 represent
-a substantial cost
+a serious cost
 and
 dependency
 that
@@ -1504,8 +1502,7 @@ proprietary toolchains
 for
 most industrial work.
 
-The most substantial
-recent
+The largest recent
 adoption shift
 is
 the integration of
@@ -1525,7 +1522,7 @@ over
 a decade
 represents
 a
-substantial
+major
 industry response
 to
 the design-complexity forcing function
@@ -1551,8 +1548,7 @@ support
 source-language-level
 formal verification.
 
-The most substantial
-open question
+The most consequential open question
 for
 the coming decade
 is
@@ -1582,7 +1578,7 @@ suggests
 that
 mainstream displacement
 requires
-substantial industrial commitment
+sustained industrial commitment
 and
 takes
 several decades
@@ -1687,7 +1683,7 @@ embedded-DSL revival languages
 appears
 unlikely
 absent
-substantial external forcing functions.
+strong external forcing functions.
 Articles A200 and A201
 covered
 the historical

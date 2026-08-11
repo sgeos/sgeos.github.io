@@ -16,6 +16,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+import diction
 import edits
 import lint
 import refs
@@ -706,6 +707,86 @@ def t_clean_unescapes_double_escaped_markup_to_a_fixed_point():
     assert refs.clean("Smith & Jones") == "Smith and Jones"
     # and the iteration must terminate on text that is not markup at all
     assert refs.clean("A plain title") == "A plain title"
+
+
+
+def t_collocations_separates_a_term_of_art_from_a_verbal_tic():
+    """A RATE CANNOT TELL THEM APART AND THE CORPUS PAID FOR THAT TWICE.
+
+    `specific` reached 15.07 per thousand in the rocket propellant articles and 86 percent of
+    those uses are "specific impulse", which names a quantity and cannot be paraphrased.
+    `substantial` reached 10.6 per thousand in the hardware description languages article and
+    named nothing. The counts look alike and only the neighbouring words separate them, so
+    the collocation share is the discriminator a frequency warning has to carry.
+    """
+    art = "The specific impulse is high. A vacuum specific impulse of four hundred. " * 4
+    _total, _before, after, stats = diction.collocations(art, "specific")
+    assert after[0][0] == "impulse", after
+    assert stats["top_share"] > 0.9, stats
+
+    tic = ("A substantial adoption followed. There is substantial evidence here. "
+           "The substantial gains were real. Substantial concerns remain open. ")
+    _t2, _b2, _a2, s2 = diction.collocations(tic, "substantial")
+    assert s2["top_share"] < 0.5, s2
+
+
+def t_top_collocate_skips_function_words():
+    """"configuration the" IS THE MOST FREQUENT PAIR AND IT IS NOT EVIDENCE.
+
+    The first version of this helper reported the raw most-common neighbour, which for a noun
+    in ordinary prose is whatever determiner follows the clause. It answered "configuration
+    the" for an article whose real signal was "capability configuration", which would have
+    told a reader triaging the warning nothing at all.
+    """
+    text = ("The capability configuration the first. A capability configuration the second. "
+            "The capability configuration the third. A vehicle configuration the fourth. ")
+    word, count, share, phrase = diction.top_collocate(text, "configuration")
+    assert word == "capability", (word, count, share, phrase)
+    assert phrase == "capability configuration", phrase
+    assert 0.0 < share <= 1.0, share
+
+
+def t_collocations_reads_both_directions_because_the_compound_side_differs():
+    """A NOUN COMPOUNDS TO ITS LEFT AND AN ADJECTIVE TO ITS RIGHT.
+
+    `configuration` forms "capability configuration", so the evidence precedes it. `specific`
+    forms "specific impulse", so the evidence follows it. Testing only one direction misreads
+    whichever word compounds the other way, which is the mistake that briefly recommended
+    rewriting four published articles.
+    """
+    noun = "A capability configuration and another capability configuration appear here. "
+    _t, before, _a, st = diction.collocations(noun, "configuration")
+    assert before[0][0] == "capability", before
+    assert st["before_named"] > st["after_named"], st
+
+    adj = "The specific impulse and the specific impulse are quoted throughout. "
+    _t2, _b2, after, st2 = diction.collocations(adj, "specific")
+    assert after[0][0] == "impulse", after
+    assert st2["after_named"] > st2["before_named"], st2
+
+
+def t_word_outliers_counts_a_silent_peer_as_a_zero():
+    """TAKING A MAXIMUM OVER ONLY THE PEERS THAT USE A WORD HIDES EVERY OUTLIER.
+
+    If the peer maximum is computed from the articles that happen to contain a word, an
+    article that is the only one using it compares against itself and looks unremarkable. A
+    peer that never uses the word has a rate of zero and must be counted as one.
+    """
+    body = " ".join(["alpha beta gamma delta"] * 150)
+    text = body + " widget widget widget widget widget widget widget"
+    silent = [body] * 3
+    rows, peer_n = diction.word_outliers(text, silent, vocabulary=["widget"], min_count=3)
+    assert peer_n == 3, peer_n
+    assert rows and rows[0][1] == "widget", rows
+    assert rows[0][6] == 0, rows[0]          # peers using the word
+    assert rows[0][0] is None, rows[0]       # no peer ever used it, so no ratio exists
+
+    user = body + " widget widget"
+    rows2, _ = diction.word_outliers(text, [body, body, user], vocabulary=["widget"], min_count=3)
+    assert rows2[0][6] == 1, rows2[0]
+    assert rows2[0][5] > 0, rows2[0]         # a peer maximum now exists
+    assert rows2[0][0] > 1.0, rows2[0]       # and this article exceeds it
+
 
 
 for name, fn in sorted(list(globals().items())):

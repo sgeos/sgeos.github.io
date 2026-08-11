@@ -4696,7 +4696,7 @@ A278 drafted 2026-07-24 with equation-density expansion pass, reference-density 
 **Article Numbers**: A173 through A187 (fifteen articles)
 **Completion**: 100%
 **Publication Sensibility**: High (a comprehensive series treating every major two-dimensional projection mode in commercial games, with cross-cutting articles on draw order and picking and a synthesis closer that ties the series to the modern projective pipeline)
-**Status**: Published 2026-04-18 through 2026-05-02 (back-dated, landing flush with the patent and startup strategy series at 2026-05-03). Total ~14,640 lines, ~343 display equations, ~1,144 inline expressions, ~106 unique references across the fifteen articles. Forward references in prose to be converted to {% post_url %} Liquid tags in a follow-up pass.
+**Status**: Published 2026-04-18 through 2026-05-02 (back-dated, landing flush with the patent and startup strategy series at 2026-05-03). Total ~14,640 lines, ~343 display equations, ~1,144 inline expressions, ~106 unique references across the fifteen articles. Forward references in prose to be converted to {% raw %}`{% post_url %}`{% endraw %} Liquid tags in a follow-up pass.
 
 ### Venus Cloudtop Buoyant Analog — Published
 

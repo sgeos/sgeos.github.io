@@ -96,6 +96,23 @@ def load_exemptions():
     return out
 
 
+
+def collocation_hint(text, word):
+    """Strongest content-word neighbour of `word`, as (phrase, count, share).
+
+    Delegates to `_lib/diction.py` when it is importable and returns an empty result when it
+    is not. The verifier must run on a bare runner, so a missing library degrades the warning
+    rather than failing the build.
+    """
+    try:
+        sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "_lib"))
+        import diction
+    except Exception:
+        return "", 0, 0.0
+    _w, n, share, phrase = diction.top_collocate(text, word)
+    return phrase, n, share
+
+
 def exempt(exemptions, check, name, word=None):
     for e in exemptions.get(check, []):
         if e.get("post") and e["post"] not in name:
@@ -410,7 +427,20 @@ def check_post(path, text, rep, exemptions=None, is_draft=False):
             if n >= 10 and rate >= WORD_RATE_LIMIT:
                 if exempt(exemptions, "word-frequency", name, w):
                     continue
-                rep.warn("word-frequency", f"{name}: `{w}` {n}x = {rate:.1f}/1k (limit {WORD_RATE_LIMIT})")
+                # A COUNT ALONE CANNOT BE TRIAGED. `specific` at 15.07 per thousand is
+                # "specific impulse" and must not be touched; `substantial` at 10.6 names
+                # nothing and should go. The strongest content collocate is the evidence
+                # that separates them, so the warning carries it and a reader can decide
+                # without rerunning anything. Reported, never acted on automatically.
+                hint = ""
+                try:
+                    phrase, pn, share = collocation_hint(text, w)
+                    if pn:
+                        hint = f", top collocate `{phrase}` {pn}x = {share * 100:.0f}%"
+                except Exception:
+                    hint = ""
+                rep.warn("word-frequency",
+                         f"{name}: `{w}` {n}x = {rate:.1f}/1k (limit {WORD_RATE_LIMIT}{hint})")
 
     return d
 

@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Android Unit Testing"
-date: 2026-02-27 00:01:00 +0000
+date: 2026-08-16 00:01:00 +0000
 categories: android testing kotlin rust
 ---
 

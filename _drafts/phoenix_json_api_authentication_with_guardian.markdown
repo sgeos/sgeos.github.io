@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title:  "Authenticating a Phoenix JSON API with Guardian and Ueberauth"
-date:   2026-02-28 00:01:00 +0000
+date:   2026-08-17 00:01:00 +0000
 categories: phoenix elixir
 ---
 

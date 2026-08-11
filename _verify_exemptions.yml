@@ -73,6 +73,80 @@ word-frequency:
       Context-window configuration is the article's subject; `context` itself
       was already excluded on the same grounds.
 
+  # ---------------------------------------------------------------------------
+  # Added 2026-08-11. Each reason states a MEASURED modifier split, because the
+  # discriminator between a term of art and a tic is whether the word appears in
+  # named compounds or bare. A bare count is what makes a warning worth acting
+  # on, and a rate alone cannot see it.
+  # ---------------------------------------------------------------------------
+
+  - post: spacex_history
+    word: configuration
+    reason: >
+      The series analyses vehicle, service and institutional configurations and
+      names each one. Measured 2026-08-11 across the four flagged articles, the
+      modified share is 98 percent in value_capture, 99 percent in
+      decomposability, 79 percent in generality_forcing and 62 percent in
+      governance, with "capability configuration" at 39 uses and
+      "decomposability configuration" at 25 the largest compounds. The
+      determiner-led residue is ordinary anaphora with a named antecedent.
+
+  - post: camera_as_linear_operator
+    word: framework
+    reason: >
+      Measured 2026-08-11 at 95 percent modified, led by "projective framework"
+      at 12 uses. The projective framework is the article's subject and the
+      term is standard in projective geometry.
+
+  - post: picking_and_hit_testing
+    word: framework
+    reason: >
+      Measured 2026-08-11 at 90 percent modified, led by "picking framework" at
+      10 uses and "map framework" at 4. Each names a distinct construct the
+      article defines.
+
+  - post: contemporary_snapshot_and_extrapolation
+    word: framework
+    reason: >
+      Measured 2026-08-11 at 70 percent modified, led by "order framework" at
+      11 uses, which is the analytical frame the industrialization_waves series
+      names by design. Companion to the non_industrializers entry below.
+
+  - post: non_industrializers_and_edge_cases
+    word: framework
+    reason: >
+      Measured 2026-08-11 at 88 percent modified, led by "order framework" at 8
+      uses. Same series and same named frame as
+      contemporary_snapshot_and_extrapolation.
+
+  - post: llm_knowledge_graphs
+    word: configuration
+    reason: >
+      Measured 2026-08-11 at 67 percent modified, led by "agent configuration".
+      Fifteen uses in a short article, and the residue has a named antecedent.
+
+  - post: fixup_tables_forward_jump_problem
+    word: mechanism
+    reason: >
+      The fixup table mechanism is the article's subject and its title.
+      Measured 2026-08-11 at 13 uses in 2,058 words, of which the bare ones are
+      anaphora referring to that mechanism. Ordinary English, not filler.
+
+  - post: claude_code_getting_started_over_ssh
+    word: configuration
+    reason: >
+      Measured 2026-08-11 at 56 percent modified, being "client configuration",
+      "host configuration", "timeout configuration" and "configuration file".
+      Secure Shell configuration is what the article is about.
+
+  - post: x_planes_martin_marietta_x24
+    word: factor
+    reason: >
+      Measured 2026-08-11 as "load factor" at 13 uses, "a factor of" as the
+      ordinary multiplicative idiom at 10, and "efficiency factor" at 4. Load
+      factor is a defined aerodynamic term, matching the existing
+      structures_and_the_flight_envelope entry.
+
 style-contraction:
   - post: virtual_reputation_manipulation_competitor_attack
     reason: >

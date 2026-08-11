@@ -4,7 +4,7 @@ mathjax: false
 comments: true
 title:  "Getting Started with Playdate"
 date:   2022-10-03 20:21:04 +0000
-categories: gamedev playdate c c++ lua
+categories: gamedev playdate c cpp lua
 ---
 
 <!-- A55 -->

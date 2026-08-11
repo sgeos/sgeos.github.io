@@ -4,7 +4,7 @@ mathjax: false
 comments: true
 title:  "Using cc-rs to Mix Rust with C, C++, and ASM"
 date:   2022-10-07 20:34:48 +0000
-categories: rust c c++ asm
+categories: rust c cpp asm
 ---
 
 <!-- A59 -->

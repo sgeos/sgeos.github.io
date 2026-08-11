@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "Getting Started with Claude Code Over SSH"
-date: 2026-02-26 00:01:00 +0000
+date: 2026-08-15 00:01:00 +0000
 categories: ai ai-tools ssh development
 ---
 

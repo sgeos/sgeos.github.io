@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title:  "Getting Started with Solana Using Rust and Pinocchio"
-date:   2026-03-02 00:01:00 +0000
+date:   2026-08-19 00:01:00 +0000
 categories: solana rust
 ---
 

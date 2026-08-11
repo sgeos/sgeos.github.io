@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "Getting Started with Claude Code on OpenBSD"
-date: 2026-02-25 00:01:00 +0000
+date: 2026-08-14 00:01:00 +0000
 categories: ai ai-tools openbsd development
 ---
 

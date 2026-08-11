@@ -201,3 +201,222 @@ def report(path, peer_glob=None, patterns=PHRASES):
     flagged = [r for r in rows if r[5] == "over-max"]
     print(f"  {len(flagged)} construction(s) above the corpus maximum")
     return rows
+
+
+# ===========================================================================================
+# Collocation. THE DISCRIMINATOR BETWEEN A TERM OF ART AND A VERBAL TIC.
+#
+# A rate cannot tell them apart and the corpus has paid for that twice. `specific` reaches
+# 15.07 per thousand in the rocket propellant articles and 87 percent of those uses are the
+# phrase "specific impulse", which names a quantity and cannot be paraphrased. `substantial`
+# reaches 10.6 in the hardware description languages article and names nothing at all. The
+# counts look alike. Only the neighbouring words separate them.
+#
+# THIS REPORTS AND DOES NOT CLASSIFY, and the restraint is deliberate. An automatic verdict
+# needs to know that "achieved substantial" is a verb followed by an adjective while
+# "capability configuration" is a compound noun, and that is a part-of-speech judgement this
+# module has no tagger for. A wrong verdict here would license deleting a term of art from a
+# published article, so the tool lays out the evidence and a human writes the reason into
+# `_verify_exemptions.yml`.
+#
+# DIRECTION MATTERS AND IT IS NOT THE SAME FOR EVERY WORD. For a noun such as `configuration`
+# the compound is formed by what PRECEDES it. For an adjective such as `specific` it is formed
+# by what FOLLOWS. Both directions are therefore returned and neither is privileged.
+# ===========================================================================================
+
+_FUNCTION_WORDS = frozenset("""
+a an the this that these those its it his her their our my your no any some each every
+and or but nor so yet for of to in on at by with from as is are was were be been being
+has have had do does did will would can could may might must shall should
+more most much many few less least such than then there here when where which who whom
+not only also very quite rather one two both either neither
+""".split())
+
+
+def collocations(text, word, limit=10):
+    """Words immediately before and after each occurrence, in author prose only.
+
+    Returns (total, before, after, stats) where before and after are lists of
+    (collocate, count) sorted by count, and stats carries the concentration figures a
+    reader needs to judge whether the word is participating in a named term.
+
+    Reference link text is excluded, because a bibliography is other people's words and in a
+    citation-heavy article it swamps the author's.
+    """
+    tokens = [t.lower() for t in re.findall(r"[A-Za-z][A-Za-z'-]*", prose(text))]
+    target = word.lower()
+    before, after = collections.Counter(), collections.Counter()
+    total = 0
+    for i, tok in enumerate(tokens):
+        if tok != target:
+            continue
+        total += 1
+        if i:
+            before[tokens[i - 1]] += 1
+        if i + 1 < len(tokens):
+            after[tokens[i + 1]] += 1
+
+    def _named(counter):
+        return sum(k for w, k in counter.items() if w not in _FUNCTION_WORDS)
+
+    stats = {
+        "total": total,
+        "before_named": _named(before),
+        "after_named": _named(after),
+        # Concentration: how much of the usage one collocate accounts for. High
+        # concentration in either direction is the signature of a fixed term.
+        "top_before": (before.most_common(1)[0] if before else ("", 0)),
+        "top_after": (after.most_common(1)[0] if after else ("", 0)),
+    }
+    stats["top_share"] = (
+        max(stats["top_before"][1], stats["top_after"][1]) / total if total else 0.0
+    )
+    stats["named_share"] = (
+        max(stats["before_named"], stats["after_named"]) / total if total else 0.0
+    )
+    return total, before.most_common(limit), after.most_common(limit), stats
+
+
+def top_collocate(text, word):
+    """The single most frequent neighbouring word and its share, either direction.
+
+    Intended for a one-line annotation on a frequency warning, so that the warning carries
+    the evidence needed to triage it instead of only a count.
+    """
+    total, _before, _after, _stats = collocations(text, word)
+    if not total:
+        return "", 0, 0.0, ""
+    # A FUNCTION WORD IS NOT EVIDENCE. "configuration the" is the most frequent pair in one
+    # article and says nothing about whether the word names a term, so the strongest CONTENT
+    # collocate is reported instead and the function words are passed over.
+    def strongest(pairs):
+        for w, k in pairs:
+            if w not in _FUNCTION_WORDS:
+                return w, k
+        return "", 0
+
+    bw, bn = strongest(_before)
+    aw, an = strongest(_after)
+    if an > bn:
+        return aw, an, an / total, f"{word} {aw}"
+    return bw, bn, bn / total, f"{bw} {word}"
+
+
+# The tic class. Pathological BY KIND rather than by rate, because every member can be
+# deleted from a sentence without changing its meaning. Enumerated rather than discovered,
+# since a relative check cannot separate a tic from a subject and usually flags the subject.
+TICS = """
+specific specifically particular particularly essential essentially fundamental fundamentally
+crucial crucially critical key vital important importantly significant significantly
+notable notably remarkable remarkably interesting interestingly
+indeed actually really truly genuinely certainly clearly obviously evidently plainly
+simply merely just only quite very rather somewhat fairly relatively
+precisely exactly literally effectively basically generally typically usually
+robust seamless leverage utilise utilize holistic comprehensive nuanced
+underlying inherent intrinsic straightforward trivial nontrivial obvious
+furthermore moreover additionally however nevertheless nonetheless therefore thus hence
+overall ultimately arguably presumably
+delve realm landscape tapestry testament pivotal
+""".split()
+
+
+def word_rates(text, vocabulary=None):
+    """Occurrences per thousand author prose words, for each word in a vocabulary."""
+    ws = words(prose(text))
+    n = len(ws)
+    if not n:
+        return {}, 0
+    counts = collections.Counter(ws)
+    vocab = vocabulary if vocabulary is not None else counts.keys()
+    return {w: 1000.0 * counts.get(w, 0) / n for w in vocab}, n
+
+
+def word_outliers(text, peer_texts, vocabulary=None, min_count=6):
+    """Words this article uses more than ANY peer article ever has.
+
+    A fixed per-thousand limit asks whether a word is frequent, which for a technical article
+    is often just what the subject requires. This asks whether the article exceeds the
+    author's own established practice, which is a better proxy for a tic.
+
+    A PEER THAT NEVER USES THE WORD CONTRIBUTES A ZERO. Taking the maximum over only the peers
+    that happen to use a word makes every rate look unremarkable.
+
+    Returns rows of (ratio_to_peer_max, word, count, rate, median, peer_max, peers_using),
+    worst first. A ratio of None means no peer ever used the word.
+    """
+    ws = words(prose(text))
+    n = len(ws)
+    counts = collections.Counter(ws)
+    peer_rates = collections.defaultdict(list)
+    peer_n = 0
+    for pt in peer_texts:
+        prates, pn = word_rates(pt)
+        if pn < 400:
+            continue
+        peer_n += 1
+        for w, r in prates.items():
+            peer_rates[w].append(r)
+
+    rows = []
+    vocab = vocabulary if vocabulary is not None else counts.keys()
+    for w in vocab:
+        k = counts.get(w, 0)
+        if k < min_count or not w.isalpha() or len(w) < 3:
+            continue
+        rate = 1000.0 * k / n if n else 0.0
+        rs = sorted(peer_rates.get(w, []) + [0.0] * (peer_n - len(peer_rates.get(w, []))))
+        if not rs:
+            rows.append((None, w, k, rate, 0.0, 0.0, 0))
+            continue
+        mx, med = rs[-1], rs[len(rs) // 2]
+        used = sum(1 for r in rs if r > 0)
+        rows.append((rate / mx if mx else None, w, k, rate, med, mx, used))
+    rows.sort(key=lambda r: (-1e9 if r[0] is None else -r[0]))
+    return rows, peer_n
+
+
+def collocation_report(path, word, limit=10):
+    """Print the evidence needed to decide whether `word` names a term or is a tic.
+
+    Prints both directions, because the compound side differs by part of speech, and prints
+    the concentration figures. IT OFFERS NO VERDICT. The reader writes the verdict into
+    `_verify_exemptions.yml` as a reason, which is what makes that file auditable.
+    """
+    text = open(path, encoding="utf-8").read()
+    total, before, after, stats = collocations(text, word, limit)
+    n = len(words(prose(text)))
+    rate = 1000.0 * total / n if n else 0.0
+    print(f"{os.path.basename(path)}: `{word}` {total}x in {n:,} author prose words "
+          f"= {rate:.2f}/1k")
+    print(f"  top collocate share {stats['top_share'] * 100:.0f} percent, "
+          f"content-word share {stats['named_share'] * 100:.0f} percent")
+    print(f"  {'preceding':>24s} | following")
+    for i in range(max(len(before), len(after))):
+        b = f"{before[i][0]} {word} ({before[i][1]})" if i < len(before) else ""
+        a = f"{word} {after[i][0]} ({after[i][1]})" if i < len(after) else ""
+        print(f"  {b:>24s} | {a}")
+    return total, before, after, stats
+
+
+def _main(argv):
+    if len(argv) >= 3 and argv[1] == "collocate":
+        word = argv[2]
+        paths = argv[3:]
+        if not paths:
+            print("usage: python3 _lib/diction.py collocate <word> <path>...")
+            return 2
+        for path in paths:
+            collocation_report(path, word)
+            print()
+        return 0
+    if len(argv) >= 3 and argv[1] == "report":
+        report(argv[2], argv[3] if len(argv) > 3 else None)
+        return 0
+    print("usage:\n"
+          "  python3 _lib/diction.py collocate <word> <path>...   evidence for one word\n"
+          "  python3 _lib/diction.py report <path> [peer-glob]    constructions vs peers")
+    return 2
+
+
+if __name__ == "__main__":
+    sys.exit(_main(sys.argv))
