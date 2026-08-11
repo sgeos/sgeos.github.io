@@ -17,6 +17,49 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Boeing X-32 A329 2025-11-07
+
+`x_planes_boeing_x32.markdown`, A329, editorial date 2025-11-07, series `x_planes` index 33 of 72.
+
+**7,195 lines, 15 display equations, 2,108 reference definitions, 39,311 words after the draft
+pass.** Committed, **not pushed**, **not published**.
+
+**THIS IS THE FIRST AIRCRAFT IN THE SERIES BUILT TO WIN A COMPETITION RATHER THAN TO ANSWER A
+RESEARCH QUESTION**, and the keystone is what a fly-off decides and on what evidence.
+
+**The propulsion half has a clean answer in one relation.** Static thrust is mass flow times jet
+velocity and the power added is half the mass flow times the velocity squared, so thrust is the
+square root of twice the power times the mass flow. **At fixed power, doubling the mass flow
+multiplies thrust by root two**, which is the entire case for a lift fan over direct lift.
+
+**Three published numbers that were never published together are mutually consistent.** The lift
+fan's 50-inch diameter, 20,000 pounds of cold thrust and 29,000 shaft horsepower imply a figure of
+merit of **0.697**, which is what a good ducted fan achieves.
+
+**The nozzle the direct-lift system would have needed is inverted rather than assumed** and comes
+out at 19.09 square feet, a single opening **4.93 feet across**, which does not fit on a 45-foot
+fighter.
+
+**THE COMPETITION IN ONE NUMBER.** At 24,030 pounds empty and a five percent control margin, direct
+lift permits a bring-back allowance over empty weight of **2,637 pounds** against **15,875** for the
+lift system, a ratio of **6.02**. The allowance is a small difference between two large numbers, so
+it amplifies a fractional thrust loss by **10.11** against 2.51, and a fifty degree inlet
+temperature rise from hot gas ingestion takes **45.5 percent** of it. Below 25,232 pounds of lift
+the allowance is negative.
+
+**THE SECOND FINDING CAME OUT OF BUILDING THE REFERENCE SET.** In a pool of 4,412 harvested records,
+**exactly one carries the X-32 in its title**, and it was written by the engine supplier after the
+decision, against 29 for the F-35 running continuously from 2002 to 2020. **The winner acquired a
+literature and the loser did not**, and the article's own evidentiary asymmetry is a direct
+inheritance of the decision's.
+
+**Verification.** 44 of 44 numerical checks passing with all article-facing values confirmed present
+in the draft, `_verify.py` at the 21-warning baseline with zero errors, check_any clean,
+`_lib/test_lib.py` at 48 of 48, and a 33-article isolated build rendering 16 sections, 50
+subsections, 12 tables and all 15 equations with zero broken anchors and zero empty headings.
+
+**15 equations is low against a corpus median of 94** and that is the equation pass's material.
+
 ## X-Planes Rockwell-MBB X-31 A328 2025-11-06
 
 `x_planes_rockwell_mbb_x31.markdown`, A328, editorial date 2025-11-06, series `x_planes` index 32
@@ -6217,8 +6260,8 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Forty-two files exist in `_drafts/`. One is a template. One is this summary.
-Thirty-two are the in-progress X-Planes series, A297 through A328, none of them published.
+Forty-three files exist in `_drafts/`. One is a template. One is this summary.
+Thirty-three are the in-progress X-Planes series, A297 through A329, none of them published.
 Eight are the pre-release candidates listed below.
 No stubs remain.
 A79 through A144 have been published.
