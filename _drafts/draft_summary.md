@@ -24,8 +24,19 @@ of 72.
 
 **17,379 lines, 51 display equations, 5,392 reference definitions, 92,916 words after the draft
 pass.** **17,667 lines, 90 display equations, 5,392 reference definitions, 95,132 words after the
-equation review**, with all 5,332 master records cited and none left over. Committed, **not
-pushed**. **Not published.** The next pass due is the primary-reference review.
+equation review.** **22,653 lines, 90 display equations, 7,028 reference definitions, 120,576 words
+after the primary-reference review**, with all 6,966 master records cited and none left over.
+Committed, **not pushed**. **Not published.** The next and final pass is the publication review.
+
+**THE PRIMARY PASS FOUND THE PROMOTION RULE AT ITS STARKEST.** Eighteen of the twenty-seven subjects
+the equations name were thin and **six were at zero**, including the rocket equation, minimum gauge
+and cryopumping. Harvesting in the period's vocabulary added **1,531 records through 2001 and 464
+from the report literature**, taking the period share from 46.7 to 57.7 percent while **the
+contemporary count rose by 24 and its fraction fell from 40.6 to 31.4**, which is the denominator
+moving rather than a loss. **The design monograph the article's buckling relation comes from is now
+cited by name**, and a **1965 report series on juncture stress fields in multicellular shell
+structures** turns out to be the literature for the one term the mass build-up leaves unaccounted,
+**so the cost of a lobed junction was known thirty years before the X-33 was designed.**
 
 **THE EQUATION PASS PRICED THE TERMS THE IDENTITY POINTED AT.** Buckling governs, reached by
 inverting for the line load at which stability overtakes pressure, **7.54 kN/m against 52.7 from
