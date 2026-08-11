@@ -9,147 +9,165 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-11
-**Task**: A332 publication review, the fourth and final pass. Committed and **pushed**. **Not
-published.**
+**Task**: A333, the McDonnell Douglas X-36, drafted as
+`_drafts/x_planes_mcdonnell_douglas_x36.markdown`, editorial date 2025-11-11, series index 37 of 72.
+**Committed, not pushed.** **Not published.**
 
-**Final state: 27,560 lines, 71 display equations, 8,710 reference definitions, 148,103 words**, with
-all 8,573 master records cited and none left over. **All thirty-six articles remain in `_drafts/`.**
-
----
-
-## The Contemporary Survey, Which Doubled
-
-Coverage stood at 3,099 records and 44.0 percent with ten clusters under thirty modern records, six of
-them carrying arguments. **A harvest took it to 4,466 and 52.1 percent, with 2,028 published from 2022
-onward.**
-
-**The most useful thing it found is where this article's newest physics actually lives now.**
-
-**Momentum drag has almost no contemporary literature under that name and a large one under others.**
-The modern vocabulary is boundary layer ingestion, distributed propulsion installation, and the
-tiltrotor or tiltwing conversion corridor. **That last one is the closest analogue this article has**,
-because a conversion corridor is exactly what it computed when it found the fully wing-borne speed at
-146.8 knots and observed that the X-35B converted well above it. An electric vehicle with many rotors
-faces the same trade between converting early, where the lift system must carry weight, and converting
-late, where it must absorb drag.
-
-**The canted-joint kinematics are not an aeronautical subject any more.** Spatial mechanisms and
-constant-velocity couplings are studied continuously in robotics and machine design. **The
-high-temperature rotating seal is the part that stayed aeronautical**, because it is the requirement
-that makes the mechanism hard rather than the geometry.
-
-**And one the draft did not expect.** The fan-bay calculation assumes a fuel density, which in 2001
-would have been a table lookup and is now an active subject, because sustainable aviation fuels have
-densities differing from conventional kerosene. **An aeroplane that gave up three thousand pounds of
-fuel volume to carry a fan is exactly the kind that feels that.**
+**11,068 lines, 13 display equations, 3,467 reference definitions, 59,364 words**, with all 3,352
+master records cited and none left over. All thirty-seven articles remain in `_drafts/`.
 
 ---
 
-## The Count-Versus-Fraction Trap, in Its Classic Form, After Two Passes That Did Not Show It
+## The Keystone Is the Scale Factor, Not the Missing Tail
 
-| | Draft | Equation pass | Primary pass | Publication pass |
+Every account of this aeroplane leads with the absent vertical tail. **The interesting number is the
+28 percent**, because a free-flight model cannot match Froude, Reynolds and Mach at once in the same
+air, and which one it matches decides what the experiment can measure.
+
+**The similarity table settles the design of the experiment in three rows.**
+
+| Matched | Velocity ratio | Froude ratio | Mach ratio | Reynolds ratio |
 |---|---|---|---|---|
-| Harvested pool | 7,567 | 7,567 | 10,069 | **12,974** |
-| Cited records | 5,678 | 5,678 | 7,051 | **8,573** |
-| Period count | 2,820 | 2,820 | 3,524 | **3,640** |
-| Period fraction | 49.7 | 49.7 | 50.0 | **42.5 percent** |
-| Contemporary count | 2,514 | 2,514 | 3,099 | **4,466** |
-| Contemporary fraction | 44.3 | 44.3 | 44.0 | **52.1 percent** |
+| **Froude** | **0.5292** | **1.000** | 0.5292 | 0.1482 |
+| Mach | 1.000 | 3.571 | 1.000 | 0.2800 |
+| Reynolds | 3.571 | **45.55** | 3.571 | 1.000 |
 
-**The primary pass raised both counts and both fractions, which had not happened before in this
-series.** Then this pass raised the period count again, by 116, **while its fraction fell 7.5 points.**
-Nothing was removed. The contemporary harvest moved the denominator underneath it. **All four columns
-are in the article rather than the last one**, because a single column of fractions would read as a
-regression when the period base grew in every pass.
+**Matching Reynolds would put the Froude number out by 45.55**, so the model would not fall the way an
+aeroplane falls. That row exists only to be dismissed. Matching Mach is a wind tunnel's choice and is
+useless for motion. **Froude is the only option and everything else follows from it.**
 
 ---
 
-## A New Homonym, and It Is on the Article's Own Term of Art
+## The Finding I Did Not Expect
 
-**Figure of merit is a standard quantity in thermoelectrics and in plasmonic and photonic sensing.** A
-contemporary search for hover efficiency returns solar cells and graphene sensors, and those records
-were reaching the momentum theory cluster until they were filtered.
+**Froude matching makes the model faithful and simultaneously makes it harder to fly.** Time runs at
+0.5292 of full scale, so every motion happens **1.8898 times faster in real seconds**.
 
-The same random-sample reading found railway power protection, bridge aerodynamics, astronomical
-transient surveys and point-cloud shape completion. **None of the five was anticipated**, which is the
-standing lesson about this class.
+**A delay in a video and command link does not compress to match.** Neither does a human reaction time.
+So both are amplified by 1.8898 when measured against the dynamics they are trying to control. A
+hundred milliseconds of link delay is worth 189 at full scale, and a 250 millisecond human reaction
+time is worth **472.5**.
 
----
+**The demonstration was therefore harder than the thing it demonstrated**, by an exact factor, which
+makes the result stronger rather than weaker.
 
-## A Third Shared-Library Defect, Found by the Corpus Checker
+**This is the precise inverse of the previous article.** A332 found the X-35's most famous sortie flown
+in the easiest available ordering at a weight the production aircraft would never see. **A333 finds one
+flown against a handicap the full-scale aircraft would never carry.** Two consecutive demonstrators,
+opposite directions, both differences arithmetic rather than opinion. **The pair belongs in the closing
+article.**
 
-**Double-escaped markup survives a single unescape pass and the later rules then mangle it into visible
-junk.** A publisher emitting an escaped paragraph tag followed by an escaped non-breaking space decodes
-once to real markup plus a literal entity. The tag rule removes the tag, the surviving entity meets the
-ampersand rule and becomes `andnbsp;`, and the semicolon rule strips the terminator. **The article
-briefly carried link text reading `andnbsp andnbsp andnbsp`.**
-
-`refs.clean` now unescapes to a **fixed point**, bounded to four iterations so a hostile title cannot be
-made to expand. Regression test added and `test_lib` is **53 to 54**.
-
----
-
-## A Process Defect I Should Flag, Because It Silently Checks the Wrong Corpus
-
-**`_verify.py` resolves `_posts` and `_drafts` relative to the working directory.** Running it by
-absolute path from the isolated build tree therefore checks the 333 staged files there rather than the
-corpus, and it reported **0 errors and 42 warnings** while the corpus reading is 21.
-
-**I caught this only because the number moved.** The handoff already says to know the expected number
-rather than just pass or fail, and this is a second door into the same hazard: **an absolute path to
-the script is not enough when the script's own paths are relative.** Every corpus reading in this
-report was retaken from the repository root and confirmed twice. **The reading is 0 errors and 21
-warnings.**
+**The article states the claim in its weaker and honest form**, because no latency figure for this link
+has ever been published. The multiplier is exact; what it multiplies is unknown, and the article says
+so rather than inventing a number.
 
 ---
 
-## What the Prose Pass Changed
+## The Check That Cost Nothing and Could Have Failed Loudly
 
-- **Diction**: `it is worth` stood at 7 occurrences and a rate above the corpus maximum. Reduced to 2.
-  **Zero constructions now exceed the corpus maximum.**
-- **A stale figure**: the Epistemic State still claimed fifty-one verification checks. It is 115, and
-  that section now also covers the momentum drag, the hot gas margin, the canted-joint geometry and the
-  control power, none of which existed when it was written.
-- **An invented number**: the Conclusion said the sortie made its point in ninety seconds. Nothing
-  supports that and it is removed.
-- **An imprecise one**: the Conclusion said the fan presses about half as hard as the core. The bracket
-  is 1.69 to 2.00, so it is between half and three fifths, and it now says so.
-- **A broken transition** left by an earlier edit, and an **opaque cross-reference** to two defects from
-  other articles that a reader has no way to interpret.
+**If the aircraft is genuinely a Froude-scaled model then its weight fixes the aeroplane it stands
+for.** Inverting the cube law gives a full-scale weight of **57,853 pounds**, a length of 19.82 metres
+and a span of 11.34 metres.
+
+**Sixty-five feet, thirty-seven feet of span and fifty-eight thousand pounds is a real class of
+aeroplane**, and exactly the class a tailless agility demonstrator of the middle 1990s would stand in
+for. The article is careful that this is a check rather than a proof, since the designers chose the
+weight, **but it is a check that would have failed loudly had the aircraft not been dynamically scaled
+at all.**
+
+---
+
+## The Independent Verifier Caught a Real Distinction
+
+The verifier and the calculation disagreed on the divergence doubling time by a factor of **1.900**,
+which the handoff says is a hint that something is wrong. **Neither was wrong. They answered different
+questions.**
+
+The flight dynamics convention measures the growing eigen-solution and gives $\ln 2 / \sigma$. **A
+disturbance actually released from rest follows a hyperbolic cosine rather than an exponential**,
+because it starts with no yaw rate, and needs $\operatorname{arccosh} 2 / \sigma$. The ratio is
+arccosh 2 over ln 2, it is **1.900 exactly, and it depends on nothing**.
+
+**Both are now in the article**, verified as a randomised property across growth rates and measured by
+integrating the equation of motion under each initial condition separately. **The distinction is more
+instructive than either number alone**, and it would have been silently wrong had the verifier used the
+same route as the calculation.
+
+---
+
+## The Cleanest Physical Result
+
+**A fin and a vectored nozzle are complementary rather than alternative, and the reason is which terms
+carry dynamic pressure.** A fin's yawing moment and the destabilising fuselage moment both go as $q$,
+so their ratio never improves with speed. **A nozzle carries no $q$ at all.**
+
+Inverting for the speed at which the nozzle alone can no longer hold ten degrees of sideslip gives
+**342.2 knots**, which is above anything the aircraft ever flew. **So the split ailerons were margin
+rather than necessity**, and the general lesson is that a tailless aircraft needs an effector whose
+authority does not vanish at the low speed and high angle of attack it most fears, where a fin would
+have stalled even if it were there.
+
+---
+
+## The Reynolds Penalty, Quantified Rather Than Feared
+
+The factor is 6.749, which sounds fatal until both numbers are on the page. **The model runs at 8.81
+million on the mean chord and the full-scale aircraft would run at 59.46 million.** Both are deep in
+the fully turbulent regime, so the penalty does not move the model into a different flow regime for
+attached flow.
+
+**It still matters where it matters most**, because separation onset and vortex burst are Reynolds
+sensitive well past transition, and those are exactly what a high angle of attack experiment studies.
+The article says neither that the penalty is fatal nor that it is negligible, but that it is confined
+to a list of questions it names.
+
+---
+
+## The Vehicle Cluster Is Thin for a Fourth Distinct Reason
+
+**Six records carry this aircraft's designation.** The three preceding articles found the same shape
+and every reason was different. **The X-33 and X-34 were cancelled** and stopped generating literature.
+**The X-35 won and never had a trace at all**, because contractor demonstrators flown for a source
+selection do not produce reports. **The X-36 was neither**: it ran to completion, met its objectives,
+and produced a technique rather than a vehicle, so its contribution is filed under the names of its
+methods.
+
+**Four vehicles, four different reasons for one shape**, and that belongs in the closing article.
 
 ---
 
 ## Verification
 
-Every reading below was taken from the repository root.
+- `python3 tmp/a333/verify.py` **59 of 59**, by an independent verifier that does not import the
+  calculation, using randomised property tests over twenty thousand scale factors, bisection,
+  integration of the yaw equation under two initial conditions, and recomputation of the atmosphere
+  from Sutherland's law.
+- `python3 _verify.py` **0 errors, 21 warnings**, taken from the repository root.
+- `python3 tmp/errata/check_any.py` **0 failures, 0 warnings**, twelve genre sections and three series
+  sections in order.
+- **Prose style clean.** Zero em dashes, en dashes, contractions, prose colons, curly quotes or
+  capitals used for emphasis. **The only semicolon and parentheses are the debug tag.**
+- **Reference scan clean across 6,884 visible entries**, zero punctuation defects, zero duplicate,
+  undefined or orphaned definitions.
+- **Isolated 37-article build exit 0**, page 828 KB, **13 open and 13 close display-math delimiters**,
+  zero unexpanded markers, zero nested empty lists, zero blockquotes.
 
-- `python3 _verify.py` **0 errors, 21 warnings**, the baseline.
-- `python3 tmp/errata/check_any.py` **0 failures, 0 warnings**. Twelve genre sections and three series
-  sections in order, with the Source Base immediately before Epistemic State.
-- `python3 _lib/test_lib.py` **54 of 54**.
-- `python3 tmp/a332/verify.py` **115 of 115** by an independent verifier that does not import the
-  calculation.
-- **Prose style clean**: zero em dashes, en dashes, minus signs, contractions, prose colons, curly
-  quotes and capitals used for emphasis. **The only semicolon and parentheses in the whole article are
-  the debug tag**, which is the permitted exception.
-- **Reference scan clean across 17,365 visible entries**, with zero punctuation defects of any kind in
-  link text and **zero duplicate, undefined or orphaned definitions**, zero blockquotes.
-- **Acronym check re-run after the reference growth.** The authorial spell-out sits at character 6,487
-  against the first citation occurrence at 6,835.
-- **Sweep clean with zero hard failures**: **800 of 800 sampled DOIs verify against the Crossref
-  registry** with 25 honestly declining the author check, **453 of 453 NTRS identifiers resolve**, and
-  **102 of 102 curated URLs return OK**.
-- **Isolated 36-article build exit 0**, page 1.95 MB, **71 open and 71 close display-math delimiters
-  matching the equation count exactly**, zero unexpanded markers, zero nested empty lists, zero
-  blockquotes and zero entity junk.
-- **Confirmed after pushing** that the article returns 404 while the site root returns 200, which is
-  correct because nothing in the series is published.
+---
+
+## What I Did Not Do
+
+**I did not push.** The draft pass commits only. **Publication has never been authorised** and the
+`post_url` interlock is now **thirty-seven deep**.
+
+**The equation count is 13, the lowest in the series so far, and I am reporting it rather than padding
+it.** The subject has one relation applied repeatedly rather than several chains. **The
+equation-density review is the pass that exists to decide whether more are warranted**, and my own
+candidates are the sideslip response, the control-law bandwidth the divergence demands, the drag-rudder
+yawing moment, the induced drag of differential drag, and the ground-roll and approach performance that
+the published speeds allow.
 
 ---
 
 ## Next
 
-**A333, the McDonnell Douglas X-36**, editorial date 2025-11-11, Part 37 of 72, on your prompt.
-
-**Publication has still never been authorised and the `post_url` interlock is now thirty-six deep**, so
-these articles publish in order or together.
+**A333 pass two**, the equation-density review, on your prompt.

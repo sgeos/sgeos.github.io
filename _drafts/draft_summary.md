@@ -17,6 +17,49 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes McDonnell Douglas X-36 A333 2025-11-11
+
+`x_planes_mcdonnell_douglas_x36.markdown`, A333, editorial date 2025-11-11, series `x_planes` index
+37 of 72.
+
+**11,068 lines, 13 display equations, 3,467 reference definitions, 59,364 words after the draft
+pass**, with all 3,352 master records cited and none left over. Committed, **not pushed**. **Not
+published.**
+
+**THE KEYSTONE IS THE SCALE FACTOR RATHER THAN THE MISSING TAIL.** Every account of this aeroplane
+leads with the absent vertical fin. The interesting number is the 28 percent, because a free-flight
+model cannot match Froude, Reynolds and Mach at once and which one it matches decides what the
+experiment can measure. **Matching Reynolds would put the Froude number out by 45.55**, so the model
+would not fall the way an aeroplane falls, and matching Mach is a wind tunnel's choice and useless for
+motion. **Froude is the only option and everything else follows from it.**
+
+**THE FINDING I DID NOT EXPECT.** Froude matching makes the model faithful and simultaneously makes it
+harder to fly. Time runs at 0.5292 of full scale, so every motion happens **1.8898 times faster in real
+seconds**, while a video and command delay does not compress to match and neither does a human reaction
+time. A hundred milliseconds of link delay is worth 189 at full scale and a 250 millisecond reaction
+time is worth **472.5**. **The demonstration was therefore harder than the thing it demonstrated**,
+which makes the result stronger. **This is the precise inverse of A332**, whose famous sortie was flown
+in the easiest available ordering at a weight the production aircraft would never see.
+
+**THE INDEPENDENT VERIFIER CAUGHT A REAL DISTINCTION.** It disagreed with the calculation on the
+divergence doubling time by **1.900**, and neither was wrong. The flight dynamics convention measures
+the growing eigen-solution while **a disturbance released from rest follows a hyperbolic cosine**, and
+the ratio of arccosh 2 to ln 2 is 1.900 exactly and depends on nothing. Both are now in the article.
+
+**THE CLEANEST PHYSICAL RESULT.** A fin's moment and the destabilising fuselage moment both carry
+dynamic pressure so their ratio never improves, **while a vectored nozzle carries none**. Inverting
+gives **342.2 knots** for the speed at which vectoring alone stops holding ten degrees of sideslip,
+above anything the aircraft flew, **so the split ailerons were margin rather than necessity.**
+
+**THE VEHICLE CLUSTER IS THIN FOR A FOURTH DISTINCT REASON.** The X-33 and X-34 were cancelled, the
+X-35 won and never had a trace at all, and **the X-36 ran to completion and produced a technique rather
+than a vehicle**, so its contribution is filed under the names of its methods.
+
+**Remaining work**: the equation-density review, the primary-reference review and the publication
+review, each on the pilot's prompt. **The equation count of 13 is the lowest in the series and is
+reported rather than padded**, the subject having one relation applied repeatedly rather than several
+chains.
+
 ## X-Planes Lockheed Martin X-35 A332 2025-11-10
 
 `x_planes_lockheed_martin_x35.markdown`, A332, editorial date 2025-11-10, series `x_planes` index
