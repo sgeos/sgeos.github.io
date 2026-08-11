@@ -507,6 +507,27 @@ def t_clean_strips_latex_from_titles():
     assert refs.clean("plain title") == "plain title"
 
 
+def t_clean_strips_mathjax_inline_delimiters():
+    """A BARE BACKSLASH DELIMITER SURVIVES THE COMMAND RULE AND OPENS A MATH BLOCK.
+
+    `\\(` and `\\[` are MathJax delimiters, and the rule that strips `\\command`
+    sequences does not reach them because the character after the backslash is
+    punctuation rather than a letter. A328 harvested a title beginning
+    `\\({\\mathcal{L}_1}\\)` and the cleaned link text kept bare backslashes, which is
+    the A327 dollar-delimiter defect arriving through a different delimiter.
+    """
+    out = refs.clean(r"\({\mathcal{L}_1}\) Adaptive Loss Fault Tolerance Control")
+    assert "\\" not in out, out
+    assert out.startswith("L"), out
+    assert "Adaptive Loss Fault Tolerance Control" in out, out
+
+    # the dollar form stays fixed
+    assert "$" not in refs.clean(r"Al/MLG/CuO/$${\text{Bi}}_{2}$$ Nanothermite")
+
+    # an ordinary title is untouched
+    assert refs.clean("Ordinary Title With No Math") == "Ordinary Title With No Math"
+
+
 def t_anchor_and_display_survive_non_latin_author_names():
     """A NAME IN A NON-LATIN SCRIPT MUST NOT PRODUCE A BROKEN ANCHOR.
 

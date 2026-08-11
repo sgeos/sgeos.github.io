@@ -9,11 +9,61 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A328 primary-reference review, requested after the publication review. Committed and
-**pushed**. **Not published.**
+**Task**: A328 second publication review, run after the primary pass. Committed and **pushed**.
+**Not published.**
 
-**Final state: 27,517 lines, 55 display equations, 8,513 reference definitions, 149,682 words**,
-from 23,447 lines and 7,170 definitions. All thirty-two articles remain in `_drafts/`.
+**Final state: 30,008 lines, 55 display equations, 9,322 reference definitions, 162,918 words**,
+with all 9,249 master records cited. All thirty-two articles remain in `_drafts/`.
+
+---
+
+## A Second Shared-Library Defect, and It Is the Same One Wearing a Different Delimiter
+
+**A327 found that a `$$` in a citation title opens a MathJax display block and swallows the page.
+This pass found the inline form.** A harvested title began with `\(` and `\mathcal`, and after the
+command rule and the brace rule had run, the link text still carried **bare backslashes**, because
+the character after the backslash is punctuation rather than a letter and the command rule never
+reaches it.
+
+`refs.clean` now removes any backslash that survives that far. `test_lib.py` gained a regression
+test **inserted above the discovery loop** and stands at **48 of 48**.
+
+**Both defects were found by reading rendered link text.** Neither was found by a checker, and the
+rule that keeps producing results is to scan every entry in the reference list for punctuation that
+does not belong there. **16,953 entries were scanned this pass** and, outside the 31 series titles
+whose colon is part of the title, none remain.
+
+---
+
+## The Contemporary Survey Was Measured Again Rather Than Assumed
+
+**Two harvests aimed at the programme window could easily have left the modern half behind. They
+had not.** Coverage from 2015 onward stands at **6,067 records, and 2,842 of those were published
+from 2022 onward**, so the survey reaches the present rather than stopping a decade short.
+
+**Two contemporary subjects had no heading at all, and both bear on the article's own argument
+rather than merely being recent.**
+
+**Fluidic thrust vectoring is the direct successor to the paddles the article spends a section
+on.** It deflects the exhaust by injecting a secondary flow, with no vane in the stream, nothing to
+actuate and nothing brittle to crack, which answers the weight and reliability objection the paddle
+choice was made against. **The scaling is unchanged**, because a fluidic system still produces a
+moment proportional to thrust, so its authority still falls as one over dynamic pressure and still
+lapses with altitude. The mechanism is different and the physics that set the X-31's departure
+boundary is identical.
+
+**Assurance of learning-enabled flight control is the certification problem created by the
+autonomous air combat work the article already surveys.** An article reporting that learned
+policies now fly the engagements six test pilots once flew, without reporting that nobody knows how
+to clear such a policy for flight, has surveyed half its subject.
+
+**The connection to this aircraft is closer than it looks.** The X-31 already carried the
+architectural idea. Its quasi-tailless experiment had an automatic safety disengagement on system
+failure or envelope exceedance, which is a run-time assurance monitor in all but name, built in
+1994 because nobody was willing to fly a deliberately destabilised aeroplane without one. **And the
+accident is the counter-example**, since it was not a control law behaving unexpectedly but a
+correct control law fed a wrong number, which is the failure mode that no amount of verifying the
+controller addresses.
 
 ---
 
@@ -70,8 +120,8 @@ Checking before reporting a gap is the rule, and the check says the gap is in th
 
 ## The Reference Base
 
-**References 1,054 to 8,513 definitions and 981 to 8,440 cited across the two reference passes.
-Every anchored record is cited and none is left over.**
+**References 1,054 to 9,322 definitions and 981 to 9,249 cited across the reference and
+publication passes. Every anchored record is cited and none is left over.**
 
 The audit at the start of this pass found **3,908 of 4,889 master records uncited**, which is the
 A327 bookkeeping lesson repeating. Two harvests, one aimed at the subjects the equation pass
@@ -173,16 +223,18 @@ sections, and The Source Base immediately before Epistemic State.
 **107 of 107 numerical checks passing, none importing the calculation**, with all article-facing
 values confirmed present in the draft.
 
-`_verify.py` at the 21-warning baseline with zero errors, check_any clean, `_lib/test_lib.py` at 47
-of 47, and reference integrity at 8,513 with zero undefined, zero orphaned and zero malformed
+`_verify.py` at the 21-warning baseline with zero errors, check_any clean, `_lib/test_lib.py` at 48
+of 48, and reference integrity at 9,322 with zero undefined, zero orphaned and zero malformed
 anchors. Citation gaps held at seven, all of them constructions original to this article.
 
-**The final set swept with zero hard failures**, including all 301 NTRS identifiers, 600 of 7,580
-sampled journal DOIs, 160 of 561 sampled DTIC DOIs, and all 15 books and 25 curated URLs, with
-**zero search-endpoint citations**.
+**The final set swept with zero hard failures**, including **all 307 NTRS identifiers**, 600 of
+8,382 sampled journal DOIs, 160 of 562 sampled DTIC DOIs, and all 15 books and 25 curated URLs,
+with **zero search-endpoint citations**. The three reported mismatches are author-display
+differences on title-derived anchors rather than bad citations.
 
-**A 32-article isolated build renders the page at 1.98 megabytes, 16 sections, 95 subsections, 22
-tables, 17,307 list items and all 55 equations**, with zero broken anchors and zero empty headings.
+**A 32-article isolated build renders the page at 2.16 megabytes, 16 sections, 98 subsections, 22
+tables, 18,928 list items and all 55 equations**, with zero broken anchors, zero empty headings and
+zero stray backslashes in link text.
 
 ---
 

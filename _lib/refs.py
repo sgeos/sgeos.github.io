@@ -77,6 +77,14 @@ def clean(s):
     s = re.sub(r"\\[a-zA-Z]+", " ", s)
     s = s.replace("$", " ")
     s = re.sub(r"[():;\[\]{}]", " ", s)
+    # `\(` AND `\[` ARE MATHJAX DELIMITERS TOO AND THE COMMAND RULE DOES NOT REACH THEM,
+    # because the character after the backslash is punctuation rather than a letter. A328
+    # harvested a title reading "\({\mathcal{L}_1}\) Adaptive Loss Fault Tolerance
+    # Control", and stripping `\mathcal` and the braces left BARE BACKSLASHES in the link
+    # text. An unbalanced `\(` opens an inline math block exactly as an unbalanced `$$`
+    # opens a display one, which is the A327 defect arriving through a different delimiter.
+    # Any backslash surviving this far is residue and is removed.
+    s = s.replace("\\", " ")
     s = s.replace("—", " ").replace("–", " ").replace("−", "-")
     return re.sub(r"\s+", " ", s).strip(" ,.-")
 

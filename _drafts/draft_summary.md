@@ -26,7 +26,8 @@ of 72.
 **4,978 lines, 55 display equations, 1,054 reference definitions, 25,489 words after the equation
 review.** **23,447 lines, 55 display equations, 7,170 reference definitions, 128,682 words after
 the publication review.** **27,517 lines, 55 display equations, 8,513 reference definitions,
-149,682 words after the primary-reference review.** Committed and **pushed**. **Not published.**
+149,682 words after the primary-reference review.** **30,008 lines, 55 display equations, 9,322 reference definitions,
+162,918 words after the second publication review.** Committed and **pushed**. **Not published.**
 
 **THE KEYSTONE IS AN EXPERIMENTAL DESIGN RATHER THAN A MEASUREMENT, WHICH IS NEW IN THIS SERIES.**
 Every previous article asked what a number was. This one asks whether an advantage exists, and the
@@ -122,10 +123,36 @@ growing into a field. Control power stands at 13 and is **thin as a heading rath
 subject**, since a paper about control power at high incidence is filed as a paper about high
 incidence.
 
+**SECOND PUBLICATION REVIEW, run after the primary pass because the article had gained roughly
+1,350 references and 4,000 lines since the first one.** References 8,513 to 9,322 definitions and
+8,440 to 9,249 cited, with every record still cited and none left over.
+
+**A SECOND SHARED-LIBRARY DEFECT WAS FOUND AND FIXED IN `_lib/refs.py`.** A title beginning with
+the MathJax inline delimiter, reading `\({\mathcal{L}_1}\) Adaptive Loss Fault Tolerance
+Control`, left **bare backslashes in the link text** after the command and brace rules had run,
+because the character after the backslash is punctuation rather than a letter and the command rule
+does not reach it. **An unbalanced `\(` opens an inline math block exactly as an unbalanced `$$`
+opens a display one**, which is the A327 defect arriving through a different delimiter. `clean` now
+removes any surviving backslash and `test_lib.py` stands at **48 of 48**.
+
+**THE CONTEMPORARY SURVEY WAS MEASURED AGAIN RATHER THAN ASSUMED**, because two harvests aimed at
+the programme window could easily have left the modern half behind. They had not. Coverage from
+2015 onward stands at **6,067 records with 2,842 published from 2022 onward**, so the survey reaches
+the present rather than stopping a decade short.
+
+**TWO CONTEMPORARY SUBJECTS HAD NO HEADING AT ALL AND BOTH BEAR ON THE ARTICLE'S OWN ARGUMENT.**
+**Fluidic thrust vectoring** is the direct successor to the paddles the article spends a section on
+and answers the weight and reliability objection the paddle choice was made against, while leaving
+the one-over-dynamic-pressure scaling that governed the departure boundary completely unchanged.
+**Assurance of learning-enabled flight control** is the certification problem created by the
+autonomous air combat work the article already surveys, and the X-31 carried the architectural idea
+in primitive form, since its quasi-tailless experiment had an automatic safety disengagement that
+is a run-time assurance monitor in all but name.
+
 **Verification.** 107 of 107 numerical checks passing with every article-facing value confirmed
 present in the draft, `_verify.py` at the 21-warning baseline with zero errors, check_any clean,
-`_lib/test_lib.py` at 47 of 47, and a 32-article isolated build rendering 16 sections, 95
-subsections, 22 tables and all 55 equations at 1.98 megabytes and 17,307 list items. The final sweep returned **zero hard failures**
+`_lib/test_lib.py` at 48 of 48, and a 32-article isolated build rendering 16 sections, 98
+subsections, 22 tables and all 55 equations at 2.16 megabytes and 18,928 list items. The final sweep returned **zero hard failures**
 across all 301 NTRS identifiers, 600 of 7,580 sampled journal DOIs, 160 of 561 sampled DTIC DOIs,
 all 15 books and all 25 curated URLs, with **zero search-endpoint citations**.
 
