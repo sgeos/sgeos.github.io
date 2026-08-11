@@ -23,8 +23,18 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 35 of 72.
 
 **10,726 lines, 23 display equations, 3,327 reference definitions, 57,332 words after the draft
-pass**, with all 3,270 master records cited and none left over. Committed, **not pushed**. **Not
-published.** The next pass due is the equation-density review.
+pass.** **10,844 lines, 38 display equations, 3,327 reference definitions, 58,261 words after the
+equation review**, with all 3,270 master records cited and none left over. Committed, **not
+pushed**. **Not published.** The next pass due is the primary-reference review.
+
+**THE EQUATION PASS TURNED AN ASSUMED TABLE INTO A BALANCE, AND THE BALANCE FAILS FORWARDS.** The
+Bartz correlation gives a throat heat flux of **10.41 megawatts per square metre**, which divided by
+what silica phenolic can absorb predicts **65.9 millimetres of recession over the burn**, an absurd
+figure. Inverting from the recession such chambers actually show gives an effective heat of ablation
+of **61.3 megajoules per kilogram against 13.76 absorbed, a ratio of 4.5**, so **the ablator is
+blocking the heat rather than absorbing it** and transpiration does roughly four fifths of the work.
+The vehicle's own velocity budget, never computed in the draft, closes with **22.0 percent left for
+gravity, drag and steering**.
 
 **THE KEYSTONE IS NOT A PHYSICAL QUANTITY AND THAT IS NEW IN THIS SERIES.** Every previous article
 dimensioned an aircraft against an unknown with units, conservation laws and instruments. **The

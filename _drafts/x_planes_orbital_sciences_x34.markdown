@@ -543,6 +543,41 @@ the test duration were published separately and by different parts of the progra
 vehicle burning one propellant load with about five percent to spare.
 **Had the tested duration come out below the mission burn, one of the four numbers would have been wrong.**
 
+### What the Vehicle Could Actually Reach
+
+**The draft of this article computed the engine and never asked what the vehicle does with it**, and the
+answer is a check on the published masses. The effective exhaust velocity is the effective impulse times
+standard gravity,
+
+$$v_e = I_{sp,\text{eff}} \, g_0 = 296.14 \times 9.80665 = 2{,}904.2 \ \text{m/s}$$
+
+**which is 2,904.2 metres per second.** The mass ratio is the release mass over the burnout mass,
+
+$$\frac{m_0}{m_f} = \frac{21{,}800}{8{,}200} = 2.6585$$
+
+so the ideal velocity increment is
+
+$$\Delta v = v_e \ln\!\left(\frac{m_0}{m_f}\right) = 2{,}839.6 \ \text{m/s}$$
+
+**The ideal increment is 2,839.6 metres per second, and adding the 236.1 the carrier aircraft already supplied gives 3,075.7**,
+against a Mach 8 objective which at the burnout altitude is about 2,400 metres per second.
+
+$$3{,}075.7 - 2{,}400 = 675.7 \ \text{m/s}$$
+
+**leaving 675.7 metres per second, or 22.0 percent of the ideal total, for gravity, drag and steering.** A
+vehicle whose ideal increment exceeded its objective by only a few percent would be claiming no losses at
+all, and one that exceeded it by half would suggest an objective set well below what the vehicle could do.
+**Twenty-two percent is what a suborbital ascent actually spends**, which is a check on the published masses
+rather than on the trajectory.
+
+**The thrust to weight at release follows from the same figures,**
+
+$$\frac{F}{m_0 g_0} = \frac{266{,}893}{21{,}800 \times 9.80665} = 1.248$$
+
+**and a vehicle released in level flight needs no more than one**, because the wing is already carrying it.
+Being above one is what lets an air-launched vehicle pitch up immediately rather than sinking while it
+accelerates.
+
 The propellant mass fraction follows from the same masses,
 
 $$\zeta = \frac{13{,}600}{21{,}800} = 0.6239$$
@@ -588,29 +623,73 @@ a throat 0.212 metres across, and a vacuum thrust coefficient of
 
 $$C_F = \frac{F}{p_c A_t} = 1.7299$$
 
-**An ablative liner recedes at a rate set by the gas conditions**, and the wall must carry enough material
-to lose it for the whole burn and still hold pressure at the end. Over the 148 second burn a full propellant
-load buys, the material lost is
+**Those two quantities divide the engine's performance between its two halves**, since the characteristic
+velocity describes everything upstream of the throat and the thrust coefficient everything downstream,
 
-| Recession rate | Liner consumed |
-|---|---|
-| 0.05 mm per second | 7.4 mm |
-| 0.10 mm per second | 14.8 mm |
-| 0.15 mm per second | 22.2 mm |
-| 0.20 mm per second | 29.6 mm |
+$$I_{sp} = \frac{C_F \, c^{\ast}}{g_0}$$
 
-**At a tenth of a millimetre per second the liner loses 14.8 millimetres**, so a chamber built to fly one
-full mission is centimetres thick in its consumable layer and that layer is gone at the end of it.
+**That relation is shown for its structure and not as a check.** The throat area above was derived from the
+same thrust and impulse, so multiplying the two factors returns them by construction, and presenting the
+agreement as confirmation would be circular.
 
-**The engine's combustion chamber was a consumable on a vehicle whose entire purpose was reuse**, and the
-programme said so plainly, replacing the chamber and the ignition cartridge after each flight while reusing
-the rest.
-**At the planned rate of twenty-five flights a year, that is twenty-five combustion chambers a year.**
+The area ratio then fixes the exit,
 
-**Whether that is cheap depends entirely on what a chamber costs, which is the article's keystone arriving as a component.**
-A moulding at a few tens of thousands of dollars makes it obviously right. A moulding at a few hundred
-thousand makes it obviously wrong. **The public record does not contain the number**, and the Epistemic
-State says so rather than guessing.
+$$A_e = \varepsilon A_t = 15 \times 0.03535 = 0.5302 \ \text{m}^2$$
+
+**an exit 0.822 metres across**, which is a check on the assumed ratio, because a nozzle wider than the
+vehicle would say the assumption was wrong.
+
+#### How Fast the Wall Is Destroyed, Which Is Not an Assumption
+
+**A recession rate is the output of an energy balance rather than an input to one**, and the balance is
+worth running because it fails in an instructive way.
+
+**Start with the heat the wall has to survive.** The standard estimate for a rocket throat is the Bartz
+correlation, which gives the gas-side heat transfer coefficient as
+
+$$h_g = \frac{0.026}{D_t^{0.2}}\left(\frac{\mu^{0.2} c_p}{\mathrm{Pr}^{0.6}}\right)\left(\frac{p_c}{c^{\ast}}\right)^{0.8}\left(\frac{D_t}{R_c}\right)^{0.1}$$
+
+With a chamber at about 3,500 kelvin and gas properties typical of liquid oxygen burning with kerosene, that
+gives 8,330 watts per square metre per kelvin. The heat arriving is the coefficient times the difference
+between the recovery temperature and the ablating surface,
+
+$$q = h_g \left(T_{aw} - T_w\right) = 8{,}330 \times \left(3{,}150 - 1{,}900\right) = 10.41 \ \text{MW/m}^2$$
+
+**Ten megawatts per square metre is the order of magnitude a rocket throat delivers.** The correlation is
+good to perhaps a factor of two and that is stated because what follows depends on it.
+
+**Now the balance.** A surface protecting itself by being destroyed removes heat at a rate set by how much
+energy each kilogram carries away, so writing $H_{\text{eff}}$ for that effective heat of ablation and
+$\rho_a$ for the material density,
+
+$$\dot{s} = \frac{q}{\rho_a H_{\text{eff}}}$$
+
+**Run it forwards with the energy the material can actually absorb.** Heating silica phenolic from room
+temperature to 1,900 kelvin takes about 1.76 megajoules per kilogram and vaporising the silica about 12, so
+
+$$H_{\text{absorb}} = 13.76 \ \text{MJ/kg} \qquad \Rightarrow \qquad \dot{s} = 0.445 \ \text{mm/s}$$
+
+**which over the 148 second burn is 65.9 millimetres, and that is absurd.** A throat losing that much would
+not survive, and ablative chambers of this class do not behave that way.
+
+**So invert it.** Chambers of this kind recede at something nearer a tenth of a millimetre per second, and
+putting that in gives
+
+$$H_{\text{eff}} = \frac{q}{\rho_a \dot{s}} = \frac{10.41 \times 10^6}{1{,}700 \times 10^{-4}} = 61.3 \ \text{MJ/kg}$$
+
+**against 13.76 that the material can absorb, a ratio of 4.5.**
+
+**The ablator is not mostly absorbing the heat. It is blocking it.** Pyrolysis gas leaving the decomposing
+surface blows into the boundary layer and thickens it, cutting the heat that arrives in the first place.
+**Absorption is the small term and transpiration is the large one**, by roughly a factor of four, and that
+is why an ablative wall works at all rather than merely melting.
+
+**The forward calculation being wrong by that factor is the result**, and it is why a recession rate is
+measured rather than predicted.
+
+**The Bartz correlation and the ablation balance are standard results and are not this article's.** What is
+this article's is the inversion, which is arithmetic on the balance rather than a new relation, and the
+observation that the factor between the two answers is the transpiration term.
 
 - [ANALYSIS OF THE EFFECTS OF ENVIRONMENTAL CONDITIONS ON THE...][research_swann_dow_1964]
 - [Ablatively cooled pulse rocket engine design][research_fiorito_1964]
@@ -632,8 +711,55 @@ State says so rather than guessing.
 - [Thermal and ablative lag induced by a periodic heat input][research_nichols_sichel_1967]
 - [A semi-empirical method for correlating the thermal...][research_mezines_1968]
 - [Ablative surface recession and mass loss on large-angle...][research_orlikruckemann_1968]
+
+#### What That Costs the Chamber
+
+At a tenth of a millimetre per second the liner loses
+
+$$\Delta s = \dot{s} \, t_b = 10^{-4} \times 148.0 = 14.8 \ \text{mm}$$
+
+over a full burn, so a chamber built to fly one mission is centimetres thick in its consumable layer and
+that layer is gone at the end of it.
+
+| Recession rate | Liner consumed over the burn |
+|---|---|
+| 0.05 mm per second | 7.4 mm |
+| 0.10 mm per second | 14.8 mm |
+| 0.15 mm per second | 22.2 mm |
+| 0.20 mm per second | 29.6 mm |
+
+**The engine's combustion chamber was a consumable on a vehicle whose entire purpose was reuse**, and the
+programme said so plainly, replacing the chamber and the ignition cartridge after each flight while reusing
+the rest.
+**At the planned rate of twenty-five flights a year, that is twenty-five combustion chambers a year.**
+
+**Whether that is cheap depends entirely on what a chamber costs, which is the article's keystone arriving as a component.**
+A moulding at a few tens of thousands of dollars makes it obviously right. A moulding at a few hundred
+thousand makes it obviously wrong. **The public record does not contain the number**, and the Epistemic
+State says so rather than guessing.
+
 - [Comment on "Carbon-Silica Reaction in Silica-Phenolic...][research_rindal_moyer_1968]
 - [Demonstration of 156 Inch Motor with Segmented Fiberglass...][research_walker_zeigler_1968]
+- [Effect of material and process deviations on the performance...][research_davis_1968]
+- [Improvements in Phenolic Nylon Syntactic Foam for Ablative...][research_keller_1968]
+- [Three-dimensionally reinforced ablative rocket engine...][research_herrick_1968]
+- [Ablative materials for controlled high regression rates in...][research_davis_evensen_1969]
+- [Comparison of the performance of a charring ablator under...][research_lundell_1969]
+- [Prediction of flight performance of a throttling, ablative...][research_baker_1969]
+- [Thermal and ablative lag induced by a periodic heat input][research_nichols_sichel_1969]
+- [Interaction of gases with an ablator and the ablator...][research_akers_griest_1970]
+- [The effect of gas phase chemical reactions on heat transfer...][research_gomez_1970]
+- [Effect of Gas Phase Chemical Reactions on Heat Transfer to a...][research_mills_gomez_1971]
+- [Performance of a Charring Ablator under Transient and...][research_wakefield_lundell_1971]
+- [Radiative, ablative, and active cooling thermal protection...][research_curry_gomez_1971]
+- [Flight and ground tests of a very low density elastomeric...][research_olsengc_chapmanajiii_1972]
+- [Low temperature ablator nosetip shape change at angle of...][research_baker_1972]
+- [Modeling Sublimation of a Charring Ablator][research_balhoff_pike_1973]
+- [Thermochemical properties of a silicone elastomeric ablator][research_couch_1973]
+- [Ablative thermal protection for space tug multipass...][research_strauss_1974]
+- [Integral solution for thermal performance of a charring...][research_laganelli_harper_1974]
+- [Performance of ablator materials in ramjet environments][research_cohen_couch_1974]
+- [Correlation of Theoretical Analysis With Experimental Data on...][research_mastanaiah_1976]
 
 ### What Air Launch Actually Donates
 
@@ -706,6 +832,12 @@ $$\rho_{\text{bulk}} = \left[\frac{1}{1+r}\frac{1}{\rho_f} + \frac{r}{1+r}\frac{
 
 **For kerosene and oxygen at a mixture ratio of 2.56 that is 1,023.5 kilograms per cubic metre, against 343.3 for hydrogen and oxygen at 5.5, a ratio of 2.982.**
 
+**The fuel share of the propellant mass is fixed by the mixture ratio alone,**
+
+$$\frac{m_f}{m_p} = \frac{1}{1+r} = \frac{1}{3.56} = 0.281$$
+
+**or 28.1 percent, so the X-34 carried 3,820 kilograms of kerosene against 9,780 of oxygen.**
+
 **The previous article's central sentence inverts exactly.** Hydrogen is one seventh of the propellant mass
 and 74.5 percent of its volume, so the fuel tank is the vehicle.
 **Kerosene is about a quarter of the mass and 35.5 percent of the volume**, so the fuel tank is a tank.
@@ -755,7 +887,13 @@ by the ordinary structural methods
 | X-34 tank, assumed | 0.75 m | 0.483 mm | 0.241 mm | 4.14 |
 
 **The smaller the tank, the more of its wall is material no load asked for.** Once minimum gauge binds, the
-wall thickness stops depending on the pressure and the tank fraction becomes
+wall thickness stops depending on the pressure at all, and the tank fraction follows in three lines. For a
+cylinder of radius $R$ whose wall is two facesheets each at the minimum gauge, the wall mass and the
+propellant mass per unit length are
+
+$$m'_{\text{wall}} = \rho_w \left(2 \pi R\right) \left(2 t_{\text{gauge}}\right) \qquad m'_{\text{prop}} = \rho_p \pi R^2$$
+
+so the length and the constant both cancel, leaving
 
 $$\frac{m_{\text{tank}}}{m_{\text{prop}}} = \frac{4 \rho_w t_{\text{gauge}}}{\rho_p R}$$
 
@@ -3070,26 +3208,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 
 #### The Engine and Its Ablative Chamber
 
-- [Effect of material and process deviations on the performance...][research_davis_1968]
-- [Improvements in Phenolic Nylon Syntactic Foam for Ablative...][research_keller_1968]
-- [Three-dimensionally reinforced ablative rocket engine...][research_herrick_1968]
-- [Ablative materials for controlled high regression rates in...][research_davis_evensen_1969]
-- [Comparison of the performance of a charring ablator under...][research_lundell_1969]
-- [Prediction of flight performance of a throttling, ablative...][research_baker_1969]
-- [Thermal and ablative lag induced by a periodic heat input][research_nichols_sichel_1969]
-- [Interaction of gases with an ablator and the ablator...][research_akers_griest_1970]
-- [The effect of gas phase chemical reactions on heat transfer...][research_gomez_1970]
-- [Effect of Gas Phase Chemical Reactions on Heat Transfer to a...][research_mills_gomez_1971]
-- [Performance of a Charring Ablator under Transient and...][research_wakefield_lundell_1971]
-- [Radiative, ablative, and active cooling thermal protection...][research_curry_gomez_1971]
-- [Flight and ground tests of a very low density elastomeric...][research_olsengc_chapmanajiii_1972]
-- [Low temperature ablator nosetip shape change at angle of...][research_baker_1972]
-- [Modeling Sublimation of a Charring Ablator][research_balhoff_pike_1973]
-- [Thermochemical properties of a silicone elastomeric ablator][research_couch_1973]
-- [Ablative thermal protection for space tug multipass...][research_strauss_1974]
-- [Integral solution for thermal performance of a charring...][research_laganelli_harper_1974]
-- [Performance of ablator materials in ramjet environments][research_cohen_couch_1974]
-- [Correlation of Theoretical Analysis With Experimental Data on...][research_mastanaiah_1976]
 - [Effects of improvements and uncertainties in thermophysical...][research_bueche_1977]
 - [Low density ablator compositions][research_low_density_1978]
 - [Shuttle subscale ablative nozzle tests][research_powers_bailey_1980]

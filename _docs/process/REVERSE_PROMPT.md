@@ -9,12 +9,102 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A331, the Orbital Sciences X-34, drafted. **The draft pass only.** Committed, **not
-pushed**, **not published.**
+**Task**: A331 equation-density review, the second of four passes. Committed, **not pushed**, **not
+published.**
 
-**State after the draft pass: 10,726 lines, 23 display equations, 3,327 reference definitions,
-57,332 words**, with all 3,270 master records cited and none left over. Thirty-five of seventy-two
-drafted, all in `_drafts/`.
+**23 display equations to 38 across 7 edits**, 10,726 to 10,844 lines and 57,332 to 58,261 words.
+References unchanged at 3,327 definitions and all 3,270 master records cited.
+
+---
+
+## The Review Found What the Draft Predicted for Itself
+
+**The draft treated the ablative chamber's recession as an assumed rate swept across a table, and a
+recession rate is not an assumption.** It is the output of an energy balance whose inputs can be
+estimated, and running that balance turned the table into a result.
+
+**The balance fails forwards, and the failure is the finding.** The Bartz correlation gives a throat
+heat flux of **10.41 megawatts per square metre**, and dividing by what silica phenolic can actually
+absorb, being 1.76 megajoules per kilogram of heating plus about 12 of vaporisation, predicts a
+recession of **0.445 millimetres per second, or 65.9 millimetres over the burn.** That is absurd. A
+throat losing that much would not survive.
+
+**So invert it.** Chambers of this class recede at nearer a tenth of a millimetre per second, which
+implies an effective heat of ablation of **61.3 megajoules per kilogram against 13.76 the material
+can absorb, a ratio of 4.5.**
+
+**The ablator is not mostly absorbing the heat. It is blocking it.** Pyrolysis gas leaving the
+decomposing surface thickens the boundary layer and cuts the heat that arrives at all. **Absorption
+is the small term and transpiration is the large one**, by roughly a factor of four, and that is why
+an ablative wall works rather than merely melting. **The forward calculation being wrong by that
+factor is the result**, and it is why a recession rate is measured rather than predicted.
+
+---
+
+## The Vehicle's Own Velocity Budget, Which the Draft Never Computed
+
+**The draft computed the engine at length and never asked what the vehicle does with it.** The
+effective exhaust velocity is 2,904.2 metres per second and the mass ratio 2.6585, so the ideal
+increment is **2,839.6 metres per second**. Adding the 236.1 the carrier supplied gives 3,075.7
+against a Mach 8 objective near 2,400.
+
+**That leaves 675.7 metres per second, or 22.0 percent, for gravity, drag and steering**, which is
+what a suborbital ascent actually spends. **A budget that closed with two percent would be claiming
+no losses and one that closed with fifty would suggest the objective was set well below the
+vehicle**, so the margin is a check on the published masses rather than on the trajectory.
+
+The thrust to weight at release is **1.248**, and a vehicle released in level flight needs no more
+than one because the wing is already carrying it.
+
+---
+
+## One Relation Shown for Its Structure and Explicitly Not as a Check
+
+**The draft computed both the thrust coefficient and the characteristic velocity and never
+multiplied them**, so a reader was not shown that the engine's performance separates into a chamber
+term and a nozzle term. The relation is now displayed.
+
+**It returns the published impulse exactly, and the article says that is circular.** The throat area
+was derived from the same thrust and impulse, so the product returns them by construction.
+**Presenting that agreement as confirmation would be false**, and the article says so at the point of
+use rather than leaving a reader to notice.
+
+**The gauge-limited tank fraction was asserted and is now derived**, in three lines, which matters
+because the result is the article's strongest structural claim and a reader cannot check a claim
+whose derivation is absent.
+
+---
+
+## Verification
+
+`verify.py` reports **65 of 65** with **13 agreements between independent routes**. The new work is
+checked by routes it did not use, namely the inverted heat of ablation put back through the balance,
+the velocity increment reached by integrating the mass flow rather than by the logarithm, the throat
+flux bounded rather than merely computed, and the monotonic dependence of recession on the effective
+heat of ablation as a randomised property over twenty thousand trials.
+
+`check_any.py` passes. `_verify.py` holds the baseline at **0 errors and 21 warnings**. `test_lib.py`
+is **51 of 51**. Zero split equations, zero wrapped inline spans, zero bold spans crossing a line, an
+even delimiter count, balanced braces in all 38 equations, and **zero blockquotes**, which the
+angle-bracket fix from the draft pass was guarding.
+
+The isolated 35-article build succeeds at 820 kilobytes with **all 38 equations rendering as display
+blocks**.
+
+**Uncited equations fell from 10 to 9** after the ablation literature was moved beside the relations
+it belongs to, and the remainder are derivation steps and the article's own inversions, which are
+named as such.
+
+---
+
+## Awaiting Instruction
+
+**A331 has completed two of four passes.** Thirty-five of seventy-two drafted, **none published**.
+
+The next pass due is the **primary-reference review**. The equation pass promoted ablation
+thermochemistry, boundary-layer heat transfer and transpiration blocking from background to keystone,
+**and that promotion has not yet reached the reference base**, which is the pattern that has now held
+for twelve consecutive articles.
 
 ---
 
@@ -271,10 +361,3 @@ largely presentation material and the retrievable copies are scanned images from
 extracted. The article states the limit rather than writing around it.
 
 ---
-
-## Awaiting Instruction
-
-**A331 has completed the draft pass only.** Thirty-five of seventy-two drafted, **none published**.
-
-The next pass due is the **equation-density review**. Twenty-three equations is low even for a short
-article, and the ablative recession treatment in particular is a table where it could be a relation.
