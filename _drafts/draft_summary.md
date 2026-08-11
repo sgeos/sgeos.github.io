@@ -25,8 +25,17 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 **10,726 lines, 23 display equations, 3,327 reference definitions, 57,332 words after the draft
 pass.** **10,844 lines, 38 display equations, 3,327 reference definitions, 58,261 words after the
 equation review.** **14,023 lines, 38 display equations, 4,370 reference definitions, 74,372 words
-after the primary-reference review**, with all 4,313 master records cited and none left over.
-Committed, **not pushed**. **Not published.** The next and final pass is the publication review.
+after the primary-reference review.** **20,006 lines, 38 display equations, 6,352 reference
+definitions, 105,689 words after the publication review**, with all 6,295 master records cited and
+none left over. Committed and **pushed**. **Not published.**
+
+**THE PUBLICATION PASS FOUND A VERDICT THE MARKET DELIVERED.** The draft said the argument for air
+launch was still being had, and the market has spent the last decade running the experiment. A
+liquid-fuelled orbital rocket flew six times under a widebody airliner between 2020 and 2023, **five
+of six reached orbit**, and the operator went bankrupt anyway. **Reaching orbit was not the problem.
+What failed was the thing the X-34 existed to demonstrate.** Contemporary coverage went from 1,673
+records at 39.2 percent to **3,698 at 58.7**, and **the vehicle's own cluster holds zero contemporary
+records for the second consecutive article**, which makes it a pattern rather than an anecdote.
 
 **THE PROMOTION RULE FIRED AT ITS STARKEST ZERO COUNT YET.** Of the seventeen subjects the equations
 name, thirteen were thin and **six stood at literally zero**, including the heat transfer correlation

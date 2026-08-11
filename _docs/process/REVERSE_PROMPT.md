@@ -9,99 +9,106 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A331 primary-reference review, the third of four passes. Committed, **not pushed**, **not
+**Task**: A331 publication review, the fourth and final pass. Committed and **pushed**. **Not
 published.**
 
-**References 3,327 to 4,370 definitions and 3,270 to 4,313 cited research records**, article 10,844
-to 14,023 lines and 58,261 to 74,372 words. Display equations unchanged at 38. **All 4,313 master
-records cited with none left over.**
+**Final state: 20,006 lines, 38 display equations, 6,352 reference definitions, 105,689 words**, with
+all 6,295 master records cited and none left over. All thirty-five articles remain in `_drafts/`.
 
 ---
 
-## The Promotion Rule Fired at Its Starkest Zero Count Yet
+## The Contemporary Survey, and One Verdict the Market Delivered
 
-**Twelfth article running, and this time six subjects the equations name stood at literally zero.**
-An audit of the seventeen subjects the article's relations actually use found thirteen thin on period
-coverage, and among the zeroes were **the convective heat transfer correlation the article displays
-and the effective heat of ablation it inverts for**, which is the central quantity of the entire
-ablation section.
+**Coverage from 2015 onward stood at 1,673 records and 39.2 percent**, having fallen twelve points
+during the primary pass as the denominator moved. **A harvest took it to 3,698 records and 58.7
+percent, with 1,897 published from 2022 onward.**
 
-**The cause is the usual one.** The earlier harvests asked for ablative materials, low-cost engines
-and air launch. **Before the equation pass the article had no reason to ask for gas-side heat
-transfer coefficients, transpiration cooling or mass injection into a boundary layer.**
+**The sharpest thing this pass found is not a reference count.** The draft said the argument for air
+launch was still being had. **That is too kind, because the market has spent the last decade running
+the experiment.**
 
-**Harvesting in the period's own vocabulary took the heat transfer heading from one record to
-twenty-eight and the transpiration heading from nine to forty-two**, and added 991 records published
-through 2001 and 223 from the report literature.
+A later attempt put a liquid-fuelled orbital rocket under a widebody airliner and flew it six times
+between 2020 and 2023. **Five of the six reached orbit.** The operator went bankrupt in April 2023
+and ceased operations the following month, its assets sold at auction for something near
+thirty-six million dollars, and **the carrier aircraft was bought by another company and turned to
+hypersonic flight testing rather than to launch.**
 
----
+**Reaching orbit was not the problem. What failed was the thing the X-34 existed to demonstrate.**
+The specific claim, that removing the launch pad removes enough cost to change the economics, **has
+now been tested with real money by people who believed it**, and the answer that came back was the
+same one the restructure plan gave in 2000. **The infrastructure a vehicle does not build is not
+where the cost is.**
 
-## Three Subjects That Stay Thin, and the Reason Is Worth Recording
-
-**The rocket equation returns nothing at all in a pool of four thousand three hundred, and neither
-does the ascent loss budget**, after a harvest aimed directly at them.
-
-**That is not a gap. It is a thin heading over a subject nobody writes papers about**, because both
-live in every textbook and in no journal article. The effective heat of ablation returns two records
-for the same reason in milder form, since the quantity is discussed throughout the ablation
-literature under char layers, blowing parameters and surface energy balances rather than under its
-own name.
-
-**A subject can be thin because the work was never done, because the heading is wrong, or because the
-knowledge is so settled that it stopped generating papers.** These three are the third kind, **and
-the third kind is invisible to a count.** The article says so rather than padding.
+The article states that with its limits, since one company failing is a fact about one company.
 
 ---
 
-## The Count-Versus-Fraction Trap, Again
+## A Pattern Confirmed Rather Than an Anecdote
 
-| | Before this pass | After |
-|---|---|---|
-| Research references cited | 3,270 | 4,313 |
-| Period through 2001 | 1,242, 38.0% | 2,233, 51.8% |
-| Contemporary 2015 onward | 1,700, 52.0% | **1,709, 39.6%** |
-| Report literature | 663, 20.3% | 886, 20.5% |
+**The vehicle's own cluster holds zero contemporary records, and this is the second consecutive
+article for which that is true.** Every record carrying the X-34 designation predates 2002, exactly
+as every record carrying the X-33's did.
 
-**The contemporary count rose by nine and the contemporary fraction fell by twelve points.** Nothing
-was removed. The article carries both columns and says which moved.
+**Two instances make it a pattern.** A cancelled programme stops generating literature under its own
+name almost immediately, **so the documentary trace of a vehicle measures how long it survived rather
+than what it contributed.** That belongs in the closing article.
 
 ---
 
-## What the New Literature Let the Article Say
+## The Count-Versus-Fraction Trap Caught This Article at Both Ends Too
 
-**Both halves of the ablation argument rest on literatures older than the programme.** The convective
-heat transfer to a rocket nozzle was correlated in the late 1950s, and the transpiration and
-mass-injection work that explains the blocking term runs alongside it. **So the physics the X-34's
-chamber depended on was forty years settled when the engine was designed**, which is a sentence the
-article could not support before this pass and can now.
+| | After drafting | After the primary pass | After the contemporary pass |
+|---|---|---|---|
+| Research references cited | 3,227 | 4,270 | 6,295 |
+| Period through 2001 | 1,236, 38.3% | 2,227, 52.2% | **2,227, 35.4%** |
+| Contemporary 2015 onward | 1,664, 51.6% | **1,673, 39.2%** | 3,698, 58.7% |
+| Published 2022 onward | 793, 24.6% | 793, 18.6% | 1,897, 30.1% |
+| Report literature | 661, 20.5% | 884, 20.7% | **884, 14.0%** |
 
----
+**The primary pass raised the contemporary count by nine and dropped its fraction twelve points. The
+contemporary pass left the period count completely unmoved and dropped its fraction seventeen.** The
+report literature is the clearest case again, **holding at exactly 884 records while its share fell
+from 20.7 percent to 14.0.** All three columns are in the article.
 
-## Verification
-
-`verify.py` reports **65 of 65** with **13 agreements between independent routes**, unchanged, since
-this pass added no arithmetic. `check_any.py` passes. `_verify.py` holds the baseline at **0 errors
-and 21 warnings**. `test_lib.py` is **51 of 51**.
-
-**The reference scan found zero punctuation defects across 8,683 visible entries**, with zero
-duplicate definitions, zero undefined uses and zero orphans, and **zero blockquotes**, which is the
-angle-bracket fix from the draft pass holding at a reference count that has grown by a third.
-
-**No acronym appears in authorial prose**, re-checked after the reference set grew, and there are
-zero em dashes, en dashes and capital emphasis.
-
-The isolated 35-article build succeeds at 1.03 megabytes with **all 38 equations rendering as display
-blocks**, 16 sections, 54 subsections and 8,967 list items.
+**That is now two consecutive articles caught at both ends in consecutive passes**, which suggests
+the four-pass rhythm produces the effect structurally rather than by accident, and that reporting
+both numbers is not optional.
 
 ---
 
-## Awaiting Instruction
+## What the Review Checked
 
-**A331 has completed three of four passes.** Thirty-five of seventy-two drafted, **none published**.
+**Prose style is clean.** Zero em dashes, en dashes, contractions, ellipses and capital emphasis. The
+only semicolon, colon and parenthetical in the article are the `console.log` debug tag and the
+table-of-contents marker. Link text was treated as prose in every scan.
 
-The next and final pass is the **publication review**. Contemporary coverage stands at 1,709 records
-and 39.6 percent, having fallen twelve points during this pass as the denominator moved, **so the
-contemporary survey is the work that pass will have to do.**
+**No acronym appears in authorial prose**, re-checked with word boundaries after the reference set
+nearly doubled.
+
+**Reference integrity is exact.** 6,352 definitions, zero duplicates, zero undefined uses, zero
+orphans, and **zero punctuation defects across 12,647 visible entries.** **Zero blockquotes**, which
+is the angle-bracket fix from the draft pass holding at four times the reference count it was written
+for.
+
+**Mathematics.** 38 display equations, each on one source line, zero split equations, zero wrapped
+inline spans, zero bold spans crossing a line, an even delimiter count and balanced braces
+throughout. `verify.py` reports **65 of 65** with **13 agreements between independent routes**.
+
+**The citation sweep is clean.** All **435 NTRS fixed identifiers resolved**, **600 of 5,316 sampled
+journal DOIs** registry-matched with **zero mismatches**, **160 of 545 sampled DTIC DOIs** likewise,
+all 5 books and 17 curated URLs retrieved, and **zero search-endpoint citations**. **HARD FAILURES:
+0.**
+
+**Structure.** All twelve genre sections present and in order, all three series sections present, and
+the Source Base immediately before the Epistemic State.
+
+**Diction.** **Nothing above the peer band at all.** The three most frequent content words are
+vehicle at 7.10 per thousand, programme at 5.15 and cost at 5.15, which are the article's subject and
+its keystone, and are left alone.
+
+**The isolated 35-article build succeeds at 1.45 megabytes** with all 38 equations rendering as
+display blocks, 16 sections, 54 subsections, 12,931 list items, zero unfilled markers and zero
+link-definition leakage.
 
 ---
 
@@ -358,3 +365,14 @@ largely presentation material and the retrievable copies are scanned images from
 extracted. The article states the limit rather than writing around it.
 
 ---
+
+## Awaiting Instruction
+
+**A331 is complete through all four passes.** Thirty-five of seventy-two drafted, **none published**.
+
+The next article to draft is **A332, the Lockheed Martin X-35**, editorial date 2025-11-10, series
+index 36. **It is the winner of the competition A329 covered from the losing side**, so the two are a
+matched pair, and A332 should avoid restating A329's construct-validity argument and instead ask what
+the winner's demonstrator actually established. **The X-35 flew the short takeoff, the supersonic
+dash and the vertical landing in a single sortie**, which is the fact A329 identified as decisive,
+and A332 has to say whether that was evidence or theatre.
