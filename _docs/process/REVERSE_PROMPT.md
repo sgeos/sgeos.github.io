@@ -93,8 +93,17 @@ arbitrary and easy to change if they cut across your editorial plan.**
 **The `categories/c` build conflict was a real defect that was losing a page.** `c` and `c++` both slugify
 to `c`, so `jekyll-archives` wrote `/categories/c/index.html` twice and one archive silently overwrote the
 other. `/categories/cpp/` returned 404 on the live site. The category is renamed to `cpp` in the two posts
-that carry it. **Neither post lists it first, so under the default permalink no post URL changes.** Both
-archives now generate, with 4 posts under `c` and 2 under `cpp`.
+that carry it, and both archives now generate, with 4 posts under `c` and 2 under `cpp`.
+
+**I said this would not change any post URL and I was wrong, so it broke two live pages.** Jekyll's default
+permalink joins **every** category, not only the first, so renaming a category anywhere in the list moves
+the post. Confirmed by rebuilding the previous revision, the 2022 addresses were
+`/gamedev/playdate/c/c++/lua/...` and `/rust/c/c++/asm/...`, and both returned 404 after the push.
+
+**Both are restored by two static redirect pages under `redirects/`**, each pinned to the old address with
+an explicit `permalink`, carrying a canonical link and a meta refresh to the new one. This keeps the archive
+fix rather than trading one defect for another, needs no plugin and no Gemfile change, and the pages are
+marked `sitemap: false` so they do not enter the sitemap.
 
 **The announcement commit is pushed**, along with everything above.
 
