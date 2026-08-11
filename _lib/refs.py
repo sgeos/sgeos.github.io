@@ -75,7 +75,20 @@ def clean(s):
     # semicolons then converts `&lt;title&gt;` into `&lt title&gt`, which renders as exactly
     # that. Decoding entities FIRST turns them back into real tags, which the next line
     # removes, and is the only ordering in which both rules are correct.
-    s = html.unescape(s or "")
+    # DOUBLE-ESCAPED MARKUP SURVIVES A SINGLE UNESCAPE PASS AND THE LATER RULES THEN MANGLE
+    # IT INTO VISIBLE JUNK. A publisher emitting `&lt;p&gt;&amp;nbsp;` decodes once to
+    # `<p>&nbsp;`, so the tag rule removes the paragraph tag and the surviving literal
+    # `&nbsp;` meets the ampersand rule, which turns it into `andnbsp;`, and the semicolon
+    # rule then strips the terminator. A332 shipped link text reading `andnbsp andnbsp
+    # andnbsp`. Unescaping to a FIXED POINT is the only ordering in which every later rule
+    # sees text rather than markup, and the iteration is bounded because a hostile title
+    # could otherwise be made to expand.
+    s = s or ""
+    for _ in range(4):
+        once = html.unescape(s)
+        if once == s:
+            break
+        s = once
     # TYPOGRAPHIC PUNCTUATION MUST BECOME ITS ASCII EQUIVALENT BEFORE ANY OTHER RULE RUNS,
     # AND THE REASON IS A HOLE RATHER THAN AN UNTIDINESS. The corpus contraction check
     # matches an ASCII apostrophe, so a harvested title reading "What's" with a RIGHT

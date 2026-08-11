@@ -687,6 +687,27 @@ def t_clean_normalises_typographic_punctuation_to_ascii():
     assert refs.clean("Munafò, Lovász and Štrumbelj") == "Munafò, Lovász and Štrumbelj"
 
 
+def t_clean_unescapes_double_escaped_markup_to_a_fixed_point():
+    """DOUBLE-ESCAPED MARKUP BECAME VISIBLE JUNK IN LINK TEXT.
+
+    A publisher emitting `&lt;p&gt;&amp;nbsp;` decodes once to `<p>&nbsp;`. The
+    tag rule then removes the paragraph tag, the surviving literal `&nbsp;`
+    meets the ampersand rule and becomes `andnbsp;`, and the semicolon rule
+    strips the terminator. A332 shipped link text reading `andnbsp andnbsp
+    andnbsp` until the corpus doubled-word check caught it. Unescaping to a
+    fixed point is the only ordering in which every later rule sees text.
+    """
+    got = refs.clean("&lt;p&gt;&amp;nbsp;&amp;nbsp;Closed-Loop Valuation&lt;/p&gt;")
+    assert "nbsp" not in got, got
+    assert "and" not in got.split()[:1], got
+    assert "Closed-Loop Valuation" in got, got
+    # a singly-escaped ampersand must still become the word `and`
+    assert refs.clean("Smith &amp; Jones") == "Smith and Jones"
+    assert refs.clean("Smith & Jones") == "Smith and Jones"
+    # and the iteration must terminate on text that is not markup at all
+    assert refs.clean("A plain title") == "A plain title"
+
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)

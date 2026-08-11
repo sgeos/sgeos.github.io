@@ -9,149 +9,147 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-11
-**Task**: A332 primary-reference review, the third of four passes. **Committed, not pushed.** **Not
+**Task**: A332 publication review, the fourth and final pass. Committed and **pushed**. **Not
 published.**
 
-**References 5,814 to 7,188 definitions and 5,678 to 7,051 cited**, with all 7,051 master records
-cited and none left over. The article moved from 18,723 to 22,924 lines and from 101,571 to 123,341
-words. **Equations unchanged at 71.**
+**Final state: 27,560 lines, 71 display equations, 8,710 reference definitions, 148,103 words**, with
+all 8,573 master records cited and none left over. **All thirty-six articles remain in `_drafts/`.**
 
 ---
 
-## Both Halves Rose, Which Has Not Happened in This Series Before
+## The Contemporary Survey, Which Doubled
 
-| | After drafting | After the equation pass | After this pass |
-|---|---|---|---|
-| Harvested pool | 7,567 | 7,567 | **10,069** |
-| Cited records | 5,678 | 5,678 | **7,051** |
-| Period count, through 2001 | 2,820 | 2,820 | **3,524** |
-| Period fraction | 49.7 percent | 49.7 percent | **50.0 percent** |
-| Contemporary count, 2015 onward | 2,514 | 2,514 | **3,099** |
-| Contemporary fraction | 44.3 percent | 44.3 percent | **44.0 percent** |
+Coverage stood at 3,099 records and 44.0 percent with ten clusters under thirty modern records, six of
+them carrying arguments. **A harvest took it to 4,466 and 52.1 percent, with 2,028 published from 2022
+onward.**
 
-**The period count rose by 704 and its fraction rose by three tenths of a point.** In A330 and A331
-this pass raised the period count while the contemporary fraction fell underneath it, and the standing
-warning is that neither movement is a fact about coverage. **Here both counts rose and both fractions
-barely moved, because the harvest was aimed at subjects rather than at eras.** Both columns are in the
-article.
+**The most useful thing it found is where this article's newest physics actually lives now.**
 
----
+**Momentum drag has almost no contemporary literature under that name and a large one under others.**
+The modern vocabulary is boundary layer ingestion, distributed propulsion installation, and the
+tiltrotor or tiltwing conversion corridor. **That last one is the closest analogue this article has**,
+because a conversion corridor is exactly what it computed when it found the fully wing-borne speed at
+146.8 knots and observed that the X-35B converted well above it. An electric vehicle with many rotors
+faces the same trade between converting early, where the lift system must carry weight, and converting
+late, where it must absorb drag.
 
-## The Promotion Rule, Fourteenth Article Running, and the Correction Was Vocabulary
+**The canted-joint kinematics are not an aeronautical subject any more.** Spatial mechanisms and
+constant-velocity couplings are studied continuously in robotics and machine design. **The
+high-temperature rotating seal is the part that stayed aeronautical**, because it is the requirement
+that makes the mechanism hard rather than the geometry.
 
-**Seven of the ten subjects the new equations name were thin, one stood at zero, and the two carrying
-the article's sharpest new results stood at one record each.**
-
-| Newly promoted subject | Before | After |
-|---|---|---|
-| **Momentum drag of a lift system** | **1** | **74** |
-| **Canted joint kinematics** | **1** | **89** |
-| Fan stage loading and tip Mach | 1 | 129 |
-| Centre of gravity limits in hover | 2 | 32 |
-| Induced drag and span efficiency | 4 | 145 |
-| Barometric and standard atmosphere | 8 | 35 |
-| **Fuel volume and density** | **0** | **49** |
-
-**Not one extra query was needed once the vocabulary was right.** The article says momentum drag and
-the period reports say **inlet momentum drag, ram drag, lift engine installation losses and
-propulsion-induced effects**. The article says canted joint and the period says **swivel duct,
-deflector, skewed axis coupling and spatial mechanism**.
+**And one the draft did not expect.** The fan-bay calculation assumes a fuel density, which in 2001
+would have been a table lookup and is now an active subject, because sustainable aviation fuels have
+densities differing from conventional kerosene. **An aeroplane that gave up three thousand pounds of
+fuel volume to carry a fan is exactly the kind that feels that.**
 
 ---
 
-## A Defect in My Own Search Pattern, and It Fails Silently
+## The Count-Versus-Fraction Trap, in Its Classic Form, After Two Passes That Did Not Show It
 
-**One of those gaps was mine rather than the literature's.** The cluster pattern matched the singular
-`installation effect` where every report in the field writes `installation effects`, and a word
-boundary after the singular refuses the plural. **An entire subject was routed to the catch-all without
-anything reporting an error.**
+| | Draft | Equation pass | Primary pass | Publication pass |
+|---|---|---|---|---|
+| Harvested pool | 7,567 | 7,567 | 10,069 | **12,974** |
+| Cited records | 5,678 | 5,678 | 7,051 | **8,573** |
+| Period count | 2,820 | 2,820 | 3,524 | **3,640** |
+| Period fraction | 49.7 | 49.7 | 50.0 | **42.5 percent** |
+| Contemporary count | 2,514 | 2,514 | 3,099 | **4,466** |
+| Contemporary fraction | 44.3 | 44.3 | 44.0 | **52.1 percent** |
 
-**This failure mode returns a smaller answer rather than a wrong one, so it reads as a thin literature
-instead of as a bug.** That is why it survived a draft pass and an equation pass. The same family has
-appeared before in this series. Widening the pattern took momentum drag from 7 records to 36 in its own
-cluster and from 1 to 74 across the pool.
-
----
-
-## The Keystone Primary Sources, Now Cited by Name
-
-The draft cited this architecture entirely through secondary description. **It now rests on the
-inventor's own record.**
-
-- **The patent**, Bevilaqua and Shumpert, United States Patent 5,209,428, granted 1993.
-- **Bevilaqua 1996**, dual cycle operation of the shaft driven lift fan propulsion system.
-- **Bevilaqua 2009**, the genesis of the F-35, which is the Wright Brothers Lecture, and its companion
-  paper on inventing it. **Both were absent from the pool and were injected deliberately**, and both
-  verify against the Crossref registry.
-- **Palmer and Holdø 2002** and **Sayma and Vahdati 2003**, the first open-literature studies of the
-  fan itself.
-
-**And the pool contained something I did not go looking for.** Bevilaqua published on
-**thrust-augmenting ejectors** in 1974, 1977, 1984 and 1987. **The ejector is the other way of adding
-mass flow to a lift system**, entraining ambient air into a high-velocity primary jet rather than
-driving a fan with a shaft, and it was the leading candidate for supersonic vertical landing for two
-decades. **The man who displaced it had spent fifteen years on it.** That is now in the article.
+**The primary pass raised both counts and both fractions, which had not happened before in this
+series.** Then this pass raised the period count again, by 116, **while its fraction fell 7.5 points.**
+Nothing was removed. The contemporary harvest moved the denominator underneath it. **All four columns
+are in the article rather than the last one**, because a single column of fractions would read as a
+regression when the period base grew in every pass.
 
 ---
 
-## The Headline Source-Base Claim Survived a Larger Pool
+## A New Homonym, and It Is on the Article's Own Term of Art
 
-**Zero of 10,069 harvested records carry "X-35" in the title**, after four harvests that asked for it
-directly. The claim was made at 7,567 and **stayed at zero while the pool grew by a third**, which is a
-stronger statement than the one the draft could make. Forty-three records name the Joint Strike Fighter
-and fourteen name the F-35. **Nothing names the aeroplane.**
+**Figure of merit is a standard quantity in thermoelectrics and in plasmonic and photonic sensing.** A
+contemporary search for hover efficiency returns solar cells and graphene sensors, and those records
+were reaching the momentum theory cluster until they were filtered.
 
----
-
-## Two of My Own Style Defects, Caught by the Checks That Exist for Them
-
-**A prose semicolon**, in a sentence I wrote this pass, caught by `check_any`.
-
-**The acronym check fired exactly as the handoff predicted it would.** A growing reference set moved a
-verbatim NASA in a citation title ahead of any authorial spell-out, and there was no authorial
-spell-out at all. The article now spells out the National Aeronautics and Space Administration in
-Programme Origin, before the first citation list, at character 6,487 against the first citation
-occurrence at 6,673.
+The same random-sample reading found railway power protection, bridge aerodynamics, astronomical
+transient surveys and point-cloud shape completion. **None of the five was anticipated**, which is the
+standing lesson about this class.
 
 ---
 
-## What Stays Thin, and It Is Now Five Headings and Two Genuine
+## A Third Shared-Library Defect, Found by the Corpus Checker
 
-| Subject | Records | Kind |
-|---|---|---|
-| Ground roll and takeoff distance | 2 | **Settled.** A closed form in every performance textbook |
-| Disc loading | 3 | Wrong heading. It sits inside momentum theory, which holds 175 |
-| Jet footprint and ground erosion | 4 | Wrong heading. It lives inside impingement work, which holds 680 |
-| Rotor spin-up and inertia | 7 | Wrong heading. It lives inside drive-system transients |
-| Thrust lapse with altitude | 12 | Wrong heading. It lives inside installed performance |
-| Stagnation temperature and kinetic heating | 14 | Moved. Its modern half is hypersonics |
-| Standard atmosphere | 35, three modern | **Settled, and the harvest proved it** |
+**Double-escaped markup survives a single unescape pass and the later rules then mangle it into visible
+junk.** A publisher emitting an escaped paragraph tag followed by an escaped non-breaking space decodes
+once to real markup plus a literal entity. The tag rule removes the tag, the surviving entity meets the
+ampersand rule and becomes `andnbsp;`, and the semicolon rule strips the terminator. **The article
+briefly carried link text reading `andnbsp andnbsp andnbsp`.**
 
-**The standard atmosphere is the clearest case of settled knowledge this series has produced.** A
-harvest aimed directly at it took the count from 9 to 35 and returned almost nothing published after
-2015, because it is a standards document rather than a research subject. **Reporting that is more
-useful than padding it.**
+`refs.clean` now unescapes to a **fixed point**, bounded to four iterations so a hostile title cannot be
+made to expand. Regression test added and `test_lib` is **53 to 54**.
+
+---
+
+## A Process Defect I Should Flag, Because It Silently Checks the Wrong Corpus
+
+**`_verify.py` resolves `_posts` and `_drafts` relative to the working directory.** Running it by
+absolute path from the isolated build tree therefore checks the 333 staged files there rather than the
+corpus, and it reported **0 errors and 42 warnings** while the corpus reading is 21.
+
+**I caught this only because the number moved.** The handoff already says to know the expected number
+rather than just pass or fail, and this is a second door into the same hazard: **an absolute path to
+the script is not enough when the script's own paths are relative.** Every corpus reading in this
+report was retaken from the repository root and confirmed twice. **The reading is 0 errors and 21
+warnings.**
+
+---
+
+## What the Prose Pass Changed
+
+- **Diction**: `it is worth` stood at 7 occurrences and a rate above the corpus maximum. Reduced to 2.
+  **Zero constructions now exceed the corpus maximum.**
+- **A stale figure**: the Epistemic State still claimed fifty-one verification checks. It is 115, and
+  that section now also covers the momentum drag, the hot gas margin, the canted-joint geometry and the
+  control power, none of which existed when it was written.
+- **An invented number**: the Conclusion said the sortie made its point in ninety seconds. Nothing
+  supports that and it is removed.
+- **An imprecise one**: the Conclusion said the fan presses about half as hard as the core. The bracket
+  is 1.69 to 2.00, so it is between half and three fifths, and it now says so.
+- **A broken transition** left by an earlier edit, and an **opaque cross-reference** to two defects from
+  other articles that a reader has no way to interpret.
 
 ---
 
 ## Verification
 
-- `python3 tmp/a332/verify.py` **115 of 115**, unchanged, since this pass added no arithmetic.
+Every reading below was taken from the repository root.
+
 - `python3 _verify.py` **0 errors, 21 warnings**, the baseline.
-- `python3 tmp/errata/check_any.py` **0 failures, 0 warnings**.
-- `python3 _lib/test_lib.py` **53 of 53**.
-- **Reference scan clean across 14,321 visible entries**, with zero semicolons, parentheses, dashes,
-  dollars, backslashes, angle brackets, braces, entities, curly quotes or soft hyphens in link text,
-  zero contractions anywhere, and **zero duplicate, undefined or orphaned definitions.**
-- **75 of 75 sampled DOIs verify against the Crossref registry**, including all five keystone records,
-  with two honestly declining the author check.
-- **Isolated build exit 0**, page 1.62 MB, with 71 open and 71 close display-math delimiters, zero
-  unexpanded markers, zero nested empty lists and zero blockquotes.
+- `python3 tmp/errata/check_any.py` **0 failures, 0 warnings**. Twelve genre sections and three series
+  sections in order, with the Source Base immediately before Epistemic State.
+- `python3 _lib/test_lib.py` **54 of 54**.
+- `python3 tmp/a332/verify.py` **115 of 115** by an independent verifier that does not import the
+  calculation.
+- **Prose style clean**: zero em dashes, en dashes, minus signs, contractions, prose colons, curly
+  quotes and capitals used for emphasis. **The only semicolon and parentheses in the whole article are
+  the debug tag**, which is the permitted exception.
+- **Reference scan clean across 17,365 visible entries**, with zero punctuation defects of any kind in
+  link text and **zero duplicate, undefined or orphaned definitions**, zero blockquotes.
+- **Acronym check re-run after the reference growth.** The authorial spell-out sits at character 6,487
+  against the first citation occurrence at 6,835.
+- **Sweep clean with zero hard failures**: **800 of 800 sampled DOIs verify against the Crossref
+  registry** with 25 honestly declining the author check, **453 of 453 NTRS identifiers resolve**, and
+  **102 of 102 curated URLs return OK**.
+- **Isolated 36-article build exit 0**, page 1.95 MB, **71 open and 71 close display-math delimiters
+  matching the equation count exactly**, zero unexpanded markers, zero nested empty lists, zero
+  blockquotes and zero entity junk.
+- **Confirmed after pushing** that the article returns 404 while the site root returns 200, which is
+  correct because nothing in the series is published.
 
 ---
 
 ## Next
 
-**A332 pass four**, the publication review, on your prompt. **It also asks for a push.** The
-contemporary half stands at 3,099 records and 44.0 percent, which is healthy, so I expect that pass to
-be about prose, the full URL sweep and the final structural check rather than about another harvest.
+**A333, the McDonnell Douglas X-36**, editorial date 2025-11-11, Part 37 of 72, on your prompt.
+
+**Publication has still never been authorised and the `post_url` interlock is now thirty-six deep**, so
+these articles publish in order or together.

@@ -25,8 +25,29 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 **18,396 lines, 30 display equations, 5,814 reference definitions, 98,627 words after the draft
 pass.** **18,723 lines, 71 display equations, 5,814 reference definitions, 101,571 words after the
 equation-density review.** **22,924 lines, 71 display equations, 7,188 reference definitions,
-123,341 words after the primary-reference review**, with all 7,051 master records cited and none
-left over. Committed, **not pushed**. **Not published.**
+123,341 words after the primary-reference review.** **27,560 lines, 71 display equations, 8,710 reference definitions,
+148,103 words after the publication review**, with all 8,573 master records cited and none left over.
+Committed and **pushed**. **Not published.**
+
+**THE CONTEMPORARY SURVEY DOUBLED**, from 3,099 records at 44.0 percent to **4,466 at 52.1 percent**,
+with 2,028 published from 2022 onward. **The most useful thing it found is where this article's newest
+physics now lives.** Momentum drag has almost no contemporary literature under that name and a large
+one under **boundary layer ingestion and the tiltrotor conversion corridor**, which is the closest
+analogue the article has. **The canted-joint kinematics are no longer an aeronautical subject at
+all**, living in robotics, with only the high-temperature seal staying aeronautical. And **fuel
+density, a table lookup in 2001, is now an active subject** because sustainable aviation fuels differ
+from kerosene.
+
+**THE COUNT-VERSUS-FRACTION TRAP IN ITS CLASSIC FORM.** The primary pass raised both counts and both
+fractions, which had not happened before in this series. This pass raised the period count again by
+116 **while its fraction fell 7.5 points**, nothing removed and the denominator moved. All four
+columns are in the article.
+
+**A NEW HOMONYM ON THE ARTICLE'S OWN TERM.** Figure of merit is standard in thermoelectrics and
+photonic sensing, so a contemporary search for hover efficiency returns solar cells and graphene
+sensors. **A third shared-library defect** was found by the corpus checker, double-escaped markup
+surviving a single unescape pass and producing link text reading `andnbsp andnbsp andnbsp`;
+`refs.clean` now unescapes to a fixed point and `test_lib` is 54.
 
 **THE PRIMARY PASS RAISED BOTH HALVES, WHICH HAS NOT HAPPENED BEFORE IN THIS SERIES.** The pool went
 from 7,567 to 10,069, the period count from 2,820 to **3,524** and its fraction from 49.7 to **50.0
@@ -115,7 +136,8 @@ also found ninety cluster markers rendering as nested empty list items. Checking
 than trusting its status code found a link to a page that returns 200 and **contains no aeronautical
 content whatever**.
 
-**Remaining work**: the publication review, on the pilot's prompt. **The promotion rule fired for the fourteenth article running**, with 7 of 10 newly promoted
+**Remaining work**: none. All four passes are complete. **Publication has never been authorised**
+and the `post_url` interlock is thirty-six deep. **The promotion rule fired for the fourteenth article running**, with 7 of 10 newly promoted
 subjects thin and the two carrying the sharpest new results, momentum drag and canted joint
 kinematics, standing at **one record each**.
 
