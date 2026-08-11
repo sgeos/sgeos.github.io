@@ -25,7 +25,8 @@ of 72.
 4,825 lines, 35 display equations, 1,054 reference definitions, 24,316 words after the draft pass.
 **4,978 lines, 55 display equations, 1,054 reference definitions, 25,489 words after the equation
 review.** **23,447 lines, 55 display equations, 7,170 reference definitions, 128,682 words after
-the publication review.** Committed and **pushed**. **Not published.**
+the publication review.** **27,517 lines, 55 display equations, 8,513 reference definitions,
+149,682 words after the primary-reference review.** Committed and **pushed**. **Not published.**
 
 **THE KEYSTONE IS AN EXPERIMENTAL DESIGN RATHER THAN A MEASUREMENT, WHICH IS NEW IN THIS SERIES.**
 Every previous article asked what a number was. This one asks whether an advantage exists, and the
@@ -94,12 +95,39 @@ name that survives folding, which recovers the records where Crossref supplies b
 falls back to the title otherwise. `test_lib.py` gained a regression test and stands at **47 of
 47**.
 
+**PRIMARY-REFERENCE PASS, RUN AFTER THE PUBLICATION REVIEW AT THE PILOT'S REQUEST.** The
+measurement came first and it was the reason for the pass. The set held 7,097 records and only
+**666, or 9.4 percent, fell inside the 1985 to 1996 programme window**, which is the primary base
+for an aircraft that flew from 1990 to 1995.
+
+**Two harvests took the window from 666 records to 1,762 and its share from 9.4 to 20.9 percent**,
+with the whole set going from 7,097 to 8,440 and every record cited. The vehicle's own cluster went
+from 21 in-window records to 36 overall, picking up the flight-test companion to the tactical
+utility paper, the frequency-domain identification of the unstable airframe from flight data, and
+the low-speed aerodynamic characterisation. Combat utility went 35 to 83 in-window, asymmetry 21 to
+50, thrust vectoring 45 to 62, weapons and displays 12 to 31, gain scheduling 15 to 28.
+
+**THE CAUSE OF THE SHORTFALL WAS MECHANICAL RATHER THAN EDITORIAL.** The reports server caps a
+search at ten results and is phrasing sensitive, so a broad query returns ten records and a narrow
+one returns ten different ones. Five harvests of broad questions had left the pool at 252 records
+for a programme NASA documented extensively; roughly a hundred and seventy narrow questions took it
+past five hundred. **The conference harvest also carried no date filter**, so it was dominated by
+modern work, and restricting the same publisher prefix to the programme window reached the papers
+the programme's own engineers wrote.
+
+**TWO SUBJECTS ARE REPORTED AS THIN RATHER THAN PADDED.** Agility metrics did not move at all under
+a harvest aimed directly at it, holding 14 in-window records, because that literature is
+concentrated in a handful of papers and then dissolved into energy manoeuvrability rather than
+growing into a field. Control power stands at 13 and is **thin as a heading rather than as a
+subject**, since a paper about control power at high incidence is filed as a paper about high
+incidence.
+
 **Verification.** 107 of 107 numerical checks passing with every article-facing value confirmed
 present in the draft, `_verify.py` at the 21-warning baseline with zero errors, check_any clean,
-`_lib/test_lib.py` at 47 of 47, and a 32-article isolated build rendering 16 sections, 93
-subsections, 22 tables and all 55 equations. The final sweep returned **zero hard failures**
-across all 226 NTRS identifiers, 600 of 6,395 sampled journal DOIs, 160 of 478 sampled DTIC DOIs,
-all 15 books and all 25 curated URLs.
+`_lib/test_lib.py` at 47 of 47, and a 32-article isolated build rendering 16 sections, 95
+subsections, 22 tables and all 55 equations at 1.98 megabytes and 17,307 list items. The final sweep returned **zero hard failures**
+across all 301 NTRS identifiers, 600 of 7,580 sampled journal DOIs, 160 of 561 sampled DTIC DOIs,
+all 15 books and all 25 curated URLs, with **zero search-endpoint citations**.
 
 ## X-Planes Rockwell X-30 and the National Aero-Space Plane A327 2025-11-05
 

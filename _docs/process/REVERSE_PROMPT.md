@@ -9,41 +9,81 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A328 publication review, which also carried the primary-reference work. Committed and
+**Task**: A328 primary-reference review, requested after the publication review. Committed and
 **pushed**. **Not published.**
 
-**Final state: 23,447 lines, 55 display equations, 7,170 reference definitions, 128,682 words.**
-All thirty-two articles in the series remain in `_drafts/`.
+**Final state: 27,517 lines, 55 display equations, 8,513 reference definitions, 149,682 words**,
+from 23,447 lines and 7,170 definitions. All thirty-two articles remain in `_drafts/`.
 
 ---
 
-## One Process Note Before Anything Else
+## The Primary Base Was Thin and the Measurement Said So
 
-**The primary-reference pass was not requested separately and this review folded it in.** The
-rhythm is draft, then equations, then primary references, then publication. The prompt that arrived
-was the publication-review prompt, and a publication review cannot leave the article publishable
-while 3,908 harvested records sit uncited and twenty displayed equations carry no citation. **The
-reference work was therefore done as part of this pass rather than skipped.**
+**The measurement came first and it was the reason for the pass.** The reference set held 7,097
+records and only **666 of them, 9.4 percent, fell inside the 1985 to 1996 programme window**. For
+an article about an aircraft that flew from 1990 to 1995, that window is the primary base.
 
-If a separate reference pass was intended for A328, it has effectively already happened, and the
-next prompt for this series is the A329 draft.
+**The thinnest clusters were the ones carrying claims.** The aircraft's own literature stood at 21
+records in the window. The keystone combat-utility work stood at 35. The measured asymmetries the
+departure boundary rests on stood at 21, post-stall manoeuvring at 16, the gain scheduling the
+accident rests on at 15, agility metrics at 12, unstable dynamics at 9, the tailless work at 8, and
+control power at 7.
+
+**Two harvests took the window from 666 records to 1,762 and its share from 9.4 percent to 20.9.**
+The whole set went from 7,097 to 8,440 and every record is cited.
+
+**The vehicle's own cluster reached 36 records and one of the new ones matters more than the
+rest.** It is the flight-test companion to the tactical utility paper the keystone rests on,
+alongside a frequency-domain identification of the unstable airframe from flight data and the
+low-speed aerodynamic characterisation of the configuration.
+
+---
+
+## Why the Earlier Rounds Missed It, Which Is a Reusable Finding
+
+**The cause was mechanical rather than editorial.** The reports server caps a search at ten results
+and is sensitive to phrasing, so a broad query returns ten records and a narrow one returns ten
+DIFFERENT records. Five harvests of broad questions had left that pool at 252 records for a
+programme NASA documented extensively. Roughly a hundred and seventy narrow questions took it past
+five hundred.
+
+**The conference harvest also carried no date filter**, so it was dominated by modern work.
+Restricting the same publisher prefix to the programme window reached the papers the programme's
+own engineers wrote.
+
+---
+
+## Two Subjects Reported as Thin Rather Than Padded
+
+**Agility metrics did not move at all.** A harvest aimed directly at it in every phrasing the
+period used returned 14 in-window records, exactly as before. That is not a failed query. The
+agility-metrics literature of the late 1980s is concentrated in a handful of papers, and the
+subject then dissolved into energy manoeuvrability and trajectory optimisation rather than growing
+into a field of its own.
+
+**Control power stands at 13 and is thin as a heading rather than as a subject.** The work exists
+and the article cites it, but it lives inside the high angle of attack and departure literature,
+because a paper about control power at high incidence is filed as a paper about high incidence.
+Checking before reporting a gap is the rule, and the check says the gap is in the filing.
 
 ---
 
 ## The Reference Base
 
-**References 1,054 to 7,170 definitions and 981 to 7,097 cited. Every anchored record is now cited
-and none is left over.**
+**References 1,054 to 8,513 definitions and 981 to 8,440 cited across the two reference passes.
+Every anchored record is cited and none is left over.**
 
 The audit at the start of this pass found **3,908 of 4,889 master records uncited**, which is the
 A327 bookkeeping lesson repeating. Two harvests, one aimed at the subjects the equation pass
 promoted and one at the contemporary sweep the standing directive asks for, took the master to
 7,097.
 
-**THE COUNT-VERSUS-FRACTION TRAP FIRED IN BOTH DIRECTIONS.** The period count rose from 1,221 to
-1,393 while the period fraction fell from 44.9 percent to 19.6, because nearly four thousand
-contemporary records arrived underneath it. **Nothing was removed at any point.** The Source Base
-now carries a table by band so both movements are visible.
+**THE COUNT-VERSUS-FRACTION TRAP FIRED IN BOTH DIRECTIONS AND THEN REVERSED.** At the publication
+pass the period count rose from 1,221 to 1,393 while the period fraction fell from 44.9 percent to
+19.6, because nearly four thousand contemporary records arrived underneath it. At this pass the
+movement went the other way, the period count reaching **2,622 through 1996** and its share
+recovering to **31.1 percent** as the primary harvest landed. **Nothing was removed at any point**,
+and the Source Base carries a table by band so every movement is visible.
 
 **Four subjects the equation pass promoted had no cluster at all** and each now has a subsection of
 its own, being the standard atmosphere, engine thrust lapse, airspeed systems as a measurement
@@ -134,14 +174,15 @@ sections, and The Source Base immediately before Epistemic State.
 values confirmed present in the draft.
 
 `_verify.py` at the 21-warning baseline with zero errors, check_any clean, `_lib/test_lib.py` at 47
-of 47, and reference integrity at 7,170 with zero undefined, zero orphaned and zero malformed
-anchors.
+of 47, and reference integrity at 8,513 with zero undefined, zero orphaned and zero malformed
+anchors. Citation gaps held at seven, all of them constructions original to this article.
 
-**The final set swept with zero hard failures**, including all 226 NTRS identifiers, 600 of 6,395
-sampled journal DOIs, 160 of 478 sampled DTIC DOIs, and all 15 books and 25 curated URLs.
+**The final set swept with zero hard failures**, including all 301 NTRS identifiers, 600 of 7,580
+sampled journal DOIs, 160 of 561 sampled DTIC DOIs, and all 15 books and 25 curated URLs, with
+**zero search-endpoint citations**.
 
-**A 32-article isolated build renders the page at 1.71 megabytes, 16 sections, 93 subsections, 22
-tables, 14,619 list items and all 55 equations**, with zero broken anchors and zero empty headings.
+**A 32-article isolated build renders the page at 1.98 megabytes, 16 sections, 95 subsections, 22
+tables, 17,307 list items and all 55 equations**, with zero broken anchors and zero empty headings.
 
 ---
 
@@ -160,7 +201,8 @@ have driven the pooled ratio below parity is 92.14 percent, which lies inside th
 
 ## Awaiting Instruction
 
-**A328 is complete.** Thirty-two of seventy-two drafted, **none published**.
+**A328 is complete, with all four passes done.** Thirty-two of seventy-two drafted, **none
+published**.
 
 The next article to draft is **A329, the Boeing X-32**, editorial date 2025-11-07, series index 33.
 **It inverts this one.** The X-31 was a demonstrator that never competed for a production contract
