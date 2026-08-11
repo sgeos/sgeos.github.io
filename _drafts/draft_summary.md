@@ -23,7 +23,8 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 7,195 lines, 15 display equations, 2,108 reference definitions, 39,311 words after the draft pass.
 **7,303 lines, 28 display equations, 2,108 reference definitions, 40,142 words after the equation
-review.** Committed, **not pushed**, **not published**.
+review.** **13,353 lines, 28 display equations, 4,096 reference definitions, 71,302 words after the
+primary-reference review.** Committed, **not pushed**, **not published**.
 
 **THIS IS THE FIRST AIRCRAFT IN THE SERIES BUILT TO WIN A COMPETITION RATHER THAN TO ANSWER A
 RESEARCH QUESTION**, and the keystone is what a fly-off decides and on what evidence.
@@ -76,10 +77,40 @@ to 1,570, which is **forty percent of everything the aircraft can bring home**, 
 control that has not yet been used. The lift-fan aircraft takes its roll control from posts already
 producing lift.
 
+**PRIMARY-REFERENCE PASS.** References 2,108 to 4,096 definitions and 2,049 to 4,037 cited, with
+every anchored record cited and none left over.
+
+**THIS ARTICLE HAS TWO PRIMARY BASES AND THEY SIT IN DIFFERENT DECADES.** The decision is a 1996 to
+2002 subject and that window holds 621 records. **The physics is not.** The vertical-landing research
+the competition rested on was done in the 1970s and 1980s, and a 1985 report on hot gas ingestion is
+primary for the article's central mechanism in a way that a 2019 review is not. That base holds
+**1,324 records across 1970 to 1995** and is the healthier of the two. Treating everything pre-2003
+as one band would hide the distinction, so the Source Base separates them.
+
+**The measurement came first.** The set held 2,985 records with only **265, or 8.9 percent, in the
+programme window**, and the clusters carrying claims were among the thinnest. A harvest of roughly a
+hundred and forty narrow queries took the window to **621** and the whole set to 4,037, with momentum
+theory going from 22 records to 91 and nozzle design from 64 to 130.
+
+**A HOMONYM NOBODY PREDICTED, AND THE DANGEROUS KIND BECAUSE IT IS INTERNAL TO THE DISCIPLINE.**
+**Hot gas ingestion is also a turbomachinery subject**, describing sealing flows between a turbine
+rotor disc and its stator, and it uses the identical phrase. The pool holds 82 titles containing
+"hot gas" and only 44 belong to this article. It was found by reading the discarded records.
+
+**HOT GAS INGESTION IS REPORTED AS THIN RATHER THAN PADDED.** Thirteen narrow queries aimed directly
+at it moved the cluster from 43 records to 44, because the open literature on inlet reingestion is
+genuinely small. **The article's central failure mechanism rests on a thin public base and says so.**
+
+**CITATION GAPS 12 TO 5**, and the five remaining are the three that construct the bring-back
+allowance, the roll moment as elementary statics, and the documentary ratio.
+
 **Verification.** 77 of 77 numerical checks passing with all article-facing values confirmed present
 in the draft, `_verify.py` at the 21-warning baseline with zero errors, check_any clean,
-`_lib/test_lib.py` at 48 of 48, and a 33-article isolated build rendering 16 sections, 51
-subsections, 15 tables and all 28 equations with zero broken anchors and zero empty headings.
+`_lib/test_lib.py` at 48 of 48, and a 33-article isolated build rendering 16 sections, 56
+subsections, 16 tables and all 28 equations with zero broken anchors and zero empty headings. The
+sweep returned **zero hard failures** across all 161 NTRS identifiers, 600 of 3,103 sampled journal
+DOIs, 160 of 774 sampled DTIC DOIs, all 8 books and all 18 curated URLs, with zero search-endpoint
+citations and zero link-text defects across 8,133 reference entries.
 
 **For the reference pass: 12 displayed equations have no nearby citation**, and the pass promoted
 momentum theory, corrected engine parameters and stream mixing as subjects.

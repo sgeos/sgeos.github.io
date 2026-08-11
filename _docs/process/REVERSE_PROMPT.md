@@ -9,12 +9,77 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-10
-**Task**: A329 equation-density review, the second of four passes. Committed, **not pushed**,
+**Task**: A329 primary-reference review, the third of four passes. Committed, **not pushed**,
 **not published**.
 
-**State: 7,303 lines, 28 display equations, 2,108 reference definitions, 40,142 words**, from 7,195
-lines and 15 equations after the draft pass. References were held and measured before and after.
-All thirty-three articles remain in `_drafts/`.
+**State: 13,353 lines, 28 display equations, 4,096 reference definitions, 71,302 words**, from 7,303
+lines and 2,108 definitions. Equations were held and measured before and after, and all 4,037 master
+records are cited. All thirty-three articles remain in `_drafts/`.
+
+---
+
+## This Article Has Two Primary Bases and They Sit in Different Decades
+
+**A primary source is one contemporary with the work, and here the work is two things that happened
+thirty years apart.**
+
+**The decision is a 1996 to 2002 subject.** Source selection, competitive prototyping, cost
+estimation and requirements commonality are primary in that window and nowhere else, and it holds
+621 records.
+
+**The physics is not.** The vertical-landing research the competition rested on was done in the
+1970s and 1980s, largely by NASA, and **a 1985 report on hot gas ingestion is a primary source for
+this article's central failure mechanism in a way that a 2019 review is not**. That base holds
+**1,324 records across 1970 to 1995** and is the healthier of the two.
+
+**Treating everything before 2003 as one undifferentiated band would hide that**, so the Source Base
+separates them.
+
+---
+
+## What the Pass Measured and Moved
+
+**The measurement came first.** The set held 2,985 records and only **265, or 8.9 percent, fell in
+the programme window**. The clusters carrying claims were among the thinnest: hot gas ingestion at 7
+in-window against the article's central mechanism, jet-induced ground effects at 6, hover control at
+1, momentum theory at 1 against an identity the equation pass had just promoted, and the winning
+aircraft's own cluster at 3.
+
+**A harvest of roughly a hundred and forty narrow queries took the window from 265 to 621 records
+and the whole set from 2,985 to 4,037.** Momentum theory went from 22 to 91, nozzle design from 64
+to 130.
+
+**The cause of the shortfall was the same mechanical one that caught the previous article.** The
+reports server caps a search at ten results and rewards specificity, and the pool stood at 186
+records for a subject NASA researched for thirty years.
+
+---
+
+## A Homonym Nobody Predicted, and the Dangerous Kind
+
+**Hot gas ingestion is also a turbomachinery subject, and it uses the identical phrase.** Sealing
+flows between a turbine rotor disc and its stator are an active field whose papers are titled
+"hot-gas ingestion" exactly as the inlet problem is.
+
+**The pool holds 82 titles containing "hot gas" and only 44 belong to this article.** The remainder
+are rim cavities, purge flows and sealing effectiveness, joined by dust, particle and salt
+ingestion.
+
+**That is the most dangerous class, because it is internal to the discipline**, and it was found by
+reading the discarded records rather than by anticipating it. **Bird ingestion remains deliberately
+admitted**, because an inlet swallowing a bird and an inlet swallowing its own exhaust are the same
+fluid mechanics.
+
+---
+
+## One Subject Reported as Thin Rather Than Padded
+
+**Thirteen narrow queries aimed directly at hot gas ingestion moved the cluster from 43 records to
+44.** That is not a failed harvest. The open literature on inlet reingestion is genuinely small,
+because the measurements that matter are full-scale, expensive, and made by manufacturers rather
+than by research agencies.
+
+**The article's central failure mechanism rests on a thin public base and now says so.**
 
 ---
 
@@ -184,26 +249,36 @@ than thrust share as a property over random velocity pairs rather than at the on
 point.
 
 `_verify.py` at the 21-warning baseline with zero errors, check_any clean, `_lib/test_lib.py` at 48
-of 48, and reference integrity at 2,108 with zero undefined and zero orphaned anchors.
+of 48, and reference integrity at 4,096 with zero undefined, zero orphaned and **zero link-text
+defects across 8,133 reference entries**.
 
-**A 33-article isolated build renders the page at 16 sections, 51 subsections, 15 tables and all 28
-equations**, with zero broken anchors and zero empty headings.
+**The set swept with zero hard failures**, including all 161 NTRS identifiers, 600 of 3,103 sampled
+journal DOIs, 160 of 774 sampled DTIC DOIs, and all 8 books and 18 curated URLs, with **zero
+search-endpoint citations**.
+
+**A 33-article isolated build renders the page at 977 kilobytes, 16 sections, 56 subsections, 16
+tables, 8,440 list items and all 28 equations**, with zero broken anchors and zero empty
+headings.
 
 ---
 
-## For the Reference Pass
+## Citation Gaps, and the Five That Should Stay
 
-**12 displayed equations have no nearby citation**, and that is the next pass's material.
+**Twelve displayed equations carried no nearby citation and five still do.** They are the three that
+construct the bring-back allowance, the roll moment as differential thrust times a lateral arm, and
+the ratio between the winner's and the loser's record counts.
 
-**The equation pass promoted subjects again, which is now twelve articles running.** The relations
-added here reach into momentum theory, corrected engine parameters and the mixing of two streams,
-none of which was a heading the original harvest was written for.
+**The first three and the last are original constructions and the roll moment is elementary
+statics**, so citing any of them would be false attribution or worse. The article says so in its own
+subsection. **Everything else now carries its literature**, including momentum theory, the figure of
+merit, the disc loading as a dynamic pressure, the corrected engine parameters, the ingestion
+correlations and the twin-jet fountain.
 
 ---
 
 ## Awaiting Instruction
 
-**A329 has completed the draft and equation passes.** Thirty-three of seventy-two drafted, **none
-published**.
+**A329 has completed the draft, equation and primary-reference passes.** Thirty-three of seventy-two
+drafted, **none published**.
 
-The next pass is the primary-reference review.
+The next pass is the publication review.
