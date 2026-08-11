@@ -1577,8 +1577,7 @@ article A200
 suggests
 that
 mainstream displacement
-requires
-sustained industrial commitment
+requires considerable industrial commitment
 and
 takes
 several decades

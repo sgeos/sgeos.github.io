@@ -35,6 +35,16 @@ corpus has actually gone wrong.
   opens paragraphs should not repeat verbatim across an article. Where a phrase is genuinely
   needed many times, rotate among several forms rather than substituting one fixed formula for
   another, which only moves the problem.
+- **A substitution must preserve the claim, and nothing checks that it did.** This is the rule the other
+  bullets assume and do not state. Replacing a word to satisfy a prose rule is an edit to the argument, so
+  the replacement has to make the same claim as the original. `substantial` is a claim about magnitude and
+  `sustained` is a claim about duration; swapping one for the other changed what an article asserted and,
+  in the case it happened, duplicated a duration claim the same sentence already made.
+- **Rewriting a label into a sentence must not assert anything the label did not.** A colon-led label
+  carries no count. Turning `Remaining, and genuinely open:` into `Two options remain` invented a count,
+  the list beneath it had three, and the error reached a published article and survived every check that
+  ran afterwards. **Prefer a rewrite that adds no new proposition**, and if a count is unavoidable, count
+  the list.
 - **Preserve the word when it carries meaning.** `specific impulse` is a technical term.
   `any specific case` is a real quantifier claim, weaker than `any case`. `X rather than the
   general Y` is a real contrast. Never strip a word from an article whose subject is that word,
