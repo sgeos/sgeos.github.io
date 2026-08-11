@@ -8,18 +8,23 @@ Current task state and verification log. This file is the shared source of truth
 ## Current Task
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
-**Status**: **A297 through A327 drafted with all four passes complete on every one and all pushed.
-A328 has completed the DRAFT PASS ONLY and is committed, not pushed.** Thirty-two of seventy-two
-drafted, **none published**. The next pass due on A328 is the equation-density review.
+**Status**: **A297 through A329 drafted with all four passes complete on every one and all pushed.**
+Thirty-three of seventy-two drafted, **none published**. Nothing is half finished. The next article
+is A330, the Lockheed Martin X-33, editorial date 2025-11-08, series index 34, and it starts only on
+the pilot's prompt.
 
-**Publication has never been authorised.** All thirty-two remain in `_drafts/`. Thirty-one of them
-are `post_url` targets of another draft in the set and none of those targets exists in `_posts/`, so
+**Publication has never been authorised.** All thirty-three remain in `_drafts/`. Thirty-two of them
+cite another draft in the set through `post_url` and none of those targets exists in `_posts/`, so
 **the set publishes in order or together**, and publishing any one alone fails the build.
 
 This block was rewritten on 2026-08-09 because successive edits had left it self-contradictory, asserting
 twenty-six drafted, then A297 to A322, then A297 to A323, in three consecutive sentences. **A resume
 channel that disagrees with itself is worse than one that is merely out of date**, so the counts above
-were verified against the working tree rather than carried forward.
+were verified against the working tree rather than carried forward. It was rewritten again on
+2026-08-10 for the same reason, having been left asserting that A328 had completed the draft pass
+only while the history table below recorded all four passes on both A328 and A329. **The counts above
+were re-measured against the working tree**, which holds 33 series drafts, 32 of which cite a
+sibling, and 0 published.
 
 **Started**: 2026-08-05
 
