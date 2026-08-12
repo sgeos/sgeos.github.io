@@ -9,160 +9,129 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: A334, the Boeing X-37. **Draft pass complete.**
+**Task**: A334, the Boeing X-37. **Equation-density review complete.**
 **Committed. NOT pushed**, per the rhythm in which only the publication review pushes.
 
 ---
 
-## The Documentary Problem Is the Inverse of Every Previous Article
+## Twenty-Four to Forty-Two, and Nine of Twenty Gaps Closed
 
-Thirty-seven articles have struggled with vehicles that left too little trace. **This one has left a
-very large trace with a hole in the middle.** Eight missions since 2010, 4,208.57 days on orbit across
-the seven completed, dimensions published, durations recorded to the minute, orbits tracked
-continuously by amateur observers. **What it carried and what it did are classified.**
+`_lib/audit.py` reported **twenty sections naming numbers with no displayed relation**. Nine are now
+closed. **The eleven that remain are reference lists, date lists, dollar figures and restatements**,
+and not one of them relies on a relation, so they are reported rather than padded.
 
-**Fourteen records in a harvested pool of 8,905 carry the designation.** Every one is from the 1999 to
-2004 space agency phase or was written by outsiders, and **not one describes a flown mission.**
-
-**That makes the fifth thin-cluster reason, and it is distinct from the other four.** The X-33 and X-34
-were cancelled, the X-35 won, the X-36 produced a technique rather than a vehicle. **The X-37 did not
-stop existing and did not stop working. It stopped being publishable.**
+The article moved from 14,457 lines and 78,320 words to **14,632 lines and 79,704 words**. **The
+reference base did not move**, holding at 4,440 definitions with all 4,223 research records still
+cited, because this pass adds relations and not literature.
 
 ---
 
-## The Route In, Which Is a Measurement Rather Than a Guess
+## The Three Best Additions Were Not in the Audit's List
 
-**The orbit is public even when the payload is not.** Every quantitative claim in the article rests on
-published dimensions, published durations, public orbital elements and textbook relations. **The
-article does not speculate about the payload anywhere**, and says so in its own voice.
+**The audit finds sections carrying numbers without equations. It cannot find a relation the article
+never mentioned at all**, and all three of these came from asking what each argument silently assumes.
 
-**The keystone is endurance, and endurance in orbit is not a propulsion problem.** The central result
-converts an operational record into a hardware requirement using nothing but the mission duration and
-the orbital period. **908.88 days is 14,140 orbits and therefore 14,140 charge and discharge cycles**,
-and at the 40 degree inclination of the first four missions the largest reachable beta angle is 63.44
-degrees against a full-sun threshold of 70.22, so **not one orbit is exempt and no phasing provides
-relief.**
+**Nodal precession, which turns an assumption into a measurement.** The draft averaged the eclipse
+fraction over the node and the season without establishing that the node actually turns. Under $J_{2}$
+it regresses at **-6.169 degrees per day** at 400 kilometres and 40 degrees, so the node completes a
+turn in **58.35 days** and the beta angle cycles at the beat with the Sun's motion in **50.32 days**.
+**The sixth mission therefore swept the node 15.58 times and the beta angle 18.06 times.** The average
+is not a modelling convenience. It is what the mission experienced, and an article quoting a single
+beta angle for a flight of this length would be quoting a transient.
 
-Inverting an inverse power law for cycle life gives an admissible depth of discharge of **38 to 50
-percent across the whole plausible exponent range**, which is routine flight practice. **The record
-endurance needs no exotic energy storage.** It needs a conservatively cycled battery of roughly fifteen
-kilograms per kilowatt.
+**The scaling exponent, which quantifies a penalty the draft only gestured at.** Measuring the exponent
+that relates two vehicles rather than comparing ratios, mass scales as length to the **1.924** against
+3 for geometric similarity while the payload bay scales as **3.226**. A geometrically similar orbiter
+scaled down to 8.92 metres would mass **1,072 kilograms**. The X-37B masses 4,990, **a factor of
+4.655**. **The small vehicle keeps the airframe and loses the room**, which is the square-cube penalty
+in its clearest available form and explains a 4.55 percent payload fraction without apology.
 
----
-
-## Two Independent Public Geometries, Reported as a Bracket and Not as Agreement
-
-The array must fold into a 2.52 square metre bay, which caps the continuous load near **1,164 watts**.
-The heat must leave through the doors, which caps it between **540 and 1,623 watts**. **Heat rejection
-is the tighter constraint**, which is the usual result for a compact spacecraft and explains why the
-doors open on orbit and stay open.
-
-**Both are upper bounds and the article says so repeatedly.** Claiming that two ceilings agree to some
-precision would be claiming more than two ceilings can support, so the finding is the bracket.
+**The duty cycle, which is the operational claim the durations add up to.** First launch to seventh
+landing is 5,433 days and the seven missions total 4,208.57, so **an X-37B has been in orbit for 77.46
+percent of fifteen years**, on two airframes. **That is a statement about turnaround rather than about
+endurance**, and the single-mission record conceals it.
 
 ---
 
-## The Aerobraking Result, and an Estimate of Mine That Was Wrong
+## Reading the Forty-Two Equations Found Eight Symbol Collisions and Nothing Else Did
 
-Circularising the seventh mission's 38,600 kilometre apogee propulsively costs **2,469.4 metres per
-second** against a whole propulsive budget near **310.6**, a ratio of 7.95. **Setting the manoeuvre up
-costs 19.9 metres per second**, so the leverage is **124 to one**, and the perigee passes run at about
-a fifth of the heat flux of a full entry.
+No checker reports a symbol used for two quantities. Reading the equations as a set does.
 
-**MY FIRST FEASIBILITY ESTIMATE SAID THE MANOEUVRE WAS IMPOSSIBLE AND IT WAS WRONG.** Holding the
-period constant gives 314 passes in the available calendar and demands 7.87 metres per second each,
-which no perigee above the entry interface delivers. **The period is not constant.** Every pass lowers
-the apogee, which shortens the period, which fits more passes into the same days. The proper walk-down
-gives **467 passes and 81.2 days at a 100 kilometre perigee**, which fits.
+| Symbol | Wanted by | And also by |
+|---|---|---|
+| $\varepsilon$ | specific orbital energy | emissivity |
+| $a$ | semi-major axis | albedo |
+| $D$ | depth of discharge | drag, in $L/D$ |
+| $e$ | cell specific energy | eccentricity |
+| $h$ | height | specific angular momentum |
+| $\eta$ | duty cycle | the charge and discharge efficiencies |
+| $n$ | mean motion | the scaling exponent |
+| $A$ | solar array area | the drag reference area |
 
-**Both versions are left standing in the article deliberately**, because the difference between them is
-the lesson. The crude estimate held constant the one quantity the manoeuvre exists to change.
-
----
-
-## An Identity Worth More Than the Number It Supports
-
-In equilibrium glide the vertical balance fixes the lift, so the turn rate and the deceleration carry
-the same factor and dividing one by the other removes it. **The heading a vehicle can turn during entry
-depends on its lift-to-drag ratio, its bank angle and the ratio of entry speed to terminal speed, and
-on nothing else.** Not on mass, not on wing area, not on the atmosphere. Checked against an integration
-that retains the term the identity claims cancels, and they agree to four decimal places.
+**Each is resolved by marking one rather than by reusing it silently**, and a **Notation** table near
+the head of the sizing section states which and why. **One case is deliberate and is now explicit.**
+The orbit count and the battery cycle count are written as $N_{\text{orb}}$ and $N_{\text{cyc}}$ and
+then shown to coincide, **because their coincidence is the article's central claim** and assuming it by
+sharing a letter would have been assuming the conclusion.
 
 ---
 
-## Three Defects Found During Assembly, All of Them Mine
+## The Equation Pass Created a Citation Debt and Paid It in the Same Pass
 
-- **A possessive is not a contraction, and my filter forgot it.** A pattern matching any apostrophe-s
-  dropped **81 records**, including "X-37 Flight Demonstrator: A Building Block in NASA's Future Access
-  to Space", which is among the article's best primary sources. The filter now carries `_verify.py`'s
-  own list so the two cannot disagree.
-- **A hyphenated compound is not a doubled word.** `\w` excludes the hyphen, so a backreference read
-  "Based on On-Orbit Measurement Data" as a repeat and dropped a correct title.
-- **A harvested title put a bare pipe into link text**, through a publisher-mangled apostrophe entity
-  deposited as `^|^apos;`. **kramdown reads a paragraph whose first line contains a pipe as a table.**
-  This is the last member of the delimiter family that included the unbalanced `$$` of A327, the bare
-  `\(` of A328 and the stray `>` of A331. **`refs.clean` now strips a bare pipe corpus-wide**, with a
-  test, taking `test_lib.py` from 74 to 75.
+`citation_gaps` went from **14 to 0**. Every new relation initially stood more than nine hundred
+characters from any literature, because the cluster markers sat at the ends of sections. Splitting them
+so each displayed relation carries citations within reach cost nothing, since every record was already
+cited and the trailing all-remaining markers simply absorb whatever is left.
 
-**All three were found by scanning every reference entry for punctuation that does not belong**, which
-remains the only method that has ever worked for this class. Nothing else reported them.
-
-**Six reference works have no author**, and `refs.display`'s title fallback truncates to the same
-two-word window an author label uses, so "Experimental Aerothermodynamic Research of Hypersonic
-Aircraft" rendered as "Experimental Aerothermodynamic Research of 2018", which reads as a person and a
-year. Two of the six are the standard texts for this subject, so they are labelled by title instead of
-being dropped. **Where there is an author, `refs.display` is used unchanged.**
+Thin sections fell from five to one, and **the survivor is the Conclusion**, which restates and cites
+nothing by design.
 
 ---
 
-## The Gate Was Written for This Subject and Both Samples Were Read
+## My Own Text Check Was Broken and Passed Twelve Values That Were Not in the Article
 
-**Reading the kept sample found a cardiac radiofrequency ablation trial**, admitted by a bare `ablat`
-stem. **Reading the dropped sample found the Global Reference Atmospheric Model and a spacecraft
-thermal design paper**, refused because `thermal control` does not match `Thermal-Control`.
+**This is the worst thing in this pass and it was mine.** `Checker.require_in_text` takes a single
+formatter, which is too rigid for an article printing 7.6686 kilometres per second, 232.8 kelvin and
+14,140 orbits. I replaced it with one that tries several roundings, **and the replacement allowed zero
+decimal places.** In a document of 79,000 words and 4,440 reference entries, a bare `58` stands for
+58.3519 and a bare `2` stands for 1.9236 by accident every time.
 
-Three new noise families were recorded in `_research/homonyms.py`, each with the incident that produced
-it: **grid storage and economic dispatch**, which share depth of discharge and cycle life with
-spacecraft batteries; **satellite communications networking**, which shares low Earth orbit with
-everything this series does; and **the electric road vehicle again**, arriving this time through
-battery cycle life rather than propulsion.
+**It reported 47 of 47 passing while twelve verified values were absent from the draft.**
+
+The fix is a floor of **three significant digits** plus digit-boundary matching, so `58.4` cannot match
+inside `1958.42`. **And a self-test now runs first**, asserting that the check finds a value known to be
+present and refuses one known to be absent. **A clean report from an unvalidated checker is not
+evidence**, which the traps document already said and which I had to learn again.
 
 ---
 
 ## Verification
 
 - `python3 _verify.py` **0 errors, 0 warnings**.
-- `python3 tmp/a334/verify.py` **34 of 34**, each value re-derived by a route sharing no code with the
-  one that produced it. The orbital period comes back from a numerical integration of the two-body
-  problem, the eclipse fraction from direct geometric counting, the altitude floor from a scan against
-  a bisection, and the perigee-pass drag from a time-domain quadrature against a true-anomaly one.
-- `python3 _lib/test_lib.py` **75 of 75**, up from 74.
+- `python3 tmp/a334/verify.py` **52 of 52**, up from 34, with the new relations re-derived by
+  independent routes. The nodal precession comes back from the secular rate written longhand, the beta
+  cycle from accumulating phase rather than dividing rates, the scaling exponent from solving the power
+  law forward, and the duty cycle span from the calendar.
+- `python3 _lib/test_lib.py` **75 of 75**.
 - `./_check.sh --drafts` **passes end to end**, 504 pages, no findings.
-- Identifier sweep, seeded sample of 400: **400 of 400 resolved**, 22 through the issuing registry
-  rather than by HTTP, which is the expected Defense Technical Information Center pattern.
-
-**One verifier failure was a real finding rather than a defect.** I asserted that a decaying-orbit
-propagation should exceed the fixed-altitude drag budget by no more than fifteen percent. It exceeds it
-by **48.4 percent**, because drag is exponential in altitude and every metre lost makes the next metre
-dearer. **The band was asserted rather than measured**, the calculation was right, and the gap is now a
-reported result about reboost cadence.
+- Every one of the 42 equations was read for brace balance, delimiter closure, bare pipes and doubled
+  backslashes, and all 42 are clean.
 
 ---
 
 ## Outstanding
 
-**Nothing blocking.** The draft is committed and the working tree is clean.
+**Nothing blocking.** The tree is clean and the article is committed.
 
-**The article is NOT pushed**, which is correct for a draft pass. **Publication of the thirty-eight
-X-Planes drafts remains unauthorised.**
+**The article is NOT pushed**, which is correct. **Publication of the thirty-eight X-Planes drafts
+remains unauthorised.**
 
-**For the equation-density pass, which is your next prompt if you want it:** `_lib/audit.py` reports
-**14 sections naming numbers with no displayed relation**, the largest being the scale comparison
-against the Shuttle orbiter, the solar-cycle bracket and the crossrange table. The draft stands at
-**24 display equations**, which is low against a series median of 94 and reflects a subject whose
-argument runs through a few relations applied repeatedly. **Report the count and do not pad toward the
-median.**
+**For the primary-reference pass, which is your next prompt if you want it:** `_lib/audit.py` reports
+**primary sources at 2,125 of 4,319, or 49.2 percent**, at the article's own 2011 cutoff. The period
+count is 2,015 and the contemporary count 2,160, and both are reported in the article rather than only
+the fraction.
 
-**A background citation verification run was started and had not returned when this was written.** Its
-findings belong to the publication review, alongside the 43 mismatch and 89 label-name findings already
-recorded as an open decision.
+**The corpus citation run is still an open decision.** It stands at 46 hard and 184 weak findings
+across 87 articles with 61 clean, and A334's own coverage was 34.5 percent when last measured. **A
+report that lists only articles with findings cannot distinguish a clean article from an unexamined
+one**, so coverage must be measured rather than inferred from an absent row.

@@ -65,10 +65,27 @@ are also, unlike the payload, constrained by physics that anybody can write down
 
 ### Why Endurance Is the Binding Unknown
 
-The obvious guess is that a long mission is a propulsion problem. **It is not.** A vehicle in a stable orbit
-needs no thrust to stay there, and the drag makeup for a mission of this length turns out to be a minor line
-in the mass budget at the altitudes actually flown. The X-37B carries no crew, so it has no consumables
-limit either, which removes the constraint that governs every human spaceflight endurance record.
+The obvious guess is that a long mission is a propulsion problem. **It is not**, and the reason is worth
+writing down rather than asserting. The specific energy of a Keplerian orbit is
+
+$$\mathcal{E} = \frac{v^{2}}{2} - \frac{\mu}{r} = -\frac{\mu}{2a}$$
+
+which depends on the semi-major axis $a$ and on nothing else. At 400 kilometres it is
+**-29.40 megajoules per kilogram**, and because a conservative field cannot change it,
+**every secular change in the orbit is a non-conservative effect.** In low Earth orbit there is essentially
+one, which is drag, and the drag makeup for a mission of this length turns out to be a minor line in the
+mass budget at the altitudes actually flown. The X-37B carries no crew, so it has no consumables limit
+either, which removes the constraint that governs every human spaceflight endurance record.
+
+The energy statement above is the foundation of every orbital result in this article, and the literature
+that establishes it is the astrodynamics canon rather than anything about this vehicle.
+
+- [A Review of Existing Policies Affecting the Jettison of Waste...][research_jurekparodi_michaelkewert]
+- [Spacecraft Materials Degradation Under Space-Simulated Low...][research_elenaaplis_milestbengtson]
+- [Stationkeeping and synchronous satellite orbit determination][research_lubowe_1969]
+- [Geostationary Satellite Orbital Geometry][research_yeh_1972]
+- [A Guidance and Navigation System for Automatic Stationkeeping...][research_gustafson_kriegsman_1973]
+- [Realisation of rendezvous by the transfer orbit which is...][research_mison_1973]
 
 **What binds a mission of this length is hardware wear in the power loop, and the wear is cyclic.** Every
 orbit takes the vehicle through the Earth's shadow, every shadow discharges a battery, and every discharge
@@ -141,6 +158,28 @@ produced them is set from this sentence rather than the other way round.
 
 ## Sizing From First Principles
 
+### Notation, Because Two Standard Symbols Collide in This Subject
+
+**Orbital mechanics and thermal engineering each own a set of symbols and the two sets overlap.** The
+article carries both, so the ambiguous cases are marked here rather than resolved silently at each use.
+
+| Symbol | Meaning | The other standard use, avoided here |
+|---|---|---|
+| $\mathcal{E}$ | specific orbital energy | $\varepsilon$, which is reserved for emissivity |
+| $\varepsilon$ | emissivity | |
+| $a$ | semi-major axis | the albedo, written $\alpha_{\oplus}$ |
+| $\alpha_{s}$ | solar absorptivity | |
+| $\delta$ | depth of discharge | $D$, which is reserved for drag in $L/D$ |
+| $w$ | cell specific energy | $e$, which is reserved for eccentricity |
+| $N_{\text{orb}}$, $N_{\text{cyc}}$ | orbits and battery cycles | **The article's central claim is that these two are equal for this vehicle**, so they are written separately and shown to coincide rather than assumed identical |
+| $A_{\text{ref}}$ | drag reference area | $A$, which is the solar array area |
+| $\Phi$ | duty cycle | $\eta$, which is reserved for the efficiencies |
+| $T$ | orbital period | every temperature carries a subscript |
+
+**Nothing is renamed for tidiness.** Each entry is a case where two relations in this article would
+otherwise use one letter for two quantities, which is the defect the series has met before and resolves by
+marking one rather than by reusing it silently.
+
 ### The Orbit, Which Is the Public Half of a Classified Vehicle
 
 Everything in this section follows from two published numbers, the altitude and the inclination, and from
@@ -188,6 +227,13 @@ missions, flown near 40 degrees, that ceiling is **63.44 degrees**, which is bel
 | OTV-5 | 54.5 degrees | 77.94 degrees | 70.22 degrees | reaches full sun |
 | OTV-7 | 59 degrees | 82.44 degrees | 70.22 degrees | reaches full sun |
 
+- [Umbra and penumbra eclipse factors for satellite orbits][research_fixler_1964]
+- [Shadow of the FOBS Bombs in Orbit][research_shadow_of_1967]
+- [Moon-shadow eclipse probability for high- altitude spacecraft][research_williams_1970]
+- [The equilibrium potential of a magnetospheric satellite in an...][research_knott_1972]
+- [On the duration of totality in the eclipse of Zeta Aurigae][research_kitamura_1974]
+- [ANNULAR SOLAR ECLIPSE ON A SATELLITE PICTURE][research_jongh_konnen_1976]
+
 **A vehicle in a 40 degree orbit at this altitude is eclipsed on every orbit of every day of its mission, and no phasing of the node or the season provides relief.**
 Averaged over a full precession of the node and a full year of the Sun's motion, the mean eclipse fraction
 at 40 degrees is **36.52 percent**, and the fraction of sampled geometries that eclipse at all is exactly
@@ -195,11 +241,54 @@ at 40 degrees is **36.52 percent**, and the fraction of sampled geometries that 
 **The higher inclination buys relief and the lower one does not**, which is a consequence of the mission's
 own orbit choice rather than of the vehicle.
 
+### Why That Average Is a Measurement and Not an Assumption
+
+Averaging over the node is only legitimate if the node actually turns during the mission. It does, and the
+rate follows from the Earth's oblateness. The dominant secular effect of the second zonal harmonic $J_{2}$
+on a near-circular orbit is a regression of the ascending node at
+
+$$\dot{\Omega} = -\frac{3}{2} J_{2} \left( \frac{R_{\oplus}}{p} \right)^{2} \sqrt{\frac{\mu}{a^{3}}} \, \cos i$$
+
+where $p$ is the semi-latus rectum, equal to the radius for a circular orbit, and the square root is the
+mean motion. At 400 kilometres and 40 degrees this is **-6.169 degrees per day**, so the node completes a
+full turn in **58.35 days**.
+
+- [Orbital maneuvering subsystem functional path analysis for...][research_keeslerel_1974]
+- [Space shuttle orbital maneuvering engine platelet injector...][research_space_shuttle_1975]
+- [Space shuttle orbital maneuvering system failure detection...][research_damariola_vullojp_1976]
+- [Efficient structures for geosynchronous spacecraft solar...][research_adamslr_hedgepethjm_1981]
+- [Obtaining Geostationary Orbit from an Off-Nominal Low...][research_rosengren_1982]
+
+The beta angle itself follows from the Sun vector and the orbit normal,
+
+$$\sin \beta = \cos \delta_{\odot} \sin i \sin(\Omega - \alpha_{\odot}) + \sin \delta_{\odot} \cos i$$
+
+with $\delta_{\odot}$ and $\alpha_{\odot}$ the solar declination and right ascension.
+**The geometry therefore repeats at the beat between the node's regression and the Sun's annual motion**
+rather than at either rate alone,
+
+$$T_{\beta} = \frac{360^{\circ}}{\lvert \dot{\Omega} - \dot{\lambda}_{\odot} \rvert}$$
+
+which gives **50.32 days**.
+
+**The sixth mission therefore swept the node 15.58 times and the beta angle 18.06 times.** The average above
+is not a modelling convenience. **It is what the mission actually experienced**, and an article quoting a
+single beta angle for a flight of this length would be quoting a transient.
+
+- [The eclipse duration of the X-ray pulsar 3U 0900-40][research_avni_1976]
+- [Periodic fadings in VHF radio-satellite transmissions during...][research_hajkowicz_1977]
+- [The upper Jovian atmosphere aerosol content determined from a...][research_smith_greene_1977]
+- [Spacecraft charging at geosynchronous orbit-generalized...][research_garrett_rubin_1978]
+- [Casting a Shadow on the Eclipse][research_ballard_1979]
+- [Observations of eclipse shadow bands and related phenomena][research_seykora_1979]
+- [Galilean satellite eclipse studies][research_smith_greene_1980]
+- [Galilean satellite eclipse studies I. Observations and...][research_greene_smith_1980]
+
 ### The Mission Duration Is a Battery Cycle Count
 
 The sixth mission lasted 908.88 days. At a 92.56 minute period that is
 
-$$N = \frac{t_{\text{mission}}}{T} = \frac{908.88 \times 86{,}400}{5{,}553.6} = 14{,}140 \text{ orbits}$$
+$$N_{\text{orb}} = \frac{t_{\text{mission}}}{T} = \frac{908.88 \times 86{,}400}{5{,}553.6} = 14{,}140$$
 
 and because the vehicle's inclination admitted no full-sun period,
 **every one of those 14,140 orbits carried an eclipse and therefore a charge and discharge cycle.** At 300
@@ -209,20 +298,20 @@ kilometres the same mission would be 14,459 orbits.
 requirement, and it does so using nothing but the mission duration and the orbital period, both of which are
 public.
 
-- [Umbra and penumbra eclipse factors for satellite orbits][research_fixler_1964]
-- [Shadow of the FOBS Bombs in Orbit][research_shadow_of_1967]
-- [Moon-shadow eclipse probability for high- altitude spacecraft][research_williams_1970]
-- [The equilibrium potential of a magnetospheric satellite in an...][research_knott_1972]
-- [On the duration of totality in the eclipse of Zeta Aurigae][research_kitamura_1974]
-- [ANNULAR SOLAR ECLIPSE ON A SATELLITE PICTURE][research_jongh_konnen_1976]
-- [The eclipse duration of the X-ray pulsar 3U 0900-40][research_avni_1976]
-- [Periodic fadings in VHF radio-satellite transmissions during...][research_hajkowicz_1977]
-- [The upper Jovian atmosphere aerosol content determined from a...][research_smith_greene_1977]
-- [Spacecraft charging at geosynchronous orbit-generalized...][research_garrett_rubin_1978]
-- [Casting a Shadow on the Eclipse][research_ballard_1979]
-- [Observations of eclipse shadow bands and related phenomena][research_seykora_1979]
-- [Galilean satellite eclipse studies][research_smith_greene_1980]
-- [Galilean satellite eclipse studies I. Observations and...][research_greene_smith_1980]
+- [Galilean satellite eclipse studies II. Jovian stratospheric...][research_smith_1980]
+- [Observations on Satellite Communication During the Solar...][research_shukla_1981]
+- [Observations of shadow bands at the total solar eclipse of 16...][research_marschall_mahon_1984]
+- [A new photographic method for mapping lunar eclipse shadow][research_nakamura_hirayama_1986]
+- [Hipparcos satellite survives the long eclipse season][research_hipparcos_satellite_1990]
+- [Satellite eclipse power by laser illumination][research_landis_1991]
+- [Shadow bands during the total solar eclipse of 11 July 1991][research_jones_jones_1994]
+- [Shadow bands during the total solar eclipse of 3 November 1994][research_jones_1996]
+- [Orbit Raising with Low-Thrust Tangential Acceleration in...][research_orbit_raising_1998]
+- [Shadow bands during the eclipse or a con-trail?][research_walker_1999]
+- [Shadow bands during the total solar eclipse of 26 February...][research_jones_1999]
+- [Transient Thermal Sensitivity Analysis During Solar Eclipse...][research_suresha_gupta_1999]
+- [An improved laser ablation method using a shadow mask eclipse...][research_tachiki_kobayashi_2000]
+- [Mitigation of satellite orbit errors resulting from the...][research_lundberg_2000]
 
 ### What the Payload Bay Allows, Which Is an Upper Bound and Not an Estimate
 
@@ -288,12 +377,12 @@ per unit area, where $\varepsilon$ is the emissivity and $\sigma$ is the
 Earth absorbs outgoing longwave radiation and reflected sunlight, and the temperature it cannot radiate
 below follows from
 
-$$T_{s} = \left( \frac{F \left( \varepsilon q_{\text{IR}} + a \alpha S \right)}{\varepsilon \sigma} \right)^{1/4}$$
+$$T_{s} = \left( \frac{F \left( \varepsilon q_{\text{IR}} + \alpha_{\oplus} \alpha_{s} S \right)}{\varepsilon \sigma} \right)^{1/4}$$
 
 with $F$ the view factor to the Earth, $q_{\text{IR}}$ the outgoing longwave flux of about 237 watts per
-square metre, $a$ the albedo of about 0.30 and $\alpha$ the solar absorptivity of a white thermal control
-coating, about 0.20. For a surface with half its view filled by the Earth this gives a sink temperature of
-**232.8 kelvin**.
+square metre, $\alpha_{\oplus}$ the albedo of about 0.30 and $\alpha_{s}$ the solar absorptivity of a white
+thermal control coating, about 0.20. For a surface with half its view filled by the Earth this gives a sink
+temperature of **232.8 kelvin**.
 
 | Radiator temperature | Net flux rejected |
 |---|---|
@@ -301,6 +390,21 @@ coating, about 0.20. For a surface with half its view filled by the Earth this g
 | 30 degrees Celsius | 265.5 watts per square metre |
 | 40 degrees Celsius | 321.9 watts per square metre |
 | 50 degrees Celsius | 384.0 watts per square metre |
+
+Inverting for the area a given dissipation demands,
+
+$$A_{r} = \frac{Q}{\varepsilon \sigma \left( T_{r}^{4} - T_{s}^{4} \right)}$$
+
+so a kilowatt at 20 degrees Celsius needs 4.66 square metres and the same kilowatt at 40 degrees needs 3.11.
+**The fourth power is doing the work**, and a radiator that may run hotter is a radiator that may be
+smaller.
+
+- [A Simplified Model of VIPER Thermal Management System. Part I...][research_ezequielfmedici_jodicturk]
+- [Durability of Passive Thermal Control Materials Exposed to...][research_miriamfinckenor_meghancarrico]
+- [Modeling and Simulation of Tank Pressure Control using...][research_jonathanabentley_leonidgbolshinskiy]
+- [Multilayer Insulation for In-Space Cryogenic Applications][research_wesleyjohnson]
+- [Thermal design of the orbiting astronomical observatory][research_hemmerdinger_1964]
+- [Performance of multilayer insulation systems for the 300 deg...][research_cunningtongr_streeder_1965]
 
 Flat doors of 2.1 metres by 0.6 metres give 2.52 square metres and reject **540 watts** at 20 degrees
 Celsius. Curved doors radiating from both faces at 40 degrees Celsius reach **1,623 watts**.
@@ -315,12 +419,6 @@ They are not the same calculation, they share no input beyond the bay dimensions
 than coincide. **Reporting the bracket is the honest form of the result**, because claiming that two upper
 bounds agree to some precision would be claiming more than two upper bounds can support.
 
-- [A Simplified Model of VIPER Thermal Management System. Part I...][research_ezequielfmedici_jodicturk]
-- [Durability of Passive Thermal Control Materials Exposed to...][research_miriamfinckenor_meghancarrico]
-- [Modeling and Simulation of Tank Pressure Control using...][research_jonathanabentley_leonidgbolshinskiy]
-- [Multilayer Insulation for In-Space Cryogenic Applications][research_wesleyjohnson]
-- [Thermal design of the orbiting astronomical observatory][research_hemmerdinger_1964]
-- [Performance of multilayer insulation systems for the 300 deg...][research_cunningtongr_streeder_1965]
 - [Performance of multilayer insulation systems for the 300 deg...][research_cunningtongr_streeder_1966]
 - [Satellite thermal control using phase-change materials][research_fixler_1966]
 - [A thermophototropic model for spacecraft thermal control][research_levin_berggren_1967]
@@ -333,6 +431,12 @@ bounds agree to some precision would be claiming more than two upper bounds can 
 - [Thermal design and thermal testing of the UK-3 spacecraft][research_semple_1968]
 - [Optimization of steady-state thermal design of space radiators][research_thurman_1969]
 - [Thermal control of a Mars entry capsule][research_stultz_1969]
+- [Comment on "Effects of Simulated Mars Dust Erosion...][research_cross_newman_1970]
+- [Lunar Module thermal-vacuum simulation utilizing conformal...][research_hellmann_conover_1970]
+- [Scale modeling considerations for thermal control coatings][research_macgregor_thompson_1970]
+- [Heat-rejection radiator mass and its influence in space power...][research_bonneville_1971]
+- [Investigation of phase-change coatings for variable thermal...][research_kelliherwc_youngpr_1972]
+- [Review of Thermal Control Materials for Metallic Junctions][research_fletcher_1972]
 
 ### The Battery, and an Inversion Rather Than a Prediction
 
@@ -341,8 +445,12 @@ The energy drawn from the battery in one eclipse is
 $$E = \frac{P_{\text{load}} \, t_{E}}{\eta_{d}}$$
 
 which for a one kilowatt load across a 36.11 minute eclipse is **668.7 watt hours**. The installed capacity
-must exceed that by the reciprocal of the depth of discharge, and the mass follows from the cell specific
-energy.
+must exceed that by the reciprocal of the depth of discharge $\delta$, and the mass follows from the cell
+specific energy $w$,
+
+$$C = \frac{E}{\delta}, \qquad m_{b} = \frac{E}{\delta \, w} = \frac{P_{\text{load}} \, t_{E}}{\eta_{d} \, \delta \, w}.$$
+
+**The mass is inversely proportional to the depth of discharge and to nothing else that the designer controls cheaply.**
 
 | Depth of discharge | Installed capacity | Mass at 100 watt hours per kilogram |
 |---|---|---|
@@ -355,11 +463,24 @@ energy.
 wants a shallow cycle, and a shallow cycle is heavy.
 
 **The article does not know the cell chemistry's constants and will not assert them.** What it can do is
-invert. Taking the standard empirical form in which cycle life and depth of discharge satisfy $N \, D^{k} =
-\text{constant}$, and anchoring it at a flight-proven point of 30,000 cycles at 30 percent, the depth of
-discharge that a 14,140-cycle mission admits is
+invert. The standard empirical form for a secondary cell in low Earth orbit is an inverse power law between
+cycle life and depth of discharge,
 
-$$D = D_{\text{ref}} \left( \frac{N_{\text{ref}}}{N} \right)^{1/k}$$
+$$N_{\text{cyc}} \, \delta^{k} = \text{constant}, \qquad\text{equivalently}\qquad \frac{N_{\text{cyc}}}{N_{\text{ref}}} = \left( \frac{\delta_{\text{ref}}}{\delta} \right)^{k}$$
+
+which the literature below establishes across several chemistries.
+
+- [Development and Application of a Novel Calorimetry Technique...][research_stevenlrickman]
+- [Nickel-cadmium cells for the spacecraft battery][research_dcbomberger_lfmoose_1963]
+- [Nickel-cadmium cells for the spacecraft battery][research_nickel_cadmium_cells_1964]
+- [Cycle life test of secondary spacecraft cells first annual...][research_bruessec_1965]
+- [Nickel Cadmium Spacecraft Battery Charge Control with...][research_sizemoreko_strouper_1965]
+- [TEST OF GEMINI FUEL BATTERY SECTION TO MANNED ORBITING...][research_nuttall_stevens_1965]
+
+Anchoring it at a flight-proven point of 30,000 cycles at 30 percent, the depth of discharge that a
+14,140-cycle mission admits is
+
+$$\delta = \delta_{\text{ref}} \left( \frac{N_{\text{ref}}}{N_{\text{cyc}}} \right)^{1/k}$$
 
 | Exponent | Admissible depth of discharge | Battery mass per kilowatt |
 |---|---|---|
@@ -375,12 +496,6 @@ routine flight practice for low Earth orbit.
 conservatively, sized at something like fifteen kilograms for each kilowatt of continuous load, which is a
 small fraction of a five-tonne vehicle.
 
-- [Development and Application of a Novel Calorimetry Technique...][research_stevenlrickman]
-- [Nickel-cadmium cells for the spacecraft battery][research_dcbomberger_lfmoose_1963]
-- [Nickel-cadmium cells for the spacecraft battery][research_nickel_cadmium_cells_1964]
-- [Cycle life test of secondary spacecraft cells first annual...][research_bruessec_1965]
-- [Nickel Cadmium Spacecraft Battery Charge Control with...][research_sizemoreko_strouper_1965]
-- [TEST OF GEMINI FUEL BATTERY SECTION TO MANNED ORBITING...][research_nuttall_stevens_1965]
 - [Testing and evaluation of nickel-cadmium spacecraft-type...][research_lukeif_roegereajr_1965]
 - [Testing and evaluation of nickel-cadmium spacecraft-type...][research_lukeif_roegereajr_1965_b]
 - [An open-cycle life-support system for manned interplanetary...][research_roth_1966]
@@ -393,16 +508,23 @@ small fraction of a five-tonne vehicle.
 - [Nickel-Hydrogen Battery Technology-Development and Status][research_dunlop_stockel_1982]
 - [Assessment of flywheel energy storage for spacecraft power...][research_rodriguezge_studerpa_1983]
 - [Analytical modeling of battery cycle life][research_gross_1984]
+- [Bipolar Nickel-hydrogen Batteries for Aerospace Applications][research_koehlercw_vanommeringg_1984]
+- [Long Life Nickel Electrodes for a Nickel-hydrogen Cell Cycle...][research_limhs_verzwyveltsa_1984]
+- [Test Results of a Ten Cell Bipolar Nickel-hydrogen Battery][research_cataldorl_1984]
+- [An industry and government survey A nickel-hydrogen testing...][research_badcockc_mildenm_1985]
+- [Investigation of nickel-hydrogen battery technology for the...][research_lackner_mccoy_1986]
+- [Nickel-hydrogen bipolar battery][research_nickel_hydrogen_bipolar_1986]
 
 ### Drag, and Why the Duration Bounds the Altitude
 
 A vehicle in low orbit decelerates at
 
-$$a_{D} = \frac{1}{2} \rho v^{2} \frac{C_{D} A}{m}$$
+$$a_{D} = \frac{1}{2} \rho v^{2} \frac{C_{D} A_{\text{ref}}}{m}$$
 
 and holding the orbit against that costs a velocity increment equal to the deceleration integrated over the
-mission. Writing $B = m / (C_{D} A)$ for the [ballistic coefficient][ref_ballistic_coefficient], so that a
-larger value means a vehicle less troubled by drag, the makeup requirement over a mission of duration $t$ is
+mission. Writing $B = m / (C_{D} A_{\text{ref}})$ for the
+[ballistic coefficient][ref_ballistic_coefficient], so that a larger value means a vehicle less troubled by
+drag, the makeup requirement over a mission of duration $t$ is
 
 $$\Delta v = \frac{\rho v^{2}}{2 B} \, t.$$
 
@@ -421,11 +543,16 @@ Density comes from a piecewise exponential model at nominal solar activity. Taki
 **The requirement changes by a factor of forty-seven across two hundred kilometres of altitude**, because
 density is exponential and everything else in the relation is nearly constant.
 
-The vehicle's own capability follows from the [rocket equation][ref_rocket_equation]. A 500 kilogram
-hypergolic propellant load at 300 seconds specific impulse on a 4,990 kilogram vehicle buys
-**310.6 metres per second**. Spending the entire budget on drag makeup and nothing else would sustain 908.88
-days at **254.4 kilometres**, and spending half of it would sustain the same mission at
-**285.7 kilometres**.
+The propellant each of those increments costs follows from inverting the
+[rocket equation][ref_rocket_equation]. Writing $m_{0}$ for the mass before the burn and $I_{sp}$ for the
+specific impulse,
+
+$$\Delta v = I_{sp} \, g_{0} \ln \frac{m_{0}}{m_{0} - m_{p}}, \qquad \frac{m_{p}}{m_{0}} = 1 - \exp\!\left( -\frac{\Delta v}{I_{sp} g_{0}} \right)$$
+
+and read the second form for the table above.
+**A 500 kilogram hypergolic propellant load at 300 seconds specific impulse on a 4,990 kilogram vehicle buys 310.6 metres per second.**
+Spending the entire budget on drag makeup and nothing else would sustain 908.88 days at
+**254.4 kilometres**, and spending half of it would sustain the same mission at **285.7 kilometres**.
 
 **The duration and the altitude are therefore not independent facts, and the observed pair is consistent.**
 The missions were tracked in orbits between roughly 300 and 400 kilometres, where a 908-day flight costs
@@ -440,16 +567,38 @@ It is not the right question for one that lets the orbit sink and recovers it la
 **Holding 400 kilometres continuously costs 17.20 metres per second over 908.88 days. Letting the orbit decay for the whole mission and recovering at the end costs 25.53 metres per second**,
 a ratio of **1.484**, and the uncontrolled orbit would have fallen to **355.1 kilometres** by then.
 
-**The gap is not a discrepancy between two calculations. It is the price of an infrequent reboost**, and it
-exists because every metre of altitude lost puts the vehicle into denser air and makes the next metre more
-expensive.
+The relation that produces the second figure is the secular decay of the semi-major axis under a drag
+acceleration $a_{D}$. Differentiating the specific energy displayed earlier and substituting the work drag
+does per unit time,
+
+$$\frac{d\mathcal{E}}{dt} = -a_{D} v = \frac{\mu}{2a^{2}} \frac{da}{dt} \qquad \Longrightarrow \qquad \frac{da}{dt} = -\frac{2 a^{2} v}{\mu} \, a_{D}$$
+
+which is the equation integrated to obtain the decayed altitude.
+
+- [Effect of Transverse Atmospheric Drag on Satellite Orbits][research_wildhack_1958]
+- [Irregularities of Satellite Drag and Diurnal Variations in...][research_groves_1958]
+- [290. Effect of transverse atmospheric drag on satellite orbits][research_290_effect_1959]
+- [The determination of the electron distribution in the upper...][research_hibberd_thomas_1959]
+- [The upper atmosphere and satellite drag][research_stirton_1960]
+- [Theoretical Evaluation of Atmospheric Drag Effects in the...][research_brower_hori_1960]
+- [Appendix to theoretical evaluation of atmospheric drag...][research_brouwer_hori_1961_b]
+- [Theoretical evaluation of atmospheric drag effects in the...][research_brouwer_hori_1961]
+
+**The gap between the two figures is not a discrepancy between two calculations. It is the price of an infrequent reboost**,
+and it exists because $\rho$ is exponential in altitude, so every metre lost puts the vehicle into denser
+air and makes the next metre more expensive.
 
 ### The Solar Cycle, Which Was Kind to the Record
 
 Thermospheric density at a fixed altitude varies by roughly an order of magnitude between solar minimum and
 solar maximum, and the model used above is a nominal one.
-**Applying the variation to the result rather than to the model**, the drag makeup at 400 kilometres over
-908.88 days runs as follows.
+**The makeup requirement is exactly linear in density**, since
+
+$$\Delta v = \frac{\rho v^{2}}{2 B} t \qquad \Longrightarrow \qquad \frac{\Delta v(\zeta \rho)}{\Delta v(\rho)} = \zeta$$
+
+for any multiplier $\zeta$, so a bracket on the density passes straight through to a bracket on the answer
+and nothing needs recomputing. **Applying the variation to the result rather than to the model**, the drag
+makeup at 400 kilometres over 908.88 days runs as follows.
 
 | Solar condition | Velocity increment | Propellant |
 |---|---|---|
@@ -471,14 +620,6 @@ vehicle than the same record set at solar maximum would have been.
 carry, which tilted the other way.
 **Ask which way the demonstration was tilted and by how much. It is usually arithmetic rather than opinion.**
 
-- [Effect of Transverse Atmospheric Drag on Satellite Orbits][research_wildhack_1958]
-- [Irregularities of Satellite Drag and Diurnal Variations in...][research_groves_1958]
-- [290. Effect of transverse atmospheric drag on satellite orbits][research_290_effect_1959]
-- [The determination of the electron distribution in the upper...][research_hibberd_thomas_1959]
-- [The upper atmosphere and satellite drag][research_stirton_1960]
-- [Theoretical Evaluation of Atmospheric Drag Effects in the...][research_brower_hori_1960]
-- [Appendix to theoretical evaluation of atmospheric drag...][research_brouwer_hori_1961_b]
-- [Theoretical evaluation of atmospheric drag effects in the...][research_brouwer_hori_1961]
 - [On the evaluation of electron density distribution in the...][research_unz_1962]
 - [SATELLITE LIFETIMES UNDER THE INFLUENCE OF CONTINUOUS THRUST...][research_citron_1963]
 - [Secular effects of atmospheric drag on satellite orbits][research_westerman_1963]
@@ -489,6 +630,14 @@ carry, which tilted the other way.
 - [Satellite drag coefficients][research_cook_1965]
 - [The questions of motion for an earth satellite taking into...][research_valeev_1965]
 - [An hypothesis for the semi-annual effect appearing in...][research_anderson_1966]
+- [The atmospheric density and scale height from the decay of...][research_smith_1966]
+- [A discussion on orbital analysis - Comparison of air...][research_cook_1967]
+- [Recent experimental evidence bearing on satellite drag...][research_moe_1968]
+- [A study of the semi-annual density variation in the upper...][research_jacchia_slowey_1969]
+- [The Effect of Atmospheric Drag on the Orbit of an Arfificial...][research_bramson_1969]
+- [Orbiter-to-orbiter radio occultation measurements of...][research_goff_grossi_1970]
+- [A note on the density at high latitudes inferred from...][research_ching_1972]
+- [A thermospheric model from satellite orbital decay densities...][research_swartz_rohrbaugh_1972]
 
 ## Dependent Systems
 
@@ -584,10 +733,37 @@ lift-to-drag ratio of 1.1 and 45 degrees of bank, from entry interface to 900 me
 properties can and cannot buy manoeuvre during entry, and it says so without reference to any atmosphere
 model.
 
+- [Pterodactyl Guidance and Control of a Symmetric Deployable...][research_benjaminwlmargolis_wendyaokolo]
+- [Optical Communication During Hypersonic Re-Entry][research_langberg_1959]
+- [Joint Conference on Lifting Manned Hypervelocity and Reentry...][research_joint_conference_1960]
+- [Analysis of radio signal interference effects due to ionized...][research_taylor_1961]
+- [Divergence From Equilibrium Glide Path at Supersatellite...][research_morth_speyer_1961]
+- [Shock Wave and Flow Field Development in Hypersonic Re-Entry][research_probstein_1961]
+
 ### Crossrange, Reported as a Lower Bound Because That Is What the Model Gives
 
-Integrating the same equations for lateral displacement, and searching over bank angle for the maximum,
-gives the following.
+The heading identity gives the direction but not the displacement, and for that the equations must be
+integrated. Working in the velocity domain, where the equilibrium-glide deceleration supplies the element of
+time,
+
+$$dt = -\frac{dv}{a_{D}}, \qquad a_{D} = \frac{1}{L/D} \cdot \frac{g - v^{2}/r}{\cos \phi}$$
+
+the crossrange and downrange are the two components of the ground track,
+
+$$y = \int_{v_{f}}^{v_{i}} \frac{v \sin \psi(v)}{a_{D}(v)} \, dv, \qquad x = \int_{v_{f}}^{v_{i}} \frac{v \cos \psi(v)}{a_{D}(v)} \, dv$$
+
+with $\psi(v)$ taken from the identity above.
+**Unlike the heading, the displacement does not shed the altitude term**, because the deceleration appears
+alone in the denominator rather than in a ratio.
+
+- [Device May eliminate communications blackout during re-entry...][research_device_may_1962]
+- [Guidance Scheme for Supercircular Re-Entry of a Lifting...][research_bryson_denham_1962]
+- [Maneuvering Performance of Lifting Re-Entry Vehicles][research_mandell_1962]
+- [FLOW FIELD IN HYPERSONIC RE-ENTRY][research_weil_1963]
+- [Re-entry vehicle tracking achieved with computer-supplied...][research_kulleseid_haas_1963]
+- [A RE-ENTRY VEHICLE SIMULATION DESIGNED FOR THE STUDY OF...][research_plender_1964]
+
+Searching over bank angle for the maximum gives the following.
 
 | Lift-to-drag ratio | Best bank angle | Crossrange |
 |---|---|---|
@@ -608,24 +784,24 @@ The answer is also insensitive to the terminal speed at which the glide is deeme
 1,411 to 1,371 kilometres as that speed runs from 700 to 1,200 metres per second, which is worth saying
 because that speed is a modelling choice rather than a measured quantity.
 
-- [Pterodactyl Guidance and Control of a Symmetric Deployable...][research_benjaminwlmargolis_wendyaokolo]
-- [Optical Communication During Hypersonic Re-Entry][research_langberg_1959]
-- [Joint Conference on Lifting Manned Hypervelocity and Reentry...][research_joint_conference_1960]
-- [Analysis of radio signal interference effects due to ionized...][research_taylor_1961]
-- [Divergence From Equilibrium Glide Path at Supersatellite...][research_morth_speyer_1961]
-- [Shock Wave and Flow Field Development in Hypersonic Re-Entry][research_probstein_1961]
-- [Device May eliminate communications blackout during re-entry...][research_device_may_1962]
-- [Guidance Scheme for Supercircular Re-Entry of a Lifting...][research_bryson_denham_1962]
-- [Maneuvering Performance of Lifting Re-Entry Vehicles][research_mandell_1962]
-- [FLOW FIELD IN HYPERSONIC RE-ENTRY][research_weil_1963]
-- [Re-entry vehicle tracking achieved with computer-supplied...][research_kulleseid_haas_1963]
-- [A RE-ENTRY VEHICLE SIMULATION DESIGNED FOR THE STUDY OF...][research_plender_1964]
 - [Length of the laminar hypersonic wake during ballistic...][research_lykoudis_1964]
 - [Lunar landing and long-range earth re-entry guidance by...][research_lessing_tunnell_1964]
 - [Motion of re-entry vehicles during constant- altitude glide][research_wang_1965]
 - [Re-entry of space vehicle fragments][research_twiss_1965]
 - [An alternate analysis of momentum deposition in the wake of a...][research_weston_1966]
 - [Angle-of-attack measurements of a hypersonic reentry vehicle...][research_cassanto_1966]
+- [Comments on "Motion of Re-Entry Vehicles During...][research_theobald_1966]
+- [Elastomeric thermal shield systems for lifting reentry...][research_dolan_edighoffer_1966]
+- [A SIMPLE ANALYSIS OF REENTRY VEHICLE ROLL RESONANCE][research_platus_1967_b]
+- [A note on re-entry vehicle roll resonance][research_platus_1967]
+- [APPLICATION OF GROUND TEST DATA TO REENTRY VEHICLE DESIGN][research_thomas_perlbachs_1967]
+- [R67-28 A General-Purpose Analog Translational Trajectory...][research_fogarty_1967]
+- [Dynamics of an Acoustic Probe for Measuring Pressure...][research_heller_widnall_1968]
+- [Inertial navigation errors for a lifting re-entry vehicle][research_elsey_carlson_1968]
+- [Optimal control of a reentry vehicle in the presence of...][research_deyst_1968]
+- [Reentry Vehicle Radar Altimeter Antenna Patterns][research_cooper_1968]
+- [Acoustic technique for detection of flow transition on...][research_heller_1969]
+- [Experimental aerodynamcis of a rotor entry vehicle][research_levin_smith_1969]
 
 ### Aerothermodynamics Beneath the Entry
 
@@ -712,11 +888,24 @@ already discussed, a [terminal area energy management][ref_taem] phase that trad
 turns in a cylindrical corridor around the runway, and an approach and landing phase.
 
 **The hard part is that an unpowered vehicle cannot go around.** Every landing is a single attempt with a
-fixed energy budget, which is the same constraint the [X-24][related_post_a321_martin_marietta_x24]
-programme spent its life characterising and which this series has treated at length there.
-**What the X-37B added was not the guidance but the autonomy**, and specifically the willingness to certify
-a system to land a five-tonne vehicle on a runway at Vandenberg or the Kennedy Space Center with no human in
-the loop at all.
+fixed energy budget. Two relations set the size of the problem. A glide trades height for distance at the
+lift-to-drag ratio,
+
+$$R = \left( \frac{L}{D} \right) h$$
+
+which carries no mass, no wing area and no air density, and the total available is the specific energy
+expressed as a height,
+
+$$h_{E} = h + \frac{v^{2}}{2 g}.$$
+
+At 30 kilometres and 900 metres per second the energy height is **71.30 kilometres** while a straight glide
+at a subsonic lift-to-drag ratio of 4.5 covers **135 kilometres**.
+**The excess is what the turns in the heading alignment cylinder exist to remove**, and it is why the phase
+is called energy management rather than navigation. This is the same constraint the
+[X-24][related_post_a321_martin_marietta_x24] programme spent its life characterising and which this series
+has treated at length there. **What the X-37B added was not the guidance but the autonomy**, and
+specifically the willingness to certify a system to land a five-tonne vehicle on a runway at Vandenberg or
+the Kennedy Space Center with no human in the loop at all.
 
 - [Navigation Performance of the BioSentinel Deep Space CubeSat...][research_andresdonoperez_joseluisalbertoalvarellos_b]
 - [Autonomous orbital navigation by optical tracking of unknown...][research_toda_schlee_1967]
@@ -744,13 +933,21 @@ the loop at all.
 | Launch mass | 4,990 kilograms | 78,000 kilograms | 15.63 |
 
 **The bay volume ratio of 100.6 against a length ratio of 4.17 is the number that characterises this vehicle.**
-Volume scales as the cube of length for a shape held similar, and 4.17 cubed is 72.5, so the bay has shrunk
-faster than the vehicle. The payload capacity of 227 kilograms is **4.55 percent** of launch mass.
+Comparing two vehicles that are not geometrically similar is best done by measuring the exponent that
+relates them. For a quantity $Q$ and a length $\ell$,
 
-**This is a vehicle whose reusable airframe, thermal protection, power system and autonomy consume almost the entire mass budget, leaving a payload fraction that would embarrass an expendable upper stage.**
-That is not a criticism. It is the definition of what the vehicle is for.
-**An expendable satellite bus delivers more payload per kilogram launched and does not come back.**
-Everything the X-37B spends its mass on is spent on returning, and the return is the product.
+$$Q \propto \ell^{\,n} \qquad \Longrightarrow \qquad n = \frac{\ln \left( Q_{1} / Q_{2} \right)}{\ln \left( \ell_{1} / \ell_{2} \right)}$$
+
+and geometric similarity would give $n = 3$ for both a volume and a mass at constant density.
+
+| Quantity | Measured exponent | Geometric value |
+|---|---|---|
+| Payload bay volume | 3.226 | 3 |
+| Launch mass | 1.924 | 3 |
+
+**The bay shrank faster than geometry demands and the mass shrank far more slowly**, which is the
+square-cube penalty in its clearest form. A geometrically similar orbiter scaled down to 8.92 metres would
+mass **1,072 kilograms**. The X-37B masses 4,990, a factor of **4.655**.
 
 - [A ferry package for transporting reusable spacecraft and...][research_blackstock_1970]
 - [Design criteria and candidate electrical power systems for a...][research_merrifielddv_1972]
@@ -758,6 +955,17 @@ Everything the X-37B spends its mass on is spent on returning, and the return is
 - [Nuclear-electric reusable orbital transfer vehicle][research_jaffe_1988]
 - [Reusable space systems Eugen Saenger Lecture, 1987][research_fletcherjc_1988]
 - [Launch cost analyses for reusable space transportation...][research_koelle_1989]
+
+**The small vehicle keeps the airframe and loses the room.** Thermal protection scales with area, avionics
+and actuators barely scale at all, and structure cannot thin below minimum gauge, so a reusable vehicle
+carries a fixed overhead that the payload bay pays for. The payload capacity of 227 kilograms is
+**4.55 percent** of launch mass.
+
+**This is a vehicle whose reusable airframe, thermal protection, power system and autonomy consume almost the entire mass budget, leaving a payload fraction that would embarrass an expendable upper stage.**
+That is not a criticism. It is the definition of what the vehicle is for.
+**An expendable satellite bus delivers more payload per kilogram launched and does not come back.**
+Everything the X-37B spends its mass on is spent on returning, and the return is the product.
+
 - [Cost analysis for single-stage SSTO reusable ballistic launch...][research_koelle_1993]
 - [Options for thrust augmentation for the Beta 2...][research_juleskenol_1993]
 - [Propulsion requirements for reusable single-stage-to-orbit...][research_stanley_engelund_1994]
@@ -766,6 +974,12 @@ Everything the X-37B spends its mass on is spent on returning, and the return is
 - [Applied Virtual Reality in Reusable Launch Vehicle Design...][research_halejosephp_1997]
 - [Conceptual Study of a Two-Stage, Air-Breathing Reusable...][research_takahashi_mizobata_1997]
 - [Economics of small fully reusable launch systems SSTO vs. TSTO][research_koelle_1997]
+- [Federal tax incentives and financing for the reusable launch...][research_cordes_hertzfeld_1997]
+- [International market for a reusable launch vehicle][research_ferrandon_1997]
+- [Lunar Landing Craft for the Reusable Launch Vehicle and...][research_donahue_1997]
+- [RAMS approach for reusable launch vehicle advanced studies][research_tatry_deneu_1997]
+- [RLV economics fiscal evaluation of NASA's reusable launch...][research_shaw_taylor_1997]
+- [Reusable launch vehicle technology program][research_freeman_talay_1997]
 
 ## The Flight Test Record
 
@@ -786,11 +1000,39 @@ The seven completed missions total **4,208.57 days**, which is **11.52 years** o
 **The durations rose monotonically through the first six missions and then fell sharply**, and the fall is
 explained by the seventh mission's orbit rather than by any change in the vehicle.
 
+**The number that matters operationally is not the longest mission but the duty cycle.** The first launch
+and the seventh landing are 5,433 days apart, so
+
+$$\Phi = \frac{\sum_{k} t_{k}}{t_{\text{span}}} = \frac{4{,}208.57}{5{,}433} = 77.46 \text{ percent}$$
+
+**For more than three quarters of fifteen years an X-37B has been in orbit**, on two airframes, and that is
+the claim the individual durations add up to.
+**A fleet of two holding a three-quarters duty cycle is a statement about turnaround rather than about endurance**,
+and it is the part of the record that a single-mission figure conceals.
+
+- [The reusable launch vehicle program][research_logsdon_williamson_1997]
+- [Implications of previous space commercialization experiences...][research_obermann_williamson_1998]
+- [Orbit maintenance of a lunar polar orbiter][research_knezevic_milani_1998]
+- [Ramjet-Powered Reusable Launch Vehicle Control by Sliding...][research_tournes_landrum_1998]
+- [Reusable Orbital Transfer Vehicle Applications of an...][research_frye_kennedy_1998]
+- [Lockheed Martin Skunk Works Single Stage to Orbit/Reusable...][research_lockheed_martin_1999]
+
 ### The Seventh Mission, Which Is the Only One Described in Technical Terms
 
 OTV-7 launched into a highly elliptical orbit with a perigee near 300 kilometres, an apogee near 38,600
-kilometres and an inclination of 59 degrees, which is a semi-major axis of **25,828 kilometres** and a
-period of **11.47 hours**. **No previous X-37B mission had left low Earth orbit.**
+kilometres and an inclination of 59 degrees. The two apsides fix the orbit completely,
+
+$$a = \frac{r_{p} + r_{a}}{2}, \qquad e = \frac{r_{a} - r_{p}}{r_{a} + r_{p}}, \qquad p = a \left( 1 - e^{2} \right)$$
+
+giving a semi-major axis of **25,828 kilometres**, an eccentricity of **0.7414** and, through Kepler's third
+law, a period of **11.47 hours**. **No previous X-37B mission had left low Earth orbit.**
+
+- [3.16. Communications satellite boosted into geosynchronous...][research_3_16_communications_1983]
+- [Man-made debris in low earth orbit - A threat to future space...][research_reynolds_fischer_1983]
+- [Optimum low thrust transfer to geosynchronous orbit][research_matogawa_1983]
+- [Solar concentrator degradation in Low Earth Orbit LEO][research_thomasrg_1983]
+- [Strategies and schemes for rendezvous on geostationary...][research_wolfsberger_weiss_1983]
+- [Three-dimensional wake model for low earth orbit][research_katz_cooke_1984]
 
 In October 2024 the Space Force announced that the vehicle would perform [aerobraking][ref_aerobraking] to
 change its orbit and to dispose of its service module in accordance with debris mitigation standards.
@@ -824,13 +1066,19 @@ Drag removes velocity at each perigee passage. The decrement is the drag deceler
 arc, and taking the true anomaly $\nu$ as the independent variable keeps the quadrature well conditioned
 near perigee where the whole contribution lies,
 
-$$\Delta v_{\text{pass}} = \int \frac{\rho(r) \, v^{2}}{2 B} \, dt = \int_{-\nu_{0}}^{\nu_{0}} \frac{\rho(r) \, v^{2}}{2 B} \cdot \frac{r^{2}}{h} \, d\nu$$
+$$\Delta v_{\text{pass}} = \int \frac{\rho(r) \, v^{2}}{2 B} \, dt = \int_{-\nu_{0}}^{\nu_{0}} \frac{\rho(r) \, v^{2}}{2 B} \cdot \frac{r^{2}}{\sqrt{\mu p}} \, d\nu$$
 
-where $h$ is the specific angular momentum and $r$ follows the conic $r = p / (1 + e \cos \nu)$. Each pass
-leaves the perigee where it is and lowers the apogee, and the new apogee follows from the reduced perigee
-speed through the vis-viva relation inverted for the semi-major axis,
+where $\sqrt{\mu p}$ is the specific angular momentum and $r$ follows the conic $r = p / (1 + e \cos \nu)$.
+Each pass leaves the perigee where it is and lowers the apogee, and the new apogee follows from the reduced
+perigee speed through the vis-viva relation inverted for the semi-major axis,
 
 $$a' = \left( \frac{2}{r_{p}} - \frac{(v_{p} - \Delta v_{\text{pass}})^{2}}{\mu} \right)^{-1}, \qquad r_{a}' = 2 a' - r_{p}.$$
+
+- [Analysis of the Fully Numerical Predictor-Corrector...][research_juliambriden_danielamatz]
+- [Magnetohydrodynamics MHD Aerocapture System for Enabling...][research_rwmoses_jsgreen]
+- [Reduced Lift-to-Drag Vehicle Concepts for Neptune Aerocapture][research_cheidrich_sdutta]
+- [Aerobraking as a potential planetary capture mode][research_repic_boobar_1968]
+- [Deceleration control system for aerobraking and skipout to...][research_schy_white_1969]
 
 Evaluating the first for the seventh mission's orbit gives the following.
 
@@ -863,6 +1111,13 @@ quantity the manoeuvre is designed to change.
 **The crude version is left standing in this article deliberately**, because the difference between the two
 is the whole lesson.
 
+- [Approximate analytic modeling of a ballistic aerobraking...][research_heppenheimer_1971]
+- [Aerobraking for planetary missions][research_frenchjr_uphoffcw_1979]
+- [A review of aeroassisted orbit transfer][research_walberggd_1982]
+- [Aeroassisted orbit transfer window opens on missions][research_walberggd_1983]
+- [Minimum-fuel aeroassisted coplanar orbit transfer using...][research_measekd_vinhnx_1983]
+- [Impact of atmospheric uncertainties and viscous interaction...][research_talayta_whitenh_1984]
+
 **And the passes are thermally mild, which is why the manoeuvre is attractive.** At a perigee speed of
 10.371 kilometres per second and the density at 100 kilometres, the stagnation flux on a 0.30 metre nose
 radius is **25.82 watts per square centimetre** and the radiative equilibrium temperature is
@@ -871,10 +1126,16 @@ radius is **25.82 watts per square centimetre** and the radiative equilibrium te
 
 ### Why This Vehicle Is Bad at Aerobraking, and Which Spacecraft Are Good at It
 
-A spacecraft built to aerobrake makes itself as light and as broad as it can, because the whole manoeuvre
-scales with the inverse of the ballistic coefficient. The Mars Reconnaissance Orbiter turned its twenty
-square metres of solar array broadside into the flow and used them as brakes, reaching a ballistic
-coefficient near **25.7 kilograms per square metre**.
+A spacecraft built to aerobrake makes itself as light and as broad as it can, and the reason is a
+proportionality rather than a preference. The drag integral carries the ballistic coefficient as a single
+divisor, so
+
+$$\Delta v_{\text{pass}} \propto \frac{1}{B} \qquad \Longrightarrow \qquad N_{\text{passes}} \propto B$$
+
+at a fixed perigee.
+**Halving the ballistic coefficient halves the number of passes, and at a fixed orbital period it halves the calendar.**
+The Mars Reconnaissance Orbiter turned its twenty square metres of solar array broadside into the flow and
+used them as brakes, reaching a ballistic coefficient near **25.7 kilograms per square metre**.
 **The X-37B, a dense body with a small array, sits near 500**, a ratio of **19.5**.
 
 **That is why a manoeuvre routine at Mars required a perigee at the edge of the atmosphere here.** The X-37B
@@ -886,22 +1147,22 @@ module. It does not say that the entire reduction from 38,600 kilometres was aer
 does not assume it was.
 **What the arithmetic does establish is that the manoeuvre is feasible for this vehicle only at a perigee near 100 kilometres, and that at such a perigee it is both fast enough and thermally mild enough to have been done.**
 
-- [Analysis of the Fully Numerical Predictor-Corrector...][research_juliambriden_danielamatz]
-- [Magnetohydrodynamics MHD Aerocapture System for Enabling...][research_rwmoses_jsgreen]
-- [Reduced Lift-to-Drag Vehicle Concepts for Neptune Aerocapture][research_cheidrich_sdutta]
-- [Aerobraking as a potential planetary capture mode][research_repic_boobar_1968]
-- [Deceleration control system for aerobraking and skipout to...][research_schy_white_1969]
-- [Approximate analytic modeling of a ballistic aerobraking...][research_heppenheimer_1971]
-- [Aerobraking for planetary missions][research_frenchjr_uphoffcw_1979]
-- [A review of aeroassisted orbit transfer][research_walberggd_1982]
-- [Aeroassisted orbit transfer window opens on missions][research_walberggd_1983]
-- [Minimum-fuel aeroassisted coplanar orbit transfer using...][research_measekd_vinhnx_1983]
-- [Impact of atmospheric uncertainties and viscous interaction...][research_talayta_whitenh_1984]
 - [Optimal trajectories for aeroassisted orbital transfer][research_miele_venkataraman_1984]
 - [A survey of aeroassisted orbit transfer][research_walberg_1985]
 - [Approximate solutions to minimax optimal control problems for...][research_miele_basapur_1985]
 - [Chemical nonequilibrium effects on flowfields for...][research_shinn_jones_1985]
 - [Computational chemistry and aeroassisted orbital transfer...][research_cooper_jaffe_1985]
+- [Design study of a slant-nose-cylinder aeroassisted orbital...][research_blosserml_powellrw_1985]
+- [Minimum energy-loss guidance for aeroassisted orbital plane...][research_hull_giltner_1985]
+- [Minimum-fuel aeroassisted coplanar orbit transfer using...][research_mease_vinh_1985]
+- [A lateral guidance algorithm to reduce the post-aerobraking...][research_hermangc_1986]
+- [Comment on "Minimum Energy-Loss Guidance for Aeroassisted...][research_dickmanns_1986]
+- [Explicit guidance of drag-modulated aeroassisted transfer...][research_vinh_johannesen_1986_b]
+- [Nearly-grazing optimal trajectories for aeroassisted orbital...][research_mielea_measekd_1986]
+- [Optimal aeroassisted transfer between coplanar elliptical...][research_vinh_johannesen_1986]
+- [Aeroassisted manned transfer vehicle TAXI for advanced Mars...][research_aeroassisted_manned_1987]
+- [Electron and vibrational energy conservation equations for...][research_koura_1987]
+- [Optimal trajectories for aeroassisted, coplanar orbital...][research_miele_basapur_1987_b]
 
 ### Astrodynamics Beneath the Manoeuvres
 
@@ -909,22 +1170,22 @@ Every velocity increment in this article is an impulsive two-body result, which 
 for a chemical engine firing for minutes on an orbit measured in hours, and which the literature below
 establishes and bounds.
 
-- [A Review of Existing Policies Affecting the Jettison of Waste...][research_jurekparodi_michaelkewert]
-- [Spacecraft Materials Degradation Under Space-Simulated Low...][research_elenaaplis_milestbengtson]
-- [Stationkeeping and synchronous satellite orbit determination][research_lubowe_1969]
-- [Geostationary Satellite Orbital Geometry][research_yeh_1972]
-- [A Guidance and Navigation System for Automatic Stationkeeping...][research_gustafson_kriegsman_1973]
-- [Realisation of rendezvous by the transfer orbit which is...][research_mison_1973]
-- [Orbital maneuvering subsystem functional path analysis for...][research_keeslerel_1974]
-- [Space shuttle orbital maneuvering engine platelet injector...][research_space_shuttle_1975]
-- [Space shuttle orbital maneuvering system failure detection...][research_damariola_vullojp_1976]
-- [Efficient structures for geosynchronous spacecraft solar...][research_adamslr_hedgepethjm_1981]
-- [Obtaining Geostationary Orbit from an Off-Nominal Low...][research_rosengren_1982]
-- [3.16. Communications satellite boosted into geosynchronous...][research_3_16_communications_1983]
-- [Man-made debris in low earth orbit - A threat to future space...][research_reynolds_fischer_1983]
-- [Optimum low thrust transfer to geosynchronous orbit][research_matogawa_1983]
-- [Solar concentrator degradation in Low Earth Orbit LEO][research_thomasrg_1983]
-- [Strategies and schemes for rendezvous on geostationary...][research_wolfsberger_weiss_1983]
+- [Benefits of a reusable upper stage orbital maneuvering vehicle][research_kroncke_1985]
+- [Orbital Maneuvering system design evolution][research_gibsonc_humphriesc_1985]
+- [The effect of Low Earth Orbit space environment on polymeric...][research_zimcikdg_tennysonrc_1985]
+- [Beyond low earth orbit. An overview of orbit-to-orbit stages][research_loftus_brasher_1986]
+- [Shielding distribution for anisotropic radiation in low earth...][research_henley_1986]
+- [A mathematical model of the orbital maneuvering vehicle][research_walls_greene_1987]
+- [The contraction of satellite orbits under the influence of...][research_kinghele_walker_1987]
+- [Orbital maneuvering vehicle A new capability][research_huber_1988]
+- [Collision matrix for low earth orbit satellites][research_mcknight_lorenzen_1989]
+- [Disposal of spacecraft at end of life in geosynchronous orbit][research_chobotov_1990]
+- [Decay of debris in geostationary transfer orbit][research_janin_1991]
+- [Low earth orbit satellite systems for communications][research_maral_deridder_1991]
+- [Orbital Maneuvering Vehicle OMV plume and plume effects study][research_smithsheldond_1991]
+- [Orbital debris environment for spacecraft in low earth orbit][research_kessler_1991]
+- [Optical property degradation of anodic coatings in the Space...][research_davidkaiae_babelhankw_1992]
+- [Errata-Low Earth Orbit Simulation and Materials...][research_synowicki_hale_1993]
 
 ### What Was Announced, Which Is Almost Certainly Not a Sample
 
@@ -2450,23 +2711,6 @@ The article computes bounds precisely because none of these exists.
 - [Enhancing Precise Orbit Determination of Compass with...][research_liu_geng_2011]
 - [Kalman Filter-Based Orbit Determination with Dynamic Model...][research_xu_chen_2011]
 
-- [Three-dimensional wake model for low earth orbit][research_katz_cooke_1984]
-- [Benefits of a reusable upper stage orbital maneuvering vehicle][research_kroncke_1985]
-- [Orbital Maneuvering system design evolution][research_gibsonc_humphriesc_1985]
-- [The effect of Low Earth Orbit space environment on polymeric...][research_zimcikdg_tennysonrc_1985]
-- [Beyond low earth orbit. An overview of orbit-to-orbit stages][research_loftus_brasher_1986]
-- [Shielding distribution for anisotropic radiation in low earth...][research_henley_1986]
-- [A mathematical model of the orbital maneuvering vehicle][research_walls_greene_1987]
-- [The contraction of satellite orbits under the influence of...][research_kinghele_walker_1987]
-- [Orbital maneuvering vehicle A new capability][research_huber_1988]
-- [Collision matrix for low earth orbit satellites][research_mcknight_lorenzen_1989]
-- [Disposal of spacecraft at end of life in geosynchronous orbit][research_chobotov_1990]
-- [Decay of debris in geostationary transfer orbit][research_janin_1991]
-- [Low earth orbit satellite systems for communications][research_maral_deridder_1991]
-- [Orbital Maneuvering Vehicle OMV plume and plume effects study][research_smithsheldond_1991]
-- [Orbital debris environment for spacecraft in low earth orbit][research_kessler_1991]
-- [Optical property degradation of anodic coatings in the Space...][research_davidkaiae_babelhankw_1992]
-- [Errata-Low Earth Orbit Simulation and Materials...][research_synowicki_hale_1993]
 - [Evaluation of geostationary orbit determination accuracy by...][research_cot_1993]
 - [Status of the Air Force nickel hydrogen low earth orbit life...][research_house_hill_1993]
 - [Effects of 69 months in low Earth orbit on Kapton antenna...][research_whiteside_kamykowski_1994]
@@ -2519,17 +2763,6 @@ The article computes bounds precisely because none of these exists.
 - [Measurement of Tracking Accuracy of Antenna Using Precise...][research_wang_zheng_2011]
 - [On The Optimal Spacecraft Fuel Consumption in Low Earth Orbit][research_lafflitto_sultan_2011]
 
-- [Design study of a slant-nose-cylinder aeroassisted orbital...][research_blosserml_powellrw_1985]
-- [Minimum energy-loss guidance for aeroassisted orbital plane...][research_hull_giltner_1985]
-- [Minimum-fuel aeroassisted coplanar orbit transfer using...][research_mease_vinh_1985]
-- [A lateral guidance algorithm to reduce the post-aerobraking...][research_hermangc_1986]
-- [Comment on "Minimum Energy-Loss Guidance for Aeroassisted...][research_dickmanns_1986]
-- [Explicit guidance of drag-modulated aeroassisted transfer...][research_vinh_johannesen_1986_b]
-- [Nearly-grazing optimal trajectories for aeroassisted orbital...][research_mielea_measekd_1986]
-- [Optimal aeroassisted transfer between coplanar elliptical...][research_vinh_johannesen_1986]
-- [Aeroassisted manned transfer vehicle TAXI for advanced Mars...][research_aeroassisted_manned_1987]
-- [Electron and vibrational energy conservation equations for...][research_koura_1987]
-- [Optimal trajectories for aeroassisted, coplanar orbital...][research_miele_basapur_1987_b]
 - [Optimal trajectories for aeroassisted, noncoplanar orbital...][research_miele_basapur_1987]
 - [The Aeroassist Flight Experiment][research_walberggd_siemerspmiii_1987]
 - [Aeroassisted orbit transfer vehicle trajectory analysis][research_braunrobertd_suitwilliamt_1988]
@@ -2834,18 +3067,6 @@ The article computes bounds precisely because none of these exists.
 - [The development of forced convection heat transfer near a...][research_merkin_nazar_2011]
 - [Unsteady Free Convection Flow near the Stagnation Point of a...][research_admon_shafie_2011]
 
-- [Comments on "Motion of Re-Entry Vehicles During...][research_theobald_1966]
-- [Elastomeric thermal shield systems for lifting reentry...][research_dolan_edighoffer_1966]
-- [A SIMPLE ANALYSIS OF REENTRY VEHICLE ROLL RESONANCE][research_platus_1967_b]
-- [A note on re-entry vehicle roll resonance][research_platus_1967]
-- [APPLICATION OF GROUND TEST DATA TO REENTRY VEHICLE DESIGN][research_thomas_perlbachs_1967]
-- [R67-28 A General-Purpose Analog Translational Trajectory...][research_fogarty_1967]
-- [Dynamics of an Acoustic Probe for Measuring Pressure...][research_heller_widnall_1968]
-- [Inertial navigation errors for a lifting re-entry vehicle][research_elsey_carlson_1968]
-- [Optimal control of a reentry vehicle in the presence of...][research_deyst_1968]
-- [Reentry Vehicle Radar Altimeter Antenna Patterns][research_cooper_1968]
-- [Acoustic technique for detection of flow transition on...][research_heller_1969]
-- [Experimental aerodynamcis of a rotor entry vehicle][research_levin_smith_1969]
 - [Re-entry vehicle launch restrictions considering damage to...][research_flemming_lien_1969]
 - [Simulation of reentry vehicle motion during laboratory...][research_knott_1969]
 - [Hypersonic aerodynamic characteristics of DL-4 lifting entry...][research_ladsoncl_1970]
@@ -3079,12 +3300,6 @@ The article computes bounds precisely because none of these exists.
 - [Terahertz Computed Tomography of NASA Thermal Protection...][research_rothdj_reyesrodriguezs_2011]
 - [The Effects of Foam Thermal Protection System on the Damage...][research_nettlesat_hodgeaj_2011]
 
-- [Comment on "Effects of Simulated Mars Dust Erosion...][research_cross_newman_1970]
-- [Lunar Module thermal-vacuum simulation utilizing conformal...][research_hellmann_conover_1970]
-- [Scale modeling considerations for thermal control coatings][research_macgregor_thompson_1970]
-- [Heat-rejection radiator mass and its influence in space power...][research_bonneville_1971]
-- [Investigation of phase-change coatings for variable thermal...][research_kelliherwc_youngpr_1972]
-- [Review of Thermal Control Materials for Metallic Junctions][research_fletcher_1972]
 - [Spacecraft thermal vacuum testing][research_elambf_lancasterld_1972]
 - [Thermal Control of a Jovian Survivable Probe][research_schelden_1972]
 - [Design and test of a self-controlled heat pipe radiator][research_swerdlingb_hembachr_1973]
@@ -3299,12 +3514,6 @@ The article computes bounds precisely because none of these exists.
 - [Design and analysis of the composite lattice frame of a...][research_morozov_lopatin_2011]
 - [Spacecraft solar array technology trends][research_jones_spence_2011]
 
-- [Bipolar Nickel-hydrogen Batteries for Aerospace Applications][research_koehlercw_vanommeringg_1984]
-- [Long Life Nickel Electrodes for a Nickel-hydrogen Cell Cycle...][research_limhs_verzwyveltsa_1984]
-- [Test Results of a Ten Cell Bipolar Nickel-hydrogen Battery][research_cataldorl_1984]
-- [An industry and government survey A nickel-hydrogen testing...][research_badcockc_mildenm_1985]
-- [Investigation of nickel-hydrogen battery technology for the...][research_lackner_mccoy_1986]
-- [Nickel-hydrogen bipolar battery][research_nickel_hydrogen_bipolar_1986]
 - [Nickel-hydrogen low-earth-orbit test program][research_mcdermott_1986]
 - [Parametric tests of a 40 A h bipolar nickel-hydrogen battery][research_cataldo_1986]
 - [KOH concentration effect on cycle life of nickel-hydrogen...][research_limhongs_verzwyveltsa_1987]
@@ -3359,34 +3568,12 @@ The article computes bounds precisely because none of these exists.
 - [Life Cycle Analysis of Lithium-Ion Batteries under...][research_anguchamy_popov_2010]
 - [Copper hexacyanoferrate battery electrodes with long cycle...][research_wessells_huggins_2011]
 
-- [Galilean satellite eclipse studies II. Jovian stratospheric...][research_smith_1980]
-- [Observations on Satellite Communication During the Solar...][research_shukla_1981]
-- [Observations of shadow bands at the total solar eclipse of 16...][research_marschall_mahon_1984]
-- [A new photographic method for mapping lunar eclipse shadow][research_nakamura_hirayama_1986]
-- [Hipparcos satellite survives the long eclipse season][research_hipparcos_satellite_1990]
-- [Satellite eclipse power by laser illumination][research_landis_1991]
-- [Shadow bands during the total solar eclipse of 11 July 1991][research_jones_jones_1994]
-- [Shadow bands during the total solar eclipse of 3 November 1994][research_jones_1996]
-- [Orbit Raising with Low-Thrust Tangential Acceleration in...][research_orbit_raising_1998]
-- [Shadow bands during the eclipse or a con-trail?][research_walker_1999]
-- [Shadow bands during the total solar eclipse of 26 February...][research_jones_1999]
-- [Transient Thermal Sensitivity Analysis During Solar Eclipse...][research_suresha_gupta_1999]
-- [An improved laser ablation method using a shadow mask eclipse...][research_tachiki_kobayashi_2000]
-- [Mitigation of satellite orbit errors resulting from the...][research_lundberg_2000]
 - [On the duration of the total eclipse of a satellite of a body][research_kostolansky_2002]
 - [Earth's shadow to cause lunar eclipse][research_pilcher_2003]
 - [Sun-synchronous satellite orbit determination][research_ma_zhai_2004]
 - [Lynx-Eyed Detectives and Shadow Bandits Visuality and Eclipse...][research_gunning_2005]
 - [In the shadow of the eclipse of White America][research_andrews_2006]
 
-- [The atmospheric density and scale height from the decay of...][research_smith_1966]
-- [A discussion on orbital analysis - Comparison of air...][research_cook_1967]
-- [Recent experimental evidence bearing on satellite drag...][research_moe_1968]
-- [A study of the semi-annual density variation in the upper...][research_jacchia_slowey_1969]
-- [The Effect of Atmospheric Drag on the Orbit of an Arfificial...][research_bramson_1969]
-- [Orbiter-to-orbiter radio occultation measurements of...][research_goff_grossi_1970]
-- [A note on the density at high latitudes inferred from...][research_ching_1972]
-- [A thermospheric model from satellite orbital decay densities...][research_swartz_rohrbaugh_1972]
 - [Atmospheric density at 169 km from accelerometer measurements...][research_ching_rugge_1975]
 - [Atmospheric density from the low altitude satellite 1970-48A...][research_rugge_ching_1975]
 - [On fundamental problems in the deduction of atmospheric...][research_imbro_moe_1975]
@@ -3459,18 +3646,6 @@ The article computes bounds precisely because none of these exists.
 - [Estimation of secular density variations in the upper...][research_volkov_semenov_2011]
 - [Perturbation effect of the Coulomb drag on the orbital...][research_li_2011]
 
-- [Federal tax incentives and financing for the reusable launch...][research_cordes_hertzfeld_1997]
-- [International market for a reusable launch vehicle][research_ferrandon_1997]
-- [Lunar Landing Craft for the Reusable Launch Vehicle and...][research_donahue_1997]
-- [RAMS approach for reusable launch vehicle advanced studies][research_tatry_deneu_1997]
-- [RLV economics fiscal evaluation of NASA's reusable launch...][research_shaw_taylor_1997]
-- [Reusable launch vehicle technology program][research_freeman_talay_1997]
-- [The reusable launch vehicle program][research_logsdon_williamson_1997]
-- [Implications of previous space commercialization experiences...][research_obermann_williamson_1998]
-- [Orbit maintenance of a lunar polar orbiter][research_knezevic_milani_1998]
-- [Ramjet-Powered Reusable Launch Vehicle Control by Sliding...][research_tournes_landrum_1998]
-- [Reusable Orbital Transfer Vehicle Applications of an...][research_frye_kennedy_1998]
-- [Lockheed Martin Skunk Works Single Stage to Orbit/Reusable...][research_lockheed_martin_1999]
 - [Reusable Launch Vehicle Control in Multiple Time Scale...][research_shtesselyuri_1999]
 - [Technology Maturity Towards Highly Reusable Space...][research_lylesgarry_1999]
 - [A Multidisciplinary Performance Analysis of a Lifting-Body...][research_tartabinipaulv_lepschrogera_2000]

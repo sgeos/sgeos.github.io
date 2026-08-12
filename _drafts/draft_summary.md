@@ -22,9 +22,10 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_boeing_x37.markdown`, A334, editorial date 2025-11-12, series `x_planes` index 38 of 72.
 
 **14,457 lines, 24 display equations, 4,440 reference definitions, 78,320 words after the draft
-pass**, with all 4,223 harvested research records cited and none left over, plus 148 reference works.
-Committed. **Not pushed and not published**, per the four-pass rhythm in which only the publication
-review pushes.
+pass.** **14,632 lines, 42 display equations, 4,440 reference definitions, 79,704 words after the
+equation-density review**, with all 4,223 harvested research records cited and none left over, plus 148
+reference works. Committed. **Not pushed and not published**, per the four-pass rhythm in which only
+the publication review pushes.
 
 **THE DOCUMENTARY PROBLEM IS THE INVERSE OF EVERY PREVIOUS ARTICLE IN THE SERIES.** Earlier vehicles
 left too little trace. The X-37B has flown eight missions across fifteen years, has spent 4,208.57
@@ -73,9 +74,32 @@ harvested title carried a mangled entity whose residue put a bare pipe into link
 reads as a table. **`refs.clean` now strips a bare pipe corpus-wide and `test_lib.py` has a case for
 it.**
 
-**Known gaps for the equation-density pass**, which is the next prompt. `_lib/audit.py` reports 14
-sections naming numbers with no displayed relation, the largest being the scale comparison, the solar
-cycle bracket and the crossrange table.
+**THE EQUATION PASS TOOK THE ARTICLE FROM 24 TO 42 DISPLAY EQUATIONS**, closing nine of the twenty
+sections the audit reported as naming numbers with no displayed relation. The eleven that remain are
+reference lists, date lists, dollar figures and restatements, and none of them relies on a relation.
+
+**The three best additions were not in the audit's list.** The **nodal precession** under $J_{2}$ gives
+-6.169 degrees per day at 400 kilometres and 40 degrees, so the node turns fully in 58.35 days and the
+beta angle cycles in 50.32, which means **the sixth mission swept the node 15.58 times and the beta
+angle 18.06 times**. That converts the eclipse average from a modelling convenience into a measurement
+of what the mission experienced. The **scaling exponent** shows mass falling as length to the 1.924
+against 3 for geometric similarity, so a similar orbiter scaled to 8.92 metres would mass 1,072
+kilograms against an actual 4,990, **a factor of 4.655**, which is the square-cube penalty quantified.
+The **duty cycle** is 77.46 percent of the 5,433 days from first launch to seventh landing, which is
+the operational claim the individual durations add up to and which a single-mission figure conceals.
+
+**READING THE FORTY-TWO EQUATIONS FOUND EIGHT SYMBOL COLLISIONS AND NOTHING ELSE DID.** Specific
+orbital energy and emissivity both wanted $\varepsilon$, albedo and semi-major axis both wanted $a$,
+depth of discharge and drag both wanted $D$, cell specific energy and eccentricity both wanted $e$,
+height and specific angular momentum both wanted $h$, duty cycle and efficiency both wanted $\eta$,
+mean motion and the scaling exponent both wanted $n$, and the array area and the drag reference area
+both wanted $A$. Each is resolved by marking one and a **Notation** table now states which, including
+the deliberate case where the orbit count and the cycle count are written separately and then shown to
+coincide, **because their coincidence is the article's central claim.**
+
+**`citation_gaps` went from 14 to 0.** The equation pass created the debt and paid it in the same pass,
+by splitting cluster markers so that every displayed relation carries literature within reach rather
+than at the end of its section.
 
 ## X-Planes McDonnell Douglas X-36 A333 2025-11-11
 
