@@ -9,171 +9,161 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: A371, the third Keleusma native code generation article. **Equation-density review complete**,
-following the standards and retarget pass in the previous commit.
-**Committed. NOT pushed and NOT published.**
+**Task**: A371, the third Keleusma native code generation article. **Publication review complete.**
+**Committed AND pushed. NOT published.**
 
 ---
 
 ## Where It Is
 
 `_drafts/do_proven_bounds_survive_compilation.markdown`, editorial date **2026-08-08**, series
-`keleusma_native` index 3. **758 lines, 26 display equations, 44 reference definitions, 6,693 words.**
+`keleusma_native` index 3. **34,186 lines, 26 display equations, 11,112 reference definitions, 8,331 words
+of author prose.**
 
-**The editorial date is back-dated relative to today**, so publishing it would put it live immediately.
-It is not published and I have not assumed you want it to be.
-
----
-
-## Sixteen to Twenty-Six Equations, and the Best One the Article Already Had in Prose
-
-**The article's thesis was a schema stated only in words.** It is that proving a property of one artefact
-does not license claiming it of a transformed one, and writing that down once in the opening lets the
-**conclusion close the loop by giving the three available shapes as three schemas**, being fix a contract,
-recompute from the artefact, and transfer. **Nobody deploys the third.** That is the article's
-recommendation and it now has a form rather than only a sentence.
-
-**The pair arithmetic turns a phrase into a number.** The article called its zero-inversion result
-"barely a test at all" without showing why. With ties removed the strictly ordered pairs are
-$\binom{9}{2} - \binom{7}{2} = 15$, so **the sample makes 41.7 percent of the comparisons it appears
-to**. The claim was right and unquantified.
-
-Also added: the summation that carries the per-instruction premise to the aggregate conclusion, which the
-article stated in prose and never displayed, with the observation that **$\alpha$ and $\kappa$ are the
-same number reached from two directions**. The memory bound in the bytes the article actually quotes. The
-CerCo inversion as two directions side by side. The optimiser's deletion beside the emission.
-
-**Two of seven audited gaps closed, and the five that remain should stay open.** They are survey prose
-about other people's work plus one restatement, where the numbers are publication years. Manufacturing
-relations for them would be padding.
+**The editorial date is back-dated relative to today**, so publishing it would put it live immediately. It
+is not published and I have not assumed you want it to be.
 
 ---
 
-## Reading the Twenty-Six Found a Collision, and a Rule This Article Had Escaped
+## The Substantive Gap Was the Survey, and the Numbers Say So Plainly
 
-**$A$ was both the artefact in the schema and the allocation count in Result 1.** The allocation counts
-are now written out as $\mathrm{allocs}$, and a short notation note states which symbols are general and
-which are specific, namely that $\mathcal{R}$ is the particular kind of property and $\mathcal{C}$ the
-particular kind of transformation.
+A369 carries 1,759 research references. A370 carries 1,980. **A371 arrived with 28**, which is a factor of
+about sixty-five against your standing instruction that every article in this series serve as a
+comprehensive survey of the contemporary literature.
 
-**Three display equations spanned two source lines.** The corpus rule is one line, because the style
-checker validates per line, and **this article was hand-authored and never passed through `reflow`**,
-which is what enforces that rule for the generated articles. Worth remembering for any future article
-that arrives from outside the pipeline.
+A harvest of **119 queries across fifteen clusters in seven rounds** retrieved 60,091 records. The anchor
+gate admitted 11,604 and **11,068 reach the reference list**, beside the 28 hand-selected works, which are
+untouched and remain the only ones read. The article says so in its own Source Base and Epistemic State.
 
----
-
-## One Citation Added, and a Note on Why Not More
-
-**`citation_gaps` rose from 10 to 18 and most of that should be ignored for this genre.** The metric
-assumes an article whose relations come from a literature, and here most of them are the author's own
-derivations about the author's own compiler. **Citing anyone for those would be manufacturing.**
-
-The one genuinely borrowed relation left uncited was **Kendall's rank correlation**, whose numerator the
-inversion count is. It is cited now.
+**27 of the 28 hand-chosen works were independently returned by the harvest.** That is the best
+corroboration of coverage available, because those 28 were chosen before any query ran.
 
 ---
 
-## The Largest Defect Was a Duplicated Survey
+## The Largest Defect Was a Venue Filter, and It Took Two Corrections to Find the Bottom
 
-**The contemporary-literature section appeared twice.** The second pass re-covered worst-case execution
-time analysis, stack bound analysis, the AbsInt tools, verified compilation, translation validation and
-proof-carrying code, all of which the first pass had already covered under better headings. **Forty-nine
-lines removed**, with nothing lost that the surviving pass does not say.
+The first rounds requested **journal articles only**, which is the right choice for the aerospace articles
+this machinery was built for and the wrong one for computer science. Those rounds returned 19,169 records
+and **not one paper from the CerCo project**, which is the research programme the article itself names as
+the closest existing work to its own problem.
 
----
+**Adding conference proceedings more than doubled the corpus and still returned no CerCo paper.** The
+reason is that **Springer deposits its Lecture Notes in Computer Science volumes as `book-chapter` rather
+than `proceedings-article`**, so an LNCS proceedings paper is typed as a chapter of a book. A third pair of
+rounds recovered both papers the article cites by hand.
 
-## The Article Claimed No Compiler Background Was Required and Did Not Deliver It
-
-The source said in its second paragraph that **no compiler background is required**, and then used
-bytecode, machine code, optimising compilers, stack frames, register allocation, spilling, `alloca`,
-calling conventions and memory-to-register promotion without introducing any of them.
-
-**Either the claim or the article had to change**, and since the retarget you asked for wants the claim
-to be true, the article changed.
-
-- **A new `## What You Need to Know to Read This` section** carries the five ideas the argument actually
-  needs, in plain language, each one earning its place because a later section depends on it.
-- **The opening leads with the general problem** and three analogies that involve no compilers at all,
-  being a staging-environment performance budget, a circuit-simulated power draw and a scale-model safety
-  margin, before naming a compiler.
-- **A `## The Uncomfortable Answer` section** states early that verifying the compiler is not enough,
-  which was buried in the source and is the point most likely to surprise a reader.
-- **The jargon-dense passages now name things in words first.** The eBPF section explains what eBPF is.
-  The reefing of terms like `stream entry point`, `chunk` and `lowering` is gone.
-
-**The mathematics is untouched**, because the genre wants it and a general technical reader can follow a
-relation whose symbols are named in prose immediately before it.
+**No count could have found this.** Each of the first two attempts produced a corpus that was large,
+plausible and missing the same thing. It was found only by probing for a named project the survey was known
+in advance to require, which is now the method I would use first rather than last.
 
 ---
 
-## Two Count Errors in My Own New Prose
+## A Silent Structural Defect in My Own Gate
 
-**This is precisely the defect A370 shipped and I reproduced it twice in one sitting.**
+Every qualified anchor was written as `X(?=.*Q)`, which requires the qualifier to appear **after** the
+anchor. `Crafting a Java virtual machine in silicon` was therefore refused, because Java precedes the
+phrase. Rewriting every qualifier as a pair of lookaheads evaluated from the start of the title
+**recovered 303 records**.
 
-- The orientation section promised **six ideas** and gave five.
-- The summary promised **two findings** where the article has three, and the same paragraph then
-  referred to "the third result".
+**The cost family was admitted unqualified**, so a Handbook of Army Cost Analysis Terms, a
+refuse-derived-fuel cost model and a cost-effectiveness compilation for heart conditions reached the kept
+set. The harvest's own notes warned that `resource` cannot be filtered and then **failed to apply the same
+reasoning to `cost`, which is worse**, because `cost analysis` and `cost model` are complete phrases in
+accounting rather than words merely shared with it.
 
-**Both were found by reading the draft rather than by any checker**, which is the standing lesson.
+Tightening it then **collapsed the cost cluster from 52 to 3**, which is the signal that a tightening has
+gone too far. Reading the 144 rejects found **four genuine losses**, including `Cost Relation Systems` and
+`Closed-Form Upper Bounds in Static Cost Analysis`, each refused by a qualifier that was correct and too
+literal, wanting `type system` against `type-theory`.
+
+**A literal space in a multi-word anchor refuses the hyphenated spelling.** That is the **seventh** time in
+this corpus that a spelling variant has returned a smaller corpus rather than a wrong one.
 
 ---
 
-## A Figure in the Lede Was Supported Nowhere
+## Seventeen Homonym Families, Found by Reading Four Samples and Not by Anticipation
 
-The source opened by saying the measurement takes **nine seconds**, and that number appeared in no other
-section of the article. **A number in a lede that the body does not carry is unverifiable by a reader.**
+`_research/homonyms.py` goes from 41 to 56 noise patterns. **Four independent samples of thirty were read,
+each found families the previous had missed, and the last one still found one.** A survey reporting a clean
+sample would be reporting that it stopped looking, and the article says that in its Epistemic State.
 
-It is now stated in the Source Base beside the rest of the instrument description, and the Epistemic
-State marks it as **the author's report rather than an independently timed figure**, with the note that
-nothing in the argument depends on it.
+The families include Stack Overflow the website against the stack overflow condition, circuit timing
+signoff against software timing analysis, **three separate senses of just-in-time** being manufacturing,
+instructional delivery and commit-time defect prediction, formal semantics in linguistics, the peephole in
+critical theory, semantic preservation in natural language generation, the calendar timing anomaly in
+finance, Java the island together with pre-stack seismic imaging, static analysis in geotechnical
+engineering, the cloud virtual machine, web cache replacement, and software cost estimation.
 
 ---
 
-## A Corpus-Wide Checker Artefact, Found Here and Fixed
+## Two Load-Bearing Citations Were Silently Repointed, and an Off-By-Two Found It
 
-Of the 27 research identifiers, **26 matched their cited titles exactly and one read as a defect that was
-not one.**
+`refs.assign_anchors` builds an anchor stem from first author and year, so **`Necula 2000` names two
+different papers**, being the hand-cited translation validation work and a harvested proof-carrying code
+abstract. The harvested record took the stem and the merge then replaced the hand entry, so **the prose
+citations of Necula 2000 and Pnueli 1998 resolved to the wrong works**.
 
-**Crossref deposits a title and its subtitle as separate fields.** `CakeML: a verified implementation of
-ML` is stored as the title `CakeML` alone, so a label citing the paper the way everybody cites it
-overlapped the registry title by **0.17** and would have been reported.
+**This is the exact defect class the article reports having committed four times**, reproduced by my own
+tooling in the same sitting. It was found by an off-by-two in the reference count and by no checker. The
+hand anchors are now reserved, and the assembler **raises on any collision** instead of merging over it.
 
-**`_verify_citations.py` now folds the subtitle into the comparison.** This is the same shape as the
-`no-title` artefact that accounted for 14,979 of 15,159 weak findings before it was fixed, which is to
-say **the checker was comparing against less than the registry actually holds.** Cached records still
-carry the old title and will correct themselves as the cache refreshes.
+Separately, `hand_selected_keys` read the draft, **which is this pipeline's output**. Once a harvest was
+assembled it reported 11,094 hand-selected references, treated the whole harvest as already cited, and
+emitted a master set of one record.
 
-**I did not change `refs.display` or `fetch.crossref_fields`**, which build reader-facing link text, since
-adding subtitles there would rewrite labels across the whole corpus for no benefit.
+---
+
+## The Count in My Own Prose Was Wrong by Eight
+
+I wrote that **nine** homonym families were recorded. The store held **seventeen**. That is the same
+count-in-my-own-prose defect this article family has now shipped three times, so the count is now derived
+from the store, and the assembler **raises if the prose list length disagrees with it**.
+
+Three superlative claims were checked against the numbers that actually landed and corrected. Worst-case
+execution time is fourth largest and not second. Real-time certification is largest only among the named
+clusters, since the adjacent bucket is larger. And the cost cluster is more than two orders of magnitude
+smaller, not roughly two.
+
+---
+
+## The Two Defects Carried Over From the Equation Pass
+
+**The stale identifier count is fixed.** The Epistemic State now says the bibliography was submitted with
+27 identifiers of which four were wrong, and that a twenty-eighth was added during editing and resolves,
+which describes what happened instead of renumbering the error rate.
+
+**The claim about A370 was wrong and is corrected.** A371 said A370 "resolved 31 of 31". A370's own text
+states 35 hand-selected references and 35 resolved. It now reads 35 of 35.
 
 ---
 
 ## Style and Verification
 
-Twenty-one prose colons, ten prose semicolons and two em dashes removed. Link definitions and all five
-visible reference lists sorted. `rather than` reduced from above the corpus maximum.
-
 - `python3 _verify.py` **0 errors, 0 warnings**.
 - `python3 _lib/test_lib.py` **75 of 75**.
-- `./_check.sh --drafts` **passes end to end**, no findings.
-- **All 28 research identifiers resolve**, none registry-only.
-- **All 14 curated URLs resolve**, the single 403 being `iso.org`, a documented bot-mitigation case.
-- Reference integrity clean, 44 used against 44 defined, none undefined or orphaned.
-- Section order conforms to the analytical-essay genre.
-- All 26 equations read for brace balance, delimiter closure, bare pipes and doubled backslashes.
+- `./_check.sh --drafts` **passes end to end**, 506 pages, no findings.
+- Reference integrity **11,112 used against 11,112 defined**, zero undefined, zero orphaned, zero duplicate
+  definitions, zero malformed list entries.
+- **All 28 hand-selected identifiers resolve.** The 403 responses are ACM and the 202 responses are IEEE,
+  both documented publisher behaviour, and the single failure was a transient name-resolution error
+  confirmed afterwards against the registry, which returned the exact cited title.
+- A sample of 12 harvested identifiers resolves.
+- Prose clean with zero em dashes, zero en dashes, zero prose parentheticals and zero prose semicolons
+  outside mathematics. Two prose colons removed.
+- `rather` brought back under the corpus maximum with eight rewrites, **each checked for grammaticality
+  rather than substituted mechanically**, which is the lesson A369 paid for.
 
 ---
 
-## Outstanding, and Two Things I Did Not Decide for You
+## Outstanding, and One Thing I Did Not Decide for You
 
-**It is committed and not pushed.** You did not ask for a push and this is not a publication review, so I
-left it local. Say the word and it goes up.
+**It is committed and pushed, and it is not published**, which is what you asked for.
 
-**Publishing it would put it live immediately**, because 2026-08-08 is in the past. It sits behind A370
-in the series, so publishing would also renumber the two published articles' navigation from "Part 1 of
-2" and "Part 2 of 2" to "of 3". **That is a change to two live pages and I have not made it.**
+**Publishing it would put it live immediately**, because 2026-08-08 is in the past. It sits behind A370 in
+the series, so publishing would also renumber the two published articles' navigation from "Part 1 of 2" and
+"Part 2 of 2" to "of 3". **That is a change to two live pages and I have not made it.**
 
 **The X-Planes work is untouched by this.** A335 remains the last of thirty-nine drafts, all four passes
-done, none published, and **A336 is X-39, Reserved but Never Assigned**, which is a designation anomaly
-taking the reduced section order. The handoff at `_docs/process/HANDOFF.md` is current and validates.
+done, none published, and **A336 is X-39, Reserved but Never Assigned**, a designation anomaly taking the
+reduced section order. The handoff at `_docs/process/HANDOFF.md` describes it and should be re-validated
+against `git rev-parse HEAD~1` before it is trusted, since this commit moves the head.

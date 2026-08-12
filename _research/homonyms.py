@@ -178,6 +178,167 @@ NOISE_PATTERNS = [
      "aircraft and shares the phrase `glide slope` with an unpowered spacecraft "
      "approach. 'Analysis of Instrument Landing System Glide Slope Performance "
      "Sensitivity to Sideband-Only Phase Variation' reached the kept set"),
+    (r"\bstack\s*overflow\b.{0,60}\b(?:question|answer|post|comment|thread|"
+     r"developer|community|site|user|tag|badge|reputation|snippet|survey)|"
+     r"\b(?:question|answer|post|comment|thread|developer|community|mining|"
+     r"crowd)\w*\b.{0,60}\bstack\s*overflow\b",
+     "A371: STACK OVERFLOW THE WEBSITE against the stack overflow CONDITION. "
+     "'On using Stack Overflow comment-edit pairs to recommend code maintenance "
+     "changes' is a software-engineering paper about a question-and-answer site, "
+     "and it reached a stack-bound cluster, which is a claim about the literature "
+     "and not merely a stray record. Both word orders are matched because the site "
+     "name may lead or trail"),
+    (r"\bstatistical static timing\b|\bstatic timing analysis\b.{0,70}"
+     r"\b(?:metal|interconnect|gate.level|netlist|VLSI|CMOS|transistor|die|wafer|"
+     r"cell librar|process variation|waveform|circuit|clock tree|signoff|sign.off)|"
+     r"\b(?:metal|interconnect|gate.level|netlist|VLSI|CMOS|transistor|wafer|"
+     r"circuit|clock tree)\w*\b.{0,70}\bstatic timing analysis\b",
+     "A371: VLSI STATIC TIMING ANALYSIS is a circuit-design field that shares the "
+     "exact phrase `static timing analysis` with worst-case execution time analysis "
+     "for software. 'A Novel Method for Reducing Metal Variation With Statistical "
+     "Static Timing Analysis' and 'Equivalent Waveform Propagation for Static Timing "
+     "Analysis' both reached a WCET cluster. The phrase alone cannot be filtered "
+     "because genuine software timing papers use it, so the qualifier is the "
+     "circuit vocabulary that software timing analysis never carries"),
+    (r"\bjust.in.time\b.{0,60}\b(?:manufactur|inventory|supply chain|logistics|"
+     r"delivery|construction|assembly line|lean|procurement|warehouse|teaching|"
+     r"instruction|training|adaptive intervention|clinical)|"
+     r"\b(?:manufactur|inventory|supply chain|logistics|construction|lean|"
+     r"warehouse|teaching|classroom|nursing|clinical)\w*\b.{0,60}"
+     r"\bjust.in.time\b",
+     "A371: JUST-IN-TIME MANUFACTURING and JUST-IN-TIME INSTRUCTIONAL DELIVERY "
+     "against just-in-time COMPILATION. The manufacturing sense predates the "
+     "compiler sense and is far larger. 'A Dynamic Just-in-Time Component Delivery "
+     "Framework for Off-Site Construction' and a speech-therapy study of "
+     "'just-in-time programming' on an augmentative communication device both "
+     "reached the kept set through the bare phrase"),
+    (r"\bthinking like a compiler\b|\bcompiler\b.{0,60}\b(?:exam|grammatical task|"
+     r"essay|second.language|foreign language learn|vocabulary acquisition|"
+     r"classroom discourse)\b",
+     "A371: THE COMPILER AS A METAPHOR in language teaching. 'Thinking Like a "
+     "Compiler: A Systematic Approach to Solving Grammatical Tasks in Exams' is a "
+     "pedagogy paper. This is the same shape as the parachute metaphor in clinical "
+     "writing already recorded here. The pattern is deliberately narrow, because "
+     "teaching COMPILER CONSTRUCTION is a legitimate and well-populated topic and a "
+     "broad education filter would discard it"),
+    (r"\bformal semantics\b.{0,60}\b(?:propositional attitude|natural language|"
+     r"discourse|pragmatics|quantifier scope|montague|linguistic|utterance|"
+     r"presupposition|modal logic of belief)|"
+     r"\b(?:natural language|discourse|pragmatics|montague|linguistic|utterance)"
+     r"\w*\b.{0,60}\bformal semantics\b",
+     "A371: FORMAL SEMANTICS IN LINGUISTICS AND PHILOSOPHY OF LANGUAGE against "
+     "programming-language semantics. 'Formal semantics for propositional "
+     "attitudes' reached the kept set. The two fields share the exact phrase and "
+     "some of their machinery, so only the linguistic subject matter distinguishes "
+     "them. Formal VERIFICATION carries no equivalent ambiguity"),
+    (r"\bpeephole\b(?!.{0,40}\b(?:optimi[sz]|compil|code|instruction|window|"
+     r"transformation))",
+     "A371: THE PEEPHOLE AS AN OPTICAL AND CRITICAL-THEORY TERM against the "
+     "PEEPHOLE OPTIMISATION. 'Beckett, Deleuze and the Televisual Event: Peephole "
+     "Art' reached the kept set. The compiler sense practically always names the "
+     "optimisation, so a negative lookahead is safe here where a bare rejection "
+     "would not be"),
+    (r"\bsemantic preservation\b.{0,70}\b(?:narrative|marketing|cultural|"
+     r"translation quality|machine translation|LLM|summari[sz]ation|"
+     r"natural language|discourse|localis|localiz)|"
+     r"\b(?:narrative|marketing|cultural|machine translation|summari[sz]ation)"
+     r"\w*\b.{0,70}\bsemantic preservation\b",
+     "A371: SEMANTIC PRESERVATION IN NATURAL LANGUAGE GENERATION against SEMANTIC "
+     "PRESERVATION IN COMPILATION, which is the exact theorem a verified compiler "
+     "proves. 'Semantic Preservation in LLM-Based Cultural Narrative Generation for "
+     "Marketing Communication Contexts' reached the verified-compilation cluster, "
+     "which is the worst possible place for it to land"),
+    (r"\btiming anomal\w*\b.{0,60}\b(?:market|stock|equity|return|trading|"
+     r"calendar|investor|portfolio|crisis)|\b(?:market|stock|equity|trading|"
+     r"investor|portfolio)\w*\b.{0,60}\btiming anomal",
+     "A371: THE CALENDAR TIMING ANOMALY IN FINANCE against the PROCESSOR TIMING "
+     "ANOMALY, which is the phenomenon where a locally faster execution produces a "
+     "globally slower one. 'Investigation of Timing Anomalies in the Russian Stock "
+     "Market in the Post-Crisis Period' reached a worst-case execution time cluster"),
+    (r"\bjust.in.time\b.{0,50}\b(?:defect|bug|fault) (?:predict|detect)|"
+     r"\b(?:defect|bug) prediction\b.{0,50}\bjust.in.time\b",
+     "A371: JUST-IN-TIME DEFECT PREDICTION, a software-engineering term meaning "
+     "prediction at commit time, against JUST-IN-TIME COMPILATION. This is a THIRD "
+     "sense of the phrase in this corpus, after manufacturing and instructional "
+     "delivery, and it is the one that survives a computing qualifier because it is "
+     "itself computing. 'An exploratory study on just-in-time "
+     "multi-programming-language bug prediction' reached a bytecode cluster"),
+    (r"\bsign language\b|\b(?:simultaneous|court|medical|conference|community) "
+     r"interpret(?:er|ing)\b|\binterpreter\b.{0,40}\b(?:deaf|hearing|"
+     r"multilingual|bilingual|patient|clinic)",
+     "A371: THE HUMAN INTERPRETER, and SIGN LANGUAGE most of all, against the "
+     "PROGRAM interpreter. 'Sign Language Interpreter AI using machine learning "
+     "algorithm' reached the kept set through an anchor qualified by `language`, "
+     "which is exactly the wrong qualifier for this word"),
+    (r"\bJava\b.{0,40}\b(?:field|basin|island|sea|volcano|seismic|earthquake|"
+     r"tsunami|province|regenc|Indonesia|East Java|West Java|Central Java)|"
+     r"\b(?:East|West|Central) Java\b|\bpre.stack (?:depth|time) migration\b|"
+     r"\bpre.stack\b.{0,40}\b(?:seismic|imaging|migration|gather)",
+     "A371: JAVA THE ISLAND against JAVA THE LANGUAGE, and PRE-STACK seismic "
+     "imaging against the CALL STACK. 'Advanced technology imaging of the Mudi "
+     "Field, East Java improvements utilizing pre-stack depth migration' carries "
+     "both homonyms in one title and is geophysics"),
+    (r"\btiming yield\b|\bgate.level\b.{0,70}\btiming\b|"
+     r"\b(?:ASIC|CMOS|NBTI|netlist|standard cell|tape.?out|"
+     r"multi.corner|process corner|combinational logic gate)\b.{0,70}\btiming\b|"
+     r"\btiming\b.{0,70}\b(?:ASIC|CMOS|NBTI|netlist|standard cell|"
+     r"multi.corner|process corner|nm (?:node|process|technology))\b",
+     "A371: CIRCUIT TIMING SIGNOFF against SOFTWARE TIMING ANALYSIS, the broader "
+     "sibling of the statistical-static-timing family already recorded above. "
+     "'Reliability verification of a dual-car elevator ASIC in SCL 180-nm CMOS: "
+     "NBTI aging, multi-corner timing' reached the kept set without using the exact "
+     "phrase the earlier pattern required"),
+    (r"\bpseudo.static analysis\b|\bstatic analysis\b.{0,70}\b(?:soil|pile|"
+     r"foundation|bearing capacity|seismic|slope stability|embankment|retaining "
+     r"wall|beam|truss|girder|reinforced concrete|masonry|shear wall|"
+     r"geotechnical)|\b(?:soil|pile|foundation|bearing capacity|seismic|slope|"
+     r"embankment|retaining wall|truss|girder|masonry|geotechnical|"
+     r"offshore structure|uncertain structure|eigenvalue|frame structure|"
+     r"sub.?frame|fatigue|graded plate|shell|laminate|chassis|bridge deck|"
+     r"finite element|CAE)\w*\b"
+     r".{0,70}\bstatic analysis\b|"
+     r"\bstatic analysis of (?:offshore|uncertain|frame|shell|plate) structur|"
+     r"\bnonlinear static analysis\b",
+     "A371: STATIC ANALYSIS IN STRUCTURAL AND GEOTECHNICAL ENGINEERING, where it "
+     "means analysis under static rather than dynamic loading, against static "
+     "analysis of program text. 'Seismic Bearing Capacity of a Mounded Foundation "
+     "Near a Down-Hill Slope by Pseudo-Static Analysis' and 'Static analysis of "
+     "soil/pile interaction in layered soil by BEM/BEM coupling' both reached the "
+     "kept set, two in a single sample of thirty"),
+    (r"\bset.valued optimi[sz]ation\b|\bset optimi[sz]ation\b|"
+     r"\bvector optimi[sz]ation\b",
+     "A371: VECTOR OPTIMISATION AND SET OPTIMISATION in mathematical programming "
+     "against SIMD VECTORISATION in a compiler. 'Vectorization in Set Optimization' "
+     "and 'On vectorization strategies in set optimization' are the same homonym "
+     "reached twice in one sweep"),
+    (r"\bvirtual machine\b.{0,70}\b(?:cloud|data ?cent|hypervisor|migration|"
+     r"consolidat|placement|provisioning|IaaS|OpenStack|CloudSim|elastic|host)|"
+     r"\b(?:cloud|data ?cent|hypervisor|IaaS|OpenStack|CloudSim|"
+     r"server consolidat)\w*\b.{0,70}\bvirtual machine",
+     "A371: THE CLOUD VIRTUAL MACHINE against the LANGUAGE virtual machine. "
+     "'Virtual Machine Allocation Policy in Cloud Computing Using CloudSim in Java' "
+     "reached a bytecode cluster, which is a claim about the literature and not "
+     "merely a stray record. The two senses share the exact phrase and one of them "
+     "is far larger"),
+    (r"\bcache replacement\b.{0,70}\b(?:web|proxy|CDN|content delivery|cloud|"
+     r"mobile user|video|edge server|named data|information.centric|CCN|"
+     r"content.centric|mobile|link quality|peer.to.peer|streaming)|"
+     r"\b(?:web|proxy|CDN|content delivery|video sharing|edge server|"
+     r"information.centric)\w*\b.{0,70}\bcache replacement\b",
+     "A371: WEB AND CONTENT-DELIVERY CACHE REPLACEMENT against PROCESSOR CACHE "
+     "REPLACEMENT, which is the sense that decides whether timing analysis is "
+     "possible at all. 'Cache Replacement Algorithm of Video Sharing System for "
+     "Mobile Users' and 'A Client-Side Cloud Cache Replacement Policy' reached a "
+     "worst-case execution time cluster"),
+    (r"\b(?:software|project|development) cost (?:model|estimat)|"
+     r"\bcost estimation model\b|\bCOCOMO\b|\bfunction point analysis\b|"
+     r"\bcritical chain\b|\bearned value\b|"
+     r"\b(?:time and cost|cost and schedule) analysis\b",
+     "A371: SOFTWARE COST ESTIMATION, meaning the money and effort a project "
+     "consumes, against the COMPILER COST MODEL, meaning the time or space a "
+     "program consumes. 'A Common Sense Approach to Software Cost Model Selection' "
+     "reached the kept set. BOTH SENSES ARE COMPUTING, so a computing qualifier "
+     "cannot separate them and only the subject matter can"),
 ]
 
 _COMPILED = [(re.compile(p, re.I), why) for p, why in NOISE_PATTERNS]
