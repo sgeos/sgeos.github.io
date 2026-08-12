@@ -124,6 +124,35 @@ NOISE_PATTERNS = [
      r"\binter-?satellite link\b.{0,40}\b(?:capacity|throughput|handover)",
      "A334: SATELLITE NETWORKING again, this time through contact graph routing "
      "rather than through 5G. Same field, different entry point"),
+    (r"\breefing\b.{0,40}\b(?:patell|knee|shoulder|capsul\w*\s+plicat|arthroscop|"
+     r"surgical|ligament|instabilit)|\b(?:medial|capsular)\s+reefing\b",
+     "A335: SURGICAL REEFING in orthopaedics, a tightening of soft tissue, shares the "
+     "exact word with parachute reefing. 'Long-Term Outcomes of Medial Reefing for "
+     "Recurrent Patellar Instability' reached the kept set"),
+    (r"\bparachute\b.{0,40}\b(?:trial|metaphor|evidence-based|randomi[sz]ed)|"
+     r"\b(?:infliximab|azathioprine|statin|placebo)\b",
+     "A335: THE PARACHUTE METAPHOR IN MEDICINE, from the famous trial parody, is a "
+     "recurring title device in clinical writing. 'Infliximab and Azathioprine: "
+     "Bridge or Parachute?' reached the kept set"),
+    (r"\bprobabilistic risk assessment\b.{0,60}\b(?:nuclear plant|offshore|drilling|"
+     r"dose.response|health effect|chemical|pipeline|dam|seismic|flood)|"
+     r"\b(?:dose.response|carcinogen|toxicolog)\w*\b.{0,40}\brisk assessment\b",
+     "A335: PROBABILISTIC RISK ASSESSMENT is a method and not a subject. Nuclear "
+     "plants, offshore drilling and dose-response toxicology all use it and none of "
+     "them is a crewed spacecraft"),
+    (r"\b(?:air|aerial)\s+refuel\w*\b.{0,40}\bdrogue\b|\bdrogue\b.{0,40}"
+     r"\b(?:refuel|boom|receptacle|tanker)\b",
+     "A335: THE AIR-REFUELLING DROGUE is a basket on a hose and shares its word with "
+     "the stabilisation parachute. 'Fit Check and Flight Test of Universal Air "
+     "Refueling Drogue' reached the kept set"),
+    (r"\bflare\b.{0,40}\bparachute\b.{0,30}\bXM\d|\billumination system flare\b|"
+     r"\bsurface:\s*parachute\b",
+     "A335: the PARACHUTE FLARE again, this time written as 'Flare, Surface: "
+     "Parachute XM183' so that the two words are separated and the earlier pattern "
+     "missed it"),
+    (r"\bODE\b|\bordinary differential equation\b|\bcalculus\b|\bteaching\b",
+     "A335: THE PARACHUTE PROBLEM is a standard exercise in differential equations "
+     "teaching. 'ODE Models for the Parachute Problem' reached the kept set"),
     (r"\bcrack\b|\bfatigue crack|\bstress intensity\b|\bfracture toughness\b",
      "A335: CRACK OPENING LOAD in fracture mechanics shares the exact phrase with "
      "PARACHUTE OPENING LOAD, which is the article's term of art. 'Observations on "

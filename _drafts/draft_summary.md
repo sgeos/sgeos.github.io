@@ -24,8 +24,9 @@ of 72.
 
 **4,907 lines, 14 display equations, 1,388 reference definitions, 26,710 words after the draft pass.**
 **5,040 lines, 24 display equations, 1,388 reference definitions, 27,858 words after the
-equation-density review**, with all 1,220 harvested research records cited and none left over, plus 112
-reference works. Committed. **Not pushed and not published.**
+equation-density review.** **6,728 lines, 24 display equations, 1,936 reference definitions, 36,496
+words after the primary-reference review**, with all 1,768 harvested research records cited and none
+left over, plus 112 reference works. Committed. **Not pushed and not published.**
 
 **THE KEYSTONE IS THAT THIS VEHICLE ABANDONED THE RUNWAY ON PURPOSE.** Six vehicles in this series were
 built around a horizontal landing. The X-38 flies the X-24A shape through entry and then comes down
@@ -101,6 +102,33 @@ cluster markers, and sizing them exposed that the `parafoil` period half holds o
 **A new corpus warning appeared and was cleared.** `rather` reached 5.7 per thousand against a 5.0 limit,
 and nine uses were rewritten. **Two took `instead of`, whose complements are gerunds and therefore
 grammatical**, which was checked rather than assumed.
+
+**THE PRIMARY PASS FOUND 15 OF 28 SUBJECTS THIN AND ONE AT ZERO WHILE THE ARTICLE DISPLAYED IT**, the
+zero being the Allen and Eggers entry peak deceleration. A further harvest took the pool from **4,306 to
+6,212** and the cited base from **1,220 to 1,768**, with the period half rising from 487 to **871** and
+the technical reports to **478, or 27.0 percent, the highest share this series has measured.** Nine
+subjects remain thin and a new Source Base section names each with its kind.
+
+**TWO CLUSTERS MEASURED EMPTY FOR A REASON THAT WAS NEITHER THE HEADING NOR THE POOL.** `vehicle_sizing`
+reported zero and `entry_aerothermo` four, because both sat behind clusters that matched their records
+first. **Correcting the order took the second from 4 to 21 without harvesting anything**, and the
+article now states that a thin cluster is a claim about the ordering before it is a claim about the
+literature.
+
+**THE CLEAREST THIN HEADING IS THE ARTICLE'S OWN LOAD-BEARING ASSUMPTION.** The canopy lift coefficient
+measures one record, and the papers that measure it are titled as aerodynamic characterisations. **The
+parafoil cluster holds 142 records including a 1964 study of the parafoil glider and other gliding
+parachutes and a 1971 report of parafoil wind tunnel tests**, which are the primary sources. **The
+heading was thin and the subject was not.**
+
+**A SPELLING VARIANT WAS REFUSING THE KEYSTONE VOCABULARY.** The anchor `ram-?air` matches `ramair` and
+`ram-air` and **not `ram air`**, which is how most of the literature writes it. Correcting it and
+guarding against the **ram air turbine** took the selection from 1,680 to 1,818.
+
+**Six new homonym families recorded in `_research/homonyms.py`**, being surgical reefing in
+orthopaedics, the parachute metaphor in clinical writing, probabilistic risk assessment outside
+aerospace, the air-refuelling drogue, the parachute flare written with its words separated, and the
+parachute problem as a differential-equations exercise.
 
 ## X-Planes Boeing X-37 A334 2025-11-12
 
