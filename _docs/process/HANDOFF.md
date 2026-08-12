@@ -11,11 +11,14 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `d2ceb3c`
+- **Parent commit** (the repository state this handoff describes): `ef83b42`
 - **Written**: 2026-08-11
 - **Tree at write**: clean, nothing unpushed
 - **Context**: the X-Planes series is IN PROGRESS. **Thirty-seven of seventy-two articles drafted,
   all four passes complete on each. None published.**
+- **Since the previous handoff**: A370, an out-of-series Keleusma article, was drafted, reviewed,
+  **published on 2026-08-11** and then **corrected after publication**. A large tooling and
+  verification pass followed. **None of that touches the X-Planes rhythm**, which is unchanged.
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
 and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -38,6 +41,10 @@ described.
 **Nothing is outstanding.** A333 finished all four passes, is committed and pushed, and returns 404
 while the site root returns 200, which is correct because nothing in the series is published. There is
 no half-finished pass to pick up.
+
+**Side work is closed out.** A370 is published and corrected, the corpus verifier is at **0 errors and
+0 warnings** for the first time, and the tooling gained a rendered-output gate. **Do not re-derive any
+of it**; read the toolchain section below and `_docs/process/VERIFICATION_TRAPS.md`.
 
 **Wait for the pilot's prompt. Do not begin A334 unprompted.**
 
@@ -926,7 +933,9 @@ command issued after a `cd`.**
 describing each module: `fetch` for archive queries, `refs` for anchors and the reference block, `edits`
 for guarded editing, `reflow`, `lint`, `diction` for word and phrase overuse, `audit` for equation and
 citation gaps, `numcheck` for independent re-derivation, and `citations` for registry verification. Run
-`python3 _lib/test_lib.py`, which should report **54 of 54**. `_research/rejected.json` holds the accumulated
+`python3 _lib/test_lib.py`, which should report **74 of 74**. **Three modules were added on
+2026-08-11**, being `gate` for subject-anchor gating with a mandatory two-sided sample, `render` for
+auditing BUILT HTML, and `resolve` for identifier resolution. `_research/rejected.json` holds the accumulated
 sweep judgements, reused through `_research/homonyms.py`, whose curated pattern list is now 22 and which gained marine propulsion, open-channel energy height and battery specific energy from A324.
 
 **`tmp/*` IS GITIGNORED**, and what belongs there is the article's own payload only, meaning harvest
@@ -947,6 +956,9 @@ previous subject.
 | `audit` | equation gaps, citation gaps, thin sections, primary count AND fraction. **Run `citation_gaps` after every equation pass** |
 | `numcheck` | independent re-derivation harness; **must not import the calculation** |
 | `citations` | Crossref registry verification for recalled identifiers, sampling for retrieved ones |
+| `gate` | subject-anchor gating for a harvested corpus. **`audit` samples BOTH the kept and dropped sides and requires a seed**, because a narrow gate reports a small corpus and a permissive one reports a large corpus, and no summary statistic tells them apart |
+| `render` | audit of **BUILT HTML**, the only check that sees what a reader sees. Math balance by backslash-run parity |
+| `resolve` | whether an identifier resolves at all, with registry fallback. **Different question from `citations` and neither subsumes the other** |
 
 **Per article, in gitignored `tmp/`.** Harvest queries, cluster definitions, the physics in `calc.py`,
 and the edit payloads. These are the article's argument and do not belong in `_lib`.
@@ -969,7 +981,18 @@ and the edit payloads. These are the article's argument and do not belong in `_l
 ### The Corpus Checks
 
 `python3 _verify.py` from the **repository root**. The same checks run in CI and in `_hooks/pre-push`.
-**Baseline 0 errors and 21 warnings.**
+**Baseline 0 errors and 0 WARNINGS as of 2026-08-11.** It was 21 warnings for most of the series'
+life. **A new warning is now signal rather than noise, so do not let one accumulate.**
+
+**`./_check.sh` runs the whole deploy gate locally**, being `_verify.py`, a production build and
+`_lib/render.py` in CI's order, into a throwaway directory. `--drafts` includes drafts and `--weights`
+reports page weight. **`_preview.sh` cannot tell you whether the deploy will pass**, because it ends in
+`jekyll serve --watch` and nothing runs after it.
+
+**Read `_docs/process/VERIFICATION_TRAPS.md` before trusting any checker you write.** It records the
+mistakes this method has actually made and the observation that caught each. The recurring root is
+**asserting a property instead of measuring it**, and the most expensive instance was a rendered-math
+checker whose second wrong version masked its first.
 
 **The bundle is installed** at `vendor/bundle`, which is gitignored.
 
@@ -987,6 +1010,20 @@ tests the helix-angle cancellation as a **randomised property**.
 ## Open Decisions
 
 **Categories, SETTLED and not to be revisited.** `aerospace history engineering`.
+
+**One citation residue is OPEN and belongs to the publication reviews, not to a bulk pass.** The first
+ever corpus-wide `_verify_citations.py` run, on 2026-08-11, covered **77,593 citations across 61,483
+distinct identifiers** and reached the X-Planes drafts for the first time. After the checker was fixed
+and 632 wrongly named authors were repaired, **43 mismatch and 89 label-name findings remain, all in
+X-Planes drafts**, plus 184 weak, 3 nonexistent and 5 identifiers registered with DataCite.
+
+**Resolve these one article at a time during its publication review**, where the context to judge a
+label exists. The figures are in `_docs/process/URL_VERIFICATION.md` under the run record.
+
+**The cause is worth carrying forward because it will recur.** Each article's throwaway `assemble.py`
+built its own reference link text and took the **last token** of the author string, so
+`BELL AEROSPACE CO BUFFALO NY` rendered as `NY` and the prose read "described in NY 1955".
+**`refs.display()` was already correct.** **Call it. Do not reimplement link text.**
 
 **The genre bands, SETTLED on 2026-08-09 and not to be revisited.**
 `_docs/writing/RESEARCH_AIRCRAFT_STRUCTURE.md` was amended on the pilot's instruction to describe what

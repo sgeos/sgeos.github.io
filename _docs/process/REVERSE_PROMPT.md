@@ -114,12 +114,34 @@ and 89 label-name as a residue. Anchors were left alone, since a reader never se
 that defect** and quoting it in backticks. `render.py` counted `double-escaped` and `literal-nbsp-word`
 inside code while every other markup check excluded it. Both now match the others.
 
+## Side Work Is Closed Out
+
+**The handoff was stale and would have failed its own validity check.** It recorded parent `d2ceb3c`
+against an actual `HEAD~1` of `0cf2f29`, so the startup protocol would have reported it
+invalid-and-stale and refused to proceed. It is refreshed **surgically rather than rewritten**, which is
+what its own regeneration rules ask for: carry forward the earned rules, drop what is resolved.
+
+What changed in it: the parent commit and tree state, a note that A370 was published and corrected
+without touching the X-Planes rhythm, the three new `_lib` modules, **the corpus baseline moving from
+21 warnings to 0**, `./_check.sh`, a pointer to `VERIFICATION_TRAPS.md` rather than a restatement of it,
+and the citation residue recorded as an open decision.
+
+**`tmp/` held 2.9 GB and is now 978 MB.** The six throwaway repository build copies, `a328build`
+through `a370build` at roughly 180 to 200 MB each, were pure waste once their builds finished. **The
+`aNNN` harvest directories were kept**, because `master.json` and the selection data are expensive to
+regenerate. This will not recur, since `_check.sh` builds into `mktemp` with a cleanup trap.
+
+---
+
 ## Outstanding
 
-**43 mismatch and 89 label-name findings remain**, all in unpublished X-Planes drafts, plus 184 weak, 3
-nonexistent and 5 identifiers registered with DataCite rather than Crossref. They are a residue rather
-than a blocker, and the run record in [URL Verification](./URL_VERIFICATION.md) now carries the figures
-instead of pointing at a result that did not exist.
+**Nothing blocking.** The tree is clean, everything is pushed, `_verify.py` reports **0 errors and 0
+warnings**, `_lib/test_lib.py` reports **74 of 74**, and `./_check.sh --drafts` passes at 502 pages
+with no findings.
 
-**A334, the Boeing X-37**, on your prompt. **The thirty-seven X-Planes drafts remain unpublished and
-unauthorised.**
+**43 mismatch and 89 label-name citation findings remain**, all in unpublished X-Planes drafts. **They
+are recorded in the handoff as an open decision and belong to each article's publication review**,
+where the context to judge a label exists, not to a bulk pass now.
+
+**A334, the Boeing X-37**, editorial date 2025-11-12, Part 38 of 72, is next and starts on your prompt.
+**The thirty-seven X-Planes drafts remain unpublished and unauthorised.**
