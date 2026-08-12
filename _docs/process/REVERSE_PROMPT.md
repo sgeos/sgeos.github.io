@@ -9,19 +9,46 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: A371 corrections **revised** after the engineering session resolved the numeric contradiction and
-added item 5. **Committed AND pushed. NOT published.**
+**Task**: **A371 PUBLISHED** and pushed live, after the corrections revision in the previous commit.
 
 ---
 
 ## Where It Is
 
-`_drafts/do_proven_bounds_survive_compilation.markdown`, editorial date **2026-08-08**, series
-`keleusma_native` index 3. **34,193 lines, 26 display equations, 11,112 reference definitions, 7,403 words
-of author prose** as `diction.prose` measures it.
+**Published.** `_posts/2026-08-08-do_proven_bounds_survive_compilation.markdown`, live at
+`/engineering/compilers/verification/2026/08/08/do_proven_bounds_survive_compilation.html`, series
+`keleusma_native` index 3. 26 display equations, 11,112 reference definitions.
 
-**The editorial date is back-dated relative to today**, so publishing it would put it live immediately. It
-is not published and I have not assumed you want it to be.
+**It went live the moment it was pushed**, because 2026-08-08 is four days in the past and the site sets
+`future: false`. The verification build was therefore run **without** `--future`, which is the only
+configuration that matches the live site.
+
+**Publication renumbered two live pages**, exactly as flagged beforehand. A369 and A370 now read Part 1 and
+Part 2 **of 3**, confirmed as rendered rather than assumed. **The `keleusma_native` series is complete.**
+
+---
+
+## What Was Checked Before and After the Move
+
+**Before.** The date slot 2026-08-08 was free, posts running 08-01 through 08-07. Both `post_url` tags point
+at A369 and A370, which are published, and **nothing anywhere forward-references A371**, so the build
+interlock was satisfied in both directions.
+
+**After.** `_verify.py` **0 errors and 0 warnings across 299 posts**, `./_check.sh` clean end to end at 463
+pages with no rendered findings, production build in 10.1 seconds. The article carries **zero raw `$$`
+survivors and zero unfilled markers**, 22,192 resolved research anchors, and appears on the home page, in
+`feed.xml` and in `sitemap.xml`.
+
+**Two of its 189 internal links are unresolved and that is pre-existing.** They are the `.pdf` and `.epub`
+download links the post layout emits for every article. I checked rather than assumed: both published
+siblings show the identical pair, and the built tree holds two PDF files and zero EPUB files across the
+entire corpus.
+
+`_drafts/draft_summary.md` lost its A371 section, since it tracks `_drafts/` only, leaving 45.
+
+---
+
+## The Corrections That Went Live With It
 
 ---
 
@@ -360,6 +387,11 @@ the series, so publishing would also renumber the two published articles' naviga
 "Part 2 of 2" to "of 3". **That is a change to two live pages and I have not made it.**
 
 **The X-Planes work is untouched by this.** A335 remains the last of thirty-nine drafts, all four passes
-done, none published, and **A336 is X-39, Reserved but Never Assigned**, a designation anomaly taking the
-reduced section order. The handoff at `_docs/process/HANDOFF.md` describes it and should be re-validated
-against `git rev-parse HEAD~1` before it is trusted, since this commit moves the head.
+done, **none published and none authorised**, and **A336 is X-39, Reserved but Never Assigned**, a
+designation anomaly taking the reduced section order. The handoff at `_docs/process/HANDOFF.md` describes it
+and should be re-validated against `git rev-parse HEAD~1` before it is trusted, since this commit moves the
+head.
+
+**One item is outstanding elsewhere.** The engineering session reported that **A372 carries the same
+stack-allocation error** corrected here and needs its own correction file. That is their next action and no
+part of this repository.
