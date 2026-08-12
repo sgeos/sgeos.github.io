@@ -26,8 +26,8 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 pass.** **758 lines, 26 display equations, 44 reference definitions, 6,693 words after the
 equation-density review.** **34,186 lines, 26 display equations, 11,112 reference definitions and 8,331
 words of author prose after the publication review**, which added a harvested contemporary survey of
-**11,068 records across fifteen clusters** beside the 28 hand-selected works. Committed AND PUSHED.
-**Not published.**
+**11,068 records across fifteen clusters** beside the 28 hand-selected works. **34,193 lines and 7,403
+words of author prose after the pathological word usage pass.** Committed AND PUSHED. **Not published.**
 
 **Supplied by the pilot from the Keleusma repository and brought to corpus standards here.** The
 argument is that a resource bound proven about bytecode does not automatically hold for the machine code

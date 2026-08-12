@@ -321,7 +321,7 @@ meaning the fraction of the comparisons the sample is capable of making, is
 
 $$\frac{N_{\prec}}{\binom{n}{2}} \;=\; \frac{15}{36} \;=\; 41.7 \text{ percent},$$
 
-and those fifteen comparisons are drawn from only three distinct magnitudes. **The headline zero is a
+and those fifteen comparisons are drawn from only three separated size classes. **The headline zero is a
 zero over fifteen comparisons among three values, which is barely a test at all.**
 
 **Reporting it as "0 of 36" would be the same error this series has now documented three times**, being a figure
@@ -352,7 +352,7 @@ carries it. That is precisely the kind of true statement that misleads.
 ## Threats to Validity
 
 **The corpus is small and the part of it this article can measure is smaller.** Nine units of code and
-three distinct magnitudes. Every claim about the time proxy is bounded by that.
+three widely separated sizes. Every claim about the time proxy is bounded by that.
 
 **The instruction count is a proxy for a proxy.** Native instruction count bounds execution time only under
 a bound on cycles per instruction,
@@ -405,7 +405,7 @@ native frame are not weakly correlated. They measure different things, in differ
 different agents. Looking for a constant of proportionality between them is a category error dressed as an
 empirical question.
 
-**A zero result inherits the resolution of its sample.** Zero inversions over three distinct magnitudes is
+**A zero result inherits the resolution of its sample.** Zero inversions over three size classes is
 not the same claim as zero inversions over a spread, and the two are reported identically by any instrument
 that prints a count. **Report the resolution beside the result or the result will be read as stronger than
 it is.**
@@ -433,7 +433,8 @@ does not claim them for a just-in-time compiled result.
 this literature proves a bound on one representation and ships another, which is what makes the present
 project's assumption unusual rather than merely unverified.
 
-The harvest returned 96 further contemporary records in this cluster.
+96 contemporary records join the works named above. **The field analyses the
+representation it expects to run**, which is the discipline this project did not follow.
 
 - [Kanmani and others, 2026, A measurement model for C++ program complexity analysis][research_kanmani_thambidurai_2026]
 - [Wani and others, 2026, Constructive realization of self-referential prediction limits in quantum control Resource bounds and Gödel-safe architectures][research_wani_perales_2026]
@@ -556,7 +557,7 @@ with the compiler's own frame decisions inside the proof. [Carbonneaux, Hoffmann
 compositional certified resource bounds. **This is the literature that already contains the answer to
 Result 1**, and its existence means the memory problem here is not open research but unimplemented practice.
 
-The harvest returned 4 further contemporary records whose titles carry this vocabulary. **That is the smallest cluster in the survey by a wide margin**, and the smallness is itself evidence, because the same harvest returned hundreds of records on optimisation and on timing.
+Only 4 contemporary records carry this vocabulary at all. **That is the smallest cluster in the survey by a wide margin**, and the smallness is itself evidence, because the same harvest returned hundreds of records on optimisation and on timing.
 
 - [Wu and others, 2025, Cross-Platform Deep Learning Compilation with Model-Specific Cost Model Pre-training][research_wu_zhao_2025]
 - [Shahzad and others, 2024, A Neural Network Based GCC Cost Model for Faster Compiler Tuning][research_shahzad_sanaullah_2024]
@@ -591,7 +592,9 @@ worst-case time, which is the constructive version of the same observation.
 **This is the literature that refuses the second half of the transfer claim.** An operation count calibrated
 against an interpreter is not an input to any of these methods.
 
-The harvest returned 460 further contemporary records in this cluster.
+This cluster holds 460 contemporary records, more than four times the
+resource-analysis cluster. The disparity reflects that **timing is the bound industry is required to
+certify** while memory is mostly left to convention.
 
 - [Chung and Lee, 2026, A Cross-Validated DSPN and Worst-Case Response-Time Framework for Timing Analysis of Automotive CAN Networks][research_chung_lee_2026]
 - [Li and others, 2026, Balancing Security and Schedulability WCET Evaluation and Security Optimization in CPS][research_li_sudvarg_2026]
@@ -1067,7 +1070,9 @@ bound depends on decisions an optimiser makes for reasons specific to one progra
 situation translation validation was invented for, and it is much cheaper than verifying an entire
 backend.
 
-The harvest returned 410 further contemporary records in this cluster.
+A further 410 contemporary records develop the technique. **It checks one
+compilation and not one compiler**, which is why it needs no cooperation from LLVM and why it would have
+to run on every build.
 
 - [Alamoudi, 2026, A bijective proof of Andrews' refinement of the Alladi-Schur theorem][research_alamoudi_2026]
 - [Lin and others, 2026, A Mathematical Exploration to Equivalence Checking of Quantum Circuits][research_lin_li_2026]
@@ -1496,7 +1501,9 @@ guarantee that was never offered, which is the misreading Result 1 makes concret
 artefact carries machine-checkable evidence about itself, and that is what this project's plan to export a
 memory requirement as a linker symbol already gestures at without yet having anything sound to put in it.
 
-The harvest returned 100 further contemporary records in this cluster.
+100 contemporary records extend this work, and **not one of their titles
+claims resource preservation.** The cluster is roughly a fifth the size of the timing cluster, which is worth
+noticing, since verifying a compiler is the harder achievement and the smaller literature.
 
 - [Jia and others, 2026, An Empirical Framework for Evaluating Semantic Preservation Using Hugging Face][research_jia_raja_2026]
 - [Lasnier and others, 2026, Brack A Verified Compiler for Scheme via CakeML][research_lasnier_yallop_2026]
@@ -1612,7 +1619,7 @@ extensions, which is the research counterpart of the [eBPF verifier][ref_ebpf_ve
 [StackAnalyzer][ref_absint_stackanalyzer] and [aiT][ref_absint_ait] recompute from the binary against a
 target model, because [ISO 26262][ref_iso26262] and its siblings ask for evidence about the executable.
 
-The harvest returned 295 further contemporary records on sandboxed and isolated execution.
+Sandboxed and isolated execution accounts for 295 contemporary records.
 
 - [2026, A Hybrid JavaScript-WebAssembly Framework for Efficient Deep Learning Inference in Web Browsers][research_a_hybrid_2026]
 - [Heinrich and others, 2026, A Method for Detecting Anomalies in WebAssembly Using Categorical Data][research_heinrich_will_2026]
@@ -1918,7 +1925,7 @@ technologies above it. The distinction matters here because Result 1 turns on a 
 being that the optimiser promotes stack allocations into registers, and no paper about verified compilation
 discusses that decision while a great many papers about register allocation do.
 
-439 contemporary records concern code generation and optimisation itself.
+Code generation and optimisation itself account for 439 contemporary records.
 
 - [Abdulhalik and others, 2026, A Modular Graph Coloring Abstraction for Register Allocation in LLVM Design and Evaluation][research_abdulhalik_baytekin_2026]
 - [Tirichine and others, 2026, A Reinforcement Learning Environment for Automatic Code Optimization in the MLIR Compiler][research_tirichine_ameur_2026]
@@ -3498,8 +3505,8 @@ model of it, which is the move this article concludes the project must make.
 
 ### Proof-carrying code and certified artefacts
 
-7 contemporary records concern an artefact that carries
-machine-checkable evidence about itself. **This is the second smallest of the named clusters, after cost-preserving compilation**,
+An artefact carrying machine-checkable evidence about itself is the subject of
+7 contemporary records. **This is the second smallest of the named clusters, after cost-preserving compilation**,
 and it is the shape the article's conclusion suggests the eventual answer takes.
 
 - [Du and others, 2026, A Strongly Typed Assembly Agent for Construction Integrating Rhino and Multimodal Large Language Models][research_du_tong_2026]
@@ -3512,7 +3519,7 @@ and it is the shape the article's conclusion suggests the eventual answer takes.
 
 ### Types and semantics decide whether the question is even askable
 
-330 records concern type systems and formal semantics. They belong here because
+Type systems and formal semantics account for 330 records. They belong here because
 a resource bound is a property of a program, and what a type system can express determines whether such a
 property can be stated in the source at all.
 
@@ -4671,8 +4678,8 @@ industrial.
 
 ### The general pattern, which is this article's own contribution
 
-160 records concern property preservation across a transformation in the
-general form, stated for properties other than the resource bounds this article is about.
+160 records treat the preservation of a property across a transformation in
+its general form, stated for properties other than the resource bounds this article is about.
 
 - [Vermesan and Pagani, 2026, Architecting a Framework for Edge AI Functional and Non-functional Requirements][research_vermesan_pagani_2026]
 - [Choi and others, 2026, Detecting Inconsistencies in Arm CCA's Formally Verified Specification][research_choi_cheng_2026]
@@ -4837,8 +4844,7 @@ general form, stated for properties other than the resource bounds this article 
 
 ### The surrounding literature
 
-The harvest returned 2,255 contemporary records that share the article's vocabulary without
-addressing its question. **They are listed and not discarded, because the selection that produced them is
+2,255 admitted records share the article's vocabulary without addressing its question. **They are listed and not discarded, because the selection that produced them is
 reported in full**, and a survey that presents only the records supporting its thesis has selected twice,
 once by query and once by judgement, while reporting one selection.
 
@@ -11855,13 +11861,13 @@ the inversion count is taken over 15 pairs rather than 36. That semantic preserv
 resource preservation, since a transformation may change spilling while preserving observable behaviour.
 
 **Assumed, and marked as such.** That instruction count is monotone in execution time. It is not, and the
-article's second result should be read as evidence about code size that is suggestive about time. **The
+article's second result should be read as evidence about code size that is merely suggestive where time is concerned. **The
 instrument's nine-second runtime is the author's report rather than an independently timed figure**, and
 nothing in the argument depends on it.
 
 **Verified, and this time the instrument found real defects.** The bibliography was submitted with 27
 research identifiers, every one of which was resolved against the registry and compared to the work it is
-cited as. **Four were wrong, an error rate of 14.8 percent**, and none of the four was an artefact of the
+cited as. **Four were wrong, an error rate of 14.8 percent**, and none of the four was a false positive of the
 checking method. **A twenty-eighth reference was added during editing** and resolves correctly, so the
 article carries 28 hand-selected references while the error rate above describes the 27 that
 were submitted. **The harvested references were not checked this way and are not claimed to be**, since they
@@ -11882,9 +11888,8 @@ identifier, and all four corrections here were obtained that way.
 
 **Harvested rather than read.** 11,068 of the 11,096 research references were retrieved by
 keyword query and are listed on the strength of their titles, authors, years and venues as the registry
-holds them. **Nothing in the argument rests on any one of them.** What they support is a claim about
-coverage, since the queries were fixed before any record was seen, and the cluster sizes are the only
-quantitative use made of them. **The residual contamination rate is not zero.** Four independent samples of
+holds them. **Nothing in the argument rests on any one of them.** The cluster sizes are the only
+quantitative use made of them, and the coverage claim they support is stated in full in the Source Base. **The residual contamination rate is not zero.** Four independent samples of
 thirty were read during assembly, each one found contaminants the previous round had not, and the last found
 roughly one in thirty. **A survey that reported a clean sample would be reporting that it stopped looking.**
 

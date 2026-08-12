@@ -9,7 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: A371, the third Keleusma native code generation article. **Publication review complete.**
+**Task**: A371, the third Keleusma native code generation article. **Pathological word usage pass
+complete**, following the publication review in the previous commit.
 **Committed AND pushed. NOT published.**
 
 ---
@@ -17,11 +18,72 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Where It Is
 
 `_drafts/do_proven_bounds_survive_compilation.markdown`, editorial date **2026-08-08**, series
-`keleusma_native` index 3. **34,186 lines, 26 display equations, 11,112 reference definitions, 8,331 words
-of author prose.**
+`keleusma_native` index 3. **34,193 lines, 26 display equations, 11,112 reference definitions, 7,403 words
+of author prose** as `diction.prose` measures it.
 
 **The editorial date is back-dated relative to today**, so publishing it would put it live immediately. It
 is not published and I have not assumed you want it to be.
+
+---
+
+## The Word Usage Pass, Which Is the Newest Work
+
+**`specific` is not a problem here.** It stands at **6 uses for 0.82 per thousand**, well under the limit
+and under the corpus median. I checked it first because you named it.
+
+**The measurement had to exclude the harvest or it could not fire at all.** The article carries 331,800 raw
+body words against **7,403 words of author prose**, so measuring the raw body would divide every rate by
+about forty-five and guarantee silence. `diction.prose` strips link pairs, which is the fix made after A369
+found that defect, and it is the only reason this article is measurable.
+
+**Every existing instrument looks at single words, and A369's largest finding was a phrase.** `_verify.py`
+watches a fixed forty-seven word class. A369's `and not` reached 2.19 per thousand against a peer maximum
+of 1.73 **because an earlier pass had mechanically rewritten `rather than` to clear a single-word limit**,
+which is a trade no single-word instrument can see. I added `tmp/a371/phrases.py`, which ranks two- to
+four-word constructions against 254 published peers, counting a peer that never uses a phrase as a zero.
+
+**It found 37 constructions at or above the peer maximum, and the real ones were my own boilerplate from
+the previous pass.** Six survey subsections opened with `The harvest returned N further contemporary
+records in this cluster`, identical but for the number, and four more used `N contemporary records concern
+X`. **Ten template sentences now carry a fact about their own cluster instead of restating a count the
+reader can already see.** The count fell to 26, and every survivor is subject vocabulary measured against a
+corpus of aircraft articles.
+
+**A sense collision on a defined term.** `artefact` is this article's name for $A$, the thing a property was
+established about. The Epistemic State also used it in the ordinary measurement sense, saying none of the
+four errors "was an artefact of the checking method". It now says false positive.
+
+**Two content redundancies that the word count found and reading had not.** The coverage claim was stated
+almost verbatim in both the Source Base and the Epistemic State. And a harvested-list lead I wrote in the
+previous pass repeated the hand prose three lines above it, that the theorems are about observable
+behaviour.
+
+**`about` remains above the peer maximum and I did not reduce it mechanically.** It sits at 6.08 per
+thousand against a peer maximum of 5.28. **42 of its 45 uses are the aboutness sense the thesis is written
+in**, being a property established about one artefact and claimed about another, and 3 are the
+approximation sense. I classified all 45 rather than asserting the reason. A369's standing lesson is that a
+mechanical substitution is not an edit, and trading `about` for a synonym here would move the tic rather
+than remove it.
+
+`rather` stands at 28 for 3.78 per thousand. The `three distinct magnitudes` refrain was varied in three of
+seven places, in each case where the wording and not the claim was the repetition.
+
+---
+
+## The Corpus-Wide Outliers Are Mostly Not Tics, and One Is
+
+Since you gave `specific` as a recurring example, I ran the corpus-wide check and triaged by collocate,
+which is the only thing that separates a topic from a tic.
+
+- **`specific` at 15.07 per thousand is `specific impulse`**, 86 to 99 percent of uses across the rocket
+  propellant chemistry articles. It is the term Isp and must not be touched. `_verify.py`'s own comment
+  already records this.
+- **`key` at 18.26 per thousand is the cryptographic key** in the Solana and SSH articles, `key pair` and
+  `key file`. A subject noun.
+- **`typically` at 6.88 per thousand in the published search and rescue drone article is a genuine hedge.**
+  Its collocates are all verbs, being `typically completes`, `typically budgets` and `typically holds`, so
+  it modifies claims rather than naming a thing. **I flagged it and did not touch it**, because it is a
+  live published page and outside what you asked for. Say the word if you want it fixed.
 
 ---
 
