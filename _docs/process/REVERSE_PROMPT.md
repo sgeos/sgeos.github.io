@@ -9,8 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: A371, the third Keleusma native code generation article, copied in from the Keleusma
-repository, brought to corpus standards and retargeted for a general audience.
+**Task**: A371, the third Keleusma native code generation article. **Equation-density review complete**,
+following the standards and retarget pass in the previous commit.
 **Committed. NOT pushed and NOT published.**
 
 ---
@@ -18,10 +18,59 @@ repository, brought to corpus standards and retargeted for a general audience.
 ## Where It Is
 
 `_drafts/do_proven_bounds_survive_compilation.markdown`, editorial date **2026-08-08**, series
-`keleusma_native` index 3. **702 lines, 16 display equations, 43 reference definitions, 6,233 words.**
+`keleusma_native` index 3. **758 lines, 26 display equations, 44 reference definitions, 6,693 words.**
 
 **The editorial date is back-dated relative to today**, so publishing it would put it live immediately.
 It is not published and I have not assumed you want it to be.
+
+---
+
+## Sixteen to Twenty-Six Equations, and the Best One the Article Already Had in Prose
+
+**The article's thesis was a schema stated only in words.** It is that proving a property of one artefact
+does not license claiming it of a transformed one, and writing that down once in the opening lets the
+**conclusion close the loop by giving the three available shapes as three schemas**, being fix a contract,
+recompute from the artefact, and transfer. **Nobody deploys the third.** That is the article's
+recommendation and it now has a form rather than only a sentence.
+
+**The pair arithmetic turns a phrase into a number.** The article called its zero-inversion result
+"barely a test at all" without showing why. With ties removed the strictly ordered pairs are
+$\binom{9}{2} - \binom{7}{2} = 15$, so **the sample makes 41.7 percent of the comparisons it appears
+to**. The claim was right and unquantified.
+
+Also added: the summation that carries the per-instruction premise to the aggregate conclusion, which the
+article stated in prose and never displayed, with the observation that **$\alpha$ and $\kappa$ are the
+same number reached from two directions**. The memory bound in the bytes the article actually quotes. The
+CerCo inversion as two directions side by side. The optimiser's deletion beside the emission.
+
+**Two of seven audited gaps closed, and the five that remain should stay open.** They are survey prose
+about other people's work plus one restatement, where the numbers are publication years. Manufacturing
+relations for them would be padding.
+
+---
+
+## Reading the Twenty-Six Found a Collision, and a Rule This Article Had Escaped
+
+**$A$ was both the artefact in the schema and the allocation count in Result 1.** The allocation counts
+are now written out as $\mathrm{allocs}$, and a short notation note states which symbols are general and
+which are specific, namely that $\mathcal{R}$ is the particular kind of property and $\mathcal{C}$ the
+particular kind of transformation.
+
+**Three display equations spanned two source lines.** The corpus rule is one line, because the style
+checker validates per line, and **this article was hand-authored and never passed through `reflow`**,
+which is what enforces that rule for the generated articles. Worth remembering for any future article
+that arrives from outside the pipeline.
+
+---
+
+## One Citation Added, and a Note on Why Not More
+
+**`citation_gaps` rose from 10 to 18 and most of that should be ignored for this genre.** The metric
+assumes an article whose relations come from a literature, and here most of them are the author's own
+derivations about the author's own compiler. **Citing anyone for those would be manufacturing.**
+
+The one genuinely borrowed relation left uncited was **Kendall's rank correlation**, whose numerator the
+inversion count is. It is cited now.
 
 ---
 
@@ -107,11 +156,12 @@ visible reference lists sorted. `rather than` reduced from above the corpus maxi
 
 - `python3 _verify.py` **0 errors, 0 warnings**.
 - `python3 _lib/test_lib.py` **75 of 75**.
-- `./_check.sh --drafts` **passes end to end**, 506 pages, no findings.
-- **All 27 research identifiers resolve**, none registry-only.
+- `./_check.sh --drafts` **passes end to end**, no findings.
+- **All 28 research identifiers resolve**, none registry-only.
 - **All 14 curated URLs resolve**, the single 403 being `iso.org`, a documented bot-mitigation case.
-- Reference integrity clean, 43 used against 43 defined, none undefined or orphaned.
+- Reference integrity clean, 44 used against 44 defined, none undefined or orphaned.
 - Section order conforms to the analytical-essay genre.
+- All 26 equations read for brace balance, delimiter closure, bare pipes and doubled backslashes.
 
 ---
 

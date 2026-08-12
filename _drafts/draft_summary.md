@@ -22,8 +22,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `do_proven_bounds_survive_compilation.markdown`, A371, editorial date 2026-08-08, series
 `keleusma_native` index 3 of 3. **Out of series with the X-Planes work.**
 
-**702 lines, 16 display equations, 43 reference definitions, 6,233 words.** Committed. **Not pushed and
-not published.**
+**702 lines, 16 display equations, 43 reference definitions, 6,233 words after the standards and retarget
+pass.** **758 lines, 26 display equations, 44 reference definitions, 6,693 words after the
+equation-density review.** Committed. **Not pushed and not published.**
 
 **Supplied by the pilot from the Keleusma repository and brought to corpus standards here.** The
 argument is that a resource bound proven about bytecode does not automatically hold for the machine code
@@ -58,6 +59,41 @@ all five visible reference lists sorted. `rather than` reduced from over the cor
 **Verification.** `_verify.py` 0 errors and 0 warnings. `./_check.sh --drafts` clean at 506 pages. All
 **27 research identifiers resolve** and **26 of 27 match their cited titles exactly**; the twenty-seventh
 was a checker artefact and is described below.
+
+**THE EQUATION PASS TOOK THE ARTICLE FROM 16 TO 26 DISPLAY EQUATIONS**, closing two of the seven audited
+gaps. **The five that remain are survey prose about other people's work and one restatement**, where the
+numbers are publication years, and manufacturing relations for them would be padding.
+
+**THE BEST ADDITION IS THE SCHEMA THE ARTICLE HAD ONLY IN PROSE.** The thesis is that proving $\Phi$ of
+$A$ does not license claiming $\Phi$ of $\mathcal{T}(A)$, and writing that down once in the opening lets
+the conclusion close the loop by giving **the three available shapes as three schemas**, being fix a
+contract, recompute from the artefact, and transfer. **Nobody deploys the third**, which is the article's
+recommendation and it now has a form rather than only a sentence.
+
+**THE PAIR ARITHMETIC TURNS A PHRASE INTO A NUMBER.** The article said the zero-inversion result was
+"barely a test at all" and did not show why. With ties removed the strictly ordered pairs are
+$\binom{9}{2} - \binom{7}{2} = 15$, so the sample makes **41.7 percent** of the comparisons it appears
+to. **The claim was right and unquantified.**
+
+**Also added.** The summation that carries the per-instruction premise to the aggregate conclusion, which
+the article stated in prose and never displayed, together with the observation that $\alpha$ and $\kappa$
+are the same number reached from two directions. The memory bound in the bytes the article actually
+quotes. The CerCo inversion as two directions side by side. The optimiser's deletion as an equation
+beside the emission.
+
+**READING THE TWENTY-SIX EQUATIONS FOUND A COLLISION.** $A$ was both the artefact in the schema and the
+allocation count in Result 1. **The allocation counts are now written out as $\mathrm{allocs}$**, and a
+short notation note states which symbols are general and which specific, namely that $\mathcal{R}$ is the
+particular kind of property and $\mathcal{C}$ the particular kind of transformation.
+
+**Three display equations spanned two source lines and were joined**, since the corpus style checker
+validates per line. This article was hand-authored and never passed through `reflow`, which is what
+enforces that rule for the generated articles.
+
+**Kendall's rank correlation is now cited.** It was the one relation in the article borrowed from
+elsewhere and left uncited, and **`citation_gaps` does not otherwise apply to this genre**, since the
+remaining relations are the article's own derivations about its own compiler and citing anyone for them
+would be manufacturing.
 
 **A CORPUS-WIDE CHECKER ARTEFACT WAS FOUND AND FIXED.** Crossref deposits a title and its subtitle
 separately, so `CakeML: a verified implementation of ML` is stored as the title `CakeML` alone. A label

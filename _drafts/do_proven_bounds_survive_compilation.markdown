@@ -20,8 +20,16 @@ it is cheap and quick, which is the uncomfortable part. Nobody had run it.
 
 This article is a case study of a mistake that is easy to make and hard to see. **A property is established
 about one thing, and then claimed about a different thing**, with a transformation standing between them
-that was never asked to preserve the property. Stated that baldly it sounds like nobody would do it. In
-practice it is everywhere.
+that was never asked to preserve the property.
+
+Written as a schema, with $\Phi$ the property, $A$ the thing it was established about and $\mathcal{T}$
+the transformation, the mistake is to treat
+
+$$\Phi(A) \quad\Longrightarrow\quad \Phi\bigl(\mathcal{T}(A)\bigr)$$
+
+as though it needed no argument. **It always needs one, and the argument is a statement about
+$\mathcal{T}$ rather than about $\Phi$.** Stated that baldly it sounds like nobody would make the
+mistake. In practice it is everywhere.
 
 A performance budget measured in a staging environment and quoted for production. A power draw calculated
 from a circuit simulation and quoted for the manufactured board. A safety margin computed for a scale model
@@ -130,7 +138,14 @@ for the verifier's time and memory bounds, and
 
 $$T_{\mathrm{nat}}(P), \qquad M_{\mathrm{nat}}(P)$$
 
-for the true worst case of the native artefact on its target. **The claim under examination is the
+for the true worst case of the native artefact on its target.
+
+**Two symbols carry general meanings and two carry specific ones, which is worth stating once.** $\Phi$
+is any property whatever and $\mathcal{T}$ any transformation, both introduced in the opening. $\mathcal{R}$
+is a resource measure, which is the particular kind of property this article is about, and $\mathcal{C}$
+is a compiler, which is the particular kind of transformation. **Allocation counts are written out as
+$\mathrm{allocs}$ rather than abbreviated, so that $A$ always means the artefact a property was
+established about.** **The claim under examination is the
 transfer claim**,
 
 $$T_{\mathrm{nat}}(P) \le \alpha \, T_{\mathrm{vm}}(P) \quad \text{and} \quad M_{\mathrm{nat}}(P) \le \beta \, M_{\mathrm{vm}}(P)$$
@@ -140,9 +155,13 @@ and the two halves fail differently.
 
 ## Result 1: The Memory Bound Does Not Transfer
 
-**The proven memory bound counts slots on the bytecode's own value stack.** Across the units of code this
-article measures, which are the entry points of the language's stream construct, it ranges from 384 to
-2,464 bytes, with between 6 and 71 named variables each.
+**The proven memory bound counts slots on the bytecode's own value stack.** Quoting it in bytes means
+multiplying by the width of one slot, the $w$ above, which on this target is eight,
+
+$$M_{\mathrm{vm}}^{\text{bytes}}(k) \;=\; 8 \cdot \max_{ip} \mathrm{depth}(k, ip) \;+\; \mathrm{arena}(k).$$
+
+Across the units of code this article measures, which are the entry points of the language's stream
+construct, it ranges from 384 to 2,464 bytes, with between 6 and 71 named variables each.
 
 **The stack frame contains something else entirely, and the way it is built is worth following.**
 
@@ -161,7 +180,7 @@ in which **the verifier's proven depth does not appear anywhere.** The number of
 is exact rather than approximate, and the measuring instrument asserts it rather than the author eyeballing
 it,
 
-$$A_{O_0} \;=\; \sum_{f} \bigl(\mathrm{MAX\_STACK} + \mathrm{locals}(f)\bigr) \;=\; 38{,}601,$$
+$$\mathrm{allocs}_{O_0} \;=\; \sum_{f} \bigl(\mathrm{MAX\_STACK} + \mathrm{locals}(f)\bigr) \;=\; 38{,}601,$$
 
 which matches the measured count across all 19 modules with nothing left over. **An equation printed in an
 article is a claim like any other**, so this one is wired to a test that fails if the compiler ever stops
@@ -169,6 +188,8 @@ behaving that way. **A unit of code proven to need three slots and one proven to
 identical space.**
 
 **And then the optimiser deletes all of it.**
+
+$$\mathrm{allocs}_{O_2} \;=\; 0.$$
 
 | | |
 |---|---|
@@ -230,7 +251,13 @@ stay inside its modelled cost,
 
 $$\forall \iota \in \mathcal{B}(P): \quad \sum_{\iota' \in \phi^{-1}(\iota)} t_{\mathrm{nat}}(\iota') \;\le\; \kappa \, c(\iota),$$
 
-from which $T_{\mathrm{nat}} \le \kappa \, T_{\mathrm{vm}}$ follows by summing along the worst path.
+Summing that inequality along the most expensive path gives the conclusion,
+
+$$T_{\mathrm{nat}}(P) \;=\; \sum_{\iota \in \pi^{*}} \; \sum_{\iota' \in \phi^{-1}(\iota)} t_{\mathrm{nat}}(\iota') \;\le\; \kappa \sum_{\iota \in \pi^{*}} c(\iota) \;=\; \kappa \, T_{\mathrm{vm}}(P),$$
+
+with $\pi^{*}$ the worst path. **The constant that emerges is the one the transfer claim needed**, so
+$\alpha$ and $\kappa$ are the same number arrived at from two directions, and the article uses $\alpha$
+for the claim and $\kappa$ for the per-instruction premise that would establish it.
 
 **The premise is an empirical claim and $\phi$ is the fragile part of it.** An optimising compiler routinely
 copies a function's body into its callers, combines several operations into one wide instruction, deletes
@@ -257,7 +284,8 @@ that the bound actually orders can contribute, so the denominator is not the num
 $$N_{\prec} = \bigl|\{(a,b) : T_{\mathrm{vm}}(a) < T_{\mathrm{vm}}(b)\}\bigr| \;\le\; \binom{n}{2},$$
 
 and a sample concentrated on a few distinct magnitudes drives $N_{\prec}$ far below $\binom{n}{2}$. The
-inversion count is the numerator of a standard rank correlation, so the result can equivalently be read as
+inversion count is the numerator of [Kendall's rank correlation][research_kendall_1938], so the result can
+equivalently be read as
 
 $$\tau \;=\; 1 - \frac{2\,\mathrm{inv}}{N_{\prec}},$$
 
@@ -282,9 +310,19 @@ sample contains exactly **three distinct magnitudes**.
 | 45 | 153 | 1 |
 | 164 | 1,143 | 1 |
 
-Of the 36 pairs, only **15 are strictly ordered** by the bound. The remaining 21 are ties and **cannot
-invert by construction**. So the headline zero is a zero over fifteen comparisons among three magnitudes,
-which is barely a test at all.
+**The pair counts follow from that table and are worth doing, because they turn the phrase "barely a
+test" into a number.** With $n$ units of code falling into groups of equal bound of sizes $n_{g}$, the
+pairs the bound strictly orders are the total minus the ties within each group,
+
+$$N_{\prec} \;=\; \binom{n}{2} - \sum_{g} \binom{n_{g}}{2} \;=\; \binom{9}{2} - \binom{7}{2} \;=\; 36 - 21 \;=\; 15.$$
+
+**The remaining 21 pairs are ties and cannot invert by construction.** So the resolution of the test,
+meaning the fraction of the comparisons the sample is capable of making, is
+
+$$\frac{N_{\prec}}{\binom{n}{2}} \;=\; \frac{15}{36} \;=\; 41.7 \text{ percent},$$
+
+and those fifteen comparisons are drawn from only three distinct magnitudes. **The headline zero is a
+zero over fifteen comparisons among three values, which is barely a test at all.**
 
 **Reporting it as "0 of 36" would be the same error this series has now documented three times**: a figure
 that is arithmetically correct and answers a smaller question than it appears to. The honest statement is
@@ -343,8 +381,9 @@ comfortable suppressed.
 
 ## Pattern Extraction
 
-**Verifying the transformation does not preserve the property.** A formally verified compiler $\mathcal{C}$
-proves semantic equivalence,
+**Verifying the transformation does not preserve the property.** Writing $\mathcal{C}$ for a formally
+verified compiler, which is one particular transformation $\mathcal{T}$ of the kind this article opened
+with, what such a compiler proves is semantic equivalence,
 
 $$\llbracket \mathcal{C}(P) \rrbracket \;=\; \llbracket P \rrbracket,$$
 
@@ -403,9 +442,14 @@ transfer a cost bound but **lifts a cost model upward**: the compiler emits cost
 justified by the assembly it actually produced, so the bound the programmer reasons about is derived from
 the artefact and never asserted about a model of it.
 
-That inversion is the whole idea. **The compiler is the thing that knows what the code became**, so it is the
-right component to report cost, and a bound computed before compilation is computed by the component with
-the least information.
+That inversion is the whole idea, and it is worth writing the two directions side by side. The move this
+project had been assuming pushes a bound down onto the artefact, while the move CerCo makes computes it
+from the artefact and reports it upward,
+
+$$\underbrace{\mathcal{R}(A) \;\longrightarrow\; \mathcal{R}\bigl(\mathcal{T}(A)\bigr)}_{\text{transfer, which needs an argument nobody supplied}} \qquad\text{against}\qquad \underbrace{\mathcal{R}\bigl(\mathcal{T}(A)\bigr) \;\longrightarrow\; \text{annotation on } A}_{\text{lifting, which needs only the compiler's own knowledge}}$$
+
+**The compiler is the thing that knows what the code became**, so it is the right component to report
+cost, and a bound computed before compilation is computed by the component with the least information.
 
 [Carbonneaux, Hoffmann, Ramananandro and Shao 2014][research_carbonneaux_2014] do the memory half and do it
 end to end, giving **verified stack-space bounds for C programs proven all the way down to the assembly**,
@@ -585,9 +629,19 @@ frame.
 
 **The deployed systems point at what to do instead, and neither of them transfers.** The eBPF verifier fixes
 a stack cap on the bytecode and builds its just-in-time compiler to respect it. The static-analysis tools the
-certification regimes consume recompute the property on the shipped binary against a target model. Those are
-the two available shapes, **a contract the backend is built against, or a recomputation from the
-artefact**, and this project had been assuming a third that nobody deploys.
+certification regimes consume recompute the property on the shipped binary against a target model.
+
+Written against the same schema the article opened with, the two shapes are
+
+$$\text{fix a contract:} \quad \Phi_{0} \text{ chosen in advance, and } \mathcal{T} \text{ built so that } \Phi_{0}\bigl(\mathcal{T}(A)\bigr) \text{ holds by construction,}$$
+
+$$\text{recompute:} \quad \Phi\bigl(\mathcal{T}(A)\bigr) \text{ measured on the artefact itself, with } \Phi(A) \text{ playing no part,}$$
+
+and the third shape, the one this project had been assuming, is
+
+$$\text{transfer:} \quad \Phi(A) \text{ proven, } \Phi\bigl(\mathcal{T}(A)\bigr) \text{ claimed, and nothing said about } \mathcal{T}.$$
+
+**Nobody deploys the third.**
 
 **The lesson generalises past compilers.** Wherever a property is proven of a model and claimed for an
 artefact, the transformation between them is a premise. It is usually invisible, usually unstated, and
@@ -647,6 +701,7 @@ occasionally the whole argument.
 
 - [A compiler framework for the reduction of worst-case execution times][research_falk_2010]
 - [A formally verified compiler back-end][research_leroy_2009_jar]
+- [A new measure of rank correlation][research_kendall_1938]
 - [A review of worst-case execution-time analysis][research_puschner_burns_2000]
 - [CakeML: a verified implementation of ML][research_kumar_2014]
 - [Certifying and reasoning on cost annotations in C programs][research_ayache_2012]
@@ -687,6 +742,7 @@ occasionally the whole argument.
 [research_heckmann_2003]: https://doi.org/10.1109/jproc.2003.814618
 [research_hoffmann_2012]: https://doi.org/10.1145/2362389.2362393
 [research_hofmann_jost_2003]: https://doi.org/10.1145/604131.604148
+[research_kendall_1938]: https://doi.org/10.1093/biomet/30.1-2.81
 [research_kirner_puschner_2008]: https://doi.org/10.1109/ISORC.2008.65
 [research_kumar_2014]: https://doi.org/10.1145/2535838.2535841
 [research_leroy_2009_cacm]: https://doi.org/10.1145/1538788.1538814
