@@ -90,8 +90,10 @@ follow, and the one that looks strong is the weak one.**
 **The memory bound does not transfer, and this is not a close call.** The bound is denominated in units of
 the middle form. The stack frame is decided by the register allocator. Measured across the whole corpus,
 the compiler emits **38,601 stack allocations** with optimisation switched off and **exactly zero** after
-the pipeline that actually ships. Every one is promoted into a register. **Whatever the shipped code costs
-in memory, the proven number is not measuring it.**
+the pipeline that actually ships. Every one is promoted into a virtual register, and **most are then spilled
+straight back**, because the processor has about fourteen registers and the provisioning is 64 slots.
+**The allocations are deleted and their cost is not.** Whatever the shipped code spends on memory, the
+proven number is not measuring it.
 
 **The time bound is in better shape and its evidence is much weaker than it looks.** The argument that a
 fast implementation is covered by a slow one's bound is sound in outline, and it rests on an assumption
@@ -187,7 +189,7 @@ article is a claim like any other**, so this one is wired to a test that fails i
 behaving that way. **A unit of code proven to need three slots and one proven to need sixty are given
 identical space.**
 
-**And then the optimiser deletes all of it.**
+**And then the optimiser deletes all of it, in the only place the count can see.**
 
 $$\mathrm{allocs}_{O_2} \;=\; 0.$$
 
@@ -197,8 +199,17 @@ $$\mathrm{allocs}_{O_2} \;=\; 0.$$
 | stack allocations surviving the shipped pipeline | **0** |
 
 A standard optimisation pass notices that these values never need a memory address and moves every one of
-them into a register. **The frame that actually ships is whatever the register allocator later decides it
-cannot fit in registers and must push back out to memory**, which is called spilling. That decision is made
+them into a register. **That is where a careless reading stops, and it would be wrong.** The registers the
+pass moves them into are *virtual* registers, of which the compiler may invent as many as it likes. A real
+processor has roughly fourteen it can use freely, so an allocator handed 64 live operand slots **pushes most
+of them straight back onto the stack**, which is called spilling.
+
+**The provisioning is therefore relocated and not removed.** It leaves the intermediate form as an explicit
+allocation and reappears in the machine code as a spill slot, which is why the smallest frames measured sit
+near $64 \times 8 = 512$ bytes, the size of the operand region expressed in bytes. **The count going to zero
+is a fact about the intermediate representation and not about memory.**
+
+The frame that actually ships is whatever the register allocator decides it cannot keep in registers. That decision is made
 by the [code generator][ref_llvm_codegen] from the number of registers the target processor has, the exact
 sequence of optimisation passes, the version of LLVM in use, and the code surrounding the function.
 
@@ -212,6 +223,34 @@ made.
 **This is the sharpest form of the finding and it is not a defect in the compiler.** The translation is
 doing the ordinary thing that every compiler does. **The defect is in the inference**, which was never
 stated explicitly and was therefore never examined.
+
+### The frames were measured, and they run the wrong way
+
+**The argument above is structural, and a structural argument invites the reply that the numbers might come
+out fine anyway.** They do not.
+
+Asking the code generator for an object file carrying a stack-size section, and reading the per-function
+sizes back out of it, gives the frame each module actually receives. **Every module measured has a native
+frame larger than the bound proven of its bytecode, by roughly two to thirteen times.**
+
+**The direction is the one that matters.** A bound that overestimates wastes memory. A bound that
+underestimates is a promise the artefact does not keep, and an artefact provisioned from these proven
+numbers would be under-provisioned on every module in the corpus.
+
+**The corpus totals are worth stating with their target attached.** Lowered for
+`x86_64-unknown-linux-gnu`, the 19 modules together occupy 298,192 bytes of frame without optimisation and
+275,432 bytes with it, **a reduction of 8 percent and not of everything.** The allocation count fell to zero
+and the memory it stood for did not.
+
+**That total is a property of the target and not of the program**, which is the article's thesis arriving from
+a second direction. A different processor, with a different number of registers and a different calling
+convention, gives a materially different total for the same bytecode carrying the same proven bound. **A
+quantity that changes when the target changes cannot have been determined by the bytecode.**
+
+**And no constant rescues it.** Four modules share a proven bound of exactly 64 bytes while their measured
+frames are 520, 600, 632 and 824 bytes. If the bound were merely in the wrong units, one ratio would carry it
+onto the frame and the project could calibrate that ratio once. **Four different answers to the same bound
+means there is no ratio to find.**
 
 ### The same architecture exists in production, and it does not transfer the bound
 
@@ -365,15 +404,32 @@ refuse.** Instruction count ignores latency, cache behaviour, branch prediction 
 instruction count is weak evidence for a monotone relationship between bound and time, and no evidence at all
 about magnitude.
 
-**The frame measurement is at the intermediate representation, not the machine.** Counting stack allocations
-before and after the pipeline shows that the verifier's number does not survive into the frame decision. It
-does not measure the final frame, which requires reading emitted machine code and is deferred for a
-mechanical reason. The per-function frame sizes live in a named section of the object file, closely
-related to the metadata [LLVM stack maps][ref_llvm_stackmaps] describe, in the sense the
-[ELF generic binary interface][ref_elf_gabi] gives that word, and it is emitted only in that object
-format while the development machine produces Mach-O. The equivalent capability exists in other toolchains as
-[GCC's `-fstack-usage`][ref_gcc_devopts] and [Clang's stack-size section][ref_clang_cli], so the gap is one
-of host configuration rather than of principle.
+**The allocation count is at the intermediate representation, and the frame was measured separately.** An
+earlier version of this article deferred the frame measurement and gave a bad reason for doing so, namely
+that the per-function frame sizes live in a named section of the object file, in the sense the
+[ELF generic binary interface][ref_elf_gabi] gives that word and closely related to the metadata
+[LLVM stack maps][ref_llvm_stackmaps] describe, which the Mach-O development host does not emit.
+**That reasoning confused the host with the target.** A compiler cross-targets by construction, so asking
+`llc` for an ELF object with a stack-size section and reading it back with `llvm-readobj` produces the
+number on any host. The equivalent capability exists in other toolchains as
+[GCC's `-fstack-usage`][ref_gcc_devopts] and [Clang's stack-size section][ref_clang_cli].
+
+**The measurement, once taken, is unfavourable in the dangerous direction.** Every module measured has a
+native frame **larger** than the bound proven of its bytecode, by roughly two to thirteen times. An artefact
+provisioned from the proven number would therefore be **under-provisioned**, which is the failure that
+matters, since over-provisioning merely wastes memory.
+
+**No constant factor rescues the bound**, and that is the sharper point. Four modules share a proven bound of
+exactly 64 bytes while their measured frames are 520, 600, 632 and 824 bytes. **A single ratio cannot map one
+onto the other**, so the relationship is not a scaling the project could calibrate and then apply. It is the
+absence of a relationship.
+
+**The frame measured today is not the frame the project will ship.** Work already planned would lower
+aggregate construction into stack allocations, and those allocations land in the same frame this section
+measures. **A reduction reported now can be spent later by an unrelated feature**, so the 8 percent is a
+measurement of one commit and not a property of the design. Nothing in Result 1 depends on the figure, since
+the argument is that the bound does not determine the frame and a moving frame makes that case rather than
+weakening it.
 
 **The author wrote both the compiler being measured and the instrument measuring it.** The mitigation
 offered is that the finding is unfavourable to the author's own prior work and would have been more
@@ -11853,7 +11909,11 @@ stack allocations at optimisation level zero and 0 after the shipped pipeline. T
 provisioning is 64 slots per function. Nine stream entry points carry both a proven bound and an emitted
 instruction count, and they span three distinct magnitudes, being $(14, 72)$, $(45, 153)$ and $(164, 1143)$. Over 36
 pairs, of which 15 are strictly ordered, there are 0 inversions. Measured memory bounds for stream entry
-points range from 384 to 2,464 bytes with 6 to 71 locals.
+points range from 384 to 2,464 bytes with 6 to 71 locals. **Native frame sizes were read from a stack-size
+section in a cross-targeted object file**, and every module's frame exceeds the bound proven of its bytecode
+by roughly two to thirteen times, with four modules sharing a proven bound of 64 bytes against frames of 520,
+600, 632 and 824 bytes. Lowered for `x86_64-unknown-linux-gnu` the 19 modules occupy 298,192 bytes of frame
+unoptimised against 275,432 optimised, **a figure specific to that target** and not a corpus constant.
 
 **Derived, and checkable from the definitions.** That the proven operand depth does not appear in the
 unoptimised frame expression, since the provisioning is a constant. That a tie cannot be an inversion, so
@@ -11898,14 +11958,14 @@ computed one, and that WebAssembly validation establishes nothing about the comp
 are readings of those specifications and not experiments. They are load-bearing for the conclusion's
 recommendation and a reader who doubts them should check the cited documents rather than trust the summary.
 
-**What this article does not establish.** The actual native worst-case memory of any artefact, which requires
-reading emitted machine code in an object format this host does not produce. The value of $\alpha$, which
+**What this article does not establish.** The value of $\alpha$, which
 requires per-platform calibration. Whether the domination premise holds for every operation, which was
 argued and not measured. Whether any inversion exists at higher resolution.
 
 **The strongest claim the evidence supports** is that the memory bound proven on bytecode does not constrain
 the native frame, because the quantity it measures is absent from the frame's determination and the
-provisioning it might have constrained is deleted by the optimiser. **The weakest link is the timing
+provisioning it might have constrained leaves the intermediate form entirely and returns as spill slots the
+bound never described. **The weakest link is the timing
 result**, whose zero inversions rest on three distinct magnitudes and should not be cited as support for the
 domination argument.
 

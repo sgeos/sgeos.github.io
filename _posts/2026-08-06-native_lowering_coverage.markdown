@@ -2964,6 +2964,35 @@ falsified recommendation would have unblocked occurs zero times. Of 91 candidate
 supplied from memory, four resolved to different works and one did not resolve, an error rate of 5.5
 percent.
 
+**Later data, added as an addendum and not as a correction.** Three subsequent articles in this series
+measured the same thing the same way, and the pattern across them says more than any single figure does.
+**Nothing above is withdrawn.**
+
+| Article | Identifiers checked | Needing correction | Rate |
+|---|---|---|---|
+| This article | 91 | 5 | 5.5 percent |
+| The calling-convention article | 35 | 0 | 0 percent |
+| The resource-bound article | 27 | 4 | 14.8 percent |
+| The aggregate-cost article | 26 | 7 | 26.9 percent |
+
+**The rate is not a measure of care**, since all four bibliographies were assembled and checked the same way.
+What varies is the material. The zero-rate article draws on recent, widely cited works with distinctive
+identifiers, while the highest-rate article draws on older conference papers, many from one proceedings
+series.
+
+**The failure mode that dominates is the one a working link cannot catch.** Four of the seven corrections in
+the highest-rate article were neighbouring identifiers in the same proceedings volume, differing by one or
+two digits in the suffix. Such an identifier resolves cleanly and returns a plausible paper in the right
+field, and it is wrong. **It is caught only by comparing the resolved title against the cited title**, which
+is why that comparison is load-bearing rather than fastidious.
+
+Two further classes are instrument artefacts rather than citation defects, and separating them matters
+because they inflate any reported rate. **A registry may store a title and its subtitle in different
+fields**, so a citation giving both overlaps the stored title poorly while being correct. **And a work may be
+registered with a different agency**, so querying one registry returns nothing for a perfectly valid
+identifier. **A rate reported without separating these two classes from genuine mismatches is an upper
+bound.** This article's own figure needed no such separation, because its identifiers carry neither pattern.
+
 **Derived, and checkable from the definitions.** That unit-level coverage cannot exceed instruction-level
 coverage follows from the product form. That the objective is supermodular and not submodular, so that the
 classical greedy approximation guarantee does not apply, is established by counterexample. The clustering

@@ -9,9 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: The three `keleusma_native` research spike articles given a **shared main title with distinct
-subtitles**, following A371's word usage pass in the previous commit.
-**Committed AND pushed. A369 and A370 are live pages and changed. A371 NOT published.**
+**Task**: `tmp/A371_draft_corrections.md` reviewed and acted on, plus the A369 addendum.
+**Committed AND pushed. A369 is a live page and changed. A371 NOT published.**
 
 ---
 
@@ -26,7 +25,61 @@ is not published and I have not assumed you want it to be.
 
 ---
 
-## The Shared Title, Which Is the Newest Work
+## The Draft Corrections, Which Are the Newest Work
+
+**Items 1 and 2 are applied and they strengthen Result 1.** The optimiser promotes the allocations into
+*virtual* registers, of which the compiler may invent any number, and a target with roughly fourteen usable
+registers spills most of the 64 operand slots straight back. **The provisioning is relocated, not removed**,
+and the article now says the count going to zero is a fact about the intermediate representation and not
+about memory.
+
+The deferral is gone. Its stated reason, that the stack-size section is ELF-only while the host produces
+Mach-O, **confused the host with the target**, since a compiler cross-targets by construction. A new
+subsection reports that **every module's frame exceeds the bound proven of its bytecode by two to thirteen
+times**, which is the dangerous direction, and that **no constant rescues it**, four modules sharing a proven
+bound of 64 bytes against frames of 520, 600, 632 and 824.
+
+**Item 3 needed no action, and I checked rather than assumed.** The retrospective claim about A369's rate
+**appears in neither the blog draft nor the Keleusma source draft.** The only sibling comparison A371 makes
+is to A370 at 35 of 35.
+
+---
+
+## The Contradiction I Brought to You, and What I Did With Your Answer
+
+Item 1 gives a corpus frame of 298,192 at O0 against **275,432** at O2, an 8 percent reduction. Item 4 and
+the A372 source draft give a corpus frame total of **23,976** and describe a **91 percent** frame reduction.
+Against a common O0 those are 7.6 percent and 92.0 percent, and they cannot both hold. **Item 1's reduction
+of 22,760 is also close to A372's total of 23,976**, which reads like a frame and a saving swapped.
+
+You ruled they are different measurements, so **the article now names the target beside the figure** and
+reports 298,192 against 275,432 for `x86_64-unknown-linux-gnu`. I added the consequence rather than just the
+caveat: **a total that moves when the target moves was not determined by the bytecode**, which is the
+article's own thesis arriving from a second direction.
+
+**Item 4 was applied without naming A372.** A371 is dated 2026-08-08 and A372 does not exist in this
+repository, so a `post_url` would fail the entire site build and even a prose forward reference breaks the
+back-reference-only convention. Threats to Validity now records that planned aggregate lowering would
+reintroduce allocations into the same frame, so the 8 percent is a measurement of one commit.
+
+---
+
+## The A369 Addendum, With One Row Corrected Before It Shipped
+
+Added as you asked, framed as later data, withdrawing nothing.
+
+**The note's own table was wrong about A370.** It reports 31 identifiers checked. **A370's published text
+says 35 in four separate places, and its pipeline's `hand_research.json` holds exactly 35 entries, all
+DOI-based.** The row now reads 35.
+
+Two things to be aware of. **Two of the four rows describe articles that are not yet published**, so a reader
+cannot currently check them. And **neither set of frame measurements was independently reproduced here**,
+because the LLVM 22 toolchain the Keleusma test expects is absent from this host, which carries 14 and 19
+only. They are recorded as the engineering session reports them.
+
+---
+
+## The Shared Title, From an Earlier Commit
 
 The three articles now read **Keleusma Research Spike** followed by their own subtitle.
 
