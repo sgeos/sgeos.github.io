@@ -15,8 +15,9 @@ series_index: 3
 **Somebody proves a program can never use more than a certain amount of memory. Then a compiler rewrites
 that program into a different form before it runs. Does the proof still apply?**
 
-**The answer, for the system examined here, is that one half of it does not.** The measurement that shows
-it is cheap and quick, which is the uncomfortable part. Nobody had run it.
+**The answer, for the system examined here, is that part of it does and part of it was never about the
+compiled program at all.** The measurement that shows which is cheap and quick, which is the uncomfortable
+part. Nobody had run it.
 
 This article is a case study of a mistake that is easy to make and hard to see. **A property is established
 about one thing, and then claimed about a different thing**, with a transformation standing between them
@@ -87,8 +88,11 @@ The system studied here is Keleusma, whose compiler backend is described in the
 [first][related_post_a369] and [second][related_post_a370] articles in this series. **Three results
 follow, and the one that looks strong is the weak one.**
 
-**The memory bound does not transfer, and this is not a close call.** The bound is denominated in units of
-the middle form. The stack frame is decided by the register allocator. Measured across the whole corpus,
+**Half the memory bound does not transfer, and the half that fails is not the half that matters most.** The
+proven bound is a sum of two terms. **The arena term transfers exactly**, because native code allocates from
+the same fixed-size arena in the same bytes. **The operand-slot term counts a structure native code does not
+have**, and the machine frame it was being compared against is a third quantity nobody bounded. The stack
+frame is decided by the register allocator. Measured across the whole corpus,
 the compiler emits **38,601 stack allocations** with optimisation switched off and **exactly zero** after
 the pipeline that actually ships. Every one is promoted into a virtual register, and **most are then spilled
 straight back**, because the processor has about fourteen registers and the provisioning is 64 slots.
@@ -155,7 +159,7 @@ $$T_{\mathrm{nat}}(P) \le \alpha \, T_{\mathrm{vm}}(P) \quad \text{and} \quad M_
 for constants $\alpha, \beta$ that do not depend on $P$. **Everything turns on whether such constants exist**,
 and the two halves fail differently.
 
-## Result 1: The Memory Bound Does Not Transfer
+## Result 1: One Term of the Memory Bound Transfers Exactly and the Other Describes Nothing Native
 
 **The proven memory bound counts slots on the bytecode's own value stack.** Quoting it in bytes means
 multiplying by the width of one slot, the $w$ above, which on this target is eight,
@@ -164,6 +168,33 @@ $$M_{\mathrm{vm}}^{\text{bytes}}(k) \;=\; 8 \cdot \max_{ip} \mathrm{depth}(k, ip
 
 Across the units of code this article measures, which are the entry points of the language's stream
 construct, it ranges from 384 to 2,464 bytes, with between 6 and 71 named variables each.
+
+### The bound is a sum of two terms, and only one of them is in trouble
+
+**That equation has been printed three times in this series and read as a single number.** It is not a single
+number. It is a sum of two quantities that behave completely differently when the program is compiled, and
+separating them is the difference between a claim that survives challenge and one that does not.
+
+**The $\mathrm{arena}(k)$ term transfers exactly, and nothing in this article disturbs it.** The language
+allocates dynamic data from a fixed-size arena with countable bytes, the memory-bound pass sums the size of
+every allocation, and **native code allocates from the same arena in the same bytes.** The flat memory model
+does not change at the compilation boundary. A bound on arena use proven of the bytecode is a bound on arena
+use of the machine code, with no argument required beyond noticing that the arena is the same object.
+
+**The $8 \cdot \max_{ip} \mathrm{depth}$ term is the one with no native counterpart.** It counts slots on the
+interpreter's operand stack, which is a growable vector inside the virtual machine. Native code has no
+operand stack. Those values live in registers, and where they do not fit they live wherever the register
+allocator puts them. **Comparing that term to a machine frame compares two different things**, which is why
+the comparison came out as badly as it did.
+
+**And the machine frame is a third quantity that the bytecode never described at all.** It is not the arena
+term, it is not the operand-slot term, and it needs a bound of its own computed from the artefact.
+
+**This is a narrower claim than the one this article set out to make, and a sturdier one.** The original
+framing was that a proven resource bound does not survive compilation. **The supportable version is that one
+component survives exactly, one is an implementation detail of the interpreter with no counterpart on the
+machine, and a third quantity exists that was never bounded.** Every measurement below is unchanged. What
+changes is which of the three they are about.
 
 **The stack frame contains something else entirely, and the way it is built is worth following.**
 
@@ -237,15 +268,9 @@ frame larger than the bound proven of its bytecode, by roughly two to thirteen t
 underestimates is a promise the artefact does not keep, and an artefact provisioned from these proven
 numbers would be under-provisioned on every module in the corpus.
 
-**The corpus totals are worth stating with their target attached.** Lowered for
-`x86_64-unknown-linux-gnu`, the 19 modules together occupy 298,192 bytes of frame without optimisation and
-275,432 bytes with it, **a reduction of 8 percent and not of everything.** The allocation count fell to zero
-and the memory it stood for did not.
-
-**That total is a property of the target and not of the program**, which is the article's thesis arriving from
-a second direction. A different processor, with a different number of registers and a different calling
-convention, gives a materially different total for the same bytecode carrying the same proven bound. **A
-quantity that changes when the target changes cannot have been determined by the bytecode.**
+**The corpus totals make the point in one line.** Lowered for `x86_64-unknown-linux-gnu`, the 19 modules
+together occupy 298,192 bytes of frame without optimisation and 275,432 bytes with it, **a reduction of 7.6
+percent and not of everything.** The allocation count fell to zero and the memory it stood for did not.
 
 **And no constant rescues it.** Four modules share a proven bound of exactly 64 bytes while their measured
 frames are 520, 600, 632 and 824 bytes. If the bound were merely in the wrong units, one ratio would carry it
@@ -378,15 +403,18 @@ rests on an assumption that has not been tested at any useful resolution, and on
 $\alpha$ that has never been calibrated. The project's own architecture notes that the interpreter cost model does not translate and that
 per-platform calibration is needed, which is the same gap stated from the other side.
 
-Writing $\mathcal{R}$ for a resource measure, the two failures differ in kind,
+Writing $\mathcal{R}$ for a resource measure, and taking the memory case to mean the machine frame against
+the operand-slot term and not against the arena term, the two failures differ in kind,
 
-$$\nexists \beta : \mathcal{R}^{\mathrm{mem}}_{\mathrm{nat}} \le \beta\, \mathcal{R}^{\mathrm{mem}}_{\mathrm{vm}}, \qquad \exists \alpha \text{ (uncalibrated)} : \mathcal{R}^{\mathrm{time}}_{\mathrm{nat}} \le \alpha\, \mathcal{R}^{\mathrm{time}}_{\mathrm{vm}},$$
+$$\nexists \beta : \mathcal{R}^{\mathrm{frame}}_{\mathrm{nat}} \le \beta\, \mathcal{R}^{\mathrm{slots}}_{\mathrm{vm}}, \qquad \exists \alpha \text{ (uncalibrated)} : \mathcal{R}^{\mathrm{time}}_{\mathrm{nat}} \le \alpha\, \mathcal{R}^{\mathrm{time}}_{\mathrm{vm}},$$
 
 which call for different work, being recomputation in the first case and measurement in the second.
 
-**A project that shipped native artefacts today would be shipping the language's central promise
+**A project that shipped native artefacts today would be shipping part of the language's central promise
 unsupported**, and would not be lying, because the promise is about the bytecode and the bytecode still
-carries it. That is precisely the kind of true statement that misleads.
+carries it. That is precisely the kind of true statement that misleads. **The arena half of the promise is
+genuinely kept.** It is the machine stack that has no guarantee behind it, and a reader told only that the
+memory promise holds would have no way to tell which half was meant.
 
 ## Threats to Validity
 
@@ -423,13 +451,6 @@ matters, since over-provisioning merely wastes memory.
 exactly 64 bytes while their measured frames are 520, 600, 632 and 824 bytes. **A single ratio cannot map one
 onto the other**, so the relationship is not a scaling the project could calibrate and then apply. It is the
 absence of a relationship.
-
-**The frame measured today is not the frame the project will ship.** Work already planned would lower
-aggregate construction into stack allocations, and those allocations land in the same frame this section
-measures. **A reduction reported now can be spent later by an unrelated feature**, so the 8 percent is a
-measurement of one commit and not a property of the design. Nothing in Result 1 depends on the figure, since
-the argument is that the bound does not determine the frame and a moving frame makes that case rather than
-weakening it.
 
 **The author wrote both the compiler being measured and the instrument measuring it.** The mitigation
 offered is that the finding is unfavourable to the author's own prior work and would have been more
@@ -11913,7 +11934,7 @@ points range from 384 to 2,464 bytes with 6 to 71 locals. **Native frame sizes w
 section in a cross-targeted object file**, and every module's frame exceeds the bound proven of its bytecode
 by roughly two to thirteen times, with four modules sharing a proven bound of 64 bytes against frames of 520,
 600, 632 and 824 bytes. Lowered for `x86_64-unknown-linux-gnu` the 19 modules occupy 298,192 bytes of frame
-unoptimised against 275,432 optimised, **a figure specific to that target** and not a corpus constant.
+unoptimised against 275,432 optimised, **a reduction of 7.6 percent**.
 
 **Derived, and checkable from the definitions.** That the proven operand depth does not appear in the
 unoptimised frame expression, since the provisioning is a constant. That a tie cannot be an inversion, so
@@ -11962,10 +11983,12 @@ recommendation and a reader who doubts them should check the cited documents rat
 requires per-platform calibration. Whether the domination premise holds for every operation, which was
 argued and not measured. Whether any inversion exists at higher resolution.
 
-**The strongest claim the evidence supports** is that the memory bound proven on bytecode does not constrain
-the native frame, because the quantity it measures is absent from the frame's determination and the
+**The strongest claim the evidence supports** is that the operand-slot term of the memory bound does not
+constrain the native frame, because the quantity it measures is absent from the frame's determination and the
 provisioning it might have constrained leaves the intermediate form entirely and returns as spill slots the
-bound never described. **The weakest link is the timing
+bound never described. **The claim does not extend to the arena term**, which transfers exactly and is not in
+question, and the difference between those two statements is the difference between a result and an
+overreach. **The weakest link is the timing
 result**, whose zero inversions rest on three distinct magnitudes and should not be cited as support for the
 domination argument.
 
@@ -11984,9 +12007,14 @@ to a generated artefact was never written down and was therefore never examined*
 moment someone counts, and then it reads as two quantities in different units decided by different agents.
 
 The time bound may well transfer. The argument for it is reasonable, the measurement here is consistent with
-it, and the measurement is far too coarse to be called support. The memory bound does not transfer, and no
-constant of proportionality is available, because the thing it measures is not the thing that ends up in the
-frame.
+it, and the measurement is far too coarse to be called support.
+
+**The memory bound splits.** Its arena term transfers exactly, because the machine code allocates from the
+same arena in the same bytes. Its operand-slot term does not transfer and could not, **because it counts a
+structure that native code does not have**, and no constant of proportionality is available between that
+term and the machine frame, four modules with an identical proven bound receiving four different frames.
+**The frame is a third quantity, and the honest description is not that a bound was lost but that one was
+never computed.**
 
 **The deployed systems point at what to do instead, and neither of them transfers.** The eBPF verifier fixes
 a stack cap on the bytecode and builds its just-in-time compiler to respect it. The static-analysis tools the
@@ -12003,6 +12031,13 @@ and the third shape, the one this project had been assuming, is
 $$\text{transfer:} \quad \Phi(A) \text{ proven, } \Phi\bigl(\mathcal{T}(A)\bigr) \text{ claimed, and nothing said about } \mathcal{T}.$$
 
 **Nobody deploys the third.**
+
+**For this project the two shapes divide the work cleanly, which is the practical result.** Dynamic data
+should be allocated from the arena, where the bound already transfers and no new argument is needed. The
+machine frame should be bounded separately and computed from the artefact, by asking the code generator for
+the frame sizes it chose. **Neither of those is research.** The first is a rule about where data lives and
+the second is a build step, and together they replace a bound that was assumed to carry with two that are
+each established where they are used.
 
 **The lesson generalises past compilers.** Wherever a property is proven of a model and claimed for an
 artefact, the transformation between them is a premise. It is usually invisible, usually unstated, and

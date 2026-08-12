@@ -9,8 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: `tmp/A371_draft_corrections.md` reviewed and acted on, plus the A369 addendum.
-**Committed AND pushed. A369 is a live page and changed. A371 NOT published.**
+**Task**: A371 corrections **revised** after the engineering session resolved the numeric contradiction and
+added item 5. **Committed AND pushed. NOT published.**
 
 ---
 
@@ -25,7 +25,59 @@ is not published and I have not assumed you want it to be.
 
 ---
 
-## The Draft Corrections, Which Are the Newest Work
+## The Contradiction Is Resolved, and I Had Guessed Its Cause Wrong
+
+**The two totals are not two targets.** That was my inference from your "different measurements" ruling and
+the engineering session has given the real answer. They are **two orthogonal axes**.
+
+| | O0 | O2 |
+|---|---|---|
+| fixed provisioning, which is A371's world | 298,192 | 275,432 |
+| on-demand provisioning, landed after A371 | 43,240 | 23,976 |
+
+The optimisation-level axis is 298,192 to 275,432, **7.6 percent**, and that is A371's story. The code-change
+axis is 275,432 to 23,976 at O2, **91.3 percent**, and that is a later fix which is not.
+
+**So I removed the paragraph I had written claiming the frame total is a property of the target.** It was
+unsupported by the evidence it cited, and the 8 percent is corrected to 7.6 throughout.
+
+---
+
+## Item 4 Is Withdrawn, and I Reversed What I Had Applied
+
+Composite bodies belong in the arena, not on the machine stack, so the frame-growth concern does not arise.
+The Threats to Validity paragraph I added about aggregate lowering reintroducing allocations is **deleted**.
+
+---
+
+## Item 5 Narrows the Article's Central Claim, and the Article's Own Equation Already Knew
+
+**The memory bound is a pair and the article had been reading it as one number**, although its own displayed
+equation writes it as a sum. Separating the terms is the whole of item 5.
+
+- **The arena term transfers exactly.** Native code allocates from the same fixed-size arena in the same
+  bytes, and the memory-bound pass already sums every allocation. No argument is required beyond noticing
+  that the arena is the same object.
+- **The operand-slot term has no native counterpart.** It counts slots on the interpreter's operand stack.
+  Native code has no operand stack, so comparing that term to a machine frame **compares two different
+  things**, which is why it came out as badly as it did.
+- **The machine frame is a third quantity** that the bytecode never described and that needs its own bound.
+
+Result 1's heading is now **One Term of the Memory Bound Transfers Exactly and the Other Describes Nothing
+Native**. The lede, the summary, the conclusion, the strongest-claim paragraph and the central-promise
+passage were all narrowed to match, and the no-constant equation was rescoped from a generic memory
+superscript to the frame against the operand slots, **since a claim about the whole memory bound is exactly
+the overreach item 5 removes.**
+
+**Every measurement is unchanged.** What changed is which of the three quantities each one is about.
+
+**And the recommendation is now concrete instead of despairing.** Allocate dynamic data from the arena, where
+the bound already transfers, and bound the machine frame separately from the artefact. The article says
+plainly that neither of those is research.
+
+---
+
+## The Earlier Corrections, Which Still Stand
 
 **Items 1 and 2 are applied and they strengthen Result 1.** The optimiser promotes the allocations into
 *virtual* registers, of which the compiler may invent any number, and a target with roughly fourteen usable
@@ -45,7 +97,7 @@ is to A370 at 35 of 35.
 
 ---
 
-## The Contradiction I Brought to You, and What I Did With Your Answer
+## The Contradiction, As I First Reported It
 
 Item 1 gives a corpus frame of 298,192 at O0 against **275,432** at O2, an 8 percent reduction. Item 4 and
 the A372 source draft give a corpus frame total of **23,976** and describe a **91 percent** frame reduction.
