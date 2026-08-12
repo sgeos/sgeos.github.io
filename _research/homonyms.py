@@ -124,6 +124,20 @@ NOISE_PATTERNS = [
      r"\binter-?satellite link\b.{0,40}\b(?:capacity|throughput|handover)",
      "A334: SATELLITE NETWORKING again, this time through contact graph routing "
      "rather than through 5G. Same field, different entry point"),
+    (r"\bcrack\b|\bfatigue crack|\bstress intensity\b|\bfracture toughness\b",
+     "A335: CRACK OPENING LOAD in fracture mechanics shares the exact phrase with "
+     "PARACHUTE OPENING LOAD, which is the article's term of art. 'Observations on "
+     "fatigue crack opening load determinations' reached the kept set"),
+    (r"\bepoxy\b|\bresin\b|\blaminate\b|\bcomposite\b.{0,30}\bimpact tolerance\b|"
+     r"\bimpact tolerance\b.{0,30}\bcomposite\b",
+     "A335: IMPACT TOLERANCE means MATERIAL TOUGHNESS in composites and HUMAN "
+     "ACCELERATION TOLERANCE in aeromedicine. 'Advanced epoxy composites of improved "
+     "impact tolerance' reached the kept set through the aeromedical anchor"),
+    (r"\bparachute flare\b|\billumination flare\b|\bflare\b.{0,25}\b(?:munition|"
+     r"pyrotechnic|binder|candle)",
+     "A335: THE PARACHUTE FLARE IS A PARACHUTE-SUSPENDED MUNITION and shares both "
+     "words with this article. Carried forward from the flare entry in the homonym "
+     "table and now observed directly"),
     (r"\bgull(?:y|ies)\b|\bdune\b|\bcrater count|\bstratigraph|\bregolith\b|"
      r"\bfluvial\b|\bglacial\b|\bpermafrost\b",
      "A334: MARS AND PLANETARY SURFACE GEOMORPHOLOGY, admitted by an aerobraking "

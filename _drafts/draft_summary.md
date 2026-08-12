@@ -17,6 +17,65 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Scaled Composites X-38 A335 2025-11-13
+
+`x_planes_scaled_composites_x38.markdown`, A335, editorial date 2025-11-13, series `x_planes` index 39
+of 72.
+
+**4,907 lines, 14 display equations, 1,388 reference definitions, 26,710 words after the draft pass**,
+with all 1,220 harvested research records cited and none left over, plus 112 reference works.
+Committed. **Not pushed and not published.**
+
+**THE KEYSTONE IS THAT THIS VEHICLE ABANDONED THE RUNWAY ON PURPOSE.** Six vehicles in this series were
+built around a horizontal landing. The X-38 flies the X-24A shape through entry and then comes down
+under 696.8 square metres of ram-air canopy onto whatever flat ground is available. **The research
+question is therefore what a runway costs**, and both sides are computable.
+
+**THE ANSWER IS ONE RATIO AND THE MASS CANCELS OUT OF IT.** A lifting body meets a runway at 90 metres
+per second carrying **45.93 megajoules**. The same mass under the canopy descends at 17.58 metres per
+second carrying **1.752**, a ratio of **26.2 to one** which is exactly the square of the speed ratio.
+
+**THE CROSSRANGE ARGUMENT OF SIX PREVIOUS ARTICLES IS A CONSEQUENCE OF INSISTING ON A RUNWAY.** The
+parafoil footprint is about 18 kilometres against the 1,397.8 the X-37 article computed, a ratio of
+77.7 to one that looks devastating until the question is reversed. A vehicle needing a certified runway
+gets **0.1 landing opportunities a day** and one needing a flat field gets **396.1**. **Availability is
+the entire requirement for a lifeboat.**
+
+**A CALCULATION THAT FAILED PRODUCED THE THIRD RESULT.** The obvious explanation for five-stage reefing
+is crew tolerance, and it does not survive being written down. The steady inflation load admits the
+whole canopy in one step at **2.10 g**, and the admissible area at three g is **996.2 square metres**
+against a canopy of 696.8. Even a 2.5 opening-shock factor reaches only **5.25 g**. **The constraint is
+the canopy's own structure and not the occupants**, and no vehicle-level load model can predict the
+stage count because the stage count is not a vehicle-level quantity.
+
+**THE SCALING EXPONENT HAS THE OPPOSITE SIGN FROM THE PREVIOUS ARTICLE.** Mass scales as length to the
+**4.207** from the X-24A, against 3 for geometric similarity, where the X-37 scaled at 1.924 from the
+Shuttle orbiter. **The X-37 shrank and kept its overhead; the X-38 grew because the mission grew faster
+than the machine.** The pair is a warning against reading a scaling exponent as a property of the
+technology.
+
+**THE PROGRAMME PROVED HALF THE PROBLEM.** The heaviest drop test came within **1.021** of the orbital
+vehicle's sink rate, so the landing system was tested at very nearly its design condition. **The entry
+was never tested at all**, and V-201 was 90 percent complete when the programme was cancelled on 29
+April 2002. **The lifeboat was cancelled because the station shrank to fit the lifeboat it already
+had**, which is a sixth distinct reason for a thin record.
+
+**Verification.** `_verify.py` 0 errors and 0 warnings. `tmp/a335/verify.py` **28 of 28** independent
+re-derivations, including the glide speeds by a component resolution against the resultant form and the
+energy ratio from the square of the speed ratio. `./_check.sh --drafts` passes at 505 pages. 2,720
+reference entries scanned for stray punctuation with none found.
+
+**The text check caught a transcription error.** The draft said 1,376.7 g where the value is 1,376.6.
+
+**Four new homonym families recorded in `_research/homonyms.py`**, being crack opening load in fracture
+mechanics against parachute opening load, impact tolerance meaning material toughness against human
+acceleration tolerance, the parachute flare as an illumination munition, and recovery system without a
+parachute context.
+
+**Known gaps for the equation-density pass.** `_lib/audit.py` reports 11 sections naming numbers with no
+displayed relation and 7 equations with no citation within reach. The `vehicle_sizing` cluster is empty
+and `entry_aerothermo` holds four, both because the cluster ordering routes their records elsewhere.
+
 ## X-Planes Boeing X-37 A334 2025-11-12
 
 `x_planes_boeing_x37.markdown`, A334, editorial date 2025-11-12, series `x_planes` index 38 of 72.

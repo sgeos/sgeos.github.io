@@ -9,111 +9,150 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: A334, the Boeing X-37. **Publication review complete. All four passes done.**
-**Committed and PUSHED. NOT published.**
+**Task**: A335, the Scaled Composites X-38. **Draft pass complete.**
+**Committed. NOT pushed**, per the rhythm in which only the publication review pushes.
 
 ---
 
-## Five Findings, and Reading Is the Only Reason Any of Them Surfaced
+## The Vehicle That Abandoned the Runway on Purpose
 
-**Three curated links returned 404, and all three were addresses I built from what the page ought to be
-called.** Wikipedia has no article titled Space Maneuver Vehicle, none titled Aerojet AR2-3 and none
-titled Space Shuttle landing. The subjects are all real and well covered, under Boeing X-40, Rocketdyne
-AR2 and Space Shuttle orbiter. **A plausible title is not a URL.**
+**Six vehicles in this series were built around a horizontal landing and this one was built to give it
+up.** The X-23 proved a lifting entry could be steered to a point, the X-24 spent its life on the
+unpowered approach, the X-33 and X-34 were sized around runway operations, and the X-37 made autonomous
+runway landing routine. **The X-38 flies the same family of shape through entry and then comes down
+under 696.8 square metres of ram-air canopy onto whatever flat ground is available.**
 
-**Nothing else could have caught it.** The identifier sweep covers `doi.org` links and the rendered
-audit covers markup. **Neither looks at a hand-written encyclopaedia link**, so a curated reference is
-checked only if this review actually requests each one. It now does, and the trap is recorded.
-
-**One of the three dead links was a symptom of a wrong belief rather than of a moved page.** The AR2-3
-is a **Rocketdyne** engine, widely credited to Aerojet, which is the successor company and not the
-developer. The article now says so.
-
-**Two drafting-history leaks removed.** The Source Base narrated an equation pass and an earlier
-version of an audit, both referring to revisions no reader ever saw. **The epistemic content was kept
-and the revision history dropped.** The section now states the finding in general terms, that a search
-built from what an article says will not find the literature the article depends on, without narrating
-how this article learned it.
-
-**The aerobraking heritage was undercounted.** The text said three Mars orbiters and one at Venus. It
-is **six spacecraft**: Magellan and Venus Express at Venus, and Mars Global Surveyor, Mars Odyssey, the
-Mars Reconnaissance Orbiter and the ExoMars Trace Gas Orbiter at Mars between 1997 and 2018.
-
-**The designation count was stale in two places**, still quoting a pool of 8,905 after it reached
-13,351. **Re-measured, the finding is stronger than it was.**
+**The research question is therefore what a runway costs**, and both sides are computable from published
+numbers.
 
 ---
 
-## The Central Finding, Re-measured and Sharper
+## The Answer Is One Ratio and the Mass Cancels Out of It
 
-**Seventeen records in a harvested pool of 13,351 carry the X-37 designation. Fourteen survive into the
-cited base of 5,545. Twelve of those fourteen are dated between 2000 and 2005 and every one of the
-twelve is a space agency document.** The remaining two are outside analyses by people with no access.
+A lifting body meets a runway at ninety metres per second carrying **45.93 megajoules**. The same mass
+under the canopy descends at 17.58 metres per second carrying **1.752**.
 
-**The programme's own literature stops in 2005, one year after the transfer to the defence research
-agency, and not one record in the base describes a flown mission.** The vehicle has operated for
-fifteen years since.
+**The ratio is 26.2 to one, and it is exactly the square of the speed ratio**, so no property of the
+vehicle enters it at all. Everything the runway demands follows from that energy: the speed, the strip,
+the gear, and the crossrange needed to reach one of the few places where all three exist.
 
 ---
 
-## The Citation Run Found Four More, and One Was a Rejection That Had Already Been Made
+## The Crossrange Argument of Six Articles Is a Consequence of Insisting on a Runway
 
-The full run over the expanded base checked **4,838 identifiers and reported 4 findings**, a rate of
-0.1 percent. All four are now recorded and removed: a Mars surface geomorphology paper admitted by the
-aerobraking harvest, a second Science news item indexed as a work, and two nonexistent Korean journal
-identifiers.
+The parafoil footprint is about **18 kilometres** against the **1,397.8 kilometres** of entry crossrange
+the [X-37 article](../../_drafts/x_planes_boeing_x37.markdown) computed. **The ratio of 77.7 to one looks
+devastating until the question is asked the other way round.**
 
-**The two nonexistent ones had already been rejected in the previous pass and came back anyway.** The
-deposited identifiers carry a **trailing full stop**, and I recorded the clean form, so the keys never
-matched. **A DOI ending in a full stop is a different string and does not resolve**, which is both why
-they were nonexistent and why the store missed them.
+**Crossrange exists to reach a runway, and runways are rare.**
 
-`gen_master` now strips a trailing full stop from every harvested identifier. **It does not strip a
-closing parenthesis**, because several publishers deposit identifiers that legitimately end in one and
-two of them are cited here.
+| Landing sites available | Reachable per day |
+|---|---|
+| Runways certified for a lifting body | **0.1** |
+| Airfields of adequate length | 4.0 |
+| Flat unobstructed areas | **396.1** |
+
+A vehicle needing a certified runway gets an opportunity every ten days. One needing a flat field gets
+four hundred a day. **For a lifeboat, availability is the entire requirement**, so a factor of several
+thousand in availability is worth a factor of seventy-eight in crossrange.
+
+**These are order-of-magnitude figures and the article says so.** What survives the crudeness is the
+direction and the scale.
+
+---
+
+## A Calculation That Failed Produced the Third Result
+
+**The obvious explanation for the five-stage reefing is that a single-step inflation would injure the
+crew, and it does not survive being written down.** The steady inflation load admits the whole canopy in
+one step at **2.10 g**, and the admissible area at three g is **996.2 square metres** against a canopy of
+696.8. Even an opening-shock factor of 2.5 reaches only **5.25 g**, which a restrained crew survives.
+
+**What the failure locates is that the constraint is not the crew.** A canopy of that size cannot
+inflate uniformly, the centre cells fill first, the load concentrates on a fraction of the suspension
+lines, and the limiting structure is the canopy itself. **Reefing exists to make the inflation orderly
+rather than to make it gentle**, and no vehicle-level load model can predict the stage count because the
+stage count is not a vehicle-level quantity.
+
+---
+
+## Two Identities Worth More Than the Numbers They Support
+
+**The flare is never limited by energy.** In steady glide the horizontal speed is the vertical times the
+glide ratio, so the two kinetic energies stand in the ratio of its **square**, exactly, with no mass, no
+area and no density appearing. At a glide ratio of three the forward motion carries nine times what the
+descent must lose. **The flare is limited by how fast the canopy converts that energy before it stalls**,
+which is a question about the canopy and not about the arithmetic.
+
+**The entry peak deceleration carries no ballistic coefficient.** The Allen and Eggers result gives
+**3.87 g** for this entry regardless of the vehicle, and lift relief takes it to 3.02 at a lift-to-drag
+ratio of 0.8. **The entry load is a medical constraint rather than a structural one**, which is a
+sentence that could not be written about any other vehicle in this series.
+
+---
+
+## The Scaling Exponent Has the Opposite Sign From the Previous Article
+
+Mass scales as length to the **4.207** from the X-24A to the X-38, against 3 for geometric similarity.
+The X-37 scaled at **1.924** from the Shuttle orbiter.
+
+**The X-37 shrank and kept its fixed overhead. The X-38 grew because the mission grew faster than the
+machine.** Neither pair is geometrically similar and the reasons differ, **which is a warning against
+reading a scaling exponent as a property of the technology.** I would not have noticed had the previous
+article not measured the same quantity.
+
+---
+
+## The Programme Proved Half the Problem, Precisely
+
+The heaviest drop test came within a factor of **1.021** of the orbital vehicle's sink rate, because sink
+rate varies as the square root of mass and the mass shortfall was 4.2 percent. **The landing system was
+tested at very nearly its design condition.**
+
+**The entry was never tested at all.** No X-38 went to orbit, none met the atmosphere at orbital speed,
+and no thermal protection system was ever exposed to entry heating in flight. V-201 was **90 percent
+complete** when the programme was cancelled on 29 April 2002.
+
+**The lifeboat was cancelled because the station shrank to fit the lifeboat it already had.** The
+seven-seat requirement disappeared with the station's reduction to a crew of three, which the Soyuz
+already served. **That is a sixth distinct reason for a thin record**, different again from cancellation
+for failure, from winning, from producing a technique, and from classification.
 
 ---
 
 ## Verification
 
-- **Prose style clean on every check.** Zero em dashes, en dashes, prose colons, prose semicolons,
-  parentheticals and contractions. The only capitals are TUFROC, which is an acronym.
-- **All 32 curated URLs resolve.** The single 403 is `spaceforce.mil`, a documented bot-detected host.
-- **Reference integrity clean**, 5,762 used against 5,762 defined, no undefined, no orphaned, no
-  duplicate URLs, definitions sorted.
-- **11,469 reference entries scanned** for delimiters, entities, doubled commas and carets, all clean.
 - `python3 _verify.py` **0 errors, 0 warnings**.
-- `python3 tmp/a334/verify.py` **52 of 52** independent re-derivations.
-- `python3 _lib/test_lib.py` **75 of 75**.
-- `./_check.sh --drafts` **passes end to end**, 504 pages, no findings.
-- Identifier sweep **300 of 300 resolved**, citation coverage **96.3 percent** of 4,838 distinct
-  identifiers with a 0.1 percent finding rate.
-- **Section order conforms to the research-aircraft genre** without exception.
+- `python3 tmp/a335/verify.py` **28 of 28**. The glide speeds come back from a component resolution
+  against the resultant form, the energy ratio from the square of the speed ratio with the mass
+  cancelled, the area inversion from a scan against a bisection, and the deorbit increment from specific
+  energy against vis-viva.
+- `./_check.sh --drafts` **passes end to end**, 505 pages, no findings.
+- **2,720 reference entries scanned** for stray punctuation, all clean.
 
----
+**The text check caught a transcription error and that is what it is for.** The draft stated 1,376.6 g
+after I first wrote 1,376.7 for a value of 1,376.617.
 
-## Final State
-
-**18,700 lines, 42 display equations, 5,762 reference definitions, 100,776 words**, with all **5,545
-research records cited and none left over**, plus 148 reference works.
-
-Period half **3,061**, contemporary **2,428**, technical reports **1,116**. Contemporary coverage is
-**43.7 percent** of dated records and **25.2 percent** is dated 2020 or later, which satisfies the
-comprehensive-survey directive comfortably.
+**Four new homonym families were recorded** in `_research/homonyms.py`, each with its incident: **crack
+opening load** in fracture mechanics against parachute opening load, **impact tolerance** meaning
+material toughness against human acceleration tolerance, the **parachute flare** as an illumination
+munition, and **recovery system** without a parachute context.
 
 ---
 
 ## Outstanding
 
-**Nothing blocking.** The tree is clean and everything is pushed.
+**Nothing blocking.** The tree is clean and the article is committed.
 
-**A334 IS NOT PUBLISHED and publication of the thirty-eight X-Planes drafts has never been
-authorised.** The article remains in `_drafts/`, the deploy workflow builds without `--drafts`, and the
-publication-order dependency is now **thirty-eight deep**, so the set publishes in order or together.
+**The article is NOT pushed**, which is correct for a draft pass. **Publication of the thirty-nine
+X-Planes drafts remains unauthorised.**
 
-**Three new entries were added to `_docs/process/VERIFICATION_TRAPS.md`**, being that a plausible title
-is not a URL, that a measuring instrument has the same blind spot as the thing it measures, and that a
-summary listing only exceptions cannot distinguish clean from unexamined.
+**For the equation-density pass, which is your next prompt if you want it:** `_lib/audit.py` reports
+**11 sections naming numbers with no displayed relation** and **7 equations with no citation within
+reach**. The draft stands at **14 display equations**, which is low and reflects a subject whose argument
+runs through a few relations applied repeatedly.
 
-**A335 is the Scaled Composites X-38 per the roster**, editorial date 2025-11-13, Part 39 of 72, and it
-starts only on your prompt.
+**Two clusters are thin and both are the cluster ordering rather than the literature.**
+`vehicle_sizing` is empty and `entry_aerothermo` holds four, because records naming those subjects match
+an earlier cluster first. **That is a reporting artefact and the reference pass should fix the ordering
+rather than harvest for it.**
