@@ -532,6 +532,31 @@ def t_clean_strips_mathjax_inline_delimiters():
     assert refs.clean("Ordinary Title With No Math") == "Ordinary Title With No Math"
 
 
+def t_clean_strips_a_bare_pipe_because_kramdown_reads_it_as_a_table():
+    """A BARE PIPE IN LINK TEXT IS A TABLE, WHICH IS THE LAST OF THE DELIMITER FAMILY.
+
+    kramdown reads a paragraph whose first line contains a pipe as a table, so a
+    pipe that reflow happens to place at a line start shreds the surrounding
+    prose into cells. A334 harvested a title deposited as
+    "Influence of Small Satellites^|^apos; Post-mission Disposal", where a
+    publisher had mangled an apostrophe entity into a sequence carrying a
+    literal pipe. The semicolon rule then stripped the terminator and left the
+    pipe in the link text, where nothing else would have removed it.
+
+    Same family as the unbalanced `$$` of A327, the bare `\\(` of A328 and the
+    stray `>` of A331.
+    """
+    out = refs.clean("Influence of Small Satellites^|^apos; Post-mission Disposal")
+    assert "|" not in out, out
+    assert "Post-mission Disposal" in out, out
+
+    # a pipe standing alone between words also goes
+    assert "|" not in refs.clean("Throughput | Latency Trade-offs")
+
+    # and an ordinary title is untouched
+    assert refs.clean("Ordinary Title With No Pipe") == "Ordinary Title With No Pipe"
+
+
 def t_anchor_and_display_survive_non_latin_author_names():
     """A NAME IN A NON-LATIN SCRIPT MUST NOT PRODUCE A BROKEN ANCHOR.
 

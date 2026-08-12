@@ -17,6 +17,66 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Boeing X-37 A334 2025-11-12
+
+`x_planes_boeing_x37.markdown`, A334, editorial date 2025-11-12, series `x_planes` index 38 of 72.
+
+**14,457 lines, 24 display equations, 4,440 reference definitions, 78,320 words after the draft
+pass**, with all 4,223 harvested research records cited and none left over, plus 148 reference works.
+Committed. **Not pushed and not published**, per the four-pass rhythm in which only the publication
+review pushes.
+
+**THE DOCUMENTARY PROBLEM IS THE INVERSE OF EVERY PREVIOUS ARTICLE IN THE SERIES.** Earlier vehicles
+left too little trace. The X-37B has flown eight missions across fifteen years, has spent 4,208.57
+days on orbit, and has left a very large trace with a hole in the middle. **Fourteen records in a
+harvested pool of 8,905 carry the designation, every one of them from the 1999 to 2004 space agency
+phase or written by outsiders, and not one describes a flown mission.**
+
+**THE ROUTE IN IS THAT THE ORBIT IS PUBLIC EVEN WHEN THE PAYLOAD IS NOT.** The keystone is endurance,
+and the central result is that **a 908.88 day mission is 14,140 orbits and therefore 14,140 battery
+cycles**, because at the 40 degree inclination of the first four missions the reachable beta angle of
+63.44 degrees never reaches the 70.22 degree full-sun threshold and **not one orbit is exempt**.
+Inverting an inverse power law for cycle life gives an admissible depth of discharge between 38 and 50
+percent across the whole plausible exponent range, which is routine flight practice. **The record
+needs no exotic energy storage.**
+
+**TWO INDEPENDENT PUBLIC GEOMETRIES BOUND THE ELECTRICAL LOAD AND THEY ARE REPORTED AS A BRACKET
+RATHER THAN AS AGREEMENT.** The array must fold into a 2.52 square metre bay, which caps the
+continuous load near 1,164 watts, and the doors must reject the heat, which caps it between 540 and
+1,623 watts. **Heat rejection is the tighter constraint**, which is why the doors open on orbit.
+
+**THE AEROBRAKING RESULT IS THE STRONGEST IN THE ARTICLE.** Circularising the seventh mission's
+38,600 kilometre apogee propulsively costs 2,469.4 metres per second against a whole propulsive budget
+near 310.6, a ratio of 7.95, and **lowering perigee to set the manoeuvre up costs 19.9 metres per
+second, a leverage of 124 to one.**
+
+**A CRUDE FEASIBILITY ESTIMATE SAID IT WAS IMPOSSIBLE AND THE PROPER WALK-DOWN OVERTURNED IT.** Holding
+the period constant gives 314 passes and demands 7.87 metres per second each, which no perigee above
+the entry interface delivers. Updating the orbit after every pass gives **467 passes and 81.2 days at a
+100 kilometre perigee**, which fits the calendar. **Both are left standing in the article, because the
+difference between them is the lesson.**
+
+**THE FIFTH THIN-CLUSTER REASON IS CLASSIFICATION**, which is distinct from the X-33 and X-34
+cancellations, from the X-35 winning, and from the X-36 producing a technique rather than a vehicle.
+**The X-37 did not stop existing. It stopped being publishable.**
+
+**Verification.** `_verify.py` 0 errors and 0 warnings. `tmp/a334/verify.py` **34 of 34** independent
+checks, each re-deriving a value by a route sharing no code with the one that produced it, including
+the orbital period by numerical integration of the two-body problem and the eclipse fraction by direct
+geometric counting. `./_check.sh --drafts` passes at 504 pages with no findings. The identifier sweep
+resolved **400 of 400** on a seeded sample, 22 through the issuing registry rather than by HTTP.
+
+**Three defects were found and fixed during assembly, and all three were mine.** A possessive filter
+that treated `NASA's` as a contraction dropped 81 records including the article's best primary sources.
+A doubled-word check read `Based on On-Orbit` as a repeat because a hyphen is not a word character. A
+harvested title carried a mangled entity whose residue put a bare pipe into link text, which kramdown
+reads as a table. **`refs.clean` now strips a bare pipe corpus-wide and `test_lib.py` has a case for
+it.**
+
+**Known gaps for the equation-density pass**, which is the next prompt. `_lib/audit.py` reports 14
+sections naming numbers with no displayed relation, the largest being the scale comparison, the solar
+cycle bracket and the crossrange table.
+
 ## X-Planes McDonnell Douglas X-36 A333 2025-11-11
 
 `x_planes_mcdonnell_douglas_x36.markdown`, A333, editorial date 2025-11-11, series `x_planes` index

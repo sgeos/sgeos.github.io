@@ -127,6 +127,16 @@ def clean(s):
     # opens a display one, which is the A327 defect arriving through a different delimiter.
     # Any backslash surviving this far is residue and is removed.
     s = s.replace("\\", " ")
+    # A BARE PIPE IN LINK TEXT IS A KRAMDOWN TABLE. This is the same family as the
+    # unbalanced `$$`, the bare `\(` and the stray `>`, and it is the one delimiter the
+    # rules above did not reach. kramdown reads a paragraph whose first line contains a
+    # pipe as a table, so a pipe that reflow happens to place at the start of a line
+    # shreds the surrounding text into cells. A334 harvested a title deposited as
+    # "Influence of Small Satellites^|^apos; Post-mission Disposal", in which a publisher
+    # had mangled an apostrophe entity into a sequence carrying a literal pipe, and the
+    # semicolon rule then stripped the terminator and left the pipe sitting in link text.
+    # `_verify.py` already warns on this as `math-pipe-table` when it reaches inline math.
+    s = s.replace("|", " ")
     # AN EM OR EN DASH IS TWO DIFFERENT PUNCTUATION MARKS AND COLLAPSING BOTH TO A SPACE
     # CORRUPTS ONE OF THEM. Used with spaces around it, a dash is parenthetical and a space
     # is the right replacement. Used directly between two word characters it is a COMPOUND

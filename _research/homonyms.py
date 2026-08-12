@@ -90,6 +90,24 @@ NOISE_PATTERNS = [
      r"\b(?:batter|cell|electrode)",
      "A324: ENERGY HEIGHT is a term of art in OPEN-CHANNEL HYDRAULICS and SPECIFIC ENERGY "
      "belongs to BATTERIES, which is now far larger than the aeronautical sense"),
+
+    # ---- observed in the A334 spacecraft sweep, by reading the kept sample
+    (r"\bmicrogrid|\bsmart grid\b|\bgrid-?connected\b|\beconomic dispatch\b|"
+     r"\bpeak shaving\b|\bwind farm\b|\bphotovoltaic (?:plant|power station|farm)",
+     "A334: DEPTH OF DISCHARGE and CYCLE LIFE are spacecraft battery terms and also "
+     "GRID STORAGE terms. 'Optimized Economic Dispatch and Battery Sizing in Wind "
+     "Microgrids: A Depth of Discharge Perspective' reached the kept set. The cell "
+     "degradation physics is genuinely shared; the dispatch economics is not"),
+    (r"\b5G\b|\b6G\b|\bhandover\b|\bthroughput\b|\brouting protocol\b|"
+     r"\bmedium access\b|\bmodulation and coding\b|\bbit error rate\b",
+     "A334: SATELLITE COMMUNICATIONS NETWORKING shares 'low earth orbit' with "
+     "everything this series does. 'Handover Solutions for 5G Low-Earth Orbit "
+     "Satellite Networks' passed a gate anchored on the orbit alone. The constellation "
+     "is the same and the subject is not"),
+    (r"\belectric vehicle\b|\bEV batter|\bplug-?in hybrid\b|\bautomotive batter",
+     "A334: the ELECTRIC ROAD VEHICLE again, arriving this time through battery "
+     "cycle life rather than through propulsion. Recorded in A331 as the largest "
+     "body this series has had to exclude"),
 ]
 
 _COMPILED = [(re.compile(p, re.I), why) for p, why in NOISE_PATTERNS]

@@ -8,154 +8,161 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 ## Last Updated
 
-**Date**: 2026-08-11
-**Task**: Gated the corpus's largest verbal tic and cleared it, refreshed the stale tooling indexes.
-**Committed and pushed.** **The citation run has landed and its findings are acted on.**
+**Date**: 2026-08-12
+**Task**: A334, the Boeing X-37. **Draft pass complete.**
+**Committed. NOT pushed**, per the rhythm in which only the publication review pushes.
 
 ---
 
-## The Largest Tic In The Corpus Was Never Gated
+## The Documentary Problem Is the Inverse of Every Previous Article
 
-`rather` appeared **3,739 times**, 99.7 percent of it as `rather than`, at or above the rate limit in
-**21 articles** against a corpus median of 1.29 per thousand. **`WATCH_WORDS` held 45 words and
-`rather` was not one of them**, so `_verify.py` had never seen any of it.
+Thirty-seven articles have struggled with vehicles that left too little trace. **This one has left a
+very large trace with a hole in the middle.** Eight missions since 2010, 4,208.57 days on orbit across
+the seven completed, dimensions published, durations recorded to the minute, orbits tracked
+continuously by amateur observers. **What it carried and what it did are classified.**
 
-It is now watched, and all 21 articles are reduced below the limit. **262 replacements**, taking the
-corpus to **3,478** uses. Eleven of the articles are published and ten are X-Planes drafts.
+**Fourteen records in a harvested pool of 8,905 carry the designation.** Every one is from the 1999 to
+2004 space agency phase or was written by outsiders, and **not one describes a flown mission.**
 
-**`instead of` cannot be substituted mechanically and my first attempt proved it.** `of` takes a noun
-phrase while `than` does not, so "helped by the physics rather than fought by it" became "instead of
-fought by it", which is ungrammatical. Only `and not` and `, not` preserve the structure, because any
-complement that can follow `than` can follow `not`. I reverted the trial file and restricted the
-rotation before touching anything else.
-
-**Neither replacement became a new tic.** The highest rate for either is 3.77 per thousand, against
-473 and 332 corpus-wide.
+**That makes the fifth thin-cluster reason, and it is distinct from the other four.** The X-33 and X-34
+were cancelled, the X-35 won, the X-36 produced a technique rather than a vehicle. **The X-37 did not
+stop existing and did not stop working. It stopped being publishable.**
 
 ---
 
-## Three Defects I Introduced Doing It, All Caught And Fixed
+## The Route In, Which Is a Measurement Rather Than a Guess
 
-- **Three double commas**, where `X, rather than Y` became `X,, not Y` because the replacement
-  absorbed the preceding space but not a comma already there. Repaired, and the script now absorbs
-  the comma so it cannot recur.
-- **A false alarm of my own making.** A prose scan reported up to 173 double commas and 276 double
-  spaces per file. Both were artefacts of `diction.prose` stripping citation link text, which leaves
-  `, ,` behind. **The raw files contain zero double commas.** The checker was wrong, not the corpus,
-  which is the trap the new traps document opens with.
-- **One genuine registry artefact**, unrelated to this pass, found while checking. A harvested title
-  in an unpublished draft read `Col, Demler of A, E, C, , Washington`. The entry is repaired and
-  `refs.clean` now collapses a repeated comma, with a test.
+**The orbit is public even when the payload is not.** Every quantitative claim in the article rests on
+published dimensions, published durations, public orbital elements and textbook relations. **The
+article does not speculate about the payload anywhere**, and says so in its own voice.
+
+**The keystone is endurance, and endurance in orbit is not a propulsion problem.** The central result
+converts an operational record into a hardware requirement using nothing but the mission duration and
+the orbital period. **908.88 days is 14,140 orbits and therefore 14,140 charge and discharge cycles**,
+and at the 40 degree inclination of the first four missions the largest reachable beta angle is 63.44
+degrees against a full-sun threshold of 70.22, so **not one orbit is exempt and no phasing provides
+relief.**
+
+Inverting an inverse power law for cycle life gives an admissible depth of discharge of **38 to 50
+percent across the whole plausible exponent range**, which is routine flight practice. **The record
+endurance needs no exotic energy storage.** It needs a conservatively cycled battery of roughly fifteen
+kilograms per kilowatt.
 
 ---
 
-## The Tooling Indexes Were Stale And I Made Them So
+## Two Independent Public Geometries, Reported as a Bracket and Not as Agreement
 
-`_lib/README.md` documented ten modules while the library held thirteen. **I added `gate.py`,
-`render.py` and `resolve.py` across three commits today and updated the index in none of them.** It is
-the entry point the process index points at, so it is what someone would actually read.
+The array must fold into a 2.52 square metre bay, which caps the continuous load near **1,164 watts**.
+The heat must leave through the doors, which caps it between **540 and 1,623 watts**. **Heat rejection
+is the tighter constraint**, which is the usual result for a compact spacecraft and explains why the
+doors open on orbit and stay open.
 
-It now carries all thirteen, plus the distinction that matters more than the table suggests: **every
-module except `render.py` reads markdown source and therefore predicts what the renderer will do
-rather than observing it**, and `resolve.py` and `_verify_citations.py` answer different questions
-with neither subsuming the other.
+**Both are upper bounds and the article says so repeatedly.** Claiming that two ceilings agree to some
+precision would be claiming more than two ceilings can support, so the finding is the bracket.
 
-`STYLE_VERIFICATION.md` gains sections for rendered output and identifier resolution, including that
-`_preview.sh` cannot tell you whether the deploy will pass and that the math check counts by
-backslash-run parity.
+---
+
+## The Aerobraking Result, and an Estimate of Mine That Was Wrong
+
+Circularising the seventh mission's 38,600 kilometre apogee propulsively costs **2,469.4 metres per
+second** against a whole propulsive budget near **310.6**, a ratio of 7.95. **Setting the manoeuvre up
+costs 19.9 metres per second**, so the leverage is **124 to one**, and the perigee passes run at about
+a fifth of the heat flux of a full entry.
+
+**MY FIRST FEASIBILITY ESTIMATE SAID THE MANOEUVRE WAS IMPOSSIBLE AND IT WAS WRONG.** Holding the
+period constant gives 314 passes in the available calendar and demands 7.87 metres per second each,
+which no perigee above the entry interface delivers. **The period is not constant.** Every pass lowers
+the apogee, which shortens the period, which fits more passes into the same days. The proper walk-down
+gives **467 passes and 81.2 days at a 100 kilometre perigee**, which fits.
+
+**Both versions are left standing in the article deliberately**, because the difference between them is
+the lesson. The crude estimate held constant the one quantity the manoeuvre exists to change.
+
+---
+
+## An Identity Worth More Than the Number It Supports
+
+In equilibrium glide the vertical balance fixes the lift, so the turn rate and the deceleration carry
+the same factor and dividing one by the other removes it. **The heading a vehicle can turn during entry
+depends on its lift-to-drag ratio, its bank angle and the ratio of entry speed to terminal speed, and
+on nothing else.** Not on mass, not on wing area, not on the atmosphere. Checked against an integration
+that retains the term the identity claims cancels, and they agree to four decimal places.
+
+---
+
+## Three Defects Found During Assembly, All of Them Mine
+
+- **A possessive is not a contraction, and my filter forgot it.** A pattern matching any apostrophe-s
+  dropped **81 records**, including "X-37 Flight Demonstrator: A Building Block in NASA's Future Access
+  to Space", which is among the article's best primary sources. The filter now carries `_verify.py`'s
+  own list so the two cannot disagree.
+- **A hyphenated compound is not a doubled word.** `\w` excludes the hyphen, so a backreference read
+  "Based on On-Orbit Measurement Data" as a repeat and dropped a correct title.
+- **A harvested title put a bare pipe into link text**, through a publisher-mangled apostrophe entity
+  deposited as `^|^apos;`. **kramdown reads a paragraph whose first line contains a pipe as a table.**
+  This is the last member of the delimiter family that included the unbalanced `$$` of A327, the bare
+  `\(` of A328 and the stray `>` of A331. **`refs.clean` now strips a bare pipe corpus-wide**, with a
+  test, taking `test_lib.py` from 74 to 75.
+
+**All three were found by scanning every reference entry for punctuation that does not belong**, which
+remains the only method that has ever worked for this class. Nothing else reported them.
+
+**Six reference works have no author**, and `refs.display`'s title fallback truncates to the same
+two-word window an author label uses, so "Experimental Aerothermodynamic Research of Hypersonic
+Aircraft" rendered as "Experimental Aerothermodynamic Research of 2018", which reads as a person and a
+year. Two of the six are the standard texts for this subject, so they are labelled by title instead of
+being dropped. **Where there is an author, `refs.display` is used unchanged.**
+
+---
+
+## The Gate Was Written for This Subject and Both Samples Were Read
+
+**Reading the kept sample found a cardiac radiofrequency ablation trial**, admitted by a bare `ablat`
+stem. **Reading the dropped sample found the Global Reference Atmospheric Model and a spacecraft
+thermal design paper**, refused because `thermal control` does not match `Thermal-Control`.
+
+Three new noise families were recorded in `_research/homonyms.py`, each with the incident that produced
+it: **grid storage and economic dispatch**, which share depth of discharge and cycle life with
+spacecraft batteries; **satellite communications networking**, which shares low Earth orbit with
+everything this series does; and **the electric road vehicle again**, arriving this time through
+battery cycle life rather than propulsion.
 
 ---
 
 ## Verification
 
-- `python3 _verify.py` **0 errors, 0 warnings**, with `rather` now among the 46 watched words.
-- `python3 _lib/test_lib.py` **74 of 74**, up from 73.
-- `./_check.sh` **passes end to end**: 462 pages, no findings.
-- Every one of the 262 replacements was reviewed in word context, not sampled.
+- `python3 _verify.py` **0 errors, 0 warnings**.
+- `python3 tmp/a334/verify.py` **34 of 34**, each value re-derived by a route sharing no code with the
+  one that produced it. The orbital period comes back from a numerical integration of the two-body
+  problem, the eclipse fraction from direct geometric counting, the altitude floor from a scan against
+  a bisection, and the perigee-pass drag from a time-domain quadrature against a true-anomaly one.
+- `python3 _lib/test_lib.py` **75 of 75**, up from 74.
+- `./_check.sh --drafts` **passes end to end**, 504 pages, no findings.
+- Identifier sweep, seeded sample of 400: **400 of 400 resolved**, 22 through the issuing registry
+  rather than by HTTP, which is the expected Defense Technical Information Center pattern.
 
----
-
-## The Citation Run Landed, And Both Big Categories Were The Checker
-
-It covered **77,593 citations across 61,483 distinct identifiers**, the first run ever to reach A369,
-A370 and the 37-draft publication queue. It reported **195 mismatch, 3 nonexistent and 15,159 weak**.
-
-**I fixed the checker before believing it, and that was right.** 14,979 of the 15,159 weak findings
-were labels carrying no title at all, because most of the corpus renders an entry as `Surname Year` by
-design. **A title-overlap test against a label with no title is not a test.** The author check also
-matched by whole-string containment, so `Henriquez Huecas` cited as `Huecas` read as a wrong work
-rather than a wrong name.
-
-**I guessed diacritics were the main cause of the mismatches and I was wrong**, at 2 of 195. The three
-I happened to sample made it look typical.
-
-`assess()` now folds diacritics, matches any token of a compound surname, skips the overlap test when
-there is no title to overlap, and reports a wrong author name as its own `label-name` verdict, so a
-naming defect is neither buried among 15,000 weak findings nor mistaken for a fabricated citation.
-Re-assessed from cache with no further network use: **195 to 87 mismatch, 15,159 to 184 weak**.
-
-## The Real Defect Was Reader-Visible And In The Publication Queue
-
-**401 reference labels named the author wrongly.** Each article's throwaway `assemble.py` built its own
-link text and took the **last token** of the author string. For `BELL AEROSPACE CO BUFFALO NY` that
-gives `NY`, so the prose read **"the MX-2276 system described in NY 1955"**. For `Bardera Mora` it gives
-`Mora`, naming a real person incorrectly.
-
-**`refs.display()` was already correct.** This is precisely the duplication the shared library exists
-to end, and it reached 31 drafts because the label logic was reimplemented per article rather than
-called.
-
-**632 occurrences across 28 drafts were rebuilt from the cached registry record**, leaving 43 mismatch
-and 89 label-name as a residue. Anchors were left alone, since a reader never sees them.
-
-## The Drafts Gate Caught One More, And It Was Mine
-
-`./_check.sh --drafts` reported `andnbsp` three times in `draft_summary.html` — a document **describing
-that defect** and quoting it in backticks. `render.py` counted `double-escaped` and `literal-nbsp-word`
-inside code while every other markup check excluded it. Both now match the others.
-
-## Side Work Is Closed Out
-
-**The handoff was stale and would have failed its own validity check.** It recorded parent `d2ceb3c`
-against an actual `HEAD~1` of `0cf2f29`, so the startup protocol would have reported it
-invalid-and-stale and refused to proceed. It is refreshed **surgically rather than rewritten**, which is
-what its own regeneration rules ask for: carry forward the earned rules, drop what is resolved.
-
-What changed in it: the parent commit and tree state, a note that A370 was published and corrected
-without touching the X-Planes rhythm, the three new `_lib` modules, **the corpus baseline moving from
-21 warnings to 0**, `./_check.sh`, a pointer to `VERIFICATION_TRAPS.md` rather than a restatement of it,
-and the citation residue recorded as an open decision.
-
-**`tmp/` held 2.9 GB and is now 978 MB.** The six throwaway repository build copies, `a328build`
-through `a370build` at roughly 180 to 200 MB each, were pure waste once their builds finished. **The
-`aNNN` harvest directories were kept**, because `master.json` and the selection data are expensive to
-regenerate. This will not recur, since `_check.sh` builds into `mktemp` with a cleanup trap.
-
----
-
-## The Task Log Had Gone Stale In The Way It Exists To Prevent
-
-The resume check on 2026-08-11 found `TASKLOG.md`'s current-task block naming A333 as **both complete
-and next**, and carrying **36 drafted against a working tree holding 37**. The block already contains a
-paragraph recording three previous rewrites for exactly this defect, so this is the fourth.
-
-**The counts were re-measured rather than carried forward**: 37 series drafts, A297 through A333, 36 of
-which cite a sibling through `post_url`, and 0 published. **A334, the Boeing X-37, is next.**
-
-The handoff's parent commit was advanced to `947d6fa` in the same breath, because the correction moved
-the branch tip and would otherwise have made the handoff fail its own validity check.
+**One verifier failure was a real finding rather than a defect.** I asserted that a decaying-orbit
+propagation should exceed the fixed-altitude drag budget by no more than fifteen percent. It exceeds it
+by **48.4 percent**, because drag is exponential in altitude and every metre lost makes the next metre
+dearer. **The band was asserted rather than measured**, the calculation was right, and the gap is now a
+reported result about reboost cadence.
 
 ---
 
 ## Outstanding
 
-**Nothing blocking.** The tree is clean, everything is pushed, `_verify.py` reports **0 errors and 0
-warnings**, `_lib/test_lib.py` reports **74 of 74**, and `./_check.sh --drafts` passes at 502 pages
-with no findings.
+**Nothing blocking.** The draft is committed and the working tree is clean.
 
-**43 mismatch and 89 label-name citation findings remain**, all in unpublished X-Planes drafts. **They
-are recorded in the handoff as an open decision and belong to each article's publication review**,
-where the context to judge a label exists, not to a bulk pass now.
+**The article is NOT pushed**, which is correct for a draft pass. **Publication of the thirty-eight
+X-Planes drafts remains unauthorised.**
 
-**A334, the Boeing X-37**, editorial date 2025-11-12, Part 38 of 72, is next and starts on your prompt.
-**The thirty-seven X-Planes drafts remain unpublished and unauthorised.**
+**For the equation-density pass, which is your next prompt if you want it:** `_lib/audit.py` reports
+**14 sections naming numbers with no displayed relation**, the largest being the scale comparison
+against the Shuttle orbiter, the solar-cycle bracket and the crossrange table. The draft stands at
+**24 display equations**, which is low against a series median of 94 and reflects a subject whose
+argument runs through a few relations applied repeatedly. **Report the count and do not pad toward the
+median.**
+
+**A background citation verification run was started and had not returned when this was written.** Its
+findings belong to the publication review, alongside the 43 mismatch and 89 label-name findings already
+recorded as an open decision.
