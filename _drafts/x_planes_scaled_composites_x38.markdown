@@ -121,11 +121,16 @@ cases are marked here rather than resolved silently at each use.
 
 | Symbol | Meaning | The other standard use, avoided here |
 |---|---|---|
-| $S$ | canopy area | the wing reference area, which does not appear |
-| $\delta$ | glide angle below the horizontal | the depth of discharge of the preceding article |
+| $S$ | canopy area | the wing reference area, which does not appear. The drogue is $S_{d}$ |
+| $\delta$ | glide angle below the horizontal | |
 | $C_{R}$ | resultant force coefficient | |
-| $n$ | scaling exponent | the load factor, which is written in $g$ throughout |
+| $n$ | scaling exponent | the crew count, written $c$, and the load factor, written in $g$ throughout |
 | $\Lambda$ | opening-shock factor | |
+| $V$ | a speed under the canopy | $v$, which is every other speed, including the runway and orbital ones |
+| $a$ | semi-major axis | acceleration, which always carries a bar or a subscript |
+| $h$ | an altitude | $H$, which is the atmospheric scale height |
+| $e$ | the base of the natural logarithm | eccentricity, which does not appear |
+| $L/D$ | **a ratio used for two different aerodynamics.** The canopy glides at 3 and the vehicle enters at about 0.8, and every use says which | |
 
 ### What the Landing System Has to Absorb
 
@@ -144,9 +149,19 @@ from a resultant coefficient,
 
 $$C_{R} = C_{L} \sqrt{1 + \frac{1}{(L/D)^{2}}}, \qquad V = \sqrt{\frac{2 W}{\rho S C_{R}}}$$
 
-and the two components follow from the glide angle,
+and the two components follow from the glide angle, which is fixed by the glide ratio alone,
 
-$$V_{\text{vertical}} = \frac{V}{\sqrt{1 + (L/D)^{2}}}, \qquad V_{\text{horizontal}} = (L/D) \, V_{\text{vertical}}.$$
+$$\delta = \arctan \frac{1}{L/D},$$
+
+$$V_{\text{vertical}} = V \sin \delta = \frac{V}{\sqrt{1 + (L/D)^{2}}}, \qquad V_{\text{horizontal}} = V \cos \delta = (L/D) \, V_{\text{vertical}}.$$
+
+At a glide ratio of three that angle is **18.43 degrees** below the horizontal.
+
+- [AERODYNAMIC CHARACTERISTICS OF THE PARAFOIL GLIDER AND OTHER...][research_heinrich_nietz_1964]
+- [WIND EFFECT ON GLIDING PARACHUTE SYSTEMS WITH...][research_goodrick_1969]
+- [Parafoil Flight Performance][research_nicolaides_tragarz_1971]
+- [Parafoil Wind Tunnel Tests][research_nicolaides_1971]
+- [Optimal Control of a Gliding Parachute System][research_pearson_1972]
 
 Taking a lift coefficient of 0.80 and a glide ratio of 3, which are ordinary for a large ram-air canopy, the
 11,340 kilogram vehicle under **696.8 square metres** of canopy descends at **17.58 metres per second** of
@@ -160,6 +175,42 @@ $$\frac{E_{\text{runway}}}{E_{\text{parafoil}}} = \left( \frac{v_{\text{runway}}
 **That is what the runway costs.** A vehicle that lands horizontally arrives carrying twenty-six times the
 energy of one that lands under a canopy, and every part of the airframe that touches the ground has to be
 built for it.
+
+- [A Sample/Jitter Monte Carlo Technique for Main Parachute...][research_ericsray_leonarddcassady]
+- [Orion Main Parachute Asymmetry Testing Revisited][research_ericsray_samuelallenjanssen]
+- [Revisiting the Soyuz-1 Parachute Failure in the Context of...][research_aaronlmorris_jenniferrhill]
+- [Stability of the parachute and helicopter][research_batemenh_1920]
+- [RESISTANCE OF NYLON PARACHUTE CLOTH TO PERFORATION BY...][research_sullivan_1944]
+- [Parachute Questionnaire Project][research_sherer_jr_1945]
+- [AIR PERMEABILITY OF PARACHUTE CLOTHS][research_goglia_1952]
+- [STABILITY OF A WHIRLING GONDOLA SUSPENDED FROM A...][research_braun_1953]
+
+### How Much of That Rests on the Assumed Lift Coefficient
+
+**The lift coefficient of 0.80 is the least defensible input in this article and it deserves its own sensitivity.**
+It appears once, under a radical, so every speed varies as
+
+$$V \propto C_{L}^{-1/2}$$
+
+and the parafoil's kinetic energy therefore as $C_{L}^{-1}$, which makes the energy ratio vary as the
+**first** power,
+
+$$\frac{E_{\text{runway}}}{E_{\text{parafoil}}} \propto C_{L}.$$
+
+| Lift coefficient | Sink rate | Against 0.80 | Energy ratio |
+|---|---|---|---|
+| 0.60 | 6.42 metres per second | plus 15.5 percent | 19.7 |
+| 0.80 | 5.56 metres per second | reference | 26.2 |
+| 1.00 | 4.97 metres per second | minus 10.6 percent | 32.8 |
+
+**The individual sink rates move and the conclusion does not.** A factor of 1.67 across the plausible range
+of the coefficient moves the ratio between 19.7 and 32.8, and the argument needs only that the ratio is
+large.
+
+- [Numerical Solution to the Optimal Control of a Gliding...][research_wei_pearson_1974]
+- [Flight Test Results of a Powered Parafoil System Aeroflyer][research_nicolaides_1976]
+- [Terminal control of a gliding parachute in a nonuniform wind][research_pearson_wei_1977]
+- [Aircrew Gliding Escape System AGES Exploratory Development...][research_matsuo_butler_1983]
 
 ### The Flare, and an Identity That Needs No Assumption
 
@@ -187,6 +238,11 @@ energy into lift before it stalls, which is a question about the canopy and not 
 Converting only five percent of what is available takes the sink rate from 5.56 to
 **4.12 metres per second**.
 
+- [A two camera video imaging system with application to...][research_meynlarrya_bennettmarks_1991]
+- [Further development and flight test of an autonomous...][research_murrayjamese_simalexg_1994]
+- [Center of gravity and minimal lift coefficient limits of a...][research_losilevskii_1995]
+- [Parallel computational methods for 3D simulation of a...][research_tezduyar_kalro_1997]
+
 ### What a Touchdown Costs the Occupants
 
 A vertical arrival arrested over a stroke $s$ imposes a mean deceleration
@@ -207,6 +263,15 @@ hundreds of metres rather than an impact, which is exactly why it needs a runway
 per second in thirty centimetres would be **1,376.6 g**, which is not a landing but a crash.
 **The parafoil converts a distance problem into a stroke problem**, and a stroke of half a metre is
 something a seat and a crushable structure can provide while a runway is something a nation must build.
+
+- [Analysis of a Landing System for Planetary Payloads Utilizing...][research_matlockmennu_jacobputnam]
+- [Landing loads for ocean-recovered rocket boosters- reply by...][research_armstrong_1964]
+- [Quadrupedal landing gear systems for spacecraft][research_black_1964]
+- [Studies of touchdown stability for lunar landing vehicles][research_walton_here_1964]
+- [DEVELOPMENT OF A CRASHWORTHY, ARMORED, UNIVERSAL CREW SEAT...][research_hackenberger_mattenson_1965]
+- [Landing Characteristics of the Apollo Spacecraft with...][research_stubbssandym_1965]
+- [Crushable material energy absorbers at very high impact...][research_cloutier_1966_b]
+- [Landing impact energy absorption using anisotropic crushable...][research_cloutier_1966]
 
 ### Why the Canopy Had to Be the Largest Ever Flown
 
@@ -232,11 +297,25 @@ so the area needed varies as the inverse square of the sink rate.
 the largest parafoil ever flown, and it means the record was an output of the requirement rather than an
 ambition of the programme.
 
+- [New Technique for Parafoil Inflation Control][research_lee_buckley_2000]
+- [Optimal Control of a Gliding Parachute System][research_gimadieva_2001]
+- [Aspects of Control for a Parafoil and Payload System][research_slegers_costello_2003]
+- [Autonomous Parafoil Control Experiment as "Comeback...][research_nakasuka_nakamura_2004]
+- [Effect of leading edge cut on the aerodynamics of ram-air...][research_balaji_mittal_2004]
+
 ### But the Crew Count Sets the Mass Only at the Margin
 
 The obvious next step is to say that seven seats made the vehicle heavy and the heavy vehicle made the
-canopy large. **That is only partly true and the arithmetic says by how much.** Anchoring on the sink rate
-the flown canopy actually gives, so that the seven-crew row reproduces the flown area by construction,
+canopy large. **That is only partly true and the arithmetic says by how much.**
+
+**The model is stated because it is doing real work.** Taking a fraction $\phi$ of the empty mass as
+independent of the crew, being the airframe, the heat shield, the deorbit stage and the avionics, and
+scaling the remainder with the seat count $c$,
+
+$$m(c) = m_{\text{empty}} \left( \phi + (1 - \phi) \frac{c}{c_{\max}} \right) + m_{\text{crew}} \, c$$
+
+with $\phi$ taken as 0.55 and $m_{\text{crew}}$ as 97.3 kilograms. Anchoring on the sink rate the flown
+canopy actually gives, so that the seven-crew row reproduces the flown area by construction,
 
 | Crew | Approximate mass | Canopy area | Against the flown canopy |
 |---|---|---|---|
@@ -250,27 +329,62 @@ shield, the avionics and the deorbit stage do not shrink with the crew.
 **Six of the seven seats cost about forty percent of the canopy area**, and the fixed overhead costs the
 rest.
 
-- [AERODYNAMIC CHARACTERISTICS OF THE PARAFOIL GLIDER AND OTHER...][research_heinrich_nietz_1964]
-- [WIND EFFECT ON GLIDING PARACHUTE SYSTEMS WITH...][research_goodrick_1969]
-- [Parafoil Flight Performance][research_nicolaides_tragarz_1971]
-- [Parafoil Wind Tunnel Tests][research_nicolaides_1971]
-- [Optimal Control of a Gliding Parachute System][research_pearson_1972]
-- [Numerical Solution to the Optimal Control of a Gliding...][research_wei_pearson_1974]
-- [Flight Test Results of a Powered Parafoil System Aeroflyer][research_nicolaides_1976]
-- [Terminal control of a gliding parachute in a nonuniform wind][research_pearson_wei_1977]
-- [Aircrew Gliding Escape System AGES Exploratory Development...][research_matsuo_butler_1983]
-- [A two camera video imaging system with application to...][research_meynlarrya_bennettmarks_1991]
-- [Further development and flight test of an autonomous...][research_murrayjamese_simalexg_1994]
-- [Center of gravity and minimal lift coefficient limits of a...][research_losilevskii_1995]
-- [Parallel computational methods for 3D simulation of a...][research_tezduyar_kalro_1997]
-- [New Technique for Parafoil Inflation Control][research_lee_buckley_2000]
-- [Optimal Control of a Gliding Parachute System][research_gimadieva_2001]
-- [Aspects of Control for a Parafoil and Payload System][research_slegers_costello_2003]
+**The fixed fraction is assumed and the conclusion survives the whole plausible range of it.**
+
+| Fixed fraction | Single-seat mass | Canopy needed |
+|---|---|---|
+| 0.40 | 5,275 kilograms | 46.5 percent |
+| 0.55 | 6,645 kilograms | 58.6 percent |
+| 0.70 | 8,015 kilograms | 70.7 percent |
+
+**Even at the most generous assumption a single-seat vehicle needs nearly half the canopy**, so the
+statement that the crew count sets the mass only at the margin does not depend on the value chosen.
+
+- [AN EMPIRICAL REPORT ON THE EFFECT OF POLYVINYL BUTYRAL ON...][research_phipps_1954]
+- [Parachute Harness Webbings][research_miller_1954]
+- [Problems of Parachute Design and Their Relation to Textiles][research_shepardson_1954]
+- [AIR PERMEABILITY OF PARACHUTE CLOTHS. PART 3. EFFECT OF...][research_lavier_1955]
+- [Air Permeability of Parachute Cloths. Part 4][research_lavier_1955_b]
+- [EVALUATION OF ANTISTATIC AGENTS ON NYLON PARACHUTE CLOTH][research_sweeney_1955]
+
+- [RESULTS OF A TELEMETERING INVESTIGATION OF PARACHUTE OPENING...][research_smollett_1955]
+- [THE EFFECT OF FABRIC STRUCTURE ON THE FRICTIONAL FUSION OF...][research_lavrakas_1955]
+- [THE EFFECT OF SURFACE FINISHES ON FRICTION AND FUSION OF...][research_lavrakas_katz_1955]
+- [A STUDY OF PARACHUTE SEAM DESIGN CRITERIA. PART 2...][research_miller_1956]
+- [A STUDY OF THE EFFECTS OF CHEMICALS ON THE PROPERTIES OF...][research_templeton_1956]
+- [A STUDY OF THE EFFECTS OF CHEMICALS ON THE PROPERTIES OF...][research_cates_1956]
+- [RECOVERY SYSTEMS FOR MISSILES AND TARGET AIRCRAFT. PART III...][research_downing_hawkins_1956]
+- [STUDY OF THE EFFECT OF TWIST IN YARNS ON PARACHUTE FABRICS][research_chu_lermond_1956]
+- [WIND TUNNEL INVESTIGATION OF CONVENTIONAL TYPES OF PARACHUTE...][research_meyer_1958]
+- [Flow Studies of Decelerators at Supersonic Speeds][research_flow_studies_1959]
 
 ### Why It Deploys in Five Stages, and Why the Obvious Model Fails
 
 The flown system inflated the canopy in five reefed stages.
 **The obvious explanation is that a single-step inflation would injure the crew, and that explanation does not survive being written down.**
+
+**Where that deployment speed comes from is itself worth asking**, because the vehicle is released at
+several hundred kilometres per hour and a ram-air canopy cannot be opened anywhere near that. A drogue
+brings it down first, and the area needed follows from the steady descent condition,
+
+$$S_{d} = \frac{2 W}{\rho \, C_{D} \, V_{\text{target}}^{2}}.$$
+
+| Target speed | Drogue area at a drag coefficient of 0.55 |
+|---|---|
+| 24 metres per second | 573.1 square metres |
+| 27 metres per second | 452.8 square metres |
+| 32 metres per second | 322.4 square metres |
+
+**The drogue is itself a very large parachute**, at 452.8 square metres or **65.0 percent** of the main
+canopy. **The descent system is therefore two large decelerators in sequence rather than one**, and the
+second cannot be opened until the first has done its work.
+
+- [Fluid-Structure Interaction Simulations Of Supersonic...][research_francoiscadieux_michaelfbarad]
+- [Oil Accumulations along Abo Reefing, Southeastern New Mexico...][research_williamjlemay_1961]
+- [FIT CHECK AND FLIGHT TEST OF UNIVERSAL AIR REFUELING DROGUE][research_gillette_1963]
+- [Model law for parachute opening shock][research_french_1964]
+- [PARACHUTE CANOPIES DURING INFLATION][research_melzig_schmidt_1965]
+- [CONSTRUCTIONAL EFFECTS ON IMPACT BREAKING STRENGTH OF...][research_figucia_mccafferty_1966]
 
 At a deployment speed near twenty-seven metres per second the dynamic pressure is
 
@@ -286,8 +400,30 @@ $$S_{\text{admissible}} = \frac{m \, g_{\text{limit}} \, g_{0}}{q \, C_{D}}$$
 
 gives **996.2 square metres** at three g, which is **1.43 times the whole canopy.**
 
-**The model says one stage and the flown system used five.** Adding an opening-shock factor does not close
-the gap either, since even at the high end of the usual range,
+**The model says one stage and the flown system used five.**
+
+**Inverting for the speed at which the steady load would bite is more informative than the area**, and it
+attaches a margin to the claim instead of leaving the reader to assume one is large,
+
+$$V_{\text{limit}} = \sqrt{\frac{2 \, m \, g_{\text{limit}} \, g_{0}}{\rho \, S \, C_{D}}}.$$
+
+| Deceleration limit | Speed at which the full canopy reaches it | Against the deployment speed |
+|---|---|---|
+| 2 g | 26.36 metres per second | 0.98 times |
+| 3 g | 32.28 metres per second | 1.20 times |
+| 5 g | 41.68 metres per second | 1.54 times |
+
+**The margin is only about twenty percent in speed at a three g limit, and at a two g limit there is no margin at all.**
+That qualification matters, so the article states it and does not rest on the three g figure alone.
+
+- [Parachute stress analysis during inflation and at steady state][research_heinrich_jamison_1966]
+- [Dimensionless products of parachute inflation][research_french_1969]
+- [Effect of suspension line elasticity on parachute loads][research_preisser_greene_1970]
+- [Opening Dynamics of a T-10 Parachute with Inflation Aids][research_heinrich_hektner_1970]
+- [Snatch force during lines-first parachute deployments][research_huckins_1971]
+- [The Effects of Parachute System Mass and Suspension-Line...][research_talaytheodorea_poolelamontr_1971]
+
+Adding an opening-shock factor does not close the gap either, since even at the high end of the usual range,
 
 $$F_{\text{peak}} = \Lambda \, q \, S \, C_{D}, \qquad \Lambda \in [1.5, 2.5]$$
 
@@ -299,35 +435,39 @@ and the limiting structure is the canopy itself rather than the occupants.
 **Reefing exists to make the inflation orderly rather than to make it gentle**, and no vehicle-level load
 model can predict the stage count because the stage count is not a vehicle-level quantity.
 
-**A forward calculation that fails by this margin is a finding about the model rather than a reason to discard it.**
+**A forward calculation that fails by this margin is a finding about the model and not a reason to discard it.**
 It says precisely which physics the simple treatment omits.
 
-- [Fluid-Structure Interaction Simulations Of Supersonic...][research_francoiscadieux_michaelfbarad]
-- [Oil Accumulations along Abo Reefing, Southeastern New Mexico...][research_williamjlemay_1961]
-- [FIT CHECK AND FLIGHT TEST OF UNIVERSAL AIR REFUELING DROGUE][research_gillette_1963]
-- [Model law for parachute opening shock][research_french_1964]
-- [PARACHUTE CANOPIES DURING INFLATION][research_melzig_schmidt_1965]
-- [CONSTRUCTIONAL EFFECTS ON IMPACT BREAKING STRENGTH OF...][research_figucia_mccafferty_1966]
-- [Parachute stress analysis during inflation and at steady state][research_heinrich_jamison_1966]
-- [Dimensionless products of parachute inflation][research_french_1969]
-- [Effect of suspension line elasticity on parachute loads][research_preisser_greene_1970]
-- [Opening Dynamics of a T-10 Parachute with Inflation Aids][research_heinrich_hektner_1970]
-- [Snatch force during lines-first parachute deployments][research_huckins_1971]
-- [The Effects of Parachute System Mass and Suspension-Line...][research_talaytheodorea_poolelamontr_1971]
 - [Effect of suspension-line viscous damping on parachute...][research_poole_1973]
 - [A Parachute Opening Shock Theory Based on Non-Linear Time...][research_heinrich_noreen_1974]
 - [Analysis of Deployment and Inflation of Large Ribbon...][research_mcvey_wolf_1974]
 - [Wind tunnel investigation of Space Shuttle Solid Rocket...][research_bacchusdl_vickersjr_1975]
+- ['Reefing' Operation Prevents Gastroesophageal Reflux][research_reefing_operation_1977]
+- [Parachute Opening Shock Calculations with Experimentally...][research_heinrich_saari_1978]
+- [Wind-tunnel measurements of dynamic reefing line force in...][research_wolf_croll_1981]
+- [Theoretical Analysis of Parachute Inflation Including Fluid...][research_purvis_1982]
+- [Human Strength Capabilities for the Operation of Parachute...][research_aume_mcdaniel_1983]
+- [Reef-reefing in Canada][research_brown_1983]
+- [Analysis of Opening Shock of a Chest Mounted Reserve Parachute][research_khader_huston_1987]
+- [Development and Testing of a New Reefing System to Reduce...][research_brinkman_1992]
+- [Performance Oriented Packaging Report for Cutter, Cartridge...][research_sniezek_1992]
+- [The Application of Middle Shelf Reefing Concepts to the...][research_jordancliftonfmobilresearch_1992]
+- [Radial reefing method for accelerated and controlled...][research_lee_1994]
+- [Optimal load limiting parachute inflation control][research_redmond_parker_1995]
 
 ### The Crossrange Argument Turned Inside Out
 
 Every previous article in this lifting-entry line has treated crossrange as a figure of merit.
 **The X-38 shows that it was never a figure of merit. It was the price of insisting on a runway.**
 
-A parafoil steers only within its own glide cone from the point of deployment, which at a glide ratio of
-three and a deployment altitude of six kilometres is a footprint about **18 kilometres** across. The
-[X-37][related_post_a334_boeing_x37] article computed **1,397.8 kilometres** of entry crossrange for a
-runway lander at a hypersonic lift-to-drag ratio near 1.1.
+A parafoil steers only within its own glide cone from the point of deployment. The reach is height traded
+for distance at the glide ratio,
+
+$$R = \left( \frac{L}{D} \right) h,$$
+
+which carries no mass, no area and no air density, and at a glide ratio of three from six kilometres it is
+**18.0 kilometres**. The [X-37][related_post_a334_boeing_x37] article computed **1,397.8 kilometres** of
+entry crossrange for a runway lander at a hypersonic lift-to-drag ratio near 1.1.
 **The ratio is 77.7 to one and it looks devastating until the question is asked the other way round.**
 
 **Crossrange exists to reach a runway, and runways are rare.** A vehicle that may land on any flat ground
@@ -374,7 +514,12 @@ needs.
 The vehicle deorbits from a station orbit near four hundred kilometres. Lowering perigee far enough to
 guarantee entry costs
 
-$$\Delta v = v_{c} - \sqrt{\mu \left( \frac{2}{r_{a}} - \frac{1}{a} \right)} = 132.8 \text{ metres per second},$$
+$$v = \sqrt{\mu \left( \frac{2}{r} - \frac{1}{a} \right)}, \qquad a = \frac{r_{a} + r_{p}}{2}$$
+
+so that lowering perigee from a circular orbit costs the difference between the circular speed and the speed
+on the transfer at the same radius,
+
+$$\Delta v = \sqrt{\frac{\mu}{r_{a}}} - \sqrt{\mu \left( \frac{2}{r_{a}} - \frac{1}{a} \right)} = 132.8 \text{ metres per second},$$
 
 which an eight-thruster hypergolic module supplies comfortably.
 
@@ -385,13 +530,25 @@ $$a_{\text{peak}} = \frac{v_{e}^{2} \sin \gamma_{e}}{2 e H}$$
 
 where $H$ is the density scale height and $\gamma_{e}$ the entry flight path angle,
 **and the ballistic coefficient does not appear at all.** At an entry speed of 7,800 metres per second and a
-path angle of 1.4 degrees this is **3.87 g**, and lift relief reduces it.
+path angle of 1.4 degrees this is **3.87 g**. Lift relieves part of it, by the factor by which the vertical
+force balance is eased,
 
-| Lift-to-drag ratio | With lift relief |
-|---|---|
-| 0.4 | 3.60 g |
-| 0.8 | 3.02 g |
-| 1.2 | 2.48 g |
+$$k = \frac{1}{\sqrt{1 + (L/D)^{2}}}, \qquad a_{\text{lifting}} = k \, a_{\text{peak}}$$
+
+which at a lift-to-drag ratio of 0.8 is **0.7809**.
+
+- [Elastomeric thermal shield systems for lifting reentry...][research_dolan_edighoffer_1966]
+- [Optimization of aerospace re-entry vehicle trajectories...][research_leondes_niemann_1966]
+- [A SIMPLE ANALYSIS OF REENTRY VEHICLE ROLL RESONANCE][research_platus_1967]
+- [APPLICATION OF GROUND TEST DATA TO REENTRY VEHICLE DESIGN][research_thomas_perlbachs_1967]
+- [Importance of recovery-site location in determining entry...][research_holloway_1967]
+- [LIFTING REENTRY COMMUNICATIONS. VOLUME 3 PLANE WAVE...][research_dix_golden_1967]
+
+| Lift-to-drag ratio | Relief factor | Peak with relief |
+|---|---|---|
+| 0.4 | 0.9285 | 3.60 g |
+| 0.8 | 0.7809 | 3.02 g |
+| 1.2 | 0.6402 | 2.48 g |
 
 **A deconditioned or injured crew is why this matters.** The vehicle exists to bring down somebody who may
 be ill, and a body that has spent months in free fall has lost plasma volume, bone and cardiac conditioning.
@@ -476,39 +633,39 @@ had already been solving for cargo.
 
 ### Landing Loads and the Structure That Takes Them
 
-- [Analysis of a Landing System for Planetary Payloads Utilizing...][research_matlockmennu_jacobputnam]
-- [Landing loads for ocean-recovered rocket boosters- reply by...][research_armstrong_1964]
-- [Quadrupedal landing gear systems for spacecraft][research_black_1964]
-- [Studies of touchdown stability for lunar landing vehicles][research_walton_here_1964]
-- [DEVELOPMENT OF A CRASHWORTHY, ARMORED, UNIVERSAL CREW SEAT...][research_hackenberger_mattenson_1965]
-- [Landing Characteristics of the Apollo Spacecraft with...][research_stubbssandym_1965]
-- [Crushable material energy absorbers at very high impact...][research_cloutier_1966_b]
-- [Landing impact energy absorption using anisotropic crushable...][research_cloutier_1966]
 - [Nonhomogeneous Impact Attenuator for Spherical Landing Capsule][research_cloutier_1967]
 - [Aerodynamic requirements for flare and landing of low-L/D...][research_faulders_lekawa_1968]
 - [A steerable landing gear for vehicles with main gear skids][research_joyner_1970]
 - [Landing Impact Protection through a Hybrid Attenuation System][research_merz_burnes_1971]
 - [Monte Carlo dynamic analysis for lunar module landing loads][research_merchant_sawdy_1971]
 - [Helicopter Landing Gear Design and Test Criteria Investigation][research_crist_symes_1981]
+- [Evolving Crashworthiness Design Criteria][research_carper_burrows_1988]
+- [Load-limiting landing gear footpad energy absorption system][research_hansenchris_tsaited_1994]
+- [Mars Pathfinder Airbag Impact Attenuation System][research_wayedonald_colejkenneth_1995]
+- [Aircraft Landing Impact Parametric Study with Emphasis on...][research_chester_2002]
+- [Dynamic Analysis of Aircraft Landing Impact Using...][research_wei_nie_2005]
+- [Effects Of Two Different Landing Protocols On Evaluating...][research_clowers_zhang_2005]
+- [Effects of Various Midsole Densities of Basketball Shoes on...][research_zhang_clowers_2005]
+- [Impact Attenuation And Kinetic Characteristics Of Cross...][research_zhang_clowers_2005_b]
 
 ### Parachute and Decelerator Systems Generally
 
-- [A Sample/Jitter Monte Carlo Technique for Main Parachute...][research_ericsray_leonarddcassady]
-- [Orion Main Parachute Asymmetry Testing Revisited][research_ericsray_samuelallenjanssen]
-- [Revisiting the Soyuz-1 Parachute Failure in the Context of...][research_aaronlmorris_jenniferrhill]
-- [Stability of the parachute and helicopter][research_batemenh_1920]
-- [RESISTANCE OF NYLON PARACHUTE CLOTH TO PERFORATION BY...][research_sullivan_1944]
-- [Parachute Questionnaire Project][research_sherer_jr_1945]
-- [AIR PERMEABILITY OF PARACHUTE CLOTHS][research_goglia_1952]
-- [STABILITY OF A WHIRLING GONDOLA SUSPENDED FROM A...][research_braun_1953]
-- [AN EMPIRICAL REPORT ON THE EFFECT OF POLYVINYL BUTYRAL ON...][research_phipps_1954]
-- [Parachute Harness Webbings][research_miller_1954]
-- [Problems of Parachute Design and Their Relation to Textiles][research_shepardson_1954]
-- [AIR PERMEABILITY OF PARACHUTE CLOTHS. PART 3. EFFECT OF...][research_lavier_1955]
-- [Air Permeability of Parachute Cloths. Part 4][research_lavier_1955_b]
-- [EVALUATION OF ANTISTATIC AGENTS ON NYLON PARACHUTE CLOTH][research_sweeney_1955]
-- [RESULTS OF A TELEMETERING INVESTIGATION OF PARACHUTE OPENING...][research_smollett_1955]
-- [THE EFFECT OF FABRIC STRUCTURE ON THE FRICTIONAL FUSION OF...][research_lavrakas_1955]
+- [PRESSURE DISTRIBUTION IN TRANSONIC FLOW OF RIBBON AND GUIDE...][research_heinrich_ballinger_1959]
+- [ANALYSIS OF HEAVY-DUTY PARACHUTE RELIABILITY][research_jailer_freilich_1960]
+- [DECELERATOR BAG STUDY][research_tomcsak_1960]
+- [STUDY OF PARACHUTE PERFORMANCE AT LOW SUPERSONIC DEPLOYMENT...][research_pedersen_1961]
+- [THEORETICAL PARACHUTE INVESTIGATIONS][research_heinrich_riabokin_1961]
+- [ULTRA-FAST OPENING PERSONNEL PARACHUTE TYPE XMP-2][research_murray_1961]
+- [THEORETICAL PARACHUTE INVESTIGATIONS][research_minnesotaunivminneapolisinstoftech_1962]
+- [ANALYTICAL AND EXPERIMENTAL INVESTIGATION OF SUPERSONIC...][research_sims_1963]
+- [Environmental tensile testing of nylon parachute materials][research_farkasja_1963]
+- [STUDY OF PARACHUTE SCALE EFFECTS][research_walcott_1963]
+- [WIND TUNNEL STUDY OF PARACHUTE CLUSTERING][research_braun_walcott_1963]
+- [AERODYNAMIC CHARACTERISTICS OF VARIOUS TYPES OF FULL SCALE...][research_lowry_1964]
+- [Minimum Airdrop Altitudes for Mass Parachute Delivery of...][research_lewis_1964]
+- [STUDY OF PARACHUTE PERFORMANCE AND DESIGN PARAMETERS FOR HIGH...][research_pedersen_1964]
+- [DYNAMIC STABILITY OF A PARACHUTE POINT-MASS LOAD SYSTEM][research_heinrich_rust_1965]
+- [DYNAMIC STABILITY OF A SYSTEM CONSISTING OF A STABLE...][research_heinrich_rust_1965_b]
 
 ### The Deorbit Stage and Orbital Operations
 
@@ -566,6 +723,18 @@ from the X-24A with mass rising as length to the **4.207**, faster than volume, 
 faster than the machine.
 **Neither pair is geometrically similar and the reasons are different, which is a warning against reading a scaling exponent as a property of the technology.**
 
+**The lifting-body line this vehicle belongs to is where the comparison has to be drawn**, since no two
+members of it were built for the same job.
+
+- [Paraglider Recovery Systems][research_francismrogallo_1962]
+- [Stress and Shape Analysis of a Paraglider Wing][research_fralich_1965]
+- [Lifting body flight tests and analysis][research_laytongpjr_mctiguejg_1969]
+- [Assessment of Lifting Body Vehicle Handling Qualities][research_johnamanke_johnpretelle_1970]
+- [Background and Current Status of the Lifting Body Program][research_johngmctigue_1970]
+- [Correlation of flight-test loads with wind- tunnel predicted...][research_minghtang_1970]
+- [Full-scale wind-tunnel investigation of the aerodynamic...][research_falarskimd_mortkw_1970]
+- [Pilot impressions of lifting body vehicles][research_williamhdana_jrgentry_1970]
+
 
 
 ## The Flight Test Record
@@ -598,9 +767,22 @@ The atmospheric vehicles are **81.7 percent** of the orbital vehicle by length a
 | 10,886 kilograms | 5.45 metres per second |
 | 11,340 kilograms, the orbital vehicle | 5.56 metres per second |
 
-**The heaviest drop test came within a factor of 1.021 of the orbital vehicle's sink rate.** Sink rate
-varies as the square root of mass at fixed area, so a 4.2 percent mass shortfall is a 2.1 percent sink
-shortfall, and **the landing system was therefore tested at very nearly its design condition.**
+**The heaviest drop test came within a factor of 1.021 of the orbital vehicle's sink rate**, and the reason
+it came so close is a square root. At fixed canopy area and fixed coefficients the glide relation leaves
+only the weight under the radical, so
+
+$$V_{\text{vertical}} \propto \sqrt{m} \qquad \Longrightarrow \qquad \frac{\Delta V}{V} \approx \frac{1}{2} \frac{\Delta m}{m}.$$
+
+**A mass shortfall of 4.00 percent is therefore a sink shortfall of about 2 percent**, and the landing
+system was tested at very nearly its design condition. **The square root is doing the work**, since the same
+shortfall in a quantity that scaled linearly would have been twice as far from condition.
+
+- [Parachute-and-retrorocket landing system for vertical descent][research_french_1965]
+- [WIND TUNNEL INVESTIGATION OF FLEXIBLE AERODYNAMIC DECELERATOR...][research_deitering_hilliard_1965]
+- [A pilot-controllable parachute descent system for manned Mars...][research_worth_1966]
+- [Parachute and cushion landing system][research_french_1966]
+- [THE EFFECTIVE POROSITY OF PARACHUTE CLOTH][research_heinrich_1966]
+- [A method for calculating parachute opening forces for general...][research_jamison_1967]
 
 **The entry was never tested at all.** No X-38 ever went to orbit, no X-38 ever met the atmosphere at
 orbital speed, and no X-38 thermal protection system was ever exposed to entry heating in flight.
@@ -634,20 +816,20 @@ requirement disappeared, and with it the only reason to build a seven-seat vehic
 
 ### The Ancestors and the Line This Vehicle Belongs To
 
-- [Paraglider Recovery Systems][research_francismrogallo_1962]
-- [Stress and Shape Analysis of a Paraglider Wing][research_fralich_1965]
-- [Lifting body flight tests and analysis][research_laytongpjr_mctiguejg_1969]
-- [Assessment of Lifting Body Vehicle Handling Qualities][research_johnamanke_johnpretelle_1970]
-- [Background and Current Status of the Lifting Body Program][research_johngmctigue_1970]
-- [Correlation of flight-test loads with wind- tunnel predicted...][research_minghtang_1970]
-- [Full-scale wind-tunnel investigation of the aerodynamic...][research_falarskimd_mortkw_1970]
-- [Pilot impressions of lifting body vehicles][research_williamhdana_jrgentry_1970]
 - [Stability and control derivatives of the lifting body vehicles][research_robertwkempel_larrywstrutz_1970]
 - [Assessment of lifting body vehicle handling qualities][research_kempelrw_mankeja_1971]
 - [Flight-determined derivatives and dynamic characteristics for...][research_strutzlw_1972]
 - [Lifting body flight test][research_gentry_1972]
 - [Statistical analysis of landing contact conditions for three...][research_larsonrr_1972]
 - [Flight-measured X-24A lifting body control surface hinge...][research_tangmh_pearsongpe_1973]
+- [Hypersonic Lifting Body Windward Surface Flow-Field Analysis...][research_adams_johnc_1973]
+- [Results of a feasibility study using the Newton-Raphson...][research_simag_1973]
+- [Flight evaluation of HL-10 lifting body handling qualities at...][research_kempelrw_mankeja_1974]
+- [HFL-10 lifting body flight control system characteristics and...][research_painterwd_sitterlegj_1974]
+- [Flight evaluation of the M2-F3 lifting body handling...][research_kempelrw_danawh_1975]
+- [Space Shuttle Orbiter Aerodynamic Development][research_surber_olsen_1978]
+- [Development of aerodynamic uncertainties for the Space...][research_young_underwood_1983]
+- [Hermes space shuttle Exploration of reentry aerodynamics][research_argyris_doltsinis_1989]
 
 ### Crew Safety, Escape and the Wider Problem
 
@@ -672,7 +854,7 @@ requirement disappeared, and with it the only reason to build a seven-seat vehic
 
 **That a very large ram-air canopy can be flown under control.** Seven hundred square metres had never been
 flown before and the programme flew it repeatedly, with staged reefing, autonomous guidance and a flare.
-That is a decelerator result rather than a spacecraft result and it stands on its own.
+That is a decelerator result and not a spacecraft result, and it stands on its own.
 
 **That the guided-parafoil approach scales to a crewed vehicle's mass.** The heaviest drop test was within
 two percent of the orbital vehicle's sink rate, so the landing system was demonstrated at condition.
@@ -697,10 +879,10 @@ round canopies to water or to ground, or lands horizontally on a runway.
 ### The Parafoil Numbers Rest on Two Assumed Coefficients
 
 **The lift coefficient of 0.80 and the glide ratio of 3 are typical and are not published for this canopy.**
-Every speed in the sizing section scales as the inverse square root of the assumed lift coefficient, so a
-canopy at 0.6 descends 15 percent faster and one at 1.0 descends 11 percent slower.
-**The 26.2 to one energy ratio is robust to this** because it moves as the first power while the comparison
-spans a factor of twenty-six, but the individual sink rates are not.
+The sizing section computes the sensitivity instead of asserting robustness, and the sink rate moves from
+5.56 to 6.42 metres per second at a coefficient of 0.60 and to 4.97 at 1.00.
+**The energy ratio moves only as the first power**, between 19.7 and 32.8 across the same range, so the
+conclusion survives and the individual sink rates should not be quoted to three figures.
 
 ### The Runway Comparison Uses a Speed the X-38 Never Had
 
@@ -716,11 +898,17 @@ reachability model treats sites as uniformly distributed over the covered band, 
 involves weather, overflight permission, recovery logistics and terrain.
 **What survives is the direction and the scale, which is a factor of thousands and not a factor of two.**
 
-### The Reefing Conclusion Is an Inference From a Failure
+### The Reefing Conclusion Is an Inference From a Failure, and Its Margin Is Narrow
 
 **The article concludes that the canopy's own structure sets the stage count, and it concludes that because a vehicle-level load model fails to explain the flown system.**
-That is an argument from the absence of an alternative rather than a measurement of canopy loads, and a
+That is an argument from the absence of an alternative and not a measurement of canopy loads, and a
 published inflation analysis for this canopy would settle it. **None was found.**
+
+**The margin is also narrower than the three g figure suggests.** The full canopy reaches three g at 32.28
+metres per second, which is only **1.20 times** the assumed deployment speed, and it reaches two g at 26.36,
+which is **below** it.
+**A deployment twenty percent faster than assumed, or a limit set at two g rather than three, would put the steady load back into contention**,
+and the deployment speed itself is taken from a loosely reported figure.
 
 ### The Scaling Comparison Puts Two Unlike Machines Side by Side
 
@@ -1206,14 +1394,6 @@ of it was ninety percent complete when the programme stopped.
 - [An Overview of the Guided Parafoil System Derived from X-38...][research_steinjennym_madsenchrism_2005]
 - [Parachute Testing for the NASA X-38 Crew Return Vehicle][research_steinjennym_2005]
 
-- [Hypersonic Lifting Body Windward Surface Flow-Field Analysis...][research_adams_johnc_1973]
-- [Results of a feasibility study using the Newton-Raphson...][research_simag_1973]
-- [Flight evaluation of HL-10 lifting body handling qualities at...][research_kempelrw_mankeja_1974]
-- [HFL-10 lifting body flight control system characteristics and...][research_painterwd_sitterlegj_1974]
-- [Flight evaluation of the M2-F3 lifting body handling...][research_kempelrw_danawh_1975]
-- [Space Shuttle Orbiter Aerodynamic Development][research_surber_olsen_1978]
-- [Development of aerodynamic uncertainties for the Space...][research_young_underwood_1983]
-- [Hermes space shuttle Exploration of reentry aerodynamics][research_argyris_doltsinis_1989]
 - [Approach and landing simulator for Space Shuttle Orbiter...][research_walyus_dalton_1991]
 - [Effect of lift-to-drag ratio upon pilot rating for a...][research_jacksoneb_riversroberta_1991]
 - [The Personnel Launch System - A lifting body approach][research_talaytheodorea_stonehowardw_1991]
@@ -1226,25 +1406,11 @@ of it was ninety percent complete when the programme stopped.
 - [A Study of a Lifting Body as a Space Station Crew Exigency...][research_macconochieiano_2000]
 - [Multidisciplinary Analysis of a Lifting Body Launch Vehicle][research_tartabini_wurster_2002]
 
-- [Autonomous Parafoil Control Experiment as "Comeback...][research_nakasuka_nakamura_2004]
-- [Effect of leading edge cut on the aerodynamics of ram-air...][research_balaji_mittal_2004]
 - [Initial Experiment in Using a Powered Parafoil for Employment...][research_kolodny_2004]
 - [Preliminary Experiment for a Guided Flight of Small-seized...][research_inoue_hiraki_2004]
 - [Study on the relative motion of parafoil-load-systems][research_strickert_2004]
 - [Model Predictive Control of A Parafoil and Payload System][research_slegers_costello_2005]
 
-- ['Reefing' Operation Prevents Gastroesophageal Reflux][research_reefing_operation_1977]
-- [Parachute Opening Shock Calculations with Experimentally...][research_heinrich_saari_1978]
-- [Wind-tunnel measurements of dynamic reefing line force in...][research_wolf_croll_1981]
-- [Theoretical Analysis of Parachute Inflation Including Fluid...][research_purvis_1982]
-- [Human Strength Capabilities for the Operation of Parachute...][research_aume_mcdaniel_1983]
-- [Reef-reefing in Canada][research_brown_1983]
-- [Analysis of Opening Shock of a Chest Mounted Reserve Parachute][research_khader_huston_1987]
-- [Development and Testing of a New Reefing System to Reduce...][research_brinkman_1992]
-- [Performance Oriented Packaging Report for Cutter, Cartridge...][research_sniezek_1992]
-- [The Application of Middle Shelf Reefing Concepts to the...][research_jordancliftonfmobilresearch_1992]
-- [Radial reefing method for accelerated and controlled...][research_lee_1994]
-- [Optimal load limiting parachute inflation control][research_redmond_parker_1995]
 - [The Fluid Dynamics of Parachute Inflation][research_peterson_1996]
 - [New Structural Model for Parachute Inflation Simulations][research_leonard_accorsi_1999]
 - [An Experimental Study of Reefing Effect on Decelerating...][research_an_experimental_2002]
@@ -1253,36 +1419,6 @@ of it was ninety percent complete when the programme stopped.
 - [Parachute flying physical model and inflation simulation...][research_cao_xu_2004]
 - [A New Method for Opening Load Determination from Compliance...][research_kujawski_stoychev_2005]
 
-- [THE EFFECT OF SURFACE FINISHES ON FRICTION AND FUSION OF...][research_lavrakas_katz_1955]
-- [A STUDY OF PARACHUTE SEAM DESIGN CRITERIA. PART 2...][research_miller_1956]
-- [A STUDY OF THE EFFECTS OF CHEMICALS ON THE PROPERTIES OF...][research_templeton_1956]
-- [A STUDY OF THE EFFECTS OF CHEMICALS ON THE PROPERTIES OF...][research_cates_1956]
-- [RECOVERY SYSTEMS FOR MISSILES AND TARGET AIRCRAFT. PART III...][research_downing_hawkins_1956]
-- [STUDY OF THE EFFECT OF TWIST IN YARNS ON PARACHUTE FABRICS][research_chu_lermond_1956]
-- [WIND TUNNEL INVESTIGATION OF CONVENTIONAL TYPES OF PARACHUTE...][research_meyer_1958]
-- [Flow Studies of Decelerators at Supersonic Speeds][research_flow_studies_1959]
-- [PRESSURE DISTRIBUTION IN TRANSONIC FLOW OF RIBBON AND GUIDE...][research_heinrich_ballinger_1959]
-- [ANALYSIS OF HEAVY-DUTY PARACHUTE RELIABILITY][research_jailer_freilich_1960]
-- [DECELERATOR BAG STUDY][research_tomcsak_1960]
-- [STUDY OF PARACHUTE PERFORMANCE AT LOW SUPERSONIC DEPLOYMENT...][research_pedersen_1961]
-- [THEORETICAL PARACHUTE INVESTIGATIONS][research_heinrich_riabokin_1961]
-- [ULTRA-FAST OPENING PERSONNEL PARACHUTE TYPE XMP-2][research_murray_1961]
-- [THEORETICAL PARACHUTE INVESTIGATIONS][research_minnesotaunivminneapolisinstoftech_1962]
-- [ANALYTICAL AND EXPERIMENTAL INVESTIGATION OF SUPERSONIC...][research_sims_1963]
-- [Environmental tensile testing of nylon parachute materials][research_farkasja_1963]
-- [STUDY OF PARACHUTE SCALE EFFECTS][research_walcott_1963]
-- [WIND TUNNEL STUDY OF PARACHUTE CLUSTERING][research_braun_walcott_1963]
-- [AERODYNAMIC CHARACTERISTICS OF VARIOUS TYPES OF FULL SCALE...][research_lowry_1964]
-- [Minimum Airdrop Altitudes for Mass Parachute Delivery of...][research_lewis_1964]
-- [STUDY OF PARACHUTE PERFORMANCE AND DESIGN PARAMETERS FOR HIGH...][research_pedersen_1964]
-- [DYNAMIC STABILITY OF A PARACHUTE POINT-MASS LOAD SYSTEM][research_heinrich_rust_1965]
-- [DYNAMIC STABILITY OF A SYSTEM CONSISTING OF A STABLE...][research_heinrich_rust_1965_b]
-- [Parachute-and-retrorocket landing system for vertical descent][research_french_1965]
-- [WIND TUNNEL INVESTIGATION OF FLEXIBLE AERODYNAMIC DECELERATOR...][research_deitering_hilliard_1965]
-- [A pilot-controllable parachute descent system for manned Mars...][research_worth_1966]
-- [Parachute and cushion landing system][research_french_1966]
-- [THE EFFECTIVE POROSITY OF PARACHUTE CLOTH][research_heinrich_1966]
-- [A method for calculating parachute opening forces for general...][research_jamison_1967]
 - [A parachute recovery system dynamic analysis][research_neustadt_ericksen_1967]
 - [Analysis of Dynamic Stress in an Inflating Parachute][research_asfour_1967]
 - [Comment on "A Method for Calculating Parachute Opening Forces...][research_french_1967]
@@ -1449,26 +1585,12 @@ of it was ninety percent complete when the programme stopped.
 - [Employment of the C-17 in Airdrop and Airland Operations in...][research_hershman_2005]
 - [Why Not Airdrop? The Utility of Preplanned Airdrop to...][research_ireland_2006]
 
-- [Evolving Crashworthiness Design Criteria][research_carper_burrows_1988]
-- [Load-limiting landing gear footpad energy absorption system][research_hansenchris_tsaited_1994]
-- [Mars Pathfinder Airbag Impact Attenuation System][research_wayedonald_colejkenneth_1995]
-- [Aircraft Landing Impact Parametric Study with Emphasis on...][research_chester_2002]
-- [Dynamic Analysis of Aircraft Landing Impact Using...][research_wei_nie_2005]
-- [Effects Of Two Different Landing Protocols On Evaluating...][research_clowers_zhang_2005]
-- [Effects of Various Midsole Densities of Basketball Shoes on...][research_zhang_clowers_2005]
-- [Impact Attenuation And Kinetic Characteristics Of Cross...][research_zhang_clowers_2005_b]
 - [A 'Super Bowl' Approach to Mars Rover Touchdown Loads Analysis][research_pengchiayen_ortizgary_2006]
 
 - [Spacelab Life Sciences flight experiments an integrated...][research_gaffneyfa_1987]
 - [On the Theory of Acceleration Tolerance][research_whinnery_1988]
 - [Human Tolerance to Acceleration Loads Generated in...][research_shender_2000]
 
-- [Elastomeric thermal shield systems for lifting reentry...][research_dolan_edighoffer_1966]
-- [Optimization of aerospace re-entry vehicle trajectories...][research_leondes_niemann_1966]
-- [A SIMPLE ANALYSIS OF REENTRY VEHICLE ROLL RESONANCE][research_platus_1967]
-- [APPLICATION OF GROUND TEST DATA TO REENTRY VEHICLE DESIGN][research_thomas_perlbachs_1967]
-- [Importance of recovery-site location in determining entry...][research_holloway_1967]
-- [LIFTING REENTRY COMMUNICATIONS. VOLUME 3 PLANE WAVE...][research_dix_golden_1967]
 - [Optimal control of a reentry vehicle in the presence of...][research_deyst_1968]
 - [Propulsive re-entry aerodynamics Interim report, 1 Jun. 1967...][research_philipojarvinen_richardwluce_1968]
 - [Reentry Vehicle Radar Altimeter Antenna Patterns][research_cooper_1968]
@@ -2051,9 +2173,12 @@ percent completion and never flew. The vehicle was designed for seven crew. The 
 ### Engineering Analysis
 
 Every quantitative result here is computed from published dimensions and masses using standard relations,
-and each is reproduced by a verification routine sharing no code with the routine that produced it. The
-glide speeds, the energy ratio, the wing loading, the area inversion, the deployment loads, the entry
-deceleration, the deorbit increment and the scaling exponents all follow from published figures.
+and each is reproduced by a verification routine sharing no code with the routine that produced it.
+**Three sensitivities are computed and none is asserted**, being the lift coefficient through the sizing,
+the fixed mass fraction through the crew argument, and the deployment speed through the reefing argument.
+**The first two leave their conclusions intact and the third narrows one.** The glide speeds, the energy
+ratio, the wing loading, the area inversion, the deployment loads, the entry deceleration, the deorbit
+increment and the scaling exponents all follow from published figures.
 **The identity that the flare's available energy exceeds what it must remove by the square of the glide ratio is exact within the steady-glide assumption**
 and carries no vehicle property at all.
 
@@ -2078,7 +2203,7 @@ The Soyuz as a lifeboat and its own return system, which deserves separate treat
 sequence and the crew-size decisions that drove the requirement. The detailed design of the deorbit
 propulsion module. The European crew transport studies that shared the programme's structure work. The
 commercial crew vehicles that eventually solved the problem differently. Guided airdrop for cargo, which is
-surveyed here rather than analysed.
+surveyed here and not analysed.
 
 ## Conclusion
 
@@ -2099,10 +2224,18 @@ again, and seven seats aboard a station of seven fixed the mass.
 **A single-seat version would still have needed 58.6 percent of the same canopy**, because the airframe and
 the heat shield do not shrink with the crew.
 
+**Two smaller results are worth carrying because neither needed an assumption.** The flare's available
+energy exceeds what it must remove by the square of the glide ratio, **exactly**, with no mass, area or
+density appearing, so a flare is never limited by energy. And the peak entry deceleration carries no
+ballistic coefficient at all, which makes the **3.87 g** a property of the trajectory rather than of the
+vehicle and the entry load a medical constraint rather than a structural one.
+
 **The third answer came from a calculation that failed.** A vehicle-level load model says the whole canopy
 could have been inflated in one step inside three g, and the flown system used five stages.
 **The constraint was never the crew.** It is the canopy's own structure, and reefing exists to make a
 seven-hundred-square-metre inflation orderly rather than to make it gentle.
+**The margin on that conclusion is only twenty percent in deployment speed**, which the article states and
+does not leave to be assumed.
 
 **What the programme did not answer is the half it was built for.** The landing system was demonstrated
 within two percent of its design sink rate. **The entry was never demonstrated at all**, and the vehicle

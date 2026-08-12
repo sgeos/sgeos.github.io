@@ -9,134 +9,90 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: A335, the Scaled Composites X-38. **Draft pass complete.**
+**Task**: A335, the Scaled Composites X-38. **Equation-density review complete.**
 **Committed. NOT pushed**, per the rhythm in which only the publication review pushes.
 
 ---
 
-## The Vehicle That Abandoned the Runway on Purpose
+## Fourteen to Twenty-Four, and Three of Eleven Gaps Closed
 
-**Six vehicles in this series were built around a horizontal landing and this one was built to give it
-up.** The X-23 proved a lifting entry could be steered to a point, the X-24 spent its life on the
-unpowered approach, the X-33 and X-34 were sized around runway operations, and the X-37 made autonomous
-runway landing routine. **The X-38 flies the same family of shape through entry and then comes down
-under 696.8 square metres of ram-air canopy onto whatever flat ground is available.**
+The article moved from 4,907 lines and 26,710 words to **5,040 lines and 27,858 words**. The reference
+base did not move, holding at 1,388 definitions with all 1,220 records still cited, because this pass
+adds relations and not literature.
 
-**The research question is therefore what a runway costs**, and both sides are computable from published
-numbers.
+**The eight audited gaps that remain are the opening, two tables, the reference lists and two
+restatements**, and not one of them relies on a relation.
 
 ---
 
-## The Answer Is One Ratio and the Mass Cancels Out of It
+## The Three Best Additions Sharpen a Conclusion Rather Than Confirming It
 
-A lifting body meets a runway at ninety metres per second carrying **45.93 megajoules**. The same mass
-under the canopy descends at 17.58 metres per second carrying **1.752**.
+**This is the useful kind of equation pass and it is not the usual kind.** Two of the three additions
+made the article's claims weaker and more precise.
 
-**The ratio is 26.2 to one, and it is exactly the square of the speed ratio**, so no property of the
-vehicle enters it at all. Everything the runway demands follows from that energy: the speed, the strip,
-the gear, and the crossrange needed to reach one of the few places where all three exist.
+**Inverting the inflation load for the SPEED at which it bites, rather than for the area.** The full
+canopy reaches three g at **32.28 metres per second**, which is only **1.20 times** the assumed
+deployment speed, and it reaches two g at **26.36**, which is **below** it. **The claim that the steady
+load does not set the reefing stage count therefore holds by only twenty percent in speed**, and at a
+two g limit it does not hold at all. The draft rested on the three g figure without saying how much room
+it had. **It now says.**
 
----
+**Asking where the deployment speed comes from at all**, which the draft left as a bare assumption. A
+drogue bringing the vehicle to twenty-seven metres per second needs **452.8 square metres**, or **65.0
+percent of the main canopy**. **The descent system is two large decelerators in sequence and not one**,
+and the second cannot open until the first has done its work. That closes a real hole in the argument.
 
-## The Crossrange Argument of Six Articles Is a Consequence of Insisting on a Runway
-
-The parafoil footprint is about **18 kilometres** against the **1,397.8 kilometres** of entry crossrange
-the [X-37 article](../../_drafts/x_planes_boeing_x37.markdown) computed. **The ratio of 77.7 to one looks
-devastating until the question is asked the other way round.**
-
-**Crossrange exists to reach a runway, and runways are rare.**
-
-| Landing sites available | Reachable per day |
-|---|---|
-| Runways certified for a lifting body | **0.1** |
-| Airfields of adequate length | 4.0 |
-| Flat unobstructed areas | **396.1** |
-
-A vehicle needing a certified runway gets an opportunity every ten days. One needing a flat field gets
-four hundred a day. **For a lifeboat, availability is the entire requirement**, so a factor of several
-thousand in availability is worth a factor of seventy-eight in crossrange.
-
-**These are order-of-magnitude figures and the article says so.** What survives the crudeness is the
-direction and the scale.
+**Computing the lift-coefficient sensitivity instead of asserting robustness.** The sink rate moves
+between 6.42 and 4.97 metres per second across the plausible range, which is a lot. **The energy ratio
+moves only as the first power, between 19.7 and 32.8**, so the conclusion survives and **the sink rates
+should not be quoted to three significant figures.** The draft claimed robustness without showing it.
 
 ---
 
-## A Calculation That Failed Produced the Third Result
+## Reading the Equations Found a Collision the Pass Itself Introduced
 
-**The obvious explanation for the five-stage reefing is that a single-step inflation would injure the
-crew, and it does not survive being written down.** The steady inflation load admits the whole canopy in
-one step at **2.10 g**, and the admissible area at three g is **996.2 square metres** against a canopy of
-696.8. Even an opening-shock factor of 2.5 reaches only **5.25 g**, which a restrained crew survives.
+The crew-count model I added used $n$ for the seat count while the scaling relation already used $n$ for
+the exponent. **The crew count is now $c$.**
 
-**What the failure locates is that the constraint is not the crew.** A canopy of that size cannot
-inflate uniformly, the centre cells fill first, the load concentrates on a fraction of the suspension
-lines, and the limiting structure is the canopy itself. **Reefing exists to make the inflation orderly
-rather than to make it gentle**, and no vehicle-level load model can predict the stage count because the
-stage count is not a vehicle-level quantity.
+The notation table gained five further entries for cases that were ambiguous and uncaught, the most
+useful being that **$L/D$ serves two different aerodynamics in this article**, the canopy gliding at 3
+and the vehicle entering at about 0.8, and every use now says which.
 
 ---
 
-## Two Identities Worth More Than the Numbers They Support
+## The Citation Debt, and What Sizing the Markers Exposed
 
-**The flare is never limited by energy.** In steady glide the horizontal speed is the vertical times the
-glide ratio, so the two kinetic energies stand in the ratio of its **square**, exactly, with no mass, no
-area and no density appearing. At a glide ratio of three the forward motion carries nine times what the
-descent must lose. **The flare is limited by how fast the canopy converts that energy before it stalls**,
-which is a question about the canopy and not about the arithmetic.
+`citation_gaps` went from 7 to **15** as the equations landed and back to **0** once cluster markers
+were split so every relation carries literature within reach.
 
-**The entry peak deceleration carries no ballistic coefficient.** The Allen and Eggers result gives
-**3.87 g** for this entry regardless of the vehicle, and lift relief takes it to 3.02 at a lift-to-drag
-ratio of 0.8. **The entry load is a medical constraint rather than a structural one**, which is a
-sentence that could not be written about any other vehicle in this series.
+**Sizing them exposed something the draft pass had not measured.** The `parafoil` period half holds only
+**22 records** and the markers requested **41**, so the assembler refused to emit an empty list. The
+surplus moved to `parachute_systems`, which holds 184 in the same era. **The keystone cluster is thinner
+than it looks and the reference pass should know that before it starts.**
 
 ---
 
-## The Scaling Exponent Has the Opposite Sign From the Previous Article
+## A New Corpus Warning Appeared and Was Cleared
 
-Mass scales as length to the **4.207** from the X-24A to the X-38, against 3 for geometric similarity.
-The X-37 scaled at **1.924** from the Shuttle orbiter.
+`rather` reached **5.7 per thousand** against the 5.0 limit, taking `_verify.py` off its zero-warning
+baseline for the first time in this article. **Nine uses were rewritten.**
 
-**The X-37 shrank and kept its fixed overhead. The X-38 grew because the mission grew faster than the
-machine.** Neither pair is geometrically similar and the reasons differ, **which is a warning against
-reading a scaling exponent as a property of the technology.** I would not have noticed had the previous
-article not measured the same quantity.
-
----
-
-## The Programme Proved Half the Problem, Precisely
-
-The heaviest drop test came within a factor of **1.021** of the orbital vehicle's sink rate, because sink
-rate varies as the square root of mass and the mass shortfall was 4.2 percent. **The landing system was
-tested at very nearly its design condition.**
-
-**The entry was never tested at all.** No X-38 went to orbit, none met the atmosphere at orbital speed,
-and no thermal protection system was ever exposed to entry heating in flight. V-201 was **90 percent
-complete** when the programme was cancelled on 29 April 2002.
-
-**The lifeboat was cancelled because the station shrank to fit the lifeboat it already had.** The
-seven-seat requirement disappeared with the station's reduction to a crew of three, which the Soyuz
-already served. **That is a sixth distinct reason for a thin record**, different again from cancellation
-for failure, from winning, from producing a technique, and from classification.
+**Two took `instead of`, and I checked the grammar rather than assuming it.** That substitution fails
+where the complement is not a noun phrase, which is a lesson this corpus paid for. Both complements here
+are gerunds, so both are grammatical.
 
 ---
 
 ## Verification
 
-- `python3 _verify.py` **0 errors, 0 warnings**.
-- `python3 tmp/a335/verify.py` **28 of 28**. The glide speeds come back from a component resolution
-  against the resultant form, the energy ratio from the square of the speed ratio with the mass
-  cancelled, the area inversion from a scan against a bisection, and the deorbit increment from specific
-  energy against vis-viva.
+- `python3 _verify.py` **0 errors, 0 warnings**, back on baseline.
+- `python3 tmp/a335/verify.py` **46 of 46**, up from 28. The new relations are re-derived independently,
+  the speed inversion round-tripped through the forward load, the glide angle checked as a randomised
+  property, and the first-order square-root approximation for the sink shortfall checked against its own
+  error bound.
 - `./_check.sh --drafts` **passes end to end**, 505 pages, no findings.
-- **2,720 reference entries scanned** for stray punctuation, all clean.
-
-**The text check caught a transcription error and that is what it is for.** The draft stated 1,376.6 g
-after I first wrote 1,376.7 for a value of 1,376.617.
-
-**Four new homonym families were recorded** in `_research/homonyms.py`, each with its incident: **crack
-opening load** in fracture mechanics against parachute opening load, **impact tolerance** meaning
-material toughness against human acceleration tolerance, the **parachute flare** as an illumination
-munition, and **recovery system** without a parachute context.
+- **2,720 reference entries scanned**, all clean.
+- All 24 equations read for brace balance, delimiter closure, bare pipes and doubled backslashes.
 
 ---
 
@@ -144,15 +100,12 @@ munition, and **recovery system** without a parachute context.
 
 **Nothing blocking.** The tree is clean and the article is committed.
 
-**The article is NOT pushed**, which is correct for a draft pass. **Publication of the thirty-nine
-X-Planes drafts remains unauthorised.**
+**The article is NOT pushed**, which is correct. **Publication of the thirty-nine X-Planes drafts remains
+unauthorised.**
 
-**For the equation-density pass, which is your next prompt if you want it:** `_lib/audit.py` reports
-**11 sections naming numbers with no displayed relation** and **7 equations with no citation within
-reach**. The draft stands at **14 display equations**, which is low and reflects a subject whose argument
-runs through a few relations applied repeatedly.
-
-**Two clusters are thin and both are the cluster ordering rather than the literature.**
-`vehicle_sizing` is empty and `entry_aerothermo` holds four, because records naming those subjects match
-an earlier cluster first. **That is a reporting artefact and the reference pass should fix the ordering
-rather than harvest for it.**
+**For the primary-reference pass, which is your next prompt if you want it:** primaries stand at **686 of
+1,320 dated, or 52.0 percent**, at the article's own 2006 cutoff. **The `parafoil` period half at 22
+records is the thinnest thing in the base and it is the keystone**, so that is where the pass should
+start. `vehicle_sizing` is empty and `entry_aerothermo` holds four, both because the cluster ordering
+routes their records to an earlier cluster, and **that is a reporting artefact to fix in the ordering and
+not a gap to harvest for.**

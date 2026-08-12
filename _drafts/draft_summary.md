@@ -22,9 +22,10 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_scaled_composites_x38.markdown`, A335, editorial date 2025-11-13, series `x_planes` index 39
 of 72.
 
-**4,907 lines, 14 display equations, 1,388 reference definitions, 26,710 words after the draft pass**,
-with all 1,220 harvested research records cited and none left over, plus 112 reference works.
-Committed. **Not pushed and not published.**
+**4,907 lines, 14 display equations, 1,388 reference definitions, 26,710 words after the draft pass.**
+**5,040 lines, 24 display equations, 1,388 reference definitions, 27,858 words after the
+equation-density review**, with all 1,220 harvested research records cited and none left over, plus 112
+reference works. Committed. **Not pushed and not published.**
 
 **THE KEYSTONE IS THAT THIS VEHICLE ABANDONED THE RUNWAY ON PURPOSE.** Six vehicles in this series were
 built around a horizontal landing. The X-38 flies the X-24A shape through entry and then comes down
@@ -72,9 +73,34 @@ mechanics against parachute opening load, impact tolerance meaning material toug
 acceleration tolerance, the parachute flare as an illumination munition, and recovery system without a
 parachute context.
 
-**Known gaps for the equation-density pass.** `_lib/audit.py` reports 11 sections naming numbers with no
-displayed relation and 7 equations with no citation within reach. The `vehicle_sizing` cluster is empty
-and `entry_aerothermo` holds four, both because the cluster ordering routes their records elsewhere.
+**THE EQUATION PASS TOOK THE ARTICLE FROM 14 TO 24 DISPLAY EQUATIONS**, closing three of the eleven
+audited gaps. The eight that remain are the opening, two tables, the reference lists and two
+restatements, and none relies on a relation.
+
+**THE THREE BEST ADDITIONS SHARPEN A CONCLUSION RATHER THAN CONFIRMING IT.** Inverting the inflation
+load for the SPEED at which it would bite gives **32.28 metres per second at three g**, only **1.20
+times** the deployment speed, and **26.36 at two g, which is below it**. **The claim that the steady
+load does not set the stage count therefore holds by only twenty percent in speed**, which the article
+now states instead of resting on the three g figure. Asking where the deployment speed comes from at all
+gives a drogue of **452.8 square metres**, or **65.0 percent of the main canopy**, so **the descent
+system is two large decelerators in sequence and not one**. And the sensitivity to the assumed lift
+coefficient is computed rather than asserted, moving the sink rate between 6.42 and 4.97 metres per
+second while **the energy ratio moves only as the first power, between 19.7 and 32.8**, so the
+conclusion survives and the sink rates should not be quoted to three figures.
+
+**READING THE TWENTY-FOUR EQUATIONS FOUND A COLLISION THE PASS ITSELF INTRODUCED.** The crew-count model
+used $n$ for the seat count while the scaling relation already used $n$ for the exponent. The crew count
+is now $c$, and the notation table gained five further entries for cases that were ambiguous but
+uncaught, including that **$L/D$ is used for two different aerodynamics**, the canopy gliding at 3 and
+the vehicle entering at about 0.8.
+
+**`citation_gaps` went from 7 to 15 and back to 0.** The pass created the debt and paid it by splitting
+cluster markers, and sizing them exposed that the `parafoil` period half holds only 22 records against
+41 requested, so the surplus was moved to `parachute_systems`.
+
+**A new corpus warning appeared and was cleared.** `rather` reached 5.7 per thousand against a 5.0 limit,
+and nine uses were rewritten. **Two took `instead of`, whose complements are gerunds and therefore
+grammatical**, which was checked rather than assumed.
 
 ## X-Planes Boeing X-37 A334 2025-11-12
 
