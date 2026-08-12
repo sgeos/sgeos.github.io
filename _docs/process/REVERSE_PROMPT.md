@@ -133,6 +133,20 @@ regenerate. This will not recur, since `_check.sh` builds into `mktemp` with a c
 
 ---
 
+## The Task Log Had Gone Stale In The Way It Exists To Prevent
+
+The resume check on 2026-08-11 found `TASKLOG.md`'s current-task block naming A333 as **both complete
+and next**, and carrying **36 drafted against a working tree holding 37**. The block already contains a
+paragraph recording three previous rewrites for exactly this defect, so this is the fourth.
+
+**The counts were re-measured rather than carried forward**: 37 series drafts, A297 through A333, 36 of
+which cite a sibling through `post_url`, and 0 published. **A334, the Boeing X-37, is next.**
+
+The handoff's parent commit was advanced to `947d6fa` in the same breath, because the correction moved
+the branch tip and would otherwise have made the handoff fail its own validity check.
+
+---
+
 ## Outstanding
 
 **Nothing blocking.** The tree is clean, everything is pushed, `_verify.py` reports **0 errors and 0
