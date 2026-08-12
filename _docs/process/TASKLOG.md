@@ -8,14 +8,13 @@ Current task state and verification log. This file is the shared source of truth
 ## Current Task
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
-**Status**: **A297 through A331 drafted with all four passes complete on every one, and all pushed.
-A332 has completed all four passes and is committed and PUSHED, not published. A333 has completed all four passes and is
-committed and PUSHED, not published.**
-Thirty-six of seventy-two drafted, **none published**. The next article is
-A333, the McDonnell Douglas X-36, editorial date 2025-11-11, series index 37, and it starts only on
+**Status**: **A297 through A333 drafted with all four passes complete on every one, committed and
+PUSHED, and none published.**
+Thirty-seven of seventy-two drafted, **none published**. The next article is
+A334, the Boeing X-37, editorial date 2025-11-12, series index 38, and it starts only on
 the pilot's prompt.
 
-**Publication has never been authorised.** All thirty-six remain in `_drafts/`. Thirty-five of them
+**Publication has never been authorised.** All thirty-seven remain in `_drafts/`. Thirty-six of them
 cite another draft in the set through `post_url` and none of those targets exists in `_posts/`, so
 **the set publishes in order or together**, and publishing any one alone fails the build.
 
@@ -23,9 +22,10 @@ This block was rewritten on 2026-08-09 because successive edits had left it self
 twenty-six drafted, then A297 to A322, then A297 to A323, in three consecutive sentences. **A resume
 channel that disagrees with itself is worse than one that is merely out of date**, so the counts above
 were verified against the working tree rather than carried forward. It was rewritten again on
-2026-08-10 and on 2026-08-11 for the same reason. **The counts above were re-measured against the
-working tree on 2026-08-11**, which holds 36 series drafts, 35 of which cite a sibling, and 0
-published.
+2026-08-10 and on 2026-08-11 for the same reason. **It went stale a fourth time**, having been left
+naming A333 as both complete and next after A333 shipped, which is the same defect the paragraph
+exists to prevent. **The counts above were re-measured against the working tree on 2026-08-11**, which
+holds 37 series drafts, 36 of which cite a sibling, and 0 published.
 
 **Started**: 2026-08-05
 
