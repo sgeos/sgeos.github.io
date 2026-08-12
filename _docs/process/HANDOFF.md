@@ -11,14 +11,16 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `947d6fa`
-- **Written**: 2026-08-11
+- **Parent commit** (the repository state this handoff describes): `9d1e733`
+- **Written**: 2026-08-12
 - **Tree at write**: clean, nothing unpushed
-- **Context**: the X-Planes series is IN PROGRESS. **Thirty-seven of seventy-two articles drafted,
+- **Context**: the X-Planes series is IN PROGRESS. **Thirty-nine of seventy-two articles drafted,
   all four passes complete on each. None published.**
-- **Since the previous handoff**: A370, an out-of-series Keleusma article, was drafted, reviewed,
-  **published on 2026-08-11** and then **corrected after publication**. A large tooling and
-  verification pass followed. **None of that touches the X-Planes rhythm**, which is unchanged.
+- **Since the previous handoff**: **A334, the Boeing X-37, and A335, the Scaled Composites X-38, were
+  each taken through all four passes and pushed.** Neither is published. The tooling gained a
+  bare-pipe strip in `refs.clean`, a typographic-normalisation step in the article gates, a
+  trailing-full-stop guard on harvested identifiers, and eleven new homonym families. **Three new
+  entries were added to `VERIFICATION_TRAPS.md` after A334 and two more after A335.**
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
 and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -36,67 +38,69 @@ described.
 
 ---
 
-## Resume prompt, and the next prompt will be "Please draft A334, 'X-Planes: Boeing X-37.'"
+## Resume prompt, and the next prompt will be "Please draft A336, 'X-Planes: X-39, Reserved but Never Assigned.'"
 
-**Nothing is outstanding.** A333 finished all four passes, is committed and pushed, and returns 404
+**Nothing is outstanding.** A335 finished all four passes, is committed and pushed, and returns 404
 while the site root returns 200, which is correct because nothing in the series is published. There is
 no half-finished pass to pick up.
 
-**Side work is closed out.** A370 is published and corrected, the corpus verifier is at **0 errors and
-0 warnings** for the first time, and the tooling gained a rendered-output gate. **Do not re-derive any
-of it**; read the toolchain section below and `_docs/process/VERIFICATION_TRAPS.md`.
+**Wait for the pilot's prompt. Do not begin A336 unprompted.**
 
-**Wait for the pilot's prompt. Do not begin A334 unprompted.**
+**A336 IS A DESIGNATION ANOMALY AND THAT CHANGES THE JOB.** X-39 was reserved and never assigned.
+There is no aircraft, no keystone to identify and no system to dimension, so
+`_docs/writing/RESEARCH_AIRCRAFT_STRUCTURE.md` prescribes the **reduced six-section order** rather than
+the twelve-section one. **Read that section before writing a line.**
 
-**A334 IS THE BOEING X-37**, editorial date 2025-11-12, Part 38 of 72. **It is the hardest documentary
-problem the series has met, and the difficulty is the opposite of every previous one.** The X-37 flew,
-is still flying, and has spent more than a decade in orbit across several missions, **and almost
-nothing about what it did up there is public.** Previous articles struggled with vehicles that left too
-little trace. **This one has left a large trace with a hole in the middle.**
+**THE ANOMALY CLASS HAS A BOUNDARY AND A320 ESTABLISHED IT.** The X-23 is listed among the anomalies
+and was written at full length, because the SV-5D actually flew three times and returned a measurement.
+**The test is whether a vehicle existed and produced data, not whether the designation is disputed.**
+For a number that was reserved and never assigned, **the short class is the honest default**, and the
+genre document says in terms that padding a short article with sections it does not need is worse than
+leaving it short.
 
-**DECIDE EARLY WHAT THE ARTICLE IS ABOUT, BECAUSE THE OBVIOUS SUBJECT IS UNAVAILABLE.** The mission is
-classified. Writing around that by speculating is the failure mode, and the series has a better
-instrument: **the orbital mechanics are public whether the payload is or not.** Two-line element sets
-for the vehicle have been tracked by amateurs continuously, so **the orbit, its inclination, its
-altitude history, its manoeuvres and their delta-v cost are all recoverable from public data.** That is
-a measurement, not a guess, and it is the honest route into a classified subject.
+**THE RESEARCH QUESTION IS THEREFORE ABOUT THE DESIGNATION SYSTEM AND NOT ABOUT A MACHINE.** What was
+the number reserved for, by whom, and why was it never assigned. **I have not researched it and I am
+not going to guess in this file.** Establish it from sources before writing, and where the record does
+not settle it, say so, because on a short article the statement of what is unknown is the main
+contribution.
 
-**MY VIEW OF THE KEYSTONE, OFFERED SO IT CAN BE ARGUED WITH.** The X-37B is a reusable orbital vehicle
-whose distinguishing quantity is **endurance**, since missions have run for hundreds of days. Endurance
-in orbit is a power and thermal problem rather than a propulsion one, so **the binding unknown is what
-sustains a vehicle that long**, and the deployable solar array and the radiator area are the physical
-answers. **A331 and A330 supply the reusable-vehicle machinery** and A317's Dyna-Soar is the direct
-lineal ancestor, being the same idea forty years earlier.
+**EXPECT THE SOURCE BASE TO BE SMALL AND DO NOT INFLATE IT.** The comprehensiveness directive is a
+permission and not an instruction. An article that says the designation was reserved in a given year,
+names the deciding authority and explains what the reservation reveals about the numbering system is
+complete at that length. **Report the counts and do not target them.**
 
-**THE FOUR-CASE PATTERN IS NOW A FIVE-CASE PATTERN AND A334 IS THE FIFTH.** The vehicle cluster has
-been thin in four consecutive articles for four distinct reasons. **The X-37 will be thin for a fifth,
-which is classification**, and that is a different thing again from cancellation, from winning, or from
-producing a technique rather than a vehicle. **Count it and name it.**
+**WHAT THE THREE SERIES SECTIONS SHOULD DO ON AN ANOMALY ARTICLE IS AN OPEN QUESTION.** The
+contemporary-literature survey and the source-base accounting exist to serve a technical argument, and
+an anomaly article has none. **Decide deliberately whether they belong, and say why in the article
+rather than including them out of habit.** A320 kept them because it had a vehicle. This one may not.
 
-**EXPECT THE CONTEMPORARY HALF TO BE RICH AND THE PERIOD HALF TO BE STRANGE**, because the programme
-has no clean period. It began at the National Aeronautics and Space Administration in 1999, moved to
-the Defense Advanced Research Projects Agency, then to the Air Force, and first flew in 2010. **There
-is no single window to call the period, and the article should say which window it chose and why**
-rather than inheriting 2001 from its predecessors. **The assembler's cutoff must match whatever the
-article states**, which is a defect A330 shipped.
+**THE SEQUEL IS A REAL AIRCRAFT AND IT IS ALREADY WRITTEN ABOUT HERE.** A337 is the Boeing X-40, which
+A334 and A335 both discuss as the X-37's subscale predecessor. **Do not exhaust the X-40 material in
+A336**, and remember the back-reference-only rule, which means A336 may cite A334 and A335 and must not
+cite A337.
 
 ## Where the Series Stands
 
 Seventy-two articles, A297 through A368, back-dated one per day from 2025-10-06 to 2025-12-16,
 covering every X-designation from X-1 through X-76.
 
-**Thirty-seven complete**, A297 through A333, all four passes each, all in `_drafts/`, **none
+**Thirty-nine complete**, A297 through A335, all four passes each, all in `_drafts/`, **none
 published**.
 
 | Article | Aircraft | Final state |
 |---|---|---|
-| A327 | Rockwell X-30 and NASP | 10,596 lines, 54 eq, 3,118 refs |
-| A328 | Rockwell-MBB X-31 | 30,008 lines, 55 eq, 9,322 refs |
 | A329 | Boeing X-32 | 19,593 lines, 28 eq, 6,159 refs |
 | A330 | Lockheed Martin X-33 | 32,379 lines, 92 eq, 10,248 refs |
 | A331 | Orbital Sciences X-34 | 20,006 lines, 38 eq, 6,352 refs |
 | A332 | Lockheed Martin X-35 | 27,560 lines, 71 eq, 8,710 refs |
 | A333 | McDonnell Douglas X-36 | 20,991 lines, 28 eq, 6,696 refs |
+| A334 | Boeing X-37 | 18,700 lines, 42 eq, 5,762 refs |
+| A335 | Scaled Composites X-38 | 6,733 lines, 24 eq, 1,936 refs |
+
+**A335 IS THE SMALLEST FULL-AIRCRAFT ARTICLE SINCE A323 AND THAT IS CORRECT.** Its pool held 6,212
+records against A334's 13,351, because the decelerator literature is smaller than the orbital one and
+because the vehicle ran for seven years rather than twenty-five. **Neither number was targeted and
+neither should be read as a standard.**
 
 **THE REFERENCE COUNTS JUMPED BY A FACTOR OF THREE AT A328 AND THAT IS THE DIRECTIVE WORKING, NOT A
 CHANGE OF STANDARD.** From A328 onward the practice is that **every harvested master record is
@@ -162,6 +166,38 @@ keystone on whether one sortie was evidence or theatre, and the answer came from
 had been flown already, the first in-flight conversion was eleven days earlier on a sortie that went
 faster, **and the programme's own contemporary statements listed every element as done four days
 before the famous flight.** No calculation was needed and none would have been as decisive.
+
+**A FORWARD CALCULATION THAT FAILS TO EXPLAIN A DESIGN DECISION LOCATES THE CONSTRAINT, AND A335 GOT
+ITS THIRD RESULT THAT WAY.** The obvious reason a canopy reefs in five stages is crew tolerance. Run
+forwards, the steady inflation load admits the WHOLE canopy in one step inside three g, and an
+opening-shock factor of 2.5 still reaches only 5.25 g. **The constraint is therefore not the crew**, and
+what the failure locates is the canopy's own structure, which no vehicle-level model can reach. **Do
+not fit a model to a known answer. Report the failure and say what it rules out.**
+
+**INVERT FOR THE SPEED, NOT ONLY FOR THE AREA, BECAUSE AN INVERSION IN THE RIGHT VARIABLE ATTACHES A
+MARGIN.** A335's reefing conclusion was stated first as an area comparison and looked comfortable.
+Inverted for the deployment speed at which the load bites, it holds by **1.20 times at three g and not
+at all at two g.** **A claim without a margin invites the reader to assume the margin is large.**
+
+**TWO ARTICLES MEASURING THE SAME QUANTITY WITH OPPOSITE SIGNS IS WORTH MORE THAN EITHER.** A334's
+X-37 scales from the Shuttle orbiter at mass proportional to length to the **1.924**, below the cube,
+because a small reusable vehicle keeps its fixed overhead. A335's X-38 scales from the X-24A at
+**3.507**, above it, because the mission grew faster than the machine. **Neither pair is geometrically
+similar and the reasons differ**, which is a warning against reading a scaling exponent as a property
+of the technology. **The second measurement was only possible because the first existed.**
+
+**COMPUTE THE SENSITIVITY RATHER THAN ASSERTING ROBUSTNESS.** A335's draft claimed its energy ratio was
+robust to the assumed lift coefficient. The equation pass showed the sink rate moving fifteen percent
+and the ratio moving as the FIRST power between 19.7 and 32.8. **The claim survived and the individual
+sink rates turned out not to deserve three significant figures.** An assertion of robustness that has
+not been computed is a guess.
+
+**AN IDENTITY THAT REMOVES THE VEHICLE ENTIRELY IS WORTH MORE THAN THE NUMBER IT SUPPORTS, AND BOTH
+RECENT ARTICLES FOUND ONE.** A334's entry heading change is the lift-to-drag ratio times the sine of
+bank times the logarithm of the speed ratio, **and the altitude term cancels**. A335's flare has
+available energy exceeding what it must remove by the SQUARE of the glide ratio, **exactly, with no
+mass, area or density**. In both cases the identity says which vehicle properties can and cannot buy
+the manoeuvre, which the number alone does not.
 
 **TURN AN AMPLIFICATION INTO A BUDGET, BECAUSE A BUDGET FORCES CONCLUSIONS AN AMPLIFICATION CANNOT.**
 A333's draft asserted that a fixed delay is worth 1.8898 times as much at model scale. The equation
@@ -414,6 +450,42 @@ negative rather than dropped.
 a statement rather than a gap.
 
 ### On harvesting and selection
+
+**A THIN CLUSTER IS A CLAIM ABOUT THE ORDERING BEFORE IT IS A CLAIM ABOUT THE LITERATURE, AND A335 HAD
+TWO.** `vehicle_sizing` measured ZERO and `entry_aerothermo` measured FOUR. Neither was a gap. Both sat
+behind clusters that matched their records first, since the matcher returns the first match and an
+entry-trajectory cluster takes the bare `re-entry` stem. **Correcting the order took the second from 4
+to 21 with no harvesting at all.** Check the order before harvesting for an empty cluster.
+
+**THE MEASURING INSTRUMENT HAS THE SAME BLIND SPOT AS THE SEARCH, AND THIS IS THE THIN-HEADING RULE ONE
+LEVEL UP.** A334's subject audit was written in the ARTICLE's vocabulary while the harvest asked in the
+LITERATURE's, so a well-supplied subject measured zero. **Three of the largest apparent gaps closed on
+the instrument and not on the pool**, equilibrium glide going 3 to 18 and crossrange 4 to 11 **with no
+new records found in either case.** Write the audit patterns in the field's words from the outset.
+
+**AND THE SHARPEST CASE OF ALL IS WHEN THE THIN HEADING IS THE ARTICLE'S OWN LOAD-BEARING ASSUMPTION.**
+A335's canopy lift coefficient measures ONE record. It is not thin. The papers that measure it are
+titled as aerodynamic characterisations, and the parafoil cluster holds 142 including a 1964 study of
+the parafoil glider and a 1971 report of parafoil wind tunnel tests. **Check what the cluster actually
+contains before reporting a gap.**
+
+**A SPELLING VARIANT IN AN ANCHOR RETURNS A SMALLER CORPUS RATHER THAN A WRONG ONE, WHICH IS WHY IT
+SURVIVES PASSES. THIS IS NOW SIX INSTANCES.** A335's `ram-?air` matched `ramair` and `ram-air` and
+**not `ram air`**, which is how most of the decelerator literature writes it. Correcting it took the
+selection from 1,680 to 1,818. Earlier instances were `Diffusers`, `area rules`, `installation
+effects`, `airship hulls` and British against American manoeuvrability.
+
+**TYPOGRAPHIC PUNCTUATION MUST BE NORMALISED BEFORE THE GATE MATCHES, NOT ONLY BEFORE LINK TEXT IS
+BUILT.** A334 refused "Thermal Characteristics of a Nickel-Hydrogen Battery" because the depositor wrote
+the hyphen as U+2010, and nickel-hydrogen is one of that article's strongest anchors. `refs.clean` had
+normalised for link text since A332. **The gate needed the same and did not have it.** Both A334's and
+A335's selection scripts now carry a `normalise` step and it should be copied forward.
+
+**WIDENING HAS A PRICE AND A335 PAID IT IN SIX FAMILIES AT ONCE.** Reading the kept sample after the
+primary harvest found surgical reefing in orthopaedics, the parachute metaphor in clinical writing,
+probabilistic risk assessment outside aerospace, the air-refuelling drogue, the parachute flare written
+with its words separated, and the parachute problem as a differential-equations exercise. **All six are
+in `_research/homonyms.py` with the incident that produced each.**
 
 **THE PROMOTION RULE FIRED WITH SIX SUBJECTS AT LITERALLY ZERO IN A331, WHICH IS THE STARKEST YET AND
 THE TWELFTH ARTICLE RUNNING.** Of the seventeen subjects that article's equations name, thirteen were
@@ -712,6 +784,31 @@ to the discipline or inside the article's own vocabulary.
 | **Froude** | **NAVAL HYDRODYNAMICS. ADMITTED DELIBERATELY**, because a ship model's scaling argument is the same argument, and it is the older and better documented of the two |
 | **found only by reading a random sample** | railway power protection, bridge aerodynamics in civil engineering, astronomical transient surveys, and point-cloud shape completion. **None of the four was anticipated** |
 
+| Phrase | The other field |
+|---|---|
+| **OTV** | **ORBITAL TRANSFER VEHICLE. INTERNAL TO THE DISCIPLINE**, decades older in the transfer-stage sense than in A334's Orbital Test Vehicle sense, and much the larger of the two |
+| **inflation** | **ECONOMIC INFLATION**, one of the largest bodies of literature in existence. Canopy inflation is A335's term of art and cannot be filtered bare |
+| **opening load** | **CRACK OPENING LOAD in fracture mechanics.** Parachute opening load is the article's term and the phrases are identical |
+| **impact tolerance** | **MATERIAL TOUGHNESS in composites**, against human acceleration tolerance in aeromedicine |
+| **reefing** | **SURGICAL REEFING in orthopaedics**, a tightening of soft tissue, and the sailing sense |
+| **drogue** | **THE AIR-REFUELLING DROGUE**, a basket on a hose |
+| **parachute** | **THE METAPHOR IN CLINICAL WRITING**, from the famous trial parody, and **THE DIFFERENTIAL-EQUATIONS EXERCISE** in teaching, plus the golden parachute |
+| **probabilistic risk assessment** | **A METHOD AND NOT A SUBJECT.** Nuclear plants, offshore drilling and dose-response toxicology all use it |
+| **apparent mass** | **BIODYNAMICS**, the apparent mass of the human body under vibration, against the parafoil term. **The gate distinguished these correctly and it is recorded so the next article does not filter both** |
+| **ram air** | **THE RAM AIR TURBINE**, an emergency generator |
+| **recovery system** | waste recovery, air traffic recovery, and every other use of the two words |
+| **classification** | **STATISTICAL AND MACHINE-LEARNING CLASSIFICATION**, which dwarfs the security sense A334 needed |
+| **docking** | **MOLECULAR DOCKING** in drug discovery, which owns the word |
+| **payload** | **THE MALWARE PAYLOAD** in computer security |
+| **discharge** | **HOSPITAL DISCHARGE** and RIVER DISCHARGE, against depth of discharge |
+| **crew, return** | crew resource management and airline crew scheduling; investment return |
+| **eclipse** | **THE INTEGRATED DEVELOPMENT ENVIRONMENT** |
+| **spiral, boost, module, habitat** | acquisition spiral development; boosting in machine learning; the algebraic module; the ecological habitat |
+| **grid storage, off-grid solar, electrode chemistry** | **THE BATTERY LITERATURE OUTSIDE SPACECRAFT**, which owns cycle life and capacity fade |
+| **contact graph, 5G handover** | **SATELLITE COMMUNICATIONS NETWORKING**, which shares low Earth orbit with everything here |
+| **instrument landing system glide slope** | **A RADIO NAVIGATION AID**, against an unpowered spacecraft approach |
+| **Mars surface geomorphology** | admitted by an aerobraking harvest through `planetary atmosphere`. **Aerobraking AT a planet is legitimate; the geology of the surface is not** |
+
 **Carried forward from earlier articles and still live, condensed rather than dropped.**
 
 | Phrase | The other field |
@@ -736,6 +833,36 @@ pools. A322 cited two Hypersonic Aerodynamics Fellowships notices.
 **QUERY DESIGN PREVENTS MORE THAN FILTERING CURES.**
 
 ### On tooling
+
+**A VERIFIER THAT SHARES AN INPUT WITH THE THING IT CHECKS DOES NOT CHECK THAT INPUT.** A335 gave its
+independent verifier the same two X-24A constants the production module used, and both were wrong. The
+length had been set equal to the X-38 ATMOSPHERIC TEST VEHICLE's 24.5 feet, which is a different
+aircraft. **The scaling exponent moved from 4.207 to 3.507 once corrected.** The verifier now converts
+from the imperial figures the sources quote. **Enter every published constant into the verifier by a
+different route, and check them all again at the publication review.**
+
+**A CHECKER THAT CANNOT FAIL IS NOT A CHECK, AND I BUILT ONE.** A334's rewrite of `require_in_text`
+accepted renderings at zero decimal places, so a bare `58` stood for 58.3519 and a bare `2` for 1.9236.
+In a document of 79,000 words those match by accident every time. **It reported 47 of 47 passing while
+twelve verified values were absent from the draft.** The fix is a floor of **three significant digits**
+plus digit-boundary matching, and **a `_self_test` that runs first and proves the check can fail.** Both
+A334's and A335's verifiers carry it and it should be copied forward.
+
+**A PLAUSIBLE TITLE IS NOT A URL.** Three curated links in A334 returned 404 and all three were
+addresses built from what the page ought to be called. **The identifier sweep covers `doi.org` links and
+the rendered audit covers markup, so neither looks at a hand-written encyclopaedia link.** Request every
+curated URL individually at the publication review. One of A334's three was a symptom of a wrong belief
+rather than a moved page, the AR2-3 being a **Rocketdyne** engine widely credited to Aerojet.
+
+**A SUMMARY THAT LISTS ONLY EXCEPTIONS CANNOT DISTINGUISH CLEAN FROM UNEXAMINED.** A334 had no row in
+the corpus citation report and was very nearly reported clean. It had been examined at **34.5 percent
+coverage**, because the run was capped at 600 new lookups against 64,462 identifiers. **Measure coverage
+explicitly. An absent row means nothing until the denominator is known.**
+
+**A TRAILING FULL STOP IN A HARVESTED IDENTIFIER MAKES IT A DIFFERENT STRING.** Two of A334's records
+carried one, which is why they did not resolve AND why they survived a rejection already recorded
+against the clean form. `gen_master` now strips a trailing stop. **It does not strip a closing
+parenthesis**, since several publishers deposit identifiers that legitimately end in one.
 
 **`_verify.py` RESOLVES `_posts` AND `_drafts` RELATIVE TO THE WORKING DIRECTORY, SO RUNNING IT BY
 ABSOLUTE PATH FROM ANYWHERE ELSE SILENTLY CHECKS A DIFFERENT CORPUS.** Invoked from an isolated build
@@ -933,10 +1060,14 @@ command issued after a `cd`.**
 describing each module: `fetch` for archive queries, `refs` for anchors and the reference block, `edits`
 for guarded editing, `reflow`, `lint`, `diction` for word and phrase overuse, `audit` for equation and
 citation gaps, `numcheck` for independent re-derivation, and `citations` for registry verification. Run
-`python3 _lib/test_lib.py`, which should report **74 of 74**. **Three modules were added on
+`python3 _lib/test_lib.py`, which should report **75 of 75**. **`refs.clean` gained a bare-pipe strip on
+2026-08-12**, because kramdown reads a paragraph whose first line contains a pipe as a table and a
+publisher-mangled apostrophe entity put one into link text. **Three modules were added on
 2026-08-11**, being `gate` for subject-anchor gating with a mandatory two-sided sample, `render` for
 auditing BUILT HTML, and `resolve` for identifier resolution. `_research/rejected.json` holds the accumulated
-sweep judgements, reused through `_research/homonyms.py`, whose curated pattern list is now 22 and which gained marine propulsion, open-channel energy height and battery specific energy from A324.
+sweep judgements, reused through `_research/homonyms.py`, **whose curated pattern list is now 35 and
+whose store holds 728 per-record rejections.** A334 and A335 between them added eleven families,
+listed in the homonym table above with the incident that produced each.
 
 **`tmp/*` IS GITIGNORED**, and what belongs there is the article's own payload only, meaning harvest
 queries, cluster definitions and edit text. **Repoint every path** when copying a previous article's
@@ -1011,7 +1142,13 @@ tests the helix-angle cancellation as a **randomised property**.
 
 **Categories, SETTLED and not to be revisited.** `aerospace history engineering`.
 
-**One citation residue is OPEN and belongs to the publication reviews, not to a bulk pass.** The first
+**THE CITATION RESIDUE IS LARGELY WORKED THROUGH AND THE REMAINDER STILL BELONGS TO THE PUBLICATION
+REVIEWS.** A334 was taken to **99.9 percent coverage** and its four findings were resolved, being a Mars
+geomorphology paper, two Science news items indexed as works and two nonexistent identifiers. **The
+corpus-wide run stands near 50 hard and 184 weak findings across 87 articles with 60 clean.** Resolve
+these one article at a time during its publication review, where the context to judge a label exists.
+
+**The historical record of how the residue arose, kept because the cause will recur.** The first
 ever corpus-wide `_verify_citations.py` run, on 2026-08-11, covered **77,593 citations across 61,483
 distinct identifiers** and reached the X-Planes drafts for the first time. After the checker was fixed
 and 632 wrongly named authors were repaired, **43 mismatch and 89 label-name findings remain, all in
@@ -1048,6 +1185,13 @@ a defect and does not need an apology. **Continue to REPORT the counts**, becaus
 useful, but do not offer to trim, do not pad toward a band either, and do not treat an overrun as
 something requiring justification.
 
+**A336 IS THE NEXT ANOMALY AND THE DECISION IS ALREADY MADE.** X-39 was reserved and never assigned, so
+no vehicle existed and none produced data. **The reduced six-section order is the honest default**, and
+the genre document states that padding a short anomaly article with sections it does not need is worse
+than leaving it short. **Whether the three series sections belong on an anomaly article is genuinely
+open**, since the contemporary survey and the source-base accounting exist to serve a technical argument
+that an anomaly article does not have. **Decide it deliberately and say why in the article.**
+
 **A320's full-length treatment of a designation anomaly is a precedent with a limit.** It was written
 long because the SV-5D flew and returned a measurement. **A324 is the opposite case and the short class
 is the honest default there.**
@@ -1063,8 +1207,21 @@ reason was different.**
 | A332 | X-35 | **It won, and never had a trace at all.** Zero of 12,974 records carry the designation, because contractor demonstrators flown for a source selection do not produce reports |
 | A333 | X-36 | **It ran to completion and produced a technique rather than a vehicle**, so its contribution is filed under the names of its methods |
 
-**A334's X-37 will be the fifth and its reason is classification**, which is different again. **Count
-them and name each reason.** The conclusion is not that thin clusters mean failure. It is that **the
+**THE PATTERN IS NOW SIX CASES DEEP AND EVERY REASON IS DIFFERENT.** This is the strongest evidence the
+closing article will have.
+
+| Article | Vehicle | Why its cluster is thin |
+|---|---|---|
+| A330 | X-33 | **Cancelled.** Sixty records, every one predating 2002 |
+| A331 | X-34 | **Cancelled.** The same shape, and two instances made it a pattern |
+| A332 | X-35 | **It won**, and contractor demonstrators flown for a source selection do not produce reports |
+| A333 | X-36 | **It produced a technique rather than a vehicle**, so its contribution is filed under the names of its methods |
+| A334 | X-37 | **It became classified.** Seventeen records in 13,351, and **the programme's own literature stops in 2005**, one year after the transfer to the defence research agency, while the vehicle went on flying for twenty years |
+| A335 | X-38 | **The requirement went away.** Fifty records in the period half and three in the contemporary. **It was not cancelled for failing**, it was cancelled because the station shrank to a crew of three that the Soyuz already served |
+
+**The conclusion is not that thin clusters mean failure.** The X-37 is the most operationally successful
+vehicle in the last ten articles and has the thinnest trace of any of them. **The documentary record
+measures the institution and its circumstances rather than the aircraft.** The conclusion is not that thin clusters mean failure. It is that **the
 documentary trace measures the institution and its circumstances rather than the aircraft.**
 
 **A finding accumulating across articles.** A322 and A323 were both **off-the-shelf civil aircraft
@@ -1078,7 +1235,7 @@ had come to mean** and belongs in the closing article.
 
 **The `post_url` interlock.** A `post_url` tag whose target is absent fails the **entire** site build.
 Cross-references are **back-reference only** within the series. The publication-order dependency is
-**thirty-seven deep**, A333 back to A297, so these articles publish in order or together. **Links to
+**thirty-nine deep**, A335 back to A297, so these articles publish in order or together. **Links to
 other series are necessarily forward-dated** and that is not a defect.
 
 **Pushing drafts is safe.** The deploy workflow builds without `--drafts`. Confirm after every push
