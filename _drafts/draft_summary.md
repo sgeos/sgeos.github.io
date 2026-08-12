@@ -17,6 +17,55 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## Do Proven Resource Bounds Survive Compilation A371 2026-08-08
+
+`do_proven_bounds_survive_compilation.markdown`, A371, editorial date 2026-08-08, series
+`keleusma_native` index 3 of 3. **Out of series with the X-Planes work.**
+
+**702 lines, 16 display equations, 43 reference definitions, 6,233 words.** Committed. **Not pushed and
+not published.**
+
+**Supplied by the pilot from the Keleusma repository and brought to corpus standards here.** The
+argument is that a resource bound proven about bytecode does not automatically hold for the machine code
+that ships, because an optimising compiler stands between them and was never asked to preserve it.
+**The memory bound does not transfer at all**, the compiler emitting 38,601 stack allocations
+unoptimised and **exactly zero** after the shipped pipeline. **The time bound is unbroken in kind and
+its evidence is much weaker than it looks**, resting on zero inversions across a sample with only three
+distinct magnitudes.
+
+**THE LARGEST DEFECT WAS A DUPLICATED SURVEY.** The contemporary-literature section appeared twice, the
+second pass covering worst-case execution time, stack analysis, verified compilation, translation
+validation and proof-carrying code that the first had already covered. **Forty-nine lines removed.**
+
+**THE ARTICLE CLAIMED NO COMPILER BACKGROUND WAS REQUIRED AND DID NOT DELIVER IT.** It used bytecode,
+machine code, stack frames, register allocation, spilling, `alloca`, calling conventions and
+memory-to-register promotion without introducing any of them. **Either the claim or the article had to
+change**, so a `## What You Need to Know to Read This` section now carries the five ideas the argument
+needs, the opening leads with the general problem and three non-compiler analogies before naming a
+compiler at all, and the jargon-dense passages are rewritten to name things in words first.
+
+**TWO COUNT ERRORS IN MY OWN NEW PROSE, WHICH IS THE DEFECT A370 SHIPPED.** The orientation section
+promised six ideas and gave five. The summary promised two findings and the article has three, with the
+same paragraph then referring to a third result. **Both were found by reading and both are fixed.**
+
+**A FIGURE IN THE LEDE WAS SUPPORTED NOWHERE IN THE ARTICLE.** The measurement was said to take nine
+seconds and that number appeared in no section. It is now located in the Source Base and marked in the
+Epistemic State as the author's report rather than an independently timed figure.
+
+**Style.** Twenty-one prose colons, ten prose semicolons and two em dashes removed. Link definitions and
+all five visible reference lists sorted. `rather than` reduced from over the corpus maximum.
+
+**Verification.** `_verify.py` 0 errors and 0 warnings. `./_check.sh --drafts` clean at 506 pages. All
+**27 research identifiers resolve** and **26 of 27 match their cited titles exactly**; the twenty-seventh
+was a checker artefact and is described below.
+
+**A CORPUS-WIDE CHECKER ARTEFACT WAS FOUND AND FIXED.** Crossref deposits a title and its subtitle
+separately, so `CakeML: a verified implementation of ML` is stored as the title `CakeML` alone. A label
+citing the paper the way everybody cites it overlapped the registry title by 0.17 and read as a defect.
+**`_verify_citations.py` now folds the subtitle into the comparison**, which is the same shape as the
+`no-title` artefact that accounted for 14,979 of 15,159 weak findings before it was fixed. **Cached
+records still carry the old title and will correct themselves as they are refreshed.**
+
 ## X-Planes Scaled Composites X-38 A335 2025-11-13
 
 `x_planes_scaled_composites_x38.markdown`, A335, editorial date 2025-11-13, series `x_planes` index 39

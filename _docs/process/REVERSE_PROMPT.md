@@ -9,90 +9,121 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: A335, the Scaled Composites X-38. **Publication review complete. All four passes done.**
-**Committed and PUSHED. NOT published.**
+**Task**: A371, the third Keleusma native code generation article, copied in from the Keleusma
+repository, brought to corpus standards and retargeted for a general audience.
+**Committed. NOT pushed and NOT published.**
 
 ---
 
-## A Factual Error in a Constant Changed a Result
+## Where It Is
 
-**The X-24A's length had been set equal to the X-38 atmospheric test vehicle's 24.5 feet, which is a
-different aircraft**, and its mass was low by three hundred kilograms. Corrected to **24 feet and 11,447
-pounds**, the scaling exponent falls from **4.207 to 3.507** and the geometric-similarity factor from
-1.276 to **1.120**.
+`_drafts/do_proven_bounds_survive_compilation.markdown`, editorial date **2026-08-08**, series
+`keleusma_native` index 3. **702 lines, 16 display equations, 43 reference definitions, 6,233 words.**
 
-**The conclusion survives**, because the argument uses only the sign, that mass grew faster than the
-cube of length, and the contrast with the X-37's **1.924** still straddles 3. **A caveat now records
-that the exponent rests on two published figures for a vehicle retired in 1971 and is sensitive to
-both.**
-
-**Nothing had caught it because both figures were plausible and both produced a plausible answer.** The
-independent verifier had been handed the same two constants, and **a verifier that shares an input with
-the thing it checks does not check that input.** It now derives the X-24A figures by converting from
-the imperial values the sources actually quote. **A new entry in the traps document records the whole
-shape of it.**
-
-**The consolation is that independence still paid.** The verifier failed loudly the moment the
-production module changed, rather than following it silently.
+**The editorial date is back-dated relative to today**, so publishing it would put it live immediately.
+It is not published and I have not assumed you want it to be.
 
 ---
 
-## Two Style Defects, Both Shared With A334
+## The Largest Defect Was a Duplicated Survey
 
-**`DLR` was used without a spell-out**, which the acronym rule forbids on first use.
-
-**The generated reference-count block used capitals for emphasis** where the corpus rule requires bold.
-That text came from the assembler, and **A334 carries the identical violation**, so both assemblers were
-corrected and **A334 was rebuilt**. It is an unpublished draft and leaving a known violation in it would
-have been knowingly shipping one.
+**The contemporary-literature section appeared twice.** The second pass re-covered worst-case execution
+time analysis, stack bound analysis, the AbsInt tools, verified compilation, translation validation and
+proof-carrying code, all of which the first pass had already covered under better headings. **Forty-nine
+lines removed**, with nothing lost that the surviving pass does not say.
 
 ---
 
-## Everything Else Was Clean
+## The Article Claimed No Compiler Background Was Required and Did Not Deliver It
 
-- **Prose style clean on every check.** No em dashes, en dashes, prose colons, prose semicolons,
-  parentheticals or contractions, and after the fix no capitals used for emphasis.
-- **All 18 curated URLs resolve**, checked individually per the trap A334 established. None returned 404
-  this time.
-- **No drafting-history leaks.** The Source Base was written to state findings rather than to narrate
-  passes, which is the correction A334 needed and this article did not.
-- **Section order conforms to the research-aircraft genre** without exception.
-- **Contemporary coverage is 49.6 percent** of dated records with **19.9 percent** dated 2020 or later,
-  which satisfies the comprehensive-survey directive.
+The source said in its second paragraph that **no compiler background is required**, and then used
+bytecode, machine code, optimising compilers, stack frames, register allocation, spilling, `alloca`,
+calling conventions and memory-to-register promotion without introducing any of them.
+
+**Either the claim or the article had to change**, and since the retarget you asked for wants the claim
+to be true, the article changed.
+
+- **A new `## What You Need to Know to Read This` section** carries the five ideas the argument actually
+  needs, in plain language, each one earning its place because a later section depends on it.
+- **The opening leads with the general problem** and three analogies that involve no compilers at all,
+  being a staging-environment performance budget, a circuit-simulated power draw and a scale-model safety
+  margin, before naming a compiler.
+- **A `## The Uncomfortable Answer` section** states early that verifying the compiler is not enough,
+  which was buried in the source and is the point most likely to surprise a reader.
+- **The jargon-dense passages now name things in words first.** The eBPF section explains what eBPF is.
+  The reefing of terms like `stream entry point`, `chunk` and `lowering` is gone.
+
+**The mathematics is untouched**, because the genre wants it and a general technical reader can follow a
+relation whose symbols are named in prose immediately before it.
 
 ---
 
-## Verification
+## Two Count Errors in My Own New Prose
+
+**This is precisely the defect A370 shipped and I reproduced it twice in one sitting.**
+
+- The orientation section promised **six ideas** and gave five.
+- The summary promised **two findings** where the article has three, and the same paragraph then
+  referred to "the third result".
+
+**Both were found by reading the draft rather than by any checker**, which is the standing lesson.
+
+---
+
+## A Figure in the Lede Was Supported Nowhere
+
+The source opened by saying the measurement takes **nine seconds**, and that number appeared in no other
+section of the article. **A number in a lede that the body does not carry is unverifiable by a reader.**
+
+It is now stated in the Source Base beside the rest of the instrument description, and the Epistemic
+State marks it as **the author's report rather than an independently timed figure**, with the note that
+nothing in the argument depends on it.
+
+---
+
+## A Corpus-Wide Checker Artefact, Found Here and Fixed
+
+Of the 27 research identifiers, **26 matched their cited titles exactly and one read as a defect that was
+not one.**
+
+**Crossref deposits a title and its subtitle as separate fields.** `CakeML: a verified implementation of
+ML` is stored as the title `CakeML` alone, so a label citing the paper the way everybody cites it
+overlapped the registry title by **0.17** and would have been reported.
+
+**`_verify_citations.py` now folds the subtitle into the comparison.** This is the same shape as the
+`no-title` artefact that accounted for 14,979 of 15,159 weak findings before it was fixed, which is to
+say **the checker was comparing against less than the registry actually holds.** Cached records still
+carry the old title and will correct themselves as the cache refreshes.
+
+**I did not change `refs.display` or `fetch.crossref_fields`**, which build reader-facing link text, since
+adding subtitles there would rewrite labels across the whole corpus for no benefit.
+
+---
+
+## Style and Verification
+
+Twenty-one prose colons, ten prose semicolons and two em dashes removed. Link definitions and all five
+visible reference lists sorted. `rather than` reduced from above the corpus maximum.
 
 - `python3 _verify.py` **0 errors, 0 warnings**.
-- `python3 tmp/a335/verify.py` **46 of 46**.
-- `./_check.sh --drafts` **passes end to end**, no findings.
-- **3,816 reference entries scanned** for stray punctuation, all clean.
-- **Reference integrity clean**, 1,936 used against 1,936 defined, none undefined or orphaned.
-- Identifier sweep, seeded sample of 200: **200 of 200 resolved**, 22 through the issuing registry.
+- `python3 _lib/test_lib.py` **75 of 75**.
+- `./_check.sh --drafts` **passes end to end**, 506 pages, no findings.
+- **All 27 research identifiers resolve**, none registry-only.
+- **All 14 curated URLs resolve**, the single 403 being `iso.org`, a documented bot-mitigation case.
+- Reference integrity clean, 43 used against 43 defined, none undefined or orphaned.
+- Section order conforms to the analytical-essay genre.
 
 ---
 
-## Final State
+## Outstanding, and Two Things I Did Not Decide for You
 
-**6,733 lines, 24 display equations, 1,936 reference definitions, 36,570 words**, with all **1,768
-research records cited and none left over**, plus 112 reference works.
+**It is committed and not pushed.** You did not ask for a push and this is not a publication review, so I
+left it local. Say the word and it goes up.
 
-Period half **871**, contemporary **883**, technical reports **478 at 27.0 percent**, which is the
-highest report share this series has measured and is what a decelerator subject should produce.
+**Publishing it would put it live immediately**, because 2026-08-08 is in the past. It sits behind A370
+in the series, so publishing would also renumber the two published articles' navigation from "Part 1 of
+2" and "Part 2 of 2" to "of 3". **That is a change to two live pages and I have not made it.**
 
----
-
-## Outstanding
-
-**Nothing blocking.** The tree is clean and everything is pushed.
-
-**A335 IS NOT PUBLISHED and publication of the thirty-nine X-Planes drafts has never been authorised.**
-The article remains in `_drafts/`, the deploy workflow builds without `--drafts`, and the
-publication-order dependency is now **thirty-nine deep**.
-
-**A336 is X-39, Reserved but Never Assigned**, editorial date 2025-11-14, Part 40 of 72. **It is a
-designation anomaly**, and the genre document prescribes the reduced six-section order for one, with
-the caveat that A320 was written at full length because the X-23 actually flew and returned a
-measurement. **The test is whether a vehicle existed and produced data, not whether the designation is
-disputed.** For a number that was reserved and never assigned, the short class is the honest default.
+**The X-Planes work is untouched by this.** A335 remains the last of thirty-nine drafts, all four passes
+done, none published, and **A336 is X-39, Reserved but Never Assigned**, which is a designation anomaly
+taking the reduced section order. The handoff at `_docs/process/HANDOFF.md` is current and validates.

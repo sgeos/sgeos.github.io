@@ -124,7 +124,14 @@ def lookup(doi):
         return {"status": f"http-{e.code}"}
     except Exception as e:
         return {"status": f"error-{type(e).__name__}"}
-    title = " ".join(msg.get("title") or [])
+    # CROSSREF SPLITS A TITLE FROM ITS SUBTITLE AND THE COMPARISON MUST SEE BOTH.
+    # `CakeML: a verified implementation of ML` is deposited as the title `CakeML`
+    # with the subtitle carried separately, so a label citing the paper the way
+    # everybody cites it overlaps the registry title by 0.17 and reads as a
+    # defect. This is the same shape as the `no-title` artefact that accounted
+    # for 14,979 of 15,159 weak findings before it was fixed: the checker was
+    # comparing against less than the registry actually holds.
+    title = " ".join((msg.get("title") or []) + (msg.get("subtitle") or []))
     authors = [a.get("family", "") for a in (msg.get("author") or [])]
     year = ""
     for key in ("issued", "published-print", "published-online"):
