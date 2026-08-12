@@ -133,7 +133,7 @@ and is the reason command systems track beacons rather than skin returns. The im
 
 $$\frac{P_{r,\text{beacon}}}{P_{r,\text{skin}}} = \frac{P_b G_b \left( 4\pi \right) R^{2}}{P_t G \sigma_t}$$
 
-which for a one watt beacon against a hundred kilowatt radar is still a factor of $8 \times 10^{5}$ in the beacon's favour. **A one watt transmitter on the missile is worth more than a hundred kilowatts on the aircraft**, and that is the single most consequential design decision in a command-guidance system. The beacon as an engineered subsystem, including the decoder that lets the same link carry commands, is [Feldman et al 1962][research_feldman_1962] and [Philco 1963][research_philco_corp_palo_alto_ca_1963], and the later strapdown tracker that removes the launcher entirely is [Savage 1969][research_savage_1969].
+which for a one watt beacon against a hundred kilowatt radar is still a factor of $8 \times 10^{5}$ in the beacon's favour. **A one watt transmitter on the missile is worth more than a hundred kilowatts on the aircraft**, and that is the single most consequential design decision in a command-guidance system. The beacon as an engineered subsystem, including the decoder that lets the same link carry commands, is [Feldman et al 1962][research_feldman_1962] and [Philco Corp Palo Alto Ca 1963][research_philco_corp_palo_alto_ca_1963], and the later strapdown tracker that removes the launcher entirely is [Savage 1969][research_savage_1969].
 
 The second is scintillation, the fluctuation of the return as the target's aspect changes. [Brockner 1951][research_brockner_1951] measured the angular jitter it produces in conical-scanning trackers, and [Dunn et al 1959][research_dunn_1959] give the general treatment.
 
@@ -215,7 +215,7 @@ Bell spent eighteen months on it and concluded that rocket propulsion could not 
 
 **The Air Force then split the project, and the split is why there is an X-9 at all.** MX-776A would build a reduced-scale testbed, the RTV-A-4 Shrike, to develop the aerodynamic configuration, the radio control system, the rocket propulsion, and the procedures for checking out and launching an air-to-ground missile. MX-776B would build the operational weapon, the ASM-A-2 and later B-63 and [GAM-63 RASCAL][ref_rascal]. In 1951 the RTV-A-4 was redesignated X-9.
 
-The programme documents survive. [Bell Aerospace 1953][research_bell_aerospace_co_buffalo_ny_1953] covers both projects together, [Bell Aerospace 1954][research_bell_aerospace_co_buffalo_ny_1954] the weapon system, and [Bell Aerospace 1956][research_bell_aerospace_co_buffalo_ny_1956] the project as a whole, all of them in the defence technical archive rather than the aerospace one. This is a materially better primary base than the [X-8][related_post_a305_aerojet_x8] left behind, and the reason is that a weapon programme reports to a service that keeps its reports. The sibling programme at Northrop left a comparable trace, and the rocket-model tests of the MX-775B configuration by [Arbic and Gillespie 1953][research_arbic_1953] are the [Snark][ref_snark] equivalent of the measurements described below.
+The programme documents survive. [Bell Aerospace Co Buffalo Ny 1953][research_bell_aerospace_co_buffalo_ny_1953] covers both projects together, [Bell Aerospace Co Buffalo Ny 1954][research_bell_aerospace_co_buffalo_ny_1954] the weapon system, and [Bell Aerospace 1956][research_bell_aerospace_co_buffalo_ny_1956] the project as a whole, all of them in the defence technical archive rather than the aerospace one. This is a materially better primary base than the [X-8][related_post_a305_aerojet_x8] left behind, and the reason is that a weapon programme reports to a service that keeps its reports. The sibling programme at Northrop left a comparable trace, and the rocket-model tests of the MX-775B configuration by [Arbic and Gillespie 1953][research_arbic_1953] are the [Snark][ref_snark] equivalent of the measurements described below.
 
 ### What the Split Was For
 
@@ -223,7 +223,7 @@ Dividing a development programme into a testbed and a weapon is a risk-reduction
 
 It does not reduce technical risk in the ordinary sense, because the testbed must solve most of the same problems. It reduces **schedule coupling**. A weapon programme carries a delivery date and a production commitment, and a failure inside it stops everything downstream. A testbed carries neither, so a failure inside it costs a vehicle and a month.
 
-The X-9 was also explicitly intended to develop something the technical literature rarely treats as a deliverable, which is the practice of operating the thing. The Air Materiel Command wanted crews trained in checkout, launch, maintenance, and deployment before the operational missile existed. **A test programme whose output includes trained sergeants is a different kind of programme**, and it is one reason the vehicle flew from an operational bomber instead of a research aircraft. The reporting that such a programme generates is visible in the weapon-system programming and control apparatus of [Hoch 1960][research_hoch_1960] and the cost estimation of [Army Missile Command 1963][research_army_missile_command_redstone_arsenal_al_1963], neither of which is engineering and both of which are what a service actually buys.
+The X-9 was also explicitly intended to develop something the technical literature rarely treats as a deliverable, which is the practice of operating the thing. The Air Materiel Command wanted crews trained in checkout, launch, maintenance, and deployment before the operational missile existed. **A test programme whose output includes trained sergeants is a different kind of programme**, and it is one reason the vehicle flew from an operational bomber instead of a research aircraft. The reporting that such a programme generates is visible in the weapon-system programming and control apparatus of [Hoch 1960][research_hoch_1960] and the cost estimation of [Army Missile Command Redstone Arsenal Al 1963][research_army_missile_command_redstone_arsenal_al_1963], neither of which is engineering and both of which are what a service actually buys.
 
 ## Sizing From First Principles
 
@@ -277,7 +277,7 @@ because a stiff injector decouples the chamber's pressure oscillation from the f
 
 $$\frac{\Delta p}{p_c} = \frac{0.2}{4} = 0.05$$
 
-**at which point the chamber and the feed system are coupled and the engine can oscillate**, which is the mechanism [Otto and Flage 1960][research_otto_1960] studied experimentally. Two chambers avoid the problem entirely, because each runs at its design point or not at all. The combustion instability literature of the period is [Princeton University 1952][research_princeton_univ_nj_1952], [Grey 1953][research_grey_1953], [Matthews 1957][research_matthews_1957], and [Harrje 1959][research_harrje_1959].
+**at which point the chamber and the feed system are coupled and the engine can oscillate**, which is the mechanism [Otto and Flage 1960][research_otto_1960] studied experimentally. Two chambers avoid the problem entirely, because each runs at its design point or not at all. The combustion instability literature of the period is [Princeton Univ Nj 1952][research_princeton_univ_nj_1952], [Grey 1953][research_grey_1953], [Matthews 1957][research_matthews_1957], and [Harrje 1959][research_harrje_1959].
 
 The chamber itself must survive the burn. Cooling technique selection for an engine of this class is [Coulbert 1963][research_coulbert_1963], and the failure mode that a hundred-second burn invites, which is progressive deterioration of a regeneratively cooled wall rather than a prompt burnthrough, is the subject of [Stanley 1969][research_stanley_1969], [Stanley 1970][research_stanley_1970], and [Stanley 1971][research_stanley_1971]. The relations used here follow [Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016], [Hill and Peterson 1991 Mechanics and Thermodynamics of Propulsion][book_hill_peterson_1991], and [Huzel and Huang 1992 Design of Liquid Propellant Rocket Engines][book_huzel_huang_1992].
 
@@ -605,7 +605,7 @@ $$t_{180} = \frac{\pi R_t}{v} = \frac{\pi (5.1 \times 10^{3})}{236} = 68 \, \tex
 
 during which the antenna sweeps through the whole of its gimbal range and past it. The turn-performance analysis for exactly this manoeuvre, in which an aircraft must reverse as quickly as its structure allows, is [Wrestler 1965][research_wrestler_1965]. **The bomber spends more than two minutes committed and closes half the standoff distance it just bought unless it turns away**, and turning away costs the antenna its look angle. The engagement geometry is therefore a constraint on the aircraft, not only on the missile, and it is a large part of why the operational concept eventually failed. The general form of the problem, in which a weapon's guidance requirement dictates the delivery aircraft's flight path, is treated by [Smyth 1972][research_smyth_1972], and the tactical-analysis machinery for evaluating such an engagement is [Waddell 1961][research_waddell_1961] and [Timenes 1964][research_timenes_1964].
 
-Bell was thinking about the successor problem before the X-9 stopped flying. [Ehricke 1955][research_ehricke_1955] and [Bell Aerospace 1955][research_bell_aerospace_co_buffalo_ny_1955] describe the MX-2276 advanced strategic weapon system, a boost-glide vehicle that removes the launching aircraft from the engagement entirely by not needing one, and the same company produced both studies.
+Bell was thinking about the successor problem before the X-9 stopped flying. [Ehricke 1955][research_ehricke_1955] and [Bell Aerospace Co Buffalo Ny 1955][research_bell_aerospace_co_buffalo_ny_1955] describe the MX-2276 advanced strategic weapon system, a boost-glide vehicle that removes the launching aircraft from the engagement entirely by not needing one, and the same company produced both studies.
 
 ### The Ground and Handling Problem
 
@@ -751,7 +751,7 @@ This does not make the X-9 pointless. It relocates its value. The accuracy work 
 
 The cruciform canard layout the X-9 flew became common, and the measurement base assembled around it in the early 1950s outlived both the X-9 and the RASCAL. The reports cited in the Comparison section above were still being used as design data long after the vehicles that motivated them were scrapped, and the measurement programme continued past the X-9's own end in [Bright and Peterson 1960][research_bright_1960], [Foster 1959][research_foster_1959], [Anderson 1961][research_anderson_1961], and [Robinson 1958][research_robinson_1958], with the hinge-moment case extended to rolling and manoeuvring flight by [Pfenneberger 1966][research_pfenneberger_1966] and the prediction technique itself criticised by [Abel 1971][research_abel_1971].
 
-**A configuration family outlives the programmes that motivate it**, and that is a more durable contribution than the vehicle. The consolidated design data of the period, in [Army War College 1952][research_army_war_coll_carlisle_barracks_pa_1952] and its later volume [Advanced Fuel Research 1957][research_advanced_fuel_research_inc_east_hartford_ct_1957], is where such measurements ended up.
+**A configuration family outlives the programmes that motivate it**, and that is a more durable contribution than the vehicle. The consolidated design data of the period, in [Army War Coll Carlisle Barracks Pa 1952][research_army_war_coll_carlisle_barracks_pa_1952] and its later volume [Advanced Fuel Research Inc East Hartford Ct 1957][research_advanced_fuel_research_inc_east_hartford_ct_1957], is where such measurements ended up.
 
 ## The Contemporary Literature
 
@@ -937,7 +937,7 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Adams 1962][research_adams_1962]
 - [Adams and Rubin 1958][research_adams_1958]
 - [Adler 1956][research_adler_1956]
-- [Advanced Fuel Research 1957][research_advanced_fuel_research_inc_east_hartford_ct_1957]
+- [Advanced Fuel Research Inc East Hartford Ct 1957][research_advanced_fuel_research_inc_east_hartford_ct_1957]
 - [Aldrich and Krabill 1972][research_aldrich_1972]
 - [Almustafa and Nehdi 2020][research_almustafa_2020]
 - [Amico and Cafiero 2026][research_amico_2026]
@@ -947,16 +947,16 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Anderson 1961][research_anderson_1961]
 - [Andon 1965][research_andon_1965]
 - [Arbic and Gillespie 1953][research_arbic_1953]
-- [Army Missile Command 1963][research_army_missile_command_redstone_arsenal_al_1963]
-- [Army War College 1952][research_army_war_coll_carlisle_barracks_pa_1952]
+- [Army Missile Command Redstone Arsenal Al 1963][research_army_missile_command_redstone_arsenal_al_1963]
+- [Army War Coll Carlisle Barracks Pa 1952][research_army_war_coll_carlisle_barracks_pa_1952]
 - [Atkinson 1968][research_atkinson_1968]
 - [Autenrieb and Gruhn 2026][research_autenrieb_2026]
 - [Baber and Moul 1955][research_baber_1955]
 - [Bao et al 2021][research_bao_2021]
 - [Baty 1970][research_baty_1970]
-- [Bell Aerospace 1953][research_bell_aerospace_co_buffalo_ny_1953]
-- [Bell Aerospace 1954][research_bell_aerospace_co_buffalo_ny_1954]
-- [Bell Aerospace 1955][research_bell_aerospace_co_buffalo_ny_1955]
+- [Bell Aerospace Co Buffalo Ny 1953][research_bell_aerospace_co_buffalo_ny_1953]
+- [Bell Aerospace Co Buffalo Ny 1954][research_bell_aerospace_co_buffalo_ny_1954]
+- [Bell Aerospace Co Buffalo Ny 1955][research_bell_aerospace_co_buffalo_ny_1955]
 - [Bell Aerospace 1956][research_bell_aerospace_co_buffalo_ny_1956]
 - [Berger 1971][research_berger_1971]
 - [Bhattacharjee et al 2021][research_bhattacharjee_2021]
@@ -1103,13 +1103,13 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Pehlivan and Yegin 2021][research_pehlivan_2021]
 - [Peterson 1961][research_peterson_1961]
 - [Pfenneberger 1966][research_pfenneberger_1966]
-- [Philco 1963][research_philco_corp_palo_alto_ca_1963]
+- [Philco Corp Palo Alto Ca 1963][research_philco_corp_palo_alto_ca_1963]
 - [Philipchuk 1952][research_philipchuk_1952]
 - [Potter 1964][research_potter_1964]
 - [Potter and Deckert 1972][research_potter_1972]
 - [Price 1970][research_price_1970]
 - [Price and Warren 1973][research_price_1973]
-- [Princeton University 1952][research_princeton_univ_nj_1952]
+- [Princeton Univ Nj 1952][research_princeton_univ_nj_1952]
 - [Quattrocchi et al 2022][research_quattrocchi_2022]
 - [Quillin and Parry 1962][research_quillin_1962]
 - [Riesel 1961][research_riesel_1961]

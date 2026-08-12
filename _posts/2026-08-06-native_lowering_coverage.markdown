@@ -201,7 +201,7 @@ with $\kappa(\iota)$ the implementation cost and $\lambda$ the leverage ratio.
 Choosing repeatedly the candidate with the greatest newly covered mass per unit cost is the cost-weighted
 greedy heuristic for set covering, analysed by [Johnson 1974][research_johnson_1974] and
 [Chvatal 1979][research_chvatal_1979], which established the logarithmic approximation ratio, sharpened by
-[Slavik 1997][research_slavik_1997] and shown to be essentially the best obtainable unless the complexity
+[Slavı́k 1997][research_slavik_1997] and shown to be essentially the best obtainable unless the complexity
 classes collapse by [Lund and Yannakakis 1994][research_lund_yannakakis_1994] and
 [Feige 1998][research_feige_1998].
 **The ordering problem posed here is set cover with costs, and the leverage ratio is the classical greedy rule for it.**
@@ -4518,7 +4518,7 @@ clearest evidence available that knowing about a bias does not protect anyone fr
 - [Simulink Model Static Analysis Results based on Abstract...][research_yang_2022]
 - [Skeletal program enumeration for rigorous compiler testing][research_zhang_2017]
 - [SLAMPA: Recommending Code Snippets with Statistical...][research_zhou_2018]
-- [Slavik 1997][research_slavik_1997]
+- [Slavı́k 1997][research_slavik_1997]
 - [SMT-Based Translation Validation for Machine Learning...][research_bang_2022]
 - [Software Development Effort Estimation Using Random...][research_anon_2018]
 - [Software effort estimation accuracy prediction of machine...][research_mahmood_2021]

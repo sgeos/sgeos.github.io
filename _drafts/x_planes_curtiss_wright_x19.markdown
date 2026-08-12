@@ -321,7 +321,7 @@ Of that, 277 pounds is induced, and the remainder inverts to the flat-plate area
 
 $$f = \frac{D - D_i}{q} = \frac{3{,}454 - 277}{288.6} = 11.01 \ \text{ft}^{2}$$
 
-**The induced part of that split is not a detail for an aircraft with two wings.** Trim on a multi-surface aeroplane costs drag in a way a single wing does not, because the two surfaces can be loaded against each other, and that cost has a literature of its own in [Taylor 1942][research_taylor_1942], [Nissen et al 1948][research_nissen_1948], [Payne 1958][research_payne_1958], [Churchill and Harrington 1959][research_churchill_harrington_1959], [MILLA and BLICK 1966][research_milla_blick_1966], [LUNDRY 1967][research_lundry_1967], [KATZ et al 1980][research_katz_1980], [Lottati 1984][research_lottati_1984], [BENNETT 1984][research_bennett_1984], [Goodrich et al 1989][research_goodrich_1989], [Chiocchia and Pignataro 1995][research_chiocchia_pignataro_1995]. One of those gives a closed-form trim solution minimising drag for aircraft with multiple longitudinal control surfaces, and another treats the induced drag reduction available from propeller and wing interaction directly.
+**The induced part of that split is not a detail for an aircraft with two wings.** Trim on a multi-surface aeroplane costs drag in a way a single wing does not, because the two surfaces can be loaded against each other, and that cost has a literature of its own in [Lockwood Taylor 1942][research_taylor_1942], [Nissen et al 1948][research_nissen_1948], [Payne 1958][research_payne_1958], [Churchill and Harrington 1959][research_churchill_harrington_1959], [MILLA and BLICK 1966][research_milla_blick_1966], [LUNDRY 1967][research_lundry_1967], [KATZ et al 1980][research_katz_1980], [Lottati 1984][research_lottati_1984], [BENNETT 1984][research_bennett_1984], [Goodrich et al 1989][research_goodrich_1989], [Chiocchia and Pignataro 1995][research_chiocchia_pignataro_1995]. One of those gives a closed-form trim solution minimising drag for aircraft with multiple longitudinal control surfaces, and another treats the induced drag reduction available from propeller and wing interaction directly.
 
 Thrust available at any other speed is not this quantity divided by speed, which diverges at the hover. Momentum theory with the same power gives a form that stays finite at zero.
 
@@ -451,7 +451,7 @@ At 30 percent it is 2.98 degrees per second squared.
 
 **That is roughly an order of magnitude short of the control power VTOL criteria of the period call for**, and the handling-qualities literature of exactly those years is where the criteria live, in [Reeder 1958][research_reeder_1958], [Carlson 1958][research_carlson_1958] and [Slaughter 1958][research_slaughter_1958], with the earlier hovering analyses in [MILLER 1948][research_miller_1948] and [ALBACHTEN 1956][research_albachten_1956]. The record states that the programme was troubled by control system problems without saying which axis, and this calculation offers a candidate rather than an answer.
 
-The criteria themselves were an active subject rather than a settled one while the X-19 was being built, and the body of work behind them is substantial, in [Carpenter and Paulnock 1949][research_carpenter_paulnock_1949], [Kidd and Bull 1963][research_kidd_bull_1963], [Ashkenas 1965][research_ashkenas_1965], [Ashkenas 1965, A STUDY OF CONVENTIONAL AIRPLANE H][research_ashkenas_1965_2], [Hoffman 1969][research_hoffman_1969], [Hoffman 1969, Control power requirements of VTOL][research_hoffman_1969_2], [Hoffman 1969, Control power requirements of VTOL][research_hoffman_1969_3], [CA 1969][research_ca_1969], [McCormick 1969][research_mccormick_1969], [Hoffman et al 1970][research_hoffman_1970], [Aiken et al 1977][research_aiken_1977], [Corliss et al 1977][research_corliss_1977], [Smith 1977][research_smith_1977], [Gerken 1979][research_gerken_1979], [Goldstein 1982][research_goldstein_1982], [NACA 1982][research_naca_1982], [Corless and Blanken 1983][research_corless_blanken_1983].
+The criteria themselves were an active subject rather than a settled one while the X-19 was being built, and the body of work behind them is substantial, in [Carpenter and Paulnock 1949][research_carpenter_paulnock_1949], [Kidd and Bull 1963][research_kidd_bull_1963], [Ashkenas 1965][research_ashkenas_1965], [Ashkenas 1965, A STUDY OF CONVENTIONAL AIRPLANE H][research_ashkenas_1965_2], [Hoffman 1969][research_hoffman_1969], [Hoffman 1969, Control power requirements of VTOL][research_hoffman_1969_2], [Hoffman 1969, Control power requirements of VTOL][research_hoffman_1969_3], [Air Force Test Pilot School Edwards Afb Ca 1969][research_ca_1969], [McCormick 1969][research_mccormick_1969], [Hoffman et al 1970][research_hoffman_1970], [Aiken et al 1977][research_aiken_1977], [Corliss et al 1977][research_corliss_1977], [Smith 1977][research_smith_1977], [Gerken 1979][research_gerken_1979], [Goldstein 1982][research_goldstein_1982], [NACA 1982][research_naca_1982], [Corless and Blanken 1983][research_corless_blanken_1983].
 
 The caveat is real. If the nacelles could be tilted differentially between the left and right sides, a yaw couple is available that this calculation does not include, and the aircraft would then have adequate yaw control by an effector the sources do not describe. The computation establishes that **differential torque alone is not enough**, not that the aircraft lacked yaw control.
 
@@ -541,7 +541,7 @@ $$\bar{v} = \frac{390 - 230}{2.0} = 80.0 \ \text{ft/s}$$
 
 which matches the free-fall state almost exactly. The second reading is self-consistent and the first is not, so the figure most likely refers to the ejection rather than the failure.
 
-**The seat is the reason there is anything to reconstruct.** Escape at low altitude from an uncontrolled attitude was the hardest case the ejection-seat literature of the period addressed, and it was addressed at length, in [Watts et al 1947][research_watts_1947], [HODELL and ROSNER 1957][research_hodell_rosner_1957], [Latham 1957][research_latham_1957], [MANZUK 1970][research_manzuk_1970], [GROSS and MAWHINNEY 1970][research_gross_mawhinney_1970], [Stech 1977][research_stech_1977], [Center 1978][research_center_1978], [Howland 1979][research_howland_1979], [Hawker and Payne 1979][research_hawker_payne_1979], [Lofland 1980][research_lofland_1980], [Chiang 1980][research_chiang_1980], [Pauer 2018][research_pauer_2018].
+**The seat is the reason there is anything to reconstruct.** Escape at low altitude from an uncontrolled attitude was the hardest case the ejection-seat literature of the period addressed, and it was addressed at length, in [Watts et al 1947][research_watts_1947], [HODELL and ROSNER 1957][research_hodell_rosner_1957], [Latham 1957][research_latham_1957], [MANZUK 1970][research_manzuk_1970], [GROSS and MAWHINNEY 1970][research_gross_mawhinney_1970], [Stech 1977][research_stech_1977], [Budd Co Fort Washington Pa Technical Center 1978][research_center_1978], [Howland 1979][research_howland_1979], [Hawker and Payne 1979][research_hawker_payne_1979], [Lofland 1980][research_lofland_1980], [Chiang 1980][research_chiang_1980], [Pauer 2018][research_pauer_2018].
 
 Two of those are contemporaneous with the design of the seat that saved this crew. Rocket-track ejection testing at Edwards and a study of seat ejection treated as body ballistics both date from 1957, six years before the X-19 first flew. **An inverted ejection at a few hundred feet sits outside the envelope any of that work would have certified**, which is the honest way to state what happened rather than calling it routine.
 
@@ -607,7 +607,7 @@ The X-19 pushed wing loading to 88 pounds per square foot to buy speed and paid 
 
 ### Blades, Solidity and the Advance Ratio
 
-The wide blade this article derives from a capped tip speed is a design problem the field still has, in [Bacchini et al 2021][research_bacchini_2021], [Baek et al 2021][research_baek_2021], [Fan et al 2021][research_fan_2021], [Kovačević et al 2021][research_kovacevic_2021], [Maung et al 2021][research_maung_2021], [Wang et al 2022, Control of centrally-powered varia][research_wang_2022_2], [Jardin et al 2023][research_jardin_2023], [NOZAKI et al 2023][research_nozaki_2023], [B.tech 1st Year 2025][research_b_tech_1st_year_2025], [Goyal et al 2025, Estimation of Rotor Blade Loading][research_goyal_2025_2], [Li and Li 2025][research_li_li_2025], [Liu et al 2025][research_liu_2025], [Shao et al 2025][research_shao_2025], [Yu et al 2026][research_yu_2026].
+The wide blade this article derives from a capped tip speed is a design problem the field still has, in [Bacchini et al 2021][research_bacchini_2021], [Baek et al 2021][research_baek_2021], [Fan et al 2021][research_fan_2021], [Kovačević et al 2021][research_kovacevic_2021], [Maung et al 2021][research_maung_2021], [Wang et al 2022, Control of centrally-powered varia][research_wang_2022_2], [Jardin et al 2023][research_jardin_2023], [NOZAKI et al 2023][research_nozaki_2023], [Sinha 2025][research_b_tech_1st_year_2025], [Goyal et al 2025, Estimation of Rotor Blade Loading][research_goyal_2025_2], [Li and Li 2025][research_li_li_2025], [Liu et al 2025][research_liu_2025], [Shao et al 2025][research_shao_2025], [Yu et al 2026][research_yu_2026].
 
 **The X-19's particular version of it has eased.** Its blade was wide because one propeller had to hover a quarter of the aircraft and then cruise at 400 knots. Distributing lift across more, smaller rotors relaxes both ends of that requirement, and a vehicle that does not attempt 400 knots relaxes the tip-speed cap that forced the chord.
 
@@ -641,19 +641,19 @@ The largest single difference between the X-19's world and the present. A 1963 r
 
 ### Noise, Which the X-19 Never Had to Face
 
-A 1963 military transport testbed had no acoustic constraint whatever. A vehicle intended to operate from a city rooftop has one that may bind before any aerodynamic limit does, in [Araghizadeh et al 2025][research_araghizadeh_2025], [Bauer 2025][research_bauer_2025], [Bergmann et al 2025][research_bergmann_2025], [Boucher 2025][research_boucher_2025], [Czech et al 2026][research_czech_2026], [Gandhi et al 2026][research_gandhi_2026], [Georgiou et al 2026][research_georgiou_2026], [Hummel et al 2026][research_hummel_2026], [Marques et al 2026][research_marques_2026], [Page et al 2026][research_page_2026], [Pascioni et al 2026][research_pascioni_2026], [Rizzi et al 2026][research_rizzi_2026], [Tinney and Valdez 2026][research_tinney_valdez_2026], [Voropayev et al 2026][research_voropayev_2026].
+A 1963 military transport testbed had no acoustic constraint whatever. A vehicle intended to operate from a city rooftop has one that may bind before any aerodynamic limit does, in [Araghizadeh et al 2025][research_araghizadeh_2025], [W. Bauer 2025][research_bauer_2025], [Bergmann et al 2025][research_bergmann_2025], [Boucher 2025][research_boucher_2025], [Czech et al 2026][research_czech_2026], [Gandhi et al 2026][research_gandhi_2026], [Georgiou et al 2026][research_georgiou_2026], [Hummel et al 2026][research_hummel_2026], [Marques et al 2026][research_marques_2026], [Page et al 2026][research_page_2026], [Pascioni et al 2026][research_pascioni_2026], [Rizzi et al 2026][research_rizzi_2026], [Tinney and Valdez 2026][research_tinney_valdez_2026], [Voropayev et al 2026][research_voropayev_2026].
 
 **This is a genuinely new constraint rather than an old one made stricter**, and it interacts directly with the quantity this article derives. Tip speed was capped here by cruise Mach number. It is capped now by community noise, at a lower value, which would make the X-19's already extraordinary blade wider still.
 
 ### Ground Effect, Download and the Vertiport
 
-The download this article computes at 13.2 percent of gross weight is a wing-area penalty, and the outwash it implies is now an infrastructure question, in [Crespillo et al 2025][research_crespillo_2025], [Guo et al 2025][research_guo_2025], [Guo et al 2025, Research of Hierarchical Vertiport][research_guo_2025_2], [Jung et al 2025][research_jung_2025], [Li et al 2025, Sand Ingestion Behavior of Helicop][research_li_2025_3], [Zhang and Hwang 2025][research_zhang_hwang_2025], [Zhao et al 2025, UAV Operations and Vertiport Capac][research_zhao_2025_3], [Li et al 2026, Urban air mobility vertiports][research_li_2026_2], [Lyu and Feng 2026][research_lyu_feng_2026], [Mirković et al 2026][research_mirkovic_2026], [Nagrare and Lieb 2026][research_nagrare_lieb_2026], [Park and Kim 2026][research_park_kim_2026].
+The download this article computes at 13.2 percent of gross weight is a wing-area penalty, and the outwash it implies is now an infrastructure question, in [García Crespillo et al 2024][research_crespillo_2025], [Guo et al 2025][research_guo_2025], [Guo et al 2025, Research of Hierarchical Vertiport][research_guo_2025_2], [Jung et al 2025][research_jung_2025], [Li et al 2025, Sand Ingestion Behavior of Helicop][research_li_2025_3], [Zhang and Hwang 2025][research_zhang_hwang_2025], [Zhao et al 2025, UAV Operations and Vertiport Capac][research_zhao_2025_3], [Li et al 2026, Urban air mobility vertiports][research_li_2026_2], [Lyu and Feng 2026][research_lyu_feng_2026], [Mirković et al 2026][research_mirkovic_2026], [Nagrare and Lieb 2026][research_nagrare_lieb_2026], [Park and Kim 2026][research_park_kim_2026].
 
 **A vehicle at 26 pounds per square foot of disc loading needs a prepared surface**, and the modern field calls that a vertiport and regulates it, which is the same requirement with a name and a standard attached.
 
 ### Methods, Autonomy and What Replaced the Wind Tunnel
 
-The interference this article estimates with a downwash gradient and a contraction factor is now simulated directly, in [Dabaghian et al 2025][research_dabaghian_2025], [Hakim et al 2025][research_hakim_2025], [Liu et al 2025, Supersonic aircraft aerodynamic pe][research_liu_2025_3], [Lopez and Biancolini 2025][research_lopez_biancolini_2025], [Mir 2025][research_mir_2025], [Sastre et al 2025][research_sastre_2025], [Wang et al 2025][research_wang_2025], [Yan and Shi 2025][research_yan_shi_2025], [Cai et al 2026][research_cai_2026], [Claro et al 2026][research_claro_2026], [Qin 2026][research_qin_2026], [Shen et al 2026, A multi-fidelity workflow for conc][research_shen_2026_2], [Suo et al 2026][research_suo_2026], [ZHANG et al 2026, Optimization of rotor aerodynamic][research_zhang_2026_3].
+The interference this article estimates with a downwash gradient and a contraction factor is now simulated directly, in [H. Dabaghian et al 2025][research_dabaghian_2025], [Hakim et al 2025][research_hakim_2025], [Liu et al 2025, Supersonic aircraft aerodynamic pe][research_liu_2025_3], [Lopez and Biancolini 2025][research_lopez_biancolini_2025], [Sadiq Ali Mir et al 2025][research_mir_2025], [Sastre et al 2025][research_sastre_2025], [Wang et al 2025][research_wang_2025], [Yan and Shi 2025][research_yan_shi_2025], [Cai et al 2026][research_cai_2026], [Claro et al 2026][research_claro_2026], [Qin 2026][research_qin_2026], [Shen et al 2026, A multi-fidelity workflow for conc][research_shen_2026_2], [Suo et al 2026][research_suo_2026], [ZHANG et al 2026, Optimization of rotor aerodynamic][research_zhang_2026_3].
 
 **The 0.444 downwash gradient that costs this aircraft 1.65 degrees of attitude is not a quantity a modern analysis would need to approximate.** It would be resolved, and so would the propeller-wing interference that sits behind the keystone.
 
@@ -844,7 +844,7 @@ The contemporary literature adds a final observation that changes the verdict on
 - [Ashkenas 1965][research_ashkenas_1965]
 - [Ashkenas 1965, A STUDY OF CONVENTIONAL AIRPLANE H][research_ashkenas_1965_2]
 - [Atmaca et al 2025][research_atmaca_2025]
-- [B.tech 1st Year 2025][research_b_tech_1st_year_2025]
+- [Sinha 2025][research_b_tech_1st_year_2025]
 - [Bacchini et al 2021][research_bacchini_2021]
 - [Badgley and Laskin 1970][research_badgley_laskin_1970]
 - [Baek et al 2021][research_baek_2021]
@@ -852,7 +852,7 @@ The contemporary literature adds a final observation that changes the verdict on
 - [Bartie et al 1986][research_bartie_1986]
 - [Batina 1985][research_batina_1985]
 - [Battles 1975][research_battles_1975]
-- [Bauer 2025][research_bauer_2025]
+- [W. Bauer 2025][research_bauer_2025]
 - [Bellinger 1972][research_bellinger_1972]
 - [Bencze et al 1978][research_bencze_1978]
 - [BENNETT 1984][research_bennett_1984]
@@ -875,7 +875,7 @@ The contemporary literature adds a final observation that changes the verdict on
 - [Burton et al 2026][research_burton_2026]
 - [Butler et al 1966][research_butler_1966]
 - [Böhnisch et al 2026][research_bohnisch_2026]
-- [CA 1969][research_ca_1969]
+- [Air Force Test Pilot School Edwards Afb Ca 1969][research_ca_1969]
 - [Cai et al 2026][research_cai_2026]
 - [Carlson 1958][research_carlson_1958]
 - [Carpenter and Paulnock 1949][research_carpenter_paulnock_1949]
@@ -883,7 +883,7 @@ The contemporary literature adds a final observation that changes the verdict on
 - [Castles and Gray 1951][research_castles_gray_1951]
 - [Cavalcanti et al 2026][research_cavalcanti_2026]
 - [Cavcar 2011][research_cavcar_2011]
-- [Center 1978][research_center_1978]
+- [Budd Co Fort Washington Pa Technical Center 1978][research_center_1978]
 - [Chaohui et al 2026][research_chaohui_2026]
 - [Chawla 1952][research_chawla_1952]
 - [Chen 2023, Controller design for transition f][research_chen_2023_4]
@@ -902,7 +902,7 @@ The contemporary literature adds a final observation that changes the verdict on
 - [COWARD 1955][research_coward_1955]
 - [Coy et al 1988][research_coy_1988]
 - [CRAIG et al 1991][research_craig_1991]
-- [Crespillo et al 2025][research_crespillo_2025]
+- [García Crespillo et al 2024][research_crespillo_2025]
 - [Crigler and Gilman 1949][research_crigler_gilman_1949]
 - [Crigler and Gilman 1952][research_crigler_gilman_1952]
 - [Crimi 1975][research_crimi_1975]
@@ -912,7 +912,7 @@ The contemporary literature adds a final observation that changes the verdict on
 - [Curtiss et al 1967][research_curtiss_1967]
 - [Curtiss et al 1985][research_curtiss_1985]
 - [Czech et al 2026][research_czech_2026]
-- [Dabaghian et al 2025][research_dabaghian_2025]
+- [H. Dabaghian et al 2025][research_dabaghian_2025]
 - [DALLAS and IRVIN 1956][research_dallas_irvin_1956]
 - [Delano 1947][research_delano_1947]
 - [Delany 1942][research_delany_1942]
@@ -1086,7 +1086,7 @@ The contemporary literature adds a final observation that changes the verdict on
 - [MILLA and BLICK 1966][research_milla_blick_1966]
 - [MILLER 1948][research_miller_1948]
 - [Min et al 2026][research_min_2026]
-- [Mir 2025][research_mir_2025]
+- [Sadiq Ali Mir et al 2025][research_mir_2025]
 - [Mirković et al 2026][research_mirkovic_2026]
 - [Mitchell 1991][research_mitchell_1991]
 - [Mitchell and Mikkelson 1982][research_mitchell_mikkelson_1982]
@@ -1183,7 +1183,7 @@ The contemporary literature adds a final observation that changes the verdict on
 - [Talbot et al 1994][research_talbot_1994]
 - [Tapscott 1960][research_tapscott_1960]
 - [Tapscott 1960, Criteria for Control and Response][research_tapscott_1960_2]
-- [Taylor 1942][research_taylor_1942]
+- [Lockwood Taylor 1942][research_taylor_1942]
 - [THOREN and JOHNSON 1940][research_thoren_johnson_1940]
 - [Tinney and Valdez 2026][research_tinney_valdez_2026]
 - [Tosti 1962][research_tosti_1962]

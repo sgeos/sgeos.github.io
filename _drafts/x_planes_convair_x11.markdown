@@ -526,7 +526,7 @@ The result is period material and not a later reconstruction. [Scherberg and Rub
 
 ### Ground Handling, Which the Structure Dictates
 
-A structure that collapses unpressurised cannot be handled like an aeroplane. It requires a nitrogen supply at every point in its life, transport fixtures that support it without imposing a bending moment above the pressure-stabilised limit computed above, and a launch complex that keeps it inflated while it is fuelled. **The structural decision propagates into buildings and vehicles and procedures**, and the accessible record of that apparatus is unusually good, in [General Dynamics Convair 1966][research_div_1966] and its companion volumes and in [Peters and Hall 1963][research_peters_hall_1963] on system-test data for the engine system.
+A structure that collapses unpressurised cannot be handled like an aeroplane. It requires a nitrogen supply at every point in its life, transport fixtures that support it without imposing a bending moment above the pressure-stabilised limit computed above, and a launch complex that keeps it inflated while it is fuelled. **The structural decision propagates into buildings and vehicles and procedures**, and the accessible record of that apparatus is unusually good, in [General Dynamics San Diego Ca Convair Div 1966][research_div_1966] and its companion volumes and in [Peters and Hall 1963][research_peters_hall_1963] on system-test data for the engine system.
 
 The propellant loading problem deserves its own note, because a balloon tank couples loading to structure in a way a conventional tank does not. Filling the tank changes the pressure the walls must hold, changes the mass the walls must carry, and changes the temperature of the material, and all three happen while it stands unsupported on a pad. **Loading is a structural operation and not merely a fluid transfer.** [Whitcombe 1961, Optimum Propellant Loading And Pro][research_whitcombe_1961_2] optimises propellant loading and utilisation, and ground support equipment practice of the period runs from [Moore 1958][research_moore_1958] and [Newton and Makrides 1954][research_newton_makrides_1954], with launch complex activation in [Powell 1962][research_powell_1962].
 
@@ -569,7 +569,7 @@ $$a_{\text{tip}} = (2 \pi)^{2} \times 11.6 = 458 \, \text{m/s}^{2} = 47 g$$
 
 at the nose, applied as a bending load along the whole vehicle. **The structure that everyone expected to fold survived a load case nobody had designed for.**
 
-The flight-by-flight record for the operational variants is in the Flight Test Working Group reports, of which [Diegoca 1961][research_diegoca_1961] is one, and the survival-probability analysis such a programme generates is [Beer and Lennox 1965][research_beer_lennox_1965].
+The flight-by-flight record for the operational variants is in the Flight Test Working Group reports, of which [General Dynamics/Astronautics San Diegoca 1961][research_diegoca_1961] is one, and the survival-probability analysis such a programme generates is [Beer and Lennox 1965][research_beer_lennox_1965].
 
 ### What the Eight Flights Were Actually For
 
@@ -605,7 +605,7 @@ so an estimate good to five percentage points at a true reliability near one hal
 
 $$n = \frac{0.25}{0.05^{2}} = 100 \, \text{flights}$$
 
-which no ballistic missile programme was ever going to fly as development articles. **Reliability for such a vehicle is therefore established by inference from ground test and by accumulating operational rounds, not by the flight test programme**, and the Difficulties Review volumes of [General Dynamics Convair 1966][research_div_1966] are what that inference actually looks like when written down.
+which no ballistic missile programme was ever going to fly as development articles. **Reliability for such a vehicle is therefore established by inference from ground test and by accumulating operational rounds, not by the flight test programme**, and the Difficulties Review volumes of [General Dynamics San Diego Ca Convair Div 1966][research_div_1966] are what that inference actually looks like when written down.
 
 ## Comparison With Ground Prediction
 
@@ -681,7 +681,7 @@ The newer work goes further and tries to predict the lower bound rather than ass
 
 ### Shell Analysis Itself, Which Is No Longer Done by Hand
 
-The relations this article uses are closed-form membrane and buckling results because those are what the period had and what a reader can check. Modern shell analysis is numerical, and the specific problem the article poses has been solved properly. Static bending of a pressurised cylindrical shell, which is the exact configuration of the keystone derivation, is [Samadzadeh et al 2024][research_samadzadeh_2024]. [Yu 2026][research_yu_2026] takes the externally pressurised case, [Jin 2025][research_jin_2025] puts internal pressure on a non-circular shell, geometrically nonlinear formulations are [Azizi and Dornisch 2025][research_azizi_dornisch_2025] and [Chaabani et al 2025][research_chaabani_2025], and a launch-vehicle-like article is analysed and tested in [Rudd et al 2024][research_rudd_2024].
+The relations this article uses are closed-form membrane and buckling results because those are what the period had and what a reader can check. Modern shell analysis is numerical, and the specific problem the article poses has been solved properly. Static bending of a pressurised cylindrical shell, which is the exact configuration of the keystone derivation, is [Samadzadeh et al 2024][research_samadzadeh_2024]. [Yu 2026][research_yu_2026] takes the externally pressurised case, [Jin 2025][research_jin_2025] puts internal pressure on a non-circular shell, geometrically nonlinear formulations are [Azizi and Dornisch 2025][research_azizi_dornisch_2025] and [Chaabani et al 2025][research_chaabani_2025], and a launch-vehicle-like article is analysed and tested in [Tillotson Rudd et al 2024][research_rudd_2024].
 
 **The probabilistic turn is the important one.** [Sadovský et al 2024][research_sadovsky_2024] identifies buckling resistance as a distribution rather than a value, which is what a knockdown factor was always crudely approximating. A design factor of 0.2 is a one-number summary of a probability distribution nobody could compute in 1951 and everybody can compute now.
 
@@ -695,7 +695,7 @@ Inflatable tube bending is modelled and validated experimentally in [Gong et al 
 
 ### Propellant Tanks, Where the Rocket Equation Has Not Changed
 
-Tank structure remains where launch-vehicle mass is won and lost, and the modern literature is dominated by cryogenics because the propellants moved. [Kim et al 2025][research_kim_2025] optimises a launch vehicle tank structurally, the common-bulkhead arrangement the Atlas pioneered appears in [Zhang et al 2025, Improving storage performance of a][research_zhang_2025_2] and [Zhang et al 2025, Feasibility study on synthermal st][research_zhang_2025_3], [Yenugula et al 2025][research_yenugula_2025] adds vacuum insulation to a thermo-structural analysis, all-composite cryogenic tanks are [Rhee et al 2025][research_rhee_2025], [Cheng et al 2025][research_cheng_2025] couples the analysis concurrently, [Bershadskyi et al 2022][research_bershadskyi_2022] verifies a tank operational-pressure model, and two-way fluid-structure and thermal-structure interaction appears in [Ajeesh et al 2026][research_ajeesh_2026].
+Tank structure remains where launch-vehicle mass is won and lost, and the modern literature is dominated by cryogenics because the propellants moved. [Kim et al 2025][research_kim_2025] optimises a launch vehicle tank structurally, the common-bulkhead arrangement the Atlas pioneered appears in [Zhang et al 2025, Improving storage performance of a][research_zhang_2025_2] and [Zhang et al 2025, Feasibility study on synthermal st][research_zhang_2025_3], [Narayana Yenugula et al 2025][research_yenugula_2025] adds vacuum insulation to a thermo-structural analysis, all-composite cryogenic tanks are [Rhee et al 2025][research_rhee_2025], [Cheng et al 2025][research_cheng_2025] couples the analysis concurrently, [Bershadskyi et al 2022][research_bershadskyi_2022] verifies a tank operational-pressure model, and two-way fluid-structure and thermal-structure interaction appears in [Ajeesh et al 2026][research_ajeesh_2026].
 
 The boil-off computed above at seven and a half percent of the oxygen load per hour is now attacked directly. [Zhang et al 2025, Multi-objective optimization of cr][research_zhang_2025_7] optimises for zero boil-off, boil-off gas reduction appears in [Nikonchuk 2026][research_nikonchuk_2026] and [Lu et al 2026][research_lu_2026], double-shell vacuum insulation behaviour is [Lee et al 2026, Boil-Off Rate Behavior in a Double][research_lee_2026_2], [Zhang et al 2026][research_zhang_2026] and [Yu et al 2026, Design and evaluation of thermal i][research_yu_2026_2] take insulation heat and mass transfer, [Leng et al 2026][research_leng_2026] compares thermodynamic performance, and the whole thermal-fluid management problem belongs to [Chung 2026][research_chung_2026].
 
@@ -719,11 +719,11 @@ The ascent equivalent is transonic buffet, which is [Polivanov and Sidorenko 202
 
 ### Acoustics and Sonic Fatigue
 
-The 153 decibels computed above is a fatigue problem rather than a strength problem, and the modern treatment is statistical. [Qiu et al 2026][research_qiu_2026] gives a damage-equivalent stress amplitude under random loading, [Zhang et al 2026, Fatigue life and failure location][research_zhang_2026_2] predicts fatigue life and failure location, [Pan et al 2026][research_pan_2026] grows cracks under variable amplitude, [Reddy et al 2026][research_reddy_2026] tests a functional article vibro-acoustically, and thermo-vibro-acoustic analysis with structural mitigation appears in [Abhishek Hari 2026][research_abhishek_hari_2026], suppression on a corrugated structure is [Zhou et al 2025, Vibro-acoustic analysis and suppre][research_zhou_2025_2], and acoustic resonance in an aerospace duct is [Wang et al 2026, Experimental investigation of acou][research_wang_2026_2].
+The 153 decibels computed above is a fatigue problem rather than a strength problem, and the modern treatment is statistical. [Qiu et al 2026][research_qiu_2026] gives a damage-equivalent stress amplitude under random loading, [Zhang et al 2026, Fatigue life and failure location][research_zhang_2026_2] predicts fatigue life and failure location, [Pan et al 2026][research_pan_2026] grows cracks under variable amplitude, [Reddy et al 2026][research_reddy_2026] tests a functional article vibro-acoustically, and thermo-vibro-acoustic analysis with structural mitigation appears in [Abhishek Hari, 2026][research_abhishek_hari_2026], suppression on a corrugated structure is [Zhou et al 2025, Vibro-acoustic analysis and suppre][research_zhou_2025_2], and acoustic resonance in an aerospace duct is [Wang et al 2026, Experimental investigation of acou][research_wang_2026_2].
 
 ### Flaws, Fracture, and What a Proof Test Actually Proves
 
-The proof test the article describes loads the tank to a fraction of its failure stress and concludes that it will hold. What it actually establishes is that no flaw large enough to propagate at that stress is present, which is a statement about fracture mechanics rather than about strength. Modern treatment of that distinction is [Agarwal et al 2025][research_agarwal_2025] on crack analysis by extended finite elements, [Mullin et al 2025][research_mullin_2025] on critical flaw sizes and crack driving force, and [Zhao et al 2026][research_zhao_2026] on a physics-informed neural network for the same problem. Comparative small-scale test methods are [Ding et al 2025][research_ding_2025], burst testing of vessels is [Lüders et al 2025][research_luders_2025] and [Paleti et al 2026][research_paleti_2026], and weld inspection standards applied to vessels are [Ramdani 2026][research_ramdani_2026]. Sensor-based anomaly detection integrated with structural monitoring is [Zhou et al 2024][research_zhou_2024].
+The proof test the article describes loads the tank to a fraction of its failure stress and concludes that it will hold. What it actually establishes is that no flaw large enough to propagate at that stress is present, which is a statement about fracture mechanics rather than about strength. Modern treatment of that distinction is [Agarwal et al 2025][research_agarwal_2025] on crack analysis by extended finite elements, [Mullin et al 2025][research_mullin_2025] on critical flaw sizes and crack driving force, and [Zhao et al 2026][research_zhao_2026] on a physics-informed neural network for the same problem. Comparative small-scale test methods are [Ding et al 2025][research_ding_2025], burst testing of vessels is [Lüders et al 2025][research_luders_2025] and [Paleti et al 2026][research_paleti_2026], and weld inspection standards applied to vessels are [Dian Fitria Ramdani and Dene Herwanto 2026][research_ramdani_2026]. Sensor-based anomaly detection integrated with structural monitoring is [Zhou et al 2024][research_zhou_2024].
 
 **On a vehicle whose wall is under a millimetre thick, a flaw that matters is smaller than an inspector can reliably see**, which is why the proof test rather than the inspection is the acceptance gate, and why the gate works.
 
@@ -733,11 +733,11 @@ The bending and axial modes of a launcher decide its control stability and its p
 
 ### Launch Aerodynamics, Computed Rather Than Tunnelled
 
-The ascent loads the article estimates from a scale height and a normal-force slope are now computed. Stage separation, which the Atlas performs uniquely by dropping engines rather than tanks, is simulated against wind-tunnel test in [Kumar et al 2023][research_kumar_2023]. Reusable vehicle aerodynamics is [Prasad 2022][research_prasad_2022], aerodynamic damping extraction is [Wang and Chen 2022][research_wang_chen_2022], turbulence-model sensitivity is [Yang et al 2022][research_yang_2022] and [Zhao et al 2022][research_zhao_2022], and interference reduction is [Liao et al 2023][research_liao_2023]. Inflatable decelerator aerodynamics, which is the pressure-stabilised structure meeting the reentry problem, is [Olave et al 2023][research_olave_2023], [Yun and Liu 2023][research_yun_liu_2023], and [Jalaja et al 2024][research_jalaja_2024].
+The ascent loads the article estimates from a scale height and a normal-force slope are now computed. Stage separation, which the Atlas performs uniquely by dropping engines rather than tanks, is simulated against wind-tunnel test in [Kumar et al 2023][research_kumar_2023]. Reusable vehicle aerodynamics is [Prasad 2022][research_prasad_2022], aerodynamic damping extraction is [Wang and Chen 2022][research_wang_chen_2022], turbulence-model sensitivity is [Yang et al 2022][research_yang_2022] and [Zhao et al 2022][research_zhao_2022], and interference reduction is [Liao et al 2023][research_liao_2023]. Inflatable decelerator aerodynamics, which is the pressure-stabilised structure meeting the reentry problem, is [Rioseco Olave et al 2023][research_olave_2023], [Yun and Liu 2023][research_yun_liu_2023], and [Jalaja et al 2024][research_jalaja_2024].
 
 ### Ascent Loads, Guidance, and the Trajectory
 
-[Sun et al 2024][research_sun_2024] optimises the ascent convexly, approximate analytical solutions are [Yu et al 2023][research_yu_2023] and [Yu et al 2024, Approximate analytical solutions f][research_yu_2024_2], [He et al 2024][research_he_2024] relieves load by rolling, [Zhou et al 2025][research_zhou_2025] learns the attitude control that does it, [Jayan et al 2024][research_jayan_2024] estimates the resulting loads, computational fluid dynamics for ascent belongs to [Dalle et al 2024][research_dalle_2024] with Reynolds and aeroelastic scaling in [Ivanco et al 2024][research_ivanco_2024], chance-constrained optimisation is [Guo et al 2026][research_guo_2026], adaptive sequential convex programming is [Li et al 2024, Adaptive Sequential Convex Program][research_li_2024_3], and the thermal environment of the ascending vehicle is [Sun et al 2026][research_sun_2026]. Interstage structural design, which is the part the Atlas famously did not have, is [Luca et al 2026][research_luca_2026].
+[Sun et al 2024][research_sun_2024] optimises the ascent convexly, approximate analytical solutions are [Yu et al 2023][research_yu_2023] and [Yu et al 2024, Approximate analytical solutions f][research_yu_2024_2], [He et al 2024][research_he_2024] relieves load by rolling, [Zhou et al 2025][research_zhou_2025] learns the attitude control that does it, [Jayan et al 2024][research_jayan_2024] estimates the resulting loads, computational fluid dynamics for ascent belongs to [Dalle et al 2024][research_dalle_2024] with Reynolds and aeroelastic scaling in [Ivanco et al 2024][research_ivanco_2024], chance-constrained optimisation is [Guo et al 2026][research_guo_2026], adaptive sequential convex programming is [Li et al 2024, Adaptive Sequential Convex Program][research_li_2024_3], and the thermal environment of the ascending vehicle is [Sun et al 2026][research_sun_2026]. Interstage structural design, which is the part the Atlas famously did not have, is [De Luca et al 2026][research_luca_2026].
 
 **The engine-cutoff accuracy the article computes at 0.13 metres per second is now a solved control problem**, and the papers above solve harder versions of it while carrying loads the Atlas would not have survived.
 
@@ -751,11 +751,11 @@ The binomial interval computed above is wide because eight is a small number. [W
 
 ### Structural Health Monitoring and the Digital Twin
 
-A stage that must be kept pressurised at all times has a structural state worth watching continuously, and that is now possible. [Louw and Kearsley 2026][research_louw_kearsley_2026] and [Chehrzad and Khoramishad 2026][research_chehrzad_khoramishad_2026] monitor large structures, [Hurtado et al 2026][research_hurtado_2026] validates the instrumentation in the field, and the digital-twin framing belongs to [Tao and Qi 2025][research_tao_qi_2025]. **Had the Atlas been built now it would have known its own pressure margin in real time**, which is the single capability that would most have changed how it was handled.
+A stage that must be kept pressurised at all times has a structural state worth watching continuously, and that is now possible. [Louw and Kearsley 2026][research_louw_kearsley_2026] and [Chehrzad and Khoramishad 2026][research_chehrzad_khoramishad_2026] monitor large structures, [Calderon Hurtado et al 2026][research_hurtado_2026] validates the instrumentation in the field, and the digital-twin framing belongs to [Tao and Qi 2025][research_tao_qi_2025]. **Had the Atlas been built now it would have known its own pressure margin in real time**, which is the single capability that would most have changed how it was handled.
 
 ### Manufacture, Where a Thin Welded Shell Is Still Difficult
 
-The Atlas skin is a welded stainless assembly at a gauge where welding distortion is comparable to the thickness. [Płaczek et al 2023][research_paczek_2023] and [Qiu et al 2023][research_qiu_2023] fatigue welded joints in thin-walled structure, [Zhang and He 2024][research_zhang_he_2024] treats the welds by high-frequency mechanical impact, [Edwards et al 2023][research_edwards_2023] models microstructure in duplex stainless, [Engineering 2024][research_engineering_2024] takes springback and cold-roll forming, additive manufacture of stainless for rocket application belongs to [Thomas 2022][research_thomas_2022], hybrid additive and subtractive manufacture is [Wu et al 2026][research_wu_2026], friction stir weld heat treatment is [Ghio and Cerri 2026][research_ghio_cerri_2026], and critical flaw sizing is [Mullin et al 2025][research_mullin_2025].
+The Atlas skin is a welded stainless assembly at a gauge where welding distortion is comparable to the thickness. [Płaczek et al 2023][research_paczek_2023] and [Qiu et al 2023][research_qiu_2023] fatigue welded joints in thin-walled structure, [Zhang and He 2024][research_zhang_he_2024] treats the welds by high-frequency mechanical impact, [Edwards et al 2023][research_edwards_2023] models microstructure in duplex stainless, [Lee et al 2024][research_engineering_2024] takes springback and cold-roll forming, additive manufacture of stainless for rocket application belongs to [Thomas 2022][research_thomas_2022], hybrid additive and subtractive manufacture is [Wu et al 2026][research_wu_2026], friction stir weld heat treatment is [Ghio and Cerri 2026][research_ghio_cerri_2026], and critical flaw sizing is [Mullin et al 2025][research_mullin_2025].
 
 **Weld inspection has become a machine-vision problem**, in [Luo et al 2026][research_luo_2026], [Thompson et al 2025][research_thompson_2025], [Luo et al 2025][research_luo_2025], [Zhao et al 2025, Swrd][research_zhao_2025_2], and [Mukherjee et al 2025][research_mukherjee_2025]. On a vehicle where the longitudinal weld decides the structure, that capability is not incidental.
 
@@ -830,7 +830,7 @@ Treating the X-11 through the mass-fraction keystone illuminates the design but 
 
 **It was not a complete missile.** No operational guidance, no reentry vehicle, no warhead, and a range a fifth of the requirement. The X-11 is the airframe and the booster propulsion and nothing else.
 
-**The structure was not the programme's actual difficulty.** Four of eight flights failed, and the failures were plumbing, heating, and pneumatics. A treatment organised around the balloon tank gives the impression that the daring part was the hard part, and the flight record says the opposite, and the record that shows it is the Difficulties Review of [General Dynamics Convair 1966][research_div_1966] rather than any structural document.
+**The structure was not the programme's actual difficulty.** Four of eight flights failed, and the failures were plumbing, heating, and pneumatics. A treatment organised around the balloon tank gives the impression that the daring part was the hard part, and the flight record says the opposite, and the record that shows it is the Difficulties Review of [General Dynamics San Diego Ca Convair Div 1966][research_div_1966] rather than any structural document.
 
 **Mass fraction stopped being binding.** The keystone that justified the design is the reason the design was abandoned, since later vehicles could afford heavier structure and could not afford the handling.
 
@@ -874,7 +874,7 @@ Three readings are available and the article does not choose between them.
 
 The contrast with the previous article is sharp and it is worth stating as a controlled result.
 
-**The Navaho record is absent from the defence archive and the Atlas record is present.** The [X-10][related_post_a307_north_american_x10] article established that querying the Defense Technical Information Center through the Crossref publisher prefix on the project number MX-770 returns nothing about the Navaho at all, while the adjacent MX-776 returns a RASCAL weapon system report. The same route on the Atlas returns the Flight Test Working Group reports for individual missiles, the multi-volume Difficulties Review of the Atlas booster and its ground support systems, propellant-loading system design, and engine system-test data. **Same archive, same route, same query form, and the difference is that one programme was cancelled in 1957 and the other flew for sixty years.** The specific documents are [Diegoca 1961][research_diegoca_1961] and its companion flight test reports, the five volumes of [General Dynamics Convair 1966][research_div_1966], and [Peters and Hall 1963][research_peters_hall_1963] on engine system-test data, with the programme-level history in [Rockefeller and Alfred 1960][research_rockefeller_alfred_1960].
+**The Navaho record is absent from the defence archive and the Atlas record is present.** The [X-10][related_post_a307_north_american_x10] article established that querying the Defense Technical Information Center through the Crossref publisher prefix on the project number MX-770 returns nothing about the Navaho at all, while the adjacent MX-776 returns a RASCAL weapon system report. The same route on the Atlas returns the Flight Test Working Group reports for individual missiles, the multi-volume Difficulties Review of the Atlas booster and its ground support systems, propellant-loading system design, and engine system-test data. **Same archive, same route, same query form, and the difference is that one programme was cancelled in 1957 and the other flew for sixty years.** The specific documents are [General Dynamics/Astronautics San Diegoca 1961][research_diegoca_1961] and its companion flight test reports, the five volumes of [General Dynamics San Diego Ca Convair Div 1966][research_div_1966], and [Peters and Hall 1963][research_peters_hall_1963] on engine system-test data, with the programme-level history in [Rockefeller and Alfred 1960][research_rockefeller_alfred_1960].
 
 The aerospace archive holds the structural literature rather than the vehicle, which suits this article because the keystone is a structural principle and not a vehicle detail. The shell-buckling and pressure-stabilisation literature is large, contemporary with the design, and directly applicable.
 
@@ -982,7 +982,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 
 ### Research
 
-- [Abhishek Hari 2026][research_abhishek_hari_2026]
+- [Abhishek Hari, 2026][research_abhishek_hari_2026]
 - [Abraham 1963][research_abraham_1963]
 - [Adam and King 1965][research_adam_king_1965]
 - [Adams and Stoll 1969][research_adams_stoll_1969]
@@ -1035,7 +1035,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 - [Dafler 1962][research_dafler_1962]
 - [Dalle et al 2024][research_dalle_2024]
 - [Das and Padmanabhan 2022][research_das_padmanabhan_2022]
-- [Diegoca 1961][research_diegoca_1961]
+- [General Dynamics/Astronautics San Diegoca 1961][research_diegoca_1961]
 - [DIGiovanii and Dugundji 1965][research_digiovanii_dugundji_1965]
 - [Ding et al 2025][research_ding_2025]
 - [Dolgopolov and Nikolayev 2024][research_dolgopolov_nikolayev_2024]
@@ -1044,7 +1044,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 - [Du et al 2025][research_du_2025]
 - [Edwards et al 2023][research_edwards_2023]
 - [Elliott and Rau 1968][research_elliott_rau_1968]
-- [Engineering 2024][research_engineering_2024]
+- [Lee et al 2024][research_engineering_2024]
 - [Erdogan and Tekin 2025][research_erdogan_tekin_2025]
 - [Eshete et al 2024][research_eshete_2024]
 - [Evkin 2026][research_evkin_2026]
@@ -1056,7 +1056,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 - [Gao et al 2024][research_gao_2024]
 - [Gashe et al 2025][research_gashe_2025]
 - [Ge et al 2026][research_ge_2026]
-- [General Dynamics Convair 1966][research_div_1966]
+- [General Dynamics San Diego Ca Convair Div 1966][research_div_1966]
 - [Gerald and Runyan 1962][research_gerald_runyan_1962]
 - [Gerasimov 2025][research_gerasimov_2025]
 - [Ghio and Cerri 2026][research_ghio_cerri_2026]
@@ -1081,7 +1081,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 - [Huang et al 2025, Modal Identification of a Wind Tur][research_huang_2025_2]
 - [Humphrey 1961][research_humphrey_1961]
 - [Hung and Hunt 1964][research_hung_hunt_1964]
-- [Hurtado et al 2026][research_hurtado_2026]
+- [Calderon Hurtado et al 2026][research_hurtado_2026]
 - [Ichino and Takahashi 1965][research_ichino_takahashi_1965]
 - [Im et al 2025][research_im_2025]
 - [Ivanco et al 2024][research_ivanco_2024]
@@ -1137,7 +1137,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 - [Lu and Cao 2026][research_lu_cao_2026]
 - [Lu et al 2026][research_lu_2026]
 - [Lubowe 1965][research_lubowe_1965]
-- [Luca et al 2026][research_luca_2026]
+- [De Luca et al 2026][research_luca_2026]
 - [Luo et al 2025][research_luo_2025]
 - [Luo et al 2026][research_luo_2026]
 - [Lüders et al 2025][research_luders_2025]
@@ -1176,7 +1176,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 - [Nikonchuk 2026][research_nikonchuk_2026]
 - [Nolan 1964][research_nolan_1964]
 - [Nott 1963][research_nott_1963]
-- [Olave et al 2023][research_olave_2023]
+- [Rioseco Olave et al 2023][research_olave_2023]
 - [Ostner 1962][research_ostner_1962]
 - [Ozoigbo et al 2025][research_ozoigbo_2025]
 - [Paleti et al 2026][research_paleti_2026]
@@ -1198,7 +1198,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 - [Qiu et al 2026][research_qiu_2026]
 - [Radovcich 1965][research_radovcich_1965]
 - [Raji et al 2019][research_raji_2019]
-- [Ramdani 2026][research_ramdani_2026]
+- [Dian Fitria Ramdani and Dene Herwanto 2026][research_ramdani_2026]
 - [Randall 1970][research_randall_1970]
 - [Reddy et al 2026][research_reddy_2026]
 - [Ren 2025, Novel insights into flow mechanics][research_ren_2025_2]
@@ -1212,7 +1212,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 - [Roithmayr and Pei 2024][research_roithmayr_pei_2024]
 - [Rubin 1965][research_rubin_1965]
 - [Rubin 1966][research_rubin_1966]
-- [Rudd et al 2024][research_rudd_2024]
+- [Tillotson Rudd et al 2024][research_rudd_2024]
 - [Russell 1964][research_russell_1964]
 - [Sadovský et al 2024][research_sadovsky_2024]
 - [Sahu et al 2024][research_sahu_2024]
@@ -1294,7 +1294,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 - [Yang et al 2022][research_yang_2022]
 - [Yang et al 2026, Comparative Study on Post-Buckling][research_yang_2026_2]
 - [Yao et al 2022][research_yao_2022]
-- [Yenugula et al 2025][research_yenugula_2025]
+- [Narayana Yenugula et al 2025][research_yenugula_2025]
 - [Yoon et al 2021][research_yoon_2021]
 - [Yu 2026][research_yu_2026]
 - [Yu et al 2023][research_yu_2023]

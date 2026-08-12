@@ -145,4 +145,4 @@ percent of identifiers resolved only through the issuing registry and every one 
 
 | Date | Scope | Result |
 |---|---|---|
-| 2026-08-11 | Whole corpus, first run covering A369 and A370 | See the TASKLOG entry for that date |
+| 2026-08-11 | Whole corpus, first run covering A369, A370 and the 37-draft publication queue | 77,593 citations, 61,483 distinct. After fixing `assess()` and repairing 632 labels: **43 mismatch, 89 label-name, 184 weak, 3 nonexistent, 5 DataCite**. See the TASKLOG entry for that date |

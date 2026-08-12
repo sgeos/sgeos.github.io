@@ -223,7 +223,7 @@ The disposal problem is not the total energy but the rate at which it arrives at
 
 $$\dot{q} = k \sqrt{\frac{\rho}{R_{n}}}\, V^{3}$$
 
-with $k = 1.7415 \times 10^{-4}$ in SI units, $\rho$ the free-stream density, and $R_{n}$ the nose radius. Correlations of this shape rest on a large body of stagnation-point work, compiled and reconciled much later in [Perini 1972][research_perini_1972], and built up through [Boison 1959][research_boison_1959] and [Trimmer 1968][research_trimmer_1968] on the velocity gradient the relation depends on, [Marvin 1961][research_marvin_1961] on blunt plates, [Chow 1963][research_chow_1963] at low density, [Dohnanyi 1964][research_dohnanyi_1964] on the laminar case, and [Biberman et al 1970][research_biberman_1970]. The radiative contribution, which matters at re-entry speeds and not at the X-15's, is [Koh 1962][research_koh_1962] and [Winovich 1968][research_winovich_1968], and the wider gas-physics problem is [Scala 1962][research_scala_1962] and [Lin 1962][research_lin_1962]. The viscous and non-equilibrium behaviour that the simple correlations paper over is [Spalding 1963][research_spalding_1963], [Hermann 1965][research_hermann_1965], [Harney 1963][research_harney_1963], and [Vinokur 1970][research_vinokur_1970], with real-gas scale effects in [Adams et al 1976][research_adams_1976]. Further correlation work of the same family as the one used here is [Stephan and Obermeier 1974][research_stephan_obermeier_1974] and [Chou and Smith 1974][research_chou_smith_1974], and the general heating problem is set out in [Rand 1963][research_rand_1963], [Harri 1964][research_harri_1964], [Gros 1963][research_gros_1963], and [Chow 1963, Stagnation Point Heat Transfer Of][research_chow_1963_2], with cavity and wall-shape effects in [Nestler 1970][research_nestler_1970], [Arrington 1967][research_arrington_1967], and [Lunev and Khramov 1970][research_lunev_khramov_1970]. Measuring it in flight rather than in a tunnel is [Boylan et al 1978][research_boylan_1978] and [Hunt and Jones 1969][research_hunt_jones_1969]. Measuring any of it required instruments of its own, in [Huber 1966][research_huber_1966] and [Reis 1956][research_reis_1956].
+with $k = 1.7415 \times 10^{-4}$ in SI units, $\rho$ the free-stream density, and $R_{n}$ the nose radius. Correlations of this shape rest on a large body of stagnation-point work, compiled and reconciled much later in [Perini 1972][research_perini_1972], and built up through [Boison 1959][research_boison_1959] and [Trimmer 1968][research_trimmer_1968] on the velocity gradient the relation depends on, [Marvin 1961][research_marvin_1961] on blunt plates, [Ru-ren Chow 1963][research_chow_1963] at low density, [Dohnanyi 1964][research_dohnanyi_1964] on the laminar case, and [Biberman et al 1970][research_biberman_1970]. The radiative contribution, which matters at re-entry speeds and not at the X-15's, is [Koh 1962][research_koh_1962] and [Winovich 1968][research_winovich_1968], and the wider gas-physics problem is [Scala 1962][research_scala_1962] and [Lin 1962][research_lin_1962]. The viscous and non-equilibrium behaviour that the simple correlations paper over is [Spalding 1963][research_spalding_1963], [Hermann 1965][research_hermann_1965], [Harney 1963][research_harney_1963], and [Vinokur 1970][research_vinokur_1970], with real-gas scale effects in [Adams et al 1976][research_adams_1976]. Further correlation work of the same family as the one used here is [Stephan and Obermeier 1974][research_stephan_obermeier_1974] and [Chou and Smith 1974][research_chou_smith_1974], and the general heating problem is set out in [Rand 1963][research_rand_1963], [Harri 1964][research_harri_1964], [Gros 1963][research_gros_1963], and [Chow 1963, Stagnation Point Heat Transfer Of][research_chow_1963_2], with cavity and wall-shape effects in [Nestler 1970][research_nestler_1970], [Arrington 1967][research_arrington_1967], and [Lunev and Khramov 1970][research_lunev_khramov_1970]. Measuring it in flight rather than in a tunnel is [Boylan et al 1978][research_boylan_1978] and [Hunt and Jones 1969][research_hunt_jones_1969]. Measuring any of it required instruments of its own, in [Huber 1966][research_huber_1966] and [Reis 1956][research_reis_1956].
 
 **Two features of that relation govern the entire design.**
 
@@ -239,7 +239,7 @@ $$D_{\text{nose}} \propto \dot{q}^{-4}$$
 
 **Halving the heating costs sixteen times the nose drag.** That fourth-power exchange rate is why a re-entry capsule, which does not have to fly anywhere afterwards, is as blunt as it can be made, and why an aeroplane that must also glide several hundred kilometres to a runway is not.
 
-A third feature is absent from the relation and dominates the real problem. **A turbulent boundary layer transfers heat several times faster than a laminar one**, so where transition occurs matters more than most of the terms that are written down. The subject was under active investigation throughout the X-15's life and was not settled by it, in [Deem and Murphy 1965][research_deem_murphy_1965] on flat plates, [Sheetz 1965][research_sheetz_1965] on free flight, [Bueche 1966][research_bueche_1966] on the effect of surface roughness, [Henderson 1967][research_henderson_1967] and [Softley 1969][research_softley_1969] on cones, [Larson 1968][research_larson_1968] on results that did not fit, and [Masaki and Yakura 1968][research_masaki_yakura_1968] on how to carry a transitional layer through a heating analysis at all. [Berry 1967][research_berry_1967] flew an experiment for the purpose, and [Snodgrass 1955][research_snodgrass_1955] had measured heating and transition together on a Viking nose cone before the X-15 existed. [Graber et al 1968][research_graber_1968], [Kendall 1974][research_kendall_1974], and [Wainwright 1962][research_wainwright_1962] cover the observation and the tunnel technique. **Surface roughness moves transition forward and a real aircraft is rough**, which is the subject of [Berg 1977][research_berg_1977] and [Chien 1975][research_chien_1975], and the measurement of friction in the presence of a surface that is itself being consumed is [Bruno and Risher 1968][research_bruno_risher_1968]. The early difficulties of measuring a laminar layer at all are [Blue and Low 1953][research_blue_low_1953], and the supersonic friction coefficients that preceded any of the hypersonic work are [Boison 1953][research_boison_1953].
+A third feature is absent from the relation and dominates the real problem. **A turbulent boundary layer transfers heat several times faster than a laminar one**, so where transition occurs matters more than most of the terms that are written down. The subject was under active investigation throughout the X-15's life and was not settled by it, in [Deem and Murphy 1965][research_deem_murphy_1965] on flat plates, [Sheetz, Jr. 1965][research_sheetz_1965] on free flight, [Bueche 1966][research_bueche_1966] on the effect of surface roughness, [Henderson, Jr. 1967][research_henderson_1967] and [Softley 1969][research_softley_1969] on cones, [Larson 1968][research_larson_1968] on results that did not fit, and [Masaki and Yakura 1968][research_masaki_yakura_1968] on how to carry a transitional layer through a heating analysis at all. [Berry 1967][research_berry_1967] flew an experiment for the purpose, and [Snodgrass 1955][research_snodgrass_1955] had measured heating and transition together on a Viking nose cone before the X-15 existed. [Graber et al 1968][research_graber_1968], [Kendall 1974][research_kendall_1974], and [Wainwright 1962][research_wainwright_1962] cover the observation and the tunnel technique. **Surface roughness moves transition forward and a real aircraft is rough**, which is the subject of [Berg 1977][research_berg_1977] and [Chien 1975][research_chien_1975], and the measurement of friction in the presence of a surface that is itself being consumed is [Bruno and Risher 1968][research_bruno_risher_1968]. The early difficulties of measuring a laminar layer at all are [Blue and Low 1953][research_blue_low_1953], and the supersonic friction coefficients that preceded any of the hypersonic work are [Boison 1953][research_boison_1953].
 
 **Every number computed in this section assumes a boundary-layer state it does not derive**, and that assumption is the largest uncertainty in the analysis.
 
@@ -684,7 +684,7 @@ A conventional pitot-static boom cannot survive the stagnation heating computed 
 
 **It is worth pausing on this, because the aircraft's most basic instrument was a research project.** [Lipscomb and Dodgen 1958][research_lipscomb_dodgen_1958] describes the all-attitude flight-data system and [Christensen and Dodgen 1961][research_christensen_dodgen_1961] the inertial system that supplemented it. An aircraft that cannot measure its own angle of attack cannot be flown at the edge of its envelope, and the ball nose is the reason the X-15's data are worth anything.
 
-Extracting coefficients from what the instruments recorded is a discipline in itself, treated in [Schumacher 1952][research_schumacher_1952] on evaluating stability parameters from flight data and [Maas 1959][research_maas_1959] on measuring aerodynamic coefficients in asymmetric flight. Surface temperature measurement, which is what the heating data consist of, is [Reis 1959][research_reis_1959], with the response of the sensing element itself in [Rubio and Ballard 1967][research_rubio_ballard_1967] and a simulated-heating transducer in [Alexander 1970][research_alexander_1970]. The wider practice of flight testing at Edwards in the period is visible in [Blanchard 1953][research_blanchard_1953], [Maglieri et al 1959][research_maglieri_1959], [Andrews et al 1965][research_andrews_1965], and [Mctigue and Ryan 1968][research_mctigue_ryan_1968].
+Extracting coefficients from what the instruments recorded is a discipline in itself, treated in [Schumacher 1952][research_schumacher_1952] on evaluating stability parameters from flight data and [van der Maas 1959][research_maas_1959] on measuring aerodynamic coefficients in asymmetric flight. Surface temperature measurement, which is what the heating data consist of, is [Reis 1959][research_reis_1959], with the response of the sensing element itself in [Rubio and Ballard 1967][research_rubio_ballard_1967] and a simulated-heating transducer in [Alexander 1970][research_alexander_1970]. The wider practice of flight testing at Edwards in the period is visible in [Blanchard 1953][research_blanchard_1953], [Maglieri et al 1959][research_maglieri_1959], [Andrews et al 1965][research_andrews_1965], and [Mctigue and Ryan 1968][research_mctigue_ryan_1968].
 
 ### The Pilot, Who Is a Component of the Thermal System
 
@@ -754,7 +754,7 @@ The article's own arithmetic reproduces this pattern in miniature. The Sutton an
 
 That is the energy-management problem made tractable by a fact about the aerodynamics, and it is why the X-15 could be landed by a person rather than by a computer.
 
-**It did not stay that way, and the transition is documented.** [Jewel and Whitten 1960][research_jewel_whitten_1960] treats the problem of guiding a gliding vehicle from high altitude to a high key position, which is the manual technique written down, and by the end of the decade [Bryson 1969][research_bryson_1969] and [Hoffman et al 1970][research_hoffman_1970] were reporting landing approach guidance schemes for unpowered lifting vehicles as a control-theory problem. **The X-15's pilots solved by hand what the following generation solved by computing an optimal trajectory**, and the reason a person could do it at all is the flat optimum reported above.
+**It did not stay that way, and the transition is documented.** [Jewel and Whitten 1960][research_jewel_whitten_1960] treats the problem of guiding a gliding vehicle from high altitude to a high key position, which is the manual technique written down, and by the end of the decade [Bryson, Jr. 1969][research_bryson_1969] and [Hoffman et al 1970][research_hoffman_1970] were reporting landing approach guidance schemes for unpowered lifting vehicles as a control-theory problem. **The X-15's pilots solved by hand what the following generation solved by computing an optimal trajectory**, and the reason a person could do it at all is the flat optimum reported above.
 
 The precedent the X-15 inherited is [Day 1953][research_day_1953], on the glide-flight programme of the [X-2][related_post_a299_bell_x2], which established that an unpowered research aircraft could be landed deliberately rather than merely survived.
 
@@ -918,7 +918,7 @@ The article's Comparison section found that no facility of the 1960s could match
 
 The facilities themselves continue in [Sudarshan et al 2023][research_sudarshan_2023], [Yuan and Jiang 2021][research_yuan_jiang_2021], [Malekipour et al 2021][research_malekipour_2021], and [Shen et al 2023][research_shen_2023]. **What is new is quantifying the resulting ignorance rather than arguing about it.** [Khoury and Hickey 2026][research_khoury_hickey_2026] and [Li et al 2025, Application of Uncertainty Quantif][research_li_2025_4] apply uncertainty quantification to turbulence models in this regime, [Koch et al 2025][research_koch_2025] to the probabilistic design of a thermal protection system, and [Ding et al 2025, Sensitivity analysis and uncertain][research_ding_2025_2] to a rarefied case. [Horing et al 2025][research_horing_2025] does sensitivity analysis on an entry vehicle directly.
 
-Prediction of where such a vehicle will go, which is a different problem from flying it, is [Zhou et al 2026, Physics-Informed Ensemble Informer][research_zhou_2026_2], [He et al 2026][research_he_2026], and [Cai et al 2026][research_cai_2026]. The vehicles being designed against all of this are surveyed in [Long et al 2026][research_long_2026], [Nagata and Yamada 2026][research_nagata_yamada_2026], [MacLeod 2026][research_macleod_2026], [Paramadhayalan et al 2026][research_paramadhayalan_2026], and [Dineshkumar et al 2026][research_dineshkumar_2026]. **And a crewed suborbital industry now exists**, with the regulatory questions the X-15's programme met privately now met publicly in [Antonaros and Curran 2026][research_antonaros_curran_2026].
+Prediction of where such a vehicle will go, which is a different problem from flying it, is [Zhou et al 2026, Physics-Informed Ensemble Informer][research_zhou_2026_2], [He et al 2026][research_he_2026], and [Cai et al 2026][research_cai_2026]. The vehicles being designed against all of this are surveyed in [Long et al 2026][research_long_2026], [Nagata and Yamada 2026][research_nagata_yamada_2026], [MacLeod 2026][research_macleod_2026], [Paramadhayalan et al 2026][research_paramadhayalan_2026], and [Avasali Dineshkumar et al 2026][research_dineshkumar_2026]. **And a crewed suborbital industry now exists**, with the regulatory questions the X-15's programme met privately now met publicly in [Antonaros and Curran 2026][research_antonaros_curran_2026].
 
 **That is the honest successor to what the X-15 did.** The aircraft reduced the uncertainty by flying, whereas the modern approach measures the uncertainty and designs around it.
 
@@ -1093,7 +1093,7 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 - [Brownfield and Badger 1960][research_brownfield_badger_1960]
 - [Brunner 1959][research_brunner_1959]
 - [Bruno and Risher 1968][research_bruno_risher_1968]
-- [Bryson 1969][research_bryson_1969]
+- [Bryson, Jr. 1969][research_bryson_1969]
 - [Bueche 1966][research_bueche_1966]
 - [Cai et al 2026][research_cai_2026]
 - [Cai et al 2026, Improved two-phase sequential conv][research_cai_2026_2]
@@ -1107,7 +1107,7 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 - [Chin et al 1964][research_chin_1964]
 - [Chinnappan and Kim 2026][research_chinnappan_kim_2026]
 - [Chou and Smith 1974][research_chou_smith_1974]
-- [Chow 1963][research_chow_1963]
+- [Ru-ren Chow 1963][research_chow_1963]
 - [Chow 1963, Stagnation Point Heat Transfer Of][research_chow_1963_2]
 - [Christensen and Dodgen 1961][research_christensen_dodgen_1961]
 - [Chu et al 2026][research_chu_2026]
@@ -1126,7 +1126,7 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 - [Demetriades 1975][research_demetriades_1975]
 - [Dennehy et al 2014][research_dennehy_2014]
 - [Diaconis et al 1959][research_diaconis_1959]
-- [Dineshkumar et al 2026][research_dineshkumar_2026]
+- [Avasali Dineshkumar et al 2026][research_dineshkumar_2026]
 - [Ding et al 2025][research_ding_2025]
 - [Ding et al 2025, Sensitivity analysis and uncertain][research_ding_2025_2]
 - [Dohnanyi 1964][research_dohnanyi_1964]
@@ -1171,7 +1171,7 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 - [Hart 1956][research_hart_1956]
 - [He et al 2026][research_he_2026]
 - [He et al 2026, Thermal erosion characteristics of][research_he_2026_2]
-- [Henderson 1967][research_henderson_1967]
+- [Henderson, Jr. 1967][research_henderson_1967]
 - [Hendler et al 1964][research_hendler_1964]
 - [Hermann 1962][research_hermann_1962]
 - [Hermann 1965][research_hermann_1965]
@@ -1231,7 +1231,7 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 - [Luo et al 2026][research_luo_2026]
 - [Lushchik et al 2026][research_lushchik_2026]
 - [Lv et al 2023][research_lv_2023]
-- [Maas 1959][research_maas_1959]
+- [van der Maas 1959][research_maas_1959]
 - [Mabey and Gaudet 1975][research_mabey_gaudet_1975]
 - [MacLeod 2026][research_macleod_2026]
 - [Maglieri et al 1959][research_maglieri_1959]
@@ -1305,7 +1305,7 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 - [Shanahan and Barker 1962][research_shanahan_barker_1962]
 - [Shanmugam et al 2025][research_shanmugam_2025]
 - [Sharenson 1966][research_sharenson_1966]
-- [Sheetz 1965][research_sheetz_1965]
+- [Sheetz, Jr. 1965][research_sheetz_1965]
 - [Shen et al 2023][research_shen_2023]
 - [Shi et al 2025][research_shi_2025]
 - [Siegel and Lanterman 1968][research_siegel_lanterman_1968]

@@ -2242,7 +2242,7 @@ and Liu 2026][research_zhang_liu_2026], [Zhang et al 2026, Design optimization o
 [Zhang et al 2026, Energy Minimization for UAV-Aided][research_zhang_2026_3], [Zhang et al 2026, Noise
 separation study of diesel][research_zhang_2026], [Zhang et al 2026, Null-space control allocation
 for][research_zhang_2026_4], [Zheng et al 2026][research_zheng_2026], [Zhou and Wang
-2026][research_zhou_wang_2026], [ogli 2026][research_ogli_2026].
+2026][research_zhou_wang_2026], [o'g'li 2026][research_ogli_2026].
 
 ### What the Survey Shows
 
@@ -3170,10 +3170,10 @@ The next article in this series takes up the Lockheed X-27.
 - [Air Force Test Pilot School Edwards Afb Ca 1994, Performance Phase Planning Guide][research_air_force_test_pilot_school_edwards_afb_ca_1994]
 - [Air Force Test Pilot School Edwards Afb Ca 1994, Volume 4. Test Management Phase][research_air_force_test_pilot_school_edwards_afb_ca_1994_2]
 - [Air Proving Ground Center Eglin Afb Fl 1949][research_air_proving_ground_center_eglin_afb_fl_1949]
-- [Air Proving Ground Center Eglin Afb Fl 1954, Operational Suitability Test of][research_air_proving_ground_center_eglin_afb_fl_1954]
-- [Air Proving Ground Center Eglin Afb Fl 1954, OPERATIONAL SUITABILITY TEST OF][research_air_proving_ground_center_eglin_afb_fl_1954_2]
-- [Air Proving Ground Center Eglin Afb Fl 1955, Operational Suitability Test of][research_air_proving_ground_center_eglin_afb_fl_1955]
-- [Air Proving Ground Center Eglin Afb Fl 1955, Operational Suitability Test of][research_air_proving_ground_center_eglin_afb_fl_1955_2]
+- [Air Proving Ground Center Eglin Afb Fl 1954, Operational Suitability Test of t][research_air_proving_ground_center_eglin_afb_fl_1954]
+- [Air Proving Ground Center Eglin Afb Fl 1954, OPERATIONAL SUITABILITY TEST OF T][research_air_proving_ground_center_eglin_afb_fl_1954_2]
+- [Air Proving Ground Center Eglin Afb Fl 1955, Operational Suitability Test of t][research_air_proving_ground_center_eglin_afb_fl_1955]
+- [Air Proving Ground Center Eglin Afb Fl 1955, Operational Suitability Test of t][research_air_proving_ground_center_eglin_afb_fl_1955_2]
 - [Aircraft and Rotorcraft System 2016][research_aircraft_and_2016]
 - [Aircraft Noise and Certification 2019][research_aircraft_noise_2019]
 - [Aircraft Noise Assessment 1980][research_aircraft_noise_1980]
@@ -5387,7 +5387,7 @@ The next article in this series takes up the Lockheed X-27.
 - [Ogburn et al 1994][research_ogburn_1994]
 - [Ogiso et al 2019][research_ogiso_2019]
 - [Ogiso et al 2020][research_ogiso_2020]
-- [ogli 2026][research_ogli_2026]
+- [o'g'li 2026][research_ogli_2026]
 - [Ogren et al 1974][research_ogren_1974]
 - [Oh and Yoon 2022][research_oh_yoon_2022]
 - [Ohm et al 2020][research_ohm_2020]

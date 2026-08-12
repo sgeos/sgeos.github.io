@@ -673,13 +673,13 @@ Coupled rotational dynamics is where the contemporary literature is richest, and
 
 The institutional continuation is worth naming, because the X-2 accident belongs to a category that acquired a formal research programme. NASA treats loss of control as a named research area, with directions set out in [NASA 2014][research_loc_directions_2014], precursor analysis in [NASA 2014][research_loc_precursors_2014], subscale flight research in [NASA 2008][research_subscale_upset_2008], propulsion-only control as a backup in [NASA 1997][research_propulsion_backup_1997], and simulator fidelity for upset training in [NASA 2019][research_stall_training_2019]. Reading the 1956 accident against that programme is the clearest available demonstration that the X-2 found something real.
 
-The material side has become quantitative in a way it was not in 1955. Creep rupture life is now predicted rather than tabulated, with mechanistic treatments in [Zhou and Yuan 2024][research_zhou_yuan_2024] and [Zhang and Feng 2024][research_zhang_feng_2024] and a machine-learned correlation in [Wang and Zhao 2024][research_wang_zhao_creep_2024], which is the direct descendant of the Larson-Miller parameter used above. Oxidation is likewise treated as a kinetic problem with engineered protection, as in [Syrtanov and Kashkarov 2022][research_syrtanov_2022] and [Kilicay 2020][research_kilicay_2020], and thermal protection has become a modular design discipline in [Pan and Zhang 2026][research_pan_zhang_2026].
+The material side has become quantitative in a way it was not in 1955. Creep rupture life is now predicted rather than tabulated, with mechanistic treatments in [Zhou and Yuan 2024][research_zhou_yuan_2024] and [Zhang and Feng 2024][research_zhang_feng_2024] and a machine-learned correlation in [Wang and Zhao 2024][research_wang_zhao_creep_2024], which is the direct descendant of the Larson-Miller parameter used above. Oxidation is likewise treated as a kinetic problem with engineered protection, as in [Syrtanov and Kashkarov 2022][research_syrtanov_2022] and [Kılıçay 2020][research_kilicay_2020], and thermal protection has become a modular design discipline in [Pan and Zhang 2026][research_pan_zhang_2026].
 
 Aerothermoelasticity has acquired the thing the X-2 most conspicuously lacked, which is a scaling theory. [Huang and Friedmann 2019][research_huang_friedmann_2019] derive scaling laws for hypersonic skin panels, so a subscale test can now be designed to represent a full-scale coupled response rather than merely to look like it. That is the formal answer to the similarity failure this article describes, arriving sixty years late. Semianalytical and coupled treatments follow in [Li and Wan 2024][research_li_wan_2024] and [Zhang and Zhao 2026][research_zhang_zhao_2026], and the dynamically scaled flight test technique itself is surveyed by [Kong and Pan 2023][research_kong_pan_2023].
 
 Rotational coupling now has a dedicated parametric literature. [Shen and Huang 2019][research_shen_huang_2019] study the effect of the yaw-to-roll coupling ratio directly, which is the non-dimensional group that governs the divergence derived above, and departure prediction has become a computable rather than an experimental question in [Tu and Yan 2024][research_tu_yan_2024] and [Askari and Cremaschi 2023][research_askari_2023]. The damping derivatives that were too weak to help the X-2 are now computed rather than measured, as [Guo and Ren 2019][research_guo_ren_2019] describe. Control laws carry envelope protection as a design requirement in [Moreira and Gripp 2022][research_moreira_gripp_2022] and [Liang and Lu 2026][research_liang_lu_2026].
 
-The unpowered return has its own guidance literature, with approach and landing for a gliding vehicle treated by [Al-Bakri 2020][research_albakri_2020] and single-segment guidance by [Hameed 2021][research_hameed_2021]. A pilot flying an X-2 to a lake bed by eye was performing unaided what is now a solved control problem.
+The unpowered return has its own guidance literature, with approach and landing for a gliding vehicle treated by [Al-Bakri 2020][research_albakri_2020] and single-segment guidance by [S. Hameed and G. R 2021][research_hameed_2021]. A pilot flying an X-2 to a lake bed by eye was performing unaided what is now a solved control problem.
 
 Escape configuration continues to evolve, and [Sreenivasulu and Saha 2021][research_sreenivasulu_2021] trace that evolution across programmes, which is the appropriate context for the capsule decision this article criticizes.
 
@@ -939,7 +939,7 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 - [Goud and Dwivedi 2022 Effect of Twin Vertical Stabilizers on Lateral-Directional Stability][research_goud_dwivedi_2022]
 - [Grauer and Morelli 2023 Advances in Aircraft System Identification][research_grauer_morelli_2023]
 - [Guo and Ren 2019 The Computation of the Pitch Damping Stability Derivative][research_guo_ren_2019]
-- [Hameed 2021 Single-Segment Approach and Landing Guidance and Control][research_hameed_2021]
+- [S. Hameed and G. R 2021][research_hameed_2021]
 - [Hu and Mahadevan 2019 Reliability Analysis of a Hypersonic Vehicle Panel][research_hu_mahadevan_2019]
 - [Huang and Friedmann 2019 Aerothermoelastic Scaling Laws for Hypersonic Skin Panels][research_huang_friedmann_2019]
 - [Jeon and Park 2023 Development of a Numerical Method for Regenerative Cooling Analysis][research_jeon_park_2023]
@@ -947,7 +947,7 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 - [Ji and Xie 2022 Reduced Order Model Based on Proper Orthogonal Decomposition for Aerothermoelastic Analysis][research_ji_xie_2022]
 - [Jones 1947 Wing Plan Forms for High-Speed Flight][research_jones_1947]
 - [Jurado and McGehee 2019 Complete Online Algorithm for Air Data System Calibration][research_jurado_mcgehee_2019]
-- [Kilicay 2020 Development of a Protective Metal Matrix Composite Coating for High Temperature Service][research_kilicay_2020]
+- [Kılıçay 2020][research_kilicay_2020]
 - [Kong and Pan 2023 Research on Key Technologies of Scaled Model Flight Testing][research_kong_pan_2023]
 - [Lang and Wang 2025 Prescribed Performance-Based Envelope Protection Control][research_lang_wang_2025]
 - [Lees 1956 Laminar Heat Transfer over Blunt-Nosed Bodies at Hypersonic Flight Speeds][research_lees_1956]

@@ -35,7 +35,7 @@ That is a deliberately unfashionable choice. The famous constraint on a very hig
 
 ### Why This Was the Binding Unknown in 1953
 
-Flight above sixty thousand feet was not a solved problem when the requirement was written. The atmosphere itself was imperfectly known at those altitudes, and the systematic measurement programmes that fixed it were contemporaneous or later. The standard model this article uses did not exist in its settled form until after the aeroplane was cancelled, and the sequence of measurement and codification runs through [Webster 1947][research_webster_1947], [Lina and Ricker 1952][research_lina_ricker_1952], [NACA 1962][research_naca_1962], [CA 1962, Volume 1. Performance Flight Testi][research_ca_1962_2], [Hudson 1980][research_hudson_1980], [Schmidlin et al 1981][research_schmidlin_1981], [Perkins et al 2001][research_perkins_2001], [Wei et al 2001][research_wei_2001], [Liu et al 2022][research_liu_2022], [Xie et al 2022][research_xie_2022], with the rocketsonde and satellite work in [VA 1960][research_va_1960] arriving five years after the design was frozen. **The aeroplane was sized against an atmosphere that was still being measured.** The behaviour of an axial compressor in very thin air was an active research subject and not a design input, treated directly in [Wallner and Fleming 1949][research_wallner_fleming_1949]. The performance of a wing at the Reynolds numbers that thin air implies had been measured only at the edges of the range, in work such as [Tucker and Quinn 1944][research_tucker_quinn_1944]. And the interaction of maximum lift with Mach number, which is what closes the corner, was still being mapped in [Stack et al 1943][research_stack_1943], [Spreiter and Steffen 1946][research_spreiter_steffen_1946], and [Furlong and Fitzpatrick 1947][research_furlong_fitzpatrick_1947].
+Flight above sixty thousand feet was not a solved problem when the requirement was written. The atmosphere itself was imperfectly known at those altitudes, and the systematic measurement programmes that fixed it were contemporaneous or later. The standard model this article uses did not exist in its settled form until after the aeroplane was cancelled, and the sequence of measurement and codification runs through [Webster 1947][research_webster_1947], [Lina and Ricker 1952][research_lina_ricker_1952], [NACA 1962][research_naca_1962], [Air Force Test Pilot School Edwards Afb Ca 1962, Volume 1. Performance Flight Test][research_ca_1962_2], [Hudson 1980][research_hudson_1980], [Schmidlin et al 1981][research_schmidlin_1981], [Perkins et al 2001][research_perkins_2001], [Wei et al 2001][research_wei_2001], [Liu et al 2022][research_liu_2022], [Xie et al 2022][research_xie_2022], with the rocketsonde and satellite work in [Science Communication Inc Mclean Va 1960][research_va_1960] arriving five years after the design was frozen. **The aeroplane was sized against an atmosphere that was still being measured.** The behaviour of an axial compressor in very thin air was an active research subject and not a design input, treated directly in [Wallner and Fleming 1949][research_wallner_fleming_1949]. The performance of a wing at the Reynolds numbers that thin air implies had been measured only at the edges of the range, in work such as [Tucker and Quinn 1944][research_tucker_quinn_1944]. And the interaction of maximum lift with Mach number, which is what closes the corner, was still being mapped in [Stack et al 1943][research_stack_1943], [Spreiter and Steffen 1946][research_spreiter_steffen_1946], and [Furlong and Fitzpatrick 1947][research_furlong_fitzpatrick_1947].
 
 Three unknowns, all bearing on one question. The requirement asked for an altitude nobody had sustained, and the design margin at that altitude was small enough that getting any of the three wrong would cost the aeroplane its mission.
 
@@ -53,7 +53,7 @@ This is the first designation in the series where the number describes the class
 
 ### What the Programme Was Competing Against
 
-The X-16 was not only competing with two other aeroplanes. It was competing with balloons. Unmanned high-altitude photographic balloons were a serious and contemporaneously funded alternative, and the research is in the archive where the aeroplane is not, as in [BARTHOLOMEW 1954][research_bartholomew_1954]. It was also competing with a family of much more ambitious reconnaissance weapon system studies that were running at the same time and that did leave documents, including the MX-2276 system described in [NY 1955][research_ny_1955] and [NY 1955, MX-2276 RECONNAISSANCE AIRCRAFT WE][research_ny_1955_2], the Brass Bell study in [NY 1957][research_ny_1957], and the Weapon System 118P characteristics in [CA 1956][research_ca_1956]. A contemporaneous high altitude and high speed study is recorded in [MORRIS 1954][research_morris_1954].
+The X-16 was not only competing with two other aeroplanes. It was competing with balloons. Unmanned high-altitude photographic balloons were a serious and contemporaneously funded alternative, and the research is in the archive where the aeroplane is not, as in [BARTHOLOMEW 1954][research_bartholomew_1954]. It was also competing with a family of much more ambitious reconnaissance weapon system studies that were running at the same time and that did leave documents, including the MX-2276 system described in [Bell Aerospace Co Buffalo Ny 1955][research_ny_1955] and [NY 1955, MX-2276 RECONNAISSANCE AIRCRAFT WE][research_ny_1955_2], the Brass Bell study in [Bell Aerospace Co Buffalo Ny 1957][research_ny_1957], and the Weapon System 118P characteristics in [North American Aviation Inc Los Angeles Ca 1956][research_ca_1956]. A contemporaneous high altitude and high speed study is recorded in [MORRIS 1954][research_morris_1954].
 
 That context matters for judging the cancellation. The X-16 was not cancelled because reconnaissance from altitude was abandoned. It was cancelled because the same requirement had four other suitors.
 
@@ -351,7 +351,7 @@ The aerodynamics of a long wing were well understood by the time the requirement
 
 $$W_{\text{wing}} \propto \frac{n_{\text{ult}} W b^{3}}{S t/c}$$
 
-so weight grows with the cube of span at fixed area. Weight estimation of this kind became a formal subject with its own methods, in [TORENBEEK 1972][research_torenbeek_1972], [Hayase 1974][research_hayase_1974], [Hayase 1974, A Structural Weight Estimation Pro][research_hayase_1974_2], [Samuels 1982][research_samuels_1982], [Miura and Shyu 1986][research_miura_shyu_1986], [Mason and Iglesias 2001][research_mason_iglesias_2001], [Regis et al 2004][research_regis_2004], [Matsuda et al 2026][research_matsuda_2026]. **Aspect ratio pays under a square root and charges under a cube.** That is the entire reason these aeroplanes converged on a particular slenderness, not simply growing wings without limit, and it is why the wing had to be built lighter and more flexibly than jet practice of the period allowed.
+so weight grows with the cube of span at fixed area. Weight estimation of this kind became a formal subject with its own methods, in [TORENBEEK 1972][research_torenbeek_1972], [Hayase 1974][research_hayase_1974], [Hayase 1974, A Structural Weight Estimation Pro][research_hayase_1974_2], [Samuels 1982][research_samuels_1982], [Miura and Shyu 1986][research_miura_shyu_1986], [Mason and Iglesias 2001][research_mason_iglesias_2001], [Delgado Regis et al 2004][research_regis_2004], [Matsuda et al 2026][research_matsuda_2026]. **Aspect ratio pays under a square root and charges under a cube.** That is the entire reason these aeroplanes converged on a particular slenderness, not simply growing wings without limit, and it is why the wing had to be built lighter and more flexibly than jet practice of the period allowed.
 
 ### The Wing Is Flexible Enough That Its Shape Is a Variable
 
@@ -403,7 +403,7 @@ so the design life in sorties is
 
 $$N = \frac{500}{7.91} = 63.2$$
 
-and **the wing was therefore good for 63 full-radius missions.** An RB-57D lost its wing at fifty thousand feet in 1964 and the survivors were grounded, with the last airframes retired in 1979 for wing spar fractures. The bill for a light flexible wing was presented and it was paid. Fatigue under spectrum loading, which is the mechanism, has its own long literature in [CA 1963][research_ca_1963], [Nordby and Crisman 1964][research_nordby_crisman_1964], [Smith 1964][research_smith_1964], [Grover 1966][research_grover_1966], [Ryder and Walker 1976][research_ryder_walker_1976], [Jones and Eftis 1981][research_jones_eftis_1981], [Wert et al 1983][research_wert_1983], [Ghonem 1987][research_ghonem_1987], [Moore and Cutright 2019][research_moore_cutright_2019], and **the RB-57D's failure is the case those methods exist to prevent, not an anomaly.**
+and **the wing was therefore good for 63 full-radius missions.** An RB-57D lost its wing at fifty thousand feet in 1964 and the survivors were grounded, with the last airframes retired in 1979 for wing spar fractures. The bill for a light flexible wing was presented and it was paid. Fatigue under spectrum loading, which is the mechanism, has its own long literature in [Douglas Aircraft Co Long Beach Ca 1963][research_ca_1963], [Nordby and Crisman 1964][research_nordby_crisman_1964], [Smith 1964][research_smith_1964], [Grover 1966][research_grover_1966], [Ryder and Walker 1976][research_ryder_walker_1976], [Jones and Eftis 1981][research_jones_eftis_1981], [Wert et al 1983][research_wert_1983], [Ghonem 1987][research_ghonem_1987], [Moore and Cutright 2019][research_moore_cutright_2019], and **the RB-57D's failure is the case those methods exist to prevent, not an anomaly.**
 
 ### The Propulsion, Which Is Where the Programme's Value Actually Was
 
@@ -477,7 +477,7 @@ and setting the atmosphere's pressure equal to that gives
 
 $$z_{\text{Armstrong}} = 19{,}150\ \text{m} = 62{,}829\ \text{ft}$$
 
-**That is 90.4 percent of the design altitude, so the aeroplane spends its entire working cruise above the limit**, and the cockpit or the suit becomes the only thing between the pilot and immediate incapacitation. Cabin pressurisation experience of the period is recorded in [DIETZ 1952][research_dietz_1952], the physiological envelope in [RAEKE 1958][research_raeke_1958], decompression sickness and the denitrogenation procedures used against it in [Middleton 1959][research_middleton_1959], and suit evaluation in [Games et al 1954][research_games_1954]. The suit, mask, and cabin systems that make flight above the Armstrong limit survivable have a continuous development record of their own, in [Echols 1953][research_echols_1953], [SCHROEDER 1956][research_schroeder_1956], [MA 1960][research_ma_1960], [REDDEN 1961][research_redden_1961], [FurryY et al 1962][research_furryy_1962], [Shanahan and Barker 1962][research_shanahan_barker_1962], [Hendler et al 1964][research_hendler_1964], [Siegel and Lanterman 1968][research_siegel_lanterman_1968], [Taylor 1980][research_taylor_1980], [Reynolds et al 2001][research_reynolds_2001], [Reynolds et al 2001, Onboard Inert Gas Generation Syste][research_reynolds_2001_2], [Kelly and Pettit 2003][research_kelly_pettit_2003]. **The aeroplane's most demanding subsystem by this measure is the one keeping the pilot conscious, and it is the only one whose failure is immediately fatal rather than merely mission-ending.**
+**That is 90.4 percent of the design altitude, so the aeroplane spends its entire working cruise above the limit**, and the cockpit or the suit becomes the only thing between the pilot and immediate incapacitation. Cabin pressurisation experience of the period is recorded in [DIETZ 1952][research_dietz_1952], the physiological envelope in [RAEKE 1958][research_raeke_1958], decompression sickness and the denitrogenation procedures used against it in [Middleton 1959][research_middleton_1959], and suit evaluation in [Games et al 1954][research_games_1954]. The suit, mask, and cabin systems that make flight above the Armstrong limit survivable have a continuous development record of their own, in [Echols 1953][research_echols_1953], [SCHROEDER 1956][research_schroeder_1956], [Clark David Co Inc Worcester Ma 1960][research_ma_1960], [REDDEN 1961][research_redden_1961], [FurryY et al 1962][research_furryy_1962], [Shanahan and Barker 1962][research_shanahan_barker_1962], [Hendler et al 1964][research_hendler_1964], [Siegel and Lanterman 1968][research_siegel_lanterman_1968], [Taylor 1980][research_taylor_1980], [Reynolds et al 2001][research_reynolds_2001], [Reynolds et al 2001, Onboard Inert Gas Generation Syste][research_reynolds_2001_2], [Kelly and Pettit 2003][research_kelly_pettit_2003]. **The aeroplane's most demanding subsystem by this measure is the one keeping the pilot conscious, and it is the only one whose failure is immediately fatal rather than merely mission-ending.**
 
 The flight is also long. At 430 knots the X-16's quoted range of 2,867 nautical miles is 6.67 hours in one direction. A single pilot in a partial pressure suit, breathing oxygen, unable to reach most of the aeroplane, for the better part of a working day. Navigation over territory without cooperative aids fell back on celestial methods of the kind described in [Korger 1957][research_korger_1957].
 
@@ -663,7 +663,7 @@ The article's resolution relation is that ground sample distance is slant range 
 
 ### The Stratosphere Is Now Observed Rather Than Assumed
 
-The article notes that the X-16 was sized against an atmosphere still being measured. That measurement continued and is now a field of its own, covering stratospheric turbulence, gravity waves, density model uncertainty, aerosol and ozone distribution, and long-term temperature trends, in [Bai et al 2025][research_bai_2025], [Brown and Leidich 2025][research_brown_leidich_2025], [Chern 2025][research_chern_2025], [Duffey et al 2025][research_duffey_2025], [Guo et al 2025][research_guo_2025], [Hannachi et al 2025][research_hannachi_2025], [Davies and Sprenger 2026][research_davies_sprenger_2026], [Francis et al 2026][research_francis_2026], [Gann and Yiğit 2026][research_gann_yigit_2026], [Lange et al 2026][research_lange_2026], [Liu and Hu 2026][research_liu_hu_2026], [Maghrabi et al 2026][research_maghrabi_2026], [Moreira 2026][research_moreira_2026], [Richter 2026][research_richter_2026].
+The article notes that the X-16 was sized against an atmosphere still being measured. That measurement continued and is now a field of its own, covering stratospheric turbulence, gravity waves, density model uncertainty, aerosol and ozone distribution, and long-term temperature trends, in [Bai et al 2025][research_bai_2025], [Brown and Leidich 2025][research_brown_leidich_2025], [Chern 2025][research_chern_2025], [Duffey et al 2025][research_duffey_2025], [Guo et al 2025][research_guo_2025], [Hannachi et al 2025][research_hannachi_2025], [Davies and Sprenger 2026][research_davies_sprenger_2026], [Francis et al 2026][research_francis_2026], [Gann and Yiğit 2026][research_gann_yigit_2026], [Lange et al 2026][research_lange_2026], [Liu and Hu 2026][research_liu_hu_2026], [Maghrabi et al 2026][research_maghrabi_2026], [de Arruda Moreira et al 2026][research_moreira_2026], [Richter 2026][research_richter_2026].
 
 **Two consequences bear on this article directly.** The standard atmosphere it uses is a smooth average of a variable medium, and the real stratosphere carries turbulence and wave activity that a 1955 design would have met without warning. And **the medium is changing**, since stratospheric cooling and density trends mean that the altitude corresponding to a given density ratio is not fixed on a decadal scale, which makes the ceiling relation's answer very slightly time-dependent.
 
@@ -861,9 +861,9 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Bu et al 2026][research_bu_2026]
 - [Burris and Bender 1969][research_burris_bender_1969]
 - [Burris and Bender 1969, Aircraft Load Alleviation and Mode][research_burris_bender_1969_2]
-- [CA 1956][research_ca_1956]
-- [CA 1962, Volume 1. Performance Flight Testi][research_ca_1962_2]
-- [CA 1963][research_ca_1963]
+- [North American Aviation Inc Los Angeles Ca 1956][research_ca_1956]
+- [Air Force Test Pilot School Edwards Afb Ca 1962, Volume 1. Performance Flight Test][research_ca_1962_2]
+- [Douglas Aircraft Co Long Beach Ca 1963][research_ca_1963]
 - [Callaghan 1973][research_callaghan_1973]
 - [Campbell 1948][research_campbell_1948]
 - [Carlin et al 2003][research_carlin_2003]
@@ -1056,7 +1056,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Loewy 2000][research_loewy_2000]
 - [LUEDER and BELCHER 1954][research_lueder_belcher_1954]
 - [Luo et al 2025][research_luo_2025]
-- [MA 1960][research_ma_1960]
+- [Clark David Co Inc Worcester Ma 1960][research_ma_1960]
 - [Maghrabi et al 2026][research_maghrabi_2026]
 - [Mahyastuty et al 2025][research_mahyastuty_2025]
 - [Mallios 1952][research_mallios_1952]
@@ -1082,7 +1082,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Mityushkin et al 2026][research_mityushkin_2026]
 - [Miura and Shyu 1986][research_miura_shyu_1986]
 - [Moore and Cutright 2019][research_moore_cutright_2019]
-- [Moreira 2026][research_moreira_2026]
+- [de Arruda Moreira et al 2026][research_moreira_2026]
 - [MORRIS 1954][research_morris_1954]
 - [Morris 1981, Analytical study of the cruise per][research_morris_1981_2]
 - [Moyer 1963][research_moyer_1963]
@@ -1097,9 +1097,9 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Nissen and Gadeberg 1944][research_nissen_gadeberg_1944]
 - [Nordby and Crisman 1964][research_nordby_crisman_1964]
 - [Nrangwesti et al 2025][research_nrangwesti_2025]
-- [NY 1955][research_ny_1955]
+- [Bell Aerospace Co Buffalo Ny 1955][research_ny_1955]
 - [NY 1955, MX-2276 RECONNAISSANCE AIRCRAFT WE][research_ny_1955_2]
-- [NY 1957][research_ny_1957]
+- [Bell Aerospace Co Buffalo Ny 1957][research_ny_1957]
 - [OKRESS and SOBERMAN 1981][research_okress_soberman_1981]
 - [Onkar et al 2025][research_onkar_2025]
 - [Ouellette 2019][research_ouellette_2019]
@@ -1134,7 +1134,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Rathert et al 1949][research_rathert_1949]
 - [Rathnasabapathy et al 2025][research_rathnasabapathy_2025]
 - [REDDEN 1961][research_redden_1961]
-- [Regis et al 2004][research_regis_2004]
+- [Delgado Regis et al 2004][research_regis_2004]
 - [Reynolds et al 2001][research_reynolds_2001]
 - [Reynolds et al 2001, Onboard Inert Gas Generation Syste][research_reynolds_2001_2]
 - [Rezo et al 2026][research_rezo_2026]
@@ -1218,7 +1218,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Tucker and Quinn 1944][research_tucker_quinn_1944]
 - [Turriziani et al 1980][research_turriziani_1980]
 - [Unangst 1959][research_unangst_1959]
-- [VA 1960][research_va_1960]
+- [Science Communication Inc Mclean Va 1960][research_va_1960]
 - [Vartio et al 2008][research_vartio_2008]
 - [Vincent and Gale 1951][research_vincent_gale_1951]
 - [Waghela et al 2019][research_waghela_2019]

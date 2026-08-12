@@ -93,7 +93,7 @@ The helicopter branch of the same family is reviewed in [Hindson 1982][research_
 
 It is worth recording what was and was not available when Bell began, because the X-14's contribution is easy to overstate.
 
-The configuration question had been worked over thoroughly. [Div 1956][research_div_1956] and [Irvin and Swan 1956][research_irvin_swan_1956] compare types and estimate weights for competing vertical take-off transport layouts, and [McCormick and Mallen 1956][research_mccormick_mallen_1956] treats tilt-wing design considerations. The field had a textbook within a few years in [Campbell 1962][research_campbell_1962], a conference series of which [NACA 1960][research_naca_1960] is one volume, and survey treatments in [Kirby 1961][research_kirby_1961] on propeller-driven configurations and [Brown 1965][research_brown_1965] on low-disc-loading designs. The tilt-wing branch alone supported [Nichols 1963][research_nichols_1963], [Martin 1963][research_martin_1963], [Tosti 1961][research_tosti_1961], and [Longhurst 1966][research_longhurst_1966]. **Everyone knew how to lay out a vertical take-off aircraft. Nobody knew how to size its control system.**
+The configuration question had been worked over thoroughly. [Boeing Co Morton Pa Vertol Div 1956][research_div_1956] and [Irvin and Swan 1956][research_irvin_swan_1956] compare types and estimate weights for competing vertical take-off transport layouts, and [McCormick and Mallen 1956][research_mccormick_mallen_1956] treats tilt-wing design considerations. The field had a textbook within a few years in [Campbell 1962][research_campbell_1962], a conference series of which [NACA 1960][research_naca_1960] is one volume, and survey treatments in [Kirby 1961][research_kirby_1961] on propeller-driven configurations and [Brown 1965][research_brown_1965] on low-disc-loading designs. The tilt-wing branch alone supported [Nichols 1963][research_nichols_1963], [Martin 1963][research_martin_1963], [Tosti 1961][research_tosti_1961], and [Longhurst 1966][research_longhurst_1966]. **Everyone knew how to lay out a vertical take-off aircraft. Nobody knew how to size its control system.**
 
 The hovering-stability problem had also been posed cleanly, though for rotorcraft rather than for jets. [Miller 1948][research_miller_1948] treats helicopter control and stability in hovering flight, and the subject was worked over through [Payne 1955][research_payne_1955] and [Bramwell 1956][research_bramwell_1956]. The flying-platform experiments of [Albachten 1956][research_albachten_1956] and [Sissingh 1956][research_sissingh_1956] address hovering stability for a vehicle with no wing at all. **What none of these could supply is the jet-lift case, in which there is no rotor to provide damping and no propeller slipstream to provide control.**
 
@@ -837,7 +837,7 @@ The X-14A met its authority limit as a truncated corner of an experimental grid,
 
 The X-14A blended vectored thrust against aerodynamic surfaces by mechanical linkage and pilot technique. The modern equivalent is a least-squares problem solved many times a second.
 
-The general over-actuated formulation is treated in [Scordamaglia et al 2025][research_scordamaglia_2025], [Jafari et al 2023][research_jafari_2023], and [Singh et al 2024][research_singh_2024], and specifically for vertical take-off configurations in [Enenakpogbe et al 2025][research_enenakpogbe_2025] and [Enenakpogbe et al 2024][research_enenakpogbe_2024] on vectored-thrust vehicles, [Yılmaz and German 2024][research_ylmaz_german_2024] on a tandem tiltwing, [Qin et al 2023][research_qin_2023] on a distributed-electric-propulsion test platform, [Santos 2024][research_santos_2024] and [Ruggia 2025][research_ruggia_2025] on fully actuated multirotors, and [Mohammadi et al 2023][research_mohammadi_2023] and [Asghari and Tayefi 2026][research_asghari_tayefi_2026] on the transition itself. **[Pfeifle and Fichter 2023][research_pfeifle_fichter_2023] is the one that rhymes with this article**, since it allocates control so as to minimise power, which is the X-14A's bleed trade with electricity substituted for compressed air. [Spadão et al 2026][research_spadao_2026] treats the blending of control authority through a lift-plus-cruise transition, which is the handover the previous article analysed for the [X-13][related_post_a310_ryan_x13] with an allocator in place of the pilot. Saturation and failure of the effectors is the subject of [Chen et al 2026][research_chen_2026], [Wang et al 2026, Adaptive sliding mode fault-tolera][research_wang_2026_7], [Zhang et al 2024][research_zhang_2024], [Yang 2023][research_yang_2023], and [Lan et al 2025][research_lan_2025], and the same mathematics appears well outside aviation in [Lin et al 2025][research_lin_2025], [Wahba and Hönig 2024][research_wahba_honig_2024], and [Rüddenklau and Schitter 2026][research_ruddenklau_schitter_2026].
+The general over-actuated formulation is treated in [Scordamaglia et al 2025][research_scordamaglia_2025], [Jafari et al 2023][research_jafari_2023], and [Singh et al 2024][research_singh_2024], and specifically for vertical take-off configurations in [Enenakpogbe et al 2025][research_enenakpogbe_2025] and [Enenakpogbe et al 2024][research_enenakpogbe_2024] on vectored-thrust vehicles, [Yılmaz and German 2024][research_ylmaz_german_2024] on a tandem tiltwing, [Qin et al 2023][research_qin_2023] on a distributed-electric-propulsion test platform, [Davi Antônio dos Santos et al 2024][research_santos_2024] and [Ruggia 2025][research_ruggia_2025] on fully actuated multirotors, and [Mohammadi et al 2023][research_mohammadi_2023] and [Asghari and Tayefi 2026][research_asghari_tayefi_2026] on the transition itself. **[Pfeifle and Fichter 2023][research_pfeifle_fichter_2023] is the one that rhymes with this article**, since it allocates control so as to minimise power, which is the X-14A's bleed trade with electricity substituted for compressed air. [Spadão et al 2026][research_spadao_2026] treats the blending of control authority through a lift-plus-cruise transition, which is the handover the previous article analysed for the [X-13][related_post_a310_ryan_x13] with an allocator in place of the pilot. Saturation and failure of the effectors is the subject of [Chen et al 2026][research_chen_2026], [Wang et al 2026, Adaptive sliding mode fault-tolera][research_wang_2026_7], [Zhang et al 2024][research_zhang_2024], [Yang 2023][research_yang_2023], and [Lan et al 2025][research_lan_2025], and the same mathematics appears well outside aviation in [Lin et al 2025][research_lin_2025], [Wahba and Hönig 2024][research_wahba_honig_2024], and [Rüddenklau and Schitter 2026][research_ruddenklau_schitter_2026].
 
 ### The Loop Order Was Designed Out
 
@@ -859,7 +859,7 @@ MIL-F-83300 obliged a military contractor to demonstrate compliance. The vehicle
 
 The X-14A's criterion assumed a pilot in the seat. A large part of the modern literature does not.
 
-[Ivler et al 2022][research_ivler_2022] develops and flight-validates handling-qualities requirements for unmanned systems, [Herrington et al 2024][research_herrington_2024] assesses them for systems and operators together, [Ioannis and Ioannis 2026][research_ioannis_ioannis_2026] applies the Cooper-Harper scale to a small uncrewed aircraft through simulation, and [Jusko and Berger 2026][research_jusko_berger_2026] develops new mission task elements for low-level flight. [Kozhanov et al 2022][research_kozhanov_2022] predicts hover and low-speed handling qualities for a helicopter with its augmentation system, [Yuan et al 2022][research_yuan_2022] does it for a tiltrotor by inverse simulation, and [Wang and Chen 2024][research_wang_chen_2024] for a helicopter whose plant changes with its slung load. Turbulence, which the X-14A's out-of-ground-effect calm-air testing excluded by design, is now modelled explicitly in [Huecas et al 2022][research_huecas_2022] and enters the pilot model in [Ji et al 2022][research_ji_2022].
+[Ivler et al 2022][research_ivler_2022] develops and flight-validates handling-qualities requirements for unmanned systems, [Herrington et al 2024][research_herrington_2024] assesses them for systems and operators together, [Ioannis and Ioannis 2026][research_ioannis_ioannis_2026] applies the Cooper-Harper scale to a small uncrewed aircraft through simulation, and [Jusko and Berger 2026][research_jusko_berger_2026] develops new mission task elements for low-level flight. [Kozhanov et al 2022][research_kozhanov_2022] predicts hover and low-speed handling qualities for a helicopter with its augmentation system, [Yuan et al 2022][research_yuan_2022] does it for a tiltrotor by inverse simulation, and [Wang and Chen 2024][research_wang_chen_2024] for a helicopter whose plant changes with its slung load. Turbulence, which the X-14A's out-of-ground-effect calm-air testing excluded by design, is now modelled explicitly in [Henriquez Huecas et al 2022][research_huecas_2022] and enters the pilot model in [Ji et al 2022][research_ji_2022].
 
 **The most direct descendant of the X-14's pilot problem is the decision to stop requiring a pilot's skill at all.** [Janetzko et al 2026][research_janetzko_2026] measures the flight performance of novices and system designers under a simplified vehicle operations concept, which asks whether people who are not pilots can fly the vehicle. The X-14A asked an experienced test pilot to do something at the edge of what a person can do, and the field's eventual answer was to change the aircraft rather than to train the person.
 
@@ -875,7 +875,7 @@ Workload, which the Cooper scale summarised as an integer, is now instrumented d
 
 The variable-stability aircraft has not disappeared, but it now shares the work.
 
-[Yi and Feng 2025][research_yi_feng_2025] describes a variable-stability operating method for a simulator control mechanism, which is the technique migrating back to the ground. Identification from flight data, which is the inverse of what the X-14 did, is [Matt and Altamirano 2026][research_matt_altamirano_2026] on an octocopter in hover, [Juhasz et al 2025][research_juhasz_2025] on a hovering biplane tail-sitter, [Perry et al 2023][research_perry_2023] on a distributed-electric-propulsion aircraft, [Rashid et al 2025][research_rashid_2025] and [Chornyi et al 2026][research_chornyi_2026] on small aircraft, and [Simmons et al 2023, Flight-Test System Identification][research_simmons_2023_2] and [Grauer and Morelli 2023][research_grauer_morelli_2023] on the methods generally.
+[Yi and Feng 2025][research_yi_feng_2025] describes a variable-stability operating method for a simulator control mechanism, which is the technique migrating back to the ground. Identification from flight data, which is the inverse of what the X-14 did, is [Matt and Altamirano 2026][research_matt_altamirano_2026] on an octocopter in hover, [Juhasz et al 2025][research_juhasz_2025] on a hovering biplane tail-sitter, [Perry et al 2023][research_perry_2023] on a distributed-electric-propulsion aircraft, [Abdul Rashid et al 2025][research_rashid_2025] and [Chornyi et al 2026][research_chornyi_2026] on small aircraft, and [Simmons et al 2023, Flight-Test System Identification][research_simmons_2023_2] and [Grauer and Morelli 2023][research_grauer_morelli_2023] on the methods generally.
 
 **Subscale flight testing is how the expensive part is avoided**, in [Pan et al 2026][research_pan_2026], [Comer et al 2026][research_comer_2026] on a transitioning vehicle, and [Shen and Chen 2025][research_shen_chen_2025] on model-in-the-loop validation. The economic change is the one worth naming. The X-14 cost an airframe, two engines, a control system, and twenty-four years of a flight-test organisation. **A subscale vehicle that answers a narrower version of the same question costs a few thousand dollars and can be replaced when it crashes**, which changes not only the price of an experiment but the acceptable probability of losing one.
 
@@ -891,7 +891,7 @@ The guidance problem the X-14A could only partly rehearse now has a large litera
 
 A jet-lift aircraft needing a prepared surface was held against it. A modern vertical take-off aircraft needing a licensed vertiport is treated as infrastructure.
 
-The aerodynamics are [Lee et al 2026][research_lee_2026] on rotor-rotor interaction in ground effect, [Sagaga and Lee 2025][research_sagaga_lee_2025] on side-by-side rotors, [Zhu et al 2024][research_zhu_2024] on staggered rotors, [Georgiev 2025][research_georgiev_2025] on low-Reynolds-number rotors near the ground, [Shirbhate et al 2025][research_shirbhate_2025] and [Boschetti et al 2022][research_boschetti_2022] on wings, and the control consequence is [Kato and Suzuki 2019][research_kato_suzuki_2019]. The ingestion and erosion problems the X-14 programme met are [Li et al 2025, Sand Ingestion Behavior of Helicop][research_li_2025_5], [Ghosh and Rajagopalan 2022][research_ghosh_rajagopalan_2022], [Mora and García 2022][research_mora_garcia_2022], and [Sharma et al 2021][research_sharma_2021], and the prepared surface itself is [Guleria et al 2023][research_guleria_2023].
+The aerodynamics are [Lee et al 2026][research_lee_2026] on rotor-rotor interaction in ground effect, [Sagaga and Lee 2025][research_sagaga_lee_2025] on side-by-side rotors, [Zhu et al 2024][research_zhu_2024] on staggered rotors, [Georgiev 2025][research_georgiev_2025] on low-Reynolds-number rotors near the ground, [Shirbhate et al 2025][research_shirbhate_2025] and [Boschetti et al 2022][research_boschetti_2022] on wings, and the control consequence is [Kato and Suzuki 2019][research_kato_suzuki_2019]. The ingestion and erosion problems the X-14 programme met are [Li et al 2025, Sand Ingestion Behavior of Helicop][research_li_2025_5], [Ghosh and Rajagopalan 2022][research_ghosh_rajagopalan_2022], [Bardera Mora and Matías García 2022][research_mora_garcia_2022], and [Sharma et al 2021][research_sharma_2021], and the prepared surface itself is [Guleria et al 2023][research_guleria_2023].
 
 **What has changed is whose problem it is.** The infrastructure literature is now substantial in its own right, in [Li et al 2026, Urban air mobility vertiports][research_li_2026_3], [Lyu and Feng 2026][research_lyu_feng_2026], [Mirković et al 2026][research_mirkovic_2026], [Zhou et al 2026][research_zhou_2026], and [Rajendran et al 2023][research_rajendran_2023], with noise in [Rizzi et al 2026][research_rizzi_2026] and [Pascioni et al 2026][research_pascioni_2026], risk in [Hu et al 2026, Urban Air Mobility Risk Assessment][research_hu_2026_2], [Chen et al 2026, Flight path planning with ground r][research_chen_2026_4], and [Dai et al 2024][research_dai_2024], and crashworthiness and battery safety in [Schatrow et al 2026][research_schatrow_2026] and [Bosch et al 2026][research_bosch_2026]. **The requirement did not go away. The expectation did.**
 
@@ -1240,7 +1240,7 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 - [Dent 1966][research_dent_1966]
 - [Detore and Gaffey 1969][research_detore_gaffey_1969]
 - [Dey 1972][research_dey_1972]
-- [Div 1956][research_div_1956]
+- [Boeing Co Morton Pa Vertol Div 1956][research_div_1956]
 - [Donaldson et al 1966][research_donaldson_1966]
 - [Dorr et al 1992][research_dorr_1992]
 - [Dorr et al 1994][research_dorr_1994]
@@ -1312,7 +1312,7 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 - [Hoh and Mitchell 1983][research_hoh_mitchell_1983]
 - [Howard 1976][research_howard_1976]
 - [Hu et al 2026, Urban Air Mobility Risk Assessment][research_hu_2026_2]
-- [Huecas et al 2022][research_huecas_2022]
+- [Henriquez Huecas et al 2022][research_huecas_2022]
 - [Huntley 1972][research_huntley_1972]
 - [Hutchings 1977][research_hutchings_1977]
 - [Ide and Landman 2025][research_ide_landman_2025]
@@ -1400,7 +1400,7 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 - [Mohammadi et al 2023][research_mohammadi_2023]
 - [Mohan et al 2025][research_mohan_2025]
 - [Mooij 1973][research_mooij_1973]
-- [Mora and García 2022][research_mora_garcia_2022]
+- [Bardera Mora and Matías García 2022][research_mora_garcia_2022]
 - [Morello et al 1972][research_morello_1972]
 - [Morse and Newhouse 1960][research_morse_newhouse_1960]
 - [Morse and Newhouse 1961][research_morse_newhouse_1961]
@@ -1446,7 +1446,7 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 - [Rahuman and Lee 2026][research_rahuman_lee_2026]
 - [Rajendran et al 2023][research_rajendran_2023]
 - [Rampy 1966][research_rampy_1966]
-- [Rashid et al 2025][research_rashid_2025]
+- [Abdul Rashid et al 2025][research_rashid_2025]
 - [Rezaei and Khosravi 2023][research_rezaei_khosravi_2023]
 - [Rhoads 1967][research_rhoads_1967]
 - [Rhoads 1970][research_rhoads_1970]
@@ -1463,7 +1463,7 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 - [Saetti and Rogers 2024][research_saetti_rogers_2024]
 - [Sagaga and Lee 2025][research_sagaga_lee_2025]
 - [Sandoval et al 2024][research_sandoval_2024]
-- [Santos 2024][research_santos_2024]
+- [Davi Antônio dos Santos et al 2024][research_santos_2024]
 - [Sasaki et al 2025][research_sasaki_2025]
 - [Sato and Wada 2025][research_sato_wada_2025]
 - [Schade 1968][research_schade_1968]

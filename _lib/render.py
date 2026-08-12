@@ -53,8 +53,11 @@ CHECKS = [
     # own bullet in front of a line that already had one renders as a nested empty list.
     ("empty-list-item", re.compile(r"<li>\s*</li>"), True),
     ("nested-empty-list", re.compile(r"<li>\s*<ul>"), True),
-    ("double-escaped", re.compile(r"&amp;(nbsp|amp|lt|gt|#\d+);"), True),
-    ("literal-nbsp-word", re.compile(r"\bandnbsp\b"), True),
+    # OUTSIDE CODE ONLY, like the other markup checks. A post that DESCRIBES this defect
+    # quotes the broken text in backticks, and `draft_summary.md` does exactly that, which
+    # reported three findings against a document whose subject is the defect.
+    ("double-escaped", re.compile(r"&amp;(nbsp|amp|lt|gt|#\d+);"), False),
+    ("literal-nbsp-word", re.compile(r"\bandnbsp\b"), False),
 ]
 
 

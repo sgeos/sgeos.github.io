@@ -161,7 +161,7 @@ Over the Navaho's mission this is 18.1 e-foldings, a growth factor of
 
 $$e^{10{,}333 / 570} = 7.5 \times 10^{7}$$
 
-**A purely inertial altitude is not merely poor over three hours, it is meaningless.** Any inertial navigator intended for sustained flight must therefore bound its vertical channel with an external measurement, which in this period meant a barometric altimeter, and the resulting hybrid is not a detail of implementation but a structural necessity. [Aschaffenburg 1962][research_aschaffenburg_1962] designs exactly such a system, and [Grammatikos et al 1967][research_grammatikos_1967] treats the damping of inertial systems generally. For aiding from other external references of the period see [Fegley and Weygandt 1963][research_fegley_weygandt_1963] on Doppler radar and [Groot 1965][research_groot_1965] on Loran, both of which the Navaho rejected because both require transmissions the mission could not rely on.
+**A purely inertial altitude is not merely poor over three hours, it is meaningless.** Any inertial navigator intended for sustained flight must therefore bound its vertical channel with an external measurement, which in this period meant a barometric altimeter, and the resulting hybrid is not a detail of implementation but a structural necessity. [Aschaffenburg 1962][research_aschaffenburg_1962] designs exactly such a system, and [Grammatikos et al 1967][research_grammatikos_1967] treats the damping of inertial systems generally. For aiding from other external references of the period see [Fegley and Weygandt 1963][research_fegley_weygandt_1963] on Doppler radar and [De Groot 1965][research_groot_1965] on Loran, both of which the Navaho rejected because both require transmissions the mission could not rely on.
 
 ### The Gravity Field Has to Be Known Over the Target Country
 
@@ -512,7 +512,7 @@ $$\frac{T}{T_{\text{SL}}} \approx \eta \, \frac{p_{\infty}}{p_{\text{SL}}} \left
 
 in which the ram term rises steeply with Mach number while the ambient-pressure term falls with altitude, and the two very nearly cancel for this airframe at its ceiling. **The engine is being asked to make sea-level thrust out of about one seventh of sea-level pressure**, and it manages only because ram compression at Mach 2.05 supplies a factor of 8.46. A turbojet at Mach 2 is therefore operating far from the condition its compressor was designed for, and the design problem was being actively worked in the open literature at the time by [Hurley 1951][research_hurley_1951], [Gabriel et al 1953][research_gabriel_1953], [Alford and Auyer 1954][research_alford_auyer_1954], and [Palmer 1956][research_palmer_1956], [Cesaro and Walker 1955][research_cesaro_walker_1955] takes the non-afterburning supersonic application and [Fleming et al 1956][research_fleming_1956] the afterburner behaviour. Inlet and engine compatibility, which the thrust calculation above treats as a single recovery number, is a dynamic problem in its own right and appears as such in [Calogeras 1969][research_calogeras_1969] and [Calogeras and Coltrin 1969][research_calogeras_coltrin_1969], [Chun and Swanson 1964][research_chun_swanson_1964] simulates it dynamically and [Burris 1966][research_burris_1966] supplies a test method.
 
-**The engine the Navaho actually needed was flown by nobody in this programme.** The Wright XRJ47 ramjet intended for the weapon was evaluated separately, and [Reilly and Welna 1955][research_reilly_welna_1955] reports a preliminary evaluation of the flight-weight XRJ47-W-5, which is the single most directly relevant propulsion document in the accessible record and concerns an engine the X-10 never carried. Ramjet engine requirements for supersonic flight generally are [Walker 1952][research_walker_1952] with materials in [Besserer 1952][research_besserer_1952], and the combined-cycle idea that would have let one vehicle do both jobs appears in [Vault 1957][research_vault_1957], which postdates the X-10 and describes exactly the arrangement its recoverability requirement had forced the programme to do without.
+**The engine the Navaho actually needed was flown by nobody in this programme.** The Wright XRJ47 ramjet intended for the weapon was evaluated separately, and [Reilly and Welna 1955][research_reilly_welna_1955] reports a preliminary evaluation of the flight-weight XRJ47-W-5, which is the single most directly relevant propulsion document in the accessible record and concerns an engine the X-10 never carried. Ramjet engine requirements for supersonic flight generally are [Walker 1952][research_walker_1952] with materials in [Besserer 1952][research_besserer_1952], and the combined-cycle idea that would have let one vehicle do both jobs appears in [De VAULT 1957][research_vault_1957], which postdates the X-10 and describes exactly the arrangement its recoverability requirement had forced the programme to do without.
 
 ### The Structure, and the Temperature That Bounds It
 
@@ -582,7 +582,7 @@ which is the margin an unmanned vehicle with no pilot to correct a drift needs a
 
 $$S_{c} = \frac{\mu W}{\frac{1}{2} \rho v^{2} C_{D,c}} = \frac{47{,}072}{\frac{1}{2} \times 1.225 \times 7006 \times 1.4} = 7.83 \, \text{m}^{2}$$
 
-which is a canopy of 3.16 metres diameter, and deploying it roughly halves the stopping distance. Landing dynamics and gear work of the period begins with [Stowell et al 1948][research_stowell_1948], [Yntema and Milwitzky 1952][research_yntema_milwitzky_1952], [Horne and Leland 1962][research_horne_leland_1962], and [Kordes and Mc Kay 1962][research_kordes_mc_kay_1962], [Knacke 1992 Parachute Recovery Systems Design Manual][book_knacke_1992] governs recovery-system design and [Currey 1988 Aircraft Landing Gear Design][book_currey_1988] the gear. [Lawrence 1952][research_lawrence_1952] covers barrier and arresting practice.
+which is a canopy of 3.16 metres diameter, and deploying it roughly halves the stopping distance. Landing dynamics and gear work of the period begins with [Stowell et al 1948][research_stowell_1948], [Yntema and Milwitzky 1952][research_yntema_milwitzky_1952], [Horne and Leland 1962][research_horne_leland_1962], and [Kordes and Mc Kay 1962][research_kordes_mc_kay_1962], [Knacke 1992 Parachute Recovery Systems Design Manual][book_knacke_1992] governs recovery-system design and [Currey 1988 Aircraft Landing Gear Design][book_currey_1988] the gear. [Kansas Univ Lawrence 1952][research_lawrence_1952] covers barrier and arresting practice.
 
 ### Automatic Landing, Which Did Not Yet Exist
 
@@ -638,7 +638,7 @@ which is 4.3 percent of a thousand-kilometre leg. **The turn is not the problem.
 
 ### Instrumentation, Telemetry, and the Range
 
-Everything the programme learned came back either in the vehicle or over a radio link. Range instrumentation and flight-test reporting practice of the period is visible in [Diegoca 1961][research_diegoca_1961], [Moyer 1963][research_moyer_1963], and [Knoblach 1974][research_knoblach_1974], with decelerator testing in [Ward and Myers 1967][research_ward_myers_1967]. The recoverable vehicle has a genuine advantage here that the [X-8][related_post_a305_aerojet_x8] and [X-9][related_post_a306_bell_x9] did not enjoy, because an instrument package that lands with the vehicle can be calibrated afterward against the same bench that calibrated it before flight, and a drift measurement is only as good as that comparison.
+Everything the programme learned came back either in the vehicle or over a radio link. Range instrumentation and flight-test reporting practice of the period is visible in [General Dynamics/Astronautics San Diegoca 1961][research_diegoca_1961], [Moyer 1963][research_moyer_1963], and [Knoblach 1974][research_knoblach_1974], with decelerator testing in [Ward and Myers 1967][research_ward_myers_1967]. The recoverable vehicle has a genuine advantage here that the [X-8][related_post_a305_aerojet_x8] and [X-9][related_post_a306_bell_x9] did not enjoy, because an instrument package that lands with the vehicle can be calibrated afterward against the same bench that calibrated it before flight, and a drift measurement is only as good as that comparison.
 
 ## The Flight Test Record
 
@@ -1098,7 +1098,7 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 - [Davies and Haines 1965][research_davies_haines_1965]
 - [Davis et al 1972][research_davis_1972]
 - [Delsasso et al 1948][research_delsasso_1948]
-- [Diegoca 1961][research_diegoca_1961]
+- [General Dynamics/Astronautics San Diegoca 1961][research_diegoca_1961]
 - [Diggins 1951][research_diggins_1951]
 - [Diltemiz 2021][research_diltemiz_2021]
 - [Ding et al 2025][research_ding_2025]
@@ -1141,7 +1141,7 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 - [Gillespie and Arbic 1951][research_gillespie_arbic_1951]
 - [Grammatikos et al 1967][research_grammatikos_1967]
 - [Grant and Sevier 1960][research_grant_sevier_1960]
-- [Groot 1965][research_groot_1965]
+- [De Groot 1965][research_groot_1965]
 - [Grubin 1975][research_grubin_1975]
 - [Gully and Skelley 1975][research_gully_skelley_1975]
 - [Hagiwara 1972][research_hagiwara_1972]
@@ -1195,7 +1195,7 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 - [Laita et al 2024][research_laita_2024]
 - [Lange and Parkinson 1965][research_lange_parkinson_1965]
 - [Lange and Parkinson 1966][research_lange_parkinson_1966]
-- [Lawrence 1952][research_lawrence_1952]
+- [Kansas Univ Lawrence 1952][research_lawrence_1952]
 - [Lebell 1956][research_lebell_1956]
 - [Lee et al 2024][research_lee_2024]
 - [Lee et al 2026][research_lee_2026]
@@ -1313,7 +1313,7 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 - [Titov and Serebryansky 2026][research_titov_serebryansky_2026]
 - [Tsiopliakis 2026][research_tsiopliakis_2026]
 - [Turner 1965][research_turner_1965]
-- [Vault 1957][research_vault_1957]
+- [De VAULT 1957][research_vault_1957]
 - [Walker 1952][research_walker_1952]
 - [Walker 1960][research_walker_1960]
 - [Walker 1961][research_walker_1961]

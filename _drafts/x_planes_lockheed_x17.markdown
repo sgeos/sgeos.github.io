@@ -123,7 +123,7 @@ Before comparing conditions it is worth writing down what is being compared to. 
 
 $$V(z) = V_e \exp\left[-\frac{\rho_0 H}{2 \beta \sin\gamma} e^{-z/H}\right]$$
 
-The solution and its descendants are the standard treatment of the problem, in [Scherberg and Rubin 1953][research_scherberg_rubin_1953], [Eilertson and Wing 1966][research_eilertson_wing_1966], [Speyer and Womble 1971][research_speyer_womble_1971], [KNIGHT and QUINN 1971][research_knight_quinn_1971], [Maples 1973][research_maples_1973], [GREENE and WILLIAMSON 1981][research_greene_williamson_1981], [Vinh and Lin 1982][research_vinh_lin_1982], [Desai et al 1999][research_desai_1999], [Zhang et al 2010][research_zhang_2010], [Zhou et al 2012][research_zhou_2012], [Zhao and Zhou 2013][research_zhao_zhou_2013], [Pei et al 2021][research_pei_2021], [Su et al 2021][research_su_2021], [Ma et al 2022][research_ma_2022].
+The solution and its descendants are the standard treatment of the problem, in [Scherberg and Rubin 1953][research_scherberg_rubin_1953], [Eilertson and Wing 1966][research_eilertson_wing_1966], [Speyer and Womble 1971][research_speyer_womble_1971], [KNIGHT and QUINN 1971][research_knight_quinn_1971], [Maples 1973][research_maples_1973], [GREENE and WILLIAMSON 1981][research_greene_williamson_1981], [Vinh and Lin 1982][research_vinh_lin_1982], [Desai et al 1999][research_desai_1999], [Maorui Zhang et al 2010][research_zhang_2010], [Zhou et al 2012][research_zhou_2012], [Zhao and Zhou 2013][research_zhao_zhou_2013], [Pei et al 2021][research_pei_2021], [Su et al 2021][research_su_2021], [Ma et al 2022][research_ma_2022].
 
 Two consequences follow immediately and neither depends on the vehicle. The peak deceleration is
 
@@ -395,13 +395,13 @@ $$\frac{T}{W} = \frac{48{,}000}{10{,}650} = 4.51$$
 
 which is high and appropriate for a vehicle that must clear the dense atmosphere quickly. The upper stages together develop 137,650 pounds force, or 612 kilonewtons, against a much smaller remaining mass, which is what supplies the 2,339 metres per second of downward velocity computed above.
 
-Solid propellant was the only sensible choice. It requires no pumps, tolerates being stored, and can be fired in any attitude, which matters greatly for a stage that ignites while pointing at the ground after a ballistic coast. Motor design and case work of the period appear in [Bua 1963][research_bua_1963] and [Harris 1963][research_harris_1963], internal insulation in [WALTON and SIMMONS 1962][research_walton_simmons_1962] and [Sale 1964][research_sale_1964], and the ablation problem inside the motor itself in [KUBY et al 1962][research_kuby_1962]. Multistage trajectory optimisation is treated in [Boyce 1963][research_boyce_1963]. Solid motor performance, grain and case design, nozzle erosion, and the staging problem generally are covered by [LAWRENCE 1945][research_lawrence_1945], [Matthews 1957][research_matthews_1957], [CAMPBELL 1962][research_campbell_1962], [KUBY 1964][research_kuby_1964], [PARKER and SUMMERFIELD 1964][research_parker_summerfield_1964], [HORTON 1964][research_horton_1964], [PRICE 1964][research_price_1964], [FONG 1964][research_fong_1964], [Perlmutter and DePierre 1965][research_perlmutter_depierre_1965], [DEMORE 1965][research_demore_1965], [Landers et al 1991][research_landers_1991], [Pamadi et al 2006][research_pamadi_2006], [Clayton 2017][research_clayton_2017], [Clayton 2017, Arc Jet Test and Analysis of Asbes][research_clayton_2017_2].
+Solid propellant was the only sensible choice. It requires no pumps, tolerates being stored, and can be fired in any attitude, which matters greatly for a stage that ignites while pointing at the ground after a ballistic coast. Motor design and case work of the period appear in [Bua 1963][research_bua_1963] and [Harris 1963][research_harris_1963], internal insulation in [WALTON and SIMMONS 1962][research_walton_simmons_1962] and [Sale 1964][research_sale_1964], and the ablation problem inside the motor itself in [KUBY et al 1962][research_kuby_1962]. Multistage trajectory optimisation is treated in [Boyce 1963][research_boyce_1963]. Solid motor performance, grain and case design, nozzle erosion, and the staging problem generally are covered by [LAWRENCE 1945][research_lawrence_1945], [Matthews 1957][research_matthews_1957], [CAMPBELL 1962][research_campbell_1962], [KUBY 1964][research_kuby_1964], [PARKER and SUMMERFIELD 1964][research_parker_summerfield_1964], [Horton, Ii 1964][research_horton_1964], [PRICE 1964][research_price_1964], [FONG 1964][research_fong_1964], [Perlmutter and DePierre 1965][research_perlmutter_depierre_1965], [DEMORE 1965][research_demore_1965], [Landers et al 1991][research_landers_1991], [Pamadi et al 2006][research_pamadi_2006], [Clayton 2017][research_clayton_2017], [Clayton 2017, Arc Jet Test and Analysis of Asbes][research_clayton_2017_2].
 
 ### Stability and the Attitude Problem
 
 A vehicle that coasts to apogee, tips over, and then fires has an attitude problem the flight-mechanics literature of the period addresses directly. The vehicle must be pointed correctly before the second stage lights, and any angle of attack at ignition is amplified by the burn.
 
-Spin stabilisation is the usual answer and appears in [Levine et al 1960][research_levine_1960]. Re-entry body dynamics generally are treated in [Holway and Prislin 1966][research_holway_prislin_1966], with later work on roll behaviour and angle-of-attack control in [KRYVORUKA and ASHURST 1973][research_kryvoruka_ashurst_1973] and [Platus 1980][research_platus_1980]. The ballistic missile free-flight problem in general is [WHEELON 1959][research_wheelon_1959]. The dynamics of a blunt body descending through an atmosphere, including the angle-of-attack oscillation that any imperfect release produces and the roll behaviour that couples into it, are treated in [Nix 1959][research_nix_1959], [SCHERMERHORN and DEMERITTE 1960][research_schermerhorn_demeritte_1960], [Prislin 1966][research_prislin_1966], [Price 1967][research_price_1967], [Platus 1967][research_platus_1967], [BARBERA 1981][research_barbera_1981], [MCDOWELL and WILLIAMSON 1982][research_mcdowell_williamson_1982], [Ivanov et al 2007][research_ivanov_2007], [Schoenenberger 2013][research_schoenenberger_2013], [Kazemba et al 2013][research_kazemba_2013], [Sevier et al 2016][research_sevier_2016], [Bharghava 2024][research_bharghava_2024]. **A vehicle that tips over and fires has an attitude error at ignition by construction**, and the literature above is what says how large it is allowed to be.
+Spin stabilisation is the usual answer and appears in [Levine et al 1960][research_levine_1960]. Re-entry body dynamics generally are treated in [Holway and Prislin 1966][research_holway_prislin_1966], with later work on roll behaviour and angle-of-attack control in [KRYVORUKA and ASHURST 1973][research_kryvoruka_ashurst_1973] and [Platus 1980][research_platus_1980]. The ballistic missile free-flight problem in general is [WHEELON 1959][research_wheelon_1959]. The dynamics of a blunt body descending through an atmosphere, including the angle-of-attack oscillation that any imperfect release produces and the roll behaviour that couples into it, are treated in [Nix 1959][research_nix_1959], [SCHERMERHORN and DEMERITTE 1960][research_schermerhorn_demeritte_1960], [Prislin 1966][research_prislin_1966], [Price 1967][research_price_1967], [Platus 1967][research_platus_1967], [BARBERA 1981][research_barbera_1981], [MCDOWELL and WILLIAMSON 1982][research_mcdowell_williamson_1982], [Ivanov et al 2007][research_ivanov_2007], [Schoenenberger 2013][research_schoenenberger_2013], [Kazemba et al 2013][research_kazemba_2013], [Sevier et al 2016][research_sevier_2016], [Sai Naga Bharghava et al 2024][research_bharghava_2024]. **A vehicle that tips over and fires has an attitude error at ignition by construction**, and the literature above is what says how large it is allowed to be.
 
 ### Instrumentation, Which Is the Actual Product
 
@@ -486,13 +486,13 @@ Arc-heated facilities remain the workhorse for material screening and are still 
 
 ### The Chemistry the X-17 Missed Is the Modern Subject
 
-The nonequilibrium chemistry the X-17 surrendered is now the central computational difficulty, in [Kline et al 2019][research_kline_2019] and the radiation modelling of [Winter et al 2019][research_winter_2019]. The current work spans vibrational relaxation and two-temperature models, state-to-state kinetics, rarefied and direct-simulation methods, and the catalytic wall boundary condition that decides how much of the dissociation energy is returned to the surface, across [Aiken et al 2025][research_aiken_2025], [Carter and Boyd 2025][research_carter_boyd_2025], [He et al 2025][research_he_2025], [Leonov and Miles 2025][research_leonov_miles_2025], [Li and Jing 2025][research_li_jing_2025], [Melnik et al 2025][research_melnik_2025], [Varma and Zhong 2025][research_varma_zhong_2025], [Wang et al 2025][research_wang_2025], [Chinnappan and Kim 2026][research_chinnappan_kim_2026], [Chu et al 2026][research_chu_2026], [Gao et al 2026][research_gao_2026], [Guo and Cao 2026][research_guo_cao_2026], [Jiang et al 2026][research_jiang_2026], [Liu et al 2026, Flow regimes and transitions in hy][research_liu_2026_2], [Pu et al 2026][research_pu_2026], [Tong et al 2026][research_tong_2026], [Varma and Zhong 2026][research_varma_zhong_2026], [Weifeng et al 2026][research_weifeng_2026].
+The nonequilibrium chemistry the X-17 surrendered is now the central computational difficulty, in [Kline et al 2019][research_kline_2019] and the radiation modelling of [Winter et al 2019][research_winter_2019]. The current work spans vibrational relaxation and two-temperature models, state-to-state kinetics, rarefied and direct-simulation methods, and the catalytic wall boundary condition that decides how much of the dissociation energy is returned to the surface, across [Aiken et al 2025][research_aiken_2025], [Carter and Boyd 2025][research_carter_boyd_2025], [He et al 2025][research_he_2025], [Leonov and Miles 2025][research_leonov_miles_2025], [Li and Jing 2025][research_li_jing_2025], [Melnik et al 2025][research_melnik_2025], [Varma and Zhong 2025][research_varma_zhong_2025], [Wang et al 2025][research_wang_2025], [Chinnappan and Kim 2026][research_chinnappan_kim_2026], [Chu et al 2026][research_chu_2026], [Gao et al 2026][research_gao_2026], [Guo and Cao 2026][research_guo_cao_2026], [Jiang et al 2026][research_jiang_2026], [Liu et al 2026, Flow regimes and transitions in hy][research_liu_2026_2], [Pu et al 2026][research_pu_2026], [Tong et al 2026][research_tong_2026], [Varma and Zhong 2026][research_varma_zhong_2026], [XU Weifeng et al 2026][research_weifeng_2026].
 
 **What the X-17 gave up because nobody could use it is now the part that is hardest to get right**, which is a reversal worth stating. The vehicle surrendered the chemistry as the cheapest of three requirements to abandon. **It is now the most expensive**, because everything else in a modern prediction is comparatively well posed and the chemistry is where the model form uncertainty lives.
 
 ### Ablation Became a Predictive Model Rather Than a Screening Result
 
-The X-17 could tell a designer that a material survived. Modern practice demands a model that says why and predicts the recession, as in [Wang et al 2019][research_wang_2019]. Charring ablator response, pyrolysis, surface chemistry, and recession prediction are now coupled models validated against arc-jet and flight data, in [Austin 2025][research_austin_2025], [Cai and Gao 2025][research_cai_gao_2025], [Cheng et al 2025][research_cheng_2025], [Duncheskie and Isaacson 2025][research_duncheskie_isaacson_2025], [Li et al 2025, Ablation resistance evaluation of][research_li_2025_3], [Maout et al 2025][research_maout_2025], [Song and Kim 2025][research_song_kim_2025], [Tomasian and Jennings 2025][research_tomasian_jennings_2025], [Wang et al 2025, Arc Jet Testing and Modeling Study][research_wang_2025_3], [Cabrera and West 2026][research_cabrera_west_2026], [Girish and Manu 2026][research_girish_manu_2026], [Guan et al 2026][research_guan_2026], [Li et al 2026][research_li_2026], [Tański et al 2026][research_tanski_2026], [Wang et al 2026][research_wang_2026], [Xu et al 2026][research_xu_2026].
+The X-17 could tell a designer that a material survived. Modern practice demands a model that says why and predicts the recession, as in [Wang et al 2019][research_wang_2019]. Charring ablator response, pyrolysis, surface chemistry, and recession prediction are now coupled models validated against arc-jet and flight data, in [Bernstein et al 2025][research_austin_2025], [Cai and Gao 2025][research_cai_gao_2025], [Cheng et al 2025][research_cheng_2025], [Duncheskie and Isaacson 2025][research_duncheskie_isaacson_2025], [Li et al 2025, Ablation resistance evaluation of][research_li_2025_3], [Le Maout et al 2025][research_maout_2025], [Song and Kim 2025][research_song_kim_2025], [Tomasian and Jennings 2025][research_tomasian_jennings_2025], [Wang et al 2025, Arc Jet Testing and Modeling Study][research_wang_2025_3], [Cabrera and West 2026][research_cabrera_west_2026], [Girish and Manu 2026][research_girish_manu_2026], [Guan et al 2026][research_guan_2026], [Li et al 2026][research_li_2026], [Tański et al 2026][research_tanski_2026], [Wang et al 2026][research_wang_2026], [Xu et al 2026][research_xu_2026].
 
 **That is a change in kind rather than degree**, and it is what allows a heat shield to be designed rather than selected. The X-17 could report that a material survived. **A modern model reports how much of it is left and why**, which is the difference between a screening result and an engineering prediction.
 
@@ -522,13 +522,13 @@ The article computes a turbulent heating penalty of 2.70 at the quoted Reynolds 
 
 ### Entry Descent and Landing Is Where the Problem Actually Went
 
-The X-17's descendants are not weapons but planetary entry systems, and the discipline that inherited its question calls itself entry, descent and landing, in [Deng et al 2023][research_deng_2023], [Dimino et al 2023][research_dimino_2023], [Jara et al 2023][research_jara_2023], [Karlgaard et al 2023][research_karlgaard_2023], [Dutta et al 2024][research_dutta_2024], [He 2024][research_he_2024], [Jalaja et al 2024][research_jalaja_2024], [Vershinin et al 2024][research_vershinin_2024], [Zubiaurre et al 2024][research_zubiaurre_2024], [Dutta 2025][research_dutta_2025], [Saranathan 2025][research_saranathan_2025], [Son et al 2025][research_son_2025], [Chadalavada et al 2026][research_chadalavada_2026], [Venkatapathy and Hash 2026][research_venkatapathy_hash_2026].
+The X-17's descendants are not weapons but planetary entry systems, and the discipline that inherited its question calls itself entry, descent and landing, in [Deng et al 2023][research_deng_2023], [Dimino et al 2023][research_dimino_2023], [Caqueo Jara et al 2023][research_jara_2023], [Karlgaard et al 2023][research_karlgaard_2023], [Dutta et al 2024][research_dutta_2024], [He 2024][research_he_2024], [Jalaja et al 2024][research_jalaja_2024], [Vershinin et al 2024][research_vershinin_2024], [Zubiaurre et al 2024][research_zubiaurre_2024], [Dutta 2025][research_dutta_2025], [Saranathan 2025][research_saranathan_2025], [Son et al 2025][research_son_2025], [Chadalavada et al 2026][research_chadalavada_2026], [Venkatapathy and Hash 2026][research_venkatapathy_hash_2026].
 
 **The transfer is direct.** A Mars entry vehicle is a blunt body with an ablative or insulative shield whose ballistic coefficient decides the altitude at which it decelerates, which is precisely the Allen-Eggers argument this article uses. **What changed is that the atmosphere is somebody else's**, and the density profile carries an uncertainty no terrestrial calculation has to bear.
 
 ### Knowing What Is Wrong Became a Discipline
 
-This article's contribution is a partition into reproduced and not reproduced, with ratios attached. The modern equivalent is uncertainty quantification, which does the same job continuously and with error bars, in [Zhao et al 2020][research_zhao_2020], [Li et al 2021, Uncertainty analysis of the high p][research_li_2021_2], [Salem et al 2021][research_salem_2021], [Xie et al 2021][research_xie_2021], [Wang and Luo 2022][research_wang_luo_2022], [Tian et al 2023, Sensitivity analysis and safety ad][research_tian_2023_2], [Blanco 2025][research_blanco_2025], [Deng et al 2026][research_deng_2026], [Graham and Fossati 2026][research_graham_fossati_2026], [Somé and Niyobuhungiro 2026][research_some_niyobuhungiro_2026].
+This article's contribution is a partition into reproduced and not reproduced, with ratios attached. The modern equivalent is uncertainty quantification, which does the same job continuously and with error bars, in [Zhao et al 2020][research_zhao_2020], [Li et al 2021, Uncertainty analysis of the high p][research_li_2021_2], [Salem et al 2021][research_salem_2021], [Xie et al 2021][research_xie_2021], [Wang and Luo 2022][research_wang_luo_2022], [Tian et al 2023, Sensitivity analysis and safety ad][research_tian_2023_2], [Solanilla Blanco 2025][research_blanco_2025], [Deng et al 2026][research_deng_2026], [Graham and Fossati 2026][research_graham_fossati_2026], [Somé and Niyobuhungiro 2026][research_some_niyobuhungiro_2026].
 
 **That is the deepest continuity between the X-17 and the present.** The vehicle's value was never that it reproduced a re-entry, because it did not. **It was that the people using its data knew which parts to trust**, and the modern field has turned that judgement into a method.
 
@@ -540,7 +540,7 @@ Hypersonic flight has returned as a defence and access-to-space priority, and wi
 
 ### An Application That Did Not Exist in 1956
 
-Nothing in the X-17's world anticipated the modern problem of making a spacecraft **fail** to survive re-entry. Design for demise, breakup modelling, and re-entry casualty risk are now regulatory concerns, in [Santos and Sampaio 2021][research_santos_sampaio_2021], [Department Of Astrophysics 2022][research_department_of_astrophysics_2022], [Wilmer et al 2022][research_wilmer_2022], [Ferreira et al 2024][research_ferreira_2024], [Gao et al 2024, Reentry Risk and Safety Assessment][research_gao_2024_2], [Bettinger et al 2025][research_bettinger_2025], [Jain and Hastings 2025][research_jain_hastings_2025], [Ocaya and Malevu 2025][research_ocaya_malevu_2025], [Chen et al 2026, Design-for-demise-oriented modelin][research_chen_2026_3], [Liu et al 2026, Survivability assessment of conste][research_liu_2026_4], [Navaz and Ntantis 2026][research_navaz_ntantis_2026], [Öztürk et al 2026][research_ozturk_2026].
+Nothing in the X-17's world anticipated the modern problem of making a spacecraft **fail** to survive re-entry. Design for demise, breakup modelling, and re-entry casualty risk are now regulatory concerns, in [Santos and Sampaio 2021][research_santos_sampaio_2021], [Ferreira Santos 2022][research_department_of_astrophysics_2022], [Wilmer et al 2022][research_wilmer_2022], [Ferreira et al 2024][research_ferreira_2024], [Gao et al 2024, Reentry Risk and Safety Assessment][research_gao_2024_2], [Bettinger et al 2025][research_bettinger_2025], [Jain and Hastings 2025][research_jain_hastings_2025], [Ocaya and Malevu 2025][research_ocaya_malevu_2025], [Chen et al 2026, Design-for-demise-oriented modelin][research_chen_2026_3], [Liu et al 2026, Survivability assessment of conste][research_liu_2026_4], [Navaz and Ntantis 2026][research_navaz_ntantis_2026], [Öztürk et al 2026][research_ozturk_2026].
 
 **The relations are identical and the objective is reversed.** Ballistic coefficient, ablation rate and heat load are computed in order to guarantee that a structure comes apart and burns rather than to guarantee that it does not. **The X-17 measured how to survive. Its instruments now serve an industry that sometimes needs the opposite**, which is the sharpest available illustration of how general the underlying physics turned out to be.
 
@@ -683,7 +683,7 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Archer 1963][research_archer_1963]
 - [Aroesty 1963][research_aroesty_1963]
 - [Ashkenas and Wegener 1961][research_ashkenas_wegener_1961]
-- [Austin 2025][research_austin_2025]
+- [Bernstein et al 2025][research_austin_2025]
 - [Bachynski et al 1959][research_bachynski_1959]
 - [Bachynski et al 1960][research_bachynski_1960]
 - [Balakalyani and Jagadeesh 2019][research_balakalyani_jagadeesh_2019]
@@ -692,10 +692,10 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Beckwith and Cohen 1963][research_beckwith_cohen_1963]
 - [Belrhiti et al 2025][research_belrhiti_2025]
 - [Bettinger et al 2025][research_bettinger_2025]
-- [Bharghava 2024][research_bharghava_2024]
+- [Sai Naga Bharghava et al 2024][research_bharghava_2024]
 - [Bird 1960][research_bird_1960]
 - [Bishop et al 2025][research_bishop_2025]
-- [Blanco 2025][research_blanco_2025]
+- [Solanilla Blanco 2025][research_blanco_2025]
 - [Bleakney et al 1949][research_bleakney_1949]
 - [Boyce 1963][research_boyce_1963]
 - [Bradley et al 1981][research_bradley_1981]
@@ -745,7 +745,7 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Deng et al 2023][research_deng_2023]
 - [Deng et al 2025][research_deng_2025]
 - [Deng et al 2026][research_deng_2026]
-- [Department Of Astrophysics 2022][research_department_of_astrophysics_2022]
+- [Ferreira Santos 2022][research_department_of_astrophysics_2022]
 - [Desai et al 1999][research_desai_1999]
 - [Development 1984][research_development_1984]
 - [Dickey and Haacker 1963][research_dickey_haacker_1963]
@@ -808,14 +808,14 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Hollis 2025][research_hollis_2025]
 - [Holway and Prislin 1966][research_holway_prislin_1966]
 - [Horing et al 2025][research_horing_2025]
-- [HORTON 1964][research_horton_1964]
+- [Horton, Ii 1964][research_horton_1964]
 - [Huang et al 2025][research_huang_2025]
 - [Ivanov et al 2007][research_ivanov_2007]
 - [Jaffe 1986][research_jaffe_1986]
 - [Jahn and Grosse 1959][research_jahn_grosse_1959]
 - [Jain and Hastings 2025][research_jain_hastings_2025]
 - [Jalaja et al 2024][research_jalaja_2024]
-- [Jara et al 2023][research_jara_2023]
+- [Caqueo Jara et al 2023][research_jara_2023]
 - [Ji et al 2025][research_ji_2025]
 - [Jiang and Deng 2025][research_jiang_deng_2025]
 - [Jiang et al 2026][research_jiang_2026]
@@ -889,7 +889,7 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Maloney et al 2025][research_maloney_2025]
 - [Manjhi and Kumar 2020][research_manjhi_kumar_2020]
 - [Manning 2009][research_manning_2009]
-- [Maout et al 2025][research_maout_2025]
+- [Le Maout et al 2025][research_maout_2025]
 - [Maples 1973][research_maples_1973]
 - [MASAKI and YAKURA 1968][research_masaki_yakura_1968]
 - [Maslov 2001][research_maslov_2001]
@@ -1041,7 +1041,7 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Wang et al 2026][research_wang_2026]
 - [Warmbrod 1963][research_warmbrod_1963]
 - [Wegener and Lobb 1952][research_wegener_lobb_1952]
-- [Weifeng et al 2026][research_weifeng_2026]
+- [XU Weifeng et al 2026][research_weifeng_2026]
 - [Welton 1965][research_welton_1965]
 - [Weng and Martin 2014][research_weng_martin_2014]
 - [Weng and Martin 2015][research_weng_martin_2015]
@@ -1067,7 +1067,7 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Yungster and Radhakrishnan 2001][research_yungster_radhakrishnan_2001]
 - [Zarubina 2025][research_zarubina_2025]
 - [Zeng et al 2026][research_zeng_2026]
-- [Zhang et al 2010][research_zhang_2010]
+- [Maorui Zhang et al 2010][research_zhang_2010]
 - [Zhang et al 2025, Nitrogen molecular radiation in hy][research_zhang_2025_2]
 - [Zhang et al 2026][research_zhang_2026]
 - [Zhang et al 2026, Effect of wall mass injection on r][research_zhang_2026_3]

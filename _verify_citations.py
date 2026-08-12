@@ -28,6 +28,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -134,6 +135,52 @@ def lookup(doi):
     return {"status": "ok", "title": title, "authors": authors, "year": year}
 
 
+def fold(s):
+    """Strip diacritics and case. `Lovász` and `Lovasz` are the same surname."""
+    return "".join(c for c in unicodedata.normalize("NFKD", s or "")
+                   if not unicodedata.combining(c)).lower()
+
+
+def surname_matches(label, authors):
+    """Whether any registry author is recognisable in the label.
+
+    COMPOUND SURNAMES ARE THE COMMON CASE AND A WHOLE-STRING TEST MISSES THEM. The registry
+    holds `Henriquez Huecas`, `Bardera Mora` and `Abdul Rashid`, while a label built from the
+    last token reads `Huecas`, `Mora` and `Rashid`. Those are the same person, so any token of
+    the registry surname counts as a match for the purpose of asking whether the identifier
+    resolves to the right work. **The label is still wrong and is reported separately**, but it
+    is a naming defect and not a fabricated citation, and conflating the two buries the latter.
+    """
+    lf = fold(label)
+    for a in authors or []:
+        af = fold(a)
+        if not af:
+            continue
+        if af in lf:
+            return True
+        for tok in re.findall(r"[a-z']{3,}", af):
+            if tok in lf:
+                return True
+    return False
+
+
+def label_carries_a_title(label, authors):
+    """Whether the label contains anything beyond authors, a year and stop words.
+
+    A TITLE-OVERLAP TEST AGAINST A LABEL WITH NO TITLE IS NOT A TEST. Most of the corpus renders
+    a reference entry as `Surname Year`, deliberately, so there is no title to overlap and the
+    check reported 14,979 of 15,159 weak findings against entries that were never going to carry
+    one. Measured 2026-08-11.
+    """
+    author_tokens = set()
+    for a in authors or []:
+        author_tokens |= set(re.findall(r"[a-z']{3,}", fold(a)))
+    rest = {t for t in re.findall(r"[a-z]{3,}", fold(label))
+            if t not in STOP and t not in author_tokens
+            and t not in {"and", "colleagues", "others", "research", "book", "ref", "et"}}
+    return len(rest) > 1
+
+
 def assess(item, rec):
     """Decide whether the cited label plausibly describes the resolved work."""
     if rec["status"] != "ok":
@@ -143,13 +190,23 @@ def assess(item, rec):
     if not title_t:
         return "no-title", ""
     overlap = len(label_t & title_t) / len(title_t)
-    surname_hit = any(a and a.lower() in item["label"].lower() for a in rec["authors"])
+    surname_hit = surname_matches(item["label"], rec["authors"])
+    # A label naming the wrong author is a DEFECT IN THE LABEL, not a wrong identifier, and it
+    # is reported in its own category so that it neither hides among 15,000 weak findings nor
+    # is mistaken for a fabricated citation.
+    if surname_hit and rec.get("authors"):
+        exact = any(fold(a) and fold(a) in fold(item["label"]) for a in rec["authors"])
+        if not exact:
+            return "label-name", (f"label names the author as written but the registry has "
+                                  f"{rec['authors'][:2]}")
+    if not surname_hit and not label_carries_a_title(item["label"], rec["authors"]):
+        return "mismatch", f"resolves to {rec['authors'][:1]} {rec['year']} {rec['title'][:70]!r}"
     # A fabricated citation shows near-zero title overlap AND no matching author.
     # Either signal alone is weak: labels abbreviate titles, and some entries
     # omit authors entirely.
     if overlap < 0.20 and not surname_hit:
         return "mismatch", f"resolves to {rec['authors'][:1]} {rec['year']} {rec['title'][:70]!r}"
-    if overlap < 0.20:
+    if overlap < 0.20 and label_carries_a_title(item["label"], rec["authors"]):
         return "weak", f"author matches but title does not: {rec['title'][:60]!r}"
     return "ok", ""
 

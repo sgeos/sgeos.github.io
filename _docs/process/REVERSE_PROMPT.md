@@ -10,7 +10,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 **Date**: 2026-08-11
 **Task**: Gated the corpus's largest verbal tic and cleared it, refreshed the stale tooling indexes.
-**Committed and pushed.** **The citation run is still in flight.**
+**Committed and pushed.** **The citation run has landed and its findings are acted on.**
 
 ---
 
@@ -75,16 +75,51 @@ backslash-run parity.
 
 ---
 
+## The Citation Run Landed, And Both Big Categories Were The Checker
+
+It covered **77,593 citations across 61,483 distinct identifiers**, the first run ever to reach A369,
+A370 and the 37-draft publication queue. It reported **195 mismatch, 3 nonexistent and 15,159 weak**.
+
+**I fixed the checker before believing it, and that was right.** 14,979 of the 15,159 weak findings
+were labels carrying no title at all, because most of the corpus renders an entry as `Surname Year` by
+design. **A title-overlap test against a label with no title is not a test.** The author check also
+matched by whole-string containment, so `Henriquez Huecas` cited as `Huecas` read as a wrong work
+rather than a wrong name.
+
+**I guessed diacritics were the main cause of the mismatches and I was wrong**, at 2 of 195. The three
+I happened to sample made it look typical.
+
+`assess()` now folds diacritics, matches any token of a compound surname, skips the overlap test when
+there is no title to overlap, and reports a wrong author name as its own `label-name` verdict, so a
+naming defect is neither buried among 15,000 weak findings nor mistaken for a fabricated citation.
+Re-assessed from cache with no further network use: **195 to 87 mismatch, 15,159 to 184 weak**.
+
+## The Real Defect Was Reader-Visible And In The Publication Queue
+
+**401 reference labels named the author wrongly.** Each article's throwaway `assemble.py` built its own
+link text and took the **last token** of the author string. For `BELL AEROSPACE CO BUFFALO NY` that
+gives `NY`, so the prose read **"the MX-2276 system described in NY 1955"**. For `Bardera Mora` it gives
+`Mora`, naming a real person incorrectly.
+
+**`refs.display()` was already correct.** This is precisely the duplication the shared library exists
+to end, and it reached 31 drafts because the label logic was reimplemented per article rather than
+called.
+
+**632 occurrences across 28 drafts were rebuilt from the cached registry record**, leaving 43 mismatch
+and 89 label-name as a residue. Anchors were left alone, since a reader never sees them.
+
+## The Drafts Gate Caught One More, And It Was Mine
+
+`./_check.sh --drafts` reported `andnbsp` three times in `draft_summary.html` — a document **describing
+that defect** and quoting it in backticks. `render.py` counted `double-escaped` and `literal-nbsp-word`
+inside code while every other markup check excluded it. Both now match the others.
+
 ## Outstanding
 
-**`_verify_citations.py` is still running.** It is now clear why it is slow, and the reason corrects
-something I told you earlier. The repository holds **77,593 DOI citations, of which 73,557 are in the
-37 unpublished X-Planes drafts** and only 4,036 in published posts. My earlier figure of 4,036 was
-`_posts` alone and I described it as the corpus. **The run is verifying the publication queue, which
-has never been checked**, across 61,483 distinct identifiers.
-
-I will report it per article when it lands. **The run record in `URL_VERIFICATION.md` points at the
-TASKLOG entry rather than claiming a result.**
+**43 mismatch and 89 label-name findings remain**, all in unpublished X-Planes drafts, plus 184 weak, 3
+nonexistent and 5 identifiers registered with DataCite rather than Crossref. They are a residue rather
+than a blocker, and the run record in [URL Verification](./URL_VERIFICATION.md) now carries the figures
+instead of pointing at a result that did not exist.
 
 **A334, the Boeing X-37**, on your prompt. **The thirty-seven X-Planes drafts remain unpublished and
 unauthorised.**

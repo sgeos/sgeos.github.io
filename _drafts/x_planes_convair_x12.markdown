@@ -159,7 +159,7 @@ The [X-11][related_post_a308_convair_x11] flew eight times to apogees near a hun
 
 $$\lambda \approx 0.05$$
 
-At that value the vehicle is not on a ballistic arc in any useful sense and the range law above returns about three hundred kilometres. **The Atlas A could not have demonstrated cutoff accuracy even if it had carried the equipment, because there was no long lever arm for an error to act on.** It also carried no separable booster section, so the staging transient that perturbs the velocity vector did not exist to be measured, and no guidance computer, so there was nothing to measure it with. The previous article concluded that the A settled its structural question on flight one and spent seven more flights debugging. **The X-12 is where the questions that actually decide whether the weapon works were asked for the first time.** [Rockefeller and Alfred 1960][research_rockefeller_alfred_1960] surrounds those questions at the programme level, with [Diegoca 1961][research_diegoca_1961] at the level of the individual missile.
+At that value the vehicle is not on a ballistic arc in any useful sense and the range law above returns about three hundred kilometres. **The Atlas A could not have demonstrated cutoff accuracy even if it had carried the equipment, because there was no long lever arm for an error to act on.** It also carried no separable booster section, so the staging transient that perturbs the velocity vector did not exist to be measured, and no guidance computer, so there was nothing to measure it with. The previous article concluded that the A settled its structural question on flight one and spent seven more flights debugging. **The X-12 is where the questions that actually decide whether the weapon works were asked for the first time.** [Rockefeller and Alfred 1960][research_rockefeller_alfred_1960] surrounds those questions at the programme level, with [General Dynamics/Astronautics San Diegoca 1961][research_diegoca_1961] at the level of the individual missile.
 
 ## Programme Origin
 
@@ -247,7 +247,7 @@ $$\lim_{k \to \infty} \frac{\delta v_{\text{new}}}{\delta v_{\text{old}}} = \sqr
 
 so **removing the largest contribution entirely, at infinite cost, would improve the total by 14.0 percent.** Halving it already captures three quarters of everything perfect elimination could buy. Nothing short of improving several terms at once moves the answer, and this is the structural reason accuracy programmes proceed slowly and by increments across many subsystems rather than by one decisive advance.
 
-It also explains a fact about the Atlas that would otherwise look like poor engineering. The reentry body's own dispersion, from ablation asymmetry and from winds at low altitude, sits in the budget alongside everything the guidance system does, and it is not reducible by any improvement to guidance at all. **A perfect cutoff does not give a perfect weapon**, and the guidance engineer's share of the problem has a floor set by aerodynamics. Error analysis in exactly this form was worked out by [Britting 1971][research_britting_1971] and [Nash et al 1972][research_nash_1972], with the reentry contribution in [Platus 1967][research_platus_1967] and [Ammons 1973][research_ammons_1973].
+It also explains a fact about the Atlas that would otherwise look like poor engineering. The reentry body's own dispersion, from ablation asymmetry and from winds at low altitude, sits in the budget alongside everything the guidance system does, and it is not reducible by any improvement to guidance at all. **A perfect cutoff does not give a perfect weapon**, and the guidance engineer's share of the problem has a floor set by aerodynamics. Error analysis in exactly this form was worked out by [Britting 1971][research_britting_1971] and [Nash, Jr. et al 1972][research_nash_1972], with the reentry contribution in [Platus 1967][research_platus_1967] and [Ammons 1973][research_ammons_1973].
 
 ### The Orbital Margin
 
@@ -525,7 +525,7 @@ so even a residual of fifty kilogrammes on a burnout mass of 5,395 costs
 
 $$\delta v = 3030 \ln (1.00927) = 28 \, \text{m/s}$$
 
-which is **forty-five times the entire error budget**. Propellant utilisation is therefore not an efficiency measure but an accuracy measure, and the period wrote about it in exactly those terms in [Whitcombe 1961, Optimum Propellant Loading And Pro][research_whitcombe_1961_2], with the Atlas programme's own difficulties recorded in [General Dynamics Convair 1966, Propellant Utilization][research_div_1966] and the control dynamics of the equivalent Centaur system in [Ringland and Stubblefield 1965][research_ringland_stubblefield_1965], [Magrini 1967][research_magrini_1967], and [Berns et al 1968][research_berns_1968].
+which is **forty-five times the entire error budget**. Propellant utilisation is therefore not an efficiency measure but an accuracy measure, and the period wrote about it in exactly those terms in [Whitcombe 1961, Optimum Propellant Loading And Pro][research_whitcombe_1961_2], with the Atlas programme's own difficulties recorded in [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966] and the control dynamics of the equivalent Centaur system in [Ringland and Stubblefield 1965][research_ringland_stubblefield_1965], [Magrini 1967][research_magrini_1967], and [Berns et al 1968][research_berns_1968].
 
 ### The Autopilot, and a Bending Mode That Will Not Stay Still
 
@@ -567,7 +567,7 @@ $$\frac{2 \pi f_{1}}{\omega} = 31$$
 
 between the rate the vehicle diverges and the rate its structure resonates. Thirty-one to one sounds generous and is not, because a loop must be several times faster than the divergence and several times slower than the mode to avoid exciting it, which consumes most of the interval.
 
-**And now the connection to the previous article that this one has otherwise avoided.** The bending frequency above assumes a fixed elastic modulus and geometry, and for a pressure-stabilised shell that assumption fails. The [X-11 article][related_post_a308_convair_x11] established that the Atlas structure has no compressive strength without tank pressure, so its effective bending stiffness is a function of a state variable that is being consumed throughout the flight. **The bending mode the autopilot filter is designed to reject moves during the ascent**, in a direction and by an amount that depends on the pressurisation schedule rather than on the airframe alone. The previous article raised this for pogo, and the same physics applies to the attitude loop with a different consequence. Missile structural dynamics of the period is surveyed in [Wood 1961][research_wood_1961], the launch-phase problem in [Gerald and Runyan 1962][research_gerald_runyan_1962], optimal control of a flexible vehicle in [Rynaski 1967][research_rynaski_1967], and automated autopilot design for exactly this class of problem in [Hauser 1972][research_hauser_1972]. The programme's own record survives as [General Dynamics Convair 1966, Autopilot][research_div_1966_4], and a pneumatic alternative the period considered is [Griffith and Byrd 1963][research_griffith_byrd_1963].
+**And now the connection to the previous article that this one has otherwise avoided.** The bending frequency above assumes a fixed elastic modulus and geometry, and for a pressure-stabilised shell that assumption fails. The [X-11 article][related_post_a308_convair_x11] established that the Atlas structure has no compressive strength without tank pressure, so its effective bending stiffness is a function of a state variable that is being consumed throughout the flight. **The bending mode the autopilot filter is designed to reject moves during the ascent**, in a direction and by an amount that depends on the pressurisation schedule rather than on the airframe alone. The previous article raised this for pogo, and the same physics applies to the attitude loop with a different consequence. Missile structural dynamics of the period is surveyed in [Wood 1961][research_wood_1961], the launch-phase problem in [Gerald and Runyan 1962][research_gerald_runyan_1962], optimal control of a flexible vehicle in [Rynaski 1967][research_rynaski_1967], and automated autopilot design for exactly this class of problem in [Hauser 1972][research_hauser_1972]. The programme's own record survives as [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966_4], and a pneumatic alternative the period considered is [Griffith and Byrd 1963][research_griffith_byrd_1963].
 
 ### Slosh, Which Gets Worse Exactly When It Matters
 
@@ -711,7 +711,7 @@ $$\frac{n_{e,2}}{n_{e,1}} = \left( \frac{f_{2}}{f_{1}} \right)^{2} = \left( \fra
 
 ### Instrumentation, Telemetry, and the Range
 
-A development flight is an instrument, and the accuracy question above cannot be answered without measuring the trajectory more accurately than the missile flies it. That is a hard requirement and the period took it seriously, in [Cooper 1961][research_cooper_1961] on the accuracy of measuring ballistic missile trajectories and [Gerlach 1965][research_gerlach_1965] on high-accuracy instrumentation for non-steady flight measurement. [Schweppe 1964][research_schweppe_1964] estimates a reentry body's state and ballistic coefficient in real time from tracking data, and the Kalman techniques that later made it routine are [Aldrich and Krabill 1972][research_aldrich_krabill_1972]. Simulation support for the vehicle as a whole comes from [Juarez 1961][research_juarez_1961], whose general n-stage missile dynamics program is the kind of tool that made a ten-flight programme interpretable. The physical instrumentation behind it is [Bonney 1960][research_bonney_1960] on radar ballistic instrumentation, [Matson 1963][research_matson_1963] on the airborne transponder that closes the tracking loop, and [Belsterling 1965][research_belsterling_1965] on the analog computer driving the range safety display. **The bottleneck was rarely the sensor and usually the reduction**, which is the subject of [Kingsley 1967][research_kingsley_1967], because a flight produces more data in five minutes than a period computing installation could process in a day.
+A development flight is an instrument, and the accuracy question above cannot be answered without measuring the trajectory more accurately than the missile flies it. That is a hard requirement and the period took it seriously, in [Cooper 1961][research_cooper_1961] on the accuracy of measuring ballistic missile trajectories and [Gerlach 1965][research_gerlach_1965] on high-accuracy instrumentation for non-steady flight measurement. [Schweppe 1964][research_schweppe_1964] estimates a reentry body's state and ballistic coefficient in real time from tracking data, and the Kalman techniques that later made it routine are [Aldrich and Krabill 1972][research_aldrich_krabill_1972]. Simulation support for the vehicle as a whole comes from [Juarez 1961][research_juarez_1961], whose general n-stage missile dynamics program is the kind of tool that made a ten-flight programme interpretable. The physical instrumentation behind it is [Bonney 1960][research_bonney_1960] on radar ballistic instrumentation, [Matson 1963][research_matson_1963] on the airborne transponder that closes the tracking loop, and [Belsterling 1965][research_belsterling_1965] on the analog computer driving the range safety display. **The bottleneck was rarely the sensor and usually the reduction**, which is the subject of [Lee Kingsley 1967][research_kingsley_1967], because a flight produces more data in five minutes than a period computing installation could process in a day.
 
 ## The Flight Test Record
 
@@ -730,7 +730,7 @@ Ten Atlas B vehicles flew from Cape Canaveral between 19 July 1958 and 4 Februar
 | 1959-01-16 | 13B | LC-14 | failure | loss of thrust at T plus 121 s |
 | 1959-02-04 | 11B | LC-11 | success | |
 
-Two entries carry the weight of the programme and the rest are the programme earning the right to have them. The flight test reporting apparatus that produced these entries survives as [Diegoca 1961][research_diegoca_1961], with range trajectory practice in [Callaway 1963][research_callaway_1963] and the measurement accuracy question in [Cooper 1961][research_cooper_1961].
+Two entries carry the weight of the programme and the rest are the programme earning the right to have them. The flight test reporting apparatus that produced these entries survives as [General Dynamics/Astronautics San Diegoca 1961][research_diegoca_1961], with range trajectory practice in [Callaway 1963][research_callaway_1963] and the measurement accuracy question in [Cooper 1961][research_cooper_1961].
 
 ### The Full-Range Flight
 
@@ -822,7 +822,7 @@ $$z = \frac{0.10}{0.236} = 0.42$$
 
 $$n = \frac{p(1-p)}{\sigma^{2}} = 99 \, \text{flights}$$
 
-which is not how a missile programme establishes reliability. The statistical machinery for doing better than counting successes arrived later and is [Taylor and Price 1974][research_taylor_price_1974], whose covariance analysis propagates component errors through a guidance loop without requiring flights at all. **A programme that cannot afford a hundred flights must substitute analysis for sampling**, and that substitution is the intellectual content of the entire reliability discipline that followed. Reliability came from the Difficulties Review process instead, and the five surviving volumes of [General Dynamics Convair 1966, Propellant Utilization][research_div_1966], [General Dynamics Convair 1966, Propulsion Interface][research_div_1966_2], [General Dynamics Convair 1966, Pneumatics][research_div_1966_3], [General Dynamics Convair 1966, Autopilot][research_div_1966_4], and [General Dynamics Convair 1966, Electrical][research_div_1966_5] are what that looked like written down. The flight test reports for individual missiles are [Diegoca 1961][research_diegoca_1961].
+which is not how a missile programme establishes reliability. The statistical machinery for doing better than counting successes arrived later and is [Taylor and Price 1974][research_taylor_price_1974], whose covariance analysis propagates component errors through a guidance loop without requiring flights at all. **A programme that cannot afford a hundred flights must substitute analysis for sampling**, and that substitution is the intellectual content of the entire reliability discipline that followed. Reliability came from the Difficulties Review process instead, and the five surviving volumes of [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966], [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966_2], [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966_3], [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966_4], and [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966_5] are what that looked like written down. The flight test reports for individual missiles are [General Dynamics/Astronautics San Diegoca 1961][research_diegoca_1961].
 
 Placing the failures on the mass and acceleration history makes the pattern sharper. At the combined mass flow of 676.2 kilogrammes per second computed above, the first failure at T plus 43 seconds occurred with
 
@@ -939,7 +939,7 @@ The article computes that the flattening of the Earth is 5.8 times the miss budg
 
 Satellite gravimetry became a dedicated mission class, reviewed for the GRACE and GRACE-FO era in [Wu et al 2026][research_wu_2026], with processing methods in [Zhao and Li 2025][research_zhao_li_2025] and the technique now being flown on small satellites in [Paul et al 2026][research_paul_2026] and applied to other bodies in [Yan et al 2025, Mars Gravity Field Determination B][research_yan_2025_2]. Airborne gravimetry fills the gaps, in [Timilsina 2025][research_timilsina_2025], [Dransfield and Miller 2025][research_dransfield_miller_2025], and [Dandan et al 2026][research_dandan_2026], and marine recovery from altimetry is [Han et al 2026][research_han_2026].
 
-**Global geopotential models are now evaluated rather than derived**, which is a mark of a mature field, and the evaluation literature is regional and continuous, in [Bako 2026][research_bako_2026], [Abdulmumin et al 2026][research_abdulmumin_2026], [Issa and Abboud 2026][research_issa_abboud_2026], [Dawod et al 2026][research_dawod_2026], [Mphuthi 2025][research_mphuthi_2025], [Othman et al 2025][research_othman_2025], and [Dawod and Hussien 2025][research_dawod_hussien_2025]. The deflection of the vertical, which the primary references treat as the central obstacle, now supports datasets combining modern and historical observation, in [Schreutelkamp and Hirt 2026][research_schreutelkamp_hirt_2026].
+**Global geopotential models are now evaluated rather than derived**, which is a mark of a mature field, and the evaluation literature is regional and continuous, in [Bako 2026][research_bako_2026], [Abdulmumin et al 2026][research_abdulmumin_2026], [Mohamed Issa and Mohammad Abboud 2026][research_issa_abboud_2026], [Dawod et al 2026][research_dawod_2026], [Mphuthi 2025][research_mphuthi_2025], [Othman et al 2025][research_othman_2025], and [Dawod and Hussien 2025][research_dawod_hussien_2025]. The deflection of the vertical, which the primary references treat as the central obstacle, now supports datasets combining modern and historical observation, in [Schreutelkamp and Hirt 2026][research_schreutelkamp_hirt_2026].
 
 **The datum problem the article identifies, that two continents surveyed separately are two coordinate systems, has become a routine adjustment.** National frames are realigned to international ones in [Mamdouh et al 2026][research_mamdouh_2026], [Akresh 2026][research_akresh_2026], [Lee and Yun 2025][research_lee_yun_2025], [Diouf et al 2026][research_diouf_2026], and [Kresnawan and Panuntun 2025][research_kresnawan_panuntun_2025], the reference frame itself is maintained through [Li et al 2026, Improved time-correlated noise mod][research_li_2026_2] and [Goudarzi 2025][research_goudarzi_2025], and satellite laser ranging contributes in [Ren et al 2026][research_ren_2026] and [Wilkinson 2026][research_wilkinson_2026]. Vertical datums are being unified globally in [Inoue and Guimarães 2025][research_inoue_guimaraes_2025], [Kekunamullage et al 2026][research_kekunamullage_2026], and [Mphuthi 2026][research_mphuthi_2026]. **A targeting organisation in 1958 could not know a target's coordinates to the tolerance its own guidance system met. That is no longer the binding term anywhere.**
 
@@ -957,7 +957,7 @@ The Atlas computed corrections on the ground because it could not compute them i
 
 ### Staging, Separation, and the Shock the Atlas Accepted
 
-Separation is now a multibody simulation problem, in [Pamadi et al 2016][research_pamadi_2016], [Albertson et al 2012][research_albertson_2012], [Zhang et al 2022][research_zhang_2022], [Yan et al 2025][research_yan_2025], [Kumar et al 2023][research_kumar_2023], and [Nasiri et al 2025][research_nasiri_2025]. Interstage structural design is [Luca et al 2026][research_luca_2026] for hot staging, [Nair et al 2023][research_nair_2023], and [Raouf et al 2022][research_raouf_2022].
+Separation is now a multibody simulation problem, in [Pamadi et al 2016][research_pamadi_2016], [Albertson et al 2012][research_albertson_2012], [Zhang et al 2022][research_zhang_2022], [Yan et al 2025][research_yan_2025], [Kumar et al 2023][research_kumar_2023], and [Nasiri et al 2025][research_nasiri_2025]. Interstage structural design is [De Luca et al 2026][research_luca_2026] for hot staging, [Nair et al 2023][research_nair_2023], and [Raouf et al 2022][research_raouf_2022].
 
 **The most telling thread is the effort to get rid of the explosive bolts the Atlas B introduced.** A pyrotechnic separation delivers a shock the payload must survive, characterised in [Xie et al 2026][research_xie_2026], [Yang et al 2023][research_yang_2023], [Xiong et al 2021][research_xiong_2021], and [Boliubash 2025][research_boliubash_2025], with the aeroelastic behaviour of the separating plate in [Yao and Liu 2022][research_yao_liu_2022]. Low-shock and non-pyrotechnic alternatives are surveyed in [Yue et al 2022][research_yue_2022] and pursued in [Ermakov et al 2025][research_ermakov_2025]. **A mechanism chosen in 1958 for absolute reliability is now the component the field most wants to replace**, which is a fair summary of what changes when a technology stops being marginal.
 
@@ -965,7 +965,7 @@ Separation is now a multibody simulation problem, in [Pamadi et al 2016][researc
 
 The article's sharpest propulsion result is that the tail-off impulse uncertainty is 1.8 times the entire error budget. The modern literature attacks that uncertainty directly rather than working around it. Start and shutdown transients are simulated in detail, deep throttling is [Fiore et al 2026][research_fiore_2026] and [Zhou et al 2026, Analysis of throttling characteris][research_zhou_2026_2], turbopump cavitation is reviewed in [Wan et al 2026][research_wan_2026] with supersonic turbine design in [Wei et al 2026, Design and loss mechanisms analysi][research_wei_2026_2], and film cooling is [Yang et al 2025][research_yang_2025].
 
-**Health monitoring is the capability that would have changed the Atlas B flight record most.** Three of its four failures were propulsion faults, and [Cha and Ko 2025][research_cha_ko_2025], [Zhang et al 2024, Knowledge distillation-optimized t][research_zhang_2024_2], and [Zhu et al 2026][research_zhu_2026] detect exactly that class of fault from sensor data. The propellant utilisation function the article shows to be worth forty-five error budgets is now a sensing problem, in [Kala 2025][research_kala_2025]. **A vehicle that knows its own mixture ratio in flight does not need to reserve propellant against not knowing it.**
+**Health monitoring is the capability that would have changed the Atlas B flight record most.** Three of its four failures were propulsion faults, and [Cha and Ko 2025][research_cha_ko_2025], [Zhang et al 2024, Knowledge distillation-optimized t][research_zhang_2024_2], and [Zhu et al 2026][research_zhu_2026] detect exactly that class of fault from sensor data. The propellant utilisation function the article shows to be worth forty-five error budgets is now a sensing problem, in [Anisha Selva Kala et al 2025][research_kala_2025]. **A vehicle that knows its own mixture ratio in flight does not need to reserve propellant against not knowing it.**
 
 ### Structural Dynamics, Where the Balloon Tank Still Complicates Matters
 
@@ -979,7 +979,7 @@ The Allen and Eggers relations this article uses remain the first cut, and the r
 
 ### Communication Blackout
 
-The article derives that S-band tolerates seventy-seven times the ionisation that very high frequency does. That square law is still the governing constraint and the mitigation literature is active, in [Abustia and Alzwam 2026][research_abustia_alzwam_2026] on millimetre-wave links, [Maicke et al 2026][research_maicke_2026] on magnetic thin films that alter the sheath, and [Luc et al 2026][research_luc_2026] on oblique propagation through an inhomogeneous plasma. **Raising the frequency remains the primary answer sixty years later**, because the physics offers no other free parameter.
+The article derives that S-band tolerates seventy-seven times the ionisation that very high frequency does. That square law is still the governing constraint and the mitigation literature is active, in [Maria.M. Abustia and Marwa Ali Alzwam 2026][research_abustia_alzwam_2026] on millimetre-wave links, [Maicke et al 2026][research_maicke_2026] on magnetic thin films that alter the sheath, and [Luc et al 2026][research_luc_2026] on oblique propagation through an inhomogeneous plasma. **Raising the frequency remains the primary answer sixty years later**, because the physics offers no other free parameter.
 
 ### The First Communications Satellite Was Also the First Deliberate Debris
 
@@ -997,7 +997,7 @@ The article argues that the Atlas lost its role because a cryogenic missile cann
 
 ### Accuracy, Deterrence, and the Argument the Article Started
 
-The article's yield-versus-accuracy scaling is the quantitative core of the counterforce debate, which is active and unresolved. [Acton 2025][research_acton_2025] and [Rehman 2025][research_rehman_2025] argue over whether accuracy has made counterforce attractive, [Strategy 2026][research_strategy_2026] adds drones to the same question, [Uzzaman and Rana 2025][research_uzzaman_rana_2025] treats the resulting modernisation pressures, and [Bowers and Hiim 2021][research_bowers_hiim_2021] and [Ashraf and Haq 2023][research_ashraf_haq_2023] examine regional cases. Deterrence credibility as a separate question is [Kabaoğlu 2026][research_kabaoglu_2026], [Traore 2026][research_traore_2026], [Banevičienė 2026][research_baneviciene_2026], and [Hunter 2026][research_hunter_2026]. **The defensive side prices the same arithmetic in reverse**, in [Moric and Kadyshev 2025][research_moric_kadyshev_2025] on the cost of defending against a major strike, [Sanbad 2025][research_sanbad_2025], and [Kumar 2022][research_kumar_2022], while manoeuvring vehicles that defeat prediction are [Zhang et al 2026, Suboptimal Stochastic Differential][research_zhang_2026_3] and [Huang et al 2024, Guidance algorithm for reusable la][research_huang_2024_3]. **The Atlas B's contribution to all of it is that it demonstrated the delivery, and every argument since has been about what the delivery is worth.**
+The article's yield-versus-accuracy scaling is the quantitative core of the counterforce debate, which is active and unresolved. [Acton 2025][research_acton_2025] and [Rehman 2025][research_rehman_2025] argue over whether accuracy has made counterforce attractive, [Kim and Chung 2026][research_strategy_2026] adds drones to the same question, [Uzzaman and Rana 2025][research_uzzaman_rana_2025] treats the resulting modernisation pressures, and [Bowers and Hiim 2021][research_bowers_hiim_2021] and [Ashraf and Haq 2023][research_ashraf_haq_2023] examine regional cases. Deterrence credibility as a separate question is [Kabaoğlu 2026][research_kabaoglu_2026], [Traore 2026][research_traore_2026], [Banevičienė 2026][research_baneviciene_2026], and [Hunter 2026][research_hunter_2026]. **The defensive side prices the same arithmetic in reverse**, in [Moric and Kadyshev 2025][research_moric_kadyshev_2025] on the cost of defending against a major strike, [Sanbad 2025][research_sanbad_2025], and [Kumar 2022][research_kumar_2022], while manoeuvring vehicles that defeat prediction are [Zhang et al 2026, Suboptimal Stochastic Differential][research_zhang_2026_3] and [Huang et al 2024, Guidance algorithm for reusable la][research_huang_2024_3]. **The Atlas B's contribution to all of it is that it demonstrated the delivery, and every argument since has been about what the delivery is worth.**
 
 ### The Objective Function Inverted
 
@@ -1017,7 +1017,7 @@ $$\delta v = \frac{\text{CEP}}{dR/dv}$$
 
 so at five nautical miles the problem is materially easier and at one it is roughly twice as hard as anything this article claims. **The qualitative conclusion that speed dominates angle survives any choice, because it rests on a stationarity argument rather than on a number, but the specific figures do not.**
 
-**Treating cutoff as the whole problem understates the atmosphere.** The range law used here is for a spherical non-rotating Earth with no atmosphere on the way up or down, and the reentry body's own dispersion, from ablation asymmetry, from roll resonance, and from winds at low altitude, contributes to the miss distance independently of anything the guidance system did. [Platus 1967][research_platus_1967] on roll resonance and [Ammons 1973][research_ammons_1973] on low-level wind measurement error are the shape of that contribution, with the high-altitude wind response of a missile in [Maas 1962][research_maas_1962], the criterion problem in [Bidwell 1967][research_bidwell_1967], and the Atlas programme's own flight-wind restriction procedure in [Mattson 1965][research_mattson_1965]. **The reentry body has a dispersion budget of its own and it was treated as a design variable**, which is exactly what [Johannessen 1964][research_johannessen_1964] does for the Mark 12 body, while the aerodynamic behaviour that produces it is [Murphy 1961][research_murphy_1961] on the pitching and yawing motion of nose cone configurations and [Sharenson 1966][research_sharenson_1966] on high-altitude drag effects. An article organised around cutoff accuracy will naturally attribute the whole error to cutoff, and that is wrong.
+**Treating cutoff as the whole problem understates the atmosphere.** The range law used here is for a spherical non-rotating Earth with no atmosphere on the way up or down, and the reentry body's own dispersion, from ablation asymmetry, from roll resonance, and from winds at low altitude, contributes to the miss distance independently of anything the guidance system did. [Platus 1967][research_platus_1967] on roll resonance and [Ammons 1973][research_ammons_1973] on low-level wind measurement error are the shape of that contribution, with the high-altitude wind response of a missile in [Van Der Maas 1962][research_maas_1962], the criterion problem in [Bidwell 1967][research_bidwell_1967], and the Atlas programme's own flight-wind restriction procedure in [Mattson 1965][research_mattson_1965]. **The reentry body has a dispersion budget of its own and it was treated as a design variable**, which is exactly what [Johannessen 1964][research_johannessen_1964] does for the Mark 12 body, while the aerodynamic behaviour that produces it is [Murphy 1961][research_murphy_1961] on the pitching and yawing motion of nose cone configurations and [Sharenson 1966][research_sharenson_1966] on high-altitude drag effects. An article organised around cutoff accuracy will naturally attribute the whole error to cutoff, and that is wrong.
 
 **The orbital margin argument assumes the propellant is there to spend.** The twenty-one percent burnout mass trade holds at fixed propellant load, and it is an idealisation in which the vehicle flies the same ascent and simply stops later. A real orbital mission flies a different trajectory with different losses, so the true trade is somewhat worse than computed. The seven percent agreement with the SCORE mass is therefore partly fortuitous and should be read as an order-of-magnitude confirmation rather than as a validation.
 
@@ -1047,7 +1047,7 @@ What this article can add is one observation about the mechanism. The [X-10][rel
 
 ## The Source Base
 
-**The Atlas record in the defence archive is genuinely rich and it is not evenly distributed.** Querying the Defense Technical Information Center through the Crossref publisher prefix returns Flight Test Working Group reports for individual missiles, the five volumes of the Difficulties Review covering propellant utilisation, the propulsion interface, pneumatics, the autopilot, and the electrical system, and the model specification for the sustainer engine itself. **What it does not return is anything using the X-12 designation.** The specific documents are [Diegoca 1961][research_diegoca_1961], the five volumes of [General Dynamics Convair 1966, Propellant Utilization][research_div_1966], [General Dynamics Convair 1966, Propulsion Interface][research_div_1966_2], [General Dynamics Convair 1966, Pneumatics][research_div_1966_3], [General Dynamics Convair 1966, Autopilot][research_div_1966_4], and [General Dynamics Convair 1966, Electrical][research_div_1966_5], the engine specification [Scott 1963][research_scott_1963], the system-test evaluation [Peters and Hall 1963][research_peters_hall_1963], and the launch vehicle specification [Wolfe 1966][research_wolfe_1966].
+**The Atlas record in the defence archive is genuinely rich and it is not evenly distributed.** Querying the Defense Technical Information Center through the Crossref publisher prefix returns Flight Test Working Group reports for individual missiles, the five volumes of the Difficulties Review covering propellant utilisation, the propulsion interface, pneumatics, the autopilot, and the electrical system, and the model specification for the sustainer engine itself. **What it does not return is anything using the X-12 designation.** The specific documents are [General Dynamics/Astronautics San Diegoca 1961][research_diegoca_1961], the five volumes of [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966], [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966_2], [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966_3], [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966_4], and [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966_5], the engine specification [Scott 1963][research_scott_1963], the system-test evaluation [Peters and Hall 1963][research_peters_hall_1963], and the launch vehicle specification [Wolfe 1966][research_wolfe_1966].
 
 The asymmetry the [previous article][related_post_a308_convair_x11] identified holds and deepens. The Navaho, cancelled in 1957, leaves four years of programme reporting. The Atlas, which flew for sixty years as a launch vehicle, leaves a continuous literature in which the weapon programme is the earliest layer and the launch vehicle work is the thickest. **The archive is a record of what happened to a programme afterwards rather than of what it was**, and for this article that bias is helpful, since the Atlas-Centaur separation and propellant utilisation studies of the mid-1960s document mechanisms that the Atlas B introduced and that nobody wrote up at the time.
 
@@ -1143,7 +1143,7 @@ The sensitivity that organises the article has not moved since. Running it forwa
 
 - [Abdollahi and Pourtakdoust 2026][research_abdollahi_pourtakdoust_2026]
 - [Abdulmumin et al 2026][research_abdulmumin_2026]
-- [Abustia and Alzwam 2026][research_abustia_alzwam_2026]
+- [Maria.M. Abustia and Marwa Ali Alzwam 2026][research_abustia_alzwam_2026]
 - [Acton 2025][research_acton_2025]
 - [Adkins 1970][research_adkins_1970]
 - [Aein 1964][research_aein_1964]
@@ -1212,7 +1212,7 @@ The sensitivity that organises the article has not moved since. Running it forwa
 - [Dawod et al 2026][research_dawod_2026]
 - [Denham 1965][research_denham_1965]
 - [Dhinakaran et al 2025][research_dhinakaran_2025]
-- [Diegoca 1961][research_diegoca_1961]
+- [General Dynamics/Astronautics San Diegoca 1961][research_diegoca_1961]
 - [Diouf et al 2026][research_diouf_2026]
 - [Dolton and Reed 1966][research_dolton_reed_1966]
 - [Dransfield and Miller 2025][research_dransfield_miller_2025]
@@ -1241,11 +1241,11 @@ The sensitivity that organises the article has not moved since. Running it forwa
 - [Fye 1966][research_fye_1966]
 - [Gao et al 2026, Robust powered descent guidance co][research_gao_2026_2]
 - [Geckler 1960][research_geckler_1960]
-- [General Dynamics Convair 1966, Autopilot][research_div_1966_4]
-- [General Dynamics Convair 1966, Electrical][research_div_1966_5]
-- [General Dynamics Convair 1966, Pneumatics][research_div_1966_3]
-- [General Dynamics Convair 1966, Propellant Utilization][research_div_1966]
-- [General Dynamics Convair 1966, Propulsion Interface][research_div_1966_2]
+- [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966_4]
+- [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966_5]
+- [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966_3]
+- [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966]
+- [General Dynamics San Diego Ca Convair Div 1966, Difficulties Review Atlas Booster][research_div_1966_2]
 - [George 1974][research_george_1974]
 - [Gerald and Runyan 1962][research_gerald_runyan_1962]
 - [Gerharz 1963][research_gerharz_1963]
@@ -1288,7 +1288,7 @@ The sensitivity that organises the article has not moved since. Running it forwa
 - [Ingber 1965][research_ingber_1965]
 - [Ingram 2026][research_ingram_2026]
 - [Inoue and Guimarães 2025][research_inoue_guimaraes_2025]
-- [Issa and Abboud 2026][research_issa_abboud_2026]
+- [Mohamed Issa and Mohammad Abboud 2026][research_issa_abboud_2026]
 - [Ivanco et al 2020][research_ivanco_2020]
 - [Izotov 1959][research_izotov_1959]
 - [Jacobs 1964][research_jacobs_1964]
@@ -1305,7 +1305,7 @@ The sensitivity that organises the article has not moved since. Running it forwa
 - [Juarez 1961][research_juarez_1961]
 - [Jusko et al 2026][research_jusko_2026]
 - [Kabaoğlu 2026][research_kabaoglu_2026]
-- [Kala 2025][research_kala_2025]
+- [Anisha Selva Kala et al 2025][research_kala_2025]
 - [Kaplan 1961][research_kaplan_1961]
 - [Kariminejad et al 2026][research_kariminejad_2026]
 - [Karlitepe 2026][research_karlitepe_2026]
@@ -1324,7 +1324,7 @@ The sensitivity that organises the article has not moved since. Running it forwa
 - [King-Hele et al 1965, The odd zonal harmonics in the Ear][research_king_hele_1965_2]
 - [King-hele et al 1966][research_king_hele_1966]
 - [King-Hele et al 1966, Even zonal harmonics in the earth'][research_king_hele_1966_2]
-- [Kingsley 1967][research_kingsley_1967]
+- [Lee Kingsley 1967][research_kingsley_1967]
 - [Kouba and Mason 1962][research_kouba_mason_1962]
 - [Kozai 1964][research_kozai_1964]
 - [Kozai 1964, New Determination of Zonal Harmoni][research_kozai_1964_2]
@@ -1353,8 +1353,8 @@ The sensitivity that organises the article has not moved since. Running it forwa
 - [Lubowe 1965][research_lubowe_1965]
 - [Lubowe 1969][research_lubowe_1969]
 - [Luc et al 2026][research_luc_2026]
-- [Luca et al 2026][research_luca_2026]
-- [Maas 1962][research_maas_1962]
+- [De Luca et al 2026][research_luca_2026]
+- [Van Der Maas 1962][research_maas_1962]
 - [MacPherson 1963][research_macpherson_1963]
 - [Magrini 1967][research_magrini_1967]
 - [Maicke et al 2026][research_maicke_2026]
@@ -1387,7 +1387,7 @@ The sensitivity that organises the article has not moved since. Running it forwa
 - [NACA 1968, Atlas-Centaur Ac-12 flight perform][research_naca_1968_2]
 - [NACA 1969, Flight performance of the Atlas-Ag][research_naca_1969_2]
 - [Nair et al 2023][research_nair_2023]
-- [Nash et al 1972][research_nash_1972]
+- [Nash, Jr. et al 1972][research_nash_1972]
 - [Nasiri et al 2025][research_nasiri_2025]
 - [Navaz and Ntantis 2026][research_navaz_ntantis_2026]
 - [Nein and Head 1962][research_nein_head_1962]
@@ -1456,7 +1456,7 @@ The sensitivity that organises the article has not moved since. Running it forwa
 - [Stephens 1965][research_stephens_1965]
 - [Stern 2008][research_stern_2008]
 - [Stetson 1964][research_stetson_1964]
-- [Strategy 2026][research_strategy_2026]
+- [Kim and Chung 2026][research_strategy_2026]
 - [Strauss 1964][research_strauss_1964]
 - [Su et al 2026, Convex programming based method fo][research_su_2026_3]
 - [Su et al 2026, Distributionally robust trajectory][research_su_2026_2]

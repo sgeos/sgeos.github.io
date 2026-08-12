@@ -982,7 +982,7 @@ Orlando Fl 1983][research_science_applications_inc_orlando_fl_1983], [Aiken 1986
 Qualities][research_air_force_test_pilot_school_edwards_afb_ca_1991_2], [Intano and Howse
 1991][research_intano_howse_1991], [Low and Garrard 1993][research_low_garrard_1993], [Ham et al
 1995][research_ham_1995], [Hess 1995][research_hess_1995], [Joralmon 1995][research_joralmon_1995], [Mattoon
-1997][research_mattoon_1997], [ODonnell et al 1999][research_o_donnell_1999], [Carretta
+1997][research_mattoon_1997], [O'Donnell et al 1999][research_o_donnell_1999], [Carretta
 2000][research_carretta_2000], [Dynamics Research Corp Wilmington Ma
 2001][research_dynamics_research_corp_wilmington_ma_2001], [Grubb et al 2001, Review of Current
 Aircrew][research_grubb_2001], [Air Force Flight Test Center Edwards Afb Ca 2002, Flight Test Control
@@ -1590,7 +1590,7 @@ of Micro][research_lee_2021], [Loureiro et al 2021][research_loureiro_2021], [Pe
 Management][research_peng_2021], [Shah Alam and Oluoch 2021][research_shah_alam_oluoch_2021], [Slim et al
 2021][research_slim_2021], [Su and Wang 2021][research_su_wang_2021], [Tang et al 2021, Quadrotor going
 through a window][research_tang_2021_2], [Turan et al 2021][research_turan_2021], [Vafamand and Arefi
-2021][research_vafamand_arefi_2021], [Alkhanov et al 2022][research_al_khanov_2022], [Aoki and Ishigami
+2021][research_vafamand_arefi_2021], [Al'khanov et al 2022][research_al_khanov_2022], [Aoki and Ishigami
 2022][research_aoki_ishigami_2022], [Awad and Stumpf 2022][research_awad_stumpf_2022], [Davoudi Dehkordi and
 Danesh 2022][research_davoudi_dehkordi_danesh_2022], [Guo et al 2022, Autonomous Landing of a
 Quadrotor][research_guo_2022_2], [Jung and Oh 2022][research_jung_oh_2022], [Ma et al 2022,
@@ -1843,7 +1843,7 @@ AIRCRAFT 2018][research_computer_aided_system_2018], [Cantisani et al 2018][rese
 [Castilla 2018][research_castilla_2018], [Chang et al 2018][research_chang_2018], [Changchuan et al
 2018][research_changchuan_2018], [Chen et al 2018, A high-precision constant wire][research_chen_2018],
 [Chen et al 2018, Unsteady aerodynamics of a][research_chen_2018_2], [Chenglong et al
-2018][research_chenglong_2018], [DAngelo 2018][research_d_angelo_2018], [Dai et al 2018][research_dai_2018],
+2018][research_chenglong_2018], [D'Angelo 2018][research_d_angelo_2018], [Dai et al 2018][research_dai_2018],
 [Danis et al 2018][research_danis_2018], [Dmcc 2018][research_dmcc_2018], [Dolgov
 2018][research_dolgov_2018], [Du and Gao 2018][research_du_gao_2018], [Dursun and Çuhadar
 2018][research_dursun_cuhadar_2018], [Ekman and Debacker 2018][research_ekman_debacker_2018], [Erdmann et al
@@ -2146,7 +2146,7 @@ of Fixed-Wing][research_zhang_2023], [Zhao and Zhang 2023][research_zhao_zhang_2
 Formation control of unmanned][research_zhou_2023_2], [Zhu et al 2023, Experimental Investigation
 on][research_zhu_2023_4], [Zimmer and Gagnon 2023][research_zimmer_gagnon_2023], [Ünal et al
 2023][research_unal_2023], [Вищекин et al 2023, EQUIPMENT FOR PARACHUTE-FREE][research__2023_2],
-[2024][research__2024], [Abu Salem 2024][research_abu_salem_2024], [Accuracy Performance Evaluation System
+[Synergy of Aerodynamics and 2024][research__2024], [Abu Salem 2024][research_abu_salem_2024], [Accuracy Performance Evaluation System
 2024][research_accuracy_performance_2024], [Ahmed et al 2024][research_ahmed_2024], [Andersen et al
 2024][research_andersen_2024], [Bhandari et al 2024][research_bhandari_2024], [Biertümpfel et al
 2024][research_biertumpfel_2024], [Boniface et al 2024][research_boniface_2024], [Cao et al 2024, Numerical
@@ -2993,7 +2993,7 @@ Performance][research_verma_1991], [Air Force Test Pilot School Edwards Afb Ca
 1992][research_curtiss_mckillip_1992], [Dufek and Bates 1992][research_dufek_bates_1992], [Ham and Mckillip
 1992][research_ham_mckillip_1992], [Iskierka 1992][research_iskierka_1992], [Lake et al
 1992][research_lake_1992], [Morey et al 1992][research_morey_1992], [Noonan et al
-1992][research_noonan_1992], [OBrien et al 1992][research_o_brien_1992], [Prieur
+1992][research_noonan_1992], [O'Brien et al 1992][research_o_brien_1992], [Prieur
 1992][research_prieur_1992], [Small Business Innovations Helicopters 1992][research_small_business_1992],
 [Smith and Chopra 1992][research_smith_chopra_1992], [Stroub et al 1992][research_stroub_1992], [Swanson et
 al 1992][research_swanson_1992], [Walsh et al 1992][research_walsh_1992], [Yamamoto and August
@@ -3301,7 +3301,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 ### Research
 
 - [1 Sailplanes their Design 1933][research_1_sailplanes_1933]
-- [2024][research__2024]
+- [Synergy of Aerodynamics and 2024][research__2024]
 - [A Novel Sliding Mode 2020][research_a_novel_2020]
 - [Abbas et al 2024][research_abbas_2024]
 - [Abbott et al 1977][research_abbott_1977]
@@ -3384,7 +3384,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Ali et al 2020][research_ali_2020]
 - [Alifanov et al 2018][research_alifanov_2018]
 - [Alizadeh et al 2018][research_alizadeh_2018]
-- [Alkhanov et al 2022][research_al_khanov_2022]
+- [Al'khanov et al 2022][research_al_khanov_2022]
 - [Alle 1967][research_alle_1967]
 - [Allen and White 1957][research_allen_white_1957]
 - [Almanza et al 1994][research_almanza_1994]
@@ -3457,7 +3457,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Army Cold Regions Test Center Fort Greely Ak 2013][research_army_cold_regions_test_center_fort_greely_ak_2013]
 - [Army Materiel Command Alexandria Va 1972][research_army_materiel_command_alexandria_va_1972]
 - [Army Materiel Command Alexandria Va 1974, Engineering Design Handbook][research_army_materiel_command_alexandria_va_1974]
-- [Army Materiel Command Alexandria Va 1974, Engineering Design Handbook][research_army_materiel_command_alexandria_va_1974_2]
+- [Army Materiel Command Alexandria Va 1974, Engineering Design Handbook. Heli][research_army_materiel_command_alexandria_va_1974_2]
 - [Army War Coll Carlisle Barracks Pa 1952][research_army_war_coll_carlisle_barracks_pa_1952]
 - [Army War Coll Carlisle Barracks Pa 2006][research_army_war_coll_carlisle_barracks_pa_2006]
 - [Arnold 2025][research_arnold_2025]
@@ -3779,7 +3779,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Calcaterra and Schubert 1969][research_calcaterra_schubert_1969]
 - [Caleb Hull et al][research_caleb_hull]
 - [Calise 1984][research_calise_1984]
-- [Cals Test Network Wright-Patterson Afb Oh 1992, Technical Publication Transfer][research_cals_test_network_wright_patterson_afb_oh_1992_8]
+- [Cals Test Network Wright-Patterson Afb Oh 1992, Technical Publication Transfer Te][research_cals_test_network_wright_patterson_afb_oh_1992_8]
 - [Cals Test Network Wright-Patterson Afb Oh 1994][research_cals_test_network_wright_patterson_afb_oh_1994]
 - [Cameron and Sirohi 2019][research_cameron_sirohi_2019]
 - [Cameron et al 2016][research_cameron_2016]
@@ -4057,10 +4057,10 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Dalmau et al 2019][research_dalmau_2019]
 - [Dalwadi et al 2022, Observer based rotor failure][research_dalwadi_2022_2]
 - [Dalwadi et al 2022, Rotor Failure Compensation in a][research_dalwadi_2022]
-- [DAndrea 2008][research_d_andrea_2008]
+- [D'Andrea 2008][research_d_andrea_2008]
 - [Danelson et al 2015][research_danelson_2015]
 - [Danesh et al 2023][research_danesh_2023]
-- [DAngelo 2018][research_d_angelo_2018]
+- [D'Angelo 2018][research_d_angelo_2018]
 - [DAngelo and Malvano 1979][research_d_angelo_malvano_1979]
 - [Daniel 2025][research_daniel_2025]
 - [Daniel Ingraham and Robert Falck][research_daniel_ingraham_robert_falck]
@@ -5781,14 +5781,14 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Oakes 1967][research_oakes_1967]
 - [Obergefell and Kaleps 1988][research_obergefell_kaleps_1988]
 - [Obioma Godspower and John Chuku 2019][research_obioma_godspower_john_chuku_2019]
-- [OBrien et al 1992][research_o_brien_1992]
+- [O'Brien et al 1992][research_o_brien_1992]
 - [Octaviani et al 2017][research_octaviani_2017]
 - [Oda and Ara 1988][research_oda_ara_1988]
 - [Odom 1955, A DRAG COEFFICIENT, K D , BASED][research_odom_1955]
 - [Odom 1955, DRAG COEFFICIENT, KD, AND SIACCI][research_odom_1955_2]
 - [Odom 1957][research_odom_1957]
 - [Odom 1958][research_odom_1958]
-- [ODonnell et al 1999][research_o_donnell_1999]
+- [O'Donnell et al 1999][research_o_donnell_1999]
 - [Oktay and Eraslan 2024][research_oktay_eraslan_2024]
 - [Olcott et al 1974][research_olcott_1974]
 - [Oliver 1962][research_oliver_1962]
