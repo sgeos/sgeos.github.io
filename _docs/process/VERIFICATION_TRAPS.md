@@ -119,6 +119,28 @@ instrument that sees what a reader sees.
 
 ---
 
+## A borrowed constant inherits the wrong aircraft
+
+**What happened.** A335 computed a scaling exponent between the X-24A and the X-38 and reported that
+mass grew as length to the 4.207. **The X-24A's length had been set equal to the X-38 atmospheric test
+vehicle's 24.5 feet, which is a different aircraft**, and its mass was low by three hundred kilograms.
+Corrected to 24 feet and 11,447 pounds, the exponent is **3.507** and the geometric-similarity factor
+falls from 1.276 to 1.120.
+
+**Why nothing caught it.** Both figures were plausible, both produced a plausible answer, and the
+independent verifier had been given the same two constants. **A verifier that shares an input with the
+thing it checks does not check that input.**
+
+**The check.** Verify every published figure against a source at the publication review, including ones
+that entered as constants months earlier. **Enter them into the verifier by a different route**, which
+here meant converting from the imperial figures the sources actually quote rather than copying the
+metric values.
+
+**The consolation.** The verifier did catch the correction once the production module changed, because
+it held its own copy. **Independence pays even when the shared value was wrong in both places.**
+
+---
+
 ## A plausible title is not a URL
 
 **What happened.** Three curated reference links in A334 returned 404, and all three were addresses

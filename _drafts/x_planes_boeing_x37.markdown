@@ -2245,8 +2245,8 @@ Both are given.
 | **Total research records** | **5,545** | |
 
 **The period count is 3,061 and the contemporary count is 2,428.** Both are given because a contemporary
-survey lowers the period SHARE while leaving the period COUNT untouched, and reporting the share alone reads
-as a regression when it is the directive working.
+survey lowers the period **share** while leaving the period **count** untouched, and reporting the share
+alone reads as a regression when it is the directive working.
 
 **A date is not a measure of primacy and this article reports both.** The technical report servers hold
 original research reports almost exclusively, while a journal index holds originals, reviews and comment

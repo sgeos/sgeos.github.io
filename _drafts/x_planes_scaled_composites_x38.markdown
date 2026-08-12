@@ -102,8 +102,8 @@ programme the wind-tunnel campaign a new lifting body would have needed.
 ### Who Built the Airframes
 
 [Scaled Composites][ref_scaled] built the atmospheric test airframes, which is why the designation carries
-that name, while the space agency integrated the systems and the [European Space Agency][ref_esa] and
-[DLR][ref_dlr] contributed to the orbital vehicle's structure.
+that name, while the space agency integrated the systems and the [European Space Agency][ref_esa] and the
+[German Aerospace Center][ref_dlr] contributed to the orbital vehicle's structure.
 **International participation in an X-plane is unusual and it is a consequence of the station being international**,
 since the vehicle existed to serve a station that Europe helped build.
 
@@ -713,11 +713,11 @@ $$Q \propto \ell^{\,n} \qquad \Longrightarrow \qquad n = \frac{\ln \left( Q_{1} 
 
 | Quantity | X-24A | X-38 Crew Return Vehicle | Ratio |
 |---|---|---|---|
-| Length | 7.47 metres | 9.14 metres | 1.224 |
-| Launch mass | 4,853 kilograms | 11,340 kilograms | 2.337 |
+| Length | 7.315 metres | 9.14 metres | 1.249 |
+| Launch mass | 5,192 kilograms | 11,340 kilograms | 2.184 |
 
-**Mass scales as length to the 4.207 against 3 for geometric similarity.** A geometrically similar X-24A
-grown to 9.14 metres would mass **8,890 kilograms**, and the X-38 masses 11,340, **a factor of 1.276**.
+**Mass scales as length to the 3.507 against 3 for geometric similarity.** A geometrically similar X-24A
+grown to 9.14 metres would mass **10,128 kilograms**, and the X-38 masses 11,340, **a factor of 1.120**.
 
 **The shape was inherited and the mission was not.** The X-24A carried one pilot and a rocket engine. The
 X-38 carries seven people, life support, a thermal protection system and a deorbit stage, and the mass grew
@@ -726,7 +726,7 @@ faster than the geometry because the payload grew faster than the airframe.
 **This is the opposite sign from the previous article and the pair is worth keeping.** The
 [X-37][related_post_a334_boeing_x37] shrank from the Shuttle orbiter with mass falling as length to the
 **1.924**, more slowly than volume, because a small reusable vehicle keeps its fixed overhead. The X-38 grew
-from the X-24A with mass rising as length to the **4.207**, faster than volume, because the mission grew
+from the X-24A with mass rising as length to the **3.507**, faster than volume, because the mission grew
 faster than the machine.
 **Neither pair is geometrically similar and the reasons are different, which is a warning against reading a scaling exponent as a property of the technology.**
 
@@ -924,6 +924,11 @@ and the deployment speed itself is taken from a loosely reported figure.
 The X-24A was a piloted rocket research aircraft and the X-38 was an uncrewed lifeboat carrying seven.
 **Measuring an exponent between them is legitimate as a description and misleading as an explanation**, and
 the article says which it means.
+
+**The exponent is also sensitive to figures that are easy to get wrong.** It rests on two published numbers
+for a vehicle retired in 1971, and moving the X-24A length by half a metre or its mass by three hundred
+kilograms moves the exponent by several tenths. **What is robust is the sign**, that mass grew faster than
+the cube of length, and that is the only thing the argument uses.
 
 ### Nothing Here Is Validated Against an Orbital Flight
 
@@ -1283,8 +1288,8 @@ here anchors on decelerator terms as heavily as on the programme.
 | **Total research records** | **1,768** | |
 
 **The period count is 871 and the contemporary count is 883.** Both are given because a contemporary survey
-lowers the period SHARE while leaving the period COUNT untouched, and reporting the share alone reads as a
-regression when it is the directive working.
+lowers the period **share** while leaving the period **count** untouched, and reporting the share alone
+reads as a regression when it is the directive working.
 
 **A date is not a measure of primacy and this article reports both.** The technical report servers hold
 original research reports almost exclusively, while a journal index holds originals, reviews and comment

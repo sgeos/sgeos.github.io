@@ -9,73 +9,56 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: A335, the Scaled Composites X-38. **Primary-reference review complete.**
-**Committed. NOT pushed**, per the rhythm in which only the publication review pushes.
+**Task**: A335, the Scaled Composites X-38. **Publication review complete. All four passes done.**
+**Committed and PUSHED. NOT published.**
 
 ---
 
-## Fifteen of Twenty-Eight Thin, and One at Zero While the Article Displayed It
+## A Factual Error in a Constant Changed a Result
 
-The zero was the **Allen and Eggers entry peak deceleration**, which the entry section rests on. A
-further harvest took the pool from **4,306 to 6,212** and the cited base from **1,220 to 1,768**. The
-period half rose from 487 to **871** and the technical reports to **478, which is 27.0 percent and the
-highest report share this series has measured.** A decelerator subject should produce exactly that,
-because parachute engineering was documented in reports far more than in journals.
+**The X-24A's length had been set equal to the X-38 atmospheric test vehicle's 24.5 feet, which is a
+different aircraft**, and its mass was low by three hundred kilograms. Corrected to **24 feet and 11,447
+pounds**, the scaling exponent falls from **4.207 to 3.507** and the geometric-similarity factor from
+1.276 to **1.120**.
 
-**Nine subjects remain thin and the article names each with its kind.**
+**The conclusion survives**, because the argument uses only the sign, that mass grew faster than the
+cube of length, and the contrast with the X-37's **1.924** still straddles 3. **A caveat now records
+that the exponent rests on two published figures for a vehicle retired in 1971 and is sensitive to
+both.**
 
----
+**Nothing had caught it because both figures were plausible and both produced a plausible answer.** The
+independent verifier had been handed the same two constants, and **a verifier that shares an input with
+the thing it checks does not check that input.** It now derives the X-24A figures by converting from
+the imperial values the sources actually quote. **A new entry in the traps document records the whole
+shape of it.**
 
-## Two Clusters Measured Empty for a Reason That Was Neither the Heading nor the Pool
-
-`vehicle_sizing` reported **zero** records and `entry_aerothermo` reported **four**. Neither was a gap.
-**Both sat behind clusters that matched their records first**, since the matcher returns the first
-match and `entry_traj_and_guidance` takes the bare `re-entry` stem.
-
-**Correcting the order took the second from 4 to 21 with no harvesting at all.** The article now states
-the general form of it: **a thin cluster is a claim about the ordering before it is a claim about the
-literature.**
-
----
-
-## The Clearest Thin Heading Is the Article's Own Load-Bearing Assumption
-
-**The canopy lift coefficient measures one record**, and it is the single number the whole sizing
-section depends on.
-
-**It is not thin.** The papers that measure it are titled as aerodynamic characterisations rather than
-as coefficient measurements, and the parafoil cluster holds **142 records**, seven of them under such
-headings, including **a 1964 study of the parafoil glider and other gliding parachutes** and **a 1971
-report of parafoil wind tunnel tests**. Those are the primary sources. **The heading was thin and the
-subject was not**, and no count could have said so.
+**The consolation is that independence still paid.** The verifier failed loudly the moment the
+production module changed, rather than following it silently.
 
 ---
 
-## A Spelling Variant Was Refusing the Keystone Vocabulary
+## Two Style Defects, Both Shared With A334
 
-The anchor `ram-?air` matches `ramair` and `ram-air` and **not `ram air`**, which is how most of the
-literature writes it. **That is the plural-boundary family again**, and it has now bitten six times
-across this series. The failure returns a smaller corpus rather than a wrong one, so nothing reports it.
+**`DLR` was used without a spell-out**, which the acronym rule forbids on first use.
 
-Correcting it, and guarding against the **ram air turbine**, took the selection from 1,680 to **1,818**.
+**The generated reference-count block used capitals for emphasis** where the corpus rule requires bold.
+That text came from the assembler, and **A334 carries the identical violation**, so both assemblers were
+corrected and **A334 was rebuilt**. It is an unpublished draft and leaving a known violation in it would
+have been knowingly shipping one.
 
 ---
 
-## Six New Homonym Families, All Found by Reading the Kept Sample
+## Everything Else Was Clean
 
-Each is recorded in `_research/homonyms.py` with the incident that produced it.
-
-- **Surgical reefing** in orthopaedics, a tightening of soft tissue, sharing the exact word.
-- **The parachute metaphor in clinical writing**, from the famous trial parody.
-- **Probabilistic risk assessment outside aerospace**, being nuclear plants, offshore drilling and
-  dose-response toxicology. **It is a method and not a subject.**
-- **The air-refuelling drogue**, which is a basket on a hose.
-- **The parachute flare**, written as "Flare, Surface: Parachute XM183" so the earlier pattern missed it.
-- **The parachute problem** as a differential-equations teaching exercise.
-
-**And one worth noting that the gate got right.** A paper on the apparent mass of the human body under
-vibration was correctly refused, while apparent mass is a central parafoil term. The two senses are
-genuinely different and the gate distinguished them.
+- **Prose style clean on every check.** No em dashes, en dashes, prose colons, prose semicolons,
+  parentheticals or contractions, and after the fix no capitals used for emphasis.
+- **All 18 curated URLs resolve**, checked individually per the trap A334 established. None returned 404
+  this time.
+- **No drafting-history leaks.** The Source Base was written to state findings rather than to narrate
+  passes, which is the correction A334 needed and this article did not.
+- **Section order conforms to the research-aircraft genre** without exception.
+- **Contemporary coverage is 49.6 percent** of dated records with **19.9 percent** dated 2020 or later,
+  which satisfies the comprehensive-survey directive.
 
 ---
 
@@ -85,21 +68,31 @@ genuinely different and the gate distinguished them.
 - `python3 tmp/a335/verify.py` **46 of 46**.
 - `./_check.sh --drafts` **passes end to end**, no findings.
 - **3,816 reference entries scanned** for stray punctuation, all clean.
-- **Reference integrity clean**, 1,936 used against 1,936 defined, none undefined or orphaned. **Ten
-  curated references had been orphaned since the draft pass and are now cited in the body.**
-- An identifier sweep of a seeded 200-record sample was still running when this was written.
+- **Reference integrity clean**, 1,936 used against 1,936 defined, none undefined or orphaned.
+- Identifier sweep, seeded sample of 200: **200 of 200 resolved**, 22 through the issuing registry.
+
+---
+
+## Final State
+
+**6,733 lines, 24 display equations, 1,936 reference definitions, 36,570 words**, with all **1,768
+research records cited and none left over**, plus 112 reference works.
+
+Period half **871**, contemporary **883**, technical reports **478 at 27.0 percent**, which is the
+highest report share this series has measured and is what a decelerator subject should produce.
 
 ---
 
 ## Outstanding
 
-**Nothing blocking.** The tree is clean and the article is committed.
+**Nothing blocking.** The tree is clean and everything is pushed.
 
-**The article is NOT pushed**, which is correct. **Publication of the thirty-nine X-Planes drafts remains
-unauthorised.**
+**A335 IS NOT PUBLISHED and publication of the thirty-nine X-Planes drafts has never been authorised.**
+The article remains in `_drafts/`, the deploy workflow builds without `--drafts`, and the
+publication-order dependency is now **thirty-nine deep**.
 
-**Final state.** 6,728 lines, 24 display equations, 1,936 reference definitions, 36,496 words, with all
-**1,768 research records cited and none left over**, plus 112 reference works. Primaries stand at **940
-of 1,864 dated, or 50.4 percent**, at the article's own 2006 cutoff.
-
-**The publication review is next if you want it**, and it is the pass that also pushes.
+**A336 is X-39, Reserved but Never Assigned**, editorial date 2025-11-14, Part 40 of 72. **It is a
+designation anomaly**, and the genre document prescribes the reduced six-section order for one, with
+the caveat that A320 was written at full length because the X-23 actually flew and returned a
+measurement. **The test is whether a vehicle existed and produced data, not whether the designation is
+disputed.** For a number that was reserved and never assigned, the short class is the honest default.

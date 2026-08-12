@@ -25,8 +25,10 @@ of 72.
 **4,907 lines, 14 display equations, 1,388 reference definitions, 26,710 words after the draft pass.**
 **5,040 lines, 24 display equations, 1,388 reference definitions, 27,858 words after the
 equation-density review.** **6,728 lines, 24 display equations, 1,936 reference definitions, 36,496
-words after the primary-reference review**, with all 1,768 harvested research records cited and none
-left over, plus 112 reference works. Committed. **Not pushed and not published.**
+words after the primary-reference review.** **6,733 lines, 24 display equations, 1,936 reference
+definitions, 36,570 words after the publication review**, with all 1,768 harvested research records
+cited and none left over, plus 112 reference works. Committed and **PUSHED**. **Not published**, and
+publication of the series has never been authorised.
 
 **THE KEYSTONE IS THAT THIS VEHICLE ABANDONED THE RUNWAY ON PURPOSE.** Six vehicles in this series were
 built around a horizontal landing. The X-38 flies the X-24A shape through entry and then comes down
@@ -129,6 +131,28 @@ guarding against the **ram air turbine** took the selection from 1,680 to 1,818.
 orthopaedics, the parachute metaphor in clinical writing, probabilistic risk assessment outside
 aerospace, the air-refuelling drogue, the parachute flare written with its words separated, and the
 parachute problem as a differential-equations exercise.
+
+**THE PUBLICATION REVIEW FOUND A FACTUAL ERROR IN A CONSTANT AND IT CHANGED A RESULT.** The X-24A's
+length had been set equal to the X-38 atmospheric test vehicle's 24.5 feet, **which is a different
+aircraft**, and its mass was low. Corrected to 24 feet and 11,447 pounds, **the scaling exponent falls
+from 4.207 to 3.507** and the geometric-similarity factor from 1.276 to **1.120**. **The conclusion
+survives**, since the sign is what the argument uses and mass still grows faster than the cube of
+length, and the contrast with the X-37's 1.924 still straddles 3. **A caveat now records that the
+exponent is sensitive to two published figures for a vehicle retired in 1971.**
+
+**The independent verifier caught the correction** once the production module changed, because it holds
+its own constants. It now derives the X-24A figures by converting from the imperial values the sources
+quote rather than copying the metric ones, **since a verifier that shares an input with the thing it
+checks does not check that input.** A new entry records this in the traps document.
+
+**Two style defects were found and both are shared with A334.** `DLR` was used without a spell-out, and
+the generated reference-count block used capitals for emphasis where the corpus rule requires bold.
+**Both assemblers were corrected and A334 was rebuilt**, since it is an unpublished draft carrying the
+same violation.
+
+**All 18 curated URLs resolve**, checked individually per the trap A334 established. Prose style is
+clean on every check, there are no drafting-history leaks, the section order conforms to the genre, and
+contemporary coverage is **49.6 percent** of dated records with **19.9 percent** dated 2020 or later.
 
 ## X-Planes Boeing X-37 A334 2025-11-12
 
