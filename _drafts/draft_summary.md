@@ -17,7 +17,7 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## Do Proven Resource Bounds Survive Compilation A371 2026-08-08
+## Keleusma Research Spike, What a Verified Bound Says About the Code That Actually Runs A371 2026-08-08
 
 `do_proven_bounds_survive_compilation.markdown`, A371, editorial date 2026-08-08, series
 `keleusma_native` index 3 of 3. **Out of series with the X-Planes work.**

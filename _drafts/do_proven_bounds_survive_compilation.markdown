@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title: "Do Proven Resource Bounds Survive Compilation? What a Verified Bound Says About the Code That Actually Runs"
+title: "Keleusma Research Spike: What a Verified Bound Says About the Code That Actually Runs"
 date: 2026-08-08 09:00:00 +0000
 categories: engineering compilers verification
 series: keleusma_native
@@ -11992,8 +11992,8 @@ occasionally the whole argument.
 
 ### Related Post
 
-- [Related Post, Compiler Backend Bring-Up: Blocking Frequency as the Ordering Principle][related_post_a369]
-- [Related Post, Two Ways of Doing One Thing][related_post_a370]
+- [Related Post, Keleusma Research Spike, Blocking Frequency as the Ordering Principle for Instruction-Set Coverage][related_post_a369]
+- [Related Post, Keleusma Research Spike, When an Apparent Design Wart Is a Semantic Boundary][related_post_a370]
 
 [related_post_a369]: {% post_url 2026-08-06-native_lowering_coverage %}
 [related_post_a370]: {% post_url 2026-08-07-two_calling_conventions %}

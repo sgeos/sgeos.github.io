@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 comments: true
-title: "Two Ways of Doing One Thing: When an Apparent Design Wart Is a Semantic Boundary"
+title: "Keleusma Research Spike: When an Apparent Design Wart Is a Semantic Boundary"
 date: 2026-08-07 09:00:00 +0000
 categories: engineering compilers verification
 series: keleusma_native
@@ -3190,7 +3190,7 @@ work they are cited as. The result of that check is reported in the Epistemic St
 
 ### Related Post
 
-- [Related Post, Compiler Backend Bring-Up: Blocking Frequency as the Ordering Principle][related_post_a369]
+- [Related Post, Keleusma Research Spike, Blocking Frequency as the Ordering Principle for Instruction-Set Coverage][related_post_a369]
 - [Related Post, Getting Started with Keleusma 0.2.2][related_post_keleusma_022]
 - [Related Post, Keleusma's Self-Hosting Strategy][related_post_keleusma_self_hosting]
 

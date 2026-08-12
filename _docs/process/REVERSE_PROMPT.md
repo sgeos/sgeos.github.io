@@ -9,9 +9,9 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: A371, the third Keleusma native code generation article. **Pathological word usage pass
-complete**, following the publication review in the previous commit.
-**Committed AND pushed. NOT published.**
+**Task**: The three `keleusma_native` research spike articles given a **shared main title with distinct
+subtitles**, following A371's word usage pass in the previous commit.
+**Committed AND pushed. A369 and A370 are live pages and changed. A371 NOT published.**
 
 ---
 
@@ -26,7 +26,36 @@ is not published and I have not assumed you want it to be.
 
 ---
 
-## The Word Usage Pass, Which Is the Newest Work
+## The Shared Title, Which Is the Newest Work
+
+The three articles now read **Keleusma Research Spike** followed by their own subtitle.
+
+- A369, `Blocking Frequency as the Ordering Principle for Instruction-Set Coverage`
+- A370, `When an Apparent Design Wart Is a Semantic Boundary`
+- A371, `What a Verified Bound Says About the Code That Actually Runs`
+
+**I checked the URL risk before touching anything and it is nil.** `_config.yml` carries no top-level
+`permalink:`, the `permalinks:` key belonging to `jekyll-archives`, and none of the three files carries a
+`slug:` override. Jekyll's default permalink therefore takes `:title` from the **filename**, so a
+front-matter title is URL-neutral and **no `redirects/` entry is needed**. Confirmed afterwards against a
+production build, with both live URLs resolving unchanged.
+
+**The comment threads were the risk that mattered more, and they survive.** `_includes/comments.html` sets
+`data-mapping="pathname"`, so Giscus keys its GitHub Discussions to the URL path. **Had it been set to
+`title`, this change would have orphaned every existing comment thread on two published articles.**
+
+**The link-text convention had to change with the titles.** Related-post entries carried the main title
+alone, which under a shared main title would make three different links read identically. They now carry
+the subtitle. Three were updated, one in A370 and two in A371.
+
+Two consequences worth your eye. The series navigation now lists two entries both beginning
+**Keleusma Research Spike**, distinguished by their Part 1 and Part 2 labels, which reads acceptably but is
+repetitive by construction. And **historical TASKLOG entries still name the old titles**, which I left
+alone deliberately, since they record what was true when written.
+
+---
+
+## The Word Usage Pass, From the Previous Commit
 
 **`specific` is not a problem here.** It stands at **6 uses for 0.82 per thousand**, well under the limit
 and under the corpus median. I checked it first because you named it.
