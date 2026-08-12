@@ -9,113 +9,133 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: A334, the Boeing X-37. **Equation-density review complete.**
+**Task**: A334, the Boeing X-37. **Primary-reference review complete.**
 **Committed. NOT pushed**, per the rhythm in which only the publication review pushes.
 
 ---
 
-## Twenty-Four to Forty-Two, and Nine of Twenty Gaps Closed
+## The Promotion Rule Fired Again, and Two Subjects Stood at Zero
 
-`_lib/audit.py` reported **twenty sections naming numbers with no displayed relation**. Nine are now
-closed. **The eleven that remain are reference lists, date lists, dollar figures and restatements**,
-and not one of them relies on a relation, so they are reported rather than padded.
+An audit of the pool against the article's own subject list found **twenty-four of thirty-seven thin or
+absent**. Two stood at **zero while the article displayed them**.
 
-The article moved from 14,457 lines and 78,320 words to **14,632 lines and 79,704 words**. **The
-reference base did not move**, holding at 4,440 definitions with all 4,223 research records still
-cited, because this pass adds relations and not literature.
+**Specific orbital energy is the foundation of every orbital result in this article and the pool held
+none.** **Energy height is displayed in the landing section and the pool held none.** The first harvest
+asked for spaceplanes, power systems, thermal protection and aerobraking. It never asked for the second
+zonal harmonic, the solar aspect angle, the square-cube law or the energy state approximation, and the
+equation pass had since made every one of those a displayed relation.
 
----
-
-## The Three Best Additions Were Not in the Audit's List
-
-**The audit finds sections carrying numbers without equations. It cannot find a relation the article
-never mentioned at all**, and all three of these came from asking what each argument silently assumes.
-
-**Nodal precession, which turns an assumption into a measurement.** The draft averaged the eclipse
-fraction over the node and the season without establishing that the node actually turns. Under $J_{2}$
-it regresses at **-6.169 degrees per day** at 400 kilometres and 40 degrees, so the node completes a
-turn in **58.35 days** and the beta angle cycles at the beat with the Sun's motion in **50.32 days**.
-**The sixth mission therefore swept the node 15.58 times and the beta angle 18.06 times.** The average
-is not a modelling convenience. It is what the mission experienced, and an article quoting a single
-beta angle for a flight of this length would be quoting a transient.
-
-**The scaling exponent, which quantifies a penalty the draft only gestured at.** Measuring the exponent
-that relates two vehicles rather than comparing ratios, mass scales as length to the **1.924** against
-3 for geometric similarity while the payload bay scales as **3.226**. A geometrically similar orbiter
-scaled down to 8.92 metres would mass **1,072 kilograms**. The X-37B masses 4,990, **a factor of
-4.655**. **The small vehicle keeps the airframe and loses the room**, which is the square-cube penalty
-in its clearest available form and explains a 4.55 percent payload fraction without apology.
-
-**The duty cycle, which is the operational claim the durations add up to.** First launch to seventh
-landing is 5,433 days and the seven missions total 4,208.57, so **an X-37B has been in orbit for 77.46
-percent of fifteen years**, on two airframes. **That is a statement about turnaround rather than about
-endurance**, and the single-mission record conceals it.
+Three further harvests took the pool from **8,905 to 13,351** records and the cited base from **4,223
+to 5,552**. The period half rose from 2,015 to **3,064** and the technical reports from 705 to
+**1,116**.
 
 ---
 
-## Reading the Forty-Two Equations Found Eight Symbol Collisions and Nothing Else Did
+## The Audit's Own Headings Were Thin in Exactly the Same Way
 
-No checker reports a symbol used for two quantities. Reading the equations as a set does.
+**This is the new lesson and it is one level up from the usual one.** I wrote the audit's subject
+patterns in the ARTICLE's vocabulary and then harvested in the LITERATURE's, so a subject could be well
+supplied and still measure zero.
 
-| Symbol | Wanted by | And also by |
+**Three of the largest apparent gaps closed on the measuring instrument and not on the pool.**
+Equilibrium glide went from 3 to 18, crossrange from 4 to 11 and vehicle scaling from 9 to 24, **with
+no new records involved in any of them.** The records were already there. The audit could not see them
+because it asked for `crossrange` while the field says `lateral range`.
+
+**The thin-heading rule has always applied to harvest queries. It applies to the instrument that
+measures the harvest too**, and nothing but reading the discarded matches would have shown it.
+
+---
+
+## Nineteen Subjects Remain Thin and the Article Names Each With Its Kind
+
+A new Source Base table gives all nineteen. The four kinds are distinct and only one is curable.
+
+**Settled knowledge, which must not be padded.** Vis-viva stands at **zero**, the rocket equation at
+**one**, Kepler at **three** and the energy state approximation at **three**, after harvests aimed
+directly at each. **These are not gaps.** They are relations in every textbook and in no journal
+article, because nobody has published on them since the seventeenth and nineteenth centuries. **The
+reference works carry them and that is the correct home.** A331 found exactly this for the rocket
+equation and the finding reproduces.
+
+**Thin headings whose subject is covered elsewhere.** Aerobraking corridor control at one record, while
+aerobraking itself holds 191 under periapsis management and density reconstruction.
+
+**Genuinely modern subjects.** Manoeuvre detection and debris disposal both have near-empty period
+halves because the capability and the obligation are both recent.
+
+**And the last row is the article rather than a footnote to it.** The X-37's own contemporary half
+stands at **two records**. Every other thin subject here has an ordinary explanation. **The vehicle's
+own is the only one whose cause is that somebody decided the work should not be published.**
+
+---
+
+## A Typographic Hyphen Hid a Directly Relevant Record
+
+A record titled "Thermal Characteristics of a Nickel-Hydrogen Battery" was **refused by the gate**,
+because the depositor wrote the hyphen as U+2010 rather than as ASCII. **Nickel-hydrogen is one of this
+article's strongest anchors.**
+
+`refs.clean` has normalised typographic punctuation for LINK TEXT since A332. **The gate needed the
+same treatment for MATCHING and did not have it**, and nothing reported the failure because **a missed
+match returns a smaller corpus rather than a wrong one**, which reads as a thin literature instead of
+as a bug. That is the same shape as the plural-boundary defect that has now bitten five times.
+
+---
+
+## Reading the Kept Sample Found Four New Contaminant Families
+
+All four are recorded in `_research/homonyms.py` with the incident that produced each, because a pattern
+without its incident cannot be judged by the next article.
+
+- **Terrestrial off-grid solar.** "Optimum battery depth of discharge for off-grid solar PV/battery
+  system" uses this article's exact relation for a different machine.
+- **Battery electrode materials chemistry**, which owns the phrases cycle life and capacity fade and is
+  orders of magnitude larger than the spacecraft power literature.
+- **Contact-graph satellite routing**, which is the 5G networking family arriving through a different
+  door.
+- **The instrument landing system glide slope**, a radio navigation aid sharing the phrase with an
+  unpowered spacecraft approach.
+
+---
+
+## A Date Is Not a Measure of Primacy and the Article Now Reports Both
+
+A cutoff separates period from contemporary and says nothing whatever about whether a record is an
+original report or a commentary on one. **The technical report servers hold originals almost
+exclusively**, so their share is the closest available proxy, and the Source Base now carries it beside
+the date split rather than instead of it.
+
+| Measure | Count | Share |
 |---|---|---|
-| $\varepsilon$ | specific orbital energy | emissivity |
-| $a$ | semi-major axis | albedo |
-| $D$ | depth of discharge | drag, in $L/D$ |
-| $e$ | cell specific energy | eccentricity |
-| $h$ | height | specific angular momentum |
-| $\eta$ | duty cycle | the charge and discharge efficiencies |
-| $n$ | mean motion | the scaling exponent |
-| $A$ | solar array area | the drag reference area |
-
-**Each is resolved by marking one rather than by reusing it silently**, and a **Notation** table near
-the head of the sizing section states which and why. **One case is deliberate and is now explicit.**
-The orbit count and the battery cycle count are written as $N_{\text{orb}}$ and $N_{\text{cyc}}$ and
-then shown to coincide, **because their coincidence is the article's central claim** and assuming it by
-sharing a letter would have been assuming the conclusion.
+| Period, through 2011 | 3,064 | 55.7 percent of dated |
+| Contemporary, 2012 onward | 2,432 | 44.3 percent of dated |
+| Technical reports, all eras | 1,116 | 20.1 percent of all |
+| Technical reports at or before 2011 | 915 | 16.5 percent of all |
 
 ---
 
-## The Equation Pass Created a Citation Debt and Paid It in the Same Pass
+## The Corpus Citation Run Reached A334 and Found Three Defects
 
-`citation_gaps` went from **14 to 0**. Every new relation initially stood more than nine hundred
-characters from any literature, because the cluster markers sat at the ends of sections. Splitting them
-so each displayed relation carries citations within reach cost nothing, since every record was already
-cited and the trailing all-remaining markers simply absorb whatever is left.
+Coverage went from 34.5 percent to **99.9 percent**, 3,629 of 3,631 identifiers. The findings were **1
+mismatch and 2 absent**, a rate of 0.1 percent and the second best in the corpus.
 
-Thin sections fell from five to one, and **the survivor is the Conclusion**, which restates and cites
-nothing by design.
-
----
-
-## My Own Text Check Was Broken and Passed Twelve Values That Were Not in the Article
-
-**This is the worst thing in this pass and it was mine.** `Checker.require_in_text` takes a single
-formatter, which is too rigid for an article printing 7.6686 kilometres per second, 232.8 kelvin and
-14,140 orbits. I replaced it with one that tries several roundings, **and the replacement allowed zero
-decimal places.** In a document of 79,000 words and 4,440 reference entries, a bare `58` stands for
-58.3519 and a bare `2` stands for 1.9236 by accident every time.
-
-**It reported 47 of 47 passing while twelve verified values were absent from the draft.**
-
-The fix is a floor of **three significant digits** plus digit-boundary matching, so `58.4` cannot match
-inside `1958.42`. **And a self-test now runs first**, asserting that the check finds a value known to be
-present and refuses one known to be absent. **A clean report from an unvalidated checker is not
-evidence**, which the traps document already said and which I had to learn again.
+All three are now recorded in the rejection store and gone from the base. One was a **Science news item
+indexed by Crossref as a work**, which is the same family as the fellowship notices A322 cited. Two were
+**nonexistent identifiers** returned by Crossref search but never registered.
 
 ---
 
 ## Verification
 
 - `python3 _verify.py` **0 errors, 0 warnings**.
-- `python3 tmp/a334/verify.py` **52 of 52**, up from 34, with the new relations re-derived by
-  independent routes. The nodal precession comes back from the secular rate written longhand, the beta
-  cycle from accumulating phase rather than dividing rates, the scaling exponent from solving the power
-  law forward, and the duty cycle span from the calendar.
-- `python3 _lib/test_lib.py` **75 of 75**.
+- `python3 tmp/a334/verify.py` **52 of 52**.
 - `./_check.sh --drafts` **passes end to end**, 504 pages, no findings.
-- Every one of the 42 equations was read for brace balance, delimiter closure, bare pipes and doubled
-  backslashes, and all 42 are clean.
+- **11,469 reference entries scanned** for delimiters, entities, doubled commas and carets, **all
+  clean**. That scan is still the only method that has ever worked for this class.
+- One lint finding fixed, a **bold span left unclosed by my own diction edit** in the previous pass,
+  which the reflow then carried across a line break.
+- `rather than` crossed the corpus maximum at 4.70 per thousand and was reduced to **4.20**.
 
 ---
 
@@ -126,12 +146,15 @@ evidence**, which the traps document already said and which I had to learn again
 **The article is NOT pushed**, which is correct. **Publication of the thirty-eight X-Planes drafts
 remains unauthorised.**
 
-**For the primary-reference pass, which is your next prompt if you want it:** `_lib/audit.py` reports
-**primary sources at 2,125 of 4,319, or 49.2 percent**, at the article's own 2011 cutoff. The period
-count is 2,015 and the contemporary count 2,160, and both are reported in the article rather than only
-the fraction.
+**The seeded identifier sweep returned 300 of 300 resolved**, with 41 through the issuing registry
+rather than by HTTP. **That registry share rose from 5.5 percent to 13.7 percent and the rise is
+expected**, because the primary harvest added 289 Defense Technical Information Center records and
+those deposits refuse automated connections by design. A registry confirmation is strictly stronger
+than an HTTP 200, so the higher share is a sign the base got more primary rather than less reliable.
 
-**The corpus citation run is still an open decision.** It stands at 46 hard and 184 weak findings
-across 87 articles with 61 clean, and A334's own coverage was 34.5 percent when last measured. **A
-report that lists only articles with findings cannot distinguish a clean article from an unexamined
-one**, so coverage must be measured rather than inferred from an absent row.
+**A further citation run was still in flight when this was written**, covering the identifiers added
+during this pass. Its result belongs to the publication review, which is the next prompt if you want
+it, and which is also the pass that pushes.
+
+**Final state.** 18,691 lines, 42 display equations, 5,769 reference definitions, 100,512 words, with
+**all 5,552 research records cited and none left over**, plus 148 reference works.

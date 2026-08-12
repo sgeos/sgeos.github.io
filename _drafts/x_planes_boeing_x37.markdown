@@ -81,11 +81,11 @@ The energy statement above is the foundation of every orbital result in this art
 that establishes it is the astrodynamics canon rather than anything about this vehicle.
 
 - [A Review of Existing Policies Affecting the Jettison of Waste...][research_jurekparodi_michaelkewert]
+- [Joint Retrieval of Surface BRDF from Geostationary and...][research_weilewang_hirofumihashimoto]
 - [Spacecraft Materials Degradation Under Space-Simulated Low...][research_elenaaplis_milestbengtson]
-- [Stationkeeping and synchronous satellite orbit determination][research_lubowe_1969]
-- [Geostationary Satellite Orbital Geometry][research_yeh_1972]
-- [A Guidance and Navigation System for Automatic Stationkeeping...][research_gustafson_kriegsman_1973]
-- [Realisation of rendezvous by the transfer orbit which is...][research_mison_1973]
+- [APOGEE DETERMINATION FOR AN ECCENTRIC ORBIT OF HIGH ALTITUDE][research_davis_1963]
+- [Combined aerodynamic-propulsive orbital plane change maneuver][research_bruce_1965]
+- [Orbit plane change by external burning aerocruise][research_cuadra_arthur_1966]
 
 **What binds a mission of this length is hardware wear in the power loop, and the wear is cyclic.** Every
 orbit takes the vehicle through the Earth's shadow, every shadow discharges a battery, and every discharge
@@ -178,7 +178,7 @@ article carries both, so the ambiguous cases are marked here rather than resolve
 
 **Nothing is renamed for tidiness.** Each entry is a case where two relations in this article would
 otherwise use one letter for two quantities, which is the defect the series has met before and resolves by
-marking one rather than by reusing it silently.
+marking one, never by reusing it silently.
 
 ### The Orbit, Which Is the Public Half of a Classified Vehicle
 
@@ -253,11 +253,11 @@ where $p$ is the semi-latus rectum, equal to the radius for a circular orbit, an
 mean motion. At 400 kilometres and 40 degrees this is **-6.169 degrees per day**, so the node completes a
 full turn in **58.35 days**.
 
-- [Orbital maneuvering subsystem functional path analysis for...][research_keeslerel_1974]
-- [Space shuttle orbital maneuvering engine platelet injector...][research_space_shuttle_1975]
-- [Space shuttle orbital maneuvering system failure detection...][research_damariola_vullojp_1976]
-- [Efficient structures for geosynchronous spacecraft solar...][research_adamslr_hedgepethjm_1981]
-- [Obtaining Geostationary Orbit from an Off-Nominal Low...][research_rosengren_1982]
+- [Plane change split in circular orbits][research_wallner_camiel_1966]
+- [Three-impulse plane change for eccentric orbits][research_niemeier_1966]
+- [Stationkeeping a 24-hr satellite using solar radiation...][research_black_crocker_1968]
+- [Stationkeeping and synchronous satellite orbit determination][research_lubowe_1969]
+- [Geostationary Satellite Orbital Geometry][research_yeh_1972]
 
 The beta angle itself follows from the Sun vector and the orbit normal,
 
@@ -349,21 +349,21 @@ alone would suggest.
 That is the order of a domestic kettle, and the figure is a ceiling rather than an operating point.
 
 - [ROSA and Solar Cell Module Combined Environments Test Plan][research_kennethhwrightjr_baohoang]
+- [Radiation damage in satellite solar cell power systems][research_radiation_damage_1961]
+- [LARGE AREA THIN FILM CADMIUM SULFIDE SOLAR CELL ARRAY...][research_schaefer_humrick_1963]
 - [A method to optimize the solar cell power supply for...][research_a_method_1964]
+- [Large Retractable Solar Cell Array][research_felkel_wolff_1969]
+- [Radiation Degradation and Angular Response of Experimental...][research_kevern_massie_1969]
 - [Solar Array Performance as a Function of Orbital Parameters...][research_hough_elrod_1969]
+- [Solar proton radiation damage of solar cells at synchronous...][research_lanzerotti_1969]
+- [Degradation of CdS Thin Film Solar Cells in Different...][research_stanley_1970]
 - [Radiation damage and annealing of lithium-doped silicon solar...][research_statlerrl_1971]
 - [SERT II - Solar array power system][research_shaw_falconer_1971]
 - [Solar Array Degradation due to Meteoroid Impacts during...][research_richardson_warren_1971]
+- [Solar cells in satellite power supplies][research_cussen_1972]
 - [A commercial solar cell array design][research_ralph_1973]
 - [Attitude Stability of a Dual-Spin Satellite with a Large...][research_cherchas_hughes_1973]
 - [High-Voltage Solar Array Technology][research_herron_bayless_1973]
-- [Solar cell radiation handbook][research_carterjrjr_tadahy_1973]
-- [Effect of shading on solar cells and optimal solar array...][research_sayed_partain_1975]
-- [Photovoltaic solar cell array used for supplemental power...][research_barker_power_1979]
-- [Solar Cell High Efficiency and Radiation Damage, 1979][research_solar_cell_1979]
-- [Spacecraft-Generated Plasma Interaction with High-Voltage...][research_parks_katz_1979]
-- [Solar cell array design handbook The principles and...][research_kreith_1980]
-- [The applicability of DOE solar cell and array technology to...][research_scottmonckja_stellapm_1980]
 
 ### What the Doors Allow, Which Is the Tighter Constraint
 
@@ -403,8 +403,8 @@ smaller.
 - [Durability of Passive Thermal Control Materials Exposed to...][research_miriamfinckenor_meghancarrico]
 - [Modeling and Simulation of Tank Pressure Control using...][research_jonathanabentley_leonidgbolshinskiy]
 - [Multilayer Insulation for In-Space Cryogenic Applications][research_wesleyjohnson]
-- [Thermal design of the orbiting astronomical observatory][research_hemmerdinger_1964]
-- [Performance of multilayer insulation systems for the 300 deg...][research_cunningtongr_streeder_1965]
+- [Some Radiator Design Criteria for Space Vehicles][research_callinan_berggren_1959]
+- [Thermal design and recharging of satellite batteries][research_thermal_design_1962]
 
 Flat doors of 2.1 metres by 0.6 metres give 2.52 square metres and reject **540 watts** at 20 degrees
 Celsius. Curved doors radiating from both faces at 40 degrees Celsius reach **1,623 watts**.
@@ -419,24 +419,24 @@ They are not the same calculation, they share no input beyond the bay dimensions
 than coincide. **Reporting the bracket is the honest form of the result**, because claiming that two upper
 bounds agree to some precision would be claiming more than two upper bounds can support.
 
+- [Thermal design of the orbiting astronomical observatory][research_hemmerdinger_1964]
+- [A thermal vacuum technique for measuring the solar...][research_hoke_1965]
+- [Performance of multilayer insulation systems for the 300 deg...][research_cunningtongr_streeder_1965]
+- [111. A thermal vacuum technique for measuring the solar...][research_111_a_1966]
+- [Optimum thermal design through computer simulation of a...][research_fehersi_mccuega_1966]
 - [Performance of multilayer insulation systems for the 300 deg...][research_cunningtongr_streeder_1966]
 - [Satellite thermal control using phase-change materials][research_fixler_1966]
 - [A thermophototropic model for spacecraft thermal control][research_levin_berggren_1967]
+- [An approximate calculation of radiative heating and radiative...][research_gierasch_goody_1967]
 - [Performance of multilayer insulation systems for temperatures...][research_cunningtongrjr_funaiai_1967]
 - [Repair of a zinc oxide-potassium silicate thermal control...][research_peters_1967]
 - [Solar-wind damage to spacecraft thermal control coatings][research_jorgenson_1967]
 - [Steady-state thermal design of space radiators][research_lopez_chapman_1967]
+- [A Radiator system with conical heat-removal pins][research_zhulev_potapov_1968]
+- [An integral equation of radiative equilibrium in infrared...][research_wang_1968]
 - [Optical solar reflector - A highly stable, low alpha sub...][research_marshall_breuch_1968]
+- [Radiative equilibrium temperature distribution of the...][research_emmanuel_1968]
 - [Simulated micrometeoroid degradation of thermal control...][research_mark_sommer_1968]
-- [Thermal design and thermal testing of the UK-3 spacecraft][research_semple_1968]
-- [Optimization of steady-state thermal design of space radiators][research_thurman_1969]
-- [Thermal control of a Mars entry capsule][research_stultz_1969]
-- [Comment on "Effects of Simulated Mars Dust Erosion...][research_cross_newman_1970]
-- [Lunar Module thermal-vacuum simulation utilizing conformal...][research_hellmann_conover_1970]
-- [Scale modeling considerations for thermal control coatings][research_macgregor_thompson_1970]
-- [Heat-rejection radiator mass and its influence in space power...][research_bonneville_1971]
-- [Investigation of phase-change coatings for variable thermal...][research_kelliherwc_youngpr_1972]
-- [Review of Thermal Control Materials for Metallic Junctions][research_fletcher_1972]
 
 ### The Battery, and an Inversion Rather Than a Prediction
 
@@ -575,14 +575,14 @@ $$\frac{d\mathcal{E}}{dt} = -a_{D} v = \frac{\mu}{2a^{2}} \frac{da}{dt} \qquad \
 
 which is the equation integrated to obtain the decayed altitude.
 
+- [The calculation of ionospheric electron density distributions][research_kelso_1957]
 - [Effect of Transverse Atmospheric Drag on Satellite Orbits][research_wildhack_1958]
 - [Irregularities of Satellite Drag and Diurnal Variations in...][research_groves_1958]
 - [290. Effect of transverse atmospheric drag on satellite orbits][research_290_effect_1959]
 - [The determination of the electron distribution in the upper...][research_hibberd_thomas_1959]
+- [Induction drag on a large negatively charged satellite moving...][research_wyatt_1960]
 - [The upper atmosphere and satellite drag][research_stirton_1960]
 - [Theoretical Evaluation of Atmospheric Drag Effects in the...][research_brower_hori_1960]
-- [Appendix to theoretical evaluation of atmospheric drag...][research_brouwer_hori_1961_b]
-- [Theoretical evaluation of atmospheric drag effects in the...][research_brouwer_hori_1961]
 
 **The gap between the two figures is not a discrepancy between two calculations. It is the price of an infrequent reboost**,
 and it exists because $\rho$ is exponential in altitude, so every metre lost puts the vehicle into denser
@@ -620,24 +620,24 @@ vehicle than the same record set at solar maximum would have been.
 carry, which tilted the other way.
 **Ask which way the demonstration was tilted and by how much. It is usually arithmetic rather than opinion.**
 
+- [Appendix to theoretical evaluation of atmospheric drag...][research_brouwer_hori_1961_b]
+- [Theoretical evaluation of atmospheric drag effects in the...][research_brouwer_hori_1961]
 - [On the evaluation of electron density distribution in the...][research_unz_1962]
+- [The electron density in the lower ionosphere][research_titheridge_1962]
+- [Electron density profiles in the ionosphere and exosphere][research_appleton_1963]
+- [PERTURBATION METHODS APPLIED TO THE REFLECTION OF RADIO WAVES...][research_norman_1963]
 - [SATELLITE LIFETIMES UNDER THE INFLUENCE OF CONTINUOUS THRUST...][research_citron_1963]
 - [Secular effects of atmospheric drag on satellite orbits][research_westerman_1963]
 - [Space laboratories may study atmospheric drag][research_space_laboratories_1963]
 - [Atmospheric densities from Explorer 17 density gages and a...][research_newton_horowitz_1964]
 - [Atmospheric heating in the auroral zones A preliminary...][research_jacchia_slowey_1964]
 - [Atmospheric density and temperature variations from the...][research_newton_horowitz_1965]
+- [On the continuity equation for electron density in the...][research_shimazaki_1965]
 - [Satellite drag coefficients][research_cook_1965]
 - [The questions of motion for an earth satellite taking into...][research_valeev_1965]
 - [An hypothesis for the semi-annual effect appearing in...][research_anderson_1966]
 - [The atmospheric density and scale height from the decay of...][research_smith_1966]
 - [A discussion on orbital analysis - Comparison of air...][research_cook_1967]
-- [Recent experimental evidence bearing on satellite drag...][research_moe_1968]
-- [A study of the semi-annual density variation in the upper...][research_jacchia_slowey_1969]
-- [The Effect of Atmospheric Drag on the Orbit of an Arfificial...][research_bramson_1969]
-- [Orbiter-to-orbiter radio occultation measurements of...][research_goff_grossi_1970]
-- [A note on the density at high latitudes inferred from...][research_ching_1972]
-- [A thermospheric model from satellite orbital decay densities...][research_swartz_rohrbaugh_1972]
 
 ## Dependent Systems
 
@@ -683,6 +683,7 @@ material has to make up the difference. **That is precisely the pressure TUFROC 
 - [Aerothermal and TPS Analysis of ARRIVAL, an Aerocapture...][research_josephdwilliams_jonathanmorgan]
 - [An Overview of Experiments and Modeling of...][research_brodykbessire_jeremiemeurisse]
 - [Artemis I Space Launch System Base Heat Shield Thermal...][research_manishmehta_andrewcolbert]
+- [Identification and Study of Validation Level Test Cases for...][research_aleksanderzibitsker_ericstern]
 - [Modernization of Insulative Reusable Thermal Protection...][research_adamcaldwell_petermarshall]
 - [New Development Activities at NASA Ames in Reusable TPS...][research_adamcaldwell_jayfeldman]
 - [Recent Developments of Thermal Protection Materials to Enable...][research_aborner_aborner]
@@ -691,11 +692,10 @@ material has to make up the difference. **That is precisely the pressure TUFROC 
 - [Study of Orbiter Wing Leading Edge Panel and Flowliner...][research_ivaturysraju_justinhkerr]
 - [Trajectory Engineering with Modular Patched Conics for Entry...][research_bohdanowesely_paulfwercinski]
 - [THERMAL PROTECTION CAPACITY OF AVIATOR'S TEXTILES][research_stoll_1961]
+- [The heat protection potential of several ablation materials...][research_diaconis_fanucci_1961]
+- [Charring ablators on lifting entry vehicles][research_reinikka_wells_1964]
+- [A theory for the ablation of non-newtonian liquids near the...][research_steverding_1965]
 - [Ablation of a metal body near the stagnation point][research_reznikov_1965]
-- [Cork thermal protection design data for aerospace vehicle...][research_hovey_1965]
-- [Effect of ablation on momentum deposition in the wake of a...][research_hammitt_1965]
-- [Effect of a magnetic field on the flow in the vicinity of the...][research_tropp_1966]
-- [Effect of nose bluntness on the hypersonic unsteady...][research_ericsson_1967]
 
 ### Entry, and a Term That Cancels
 
@@ -733,12 +733,12 @@ lift-to-drag ratio of 1.1 and 45 degrees of bank, from entry interface to 900 me
 properties can and cannot buy manoeuvre during entry, and it says so without reference to any atmosphere
 model.
 
+- [Efficient Parametric Uncertainty Analysis of an Earth Entry...][research_thomaskwestiv_christopherojohnston]
 - [Pterodactyl Guidance and Control of a Symmetric Deployable...][research_benjaminwlmargolis_wendyaokolo]
 - [Optical Communication During Hypersonic Re-Entry][research_langberg_1959]
+- [An Approximation to the Re-Entry Trajectory][research_moe_1960]
+- [Analysis of Axial Accelerometer Capability to Provide...][research_foster_1960]
 - [Joint Conference on Lifting Manned Hypervelocity and Reentry...][research_joint_conference_1960]
-- [Analysis of radio signal interference effects due to ionized...][research_taylor_1961]
-- [Divergence From Equilibrium Glide Path at Supersatellite...][research_morth_speyer_1961]
-- [Shock Wave and Flow Field Development in Hypersonic Re-Entry][research_probstein_1961]
 
 ### Crossrange, Reported as a Lower Bound Because That Is What the Model Gives
 
@@ -756,12 +756,12 @@ with $\psi(v)$ taken from the identity above.
 **Unlike the heading, the displacement does not shed the altitude term**, because the deceleration appears
 alone in the denominator rather than in a ratio.
 
-- [Device May eliminate communications blackout during re-entry...][research_device_may_1962]
-- [Guidance Scheme for Supercircular Re-Entry of a Lifting...][research_bryson_denham_1962]
-- [Maneuvering Performance of Lifting Re-Entry Vehicles][research_mandell_1962]
-- [FLOW FIELD IN HYPERSONIC RE-ENTRY][research_weil_1963]
-- [Re-entry vehicle tracking achieved with computer-supplied...][research_kulleseid_haas_1963]
-- [A RE-ENTRY VEHICLE SIMULATION DESIGNED FOR THE STUDY OF...][research_plender_1964]
+- [APPROXIMATE SOLUTIONS FOR REENTRY TRAJECTORIES WITH...][research_wang_ting_1961]
+- [An Improved Method for Determining the Lateral Range of a...][research_jackson_1961]
+- [Analysis of radio signal interference effects due to ionized...][research_taylor_1961]
+- [Divergence From Equilibrium Glide Path at Supersatellite...][research_morth_speyer_1961]
+- [ON GUIDANCE AND LANDING ACCURACY REQUIREMENTS IN RE-ENTRY...][research_broglio_1961]
+- [Shock Wave and Flow Field Development in Hypersonic Re-Entry][research_probstein_1961]
 
 Searching over bank angle for the maximum gives the following.
 
@@ -784,24 +784,24 @@ The answer is also insensitive to the terminal speed at which the glide is deeme
 1,411 to 1,371 kilometres as that speed runs from 700 to 1,200 metres per second, which is worth saying
 because that speed is a modelling choice rather than a measured quantity.
 
+- [Application of Inequality Constraints to Variational Problems...][research_levinsky_1962]
+- [Device May eliminate communications blackout during re-entry...][research_device_may_1962]
+- [Guidance Scheme for Supercircular Re-Entry of a Lifting...][research_bryson_denham_1962]
+- [Maneuvering Performance of Lifting Re-Entry Vehicles][research_mandell_1962]
+- [THE NUMBERICAL CALCULATION OF THE FLOW FIELD AROUND A REENTRY...][research_kennedy_fields_1962]
+- [APPROXIMATE ANALYTIC SOLUTIONS FOR THE RANGE OF A NONLIFTING...][research_kornreich_1963]
+- [APPROXIMATE SOLUTIONS OF THE LATERAL MOTION OF RE-ENTRY...][research_wang_1963_b]
+- [FLOW FIELD IN HYPERSONIC RE-ENTRY][research_weil_1963]
+- [LANDING SITE COVERAGE FOR ORBITAL LIFTING REENTRY VEHICLES][research_stern_chu_1963]
+- [Re-entry vehicle tracking achieved with computer-supplied...][research_kulleseid_haas_1963]
+- [A RE-ENTRY VEHICLE SIMULATION DESIGNED FOR THE STUDY OF...][research_plender_1964]
 - [Length of the laminar hypersonic wake during ballistic...][research_lykoudis_1964]
 - [Lunar landing and long-range earth re-entry guidance by...][research_lessing_tunnell_1964]
-- [Motion of re-entry vehicles during constant- altitude glide][research_wang_1965]
-- [Re-entry of space vehicle fragments][research_twiss_1965]
-- [An alternate analysis of momentum deposition in the wake of a...][research_weston_1966]
-- [Angle-of-attack measurements of a hypersonic reentry vehicle...][research_cassanto_1966]
-- [Comments on "Motion of Re-Entry Vehicles During...][research_theobald_1966]
-- [Elastomeric thermal shield systems for lifting reentry...][research_dolan_edighoffer_1966]
-- [A SIMPLE ANALYSIS OF REENTRY VEHICLE ROLL RESONANCE][research_platus_1967_b]
-- [A note on re-entry vehicle roll resonance][research_platus_1967]
-- [APPLICATION OF GROUND TEST DATA TO REENTRY VEHICLE DESIGN][research_thomas_perlbachs_1967]
-- [R67-28 A General-Purpose Analog Translational Trajectory...][research_fogarty_1967]
-- [Dynamics of an Acoustic Probe for Measuring Pressure...][research_heller_widnall_1968]
-- [Inertial navigation errors for a lifting re-entry vehicle][research_elsey_carlson_1968]
-- [Optimal control of a reentry vehicle in the presence of...][research_deyst_1968]
-- [Reentry Vehicle Radar Altimeter Antenna Patterns][research_cooper_1968]
-- [Acoustic technique for detection of flow transition on...][research_heller_1969]
-- [Experimental aerodynamcis of a rotor entry vehicle][research_levin_smith_1969]
+- [PERFORMANCE OF LANGMUIR PROBES IN MEASUREMENTS ABOARD A...][research_frankenthal_1964]
+- [Skip-impact criteria of a re-entry trajectory with negative...][research_ruger_1964]
+- [A CLOSED-FORM SOLUTION TO LIFTING REENTRY][research_bell_1965]
+- [A configuration for re-entry from mars missions using...][research_shapland_price_1965]
+- [Approximate analysis of atmosphere re-entry trajectories II][research_approximate_analysis_1965]
 
 ### Aerothermodynamics Beneath the Entry
 
@@ -813,19 +813,19 @@ Advanced TUFROC treatment addresses, and it is why a material development shows 
 reduction rather than as a thicker tile.
 
 - [Recent Langley Aerothermodynamic Laboratory Testing 2019-2022][research_michellemason]
+- [Stagnation Point of a Blunt Body in Hypersonic Flow][research_li_geiger_1957]
 - [Hypersonic Flow Near the Forward Stagnation Point of a Blunt...][research_oguchi_1958]
+- [Theory of Stagnation Point Heat Transfer in Dissociated Air][research_fay_riddell_1958]
 - [An Experimental Investigation of Blunt Body Stagnation Point...][research_boison_1959]
 - [Stagnation Point Fluctuations on a Body of Revolution][research_kuethe_willmarth_1959]
 - [Stagnation Point Pressures on Symmetrical Blunt-Nosed Bodies...][research_borg_russomano_1959]
 - [Heat-transfer near the stagnation point of a body of...][research_meyer_1960]
 - [Hydromagnetic Effects on Heating and Shear at a...][research_kemp_1960]
+- [Axisymmetric stagnation point flow in magnetohydrodynamics][research_axford_1961]
 - [Experimental investigation of plasma sheath properties of a...][research_rotman_meltz_1961]
+- [PLASMA FREQUENCY AND ELECTRON COLLISION FREQUENCY CHARTS FOR...][research_musal_1962]
 - [Radiation From Nonisothermal Gases to the Stagnation Point of...][research_koh_1962]
-- [STAGNATION POINT HEAT TRANSFER OF A BLUNT-NOSED BODY IN...][research_chow_1963]
-- [Hypersonic viscous flow near the stagnation streamline of a...][research_kao_1964]
-- [Hypersonic viscous flow near the stagnation streamline of a...][research_kao_1964_b]
-- [The laminar compressible boundary-layer in the...][research_davis_fluggelotz_1964]
-- [Comments on "Hypersonic Viscous Flow Near the Stagnation...][research_krupp_1965]
+- [CONSTANT CONVECTIVE HEATING RATE SURFACES FOR LIFTING...][research_hankey_hooks_1963]
 
 ### Hypersonic Aerodynamics and the Configuration
 
@@ -836,17 +836,17 @@ decades of wind tunnel and flight work.
 **The X-37B contributed nothing public to that body of knowledge and drew heavily on it.**
 
 - [CFD Simulations of the AEDC H3 Arc-Jet Flow Mach 3.3 Nozzle...][research_tahirgokcen_jonathandmorgan]
+- [Fluid-Thermal-Structural Interactions in Ramp-Induced...][research_antoniogiovannischoeichich_thomasjwhalen]
+- [Mars Sample Return Earth Entry System Woven Roughness Mach 6...][research_jonathanscheatwood_christopherojohnston]
 - [Mars Sample Return, Sample Retrieval Lander, Reaction Control...][research_markschoenenberger_matthewnrhode]
+- [Overview of Mars Sample Return Earth Entry System Woven...][research_jonathancheatwood_christopherjohnston]
+- [Hypersonic Viscous Flow on Noninsulated Flat Plate][research_li_nagamatsu_1953]
+- [NOL HYPERSONIC TUNNEL NO. 4, RESULTS 7 EXPERIMENTAL...][research_lobb_winkler_1955]
 - [Problems of Hypersonic Aerodynamics A Survey][research_monaghan_1959]
 - [The Stagnation-Point Boundary Layer on a Rotating Hypersonic...][research_scala_workman_1959]
 - [Hypersonic Flow Theory and Hypersonic Aerodynamics][research_hayes_probstein_1960]
+- [HYPERSONIC FLOW-BLAST ANALOGY][research_lukasiewicz_1961]
 - [HYPERSONIC UTILITY GLIDER THERMODYNAMIC ANALYSIS][research_forsythe_melfi_1961]
-- [Optimum hypersonic lifting surfaces close to flat plates][research_cole_aroesty_1965]
-- [Elements of Hypersonic Aerodynamics][research_cox_crabtree_1966]
-- [Aerodynamics of Hypersonic Flight][research_young_1966]
-- [Optimum lifting bodies in hypersonic viscous flow][research_lewellen_mirels_1966]
-- [Elements of hypersonic aerodynamics][research_chu_1967]
-- [Influence of atmospheric composition on hypersonic...][research_horton_babineaux_1967]
 
 ### Propulsion, Which Is the Least Interesting System on the Vehicle
 
@@ -871,14 +871,14 @@ launch decisions rather than on-orbit ones.
 - [AN AXIS SEQUENTIAL REACTION CONTROL SYSTEM DESIGN FOR...][research_weiwu]
 - [Modular Assembled Radiators for Nuclear Electric Propulsion...][research_amandaestark_willgrier]
 - [Thermal Systems Engineering for Nuclear Electric Propulsion...][research_willgrier_amandastark]
+- [Comment on ''relative variation of rocket vehicle specific...][research_forrette_1964]
 - [Design of a solar-electric propulsion system for...][research_molitor_berman_1967]
+- [NITROGEN TETROXIDE-STAINLESS STEEL CRYOPANEL CORROSION AND...][research_waldrep_1967]
 - [Solar-electric propulsion system performance for a close...][research_strack_1967]
+- [Fluidics for propellant tank pressurization][research_colquitt_1969]
 - [Spacecraft design for multipurpose solar electric propulsion...][research_molitor_schwaiger_1969]
-- [Low-Cost Solar Electric Testbed for Ion Thruster Systems][research_scheel_1972]
-- [Space simulation experiments on reaction control system...][research_cassidyjf_1972]
-- [Interplanetary Spacecraft Design using Solar Electric...][research_duxbury_paul_1976]
-- [Propellant management for low thrust chemical propulsion...][research_hamlynkm_dergancerh_1981]
-- [Low-cost titanium propellant tankage][research_leach_szpakowski_1983]
+- [Dynamic stability of cylindrical propellant tanks][research_kana_chu_1970]
+- [Development of 2021 aluminum alloy propellant tanks][research_berger_willner_1971]
 
 ### Guidance, Navigation and the Autonomous Landing
 
@@ -909,18 +909,18 @@ the Kennedy Space Center with no human in the loop at all.
 
 - [Navigation Performance of the BioSentinel Deep Space CubeSat...][research_andresdonoperez_joseluisalbertoalvarellos_b]
 - [Autonomous orbital navigation by optical tracking of unknown...][research_toda_schlee_1967]
+- [Approach navigation and entry corridors for manned planetary...][research_repic_eyman_1969]
 - [Approach and landing studies][research_berwinmkock_fitzhughlfultonjr_1970]
 - [Autonomous navigation in long-duration, highly eccentric...][research_lowes_1970]
+- [COMPATIBILITY FACTORS AFFECTING CONCEPT DEVELOMENT OF...][research_maiuzzo_1970]
 - [Seeking a New Precision Approach and Landing System-A Test of...][research_poritzky_1971]
 - [Extension of a portable tactical instrument approach and...][research_extension_of_1972]
 - [Mission Design and Navigation for a 1977-1978 Venus...][research_asnin_roos_1973]
+- [A Structural Weight Estimation Program SWEEP for Aircraft...][research_chaloff_hiyama_1974]
+- [Kalman Filtering and Smoothing in Fotonap for Orbit...][research_morduch_bergeron_1978]
 - [Global Positioning System Satellite Selection][research_dudzinski_1981]
 - [Autonomous Landing Guidance Systems][research_roy_davison_1986]
 - [Flight evaluation of augmented controls for approach and...][research_franklin_hynes_1986]
-- [Effect of signal multipath errors at DMA global positioning...][research_evans_carr_1989]
-- [Sentinel Satellite Positional Precision Derived from the...][research_crombie_1989]
-- [Personnel launch system autoland development study][research_bossija_langehoughma_1991]
-- [TALONS 95 GHz radar sensor for autonomous landing guidance][research_koester_vaillancourt_1992]
 
 ### Structure, Scale and the Payload It Can Actually Carry
 
@@ -1027,12 +1027,12 @@ $$a = \frac{r_{p} + r_{a}}{2}, \qquad e = \frac{r_{a} - r_{p}}{r_{a} + r_{p}}, \
 giving a semi-major axis of **25,828 kilometres**, an eccentricity of **0.7414** and, through Kepler's third
 law, a period of **11.47 hours**. **No previous X-37B mission had left low Earth orbit.**
 
-- [3.16. Communications satellite boosted into geosynchronous...][research_3_16_communications_1983]
-- [Man-made debris in low earth orbit - A threat to future space...][research_reynolds_fischer_1983]
-- [Optimum low thrust transfer to geosynchronous orbit][research_matogawa_1983]
-- [Solar concentrator degradation in Low Earth Orbit LEO][research_thomasrg_1983]
-- [Strategies and schemes for rendezvous on geostationary...][research_wolfsberger_weiss_1983]
-- [Three-dimensional wake model for low earth orbit][research_katz_cooke_1984]
+- [A Guidance and Navigation System for Automatic Stationkeeping...][research_gustafson_kriegsman_1973]
+- [Realisation of rendezvous by the transfer orbit which is...][research_mison_1973]
+- [Orbital maneuvering subsystem functional path analysis for...][research_keeslerel_1974]
+- [Space shuttle orbital maneuvering engine platelet injector...][research_space_shuttle_1975]
+- [Space shuttle orbital maneuvering system failure detection...][research_damariola_vullojp_1976]
+- [Mission Design Implications of an Inclined Elliptical...][research_mission_design_1977]
 
 In October 2024 the Space Force announced that the vehicle would perform [aerobraking][ref_aerobraking] to
 change its orbit and to dispose of its service module in accordance with debris mitigation standards.
@@ -1077,8 +1077,8 @@ $$a' = \left( \frac{2}{r_{p}} - \frac{(v_{p} - \Delta v_{\text{pass}})^{2}}{\mu}
 - [Analysis of the Fully Numerical Predictor-Corrector...][research_juliambriden_danielamatz]
 - [Magnetohydrodynamics MHD Aerocapture System for Enabling...][research_rwmoses_jsgreen]
 - [Reduced Lift-to-Drag Vehicle Concepts for Neptune Aerocapture][research_cheidrich_sdutta]
+- [Approach and entry corridors for aerobraking at Mars and Venus][research_boobar_repic_1967]
 - [Aerobraking as a potential planetary capture mode][research_repic_boobar_1968]
-- [Deceleration control system for aerobraking and skipout to...][research_schy_white_1969]
 
 Evaluating the first for the seventh mission's orbit gives the following.
 
@@ -1111,12 +1111,12 @@ quantity the manoeuvre is designed to change.
 **The crude version is left standing in this article deliberately**, because the difference between the two
 is the whole lesson.
 
+- [Deceleration control system for aerobraking and skipout to...][research_schy_white_1969]
 - [Approximate analytic modeling of a ballistic aerobraking...][research_heppenheimer_1971]
 - [Aerobraking for planetary missions][research_frenchjr_uphoffcw_1979]
 - [A review of aeroassisted orbit transfer][research_walberggd_1982]
 - [Aeroassisted orbit transfer window opens on missions][research_walberggd_1983]
 - [Minimum-fuel aeroassisted coplanar orbit transfer using...][research_measekd_vinhnx_1983]
-- [Impact of atmospheric uncertainties and viscous interaction...][research_talayta_whitenh_1984]
 
 **And the passes are thermally mild, which is why the manoeuvre is attractive.** At a perigee speed of
 10.371 kilometres per second and the density at 100 kilometres, the stagnation flux on a 0.30 metre nose
@@ -1147,6 +1147,8 @@ module. It does not say that the entire reduction from 38,600 kilometres was aer
 does not assume it was.
 **What the arithmetic does establish is that the manoeuvre is feasible for this vehicle only at a perigee near 100 kilometres, and that at such a perigee it is both fast enough and thermally mild enough to have been done.**
 
+- [Optimal trajectories for aeroassisted orbital transfer][research_mielea_venkataramanp_1983]
+- [Impact of atmospheric uncertainties and viscous interaction...][research_talayta_whitenh_1984]
 - [Optimal trajectories for aeroassisted orbital transfer][research_miele_venkataraman_1984]
 - [A survey of aeroassisted orbit transfer][research_walberg_1985]
 - [Approximate solutions to minimax optimal control problems for...][research_miele_basapur_1985]
@@ -1155,14 +1157,12 @@ does not assume it was.
 - [Design study of a slant-nose-cylinder aeroassisted orbital...][research_blosserml_powellrw_1985]
 - [Minimum energy-loss guidance for aeroassisted orbital plane...][research_hull_giltner_1985]
 - [Minimum-fuel aeroassisted coplanar orbit transfer using...][research_mease_vinh_1985]
+- [Optimal aeroassisted return from high earth orbit with plane...][research_vinh_hanson_1985]
 - [A lateral guidance algorithm to reduce the post-aerobraking...][research_hermangc_1986]
 - [Comment on "Minimum Energy-Loss Guidance for Aeroassisted...][research_dickmanns_1986]
 - [Explicit guidance of drag-modulated aeroassisted transfer...][research_vinh_johannesen_1986_b]
 - [Nearly-grazing optimal trajectories for aeroassisted orbital...][research_mielea_measekd_1986]
 - [Optimal aeroassisted transfer between coplanar elliptical...][research_vinh_johannesen_1986]
-- [Aeroassisted manned transfer vehicle TAXI for advanced Mars...][research_aeroassisted_manned_1987]
-- [Electron and vibrational energy conservation equations for...][research_koura_1987]
-- [Optimal trajectories for aeroassisted, coplanar orbital...][research_miele_basapur_1987_b]
 
 ### Astrodynamics Beneath the Manoeuvres
 
@@ -1170,22 +1170,22 @@ Every velocity increment in this article is an impulsive two-body result, which 
 for a chemical engine firing for minutes on an orbit measured in hours, and which the literature below
 establishes and bounds.
 
+- [New Solid Propellant for European Apogee Boost Motor][research_isopi_1979]
+- [Keplerian Representation of a Non-Keplerian Orbit][research_baxter_1980]
+- [Efficient structures for geosynchronous spacecraft solar...][research_adamslr_hedgepethjm_1981]
+- [Obtaining Geostationary Orbit from an Off-Nominal Low...][research_rosengren_1982]
+- [Synergetic Maneuvering of Winged Spacecraft for Orbital Plane...][research_ikawa_rudiger_1982]
+- [3.16. Communications satellite boosted into geosynchronous...][research_3_16_communications_1983]
+- [Man-made debris in low earth orbit - A threat to future space...][research_reynolds_fischer_1983]
+- [Optimum low thrust transfer to geosynchronous orbit][research_matogawa_1983]
+- [Solar concentrator degradation in Low Earth Orbit LEO][research_thomasrg_1983]
+- [Strategies and schemes for rendezvous on geostationary...][research_wolfsberger_weiss_1983]
+- [Highly efficient, very low-thrust transfer to geosynchronous...][research_redding_1984]
+- [Three-dimensional wake model for low earth orbit][research_katz_cooke_1984]
 - [Benefits of a reusable upper stage orbital maneuvering vehicle][research_kroncke_1985]
 - [Orbital Maneuvering system design evolution][research_gibsonc_humphriesc_1985]
 - [The effect of Low Earth Orbit space environment on polymeric...][research_zimcikdg_tennysonrc_1985]
 - [Beyond low earth orbit. An overview of orbit-to-orbit stages][research_loftus_brasher_1986]
-- [Shielding distribution for anisotropic radiation in low earth...][research_henley_1986]
-- [A mathematical model of the orbital maneuvering vehicle][research_walls_greene_1987]
-- [The contraction of satellite orbits under the influence of...][research_kinghele_walker_1987]
-- [Orbital maneuvering vehicle A new capability][research_huber_1988]
-- [Collision matrix for low earth orbit satellites][research_mcknight_lorenzen_1989]
-- [Disposal of spacecraft at end of life in geosynchronous orbit][research_chobotov_1990]
-- [Decay of debris in geostationary transfer orbit][research_janin_1991]
-- [Low earth orbit satellite systems for communications][research_maral_deridder_1991]
-- [Orbital Maneuvering Vehicle OMV plume and plume effects study][research_smithsheldond_1991]
-- [Orbital debris environment for spacecraft in low earth orbit][research_kessler_1991]
-- [Optical property degradation of anodic coatings in the Space...][research_davidkaiae_babelhankw_1992]
-- [Errata-Low Earth Orbit Simulation and Materials...][research_synowicki_hale_1993]
 
 ### What Was Announced, Which Is Almost Certainly Not a Sample
 
@@ -1204,16 +1204,16 @@ That is a selection rule, not a random draw, and reading the programme's purpose
 - [BioSentinel Forging the path for Deep Space CubeSat Missions][research_jeffreyhoman_matthewnapoli]
 - [Biosentinel Mission Summary and Lessons Learned From the...][research_matthewnapoli_cherylekong]
 - [Cubesat Deployment from a Near Rectilinear Halo Orbit][research_dianecdavis_emilymzimovanspreen]
+- [Exposure of Plant Seeds to the Space Environment outside the...][research_jeffreytrichards_toddemortenson]
 - [NASA Space Launch System Cubesats First Flight and Future...][research_russelllane_courtneyryals]
+- [The Design of Organic Coatings for Use in the Space...][research_cowling_alexander_1960]
+- [Theoretical and Experimental Evaluation of Polymeric...][research_synder_cross_1960]
+- [ELECTRONIC EQUIPMENT VS. THE SPACE ENVIRONMENT. A PARTIALLY...][research_sowers_1962]
 - [Rendezvous Problem of Space Vehicle with Orbital Station][research_dankov_mikhailov_1965]
-- [Low earth orbital atomic oxygen simulation for materials...][research_banksbrucea_rutledgesharonk_1989]
-- [A manned maneuvering unit proximity operations planning and...][research_gershzohngaryr_sirkorobertj_1990]
-- [Automated rendezvous and proximity operations][research_flecklinantonfii_1991]
-- [Six degree of freedom simulation system for evaluating...][research_rourkekennethh_tsugawaroyk_1991]
-- [Synergistic effects of ultraviolet radiation, thermal...][research_deverjoycea_brucknerericj_1992]
-- [The DSI small satellite launcher][research_nicholss_gibbonsd_1992]
-- [Atomic oxygen erosion considerations for spacecraft materials...][research_whitakerannf_kamenetzkyrachelr_1993]
-- [Maximum-payload trajectories for a laser-propelled launch...][research_humble_pierson_1995]
+- [ADHESION IN THE SPACE ENVIRONMENT][research_pattee_monroe_1966]
+- [Radiative heat exchange and equilibrium surface temperature...][research_hering_1968]
+- [Wireless Power Transmission in a Space Environment][research_robinson_1970]
+- [Development and Application of Electrical and Mechanical...][research_ahmed_anderson_1977]
 
 ### How the Orbit Became Public Anyway
 
@@ -1231,17 +1231,17 @@ and every quantitative statement in this article rests on that asymmetry.
 - [Satellite Conjunction Assessment, Risk Analysis and Collision...][research_alindamashiku]
 - [Space Surveillance System Technical Summary Report No. 1][research_navalresearchlabwashingtondc_1958]
 - [The igy optical satellite tracking program as a source of...][research_the_igy_1958]
+- [Satellite orbits and atmospheric densities at altitudes up to...][research_siry_1959]
+- [12. Satellite Orbits and Atmospheric Densities at Altitudes...][research_siry_1960]
 - [Early Orbit Determination Scheme for the Juno Space Vehicle][research_kurtz_speer_1960]
+- [ORBIT DETERMINATION OF A NON-TRANSMITTING SATELLITE USING...][research_richards_1960]
 - [Orbit Determination from Optical Tracking][research_duke_1960]
 - [Orbit Determination from Single Pass Doppler Observations][research_patton_1960]
 - [SPACE SURVEILLANCE SYSTEM][research_navalresearchlabwashingtondc_1960]
 - [THE SPACE SURVEILLANCE SYSTEM][research_cleeton_1960]
 - [An Advanced Space Surveillance System][research_armywarcollcarlislebarrackspa_1961]
 - [Preliminary Orbit Determination of a Nontransmitting...][research_richards_1961]
-- [SPACE SURVEILLANCE SYSTEM][research_navalresearchlabwashingtondc_1962]
-- [PRELIMINARY ORBIT DETERMINATION FOR A MOON SATELLITE FROM...][research_gersten_schwarbein_1963]
-- [RADIO-INTERFEROMETER ANALOG PHASE-CHANNEL COMBINER MOD II FOR...][research_kaufman_weaver_1963]
-- [THE DOPLOC DARK SATELLITE TRACKING SYSTEM][research_debay_richard_1963]
+- [CONTINUING SERVICES TO THE 496L SPO SYSTEM ANALYSIS AND...][research_philconewportbeachcaaeronutronicdiv_1962]
 
 ### Disposal, Which Is the Reason the Manoeuvre Was Announced
 
@@ -1251,10 +1251,14 @@ every altitude band below its apogee and does so for a very long time, and dispo
 international obligation rather than a discretionary act.
 **The programme found a reason to describe a manoeuvre, and the reason was compliance.**
 
+- [Examples of Technology Transfer from the SDIO Kinetic Energy...][research_connell_jr_1991]
+- [Assessment of the NASA Evolve Long-Term Orbital Debris...][research_yates_jonas_1995]
 - [Orbital debris impact damage to reusable launch vehicles][research_robinson_1999]
 - [Space Debris Modeling at NASA][research_johnsonnicholasl_2001]
 - [Analysis of Bare-Tether Systems for Deorbiting...][research_ahedo_sanmartin_2002]
 - [Energetic Cost and Viability of the Proposed Space Debris...][research_rossi_2002]
+- [Laser Radiation for Cleaning Space Debris from Lower Earth...][research_schall_2002]
+- [Small Mission Design for Testing In-Orbit an Electrodynamic...][research_tortora_somenzi_2006]
 - [Characterization of Orbital Debris Photometric Properties...][research_cowardinheather_seitzerpat_2010]
 - [Limiting Future Collision Risk to Spacecraft An Assessment of...][research_limiting_future_2011]
 - [Small Orbital Debris Mitigation Mission Architecture][research_wiegmannbrucem_2011]
@@ -1369,26 +1373,26 @@ vehicle was designed.
 
 - [Cycle Life Estimation of Lithium-ion Battery Using for PV...][research_mita_kobayashi_2012]
 - [Physics Based Modeling of a 40 Ah Li-Ion Battery for...][research_isaacson_spotnitz_2012]
-- [Porous Doped Silicon Nanowires for Lithium Ion Battery Anode...][research_ge_rong_2012]
 - [State of Charge Estimation of a Lithium-Ion Cell under Low...][research_khaleghirahimian_rayman_2012]
 - [A Practical Judge Model to Simulate Lithium-Ion Battery...][research_zhang_kang_2013]
 - [Degradation Mechanism of Lithium-Ion Battery in Charge and...][research_hayashi_kondo_2013]
-- [Enhanced Long-Term Cycle Life of Cathode Material for Lithium...][research_lee_yoon_2013]
 - [Experimental Study on Depth of Discharge and Cycle Life of...][research_chen_deng_2013]
 - [Satellite Lithium-Ion Battery Remaining Cycle Life Prediction...][research_liu_wang_2013]
 - [A Selection of Electrical Machine as an Electromechanical...][research_albader_matallah_2014]
 - [Estimation of state-of-charge and state-of-power capability...][research_sun_xiong_2014]
-- [Long cycle life lithium ion battery with lithium nickel...][research_liu_xiong_2014]
 - [Environmental trade-offs across cascading lithium-ion battery...][research_richa_babbitt_2015]
 - [Lithium-Ion Battery Cathodes Coated with Ultra-Thin...][research_patel_liang_2015]
 - [Short-Term Scheduling of Thermal Generators and Battery...][research_duggal_venkatesh_2015]
-- [Significant Capacity Improvement and Long Cycle-Life of...][research_patel_liang_2015_b]
 - [A Hierarchical Model for Lithium-Ion Battery Degradation...][research_xu_li_2016]
 - [Approaches to Develop High Capacity and Long-Cycle Life...][research_zhou_mishra_2016]
 - [Battery state of health estimation a structured review of...][research_ungurean_carstoiu_2016]
 - [Characterising Lithium-Ion Battery Degradation through the...][research_uddin_perera_2016]
 - [Degradation mechanism of over-charged LiCoO2/mesocarbon...][research_zhang_ma_2016]
 - [EIS Analysis of Commercial Lithium-Ion Battery on Accelerated...][research_mukoyama_nara_2016]
+- [Integration of sampling based battery state of health...][research_ozkurt_camci_2016]
+- [International Space Station Lithium-Ion Battery][research_daltonpennij_schwanbeckeugene_2016]
+- [Silicon/soft-carbon nanohybrid material with low expansion...][research_kobayashi_inden_2016]
+- [State of health estimation algorithm of LiFePO4 battery packs...][research_berecibar_garmendia_2016]
 
 ### Arrays, Degradation and What Twenty Years on Orbit Does
 
@@ -1401,6 +1405,7 @@ margin a computable quantity rather than a rule of thumb.
 - [Evaluation and prediction of the degradation of space Si...][research_gao_yang_2012]
 - [Flexible Solar Array of Small Solar Power Sail Demonstrator...][research_soma_endo_2012]
 - [Overall thermal energy and exergy analysis of hybrid...][research_rajoria_agrawal_2012]
+- [Vibration and Impact for Deployable Solar Array of Satellite...][research_you_2012]
 - [Design of the Deployment Mechanism of Solar Array on a Small...][research_gelsherbiny_khattab_2013]
 - [Drag Braking of the Deployment Mechanism of Solar Array on a...][research_elsherbiny_khattab_2013]
 - [First demonstration of a carbon-based solar cell][research_bao_vosgueritchian_2013]
@@ -1410,12 +1415,11 @@ margin a computable quantity rather than a rule of thumb.
 - [Analysis of the degradation mechanism of ITO-free organic...][research_sapkota_fischer_2014]
 - [Low-Thrust Geostationary Transfer Orbit LT2GEO Radiation...][research_messenger_wong_2014]
 - [On-Orbit Fault Location Analysis and Solution Strategy of GEO...][research_zhang_han_2014]
+- [Output Power Prediction Method of GEO Satellite Solar Array...][research_chen_fang_2014]
+- [The Calculation and Analysis of UAV Solar Array Power...][research_zhang_wang_2014]
 - [Thermally induced vibration of composite solar array with...][research_li_yan_2014]
 - [Vibration reduction of flexible solar array during orbital...][research_na_tang_2014]
 - [Analysis of Solar Array Performance Degradation During...][research_gerhard_steins_2015]
-- [External Heat Flux of the Solar Array on the Polar Lunar Orbit][research_song_zhang_2015]
-- [High Radiation Resistance IMM Solar Cell][research_pannoren_2015]
-- [Modeling, analysis and comparison of solar photovoltaic array...][research_belhachat_larbes_2015]
 
 ### Thermal Control Moved to Two-Phase Systems and Small Spacecraft
 
@@ -1425,6 +1429,7 @@ capillary pumped loops move heat across a vehicle passively and against gravity,
 compact spacecraft thermally tractable in a way that conduction paths and cold plates alone did not.
 
 - [ANALYSIS OF THE ONSET OF DRYING OF A POROUS CERAMIC WICK...][research_santos_oliveira_2012]
+- [Arcjet Testing and Thermal Model Development for Multilayer...][research_milosfranks_scottcarldouglas_2012]
 - [Evaporation Heat Transfer Coefficient in a Capillary Pumped...][research_adoni_vaidya_2012]
 - [Experimental Investigations on Thermal Performance of a...][research_wang_li_2012]
 - [Experimental Study on Heat Pipe Radiator in Cooling...][research_zhao_ye_2012]
@@ -1443,7 +1448,6 @@ compact spacecraft thermally tractable in a way that conduction paths and cold p
 - [Thermal Vacuum Testing of a Small Loop Heat Pipe with a PTFE...][research_nagano_nishikawara_2012]
 - [Validation Design for a Multi-Evaporator Miniature Loop Heat...][research_ku_ottenstein_2012_b]
 - [ADVANCED ANALYSIS OF AN AMMONIA LOOP HEAT PIPE FOR SPACE...][research_ferrandi_zinna_2013]
-- [ADVANCED ANALYSIS OF AN AMMONIA LOOP HEAT PIPE FOR SPACE...][research_marengo_ferrandi_2013]
 
 ### Thermal Protection Became a Materials Field With Its Own Momentum
 
@@ -1471,10 +1475,10 @@ which is a useful illustration of how the compartment boundary actually runs.
 - [Characterization of Complex Porous Structures for Reusable...][research_gulli_maddalena_2014]
 - [Experimental investigation of dredging thermal protection...][research_sunjian_liuweiqiang_2014]
 - [Integrated Analysis of Reusable Thermal Protection Systems...][research_gulli_maddalena_2014_b]
+- [Reconstruction of Aerothermal Environment and Heat Shield...][research_bose_white_2014]
 - [Ultra-high temperature ceramic TaB2-TaC-SiC coating for...][research_ren_li_2014]
 - [A new surface catalytic model for silica-based thermal...][research_li_liu_2015_b]
 - [Characterization of Complex Porous Structures for Reusable...][research_gulli_maddalena_2015]
-- [Effect of oxidation on room temperature strength of ZrB 2...][research_zapatasolvas_jayaseelan_2015]
 
 ### Entry Guidance Became an Optimisation Problem
 
@@ -1489,20 +1493,20 @@ article approached through a closed form.
 - [Trajectory Tracking Control of Hypersonic Reentry Vehicle...][research_yang_wang_2012]
 - [Aerodynamics Calculation of Reentry Body in Hypersonic...][research_aerodynamics_calculation_of_2013]
 - [Atmospheric Reentry Dispersion Correction Ascent Phase...][research_chander_krishna_2013]
+- [Hypersonic environment assessment of the CIRA FTB-X re-entry...][research_pezzella_2013]
 - [Reentry Design Solution for a Hypersonic Small Capsule][research_rugescu_2013]
 - [Reentry trajectory optimization for hypersonic vehicle...][research_zhao_zhou_2013]
 - [Research of Reentry Corridor and Guidance Technology for...][research_wang_zhang_2013]
 - [Damping characteristics of a reentry vehicle at hypersonic...][research_adamov_puzyrev_2014]
 - [Definition ofthe Design Trajectory and Entry Flight Corridor...][research_mcnamaralukew_braunrobertd_2014]
 - [Entry Guidance A Unified Method][research_lu_2014]
+- [Experimental Aeroheating Study of Mid-L/D Entry Vehicle...][research_hollisbrianr_hollingsworthkevine_2014]
+- [Fault Detection of Re-Entry Vehicle Control Surface using...][research_sarababut_2014]
 - [Flight Management System for Unmanned Reusable Space Vehicle...][research_ramasamy_sangam_2014]
 - [Patched Corridor A Novel Lateral Logic for Skip Entry Guidance][research_luo_zhang_2014]
 - [Progress in reentry trajectory planning for hypersonic vehicle][research_zhao_zhou_2014]
 - [Reentry Trajectory Optimization and Simulation of Hypersonic...][research_huo_liu_2014]
 - [Robust LPV autopilot design for hypersonic reentry vehicle][research_gaohua_jianmei_2014]
-- [Sliding mode based trajectory linearization control for...][research_xingling_honglun_2014]
-- [Trajectory Optimization of Reentry Capsule][research_kadam_hablani_2014]
-- [Active disturbance rejection based trajectory linearization...][research_shao_wang_2015]
 
 ### Aerothermodynamics, Computation and the Modern Treatment of Heating
 
@@ -1513,20 +1517,20 @@ how large the correlation's error is and in which direction.
 
 - [Aerothermodynamics of Satellite During Atmospheric Reentry...][research_kozak_sharipov_2012]
 - [Model Reduction of Computational Aerothermodynamics for...][research_crowell_mcnamara_2012]
+- [Numerical Simulation of the Aerodynamics and Aerothermal...][research_liu_qiang_2012]
 - [Aerothermodynamics of a hypersonic projectile with a...][research_yadav_guven_2013_b]
 - [Aerothermodynamics of a hypersonic vehicle with a...][research_yadav_guven_2013]
 - [Hypersonic Aerothermodynamics Past, Present and Future][research_park_2013]
 - [Hypersonic high altitude aerothermodynamics of a space...][research_votta_schettino_2013]
 - [Aerodynamic configuration optimization by the integration of...][research_feng_tang_2014]
+- [Plasma Waves and Sounder PWS experiment onboard the Planet-B...][research_ono_oya_2014]
+- [Review of underhood aerothermal management Towards vehicle...][research_khaled_ramadan_2014]
 - [Special issue editorial Plasma interactions with Solar System...][research_coates_wellbrock_2015]
 - [Radiation aerothermodynamics of the Stardust space vehicle][research_surzhikov_2016]
 - [Effect of static shape deformation on aerodynamics and...][research_guo_lin_2017]
 - [Aerothermodynamics calculation of the EXPERT reentry flight...][research_kharchenko_kryukov_2018]
+- [Aerothermal Measurements from the ExoMars Schiaparelli...][research_gulhan_thiele_2019]
 - [Grid criteria for numerical simulation of hypersonic...][research_ren_yuan_2019]
-- [Thermal flutter prediction at trajectory points of a...][research_guo_shen_2019]
-- [Calculated Analysis of Experimental Data on the...][research_surzhikov_2020]
-- [HTR solver An open-source exascale-oriented task-based...][research_direnzo_fu_2020]
-- [Impact of Anisotropic Mesh Adaptation on the...][research_morgado_garbacz_2022]
 
 ### Aerobraking Matured at Mars and Came Back
 
@@ -1546,6 +1550,7 @@ treats it as novel has not read the Mars literature.
 - [Application of a Fully Numerical Guidance to Mars Aerocapture][research_matzdaniela_luping_2017]
 - [Optimization for the Aeroassisted Orbital Plane Change with...][research_han_qiao_2017]
 - [Capture of small near-Earth asteroids to Earth orbit using...][research_tan_mcinnes_2018]
+- [Mars Optimal Aerobrake Maneuver Estimation][research_sarlibrunov_farresariadna_2018]
 - [Polar Region Variability in the Lower Thermosphere of Mars...][research_forbes_zhang_2018]
 - [Preliminary Investigation of Aerocapture Technology][research_suwata_matsuda_2018]
 - [TGO ends aerobraking for steady Mars orbit][research_tgo_ends_2018]
@@ -1554,7 +1559,6 @@ treats it as novel has not read the Mars literature.
 - [Leveraging Mars aerobraking experience for the Venus...][research_wallacemarks_youtunghan_2019]
 - [Mission Design and Performance Analysis of a Smallsat...][research_werner_braun_2019]
 - [Characteristic model and its applications in Mars aerocapture...][research_meng_wu_2020]
-- [Fast optimization method for Mars high-fidelity aerobraking...][research_yang_liu_2020]
 
 ### Atmospheric Density Modelling and Why the Drag Numbers Carry Uncertainty
 
@@ -1562,13 +1566,16 @@ treats it as novel has not read the Mars literature.
 The spread between models at a fixed altitude and epoch is comparable to the spread this article attributes
 to the solar cycle.
 
+- [Automatic Recognition of Solar Features for Developing Data...][research_jackiewicz_2012]
 - [Comparison Between the CHAMP/STAR Derived Thermospheric...][research_weng_fang_2012]
 - [Data assimilation of thermospheric mass density][research_matsuo_fedrizzi_2012]
 - [Did geomagnetic activity challenge electric power reliability...][research_forbes_stcyr_2012]
 - [Satellites orbit calculation with consideration of...][research_cuong_tu_2012]
 - [Thermospheric density model biases at the 23rd sunspot maximum][research_pardini_moe_2012]
+- [Automatic Recognition of Solar Features for Developing Data...][research_mcnamara_2013]
 - [Empirical model of the thermospheric mass density based on...][research_liu_hirano_2013]
 - [Satellite observations of thermospheric wave 4 at high...][research_shepherd_cho_2013]
+- [Thermosphere Density Variability, Drag Coefficients, and...][research_mclaughlin_krishna_2013]
 - [Thermospheric density variations Observability using...][research_lechtenberg_mclaughlin_2013]
 - [A critical assessment of satellite drag and atmospheric...][research_vallado_finkleman_2014]
 - [Correlations between solar activity and thermospheric density][research_niu_fang_2014]
@@ -1579,9 +1586,6 @@ to the solar cycle.
 - [A model of high-latitude thermospheric density][research_yamazaki_kosch_2015]
 - [Altitude and solar activity dependence of 1967-2005...][research_emmert_2015]
 - [Atmospheric Density Reconstruction Using Satellite Orbit...][research_shoemaker_wohlberg_2015]
-- [Mean thermospheric density estimation derived from satellite...][research_li_close_2015]
-- [Thermospheric mass density A review][research_emmert_2015_b]
-- [Atmospheric Drag Coefficient Modification for Orbit...][research_cang_xue_2016]
 
 ### Space Situational Awareness Became an Industry
 
@@ -1602,19 +1606,19 @@ catalogue maintenance is large, active and largely open.
 - [Space Surveillance Telescope focus and alignment of a three...][research_woods_shah_2013]
 - [Constellation Design for Space-Based Space Situational...][research_biria_marchand_2014]
 - [Data-Driven Performance Assessment and Process Management for...][research_haith_bowman_2014]
+- [Effects of Full Order Geopotential Hessian on Precision Orbit...][research_warner_lemm_2014]
 - [Numerical Coverage Analysis for Space-Based Space Situational...][research_takano_marchand_2014]
 - [Using Magnetometers for Space Object Characterization in...][research_holzinger_2014]
 - [An Empirical State Error Covariance Matrix Orbit...][research_frisbeejosephhjr_2015]
 - [An Updated Process for Automated Deepspace Conjunction...][research_tarzizahib_berrydavids_2015]
 - [Analysis of orbit determination for space based optical space...][research_scire_santoni_2015]
 - [Collision Avoidance Short Course Conjunction Assessment Risk...][research_hejdukmd_frigmryanc_2015]
-- [Legal and policy aspects of space situational awareness][research_kaiser_2015]
 
 ### Debris Mitigation Became the Binding Operational Constraint
 
 **The reason the seventh mission's manoeuvre could be described at all is that debris mitigation is a public obligation**,
 and the literature on disposal, on compliance and on the orbital lifetime of abandoned hardware is
-correspondingly open. **No other area gives a classified programme an affirmative reason to publish.
+correspondingly open. **No other area gives a classified programme an affirmative reason to publish.**
 
 - [Multiple Space Debris Collecting Mission-Debris Selection and...][research_cerf_2012]
 - [Satellite Material Type and Phase Function Determination in...][research_hejdukmd_cowardinhm_2012]
@@ -1668,6 +1672,7 @@ discusses.
 - [Cryogenic Propellant Storage and Transfer Technology...][research_chojnackikentt_cranedeborahj_2014]
 - [Effects of Low Earth Orbit on Docking Seal Materials][research_imkaemilyc_asmaroliviac_2014]
 - [Kepler accuracy model for co-periodic satellite separation...][research_furber_2014]
+- [Low Earth Orbit Satellite's Orbit Propagation and...][research_shou_2014]
 - [Mitigation Rules Compliance in Low Earth Orbit][research_morand_doladoperez_2014]
 - [Orbit Determination Accuracy Analysis of the Magnetospheric...][research_pachuradaniela_vavrinamatthewa_2014]
 - [The Collocation Method's Application on Low Earth Orbit...][research_zhou_wu_2014]
@@ -1676,7 +1681,6 @@ discusses.
 - [An approach to ground based space surveillance of...][research_scott_ellery_2015]
 - [B02 Orbit Estimation Method of Debris using Angle Measurement...][research_tsukamoto_narumi_2015]
 - [Best Geosynchronous Earth Orbit Daytime Spacecraft Charging...][research_ferguson_hilmer_2015]
-- [Compliance of the Italian satellites in low Earth orbit with...][research_anselmo_pardini_2015]
 
 ### Guidance, Navigation and Autonomous Landing
 
@@ -1684,20 +1688,20 @@ discusses.
 approach and landing as a component of a larger autonomy stack rather than as an achievement in itself,
 which is a fair measure of how far the capability the X-37B demonstrated in 2010 has since travelled.
 
+- [Analysis of Orbital Dynamic Equation in Navigation for a Mars...][research_ma_ning_2012]
 - [Terminal Area Energy Management Trajectory Planning for an...][research_zhou_zhou_2013]
 - [Angles-Only Navigation State Observability During Orbital...][research_geller_klein_2014]
 - [Angles-Only Navigation to a Noncooperative Satellite Using...][research_gaias_damico_2014]
 - [Autonomous Navigation for On-Orbit Servicing][research_benninghoff_boge_2014]
+- [Guidance Law Design for Terminal Area Energy Management of...][research_jiang_yang_2014]
 - [Nonlinear Robust Adaptive Control for Spacecraft Proximity...][research_sun_huo_2014]
 - [Relative Motion Guidance, Navigation and Control for...][research_okasha_newman_2014]
 - [A novel robust hybrid gravitational search algorithm for...][research_su_wang_2015]
 - [A semi-analytical guidance algorithm for autonomous landing][research_lunghi_lavagna_2015]
+- [Joint Precision Approach and Landing System Increment 1A...][research_hornbuckle_2015]
+- [Near Real-Time Astrometry for Spacecraft Navigation with the...][research_maxmoerbeck_brisken_2015]
 - [Non-Linear Adaptive Control on Reusable Launch Vehicle Due to...][research_junaidr_beebim_2015]
 - [Pulse Phase Estimation of X-ray Pulsar with the Aid of...][research_wang_zheng_2015]
-- [Autonomous Landing for UAVs using T-MPSP Guidance and Dynamic...][research_tripathi_padhi_2016]
-- [Autonomous Landing of a Fixed Wing UAV with a Ground-based...][research_saifei_xinhua_2016]
-- [Monocular Estimation of Ground Orientation for Autonomous...][research_dougherty_lee_2016]
-- [Numerical Optimization on Approach and Landing for Reusable...][research_numerical_optimization_2016]
 
 ### Propulsion and On-Orbit Manoeuvre
 
@@ -1724,36 +1728,36 @@ Power beaming from orbit is now an active research area with a literature of its
 Radio-frequency Antenna Module is cited within it.
 
 - [Advances in Space Robot On-orbit Servicing for...][research_liang_du_2012]
+- [Multiscale, Intermittent, Turbulent Fluctuations in Space...][research_chang_2012]
 - [Small Satellite Earth Stations for Disaster Recover Operations][research_imaizumi_hirose_2012]
 - [Rendezvous Simulation for On-Orbit Servicing Missions Using...][research_boge_benninghoff_2013]
 - [Vision-based control for on-orbit servicing][research_larouche_2013]
 - [Adaptive Sliding Mode Control for Spacecraft Proximity...][research_chi_huo_2014]
 - [Analysis of Orbital Thermal Environment for Inclined-LEO...][research_liu_wang_2014]
 - [On-Orbit Servicing Task Allocation for Multi-Spacecrafts...][research_zhang_zhang_2014]
+- [Quantifying Space Environment Interactions with Debris...][research_schildknecht_hager_2014]
+- [The Living With a Star Space Environment Testbed Experiments][research_xapsosmichaela_2014]
 - [Visual Modeling and Simulation Research of a Kind of On-Orbit...][research_li_zhang_2014]
 - [Assessment of the commercial viability of selected options...][research_graham_kingston_2015]
 - [Launch and deployment of distributed small satellite systems][research_crisp_smith_2015]
 - [Satellite Attitude Performance of CMG-Based Controlled Small...][research_salleh_mohdsuhadis_2015]
 - [Adaptive sliding mode control of tethered satellite...][research_ma_sun_2016]
 - [Optimization of an orbital long-duration rendezvous mission][research_zhang_tang_2016]
-- [Passivity-Based Adaptive Finite-Time Trajectory Tracking...][research_sun_2016]
-- [Prox-1 University-Class Mission to Demonstrate Automated...][research_spencer_chait_2016]
-- [Atomic Oxygen Cleaning of Unpainted Plaster Sculptures][research_banksbrucea_millersharonk_2017]
 
 ### Hypersonic Configuration Aerodynamics
 
-- [Current Hypersonic and Space Vehicle Flight Test and...][research_spravka_jorris_2015]
-- [Aerothermoelastic Analysis of a Hypersonic Vehicle Based on...][research_chen_zhao_2019]
-- [Ascent Trajectory Optimization for Hypersonic Vehicle Based...][research_fu_wang_2019]
-- [Combined thermal phenomena of hypersonic vehicle][research_gui_2019]
-- [Derived Angle of Attack and Sideslip Angle Characterization...][research_valasek_harris_2020]
-- [Performance Simulation Analysis of Composite Thermal...][research_changbao_hui_2020]
-- [Subsonic Ultra Green Aircraft Research Phase III Mach 0.75...][research_christopherkdroney_anthonyjsclafani_2020]
-- [Optimization of Power and Thermal Management System of...][research_guo_pang_2022]
-- [A power and thermal management system for long endurance...][research_guo_pang_2023]
-- [High-precision reconstruction of the heat flux field by a...][research_yao_wang_2023]
-- [Numerical studies on the thermal-fluid-structure coupling...][research_wang_qian_2023]
-- [Optical performance evaluation of an infrared system of a...][research_zhang_ju_2023]
+- [A case study on the aerodynamic heating of a hypersonic...][research_mifsud_estruchsamper_2012]
+- [Adaptive restricted trajectory tracking for a non-minimum...][research_fiorentini_serrani_2012]
+- [Nummerical Simulation in Influence of Forward-Facing Cavity...][research_lu_liu_2012]
+- [Roughness-Induced Instability in a Hypersonic Laminar...][research_wheaton_schneider_2012]
+- [Transition Experiments on Slightly Blunted Cones with...][research_reda_wilder_2012]
+- [Application of Magneto Hydrodynamics MHD in Hypersonic Vehicle][research_li_wang_2013]
+- [CFD Turbulent Model and Grid Dependency of Hypersonic...][research_nie_liu_2013]
+- [Convective heating of small-radius spherical blunting for...][research_surzhikov_2013]
+- [Diagnostics for Hypersonic Engine Control][research_brown_donbar_2013]
+- [Experimental Database with Baseline CFD Solutions 2-D and...][research_marvinjosephg_brownjamesl_2013]
+- [Hypersonic Flight Time To Go Operational][research_dietrick_2013]
+- [Numerical Simulation of Heating Over the Rudder Shaft Gap in...][research_lei_zhang_2013]
 
 ### The Institutional Literature on Secrecy and Military Space
 
@@ -1789,8 +1793,10 @@ the environment rather than in the spacecraft, and the seventh mission's highly 
 available only because a heavy-lift vehicle was.
 
 - [Evolved Expendable Launch Vehicle EELV][research_airforcespacecommandspacemissilesysctr_2013]
+- [Conceptual Launch Vehicle and Spacecraft Design for Risk...][research_motiwalasamiraa_mathiasdonovanl_2014]
 - [Space Launch System Upper Stage Technology Assessment][research_holladayjon_hamptonbryan_2014]
 - [Particle Swarm Optimization Applied to Ascent Phase Launch...][research_dileep_kamath_2015]
+- [Rho-Isp Revisited and Basic Stage Mass Estimating for Launch...][research_kibbeytimothyp_2015]
 - [Ascent Phase Trajectory Optimization of Launch Vehicle Using...][research_dileep_surekha_2016]
 - [Orbital ATK awarded contract for launch vehicle parts][research_orbital_atk_2016]
 - [Trajectory Optimization of a Launch Vehicle with Explicit...][research_yoon_ahn_2016]
@@ -1798,14 +1804,13 @@ available only because a heavy-lift vehicle was.
 - [Three-dimensional trajectory optimization for multi-stage...][research_hwang_2019]
 - [Ascent trajectory design of small-lift launch vehicle using...][research_zheng_fu_2020]
 - [Joint dynamic optimization of the target orbit and flight...][research_song_wang_2020]
-- [Conceptual design studies of an electrically propelled upper...][research_levandovich_mosin_2021]
-- [Convex Approach to Three-Dimensional Launch Vehicle Ascent...][research_benedikter_zavoli_2021]
 
 ### Eclipse, Lighting and Orbital Geometry
 
 - [CHANGES IN POLARIZATION POSITION ANGLE ACROSS THE ECLIPSE IN...][research_yuen_manchester_2012]
 - [Arts Eclipse of power][research_pasachoff_pasachoff_2014]
 - [Ascent Trajectory Optimization for Air-Launched Launch...][research_wang_2015]
+- [Eclipse modeling for the Mars Orbiter Mission][research_srivastava_kumar_2015]
 - [Europe's power grid survives solar eclipse][research_europe_s_power_2015]
 - [PISA's colonialism Success, money, and the eclipse of...][research_dagnese_2015]
 - [Impact of Photovoltaics on Frequency Stability of Power...][research_maslo_2016]
@@ -1814,35 +1819,37 @@ available only because a heavy-lift vehicle was.
 - [Total Solar Eclipse Vs. Lunar Eclipse 2017 Your Guide To Be...][research_foss_2017]
 - [Predictability of Pi Angle and Comparison with ANB Angle, W...][research_predictability_of_2018]
 - [Changes in the surface broadband shortwave radiation budget...][research_wen_marshak_2020]
-- [Is experience alone sufficient to diagnose developmental...][research_sari_karakus_2020]
 
 ### Power Systems
 
-**This cluster is small and the reason is the cluster ordering rather than the literature.** A record naming
-a solar array or a battery matches those clusters first, so what remains here is the residue that names a
+**This cluster is small because of the cluster ordering, not because the literature is.** A record naming a
+solar array or a battery matches those clusters first, so what remains here is the residue that names a
 power system without naming its parts. **Reporting that is more honest than reporting a thin subject**,
 because the subject is not thin.
 
 - [Spacecraft electrical power subsystem Failure behavior...][research_kim_castet_2012]
 - [Silicon Nano-tips and Related Nano-Systems Involving Fluid...][research_lozano_chen_2015]
 - [Optimalisasi Jaringan Komunikasi Serat Optik Melalui Analisa...][research_kartiria_2017]
+- [Benchmark model for multi-orbital transient analysis of...][research_khan_elmoursi_2020]
 - [Performance Analysis of Power Budget Management for Satellite...][research_awasth_2022]
 - [Performance analysis and optimization of heat pipe-based...][research_li_zhang_2022_b]
 - [Power System Topology Proposal of a High-Altitude...][research_seddjar_kerrouche_2022]
 - [A Method for Validating CubeSat Satellite EPS Through Power...][research_acero_diaz_2023]
 - [A Mixed Safety and Reliability Evaluation Method for the...][research_wang_wang_2023]
 - [New Sizing Methodology and Efficiency Analysis of Satellite's...][research_marincoca_roibasmillan_2023]
-- [Performance analysis of indirect contact heat pipe radiator...][research_li_zhang_2024_c]
 
 ### The Ancestors, Reconsidered
 
-**This cluster is nearly empty on the contemporary side and that is a finding rather than a gap.** The
-lifting bodies, Dyna-Soar and the Shuttle orbiter stopped generating literature under their own names once
-they stopped flying, which is the pattern the two preceding articles established for cancelled programmes
-and which applies here to completed ones.
+**This cluster is nearly empty on the contemporary side, which is a finding and not a gap.** The lifting
+bodies, Dyna-Soar and the Shuttle orbiter stopped generating literature under their own names once they
+stopped flying, which is the pattern the two preceding articles established for cancelled programmes and
+which applies here to completed ones.
 
 - [Effect of steps and gaps on aerothermodynamics for the IXV...][research_sourgen_fontaine_2012]
 - [Feasibility of Guided Entry for a Crewed Lifting Body Without...][research_putnam_grant_2014]
+- [Direct numerical simulations of hypersonic boundary layer...][research_direct_numerical_2023]
+- [Effects of Wavy Wall on Hypersonic Boundary-Layer Instability...][research_zhang_hu_2026_b]
+- [Large eddy simulation of hypersonic boundary layer transition...][research_chen_mao_2026]
 
 ### The Rest of the Survey
 
@@ -1852,18 +1859,26 @@ and which applies here to completed ones.
 - [Concept for the Control of Relative Orbital Elements for...][research_larbi_bergner_2012]
 - [Detection of space target orbit maneuver on board by wavelet...][research_su_dong_2012]
 - [Dynamical orbital effects of general relativity on the...][research_iorio_2012]
+- [First Light Infrared Observations with the 1.6 Meter Solar...][research_goode_2012]
 - [Goce flight dynamics operations from an orbital perspective][research_kuijper_matatoros_2012]
 - [Jupiter Magnetospheric Orbiter Trajectory Design in the...][research_campagnola_kawakatsu_2012]
+- [NASA orbiter detects shifting sand dunes on Mars][research_nasa_orbiter_2012]
 - [Optical depth of the Martian atmosphere and surface albedo...][research_petrova_hoekzema_2012]
 - [Optimal satellite formation reconfiguration strategy based on...][research_wang_zhang_2012]
 - [Point return orbit design and characteristics analysis for...][research_shen_zhou_2012]
+- [Research to Operations Space Weather's Valley of Opportunity][research_robinson_2012]
+- [Solar thematic maps for space weather operations][research_rigler_hill_2012]
+- [The Second Annual Space Weather Community Operations Workshop...][research_fulgham_meehan_2012]
 - [Thermal Radiation Modeling for Interplanetary Spacecraft...][research_sugimoto_vanderha_2012]
+- [Validation of the NOAA Space Weather Prediction Center's...][research_crown_2012]
+- [DARPA Topologically Protected Quantum Information Processing...][research_tewari_zhang_2013]
 - [China's first-phase Mars Exploration Program Yinghuo-1 orbiter][research_zheng_hsu_2013]
 - [Coupled Attitude-Orbit Control of Flexible Solar Sail for...][research_jin_tianshu_2013]
 - [Design and Analysis of Korean Lunar Orbiter Mission using...][research_choi_song_2013]
 - [Detecting volcanic resurfacing of heavily cratered terrain...][research_whitten_head_2013]
 - [Effect of Density Model Time-Delay Errors on Orbit Prediction][research_anderson_guignet_2013]
 - [Europa planetary protection for Juno Jupiter Orbiter][research_bernard_abelson_2013]
+- [Flow field prediction of an orbiter entering the Mars...][research_lu_cheng_2013]
 - [From Napkin to Orbit in 9 Months The TechEdSat Spacecraft...][research_cohenaaron_hoppinsnicholas_2013]
 - [Mean Orbital Elements Estimation for Autonomous Satellite...][research_zhong_gurfil_2013]
 - [Mission design and analysis of European astrophysics missions...][research_landgraf_renk_2013]
@@ -1872,23 +1887,35 @@ and which applies here to completed ones.
 - [Peri-orbital vs orbital cellulitis][research_dftb_2013]
 - [Planning for space station long-duration orbital mission...][research_lin_luo_2013]
 - [Studies of Simulated Lunar Dust on the Properties of...][research_gaier_hicks_2013]
+- [The Graphic Mangalyaan Mars Orbiter][research_the_graphic_2013]
 - [The Košice meteorite fall Atmospheric trajectory...][research_borovicka_toth_2013]
 - [The Tajikistan superbolide of July 23, 2008. I. Trajectory...][research_konovalova_madiedo_2013]
 - [The evolution of co-orbiting material in the orbit of 2201...][research_lai_russell_2013]
+- [Third Annual Space Weather Community Operations Workshop...][research_fulgham_tobiska_2013]
 - ["Roller Coaster Maneuver via Lateral Orbital Approach" for...][research_pilanci_basaran_2013]
 - [Achievable debris orbit prediction accuracy using laser...][research_sang_bennett_2014]
 - [Analysis of the attitude dynamics of a spacecraft on a...][research_wang_xu_2014]
 - [Attitude control in spacecraft orbit-raising using a reduced...][research_yang_2014]
+- [Automated determination of the orientation of dust devil...][research_statella_pina_2014]
 - [Calibrating Mars Orbiter Laser Altimeter pulse widths at Mars...][research_poole_muller_2014]
+- [Earth Observing Satellite Orbit Design Via Particle Swarm...][research_vtipil_warner_2014]
+- [Electron temperature probe onboard Japan's Mars orbiter][research_oyama_abe_2014]
 - [High-accuracy spacecraft-orbit prediction as a result of a...][research_markov_mikhailov_2014]
+- [India's Mars orbiter halfway to its destination][research_india_s_mars_2014]
+- [Instruments for Optical Spectroscopy and Imaging of...][research_hsieh_2014]
+- [Integrated Photonic Orbital Angular Momentum Multiplexing and...][research_scott_proietti_2014]
 - [Jovian tour design for orbiter and lander missions to Europa][research_campagnola_buffington_2014]
+- [Jubilation as NASA orbiter reaches Mars][research_witze_2014]
 - [Leveraging Multiple Artificial Intelligence Techniques to...][research_knight_chouinard_2014]
 - [Middle Man Concept for In-Orbit Collision Risks Mitigation...][research_mourymonique_newmanlaurik_2014]
+- [New York Times highlights stark frugality of India's Mars...][research_corneliussen_2014]
+- [Novel Detection of Optical Orbital Angular Momentum][research_voelz_2014]
 - [Pseudo-Orbit Data Assimilation. Part I The Perfect Model...][research_du_smith_2014]
 - [Simulation of the capabilities of an orbiter for monitoring...][research_bouquet_baratoux_2014]
 - [The Orbital Error Analysis and Study of Space Vehicle Active...][research_leng_xiang_2014]
 - [The exploration of Titan with an orbiter and a lake probe][research_mitri_coustenis_2014]
 - [WITHDRAWN Mineral components at Martian Gale region from Mars...][research_xue_jin_2014]
+- [A Study on Along-Track and Cross-Track Noise of Altimetry...][research_jarmolowski_ukasiak_2015]
 - [A probabilistic analysis of the implicationsof instrument...][research_jackson_2015]
 - [Ballistic problems in the synthesis of orbital segment of...][research_ballistic_problems_in_2015]
 - [Chinese spacecraft achieves lunar orbit][research_chinese_spacecraft_2015]
@@ -1896,31 +1923,47 @@ and which applies here to completed ones.
 - [Dawn Spacecraft Enters into Orbit Around Dwarf Planet Ceres][research_showstack_2015]
 - [Design and optimization of low-thrust orbital phasing maneuver][research_shang_wang_2015]
 - [Design of the Recovery Trajectory for JAXA Venus Orbiter...][research_campagnola_kawakatsu_2015]
+- [Development of an Infrared Lamp Array for the Smap Spacecraft...][research_millerjenniferr_emisnickolas_2015]
 - [Equilibrium Temperature of a Satellite in Low-Earth Orbit][research_hegab_2015]
+- [Global documentation of gullies with the Mars Reconnaissance...][research_harrison_osinski_2015]
+- [High-Temperature Isothermal Oxidation of Ultra-High...][research_milleroana_corral_2015]
 - [How to Estimate Microaccelerations for Spacecraft with...][research_sedelnikov_potienko_2015]
+- [Infrared Observations with the 1.6 Meter New Solar Telescope...][research_goode_2015]
 - [Maneuver Design Using Relative Orbital Elements][research_spencer_lovell_2015]
+- [Mars Orbiter Camera climatology of textured dust storms][research_guzewich_toigo_2015]
 - [Mars Orbiter Mission spacecraft and its challenges][research_arunan_satish_2015]
 - [Mathematical modeling of spacecraft guidance and control...][research_shirazi_mazinan_2015]
 - [On-orbit characterization of the VIIRS solar diffuser and...][research_sun_wang_2015]
+- [PSLV-C25 the vehicle that launched the Indian Mars Orbiter][research_vishnunampoothiri_sowmianarayanan_2015]
+- [Picard Trajectory Approximation Iteration for Efficient Orbit...][research_junkins_2015]
 - [Spacecraft OMM reduction using stable frozen orbit conditions][research_soleymani_toloei_2015]
 - [Spacecraft to detect Earth's plant fluorescence from orbit][research_spacecraft_to_2015]
+- [Study of phyllosilicates and carbonates from the Capri Chasma...][research_jain_chauhan_2015]
 - [The Gas Leak Detection Technology of the Spacecraft on orbit...][research_rongxin_lei_2015]
 - [Trajectory optimization of spacecraft high-thrust orbit...][research_shirazi_2015]
 - [Uncertainties in MARS Meteor Orbit Radar Data][research_kolomiyets_2015]
 - [Using Tracking And Data Relay Satellite For Low And Middle...][research_li_sun_2015]
 - [A SOLUTION TO LOW RFM FITTING PRECISION OF PLANETARY ORBITER...][research_liu_xu_2016]
+- [An improved JPL Mars gravity field and orientation from Mars...][research_konopliv_park_2016]
 - [Choosing a program for controlling the deployment of an...][research_ishkov_xiaoye_2016]
+- [Cislunar Near Rectilinear Halo Orbit for Human Space...][research_whitleyryan_martinezroland_2016]
 - [Effective Empirical Acceleration Modeling and its Application...][research_wang_gao_2016]
+- [Estimation of dust variability and scale height of...][research_mishra_chauhan_2016]
 - [Fuel efficient control strategy for constellation orbital...][research_yang_jiang_2016]
 - [High-precision orbit prediction for high-altitude orbit...][research_huang_zhang_2016]
 - [Inorganic White Thermal-Control Coatings for Extreme Space...][research_shrestha_borrerodelpino_2016]
 - [Iterative Pseudostate Method for Transfer Trajectory Design...][research_parvathi_ramanan_2016]
 - [Juno Spacecraft Nails Its Orbit Around Jupiter][research_showstack_2016]
+- [Likely Schiaparelli crash site spotted by Mars Reconnaissance...][research_likely_schiaparelli_2016]
+- [Mars Climate Orbiter lost][research_mars_climate_2016]
+- [Mars orbiter to sniff for methane][research_hand_2016]
 - [Modeling orbital tether system deployment with limitations on...][research_ishkov_filippov_2016]
 - [NASA's Juno Spacecraft Set to Orbit Jupiter Starting 4 July][research_showstack_2016_b]
 - [NASA's Juno spacecraft achieves orbit around Jupiter][research_nasa_s_juno_2016]
 - [Optimal stabilization of small spacecraft angular motion in...][research_zabolotnov_lobankov_2016]
 - [Orbital objects detection algorithm using faint streaks][research_tagawa_yanagisawa_2016]
+- [Rover-to-Orbiter Communication in Mars Taking Advantage of...][research_li_kao_2016]
+- [Space, the New Domain Space Operations and Chinese Military...][research_pollpeter_2016]
 - [Thermal conductivity of surficial lunar regolith estimated...][research_yu_fa_2016]
 - [Atmospheric trajectory and heliocentric orbit of the Ejby...][research_spurny_borovicka_2017]
 - [Attitude pointing schemes and spacecraft configurations for...][research_xu_liang_2017]
@@ -1933,12 +1976,18 @@ and which applies here to completed ones.
 - [Impacts of the Angular Dependence of the Solar Diffuser BRDF...][research_lei_xiong_2017]
 - [Improved orbit prediction of LEO objects with calibrated...][research_chen_du_2017]
 - [Iterative model and trajectory refinement for orbital...][research_hudson_gupta_2017]
+- [Mars orbiter dip][research_mars_orbiter_2017]
 - [On-Orbit Characterization of the MODIS SDSM Screen for Solar...][research_chen_xiong_2017]
+- [Regularization of Mars Reconnaissance Orbiter CRISM...][research_kreisch_osullivan_2017]
+- [SWIR Albedo Mapping of Mars Using Mars Orbiter Mission Data][research_singh_mishra_2017]
+- [The seasonal and spatial distribution of textured dust storms...][research_kulowski_wang_2017]
+- [Verification of Space Weather Forecasts Issued by the Met...][research_sharpe_murray_2017]
 - ['Orbital volume restoration rate after orbital fracture' a...][research_wi_sung_2017]
 - [Artificial Neural Network-Based Machine Learning Approach to...][research_peng_bai_2018_c]
 - [Exploring Capability of Support Vector Machine for Improving...][research_peng_bai_2018_b]
 - [Hybrid Orbit Propagator for Small Spacecraft Using...][research_sellamuthu_sharma_2018]
 - [Improving orbit prediction accuracy through supervised...][research_peng_bai_2018]
+- [Mechanically Reconfigurable Single-Arm Spiral Antenna Array...][research_li_zhou_2018]
 - [Mechanics and dynamics of orbital drilling operations][research_ozturk_kilic_2018]
 - [Mineral composition of the Martian Gale and Nili Fossae...][research_xue_yang_2018]
 - [On-orbit frequency identification of spacecraft based on...][research_xie_liu_2018]
@@ -1952,11 +2001,14 @@ and which applies here to completed ones.
 - [Stable orbital transfer of partial space elevator by tether...][research_shi_zhu_2018]
 - [Stereo topographic mapping concept for the upcoming...][research_polyansky_zhukov_2018]
 - [TASK`S SOLUTION OF SATELLITE COMMUNICATION SYSTEM`S OPTIMAL...][research_zinnurov_kovalsky_2018]
+- [The Global Oscillation Network Group Facility-An Example of...][research_hill_2018]
+- [Theoretical scaling law of coronal magnetic field and...][research_huang_song_2018]
 - [Tiny spacecraft are breaking out of Earth's orbit][research_hand_2018]
 - [Understanding the origin of methane on Mars through isotopic...][research_etiope_2018]
 - [A Brave New World Using the Outer Space Treaty to Design...][research_saboorian_2019]
 - [Ambiguous Orbits in Elliptic Chief Spacecraft Relative Orbit...][research_wang_butcher_2019]
 - [Analyzing the Legality of Military Use of Resources Extracted...][research_bharadwaj_iyer_2019]
+- [China's Military Space Strategy A Dialectical Materialism...][research_china_s_military_2019]
 - [Comparative evaluation of three machine learning algorithms...][research_peng_bai_2019_b]
 - [Exploiting symmetries in mathematical programming via orbital...][research_dias_liberti_2019]
 - [GNC and robotics for on orbit servicing with simulated vision...][research_rivolta_lunghi_2019]
@@ -1974,19 +2026,26 @@ and which applies here to completed ones.
 - [Space event detection method based on cluster analysis of...][research_li_chen_2019]
 - [Study of 3U Mars Airplane released from Mars orbiter][research_taniguchi_nada_2019]
 - [Validation on Solar-array Drive Assembly of GEO-KOMPSAT-2A...][research_park_park_2019]
+- [A Historical Approach to the U.S. Space Strategy Issues and...][research_lee_sohn_2020]
 - [Applied Aspects of Optimization of Orbital Structures of...][research_volkov_kulvits_2020]
 - [Improvement of the Accuracy of the Perturbed Orbital Elements...][research_ibrahim_2020]
 - [Investigation of the State Vectors and Prediction of the...][research_saleh_abdulla_2020]
+- [Mars's Red 575-625 nm Seasonal Approximate Reflectivity...][research_robbins_2020]
 - [Novel quantum key distribution with shift operations based on...][research_lai_pieprzyk_2020]
 - [ORBITAL SATELLITE CONSTELLATIONS AND THE GROWING THREAT OF...][research_bernat_2020]
+- [Patterns of surface albedo changes from Mars Reconnaissance...][research_wellington_bell_2020]
 - [Recovery and Validation of Venus Neutral Atmospheric Profiles...][research_withers_hensley_2020]
 - [Revolutionizing Space Warfare "Power Star" Space Solar Power...][research_brown_2020]
 - [Spacecraft in Orbit Fault Prediction Based on Deep Machine...][research_zhang_wang_2020]
 - [Stochastic analysis of a preemptive retrial queue with...][research_gao_wang_2020]
+- [Study on the Optimal Access Orbiter Selection Algorithm in...][research_wan_zhan_2020]
 - [The Žďár nad Sázavou meteorite fall Fireball trajectory...][research_spurny_borovicka_2020]
 - [An Ultra-low Altitude Lunar Orbiter][research_jhoti_paige_2021]
+- [Analysis of Space Operations Concept in Advanced Space...][research_cho_bae_2021]
 - [Analytic Maneuver Sequence for Safety Ellipse...][research_shuster_geller_2021]
 - [Approximate analytic solution of nonlinear Riccati spacecraft...][research_ogundele_2021]
+- [Calibration of Mars Reconnaissance Orbiter Shallow Radar...][research_campbell_morgan_2021]
+- [Duffers Drift and Space Operations][research_duffers_drift_2021]
 - [Effects of Orbital Perturbations on Deployment Dynamics of...][research_bai_jiang_2021]
 - [Micro Satellite Orbital Boost by Electrodynamic Tethers][research_yao_sands_2021]
 - [Orbital Floor Endoscopy 1][research_miloro_2021_b]
@@ -1995,10 +2054,15 @@ and which applies here to completed ones.
 - [Performance Assessment of Discrete-Event Drag Modulation for...][research_fawley_putnam_2021]
 - [Spontaneous Orbital Hematoma Induced by VALSAVA Maneuver][research_inzale_jaafari_2021]
 - [Survivability assessment of spacecraft impacted by orbit...][research_hu_pang_2021]
+- [The Mars Orbiter Subsurface Investigation Radar MOSIR on...][research_fan_lyu_2021]
 - [The Mercury Gamma-Ray and Neutron Spectrometer MGNS Onboard...][research_mitrofanov_kozyrev_2021]
 - [Trajectory and orbit of the unique carbonaceous meteorite...][research_borovicka_bettonvil_2021]
 - [Two-timescale magnetic attitude control of Low-Earth-Orbit...][research_avanzini_deangelis_2021]
 - [Validation of FORMOSAT-7/COSMIC2 IVM ion density and TGRS...][research_chou_braun_2021]
+- [Mars Reconnaissance Orbiter 's Mars Color Imager MARCI A New...][research_robbins_2022]
+- [A Survey of Uncertainty Quantification in Machine Learning...][research_siddique_mahmud_2022]
+- [Adaptive attitude maneuver control for satellite with large...][research_meng_liang_2022]
+- [Beamforming in the Generation of Range-Time-Dependent Orbital...][research_ge_xie_2022]
 - [Calibration of NOMAD on ESA's ExoMars Trace Gas Orbiter Part...][research_thomas_aoki_2022]
 - [Calibration of NOMAD on ExoMars Trace Gas Orbiter Part 3...][research_cruzmermy_schmidt_2022]
 - [Compositional Maps of the Lunar Polar Regions Derived from...][research_lemelin_lucey_2022]
@@ -2011,26 +2075,37 @@ and which applies here to completed ones.
 - [Programmable unitary operations for orbital angular momentum...][research_li_feng_2022]
 - [Reconstruction of Orbital Wall by Using Hybrid Manufacturing...][research_pascu_balc_2022]
 - [Scalable routing in low-Earth orbit satellite constellations...][research_zhang_yeung_2022]
+- [Simulation of robotic space operations with minimum base...][research_basana_branz_2022]
 - [Spacecraft Crash Changes Asteroid Orbit by 32 Minutes][research_schirber_2022]
+- [Surface Kinetic Temperatures and Nontronite Single Scattering...][research_he_arvidson_2022]
+- [Mars Global Surveyor 's Mars Orbiter Camera MOC Wide-Angle...][research_robbins_2023_b]
+- [Mars Global Surveyor 's Mars Orbiter Camera MOC Wide-Angle...][research_robbins_2023]
 - [A New View of the Lunar South Pole from the Lunar Orbiter...][research_barker_mazarico_2023]
 - [Autonomous Guidance Between Quasiperiodic Orbits in Cislunar...][research_federici_scorsoglio_2023]
+- [Broadband orbital angular momentum beam generation based on...][research_zhang_wang_2023]
 - [Dynamics of In-Orbit Spacecraft with Maneuverable Panels...][research_liu_li_2023]
 - [Efficient Trajectory Design for Distant Planetary Orbiters][research_scala_gkolias_2023]
+- [Fully Controlled 6 Meters per Pixel Equatorial Mosaic of Mars...][research_robbins_kirchoff_2023]
 - [Generating Low-Earth Orbit Satellite Attitude Maneuver...][research_yun_2023]
+- [Geometric Calibration of the ESA Mars Express Orbiter High...][research_li_jiang_2023]
 - [Initial Identification of Thrust and Orbit Elements for...][research_zhao_tao_2023]
 - [Manoeuvre planning algorithm for satellite formations using...][research_monterominan_scala_2023]
 - [Multicolor 3D Orbital Tracking][research_mieskes_ploetz_2023]
 - [Multi-objective routing algorithms for low-earth orbit...][research_xie_huang_2023]
+- [Observations of North Polar Region of Mars from the Mars...][research_singh_chauhan_2023]
+- [Open-Source Software in Space Operations][research_labreche_mladenov_2023]
 - [Peculiar Orbital Characteristics of Earth Quasi-Satellite...][research_hu_li_2023]
 - [Predictors of Intraoperative Difficulty and Postoperative...][research_govind_demirel_2023]
 - [Preparation of Contingency Trajectory Operation for the Korea...][research_bang_hong_2023]
 - [Rapid Detection and Orbital Parameters' Determination for...][research_sun_sun_2023]
+- [Revisiting Atmospheric Features of Mars Orbiter Laser...][research_caille_maattanen_2023]
 - [Robust precoding design for inter-satellite cooperation-based...][research_robust_precoding_design_2023]
 - [Satellite surveillance and the orbital unconscious][research_lyons_2023]
 - [Secular Orbital Dynamics of Exoplanet Satellite Candidates][research_melnikov_2023]
 - [Solar Radiation Pressure Effects on the Orbital Elements of...][research_ahmedkizzet_2023]
 - [Space traffic management as a necessity for future orbital...][research_marty_bonnal_2023]
 - [The Case for Future Gravity Science Investigations at Saturn...][research_parisi_2023]
+- [Topographical and morphological studies of Valles Marineris...][research_sivasankari_arivazhagan_2023]
 - [Trajectory enhancement of low-earth orbiter thermodynamic...][research_richardson_kahn_2023]
 - [Unknown Low-Earth-Orbital Satellite Detection by...][research_huang_zhang_2023]
 - [A Framework for Rapidly Predicting the Dynamics of Flexible...][research_wu_yan_2024]
@@ -2038,16 +2113,20 @@ and which applies here to completed ones.
 - [A meta-analysis of the efficacy of two-wall orbital...][research_jinhai_yunxiu_2024]
 - [Age estimation and boulder population analysis of the West...][research_nagori_dagar_2024]
 - [An introductory review of swarm technology for spacecraft...][research_asri_zhu_2024]
+- [Concept of operations for increasingly autonomous space...][research_beard_2024]
 - [Correction A Stochastic Drag Model for Improved Uncertainty...][research_palmer_2024_b]
 - [Density-based in-orbit collision risk model valid for any...][research_giudici_gonzalo_2024]
 - [GEO satellite on-orbit refueling and debris removal hybrid...][research_liang_zhi_2024]
+- [High-power mode-programmable orbital angular momentum beam...][research_long_deng_2024]
 - [Imaging in Shadows A Comparison of Craters Observed in...][research_martin_denevi_2024]
 - [Impulsive maneuver strategy for multi-agent orbital...][research_wang_zhang_2024]
+- [Mars Reconnaissance Orbiter Context Camera Updated In-Flight...][research_walter_aye_2024]
 - [Method for evaluating electromagnetic compatibility of fixed...][research_vorona_kopalov_2024]
 - [Neural network-based control for the on-orbit assembly of...][research_pan_wei_2024]
 - [ORBITER Phase-Based Localization of RFID Tags via Circular...][research_bandini_marracci_2024]
 - [On-orbit performance analysis of spinning spacecraft magnetic...][research_porrashermoso_piqueras_2024]
 - [Orbital Facility Location Problem for Satellite Constellation...][research_shimane_gollins_2024]
+- [Recent U.S. Government and Military Space Strategy and...][research_chapman_2024]
 - [Research on Thermal Balance Test and Evaluation Technology of...][research_louyun_2024]
 - [Research on relative reachable domain in target orbit for...][research_li_zhang_2024_d]
 - [Robotic manipulators for in-orbit servicing and active debris...][research_rybus_2024]
@@ -2055,6 +2134,7 @@ and which applies here to completed ones.
 - [Space Machines Uses Siemens Software to Develop Orbital...][research_space_machines_2024]
 - [Spacecraft formation flying orbital control for earth...][research_alzubairi_tameem_2024]
 - [The Challenges and Opportunities of Military Space Activities...][research_malinowska_2024]
+- [The Impact and Consequences of the War in Ukraine on Military...][research_bataille_2024]
 - [The planetary protection strategy of Mars Sample Return's...][research_cataldo_affentranger_2024]
 - [A Multiarc Approach to Detecting Uranus's Normal Modes via...][research_parisi_kim_2025]
 - [A review of module adjustment for space on-orbit assembled...][research_wang_zhang_2025]
@@ -2076,16 +2156,19 @@ and which applies here to completed ones.
 - [Low-Earth-Orbit Packing Implications for Orbit Design and...][research_lifson_arnas_2025]
 - [Low-Energy Endgame Trajectory Design for Callisto Orbiter][research_zhang_yang_2025_b]
 - [METHODS OF A SATELLITE FORMATION ORBITAL MOTION CONTROL BASED...][research_dadashev_2025]
+- [Mars Gravity Field Determination Using Tianwen-1 Orbiter...][research_wang_yan_2025]
 - [Military Space Operations Versus Sustainable Development...][research_malinowska_2025]
 - [On-Orbit Characterization of FY-4B AGRI Calibration...][research_si_wang_2025]
 - [On-orbit measurement method for atomic clocks and temperature...][research_wang_liu_2025]
 - [Optical encryption via four operations of orbital angular...][research_yuan_cong_2025]
 - [Optimization Design of an Airbreathing Satellite Based on...][research_xia_xia_2025]
 - [Optimizing Time-Sensitive Traffic Scheduling in...][research_liu_xiao_2025]
+- [Orbital Photovoltaics for Planetary Sustainability...][research_pasupuleti_2025]
 - [Orbital circuit elements table A novel approach to elementary...][research_tozlu_babacan_2025]
 - [Orbiting solar reflectors a pathway to extended space-based...][research_qaid_celik_2025]
 - [Prediction accuracy of femoral and tibial stress and strain...][research_xu_carman_2025]
 - [Reconstruction of wear debris migration trajectory and...][research_wang_zhang_2025_b]
+- [A physics-informed machine learning for detecting suspicious...][research_karunathilake_abeywardena_2026]
 - [Adaptive Inter-Orbital LEO Satellite THz Communication Under...][research_lyu_guan_2026]
 - [BSTAR Parameter Correction and Improved Orbit Prediction...][research_yao_chen_2026]
 - [Case Study Orbital Improvisation Under Fire -The...][research_chia_2026]
@@ -2100,6 +2183,8 @@ and which applies here to completed ones.
 - [Impulse Maneuver Fly-around Orbit Design Considering Orbital...][research_li_tian_2026]
 - [Intelligent attitude-Orbit coupled control for large flexible...][research_yan_zhang_2026]
 - [Low-Earth-Orbit Satellite Internet of Things Architecture...][research_ying_chen_2026]
+- [Mars Express Orbiter Power Consumption Prediction Based on...][research_qian_chen_2026]
+- [Mars Reconnaissance Orbiter Capabilities in Support of Human...][research_fieseler_shihabi_2026]
 - [Mission Orbit Design for the First-Ever Lunar Far-Side Sample...][research_meng_gao_2026]
 - [Neural network-aided electromagnetic spacecraft formation...][research_biyogonchama_shi_2026]
 - [Orbit maneuver planning of earth observation satellite swarm...][research_sun_wu_2026]
@@ -2109,11 +2194,13 @@ and which applies here to completed ones.
 - [Orbital Power Politics Satellite Bans, Space Militarization...][research_drsyedrizwanhaiderbukhari_maazbinwaheed_2026]
 - [Orbital congestion and satellite broadband competition...][research_doyle_2026]
 - [Output tracking spacecraft attitude-orbit coupled non-affine...][research_sun_shen_2026]
+- [Prediction of Vehicle Aerodynamic Heat State and Analysis of...][research_bian_sun_2026]
 - [Research Progress on Orbit Prediction of LEO Spacecraft Based...][research_han_chen_2026]
 - [Robotic arm on-orbit assembly scheme for origami-derived...][research_meng_wang_2026]
 - [Shape Optimization of Very-Low-Earth-Orbit Satellites for...][research_jiang_zhang_2026]
 - [Space robotics and sustainability integrating physical...][research_maldonadoromo_montesinos_2026]
 - [Spin, orbit, drag, and phase equilibria control of Uranus'...][research_hofmeister_criss_2026]
+- [Sustainability of commercial space operations and the...][research_breda_markova_2026]
 - [Trajectory design for a Titan-Enceladus plume sampling...][research_mateas_sanchez_2026]
 
 ## The Source Base
@@ -2144,14 +2231,81 @@ Both are given.
 
 | Half | Count | Share of dated |
 |---|---|---|
-| Period, 1999 through 2011 | 2,015 | 48.3 percent |
-| Contemporary, 2012 onward | 2,159 | 51.7 percent |
-| Undated | 49 | |
-| **Total research records** | **4,223** | |
+| Period, through 2011 | 3,064 | 55.7 percent |
+| Contemporary, 2012 onward | 2,432 | 44.3 percent |
+| Undated | 56 | |
+| **Total research records** | **5,552** | |
 
-**The period count is 2,015 and the contemporary count is 2,159.** Both are given because a contemporary
+**The period count is 3,064 and the contemporary count is 2,432.** Both are given because a contemporary
 survey lowers the period SHARE while leaving the period COUNT untouched, and reporting the share alone reads
-as a regression when it is the directive working. A further **148** reference works are listed below.
+as a regression when it is the directive working.
+
+**A date is not a measure of primacy and this article reports both.** The technical report servers hold
+original research reports almost exclusively, while a journal index holds originals, reviews and comment
+together, so the report share is the closest available proxy for how much of the base is primary.
+
+| Measure | Count | Share |
+|---|---|---|
+| Technical reports, all eras | 1,116 | 20.1 percent |
+| Technical reports at or before 2011 | 915 | 16.5 percent |
+| Journal and conference records | 4,436 | 79.9 percent |
+
+A further **148** reference works are listed below, and they carry the relations that no journal article
+states because every textbook does.
+
+### What the Equation Pass Promoted, and Which Subjects Are Genuinely Thin
+
+**An equation pass promotes subjects, and the mechanics beneath a relation are not the same literature as the technology above it.**
+The first harvest of this article asked for spaceplanes, power systems, thermal protection and aerobraking.
+It never asked for the second zonal harmonic, the solar aspect angle, the square-cube law or the energy
+state approximation, and every one of those is now a relation this article displays. An audit of the pool
+against the article's own subject list found
+**twenty-four of thirty-seven thin or absent, and two standing at zero while the article displayed them.**
+After three further harvests and a correction to the audit itself, **nineteen remain**, and every one of the
+nineteen is named below with the reason it is thin.
+
+**A subject can be thin for three reasons and a count cannot tell them apart.** Naming which applies is the
+whole of the work.
+
+**The heading is wrong, which is the commonest kind and the only curable one.** The field does not say
+crossrange, it says lateral range and footprint. It does not say equilibrium glide, it says gliding entry
+and cites Eggers and Allen. It did not say beta angle in 1968, it said solar aspect angle and sun incidence.
+Asking again in each field's own words took equilibrium glide from three records to eighteen, crossrange
+from four to eleven and vehicle scaling from nine to twenty-four.
+
+**And the audit's own headings were thin in exactly the same way**, which is worth recording because it is
+the same defect one level up. The first version of the audit tested for the article's vocabulary while the
+harvest asked in the literature's, so a subject could be well supplied and still measure zero.
+**Three of the largest apparent gaps closed on the measuring instrument rather than on the pool.**
+
+**The knowledge is settled and stopped generating papers**, which is not curable and must not be padded. The
+vis-viva relation stands at zero records, the rocket equation at one and Kepler's third law at three, after
+harvests aimed directly at each. **These are not gaps.** They are relations that appear in every
+astrodynamics textbook and in no journal article, because nobody has published on them since the seventeenth
+and nineteenth centuries respectively.
+**The reference works section carries them and that is the correct home.**
+
+**The work was never done**, which is rare and has to be argued and never assumed. Nothing in this article's
+subject list falls into it.
+
+**What remains thin, and which kind each is.**
+
+| Subject | Period | Contemporary | Why |
+|---|---|---|---|
+| Specific orbital energy | 0 | 0 | **Settled.** Every astrodynamics textbook, no journal article |
+| The rocket equation | 0 | 1 | **Settled.** Same, and A331 found the same thing |
+| Kepler and the orbital period | 1 | 2 | **Settled**, and the relation is from 1619 |
+| Energy height | 3 | 0 | **Settled.** The method is named after a 1954 paper and is textbook thereafter |
+| The beta angle, period half | 0 | 8 | **Thin heading, and four harvests failed to cure it.** The period documented the same geometry inside thermal design reports that name neither the angle nor its modern synonyms |
+| Aerobraking corridor control | 1 | 0 | **Thin heading.** The subject is covered at 191 records under aerobraking, periapsis management and density reconstruction |
+| Stagnation heating, contemporary half | 97 | 0 | **Thin heading.** Modern work computes the same quantity and does not cite the correlations by name |
+| Manoeuvre detection, period half | 0 | 20 | **Genuinely modern.** The capability to detect a manoeuvre from the ground is recent |
+| Debris disposal, period half | 4 | 65 | **Genuinely modern.** Disposal became an obligation in this century, having been a courtesy before it |
+| **The X-37 itself, contemporary half** | 11 | 2 | **Classification**, which is this article's subject |
+
+**The last row is the article rather than a footnote to it.** Every other thin subject here has an ordinary
+explanation. The vehicle's own is the only one whose cause is that somebody decided the work should not be
+published.
 
 ### What Counts as Primary Here
 
@@ -2160,6 +2314,11 @@ designed, the Defense Technical Information Center holdings from the same window
 conference papers contemporary with each relation the article uses.
 **The programme's own operational record is not available at any level of primacy**, so the primary base is
 a base for the physics rather than for the vehicle.
+
+**A date and a primacy are different measurements and this article reports both**, because a cutoff
+separates period from contemporary and says nothing whatever about whether a record is an original report or
+a commentary on one. The technical report servers hold originals almost exclusively, so their share is the
+closest available proxy, and it is given in the table above beside the date split rather than instead of it.
 
 ### What the Record Does Not Contain
 
@@ -2321,9 +2480,10 @@ The article computes bounds precisely because none of these exists.
 
 - [X-37 Flight Demonstrator Project Capabilities for Future...][research_danielldumbacher]
 - [Spaceplane Technology and Research STAR][research_redding_jr_1984]
-- [Response The Spaceplane][research_marshall_1986_b]
+- [Response The Spaceplane][research_marshall_1986_c]
 - [NASA and Military Press for a Spaceplane][research_marshall_1986]
-- [The Spaceplane][research_hardin_1986]
+- [The Spaceplane][research_marshall_1986_b]
+- [Hermes Spaceplane in MBB Wind Tunnel][research_hermes_spaceplane_1988]
 - [On the Japanese spaceplane. Perspective on the...][research_maita_1989]
 - [Subjects in aerodynamic design and hypersonics of HOPE...][research_ito_nomoto_1990]
 - [ESA confronts spaceplane dilemmas][research_campbell_1991]
@@ -2333,6 +2493,7 @@ The article computes bounds precisely because none of these exists.
 - [The Spaceplane and the Law A Dream to come True?][research_yan_vonderdunk_1992]
 - [A Summary of the Slush Hydrogen Technology Program for the...][research_mcnelisnancyb_hardyterryl_1995]
 - [Atmospheric Considerations for Skipping Spaceplane...][research_stapleton_galati_1997]
+- [The Hypersonic Revolution. Case Studies in the History of...][research_schwelkart_hallion_1997]
 - [Spaceplane Trajectory Optimization with Vehicle Size Analysis][research_tsuchiya_suzuki_1998]
 - [How X-37 Technology Demonstration Supports Reusable Launch...][research_manleydavidj_cervisirichardt_2000]
 - [Dynamics and Stability and Control Characteristics of the X-37][research_chaudharyashwani_nguyenviet_2001]
@@ -2345,6 +2506,8 @@ The article computes bounds precisely because none of these exists.
 - [Orbital Space Plane OSP Program at Lockheed Martin][research_fordrobert_2003]
 - [Orbital Space Plane Program Status][research_dumbacherdaniell_2003]
 - [Application of Probabilistic Risk Assessment PRA During...][research_rogersjamesh_safiefayssalm_2004]
+- [Development and Testing of a Drogue Parachute System for X-37...][research_whitmorestephena_cobleighbrentr_2004]
+- [Hot Structure Control Surface Progress for X-37 Technology...][research_valentinepg_meyerdavidl_2004]
 - [X-37 Flight Demonstrator Project Capabilities for Future...][research_dumbacherdaniell_2004]
 - [X-37 Flight Demonstrator A Building Block in NASA's Future...][research_jacobsondavid_2004_b]
 - [X-37 Flight Demonstrator A Building Block in NASA's Future...][research_jacobsondavid_2004]
@@ -2364,14 +2527,17 @@ The article computes bounds precisely because none of these exists.
 - [Flight-measured HL-10 lifting body center fin loads and...][research_tangmh_pearsongpe_1971]
 - [Predicted Acoustic and Aerodynamic Noise Environments for the...][research_himelblau_1972]
 - [Predicted Vibration and Shock Environments for the Reusable...][research_himelblau_1972_b]
+- [Development of an external ceramic insulation for the space...][research_ormistont_tanzillira_1973]
 - [Effect of reaction control system jet-flow field interactions...][research_montawj_rauschjr_1973]
 - [Pilot Control of Shuttle Orbiter during Approach and Landing][research_streb_1973]
 - [RCS jet-flow field interaction effects on the aerodynamics of...][research_rauschjr_robergeam_1973]
 - [Shuttle Orbiter Re-Entry Flowfields at High Angle of Attack][research_rochelle_roberts_1973]
+- [Silica RSI for Application to the Shuttle Orbiter][research_forsbergkj_juej_1973]
 - [Thermal performance evaluation of REI panel gaps for Space...][research_brewer_saydah_1973]
 - [Aerodynamic damping and oscillatory stability of a model of a...][research_kilgorera_davenportee_1974]
 - [Architectural advances of the space shuttle orbiter avionics...][research_satterfield_1974]
 - [Impact of Space Shuttle Orbiter Re-Entry on Mesospheric NO][research_stolarski_cicerone_1974]
+- [Heat-Transfer Tests on the Rockwell International Space...][research_carter_kaul_1975]
 - [Low Reynolds number effect on hypersonic lifting body...][research_adams_1975]
 - [Reaction Control System Aerodynamic Interaction Effects on...][research_rausch_roberts_1975]
 - [Results of an investigation of hypersonic viscous interaction...][research_elderdj_1975]
@@ -2393,10 +2559,12 @@ The article computes bounds precisely because none of these exists.
 - [Space Shuttle Orbiter Aerodynamic Development][research_surber_olsen_1978]
 - [The Effects of Residual Carrier on Costas Loop Performance as...][research_simon_1978]
 - [Aerodynamic characteristics of the 140A/B space shuttle...][research_bernotpt_1979]
+- [Heat-Transfer Tests of the NASA/Rockwell International Space...][research_nutt_dommerman_1979]
 - [Lighting Systems for Space Shuttle Orbiter and Spacelab][research_evans_newton_1979]
 - [Space Shuttle Orbiter and Aerodynamic Testing][research_siemers_larson_1979]
 - [Comparison of Space Shuttle Orbiter low-speed static...][research_freemandcjr_spencerbjr_1980]
 - [Material Control and Fracture Control Planning for the Space...][research_ehret_1980]
+- [Orbiter thermal pressure drop characteristics for shuttle...][research_lawingpl_nystromdm_1980]
 - [Designing the Load-measuring System for the Space Shuttle...][research_harting_1981]
 - [Numerical simulation of reentry flow around the Shuttle...][research_licp_1981]
 - [Shuttle Orbiter acoustic fatigue certification testing][research_stevens_1981]
@@ -2483,13 +2651,18 @@ The article computes bounds precisely because none of these exists.
 - [Surface Heating Effects of X-33 Vehicle...][research_palmer_kontinos_1999]
 - [X-33 Hypersonic Boundary Layer Transition][research_berryscotta_horvaththomasj_1999]
 - [Flight Demonstration of X-33 Vehicle Health Management System...][research_schweikhardkeitha_richardswlance_2001]
+- [Fuzzy logic based attitude control of the spacecraft X-38...][research_wu_engelen_2001]
+- [Testing Status of the X-38 Large Parafoil Autonomous GN and C...][research_strahanalan_2001]
 - [Testing the Preliminary X-33 Navigation System][research_lomasjamesj_mitchelldanielw_2001]
 - [Multidisciplinary Analysis of a Lifting Body Launch Vehicle][research_tartabini_wurster_2002]
 - [A Capacitive Sensor for Detection of Water in the NASA Space...][research_amis_naber_2003]
 - [Experimental Hypersonic Aerodynamic Characteristics of the...][research_brauckmangregoryj_scallionwilliami_2003]
+- [System Identification of X-33 Neural Network][research_aggarwalshiv_2003]
+- [Aeroheating and Aerodynamic CFD Validation And Prediction for...][research_loomismarkp_venkatapathyethiraj_2004]
 - [Aerodynamic Yaw Controller for the Space Shuttle Orbiter][research_scallion_2005]
 - [BLIMPK/Streamline Surface Catalytic Heating Predictions on...][research_marichalarjeremiahj_rochellewilliamc_2006]
 - [Boundary Layer/Streamline Surface Catalytic Heating...][research_marichalar_rochelle_2006]
+- [NONLINEAR ROBUST MODEL PREDICTIVE CONTROL FOR LIFTING BODY...][research_vanoort_chu_2007]
 - [Characteristic model based control of the X-34 reusable...][research_meng_wu_2009]
 - [Noise control in Space Shuttle Orbiter][research_goodman_2010]
 
@@ -2509,13 +2682,26 @@ The article computes bounds precisely because none of these exists.
 - [Command Guidance of Telstar Launch Vehicle][research_evans_myers_1963]
 - [GEMINI LAUNCH VEHICLE ACCEPTANCE SPECIFICATION][research_martincobaltimoremd_1963]
 - [SPACE LAUNCH VEHICLE FULL-SCALE DAMPING TESTS][research_miller_1963]
+- [Feasibility of large launch vehicle recovery][research_milliken_1965]
 - [Piloted Guidance and Control of the Saturn V Launch Vehicle][research_gunderson_hardy_1965]
 - [Determination of launch vehicle trajectory dispersions][research_moch_1966]
+- [Environmental testing of the third stage of the European...][research_environmental_testing_1968]
+- [Launch vehicle mode interaction][research_swaim_1968]
+- [Pitch control of a flexible launch vehicle][research_jenkins_roy_1968]
+- [Prediction of Launch Vehicle Availability using Computer...][research_snyder_lenihan_1968]
 - [Control system synthesis for a launch vehicle with severe...][research_swaim_1969]
+- [Launch Conditions Produced by the Titan III-C Launch Vehicle][research_cesta_mclouth_1969]
+- [A launch vehicle stability analysis using the parameter plane...][research_seltzer_1970_b]
+- [Analog sensitivity design of Saturn V launch vehicle][research_rillings_roy_1970]
 - [Nonlinear analysis of a launch vehicle attitude control system][research_seltzer_1970]
 - [Reduction of Launch Vehicle Injection Errors by Trajectory...][research_rosenbaum_1971]
+- [Subject Index - LAUNCH VEHICLE AND MISSILE LV/M TECHNOLOGY][research_subject_index_1972]
+- [LAUNCH VEHICLE AND MISSILE LV/M TECHNOLOGY SUBJECT INDEX][research_launch_vehicle_1973]
+- [Subject Index - LAUNCH VEHICLE AND MISSILE LV/M TECHNOLOGY][research_subject_index_1973]
+- [Subject Index - LAUNCH VEHICLE AND MISSILE LV/M TECHNOLOGY][research_subject_index_1974]
 - [Determination of optimal trajectory under design constraints...][research_shrivastava_reddy_1976]
 - [Launch vehicle trajectory optimization including rotational...][research_adimurthy_1976]
+- [Firing-tests of a model of the Ariane launch vehicle][research_dordain_1977]
 - [Launch, A Computer Code for Determining Launch Vehicle...][research_thornton_1977]
 - [Trajectory optimization for the Atlas/Centaur launch vehicle][research_brusch_1977]
 - [SUBJECT INDEX LAUNCH VEHICLE AND MISSILE LV/M TECHNOLOGY][research_subject_index_1978]
@@ -2523,69 +2709,126 @@ The article computes bounds precisely because none of these exists.
 - [Large Delta Wings for Earth-to-Orbit Transports][research_macconochie_lemessurier_1980]
 - [The second stage propulsion system for N-launch vehicle][research_kayama_takenaka_1980]
 - [Optimal air-breathing launch vehicle design][research_hattis_1981]
+- [The impact of launch vehicle type and size on development cost][research_koelle_1981]
 - [Flight analysis for a two-stage launch vehicle with a...][research_naftel_powell_1985]
+- [THE LEGALITY OF LAUNCH VEHICLE PASSAGE THROUGH FOREIGN...][research_meredith_1985]
+- [Development tests of LOX/LH2 tank for H-I launch vehicle][research_takamatsu_imagawa_1986]
+- [H-II A new launch vehicle in the 1990's][research_godai_1986]
+- [Launch vehicle evolution - from multistage expendables to...][research_koelle_1986]
+- [A Vibroacoustic Database Management Center for Shuttle and...][research_thomas_1987]
+- [Firing tests of models of several Ariane 4 launch vehicle...][research_lourme_1987]
+- [H-II rocket new Japanese launch vehicle in the 1990s][research_godai_1987]
+- [India's plans for an indigenous launch vehicle still on target][research_rao_1987]
 - [Launch vehicle trajectory optimization][research_adimurthy_1987]
 - [Propulsion and staging considerations for an orbital sortie...][research_stengel_1987]
+- [Assessment of existing and future launch vehicle liquid...][research_stampfl_meyer_1988]
 - [A ring laser gyro based navigator for space launch vehicle...][research_wright_sponnick_1989]
+- [Indian launch vehicle grounded][research_jayaraman_1989]
 - [Dynamic test bed for the on-board computer system of a space...][research_mammen_nair_1990]
+- [H-II launch vehicle development status in terms of vibration...][research_tomioka_kohsetsu_1990]
 - [Optimal explicit guidance of multistage launch vehicle along...][research_sinha_shrivastava_1990]
+- [United States Launch Vehicle Systems][research_krause_1990]
 - [Ascent performance issues of a vertical-takeoff rocket launch...][research_powellrichardw_nafteljc_1991]
 - [Ascent performance of an air-breathing horizontal-takeoff...][research_powell_shaughnessy_1991]
+- [Development status of Japan's new launch vehicle H-II rocket][research_miyazawa_fukushima_1991]
+- [The Delta II launch vehicle][research_meyers_1991]
 - [ATLAS Mission Planner's Guide for the ATLAS Launch Vehicle...][research_generaldynamicscorpsandiegoca_1992]
 - [Errata Finite Element Method for Optimal Guidance of an...][research_hodges_calise_1992]
 - [Finite element method for optimal guidance of an advanced...][research_hodges_bless_1992]
+- [Information systems applied to launch vehicle processing][research_portanova_aaron_1992]
+- [The Aquila launch vehicle][research_flittie_estey_1992]
 - [Optimal explicit terminal guidance for a launch vehicle][research_vittal_bhat_1993]
 - [Rotational motion and guidance system approximations in...][research_luke_1993]
 - [Hybrid approach to near-optimal launch vehicle guidance][research_leung_calise_1994]
+- [Access-to-space Potential future united states launch vehicle...][research_hueter_1995]
 - [Demonstration of the Dynamic Flowgraph Methodology using the...][research_yau_guarro_1995]
+- [H-II LAUNCH VEHICLE][research_shibato_1995]
+- [M-V launch vehicle][research_matsuo_kawaguchi_1995]
 - [Open and closed loop guidance for an airbreathing winged...][research_richard_christophe_1995]
+- [Launch vehicle acoustics. I - Overall levels and spectral...][research_mcinerny_1996]
+- [Lockheed Martin launch vehicle application to small planetary...][research_mccurry_1996]
 - [Nonlinear trajectory tracking guidance with application to a...][research_lu_1996]
 - [Thirteenth Workshop for Computational Fluid Dynamic...][research_williamsrw_1996]
+- [Validation of launch vehicle sonic boom predictions][research_downing_plotkin_1996]
+- [Lessons Learned in Predicting Launch Vehicle Vibroacoustic...][research_tanner_1997]
 - [Space Launch Vehicle Export Policy and The Struggle between...][research_shearer_1997]
+- [98/02419 Effects of launch vehicle emissions in the...][research_98_02419_effects_1998]
 - [Optimally Guided and Controlled Launch Vehicle System Flight...][research_dasgupta_1998]
+- [A cost-engineered launch vehicle for space tourism][research_koelle_1999]
 - [An attitude stability accommodating guidance technique for a...][research_choi_yoon_1999]
+- [VEGA, a small launch vehicle][research_duret_fabrizi_1999]
 - [Vibration Confinement in a Generic Launch Vehicle][research_somanath_pradeep_1999]
+- [Aeroelastic Vehicle Dynamics of a Proposed Delta II 7920-10L...][research_ericsson_pavish_2000]
 - [Guidance and control of a launch vehicle using a stochastic...][research_madeira_riosneto_2000]
+- [Launch Vehicle Atmospheric Flight Loads][research_kabe_2000]
+- [Launch vehicle booster avionics][research_launch_vehicle_2000]
 - [Multiple On-Off Valve Control for a Launch Vehicle Tank...][research_stout_snell_2000]
 - [Performance of Parallel Shooting Method for Closed Loop...][research_juttyk_bhat_2000]
+- [Assessment of launch vehicle advances to enable human mars...][research_miele_wang_2001]
+- [Experimental investigation of the base flow and base pressure...][research_moraes_2001]
 - [Optimization of Launch Vehicle Ascent Trajectories with Path...][research_gath_calise_2001]
 - [Semireusable Launch Vehicle A Next-Generation Launch Vehicle?][research_staniszewski_2001]
 - [Trends and Options in the Disposal of Launch Vehicle Orbital...][research_johnsonnicholasl_2001_b]
 - [Trajectory Optimization for a Multi-Stage Launch Vehicle...][research_roh_kim_2002]
 - [Advanced Iso-Grid Fairing Qualification Test for Minotaur...][research_sanford_higgins_2003]
 - [Evolved expendable launch vehicle system RS-68 main engine...][research_conley_lee_2003]
+- [Expendable launch vehicle revenues increase as industry...][research_expendable_launch_2004]
 - [Generation of Launch Vehicle Abort Trajectories Using a...][research_calise_brandt_2004]
+- [Load Relief Control of H-IIA Launch Vehicle][research_suzuki_2004]
 - [Propulsion System Instability for Concentric Tank-Type Launch...][research_nikolayev_komatsu_2004]
 - [Structural Sizing of a Horizontal Take-Off Launch Vehicle...][research_mccurdydavidr_rochejosephm_2004]
+- [Aerospace launch vehicle control a gain scheduling approach][research_clement_duc_2005]
+- [Duel-Band Infared Imagery of an Atlas 5 Launch Vehicle in...][research_goldberg_2005]
+- [On feasibility of launch vehicle designs][research_miele_wang_2005]
+- [The ROCKOT launch vehicle-the competitive launch solution for...][research_freeborn_kinnersley_2005]
 - [Guidance Law for an Air-Breathing Launch Vehicle Using...][research_brinda_dasgupta_2006]
 - [In-flight control and guidance power for new Ariane 5 ECA...][research_in_flight_control_2006]
 - [Investigation of Passive Control Devices for Potential...][research_howard_hansen_2006]
 - [Range Safety Real-time System for Satellite Launch Vehicle...][research_varaprasad_rao_2006]
+- [Titan Launch Vehicle Ground Test History][research_brower_2006]
 - [Using dual response surfaces to reduce variability in launch...][research_yeniay_unal_2006]
 - [Analytical Approach for Estimating Preliminary Mass of ARES I...][research_aggarwalpravin_2007]
+- [Expendable launch vehicle industry ready for comsat rebound][research_expendable_launch_2007]
 - [Launch Vehicle Autopilot Robustness to Multilinear...][research_lalithambika_dasgupta_2007]
+- [Aerogel insulation applications for liquid hydrogen launch...][research_fesmire_sass_2008]
 - [Designing the Ares I Crew Launch Vehicle Upper Stage Element...][research_otteneile_lylesgarry_2008]
 - [Performance Analysis of Powered Explicit Guidance for...][research_performance_analysis_2008]
+- [U.S. space-launch vehicle technology Viking to space shuttle][research_u_s_space_launch_2008]
 - [48 + billion expendable launch vehicle market][research_48_2009]
+- [Ares I-X Flight Test Vehicle similitude to the Ares I Crew...][research_huebner_smith_2009]
 - [Composite analysis software aids launch vehicle][research_composite_analysis_2009]
 - [Pseudospectral method based trajectory optimization and...][research_xuan_zhang_2009]
 - [Large aperture telescopes for launch with the Ares V launch...][research_lillie_dailey_2010]
 - [Particle swarm optimization of a micro air-launch vehicle...][research_omar_idres_2011]
+- [Proposed private launch vehicle may make use of canceled NASA...][research_proposed_private_2011]
 
+- [Air Force Space Systems Development Program][research_airresearchanddevelopmentcommand_1959]
+- [Classification of Landscape Geometry for Military Purposes][research_kolb_1962]
 - [Carter Space Policy Room to Maneuver][research_carter_space_1978]
+- [Freedom of information, privacy, and official secrecy The...][research_relyea_1980]
+- [Security classification and the secrecy system][research_halperin_1984]
+- [Ariane in the world launch vehicle market][research_deschamps_1985]
+- [A European military space community][research_voute_1986]
+- [Air Force Space Command Action Officer Guide for Reliability...][research_spacecommandpetersonafbco_1988]
 - [French military space policy and European cooperation][research_paolini_1988]
 - [National Space Policy][research_sutton_1988]
 - [Space Doctrine][research_chilcott_1990]
+- [Civil and military space in Europe][research_smith_1994]
 - [Counterspace Operations for Information Dominance][research_lee_1994]
 - [Blueprints for the Future Comparing National Security Space...][research_daehnick_1995]
+- [European cooperation in military space][research_vonkries_1995]
 - [Star Tek-Exploiting the Final Frontier Counterspace...][research_zielinski_worley_1996]
 - [Convergence or Divergence The Relationship Between Space...][research_kwast_1997]
 - [Space Control Policy A Case for 'Reaching Out and Touching'][research_owen_1997]
 - [Space Doctrine for the 21st Century][research_newberry_1997]
 - [United States National Space Policy and Its Implication on...][research_wellman_1997]
 - [Counterspace Operations for Information Dominance][research_lee_1999]
+- [Toward an Air and Space Force Naval Aviation and the...][research_jelonek_1999]
 - [A new era? Military space policy enters the mainstream][research_mclean_2000]
 - [ASAT's Part of a Coherent Space Control Policy][research_krizay_2000]
+- [The End of Secrecy? Military Competitiveness in the Age of...][research_kaspar_2000]
+- [The End of Secrecy? Military Competitiveness in the Age of...][research_kasper_2001]
+- [The Black Arrow Rocket A History of a Satellite Launch...][research_allen_2002]
 - [US Military space policy 1945-92][research_mowthorpe_2002]
 - [Acquisition of National Security Space Programs][research_young_2003]
 - [Agile Combat Support Doctrine and Logistics Officer Training...][research_hall_2003]
@@ -2595,7 +2838,9 @@ The article computes bounds precisely because none of these exists.
 - [The International Development of Space and Its Impact on U.S...][research_hayden_2004]
 - [Air Force Space Doctrine Is It Ready for Weapons in Space?][research_corley_2005]
 - [Effectively Integrating Counterspace Operations - A Challenge...][research_parker_goldizen_2005]
+- [Will China become a military space superpower?][research_liao_2005]
 - [Near Space Should Air Force Space Command Take Control of Its...][research_hall_2006]
+- [Openness versus Secrecy in Scientific Research][research_resnik_2006]
 - [Responsive Space Situation Awareness in 2020][research_teehan_2007]
 - [An Operationally Responsive Space Architecture for 2025][research_atkins_bass_2008]
 - [Fixing the Nation's Space Launch Woes Operationally...][research_peel_2008]
@@ -2606,32 +2851,78 @@ The article computes bounds precisely because none of these exists.
 - [National Security Space Strategy Unclassified Summary][research_departmentofdefensewashingtondc_2011]
 - [Nonlinear Structural Health Monitoring of the Responsive...][research_zagrai_barnes_2011]
 
+- [Co-Apsidal Autonomous Terminal Rendezvous in Mars Orbit][research_tang_1980]
+- [Low earth orbital atomic oxygen simulation for materials...][research_banksbrucea_rutledgesharonk_1989]
+- [A manned maneuvering unit proximity operations planning and...][research_gershzohngaryr_sirkorobertj_1990]
+- [Automated rendezvous and proximity operations][research_flecklinantonfii_1991]
+- [Six degree of freedom simulation system for evaluating...][research_rourkekennethh_tsugawaroyk_1991]
+- [Long Duration Space Materials Exposure LDSE][research_allendavid_schmidtrobert_1992]
+- [Synergistic effects of ultraviolet radiation, thermal...][research_deverjoycea_brucknerericj_1992]
+- [The DSI small satellite launcher][research_nicholss_gibbonsd_1992]
+- [Atomic oxygen erosion considerations for spacecraft materials...][research_whitakerannf_kamenetzkyrachelr_1993]
+- [Maximum-payload trajectories for a laser-propelled launch...][research_humble_pierson_1995]
+- [How the Current View of the Air and Space Environment...][research_anderson_rothstein_1998]
 - [Low-Earth-orbit atomic oxygen erosion of polymer surfaces][research_baird_1998]
+- [Chemical Processes in the Space Environment][research_williams_levandier_1999]
+- [Higher Ground Guidelines for the Air Force's Transition to...][research_lloyd_1999]
+- [Space Environment Network Display SEND][research_jaeger_1999]
+- [Space Environment Network Display SEND Limited Military...][research_alvarex_1999]
 - [Logistics Requirements for Space On-Orbit Servicing OOS][research_dellacamera_waltz_2000]
+- [Natural Hazards of the Space Environment][research_evansstevenw_krossdennisa_2000]
+- [Research Program For Radiation Stability of the Aerospace...][research_briskman_2000]
+- [Space environment effects and satellite design][research_gubby_evans_2002]
 - [Vacuum Ultraviolet Radiation and Atomic Oxygen Durability...][research_deverjoyce_degrohkimk_2002]
+- [Smart Escort Satellite A Modular Solution for On-Orbit...][research_cameron_2003]
 - [Orbit transfer of service vehicle/payload through tether...][research_kumar_yasaka_2004]
+- [Spacecraft Rendezvous on Small Relative Inclination Orbits...][research_williams_2005_b]
+- [Studies of Earth Space Environment and Sudden Disappearances...][research_huang_2005]
 - [History of Space Shuttle Rendezvous and Proximity Operations][research_goodman_2006]
 - [On the concepts of a highly integrated payload suite for use...][research_kraft_collon_2006]
+- [Proximity Operations of Formation-Flying Spacecraft Using an...][research_damico_montenbruck_2006]
+- [Bandit Technologies for Proximity Operations of Teams of...][research_swartwout_2007]
 - [Navigating the Road to Autonomous Orbital Rendezvous][research_woffinden_geller_2007]
 - [Orion Rendezvous, Proximity Operations, and Docking Design...][research_dsouzachristopher_hanakfchad_2007]
 - [Aerojet - AJ10-137 Apollo Service Module Engine][research_boyceclay_2009]
 - [Capabilities of Furlable Solar Sails for Asteroid Proximity...][research_williams_abate_2009]
 - [Flight Testing of Multiple-Spacecraft Control on SPHERES...][research_mccamish_romano_2009]
 - [Scarab/Bandit-D Multi-Vehicle Proximity Operations Using a...][research_swartwout_2009]
+- [Flyaround Orbit Design for Autonomous Rendezvous Based on...][research_yao_xie_2010]
+- [Rendezvous in Space - A Look in on Military Space Power][research_howard_2010]
 - [Atomic Oxygen Fluence Monitor][research_banksbrucea_2011]
+- [Direct Dynamics Simulations of Gas-Phase, Gas-Surface and...][research_hase_2011]
 - [Orion Handling Qualities During ISS Proximity Operations and...][research_stephensjohnpaul_vosgordona_2011]
 
 
 
+- [SPACE SURVEILLANCE SYSTEM][research_navalresearchlabwashingtondc_1962]
+- [PRELIMINARY ORBIT DETERMINATION FOR A MOON SATELLITE FROM...][research_gersten_schwarbein_1963]
+- [Phase-Lock Loop Design for Coherent Angle-Error Detection in...][research_nelson_1963]
+- [RADIO-INTERFEROMETER ANALOG PHASE-CHANNEL COMBINER MOD II FOR...][research_kaufman_weaver_1963]
+- [THE DOPLOC DARK SATELLITE TRACKING SYSTEM][research_debay_richard_1963]
 - [DECAY PREDICTION OF 1963-21 USING U.S. NAVAL SPACE...][research_brescia_ballou_1964]
+- [ELECTRONIC SYSTEMS DIVISION PRECISION ORBIT DETERMINATION...][research_trwspacetechnologylabsredondobeachca_1964]
+- [INITIAL ORBIT DETERMINATION FROM LEAST SQUARES REDUCTION OF...][research_johnston_smith_1964]
+- [ORBIT DETERMINATION BY ANGULAR MEASUREMENTS][research_bell_1964]
+- [TRACE. AEROSPACE ORBIT DETERMINATION PROGRAM][research_mercer_1964]
+- [FILTERING ASPECTS OF ORBIT DETERMINATION][research_mercer_1965]
+- [SATELLITE ORBIT DETERMINATION][research_denham_1965]
 - [Lunar satellite orbit determination by a classical binary...][research_bateman_benezra_1966]
+- [ORBIT DETERMINATION AND EPHEMERIS COMPUTATION. DIGITAL...][research_minka_fein_1966]
+- [EFFECTS OF ATMOSPHERE ROTATION RATE ON ORBITS AND ORBIT...][research_freund_1967]
+- [METHOD OF DOPPLER DATA PROCESSING FOR ORBIT DETERMINATION][research_ialongo_1969]
 - [Orbit Determination from the Satellite A Correction][research_bragailla_1969_b]
 - [Orbit determination from the satellite][research_bragailla_1969]
+- [Preliminary Orbit Determination of Artificial Earth...][research_bryant_edwards_1973]
 - [Accuracy of Orbit Determination from lonospherically...][research_norris_1974]
+- [TRACE Trajectory Analysis and Orbit Determination Program...][research_downs_willardd_1974_b]
+- [TRACE Trajectory Analysis and Orbit Determination Program...][research_downs_willardd_1974]
 - [Dynamical Model Compensation for Near-Earth Satellite Orbit...][research_myers_tapley_1975]
+- [Orbit Determination in the Presence of Unmodeled Accelerations][research_tapley_1975]
 - [Orbit Determination Accuracies Using Satellite-to-Satellite...][research_vonbun_argentiero_1978]
 - [A Simple Method for Evaluating the System Observability in...][research_kawase_tanaka_1979]
 - [Determination of Short-Wavelength Components of the Gravity...][research_rummel_1979]
+- [Geometry, Artificial Satellites, and Orbit Determination][research_taff_1979_b]
+- [On Gauss's Method of Orbit Determination][research_taff_1979]
 - [Photometry of Artificial Satellites Application to the Ground...][research_sorvari_1979]
 - [Results of Geos 3/ATS 6 Satellite-to-Satellite Tracking Orbit...][research_argentiero_schmid_1979]
 - [Satellite-to-Satellite Tracking Orbit Determination][research_fang_1979]
@@ -2640,6 +2931,8 @@ The article computes bounds precisely because none of these exists.
 - [Determination of the geopotential from satellite-to-satellite...][research_douglas_goad_1980]
 - [Millstone Hill Radar Satellite Tracking System][research_hauser_1981]
 - [Orbit Determination and Prediction Methods for...][research_graham_vigneron_1981]
+- [The Resurrection of Laplace's Method of Initial Orbit...][research_taff_1983]
+- [Angles-Only, Ground-Based, Initial Orbit Determination][research_taff_randall_1984]
 - [Precise orbit determination of the satellite "Starlette" with...][research_hemiaofu_1984]
 - [Orbit determination and European Station Positioning from...][research_wakker_ambrosius_1985_b]
 - [Orbit determination for ISRO satellite missions][research_rao_sinha_1985]
@@ -2656,8 +2949,10 @@ The article computes bounds precisely because none of these exists.
 - [Relativistic effects for near-earth satellite orbit...][research_huang_ries_1990]
 - [Comparison of TOPEX/Poseidon orbit determination solutions...][research_dollc_mistrettag_1993]
 - [Parallelization of the Naval Space Surveillance Satellite...][research_phipps_warrene_1993]
+- [Erratum-Modeling Radiation Forces Acting on Topex/Poseidon...][research_marshall_luthcke_1994_b]
 - [Improved solution accuracy for TDRSS-based TOPEX/Poseidon...][research_dollce_mistrettagd_1994]
 - [Introduction of empirical parameters deduced from the Hill's...][research_cretaux_nouel_1994]
+- [Modeling radiation forces acting on Topex/Poseidon for...][research_marshall_luthcke_1994]
 - [Precision orbit determination of altimetric satellites][research_shumck_riesjohnc_1994]
 - [Proceedings of the Space Surveillance Workshop 12th Held in...][research_schwan_1994]
 - [Orbit determination by four observations][research_kahlkristensen_1995]
@@ -2668,6 +2963,7 @@ The article computes bounds precisely because none of these exists.
 - [Orbit determination of TOPEX/POSEIDON and TDRSS satellites...][research_visser_ambrosius_1997]
 - [Space Surveillance, Asteroids and Comets, and Space Debris...][research_naka_canavan_1997]
 - [Space Surveillance, Asteroids and Comets, and Space Debris...][research_naka_canavan_1997_b]
+- [Orbit Determination from Visual Sightings An Investigation of...][research_dewald_jr_1998]
 - [Tiros satellite orbit determination and analysis][research_givri_1998]
 - [Space Surveillance Network SSN Optical Augmentation SOA][research_andress_1999]
 - [Space Surveillance Network SSN Optical Augmentation SOA...][research_andress_1999_b]
@@ -2711,15 +3007,41 @@ The article computes bounds precisely because none of these exists.
 - [Enhancing Precise Orbit Determination of Compass with...][research_liu_geng_2011]
 - [Kalman Filter-Based Orbit Determination with Dynamic Model...][research_xu_chen_2011]
 
+- [Shielding distribution for anisotropic radiation in low earth...][research_henley_1986]
+- [A mathematical model of the orbital maneuvering vehicle][research_walls_greene_1987]
+- [The contraction of satellite orbits under the influence of...][research_kinghele_walker_1987]
+- [Nickel Hydrogen Low Earth Orbit Life Testing][research_badcock_haag_1988]
+- [Orbital maneuvering vehicle A new capability][research_huber_1988]
+- [The Radiation Dose in a Molniya-Type Orbit][research_blake_cox_1988]
+- [Trajectory analysis for low thrust maneuvers and drag decay...][research_kellywd_1988]
+- [Collision matrix for low earth orbit satellites][research_mcknight_lorenzen_1989]
+- [Differential neutron energy spectra measured on spacecraft in...][research_dudkin_potapov_1990]
+- [Disposal of spacecraft at end of life in geosynchronous orbit][research_chobotov_1990]
+- [Maximum orbit plane change with heat-transfer-rate...][research_lee_hull_1990]
+- [Decay of debris in geostationary transfer orbit][research_janin_1991]
+- [Induced magnetic fields at the surface of Venus inferred from...][research_luhmann_1991]
+- [Large solar proton events and geosynchronous communication...][research_lanzerotti_maurer_1991]
+- [Low earth orbit satellite systems for communications][research_maral_deridder_1991]
+- [Orbital Maneuvering Vehicle OMV plume and plume effects study][research_smithsheldond_1991]
+- [Orbital debris environment for spacecraft in low earth orbit][research_kessler_1991]
+- [Optical property degradation of anodic coatings in the Space...][research_davidkaiae_babelhankw_1992]
+- [Predictions of induced radioactivity for spacecraft in low...][research_armstrong_colborn_1992]
+- [The Energetic Radiation Environment in a Highly Elliptical...][research_blake_1992]
+- [Thermal distortion analysis of an antenna-support truss in...][research_farmer_wahls_1992]
+- [Determining Mars parking orbits that ensure tangential...][research_desai_buglia_1993]
+- [Errata-Low Earth Orbit Simulation and Materials...][research_synowicki_hale_1993]
 - [Evaluation of geostationary orbit determination accuracy by...][research_cot_1993]
 - [Status of the Air Force nickel hydrogen low earth orbit life...][research_house_hill_1993]
 - [Effects of 69 months in low Earth orbit on Kapton antenna...][research_whiteside_kamykowski_1994]
 - [Electrical breakdown currents on large spacecraft in low...][research_vaughn_carruth_1994]
 - [Geostationary Space Launch Vehicles and the U.S. Dilemma][research_clapp_1994]
+- [Long-term variability of electron radiation dose in...][research_koons_gorney_1994]
 - [Removal of orbital debris from low Earth orbit by...][research_cho_1994]
 - [Designing continuous-thrust low-Earth-orbit to...][research_spencer_culp_1995]
 - [Effect of low earth orbit atomic oxygen on spacecraft...][research_reddy_1995]
+- [Maximum Delta-V in the aerogravity assist maneuver][research_elices_1995]
 - [Monte Carlo Analysis of Titan/Transfer Orbit Stage Planetary...][research_bell_ginsburg_1995]
+- [Simple guidance method for single stage to low Earth orbit][research_pamadi_1995]
 - [Space vehicle propulsion systems - Environmental hazards of...][research_bahr_disimile_1995]
 - [Thin film materials exposure to low Earth orbit aboard Space...][research_synowicki_hale_1995]
 - [Spacecraft Interaction with Atmospheric Species in Low Earth...][research_murad_1996]
@@ -2727,50 +3049,72 @@ The article computes bounds precisely because none of these exists.
 - [Geosynchronous Satellite Orbit Determination][research_rudenko_1997]
 - [Optimal Low-Earth-Orbit-Geostationary-Earth-Orbit...][research_kechichian_1997]
 - [The strv 1 microsatellite semes Exploiting the geosynchronous...][research_blott_wells_1997]
+- [A Role for Improved Angular Observations in Geosynchronous...][research_sabol_1998]
 - [Construction criteria for a large space structure in low...][research_shigehara_iwasaki_1998]
 - [Development of a Renewable Atomic Oxygen Sensor for Low Earth...][research_gabriel_osborne_1998]
 - [Low-Thrust Eccentricity-Constrained Orbit Raising][research_kechichian_1998]
+- [Changes in the Optical Properties of Materials Are Observed...][research_jaworskedonalda_1999]
 - [Non-Toxic Orbital Maneuvering System Engine Development][research_greenchristopher_claflinscott_1999]
+- [The solar wind control of electron fluxes in geostationary...][research_popov_degtyarev_1999]
+- [Long-term collision risk prediction for low earth orbit...][research_walker_stokes_2000]
 - [Reactive Probability of Atomic Oxygen with Material Surfaces...][research_lee_chen_2000]
 - [Simplified Analysis of Low-Thrust Orbital Maneuvers][research_pollard_2000]
+- [Solar wind control of spacecraft charging conditions in...][research_degtjarev_popov_2000]
 - [The Effect of Low Earth Orbit Atomic Oxygen Exposure on...][research_connelljohnw_2000]
 - [A Sensitive Technique Using Atomic Force Microscopy to...][research_degrohkimk_banksbrucea_2001]
 - [Improved Angular Observations in Geosynchronous Orbit...][research_sabol_culp_2001]
+- [Neural Network Based Orbit Prediction for a Geostationary...][research_kutay_tuluna_2001]
 - [Capacity provisioning and failure recovery for Low Earth...][research_sun_modiano_2003]
 - [Cycle-Life Evaluation of the 30 Ah Prismatic Li-Ion Secondary...][research_sone_liu_2003]
+- [Laboratory Tests on 110-Volt Solar Arrays in Simulated...][research_cho_ramasamy_2003]
+- [Technique for Escape from Geosynchronous Transfer Orbit Using...][research_coverstone_prussing_2003]
 - [Atomic-Oxygen Undercutting of Protected Polymers in Low Earth...][research_banks_snyder_2004]
+- [Geostationary Orbit Transfers Using Solar Electric Propulsion...][research_kluever_2004]
 - [Precise Orbit Determination During Transfer Orbit Phase of...][research_subramanian_sonney_2004]
 - [Near-Optimal Solar-Sail Orbit-Raising from Low Earth Orbit][research_mengali_quarta_2005]
+- [Optical Dynamic Assignment for Low Earth Orbit Satellite...][research_melin_erwin_2005]
 - [Degradation Testing of Spacecraft Materials for Long Flights...][research_novikov_chernik_2006]
 - [Degradation of the Adhesive Properties of MD-944 Diode Tape...][research_albynk_finckenorm_2006]
 - [Interaction Potential between Atomic Oxygen and Polymer...][research_chen_lee_2006]
 - [Low Earth orbit satellite navigation errors and vertical...][research_garciafernandez_montenbruck_2006]
 - [Low-Cost Launch of Payloads to Low Earth Orbit][research_burton_brown_2006]
+- [Orbital Maneuvering With Spinning Electrodynamic Tethers][research_pearson_levin_2006]
 - [Propulsion Requirements for Drag-Free Operation of Spacecraft...][research_rock_blandino_2006]
 - [The Disposal of Spacecraft and Launch Vehicle Stages in Low...][research_johnsonnicholasl_2006]
 - [A Method of Short-arc Orbit Determination for the Transfer...][research_liu_zhang_2007]
 - [Drag Sail for End-of-Life Disposal from Low Earth Orbit][research_roberts_harkness_2007]
+- [End-to-End Analysis of Solar-Electric-Propulsion Earth Orbit...][research_bonin_kaya_2007]
 - [The Disposal of Spacecraft and Launch Vehicle Stages in Low...][research_johnsonnicholasl_2007]
 - [ISS Charging Hazards and Low Earth Orbit Space Weather Effects][research_minowjoseph_parkerl_2008]
 - [Orbit Determination Accuracy Improvement for Geostationary...][research_hwang_lee_2008]
 - [Atomic Oxygen Concentrators for Material Exposure...][research_tagawa_doi_2009]
+- [New Radiation Dose Model for Geostationary Orbit][research_bhat_2009]
 - [Guidance and Navigation for Rendezvous and Proximity...][research_barbeebrentwilliam_carpenterjrussell_2010]
+- [Minimum-time Earth-Moon and Moon-Earth orbital maneuvers...][research_fazelzadeh_varzandian_2010]
 - [Numerical and Experimental Analysis of Solar Intrusion for...][research_liu_cheng_2010]
 - [Robust orbital transfer for low earth orbit spacecraft with...][research_yang_gao_2010]
 - [Transfer Orbit Design and Control Based on Forbes' Assumption][research_zheng_yuan_2010]
+- [A study of regional-scale variability of in situ and...][research_fishman_silverman_2011]
 - [Error Analysis of Orbit Determination for the Geostationary...][research_hajiyev_ata_2011]
 - [Low Earth orbit satellite-to-ground optical scintillation...][research_yura_kozlowski_2011]
 - [Measurement of Tracking Accuracy of Antenna Using Precise...][research_wang_zheng_2011]
 - [On The Optimal Spacecraft Fuel Consumption in Low Earth Orbit][research_lafflitto_sultan_2011]
+- [Spatial and Temporal Sampling of Polar Regions from...][research_trishchenko_garand_2011]
 
+- [Aeroassisted manned transfer vehicle TAXI for advanced Mars...][research_aeroassisted_manned_1987]
+- [Electron and vibrational energy conservation equations for...][research_koura_1987]
+- [Optimal trajectories for aeroassisted, coplanar orbital...][research_mielea_basapurvk_1987]
 - [Optimal trajectories for aeroassisted, noncoplanar orbital...][research_miele_basapur_1987]
+- [Optimal trajectories for aeroassisted, noncoplanar orbital...][research_mielea_measekd_1987]
 - [The Aeroassist Flight Experiment][research_walberggd_siemerspmiii_1987]
 - [Aeroassisted orbit transfer vehicle trajectory analysis][research_braunrobertd_suitwilliamt_1988]
 - [Effect of rotating earth for analysis of aeroassisted orbital...][research_ikawa_1988]
+- [Nearly-grazing optimal trajectories for noncoplanar...][research_mielea_measekd_1988]
 - [Optimal trajectories for LEO-to-LEO aeroassisted orbital...][research_miele_lee_1988]
 - [Aeroassisted orbital maneuvering using Lyapunov optimal...][research_lee_grantham_1989]
 - [Optimal aeroassisted coplanar orbital transfer using an...][research_halyonesim_taylordeborahb_1989]
 - [Aeroassisted transfer between elliptical orbits using lift...][research_mishne_melamed_1990]
+- [Approximate optimal atmospheric guidance law for aeroassisted...][research_speyer_crues_1990]
 - [Fuel-optimal trajectories for aeroassisted coplanar orbital...][research_naidu_hibey_1990]
 - [Gamma guidance of trajectories for coplanar, aeroassisted...][research_mielea_wangt_1990]
 - [Lunar/Mars earth return aerocapture heating constraint][research_cuthbertpa_tiggesma_1990]
@@ -2783,13 +3127,17 @@ The article computes bounds precisely because none of these exists.
 - [Flight stagnation-point heating calculations on Aeroassist...][research_hamilton_gupta_1991]
 - [Fuel-optimal trajectories of aeroassisted orbital transfer...][research_naidu_1991]
 - [Minimum fuel coplanar aeroassisted orbital transfer using...][research_shiyunyuan_youngdh_1991]
+- [Optimal aeroassisted guidance using Loh's term approximations][research_mceneaney_1991]
+- [Optimal aeroassisted intercept trajectories at hyperbolic...][research_gilbert_howe_1991]
 - [Properties of the optimal trajectories for coplanar...][research_miele_wang_1991]
 - [Rarefied Gas Dynamics in Relation to Aeroassisted Orbital...][research_abe_1991]
+- [Earth aerobraking strategies for manned return from Mars][research_braun_powell_1992]
 - [Gamma guidance of trajectories for coplanar, aeroassisted...][research_miele_wang_1992]
 - [Minimum-time aerobraking maneuver at constant altitude][research_chern_yang_1992]
 - [Online Guidance and Control of a Spacecraft for an...][research_albert_glumineau_1992]
 - [Optimal Trajectories for Atmospheric Flights of an...][research_ishimoto_1992]
 - [Physiologically constrained aerocapture for manned Mars...][research_lynejamesevans_1992]
+- [Predictor-corrector guidance algorithm for use in high-energy...][research_braun_powell_1992_b]
 - [Adaptive Control of an Aerospace Vehicle during an...][research_guglielmi_lecarpentier_1993]
 - [Aerobraking technology studies][research_eldredcharlesh_1993]
 - [Beyo9nd Aerobraking Designing the Magellan Global Gravity...][research_lyonsdt_sjogrenw_1993]
@@ -2805,16 +3153,19 @@ The article computes bounds precisely because none of these exists.
 - [Hybrid near-optimal aeroassisted orbit transfer plane change...][research_caliseanthonyj_duckemangregorya_1994]
 - [Near-wake structure for a generic configuration of...][research_dogra_moss_1994]
 - [Optimal Multi-Criteria Aeroassisted Orbital Transfer...][research_jaensch_well_1994]
+- [Simulated rarefied aerodynamics of the Magellan spacecraft...][research_haas_schmitt_1994]
 - [Aerobraking tethers for the exploration of the solar system][research_longuski_puigsuari_1995_b]
 - [Aerobraking the Magellan spacecraft in Venus orbit][research_doody_1995]
 - [Controllability and optimization in aeroassisted orbital...][research_andiarti_moog_1995]
 - [Effects of Air Viscosity on Optimal Trajectories of...][research_suzuki_kusaki_1995]
 - [Evaluation of optimal-guidance algorithm for aeroassisted...][research_melamed_calise_1995]
 - [Examination of a Practical Aerobraking Guidance Algorithm][research_evansstevenw_dukemangrega_1995]
+- [Fuel-optimal bank-angle control for lunar-return aerocapture][research_meyer_silverberg_1995]
 - [Hybrid Near-Optimal Atmospheric Guidance for Aeroassisted...][research_mcfarland_calise_1995]
 - [Neighboring optimal trajectories for aeroassisted orbital...][research_charalambous_naidu_1995]
 - [Optimal guidance of aeroassisted transfer vehicles based on...][research_calise_melamed_1995]
 - [Optimal mass for aerobraking tethers][research_longuski_puigsuari_1995]
+- [Robust roll modulation guidance for aeroassisted Mars mission][research_thorp_pierson_1995]
 - [The Magellan Venus mapping mission Aerobraking operations][research_lyons_saunders_1995]
 - [Aeroassisted orbital transfer Guidance and control strategies][research_sasiadek_1996]
 - [Explicit guidance for aeroassisted orbital plane change][research_ma_1996]
@@ -2822,17 +3173,27 @@ The article computes bounds precisely because none of these exists.
 - [Robust predictor-corrector guidance for aeroassisted orbital...][research_miele_wang_1996]
 - [Variational solutions for the heat-rate-limited aeroassisted...][research_seywald_1996]
 - [Approximate Optimal Planar Guidance of an Aeroassisted Space...][research_mishne_idan_1997]
+- [Global Minimum Mass for Aerobraking Tethers][research_tragesser_longuski_1997]
+- [Optimal Mass Flexible Tethers for Aerobraking Maneuvers][research_puigsuari_1997]
+- [Planar Aeroassisted Attainability Domain][research_guelman_1997]
 - [Numerical Optimization Study of Aeroassisted Orbital Transfer][research_zimmermann_calise_1998]
+- [Three-Dimensional Hinged-Rod Model for Elastic Aerobraking...][research_biswell_puigsuari_1998]
 - [Characterization of the optimal mass problem for aerobraking...][research_longuski_tragesser_1999]
+- [Inverse Simulation of Aeroassisted Orbit Plane Change of a...][research_dedivitiis_1999]
+- [Mars Global Surveyor aerobraking Atmospheric trends and model...][research_bougher_keating_1999]
 - [Mars Global Surveyor Aerobraking Mission Overview][research_lyons_beerer_1999]
 - [Optimal Aeroassisted Orbital Interception][research_horie_conway_1999]
+- [A comparison of MGS Phase 1 aerobraking radio occultation...][research_joshi_haberle_2000]
 - [Analysis of Junction Conditions in Optimal Aeroassisted...][research_park_2000]
+- [Mars Global Surveyor Thermal Emission Spectrometer TES...][research_conrath_pearl_2000]
 - [Numerical Computation of Optimal Trajectories for Coplanar...][research_baumann_oberle_2000]
 - [Thrust Limited Coplanar Aeroassisted Orbital Transfer][research_baumann_2001]
 - [Analysis of Tether Aerobraking Maneuvers Using a Lifting...][research_biswell_puigsuari_2002]
 - [Application of Accelerometer Data to Mars Odyssey Aerobraking...][research_tolsonrh_keatinggm_2002]
 - [Application of Horizon Sensor Measurements in Kalman...][research_calhoun_adhami_2002]
+- [Approaches to Autonomous Aerobraking at Mars][research_hanna_toison_2002]
 - [Autonomous Aerobraking at Mars][research_hannajilll_tolsonrobert_2002]
+- [Development of a Monte Carlo Mars-Gram Model for 2001 Mars...][research_dwyer_toison_2002]
 - [Explicit Guidance of Aeroassisted Orbital Transfer Using...][research_kuo_liu_2002]
 - [Mars Reconnaissance Orbiter aerobraking reference trajectory][research_lyonsdt_2002]
 - [Numerical optimization study of multiple-pass aeroassisted...][research_rao_tang_2002]
@@ -2840,20 +3201,37 @@ The article computes bounds precisely because none of these exists.
 - [Atmospheric Models for Aerocapture][research_justuscg_duvalaleta_2003]
 - [Nondimensional Analysis of Reaction-Wheel Control for...][research_johnson_longuski_2003]
 - [Orbit Transfers to Lower Altitude Orbits Using Aerobraking][research_woo_coverstone_2003]
+- [Pitch Control During Autonomous Aerobraking for Near-Term...][research_johnson_longuski_2003_b]
 - [Aerocapture Guidance Performance for the Neptune Orbiter][research_masciarellijamesp_westhellecarlosh_2004]
 - [Atmospheric Models for Aerocapture][research_justuscg_duvallaletal_2004]
 - [Energy Accommodation in Hyperthermal Gas-Surface Collisions...][research_minton_tagawa_2004]
+- [Optimal Low-Thrust Trajectories Combined with an Aeroassist...][research_trask_coverstone_2004]
+- [Six-Degree-of-Freedom Modeling of Semi-Autonomous Attitude...][research_johnson_longuski_2004]
+- [2001 Mars Odyssey Aerobraking][research_smith_bell_2005]
+- [Aerodynamic Safing Approach for the 2001 Mars Odyssey...][research_chapel_johnson_2005]
+- [Application of Accelerometer Data to Mars Odyssey Aerobraking...][research_tolson_dwyer_2005]
 - [Atmospheric Models for Mars Aerocapture][research_justuscg_duvallaleta_2005_b]
+- [Development and Evaluation of an Operational Aerobraking...][research_tartabini_munk_2005]
 - [GLOBAL REFERENCE ATMOSPHERIC MODELS FOR AEROASSIST...][research_duvallaleta_justuscg_2005]
 - [Mars Aerocapture and Validation of Mars-GRAM with TES Data][research_justuscg_duvallaleta_2005]
 - [Optimization out-of-orbit plane changes using aeroassisted...][research_abdelsalam_2005]
+- [Plume Modeling and Application to Mars 2001 Odyssey...][research_chavis_wilmoth_2005]
+- [Trajectory and Attitude Simulation for Aerocapture and...][research_kumar_tewari_2005]
+- [Mars Global Surveyor and Mars Odyssey Accelerometer...][research_withers_2006]
+- [Mean and gravity wave structures and variability in the Mars...][research_fritts_wang_2006]
+- [Nonmigrating tides inferred from the Mars Odyssey and Mars...][research_wang_fritts_2006]
+- [Trajectory and Attitude Simulation for Mars Aerocapture and...][research_kumar_tewari_2006]
 - [Aerobraking Cost and Risk Decisions][research_spencer_tolson_2007]
+- [Application of Acclerometer Data to Atmospheric Modeling...][research_tolson_keating_2007]
+- [Assimilation of thermal emission spectrometer atmospheric...][research_lewis_read_2007]
+- [Atmospheric Density During the Aerobraking of Mars Odyssey...][research_mazarico_zuber_2007]
 - [Mars Reconnaissance Orbiter Aerobraking Daily Operations and...][research_longstaciam_youtunghan_2007]
 - [Mars Reconnaissance Orbiter Operational Aerobraking Phase...][research_princejilll_striepescotta_2007]
 - [Nonplanar LEO-LEO aeroassisted space rendezvous][research_chen_yang_2007]
 - [Optimization method for mission analysis of aeroassisted...][research_berend_bertrand_2007]
 - [Aeroassisted orbital maneuvering with variable structure...][research_rozanov_guelman_2008]
 - [Atmospheric Modeling Using Accelerometer Data During Mars...][research_tolson_bemis_2008]
+- [Mars Aerobraking Spacecraft State Estimation by Processing...][research_jah_lisano_2008]
 - [Mars Reconnaissance Orbiter Aerobraking Navigation Operation][research_longstaciam_youtunghan_2008]
 - [Topographic connections with density waves in Mars'...][research_moudden_forbes_2008]
 - [Autonomous Aerobraking Using Thermal Response Surface Analysis][research_prince_dec_2009]
@@ -2864,28 +3242,40 @@ The article computes bounds precisely because none of these exists.
 - [Simulation and Control about Arrival and Aerobraking on...][research_liu_liu_2011]
 - [VENUS EXPRESS AEROBRAKING][research_valserra_bonnamy_2011]
 
+- [On-Orbit Frequency Stability Analysis of the GPS NAVSTAR 8...][research_buisson_largay_1987]
+- [Effect of signal multipath errors at DMA global positioning...][research_evans_carr_1989]
+- [Sentinel Satellite Positional Precision Derived from the...][research_crombie_1989]
+- [Personnel launch system autoland development study][research_bossija_langehoughma_1991]
+- [SALT Orbit Determination Covariance Analysis Using GPS...][research_larson_pogorele_1991]
+- [TALONS 95 GHz radar sensor for autonomous landing guidance][research_koester_vaillancourt_1992]
 - [Helicopter approach capability using the differential global...][research_kaufmanndavidn_1993]
 - [Helicopter Approach Capability Using the Differential Global...][research_kaufmanndavidn_1994]
+- [Improved GPS solar radiation pressure modeling for precise...][research_vigue_lichten_1994]
 - [GPS satellite-to-satellite tracking for TOPEX/Poseidon...][research_schwintzer_kang_1995]
 - [Final Report, Methodology Investigation, Global Positioning...][research_martin_1996]
+- [ILARTS Imaging Sensor for Day/Night Aircraft Approach and...][research_lowrance_smith_1996]
 - [Modeling GPS satellite attitude variation for precise orbit...][research_kuang_rim_1996]
 - [Application of the GPS system for preliminary satellite orbit...][research_chiaradia_dasilvafernandes_1997]
 - [Cycle Ambiguity Estimation for Aircraft Precision Landing...][research_pervan_parkinson_1997]
 - [Satellite-Based Guidance for Precision Approach and Landing...][research_satkunanathan_murphy_1998]
 - [Optical guidance for autonomous landing of spacecraft][research_miso_hashimoto_1999]
 - [Test Results for an Off-the-Shelf GPS/INS During Approach and...][research_childersdave_gelderlooshendrik_2001]
+- [Effect of the assumption of circular satellite orbit on the...][research_jiang_2002]
 - [Satellite Orbit Determination Using a Single-Channel Global...][research_psiaki_2002]
 - [Adaptive Critic Neural Network-Based Terminal Area Energy...][research_granthamkatie_2003]
+- [Design, Development and Testing of the Miniature Autonomous...][research_wagenknechtj_fredricksons_2003]
 - [Fuzzy Logic Trajectory Design and Guidance for Terminal Area...][research_burchettbradley_2003]
 - [GPS-Based Precision Orbit Determination for a New Era of...][research_scottbluthcke_daviddrowlands_2003]
 - [Laser-Based Relative Navigation and Guidance for Space...][research_clarkfredd_speharpetert_2003]
 - [Satellite orbit determination using triple-differenced GPS...][research_byun_2003]
 - [Single frequency GPS measurements in real-time artificial...][research_chiaradia_kuga_2003]
+- [Fuzzy Logic Trajectory Design and Guidance for Terminal Area...][research_burchett_2004]
 - [ORBIT DETERMINATION OF GPS AND KOREASAT 2 SATELLITE USING...][research_lee_lim_2004]
 - [APPLICABLE TRACKING DATA ARCS FOR NORAD TLE ORBIT...][research_lee_2005]
 - [Determination of non-gravitational accelerations from GPS...][research_vandenijssel_visser_2005]
 - [Orbit Determination of Satellite on the Middle-High Earth...][research_liuhaiying_wanghuinan_2005]
 - [Monitoring Global Positioning System Satellite Orbit Errors...][research_lee_pullen_2006]
+- [ON THE DESIGN OF A FLATNESS-BASED GUIDANCE ALGORITHM FOR THE...][research_morio_falcoz_2007]
 - [Multi-structural estimation of an integrated navigation...][research_pogorelov_2008]
 - [Application of information criteria to control the...][research_pogorelov_2009]
 - [Combining Enhanced and Synthetic Vision for Autonomous...][research_korn_schmerwitz_2009]
@@ -2896,22 +3286,44 @@ The article computes bounds precisely because none of these exists.
 - [FUZZY LOGIC BASED AUTONOMOUS LANDING SYSTEM FOR UNMANNED...][research_kaynak_2010]
 - [Fuzzy Logic Based Approach to Design of Autonomous Landing...][research_cetin_kurnaz_2010]
 - [Guidance, Navigation, and Control System Performance Trades...][research_steinfeldt_grant_2010]
+- [Robust terminal area energy management guidance using...][research_morio_cazaurang_2010]
+- [A Study on GPS Satellite Orbit Prediction][research_xiao_fan_2011]
 - [An Improved Algorithm for Autonomous Orbit Determination of...][research_ou_ding_2011]
 - [Autonomous satellite orbit determination using spaceborne...][research_mikhailov_vasilev_2011]
 - [GPS-Based Orbit Determination for KOMPSAT-5 Satellite][research_hwang_2011]
 - [Influence of Ground Station Number and its Geographical...][research_weixing_wanke_2011]
 - [Orbit determination and time synchronization for a GEO/IGSO...][research_zhou_hu_2011]
+- [United States Air Force Counterinsurgency Operations...][research_kasuda_2011]
 
+- [Mars surface sample return missions via solar electric...][research_spadonidj_friedlanderal_1971]
+- [A Model of the Hypergolic Propellant Pop Phenomena][research_lawyer_1972]
+- [Low-Cost Solar Electric Testbed for Ion Thruster Systems][research_scheel_1972]
+- [Popping Phenomena with the Hydrazine Nitrogen-Tetroxide...][research_houseman_lee_1972]
+- [Space simulation experiments on reaction control system...][research_cassidyjf_1972]
+- [lon-Thruster Propellant Utilization][research_kaufman_1972]
+- [Interplanetary Spacecraft Design using Solar Electric...][research_duxbury_paul_1976]
+- [Modular Thrust Subsystem Approaches to Solar Electric...][research_cake_sharp_1977]
+- [Design and Development of a Passive Propellant Management...][research_regnier_hess_1978]
+- [Scaling law for estimating liquid propellant explosive yields][research_sutherland_1978]
+- [Propellant management for low thrust chemical propulsion...][research_hamlynkm_dergancerh_1981]
+- [Low-cost titanium propellant tankage][research_leach_szpakowski_1983]
 - [Design of a nuclear electric propulsion orbital transfer...][research_buden_garrison_1985]
 - [Analytical study of reusable flight-weight cryogenic...][research_taylor_cerro_1986]
+- [A model for nonlinear rotary slosh in propellant tanks][research_kana_1987]
+- [Effect of an anomalous thruster input during a simulated...][research_brody_ellis_1990]
 - [Design and testing of the Space Station Freedom Propellant...][research_dudleydd_thonetta_1992]
 - [Electric orbit transfer vehicle cryogenic propellant system][research_schuster_huynh_1993]
+- [Low-gravity propellant gauging system for accurate...][research_chobotov_purohit_1993]
 - [Space Shuttle reaction control system thruster metal nitrate...][research_saulsberryrl_mccartneypa_1993]
 - [Mercury Mission Design Using Solar Electric Propulsion...][research_kluever_abusaymeh_1998]
+- [Nuclear modules for space electric propulsion][research_difilippofc_1998]
 - [Vented Tank Resupply Experiment Demonstrated Vane Propellant...][research_chatodavidj_1998]
 - [99/03009 Nontoxic propellants for orbital manoeuvring and...][research_99_03009_nontoxic_1999]
 - [A Comparison of Two Different Approaches to Hydrazine Loading...][research_housemanjohn_patzoldjackd_1999]
+- [Magnetohydrodynamics propulsion a global approach of an inner...][research_boissonneau_1999]
 - [Comet Rendezvous Mission Design Using Solar Electric...][research_kluever_2000]
+- [Development of Mechanical Models for Propellant Sloshing in...][research_utsumi_2000]
+- [Modeling to Evaluate a Spacecraft Propellant Gauging System][research_ambrose_yendler_2000]
 - [Power Systems Evaluated for Solar Electric Propulsion Vehicles][research_kerslakethomasw_gefertleonp_2000]
 - [Applicability of CFRP materials to the cryogenic propellant...][research_morino_shimoda_2001]
 - [Cost-Optimum Electric Propulsion for Constellations][research_vinogradov_murashko_2002]
@@ -2921,11 +3333,16 @@ The article computes bounds precisely because none of these exists.
 - [Expanding Hydrogen Peroxide Propulsion Test Capability at...][research_jacksthomase_beislermichele_2003]
 - [Recent Advances in Hydrogen Peroxide Propulsion Test...][research_jacksthomase_beislermichele_2003_b]
 - [Rocket Engine Health Management Early Definition of Critical...][research_christensonrickl_nelsonmichaela_2003]
+- [Optimization of Flight Trajectories of a Spacecraft with...][research_fedotov_2004]
 - [Thermal-Structural Optimization of Integrated Cryogenic...][research_johnsontheodoref_waterswallen_2004]
+- [MEMS Colloid Thruster Array][research_nabity_2005]
+- [Uncertainty Analysis of Propellant Gauging System for...][research_lal_raghunandan_2005]
+- [Configuration for Propellant Gauging in Satellites][research_lal_raghunandan_2007]
 - [Laboratory Reproduction and Failure Analysis of Cracked...][research_jacobsjeremyb_castnerwillardl_2007]
 - [Performance Optimization of Storable Bipropellant Engines to...][research_millerscott_hendersonscott_2007]
 - [Reaction Control System Design Considerations for Mars Entry...][research_dyakonovartema_schoenenbergermark_2007]
 - [The New NASA-STD-4005 and NASA-HDBK-4006, Essentials for...][research_fergusondalec_2007]
+- [Laboratory-Model Integrated-System FARAD Thruster][research_polzinka_bests_2008]
 - [Performance Increase Verification for a Bipropellant Rocket...][research_alexanderleslie_chapmanjack_2008]
 - [The NASA Phoenix 2007 Mars Lander Thruster Calibration...][research_lisanomichaele_kruizingagerhardl_2008]
 - [A Flight-Calibrated Methodology for Determination of Cassini...][research_saranisiamak_2010]
@@ -2933,71 +3350,179 @@ The article computes bounds precisely because none of these exists.
 - [Fiber-Optic Continuous Liquid Sensor for Cryogenic Propellant...][research_xuwei_2010]
 - [Gimballing Spacecraft Thruster][research_pickenstim_bossardjohn_2010]
 
+- [A THEORY OF ASYMMETRIC HYPERSONIC BLUNT-BODY FLOWS][research_swigart_1962]
+- [EFFECT OF NOSE BLUNTNESS ON THE TURBULENT HYPERSONIC WAKE][research_hromas_lees_1962]
+- [HYPERSONIC FLOW OVER A SLENDER CONE WITH GAS INJECTION][research_king_1962]
+- [Progress Report on the Development of Protected Construction...][research_wilfredhdukes_1962]
+- [THE HYPERSONIC ENVIRONMENT HEAT TRANSFER IN MULTICOMPONENT...][research_scala_1962]
+- [A THEORY OF ASYMMETRIC HYPERSONIC BLUNT-BODY FLOWS][research_swigart_1963]
+- [CHEMICAL KINETIC REGIMES OF HYPERSONIC FLIGHT SIMULATION][research_harney_1963]
+- [COMPARISON OF THEORY WITH EXPERIMENT ON A BLUNT AXISYMMETRIC...][research_horstman_1963]
+- [Factors Affecting the Surface Temperature of a Hypersonic...][research_sinnott_1963]
+- [INVISCID HYPERSONIC FLOW FOR POWER-LAW SHOCK WAVES][research_lee_jamest_1963]
+- [STUDIES IN HYPERSONIC FLOW THEORY][research_van_1963]
+- [THE AEROSPACE HYPERSONIC SHOCK TUNNEL][research_varwig_1963]
+- [THE HIGH TEMPERATURE HYPERSONIC GASDYNAMICS FACILITY - MACH...][research_czysz_1963]
+- [THE HYPERSONIC AREA RULE][research_ladyzhenskij_1963]
+- [AERODYNAMIC DRAG ON SPIKED BLUNT BODIES IN LOW-DENSITY...][research_sims_hahn_1964]
+- [NOL HYPERSONIC SHOCK TUNNEL FACILITIESxb][research_watt_aronson_1964]
+- [Angle of attack envelope for a spinning re- entry body][research_auelmann_1965]
+- [Heat transfer and equilibrium temperature on a thin plate in...][research_koshmarov_gorskaya_1965]
+- [LOCAL AERODYNAMIC PARAMETERS FOR SUPERSONIC AND HYPERSONIC...][research_olsen_1965]
+- [MASS TRANSFER IN THE LOW REYNOLDS NUMBER VISCOUS LAYER AROUND...][research_goldberg_scala_1965]
+- [Optimum hypersonic lifting surfaces close to flat plates][research_cole_aroesty_1965]
+- [Transparency assumption in hypersonic radiative gas dynamics][research_thomas_1965]
+- [Elements of Hypersonic Aerodynamics][research_cox_crabtree_1966]
+- [Aerodynamics of Hypersonic Flight][research_young_1966]
+- [BOUNDARY LAYER PROFILE MEASUREMENTS IN HYPERSONIC NOZZLES][research_scaggs_1966]
+- [HYPERSONIC FLOW ALONG TWO INTERSECTING PLANES][research_cresci_1966]
+- [Hypersonic Wake Structure Observed with Electrostatic Probes][research_richardson_herrmann_1966]
+- [LAMINAR SEPARATION IN SUPERSONIC AND HYPERSONIC FLOWS][research_ginoux_1966]
+- [Optimum lifting bodies in hypersonic viscous flow][research_lewellen_mirels_1966]
+- [Elements of hypersonic aerodynamics][research_chu_1967]
+- [High-altitude hypersonic flow effects on the lateral range...][research_pritchard_holloway_1967]
+- [Influence of atmospheric composition on hypersonic...][research_horton_babineaux_1967]
 - [Optimum form of lifting bodies at hypersonic speeds][research_maikapar_1967]
+- [SOME PRELIMINARY EXPERIMENTS ON PROBE INTERFERENCE IN...][research_sforza_1967]
 - [Aerodynamic characteristics of a modified cone...][research_ashbygcjr_staylorwf_1968]
 - [Approximate methods for solving nonlinear differential...][research_antonova_skiba_1968]
+- [LOW DENSITY TRANSITIONAL REGIME DRAG COEFFICIENTS FOR SLENDER...][research_ortloff_1968]
+- [Microwave and far-infrared absorption as a diagnostic for the...][research_french_1968]
+- [Energy transfer mechanisms in hypersonic shocks][research_bauer_1969]
+- [Influence of drag on the mission performance of hypersonic...][research_levy_1969]
 - [Universal scaling laws for nose bluntness effects on...][research_ericsson_1969]
+- [HYPERSONIC WAKE STUDIES][research_bogdonoff_1970]
+- [Sphere drag in near-free-molecule hypersonic flow][research_kussoy_stewart_1970]
+- [Numerical computation of a chemically non-equilibrium laminar...][research_byrkin_1971]
 - [Analysis of Supersonic-Hypersonic Flutter of Lifting Surfaces...][research_yates_bennett_1972]
+- [Hypersonic Research Project][research_lees_kubota_1972]
+- [Investigation of convective and radiative heating in...][research_golovachev_1972]
 - [Optimum shape of lifting bodies for hypersonic velocities][research_filatov_1972]
 - [Hypersonic Wake Aerodynamics at High Reynolds Numbers][research_finson_1973]
+- [The Interaction of a Hypersonic Plume with an External...][research_kelly_1973]
+- [Research on Hypersonic Stability Problems][research_walchner_1974]
+- [Aerodynamic characteristics of the planetary atmosphere...][research_sammonds_kruse_1975]
 - [Errata-Low Reynolds Number Effect on Hypersonic Lifting...][research_adams_1975_b]
 - [Results of investigations on the 0.004-scale model 74-0 of...][research_nicholsme_1975]
 - [Terminal area energy management regime investigations...][research_hawthornepj_1976]
+- [The radiation field of a hypersonic nozzle flow][research_logan_stalker_1977]
 - [Viscous and Elastic Perturbation Effects on Hypersonic...][research_ericsson_1977]
 - [Vortex lattice prediction of subsonic aerodynamics of...][research_pittman_dillon_1977]
+- [Hypersonic Flow Past a Slender Elliptic Cone][research_lee_rasmussen_1978]
+- [Hypersonic Heat Transfer Test Program in the VKI Longshot...][research_dicristina_1979]
 - [Convective heating of a blunt-nosed body in a nonuniform...][research_eremeitsev_pilyugin_1981]
 - [Explanation of the hypersonic longitudinal stability problem...][research_griffithbj_mausjr_1983]
+- [Effect of the shape of a blunt nose on the drag coefficient...][research_larina_1985]
 - [Addressing the hypersonic simulation problem][research_griffithbj_mausjr_1986]
 - [Direct simulation of hypersonic transitional flow][research_mossjn_1986]
 - [Hypersonic aerodynamic characteristics of a candidate entry...][research_brauckmanngj_1986]
 - [Hypersonic aerodynamics for an entry research vehicle][research_cunningham_1987]
 - [Hypersonic aerodynamics of nonaxisymmetric boattailed bodies][research_agnone_prakasam_1987]
+- [Time-Dependent Hypersonic Viscous Interactions][research_reshotko_1987]
+- [Volume 1. Aircraft Performance. Chapter 10. Hypersonic...][research_airforcetestpilotschooledwardsafbca_1987]
 - [Configuration trade and code validation study on a conical...][research_covellpeterf_woodrichardm_1988]
 - [High angle-of-attack hypersonic aerodynamics][research_harloff_1988]
+- [Comments on Hypersonic Boundary-Layer Transition][research_stetson_1990]
+- [Experimental studies of shock wave/wall jet interaction in...][research_holdenmichaels_rodriguezkathleenm_1990]
+- [Particle Simulation of Hypersonic Flow][research_baganoff_1990]
 - [Design of hypersonic waveriders for aeroassisted...][research_lewis_mcronald_1992]
 - [Joint computational/experimental aerodynamics research on a...][research_oberkampf_aeschliman_1992]
+- [Solution strategies and heat transfer calculations for...][research_weilmuensterkj_gnoffopetera_1992]
+- [Stability of Boundary Layers at High Supersonic and...][research_herbert_1992]
+- [A hypersonic vehicle approach to planetary exploration][research_murbachmarcuss_1993]
 - [Book Review Computational Methods in Hypersonic Aerodynamics][research_candler_1993]
 - [Errata Review of Computational Methods in Hypersonic...][research_candler_1993_b]
 - [Experimental aerodynamic characteristics of a generic...][research_walkeriraj_covellpeterf_1993]
 - [Modern gas-dynamic models in problems of super-and hypersonic...][research_tirskii_1993]
 - [266 On ascent guidance of hypersonic vehicle][research_266_on_1994]
+- [Experimental studies of shock-wave/wall-jet interaction in...][research_holdenmichaels_rodriguezkathleen_1994]
+- [Experimental studies of shock-wave/wall-jet interaction in...][research_holdenmichaels_rodriguezkathleen_1994_b]
+- [Hypersonic Fluid Dynamics][research_levermore_brio_1994]
 - [Hypersonic aerodynamics on thin bodies with interaction and...][research_khorrami_smith_1994]
 - [Hypersonic fin aerodynamics][research_yang_1994]
+- [Optimal trajectories for hypersonic launch vehicles][research_ardemamarkd_bowlesjeffreyv_1994]
+- [A Light-Weight Inflatable Hypersonic Drag Device for...][research_mcronaldangusd_1995]
 - [Analytical studies of hypersonic viscous dissociated flows][research_ingergeorger_1995]
 - [Lifting wings of optimum shape in a viscous hypersonic stream][research_golubkin_1995]
 - [Transonic aeroelastic models of highly swept hypersonic...][research_pendleton_moster_1995]
 - [Aerodynamic Characteristics of Two Waverider-Derived...][research_cockrellcharlesejr_huebnerlawrenced_1996]
 - [Russian Aerospace Literature This month Hypersonic...][research_russian_aerospace_1996]
+- [Hypersonic Thermal Environment of a Proposed...][research_weilmuenster_gnoffo_1997]
+- [Mission Performance and Design Sensitivities of Air-Breathing...][research_schmidt_lovell_1997]
+- [Stability of Hypersonic Boundary-Layer Flows][research_reed_1997]
+- [Three-Dimensional Hypersonic Boundary Layer Stability and...][research_kimmel_poggie_1997]
+- [The Hypersonic Revolution Case Studies in the History of...][research_hallion_1998]
+- [Hypersonic Flight Vehicles Perspective and Prognosis][research_bogdonoff_1999]
 - [Preface to Hypersonic aircraft lifting re-entry and launch. A...][research_townend_1999_c]
 - [Preliminary Static Aeroelastic Analysis of Reusable Launch...][research_zeiler_mcghee_1999]
 - [Shape Optimization in Problems of 3-Dimensional Hypersonic...][research_arguchintseva_1999]
+- [A Light-Weight Inflatable Hypersonic Drag Device for...][research_mcronaldangusd_2000]
+- [An Integrated Computational Tool for Hypersonic Flow...][research_hoffmann_2000]
+- [Hypersonic Maneuvering Vehicle Simulations Using Real-Gas...][research_mcgrory_2001]
 - [Aerodynamics of delta wings with flaps at hypersonic speeds][research_ramesh_2002]
 - [Experimental Hypersonic Aerodynamic Characteristics of the...][research_horvaththomasj_oconnelltodf_2002]
+- [Monte Carlo Simulation of Radiation in Hypersonic Flows][research_boyd_2002]
+- [Radiatively Driven Hypersonic Wind Tunnel][research_miles_brown_2002]
 - [Rapid Transonic Aerodynamic Prediction for Hypersonic Lifting...][research_obrien_lewis_2002]
+- [Continuum and Particle Computations of Hypersonic Shock...][research_chandler_2003]
 - [Lester Lees and Hypersonic Aerodynamics][research_cummings_yang_2003]
 - [Upstream influence in hypersonic aerodynamics over sharp thin...][research_khorrami_2003]
+- [Particle Computations of Hypersonic Shock Interaction Flows][research_boyd_2004]
+- [Anti-Windup Control for an Air-Breathing Hypersonic Vehicle...][research_groves_serrani_2005]
 - [Computational Analysis of Inlet Aerodynamics for a Hypersonic...][research_nair_kumar_2005]
+- [Network-Centric System Implications for the Hypersonic...][research_west_2005]
 - [Computations of Viking Lander Capsule Hypersonic Aerodynamics...][research_edquistkarlt_2006]
+- [Extrapolation-to-flight of aerodynamic heating measurements...][research_simeonides_2006]
+- [High Temperature Thermocouple Installation Methods for...][research_feie_kretz_2008]
+- [Hybrid Continuum-Particle Computation of Hypersonic Flows][research_boyd_2008]
 - [Aerodynamics Simulation of Hypersonic Waverider Vehicle][research_wu_xiao_2009]
+- [Final Environmental Assessment for Hypersonic Technology...][research_huynh_kriz_2009]
+- [Integrated Aero-Servo-Thermo-Propulso-Elasticity ASTPE for...][research_chen_starkey_2009]
+- [Towards High-Reynolds-Number Quiet Flow in Hypersonic Wind...][research_schneider_2009]
 - [Trajectory optimization for hypersonic boost-glide missile...][research_li_cui_2009]
 - [Assessment of Turbulent CFD Against STS-128 Hypersonic Flight...][research_woodwilliama_klebwilliaml_2010]
+- [Fast response surface temperature sensor for hypersonic...][research_mohammed_salleh_2010]
 - [Numerical Computations of Hypersonic Boundary-Layer over...][research_changchaulyan_choudharimeelanm_2010]
+- [An improved wavelength selection scheme for Monte Carlo...][research_feldick_modest_2011]
 - [Development of the Orion Crew Module Static Aerodynamic...][research_bibbkarenl_walkerericl_2011]
 - [Trajectory Optimization for Hypersonic Vehicle Satisfying...][research_zhang_chen_2011]
 - [Trajectory Optimization of Hypersonic Vehicle Using Gauss...][research_tawfiqur_zhou_2011]
+- [Uncertainty Assessments of 2D and Axisymmetric Hypersonic...][research_gnoffopetera_berryscotta_2011]
 
+- [GASEOUS RADIATION IN HYPERSONIC STAGNATION POINT FLOW][research_reba_christian_1963]
+- [STAGNATION POINT HEAT TRANSFER OF A BLUNT-NOSED BODY IN...][research_chow_1963]
+- [GASEOUS RADIATION IN HYPERSONIC STAGNATION POINT FLOW][research_reba_1964]
+- [Hypersonic viscous flow near the stagnation streamline of a...][research_kao_1964]
+- [Hypersonic viscous flow near the stagnation streamline of a...][research_kao_1964_b]
+- [Rotational stagnation point flow][research_hayes_1964]
+- [Stagnation Point Langmuir Probe in a Shock Tube-Theory and...][research_pollin_1964]
+- [The laminar compressible boundary-layer in the...][research_davis_fluggelotz_1964]
+- [Comments on "Hypersonic Viscous Flow Near the Stagnation...][research_krupp_1965]
 - [Magnetohydrodynamic-hypersonic viscous and inviscid flow near...][research_smith_schwimmer_1965]
+- [Periodic solutions to a convective droplet burning problem...][research_strahle_1965]
+- [Stagnation point nonequilibrium heat transfer][research_tong_1965]
+- [Unsteady Stagnation Point Heat Transfer][research_chao_jeng_1965]
 - [Comment on ''magnetohydrodynamic-hypersonic viscous and...][research_porter_cambel_1966]
 - [Heat and mass transfer near the stagnation point with...][research_anfimov_1966]
 - [Calculation of supersonic viscid flow near stagnation line of...][research_pavlov_1967]
 - [Experimental study of mach and reynolds number effect on...][research_ivanov_1967]
 - [Symmetrical, equilibrium flow past a blunt body at...][research_kuby_foster_1967]
+- [Effect of radiative heat transfer on the hypersonic shock...][research_bloor_1968]
+- [Nongray radiative stagnation point heat transfer][research_anderson_1968]
 - [Rarefied gas flow near the forward stagnation point of a...][research_avduevskii_ivanov_1968]
+- [Stagnation Point Flow with Complex Composition][research_libby_sepri_1968]
+- [VISCOUS, HYPERSONIC FLOW AROUND A BLUNT BODY][research_kaiser_flueggelotz_1968]
 - [Calculation of convective heat flux in the vicinity of the...][research_suslov_1969]
 - [Effect of radiation on heat transfer at the stagnation point...][research_stulov_shapiro_1969]
 - [Ignition of Stagnation Point Flow by a Hot Body][research_sharma_sirignano_1969]
+- [Reentry Plasma Attenuation for S-Band Telemetry Systems][research_golden_1969]
+- [Stability of axisymmetric MHD equilibria without stagnation...][research_lortz_1969]
 - [Thin viscous shock layer analysis of blunt body...][research_adams_1969]
+- [Asymptotic description of radiating flow near stagnation point][research_jischke_1970]
 - [Flow in vicinity of blunt body stagnation point in diverging...][research_lunev_khramov_1970]
+- [Numerical analysis of stagnation point flows with massive...][research_libby_1970]
+- [Reentry Antenna Test RANT Program. Volume 2. Linear Plasma...][research_fante_elkin_1970]
+- [Thermal boundary-layer theory near the stagnation point in...][research_ghoshal_ghoshal_1970]
 - [Compressible axially symmetric laminar boundary layer flow in...][research_nath_1971]
 - [Heating of a blunt body by a plasma jet][research_sergeev_bezladnov_1971]
 - [Inviscid flow in the neighborhood of the stagnation point of...][research_lunev_1971]
@@ -3005,72 +3530,142 @@ The article computes bounds precisely because none of these exists.
 - [Hypersonic aerodynamics and entry-maneuver Aerothermodynamic...][research_arringtonjp_woodswc_1972]
 - [Real Gas Flow near the Stagnation Point of Blunt Nosed Bodies][research_saida_1972]
 - [Boundary layer in the vicinity of the stagnation point of a...][research_terpigorev_1973]
+- [Electron temperature measurements along a stagnation point...][research_nishida_sugimoto_1973]
 - [Flow Near the Stagnation Point of a Body Which Undergoes a...][research_nanbu_1973]
 - [Extinction analysis of premixed flame for counter flow and...][research_takeo_1974]
 - [Hypersonic radiating merged shock layer near the blunt-body...][research_kumar_jain_1974]
+- [Instrumentation of Reentry Plasma Experiments on Trail-Blazer...][research_rochefort_sukys_1974]
+- [Low concentration two-phase flow near a stagnation point][research_drew_1974]
 - [Mass transfer effects on the three-dimensional second-order...][research_papenfu_1974]
 - [Neighborhood of the stagnation point of a bluff body in a...][research_khramov_1974]
+- [Advanced Reentry Aeromechanics. Volume I. A Reynolds Stress...][research_finson_1975]
 - [Stagnation point flow in a vortex core][research_hatton_1975]
 - [Stagnation region of a blunt body in two-phase hypersonic flow][research_vasilkov_1975]
 - [Flow and heat transfer in a jet near the stagnation point of...][research_belov_isaev_1976]
+- [Laminar heat transfer near an asymmetric stagnation point][research_lesin_1976]
 - [Magnetic hypersonic rarefied flow at the stagnation point of...][research_muthanna_nath_1976]
+- [Modeling of the Geosynchronous Orbit Plasma Environment. Part...][research_garrett_1977]
 - [Influence of gaseous heat-shield destruction products on the...][research_biberman_bronin_1978]
+- [Effect of Internal Physical Change on Catalytic Thruster...][research_hearn_1979]
 - [Stability of heat transfer regimes at the front stagnation...][research_agranat_bertsun_1979]
 - [Investigation of the influence of blowing on the flow in a...][research_gershbein_kolesnikov_1980]
 - [Aerothermodynamic design feasibility of a Mars...][research_florencede_1981]
 - [Plasma Collection by High-Voltage Spacecraft at Low Earth...][research_katz_mandell_1981]
+- [Unsteady Stagnation Point Heat Transfer with Blowing or...][research_sano_1981]
 - [Unsteady effects in a thin viscous shock layer near a...][research_markov_1981]
+- [Blood rheology near a stagnation point][research_niimi_sugihara_1982]
 - [Catalytic recombination and Space Shuttle heating][research_scottcd_derrysm_1982]
 - [Heat and mass transfer in unsteady compressible axisymmetric...][research_kumari_nath_1982]
+- [On the mixed-convective flame structure in the stagnation...][research_fernandezpello_law_1982]
+- [Stagnation Point Combustion of a Monopropellant][research_adomeit_hock_1982]
+- [Thermal modulation of the plasma density in ionospheric...][research_inhester_1982]
 - [Correlation of hypersonic stagnation point heat transfer at...][research_nomura_1983]
 - [Orbiter windward surface entry Heating Post-orbital flight...][research_harthunmh_blumercb_1983]
 - [Aerothermodynamic heating analysis of aerobraking and...][research_daviescb_wilsonjf_1984]
 - [Analytical characterization of AOTV perigee aerothermodynamic...][research_desauteld_1984]
 - [Influence of rotation of the body and exterior vorticity on...][research_markov_1984]
+- [Aerothermodynamic Heating Analysis of Aerobraking and...][research_meneesgenep_daviescarolb_1985]
+- [CO 2 impact ionization-driven plasma instability observed by...][research_curtis_brace_1985]
+- [Definition Study of a Coordinated Group of Experiments to...][research_bridge_binsack_1985]
 - [Pulsed plasma thrusters for orbit transfer][research_turchi_1985]
+- [The unsteady oblique stagnation point flow][research_wang_1985]
 - [Turbulence enhancement of stagnation point heat transfer on a...][research_hargrave_fairweather_1985]
+- [A mathematical theory to two-dimensional blunt body sampling][research_dunnett_ingham_1986]
+- [Thermal nonequilibrium hypersonic shock layer near the...][research_yen_1986]
 - [Absorption of monochromatic radiation by a gas injected in...][research_levin_markov_1987]
 - [Viscous shock layer near the stagnation point on a rotating...][research_markov_1987]
 - [Investigation of swirling flow of a viscous gas near the...][research_peigin_1988]
 - [Approximate two layer inviscid/viscous methods to model...][research_dejarnettefredr_1989]
+- [Laser diagnostics of reacting stagnation point flow][research_posillico_lederman_1989]
 - [Flow in the neighborhood of the stagnation line on a blunt...][research_belousov_golovachev_1990]
 - [Particle-in-cell simulations of sheath formation around...][research_thiemann_schunk_1990]
 - [Theory of plasma contactors in ground-based experiments and...][research_gerver_hastings_1990]
 - [An Improved Correlation of Stagnation Point Mass Transfer...][research_sogin_1991]
+- [Nonplanar flame configurations in stagnation point flow][research_sheu_sivashinsky_1991]
 - [Studies on scaling of flow noise received at the stagnation...][research_arakeri_satyanarayana_1991]
+- [Evaluation of the Stagnation Point Region Overshoot][research_sogin_1992]
+- [Extinction properties of a premixed laminar flame in oblique...][research_lyell_cronin_1992]
 - [Flow noise scaling at the stagnation point of an axisymmetric...][research_lauchle_1992]
 - [Stagnation point nonequilibrium radiative heating and the...][research_hartung_mitcheltree_1992]
 - [Two-phase mass injection from the stagnation zone of a blunt...][research_osiptsov_shapiro_1992]
+- [Aerothermodynamic heating due to shock wave/laminar...][research_hackettcharlesm_1993]
 - [Shuttle entry aerothermodynamic flight research - The Orbiter...][research_throckmorton_1993]
 - [Stagnation point computations of nonequilibrium inviscid...][research_fey_jeltsch_1993]
+- [Thermo-chemical nonequilibrium effects on the...][research_hassan_candler_1993]
+- [Unsteady flow at a stagnation point][research_riley_1993]
+- [Stagnation Point Flow With Suction An Approximate Solution][research_ariel_1994_b]
+- [Three dimensional stagnation point flow of a viscoelastic...][research_ariel_1994]
 - [A review of plasma interactions with spacecraft in low Earth...][research_hastings_1995]
 - [Influence of the velocity gradient on the stagnation point...][research_olivier_1995]
 - [Calculation of stagnation streamline quantities in hypersonic...][research_klomfass_muller_1997]
+- [Chebyshev solution of stagnation point flow][research_hassanien_1997]
 - [Computational Analysis of Shock Layer Emission Measurements...][research_gokcentahir_parkchungs_1998]
+- [Mixed convective non-steady 3-dimensional micropolar fluid...][research_takhar_agarwal_1998]
 - [Discharge over spacecraft insulator surface in low Earth...][research_cho_miyata_1999]
 - [Investigation of Atomic Oxygen Erosion of Polyimide Kapton H...][research_snyderaaron_1999]
 - [Transition Effects on Heating in the Wake of a Blunt Body][research_hollis_perkins_1999]
 - [Cross-current instability generated by pick-up ions in the...][research_singh_2000]
+- [Fluid motion in the stagnation point neighborhood][research_maikapar_2000]
 - [Experimental Investigation of Reentry Vehicle...][research_gulhan_esser_2001]
 - [Measurements of the Velocities of Coarse Particles Near the...][research_varaksin_2001]
 - [Thermochemical nonequilibrium viscous shock layer studies of...][research_doihara_nishida_2002]
 - [The Distribution of Phase Velocities of Heterogeneous Flow in...][research_varaksin_ivanov_2003]
 - [Unsteady mixed convection near the forward stagnation point...][research_nazar_amin_2003]
+- [Aerothermal Heating for Satellite Reentry Conditions][research_stern_2004]
 - [Aerothermodynamics for reusable launch systems][research_weiland_longo_2004]
+- [Automated Design Optimization for Hypersonic...][research_munipalli_subbarao_2005]
+- [Magnetohydrodynamics stagnation point flow towards a...][research_magnetohydrodynamics_stagnation_2006]
+- [Unbinding of vesicles under flow at a stagnation point][research_chatkaew_leonetti_2006]
+- [Magnetohydrodynamic stagnation point flow towards a...][research_magnetohydrodynamic_stagnation_2007]
+- [The stagnation point in Marangoni-thickened Landau-Levich...][research_rame_2007]
+- [Hydromagnetic stagnation point flow by a perturbation...][research_abdelkhalek_2008]
+- [Multiple temperature kinetic model and gas-kinetic method for...][research_xu_he_2008]
 - [Effects of ohmic heating and viscous dissipation on steady...][research_sharma_singh_2009]
 - [FORCED CONVECTION BOUNDARY LAYER FLOW AT A FORWARD STAGNATION...][research_salleh_nazar_2009]
 - [Nonequilibrium Aerothermodynamics for a Capsule Reentry...][research_viviani_pezzella_2009]
 - [Blunt-Body Entry Vehicle Aerothermodynamics Transition and...][research_hollisbrianr_2010]
+- [Transmission of Radio-Frequency Signals Through Plasma During...][research_sternberg_2010]
 - [A Boubaker polynomials expansion scheme BPES related...][research_zhang_li_2011]
 - [A general correlation for the stagnation point Nusselt number...][research_persoons_mcguinn_2011]
+- [Ground Test and Computation of Boundary Layer Transition on...][research_kimmel_adamczak_2011]
+- [Magnetohydrodynamic Stagnation Point Flow with a Convective...][research_jafar_ishak_2011]
+- [Multi-scale k-distribution model for gas mixtures in...][research_bansal_modest_2011]
 - [Similarity Solution for Unsteady MHD Flow Near a Stagnation...][research_similarity_solution_2011]
+- [Stagnation point flow towards a stretching/shrinking sheet in...][research_yacob_ishak_2011]
+- [The Effect of Nonuniform Viscosity on Stagnation Point...][research_norris_2011]
 - [The development of forced convection heat transfer near a...][research_merkin_nazar_2011]
 - [Unsteady Free Convection Flow near the Stagnation Point of a...][research_admon_shafie_2011]
 
+- [Motion of re-entry vehicles during constant- altitude glide][research_wang_1965]
+- [Re-entry of space vehicle fragments][research_twiss_1965]
+- [Roll modulation for maximum re-entry lateral range][research_wagner_1965]
+- [V. A. Yaroshevskii Approximate analysis of atmosphere...][research_v_a_1965]
+- [An alternate analysis of momentum deposition in the wake of a...][research_weston_1966]
+- [Angle-of-attack measurements of a hypersonic reentry vehicle...][research_cassanto_1966]
+- [Comments on "Motion of Re-Entry Vehicles During...][research_theobald_1966]
+- [Elastomeric thermal shield systems for lifting reentry...][research_dolan_edighoffer_1966]
+- [STATISTICAL METHODS FOR THE ANALYSIS OF RE-ENTRY VEHICLE...][research_gardner_la_1966]
+- [A New Concept for Controlled Lifting Entry Flight Experiments][research_delpinofh_nelsonrl_1967]
+- [A SIMPLE ANALYSIS OF REENTRY VEHICLE ROLL RESONANCE][research_platus_1967_b]
+- [A note on re-entry vehicle roll resonance][research_platus_1967]
+- [APPLICATION OF GROUND TEST DATA TO REENTRY VEHICLE DESIGN][research_thomas_perlbachs_1967]
+- [LIFTING REENTRY COMMUNICATIONS. VOLUME 3 PLANE WAVE...][research_dix_golden_1967]
+- [R67-28 A General-Purpose Analog Translational Trajectory...][research_fogarty_1967]
+- [Use of lifting re-entry vehicles for synergetic maneuvers][research_paine_1967]
+- [Dynamics of an Acoustic Probe for Measuring Pressure...][research_heller_widnall_1968]
+- [Inertial navigation errors for a lifting re-entry vehicle][research_elsey_carlson_1968]
+- [Optimal control of a reentry vehicle in the presence of...][research_deyst_1968]
+- [Reentry Vehicle Radar Altimeter Antenna Patterns][research_cooper_1968]
+- [Acoustic technique for detection of flow transition on...][research_heller_1969]
+- [Experimental aerodynamcis of a rotor entry vehicle][research_levin_smith_1969]
 - [Re-entry vehicle launch restrictions considering damage to...][research_flemming_lien_1969]
 - [Simulation of reentry vehicle motion during laboratory...][research_knott_1969]
+- [ADMITTANCE, ISOLATION, AND RADIATION PATTERNS OF RECTANGULAR...][research_stewart_golden_1970]
+- [Entry Trajectory Reconstruction Using Flight Data][research_morth_1970]
 - [Hypersonic aerodynamic characteristics of DL-4 lifting entry...][research_ladsoncl_1970]
+- [Influence of staging on re-entry trajectory characteristics][research_randall_1970]
 - [Predictive Entry Guidance for an Apollo-Type Vehicle][research_stiles_1970]
+- [Propulsion Effects on Aerodynamic Characteristics of Lifting...][research_fong_ehrlich_1970]
 - [Re-Entry Acoustical Measurements on a Ballistic Vehicle][research_kachadourian_1970]
 - [Reentry Protection for Radioisotope Heat Sources][research_bustard_princiotta_1970]
 - [A comparison of several nonlinear filters for reentry vehicle...][research_mehra_1971]
@@ -3081,32 +3676,49 @@ The article computes bounds precisely because none of these exists.
 - [Thermal stress analysis of reentry vehicle nosetips at angle...][research_crose_mckinley_1972]
 - [A Proposed Entry Vehicle Dynamic Model][research_kirsch_1973]
 - [Aerodynamic entry vehicle autopilots†][research_klafin_barnhart_1973]
+- [An analysis of atmospheric entry trajectories for manned and...][research_craigmk_gonzalezrg_1973]
 - [Experimental study of a high lift re-entry vehicle...][research_houwink_richards_1973]
 - [Microwave and Electrostatic Probe Measurements on a Blunt...][research_hayes_rotman_1973]
 - [An Airborne Telescope-Camera System for High-Resolution...][research_daniels_dryden_1974]
+- [Interpretation of Microwave Antenna Results from a Reentry...][research_lennon_poirter_1974]
 - [On reentry vehicle tracking in various coordinate systems][research_fitzgerald_1974]
+- [Advanced Reentry Aeromechanics. Volume II. Aerodynamic...][research_simons_1975]
 - [Analysis of Re-Entry Vehicle Behavior during Boundary-Layer...][research_chrusciel_1975]
+- [Effects of nosetip shape change on re-entry vehicle dispersion][research_morrison_1975]
 - [Nonlinear Limit Motions of a Slightly Asymmetric Re-entry...][research_murphy_bradley_1975]
 - [Re-Entry Vehicle Base Pressure and Heat-Transfer Measurements...][research_bulmer_1975]
+- [Angle-of-Attack Control of Drag for Slender Re-entry Vehicle...][research_platus_1976]
 - [Digital Stabilization System of Re-Entry Vehicle][research_nikolaev_teryaev_1976]
 - [Cadmium telluride detector development and use in reentry...][research_lyons_1977]
 - [Comparison of Several Re-entry Vehicle Base Pressure...][research_kawecki_1977]
+- [General Slender Cone Simulation at Reentry Flow Conditions][research_johnson_josepha_1977]
 - [High-0 Re-entry Vehicle Recovery][research_otey_english_1977]
 - [Re-Entry Vehicle Stagnation Region Heat-Transfer in Particle...][research_hove_shih_1977]
+- [Explicit Guidance Equations for a Variable Trim Reentry...][research_alexander_tm_1978]
+- [Hardened Reentry Vehicle Development Program...][research_sherman_1978]
 - [Optimum reentry trajectories of a lifting vehicle][research_chernjs_vinhnx_1978]
+- [Cost/Benefit Analysis of Reentry Vehicle Hardness Testing...][research_donahue_farrell_1979]
 - [Flow about a planetary entry vehicle][research_golovachov_lunkin_1979]
 - [Optimal Trajectories for a Ballistic Re-entry Vehicle...][research_williamson_1979]
 - [Re-entry Vehicle Dispersion from Entry Angular Misalignment][research_platus_1979]
 - [Research and design for lifting reentry][research_townend_1979]
 - [Selection of the Guidance Variable for a Re-entry Vehicle][research_archer_sworder_1979]
 - [System Identification Technology for Estimating Re-entry...][research_gupta_hall_1979]
+- [Hypersonic and planetary entry flight mechanics][research_vinhnx_busemanna_1980]
+- [Lift-Dispersion Control of Spinning Reentry Vehicles][research_platus_1980]
 - [Numerical Solution of the Constrained Re-entry Vehicle...][research_yeo_sng_1980]
+- [Roll Resonance Control of Angle of Attack for Reentry Vehicle...][research_platus_1980_b]
+- [Rough Wall Reentry Heating Analysis. Effect of Surface...][research_finson_clarke_1980]
 - [Numerical study of re-entry vehicle aerodynamics in steady...][research_lin_1981]
 - [Roll Resonance Control of Angle of Attack for Re-entry...][research_platus_1981]
 - [Aerodynamic comparisons of STS-1 Space Shuttle entry vehicle][research_youngjc_1982]
 - [Ballistic Re-entry Vehicle Flight Dynamics][research_platus_1982]
 - [Entry Vehicle Performance in Low-Heat-Load Trajectories][research_havey_1982]
 - [Laser implemented active flight control system for re-entry...][research_danesi_1982]
+- [Optimal Alpha-Beta Filtering for Tracking Reentry Vehicles...][research_vemuri_1982]
+- [Performance Methods for Lifting Entry Vehicle Range Analysis][research_johnson_bursey_1982]
+- [Reentry Vehicle Nosetip Design for Minimum Total Heat Transfer][research_baker_kramer_1982]
+- [Variable Node Drag Parameterization for Re-entry Trajectory...][research_greene_williamson_1982]
 - [Lifting entry vehicle mass reduction through integrated...][research_wurster_1983]
 - [Space Shuttle entry guidance performance results][research_harpold_gavert_1983]
 - [Aerodynamic characteristics of some lifting reentry concepts...][research_spearmanml_1984]
@@ -3118,19 +3730,28 @@ The article computes bounds precisely because none of these exists.
 - [Re-entry module for a Shuttle-derived vehicle launch system][research_tewell_ewing_1986]
 - [Vega project Re-entry vehicle of "VEGA" spacecraft][research_kovtunenko_sagdeev_1986]
 - [The optimization of earth orbit reentry vehicle configurations][research_zhou_wang_1987]
+- [Trajectory estimation of manoeuvring re-entry vehicles and...][research_abutaleb_1987]
+- [Simple computational technique for determining...][research_maurer_hall_1988]
 - [Integrated launch and emergency entry vehicle concept][research_martin_1989]
 - [Interferometric measurements of re-entry vehicle base radius][research_henry_1989]
 - [Sonic boom measurements from very high altitude and Mach...][research_stanley_stansbery_1989]
+- [Calculation of Reentry-Vehicle Temperature History][research_finke_1990]
 - [Complete footprint of lifting reentry vehicles][research_hsu_kuo_1990_b]
 - [Entry vehicle performance analysis and atmospheric guidance...][research_dieriamtodda_1990]
 - [Numerical simulation of re-entry flow around the Space...][research_wada_kubota_1992]
 - [Re-entry aerodynamics derived from space debris trajectory...][research_crowther_1992]
+- [Research on the Assymetrical Aerodynamic Forces of Reentry...][research_zhang_1992]
+- [Interaction of rocket plumes with the outer hypersonic...][research_karl_weiland_1993]
+- [The Infrared Measurement for the Reentry-Body][research_zhao_1993]
 - [Trajectory control for a low-lift re-entry vehicle][research_roenneke_cornwell_1993]
+- [227 A re-entry capsule control system design for microgravity...][research_227_a_1994]
 - [A hypersonic parachute for low-temperature re-entry][research_krischke_lorenzini_1995]
 - [Minimum Heating Re-Entry Trajectories for Advanced Hypersonic...][research_robertwindhorst_1996]
 - [Entry Guidance and Trajectory Control for Reusable Launch...][research_lu_1997]
+- [Entry Trajectory Tracking Law via Feedback Linearization][research_bharadwaj_rao_1998]
 - [Minimum Heating Entry Trajectories for Reusable Launch...][research_windhorst_ardema_1998]
 - [Near-Optimal Entry Trajectories for Reusable Launch Vehicles][research_chou_ardema_1998]
+- [Simulation-Based Analysis of Reentry Dynamics for the Sharp...][research_tillierclemensemmanuel_1998]
 - [A reusable space-rescue vehicle re-entry simulation][research_east_1999]
 - [Conclusions to Hypersonic aircraft lifting re-entry and...][research_townend_1999]
 - [Entry Guidance for the Reusable Launch Vehicle][research_luping_1999]
@@ -3138,10 +3759,12 @@ The article computes bounds precisely because none of these exists.
 - [Longitudinal Landing Control Law for an Autonomous Reentry...][research_miyazawa_motoda_1999]
 - [Trajectory Estimation of Reentry Vehicles by Use of On-Line...][research_lee_liu_1999]
 - [An Entry Flight Controls Analysis for a Reusable Launch...][research_calhounphilip_2000]
+- [Nonlinear Entry Trajectory Control Using Drag-to-Altitude...][research_ishimoto_2000]
 - [Predictor-Corrector Entry Guidance for Reusable Launch...][research_youssefhussein_chowdhryrajiv_2001]
 - [An Automated Method to Compute Orbital Re-Entry Trajectories...][research_zimmermancurtis_dukemangreg_2002]
 - [Multidisciplinary Design Optimization of the Shape and...][research_tava_suzuki_2002]
 - [On-Board Generation of Three-Dimensional Constrained Entry...][research_shenzuojun_luping_2002]
+- [Reduced-Order Entry Trajectory Planning for Acceleration...][research_mease_chen_2002]
 - [Reference trajectory analysis and trajectory control by bank...][research_lee_cho_2002]
 - [Stabilization of a Reentry Vehicle by a Partial Spin-up...][research_aslanov_doroshin_2002]
 - [Unified Calculation of Hypersonic Flowfield for a Reentry...][research_suzuki_furudate_2002]
@@ -3151,11 +3774,13 @@ The article computes bounds precisely because none of these exists.
 - [Test Results for Entry Guidance Methods for Reusable Launch...][research_hansonjohnm_jonesroberte_2003]
 - [Application of High Temperature Optical Fibers in a Reentry...][research_paolozzi_2004]
 - [Nonlinear Dynamical Analysis for a Reentry Vehicle][research_goto_kawakita_2004]
+- [Re-Entry trajectory tracking via an inverse dynamics method][research_lee_cho_2004]
 - [Test Results for Entry Guidance Methods for Space Vehicles][research_hansonjohnm_jonesroberte_2004]
 - [A Concept of Guidance for an Air-Launch Vehicle with...][research_sikharulidze_karpov_2005]
 - [Aerodynamic Performances of Lifting-Body Configurations for a...][research_kawato_watanabe_2005]
 - [Decades of improvements in re-entry ballistic vehicle tracking][research_minvielle_2005]
 - [Input Estimation Algorithms for Reentry Vehicle Trajectory...][research_liu_wang_2005]
+- [On-board entry trajectory planning for sub-orbital flight][research_shen_lu_2005]
 - [ANALYSIS OF OPTIMAL TRAJECTORY FOR RE-ENTRY VEHICLE][research_lee_cho_2006]
 - [Asymptotic Analysis of Quasi-Equilibrium Glide in Lifting...][research_lu_2006]
 - [Flutter Characteristics of Reentry Space Vehicle with...][research_kanda_ueda_2006]
@@ -3166,6 +3791,7 @@ The article computes bounds precisely because none of these exists.
 - [CFD and experimental study of an inflatable re-entry vehicle...][research_terry_barber_2007]
 - [Computational Analysis of Automated Transfer Vehicle Reentry...][research_boutamine_reynier_2007]
 - [Coronas-F Orbit Monitoring and Re-Entry Prediction][research_ivanovnm_kolyukayuf_2007]
+- [Feasible Trajectory Generation for Atmospheric Entry Guidance][research_leavitt_mease_2007]
 - [GUIDANCE AND ATTITUDE CONTROL LAW FOR THE FINAL PART OF A...][research_jouhaud_ferreres_2007]
 - [In-Flight Subsonic Lift and Drag Characteristics Unique to...][research_saltzman_wang_2007]
 - [Initial Sizing and Reentry Trajectory Design Methodologies...][research_tormo_serghides_2007]
@@ -3173,9 +3799,18 @@ The article computes bounds precisely because none of these exists.
 - [Structural Stability of Simplified Dynamical System Governing...][research_kaslik_balint_2007]
 - [Empirical Accuracies of U.S. Space Surveillance Network...][research_johnsonnicholasl_2008]
 - [Experimental Measurement of RCS Jet Interaction Effects on a...][research_buckgregorym_watkinsaneal_2008]
+- [Huygens probe entry trajectory and attitude estimated...][research_aboudan_colombatti_2008]
 - [Numerical Analysis of Reentry Trajectory Coupled with...][research_fujino_yoshino_2008]
+- [Optimal control in trajectory planning for a re-entry vehicle][research_caruntu_negrea_2008]
+- [Predictor-Corrector Entry Guidance for Low-Lifting Vehicles][research_lu_2008]
 - [Rapid terminal area trajectory planning for reentry vehicles][research_zhang_tang_2008]
+- [Reentry Breakup and Survivability Characteristics of the...][research_stern_2008]
+- [Simulated Reentry Heating by Torching][research_harveygalea_2008]
+- [Skip Entry Trajectory Planning and Guidance][research_brunner_lu_2008]
+- [Trajectory optimization and the control of a re-entry vehicle...][research_baek_lee_2008]
 - [Calculation of gas flow parameters around a reentry vehicle][research_kudryashova_polyakov_2009]
+- [Determination of Spacecraft Landing Footprint for Safe...][research_ploen_seraji_2009]
+- [Entry Trajectory Model with Thermomechanical Breakup][research_tewari_2009]
 - [Flatness-based hypersonic reentry guidance of a lifting-body...][research_morio_cazaurang_2009]
 - [Hypersonic Turbulent Flow Simulation of Fire II Reentry...][research_reddy_sinha_2009]
 - [NUMERICAL SIMULATION OF AERODYNAMICS OF WINGED RE-ENTRY SPACE...][research_vaganov_drozdov_2009]
@@ -3183,6 +3818,7 @@ The article computes bounds precisely because none of these exists.
 - [Reentry attitude tracking control based on fuzzy feedforward...][research_wang_wu_2009]
 - [Thermo-structural behaviour of an UHTC made nose cap of a...][research_borrelli_riccio_2009]
 - [Tracking the Warhead Among Objects Separation from the...][research_liu_2009]
+- [Trajectory Optimization and the Control of a Re-entry Vehicle...][research_trajectory_optimization_2009]
 - [Unscented Kalman Filtering for Reentry Vehicle Identification...][research_vitale_corraro_2009]
 - [Application of a Fault Accommodation Approach to a...][research_marcos_kerr_2010]
 - [Computational Flowfield Analysis over a Blunt-Body Reentry...][research_viviani_pezzella_2010]
@@ -3192,17 +3828,32 @@ The article computes bounds precisely because none of these exists.
 - [Numerical analysis of the oscillation susceptibility along...][research_balint_kaslik_2010]
 - [Reentry vehicle tracking in a cluttered environment][research_liu_chyuan_2010]
 - [Suboptimal reentry guidance of a reusable launch vehicle...][research_chawla_sarmah_2010]
+- [Analytic Development of a Reference Trajectory for Skip Entry][research_garciallama_2011]
 - [Hybrid state estimation and model-set design of...][research_liang_han_2011]
+- [Mars entry trajectory optimization using DOC and DCNLP][research_li_peng_2011]
+- [On-line guidance with trajectory constraints for terminal...][research_morani_cuciniello_2011]
 - [Reentry Trajectory Optimization of Airbreathing Hypersonic...][research_yang_sun_2011]
+- [Simulating Stardust Earth Reentry with Radiation Heat Transfer][research_shang_surzhikov_2011]
+- [Steering control and road bank angle estimation to evaluate...][research_menhour_lechner_2011]
 
+- [Ablation of refrasil-phenolic nozzle inserts in solid...][research_wilhelm_1965]
+- [Cork thermal protection design data for aerospace vehicle...][research_hovey_1965]
+- [Effect of ablation on momentum deposition in the wake of a...][research_hammitt_1965]
+- [Effect of a magnetic field on the flow in the vicinity of the...][research_tropp_1966]
+- [Effect of nose bluntness on the hypersonic unsteady...][research_ericsson_1967]
 - [Wind Tunnel Study of Probes for Measuring Pressure...][research_heller_1967]
 - [Initial Study of Phenolic Foam for Thermal Protection][research_hannah_muessig_1970]
 - [Refurbishment cost study of the thermal protection system of...][research_petersonrj_1970]
 - [Estimation of the maximum temperature of a swept leading edge...][research_crawford_1971]
+- [The Hypersonic Leading Edge Problem. 2. Wedges and Cones][research_shorenstein_1971]
 - [Evaluation of nondestructive testing techniques for the space...][research_tiededa_1972]
 - [Parameter Optimization-An Aid to Thermal Protection Design][research_williams_curry_1972]
 - [Refurbishment cost study of the thermal protection system of...][research_haasdw_1972]
+- [Silica Reusable Surface Insulation Improvement Research][research_goldsteinhe_smithm_1973]
+- [Symposium on Reusable Surface Insulation for Space Shuttle...][research_symposium_on_1973_b]
+- [Symposium on Reusable Surface Insulation for Space Shuttle...][research_symposium_on_1973]
 - [Thermal protection system gap heating rates of the Rockwell...][research_fostertf_lockmanwk_1973]
+- [Improved coating for silica fiber based ceramic Reusable...][research_ormistontj_1974]
 - [Performance of LI-1542 reusable surface insulation system in...][research_huntlr_bohonhl_1974]
 - [Ablative Thermal Protection for Space Tug Multipass...][research_strauss_1975]
 - [Improvement in oxidation resistance of the leading edge...][research_williamsjm_impresciarj_1975]
@@ -3223,34 +3874,54 @@ The article computes bounds precisely because none of these exists.
 - [Analysis of gap heating due to stepped tiles in the shuttle...][research_petleydh_smithdm_1983]
 - [Development of Passive Diver Thermal Protection System][research_lippitt_jr_1983]
 - [Fracture Behavior of the Space Shuttle Thermal Protection...][research_komine_kobayashi_1983]
+- [Moisture absorption characteristics of the Orbiter thermal...][research_schomburgc_dottsrl_1983]
+- [Stagnation-point ablation of carbonaceous flat disks. I Theory][research_park_1983]
+- [Stagnation-point ablation of carbonaceous flat disks. II...][research_park_1983_b]
 - [Aerothermal performance and damage tolerance of a Rene 41...][research_averyde_1984]
 - [Comment on "Fracture Behavior of the Space Shuttle Thermal...][research_green_lange_1984]
+- [Effect of Condensation on Emittance of Reflective Insulation][research_bassett_trethowen_1984]
 - [Thermal Protection System for the Space Shuttle External Tank][research_ronquillo_williams_1984]
 - [Angular motion influence on re-entry vehicle ablation or...][research_platus_1985]
 - [Orbiter thermal protection system][research_dottsrl_currydm_1985]
 - [Thermal Protection Requirements for Near-Earth Aeroassisted...][research_meneesgenep_1985]
 - [Thermal Protection System for the Space Shuttle External Tank...][research_matienzo_shah_1985]
+- [In-flight rain damage tests of the shuttle thermal protection...][research_meyerrobertrjr_barneburgjack_1988]
 - [Ceramic insulation/multifoil composite for thermal protection...][research_pittswc_kourtidesda_1989]
+- [Acousto-optic signature analysis for inspection of the...][research_rodriguezjuliog_towdm_1990]
 - [Flight Set 360L006 STS-34 field joint protection system...][research_wilkinsonjp_1990]
 - [Flight set 360L007 STS-33R field joint protection system...][research_flight_set_1990]
+- [Effect of Environmental Contaminants from Agricultural...][research_riskowski_christianson_1991]
+- [Automated anomaly detection for Orbiter High Temperature...][research_cooperericg_jonessharonm_1992]
 - [Characterization of advanced flexible thermal protection...][research_clayton_tinker_1992]
 - [Extended life and performance test of a low-power arcjet][research_curran_haag_1992]
+- [Heat transfer characteristics of hypersonic waveriders with...][research_vanmoldeniso_andersonjohndjr_1992]
+- [The Design and Construction of an Ion Trap Based System for...][research_meuzelaar_cole_1992]
+- [Thermal protection analysis of Mars-earth return vehicles][research_henline_1992]
+- [Viscous shock-layer solutions with coupled radiation and...][research_gupta_lee_1992]
+- [Aerodynamic heating environment definition/thermal protection...][research_wursterke_stonehw_1993]
 - [ChemInform Abstract Atmospheric Reentry Degradation of...][research_drawin_1993]
+- [Comparison of kinetic models for atom recombination on...][research_willey_1993]
 - [Static and aerothermal tests of a superalloy honeycomb...][research_gortonmarkp_shidelerjohnl_1993]
+- [High-temperature behavior of advanced spacecraft TPS][research_pallixjoan_1994]
 - [Thermal protection system design studies for lunar crew module][research_williams_curry_1995]
 - [Evaluation of Thermal Protection of Fabrics and Uniform...][research_roach_caldarella_1996]
 - [FLUX-BASED FINITE-VOLUME FORMULATIONS AND ADAPTIVE...][research_mohan_tamma_1996]
 - [High-Fidelity Thermal Protection System Sizing of Reusable...][research_palmer_henline_1997]
+- [Aerothermodynamic Aspects of Entry Probe Heat Shield Design][research_marraffa_smith_1998]
 - [Thermal Protection in Small Boat Special Operations][research_thomas_hyde_1998]
 - [Ceramic composites for thermal protection systems][research_davis_marshall_1999]
 - [Parametric Weight Comparison of Current and Proposed Thermal...][research_myersdavide_martincarlj_1999]
 - [Thermal Protection System with Use of Porous Media for a...][research_kubota_uchida_1999]
+- [A Collaborative Analysis Tool for Integrated Hypersonic...][research_stanleythomastroy_alexanderreginald_2000]
 - [A new concept for thermal protection of all-mullite...][research_steinhauser_braue_2000]
 - [Overview of TPS Tasks][research_johnsonsylviam_2000]
 - [Parametric Weight Comparison of Advanced Metallic, Ceramic...][research_myersdavide_martincarlj_2000]
 - [TPS Materials and Costs for Future Reusable Launch Vehicles][research_raskydanj_milosfranks_2000]
 - [Energy-Filtering TEM Imaging of Zrb2/Sic Composite An...][research_xu_zhai_2001]
 - [F-1503 Advanced Thermal Protection Systems for Reusable...][research_yamao_yamashita_2001]
+- [On-Orbit Optical Observations of the ESEX 26kW Ammonia Arcjet][research_johnson_spanjers_2001]
+- [Shuttle Upgrade Program Tile TPS][research_danielbleiser_davidastewart_2001]
+- [The Evolution of Flexible Insulation as Thermal Protection...][research_rezinmarc_okakris_2001]
 - [Thermal Protection System Materials and Costs for Future...][research_rasky_milos_2001]
 - [Development of thermal protection system of the MUSES-C/DASH...][research_yamada_inatani_2002]
 - [Graphite Ablation and Thermal Response Simulation Under...][research_chenyk_milosfs_2002]
@@ -3267,6 +3938,7 @@ The article computes bounds precisely because none of these exists.
 - [Strength Enhancement and Application Development of Carbon...][research_duston_seghi_2004]
 - [Arc Jet Screening Tests Of Phase 1 Orbiter Tile Repair...][research_delpapastevenv_2005]
 - [Closed-Loop Trajectory Simulation for Thermal Protection...][research_jits_wright_2005]
+- [Mars Exploration Rover Transverse Impulse Rocket Cover...][research_szalai_chen_2005]
 - [SAFER Inspection of Space Shuttle Thermal Protection System][research_scovillezebulonc_rajulasudhakar_2005]
 - [Afterbody Aeroheating Flight Data for Planetary Probe Thermal...][research_wright_milos_2006]
 - [Numerical Simulation of control of plasma flow with magnetic...][research_fujino_ishikawa_2006]
@@ -3281,11 +3953,13 @@ The article computes bounds precisely because none of these exists.
 - [Design and Testing of a Diver Thermal Protection Garment][research_pendergast_mollendorf_2008]
 - [Multilayer SiC for thermal protection system of space...][research_biamino_liedtke_2008]
 - [New Thermal Protection Concepts for the Next Generation Gas...][research_clarke_2008]
+- [Revitalizing the Space Shuttle's Thermal Protection System...][research_wilsonbrad_galatzeryishai_2008]
 - [Transient aero-thermal mapping of passive Thermal Protection...][research_mahulikar_khurana_2008]
 - [Aeroassisted Orbital Transfer Trajectory Optimization...][research_gogu_matsumura_2009]
 - [CMC thermal protection system for future reusable launch...][research_pichon_barreteau_2009]
 - [Comparison of Materials for an Integrated Thermal Protection...][research_gogu_bapanapalli_2009]
 - [Nondestructive Evaluation NDE for Characterizing Oxidation...][research_rothdonj_rauserrichardw_2009]
+- [High-Temperature Spectrometer for Thermal Protection System...][research_white_2010]
 - [Hot working of platinum group metal-modified Ni-base...][research_ballard_weaver_2010]
 - [Multilayer SiC for thermal protection system of space...][research_biamino_antonini_2010]
 - [Nondestructive Evaluation NDE for Characterizing Oxidation...][research_rothdonj_jacobsonnathans_2010]
@@ -3300,20 +3974,48 @@ The article computes bounds precisely because none of these exists.
 - [Terahertz Computed Tomography of NASA Thermal Protection...][research_rothdj_reyesrodriguezs_2011]
 - [The Effects of Foam Thermal Protection System on the Damage...][research_nettlesat_hodgeaj_2011]
 
+- [Thermal design and thermal testing of the UK-3 spacecraft][research_semple_1968]
+- [Optimization of steady-state thermal design of space radiators][research_thurman_1969]
+- [Studies related to satellite thermal control Measurements of...][research_neel_griffin_1969]
+- [Thermal control of a Mars entry capsule][research_stultz_1969]
+- [Why the Temperature Rise does not Occur in Radiative...][research_jordan_1969]
+- [Comment on "Effects of Simulated Mars Dust Erosion...][research_cross_newman_1970]
+- [Lunar Module thermal-vacuum simulation utilizing conformal...][research_hellmann_conover_1970]
+- [Radiative equilibrium temperature of the atmosphere along...][research_godbole_kelkar_1970]
+- [Scale modeling considerations for thermal control coatings][research_macgregor_thompson_1970]
+- [Heat-rejection radiator mass and its influence in space power...][research_bonneville_1971]
+- [Approximate solution to the radiative equilibrium between...][research_armaly_saad_1972]
+- [EC/LSS thermal control system study for the space shuttle][research_howellhr_1972]
+- [Investigation of phase-change coatings for variable thermal...][research_kelliherwc_youngpr_1972]
+- [Review of Thermal Control Materials for Metallic Junctions][research_fletcher_1972]
 - [Spacecraft thermal vacuum testing][research_elambf_lancasterld_1972]
 - [Thermal Control of a Jovian Survivable Probe][research_schelden_1972]
+- [Collisions and radiative equilibrium][research_collisions_and_1973]
 - [Design and test of a self-controlled heat pipe radiator][research_swerdlingb_hembachr_1973]
 - [Development of a Phase Change Thermal Control Device][research_schelden_golden_1973]
 - [Heat pipe radiator][research_swerdlingb_alarioj_1973]
 - [Heat transfer and spacecraft thermal control][research_jones_1973]
+- [Radiative equilibrium of a gray medium in a rectangular...][research_glatt_olfe_1973]
+- [Two-dimensional radiative equilibrium A semi-infinite medium...][research_breig_crosbie_1973]
+- [Use of radiator KFS-8 as a convective heat exchanger for...][research_kostyukov_1973]
 - [Assessment of an Active Thermal Control Louvre Array for...][research_lewis_kenkare_1974]
+- [Passive Cryogenic Cooling of Electrooptics with a Heat...][research_nelson_goldstein_1974]
 - [Predicting spacecraft multilayer insulation performance from...][research_stimpsonld_hagemeyerwa_1974]
+- [Space processing applications payload equipment study. Volume...][research_hammelrl_smithag_1974]
 - [Thermoelectric Device Application to Spacecraft Thermal...][research_chapter_johnsen_1974]
+- [Two-dimensional radiative equilibrium A semi-infinite medium...][research_breig_crosbie_1974]
+- [Two-dimensional radiative equilibrium Boundary emissive...][research_breig_crosbie_1974_b]
 - [Heat pipe thermal control set point shift][research_mckee_1975]
+- [Radiative equilibrium in a rectangular enclosure bounded by...][research_modest_1975]
 - [Reusable Multilayer Insulation Development][research_walburn_1975]
+- [Spacecraft Optical and Thermal Model][research_hallstein_1975]
+- [Two-dimensional radiative equilibrium Boundary fluxes for a...][research_breig_crosbie_1975]
 - [Development of the Viking Mars Lander Thermal Control...][research_morey_gorman_1976]
+- [Earth albedo as determined from Skylab data][research_prenger_patterson_1976]
+- [Solar Absorptance of Second Surface Mirrors for High Angles...][research_stultz_1976]
 - [Viking Mars hydrazine terminal descent engine thermal design...][research_cunningham_morrisey_1977]
 - [Design and evaluation of a rotating variable conductance heat...][research_marshburnjp_mcintoshrjr_1978]
+- [Two-dimensional radiative equilibrium of a gray medium...][research_modest_stevens_1978]
 - [A Variable-Conductance Heat Pipe Radiator for MAROTS-Type...][research_savage_aalders_1979]
 - [Development of a Liquid-Trap Heat Pipe Thermal Diode][research_groll_munzel_1979]
 - [Engineering aspects of a thermal control subsystem for the 25...][research_schroederpe_1979]
@@ -3321,13 +4023,19 @@ The article computes bounds precisely because none of these exists.
 - [Present Capabilities and Extension Possibilities of the...][research_vallerani_esposti_1979]
 - [Ultraviolet Irradiation Effects on Candidate Spacelab Thermal...][research_bosma_levadou_1980]
 - [Active thermal control for an advanced power platform][research_owenjw_steinds_1981]
+- [Liquid Droplet Radiators for Heat Rejection in Space][research_mattick_hertzberg_1981]
+- [Materials Experiment Carrier Thermal Control System study][research_flemingm_1981]
+- [SAS 2 observations of the Earth albedo gamma radiation above...][research_thompson_simpson_1981]
+- [Sea water intake and its effect on heat rejection design and...][research_alielsaie_kafrawi_1981]
 - [Thermal vacuum testing of flexible radiator systems][research_ranking_benkod_1981]
 - [Flexible radiator thermal vacuum test report][research_orenja_hixoncw_1982]
 - [Improved multilayer insulation applications][research_georgemikk_1982]
 - [OTS Two Years of Thermal Control Experience in Orbit][research_gulpen_bouchez_1982]
 - [The liquid droplet radiator-An ultralightweight heat...][research_mattick_hertzberg_1982]
 - [Automatic thermal control switches][research_wing_1983]
+- [Radiative equilibrium model of Titan's atmosphere][research_samuelson_1983]
 - [Advanced passive radiator for spaceborne cryogenic cooling][research_bard_1984]
+- [Heat transfer in heat rejection systems][research_liburdy_1985]
 - [Performance of the Spacelab Astro-1 mission heat pipe radiator][research_humphrieswr_hamnerrm_1985]
 - [The Capillary Pumped Loop CPL GAS experiment G-471][research_danbutler_1985]
 - [Thermal control system of the Purdue University Space Shuttle...][research_stark_1985]
@@ -3335,21 +4043,29 @@ The article computes bounds precisely because none of these exists.
 - [Cryogenic and thermal design for the space infrared telescope...][research_lee_brooks_1986]
 - [Development of the payload module radiator for the...][research_kuriyama_kawashima_1986]
 - [Droplet radiator systems for spacecraft thermal control][research_taussig_mattick_1986]
+- [Optimization of heat rejection in space][research_kerrebrock_1986]
 - [Space constructible radiator on-orbit assembly][research_otterstedt_hussey_1986]
 - [Spacecraft thermal control technology Design challenges into...][research_wise_1986]
+- [Stirling Engine External Heat System Design with Heat Pipe...][research_godett_ziph_1986]
 - [The share flight experiment - An advanced heat pipe radiator...][research_alariojp_otterstedtpj_1986]
+- [Thermal Control Working Group report][research_haslettrobert_mahefkeyethomas_1986]
 - [Thermal design of aeroassisted orbital transfer vehicle heat...][research_pitts_murbach_1986]
 - [Design and test of a mechanically pumped two-phase thermal...][research_grotemg_starkja_1987]
 - [Development of an emulation-simulation thermal control model...][research_colwellgenet_hartleyjamesg_1987]
+- [Nimbus 7 earth radiation budget wide field of view climate...][research_hucek_kyle_1987]
 - [Spacecraft thermal design][research_williamson_1987]
 - [Thermal control systems for spacecraft instrumentation][research_peterson_1987]
 - [Thermal design of the ACCESS erectable space truss][research_bradley_foss_1987]
 - [Calorimetric measurements of thermal control surfaces at...][research_anderson_hattar_1988]
 - [Long-term performance of the passive thermal control systems...][research_mason_1988]
+- [Effect of combustion chamber insulation on the performance of...][research_assanis_1989]
+- [Line blanketing without local thermodynamic equilibrium. II...][research_anderson_1989]
 - [Optimum heat rejection temperatures for spacecraft heat pumps][research_edwards_richards_1989]
+- [Radiator Developed for Space Power Systems][research_radiator_developed_1989]
 - [Thermal control of space X-ray experiment][research_akau_larson_1989]
 - [Development and integration of the capillary pumped loop GAS...][research_butlerd_mcintoshr_1990]
 - [Optimum Heat Rejection Temperatures for Spacecraft Heat Pumps][research_edwards_richards_1990]
+- [Space environmental effects on spacecraft thermal control...][research_bartosiklg_babelhw_1990]
 - [Active thermal control system evolution][research_petetepatriciaa_amesbriane_1991]
 - [The enhanced capillary pumped loop flight experiment, a...][research_butlerd_hoangt_1991]
 - [Thermal control surfaces experiment S0069 initial materials...][research_wilkesdonaldr_hummerleighl_1991_b]
@@ -3368,33 +4084,54 @@ The article computes bounds precisely because none of these exists.
 - [Thermal control surfaces experiment flight system performance][research_wilkesdonaldr_hummerleighl_1992]
 - [Thermal design verification of a large deployable antenna for...][research_tsunoda_nakajima_1992]
 - [COMET service module capillary pumped loop thermal control...][research_yunjamesseokgeun_kroliczekedward_1993]
+- [Numerical modeling and passive thermal control of external...][research_buckgregorya_liweiming_1993]
 - [The Earth Observing System AM Spacecraft - Thermal Control...][research_chalmersd_fredleyj_1993]
 - [The effects of simulated low Earth orbit environments on...][research_deverjoycea_rutledgesharonk_1993]
 - [Measured plasma conductivity of zinc-oxide-based thermal...][research_hillard_1994_b]
+- [Optimized tubular radiator with annular fins on a...][research_sunilkumar_venkateshan_1994]
 - [TOPEX microwave radiometer thermal control - Post-system-test...][research_lin_1994]
 - [The Cylindrical Electrostatic Liquid Film Radiator for Heat...][research_kim_bankoff_1994]
 - [Flight testing of the Capillary Pumped Loop Flight Experiment][research_butlerdan_ottensteinlaura_1995]
+- [Radiative transfer in participating media under conditions of...][research_machali_1995]
+- [Triple objective optimum design of a two-column radiator of...][research_kowalski_1995]
+- [High-Power Electronics Heat Rejection From Aircraft Skin][research_dyson_hashemi_1996]
+- [Radiative equilibrium in cavity and emission of thermal...][research_vasilieva_1996]
+- [97/03207 Performance of a heat pipe thermosyphon radiator][research_97_03207_performance_1997]
+- [Engine and radiator fetal and placental interactions for heat...][research_schroder_power_1997]
 - [Evaluation of Thermal Control Coatings for Flexible Ceramic...][research_kourtidesdemetrius_carrollcarol_1997]
 - [High-Flux, High-Temperature Thermal Vacuum Qualification...][research_kerslakethomasw_masonlees_1997]
 - [Lightweight radiator optimization for heat rejection in space][research_tagliafico_fossa_1997]
+- [PERFORMANCE OF A HEAT PIPE THERMOSYPHON RADIATOR][research_jebrail_andrews_1997]
 - [Calculation of Sensitivities in Thermal Control Systems with...][research_suresha_gupta_1998]
 - [Components heat transfer studies in a low heat rejection DI...][research_rakopoulos_mavropoulos_1998]
 - [Evaluation of Low Earth Orbit Environmental Effects on...][research_deverjoycea_rutledgesharonk_1998]
 - [Thermal analysis of the thermal protection system for the...][research_ohtake_1998]
 - [Loop Heat Pipe Applications for Thermal Control of Martian...][research_birurgaj_rodriquezjose_1999]
+- [Modelling the transient heat transfer in the ceramic...][research_rakopoulos_mavropoulos_1999]
 - [A correlation of optimal heat rejection pressures in...][research_liao_zhao_2000]
+- [Angular solar absorptance and incident angle modifier of...][research_tesfamichael_wackelgard_2000]
 - [Combined spacecraft propulsion and thermal control system][research_combined_spacecraft_2000]
 - [Managing Risk for Thermal Vacuum Testing of the International...][research_carekjerrya_beachduanee_2000]
 - [Parametric Study of Variable Emissivity Radiator Surfaces][research_groblisam_swansontheodored_2000]
+- [Spacecraft Thermal Control Management Using Electrochromics][research_woollam_trimble_2000]
+- [Temperature field inside an absorbing-emitting...][research_abdallah_dez_2000]
+- [Angular solar absorptance and incident angle modifier of...][research_angular_solar_2001]
+- [Investigation of the Temperature Distribution on Radiator...][research_wang_ma_2001]
 - [Optimization of a Low-Gravity Two-Phase System for Lunar Heat...][research_chambers_simon_2001]
+- [Radiative Equilibrium and Temperature Correction in Monte...][research_bjorkman_wood_2001]
 - [Testing of a loop heat pipe with two evaporators and two...][research_birurgc_kuj_2001]
+- [Thermal Model of an Absolute Solar Radiometer Designed for...][research_shen_chenand_2001]
 - [Thermophysical Properties of High-Thermal-Conductivity...][research_nagano_ohnishi_2001]
 - [Aeroheating Thermal Analysis Methods for Aerobraking Mars...][research_amundsenruthm_decjohna_2002]
 - [Development of an Autonomous Spacecraft Radiator/Absorber...][research_nagano_ohnishi_2002]
 - [Exposure of Polymer Film Thermal Control Materials on the...][research_deverjoyce_millersharon_2002]
+- [Influence of a depth of a recessed space to flow due to...][research_bojic_lee_2002]
+- [Temperature field of radiative equilibrium in a...][research_huang_xia_2002]
 - [Thermal Analysis and Design Optimization of Multilayer...][research_daryabeigi_2002]
 - [Approach for Combining Spacecraft Attitude and Thermal...][research_varatharajoo_kahle_2003]
+- [Corrigendum to "Temperature field of radiative equilibrium in...][research_huang_xia_2003]
 - [NASA thermal control technologies for robotic spacecraft][research_swanson_birur_2003]
+- [Thermal Design for Satellite Propulsion System by Thermal...][research_thermal_design_2003]
 - [A comparative analysis of loop heat pipe based thermal...][research_paukenmike_birurgaj_2004]
 - [Development of a Microelectromechanical System for Small...][research_beasley_2004]
 - [Loop Heat Pipe for Spacecraft Thermal Control, Part 1 Vacuum...][research_parker_drolen_2004]
@@ -3403,10 +4140,14 @@ The article computes bounds precisely because none of these exists.
 - [Lightweight Radiator System for a Spacecraft][research_copelandrobertj_masongeorgia_2005]
 - [Loop Heat Pipe for Spacecraft Thermal Control, Part 2 Ambient...][research_parker_drolen_2005]
 - [Miniature Loop Heat Pipe with Multiple Evaporators for...][research_kujentung_ottensteinlaura_2005]
+- [Next Generation Devices for Electronic Cooling With Heat...][research_webb_2005]
+- [Some thoughts on solving the radiative transfer equation in...][research_emery_2005]
 - [Surface engineering for thermal control of spacecraft][research_sharma_2005]
+- [Comprehensive optimization of a heat pipe radiator assembly...][research_vlassov_desousa_2006]
 - [Heat Rejection Concepts for Lunar Fission Surface Power...][research_siamidisjohn_2006]
 - [Heat Transfer In High-Temperature Multilayer Insulation][research_daryabeigikamran_millerstephend_2006]
 - [Issues and Implications of the Thermal Control System on...][research_williams_palo_2006]
+- [Liquid Metal Loop and Heat Pipe Radiator for Space Reactor...][research_tournier_elgenk_2006]
 - [Probabilistic transient thermal analysis of an atmospheric...][research_nakamura_fujii_2006]
 - [Simple Deployable Radiator with Autonomous Thermal Control...][research_nagano_nagasaka_2006]
 - [Stochastic Spacecraft Thermal Design Optimization with Low...][research_muraoka_galski_2006]
@@ -3415,19 +4156,46 @@ The article computes bounds precisely because none of these exists.
 - [Thermal Model Correlation for Mars Reconnaissance Orbiter][research_amundsenruthm_decjohna_2007]
 - [Thermal Modeling of the Mars Reconnaissance Orbiter's Solar...][research_decjohna_gasbarrejosephf_2007]
 - [Current Issues in Human Spacecraft Thermal Control Technology][research_ungareugenek_2008]
+- [Development of a Bearingless Ammonia Pump for Spacecraft...][research_baldauff_kawecki_2008]
+- [Experimental and theoretical investigation of a nocturnal...][research_bagiorgas_mihalakakou_2008]
 - [JPL Advanced Thermal Control Technology Roadmap - 2008][research_birurgaj_2008]
 - [MISSE Thermal Control Materials with Comparison to Previous...][research_finckenormiria_pippinhgary_2008]
+- [Performance Analysis of an Electrostatic Switched Radiator...][research_currano_moghaddam_2008]
 - [Return to Mercury An Overview of the MESSENGER Spacecraft...][research_ercol_2008]
 - [Design Description and Initial Characterization Testing of an...][research_ganapathi_sunada_2009]
+- [Design Optimization for Loop Heat Pipe Using Tabu Search][research_design_optimization_2009]
+- [Environmental Testing of Thermal Control Materials at...][research_heltzel_semprimoschnig_2009]
 - [Integrated Multilayer Insulation][research_dyescott_2009]
+- [Temperature field of radiative equilibrium in a...][research_huang_zhu_2009]
 - [A critical approach to the determination of optimal heat...][research_cecchinato_corradi_2010]
+- [Analysis of the radiation heat transfer process of phase...][research_yin_liu_2010]
+- [DEVELOPMENT OF A CFRP RADIATOR WITH INTEGRATED LOOP HEAT PIPE...][research_schlitt_bodendieck_2010]
+- [Heat Emission Characteristics on Natural Convection Radiator...][research_sung_2010]
 - [Multi-Evaporator Miniature Loop Heat Pipe for Small...][research_kujentung_ottensteinlaura_2010]
+- [Thermal Design, Analysis and Experimental Verification of a...][research_chen_2010]
 - [Application of entransy to optimization design of parallel...][research_cheng_xu_2011]
+- [Design Analysis of a High Temperature Radiator for the...][research_shethrubikb_ungareugenek_2011]
 - [Design and Modeling of a Variable Heat Rejection Radiator][research_millerjenniferr_birurgajananac_2011]
+- [Design and construction of a low-cost economical thermal...][research_jayaram_gonzalez_2011]
+- [Heat pipe-based radiator for low grade geothermal energy...][research_kerrigan_jouhara_2011]
+- [Heat transfer characteristics of a reservoir embedded loop...][research_ishikawa_nomura_2011]
 - [Materials International Space Station Experiment 5 Polymer...][research_miller_dever_2011]
+- [Study on a Novel Separating Flat Heat Pipe Radiator][research_du_liang_2011]
 - [Testing of a Methane Cryogenic Heat Pipe with a Liquid Trap...][research_cepedarizojuan_krylorobert_2011]
+- [Thermal Design and Analysis of a Satellite Borne Electronic...][research_chen_2011_b]
+- [Thermal Design of a Satellite Borne FPGA][research_chen_2011]
 - [Thermal analysis of an innovative flat heat pipe radiator][research_kou_bai_2011]
+- [Visualization Research on Heat Pipe Radiator in Cooling...][research_zhao_ye_2011]
 
+- [New solar cell systems for solar probes][research_eder_1973]
+- [Solar cell radiation handbook][research_carterjrjr_tadahy_1973]
+- [Effect of shading on solar cells and optimal solar array...][research_sayed_partain_1975]
+- [Photovoltaic solar cell array used for supplemental power...][research_barker_power_1979]
+- [Solar Cell High Efficiency and Radiation Damage, 1979][research_solar_cell_1979]
+- [Spacecraft-Generated Plasma Interaction with High-Voltage...][research_parks_katz_1979]
+- [Predicted effect of grid line aspect ration on the...][research_flat_milnes_1980]
+- [Solar cell array design handbook The principles and...][research_kreith_1980]
+- [The applicability of DOE solar cell and array technology to...][research_scottmonckja_stellapm_1980]
 - [Three year performance of the NTS-2 solar cell experiment][research_statlerrl_walkerdh_1980]
 - [A pentahedral pyramidal concentrator design for space solar...][research_hsul_1981]
 - [Optimum Operation of a Combined System of a Solar Cell Array...][research_zinger_braunstein_1981]
@@ -3438,23 +4206,29 @@ The article computes bounds precisely because none of these exists.
 - [A simple model of space radiation damage in GaAs solar cells][research_wilsonjw_stithjj_1983]
 - [Preliminary concept of a 100-kilowatt miniaturized...][research_pattersonre_1984]
 - [The STEP/STACBEAM experiment technology development for very...][research_samuelsr_1984]
+- [A model of silicon solar cells for concentrator photovoltaic...][research_mbewe_card_1985]
 - [Current collection from the space plasma through defects in...][research_stillwell_robinson_1985]
+- [Solar simulator measurement system for large-area solar cells...][research_bohm_scheer_1985]
 - [Circuit transients due to arcs on a high-voltage solar array][research_metz_1986]
 - [Solar array 'hot-spot' testing and analysis][research_papula_stowell_1986]
 - [Numerical analysis of interaction of a high-voltage solar...][research_kuninaka_kuriki_1987]
+- [A satellite experiment to study the effects of space...][research_walker_statler_1988]
 - [High-voltage solar cell modules in simulated low-earth-orbit...][research_thiemann_bogus_1988]
 - [Status of Advanced Photovoltaic Solar Array program][research_kurlandrichard_stellapaul_1988]
 - [A three solar cell system based on a self-supporting...][research_negleygeraldh_rhoadssandral_1989]
+- [Radiation-Hard High-Efficiency InP Space Solar Cell...][research_spirecorpbedfordma_1989]
 - [Ground studies of ionospheric plasma interactions with a high...][research_kuninaka_nozaki_1990]
 - [Ion drag for a negatively biased solar array in low earth...][research_hastings_cho_1990]
 - [Photovoltaic Array Space Power Plus Diagnostics Experiment][research_donaldaguidice_1990]
 - [Photovoltaic array GaAs cells response driven by high power...][research_landry_rupert_1990]
 - [The effect of the low Earth orbit environment on space solar...][research_brinkerdavidj_hickeyjohnr_1990]
+- [Inflatable Torus Solar Array Technology Program. Phase 1][research_derbis_guidanean_1991]
 - [Tandem concentrator photovoltaic array applied to Space...][research_fisheredwardmjr_1991]
 - [Thin film, concentrator and multijunction space solar cells...][research_flooddennisj_1991]
 - [Monolithic and mechanical multijunction space solar cells][research_jainrajk_flooddennisj_1992]
 - [A high specific power solar array for low to mid-power...][research_jonespalan_whitestephenf_1993]
 - [Computer particle simulation of high-voltage solar array...][research_cho_hastings_1993]
+- [Developing an Inflatable Solar Array][research_malone_crawford_1993]
 - [Prediction of solar array power output based on limited...][research_sharma_agarwal_1993]
 - [Property changes induced by the space environment in...][research_property_changes_1993]
 - [Solar array module plasma interactions experiment SAMPIE...][research_hillard_ferguson_1993]
@@ -3464,6 +4238,7 @@ The article computes bounds precisely because none of these exists.
 - [INTELSAT solar array coupon atomic oxygen flight experiment][research_koontz_king_1994]
 - [Plasma chamber testing of advanced photovoltaic solar array...][research_hillard_1994]
 - [The use of displacement damage dose to correlate degradation...][research_summersgeoffreyp_burkeedwarda_1994]
+- [Contamination and space environmental effects on solar cells...][research_dever_bruckner_1995]
 - [Development of advanced Si and GaAs solar cells for...][research_stroblg_uegelep_1995]
 - [Low Earth orbit durability of protected silicone for...][research_degroh_mccollum_1995]
 - [Solar Array Deployment Mechanism][research_markccalassa_russellkackley_1995]
@@ -3472,23 +4247,28 @@ The article computes bounds precisely because none of these exists.
 - [A construction methodology of the large solar array system of...][research_shigehara_ohtaka_1996]
 - [Data analysis and model comparison for Solar Array Module...][research_delacruz_hastings_1996]
 - [Deployment and retraction of a cable-driven rigid panel solar...][research_kumar_pellegrino_1996]
+- [Light-Weight, Low Cost, High-Efficiency Solar Cells Space...][research_timmons_1996]
+- [Radiation-Hard High-Efficiency InP Space Solar Cell...][research_spirecorpbedfordma_1996]
 - [Status of multijunction solar cells][research_yehycm_chucl_1996]
 - [5604430 Solar array maximum power tracker with arcjet load][research_5604430_solar_1997]
 - [A close-form solution for the maximum-power operating point...][research_alghuwainem_1997]
 - [Flight Data Analysis for the Photovoltaic Array Space Power...][research_soldi_hastings_1997]
 - [Mir Cooperative Solar Array][research_skormike_hoffmandavej_1997]
+- [Optimization of thermal processing and device design for...][research_warabisako_uematsu_1997]
 - [Thermal Cycling of Mir Cooperative Solar Array MCSA Test...][research_hoffmandavidj_scheimandavida_1997]
 - [5677833 Power conditioning system for a four quadrant...][research_5677833_power_1998]
 - [Buckling and Quasistatic Thermal-Structural Response of...][research_murozono_thornton_1998]
 - [Solar Array Degradation by Dust Impacts During Cometary...][research_lorenz_1998]
 - [Plasma effects driven by electromotive force of spacecraft...][research_sasaki_1999]
 - [Terra Flexible Blanket Solar Array Deployment, On-Orbit...][research_kurlandrichard_schurighans_2000]
+- [Modeling the performance of solar cells with and without the...][research_abenante_2002]
 - [Space plasma effects on spacecraft surface driven by solar...][research_sasaki_tanaka_2002]
 - [Thermal Analysis and Correlation of the Mars Odyssey...][research_decjohna_gasbarrejosephf_2002]
 - [Unloading law for a LEO spacecraft with two-gimbals solar...][research_jan_chiou_2002]
 - [A Thermal Analysis Approach for the Mars Odyssey Spacecraft's...][research_decjohna_amundsenruthm_2003]
 - [Aeroheating Thermal Model Correlation for Mars Global...][research_amundsenruthm_decjohna_2003]
 - [Flight Experience from Space Photovoltaic Concentrator Arrays...][research_piszczormichaelfjr_2003]
+- [Modeling the performance of solar cells with and without the...][research_modeling_the_2003]
 - [Solar Array Modeling for Space Station S-Band/Global...][research_hwu_loh_2003]
 - [Progress in the Multijunction Solar Cell Mantech Program][research_keenerdavidn_marvindean_2004]
 - [Thermal analysis for folded solar array of spacecraft in orbit][research_yang_cheng_2004]
@@ -3502,9 +4282,11 @@ The article computes bounds precisely because none of these exists.
 - [Multijunction Solar Cell Technology for Mars Surface...][research_stellapaulm_mardesichnick_2006]
 - [Role of Water Vapor in Solar Array Arc Initiation...][research_galofaro_vayner_2006]
 - [Multijunction Solar Cell Development and Production at...][research_fetzerchris_kingrr_2007]
+- [Photovoltaic power generation using albedo and thermal...][research_girish_aranya_2007]
 - [Analysis of the UNISAT-3 Solar Array In-Orbit Performance][research_santoni_piergentili_2008]
 - [Erratum on "Analysis of the UNISAT-3 Solar Array In-Orbit...][research_santoni_piergentili_2008_b]
 - [Solar Array Plasma Interaction Influence of Interconnect...][research_likar_bogorad_2008]
+- [Electrochromic emissivity modulator for spacecraft thermal...][research_demiryont_moorehead_2009]
 - [Electrostatic Discharge Test on Cu In, Ga Se2 Solar Cell Array][research_okumura_toyoda_2009]
 - [Environmental Effects on Solar Array Electrostatic Discharge...][research_okumura_masui_2009]
 - [Optimal Utilization of Solar Arrays Design and Implimentation...][research_ubeku_igbinovia_2009]
@@ -3512,15 +4294,19 @@ The article computes bounds precisely because none of these exists.
 - [Combined Space Environmental Exposure Tests of Multi-Junction...][research_hoangbao_wongfrankie_2010]
 - [Changes of Solar Array Surfaces on Orbital Station Mir][research_skurat_leipunsky_2011]
 - [Design and analysis of the composite lattice frame of a...][research_morozov_lopatin_2011]
+- [Environmental Assessment for the Construction of a...][research_moore_morin_2011]
 - [Spacecraft solar array technology trends][research_jones_spence_2011]
+- [The Optimization of Operation Characteristics for Finned Heat...][research_wang_zhang_2011]
 
 - [Nickel-hydrogen low-earth-orbit test program][research_mcdermott_1986]
 - [Parametric tests of a 40 A h bipolar nickel-hydrogen battery][research_cataldo_1986]
 - [KOH concentration effect on cycle life of nickel-hydrogen...][research_limhongs_verzwyveltsa_1987]
+- [Cost reductions in the nickel-hydrogen battery][research_beauchamp_sindorf_1988]
 - [KOH concentration effect on cycle life of nickel-hydrogen...][research_limhs_verzwyveltsa_1988]
 - [KOH concentration effect on the cycle life of nickel-hydrogen...][research_lim_verzwyvelt_1988]
 - [Characterization testing of a 40 AHR bipolar nickel-hydrogen...][research_brewerjeffreyc_manzomichellea_1989]
 - [Extended life nickel-hydrogen storage cell][research_extended_life_1989]
+- [Characterization testing of a 40 ampere hour bipolar...][research_brewer_manzo_1990]
 - [ChemInform Abstract Metal Hydride Anodes for Nickel-Hydrogen...][research_sakai_miyamura_1990]
 - [Effect of KOH concentration on LEO cycle life of IPV...][research_smithrickjohnj_hallstephenw_1990]
 - [KOH concentration effect on the cycle life of nickel-hydrogen...][research_lim_verzwyvelt_1990]
@@ -3531,7 +4317,9 @@ The article computes bounds precisely because none of these exists.
 - [Effect of KOH concentration on LEO cycle life of IPV...][research_smithrickjohnj_hallstephenw_1992]
 - [Evaluation of nickel-hydrogen battery cells for space-based...][research_maskell_metcalfe_1992]
 - [Nickel-hydrogen multicell common pressure vessel battery...][research_zagrodnik_jones_1992]
+- [ChemInform Abstract Thermal Characteristics of a...][research_kim_nguyen_1994]
 - [Hydrogen-based rechargeable battery systems Military...][research_coates_fox_1994]
+- [Thermal Characteristics of a Nickel-Hydrogen Battery][research_kim_nguyen_1994_b]
 - [Improvement in cycle life performance of high capacity...][research_kaiya_ookawa_1995]
 - [5478664 Method of recovering reusable metals from...][research_5478664_method_1996]
 - [5530335 Battery regulated bus spacecraft power control system][research_5530335_battery_1996]
@@ -3548,6 +4336,7 @@ The article computes bounds precisely because none of these exists.
 - [Lightweight Battery Charge Regulator Used to Track Solar...][research_soederjamesf_buttonrobertm_1999]
 - [Nickel-Hydrogen Cell Testing Experience, NASA/Goddard Space...][research_raogopalakrishnam_1999]
 - [Prototype Lithium-Ion Battery Developed for Mars 2001 Lander][research_manzomichellea_2000]
+- [Cycle Life Enhancement in Cu-Sn Anodes][research_wofenstine_foster_2002]
 - [Mg-based 6 wt% hydrogen storage alloys with long cycle life][research_mg_based_6_2002]
 - [NiH2 Cycle Life Study][research_hollandsworthrogerp_armantroutjond_2002]
 - [Capacitor Superior to Nickel-Hydrogen Battery][research_capacitor_superior_2004]
@@ -3560,10 +4349,12 @@ The article computes bounds precisely because none of these exists.
 - [Cycle-life testing of 100-Ah class lithium-ion battery in a...][research_wang_sone_2006]
 - [Low Temperature Life-Cycle Testing of a Lithium-Ion Battery...][research_reidconcha_2006]
 - [Performance and cycle life test results of a PEVE...][research_potter_duong_2006]
+- [A microfabricated nickel-hydrogen battery using thick film...][research_tam_wainright_2007]
 - [Thermal Design and Analysis of a Battery Module for a Remote...][research_megahed_eldib_2007]
 - [Cycle life evaluation of 3Ah LixMn2O4-based lithium-ion...][research_brown_ogawa_2008]
 - [Numerical Analysis on the Temperature Field and Structural...][research_qin_2009]
 - [The cycle life prediction of Mg-based hydrogen storage alloys...][research_tian_zhang_2009]
+- [A Solid-State, Rechargeable, Long Cycle Life Lithium-Air...][research_kumar_kumar_2010]
 - [Cycle Life Prediction of Battery-Supercapacitor Hybrids Using...][research_tian_lian_2010]
 - [Life Cycle Analysis of Lithium-Ion Batteries under...][research_anguchamy_popov_2010]
 - [Copper hexacyanoferrate battery electrodes with long cycle...][research_wessells_huggins_2011]
@@ -3572,27 +4363,52 @@ The article computes bounds precisely because none of these exists.
 - [Earth's shadow to cause lunar eclipse][research_pilcher_2003]
 - [Sun-synchronous satellite orbit determination][research_ma_zhai_2004]
 - [Lynx-Eyed Detectives and Shadow Bandits Visuality and Eclipse...][research_gunning_2005]
+- [Off-Nominal Performance of the International Space Station...][research_kerslakethomasw_scheimandavida_2005]
 - [In the shadow of the eclipse of White America][research_andrews_2006]
 
+- [Electron density profiles in ionosphere and exosphere][research_ratcliffe_1967]
+- [Recent experimental evidence bearing on satellite drag...][research_moe_1968]
+- [A study of the semi-annual density variation in the upper...][research_jacchia_slowey_1969]
+- [Model electron density profiles for the lower ionosphere][research_beynon_rangaswamy_1969]
+- [The Effect of Atmospheric Drag on the Orbit of an Arfificial...][research_bramson_1969]
+- [Auroral enhancement of ionospheric electron density][research_bates_1970]
+- [On obtaining electron-density profiles of planetary...][research_kak_1970]
+- [Orbiter-to-orbiter radio occultation measurements of...][research_goff_grossi_1970]
+- [Satellite Data Analysis to Investigate the Horizontal Ion...][research_sharp_harris_1971]
+- [A note on the density at high latitudes inferred from...][research_ching_1972]
+- [A thermospheric model from satellite orbital decay densities...][research_swartz_rohrbaugh_1972]
+- [On the determination of the harmonic components of the...][research_blumpw_1972]
+- [A note on the spectral density function of ionospheric...][research_chytil_1975]
+- [An improved phenomenological model of ionospheric density][research_chiu_1975]
 - [Atmospheric density at 169 km from accelerometer measurements...][research_ching_rugge_1975]
 - [Atmospheric density from the low altitude satellite 1970-48A...][research_rugge_ching_1975]
 - [On fundamental problems in the deduction of atmospheric...][research_imbro_moe_1975]
+- [On the role of atmospheric pressure and density variations in...][research_lastovicka_1975]
 - [Variations in air density, satellite drag coefficient and...][research_bowamn_1975]
+- [A holographic radio camera technique for the...][research_stone_1976]
 - [Exospheric density measurements from the drag-free satellite...][research_moe_debra_1976]
 - [Observations of neutral composition and related ionospheric...][research_hedinae_mayrhg_1977]
 - [On the determination and investigation of the terrestrial...][research_liu_1978]
+- [Analytic theory of orbit contraction due to atmospheric drag][research_vinh_longuski_1979]
 - [Comparison of Atmospheric Density Data from Mass...][research_roemer_framke_1979]
 - [Density and Exospheric Temperature Variation Derived from the...][research_kato_hirao_1979]
 - [Ion-drag effects in the thermosphere][research_rishbeth_1979]
 - [Orbital decay and accretion of M32 by M31][research_byrd_1979]
 - [The latitudinal gradient of nitric oxide in the thermosphere][research_cravenste_gerardjc_1979]
+- [Atmospheric drag as the cause of the secular decrease in the...][research_rubincam_1980]
+- [Condensed Storage of Diffusion Equation Solutions for...][research_bass_1980]
 - [Orbital decay due to drag in an exponentially varying...][research_chakravarty_1980]
 - [Comment on "Orbital Decay Due to Drag in an Exponentially...][research_vanwoerkom_1981]
+- [A Modified Jacchia 1977 Model Atmosphere and Its Application...][research_parks_1982]
+- [Jacchia-Lineberry upper atmosphere density model][research_muellerac_1982]
+- [A Comparison of the MSIS and Jacchia-70 Models with Measured...][research_prag_1983]
 - [A revised thermospheric model based on mass spectrometer and...][research_hedinae_1983]
+- [Analysis of Satellite Drag and Spin Decay Data][research_karrgr_1985]
 - [A method for extracting meridonal winds from ionosonde...][research_richardspg_torrdg_1986]
 - [Ionospheric Doppler correction model for satellite orbit...][research_lassudrieduchesne_fleury_1986]
 - [Orbital decay of satellite galaxies in spherical systems][research_weinberg_1986]
 - [Correlations between solar activity and operationally...][research_smithea_1988]
+- [Measurements of the Thermospheric Meridional Wind from the...][research_kayser_1988]
 - [Orbital decay in aspherical galaxies. I - Oblate systems][research_statler_1988]
 - [Study of ionospheric models for satellite orbit determination][research_bilitza_rawer_1988]
 - [Atmospheric drag model calibrations for spacecraft lifetime...][research_binebrinkal_radomskims_1989]
@@ -3603,38 +4419,51 @@ The article computes bounds precisely because none of these exists.
 - [Accuracy of atmospheric drag models at low satellite altitudes][research_marcos_1990]
 - [The semi-annual variation in upper-atmosphere density deduced...][research_jones_swinerd_1990]
 - [Atmospheric drag effects on the orbital decay and lifetime of...][research_yaying_1991]
+- [Observations of ELF Signatures Arising from Space Vehicle...][research_dea_vanbise_1991]
 - [Orbital decay in aspherical galaxies. II - Triaxial systems][research_statler_1991]
 - [The space-temporal variations of the upper atmosphere density...][research_nazarenko_kravchenko_1991]
+- [COSPAR International Reference Atmosphere Thermosphere 1986][research_rees_1992]
 - [Evidence for enhanced dynamic flow in ionospheric holes from...][research_kasprzak_niemann_1992]
+- [Jacchia reference atmosphere 1977][research_jacchia_1992]
+- [Reconstruction of travelling ionospheric disturbances...][research_terekhov_1992]
+- [Solar F10.7 radiation - A short-term statistical model][research_vedder_tabor_1992]
 - [Solar cycle dependence of spacecraft charging in low Earth...][research_frooninckx_sojka_1992]
 - [Venus Satellite orbital decay, ephemeral ring formation, and...][research_bills_1992]
 - [Errata Refinements in Determining Satellite Drag Coefficients...][research_moe_wallace_1993_b]
 - [Refinements in determining satellite drag coefficients...][research_moe_wallace_1993]
 - [Change in the radiative output of the Sun in 1992 and its...][research_whiteor_rottmangj_1994]
+- [Ionospheric tomography its limitations and reconstruction...][research_raymond_franke_1994]
+- [TID, electron density and ionospheric sounding][research_chakenov_1994]
 - [Atmospheric drag modelling for orbital micro-debris at LEO...][research_mcdonnell_ratcliff_1996]
 - [Orbital Decay in the X-Ray Binary LMC X-4][research_safiharb_ogelman_1996]
 - [Detecting the dynamical state of the atmosphere from the...][research_tan_badhwar_1997]
 - [A method of compensation for mismodelling of terrestrial...][research_a_method_1998]
 - [Accretion of a Satellite onto a Spherical Galaxy Binary...][research_colpi_1998]
 - [Atmospheric conditions in 1995 from the orbital decay of the...][research_tan_1998]
+- [Determining the Magnetic Environment in Which Solar Activity...][research_radoski_1998]
 - [Effects of orbital decay on satellite-derived...][research_wentz_schabel_1998]
 - [Improved Satellite Drag Coefficient Calculations from Orbital...][research_moe_moe_1998]
 - [On the Orbital Decay of the PSR J0045-7319 Binary][research_kumar_quataert_1998]
 - [THE EFFECT OF THE EARTH'S OBLATENESS AND ATMOSPHERIC DRAG ON...][research_awad_ahmed_1999]
 - [A methodology for using optimal MSIS parameters retrieved...][research_nicholas_picone_2000]
+- [Modified Atmospheric Density Model MADM][research_roberts_2000]
 - [Orbital Decay in LMC X-4][research_levine_rappaport_2000]
 - [Comparison and Accuracy Assessment of Semi-Empirical...][research_pardini_anselmo_2001]
+- [Data Assimilation for Thermospheric Density Forecasting with...][research_forbes_2001]
 - [Orbital decay of satellites crossing an accretion disc][research_karas_subr_2001]
 - [The Effect of Atmospheric Drag on Satellite Orbits During the...][research_knowles_picone_2001]
 - [Orbital Decay and Tidal Disruption of a Star Cluster...][research_mouri_taniguchi_2003]
 - [A second order analytical atmospheric drag theory based on...][research_elsalam_sehnal_2004]
+- [An interferometric sensor for satellite drag-free control][research_speake_aston_2005]
 - [Atmospheric density calibration using satellite drag...][research_doornbos_klinkrad_2005]
 - [Ionospheric Instability Observed in Low Earth Orbit Using...][research_kramer_goodman_2005]
 - [Analysis of the orbital decay of spherical satellites using...][research_pardini_tobiska_2006]
 - [Atmospheric drag effects on the KOMPSAT-1 satellite during...][research_kim_moon_2006]
 - [Global Reference Atmospheric Models, Including Thermospheres...][research_justhhilaryl_justuscg_2006]
+- [Nonlinear evolution of thermal self-focusing instability in...][research_gondarenko_ossakow_2006]
 - [Thermospheric density 2002-2004 TIMED/GUVI dayside limb...][research_emmert_meier_2006]
 - [Assessment of Ionosphere Spatial Decorrelation for Global...][research_lee_pullen_2007]
+- [LEO Orbit Surface Charging and Its Relationship to...][research_fennell_anderson_2008]
 - [An empirical relation to correct storm-time thermospheric...][research_zhou_ma_2009]
 - [Analytical solution of a satellite orbit disturbed by...][research_xu_tianhe_2010]
 - [Ionospheric Threat Parameterization for Local Area...][research_dattabarua_lee_2010]
@@ -3692,6 +4521,8 @@ The article computes bounds precisely because none of these exists.
 - [Recent Advances in LOX / LH2 Propulsion System for Reusable...][research_tokudome_naruo_2009]
 - [Wing Planform Design Optimization for Reusable Launch Vehicle][research_manokaran_vidya_2009]
 - [NASA KSC/AFRL Reusable Booster System RBS Concept of...][research_zenodnany_mostellerted_2010]
+- [Single-Stage-to-Orbit Versus Two-Stage-to-Orbit Airbreathing...][research_heiser_2010]
+- [A Study of Estimating Structural Weight for Reusable Launch...][research_chen_wang_2011]
 - [Advancing Reusable Booster System RBS Technologies and...][research_hellman_remillard_2011]
 - [Air Force Reusable Booster System A Quick-look, Design...][research_zapataedgar_2011]
 - [Initial Assessment of the Operational Reusable Booster System...][research_hellman_wallace_2011]
@@ -3705,122 +4536,259 @@ The article computes bounds precisely because none of these exists.
 - [Trajectory Design for a Spacecraft Capable of Deploying...][research_anthonylgenova_dylanmorrisonfogel]
 - [Variation in Predicted Orbital Lifetime Due to Launch Year][research_caleyburke]
 - [Venus Global Reference Atmospheric Model Venus-GRAM Upgrades][research_hljusth_amdwyercianciolo_b]
+- [STUDIES ON THE ORBIT OF PLUTO][research_lampland_giclas_1954]
+- [Air drag effect on a satellite orbit described by difference...][research_roberson_1958]
 - [An atmospheric model, and some remarks on the inference of...][research_sterne_1958_b]
 - [Change of Inclination of a Satellite Orbit][research_bosanquet_1958]
+- [Effect of Air Drag on the Orbit of an Earth Satellite][research_parkyn_1958]
+- [Effect of Air Drag on the Orbit of the Russian Earth...][research_kinghele_leslie_1958]
 - [Polyhedral Satellite for More Accurate Measurement of Orbit...][research_herriott_1958]
 - [The Orbit of Sputnik 3 Satellite 1958 δ][research_the_orbit_1958]
+- [The effect of the earth's oblateness on the orbit of a near...][research_kinghele_1958]
 - [The gravitational orbit of a satellite of an oblate planet][research_sterne_1958]
+- [The motion of the orbital node of Sputnik 2 1957β and the...][research_buchar_1958]
 - [139. Polyhedral satellite for more accurate measurement of...][research_139_polyhedral_1959]
 - [293. Earth oblateness in terms of satellite orbital periods][research_293_earth_1959]
 - [Air Density in the Upper Atmosphere from Satellite Orbit...][research_groves_1959]
 - [Determination of Satellite Orbits from Radio Tracking Data][research_harris_jastrow_1959]
 - [Dynamic Problems Associated With Satellite Orbit Control][research_augenstein_1959]
 - [Earth Oblateness in Terms of Satellite Orbital Periods][research_blitzer_1959]
+- [Energy sources of the upper atmosphere][research_krassovsky_1959]
 - [The orbit of a satellite of an oblate planet][research_garfinkel_1959]
 - [Theory of the effect of drag on the orbital inclination of an...][research_vinti_1959]
 - [133. Air density in the upper atmosphere from satellite orbit...][research_133_air_1960]
 - [A variable atmospheric-density model from satellite...][research_jacchia_1960]
+- [An Analysis of the Corridor and Guidance Requirements for...][research_chapmandeanr_1960]
 - [Communication by Polar-Orbit Satellite Relay][research_hagan_1960]
 - [Determination of thermal radiation incident upon the surfaces...][research_determination_of_1960]
 - [Earth Satellite Observations and the Upper Atmosphere Diurnal...][research_priester_martin_1960]
 - [Effect of precession and nutation on the orbital elements of...][research_kozai_1960]
 - [Erratum United States Satellite Launched into Orbit around Sun][research_erratum_united_1960]
+- [On Mr King-Hele's Theory of the Effect of the Earth's...][research_message_1960]
 - [Optimum Orbital Transfer by Impulses][research_ting_1960]
+- [Properties of the Upper Atmosphere. Rocketsonde and Satellite...][research_sciencecommunicationincmcleanva_1960]
 - [Satellite orbits in an oblate atmosphere][research_parkyn_1960]
 - [The effect of atmospheric rotation on the orbital plane of a...][research_cook_plimmer_1960]
+- [Theory of the Orbit of an Artificial Satellite with Use of...][research_vinti_1960]
 - [United States Satellite Launched into Orbit around Sun][research_united_states_1960]
+- [Deduction of vertical thermal structure of a planetary...][research_king_1961]
 - [Formulae for an accurate intermediary orbit of an artificial...][research_vind_1961]
+- [Influence of the earth's oblateness on the rotational motion...][research_sarychev_1961]
 - [Longitudinal Dynamics of a Lifting Vehicle in Orbital Flight][research_etkin_1961]
+- [Low Acceleration Takeoff From a Satellite Orbit][research_lass_lorell_1961]
+- [Methods of calculating atmospheric densities from satellite...][research_groves_1961]
 - [Optimization of Multistage Orbit Transfer Processes by...][research_smith_1961]
 - [Optimum Steering Program for the Entry of a Multistage...][research_jurovics_1961]
 - [Orbital transfer for satellites][research_altman_1961]
+- [Production of carbon in the upper atmosphere][research_chopra_1961]
 - [Satellite Orbit Perturbations in Vector Form][research_allan_1961]
 - [Satellite Orbit Sustaining Techniques][research_bruce_1961]
+- [The formation of NO+ in the upper atmosphere][research_the_formation_1961]
+- [The formation of O2+ ions in the upper atmosphere][research_the_formation_1961_b]
+- [The influence of the earth's oblateness don the rotational...][research_the_influence_1961]
 - [Upper Atmosphere Density Determination, Based on Flight...][research_eliasberg_yastrebov_1961]
+- [A Second-Order Theory of Entry Mechanics Into a Planetary...][research_loh_1962]
+- [CONTROLLED ROTATION AND STABILIZATION FOR THE ORBITAL WORKER][research_kulwicki_peoples_1962]
+- [CORRELATION EFFECTS IN THE ALTERNANT MOLECULAR ORBITAL...][research_adams_1962_b]
+- [Chemical reactions in the lower and upper atmosphere][research_bates_1962]
+- [Concerning molecular nitrogen in the upper atmosphere][research_concerning_molecular_1962]
+- [Effect of Earth's Oblateness on the Rotational Motion of an...][research_sarychev_1962]
 - [Error Sensitivities in Satellite Ascent and Orbital Transfer][research_gretz_1962]
+- [Estimating the Lateral Range Curve from Oberved Detection...][research_arnold_bram_1962]
+- [Graphical method for prediction of time in sunlight for a...][research_graphical_method_1962]
+- [Molecular nitrogen in the upper atmosphere][research_danilov_1962]
+- [Numerical comparison between Brouwer's theory and solution by...][research_lyddane_cohen_1962]
 - [Optimum Orbital Transfer Using N-lmpulses][research_munick_1962]
 - [Orbit Decay Characteristics Due to Drag][research_parsons_1962]
 - [Orbital Theories of Electronic Structure][research_adams_1962]
+- [SIMPLE MOLECULAR ORBITAL CALCULATIONS ON THE ELECTRONIC...][research_ohno_tanabe_1962]
 - [Satellite Orbit Simulator][research_schooley_1962]
 - [The Equatorial Orbit of a Near-Earth Satellite][research_brenner_1962]
+- [The formation of molecular ions in the upper atmosphere][research_the_formation_1962]
+- [The perturbation of satellite orbits by extra-terrestrial...][research_smith_1962]
 - [Varying Orbital Exponents in Molecular Orbital Theory][research_dehn_1962]
+- [ANALYSIS OF A GENERAL PERTUBATIONS SATELLITE ORBIT...][research_kuhlman_1963]
 - [APPROXIMATE LONGITUDINAL DYNAMICS OF A LIFTING ORBITAL VEHICLE][research_norman_meier_1963]
+- [Comment on "A Second-Order Theory of Entry Mechanics into a...][research_wang_1963]
 - [Comment on "Orbit Decay Characteristics Due to Drag"][research_wu_1963]
+- [DERIVATION OF NODAL PERIOD OF AN EARTH SATELLITE AND...][research_kalil_martikan_1963]
+- [Entry into elliptic orbits round the moon][research_hiller_1963]
+- [Errata and Addendum "A Second-Order Theory of Entry Mechanics...][research_loh_1963]
+- [Helium in the upper atmosphere][research_shefov_1963]
+- [Hydroxyl emission in the upper atmosphere][research_krassovsky_1963]
 - [ORBITAL TRANSFER IN MINIMUM TIME][research_bleick_1963]
+- [ORBITAL TRANSFER WITH MINIMUM FUEL][research_bleick_faulkner_1963]
 - [On satellite orbit lifetimes][research_westerman_1963_b]
 - [On the possibility of studying planetary atmospheres by...][research_weisberg_1963]
 - [Orbit Transfer Groups][research_vargo_1963]
 - [PREFERRED SCHEMES FOR MULTIPLE ORBIT TRANSFER][research_billik_price_1963]
+- [RAPID DETERMINATION OF SATELLITE ORBITS FROM DOPPLER DATA][research_newton_1963]
+- [RECOVERY OF SATELLITE 1960 IOTA 4- A VERIFICATION OF...][research_mccue_1963]
 - [Rapid satellite orbit computation][research_benedict_1963]
 - [Spin-orbit Coupling and Intermolecular Energy Transfer][research_vassilev_1963]
 - [The decrease in upper-atmosphere density between 1957 and...][research_kinghele_rees_1963]
 - [The orbit of an equatorial earth satellite][research_the_orbit_1963]
+- [ANALOG ORBIT COMPUTER][research_smith_wright_1964]
 - [An analysis of two-impulse orbital transfer][research_lee_1964]
+- [Chemistry of the upper atmosphere][research_chemistry_of_1964]
+- [Contributions of the x-15 program to lifting entry technology][research_holleman_adkins_1964]
 - [Determination of Satellite Orbit By Measurement of Doppler...][research_chesley_1964]
+- [Determination of extreme entry angles into a planetary...][research_warga_hailey_1964]
 - [Drag displacements and decay of near-circular satellite orbits][research_geyling_1964]
 - [Economy of large launch vehicles including orbital labor cost][research_ehricke_1964]
+- [Effect of atmospheric oblateness on the acceleration of a...][research_nigam_1964]
 - [Experimental bound on the orbital effects of charge drag][research_shapiro_1964]
 - [Indicated Specular Degradation Rate for Aluminized Mylar...][research_emmons_1964]
+- [Ion exchange processes in the upper atmosphere][research_ion_exchange_1964]
+- [Ionization of argon in the upper atmosphere][research_ionization_of_1964]
 - [LAUNCH WINDOWS FOR ORBITAL MISSIONS][research_milstead_1964]
 - [Landing site coverage for orbital lifting re- entry vehicles][research_stern_chu_1964]
+- [ORBITAL ANALYST HANDBOOK][research_ferguson_1964]
+- [ORBITAL FLIGHT AND COVERAGE SIMULATION][research_wilkie_stevens_1964]
+- [Orbit Injection Error Analysis][research_beardslee_1964]
+- [Perturbation Methods for Satellite Orbits][research_geyling_1964_b]
 - [Spin-Orbit Coupling Constant of Nitric Oxide. Determination...][research_james_thibault_1964]
+- [THE COMBINED AERODYNAMIC-PROPULSIVE ORBITAL PLANE-CHANGE...][research_bruce_1964]
+- [VULNERABILITY OF MANNED ORBITAL COMMAND POSTS TO NATURAL...][research_french_hansen_1964]
 - [Calldown frequencies from circular orbits to a specified...][research_martikan_1965]
 - [Certain Nonlinear Laws in the Control of a Winged Glide...][research_bedrov_vadichin_1965]
+- [Measurements of albedo and earth radiation from oso-1][research_millard_neel_1965]
+- [On the loss of gases from a planetary atmosphere][research_hays_liu_1965]
 - [Optimum power-limited orbit transfer in strong gravity fields][research_edelbaum_1965]
+- [Orbit position control using solar pressure][research_buckingham_lim_1965]
 - [Second Sun-Watching Satellite Now in Orbit][research_second_sun_watching_1965]
+- [Theory of satellite orbits in an atmosphere][research_groves_1965]
+- [Use of lateral maneuver to extend the period of daylight...][research_haig_perlmutter_1965]
 - [A theorem oil formal stability in the satellite orbit problem][research_diliberto_1966]
 - [An asymptotic solution for optimum power limited orbit...][research_edelbaum_1966]
 - [Artificial satellite orbit computations][research_sconzo_1966]
 - [Asymptotically optimum two-impulse transfer from lunar orbit][research_gunther_1966]
+- [COMPARISON OF DIGITAL COMPUTER SIMULATIONS OF THERMAL...][research_kusuda_achenbach_1966]
+- [Contribution of earth oblateness to gravity torque on a...][research_schlegel_1966]
+- [GENERALIZED MULTISTEP METHODS AND APPLICATIONS TO SATELLITE...][research_dyer_1966]
+- [ORBIT DIFFERENTIAL CORRECTION - TRACKING PROGRAM. VOLUME 1...][research_townsend_1966_b]
+- [ORBIT DIFFERENTIAL CORRECTION - TRACKING PROGRAM. VOLUME 3...][research_townsend_1966]
+- [Physics of the earth's upper atmosphere][research_patterson_1966]
 - [Solar probe orbit design][research_galman_levinson_1966]
+- [Telstar orbit prediction method - Accuracy comparison with...][research_lubowe_1966]
 - [A discussion on orbital analysis - Properties of the upper...][research_jacchia_1967]
 - [Calorimetric absorptance measurements of thermal-control...][research_schmidt_olenick_1967]
 - [Contensou-Busemann conditions for optimal coplanar orbit...][research_gulp_1967]
 - [Effect of trajectory control scheme on the performance of...][research_stalonydobrzanski_1967]
 - [Intramolecular charge-transfer transitions and spin-orbit...][research_lim_chakrabarti_1967]
+- [Metastable helium in the upper atmosphere][research_patterson_1967]
+- [Some Problems of Planetary Atmosphere Entry][research_julianallen_1967]
+- [CHARGED PARTICLE RADIATION ENVIRONMENT IN SYNCHRONOUS ORBIT][research_stanley_ryan_1968]
+- [Drift angle acuity in determination of attitude of orbital...][research_neumeyer_1968]
 - [Earth-orbit masses for five-impulse Mars stopover missions in...][research_doll_1968]
 - [Improvement of mean orbital elements for Vinti's spheroidal...][research_walden_1968]
+- [Regression of the Node of the Orbit of Mercury due to a Solar...][research_oconnell_1968]
 - [Spin-orbit constants and the scaled Thomas-Fermi potential][research_liebermann_armstrong_1968]
+- [The apparent rotation of the upper atmosphere][research_challinor_1968]
+- [Upper atmosphere during geomagnetic disturbances-I][research_truttse_1968]
+- [Upper atmosphere during geomagnetic disturbances-II][research_truttse_1968_b]
+- [ADVANCED ORBIT/EPHEMERIS SUBSYSTEM AOES TIME TRANSFORMATION...][research_randall_1969]
+- [AUTOMATIC ORBIT CONTROL OF THE LINCOLN EXPERIMENTAL SATELLITE...][research_bragailla_1969_c]
+- [Estimating the motion and mechanics of a planetary atmosphere][research_macdonald_1969]
+- [INCLINATION PERTURBATIONS OF POLAR-ORBIT SATELLITES][research_cooley_easton_1969]
 - [Illustration of the primer vector in time- fixed, orbit...][research_prussing_1969]
 - [Integrals for impulsive orbit transfer from Noether's theorem][research_moyer_1969]
 - [Lunar Orbiter mission design][research_crabill_mayo_1969]
+- [Real-time targeting for the Apollo lunar orbit insertion...][research_berry_wiley_1969]
 - [Remark on Integral Orbital Angular Momentum][research_gray_1969]
 - [Satellite shadows on Jupiter as probes of its upper atmosphere][research_kastner_1969]
 - [Spin?orbit interaction in charge-transfer complexes][research_minaev_terpugova_1969]
+- [The effect of atmospheric rotation on a satellite orbit, when...][research_kinghele_scott_1969]
+- [Upper atmosphere during geomagnetic disturbances-III][research_truttse_1969]
 - [A Second-Order Artificial Satellite Theory Based on an...][research_aksnes_1970]
+- [A minimum heating flight mode for high lateral range space...][research_mootejd_1970]
+- [Comparison of Visual Imaging Systems for a Mars Orbiter][research_seaman_klemas_1970]
+- [Comparison of simple turbulent heating estimates for lifting...][research_pearce_1970]
+- [Latitudinal and longitudinal variation of a planetary...][research_pirraglia_gross_1970]
+- [Microwawe Power Transmission from an Orbiting Solar Power...][research_goubau_1970]
 - [Modeling of environmental torques of a spin- stabilized...][research_tidwell_1970]
+- [Space Vehicle Trajectory Control for Entry into the...][research_klimin_yaroshevski_1970]
+- [A matched asymptotic solution for skipping entry into...][research_shi_pottsepp_1971]
+- [Energy state approximation and minimum-fuel fixed-range...][research_zagalsky_irons_1971]
+- [Hydroxyl emission of the upper atmosphere-III][research_shefov_1971]
 - [Nonlinear longitudinal dynamics of an orbital lifting vehicle][research_vinh_dobrzelecki_1971]
 - [Satellite Orbit Paradox A General View][research_blitzer_1971]
+- [Soft X-Ray Band Spectra and Molecular Orbital Structure of...][research_fischer_1971]
+- [Atmospheric pressure, density and scale height calculated...][research_hall_1972]
+- [Imaging experiment The Viking Mars orbiter][research_carr_baum_1972]
+- [Infrared thermal mapping experiment The Viking Mars orbiter][research_kieffer_neugebauer_1972]
 - [On-Line Tracking of Six Orbital Elements of a Thrust...][research_yong_shen_1972]
+- [The Mariner Mars 1971 Orbiter *][research_scull_1972]
 - [The change in satellite orbital inclination caused by a...][research_kinghele_walker_1972]
 - [The use of orbital photography for earth-resources satellite...][research_wobber_1972]
 - [Upper Atmosphere German Satellite][research_upper_atmosphere_1972]
 - [A nonlinear programming approach for optimizing two-stage...][research_kamm_johnson_1973]
 - [An analytical iterative algorithm for the prediction of...][research_gordon_1973]
+- [Approximation for maximum centerline heating on lifting entry...][research_helms_1973]
+- [On the choice of reference orbit, canonical variables, and...][research_aksnes_1973]
+- [Photospheric Faculae and the Solar Oblateness a Reply to...][research_chapman_ingersoll_1973]
+- [Physics of the upper atmosphere][research_physics_of_1973]
 - [Roll Modulated Lifting Entry Optimization][research_kelley_sullivan_1973]
 - [Calculation of spin orbit relaxation rates by near resonant E...][research_ewing_1974]
 - [ChemInform Abstract MOLECULAR ORBITAL STUDIES OF CONFORMATION][research_pople_1974]
 - [Feasibility of Large-Scale Orbital Solar/Thermal Power...][research_patha_woodcock_1974]
 - [First Netherlands satellite in orbit][research_first_netherlands_1974]
+- [Minimum Fuel Continuous Low Thrust Orbital Transfer][research_smith_1974]
+- [Venus Orbital Radar Mapping in the 1980s - Mission Design and...][research_asnin_1974]
 - [Bounds for the Solar Scatter Angle Observed from Earth Orbit][research_bounds_for_1975]
+- [Correction to "Application of the Conjugate Gradient Method...][research_correction_to_1975]
+- [Design for a Venus Orbital Imaging Radar Mission][research_rose_friedman_1975]
+- [Development and Fabrication of a Space Hardened Nd 3+ YAG...][research_wargo_1975]
+- [Dynamics of the Space Shuttle during Entry into Earth's...][research_ramnath_sinha_1975]
+- [Effect of resonance-oblateness coupling on a satellite orbit][research_wagner_1975]
 - [Fine Pointing Control for a Large Spinning Spacecraft in...][research_salzwedel_breakwell_1975]
+- [Optimum orbital control using solar radiation pressure][research_shrivastava_rajasingh_1975]
 - [Results of investigations OA77 and OA78 on an 0.015-scale...][research_gillinsrl_1975]
+- [Structure and dynamics of the upper atmosphere][research_king_1975]
 - [Environmental dynamics at orbital altitudes][research_karrgr_1976]
 - [Orbital Coupling for Proof Mass Control in a Partially...][research_courtneyray_debra_1976]
+- [Perturbation of a satellite orbiter by the oblateness of the...][research_roth_1976]
 - [Satellite Orbit Control Incorporating Attitude Control...][research_holdaway_1976]
 - [Aeromaneuvering orbit transfer vehicles for the space...][research_white_hethcoat_1977]
 - [Aerospace Conversations with a space shuttle Keeping...][research_weitzman_1977]
+- [Closed Form Magnetic Quarter Orbit Switch Point Solution][research_herman_1977]
 - [Determination of M 2 ocean tide parameters from satellite...][research_goad_douglas_1977]
+- [Effect of propulsion system characteristics on ascent...][research_rehderjj_1977]
+- [Effects of atmospheric winds and aerodynamic lift on the...][research_ching_hickman_1977]
+- [Electronic Radiation in the Vicinity of Synchronous Orbit...][research_bakalyar_1977]
 - [Globally Optimal Coplanar Orbit Transfer][research_small_1977]
 - [Gravitationally stabilized satellite solar power station in...][research_chobotov_1977]
 - [Optimal three-burn orbit transfer][research_betts_1977]
+- [Orbit Prediction Errors Resulting from Vertical Misalignment...][research_freed_1977]
 - [The 1981 Jupiter orbiter probe mission][research_moore_vanallen_1977]
+- [Viking Mars Orbiter 1975 Solar Energy Controller][research_stultz_1977]
+- [Viking Orbiter photometric observations of the Mars phase...][research_thorpe_1977]
+- [3.4. Mars Orbiter 2 silenced][research_3_4_mars_1978]
 - [ChemInform Abstract COUNTERINTUITIVE ORBITAL MIXING IN...][research_ammeter_buergi_1978]
+- [Mars orbiter insertion by use of atmospheric deceleration][research_okhotsimsky_golubiev_1978]
+- [Operations Manual. Initial Orbit Estimation Module][research_taylor_1978]
+- [Orbital Perturbations and Controlby Solar Radiation Forces][research_vanderha_modi_1978]
 - [Orbital electron capture ratios in the decay of 205Pb][research_pengra_genz_1978]
+- [Perturbations of non-resonant satellite orbits due to a...][research_muellera_1978]
+- [Photochemical and transport processes in the upper atmosphere][research_banks_1978]
 - [Solar orbital satellite launched][research_solar_orbital_1978]
 - [Unusual Orbit for Sun-Earth Satellite][research_unusual_orbit_1978]
+- [Viking orbiter observations of the Mars opposition effect][research_thorpe_1978]
 - [Constrained Impulsive Trajectory Optimization for...][research_brusch_1979]
 - [Density models for the upper atmosphere][research_dowddl_tapleybd_1979]
+- [Design and Fabrication of Quadrupole Ion Mass Spectrometer...][research_mcdonald_1979]
+- [Differential Orbit Correction for Near-Stationary Artificial...][research_taff_sorvari_1979]
+- [Effect of Applied Stress, Thermal Environment and Water in...][research_nicolais_drioli_1979]
+- [Electric vs Chemical Propulsion for a Large-Cargo Orbit...][research_rehder_wurster_1979]
+- [Equations of Powered Rocket Ascent and Orbit Trajectory][research_reilly_1979]
+- [GEODSS Orbit Display Program GEOD][research_wardrop_1979]
+- [Improved Orbit Estimation by Satellite-Mounted Gravity...][research_zondek_1979]
+- [Inclined Elliptical Orbit and Associated Satellite Field of...][research_lo_1979]
+- [Mars Gravity High-Resolution Results from Viking Orbiter 2][research_sjogren_1979]
+- [On Determining the Plane of an Artificial Satellite's Orbit][research_taff_1979_c]
+- [Orbital Photogrammetric Triangulation with Dynamical...][research_junkins_rajan_1979]
+- [ChemInform Abstract EXPERIMENTAL HEAT CAPACITIES OF...][research_ohlendorf_flotow_1980]
+- [Direct solar and earth-albedo radiation pressure effects on...][research_zerbini_1980]
 - [Dual-Fuel Propulsion Recent Results for Earth-to-Orbit...][research_martin_wilhite_1980]
 - [Mars Orbiter mission ending][research_bell_1980]
 - [Neighboring Optimum Guidance of a Space-Shuttle-Orbiter-Type...][research_pesch_1980]
@@ -3828,243 +4796,486 @@ The article computes bounds precisely because none of these exists.
 - [Orbit transfer propulsion and large space systems][research_kunz_1980]
 - [Preliminary Design for a Space-Based Orbital Transfer Vehicle][research_macconochie_rehder_1980]
 - [Space Shuttle/Orbiter EVA and EVA Provisions][research_goodman_1980]
+- [The Effect of a Nonuniform Planetary Albedo on the...][research_king_curran_1980]
+- [The upper atmosphere and solar- terrestrial relations][research_greer_1980]
 - [Time-optimal orbit transfer trajectory for solar sail...][research_jayaraman_1980]
 - [Two-Impulse Orbit Transfer Error Analysis via Covariance...][research_porcelli_vogel_1980]
+- [Viking Orbit Trim Maneuvers][research_hintz_farless_1980]
+- [Design and Fabrication of Quadrupole Ion Mass Spectrometer...][research_leblanc_1981]
+- [Dynamics of the upper atmosphere][research_volland_1981]
 - [Electron transfer in chemical and biological systems. Orbital...][research_larsson_1981]
+- [Exploration of the polar upper atmosphere][research_rishbeth_1981]
+- [Magnetospheric radiation environment in a 12-hour circular...][research_blake_1981]
 - [Orbital Analysis for the Upper-Atmosphere Research Satellite...][research_harrison_gibson_1981]
+- [Ranging and Synchronization between Nominally Co-Orbital...][research_schwartz_1981]
 - [Theory of satellite orbit-orbit resonance][research_blitzer_anderson_1981]
 - [Time Variation of Orbital Parameters of an Equatorial...][research_gurtu_1981]
+- [A review of satellite lifetime and orbit decay prediction][research_delafontaine_garg_1982]
+- [Boost-glide range-optimal guidance][research_kelley_cliff_1982]
+- [Comment on "Time-Optimal Orbit Transfer Trajectory for Solar...][research_wood_bauer_1982]
+- [Comparison of Orbiter STS-2 development flight...][research_normani_rochellewc_1982]
 - [Construction of a consistent semianalytic theory of a...][research_roth_1982]
 - [Effect of Storable Propellants on Single-Stage Earth-to-Orbit...][research_martin_1982]
 - [Future orbital transfer vehicle technology study. Volume 2...][research_davisee_1982]
+- [Harmonic analysis of the albedo and longwave outgoing...][research_karner_avaste_1982]
 - [Orbit sizes in the 91Zr ± N systems from transfer reactions][research_moalem_fortune_1982]
 - [Poynting-Robertson drag and orbital resonance][research_gonczi_froeschle_1982]
 - [Propulsion system options for low-acceleration orbit transfer][research_schoenmanl_1982]
+- [Radiation Effects on Spacecraft Materials for Jupiter and...][research_bouquet_koprowski_1982]
+- [Reflection and transmission by a vertically inhomogeneous...][research_stamnes_1982]
 - [Satellite perturbations and orbital determination][research_kinghele_1982]
+- [Selection of Cations for Ambient Temperature Chloroaluminate...][research_wilkes_hussey_1982]
 - [2.7. Orbit injection of OSCAR 10 satellite][research_2_7_orbit_1983]
 - [A Future Solar Orbital Transfer Vehicle Concept][research_gartrell_1983]
 - [Charge-transfer interactions of excited molecules with...][research_treinin_loeff_1983]
 - [Hydrocarbon rocket engines for earth-to-orbit vehicles][research_martin_1983]
+- [Orbit keeping attitude control for space station][research_barrowsd_bedellh_1983]
+- [Orbital and cloud cover sampling analyses for multisatellite...][research_harrison_minnis_1983]
 - [Orbital efficiency through satellite digital switching][research_scarcella_abbott_1983]
+- [Perturbation of an orbiter of a Galilean satellite by the...][research_roth_1983]
 - [Plume/flowfield jet interaction effects on the Space Shuttle...][research_kanipe_1983]
+- [Program KMEC Kozai Mean Element Converter The Computation of...][research_parks_1983]
 - [Satellite observations of Pi 2 activity at synchronous orbit][research_sakurai_mcpherron_1983]
 - [Satellite orbital precession caused by a rotating oblate...][research_boulton_1983]
 - [The change in satellite orbital inclination due to a rotating...][research_boulton_swinerd_1983]
+- [Absolute elemental mass fraction determination of individual...][research_linders_vandevorstenbosch_1984]
 - [Dynamic model of the Earth's upper atmosphere][research_sloweyjw_1984]
 - [NASA awards orbital transfer vehicle study contracts][research_nasa_awards_1984]
 - [On Space Warfare Military Strategy for Space Operations][research_chisholm_1984]
 - [Project Cassini A Saturn Orbiter/Titan Probe mission proposal][research_gautier_ip_1984]
+- [Testing Changes in Visual Function Due to Orbital Environment][research_genco_task_1984]
 - [Two-stage earth-to-orbit vehicles with dual-fuel Orbiter...][research_martin_1984]
 - [Analysis of Orbital Satellite Storage][research_ferguson_davey_1985]
 - [Biophysical Study of the Heavy Galactic Nuclei Aboard Cosmos...][research_biophysical_study_1985]
 - [Comet Halley orbit optimum determination by means of...][research_bakhshyan_yastrzhembsky_1985]
 - [Effects of tripropellant engines on earth-to-orbit vehicles][research_martin_1985]
 - [Estimation of Orbital States of a Satellite][research_raol_sinha_1985]
+- [Optimal many-revolution orbit transfer][research_wiesel_alfano_1985]
 - [Orbital transfer vehicle concept definition and system...][research_mitchelljackc_keeleyjt_1985]
+- [Orbital-Maneuver-Sequence Optimization][research_kelley_cliff_1985]
 - [Radial variations of a satellite orbit due to gravitational...][research_wagner_1985]
+- [Review of the in-orbit thermal performance of the Maritime...][research_chalmers_1985]
 - [Status of advanced orbital transfer propulsion][research_cooperlp_1985]
 - [The orbit of Pluto's satellite][research_tholen_1985]
+- [Total energy based flight control system][research_lambregtsantoniusa_1985]
+- [A collisional kinetic theory of a plane parallel evaporating...][research_shizgal_blackmore_1986]
+- [Applications to space operations of free-flying, controlled...][research_muntz_dixon_1986]
 - [Charge transfer and excitation processes in p -He collisions...][research_kimura_lin_1986]
 - [Determination of orbital drag perturbations caused by...][research_sehnal_1986]
 - [European orbit transfer and servicing vehicle approaches...][research_kleinau_riedel_1986]
+- [Flight testing TECS - The Total Energy Control System][research_kellyjamesr_personleehjr_1986]
+- [Identification of Large Space Structures on Orbit][research_denman_hasselman_1986]
+- [NASA B737 flight test results of the Total Energy Control...][research_brucekr_kellyjr_1986]
 - [Orbit transfer with very low acceleration][research_breakwell_chanal_1986]
 - [Project Cassini - a potential collaborative ESA/NASA Saturn...][research_beckman_scoon_1986]
+- [Scaling relations for heating during gliding entry at...][research_tauber_1986]
 - [Space-based orbital transfer vehicle][research_charhut_ketchum_1986]
+- [Titan Accident Disrupts Military Space Program][research_smith_1986]
+- [Application of the integral variation method to satellite...][research_hitzl_zele_1987]
 - [Comments on "Leonardo in Orbit Satellite Art"][research_pecker_1987]
 - [Explaining the orbital velocity of an Earth satellite][research_crawford_1987]
 - [In-orbit testing of digital regenerative satellite The...][research_saggese_speziale_1987]
+- [LAGEOS orbit decay due to infrared radiation from Earth][research_rubincam_1987]
 - [Leonardo in Orbit Satellite Art][research_comte_1987]
 - [Liquid helium pumps for in-orbit transfer][research_kittel_1987]
+- [NASA B737 flight test results of the total energy control...][research_brucekevinr_1987]
 - [New vacuum/high pressure glands for manual or automatic...][research_new_vacuum_high_1987]
+- [Test summary for advanced hydrogen cycle nickel-cadmium cell][research_miller_1987]
+- [Atmospheric tidal perturbation of artificial satellite orbits][research_huang_he_1988]
 - [Bond-orbital models for superlattices][research_chang_1988]
 - [Capture of an olivine micrometeoroid by spacecraft in...][research_rietmeijer_blanford_1988]
+- [Direct simulation of three-dimensional flow about the AFE...][research_celenligilmcevdet_mossjamesn_1988]
+- [Evaluation of innovative rocket engines for single-stage...][research_manskidetlef_martinjamesa_1988]
 - [Full-potential linear muffin-tin-orbital method][research_weyrich_1988]
+- [Integrated Autopilot/Autothrottle Based on a Total Energy...][research_brucekevinr_1988]
+- [Joint NASA-Military Space Vehicle Planned][research_marshall_1988]
+- [Long-term orbit computations with KS uniformly regular...][research_sharma_jamesraj_1988]
 - [On the simultaneous improvement of a satellite orbit and...][research_engelis_1988]
 - [Spin-orbit state selectivity in Xe*+N2, CO electronic energy...][research_krumpelmann_ottinger_1988]
 - [Status of advanced propulsion for space-based orbital...][research_cooper_scheer_1988]
 - [Superfluid Helium On-Orbit Transfer Flight Experiment...][research_dipirro_1988]
+- [Accuracy Assessment of Widely Used Orbit Error Approximations...][research_tai_1989]
 - [Ariane transfer vehicle in service of man in orbit][research_deutscher_schefold_1989]
+- [Atmospheric environment during maneuvering descent from...][research_taubermichaele_bowlesjeffreyv_1989]
 - [Concept studies for a laser powered orbital transfer vehicle][research_bond_martin_1989]
+- [Direct simulation of three-dimensional flow about the AFE...][research_celenligilmcevdet_mossjamesn_1989]
+- [Electric Fields in Earth Orbital Space][research_pfitzer_1989]
 - [Orbital motion][research_kinghele_1989]
 - [Rocket nozzle expansion ratio analysis for dual-fuel...][research_martin_1989_b]
 - [Satellite Symposium on Intraocular and Adnexal Tumors, and...][research_bleeker_1989]
 - [Superfluid helium on-orbit transfer SHOOT operations][research_kittel_dipirro_1989]
+- [THE TEMPERATURE PROBLEM OF SOLAR PANEL OF SPACECRAFT IN ORBIT][research_tang_zhu_1989]
 - [A preliminary estimate of geoid-induced variations in repeat...][research_brenner_koblinsky_1990]
+- [Assessment of the AandR Technology associated with the use of...][research_levingeorgem_marzwellneville_1990]
 - [Asteroid mission departure strategies from a precessing Space...][research_sharmajayant_1990]
 - [Effects of the earth orbit environment on thin-wall bubbles][research_thomas_1990]
 - [Fixed satellite service frequency allocations and orbit...][research_tycz_1990]
 - [Lifting entry rescue vehicle configuration][research_reding_svendsen_1990]
 - [OPSMODEL, an on-orbit operations simulation modeling tool for...][research_davis_wright_1990]
+- [Particle radiation near the orbit of the Vacuum Wake Shield][research_bering_ignatiev_1990]
+- [Physics and chemistry of the upper atmosphere][research_greer_1990]
 - [Pseudo-Orbit Shadowing on the Unit Interval][research_pennings_vaneeuwen_1990]
+- [Secular perturbation theory and computation of asteroid...][research_milani_knezevic_1990]
+- [Technology development, demonstration, and orbital support...][research_llewellyncharlesp_brenderkarend_1990]
+- [The study of in-orbit calibration accuracy of NOAA satellite...][research_dong_liu_1990]
+- [Total energy control system autopilot design with constrained...][research_lyuyloi_vothchristopher_1990]
 - [Tumble orbit transfer of spent satellites][research_yasaka_1990]
 - [3.2. Investigations selected by NASA for the Cassini Saturn...][research_3_2_investigations_1991]
+- [Analytical treatment of air drag and earth oblateness effects...][research_delhaise_1991]
 - [Drag perturbations in artificial satellite orbital motion...][research_mioc_1991]
+- [How to Observe the Gyre to Global-Scale Variability in...][research_tai_1991]
 - [New method for estimating low-earth-orbit collision...][research_vedder_tabor_1991]
+- [Statite - A spacecraft that does not orbit][research_forward_1991]
+- [The effect of mass fraction and molecular weight of segments...][research_slonecki_1991]
 - [United States orbital transfer vehicle programs][research_gunn_1991]
+- [COSPAR International Reference Atmosphere 0-120 km 1986][research_cospar_international_1992]
 - [Endoatmospheric thrust termination condition to achieve...][research_ikawa_1992]
 - [Low cost orbit transfer of inoperative satellites by a...][research_yasaka_1992]
 - [Lunar base mission technology issues and orbital...][research_llewellyncharlesp_weidmandeenej_1992]
+- [Mission design for an Orbiting Volcano Observatory][research_penzo_johnston_1992]
+- [On-Orbit Supervisor for Controlling Spacecraft][research_vandervoort_1992]
 - [On-orbit cryogenic fluid transfer research at NASA Lewis...][research_taylor_chato_1992]
+- [Orbit computations with the Eulerian topological regular...][research_sharaf_1992]
+- [Orbital Floor Reconstruction with Bone Repair][research_mayer_hollinger_1992]
 - [Orbital transfer systems for lunar missions][research_koelle_obersteiner_1992]
 - [Practical method for calculating radiation incident upon a...][research_furukawa_1992]
+- [The effect of mass fraction and molecular weight of segments...][research_slonecki_1992]
 - [Time-critical low-thrust orbit transfer optimization][research_burton_wassgren_1992]
+- [U.S. standard atmosphere 1976][research_nationalgeophysicaldatacenter_1992]
+- [Weather Impacts on Space Operations][research_madura_boyd_1992]
+- [Constraints on the Repetitivity of the Orbit of an Altimetric...][research_minster_remy_1993]
 - [Current orbit a1 literature][research_current_orbit_1993]
 - [Cycler orbit between Earth and Mars][research_byrnes_longuski_1993]
+- [Determination of microwave vegetation optical depth and...][research_griend_owe_1993]
 - [Evaluating orbital occupation number correlations in...][research_wilson_1993]
+- [H2 optimal halo orbit guidance][research_jones_bishop_1993]
+- [Motion of Dust in a Planetary Magnetosphere Orbit-Averaged...][research_hamilton_1993]
 - [Oculoplastic and orbital surgery][research_shore_1993]
+- [Orbit Analysis Tools Software Version 1.0 User's Manual][research_hope_middour_1993]
 - [Orbital Resonances and Poynting-Robertson Drag][research_weidenschilling_jackson_1993]
+- [Orbital docking system centerline color television camera...][research_monganphilipt_1993]
 - [Orbital performance of communication satellite microwave...][research_strauss_1993]
 - [Satellite data rocket disease control efforts into orbit][research_barinaga_1993]
+- [Sixth Annual Workshop on Space Operations Applications and...][research_krishenkumar_1993]
+- [Size Distributions of Satellite Dust Ejecta Effects of...][research_canup_colwell_1993]
 - [231 Orbit control of a recalcitrant satellite][research_231_orbit_1994]
+- [Analytical treatment of air drag and earth oblateness effects...][research_delhaise_1994]
+- [Development of a Medium Energy Modulated Electron Gun for...][research_raitt_1994]
 - [Estimation of the low-Earth-orbit debris population and...][research_alfriend_lewis_1994]
+- [Fault scaling laws and the temporal evolution of fault systems][research_wojtal_1994]
 - [Gravitational Coefficients and Internal Structures of the Icy...][research_schubert_limonadi_1994]
+- [Numerical integration of periodic orbits in the main problem...][research_broucke_1994]
 - [On-orbit superfluid transfer preliminary results from the...][research_dipirro_shirron_1994]
+- [Optimization of spacecraft orbit and shielding for radiation...][research_gates_lewis_1994]
+- [Optimum flight trajectory guidance based on total energy...][research_wu_guo_1994]
+- [Parallel satellite orbit prediction using a workstation...][research_stone_shukla_1994]
+- [Secular perturbation theory of long-range interactions][research_cavagnero_1994]
+- [Study of Henon's orbit transfer problem using the Lambert...][research_prado_broucke_1994]
 - [Verification testing of the superfluid helium on-orbit...][research_volz_conaty_1994]
 - [A low cost Mercury orbiter mission][research_ely_fowler_1995]
 - [Active control of containment particulates in a...][research_conger_hastings_1995]
+- [Advanced Communication Technology Satellite ACTS Multibeam...][research_advanced_communication_1995]
+- [Analytical linear perturbation theory for highly eccentric...][research_brumberg_brumberg_1995]
+- [Asteroid orbit evolution due to thermal drag][research_rubincam_1995]
 - [Gas Drag and the Orbital Evolution of a Captured Triton][research_mckinnon_leith_1995]
 - [Infrared background of spacecraft in low-Earth orbit...][research_dressler_murad_1995]
 - [Low-Earth-orbit exposure of carbon-based materials aboard...][research_spady_synowicki_1995]
+- [Low-Thrust Orbit Transfer Guidance Using an Inverse Dynamics...][research_kluever_1995]
 - [Molecular Orbital Models of Silica][research_hench_1995]
 - [Molecular orbital study on cationic states of triphenylene...][research_yoshizawa_hatanaka_1995]
+- [Nebular Gas Drag and Planetary Accretion II. Planet on an...][research_kary_1995]
 - [Predicting the orbital lifetime of tethered satellite systems][research_warnock_cochran_1995]
+- [Reducing Orbit Error for a Better Estimate of oceanic...][research_blanc_letraon_1995]
+- [Study of the Earth's oblateness and rotating atmosphere...][research_awad_hassan_1995]
 - [System and antenna design considerations for highly...][research_paynterc_cuchanskim_1995]
 - [Toughened graphite-epoxy composites exposed in near-Earth...][research_felbeck_1995]
 - [Countermeasures of Military Space Systems][research_bo_1996]
+- [Empirical model for the upper limit spectrum for solar cosmic...][research_miroshnichenko_1996]
 - [Imaging orbital disease][research_imaging_orbital_1996]
 - [Martian atmospheric data assimilation with a simplified...][research_lewis_read_1996]
 - [Orbital schwannoma][research_ivekovic_skegro_1996]
 - [The Planetary Fourier Spectrometer PFS for the orbiter of the...][research_hirsch_formisano_1996]
+- [The expected mass fraction][research_heagy_sullivan_1996]
+- [Thermal force perturbations of the LAGEOS orbit the albedo...][research_metris_vokrouhlicky_1996]
 - [A Shot to the Space Brain The Vulnerability of Command and...][research_carter_1997]
+- [A planetary atmosphere simulator application to Titan][research_ferri_rotundi_1997]
 - [Collision and Debris Hazard Assessment for a Low-Earth-Orbit...][research_chobotov_herman_1997]
 - [Columbus orbital facility and automated transfer vehicle][research_michaelis_luttmann_1997]
 - [Imaging Mercury's surface within the context of the Mercury...][research_schmidt_1997]
 - [Low-Earth-Orbit Micrometeoroid and Debris Investigations][research_berthoud_mandeville_1997]
+- [Neutral Orbital Altitude Density Effects on the International...][research_smithoe_adelfangsi_1997]
 - [Orbital Stability of the Uranian Satellite System☆][research_duncan_lissauer_1997]
 - [PREDICTION OF ORBITAL DIVERSITY PERFORMANCE IN SATELLITE...][research_matricciani_1997]
 - [Radio-science investigation on a Mercury Orbiter mission][research_anderson_turyshev_1997]
+- [Solar Magnetic Drivers of Space Weather][research_harvey_howard_1997]
+- [Space Operations for the 21st Century A Functional Approach][research_levy_1997]
 - [The Mercury Orbiter mission][research_grard_1997]
 - [The regolith of Mercury present knowledge and implications...][research_langevin_1997]
 - [A Comparative Analysis of Hartree-Fock and Kohn-Sham Orbital...][research_politzer_abuawwad_1998]
+- [Baryonic Mass Fraction in Rich Clusters and the Total Mass...][research_bludman_1998]
+- [Coplanar Elliptical Orbit Transfer Using Aerocruise][research_lohar_sherwani_1998]
 - [Direct Approach for Computing Near-Optimal Low-Thrust...][research_kluever_oleson_1998]
+- [Optimal, Low-Thrust, Earth-Moon Orbit Transfer][research_herman_conway_1998]
 - [Orbital-Symmetry Effects in Bimolecular Electron-Transfer...][research_haselbach_pilloud_1998]
+- [Parallel Version of Special Perturbations Orbit Propagator][research_neta_1998]
 - [ROSETTA mission satellite orbits around a cometary nucleus][research_scheeres_marzari_1998]
+- [Reengineering the Doctrinal Latticework of Military Space][research_quintrall_1998]
+- [Simple Guidance Scheme for Low-Thrust Orbit Transfers][research_kluever_1998]
+- [Space Operations][research_airforcedoctrinecenterhqmaxwellafbal_1998]
 - [Special Issue on Remote Sensing Results of the Galileo...][research_belton_1998]
 - [The wave complex on the Mars-96 orbiter ELISMA][research_elismaexperimenters_1998]
+- [Concern over Mars Lander as inquiry reports on Orbiter loss][research_reichhardt_1999]
+- [Effect of Water Sustainable Ceramic Material on the Urban...][research_fujino_asaeda_1999]
 - [Human Mars Mission Launch Window from Earth Orbit][research_youngarchie_1999]
 - [International Low-Earth-Orbit Spacecraft Materials Test...][research_rutledgesharonk_1999]
+- [Kilometer-scale slopes on Mars and their correlation with...][research_kreslavsky_head_1999]
+- [Math error equals loss of Mars orbiter][research_cowen_1999_b]
+- [Multiple-Spacecraft Orbit Transfer Problem Weak-Booster and...][research_ocampo_rosborough_1999_b]
+- [Multiple-Spacecraft Orbit-Transfer Problem The No-Booster Case][research_ocampo_rosborough_1999]
+- [NASA loses mars climate orbiter][research_cowen_1999]
 - [On the homoclinic orbit for convection in a fluid layer...][research_vadasz_1999]
 - [On the transfer of distributions Weighted orbital integrals][research_arthur_1999]
 - [On-Orbit Thermal Performance and Model Correlation of the...][research_parrishkeith_1999]
+- [Possible Ancient Oceans on Mars Evidence from Mars Orbiter...][research_head_hiesinger_1999]
 - [Preliminary ISAS Mercury orbiter mission design][research_yamakawa_saito_1999]
+- [Semiclassical spectrum using secular perturbation theory the...][research_muller_heiss_1999]
+- [Solar Orbit Transfer Vehicle Conceptual Design][research_airforceresearchlabedwardsafbca_1999]
 - [The calculation of orbital positioning using standard orbital...][research_pritchard_1999]
+- [Topography, roughness, layering, and slope properties of the...][research_sakimoto_frey_1999]
+- [UK hardware successfully launched on Mars Climate Orbiter][research_taylor_1999]
+- [Vertical roughness of Mars from the Mars Orbiter Laser...][research_garvin_frawley_1999]
 - [Attitude Control System Design for Return of the Kistler K1...][research_rubenstein_carter_2000]
+- [Characteristics and origin of polygonal terrain in southern...][research_hiesinger_head_2000]
 - [Cytogenetic analysis of rare orbital tumors further evidence...][research_lasudry_heimann_2000]
 - [Geometric Analysis of Low-Earth-Orbit Satellite Communication...][research_ulybyshev_2000]
+- [Mars Orbiter Laser Altimeter receiver model and performance...][research_abshire_sun_2000]
+- [Minimum-Time Constant Acceleration Orbit Transfer with...][research_kechichian_2000]
+- [Navy Space Operations in the 21st Century Sailing Among the...][research_dobrot_2000]
+- [New views of Mars eolian activity, materials, and surface...][research_edgett_malin_2000]
+- [North Polar Region Craterforms on Mars Geometric...][research_garvin_2000]
+- [Repeat Orbit Characteristics and Maneuver Strategy for a...][research_rim_schutz_2000]
+- [Simulation of ENA fluxes along the Geotail spacecraft orbit][research_orsini_milillo_2000]
+- [Some Principles of Space Strategy or Corbett in Orbit" "][research_fox_2000]
+- [Space Review Study Human Factors Engineering's Role in...][research_marshak_adam_2000]
+- [The 1997 Spring Regression of the Martian South Polar Cap...][research_james_2000]
+- [The Role of Sublimation for the Formation of the Northern Ice...][research_ivanov_2000]
+- [Approximate Analytical Theory of Satellite Orbit Prediction...][research_alimov_greb_2001]
+- [Cloud Reflection Observations Results from the Mars Orbiter...][research_ivanov_2001]
 - [Determination of the orbit of a natural satellite with...][research_bertotti_2001]
+- [Guidelines for the Selection of Near-Earth Thermal...][research_andersonbj_justuscg_2001]
+- [High-resolution digital elevation models derived from Viking...][research_baratoux_delacourt_2001]
 - [In-orbit measurements of short term attitude and vibrational...][research_araki_2001]
 - [Mars Global Surveyor Mars Orbiter Camera Interplanetary...][research_malin_edgett_2001]
+- [Mars Global Surveyor, launched 7 November 1996, Martian...][research_mars_global_2001]
+- [Mars Orbiter Camera geodesy campaign][research_caplinger_malin_2001]
+- [Mars topography Lessons learned from spatial and spectral...][research_bills_nerem_2001]
+- [Martian North Polar Cap Recession 2000 Mars Orbiter Camera...][research_james_2001]
 - [Sensitivity analysis for time optimal orbit transfer][research_caillau_noailles_2001]
+- [Simple Thermal Environment Model STEM User's Guide][research_justuscg_battsgw_2001]
 - [Solar Sail Orbit Operations at Asteroids][research_morrow_scheeres_2001]
+- [Space Operations, This document complements Joint Pub 3-56.1][research_secretaryoftheairforcewashingtondc_2001]
+- [Statistics of Mars' topography from the Mars Orbiter Laser...][research_aharonson_zuber_2001]
+- [A Capability to Generate Physics-based Mass Estimating...][research_oldsjohnr_marcusleland_2002]
 - [A simple empirical model of the equatorial radial field in...][research_bunce_hanlon_2002]
 - [Analytical Solutions for Averaged Equations of Optimal...][research_vasilev_pasechnik_2002]
+- [Atmospheric monitoring of Mars by the Mars Orbiter Camera on...][research_james_cantor_2002]
+- [Chasma Boreale, Mars Topographic characterization from Mars...][research_fishbaugh_head_2002]
+- [Comparative Study of the High Molecular Mass Fraction and Low...][research_nose_terawaki_2002]
+- [Interactive image guidance for surgical localization of...][research_berger_char_2002]
+- [Joint Doctrine for Space Operations][research_jointchiefsofstaffwashingtondc_2002]
+- [Martian clouds observed by Mars Global Surveyor Mars Orbiter...][research_wang_ingersoll_2002]
 - [ORBITAL INSPECTION VEHICLE TRAJECTORIES BASED ON...][research_williams_2002]
 - [Orbital Growing Fractures][research_ersahin_2002]
 - [Periodic-Orbit Analysis of Coherent Electron-Transfer...][research_dilthey_stock_2002]
 - [Planetary protection requirements for orbiter and netlander...][research_debus_2002]
+- [Satellite orbit error due to geopotential model error using...][research_hwang_hwang_2002]
+- [Scaling laws for vibration response of anti-symmetrically...][research_singhatanadgid_ungbhakorn_2002]
+- [Structural Weight Estimation for Launch Vehicles][research_cerrojeff_martinoviczoran_2002]
 - [Trajectory design for the Mars Reconnaissance Orbiter Mission][research_jabmk_highsmithde_2002]
+- [A method of orbit computation taking into account the earth's...][research_lin_xin_2003]
+- [Analytical treatment of the Earth oblateness and solar...][research_elenna_2003]
+- [Applying Rule Markup Language in the Military Space Domain][research_stoutenburg_2003]
 - [Compilation of wind data for the Upper Atmosphere Research...][research_swinbank_ortland_2003]
 - [Control-Theoretic Analysis of Low-Thrust Orbital Transfer...][research_gurfil_2003]
 - [Correction to the paper "Analytical Solutions for Averaged...][research_correction_to_2003]
 - [Decay of satellite orbits using K-S elements in an oblate...][research_nair_sharma_2003]
+- [Estimation of particle volume fraction, mass fraction and...][research_tandon_terrell_2003]
 - [Forecast E for Improved Low-Earth-Orbit Satellite Operations][research_tobiska_2003]
+- [Geomorphic analysis of lobate debris aprons on Mars at Mars...][research_mangold_2003]
+- [Information Support for a Low-Orbit Spacecraft Using...][research_tkachenko_2003]
+- [Numerical simulation of the winter polar wave clouds observed...][research_tobie_forget_2003]
 - [Objectives of a prospective Ukrainian orbiter mission to the...][research_shkuratov_lytvynenko_2003]
 - [The orbital evolution of satellite galaxies][research_hashimoto_makino_2003]
 - [The solar orbiter mission][research_marsden_fleck_2003]
+- [Two Mars years of clouds detected by the Mars Orbiter Laser...][research_neumann_smith_2003]
+- [Viscous flow features on the surface of Mars Observations...][research_milliken_mustard_2003]
+- [Airpower Command and Control Evolution of the Air and Space...][research_justice_iii_2004]
+- [Analytical treatment of the earth oblateness and solar...][research_elenna_2004]
 - [Assessment of Atomic-Oxygen Flux in Low-Earth-Orbit Ground...][research_grossman_gouzman_2004]
 - [Cavernous hemangioma of the orbit Analysis of 214 cases][research_yan_wu_2004]
+- [Comprehensive analysis and estimation system on thermal...][research_guoliang_guiqing_2004]
+- [Corbett in Orbit A Maritime Model for Strategic Space Theory][research_klein_2004]
+- [Deep Space Ka-Band Link Management and Mars Reconnaissance...][research_odonnell_2004]
+- [Essay Military Space in the Era of Network-Centric Operations][research_essay_military_2004]
+- [Extension of secular perturbation theory for asteroids][research_kozai_2004]
 - [FIB-SIMS analysis of micro-particle impacts on spacecraft...][research_kettle_2004]
+- [Fluid properties simulation challenge Recommendations for...][research_fluid_properties_2004]
+- [Igneous dikes on Mars revealed by Mars Orbiter Laser...][research_schultz_okubo_2004]
+- [Lost in Space Future Force Leaders and Visualization of Space...][research_gibney_2004]
 - [Numerical simulations of a Mars geodesy network experiment...][research_rosenblatt_marty_2004]
 - [Orbit Optimization For The Geospace Electrodynamics...][research_mesarchmichaela_2004]
+- [Orbit of a lunar artificial satellite Analytical theory of...][research_desaedeleer_henrard_2004]
 - [Orbital Interactions and Long-Range Electron Transfer][research_paddonrow_2004]
+- [Power Reduction of Solar Arrays by Arcing Under Simulated...][research_toyoda_matsumoto_2004]
+- [Relative Orbit Geometry Through Classical Orbit Element...][research_schaub_2004]
 - [The differentiation of idiopathic inflammatory pseudotumor...][research_yan_wu_2004_b]
+- [USSTRATCOM The Continuing Transformation of Military Space][research_costello_2004]
 - [An imager with added value for the Solar Orbiter mission][research_harra_kankelborg_2005]
+- [Coupled Orbit and Attitude Motion of Spacecraft][research_hall_2005]
 - [EUV imaging spectrometer for the Solar Orbiter mission][research_millard_lemaire_2005]
 - [Electric Polarization of Low-Orbit Spacecraft][research_skriabysheva_2005]
+- [Mars Reconnaissance Orbiter launched. 2005 DAC undergraduate...][research_mars_reconnaissance_2005]
+- [Mars orbiter ready to scout for future landing sites as NASA...][research_reichhardt_2005]
+- [Mission Analysis for LEO Microwave Power-Beaming Station in...][research_myraboln_dickensont_2005]
 - [Observation of d-Orbital Aromaticity][research_huang_zhai_2005]
+- [Optimal Continuous Thrust Orbit Transfer Using Evolutionary...][research_igarashi_spencer_2005]
 - [Optimal Orbit Transfer with Electrodynamic Tether][research_williams_2005]
+- [Reconnaissance Orbiter auf dem Weg zum Mars][research_reconnaissance_orbiter_2005]
+- [Rock albedo and monitoring of thermal conditions in respect...][research_hall_lindgren_2005]
+- [Satellite Orbit Transfer and Formation Reconfiguration via an...][research_sengupta_vadali_2005]
 - [Solar Orbiter-mission profile, main goals and present status][research_marsch_marsden_2005]
+- [Structural attitudes of large scale layering in Valles...][research_fueten_stesky_2005]
 - [The Mars Reconnaissance Orbiter Mission][research_graf_zurek_2005]
+- [The Radiation Environment Impacting DSX Orbit Options][research_ginet_2005]
 - [The SIde-Looking Coronagraph for the solar orbiter mission...][research_vives_lamy_2005]
+- [Yearly comparisons of the martian polar caps 1999-2003 Mars...][research_benson_james_2005]
 - [An algorithm for digital correction of the orbital...][research_zimchuk_ischenko_2006]
+- [An analytical method for satellite orbit prediction][research_lin_yanrong_2006]
 - [Application of High-Specific-Impulse Laser Propulsion to...][research_uchida_yabe_2006]
 - [Evaluation of Protective Silicone/Siloxane Coatings in...][research_dworak_banks_2006]
+- [Experimentation of Fiber-Optic Transmission of Light with...][research_mahanta_2006]
 - [Facial and orbital injuries][research_kirkpatrick_2006]
+- [Life on Mars? NASA orbiter starts its search][research_life_on_2006]
+- [Mars 1064 nm spectral radiance measurements determined from...][research_sun_neumann_2006]
 - [Micro-Mars A low-cost mission to planet Mars with scientific...][research_kerstein_bischof_2006]
 - [New mars orbiter returns test images][research_new_mars_2006]
 - [Orbital Ordering and Antiferromagnet-Ferromagnet Transitions...][research_troyanchuk_2006]
 - [Orbital and Charge Ordering in Manganites][research_raveau_hervieu_2006]
 - [Orbiter Return-To-Flight Entry Aeroheating][research_campbellcharlesh_andersonbrian_2006]
+- [Orbiter to look for lost-to-Mars probes][research_orbiter_to_2006]
+- [Orientation and distribution of recent gullies in the...][research_balme_mangold_2006]
 - [Parametric Optimization Analysis for Minimum-Fuel Low-Thrust...][research_chen_sheu_2006]
 - [Prediction of the structure of the martian upper atmosphere...][research_bougher_murphy_2006]
+- [Space Threat Warning Foundation for Space Superiority...][research_burke_2006]
+- [Studies of Enhanced Performance of the Mileura Widefield...][research_salah_oberoi_2006]
+- [Studies to Enable a Paradigm Shift in the Space Enterprise...][research_hastings_2006]
+- [The effects of sea-ice and land-snow concentrations on...][research_gorodetskaya_cane_2006]
 - [The solar wind interaction with Venus through the eyes of the...][research_russell_luhmann_2006]
+- [A technique to determine the mean molecular mass of a...][research_withers_2007]
 - [An Overview of the Mars Reconnaissance Orbiter MRO Science...][research_zurekrichardw_smrekarsuzannee_2007]
+- [Angles-Only Orbit Updates for Low-Earth-Orbit Satellites][research_sabol_alfriend_2007]
+- [CUSat An End-to-End In-Orbit Inspection System University...][research_peck_2007]
 - [China Satellite Enters Moon's Orbit][research_china_satellite_2007]
+- [Comprehensive Solar-Terrestrial Environment Model COSTEM for...][research_gombosi_2007]
 - [Concept study on Deep Space Orbit Transfer Vehicle][research_kawakatsu_2007]
+- [Continuous Thrust Orbit Transfer Optimization Using...][research_ulybyshev_2007]
+- [Coulomb drag and spin drag in the presence of spin-orbit...][research_tse_dassarma_2007]
 - [Determination of the Goce Satellite Orbit Sensitivity Under...][research_bobojc_drozyner_2007]
 - [Development and On-Orbit Experiment Results of Optical...][research_arai_2007]
 - [Future gravitational physics tests from ranging to the...][research_ashby_bender_2007]
+- [Heliocentric Solar Sail Orbit Transfers with Locally Optimal...][research_macdonald_mcinnes_2007]
 - [ISA accelerometer onboard the Mercury Planetary Orbiter error...][research_iafolla_lucchesi_2007]
+- [Mars equatorial mesospheric clouds Global occurrence and...][research_clancy_wolff_2007]
+- [Muddying the water? Orbiter drains confidence from fluid...][research_cowen_2007]
+- [Near-Optimal Very Low-Thrust Earth-Orbit Transfers and...][research_gao_2007]
 - [Optimality results in orbit transfer][research_bonnard_caillau_2007]
 - [Orbit Reviewers, 2006][research_orbit_reviewers_2007]
 - [Passive Stability Design for Solar Sail on Displaced Orbits][research_gong_li_2007]
+- [Physical characterization of the potentially hazardous...][research_harris_mueller_2007]
 - [Planet-C Venus Climate Orbiter mission of Japan][research_nakamura_imamura_2007]
+- [Publisher's Note Coulomb drag and spin drag in the presence...][research_tse_dassarma_2007_b]
+- [Robust algorithm of control for a maneuver in the Martian...][research_sikharulidze_korchagin_2007]
+- [Size, albedo, and taxonomic type of potential spacecraft...][research_mueller_harris_2007]
+- [Solar Sail Topology Variations Due to On-Orbit Thermal Effects][research_banik_lively_2007]
 - [Status of Mars Reconnaissance Orbiter Mission][research_graf_zurek_2007]
 - [The Mars Reconnaissance Orbiter Mission From Launch to the...][research_johnstonmartind_grafjamese_2007]
 - [The Solar Orbiter mission and its prospects for...][research_woch_gizon_2007]
+- [Automated and Adaptive Mission Planning for Orbital Express][research_chouinardcaroline_knightrussell_2008]
 - [Autonomous orbit and attitude determination of satellite...][research_zhang_jing_2008]
 - [Ballute Entry Systems for Lunar Return and Low-Earth-Orbit...][research_clark_braun_2008]
 - [Chronic orbital infection caused by migration of an orbital...][research_nitsche_yousefpour_2008]
 - [Design of geodetic SVLBI satellite orbit and its tracking...][research_wei_liu_2008]
 - [Earth Global Reference Atmospheric Model 2007 Earth-GRAM07...][research_lesliefredw_justuscg_2008]
+- [In-orbit repositioning of multiple solar sail spacecraft][research_mengali_quarta_2008]
+- [Interactive Planning for Capability Driven Air and Space...][research_zaidi_levis_2008]
 - [Local orbital frame predictor for LEO drag-free satellite][research_canuto_massotti_2008]
 - [MILD a laser altimeter transmitter for a Mercury planetary...][research_ciofini_favilla_2008]
 - [Optimal Impulsive Relative Orbit Transfer Along a Circular...][research_ichimura_ichikawa_2008]
+- [Orbital Express Advanced Video Guidance Sensor][research_howardricky_heatonandy_2008]
 - [Orbital effects of the Magnus force on a spinning spherical...][research_borg_soderholm_2008]
+- [Perceiving Other Planets Bodily Experience, Interpretation...][research_rosenberger_2008]
 - [Planetary protection implementation on Mars Reconnaissance...][research_barengoltz_witte_2008]
+- [Semianalytic estimations of boundaries of a corridor of...][research_yaroshevskii_2008]
 - [Space Vehicle Material and Plume Interactions With the Low...][research_minton_2008]
 - [Spectral Analysis of the Selected Accelerations and Orbital...][research_bobojc_2008]
 - [Spy satellite enters decay orbit after losing power][research_spy_satellite_2008]
+- [The Mars Orbiter Laser Altimeter dataset Limitations and...][research_som_2008]
 - [The orbital distribution of satellite galaxies][research_herbertfort_zaritsky_2008]
+- [A new batch of high-resolution images from the HiRISE camera...][research_a_new_2009]
 - [Analysis of optimal and near-optimal continuous-thrust...][research_kechichian_2009]
 - [CDGPS Relative Position Determination of Distributed SAR...][research_gu_zhu_2009]
+- [Coregistration of Mars Orbiter Laser Altimeter MOLA...][research_kolb_okubo_2009]
+- [Efficient Initial Costates Estimation for Optimal Spiral...][research_lee_bang_2009]
+- [Genetic Design of Target Orbits for a Temporary...][research_kim_bang_2009]
+- [Geometry of Fan Beam Albedo Measurements on Spin-Stabilized...][research_fraiture_2009]
 - [Greenhouse-gas satellite heads into orbit][research_greenhouse_gas_satellite_2009]
 - [Japan's lunar orbiter ends mission with crash landing][research_japan_s_lunar_2009]
 - [Korean satellite misses orbit][research_korean_satellite_2009]
 - [Linear Feedback Guidance for Low-Thrust Many-Revolution...][research_gao_2009]
+- [Mars Orbiter suffers glitch, stalling observations][research_mars_orbiter_2009]
+- [Mars orbiter plans to map out methane plumes][research_mars_orbiter_2009_b]
+- [On Development of the Intergovernmental Standard "Chemical...][research_valetkin_meglitskii_2009]
 - [Optimal multi-orbit trajectories for inserting a low-thrust...][research_petukhov_2009]
+- [Software upgrade resurrects Mars orbiter][research_software_upgrade_2009]
+- [Space Operations][research_jointchiefsofstaffwashingtondc_2009]
 - [Statistical Conjunction Analysis and Modeling of...][research_anilkumar_reddy_2009]
+- [Statistics of mass substructure from strong gravitational...][research_vegetti_koopmans_2009]
 - [An orbital graveyard artificial satellite][research_richards_2010]
+- [An overview of the 1985-2006 Mars Orbiter Camera science...][research_malin_2010]
+- [Analytical Study of the Primer Vector and Orbit Transfer...][research_jamison_coverstone_2010]
 - [Analytical solution of a satellite orbit disturbed by lunar...][research_xu_xu_2010]
 - [Contribution of Mars Odyssey GRS and Mars Reconnaissance...][research_page_2010]
+- [Efficient evaluation of triple excitations in...][research_hohenstein_sherrill_2010]
 - [Explanation of aimed function of economics - mathematics...][research_emelyanovich_amelchenko_2010]
 - [In-orbit measurements of spacecraft microvibrations for...][research_toyoshima_2010]
+- [Inclination Adjustment Maneuver and Frozen Orbit Keeping of...][research_someya_iwata_2010]
 - [Local orbital frame predictor for LEO drag-free satellite][research_canuto_massotti_2010]
 - [Modelling an encounter between a spacecraft and a cometary...][research_christou_vaubaillon_2010]
 - [New measurement of orbital and spin period evolution of the...][research_jain_paul_2010]
 - [Orbital Mechanism and Satellite Orbital Location][research_ahmed_omizegba_2010]
+- [Prediction of the flow field over an orbiter entering the...][research_druguet_2010]
 - [The European Student Moon Orbiter ESMO A lunar mission for...][research_walker_cross_2010]
 - [The Mercury Gamma and Neutron Spectrometer MGNS on board the...][research_mitrofanov_kozyrev_2010]
+- [The Sun as a Non-state Actor The Implications on Military...][research_kabat_2010]
+- [The stellar mass fraction and baryon content of galaxy...][research_andreon_2010]
+- [Variability of soil moisture and its relationship with...][research_roxy_sumithranand_2010]
 - [A preliminary assessment of an orbiter in the Haumean system...][research_poncy_fontdecababaig_2011]
+- [Curvilinear features in the southern hemisphere observed by...][research_wang_toigo_2011]
 - [Decay of Satellite Orbits Due to the Drag of Rotating Oblate...][research_saad_2011]
 - [Decay of high eccentricity satellite orbits with air drag...][research_anitha_sharma_2011]
 - [Handling Qualities Evaluation of Pilot Tools for Spacecraft...][research_bilimoria_mueller_2011]
+- [Improvement of Solar Magnetic Field Data for Space Weather...][research_harvey_hill_2011]
+- [Landers and orbiter make for Mars][research_landers_and_2011]
+- [Multitemporal observations of identical active dust devils on...][research_reiss_zanetti_2011]
 - [Optimal Pulse Strategies for Relative Orbit Transfer Along a...][research_jifuku_ichikawa_2011]
 - [Perturbation Effects of Quadratic Drag on the Orbital...][research_li_2011_b]
 - [Russian satellite missing hours after launch, found off...][research_russian_satellite_2011]
+- [SALMON HEARTS DO NOT FOLLOW MASS SCALING LAW][research_salmon_hearts_2011]
+- [Solar oblateness and Mercury's perihelion precession][research_xu_yang_2011]
 - [Spatial entanglement and massive neutrino oscillations...][research_pavlichenkov_2011]
 - [The impact of orbital sampling, monthly averaging and...][research_aghedo_bowman_2011]
 - [Transfer Vehicle Cargo Manipulating Strategy in Orbit Using...][research_tan_2011]
+- [Various Orbital Solutions and Double Star Statistics][research_mason_2011]
 
 ### The Contemporary Base in Full
 
@@ -4107,9 +5318,12 @@ The article computes bounds precisely because none of these exists.
 
 
 
+- [Performance analysis of indirect contact heat pipe radiator...][research_li_zhang_2024_c]
 - [Reliability evaluation of spacecraft power generation...][research_zhang_zeng_2024]
 - [Ensuring Satellite Operational Integrity A Power Budget...][research_mahmood_abdallah_2025]
 
+- [Conceptual design studies of an electrically propelled upper...][research_levandovich_mosin_2021]
+- [Convex Approach to Three-Dimensional Launch Vehicle Ascent...][research_benedikter_zavoli_2021]
 - [Integrated Framework for Staging and Trajectory Optimization...][research_cho_jo_2021]
 - [Convex Optimization of Launch Vehicle Ascent Trajectory with...][research_benedikter_zavoli_2022]
 - [Robust Optimal Trajectory Design of a Launch Vehicle Using...][research_robust_optimal_2022]
@@ -4123,6 +5337,7 @@ The article computes bounds precisely because none of these exists.
 - [Rapid Trajectory Planning for Launch Vehicle Based on Deep...][research_ye_hu_2025]
 
 - [Action of Kansai University for Military and Civilian...][research_yoshida_2019]
+- [The Forgotten First Iteration of the 'Chinese Space Threat'...][research_hunter_2019]
 - [Artificial Intelligence as a Dual-use Technology][research_ambrus_2020]
 - [Conversion of Dual-Use Technology A Differential Game...][research_cao_yang_2020]
 - [Cyber Operations, Legal Secrecy, and Civil-Military Relations...][research_rudesill_2020]
@@ -4152,6 +5367,7 @@ The article computes bounds precisely because none of these exists.
 - [Personal Data As A Dual-Use Technology Critically Assessing...][research_swire_sacks_2025]
 - [Shrouded in Secrecy Explaining Why Some Countries Refuse to...][research_ghincea_2025]
 - [Space Security Norms and Dual-Use Technology Challenges...][research_connolly_garces_2025]
+- [Sweden's first defence and security space strategy Aligning...][research_eriksson_2025]
 - [The Development of U.S. Military Space Policy in the XXI...][research_chekov_2025]
 - [US-China Space Rivalry, Implications for Japan's National...][research_muhammadsiddique_2025]
 - [Analysis of the Prospects for the Development of Dual-Use...][research_parczewski_2026]
@@ -4160,12 +5376,16 @@ The article computes bounds precisely because none of these exists.
 - [From Vuca to Bani Governing Dual-Use Biotechnologies Through...][research_nenovska_radulov_2026]
 - [Managing Dual-Use Technology in an Era of Great Power...][research_grimberg_2026]
 
+- [Passivity-Based Adaptive Finite-Time Trajectory Tracking...][research_sun_2016]
+- [Prox-1 University-Class Mission to Demonstrate Automated...][research_spencer_chait_2016]
+- [Atomic Oxygen Cleaning of Unpainted Plaster Sculptures][research_banksbrucea_millersharonk_2017]
 - [Attitude dynamics and control of a spacecraft like a robotic...][research_dafonseca_goes_2017]
 - [Effects of CubeSat Deployments in Low-Earth Orbit][research_matneymj_vavrinab_2017]
 - [Mission planning for on-orbit servicing through multiple...][research_daneshjou_mohammadidehabadi_2017]
 - [Safety Control for Spacecraft Autonomous Rendezvous and...][research_dong_hu_2017]
 - [Towards a standardized grasping and refuelling on-orbit...][research_medina_tomassini_2017]
 - [Trajectory Design for a Cislunar Cubesat Leveraging Dynamical...][research_bosanacnatasha_coxandrew_2017]
+- [Atomic Oxygen Environments, Effects, and Mitigation][research_millersharonkr_banksbrucea_2018]
 - [Attitude control for on-orbit servicing spacecraft using...][research_wu_han_2018]
 - [Dual-Quaternion-Based Spacecraft Autonomous Rendezvous and...][research_dong_hu_2018]
 - [Impact Evaluation of In-Space Additive Manufacturing and...][research_sears_ho_2018]
@@ -4200,8 +5420,10 @@ The article computes bounds precisely because none of these exists.
 - [Small Satellite Mission Concepts for Space Weather Research...][research_caspi_barthelemy_2022]
 - [Two-level Game Based Multi-arm On-orbit Servicing Spacecraft...][research_gao_wu_2022]
 - [Viability of On-Orbit Servicing Spacecraft to Prolong the...][research_hatty_2022]
+- [Long-Term Evolution of the Space Environment Considering...][research_zhang_yuan_2023]
 - [Multi-orbit routing and scheduling of refuellable on-orbit...][research_sorenson_pinkley_2023]
 - [Orbital Transfer Process and Analysis of Small Satellite for...][research_lee_kang_2023]
+- [Relative Impact of Spacecraft Payload Mass Fraction on...][research_biswalm_2023]
 - [Spacecraft attitude estimation under attitude tracking...][research_lee_gallucci_2023]
 - [A comprehensive survey of space robotic manipulators for...][research_alizadeh_zhu_2024]
 - [Data-driven optimal controller design for sub-satellite...][research_yu_tan_2024]
@@ -4211,6 +5433,7 @@ The article computes bounds precisely because none of these exists.
 - [A Review of Advancements in Inspection, Manufacturing and...][research_dremann_hassan_2025]
 - [Close-Proximity Operations Design, Analysis, and Validation...][research_vasconcelos_gaggi_2025]
 - [Global N-body simulation of gap edge structures created by...][research_torii_ida_2025]
+- [Key technologies of space environment engineering for space...][research_shen_tang_2025]
 - [Meta-Reinforcement Learning for Spacecraft Proximity...][research_fereoli_schaub_2025]
 - [On-Orbit Servicing Networks in Cislunar Space A Framework for...][research_waldecker_howell_2025]
 - [Orbital Characterization of a Newly Discovered Small...][research_proudfoot_nolthenius_2025]
@@ -4316,6 +5539,7 @@ The article computes bounds precisely because none of these exists.
 - [Analysis of current and future threats of space debris and...][research_banik_ali_2025]
 - [DISE A Dynamic Integrated Space-Economy Model for Orbital...][research_bongers_ortiz_2025]
 - [Effective compliance to technical regulations - Why is...][research_spencer_alary_2025]
+- [Hybrid Quantum-Classical Optimization for Satellite...][research_ipek_2025]
 - [Hybrid electrostatic ion beam shepherd schemes for active...][research_ledkov_aslanov_2025]
 - [Managing space debris Risks, mitigation measures, and...][research_filho_abubakar_2025]
 - [Mission analysis of space-based small camera for space debris...][research_filho_gordo_2025]
@@ -4336,6 +5560,7 @@ The article computes bounds precisely because none of these exists.
 - [Space debris impact risk assessment for space solar power...][research_li_zhang_2026_b]
 - [Space debris index definition for multi-purpose active debris...][research_borelli_colombo_2026]
 
+- [Legal and policy aspects of space situational awareness][research_kaiser_2015]
 - [Orbit determination via adaptive Gaussian swarm optimization][research_kiani_pourtakdoust_2015]
 - [Precise orbit determination and rapid orbit recovery...][research_guo_zhou_2015]
 - [Space Situational Awareness in Europe The Fractures and the...][research_mccormick_2015]
@@ -4440,6 +5665,7 @@ The article computes bounds precisely because none of these exists.
 - [Robust Space-Object Association and Recursive Estimation for...][research_yan_liu_2026]
 - [Sand Hill Optical Telescope SHOT for Space Surveillance and...][research_matous_moravec_2026]
 
+- [Compliance of the Italian satellites in low Earth orbit with...][research_anselmo_pardini_2015]
 - [Identification of Design Considerations for Small Satellite...][research_triana_bautista_2015]
 - [Kinematic Navigation of Geostationary Satellites Formation...][research_kumar_hablani_2015]
 - [Low-Thrust Transfer Design of Low-Observable Geostationary...][research_hua_shao_2015]
@@ -4463,6 +5689,7 @@ The article computes bounds precisely because none of these exists.
 - [A Method to Determine BeiDou GEO/IGSO Orbital Maneuver Time...][research_qin_huang_2019]
 - [A numerical approach to the problem of angles-only initial...][research_ardaens_gaias_2019]
 - [CALCULATION OF SUBOPTIMAL HIGH-ELLIPTICAL ORBIT TO...][research_salmin_petrukhina_2019]
+- [Generating Accurate and Consistent Top-Of-Atmosphere...][research_wangweile_lishuang_2019]
 - [Gravitational Trap for Space Debris in Geosynchronous Orbit][research_aslanov_2019]
 - [Mining Two-Line Element Data to Detect Orbital Maneuver for...][research_bai_liao_2019]
 - [On the practical exploitation of perturbative effects in low...][research_schaus_alessi_2019]
@@ -4540,7 +5767,6 @@ The article computes bounds precisely because none of these exists.
 - [Observer-based robust preview control for tracking low Earth...][research_lin_chen_2025]
 - [Overview of Low Earth Orbit Satellite Communication Systems][research_liu_2025]
 - [Research on intelligent orbit life prediction model of low...][research_guan_li_2025]
-- [Scalable Contact Graph Modeling for Low Earth Orbit Satellite...][research_wu_liao_2025]
 - [Task offloading and computational scheduling in RIS-assisted...][research_wang_gui_2025]
 - [Variable Subarray Beamforming in Low Earth Orbit Satellite...][research_tategami_goto_2025]
 - [Very Low Earth Orbit Satellites Promise Greater...][research_palmer_2025]
@@ -4570,6 +5796,7 @@ The article computes bounds precisely because none of these exists.
 - [Retrieval of orbital maneuver information of Starlink...][research_liu_yuan_2026]
 - [Stabilization of Low Earth Orbit Satellite Attitude Control...][research_stabilization_of_2026]
 
+- [Fast optimization method for Mars high-fidelity aerobraking...][research_yang_liu_2020]
 - [Feasibility and Mass-Benefit Analysis of Aerocapture for...][research_girija_lu_2020]
 - [Investigation of Direct Force Control For Aerocapture at...][research_rohangajanandeshmukh_davidaspencer_2020]
 - [AMAT A Python package for rapid conceptual design of...][research_girija_saikia_2021]
@@ -4589,6 +5816,7 @@ The article computes bounds precisely because none of these exists.
 - [Adaptive tracking guidance for powered aeroassisted orbital...][research_yao_li_2024]
 - [Aerocapture An Enabling Technology for Flagship-Class Uranus...][research_rohandeshmukh_2024]
 - [Feasibility Assessment of Magnetohydrodynamic Control for...][research_dannynnguyen_soumyodutta_2024]
+- [Onboard guidance and control algorithms for increased...][research_beshaj_morselli_2024]
 - [Stochastic Trajectory Planning for Autonomous Aerobraking...][research_zhao_shang_2024]
 - [Aerobraking of small satellites, with and without drag sails...][research_berthet_2025]
 - [Aerobraking Review of the state of the art and required...][research_berthet_2025_b]
@@ -4599,24 +5827,36 @@ The article computes bounds precisely because none of these exists.
 - [Aerocapture guidance for Jupiter's low orbit insertion...][research_usuki_tsuda_2026]
 - [Analytical modelling of an aerobraking orbit][research_berthet_2026]
 - [Design and Deployment of a Martian Global Navigation...][research_gochenaur_jones_2026]
+- [Preliminary 3- and 6-Degree-of-Freedom investigation of...][research_higginbotham_bettinger_2026]
 - [Reachability- and Controllability-Based Planetary Aerobraking...][research_long_niu_2026]
+- [Residual learning method for Mars aerobraking autonomous...][research_cui_chen_2026]
 
+- [Autonomous Landing for UAVs using T-MPSP Guidance and Dynamic...][research_tripathi_padhi_2016]
+- [Autonomous Landing of a Fixed Wing UAV with a Ground-based...][research_saifei_xinhua_2016]
+- [Monocular Estimation of Ground Orientation for Autonomous...][research_dougherty_lee_2016]
+- [Numerical Optimization on Approach and Landing for Reusable...][research_numerical_optimization_2016]
 - [Trajectory Planning for Terminal Area Energy Management Phase...][research_mu_yu_2016]
+- [Absolute navigation for Mars final approach using relative...][research_wang_cui_2017]
 - [Automatic Approach and Landing Trajectory Planner for...][research_albakri_kluever_2017]
 - [Autonomous Landing of a Quadcopter on a High-Speed Ground...][research_borowczyk_nguyen_2017]
 - [Guidance, Navigation, and Control for the Eddy Brake Method][research_gomez_walker_2017]
+- [Mars Cruise Orbit Determination from Combined Optical...][research_liu_wei_2017]
 - [Beidou satellite maneuver thrust force estimation for precise...][research_qiao_chen_2018]
+- [Lunar landing navigation supported by ranging to an orbiter][research_condoleo_theil_2018]
 - [NASA SPLICE Project Development and Testing of Precision...][research_restrepocarolinai_sostaricronald_2018]
 - [A software platform for vision-based UAV autonomous landing...][research_xu_wang_2019]
 - [Design for Guidance Method of UAV Autonomous Landing on...][research_jiang_qi_2019]
 - [Energy Management and Guidance for Gyroplane Autonomous...][research_fang_benzerrouk_2019]
+- [Optical/radio/pulsars integrated navigation for Mars orbiter][research_gu_jiang_2019]
 - [Promising navigation, landing and reusable orbital spaceships...][research_promising_navigation_landing_2019]
 - [GNandC Sequencing for Orion Rendezvous, Proximity Operations...][research_schultepeterz_speharpetert_2020]
 - [Guidance, Navigation, and Control System for Landing near...][research_konstantinidis_forstner_2020]
+- [Mars orbiter integrated navigation algorithm for angle and...][research_chen_zhang_2020]
 - [A Hybrid ECOM Model for Solar Radiation Pressure Effect on...][research_tseng_2021]
 - [A survey of guidance, navigation, and control systems for...][research_marshall_sun_2021]
 - [CubeSat Autonomous Navigation and Guidance for Low-Cost...][research_machuca_sanchez_2021]
 - [Introduction to the Virtual Collection on Autonomous...][research_carsoniii_munk_2021]
+- [Autonomous navigation for Mars probes using only...][research_ma_yang_2022]
 - [Bayesian Shape Reconstruction and Optimal Guidance for...][research_kulumani_lee_2022]
 - [Guidance, Navigation and Control for Autonomous Quadrotor...][research_mokrane_benallegue_2022]
 - [A Vision-Based Autonomous Landing Guidance Strategy for a...][research_mu_li_2023]
@@ -4628,8 +5868,10 @@ The article computes bounds precisely because none of these exists.
 - [A multi-platform Guidance, Navigation and Control system for...][research_fenucci_fanelli_2024]
 - [A satellite orbit maneuver detection and robust multipath...][research_zhou_wang_2024]
 - [Adaptive Prognostic Malfunction Based Processor for...][research_ahmed_wyatt_2024]
+- [Autonomous navigation of an asteroid orbiter enhanced by a...][research_yin_shi_2024]
 - [Challenges in the Guidance, Navigation and Control of...][research_horri_holderbaum_2024]
 - [Formation Configuration Design for Low-Earth Orbit Regional...][research_fan_li_2024]
+- [Guidance, Navigation, and Control for the Moon, Mars, and...][research_sagliano_2024]
 - [Temporal mission planning for autonomous ships Design and...][research_hinostroza_lekkas_2024]
 - [VALNet Vision-Based Autonomous Landing with Airport Runway...][research_wang_feng_2024]
 - [A Visual Guidance and Control Method for Autonomous Landing...][research_guo_wang_2025]
@@ -4653,37 +5895,149 @@ The article computes bounds precisely because none of these exists.
 - [Long-Duration Hybrid Thruster Firings with Fuel Regression...][research_saito_kariya_2026]
 - [Simulation and test of discharge performance of high-power...][research_wang_geng_2026]
 
+- [Numerical Study on Aerodynamic Design of Hypersonic Vehicle...][research_wang_gao_2013]
+- [Adaptive Pole Assignment Control for Generic Elastic...][research_yan_2014]
+- [Flow Structures and Heating Augmentation Around Finite-Width...][research_ohmichi_suzuki_2014]
+- [Hypersonic Boundary-Layer Instabilities due to Near-Critical...][research_wheaton_schneider_2014]
+- [Hypersonic interference heating on cones with short...][research_kumar_reddy_2014]
+- [Numerical simulation of roughness effect on the stability of...][research_fong_wang_2014]
+- [On Parametric Sensitivity of Reynolds-Averaged Navier-Stokes...][research_brownjamesl_2014]
+- [Roughness-induced turbulent wedges in a hypersonic blunt-body...][research_fiala_hillier_2014]
+- [Current Hypersonic and Space Vehicle Flight Test and...][research_spravka_jorris_2015]
+- [Diagnostics for Hypersonic Engine Control][research_brown_donbar_2015]
+- [Neural discrete back-stepping control of hypersonic flight...][research_xu_zhang_2015]
+- [Quantifying Confidence in Model Predictions for Hypersonic...][research_smarslok_2015]
+- [The Rapid Engineering Aero-Heating Calculation Method for...][research_huo_yang_2015]
+- [Three Dimensional Trajectory Linearization Control for Flight...][research_zhu_shen_2015]
+- [Assessment of SLAU2 and other flux functions with slope...][research_kitamura_2016]
+- [Crosshatch roughness distortions on a hypersonic turbulent...][research_peltier_humble_2016]
+- [Infrared thermography of transition due to isolated roughness...][research_avallone_schrijer_2016]
+- [Reattachment heating upstream of short compression ramps in...][research_estruchsamper_2016]
+- [A wall grid scale criterion for hypersonic aerodynamic...][research_yang_liu_2017]
+- [Computational study of drag increase due to wall roughness...][research_wang_zhao_2017]
+- [Hypersonic transition induced by three isolated roughness...][research_duan_xiao_2017]
+- [Turbulization of the Wake behind a Single Roughness Element...][research_turbulization_of_2017]
+- [A Scramjet Compression System for Hypersonic Air...][research_sen_pesyridis_2018]
+- [A study of upwind schemes on the laminar hypersonic heating...][research_qu_sun_2018]
+- [Aero-heating in hypersonic continuum and rarefied gas flows][research_xiao_he_2018]
+- [Effect of surface roughness on the heating rates of...][research_irimpan_menezes_2018]
+- [Improved Approximate Method for Computing Convective Heating...][research_zhao_li_2018]
+- [Ramjet Compression System for a Hypersonic Air Transportation...][research_veeran_pesyridis_2018]
+- [Second-mode waves produce hypersonic boundary layer heating][research_wolverton_2018]
+- [L _ 1 adaptive control augmentation for a...][research_ai_chen_2019]
+- [Aerothermoelastic Analysis of a Hypersonic Vehicle Based on...][research_chen_zhao_2019]
+- [Ascent Trajectory Optimization for Hypersonic Vehicle Based...][research_fu_wang_2019]
+- [Combined thermal phenomena of hypersonic vehicle][research_gui_2019]
+- [Experimental Investigation of Hexcomb-Pattern Roughness...][research_hollisbrianr_2019]
+- [Harmonic linearized Navier-Stokes equation on describing the...][research_zhao_dong_2019]
+- [Derived Angle of Attack and Sideslip Angle Characterization...][research_valasek_harris_2020]
+- [Hybrid Control Trajectory Optimization for Air-breathing...][research_song_choi_2020]
+- [Numerical Prediction of Flow Field and Aerodynamic Heating in...][research_sun_yang_2020]
+- [Performance Simulation Analysis of Composite Thermal...][research_changbao_hui_2020]
+- [Subsonic Ultra Green Aircraft Research Phase III Mach 0.75...][research_christopherkdroney_anthonyjsclafani_2020]
+- [The effect of concave roughness on the hypersonic flat-plate...][research_chen_2020]
+- [Aerodynamic heating in hypersonic flows][research_smith_2021]
+- [An asymptotic theory of the roughness impact on inviscid Mack...][research_dong_zhao_2021]
+- [Effects of roughness on a turbulent boundary layer in...][research_williams_sahoo_2021]
+- [Electron heating and cooling in hypersonic flows][research_parent_2021]
+- [Shock interaction induced heat flux augmentation in...][research_gulhan_willems_2021]
+- [Erratum "Electron heating and cooling in hypersonic flows"...][research_parent_2022]
+- [Experimental Investigation of a Roughness Element Wake on a...][research_han_he_2022]
+- [Internal energy balance and aerodynamic heating predictions...][research_barone_nicholson_2022]
+- [Lift Augmentation at Subsonic Speeds by Lateral Jets for a...][research_wang_liu_2022]
+- [Optimization of Power and Thermal Management System of...][research_guo_pang_2022]
+- [Performance Characterization of Single Expansion Ramp Nozzle...][research_azhar_habeeb_2022]
+- [Study on Trajectory Optimization of Hypersonic Vehicle Based...][research_cai_huang_2022]
+- [A power and thermal management system for long endurance...][research_guo_pang_2023]
+- [Design of Hypersonic Vehicle Time-Delay Compensation...][research_zhou_2023]
+- [Experimental Evaluation of Isolated Intake for Hypersonic...][research_thiagarajan_sharma_2023]
+- [High-precision reconstruction of the heat flux field by a...][research_yao_wang_2023]
+- [Hypersonic boundary-layer instability characterization and...][research_gui_zhang_2023]
+- [Influence of Single Roughness Element on Hypersonic...][research_cheng_huang_2023]
+- [Nonlinearly Parametrized Modeling and Adaptive Control for a...][research_yang_li_2023_b]
+- [Numerical studies on the thermal-fluid-structure coupling...][research_wang_qian_2023]
+- [Optical performance evaluation of an infrared system of a...][research_zhang_ju_2023]
+- [Predictor-Corrector Guidance for a Hypersonic Morphing Vehicle][research_yao_xia_2023]
+- [Roughness effect on hypersonic second mode instability and...][research_haley_zhong_2023]
 - [Terminal Adaptive Guidance for Autonomous Hypersonic Strike...][research_gaudet_furfaro_2023]
+- [Design and Evaluation of a Hypersonic Waverider Vehicle Using...][research_klothakis_nikolos_2024]
+- [Enhanced Trajectory Forecasting for Hypersonic Glide Vehicle...][research_lu_qian_2024]
+- [Experimental Assessment of Hypersonic Convective Heat...][research_forsyth_hambidge_2024]
+- [Finite-Time Convergence Guidance Law for Hypersonic Morphing...][research_yao_xia_2024]
+- [Influence of geometric parameters of discrete roughness...][research_lee_park_2024]
 - [Numerical study for heat dissipation performance of phase...][research_hu_li_2024]
 - [Phase transition cooling structure towards the wing antenna...][research_jin_li_2024]
+- [Research on Backstepping Linear Active Disturbance Rejection...][research_bao_zhu_2024]
 - [Study on coupled heat transfer of pyrolytic kerosene and...][research_zhou_zhang_2024]
+- [A Control Method for Thermal Structural Tests of Hypersonic...][research_lu_zhang_2025]
 - [Adaptive physics-informed neural network to simultaneously...][research_zheng_huang_2025]
 - [Application of fuzzy PID control algorithm in hypersonic...][research_diao_liu_2025]
+- [Communication blackout and aerodynamic heating reduction via...][research_miyashita_sugihara_2025]
+- [Distributed Sand-Grain Roughness Effects on Blunt-Body...][research_hollis_2025]
+- [Effect of roughness elements on receptivity of hypersonic...][research_zhang_lei_2025]
 - [Experimental study on active transpiration cooling for...][research_deng_wang_2025]
+- [Hypersonic Boundary-Layer Instability Response to Nose-Tip...][research_li_yu_2025]
+- [Influence of distributed roughness elements on hypersonic...][research_li_li_2025]
 - [Influence of trailing edge thickness and deflection on the...][research_xu_li_2025_b]
 - [On the Impact of Surface Thermal Conditions on Aero-heating...][research_yassin_ahmed_2025]
+- [On the stability characteristics of a hypersonic...][research_saikia_brehm_2025]
+- [Reliability analysis of hypersonic vehicles under aerodynamic...][research_yu_wang_2025]
 - [Study on Multi-Heat-Source Thermal Management of Hypersonic...][research_qi_zhou_2025]
 - [Thermal-optical coupling analysis of aero-optical imaging...][research_zhang_xu_2025]
 - [Thermodynamic analysis of helium-xenon closed Brayton cycle...][research_wang_liu_2025_b]
 - [Working medium selection for Hypersonic Vehicle Closed...][research_wang_xue_2025]
+- [Coupled effects of thermochemical nonequilibrium and...][research_guo_cao_2026]
+- [Hypersonic Impact Method for Aerodynamics and Convective...][research_goates_freeman_2026]
 - [Long Duration Hypersonic Flight Experiment ATHEAt][research_gulhan_klingenberg_2026]
+- [Numerical investigation of aerodynamic heating by electron...][research_gao_he_2026]
 - [Quasi-steady load-following thermal management and power...][research_zhao_yao_2026]
+- [Transient Dynamics of Multi-Port Lateral Jet Interactions on...][research_sun_cao_2026]
+- [Transient thermodynamic-dynamic modeling and exergy analysis...][research_demoura_ribeiro_2026]
 
+- [InSight's Reconstructed Aerothermal Environments][research_beckra_szalaice_2019]
+- [Study on Testing Environment Simulation Method for Thermal...][research_shichao_2019]
+- [Thermal flutter prediction at trajectory points of a...][research_guo_shen_2019]
+- [Calculated Analysis of Experimental Data on the...][research_surzhikov_2020]
+- [HTR solver An open-source exascale-oriented task-based...][research_direnzo_fu_2020]
+- [ChipSats for Planetary Exploration Dynamics and Aerothermal...][research_umanskycastro_yap_2021]
+- [InSight Aerothermal Environment Assessment][research_beck_songer_2021]
+- [Multifidelity Modeling for Efficient Aerothermal Prediction...][research_santos_hosder_2021]
+- [Efficient Uncertainty Quantification and Sensitivity Analysis...][research_huang_li_2022]
+- [Impact of Anisotropic Mesh Adaptation on the...][research_morgado_garbacz_2022]
+- [Investigations on the aerothermal performance of the turbine...][research_huang_li_2022_b]
 - [Numerical simulation of the thermal non-equilibrium...][research_yu_qiu_2022_b]
 - [Numerical simulation of thermochemical non-equilibrium...][research_yu_qiu_2022]
+- [Prediction of Aerothermal Environment and Heat Transfer for...][research_huang_he_2022]
+- [Uncertainty quantification and sensitivity analysis of...][research_huang_li_2022_c]
 - [AEROTHERMODYNAMICS OF COMBINED SPIKE AND COUNTERFLOW JET...][research_dharmesh_kumar_2023]
 - [Aerothermodynamic analysis of Neptune ballistic entry and...][research_coelho_linodasilva_2023]
+- [Analysis of Mars 2020 Entry Vehicle Aerothermal Flight Data][research_edquist_west_2023]
+- [Comprehensive Aerothermal Investigation of Turbine Blade...][research_huang_zhang_2023_b]
 - [Erratum to "Aerothermodynamic analysis of Neptune ballistic...][research_coelho_linodasilva_2023_b]
 - [Non-equilibrium modeling on the aerothermodynamic...][research_he_sun_2023]
+- [Novel Engineering Methodology for Decoupled Aerothermal...][research_cooper_martin_2023]
+- [Aerothermal characterization of the CALLISTO vehicle during...][research_ecker_ertl_2024]
+- [An optimized time-adaptive aerothermal coupling calculation...][research_bi_mao_2024]
 - [Influence of magnetohydrodynamics configuration on...][research_sharma_giangaspero_2024]
+- [Real Gas Effects on Receptivity to Roughness in Hypersonic...][research_yin_lu_2024]
 - [Aerothermodynamic Sensitivity Analysis and Optimization of...][research_horing_maute_2025]
+- [Comparison of models for aerothermal load prediction using...][research_franze_barz_2025_b]
+- [Correction Comparison of models for aerothermal load...][research_franze_barz_2025]
 - [Electrodynamic Plasma System for Active Space Debris...][research_karimov_buyanov_2025]
 - [Investigation of shock structure and aerothermodynamics of...][research_g_g_2025]
+- [Numerical Analysis of the Influence of Material Catalytic...][research_shi_wang_2025_b]
 - [Numerical simulation on the influence of aerothermodynamics...][research_gokul_malaikannan_2025]
+- [Structural Index Parameter for Capturing Aerothermal Effects...][research_atchison_maynard_2025]
+- [Uncertainty Quantification for Aerothermal Characteristics of...][research_li_wang_2025_b]
+- [A machine learning prediction framework for aerothermal...][research_dai_shao_2026]
 - [Aerothermodynamics for space debris mitigation solutions][research_turchi_depersis_2026]
+- [Effect of test parameter matching methods in a...][research_he_zhang_2026]
 - [The Drag of Ionosphere Plasma Drifts on Thermospheric Zonal...][research_zhang_liu_2026]
 - [Uncertainty Quantification and Sensitivity Analysis of Ice...][research_rataczak_boyd_2026]
 
+- [Sliding mode based trajectory linearization control for...][research_xingling_honglun_2014]
+- [Trajectory Optimization of Reentry Capsule][research_kadam_hablani_2014]
+- [Active disturbance rejection based trajectory linearization...][research_shao_wang_2015]
 - [Artificial bee colony-based direct collocation for reentry...][research_duan_li_2015]
 - [Computational Analysis of Radiative Heat Loading on...][research_karl_potter_2015]
 - [Detached Eddy Simulation on Hypersonic Base Flow Structure of...][research_zhi_liang_2015]
@@ -4708,6 +6062,7 @@ The article computes bounds precisely because none of these exists.
 - [Aerodynamic optimisation of a hypersonic reentry vehicle...][research_evans_walton_2017]
 - [Discrete reconfigurable back-stepping attitude control of...][research_ren_fu_2017]
 - [Entry trajectory generation without reversal of bank angle][research_he_liu_2017]
+- [Flight module and Venus entry vehicle][research_flight_module_and_2017]
 - [Reentry Trajectory Optimization for Hypersonic Glide Vehicle...][research_dong_cai_2017]
 - [Reentry Trajectory Optimization for Mission Analysis][research_palumbo_morani_2017]
 - [Research on Aeroheating of Hypersonic Reentry Vehicle Base...][research_xuguo_yongtao_2017]
@@ -4733,6 +6088,7 @@ The article computes bounds precisely because none of these exists.
 - [High-Precision Adaptive Predictive Entry Guidance for...][research_bojun_zhanchao_2019]
 - [Improved Tentacle-Based Guidance for Reentry Gliding...][research_gao_cai_2019]
 - [Marginal tracking algorithm for hypersonic reentry gliding...][research_yu_tan_2019]
+- [Mars entry trajectory planning using robust optimization and...][research_jiang_li_2019]
 - [Nussbaum gain adaptive control scheme for moving mass reentry...][research_chen_zhou_2019]
 - [Pterodactyl An Uncoupled Range Control Approach to Fully...][research_johnsonbreanna_2019]
 - [Short-Range Reentry Guidance With Impact Angle and Impact...][research_wang_tang_2019]
@@ -4768,11 +6124,14 @@ The article computes bounds precisely because none of these exists.
 - [Sliding mode based fault-tolerant control of hypersonic...][research_zhang_shou_2022]
 - [Stochastic Entry Guidance][research_ridderhof_tsiotras_2022]
 - [Adaptive fixed-time quantized fault-tolerant attitude control...][research_lv_wang_2023]
+- [Enhanced Control of Assured Crew Re-entry Vehicle using Novel...][research_divya_jayashree_2023]
 - [Entry trajectory generation for Mars robotic and human...][research_lee_lee_2023]
 - [Flight Simulation and Drag Prediction for a...][research_khalil_abdelgawad_2023]
+- [Flow and radiation modeling over a Martian entry vehicle][research_kumar_bansal_2023]
 - [Gaussian Distribution-Based Control Vector Parameterization...][research_liu_liu_2023]
 - [Predefined-Time Hierarchical Coordinated Neural Control for...][research_xu_shou_2023]
 - [Reentry trajectory design of a hypersonic vehicle based on...][research_das_pei_2023]
+- [Unconditionally Stable System Incorporated...][research_wen_wang_2023]
 - [A model predictive solution to cooperative guidance of...][research_cheng_song_2024]
 - [Entry trajectory optimization of lifting-body vehicle by...][research_deng_liu_2024]
 - [Hypersonic vehicle reentry trajectory design based on...][research_das_wang_2024]
@@ -4796,6 +6155,7 @@ The article computes bounds precisely because none of these exists.
 - [Adaptive Atmospheric Entry Guidance via Neural Networks][research_giraldogrueso_popov_2026]
 - [Analytical nonlinear time-optimal spacecraft re-entry...][research_wang_chen_2026]
 - [Characterization of Applied Magnetohydrodynamic Effects on...][research_franciamore_tumuklu_2026]
+- [Convexity of intercept time in short-range re-entry vehicle...][research_nguyen_urquhart_2026]
 - [Enhanced Aerocapture Guidance Framework Using Augmented Bank...][research_sonandres_palazzo_2026]
 - [Interfered fluid-based integrated avoidance guidance and...][research_yu_wang_2026]
 - [Numerical Optimization Study of a Constrained Hypersonic...][research_byczkowski_rao_2026]
@@ -4804,12 +6164,14 @@ The article computes bounds precisely because none of these exists.
 - [Space Situational Awareness in Very Low Earth Orbit for...][research_huang_lee_2026]
 - [Space debris mitigation strategies across orbital regimes an...][research_navaz_ntantis_2026]
 
+- [Effect of oxidation on room temperature strength of ZrB 2...][research_zapatasolvas_jayaseelan_2015]
 - [Pre-oxidation temperature optimization of ultra-high...][research_qu_he_2015]
 - [Spark plasma sintering of ZrO2 fiber toughened ZrB2-based...][research_lin_huang_2015]
 - [Thermal Impact Resistance of Integrated Thermal Protection...][research_fan_2015]
 - [Thermal Protection for a Re-Entry Vehicle Using Heat Ablation...][research_thermal_protection_2015]
 - [Thermal Response and Ablation Research of EPDM Thermal...][research_chen_xue_2015]
 - [Titanium Aluminides for Metallic Thermal Protection System of...][research_gupta_ramkumar_2015]
+- [Aerothermal Analysis for Configuration Design of Swept...][research_kumar_mahulikar_2016_b]
 - [Conversion of hydrocarbon fuel in elements of thermal...][research_kuranov_korabelnikov_2016]
 - [Heat-balance Thermal Protection with Heat Pipes for...][research_rong_wei_2016]
 - [Hypersonic Ablation of Graphite Thermal Protection Systems...][research_mullenix_povitsky_2016]
@@ -4887,6 +6249,7 @@ The article computes bounds precisely because none of these exists.
 - [Estimation of Aerothermal Heating for a Thermal Protection...][research_brociek_hetmaniok_2022]
 - [Experimental methodology for the accurate stochastic...][research_delval_luis_2022]
 - [Integrated Thermal Protection System Design for Hypersonic...][research_wang_zhang_2022]
+- [Investigation on the Reliability of an Ablation Thermal...][research_he_jiao_2022]
 - [Numerical investigation of thermomechanical response of...][research_povolny_seidel_2022]
 - [Optimization of Active and Passive Thermal Protection Systems...][research_marley_driscoll_2022]
 - [Research on a Novel Combined Shock Control Mechanism for...][research_wang_zhang_2022_b]
@@ -4917,6 +6280,7 @@ The article computes bounds precisely because none of these exists.
 - [Analysis of Test Specimen Temperature Gradients Incurred in...][research_backman_graham_2024]
 - [Composition dependence of oxidation resistance in high...][research_backman_gild_2024]
 - [Design and decoupling analysis of Thermal-Electric energy...][research_qiao_liu_2024]
+- [Effect of surface ablation on aerodynamic heating over a...][research_han_han_2024]
 - [Evaluation of Reusable Thermal Protection System Materials...][research_chinnaraj_kim_2024]
 - [Experimental study on the thermal protection enhancement of...][research_wang_zhao_2024]
 - [Interval finite element analysis of thermal protection system...][research_feng_shi_2024]
@@ -4930,10 +6294,13 @@ The article computes bounds precisely because none of these exists.
 - [Ultra high temperature ceramic coatings in thermal protection...][research_shojaiebahaabad_bozorg_2024]
 - ['Temperature jump' mechanism of silicon carbide based thermal...][research_yang_zhang_2024]
 - [A Review of Advances in Thermal Protection Systems and...][research_zhang_2025]
+- [Ablation and Anti-Vibration Behavior of Modified Epoxy...][research_he_wu_2025]
+- [Baroclinic shift of hypersonic heating streaks over an...][research_baskaya_hickel_2025]
 - [Comparison of thermal protection performance of active and...][research_zhao_zhang_2025]
 - [Densification, mechanical and electrical properties of...][research_cygan_wozniak_2025]
 - [Drag reduction and thermal protection efficiencies of...][research_luo_li_2025]
 - [Effect of Thermal Protection System on Aerodynamics and...][research_chen_yang_2025]
+- [Experimental Investigation of Woven Thermal Protection System...][research_brianrhollis_kevinehollingsworth_2025]
 - [Innovative fabrication pathways for ultra-high temperature...][research_rishad_islam_2025]
 - [Investigation of the pyrolysis mechanism and structural...][research_yang_zhang_2025]
 - [Keeping Cool System shows promise for better thermal...][research_ikenson_2025]
@@ -4954,6 +6321,7 @@ The article computes bounds precisely because none of these exists.
 - [Zero-ablative-recession nanoporous silicone composites with...][research_tian_luo_2025]
 - [A novel adaptive coating for collaborative thermal protection...][research_li_du_2026]
 - [A review on the thermal protection technologies of reusable...][research_luo_tang_2026]
+- [Aerothermal Analysis on Effectiveness of Thermal Protection...][research_paciorri_assonitis_2026]
 - [Design and mechanical performance analysis of a flexible...][research_shao_zhao_2026]
 - [Design and thermomechanical performance study of...][research_xue_li_2026]
 - [Durability Assessment of Tile-Type Reusable Thermal...][research_kim_choi_2026]
@@ -4971,6 +6339,8 @@ The article computes bounds precisely because none of these exists.
 - [Thermal protection systems for hypersonic and re-entry...][research_m_john_2026]
 - [Thermophysical and electrical properties of spark plasma...][research_kashyap_mitra_2026]
 
+- [ADVANCED ANALYSIS OF AN AMMONIA LOOP HEAT PIPE FOR SPACE...][research_marengo_ferrandi_2013]
+- [Aqueous Solution Heat Pipe Transport Qu-Tube vs...][research_kihm_2013]
 - [Conditional extremum optimization analyses and calculation of...][research_zhou_cheng_2013]
 - [Effect of Pure and Binary Fluids on Closed Loop Pulsating...][research_pachghare_mahalle_2013_b]
 - [Effect of inventory on the heat performance of copper-water...][research_zhang_xu_2013]
@@ -4983,10 +6353,12 @@ The article computes bounds precisely because none of these exists.
 - [THERMAL PERFORMANCE OF CLOSED LOOP PULSATING HEAT PIPE USING...][research_pachghare_mahalle_2013]
 - [Thermal performance characteristics of a wraparound loop heat...][research_jouhara_ezzuddin_2013]
 - [3D MODELING AND OPTIMIZATION OF A LOOP HEAT PIPE EVAPORATOR][research_hodot_sartre_2014]
+- [A Morphing Radiator for High-Turndown Thermal Control of...][research_cognatathomasj_hartldarrenj_2014]
 - [AN EXPERIMENTAL INVESTIGATION ON THE PERFORMANCE OF CLOSED...][research_saha_sharma_2014]
 - [APPLICATION OF FLAT PLATE HEAT PIPE FOR COOLING SPACECRAFT...][research_veeresha_simhachalarao_2014]
 - [An Open Loop Pulsating Heat Pipe for Integrated Electronic...][research_kearney_griffin_2014]
 - [Arcjet Testing and Thermal Model Development for Multilayer...][research_milos_scott_2014]
+- [Dynamics of Flexible MLI-type Debris for Accurate Orbit...][research_ceriotti_radice_2014]
 - [EVAPORATOR HEAT-TRANSFER ANALYSIS OF A LOOP HEAT PIPE WITH...][research_nishikawara_nagano_2014]
 - [EXPERIMENTAL AND THEORETICAL INVESTIGATION OF A LOOP HEAT...][research_barzi_assadi_2014]
 - [EXPERIMENTAL COMPARISON OF LOOP HEAT PIPE PERFORMANCE WITH...][research_ouenzerfi_barreteau_2014]
@@ -5000,6 +6372,7 @@ The article computes bounds precisely because none of these exists.
 - [Investigating the effect of double-layer wick thickness ratio...][research_wu_wang_2014_b]
 - [LOOP HEAT PIPE APPLICATIONS IN AUTOMOTIVE THERMAL CONTROL][research_singh_mochizuki_2014]
 - [MULTI-PARAMETRIC INVESTIGATION ON THE THERMAL INSTABILITY OF...][research_mameli_manno_2014]
+- [Method of Minimizing Size of Heat Rejection Systems for...][research_choimichaelk_2014]
 - [NUMERICAL ANALYSIS OF PERFORMANCE OF CLOSED-LOOP PULSATING...][research_singh_satapathy_2014]
 - [Numerical Analysis on the Heat Transfer Characteristics of...][research_wang_2014]
 - [OPTIMIZATION OF HEAT PIPE PANEL FOR COMMUNICATION SPACECRAFT][research_veeresha_shailandran_2014]
@@ -5017,6 +6390,7 @@ The article computes bounds precisely because none of these exists.
 - [Thermal Design and Dynamic Analysis of Metallic Thermal...][research_chen_chen_2014]
 - [Thermal Performance of a Closed-Loop Pulsating Heat Pipe With...][research_kammuanglue_sakulchangsatjatai_2014]
 - [Thermal modelling of hybrid composites of nano cenosphere and...][research_katiyar_balasubramanian_2014]
+- [A Morphing Radiator for High-Turndown Thermal Control of...][research_cognatathomasj_hardtldarren_2015]
 - [Compact Heat Rejection System Utilizing Integral Variable...][research_lee_li_2015]
 - [DEVELOPMENT OF MINIATURE HEAT SWITCH-TEMPERATURE CONTROLLER...][research_mishkinis_corrochano_2015]
 - [EXPERIMENTAL STUDY OF THERMAL PERFORMANCE OF A FLAT LOOP HEAT...][research_kizito_hossain_2015]
@@ -5035,6 +6409,7 @@ The article computes bounds precisely because none of these exists.
 - [Experimental investigation on thermal performance of phase...][research_zhao_rao_2016]
 - [Flat Absorber Coating for Spacecraft Thermal Control...][research_doherty_dunne_2016]
 - [Inverse heat transfer analysis of radiator central heating...][research_moftakhari_aghanajafi_2016]
+- [Mars Sample Thermal Control During Mars Ascent and Orbit][research_bhandaripradeep_redmondmatt_2016]
 - [Optimal Thermal Design of a Multishield Thermal Protection...][research_maiorova_prosuntsov_2016]
 - [Simulated Low-Earth-Orbital Exposure of Thermal Control...][research_ciofalo_meshishnek_2016]
 - [Small Spacecraft Active Thermal Control Micro-Vascular...][research_ghoshalexander_2016]
@@ -5059,6 +6434,7 @@ The article computes bounds precisely because none of these exists.
 - [Development and tests of a loop heat pipe with several...][research_pastukhov_maydanik_2018]
 - [Evaluating the scale effects of metal nanowire coatings on...][research_venkatakrishnan_udayakumar_2018]
 - [Experimental Investigations on the Thermal Performance of a...][research_experimental_investigations_2018]
+- [Multi-Angle Imager for Aerosols Thermal Control System][research_rosasrogelio_boltondouglasa_2018]
 - [Thermal performance of a multi-loop pump-driven heat pipe as...][research_zhou_duan_2018]
 - [Working Fluid Trade Study for a Two-Phase Mechanically Pumped...][research_daimarutakuro_bhandaripradeep_2018]
 - [Comparison of Strategies for Coupled Flow-Thermal Analysis of...][research_wang_wang_2019]
@@ -5171,6 +6547,9 @@ The article computes bounds precisely because none of these exists.
 - [Thermal Performance Characterization of a Miniature Loop Heat...][research_nashine_pandey_2026]
 - [Unveiling the unique role of thermal contact resistance in...][research_qiu_yang_2026]
 
+- [External Heat Flux of the Solar Array on the Polar Lunar Orbit][research_song_zhang_2015]
+- [High Radiation Resistance IMM Solar Cell][research_pannoren_2015]
+- [Modeling, analysis and comparison of solar photovoltaic array...][research_belhachat_larbes_2015]
 - [Observation of Sustained Arc Circuit Failure on Solar Array...][research_bodeau_2015]
 - [On Possible Arc Inception on Low Voltage Solar Array][research_vaynerboris_2015]
 - [Solar Array Degradation in a High-Fluence, High-Temperature...][research_nichols_drabenstadt_2015]
@@ -5178,20 +6557,29 @@ The article computes bounds precisely because none of these exists.
 - [Hubble Space Telescope Solar Array Concerns and Consequences...][research_hawley_2016]
 - [Hut-like pillar array Si solar cells][research_cabreraespana_agrawal_2016]
 - [Mathematical analysis of total-cross-tied photovoltaic array...][research_mohammadnejad_khalafi_2016]
+- [Maximum power point tracking of large-scale photovoltaic array][research_tang_wu_2016]
 - [Review of light-induced degradation in crystalline silicon...][research_lindroos_savin_2016]
+- [Satellite Solar Array with Silicon Laser Downlink to Denver...][research_christopher_2016]
 - [Solar Array at Very High Temperatures Ground Tests][research_vaynerboris_2016]
+- [Solar photovoltaic array fed water pump driven by brushless...][research_singh_kumar_2016]
 - [Degradation behavior of crystalline silicon solar cells in a...][research_yamaguchi_ohdaira_2017]
 - [Degradation of Solar Array Components in a Combined UV/VUV...][research_nomayr_zimmermann_2017]
 - [Design, formation, and property of high emissivity...][research_shao_wu_2017]
+- [Development of a solar array drive mechanism for...][research_galatis_guo_2017]
 - [Modeling, Analysis and Testing of Micro Disturbances of Solar...][research_sattar_wei_2017]
 - [Modeling, measurement and simulation of the disturbance...][research_chen_cheng_2017]
+- [Multijunction Solar Cell Performance in Mars Orbiter Mission...][research_uma_sankaran_2017]
+- [Power generation on a solar photovoltaic array integrated...][research_ghosh_guha_2017]
+- [QCPV A quality control algorithm for distributed photovoltaic...][research_killinger_engerer_2017]
 - [Solar Array Electrostatic Discharge Current and Image...][research_shimizu_fukuda_2017]
 - [The Bepicolombo Mercury Planetary Orbiter MPO Solar Array...][research_loehberg_gruenwald_2017]
 - [The characteristics of primary and secondary arcs on a solar...][research_zhu_fu_2017]
 - [Thermal Design of Photovoltaic/Microwave Conversion Hybrid...][research_sato_yamada_2017]
 - [Voltage Threshold and Power Degradation Rate for GPS Solar...][research_ferguson_hoffmann_2017]
 - [Analysis of the Characteristics of Solar Cell Array Based on...][research_wang_shen_2018]
+- [Comparative analysis of energy efficiency of power...][research_nesterishin_kozlov_2018]
 - [Differential degradation patterns of photovoltaic backsheets...][research_fairbrother_boyd_2018]
+- [Estimation of satellite-derived regional photovoltaic power...][research_ohtake_uno_2018]
 - [Impact of contact integrity during thermal stress testing on...][research_colwell_hsiao_2018]
 - [Layout optimization of spacecraft-based solar array under...][research_yang_zhang_2018]
 - [Modelling and Application of Output Current of the Solar...][research_bian_xu_2018]
@@ -5202,15 +6590,19 @@ The article computes bounds precisely because none of these exists.
 - [A performance degradation model of solar cells in an on-orbit...][research_cao_zhang_2019]
 - [Equivalent Flux Smoothing in the Problem of Solar Cells...][research_equivalent_flux_smoothing_2019]
 - [Impedance spectroscopy on degradation analysis of...][research_gupta_pali_2019]
+- [Improved power generation by dispersing the uniform and...][research_tatabhatla_agarwal_2019]
 - [Minimizing the Degradation of Triple Junction Solar Array of...][research_starchenko_2019]
 - [Photogrammetry-Based Analysis of the On-Orbit Structural...][research_chamberlainmatthewk_kieferstevenh_2019]
 - [Root cause analysis on corrosive potential-induced...][research_sporleder_naumann_2019]
 - [Solar Cell Degradation Due to Proton Belt Enhancements During...][research_lozinski_horne_2019]
 - [Solar cell degradation caused by glass superstrate corrosion][research_kudriavtsev_hernandez_2019]
 - [Solar vector solving method based on photovoltaic array and...][research_zhang_zhang_2019]
+- [Spectroscopic Behavior of Composite, Black Thermal Paint...][research_reyesjacquelinea_ryanhoffmann_2019]
 - [Study of degradation in InGaP/InGaAs/Ge multi-junction solar...][research_kotamraju_sukeerthi_2019]
 - [Equivalent Flux Function Smoothing in the Problem of Solar...][research_starchenko_2020]
+- [Geostationary Communication Satellite Solar Array...][research_oukil_boudjemai_2020]
 - [Gradient-based point tracking method and its application in...][research_chen_zang_2020]
+- [Linear-Gompertz Model-Based Regression of Photovoltaic Power...][research_vilanova_kim_2020]
 - [On Orbit Flight Testing of the Roll-Out Solar Array][research_matthewkchamberlain_stephenhkiefer_2020]
 - [Thermal performance analysis of solar array for solar powered...][research_dai_cao_2020]
 - [Dynamics and on-orbit assembly strategies for an orb-shaped...][research_cao_li_2021]
@@ -5218,9 +6610,12 @@ The article computes bounds precisely because none of these exists.
 - [Non-Radiation Degradation of Solar Array Energy Performances...][research_bukreev_nesterishin_2021]
 - [On-orbit flight testing of the Roll-Out Solar Array][research_chamberlain_kiefer_2021]
 - [Origin of Degradation in Perovskite Solar Cells by Intensity...][research_nurunnizar_fariz_2021]
+- [Photovoltaic generation on vertical façades in urban context...][research_polo_martinchivelet_2021]
 - [Research on Abnormal Output Current Drop of Solar Array of a...][research_bai_wang_2021]
 - [A Comparative Analysis Between Electricity Costs and Solar...][research_cristinzio_2022]
+- [A Corner-Cube-Cell Solar Array for Improved Capture of...][research_westgate_boivin_2022]
 - [Analysis of degradation kinetics of halide perovskite solar...][research_khadka_shirai_2022]
+- [Estimating the spatial distribution of solar photovoltaic...][research_sun_shan_2022]
 - [Facile synthesis of atomic oxygen-resistant methyl silicone...][research_li_li_2022]
 - [Indirect measurement of solar array rotation angle for...][research_he_zhang_2022]
 - [In-Orbit Performance Analysis of Solar Array for Chang'e-4...][research_yang_xiao_2022]
@@ -5230,11 +6625,13 @@ The article computes bounds precisely because none of these exists.
 - [Classical modeling of extrinsic degradation in...][research_mahiny_ahmadikandjani_2023]
 - [Degradation behavior of CIGS solar Cells A parametric analysis][research_jahandardoost_walkons_2023]
 - [On-Orbit Performance Analysis of Solar Array in Mars Orbit...][research_yang_li_2023]
+- [Power Generation Calculation Model and Validation of Solar...][research_song_li_2023]
 - [Receiving energy analysis and optimal design of crystalline...][research_siyu_kangwen_2023]
 - [Ultraviolet-light-dark cycle analysis of degradation in...][research_tayagaki_kobayashi_2023]
 - [Conversion Efficiency of 45.0% in InGaP/InGaAs/Ge...][research_koga_shibui_2024]
 - [Design of IoT-based solar array cleaning system with enhanced...][research_ghafoor_amin_2024]
 - [Dynamic model and compensation circuit for solar array...][research_yokota_toyota_2024]
+- [Impact of cracks in solar array on output power of...][research_sun_zou_2024]
 - [Impact of solar cell failure on the performance of solar...][research_zhang_lin_2024]
 - [Ion-migration analysis of degradation caused by outdoor...][research_tayagaki_hirooka_2024]
 - [Mismatch loss analysis of solar array output power on...][research_liu_sun_2024]
@@ -5242,6 +6639,7 @@ The article computes bounds precisely because none of these exists.
 - [Technical challenges of space solar power stations...][research_zhang_sun_2024]
 - [Advanced Solar Cells with Thermal, Radiation, and Light...][research_camarilloabad_sun_2025]
 - [Advancing offshore solar energy generation Numerical...][research_saitov_jiang_2025]
+- [Analysis and Modeling of Photovoltaic Arrays for Sustaining...][research_oz_bulut_2025]
 - [Analysis of thermally induced vibration mechanism and...][research_xu_xu_2025]
 - [Damage of high energy electron irradiation in triple junction...][research_huang_cao_2025]
 - [Developing a modelling environment of spacecraft solar array...][research_mokhtar_ibrahim_2025]
@@ -5257,16 +6655,11 @@ The article computes bounds precisely because none of these exists.
 - [Design and numerical analysis of deployable-retractable...][research_li_bao_2026]
 - [Design and simulation of a solar array deployment mechanism...][research_saad_desoki_2026]
 - [Structural Response and Thickness Sensitivity Analysis of a...][research_ji_2026]
+- [Temperature Estimation of A GEO Satellite Solar Array Using...][research_bulut_sozbir_2026]
 
-- [Integration of sampling based battery state of health...][research_ozkurt_camci_2016]
-- [International Space Station Lithium-Ion Battery][research_daltonpennij_schwanbeckeugene_2016]
-- [Silicon/soft-carbon nanohybrid material with low expansion...][research_kobayashi_inden_2016]
-- [State of health estimation algorithm of LiFePO4 battery packs...][research_berecibar_garmendia_2016]
 - [Study on Cycle-Life Prediction Model of Lithium-Ion Battery...][research_hu_wang_2016]
 - [Thermal performance of phase change material/oscillating heat...][research_wang_rao_2016]
-- [A degradation-based sorting method for lithium-ion battery...][research_chen_shen_2017]
 - [Battery Charge Control by State of Health Estimation][research_ohadi_fujita_2017]
-- [Binary reaction ingrained high current density and long cycle...][research_ananya_raghu_2017]
 - [Data-driven hybrid remaining useful life estimation approach...][research_song_liu_2017]
 - [Effects of Different Depth of Discharge on Cycle Life of...][research_tang_li_2017]
 - [International Space Station Lithium-Ion Battery Start-Up][research_daltonpennij_northtim_2017]
@@ -5285,7 +6678,6 @@ The article computes bounds precisely because none of these exists.
 - [On-line life cycle health assessment for lithium-ion battery...][research_liu_song_2018]
 - [Online State of Charge and State of Health Estimation for a...][research_wei_leng_2018]
 - [Orion Portable Fire Extinguisher Performance Testing Against...][research_harpersusanaa_juarezalfredo_2018]
-- [Semi-Empirical Cycle Life Model with Electrolyte Depletion...][research_park_appiah_2018]
 - [Trends in 18650 Lithium-Ion Battery Cell Safety for...][research_allisongregoryh_2018]
 - [A Numerical Study of Lithium-ion Battery Degradation Feature...][research_song_li_2019]
 - [A Thermodynamic Model for Lithium-Ion Battery Degradation...][research_osara_bryant_2019]
@@ -5294,31 +6686,29 @@ The article computes bounds precisely because none of these exists.
 - [Comparative Life Cycle Assessment of Mobile Power Banks with...][research_yang_gu_2019]
 - [Degradation model and cycle life prediction for lithium-ion...][research_liu_wang_2019]
 - [Electrochemical Impedance Spectroscopy on the Performance...][research_abe_hori_2019]
-- [High-rate and long-cycle life performance of nano-porous...][research_shivaraju_sudakar_2019]
-- [Impact of Dopant Density on n-Type Crystalline Silicon...][research_lau_lim_2019]
 - [In Situ Monitoring of Lithium-ion Battery Degradation Using...][research_lyu_zheng_2019]
 - [Minimizing the state of health degradation of Li-ion...][research_lami_shamayleh_2019]
-- [Optimum battery depth of discharge for off-grid solar...][research_hlal_ramachandaramurthy_2019]
 - [Short Course on Lithium-Ion Batteries Fundamental Concepts...][research_walkerwilliam_2019]
-- [Synthesis of carbonaceous/carbon-free nanofibers consisted of...][research_park_kim_2019]
 - [A Method for the Combined Estimation of Battery State of...][research_bonfitto_2020]
 - [A Study on State of Charge and State of Health Estimation in...][research_choi_2020]
 - [Battery Capacity Estimation of Low-Earth Orbit Satellite...][research_jun_smith_2020]
 - [Comparative life cycle assessment of lithium-ion battery...][research_levarlet_schmidt_2020]
 - [Failure mode analysis of lithium ion batteries operated for...][research_cook_swan_2020]
+- [In Situ Replenishment of Formation Cycle Lithium-Ion Loss for...][research_palanisamy_parekh_2020]
 - [Machine Learning Applied to Electrified Vehicle Battery State...][research_vidal_malysz_2020]
 - [Modeling to Predict the Cycle Life of a Lithium-Ion Battery][research_lee_lee_2020]
 - [Research Progress of Lithium-Ion Battery Current Collectors][research_li_2020]
 - [State of health estimation for Li-Ion battery using...][research_li_yuan_2020]
-- [Synchronized Lithium and Lithium-Ion Battery Enabled to...][research_palanisamy_parekh_2020]
+- [Synchronized Lithium and Lithium-Ion Battery Enabled to...][research_palanisamy_parekh_2020_b]
+- [Toward a cell-chemistry specific life cycle assessment of...][research_mohr_peters_2020]
 - [A Real-Time Scheduling Approach to Mitigation of Li-Ion...][research_jang_yang_2021]
 - [A physics-based aging model for lithium-ion battery with...][research_dong_wei_2021]
 - [An In-Depth Life Cycle Assessment LCA of Lithium-Ion Battery...][research_sadhukhan_christensen_2021]
 - [An aqueous rechargeable lithium ion battery with long cycle...][research_hou_zhang_2021]
 - [Battery State of Health Estimation with Improved...][research_ezemobi_tonoli_2021]
 - [Battery State of Health and Charge Estimation Using Machine...][research_sahin_sahin_2021]
-- [Bio-Derived Lithium-Ion Battery Anode Material for Fast...][research_patnaik_peng_2021]
 - [Comprehensive Review on Smart Techniques for Estimation of...][research_surya_rao_2021]
+- [Cycle-life prediction model of lithium iron phosphate-based...][research_jung_kim_2021]
 - [Effect of Depth of Discharge on the Performance of Zn-Mn and...][research_chaba_neramittagapong_2021]
 - [Environmental life cycle implications of upscaling...][research_chordia_nordelof_2021]
 - [Estimation of Depth of Discharge of Li-ion Battery Using...][research_cipin_toman_2021]
@@ -5333,6 +6723,8 @@ The article computes bounds precisely because none of these exists.
 - [A Lithium-Ion Storage Battery Life Monitoring System][research_menshikov_2022]
 - [A New Hybrid Neural Network Method for State-of-Health...][research_bao_jiang_2022]
 - [A novel Bayesian multivariate linear regression model for...][research_lyu_wang_2022]
+- [Analysis of prismatic lithium-ion battery degradation based...][research_zhang_li_2022]
+- [Correction to Environmental life cycle implications of...][research_chordia_nordelof_2022]
 - [Data-Driven In-Orbit Current and Voltage Prediction Using...][research_yun_kong_2022]
 - [Data-driven battery state of health estimation based on...][research_li_hong_2022]
 - [Design and Development of a Battery State of Health...][research_choi_choi_2022]
@@ -5379,10 +6771,11 @@ The article computes bounds precisely because none of these exists.
 - [Thermal behaviour of Li-ion battery An improved...][research_vashisht_rakshit_2023]
 - [Understanding Lithium-Ion Battery Degradation through P2D...][research_sordi_rabissi_2023]
 - [Vanadium Redox Flow Battery Stack Balancing to Increase Depth...][research_rashitov_voropay_2023]
-- [A corrosion-free zinc metal battery with an ultra-thin zinc...][research_yao_zhao_2024]
+- [A coordinated optimization method of energy management and...][research_tian_liu_2024]
+- [Accurate Prediction of Electrochemical Degradation Trajectory...][research_kim_jung_2024]
 - [Battery State of Health Estimation Using the Sliding...][research_bustos_gadsden_2024]
+- [Circular And Sustainable Evaluating Lithium-Ion Battery...][research_tas_klemettinen_2024]
 - [Comparative life cycle assessment of lithium-ion, sodium-ion...][research_degen_mitterfellner_2024]
-- [Conversion of residual lithium into fast lithium ion...][research_chen_yang_2024]
 - [Data Mining for Early Cycle Life Prediction in Lithium-Ion...][research_stock_ahmed_2024]
 - [Data-Driven Estimation of Lithium-Ion Battery State-of-Health...][research_data_driven_estimation_2024]
 - [Deep transfer learning enables battery state of charge and...][research_yang_xu_2024]
@@ -5420,6 +6813,7 @@ The article computes bounds precisely because none of these exists.
 - [Examination of Over-Discharge Effects on a Cylindrical...][research_tserendejid_urtnasan_2025]
 - [Gate-to-gate life cycle assessment of lithium-ion battery...][research_prazanova_fridrich_2025]
 - [Insights into Chemo-Mechanical Yielding and Eigenstrains in...][research_uzun_2025]
+- [Investigating Life Cycle Cost, Environmental and Social...][research_accardo_gentilucci_2025]
 - [Li-Ion Battery Active-Passive Hybrid Equalization Topology...][research_zhu_liu_2025]
 - [Life Cycle Assessment of Lithium-Ion Battery Recycling...][research_hanna_somers_2025]
 - [Life Cycle Sustainability Assessment Strategy for NMC...][research_pinto_dosreis_2025]
@@ -5437,12 +6831,10 @@ The article computes bounds precisely because none of these exists.
 - [Strategic assessment of lithium-ion battery degradation a...][research_wang_wang_2025]
 - [Sustainable Recycling of Lithium-Ion Battery Cathodes Life...][research_pang_wang_2025]
 - [Sustainable recovery Life cycle assessment for lithium-ion...][research_zhang_hu_2025]
-- [Synthesis and electrochemical performance of SnSe/PANI...][research_mohammadi_taherinassaj_2025]
 - [Transfer Learning-Based Data-Fusion Model Framework for State...][research_lyu_wei_2025]
 - [Ultra-Early Prediction of Lithium-Ion Battery Cycle Life...][research_yang_min_2025]
 - [Ultra-early prediction of lithium-ion battery cycle life...][research_yang_yang_2025]
 - [Vehicle-cloud collaboration method enables accurate battery...][research_qin_zhao_2025]
-- [Voltage and temperature effects on low cobalt lithium-ion...][research_gonzalezmalabet_gober_2025]
 - [A New Approach for Estimation of Lithium-Ion Battery State of...][research_nohra_faraj_2026]
 - [A physics-enhanced multimodal neural network for lithium-ion...][research_yang_ling_2026]
 - [A regionalized life cycle and economic assessment of...][research_donova_jordaan_2026]
@@ -5471,6 +6863,7 @@ The article computes bounds precisely because none of these exists.
 - [Thermal performance enhancement and flow optimization of an...][research_wang_zhai_2026]
 - [Trustworthy Machine Learning and Mathematical Modelling for...][research_sohail_tanveer_2026]
 
+- [Is experience alone sufficient to diagnose developmental...][research_sari_karakus_2020]
 - [Swarm Satellite Observations of the 21 August 2017 Solar...][research_hussien_ghamry_2020]
 - [Autonomous Spacecraft Orbit Determination from Incident Light...][research_fitzgerald_2021]
 - [Dosimetric study on the use of Eclipse beam angle optimiser...][research_yousif_judge_2021]
@@ -5495,6 +6888,9 @@ The article computes bounds precisely because none of these exists.
 - [Preset Ground Track Entry Guidance Based on Convex...][research_zhang_chen_2025]
 - [Geographic differential atmospheric drag for satellite...][research_liu_ding_2026]
 
+- [Mean thermospheric density estimation derived from satellite...][research_li_close_2015]
+- [Thermospheric mass density A review][research_emmert_2015_b]
+- [Atmospheric Drag Coefficient Modification for Orbit...][research_cang_xue_2016]
 - [Improved forecasting of thermospheric densities using...][research_elvidge_godinez_2016]
 - [Linearized J 2 and Atmospheric Drag Model for Control of...][research_cao_li_2016]
 - [New insights into the complex interplay between drag forces...][research_hsu_thayer_2016]
@@ -5531,16 +6927,20 @@ The article computes bounds precisely because none of these exists.
 - [Recovery and Validation of Mars Ionospheric Electron Density...][research_withers_felici_2020]
 - [Recovery and Validation of Venus Ionospheric Electron Density...][research_withers_hensley_2020_b]
 - [Solar cycle evolution of ULF wave power in solar wind and on...][research_hynonen_tanskanen_2020]
+- [Study of Exospheric Neutral Composition of Mars observed from...][research_nagaraja_basuvaraj_2020]
 - [Increasing the Accuracy of Orbital Elements for a Satellite...][research_ibrahim_saleh_2021]
 - [Linearized model for satellite station-keeping and tandem...][research_arnas_2021]
 - [Real-Time Thermospheric Density Estimation via Radar and GPS...][research_gondelach_linares_2021]
 - [Scale Factors of the Thermospheric Density A Comparison of...][research_zeitler_corbin_2021]
+- [A Dual-Band Difference Ionosphere Compensation Algorithm for...][research_wang_ye_2022]
 - [Effects of geomagnetic storms on the accuracy of...][research_ren_liu_2022]
 - [Forecasting global and multi-level thermospheric neutral...][research_forootan_kosary_2022]
 - [Improving the estimation of thermospheric neutral density via...][research_corbin_kusche_2022]
 - [Influence of atmospheric density and area-to-mass errors on...][research_hao_zhang_2022]
 - [Machine-Learned HASDM Thermospheric Mass Density Model With...][research_licata_mehta_2022]
+- [Mars Orbiter Mission MOM of ISRO New Insight into Prediction...][research_prasad_2022_b]
 - [Orbit-localised thermosphere density prediction using a...][research_bowden_2022]
+- [Seasonal Variation of Thermospheric Composition Observed by...][research_liyingqian_quangan_2022]
 - [Specifying Satellite Drag Through Coupled...][research_dietrich_matsuo_2022]
 - [Thermospheric Neutral Density Variation During the "SpaceX"...][research_donglin_wenbinwang_2022]
 - [Uncertainty quantification techniques for data-driven space...][research_licata_mehta_2022_b]
@@ -5558,6 +6958,7 @@ The article computes bounds precisely because none of these exists.
 - [A Global Thermospheric Density Prediction Framework Based on...][research_wang_bai_2024]
 - [Assimilating Space-Based Thermospheric Neutral Density TND...][research_kosary_farzaneh_2024]
 - [Atmospheric density estimation in very low Earth orbit based...][research_sakai_takahashi_2024]
+- [Long-Term Variability of Mars' Exosphere Density Based on...][research_forbes_bruinsma_2024]
 - [Lyapunov-Based Control via Atmospheric Drag for Tetrahedral...][research_ovchinnikov_mashtakov_2024]
 - [On the variability of the atomic oxygen density in the upper...][research_ashruf_vineeth_2024]
 - [Performance analysis of NRLMSIS 2.1 thermospheric mass...][research_guo_zhang_2024]
@@ -5698,7 +7099,7 @@ published specification is complete.
 The detailed design of the Approach and Landing Test Vehicle's flight control system. The Atlas V, Falcon 9
 and Falcon Heavy launch vehicles and their performance to the orbits flown. The legal and treaty questions
 raised by a manoeuvrable military vehicle in orbit, which are a substantial literature in their own right
-and are surveyed rather than analysed here. The Chinese and other reusable spaceplane programmes that have
+and are surveyed here without being analysed. The Chinese and other reusable spaceplane programmes that have
 flown since 2020, which deserve their own treatment. The economics of reusable launch, treated in the
 [X-33][related_post_a330_lockheed_martin_x33] and [X-34][related_post_a331_orbital_sciences_x34] articles.
 The detailed chemistry of TUFROC and its successors.
@@ -6182,36 +7583,49 @@ summary of what classification achieves and what it costs.
 
 ### Research
 
+- [111. A thermal vacuum 1966][research_111_a_1966]
 - [133. Air density in 1960][research_133_air_1960]
 - [139. Polyhedral satellite for 1959][research_139_polyhedral_1959]
 - [187 Adaptive control of 1994][research_187_adaptive_1994]
 - [2.7. Orbit injection of 1983][research_2_7_orbit_1983]
 - [217 Online guidance and 1994][research_217_online_1994]
+- [227 A re-entry capsule 1994][research_227_a_1994]
 - [231 Orbit control of 1994][research_231_orbit_1994]
 - [266 On ascent guidance 1994][research_266_on_1994]
 - [290. Effect of transverse 1959][research_290_effect_1959]
 - [293. Earth oblateness in 1959][research_293_earth_1959]
 - [3.16. Communications satellite boosted 1983][research_3_16_communications_1983]
 - [3.2. Investigations selected by 1991][research_3_2_investigations_1991]
+- [3.4. Mars Orbiter 2 1978][research_3_4_mars_1978]
 - [48 + billion expendable 2009][research_48_2009]
 - [5478664 Method of recovering 1996][research_5478664_method_1996]
 - [5530335 Battery regulated bus 1996][research_5530335_battery_1996]
 - [5604430 Solar array maximum 1997][research_5604430_solar_1997]
 - [5677833 Power conditioning system 1998][research_5677833_power_1998]
 - [96/06118 Voltage and capacity 1996][research_96_06118_voltage_1996]
+- [97/03207 Performance of a 1997][research_97_03207_performance_1997]
 - [97/03845 Nickel-zinc batteries with 1997][research_97_03845_nickel_zinc_1997]
+- [98/02419 Effects of launch 1998][research_98_02419_effects_1998]
 - [99/03009 Nontoxic propellants for 1999][research_99_03009_nontoxic_1999]
 - [A Borner et al][research_aborner_aborner]
 - [A method of compensation 1998][research_a_method_1998]
 - [A method to optimize 1964][research_a_method_1964]
+- [A new batch of 2009][research_a_new_2009]
 - [A Study on the 2024][research_a_study_2024]
 - [A.L.Bader et al 2014][research_albader_matallah_2014]
 - [Abby Zinecker et al][research_abbyzinecker_sydneytaylor]
 - [Abd El-Salam 2005][research_abdelsalam_2005]
+- [Abdallah and Dez 2000][research_abdallah_dez_2000]
+- [Abdelkhalek 2008][research_abdelkhalek_2008]
 - [Abe 1991][research_abe_1991]
 - [Abe et al 2005][research_abe_shimada_2005]
 - [Abe et al 2019][research_abe_hori_2019]
+- [Abenante 2002][research_abenante_2002]
+- [Aboudan et al 2008][research_aboudan_colombatti_2008]
 - [Abrahamm and Valsa 2018][research_abrahamm_valsa_2018]
+- [Abshire et al 2000][research_abshire_sun_2000]
+- [Abutaleb 1987][research_abutaleb_1987]
+- [Accardo et al 2025][research_accardo_gentilucci_2025]
 - [Acero et al 2023][research_acero_diaz_2023]
 - [Adam Caldwell et al][research_adamcaldwell_jaydfeldman]
 - [Adam Caldwell et al][research_adamcaldwell_jayfeldman]
@@ -6219,6 +7633,7 @@ summary of what classification achieves and what it costs.
 - [Adam Caldwell et al][research_adamcaldwell_petermarshall]
 - [Adamov et al 2014][research_adamov_puzyrev_2014]
 - [Adams 1962][research_adams_1962]
+- [Adams 1962][research_adams_1962_b]
 - [Adams 1969][research_adams_1969]
 - [Adams 1975][research_adams_1975]
 - [Adams 1975][research_adams_1975_b]
@@ -6229,27 +7644,38 @@ summary of what classification achieves and what it costs.
 - [Adimurthy 1987][research_adimurthy_1987]
 - [Aditya Chowdhury, Vishnu G Nair 2017][research_adityachowdhuryvishnugnair_2017]
 - [Admon et al 2011][research_admon_shafie_2011]
+- [Adomeit and Hock 1982][research_adomeit_hock_1982]
 - [Adoni et al 2012][research_adoni_vaidya_2012]
+- [Advanced Communication Technology Satellite 1995][research_advanced_communication_1995]
 - [Aeroassisted manned transfer vehicle 1987][research_aeroassisted_manned_1987]
 - [Aerodynamics Calculation of Reentry 2013][research_aerodynamics_calculation_of_2013]
 - [Agarwal and Nisar 2025][research_agarwal_nisar_2025]
 - [Aggarwal, Pravin 2007][research_aggarwalpravin_2007]
+- [Aggarwal, Shiv 2003][research_aggarwalshiv_2003]
 - [Aghedo et al 2011][research_aghedo_bowman_2011]
 - [Agnone and Prakasam 1987][research_agnone_prakasam_1987]
 - [Agranat et al 1979][research_agranat_bertsun_1979]
+- [Aharonson et al 2001][research_aharonson_zuber_2001]
 - [Ahedo and Sanmartin 2002][research_ahedo_sanmartin_2002]
 - [Ahmad et al 2018][research_ahmad_herdiwijaya_2018]
 - [Ahmed 2025][research_ahmed_2025]
 - [Ahmed and Wyatt 2024][research_ahmed_wyatt_2024]
+- [Ahmed et al 1977][research_ahmed_anderson_1977]
 - [Ahmed et al 2010][research_ahmed_omizegba_2010]
 - [Ahmed K. Izzet 2023][research_ahmedkizzet_2023]
+- [Ai and Chen 2019][research_ai_chen_2019]
 - [Ai et al 2022][research_ai_wang_2022]
 - [Ai et al 2023][research_ai_li_2023]
+- [Air Force Doctrine Center Hq Maxwell Afb Al 1998][research_airforcedoctrinecenterhqmaxwellafbal_1998]
+- [Air Force Research Lab Edwards Afb Ca 1999][research_airforceresearchlabedwardsafbca_1999]
 - [Air Force Space Command Space Missile Sys Ctr 2013][research_airforcespacecommandspacemissilesysctr_2013]
+- [Air Force Test Pilot School Edwards Afb Ca 1987][research_airforcetestpilotschooledwardsafbca_1987]
+- [Air Research And Development Command 1959][research_airresearchanddevelopmentcommand_1959]
 - [Ajins C B et al 2024][research_ajinscb_ajebillapringle_2024]
 - [Akau and Larson 1989][research_akau_larson_1989]
 - [Aksen et al 2024][research_aksen_aslan_2024]
 - [Aksnes 1970][research_aksnes_1970]
+- [Aksnes 1973][research_aksnes_1973]
 - [AL-Bakri and Kluever 2017][research_albakri_kluever_2017]
 - [Al-Hourani 2024][research_alhourani_2024]
 - [Al-Hourani and Manzoor 2026][research_alhourani_manzoor_2026]
@@ -6260,21 +7686,29 @@ summary of what classification achieves and what it costs.
 - [Albu 2022][research_albu_2022]
 - [Albyn, K. and Finckenor, M. 2006][research_albynk_finckenorm_2006]
 - [AlDahoul et al 2022][research_aldahoul_karim_2022]
+- [Aleksander Zibitsker et al][research_aleksanderzibitsker_ericstern]
+- [Alexander and T. M. 1978][research_alexander_tm_1978]
 - [Alexander Durkin et al][research_alexanderdurkin_alindamashiku]
 - [Alexander, Leslie et al 2008][research_alexanderleslie_chapmanjack_2008]
 - [Alfriend and Lewis 1994][research_alfriend_lewis_1994]
 - [Alghuwainem 1997][research_alghuwainem_1997]
 - [Alharbi et al 2025][research_alharbi_umair_2025]
+- [Ali El-Saie et al 1981][research_alielsaie_kafrawi_1981]
+- [Alimov et al 2001][research_alimov_greb_2001]
 - [Alinda K Mashiku et al][research_alindakmashiku_lauriknewman]
 - [Alinda Mashiku][research_alindamashiku]
 - [Alizadeh and Zhu 2024][research_alizadeh_zhu_2024]
 - [Allan 1961][research_allan_1961]
+- [Allen 2002][research_allen_2002]
+- [Allen, David and Schmidt, Robert 1992][research_allendavid_schmidtrobert_1992]
 - [Allison, Gregory H. 2018][research_allisongregoryh_2018]
 - [Alotaibi et al 2026][research_alotaibi_martingarcia_2026]
 - [Altman 1961][research_altman_1961]
+- [Alvarex 1999][research_alvarex_1999]
 - [Alzubairi et al 2024][research_alzubairi_tameem_2024]
 - [Amanda E Stark et al][research_amandaestark_willgrier]
 - [Ambrose 2019][research_ambrose_2019]
+- [Ambrose et al 2000][research_ambrose_yendler_2000]
 - [Ambrus 2020][research_ambrus_2020]
 - [Amis et al 2003][research_amis_naber_2003]
 - [Ammendola et al 2025][research_ammendola_kedir_2025]
@@ -6284,13 +7718,17 @@ summary of what classification achieves and what it costs.
 - [Amundsen, Ruth M. et al 2003][research_amundsenruthm_decjohna_2003]
 - [Amundsen, Ruth M. et al 2007][research_amundsenruthm_decjohna_2007]
 - [An et al 2022][research_an_zhang_2022]
-- [Ananya et al 2017][research_ananya_raghu_2017]
 - [Anderson 1966][research_anderson_1966]
+- [Anderson 1968][research_anderson_1968]
+- [Anderson 1989][research_anderson_1989]
 - [Anderson and Hattar 1988][research_anderson_hattar_1988]
+- [Anderson and Rothstein 1998][research_anderson_rothstein_1998]
 - [Anderson et al 1997][research_anderson_turyshev_1997]
 - [Anderson et al 2013][research_anderson_guignet_2013]
+- [Anderson, B. J. et al 2001][research_andersonbj_justuscg_2001]
 - [Andiarti et al 1995][research_andiarti_moog_1995]
 - [Andrenacci et al 2024][research_andrenacci_pasquali_2024]
+- [Andreon 2010][research_andreon_2010]
 - [Andres Dono Perez and Jose Luis Alberto Alvarellos][research_andresdonoperez_joseluisalbertoalvarellos_b]
 - [Andres Dono Perez et al][research_andresdonoperez_joseluisalbertoalvarellos]
 - [Andress 1999][research_andress_1999]
@@ -6301,12 +7739,14 @@ summary of what classification achieves and what it costs.
 - [Aneja 2024][research_aneja_2024]
 - [Anfimov 1966][research_anfimov_1966]
 - [Anguchamy and Popov 2010][research_anguchamy_popov_2010]
+- [Angular solar absorptance and 2001][research_angular_solar_2001]
 - [Anil Kumar and Mukherjee 2025][research_anilkumar_mukherjee_2025]
 - [Anilkumar and Reddy 2009][research_anilkumar_reddy_2009]
 - [Anitha and Sharma 2011][research_anitha_sharma_2011]
 - [Annett and Dennis 2018][research_annett_dennis_2018]
 - [Anselmo and Pardini 2015][research_anselmo_pardini_2015]
 - [Anthony L. Genova et al][research_anthonylgenova_dylanmorrisonfogel]
+- [Antonio Giovanni Schoeichich et al][research_antoniogiovannischoeichich_thomasjwhalen]
 - [Antonova and Skiba 1968][research_antonova_skiba_1968]
 - [Aono et al 2019][research_aono_ueno_2019]
 - [Aorpimai and Navakitkanok 2015][research_aorpimai_navakitkanok_2015]
@@ -6315,7 +7755,9 @@ summary of what classification achieves and what it costs.
 - [Appar and Kumar 2021][research_appar_kumar_2021]
 - [Appar and Poovathingal 2026][research_appar_poovathingal_2026]
 - [Appar et al 2022][research_appar_kumar_2022]
+- [Appleton 1963][research_appleton_1963]
 - [Application of combined heat 2012][research_application_of_combined_2012]
+- [Approximate analysis of atmosphere 1965][research_approximate_analysis_1965]
 - [Aprovitola et al 2019][research_aprovitola_iuspa_2019]
 - [Aprovitola et al 2021][research_aprovitola_iuspa_2021]
 - [Arai 2007][research_arai_2007]
@@ -6326,11 +7768,17 @@ summary of what classification achieves and what it costs.
 - [Archer and Sworder 1979][research_archer_sworder_1979]
 - [Ardaens and Gaias 2018][research_ardaens_gaias_2018]
 - [Ardaens and Gaias 2019][research_ardaens_gaias_2019]
+- [Ardema, Mark D. et al 1994][research_ardemamarkd_bowlesjeffreyv_1994]
 - [Argentiero et al 1979][research_argentiero_schmid_1979]
 - [Arguchintseva 1999][research_arguchintseva_1999]
 - [Argyris et al 1989][research_argyris_doltsinis_1989]
+- [Ariel 1994][research_ariel_1994]
+- [Ariel 1994][research_ariel_1994_b]
+- [Armaly and Saad 1972][research_armaly_saad_1972]
+- [Armstrong and Colborn 1992][research_armstrong_colborn_1992]
 - [Army War Coll Carlisle Barracks Pa 1961][research_armywarcollcarlislebarrackspa_1961]
 - [Arnas 2021][research_arnas_2021]
+- [Arnold and Bram 1962][research_arnold_bram_1962]
 - [Aronov and Klyagin 2021][research_aronov_klyagin_2021]
 - [Arrington, J. P. and Woods, W. C. 1972][research_arringtonjp_woodswc_1972]
 - [Arthur 1999][research_arthur_1999]
@@ -6348,13 +7796,18 @@ summary of what classification achieves and what it costs.
 - [Aslanov 2019][research_aslanov_2019]
 - [Aslanov and Doroshin 2002][research_aslanov_doroshin_2002]
 - [Aslanov and Ledkov 2021][research_aslanov_ledkov_2021]
+- [Asnin 1974][research_asnin_1974]
 - [Asnin and Roos 1973][research_asnin_roos_1973]
 - [Asri and Zhu 2024][research_asri_zhu_2024]
+- [Assanis 1989][research_assanis_1989]
+- [Atchison et al 2025][research_atchison_maynard_2025]
 - [Atkins et al 2008][research_atkins_bass_2008]
 - [Attitude Control and Navigation 2025][research_attitude_control_and_2025]
 - [Audley and Hodge 1982][research_audley_hodge_1982]
+- [Auelmann 1965][research_auelmann_1965]
 - [Augenstein 1959][research_augenstein_1959]
 - [Austin, Rick S. et al 1993][research_austinricks_lockroberte_1993]
+- [Avallone et al 2016][research_avallone_schrijer_2016]
 - [Avanzini et al 2021][research_avanzini_deangelis_2021]
 - [Avduevskii and Ivanov 1968][research_avduevskii_ivanov_1968]
 - [Avery, D. E. 1978][research_averyde_1978]
@@ -6362,15 +7815,22 @@ summary of what classification achieves and what it costs.
 - [Avery, D. E. 1984][research_averyde_1984]
 - [Avery, D. E. et al 1981][research_averyde_shidelerjl_1981]
 - [Avni 1976][research_avni_1976]
+- [Awad and Hassan 1995][research_awad_hassan_1995]
 - [Awad et al 1999][research_awad_ahmed_1999]
 - [Awasth 2022][research_awasth_2022]
+- [Axford 1961][research_axford_1961]
+- [Azhar et al 2022][research_azhar_habeeb_2022]
 - [Backman et al 2024][research_backman_gild_2024]
 - [Backman et al 2024][research_backman_graham_2024]
+- [Badcock and Haag 1988][research_badcock_haag_1988]
 - [Badcock, C. and Milden, M. 1985][research_badcockc_mildenm_1985]
 - [Bae et al 2022][research_bae_lee_2022]
 - [Bae et al 2024][research_bae_kim_2024]
 - [Bae et al 2026][research_bae_bang_2026]
 - [Baek and Jung 2022][research_baek_jung_2022]
+- [Baek et al 2008][research_baek_lee_2008]
+- [Baganoff 1990][research_baganoff_1990]
+- [Bagiorgas and Mihalakakou 2008][research_bagiorgas_mihalakakou_2008]
 - [Bahr and Disimile 1995][research_bahr_disimile_1995]
 - [Bai and Jiang 2021][research_bai_jiang_2021]
 - [Bai et al 2014][research_bai_lin_2014]
@@ -6378,28 +7838,37 @@ summary of what classification achieves and what it costs.
 - [Bai et al 2021][research_bai_wang_2021]
 - [Bailey, Michelle et al 2002][research_baileymichelle_danielcharles_2002]
 - [Baird 1998][research_baird_1998]
+- [Bakalyar 1977][research_bakalyar_1977]
+- [Baker and Kramer 1982][research_baker_kramer_1982]
 - [Bakhshyan and Yastrzhembsky 1985][research_bakhshyan_yastrzhembsky_1985]
 - [Bakırcı 2024][research_bakirci_2024]
 - [Balakin et al 2018][research_balakin_ishkov_2018]
+- [Baldauff et al 2008][research_baldauff_kawecki_2008]
 - [Balepin et al 2001][research_balepin_czysz_2001]
 - [Balint et al 2010][research_balint_kaslik_2010]
 - [Ballard 1979][research_ballard_1979]
 - [Ballard et al 2010][research_ballard_weaver_2010]
 - [Ballistic problems in the 2015][research_ballistic_problems_in_2015]
+- [Balme et al 2006][research_balme_mangold_2006]
 - [Baluragi et al 2011][research_baluragi_gupta_2011]
 - [Bandini et al 2024][research_bandini_marracci_2024]
 - [Banerjee et al 2018][research_banerjee_guo_2018]
 - [Bang et al 2023][research_bang_hong_2023]
+- [Banik et al 2007][research_banik_lively_2007]
 - [Banik et al 2025][research_banik_ali_2025]
+- [Banks 1978][research_banks_1978]
 - [Banks et al 2004][research_banks_snyder_2004]
 - [Banks, Bruce A. 2011][research_banksbrucea_2011]
 - [Banks, Bruce A. and Miller, Sharon K. 2017][research_banksbrucea_millersharonk_2017]
 - [Banks, Bruce A. and Rutledge, Sharon K. 1989][research_banksbrucea_rutledgesharonk_1989]
+- [Bansal et al 2011][research_bansal_modest_2011]
 - [Bao and Vosgueritchian 2013][research_bao_vosgueritchian_2013]
 - [Bao et al 2022][research_bao_jiang_2022]
+- [Bao et al 2024][research_bao_zhu_2024]
 - [Baoyin et al 2013][research_baoyin_yu_2013]
 - [Baranov et al 2017][research_baranov_grishko_2017]
 - [Baranova et al 2024][research_baranova_spiridonov_2024]
+- [Baratoux et al 2001][research_baratoux_delacourt_2001]
 - [Barbano 2022][research_barbano_2022]
 - [Barbee, Brent William et al 2010][research_barbeebrentwilliam_carpenterjrussell_2010]
 - [Bard 1984][research_bard_1984]
@@ -6412,28 +7881,47 @@ summary of what classification achieves and what it costs.
 - [Barkova 2022][research_barkova_2022]
 - [Barlier 2005][research_barlier_2005]
 - [Barnhart and Rughani 2020][research_barnhart_rughani_2020]
+- [Barone et al 2022][research_barone_nicholson_2022]
+- [Barrows, D. and Bedell, H. 1983][research_barrowsd_bedellh_1983]
 - [Barry 2022][research_barry_2022]
 - [Bartoněk et al 2023][research_bartonek_lazar_2023]
+- [Bartosik, L. G. and Babel, H. W. 1990][research_bartosiklg_babelhw_1990]
 - [Barzi and Assadi 2014][research_barzi_assadi_2014]
+- [Basana and Branz 2022][research_basana_branz_2022]
 - [Basha et al 2014][research_basha_bansal_2014]
+- [Bass 1980][research_bass_1980]
+- [Bassett and Trethowen 1984][research_bassett_trethowen_1984]
 - [Baston and Moorehead 1976][research_baston_moorehead_1976]
+- [Bataille 2024][research_bataille_2024]
 - [Bateman et al 1966][research_bateman_benezra_1966]
+- [Bates 1962][research_bates_1962]
+- [Bates 1970][research_bates_1970]
 - [Bates, David et al 2013][research_batesdavid_leeallan_2013]
 - [Bathi 2026][research_bathi_2026]
 - [Battiston et al 2017][research_battiston_burger_2017]
+- [Bauer 1969][research_bauer_1969]
 - [Bauer et al 2016][research_bauer_hussmann_2016]
 - [Baumann 2001][research_baumann_2001]
 - [Baumann and Oberle 2000][research_baumann_oberle_2000]
+- [Baxter 1980][research_baxter_1980]
 - [Bayle 1984][research_bayle_1984]
 - [Bazhenov et al 2016][research_bazhenov_didenko_2016]
+- [Başkaya and Hickel 2025][research_baskaya_hickel_2025]
+- [Beard 2024][research_beard_2024]
+- [Beardslee 1964][research_beardslee_1964]
 - [Beasley 2004][research_beasley_2004]
+- [Beauchamp and Sindorf 1988][research_beauchamp_sindorf_1988]
 - [Beavers 2021][research_beavers_2021]
+- [Beck et al 2021][research_beck_songer_2021]
+- [Beck, R. A. et al 2019][research_beckra_szalaice_2019]
 - [Beck, R. et al 2014][research_beckr_arnoldj_2014]
 - [Beckman and Scoon 1986][research_beckman_scoon_1986]
 - [Bedrov et al 1965][research_bedrov_vadichin_1965]
 - [Bekey, Ivan 1994][research_bekeyivan_1994]
 - [Belgacem and Belgacem 2026][research_belgacem_belgacem_2026]
 - [Belhachat and Larbes 2015][research_belhachat_larbes_2015]
+- [Bell 1964][research_bell_1964]
+- [Bell 1965][research_bell_1965]
 - [Bell 1980][research_bell_1980]
 - [Bell et al 1995][research_bell_ginsburg_1995]
 - [Belmajdoub et al 2024][research_belmajdoub_lajouad_2024]
@@ -6453,11 +7941,16 @@ summary of what classification achieves and what it costs.
 - [Bennett 2025][research_bennett_2025]
 - [Bennett et al 2023][research_bennett_carpenter_2023]
 - [Benninghoff et al 2014][research_benninghoff_boge_2014]
+- [Benson and James 2005][research_benson_james_2005]
 - [Berecibar et al 2016][research_berecibar_garmendia_2016]
 - [Berend and Talbot 2006][research_berend_talbot_2006]
+- [Berger and Char 2002][research_berger_char_2002]
+- [Berger and Willner 1971][research_berger_willner_1971]
+- [Bering and Ignatiev 1990][research_bering_ignatiev_1990]
 - [Bernard et al 2013][research_bernard_abelson_2013]
 - [Bernat 2020][research_bernat_2020]
 - [Bernot, P. T. 1979][research_bernotpt_1979]
+- [Berry and Wiley 1969][research_berry_wiley_1969]
 - [Berry, David et al 2012][research_berrydavid_guinnjoseph_2012]
 - [Berry, Scott A. et al 1999][research_berryscotta_horvaththomasj_1999]
 - [Berthet 2025][research_berthet_2025]
@@ -6467,19 +7960,26 @@ summary of what classification achieves and what it costs.
 - [Bertin et al 1996][research_bertin_bouslog_1996]
 - [Bertotti 2001][research_bertotti_2001]
 - [Berwin M Kock and Fitzhugh L Fulton, Jr. 1970][research_berwinmkock_fitzhughlfultonjr_1970]
+- [Beshaj and Morselli 2024][research_beshaj_morselli_2024]
 - [Betancur et al 2020][research_betancur_mangini_2020]
 - [Betin 1991][research_betin_1991]
 - [Betts 1977][research_betts_1977]
 - [Beutler et al 2003][research_beutler_schildknecht_2003]
 - [Bevilacqua et al 2019][research_bevilacqua_kumar_2019]
+- [Beynon and Rangaswamy 1969][research_beynon_rangaswamy_1969]
 - [Bhagat and Watt 2016][research_bhagat_watt_2016]
+- [Bhandari, Pradeep et al 2016][research_bhandaripradeep_redmondmatt_2016]
 - [Bharadwaj and Iyer 2019][research_bharadwaj_iyer_2019]
+- [Bharadwaj et al 1998][research_bharadwaj_rao_1998]
+- [Bhat 2009][research_bhat_2009]
 - [Bhattacharya et al 2017][research_bhattacharya_kota_2017]
 - [Bhattad and Aneesha 2025][research_bhattad_aneesha_2025]
 - [Bhusal and Subbarao 2019][research_bhusal_subbarao_2019]
+- [Bi et al 2024][research_bi_mao_2024]
 - [Biamino et al 2008][research_biamino_liedtke_2008]
 - [Biamino et al 2010][research_biamino_antonini_2010]
 - [Bian et al 2018][research_bian_xu_2018]
+- [Bian et al 2026][research_bian_sun_2026]
 - [Bianchi et al 2024][research_bianchi_niccolai_2024]
 - [Bibb, Karen L. et al 2011][research_bibbkarenl_walkerericl_2011]
 - [Biberman et al 1978][research_biberman_bronin_1978]
@@ -6490,6 +7990,7 @@ summary of what classification achieves and what it costs.
 - [Bilitza et al 1988][research_bilitza_rawer_1988]
 - [Billik and Price 1963][research_billik_price_1963]
 - [Bills 1992][research_bills_1992]
+- [Bills and Nerem 2001][research_bills_nerem_2001]
 - [Binebrink, A. L. et al 1989][research_binebrinkal_radomskims_1989]
 - [Biophysical Study of the 1985][research_biophysical_study_1985]
 - [Biria and Marchand 2014][research_biria_marchand_2014]
@@ -6497,38 +7998,56 @@ summary of what classification achieves and what it costs.
 - [Birur, Gaj 2008][research_birurgaj_2008]
 - [Birur, Gaj et al 1999][research_birurgaj_rodriquezjose_1999]
 - [Biryukov and Kurguzov 2020][research_biryukov_kurguzov_2020]
+- [Biswal M 2023][research_biswalm_2023]
 - [Biswell and Puig-Suari 2002][research_biswell_puigsuari_2002]
+- [Biswell et al 1998][research_biswell_puigsuari_1998]
 - [Biyogo Nchama and Shi 2026][research_biyogonchama_shi_2026]
+- [Bjorkman and Wood 2001][research_bjorkman_wood_2001]
+- [Black et al 1968][research_black_crocker_1968]
 - [Blackstock 1970][research_blackstock_1970]
+- [Blake 1981][research_blake_1981]
+- [Blake 1992][research_blake_1992]
+- [Blake and Cox 1988][research_blake_cox_1988]
+- [Blanc et al 1995][research_blanc_letraon_1995]
 - [Blanchard, R. C. and Hinson, E. W. 1989][research_blanchardrc_hinsonew_1989]
 - [Blanchard, R. C. and Rutherford, J. F. 1984][research_blanchardrc_rutherfordjf_1984]
 - [Blanchfield et al 2025][research_blanchfield_carter_2025]
 - [Bleeker 1989][research_bleeker_1989]
 - [Bleick 1963][research_bleick_1963]
+- [Bleick and Faulkner 1963][research_bleick_faulkner_1963]
 - [Blitzer 1959][research_blitzer_1959]
 - [Blitzer 1971][research_blitzer_1971]
 - [Blitzer and Anderson 1981][research_blitzer_anderson_1981]
+- [Bloor 1968][research_bloor_1968]
 - [Blosser, M. L. et al 1985][research_blosserml_powellrw_1985]
 - [Blott et al 1997][research_blott_wells_1997]
+- [Bludman 1998][research_bludman_1998]
+- [Blum, P. W. 1972][research_blumpw_1972]
 - [Bo 1996][research_bo_1996]
 - [Bobojć 2008][research_bobojc_2008]
 - [Bobojć and Drożyner 2003][research_bobojc_drozyner_2003]
 - [Bobojć and Drożyner 2007][research_bobojc_drozyner_2007]
 - [Bodeau 2015][research_bodeau_2015]
 - [Bogart et al 1981][research_bogart_breckenridge_1981]
+- [Bogdonoff 1970][research_bogdonoff_1970]
+- [Bogdonoff 1999][research_bogdonoff_1999]
 - [Boge and Benninghoff 2013][research_boge_benninghoff_2013]
 - [Boggan and Clarke 2026][research_boggan_clarke_2026]
 - [Bogoi et al 2025][research_bogoi_stratila_2025]
 - [Bohdan O Wesely et al][research_bohdanowesely_paulfwercinski]
 - [Boison 1959][research_boison_1959]
+- [Boissonneau 1999][research_boissonneau_1999]
+- [Bojic et al 2002][research_bojic_lee_2002]
 - [Bojun et al 2019][research_bojun_zhanchao_2019]
 - [Bolandi and Abrehdari 2018][research_bolandi_abrehdari_2018]
 - [Boley and Byers 2021][research_boley_byers_2021]
 - [Bond et al 1989][research_bond_martin_1989]
 - [Bonfitto 2020][research_bonfitto_2020]
 - [Bongers et al 2025][research_bongers_ortiz_2025]
+- [Bonin and Kaya 2007][research_bonin_kaya_2007]
 - [Bonnard and Caillau 2007][research_bonnard_caillau_2007]
 - [Bonneville 1971][research_bonneville_1971]
+- [Boobar et al 1967][research_boobar_repic_1967]
 - [Borelli and Colombo 2026][research_borelli_colombo_2026]
 - [Borg and Russomano 1959][research_borg_russomano_1959]
 - [Borg and Söderholm 2008][research_borg_soderholm_2008]
@@ -6544,14 +8063,17 @@ summary of what classification achieves and what it costs.
 - [Bosanac, Natasha et al 2017][research_bosanacnatasha_coxandrew_2017]
 - [Bosanquet 1958][research_bosanquet_1958]
 - [Bosch and Diller 2024][research_bosch_diller_2024]
+- [Bose et al 2014][research_bose_white_2014]
 - [Bose, Deepak et al 2016][research_bosedeepak_santosjose_2016]
 - [Bosma and Levadou 1980][research_bosma_levadou_1980]
 - [Bossi, J. A. et al 1991][research_bossija_langehoughma_1991]
+- [Bougher et al 1999][research_bougher_keating_1999]
 - [Bougher et al 2006][research_bougher_murphy_2006]
 - [Boulton 1983][research_boulton_1983]
 - [Boulton and Swinerd 1983][research_boulton_swinerd_1983]
 - [Boumeftah and Kurt 2025][research_boumeftah_kurt_2025]
 - [Bounds for the Solar 1975][research_bounds_for_1975]
+- [Bouquet and Koprowski 1982][research_bouquet_koprowski_1982]
 - [Bouquet et al 2014][research_bouquet_baratoux_2014]
 - [Boutamine et al 2007][research_boutamine_reynier_2007]
 - [Bowamn 1975][research_bowamn_1975]
@@ -6559,10 +8081,14 @@ summary of what classification achieves and what it costs.
 - [Bowen 2018][research_bowen_2018]
 - [Bowman, Cheryl L. et al 2007][research_bowmancheryll_jaworskedonalda_2007]
 - [Boyce, Clay 2009][research_boyceclay_2009]
+- [Boyd 2002][research_boyd_2002]
+- [Boyd 2004][research_boyd_2004]
+- [Boyd 2008][research_boyd_2008]
 - [Bradley and Foss 1987][research_bradley_foss_1987]
 - [Bradley, P. F. and Throckmorton, D. A. 1981][research_bradleypf_throckmortonda_1981]
 - [Braga-Illa 1969][research_bragailla_1969]
 - [Braga-Illa 1969][research_bragailla_1969_b]
+- [Braga-Illa 1969][research_bragailla_1969_c]
 - [Bramer et al 1971][research_bramer_lurie_1971]
 - [Bramson 1969][research_bramson_1969]
 - [Brandon R Williams et al][research_brandonrwilliams_peteraliever]
@@ -6570,50 +8096,83 @@ summary of what classification achieves and what it costs.
 - [Brauckmann, G. J. 1986][research_brauckmanngj_1986]
 - [Brauckmann, Gregory J. 1998][research_brauckmanngregoryj_1998]
 - [Braun and Powell 1991][research_braun_powell_1991]
+- [Braun and Powell 1992][research_braun_powell_1992_b]
+- [Braun et al 1992][research_braun_powell_1992]
 - [Braun et al 2019][research_braun_klinkrad_2019]
 - [Braun, Robert D. and Suit, William T. 1988][research_braunrobertd_suitwilliamt_1988]
 - [Breakwell and Chanal 1986][research_breakwell_chanal_1986]
 - [Brearley et al 2013][research_brearley_quaggiato_2013]
+- [Breda and Markova 2026][research_breda_markova_2026]
+- [Breig and Crosbie 1973][research_breig_crosbie_1973]
+- [Breig and Crosbie 1974][research_breig_crosbie_1974]
+- [Breig and Crosbie 1974][research_breig_crosbie_1974_b]
+- [Breig and Crosbie 1975][research_breig_crosbie_1975]
 - [Brenner 1962][research_brenner_1962]
 - [Brenner et al 1990][research_brenner_koblinsky_1990]
 - [Brescia et al 1964][research_brescia_ballou_1964]
 - [Brevault et al 2020][research_brevault_balesdent_2020]
 - [Brewer et al 1973][research_brewer_saydah_1973]
+- [Brewer et al 1990][research_brewer_manzo_1990]
 - [Brewer, Jeffrey C. et al 1989][research_brewerjeffreyc_manzomichellea_1989]
 - [Brian R Hollis and Kevin E Hollingsworth 2023][research_brianrhollis_kevinehollingsworth_2023]
+- [Brian R Hollis and Kevin E Hollingsworth 2025][research_brianrhollis_kevinehollingsworth_2025]
+- [Bridge and Binsack 1985][research_bridge_binsack_1985]
 - [Brinda and Dasgupta 2006][research_brinda_dasgupta_2006]
 - [Brinker, David J. et al 1990][research_brinkerdavidj_hickeyjohnr_1990]
+- [Briskman 2000][research_briskman_2000]
 - [Brociek et al 2022][research_brociek_hetmaniok_2022]
 - [Brociek et al 2023][research_brociek_hetmaniok_2023]
 - [Brociek et al 2023][research_brociek_hetmaniok_2023_b]
+- [Brody and Ellis 1990][research_brody_ellis_1990]
 - [Brody K Bessire et al][research_brodykbessire_jeremiemeurisse]
 - [Brodzik and Frackowiak 2019][research_brodzik_frackowiak_2019]
+- [Broglio 1961][research_broglio_1961]
 - [Brotzman et al 2026][research_brotzman_coletta_2026]
+- [Broucke 1994][research_broucke_1994]
 - [Brouwer and Hori 1961][research_brouwer_hori_1961]
 - [Brouwer and Hori 1961][research_brouwer_hori_1961_b]
+- [Brower 2006][research_brower_2006]
 - [Brower and Hori 1960][research_brower_hori_1960]
 - [Brown 2020][research_brown_2020]
+- [Brown and Donbar 2013][research_brown_donbar_2013]
+- [Brown and Donbar 2015][research_brown_donbar_2015]
 - [Brown and Olds 2006][research_brown_olds_2006]
 - [Brown et al 2008][research_brown_ogawa_2008]
+- [Brown, James L. 2014][research_brownjamesl_2014]
 - [Bruce 1961][research_bruce_1961]
+- [Bruce 1964][research_bruce_1964]
+- [Bruce 1965][research_bruce_1965]
+- [Bruce, K. R. et al 1986][research_brucekr_kellyjr_1986]
+- [Bruce, Kevin R. 1987][research_brucekevinr_1987]
+- [Bruce, Kevin R. 1988][research_brucekevinr_1988]
 - [Bruess, E. C. 1965][research_bruessec_1965]
 - [Bruinsma et al 2018][research_bruinsma_sutton_2018]
+- [Brumberg et al 1995][research_brumberg_brumberg_1995]
 - [Brumley and Perich 2022][research_brumley_perich_2022]
+- [Brunner and Lu 2008][research_brunner_lu_2008]
 - [Brusch 1977][research_brusch_1977]
 - [Brusch 1979][research_brusch_1979]
+- [Bryant and Edwards 1973][research_bryant_edwards_1973]
 - [Bryson and Denham 1962][research_bryson_denham_1962]
+- [Buchar 1958][research_buchar_1958]
+- [Buck, Gregory A. et al 1993][research_buckgregorya_liweiming_1993]
 - [Buck, Gregory M. et al 2008][research_buckgregorym_watkinsaneal_2008]
+- [Buckingham et al 1965][research_buckingham_lim_1965]
 - [Buczek et al 2025][research_buczek_antczak_2025]
 - [Buczkowski 2022][research_buczkowski_2022]
 - [Buden and Garrison 1985][research_buden_garrison_1985]
 - [Budiman et al 2026][research_budiman_harito_2026]
+- [Buisson and Largay 1987][research_buisson_largay_1987]
 - [Bukreev et al 2021][research_bukreev_nesterishin_2021]
 - [Bulirsch and Chudej 1992][research_bulirsch_chudej_1992]
 - [Bulmer 1975][research_bulmer_1975]
 - [Bulut 2025][research_bulut_2025]
+- [Bulut and Sözbir 2026][research_bulut_sozbir_2026]
 - [Bunce et al 2002][research_bunce_hanlon_2002]
+- [Burchett 2004][research_burchett_2004]
 - [Burchett, Bradley 2003][research_burchettbradley_2003]
 - [Burgess 1995][research_burgess_1995]
+- [Burke 2006][research_burke_2006]
 - [Burton and Wassgren 1992][research_burton_wassgren_1992]
 - [Burton et al 2006][research_burton_brown_2006]
 - [Bustard et al 1970][research_bustard_princiotta_1970]
@@ -6628,19 +8187,24 @@ summary of what classification achieves and what it costs.
 - [Byczkowski and Rao 2026][research_byczkowski_rao_2026]
 - [Bykov 1996][research_bykov_1996]
 - [Byrd 1979][research_byrd_1979]
+- [Byrkin 1971][research_byrkin_1971]
 - [Byrnes et al 1993][research_byrnes_longuski_1993]
 - [Byun 2003][research_byun_2003]
 - [Bérend and Bertrand 2009][research_berend_bertrand_2009]
 - [Bérend et al 2007][research_berend_bertrand_2007]
+- [Böhm et al 1985][research_bohm_scheer_1985]
 - [Bös et al 2025][research_bos_bortotto_2025]
 - [C Heidrich and S Dutta][research_cheidrich_sdutta]
 - [Cable, Samual B. et al 2011][research_cablesamualb_suttonerick_2011]
 - [Cabrera, Jannuel V. et al 2019][research_cabrerajannuelv_nagsreeja_2019]
 - [Cabrera-España and Agrawal 2016][research_cabreraespana_agrawal_2016]
+- [Cai and Huang 2022][research_cai_huang_2022]
 - [Cai et al 2022][research_cai_wang_2022]
 - [Cai et al 2024][research_cai_ni_2024]
 - [Caillau and Noailles 2001][research_caillau_noailles_2001]
+- [Caillé et al 2023][research_caille_maattanen_2023]
 - [Cairns 1990][research_cairns_1990]
+- [Cake et al 1977][research_cake_sharp_1977]
 - [Calabia and Jin 2019][research_calabia_jin_2019]
 - [Calabia et al 2020][research_calabia_tang_2020]
 - [Caley Burke][research_caleyburke]
@@ -6649,12 +8213,15 @@ summary of what classification achieves and what it costs.
 - [Calise and Brandt 2004][research_calise_brandt_2004]
 - [Calise and Melamed 1995][research_calise_melamed_1995]
 - [Calise, Anthony J. and Duckeman, Gregory A. 1994][research_caliseanthonyj_duckemangregorya_1994]
+- [Callinan and Berggren 1959][research_callinan_berggren_1959]
 - [Calvignac, Jacky and Tramel, Terri 2003][research_calvignacjacky_tramelterri_2003]
 - [Camarillo Abad et al 2025][research_camarilloabad_sun_2025]
+- [Cameron 2003][research_cameron_2003]
 - [Campagnola and Kawakatsu 2012][research_campagnola_kawakatsu_2012]
 - [Campagnola and Kawakatsu 2015][research_campagnola_kawakatsu_2015]
 - [Campagnola et al 2014][research_campagnola_buffington_2014]
 - [Campbell 1991][research_campbell_1991]
+- [Campbell et al 2021][research_campbell_morgan_2021]
 - [Campbell, Charles H. et al 2006][research_campbellcharlesh_andersonbrian_2006]
 - [Candan Kadem and Kadem 2026][research_candankadem_kadem_2026]
 - [Candler 1993][research_candler_1993]
@@ -6662,6 +8229,7 @@ summary of what classification achieves and what it costs.
 - [Cang et al 2016][research_cang_xue_2016]
 - [Cano et al 2023][research_cano_pastor_2023]
 - [Cano et al 2025][research_cano_sanjurjorivo_2025]
+- [Canup et al 1993][research_canup_colwell_1993]
 - [Canuto and Massotti 2008][research_canuto_massotti_2008]
 - [Canuto and Massotti 2010][research_canuto_massotti_2010]
 - [Cao and Li 2016][research_cao_li_2016]
@@ -6672,13 +8240,16 @@ summary of what classification achieves and what it costs.
 - [Cao et al 2025][research_cao_huang_2025]
 - [Caogen et al 2008][research_caogen_hongjun_2008]
 - [Capacitor Superior to Nickel-Hydrogen 2004][research_capacitor_superior_2004]
+- [Caplinger and Malin 2001][research_caplinger_malin_2001]
 - [Capon et al 2019][research_capon_smith_2019]
 - [Capra et al 2025][research_capra_brandonisio_2025]
 - [Carek, Jerry A. et al 2000][research_carekjerrya_beachduanee_2000]
+- [Carr et al 1972][research_carr_baum_1972]
 - [Carrier and Pope 1978][research_carrier_pope_1978]
 - [Carruth, Ralph, Jr. et al 1992][research_carruthralphjr_vaughnjasona_1992]
 - [Carson III et al 2021][research_carsoniii_munk_2021]
 - [Carter 1997][research_carter_1997]
+- [Carter and Kaul 1975][research_carter_kaul_1975]
 - [Carter Space Policy Room 1978][research_carter_space_1978]
 - [Carter, J. R., Jr. and Tada, H. Y. 1973][research_carterjrjr_tadahy_1973]
 - [Cascioli and Genova 2021][research_cascioli_genova_2021]
@@ -6688,46 +8259,72 @@ summary of what classification achieves and what it costs.
 - [Cataldo 1986][research_cataldo_1986]
 - [Cataldo et al 2024][research_cataldo_affentranger_2024]
 - [Cataldo, R. L. 1984][research_cataldorl_1984]
+- [Cavagnero 1994][research_cavagnero_1994]
 - [Cecchinato et al 2010][research_cecchinato_corradi_2010]
+- [Celenligil, M. Cevdet et al 1988][research_celenligilmcevdet_mossjamesn_1988]
+- [Celenligil, M. Cevdet et al 1989][research_celenligilmcevdet_mossjamesn_1989]
 - [Cepeda-Rizo, Juan et al 2011][research_cepedarizojuan_krylorobert_2011]
 - [Cerf 2012][research_cerf_2012]
 - [Cerf 2015][research_cerf_2015]
+- [Ceriotti and Radice 2014][research_ceriotti_radice_2014]
+- [Cerro, Jeff et al 2002][research_cerrojeff_martinoviczoran_2002]
+- [Cesta and McLouth 1969][research_cesta_mclouth_1969]
 - [Cetin et al 2010][research_cetin_kurnaz_2010]
 - [CFD Analysis of Automobile 2024][research_cfd_analysis_of_2024]
 - [Chaba et al 2021][research_chaba_neramittagapong_2021]
 - [Chae et al 2019][research_chae_mankodi_2019]
 - [Chai et al 2020][research_chai_tsourdos_2020]
+- [Chakenov 1994][research_chakenov_1994]
 - [Chakravarty 1980][research_chakravarty_1980]
+- [Challinor 1968][research_challinor_1968]
+- [Chalmers 1985][research_chalmers_1985]
 - [Chalmers, D. et al 1993][research_chalmersd_fredleyj_1993]
+- [Chaloff et al 1974][research_chaloff_hiyama_1974]
 - [Chamberlain et al 2021][research_chamberlain_kiefer_2021]
 - [Chamberlain, Matthew K. et al 2019][research_chamberlainmatthewk_kieferstevenh_2019]
 - [Chambers et al 2001][research_chambers_simon_2001]
 - [Chander and Krishna 2013][research_chander_krishna_2013]
+- [Chandler 2003][research_chandler_2003]
 - [Chang 1988][research_chang_1988]
+- [Chang 2012][research_chang_2012]
 - [Chang et al 2022][research_chang_huang_2022]
 - [Chang, Chau-Lyan et al 2010][research_changchaulyan_choudharimeelanm_2010]
 - [Changbao et al 2020][research_changbao_hui_2020]
+- [Chao and Jeng 1965][research_chao_jeng_1965]
 - [Chao et al 2015][research_chao_xinyu_2015]
 - [Chao et al 2022][research_chao_qi_2022]
+- [Chapel et al 2005][research_chapel_johnson_2005]
 - [Chapman 2021][research_chapman_2021]
+- [Chapman 2024][research_chapman_2024]
+- [Chapman and Ingersoll 1973][research_chapman_ingersoll_1973]
+- [Chapman, Dean R. 1960][research_chapmandeanr_1960]
 - [Chapter and Johnsen 1974][research_chapter_johnsen_1974]
 - [Charalambous et al 1995][research_charalambous_naidu_1995]
 - [Charhut and Ketchum 1986][research_charhut_ketchum_1986]
+- [Chatkaew and Léonetti 2006][research_chatkaew_leonetti_2006]
 - [Chato, David J. 1998][research_chatodavidj_1998]
 - [Chaudhary, Ashwani et al 2001][research_chaudharyashwani_nguyenviet_2001]
 - [Chavagnac et al 2013][research_chavagnac_gai_2013]
+- [Chavis and Wilmoth 2005][research_chavis_wilmoth_2005]
 - [Chawla et al 2010][research_chawla_sarmah_2010]
 - [Chekov 2025][research_chekov_2025]
+- [Chemistry of the upper 1964][research_chemistry_of_1964]
+- [Chen 2010][research_chen_2010]
+- [Chen 2011][research_chen_2011]
+- [Chen 2011][research_chen_2011_b]
+- [Chen 2020][research_chen_2020]
 - [Chen and Chen 2014][research_chen_chen_2014]
 - [Chen and Hsieh 2023][research_chen_hsieh_2023]
 - [Chen and Lee 2006][research_chen_lee_2006]
 - [Chen and Sang 2016][research_chen_sang_2016]
-- [Chen and Shen 2017][research_chen_shen_2017]
 - [Chen and Sheu 2006][research_chen_sheu_2006]
 - [Chen and Yang 2007][research_chen_yang_2007]
 - [Chen and Zhao 2019][research_chen_zhao_2019]
+- [Chen et al 2009][research_chen_starkey_2009]
+- [Chen et al 2011][research_chen_wang_2011]
 - [Chen et al 2013][research_chen_deng_2013]
 - [Chen et al 2014][research_chen_ai_2014]
+- [Chen et al 2014][research_chen_fang_2014]
 - [Chen et al 2014][research_chen_liu_2014]
 - [Chen et al 2015][research_chen_xue_2015]
 - [Chen et al 2017][research_chen_avusherla_2017]
@@ -6738,6 +8335,7 @@ summary of what classification achieves and what it costs.
 - [Chen et al 2018][research_chen_tao_2018]
 - [Chen et al 2019][research_chen_zhou_2019]
 - [Chen et al 2020][research_chen_zang_2020]
+- [Chen et al 2020][research_chen_zhang_2020]
 - [Chen et al 2021][research_chen_qi_2021]
 - [Chen et al 2022][research_chen_han_2022]
 - [Chen et al 2022][research_chen_jiang_2022]
@@ -6745,19 +8343,20 @@ summary of what classification achieves and what it costs.
 - [Chen et al 2023][research_chen_hu_2023]
 - [Chen et al 2023][research_chen_jin_2023]
 - [Chen et al 2023][research_chen_sang_2023]
-- [Chen et al 2024][research_chen_yang_2024]
 - [Chen et al 2025][research_chen_ji_2025]
 - [Chen et al 2025][research_chen_pei_2025]
 - [Chen et al 2025][research_chen_tang_2025]
 - [Chen et al 2025][research_chen_yang_2025]
 - [Chen et al 2026][research_chen_han_2026]
 - [Chen et al 2026][research_chen_li_2026]
+- [Chen et al 2026][research_chen_mao_2026]
 - [Chen, Y.-K. et al 2002][research_chenyk_milosfs_2002]
 - [Cheng 2020][research_cheng_2020]
 - [Cheng et al 2011][research_cheng_venkatachari_2011]
 - [Cheng et al 2011][research_cheng_xu_2011]
 - [Cheng et al 2019][research_cheng_jiang_2019]
 - [Cheng et al 2021][research_cheng_jing_2021]
+- [Cheng et al 2023][research_cheng_huang_2023]
 - [Cheng et al 2024][research_cheng_dai_2024]
 - [Cheng et al 2024][research_cheng_fullerrowell_2024]
 - [Cheng et al 2024][research_cheng_song_2024]
@@ -6778,22 +8377,28 @@ summary of what classification achieves and what it costs.
 - [Childers, Dave et al 2001][research_childersdave_gelderlooshendrik_2001]
 - [Chilò et al 2026][research_chilo_grena_2026]
 - [China Satellite Enters Moon's 2007][research_china_satellite_2007]
+- [China's Military Space Strategy 2019][research_china_s_military_2019]
 - [Chinese spacecraft achieves lunar 2015][research_chinese_spacecraft_2015]
 - [Ching 1972][research_ching_1972]
 - [Ching and Rugge 1975][research_ching_rugge_1975]
+- [Ching et al 1977][research_ching_hickman_1977]
 - [Chinnaraj et al 2024][research_chinnaraj_kim_2024]
 - [Chisholm 1984][research_chisholm_1984]
+- [Chiu 1975][research_chiu_1975]
 - [Cho 1994][research_cho_1994]
 - [Cho 2018][research_cho_2018]
 - [Cho and Hastings 1993][research_cho_hastings_1993]
 - [Cho et al 1999][research_cho_miyata_1999]
 - [Cho et al 2001][research_cho_cochran_2001]
+- [Cho et al 2003][research_cho_ramasamy_2003]
 - [Cho et al 2005][research_cho_kawakita_2005]
 - [Cho et al 2009][research_cho_kitamura_2009]
+- [Cho et al 2021][research_cho_bae_2021]
 - [Cho et al 2021][research_cho_jo_2021]
 - [Cho et al 2022][research_cho_jin_2022]
 - [Chobotov 1977][research_chobotov_1977]
 - [Chobotov 1990][research_chobotov_1990]
+- [Chobotov and Purohit 1993][research_chobotov_purohit_1993]
 - [Chobotov et al 1997][research_chobotov_herman_1997]
 - [Choi 2020][research_choi_2020]
 - [Choi 2021][research_choi_2021]
@@ -6808,21 +8413,27 @@ summary of what classification achieves and what it costs.
 - [Choi et al 2024][research_choi_park_2024]
 - [Choi et al 2025][research_choi_abdelkhalik_2025]
 - [Choi et al 2026][research_choi_won_2026]
+- [Choi, Michael K. 2014][research_choimichaelk_2014]
 - [Chojnacki, Kent T. et al 2014][research_chojnackikentt_cranedeborahj_2014]
+- [Chopra 1961][research_chopra_1961]
 - [Chordia et al 2021][research_chordia_nordelof_2021]
+- [Chordia et al 2022][research_chordia_nordelof_2022]
 - [Chotivisarut et al 2012][research_chotivisarut_nuntaphan_2012]
 - [Chou et al 1998][research_chou_ardema_1998]
 - [Chou et al 2021][research_chou_braun_2021]
 - [Choudhary 2025][research_choudhary_2025]
+- [Chouinard, Caroline et al 2008][research_chouinardcaroline_knightrussell_2008]
 - [Chow 1963][research_chow_1963]
 - [Christenson, Rick L. et al 2003][research_christensonrickl_nelsonmichaela_2003]
 - [Christian 2023][research_christian_2023]
 - [Christie 2026][research_christie_2026]
+- [Christopher 2016][research_christopher_2016]
 - [Christopher K Droney et al 2020][research_christopherkdroney_anthonyjsclafani_2020]
 - [Christou and Vaubaillon 2010][research_christou_vaubaillon_2010]
 - [Chrusciel 1975][research_chrusciel_1975]
 - [Chu 1967][research_chu_1967]
 - [Chunyu Wang et al 2025][research_chunyuwang_meng_2025]
+- [Chytil 1975][research_chytil_1975]
 - [Ciarravano 2021][research_ciarravano_2021]
 - [Cicci and Qualls 2008][research_cicci_qualls_2008]
 - [Ciofalo et al 2016][research_ciofalo_meshishnek_2016]
@@ -6830,6 +8441,7 @@ summary of what classification achieves and what it costs.
 - [Cipin et al 2021][research_cipin_toman_2021]
 - [Cipollone et al 2025][research_cipollone_frueh_2025]
 - [Citron 1963][research_citron_1963]
+- [Clancy et al 2007][research_clancy_wolff_2007]
 - [Clapp 1994][research_clapp_1994]
 - [Clark and Braun 2008][research_clark_braun_2008]
 - [Clark and Lee 2020][research_clark_lee_2020]
@@ -6837,6 +8449,7 @@ summary of what classification achieves and what it costs.
 - [Clarke 2008][research_clarke_2008]
 - [Clayton and Tinker 1992][research_clayton_tinker_1992]
 - [Cleeton 1960][research_cleeton_1960]
+- [Clement et al 2005][research_clement_duc_2005]
 - [Coates and Fox 1996][research_coates_fox_1996]
 - [Coates et al 1994][research_coates_fox_1994]
 - [Coates et al 1997][research_coates_ferreira_1997]
@@ -6845,51 +8458,73 @@ summary of what classification achieves and what it costs.
 - [Coder and Holzinger 2016][research_coder_holzinger_2016]
 - [Coelho and Lino da Silva 2023][research_coelho_linodasilva_2023]
 - [Coelho and Lino da Silva 2023][research_coelho_linodasilva_2023_b]
+- [Cognata, Thomas J. et al 2014][research_cognatathomasj_hartldarrenj_2014]
+- [Cognata, Thomas J. et al 2015][research_cognatathomasj_hardtldarren_2015]
 - [Cohen and Dalton 1996][research_cohen_dalton_1996]
 - [Cohen, Aaron et al 2013][research_cohenaaron_hoppinsnicholas_2013]
 - [Cole and Aroesty 1965][research_cole_aroesty_1965]
 - [Collicott 2025][research_collicott_2025]
+- [Collisions and radiative equilibrium 1973][research_collisions_and_1973]
 - [Colpi 1998][research_colpi_1998]
+- [Colquitt 1969][research_colquitt_1969]
 - [Colwell et al 2018][research_colwell_hsiao_2018]
 - [Colwell, Gene T. and Hartley, James G. 1987][research_colwellgenet_hartleyjamesg_1987]
 - [Combined spacecraft propulsion and 2000][research_combined_spacecraft_2000]
 - [Composite analysis software aids 2009][research_composite_analysis_2009]
 - [Comte 1987][research_comte_1987]
+- [Concerning molecular nitrogen in 1962][research_concerning_molecular_1962]
+- [Condoleo and Theil 2018][research_condoleo_theil_2018]
 - [Cong et al 2016][research_cong_qifei_2016]
 - [Conger and Hastings 1995][research_conger_hastings_1995]
 - [Conley et al 2003][research_conley_lee_2003]
 - [Conn, Tracie R. and Bookbinder, Jay A. 2018][research_conntracier_bookbinderjaya_2018]
+- [Connell et al 1991][research_connell_jr_1991]
 - [Connell, John W. 2000][research_connelljohnw_2000]
 - [Connolly and Garcés 2025][research_connolly_garces_2025]
 - [Connor et al 2023][research_connor_advani_2023]
+- [Conrath et al 2000][research_conrath_pearl_2000]
 - [Cook 1965][research_cook_1965]
 - [Cook 1967][research_cook_1967]
 - [Cook and Hueter 2003][research_cook_hueter_2003]
 - [Cook and Plimmer 1960][research_cook_plimmer_1960]
 - [Cook et al 2020][research_cook_swan_2020]
 - [Cook et al 2021][research_cook_swan_2021]
+- [Cooley and Easton 1969][research_cooley_easton_1969]
 - [Cooper 1968][research_cooper_1968]
 - [Cooper 1981][research_cooper_1981]
+- [Cooper and Martin 2023][research_cooper_martin_2023]
 - [Cooper and Scheer 1988][research_cooper_scheer_1988]
 - [Cooper et al 1985][research_cooper_jaffe_1985]
+- [Cooper, Eric G. et al 1992][research_cooperericg_jonessharonm_1992]
 - [Cooper, L. P. 1985][research_cooperlp_1985]
 - [Cooper, P. A. and Sawyer, J. W. 1983][research_cooperpa_sawyerjw_1983]
 - [Copeland, Robert J. et al 2005][research_copelandrobertj_masongeorgia_2005]
 - [Corbin and Kusche 2022][research_corbin_kusche_2022]
 - [Cordes and Hertzfeld 1997][research_cordes_hertzfeld_1997]
 - [Corley 2005][research_corley_2005]
+- [Corneliussen 2014][research_corneliussen_2014]
+- [Correction to "Application of 1975][research_correction_to_1975]
 - [Correction to the paper 2003][research_correction_to_2003]
+- [COSPAR International Reference Atmosphere 1992][research_cospar_international_1992]
+- [Costello 2004][research_costello_2004]
 - [Cot 1993][research_cot_1993]
 - [Counselman and Abbot 1989][research_counselman_abbot_1989]
 - [Courtney Ray and Debra 1976][research_courtneyray_debra_1976]
 - [Covell, Peter F. et al 1988][research_covellpeterf_woodrichardm_1988]
+- [Coverstone and Prussing 2003][research_coverstone_prussing_2003]
 - [Cowardin, Heather et al 2010][research_cowardinheather_seitzerpat_2010]
+- [Cowen 1999][research_cowen_1999]
+- [Cowen 1999][research_cowen_1999_b]
+- [Cowen 2007][research_cowen_2007]
+- [Cowling et al 1960][research_cowling_alexander_1960]
 - [Cox et al 1966][research_cox_crabtree_1966]
 - [Crabill and Mayo 1969][research_crabill_mayo_1969]
+- [Craig, M. K. and Gonzalez, R. G. 1973][research_craigmk_gonzalezrg_1973]
 - [Crandall and Wirz 2022][research_crandall_wirz_2022]
 - [Cravens, T. E. et al 1979][research_cravenste_gerardjc_1979]
 - [Crawford 1971][research_crawford_1971]
 - [Crawford 1987][research_crawford_1987]
+- [Cresci 1966][research_cresci_1966]
 - [Cresto Aleina et al 2016][research_crestoaleina_viola_2016]
 - [Cretaux et al 1994][research_cretaux_nouel_1994]
 - [Crisp et al 2015][research_crisp_smith_2015]
@@ -6900,12 +8535,15 @@ summary of what classification achieves and what it costs.
 - [Cross and Newman 1970][research_cross_newman_1970]
 - [Crouse, Patrick and Lewis, Mark 1993][research_crousepatrick_lewismark_1993]
 - [Crowell and McNamara 2012][research_crowell_mcnamara_2012]
+- [Crown 2012][research_crown_2012]
 - [Crowther 1992][research_crowther_1992]
 - [Cruz Mermy et al 2022][research_cruzmermy_schmidt_2022]
+- [Cuadra and Arthur 1966][research_cuadra_arthur_1966]
 - [Cuadrat-Grzybowski and Gill 2024][research_cuadratgrzybowski_gill_2024]
 - [Cubley and Ellis 1978][research_cubley_ellis_1978]
 - [Cui et al 2017][research_cui_zhao_2017]
 - [Cui et al 2024][research_cui_guo_2024]
+- [Cui et al 2026][research_cui_chen_2026]
 - [Culp and Jin 1987][research_culp_jin_1987]
 - [Cummings and Yang 2003][research_cummings_yang_2003]
 - [Cunningham 1987][research_cunningham_1987]
@@ -6915,12 +8553,18 @@ summary of what classification achieves and what it costs.
 - [Cunnington, G. R. et al 1966][research_cunningtongr_streeder_1966]
 - [Cunnington, G. R., Jr. et al 1967][research_cunningtongrjr_funaiai_1967]
 - [Curran and Haag 1992][research_curran_haag_1992]
+- [Currano et al 2008][research_currano_moghaddam_2008]
 - [Current orbit a1 literature 1993][research_current_orbit_1993]
 - [Curry, D. M. et al 1979][research_currydm_scotthc_1979]
+- [Curtis et al 1985][research_curtis_brace_1985]
+- [Cussen 1972][research_cussen_1972]
 - [Cuthbert, P. A. et al 1990][research_cuthbertpa_tiggesma_1990]
 - [Cygan et al 2025][research_cygan_wozniak_2025]
+- [Czysz 1963][research_czysz_1963]
+- [Căruntu et al 2008][research_caruntu_negrea_2008]
 - [Cương and Tú 2012][research_cuong_tu_2012]
 - [d'Agnese 2015][research_dagnese_2015]
+- [D'Amico and Montenbruck 2006][research_damico_montenbruck_2006]
 - [D'Souza, Christopher et al 2007][research_dsouzachristopher_hanakfchad_2007]
 - [D. C. Bomberger and L. F. Moose 1963][research_dcbomberger_lfmoose_1963]
 - [Da Fonseca et al 2017][research_dafonseca_goes_2017]
@@ -6931,6 +8575,7 @@ summary of what classification achieves and what it costs.
 - [Dai et al 2020][research_dai_cao_2020]
 - [Dai et al 2026][research_dai_cai_2026]
 - [Dai et al 2026][research_dai_kong_2026]
+- [Dai et al 2026][research_dai_shao_2026]
 - [Daidzic 2016][research_daidzic_2016]
 - [Daimaru, Takuro et al 2018][research_daimarutakuro_bhandaripradeep_2018]
 - [Dalton, Penni J. et al 2016][research_daltonpennij_schwanbeckeugene_2016]
@@ -6942,9 +8587,11 @@ summary of what classification achieves and what it costs.
 - [Daneshjou et al 2017][research_daneshjou_mohammadidehabadi_2017]
 - [Danesi 1982][research_danesi_1982]
 - [Dang et al 2021][research_dang_stern_2021]
+- [Daniel B Leiser et al 2001][research_danielbleiser_davidastewart_2001]
 - [Daniel J Gershman 2026][research_danieljgershman_2026]
 - [Daniel L Dumbacher][research_danielldumbacher]
 - [Daniels and Dryden 1974][research_daniels_dryden_1974]
+- [Danilov 1962][research_danilov_1962]
 - [Dankov and Mikhailov 1965][research_dankov_mikhailov_1965]
 - [Danny N Nguyen et al 2024][research_dannynnguyen_soumyodutta_2024]
 - [Darby and Rao 2011][research_darby_rao_2011]
@@ -6962,17 +8609,23 @@ summary of what classification achieves and what it costs.
 - [David, Kaia E. and Babel, Hank W. 1992][research_davidkaiae_babelhankw_1992]
 - [Davies, C. B. et al 1984][research_daviescb_wilsonjf_1984]
 - [Davila, Joseph M. et al 2018][research_davilajosephm_rabindouglasm_2018]
+- [Davis 1963][research_davis_1963]
 - [Davis 2002][research_davis_2002]
 - [Davis and Flügge-Lotz 1964][research_davis_fluggelotz_1964]
 - [Davis and Wright 1990][research_davis_wright_1990]
 - [Davis et al 1999][research_davis_marshall_1999]
 - [Davis, E. E. 1982][research_davisee_1982]
+- [de Divitiis 1999][research_dedivitiis_1999]
 - [de Groh and McCollum 1995][research_degroh_mccollum_1995]
 - [De Jarnette, Fred R. 1989][research_dejarnettefredr_1989]
 - [de la Cruz et al 1996][research_delacruz_hastings_1996]
+- [De Lafontaine and Garg 1982][research_delafontaine_garg_1982]
+- [de Moura and Ribeiro 2026][research_demoura_ribeiro_2026]
 - [de Paula and Celestino 2019][research_depaula_celestino_2019]
 - [De Prisco et al 2026][research_deprisco_infante_2026]
 - [De Ridder and Mooij 2011][research_deridder_mooij_2011]
+- [De Saedeleer and Henrard 2004][research_desaedeleer_henrard_2004]
+- [Dea et al 1991][research_dea_vanbise_1991]
 - [DeBay and Richard 1963][research_debay_richard_1963]
 - [Debe 1986][research_debe_1986]
 - [Debe et al 1990][research_debe_poirier_1990]
@@ -6983,44 +8636,61 @@ summary of what classification achieves and what it costs.
 - [DeCoster et al 2026][research_decoster_awadallah_2026]
 - [Degen et al 2024][research_degen_mitterfellner_2024]
 - [deGroh, Kim K. et al 2001][research_degrohkimk_banksbrucea_2001]
+- [Degtjarev et al 2000][research_degtjarev_popov_2000]
 - [Dehn 1962][research_dehn_1962]
 - [Deike and Gallagher 2011][research_deike_gallagher_2011]
 - [del Val et al 2022][research_delval_luis_2022]
 - [Delande et al 2018][research_delande_houssineau_2018]
 - [Delcov et al 2015][research_delcov_hodenkov_2015]
+- [Delhaise 1991][research_delhaise_1991]
+- [Delhaise 1994][research_delhaise_1994]
 - [Dellacamera et al 2000][research_dellacamera_waltz_2000]
 - [DelPapa, Steven V. 2005][research_delpapastevenv_2005]
+- [Delpino, F. H. et al 1967][research_delpinofh_nelsonrl_1967]
+- [Demiryont and Moorehead 2009][research_demiryont_moorehead_2009]
 - [Deng et al 2017][research_deng_li_2017]
 - [Deng et al 2024][research_deng_liu_2024]
 - [Deng et al 2025][research_deng_wang_2025]
+- [Denham 1965][research_denham_1965]
+- [Denman et al 1986][research_denman_hasselman_1986]
 - [Department Of Defense Washington Dc 2011][research_departmentofdefensewashingtondc_2011]
 - [Der Kiureghian 2001][research_derkiureghian_2001]
+- [Derbis et al 1991][research_derbis_guidanean_1991]
+- [Desai and Buglia 1993][research_desai_buglia_1993]
 - [Desautel, D. 1984][research_desauteld_1984]
+- [Deschamps 1985][research_deschamps_1985]
 - [Deshmukh et al 2022][research_deshmukh_spencer_2022]
 - [Deshmukh, Rohan G. et al 2019][research_deshmukhrohang_spencerdavida_2019]
 - [Design of Orbital Payload 2024][research_design_of_2024]
+- [Design Optimization for Loop 2009][research_design_optimization_2009]
 - [Determination of thermal radiation 1960][research_determination_of_1960]
 - [Dethlefsen 2019][research_dethlefsen_2019]
 - [Deutscher et al 1989][research_deutscher_schefold_1989]
+- [Dever et al 1995][research_dever_bruckner_1995]
 - [Dever, Joyce A. et al 1992][research_deverjoycea_brucknerericj_1992]
 - [Dever, Joyce A. et al 1993][research_deverjoycea_rutledgesharonk_1993]
 - [Dever, Joyce A. et al 1998][research_deverjoycea_rutledgesharonk_1998]
 - [Dever, Joyce and deGroh, Kim K. 2002][research_deverjoyce_degrohkimk_2002]
 - [Dever, Joyce et al 2002][research_deverjoyce_millersharon_2002]
 - [Device May eliminate communications 1962][research_device_may_1962]
+- [Dewald and Jr 1998][research_dewald_jr_1998]
 - [Deyst 1968][research_deyst_1968]
 - [Dftb 2013][research_dftb_2013]
 - [Dhanasekaran et al 2011][research_dhanasekaran_balamurali_2011]
 - [Dharmesh et al 2023][research_dharmesh_kumar_2023]
 - [Di Renzo et al 2020][research_direnzo_fu_2020]
+- [Diaconis et al 1961][research_diaconis_fanucci_1961]
 - [Diane C Davis et al][research_dianecdavis_emilymzimovanspreen]
 - [Diao et al 2025][research_diao_liu_2025]
 - [Dias and Liberti 2019][research_dias_liberti_2019]
 - [Dickman, J. E. et al 2004][research_dickmanje_heppaf_2004]
 - [Dickmanns 1986][research_dickmanns_1986]
+- [Dicristina 1979][research_dicristina_1979]
 - [Dieriam, Todd A. 1990][research_dieriamtodda_1990]
 - [Diersing 1986][research_diersing_1986]
 - [Dietrich et al 2022][research_dietrich_matsuo_2022]
+- [Dietrick 2013][research_dietrick_2013]
+- [Difilippo, F. C. 1998][research_difilippofc_1998]
 - [Dileep et al 2015][research_dileep_kamath_2015]
 - [Dileep et al 2016][research_dileep_surekha_2016]
 - [Diliberto 1966][research_diliberto_1966]
@@ -7030,8 +8700,12 @@ summary of what classification achieves and what it costs.
 - [Ding et al 2025][research_ding_qi_2025]
 - [DiPirro 1988][research_dipirro_1988]
 - [DiPirro et al 1994][research_dipirro_shirron_1994]
+- [Direct numerical simulations of 2023][research_direct_numerical_2023]
 - [Dissel et al 2007][research_dissel_kothari_2007]
 - [Divitiis and Vitale 2010][research_divitiis_vitale_2010]
+- [Divya and Jayashree 2023][research_divya_jayashree_2023]
+- [Dix et al 1967][research_dix_golden_1967]
+- [Dobrot 2000][research_dobrot_2000]
 - [Dogra et al 1994][research_dogra_moss_1994]
 - [Doherty et al 2016][research_doherty_dunne_2016]
 - [Doihara and Nishida 2002][research_doihara_nishida_2002]
@@ -7041,11 +8715,14 @@ summary of what classification achieves and what it costs.
 - [Doll, C. et al 1993][research_dollc_mistrettag_1993]
 - [Doman 2004][research_doman_2004]
 - [Donahue 1997][research_donahue_1997]
+- [Donahue and Farrell 1979][research_donahue_farrell_1979]
 - [Donahue et al 2008][research_donahue_weldon_2008]
 - [Donald A Guidice 1990][research_donaldaguidice_1990]
 - [Donald R. Wilkes et al 1992][research_donaldrwilkes_mjohnbrown_1992]
 - [Dong and Cai 2017][research_dong_cai_2017]
 - [Dong and Wei 2021][research_dong_wei_2021]
+- [Dong and Zhao 2021][research_dong_zhao_2021]
+- [Dong et al 1990][research_dong_liu_1990]
 - [Dong et al 2012][research_dong_li_2012]
 - [Dong et al 2017][research_dong_hu_2017]
 - [Dong et al 2018][research_dong_hu_2018]
@@ -7055,12 +8732,16 @@ summary of what classification achieves and what it costs.
 - [Donova and Jordaan 2026][research_donova_jordaan_2026]
 - [Doody 1995][research_doody_1995]
 - [Doornbos et al 2005][research_doornbos_klinkrad_2005]
+- [Dordain 1977][research_dordain_1977]
 - [Dote and Theodore 1981][research_dote_theodore_1981]
 - [Dotts, R. L. et al 1985][research_dottsrl_currydm_1985]
 - [Dougherty and Lee 2016][research_dougherty_lee_2016]
 - [Douglas et al 1980][research_douglas_goad_1980]
 - [Dowd, D. L. and Tapley, B. D. 1979][research_dowddl_tapleybd_1979]
 - [Dowell 1975][research_dowell_1975]
+- [Downing and Plotkin 1996][research_downing_plotkin_1996]
+- [Downs et al 1974][research_downs_willardd_1974]
+- [Downs et al 1974][research_downs_willardd_1974_b]
 - [Doyle 1982][research_doyle_1982]
 - [Doyle 2023][research_doyle_2023]
 - [Doyle 2026][research_doyle_2026]
@@ -7070,17 +8751,23 @@ summary of what classification achieves and what it costs.
 - [Drawin 1993][research_drawin_1993]
 - [Dremann et al 2025][research_dremann_hassan_2025]
 - [Dressler and Murad 1995][research_dressler_murad_1995]
+- [Drew 1974][research_drew_1974]
 - [Drolen 1992][research_drolen_1992]
+- [Druguet 2010][research_druguet_2010]
 - [Du and Smith 2014][research_du_smith_2014]
+- [Du et al 2011][research_du_liang_2011]
 - [Du et al 2015][research_du_li_2015]
 - [Du et al 2025][research_du_zhang_2025]
 - [Du et al 2026][research_du_song_2026]
 - [Duan and Li 2015][research_duan_li_2015]
 - [Duan and Wang 2019][research_duan_wang_2019]
+- [Duan and Xiao 2017][research_duan_xiao_2017]
 - [Duarte Castro et al 2022][research_duartecastro_mehner_2022]
 - [Duchek et al 2015][research_duchek_abrams_2015]
+- [Dudkin et al 1990][research_dudkin_potapov_1990]
 - [Dudley, D. D. et al 1992][research_dudleydd_thonetta_1992]
 - [Dudzinski 1981][research_dudzinski_1981]
+- [Duffers Drift and Space 2021][research_duffers_drift_2021]
 - [Dufour et al 2015][research_dufour_demuelenaere_2015]
 - [Duggal and Venkatesh 2015][research_duggal_venkatesh_2015]
 - [Duke 1960][research_duke_1960]
@@ -7090,21 +8777,30 @@ summary of what classification achieves and what it costs.
 - [Dumbacher, Daniel L. 2004][research_dumbacherdaniell_2004]
 - [Duncan and Lissauer 1997][research_duncan_lissauer_1997]
 - [Dunlop and Stockel 1982][research_dunlop_stockel_1982]
+- [Dunnett and Ingham 1986][research_dunnett_ingham_1986]
 - [Dupont 1966][research_dupont_1966]
 - [Dupont et al 2014][research_dupont_vanoost_2014]
 - [Duran, Mark et al 2019][research_duranmark_schmidttyler_2019]
+- [Duret and Fabrizi 1999][research_duret_fabrizi_1999]
 - [Duston et al 2004][research_duston_seghi_2004]
 - [Duvall, Aleta et al 2005][research_duvallaleta_justuscg_2005]
 - [Duxbury and Paul 1976][research_duxbury_paul_1976]
 - [Dworak et al 2006][research_dworak_banks_2006]
+- [Dwyer et al 2002][research_dwyer_toison_2002]
 - [Dyakonov, Artem A. et al 2007][research_dyakonovartema_schoenenbergermark_2007]
 - [Dye, Scott 2009][research_dyescott_2009]
+- [Dyer 1966][research_dyer_1966]
+- [Dyson et al 1996][research_dyson_hashemi_1996]
 - [EaglePicher nickel-hydrogen spacecraft battery 2005][research_eaglepicher_nickel_hydrogen_2005]
 - [East 1999][research_east_1999]
 - [Eccles et al 1989][research_eccles_raitt_1989]
+- [Ecker et al 2024][research_ecker_ertl_2024]
 - [Ed. Siregar et al 2024][research_edsiregar_paramitaprabandari_2024]
 - [Edelbaum 1965][research_edelbaum_1965]
 - [Edelbaum 1966][research_edelbaum_1966]
+- [Eder 1973][research_eder_1973]
+- [Edgett and Malin 2000][research_edgett_malin_2000]
+- [Edquist et al 2023][research_edquist_west_2023]
 - [Edquist, Karl T. 2006][research_edquistkarlt_2006]
 - [Edwards and Richards 1989][research_edwards_richards_1989]
 - [Edwards and Richards 1990][research_edwards_richards_1990]
@@ -7114,6 +8810,8 @@ summary of what classification achieves and what it costs.
 - [Ehricke 1964][research_ehricke_1964]
 - [El Achkar et al 2012][research_elachkar_lavieille_2012]
 - [El'Iasberg and Yastrebov 1961][research_eliasberg_yastrebov_1961]
+- [El-Enna 2003][research_elenna_2003]
+- [El-Enna 2004][research_elenna_2004]
 - [El-Genk and Schriener 2024][research_elgenk_schriener_2024]
 - [El-salam and Sehnal 2004][research_elsalam_sehnal_2004]
 - [El-Sherbiny et al 2013][research_elsherbiny_khattab_2013]
@@ -7122,6 +8820,7 @@ summary of what classification achieves and what it costs.
 - [Eldred, Charles H. 1993][research_eldredcharlesh_1993]
 - [Elena A Plis et al][research_elenaaplis_milestbengtson]
 - [Elfarran et al 2021][research_elfarran_khalifa_2021]
+- [Elices 1995][research_elices_1995]
 - [ELISMA experimenters 1998][research_elismaexperimenters_1998]
 - [Elisov et al 2018][research_elisov_ishkov_2018]
 - [Elite Strategy Enhances NSGA-II 2025][research_elite_strategy_2025]
@@ -7131,12 +8830,15 @@ summary of what classification achieves and what it costs.
 - [Elvidge et al 2016][research_elvidge_godinez_2016]
 - [Ely et al 1995][research_ely_fowler_1995]
 - [Emelyanovich et al 2010][research_emelyanovich_amelchenko_2010]
+- [Emery 2005][research_emery_2005]
+- [Emmanuel 1968][research_emmanuel_1968]
 - [Emmert 2015][research_emmert_2015]
 - [Emmert 2015][research_emmert_2015_b]
 - [Emmert et al 2006][research_emmert_meier_2006]
 - [Emmons 1964][research_emmons_1964]
 - [Endo et al 2025][research_endo_ashida_2025]
 - [Engelis 1988][research_engelis_1988]
+- [Environmental testing of the 1968][research_environmental_testing_1968]
 - [Epistemologies of State, Epistemologies 2014][research_epistemologies_of_2014]
 - [Equivalent Flux Smoothing in 2019][research_equivalent_flux_smoothing_2019]
 - [Ercol 2008][research_ercol_2008]
@@ -7144,12 +8846,16 @@ summary of what classification achieves and what it costs.
 - [Ericsson 1967][research_ericsson_1967]
 - [Ericsson 1969][research_ericsson_1969]
 - [Ericsson 1977][research_ericsson_1977]
+- [Ericsson and Pavish 2000][research_ericsson_pavish_2000]
 - [Ericsson and Reding 1978][research_ericsson_reding_1978]
+- [Eriksson 2025][research_eriksson_2025]
 - [Ernst, D. M. 1979][research_ernstdm_1979]
 - [Erratum United States Satellite 1960][research_erratum_united_1960]
 - [Erşahin 2002][research_ersahin_2002]
 - [Escobar et al 2016][research_escobar_diaz_2016]
 - [Esper, Jaime et al 2018][research_esperjaime_wudong_2018]
+- [Essay Military Space in 2004][research_essay_military_2004]
+- [Estruch-Samper 2016][research_estruchsamper_2016]
 - [Etiope 2018][research_etiope_2018]
 - [Etkin 1961][research_etkin_1961]
 - [Europe's power grid survives 2015][research_europe_s_power_2015]
@@ -7161,8 +8867,11 @@ summary of what classification achieves and what it costs.
 - [Evans et al 1979][research_evans_newton_1979]
 - [Evans, Steven W. and Dukeman, Greg A. 1993][research_evansstevenw_dukemangrega_1993]
 - [Evans, Steven W. and Dukeman, Greg A. 1995][research_evansstevenw_dukemangrega_1995]
+- [Evans, Steven W. and Kross, Dennis A. 2000][research_evansstevenw_krossdennisa_2000]
 - [Eves 2019][research_eves_2019]
 - [Ewing 1974][research_ewing_1974]
+- [Expendable launch vehicle industry 2007][research_expendable_launch_2007]
+- [Expendable launch vehicle revenues 2004][research_expendable_launch_2004]
 - [Experimental Investigations on the 2018][research_experimental_investigations_2018]
 - [Exploring Monopulse Feed Antennas 2022][research_exploring_monopulse_2022]
 - [Extended life nickel-hydrogen storage 1989][research_extended_life_1989]
@@ -7180,37 +8889,54 @@ summary of what classification achieves and what it costs.
 - [Fallahzadeh et al 2026][research_fallahzadeh_bozzoli_2026]
 - [Fan 2015][research_fan_2015]
 - [Fan et al 2021][research_fan_duan_2021]
+- [Fan et al 2021][research_fan_lyu_2021]
 - [Fan et al 2022][research_fan_tu_2022]
 - [Fan et al 2023][research_fan_geng_2023]
 - [Fan et al 2024][research_fan_li_2024]
 - [Fang 1979][research_fang_1979]
 - [Fang et al 2019][research_fang_benzerrouk_2019]
 - [Fang et al 2026][research_fang_chen_2026]
+- [Fante et al 1970][research_fante_elkin_1970]
+- [Farmer et al 1992][research_farmer_wahls_1992]
 - [Faustino et al 2024][research_faustino_devaraj_2024]
 - [Fawley and Putnam 2021][research_fawley_putnam_2021]
+- [Fay and Riddell 1958][research_fay_riddell_1958]
+- [Fazelzadeh and Varzandian 2010][research_fazelzadeh_varzandian_2010]
 - [Feder 2022][research_feder_2022]
 - [Federici et al 2021][research_federici_benedikter_2021]
 - [Federici et al 2023][research_federici_scorsoglio_2023]
 - [Fedorenko et al 2010][research_fedorenko_tyrnov_2010]
+- [Fedotov 2004][research_fedotov_2004]
+- [Feher, S. I. and Mccue, G. A. 1966][research_fehersi_mccuega_1966]
+- [Feie and Kretz 2008][research_feie_kretz_2008]
 - [Feipeng et al 2001][research_feipeng_cheng_2001]
 - [Felbeck 1995][research_felbeck_1995]
+- [Feldick and Modest 2011][research_feldick_modest_2011]
 - [Feldman, Jay et al 2019][research_feldmanjay_stewartdavid_2019]
+- [Felkel and Wolff 1969][research_felkel_wolff_1969]
 - [Feng et al 2014][research_feng_tang_2014]
 - [Feng et al 2017][research_feng_liu_2017]
 - [Feng et al 2024][research_feng_shi_2024]
+- [Fennell and Anderson 2008][research_fennell_anderson_2008]
 - [Fenucci et al 2024][research_fenucci_fanelli_2024]
 - [Feoktistova and Turkina 2022][research_feoktistova_turkina_2022]
 - [Fereoli et al 2025][research_fereoli_schaub_2025]
+- [Ferguson 1964][research_ferguson_1964]
 - [Ferguson and Davey 1985][research_ferguson_davey_1985]
 - [Ferguson et al 2015][research_ferguson_hilmer_2015]
 - [Ferguson et al 2017][research_ferguson_hoffmann_2017]
 - [Ferguson, Dale C. 2007][research_fergusondalec_2007]
+- [Fernandez-Pello and Law 1982][research_fernandezpello_law_1982]
 - [Fernández et al 2022][research_fernandez_wiedemann_2022]
 - [Ferraiuolo and Manca 2012][research_ferraiuolo_manca_2012]
 - [Ferrandi et al 2013][research_ferrandi_zinna_2013]
 - [Ferrandon 1997][research_ferrandon_1997]
+- [Ferri et al 1997][research_ferri_rotundi_1997]
+- [Fesmire and Sass 2008][research_fesmire_sass_2008]
 - [Fetzer, Chris et al 2007][research_fetzerchris_kingrr_2007]
 - [Fey et al 1993][research_fey_jeltsch_1993]
+- [Fiala et al 2014][research_fiala_hillier_2014]
+- [Fieseler et al 2026][research_fieseler_shihabi_2026]
 - [Filatov 1972][research_filatov_1972]
 - [Filatyev et al 2014][research_filatyev_buzuluk_2014]
 - [Filho et al 2023][research_filho_duarte_2023]
@@ -7219,52 +8945,88 @@ summary of what classification achieves and what it costs.
 - [Finckenor and Carrico 2024][research_finckenor_carrico_2024]
 - [Finckenor, M. M. et al 2006][research_finckenormm_albynkc_2006]
 - [Finckenor, Miria et al 2008][research_finckenormiria_pippinhgary_2008]
+- [Finke 1990][research_finke_1990]
 - [Finson 1973][research_finson_1973]
+- [Finson 1975][research_finson_1975]
+- [Finson et al 1980][research_finson_clarke_1980]
+- [Fiorentini and Serrani 2012][research_fiorentini_serrani_2012]
 - [Fiott and Prizeman 2013][research_fiott_prizeman_2013]
 - [Firat 2026][research_firat_2026]
 - [First Netherlands satellite in 1974][research_first_netherlands_1974]
+- [Fischer 1971][research_fischer_1971]
+- [Fishbaugh and Head 2002][research_fishbaugh_head_2002]
 - [Fisher, Edward M., Jr. 1991][research_fisheredwardmjr_1991]
+- [Fishman et al 2011][research_fishman_silverman_2011]
 - [Fitzgerald 1974][research_fitzgerald_1974]
 - [Fitzgerald 2021][research_fitzgerald_2021]
 - [Fixler 1964][research_fixler_1964]
 - [Fixler 1966][research_fixler_1966]
+- [Flat and Milnes 1980][research_flat_milnes_1980]
 - [Flecklin, Anton F., II 1991][research_flecklinantonfii_1991]
+- [Fleming, M. 1981][research_flemingm_1981]
 - [Flemming and Lien 1969][research_flemming_lien_1969]
 - [Fletcher 1972][research_fletcher_1972]
 - [Fletcher, J. C. 1988][research_fletcherjc_1988]
+- [Flight module and Venus 2017][research_flight_module_and_2017]
 - [Flight set 360L007 STS-33R 1990][research_flight_set_1990]
+- [Flittie et al 1992][research_flittie_estey_1992]
 - [Flood, Dennis J. 1991][research_flooddennisj_1991]
 - [Florence, D. E. 1981][research_florencede_1981]
+- [Fluid properties simulation challenge 2004][research_fluid_properties_2004]
 - [Fogarty 1967][research_fogarty_1967]
 - [Fogelquist and Lin 2023][research_fogelquist_lin_2023]
+- [Fong et al 1970][research_fong_ehrlich_1970]
+- [Fong et al 2014][research_fong_wang_2014]
+- [Forbes 2001][research_forbes_2001]
 - [Forbes and St. Cyr 2012][research_forbes_stcyr_2012]
 - [Forbes and Zhang 2018][research_forbes_zhang_2018]
 - [Forbes et al 2021][research_forbes_bruinsma_2021]
+- [Forbes et al 2024][research_forbes_bruinsma_2024]
 - [Ford, Robert 2003][research_fordrobert_2003]
 - [Fornari and Pontani 2023][research_fornari_pontani_2023]
 - [Forootan et al 2022][research_forootan_kosary_2022]
 - [Forootan et al 2023][research_forootan_farzaneh_2023]
+- [Forrette 1964][research_forrette_1964]
+- [Forsberg, K. J. et al 1973][research_forsbergkj_juej_1973]
+- [Forsyth et al 2024][research_forsyth_hambidge_2024]
 - [Forsythe et al 1961][research_forsythe_melfi_1961]
+- [Forward 1991][research_forward_1991]
 - [Foss 2017][research_foss_2017]
 - [Fossà and Bettanini 2020][research_fossa_bettanini_2020]
+- [Foster 1960][research_foster_1960]
 - [Foster, T. F. et al 1973][research_fostertf_lockmanwk_1973]
+- [Fox 2000][research_fox_2000]
+- [Fraiture 2009][research_fraiture_2009]
 - [Franciamore and Tumuklu 2026][research_franciamore_tumuklu_2026]
+- [Frankenthal 1964][research_frankenthal_1964]
 - [Franklin et al 1986][research_franklin_hynes_1986]
+- [Franze and Barz 2025][research_franze_barz_2025]
+- [Franze and Barz 2025][research_franze_barz_2025_b]
 - [Fredrick et al 2025][research_fredrick_hong_2025]
+- [Freeborn et al 2005][research_freeborn_kinnersley_2005]
+- [Freed 1977][research_freed_1977]
 - [Freeden et al 2002][research_freeden_michel_2002]
 - [Freeman 1982][research_freeman_1982]
 - [Freeman et al 1997][research_freeman_talay_1997]
 - [Freeman, D. C., Jr. and Spencer, B., Jr. 1980][research_freemandcjr_spencerbjr_1980]
+- [French 1968][research_french_1968]
+- [French and Hansen 1964][research_french_hansen_1964]
 - [French, J. R. and Uphoff, C. W. 1979][research_frenchjr_uphoffcw_1979]
+- [Freund 1967][research_freund_1967]
 - [Frisbee, Joseph H., Jr. 2015][research_frisbeejosephhjr_2015]
+- [Fritts et al 2006][research_fritts_wang_2006]
 - [Frooninckx and Sojka 1992][research_frooninckx_sojka_1992]
 - [Frye and Kennedy 1998][research_frye_kennedy_1998]
 - [Fu et al 2019][research_fu_wang_2019]
 - [Fu et al 2023][research_fu_liang_2023]
 - [Fu et al 2024][research_fu_li_2024]
 - [Fu et al 2025][research_fu_li_2025]
+- [Fueten et al 2005][research_fueten_stesky_2005]
 - [Fujino and Ishikawa 2006][research_fujino_ishikawa_2006]
+- [Fujino et al 1999][research_fujino_asaeda_1999]
 - [Fujino et al 2008][research_fujino_yoshino_2008]
+- [Fulgham and Tobiska 2013][research_fulgham_tobiska_2013]
+- [Fulgham et al 2012][research_fulgham_meehan_2012]
 - [Fullerton, C. G. 1975][research_fullertoncg_1975]
 - [Furber 2014][research_furber_2014]
 - [Furukawa 1992][research_furukawa_1992]
@@ -7278,12 +9040,14 @@ summary of what classification achieves and what it costs.
 - [Gaias and Lovera 2021][research_gaias_lovera_2021]
 - [Gaias et al 2014][research_gaias_damico_2014]
 - [Gaier et al 2013][research_gaier_hicks_2013]
+- [Galatis et al 2017][research_galatis_guo_2017]
 - [Galman et al 1966][research_galman_levinson_1966]
 - [Galofaro et al 2006][research_galofaro_vayner_2006]
 - [Gamble, J. D. and Young, J. C. 1982][research_gamblejd_youngjc_1982]
 - [Gamble, J. D. et al 1985][research_gamblejd_cookedr_1985]
 - [Gan et al 2010][research_gan_ma_2010]
 - [Ganapathi et al 2009][research_ganapathi_sunada_2009]
+- [Gao 2007][research_gao_2007]
 - [Gao 2009][research_gao_2009]
 - [Gao and Wang 2020][research_gao_wang_2020]
 - [Gao and Zhu 2025][research_gao_zhu_2025]
@@ -7293,17 +9057,25 @@ summary of what classification achieves and what it costs.
 - [Gao et al 2021][research_gao_you_2021]
 - [Gao et al 2022][research_gao_wu_2022]
 - [Gao et al 2023][research_gao_wei_2023]
+- [Gao et al 2026][research_gao_he_2026]
 - [Gaohua et al 2014][research_gaohua_jianmei_2014]
 - [Garcia-Fernàndez and Montenbruck 2006][research_garciafernandez_montenbruck_2006]
+- [Garcia-Llama 2011][research_garciallama_2011]
+- [Gardner and L. A. 1966][research_gardner_la_1966]
 - [Garfinkel 1959][research_garfinkel_1959]
+- [Garrett 1977][research_garrett_1977]
 - [Garrett and Rubin 1978][research_garrett_rubin_1978]
 - [Garse et al 2025][research_garse_bairwa_2025]
 - [Gartrell 1983][research_gartrell_1983]
+- [Garvin 2000][research_garvin_2000]
+- [Garvin et al 1999][research_garvin_frawley_1999]
+- [Gates and Lewis 1994][research_gates_lewis_1994]
 - [Gath and Calise 2001][research_gath_calise_2001]
 - [Gaudet and Furfaro 2023][research_gaudet_furfaro_2023]
 - [Gautier and Ip 1984][research_gautier_ip_1984]
-- [Ge et al 2012][research_ge_rong_2012]
+- [Ge and Xie 2022][research_ge_xie_2022]
 - [Geller and Klein 2014][research_geller_klein_2014]
+- [Genco and Task 1984][research_genco_task_1984]
 - [General Dynamics Corp San Diego Ca 1992][research_generaldynamicscorpsandiegoca_1992]
 - [George Mikk 1982][research_georgemikk_1982]
 - [Gerhard et al 2015][research_gerhard_steins_2015]
@@ -7312,35 +9084,58 @@ summary of what classification achieves and what it costs.
 - [Gersten and Schwarbein 1963][research_gersten_schwarbein_1963]
 - [Gerver et al 1990][research_gerver_hastings_1990]
 - [Geyling 1964][research_geyling_1964]
+- [Geyling 1964][research_geyling_1964_b]
 - [Ghafoor et al 2024][research_ghafoor_amin_2024]
 - [Ghazavi et al 2025][research_ghazavi_farzaneh_2025]
 - [Ghincea 2025][research_ghincea_2025]
+- [Ghosh et al 2017][research_ghosh_guha_2017]
 - [Ghosh, Alexander 2016][research_ghoshalexander_2016]
+- [Ghoshal and Ghoshal 1970][research_ghoshal_ghoshal_1970]
+- [Gibney 2004][research_gibney_2004]
 - [Gibney 2015][research_gibney_2015]
 - [Gibson, C. and Humphries, C. 1985][research_gibsonc_humphriesc_1985]
+- [Gierasch and Goody 1967][research_gierasch_goody_1967]
+- [Gilbert et al 1991][research_gilbert_howe_1991]
 - [Gildfind et al 2021][research_gildfind_smith_2021]
 - [Gill and Akos 2024][research_gill_akos_2024]
 - [Gillins, R. L. 1975][research_gillinsrl_1975]
+- [Ginet 2005][research_ginet_2005]
+- [Ginoux 1966][research_ginoux_1966]
 - [Gioulis et al 2025][research_gioulis_kamalakis_2025]
 - [Giraldo-Grueso et al 2026][research_giraldogrueso_popov_2026]
 - [Girija 2023][research_girija_2023]
 - [Girija et al 2020][research_girija_lu_2020]
 - [Girija et al 2021][research_girija_saikia_2021]
+- [Girish et al 2007][research_girish_aranya_2007]
 - [Giudici et al 2024][research_giudici_gonzalo_2024]
 - [Givri 1998][research_givri_1998]
+- [Glatt and Olfe 1973][research_glatt_olfe_1973]
+- [Gnoffo, Peter A. et al 2011][research_gnoffopetera_berryscotta_2011]
 - [Goad and Douglas 1977][research_goad_douglas_1977]
+- [Goates et al 2026][research_goates_freeman_2026]
 - [Gochenaur et al 2026][research_gochenaur_jones_2026]
+- [Godai 1986][research_godai_1986]
+- [Godai 1987][research_godai_1987]
+- [Godbole et al 1970][research_godbole_kelkar_1970]
+- [Godett and Ziph 1986][research_godett_ziph_1986]
 - [Goff et al 1970][research_goff_grossi_1970]
 - [Gogu et al 2009][research_gogu_bapanapalli_2009]
 - [Gogu et al 2009][research_gogu_matsumura_2009]
 - [Gokcen, Tahir et al 1998][research_gokcentahir_parkchungs_1998]
 - [Gokul and Malaikannan 2025][research_gokul_malaikannan_2025]
+- [Goldberg 2005][research_goldberg_2005]
+- [Goldberg and Scala 1965][research_goldberg_scala_1965]
+- [Golden 1969][research_golden_1969]
+- [Goldstein, H. E. et al 1973][research_goldsteinhe_smithm_1973]
 - [Goldstone and Treadway 1978][research_goldstone_treadway_1978]
+- [Golovachev 1972][research_golovachev_1972]
 - [Golovachov and Lunkin 1979][research_golovachov_lunkin_1979]
 - [Golubek et al 2023][research_golubek_dron_2023]
 - [Golubkin 1995][research_golubkin_1995]
+- [Gombosi 2007][research_gombosi_2007]
 - [Gomes Vieira et al 2021][research_gomesvieira_almeidaleitao_2021]
 - [Gonczi et al 1982][research_gonczi_froeschle_1982]
+- [Gondarenko et al 2006][research_gondarenko_ossakow_2006]
 - [Gondelach and Linares 2020][research_gondelach_linares_2020]
 - [Gondelach and Linares 2021][research_gondelach_linares_2021]
 - [Gong et al 2007][research_gong_li_2007]
@@ -7349,9 +9144,10 @@ summary of what classification achieves and what it costs.
 - [Gong et al 2022][research_gong_gao_2022]
 - [Gong et al 2022][research_gong_wang_2022]
 - [Gong et al 2025][research_gong_yu_2025]
-- [Gonzalez Malabet et al 2025][research_gonzalezmalabet_gober_2025]
 - [Good 2016][research_good_2016]
 - [Goodarzi and Keimanesh 2013][research_goodarzi_keimanesh_2013]
+- [Goode 2012][research_goode_2012]
+- [Goode 2015][research_goode_2015]
 - [Goodman 1980][research_goodman_1980]
 - [Goodman 2006][research_goodman_2006]
 - [Goodman 2010][research_goodman_2010]
@@ -7360,8 +9156,10 @@ summary of what classification achieves and what it costs.
 - [Goossens and Matsumoto 2008][research_goossens_matsumoto_2008]
 - [Gordon 1973][research_gordon_1973]
 - [Gordon and Falco 2025][research_gordon_falco_2025]
+- [Gorodetskaya et al 2006][research_gorodetskaya_cane_2006]
 - [Gorton, Mark P. et al 1993][research_gortonmarkp_shidelerjohnl_1993]
 - [Goto et al 2004][research_goto_kawakita_2004]
+- [Goubau 1970][research_goubau_1970]
 - [Govind et al 2023][research_govind_demirel_2023]
 - [Goyer and Tallon 2023][research_goyer_tallon_2023]
 - [Graf et al 2005][research_graf_zurek_2005]
@@ -7369,16 +9167,21 @@ summary of what classification achieves and what it costs.
 - [Graham and Kingston 2015][research_graham_kingston_2015]
 - [Graham and Vigneron 1981][research_graham_vigneron_1981]
 - [Grantham, Katie 2003][research_granthamkatie_2003]
+- [Graphical method for prediction 1962][research_graphical_method_1962]
 - [Grard 1997][research_grard_1997]
 - [Gray 1969][research_gray_1969]
 - [Grebe-Ellis and Quick 2026][research_grebeellis_quick_2026]
 - [Green et al 1984][research_green_lange_1984]
 - [Green, Christopher et al 1999][research_greenchristopher_claflinscott_1999]
+- [Greene and Williamson 1982][research_greene_williamson_1982]
 - [Greene et al 1980][research_greene_smith_1980]
 - [Greenhouse-gas satellite heads into 2009][research_greenhouse_gas_satellite_2009]
 - [Greenquist 2022][research_greenquist_2022]
+- [Greer 1980][research_greer_1980]
+- [Greer 1990][research_greer_1990]
 - [Greiner et al 2026][research_greiner_hoyvik_2026]
 - [Gretz 1962][research_gretz_1962]
+- [Griend and Owe 1993][research_griend_owe_1993]
 - [Griffin 1985][research_griffin_1985]
 - [Griffith, B. J. et al 1983][research_griffithbj_mausjr_1983]
 - [Griffith, B. J. et al 1986][research_griffithbj_mausjr_1986]
@@ -7394,14 +9197,21 @@ summary of what classification achieves and what it costs.
 - [Grote, M. G. et al 1987][research_grotemg_starkja_1987]
 - [Groves 1958][research_groves_1958]
 - [Groves 1959][research_groves_1959]
+- [Groves 1961][research_groves_1961]
+- [Groves 1965][research_groves_1965]
+- [Groves et al 2005][research_groves_serrani_2005]
 - [Grunden 2012][research_grunden_2012]
 - [Gu et al 2009][research_gu_zhu_2009]
 - [Gu et al 2017][research_gu_wang_2017]
+- [Gu et al 2019][research_gu_jiang_2019]
 - [Guadagnini et al 2023][research_guadagnini_dezaiacomo_2023]
 - [Guan et al 2025][research_guan_li_2025]
+- [Gubby and Evans 2002][research_gubby_evans_2002]
+- [Guelman 1997][research_guelman_1997]
 - [Guerman et al 2020][research_guerman_ivanov_2020]
 - [Guglielmi and Le Carpentier 1993][research_guglielmi_lecarpentier_1993]
 - [Gui 2019][research_gui_2019]
+- [Gui et al 2023][research_gui_zhang_2023]
 - [Guimarães Furtado 2026][research_guimaraesfurtado_2026]
 - [Guinnessy 2012][research_guinnessy_2012]
 - [Guiping Liu et al 2023][research_guipingliu_douglaserowland_2023]
@@ -7416,6 +9226,7 @@ summary of what classification achieves and what it costs.
 - [Gunn 1991][research_gunn_1991]
 - [Gunning 2005][research_gunning_2005]
 - [Gunther 1966][research_gunther_1966]
+- [Guo and Cao 2026][research_guo_cao_2026]
 - [Guo et al 2015][research_guo_zhou_2015]
 - [Guo et al 2017][research_guo_lin_2017]
 - [Guo et al 2018][research_guo_chang_2018]
@@ -7433,47 +9244,69 @@ summary of what classification achieves and what it costs.
 - [Guo et al 2025][research_guo_wang_2025]
 - [Guo et al 2026][research_guo_li_2026]
 - [Guo et al 2026][research_guo_zhang_2026]
+- [Guoliang and Guiqing 2004][research_guoliang_guiqing_2004]
 - [Gupta 1993][research_gupta_1993]
 - [Gupta 2022][research_gupta_2022]
 - [Gupta and Hall 1979][research_gupta_hall_1979]
 - [Gupta and Ramkumar 2015][research_gupta_ramkumar_2015]
+- [Gupta et al 1992][research_gupta_lee_1992]
 - [Gupta et al 2019][research_gupta_pali_2019]
 - [Gurfil 2003][research_gurfil_2003]
 - [Gurtu 1981][research_gurtu_1981]
 - [Guruswamy 2016][research_guruswamy_2016]
 - [Gustafson and Kriegsman 1973][research_gustafson_kriegsman_1973]
+- [Guzewich et al 2015][research_guzewich_toigo_2015]
 - [Gómez and Walker 2017][research_gomez_walker_2017]
 - [Gülhan et al 2001][research_gulhan_esser_2001]
+- [Gülhan et al 2019][research_gulhan_thiele_2019]
+- [Gülhan et al 2021][research_gulhan_willems_2021]
 - [Gülhan et al 2026][research_gulhan_klingenberg_2026]
 - [H L Justh et al][research_hljusth_amdwyercianciolo]
 - [H L Justh et al][research_hljusth_amdwyercianciolo_b]
 - [H L Justh et al][research_hljusth_amdwyercianciolo_c]
 - [Ha Jo et al 2026][research_hajo_lee_2026]
+- [Haas and Schmitt 1994][research_haas_schmitt_1994]
 - [Haas, D. W. 1972][research_haasdw_1972]
+- [Hackett, Charles M. 1993][research_hackettcharlesm_1993]
 - [Hafen, D. 1982][research_hafend_1982]
 - [Hagan 1960][research_hagan_1960]
+- [Haig and Perlmutter 1965][research_haig_perlmutter_1965]
 - [Haith and Bowman 2014][research_haith_bowman_2014]
 - [Hajiyev and Ata 2011][research_hajiyev_ata_2011]
 - [Hajkowicz 1977][research_hajkowicz_1977]
 - [Hale, Joseph P. 1997][research_halejosephp_1997]
+- [Haley and Zhong 2023][research_haley_zhong_2023]
+- [Hall 1972][research_hall_1972]
 - [Hall 2003][research_hall_2003]
+- [Hall 2005][research_hall_2005]
 - [Hall 2006][research_hall_2006]
 - [Hall and Jefferies 2022][research_hall_jefferies_2022]
 - [Hall and Shtessel 2006][research_hall_shtessel_2006]
+- [Hall et al 2005][research_hall_lindgren_2005]
 - [Hall, Charles E. et al 1998][research_hallcharlese_gallahermichaelw_1998]
+- [Hallion 1998][research_hallion_1998]
+- [Hallstein 1975][research_hallstein_1975]
+- [Halperin 1984][research_halperin_1984]
 - [Halyo, Nesim and Taylor, Deborah B. 1989][research_halyonesim_taylordeborahb_1989]
 - [Ham and Lin 2016][research_ham_lin_2016]
+- [Hamilton 1993][research_hamilton_1993]
 - [Hamilton et al 1991][research_hamilton_gupta_1991]
 - [Hamlyn, K. M. et al 1981][research_hamlynkm_dergancerh_1981]
+- [Hammel, R. L. and Smith, A. G. 1974][research_hammelrl_smithag_1974]
 - [Hammitt 1965][research_hammitt_1965]
 - [Han 2004][research_han_2004]
 - [Han and Geng 2023][research_han_geng_2023]
+- [Han and Han 2024][research_han_han_2024]
 - [Han and Qiao 2017][research_han_qiao_2017]
 - [Han et al 2020][research_han_sun_2020]
 - [Han et al 2021][research_han_guo_2021]
+- [Han et al 2022][research_han_he_2022]
 - [Han et al 2026][research_han_chen_2026]
+- [Hand 2016][research_hand_2016]
 - [Hand 2018][research_hand_2018]
 - [Handmer and Freeland 2022][research_handmer_freeland_2022]
+- [Hankey and Hooks 1963][research_hankey_hooks_1963]
+- [Hanna and Toison 2002][research_hanna_toison_2002]
 - [Hanna et al 2025][research_hanna_somers_2025]
 - [Hanna, Jill L. et al 2002][research_hannajilll_tolsonrobert_2002]
 - [Hannah and Muessig 1970][research_hannah_muessig_1970]
@@ -7482,28 +9315,39 @@ summary of what classification achieves and what it costs.
 - [Hanson, John M. and Jones, Robert E. 2004][research_hansonjohnm_jonesroberte_2004]
 - [Hao et al 2019][research_hao_zhu_2019]
 - [Hao et al 2022][research_hao_zhang_2022]
-- [Hardin 1986][research_hardin_1986]
 - [Hargrave et al 1985][research_hargrave_fairweather_1985]
 - [Haridim et al 2026][research_haridim_shaked_2026]
 - [Harini. M. et al 2024][research_harinim_kumar_2024]
 - [Harloff 1988][research_harloff_1988]
+- [Harney 1963][research_harney_1963]
 - [Harper, Susana A. et al 2018][research_harpersusanaa_juarezalfredo_2018]
 - [Harpold and Gavert 1983][research_harpold_gavert_1983]
 - [Harra et al 2005][research_harra_kankelborg_2005]
 - [Harris et al 1959][research_harris_jastrow_1959]
+- [Harris et al 2007][research_harris_mueller_2007]
 - [Harrison and Gibson 1981][research_harrison_gibson_1981]
+- [Harrison et al 1983][research_harrison_minnis_1983]
+- [Harrison et al 2015][research_harrison_osinski_2015]
 - [Harthun, M. H. et al 1983][research_harthunmh_blumercb_1983]
 - [Harting 1981][research_harting_1981]
 - [Hartung et al 1992][research_hartung_mitcheltree_1992]
 - [Hartwig, Jason W. 2016][research_hartwigjasonw_2016]
+- [Harvey and Hill 2011][research_harvey_hill_2011]
+- [Harvey and Howard 1997][research_harvey_howard_1997]
+- [Harvey, Gale A. 2008][research_harveygalea_2008]
 - [Harwood 2016][research_harwood_2016]
+- [Hase 2011][research_hase_2011]
 - [Hasegawa and Kanda 2019][research_hasegawa_kanda_2019]
 - [Haselbach et al 1998][research_haselbach_pilloud_1998]
 - [Hashemi et al 2021][research_hashemi_mahajan_2021]
 - [Hashimoto and Makino 2003][research_hashimoto_makino_2003]
+- [Haslett, Robert and Mahefkey, E. Thomas 1986][research_haslettrobert_mahefkeyethomas_1986]
 - [Hasnain, Aqib 2016][research_hasnainaqib_2016]
+- [Hassan et al 1993][research_hassan_candler_1993]
 - [Hassan et al 2024][research_hassan_fahrenholtz_2024]
+- [Hassanien 1997][research_hassanien_1997]
 - [Hastings 1995][research_hastings_1995]
+- [Hastings 2006][research_hastings_2006]
 - [Hastings and Cho 1990][research_hastings_cho_1990]
 - [Hatten and Russell 2017][research_hatten_russell_2017]
 - [Hattis 1981][research_hattis_1981]
@@ -7516,21 +9360,31 @@ summary of what classification achieves and what it costs.
 - [Hawthorne, P. J. 1976][research_hawthornepj_1976]
 - [Hayashi et al 2013][research_hayashi_kondo_2013]
 - [Hayden 2004][research_hayden_2004]
+- [Hayes 1964][research_hayes_1964]
 - [Hayes and Rotman 1973][research_hayes_rotman_1973]
 - [Hayes et al 1960][research_hayes_probstein_1960]
+- [Hays and Liu 1965][research_hays_liu_1965]
 - [He and Chen 2026][research_he_chen_2026]
 - [He et al 2017][research_he_liu_2017]
 - [He et al 2020][research_he_zhou_2020]
+- [He et al 2022][research_he_arvidson_2022]
+- [He et al 2022][research_he_jiao_2022]
 - [He et al 2022][research_he_zhang_2022]
 - [He et al 2023][research_he_sun_2023]
 - [He et al 2024][research_he_cui_2024]
 - [He et al 2024][research_he_li_2024]
 - [He et al 2024][research_he_zeng_2024]
+- [He et al 2025][research_he_wu_2025]
 - [He et al 2026][research_he_xu_2026]
+- [He et al 2026][research_he_zhang_2026]
 - [He Miao-fu 1984][research_hemiaofu_1984]
+- [Head et al 1999][research_head_hiesinger_1999]
+- [Heagy and Sullivan 1996][research_heagy_sullivan_1996]
+- [Hearn 1979][research_hearn_1979]
 - [Hedin, A. E. 1983][research_hedinae_1983]
 - [Hedin, A. E. et al 1977][research_hedinae_mayrhg_1977]
 - [Hegab 2015][research_hegab_2015]
+- [Heiser 2010][research_heiser_2010]
 - [Hejduk, M. D. and Frigm, Ryan C. 2015][research_hejdukmd_frigmryanc_2015]
 - [Hejduk, M. D. et al 2012][research_hejdukmd_cowardinhm_2012]
 - [Helers and Kraemer 1977][research_helers_kraemer_1977]
@@ -7540,18 +9394,26 @@ summary of what classification achieves and what it costs.
 - [Hellman et al 2011][research_hellman_remillard_2011]
 - [Hellman et al 2011][research_hellman_wallace_2011]
 - [Hellmann et al 1970][research_hellmann_conover_1970]
+- [Helms 1973][research_helms_1973]
 - [Helms 1983][research_helms_1983]
+- [Heltzel et al 2009][research_heltzel_semprimoschnig_2009]
 - [Hemmerdinger 1964][research_hemmerdinger_1964]
 - [Hench 1995][research_hench_1995]
 - [Hendricks et al 2022][research_hendricks_sood_2022]
 - [Henley 1986][research_henley_1986]
+- [Henline 1992][research_henline_1992]
 - [Henning et al 2020][research_henning_sorge_2020]
 - [Henry 1989][research_henry_1989]
 - [Henry W Mulkey and Wilhelm Dingertz][research_henrywmulkey_wilhelmdingertz]
 - [Heppenheimer 1971][research_heppenheimer_1971]
+- [Herbert 1992][research_herbert_1992]
 - [Herbert-Fort et al 2008][research_herbertfort_zaritsky_2008]
 - [Herdiansyah et al 2016][research_herdiansyah_frimawaty_2016]
+- [Hering 1968][research_hering_1968]
+- [Herman 1977][research_herman_1977]
+- [Herman and Conway 1998][research_herman_conway_1998]
 - [Herman, G. C. 1986][research_hermangc_1986]
+- [Hermes Spaceplane in MBB 1988][research_hermes_spaceplane_1988]
 - [Hernquist and Weinberg 1989][research_hernquist_weinberg_1989]
 - [Herriott 1958][research_herriott_1958]
 - [Herron et al 1973][research_herron_bayless_1973]
@@ -7560,26 +9422,31 @@ summary of what classification achieves and what it costs.
 - [Hibbard et al 2012][research_hibbard_glaze_2012]
 - [Hibberd and Thomas 1959][research_hibberd_thomas_1959]
 - [Hickson 2018][research_hickson_2018]
+- [Hiesinger and Head 2000][research_hiesinger_head_2000]
 - [Higginbotham et al 2024][research_higginbotham_bettinger_2024]
+- [Higginbotham et al 2026][research_higginbotham_bettinger_2026]
 - [High cycle life, high 1980][research_high_cycle_1980]
 - [Hilado and Brauer 1978][research_hilado_brauer_1978]
 - [Hilado and Brauer 1978][research_hilado_brauer_1978_b]
 - [Hilado and Kosola 1978][research_hilado_kosola_1978]
 - [Hill 1984][research_hill_1984]
+- [Hill 2018][research_hill_2018]
 - [Hill and Born 2007][research_hill_born_2007]
 - [Hillard 1994][research_hillard_1994]
 - [Hillard 1994][research_hillard_1994_b]
 - [Hillard and Ferguson 1993][research_hillard_ferguson_1993]
+- [Hiller 1963][research_hiller_1963]
 - [Hilton et al 2019][research_hilton_cairola_2019]
 - [Himelblau 1972][research_himelblau_1972]
 - [Himelblau 1972][research_himelblau_1972_b]
 - [Hines and Ulrich 2026][research_hines_ulrich_2026]
 - [Hinostroza and Lekkas 2024][research_hinostroza_lekkas_2024]
+- [Hintz et al 1980][research_hintz_farless_1980]
 - [Hipparcos satellite survives the 1990][research_hipparcos_satellite_1990]
 - [Hirasawa et al 2014][research_hirasawa_sato_2014]
 - [Hiroyuki et al 1997][research_hiroyuki_keiichi_1997]
 - [Hirsch et al 1996][research_hirsch_formisano_1996]
-- [Hlal et al 2019][research_hlal_ramachandaramurthy_2019]
+- [Hitzl and Zele 1987][research_hitzl_zele_1987]
 - [Ho et al 2020][research_ho_wang_2020]
 - [Hoang, Bao et al 2010][research_hoangbao_wongfrankie_2010]
 - [Hodges et al 1992][research_hodges_bless_1992]
@@ -7587,21 +9454,34 @@ summary of what classification achieves and what it costs.
 - [Hodot et al 2014][research_hodot_sartre_2014]
 - [Hoerber 2018][research_hoerber_2018]
 - [Hoffman, David J. and Scheiman, David A. 1997][research_hoffmandavidj_scheimandavida_1997]
+- [Hoffmann 2000][research_hoffmann_2000]
 - [Hofmeister and Criss 2026][research_hofmeister_criss_2026]
+- [Hohenstein and Sherrill 2010][research_hohenstein_sherrill_2010]
+- [Hoke 1965][research_hoke_1965]
 - [Holdaway 1976][research_holdaway_1976]
+- [Holden, Michael S. and Rodriguez, Kathleen 1994][research_holdenmichaels_rodriguezkathleen_1994]
+- [Holden, Michael S. and Rodriguez, Kathleen 1994][research_holdenmichaels_rodriguezkathleen_1994_b]
+- [Holden, Michael S. et al 1990][research_holdenmichaels_rodriguezkathleenm_1990]
 - [Holladay, Jon et al 2014][research_holladayjon_hamptonbryan_2014]
 - [Hollandsworth, Roger P. et al 2002][research_hollandsworthrogerp_armantroutjond_2002]
+- [Holleman and Adkins 1964][research_holleman_adkins_1964]
+- [Hollis 2025][research_hollis_2025]
 - [Hollis and Perkins 1999][research_hollis_perkins_1999]
 - [Hollis, Brian R. 2010][research_hollisbrianr_2010]
+- [Hollis, Brian R. 2019][research_hollisbrianr_2019]
+- [Hollis, Brian R. and Hollingsworth, Kevin E. 2014][research_hollisbrianr_hollingsworthkevine_2014]
 - [Holloway, Paul F. and Throckmorton, David A. 1995][research_hollowaypaulf_throckmortondavida_1995]
 - [Holzinger 2014][research_holzinger_2014]
 - [Hong et al 2005][research_hong_lee_2005]
 - [Hong et al 2026][research_hong_li_2026]
 - [Hongpeng and Weiqiang 2016][research_hongpeng_weiqiang_2016]
 - [Hoover, S. A. et al 1997][research_hooversa_daughtridges_1997]
+- [Hope and Middour 1993][research_hope_middour_1993]
 - [Horie and Conway 1999][research_horie_conway_1999]
 - [Horing et al 2025][research_horing_maute_2025]
+- [Hornbuckle 2015][research_hornbuckle_2015]
 - [Horri et al 2024][research_horri_holderbaum_2024]
+- [Horstman 1963][research_horstman_1963]
 - [Horton and Babineaux 1967][research_horton_babineaux_1967]
 - [Horvath, Thomas J. et al 2002][research_horvaththomasj_oconnelltodf_2002]
 - [Horák 2026][research_horak_2026]
@@ -7614,14 +9494,20 @@ summary of what classification achieves and what it costs.
 - [Hou et al 2025][research_hou_wang_2025]
 - [Hough and Elrod 1969][research_hough_elrod_1969]
 - [House and Hill 1993][research_house_hill_1993]
+- [Houseman and Lee 1972][research_houseman_lee_1972]
 - [Houseman, John et al 1999][research_housemanjohn_patzoldjackd_1999]
 - [Houtian et al 2013][research_houtian_qi_2013]
 - [Houwink and Richards 1973][research_houwink_richards_1973]
 - [Hove and Shih 1977][research_hove_shih_1977]
 - [Hovell and Ulrich 2021][research_hovell_ulrich_2021]
 - [Hovey 1965][research_hovey_1965]
+- [Howard 2010][research_howard_2010]
 - [Howard and Hansen 2006][research_howard_hansen_2006]
+- [Howard, Ricky et al 2008][research_howardricky_heatonandy_2008]
+- [Howell, H. R. 1972][research_howellhr_1972]
 - [Hozhabr et al 2014][research_hozhabr_radi_2014]
+- [Hromas and Lees 1962][research_hromas_lees_1962]
+- [Hsieh 2014][research_hsieh_2014]
 - [Hsu et al 1990][research_hsu_kuo_1990]
 - [Hsu et al 1990][research_hsu_kuo_1990_b]
 - [Hsu et al 2016][research_hsu_thayer_2016]
@@ -7636,25 +9522,39 @@ summary of what classification achieves and what it costs.
 - [Hu et al 2024][research_hu_yang_2024]
 - [Hu et al 2025][research_hu_zhang_2025]
 - [Hua and Shao 2015][research_hua_shao_2015]
+- [Huang 2005][research_huang_2005]
 - [Huang 2013][research_huang_2013]
 - [Huang and Dai 2023][research_huang_dai_2023]
+- [Huang and He 1988][research_huang_he_1988]
 - [Huang and Yao 2020][research_huang_yao_2020]
 - [Huang et al 1990][research_huang_ries_1990]
+- [Huang et al 2002][research_huang_xia_2002]
+- [Huang et al 2003][research_huang_xia_2003]
 - [Huang et al 2005][research_huang_zhai_2005]
 - [Huang et al 2009][research_huang_liu_2009]
+- [Huang et al 2009][research_huang_zhu_2009]
 - [Huang et al 2012][research_huang_hu_2012]
 - [Huang et al 2016][research_huang_zhang_2016]
+- [Huang et al 2018][research_huang_song_2018]
+- [Huang et al 2022][research_huang_he_2022]
 - [Huang et al 2022][research_huang_lei_2022]
+- [Huang et al 2022][research_huang_li_2022]
+- [Huang et al 2022][research_huang_li_2022_b]
+- [Huang et al 2022][research_huang_li_2022_c]
 - [Huang et al 2023][research_huang_xu_2023]
 - [Huang et al 2023][research_huang_zhang_2023]
+- [Huang et al 2023][research_huang_zhang_2023_b]
 - [Huang et al 2024][research_huang_yu_2024]
 - [Huang et al 2025][research_huang_cao_2025]
 - [Huang et al 2025][research_huang_li_2025]
 - [Huang et al 2026][research_huang_lee_2026]
 - [Huang et al 2026][research_huang_wang_2026]
 - [Huber 1988][research_huber_1988]
+- [Hucek et al 1987][research_hucek_kyle_1987]
 - [Hudson and Kolosa 2020][research_hudson_kolosa_2020]
 - [Hudson et al 2017][research_hudson_gupta_2017]
+- [Huebner et al 2009][research_huebner_smith_2009]
+- [Hueter 1995][research_hueter_1995]
 - [Hull et al 1985][research_hull_giltner_1985]
 - [Humble and Pierson 1995][research_humble_pierson_1995]
 - [Humes 1978][research_humes_1978]
@@ -7663,12 +9563,16 @@ summary of what classification achieves and what it costs.
 - [Hunt, L. R. 1976][research_huntlr_1976]
 - [Hunt, L. R. and Bohon, H. L. 1974][research_huntlr_bohonhl_1974]
 - [Hunt, L. R. et al 1976][research_huntlr_shidelerjl_1976]
+- [Hunter 2019][research_hunter_2019]
+- [Huo and Yang 2015][research_huo_yang_2015]
 - [Huo et al 2014][research_huo_liu_2014]
 - [Hurova 2024][research_hurova_2024]
 - [Husni 2016][research_husni_2016]
 - [Hussien et al 2020][research_hussien_ghamry_2020]
+- [Huynh and Kriz 2009][research_huynh_kriz_2009]
 - [Hwang 2011][research_hwang_2011]
 - [Hwang 2019][research_hwang_2019]
+- [Hwang and Hwang 2002][research_hwang_hwang_2002]
 - [Hwang et al 1987][research_hwang_stone_1987]
 - [Hwang et al 2008][research_hwang_lee_2008]
 - [Hwang et al 2016][research_hwang_kim_2016]
@@ -7680,13 +9584,16 @@ summary of what classification achieves and what it costs.
 - [Hypersonic Materials for Thermal 2023][research_hypersonic_materials_2023]
 - [Höschele et al 2021][research_hoschele_stark_2021]
 - [Iafolla et al 2007][research_iafolla_lucchesi_2007]
+- [Ialongo 1969][research_ialongo_1969]
 - [Ianni et al 2004][research_ianni_friskie_2004]
 - [Ibrahim 2020][research_ibrahim_2020]
 - [Ibrahim and Saleh 2021][research_ibrahim_saleh_2021]
 - [Ichimura and Ichikawa 2008][research_ichimura_ichikawa_2008]
+- [Igarashi and Spencer 2005][research_igarashi_spencer_2005]
 - [Ikawa 1977][research_ikawa_1977]
 - [Ikawa 1988][research_ikawa_1988]
 - [Ikawa 1992][research_ikawa_1992]
+- [Ikawa and Rudiger 1982][research_ikawa_rudiger_1982]
 - [Ikenson 2025][research_ikenson_2025]
 - [Il'ina et al 2021][research_ilina_orlov_2021]
 - [Ilovača 2025][research_ilovaca_2025]
@@ -7698,55 +9605,85 @@ summary of what classification achieves and what it costs.
 - [In-flight control and guidance 2006][research_in_flight_control_2006]
 - [In-step Two-phase Flow TPF 1992][research_in_step_two_phase_1992]
 - [India to launch prototype 2015][research_india_to_2015]
+- [India's Mars orbiter halfway 2014][research_india_s_mars_2014]
 - [Inger, George R. 1995][research_ingergeorger_1995]
 - [Ingling, W. G. and Koesters, R. L. 1967][research_inglingwg_koestersrl_1967]
+- [Inhester 1982][research_inhester_1982]
 - [Inzale et al 2021][research_inzale_jaafari_2021]
+- [Ion exchange processes in 1964][research_ion_exchange_1964]
+- [Ionization of argon in 1964][research_ionization_of_1964]
 - [Iorio 2012][research_iorio_2012]
+- [Irimpan and Menezes 2018][research_irimpan_menezes_2018]
 - [Isaacson and Spotnitz 2012][research_isaacson_spotnitz_2012]
+- [Ishikawa et al 2011][research_ishikawa_nomura_2011]
 - [Ishimoto 1992][research_ishimoto_1992]
+- [Ishimoto 2000][research_ishimoto_2000]
 - [Ishkov et al 2016][research_ishkov_filippov_2016]
 - [Ishkov et al 2016][research_ishkov_xiaoye_2016]
+- [Isopi 1979][research_isopi_1979]
 - [Israr 2014][research_israr_2014]
 - [ISRO Releases the Special 2018][research_isro_releases_the_2018]
 - [Ito and Nomoto 1990][research_ito_nomoto_1990]
 - [Ivanov 1967][research_ivanov_1967]
+- [Ivanov 2000][research_ivanov_2000]
+- [Ivanov 2001][research_ivanov_2001]
 - [Ivanov, N. M. et al 2007][research_ivanovnm_kolyukayuf_2007]
 - [Ivatury S Raju and Justin H Kerr][research_ivaturysraju_justinhkerr]
 - [Ivekovic et al 1996][research_ivekovic_skegro_1996]
+- [İpek 2025][research_ipek_2025]
 - [J Muylaert et al 1998][research_jmuylaert_lwalpot_1998]
 - [Jab, M. K. et al 2002][research_jabmk_highsmithde_2002]
 - [Jacchia 1960][research_jacchia_1960]
 - [Jacchia 1967][research_jacchia_1967]
+- [Jacchia 1992][research_jacchia_1992]
 - [Jacchia and Slowey 1964][research_jacchia_slowey_1964]
 - [Jacchia et al 1969][research_jacchia_slowey_1969]
+- [Jackiewicz 2012][research_jackiewicz_2012]
 - [Jacks, Thomas E. and Beisler, Michele 2003][research_jacksthomase_beislermichele_2003]
 - [Jacks, Thomas E. and Beisler, Michele 2003][research_jacksthomase_beislermichele_2003_b]
+- [Jackson 1961][research_jackson_1961]
 - [Jackson 2015][research_jackson_2015]
 - [Jackson et al 2021][research_jackson_holland_2021]
 - [Jacobs, Jeremy B. and Castner, Willard L. 2007][research_jacobsjeremyb_castnerwillardl_2007]
 - [Jacobson, David 2004][research_jacobsondavid_2004]
 - [Jacobson, David 2004][research_jacobsondavid_2004_b]
+- [Jaeger 1999][research_jaeger_1999]
 - [Jaensch and Well 1994][research_jaensch_well_1994]
+- [Jafar et al 2011][research_jafar_ishak_2011]
 - [Jafarmadar et al 2013][research_jafarmadar_tasoujiazar_2013]
 - [Jaffe 1988][research_jaffe_1988]
+- [Jah et al 2008][research_jah_lisano_2008]
 - [Jahandardoost et al 2023][research_jahandardoost_walkons_2023]
 - [Jahnke et al 2018][research_jahnke_maiwald_2018]
+- [Jain and Chauhan 2015][research_jain_chauhan_2015]
 - [Jain et al 2010][research_jain_paul_2010]
 - [Jain, Raj K. and Flood, Dennis J. 1992][research_jainrajk_flooddennisj_1992]
+- [James 2000][research_james_2000]
+- [James 2001][research_james_2001]
+- [James and Cantor 2002][research_james_cantor_2002]
 - [James and Thibault 1964][research_james_thibault_1964]
 - [Jameson 2001][research_jameson_2001]
+- [Jamison and Coverstone 2010][research_jamison_coverstone_2010]
 - [Jamoos 2023][research_jamoos_2023]
 - [Jan and Chiou 2002][research_jan_chiou_2002]
 - [Jang and Yang 2021][research_jang_yang_2021]
 - [Janin 1991][research_janin_1991]
 - [Japan's lunar orbiter ends 2009][research_japan_s_lunar_2009]
+- [Jarmołowski and Łukasiak 2015][research_jarmolowski_ukasiak_2015]
 - [Jategaonkar et al 2006][research_jategaonkar_behr_2006]
+- [Jaworske, Donald A. 1999][research_jaworskedonalda_1999]
 - [Jay D Feldman][research_jaydfeldman]
 - [Jay Lemery et al][research_jaylemery_benjamineaster]
+- [Jayaram and Gonzalez 2011][research_jayaram_gonzalez_2011]
 - [Jayaraman 1980][research_jayaraman_1980]
+- [Jayaraman 1989][research_jayaraman_1989]
+- [Jebrail and Andrews 1997][research_jebrail_andrews_1997]
 - [Jefferies 2006][research_jefferies_2006]
 - [Jeffrey Homan and Matthew Napoli][research_jeffreyhoman_matthewnapoli]
+- [Jeffrey T Richards et al][research_jeffreytrichards_toddemortenson]
 - [Jekeli 1999][research_jekeli_1999]
+- [Jelonek 1999][research_jelonek_1999]
+- [Jenkins and Roy 1968][research_jenkins_roy_1968]
 - [Jeong et al 2009][research_jeong_suzuki_2009]
 - [Jesch et al 2019][research_jesch_medvedev_2019]
 - [Jhoti et al 2021][research_jhoti_paige_2021]
@@ -7756,8 +9693,11 @@ summary of what classification achieves and what it costs.
 - [Ji et al 2026][research_ji_han_2026]
 - [Jia et al 2020][research_jia_fu_2020]
 - [Jia Yue et al 2019][research_jiayue_yongxiaojian_2019]
+- [Jiang 2002][research_jiang_2002]
+- [Jiang and Li 2019][research_jiang_li_2019]
 - [Jiang and Li 2025][research_jiang_li_2025]
 - [Jiang and Ordóñez 2009][research_jiang_ordonez_2009]
+- [Jiang and Yang 2014][research_jiang_yang_2014]
 - [Jiang and Zhang 2026][research_jiang_zhang_2026]
 - [Jiang et al 2019][research_jiang_qi_2019]
 - [Jiang et al 2020][research_jiang_wang_2020]
@@ -7772,10 +9712,16 @@ summary of what classification achieves and what it costs.
 - [Jin et al 2024][research_jin_zhao_2024]
 - [Jing et al 2026][research_jing_song_2026]
 - [Jinhai et al 2024][research_jinhai_yunxiu_2024]
+- [Jischke 1970][research_jischke_1970]
 - [Jits et al 2005][research_jits_wright_2005]
 - [John G McTigue 1970][research_johngmctigue_1970]
 - [Johnson 2021][research_johnson_2021]
+- [Johnson and Joseph A. 1977][research_johnson_josepha_1977]
+- [Johnson et al 1982][research_johnson_bursey_1982]
+- [Johnson et al 2001][research_johnson_spanjers_2001]
 - [Johnson et al 2003][research_johnson_longuski_2003]
+- [Johnson et al 2003][research_johnson_longuski_2003_b]
+- [Johnson et al 2004][research_johnson_longuski_2004]
 - [Johnson et al 2009][research_johnson_michalski_2009]
 - [Johnson, Breanna 2019][research_johnsonbreanna_2019]
 - [Johnson, Nicholas L. 2001][research_johnsonnicholasl_2001]
@@ -7786,51 +9732,72 @@ summary of what classification achieves and what it costs.
 - [Johnson, Sylvia M. 2000][research_johnsonsylviam_2000]
 - [Johnson, Theodore F. et al 2004][research_johnsontheodoref_waterswallen_2004]
 - [Johnson, Wesley L. et al 2014][research_johnsonwesleyl_valenzuelajuang_2014]
+- [Johnston and Smith 1964][research_johnston_smith_1964]
 - [Johnston, Martin D. et al 2007][research_johnstonmartind_grafjamese_2007]
+- [Joint Chiefs Of Staff Washington Dc 2002][research_jointchiefsofstaffwashingtondc_2002]
+- [Joint Chiefs Of Staff Washington Dc 2009][research_jointchiefsofstaffwashingtondc_2009]
 - [Joint Conference on Lifting 1960][research_joint_conference_1960]
 - [Jonathan A. Bentley et al][research_jonathanabentley_leonidgbolshinskiy]
+- [Jonathan Cheatwood et al][research_jonathancheatwood_christopherjohnston]
+- [Jonathan S Cheatwood et al][research_jonathanscheatwood_christopherojohnston]
 - [Jones 1973][research_jones_1973]
 - [Jones 1996][research_jones_1996]
 - [Jones 1999][research_jones_1999]
+- [Jones and Bishop 1993][research_jones_bishop_1993]
 - [Jones and Jones 1994][research_jones_jones_1994]
 - [Jones and Spence 2011][research_jones_spence_2011]
 - [Jones and Swinerd 1990][research_jones_swinerd_1990]
 - [Jones, P. Alan et al 1993][research_jonespalan_whitestephenf_1993]
 - [Jongh and Können 1976][research_jongh_konnen_1976]
+- [Jordan 1969][research_jordan_1969]
 - [Jorgensen and Sharf 2020][research_jorgensen_sharf_2020]
 - [Jorgenson 1967][research_jorgenson_1967]
 - [Jorkesh et al 2025][research_jorkesh_ahmed_2025]
 - [Joseph D Williams et al][research_josephdwilliams_jonathanmorgan]
+- [Joshi et al 2000][research_joshi_haberle_2000]
 - [Josselyn and Ross 2003][research_josselyn_ross_2003]
 - [Jouhara and Ezzuddin 2013][research_jouhara_ezzuddin_2013]
 - [Jouhaud et al 2007][research_jouhaud_ferreres_2007]
 - [Jules, Kenol 1993][research_juleskenol_1993]
 - [Julia M Briden et al][research_juliambriden_danielamatz]
+- [Julian Allen 1967][research_julianallen_1967]
 - [Jun et al 2020][research_jun_smith_2020]
 - [Junaid R and Beebi M 2015][research_junaidr_beebim_2015]
+- [Jung et al 2021][research_jung_kim_2021]
+- [Junkins 2015][research_junkins_2015]
+- [Junkins et al 1979][research_junkins_rajan_1979]
 - [Jurek Parodi et al][research_jurekparodi_michaelkewert]
 - [Jurovics 1961][research_jurovics_1961]
 - [Justh, Hilary L. et al 2006][research_justhhilaryl_justuscg_2006]
+- [Justice and Iii 2004][research_justice_iii_2004]
 - [Justo et al 2025][research_justo_langer_2025]
 - [Justus, C. G. et al 2003][research_justuscg_duvalaleta_2003]
 - [Justus, C. G. et al 2004][research_justuscg_duvallaletal_2004]
 - [Justus, C. G. et al 2005][research_justuscg_duvallaleta_2005]
 - [Justus, C. G. et al 2005][research_justuscg_duvallaleta_2005_b]
+- [Justus, C.G. et al 2001][research_justuscg_battsgw_2001]
 - [Jutty K et al 2000][research_juttyk_bhat_2000]
 - [Jwa and Lim 2018][research_jwa_lim_2018]
+- [Kabat 2010][research_kabat_2010]
+- [Kabe 2000][research_kabe_2000]
 - [Kachadourian 1970][research_kachadourian_1970]
 - [Kadam and Hablani 2014][research_kadam_hablani_2014]
 - [Kagitani et al 2010][research_kagitani_taguchi_2010]
 - [Kahl Kristensen 1995][research_kahlkristensen_1995]
 - [Kaiser 2015][research_kaiser_2015]
+- [Kaiser and Fluegge-Lotz 1968][research_kaiser_flueggelotz_1968]
 - [Kaiya and Ookawa 1995][research_kaiya_ookawa_1995]
+- [Kak 1970][research_kak_1970]
 - [Kakran and Sidhu 2023][research_kakran_sidhu_2023]
 - [Kalarus et al 2022][research_kalarus_parzybut_2022]
 - [Kalaycioglu 2025][research_kalaycioglu_2025]
+- [Kalil and Martikan 1963][research_kalil_martikan_1963]
 - [Kam and Gage 2004][research_kam_gage_2004]
 - [Kamenetzky, Rachel R. and Whitaker, Ann F. 1992][research_kamenetzkyrachelr_whitakerannf_1992]
 - [Kamm and Johnson 1973][research_kamm_johnson_1973]
 - [Kammuang-Lue et al 2014][research_kammuanglue_sakulchangsatjatai_2014]
+- [Kana 1987][research_kana_1987]
+- [Kana and Chu 1970][research_kana_chu_1970]
 - [Kanda et al 2006][research_kanda_ueda_2006]
 - [Kang 2022][research_kang_2022]
 - [Kang 2024][research_kang_2024]
@@ -7844,24 +9811,32 @@ summary of what classification achieves and what it costs.
 - [Karimi and Mortari 2010][research_karimi_mortari_2010]
 - [Karimov and Buyanov 2025][research_karimov_buyanov_2025]
 - [Karkadakattil 2026][research_karkadakattil_2026]
+- [Karl and Weiland 1993][research_karl_weiland_1993]
 - [Karl et al 2015][research_karl_potter_2015]
 - [Karlgaard 2025][research_karlgaard_2025]
 - [Karr, G. R. 1976][research_karrgr_1976]
+- [Karr, G. R. 1985][research_karrgr_1985]
 - [Karthikeyan et al 2014][research_karthikeyan_khandekar_2014]
 - [Karthikeyan et al 2014][research_karthikeyan_ramachandran_2014]
 - [Kartiria 2017][research_kartiria_2017]
+- [Karunathilake et al 2026][research_karunathilake_abeywardena_2026]
+- [Kary 1995][research_kary_1995]
 - [Kasen and Wadley 2019][research_kasen_wadley_2019]
 - [Kashyap and Mitra 2020][research_kashyap_mitra_2020]
 - [Kashyap and Mitra 2026][research_kashyap_mitra_2026]
 - [Kaslik and Balint 2007][research_kaslik_balint_2007]
+- [Kaspar 2000][research_kaspar_2000]
+- [Kasper 2001][research_kasper_2001]
 - [Kasprzak and Niemann 1992][research_kasprzak_niemann_1992]
 - [Kastner 1969][research_kastner_1969]
+- [Kasuda 2011][research_kasuda_2011]
 - [Katiyar and Balasubramanian 2014][research_katiyar_balasubramanian_2014]
 - [Kato 1991][research_kato_1991]
 - [Kato et al 1979][research_kato_hirao_1979]
 - [Katz and Parks 1983][research_katz_parks_1983]
 - [Katz et al 1981][research_katz_mandell_1981]
 - [Katz et al 1984][research_katz_cooke_1984]
+- [Kaufman 1972][research_kaufman_1972]
 - [Kaufman and Weaver 1963][research_kaufman_weaver_1963]
 - [Kaufmann, David N. 1993][research_kaufmanndavidn_1993]
 - [Kaufmann, David N. 1994][research_kaufmanndavidn_1994]
@@ -7875,38 +9850,53 @@ summary of what classification achieves and what it costs.
 - [Kawecki 1977][research_kawecki_1977]
 - [Kayama and Takenaka 1980][research_kayama_takenaka_1980]
 - [Kaynak 2010][research_kaynak_2010]
+- [Kayser 1988][research_kayser_1988]
 - [Kazemi et al 2024][research_kazemi_azad_2024]
 - [Ke et al 2025][research_ke_wang_2025]
 - [Ke et al 2026][research_ke_zhang_2026]
 - [Kearney and Griffin 2014][research_kearney_griffin_2014]
 - [Kechichian 1997][research_kechichian_1997]
 - [Kechichian 1998][research_kechichian_1998]
+- [Kechichian 2000][research_kechichian_2000]
 - [Keener, David N. et al 2004][research_keenerdavidn_marvindean_2004]
 - [Keesler, E. L. 1974][research_keeslerel_1974]
 - [Keith Soo Hoo et al 1972][research_keithsoohoo_light_1972]
 - [Kelecy and Jah 2010][research_kelecy_jah_2010]
 - [Kelley and Sullivan 1973][research_kelley_sullivan_1973]
+- [Kelley et al 1982][research_kelley_cliff_1982]
+- [Kelley et al 1985][research_kelley_cliff_1985]
 - [Kelley, R. L. and Jarkey, D. R. 2015][research_kelleyrl_jarkeydr_2015]
 - [Kelley, R. L. et al 2014][research_kelleyrl_jarkeydr_2014]
 - [Kelliher, W. C. and Young, P. R. 1972][research_kelliherwc_youngpr_1972]
 - [Kellogg, James W. 1993][research_kelloggjamesw_1993]
+- [Kelly 1973][research_kelly_1973]
+- [Kelly, James R. et al 1986][research_kellyjamesr_personleehjr_1986]
+- [Kelly, W. D. 1988][research_kellywd_1988]
+- [Kelso 1957][research_kelso_1957]
 - [Kemp 1960][research_kemp_1960]
 - [Kempel, Robert W. et al 1994][research_kempelrobertw_painterwenethd_1994]
+- [Kennedy and Fields 1962][research_kennedy_fields_1962]
 - [Kenneth H Wright, Jr. et al][research_kennethhwrightjr_baohoang]
+- [Kerrebrock 1986][research_kerrebrock_1986]
+- [Kerrigan et al 2011][research_kerrigan_jouhara_2011]
 - [Kerslake, Thomas W. and Gefert, Leon P. 2000][research_kerslakethomasw_gefertleonp_2000]
+- [Kerslake, Thomas W. and Scheiman, David A. 2005][research_kerslakethomasw_scheimandavida_2005]
 - [Kerslake, Thomas W. et al 1997][research_kerslakethomasw_masonlees_1997]
 - [Kerstein et al 2006][research_kerstein_bischof_2006]
 - [Kessler 1991][research_kessler_1991]
 - [Kessler and Cicci 1997][research_kessler_cicci_1997]
 - [Kettle 2004][research_kettle_2004]
+- [Kevern and Massie 1969][research_kevern_massie_1969]
 - [Kezirian 2021][research_kezirian_2021]
 - [Khabibullin 2017][research_khabibullin_2017]
 - [Khadka et al 2022][research_khadka_shirai_2022]
+- [Khaled et al 2014][research_khaled_ramadan_2014]
 - [Khaleghi Rahimian et al 2012][research_khaleghirahimian_rayman_2012]
 - [Khalil et al 2023][research_khalil_abdelgawad_2023]
 - [Khamlak 2026][research_khamlak_2026]
 - [Khan and Chakraborty 2023][research_khan_chakraborty_2023]
 - [Khan et al 1995][research_khan_ahmed_1995]
+- [Khan et al 2020][research_khan_elmoursi_2020]
 - [Kharchenko and Kryukov 2018][research_kharchenko_kryukov_2018]
 - [Khatniuk et al 2019][research_khatniuk_pobiianska_2019]
 - [Khorrami 2003][research_khorrami_2003]
@@ -7915,8 +9905,12 @@ summary of what classification achieves and what it costs.
 - [Khramov 2019][research_khramov_2019]
 - [Khrapko 2018][research_khrapko_2018]
 - [Kiani and Pourtakdoust 2015][research_kiani_pourtakdoust_2015]
+- [Kibbey, Timothy P. 2015][research_kibbeytimothyp_2015]
+- [Kieffer et al 1972][research_kieffer_neugebauer_1972]
 - [Kiehn 2020][research_kiehn_2020]
+- [Kihm 2013][research_kihm_2013]
 - [Kilgore, R. A. and Davenport, E. E. 1974][research_kilgorera_davenportee_1974]
+- [Killinger et al 2017][research_killinger_engerer_2017]
 - [Kim 2017][research_kim_2017]
 - [Kim 2020][research_kim_2020]
 - [Kim 2022][research_kim_2022]
@@ -7928,41 +9922,61 @@ summary of what classification achieves and what it costs.
 - [Kim and Shin 2023][research_kim_shin_2023]
 - [Kim et al 1984][research_kim_swaminathan_1984]
 - [Kim et al 1994][research_kim_bankoff_1994]
+- [Kim et al 1994][research_kim_nguyen_1994]
+- [Kim et al 1994][research_kim_nguyen_1994_b]
 - [Kim et al 2006][research_kim_moon_2006]
+- [Kim et al 2009][research_kim_bang_2009]
 - [Kim et al 2012][research_kim_castet_2012]
 - [Kim et al 2012][research_kim_kim_2012]
 - [Kim et al 2019][research_kim_cheung_2019]
 - [Kim et al 2020][research_kim_kim_2020]
 - [Kim et al 2021][research_kim_lee_2021]
 - [Kim et al 2024][research_kim_chinnaraj_2024]
+- [Kim et al 2024][research_kim_jung_2024]
 - [Kim et al 2025][research_kim_lee_2025]
 - [Kim et al 2026][research_kim_oh_2026]
 - [Kim et al 2026][research_kim_sung_2026]
+- [Kimmel and Poggie 1997][research_kimmel_poggie_1997]
+- [Kimmel et al 2011][research_kimmel_adamczak_2011]
 - [Kimoto et al 2021][research_kimoto_yukumatsu_2021]
 - [Kimura and Lin 1986][research_kimura_lin_1986]
+- [King 1961][research_king_1961]
+- [King 1962][research_king_1962]
+- [King 1975][research_king_1975]
+- [King and Curran 1980][research_king_curran_1980]
 - [King et al 2019][research_king_middendorf_2019]
+- [King-Hele 1958][research_kinghele_1958]
 - [King-Hele 1982][research_kinghele_1982]
 - [King-Hele 1989][research_kinghele_1989]
+- [King-Hele and Leslie 1958][research_kinghele_leslie_1958]
 - [King-Hele and Rees 1963][research_kinghele_rees_1963]
+- [King-Hele and Scott 1969][research_kinghele_scott_1969]
 - [King-Hele and Walker 1972][research_kinghele_walker_1972]
 - [King-Hele and Walker 1987][research_kinghele_walker_1987]
 - [Kinney and Tambe 1995][research_kinney_tambe_1995]
 - [Kirkpatrick 2006][research_kirkpatrick_2006]
 - [Kirsch 1973][research_kirsch_1973]
 - [Kitamura 1974][research_kitamura_1974]
+- [Kitamura 2016][research_kitamura_2016]
 - [Kittel 1987][research_kittel_1987]
 - [Kittel and DiPirro 1989][research_kittel_dipirro_1989]
 - [Kizito and Hossain 2015][research_kizito_hossain_2015]
 - [Kizito and Hossain 2017][research_kizito_hossain_2017]
 - [Klafin and Barnhart 1973][research_klafin_barnhart_1973]
 - [Kleb and Weilmuenster 1994][research_kleb_weilmuenster_1994]
+- [Klein 2004][research_klein_2004]
 - [Kleinau et al 1986][research_kleinau_riedel_1986]
 - [Klimburg-Witjes 2021][research_klimburgwitjes_2021]
 - [Klimburg-Witjes et al 2025][research_klimburgwitjes_strycker_2025]
 - [Klimenko et al 2021][research_klimenko_katkalov_2021]
+- [Klimin and Yaroshevski 1970][research_klimin_yaroshevski_1970]
 - [Klinkrad 2017][research_klinkrad_2017]
 - [Klomfass and Müller 1997][research_klomfass_muller_1997]
+- [Klothakis and Nikolos 2024][research_klothakis_nikolos_2024]
+- [Kluever 1995][research_kluever_1995]
+- [Kluever 1998][research_kluever_1998]
 - [Kluever 2000][research_kluever_2000]
+- [Kluever 2004][research_kluever_2004]
 - [Kluever 2007][research_kluever_2007]
 - [Kluever and Abu-Saymeh 1998][research_kluever_abusaymeh_1998]
 - [Kluever and Oleson 1998][research_kluever_oleson_1998]
@@ -7978,13 +9992,18 @@ summary of what classification achieves and what it costs.
 - [Kobayashi et al 2026][research_kobayashi_tanikawa_2026]
 - [Koch et al 2025][research_koch_wilken_2025]
 - [Koehler, C. W. et al 1984][research_koehlercw_vanommeringg_1984]
+- [Koelle 1981][research_koelle_1981]
+- [Koelle 1986][research_koelle_1986]
 - [Koelle 1989][research_koelle_1989]
 - [Koelle 1993][research_koelle_1993]
 - [Koelle 1997][research_koelle_1997]
+- [Koelle 1999][research_koelle_1999]
 - [Koelle and Obersteiner 1992][research_koelle_obersteiner_1992]
 - [Koester and Vaillancourt 1992][research_koester_vaillancourt_1992]
 - [Koga et al 2024][research_koga_shibui_2024]
 - [Koh 1962][research_koh_1962]
+- [Kolb 1962][research_kolb_1962]
+- [Kolb and Okubo 2009][research_kolb_okubo_2009]
 - [Kolga and Rundau 2024][research_kolga_rundau_2024]
 - [Kolomiyets 2015][research_kolomiyets_2015]
 - [Kolyuka et al 2012][research_kolyuka_ivanov_2012]
@@ -7996,18 +10015,23 @@ summary of what classification achieves and what it costs.
 - [Kong et al 2018][research_kong_gao_2018]
 - [Kong et al 2018][research_kong_guo_2018]
 - [Kong et al 2025][research_kong_liu_2025]
+- [Konopliv et al 2016][research_konopliv_park_2016]
 - [Konovalova et al 2013][research_konovalova_madiedo_2013]
 - [Konstantinidis and Förstner 2020][research_konstantinidis_forstner_2020]
+- [Koons et al 1994][research_koons_gorney_1994]
 - [Koontz et al 1994][research_koontz_king_1994]
 - [Koothan Venkateswaran et al 2025][research_koothanvenkateswaran_gamiz_2025]
 - [Kopp et al 2019][research_kopp_harris_2019]
 - [Korean satellite misses orbit 2009][research_korean_satellite_2009]
 - [Korlaelci et al 2026][research_korlaelci_sagir_2026]
 - [Korn et al 2009][research_korn_schmerwitz_2009]
+- [Kornreich 1963][research_kornreich_1963]
 - [Koroleva et al 2023][research_koroleva_hohlov_2023]
 - [Kosambe 2019][research_kosambe_2019]
 - [Kosary et al 2024][research_kosary_farzaneh_2024]
+- [Koshmarov and Gorskaya 1965][research_koshmarov_gorskaya_1965]
 - [Kostolansky 2002][research_kostolansky_2002]
+- [Kostyukov 1973][research_kostyukov_1973]
 - [Kotamraju et al 2019][research_kotamraju_sukeerthi_2019]
 - [Kotlyarov et al 2020][research_kotlyarov_tulin_2020]
 - [Kou et al 2011][research_kou_bai_2011]
@@ -8016,15 +10040,23 @@ summary of what classification achieves and what it costs.
 - [Kovtunenko et al 1986][research_kovtunenko_sagdeev_1986]
 - [Kowal, T. John 2010][research_kowaltjohn_2010]
 - [Kowal, T. John 2011][research_kowaltjohn_2011]
+- [Kowalski 1995][research_kowalski_1995]
 - [Kozai 1960][research_kozai_1960]
+- [Kozai 2004][research_kozai_2004]
 - [Kozak and Sharipov 2012][research_kozak_sharipov_2012]
 - [Kozynchenko 2013][research_kozynchenko_2013]
 - [Kraemer and Ehlers 1975][research_kraemer_ehlers_1975]
 - [Kraft et al 2006][research_kraft_collon_2006]
 - [Kramer and Goodman 2005][research_kramer_goodman_2005]
+- [Krassovsky 1959][research_krassovsky_1959]
+- [Krassovsky 1963][research_krassovsky_1963]
+- [Krause 1990][research_krause_1990]
+- [Kreisch et al 2017][research_kreisch_osullivan_2017]
 - [Kreith 1980][research_kreith_1980]
 - [Krek and Stalker 1992][research_krek_stalker_1992]
+- [Kreslavsky and Head 1999][research_kreslavsky_head_1999]
 - [Krischke et al 1995][research_krischke_lorenzini_1995]
+- [Krishen, Kumar 1993][research_krishenkumar_1993]
 - [Krivanek, Thomas M. et al 2002][research_krivanekthomasm_rochejosephm_2002]
 - [Krivanek, Thomas M. et al 2003][research_krivanekthomasm_rochejosephm_2003]
 - [Krizay 2000][research_krizay_2000]
@@ -8048,20 +10080,29 @@ summary of what classification achieves and what it costs.
 - [Kudriavtsev et al 2019][research_kudriavtsev_hernandez_2019]
 - [Kudryashova et al 2009][research_kudryashova_polyakov_2009]
 - [Kuethe et al 1959][research_kuethe_willmarth_1959]
+- [Kuhlman 1963][research_kuhlman_1963]
 - [Kuijper and Matatoros 2012][research_kuijper_matatoros_2012]
 - [Kuijper et al 1995][research_kuijper_ambrosius_1995]
 - [Kulin 1997][research_kulin_1997]
 - [Kulleseid and Haas 1963][research_kulleseid_haas_1963]
+- [Kulowski et al 2017][research_kulowski_wang_2017]
 - [Kulumani and Lee 2022][research_kulumani_lee_2022]
+- [Kulwicki and Peoples 1962][research_kulwicki_peoples_1962]
 - [Kumar 2001][research_kumar_2001]
 - [Kumar 2002][research_kumar_2002]
+- [Kumar and Bansal 2023][research_kumar_bansal_2023]
 - [Kumar and Hablani 2017][research_kumar_hablani_2017]
 - [Kumar and Jain 1974][research_kumar_jain_1974]
 - [Kumar and Mahulikar 2016][research_kumar_mahulikar_2016]
+- [Kumar and Mahulikar 2016][research_kumar_mahulikar_2016_b]
 - [Kumar and Mahulikar 2017][research_kumar_mahulikar_2017]
 - [Kumar and Pellegrino 1996][research_kumar_pellegrino_1996]
 - [Kumar and Quataert 1998][research_kumar_quataert_1998]
+- [Kumar and Reddy 2014][research_kumar_reddy_2014]
+- [Kumar and Tewari 2005][research_kumar_tewari_2005]
+- [Kumar and Tewari 2006][research_kumar_tewari_2006]
 - [Kumar et al 2004][research_kumar_yasaka_2004]
+- [Kumar et al 2010][research_kumar_kumar_2010]
 - [Kumar et al 2015][research_kumar_hablani_2015]
 - [Kumar et al 2019][research_kumar_khandekar_2019]
 - [Kumar et al 2022][research_kumar_gachake_2022]
@@ -8082,22 +10123,33 @@ summary of what classification achieves and what it costs.
 - [Kurland, Richard et al 2000][research_kurlandrichard_schurighans_2000]
 - [Kuroi and Nagano 2012][research_kuroi_nagano_2012]
 - [Kurtz and Speer 1960][research_kurtz_speer_1960]
+- [Kussoy et al 1970][research_kussoy_stewart_1970]
+- [Kusuda and Achenbach 1966][research_kusuda_achenbach_1966]
+- [Kutay et al 2001][research_kutay_tuluna_2001]
 - [Kuznetsov 2023][research_kuznetsov_2023]
 - [Kwast 1997][research_kwast_1997]
 - [Kwon et al 1993][research_kwon_loh_1993]
+- [Kärner and Avaste 1982][research_karner_avaste_1982]
 - [Kéchichian 2009][research_kechichian_2009]
 - [L'Afflitto and Sultan 2011][research_lafflitto_sultan_2011]
 - [La Marca et al 2024][research_lamarca_nocerino_2024]
+- [Labrèche and Mladenov 2023][research_labreche_mladenov_2023]
 - [Lackner and McCoy 1986][research_lackner_mccoy_1986]
 - [Ladson, C. L. 1970][research_ladsoncl_1970]
+- [Ladyzhenskij 1963][research_ladyzhenskij_1963]
 - [Lai and Leu 2023][research_lai_leu_2023]
 - [Lai et al 2013][research_lai_russell_2013]
 - [Lai et al 2020][research_lai_pieprzyk_2020]
+- [Lal and Raghunandan 2005][research_lal_raghunandan_2005]
+- [Lal and Raghunandan 2007][research_lal_raghunandan_2007]
 - [Lalithambika and Dasgupta 2007][research_lalithambika_dasgupta_2007]
+- [Lambregts, Antonius A. 1985][research_lambregtsantoniusa_1985]
 - [Lambright 2026][research_lambright_2026]
 - [Lami et al 2019][research_lami_shamayleh_2019]
+- [Lampland and Giclas 1954][research_lampland_giclas_1954]
 - [Lan et al 2026][research_lan_huiping_2026]
 - [Landau, Damon 2013][research_landaudamon_2013]
+- [Landers and orbiter make 2011][research_landers_and_2011]
 - [Landgraf et al 2013][research_landgraf_renk_2013]
 - [Landis 1991][research_landis_1991]
 - [Landry et al 1990][research_landry_rupert_1990]
@@ -8106,21 +10158,32 @@ summary of what classification achieves and what it costs.
 - [Langevin 1997][research_langevin_1997]
 - [Langlade 2018][research_langlade_2018]
 - [Langlois et al 2023][research_langlois_benmahmoudjouini_2023]
+- [Lanzerotti 1969][research_lanzerotti_1969]
+- [Lanzerotti et al 1991][research_lanzerotti_maurer_1991]
 - [Larbi and Bergner 2012][research_larbi_bergner_2012]
 - [Lari and Milani 2019][research_lari_milani_2019]
+- [Larina 1985][research_larina_1985]
 - [Larouche 2013][research_larouche_2013]
+- [Larson et al 1991][research_larson_pogorele_1991]
 - [Larsson 1981][research_larsson_1981]
+- [Lass and Lorell 1961][research_lass_lorell_1961]
 - [Lassudrie-Duchesne et al 1986][research_lassudrieduchesne_fleury_1986]
 - [Lasudry and Heimann 2000][research_lasudry_heimann_2000]
-- [Lau et al 2019][research_lau_lim_2019]
 - [Lauchle 1992][research_lauchle_1992]
+- [LAUNCH VEHICLE AND MISSILE 1973][research_launch_vehicle_1973]
+- [Launch vehicle booster avionics 2000][research_launch_vehicle_2000]
 - [Launius 2013][research_launius_2013]
+- [Lawing, P. L. and Nystrom, D. M. 1980][research_lawingpl_nystromdm_1980]
 - [Lawler et al 2024][research_lawler_rein_2024]
+- [Lawyer 1972][research_lawyer_1972]
+- [Laštovička 1975][research_lastovicka_1975]
 - [Le and Goo 2021][research_le_goo_2021]
 - [Le et al 2021][research_le_ha_2021]
 - [Le Goff and Moreau 2013][research_legoff_moreau_2013]
 - [Le Varlet et al 2020][research_levarlet_schmidt_2020]
 - [Leach and Szpakowski 1983][research_leach_szpakowski_1983]
+- [Leavitt and Mease 2007][research_leavitt_mease_2007]
+- [LeBlanc 1981][research_leblanc_1981]
 - [Lechtenberg et al 2013][research_lechtenberg_mclaughlin_2013]
 - [Lederer, S. M. et al 2018][research_lederersm_matneym_2018]
 - [Ledkov and Aslanov 2025][research_ledkov_aslanov_2025]
@@ -8130,53 +10193,69 @@ summary of what classification achieves and what it costs.
 - [Lee 2005][research_lee_2005]
 - [Lee 2006][research_lee_2006]
 - [Lee 2018][research_lee_2018]
+- [Lee and Bang 2009][research_lee_bang_2009]
 - [Lee and Brooks 1986][research_lee_brooks_1986]
 - [Lee and Chen 2000][research_lee_chen_2000]
 - [Lee and Cho 2002][research_lee_cho_2002]
 - [Lee and Cho 2006][research_lee_cho_2006]
 - [Lee and Gallucci 2023][research_lee_gallucci_2023]
 - [Lee and Grantham 1989][research_lee_grantham_1989]
+- [Lee and Hull 1990][research_lee_hull_1990]
+- [Lee and James T. 1963][research_lee_jamest_1963]
 - [Lee and Kang 2023][research_lee_kang_2023]
 - [Lee and Lee 2023][research_lee_lee_2023]
 - [Lee and Liu 1999][research_lee_liu_1999]
+- [Lee and Park 2024][research_lee_park_2024]
 - [Lee and Park 2025][research_lee_park_2025]
+- [Lee and Rasmussen 1978][research_lee_rasmussen_1978]
+- [Lee et al 2004][research_lee_cho_2004]
 - [Lee et al 2004][research_lee_lim_2004]
 - [Lee et al 2006][research_lee_pullen_2006]
 - [Lee et al 2007][research_lee_pullen_2007]
-- [Lee et al 2013][research_lee_yoon_2013]
 - [Lee et al 2015][research_lee_li_2015]
 - [Lee et al 2020][research_lee_kim_2020]
 - [Lee et al 2020][research_lee_lee_2020]
+- [Lee et al 2020][research_lee_sohn_2020]
 - [Lee et al 2024][research_lee_cho_2024]
 - [Lee et al 2025][research_lee_jung_2025]
 - [Lee, D. B. and Harthun, M. H. 1982][research_leedb_harthunmh_1982]
 - [Leeper et al 2024][research_leeper_jones_2024]
+- [Lees and Kubota 1972][research_lees_kubota_1972]
 - [Lei 2014][research_lei_2014]
 - [Lei and Xiong 2017][research_lei_xiong_2017]
 - [Lei and Yu 2026][research_lei_yu_2026]
+- [Lei et al 2013][research_lei_zhang_2013]
 - [Leiser, Daniel B. et al 2002][research_leiserdanielb_stewartdavida_2002]
 - [Lemelin et al 2022][research_lemelin_lucey_2022]
 - [Lemmens and Krag 2014][research_lemmens_krag_2014]
 - [Leng et al 2014][research_leng_xiang_2014]
+- [Lennon and Poirter 1974][research_lennon_poirter_1974]
 - [Leomanni et al 2017][research_leomanni_garulli_2017]
 - [Leonardi et al 2026][research_leonardi_curti_2026]
 - [Lerner 2026][research_lerner_2026]
+- [Lesin 1976][research_lesin_1976]
 - [Leslie, Fred W. and Justus, C. G. 2008][research_lesliefredw_justuscg_2008]
 - [Lessing et al 1964][research_lessing_tunnell_1964]
 - [Leung and Calise 1994][research_leung_calise_1994]
 - [Levandovich et al 2021][research_levandovich_mosin_2021]
+- [Levermore and Brio 1994][research_levermore_brio_1994]
 - [Levin and Markov 1987][research_levin_markov_1987]
 - [Levin and Smith 1969][research_levin_smith_1969]
 - [Levin et al 1967][research_levin_berggren_1967]
+- [Levin, George M. et al 1990][research_levingeorgem_marzwellneville_1990]
 - [Levine et al 2000][research_levine_rappaport_2000]
 - [Levine, Stanley R. et al 2003][research_levinestanleyr_opilaelizabethj_2003]
 - [Levine, Stanley R. et al 2004][research_levinestanleyr_opilaelizabethj_2004]
+- [Levinsky 1962][research_levinsky_1962]
+- [Levy 1969][research_levy_1969]
+- [Levy 1997][research_levy_1997]
 - [Lewellen and Mirels 1966][research_lewellen_mirels_1966]
 - [Lewis 2021][research_lewis_2021]
 - [Lewis and Kenkare 1974][research_lewis_kenkare_1974]
 - [Lewis and McRonald 1992][research_lewis_mcronald_1992]
 - [Lewis and Yazadzhiyan 2024][research_lewis_yazadzhiyan_2024]
 - [Lewis et al 1996][research_lewis_read_1996]
+- [Lewis et al 2007][research_lewis_read_2007]
 - [Li 2011][research_li_2011]
 - [Li 2011][research_li_2011_b]
 - [Li 2015][research_li_2015]
@@ -8186,19 +10265,25 @@ summary of what classification achieves and what it costs.
 - [Li 2025][research_li_2025]
 - [Li and Chen 2019][research_li_chen_2019]
 - [Li and Close 2015][research_li_close_2015]
+- [Li and Geiger 1957][research_li_geiger_1957]
 - [Li and He 2025][research_li_he_2025_c]
 - [Li and Ju 2017][research_li_ju_2017]
 - [Li and Lv 2015][research_li_lv_2015]
+- [Li and Nagamatsu 1953][research_li_nagamatsu_1953]
+- [Li and Peng 2011][research_li_peng_2011]
 - [Li and Yan 2014][research_li_yan_2014]
 - [Li and Zhang 2024][research_li_zhang_2024_d]
+- [Li and Zhou 2018][research_li_zhou_2018]
 - [Li et al 2009][research_li_cui_2009]
 - [Li et al 2012][research_li_li_2012]
 - [Li et al 2012][research_li_liu_2012]
+- [Li et al 2013][research_li_wang_2013]
 - [Li et al 2014][research_li_zhang_2014]
 - [Li et al 2015][research_li_liu_2015]
 - [Li et al 2015][research_li_liu_2015_b]
 - [Li et al 2015][research_li_sun_2015]
 - [Li et al 2015][research_li_zhou_2015]
+- [Li et al 2016][research_li_kao_2016]
 - [Li et al 2017][research_li_lei_2017]
 - [Li et al 2018][research_li_li_2018]
 - [Li et al 2018][research_li_sang_2018]
@@ -8216,6 +10301,7 @@ summary of what classification achieves and what it costs.
 - [Li et al 2022][research_li_zhang_2022_b]
 - [Li et al 2023][research_li_chen_2023]
 - [Li et al 2023][research_li_cui_2023]
+- [Li et al 2023][research_li_jiang_2023]
 - [Li et al 2023][research_li_ju_2023]
 - [Li et al 2023][research_li_zhang_2023]
 - [Li et al 2024][research_li_li_2024]
@@ -8231,8 +10317,11 @@ summary of what classification achieves and what it costs.
 - [Li et al 2025][research_li_he_2025]
 - [Li et al 2025][research_li_he_2025_b]
 - [Li et al 2025][research_li_he_2025_d]
+- [Li et al 2025][research_li_li_2025]
 - [Li et al 2025][research_li_ning_2025]
 - [Li et al 2025][research_li_wang_2025]
+- [Li et al 2025][research_li_wang_2025_b]
+- [Li et al 2025][research_li_yu_2025]
 - [Li et al 2026][research_li_bao_2026]
 - [Li et al 2026][research_li_du_2026]
 - [Li et al 2026][research_li_ji_2026]
@@ -8248,15 +10337,21 @@ summary of what classification achieves and what it costs.
 - [Liang et al 2012][research_liang_du_2012]
 - [Liang et al 2020][research_liang_long_2020]
 - [Liang et al 2024][research_liang_zhi_2024]
+- [Liao 2005][research_liao_2005]
 - [Liao et al 2000][research_liao_zhao_2000]
 - [Liao et al 2023][research_liao_chu_2023]
+- [Libby 1970][research_libby_1970]
+- [Libby and Sepri 1968][research_libby_sepri_1968]
+- [Liburdy 1985][research_liburdy_1985]
 - [Licata and Mehta 2022][research_licata_mehta_2022_b]
 - [Licata et al 2022][research_licata_mehta_2022]
 - [Liebermann and Armstrong 1968][research_liebermann_armstrong_1968]
 - [Liemohn 1976][research_liemohn_1976]
 - [Life Cycle Identification of 2022][research_life_cycle_2022]
+- [Life on Mars? NASA 2006][research_life_on_2006]
 - [Lifson et al 2025][research_lifson_arnas_2025]
 - [Likar and Bogorad 2008][research_likar_bogorad_2008]
+- [Likely Schiaparelli crash site 2016][research_likely_schiaparelli_2016]
 - [Lillie et al 2010][research_lillie_dailey_2010]
 - [Lim and Chakrabarti 1967][research_lim_chakrabarti_1967]
 - [Lim and Verzwyvelt 1988][research_lim_verzwyvelt_1988]
@@ -8268,6 +10363,8 @@ summary of what classification achieves and what it costs.
 - [Lin 1981][research_lin_1981]
 - [Lin 1994][research_lin_1994]
 - [Lin and Hwang 2018][research_lin_hwang_2018]
+- [Lin and Xin 2003][research_lin_xin_2003]
+- [Lin and Yan-rong 2006][research_lin_yanrong_2006]
 - [Lin and Yingchun 2002][research_lin_yingchun_2002]
 - [Lin et al 2013][research_lin_luo_2013]
 - [Lin et al 2015][research_lin_huang_2015]
@@ -8278,6 +10375,7 @@ summary of what classification achieves and what it costs.
 - [Lin et al 2025][research_lin_seager_2025]
 - [Lin et al 2026][research_lin_li_2026]
 - [Lind 2020][research_lind_2020]
+- [Linders et al 1984][research_linders_vandevorstenbosch_1984]
 - [Lindroos and Savin 2016][research_lindroos_savin_2016]
 - [Ling et al 2016][research_ling_zhou_2016]
 - [Ling et al 2024][research_ling_xia_2024]
@@ -8293,6 +10391,7 @@ summary of what classification achieves and what it costs.
 - [Liu and Jiang 2013][research_liu_jiang_2013]
 - [Liu and Liu 2001][research_liu_liu_2001]
 - [Liu and Liu 2011][research_liu_liu_2011]
+- [Liu and Qiang 2012][research_liu_qiang_2012]
 - [Liu and Zhang 2007][research_liu_zhang_2007]
 - [Liu et al 2002][research_liu_chen_2002]
 - [Liu et al 2005][research_liu_wang_2005]
@@ -8301,9 +10400,9 @@ summary of what classification achieves and what it costs.
 - [Liu et al 2013][research_liu_hirano_2013]
 - [Liu et al 2013][research_liu_wang_2013]
 - [Liu et al 2014][research_liu_wang_2014]
-- [Liu et al 2014][research_liu_xiong_2014]
 - [Liu et al 2016][research_liu_sun_2016]
 - [Liu et al 2016][research_liu_xu_2016]
+- [Liu et al 2017][research_liu_wei_2017]
 - [Liu et al 2018][research_liu_liu_2018]
 - [Liu et al 2018][research_liu_song_2018]
 - [Liu et al 2019][research_liu_gong_2019]
@@ -8336,13 +10435,23 @@ summary of what classification achieves and what it costs.
 - [Liu et al 2026][research_liu_yuan_2026]
 - [LIU Haiying and WANG Huinan 2005][research_liuhaiying_wanghuinan_2005]
 - [LIU Yingchun and LIU Lin 2002][research_liuyingchun_liulin_2002]
+- [Liying Qian et al 2022][research_liyingqian_quangan_2022]
+- [Llewellyn, Charles P. and Brender, Karen D. 1990][research_llewellyncharlesp_brenderkarend_1990]
 - [Llewellyn, Charles P. and Weidman, Deene J. 1992][research_llewellyncharlesp_weidmandeenej_1992]
+- [Lloyd 1999][research_lloyd_1999]
+- [Lo 1979][research_lo_1979]
+- [Lobb et al 1955][research_lobb_winkler_1955]
 - [Lockheed Martin Skunk Works 1999][research_lockheed_martin_1999]
 - [Loehberg et al 2017][research_loehberg_gruenwald_2017]
 - [Loftus and Brasher 1986][research_loftus_brasher_1986]
+- [Logan and Stalker 1977][research_logan_stalker_1977]
 - [Logsdon and Williamson 1997][research_logsdon_williamson_1997]
+- [Loh 1962][research_loh_1962]
+- [Loh 1963][research_loh_1963]
+- [Lohar et al 1998][research_lohar_sherwani_1998]
 - [Lohmeyer et al 2018][research_lohmeyer_aniceto_2018]
 - [Lomas, James J. et al 2001][research_lomasjamesj_mitchelldanielw_2001]
+- [Long et al 2024][research_long_deng_2024]
 - [Long et al 2026][research_long_li_2026]
 - [Long et al 2026][research_long_niu_2026]
 - [Long, Stacia M. et al 2007][research_longstaciam_youtunghan_2007]
@@ -8350,30 +10459,41 @@ summary of what classification achieves and what it costs.
 - [Longuski et al 1995][research_longuski_puigsuari_1995]
 - [Longuski et al 1995][research_longuski_puigsuari_1995_b]
 - [Longuski et al 1999][research_longuski_tragesser_1999]
+- [Loomis, Mark P. et al 2004][research_loomismarkp_venkatapathyethiraj_2004]
 - [Lopez and Chapman 1967][research_lopez_chapman_1967]
 - [Lorenz 1998][research_lorenz_1998]
+- [Lortz 1969][research_lortz_1969]
 - [Lou Yun 2024][research_louyun_2024]
+- [Lourme 1987][research_lourme_1987]
 - [Lovell 2025][research_lovell_2025]
 - [Lowe and D'Amico 2026][research_lowe_damico_2026]
 - [Lowes 1970][research_lowes_1970]
+- [Lowrance and Smith 1996][research_lowrance_smith_1996]
 - [Lozano and Chen 2015][research_lozano_chen_2015]
 - [Lozinski et al 2019][research_lozinski_horne_2019]
 - [Lu 1996][research_lu_1996]
 - [Lu 1997][research_lu_1997]
 - [Lu 2006][research_lu_2006]
+- [Lu 2008][research_lu_2008]
 - [Lu 2014][research_lu_2014]
 - [Lu and Hanson 1998][research_lu_hanson_1998]
+- [Lu and Liu 2012][research_lu_liu_2012]
 - [Lu and Liu 2013][research_lu_liu_2013]
+- [Lu and Qian 2024][research_lu_qian_2024]
 - [Lu et al 2017][research_lu_brunner_2017]
 - [Lu et al 2020][research_lu_xu_2020]
 - [Lu et al 2022][research_lu_yan_2022]
 - [Lu et al 2024][research_lu_matnoor_2024]
 - [Lu et al 2024][research_lu_shi_2024]
+- [Lu et al 2025][research_lu_zhang_2025]
 - [Lu et al 2026][research_lu_yu_2026]
 - [Lu Hai-Bo and Liu Wei-Qiang 2012][research_luhaibo_liuweiqiang_2012]
 - [Lu, Ping 1999][research_luping_1999]
 - [Lu, Ping and Shen, Zuojun 2003][research_luping_shenzuojun_2003]
+- [Lubowe 1966][research_lubowe_1966]
 - [Lubowe 1969][research_lubowe_1969]
+- [Luhmann 1991][research_luhmann_1991]
+- [Lukasiewicz 1961][research_lukasiewicz_1961]
 - [Luke 1993][research_luke_1993]
 - [Luke, I. F. and Roeger, E. A., Jr. 1965][research_lukeif_roegereajr_1965]
 - [Luke, I. F. and Roeger, E. A., Jr. 1965][research_lukeif_roegereajr_1965_b]
@@ -8394,6 +10514,9 @@ summary of what classification achieves and what it costs.
 - [Lutzner et al 2022][research_lutzner_jagdhuber_2022]
 - [Luu and Hastings 2022][research_luu_hastings_2022]
 - [Lv et al 2023][research_lv_wang_2023]
+- [Ly, Uy-Loi and Voth, Christopher 1990][research_lyuyloi_vothchristopher_1990]
+- [Lyddane and Cohen 1962][research_lyddane_cohen_1962]
+- [Lyell and Cronin 1992][research_lyell_cronin_1992]
 - [Lykoudis 1964][research_lykoudis_1964]
 - [Lyles, Garry 1999][research_lylesgarry_1999]
 - [Lyne, James Evans 1992][research_lynejamesevans_1992]
@@ -8407,14 +10530,17 @@ summary of what classification achieves and what it costs.
 - [Lyu et al 2022][research_lyu_wang_2022]
 - [Lyu et al 2025][research_lyu_wei_2025]
 - [Lyu et al 2026][research_lyu_guan_2026]
+- [Lü et al 2013][research_lu_cheng_2013]
 - [M et al 2026][research_m_john_2026]
 - [Ma 1996][research_ma_1996]
 - [Ma 2005][research_ma_2005]
 - [Ma and Sun 2016][research_ma_sun_2016]
 - [Ma and Zhai 2004][research_ma_zhai_2004]
+- [Ma et al 2012][research_ma_ning_2012]
 - [Ma et al 2018][research_ma_chen_2018]
 - [Ma et al 2018][research_ma_meng_2018]
 - [Ma et al 2021][research_ma_xie_2021]
+- [Ma et al 2022][research_ma_yang_2022]
 - [Ma et al 2022][research_ma_yin_2022]
 - [Ma et al 2026][research_ma_wei_2026]
 - [Ma et al 2026][research_ma_yang_2026]
@@ -8422,12 +10548,19 @@ summary of what classification achieves and what it costs.
 - [Macauley 2015][research_macauley_2015]
 - [MacConochie et al 1980][research_macconochie_lemessurier_1980]
 - [MacConochie et al 1980][research_macconochie_rehder_1980]
+- [MacDonald 1969][research_macdonald_1969]
+- [Macdonald et al 2007][research_macdonald_mcinnes_2007]
 - [Macgregor and Thompson 1970][research_macgregor_thompson_1970]
+- [Machali 1995][research_machali_1995]
 - [Machuca and Sánchez 2021][research_machuca_sanchez_2021]
 - [MacLeod 2026][research_macleod_2026]
 - [MacLeod and Begent 2025][research_macleod_begent_2025]
 - [Maddock, Robert W. et al 2012][research_maddockrobertw_bowesangela_2012]
 - [Madeira and Rios-Neto 2000][research_madeira_riosneto_2000]
+- [Madura et al 1992][research_madura_boyd_1992]
+- [Magnetohydrodynamic stagnation point flow 2007][research_magnetohydrodynamic_stagnation_2007]
+- [Magnetohydrodynamics stagnation point flow 2006][research_magnetohydrodynamics_stagnation_2006]
+- [Mahanta 2006][research_mahanta_2006]
 - [Mahaseth et al 2022][research_mahaseth_bag_2022]
 - [Mahattanavuttakorn et al 2023][research_mahattanavuttakorn_tiputhai_2023]
 - [Mahiny et al 2023][research_mahiny_ahmadikandjani_2023]
@@ -8436,25 +10569,31 @@ summary of what classification achieves and what it costs.
 - [Mai et al 2026][research_mai_li_2026]
 - [Maier and Baur 2016][research_maier_baur_2016]
 - [Maikapar 1967][research_maikapar_1967]
+- [Maikapar 2000][research_maikapar_2000]
 - [Mailhe and Heister 2002][research_mailhe_heister_2002]
 - [Mains, D. E. 1966][research_mainsde_1966]
 - [Maiorova et al 2016][research_maiorova_prosuntsov_2016]
 - [Maita 1989][research_maita_1989]
+- [Maiuzzo 1970][research_maiuzzo_1970]
 - [Makki et al 2023][research_makki_ayoub_2023]
 - [Maldonado-Romo et al 2026][research_maldonadoromo_montesinos_2026]
+- [Malin 2010][research_malin_2010]
 - [Malin and Edgett 2001][research_malin_edgett_2001]
 - [Malinowska 2024][research_malinowska_2024]
 - [Malinowska 2025][research_malinowska_2025]
+- [Malone et al 1993][research_malone_crawford_1993]
 - [Maloney, T. J. 1981][research_maloneytj_1981]
 - [Malyshev et al 2013][research_malyshev_starkov_2013]
 - [Mameli et al 2014][research_mameli_manno_2014]
 - [Mammen et al 1990][research_mammen_nair_1990]
 - [Mandell 1962][research_mandell_1962]
+- [Mangold 2003][research_mangold_2003]
 - [Manish Mehta et al][research_manishmehta_andrewcolbert]
 - [Manish Mehta et al][research_manishmehta_markahooton]
 - [Mankins 2002][research_mankins_2002]
 - [Manley, David J. et al 2000][research_manleydavidj_cervisirichardt_2000]
 - [Manokaran et al 2009][research_manokaran_vidya_2009]
+- [Manski, Detlef and Martin, James A. 1988][research_manskidetlef_martinjamesa_1988]
 - [Manzo, Michelle A. 2000][research_manzomichellea_2000]
 - [Mao and Chen 2025][research_mao_chen_2025]
 - [Mao et al 2016][research_mao_zhang_2016]
@@ -8477,12 +10616,24 @@ summary of what classification achieves and what it costs.
 - [Markov et al 2014][research_markov_mikhailov_2014]
 - [Marks 2016][research_marks_2016]
 - [Marley and Driscoll 2022][research_marley_driscoll_2022]
+- [Marraffa and Smith 1998][research_marraffa_smith_1998]
+- [Mars Climate Orbiter lost 2016][research_mars_climate_2016]
+- [Mars Global Surveyor, launched 2001][research_mars_global_2001]
+- [Mars orbiter dip 2017][research_mars_orbiter_2017]
+- [Mars orbiter plans to 2009][research_mars_orbiter_2009_b]
+- [Mars Orbiter suffers glitch 2009][research_mars_orbiter_2009]
+- [Mars Reconnaissance Orbiter launched 2005][research_mars_reconnaissance_2005]
 - [Marsch et al 2005][research_marsch_marsden_2005]
 - [Marschall et al 1984][research_marschall_mahon_1984]
 - [Marsden and Fleck 2003][research_marsden_fleck_2003]
+- [Marshak et al 2000][research_marshak_adam_2000]
 - [Marshall 1986][research_marshall_1986]
 - [Marshall 1986][research_marshall_1986_b]
+- [Marshall 1986][research_marshall_1986_c]
+- [Marshall 1988][research_marshall_1988]
 - [Marshall and Breuch 1968][research_marshall_breuch_1968]
+- [Marshall and Luthcke 1994][research_marshall_luthcke_1994]
+- [Marshall and Luthcke 1994][research_marshall_luthcke_1994_b]
 - [Marshall et al 2021][research_marshall_sun_2021]
 - [Marshburn, J. P. and Mcintosh, R., Jr. 1978][research_marshburnjp_mcintoshrjr_1978]
 - [Martikan 1965][research_martikan_1965]
@@ -8501,11 +10652,13 @@ summary of what classification achieves and what it costs.
 - [Martindale 2006][research_martindale_2006]
 - [Martinez 2016][research_martinez_2016]
 - [Marty et al 2023][research_marty_bonnal_2023]
+- [Marvin, Joseph G. et al 2013][research_marvinjosephg_brownjamesl_2013]
 - [Marín-Coca et al 2023][research_marincoca_roibasmillan_2023]
 - [Masciarelli, James P. et al 2004][research_masciarellijamesp_westhellecarlosh_2004]
 - [Maskell and Metcalfe 1992][research_maskell_metcalfe_1992]
 - [Maslo 2016][research_maslo_2016]
 - [Mason 1988][research_mason_1988]
+- [Mason 2011][research_mason_2011]
 - [Masrur et al 2002][research_masrur_garg_2002]
 - [Masrur et al 2002][research_masrur_monroe_2002]
 - [Massimi et al 2022][research_massimi_ferrara_2022]
@@ -8520,32 +10673,50 @@ summary of what classification achieves and what it costs.
 - [Matogawa 1983][research_matogawa_1983]
 - [Matouš and Moravec 2026][research_matous_moravec_2026]
 - [Matricciani 1997][research_matricciani_1997]
+- [Matsuo and Kawaguchi 1995][research_matsuo_kawaguchi_1995]
 - [Matsuo et al 2012][research_matsuo_fedrizzi_2012]
 - [Matthew K Chamberlain et al 2020][research_matthewkchamberlain_stephenhkiefer_2020]
 - [Matthew Napoli et al][research_matthewnapoli_cherylekong]
+- [Mattick and Hertzberg 1981][research_mattick_hertzberg_1981]
 - [Mattick and Hertzberg 1982][research_mattick_hertzberg_1982]
 - [Matz, Daniel A. et al 2017][research_matzdaniela_luping_2017]
+- [Maurer and Hall 1988][research_maurer_hall_1988]
 - [Maury et al 2020][research_maury_moralesserrano_2020]
+- [Max-Moerbeck et al 2015][research_maxmoerbeck_brisken_2015]
+- [Mayer and Hollinger 1992][research_mayer_hollinger_1992]
+- [Mazarico et al 2007][research_mazarico_zuber_2007]
 - [Mazarico et al 2018][research_mazarico_neumann_2018]
 - [Mazzaracchio 2013][research_mazzaracchio_2013]
 - [Mazzaracchio 2013][research_mazzaracchio_2013_b]
+- [Mbewe et al 1985][research_mbewe_card_1985]
 - [McCallister et al 1999][research_mccallister_weeks_1999]
 - [McCamish et al 2009][research_mccamish_romano_2009]
 - [McCormick 2015][research_mccormick_2015]
+- [McCUE 1963][research_mccue_1963]
 - [McCurdy, David R. and Roche, Joseph M. 2004][research_mccurdydavidr_rochejosephm_2004]
+- [Mccurry 1996][research_mccurry_1996]
 - [McDermott 1986][research_mcdermott_1986]
+- [McDonald 1979][research_mcdonald_1979]
 - [McDonnell et al 1996][research_mcdonnell_ratcliff_1996]
+- [McEneaney 1991][research_mceneaney_1991]
 - [McFarland and Calise 1995][research_mcfarland_calise_1995]
+- [McGrory 2001][research_mcgrory_2001]
 - [Mcguire, Melissa L. et al 2014][research_mcguiremelissal_hackkurtj_2014]
+- [McInerny 1996][research_mcinerny_1996]
 - [McKee 1975][research_mckee_1975]
 - [McKenzie, Patrick M. 2003][research_mckenziepatrickm_2003]
 - [Mckim, Stephen A. 2016][research_mckimstephena_2016]
 - [McKinnon and Leith 1995][research_mckinnon_leith_1995]
 - [McKnight and Lorenzen 1989][research_mcknight_lorenzen_1989]
+- [McLaughlin et al 2013][research_mclaughlin_krishna_2013]
 - [McLean 2000][research_mclean_2000]
+- [McNamara 2013][research_mcnamara_2013]
 - [McNamara, Luke W. and Braun, Robert D. 2014][research_mcnamaralukew_braunrobertd_2014]
 - [Mcnelis, Nancy B. et al 1995][research_mcnelisnancyb_hardyterryl_1995]
+- [McRonald, Angus D. 1995][research_mcronaldangusd_1995]
+- [McRonald, Angus D. 2000][research_mcronaldangusd_2000]
 - [Mease and Vinh 1985][research_mease_vinh_1985]
+- [Mease et al 2002][research_mease_chen_2002]
 - [Mease, K. D. and Vinh, N. X. 1983][research_measekd_vinhnx_1983]
 - [Medina et al 2017][research_medina_tomassini_2017]
 - [Megahed and El-Dib 2007][research_megahed_eldib_2007]
@@ -8556,23 +10727,36 @@ summary of what classification achieves and what it costs.
 - [Mehta et al 2020][research_mehta_mehta_2020]
 - [Meisinger 2008][research_meisinger_2008]
 - [Melamed and Calise 1995][research_melamed_calise_1995]
+- [Melin et al 2005][research_melin_erwin_2005]
 - [Melnikov 2023][research_melnikov_2023]
 - [Menees, Gene P. 1985][research_meneesgenep_1985]
+- [Menees, Gene P. et al 1985][research_meneesgenep_daviescarolb_1985]
+- [Meng and Liang 2022][research_meng_liang_2022]
 - [Meng et al 2009][research_meng_wu_2009]
 - [Meng et al 2020][research_meng_wu_2020]
 - [Meng et al 2026][research_meng_gao_2026]
 - [Meng et al 2026][research_meng_wang_2026]
 - [Mengali and Quarta 2005][research_mengali_quarta_2005]
+- [Mengali and Quarta 2008][research_mengali_quarta_2008]
+- [Menhour et al 2011][research_menhour_lechner_2011]
 - [Menon et al 2009][research_menon_postlethwaite_2009]
 - [Menon et al 2025][research_menon_ck_2025]
 - [Menshikov 2022][research_menshikov_2022]
+- [Mercer 1964][research_mercer_1964]
+- [Mercer 1965][research_mercer_1965]
+- [Meredith 1985][research_meredith_1985]
 - [Merkin et al 2011][research_merkin_nazar_2011]
 - [Merriam, Marshal L. 2000][research_merriammarshall_2000]
 - [Merrifield, D. V. 1972][research_merrifielddv_1972]
 - [Mesarch, Michael A. 2004][research_mesarchmichaela_2004]
+- [Message 1960][research_message_1960]
 - [Messenger et al 2014][research_messenger_wong_2014]
 - [Metz 1986][research_metz_1986]
+- [Meuzelaar et al 1992][research_meuzelaar_cole_1992]
 - [Meyer 1960][research_meyer_1960]
+- [Meyer et al 1995][research_meyer_silverberg_1995]
+- [Meyer, Robert R., Jr. and Barneburg, Jack 1988][research_meyerrobertrjr_barneburgjack_1988]
+- [Meyers 1991][research_meyers_1991]
 - [Mg-based 6 wt% hydrogen 2002][research_mg_based_6_2002]
 - [Miao et al 2023][research_miao_tu_2023]
 - [Michaelis and Luttmann 1997][research_michaelis_luttmann_1997]
@@ -8584,48 +10768,71 @@ summary of what classification achieves and what it costs.
 - [Miele and Wang 1996][research_miele_wang_1996]
 - [Miele and Wang 1996][research_miele_wang_1996_b]
 - [Miele et al 1987][research_miele_basapur_1987]
-- [Miele et al 1987][research_miele_basapur_1987_b]
 - [Miele et al 1988][research_miele_lee_1988]
 - [Miele et al 1990][research_miele_wang_1990]
 - [Miele et al 1991][research_miele_wang_1991]
+- [Miele et al 2001][research_miele_wang_2001]
+- [Miele et al 2005][research_miele_wang_2005]
+- [Miele, A. and Venkataraman, P. 1983][research_mielea_venkataramanp_1983]
 - [Miele, A. and Wang, T. 1990][research_mielea_wangt_1990]
 - [Miele, A. et al 1986][research_mielea_measekd_1986]
+- [Miele, A. et al 1987][research_mielea_basapurvk_1987]
+- [Miele, A. et al 1987][research_mielea_measekd_1987]
+- [Miele, A. et al 1988][research_mielea_measekd_1988]
 - [Mieskes et al 2023][research_mieskes_ploetz_2023]
 - [Mifsud 2022][research_mifsud_2022]
+- [Mifsud et al 2012][research_mifsud_estruchsamper_2012]
 - [Migaud 2020][research_migaud_2020]
 - [Mikhailov and Vasil'ev 2011][research_mikhailov_vasilev_2011]
 - [Mikulas, Martin et al 2015][research_mikulasmartin_papparichard_2015]
+- [Milani and Knežević 1990][research_milani_knezevic_1990]
 - [Milani et al 2011][research_milani_tommei_2011]
 - [Milani et al 2012][research_milani_farnocchia_2012]
+- [Miles and Brown 2002][research_miles_brown_2002]
+- [Millard and Neel 1965][research_millard_neel_1965]
 - [Millard et al 2005][research_millard_lemaire_2005]
 - [Miller 1963][research_miller_1963]
+- [Miller 1987][research_miller_1987]
 - [Miller and Dever 2011][research_miller_dever_2011]
 - [Miller et al 1990][research_miller_brill_1990]
 - [Miller, Jennifer R. et al 2011][research_millerjenniferr_birurgajananac_2011]
+- [Miller, Jennifer R. et al 2015][research_millerjenniferr_emisnickolas_2015]
 - [Miller, Scott et al 2007][research_millerscott_hendersonscott_2007]
+- [Miller, Sharon K. R. and Banks, Bruce A. 2018][research_millersharonkr_banksbrucea_2018]
+- [Miller-Oana and Corral 2015][research_milleroana_corral_2015]
+- [Milliken 1965][research_milliken_1965]
+- [Milliken et al 2003][research_milliken_mustard_2003]
 - [Miloro 2021][research_miloro_2021]
 - [Miloro 2021][research_miloro_2021_b]
 - [Milos et al 2014][research_milos_scott_2014]
+- [Milos, Frank S. et al 2012][research_milosfranks_scottcarldouglas_2012]
 - [Milstead 1964][research_milstead_1964]
 - [Minaev and Terpugova 1969][research_minaev_terpugova_1969]
 - [Ming H Tang 1970][research_minghtang_1970]
+- [Minka et al 1966][research_minka_fein_1966]
 - [Minow, Joseph et al 2008][research_minowjoseph_parkerl_2008]
+- [Minster et al 1993][research_minster_remy_1993]
 - [Minton 2008][research_minton_2008]
 - [Minton et al 2004][research_minton_tagawa_2004]
 - [Minvielle 2005][research_minvielle_2005]
 - [Mioc 1991][research_mioc_1991]
 - [Miria M Finckenor and Meghan Carrico][research_miriamfinckenor_meghancarrico]
 - [Mirkazemi and Ziaei-Rad 2025][research_mirkazemi_ziaeirad_2025]
+- [Miroshnichenko 1996][research_miroshnichenko_1996]
 - [Mishkinis et al 2015][research_mishkinis_corrochano_2015]
 - [Mishne et al 1990][research_mishne_melamed_1990]
 - [Mishne et al 1997][research_mishne_idan_1997]
+- [Mishra et al 2016][research_mishra_chauhan_2016]
 - [Miso et al 1999][research_miso_hashimoto_1999]
+- [Mission Design Implications of 1977][research_mission_design_1977]
 - [Mita et al 2012][research_mita_kobayashi_2012]
 - [Mitchell, Jack C. and Keeley, J. T. 1985][research_mitchelljackc_keeleyjt_1985]
 - [Mitri et al 2014][research_mitri_coustenis_2014]
 - [Mitrofanov et al 2010][research_mitrofanov_kozyrev_2010]
 - [Mitrofanov et al 2021][research_mitrofanov_kozyrev_2021]
 - [Miyamoto et al 2026][research_miyamoto_chujo_2026]
+- [Miyashita et al 2025][research_miyashita_sugihara_2025]
+- [Miyazawa and Fukushima 1991][research_miyazawa_fukushima_1991]
 - [Miyazawa et al 1999][research_miyazawa_motoda_1999]
 - [Miyoshi and Yiğit 2019][research_miyoshi_yigit_2019]
 - [Mizukami, Masashi et al 2019][research_mizukamimasashi_nakazonobarry_2019]
@@ -8634,6 +10841,10 @@ summary of what classification achieves and what it costs.
 - [Mo et al 2024][research_mo_li_2024]
 - [Moalem et al 1982][research_moalem_fortune_1982]
 - [Moch 1966][research_moch_1966]
+- [Modeling the performance of 2003][research_modeling_the_2003]
+- [Modest 1975][research_modest_1975]
+- [Modest and Stevens 1978][research_modest_stevens_1978]
+- [Moe 1960][research_moe_1960]
 - [Moe 1968][research_moe_1968]
 - [Moe et al 1976][research_moe_debra_1976]
 - [Moe et al 1993][research_moe_wallace_1993]
@@ -8641,9 +10852,10 @@ summary of what classification achieves and what it costs.
 - [Moe et al 1998][research_moe_moe_1998]
 - [Moftakhari et al 2016][research_moftakhari_aghanajafi_2016]
 - [Mohamed and Rihan 2024][research_mohamed_rihan_2024]
-- [Mohammadi et al 2025][research_mohammadi_taherinassaj_2025]
 - [Mohammadnejad et al 2016][research_mohammadnejad_khalafi_2016]
+- [Mohammed et al 2010][research_mohammed_salleh_2010]
 - [Mohan et al 1996][research_mohan_tamma_1996]
+- [Mohr et al 2020][research_mohr_peters_2020]
 - [Mokhtar et al 2025][research_mokhtar_ibrahim_2025]
 - [Mokrane et al 2022][research_mokrane_benallegue_2022]
 - [Molina and Scherliess 2023][research_molina_scherliess_2023]
@@ -8651,26 +10863,37 @@ summary of what classification achieves and what it costs.
 - [Molitor et al 1969][research_molitor_schwaiger_1969]
 - [Monaghan 1959][research_monaghan_1959]
 - [Monakhova 2024][research_monakhova_2024]
+- [Mongan, Philip T. 1993][research_monganphilipt_1993]
 - [Monta, W. J. and Rausch, J. R. 1973][research_montawj_rauschjr_1973]
 - [Montero Miñan et al 2023][research_monterominan_scala_2023]
 - [Montez, M. N. and Madden, M. F. 1982][research_montezmn_maddenmf_1982]
 - [Monti et al 2006][research_monti_destefanofumo_2006]
 - [Montilla et al 2024][research_montilla_siminski_2024]
 - [Moore et al 1977][research_moore_vanallen_1977]
+- [Moore et al 2011][research_moore_morin_2011]
+- [Moote, J. D. 1970][research_mootejd_1970]
 - [Mor et al 2025][research_mor_taraborelli_2025]
+- [Moraes 2001][research_moraes_2001]
 - [Morand et al 2014][research_morand_doladoperez_2014]
+- [Morani et al 2011][research_morani_cuciniello_2011]
+- [Morduch and Bergeron 1978][research_morduch_bergeron_1978]
 - [Morey and Gorman 1976][research_morey_gorman_1976]
 - [Morgado et al 2022][research_morgado_garbacz_2022]
 - [Mori and Takahashi 2019][research_mori_takahashi_2019]
 - [Morino et al 2001][research_morino_shimoda_2001]
+- [Morio et al 2007][research_morio_falcoz_2007]
 - [Morio et al 2009][research_morio_cazaurang_2009]
+- [Morio et al 2010][research_morio_cazaurang_2010]
 - [Morozov and Lopatin 2011][research_morozov_lopatin_2011]
 - [Morris et al 2023][research_morris_povolny_2023]
+- [Morrison 1975][research_morrison_1975]
 - [Morrow et al 2001][research_morrow_scheeres_2001]
+- [Morth 1970][research_morth_1970]
 - [Morth and Speyer 1961][research_morth_speyer_1961]
 - [Moss, J. N. 1986][research_mossjn_1986]
 - [Moss, James N. 1986][research_mossjamesn_1986]
 - [Motil, Brian 2018][research_motilbrian_2018]
+- [Motiwala, Samira A. et al 2014][research_motiwalasamiraa_mathiasdonovanl_2014]
 - [Moudden and Forbes 2008][research_moudden_forbes_2008]
 - [Moudden and Forbes 2010][research_moudden_forbes_2010]
 - [Moudden and Forbes 2015][research_moudden_forbes_2015]
@@ -8684,6 +10907,9 @@ summary of what classification achieves and what it costs.
 - [Mu et al 2023][research_mu_li_2023]
 - [Mu et al 2025][research_mu_cao_2025]
 - [Mude 2025][research_mude_2025]
+- [Mueller et al 2007][research_mueller_harris_2007]
+- [Mueller, A. 1978][research_muellera_1978]
+- [Mueller, A. C. 1982][research_muellerac_1982]
 - [Muhammad Siddique 2025][research_muhammadsiddique_2025]
 - [Mukoyama et al 2016][research_mukoyama_nara_2016]
 - [Mukundan et al 2022][research_mukundan_maity_2022]
@@ -8692,12 +10918,16 @@ summary of what classification achieves and what it costs.
 - [Mullick et al 2019][research_mullick_srinivasa_2019]
 - [Mungan 2018][research_mungan_2018]
 - [Munick 1962][research_munick_1962]
+- [Munipalli et al 2005][research_munipalli_subbarao_2005]
 - [Munsami 2014][research_munsami_2014]
+- [Muntz and Dixon 1986][research_muntz_dixon_1986]
 - [Murad 1996][research_murad_1996]
 - [Muraoka et al 2006][research_muraoka_galski_2006]
+- [Murbach, Marcus S. 1993][research_murbachmarcuss_1993]
 - [Murcia-Piñeros et al 2026][research_murciapineros_bevilacqua_2026]
 - [Murozono and Thornton 1998][research_murozono_thornton_1998]
 - [Murphy and Bradley 1975][research_murphy_bradley_1975]
+- [Musal 1962][research_musal_1962]
 - [Musiał et al 2021][research_musial_markowski_2021]
 - [Muthanna and Nath 1976][research_muthanna_nath_1976]
 - [Muthukrishnan and Ramesh Kumar 2024][research_muthukrishnan_rameshkumar_2024]
@@ -8706,8 +10936,12 @@ summary of what classification achieves and what it costs.
 - [Myers, David E. et al 1999][research_myersdavide_martincarlj_1999]
 - [Myers, David E. et al 2000][research_myersdavide_martincarlj_2000]
 - [Myers, Franklin K. et al 2003][research_myersfranklink_weinbergdavidj_2003]
+- [Myrabo, L. N. and Dickenson, T. 2005][research_myraboln_dickensont_2005]
+- [Métris and Vokrouhlický 1996][research_metris_vokrouhlicky_1996]
+- [Müller and Heiss 1999][research_muller_heiss_1999]
 - [N. and Vanjari 2026][research_n_vanjari_2026]
 - [Na et al 2014][research_na_tang_2014]
+- [Nabity 2005][research_nabity_2005]
 - [Naftel and Powell 1985][research_naftel_powell_1985]
 - [Nag et al 2023][research_nag_senthil_2023]
 - [Nagai et al 2014][research_nagai_tamamura_2014]
@@ -8716,6 +10950,7 @@ summary of what classification achieves and what it costs.
 - [Nagano et al 2005][research_nagano_ohnishi_2005]
 - [Nagano et al 2006][research_nagano_nagasaka_2006]
 - [Nagano et al 2012][research_nagano_nishikawara_2012]
+- [Nagaraja et al 2020][research_nagaraja_basuvaraj_2020]
 - [Nagori et al 2024][research_nagori_dagar_2024]
 - [Naidu 1991][research_naidu_1991]
 - [Naidu 1993][research_naidu_1993]
@@ -8734,12 +10969,14 @@ summary of what classification achieves and what it costs.
 - [Nambara et al 2005][research_nambara_arai_2005]
 - [Nanbu 1973][research_nanbu_1973]
 - [NASA awards orbital transfer 1984][research_nasa_awards_1984]
+- [NASA orbiter detects shifting 2012][research_nasa_orbiter_2012]
 - [NASA's Juno spacecraft achieves 2016][research_nasa_s_juno_2016]
 - [Nashine et al 2026][research_nashine_pandey_2026]
 - [Natali et al 2013][research_natali_rallini_2013]
 - [Nateghi and Manzi 2023][research_nateghi_manzi_2023]
 - [Nath 1971][research_nath_1971]
 - [Nathalie et al 2024][research_nathalie_jan_2024]
+- [National Geophysical Data Center 1992][research_nationalgeophysicaldatacenter_1992]
 - [Naval Research Lab Washington Dc 1958][research_navalresearchlabwashingtondc_1958]
 - [Naval Research Lab Washington Dc 1960][research_navalresearchlabwashingtondc_1960]
 - [Naval Research Lab Washington Dc 1962][research_navalresearchlabwashingtondc_1962]
@@ -8749,23 +10986,32 @@ summary of what classification achieves and what it costs.
 - [Nazarenko et al 1991][research_nazarenko_kravchenko_1991]
 - [NDE nondestructive evaluation of 1994][research_nde_nondestructive_1994]
 - [Nebylov and Nebylov 2011][research_nebylov_nebylov_2011]
+- [Neel et al 1969][research_neel_griffin_1969]
 - [NeergaardParker, Linda et al 2014][research_neergaardparkerlinda_minowjosephi_2014]
 - [Neff 2025][research_neff_2025]
 - [Negi et al 2019][research_negi_kiran_2019]
 - [Negley, Gerald H. et al 1989][research_negleygeraldh_rhoadssandral_1989]
+- [Nelson 1963][research_nelson_1963]
+- [Nelson and Goldstein 1974][research_nelson_goldstein_1974]
 - [Nelson et al 1995][research_nelson_horn_1995]
 - [Nenovska and Radulov 2026][research_nenovska_radulov_2026]
+- [Nesterishin et al 2018][research_nesterishin_kozlov_2018]
 - [Nesterov and Dmitriev 2015][research_nesterov_dmitriev_2015]
+- [Neta 1998][research_neta_1998]
 - [Nettles, A. T. et al 2011][research_nettlesat_hodgeaj_2011]
+- [Neumann et al 2003][research_neumann_smith_2003]
+- [Neumeyer 1968][research_neumeyer_1968]
 - [Neupert and Kowal 2023][research_neupert_kowal_2023]
 - [New mars orbiter returns 2006][research_new_mars_2006]
 - [New vacuum/high pressure glands 1987][research_new_vacuum_high_1987]
 - [Newberry 1997][research_newberry_1997]
+- [Newton 1963][research_newton_1963]
 - [Newton et al 1964][research_newton_horowitz_1964]
 - [Newton et al 1965][research_newton_horowitz_1965]
 - [Ng, Wanyi and Benson, David 2017][research_ngwanyi_bensondavid_2017]
 - [Nguyen and Conklin 2015][research_nguyen_conklin_2015]
 - [Nguyen et al 2018][research_nguyen_tanaka_2018]
+- [Nguyen et al 2026][research_nguyen_urquhart_2026]
 - [Ni et al 2023][research_ni_pan_2023]
 - [Ni et al 2025][research_ni_lv_2025]
 - [Nicholas et al 2000][research_nicholas_picone_2000]
@@ -8774,8 +11020,13 @@ summary of what classification achieves and what it costs.
 - [Nichols, S. et al 1992][research_nicholss_gibbonsd_1992]
 - [Nickel-cadmium cells for the 1964][research_nickel_cadmium_cells_1964]
 - [Nickel-hydrogen bipolar battery 1986][research_nickel_hydrogen_bipolar_1986]
+- [Nicolais et al 1979][research_nicolais_drioli_1979]
+- [Nie and Liu 2013][research_nie_liu_2013]
 - [Nielsen and Christensen 2026][research_nielsen_christensen_2026]
+- [Niemeier 1966][research_niemeier_1966]
 - [Nieto-Peroy et al 2021][research_nietoperoy_sabatini_2021]
+- [Nigam 1964][research_nigam_1964]
+- [Niimi and Sugihara 1982][research_niimi_sugihara_1982]
 - [Nikolaev et al 1976][research_nikolaev_teryaev_1976]
 - [Nikolayev and Komatsu 2004][research_nikolayev_komatsu_2004]
 - [Ning and Wu 2024][research_ning_wu_2024]
@@ -8784,6 +11035,7 @@ summary of what classification achieves and what it costs.
 - [Nisar et al 2017][research_nisar_ariharan_2017]
 - [Nisar et al 2022][research_nisar_hassan_2022]
 - [Nisar et al 2023][research_nisar_zhang_2023]
+- [Nishida and Sugimoto 1973][research_nishida_sugimoto_1973]
 - [Nishikawara 2017][research_nishikawara_2017]
 - [Nishikawara and nagano 2017][research_nishikawara_nagano_2017]
 - [Nishikawara et al 2014][research_nishikawara_nagano_2014]
@@ -8798,26 +11050,35 @@ summary of what classification achieves and what it costs.
 - [Nomura et al 2025][research_nomura_hashimoto_2025]
 - [Noneman, Steven R. and Smith, C. A. 2002][research_nonemanstevenr_smithca_2002]
 - [Noor et al 1993][research_noor_tanner_1993]
+- [Norman 1963][research_norman_1963]
 - [Norman and Meier 1963][research_norman_meier_1963]
+- [Norman, I. et al 1982][research_normani_rochellewc_1982]
 - [Norris 1974][research_norris_1974]
+- [Norris 2011][research_norris_2011]
 - [Norton and White 1977][research_norton_white_1977]
 - [Norwood 1985][research_norwood_1985]
+- [Nose et al 2002][research_nose_terawaki_2002]
 - [Nosratollahi et al 2010][research_nosratollahi_mortazavi_2010]
 - [Novikov et al 2006][research_novikov_chernik_2006]
 - [Nowak et al 2021][research_nowak_bruzda_2021]
 - [Nuhija 2021][research_nuhija_2021]
 - [Numerical Optimization on Approach 2016][research_numerical_optimization_2016]
 - [Nurunnizar et al 2021][research_nurunnizar_fariz_2021]
+- [Nutt et al 1979][research_nutt_dommerman_1979]
 - [Nuttall et al 1965][research_nuttall_stevens_1965]
 - [Nwankwo and Chakrabarti 2014][research_nwankwo_chakrabarti_2014]
 - [Nykiel et al 2026][research_nykiel_wyatt_2026]
 - [Nömayr et al 2017][research_nomayr_zimmermann_2017]
 - [O'Brien and Lewis 2002][research_obrien_lewis_2002]
+- [O'Connell 1968][research_oconnell_1968]
+- [O'Donnell 2004][research_odonnell_2004]
 - [O'Leary 1982][research_oleary_1982]
 - [O. Hadi and Fujita 2017][research_ohadi_fujita_2017]
 - [Oberkampf and Aeschliman 1992][research_oberkampf_aeschliman_1992]
 - [Obermann and Williamson 1998][research_obermann_williamson_1998]
 - [Obermann and Williamson 2003][research_obermann_williamson_2003]
+- [Ocampo and Rosborough 1999][research_ocampo_rosborough_1999]
+- [Ocampo and Rosborough 1999][research_ocampo_rosborough_1999_b]
 - [Odagiri and Nagano 2019][research_odagiri_nagano_2019]
 - [Oepomo 1985][research_oepomo_1985]
 - [Ogasawara et al 2003][research_ogasawara_ishikawa_2003]
@@ -8825,27 +11086,40 @@ summary of what classification achieves and what it costs.
 - [Ogneru and Raileanu 2026][research_ogneru_raileanu_2026]
 - [Oguchi 1958][research_oguchi_1958]
 - [Ogundele 2021][research_ogundele_2021]
+- [Ohlendorf and Flotow 1980][research_ohlendorf_flotow_1980]
+- [Ohmichi and Suzuki 2014][research_ohmichi_suzuki_2014]
+- [Ohno et al 1962][research_ohno_tanabe_1962]
 - [Ohtake 1998][research_ohtake_1998]
+- [Ohtake et al 2018][research_ohtake_uno_2018]
 - [Ohya and Kato 1985][research_ohya_kato_1985]
 - [Oikonomou 2012][research_oikonomou_2012]
 - [Oikonomou 2017][research_oikonomou_2017]
 - [Okasha and Newman 2014][research_okasha_newman_2014]
+- [Okhotsimsky et al 1978][research_okhotsimsky_golubiev_1978]
 - [Okita 2026][research_okita_2026]
 - [Okumura et al 2009][research_okumura_masui_2009]
 - [Okumura et al 2009][research_okumura_toyoda_2009]
 - [Olbert, Phil 1991][research_olbertphil_1991]
+- [Olds, John R. and Marcus, Leland 2002][research_oldsjohnr_marcusleland_2002]
 - [Oliveira and Zesta 2019][research_oliveira_zesta_2019]
 - [Olivier 1995][research_olivier_1995]
+- [Olsen 1965][research_olsen_1965]
 - [Oltrogge and Alfano 2019][research_oltrogge_alfano_2019]
 - [Oluwabiyi et al 2026][research_oluwabiyi_oni_2026]
 - [Olynick 1998][research_olynick_1998]
 - [Omar et al 2011][research_omar_idres_2011]
 - [Omar, Sanny R. and Bevilacqua, Riccardo 2017][research_omarsannyr_bevilacquariccardo_2017]
 - [Omran and Bazzocchi 2024][research_omran_bazzocchi_2024]
+- [Ono et al 2014][research_ono_oya_2014]
 - [Orbit Raising with Low-Thrust 1998][research_orbit_raising_1998]
 - [Orbit Reviewers, 2006 2007][research_orbit_reviewers_2007]
 - [Orbital ATK awarded contract 2016][research_orbital_atk_2016]
+- [Orbiter to look for 2006][research_orbiter_to_2006]
 - [Oren, J. A. and Hixon, C. W. 1982][research_orenja_hixoncw_1982]
+- [Ormiston, T. and Tanzilli, R. A. 1973][research_ormistont_tanzillira_1973]
+- [Ormiston, T. J. 1974][research_ormistontj_1974]
+- [Orsini et al 2000][research_orsini_milillo_2000]
+- [Ortloff 1968][research_ortloff_1968]
 - [Orton and Mark 1984][research_orton_mark_1984]
 - [Ortona et al 2013][research_ortona_badini_2013]
 - [Osara and Bryant 2019][research_osara_bryant_2019]
@@ -8860,10 +11134,12 @@ summary of what classification achieves and what it costs.
 - [Otzinger, Burton M. 1991][research_otzingerburtonm_1991]
 - [Ou et al 2011][research_ou_ding_2011]
 - [Ouenzerfi et al 2014][research_ouenzerfi_barreteau_2014]
+- [Oukil and Boudjemai 2020][research_oukil_boudjemai_2020]
 - [Ovchinnikov et al 2024][research_ovchinnikov_mashtakov_2024]
 - [Ovchinnikov et al 2026][research_ovchinnikov_mashtakov_2026]
 - [Owen 1997][research_owen_1997]
 - [Owen, J. W. and Stein, D. S. 1981][research_owenjw_steinds_1981]
+- [Oyama et al 2014][research_oyama_abe_2014]
 - [Ozkurt et al 2016][research_ozkurt_camci_2016]
 - [Ozturk et al 2018][research_ozturk_kilic_2018]
 - [Pabari et al 2018][research_pabari_haider_2018]
@@ -8871,9 +11147,13 @@ summary of what classification achieves and what it costs.
 - [Pachghare and Mahalle 2013][research_pachghare_mahalle_2013_b]
 - [Pachghare and Mahalle 2014][research_pachghare_mahalle_2014]
 - [Pachura, Daniel A. et al 2014][research_pachuradaniela_vavrinamatthewa_2014]
+- [Paciorri et al 2026][research_paciorri_assonitis_2026]
 - [Paddon-Row 2004][research_paddonrow_2004]
 - [Page 2010][research_page_2010]
+- [Paine 1967][research_paine_1967]
 - [Palanisamy et al 2020][research_palanisamy_parekh_2020]
+- [Palanisamy et al 2020][research_palanisamy_parekh_2020_b]
+- [Pallix, Joan 1994][research_pallixjoan_1994]
 - [Palmer 2024][research_palmer_2024]
 - [Palmer 2024][research_palmer_2024_b]
 - [Palmer 2025][research_palmer_2025]
@@ -8881,6 +11161,7 @@ summary of what classification achieves and what it costs.
 - [Palmer et al 1999][research_palmer_kontinos_1999]
 - [Palumbo et al 2017][research_palumbo_morani_2017]
 - [Paluszek 1983][research_paluszek_1983]
+- [Pamadi 1995][research_pamadi_1995]
 - [Pamadi, Bandu N. and Brauckmann, Gregory J. 1999][research_pamadibandun_brauckmanngregoryj_1999]
 - [Pan and Zhou 2009][research_pan_zhou_2009]
 - [Pan et al 2024][research_pan_wei_2024]
@@ -8901,21 +11182,26 @@ summary of what classification achieves and what it costs.
 - [Pardini and Anselmo 2020][research_pardini_anselmo_2020]
 - [Pardini et al 2006][research_pardini_tobiska_2006]
 - [Pardini et al 2012][research_pardini_moe_2012]
+- [Parent 2021][research_parent_2021]
+- [Parent 2022][research_parent_2022]
 - [Parent et al 2025][research_parent_rodriguezfuentes_2025]
 - [Parisi 2023][research_parisi_2023]
 - [Parisi et al 2025][research_parisi_kim_2025]
+- [Park 1983][research_park_1983]
+- [Park 1983][research_park_1983_b]
 - [Park 2000][research_park_2000]
 - [Park 2013][research_park_2013]
 - [Park and Yun 2025][research_park_yun_2025]
-- [Park et al 2018][research_park_appiah_2018]
 - [Park et al 2018][research_park_byun_2018]
-- [Park et al 2019][research_park_kim_2019]
 - [Park et al 2019][research_park_park_2019]
 - [Park et al 2025][research_park_lee_2025]
 - [Parker and Goldizen 2005][research_parker_goldizen_2005]
 - [Parker et al 2004][research_parker_drolen_2004]
 - [Parker et al 2005][research_parker_drolen_2005]
+- [Parks 1982][research_parks_1982]
+- [Parks 1983][research_parks_1983]
 - [Parks and Katz 1979][research_parks_katz_1979]
+- [Parkyn 1958][research_parkyn_1958]
 - [Parkyn 1960][research_parkyn_1960]
 - [Parrish, Keith 1999][research_parrishkeith_1999]
 - [Parsons 1962][research_parsons_1962]
@@ -8925,14 +11211,16 @@ summary of what classification achieves and what it costs.
 - [Pasachoff and Pasachoff 2014][research_pasachoff_pasachoff_2014]
 - [Pascu et al 2022][research_pascu_balc_2022]
 - [Pastukhov and Maydanik 2018][research_pastukhov_maydanik_2018]
+- [Pasupuleti 2025][research_pasupuleti_2025]
 - [Patel and Kumar 2022][research_patel_kumar_2022]
 - [Patel and Kumar 2023][research_patel_kumar_2023]
 - [Patel and Liang 2015][research_patel_liang_2015]
-- [Patel and Liang 2015][research_patel_liang_2015_b]
 - [Patel et al 2017][research_patel_gaurav_2017]
 - [Patel et al 2017][research_patel_kaurase_2017]
 - [Patha and Woodcock 1974][research_patha_woodcock_1974]
-- [Patnaik et al 2021][research_patnaik_peng_2021]
+- [Pattee and Monroe 1966][research_pattee_monroe_1966]
+- [Patterson 1966][research_patterson_1966]
+- [Patterson 1967][research_patterson_1967]
 - [Patterson, R. E. 1984][research_pattersonre_1984]
 - [Patterson, R. E. and Crabtree, W. L. 1982][research_pattersonre_crabtreewl_1982]
 - [Patton 1960][research_patton_1960]
@@ -8942,13 +11230,17 @@ summary of what classification achieves and what it costs.
 - [Pavlov 1967][research_pavlov_1967]
 - [Pavlov 1997][research_pavlov_1997]
 - [Paynter, C. and Cuchanski, M. 1995][research_paynterc_cuchanskim_1995]
+- [Pearce 1970][research_pearce_1970]
 - [Pearlman, M. R. et al 2010][research_pearlmanmr_applebygm_2010]
+- [Pearson et al 2006][research_pearson_levin_2006]
+- [Peck 2007][research_peck_2007]
 - [Pecker 1987][research_pecker_1987]
 - [Pederson et al 2026][research_pederson_keller_2026]
 - [Peel 2008][research_peel_2008]
 - [Pei et al 2021][research_pei_fan_2021]
 - [Peigin 1988][research_peigin_1988]
 - [Peldszus 2018][research_peldszus_2018]
+- [Peltier et al 2016][research_peltier_humble_2016]
 - [Pelton 2019][research_pelton_2019]
 - [Pelton and Kezirian 2019][research_pelton_kezirian_2019]
 - [Pendergast and Mollendorf 2008][research_pendergast_mollendorf_2008]
@@ -8962,6 +11254,7 @@ summary of what classification achieves and what it costs.
 - [Peng and Wu 2009][research_peng_wu_2009]
 - [Pengra et al 1978][research_pengra_genz_1978]
 - [Pennings and Van Eeuwen 1990][research_pennings_vaneeuwen_1990]
+- [Penzo and Johnston 1992][research_penzo_johnston_1992]
 - [Peoples 2013][research_peoples_2013]
 - [Percy and Landrum 2014][research_percy_landrum_2014]
 - [Performance Analysis of Powered 2008][research_performance_analysis_2008]
@@ -8977,7 +11270,11 @@ summary of what classification achieves and what it costs.
 - [Petley, D. H. et al 1983][research_petleydh_smithdm_1983_b]
 - [Petrova et al 2012][research_petrova_hoekzema_2012]
 - [Petukhov 2009][research_petukhov_2009]
+- [Pezzella 2013][research_pezzella_2013]
+- [Pfitzer 1989][research_pfitzer_1989]
+- [Philco Newport Beach Ca Aeronutronic Div 1962][research_philconewportbeachcaaeronutronicdiv_1962]
 - [Phipps et al 1993][research_phipps_warrene_1993]
+- [Physics of the upper 1973][research_physics_of_1973]
 - [Piacquadio et al 2023][research_piacquadio_pridohl_2023]
 - [Piatrou and Rigaut 2017][research_piatrou_rigaut_2017]
 - [Pichon et al 2009][research_pichon_barreteau_2009]
@@ -8987,17 +11284,22 @@ summary of what classification achieves and what it costs.
 - [Pilcher 2003][research_pilcher_2003]
 - [Ping et al 2023][research_ping_miao_2023]
 - [Pinto et al 2025][research_pinto_dosreis_2025]
+- [Pirraglia and Gross 1970][research_pirraglia_gross_1970]
 - [Piszczor, Michael F., Jr. 2003][research_piszczormichaelfjr_2003]
 - [Pittman and Dillon 1977][research_pittman_dillon_1977]
 - [Pitts and Murbach 1986][research_pitts_murbach_1986]
 - [Pitts, W. C. and Kourtides, D. A. 1989][research_pittswc_kourtidesda_1989]
 - [Platus 1967][research_platus_1967]
 - [Platus 1967][research_platus_1967_b]
+- [Platus 1976][research_platus_1976]
 - [Platus 1979][research_platus_1979]
+- [Platus 1980][research_platus_1980]
+- [Platus 1980][research_platus_1980_b]
 - [Platus 1981][research_platus_1981]
 - [Platus 1982][research_platus_1982]
 - [Platus 1985][research_platus_1985]
 - [Plender 1964][research_plender_1964]
+- [Ploen et al 2009][research_ploen_seraji_2009]
 - [Plumb 1971][research_plumb_1971]
 - [Pogorelov 2008][research_pogorelov_2008]
 - [Pogorelov 2009][research_pogorelov_2009]
@@ -9005,16 +11307,23 @@ summary of what classification achieves and what it costs.
 - [Polkowska 2020][research_polkowska_2020]
 - [Polkowska 2021][research_polkowska_2021]
 - [Pollard 2000][research_pollard_2000]
+- [Pollin 1964][research_pollin_1964]
+- [Pollpeter 2016][research_pollpeter_2016]
+- [Polo et al 2021][research_polo_martinchivelet_2021]
 - [Polyansky et al 2018][research_polyansky_zhukov_2018]
+- [Polzin, K.A. et al 2008][research_polzinka_bests_2008]
 - [Poncy et al 2011][research_poncy_fontdecababaig_2011]
 - [Pontani and Teofilatto 2012][research_pontani_teofilatto_2012]
 - [Poole et al 2014][research_poole_muller_2014]
 - [Popien et al 2023][research_popien_husmann_2023]
 - [Pople 1974][research_pople_1974]
+- [Popov et al 1999][research_popov_degtyarev_1999]
 - [Porcelli and Vogel 1980][research_porcelli_vogel_1980]
 - [Poritzky 1971][research_poritzky_1971]
 - [Porras-Hermoso et al 2024][research_porrashermoso_piqueras_2024]
+- [Portanova et al 1992][research_portanova_aaron_1992]
 - [Porter and Cambel 1966][research_porter_cambel_1966]
+- [Posillico and Lederman 1989][research_posillico_lederman_1989]
 - [Potter et al 2006][research_potter_duong_2006]
 - [Poustini et al 2022][research_poustini_sadati_2022]
 - [Povolny et al 2022][research_povolny_seidel_2022]
@@ -9024,32 +11333,40 @@ summary of what classification achieves and what it costs.
 - [Powell, Richard W. et al 1991][research_powellrichardw_nafteljc_1991]
 - [Prabhu and Tannehill 1986][research_prabhu_tannehill_1986]
 - [Pradeep and Rama Narasimha 2019][research_pradeep_ramanarasimha_2019]
+- [Prado and Broucke 1994][research_prado_broucke_1994]
+- [Prag 1983][research_prag_1983]
 - [Prasad 2022][research_prasad_2022]
+- [Prasad 2022][research_prasad_2022_b]
 - [Prata 2024][research_prata_2024]
 - [Pražanová et al 2025][research_prazanova_fridrich_2025]
 - [Pražák 2021][research_prazak_2021]
 - [Predictability of Pi Angle 2018][research_predictability_of_2018]
+- [Prenger and Patterson 1976][research_prenger_patterson_1976]
 - [Price et al 2025][research_price_martin_2025]
 - [Priester et al 1960][research_priester_martin_1960]
 - [Prince et al 2009][research_prince_dec_2009]
 - [Prince, Jill L. and Striepe, Scott A. 2007][research_princejilll_striepescotta_2007]
 - [Pritchard 1999][research_pritchard_1999]
+- [Pritchard and Holloway 1967][research_pritchard_holloway_1967]
 - [Pritchard-Kelly and Costa 2022][research_pritchardkelly_costa_2022]
 - [Probst and Förstner 2018][research_probst_forstner_2018]
 - [Probstein 1961][research_probstein_1961]
 - [Promising navigation, landing and 2019][research_promising_navigation_landing_2019]
 - [Property changes induced by 1993][research_property_changes_1993]
+- [Proposed private launch vehicle 2011][research_proposed_private_2011]
 - [Prosser, W. H. et al 2002][research_prosserwh_browntl_2002]
 - [Proudfoot et al 2025][research_proudfoot_nolthenius_2025]
 - [Pruett et al 1983][research_pruett_wolf_1983]
 - [Prussing 1969][research_prussing_1969]
 - [Psiaki 2002][research_psiaki_2002]
+- [Puig-Suari 1997][research_puigsuari_1997]
 - [Putnam et al 2014][research_putnam_grant_2014]
 - [Putz et al 2020][research_putz_wurster_2020]
 - [Pérez et al 2014][research_perez_wohlberg_2014]
 - [Qaid et al 2025][research_qaid_celik_2025]
 - [Qi and Jia 2012][research_qi_jia_2012]
 - [Qi et al 2025][research_qi_zhou_2025]
+- [Qian et al 2026][research_qian_chen_2026]
 - [Qiao and Chen 2018][research_qiao_chen_2018]
 - [Qiao et al 2022][research_qiao_liu_2022]
 - [Qiao et al 2022][research_qiao_liu_2022_b]
@@ -9066,31 +11383,43 @@ summary of what classification achieves and what it costs.
 - [Qiu and Rajashekara 2026][research_qiu_rajashekara_2026]
 - [Qiu et al 2026][research_qiu_yang_2026]
 - [Qu et al 2015][research_qu_he_2015]
+- [Qu et al 2018][research_qu_sun_2018]
 - [Qu et al 2018][research_qu_wang_2018]
 - [Qu et al 2019][research_qu_liu_2019]
 - [Qualls and Cicci 2007][research_qualls_cicci_2007]
 - [Quarta et al 2023][research_quarta_mengali_2023]
 - [Quaternion-based Finite-time Sliding Mode 2019][research_quaternion_based_finite_time_2019]
+- [Quintrall 1998][research_quintrall_1998]
 - [R. W. Moses et al][research_rwmoses_jsgreen]
 - [Radhakrishnan et al 2023][research_radhakrishnan_hari_2023]
+- [Radiation damage in satellite 1961][research_radiation_damage_1961]
+- [Radiator Developed for Space 1989][research_radiator_developed_1989]
 - [Radley and Eubanks 2020][research_radley_eubanks_2020]
+- [Radoski 1998][research_radoski_1998]
 - [Rafano Carná and Bevilacqua 2019][research_rafanocarna_bevilacqua_2019]
 - [Rahimi et al 2026][research_rahimi_svolos_2026]
 - [Rahman and Alharbi 2024][research_rahman_alharbi_2024]
 - [Raitt 1987][research_raitt_1987]
+- [Raitt 1994][research_raitt_1994]
 - [Raja et al 2021][research_raja_asthana_2021]
 - [Rajagopalan and Stroikos 2024][research_rajagopalan_stroikos_2024]
 - [Rajapaksa and Wijerathna 2017][research_rajapaksa_wijerathna_2017]
 - [Rajoria et al 2012][research_rajoria_agrawal_2012]
 - [Rakich et al 1984][research_rakich_venkatapathy_1984]
 - [Rakopoulos and Mavropoulos 1998][research_rakopoulos_mavropoulos_1998]
+- [Rakopoulos and Mavropoulos 1999][research_rakopoulos_mavropoulos_1999]
 - [Ralph 1973][research_ralph_1973]
 - [Ramasamy et al 2014][research_ramasamy_sangam_2014]
 - [Ramesh 2002][research_ramesh_2002]
+- [Ramnath and Sinha 1975][research_ramnath_sinha_1975]
+- [Ramé 2007][research_rame_2007]
 - [Ramón et al 2022][research_ramon_pomares_2022]
+- [Randall 1969][research_randall_1969]
+- [Randall 1970][research_randall_1970]
 - [Randeep Singh et al 2012][research_randeepsingh_mochizuki_2012]
 - [Ranger spacecraft power system 1961][research_ranger_spacecraft_1961]
 - [Rankin, G. and Benko, D. 1981][research_ranking_benkod_1981]
+- [Rao 1987][research_rao_1987]
 - [Rao and Sinha 1985][research_rao_sinha_1985]
 - [Rao et al 2002][research_rao_tang_2002]
 - [Rao, Gopalakrishna M. 1999][research_raogopalakrishnam_1999]
@@ -9100,26 +11429,44 @@ summary of what classification achieves and what it costs.
 - [Rasky, Dan J. et al 2000][research_raskydanj_milosfranks_2000]
 - [Rataczak et al 2025][research_rataczak_amato_2025]
 - [Rataczak et al 2026][research_rataczak_boyd_2026]
+- [Ratcliffe 1967][research_ratcliffe_1967]
 - [Rausch and Roberts 1975][research_rausch_roberts_1975]
 - [Rausch, J. R. 1975][research_rauschjr_1975]
 - [Rausch, J. R. and Roberge, A. M. 1973][research_rauschjr_robergeam_1973]
 - [Raveau and Hervieu 2006][research_raveau_hervieu_2006]
 - [Rayman and Williams 2002][research_rayman_williams_2002]
 - [Raymond 2003][research_raymond_2003]
+- [Raymond et al 1994][research_raymond_franke_1994]
 - [Rea and Guida 2025][research_rea_guida_2025]
 - [Rea and Guida 2026][research_rea_guida_2026]
 - [Rea, Jeremy R. and Putnam, Zachary R. 2007][research_reajeremyr_putnamzacharyr_2007]
+- [Reba 1964][research_reba_1964]
+- [Reba and Christian 1963][research_reba_christian_1963]
+- [Reconnaissance Orbiter auf dem 2005][research_reconnaissance_orbiter_2005]
+- [Reda et al 2012][research_reda_wilder_2012]
 - [Redd, L. 1985][research_reddl_1985]
+- [Redding 1984][research_redding_1984]
 - [Redding and Adams 1987][research_redding_adams_1987]
 - [Redding and Jr 1984][research_redding_jr_1984]
 - [Reddy 1995][research_reddy_1995]
 - [Reddy and Sinha 2009][research_reddy_sinha_2009]
 - [Reding and Svendsen 1990][research_reding_svendsen_1990]
+- [Reed 1997][research_reed_1997]
+- [Rees 1992][research_rees_1992]
+- [Regnier and Hess 1978][research_regnier_hess_1978]
+- [Rehder and Wurster 1979][research_rehder_wurster_1979]
+- [Rehder, J. J. 1977][research_rehderjj_1977]
 - [Reichenfeld, Curtis J. and Jones, Paul G. 1999][research_reichenfeldcurtisj_jonespaulg_1999]
 - [Reichhardt 1996][research_reichhardt_1996]
+- [Reichhardt 1999][research_reichhardt_1999]
+- [Reichhardt 2005][research_reichhardt_2005]
 - [Reid, Concha 2004][research_reidconcha_2004]
 - [Reid, Concha 2006][research_reidconcha_2006]
 - [Reid, Concha M. et al 2004][research_reidconcham_millerthomasb_2004]
+- [Reilly 1979][research_reilly_1979]
+- [Reinikka and Wells 1964][research_reinikka_wells_1964]
+- [Reiss et al 2011][research_reiss_zanetti_2011]
+- [Relyea 1980][research_relyea_1980]
 - [Ren and Lei 2023][research_ren_lei_2023]
 - [Ren et al 2014][research_ren_li_2014]
 - [Ren et al 2017][research_ren_fu_2017]
@@ -9128,13 +11475,18 @@ summary of what classification achieves and what it costs.
 - [Ren et al 2021][research_ren_zhang_2021]
 - [Ren et al 2022][research_ren_liu_2022]
 - [Ren et al 2025][research_ren_cai_2025]
+- [Repic and Eyman 1969][research_repic_eyman_1969]
 - [Repic et al 1968][research_repic_boobar_1968]
 - [Research Progress in Carbide 2025][research_research_progress_2025]
+- [Reshotko 1987][research_reshotko_1987]
+- [Resnik 2006][research_resnik_2006]
 - [Restrepo, Carolina I. et al 2018][research_restrepocarolinai_sostaricronald_2018]
 - [Retraction Lifecycle assessment of 2026][research_retraction_lifecycle_2026]
 - [Reul et al 2014][research_reul_dupmeier_2014]
 - [Review on Techniques for 2023][research_review_on_2023]
+- [Reyes, Jacqueline A. et al 2019][research_reyesjacquelinea_ryanhoffmann_2019]
 - [Reynolds et al 1983][research_reynolds_fischer_1983]
+- [Rezin, Marc et al 2001][research_rezinmarc_okakris_2001]
 - [Reznik et al 2019][research_reznik_kolesnikov_2019]
 - [Reznikov 1965][research_reznikov_1965]
 - [Ribeiro 2024][research_ribeiro_2024]
@@ -9143,9 +11495,11 @@ summary of what classification achieves and what it costs.
 - [Ricciardi et al 2019][research_ricciardi_maddock_2019]
 - [Richa et al 2015][research_richa_babbitt_2015]
 - [Richard and Christophe 1995][research_richard_christophe_1995]
+- [Richards 1960][research_richards_1960]
 - [Richards 1961][research_richards_1961]
 - [Richards 2010][research_richards_2010]
 - [Richards, P. G. and Torr, D. G. 1986][research_richardspg_torrdg_1986]
+- [Richardson and Herrmann 1966][research_richardson_herrmann_1966]
 - [Richardson and Warren 1971][research_richardson_warren_1971]
 - [Richardson et al 2023][research_richardson_kahn_2023]
 - [Ridderhof et al 2022][research_ridderhof_tsiotras_2022]
@@ -9153,25 +11507,42 @@ summary of what classification achieves and what it costs.
 - [Riehl 2013][research_riehl_2013]
 - [Riehl and Buschmann 2024][research_riehl_buschmann_2024]
 - [Rietmeijer and Blanford 1988][research_rietmeijer_blanford_1988]
+- [Rigler et al 2012][research_rigler_hill_2012]
+- [Riley 1993][research_riley_1993]
+- [Rillings and Roy 1970][research_rillings_roy_1970]
+- [Rim et al 2000][research_rim_schutz_2000]
 - [Rishad et al 2025][research_rishad_islam_2025]
 - [Rishbeth 1979][research_rishbeth_1979]
+- [Rishbeth 1981][research_rishbeth_1981]
+- [Riskowski et al 1991][research_riskowski_christianson_1991]
 - [Ritzert, Frank and Nesbitt, James 2007][research_ritzertfrank_nesbittjames_2007]
 - [Rivolta et al 2019][research_rivolta_lunghi_2019]
 - [Roach et al 1996][research_roach_caldarella_1996]
+- [Robbins 2020][research_robbins_2020]
+- [Robbins 2022][research_robbins_2022]
+- [Robbins 2023][research_robbins_2023]
+- [Robbins 2023][research_robbins_2023_b]
+- [Robbins et al 2023][research_robbins_kirchoff_2023]
+- [Roberson 1958][research_roberson_1958]
 - [Robert W Kempel et al 1970][research_robertwkempel_larrywstrutz_1970]
 - [Robert Windhorst 1996][research_robertwindhorst_1996]
+- [Roberts 2000][research_roberts_2000]
 - [Roberts 2004][research_roberts_2004]
 - [Roberts 2022][research_roberts_2022]
 - [Roberts and Harkness 2007][research_roberts_harkness_2007]
+- [Robinson 1970][research_robinson_1970]
 - [Robinson 1999][research_robinson_1999]
+- [Robinson 2012][research_robinson_2012]
 - [Robinson and Frueh 2025][research_robinson_frueh_2025]
 - [Robson et al 2021][research_robson_barczyk_2021]
 - [Robust Optimal Trajectory Design 2022][research_robust_optimal_2022]
 - [Robust precoding design for 2023][research_robust_precoding_design_2023]
+- [Rochefort et al 1974][research_rochefort_sukys_1974]
 - [Rochelle et al 1973][research_rochelle_roberts_1973]
 - [Rock et al 2006][research_rock_blandino_2006]
 - [Rodrigues et al 2022][research_rodrigues_preda_2022]
 - [Rodriguez, G. E. et al 1983][research_rodriguezge_studerpa_1983]
+- [Rodriguez, Julio G. et al 1990][research_rodriguezjuliog_towdm_1990]
 - [Rodriguez-Donaire et al 2022][research_rodriguezdonaire_garciaalminana_2022]
 - [Roemer et al 1979][research_roemer_framke_1979]
 - [Roenneke and Cornwell 1993][research_roenneke_cornwell_1993]
@@ -9185,7 +11556,10 @@ summary of what classification achieves and what it costs.
 - [Rong et al 2016][research_rong_wei_2016]
 - [Rongxin and Lei 2015][research_rongxin_lei_2015]
 - [Ronquillo and Williams 1984][research_ronquillo_williams_1984]
+- [Rosas, Rogelio and Bolton, Douglas A. 2018][research_rosasrogelio_boltondouglasa_2018]
+- [Rose and Friedman 1975][research_rose_friedman_1975]
 - [Rosenbaum 1971][research_rosenbaum_1971]
+- [Rosenberger 2008][research_rosenberger_2008]
 - [Rosenblatt et al 2004][research_rosenblatt_marty_2004]
 - [Rosengren 1982][research_rosengren_1982]
 - [Roshan et al 2022][research_roshan_r_2022]
@@ -9193,19 +11567,26 @@ summary of what classification achieves and what it costs.
 - [Rossi 2020][research_rossi_2020]
 - [Rossina Miller et al 2021][research_rossinamiller_jamesmurray_2021]
 - [Roth 1966][research_roth_1966]
+- [Roth 1976][research_roth_1976]
 - [Roth 1982][research_roth_1982]
+- [Roth 1983][research_roth_1983]
 - [Roth, D. J. et al 2011][research_rothdj_reyesrodriguezs_2011]
 - [Roth, Don J. et al 2009][research_rothdonj_rauserrichardw_2009]
 - [Roth, Don J. et al 2010][research_rothdonj_jacobsonnathans_2010]
 - [Rotman and Meltz 1961][research_rotman_meltz_1961]
 - [Roule et al 2026][research_roule_ogmundarson_2026]
 - [Rourke, Kenneth H. and Tsugawa, Roy K. 1991][research_rourkekennethh_tsugawaroyk_1991]
+- [Roxy et al 2010][research_roxy_sumithranand_2010]
 - [Roy and Davison 1986][research_roy_davison_1986]
 - [Rozanov and Guelman 2008][research_rozanov_guelman_2008]
 - [Rubenstein and Carter 2000][research_rubenstein_carter_2000]
+- [Rubincam 1980][research_rubincam_1980]
+- [Rubincam 1987][research_rubincam_1987]
+- [Rubincam 1995][research_rubincam_1995]
 - [Rubio et al 2018][research_rubio_ramanujam_2018]
 - [Rudenko 1997][research_rudenko_1997]
 - [Rudesill 2020][research_rudesill_2020]
+- [Ruger 1964][research_ruger_1964]
 - [Rugescu 2013][research_rugescu_2013]
 - [Rugge and Ching 1975][research_rugge_ching_1975]
 - [Rummel 1979][research_rummel_1979]
@@ -9222,48 +11603,63 @@ summary of what classification achieves and what it costs.
 - [Saad 2011][research_saad_2011]
 - [Saad et al 2026][research_saad_desoki_2026]
 - [Saboktakin and Spitas 2023][research_saboktakin_spitas_2023]
+- [Sabol 1998][research_sabol_1998]
 - [Sabol and Culp 2001][research_sabol_culp_2001]
+- [Sabol et al 2007][research_sabol_alfriend_2007]
 - [Saboorian 2019][research_saboorian_2019]
 - [Saddul et al 2024][research_saddul_saletes_2024]
 - [Sadhukhan and Christensen 2021][research_sadhukhan_christensen_2021]
 - [Safi-Harb et al 1996][research_safiharb_ogelman_1996]
 - [Sagare et al 2023][research_sagare_kale_2023]
 - [Saggese and Speziale 1987][research_saggese_speziale_1987]
+- [Sagliano 2024][research_sagliano_2024]
 - [Saha 2023][research_saha_2023]
 - [Saha et al 2014][research_saha_sharma_2014]
 - [Sai-fei et al 2016][research_saifei_xinhua_2016]
 - [Saida 1972][research_saida_1972]
+- [Saikia and Brehm 2025][research_saikia_brehm_2025]
 - [Saikia et al 2021][research_saikia_millane_2021]
 - [Saito et al 2026][research_saito_kariya_2026]
 - [Saitov and Jiang 2025][research_saitov_jiang_2025]
 - [Sakai and Takahashi 2024][research_sakai_takahashi_2024]
 - [Sakai and Takahashi 2026][research_sakai_takahashi_2026]
 - [Sakai et al 1990][research_sakai_miyamura_1990]
+- [Sakimoto et al 1999][research_sakimoto_frey_1999]
 - [Sakurai and McPherron 1983][research_sakurai_mcpherron_1983]
+- [Salah et al 2006][research_salah_oberoi_2006]
 - [Saleh and Abdulla 2020][research_saleh_abdulla_2020]
 - [Salleh and Mohd Suhadis 2015][research_salleh_mohdsuhadis_2015]
 - [Salleh et al 2009][research_salleh_nazar_2009]
 - [Salmin et al 2019][research_salmin_petrukhina_2019]
+- [SALMON HEARTS DO NOT 2011][research_salmon_hearts_2011]
 - [Saltzman et al 2007][research_saltzman_wang_2007]
 - [Salzwedel and Breakwell 1975][research_salzwedel_breakwell_1975]
 - [Samah and Redzua 2024][research_samah_redzua_2024]
+- [Sammonds and Kruse 1975][research_sammonds_kruse_1975]
 - [Samuels, R. 1984][research_samuelsr_1984]
+- [Samuelson 1983][research_samuelson_1983]
 - [Sanchez 2025][research_sanchez_2025]
 - [Sanchez et al 2020][research_sanchez_gavilan_2020]
 - [Sanford et al 2003][research_sanford_higgins_2003]
 - [Sang and Bennett 2014][research_sang_bennett_2014]
 - [Sankaranarayanan et al 2022][research_sankaranarayanan_banerjee_2022]
+- [Sano 1981][research_sano_1981]
 - [Sanson et al 2017][research_sanson_villedieu_2017]
 - [Santhosh et al 2011][research_santhosh_nandakumar_2011]
 - [Santoni and Piergentili 2008][research_santoni_piergentili_2008]
 - [Santoni and Piergentili 2008][research_santoni_piergentili_2008_b]
 - [Santos et al 2012][research_santos_oliveira_2012]
+- [Santos et al 2021][research_santos_hosder_2021]
 - [Sapkota et al 2014][research_sapkota_fischer_2014]
+- [Sara Babu T 2014][research_sarababut_2014]
 - [Sarani, Siamak 2010][research_saranisiamak_2010]
 - [Sari and Karakus 2020][research_sari_karakus_2020]
 - [Sarkar et al 2021][research_sarkar_mukherjee_2021]
+- [Sarli, Bruno V. et al 2018][research_sarlibrunov_farresariadna_2018]
 - [Sarton du Jonchay et al 2021][research_sartondujonchay_chen_2021]
 - [Sarton du Jonchay et al 2022][research_sartondujonchay_chen_2022]
+- [Sarychev 1961][research_sarychev_1961]
+- [Sarychev 1962][research_sarychev_1962]
 - [Sasaki 1999][research_sasaki_1999]
 - [Sasaki and Tanaka 2002][research_sasaki_tanaka_2002]
 - [Sasiadek 1996][research_sasiadek_1996]
@@ -9276,6 +11672,8 @@ summary of what classification achieves and what it costs.
 - [Savage et al 1979][research_savage_aalders_1979]
 - [Savino et al 2018][research_savino_mungiguerra_2018]
 - [Sayed and Partain 1975][research_sayed_partain_1975]
+- [Scaggs 1966][research_scaggs_1966]
+- [Scala 1962][research_scala_1962]
 - [Scala and Workman 1959][research_scala_workman_1959]
 - [Scala et al 2021][research_scala_gaias_2021]
 - [Scala et al 2023][research_scala_gkolias_2023]
@@ -9283,6 +11681,9 @@ summary of what classification achieves and what it costs.
 - [Scallion, William I. 1999][research_scallionwilliami_1999]
 - [Scarcella and Abbott 1983][research_scarcella_abbott_1983]
 - [Scarponi et al 2017][research_scarponi_landucci_2017]
+- [Schaefer et al 1963][research_schaefer_humrick_1963]
+- [Schall 2002][research_schall_2002]
+- [Schaub 2004][research_schaub_2004]
 - [Schaub and Sternovsky 2014][research_schaub_sternovsky_2014]
 - [Schaus et al 2019][research_schaus_alessi_2019]
 - [Schauss and Hayman 2025][research_schauss_hayman_2025]
@@ -9294,28 +11695,39 @@ summary of what classification achieves and what it costs.
 - [Schiemenz et al 2019][research_schiemenz_utzmann_2019]
 - [Schiemenz et al 2020][research_schiemenz_utzmann_2020]
 - [Schild and Noomen 2023][research_schild_noomen_2023]
+- [Schildknecht and Hager 2014][research_schildknecht_hager_2014]
 - [Schirber 2022][research_schirber_2022]
+- [Schlegel 1966][research_schlegel_1966]
+- [Schlitt et al 2010][research_schlitt_bodendieck_2010]
 - [Schmidt 1997][research_schmidt_1997]
+- [Schmidt and Lovell 1997][research_schmidt_lovell_1997]
 - [Schmidt and Olenick 1967][research_schmidt_olenick_1967]
 - [Schmidt et al 2025][research_schmidt_jager_2025]
 - [Schmitt et al 2023][research_schmitt_horstkotter_2023]
+- [Schneider 2009][research_schneider_2009]
 - [Schobert and Paul 1997][research_schobert_paul_1997]
 - [Schoenman, L. 1982][research_schoenmanl_1982]
 - [Schomberg et al 2021][research_schomberg_bringezu_2021]
+- [Schomburg, C. et al 1983][research_schomburgc_dottsrl_1983]
 - [Schooley 1962][research_schooley_1962]
 - [Schrama 2018][research_schrama_2018]
 - [Schriener 2025][research_schriener_2025]
+- [Schroder and Power 1997][research_schroder_power_1997]
 - [Schroeder, P. E. 1979][research_schroederpe_1979]
 - [Schubert et al 1994][research_schubert_limonadi_1994]
 - [Schulte, Peter Z. et al 2020][research_schultepeterz_speharpetert_2020]
+- [Schultz et al 2004][research_schultz_okubo_2004]
 - [Schuster et al 1993][research_schuster_huynh_1993]
 - [Schwabacher, Mark et al 2002][research_schwabachermark_samuelsjeff_2002]
 - [Schwan 1994][research_schwan_1994]
 - [Schwan 1995][research_schwan_1995]
+- [Schwartz 1981][research_schwartz_1981]
 - [Schweikhard, Keith A. et al 1998][research_schweikhardkeitha_richardswlance_1998]
 - [Schweikhard, Keith A. et al 2001][research_schweikhardkeitha_richardswlance_2001]
+- [Schwelkart and Hallion 1997][research_schwelkart_hallion_1997]
 - [Schwintzer et al 1995][research_schwintzer_kang_1995]
 - [Schy and White 1969][research_schy_white_1969]
+- [Science Communication Inc Mclean Va 1960][research_sciencecommunicationincmcleanva_1960]
 - [Sciré et al 2015][research_scire_santoni_2015]
 - [Sconzo 1966][research_sconzo_1966]
 - [Scorsoglio et al 2025][research_scorsoglio_gaudet_2025]
@@ -9323,12 +11735,16 @@ summary of what classification achieves and what it costs.
 - [Scott and Ellery 2015][research_scott_ellery_2015]
 - [Scott and Ellery 2016][research_scott_ellery_2016]
 - [Scott B Luthcke et al 2003][research_scottbluthcke_daviddrowlands_2003]
+- [Scott et al 2014][research_scott_proietti_2014]
 - [Scott, C. D. and Derry, S. M. 1982][research_scottcd_derrysm_1982]
 - [Scott-Monck, J. A. et al 1980][research_scottmonckja_stellapm_1980]
 - [Scoville, Zebulon C. and Rajula, Sudhakar 2005][research_scovillezebulonc_rajulasudhakar_2005]
+- [Scull 1972][research_scull_1972]
+- [Seaman and Klemas 1970][research_seaman_klemas_1970]
 - [Sears and Ho 2018][research_sears_ho_2018]
 - [Second Sun-Watching Satellite Now 1965][research_second_sun_watching_1965]
 - [Secret US spaceplane shows 2012][research_secret_us_2012]
+- [Secretary Of The Air Force Washington Dc 2001][research_secretaryoftheairforcewashingtondc_2001]
 - [Seddjar et al 2022][research_seddjar_kerrouche_2022]
 - [Sedelnikov and Potienko 2015][research_sedelnikov_potienko_2015]
 - [Sehnal 1986][research_sehnal_1986]
@@ -9336,7 +11752,10 @@ summary of what classification achieves and what it costs.
 - [Seidelmann et al 2010][research_seidelmann_gaume_2010]
 - [Sellamuthu and Sharma 2018][research_sellamuthu_sharma_2018]
 - [Seltzer 1970][research_seltzer_1970]
+- [Seltzer 1970][research_seltzer_1970_b]
 - [Semple 1968][research_semple_1968]
+- [Sen et al 2018][research_sen_pesyridis_2018]
+- [Sengupta and Vadali 2005][research_sengupta_vadali_2005]
 - [Seong and Kim 2013][research_seong_kim_2013]
 - [Serfontein et al 2021][research_serfontein_kingston_2021]
 - [Sergeev et al 1971][research_sergeev_bezladnov_1971]
@@ -9344,11 +11763,13 @@ summary of what classification achieves and what it costs.
 - [Setty et al 2016][research_setty_cefola_2016]
 - [Seykora 1979][research_seykora_1979]
 - [Seywald 1996][research_seywald_1996]
+- [Sforza 1967][research_sforza_1967]
 - [Shadow of the FOBS 1967][research_shadow_of_1967]
 - [Shaffer and Andrews 1988][research_shaffer_andrews_1988]
 - [Shahneh 2018][research_shahneh_2018]
 - [Shakouri et al 2020][research_shakouri_pourtakdoust_2020]
 - [Shan and Shi 2022][research_shan_shi_2022]
+- [Shang and Surzhikov 2011][research_shang_surzhikov_2011]
 - [Shang et al 2015][research_shang_wang_2015]
 - [Shang et al 2020][research_shang_yang_2020]
 - [Shao and Wang 2015][research_shao_wang_2015]
@@ -9358,12 +11779,17 @@ summary of what classification achieves and what it costs.
 - [Shao et al 2026][research_shao_zhao_2026]
 - [Shaolin 2017][research_shaolin_2017]
 - [Shapiro 1964][research_shapiro_1964]
+- [Shapland et al 1965][research_shapland_price_1965]
+- [Sharaf 1992][research_sharaf_1992]
 - [Sharma 2005][research_sharma_2005]
+- [Sharma and James Raj 1988][research_sharma_jamesraj_1988]
 - [Sharma and Singh 2009][research_sharma_singh_2009]
 - [Sharma and Sirignano 1969][research_sharma_sirignano_1969]
 - [Sharma et al 1993][research_sharma_agarwal_1993]
 - [Sharma et al 2024][research_sharma_giangaspero_2024]
 - [Sharma, Jayant 1990][research_sharmajayant_1990]
+- [Sharp et al 1971][research_sharp_harris_1971]
+- [Sharpe and Murray 2017][research_sharpe_murray_2017]
 - [Sharpe et al 2026][research_sharpe_wright_2026]
 - [Shaw and Falconer 1971][research_shaw_falconer_1971]
 - [Shaw et al 1997][research_shaw_taylor_1997]
@@ -9372,12 +11798,21 @@ summary of what classification achieves and what it costs.
 - [Shearer 1997][research_shearer_1997]
 - [Sheer and Li 2019][research_sheer_li_2019_b]
 - [Sheer et al 2019][research_sheer_li_2019]
+- [Shefov 1963][research_shefov_1963]
+- [Shefov 1971][research_shefov_1971]
 - [Shen and Liu 2020][research_shen_liu_2020]
+- [Shen and Lu 2005][research_shen_lu_2005]
 - [Shen et al 2012][research_shen_zhou_2012]
+- [Shen et al 2025][research_shen_tang_2025]
+- [Shen, et al 2001][research_shen_chenand_2001]
 - [Shen, Zuojun et al 2002][research_shenzuojun_luping_2002]
 - [Shenming et al 2019][research_shenming_ran_2019]
 - [Shepherd and Cho 2013][research_shepherd_cho_2013]
+- [Sherman 1978][research_sherman_1978]
+- [Sheth, Rubik B. et al 2011][research_shethrubikb_ungareugenek_2011]
+- [Sheu and Sivashinsky 1991][research_sheu_sivashinsky_1991]
 - [Shi et al 1969][research_shi_pottsepp_1969]
+- [Shi et al 1971][research_shi_pottsepp_1971]
 - [Shi et al 2017][research_shi_he_2017]
 - [Shi et al 2017][research_shi_zhao_2017]
 - [Shi et al 2018][research_shi_zhu_2018]
@@ -9385,29 +11820,36 @@ summary of what classification achieves and what it costs.
 - [Shi et al 2021][research_shi_zha_2021]
 - [Shi et al 2025][research_shi_li_2025]
 - [Shi et al 2025][research_shi_wang_2025]
+- [Shi et al 2025][research_shi_wang_2025_b]
 - [Shi et al 2025][research_shi_xu_2025]
 - [Shi et al 2026][research_shi_pei_2026]
 - [Shi, Yun Yuan and Young, D. H. 1991][research_shiyunyuan_youngdh_1991]
 - [Shi, Yun. Y. et al 1990][research_shiyuny_nelsonrl_1990]
+- [Shibato 1995][research_shibato_1995]
+- [Shichao 2019][research_shichao_2019]
 - [Shigehara and Ohtaka 1996][research_shigehara_ohtaka_1996]
 - [Shigehara et al 1998][research_shigehara_iwasaki_1998]
 - [Shimane et al 2024][research_shimane_gollins_2024]
+- [Shimazaki 1965][research_shimazaki_1965]
 - [Shimizu et al 2017][research_shimizu_fukuda_2017]
 - [Shin et al 2026][research_shin_jung_2026]
 - [Shinn and Jones 1985][research_shinn_jones_1985]
 - [Shirazi 2015][research_shirazi_2015]
 - [Shirazi and Mazinan 2015][research_shirazi_mazinan_2015]
-- [Shivaraju et al 2019][research_shivaraju_sudakar_2019]
+- [Shizgal and Blackmore 1986][research_shizgal_blackmore_1986]
 - [Shkuratov et al 2003][research_shkuratov_lytvynenko_2003]
 - [Shoemaker et al 2015][research_shoemaker_wohlberg_2015]
 - [Shojaie-bahaabad et al 2024][research_shojaiebahaabad_bozorg_2024]
 - [Shore 1993][research_shore_1993]
+- [Shorenstein 1971][research_shorenstein_1971]
+- [Shou 2014][research_shou_2014]
 - [Shou et al 2021][research_shou_xu_2021]
 - [Shou et al 2022][research_shou_xu_2022]
 - [Showstack 2015][research_showstack_2015]
 - [Showstack 2016][research_showstack_2016]
 - [Showstack 2016][research_showstack_2016_b]
 - [Shrestha et al 2016][research_shrestha_borrerodelpino_2016]
+- [Shrivastava and Rajasingh 1975][research_shrivastava_rajasingh_1975]
 - [Shrivastava and Reddy 1976][research_shrivastava_reddy_1976]
 - [Shtessel et al 2000][research_shtessel_hall_2000]
 - [Shtessel, Yuri 1999][research_shtesselyuri_1999]
@@ -9419,51 +11861,79 @@ summary of what classification achieves and what it costs.
 - [Si et al 2025][research_si_wang_2025]
 - [Siamidis, John 2006][research_siamidisjohn_2006]
 - [Sicoli and Mehta 2026][research_sicoli_mehta_2026]
+- [Siddique et al 2022][research_siddique_mahmud_2022]
 - [Sidorenko and Kondratyev 2020][research_sidorenko_kondratyev_2020]
 - [Siedel et al 2014][research_siedel_sartre_2014]
 - [Siemers and Larson 1979][research_siemers_larson_1979]
 - [Siew and Linares 2022][research_siew_linares_2022]
 - [Sikharulidze et al 2005][research_sikharulidze_karpov_2005]
+- [Sikharulidze et al 2007][research_sikharulidze_korchagin_2007]
 - [Silk and Myre 2013][research_silk_myre_2013]
+- [Simeonides 2006][research_simeonides_2006]
 - [Similarity Solution for Unsteady 2011][research_similarity_solution_2011]
 - [Simon 1978][research_simon_1978]
+- [Simons 1975][research_simons_1975]
+- [Sims and Hahn 1964][research_sims_hahn_1964]
 - [Singh 2000][research_singh_2000]
 - [Singh 2026][research_singh_2026]
+- [Singh and Chauhan 2023][research_singh_chauhan_2023]
 - [Singh and Das 2025][research_singh_das_2025]
+- [Singh and Kumar 2016][research_singh_kumar_2016]
 - [Singh et al 2014][research_singh_mochizuki_2014]
 - [Singh et al 2014][research_singh_satapathy_2014]
+- [Singh et al 2017][research_singh_mishra_2017]
 - [Singh, M. 2007][research_singhm_2007]
+- [Singhatanadgid and Ungbhakorn 2002][research_singhatanadgid_ungbhakorn_2002]
 - [Sinha and Shrivastava 1990][research_sinha_shrivastava_1990]
+- [Sinnott 1963][research_sinnott_1963]
+- [Siry 1959][research_siry_1959]
+- [Siry 1960][research_siry_1960]
 - [Sivan and Pandian 2018][research_sivan_pandian_2018]
+- [Sivasankari and Arivazhagan 2023][research_sivasankari_arivazhagan_2023]
 - [Siyu et al 2023][research_siyu_kangwen_2023]
 - [Sizemore, K. O. and Stroup, E. R. 1965][research_sizemoreko_strouper_1965]
+- [Sjogren 1979][research_sjogren_1979]
 - [Skolnik and Putnam 2022][research_skolnik_putnam_2022]
 - [Skor, Mike and Hoffman, Dave J. 1997][research_skormike_hoffmandavej_1997]
 - [Skriabysheva 2005][research_skriabysheva_2005]
 - [Skripnyak and Skripnyak 2017][research_skripnyak_skripnyak_2017]
 - [Skurat et al 2011][research_skurat_leipunsky_2011]
 - [Slejko et al 2021][research_slejko_gregorio_2021]
+- [Slonecki 1991][research_slonecki_1991]
+- [Slonecki 1992][research_slonecki_1992]
 - [Slowey, J. W. 1984][research_sloweyjw_1984]
 - [Small 1977][research_small_1977]
+- [Smarslok 2015][research_smarslok_2015]
 - [Smirnov et al 2015][research_smirnov_kiselev_2015]
 - [Smith 1961][research_smith_1961]
+- [Smith 1962][research_smith_1962]
 - [Smith 1966][research_smith_1966]
+- [Smith 1974][research_smith_1974]
 - [Smith 1980][research_smith_1980]
+- [Smith 1986][research_smith_1986]
 - [Smith 1988][research_smith_1988]
+- [Smith 1994][research_smith_1994]
+- [Smith 2021][research_smith_2021]
+- [Smith and Bell 2005][research_smith_bell_2005]
 - [Smith and Greene 1980][research_smith_greene_1980]
+- [Smith and Wright 1964][research_smith_wright_1964]
 - [Smith et al 1965][research_smith_schwimmer_1965]
 - [Smith et al 1977][research_smith_greene_1977]
 - [Smith et al 2024][research_smith_rathnasabapathy_2024]
 - [Smith, D. M. et al 1983][research_smithdm_petleydh_1983]
 - [Smith, E. A. 1988][research_smithea_1988]
+- [Smith, O.E. et al 1997][research_smithoe_adelfangsi_1997]
 - [Smith, Sheldon D. 1991][research_smithsheldond_1991]
 - [Smithrick, John J. and Hall, Stephen W. 1990][research_smithrickjohnj_hallstephenw_1990]
 - [Smithrick, John J. and Hall, Stephen W. 1991][research_smithrickjohnj_hallstephenw_1991]
 - [Smithrick, John J. and Hall, Stephen W. 1992][research_smithrickjohnj_hallstephenw_1992]
+- [Snyder and Lenihan 1968][research_snyder_lenihan_1968]
 - [Snyder, Aaron 1999][research_snyderaaron_1999]
 - [Sochacki and Narkiewicz 2021][research_sochacki_narkiewicz_2021]
 - [Soeder, James F. and Button, Robert M. 1999][research_soederjamesf_buttonrobertm_1999]
+- [Software upgrade resurrects Mars 2009][research_software_upgrade_2009]
 - [Sogin 1991][research_sogin_1991]
+- [Sogin 1992][research_sogin_1992]
 - [Sohail et al 2026][research_sohail_tanveer_2026]
 - [Solar cell array design 1982][research_solar_cell_1982]
 - [Solar Cell High Efficiency 1979][research_solar_cell_1979]
@@ -9471,18 +11941,22 @@ summary of what classification achieves and what it costs.
 - [Solar orbital satellite launched 1978][research_solar_orbital_1978]
 - [Soldi et al 1997][research_soldi_hastings_1997]
 - [Soleymani and Toloei 2015][research_soleymani_toloei_2015]
+- [Som 2008][research_som_2008]
 - [Soma et al 2012][research_soma_endo_2012]
 - [Somakettarin and Pichetjamroen 2019][research_somakettarin_pichetjamroen_2019]
 - [Somanath et al 1999][research_somanath_pradeep_1999]
+- [Someya et al 2010][research_someya_iwata_2010]
 - [Somov et al 2025][research_somov_somov_2025]
 - [Somov et al 2025][research_somov_somov_2025_b]
 - [Sonandres et al 2026][research_sonandres_palazzo_2026]
 - [Sone et al 2003][research_sone_liu_2003]
+- [Song and Choi 2020][research_song_choi_2020]
 - [Song et al 2015][research_song_zhang_2015]
 - [Song et al 2017][research_song_liu_2017]
 - [Song et al 2019][research_song_li_2019]
 - [Song et al 2020][research_song_wang_2020]
 - [Song et al 2023][research_song_bae_2023]
+- [Song et al 2023][research_song_li_2023]
 - [Song et al 2024][research_song_zhang_2024]
 - [Song-jie et al 2003][research_songjie_li_2003]
 - [Sordi et al 2023][research_sordi_rabissi_2023]
@@ -9492,13 +11966,17 @@ summary of what classification achieves and what it costs.
 - [Soroka and Danylenko 2024][research_soroka_danylenko_2024]
 - [Sorvari 1979][research_sorvari_1979]
 - [Sourgen et al 2012][research_sourgen_fontaine_2012]
+- [Sowers 1962][research_sowers_1962]
+- [Space Command Peterson Afb Co 1988][research_spacecommandpetersonafbco_1988]
 - [Space laboratories may study 1963][research_space_laboratories_1963]
 - [Space Machines Uses Siemens 2024][research_space_machines_2024]
 - [Space shuttle orbital maneuvering 1975][research_space_shuttle_1975]
 - [Spacecraft to detect Earth's 2015][research_spacecraft_to_2015]
 - [Spaceplane trip 2015][research_spaceplane_trip_2015]
+- [Spadoni, D. J. and Friedlander, A. L. 1971][research_spadonidj_friedlanderal_1971]
 - [Spady et al 1995][research_spady_synowicki_1995]
 - [Sparks 1980][research_sparks_1980]
+- [Speake and Aston 2005][research_speake_aston_2005]
 - [Spearman, M. L. 1984][research_spearmanml_1984]
 - [Special issue on Space 2021][research_special_issue_2021]
 - [Spencer and Culp 1995][research_spencer_culp_1995]
@@ -9507,26 +11985,36 @@ summary of what classification achieves and what it costs.
 - [Spencer and Williams 2013][research_spencer_williams_2013]
 - [Spencer et al 2016][research_spencer_chait_2016]
 - [Spencer et al 2025][research_spencer_alary_2025]
+- [Speyer and Crues 1990][research_speyer_crues_1990]
+- [Spire Corp Bedford Ma 1989][research_spirecorpbedfordma_1989]
+- [Spire Corp Bedford Ma 1996][research_spirecorpbedfordma_1996]
 - [Sporleder et al 2019][research_sporleder_naumann_2019]
 - [Spravka and Jorris 2015][research_spravka_jorris_2015]
 - [Spurný et al 2017][research_spurny_borovicka_2017]
 - [Spurný et al 2020][research_spurny_borovicka_2020]
 - [Spy satellite enters decay 2008][research_spy_satellite_2008]
 - [Srivastava and Mishra 2023][research_srivastava_mishra_2023]
+- [Srivastava et al 2015][research_srivastava_kumar_2015]
 - [Stabilization of Low Earth 2026][research_stabilization_of_2026]
 - [Stahler 2010][research_stahler_2010]
 - [Stalony-Dobrzanski 1967][research_stalonydobrzanski_1967]
+- [Stamnes 1982][research_stamnes_1982]
+- [Stampfl and Meyer 1988][research_stampfl_meyer_1988]
 - [Stanescu and Buzducea 2025][research_stanescu_buzducea_2025]
 - [Stanfield and Bani Younes 2021][research_stanfield_baniyounes_2021]
 - [Staniszewski 2001][research_staniszewski_2001]
+- [Stanley 1970][research_stanley_1970]
+- [Stanley and Ryan 1968][research_stanley_ryan_1968]
 - [Stanley et al 1989][research_stanley_stansbery_1989]
 - [Stanley et al 1994][research_stanley_engelund_1994]
+- [Stanley, Thomas Troy et al 2000][research_stanleythomastroy_alexanderreginald_2000]
 - [Stansbery, Eugene and Johnson, Nick L. 2012][research_stansberyeugene_johnsonnickl_2012]
 - [Stapleton et al 1997][research_stapleton_galati_1997]
 - [Starchenko 2019][research_starchenko_2019]
 - [Starchenko 2020][research_starchenko_2020]
 - [Stark 1985][research_stark_1985]
 - [State of Health Estimation 2024][research_state_of_2024]
+- [Statella et al 2014][research_statella_pina_2014]
 - [Statham, T. L. et al 2019][research_stathamtl_steinwb_2019]
 - [Statler 1988][research_statler_1988]
 - [Statler 1991][research_statler_1991]
@@ -9539,11 +12027,18 @@ summary of what classification achieves and what it costs.
 - [Stella, Paul M. et al 2006][research_stellapaulm_mardesichnick_2006]
 - [Stengel 1987][research_stengel_1987]
 - [Stephens, John-Paul et al 2011][research_stephensjohnpaul_vosgordona_2011]
+- [Stern 2004][research_stern_2004]
+- [Stern 2008][research_stern_2008]
+- [Stern and Chu 1963][research_stern_chu_1963]
 - [Stern and Chu 1964][research_stern_chu_1964]
+- [Sternberg 2010][research_sternberg_2010]
 - [Sterne 1958][research_sterne_1958]
 - [Sterne 1958][research_sterne_1958_b]
+- [Stetson 1990][research_stetson_1990]
 - [Steven L Rickman][research_stevenlrickman]
 - [Stevens 1981][research_stevens_1981]
+- [Steverding 1965][research_steverding_1965]
+- [Stewart and Golden 1970][research_stewart_golden_1970]
 - [Stewart, David and Leiser, Daniel 2007][research_stewartdavid_leiserdaniel_2007]
 - [Stewart, Michael et al 2018][research_stewartmichael_koenigwilliamj_2018]
 - [Stidham, Curtis R. et al 1994][research_stidhamcurtisr_rutledgesharonk_1994]
@@ -9556,11 +12051,16 @@ summary of what classification achieves and what it costs.
 - [Stokes et al 2020][research_stokes_akahoshi_2020]
 - [Stolarski et al 1974][research_stolarski_cicerone_1974]
 - [Stoll 1961][research_stoll_1961]
+- [Stone 1976][research_stone_1976]
 - [Stone et al 1988][research_stone_wright_1988]
+- [Stone et al 1994][research_stone_shukla_1994]
 - [Stone, H. W. and Powell, R. W. 1984][research_stonehw_powellrw_1984]
 - [Stone, H. W. and Powell, R. W. 1985][research_stonehw_powellrw_1985]
 - [Stout and Snell 2000][research_stout_snell_2000]
+- [Stoutenburg 2003][research_stoutenburg_2003]
 - [Strack 1967][research_strack_1967]
+- [Strahan, Alan 2001][research_strahanalan_2001]
+- [Strahle 1965][research_strahle_1965]
 - [Strauss 1975][research_strauss_1975]
 - [Strauss 1993][research_strauss_1993]
 - [Streb 1973][research_streb_1973]
@@ -9569,6 +12069,8 @@ summary of what classification achieves and what it costs.
 - [Stuart et al 2016][research_stuart_howell_2016]
 - [Stulov and Shapiro 1969][research_stulov_shapiro_1969]
 - [Stultz 1969][research_stultz_1969]
+- [Stultz 1976][research_stultz_1976]
+- [Stultz 1977][research_stultz_1977]
 - [Su and Dong 2012][research_su_dong_2012]
 - [Su and Kiang 2022][research_su_kiang_2022]
 - [Su and Liu 2025][research_su_liu_2025]
@@ -9578,6 +12080,9 @@ summary of what classification achieves and what it costs.
 - [Su et al 2021][research_su_dai_2021_b]
 - [Su et al 2021][research_su_dai_2021_c]
 - [Su et al 2024][research_su_zhao_2024]
+- [Subject Index - LAUNCH 1972][research_subject_index_1972]
+- [Subject Index - LAUNCH 1973][research_subject_index_1973]
+- [Subject Index - LAUNCH 1974][research_subject_index_1974]
 - [SUBJECT INDEX LAUNCH VEHICLE 1978][research_subject_index_1978]
 - [SUBJECT INDEX LAUNCH VEHICLE 1979][research_subject_index_1979]
 - [Subramanian et al 2004][research_subramanian_sonney_2004]
@@ -9591,23 +12096,31 @@ summary of what classification achieves and what it costs.
 - [Sun and Wang 2015][research_sun_wang_2015]
 - [Sun and Zhang 2020][research_sun_zhang_2020]
 - [Sun and Zhu 2019][research_sun_zhu_2019]
+- [Sun et al 2006][research_sun_neumann_2006]
 - [Sun et al 2014][research_sun_xiong_2014]
 - [Sun et al 2018][research_sun_wang_2018]
 - [Sun et al 2020][research_sun_liu_2020]
+- [Sun et al 2020][research_sun_yang_2020]
+- [Sun et al 2022][research_sun_shan_2022]
 - [Sun et al 2022][research_sun_zhang_2022]
 - [Sun et al 2023][research_sun_sun_2023]
 - [Sun et al 2024][research_sun_chai_2024]
+- [Sun et al 2024][research_sun_zou_2024]
 - [Sun et al 2025][research_sun_chen_2025]
 - [Sun et al 2025][research_sun_ran_2025]
+- [Sun et al 2026][research_sun_cao_2026]
 - [Sun et al 2026][research_sun_shen_2026]
 - [Sun et al 2026][research_sun_wu_2026]
 - [Sun Jian and Liu Wei-Qiang 2014][research_sunjian_liuweiqiang_2014]
 - [Sundu and Döner 2020][research_sundu_doner_2020]
+- [Sung 2010][research_sung_2010]
+- [Sunil Kumar and Venkateshan 1994][research_sunilkumar_venkateshan_1994]
 - [Surber and Olsen 1978][research_surber_olsen_1978]
 - [Surdi 2020][research_surdi_2020]
 - [Suresha and Gupta 1998][research_suresha_gupta_1998]
 - [Suresha and Gupta 1999][research_suresha_gupta_1999]
 - [Surya et al 2021][research_surya_rao_2021]
+- [Surzhikov 2013][research_surzhikov_2013]
 - [Surzhikov 2016][research_surzhikov_2016]
 - [Surzhikov 2018][research_surzhikov_2018]
 - [Surzhikov 2018][research_surzhikov_2018_b]
@@ -9616,38 +12129,59 @@ summary of what classification achieves and what it costs.
 - [Sushnigdha and Joshi 2018][research_sushnigdha_joshi_2018]
 - [Suslov 1969][research_suslov_1969]
 - [Suthakar et al 2025][research_suthakar_porto_2025]
+- [Sutherland 1978][research_sutherland_1978]
 - [Sutton 1988][research_sutton_1988]
 - [Suvorova et al 2023][research_suvorova_khadyrova_2023]
 - [Suwata and Matsuda 2018][research_suwata_matsuda_2018]
+- [Suzuki 2004][research_suzuki_2004]
 - [Suzuki et al 1995][research_suzuki_kusaki_1995]
 - [Suzuki et al 2002][research_suzuki_furudate_2002]
 - [Suzuki et al 2002][research_suzuki_sawada_2002]
 - [Svotina 2024][research_svotina_2024]
 - [Svotina 2026][research_svotina_2026]
+- [Swaim 1968][research_swaim_1968]
 - [Swaim 1969][research_swaim_1969]
 - [Swaminathan et al 2023][research_swaminathan_rajeev_2023]
 - [Swanson and Birur 2003][research_swanson_birur_2003]
+- [Swartwout 2007][research_swartwout_2007]
 - [Swartwout 2009][research_swartwout_2009]
 - [Swartz et al 1972][research_swartz_rohrbaugh_1972]
 - [Swei, Sean 2014][research_sweisean_2014]
 - [Swerdling, B. and Alario, J. 1973][research_swerdlingb_alarioj_1973]
 - [Swerdling, B. and Hembach, R. 1973][research_swerdlingb_hembachr_1973]
+- [Swigart 1962][research_swigart_1962]
+- [Swigart 1963][research_swigart_1963]
 - [Swinbank and Ortland 2003][research_swinbank_ortland_2003]
 - [Swire and Sacks 2025][research_swire_sacks_2025]
+- [Symposium on Reusable Surface 1973][research_symposium_on_1973]
+- [Symposium on Reusable Surface 1973][research_symposium_on_1973_b]
+- [Synder and Cross 1960][research_synder_cross_1960]
 - [Synowicki et al 1993][research_synowicki_hale_1993]
 - [Synowicki et al 1995][research_synowicki_hale_1995]
+- [Szalai et al 2005][research_szalai_chen_2005]
 - [T. C. Thomas et al 2021][research_tcthomas_sbluthcke_2021]
 - [Tachiki and Kobayashi 2000][research_tachiki_kobayashi_2000]
+- [Taff 1979][research_taff_1979]
+- [Taff 1979][research_taff_1979_b]
+- [Taff 1979][research_taff_1979_c]
+- [Taff 1983][research_taff_1983]
+- [Taff and Sorvari 1979][research_taff_sorvari_1979]
+- [Taff et al 1984][research_taff_randall_1984]
 - [Tagawa et al 2009][research_tagawa_doi_2009]
 - [Tagawa et al 2016][research_tagawa_yanagisawa_2016]
 - [Tagliafico and Fossa 1997][research_tagliafico_fossa_1997]
 - [Tahir Gokcen et al][research_tahirgokcen_jonathandmorgan]
+- [Tai 1989][research_tai_1989]
+- [Tai 1991][research_tai_1991]
 - [Takahashi et al 1997][research_takahashi_mizobata_1997]
+- [Takamatsu et al 1986][research_takamatsu_imagawa_1986]
 - [Takano and Marchand 2014][research_takano_marchand_2014]
 - [Takeo 1974][research_takeo_1974]
 - [Takeuchi 2019][research_takeuchi_2019]
+- [Takhar et al 1998][research_takhar_agarwal_1998]
 - [Talay, T. A. et al 1984][research_talayta_whitenh_1984]
 - [Tam and Wainright 2006][research_tam_wainright_2006]
+- [Tam and Wainright 2007][research_tam_wainright_2007]
 - [Tan 1998][research_tan_1998]
 - [Tan 2011][research_tan_2011]
 - [Tan and Badhwar 1997][research_tan_badhwar_1997]
@@ -9657,6 +12191,10 @@ summary of what classification achieves and what it costs.
 - [Tanaka 2017][research_tanaka_2017]
 - [Tanaka et al 2017][research_tanaka_mendozahernandez_2017]
 - [Tancredi and Grassi 2007][research_tancredi_grassi_2007]
+- [Tandon et al 2003][research_tandon_terrell_2003]
+- [Tang 1980][research_tang_1980]
+- [Tang and Zhu 1989][research_tang_zhu_1989]
+- [Tang et al 2016][research_tang_wu_2016]
 - [Tang et al 2017][research_tang_li_2017]
 - [Tang et al 2023][research_tang_zhang_2023]
 - [Tang et al 2025][research_tang_guo_2025]
@@ -9664,22 +12202,31 @@ summary of what classification achieves and what it costs.
 - [Taniguchi 2000][research_taniguchi_2000]
 - [Taniguchi et al 2019][research_taniguchi_nada_2019]
 - [Tannehill, J. C. 1984][research_tannehilljc_1984]
+- [Tanner 1997][research_tanner_1997]
+- [Tapley 1975][research_tapley_1975]
 - [Tapley, B. D. et al 1985][research_tapleybd_schutzbe_1985]
 - [Tariq et al 2026][research_tariq_wasim_2026]
 - [Tartabini et al 2002][research_tartabini_wurster_2002]
+- [Tartabini et al 2005][research_tartabini_munk_2005]
 - [Tartabini, Paul V. et al 2000][research_tartabinipaulv_lepschrogera_2000]
 - [Tartabini, Paul V. et al 2002][research_tartabinipaulv_munkmichellem_2002]
 - [Tarzi, Zahi B. et al 2015][research_tarzizahib_berrydavids_2015]
+- [Tas et al 2024][research_tas_klemettinen_2024]
+- [Tatabhatla et al 2019][research_tatabhatla_agarwal_2019]
 - [Tategami et al 2025][research_tategami_goto_2025]
 - [Tatry et al 1997][research_tatry_deneu_1997]
+- [Tauber 1986][research_tauber_1986]
 - [Tauber, M. et al 1991][research_tauberm_charginm_1991]
 - [Tauber, Michael E. 1994][research_taubermichaele_1994]
+- [Tauber, Michael E. et al 1989][research_taubermichaele_bowlesjeffreyv_1989]
 - [Taussig and Mattick 1986][research_taussig_mattick_1986]
 - [Tava and Suzuki 2002][research_tava_suzuki_2002]
 - [Tawfiqur et al 2011][research_tawfiqur_zhou_2011]
 - [Tayagaki et al 2023][research_tayagaki_kobayashi_2023]
 - [Tayagaki et al 2024][research_tayagaki_hirooka_2024]
 - [Taylor 1961][research_taylor_1961]
+- [Taylor 1978][research_taylor_1978]
+- [Taylor 1999][research_taylor_1999]
 - [Taylor et al 1986][research_taylor_cerro_1986]
 - [Taylor et al 1992][research_taylor_chato_1992]
 - [Taylor, Terry L. 2004][research_taylorterryl_2004]
@@ -9688,35 +12235,54 @@ summary of what classification achieves and what it costs.
 - [Tekin and Karamangil 2024][research_tekin_karamangil_2024]
 - [Teng et al 2022][research_teng_han_2022]
 - [Teng et al 2025][research_teng_han_2025]
+- [Terekhov 1992][research_terekhov_1992]
 - [Terpigor'ev 1973][research_terpigorev_1973]
 - [Terry and Barber 2007][research_terry_barber_2007]
+- [Tesfamichael and Wäckelgård 2000][research_tesfamichael_wackelgard_2000]
+- [Tewari 2009][research_tewari_2009]
+- [Tewari and Zhang 2013][research_tewari_zhang_2013]
 - [Tewell et al 1986][research_tewell_ewing_1986]
 - [TGO ends aerobraking for 2018][research_tgo_ends_2018]
 - [Tharayil et al 2016][research_tharayil_asirvatham_2016]
 - [The covert sphere secrecy 2013][research_the_covert_2013]
+- [The formation of molecular 1962][research_the_formation_1962]
+- [The formation of NO+ 1961][research_the_formation_1961]
+- [The formation of O2+ 1961][research_the_formation_1961_b]
+- [The Graphic Mangalyaan Mars 2013][research_the_graphic_2013]
 - [The graphic Skylon reusable 2011][research_the_graphic_2011]
 - [The igy optical satellite 1958][research_the_igy_1958]
+- [The influence of the 1961][research_the_influence_1961]
 - [The orbit of an 1963][research_the_orbit_1963]
 - [The Orbit of Sputnik 1958][research_the_orbit_1958]
 - [The plasma wake of 1989][research_the_plasma_1989]
 - [The spacecraft power supply 1966][research_the_spacecraft_1966]
 - [Theobald 1966][research_theobald_1966]
+- [Thermal design and recharging 1962][research_thermal_design_1962]
+- [Thermal Design for Satellite 2003][research_thermal_design_2003]
 - [Thermal Protection for a 2015][research_thermal_protection_2015]
 - [Thermal Simulation Analysis of 2021][research_thermal_simulation_2021]
+- [Thiagarajan and Sharma 2023][research_thiagarajan_sharma_2023]
 - [Thiemann and Bogus 1988][research_thiemann_bogus_1988]
 - [Thiemann and Schunk 1990][research_thiemann_schunk_1990]
 - [Tholen 1985][research_tholen_1985]
+- [Thomas 1965][research_thomas_1965]
+- [Thomas 1987][research_thomas_1987]
 - [Thomas 1990][research_thomas_1990]
 - [Thomas and Perlbachs 1967][research_thomas_perlbachs_1967]
 - [Thomas et al 1998][research_thomas_hyde_1998]
 - [Thomas et al 2022][research_thomas_aoki_2022]
+- [Thomas K West IV and Christopher O Johnston][research_thomaskwestiv_christopherojohnston]
 - [Thomas, Dale et al 2002][research_thomasdale_smithcharles_2002]
 - [Thomas, R. G. 1983][research_thomasrg_1983]
 - [Thompkins, S. S. et al 1980][research_thompkinsss_pittmancm_1980]
 - [Thompson and Griggs 2026][research_thompson_griggs_2026]
+- [Thompson et al 1981][research_thompson_simpson_1981]
 - [Thornton 1977][research_thornton_1977]
 - [Thornton and Kim 1993][research_thornton_kim_1993]
 - [Thornton et al 1995][research_thornton_chini_1995]
+- [Thorp and Pierson 1995][research_thorp_pierson_1995]
+- [Thorpe 1977][research_thorpe_1977]
+- [Thorpe 1978][research_thorpe_1978]
 - [Throckmorton 1983][research_throckmorton_1983]
 - [Throckmorton 1993][research_throckmorton_1993]
 - [Throckmorton 1993][research_throckmorton_1993_b]
@@ -9726,40 +12292,58 @@ summary of what classification achieves and what it costs.
 - [Tian et al 2015][research_tian_fan_2015]
 - [Tian et al 2015][research_tian_fan_2015_b]
 - [Tian et al 2023][research_tian_duan_2023]
+- [Tian et al 2024][research_tian_liu_2024]
 - [Tian et al 2025][research_tian_dong_2025]
 - [Tian et al 2025][research_tian_fang_2025]
 - [Tian et al 2025][research_tian_luo_2025]
 - [Tidwell 1970][research_tidwell_1970]
 - [Tiede, D. A. 1972][research_tiededa_1972]
 - [Tigges, Michael et al 2006][research_tiggesmichael_crulltimothy_2006]
+- [Tillier, Clemens Emmanuel 1998][research_tillierclemensemmanuel_1998]
+- [Timmons 1996][research_timmons_1996]
 - [Ting 1960][research_ting_1960]
 - [Ting, P. C. 1982][research_tingpc_1982]
 - [Tirskii 1993][research_tirskii_1993]
+- [Titheridge 1962][research_titheridge_1962]
+- [Tkachenko 2003][research_tkachenko_2003]
 - [Tobe and Grandhi 2013][research_tobe_grandhi_2013]
+- [Tobie et al 2003][research_tobie_forget_2003]
 - [Tobiska 2003][research_tobiska_2003]
 - [Toda and Schlee 1967][research_toda_schlee_1967]
 - [Todd White et al 2020][research_toddwhite_helenhwang_2020]
 - [Toklu 2024][research_toklu_2024]
 - [Tokudome et al 2009][research_tokudome_naruo_2009]
+- [Tolson et al 2005][research_tolson_dwyer_2005]
+- [Tolson et al 2007][research_tolson_keating_2007]
 - [Tolson et al 2008][research_tolson_bemis_2008]
 - [Tolson, R. H. et al 2002][research_tolsonrh_keatinggm_2002]
+- [Tomioka and Kohsetsu 1990][research_tomioka_kohsetsu_1990]
 - [Tomioka et al 2016][research_tomioka_tachikawa_2016]
+- [Tong 1965][research_tong_1965]
 - [Torii et al 2025][research_torii_ida_2025]
 - [Tormo and Serghides 2007][research_tormo_serghides_2007]
 - [Torres et al 2012][research_torres_mishkinis_2012]
 - [Torres et al 2012][research_torres_mishkinis_2012_b]
+- [Tortora et al 2006][research_tortora_somenzi_2006]
 - [Totani et al 2005][research_totani_kodama_2005]
 - [Toth 2026][research_toth_2026]
 - [Tournes and Johnson 2001][research_tournes_johnson_2001]
 - [Tournes et al 1998][research_tournes_landrum_1998]
+- [Tournier and El-Genk 2006][research_tournier_elgenk_2006]
 - [Townend 1979][research_townend_1979]
 - [Townend 1999][research_townend_1999]
 - [Townend 1999][research_townend_1999_b]
 - [Townend 1999][research_townend_1999_c]
+- [Townsend 1966][research_townsend_1966]
+- [Townsend 1966][research_townsend_1966_b]
+- [Toyoda et al 2004][research_toyoda_matsumoto_2004]
 - [Toyoda et al 2005][research_toyoda_okumura_2005]
 - [Toyoshima 2010][research_toyoshima_2010]
 - [Tozlu et al 2025][research_tozlu_babacan_2025]
 - [Tragesser and Umbert 2021][research_tragesser_umbert_2021]
+- [Tragesser et al 1997][research_tragesser_longuski_1997]
+- [Trajectory Optimization and the 2009][research_trajectory_optimization_2009]
+- [Trask and Coverstone 2004][research_trask_coverstone_2004]
 - [Treinin et al 1983][research_treinin_loeff_1983]
 - [Trenchik et al 2012][research_trenchik_richards_2012]
 - [Trenchik et al 2012][research_trenchik_richards_2012_b]
@@ -9767,9 +12351,16 @@ summary of what classification achieves and what it costs.
 - [Triana et al 2015][research_triana_bautista_2015]
 - [Tribble et al 1989][research_tribble_pickett_1989]
 - [Tripathi and Padhi 2016][research_tripathi_padhi_2016]
+- [Trishchenko and Garand 2011][research_trishchenko_garand_2011]
 - [Trishchenko and Ungureanu 2016][research_trishchenko_ungureanu_2016]
 - [Tropp 1966][research_tropp_1966]
 - [Troyanchuk 2006][research_troyanchuk_2006]
+- [Truttse 1968][research_truttse_1968]
+- [Truttse 1968][research_truttse_1968_b]
+- [Truttse 1969][research_truttse_1969]
+- [Trw Space Technology Labs Redondo Beach Ca 1964][research_trwspacetechnologylabsredondobeachca_1964]
+- [Tse and Das Sarma 2007][research_tse_dassarma_2007]
+- [Tse and Das Sarma 2007][research_tse_dassarma_2007_b]
 - [Tseng 2021][research_tseng_2021]
 - [Tserendejid et al 2025][research_tserendejid_urtnasan_2025]
 - [Tsuchiya and Suzuki 1998][research_tsuchiya_suzuki_1998]
@@ -9777,6 +12368,7 @@ summary of what classification achieves and what it costs.
 - [Tsunoda et al 1992][research_tsunoda_nakajima_1992]
 - [Tu et al 2021][research_tu_zhang_2021]
 - [Tupitsyn 2021][research_tupitsyn_2021]
+- [Turbulization of the Wake 2017][research_turbulization_of_2017]
 - [Turchi 1985][research_turchi_1985]
 - [Turchi and De Persis 2026][research_turchi_depersis_2026]
 - [Turner, G. and Hill, H. 1982][research_turnerg_hillh_1982]
@@ -9785,11 +12377,15 @@ summary of what classification achieves and what it costs.
 - [Tuttle et al 2017][research_tuttle_morgan_2017]
 - [Twiss 1965][research_twiss_1965]
 - [Tycz 1990][research_tycz_1990]
+- [U.S. space-launch vehicle technology 2008][research_u_s_space_launch_2008]
 - [Ubeku and Igbinovia 2009][research_ubeku_igbinovia_2009]
 - [Uchida 2015][research_uchida_2015]
 - [Uchida et al 2006][research_uchida_yabe_2006]
 - [Uddin et al 2016][research_uddin_perera_2016]
 - [Ulybyshev 2000][research_ulybyshev_2000]
+- [Ulybyshev 2007][research_ulybyshev_2007]
+- [Uma et al 2017][research_uma_sankaran_2017]
+- [Umansky-Castro et al 2021][research_umanskycastro_yap_2021]
 - [Ungar, Eugene K. 2008][research_ungareugenek_2008]
 - [Ungurean et al 2016][research_ungurean_carstoiu_2016]
 - [United States Satellite Launched 1960][research_united_states_1960]
@@ -9802,7 +12398,9 @@ summary of what classification achieves and what it costs.
 - [US to launch X-37B 2015][research_us_to_2015]
 - [Usovik 2023][research_usovik_2023]
 - [Usuki and Tsuda 2026][research_usuki_tsuda_2026]
+- [Utsumi 2000][research_utsumi_2000]
 - [Uzun 2025][research_uzun_2025]
+- [V. A. Yaroshevskii Approximate 1965][research_v_a_1965]
 - [Vadasz 1999][research_vadasz_1999]
 - [Vaganov et al 2009][research_vaganov_drozdov_2009]
 - [Vaidyanathan et al 1996][research_vaidyanathan_wajsgras_1996]
@@ -9810,31 +12408,44 @@ summary of what classification achieves and what it costs.
 - [Valasek et al 2020][research_valasek_harris_2020]
 - [Valeev 1965][research_valeev_1965]
 - [Valente et al 2023][research_valente_eramo_2023]
+- [Valentine, P. G. et al 2004][research_valentinepg_meyerdavidl_2004]
+- [Valetkin et al 2009][research_valetkin_meglitskii_2009]
 - [Vallado and Finkleman 2014][research_vallado_finkleman_2014]
 - [Vallerani et al 1979][research_vallerani_esposti_1979]
 - [Vampola 1989][research_vampola_1989]
+- [Van 1963][research_van_1963]
 - [van Daalen et al 2023][research_vandaalen_vanhoboken_2023]
 - [van den IJssel and Visser 2005][research_vandenijssel_visser_2005]
+- [Van der Ha and Modi 1978][research_vanderha_modi_1978]
+- [van Oort et al 2007][research_vanoort_chu_2007]
 - [Van Woerkom 1981][research_vanwoerkom_1981]
+- [Vandervoort 1992][research_vandervoort_1992]
 - [VanDresar, Neil T. and Zimmerli, Gregory A. 2014][research_vandresarneilt_zimmerligregorya_2014]
+- [Vanmol, Denis O. and Anderson, John D., Jr. 1992][research_vanmoldeniso_andersonjohndjr_1992]
 - [Varaksin 2001][research_varaksin_2001]
 - [Varaksin and Ivanov 2003][research_varaksin_ivanov_2003]
 - [Varaprasad and Rao 2006][research_varaprasad_rao_2006]
 - [Varatharajoo et al 2003][research_varatharajoo_kahle_2003]
 - [Vargo 1963][research_vargo_1963]
+- [Varwig 1963][research_varwig_1963]
 - [Vasconcelos et al 2025][research_vasconcelos_gaggi_2025]
 - [Vashisht et al 2023][research_vashisht_rakshit_2023]
 - [Vashisht et al 2023][research_vashisht_rakshit_2023_b]
 - [Vasil'ev and Pasechnik 2002][research_vasilev_pasechnik_2002]
 - [Vasil'kov 1975][research_vasilkov_1975]
+- [Vasilieva 1996][research_vasilieva_1996]
 - [Vassil'Ev 1963][research_vassilev_1963]
 - [Vaughn et al 1994][research_vaughn_carruth_1994]
 - [Vayner, Boris 2015][research_vaynerboris_2015]
 - [Vayner, Boris 2016][research_vaynerboris_2016]
 - [Vedder and Tabor 1991][research_vedder_tabor_1991]
+- [Vedder and Tabor 1992][research_vedder_tabor_1992]
+- [Veeran et al 2018][research_veeran_pesyridis_2018]
 - [Veeresha et al 2014][research_veeresha_shailandran_2014]
 - [Veeresha et al 2014][research_veeresha_simhachalarao_2014]
 - [Vega-Fleitas et al 2026][research_vegafleitas_molllopez_2026]
+- [Vegetti and Koopmans 2009][research_vegetti_koopmans_2009]
+- [Vemuri 1982][research_vemuri_1982]
 - [Veniaminov et al 2026][research_veniaminov_kozlov_2026]
 - [Venkata Krishnan et al 2018][research_venkatakrishnan_udayakumar_2018]
 - [Venkatapathy et al 2021][research_venkatapathy_prabhu_2021]
@@ -9844,15 +12455,22 @@ summary of what classification achieves and what it costs.
 - [Verma et al 2023][research_verma_gangadhari_2023]
 - [Verspieren 2021][research_verspieren_2021]
 - [Vidal et al 2020][research_vidal_malysz_2020]
+- [Vigue et al 1994][research_vigue_lichten_1994]
+- [Vilanova et al 2020][research_vilanova_kim_2020]
 - [Vincent and Bender 1990][research_vincent_bender_1990]
 - [Vind 1961][research_vind_1961]
 - [Vinh and Dobrzelecki 1971][research_vinh_dobrzelecki_1971]
+- [Vinh and Hanson 1985][research_vinh_hanson_1985]
 - [Vinh and Johannesen 1986][research_vinh_johannesen_1986]
 - [Vinh and Ma 1990][research_vinh_ma_1990]
+- [Vinh et al 1979][research_vinh_longuski_1979]
 - [Vinh et al 1986][research_vinh_johannesen_1986_b]
+- [Vinh, N. X. et al 1980][research_vinhnx_busemanna_1980]
 - [Vinogradov et al 2002][research_vinogradov_murashko_2002]
 - [Vinti 1959][research_vinti_1959]
+- [Vinti 1960][research_vinti_1960]
 - [Visagie et al 2015][research_visagie_lappas_2015]
+- [Vishnu Nampoothiri et al 2015][research_vishnunampoothiri_sowmianarayanan_2015]
 - [Vishnuprakash B and Anand Radhakrishnan 2024][research_vishnuprakashb_anandradhakrishnan_2024]
 - [Vishwakarma et al 2014][research_vishwakarma_chauhan_2014]
 - [Visser 2005][research_visser_2005]
@@ -9863,18 +12481,27 @@ summary of what classification achieves and what it costs.
 - [Viviani and Pezzella 2009][research_viviani_pezzella_2009]
 - [Viviani and Pezzella 2010][research_viviani_pezzella_2010]
 - [Vivès et al 2005][research_vives_lamy_2005]
+- [Vlassov et al 2006][research_vlassov_desousa_2006]
 - [Vlassov et al 2016][research_vlassov_panissi_2016]
+- [Voelz 2014][research_voelz_2014]
 - [Volkov et al 2011][research_volkov_semenov_2011]
 - [Volkov et al 2020][research_volkov_kulvits_2020]
+- [Volland 1981][research_volland_1981]
 - [Volz et al 1994][research_volz_conaty_1994]
+- [von Kries 1995][research_vonkries_1995]
 - [Vonbun et al 1978][research_vonbun_argentiero_1978]
 - [Vorona et al 2024][research_vorona_kopalov_2024]
 - [Voronkin 1971][research_voronkin_1971]
 - [Voss et al 2013][research_voss_cole_2013]
 - [Votta et al 2013][research_votta_schettino_2013]
 - [Vourlidas and Bruinsma 2018][research_vourlidas_bruinsma_2018]
+- [Voûte 1986][research_voute_1986]
+- [Vtipil and Warner 2014][research_vtipil_warner_2014]
 - [Vukovich and Kim 2019][research_vukovich_kim_2019]
 - [Wada and Kubota 1992][research_wada_kubota_1992]
+- [Wagenknecht, J. et al 2003][research_wagenknechtj_fredricksons_2003]
+- [Wagner 1965][research_wagner_1965]
+- [Wagner 1975][research_wagner_1975]
 - [Wagner 1985][research_wagner_1985]
 - [Wakker and Ambrosius 1985][research_wakker_ambrosius_1985]
 - [Wakker et al 1985][research_wakker_ambrosius_1985_b]
@@ -9883,21 +12510,32 @@ summary of what classification achieves and what it costs.
 - [Walberg, G. D. 1983][research_walberggd_1983]
 - [Walberg, G. D. et al 1987][research_walberggd_siemerspmiii_1987]
 - [Walburn 1975][research_walburn_1975]
+- [Walchner 1974][research_walchner_1974]
 - [Waldecker and Howell 2025][research_waldecker_howell_2025]
 - [Walden 1968][research_walden_1968]
+- [Waldrep 1967][research_waldrep_1967]
 - [Waldrop 1986][research_waldrop_1986]
 - [Walker 1999][research_walker_1999]
 - [Walker and Cross 2010][research_walker_cross_2010]
+- [Walker and Statler 1988][research_walker_statler_1988]
+- [Walker et al 2000][research_walker_stokes_2000]
 - [Walker, Ira J. et al 1993][research_walkeriraj_covellpeterf_1993]
 - [Walker, James L. and Richter, Joel D. 2006][research_walkerjamesl_richterjoeld_2006]
 - [Walker, William 2019][research_walkerwilliam_2019]
 - [Wallace, Mark S. and You, Tung-Han 2019][research_wallacemarks_youtunghan_2019]
+- [Wallner and Camiel 1966][research_wallner_camiel_1966]
 - [Wallner and Well 2003][research_wallner_well_2003]
 - [Walls et al 1987][research_walls_greene_1987]
 - [Walsh et al 2021][research_walsh_berthoud_2021]
+- [Walter et al 2024][research_walter_aye_2024]
 - [Walyus and Dalton 1991][research_walyus_dalton_1991]
 - [Wan et al 2015][research_wan_deng_2015]
+- [Wan et al 2020][research_wan_zhan_2020]
+- [Wang 1963][research_wang_1963]
+- [Wang 1963][research_wang_1963_b]
 - [Wang 1965][research_wang_1965]
+- [Wang 1968][research_wang_1968]
+- [Wang 1985][research_wang_1985]
 - [Wang 2014][research_wang_2014]
 - [Wang 2015][research_wang_2015]
 - [Wang 2016][research_wang_2016]
@@ -9906,14 +12544,17 @@ summary of what classification achieves and what it costs.
 - [Wang and Bai 2026][research_wang_bai_2026]
 - [Wang and Chen 2024][research_wang_chen_2024_b]
 - [Wang and Du 2022][research_wang_du_2022]
+- [Wang and Gao 2013][research_wang_gao_2013]
 - [Wang and Gao 2016][research_wang_gao_2016]
 - [Wang and Grant 2018][research_wang_grant_2018]
 - [Wang and Gui 2025][research_wang_gui_2025]
+- [Wang and Ingersoll 2002][research_wang_ingersoll_2002]
 - [Wang and Li 2012][research_wang_li_2012]
 - [Wang and Li 2021][research_wang_li_2021]
 - [Wang and Luo 2022][research_wang_luo_2022]
 - [Wang and Nakasuka 2012][research_wang_nakasuka_2012]
 - [Wang and Shen 2018][research_wang_shen_2018]
+- [Wang and Ting 1961][research_wang_ting_1961]
 - [Wang and Wang 2023][research_wang_wang_2023]
 - [Wang and Wang 2025][research_wang_wang_2025]
 - [Wang and Xu 2014][research_wang_xu_2014]
@@ -9921,16 +12562,22 @@ summary of what classification achieves and what it costs.
 - [Wang and Zhang 2022][research_wang_zhang_2022_b]
 - [Wang and Zhang 2024][research_wang_zhang_2024]
 - [Wang and Zheng 2015][research_wang_zheng_2015]
+- [Wang et al 2001][research_wang_ma_2001]
 - [Wang et al 2005][research_wang_sone_2005]
 - [Wang et al 2005][research_wang_yamada_2005]
+- [Wang et al 2006][research_wang_fritts_2006]
 - [Wang et al 2006][research_wang_sone_2006]
 - [Wang et al 2009][research_wang_wu_2009]
+- [Wang et al 2011][research_wang_toigo_2011]
+- [Wang et al 2011][research_wang_zhang_2011]
 - [Wang et al 2011][research_wang_zheng_2011]
 - [Wang et al 2012][research_wang_zhang_2012]
 - [Wang et al 2013][research_wang_wan_2013]
 - [Wang et al 2013][research_wang_zhang_2013]
 - [Wang et al 2015][research_wang_xing_2015]
 - [Wang et al 2016][research_wang_rao_2016]
+- [Wang et al 2017][research_wang_cui_2017]
+- [Wang et al 2017][research_wang_zhao_2017]
 - [Wang et al 2018][research_wang_lu_2018]
 - [Wang et al 2019][research_wang_butcher_2019]
 - [Wang et al 2019][research_wang_miao_2019]
@@ -9942,10 +12589,12 @@ summary of what classification achieves and what it costs.
 - [Wang et al 2020][research_wang_zhang_2020]
 - [Wang et al 2021][research_wang_bai_2021]
 - [Wang et al 2021][research_wang_pan_2021]
+- [Wang et al 2022][research_wang_liu_2022]
 - [Wang et al 2022][research_wang_quan_2022]
 - [Wang et al 2022][research_wang_quan_2022_b]
 - [Wang et al 2022][research_wang_wei_2022]
 - [Wang et al 2022][research_wang_yang_2022]
+- [Wang et al 2022][research_wang_ye_2022]
 - [Wang et al 2022][research_wang_zhang_2022]
 - [Wang et al 2023][research_wang_chen_2023]
 - [Wang et al 2023][research_wang_li_2023]
@@ -9963,6 +12612,7 @@ summary of what classification achieves and what it costs.
 - [Wang et al 2025][research_wang_liu_2025_c]
 - [Wang et al 2025][research_wang_wu_2025]
 - [Wang et al 2025][research_wang_xue_2025]
+- [Wang et al 2025][research_wang_yan_2025]
 - [Wang et al 2025][research_wang_yang_2025]
 - [Wang et al 2025][research_wang_zhang_2025]
 - [Wang et al 2025][research_wang_zhang_2025_b]
@@ -9970,11 +12620,19 @@ summary of what classification achieves and what it costs.
 - [Wang et al 2026][research_wang_geng_2026]
 - [Wang et al 2026][research_wang_li_2026]
 - [Wang et al 2026][research_wang_zhai_2026]
+- [Wang, Weile et al 2019][research_wangweile_lishuang_2019]
+- [Warabisako et al 1997][research_warabisako_uematsu_1997]
 - [Ward, D. T. et al 1990][research_warddt_smithea_1990]
+- [Wardrop 1979][research_wardrop_1979]
+- [Warga and Hailey 1964][research_warga_hailey_1964]
+- [Wargo 1975][research_wargo_1975]
+- [Warner and Lemm 2014][research_warner_lemm_2014]
 - [Warnock and Cochran 1995][research_warnock_cochran_1995]
 - [Wartemann et al 2023][research_wartemann_wagner_2023]
 - [Watanabe et al 2020][research_watanabe_mizutani_2020]
 - [Watson 2016][research_watson_2016]
+- [Watt and Aronson 1964][research_watt_aronson_1964]
+- [Webb 2005][research_webb_2005]
 - [Wei and Nener 2019][research_wei_nener_2019]
 - [Wei et al 2008][research_wei_liu_2008]
 - [Wei et al 2018][research_wei_leng_2018]
@@ -9985,14 +12643,19 @@ summary of what classification achieves and what it costs.
 - [Weidenschilling and Jackson 1993][research_weidenschilling_jackson_1993]
 - [Weil 1963][research_weil_1963]
 - [Weiland et al 2004][research_weiland_longo_2004]
+- [Weile Wang et al][research_weilewang_hirofumihashimoto]
+- [Weilmuenster et al 1997][research_weilmuenster_gnoffo_1997]
+- [Weilmuenster, K. J. and Gnoffo, Peter A. 1992][research_weilmuensterkj_gnoffopetera_1992]
 - [Weinberg 1980][research_weinberg_1980]
 - [Weinberg 1986][research_weinberg_1986]
 - [Weisberg 1963][research_weisberg_1963]
 - [Weitzman 1977][research_weitzman_1977]
 - [Weixing et al 2011][research_weixing_wanke_2011]
+- [Wellington and Bell 2020][research_wellington_bell_2020]
 - [Wellman 1997][research_wellman_1997]
 - [Wells 1985][research_wells_1985]
 - [Wen et al 2020][research_wen_marshak_2020]
+- [Wen et al 2023][research_wen_wang_2023]
 - [Weng et al 2012][research_weng_fang_2012]
 - [Weng et al 2017][research_weng_lei_2017]
 - [Weng et al 2019][research_weng_lei_2019]
@@ -10000,36 +12663,52 @@ summary of what classification achieves and what it costs.
 - [Werner and Braun 2019][research_werner_braun_2019]
 - [Wesley Johnson][research_wesleyjohnson]
 - [Wessells et al 2011][research_wessells_huggins_2011]
+- [West 2005][research_west_2005]
 - [West-Faulcon 2025][research_westfaulcon_2025]
 - [Westerman 1963][research_westerman_1963]
 - [Westerman 1963][research_westerman_1963_b]
+- [Westgate et al 2022][research_westgate_boivin_2022]
 - [Weston 1966][research_weston_1966]
 - [Weyrich 1988][research_weyrich_1988]
+- [Wheaton and Schneider 2012][research_wheaton_schneider_2012]
+- [Wheaton and Schneider 2014][research_wheaton_schneider_2014]
 - [Whitaker, Ann F. and Kamenetzky, Rachel R. 1993][research_whitakerannf_kamenetzkyrachelr_1993]
+- [White 2010][research_white_2010]
 - [White and Hethcoat 1977][research_white_hethcoat_1977]
 - [White, Molly E. and Hyatt, Andrew J. 2016][research_whitemollye_hyattandrewj_2016]
 - [White, O. R. et al 1994][research_whiteor_rottmangj_1994]
 - [Whiteside et al 1994][research_whiteside_kamykowski_1994]
+- [Whitley, Ryan et al 2016][research_whitleyryan_martinezroland_2016]
+- [Whitmore, Stephen A. et al 2004][research_whitmorestephena_cobleighbrentr_2004]
 - [Whitten and Head 2013][research_whitten_head_2013]
 - [Wi et al 2017][research_wi_sung_2017]
 - [Widya et al 2025][research_widya_nasemudin_2025]
 - [Wiegmann, Bruce M. 2011][research_wiegmannbrucem_2011]
+- [Wiesel and Alfano 1985][research_wiesel_alfano_1985]
 - [Wildhack 1958][research_wildhack_1958]
+- [Wilfred H Dukes 1962][research_wilfredhdukes_1962]
+- [Wilhelm 1965][research_wilhelm_1965]
 - [Wilhite 1980][research_wilhite_1980]
+- [Wilkes and Hussey 1982][research_wilkes_hussey_1982]
 - [Wilkes, Donald R. and Hummer, Leigh L. 1991][research_wilkesdonaldr_hummerleighl_1991]
 - [Wilkes, Donald R. et al 1991][research_wilkesdonaldr_hummerleighl_1991_b]
 - [Wilkes, Donald R. et al 1991][research_wilkesdonaldr_hummerleighl_1991_c]
 - [Wilkes, Donald R. et al 1992][research_wilkesdonaldr_hummerleighl_1992]
+- [Wilkie and Stevens 1964][research_wilkie_stevens_1964]
 - [Wilkinson, J. P. 1990][research_wilkinsonjp_1990]
 - [Will Grier et al][research_willgrier_amandastark]
+- [Willey 1993][research_willey_1993]
 - [William L. Kleb and K. James Weilmuenster 1992][research_williamlkleb_kjamesweilmuenster_1992]
 - [Williams 1970][research_williams_1970]
 - [Williams 2002][research_williams_2002]
 - [Williams 2005][research_williams_2005]
+- [Williams 2005][research_williams_2005_b]
 - [Williams and Abate 2009][research_williams_abate_2009]
 - [Williams and Curry 1972][research_williams_curry_1972]
+- [Williams and Levandier 1999][research_williams_levandier_1999]
 - [Williams and Palo 2006][research_williams_palo_2006]
 - [Williams et al 1995][research_williams_curry_1995]
+- [Williams et al 2021][research_williams_sahoo_2021]
 - [Williams, J. M. and Imprescia, R. J. 1975][research_williamsjm_impresciarj_1975]
 - [Williams, R. W. 1996][research_williamsrw_1996]
 - [Williamson 1979][research_williamson_1979]
@@ -10039,33 +12718,43 @@ summary of what classification achieves and what it costs.
 - [Wilson and Xiong 2019][research_wilson_xiong_2019]
 - [Wilson et al 2022][research_wilson_bengtson_2022]
 - [Wilson et al 2022][research_wilson_romerocalvo_2022]
+- [Wilson, Brad and Galatzer, Yishai 2008][research_wilsonbrad_galatzeryishai_2008]
 - [Wilson, J. W. et al 1983][research_wilsonjw_stithjj_1983]
 - [Windhorst et al 1998][research_windhorst_ardema_1998]
 - [Wing 1983][research_wing_1983]
 - [Winter, Michael et al 2011][research_wintermichael_prabhudineshk_2011]
 - [Wise 1986][research_wise_1986]
 - [Withbroe 1989][research_withbroe_1989]
+- [Withers 2006][research_withers_2006]
+- [Withers 2007][research_withers_2007]
 - [Withers et al 2020][research_withers_felici_2020]
 - [Withers et al 2020][research_withers_hensley_2020]
 - [Withers et al 2020][research_withers_hensley_2020_b]
+- [Witze 2014][research_witze_2014]
 - [Wobber 1972][research_wobber_1972]
 - [Woch and Gizon 2007][research_woch_gizon_2007]
+- [Wofenstine et al 2002][research_wofenstine_foster_2002]
 - [Woffinden and Geller 2007][research_woffinden_geller_2007]
+- [Wojtal 1994][research_wojtal_1994]
 - [Wolf, David A. 1992][research_wolfdavida_1992]
 - [Wolfsberger et al 1983][research_wolfsberger_weiss_1983]
+- [Wolverton 2018][research_wolverton_2018]
 - [Won et al 2019][research_won_kim_2019]
 - [Wong et al 2026][research_wong_ramesh_2026]
 - [Woo and Coverstone 2003][research_woo_coverstone_2003]
 - [Wood 1986][research_wood_1986]
+- [Wood et al 1982][research_wood_bauer_1982]
 - [Wood, William A. et al 2010][research_woodwilliama_klebwilliaml_2010]
 - [Woods et al 2013][research_woods_shah_2013]
+- [Woollam et al 2000][research_woollam_trimble_2000]
 - [Wright and Sponnick 1989][research_wright_sponnick_1989]
 - [Wright et al 2006][research_wright_milos_2006]
 - [Wright et al 2007][research_wright_bose_2007]
 - [Wu 1963][research_wu_1963]
-- [Wu and Liao 2025][research_wu_liao_2025]
+- [Wu and Guo 1994][research_wu_guo_1994]
 - [Wu and Xiao 2009][research_wu_xiao_2009]
 - [Wu and Zhang 2023][research_wu_zhang_2023]
+- [Wu et al 2001][research_wu_engelen_2001]
 - [Wu et al 2012][research_wu_tang_2012]
 - [Wu et al 2014][research_wu_wang_2014]
 - [Wu et al 2014][research_wu_wang_2014_b]
@@ -10081,12 +12770,17 @@ summary of what classification achieves and what it costs.
 - [Wulff 2012][research_wulff_2012]
 - [Wurster 1983][research_wurster_1983]
 - [Wurster et al 1999][research_wurster_riley_1999]
+- [Wurster, K. E. and Stone, H. W. 1993][research_wursterke_stonehw_1993]
+- [Wyatt 1960][research_wyatt_1960]
+- [Xapsos, Michael A. 2014][research_xapsosmichaela_2014]
 - [Xia and Qahouq 2021][research_xia_qahouq_2021]
 - [Xia et al 2015][research_xia_shen_2015]
 - [Xia et al 2023][research_xia_zhou_2023]
 - [Xia et al 2025][research_xia_xia_2025]
 - [Xiahou et al 2019][research_xiahou_zhang_2019]
 - [Xiahou et al 2021][research_xiahou_zhang_2021]
+- [Xiao and He 2018][research_xiao_he_2018]
+- [Xiao et al 2011][research_xiao_fan_2011]
 - [Xiao et al 2023][research_xiao_he_2023]
 - [Xiaogang et al 2013][research_xiaogang_yingchun_2013]
 - [Xiayu et al 2026][research_xiayu_li_2026]
@@ -10107,9 +12801,12 @@ summary of what classification achieves and what it costs.
 - [Xu and Li 2025][research_xu_li_2025]
 - [Xu and Wu 2018][research_xu_wu_2018]
 - [Xu and Zhai 2001][research_xu_zhai_2001]
+- [Xu and Zhang 2015][research_xu_zhang_2015]
+- [Xu et al 2008][research_xu_he_2008]
 - [Xu et al 2010][research_xu_tianhe_2010]
 - [Xu et al 2010][research_xu_xu_2010]
 - [Xu et al 2011][research_xu_chen_2011]
+- [Xu et al 2011][research_xu_yang_2011]
 - [Xu et al 2016][research_xu_li_2016]
 - [Xu et al 2017][research_xu_liang_2017]
 - [Xu et al 2017][research_xu_wang_2017]
@@ -10132,6 +12829,7 @@ summary of what classification achieves and what it costs.
 - [Xue et al 2026][research_xue_li_2026]
 - [Xuguo et al 2017][research_xuguo_yongtao_2017]
 - [Ya-Ying 1991][research_yaying_1991]
+- [Yacob and Ishak 2011][research_yacob_ishak_2011]
 - [Yadav and Guven 2013][research_yadav_guven_2013]
 - [Yadav and Guven 2013][research_yadav_guven_2013_b]
 - [Yamada and Inatani 2002][research_yamada_inatani_2002_b]
@@ -10143,6 +12841,7 @@ summary of what classification achieves and what it costs.
 - [Yamamoto and Sori 2026][research_yamamoto_sori_2026]
 - [Yamao et al 2001][research_yamao_yamashita_2001]
 - [Yamazaki et al 2015][research_yamazaki_kosch_2015]
+- [Yan 2014][research_yan_2014]
 - [Yan 2023][research_yan_2023]
 - [Yan and von der Dunk 1992][research_yan_vonderdunk_1992]
 - [Yan and Wu 2004][research_yan_wu_2004]
@@ -10154,7 +12853,9 @@ summary of what classification achieves and what it costs.
 - [Yang 2021][research_yang_2021]
 - [Yang 2023][research_yang_2023]
 - [Yang 2025][research_yang_2025]
+- [Yang and Li 2023][research_yang_li_2023_b]
 - [Yang and Ling 2026][research_yang_ling_2026]
+- [Yang and Liu 2017][research_yang_liu_2017]
 - [Yang and Sun 2011][research_yang_sun_2011]
 - [Yang and Wang 2012][research_yang_wang_2012]
 - [Yang and Wang 2015][research_yang_wang_2015]
@@ -10190,15 +12891,19 @@ summary of what classification achieves and what it costs.
 - [Yang et al 2026][research_yang_zheng_2026]
 - [Yao and Chen 2025][research_yao_chen_2025]
 - [Yao and Sands 2021][research_yao_sands_2021]
+- [Yao and Xia 2023][research_yao_xia_2023]
+- [Yao and Xia 2024][research_yao_xia_2024]
+- [Yao et al 2010][research_yao_xie_2010]
 - [Yao et al 2023][research_yao_wang_2023]
 - [Yao et al 2024][research_yao_li_2024]
-- [Yao et al 2024][research_yao_zhao_2024]
 - [Yao et al 2026][research_yao_chen_2026]
 - [Yap et al 2012][research_yap_macias_2012]
+- [Yaroshevskii 2008][research_yaroshevskii_2008]
 - [Yasaka 1990][research_yasaka_1990]
 - [Yasaka 1992][research_yasaka_1992]
 - [Yassin et al 2025][research_yassin_ahmed_2025]
 - [Yates and Bennett 1972][research_yates_bennett_1972]
+- [Yates and Jonas 1995][research_yates_jonas_1995]
 - [Yates et al 2012][research_yates_spanbauer_2012]
 - [Yatsenko 2017][research_yatsenko_2017]
 - [Yau et al 1995][research_yau_guarro_1995]
@@ -10209,9 +12914,13 @@ summary of what classification achieves and what it costs.
 - [Ye et al 2025][research_ye_hu_2025]
 - [Yeh 1972][research_yeh_1972]
 - [Yeh, Y. C. M. and Chu, C. L. 1996][research_yehycm_chucl_1996]
+- [Yen 1986][research_yen_1986]
 - [Yeniay et al 2006][research_yeniay_unal_2006]
 - [Yeo and Sng 1980][research_yeo_sng_1980]
+- [Yin and Liu 2010][research_yin_liu_2010]
 - [Yin et al 2023][research_yin_li_2023]
+- [Yin et al 2024][research_yin_lu_2024]
+- [Yin et al 2024][research_yin_shi_2024]
 - [Yin et al 2025][research_yin_wang_2025]
 - [Yin et al 2025][research_yin_wu_2025]
 - [Yin et al 2026][research_yin_guo_2026]
@@ -10228,6 +12937,7 @@ summary of what classification achieves and what it costs.
 - [Yoshida 2019][research_yoshida_2019]
 - [Yoshida et al 2015][research_yoshida_hasegawa_2015]
 - [Yoshizawa et al 1995][research_yoshizawa_hatanaka_1995]
+- [You 2012][research_you_2012]
 - [Young 1966][research_young_1966]
 - [Young 2003][research_young_2003]
 - [Young and Underwood 1983][research_young_underwood_1983]
@@ -10249,6 +12959,7 @@ summary of what classification achieves and what it costs.
 - [Yu et al 2024][research_yu_tan_2024]
 - [Yu et al 2025][research_yu_chen_2025]
 - [Yu et al 2025][research_yu_guo_2025]
+- [Yu et al 2025][research_yu_wang_2025]
 - [Yu et al 2026][research_yu_wang_2026]
 - [Yuan et al 2025][research_yuan_cong_2025]
 - [Yuan et al 2025][research_yuan_huang_2025]
@@ -10267,8 +12978,10 @@ summary of what classification achieves and what it costs.
 - [Zabolotnov 2017][research_zabolotnov_2017]
 - [Zabolotnov and Elenev 2017][research_zabolotnov_elenev_2017]
 - [Zabolotnov and Lobankov 2016][research_zabolotnov_lobankov_2016]
+- [Zagalsky et al 1971][research_zagalsky_irons_1971]
 - [Zagrai et al 2011][research_zagrai_barnes_2011]
 - [Zagrodnik and Jones 1992][research_zagrodnik_jones_1992]
+- [Zaidi and Levis 2008][research_zaidi_levis_2008]
 - [Zapata, Edgar 2011][research_zapataedgar_2011]
 - [Zapata-Solvas et al 2015][research_zapatasolvas_jayaseelan_2015]
 - [Zardashti and Emami 2021][research_zardashti_emami_2021]
@@ -10278,14 +12991,17 @@ summary of what classification achieves and what it costs.
 - [Zeitler et al 2021][research_zeitler_corbin_2021]
 - [Zenebe et al 2025][research_zenebe_midtgard_2025]
 - [Zeno, Dnany et al 2010][research_zenodnany_mostellerted_2010]
+- [Zerbini 1980][research_zerbini_1980]
 - [Zhai et al 2019][research_zhai_qi_2019]
 - [Zhai et al 2022][research_zhai_huyan_2022]
+- [Zhang 1992][research_zhang_1992]
 - [Zhang 2025][research_zhang_2025]
 - [Zhang 2025][research_zhang_2025_b]
 - [Zhang and Chen 2011][research_zhang_chen_2011]
 - [Zhang and Li 2011][research_zhang_li_2011]
 - [Zhang and Qi 2025][research_zhang_qi_2025]
 - [Zhang and Tang 2008][research_zhang_tang_2008]
+- [Zhang and Wang 2023][research_zhang_wang_2023]
 - [Zhang and Wang 2025][research_zhang_wang_2025]
 - [Zhang and Xia 2026][research_zhang_xia_2026]
 - [Zhang and Yeung 2022][research_zhang_yeung_2022]
@@ -10296,6 +13012,7 @@ summary of what classification achieves and what it costs.
 - [Zhang et al 2013][research_zhang_kang_2013]
 - [Zhang et al 2013][research_zhang_xu_2013]
 - [Zhang et al 2014][research_zhang_han_2014]
+- [Zhang et al 2014][research_zhang_wang_2014]
 - [Zhang et al 2016][research_zhang_ma_2016]
 - [Zhang et al 2016][research_zhang_tang_2016]
 - [Zhang et al 2016][research_zhang_zhang_2016]
@@ -10310,10 +13027,12 @@ summary of what classification achieves and what it costs.
 - [Zhang et al 2020][research_zhang_jiang_2020]
 - [Zhang et al 2020][research_zhang_wang_2020]
 - [Zhang et al 2021][research_zhang_mu_2021]
+- [Zhang et al 2022][research_zhang_li_2022]
 - [Zhang et al 2022][research_zhang_shou_2022]
 - [Zhang et al 2022][research_zhang_zhang_2022]
 - [Zhang et al 2023][research_zhang_ju_2023]
 - [Zhang et al 2023][research_zhang_wik_2023]
+- [Zhang et al 2023][research_zhang_yuan_2023]
 - [Zhang et al 2023][research_zhang_zhang_2023]
 - [Zhang et al 2024][research_zhang_guo_2024]
 - [Zhang et al 2024][research_zhang_huang_2024]
@@ -10328,6 +13047,7 @@ summary of what classification achieves and what it costs.
 - [Zhang et al 2025][research_zhang_dandenault_2025]
 - [Zhang et al 2025][research_zhang_han_2025]
 - [Zhang et al 2025][research_zhang_hu_2025]
+- [Zhang et al 2025][research_zhang_lei_2025]
 - [Zhang et al 2025][research_zhang_wei_2025]
 - [Zhang et al 2025][research_zhang_wen_2025]
 - [Zhang et al 2025][research_zhang_xu_2025]
@@ -10335,13 +13055,18 @@ summary of what classification achieves and what it costs.
 - [Zhang et al 2025][research_zhang_yang_2025_b]
 - [Zhang et al 2026][research_zhang_hng_2026]
 - [Zhang et al 2026][research_zhang_hu_2026]
+- [Zhang et al 2026][research_zhang_hu_2026_b]
 - [Zhang et al 2026][research_zhang_liu_2026]
+- [Zhao 1993][research_zhao_1993]
 - [Zhao 2025][research_zhao_2025]
+- [Zhao and Li 2018][research_zhao_li_2018]
 - [Zhao and Zhou 2013][research_zhao_zhou_2013]
+- [Zhao et al 2011][research_zhao_ye_2011]
 - [Zhao et al 2012][research_zhao_cui_2012]
 - [Zhao et al 2012][research_zhao_ye_2012]
 - [Zhao et al 2014][research_zhao_zhou_2014]
 - [Zhao et al 2016][research_zhao_rao_2016]
+- [Zhao et al 2019][research_zhao_dong_2019]
 - [Zhao et al 2020][research_zhao_li_2020]
 - [Zhao et al 2021][research_zhao_he_2021]
 - [Zhao et al 2021][research_zhao_huang_2021]
@@ -10360,6 +13085,7 @@ summary of what classification achieves and what it costs.
 - [Zhi et al 2015][research_zhi_liang_2015]
 - [Zhi et al 2015][research_zhi_ran_2015]
 - [Zhong and Gurfil 2013][research_zhong_gurfil_2013]
+- [Zhou 2023][research_zhou_2023]
 - [Zhou and Mishra 2016][research_zhou_mishra_2016]
 - [Zhou and Wang 1987][research_zhou_wang_1987]
 - [Zhou and Wu 2014][research_zhou_wu_2014]
@@ -10380,12 +13106,14 @@ summary of what classification achieves and what it costs.
 - [Zhou et al 2025][research_zhou_zhang_2025]
 - [Zhou et al 2026][research_zhou_mao_2026]
 - [Zhou et al 2026][research_zhou_xu_2026]
+- [Zhu and Shen 2015][research_zhu_shen_2015]
 - [Zhu et al 2016][research_zhu_zhao_2016]
 - [Zhu et al 2017][research_zhu_fu_2017]
 - [Zhu et al 2020][research_zhu_zhang_2020]
 - [Zhu et al 2025][research_zhu_liu_2025]
 - [Zhu et al 2026][research_zhu_huang_2026]
 - [Zhuang and Ridley 2024][research_zhuang_ridley_2024]
+- [Zhulev and Potapov 1968][research_zhulev_potapov_1968]
 - [Zielinski et al 1996][research_zielinski_worley_1996]
 - [Zieliński and Butkiewicz 1985][research_zielinski_butkiewicz_1985]
 - [Zimchuk and Ischenko 2006][research_zimchuk_ischenko_2006]
@@ -10397,6 +13125,7 @@ summary of what classification achieves and what it costs.
 - [Zinger and Braunstein 1981][research_zinger_braunstein_1981]
 - [Zinnurov et al 2018][research_zinnurov_kovalsky_2018]
 - [Zollo and Weigel 2024][research_zollo_weigel_2024]
+- [Zondek 1979][research_zondek_1979]
 - [Zonghai 2018][research_zonghai_2018]
 - [Zou et al 2015][research_zou_wang_2015]
 - [Zou et al 2026][research_zou_zhang_2026]
@@ -10404,12 +13133,15 @@ summary of what classification achieves and what it costs.
 - [Zuluaga et al 2023][research_zuluaga_zuluaga_2023]
 - [Zurek, Richard W. and Smrekar, Suzanne E. 2007][research_zurekrichardw_smrekarsuzannee_2007]
 - [Öz 2021][research_oz_2021]
+- [Öz and Bulut 2025][research_oz_bulut_2025]
 - [Şahi̇n et al 2021][research_sahin_sahin_2021]
 
+[research_111_a_1966]: https://doi.org/10.1016/0042-207x(66)92630-3
 [research_133_air_1960]: https://doi.org/10.1016/0042-207x(60)90302-x
 [research_139_polyhedral_1959]: https://doi.org/10.1016/0042-207x(59)90205-2
 [research_187_adaptive_1994]: https://doi.org/10.1016/0967-0661(94)90539-8
 [research_217_online_1994]: https://doi.org/10.1016/0967-0661(94)91006-5
+[research_227_a_1994]: https://doi.org/10.1016/0967-0661(94)91016-2
 [research_231_orbit_1994]: https://doi.org/10.1016/0967-0661(94)91020-0
 [research_266_on_1994]: https://doi.org/10.1016/0967-0661(94)91057-x
 [research_290_effect_1959]: https://doi.org/10.1016/0042-207x(59)90356-2
@@ -10417,24 +13149,35 @@ summary of what classification achieves and what it costs.
 [research_2_7_orbit_1983]: https://doi.org/10.1016/0045-8732(83)90023-2
 [research_3_16_communications_1983]: https://doi.org/10.1016/0045-8732(83)90046-3
 [research_3_2_investigations_1991]: https://doi.org/10.1016/0045-8732(91)90025-4
+[research_3_4_mars_1978]: https://doi.org/10.1016/0045-8732(78)90018-9
 [research_48_2009]: https://doi.org/10.1108/aeat.2009.12781aaf.003
 [research_5478664_method_1996]: https://doi.org/10.1016/s0378-7753(97)81063-4
 [research_5530335_battery_1996]: https://doi.org/10.1016/s0038-092x(97)87960-1
 [research_5604430_solar_1997]: https://doi.org/10.1016/s0960-1481(97)81456-5
 [research_5677833_power_1998]: https://doi.org/10.1016/s0038-092x(98)90007-x
 [research_96_06118_voltage_1996]: https://doi.org/10.1016/s0140-6701(97)83522-9
+[research_97_03207_performance_1997]: https://doi.org/10.1016/s0140-6701(97)85082-5
 [research_97_03845_nickel_zinc_1997]: https://doi.org/10.1016/s0140-6701(97)81152-6
+[research_98_02419_effects_1998]: https://doi.org/10.1016/s0140-6701(98)90022-4
 [research_99_03009_nontoxic_1999]: https://doi.org/10.1016/s0140-6701(99)90964-5
 [research_a_method_1964]: https://doi.org/10.1016/0038-092x(64)90021-0
 [research_a_method_1998]: https://doi.org/10.1016/s0275-1062(98)90091-1
+[research_a_new_2009]: https://doi.org/10.1111/j.1468-4004.2009.50506_7.x
 [research_a_study_2024]: https://doi.org/10.62441/nano-ntp.v20is1.31
 [research_abbyzinecker_sydneytaylor]: https://ntrs.nasa.gov/citations/20205006183
+[research_abdallah_dez_2000]: https://doi.org/10.1016/s0022-4073(99)00111-9
+[research_abdelkhalek_2008]: https://doi.org/10.1016/j.commatsci.2007.08.013
 [research_abdelsalam_2005]: https://doi.org/10.1016/j.amc.2005.01.022
 [research_abe_1991]: https://doi.org/10.2322/jjsass1969.39.352
 [research_abe_hori_2019]: https://doi.org/10.3390/en12234507
 [research_abe_shimada_2005]: https://doi.org/10.2322/tjsass.48.135
+[research_abenante_2002]: https://doi.org/10.1016/s0927-0248(01)00115-5
 [research_aborner_aborner]: https://ntrs.nasa.gov/citations/20240002257
+[research_aboudan_colombatti_2008]: https://doi.org/10.1016/j.pss.2007.10.006
 [research_abrahamm_valsa_2018]: https://doi.org/10.18520/cs/v114/i01/144-147
+[research_abshire_sun_2000]: https://doi.org/10.1364/ao.39.002449
+[research_abutaleb_1987]: https://doi.org/10.1080/00207178708934002
+[research_accardo_gentilucci_2025]: https://doi.org/10.1109/ojvt.2025.3579221
 [research_acero_diaz_2023]: https://doi.org/10.1109/access.2023.3271596
 [research_adamcaldwell_jaydfeldman]: https://ntrs.nasa.gov/citations/20220015104
 [research_adamcaldwell_jayfeldman]: https://ntrs.nasa.gov/citations/20230015589
@@ -10442,6 +13185,7 @@ summary of what classification achieves and what it costs.
 [research_adamcaldwell_petermarshall]: https://ntrs.nasa.gov/citations/20250000871
 [research_adamov_puzyrev_2014]: https://doi.org/10.1134/s0021894414050162
 [research_adams_1962]: https://doi.org/10.1063/1.1733420
+[research_adams_1962_b]: https://doi.org/10.21236/ad0408204
 [research_adams_1969]: https://doi.org/10.2514/3.5366
 [research_adams_1975]: https://doi.org/10.2514/3.27820
 [research_adams_1975_b]: https://doi.org/10.2514/3.56999
@@ -10452,27 +13196,38 @@ summary of what classification achieves and what it costs.
 [research_adimurthy_1987]: https://doi.org/10.1016/0094-5765(87)90039-7
 [research_adityachowdhuryvishnugnair_2017]: https://doi.org/10.24247/ijmperdoct201736
 [research_admon_shafie_2011]: https://doi.org/10.3923/jas.2011.1441.1444
+[research_adomeit_hock_1982]: https://doi.org/10.2514/3.51222
 [research_adoni_vaidya_2012]: https://doi.org/10.1080/01457632.2011.640890
+[research_advanced_communication_1995]: https://ntrs.nasa.gov/citations/20050169148
 [research_aeroassisted_manned_1987]: https://ntrs.nasa.gov/citations/19880002354
 [research_aerodynamics_calculation_of_2013]: https://doi.org/10.17958/ksmt.15.6.201312.819
 [research_agarwal_nisar_2025]: https://doi.org/10.1016/j.ceramint.2025.09.427
 [research_aggarwalpravin_2007]: https://ntrs.nasa.gov/citations/20070032031
+[research_aggarwalshiv_2003]: https://ntrs.nasa.gov/citations/20030093594
 [research_aghedo_bowman_2011]: https://doi.org/10.5194/acp-11-6493-2011
 [research_agnone_prakasam_1987]: https://doi.org/10.2514/3.25894
 [research_agranat_bertsun_1979]: https://doi.org/10.1007/bf01409812
+[research_aharonson_zuber_2001]: https://doi.org/10.1029/2000je001403
 [research_ahedo_sanmartin_2002]: https://doi.org/10.2514/2.3820
 [research_ahmad_herdiwijaya_2018]: https://doi.org/10.1186/s40623-018-0852-2
 [research_ahmed_2025]: https://doi.org/10.3390/network5030032
+[research_ahmed_anderson_1977]: https://doi.org/10.21236/ada044742
 [research_ahmed_omizegba_2010]: https://doi.org/10.3923/jeasci.2010.276.281
 [research_ahmed_wyatt_2024]: https://doi.org/10.1109/access.2023.3348068
 [research_ahmedkizzet_2023]: https://doi.org/10.25130/tjps.v20i4.1216
+[research_ai_chen_2019]: https://doi.org/10.1360/n112017-00202
 [research_ai_li_2023]: https://doi.org/10.3390/atmos14040714
 [research_ai_wang_2022]: https://doi.org/10.1016/j.compstruct.2022.116073
+[research_airforcedoctrinecenterhqmaxwellafbal_1998]: https://doi.org/10.21236/ada459658
+[research_airforceresearchlabedwardsafbca_1999]: https://doi.org/10.21236/ada405765
 [research_airforcespacecommandspacemissilesysctr_2013]: https://doi.org/10.21236/ada614737
+[research_airforcetestpilotschooledwardsafbca_1987]: https://doi.org/10.21236/ada320212
+[research_airresearchanddevelopmentcommand_1959]: https://doi.org/10.21236/ada638057
 [research_ajinscb_ajebillapringle_2024]: https://doi.org/10.56501/intjorthodrehabil.v15i2.1064
 [research_akau_larson_1989]: https://doi.org/10.2514/3.26071
 [research_aksen_aslan_2024]: https://doi.org/10.3390/app14093891
 [research_aksnes_1970]: https://doi.org/10.1086/111061
+[research_aksnes_1973]: https://doi.org/10.1007/bf01231425
 [research_alariojp_otterstedtpj_1986]: https://ntrs.nasa.gov/citations/19860055167
 [research_albader_matallah_2014]: https://doi.org/10.5120/15543-4094
 [research_albakri_kluever_2017]: https://doi.org/10.4236/aast.2017.24004
@@ -10481,6 +13236,8 @@ summary of what classification achieves and what it costs.
 [research_albu_2022]: https://doi.org/10.1177/08933189211068536
 [research_albynk_finckenorm_2006]: https://ntrs.nasa.gov/citations/20070021467
 [research_aldahoul_karim_2022]: https://doi.org/10.1038/s41598-022-25859-y
+[research_aleksanderzibitsker_ericstern]: https://ntrs.nasa.gov/citations/20220014385
+[research_alexander_tm_1978]: https://doi.org/10.21236/ada063655
 [research_alexanderdurkin_alindamashiku]: https://ntrs.nasa.gov/citations/20250000501
 [research_alexanderleslie_chapmanjack_2008]: https://ntrs.nasa.gov/citations/20080036842
 [research_alfriend_lewis_1994]: https://doi.org/10.2514/3.26401
@@ -10488,17 +13245,23 @@ summary of what classification achieves and what it costs.
 [research_alharbi_umair_2025]: https://doi.org/10.1109/access.2025.3530351
 [research_alhourani_2024]: https://doi.org/10.1109/taes.2024.3414959
 [research_alhourani_manzoor_2026]: https://doi.org/10.1016/j.actaastro.2025.09.047
+[research_alielsaie_kafrawi_1981]: https://doi.org/10.1016/s0011-9164(00)86072-5
+[research_alimov_greb_2001]: https://doi.org/10.1023/a:1013252917957
 [research_alindakmashiku_lauriknewman]: https://ntrs.nasa.gov/citations/20250008251
 [research_alindamashiku]: https://ntrs.nasa.gov/citations/20220001876
 [research_alizadeh_zhu_2024]: https://doi.org/10.3389/frobt.2024.1470950
 [research_allan_1961]: https://doi.org/10.1038/190615a0
+[research_allen_2002]: https://doi.org/10.1016/s0265-9646(02)00009-7
+[research_allendavid_schmidtrobert_1992]: https://ntrs.nasa.gov/citations/19930013449
 [research_allisongregoryh_2018]: https://ntrs.nasa.gov/citations/20180003491
 [research_alotaibi_martingarcia_2026]: https://doi.org/10.2514/1.a36624
 [research_alsawad_zaki_2022]: https://doi.org/10.14704/nq.2022.20.4.nq22126
 [research_altman_1961]: https://doi.org/10.1016/0032-0633(61)90294-x
+[research_alvarex_1999]: https://doi.org/10.21236/ada371978
 [research_alzubairi_tameem_2024]: https://doi.org/10.1016/j.sciaf.2024.e02391
 [research_amandaestark_willgrier]: https://ntrs.nasa.gov/citations/20260002836
 [research_ambrose_2019]: https://doi.org/10.1007/s12217-019-9693-2
+[research_ambrose_yendler_2000]: https://doi.org/10.2514/2.3642
 [research_ambrus_2020]: https://doi.org/10.32565/aarms.2020.2.2
 [research_amis_naber_2003]: https://doi.org/10.1166/sl.2003.015
 [research_ammendola_kedir_2025]: https://doi.org/10.1016/j.ceramint.2025.04.293
@@ -10508,13 +13271,17 @@ summary of what classification achieves and what it costs.
 [research_amundsenruthm_decjohna_2003]: https://ntrs.nasa.gov/citations/20030066233
 [research_amundsenruthm_decjohna_2007]: https://ntrs.nasa.gov/citations/20070030304
 [research_an_zhang_2022]: https://doi.org/10.1016/j.solener.2022.11.016
-[research_ananya_raghu_2017]: https://doi.org/10.1039/c6ta10553j
 [research_anderson_1966]: https://doi.org/10.1016/0032-0633(66)90091-2
+[research_anderson_1968]: https://doi.org/10.2514/3.4593
+[research_anderson_1989]: https://doi.org/10.1086/167317
 [research_anderson_guignet_2013]: https://doi.org/10.2514/1.a32368
 [research_anderson_hattar_1988]: https://doi.org/10.2514/3.78
+[research_anderson_rothstein_1998]: https://doi.org/10.21236/ada367204
 [research_anderson_turyshev_1997]: https://doi.org/10.1016/s0032-0633(96)00091-8
+[research_andersonbj_justuscg_2001]: https://ntrs.nasa.gov/citations/20020004360
 [research_andiarti_moog_1995]: https://doi.org/10.2514/3.21478
 [research_andrenacci_pasquali_2024]: https://doi.org/10.3390/batteries10070234
+[research_andreon_2010]: https://doi.org/10.1111/j.1365-2966.2010.16856.x
 [research_andresdonoperez_joseluisalbertoalvarellos]: https://ntrs.nasa.gov/citations/20230002131
 [research_andresdonoperez_joseluisalbertoalvarellos_b]: https://ntrs.nasa.gov/citations/20230001414
 [research_andress_1999]: https://doi.org/10.21236/ada371927
@@ -10525,12 +13292,14 @@ summary of what classification achieves and what it costs.
 [research_aneja_2024]: https://doi.org/10.22214/ijraset.2024.6340763830
 [research_anfimov_1966]: https://doi.org/10.1007/bf01016262
 [research_anguchamy_popov_2010]: https://doi.org/10.1149/ma2010-01/3/236
+[research_angular_solar_2001]: https://doi.org/10.1016/s0140-6701(01)80437-9
 [research_anilkumar_mukherjee_2025]: https://doi.org/10.1007/s41403-025-00542-6
 [research_anilkumar_reddy_2009]: https://doi.org/10.2514/1.36976
 [research_anitha_sharma_2011]: https://doi.org/10.1016/j.actaastro.2011.01.003
 [research_annett_dennis_2018]: https://doi.org/10.1080/03071847.2018.1472945
 [research_anselmo_pardini_2015]: https://doi.org/10.1016/j.actaastro.2015.04.024
 [research_anthonylgenova_dylanmorrisonfogel]: https://ntrs.nasa.gov/citations/20220005143
+[research_antoniogiovannischoeichich_thomasjwhalen]: https://ntrs.nasa.gov/citations/20205010490
 [research_antonova_skiba_1968]: https://doi.org/10.1007/bf00889038
 [research_aono_ueno_2019]: https://doi.org/10.1299/jsmeted.2019.0138
 [research_aorpimai_navakitkanok_2015]: https://doi.org/10.4028/www.scientific.net/amm.781.495
@@ -10539,7 +13308,9 @@ summary of what classification achieves and what it costs.
 [research_appar_kumar_2021]: https://doi.org/10.1080/10618562.2021.2017900
 [research_appar_kumar_2022]: https://doi.org/10.1063/5.0082783
 [research_appar_poovathingal_2026]: https://doi.org/10.1016/j.ast.2025.111550
+[research_appleton_1963]: https://doi.org/10.1016/0021-9169(63)90030-8
 [research_application_of_combined_2012]: https://doi.org/10.18698/2308-6033-2012-9-370
+[research_approximate_analysis_1965]: https://doi.org/10.1016/0032-0633(65)90012-7
 [research_aprovitola_iuspa_2019]: https://doi.org/10.1155/2019/6069528
 [research_aprovitola_iuspa_2021]: https://doi.org/10.1016/j.actaastro.2021.06.034
 [research_arai_2007]: https://doi.org/10.1587/bplus.2007.3_54
@@ -10550,11 +13321,17 @@ summary of what classification achieves and what it costs.
 [research_archer_sworder_1979]: https://doi.org/10.2514/3.55848
 [research_ardaens_gaias_2018]: https://doi.org/10.1016/j.asr.2018.03.016
 [research_ardaens_gaias_2019]: https://doi.org/10.1016/j.asr.2019.03.001
+[research_ardemamarkd_bowlesjeffreyv_1994]: https://ntrs.nasa.gov/citations/19950053285
 [research_argentiero_schmid_1979]: https://doi.org/10.1029/jb084ib08p03921
 [research_arguchintseva_1999]: https://doi.org/10.1016/s1474-6670(17)57385-1
 [research_argyris_doltsinis_1989]: https://doi.org/10.1016/0045-7825(89)90097-2
+[research_ariel_1994]: https://doi.org/10.1016/0093-6413(94)90066-3
+[research_ariel_1994_b]: https://doi.org/10.1115/1.2901589
+[research_armaly_saad_1972]: https://doi.org/10.1016/0022-4073(72)90162-8
+[research_armstrong_colborn_1992]: https://doi.org/10.1016/1359-0189(92)90089-e
 [research_armywarcollcarlislebarrackspa_1961]: https://doi.org/10.21236/ada488095
 [research_arnas_2021]: https://doi.org/10.1016/j.actaastro.2020.10.035
+[research_arnold_bram_1962]: https://doi.org/10.21236/ad0298008
 [research_aronov_klyagin_2021]: https://doi.org/10.34759/tpt-2021-13-10-456-466
 [research_arringtonjp_woodswc_1972]: https://ntrs.nasa.gov/citations/19720015257
 [research_arthur_1999]: https://doi.org/10.1215/s0012-7094-99-09909-x
@@ -10572,13 +13349,18 @@ summary of what classification achieves and what it costs.
 [research_aslanov_2019]: https://doi.org/10.2514/1.a34384
 [research_aslanov_doroshin_2002]: https://doi.org/10.1023/a:1015153521409
 [research_aslanov_ledkov_2021]: https://doi.org/10.1016/j.actaastro.2021.06.028
+[research_asnin_1974]: https://doi.org/10.2514/3.62180
 [research_asnin_roos_1973]: https://doi.org/10.2514/3.61942
 [research_asri_zhu_2024]: https://doi.org/10.1002/msd2.12098
+[research_assanis_1989]: https://doi.org/10.1016/0890-4332(89)90151-8
+[research_atchison_maynard_2025]: https://doi.org/10.2514/1.a36295
 [research_atkins_bass_2008]: https://doi.org/10.21236/ada486765
 [research_attitude_control_and_2025]: https://doi.org/10.71097/ijsat.v16.i1.2033
 [research_audley_hodge_1982]: https://doi.org/10.1016/s1474-6670(17)63185-9
+[research_auelmann_1965]: https://doi.org/10.2514/3.2887
 [research_augenstein_1959]: https://doi.org/10.1115/1.4008318
 [research_austinricks_lockroberte_1993]: https://ntrs.nasa.gov/citations/20210004602
+[research_avallone_schrijer_2016]: https://doi.org/10.1063/1.4941527
 [research_avanzini_deangelis_2021]: https://doi.org/10.1016/j.ast.2021.106884
 [research_avduevskii_ivanov_1968]: https://doi.org/10.1007/bf01019892
 [research_averyde_1978]: https://ntrs.nasa.gov/citations/19780020430
@@ -10587,14 +13369,21 @@ summary of what classification achieves and what it costs.
 [research_averyde_shidelerjl_1981]: https://ntrs.nasa.gov/citations/19820006404
 [research_avni_1976]: https://doi.org/10.1086/154752
 [research_awad_ahmed_1999]: https://doi.org/10.21608/asat.1999.25099
+[research_awad_hassan_1995]: https://doi.org/10.1007/bf00627767
 [research_awasth_2022]: https://doi.org/10.22214/ijraset.2022.42686
+[research_axford_1961]: https://doi.org/10.1007/bf02922226
+[research_azhar_habeeb_2022]: https://doi.org/10.4273/ijvss.14.7.21
 [research_backman_gild_2024]: https://doi.org/10.1016/j.oceram.2024.100563
 [research_backman_graham_2024]: https://doi.org/10.1007/s11085-024-10247-w
+[research_badcock_haag_1988]: https://doi.org/10.21236/ada191946
 [research_badcockc_mildenm_1985]: https://ntrs.nasa.gov/citations/19850023096
 [research_bae_bang_2026]: https://doi.org/10.1016/j.asr.2025.10.073
 [research_bae_kim_2024]: https://doi.org/10.2514/1.g006918
 [research_bae_lee_2022]: https://doi.org/10.1007/s12555-021-0580-4
 [research_baek_jung_2022]: https://doi.org/10.1016/j.ijheatmasstransfer.2022.123064
+[research_baek_lee_2008]: https://doi.org/10.1007/s12206-008-0501-y
+[research_baganoff_1990]: https://doi.org/10.21236/ada222704
+[research_bagiorgas_mihalakakou_2008]: https://doi.org/10.1016/j.renene.2007.04.015
 [research_bahr_disimile_1995]: https://doi.org/10.2514/3.26721
 [research_bai_jiang_2021]: https://doi.org/10.1109/access.2021.3056458
 [research_bai_liao_2019]: https://doi.org/10.1109/access.2019.2940248
@@ -10602,28 +13391,37 @@ summary of what classification achieves and what it costs.
 [research_bai_wang_2021]: https://doi.org/10.1109/maes.2020.3043137
 [research_baileymichelle_danielcharles_2002]: https://ntrs.nasa.gov/citations/20020020362
 [research_baird_1998]: https://doi.org/10.2514/3.26998
+[research_bakalyar_1977]: https://doi.org/10.21236/ada038805
+[research_baker_kramer_1982]: https://doi.org/10.21236/ada114013
 [research_bakhshyan_yastrzhembsky_1985]: https://doi.org/10.1016/0273-1177(85)90084-5
 [research_bakirci_2024]: https://doi.org/10.26701/ems.1466031
 [research_balakin_ishkov_2018]: https://doi.org/10.18287/2541-7533-2018-17-2-23-36
+[research_baldauff_kawecki_2008]: https://doi.org/10.21236/ada517559
 [research_balepin_czysz_2001]: https://doi.org/10.2514/2.5870
 [research_balint_kaslik_2010]: https://doi.org/10.1016/j.nonrwa.2009.04.017
 [research_ballard_1979]: https://doi.org/10.2307/3963827
 [research_ballard_weaver_2010]: https://doi.org/10.1016/j.jeurceramsoc.2010.03.015
 [research_ballistic_problems_in_2015]: https://doi.org/10.18698/2308-6033-2015-6-1428
+[research_balme_mangold_2006]: https://doi.org/10.1029/2005je002607
 [research_baluragi_gupta_2011]: https://doi.org/10.1007/s12666-011-0073-x
 [research_bandini_marracci_2024]: https://doi.org/10.1109/tim.2024.3400339
 [research_banerjee_guo_2018]: https://doi.org/10.1002/solr.201800007
 [research_bang_hong_2023]: https://doi.org/10.5140/jass.2023.40.4.217
 [research_banik_ali_2025]: https://doi.org/10.1049/icp.2025.4075
+[research_banik_lively_2007]: https://doi.org/10.2514/1.22902
+[research_banks_1978]: https://doi.org/10.1016/0032-0633(78)90020-x
 [research_banks_snyder_2004]: https://doi.org/10.2514/1.10726
 [research_banksbrucea_2011]: https://ntrs.nasa.gov/citations/20120006640
 [research_banksbrucea_millersharonk_2017]: https://ntrs.nasa.gov/citations/20170004514
 [research_banksbrucea_rutledgesharonk_1989]: https://ntrs.nasa.gov/citations/19890063752
+[research_bansal_modest_2011]: https://doi.org/10.1016/j.jqsrt.2010.09.012
 [research_bao_jiang_2022]: https://doi.org/10.3390/en15124399
 [research_bao_vosgueritchian_2013]: https://doi.org/10.1117/2.1201301.004711
+[research_bao_zhu_2024]: https://doi.org/10.3390/app14135367
 [research_baoyin_yu_2013]: https://doi.org/10.2514/1.a32367
 [research_baranov_grishko_2017]: https://doi.org/10.1016/j.asr.2017.03.021
 [research_baranova_spiridonov_2024]: https://doi.org/10.5140/jass.2024.41.3.159
+[research_baratoux_delacourt_2001]: https://doi.org/10.1029/2000je001454
 [research_barbano_2022]: https://doi.org/10.54648/aila2022023
 [research_barbeebrentwilliam_carpenterjrussell_2010]: https://ntrs.nasa.gov/citations/20100019266
 [research_bard_1984]: https://doi.org/10.2514/3.8626
@@ -10636,28 +13434,47 @@ summary of what classification achieves and what it costs.
 [research_barkova_2022]: https://doi.org/10.34759/trd-2022-125-01
 [research_barlier_2005]: https://doi.org/10.1016/j.crte.2005.07.007
 [research_barnhart_rughani_2020]: https://doi.org/10.1016/j.jsse.2020.02.002
+[research_barone_nicholson_2022]: https://doi.org/10.1103/physrevfluids.7.084604
+[research_barrowsd_bedellh_1983]: https://ntrs.nasa.gov/citations/19830062959
 [research_barry_2022]: https://doi.org/10.1089/space.2021.0022
 [research_bartonek_lazar_2023]: https://doi.org/10.1016/j.actaastro.2022.11.052
+[research_bartosiklg_babelhw_1990]: https://ntrs.nasa.gov/citations/19910009835
 [research_barzi_assadi_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.200
+[research_basana_branz_2022]: https://doi.org/10.1016/j.jsse.2022.06.005
 [research_basha_bansal_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.570
+[research_baskaya_hickel_2025]: https://doi.org/10.1063/5.0281627
+[research_bass_1980]: https://doi.org/10.21236/ada086868
+[research_bassett_trethowen_1984]: https://doi.org/10.1177/109719638400800207
 [research_baston_moorehead_1976]: https://doi.org/10.1109/mcomd.1976.1089202
+[research_bataille_2024]: https://doi.org/10.17047/hadtud.2024.34.1.75
 [research_bateman_benezra_1966]: https://doi.org/10.2514/3.3661
+[research_bates_1962]: https://doi.org/10.1016/0032-0633(62)90146-0
+[research_bates_1970]: https://doi.org/10.1016/0021-9169(70)90127-3
 [research_batesdavid_leeallan_2013]: https://ntrs.nasa.gov/citations/20150007831
 [research_bathi_2026]: https://doi.org/10.55041/ijsrem56510
 [research_battiston_burger_2017]: https://doi.org/10.1016/j.jsse.2017.02.003
+[research_bauer_1969]: https://doi.org/10.1016/0022-4073(69)90003-x
 [research_bauer_hussmann_2016]: https://doi.org/10.1016/j.pss.2016.06.005
 [research_baumann_2001]: https://doi.org/10.2514/2.4773
 [research_baumann_oberle_2000]: https://doi.org/10.1023/a:1026454013374
+[research_baxter_1980]: https://doi.org/10.2514/3.55962
 [research_bayle_1984]: https://doi.org/10.2514/3.8538
 [research_bazhenov_didenko_2016]: https://doi.org/10.1615/tsagiscij.2016018285
+[research_beard_2024]: https://doi.org/10.1016/j.jsse.2024.06.008
+[research_beardslee_1964]: https://doi.org/10.21236/ad0616993
 [research_beasley_2004]: https://doi.org/10.21236/ada424969
+[research_beauchamp_sindorf_1988]: https://doi.org/10.1016/0378-7753(88)80018-1
 [research_beavers_2021]: https://doi.org/10.18278/sesa.2.1.9
+[research_beck_songer_2021]: https://doi.org/10.2514/1.a35078
 [research_beckman_scoon_1986]: https://doi.org/10.1016/0094-5765(86)90121-9
 [research_beckr_arnoldj_2014]: https://ntrs.nasa.gov/citations/20160011348
+[research_beckra_szalaice_2019]: https://ntrs.nasa.gov/citations/20190001660
 [research_bedrov_vadichin_1965]: https://doi.org/10.1016/s1474-6670(17)69124-9
 [research_bekeyivan_1994]: https://ntrs.nasa.gov/citations/19950036755
 [research_belgacem_belgacem_2026]: https://doi.org/10.1002/sat.70032
 [research_belhachat_larbes_2015]: https://doi.org/10.1016/j.solener.2015.07.039
+[research_bell_1964]: https://doi.org/10.21236/ad0601856
+[research_bell_1965]: https://doi.org/10.21236/ad0631590
 [research_bell_1980]: https://doi.org/10.1029/eo061i033p00577-03
 [research_bell_ginsburg_1995]: https://doi.org/10.2514/3.56666
 [research_belmajdoub_lajouad_2024]: https://doi.org/10.1016/j.ifacol.2024.07.525
@@ -10677,13 +13494,18 @@ summary of what classification achieves and what it costs.
 [research_bennett_2025]: https://doi.org/10.1038/s44172-025-00430-5
 [research_bennett_carpenter_2023]: https://doi.org/10.2514/1.a35495
 [research_benninghoff_boge_2014]: https://doi.org/10.1007/s13218-014-0297-0
+[research_benson_james_2005]: https://doi.org/10.1016/j.icarus.2004.08.025
 [research_berecibar_garmendia_2016]: https://doi.org/10.1016/j.energy.2016.02.163
 [research_berend_bertrand_2007]: https://doi.org/10.1016/j.ast.2007.01.007
 [research_berend_bertrand_2009]: https://doi.org/10.1016/j.actaastro.2009.04.016
 [research_berend_talbot_2006]: https://doi.org/10.1016/j.ast.2005.11.004
+[research_berger_char_2002]: https://doi.org/10.1076/orbi.21.3.199.7180
+[research_berger_willner_1971]: https://doi.org/10.2514/3.30219
+[research_bering_ignatiev_1990]: https://doi.org/10.2514/3.26102
 [research_bernard_abelson_2013]: https://doi.org/10.1016/j.asr.2013.03.015
 [research_bernat_2020]: https://doi.org/10.37105/iboa.94
 [research_bernotpt_1979]: https://ntrs.nasa.gov/citations/19790014013
+[research_berry_wiley_1969]: https://doi.org/10.2514/3.29708
 [research_berrydavid_guinnjoseph_2012]: https://ntrs.nasa.gov/citations/20140002054
 [research_berryscotta_horvaththomasj_1999]: https://ntrs.nasa.gov/citations/20040086858
 [research_berthet_2025]: https://doi.org/10.1016/j.asr.2025.12.076
@@ -10693,18 +13515,25 @@ summary of what classification achieves and what it costs.
 [research_bertin_bouslog_1996]: https://doi.org/10.2514/3.26785
 [research_bertotti_2001]: https://doi.org/10.1023/a:1012294606622
 [research_berwinmkock_fitzhughlfultonjr_1970]: https://ntrs.nasa.gov/citations/19710000635
+[research_beshaj_morselli_2024]: https://doi.org/10.1016/j.asr.2024.07.021
 [research_betancur_mangini_2020]: https://doi.org/10.1016/j.tsep.2019.100360
 [research_betin_1991]: https://doi.org/10.1016/0265-9646(91)90024-c
 [research_betts_1977]: https://doi.org/10.2514/3.7373
 [research_beutler_schildknecht_2003]: https://doi.org/10.1016/s0273-1177(03)00171-6
 [research_bevilacqua_kumar_2019]: https://doi.org/10.1016/j.actaastro.2019.02.027
+[research_beynon_rangaswamy_1969]: https://doi.org/10.1016/0021-9169(69)90136-6
 [research_bhagat_watt_2016]: https://doi.org/10.5098/fhp.6.7
+[research_bhandaripradeep_redmondmatt_2016]: https://ntrs.nasa.gov/citations/20190025573
 [research_bharadwaj_iyer_2019]: https://doi.org/10.5553/iisl/2019062001008
+[research_bharadwaj_rao_1998]: https://doi.org/10.2514/2.4318
+[research_bhat_2009]: https://doi.org/10.2514/1.40996
 [research_bhattacharya_kota_2017]: https://doi.org/10.1002/aenm.201770092
 [research_bhattad_aneesha_2025]: https://doi.org/10.1007/s10973-025-14987-y
 [research_bhusal_subbarao_2019]: https://doi.org/10.1007/s40295-019-00176-1
+[research_bi_mao_2024]: https://doi.org/10.1016/j.cja.2024.06.017
 [research_biamino_antonini_2010]: https://doi.org/10.1016/j.jeurceramsoc.2010.01.040
 [research_biamino_liedtke_2008]: https://doi.org/10.1016/j.jeurceramsoc.2008.04.006
+[research_bian_sun_2026]: https://doi.org/10.2514/1.a36319
 [research_bian_xu_2018]: https://doi.org/10.1088/1755-1315/168/1/012009
 [research_bianchi_niccolai_2024]: https://doi.org/10.1016/j.asr.2024.01.024
 [research_bibbkarenl_walkerericl_2011]: https://ntrs.nasa.gov/citations/20110013644
@@ -10716,6 +13545,7 @@ summary of what classification achieves and what it costs.
 [research_bilitza_rawer_1988]: https://doi.org/10.1029/rs023i003p00223
 [research_billik_price_1963]: https://doi.org/10.2514/3.1935
 [research_bills_1992]: https://doi.org/10.1029/92gl01067
+[research_bills_nerem_2001]: https://doi.org/10.1029/2000je001279
 [research_binebrinkal_radomskims_1989]: https://ntrs.nasa.gov/citations/19900004123
 [research_biophysical_study_1985]: https://doi.org/10.1093/oxfordjournals.rpd.a079448
 [research_biria_marchand_2014]: https://doi.org/10.2514/1.a32622
@@ -10723,38 +13553,57 @@ summary of what classification achieves and what it costs.
 [research_birurgaj_rodriquezjose_1999]: https://ntrs.nasa.gov/citations/20010003945
 [research_birurgc_kuj_2001]: https://ntrs.nasa.gov/citations/20210004880
 [research_biryukov_kurguzov_2020]: https://doi.org/10.34759/vst-2020-1-180-190
+[research_biswalm_2023]: https://doi.org/10.61359/11.2106-2303
+[research_biswell_puigsuari_1998]: https://doi.org/10.2514/2.4234
 [research_biswell_puigsuari_2002]: https://doi.org/10.1007/bf03546246
 [research_biyogonchama_shi_2026]: https://doi.org/10.1016/j.ast.2026.111954
+[research_bjorkman_wood_2001]: https://doi.org/10.1086/321336
+[research_black_crocker_1968]: https://doi.org/10.2514/3.29248
 [research_blackstock_1970]: https://doi.org/10.2514/3.30113
+[research_blake_1981]: https://doi.org/10.2514/3.28065
+[research_blake_1992]: https://doi.org/10.21236/ada252394
+[research_blake_cox_1988]: https://doi.org/10.21236/ada204202
+[research_blanc_letraon_1995]: https://doi.org/10.1175/1520-0426(1995)012<0150:roefab>2.0.co;2
 [research_blanchardrc_hinsonew_1989]: https://ntrs.nasa.gov/citations/19910036559
 [research_blanchardrc_rutherfordjf_1984]: https://ntrs.nasa.gov/citations/19840035337
 [research_blanchfield_carter_2025]: https://doi.org/10.1029/2025sw004472
 [research_bleeker_1989]: https://doi.org/10.3109/01676838909087643
 [research_bleick_1963]: https://doi.org/10.2514/3.1779
+[research_bleick_faulkner_1963]: https://doi.org/10.21236/ad0425513
 [research_blitzer_1959]: https://doi.org/10.1126/science.129.3345.329
 [research_blitzer_1971]: https://doi.org/10.1119/1.1986317
 [research_blitzer_anderson_1981]: https://doi.org/10.1007/bf01301807
+[research_bloor_1968]: https://doi.org/10.2514/3.4915
 [research_blosserml_powellrw_1985]: https://ntrs.nasa.gov/citations/19850056296
 [research_blott_wells_1997]: https://doi.org/10.1016/s0094-5765(98)00096-4
+[research_bludman_1998]: https://doi.org/10.1086/306412
+[research_blumpw_1972]: https://ntrs.nasa.gov/citations/19730007700
 [research_bo_1996]: https://doi.org/10.21236/ada306446
 [research_bobojc_2008]: https://doi.org/10.2478/v10018-009-0010-y
 [research_bobojc_drozyner_2003]: https://doi.org/10.5194/adgeo-1-109-2003
 [research_bobojc_drozyner_2007]: https://doi.org/10.2478/v10018-008-0004-1
 [research_bodeau_2015]: https://doi.org/10.1109/tps.2015.2407866
 [research_bogart_breckenridge_1981]: https://doi.org/10.21236/ada106728
+[research_bogdonoff_1970]: https://doi.org/10.21236/ad0708757
+[research_bogdonoff_1999]: https://doi.org/10.21236/ada370547
 [research_boge_benninghoff_2013]: https://doi.org/10.3182/20130902-5-de-2040.00093
 [research_boggan_clarke_2026]: https://doi.org/10.1149/ma2026-01552577mtgabs
 [research_bogoi_stratila_2025]: https://doi.org/10.3390/sym17030402
 [research_bohdanowesely_paulfwercinski]: https://ntrs.nasa.gov/citations/20260001756
+[research_bohm_scheer_1985]: https://doi.org/10.1016/0196-8904(85)90077-9
 [research_boison_1959]: https://doi.org/10.2514/8.4699
+[research_boissonneau_1999]: https://doi.org/10.1016/s0196-8904(99)00072-2
+[research_bojic_lee_2002]: https://doi.org/10.1016/s0378-7788(01)00078-0
 [research_bojun_zhanchao_2019]: https://doi.org/10.2514/1.a34450
 [research_bolandi_abrehdari_2018]: https://doi.org/10.1061/(asce)as.1943-5525.0000823
 [research_boley_byers_2021]: https://doi.org/10.1038/s41598-021-89909-7
 [research_bond_martin_1989]: https://doi.org/10.1016/0094-5765(89)90010-6
 [research_bonfitto_2020]: https://doi.org/10.3390/en13102548
 [research_bongers_ortiz_2025]: https://doi.org/10.1007/s10640-025-01003-y
+[research_bonin_kaya_2007]: https://doi.org/10.2514/1.28670
 [research_bonnard_caillau_2007]: https://doi.org/10.1016/j.crma.2007.07.028
 [research_bonneville_1971]: https://doi.org/10.1016/0017-9310(71)90158-x
+[research_boobar_repic_1967]: https://doi.org/10.2514/3.28928
 [research_borelli_colombo_2026]: https://doi.org/10.1016/j.asr.2025.12.059
 [research_borg_russomano_1959]: https://doi.org/10.1002/zamm.19590390509
 [research_borg_soderholm_2008]: https://doi.org/10.1016/j.euromechflu.2007.11.001
@@ -10771,25 +13620,32 @@ summary of what classification achieves and what it costs.
 [research_bosanacnatasha_coxandrew_2017]: https://ntrs.nasa.gov/citations/20170001466
 [research_bosanquet_1958]: https://doi.org/10.1038/1821533a0
 [research_bosch_diller_2024]: https://doi.org/10.1149/ma2024-02104969mtgabs
+[research_bose_white_2014]: https://doi.org/10.2514/1.a32783
 [research_bosedeepak_santosjose_2016]: https://ntrs.nasa.gov/citations/20160009110
 [research_bosma_levadou_1980]: https://doi.org/10.2514/3.57774
 [research_bossija_langehoughma_1991]: https://ntrs.nasa.gov/citations/19910008803
+[research_bougher_keating_1999]: https://doi.org/10.1016/s0273-1177(99)00272-0
 [research_bougher_murphy_2006]: https://doi.org/10.1555/mars.2006.0002
 [research_boulton_1983]: https://doi.org/10.1098/rspa.1983.0114
 [research_boulton_swinerd_1983]: https://doi.org/10.1098/rspa.1983.0026
 [research_boumeftah_kurt_2025]: https://doi.org/10.1049/icp.2025.4051
 [research_bounds_for_1975]: https://doi.org/10.2514/3.56974
 [research_bouquet_baratoux_2014]: https://doi.org/10.1016/j.pss.2014.09.001
+[research_bouquet_koprowski_1982]: https://doi.org/10.1109/tns.1982.4336417
 [research_boutamine_reynier_2007]: https://doi.org/10.2514/1.27610
 [research_bowamn_1975]: https://doi.org/10.1016/0032-0633(75)90188-9
 [research_bowden_2022]: https://doi.org/10.1016/j.actaastro.2022.05.005
 [research_bowen_2018]: https://doi.org/10.1080/03071847.2018.1494349
 [research_bowmancheryll_jaworskedonalda_2007]: https://ntrs.nasa.gov/citations/20070005014
 [research_boyceclay_2009]: https://ntrs.nasa.gov/citations/20100027319
+[research_boyd_2002]: https://doi.org/10.21236/ada414031
+[research_boyd_2004]: https://doi.org/10.21236/ada422121
+[research_boyd_2008]: https://doi.org/10.21236/ada573606
 [research_bradley_foss_1987]: https://doi.org/10.2514/3.25897
 [research_bradleypf_throckmortonda_1981]: https://ntrs.nasa.gov/citations/19810018895
 [research_bragailla_1969]: https://doi.org/10.2514/3.29578
 [research_bragailla_1969_b]: https://doi.org/10.2514/3.59624
+[research_bragailla_1969_c]: https://doi.org/10.21236/ad0697955
 [research_bramer_lurie_1971]: https://doi.org/10.13182/nt71-a30888
 [research_bramson_1969]: https://doi.org/10.2307/3614940
 [research_brandonrwilliams_peteraliever]: https://ntrs.nasa.gov/citations/20240000226
@@ -10798,49 +13654,82 @@ summary of what classification achieves and what it costs.
 [research_brauckmanngregoryj_1998]: https://ntrs.nasa.gov/citations/20040087392
 [research_braun_klinkrad_2019]: https://doi.org/10.1016/j.actaastro.2019.01.027
 [research_braun_powell_1991]: https://doi.org/10.2514/3.26255
+[research_braun_powell_1992]: https://doi.org/10.2514/3.26351
+[research_braun_powell_1992_b]: https://doi.org/10.2514/3.20890
 [research_braunrobertd_suitwilliamt_1988]: https://ntrs.nasa.gov/citations/19880010191
 [research_breakwell_chanal_1986]: https://doi.org/10.1016/0094-5765(86)90083-4
 [research_brearley_quaggiato_2013]: https://doi.org/10.1016/j.spacepol.2013.10.003
+[research_breda_markova_2026]: https://doi.org/10.1016/j.jsse.2026.02.003
+[research_breig_crosbie_1973]: https://doi.org/10.1016/0022-4073(73)90050-2
+[research_breig_crosbie_1974]: https://doi.org/10.1016/0022-4073(74)90056-9
+[research_breig_crosbie_1974_b]: https://doi.org/10.1016/0022-4073(74)90091-0
+[research_breig_crosbie_1975]: https://doi.org/10.1016/0022-4073(75)90015-1
 [research_brenner_1962]: https://doi.org/10.2514/8.6333
 [research_brenner_koblinsky_1990]: https://doi.org/10.1029/jc095ic03p03033
 [research_brescia_ballou_1964]: https://doi.org/10.21236/ad0435551
 [research_brevault_balesdent_2020]: https://doi.org/10.2514/1.a34601
+[research_brewer_manzo_1990]: https://doi.org/10.1016/0378-7753(90)85009-2
 [research_brewer_saydah_1973]: https://doi.org/10.2514/3.27733
 [research_brewerjeffreyc_manzomichellea_1989]: https://ntrs.nasa.gov/citations/19900011147
 [research_brianrhollis_kevinehollingsworth_2023]: https://ntrs.nasa.gov/citations/20230001707
+[research_brianrhollis_kevinehollingsworth_2025]: https://ntrs.nasa.gov/citations/20250001360
+[research_bridge_binsack_1985]: https://doi.org/10.21236/ada164561
 [research_brinda_dasgupta_2006]: https://doi.org/10.2514/1.23221
 [research_brinkerdavidj_hickeyjohnr_1990]: https://ntrs.nasa.gov/citations/19910009852
+[research_briskman_2000]: https://doi.org/10.21236/ada400180
 [research_brociek_hetmaniok_2022]: https://doi.org/10.2139/ssrn.4305632
 [research_brociek_hetmaniok_2023]: https://doi.org/10.1016/j.applthermaleng.2022.119405
 [research_brociek_hetmaniok_2023_b]: https://doi.org/10.1016/j.ijthermalsci.2023.108229
+[research_brody_ellis_1990]: https://doi.org/10.2514/3.26191
 [research_brodykbessire_jeremiemeurisse]: https://ntrs.nasa.gov/citations/20260001763
 [research_brodzik_frackowiak_2019]: https://doi.org/10.2298/tsci19s4025b
+[research_broglio_1961]: https://doi.org/10.21236/ad0294976
 [research_brotzman_coletta_2026]: https://doi.org/10.7759/cureus.109510
+[research_broucke_1994]: https://doi.org/10.1007/bf00695787
 [research_brouwer_hori_1961]: https://doi.org/10.1086/108399
 [research_brouwer_hori_1961_b]: https://doi.org/10.1086/108406
+[research_brower_2006]: https://doi.org/10.2514/1.12863
 [research_brower_hori_1960]: https://doi.org/10.1086/108070
 [research_brown_2020]: https://doi.org/10.1080/14777622.2020.1718999
+[research_brown_donbar_2013]: https://doi.org/10.21236/ada578570
+[research_brown_donbar_2015]: https://doi.org/10.21236/ada613800
 [research_brown_ogawa_2008]: https://doi.org/10.1016/j.jpowsour.2008.07.071
 [research_brown_olds_2006]: https://doi.org/10.2514/1.16577
+[research_brownjamesl_2014]: https://ntrs.nasa.gov/citations/20140011158
 [research_bruce_1961]: https://doi.org/10.2514/8.5765
+[research_bruce_1964]: https://doi.org/10.21236/ad0602669
+[research_bruce_1965]: https://doi.org/10.2514/3.3123
+[research_brucekevinr_1987]: https://ntrs.nasa.gov/citations/19870017485
+[research_brucekevinr_1988]: https://ntrs.nasa.gov/citations/19880010924
+[research_brucekr_kellyjr_1986]: https://ntrs.nasa.gov/citations/19860062778
 [research_bruessec_1965]: https://ntrs.nasa.gov/citations/19650016807
 [research_bruinsma_sutton_2018]: https://doi.org/10.1029/2018sw002027
+[research_brumberg_brumberg_1995]: https://doi.org/10.1007/bf00049516
 [research_brumley_perich_2022]: https://doi.org/10.1002/iis2.12881
+[research_brunner_lu_2008]: https://doi.org/10.2514/1.35055
 [research_brusch_1977]: https://doi.org/10.2514/3.27983
 [research_brusch_1979]: https://doi.org/10.2514/3.55862
+[research_bryant_edwards_1973]: https://doi.org/10.21236/ad0755399
 [research_bryson_denham_1962]: https://doi.org/10.2514/8.6166
+[research_buchar_1958]: https://doi.org/10.1007/bf02585270
+[research_buckgregorya_liweiming_1993]: https://ntrs.nasa.gov/citations/19930062581
 [research_buckgregorym_watkinsaneal_2008]: https://ntrs.nasa.gov/citations/20080008558
+[research_buckingham_lim_1965]: https://doi.org/10.2514/3.28305
 [research_buczek_antczak_2025]: https://doi.org/10.5604/01.3001.0055.5490
 [research_buczkowski_2022]: https://doi.org/10.36128/priw.vi38.270
 [research_buden_garrison_1985]: https://doi.org/10.2514/3.22761
 [research_budiman_harito_2026]: https://doi.org/10.1149/ma2026-016688mtgabs
+[research_buisson_largay_1987]: https://doi.org/10.21236/ada184984
 [research_bukreev_nesterishin_2021]: https://doi.org/10.3103/s1068799821010177
 [research_bulirsch_chudej_1992]: https://doi.org/10.1016/s1474-6670(17)49692-3
 [research_bulmer_1975]: https://doi.org/10.2514/3.49744
 [research_bulut_2025]: https://doi.org/10.1007/s10973-025-14211-x
+[research_bulut_sozbir_2026]: https://doi.org/10.16984/saufenbilder.1776196
 [research_bunce_hanlon_2002]: https://doi.org/10.1016/s0032-0633(02)00011-9
+[research_burchett_2004]: https://doi.org/10.2514/1.10938
 [research_burchettbradley_2003]: https://ntrs.nasa.gov/citations/20030093602
 [research_burgess_1995]: https://doi.org/10.1080/09544829508907919
+[research_burke_2006]: https://doi.org/10.21236/ada477054
 [research_burton_brown_2006]: https://doi.org/10.2514/1.16244
 [research_burton_wassgren_1992]: https://doi.org/10.2514/3.25464
 [research_bustard_princiotta_1970]: https://doi.org/10.13182/nt70-a28767
@@ -10855,15 +13744,19 @@ summary of what classification achieves and what it costs.
 [research_byczkowski_rao_2026]: https://doi.org/10.1007/s40295-026-00589-9
 [research_bykov_1996]: https://doi.org/10.1017/s0074180900127858
 [research_byrd_1979]: https://doi.org/10.1086/157160
+[research_byrkin_1971]: https://doi.org/10.1016/0041-5553(71)90115-7
 [research_byrnes_longuski_1993]: https://doi.org/10.2514/3.25519
 [research_byun_2003]: https://doi.org/10.1007/s00190-002-0279-0
 [research_cablesamualb_suttonerick_2011]: https://ntrs.nasa.gov/citations/20110008639
 [research_cabreraespana_agrawal_2016]: https://doi.org/10.1016/j.solener.2016.03.026
 [research_cabrerajannuelv_nagsreeja_2019]: https://ntrs.nasa.gov/citations/20190001614
+[research_cai_huang_2022]: https://doi.org/10.3389/fenrg.2022.884624
 [research_cai_ni_2024]: https://doi.org/10.15541/jim20230562
 [research_cai_wang_2022]: https://doi.org/10.1016/j.asr.2021.12.022
 [research_caillau_noailles_2001]: https://doi.org/10.1080/02331930108844536
+[research_caille_maattanen_2023]: https://doi.org/10.1029/2022je007384
 [research_cairns_1990]: https://doi.org/10.1029/ja095ia09p15167
+[research_cake_sharp_1977]: https://doi.org/10.2514/3.57247
 [research_calabia_jin_2019]: https://doi.org/10.5194/angeo-37-989-2019
 [research_calabia_tang_2020]: https://doi.org/10.1016/j.jastp.2020.105207
 [research_caleyburke]: https://ntrs.nasa.gov/citations/20240003618
@@ -10872,12 +13765,15 @@ summary of what classification achieves and what it costs.
 [research_calise_brandt_2004]: https://doi.org/10.2514/1.7989
 [research_calise_melamed_1995]: https://doi.org/10.2514/3.21451
 [research_caliseanthonyj_duckemangregorya_1994]: https://ntrs.nasa.gov/citations/19960028157
+[research_callinan_berggren_1959]: https://doi.org/10.1115/1.4008193
 [research_calvignacjacky_tramelterri_2003]: https://ntrs.nasa.gov/citations/20030065957
 [research_camarilloabad_sun_2025]: https://doi.org/10.1002/solr.202500016
+[research_cameron_2003]: https://doi.org/10.21236/ada416706
 [research_campagnola_buffington_2014]: https://doi.org/10.1016/j.actaastro.2014.02.005
 [research_campagnola_kawakatsu_2012]: https://doi.org/10.2514/1.a32055
 [research_campagnola_kawakatsu_2015]: https://doi.org/10.1007/s40295-015-0074-9
 [research_campbell_1991]: https://doi.org/10.1088/2058-7058/4/10/9
+[research_campbell_morgan_2021]: https://doi.org/10.1016/j.icarus.2021.114358
 [research_campbellcharlesh_andersonbrian_2006]: https://ntrs.nasa.gov/citations/20060020704
 [research_candankadem_kadem_2026]: https://doi.org/10.7717/peerj-cs.3497
 [research_candler_1993]: https://doi.org/10.2514/3.59985
@@ -10885,6 +13781,7 @@ summary of what classification achieves and what it costs.
 [research_cang_xue_2016]: https://doi.org/10.11728/cjss2016.02.188
 [research_cano_pastor_2023]: https://doi.org/10.1016/j.asr.2022.08.001
 [research_cano_sanjurjorivo_2025]: https://doi.org/10.1016/j.asr.2025.04.018
+[research_canup_colwell_1993]: https://doi.org/10.1006/icar.1993.1133
 [research_canuto_massotti_2008]: https://doi.org/10.3182/20080706-5-kr-1001.00582
 [research_canuto_massotti_2010]: https://doi.org/10.1016/j.actaastro.2009.06.016
 [research_cao_huang_2025]: https://doi.org/10.11728/cjss2025.06.2024-0179
@@ -10895,15 +13792,19 @@ summary of what classification achieves and what it costs.
 [research_cao_zhang_2019]: https://doi.org/10.1016/j.solener.2019.07.030
 [research_caogen_hongjun_2008]: https://doi.org/10.1016/j.actaastro.2007.12.059
 [research_capacitor_superior_2004]: https://doi.org/10.1541/ieejjournal.124.394
+[research_caplinger_malin_2001]: https://doi.org/10.1029/2000je001341
 [research_capon_smith_2019]: https://doi.org/10.1016/j.asr.2019.01.013
 [research_capra_brandonisio_2025]: https://doi.org/10.3390/aerospace12090837
 [research_carekjerrya_beachduanee_2000]: https://ntrs.nasa.gov/citations/20010059377
+[research_carr_baum_1972]: https://doi.org/10.1016/0019-1035(72)90134-0
 [research_carrier_pope_1978]: https://doi.org/10.1109/tcom.1978.1094025
 [research_carruthralphjr_vaughnjasona_1992]: https://ntrs.nasa.gov/citations/19920056115
 [research_carsoniii_munk_2021]: https://doi.org/10.2514/1.g005947
 [research_carter_1997]: https://doi.org/10.21236/ada388510
+[research_carter_kaul_1975]: https://doi.org/10.21236/ada012876
 [research_carter_space_1978]: https://doi.org/10.2307/3963294
 [research_carterjrjr_tadahy_1973]: https://ntrs.nasa.gov/citations/19730021323
+[research_caruntu_negrea_2008]: https://doi.org/10.2298/jac0801001c
 [research_cascioli_genova_2021]: https://doi.org/10.2514/1.a34922
 [research_caspi_barthelemy_2022]: https://doi.org/10.1029/2020sw002554
 [research_cassanto_1966]: https://doi.org/10.2514/3.28728
@@ -10911,43 +13812,68 @@ summary of what classification achieves and what it costs.
 [research_cataldo_1986]: https://doi.org/10.1016/0378-7753(86)80085-4
 [research_cataldo_affentranger_2024]: https://doi.org/10.1016/j.jsse.2024.04.013
 [research_cataldorl_1984]: https://ntrs.nasa.gov/citations/19840025631
+[research_cavagnero_1994]: https://doi.org/10.1103/physreva.50.2841
 [research_cecchinato_corradi_2010]: https://doi.org/10.1016/j.applthermaleng.2010.04.015
+[research_celenligilmcevdet_mossjamesn_1988]: https://ntrs.nasa.gov/citations/19890003463
+[research_celenligilmcevdet_mossjamesn_1989]: https://ntrs.nasa.gov/citations/19900050139
 [research_cepedarizojuan_krylorobert_2011]: https://ntrs.nasa.gov/citations/20120007992
 [research_cerf_2012]: https://doi.org/10.1007/s10957-012-0130-6
 [research_cerf_2015]: https://doi.org/10.1007/s10957-015-0705-0
+[research_ceriotti_radice_2014]: https://doi.org/10.21236/ada613798
+[research_cerrojeff_martinoviczoran_2002]: https://ntrs.nasa.gov/citations/20030014832
+[research_cesta_mclouth_1969]: https://doi.org/10.1080/0002889698506105
 [research_cetin_kurnaz_2010]: https://doi.org/10.1007/s10846-010-9508-6
 [research_cfd_analysis_of_2024]: https://doi.org/10.36948/ijfmr.2024.v06i02.15220
 [research_chaba_neramittagapong_2021]: https://doi.org/10.3775/jie.100.144
 [research_chae_mankodi_2019]: https://doi.org/10.1007/s42405-019-00243-9
 [research_chai_tsourdos_2020]: https://doi.org/10.1016/j.actaastro.2020.06.051
+[research_chakenov_1994]: https://doi.org/10.1016/0021-9169(94)90110-4
 [research_chakravarty_1980]: https://doi.org/10.2514/3.19728
+[research_challinor_1968]: https://doi.org/10.1016/0032-0633(68)90097-4
+[research_chalmers_1985]: https://doi.org/10.2514/3.25772
 [research_chalmersd_fredleyj_1993]: https://ntrs.nasa.gov/citations/19930062584
+[research_chaloff_hiyama_1974]: https://doi.org/10.21236/ada002858
 [research_chamberlain_kiefer_2021]: https://doi.org/10.1016/j.actaastro.2020.10.024
 [research_chamberlainmatthewk_kieferstevenh_2019]: https://ntrs.nasa.gov/citations/20200002423
 [research_chambers_simon_2001]: https://doi.org/10.2514/2.3766
 [research_chander_krishna_2013]: https://doi.org/10.14429/dsj.63.3733
+[research_chandler_2003]: https://doi.org/10.21236/ada428392
 [research_chang_1988]: https://doi.org/10.1103/physrevb.37.8215
+[research_chang_2012]: https://doi.org/10.21236/ada564380
 [research_chang_huang_2022]: https://doi.org/10.3390/aerospace10010001
 [research_changbao_hui_2020]: https://doi.org/10.1088/1757-899x/751/1/012078
 [research_changchaulyan_choudharimeelanm_2010]: https://ntrs.nasa.gov/citations/20100002818
+[research_chao_jeng_1965]: https://doi.org/10.1115/1.3689076
 [research_chao_qi_2022]: https://doi.org/10.1016/j.jfranklin.2022.05.011
 [research_chao_xinyu_2015]: https://doi.org/10.1016/j.proeng.2014.12.577
+[research_chapel_johnson_2005]: https://doi.org/10.2514/1.15172
 [research_chapman_2021]: https://doi.org/10.18278/sesa.2.2.6
+[research_chapman_2024]: https://doi.org/10.18278/gsis.4.4.4
+[research_chapman_ingersoll_1973]: https://doi.org/10.1086/152287
+[research_chapmandeanr_1960]: https://ntrs.nasa.gov/citations/20040030504
 [research_chapter_johnsen_1974]: https://doi.org/10.2514/3.62032
 [research_charalambous_naidu_1995]: https://doi.org/10.2514/3.21412
 [research_charhut_ketchum_1986]: https://doi.org/10.1016/0094-5765(86)90114-1
+[research_chatkaew_leonetti_2006]: https://doi.org/10.1016/s0021-9290(06)85434-5
 [research_chatodavidj_1998]: https://ntrs.nasa.gov/citations/20050180833
 [research_chaudharyashwani_nguyenviet_2001]: https://ntrs.nasa.gov/citations/20020023442
 [research_chavagnac_gai_2013]: https://doi.org/10.1016/j.actaastro.2012.09.001
+[research_chavis_wilmoth_2005]: https://doi.org/10.2514/1.15171
 [research_chawla_sarmah_2010]: https://doi.org/10.1016/j.ast.2010.04.001
 [research_cheidrich_sdutta]: https://ntrs.nasa.gov/citations/20200010303
 [research_chekov_2025]: https://doi.org/10.2139/ssrn.5287096
+[research_chemistry_of_1964]: https://doi.org/10.1016/0032-0633(64)90011-x
+[research_chen_2010]: https://doi.org/10.4028/www.scientific.net/amr.156-157.611
+[research_chen_2011]: https://doi.org/10.4028/www.scientific.net/amm.52-54.1411
+[research_chen_2011_b]: https://doi.org/10.4028/www.scientific.net/amr.199-200.1551
+[research_chen_2020]: https://doi.org/10.1142/s0217979220400913
 [research_chen_ai_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.590
 [research_chen_avusherla_2017]: https://doi.org/10.1007/s41060-017-0071-0
 [research_chen_chen_2014]: https://doi.org/10.4028/www.scientific.net/amr.912-914.427
 [research_chen_cheng_2017]: https://doi.org/10.1007/s11431-017-9048-1
 [research_chen_deng_2013]: https://doi.org/10.4028/www.scientific.net/amm.319.373
 [research_chen_du_2017]: https://doi.org/10.1080/14498596.2017.1371089
+[research_chen_fang_2014]: https://doi.org/10.4304/jcp.9.10.2481-2487
 [research_chen_han_2022]: https://doi.org/10.3390/app122211513
 [research_chen_han_2026]: https://doi.org/10.1063/5.0306269
 [research_chen_hsieh_2023]: https://doi.org/10.1016/j.jclepro.2023.139045
@@ -10960,25 +13886,28 @@ summary of what classification achieves and what it costs.
 [research_chen_li_2026]: https://doi.org/10.3390/buildings16163165
 [research_chen_liu_2014]: https://doi.org/10.1016/j.asr.2013.11.052
 [research_chen_ma_2018]: https://doi.org/10.1093/imamci/dny012
+[research_chen_mao_2026]: https://doi.org/10.1063/5.0335632
 [research_chen_pei_2025]: https://doi.org/10.3390/aerospace12110991
 [research_chen_qi_2021]: https://doi.org/10.1016/j.applthermaleng.2020.116280
 [research_chen_sang_2016]: https://doi.org/10.1016/j.geog.2016.05.004
 [research_chen_sang_2023]: https://doi.org/10.3390/rs15123128
-[research_chen_shen_2017]: https://doi.org/10.1371/journal.pone.0185922
 [research_chen_sheu_2006]: https://doi.org/10.2514/1.21113
+[research_chen_starkey_2009]: https://doi.org/10.21236/ada590178
 [research_chen_tang_2025]: https://doi.org/10.1016/j.asr.2024.10.063
 [research_chen_tao_2018]: https://doi.org/10.1016/j.applthermaleng.2018.07.097
+[research_chen_wang_2011]: https://doi.org/10.4028/www.scientific.net/amm.66-68.1213
 [research_chen_xiong_2017]: https://doi.org/10.1109/tgrs.2017.2728520
 [research_chen_xue_2015]: https://doi.org/10.4028/www.scientific.net/amr.1092-1093.534
 [research_chen_yang_2007]: https://doi.org/10.1108/00022660710720467
-[research_chen_yang_2024]: https://doi.org/10.1007/s10854-024-12063-z
 [research_chen_yang_2025]: https://doi.org/10.34133/space.0260
 [research_chen_zang_2020]: https://doi.org/10.1016/j.measurement.2020.107503
+[research_chen_zhang_2020]: https://doi.org/10.1360/sst-2020-0244
 [research_chen_zhao_2019]: https://doi.org/10.1155/2019/8384639
 [research_chen_zhou_2019]: https://doi.org/10.1016/j.ast.2019.05.041
 [research_cheng_2020]: https://doi.org/10.1016/j.ceramint.2020.05.237
 [research_cheng_dai_2024]: https://doi.org/10.1016/j.applthermaleng.2023.122238
 [research_cheng_fullerrowell_2024]: https://doi.org/10.1029/2024sw004010
+[research_cheng_huang_2023]: https://doi.org/10.2514/1.j062713
 [research_cheng_jiang_2019]: https://doi.org/10.1007/s12555-018-9308-5
 [research_cheng_jing_2021]: https://doi.org/10.1016/j.ast.2021.106965
 [research_cheng_song_2024]: https://doi.org/10.1016/j.ast.2023.108855
@@ -11001,14 +13930,18 @@ summary of what classification achieves and what it costs.
 [research_chilcott_1990]: https://doi.org/10.21236/ada234971
 [research_childersdave_gelderlooshendrik_2001]: https://ntrs.nasa.gov/citations/20020022180
 [research_chilo_grena_2026]: https://doi.org/10.1007/s42496-026-00307-6
+[research_china_s_military_2019]: https://doi.org/10.32873/uno.dc.sd.11.01.1092
 [research_china_satellite_2007]: https://doi.org/10.1063/pt.5.021637
 [research_chinese_spacecraft_2015]: https://doi.org/10.1063/pt.5.028559
 [research_ching_1972]: https://doi.org/10.1029/ja077i004p00781
+[research_ching_hickman_1977]: https://doi.org/10.1029/ja082i010p01474
 [research_ching_rugge_1975]: https://doi.org/10.1016/0032-0633(75)90153-1
 [research_chinnaraj_kim_2024]: https://doi.org/10.3390/ma17215229
 [research_chisholm_1984]: https://doi.org/10.21236/ada215911
+[research_chiu_1975]: https://doi.org/10.1016/0021-9169(75)90035-5
 [research_cho_1994]: https://doi.org/10.2514/3.26537
 [research_cho_2018]: https://doi.org/10.31691/kasl33.2.14
+[research_cho_bae_2021]: https://doi.org/10.31818/jknst.2021.09.4.2.116
 [research_cho_cochran_2001]: https://doi.org/10.1016/s0096-3003(99)00182-4
 [research_cho_hastings_1993]: https://doi.org/10.2514/3.11527
 [research_cho_jin_2022]: https://doi.org/10.1016/j.cryogenics.2021.103403
@@ -11016,9 +13949,11 @@ summary of what classification achieves and what it costs.
 [research_cho_kawakita_2005]: https://doi.org/10.2514/1.6694
 [research_cho_kitamura_2009]: https://doi.org/10.2514/1.37798
 [research_cho_miyata_1999]: https://doi.org/10.1109/94.788750
+[research_cho_ramasamy_2003]: https://doi.org/10.2514/2.3955
 [research_chobotov_1977]: https://doi.org/10.2514/3.27966
 [research_chobotov_1990]: https://doi.org/10.2514/3.26161
 [research_chobotov_herman_1997]: https://doi.org/10.2514/2.3198
+[research_chobotov_purohit_1993]: https://doi.org/10.2514/3.25475
 [research_choi_2020]: https://doi.org/10.3390/su122410451
 [research_choi_2021]: https://doi.org/10.52912/jsta.2021.1.1.23
 [research_choi_2023]: https://doi.org/10.52912/jsta.2023.3.2.165
@@ -11032,21 +13967,27 @@ summary of what classification achieves and what it costs.
 [research_choi_song_2013]: https://doi.org/10.5139/jksas.2013.41.12.950
 [research_choi_won_2026]: https://doi.org/10.3390/aerospace13060513
 [research_choi_yoon_1999]: https://doi.org/10.1007/bf02939318
+[research_choimichaelk_2014]: https://ntrs.nasa.gov/citations/20140016568
 [research_chojnackikentt_cranedeborahj_2014]: https://ntrs.nasa.gov/citations/20140010444
+[research_chopra_1961]: https://doi.org/10.1016/0032-0633(61)90093-9
 [research_chordia_nordelof_2021]: https://doi.org/10.1007/s11367-021-01976-0
+[research_chordia_nordelof_2022]: https://doi.org/10.1007/s11367-022-02076-3
 [research_chotivisarut_nuntaphan_2012]: https://doi.org/10.1016/j.renene.2011.07.021
 [research_chou_ardema_1998]: https://doi.org/10.2514/2.4335
 [research_chou_braun_2021]: https://doi.org/10.3319/tao.2021.06.22.01
 [research_choudhary_2025]: https://doi.org/10.38124/ijisrt/25mar1945
+[research_chouinardcaroline_knightrussell_2008]: https://ntrs.nasa.gov/citations/20150014716
 [research_chow_1963]: https://doi.org/10.2514/3.1772
 [research_christensonrickl_nelsonmichaela_2003]: https://ntrs.nasa.gov/citations/20030065841
 [research_christian_2023]: https://doi.org/10.2514/1.a35593
 [research_christie_2026]: https://doi.org/10.58567/eal05010002
+[research_christopher_2016]: https://doi.org/10.1016/j.matpr.2016.01.057
 [research_christopherkdroney_anthonyjsclafani_2020]: https://ntrs.nasa.gov/citations/20205005698
 [research_christou_vaubaillon_2010]: https://doi.org/10.1016/j.pss.2010.03.008
 [research_chrusciel_1975]: https://doi.org/10.2514/3.49655
 [research_chu_1967]: https://doi.org/10.1016/0016-0032(67)90237-2
 [research_chunyuwang_meng_2025]: https://doi.org/10.1134/s0010952524601531
+[research_chytil_1975]: https://doi.org/10.1016/0021-9169(75)90023-9
 [research_ciarravano_2021]: https://doi.org/10.5553/iisl/2021064001005
 [research_cicci_qualls_2008]: https://doi.org/10.1007/bf03256545
 [research_ciofalo_meshishnek_2016]: https://doi.org/10.2514/1.a33317
@@ -11054,6 +13995,7 @@ summary of what classification achieves and what it costs.
 [research_cipin_toman_2021]: https://doi.org/10.1149/10501.0541ecst
 [research_cipollone_frueh_2025]: https://doi.org/10.1007/s00521-025-11177-7
 [research_citron_1963]: https://doi.org/10.2514/3.1792
+[research_clancy_wolff_2007]: https://doi.org/10.1029/2006je002805
 [research_clapp_1994]: https://doi.org/10.21236/ada281342
 [research_clark_braun_2008]: https://doi.org/10.2514/1.31612
 [research_clark_lee_2020]: https://doi.org/10.1016/j.asr.2020.04.010
@@ -11061,6 +14003,7 @@ summary of what classification achieves and what it costs.
 [research_clarkfredd_speharpetert_2003]: https://ntrs.nasa.gov/citations/20030105395
 [research_clayton_tinker_1992]: https://doi.org/10.2514/3.11516
 [research_cleeton_1960]: https://doi.org/10.21236/ad0319956
+[research_clement_duc_2005]: https://doi.org/10.1016/j.conengprac.2003.12.013
 [research_coates_ferreira_1997]: https://doi.org/10.1109/62.587056
 [research_coates_fox_1994]: https://doi.org/10.1016/0360-3199(94)90238-0
 [research_coates_fox_1996]: https://doi.org/10.2514/3.24117
@@ -11069,51 +14012,73 @@ summary of what classification achieves and what it costs.
 [research_coder_holzinger_2016]: https://doi.org/10.1016/j.actaastro.2016.07.008
 [research_coelho_linodasilva_2023]: https://doi.org/10.1016/j.asr.2022.12.024
 [research_coelho_linodasilva_2023_b]: https://doi.org/10.1016/j.asr.2023.03.037
+[research_cognatathomasj_hardtldarren_2015]: https://ntrs.nasa.gov/citations/20140017124
+[research_cognatathomasj_hartldarrenj_2014]: https://ntrs.nasa.gov/citations/20140006701
 [research_cohen_dalton_1996]: https://doi.org/10.2514/3.24118
 [research_cohenaaron_hoppinsnicholas_2013]: https://ntrs.nasa.gov/citations/20140010144
 [research_cole_aroesty_1965]: https://doi.org/10.2514/3.3185
 [research_collicott_2025]: https://doi.org/10.32473/space.1.2.139521
+[research_collisions_and_1973]: https://doi.org/10.1016/0003-4916(73)90051-1
 [research_colpi_1998]: https://doi.org/10.1086/305878
+[research_colquitt_1969]: https://doi.org/10.2514/3.29547
 [research_colwell_hsiao_2018]: https://doi.org/10.1016/j.solmat.2017.09.005
 [research_colwellgenet_hartleyjamesg_1987]: https://ntrs.nasa.gov/citations/19870018269
 [research_combined_spacecraft_2000]: https://doi.org/10.1108/aeat.2000.12772ead.002
 [research_composite_analysis_2009]: https://doi.org/10.1016/s0034-3617(09)70040-2
 [research_comte_1987]: https://doi.org/10.2307/1578205
+[research_concerning_molecular_1962]: https://doi.org/10.1016/0032-0633(62)90096-x
+[research_condoleo_theil_2018]: https://doi.org/10.1007/s12567-018-0215-7
 [research_cong_qifei_2016]: https://doi.org/10.1007/s00231-016-1840-3
 [research_conger_hastings_1995]: https://doi.org/10.2514/3.26592
 [research_conley_lee_2003]: https://doi.org/10.1016/s0094-5765(03)80019-x
+[research_connell_jr_1991]: https://doi.org/10.21236/ada344572
 [research_connelljohnw_2000]: https://ntrs.nasa.gov/citations/20040086991
 [research_connolly_garces_2025]: https://doi.org/10.54648/aila2025058
 [research_connor_advani_2023]: https://doi.org/10.3390/app13084681
 [research_conntracier_bookbinderjaya_2018]: https://ntrs.nasa.gov/citations/20190000912
+[research_conrath_pearl_2000]: https://doi.org/10.1029/1999je001095
 [research_cook_1965]: https://doi.org/10.1016/0032-0633(65)90150-9
 [research_cook_1967]: https://doi.org/10.1098/rsta.1967.0044
 [research_cook_hueter_2003]: https://doi.org/10.1016/s0094-5765(03)00113-9
 [research_cook_plimmer_1960]: https://doi.org/10.1098/rspa.1960.0204
 [research_cook_swan_2020]: https://doi.org/10.1016/j.est.2020.101561
 [research_cook_swan_2021]: https://doi.org/10.3390/batteries7010020
+[research_cooley_easton_1969]: https://doi.org/10.21236/ad0694451
 [research_cooper_1968]: https://doi.org/10.1109/taes.1968.5408937
 [research_cooper_1981]: https://doi.org/10.1121/1.2019120
 [research_cooper_jaffe_1985]: https://doi.org/10.2514/3.25710
+[research_cooper_martin_2023]: https://doi.org/10.2514/1.a35433
 [research_cooper_scheer_1988]: https://doi.org/10.1016/0094-5765(88)90148-8
+[research_cooperericg_jonessharonm_1992]: https://ntrs.nasa.gov/citations/19930045132
 [research_cooperlp_1985]: https://ntrs.nasa.gov/citations/19850026912
 [research_cooperpa_sawyerjw_1983]: https://ntrs.nasa.gov/citations/19840002092
 [research_copelandrobertj_masongeorgia_2005]: https://ntrs.nasa.gov/citations/20110016452
 [research_corbin_kusche_2022]: https://doi.org/10.1186/s40623-022-01733-z
 [research_cordes_hertzfeld_1997]: https://doi.org/10.1016/s0265-9646(97)00006-4
 [research_corley_2005]: https://doi.org/10.21236/ada463405
+[research_corneliussen_2014]: https://doi.org/10.1063/pt.5.8033
+[research_correction_to_1975]: https://doi.org/10.1109/taes.1975.308145
 [research_correction_to_2003]: https://doi.org/10.1615/jautomatinfscien.v35.i4.80
+[research_cospar_international_1992]: https://doi.org/10.1016/0032-0633(92)90206-4
+[research_costello_2004]: https://doi.org/10.21236/ada423321
 [research_cot_1993]: https://doi.org/10.1007/bf03655308
 [research_counselman_abbot_1989]: https://doi.org/10.1029/jb094ib06p07058
 [research_courtneyray_debra_1976]: https://doi.org/10.1016/s1474-6670(17)67155-6
 [research_covellpeterf_woodrichardm_1988]: https://ntrs.nasa.gov/citations/19880064748
+[research_coverstone_prussing_2003]: https://doi.org/10.2514/2.5091
 [research_cowardinheather_seitzerpat_2010]: https://ntrs.nasa.gov/citations/20110015517
+[research_cowen_1999]: https://doi.org/10.2307/4011834
+[research_cowen_1999_b]: https://doi.org/10.2307/4011907
+[research_cowen_2007]: https://doi.org/10.1002/scin.2007.5591721206
+[research_cowling_alexander_1960]: https://doi.org/10.21236/ada451704
 [research_cox_crabtree_1966]: https://doi.org/10.1063/1.3048343
 [research_crabill_mayo_1969]: https://doi.org/10.2514/3.29525
+[research_craigmk_gonzalezrg_1973]: https://ntrs.nasa.gov/citations/19730017173
 [research_crandall_wirz_2022]: https://doi.org/10.1007/s44205-022-00009-8
 [research_cravenste_gerardjc_1979]: https://ntrs.nasa.gov/citations/19790056606
 [research_crawford_1971]: https://doi.org/10.2514/3.30222
 [research_crawford_1987]: https://doi.org/10.1119/1.15178
+[research_cresci_1966]: https://doi.org/10.21236/ad0633949
 [research_crestoaleina_viola_2016]: https://doi.org/10.1016/j.actaastro.2016.07.003
 [research_cretaux_nouel_1994]: https://doi.org/10.1007/bf03655447
 [research_crisp_smith_2015]: https://doi.org/10.1016/j.actaastro.2015.04.015
@@ -11124,10 +14089,13 @@ summary of what classification achieves and what it costs.
 [research_cross_newman_1970]: https://doi.org/10.2514/3.59663
 [research_crousepatrick_lewismark_1993]: https://ntrs.nasa.gov/citations/19950054208
 [research_crowell_mcnamara_2012]: https://doi.org/10.2514/1.j051094
+[research_crown_2012]: https://doi.org/10.21236/ada561420
 [research_crowther_1992]: https://doi.org/10.1016/0032-0633(92)90004-8
 [research_cruzmermy_schmidt_2022]: https://doi.org/10.1016/j.pss.2021.105399
+[research_cuadra_arthur_1966]: https://doi.org/10.2514/3.28450
 [research_cuadratgrzybowski_gill_2024]: https://doi.org/10.3390/aerospace11030236
 [research_cubley_ellis_1978]: https://doi.org/10.1109/tcom.1978.1094007
+[research_cui_chen_2026]: https://doi.org/10.1016/j.ast.2025.111316
 [research_cui_guo_2024]: https://doi.org/10.11728/cjss2024.01.2023-0001
 [research_cui_zhao_2017]: https://doi.org/10.1016/j.applthermaleng.2017.06.113
 [research_culp_jin_1987]: https://doi.org/10.1016/0094-5765(87)90035-x
@@ -11140,10 +14108,14 @@ summary of what classification achieves and what it costs.
 [research_cunningtongrjr_funaiai_1967]: https://ntrs.nasa.gov/citations/19670030179
 [research_cuong_tu_2012]: https://doi.org/10.15625/1813-9663/27/2/502
 [research_curran_haag_1992]: https://doi.org/10.2514/3.25484
+[research_currano_moghaddam_2008]: https://doi.org/10.2514/1.35960
 [research_current_orbit_1993]: https://doi.org/10.3109/01676839309023100
 [research_currydm_scotthc_1979]: https://ntrs.nasa.gov/citations/19790059332
+[research_curtis_brace_1985]: https://doi.org/10.1029/ja090ia07p06631
+[research_cussen_1972]: https://doi.org/10.1049/ep.1972.0070
 [research_cuthbertpa_tiggesma_1990]: https://ntrs.nasa.gov/citations/19900065953
 [research_cygan_wozniak_2025]: https://doi.org/10.1016/j.ceramint.2025.11.108
+[research_czysz_1963]: https://doi.org/10.21236/ad0408922
 [research_dadashev_2025]: https://doi.org/10.7868/s3034550225050023
 [research_daehnick_1995]: https://doi.org/10.21236/ada329267
 [research_dafonseca_goes_2017]: https://doi.org/10.1016/j.actaastro.2016.12.020
@@ -11152,6 +14124,7 @@ summary of what classification achieves and what it costs.
 [research_dai_cai_2026]: https://doi.org/10.3390/aerospace13030283
 [research_dai_cao_2020]: https://doi.org/10.1016/j.applthermaleng.2020.115077
 [research_dai_kong_2026]: https://doi.org/10.1016/j.etran.2026.100622
+[research_dai_shao_2026]: https://doi.org/10.1016/j.ast.2026.111989
 [research_daidzic_2016]: https://doi.org/10.15394/ijaaa.2016.1116
 [research_daimarutakuro_bhandaripradeep_2018]: https://ntrs.nasa.gov/citations/20210006231
 [research_daltonpennij_bowensebony_2017]: https://ntrs.nasa.gov/citations/20180003481
@@ -11159,13 +14132,16 @@ summary of what classification achieves and what it costs.
 [research_daltonpennij_northtim_2017]: https://ntrs.nasa.gov/citations/20170004524
 [research_daltonpennij_schwanbeckeugene_2016]: https://ntrs.nasa.gov/citations/20170004112
 [research_damariola_vullojp_1976]: https://ntrs.nasa.gov/citations/19760012121
+[research_damico_montenbruck_2006]: https://doi.org/10.2514/1.15114
 [research_danbutler_1985]: https://ntrs.nasa.gov/citations/19860017852
 [research_daneshjou_mohammadidehabadi_2017]: https://doi.org/10.1016/j.asr.2017.05.037
 [research_danesi_1982]: https://doi.org/10.1016/0094-5765(82)90006-6
 [research_dang_stern_2021]: https://doi.org/10.1016/j.tsep.2021.100904
+[research_danielbleiser_davidastewart_2001]: https://ntrs.nasa.gov/citations/20010094065
 [research_danieljgershman_2026]: https://ntrs.nasa.gov/citations/20260006171
 [research_danielldumbacher]: https://ntrs.nasa.gov/citations/20040191708
 [research_daniels_dryden_1974]: https://doi.org/10.1117/12.7971680
+[research_danilov_1962]: https://doi.org/10.1016/0032-0633(62)90119-8
 [research_dankov_mikhailov_1965]: https://doi.org/10.1016/s1474-6670(17)69132-8
 [research_dannynnguyen_soumyodutta_2024]: https://ntrs.nasa.gov/citations/20240010507
 [research_darby_rao_2011]: https://doi.org/10.2514/1.a32011
@@ -11184,12 +14160,14 @@ summary of what classification achieves and what it costs.
 [research_davidkaiae_babelhankw_1992]: https://ntrs.nasa.gov/citations/19920048671
 [research_daviescb_wilsonjf_1984]: https://ntrs.nasa.gov/citations/19840054730
 [research_davilajosephm_rabindouglasm_2018]: https://ntrs.nasa.gov/citations/20180002534
+[research_davis_1963]: https://doi.org/10.21236/ad0400628
 [research_davis_2002]: https://doi.org/10.21236/ada404007
 [research_davis_fluggelotz_1964]: https://doi.org/10.1016/0017-9310(64)90110-3
 [research_davis_marshall_1999]: https://doi.org/10.1016/s1359-835x(98)00138-9
 [research_davis_wright_1990]: https://doi.org/10.2514/3.26182
 [research_davisee_1982]: https://ntrs.nasa.gov/citations/19820016399
 [research_dcbomberger_lfmoose_1963]: https://ntrs.nasa.gov/citations/19640001173
+[research_dea_vanbise_1991]: https://doi.org/10.21236/ada236563
 [research_debay_richard_1963]: https://doi.org/10.21236/ad0403879
 [research_debe_1986]: https://doi.org/10.1116/1.573953
 [research_debe_poirier_1990]: https://doi.org/10.1063/1.1141455
@@ -11198,51 +14176,72 @@ summary of what classification achieves and what it costs.
 [research_decjohna_gasbarrejosephf_2002]: https://ntrs.nasa.gov/citations/20030006687
 [research_decjohna_gasbarrejosephf_2007]: https://ntrs.nasa.gov/citations/20070029236
 [research_decoster_awadallah_2026]: https://doi.org/10.1177/21680256251390412
+[research_dedivitiis_1999]: https://doi.org/10.2514/2.3507
 [research_degen_mitterfellner_2024]: https://doi.org/10.1111/jiec.13594
 [research_degroh_mccollum_1995]: https://doi.org/10.2514/3.26581
 [research_degrohkimk_banksbrucea_2001]: https://ntrs.nasa.gov/citations/20020038546
+[research_degtjarev_popov_2000]: https://doi.org/10.1016/s0273-1177(99)01024-8
 [research_dehn_1962]: https://doi.org/10.1063/1.1733052
 [research_deike_gallagher_2011]: https://doi.org/10.21236/ada569701
 [research_dejarnettefredr_1989]: https://ntrs.nasa.gov/citations/19890046279
 [research_delacruz_hastings_1996]: https://doi.org/10.2514/3.26780
+[research_delafontaine_garg_1982]: https://doi.org/10.1007/bf02897683
 [research_delande_houssineau_2018]: https://doi.org/10.1016/j.asr.2018.06.033
 [research_delcov_hodenkov_2015]: https://doi.org/10.1088/1757-899x/93/1/012007
+[research_delhaise_1991]: https://doi.org/10.1007/bf00048589
+[research_delhaise_1994]: https://doi.org/10.1016/0273-1177(94)90098-1
 [research_dellacamera_waltz_2000]: https://doi.org/10.21236/ada387499
 [research_delpapastevenv_2005]: https://ntrs.nasa.gov/citations/20050185595
+[research_delpinofh_nelsonrl_1967]: https://ntrs.nasa.gov/citations/19690001538
 [research_delval_luis_2022]: https://doi.org/10.1016/j.chemphys.2022.111528
+[research_demiryont_moorehead_2009]: https://doi.org/10.1016/j.solmat.2009.02.025
+[research_demoura_ribeiro_2026]: https://doi.org/10.1007/s42401-026-00510-0
 [research_deng_li_2017]: https://doi.org/10.1016/j.energy.2017.01.096
 [research_deng_liu_2024]: https://doi.org/10.1016/j.asr.2024.08.021
 [research_deng_wang_2025]: https://doi.org/10.1016/j.tsep.2025.104290
+[research_denham_1965]: https://doi.org/10.21236/ad0468532
+[research_denman_hasselman_1986]: https://doi.org/10.21236/ada173756
 [research_departmentofdefensewashingtondc_2011]: https://doi.org/10.21236/ada536546
 [research_depaula_celestino_2019]: https://doi.org/10.1088/1742-6596/1365/1/012022
 [research_deprisco_infante_2026]: https://doi.org/10.1016/j.applthermaleng.2026.132434
+[research_derbis_guidanean_1991]: https://doi.org/10.21236/ada243996
 [research_deridder_mooij_2011]: https://doi.org/10.2514/1.51083
 [research_derkiureghian_2001]: https://doi.org/10.1016/s0951-8320(01)00084-9
+[research_desaedeleer_henrard_2004]: https://doi.org/10.1017/s1743921305001432
+[research_desai_buglia_1993]: https://doi.org/10.2514/3.25546
 [research_desauteld_1984]: https://ntrs.nasa.gov/citations/19840056588
+[research_deschamps_1985]: https://doi.org/10.1016/0265-9646(85)90046-3
 [research_deshmukh_spencer_2022]: https://doi.org/10.1016/j.actaastro.2022.01.004
 [research_deshmukhrohang_spencerdavida_2019]: https://ntrs.nasa.gov/citations/20200002453
 [research_design_of_2024]: https://doi.org/10.56726/irjmets55792
+[research_design_optimization_2009]: https://doi.org/10.5139/jksas.2009.37.8.737
 [research_determination_of_1960]: https://doi.org/10.1016/0038-092x(60)90031-1
 [research_dethlefsen_2019]: https://doi.org/10.5553/iisl/2019062001002
 [research_deutscher_schefold_1989]: https://doi.org/10.1016/0094-5765(89)90090-8
+[research_dever_bruckner_1995]: https://doi.org/10.2514/3.26695
 [research_deverjoyce_degrohkimk_2002]: https://ntrs.nasa.gov/citations/20020038202
 [research_deverjoyce_millersharon_2002]: https://ntrs.nasa.gov/citations/20020038542
 [research_deverjoycea_brucknerericj_1992]: https://ntrs.nasa.gov/citations/19920004896
 [research_deverjoycea_rutledgesharonk_1993]: https://ntrs.nasa.gov/citations/19930017830
 [research_deverjoycea_rutledgesharonk_1998]: https://ntrs.nasa.gov/citations/19980234623
 [research_device_may_1962]: https://doi.org/10.1109/ee.1962.6434475
+[research_dewald_jr_1998]: https://doi.org/10.21236/ada358890
 [research_deyst_1968]: https://doi.org/10.1109/tac.1968.1098871
 [research_dftb_2013]: https://doi.org/10.31440/dftb.3415
 [research_dhanasekaran_balamurali_2011]: https://doi.org/10.4028/www.scientific.net/amm.70.201
 [research_dharmesh_kumar_2023]: https://doi.org/10.1615/computthermalscien.2022043279
+[research_diaconis_fanucci_1961]: https://doi.org/10.1016/0032-0633(61)90152-0
 [research_dianecdavis_emilymzimovanspreen]: https://ntrs.nasa.gov/citations/20210024146
 [research_diao_liu_2025]: https://doi.org/10.1016/j.ijthermalsci.2024.109457
 [research_dias_liberti_2019]: https://doi.org/10.1007/s10479-019-03145-x
 [research_dickmanje_heppaf_2004]: https://ntrs.nasa.gov/citations/20040035568
 [research_dickmanns_1986]: https://doi.org/10.2514/3.56423
+[research_dicristina_1979]: https://doi.org/10.21236/ada065645
 [research_dieriamtodda_1990]: https://ntrs.nasa.gov/citations/19910000789
 [research_diersing_1986]: https://doi.org/10.1145/382182.383013
 [research_dietrich_matsuo_2022]: https://doi.org/10.1029/2022sw003147
+[research_dietrick_2013]: https://doi.org/10.21236/ad1018856
+[research_difilippofc_1998]: https://ntrs.nasa.gov/citations/19980209999
 [research_dileep_kamath_2015]: https://doi.org/10.1016/j.procs.2015.06.059
 [research_dileep_surekha_2016]: https://doi.org/10.15866/irease.v9i6.10521
 [research_diliberto_1966]: https://doi.org/10.1086/109913
@@ -11252,9 +14251,13 @@ summary of what classification achieves and what it costs.
 [research_ding_wang_2020]: https://doi.org/10.1016/j.applthermaleng.2020.114949
 [research_dipirro_1988]: https://doi.org/10.1016/0011-2275(88)90049-5
 [research_dipirro_shirron_1994]: https://doi.org/10.1016/0011-2275(94)90119-8
+[research_direct_numerical_2023]: https://doi.org/10.1063/5.0146651
 [research_direnzo_fu_2020]: https://doi.org/10.1016/j.cpc.2020.107262
 [research_dissel_kothari_2007]: https://doi.org/10.2514/1.26064
 [research_divitiis_vitale_2010]: https://doi.org/10.2514/1.45304
+[research_divya_jayashree_2023]: https://doi.org/10.4273/ijvss.15.4.02
+[research_dix_golden_1967]: https://doi.org/10.21236/ad0813708
+[research_dobrot_2000]: https://doi.org/10.21236/ada378506
 [research_dogra_moss_1994]: https://doi.org/10.2514/3.26543
 [research_doherty_dunne_2016]: https://doi.org/10.2514/1.a33490
 [research_doihara_nishida_2002]: https://doi.org/10.1007/s001930200119
@@ -11264,6 +14267,7 @@ summary of what classification achieves and what it costs.
 [research_dollce_mistrettagd_1994]: https://ntrs.nasa.gov/citations/19940031113
 [research_doman_2004]: https://doi.org/10.2514/1.14041
 [research_donahue_1997]: https://doi.org/10.2514/2.3249
+[research_donahue_farrell_1979]: https://doi.org/10.21236/ada083336
 [research_donahue_weldon_2008]: https://doi.org/10.2514/1.29313
 [research_donaldaguidice_1990]: https://ntrs.nasa.gov/citations/19900016243
 [research_donaldrwilkes_mjohnbrown_1992]: https://ntrs.nasa.gov/citations/19920015583
@@ -11271,40 +14275,52 @@ summary of what classification achieves and what it costs.
 [research_dong_hu_2017]: https://doi.org/10.2514/1.g002322
 [research_dong_hu_2018]: https://doi.org/10.2514/1.g003094
 [research_dong_li_2012]: https://doi.org/10.1016/j.camwa.2012.01.030
+[research_dong_liu_1990]: https://doi.org/10.1007/bf02919159
 [research_dong_wei_2021]: https://doi.org/10.1016/j.electacta.2021.139133
 [research_dong_wu_2023]: https://doi.org/10.1049/icp.2023.3008
+[research_dong_zhao_2021]: https://doi.org/10.1017/jfm.2020.1146
 [research_donglin_wenbinwang_2022]: https://ntrs.nasa.gov/citations/20230013109
 [research_donouadonsou_schupp_2025]: https://doi.org/10.1016/j.spaceh.2025.100030
 [research_donova_jordaan_2026]: https://doi.org/10.1016/j.wmb.2026.100310
 [research_doody_1995]: https://doi.org/10.1016/0094-5765(94)00214-7
 [research_doornbos_klinkrad_2005]: https://doi.org/10.1016/j.asr.2005.02.009
+[research_dordain_1977]: https://doi.org/10.1016/0094-5765(77)90117-5
 [research_dote_theodore_1981]: https://doi.org/10.2514/3.57839
 [research_dottsrl_currydm_1985]: https://ntrs.nasa.gov/citations/19850008670
 [research_dougherty_lee_2016]: https://doi.org/10.2514/1.g001229
 [research_douglas_goad_1980]: https://doi.org/10.1029/jb085ib10p05471
 [research_dowddl_tapleybd_1979]: https://ntrs.nasa.gov/citations/19800027967
 [research_dowell_1975]: https://doi.org/10.2514/3.27805
+[research_downing_plotkin_1996]: https://doi.org/10.1121/1.417381
+[research_downs_willardd_1974]: https://doi.org/10.21236/ad0783729
+[research_downs_willardd_1974_b]: https://doi.org/10.21236/ad0783637
 [research_doyle_1982]: https://doi.org/10.2514/3.62248
 [research_doyle_2023]: https://doi.org/10.1093/fh/crad034
 [research_doyle_2026]: https://doi.org/10.1016/j.telpol.2026.103198
 [research_drawin_1993]: https://doi.org/10.1002/chin.199320293
 [research_dremann_hassan_2025]: https://doi.org/10.3390/aerospace12090819
 [research_dressler_murad_1995]: https://doi.org/10.1029/95gl03418
+[research_drew_1974]: https://doi.org/10.1063/1.1694956
 [research_drolen_1992]: https://doi.org/10.2514/3.11550
 [research_drpeterthompson_2024]: https://doi.org/10.71465/ajaae526
 [research_drshashankshekharpriyankkumarverma_2023]: https://doi.org/10.52783/tjjpt.v44.i3.2650
 [research_drsyedrizwanhaiderbukhari_maazbinwaheed_2026]: https://doi.org/10.70670/sra.v4i2.2073
+[research_druguet_2010]: https://doi.org/10.1007/s00193-009-0242-6
 [research_dsouzachristopher_hanakfchad_2007]: https://ntrs.nasa.gov/citations/20070025134
 [research_du_li_2015]: https://doi.org/10.1016/j.proeng.2014.12.635
+[research_du_liang_2011]: https://doi.org/10.4028/www.scientific.net/amm.71-78.2585
 [research_du_smith_2014]: https://doi.org/10.1175/jas-d-13-032.1
 [research_du_song_2026]: https://doi.org/10.1016/j.est.2026.122657
 [research_du_zhang_2025]: https://doi.org/10.1016/j.sspwt.2025.11.004
 [research_duan_li_2015]: https://doi.org/10.1109/taes.2014.120654
 [research_duan_wang_2019]: https://doi.org/10.1016/j.asr.2019.08.012
+[research_duan_xiao_2017]: https://doi.org/10.1016/j.compfluid.2017.08.006
 [research_duartecastro_mehner_2022]: https://doi.org/10.1016/j.jclepro.2022.133130
 [research_duchek_abrams_2015]: https://doi.org/10.1016/j.actaastro.2015.06.019
+[research_dudkin_potapov_1990]: https://doi.org/10.1016/1359-0189(90)90188-4
 [research_dudleydd_thonetta_1992]: https://ntrs.nasa.gov/citations/19920066456
 [research_dudzinski_1981]: https://doi.org/10.21236/adb056664
+[research_duffers_drift_2021]: https://doi.org/10.32873/uno.dc.sd.12.01.1083
 [research_dufour_demuelenaere_2015]: https://doi.org/10.1007/s00158-015-1267-3
 [research_duggal_venkatesh_2015]: https://doi.org/10.1109/tpwrs.2014.2352333
 [research_duke_1960]: https://doi.org/10.5594/j00037
@@ -11314,20 +14330,29 @@ summary of what classification achieves and what it costs.
 [research_dumbacherdanl_smithdennise_2002]: https://ntrs.nasa.gov/citations/20030013452
 [research_duncan_lissauer_1997]: https://doi.org/10.1006/icar.1996.5568
 [research_dunlop_stockel_1982]: https://doi.org/10.2514/3.62569
+[research_dunnett_ingham_1986]: https://doi.org/10.1016/0021-8502(86)90037-6
 [research_dupont_1966]: https://doi.org/10.2514/3.28496
 [research_dupont_vanoost_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.340
 [research_duranmark_schmidttyler_2019]: https://ntrs.nasa.gov/citations/20210012198
+[research_duret_fabrizi_1999]: https://doi.org/10.1016/s0094-5765(99)00090-9
 [research_duston_seghi_2004]: https://doi.org/10.21236/ada461309
 [research_duvallaleta_justuscg_2005]: https://ntrs.nasa.gov/citations/20060004756
 [research_duxbury_paul_1976]: https://doi.org/10.2514/3.57069
 [research_dworak_banks_2006]: https://doi.org/10.2514/1.15787
+[research_dwyer_toison_2002]: https://doi.org/10.1007/bf03546262
 [research_dyakonovartema_schoenenbergermark_2007]: https://ntrs.nasa.gov/citations/20080013457
+[research_dyer_1966]: https://doi.org/10.21236/ad0642232
 [research_dyescott_2009]: https://ntrs.nasa.gov/citations/20090016097
+[research_dyson_hashemi_1996]: https://doi.org/10.1615/jenhheattransf.v3.i3.10
 [research_eaglepicher_nickel_hydrogen_2005]: https://doi.org/10.1108/aeat.2005.12777cad.006
 [research_east_1999]: https://doi.org/10.1098/rsta.1999.0427
 [research_eccles_raitt_1989]: https://doi.org/10.1029/ja094ia07p09049
+[research_ecker_ertl_2024]: https://doi.org/10.1007/s12567-024-00561-z
 [research_edelbaum_1965]: https://doi.org/10.2514/3.3016
 [research_edelbaum_1966]: https://doi.org/10.2514/3.3725
+[research_eder_1973]: https://doi.org/10.2514/3.27749
+[research_edgett_malin_2000]: https://doi.org/10.1029/1999je001152
+[research_edquist_west_2023]: https://doi.org/10.2514/1.a35572
 [research_edquistkarlt_2006]: https://ntrs.nasa.gov/citations/20060047743
 [research_edsiregar_paramitaprabandari_2024]: https://doi.org/10.51601/ijersc.v5i2.790
 [research_edwards_richards_1989]: https://doi.org/10.2514/3.26072
@@ -11341,9 +14366,12 @@ summary of what classification achieves and what it costs.
 [research_elderdj_1975]: https://ntrs.nasa.gov/citations/19760009061
 [research_eldredcharlesh_1993]: https://ntrs.nasa.gov/citations/19930012900
 [research_elenaaplis_milestbengtson]: https://ntrs.nasa.gov/citations/20220006975
+[research_elenna_2003]: https://doi.org/10.1016/s0096-3003(02)00158-3
+[research_elenna_2004]: https://doi.org/10.1016/s0096-3003(03)00339-4
 [research_elfarran_khalifa_2021]: https://doi.org/10.21608/jaet.2021.54010.1077
 [research_elgenk_schriener_2024]: https://doi.org/10.1080/00295450.2024.2329830
 [research_eliasberg_yastrebov_1961]: https://doi.org/10.2514/8.5601
+[research_elices_1995]: https://doi.org/10.2514/3.26707
 [research_elismaexperimenters_1998]: https://doi.org/10.1016/s0032-0633(97)00135-9
 [research_elisov_ishkov_2018]: https://doi.org/10.1016/j.actaastro.2018.05.001
 [research_elite_strategy_2025]: https://doi.org/10.70517/ijhsa464353
@@ -11355,12 +14383,15 @@ summary of what classification achieves and what it costs.
 [research_elvidge_godinez_2016]: https://doi.org/10.5194/gmd-9-2279-2016
 [research_ely_fowler_1995]: https://doi.org/10.1016/0094-5765(94)00210-d
 [research_emelyanovich_amelchenko_2010]: https://doi.org/10.53078/20778481_2010_2_39
+[research_emery_2005]: https://doi.org/10.1016/j.jqsrt.2004.07.033
+[research_emmanuel_1968]: https://doi.org/10.1029/jb073i010p03213
 [research_emmert_2015]: https://doi.org/10.1002/2015ja021047
 [research_emmert_2015_b]: https://doi.org/10.1016/j.asr.2015.05.038
 [research_emmert_meier_2006]: https://doi.org/10.1029/2005ja011495
 [research_emmons_1964]: https://doi.org/10.1086/109446
 [research_endo_ashida_2025]: https://doi.org/10.1007/s12567-025-00658-z
 [research_engelis_1988]: https://doi.org/10.1007/bf03655246
+[research_environmental_testing_1968]: https://doi.org/10.1016/0042-207x(68)91176-7
 [research_epistemologies_of_2014]: https://doi.org/10.1353/pmc.2014.0023
 [research_equivalent_flux_smoothing_2019]: https://doi.org/10.26162/ls.2019.44.2.007
 [research_ercol_2008]: https://doi.org/10.4271/2008-01-2123
@@ -11368,12 +14399,16 @@ summary of what classification achieves and what it costs.
 [research_ericsson_1967]: https://doi.org/10.2514/3.28963
 [research_ericsson_1969]: https://doi.org/10.2514/3.5519
 [research_ericsson_1977]: https://doi.org/10.2514/3.60814
+[research_ericsson_pavish_2000]: https://doi.org/10.2514/2.3546
 [research_ericsson_reding_1978]: https://doi.org/10.2514/3.28006
+[research_eriksson_2025]: https://doi.org/10.1016/j.spacepol.2025.101691
 [research_ernstdm_1979]: https://ntrs.nasa.gov/citations/19790067972
 [research_erratum_united_1960]: https://doi.org/10.1126/science.131.3408.1200-b
 [research_ersahin_2002]: https://doi.org/10.1159/000065117
 [research_escobar_diaz_2016]: https://doi.org/10.1016/j.applthermaleng.2016.03.024
 [research_esperjaime_wudong_2018]: https://ntrs.nasa.gov/citations/20180005634
+[research_essay_military_2004]: https://doi.org/10.1080/725292358
+[research_estruchsamper_2016]: https://doi.org/10.1007/s00348-016-2177-x
 [research_etiope_2018]: https://doi.org/10.1016/j.pss.2018.04.020
 [research_etkin_1961]: https://doi.org/10.2514/8.9191
 [research_europe_s_power_2015]: https://doi.org/10.1063/pt.5.028734
@@ -11385,8 +14420,11 @@ summary of what classification achieves and what it costs.
 [research_evans_walton_2017]: https://doi.org/10.1016/j.apm.2017.07.024
 [research_evansstevenw_dukemangrega_1993]: https://ntrs.nasa.gov/citations/19950049813
 [research_evansstevenw_dukemangrega_1995]: https://ntrs.nasa.gov/citations/19970009474
+[research_evansstevenw_krossdennisa_2000]: https://ntrs.nasa.gov/citations/20000105203
 [research_eves_2019]: https://doi.org/10.1016/j.jsse.2019.04.001
 [research_ewing_1974]: https://doi.org/10.1016/0009-2614(74)80133-8
+[research_expendable_launch_2004]: https://doi.org/10.1108/aeat.2004.12776faf.006
+[research_expendable_launch_2007]: https://doi.org/10.1108/aeat.2007.12779aaf.005
 [research_experimental_investigations_2018]: https://doi.org/10.5829/ije.2018.31.05b.16
 [research_exploring_monopulse_2022]: https://doi.org/10.31838/njap/04.02.04
 [research_extended_life_1989]: https://doi.org/10.1016/0360-3199(89)90098-0
@@ -11406,35 +14444,52 @@ summary of what classification achieves and what it costs.
 [research_fan_duan_2021]: https://doi.org/10.1016/j.actaastro.2020.12.035
 [research_fan_geng_2023]: https://doi.org/10.3390/en16083393
 [research_fan_li_2024]: https://doi.org/10.1142/s2737480724500146
+[research_fan_lyu_2021]: https://doi.org/10.1007/s11214-020-00786-4
 [research_fan_tu_2022]: https://doi.org/10.1016/j.asr.2022.02.055
 [research_fang_1979]: https://doi.org/10.2514/3.55832
 [research_fang_benzerrouk_2019]: https://doi.org/10.1016/j.ifacol.2019.11.251
 [research_fang_chen_2026]: https://doi.org/10.3390/a19070503
+[research_fante_elkin_1970]: https://doi.org/10.21236/ada082371
+[research_farmer_wahls_1992]: https://doi.org/10.2514/3.26363
 [research_faustino_devaraj_2024]: https://doi.org/10.53555/ajbr.v27i4s.5228
 [research_fawley_putnam_2021]: https://doi.org/10.2514/1.a34796
+[research_fay_riddell_1958]: https://doi.org/10.2514/8.7517
+[research_fazelzadeh_varzandian_2010]: https://doi.org/10.1016/j.actaastro.2009.07.021
 [research_feder_2022]: https://doi.org/10.1063/pt.3.4979
 [research_federici_benedikter_2021]: https://doi.org/10.2514/1.a35076
 [research_federici_scorsoglio_2023]: https://doi.org/10.2514/1.a35747
 [research_fedorenko_tyrnov_2010]: https://doi.org/10.1134/s0016793210040109
+[research_fedotov_2004]: https://doi.org/10.1023/b:cosm.0000039739.42414.99
+[research_fehersi_mccuega_1966]: https://ntrs.nasa.gov/citations/19670036701
+[research_feie_kretz_2008]: https://doi.org/10.21236/ada488092
 [research_feipeng_cheng_2001]: https://doi.org/10.1007/bf02900668
 [research_felbeck_1995]: https://doi.org/10.2514/3.26612
+[research_feldick_modest_2011]: https://doi.org/10.1016/j.jqsrt.2011.01.028
 [research_feldmanjay_stewartdavid_2019]: https://ntrs.nasa.gov/citations/20190030273
+[research_felkel_wolff_1969]: https://doi.org/10.21236/ad0854941
 [research_feng_liu_2017]: https://doi.org/10.12783/dtcse/cmee2016/5360
 [research_feng_shi_2024]: https://doi.org/10.1080/01495739.2024.2361828
 [research_feng_tang_2014]: https://doi.org/10.1007/s11434-014-0534-9
+[research_fennell_anderson_2008]: https://doi.org/10.21236/ada483168
 [research_fenucci_fanelli_2024]: https://doi.org/10.1016/j.conengprac.2024.105902
 [research_feoktistova_turkina_2022]: https://doi.org/10.26467/2079-0619-2022-25-5-80-92
 [research_fereoli_schaub_2025]: https://doi.org/10.2514/1.a36100
+[research_ferguson_1964]: https://doi.org/10.21236/ad0607319
 [research_ferguson_davey_1985]: https://doi.org/10.21236/ada164971
 [research_ferguson_hilmer_2015]: https://doi.org/10.2514/1.a32959
 [research_ferguson_hoffmann_2017]: https://doi.org/10.1109/tps.2017.2694387
 [research_fergusondalec_2007]: https://ntrs.nasa.gov/citations/20070036670
 [research_fernandez_wiedemann_2022]: https://doi.org/10.1007/s42496-022-00118-5
+[research_fernandezpello_law_1982]: https://doi.org/10.1016/s0082-0784(82)80280-4
 [research_ferraiuolo_manca_2012]: https://doi.org/10.1016/j.ijthermalsci.2011.10.019
 [research_ferrandi_zinna_2013]: https://doi.org/10.1615/heatpipescietech.2013006089
 [research_ferrandon_1997]: https://doi.org/10.1016/s0265-9646(97)00008-8
+[research_ferri_rotundi_1997]: https://doi.org/10.1016/s0032-0633(96)00018-9
+[research_fesmire_sass_2008]: https://doi.org/10.1016/j.cryogenics.2008.03.014
 [research_fetzerchris_kingrr_2007]: https://ntrs.nasa.gov/citations/20090022292
 [research_fey_jeltsch_1993]: https://doi.org/10.1016/0045-7930(93)90022-2
+[research_fiala_hillier_2014]: https://doi.org/10.1017/jfm.2014.388
+[research_fieseler_shihabi_2026]: https://doi.org/10.2514/1.a36595
 [research_filatov_1972]: https://doi.org/10.1007/bf01205371
 [research_filatyev_buzuluk_2014]: https://doi.org/10.1016/j.actaastro.2014.03.007
 [research_filho_abubakar_2025]: https://doi.org/10.1016/j.sftr.2025.100849
@@ -11443,52 +14498,88 @@ summary of what classification achieves and what it costs.
 [research_finckenor_carrico_2024]: https://doi.org/10.2514/1.a36021
 [research_finckenormiria_pippinhgary_2008]: https://ntrs.nasa.gov/citations/20080031037
 [research_finckenormm_albynkc_2006]: https://ntrs.nasa.gov/citations/20060020185
+[research_finke_1990]: https://doi.org/10.21236/ada231552
 [research_finson_1973]: https://doi.org/10.2514/3.50559
+[research_finson_1975]: https://doi.org/10.21236/ada023150
+[research_finson_clarke_1980]: https://doi.org/10.21236/ada082438
+[research_fiorentini_serrani_2012]: https://doi.org/10.1016/j.automatica.2012.04.006
 [research_fiott_prizeman_2013]: https://doi.org/10.2139/ssrn.2234976
 [research_firat_2026]: https://doi.org/10.55981/aij.2026.1724
 [research_first_netherlands_1974]: https://doi.org/10.1038/251096b0
+[research_fischer_1971]: https://doi.org/10.21236/ad0744105
+[research_fishbaugh_head_2002]: https://doi.org/10.1029/2000je001351
 [research_fisheredwardmjr_1991]: https://ntrs.nasa.gov/citations/19920008550
+[research_fishman_silverman_2011]: https://doi.org/10.1016/j.atmosenv.2011.05.008
 [research_fitzgerald_1974]: https://doi.org/10.1109/tac.1974.1100653
 [research_fitzgerald_2021]: https://doi.org/10.2514/1.g005472
 [research_fixler_1964]: https://doi.org/10.2514/3.2577
 [research_fixler_1966]: https://doi.org/10.2514/3.28661
+[research_flat_milnes_1980]: https://doi.org/10.1016/0038-092x(80)90337-0
 [research_flecklinantonfii_1991]: https://ntrs.nasa.gov/citations/19930013068
+[research_flemingm_1981]: https://ntrs.nasa.gov/citations/19820027384
 [research_flemming_lien_1969]: https://doi.org/10.2514/3.29533
 [research_fletcher_1972]: https://doi.org/10.2514/3.61809
 [research_fletcherjc_1988]: https://ntrs.nasa.gov/citations/19880045249
+[research_flight_module_and_2017]: https://doi.org/10.18698/2541-8009-2017-8-154
 [research_flight_set_1990]: https://ntrs.nasa.gov/citations/19910000802
+[research_flittie_estey_1992]: https://doi.org/10.1016/0094-5765(92)90014-a
 [research_flooddennisj_1991]: https://ntrs.nasa.gov/citations/19910021904
 [research_florencede_1981]: https://ntrs.nasa.gov/citations/19810036367
+[research_fluid_properties_2004]: https://doi.org/10.1016/s0378-3812(03)00360-1
 [research_fogarty_1967]: https://doi.org/10.1109/pgec.1967.264609
 [research_fogelquist_lin_2023]: https://doi.org/10.1016/j.etran.2023.100283
+[research_fong_ehrlich_1970]: https://doi.org/10.21236/ad0866735
+[research_fong_wang_2014]: https://doi.org/10.1016/j.compfluid.2014.01.009
+[research_forbes_2001]: https://doi.org/10.21236/ada388709
 [research_forbes_bruinsma_2021]: https://doi.org/10.1029/2020ja028769
+[research_forbes_bruinsma_2024]: https://doi.org/10.1029/2023gl107044
 [research_forbes_stcyr_2012]: https://doi.org/10.1029/2011sw000752
 [research_forbes_zhang_2018]: https://doi.org/10.1029/2018ja025527
 [research_fordrobert_2003]: https://ntrs.nasa.gov/citations/20030106071
 [research_fornari_pontani_2023]: https://doi.org/10.1016/j.actaastro.2023.07.025
 [research_forootan_farzaneh_2023]: https://doi.org/10.1038/s41598-023-47440-x
 [research_forootan_kosary_2022]: https://doi.org/10.1038/s41598-022-05952-y
+[research_forrette_1964]: https://doi.org/10.2514/3.2273
+[research_forsbergkj_juej_1973]: https://ntrs.nasa.gov/citations/19730024763
+[research_forsyth_hambidge_2024]: https://doi.org/10.2514/1.t6893
 [research_forsythe_melfi_1961]: https://doi.org/10.21236/ad0672194
+[research_forward_1991]: https://doi.org/10.2514/3.26287
 [research_foss_2017]: https://doi.org/10.31988/scitrends.1950
 [research_fossa_bettanini_2020]: https://doi.org/10.1016/j.actaastro.2020.02.046
+[research_foster_1960]: https://doi.org/10.1109/ire-i.1960.5006880
 [research_fostertf_lockmanwk_1973]: https://ntrs.nasa.gov/citations/19740013474
+[research_fox_2000]: https://doi.org/10.21236/ada430980
+[research_fraiture_2009]: https://doi.org/10.2514/1.41860
 [research_franciamore_tumuklu_2026]: https://doi.org/10.2514/1.j065579
+[research_frankenthal_1964]: https://doi.org/10.21236/ad0610257
 [research_franklin_hynes_1986]: https://doi.org/10.2514/3.20146
+[research_franze_barz_2025]: https://doi.org/10.1007/s12567-025-00610-1
+[research_franze_barz_2025_b]: https://doi.org/10.1007/s12567-024-00588-2
 [research_fredrick_hong_2025]: https://doi.org/10.1029/2025sw004374
+[research_freeborn_kinnersley_2005]: https://doi.org/10.1016/j.actaastro.2004.09.020
+[research_freed_1977]: https://doi.org/10.21236/ada050161
 [research_freeden_michel_2002]: https://doi.org/10.1023/a:1016577524288
 [research_freeman_1982]: https://doi.org/10.2514/3.62197
 [research_freeman_talay_1997]: https://doi.org/10.1016/s0094-5765(97)00197-5
 [research_freemandcjr_spencerbjr_1980]: https://ntrs.nasa.gov/citations/19810004555
+[research_french_1968]: https://doi.org/10.1016/0022-4073(68)90108-8
+[research_french_hansen_1964]: https://doi.org/10.21236/ad0609501
 [research_frenchjr_uphoffcw_1979]: https://ntrs.nasa.gov/citations/19800032276
+[research_freund_1967]: https://doi.org/10.21236/ad0815397
 [research_frisbeejosephhjr_2015]: https://ntrs.nasa.gov/citations/20150004606
+[research_fritts_wang_2006]: https://doi.org/10.1029/2006ja011897
 [research_frooninckx_sojka_1992]: https://doi.org/10.1029/91ja02704
 [research_frye_kennedy_1998]: https://doi.org/10.2514/2.5374
 [research_fu_li_2024]: https://doi.org/10.1016/j.sigpro.2024.109491
 [research_fu_li_2025]: https://doi.org/10.1016/j.ifacol.2025.11.199
 [research_fu_liang_2023]: https://doi.org/10.3390/aerospace10080672
 [research_fu_wang_2019]: https://doi.org/10.1109/access.2019.2947297
+[research_fueten_stesky_2005]: https://doi.org/10.1016/j.icarus.2004.11.010
+[research_fujino_asaeda_1999]: https://doi.org/10.2208/proge.7.101
 [research_fujino_ishikawa_2006]: https://doi.org/10.1109/tps.2006.872458
 [research_fujino_yoshino_2008]: https://doi.org/10.2514/1.33385
+[research_fulgham_meehan_2012]: https://doi.org/10.1029/2012sw000817
+[research_fulgham_tobiska_2013]: https://doi.org/10.1002/swe.20061
 [research_fullertoncg_1975]: https://ntrs.nasa.gov/citations/19760035694
 [research_furber_2014]: https://doi.org/10.1007/s10569-014-9534-y
 [research_furukawa_1992]: https://doi.org/10.2514/3.338
@@ -11501,15 +14592,18 @@ summary of what classification achieves and what it costs.
 [research_gaias_damico_2014]: https://doi.org/10.2514/1.61494
 [research_gaias_lovera_2021]: https://doi.org/10.2514/1.g006175
 [research_gaier_hicks_2013]: https://doi.org/10.2514/1.a32135
+[research_galatis_guo_2017]: https://doi.org/10.1016/j.actaastro.2017.07.009
 [research_galman_levinson_1966]: https://doi.org/10.2514/3.28587
 [research_galofaro_vayner_2006]: https://doi.org/10.2514/1.21639
 [research_gamblejd_cookedr_1985]: https://ntrs.nasa.gov/citations/19850008601
 [research_gamblejd_youngjc_1982]: https://ntrs.nasa.gov/citations/19820055576
 [research_gan_ma_2010]: https://doi.org/10.1007/s11433-010-0176-0
 [research_ganapathi_sunada_2009]: https://doi.org/10.4271/2009-01-2419
+[research_gao_2007]: https://doi.org/10.2514/1.24836
 [research_gao_2009]: https://doi.org/10.2514/1.43395
 [research_gao_cai_2019]: https://doi.org/10.1109/access.2019.2936974
 [research_gao_gou_2021]: https://doi.org/10.1016/j.compstruct.2021.113962
+[research_gao_he_2026]: https://doi.org/10.1063/5.0322431
 [research_gao_wang_2020]: https://doi.org/10.1051/ro/2018117
 [research_gao_wei_2023]: https://doi.org/10.3390/en16237717
 [research_gao_wu_2022]: https://doi.org/10.11728/cjss2022.06.yg32
@@ -11518,16 +14612,23 @@ summary of what classification achieves and what it costs.
 [research_gao_zhu_2025]: https://doi.org/10.1115/1.4067366
 [research_gaohua_jianmei_2014]: https://doi.org/10.1108/aeat-10-2012-0198
 [research_garciafernandez_montenbruck_2006]: https://doi.org/10.1029/2005rs003420
+[research_garciallama_2011]: https://doi.org/10.2514/1.50798
+[research_gardner_la_1966]: https://doi.org/10.21236/ad0629359
 [research_garfinkel_1959]: https://doi.org/10.1086/107956
+[research_garrett_1977]: https://doi.org/10.21236/ada053164
 [research_garrett_rubin_1978]: https://doi.org/10.1029/gl005i010p00865
 [research_garse_bairwa_2025]: https://doi.org/10.64252/srng8x25
 [research_gartrell_1983]: https://doi.org/10.1109/taes.1983.309372
+[research_garvin_2000]: https://doi.org/10.1006/icar.1999.6298
+[research_garvin_frawley_1999]: https://doi.org/10.1029/1998gl900309
+[research_gates_lewis_1994]: https://doi.org/10.2514/3.26459
 [research_gath_calise_2001]: https://doi.org/10.2514/2.4712
 [research_gaudet_furfaro_2023]: https://doi.org/10.2514/1.a35396
 [research_gautier_ip_1984]: https://doi.org/10.1007/bf00933736
-[research_ge_rong_2012]: https://doi.org/10.1021/nl300206e
+[research_ge_xie_2022]: https://doi.org/10.3389/fphy.2022.900665
 [research_geller_klein_2014]: https://doi.org/10.2514/1.g000133
 [research_gelsherbiny_khattab_2013]: https://doi.org/10.12691/ajme-1-3-2
+[research_genco_task_1984]: https://doi.org/10.21236/ada147259
 [research_generaldynamicscorpsandiegoca_1992]: https://doi.org/10.21236/ada258845
 [research_georgemikk_1982]: https://ntrs.nasa.gov/citations/19820017417
 [research_gerhard_steins_2015]: https://doi.org/10.1109/tps.2015.2454233
@@ -11536,36 +14637,59 @@ summary of what classification achieves and what it costs.
 [research_gersten_schwarbein_1963]: https://doi.org/10.2514/3.1562
 [research_gerver_hastings_1990]: https://doi.org/10.2514/3.26156
 [research_geyling_1964]: https://doi.org/10.2514/3.2518
+[research_geyling_1964_b]: https://doi.org/10.1002/j.1538-7305.1964.tb01010.x
 [research_ghafoor_amin_2024]: https://doi.org/10.1177/00202940241233383
 [research_ghazavi_farzaneh_2025]: https://doi.org/10.66224/jgit.13.3.47
 [research_ghincea_2025]: https://doi.org/10.1093/fpa/oraf002
+[research_ghosh_guha_2017]: https://doi.org/10.1016/j.enconman.2017.10.039
+[research_ghoshal_ghoshal_1970]: https://doi.org/10.1017/s0022112070002513
 [research_ghoshalexander_2016]: https://ntrs.nasa.gov/citations/20160007911
+[research_gibney_2004]: https://doi.org/10.21236/ada428997
 [research_gibney_2015]: https://doi.org/10.1038/nature.2015.16908
 [research_gibsonc_humphriesc_1985]: https://ntrs.nasa.gov/citations/19850008634
+[research_gierasch_goody_1967]: https://doi.org/10.1016/0032-0633(67)90080-3
+[research_gilbert_howe_1991]: https://doi.org/10.2514/3.20613
 [research_gildfind_smith_2021]: https://doi.org/10.2514/1.j058389
 [research_gill_akos_2024]: https://doi.org/10.1016/j.asr.2023.11.041
 [research_gillinsrl_1975]: https://ntrs.nasa.gov/citations/19750007651
+[research_ginet_2005]: https://doi.org/10.21236/ada455162
+[research_ginoux_1966]: https://doi.org/10.21236/ad0647819
 [research_gioulis_kamalakis_2025]: https://doi.org/10.3390/photonics12040392
 [research_giraldogrueso_popov_2026]: https://doi.org/10.2514/1.g009344
 [research_girija_2023]: https://doi.org/10.1016/j.actaastro.2022.10.005
 [research_girija_lu_2020]: https://doi.org/10.2514/1.a34529
 [research_girija_saikia_2021]: https://doi.org/10.21105/joss.03710
+[research_girish_aranya_2007]: https://doi.org/10.1016/j.solmat.2007.03.013
 [research_giudici_gonzalo_2024]: https://doi.org/10.1016/j.actaastro.2024.03.067
 [research_givri_1998]: https://doi.org/10.1016/s0273-1177(99)00122-2
+[research_glatt_olfe_1973]: https://doi.org/10.1016/0022-4073(73)90128-3
+[research_gnoffopetera_berryscotta_2011]: https://ntrs.nasa.gov/citations/20110013216
 [research_goad_douglas_1977]: https://doi.org/10.1029/jb082i005p00898
+[research_goates_freeman_2026]: https://doi.org/10.3390/aerospace13040373
 [research_gochenaur_jones_2026]: https://doi.org/10.2514/1.a36732
+[research_godai_1986]: https://doi.org/10.1016/0094-5765(86)90117-7
+[research_godai_1987]: https://doi.org/10.1016/0160-9327(87)90198-0
+[research_godbole_kelkar_1970]: https://doi.org/10.54302/mausam.v21i1.5343
+[research_godett_ziph_1986]: https://doi.org/10.21236/ada173813
 [research_goff_grossi_1970]: https://doi.org/10.2514/3.5894
 [research_gogu_bapanapalli_2009]: https://doi.org/10.2514/1.35669
 [research_gogu_matsumura_2009]: https://doi.org/10.2514/1.37684
 [research_gokcentahir_parkchungs_1998]: https://ntrs.nasa.gov/citations/20070003477
 [research_gokul_malaikannan_2025]: https://doi.org/10.1017/aer.2025.10023
+[research_goldberg_2005]: https://doi.org/10.2514/1.8226
+[research_goldberg_scala_1965]: https://doi.org/10.21236/ad0623553
+[research_golden_1969]: https://doi.org/10.21236/ad0858522
+[research_goldsteinhe_smithm_1973]: https://ntrs.nasa.gov/citations/19730024734
 [research_goldstone_treadway_1978]: https://doi.org/10.1007/bf02221153
+[research_golovachev_1972]: https://doi.org/10.1007/bf01176125
 [research_golovachov_lunkin_1979]: https://doi.org/10.1016/0094-5765(79)90017-1
 [research_golubek_dron_2023]: https://doi.org/10.15407/knit2023.03.034
 [research_golubkin_1995]: https://doi.org/10.1007/bf02078211
+[research_gombosi_2007]: https://doi.org/10.21236/ada473348
 [research_gomesvieira_almeidaleitao_2021]: https://doi.org/10.51550/nijsr.52.16.21
 [research_gomez_walker_2017]: https://doi.org/10.2514/1.g002081
 [research_gonczi_froeschle_1982]: https://doi.org/10.1016/0019-1035(82)90152-x
+[research_gondarenko_ossakow_2006]: https://doi.org/10.1029/2006gl025916
 [research_gondelach_linares_2020]: https://doi.org/10.1029/2019sw002356
 [research_gondelach_linares_2021]: https://doi.org/10.1029/2020sw002620
 [research_gong_gao_2022]: https://doi.org/10.1016/j.energy.2022.124812
@@ -11574,9 +14698,10 @@ summary of what classification achieves and what it costs.
 [research_gong_li_2007]: https://doi.org/10.2514/1.29752
 [research_gong_wang_2022]: https://doi.org/10.3390/sym14091862
 [research_gong_yu_2025]: https://doi.org/10.1109/taes.2025.3601096
-[research_gonzalezmalabet_gober_2025]: https://doi.org/10.1039/d4ya00530a
 [research_good_2016]: https://doi.org/10.1098/rsta.2015.0219
 [research_goodarzi_keimanesh_2013]: https://doi.org/10.1016/j.enconman.2013.03.031
+[research_goode_2012]: https://doi.org/10.21236/ada577214
+[research_goode_2015]: https://doi.org/10.21236/ada619946
 [research_goodman_1980]: https://doi.org/10.1177/107118138002400156
 [research_goodman_2006]: https://doi.org/10.2514/1.19653
 [research_goodman_2010]: https://doi.org/10.1121/1.3384181
@@ -11585,8 +14710,10 @@ summary of what classification achieves and what it costs.
 [research_goossens_matsumoto_2008]: https://doi.org/10.1029/2007gl031960
 [research_gordon_1973]: https://doi.org/10.1007/bf01229952
 [research_gordon_falco_2025]: https://doi.org/10.1109/access.2025.3547271
+[research_gorodetskaya_cane_2006]: https://doi.org/10.3137/ao.440206
 [research_gortonmarkp_shidelerjohnl_1993]: https://ntrs.nasa.gov/citations/19930014907
 [research_goto_kawakita_2004]: https://doi.org/10.2322/tjsass.47.99
+[research_goubau_1970]: https://doi.org/10.1080/00222739.1970.11688767
 [research_govind_demirel_2023]: https://doi.org/10.1016/j.joms.2023.08.171
 [research_goyer_tallon_2023]: https://doi.org/10.1016/j.ceramint.2023.04.055
 [research_graf_zurek_2005]: https://doi.org/10.1016/j.actaastro.2005.03.043
@@ -11594,16 +14721,21 @@ summary of what classification achieves and what it costs.
 [research_graham_kingston_2015]: https://doi.org/10.1016/j.actaastro.2015.07.023
 [research_graham_vigneron_1981]: https://doi.org/10.2514/3.57787
 [research_granthamkatie_2003]: https://ntrs.nasa.gov/citations/20030093586
+[research_graphical_method_1962]: https://doi.org/10.1016/0038-092x(62)90115-9
 [research_grard_1997]: https://doi.org/10.1016/s0273-1177(97)00376-1
 [research_gray_1969]: https://doi.org/10.1119/1.1975677
 [research_grebeellis_quick_2026]: https://doi.org/10.1119/5.0289306
 [research_green_lange_1984]: https://doi.org/10.1111/j.1151-2916.1984.tb19525.x
 [research_greenchristopher_claflinscott_1999]: https://ntrs.nasa.gov/citations/19990062679
 [research_greene_smith_1980]: https://doi.org/10.1016/0019-1035(80)90059-7
+[research_greene_williamson_1982]: https://doi.org/10.2514/3.56178
 [research_greenhouse_gas_satellite_2009]: https://doi.org/10.1038/457523b
 [research_greenquist_2022]: https://doi.org/10.1016/j.nucengdes.2022.111972
+[research_greer_1980]: https://doi.org/10.1016/0032-0633(80)90012-4
+[research_greer_1990]: https://doi.org/10.1016/0032-0633(90)90079-6
 [research_greiner_hoyvik_2026]: https://doi.org/10.1021/acs.jctc.5c01576
 [research_gretz_1962]: https://doi.org/10.2514/8.6408
+[research_griend_owe_1993]: https://doi.org/10.1080/01431169308954009
 [research_griffin_1985]: https://doi.org/10.1243/pime_proc_1985_199_136_01
 [research_griffithbj_mausjr_1983]: https://ntrs.nasa.gov/citations/19840002063
 [research_griffithbj_mausjr_1986]: https://ntrs.nasa.gov/citations/19860047372
@@ -11619,14 +14751,21 @@ summary of what classification achieves and what it costs.
 [research_grotemg_starkja_1987]: https://ntrs.nasa.gov/citations/19870057563
 [research_groves_1958]: https://doi.org/10.1038/1821533b0
 [research_groves_1959]: https://doi.org/10.1038/184178a0
+[research_groves_1961]: https://doi.org/10.1016/0032-0633(61)90103-9
+[research_groves_1965]: https://doi.org/10.1016/0032-0633(65)90105-4
+[research_groves_serrani_2005]: https://doi.org/10.21236/ada444973
 [research_grunden_2012]: https://doi.org/10.1353/tech.2012.0159
+[research_gu_jiang_2019]: https://doi.org/10.1016/j.asr.2018.09.005
 [research_gu_wang_2017]: https://doi.org/10.1016/j.compstruct.2016.09.047
 [research_gu_zhu_2009]: https://doi.org/10.11728/cjss2009.05.515
 [research_guadagnini_dezaiacomo_2023]: https://doi.org/10.3390/aerospace11010035
 [research_guan_li_2025]: https://doi.org/10.1016/j.ast.2025.109977
+[research_gubby_evans_2002]: https://doi.org/10.1016/s1364-6826(02)00122-0
+[research_guelman_1997]: https://doi.org/10.2514/2.4085
 [research_guerman_ivanov_2020]: https://doi.org/10.1134/s0010952520030016
 [research_guglielmi_lecarpentier_1993]: https://doi.org/10.1016/s1474-6670(17)48856-2
 [research_gui_2019]: https://doi.org/10.1360/sspma2019-0060
+[research_gui_zhang_2023]: https://doi.org/10.1007/s00348-023-03703-x
 [research_guimaraesfurtado_2026]: https://doi.org/10.32870/cys.v2026.9010
 [research_guinnessy_2012]: https://doi.org/10.1063/pt.5.026110
 [research_guipingliu_douglaserowland_2023]: https://ntrs.nasa.gov/citations/20230008055
@@ -11634,6 +14773,8 @@ summary of what classification achieves and what it costs.
 [research_guizhen_honggang_2016]: https://doi.org/10.1016/j.chaos.2015.11.023
 [research_gulhan_esser_2001]: https://doi.org/10.2514/2.3729
 [research_gulhan_klingenberg_2026]: https://doi.org/10.2514/1.a36748
+[research_gulhan_thiele_2019]: https://doi.org/10.2514/1.a34228
+[research_gulhan_willems_2021]: https://doi.org/10.1007/s00348-021-03336-y
 [research_gulli_maddalena_2014]: https://doi.org/10.2514/1.a32980
 [research_gulli_maddalena_2014_b]: https://doi.org/10.2514/1.a32692
 [research_gulli_maddalena_2015]: https://doi.org/10.2514/1.a32981
@@ -11643,6 +14784,7 @@ summary of what classification achieves and what it costs.
 [research_gunn_1991]: https://doi.org/10.1016/0094-5765(91)90086-k
 [research_gunning_2005]: https://doi.org/10.2307/4149299
 [research_gunther_1966]: https://doi.org/10.2514/3.3438
+[research_guo_cao_2026]: https://doi.org/10.1063/5.0340255
 [research_guo_chang_2018]: https://doi.org/10.1016/j.isatra.2018.04.001
 [research_guo_guo_2025]: https://doi.org/10.1029/2024sw004317
 [research_guo_ji_2020]: https://doi.org/10.1016/j.ijthermalsci.2020.106466
@@ -11660,42 +14802,62 @@ summary of what classification achieves and what it costs.
 [research_guo_zhang_2024]: https://doi.org/10.1016/j.asr.2024.05.063
 [research_guo_zhang_2026]: https://doi.org/10.1007/s10291-026-02039-3
 [research_guo_zhou_2015]: https://doi.org/10.1016/j.asr.2015.03.001
+[research_guoliang_guiqing_2004]: https://doi.org/10.1016/s0094-5765(03)00035-3
 [research_gupta_1993]: https://doi.org/10.2514/3.25466
 [research_gupta_2022]: https://doi.org/10.5553/iisl/2022065004005
 [research_gupta_hall_1979]: https://doi.org/10.2514/3.55849
+[research_gupta_lee_1992]: https://doi.org/10.2514/3.26332
 [research_gupta_pali_2019]: https://doi.org/10.1016/j.solener.2018.12.024
 [research_gupta_ramkumar_2015]: https://doi.org/10.12783/fae.2015.0401.02
 [research_gurfil_2003]: https://doi.org/10.2514/2.6926
 [research_gurtu_1981]: https://doi.org/10.14429/dsj.31.6372
 [research_guruswamy_2016]: https://doi.org/10.2514/1.j055018
 [research_gustafson_kriegsman_1973]: https://doi.org/10.2514/3.61893
+[research_guzewich_toigo_2015]: https://doi.org/10.1016/j.icarus.2015.06.023
+[research_haas_schmitt_1994]: https://doi.org/10.2514/3.26547
 [research_haasdw_1972]: https://ntrs.nasa.gov/citations/19720013182
+[research_hackettcharlesm_1993]: https://ntrs.nasa.gov/citations/19930064302
 [research_hafend_1982]: https://ntrs.nasa.gov/citations/19820012545
 [research_hagan_1960]: https://doi.org/10.1109/tcom.1960.1097633
+[research_haig_perlmutter_1965]: https://doi.org/10.2514/3.28341
 [research_haith_bowman_2014]: https://doi.org/10.2514/1.54855
 [research_hajiyev_ata_2011]: https://doi.org/10.4236/pos.2011.24013
 [research_hajkowicz_1977]: https://doi.org/10.1038/266147a0
 [research_hajo_lee_2026]: https://doi.org/10.1093/mam/ozag053.092
 [research_halejosephp_1997]: https://ntrs.nasa.gov/citations/19990107378
+[research_haley_zhong_2023]: https://doi.org/10.1063/5.0137902
+[research_hall_1972]: https://doi.org/10.1016/0021-9169(72)90189-4
 [research_hall_2003]: https://doi.org/10.21236/ada424690
+[research_hall_2005]: https://doi.org/10.21236/ada433217
 [research_hall_2006]: https://doi.org/10.21236/ada460177
 [research_hall_jefferies_2022]: https://doi.org/10.1007/s40295-022-00306-2
+[research_hall_lindgren_2005]: https://doi.org/10.1002/esp.1189
 [research_hall_shtessel_2006]: https://doi.org/10.2514/1.20151
 [research_hallcharlese_gallahermichaelw_1998]: https://ntrs.nasa.gov/citations/19980237256
+[research_hallion_1998]: https://doi.org/10.21236/ada441127
+[research_hallstein_1975]: https://doi.org/10.21236/ada008789
+[research_halperin_1984]: https://doi.org/10.1016/0740-624x(84)90031-5
 [research_halyonesim_taylordeborahb_1989]: https://ntrs.nasa.gov/citations/19890014124
 [research_ham_lin_2016]: https://doi.org/10.12783/fae.2016.0501.04
+[research_hamilton_1993]: https://doi.org/10.1006/icar.1993.1022
 [research_hamilton_gupta_1991]: https://doi.org/10.2514/3.26219
 [research_hamlynkm_dergancerh_1981]: https://ntrs.nasa.gov/citations/19810057794
+[research_hammelrl_smithag_1974]: https://ntrs.nasa.gov/citations/19740026218
 [research_hammitt_1965]: https://doi.org/10.2514/3.3204
 [research_han_2004]: https://doi.org/10.1023/b:cele.0000009383.07092.1f
 [research_han_chen_2026]: https://doi.org/10.3724/zrht.1674-5825.2025089
 [research_han_geng_2023]: https://doi.org/10.23919/ien.2023.0043
 [research_han_guo_2021]: https://doi.org/10.1364/ao.432386
+[research_han_han_2024]: https://doi.org/10.1063/5.0196415
+[research_han_he_2022]: https://doi.org/10.3390/aerospace9100574
 [research_han_qiao_2017]: https://doi.org/10.1061/(asce)as.1943-5525.0000788
 [research_han_sun_2020]: https://doi.org/10.1016/j.ast.2019.105673
+[research_hand_2016]: https://doi.org/10.1126/science.351.6278.1122
 [research_hand_2018]: https://doi.org/10.1126/science.aav1988
 [research_handmer_freeland_2022]: https://doi.org/10.25172/jalc.87.3.2
+[research_hankey_hooks_1963]: https://doi.org/10.2514/3.1851
 [research_hanna_somers_2025]: https://doi.org/10.1021/acs.est.4c13838
+[research_hanna_toison_2002]: https://doi.org/10.1007/bf03546261
 [research_hannah_muessig_1970]: https://doi.org/10.21236/ada955972
 [research_hannajilll_tolsonrobert_2002]: https://ntrs.nasa.gov/citations/20030014800
 [research_hanson_2014]: https://doi.org/10.1089/space.2014.0010
@@ -11703,28 +14865,39 @@ summary of what classification achieves and what it costs.
 [research_hansonjohnm_jonesroberte_2004]: https://ntrs.nasa.gov/citations/20040085901
 [research_hao_zhang_2022]: https://doi.org/10.1088/1742-6596/2252/1/012073
 [research_hao_zhu_2019]: https://doi.org/10.1016/j.pss.2019.01.010
-[research_hardin_1986]: https://doi.org/10.1126/science.3945808
 [research_hargrave_fairweather_1985]: https://doi.org/10.1016/0142-727x(85)90042-6
 [research_haridim_shaked_2026]: https://doi.org/10.3390/info17030253
 [research_harinim_kumar_2024]: https://doi.org/10.38124/ijisrt/ijisrt24jul1831
 [research_harloff_1988]: https://doi.org/10.2514/3.26010
+[research_harney_1963]: https://doi.org/10.21236/ad0295147
 [research_harpersusanaa_juarezalfredo_2018]: https://ntrs.nasa.gov/citations/20180005251
 [research_harpold_gavert_1983]: https://doi.org/10.2514/3.8523
 [research_harra_kankelborg_2005]: https://doi.org/10.1016/j.asr.2005.02.080
 [research_harris_jastrow_1959]: https://doi.org/10.1109/jrproc.1959.287279
+[research_harris_mueller_2007]: https://doi.org/10.1016/j.icarus.2006.12.003
 [research_harrison_gibson_1981]: https://doi.org/10.2514/3.57796
+[research_harrison_minnis_1983]: https://doi.org/10.2514/3.25634
+[research_harrison_osinski_2015]: https://doi.org/10.1016/j.icarus.2015.01.022
 [research_harthunmh_blumercb_1983]: https://ntrs.nasa.gov/citations/19840002083
 [research_harting_1981]: https://doi.org/10.1111/j.1747-1567.1981.tb01597.x
 [research_hartung_mitcheltree_1992]: https://doi.org/10.2514/3.376
 [research_hartwigjasonw_2016]: https://ntrs.nasa.gov/citations/20170000667
+[research_harvey_hill_2011]: https://doi.org/10.21236/ada623786
+[research_harvey_howard_1997]: https://doi.org/10.21236/ada634656
+[research_harveygalea_2008]: https://ntrs.nasa.gov/citations/20090015854
 [research_harwood_2016]: https://doi.org/10.1177/0191453716677178
+[research_hase_2011]: https://doi.org/10.21236/ada547043
 [research_hasegawa_kanda_2019]: https://doi.org/10.2322/tastj.17.301
 [research_haselbach_pilloud_1998]: https://doi.org/10.1002/hlca.19980810317
 [research_hashemi_mahajan_2021]: https://doi.org/10.1016/j.energy.2021.120699
 [research_hashimoto_makino_2003]: https://doi.org/10.1017/s0074180900207468
+[research_haslettrobert_mahefkeyethomas_1986]: https://ntrs.nasa.gov/citations/19880000712
 [research_hasnainaqib_2016]: https://ntrs.nasa.gov/citations/20160005644
+[research_hassan_candler_1993]: https://doi.org/10.2514/3.26369
 [research_hassan_fahrenholtz_2024]: https://doi.org/10.1016/j.ceramint.2024.10.430
+[research_hassanien_1997]: https://doi.org/10.1016/s0196-8904(96)00100-8
 [research_hastings_1995]: https://doi.org/10.1029/94ja03358
+[research_hastings_2006]: https://doi.org/10.21236/ada455064
 [research_hastings_cho_1990]: https://doi.org/10.2514/3.26137
 [research_hatten_russell_2017]: https://doi.org/10.1016/j.asr.2016.10.015
 [research_hattis_1981]: https://doi.org/10.2514/3.19755
@@ -11737,20 +14910,30 @@ summary of what classification achieves and what it costs.
 [research_hawthornepj_1976]: https://ntrs.nasa.gov/citations/19760025149
 [research_hayashi_kondo_2013]: https://doi.org/10.1149/ma2013-02/35/2284
 [research_hayden_2004]: https://doi.org/10.21236/ada422203
+[research_hayes_1964]: https://doi.org/10.1017/s0022112064000787
 [research_hayes_probstein_1960]: https://doi.org/10.1115/1.3644007
 [research_hayes_rotman_1973]: https://doi.org/10.2514/3.50506
+[research_hays_liu_1965]: https://doi.org/10.1016/0032-0633(65)90055-3
+[research_he_arvidson_2022]: https://doi.org/10.1029/2021je007092
 [research_he_chen_2026]: https://doi.org/10.1016/j.jpowsour.2026.240103
 [research_he_cui_2024]: https://doi.org/10.1002/sat.1509
+[research_he_jiao_2022]: https://doi.org/10.1002/adem.202200667
 [research_he_li_2024]: https://doi.org/10.3390/atmos15010072
 [research_he_liu_2017]: https://doi.org/10.1016/j.ast.2017.10.019
 [research_he_sun_2023]: https://doi.org/10.1016/j.ast.2023.108524
+[research_he_wu_2025]: https://doi.org/10.1002/pc.70693
 [research_he_xu_2026]: https://doi.org/10.1016/j.asr.2025.12.073
 [research_he_zeng_2024]: https://doi.org/10.70114/acmsr.2024.1.1.p253
 [research_he_zhang_2022]: https://doi.org/10.1177/01423312221124989
+[research_he_zhang_2026]: https://doi.org/10.1016/j.applthermaleng.2026.130658
 [research_he_zhou_2020]: https://doi.org/10.1016/j.applthermaleng.2019.114897
+[research_head_hiesinger_1999]: https://doi.org/10.1126/science.286.5447.2134
+[research_heagy_sullivan_1996]: https://doi.org/10.1016/1352-2310(95)00282-4
+[research_hearn_1979]: https://doi.org/10.2514/3.57669
 [research_hedinae_1983]: https://ntrs.nasa.gov/citations/19840033241
 [research_hedinae_mayrhg_1977]: https://ntrs.nasa.gov/citations/19770063074
 [research_hegab_2015]: https://doi.org/10.7463/0215.0758801
+[research_heiser_2010]: https://doi.org/10.2514/1.46631
 [research_hejdukmd_cowardinhm_2012]: https://ntrs.nasa.gov/citations/20120015337
 [research_hejdukmd_frigmryanc_2015]: https://ntrs.nasa.gov/citations/20150018286
 [research_helers_kraemer_1977]: https://doi.org/10.1016/0005-1098(77)90005-x
@@ -11760,19 +14943,27 @@ summary of what classification achieves and what it costs.
 [research_hellman_remillard_2011]: https://doi.org/10.21236/ada554045
 [research_hellman_wallace_2011]: https://doi.org/10.21236/ada551823
 [research_hellmann_conover_1970]: https://doi.org/10.2514/3.29886
+[research_helms_1973]: https://doi.org/10.2514/3.27774
 [research_helms_1983]: https://doi.org/10.2514/3.25584
+[research_heltzel_semprimoschnig_2009]: https://doi.org/10.2514/1.31892
 [research_hemiaofu_1984]: https://doi.org/10.1016/0275-1062(84)90032-8
 [research_hemmerdinger_1964]: https://doi.org/10.2514/3.27684
 [research_hench_1995]: https://doi.org/10.1146/annurev.matsci.25.1.37
 [research_hendricks_sood_2022]: https://doi.org/10.1115/1.4054340
 [research_henley_1986]: https://doi.org/10.2514/3.25791
+[research_henline_1992]: https://doi.org/10.2514/3.26335
 [research_henning_sorge_2020]: https://doi.org/10.1016/j.jsse.2020.07.025
 [research_henry_1989]: https://doi.org/10.2514/3.26031
 [research_henrywmulkey_wilhelmdingertz]: https://ntrs.nasa.gov/citations/20210022261
 [research_heppenheimer_1971]: https://doi.org/10.2514/3.30311
+[research_herbert_1992]: https://doi.org/10.21236/ada250900
 [research_herbertfort_zaritsky_2008]: https://doi.org/10.1111/j.1365-2966.2007.12756.x
 [research_herdiansyah_frimawaty_2016]: https://doi.org/10.1088/1755-1315/30/1/012015
+[research_hering_1968]: https://doi.org/10.2514/3.29184
+[research_herman_1977]: https://doi.org/10.21236/ada048624
+[research_herman_conway_1998]: https://doi.org/10.2514/2.4210
 [research_hermangc_1986]: https://ntrs.nasa.gov/citations/19860017460
+[research_hermes_spaceplane_1988]: https://doi.org/10.1108/eb036582
 [research_hernquist_weinberg_1989]: https://doi.org/10.1093/mnras/238.2.407
 [research_herriott_1958]: https://doi.org/10.1364/josa.48.0667_1
 [research_herron_bayless_1973]: https://doi.org/10.2514/3.61908
@@ -11781,26 +14972,31 @@ summary of what classification achieves and what it costs.
 [research_hibbard_glaze_2012]: https://doi.org/10.1016/j.actaastro.2011.11.008
 [research_hibberd_thomas_1959]: https://doi.org/10.1016/0021-9169(59)90145-x
 [research_hickson_2018]: https://doi.org/10.1016/j.asr.2018.08.039
+[research_hiesinger_head_2000]: https://doi.org/10.1029/1999je001193
 [research_higginbotham_bettinger_2024]: https://doi.org/10.1016/j.ast.2024.109403
+[research_higginbotham_bettinger_2026]: https://doi.org/10.1016/j.ast.2026.111671
 [research_high_cycle_1980]: https://doi.org/10.1016/0378-7753(80)80030-9
 [research_hilado_brauer_1978]: https://doi.org/10.1177/109719637800200202
 [research_hilado_brauer_1978_b]: https://doi.org/10.1177/109719637800200205
 [research_hilado_kosola_1978]: https://doi.org/10.1177/109719637800200103
 [research_hill_1984]: https://doi.org/10.1121/1.2021904
+[research_hill_2018]: https://doi.org/10.1029/2018sw002001
 [research_hill_born_2007]: https://doi.org/10.2514/1.24574
 [research_hillard_1994]: https://doi.org/10.2514/3.26473
 [research_hillard_1994_b]: https://doi.org/10.2514/3.26532
 [research_hillard_ferguson_1993]: https://doi.org/10.2514/3.25555
+[research_hiller_1963]: https://doi.org/10.1016/0032-0633(63)90133-8
 [research_hilton_cairola_2019]: https://doi.org/10.3390/s19204361
 [research_himelblau_1972]: https://doi.org/10.1121/1.1982009
 [research_himelblau_1972_b]: https://doi.org/10.1121/1.1982010
 [research_hines_ulrich_2026]: https://doi.org/10.2514/1.a36637
 [research_hinostroza_lekkas_2024]: https://doi.org/10.1016/j.oceaneng.2024.117104
+[research_hintz_farless_1980]: https://doi.org/10.2514/3.55971
 [research_hipparcos_satellite_1990]: https://doi.org/10.1016/0045-8732(90)90069-z
 [research_hirasawa_sato_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.670
 [research_hiroyuki_keiichi_1997]: https://doi.org/10.1016/s0378-7753(97)89728-5
 [research_hirsch_formisano_1996]: https://doi.org/10.1016/0032-0633(96)00062-1
-[research_hlal_ramachandaramurthy_2019]: https://doi.org/10.1016/j.est.2019.100999
+[research_hitzl_zele_1987]: https://doi.org/10.1007/bf01238753
 [research_hljusth_amdwyercianciolo]: https://ntrs.nasa.gov/citations/20210019167
 [research_hljusth_amdwyercianciolo_b]: https://ntrs.nasa.gov/citations/20210021299
 [research_hljusth_amdwyercianciolo_c]: https://ntrs.nasa.gov/citations/20210013752
@@ -11811,22 +15007,35 @@ summary of what classification achieves and what it costs.
 [research_hodot_sartre_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.370
 [research_hoerber_2018]: https://doi.org/10.1016/j.spacepol.2018.02.001
 [research_hoffmandavidj_scheimandavida_1997]: https://ntrs.nasa.gov/citations/19970028356
+[research_hoffmann_2000]: https://doi.org/10.21236/ada422319
 [research_hofmeister_criss_2026]: https://doi.org/10.1016/j.pss.2026.106268
+[research_hohenstein_sherrill_2010]: https://doi.org/10.1063/1.3479400
+[research_hoke_1965]: https://doi.org/10.2514/3.3020
 [research_holdaway_1976]: https://doi.org/10.1016/s1474-6670(17)67152-0
+[research_holdenmichaels_rodriguezkathleen_1994]: https://ntrs.nasa.gov/citations/19940029665
+[research_holdenmichaels_rodriguezkathleen_1994_b]: https://ntrs.nasa.gov/citations/19940030458
+[research_holdenmichaels_rodriguezkathleenm_1990]: https://ntrs.nasa.gov/citations/19900035394
 [research_holladayjon_hamptonbryan_2014]: https://ntrs.nasa.gov/citations/20140008559
 [research_hollandsworthrogerp_armantroutjond_2002]: https://ntrs.nasa.gov/citations/20030031368
+[research_holleman_adkins_1964]: https://doi.org/10.2514/3.43607
+[research_hollis_2025]: https://doi.org/10.2514/1.a36008
 [research_hollis_perkins_1999]: https://doi.org/10.2514/2.3499
 [research_hollisbrianr_2010]: https://ntrs.nasa.gov/citations/20100025002
+[research_hollisbrianr_2019]: https://ntrs.nasa.gov/citations/20190033463
+[research_hollisbrianr_hollingsworthkevine_2014]: https://ntrs.nasa.gov/citations/20150000606
 [research_hollowaypaulf_throckmortondavida_1995]: https://ntrs.nasa.gov/citations/19960003902
 [research_holzinger_2014]: https://doi.org/10.2514/1.g000523
 [research_hong_lee_2005]: https://doi.org/10.1017/s172771910000054x
 [research_hong_li_2026]: https://doi.org/10.3390/aerospace13060538
 [research_hongpeng_weiqiang_2016]: https://doi.org/10.1016/j.actaastro.2016.05.014
 [research_hooversa_daughtridges_1997]: https://ntrs.nasa.gov/citations/19970013724
+[research_hope_middour_1993]: https://doi.org/10.21236/ada265012
 [research_horak_2026]: https://doi.org/10.36682/a_2025_2_3
 [research_horie_conway_1999]: https://doi.org/10.2514/2.4435
 [research_horing_maute_2025]: https://doi.org/10.2514/1.t7165
+[research_hornbuckle_2015]: https://doi.org/10.21236/ad1019476
 [research_horri_holderbaum_2024]: https://doi.org/10.3390/app14156635
+[research_horstman_1963]: https://doi.org/10.2514/3.1894
 [research_horton_babineaux_1967]: https://doi.org/10.2514/3.3904
 [research_horvaththomasj_oconnelltodf_2002]: https://ntrs.nasa.gov/citations/20030005447
 [research_hoschele_stark_2021]: https://doi.org/10.1016/j.pss.2021.105195
@@ -11839,14 +15048,20 @@ summary of what classification achieves and what it costs.
 [research_hou_zhang_2021]: https://doi.org/10.1039/d0qm01117g
 [research_hough_elrod_1969]: https://doi.org/10.1115/1.3591492
 [research_house_hill_1993]: https://doi.org/10.1109/62.246035
+[research_houseman_lee_1972]: https://doi.org/10.2514/3.61775
 [research_housemanjohn_patzoldjackd_1999]: https://ntrs.nasa.gov/citations/19990110092
 [research_houtian_qi_2013]: https://doi.org/10.1109/cc.2013.6650318
 [research_houwink_richards_1973]: https://doi.org/10.2514/3.6824
 [research_hove_shih_1977]: https://doi.org/10.2514/3.60741
 [research_hovell_ulrich_2021]: https://doi.org/10.2514/1.a34838
 [research_hovey_1965]: https://doi.org/10.2514/3.28175
+[research_howard_2010]: https://doi.org/10.21236/ada526112
 [research_howard_hansen_2006]: https://doi.org/10.21236/ada473434
+[research_howardricky_heatonandy_2008]: https://ntrs.nasa.gov/citations/20090001151
+[research_howellhr_1972]: https://ntrs.nasa.gov/citations/19730009157
 [research_hozhabr_radi_2014]: https://doi.org/10.4028/www.scientific.net/amm.598.265
+[research_hromas_lees_1962]: https://doi.org/10.21236/ad0400700
+[research_hsieh_2014]: https://doi.org/10.21236/ada618983
 [research_hsu_kuo_1990]: https://doi.org/10.2514/3.20534
 [research_hsu_kuo_1990_b]: https://doi.org/10.1016/0094-5765(90)90114-z
 [research_hsu_thayer_2016]: https://doi.org/10.1002/2016ja023058
@@ -11861,39 +15076,57 @@ summary of what classification achieves and what it costs.
 [research_hu_yue_2017]: https://doi.org/10.1002/2017sw001636
 [research_hu_zhang_2025]: https://doi.org/10.1016/j.csite.2024.105676
 [research_hua_shao_2015]: https://doi.org/10.1155/2015/439815
+[research_huang_2005]: https://doi.org/10.21236/ada455959
 [research_huang_2013]: https://doi.org/10.3901/jme.2013.19.070
 [research_huang_cao_2025]: https://doi.org/10.1016/j.sspwt.2025.11.001
 [research_huang_dai_2023]: https://doi.org/10.2514/1.a35612
+[research_huang_he_1988]: https://doi.org/10.1016/0275-1062(88)90021-5
+[research_huang_he_2022]: https://doi.org/10.4236/aast.2022.73008
 [research_huang_hu_2012]: https://doi.org/10.1088/1674-4527/12/10/003
 [research_huang_lee_2026]: https://doi.org/10.3390/aerospace13070607
 [research_huang_lei_2022]: https://doi.org/10.3390/rs14030483
+[research_huang_li_2022]: https://doi.org/10.1115/1.4054067
+[research_huang_li_2022_b]: https://doi.org/10.1016/j.ast.2022.107506
+[research_huang_li_2022_c]: https://doi.org/10.1016/j.ijthermalsci.2022.107460
 [research_huang_li_2025]: https://doi.org/10.2514/1.a36290
 [research_huang_liu_2009]: https://doi.org/10.2514/1.34476
 [research_huang_ries_1990]: https://doi.org/10.1007/bf00049512
+[research_huang_song_2018]: https://doi.org/10.1007/s10509-018-3301-6
 [research_huang_wang_2026]: https://doi.org/10.1016/j.applthermaleng.2026.130883
+[research_huang_xia_2002]: https://doi.org/10.1016/s0022-4073(01)00238-2
+[research_huang_xia_2003]: https://doi.org/10.1016/s0022-4073(02)00228-5
 [research_huang_xu_2023]: https://doi.org/10.2514/1.a35673
 [research_huang_yao_2020]: https://doi.org/10.1016/j.actaastro.2020.01.033
 [research_huang_yu_2024]: https://doi.org/10.1016/j.ast.2024.109636
 [research_huang_zhai_2005]: https://doi.org/10.1002/chin.200603003
 [research_huang_zhang_2016]: https://doi.org/10.11728/cjss2016.01.083
 [research_huang_zhang_2023]: https://doi.org/10.1109/taes.2022.3228228
+[research_huang_zhang_2023_b]: https://doi.org/10.1115/1.4062836
+[research_huang_zhu_2009]: https://doi.org/10.1016/j.jqsrt.2009.01.035
 [research_huber_1988]: https://doi.org/10.1016/0094-5765(88)90081-1
+[research_hucek_kyle_1987]: https://doi.org/10.1029/jd092id04p04107
 [research_hudson_gupta_2017]: https://doi.org/10.1002/oca.2319
 [research_hudson_kolosa_2020]: https://doi.org/10.2514/1.a34701
+[research_huebner_smith_2009]: https://doi.org/10.1016/j.actaastro.2009.04.019
+[research_hueter_1995]: https://doi.org/10.1016/0094-5765(95)00024-t
 [research_hull_giltner_1985]: https://doi.org/10.2514/3.20009
 [research_humble_pierson_1995]: https://doi.org/10.2514/3.21539
 [research_humes_1978]: https://doi.org/10.2514/3.28010
 [research_humphrieswr_hamnerrm_1985]: https://ntrs.nasa.gov/citations/19860038800
 [research_hundhausen_adams_2007]: https://doi.org/10.1177/1045389x06067141
+[research_hunter_2019]: https://doi.org/10.1016/j.spacepol.2018.11.003
 [research_huntlr_1976]: https://ntrs.nasa.gov/citations/19760024185
 [research_huntlr_bohonhl_1974]: https://ntrs.nasa.gov/citations/19740015359
 [research_huntlr_shidelerjl_1976]: https://ntrs.nasa.gov/citations/19760011133
 [research_huo_liu_2014]: https://doi.org/10.4028/www.scientific.net/amm.635-637.1431
+[research_huo_yang_2015]: https://doi.org/10.4028/www.scientific.net/amm.775.59
 [research_hurova_2024]: https://doi.org/10.1016/j.actaastro.2024.09.057
 [research_husni_2016]: https://doi.org/10.15866/iremos.v9i6.10958
 [research_hussien_ghamry_2020]: https://doi.org/10.5140/jass.2020.37.1.29
+[research_huynh_kriz_2009]: https://doi.org/10.21236/ada640309
 [research_hwang_2011]: https://doi.org/10.4218/etrij.11.1610.0048
 [research_hwang_2019]: https://doi.org/10.21914/anziamj.v60i0.14067
+[research_hwang_hwang_2002]: https://doi.org/10.1016/s0098-3004(01)00053-x
 [research_hwang_kim_2016]: https://doi.org/10.20910/jase.2016.10.4.26
 [research_hwang_kim_2024]: https://doi.org/10.7844/kirr.2024.33.5.3
 [research_hwang_lee_2008]: https://doi.org/10.4218/etrij.08.0108.0152
@@ -11904,13 +15137,16 @@ summary of what classification achieves and what it costs.
 [research_hynonen_tanskanen_2020]: https://doi.org/10.1051/swsc/2020046
 [research_hypersonic_materials_2023]: https://doi.org/10.12968/s1478-2774(24)50016-3
 [research_iafolla_lucchesi_2007]: https://doi.org/10.1007/s10569-006-9059-0
+[research_ialongo_1969]: https://doi.org/10.21236/ad0704587
 [research_ianni_friskie_2004]: https://doi.org/10.21236/ada426318
 [research_ibrahim_2020]: https://doi.org/10.17485/ijst/2020/v13i04/148503
 [research_ibrahim_saleh_2021]: https://doi.org/10.24996/ijs.2021.si.2.9
 [research_ichimura_ichikawa_2008]: https://doi.org/10.2514/1.32820
+[research_igarashi_spencer_2005]: https://doi.org/10.2514/1.11135
 [research_ikawa_1977]: https://doi.org/10.2514/3.57248
 [research_ikawa_1988]: https://doi.org/10.2514/3.20268
 [research_ikawa_1992]: https://doi.org/10.2514/3.26359
+[research_ikawa_rudiger_1982]: https://doi.org/10.2514/3.62294
 [research_ikenson_2025]: https://doi.org/10.1063/10.0039841
 [research_ilina_orlov_2021]: https://doi.org/10.34031/2618-7183-2021-4-4-5-10
 [research_ilovaca_2025]: https://doi.org/10.37547/tajpslc/volume07issue06-08
@@ -11921,27 +15157,41 @@ summary of what classification achieves and what it costs.
 [research_imoto_satoh_2025]: https://doi.org/10.1016/j.actaastro.2024.12.027
 [research_in_flight_control_2006]: https://doi.org/10.1108/aeat.2006.12778aaf.009
 [research_in_step_two_phase_1992]: https://ntrs.nasa.gov/citations/19930019530
+[research_india_s_mars_2014]: https://doi.org/10.1063/pt.5.027898
 [research_india_to_2015]: https://doi.org/10.1063/pt.5.028943
 [research_ingergeorger_1995]: https://ntrs.nasa.gov/citations/19960020774
 [research_inglingwg_koestersrl_1967]: https://ntrs.nasa.gov/citations/19670029656
+[research_inhester_1982]: https://doi.org/10.1016/0021-9169(82)90017-4
 [research_inzale_jaafari_2021]: https://doi.org/10.36347/sjmcr.2021.v09i04.028
+[research_ion_exchange_1964]: https://doi.org/10.1016/0032-0633(64)90012-1
+[research_ionization_of_1964]: https://doi.org/10.1016/0032-0633(64)90173-4
 [research_iorio_2012]: https://doi.org/10.1016/j.asr.2012.04.012
+[research_ipek_2025]: https://doi.org/10.62802/hvwsxw31
+[research_irimpan_menezes_2018]: https://doi.org/10.1016/j.actaastro.2018.01.011
 [research_isaacson_spotnitz_2012]: https://doi.org/10.1149/1.3684802
+[research_ishikawa_nomura_2011]: https://doi.org/10.1002/htj.20346
 [research_ishimoto_1992]: https://doi.org/10.2322/jjsass1969.40.437
+[research_ishimoto_2000]: https://doi.org/10.2514/2.4538
 [research_ishkov_filippov_2016]: https://doi.org/10.18287/2412-7329-2016-15-1-64-72
 [research_ishkov_xiaoye_2016]: https://doi.org/10.18287/2412-7329-2015-14-4-49-57
+[research_isopi_1979]: https://doi.org/10.2514/3.57673
 [research_israr_2014]: https://doi.org/10.1155/2014/740102
 [research_isro_releases_the_2018]: https://doi.org/10.18520/cs/v114/i08/1596-1596
 [research_ito_nomoto_1990]: https://doi.org/10.2322/jjsass1969.38.194
 [research_ivanov_1967]: https://doi.org/10.1007/bf01027361
+[research_ivanov_2000]: https://doi.org/10.1006/icar.1999.6304
+[research_ivanov_2001]: https://doi.org/10.1006/icar.2001.6686
 [research_ivanovnm_kolyukayuf_2007]: https://ntrs.nasa.gov/citations/20080012657
 [research_ivaturysraju_justinhkerr]: https://ntrs.nasa.gov/citations/20200010519
 [research_ivekovic_skegro_1996]: https://doi.org/10.3109/01676839609150065
 [research_jabmk_highsmithde_2002]: https://ntrs.nasa.gov/citations/20210001944
 [research_jacchia_1960]: https://doi.org/10.1029/jz065i009p02775
 [research_jacchia_1967]: https://doi.org/10.1098/rsta.1967.0043
+[research_jacchia_1992]: https://doi.org/10.1016/0032-0633(92)90204-2
 [research_jacchia_slowey_1964]: https://doi.org/10.1029/jz069i005p00905
 [research_jacchia_slowey_1969]: https://doi.org/10.1016/0032-0633(69)90122-6
+[research_jackiewicz_2012]: https://doi.org/10.21236/ada563097
+[research_jackson_1961]: https://doi.org/10.2514/8.9246
 [research_jackson_2015]: https://doi.org/10.1186/s40623-015-0286-z
 [research_jackson_holland_2021]: https://doi.org/10.52526/25792776-22.69.2-318
 [research_jacksthomase_beislermichele_2003]: https://ntrs.nasa.gov/citations/20050041760
@@ -11949,27 +15199,43 @@ summary of what classification achieves and what it costs.
 [research_jacobsjeremyb_castnerwillardl_2007]: https://ntrs.nasa.gov/citations/20070018135
 [research_jacobsondavid_2004]: https://ntrs.nasa.gov/citations/20040041357
 [research_jacobsondavid_2004_b]: https://ntrs.nasa.gov/citations/20040041355
+[research_jaeger_1999]: https://doi.org/10.21236/ada371862
 [research_jaensch_well_1994]: https://doi.org/10.1016/s1474-6670(17)45770-3
+[research_jafar_ishak_2011]: https://doi.org/10.5560/zna.2011-0013
 [research_jafarmadar_tasoujiazar_2013]: https://doi.org/10.1002/er.3100
 [research_jaffe_1988]: https://doi.org/10.2514/3.26015
+[research_jah_lisano_2008]: https://doi.org/10.2514/1.24304
 [research_jahandardoost_walkons_2023]: https://doi.org/10.1016/j.solener.2023.05.052
 [research_jahnke_maiwald_2018]: https://doi.org/10.1007/s12567-018-0203-y
+[research_jain_chauhan_2015]: https://doi.org/10.1016/j.icarus.2014.11.018
 [research_jain_paul_2010]: https://doi.org/10.1111/j.1365-2966.2010.17336.x
 [research_jainrajk_flooddennisj_1992]: https://ntrs.nasa.gov/citations/19920022989
+[research_james_2000]: https://doi.org/10.1006/icar.1999.6289
+[research_james_2001]: https://doi.org/10.1006/icar.2001.6653
+[research_james_cantor_2002]: https://doi.org/10.1016/s0273-1177(01)00561-0
 [research_james_thibault_1964]: https://doi.org/10.1063/1.1726356
 [research_jameson_2001]: https://doi.org/10.21236/ada407255
+[research_jamison_coverstone_2010]: https://doi.org/10.2514/1.41126
 [research_jamoos_2023]: https://doi.org/10.47874/2023:pp;11-13
 [research_jan_chiou_2002]: https://doi.org/10.1016/s0094-5765(02)00114-5
 [research_jang_yang_2021]: https://doi.org/10.3390/electronics10010086
 [research_janin_1991]: https://doi.org/10.1016/0273-1177(91)90247-h
 [research_japan_s_lunar_2009]: https://doi.org/10.1038/459901c
+[research_jarmolowski_ukasiak_2015]: https://doi.org/10.1515/arsa-2015-0012
 [research_jategaonkar_behr_2006]: https://doi.org/10.2514/1.19602
+[research_jaworskedonalda_1999]: https://ntrs.nasa.gov/citations/20050188450
+[research_jayaram_gonzalez_2011]: https://doi.org/10.1108/17260531111121468
 [research_jayaraman_1980]: https://doi.org/10.2514/3.19723
+[research_jayaraman_1989]: https://doi.org/10.1038/340587c0
 [research_jaydfeldman]: https://ntrs.nasa.gov/citations/20210022886
 [research_jaylemery_benjamineaster]: https://ntrs.nasa.gov/citations/20220015538
+[research_jebrail_andrews_1997]: https://doi.org/10.1002/(sici)1099-114x(199702)21:2<101::aid-er218>3.3.co;2-4
 [research_jefferies_2006]: https://doi.org/10.21236/ada455961
 [research_jeffreyhoman_matthewnapoli]: https://ntrs.nasa.gov/citations/20240000966
+[research_jeffreytrichards_toddemortenson]: https://ntrs.nasa.gov/citations/20220007691
 [research_jekeli_1999]: https://doi.org/10.1023/a:1008313405488
+[research_jelonek_1999]: https://doi.org/10.21236/ada639992
+[research_jenkins_roy_1968]: https://doi.org/10.1109/tac.1968.1098844
 [research_jeong_suzuki_2009]: https://doi.org/10.2514/1.36302
 [research_jesch_medvedev_2019]: https://doi.org/10.3390/atmos10100620
 [research_jhoti_paige_2021]: https://doi.org/10.3847/25c2cfeb.28e0c67a
@@ -11978,11 +15244,14 @@ summary of what classification achieves and what it costs.
 [research_ji_han_2026]: https://doi.org/10.1016/j.icte.2026.03.001
 [research_ji_lee_2025]: https://doi.org/10.31691/kasl40.2.6.
 [research_jia_fu_2020]: https://doi.org/10.1016/j.actaastro.2020.07.022
+[research_jiang_2002]: https://doi.org/10.1016/s0275-1062(02)00044-9
+[research_jiang_li_2019]: https://doi.org/10.1016/j.actaastro.2019.05.033
 [research_jiang_li_2025]: https://doi.org/10.1016/j.renene.2025.122532
 [research_jiang_liu_2022]: https://doi.org/10.1049/icp.2022.1097
 [research_jiang_ordonez_2009]: https://doi.org/10.1016/j.automatica.2009.03.017
 [research_jiang_qi_2019]: https://doi.org/10.1088/1742-6596/1215/1/012022
 [research_jiang_wang_2020]: https://doi.org/10.1016/j.applthermaleng.2020.115822
+[research_jiang_yang_2014]: https://doi.org/10.1155/2014/929731
 [research_jiang_zhang_2026]: https://doi.org/10.2514/1.j065752
 [research_jianqi_xibin_2003]: https://doi.org/10.1108/00022660310474465
 [research_jiayue_yongxiaojian_2019]: https://ntrs.nasa.gov/citations/20210012923
@@ -11995,12 +15264,18 @@ summary of what classification achieves and what it costs.
 [research_jin_zhao_2024]: https://doi.org/10.1186/s42774-024-00173-5
 [research_jing_song_2026]: https://doi.org/10.1016/j.applthermaleng.2026.130617
 [research_jinhai_yunxiu_2024]: https://doi.org/10.1007/s10792-024-03039-3
+[research_jischke_1970]: https://doi.org/10.2514/3.5611
 [research_jits_wright_2005]: https://doi.org/10.2514/1.13428
 [research_jmuylaert_lwalpot_1998]: https://ntrs.nasa.gov/citations/19990024922
 [research_johngmctigue_1970]: https://ntrs.nasa.gov/citations/19710000628
 [research_johnson_2021]: https://doi.org/10.1080/17449057.2021.1910902
+[research_johnson_bursey_1982]: https://doi.org/10.21236/ada125406
+[research_johnson_josepha_1977]: https://doi.org/10.21236/ada041063
 [research_johnson_longuski_2003]: https://doi.org/10.2514/2.6930
+[research_johnson_longuski_2003_b]: https://doi.org/10.2514/2.3972
+[research_johnson_longuski_2004]: https://doi.org/10.2514/1.13078
 [research_johnson_michalski_2009]: https://doi.org/10.2514/1.34916
+[research_johnson_spanjers_2001]: https://doi.org/10.21236/ada405823
 [research_johnsonbreanna_2019]: https://ntrs.nasa.gov/citations/20190027310
 [research_johnsonnicholasl_2001]: https://ntrs.nasa.gov/citations/20100029882
 [research_johnsonnicholasl_2001_b]: https://ntrs.nasa.gov/citations/20100035102
@@ -12010,51 +15285,72 @@ summary of what classification achieves and what it costs.
 [research_johnsonsylviam_2000]: https://ntrs.nasa.gov/citations/20010082361
 [research_johnsontheodoref_waterswallen_2004]: https://ntrs.nasa.gov/citations/20040058114
 [research_johnsonwesleyl_valenzuelajuang_2014]: https://ntrs.nasa.gov/citations/20140016533
+[research_johnston_smith_1964]: https://doi.org/10.21236/ad0429468
 [research_johnstonmartind_grafjamese_2007]: https://ntrs.nasa.gov/citations/20070034022
 [research_joint_conference_1960]: https://ntrs.nasa.gov/citations/19720063130
+[research_jointchiefsofstaffwashingtondc_2002]: https://doi.org/10.21236/ada434234
+[research_jointchiefsofstaffwashingtondc_2009]: https://doi.org/10.21236/ada493690
 [research_jonathanabentley_leonidgbolshinskiy]: https://ntrs.nasa.gov/citations/20220018690
+[research_jonathancheatwood_christopherjohnston]: https://ntrs.nasa.gov/citations/20230011923
+[research_jonathanscheatwood_christopherojohnston]: https://ntrs.nasa.gov/citations/20230016809
 [research_jones_1973]: https://doi.org/10.1016/0016-0032(73)90231-7
 [research_jones_1996]: https://doi.org/10.1016/0021-9169(95)00162-x
 [research_jones_1999]: https://doi.org/10.1016/s1364-6826(99)00072-3
+[research_jones_bishop_1993]: https://doi.org/10.2514/3.21135
 [research_jones_jones_1994]: https://doi.org/10.1016/0021-9169(94)90082-5
 [research_jones_spence_2011]: https://doi.org/10.1109/maes.2011.5980605
 [research_jones_swinerd_1990]: https://doi.org/10.1016/0032-0633(90)90070-7
 [research_jonespalan_whitestephenf_1993]: https://ntrs.nasa.gov/citations/19940006927
 [research_jongh_konnen_1976]: https://doi.org/10.1002/j.1477-8696.1976.tb07460.x
+[research_jordan_1969]: https://doi.org/10.1086/150082
 [research_jorgensen_sharf_2020]: https://doi.org/10.1016/j.actaastro.2020.03.031
 [research_jorgenson_1967]: https://doi.org/10.2514/3.4168
 [research_jorkesh_ahmed_2025]: https://doi.org/10.1109/access.2024.3488596
 [research_josephdwilliams_jonathanmorgan]: https://ntrs.nasa.gov/citations/20250005319
+[research_joshi_haberle_2000]: https://doi.org/10.1029/1999je001217
 [research_josselyn_ross_2003]: https://doi.org/10.2514/2.5074
 [research_jouhara_ezzuddin_2013]: https://doi.org/10.1016/j.energy.2012.10.016
 [research_jouhaud_ferreres_2007]: https://doi.org/10.3182/20070625-5-fr-2916.00054
 [research_juleskenol_1993]: https://ntrs.nasa.gov/citations/19940017286
 [research_juliambriden_danielamatz]: https://ntrs.nasa.gov/citations/20250010732
+[research_julianallen_1967]: https://doi.org/10.1017/s0001924000053756
 [research_jun_smith_2020]: https://doi.org/10.36001/ijphm.2012.v3i2.1366
 [research_junaidr_beebim_2015]: https://doi.org/10.70729/ijser15399
+[research_jung_kim_2021]: https://doi.org/10.1002/er.6895
+[research_junkins_2015]: https://doi.org/10.21236/ada626629
+[research_junkins_rajan_1979]: https://doi.org/10.21236/ada067272
 [research_jurekparodi_michaelkewert]: https://ntrs.nasa.gov/citations/20210011118
 [research_jurovics_1961]: https://doi.org/10.2514/8.5545
 [research_justhhilaryl_justuscg_2006]: https://ntrs.nasa.gov/citations/20060048492
+[research_justice_iii_2004]: https://doi.org/10.21236/ada423705
 [research_justo_langer_2025]: https://doi.org/10.3390/rs17040642
+[research_justuscg_battsgw_2001]: https://ntrs.nasa.gov/citations/20020001443
 [research_justuscg_duvalaleta_2003]: https://ntrs.nasa.gov/citations/20040085983
 [research_justuscg_duvallaleta_2005]: https://ntrs.nasa.gov/citations/20060005595
 [research_justuscg_duvallaleta_2005_b]: https://ntrs.nasa.gov/citations/20050207555
 [research_justuscg_duvallaletal_2004]: https://ntrs.nasa.gov/citations/20040085958
 [research_juttyk_bhat_2000]: https://doi.org/10.1023/a:1011536324041
 [research_jwa_lim_2018]: https://doi.org/10.1016/j.egypro.2018.04.039
+[research_kabat_2010]: https://doi.org/10.21236/ada525043
+[research_kabe_2000]: https://doi.org/10.2514/2.3587
 [research_kachadourian_1970]: https://doi.org/10.1121/1.1974183
 [research_kadam_hablani_2014]: https://doi.org/10.3182/20140313-3-in-3024.00133
 [research_kagitani_taguchi_2010]: https://doi.org/10.1016/j.pss.2010.07.025
 [research_kahlkristensen_1995]: https://doi.org/10.1002/asna.2103160414
 [research_kaiser_2015]: https://doi.org/10.1016/j.spacepol.2014.11.002
+[research_kaiser_flueggelotz_1968]: https://doi.org/10.21236/ad0669578
 [research_kaiya_ookawa_1995]: https://doi.org/10.1016/0925-8388(95)01735-6
+[research_kak_1970]: https://doi.org/10.1016/0021-9169(70)90194-7
 [research_kakran_sidhu_2023]: https://doi.org/10.33516/rb.v48i3-4.1-13p
 [research_kalarus_parzybut_2022]: https://doi.org/10.1504/ijspacese.2022.10050729
 [research_kalaycioglu_2025]: https://doi.org/10.56367/oag-045-11774
+[research_kalil_martikan_1963]: https://doi.org/10.2514/3.1990
 [research_kam_gage_2004]: https://doi.org/10.2514/1.6324
 [research_kamenetzkyrachelr_whitakerannf_1992]: https://ntrs.nasa.gov/citations/19930003592
 [research_kamm_johnson_1973]: https://doi.org/10.1016/0005-1098(73)90030-7
 [research_kammuanglue_sakulchangsatjatai_2014]: https://doi.org/10.1080/01457632.2013.870000
+[research_kana_1987]: https://doi.org/10.2514/3.25891
+[research_kana_chu_1970]: https://doi.org/10.2514/3.29995
 [research_kanda_ueda_2006]: https://doi.org/10.2514/1.18444
 [research_kang_2022]: https://doi.org/10.56544/jblr.2022.12.70.355
 [research_kang_2024]: https://doi.org/10.31691/kasl39.2.6.
@@ -12069,23 +15365,32 @@ summary of what classification achieves and what it costs.
 [research_karimov_buyanov_2025]: https://doi.org/10.66000/3110-9780.2025.01.05
 [research_karkadakattil_2026]: https://doi.org/10.13111/2066-8201.2026.18.1.4
 [research_karl_potter_2015]: https://doi.org/10.2514/1.a32791
+[research_karl_weiland_1993]: https://doi.org/10.2514/3.26386
 [research_karlgaard_2025]: https://doi.org/10.2514/1.a36215
+[research_karner_avaste_1982]: https://doi.org/10.22201/igeof.00167169p.1982.21.2.906
 [research_karrgr_1976]: https://ntrs.nasa.gov/citations/19770009537
+[research_karrgr_1985]: https://ntrs.nasa.gov/citations/19860006782
 [research_karthikeyan_khandekar_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.400
 [research_karthikeyan_ramachandran_2014]: https://doi.org/10.1016/j.expthermflusci.2014.02.007
 [research_kartiria_2017]: https://doi.org/10.21063/jte.2017.3133604
+[research_karunathilake_abeywardena_2026]: https://doi.org/10.1016/j.array.2026.100799
+[research_kary_1995]: https://doi.org/10.1006/icar.1995.1139
 [research_kasen_wadley_2019]: https://doi.org/10.1115/1.4042988
 [research_kashyap_mitra_2020]: https://doi.org/10.1016/j.ceramint.2019.10.246
 [research_kashyap_mitra_2026]: https://doi.org/10.1016/j.ceramint.2025.12.256
 [research_kaslik_balint_2007]: https://doi.org/10.1061/(asce)0893-1321(2007)20:4(215)
+[research_kaspar_2000]: https://doi.org/10.21236/ada388473
+[research_kasper_2001]: https://doi.org/10.21236/ada407066
 [research_kasprzak_niemann_1992]: https://doi.org/10.1016/0032-0633(92)90148-h
 [research_kastner_1969]: https://doi.org/10.1016/0019-1035(69)90045-1
+[research_kasuda_2011]: https://doi.org/10.21236/ad1018752
 [research_katiyar_balasubramanian_2014]: https://doi.org/10.1039/c4ra07973f
 [research_kato_1991]: https://doi.org/10.2322/jjsass1969.39.580
 [research_kato_hirao_1979]: https://doi.org/10.5636/jgg.31.supplement_s53
 [research_katz_cooke_1984]: https://doi.org/10.2514/3.8620
 [research_katz_mandell_1981]: https://doi.org/10.2514/3.57790
 [research_katz_parks_1983]: https://doi.org/10.2514/3.28352
+[research_kaufman_1972]: https://doi.org/10.2514/3.61732
 [research_kaufman_weaver_1963]: https://doi.org/10.21236/ad0423924
 [research_kaufmanndavidn_1993]: https://ntrs.nasa.gov/citations/19930019747
 [research_kaufmanndavidn_1994]: https://ntrs.nasa.gov/citations/19970000066
@@ -12099,39 +15404,54 @@ summary of what classification achieves and what it costs.
 [research_kawecki_1977]: https://doi.org/10.2514/3.57194
 [research_kayama_takenaka_1980]: https://doi.org/10.1016/0094-5765(80)90106-x
 [research_kaynak_2010]: https://doi.org/10.3182/20100906-5-jp-2022.00012
+[research_kayser_1988]: https://doi.org/10.21236/ada198100
 [research_kazemi_azad_2024]: https://doi.org/10.1016/j.actaastro.2024.06.015
 [research_ke_wang_2025]: https://doi.org/10.1016/j.applthermaleng.2025.126835
 [research_ke_zhang_2026]: https://doi.org/10.3390/en19143417
 [research_kearney_griffin_2014]: https://doi.org/10.1115/1.4027131
 [research_kechichian_1997]: https://doi.org/10.2514/2.4116
 [research_kechichian_1998]: https://doi.org/10.2514/2.3330
+[research_kechichian_2000]: https://doi.org/10.2514/2.4602
 [research_kechichian_2009]: https://doi.org/10.1016/j.actaastro.2009.03.003
 [research_keenerdavidn_marvindean_2004]: https://ntrs.nasa.gov/citations/20040142248
 [research_keeslerel_1974]: https://ntrs.nasa.gov/citations/19740026212
 [research_keithsoohoo_light_1972]: https://doi.org/10.1109/tap.1972.1140190
 [research_kelecy_jah_2010]: https://doi.org/10.1016/j.actaastro.2009.08.029
+[research_kelley_cliff_1982]: https://doi.org/10.1002/oca.4660030307
+[research_kelley_cliff_1985]: https://doi.org/10.21236/ada165138
 [research_kelley_sullivan_1973]: https://doi.org/10.2514/3.50541
 [research_kelleyrl_jarkeydr_2014]: https://ntrs.nasa.gov/citations/20140003405
 [research_kelleyrl_jarkeydr_2015]: https://ntrs.nasa.gov/citations/20150001650
 [research_kelliherwc_youngpr_1972]: https://ntrs.nasa.gov/citations/19720018274
 [research_kelloggjamesw_1993]: https://ntrs.nasa.gov/citations/19940025142
+[research_kelly_1973]: https://doi.org/10.21236/ad0771157
+[research_kellyjamesr_personleehjr_1986]: https://ntrs.nasa.gov/citations/19870045374
+[research_kellywd_1988]: https://ntrs.nasa.gov/citations/19890025302
+[research_kelso_1957]: https://doi.org/10.1016/0021-9169(57)90144-7
 [research_kemp_1960]: https://doi.org/10.2514/8.8637
 [research_kempelrobertw_painterwenethd_1994]: https://ntrs.nasa.gov/citations/19940030197
+[research_kennedy_fields_1962]: https://doi.org/10.21236/ad0601379
 [research_kennethhwrightjr_baohoang]: https://ntrs.nasa.gov/citations/20220006807
+[research_kerrebrock_1986]: https://doi.org/10.2514/3.22942
+[research_kerrigan_jouhara_2011]: https://doi.org/10.1016/j.simpat.2010.05.020
 [research_kerslakethomasw_gefertleonp_2000]: https://ntrs.nasa.gov/citations/20050194572
 [research_kerslakethomasw_masonlees_1997]: https://ntrs.nasa.gov/citations/19970025303
+[research_kerslakethomasw_scheimandavida_2005]: https://ntrs.nasa.gov/citations/20050239010
 [research_kerstein_bischof_2006]: https://doi.org/10.1016/j.actaastro.2005.07.013
 [research_kessler_1991]: https://doi.org/10.2514/3.26250
 [research_kessler_cicci_1997]: https://doi.org/10.1007/bf03546404
 [research_kettle_2004]: https://doi.org/10.1016/s0169-4332(04)00400-3
+[research_kevern_massie_1969]: https://doi.org/10.21236/ad0858457
 [research_kezirian_2021]: https://doi.org/10.1016/j.jsse.2021.02.004
 [research_khabibullin_2017]: https://doi.org/10.1016/j.proeng.2017.03.325
 [research_khadka_shirai_2022]: https://doi.org/10.1016/j.solmat.2022.111899
+[research_khaled_ramadan_2014]: https://doi.org/10.1016/j.applthermaleng.2014.08.037
 [research_khaleghirahimian_rayman_2012]: https://doi.org/10.1149/ma2012-01/6/353
 [research_khalil_abdelgawad_2023]: https://doi.org/10.2514/1.a35441
 [research_khamlak_2026]: https://doi.org/10.37547/tajet/book-26-01
 [research_khan_ahmed_1995]: https://doi.org/10.2514/3.26578
 [research_khan_chakraborty_2023]: https://doi.org/10.2514/1.j063120
+[research_khan_elmoursi_2020]: https://doi.org/10.1049/iet-rpg.2019.1102
 [research_kharchenko_kryukov_2018]: https://doi.org/10.1088/1742-6596/1009/1/012004
 [research_khatniuk_pobiianska_2019]: https://doi.org/10.29202/asl/2019/4/3
 [research_khorrami_2003]: https://doi.org/10.1016/s0020-7225(02)00139-8
@@ -12140,17 +15460,23 @@ summary of what classification achieves and what it costs.
 [research_khramov_2019]: https://doi.org/10.18287/2541-7533-2019-18-1-140-153
 [research_khrapko_2018]: https://doi.org/10.18502/keg.v3i3.1647
 [research_kiani_pourtakdoust_2015]: https://doi.org/10.1016/j.asr.2014.11.015
+[research_kibbeytimothyp_2015]: https://ntrs.nasa.gov/citations/20150016561
+[research_kieffer_neugebauer_1972]: https://doi.org/10.1016/0019-1035(72)90136-4
 [research_kiehn_2020]: https://doi.org/10.1007/s12567-020-00319-3
+[research_kihm_2013]: https://doi.org/10.21236/ada585882
 [research_kilgorera_davenportee_1974]: https://ntrs.nasa.gov/citations/19750006641
+[research_killinger_engerer_2017]: https://doi.org/10.1016/j.solener.2016.12.053
 [research_kim_2017]: https://doi.org/10.1007/s10765-017-2285-8
 [research_kim_2020]: https://doi.org/10.5139/jksas.2020.48.4.311
 [research_kim_2022]: https://doi.org/10.2139/ssrn.4315624
 [research_kim_2025]: https://doi.org/10.18215/kwlr.2025.80..465
+[research_kim_bang_2009]: https://doi.org/10.2514/1.41620
 [research_kim_bankoff_1994]: https://doi.org/10.1115/1.2911475
 [research_kim_castet_2012]: https://doi.org/10.1016/j.ress.2011.10.005
 [research_kim_cheung_2019]: https://doi.org/10.1038/s41598-019-47572-z
 [research_kim_chinnaraj_2024]: https://doi.org/10.6108/kspe.2024.28.5.016
 [research_kim_choi_2026]: https://doi.org/10.3390/ma19020303
+[research_kim_jung_2024]: https://doi.org/10.1155/2024/1758578
 [research_kim_jung_2025]: https://doi.org/10.1109/access.2025.3541631
 [research_kim_jung_2025_b]: https://doi.org/10.3390/drones9030180
 [research_kim_kang_2026]: https://doi.org/10.6108/kspe.2026.30.1.028
@@ -12159,35 +15485,53 @@ summary of what classification achieves and what it costs.
 [research_kim_lee_2021]: https://doi.org/10.3390/en14113210
 [research_kim_lee_2025]: https://doi.org/10.3390/aerospace12050422
 [research_kim_moon_2006]: https://doi.org/10.1186/bf03351968
+[research_kim_nguyen_1994]: https://doi.org/10.1002/chin.199420013
+[research_kim_nguyen_1994_b]: https://doi.org/10.1149/1.2054726
 [research_kim_oh_2026]: https://doi.org/10.1016/j.etran.2026.100565
 [research_kim_shin_2023]: https://doi.org/10.1016/j.est.2023.109144
 [research_kim_sung_2026]: https://doi.org/10.2514/1.a36684
 [research_kim_swaminathan_1984]: https://doi.org/10.2514/3.8603
+[research_kimmel_adamczak_2011]: https://doi.org/10.21236/ada548272
+[research_kimmel_poggie_1997]: https://doi.org/10.21236/ada417303
 [research_kimoto_yukumatsu_2021]: https://doi.org/10.1016/j.actaastro.2020.11.048
 [research_kimura_lin_1986]: https://doi.org/10.1103/physreva.34.176
+[research_king_1961]: https://doi.org/10.1016/0032-0633(61)90320-8
+[research_king_1962]: https://doi.org/10.21236/ad0295154
+[research_king_1975]: https://doi.org/10.1016/0032-0633(75)90045-8
+[research_king_curran_1980]: https://doi.org/10.1175/1520-0469(1980)037<1262:teoanp>2.0.co;2
 [research_king_middendorf_2019]: https://doi.org/10.1016/j.ceramint.2018.10.173
+[research_kinghele_1958]: https://doi.org/10.1098/rspa.1958.0169
 [research_kinghele_1982]: https://doi.org/10.1016/0032-0633(82)90092-7
 [research_kinghele_1989]: https://doi.org/10.1016/0032-0633(89)90102-5
+[research_kinghele_leslie_1958]: https://doi.org/10.1038/1811761a0
 [research_kinghele_rees_1963]: https://doi.org/10.1016/0021-9169(63)90104-1
+[research_kinghele_scott_1969]: https://doi.org/10.1016/0032-0633(69)90039-7
 [research_kinghele_walker_1972]: https://doi.org/10.1007/bf01227822
 [research_kinghele_walker_1987]: https://doi.org/10.1098/rspa.1987.0144
 [research_kinney_tambe_1995]: https://doi.org/10.1016/0094-5765(94)00246-i
 [research_kirkpatrick_2006]: https://doi.org/10.1383/surg.2006.24.1.37
 [research_kirsch_1973]: https://doi.org/10.2514/3.61966
 [research_kitamura_1974]: https://doi.org/10.1007/bf00642259
+[research_kitamura_2016]: https://doi.org/10.1016/j.compfluid.2016.02.006
 [research_kittel_1987]: https://doi.org/10.1016/0011-2275(87)90145-7
 [research_kittel_dipirro_1989]: https://doi.org/10.1016/0011-2275(89)90094-5
 [research_kizito_hossain_2015]: https://doi.org/10.5098/fhp.6.5
 [research_kizito_hossain_2017]: https://doi.org/10.5098/fhp.7.5
 [research_klafin_barnhart_1973]: https://doi.org/10.1080/00207177308932354
 [research_kleb_weilmuenster_1994]: https://doi.org/10.2514/3.26396
+[research_klein_2004]: https://doi.org/10.21236/ada421953
 [research_kleinau_riedel_1986]: https://doi.org/10.1016/0094-5765(86)90115-3
 [research_klimburgwitjes_2021]: https://doi.org/10.1080/09662839.2021.1890039
 [research_klimburgwitjes_strycker_2025]: https://doi.org/10.1007/s11948-025-00550-3
 [research_klimenko_katkalov_2021]: https://doi.org/10.30981/2587-7992-2021-104-4-88-99
+[research_klimin_yaroshevski_1970]: https://doi.org/10.1016/s1474-6670(17)68823-2
 [research_klinkrad_2017]: https://doi.org/10.1016/j.jsse.2017.06.002
 [research_klomfass_muller_1997]: https://doi.org/10.1007/s001930050057
+[research_klothakis_nikolos_2024]: https://doi.org/10.3390/computation12070140
+[research_kluever_1995]: https://doi.org/10.2514/3.56676
+[research_kluever_1998]: https://doi.org/10.2514/2.4344
 [research_kluever_2000]: https://doi.org/10.2514/2.3621
+[research_kluever_2004]: https://doi.org/10.2514/1.10939
 [research_kluever_2007]: https://doi.org/10.2514/1.24864
 [research_kluever_abusaymeh_1998]: https://doi.org/10.2514/2.3346
 [research_kluever_oleson_1998]: https://doi.org/10.2514/2.3360
@@ -12203,13 +15547,18 @@ summary of what classification achieves and what it costs.
 [research_kobayashi_tanikawa_2026]: https://doi.org/10.1016/j.jpowsour.2026.240603
 [research_koch_wilken_2025]: https://doi.org/10.1007/s12567-025-00597-9
 [research_koehlercw_vanommeringg_1984]: https://ntrs.nasa.gov/citations/19840025630
+[research_koelle_1981]: https://doi.org/10.1016/0094-5765(81)90118-1
+[research_koelle_1986]: https://doi.org/10.1016/0094-5765(86)90118-9
 [research_koelle_1989]: https://doi.org/10.1016/0094-5765(89)90101-x
 [research_koelle_1993]: https://doi.org/10.1016/0094-5765(93)90132-g
 [research_koelle_1997]: https://doi.org/10.1016/s0094-5765(97)00142-2
+[research_koelle_1999]: https://doi.org/10.1016/s0094-5765(99)00095-8
 [research_koelle_obersteiner_1992]: https://doi.org/10.1016/0094-5765(92)90012-8
 [research_koester_vaillancourt_1992]: https://doi.org/10.1109/62.149794
 [research_koga_shibui_2024]: https://doi.org/10.3390/en17133299
 [research_koh_1962]: https://doi.org/10.2514/8.6292
+[research_kolb_1962]: https://doi.org/10.21236/ad0744223
+[research_kolb_okubo_2009]: https://doi.org/10.1016/j.cageo.2009.04.008
 [research_kolga_rundau_2024]: https://doi.org/10.31772/2712-8970-2024-25-2-233-246
 [research_kolomiyets_2015]: https://doi.org/10.1016/j.jastp.2015.01.007
 [research_kolyuka_ivanov_2012]: https://doi.org/10.7446/jaesa.0402.08
@@ -12221,35 +15570,48 @@ summary of what classification achieves and what it costs.
 [research_kong_gao_2018]: https://doi.org/10.3390/rs11010040
 [research_kong_guo_2018]: https://doi.org/10.1520/jte20170779
 [research_kong_liu_2025]: https://doi.org/10.3390/en18092315
+[research_konopliv_park_2016]: https://doi.org/10.1016/j.icarus.2016.02.052
 [research_konovalova_madiedo_2013]: https://doi.org/10.1111/maps.12217
 [research_konstantinidis_forstner_2020]: https://doi.org/10.2514/1.g004760
+[research_koons_gorney_1994]: https://doi.org/10.2514/3.26478
 [research_koontz_king_1994]: https://doi.org/10.2514/3.26463
 [research_koothanvenkateswaran_gamiz_2025]: https://doi.org/10.1063/5.0237683
 [research_kopp_harris_2019]: https://doi.org/10.1089/space.2018.0035
 [research_korean_satellite_2009]: https://doi.org/10.1063/pt.5.023218
 [research_korlaelci_sagir_2026]: https://doi.org/10.1016/j.asr.2025.12.097
 [research_korn_schmerwitz_2009]: https://doi.org/10.1080/10508410802597408
+[research_kornreich_1963]: https://doi.org/10.2514/3.1960
 [research_koroleva_hohlov_2023]: https://doi.org/10.31772/2712-8970-2023-24-3-527-536
 [research_kosambe_2019]: https://doi.org/10.3844/jastsp.2019.197.210
 [research_kosary_farzaneh_2024]: https://doi.org/10.1029/2023sw003811
+[research_koshmarov_gorskaya_1965]: https://doi.org/10.1016/0017-9310(65)90130-4
 [research_kostolansky_2002]: https://doi.org/10.1093/imamat/67.4.401
+[research_kostyukov_1973]: https://doi.org/10.1007/bf00658517
 [research_kotamraju_sukeerthi_2019]: https://doi.org/10.1016/j.solener.2018.12.036
 [research_kotlyarov_tulin_2020]: https://doi.org/10.34759/tpt-2020-12-2-87-96
 [research_kou_bai_2011]: https://doi.org/10.1007/s11771-011-0732-4
 [research_koura_1987]: https://doi.org/10.2514/3.9603
 [research_kourtidesdemetrius_carrollcarol_1997]: https://ntrs.nasa.gov/citations/19970027074
 [research_kovtunenko_sagdeev_1986]: https://doi.org/10.1016/0094-5765(86)90096-2
+[research_kowalski_1995]: https://doi.org/10.1016/0735-1933(95)00020-y
 [research_kowaltjohn_2010]: https://ntrs.nasa.gov/citations/20100014123
 [research_kowaltjohn_2011]: https://ntrs.nasa.gov/citations/20110012175
 [research_kozai_1960]: https://doi.org/10.1086/108307
+[research_kozai_2004]: https://doi.org/10.2183/pjab.80.157
 [research_kozak_sharipov_2012]: https://doi.org/10.1007/s13538-012-0066-1
 [research_kozynchenko_2013]: https://doi.org/10.1016/j.ast.2013.07.012
 [research_kraemer_ehlers_1975]: https://doi.org/10.1016/s1474-6670(17)67485-8
 [research_kraft_collon_2006]: https://doi.org/10.1016/j.actaastro.2005.07.016
 [research_kramer_goodman_2005]: https://doi.org/10.2514/1.3249
+[research_krassovsky_1959]: https://doi.org/10.1016/0032-0633(59)90017-0
+[research_krassovsky_1963]: https://doi.org/10.1016/0032-0633(63)90002-3
+[research_krause_1990]: https://doi.org/10.1017/s025292110007723x
+[research_kreisch_osullivan_2017]: https://doi.org/10.1016/j.icarus.2016.09.033
 [research_kreith_1980]: https://doi.org/10.1016/0038-092x(80)90100-0
 [research_krek_stalker_1992]: https://doi.org/10.1017/s0001924000050399
+[research_kreslavsky_head_1999]: https://doi.org/10.1029/1999je001051
 [research_krischke_lorenzini_1995]: https://doi.org/10.1016/0094-5765(95)00108-c
+[research_krishenkumar_1993]: https://ntrs.nasa.gov/citations/19940007055
 [research_krivanekthomasm_rochejosephm_2002]: https://ntrs.nasa.gov/citations/20020073119
 [research_krivanekthomasm_rochejosephm_2003]: https://ntrs.nasa.gov/citations/20030055618
 [research_krizay_2000]: https://doi.org/10.21236/ada378240
@@ -12268,6 +15630,7 @@ summary of what classification achieves and what it costs.
 [research_kudriavtsev_hernandez_2019]: https://doi.org/10.1016/j.solener.2019.05.035
 [research_kudryashova_polyakov_2009]: https://doi.org/10.1134/s2070048209040036
 [research_kuethe_willmarth_1959]: https://doi.org/10.1063/1.1705978
+[research_kuhlman_1963]: https://doi.org/10.21236/ad0426034
 [research_kuijper_ambrosius_1995]: https://doi.org/10.1016/0273-1177(95)98778-m
 [research_kuijper_matatoros_2012]: https://doi.org/10.7446/jaesa.0402.09
 [research_kujentung_hoangtriem_2017]: https://ntrs.nasa.gov/citations/20170006634
@@ -12277,20 +15640,28 @@ summary of what classification achieves and what it costs.
 [research_kujentung_yunseokgeun_1992]: https://ntrs.nasa.gov/citations/19920065260
 [research_kulin_1997]: https://doi.org/10.1109/62.624323
 [research_kulleseid_haas_1963]: https://doi.org/10.1109/proc.1963.2168
+[research_kulowski_wang_2017]: https://doi.org/10.1016/j.asr.2016.10.028
 [research_kulumani_lee_2022]: https://doi.org/10.1007/s40295-022-00310-6
+[research_kulwicki_peoples_1962]: https://doi.org/10.21236/ad0295627
 [research_kumar_2001]: https://doi.org/10.2514/2.3685
 [research_kumar_2002]: https://doi.org/10.2514/2.3858
+[research_kumar_bansal_2023]: https://doi.org/10.1016/j.actaastro.2023.01.031
 [research_kumar_gachake_2022]: https://doi.org/10.1016/j.applthermaleng.2021.117627
 [research_kumar_hablani_2015]: https://doi.org/10.2514/1.g000864
 [research_kumar_hablani_2017]: https://doi.org/10.2514/1.g001652
 [research_kumar_jain_1974]: https://doi.org/10.1016/0017-9310(74)90081-7
 [research_kumar_khandekar_2019]: https://doi.org/10.1115/1.4044466
+[research_kumar_kumar_2010]: https://doi.org/10.21236/ada515393
 [research_kumar_mahulikar_2016]: https://doi.org/10.1016/j.applthermaleng.2016.04.100
+[research_kumar_mahulikar_2016_b]: https://doi.org/10.1061/(asce)as.1943-5525.0000651
 [research_kumar_mahulikar_2017]: https://doi.org/10.2514/1.a33688
 [research_kumar_mishra_2023]: https://doi.org/10.1109/tim.2023.3287247
 [research_kumar_naik_2024]: https://doi.org/10.1016/j.psep.2024.07.073
 [research_kumar_pellegrino_1996]: https://doi.org/10.2514/3.26846
 [research_kumar_quataert_1998]: https://doi.org/10.1086/305091
+[research_kumar_reddy_2014]: https://doi.org/10.1016/j.expthermflusci.2014.02.013
+[research_kumar_tewari_2005]: https://doi.org/10.2514/1.7117
+[research_kumar_tewari_2006]: https://doi.org/10.2514/1.15458
 [research_kumar_vigneshwaran_2022]: https://doi.org/10.1016/j.matpr.2022.09.045
 [research_kumar_yasaka_2004]: https://doi.org/10.1016/j.actaastro.2003.06.007
 [research_kumaran_tan_2024]: https://doi.org/10.3390/su16219431
@@ -12307,21 +15678,31 @@ summary of what classification achieves and what it costs.
 [research_kurlandrichard_stellapaul_1988]: https://ntrs.nasa.gov/citations/19890027934
 [research_kuroi_nagano_2012]: https://doi.org/10.1615/heatpipescietech.2013006554
 [research_kurtz_speer_1960]: https://doi.org/10.1109/iret-mil.1960.5008212
+[research_kussoy_stewart_1970]: https://doi.org/10.2514/3.6070
+[research_kusuda_achenbach_1966]: https://doi.org/10.21236/ad0809208
+[research_kutay_tuluna_2001]: https://doi.org/10.1016/s1474-6670(17)34317-3
 [research_kuznetsov_2023]: https://doi.org/10.34759/trd-2023-129-25
 [research_kwast_1997]: https://doi.org/10.21236/ada397870
 [research_kwon_loh_1993]: https://doi.org/10.1109/26.212374
+[research_labreche_mladenov_2023]: https://doi.org/10.18278/sesa.4.1.2
 [research_lackner_mccoy_1986]: https://doi.org/10.1016/0378-7753(86)80081-7
 [research_ladsoncl_1970]: https://ntrs.nasa.gov/citations/19710016878
+[research_ladyzhenskij_1963]: https://doi.org/10.21236/ad0295787
 [research_lafflitto_sultan_2011]: https://doi.org/10.3182/20110828-6-it-1002.00346
 [research_lai_leu_2023]: https://doi.org/10.1016/j.csite.2023.103486
 [research_lai_pieprzyk_2020]: https://doi.org/10.1016/j.physa.2020.124694
 [research_lai_russell_2013]: https://doi.org/10.1111/maps.12102
+[research_lal_raghunandan_2005]: https://doi.org/10.2514/1.9511
+[research_lal_raghunandan_2007]: https://doi.org/10.2514/1.20709
 [research_lalithambika_dasgupta_2007]: https://doi.org/10.2514/1.27766
 [research_lamarca_nocerino_2024]: https://doi.org/10.1016/j.actaastro.2023.12.046
+[research_lambregtsantoniusa_1985]: https://ntrs.nasa.gov/citations/20080007401
 [research_lambright_2026]: https://doi.org/10.1016/j.spacepol.2025.101725
 [research_lami_shamayleh_2019]: https://doi.org/10.1007/s00500-019-04180-3
+[research_lampland_giclas_1954]: https://doi.org/10.21236/ad0038042
 [research_lan_huiping_2026]: https://doi.org/10.1016/j.ceramint.2026.03.021
 [research_landaudamon_2013]: https://ntrs.nasa.gov/citations/20150007870
+[research_landers_and_2011]: https://doi.org/10.1111/j.1468-4004.2011.52607_10.x
 [research_landgraf_renk_2013]: https://doi.org/10.1016/j.actaastro.2012.10.005
 [research_landis_1991]: https://doi.org/10.1016/0094-5765(91)90075-g
 [research_landry_rupert_1990]: https://doi.org/10.1016/0379-6787(90)90002-m
@@ -12330,19 +15711,30 @@ summary of what classification achieves and what it costs.
 [research_langevin_1997]: https://doi.org/10.1016/s0032-0633(96)00098-0
 [research_langlade_2018]: https://doi.org/10.5553/iisl/2018061009005
 [research_langlois_benmahmoudjouini_2023]: https://doi.org/10.1016/j.respol.2022.104626
+[research_lanzerotti_1969]: https://doi.org/10.2514/3.29768
+[research_lanzerotti_maurer_1991]: https://doi.org/10.2514/3.26289
 [research_larbi_bergner_2012]: https://doi.org/10.3182/20120213-3-in-4034.00010
 [research_lari_milani_2019]: https://doi.org/10.1016/j.pss.2019.06.003
+[research_larina_1985]: https://doi.org/10.1007/bf01091056
 [research_larouche_2013]: https://doi.org/10.1504/ijspacese.2013.051770
+[research_larson_pogorele_1991]: https://doi.org/10.21236/ada237899
 [research_larsson_1981]: https://doi.org/10.1021/ja00404a010
+[research_lass_lorell_1961]: https://doi.org/10.2514/8.5375
 [research_lassudrieduchesne_fleury_1986]: https://doi.org/10.1016/0273-1177(86)90370-4
+[research_lastovicka_1975]: https://doi.org/10.1016/0021-9169(75)90120-8
 [research_lasudry_heimann_2000]: https://doi.org/10.1076/0167-6830(200006)1921-pft087
-[research_lau_lim_2019]: https://doi.org/10.1149/ma2019-01/2/283
 [research_lauchle_1992]: https://doi.org/10.1016/0022-460x(92)90788-y
+[research_launch_vehicle_1973]: https://doi.org/10.2514/3.50713
+[research_launch_vehicle_2000]: https://doi.org/10.1109/62.879411
 [research_launius_2013]: https://doi.org/10.1111/1600-0498.12037
+[research_lawingpl_nystromdm_1980]: https://ntrs.nasa.gov/citations/19800024952
 [research_lawler_rein_2024]: https://doi.org/10.3847/2515-5172/ad3920
+[research_lawyer_1972]: https://doi.org/10.2514/3.61657
 [research_le_goo_2021]: https://doi.org/10.2514/1.a34908
 [research_le_ha_2021]: https://doi.org/10.1016/j.compositesb.2021.109301
 [research_leach_szpakowski_1983]: https://doi.org/10.2514/3.8590
+[research_leavitt_mease_2007]: https://doi.org/10.2514/1.23034
+[research_leblanc_1981]: https://doi.org/10.21236/ada104319
 [research_lechtenberg_mclaughlin_2013]: https://doi.org/10.1029/2012sw000848
 [research_lederersm_matneym_2018]: https://ntrs.nasa.gov/citations/20180006595
 [research_ledkov_aslanov_2025]: https://doi.org/10.1007/s42064-024-0235-3
@@ -12352,13 +15744,17 @@ summary of what classification achieves and what it costs.
 [research_lee_2005]: https://doi.org/10.5140/jass.2005.22.3.243
 [research_lee_2006]: https://doi.org/10.1007/bf02916260
 [research_lee_2018]: https://doi.org/10.1371/journal.pone.0199667
+[research_lee_bang_2009]: https://doi.org/10.2514/1.44550
 [research_lee_brooks_1986]: https://doi.org/10.2514/3.25079
 [research_lee_chen_2000]: https://doi.org/10.2514/2.3553
 [research_lee_cho_2002]: https://doi.org/10.1007/bf02939333
+[research_lee_cho_2004]: https://doi.org/10.1007/bf02990366
 [research_lee_cho_2006]: https://doi.org/10.3182/20060517-3-fr-2903.00177
 [research_lee_cho_2024]: https://doi.org/10.1016/j.atmosenv.2024.120700
 [research_lee_gallucci_2023]: https://doi.org/10.1016/j.asr.2023.01.004
 [research_lee_grantham_1989]: https://doi.org/10.2514/3.20396
+[research_lee_hull_1990]: https://doi.org/10.2514/3.25362
+[research_lee_jamest_1963]: https://doi.org/10.21236/ad0406459
 [research_lee_jung_2025]: https://doi.org/10.1007/s42405-024-00882-7
 [research_lee_kang_2023]: https://doi.org/10.52912/jsta.2023.3.2.101
 [research_lee_kim_2020]: https://doi.org/10.3390/en13071616
@@ -12367,39 +15763,51 @@ summary of what classification achieves and what it costs.
 [research_lee_li_2015]: https://doi.org/10.2478/gsr-2015-0009
 [research_lee_lim_2004]: https://doi.org/10.5140/jass.2004.21.3.221
 [research_lee_liu_1999]: https://doi.org/10.2514/2.4482
+[research_lee_park_2024]: https://doi.org/10.1016/j.ast.2024.109387
 [research_lee_park_2025]: https://doi.org/10.2514/1.g008809
 [research_lee_pullen_2006]: https://doi.org/10.2514/1.17339
 [research_lee_pullen_2007]: https://doi.org/10.2514/1.28199
-[research_lee_yoon_2013]: https://doi.org/10.1149/ma2013-02/14/1063
+[research_lee_rasmussen_1978]: https://doi.org/10.21236/ada068002
+[research_lee_sohn_2020]: https://doi.org/10.33528/kjma.2020.12.8.33
 [research_leedb_harthunmh_1982]: https://ntrs.nasa.gov/citations/19820048316
 [research_leeper_jones_2024]: https://doi.org/10.2514/1.a36020
+[research_lees_kubota_1972]: https://doi.org/10.21236/ad0755276
 [research_legoff_moreau_2013]: https://doi.org/10.1016/j.actaastro.2013.03.025
 [research_lei_2014]: https://doi.org/10.4028/www.scientific.net/amm.535.114
 [research_lei_xiong_2017]: https://doi.org/10.1109/tgrs.2016.2626963
 [research_lei_yu_2026]: https://doi.org/10.1016/j.jpowsour.2026.240053
+[research_lei_zhang_2013]: https://doi.org/10.1016/j.proeng.2013.12.041
 [research_leiserdanielb_stewartdavida_2002]: https://ntrs.nasa.gov/citations/20030014602
 [research_lemelin_lucey_2022]: https://doi.org/10.3847/psj/ac532c
 [research_lemmens_krag_2014]: https://doi.org/10.2514/1.61300
 [research_leng_xiang_2014]: https://doi.org/10.4028/www.scientific.net/amm.686.594
+[research_lennon_poirter_1974]: https://doi.org/10.21236/ada004046
 [research_leomanni_garulli_2017]: https://doi.org/10.1016/j.actaastro.2016.11.001
 [research_leonardi_curti_2026]: https://doi.org/10.3390/aerospace13070604
 [research_lerner_2026]: https://doi.org/10.1007/s12567-026-00754-8
+[research_lesin_1976]: https://doi.org/10.1007/bf01026419
 [research_lesliefredw_justuscg_2008]: https://ntrs.nasa.gov/citations/20080013597
 [research_lessing_tunnell_1964]: https://doi.org/10.2514/3.27621
 [research_leung_calise_1994]: https://doi.org/10.2514/3.21285
 [research_levandovich_mosin_2021]: https://doi.org/10.33950/spacetech-2308-7625-2021-2-97-108
 [research_levarlet_schmidt_2020]: https://doi.org/10.1016/j.est.2020.101230
+[research_levermore_brio_1994]: https://doi.org/10.21236/ada295493
 [research_levin_berggren_1967]: https://doi.org/10.2514/3.29050
 [research_levin_markov_1987]: https://doi.org/10.1007/bf00872029
 [research_levin_smith_1969]: https://doi.org/10.2514/3.44060
 [research_levine_rappaport_2000]: https://doi.org/10.1086/309398
 [research_levinestanleyr_opilaelizabethj_2003]: https://ntrs.nasa.gov/citations/20050207453
 [research_levinestanleyr_opilaelizabethj_2004]: https://ntrs.nasa.gov/citations/20040074335
+[research_levingeorgem_marzwellneville_1990]: https://ntrs.nasa.gov/citations/19920041097
+[research_levinsky_1962]: https://doi.org/10.2514/8.9474
+[research_levy_1969]: https://doi.org/10.2514/3.44059
+[research_levy_1997]: https://doi.org/10.21236/ada388400
 [research_lewellen_mirels_1966]: https://doi.org/10.2514/3.3803
 [research_lewis_2021]: https://doi.org/10.20935/al2058
 [research_lewis_kenkare_1974]: https://doi.org/10.2514/3.62074
 [research_lewis_mcronald_1992]: https://doi.org/10.2514/3.11506
 [research_lewis_read_1996]: https://doi.org/10.1016/s0032-0633(96)00058-x
+[research_lewis_read_2007]: https://doi.org/10.1016/j.icarus.2007.08.009
 [research_lewis_yazadzhiyan_2024]: https://doi.org/10.1016/j.jsse.2024.03.008
 [research_li_2011]: https://doi.org/10.1016/j.actaastro.2010.11.004
 [research_li_2011_b]: https://doi.org/10.1007/bf03321157
@@ -12419,6 +15827,7 @@ summary of what classification achieves and what it costs.
 [research_li_cui_2023]: https://doi.org/10.3390/atmos14081317
 [research_li_du_2026]: https://doi.org/10.1016/j.ceramint.2026.04.095
 [research_li_feng_2022]: https://doi.org/10.1360/nso/20220019
+[research_li_geiger_1957]: https://doi.org/10.2514/8.3759
 [research_li_he_2025]: https://doi.org/10.1088/1361-6501/ae0c03
 [research_li_he_2025_b]: https://doi.org/10.3390/batteries11100347
 [research_li_he_2025_c]: https://doi.org/10.1016/j.egyr.2025.11.012
@@ -12428,28 +15837,36 @@ summary of what classification achieves and what it costs.
 [research_li_huang_2021]: https://doi.org/10.1016/j.actaastro.2021.03.001
 [research_li_ji_2026]: https://doi.org/10.1109/access.2026.3667479
 [research_li_jiang_2021]: https://doi.org/10.1186/s42774-021-00063-0
+[research_li_jiang_2023]: https://doi.org/10.1029/2023ea002971
 [research_li_ju_2017]: https://doi.org/10.1615/heattransres.2017016166
 [research_li_ju_2023]: https://doi.org/10.1016/j.energy.2023.127378
+[research_li_kao_2016]: https://doi.org/10.1109/tcomm.2015.2506157
 [research_li_lei_2017]: https://doi.org/10.1007/s11430-016-9052-1
 [research_li_li_2012]: https://doi.org/10.1016/j.engfracmech.2011.11.016
 [research_li_li_2018]: https://doi.org/10.1016/j.asr.2018.05.002
 [research_li_li_2022]: https://doi.org/10.1007/s11998-022-00694-y
 [research_li_li_2024]: https://doi.org/10.1016/j.est.2024.111437
+[research_li_li_2025]: https://doi.org/10.1016/j.ast.2025.110644
 [research_li_liu_2012]: https://doi.org/10.4028/www.scientific.net/amr.516-517.312
 [research_li_liu_2015]: https://doi.org/10.4028/www.scientific.net/amm.729.234
 [research_li_liu_2015_b]: https://doi.org/10.1016/j.cja.2015.08.011
 [research_li_lv_2015]: https://doi.org/10.1016/j.expthermflusci.2014.12.001
+[research_li_nagamatsu_1953]: https://doi.org/10.21236/ada278404
 [research_li_ning_2025]: https://doi.org/10.3390/atmos16101120
+[research_li_peng_2011]: https://doi.org/10.1016/j.asr.2010.09.005
 [research_li_sang_2018]: https://doi.org/10.1016/j.asr.2018.08.038
 [research_li_sun_2015]: https://doi.org/10.11728/cjss2015.05.611
 [research_li_sun_2022]: https://doi.org/10.3390/aerospace10010024
 [research_li_tian_2026]: https://doi.org/10.56028/aetr.16.1.914.2026
+[research_li_wang_2013]: https://doi.org/10.4028/www.scientific.net/amr.631-632.890
 [research_li_wang_2024]: https://doi.org/10.1016/j.asr.2024.04.023
 [research_li_wang_2024_b]: https://doi.org/10.1016/j.energy.2024.134084
 [research_li_wang_2025]: https://doi.org/10.2514/1.a36377
+[research_li_wang_2025_b]: https://doi.org/10.3389/arc.2025.14801
 [research_li_yan_2014]: https://doi.org/10.1016/j.applthermaleng.2014.07.015
 [research_li_yang_2018]: https://doi.org/10.1016/j.applthermaleng.2018.03.084
 [research_li_yang_2022]: https://doi.org/10.1093/nsr/nwac129
+[research_li_yu_2025]: https://doi.org/10.2514/1.j065636
 [research_li_yuan_2020]: https://doi.org/10.1016/j.energy.2019.116467
 [research_li_zhang_2014]: https://doi.org/10.4028/www.scientific.net/amm.538.184
 [research_li_zhang_2022]: https://doi.org/10.1016/j.pnucene.2022.104307
@@ -12464,22 +15881,29 @@ summary of what classification achieves and what it costs.
 [research_li_zhang_2026_c]: https://doi.org/10.26599/jac.2025.9221231
 [research_li_zhao_2024]: https://doi.org/10.1016/j.asr.2023.10.009
 [research_li_zhou_2015]: https://doi.org/10.1016/j.applthermaleng.2014.09.056
+[research_li_zhou_2018]: https://doi.org/10.1038/s41598-018-23415-1
 [research_liang_du_2012]: https://doi.org/10.3724/sp.j.1218.2012.00242
 [research_liang_han_2010]: https://doi.org/10.3724/sp.j.1004.2010.01534
 [research_liang_han_2011]: https://doi.org/10.1007/s11432-010-4159-6
 [research_liang_long_2020]: https://doi.org/10.1016/j.ast.2020.105876
 [research_liang_ren_2018]: https://doi.org/10.2514/1.g003157
 [research_liang_zhi_2024]: https://doi.org/10.1016/j.asr.2024.05.059
+[research_liao_2005]: https://doi.org/10.1016/j.spacepol.2005.05.009
 [research_liao_chu_2023]: https://doi.org/10.1016/j.cja.2023.11.020
 [research_liao_zhao_2000]: https://doi.org/10.1016/s1359-4311(99)00070-8
+[research_libby_1970]: https://doi.org/10.2514/3.6065
+[research_libby_sepri_1968]: https://doi.org/10.1063/1.1692171
+[research_liburdy_1985]: https://doi.org/10.1016/0142-727x(85)90005-0
 [research_licata_mehta_2022]: https://doi.org/10.1029/2021sw002915
 [research_licata_mehta_2022_b]: https://doi.org/10.1038/s41598-022-11049-3
 [research_licp_1981]: https://ntrs.nasa.gov/citations/19820045478
 [research_liebermann_armstrong_1968]: https://doi.org/10.1016/0022-4073(68)90063-0
 [research_liemohn_1976]: https://doi.org/10.1109/tps.1976.4316973
 [research_life_cycle_2022]: https://doi.org/10.3901/jme.2022.17.096
+[research_life_on_2006]: https://doi.org/10.1063/pt.5.020527
 [research_lifson_arnas_2025]: https://doi.org/10.2514/1.a35913
 [research_likar_bogorad_2008]: https://doi.org/10.2514/1.35524
+[research_likely_schiaparelli_2016]: https://doi.org/10.1063/pt.5.0210164
 [research_lilinlin_sunhuixian_2003]: https://doi.org/10.11728/cjss2003.02.20030207
 [research_lillie_dailey_2010]: https://doi.org/10.1016/j.actaastro.2009.07.025
 [research_lim_chakrabarti_1967]: https://doi.org/10.1016/0009-2614(79)80008-1
@@ -12499,9 +15923,12 @@ summary of what classification achieves and what it costs.
 [research_lin_luo_2013]: https://doi.org/10.1007/s11431-013-5170-0
 [research_lin_seager_2025]: https://doi.org/10.3847/psj/ada124
 [research_lin_xie_2022]: https://doi.org/10.2298/tsci200904248l
+[research_lin_xin_2003]: https://doi.org/10.1016/s0275-1062(03)90056-7
 [research_lin_xing_2017]: https://doi.org/10.1016/j.egypro.2017.03.931
+[research_lin_yanrong_2006]: https://doi.org/10.1016/j.chinastron.2006.01.006
 [research_lin_yingchun_2002]: https://doi.org/10.1016/s0094-5765(02)00040-1
 [research_lind_2020]: https://doi.org/10.5962/p.361911
+[research_linders_vandevorstenbosch_1984]: https://doi.org/10.1016/0304-3991(84)90181-5
 [research_lindroos_savin_2016]: https://doi.org/10.1016/j.solmat.2015.11.047
 [research_ling_xia_2024]: https://doi.org/10.1016/j.applthermaleng.2023.122046
 [research_ling_zhou_2016]: https://doi.org/10.1016/j.applthermaleng.2016.07.121
@@ -12537,6 +15964,7 @@ summary of what classification achieves and what it costs.
 [research_liu_liu_2018]: https://doi.org/10.1080/00207179.2018.1426882
 [research_liu_liu_2022]: https://doi.org/10.1080/00207179.2022.2106891
 [research_liu_liu_2023]: https://doi.org/10.1061/jaeeez.aseng-4711
+[research_liu_qiang_2012]: https://doi.org/10.4028/www.scientific.net/amr.429.147
 [research_liu_song_2018]: https://doi.org/10.1016/j.jclepro.2018.06.182
 [research_liu_sun_2016]: https://doi.org/10.1016/j.solener.2016.10.031
 [research_liu_sun_2024]: https://doi.org/10.1016/j.cja.2023.10.014
@@ -12544,8 +15972,8 @@ summary of what classification achieves and what it costs.
 [research_liu_wang_2013]: https://doi.org/10.3390/en6083654
 [research_liu_wang_2014]: https://doi.org/10.4028/www.scientific.net/amr.1016.446
 [research_liu_wang_2019]: https://doi.org/10.1016/j.energy.2018.10.131
+[research_liu_wei_2017]: https://doi.org/10.1017/s0373463316000874
 [research_liu_xiao_2025]: https://doi.org/10.3390/s25144327
-[research_liu_xiong_2014]: https://doi.org/10.1016/j.jpowsour.2014.03.083
 [research_liu_xu_2016]: https://doi.org/10.5194/isprsarchives-xli-b4-441-2016
 [research_liu_xu_2026]: https://doi.org/10.1016/j.asr.2025.12.078
 [research_liu_yang_2026]: https://doi.org/10.1088/1742-6596/3240/1/012002
@@ -12560,13 +15988,23 @@ summary of what classification achieves and what it costs.
 [research_liu_zhao_2022]: https://doi.org/10.34133/2022/9894604
 [research_liuhaiying_wanghuinan_2005]: https://doi.org/10.11728/cjss2005.04.293
 [research_liuyingchun_liulin_2002]: https://doi.org/10.11728/cjss2002.03.20020308
+[research_liyingqian_quangan_2022]: https://ntrs.nasa.gov/citations/20220013556
+[research_llewellyncharlesp_brenderkarend_1990]: https://ntrs.nasa.gov/citations/19900009034
 [research_llewellyncharlesp_weidmandeenej_1992]: https://ntrs.nasa.gov/citations/19930008227
+[research_lloyd_1999]: https://doi.org/10.21236/ada370494
+[research_lo_1979]: https://doi.org/10.21236/ada080633
+[research_lobb_winkler_1955]: https://doi.org/10.21236/ad0068499
 [research_lockheed_martin_1999]: https://ntrs.nasa.gov/citations/19990041247
 [research_loehberg_gruenwald_2017]: https://doi.org/10.1051/e3sconf/20171604006
 [research_loftus_brasher_1986]: https://doi.org/10.1016/0094-5765(86)90116-5
+[research_logan_stalker_1977]: https://doi.org/10.1016/0022-4073(77)90070-x
 [research_logsdon_williamson_1997]: https://doi.org/10.1016/s0265-9646(97)00010-6
+[research_loh_1962]: https://doi.org/10.2514/8.9761
+[research_loh_1963]: https://doi.org/10.2514/3.54858
+[research_lohar_sherwani_1998]: https://doi.org/10.2514/2.4333
 [research_lohmeyer_aniceto_2018]: https://doi.org/10.1504/ijspacese.2018.090549
 [research_lomasjamesj_mitchelldanielw_2001]: https://ntrs.nasa.gov/citations/20010019998
+[research_long_deng_2024]: https://doi.org/10.3788/col202422.021402
 [research_long_li_2026]: https://doi.org/10.1016/j.asr.2026.03.053
 [research_long_niu_2026]: https://doi.org/10.2514/1.a36653
 [research_longstaciam_youtunghan_2007]: https://ntrs.nasa.gov/citations/20080012690
@@ -12574,28 +16012,40 @@ summary of what classification achieves and what it costs.
 [research_longuski_puigsuari_1995]: https://doi.org/10.1016/0094-5765(95)00006-l
 [research_longuski_puigsuari_1995_b]: https://doi.org/10.1016/0094-5765(94)00273-o
 [research_longuski_tragesser_1999]: https://doi.org/10.1016/s0094-5765(99)00021-1
+[research_loomismarkp_venkatapathyethiraj_2004]: https://ntrs.nasa.gov/citations/20040105590
 [research_lopez_chapman_1967]: https://doi.org/10.2514/3.29155
 [research_lorenz_1998]: https://doi.org/10.2514/2.3372
+[research_lortz_1969]: https://doi.org/10.1016/0375-9601(69)90655-0
+[research_lourme_1987]: https://doi.org/10.1016/0094-5765(87)90062-2
 [research_louyun_2024]: https://doi.org/10.52710/mt.61
 [research_lovell_2025]: https://doi.org/10.2139/ssrn.5826022
 [research_lowe_damico_2026]: https://doi.org/10.1016/j.actaastro.2026.03.055
 [research_lowes_1970]: https://doi.org/10.2514/3.30016
+[research_lowrance_smith_1996]: https://doi.org/10.21236/ada381746
 [research_lozano_chen_2015]: https://doi.org/10.21236/ada619633
 [research_lozinski_horne_2019]: https://doi.org/10.1029/2019sw002213
 [research_lu_1996]: https://doi.org/10.2514/3.21585
 [research_lu_1997]: https://doi.org/10.2514/2.4008
 [research_lu_2006]: https://doi.org/10.2514/1.15789
+[research_lu_2008]: https://doi.org/10.2514/1.32055
 [research_lu_2014]: https://doi.org/10.2514/1.62605
 [research_lu_brunner_2017]: https://doi.org/10.2514/1.g000327
+[research_lu_cheng_2013]: https://doi.org/10.11728/cjss2013.02.129
 [research_lu_hanson_1998]: https://doi.org/10.2514/2.3332
+[research_lu_liu_2012]: https://doi.org/10.1016/j.proeng.2012.01.626
 [research_lu_liu_2013]: https://doi.org/10.1007/s00231-013-1247-3
 [research_lu_matnoor_2024]: https://doi.org/10.37934/arnht.27.1.4565
+[research_lu_qian_2024]: https://doi.org/10.3390/drones8080377
 [research_lu_shi_2024]: https://doi.org/10.1016/j.phycom.2024.102498
 [research_lu_xu_2020]: https://doi.org/10.1155/2020/8149034
 [research_lu_yan_2022]: https://doi.org/10.1080/10407782.2022.2107367
 [research_lu_yu_2026]: https://doi.org/10.2514/1.j066921
+[research_lu_zhang_2025]: https://doi.org/10.3390/math13030380
+[research_lubowe_1966]: https://doi.org/10.2514/3.3440
 [research_lubowe_1969]: https://doi.org/10.2514/3.5313
 [research_luhaibo_liuweiqiang_2012]: https://doi.org/10.7498/aps.61.064703
+[research_luhmann_1991]: https://doi.org/10.1029/91je01865
+[research_lukasiewicz_1961]: https://doi.org/10.21236/ad0259455
 [research_luke_1993]: https://doi.org/10.2514/3.21034
 [research_lukeif_roegereajr_1965]: https://ntrs.nasa.gov/citations/19660000760
 [research_lukeif_roegereajr_1965_b]: https://ntrs.nasa.gov/citations/19650015803
@@ -12618,6 +16068,8 @@ summary of what classification achieves and what it costs.
 [research_lutzner_jagdhuber_2022]: https://doi.org/10.1109/tgrs.2022.3152898
 [research_luu_hastings_2022]: https://doi.org/10.2514/1.a35393
 [research_lv_wang_2023]: https://doi.org/10.1016/j.neucom.2022.11.057
+[research_lyddane_cohen_1962]: https://doi.org/10.1086/108689
+[research_lyell_cronin_1992]: https://doi.org/10.1016/0045-7825(92)90082-u
 [research_lykoudis_1964]: https://doi.org/10.2514/3.2253
 [research_lylesgarry_1999]: https://ntrs.nasa.gov/citations/19990102610
 [research_lynejamesevans_1992]: https://ntrs.nasa.gov/citations/19930003532
@@ -12631,14 +16083,17 @@ summary of what classification achieves and what it costs.
 [research_lyu_wang_2022]: https://doi.org/10.1016/j.microrel.2022.114500
 [research_lyu_wei_2025]: https://doi.org/10.1002/bte2.70011
 [research_lyu_zheng_2019]: https://doi.org/10.12783/dteees/iceee2018/27873
+[research_lyuyloi_vothchristopher_1990]: https://ntrs.nasa.gov/citations/19910045497
 [research_m_john_2026]: https://doi.org/10.1016/j.rineng.2026.110799
 [research_ma_1996]: https://doi.org/10.2514/3.21801
 [research_ma_2005]: https://doi.org/10.1360/142004-23
 [research_ma_chen_2018]: https://doi.org/10.1109/access.2017.2780994
 [research_ma_meng_2018]: https://doi.org/10.1360/n092017-00026
+[research_ma_ning_2012]: https://doi.org/10.1017/s0373463312000100
 [research_ma_sun_2016]: https://doi.org/10.1016/j.actaastro.2016.05.022
 [research_ma_wei_2026]: https://doi.org/10.1016/j.sspwt.2026.06.001
 [research_ma_xie_2021]: https://doi.org/10.2139/ssrn.3983112
+[research_ma_yang_2022]: https://doi.org/10.1017/s0373463322000029
 [research_ma_yang_2026]: https://doi.org/10.1016/j.ast.2026.113510
 [research_ma_yin_2022]: https://doi.org/10.54097/fcis.v2i1.3343
 [research_ma_zhai_2004]: https://doi.org/10.1016/s0094-5765(03)00031-6
@@ -12646,12 +16101,19 @@ summary of what classification achieves and what it costs.
 [research_macauley_2015]: https://doi.org/10.1016/j.actaastro.2015.05.006
 [research_macconochie_lemessurier_1980]: https://doi.org/10.2514/3.57764
 [research_macconochie_rehder_1980]: https://doi.org/10.2514/3.57734
+[research_macdonald_1969]: https://doi.org/10.1016/0032-0633(69)90007-5
+[research_macdonald_mcinnes_2007]: https://doi.org/10.2514/1.17297
 [research_macgregor_thompson_1970]: https://doi.org/10.2514/3.30120
+[research_machali_1995]: https://doi.org/10.1016/0022-4073(95)90007-1
 [research_machuca_sanchez_2021]: https://doi.org/10.2514/1.a34986
 [research_macleod_2026]: https://doi.org/10.59332/jbis-079-01-0017
 [research_macleod_begent_2025]: https://doi.org/10.59332/jbis-078-02-0044
 [research_maddockrobertw_bowesangela_2012]: https://ntrs.nasa.gov/citations/20140003452
 [research_madeira_riosneto_2000]: https://doi.org/10.1016/s0005-1098(99)00163-6
+[research_madura_boyd_1992]: https://doi.org/10.21236/ada253720
+[research_magnetohydrodynamic_stagnation_2007]: https://doi.org/10.22364/mhd.43.1.8
+[research_magnetohydrodynamics_stagnation_2006]: https://doi.org/10.22364/mhd.42.1.7
+[research_mahanta_2006]: https://doi.org/10.21236/ada451409
 [research_mahaseth_bag_2022]: https://doi.org/10.2139/ssrn.4185405
 [research_mahattanavuttakorn_tiputhai_2023]: https://doi.org/10.4186/ej.2023.27.11.85
 [research_mahiny_ahmadikandjani_2023]: https://doi.org/10.1016/j.solmat.2023.112500
@@ -12660,25 +16122,31 @@ summary of what classification achieves and what it costs.
 [research_mai_li_2026]: https://doi.org/10.1016/j.sspwt.2026.03.003
 [research_maier_baur_2016]: https://doi.org/10.1016/j.pss.2016.01.014
 [research_maikapar_1967]: https://doi.org/10.1007/bf01015134
+[research_maikapar_2000]: https://doi.org/10.1007/bf02698124
 [research_mailhe_heister_2002]: https://doi.org/10.2514/2.3791
 [research_mainsde_1966]: https://ntrs.nasa.gov/citations/19660020470
 [research_maiorova_prosuntsov_2016]: https://doi.org/10.1007/s10891-016-1406-8
 [research_maita_1989]: https://doi.org/10.2322/jjsass1969.37.401
+[research_maiuzzo_1970]: https://doi.org/10.21236/ad0707129
 [research_makki_ayoub_2023]: https://doi.org/10.1016/j.polymdegradstab.2023.110469
 [research_maldonadoromo_montesinos_2026]: https://doi.org/10.1016/j.jsse.2026.05.005
+[research_malin_2010]: https://doi.org/10.1555/mars.2010.0001
 [research_malin_edgett_2001]: https://doi.org/10.1029/2000je001455
 [research_malinowska_2024]: https://doi.org/10.63189/esbh4948
 [research_malinowska_2025]: https://doi.org/10.2478/ppsr-2025-0013
+[research_malone_crawford_1993]: https://doi.org/10.21236/ada459855
 [research_maloneytj_1981]: https://ntrs.nasa.gov/citations/19810054187
 [research_malyshev_starkov_2013]: https://doi.org/10.1134/s1064230713010085
 [research_mameli_manno_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.460
 [research_mammen_nair_1990]: https://doi.org/10.1016/0141-9331(90)90052-w
 [research_mandell_1962]: https://doi.org/10.2514/8.6016
+[research_mangold_2003]: https://doi.org/10.1029/2002je001885
 [research_manishmehta_andrewcolbert]: https://ntrs.nasa.gov/citations/20260004164
 [research_manishmehta_markahooton]: https://ntrs.nasa.gov/citations/20250005672
 [research_mankins_2002]: https://doi.org/10.1016/s0094-5765(02)00020-6
 [research_manleydavidj_cervisirichardt_2000]: https://ntrs.nasa.gov/citations/20000040788
 [research_manokaran_vidya_2009]: https://doi.org/10.2514/1.39732
+[research_manskidetlef_martinjamesa_1988]: https://ntrs.nasa.gov/citations/19880057472
 [research_manzomichellea_2000]: https://ntrs.nasa.gov/citations/20050192326
 [research_mao_chen_2025]: https://doi.org/10.1109/taes.2024.3522864
 [research_mao_gou_2026]: https://doi.org/10.1029/2025jh001022
@@ -12702,12 +16170,24 @@ summary of what classification achieves and what it costs.
 [research_marks_2016]: https://doi.org/10.1016/s0262-4079(16)31825-5
 [research_markschoenenberger_matthewnrhode]: https://ntrs.nasa.gov/citations/20205004028
 [research_marley_driscoll_2022]: https://doi.org/10.2514/1.c036411
+[research_marraffa_smith_1998]: https://doi.org/10.1023/a:1001874903881
+[research_mars_climate_2016]: https://doi.org/10.1063/pt.5.031314
+[research_mars_global_2001]: https://doi.org/10.1016/s0045-8732(01)80071-1
+[research_mars_orbiter_2009]: https://doi.org/10.1063/pt.5.023097
+[research_mars_orbiter_2009_b]: https://doi.org/10.1038/458137e
+[research_mars_orbiter_2017]: https://doi.org/10.1016/s0262-4079(17)30543-2
+[research_mars_reconnaissance_2005]: https://doi.org/10.1021/ac0534778
 [research_marsch_marsden_2005]: https://doi.org/10.1016/j.asr.2004.11.012
 [research_marschall_mahon_1984]: https://doi.org/10.1364/ao.23.004390
 [research_marsden_fleck_2003]: https://doi.org/10.1016/j.asr.2003.01.003
+[research_marshak_adam_2000]: https://doi.org/10.21236/ada389502
 [research_marshall_1986]: https://doi.org/10.1126/science.231.4734.105
-[research_marshall_1986_b]: https://doi.org/10.1126/science.231.4740.783.b
+[research_marshall_1986_b]: https://doi.org/10.1126/science.231.4740.783-a
+[research_marshall_1986_c]: https://doi.org/10.1126/science.231.4740.783.b
+[research_marshall_1988]: https://doi.org/10.1126/science.239.4838.347.a
 [research_marshall_breuch_1968]: https://doi.org/10.2514/3.29420
+[research_marshall_luthcke_1994]: https://doi.org/10.2514/3.26408
+[research_marshall_luthcke_1994_b]: https://doi.org/10.2514/3.55671
 [research_marshall_sun_2021]: https://doi.org/10.1016/j.arcontrol.2021.10.013
 [research_marshburnjp_mcintoshrjr_1978]: https://ntrs.nasa.gov/citations/19780051696
 [research_martikan_1965]: https://doi.org/10.2514/3.28137
@@ -12726,10 +16206,12 @@ summary of what classification achieves and what it costs.
 [research_martindale_2006]: https://doi.org/10.21236/ada457121
 [research_martinez_2016]: https://doi.org/10.1016/j.spacepol.2016.10.003
 [research_marty_bonnal_2023]: https://doi.org/10.1016/j.actaastro.2022.09.051
+[research_marvinjosephg_brownjamesl_2013]: https://ntrs.nasa.gov/citations/20140010683
 [research_masciarellijamesp_westhellecarlosh_2004]: https://ntrs.nasa.gov/citations/20050217260
 [research_maskell_metcalfe_1992]: https://doi.org/10.1109/62.166864
 [research_maslo_2016]: https://doi.org/10.1109/tpwrs.2015.2490245
 [research_mason_1988]: https://doi.org/10.1016/0011-2275(88)90060-4
+[research_mason_2011]: https://doi.org/10.21236/ada564705
 [research_masrur_garg_2002]: https://doi.org/10.21236/ada401723
 [research_masrur_monroe_2002]: https://doi.org/10.21236/ada401222
 [research_massimi_ferrara_2022]: https://doi.org/10.3390/s23010124
@@ -12745,30 +16227,48 @@ summary of what classification achieves and what it costs.
 [research_matous_moravec_2026]: https://doi.org/10.1002/asna.70077
 [research_matricciani_1997]: https://doi.org/10.1002/(sici)1099-1247(199703)15:2<45::aid-sat567>3.0.co;2-0
 [research_matsuo_fedrizzi_2012]: https://doi.org/10.1029/2012sw000773
+[research_matsuo_kawaguchi_1995]: https://doi.org/10.1016/0094-5765(94)00227-d
 [research_matthewkchamberlain_stephenhkiefer_2020]: https://ntrs.nasa.gov/citations/20205003936
 [research_matthewnapoli_cherylekong]: https://ntrs.nasa.gov/citations/20230008421
+[research_mattick_hertzberg_1981]: https://doi.org/10.2514/3.62557
 [research_mattick_hertzberg_1982]: https://doi.org/10.1016/0094-5765(82)90084-4
 [research_matzdaniela_luping_2017]: https://ntrs.nasa.gov/citations/20160014583
+[research_maurer_hall_1988]: https://doi.org/10.2514/3.20289
 [research_maury_moralesserrano_2020]: https://doi.org/10.1016/j.jsse.2020.07.002
+[research_maxmoerbeck_brisken_2015]: https://doi.org/10.1086/680013
+[research_mayer_hollinger_1992]: https://doi.org/10.21236/ada261363
 [research_mazarico_neumann_2018]: https://doi.org/10.1016/j.pss.2017.10.004
+[research_mazarico_zuber_2007]: https://doi.org/10.2514/1.28448
 [research_mazzaracchio_2013]: https://doi.org/10.5028/jatm.v5i1.208
 [research_mazzaracchio_2013_b]: https://doi.org/10.1260/1757-2258.5.3-4.83
+[research_mbewe_card_1985]: https://doi.org/10.1016/0038-092x(85)90104-5
 [research_mccallister_weeks_1999]: https://doi.org/10.1002/j.2334-5837.1999.tb00285.x
 [research_mccamish_romano_2009]: https://doi.org/10.2514/1.43563
 [research_mccormick_2015]: https://doi.org/10.1080/14777622.2015.1012002
+[research_mccue_1963]: https://doi.org/10.2514/3.1649
 [research_mccurdydavidr_rochejosephm_2004]: https://ntrs.nasa.gov/citations/20050060617
+[research_mccurry_1996]: https://doi.org/10.1016/s0094-5765(96)00142-7
 [research_mcdermott_1986]: https://doi.org/10.1016/0378-7753(86)80082-9
+[research_mcdonald_1979]: https://doi.org/10.21236/ada083022
 [research_mcdonnell_ratcliff_1996]: https://doi.org/10.1016/0273-1177(95)00778-d
+[research_mceneaney_1991]: https://doi.org/10.2514/3.20648
 [research_mcfarland_calise_1995]: https://doi.org/10.2514/3.56667
+[research_mcgrory_2001]: https://doi.org/10.21236/ada399497
 [research_mcguiremelissal_hackkurtj_2014]: https://ntrs.nasa.gov/citations/20140017761
+[research_mcinerny_1996]: https://doi.org/10.2514/3.46974
 [research_mckee_1975]: https://doi.org/10.2514/3.27830
 [research_mckenziepatrickm_2003]: https://ntrs.nasa.gov/citations/20030111797
 [research_mckimstephena_2016]: https://ntrs.nasa.gov/citations/20160005314
 [research_mckinnon_leith_1995]: https://doi.org/10.1006/icar.1995.1199
 [research_mcknight_lorenzen_1989]: https://doi.org/10.2514/3.26037
+[research_mclaughlin_krishna_2013]: https://doi.org/10.21236/ada582025
 [research_mclean_2000]: https://doi.org/10.1016/s0265-9646(00)00034-5
+[research_mcnamara_2013]: https://doi.org/10.21236/ada584528
 [research_mcnamaralukew_braunrobertd_2014]: https://ntrs.nasa.gov/citations/20140004224
 [research_mcnelisnancyb_hardyterryl_1995]: https://ntrs.nasa.gov/citations/19950017766
+[research_mcronaldangusd_1995]: https://ntrs.nasa.gov/citations/20000057460
+[research_mcronaldangusd_2000]: https://ntrs.nasa.gov/citations/20000074083
+[research_mease_chen_2002]: https://doi.org/10.2514/2.4906
 [research_mease_vinh_1985]: https://doi.org/10.2514/3.19945
 [research_measekd_vinhnx_1983]: https://ntrs.nasa.gov/citations/19830062594
 [research_medina_tomassini_2017]: https://doi.org/10.1016/j.actaastro.2017.01.022
@@ -12780,23 +16280,37 @@ summary of what classification achieves and what it costs.
 [research_mehta_mehta_2020]: https://doi.org/10.1080/08916152.2020.1718802
 [research_meisinger_2008]: https://doi.org/10.21236/ada494213
 [research_melamed_calise_1995]: https://doi.org/10.2514/3.21452
+[research_melin_erwin_2005]: https://doi.org/10.21236/ada439013
 [research_melnikov_2023]: https://doi.org/10.31857/s0320930x23030064
 [research_meneesgenep_1985]: https://ntrs.nasa.gov/citations/19990066630
+[research_meneesgenep_daviescarolb_1985]: https://ntrs.nasa.gov/citations/19990066628
 [research_meng_gao_2026]: https://doi.org/10.34133/space.0502
+[research_meng_liang_2022]: https://doi.org/10.1016/j.asr.2022.07.017
 [research_meng_wang_2026]: https://doi.org/10.1016/j.sspwt.2026.05.001
 [research_meng_wu_2009]: https://doi.org/10.1007/s11432-009-0182-x
 [research_meng_wu_2020]: https://doi.org/10.1360/sst-2019-0304
 [research_mengali_quarta_2005]: https://doi.org/10.2514/1.14184
+[research_mengali_quarta_2008]: https://doi.org/10.1016/j.ast.2007.12.003
+[research_menhour_lechner_2011]: https://doi.org/10.3182/20110828-6-it-1002.01376
 [research_menon_ck_2025]: https://doi.org/10.1007/s11038-025-09574-y
 [research_menon_postlethwaite_2009]: https://doi.org/10.1016/j.conengprac.2008.12.002
 [research_menshikov_2022]: https://doi.org/10.24160/1993-6982-2022-3-105-110
+[research_mercer_1964]: https://doi.org/10.21236/ad0454404
+[research_mercer_1965]: https://doi.org/10.21236/ad0474137
+[research_meredith_1985]: https://doi.org/10.1163/157181085x00031
 [research_merkin_nazar_2011]: https://doi.org/10.1007/s10665-011-9487-z
 [research_merriammarshall_2000]: https://ntrs.nasa.gov/citations/20010071155
 [research_merrifielddv_1972]: https://ntrs.nasa.gov/citations/19730041214
 [research_mesarchmichaela_2004]: https://ntrs.nasa.gov/citations/20040171610
+[research_message_1960]: https://doi.org/10.1111/j.1365-246x.1960.tb01722.x
 [research_messenger_wong_2014]: https://doi.org/10.1109/tns.2014.2364894
+[research_metris_vokrouhlicky_1996]: https://doi.org/10.1016/0032-0633(96)00031-1
 [research_metz_1986]: https://doi.org/10.2514/3.25836
+[research_meuzelaar_cole_1992]: https://doi.org/10.21236/ada260455
 [research_meyer_1960]: https://doi.org/10.1007/bf01602926
+[research_meyer_silverberg_1995]: https://doi.org/10.2514/3.26587
+[research_meyerrobertrjr_barneburgjack_1988]: https://ntrs.nasa.gov/citations/19880011857
+[research_meyers_1991]: https://doi.org/10.1016/0094-5765(91)90081-f
 [research_mg_based_6_2002]: https://doi.org/10.1016/s1464-2859(02)80392-3
 [research_miao_tu_2023]: https://doi.org/10.1155/2023/9526861
 [research_michaelis_luttmann_1997]: https://doi.org/10.1016/s0094-5765(98)00079-4
@@ -12804,7 +16318,6 @@ summary of what classification achieves and what it costs.
 [research_michiganstateuniveastlansing_2004]: https://doi.org/10.21236/ada478737
 [research_miele_basapur_1985]: https://doi.org/10.1016/0094-5765(85)90097-9
 [research_miele_basapur_1987]: https://doi.org/10.1016/0094-5765(87)90176-7
-[research_miele_basapur_1987_b]: https://doi.org/10.1007/bf00938462
 [research_miele_lee_1988]: https://doi.org/10.1016/0094-5765(88)90092-6
 [research_miele_venkataraman_1984]: https://doi.org/10.1016/0094-5765(84)90083-3
 [research_miele_wang_1990]: https://doi.org/10.1016/0094-5765(90)90116-3
@@ -12812,45 +16325,69 @@ summary of what classification achieves and what it costs.
 [research_miele_wang_1992]: https://doi.org/10.2514/3.20826
 [research_miele_wang_1996]: https://doi.org/10.2514/3.21755
 [research_miele_wang_1996_b]: https://doi.org/10.2514/3.21656
+[research_miele_wang_2001]: https://doi.org/10.1016/s0094-5765(01)00008-x
+[research_miele_wang_2005]: https://doi.org/10.1016/j.amc.2004.06.038
+[research_mielea_basapurvk_1987]: https://ntrs.nasa.gov/citations/19870044407
 [research_mielea_measekd_1986]: https://ntrs.nasa.gov/citations/19860060438
+[research_mielea_measekd_1987]: https://ntrs.nasa.gov/citations/19880028797
+[research_mielea_measekd_1988]: https://ntrs.nasa.gov/citations/19880058487
+[research_mielea_venkataramanp_1983]: https://ntrs.nasa.gov/citations/19840029004
 [research_mielea_wangt_1990]: https://ntrs.nasa.gov/citations/19910005052
 [research_mieskes_ploetz_2023]: https://doi.org/10.1002/smll.202204726
 [research_mifsud_2022]: https://doi.org/10.54648/aila2022032
+[research_mifsud_estruchsamper_2012]: https://doi.org/10.1017/s0001924000007338
 [research_migaud_2020]: https://doi.org/10.1016/j.spacepol.2020.101361
 [research_mikhailov_vasilev_2011]: https://doi.org/10.1134/s2075108711010068
 [research_mikulasmartin_papparichard_2015]: https://ntrs.nasa.gov/citations/20150006022
 [research_milani_farnocchia_2012]: https://doi.org/10.1016/j.pss.2011.11.012
+[research_milani_knezevic_1990]: https://doi.org/10.1007/bf00049444
 [research_milani_tommei_2011]: https://doi.org/10.1111/j.1365-2966.2011.19392.x
+[research_miles_brown_2002]: https://doi.org/10.21236/ada403037
 [research_millard_lemaire_2005]: https://doi.org/10.1016/j.asr.2005.02.059
+[research_millard_neel_1965]: https://doi.org/10.2514/3.3130
 [research_miller_1963]: https://doi.org/10.21236/ad0429015
+[research_miller_1987]: https://doi.org/10.1016/0378-7753(87)80067-8
 [research_miller_brill_1990]: https://doi.org/10.1016/0378-7753(90)85023-6
 [research_miller_dever_2011]: https://doi.org/10.2514/1.49482
 [research_millerjenniferr_birurgajananac_2011]: https://ntrs.nasa.gov/citations/20120004221
+[research_millerjenniferr_emisnickolas_2015]: https://ntrs.nasa.gov/citations/20170007020
+[research_milleroana_corral_2015]: https://doi.org/10.1111/jace.14001
 [research_millerscott_hendersonscott_2007]: https://ntrs.nasa.gov/citations/20070031975
+[research_millersharonkr_banksbrucea_2018]: https://ntrs.nasa.gov/citations/20190027587
+[research_milliken_1965]: https://doi.org/10.2514/3.28177
+[research_milliken_mustard_2003]: https://doi.org/10.1029/2002je002005
 [research_miloro_2021]: https://doi.org/10.17797/2021041303
 [research_miloro_2021_b]: https://doi.org/10.17797/2021041302
 [research_milos_scott_2014]: https://doi.org/10.2514/1.a32460
+[research_milosfranks_scottcarldouglas_2012]: https://ntrs.nasa.gov/citations/20120016059
 [research_milstead_1964]: https://doi.org/10.21236/ad0601072
 [research_minaev_terpugova_1969]: https://doi.org/10.1007/bf00815664
 [research_minghtang_1970]: https://ntrs.nasa.gov/citations/19710000632
+[research_minka_fein_1966]: https://doi.org/10.21236/ad0637206
 [research_minowjoseph_parkerl_2008]: https://ntrs.nasa.gov/citations/20080030995
+[research_minster_remy_1993]: https://doi.org/10.1175/1520-0426(1993)010<0410:cotrot>2.0.co;2
 [research_minton_2008]: https://doi.org/10.21236/ada476326
 [research_minton_tagawa_2004]: https://doi.org/10.2514/1.10724
 [research_minvielle_2005]: https://doi.org/10.1109/maes.2005.1499296
 [research_mioc_1991]: https://doi.org/10.1002/asna.2113120215
 [research_miriamfinckenor_meghancarrico]: https://ntrs.nasa.gov/citations/20230013806
 [research_mirkazemi_ziaeirad_2025]: https://doi.org/10.1080/01457632.2024.2445918
+[research_miroshnichenko_1996]: https://doi.org/10.1016/1350-4487(96)00038-8
 [research_mishkinis_corrochano_2015]: https://doi.org/10.1615/heatpipescietech.v6.i1-2.80
 [research_mishne_idan_1997]: https://doi.org/10.2514/2.4113
 [research_mishne_melamed_1990]: https://doi.org/10.2514/3.25403
+[research_mishra_chauhan_2016]: https://doi.org/10.1016/j.icarus.2015.10.017
 [research_miso_hashimoto_1999]: https://doi.org/10.1109/7.766929
 [research_mison_1973]: https://doi.org/10.21136/am.1973.103477
+[research_mission_design_1977]: https://doi.org/10.2514/3.57218
 [research_mita_kobayashi_2012]: https://doi.org/10.1149/ma2012-02/10/1034
 [research_mitchelljackc_keeleyjt_1985]: https://ntrs.nasa.gov/citations/19890004081
 [research_mitri_coustenis_2014]: https://doi.org/10.1016/j.pss.2014.07.009
 [research_mitrofanov_kozyrev_2010]: https://doi.org/10.1016/j.pss.2009.01.005
 [research_mitrofanov_kozyrev_2021]: https://doi.org/10.1007/s11214-021-00842-7
 [research_miyamoto_chujo_2026]: https://doi.org/10.1016/j.actaastro.2025.09.003
+[research_miyashita_sugihara_2025]: https://doi.org/10.1063/5.0250348
+[research_miyazawa_fukushima_1991]: https://doi.org/10.1016/0094-5765(91)90080-o
 [research_miyazawa_motoda_1999]: https://doi.org/10.2514/2.4480
 [research_miyoshi_yigit_2019]: https://doi.org/10.5194/angeo-37-955-2019
 [research_mizukamimasashi_nakazonobarry_2019]: https://ntrs.nasa.gov/citations/20210009393
@@ -12858,6 +16395,10 @@ summary of what classification achieves and what it costs.
 [research_mo_li_2024]: https://doi.org/10.1007/s11071-023-09233-9
 [research_moalem_fortune_1982]: https://doi.org/10.1016/0375-9474(82)90591-7
 [research_moch_1966]: https://doi.org/10.2514/3.28727
+[research_modeling_the_2003]: https://doi.org/10.1016/s0140-6701(03)82213-0
+[research_modest_1975]: https://doi.org/10.1016/0022-4073(75)90064-3
+[research_modest_stevens_1978]: https://doi.org/10.1016/0022-4073(78)90069-9
+[research_moe_1960]: https://doi.org/10.2514/8.4984
 [research_moe_1968]: https://doi.org/10.2514/3.4754
 [research_moe_debra_1976]: https://doi.org/10.1029/ja081i022p03753
 [research_moe_moe_1998]: https://doi.org/10.2514/2.3350
@@ -12865,9 +16406,10 @@ summary of what classification achieves and what it costs.
 [research_moe_wallace_1993_b]: https://doi.org/10.2514/3.56614
 [research_moftakhari_aghanajafi_2016]: https://doi.org/10.1080/17415977.2016.1178258
 [research_mohamed_rihan_2024]: https://doi.org/10.1016/j.dsp.2024.104546
-[research_mohammadi_taherinassaj_2025]: https://doi.org/10.1016/j.jelechem.2025.118930
 [research_mohammadnejad_khalafi_2016]: https://doi.org/10.1016/j.solener.2016.03.058
+[research_mohammed_salleh_2010]: https://doi.org/10.1134/s0020441210010288
 [research_mohan_tamma_1996]: https://doi.org/10.1080/10407799608915075
+[research_mohr_peters_2020]: https://doi.org/10.1111/jiec.13021
 [research_mokhtar_ibrahim_2025]: https://doi.org/10.1016/j.fraope.2025.100268
 [research_mokrane_benallegue_2022]: https://doi.org/10.3390/s22228865
 [research_molina_scherliess_2023]: https://doi.org/10.3389/fspas.2023.1214591
@@ -12875,26 +16417,37 @@ summary of what classification achieves and what it costs.
 [research_molitor_schwaiger_1969]: https://doi.org/10.2514/3.29809
 [research_monaghan_1959]: https://doi.org/10.1017/s0368393100071595
 [research_monakhova_2024]: https://doi.org/10.20948/prepr-2024-5
+[research_monganphilipt_1993]: https://ntrs.nasa.gov/citations/19940020152
 [research_montawj_rauschjr_1973]: https://ntrs.nasa.gov/citations/19740010395
 [research_monterominan_scala_2023]: https://doi.org/10.1016/j.asr.2022.09.043
 [research_montezmn_maddenmf_1982]: https://ntrs.nasa.gov/citations/19820055429
 [research_monti_destefanofumo_2006]: https://doi.org/10.2514/1.17947
 [research_montilla_siminski_2024]: https://doi.org/10.1016/j.asr.2024.09.035
+[research_moore_morin_2011]: https://doi.org/10.21236/ada610322
 [research_moore_vanallen_1977]: https://doi.org/10.1016/0094-5765(77)90109-6
+[research_mootejd_1970]: https://ntrs.nasa.gov/citations/19700028531
 [research_mor_taraborelli_2025]: https://doi.org/10.1016/j.oceram.2025.100766
+[research_moraes_2001]: https://doi.org/10.1016/s0094-5765(01)00028-5
 [research_morand_doladoperez_2014]: https://doi.org/10.1016/s2468-8967(16)30085-4
+[research_morani_cuciniello_2011]: https://doi.org/10.1177/2041302510393001
+[research_morduch_bergeron_1978]: https://doi.org/10.21236/ada064613
 [research_morey_gorman_1976]: https://doi.org/10.2514/3.57082
 [research_morgado_garbacz_2022]: https://doi.org/10.2514/1.j061071
 [research_mori_takahashi_2019]: https://doi.org/10.3390/app9051001
 [research_morino_shimoda_2001]: https://doi.org/10.1163/156855101753415364
 [research_morio_cazaurang_2009]: https://doi.org/10.1016/j.conengprac.2008.10.018
+[research_morio_cazaurang_2010]: https://doi.org/10.1049/iet-cta.2008.0463
+[research_morio_falcoz_2007]: https://doi.org/10.3182/20070625-5-fr-2916.00096
 [research_morozov_lopatin_2011]: https://doi.org/10.1016/j.compstruct.2010.12.007
 [research_morris_povolny_2023]: https://doi.org/10.1016/j.oceram.2023.100382
+[research_morrison_1975]: https://doi.org/10.2514/3.27863
 [research_morrow_scheeres_2001]: https://doi.org/10.2514/2.3682
+[research_morth_1970]: https://doi.org/10.1016/s1474-6670(17)68822-0
 [research_morth_speyer_1961]: https://doi.org/10.2514/8.5507
 [research_mossjamesn_1986]: https://ntrs.nasa.gov/citations/19870043864
 [research_mossjn_1986]: https://ntrs.nasa.gov/citations/19880029620
 [research_motilbrian_2018]: https://ntrs.nasa.gov/citations/20180006763
+[research_motiwalasamiraa_mathiasdonovanl_2014]: https://ntrs.nasa.gov/citations/20150000182
 [research_moudden_forbes_2008]: https://doi.org/10.1029/2008je003107
 [research_moudden_forbes_2010]: https://doi.org/10.1029/2009je003542
 [research_moudden_forbes_2015]: https://doi.org/10.1002/2014sw001121
@@ -12908,20 +16461,28 @@ summary of what classification achieves and what it costs.
 [research_mu_yu_2016]: https://doi.org/10.1016/j.ifacol.2016.09.079
 [research_mu_zhang_2014]: https://doi.org/10.1155/2014/541627
 [research_mude_2025]: https://doi.org/10.6026/973206300214173
+[research_mueller_harris_2007]: https://doi.org/10.1016/j.icarus.2007.01.002
+[research_muellera_1978]: https://ntrs.nasa.gov/citations/19790010897
+[research_muellerac_1982]: https://ntrs.nasa.gov/citations/19830012203
 [research_muhammadsiddique_2025]: https://doi.org/10.71085/sss.04.01.202
 [research_mukoyama_nara_2016]: https://doi.org/10.1149/ma2016-02/2/210
 [research_mukundan_maity_2022]: https://doi.org/10.1016/j.ifacol.2023.03.007
 [research_mullenix_povitsky_2016]: https://doi.org/10.2514/1.a33380
+[research_muller_heiss_1999]: https://doi.org/10.1088/0305-4470/33/1/306
 [research_muller_welfens_2023]: https://doi.org/10.55917/2377-6188.1073
 [research_mullick_srinivasa_2019]: https://doi.org/10.2139/ssrn.3511445
 [research_mungan_2018]: https://doi.org/10.1119/1.5051138
 [research_munick_1962]: https://doi.org/10.2514/8.6282
+[research_munipalli_subbarao_2005]: https://doi.org/10.21236/ada435356
 [research_munsami_2014]: https://doi.org/10.1016/j.spacepol.2014.05.003
+[research_muntz_dixon_1986]: https://doi.org/10.2514/3.25822
 [research_murad_1996]: https://doi.org/10.2514/3.55718
 [research_muraoka_galski_2006]: https://doi.org/10.2514/1.20066
+[research_murbachmarcuss_1993]: https://ntrs.nasa.gov/citations/19930039011
 [research_murciapineros_bevilacqua_2026]: https://doi.org/10.1016/j.actaastro.2025.08.034
 [research_murozono_thornton_1998]: https://doi.org/10.2514/2.3322
 [research_murphy_bradley_1975]: https://doi.org/10.2514/3.60459
+[research_musal_1962]: https://doi.org/10.21236/ad0294472
 [research_musial_markowski_2021]: https://doi.org/10.46300/9109.2021.15.31
 [research_muthanna_nath_1976]: https://doi.org/10.1016/0017-9310(76)90043-0
 [research_muthukrishnan_rameshkumar_2024]: https://doi.org/10.24425/ather.2024.150873
@@ -12930,8 +16491,10 @@ summary of what classification achieves and what it costs.
 [research_myersdavide_martincarlj_1999]: https://ntrs.nasa.gov/citations/20040086853
 [research_myersdavide_martincarlj_2000]: https://ntrs.nasa.gov/citations/20000062016
 [research_myersfranklink_weinbergdavidj_2003]: https://ntrs.nasa.gov/citations/20080007077
+[research_myraboln_dickensont_2005]: https://ntrs.nasa.gov/citations/20050215612
 [research_n_vanjari_2026]: https://doi.org/10.1016/j.measurement.2025.119304
 [research_na_tang_2014]: https://doi.org/10.1108/aeat-05-2012-0072
+[research_nabity_2005]: https://doi.org/10.21236/ada438599
 [research_naftel_powell_1985]: https://doi.org/10.2514/3.19985
 [research_nag_senthil_2023]: https://doi.org/10.61653/joast.v65i2.2013.721
 [research_nagai_tamamura_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.550
@@ -12940,6 +16503,7 @@ summary of what classification achieves and what it costs.
 [research_nagano_ohnishi_2001]: https://doi.org/10.2514/2.6614
 [research_nagano_ohnishi_2002]: https://doi.org/10.1299/jsmeptec.2002.0_265
 [research_nagano_ohnishi_2005]: https://doi.org/10.1002/htj.20060
+[research_nagaraja_basuvaraj_2020]: https://doi.org/10.1016/j.newast.2019.101349
 [research_nagori_dagar_2024]: https://doi.org/10.1016/j.pss.2023.105828
 [research_naidu_1991]: https://doi.org/10.1109/7.78310
 [research_naidu_1993]: https://doi.org/10.1080/00207729308949507
@@ -12958,12 +16522,14 @@ summary of what classification achieves and what it costs.
 [research_nambara_arai_2005]: https://doi.org/10.1299/jsmeibaraki.2005.153
 [research_nanbu_1973]: https://doi.org/10.1115/1.3422969
 [research_nasa_awards_1984]: https://doi.org/10.1016/0045-8732(84)90150-5
+[research_nasa_orbiter_2012]: https://doi.org/10.1063/pt.5.026031
 [research_nasa_s_juno_2016]: https://doi.org/10.1063/pt.5.029938
 [research_nashine_pandey_2026]: https://doi.org/10.1080/01457632.2026.2697386
 [research_natali_rallini_2013]: https://doi.org/10.1002/mame.201300267
 [research_nateghi_manzi_2023]: https://doi.org/10.1016/j.asr.2023.08.010
 [research_nath_1971]: https://doi.org/10.1007/bf01277587
 [research_nathalie_jan_2024]: https://doi.org/10.1016/j.jsse.2024.03.001
+[research_nationalgeophysicaldatacenter_1992]: https://doi.org/10.1016/0032-0633(92)90203-z
 [research_navalresearchlabwashingtondc_1958]: https://doi.org/10.21236/ada459673
 [research_navalresearchlabwashingtondc_1960]: https://doi.org/10.21236/ad0338443
 [research_navalresearchlabwashingtondc_1962]: https://doi.org/10.21236/ad0328442
@@ -12973,22 +16539,31 @@ summary of what classification achieves and what it costs.
 [research_nazarenko_kravchenko_1991]: https://doi.org/10.1016/0273-1177(91)90246-g
 [research_nde_nondestructive_1994]: https://doi.org/10.1016/0963-8695(94)90700-5
 [research_nebylov_nebylov_2011]: https://doi.org/10.3182/20110828-6-it-1002.02582
+[research_neel_griffin_1969]: https://doi.org/10.1007/bf00150948
 [research_neergaardparkerlinda_minowjosephi_2014]: https://ntrs.nasa.gov/citations/20140011621
 [research_neff_2025]: https://doi.org/10.14339/sto-set-sci-297-1
 [research_negi_kiran_2019]: https://doi.org/10.1007/s40295-019-00199-8
 [research_negleygeraldh_rhoadssandral_1989]: https://ntrs.nasa.gov/citations/19890015352
+[research_nelson_1963]: https://doi.org/10.1002/j.1538-7305.1963.tb00954.x
+[research_nelson_goldstein_1974]: https://doi.org/10.1364/ao.13.002109
 [research_nelson_horn_1995]: https://doi.org/10.1016/0094-5765(94)00204-y
 [research_nenovska_radulov_2026]: https://doi.org/10.2478/kbo-2026-0026
+[research_nesterishin_kozlov_2018]: https://doi.org/10.21293/1818-0442-2018-21-3-98-102
 [research_nesterov_dmitriev_2015]: https://doi.org/10.1615/heatpipescietech.2015012224
+[research_neta_1998]: https://doi.org/10.21236/ada358706
 [research_nettlesat_hodgeaj_2011]: https://ntrs.nasa.gov/citations/20110008313
+[research_neumann_smith_2003]: https://doi.org/10.1029/2002je001849
+[research_neumeyer_1968]: https://doi.org/10.2514/3.29219
 [research_neupert_kowal_2023]: https://doi.org/10.3390/batteries9070364
 [research_new_mars_2006]: https://doi.org/10.1016/s0045-8732(06)80031-8
 [research_new_vacuum_high_1987]: https://doi.org/10.1016/0042-207x(87)90164-3
 [research_newberry_1997]: https://doi.org/10.21236/ada398606
+[research_newton_1963]: https://doi.org/10.21236/ad0631650
 [research_newton_horowitz_1964]: https://doi.org/10.1029/jz069i021p04690
 [research_newton_horowitz_1965]: https://doi.org/10.1016/0032-0633(65)90042-5
 [research_nguyen_conklin_2015]: https://doi.org/10.2514/1.a33190
 [research_nguyen_tanaka_2018]: https://doi.org/10.2322/tjsass.61.219
+[research_nguyen_urquhart_2026]: https://doi.org/10.1108/jdal-06-2025-0015
 [research_ngwanyi_bensondavid_2017]: https://ntrs.nasa.gov/citations/20170007968
 [research_ni_lv_2025]: https://doi.org/10.1016/j.sspwt.2025.11.003
 [research_ni_pan_2023]: https://doi.org/10.1016/j.actaastro.2023.08.029
@@ -12998,8 +16573,13 @@ summary of what classification achieves and what it costs.
 [research_nicholss_gibbonsd_1992]: https://ntrs.nasa.gov/citations/19930003992
 [research_nickel_cadmium_cells_1964]: https://doi.org/10.1016/0026-2714(64)90185-4
 [research_nickel_hydrogen_bipolar_1986]: https://doi.org/10.1016/0360-3199(86)90133-3
+[research_nicolais_drioli_1979]: https://doi.org/10.21236/ada086200
+[research_nie_liu_2013]: https://doi.org/10.4028/www.scientific.net/amm.291-294.1636
 [research_nielsen_christensen_2026]: https://doi.org/10.1140/epjqt/s40507-026-00533-8
+[research_niemeier_1966]: https://doi.org/10.2514/3.28411
 [research_nietoperoy_sabatini_2021]: https://doi.org/10.3390/aerospace8120361
+[research_nigam_1964]: https://doi.org/10.1029/jz069i007p01361
+[research_niimi_sugihara_1982]: https://doi.org/10.3233/bir-1982-191-215
 [research_nikolaev_teryaev_1976]: https://doi.org/10.1016/s1474-6670(17)67129-5
 [research_nikolayev_komatsu_2004]: https://doi.org/10.2514/1.9263
 [research_ning_wu_2024]: https://doi.org/10.1177/01423312241273810
@@ -13008,6 +16588,7 @@ summary of what classification achieves and what it costs.
 [research_nisar_ariharan_2017]: https://doi.org/10.1016/j.ceramint.2017.07.053
 [research_nisar_hassan_2022]: https://doi.org/10.1016/j.ceramint.2021.12.199
 [research_nisar_zhang_2023]: https://doi.org/10.1016/j.ceramint.2022.09.050
+[research_nishida_sugimoto_1973]: https://doi.org/10.1063/1.1694318
 [research_nishikawara_2017]: https://doi.org/10.2139/ssrn.4136178
 [research_nishikawara_nagano_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.320
 [research_nishikawara_nagano_2017]: https://doi.org/10.2139/ssrn.4136173
@@ -13023,16 +16604,21 @@ summary of what classification achieves and what it costs.
 [research_nomura_kanazaki_2019]: https://doi.org/10.1299/jsmedsd.2019.29.1204
 [research_nonemanstevenr_smithca_2002]: https://ntrs.nasa.gov/citations/20020091874
 [research_noor_tanner_1993]: https://doi.org/10.2346/1.2139531
+[research_norman_1963]: https://doi.org/10.21236/ad0297419
 [research_norman_meier_1963]: https://doi.org/10.2514/3.1879
+[research_normani_rochellewc_1982]: https://ntrs.nasa.gov/citations/19820048331
 [research_norris_1974]: https://doi.org/10.2514/3.62178
+[research_norris_2011]: https://doi.org/10.1115/1.4003875
 [research_norton_white_1977]: https://doi.org/10.2514/3.27960
 [research_norwood_1985]: https://doi.org/10.2514/3.25066
+[research_nose_terawaki_2002]: https://doi.org/10.1248/bpb.25.64
 [research_nosratollahi_mortazavi_2010]: https://doi.org/10.1108/00022661011075928
 [research_novikov_chernik_2006]: https://doi.org/10.2514/1.15661
 [research_nowak_bruzda_2021]: https://doi.org/10.1016/j.matlet.2021.129447
 [research_nuhija_2021]: https://doi.org/10.47305/jlia2163090n
 [research_numerical_optimization_2016]: https://doi.org/10.21275/v5i6.nov164465
 [research_nurunnizar_fariz_2021]: https://doi.org/10.4028/www.scientific.net/msf.1028.133
+[research_nutt_dommerman_1979]: https://doi.org/10.21236/ada083142
 [research_nuttall_stevens_1965]: https://doi.org/10.21236/ad0468845
 [research_nwankwo_chakrabarti_2014]: https://doi.org/10.2322/tastj.12.47
 [research_nykiel_wyatt_2026]: https://doi.org/10.1007/s43939-026-00787-0
@@ -13040,7 +16626,11 @@ summary of what classification achieves and what it costs.
 [research_obermann_williamson_1998]: https://doi.org/10.1016/s0265-9646(97)00041-6
 [research_obermann_williamson_2003]: https://doi.org/10.1016/s0094-5765(02)00200-x
 [research_obrien_lewis_2002]: https://doi.org/10.2514/2.3028
+[research_ocampo_rosborough_1999]: https://doi.org/10.2514/2.4453
+[research_ocampo_rosborough_1999_b]: https://doi.org/10.2514/2.4467
+[research_oconnell_1968]: https://doi.org/10.1086/180167
 [research_odagiri_nagano_2019]: https://doi.org/10.1016/j.applthermaleng.2019.02.022
+[research_odonnell_2004]: https://doi.org/10.1109/jproc.2004.837611
 [research_oepomo_1985]: https://doi.org/10.1109/mper.1985.5528628
 [research_ogasawara_ishikawa_2003]: https://doi.org/10.1111/j.1151-2916.2003.tb03383.x
 [research_oglesbytl_1975]: https://ntrs.nasa.gov/citations/19750056555
@@ -13048,28 +16638,41 @@ summary of what classification achieves and what it costs.
 [research_oguchi_1958]: https://doi.org/10.2514/8.7891
 [research_ogundele_2021]: https://doi.org/10.1016/j.ast.2021.106686
 [research_ohadi_fujita_2017]: https://doi.org/10.11591/ijeecs.v5.i3.pp508-514
+[research_ohlendorf_flotow_1980]: https://doi.org/10.1002/chin.198052021
+[research_ohmichi_suzuki_2014]: https://doi.org/10.2514/1.j052647
+[research_ohno_tanabe_1962]: https://doi.org/10.21236/ad0409586
 [research_ohtake_1998]: https://doi.org/10.1016/s0045-7825(97)00153-9
+[research_ohtake_uno_2018]: https://doi.org/10.1002/ese3.233
 [research_ohya_kato_1985]: https://doi.org/10.2322/jjsass1969.33.540
 [research_oikonomou_2012]: https://doi.org/10.1016/j.spacepol.2012.02.008
 [research_oikonomou_2017]: https://doi.org/10.1016/j.spacepol.2017.02.002
 [research_okasha_newman_2014]: https://doi.org/10.5028/jatm.v6i3.330
+[research_okhotsimsky_golubiev_1978]: https://doi.org/10.1016/0094-5765(78)90067-x
 [research_okita_2026]: https://doi.org/10.1016/j.jpowsour.2026.240306
 [research_okumura_masui_2009]: https://doi.org/10.2514/1.41696
 [research_okumura_toyoda_2009]: https://doi.org/10.2514/1.41673
 [research_olbertphil_1991]: https://ntrs.nasa.gov/citations/19920017891
+[research_oldsjohnr_marcusleland_2002]: https://ntrs.nasa.gov/citations/20020080614
 [research_oleary_1982]: https://doi.org/10.1016/0019-1035(82)90161-0
 [research_oliveira_zesta_2019]: https://doi.org/10.1029/2019sw002287
 [research_olivier_1995]: https://doi.org/10.1007/bf01419002
+[research_olsen_1965]: https://doi.org/10.21236/ad0626928
 [research_oltrogge_alfano_2019]: https://doi.org/10.1016/j.jsse.2019.05.004
 [research_oluwabiyi_oni_2026]: https://doi.org/10.1016/j.fub.2025.100138
 [research_olynick_1998]: https://doi.org/10.2514/2.3338
 [research_omar_idres_2011]: https://doi.org/10.5589/q11-002
 [research_omarsannyr_bevilacquariccardo_2017]: https://ntrs.nasa.gov/citations/20170000348
 [research_omran_bazzocchi_2024]: https://doi.org/10.1016/j.actaastro.2024.03.055
+[research_ono_oya_2014]: https://doi.org/10.1186/bf03352106
 [research_orbit_raising_1998]: https://doi.org/10.2514/2.3361
 [research_orbit_reviewers_2007]: https://doi.org/10.1080/01676830701208895
 [research_orbital_atk_2016]: https://doi.org/10.1016/j.repl.2016.02.019
+[research_orbiter_to_2006]: https://doi.org/10.1063/pt.5.020575
 [research_orenja_hixoncw_1982]: https://ntrs.nasa.gov/citations/19840012554
+[research_ormistont_tanzillira_1973]: https://ntrs.nasa.gov/citations/19740002431
+[research_ormistontj_1974]: https://ntrs.nasa.gov/citations/19740021893
+[research_orsini_milillo_2000]: https://doi.org/10.1016/s1364-6826(00)00032-8
+[research_ortloff_1968]: https://doi.org/10.21236/ad0830727
 [research_orton_mark_1984]: https://doi.org/10.2514/3.25699
 [research_ortona_badini_2013]: https://doi.org/10.1557/jmr.2013.70
 [research_osara_bryant_2019]: https://doi.org/10.3390/inventions4020023
@@ -13084,11 +16687,14 @@ summary of what classification achieves and what it costs.
 [research_otzingerburtonm_1991]: https://ntrs.nasa.gov/citations/19920017912
 [research_ou_ding_2011]: https://doi.org/10.1179/003962611x13055561708669
 [research_ouenzerfi_barreteau_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.310
+[research_oukil_boudjemai_2020]: https://doi.org/10.5028/jatm.v12.1165
 [research_ovchinnikov_mashtakov_2024]: https://doi.org/10.3390/math12020189
 [research_ovchinnikov_mashtakov_2026]: https://doi.org/10.1134/s2070048225700747
 [research_owen_1997]: https://doi.org/10.21236/ada442845
 [research_owenjw_steinds_1981]: https://ntrs.nasa.gov/citations/19820027383
+[research_oyama_abe_2014]: https://doi.org/10.1186/bf03351604
 [research_oz_2021]: https://doi.org/10.35377/saucis.04.01.846062
+[research_oz_bulut_2025]: https://doi.org/10.2339/politeknik.1377988
 [research_ozkurt_camci_2016]: https://doi.org/10.1016/j.apenergy.2016.05.037
 [research_ozturk_kilic_2018]: https://doi.org/10.1016/j.ijmachtools.2018.03.001
 [research_pabari_haider_2018]: https://doi.org/10.1016/j.pss.2018.06.008
@@ -13096,9 +16702,13 @@ summary of what classification achieves and what it costs.
 [research_pachghare_mahalle_2013_b]: https://doi.org/10.1016/j.proeng.2013.01.088
 [research_pachghare_mahalle_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.500
 [research_pachuradaniela_vavrinamatthewa_2014]: https://ntrs.nasa.gov/citations/20140017814
+[research_paciorri_assonitis_2026]: https://doi.org/10.2514/1.a36600
 [research_paddonrow_2004]: https://doi.org/10.1002/chin.200416271
 [research_page_2010]: https://doi.org/10.1016/j.pss.2010.04.012
-[research_palanisamy_parekh_2020]: https://doi.org/10.1149/ma2020-022278mtgabs
+[research_paine_1967]: https://doi.org/10.2514/3.28937
+[research_palanisamy_parekh_2020]: https://doi.org/10.1002/adfm.202003668
+[research_palanisamy_parekh_2020_b]: https://doi.org/10.1149/ma2020-022278mtgabs
+[research_pallixjoan_1994]: https://ntrs.nasa.gov/citations/19940029557
 [research_palmer_2024]: https://doi.org/10.1007/s40295-024-00441-y
 [research_palmer_2024_b]: https://doi.org/10.1007/s40295-024-00443-w
 [research_palmer_2025]: https://doi.org/10.1016/j.eng.2025.01.009
@@ -13106,6 +16716,7 @@ summary of what classification achieves and what it costs.
 [research_palmer_kontinos_1999]: https://doi.org/10.2514/2.3522
 [research_palumbo_morani_2017]: https://doi.org/10.2514/1.a33465
 [research_paluszek_1983]: https://doi.org/10.1016/0094-5765(83)90039-5
+[research_pamadi_1995]: https://doi.org/10.2514/3.21563
 [research_pamadibandun_brauckmanngregoryj_1999]: https://ntrs.nasa.gov/citations/19990047600
 [research_pan_wei_2024]: https://doi.org/10.1016/j.ast.2024.109429
 [research_pan_xiong_2025]: https://doi.org/10.1029/2024sw004259
@@ -13126,21 +16737,26 @@ summary of what classification achieves and what it costs.
 [research_pardini_anselmo_2020]: https://doi.org/10.1016/j.actaastro.2020.01.016
 [research_pardini_moe_2012]: https://doi.org/10.1016/j.pss.2012.03.004
 [research_pardini_tobiska_2006]: https://doi.org/10.1016/j.asr.2004.10.009
+[research_parent_2021]: https://doi.org/10.1063/5.0046197
+[research_parent_2022]: https://doi.org/10.1063/5.0090887
 [research_parent_rodriguezfuentes_2025]: https://doi.org/10.2514/1.j064125
 [research_parisi_2023]: https://doi.org/10.3847/psj/ace7ce
 [research_parisi_kim_2025]: https://doi.org/10.3847/psj/ae271e
+[research_park_1983]: https://doi.org/10.2514/3.8293
+[research_park_1983_b]: https://doi.org/10.2514/3.8319
 [research_park_2000]: https://doi.org/10.2514/2.4496
 [research_park_2013]: https://doi.org/10.5139/ijass.2013.14.1.1
-[research_park_appiah_2018]: https://doi.org/10.1149/ma2018-02/8/498
 [research_park_byun_2018]: https://doi.org/10.1149/ma2018-01/1/91
-[research_park_kim_2019]: https://doi.org/10.1016/j.electacta.2019.04.189
 [research_park_lee_2025]: https://doi.org/10.3390/jsan14040073
 [research_park_park_2019]: https://doi.org/10.5139/jksas.2019.47.4.283
 [research_park_yun_2025]: https://doi.org/10.3390/app15042182
 [research_parker_drolen_2004]: https://doi.org/10.2514/1.3641
 [research_parker_drolen_2005]: https://doi.org/10.2514/1.4530
 [research_parker_goldizen_2005]: https://doi.org/10.21236/ada463917
+[research_parks_1982]: https://doi.org/10.21236/ada157921
+[research_parks_1983]: https://doi.org/10.21236/ada153803
 [research_parks_katz_1979]: https://doi.org/10.2514/3.57653
+[research_parkyn_1958]: https://doi.org/10.1038/182787b0
 [research_parkyn_1960]: https://doi.org/10.1029/jz065i001p00009
 [research_parrishkeith_1999]: https://ntrs.nasa.gov/citations/19990070923
 [research_parsons_1962]: https://doi.org/10.2514/8.6411
@@ -13150,15 +16766,17 @@ summary of what classification achieves and what it costs.
 [research_pasachoff_pasachoff_2014]: https://doi.org/10.1038/506432a
 [research_pascu_balc_2022]: https://doi.org/10.1088/1757-899x/1268/1/012014
 [research_pastukhov_maydanik_2018]: https://doi.org/10.1016/j.applthermaleng.2018.08.051
+[research_pasupuleti_2025]: https://doi.org/10.62311/nesx/rpj7
 [research_patecornell_fischbeck_1993]: https://doi.org/10.1016/0951-8320(93)90063-5
 [research_patel_gaurav_2017]: https://doi.org/10.1016/j.applthermaleng.2016.09.017
 [research_patel_kaurase_2017]: https://doi.org/10.9734/jgeesi/2017/36947
 [research_patel_kumar_2022]: https://doi.org/10.2139/ssrn.4137163
 [research_patel_kumar_2023]: https://doi.org/10.1016/j.applthermaleng.2022.119541
 [research_patel_liang_2015]: https://doi.org/10.1149/ma2015-01/42/2216
-[research_patel_liang_2015_b]: https://doi.org/10.1149/ma2015-01/2/449
 [research_patha_woodcock_1974]: https://doi.org/10.2514/3.62089
-[research_patnaik_peng_2021]: https://doi.org/10.1149/ma2021-012167mtgabs
+[research_pattee_monroe_1966]: https://doi.org/10.21236/ad0646149
+[research_patterson_1966]: https://doi.org/10.1016/0032-0633(66)90111-5
+[research_patterson_1967]: https://doi.org/10.1016/0032-0633(67)90105-5
 [research_pattersonre_1984]: https://ntrs.nasa.gov/citations/19840021263
 [research_pattersonre_crabtreewl_1982]: https://ntrs.nasa.gov/citations/19830046032
 [research_patton_1960]: https://doi.org/10.1109/iret-mil.1960.5008246
@@ -13167,13 +16785,17 @@ summary of what classification achieves and what it costs.
 [research_pavlov_1967]: https://doi.org/10.1007/bf01015151
 [research_pavlov_1997]: https://doi.org/10.1016/s0378-7753(97)81535-2
 [research_paynterc_cuchanskim_1995]: https://ntrs.nasa.gov/citations/19960022492
+[research_pearce_1970]: https://doi.org/10.2514/3.30156
 [research_pearlmanmr_applebygm_2010]: https://ntrs.nasa.gov/citations/20100031689
+[research_pearson_levin_2006]: https://doi.org/10.21236/ada444538
+[research_peck_2007]: https://doi.org/10.21236/ada475526
 [research_pecker_1987]: https://doi.org/10.2307/1578197
 [research_pederson_keller_2026]: https://doi.org/10.2514/1.a36693
 [research_peel_2008]: https://doi.org/10.21236/ada494381
 [research_pei_fan_2021]: https://doi.org/10.1109/access.2021.3056517
 [research_peigin_1988]: https://doi.org/10.1007/bf00857908
 [research_peldszus_2018]: https://doi.org/10.1016/j.jsse.2018.07.001
+[research_peltier_humble_2016]: https://doi.org/10.1063/1.4944657
 [research_pelton_2019]: https://doi.org/10.1016/j.jsse.2019.04.005
 [research_pelton_kezirian_2019]: https://doi.org/10.1016/j.jsse.2019.06.003
 [research_pendergast_mollendorf_2008]: https://doi.org/10.21236/ada482231
@@ -13187,6 +16809,7 @@ summary of what classification achieves and what it costs.
 [research_peng_wu_2009]: https://doi.org/10.1007/s11434-008-0513-0
 [research_pengra_genz_1978]: https://doi.org/10.1016/0375-9474(78)90283-x
 [research_pennings_vaneeuwen_1990]: https://doi.org/10.2307/44153692
+[research_penzo_johnston_1992]: https://doi.org/10.2514/3.25492
 [research_peoples_2013]: https://doi.org/10.1016/j.spacepol.2013.03.001
 [research_percy_landrum_2014]: https://doi.org/10.1016/j.spacepol.2014.02.003
 [research_perez_wohlberg_2014]: https://doi.org/10.1016/j.actaastro.2014.01.007
@@ -13203,7 +16826,11 @@ summary of what classification achieves and what it costs.
 [research_petleydh_smithdm_1983_b]: https://ntrs.nasa.gov/citations/19840002088
 [research_petrova_hoekzema_2012]: https://doi.org/10.1016/j.pss.2011.09.008
 [research_petukhov_2009]: https://doi.org/10.1134/s0010952509030071
+[research_pezzella_2013]: https://doi.org/10.1016/j.ast.2012.01.007
+[research_pfitzer_1989]: https://doi.org/10.21236/ada209542
+[research_philconewportbeachcaaeronutronicdiv_1962]: https://doi.org/10.21236/ad0292245
 [research_phipps_warrene_1993]: https://doi.org/10.21236/ada531142
+[research_physics_of_1973]: https://doi.org/10.1016/0032-0633(73)90028-7
 [research_piacquadio_pridohl_2023]: https://doi.org/10.3390/aerospace10030319
 [research_piatrou_rigaut_2017]: https://doi.org/10.1016/j.actaastro.2017.07.028
 [research_pichon_barreteau_2009]: https://doi.org/10.1016/j.actaastro.2009.01.035
@@ -13213,17 +16840,22 @@ summary of what classification achieves and what it costs.
 [research_pilcher_2003]: https://doi.org/10.1038/news030512-1
 [research_ping_miao_2023]: https://doi.org/10.3390/electronics12122647
 [research_pinto_dosreis_2025]: https://doi.org/10.1016/j.procir.2024.12.076
+[research_pirraglia_gross_1970]: https://doi.org/10.1016/0032-0633(70)90010-3
 [research_piszczormichaelfjr_2003]: https://ntrs.nasa.gov/citations/20050205749
 [research_pittman_dillon_1977]: https://doi.org/10.2514/3.44633
 [research_pitts_murbach_1986]: https://doi.org/10.2514/3.25826
 [research_pittswc_kourtidesda_1989]: https://ntrs.nasa.gov/citations/19890055911
 [research_platus_1967]: https://doi.org/10.2514/3.4198
 [research_platus_1967_b]: https://doi.org/10.21236/ad0810587
+[research_platus_1976]: https://doi.org/10.2514/3.57088
 [research_platus_1979]: https://doi.org/10.2514/3.55875
+[research_platus_1980]: https://doi.org/10.21236/ada085457
+[research_platus_1980_b]: https://doi.org/10.21236/ada093741
 [research_platus_1981]: https://doi.org/10.2514/3.56120
 [research_platus_1982]: https://doi.org/10.2514/3.56131
 [research_platus_1985]: https://doi.org/10.2514/3.19974
 [research_plender_1964]: https://doi.org/10.21236/ad0603714
+[research_ploen_seraji_2009]: https://doi.org/10.1109/taes.2009.4805259
 [research_plumb_1971]: https://doi.org/10.1021/ed048p119
 [research_pogorelov_2008]: https://doi.org/10.1134/s0010952508030076
 [research_pogorelov_2009]: https://doi.org/10.1134/s0010952509010067
@@ -13231,16 +16863,23 @@ summary of what classification achieves and what it costs.
 [research_polkowska_2020]: https://doi.org/10.1016/j.spacepol.2019.101347
 [research_polkowska_2021]: https://doi.org/10.15804/ppsy202124
 [research_pollard_2000]: https://doi.org/10.21236/ada384536
+[research_pollin_1964]: https://doi.org/10.1063/1.1711397
+[research_pollpeter_2016]: https://doi.org/10.1080/01402390.2016.1219946
+[research_polo_martinchivelet_2021]: https://doi.org/10.1016/j.solener.2021.07.011
 [research_polyansky_zhukov_2018]: https://doi.org/10.1016/j.pss.2017.09.013
+[research_polzinka_bests_2008]: https://ntrs.nasa.gov/citations/20080036840
 [research_poncy_fontdecababaig_2011]: https://doi.org/10.1016/j.actaastro.2010.04.011
 [research_pontani_teofilatto_2012]: https://doi.org/10.1016/j.actaastro.2012.04.020
 [research_poole_muller_2014]: https://doi.org/10.1016/j.pss.2014.05.012
 [research_popien_husmann_2023]: https://doi.org/10.1016/j.procir.2023.02.023
 [research_pople_1974]: https://doi.org/10.1002/chin.197437079
+[research_popov_degtyarev_1999]: https://doi.org/10.1016/s1350-4487(99)00215-2
 [research_porcelli_vogel_1980]: https://doi.org/10.2514/3.57733
 [research_poritzky_1971]: https://doi.org/10.2514/3.59134
 [research_porrashermoso_piqueras_2024]: https://doi.org/10.1016/j.measurement.2023.113962
+[research_portanova_aaron_1992]: https://doi.org/10.1016/0094-5765(92)90015-b
 [research_porter_cambel_1966]: https://doi.org/10.2514/3.3584
+[research_posillico_lederman_1989]: https://doi.org/10.2514/3.10096
 [research_potter_duong_2006]: https://doi.org/10.1016/j.jpowsour.2005.08.053
 [research_poustini_sadati_2022]: https://doi.org/10.30699/jsst.2021.1311
 [research_povolny_seidel_2022]: https://doi.org/10.1016/j.ceramint.2022.01.006
@@ -13250,31 +16889,39 @@ summary of what classification achieves and what it costs.
 [research_powellrichardw_nafteljc_1991]: https://ntrs.nasa.gov/citations/19910058010
 [research_prabhu_tannehill_1986]: https://doi.org/10.2514/3.25108
 [research_pradeep_ramanarasimha_2019]: https://doi.org/10.1115/1.4041953
+[research_prado_broucke_1994]: https://doi.org/10.2514/3.21312
+[research_prag_1983]: https://doi.org/10.21236/ada128005
 [research_prasad_2022]: https://doi.org/10.13111/2066-8201.2022.14.1.10
+[research_prasad_2022_b]: https://doi.org/10.29198/scieu/2201151
 [research_prata_2024]: https://doi.org/10.1117/1.jrs.18.014511
 [research_prazak_2021]: https://doi.org/10.1016/j.actaastro.2020.12.051
 [research_prazanova_fridrich_2025]: https://doi.org/10.1016/j.cesys.2025.100263
 [research_predictability_of_2018]: https://doi.org/10.1177/0974909820180105
+[research_prenger_patterson_1976]: https://doi.org/10.2514/3.27900
 [research_price_martin_2025]: https://doi.org/10.1016/j.expthermflusci.2025.111487
 [research_priester_martin_1960]: https://doi.org/10.1038/188202a0
 [research_prince_dec_2009]: https://doi.org/10.2514/1.32793
 [research_princejilll_striepescotta_2007]: https://ntrs.nasa.gov/citations/20070010460
 [research_pritchard_1999]: https://doi.org/10.1002/(sici)1099-1247(199907/08)17:4<303::aid-sat623>3.0.co;2-0
+[research_pritchard_holloway_1967]: https://doi.org/10.2514/3.29102
 [research_pritchardkelly_costa_2022]: https://doi.org/10.18080/jtde.v10n1.552
 [research_probst_forstner_2018]: https://doi.org/10.1016/j.asr.2017.07.041
 [research_probstein_1961]: https://doi.org/10.2514/8.5423
 [research_promising_navigation_landing_2019]: https://doi.org/10.52467/75443_2019_1-2_61
 [research_property_changes_1993]: https://ntrs.nasa.gov/citations/19940007012
+[research_proposed_private_2011]: https://doi.org/10.1063/pt.5.025042
 [research_prosserwh_browntl_2002]: https://ntrs.nasa.gov/citations/20030014333
 [research_proudfoot_nolthenius_2025]: https://doi.org/10.3847/2041-8213/ae1585
 [research_pruett_wolf_1983]: https://doi.org/10.2514/3.28357
 [research_prussing_1969]: https://doi.org/10.2514/3.5297
 [research_psiaki_2002]: https://doi.org/10.2514/2.4858
+[research_puigsuari_1997]: https://doi.org/10.2514/2.4149
 [research_putnam_grant_2014]: https://doi.org/10.2514/1.62214
 [research_putz_wurster_2020]: https://doi.org/10.1016/j.actaastro.2020.05.032
 [research_qaid_celik_2025]: https://doi.org/10.1049/icp.2024.4506
 [research_qi_jia_2012]: https://doi.org/10.1016/j.asr.2011.09.030
 [research_qi_zhou_2025]: https://doi.org/10.3390/aerospace12070575
+[research_qian_chen_2026]: https://doi.org/10.1109/tnnls.2025.3611001
 [research_qiao_chen_2018]: https://doi.org/10.1007/s10291-018-0705-2
 [research_qiao_liu_2022]: https://doi.org/10.1016/j.csite.2022.102476
 [research_qiao_liu_2022_b]: https://doi.org/10.2139/ssrn.4313765
@@ -13292,29 +16939,41 @@ summary of what classification achieves and what it costs.
 [research_qiu_yang_2026]: https://doi.org/10.1016/j.energy.2026.139937
 [research_qu_he_2015]: https://doi.org/10.1016/j.ceramint.2014.12.079
 [research_qu_liu_2019]: https://doi.org/10.1016/j.ceramint.2019.06.076
+[research_qu_sun_2018]: https://doi.org/10.1016/j.actaastro.2018.03.046
 [research_qu_wang_2018]: https://doi.org/10.1016/j.applthermaleng.2018.07.070
 [research_qualls_cicci_2007]: https://doi.org/10.1016/j.amc.2006.09.136
 [research_quarta_mengali_2023]: https://doi.org/10.3390/universe9110459
 [research_quaternion_based_finite_time_2019]: https://doi.org/10.5829/ije.2019.32.03c.11
+[research_quintrall_1998]: https://doi.org/10.21236/ada357705
 [research_radhakrishnan_hari_2023]: https://doi.org/10.1007/s40435-023-01126-4
+[research_radiation_damage_1961]: https://doi.org/10.1016/0038-092x(61)90034-2
+[research_radiator_developed_1989]: https://doi.org/10.1108/eb036859
 [research_radley_eubanks_2020]: https://doi.org/10.1016/j.jsse.2020.08.005
+[research_radoski_1998]: https://doi.org/10.21236/ada383274
 [research_rafanocarna_bevilacqua_2019]: https://doi.org/10.1016/j.actaastro.2018.05.049
 [research_rahimi_svolos_2026]: https://doi.org/10.1016/j.engfracmech.2025.111794
 [research_rahman_alharbi_2024]: https://doi.org/10.3390/batteries10070220
 [research_raitt_1987]: https://doi.org/10.1016/0273-1177(87)90371-1
+[research_raitt_1994]: https://doi.org/10.21236/ada281021
 [research_raja_asthana_2021]: https://doi.org/10.13111/2066-8201.2021.13.1.17
 [research_rajagopalan_stroikos_2024]: https://doi.org/10.1016/j.spacepol.2024.101633
 [research_rajapaksa_wijerathna_2017]: https://doi.org/10.1080/14777622.2017.1288513
 [research_rajoria_agrawal_2012]: https://doi.org/10.1016/j.solener.2012.02.014
 [research_rakich_venkatapathy_1984]: https://doi.org/10.2514/3.57695
 [research_rakopoulos_mavropoulos_1998]: https://doi.org/10.1016/s1359-4311(97)00055-0
+[research_rakopoulos_mavropoulos_1999]: https://doi.org/10.1504/ijvd.1999.001865
 [research_ralph_1973]: https://doi.org/10.1016/0038-092x(73)90095-9
 [research_ramasamy_sangam_2014]: https://doi.org/10.4028/www.scientific.net/amm.629.304
+[research_rame_2007]: https://doi.org/10.1063/1.2745728
 [research_ramesh_2002]: https://doi.org/10.1017/s0001924000096056
+[research_ramnath_sinha_1975]: https://doi.org/10.2514/3.49701
 [research_ramon_pomares_2022]: https://doi.org/10.1016/j.actaastro.2021.12.045
+[research_randall_1969]: https://doi.org/10.21236/ad0697781
+[research_randall_1970]: https://doi.org/10.2514/3.29945
 [research_randeepsingh_mochizuki_2012]: https://doi.org/10.1299/jsmemecj.2012._g060041-1
 [research_ranger_spacecraft_1961]: https://doi.org/10.1016/0038-092x(61)90039-1
 [research_ranking_benkod_1981]: https://ntrs.nasa.gov/citations/19820027395
+[research_rao_1987]: https://doi.org/10.1038/325383b0
 [research_rao_sinha_1985]: https://doi.org/10.1016/0273-1177(85)90399-0
 [research_rao_tang_2002]: https://doi.org/10.1002/oca.711
 [research_raogopalakrishnam_1999]: https://ntrs.nasa.gov/citations/19990052599
@@ -13324,26 +16983,44 @@ summary of what classification achieves and what it costs.
 [research_raskydanj_milosfranks_2000]: https://ntrs.nasa.gov/citations/20000121328
 [research_rataczak_amato_2025]: https://doi.org/10.2514/1.g008498
 [research_rataczak_boyd_2026]: https://doi.org/10.2514/1.t7134
+[research_ratcliffe_1967]: https://doi.org/10.1016/0021-9169(67)90058-x
 [research_rausch_roberts_1975]: https://doi.org/10.2514/3.57032
 [research_rauschjr_1975]: https://ntrs.nasa.gov/citations/19760003120
 [research_rauschjr_robergeam_1973]: https://ntrs.nasa.gov/citations/19740004417
 [research_raveau_hervieu_2006]: https://doi.org/10.1002/chin.200622226
 [research_rayman_williams_2002]: https://doi.org/10.2514/2.3848
 [research_raymond_2003]: https://doi.org/10.21236/ada420477
+[research_raymond_franke_1994]: https://doi.org/10.1016/0021-9169(94)90104-x
 [research_rea_guida_2025]: https://doi.org/10.1007/s11665-025-11706-4
 [research_rea_guida_2026]: https://doi.org/10.1016/j.ast.2025.111611
 [research_reajeremyr_putnamzacharyr_2007]: https://ntrs.nasa.gov/citations/20070023643
+[research_reba_1964]: https://doi.org/10.21236/ad0444094
+[research_reba_christian_1963]: https://doi.org/10.21236/ad0297092
+[research_reconnaissance_orbiter_2005]: https://doi.org/10.1002/piuz.200590078
+[research_reda_wilder_2012]: https://doi.org/10.2514/1.j051616
+[research_redding_1984]: https://doi.org/10.2514/3.8559
 [research_redding_adams_1987]: https://doi.org/10.2514/3.20173
 [research_redding_jr_1984]: https://doi.org/10.21236/adb143755
 [research_reddl_1985]: https://ntrs.nasa.gov/citations/19860007948
 [research_reddy_1995]: https://doi.org/10.1007/bf00354389
 [research_reddy_sinha_2009]: https://doi.org/10.2514/1.41380
 [research_reding_svendsen_1990]: https://doi.org/10.2514/3.26187
+[research_reed_1997]: https://doi.org/10.21236/ada329724
+[research_rees_1992]: https://doi.org/10.1016/0032-0633(92)90207-5
+[research_regnier_hess_1978]: https://doi.org/10.2514/3.57320
+[research_rehder_wurster_1979]: https://doi.org/10.2514/3.57632
+[research_rehderjj_1977]: https://ntrs.nasa.gov/citations/19780005166
 [research_reichenfeldcurtisj_jonespaulg_1999]: https://ntrs.nasa.gov/citations/20000019589
 [research_reichhardt_1996]: https://doi.org/10.1038/382104a0
+[research_reichhardt_1999]: https://doi.org/10.1038/46122
+[research_reichhardt_2005]: https://doi.org/10.1038/436613a
 [research_reidconcha_2004]: https://ntrs.nasa.gov/citations/20050060623
 [research_reidconcha_2006]: https://ntrs.nasa.gov/citations/20080015780
 [research_reidconcham_millerthomasb_2004]: https://ntrs.nasa.gov/citations/20050192209
+[research_reilly_1979]: https://doi.org/10.21236/ada069296
+[research_reinikka_wells_1964]: https://doi.org/10.2514/3.27594
+[research_reiss_zanetti_2011]: https://doi.org/10.1016/j.icarus.2011.06.011
+[research_relyea_1980]: https://doi.org/10.1007/bf00305596
 [research_ren_cai_2025]: https://doi.org/10.3390/en18061491
 [research_ren_fu_2017]: https://doi.org/10.1177/1687814017703900
 [research_ren_lei_2023]: https://doi.org/10.1029/2023sw003553
@@ -13353,12 +17030,17 @@ summary of what classification achieves and what it costs.
 [research_ren_yuan_2019]: https://doi.org/10.1017/jfm.2019.756
 [research_ren_zhang_2021]: https://doi.org/10.1016/j.applthermaleng.2021.116677
 [research_repic_boobar_1968]: https://doi.org/10.2514/3.29389
+[research_repic_eyman_1969]: https://doi.org/10.2514/3.29609
 [research_research_progress_2025]: https://doi.org/10.3901/jme.2025.10.001
+[research_reshotko_1987]: https://doi.org/10.21236/ada185764
+[research_resnik_2006]: https://doi.org/10.3366/epi.2005.2.3.135
 [research_restrepocarolinai_sostaricronald_2018]: https://ntrs.nasa.gov/citations/20180007604
 [research_retraction_lifecycle_2026]: https://doi.org/10.1080/17583004.2026.2690314
 [research_reul_dupmeier_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.700
 [research_review_on_2023]: https://doi.org/10.3901/jme.2023.02.151
+[research_reyesjacquelinea_ryanhoffmann_2019]: https://ntrs.nasa.gov/citations/20190033991
 [research_reynolds_fischer_1983]: https://doi.org/10.2514/3.25593
+[research_rezinmarc_okakris_2001]: https://ntrs.nasa.gov/citations/20020012437
 [research_reznik_kolesnikov_2019]: https://doi.org/10.1007/s10891-019-01934-6
 [research_reznikov_1965]: https://doi.org/10.1007/bf00833681
 [research_ribeiro_2024]: https://doi.org/10.22480/rev.unifa.1997.11.961
@@ -13367,8 +17049,10 @@ summary of what classification achieves and what it costs.
 [research_ricciardi_maddock_2019]: https://doi.org/10.2514/1.g003839
 [research_richa_babbitt_2015]: https://doi.org/10.1007/s11367-015-0942-3
 [research_richard_christophe_1995]: https://doi.org/10.1016/0094-5765(94)00154-e
+[research_richards_1960]: https://doi.org/10.21236/ad0419890
 [research_richards_1961]: https://doi.org/10.2514/8.5903
 [research_richards_2010]: https://doi.org/10.1049/et.2010.0507
+[research_richardson_herrmann_1966]: https://doi.org/10.21236/ada023213
 [research_richardson_kahn_2023]: https://doi.org/10.5194/acp-23-7699-2023
 [research_richardson_warren_1971]: https://doi.org/10.2514/3.59713
 [research_richardspg_torrdg_1986]: https://ntrs.nasa.gov/citations/19860019857
@@ -13377,26 +17061,43 @@ summary of what classification achieves and what it costs.
 [research_riehl_2013]: https://doi.org/10.1615/heatpipescietech.2013007642
 [research_riehl_buschmann_2024]: https://doi.org/10.1016/j.applthermaleng.2023.121413
 [research_rietmeijer_blanford_1988]: https://doi.org/10.1029/jb093ib10p11943
+[research_rigler_hill_2012]: https://doi.org/10.1029/2012sw000780
+[research_riley_1993]: https://doi.org/10.1017/s002211209300285x
+[research_rillings_roy_1970]: https://doi.org/10.1109/tac.1970.1099530
+[research_rim_schutz_2000]: https://doi.org/10.2514/2.3612
 [research_rishad_islam_2025]: https://doi.org/10.1016/j.oceram.2025.100817
 [research_rishbeth_1979]: https://doi.org/10.1016/0021-9169(79)90130-2
+[research_rishbeth_1981]: https://doi.org/10.1016/0032-0633(81)90061-1
+[research_riskowski_christianson_1991]: https://doi.org/10.1177/109719639101400407
 [research_ritzertfrank_nesbittjames_2007]: https://ntrs.nasa.gov/citations/20070017908
 [research_rivolta_lunghi_2019]: https://doi.org/10.1016/j.actaastro.2019.06.005
 [research_roach_caldarella_1996]: https://doi.org/10.21236/ada354038
+[research_robbins_2020]: https://doi.org/10.1029/2019je006231
+[research_robbins_2022]: https://doi.org/10.1029/2021ea002138
+[research_robbins_2023]: https://doi.org/10.1029/2022ea002673
+[research_robbins_2023_b]: https://doi.org/10.1029/2022je007621
+[research_robbins_kirchoff_2023]: https://doi.org/10.1029/2022ea002443
+[research_roberson_1958]: https://doi.org/10.1090/qam/93954
+[research_roberts_2000]: https://doi.org/10.21236/ada375721
 [research_roberts_2004]: https://doi.org/10.21236/ada421597
 [research_roberts_2022]: https://doi.org/10.1007/s12567-022-00466-9
 [research_roberts_harkness_2007]: https://doi.org/10.2514/1.28626
 [research_robertwindhorst_1996]: https://ntrs.nasa.gov/citations/19970017261
 [research_robertwkempel_larrywstrutz_1970]: https://ntrs.nasa.gov/citations/19710000629
+[research_robinson_1970]: https://doi.org/10.1080/00222739.1970.11688768
 [research_robinson_1999]: https://doi.org/10.1016/s0734-743x(99)00122-0
+[research_robinson_2012]: https://doi.org/10.1029/2012sw000854
 [research_robinson_frueh_2025]: https://doi.org/10.1016/j.asr.2025.06.053
 [research_robson_barczyk_2021]: https://doi.org/10.1139/tcsme-2019-0249
 [research_robust_optimal_2022]: https://doi.org/10.47176/jcme.41.1.8761
 [research_robust_precoding_design_2023]: https://doi.org/10.1360/ssi-2022-0069
+[research_rochefort_sukys_1974]: https://doi.org/10.21236/ada002375
 [research_rochelle_roberts_1973]: https://doi.org/10.2514/3.61969
 [research_rock_blandino_2006]: https://doi.org/10.2514/1.15819
 [research_rodrigues_preda_2022]: https://doi.org/10.1016/j.ast.2022.107865
 [research_rodriguezdonaire_garciaalminana_2022]: https://doi.org/10.1007/s12567-022-00462-z
 [research_rodriguezge_studerpa_1983]: https://ntrs.nasa.gov/citations/19830025670
+[research_rodriguezjuliog_towdm_1990]: https://ntrs.nasa.gov/citations/19910008883
 [research_roemer_framke_1979]: https://doi.org/10.5636/jgg.31.supplement_s71
 [research_roenneke_cornwell_1993]: https://doi.org/10.2514/3.21103
 [research_rogersdc_scottro_1976]: https://ntrs.nasa.gov/citations/19770053840
@@ -13409,7 +17110,10 @@ summary of what classification achieves and what it costs.
 [research_rong_wei_2016]: https://doi.org/10.1051/matecconf/20166104008
 [research_rongxin_lei_2015]: https://doi.org/10.1016/j.phpro.2015.08.102
 [research_ronquillo_williams_1984]: https://doi.org/10.1177/109719638400700307
+[research_rosasrogelio_boltondouglasa_2018]: https://ntrs.nasa.gov/citations/20210008171
+[research_rose_friedman_1975]: https://doi.org/10.2514/3.56954
 [research_rosenbaum_1971]: https://doi.org/10.2514/3.49934
+[research_rosenberger_2008]: https://doi.org/10.1007/s10746-007-9078-1
 [research_rosenblatt_marty_2004]: https://doi.org/10.1016/j.pss.2004.07.017
 [research_rosengren_1982]: https://doi.org/10.2514/3.62208
 [research_roshan_r_2022]: https://doi.org/10.22214/ijraset.2022.40562
@@ -13417,19 +17121,26 @@ summary of what classification achieves and what it costs.
 [research_rossi_2020]: https://doi.org/10.4081/scie.2017.598
 [research_rossinamiller_jamesmurray_2021]: https://ntrs.nasa.gov/citations/20205008892
 [research_roth_1966]: https://doi.org/10.2514/3.28750
+[research_roth_1976]: https://doi.org/10.1007/bf01228520
 [research_roth_1982]: https://doi.org/10.1007/bf01230668
+[research_roth_1983]: https://doi.org/10.1016/0094-5765(83)90081-4
 [research_rothdj_reyesrodriguezs_2011]: https://ntrs.nasa.gov/citations/20110014191
 [research_rothdonj_jacobsonnathans_2010]: https://ntrs.nasa.gov/citations/20110016010
 [research_rothdonj_rauserrichardw_2009]: https://ntrs.nasa.gov/citations/20090010076
 [research_rotman_meltz_1961]: https://doi.org/10.1016/0032-0633(61)90031-9
 [research_roule_ogmundarson_2026]: https://doi.org/10.1016/j.est.2025.119343
 [research_rourkekennethh_tsugawaroyk_1991]: https://ntrs.nasa.gov/citations/19930013110
+[research_roxy_sumithranand_2010]: https://doi.org/10.1007/s12040-010-0038-1
 [research_roy_davison_1986]: https://doi.org/10.1109/maes.1986.5005111
 [research_rozanov_guelman_2008]: https://doi.org/10.1016/j.actaastro.2006.12.025
 [research_rubenstein_carter_2000]: https://doi.org/10.2514/2.3556
+[research_rubincam_1980]: https://doi.org/10.1029/gl007i006p00468
+[research_rubincam_1987]: https://doi.org/10.1029/jb092ib02p01287
+[research_rubincam_1995]: https://doi.org/10.1029/94je02411
 [research_rubio_ramanujam_2018]: https://doi.org/10.1080/17436753.2018.1475140
 [research_rudenko_1997]: https://doi.org/10.1017/s0252921100046790
 [research_rudesill_2020]: https://doi.org/10.2139/ssrn.3745263
+[research_ruger_1964]: https://doi.org/10.2514/3.2375
 [research_rugescu_2013]: https://doi.org/10.4028/www.scientific.net/amm.332.33
 [research_rugge_ching_1975]: https://doi.org/10.1016/0032-0633(75)90138-5
 [research_rummel_1979]: https://doi.org/10.1007/bf03654938
@@ -13446,6 +17157,8 @@ summary of what classification achieves and what it costs.
 [research_saad_2011]: https://doi.org/10.1007/s13369-010-0020-x
 [research_saad_desoki_2026]: https://doi.org/10.1038/s41598-026-37568-x
 [research_saboktakin_spitas_2023]: https://doi.org/10.15406/aaoaj.2023.07.00163
+[research_sabol_1998]: https://doi.org/10.21236/ada419356
+[research_sabol_alfriend_2007]: https://doi.org/10.2514/1.25008
 [research_sabol_culp_2001]: https://doi.org/10.2514/2.4685
 [research_saboorian_2019]: https://doi.org/10.25172/jalc.84.4.6
 [research_saddul_saletes_2024]: https://doi.org/10.1016/j.actaastro.2024.03.019
@@ -13453,42 +17166,55 @@ summary of what classification achieves and what it costs.
 [research_safiharb_ogelman_1996]: https://doi.org/10.1086/309859
 [research_sagare_kale_2023]: https://doi.org/10.1016/j.matpr.2022.11.253
 [research_saggese_speziale_1987]: https://doi.org/10.1002/sat.4600050216
+[research_sagliano_2024]: https://doi.org/10.3390/aerospace11100863
 [research_saha_2023]: https://doi.org/10.2139/ssrn.4383402
 [research_saha_sharma_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.450
 [research_sahin_sahin_2021]: https://doi.org/10.31590/ejosat.959630
 [research_saida_1972]: https://doi.org/10.2322/jjsass1969.20.181
 [research_saifei_xinhua_2016]: https://doi.org/10.12783/dtetr/icmite20162016/4599
+[research_saikia_brehm_2025]: https://doi.org/10.1017/jfm.2025.226
 [research_saikia_millane_2021]: https://doi.org/10.2514/1.a34703
 [research_saito_kariya_2026]: https://doi.org/10.2514/1.a36504
 [research_saitov_jiang_2025]: https://doi.org/10.1016/j.solener.2024.113225
 [research_sakai_miyamura_1990]: https://doi.org/10.1002/chin.199022011
 [research_sakai_takahashi_2024]: https://doi.org/10.1016/j.ast.2024.109418
 [research_sakai_takahashi_2026]: https://doi.org/10.1016/j.ast.2026.113326
+[research_sakimoto_frey_1999]: https://doi.org/10.1029/1999je001044
 [research_sakurai_mcpherron_1983]: https://doi.org/10.1029/ja088ia09p07015
+[research_salah_oberoi_2006]: https://doi.org/10.21236/ada453643
 [research_saleh_abdulla_2020]: https://doi.org/10.1088/1742-6596/1664/1/012010
 [research_salleh_mohdsuhadis_2015]: https://doi.org/10.15866/irease.v8i2.6215
 [research_salleh_nazar_2009]: https://doi.org/10.1080/00986440902797840
 [research_salmin_petrukhina_2019]: https://doi.org/10.33950/spacetech-2308-7625-2019-4-94-108
+[research_salmon_hearts_2011]: https://doi.org/10.1242/jeb.056796
 [research_saltzman_wang_2007]: https://doi.org/10.2514/1.18365
 [research_salzwedel_breakwell_1975]: https://doi.org/10.2514/3.56993
 [research_samah_redzua_2024]: https://doi.org/10.53469/jrse.2024.06(09).06
+[research_sammonds_kruse_1975]: https://doi.org/10.2514/3.27803
+[research_samuelson_1983]: https://doi.org/10.1016/0019-1035(83)90156-2
 [research_samuelsr_1984]: https://ntrs.nasa.gov/citations/19840009152
 [research_sanchez_2025]: https://doi.org/10.1017/jli.2025.16
 [research_sanchez_gavilan_2020]: https://doi.org/10.1016/j.ast.2020.105827
 [research_sanford_higgins_2003]: https://doi.org/10.21236/ada451647
 [research_sang_bennett_2014]: https://doi.org/10.1016/j.asr.2014.03.012
 [research_sankaranarayanan_banerjee_2022]: https://doi.org/10.1016/j.ifacol.2023.01.155
+[research_sano_1981]: https://doi.org/10.1115/1.3244484
 [research_sanson_villedieu_2017]: https://doi.org/10.1016/j.expthermflusci.2016.11.013
 [research_santhosh_nandakumar_2011]: https://doi.org/10.4273/ijvss.3.4.03
 [research_santoni_piergentili_2008]: https://doi.org/10.2514/1.32392
 [research_santoni_piergentili_2008_b]: https://doi.org/10.2514/1.37409
+[research_santos_hosder_2021]: https://doi.org/10.2514/1.a34752
 [research_santos_oliveira_2012]: https://doi.org/10.1615/heatpipescietech.2013006753
 [research_sapkota_fischer_2014]: https://doi.org/10.1016/j.solmat.2013.10.021
+[research_sarababut_2014]: https://doi.org/10.70729/j2013265
 [research_saranisiamak_2010]: https://ntrs.nasa.gov/citations/20150008900
 [research_sari_karakus_2020]: https://doi.org/10.1097/md.0000000000019677
 [research_sarkar_mukherjee_2021]: https://doi.org/10.1016/j.asr.2020.10.006
+[research_sarlibrunov_farresariadna_2018]: https://ntrs.nasa.gov/citations/20190001048
 [research_sartondujonchay_chen_2021]: https://doi.org/10.2514/1.a34978
 [research_sartondujonchay_chen_2022]: https://doi.org/10.2514/1.a35094
+[research_sarychev_1961]: https://doi.org/10.1016/0032-0633(61)90262-8
+[research_sarychev_1962]: https://doi.org/10.2514/8.6110
 [research_sasaki_1999]: https://doi.org/10.1029/1999gl900373
 [research_sasaki_tanaka_2002]: https://doi.org/10.1016/s0094-5765(02)00015-2
 [research_sasiadek_1996]: https://doi.org/10.1016/s0967-0661(96)90011-8
@@ -13501,6 +17227,8 @@ summary of what classification achieves and what it costs.
 [research_savage_aalders_1979]: https://doi.org/10.2514/3.57639
 [research_savino_mungiguerra_2018]: https://doi.org/10.1080/17436753.2018.1509175
 [research_sayed_partain_1975]: https://doi.org/10.1016/0013-7480(75)90083-2
+[research_scaggs_1966]: https://doi.org/10.21236/ad0648906
+[research_scala_1962]: https://doi.org/10.21236/ad0294982
 [research_scala_gaias_2021]: https://doi.org/10.1016/j.asr.2021.09.030
 [research_scala_gkolias_2023]: https://doi.org/10.2514/1.g007236
 [research_scala_workman_1959]: https://doi.org/10.2514/8.7986
@@ -13508,6 +17236,9 @@ summary of what classification achieves and what it costs.
 [research_scallionwilliami_1999]: https://ntrs.nasa.gov/citations/19990117251
 [research_scarcella_abbott_1983]: https://doi.org/10.1109/mcom.1983.1091383
 [research_scarponi_landucci_2017]: https://doi.org/10.1016/j.psep.2016.10.009
+[research_schaefer_humrick_1963]: https://doi.org/10.21236/ad0407525
+[research_schall_2002]: https://doi.org/10.2514/2.3785
+[research_schaub_2004]: https://doi.org/10.2514/1.12595
 [research_schaub_sternovsky_2014]: https://doi.org/10.1016/j.asr.2013.10.003
 [research_schaus_alessi_2019]: https://doi.org/10.1016/j.asr.2019.01.020
 [research_schauss_hayman_2025]: https://doi.org/10.2514/1.a36165
@@ -13519,41 +17250,56 @@ summary of what classification achieves and what it costs.
 [research_schiemenz_utzmann_2019]: https://doi.org/10.1016/j.asr.2019.02.039
 [research_schiemenz_utzmann_2020]: https://doi.org/10.1016/j.asr.2020.05.042
 [research_schild_noomen_2023]: https://doi.org/10.1016/j.asr.2022.07.011
+[research_schildknecht_hager_2014]: https://doi.org/10.21236/ada611570
 [research_schirber_2022]: https://doi.org/10.1103/physics.15.156
+[research_schlegel_1966]: https://doi.org/10.2514/3.3857
+[research_schlitt_bodendieck_2010]: https://doi.org/10.1615/heatpipescietech.2011003620
 [research_schmidt_1997]: https://doi.org/10.1016/s0032-0633(96)00102-x
 [research_schmidt_jager_2025]: https://doi.org/10.1007/s12567-025-00674-z
+[research_schmidt_lovell_1997]: https://doi.org/10.2514/2.3204
 [research_schmidt_olenick_1967]: https://doi.org/10.2514/3.29119
 [research_schmitt_horstkotter_2023]: https://doi.org/10.1016/j.est.2022.106335
+[research_schneider_2009]: https://doi.org/10.21236/ada500049
 [research_schobert_paul_1997]: https://doi.org/10.1016/s0273-1177(97)00018-5
 [research_schoenmanl_1982]: https://ntrs.nasa.gov/citations/19820051521
 [research_schomberg_bringezu_2021]: https://doi.org/10.1038/s43247-020-00080-9
+[research_schomburgc_dottsrl_1983]: https://ntrs.nasa.gov/citations/19840046264
 [research_schooley_1962]: https://doi.org/10.1119/1.1942095
 [research_schrama_2018]: https://doi.org/10.1016/j.asr.2017.11.001
 [research_schriener_2025]: https://doi.org/10.59332/jbis-078-03-0092
+[research_schroder_power_1997]: https://doi.org/10.1113/expphysiol.1997.sp004035
 [research_schroederpe_1979]: https://ntrs.nasa.gov/citations/19790067912
 [research_schubert_limonadi_1994]: https://doi.org/10.1006/icar.1994.1154
 [research_schultepeterz_speharpetert_2020]: https://ntrs.nasa.gov/citations/20200001393
+[research_schultz_okubo_2004]: https://doi.org/10.1130/g20548.1
 [research_schuster_huynh_1993]: https://doi.org/10.1016/0011-2275(93)90171-j
 [research_schwabachermark_samuelsjeff_2002]: https://ntrs.nasa.gov/citations/20020063487
 [research_schwan_1994]: https://doi.org/10.21236/ada285115
 [research_schwan_1995]: https://doi.org/10.21236/ada294240
+[research_schwartz_1981]: https://doi.org/10.21236/ada109272
 [research_schweikhardkeitha_richardswlance_1998]: https://ntrs.nasa.gov/citations/20010055588
 [research_schweikhardkeitha_richardswlance_2001]: https://ntrs.nasa.gov/citations/20030066934
+[research_schwelkart_hallion_1997]: https://doi.org/10.21236/ada441126
 [research_schwintzer_kang_1995]: https://doi.org/10.1016/0264-3707(95)99845-h
 [research_schy_white_1969]: https://doi.org/10.2514/3.29709
+[research_sciencecommunicationincmcleanva_1960]: https://doi.org/10.21236/ad0243886
 [research_scire_santoni_2015]: https://doi.org/10.1016/j.asr.2015.02.031
 [research_sconzo_1966]: https://doi.org/10.1017/s0074180900105662
 [research_scorsoglio_dambrosio_2026]: https://doi.org/10.1016/j.actaastro.2025.09.002
 [research_scorsoglio_gaudet_2025]: https://doi.org/10.1007/s00521-025-11274-7
 [research_scott_ellery_2015]: https://doi.org/10.1016/j.actaastro.2015.03.010
 [research_scott_ellery_2016]: https://doi.org/10.2514/1.a33406
+[research_scott_proietti_2014]: https://doi.org/10.21236/ada622577
 [research_scottbluthcke_daviddrowlands_2003]: https://ntrs.nasa.gov/citations/20040082116
 [research_scottcd_derrysm_1982]: https://ntrs.nasa.gov/citations/19820052716
 [research_scottmonckja_stellapm_1980]: https://ntrs.nasa.gov/citations/19800064036
 [research_scovillezebulonc_rajulasudhakar_2005]: https://ntrs.nasa.gov/citations/20070018240
+[research_scull_1972]: https://doi.org/10.1016/s1474-6670(17)68452-0
+[research_seaman_klemas_1970]: https://doi.org/10.5594/j16704
 [research_sears_ho_2018]: https://doi.org/10.2514/1.a34135
 [research_second_sun_watching_1965]: https://doi.org/10.2307/3948590
 [research_secret_us_2012]: https://doi.org/10.1016/s0262-4079(12)61592-9
+[research_secretaryoftheairforcewashingtondc_2001]: https://doi.org/10.21236/ada408311
 [research_seddjar_kerrouche_2022]: https://doi.org/10.4316/aece.2022.01006
 [research_sedelnikov_potienko_2015]: https://doi.org/10.1007/s12217-015-9468-3
 [research_sehnal_1986]: https://doi.org/10.1016/0273-1177(86)90367-4
@@ -13561,7 +17307,10 @@ summary of what classification achieves and what it costs.
 [research_seidelmann_gaume_2010]: https://doi.org/10.21236/ada520456
 [research_sellamuthu_sharma_2018]: https://doi.org/10.2514/1.a34076
 [research_seltzer_1970]: https://doi.org/10.2514/3.29943
+[research_seltzer_1970_b]: https://doi.org/10.1109/tac.1970.1099552
 [research_semple_1968]: https://doi.org/10.1049/ree.1968.0007
+[research_sen_pesyridis_2018]: https://doi.org/10.3390/en11061568
+[research_sengupta_vadali_2005]: https://doi.org/10.2514/1.12113
 [research_seong_kim_2013]: https://doi.org/10.5140/jass.2013.30.4.291
 [research_serfontein_kingston_2021]: https://doi.org/10.1016/j.actaastro.2021.05.038
 [research_sergeev_bezladnov_1971]: https://doi.org/10.1007/bf00826811
@@ -13569,11 +17318,13 @@ summary of what classification achieves and what it costs.
 [research_setty_cefola_2016]: https://doi.org/10.1016/j.asr.2016.02.028
 [research_seykora_1979]: https://doi.org/10.1364/ao.18.003538
 [research_seywald_1996]: https://doi.org/10.2514/3.21675
+[research_sforza_1967]: https://doi.org/10.21236/ad0653875
 [research_shadow_of_1967]: https://doi.org/10.2307/3951935
 [research_shaffer_andrews_1988]: https://doi.org/10.21236/ada198871
 [research_shahneh_2018]: https://doi.org/10.15406/aaoaj.2018.02.00059
 [research_shakouri_pourtakdoust_2020]: https://doi.org/10.1016/j.asr.2020.05.006
 [research_shan_shi_2022]: https://doi.org/10.3390/aerospace9010033
+[research_shang_surzhikov_2011]: https://doi.org/10.2514/1.52029
 [research_shang_wang_2015]: https://doi.org/10.1016/j.ast.2015.02.003
 [research_shang_yang_2020]: https://doi.org/10.1051/e3sconf/202016506035
 [research_shao_wang_2015]: https://doi.org/10.1016/j.isatra.2014.06.010
@@ -13583,12 +17334,17 @@ summary of what classification achieves and what it costs.
 [research_shao_zhao_2026]: https://doi.org/10.1016/j.ast.2025.110822
 [research_shaolin_2017]: https://doi.org/10.11648/j.ijdst.20170303.11
 [research_shapiro_1964]: https://doi.org/10.1029/jz069i021p04693
+[research_shapland_price_1965]: https://doi.org/10.2514/3.28219
+[research_sharaf_1992]: https://doi.org/10.1007/bf01070207
 [research_sharma_2005]: https://doi.org/10.1179/174329405x50118
 [research_sharma_agarwal_1993]: https://doi.org/10.1016/0927-0248(93)90092-h
 [research_sharma_giangaspero_2024]: https://doi.org/10.1063/5.0191101
+[research_sharma_jamesraj_1988]: https://doi.org/10.1007/bf00054544
 [research_sharma_singh_2009]: https://doi.org/10.2298/tsci0901005s
 [research_sharma_sirignano_1969]: https://doi.org/10.1080/00102206908952193
 [research_sharmajayant_1990]: https://ntrs.nasa.gov/citations/19900065949
+[research_sharp_harris_1971]: https://doi.org/10.21236/ad0724775
+[research_sharpe_murray_2017]: https://doi.org/10.1002/2017sw001683
 [research_sharpe_wright_2026]: https://doi.org/10.1016/j.solmat.2025.114074
 [research_shaw_falconer_1971]: https://doi.org/10.2514/3.30252
 [research_shaw_taylor_1997]: https://doi.org/10.1016/s0265-9646(97)00007-6
@@ -13597,42 +17353,58 @@ summary of what classification achieves and what it costs.
 [research_shearer_1997]: https://doi.org/10.21236/ada443806
 [research_sheer_li_2019]: https://doi.org/10.11114/ijlpa.v2i1.4356
 [research_sheer_li_2019_b]: https://doi.org/10.4236/blr.2019.103025
+[research_shefov_1963]: https://doi.org/10.1016/0032-0633(63)90008-4
+[research_shefov_1971]: https://doi.org/10.1016/0032-0633(71)90195-4
+[research_shen_chenand_2001]: https://doi.org/10.1115/1.1349551
 [research_shen_liu_2020]: https://doi.org/10.1016/j.applthermaleng.2019.114513
+[research_shen_lu_2005]: https://doi.org/10.1016/j.actaastro.2004.10.005
+[research_shen_tang_2025]: https://doi.org/10.1016/j.sspwt.2025.11.005
 [research_shen_zhou_2012]: https://doi.org/10.1007/s11431-012-4969-4
 [research_shenming_ran_2019]: https://doi.org/10.1016/j.egypro.2019.01.604
 [research_shenzuojun_luping_2002]: https://ntrs.nasa.gov/citations/20030002215
 [research_shepherd_cho_2013]: https://doi.org/10.1504/ijspacese.2013.058846
+[research_sherman_1978]: https://doi.org/10.21236/ada056390
+[research_shethrubikb_ungareugenek_2011]: https://ntrs.nasa.gov/citations/20110023050
+[research_sheu_sivashinsky_1991]: https://doi.org/10.1016/0010-2180(91)90001-r
 [research_shi_he_2017]: https://doi.org/10.1177/1687814017732894
 [research_shi_li_2025]: https://doi.org/10.1016/j.actaastro.2025.04.040
 [research_shi_pei_2026]: https://doi.org/10.3390/aerospace13050417
 [research_shi_pottsepp_1969]: https://doi.org/10.2514/3.5521
+[research_shi_pottsepp_1971]: https://doi.org/10.2514/3.6258
 [research_shi_wang_2025]: https://doi.org/10.3390/en18020248
+[research_shi_wang_2025_b]: https://doi.org/10.1088/1742-6596/3095/1/012023
 [research_shi_xu_2025]: https://doi.org/10.1109/taes.2024.3466125
 [research_shi_zha_2021]: https://doi.org/10.1016/j.jeurceramsoc.2021.03.015
 [research_shi_zhang_2020]: https://doi.org/10.1051/jnwpu/20203830523
 [research_shi_zhao_2017]: https://doi.org/10.1002/htj.21258
 [research_shi_zhu_2018]: https://doi.org/10.1016/j.actaastro.2018.09.013
+[research_shibato_1995]: https://doi.org/10.2187/bss.9.95
+[research_shichao_2019]: https://doi.org/10.1088/1742-6596/1267/1/012065
 [research_shigehara_iwasaki_1998]: https://doi.org/10.2514/3.26997
 [research_shigehara_ohtaka_1996]: https://doi.org/10.1016/0094-5765(96)00040-9
 [research_shimane_gollins_2024]: https://doi.org/10.2514/1.a35691
+[research_shimazaki_1965]: https://doi.org/10.1016/0021-9169(65)90127-3
 [research_shimizu_fukuda_2017]: https://doi.org/10.2514/1.a33622
 [research_shin_jung_2026]: https://doi.org/10.1016/j.egyr.2026.109121
 [research_shinn_jones_1985]: https://doi.org/10.2514/3.25709
 [research_shirazi_2015]: https://doi.org/10.1080/0305215x.2015.1115026
 [research_shirazi_mazinan_2015]: https://doi.org/10.1007/s40314-015-0290-8
-[research_shivaraju_sudakar_2019]: https://doi.org/10.1016/j.electacta.2018.10.122
 [research_shiyuny_nelsonrl_1990]: https://ntrs.nasa.gov/citations/19910007788
 [research_shiyunyuan_youngdh_1991]: https://ntrs.nasa.gov/citations/19920004877
+[research_shizgal_blackmore_1986]: https://doi.org/10.1016/0032-0633(86)90133-9
 [research_shkuratov_lytvynenko_2003]: https://doi.org/10.1016/s0273-1177(03)00534-9
 [research_shoemaker_wohlberg_2015]: https://doi.org/10.2514/1.g000088
 [research_shojaiebahaabad_bozorg_2024]: https://doi.org/10.1016/j.ceramint.2023.12.372
 [research_shore_1993]: https://doi.org/10.1097/00055735-199310000-00008
+[research_shorenstein_1971]: https://doi.org/10.21236/ad0731696
+[research_shou_2014]: https://doi.org/10.21236/ada599458
 [research_shou_xu_2021]: https://doi.org/10.1016/j.ast.2021.106564
 [research_shou_xu_2022]: https://doi.org/10.1002/mma.8071
 [research_showstack_2015]: https://doi.org/10.1029/2015eo026097
 [research_showstack_2016]: https://doi.org/10.1029/2016eo055461
 [research_showstack_2016_b]: https://doi.org/10.1029/2016eo054513
 [research_shrestha_borrerodelpino_2016]: https://doi.org/10.2514/1.a33508
+[research_shrivastava_rajasingh_1975]: https://doi.org/10.2514/3.27850
 [research_shrivastava_reddy_1976]: https://doi.org/10.1016/0094-5765(76)90140-5
 [research_shtessel_hall_2000]: https://doi.org/10.2514/2.4669
 [research_shtesselyuri_1999]: https://ntrs.nasa.gov/citations/20020043222
@@ -13644,24 +17416,38 @@ summary of what classification achieves and what it costs.
 [research_si_wang_2025]: https://doi.org/10.1109/tgrs.2024.3523977
 [research_siamidisjohn_2006]: https://ntrs.nasa.gov/citations/20070001076
 [research_sicoli_mehta_2026]: https://doi.org/10.1038/s41598-026-63829-w
+[research_siddique_mahmud_2022]: https://doi.org/10.3390/geosciences12010027
 [research_sidorenko_kondratyev_2020]: https://doi.org/10.1016/j.jastp.2020.105453
 [research_siedel_sartre_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.300
 [research_siemers_larson_1979]: https://doi.org/10.2514/3.57648
 [research_siew_linares_2022]: https://doi.org/10.3390/s22207847
 [research_sikharulidze_karpov_2005]: https://doi.org/10.1007/s10604-005-0055-z
+[research_sikharulidze_korchagin_2007]: https://doi.org/10.1134/s0010952507040053
 [research_silk_myre_2013]: https://doi.org/10.1016/j.applthermaleng.2013.05.030
+[research_simeonides_2006]: https://doi.org/10.1007/s00193-006-0040-3
 [research_similarity_solution_2011]: https://doi.org/10.36884/jafm.4.02.11921
 [research_simon_1978]: https://doi.org/10.1109/tcom.1978.1094019
+[research_simons_1975]: https://doi.org/10.21236/ada019517
+[research_sims_hahn_1964]: https://doi.org/10.21236/ad0603567
 [research_singh_2000]: https://doi.org/10.1109/27.902235
 [research_singh_2026]: https://doi.org/10.29070/e29ven89
+[research_singh_chauhan_2023]: https://doi.org/10.1007/s12524-023-01745-6
 [research_singh_das_2025]: https://doi.org/10.1115/1.4069019
+[research_singh_kumar_2016]: https://doi.org/10.1049/iet-rpg.2015.0295
+[research_singh_mishra_2017]: https://doi.org/10.18520/cs/v113/i01/112-116
 [research_singh_mochizuki_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.710
 [research_singh_satapathy_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.490
+[research_singhatanadgid_ungbhakorn_2002]: https://doi.org/10.12989/sem.2002.14.3.345
 [research_singhm_2007]: https://ntrs.nasa.gov/citations/20070031665
 [research_sinha_shrivastava_1990]: https://doi.org/10.2514/3.25350
+[research_sinnott_1963]: https://doi.org/10.1017/s0001924000062138
+[research_siry_1959]: https://doi.org/10.1016/0032-0633(59)90044-3
+[research_siry_1960]: https://doi.org/10.1017/s0251107x00021477
 [research_sivan_pandian_2018]: https://doi.org/10.18520/cs/v114/i01/38-47
+[research_sivasankari_arivazhagan_2023]: https://doi.org/10.1007/s12040-023-02083-4
 [research_siyu_kangwen_2023]: https://doi.org/10.1016/j.energy.2023.128988
 [research_sizemoreko_strouper_1965]: https://ntrs.nasa.gov/citations/19660017921
+[research_sjogren_1979]: https://doi.org/10.1126/science.203.4384.1006
 [research_skolnik_putnam_2022]: https://doi.org/10.2139/ssrn.4147322
 [research_skormike_hoffmandavej_1997]: https://ntrs.nasa.gov/citations/20050177155
 [research_skriabysheva_2005]: https://doi.org/10.1007/s10604-005-0067-8
@@ -13669,27 +17455,41 @@ summary of what classification achieves and what it costs.
 [research_skumarappa_manjunathahm_2024]: https://doi.org/10.30574/wjarr.2024.21.2.0553
 [research_skurat_leipunsky_2011]: https://doi.org/10.2514/1.49463
 [research_slejko_gregorio_2021]: https://doi.org/10.1016/j.asr.2020.11.037
+[research_slonecki_1991]: https://doi.org/10.14314/polimery.1991.225
+[research_slonecki_1992]: https://doi.org/10.14314/polimery.1992.019
 [research_sloweyjw_1984]: https://ntrs.nasa.gov/citations/19840024894
 [research_small_1977]: https://doi.org/10.2514/3.60780
+[research_smarslok_2015]: https://doi.org/10.21236/ada615850
 [research_smirnov_kiselev_2015]: https://doi.org/10.1016/j.actaastro.2014.09.014
 [research_smith_1961]: https://doi.org/10.2514/8.5855
+[research_smith_1962]: https://doi.org/10.1016/0032-0633(62)90125-3
 [research_smith_1966]: https://doi.org/10.1016/0032-0633(66)90002-x
+[research_smith_1974]: https://doi.org/10.21236/ada005280
 [research_smith_1980]: https://doi.org/10.1016/0019-1035(80)90060-3
+[research_smith_1986]: https://doi.org/10.1126/science.232.4751.702
 [research_smith_1988]: https://doi.org/10.21236/ada193745
+[research_smith_1994]: https://doi.org/10.1016/0265-9646(94)90015-9
+[research_smith_2021]: https://doi.org/10.1063/pt.3.4888
+[research_smith_bell_2005]: https://doi.org/10.2514/1.15213
 [research_smith_greene_1977]: https://doi.org/10.1016/0019-1035(77)90089-6
 [research_smith_greene_1980]: https://doi.org/10.1016/0019-1035(80)90061-5
 [research_smith_rathnasabapathy_2024]: https://doi.org/10.1016/j.jsse.2024.08.009
 [research_smith_schwimmer_1965]: https://doi.org/10.2514/3.3153
+[research_smith_wright_1964]: https://doi.org/10.21236/ad0600956
 [research_smithdm_petleydh_1983]: https://ntrs.nasa.gov/citations/19830035315
 [research_smithea_1988]: https://ntrs.nasa.gov/citations/19890006590
+[research_smithoe_adelfangsi_1997]: https://ntrs.nasa.gov/citations/19970028145
 [research_smithrickjohnj_hallstephenw_1990]: https://ntrs.nasa.gov/citations/19910053453
 [research_smithrickjohnj_hallstephenw_1991]: https://ntrs.nasa.gov/citations/19920004265
 [research_smithrickjohnj_hallstephenw_1992]: https://ntrs.nasa.gov/citations/19920065588
 [research_smithsheldond_1991]: https://ntrs.nasa.gov/citations/19920014287
+[research_snyder_lenihan_1968]: https://doi.org/10.5594/j13642
 [research_snyderaaron_1999]: https://ntrs.nasa.gov/citations/19990052726
 [research_sochacki_narkiewicz_2021]: https://doi.org/10.2514/1.a34785
 [research_soederjamesf_buttonrobertm_1999]: https://ntrs.nasa.gov/citations/20050187021
+[research_software_upgrade_2009]: https://doi.org/10.1063/pt.5.023938
 [research_sogin_1991]: https://doi.org/10.1115/1.2910632
+[research_sogin_1992]: https://doi.org/10.1115/1.2911270
 [research_sohail_tanveer_2026]: https://doi.org/10.3390/math14111879
 [research_solar_cell_1979]: https://ntrs.nasa.gov/citations/19790024469
 [research_solar_cell_1982]: https://doi.org/10.1016/0038-092x(82)90271-7
@@ -13697,15 +17497,19 @@ summary of what classification achieves and what it costs.
 [research_solar_orbital_1978]: https://doi.org/10.1038/274630b0
 [research_soldi_hastings_1997]: https://doi.org/10.2514/2.3177
 [research_soleymani_toloei_2015]: https://doi.org/10.1108/aeat-11-2011-0172
+[research_som_2008]: https://doi.org/10.1555/mars.2008.0002
 [research_soma_endo_2012]: https://doi.org/10.2322/tastj.10.po_4_27
 [research_somakettarin_pichetjamroen_2019]: https://doi.org/10.3390/en12203888
 [research_somanath_pradeep_1999]: https://doi.org/10.2514/2.7635
+[research_someya_iwata_2010]: https://doi.org/10.2322/tastj.8.pd_99
 [research_somov_somov_2025]: https://doi.org/10.35470/2226-4116-2025-14-3-292-298
 [research_somov_somov_2025_b]: https://doi.org/10.35470/2226-4116-2025-14-4-383-391
 [research_sonandres_palazzo_2026]: https://doi.org/10.2514/1.g009327
 [research_sone_liu_2003]: https://doi.org/10.5796/electrochemistry.71.542
 [research_song_bae_2023]: https://doi.org/10.5140/jass.2023.40.3.123
+[research_song_choi_2020]: https://doi.org/10.1016/j.ifacol.2020.12.1900
 [research_song_li_2019]: https://doi.org/10.12783/dteees/iceee2018/27833
+[research_song_li_2023]: https://doi.org/10.3390/en16207106
 [research_song_liu_2017]: https://doi.org/10.1016/j.microrel.2017.06.045
 [research_song_wang_2020]: https://doi.org/10.1016/j.actaastro.2020.04.017
 [research_song_zhang_2015]: https://doi.org/10.11728/cjss2015.03.362
@@ -13718,13 +17522,17 @@ summary of what classification achieves and what it costs.
 [research_soroka_danylenko_2024]: https://doi.org/10.29202/asl/13/4
 [research_sorvari_1979]: https://doi.org/10.21236/ada078675
 [research_sourgen_fontaine_2012]: https://doi.org/10.1504/ijad.2012.049132
+[research_sowers_1962]: https://doi.org/10.21236/ad0295024
 [research_space_laboratories_1963]: https://doi.org/10.1109/ee.1963.6541833
 [research_space_machines_2024]: https://doi.org/10.12968/s0013-7758(24)90091-2
 [research_space_shuttle_1975]: https://ntrs.nasa.gov/citations/19760011143
+[research_spacecommandpetersonafbco_1988]: https://doi.org/10.21236/ada351420
 [research_spacecraft_to_2015]: https://doi.org/10.1063/pt.5.029391
 [research_spaceplane_trip_2015]: https://doi.org/10.1016/s0262-4079(15)30388-2
+[research_spadonidj_friedlanderal_1971]: https://ntrs.nasa.gov/citations/19720005139
 [research_spady_synowicki_1995]: https://doi.org/10.2514/3.26723
 [research_sparks_1980]: https://doi.org/10.2514/3.57773
+[research_speake_aston_2005]: https://doi.org/10.1088/0264-9381/22/10/019
 [research_spearmanml_1984]: https://ntrs.nasa.gov/citations/19840058539
 [research_special_issue_2021]: https://doi.org/10.1016/j.actaastro.2021.04.020
 [research_spencer_alary_2025]: https://doi.org/10.1016/j.actaastro.2024.11.013
@@ -13733,26 +17541,36 @@ summary of what classification achieves and what it costs.
 [research_spencer_lovell_2015]: https://doi.org/10.1007/s40295-015-0072-y
 [research_spencer_tolson_2007]: https://doi.org/10.2514/1.24303
 [research_spencer_williams_2013]: https://doi.org/10.21236/ada594829
+[research_speyer_crues_1990]: https://doi.org/10.2514/3.25404
+[research_spirecorpbedfordma_1989]: https://doi.org/10.21236/ada216857
+[research_spirecorpbedfordma_1996]: https://doi.org/10.21236/ada310729
 [research_sporleder_naumann_2019]: https://doi.org/10.1016/j.solmat.2019.110062
 [research_spravka_jorris_2015]: https://doi.org/10.21236/ada619521
 [research_spurny_borovicka_2017]: https://doi.org/10.1016/j.pss.2016.11.010
 [research_spurny_borovicka_2020]: https://doi.org/10.1111/maps.13444
 [research_spy_satellite_2008]: https://doi.org/10.1063/pt.5.021883
+[research_srivastava_kumar_2015]: https://doi.org/10.1016/j.asr.2015.04.025
 [research_srivastava_mishra_2023]: https://doi.org/10.1016/j.jsse.2023.03.010
 [research_stabilization_of_2026]: https://doi.org/10.64388/irev10i1-1720170
 [research_stahler_2010]: https://doi.org/10.1111/j.1365-2966.2009.15994.x
 [research_stalonydobrzanski_1967]: https://doi.org/10.2514/3.28829
+[research_stamnes_1982]: https://doi.org/10.1016/0032-0633(82)90034-4
+[research_stampfl_meyer_1988]: https://doi.org/10.1016/0094-5765(88)90123-3
 [research_stanescu_buzducea_2025]: https://doi.org/10.3390/app15073473
 [research_stanfield_baniyounes_2021]: https://doi.org/10.3390/s21113597
 [research_staniszewski_2001]: https://doi.org/10.2514/2.3710
+[research_stanley_1970]: https://doi.org/10.21236/ad0715285
 [research_stanley_engelund_1994]: https://doi.org/10.2514/3.26454
+[research_stanley_ryan_1968]: https://doi.org/10.21236/ad0677284
 [research_stanley_stansbery_1989]: https://doi.org/10.1121/1.2027450
+[research_stanleythomastroy_alexanderreginald_2000]: https://ntrs.nasa.gov/citations/20000021504
 [research_stansberyeugene_johnsonnickl_2012]: https://ntrs.nasa.gov/citations/20120003110
 [research_stapleton_galati_1997]: https://doi.org/10.21236/ada397882
 [research_starchenko_2019]: https://doi.org/10.1134/s0010952519050083
 [research_starchenko_2020]: https://doi.org/10.1134/s0038094620070199
 [research_stark_1985]: https://doi.org/10.2514/3.25760
 [research_state_of_2024]: https://doi.org/10.3901/jme.2024.12.335
+[research_statella_pina_2014]: https://doi.org/10.1016/j.asr.2013.05.012
 [research_stathamtl_steinwb_2019]: https://ntrs.nasa.gov/citations/20190000721
 [research_statler_1988]: https://doi.org/10.1086/166539
 [research_statler_1991]: https://doi.org/10.1086/170216
@@ -13765,11 +17583,18 @@ summary of what classification achieves and what it costs.
 [research_stellapaulm_mardesichnick_2006]: https://ntrs.nasa.gov/citations/20090018995
 [research_stengel_1987]: https://doi.org/10.1016/0094-5765(87)90063-4
 [research_stephensjohnpaul_vosgordona_2011]: https://ntrs.nasa.gov/citations/20110014077
+[research_stern_2004]: https://doi.org/10.21236/ada428861
+[research_stern_2008]: https://doi.org/10.21236/ada491628
+[research_stern_chu_1963]: https://doi.org/10.21236/ad0405109
 [research_stern_chu_1964]: https://doi.org/10.2514/3.27674
+[research_sternberg_2010]: https://doi.org/10.21236/ada518365
 [research_sterne_1958]: https://doi.org/10.1086/107673
 [research_sterne_1958_b]: https://doi.org/10.1086/107696
+[research_stetson_1990]: https://doi.org/10.21236/ada227242
 [research_stevenlrickman]: https://ntrs.nasa.gov/citations/20230006362
 [research_stevens_1981]: https://doi.org/10.1121/1.2019123
+[research_steverding_1965]: https://doi.org/10.2514/3.3116
+[research_stewart_golden_1970]: https://doi.org/10.21236/ad0713702
 [research_stewartdavid_leiserdaniel_2007]: https://ntrs.nasa.gov/citations/20100011117
 [research_stewartmichael_koenigwilliamj_2018]: https://ntrs.nasa.gov/citations/20180006812
 [research_stidhamcurtisr_rutledgesharonk_1994]: https://ntrs.nasa.gov/citations/19950010848
@@ -13782,11 +17607,16 @@ summary of what classification achieves and what it costs.
 [research_stokes_akahoshi_2020]: https://doi.org/10.1016/j.jsse.2020.07.004
 [research_stolarski_cicerone_1974]: https://doi.org/10.2514/3.49248
 [research_stoll_1961]: https://doi.org/10.21236/ad0259076
+[research_stone_1976]: https://doi.org/10.1016/0021-9169(76)90152-5
+[research_stone_shukla_1994]: https://doi.org/10.1016/0898-1221(94)00165-0
 [research_stone_wright_1988]: https://doi.org/10.1029/gl015i010p01169
 [research_stonehw_powellrw_1984]: https://ntrs.nasa.gov/citations/19840015584
 [research_stonehw_powellrw_1985]: https://ntrs.nasa.gov/citations/19850007469
 [research_stout_snell_2000]: https://doi.org/10.2514/2.4606
+[research_stoutenburg_2003]: https://doi.org/10.21236/ada460203
 [research_strack_1967]: https://doi.org/10.2514/3.28889
+[research_strahanalan_2001]: https://ntrs.nasa.gov/citations/20100033368
+[research_strahle_1965]: https://doi.org/10.1016/s0082-0784(65)80266-1
 [research_strauss_1975]: https://doi.org/10.2514/3.56986
 [research_strauss_1993]: https://doi.org/10.1002/sat.4600110506
 [research_streb_1973]: https://doi.org/10.2514/3.60203
@@ -13795,6 +17625,8 @@ summary of what classification achieves and what it costs.
 [research_stuart_howell_2016]: https://doi.org/10.1016/j.asr.2015.05.002
 [research_stulov_shapiro_1969]: https://doi.org/10.1007/bf01014970
 [research_stultz_1969]: https://doi.org/10.2514/3.29621
+[research_stultz_1976]: https://doi.org/10.2514/3.57065
+[research_stultz_1977]: https://doi.org/10.2514/3.57196
 [research_su_dai_2021]: https://doi.org/10.1016/j.ast.2021.107200
 [research_su_dai_2021_b]: https://doi.org/10.1007/s00500-021-06039-y
 [research_su_dai_2021_c]: https://doi.org/10.1007/s00500-021-06287-y
@@ -13804,6 +17636,9 @@ summary of what classification achieves and what it costs.
 [research_su_liu_2025_b]: https://doi.org/10.1016/j.ast.2024.109839
 [research_su_wang_2015]: https://doi.org/10.1016/j.neucom.2015.03.063
 [research_su_zhao_2024]: https://doi.org/10.1088/1742-6596/2764/1/012069
+[research_subject_index_1972]: https://doi.org/10.2514/3.62912
+[research_subject_index_1973]: https://doi.org/10.2514/3.62959
+[research_subject_index_1974]: https://doi.org/10.2514/3.63001
 [research_subject_index_1978]: https://doi.org/10.2514/3.55816
 [research_subject_index_1979]: https://doi.org/10.2514/3.55931
 [research_subramanian_sonney_2004]: https://doi.org/10.2514/1.13101
@@ -13812,28 +17647,36 @@ summary of what classification achieves and what it costs.
 [research_sukhov_sukhov_2022]: https://doi.org/10.15407/knit2022.05.075
 [research_summersgeoffreyp_burkeedwarda_1994]: https://ntrs.nasa.gov/citations/19950014107
 [research_sun_2016]: https://doi.org/10.2514/1.a33288
+[research_sun_cao_2026]: https://doi.org/10.3390/aerospace13070608
 [research_sun_chai_2024]: https://doi.org/10.1016/j.jfranklin.2024.106849
 [research_sun_chen_2025]: https://doi.org/10.1016/j.jpowsour.2025.236784
 [research_sun_huo_2014]: https://doi.org/10.3182/20140824-6-za-1003.00747
 [research_sun_liu_2020]: https://doi.org/10.11728/cjss2020.04.547
 [research_sun_modiano_2003]: https://doi.org/10.1002/sat.752
+[research_sun_neumann_2006]: https://doi.org/10.1364/ao.45.003960
 [research_sun_ran_2025]: https://doi.org/10.1109/jsen.2025.3598737
+[research_sun_shan_2022]: https://doi.org/10.1016/j.apenergy.2022.119025
 [research_sun_shen_2026]: https://doi.org/10.1016/j.ast.2026.112346
 [research_sun_sun_2023]: https://doi.org/10.3390/rs15051213
 [research_sun_wang_2015]: https://doi.org/10.1364/ao.54.000236
 [research_sun_wang_2018]: https://doi.org/10.1155/2018/5478580
 [research_sun_wu_2026]: https://doi.org/10.1016/j.actaastro.2025.12.058
 [research_sun_xiong_2014]: https://doi.org/10.1016/j.jpowsour.2014.02.095
+[research_sun_yang_2020]: https://doi.org/10.12783/dtcse/cmso2019/33628
 [research_sun_zhang_2020]: https://doi.org/10.3390/s20102976
 [research_sun_zhang_2022]: https://doi.org/10.1016/j.tsep.2022.101266
 [research_sun_zhu_2019]: https://doi.org/10.1063/1.5083820
+[research_sun_zou_2024]: https://doi.org/10.1016/j.solener.2023.112234
 [research_sundu_doner_2020]: https://doi.org/10.26701/ems.730201
+[research_sung_2010]: https://doi.org/10.5762/kais.2010.11.1.037
+[research_sunilkumar_venkateshan_1994]: https://doi.org/10.1016/0142-727x(94)90054-x
 [research_sunjian_liuweiqiang_2014]: https://doi.org/10.7498/aps.63.094401
 [research_surber_olsen_1978]: https://doi.org/10.2514/3.57286
 [research_surdi_2020]: https://doi.org/10.1016/j.jsse.2020.08.004
 [research_suresha_gupta_1998]: https://doi.org/10.2514/2.3366
 [research_suresha_gupta_1999]: https://doi.org/10.2514/2.3512
 [research_surya_rao_2021]: https://doi.org/10.3390/en14154617
+[research_surzhikov_2013]: https://doi.org/10.1134/s0018151x13010185
 [research_surzhikov_2016]: https://doi.org/10.1016/j.jappmathmech.2016.05.008
 [research_surzhikov_2018]: https://doi.org/10.1134/s1028335818100038
 [research_surzhikov_2018_b]: https://doi.org/10.31857/s086956520003101-4
@@ -13842,37 +17685,58 @@ summary of what classification achieves and what it costs.
 [research_sushnigdha_joshi_2018]: https://doi.org/10.1016/j.asr.2018.08.009
 [research_suslov_1969]: https://doi.org/10.1007/bf01094684
 [research_suthakar_porto_2025]: https://doi.org/10.3390/s26010179
+[research_sutherland_1978]: https://doi.org/10.2514/3.28002
 [research_sutton_1988]: https://doi.org/10.21236/ada202644
 [research_suvorova_khadyrova_2023]: https://doi.org/10.1016/j.ceramint.2023.04.222
 [research_suwata_matsuda_2018]: https://doi.org/10.1299/jsmetokai.2018.67.604
+[research_suzuki_2004]: https://doi.org/10.1016/s1474-6670(17)32307-8
 [research_suzuki_furudate_2002]: https://doi.org/10.2514/2.6656
 [research_suzuki_kusaki_1995]: https://doi.org/10.2322/jjsass1969.43.161
 [research_suzuki_sawada_2002]: https://doi.org/10.1299/jsmemecjo.2002.1.0_301
 [research_svotina_2024]: https://doi.org/10.1016/j.jsse.2024.04.002
 [research_svotina_2026]: https://doi.org/10.1016/j.jsse.2026.02.007
+[research_swaim_1968]: https://doi.org/10.2514/3.4591
 [research_swaim_1969]: https://doi.org/10.1109/tac.1969.1099241
 [research_swaminathan_rajeev_2023]: https://doi.org/10.2514/1.a35562
 [research_swanson_birur_2003]: https://doi.org/10.1016/s1359-4311(03)00036-x
+[research_swartwout_2007]: https://doi.org/10.21236/ada473589
 [research_swartwout_2009]: https://doi.org/10.21236/ada504708
 [research_swartz_rohrbaugh_1972]: https://doi.org/10.1016/0021-9169(72)90036-0
 [research_sweisean_2014]: https://ntrs.nasa.gov/citations/20140011251
 [research_swerdlingb_alarioj_1973]: https://ntrs.nasa.gov/citations/19740006541
 [research_swerdlingb_hembachr_1973]: https://ntrs.nasa.gov/citations/19730053194
+[research_swigart_1962]: https://doi.org/10.21236/ad0274612
+[research_swigart_1963]: https://doi.org/10.2514/3.1721
 [research_swinbank_ortland_2003]: https://doi.org/10.1029/2002jd003135
 [research_swire_sacks_2025]: https://doi.org/10.2139/ssrn.5683285
+[research_symposium_on_1973]: https://ntrs.nasa.gov/citations/19730024757
+[research_symposium_on_1973_b]: https://ntrs.nasa.gov/citations/19730024728
+[research_synder_cross_1960]: https://doi.org/10.21236/ada451853
 [research_synowicki_hale_1993]: https://doi.org/10.2514/3.55661
 [research_synowicki_hale_1995]: https://doi.org/10.2514/3.26580
+[research_szalai_chen_2005]: https://doi.org/10.2514/1.3637
 [research_tachiki_kobayashi_2000]: https://doi.org/10.1002/(sici)1520-6416(200001)130:1<88::aid-eej11>3.3.co;2-c
+[research_taff_1979]: https://doi.org/10.21236/ada073776
+[research_taff_1979_b]: https://doi.org/10.21236/ada077049
+[research_taff_1979_c]: https://doi.org/10.21236/ada066248
+[research_taff_1983]: https://doi.org/10.21236/ada126174
+[research_taff_randall_1984]: https://doi.org/10.21236/ada142994
+[research_taff_sorvari_1979]: https://doi.org/10.21236/ada074231
 [research_tagawa_doi_2009]: https://doi.org/10.2514/1.30866
 [research_tagawa_yanagisawa_2016]: https://doi.org/10.1016/j.asr.2015.10.034
 [research_tagliafico_fossa_1997]: https://doi.org/10.1007/s002310050117
 [research_tahirgokcen_jonathandmorgan]: https://ntrs.nasa.gov/citations/20240008232
+[research_tai_1989]: https://doi.org/10.1175/1520-0426(1989)006<0147:aaowuo>2.0.co;2
+[research_tai_1991]: https://doi.org/10.1175/1520-0426(1991)008<0271:htotgt>2.0.co;2
 [research_takahashi_mizobata_1997]: https://doi.org/10.2514/2.3280
+[research_takamatsu_imagawa_1986]: https://doi.org/10.1016/0094-5765(86)90077-9
 [research_takano_marchand_2014]: https://doi.org/10.2514/1.a32623
 [research_takeo_1974]: https://doi.org/10.1016/0017-9310(74)90187-2
 [research_takeuchi_2019]: https://doi.org/10.1016/j.jsse.2019.05.006
+[research_takhar_agarwal_1998]: https://doi.org/10.1007/s002310050213
 [research_talayta_whitenh_1984]: https://ntrs.nasa.gov/citations/19840036465
 [research_tam_wainright_2006]: https://doi.org/10.1149/1.2209349
+[research_tam_wainright_2007]: https://doi.org/10.1016/j.jpowsour.2006.11.042
 [research_tan_1998]: https://doi.org/10.1016/s1364-6826(98)00089-3
 [research_tan_2011]: https://doi.org/10.3901/jme.2011.03.109
 [research_tan_badhwar_1997]: https://doi.org/10.1016/s1364-6826(96)00020-x
@@ -13882,29 +17746,42 @@ summary of what classification achieves and what it costs.
 [research_tanaka_2017]: https://doi.org/10.1016/j.spacepol.2017.06.002
 [research_tanaka_mendozahernandez_2017]: https://doi.org/10.1051/e3sconf/20171617008
 [research_tancredi_grassi_2007]: https://doi.org/10.2514/1.22007
+[research_tandon_terrell_2003]: https://doi.org/10.1016/s0017-9310(03)00117-0
+[research_tang_1980]: https://doi.org/10.2514/3.56023
 [research_tang_guo_2025]: https://doi.org/10.1016/j.cja.2025.103578
 [research_tang_li_2017]: https://doi.org/10.1149/ma2017-01/5/441
+[research_tang_wu_2016]: https://doi.org/10.1016/j.solener.2016.05.026
 [research_tang_zhang_2023]: https://doi.org/10.3390/en16124677
+[research_tang_zhu_1989]: https://doi.org/10.11728/cjss1989.03.226
 [research_tangmh_pearsongpe_1971]: https://ntrs.nasa.gov/citations/19710029224
 [research_taniguchi_2000]: https://doi.org/10.1299/jsmemag.103.983_674
 [research_taniguchi_nada_2019]: https://doi.org/10.1299/jsmedsd.2019.29.2504
 [research_tannehilljc_1984]: https://ntrs.nasa.gov/citations/19850020609
+[research_tanner_1997]: https://doi.org/10.17764/jiet.2.40.2.b27vj14240535303
+[research_tapley_1975]: https://doi.org/10.21236/ada013842
 [research_tapleybd_schutzbe_1985]: https://ntrs.nasa.gov/citations/19860057342
 [research_tariq_wasim_2026]: https://doi.org/10.3390/pr14152458
+[research_tartabini_munk_2005]: https://doi.org/10.2514/1.15175
 [research_tartabini_wurster_2002]: https://doi.org/10.2514/2.3880
 [research_tartabinipaulv_lepschrogera_2000]: https://ntrs.nasa.gov/citations/20000031364
 [research_tartabinipaulv_munkmichellem_2002]: https://ntrs.nasa.gov/citations/20030005808
 [research_tarzizahib_berrydavids_2015]: https://ntrs.nasa.gov/citations/20170007057
+[research_tas_klemettinen_2024]: https://doi.org/10.1002/cssc.202400376
+[research_tatabhatla_agarwal_2019]: https://doi.org/10.1016/j.enconman.2019.111825
 [research_tategami_goto_2025]: https://doi.org/10.1109/access.2025.3526964
 [research_tatry_deneu_1997]: https://doi.org/10.1016/s0094-5765(97)00194-x
+[research_tauber_1986]: https://doi.org/10.2514/3.9568
 [research_tauberm_charginm_1991]: https://ntrs.nasa.gov/citations/19910058790
 [research_taubermichaele_1994]: https://ntrs.nasa.gov/citations/20000064077
+[research_taubermichaele_bowlesjeffreyv_1989]: https://ntrs.nasa.gov/citations/19900023961
 [research_taussig_mattick_1986]: https://doi.org/10.2514/3.25077
 [research_tava_suzuki_2002]: https://doi.org/10.2322/tjsass.45.10
 [research_tawfiqur_zhou_2011]: https://doi.org/10.4028/www.scientific.net/amm.110-116.5232
 [research_tayagaki_hirooka_2024]: https://doi.org/10.1016/j.solmat.2024.112879
 [research_tayagaki_kobayashi_2023]: https://doi.org/10.1016/j.solmat.2023.112583
 [research_taylor_1961]: https://doi.org/10.1016/0032-0633(61)90002-2
+[research_taylor_1978]: https://doi.org/10.21236/ada065255
+[research_taylor_1999]: https://doi.org/10.1093/astrog/40.1.1.6
 [research_taylor_cerro_1986]: https://doi.org/10.2514/3.25093
 [research_taylor_chato_1992]: https://doi.org/10.1016/0011-2275(92)90267-e
 [research_taylorterryl_2004]: https://ntrs.nasa.gov/citations/20040037790
@@ -13914,35 +17791,54 @@ summary of what classification achieves and what it costs.
 [research_tekin_karamangil_2024]: https://doi.org/10.1016/j.heliyon.2024.e28454
 [research_teng_han_2022]: https://doi.org/10.3390/app12136437
 [research_teng_han_2025]: https://doi.org/10.34133/space.0240
+[research_terekhov_1992]: https://doi.org/10.1016/0021-9169(92)90038-m
 [research_terpigorev_1973]: https://doi.org/10.1007/bf00856880
 [research_terry_barber_2007]: https://doi.org/10.1016/j.actaastro.2007.01.070
+[research_tesfamichael_wackelgard_2000]: https://doi.org/10.1016/s0038-092x(00)00029-3
+[research_tewari_2009]: https://doi.org/10.2514/1.39651
+[research_tewari_zhang_2013]: https://doi.org/10.21236/ada595212
 [research_tewell_ewing_1986]: https://doi.org/10.2514/3.25087
 [research_tgo_ends_2018]: https://doi.org/10.1093/astrogeo/aty047
 [research_tharayil_asirvatham_2016]: https://doi.org/10.1016/j.ijheatmasstransfer.2015.11.011
 [research_the_covert_2013]: https://doi.org/10.5860/choice.51-1340
+[research_the_formation_1961]: https://doi.org/10.1016/0032-0633(61)90212-4
+[research_the_formation_1961_b]: https://doi.org/10.1016/0032-0633(61)90268-9
+[research_the_formation_1962]: https://doi.org/10.1016/0032-0633(62)90157-5
 [research_the_graphic_2011]: https://doi.org/10.1049/et.2011.0620
+[research_the_graphic_2013]: https://doi.org/10.1049/et.2013.1016
 [research_the_igy_1958]: https://doi.org/10.1007/bf02526742
+[research_the_influence_1961]: https://doi.org/10.1016/0032-0633(61)90164-7
 [research_the_orbit_1958]: https://doi.org/10.1038/1811507b0
 [research_the_orbit_1963]: https://doi.org/10.1016/0032-0633(63)90146-6
 [research_the_plasma_1989]: https://doi.org/10.1029/ja094ia06p06866
 [research_the_spacecraft_1966]: https://doi.org/10.1016/0038-092x(66)90017-x
 [research_theobald_1966]: https://doi.org/10.2514/3.55255
+[research_thermal_design_1962]: https://doi.org/10.1016/0038-092x(62)90056-7
+[research_thermal_design_2003]: https://doi.org/10.3795/ksme-b.2003.27.1.117
 [research_thermal_protection_2015]: https://doi.org/10.21275/v4i11.nov151618
 [research_thermal_simulation_2021]: https://doi.org/10.33140/atcp.04.01.15
+[research_thiagarajan_sharma_2023]: https://doi.org/10.61653/joast.v67i2.2015.301
 [research_thiemann_bogus_1988]: https://doi.org/10.2514/3.26000
 [research_thiemann_schunk_1990]: https://doi.org/10.2514/3.26179
 [research_tholen_1985]: https://doi.org/10.1086/113940
+[research_thomas_1965]: https://doi.org/10.2514/3.3159
+[research_thomas_1987]: https://doi.org/10.17764/jiet.1.30.6.j172813701hn2553
 [research_thomas_1990]: https://doi.org/10.2514/3.26162
 [research_thomas_aoki_2022]: https://doi.org/10.1016/j.pss.2021.105411
 [research_thomas_hyde_1998]: https://doi.org/10.21236/ada451482
 [research_thomas_perlbachs_1967]: https://doi.org/10.21236/ad0655383
 [research_thomasdale_smithcharles_2002]: https://ntrs.nasa.gov/citations/20020092099
+[research_thomaskwestiv_christopherojohnston]: https://ntrs.nasa.gov/citations/20220018369
 [research_thomasrg_1983]: https://ntrs.nasa.gov/citations/19860004633
 [research_thompkinsss_pittmancm_1980]: https://ntrs.nasa.gov/citations/19800017874
 [research_thompson_griggs_2026]: https://doi.org/10.2514/1.a36581
+[research_thompson_simpson_1981]: https://doi.org/10.1029/ja086ia03p01265
 [research_thornton_1977]: https://doi.org/10.21236/ada047394
 [research_thornton_chini_1995]: https://doi.org/10.2514/3.26610
 [research_thornton_kim_1993]: https://doi.org/10.2514/3.25550
+[research_thorp_pierson_1995]: https://doi.org/10.2514/3.21384
+[research_thorpe_1977]: https://doi.org/10.1029/js082i028p04161
+[research_thorpe_1978]: https://doi.org/10.1016/0019-1035(78)90105-7
 [research_throckmorton_1983]: https://doi.org/10.2514/3.25583
 [research_throckmorton_1993]: https://doi.org/10.2514/3.25551
 [research_throckmorton_1993_b]: https://doi.org/10.2514/3.26389
@@ -13953,39 +17849,57 @@ summary of what classification achieves and what it costs.
 [research_tian_fan_2015_b]: https://doi.org/10.1007/s11071-014-1877-0
 [research_tian_fang_2025]: https://doi.org/10.3390/rs17172994
 [research_tian_lian_2010]: https://doi.org/10.1149/ma2010-01/5/388
+[research_tian_liu_2024]: https://doi.org/10.1016/j.ijhydene.2023.11.030
 [research_tian_luo_2025]: https://doi.org/10.1016/j.compositesa.2025.109107
 [research_tian_zhang_2009]: https://doi.org/10.1016/j.ijhydene.2008.11.077
 [research_tidwell_1970]: https://doi.org/10.2514/3.30185
 [research_tiededa_1972]: https://ntrs.nasa.gov/citations/19730002166
 [research_tiggesmichael_crulltimothy_2006]: https://ntrs.nasa.gov/citations/20070005040
+[research_tillierclemensemmanuel_1998]: https://ntrs.nasa.gov/citations/19990004144
+[research_timmons_1996]: https://doi.org/10.21236/adb209013
 [research_ting_1960]: https://doi.org/10.2514/8.5305
 [research_tingpc_1982]: https://ntrs.nasa.gov/citations/19820048333
 [research_tirskii_1993]: https://doi.org/10.1007/bf00570739
+[research_titheridge_1962]: https://doi.org/10.1016/0021-9169(62)90097-1
+[research_tkachenko_2003]: https://doi.org/10.1023/a:1026002417619
 [research_tobe_grandhi_2013]: https://doi.org/10.1016/j.ast.2012.11.001
+[research_tobie_forget_2003]: https://doi.org/10.1016/s0019-1035(03)00131-3
 [research_tobiska_2003]: https://doi.org/10.2514/2.3960
 [research_toda_schlee_1967]: https://doi.org/10.2514/3.29147
 [research_toddwhite_helenhwang_2020]: https://ntrs.nasa.gov/citations/20205007031
 [research_toklu_2024]: https://doi.org/10.1108/aeat-10-2023-0272
 [research_tokudome_naruo_2009]: https://doi.org/10.2322/tstj.7.ta_19
 [research_tolson_bemis_2008]: https://doi.org/10.2514/1.34301
+[research_tolson_dwyer_2005]: https://doi.org/10.2514/1.15173
+[research_tolson_keating_2007]: https://doi.org/10.2514/1.28472
 [research_tolsonrh_keatinggm_2002]: https://ntrs.nasa.gov/citations/20030002226
+[research_tomioka_kohsetsu_1990]: https://doi.org/10.1016/0094-5765(90)90005-6
 [research_tomioka_tachikawa_2016]: https://doi.org/10.2514/1.a33499
+[research_tong_1965]: https://doi.org/10.2514/3.2979
 [research_torii_ida_2025]: https://doi.org/10.1016/j.icarus.2025.116608
 [research_tormo_serghides_2007]: https://doi.org/10.2514/1.30613
 [research_torres_mishkinis_2012]: https://doi.org/10.1615/heatpipescietech.2012004205
 [research_torres_mishkinis_2012_b]: https://doi.org/10.1615/heatpipescietech.2013006631
+[research_tortora_somenzi_2006]: https://doi.org/10.2514/1.15359
 [research_totani_kodama_2005]: https://doi.org/10.2514/1.11006
 [research_toth_2026]: https://doi.org/10.2478/kbo-2026-0078
 [research_tournes_johnson_2001]: https://doi.org/10.2514/2.4710
 [research_tournes_landrum_1998]: https://doi.org/10.2514/2.4273
+[research_tournier_elgenk_2006]: https://doi.org/10.2514/1.20031
 [research_townend_1979]: https://doi.org/10.1016/0376-0421(79)90001-0
 [research_townend_1999]: https://doi.org/10.1098/rsta.1999.0437
 [research_townend_1999_b]: https://doi.org/10.1098/rsta.1999.0423
 [research_townend_1999_c]: https://doi.org/10.1098/rsta.1999.0422
+[research_townsend_1966]: https://doi.org/10.21236/ad0633628
+[research_townsend_1966_b]: https://doi.org/10.21236/ad0633720
+[research_toyoda_matsumoto_2004]: https://doi.org/10.2514/1.13103
 [research_toyoda_okumura_2005]: https://doi.org/10.2514/1.11602
 [research_toyoshima_2010]: https://doi.org/10.1117/1.3482165
 [research_tozlu_babacan_2025]: https://doi.org/10.1016/j.vlsi.2025.102423
+[research_tragesser_longuski_1997]: https://doi.org/10.2514/2.7598
 [research_tragesser_umbert_2021]: https://doi.org/10.1016/j.actaastro.2021.04.027
+[research_trajectory_optimization_2009]: https://doi.org/10.5139/jksas.2009.37.4.350
+[research_trask_coverstone_2004]: https://doi.org/10.2514/1.2582
 [research_treinin_loeff_1983]: https://doi.org/10.1016/0009-2614(83)80569-7
 [research_trenchik_richards_2012]: https://doi.org/10.21236/ada610185
 [research_trenchik_richards_2012_b]: https://doi.org/10.21236/ada614019
@@ -13993,9 +17907,16 @@ summary of what classification achieves and what it costs.
 [research_triana_bautista_2015]: https://doi.org/10.5028/jatm.v7i1.405
 [research_tribble_pickett_1989]: https://doi.org/10.1016/0032-0633(89)90054-8
 [research_tripathi_padhi_2016]: https://doi.org/10.1016/j.ifacol.2016.03.022
+[research_trishchenko_garand_2011]: https://doi.org/10.1175/jtech-d-10-05013.1
 [research_trishchenko_ungureanu_2016]: https://doi.org/10.1080/07038992.2016.1249563
 [research_tropp_1966]: https://doi.org/10.1007/bf00914690
 [research_troyanchuk_2006]: https://doi.org/10.1002/chin.200626201
+[research_truttse_1968]: https://doi.org/10.1016/0032-0633(68)90014-7
+[research_truttse_1968_b]: https://doi.org/10.1016/0032-0633(68)90026-3
+[research_truttse_1969]: https://doi.org/10.1016/0032-0633(69)90036-1
+[research_trwspacetechnologylabsredondobeachca_1964]: https://doi.org/10.21236/ad0607053
+[research_tse_dassarma_2007]: https://doi.org/10.1103/physrevb.75.045333
+[research_tse_dassarma_2007_b]: https://doi.org/10.1103/physrevb.75.049902
 [research_tseng_2021]: https://doi.org/10.3390/rs13224681
 [research_tserendejid_urtnasan_2025]: https://doi.org/10.3390/cmd6020019
 [research_tsuchiya_suzuki_1998]: https://doi.org/10.1016/s1474-6670(17)41115-3
@@ -14003,6 +17924,7 @@ summary of what classification achieves and what it costs.
 [research_tsunoda_nakajima_1992]: https://doi.org/10.2514/3.26345
 [research_tu_zhang_2021]: https://doi.org/10.1186/s43020-021-00048-w
 [research_tupitsyn_2021]: https://doi.org/10.33950/spacetech-2308-7625-2021-1-78-87
+[research_turbulization_of_2017]: https://doi.org/10.15372/pmtf20170510
 [research_turchi_1985]: https://doi.org/10.2514/3.22800
 [research_turchi_depersis_2026]: https://doi.org/10.1007/s12567-026-00711-5
 [research_turnerg_hillh_1982]: https://ntrs.nasa.gov/citations/19830006451
@@ -14011,11 +17933,15 @@ summary of what classification achieves and what it costs.
 [research_tuttle_morgan_2017]: https://doi.org/10.2514/1.a33795
 [research_twiss_1965]: https://doi.org/10.2514/3.28259
 [research_tycz_1990]: https://doi.org/10.1109/5.56939
+[research_u_s_space_launch_2008]: https://doi.org/10.5860/choice.46-0261a
 [research_ubeku_igbinovia_2009]: https://doi.org/10.4028/www.scientific.net/amr.62-64.533
 [research_uchida_2015]: https://doi.org/10.2184/lsj.43.9_599
 [research_uchida_yabe_2006]: https://doi.org/10.2184/lsj.34.419
 [research_uddin_perera_2016]: https://doi.org/10.3390/batteries2020013
 [research_ulybyshev_2000]: https://doi.org/10.2514/2.3572
+[research_ulybyshev_2007]: https://doi.org/10.2514/1.22642
+[research_uma_sankaran_2017]: https://doi.org/10.1051/e3sconf/20171604001
+[research_umanskycastro_yap_2021]: https://doi.org/10.3389/fspas.2021.664215
 [research_ungareugenek_2008]: https://ntrs.nasa.gov/citations/20080009739
 [research_ungurean_carstoiu_2016]: https://doi.org/10.1002/er.3598
 [research_united_states_1960]: https://doi.org/10.1126/science.131.3403.815
@@ -14028,39 +17954,54 @@ summary of what classification achieves and what it costs.
 [research_us_to_2015]: https://doi.org/10.1063/pt.5.028888
 [research_usovik_2023]: https://doi.org/10.1016/j.jsse.2022.12.001
 [research_usuki_tsuda_2026]: https://doi.org/10.1016/j.actaastro.2026.07.030
+[research_utsumi_2000]: https://doi.org/10.2514/2.3632
 [research_uzun_2025]: https://doi.org/10.3390/batteries11120465
+[research_v_a_1965]: https://doi.org/10.1016/0032-0633(65)90089-9
 [research_vadasz_1999]: https://doi.org/10.1016/s0017-9310(99)00042-3
 [research_vaganov_drozdov_2009]: https://doi.org/10.1615/tsagiscij.v40.i2.10
 [research_vaidyanathan_wajsgras_1996]: https://doi.org/10.1016/0378-7753(95)02253-8
 [research_valasek_harris_2020]: https://doi.org/10.2514/1.g004010
 [research_valeev_1965]: https://doi.org/10.1016/0021-8928(65)90014-6
 [research_valente_eramo_2023]: https://doi.org/10.1016/j.comnet.2023.109849
+[research_valentinepg_meyerdavidl_2004]: https://ntrs.nasa.gov/citations/20040086536
+[research_valetkin_meglitskii_2009]: https://doi.org/10.1007/s10692-009-9137-7
 [research_vallado_finkleman_2014]: https://doi.org/10.1016/j.actaastro.2013.10.005
 [research_vallerani_esposti_1979]: https://doi.org/10.2514/3.57680
 [research_valserra_bonnamy_2011]: https://doi.org/10.3182/20110828-6-it-1002.02433
 [research_vampola_1989]: https://doi.org/10.2514/3.55599
+[research_van_1963]: https://doi.org/10.21236/ad0408349
 [research_vandaalen_vanhoboken_2023]: https://doi.org/10.1016/j.clsr.2022.105789
 [research_vandenijssel_visser_2005]: https://doi.org/10.1016/j.asr.2005.01.107
+[research_vanderha_modi_1978]: https://doi.org/10.2514/3.57293
+[research_vandervoort_1992]: https://doi.org/10.21236/ada254342
 [research_vandresarneilt_zimmerligregorya_2014]: https://ntrs.nasa.gov/citations/20140012695
+[research_vanmoldeniso_andersonjohndjr_1992]: https://ntrs.nasa.gov/citations/19920012972
+[research_vanoort_chu_2007]: https://doi.org/10.3182/20070625-5-fr-2916.00056
 [research_vanwoerkom_1981]: https://doi.org/10.2514/3.56108
 [research_varaksin_2001]: https://doi.org/10.1023/a:1012310320086
 [research_varaksin_ivanov_2003]: https://doi.org/10.1023/a:1025111832463
 [research_varaprasad_rao_2006]: https://doi.org/10.14429/dsj.56.1933
 [research_varatharajoo_kahle_2003]: https://doi.org/10.2514/2.6914
 [research_vargo_1963]: https://doi.org/10.1080/0025570x.1963.11977639
+[research_varwig_1963]: https://doi.org/10.21236/ad0403052
 [research_vasconcelos_gaggi_2025]: https://doi.org/10.3390/aerospace12010067
 [research_vashisht_rakshit_2023]: https://doi.org/10.1016/j.est.2023.107797
 [research_vashisht_rakshit_2023_b]: https://doi.org/10.1149/ma2023-023445mtgabs
 [research_vasilev_pasechnik_2002]: https://doi.org/10.1615/jautomatinfscien.v34.i4.60
+[research_vasilieva_1996]: https://doi.org/10.1016/0022-4073(95)00140-9
 [research_vasilkov_1975]: https://doi.org/10.1007/bf01015455
 [research_vassilev_1963]: https://doi.org/10.1038/200773b0
 [research_vaughn_carruth_1994]: https://doi.org/10.2514/3.26402
 [research_vaynerboris_2015]: https://ntrs.nasa.gov/citations/20150023056
 [research_vaynerboris_2016]: https://ntrs.nasa.gov/citations/20160010349
 [research_vedder_tabor_1991]: https://doi.org/10.2514/3.26232
+[research_vedder_tabor_1992]: https://doi.org/10.2514/3.26316
+[research_veeran_pesyridis_2018]: https://doi.org/10.3390/en11102558
 [research_veeresha_shailandran_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.650
 [research_veeresha_simhachalarao_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.610
 [research_vegafleitas_molllopez_2026]: https://doi.org/10.1016/j.solmat.2026.114518
+[research_vegetti_koopmans_2009]: https://doi.org/10.1111/j.1365-2966.2009.15559.x
+[research_vemuri_1982]: https://doi.org/10.21236/ada113076
 [research_veniaminov_kozlov_2026]: https://doi.org/10.12737/stp-121202603
 [research_venkatakrishnan_udayakumar_2018]: https://doi.org/10.1016/j.applthermaleng.2018.01.052
 [research_venkatapathy_prabhu_2021]: https://doi.org/10.3847/25c2cfeb.0423a253
@@ -14070,15 +18011,22 @@ summary of what classification achieves and what it costs.
 [research_verma_yadav_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.510
 [research_verspieren_2021]: https://doi.org/10.1016/j.jsse.2020.10.001
 [research_vidal_malysz_2020]: https://doi.org/10.1109/access.2020.2980961
+[research_vigue_lichten_1994]: https://doi.org/10.2514/3.26519
+[research_vilanova_kim_2020]: https://doi.org/10.3390/en13040781
 [research_vincent_bender_1990]: https://doi.org/10.1029/jb095ib13p21357
 [research_vind_1961]: https://doi.org/10.1086/108452
 [research_vinh_dobrzelecki_1971]: https://doi.org/10.1007/bf01227791
+[research_vinh_hanson_1985]: https://doi.org/10.1016/0094-5765(85)90003-7
 [research_vinh_johannesen_1986]: https://doi.org/10.1016/0094-5765(86)90084-6
 [research_vinh_johannesen_1986_b]: https://doi.org/10.2514/3.20103
+[research_vinh_longuski_1979]: https://doi.org/10.1016/0094-5765(79)90028-6
 [research_vinh_ma_1990]: https://doi.org/10.1016/0094-5765(90)90117-4
+[research_vinhnx_busemanna_1980]: https://ntrs.nasa.gov/citations/19810031841
 [research_vinogradov_murashko_2002]: https://doi.org/10.2514/2.3793
 [research_vinti_1959]: https://doi.org/10.6028/jres.062.015
+[research_vinti_1960]: https://doi.org/10.1086/108267
 [research_visagie_lappas_2015]: https://doi.org/10.1016/j.actaastro.2014.12.013
+[research_vishnunampoothiri_sowmianarayanan_2015]: https://doi.org/10.18520/v109/i6/1055-1060
 [research_vishnuprakashb_anandradhakrishnan_2024]: https://doi.org/10.61359/11.2106-2472
 [research_vishwakarma_chauhan_2014]: https://doi.org/10.18090/samriddhi.v6i2.1559
 [research_visser_2005]: https://doi.org/10.1007/s00190-005-0455-0
@@ -14089,18 +18037,27 @@ summary of what classification achieves and what it costs.
 [research_vives_lamy_2005]: https://doi.org/10.1016/j.asr.2005.05.092
 [research_viviani_pezzella_2009]: https://doi.org/10.1080/19942060.2009.11015290
 [research_viviani_pezzella_2010]: https://doi.org/10.2514/1.40876
+[research_vlassov_desousa_2006]: https://doi.org/10.1016/j.ijheatmasstransfer.2006.02.059
 [research_vlassov_panissi_2016]: https://doi.org/10.1080/01457632.2016.1212581
+[research_voelz_2014]: https://doi.org/10.21236/ada616749
 [research_volkov_kulvits_2020]: https://doi.org/10.15622/sp.2020.19.4.1
 [research_volkov_semenov_2011]: https://doi.org/10.1134/s0038094611040101
+[research_volland_1981]: https://doi.org/10.1016/0032-0633(81)90012-x
 [research_volz_conaty_1994]: https://doi.org/10.1016/0011-2275(94)90123-6
 [research_vonbun_argentiero_1978]: https://doi.org/10.1109/taes.1978.308547
+[research_vonkries_1995]: https://doi.org/10.1016/0265-9646(95)00005-w
 [research_vorona_kopalov_2024]: https://doi.org/10.18127/j03209601-202406-02
 [research_voronkin_1971]: https://doi.org/10.1007/bf01015073
 [research_voss_cole_2013]: https://doi.org/10.21236/ada597343
 [research_votta_schettino_2013]: https://doi.org/10.1016/j.ast.2012.02.001
 [research_vourlidas_bruinsma_2018]: https://doi.org/10.1002/2017sw001725
+[research_voute_1986]: https://doi.org/10.1016/0265-9646(86)90094-9
+[research_vtipil_warner_2014]: https://doi.org/10.21236/ada625084
 [research_vukovich_kim_2019]: https://doi.org/10.1504/ijspacese.2019.097438
 [research_wada_kubota_1992]: https://doi.org/10.2514/3.46283
+[research_wagenknechtj_fredricksons_2003]: https://ntrs.nasa.gov/citations/20150017436
+[research_wagner_1965]: https://doi.org/10.2514/3.28262
+[research_wagner_1975]: https://doi.org/10.1029/jb080i029p04089
 [research_wagner_1985]: https://doi.org/10.1029/jb090ib04p03027
 [research_wakker_ambrosius_1985]: https://doi.org/10.1016/0094-5765(85)90035-9
 [research_wakker_ambrosius_1985_b]: https://doi.org/10.1029/jb090ib11p09275
@@ -14109,21 +18066,32 @@ summary of what classification achieves and what it costs.
 [research_walberggd_1983]: https://ntrs.nasa.gov/citations/19840028104
 [research_walberggd_siemerspmiii_1987]: https://ntrs.nasa.gov/citations/19880028707
 [research_walburn_1975]: https://doi.org/10.2514/3.57038
+[research_walchner_1974]: https://doi.org/10.21236/ada007045
 [research_waldecker_howell_2025]: https://doi.org/10.1007/s40295-025-00551-1
 [research_walden_1968]: https://doi.org/10.2514/3.4739
+[research_waldrep_1967]: https://doi.org/10.21236/ad0650690
 [research_waldrop_1986]: https://doi.org/10.1126/science.232.4751.706.b
 [research_walker_1999]: https://doi.org/10.1093/astrog/40.5.5.9
 [research_walker_cross_2010]: https://doi.org/10.1016/j.actaastro.2009.10.008
+[research_walker_statler_1988]: https://doi.org/10.1016/0379-6787(88)90104-4
+[research_walker_stokes_2000]: https://doi.org/10.1016/s0094-5765(00)00108-9
 [research_walkeriraj_covellpeterf_1993]: https://ntrs.nasa.gov/citations/19950006357
 [research_walkerjamesl_richterjoeld_2006]: https://ntrs.nasa.gov/citations/20060014008
 [research_walkerwilliam_2019]: https://ntrs.nasa.gov/citations/20190030819
 [research_wallacemarks_youtunghan_2019]: https://ntrs.nasa.gov/citations/20210008982
+[research_wallner_camiel_1966]: https://doi.org/10.2514/3.28501
 [research_wallner_well_2003]: https://doi.org/10.2514/2.6928
 [research_walls_greene_1987]: https://doi.org/10.1177/003754978704800304
 [research_walsh_berthoud_2021]: https://doi.org/10.1016/j.actaastro.2020.09.018
+[research_walter_aye_2024]: https://doi.org/10.1029/2023ea003491
 [research_walyus_dalton_1991]: https://doi.org/10.2514/3.26269
 [research_wan_deng_2015]: https://doi.org/10.1016/j.applthermaleng.2014.11.010
+[research_wan_zhan_2020]: https://doi.org/10.1109/taes.2019.2955811
+[research_wang_1963]: https://doi.org/10.2514/3.54873
+[research_wang_1963_b]: https://doi.org/10.21236/ad0402079
 [research_wang_1965]: https://doi.org/10.2514/3.3142
+[research_wang_1968]: https://doi.org/10.1016/0022-4073(68)90199-4
+[research_wang_1985]: https://doi.org/10.1063/1.865385
 [research_wang_2014]: https://doi.org/10.4028/www.scientific.net/amm.501-504.2307
 [research_wang_2015]: https://doi.org/10.7463/0115.0755072
 [research_wang_2016]: https://doi.org/10.1080/08929882.2016.1127036
@@ -14138,21 +18106,27 @@ summary of what classification achieves and what it costs.
 [research_wang_chen_2024_b]: https://doi.org/10.1016/j.apenergy.2024.123280
 [research_wang_chen_2026]: https://doi.org/10.1016/j.asr.2026.04.001
 [research_wang_chiu_2025]: https://doi.org/10.1016/j.applthermaleng.2025.126431
+[research_wang_cui_2017]: https://doi.org/10.1016/j.actaastro.2017.05.017
 [research_wang_du_2022]: https://doi.org/10.2139/ssrn.4150564
 [research_wang_feng_2024]: https://doi.org/10.3390/rs16122161
+[research_wang_fritts_2006]: https://doi.org/10.1029/2006gl027753
+[research_wang_gao_2013]: https://doi.org/10.4028/www.scientific.net/amr.756-759.4626
 [research_wang_gao_2016]: https://doi.org/10.2322/tastj.14.pd_39
 [research_wang_geng_2026]: https://doi.org/10.1016/j.sspwt.2026.01.005
 [research_wang_grant_2018]: https://doi.org/10.2514/1.a34102
 [research_wang_gui_2025]: https://doi.org/10.1016/j.vehcom.2025.100917
+[research_wang_ingersoll_2002]: https://doi.org/10.1029/2001je001815
 [research_wang_li_2012]: https://doi.org/10.4028/www.scientific.net/amr.433-440.5854
 [research_wang_li_2021]: https://doi.org/10.3390/universe7090316
 [research_wang_li_2023]: https://doi.org/10.1016/j.engappai.2022.105497
 [research_wang_li_2026]: https://doi.org/10.2514/1.g009649
+[research_wang_liu_2022]: https://doi.org/10.3390/aerospace9120745
 [research_wang_liu_2025]: https://doi.org/10.1088/1361-6501/ae1a00
 [research_wang_liu_2025_b]: https://doi.org/10.1016/j.tsep.2025.103659
 [research_wang_liu_2025_c]: https://doi.org/10.1016/j.asr.2025.01.057
 [research_wang_lu_2018]: https://doi.org/10.3390/app8112078
 [research_wang_luo_2022]: https://doi.org/10.3390/app122110734
+[research_wang_ma_2001]: https://doi.org/10.2514/2.6577
 [research_wang_miao_2019]: https://doi.org/10.1007/s11630-019-1142-4
 [research_wang_nakasuka_2012]: https://doi.org/10.1108/00022661211255511
 [research_wang_pan_2021]: https://doi.org/10.1016/j.ijheatmasstransfer.2021.121811
@@ -14166,6 +18140,8 @@ summary of what classification achieves and what it costs.
 [research_wang_sone_2005]: https://doi.org/10.1016/j.jpowsour.2004.10.014
 [research_wang_sone_2006]: https://doi.org/10.1016/j.jpowsour.2006.01.052
 [research_wang_tang_2019]: https://doi.org/10.1109/access.2019.2909589
+[research_wang_ting_1961]: https://doi.org/10.21236/ad0257618
+[research_wang_toigo_2011]: https://doi.org/10.1016/j.icarus.2011.06.029
 [research_wang_wan_2013]: https://doi.org/10.1615/heatpipescietech.2014007581
 [research_wang_wang_2019]: https://doi.org/10.1007/s42405-019-00217-x
 [research_wang_wang_2023]: https://doi.org/10.1088/1742-6596/2640/1/012017
@@ -14179,9 +18155,12 @@ summary of what classification achieves and what it costs.
 [research_wang_xu_2019]: https://doi.org/10.1016/j.ast.2018.11.033
 [research_wang_xue_2025]: https://doi.org/10.1016/j.applthermaleng.2025.126704
 [research_wang_yamada_2005]: https://doi.org/10.1016/j.jpowsour.2004.08.021
+[research_wang_yan_2025]: https://doi.org/10.3847/2041-8213/adce6d
 [research_wang_yang_2022]: https://doi.org/10.1007/s42405-022-00506-y
 [research_wang_yang_2025]: https://doi.org/10.1016/j.jfranklin.2024.107426
+[research_wang_ye_2022]: https://doi.org/10.1109/tgrs.2022.3144271
 [research_wang_zhai_2026]: https://doi.org/10.1016/j.applthermaleng.2026.131597
+[research_wang_zhang_2011]: https://doi.org/10.4028/www.scientific.net/amr.383-390.6561
 [research_wang_zhang_2012]: https://doi.org/10.1016/j.actaastro.2012.02.015
 [research_wang_zhang_2013]: https://doi.org/10.4028/www.scientific.net/amr.823.62
 [research_wang_zhang_2018]: https://doi.org/10.1016/j.ast.2018.04.018
@@ -14192,15 +18171,24 @@ summary of what classification achieves and what it costs.
 [research_wang_zhang_2024]: https://doi.org/10.1016/j.ast.2024.109618
 [research_wang_zhang_2025]: https://doi.org/10.1016/j.sspwt.2025.03.001
 [research_wang_zhang_2025_b]: https://doi.org/10.1016/j.sspwt.2025.06.002
+[research_wang_zhao_2017]: https://doi.org/10.1017/aer.2017.9
 [research_wang_zhao_2024]: https://doi.org/10.1016/j.csite.2024.104286
 [research_wang_zheng_2011]: https://doi.org/10.4028/www.scientific.net/amm.128-129.616
 [research_wang_zheng_2015]: https://doi.org/10.1017/s0373463315000727
 [research_wang_zhu_2023]: https://doi.org/10.1016/j.apenergy.2023.121660
+[research_wangweile_lishuang_2019]: https://ntrs.nasa.gov/citations/20200000885
+[research_warabisako_uematsu_1997]: https://doi.org/10.1016/s0927-0248(97)00085-8
 [research_warddt_smithea_1990]: https://ntrs.nasa.gov/citations/19910007770
+[research_wardrop_1979]: https://doi.org/10.21236/ada081498
+[research_warga_hailey_1964]: https://doi.org/10.2514/3.2300
+[research_wargo_1975]: https://doi.org/10.21236/ada025155
+[research_warner_lemm_2014]: https://doi.org/10.21236/ada623340
 [research_warnock_cochran_1995]: https://doi.org/10.1016/0094-5765(94)00265-n
 [research_wartemann_wagner_2023]: https://doi.org/10.1007/s12567-023-00504-0
 [research_watanabe_mizutani_2020]: https://doi.org/10.1299/jsmeted.2020.0093
 [research_watson_2016]: https://doi.org/10.1038/nature.2016.19162
+[research_watt_aronson_1964]: https://doi.org/10.21236/ad0447153
+[research_webb_2005]: https://doi.org/10.1115/1.1800512
 [research_wei_dai_2026]: https://doi.org/10.1016/j.ast.2026.113093
 [research_wei_lan_2019]: https://doi.org/10.1177/1729881418817971
 [research_wei_leng_2018]: https://doi.org/10.3390/en11071810
@@ -14210,15 +18198,20 @@ summary of what classification achieves and what it costs.
 [research_weidenschilling_jackson_1993]: https://doi.org/10.1006/icar.1993.1099
 [research_weil_1963]: https://doi.org/10.2514/3.1711
 [research_weiland_longo_2004]: https://doi.org/10.1016/j.ast.2003.09.003
+[research_weilewang_hirofumihashimoto]: https://ntrs.nasa.gov/citations/20230003853
+[research_weilmuenster_gnoffo_1997]: https://doi.org/10.2514/2.3282
+[research_weilmuensterkj_gnoffopetera_1992]: https://ntrs.nasa.gov/citations/19920065269
 [research_weinberg_1980]: https://doi.org/10.21236/ada081881
 [research_weinberg_1986]: https://doi.org/10.1086/163785
 [research_weisberg_1963]: https://doi.org/10.1016/0019-1035(63)90018-6
 [research_weitzman_1977]: https://doi.org/10.1109/mspec.1977.6369354
 [research_weiwu]: https://ntrs.nasa.gov/citations/20250011641
 [research_weixing_wanke_2011]: https://doi.org/10.1016/j.proenv.2011.09.322
+[research_wellington_bell_2020]: https://doi.org/10.1016/j.icarus.2020.113766
 [research_wellman_1997]: https://doi.org/10.21236/ada328212
 [research_wells_1985]: https://doi.org/10.2514/3.25720
 [research_wen_marshak_2020]: https://doi.org/10.5194/acp-20-10477-2020
+[research_wen_wang_2023]: https://doi.org/10.3390/electronics12132892
 [research_weng_fang_2012]: https://doi.org/10.11728/cjss2012.05.713
 [research_weng_lei_2017]: https://doi.org/10.1002/2016sw001577
 [research_weng_lei_2019]: https://doi.org/10.1029/2019gl084951
@@ -14226,36 +18219,52 @@ summary of what classification achieves and what it costs.
 [research_werner_braun_2019]: https://doi.org/10.2514/1.a33997
 [research_wesleyjohnson]: https://ntrs.nasa.gov/citations/20240010471
 [research_wessells_huggins_2011]: https://doi.org/10.1038/ncomms1563
+[research_west_2005]: https://doi.org/10.21236/ada434078
 [research_westerman_1963]: https://doi.org/10.1086/108986
 [research_westerman_1963_b]: https://doi.org/10.1086/108987
 [research_westfaulcon_2025]: https://doi.org/10.2139/ssrn.5060535
+[research_westgate_boivin_2022]: https://doi.org/10.1109/jphotov.2021.3116018
 [research_weston_1966]: https://doi.org/10.2514/3.3586
 [research_weyrich_1988]: https://doi.org/10.1103/physrevb.37.10269
+[research_wheaton_schneider_2012]: https://doi.org/10.2514/1.j051199
+[research_wheaton_schneider_2014]: https://doi.org/10.2514/1.a32554
 [research_whitakerannf_kamenetzkyrachelr_1993]: https://ntrs.nasa.gov/citations/19940026517
+[research_white_2010]: https://doi.org/10.2514/1.45222
 [research_white_hethcoat_1977]: https://doi.org/10.1016/0094-5765(77)90115-1
 [research_whitemollye_hyattandrewj_2016]: https://ntrs.nasa.gov/citations/20150020966
 [research_whiteor_rottmangj_1994]: https://ntrs.nasa.gov/citations/19950038037
 [research_whiteside_kamykowski_1994]: https://doi.org/10.2514/3.26524
+[research_whitleyryan_martinezroland_2016]: https://ntrs.nasa.gov/citations/20160003078
+[research_whitmorestephena_cobleighbrentr_2004]: https://ntrs.nasa.gov/citations/20040066087
 [research_whitten_head_2013]: https://doi.org/10.1016/j.pss.2013.05.013
 [research_wi_sung_2017]: https://doi.org/10.1038/eye.2016.311
 [research_widya_nasemudin_2025]: https://doi.org/10.1080/24751839.2025.2478683
 [research_wiegmannbrucem_2011]: https://ntrs.nasa.gov/citations/20110009915
+[research_wiesel_alfano_1985]: https://doi.org/10.2514/3.19952
 [research_wildhack_1958]: https://doi.org/10.1126/science.128.3319.309
+[research_wilfredhdukes_1962]: https://ntrs.nasa.gov/citations/19620004480
+[research_wilhelm_1965]: https://doi.org/10.2514/3.28181
 [research_wilhite_1980]: https://doi.org/10.2514/3.57714
+[research_wilkes_hussey_1982]: https://doi.org/10.21236/ada111651
 [research_wilkesdonaldr_hummerleighl_1991]: https://ntrs.nasa.gov/citations/19910015774
 [research_wilkesdonaldr_hummerleighl_1991_b]: https://ntrs.nasa.gov/citations/19910015721
 [research_wilkesdonaldr_hummerleighl_1991_c]: https://ntrs.nasa.gov/citations/19910020880
 [research_wilkesdonaldr_hummerleighl_1992]: https://ntrs.nasa.gov/citations/19920017873
+[research_wilkie_stevens_1964]: https://doi.org/10.21236/ad0609502
 [research_wilkinsonjp_1990]: https://ntrs.nasa.gov/citations/19910005102
+[research_willey_1993]: https://doi.org/10.2514/3.11569
 [research_willgrier_amandastark]: https://ntrs.nasa.gov/citations/20250007547
 [research_williamlkleb_kjamesweilmuenster_1992]: https://ntrs.nasa.gov/citations/20040129640
 [research_williams_1970]: https://doi.org/10.2514/3.30015
 [research_williams_2002]: https://doi.org/10.1016/s0094-5765(01)00140-0
 [research_williams_2005]: https://doi.org/10.2514/1.12016
+[research_williams_2005_b]: https://doi.org/10.2514/1.11826
 [research_williams_abate_2009]: https://doi.org/10.2514/1.30355
 [research_williams_curry_1972]: https://doi.org/10.2514/3.61627
 [research_williams_curry_1995]: https://doi.org/10.2514/3.26637
+[research_williams_levandier_1999]: https://doi.org/10.21236/ada372855
 [research_williams_palo_2006]: https://doi.org/10.21236/ada460070
+[research_williams_sahoo_2021]: https://doi.org/10.1007/s00348-021-03279-4
 [research_williamsjm_impresciarj_1975]: https://ntrs.nasa.gov/citations/19750049192
 [research_williamson_1979]: https://doi.org/10.2514/3.55921
 [research_williamson_1987]: https://doi.org/10.1088/0305-4624/18/3/304
@@ -14265,35 +18274,45 @@ summary of what classification achieves and what it costs.
 [research_wilson_romerocalvo_2022]: https://doi.org/10.2514/1.a35162
 [research_wilson_schaub_2021]: https://doi.org/10.2514/1.a35039
 [research_wilson_xiong_2019]: https://doi.org/10.1117/1.jrs.13.024513
+[research_wilsonbrad_galatzeryishai_2008]: https://ntrs.nasa.gov/citations/20130012138
 [research_wilsonjw_stithjj_1983]: https://ntrs.nasa.gov/citations/19840005910
 [research_windhorst_ardema_1998]: https://doi.org/10.2514/2.3384
 [research_wing_1983]: https://doi.org/10.2514/3.8586
 [research_wintermichael_prabhudineshk_2011]: https://ntrs.nasa.gov/citations/20120004298
 [research_wise_1986]: https://doi.org/10.1016/0094-5765(86)90148-7
 [research_withbroe_1989]: https://doi.org/10.2514/3.26085
+[research_withers_2006]: https://doi.org/10.1029/2005gl024447
+[research_withers_2007]: https://doi.org/10.1016/j.pss.2007.04.009
 [research_withers_felici_2020]: https://doi.org/10.3847/psj/ab8fb2
 [research_withers_hensley_2020]: https://doi.org/10.3847/psj/abc476
 [research_withers_hensley_2020_b]: https://doi.org/10.3847/psj/abcaf9
+[research_witze_2014]: https://doi.org/10.1038/nature.2014.15974
 [research_wobber_1972]: https://doi.org/10.1016/0031-8663(72)90031-2
 [research_woch_gizon_2007]: https://doi.org/10.1002/asna.200610743
+[research_wofenstine_foster_2002]: https://doi.org/10.21236/ada403236
 [research_woffinden_geller_2007]: https://doi.org/10.2514/1.30734
+[research_wojtal_1994]: https://doi.org/10.1016/0191-8141(94)90100-7
 [research_wolfdavida_1992]: https://ntrs.nasa.gov/citations/19930057563
 [research_wolfsberger_weiss_1983]: https://doi.org/10.1016/0094-5765(83)90051-6
+[research_wolverton_2018]: https://doi.org/10.1063/1.5020962
 [research_won_kim_2019]: https://doi.org/10.1038/s41467-019-12679-4
 [research_wong_ramesh_2026]: https://doi.org/10.1016/j.ast.2026.112719
 [research_woo_coverstone_2003]: https://doi.org/10.1007/bf03546300
 [research_wood_1986]: https://doi.org/10.2514/3.20136
+[research_wood_bauer_1982]: https://doi.org/10.2514/3.56160
 [research_woods_shah_2013]: https://doi.org/10.1117/1.oe.52.5.053604
 [research_woodwilliama_klebwilliaml_2010]: https://ntrs.nasa.gov/citations/20100027434
+[research_woollam_trimble_2000]: https://doi.org/10.21236/ada374650
 [research_wright_bose_2007]: https://doi.org/10.2514/1.26018
 [research_wright_milos_2006]: https://doi.org/10.2514/1.17703
 [research_wright_sponnick_1989]: https://doi.org/10.1109/62.17935
 [research_wu_1963]: https://doi.org/10.2514/3.54916
 [research_wu_deng_2021]: https://doi.org/10.1016/j.ast.2021.107046
+[research_wu_engelen_2001]: https://doi.org/10.1016/s0967-0661(01)00036-3
 [research_wu_fang_2023]: https://doi.org/10.1016/j.energy.2022.125380
 [research_wu_fu_2025]: https://doi.org/10.1109/taes.2025.3540806
+[research_wu_guo_1994]: https://doi.org/10.2514/3.21196
 [research_wu_han_2018]: https://doi.org/10.1016/j.asr.2017.12.039
-[research_wu_liao_2025]: https://doi.org/10.1109/mnet.2024.3439360
 [research_wu_lin_2023]: https://doi.org/10.1016/j.tsep.2023.101911
 [research_wu_tang_2012]: https://doi.org/10.4028/www.scientific.net/amr.591-593.2624
 [research_wu_wang_2014]: https://doi.org/10.1016/j.applthermaleng.2014.06.042
@@ -14307,12 +18326,17 @@ summary of what classification achieves and what it costs.
 [research_wulff_2012]: https://doi.org/10.21236/ad1018615
 [research_wurster_1983]: https://doi.org/10.2514/3.8591
 [research_wurster_riley_1999]: https://doi.org/10.2514/2.3452
+[research_wursterke_stonehw_1993]: https://ntrs.nasa.gov/citations/19930069742
+[research_wyatt_1960]: https://doi.org/10.1029/jz065i006p01673
+[research_xapsosmichaela_2014]: https://ntrs.nasa.gov/citations/20140008669
 [research_xia_qahouq_2021]: https://doi.org/10.1109/access.2021.3092743
 [research_xia_shen_2015]: https://doi.org/10.1016/j.conengprac.2015.08.006
 [research_xia_xia_2025]: https://doi.org/10.1088/1742-6596/3109/1/012092
 [research_xia_zhou_2023]: https://doi.org/10.1016/j.anucene.2023.110053
 [research_xiahou_zhang_2019]: https://doi.org/10.1016/j.ijheatmasstransfer.2018.11.002
 [research_xiahou_zhang_2021]: https://doi.org/10.1016/j.applthermaleng.2021.116847
+[research_xiao_fan_2011]: https://doi.org/10.5266/ipntj.2.1
+[research_xiao_he_2018]: https://doi.org/10.1016/j.ast.2018.09.036
 [research_xiao_he_2023]: https://doi.org/10.3390/nano14010060
 [research_xiaogang_yingchun_2013]: https://doi.org/10.3724/sp.j.1246.2013.01029
 [research_xiayu_li_2026]: https://doi.org/10.1016/j.ijheatmasstransfer.2026.128494
@@ -14333,6 +18357,7 @@ summary of what classification achieves and what it costs.
 [research_xu_carman_2025]: https://doi.org/10.1007/s10237-025-02016-8
 [research_xu_chen_2011]: https://doi.org/10.4028/www.scientific.net/amr.383-390.5626
 [research_xu_guo_2025]: https://doi.org/10.3390/act14110565
+[research_xu_he_2008]: https://doi.org/10.1016/j.jcp.2008.03.035
 [research_xu_li_2016]: https://doi.org/10.1109/tr.2015.2451074
 [research_xu_li_2025]: https://doi.org/10.1504/ijict.2025.144016
 [research_xu_li_2025_b]: https://doi.org/10.1016/j.ijthermalsci.2025.109821
@@ -14344,8 +18369,10 @@ summary of what classification achieves and what it costs.
 [research_xu_wu_2018]: https://doi.org/10.12783/dtetr/pmsms2018/24889
 [research_xu_xu_2010]: https://doi.org/10.1111/j.1365-2966.2010.17470.x
 [research_xu_xu_2025]: https://doi.org/10.1016/j.applthermaleng.2025.128233
+[research_xu_yang_2011]: https://doi.org/10.1111/j.1365-2966.2011.18947.x
 [research_xu_yang_2026]: https://doi.org/10.1016/j.actaastro.2025.11.078
 [research_xu_zhai_2001]: https://doi.org/10.1017/s1431927600027380
+[research_xu_zhang_2015]: https://doi.org/10.1016/j.neucom.2014.11.059
 [research_xu_zhao_2021]: https://doi.org/10.1016/j.ijthermalsci.2021.106934
 [research_xuan_zhang_2009]: https://doi.org/10.1007/s11431-009-0144-y
 [research_xue_jin_2014]: https://doi.org/10.1016/j.pss.2014.04.019
@@ -14357,6 +18384,7 @@ summary of what classification achieves and what it costs.
 [research_xue_zhao_2025]: https://doi.org/10.1038/s41598-025-24686-1
 [research_xuguo_yongtao_2017]: https://doi.org/10.1088/1757-899x/234/1/012011
 [research_xuwei_2010]: https://ntrs.nasa.gov/citations/20100028904
+[research_yacob_ishak_2011]: https://doi.org/10.1002/cjce.20517
 [research_yadav_guven_2013]: https://doi.org/10.1177/0954410013498056
 [research_yadav_guven_2013_b]: https://doi.org/10.1017/s0001924000008587
 [research_yamada_inatani_2002]: https://doi.org/10.1016/s0094-5765(02)00054-1
@@ -14368,6 +18396,7 @@ summary of what classification achieves and what it costs.
 [research_yamamoto_sori_2026]: https://doi.org/10.1186/s40623-026-02402-1
 [research_yamao_yamashita_2001]: https://doi.org/10.1299/jsmemecjo.iv.01.1.0_319
 [research_yamazaki_kosch_2015]: https://doi.org/10.1002/2015ja021371
+[research_yan_2014]: https://doi.org/10.12720/joace.2.3.294-301
 [research_yan_2023]: https://doi.org/10.1016/j.actaastro.2023.04.033
 [research_yan_liu_2026]: https://doi.org/10.3390/rs18132139
 [research_yan_vonderdunk_1992]: https://doi.org/10.54648/aila1992004
@@ -14390,7 +18419,9 @@ summary of what classification achieves and what it costs.
 [research_yang_lan_2022]: https://doi.org/10.3390/en15155321
 [research_yang_li_2018]: https://doi.org/10.1016/j.egypro.2018.09.203
 [research_yang_li_2023]: https://doi.org/10.1002/solr.202300001
+[research_yang_li_2023_b]: https://doi.org/10.3390/pr11010263
 [research_yang_ling_2026]: https://doi.org/10.1016/j.est.2026.123497
+[research_yang_liu_2017]: https://doi.org/10.1016/j.actaastro.2016.11.043
 [research_yang_liu_2020]: https://doi.org/10.1360/sst-2020-0245
 [research_yang_ma_2016]: https://doi.org/10.2514/1.a33461
 [research_yang_ma_2022]: https://doi.org/10.3390/coatings12081047
@@ -14418,12 +18449,16 @@ summary of what classification achieves and what it costs.
 [research_yao_li_2024]: https://doi.org/10.1016/j.asr.2024.01.028
 [research_yao_sands_2021]: https://doi.org/10.3390/mi12080916
 [research_yao_wang_2023]: https://doi.org/10.1016/j.ijthermalsci.2022.107967
-[research_yao_zhao_2024]: https://doi.org/10.1039/d3ee04320g
+[research_yao_xia_2023]: https://doi.org/10.3390/aerospace10090795
+[research_yao_xia_2024]: https://doi.org/10.3390/aerospace11080680
+[research_yao_xie_2010]: https://doi.org/10.2514/1.48494
 [research_yap_macias_2012]: https://doi.org/10.2514/1.a32156
+[research_yaroshevskii_2008]: https://doi.org/10.1134/s0010952508060063
 [research_yasaka_1990]: https://doi.org/10.2514/3.26147
 [research_yasaka_1992]: https://doi.org/10.1016/0094-5765(92)90126-4
 [research_yassin_ahmed_2025]: https://doi.org/10.1088/1742-6596/3070/1/012006
 [research_yates_bennett_1972]: https://doi.org/10.2514/3.59019
+[research_yates_jonas_1995]: https://doi.org/10.21236/ada293477
 [research_yates_spanbauer_2012]: https://doi.org/10.1016/j.actaastro.2012.05.011
 [research_yatsenko_2017]: https://doi.org/10.18008/1816-5095-2017-1-53-58
 [research_yau_guarro_1995]: https://doi.org/10.1016/0951-8320(95)00050-c
@@ -14435,12 +18470,16 @@ summary of what classification achieves and what it costs.
 [research_ye_yang_2020]: https://doi.org/10.1016/j.engfracmech.2020.107076
 [research_yeh_1972]: https://doi.org/10.1109/tcom.1972.1091139
 [research_yehycm_chucl_1996]: https://ntrs.nasa.gov/citations/19960045572
+[research_yen_1986]: https://doi.org/10.1063/1.865958
 [research_yeniay_unal_2006]: https://doi.org/10.1016/j.ress.2005.02.007
 [research_yeo_sng_1980]: https://doi.org/10.2514/3.56012
 [research_yin_guo_2026]: https://doi.org/10.1016/j.ast.2025.111457
 [research_yin_li_2023]: https://doi.org/10.3390/rs15215217
 [research_yin_li_2026]: https://doi.org/10.1016/j.cja.2025.103774
 [research_yin_li_2026_b]: https://doi.org/10.5140/jass.2026.43.2.55
+[research_yin_liu_2010]: https://doi.org/10.1007/s11708-010-0105-y
+[research_yin_lu_2024]: https://doi.org/10.3390/aerospace11010058
+[research_yin_shi_2024]: https://doi.org/10.1007/s42064-023-0172-6
 [research_yin_wang_2025]: https://doi.org/10.1109/taes.2024.3468293
 [research_yin_wu_2025]: https://doi.org/10.1016/j.swevo.2024.101835
 [research_ying_chen_2026]: https://doi.org/10.1109/mvt.2026.3714978
@@ -14454,6 +18493,7 @@ summary of what classification achieves and what it costs.
 [research_yoshida_2019]: https://doi.org/10.5363/tits.24.6_67
 [research_yoshida_hasegawa_2015]: https://doi.org/10.1109/lmwc.2015.2441294
 [research_yoshizawa_hatanaka_1995]: https://doi.org/10.1016/0379-6779(94)03071-d
+[research_you_2012]: https://doi.org/10.3901/jme.2012.21.067
 [research_young_1966]: https://doi.org/10.1038/2091163b0
 [research_young_2003]: https://doi.org/10.21236/ada417269
 [research_young_reda_1972]: https://doi.org/10.2514/3.61815
@@ -14475,6 +18515,7 @@ summary of what classification achieves and what it costs.
 [research_yu_tan_2024]: https://doi.org/10.3934/era.2024025
 [research_yu_wang_2018]: https://doi.org/10.1016/j.ast.2018.06.021
 [research_yu_wang_2019]: https://doi.org/10.1016/j.ast.2019.02.024
+[research_yu_wang_2025]: https://doi.org/10.1007/s12567-025-00672-1
 [research_yu_wang_2026]: https://doi.org/10.1016/j.ast.2026.112132
 [research_yuan_cong_2025]: https://doi.org/10.1063/5.0250395
 [research_yuan_huang_2025]: https://doi.org/10.1016/j.asr.2025.07.028
@@ -14493,8 +18534,10 @@ summary of what classification achieves and what it costs.
 [research_zabolotnov_2017]: https://doi.org/10.1134/s0010952517020083
 [research_zabolotnov_elenev_2017]: https://doi.org/10.3103/s0025654417010010
 [research_zabolotnov_lobankov_2016]: https://doi.org/10.18287/2412-7329-2016-15-1-46-54
+[research_zagalsky_irons_1971]: https://doi.org/10.2514/3.44282
 [research_zagrai_barnes_2011]: https://doi.org/10.21236/ada563722
 [research_zagrodnik_jones_1992]: https://doi.org/10.1109/62.166865
+[research_zaidi_levis_2008]: https://doi.org/10.21236/ada481191
 [research_zapataedgar_2011]: https://ntrs.nasa.gov/citations/20120000079
 [research_zapatasolvas_jayaseelan_2015]: https://doi.org/10.1179/1743676115y.0000000012
 [research_zardashti_emami_2021]: https://doi.org/10.1590/jatm.v13.1215
@@ -14504,8 +18547,10 @@ summary of what classification achieves and what it costs.
 [research_zeitler_corbin_2021]: https://doi.org/10.1029/2021ja029708
 [research_zenebe_midtgard_2025]: https://doi.org/10.1016/j.seja.2025.100103
 [research_zenodnany_mostellerted_2010]: https://ntrs.nasa.gov/citations/20110001377
+[research_zerbini_1980]: https://doi.org/10.1007/bf01306907
 [research_zhai_huyan_2022]: https://doi.org/10.1515/astro-2022-0030
 [research_zhai_qi_2019]: https://doi.org/10.1016/j.isatra.2019.01.005
+[research_zhang_1992]: https://doi.org/10.21236/ada254307
 [research_zhang_2025]: https://doi.org/10.54254/2755-2721/2026.ka29021
 [research_zhang_2025_b]: https://doi.org/10.2174/0122127976289034240806042606
 [research_zhang_chen_2011]: https://doi.org/10.4028/www.scientific.net/amm.110-116.5223
@@ -14519,12 +18564,15 @@ summary of what classification achieves and what it costs.
 [research_zhang_hng_2026]: https://doi.org/10.34133/space.0416
 [research_zhang_hu_2025]: https://doi.org/10.1016/j.jenvman.2025.127879
 [research_zhang_hu_2026]: https://doi.org/10.1111/ffe.70338
+[research_zhang_hu_2026_b]: https://doi.org/10.2514/1.j066725
 [research_zhang_huang_2024]: https://doi.org/10.1063/5.0213613
 [research_zhang_jiang_2020]: https://doi.org/10.1016/j.applthermaleng.2020.115342
 [research_zhang_jing_2008]: https://doi.org/10.1108/00022660810899900
 [research_zhang_ju_2023]: https://doi.org/10.1364/oe.496783
 [research_zhang_kang_2013]: https://doi.org/10.4028/www.scientific.net/amr.771.17
+[research_zhang_lei_2025]: https://doi.org/10.1016/j.ast.2024.109880
 [research_zhang_li_2011]: https://doi.org/10.1007/s10891-011-0513-9
+[research_zhang_li_2022]: https://doi.org/10.1002/er.8665
 [research_zhang_li_2024]: https://doi.org/10.1016/j.pnucene.2024.105158
 [research_zhang_lin_2024]: https://doi.org/10.1016/j.sspwt.2024.09.002
 [research_zhang_liu_2026]: https://doi.org/10.1029/2025gl118472
@@ -14535,10 +18583,12 @@ summary of what classification achieves and what it costs.
 [research_zhang_sun_2024]: https://doi.org/10.1016/j.sspwt.2024.09.003
 [research_zhang_tang_2008]: https://doi.org/10.3182/20080706-5-kr-1001.02202
 [research_zhang_tang_2016]: https://doi.org/10.1016/j.ast.2016.09.011
+[research_zhang_wang_2014]: https://doi.org/10.4028/www.scientific.net/amr.1008-1009.22
 [research_zhang_wang_2018]: https://doi.org/10.1007/s00521-018-3764-y
 [research_zhang_wang_2018_b]: https://doi.org/10.1051/0004-6361/201833260
 [research_zhang_wang_2018_c]: https://doi.org/10.1016/j.ceramint.2017.11.066
 [research_zhang_wang_2020]: https://doi.org/10.1088/1742-6596/1651/1/012107
+[research_zhang_wang_2023]: https://doi.org/10.1063/5.0149789
 [research_zhang_wang_2024]: https://doi.org/10.1088/1742-6596/2764/1/012087
 [research_zhang_wang_2025]: https://doi.org/10.1016/j.paerosci.2025.101093
 [research_zhang_wei_2019]: https://doi.org/10.1016/j.actaastro.2019.03.078
@@ -14553,6 +18603,7 @@ summary of what classification achieves and what it costs.
 [research_zhang_yang_2025_b]: https://doi.org/10.2514/1.a36157
 [research_zhang_yeung_2022]: https://doi.org/10.1016/j.comcom.2022.02.015
 [research_zhang_yu_2024]: https://doi.org/10.1016/j.renene.2024.120541
+[research_zhang_yuan_2023]: https://doi.org/10.1109/taes.2023.3274097
 [research_zhang_zeng_2024]: https://doi.org/10.1002/qre.3560
 [research_zhang_zhang_2013]: https://doi.org/10.4028/www.scientific.net/amm.278-280.500
 [research_zhang_zhang_2014]: https://doi.org/10.4028/www.scientific.net/amm.538.150
@@ -14562,19 +18613,23 @@ summary of what classification achieves and what it costs.
 [research_zhang_zhang_2023]: https://doi.org/10.1016/j.applthermaleng.2023.120348
 [research_zhang_zhang_2024]: https://doi.org/10.3390/photonics11070610
 [research_zhang_zhao_2018]: https://doi.org/10.1088/1361-6501/aab4d6
+[research_zhao_1993]: https://doi.org/10.21236/ada263100
 [research_zhao_2025]: https://doi.org/10.1093/ijlct/ctaf130
 [research_zhao_bai_2026]: https://doi.org/10.1016/j.ceramint.2026.02.119
 [research_zhao_cui_2012]: https://doi.org/10.4028/www.scientific.net/amr.625.109
+[research_zhao_dong_2019]: https://doi.org/10.1063/1.5086912
 [research_zhao_dong_2025]: https://doi.org/10.3390/app152312482
 [research_zhao_gao_2024]: https://doi.org/10.1038/s41598-024-69424-1
 [research_zhao_he_2021]: https://doi.org/10.1016/j.actaastro.2021.02.036
 [research_zhao_huang_2021]: https://doi.org/10.1088/1742-6596/1777/1/012054
+[research_zhao_li_2018]: https://doi.org/10.1061/(asce)as.1943-5525.0000861
 [research_zhao_li_2020]: https://doi.org/10.1155/2020/4313758
 [research_zhao_rao_2016]: https://doi.org/10.1016/j.applthermaleng.2015.09.018
 [research_zhao_shang_2024]: https://doi.org/10.2514/1.g008030
 [research_zhao_sun_2024]: https://doi.org/10.1088/1674-4527/ad849a
 [research_zhao_tao_2023]: https://doi.org/10.3390/aerospace10121012
 [research_zhao_yao_2026]: https://doi.org/10.1016/j.csite.2026.108238
+[research_zhao_ye_2011]: https://doi.org/10.4028/www.scientific.net/amm.105-107.1880
 [research_zhao_ye_2012]: https://doi.org/10.4028/www.scientific.net/amm.197.216
 [research_zhao_zhang_2025]: https://doi.org/10.1016/j.applthermaleng.2025.126006
 [research_zhao_zhou_2013]: https://doi.org/10.1016/j.cja.2013.10.009
@@ -14586,6 +18641,7 @@ summary of what classification achieves and what it costs.
 [research_zhi_liang_2015]: https://doi.org/10.1016/j.proeng.2014.12.559
 [research_zhi_ran_2015]: https://doi.org/10.1016/j.proeng.2014.12.633
 [research_zhong_gurfil_2013]: https://doi.org/10.2514/1.60701
+[research_zhou_2023]: https://doi.org/10.4273/ijvss.15.2.22
 [research_zhou_anderson_2024]: https://doi.org/10.1016/j.etran.2024.100346
 [research_zhou_cheng_2013]: https://doi.org/10.1016/j.applthermaleng.2013.06.009
 [research_zhou_du_2022]: https://doi.org/10.3390/e24101325
@@ -14609,9 +18665,11 @@ summary of what classification achieves and what it costs.
 [research_zhu_fu_2017]: https://doi.org/10.1088/2058-6272/aa607a
 [research_zhu_huang_2026]: https://doi.org/10.1109/tase.2026.3656898
 [research_zhu_liu_2025]: https://doi.org/10.3390/en18102463
+[research_zhu_shen_2015]: https://doi.org/10.1016/j.proeng.2014.12.535
 [research_zhu_zhang_2020]: https://doi.org/10.1016/j.ast.2020.105994
 [research_zhu_zhao_2016]: https://doi.org/10.1016/j.actaastro.2016.01.028
 [research_zhuang_ridley_2024]: https://doi.org/10.47611/jsrhs.v13i4.7581
+[research_zhulev_potapov_1968]: https://doi.org/10.1007/bf00827985
 [research_zielinski_butkiewicz_1985]: https://doi.org/10.1016/0273-1177(85)90404-1
 [research_zielinski_worley_1996]: https://doi.org/10.21236/ada387862
 [research_zimchuk_ischenko_2006]: https://doi.org/10.15407/knit2006.02.012
@@ -14623,6 +18681,7 @@ summary of what classification achieves and what it costs.
 [research_zinger_braunstein_1981]: https://doi.org/10.1109/mper.1981.5511313
 [research_zinnurov_kovalsky_2018]: https://doi.org/10.31854/1813-324x-2018-1-67-74
 [research_zollo_weigel_2024]: https://doi.org/10.1016/j.asr.2023.10.032
+[research_zondek_1979]: https://doi.org/10.2514/3.55857
 [research_zonghai_2018]: https://doi.org/10.31988/scitrends.12793
 [research_zou_wang_2015]: https://doi.org/10.1177/1687814015606308
 [research_zou_zhang_2026]: https://doi.org/10.3390/batteries12080284

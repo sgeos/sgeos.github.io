@@ -104,10 +104,32 @@ NOISE_PATTERNS = [
      "everything this series does. 'Handover Solutions for 5G Low-Earth Orbit "
      "Satellite Networks' passed a gate anchored on the orbit alone. The constellation "
      "is the same and the subject is not"),
-    (r"\belectric vehicle\b|\bEV batter|\bplug-?in hybrid\b|\bautomotive batter",
+    (r"\belectric vehicle\b|\bEV batter|\bplug-?in hybrid\b|\bautomotive batter|"
+     r"\bsecond-?life\b|\bbattery reuse\b|\bechelon utilization\b",
      "A334: the ELECTRIC ROAD VEHICLE again, arriving this time through battery "
      "cycle life rather than through propulsion. Recorded in A331 as the largest "
-     "body this series has had to exclude"),
+     "body this series has had to exclude. The SECOND-LIFE and BATTERY REUSE "
+     "literature is the same body arriving through end-of-life sorting"),
+    (r"\boff-?grid\b|\bsolar PV\b|\bPV/batter|\bstandalone photovoltaic\b",
+     "A334: 'Optimum battery depth of discharge for off-grid solar PV/battery "
+     "system' passed a gate anchored on depth of discharge. TERRESTRIAL OFF-GRID "
+     "SOLAR uses the article's exact relation for a different machine"),
+    (r"\banode\b|\bcathode\b|\belectrolyte\b|\belectrode material|"
+     r"\bsolid-?state batter|\bcoin cell\b",
+     "A334: BATTERY ELECTRODE MATERIALS CHEMISTRY, which owns the phrases cycle "
+     "life and capacity fade and is orders of magnitude larger than the spacecraft "
+     "power literature. 'Biomimetic Spider-Web-Like Composites for Enhanced Rate "
+     "Capability and Cycle Life' reached the kept set"),
+    (r"\bcontact graph\b|\bdelay-?tolerant network|\brouting protocol\b|"
+     r"\binter-?satellite link\b.{0,40}\b(?:capacity|throughput|handover)",
+     "A334: SATELLITE NETWORKING again, this time through contact graph routing "
+     "rather than through 5G. Same field, different entry point"),
+    (r"\binstrument landing system\b|\blocalizer\b|\bglide slope\b.{0,50}"
+     r"\b(?:sideband|antenna|signal|radio|ILS)",
+     "A334: the ILS GLIDE SLOPE is a radio navigation aid for conventional "
+     "aircraft and shares the phrase `glide slope` with an unpowered spacecraft "
+     "approach. 'Analysis of Instrument Landing System Glide Slope Performance "
+     "Sensitivity to Sideband-Only Phase Variation' reached the kept set"),
 ]
 
 _COMPILED = [(re.compile(p, re.I), why) for p, why in NOISE_PATTERNS]

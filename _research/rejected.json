@@ -1,4 +1,25 @@
 {
+ "10.1126/science.3945808": {
+  "why": "A334: SCIENCE NEWS AND COMMENT indexed by Crossref as a work. Same family as the Hypersonic Aerodynamics Fellowships notices A322 cited. Editorial matter is not research literature",
+  "article": "A334",
+  "title": "The Spaceplane",
+  "key_kind": "doi",
+  "doi": "10.1126/science.3945808"
+ },
+ "10.31691/kasl39.2.6": {
+  "why": "A334: NONEXISTENT IDENTIFIER. Same journal and same defect as kasl40.2.6",
+  "article": "A334",
+  "title": "Study on the Projection of Global Norms Regarding Space",
+  "key_kind": "doi",
+  "doi": "10.31691/kasl39.2.6"
+ },
+ "10.31691/kasl40.2.6": {
+  "why": "A334: NONEXISTENT IDENTIFIER. Returned by Crossref search but not registered, confirmed by _verify_citations.py",
+  "article": "A334",
+  "title": "A Law and Economic Analysis of Orbital Debris Mitigation",
+  "key_kind": "doi",
+  "doi": "10.31691/kasl40.2.6"
+ },
  "https://doi.org/10.1002/lary.70528": {
   "why": "dropped by reading the publication URL sweep, A323, off-subject",
   "article": "A323",

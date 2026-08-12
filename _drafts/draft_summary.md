@@ -23,9 +23,10 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 **14,457 lines, 24 display equations, 4,440 reference definitions, 78,320 words after the draft
 pass.** **14,632 lines, 42 display equations, 4,440 reference definitions, 79,704 words after the
-equation-density review**, with all 4,223 harvested research records cited and none left over, plus 148
-reference works. Committed. **Not pushed and not published**, per the four-pass rhythm in which only
-the publication review pushes.
+equation-density review.** **18,691 lines, 42 display equations, 5,769 reference definitions, 100,512
+words after the primary-reference review**, with all 5,552 harvested research records cited and none
+left over, plus 148 reference works. Committed. **Not pushed and not published**, per the four-pass
+rhythm in which only the publication review pushes.
 
 **THE DOCUMENTARY PROBLEM IS THE INVERSE OF EVERY PREVIOUS ARTICLE IN THE SERIES.** Earlier vehicles
 left too little trace. The X-37B has flown eight missions across fifteen years, has spent 4,208.57
@@ -100,6 +101,36 @@ coincide, **because their coincidence is the article's central claim.**
 **`citation_gaps` went from 14 to 0.** The equation pass created the debt and paid it in the same pass,
 by splitting cluster markers so that every displayed relation carries literature within reach rather
 than at the end of its section.
+
+**THE PRIMARY PASS CONFIRMED THE PROMOTION RULE AGAIN, AND THIS TIME TWO SUBJECTS STOOD AT ZERO WHILE
+THE ARTICLE DISPLAYED THEM.** An audit of the pool against the article's own subject list found **24 of
+37 thin or absent**. Specific orbital energy is the foundation of every orbital result here and the
+pool held none. Energy height is displayed in the landing section and the pool held none. Three further
+harvests took the pool from **8,905 to 13,351** records and the cited base from **4,223 to 5,552**,
+with the period half rising from 2,015 to **3,064** and the technical reports from 705 to **1,116**.
+
+**THE AUDIT'S OWN HEADINGS WERE THIN IN EXACTLY THE SAME WAY AND THAT IS THE NEW LESSON.** The first
+version tested for the article's vocabulary while the harvest asked in the literature's, so a subject
+could be well supplied and still measure zero. **Three of the largest apparent gaps closed on the
+measuring instrument rather than on the pool**, equilibrium glide going 3 to 18, crossrange 4 to 11 and
+vehicle scaling 9 to 24 with no new records involved in any of them.
+
+**NINETEEN SUBJECTS REMAIN THIN AND EACH IS NAMED WITH ITS KIND** in a new Source Base table. Four are
+settled knowledge that stopped generating papers, being vis-viva, the rocket equation, Kepler and the
+energy state approximation, and the reference works carry them. Three are thin headings whose subject
+is covered under other names. Two are genuinely modern subjects. **The last is the X-37 itself, whose
+cause is classification, which is the article.**
+
+**TWO GATE DEFECTS WERE FOUND BY READING THE SAMPLES.** A record titled "Thermal Characteristics of a
+Nickel-Hydrogen Battery" was refused because the depositor wrote the hyphen as U+2010, so one of the
+article's strongest anchors did not match. **The gate now normalises typographic punctuation before
+matching, as `refs.clean` already did for link text.** Reading the kept side found terrestrial off-grid
+solar, battery electrode chemistry, contact-graph satellite routing and the instrument landing system
+glide slope, all recorded in `_research/homonyms.py` with the incident that produced each.
+
+**The corpus citation run reached A334 at 99.9 percent coverage and found three defects**, being a
+Science news item indexed as a work and two nonexistent Korean journal identifiers. All three are
+recorded in the rejection store and are gone from the base.
 
 ## X-Planes McDonnell Douglas X-36 A333 2025-11-11
 
