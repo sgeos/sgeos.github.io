@@ -24,9 +24,10 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 **14,457 lines, 24 display equations, 4,440 reference definitions, 78,320 words after the draft
 pass.** **14,632 lines, 42 display equations, 4,440 reference definitions, 79,704 words after the
 equation-density review.** **18,691 lines, 42 display equations, 5,769 reference definitions, 100,512
-words after the primary-reference review**, with all 5,552 harvested research records cited and none
-left over, plus 148 reference works. Committed. **Not pushed and not published**, per the four-pass
-rhythm in which only the publication review pushes.
+words after the primary-reference review.** **18,700 lines, 42 display equations, 5,762 reference
+definitions, 100,776 words after the publication review**, with all 5,545 harvested research records
+cited and none left over, plus 148 reference works. Committed and **PUSHED**. **Not published**, and
+publication of the series has never been authorised.
 
 **THE DOCUMENTARY PROBLEM IS THE INVERSE OF EVERY PREVIOUS ARTICLE IN THE SERIES.** Earlier vehicles
 left too little trace. The X-37B has flown eight missions across fifteen years, has spent 4,208.57
@@ -131,6 +132,33 @@ glide slope, all recorded in `_research/homonyms.py` with the incident that prod
 **The corpus citation run reached A334 at 99.9 percent coverage and found three defects**, being a
 Science news item indexed as a work and two nonexistent Korean journal identifiers. All three are
 recorded in the rejection store and are gone from the base.
+
+**THE PUBLICATION REVIEW FOUND FIVE THINGS AND READING IS THE ONLY REASON ANY OF THEM SURFACED.**
+**Three curated links returned 404 and all three were pages assumed to exist from their subject names.**
+Wikipedia has no article titled Space Maneuver Vehicle, none titled Aerojet AR2-3 and none titled Space
+Shuttle landing. **A plausible title is not a URL.** Fixing the engine link also fixed an attribution,
+since the AR2-3 is a **Rocketdyne** engine frequently credited to Aerojet, which is the successor
+company and not the developer.
+
+**Two drafting-history leaks were removed.** The Source Base narrated an equation pass and an earlier
+version of an audit, both of which refer to revisions no reader ever saw. **The epistemic content was
+kept and the revision history dropped**, so the section now states the general finding, that a search
+built from what an article says will not find the literature the article depends on, without narrating
+how this article learned it.
+
+**The aerobraking heritage was undercounted.** The text said three Mars orbiters and one at Venus. It
+is **six spacecraft**, being Magellan and Venus Express at Venus and Mars Global Surveyor, Mars Odyssey,
+the Mars Reconnaissance Orbiter and the ExoMars Trace Gas Orbiter at Mars.
+
+**The designation count was stale in two places**, still quoting a pool of 8,905 after the pool reached
+13,351. Re-measured, the finding is stronger: **seventeen records in 13,351 carry the designation,
+fourteen survive into the cited base, twelve of those are dated 2000 to 2005 and all twelve are space
+agency documents.** **The programme's own literature stops in 2005**, one year after the transfer to
+the defence research agency, and not one record describes a flown mission.
+
+**Two pass-two results had never reached the Epistemic State or the Conclusion.** The scaling exponents
+and the duty cycle are now carried through both, per the standing rule that a result which does not
+reach the conclusion was not really added.
 
 ## X-Planes McDonnell Douglas X-36 A333 2025-11-11
 

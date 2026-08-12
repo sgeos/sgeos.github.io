@@ -119,6 +119,49 @@ instrument that sees what a reader sees.
 
 ---
 
+## A plausible title is not a URL
+
+**What happened.** Three curated reference links in A334 returned 404, and all three were addresses
+constructed from what the page *ought* to be called. Wikipedia has no article titled Space Maneuver
+Vehicle, none titled Aerojet AR2-3 and none titled Space Shuttle landing. The subjects are real and
+well covered, under Boeing X-40, Rocketdyne AR2 and Space Shuttle orbiter.
+
+**Why nothing caught it earlier.** The identifier sweep covers `doi.org` links, and the rendered audit
+covers markup. **Neither looks at a hand-written encyclopaedia link**, so a curated reference is
+checked only by the publication review, and only if that review actually requests each one.
+
+**The check.** Issue a request for every curated URL, not only the harvested ones. A 404 is fatal and a
+403 is acceptable only on a documented bot-detected host.
+
+**The bonus.** Correcting one of the three corrected a fact. The AR2-3 is a **Rocketdyne** engine and
+is widely credited to Aerojet, which is the successor company rather than the developer. **A dead link
+is sometimes a symptom of a wrong belief rather than of a moved page.**
+
+---
+
+## A measuring instrument has the same blind spot as the thing it measures
+
+**What happened.** A334 audited its reference pool against the subjects its equations rely on and found
+twenty-four of thirty-seven thin. The audit's patterns were written in the ARTICLE's vocabulary while
+the harvest had asked in the LITERATURE's, so a well-supplied subject measured zero. **Three of the
+largest apparent gaps closed on the instrument and not on the pool**, equilibrium glide going from 3 to
+18 and crossrange from 4 to 11, **with no new records found in either case.**
+
+**The check.** Measure coverage with the same vocabulary the search used. **A thin result is a claim
+about the question before it is a claim about the field.**
+
+---
+
+## A summary that lists only exceptions cannot distinguish clean from unexamined
+
+**What happened.** A corpus citation run reported findings per article and listed only articles that
+had them. A334 had no row and was very nearly reported clean. It had been examined at **34.5 percent
+coverage**, because the run was capped at 600 new lookups against 64,462 distinct identifiers.
+
+**The check.** Measure coverage explicitly. An absent row means nothing until the denominator is known.
+
+---
+
 ## An HTTP failure is usually not a citation failure
 
 **What happened.** On a 250-record sample, 22 identifiers failed by HTTP and every one was registered

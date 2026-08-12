@@ -124,6 +124,11 @@ NOISE_PATTERNS = [
      r"\binter-?satellite link\b.{0,40}\b(?:capacity|throughput|handover)",
      "A334: SATELLITE NETWORKING again, this time through contact graph routing "
      "rather than through 5G. Same field, different entry point"),
+    (r"\bgull(?:y|ies)\b|\bdune\b|\bcrater count|\bstratigraph|\bregolith\b|"
+     r"\bfluvial\b|\bglacial\b|\bpermafrost\b",
+     "A334: MARS AND PLANETARY SURFACE GEOMORPHOLOGY, admitted by an aerobraking "
+     "harvest through `planetary atmosphere`. Aerobraking AT a planet is adjacent and "
+     "legitimate; the geology of the surface it brakes over is not"),
     (r"\binstrument landing system\b|\blocalizer\b|\bglide slope\b.{0,50}"
      r"\b(?:sideband|antenna|signal|radio|ILS)",
      "A334: the ILS GLIDE SLOPE is a radio navigation aid for conventional "

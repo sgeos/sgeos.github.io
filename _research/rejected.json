@@ -1,4 +1,18 @@
 {
+ "10.1029/2005je002607": {
+  "why": "A334: MARS SURFACE GEOMORPHOLOGY, admitted by the aerobraking harvest through `planetary atmospher`. Aerobraking at Mars is adjacent and legitimate; the geology of the surface it brakes over is not",
+  "article": "A334",
+  "title": "Orientation and distribution of recent gullies in the southern hemisphere of Mars",
+  "key_kind": "doi",
+  "doi": "10.1029/2005je002607"
+ },
+ "10.1126/science.231.4740.783-a": {
+  "why": "A334: SCIENCE NEWS AND COMMENT indexed as a work, the second of two in the same sweep. Editorial matter is not research literature",
+  "article": "A334",
+  "title": "The Spaceplane",
+  "key_kind": "doi",
+  "doi": "10.1126/science.231.4740.783-a"
+ },
  "10.1126/science.3945808": {
   "why": "A334: SCIENCE NEWS AND COMMENT indexed by Crossref as a work. Same family as the Hypersonic Aerodynamics Fellowships notices A322 cited. Editorial matter is not research literature",
   "article": "A334",
@@ -13,12 +27,26 @@
   "key_kind": "doi",
   "doi": "10.31691/kasl39.2.6"
  },
+ "10.31691/kasl39.2.6.": {
+  "why": "A334: NONEXISTENT IDENTIFIER, same trailing-full-stop defect as kasl40.2.6.",
+  "article": "A334",
+  "title": "Study on the Projection of Global Norms Regarding Space",
+  "key_kind": "doi",
+  "doi": "10.31691/kasl39.2.6."
+ },
  "10.31691/kasl40.2.6": {
   "why": "A334: NONEXISTENT IDENTIFIER. Returned by Crossref search but not registered, confirmed by _verify_citations.py",
   "article": "A334",
   "title": "A Law and Economic Analysis of Orbital Debris Mitigation",
   "key_kind": "doi",
   "doi": "10.31691/kasl40.2.6"
+ },
+ "10.31691/kasl40.2.6.": {
+  "why": "A334: NONEXISTENT IDENTIFIER, and the reason is a TRAILING FULL STOP in the deposited DOI. The clean form was recorded first and did not match, so the record survived a rejection that had already been made",
+  "article": "A334",
+  "title": "A Law and Economic Analysis of Orbital Debris Mitigation",
+  "key_kind": "doi",
+  "doi": "10.31691/kasl40.2.6."
  },
  "https://doi.org/10.1002/lary.70528": {
   "why": "dropped by reading the publication URL sweep, A323, off-subject",

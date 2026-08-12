@@ -121,8 +121,9 @@ and the published engineering record stops almost exactly where the second hando
 
 The space agency wanted a testbed for reusable orbital vehicle technology, and specifically for the thermal
 protection, the avionics and the autonomous landing that a follow-on to the [Space Shuttle][ref_shuttle]
-would need. That intent is legible in the reports the programme published between 1999 and 2004, which read
-like technology-demonstration documents and cite the vehicle by name.
+would need. Its own [account of the programme][ref_nasa_x37] still describes the vehicle in those terms.
+That intent is legible in the reports the programme published between 1999 and 2004, which read like
+technology-demonstration documents and cite the vehicle by name.
 
 **What the later owners wanted is not stated in any document this article could find**, and the absence is
 itself the most informative fact in the programme's history. A transfer to a defence research agency and
@@ -177,8 +178,8 @@ article carries both, so the ambiguous cases are marked here rather than resolve
 | $T$ | orbital period | every temperature carries a subscript |
 
 **Nothing is renamed for tidiness.** Each entry is a case where two relations in this article would
-otherwise use one letter for two quantities, which is the defect the series has met before and resolves by
-marking one, never by reusing it silently.
+otherwise use one letter for two quantities.
+**This series has met that defect before and resolves it the same way every time, by marking one of the two and saying so.**
 
 ### The Orbit, Which Is the Public Half of a Classified Vehicle
 
@@ -850,8 +851,10 @@ decades of wind tunnel and flight work.
 
 ### Propulsion, Which Is the Least Interesting System on the Vehicle
 
-The X-37A was originally to have carried a single [Aerojet AR2-3][ref_ar23] engine burning high-test
-[hydrogen peroxide][ref_h2o2] and jet fuel, producing about 29.4 kilonewtons.
+The [Rocketdyne AR2-3][ref_ar23], a throttleable engine burning high-test [hydrogen peroxide][ref_h2o2] and
+jet fuel at about 29.3 kilonewtons, was evaluated in 1999 under the Future-X demonstrator engine work for
+possible use on the vehicle.
+**It is frequently attributed to Aerojet, which is the successor company rather than the developer.**
 **The orbital vehicle that flew uses a conventional hypergolic system** burning
 [nitrogen tetroxide][ref_nto] and [hydrazine][ref_hydrazine], which is the least adventurous choice
 available and exactly what a vehicle whose interesting problems lie elsewhere ought to use.
@@ -1534,10 +1537,12 @@ how large the correlation's error is and in which direction.
 
 ### Aerobraking Matured at Mars and Came Back
 
-**The technique the seventh mission used was developed for planetary missions and refined across three Mars orbiters and one Venus orbiter.**
-The literature on corridor control, on atmospheric variability during a campaign, on density reconstruction
-from accelerometer data and on the thermal limits of using a solar array as a brake is a planetary
-literature almost in its entirety.
+**The technique the seventh mission used was developed for planetary missions and refined across six spacecraft before it.**
+Magellan aerobraked at Venus in 1993 and Venus Express in 2014, while Mars Global Surveyor, Mars Odyssey,
+the Mars Reconnaissance Orbiter and the ExoMars Trace Gas Orbiter did the same at Mars between 1997 and
+2018. The literature on corridor control, on atmospheric variability during a campaign, on density
+reconstruction from accelerometer data and on the thermal limits of using a solar array as a brake is a
+planetary literature almost in its entirety.
 **Its arrival in low Earth orbit is the interesting part of the seventh mission**, and the article that
 treats it as novel has not read the Mars literature.
 
@@ -1925,7 +1930,6 @@ which applies here to completed ones.
 - [Design of the Recovery Trajectory for JAXA Venus Orbiter...][research_campagnola_kawakatsu_2015]
 - [Development of an Infrared Lamp Array for the Smap Spacecraft...][research_millerjenniferr_emisnickolas_2015]
 - [Equilibrium Temperature of a Satellite in Low-Earth Orbit][research_hegab_2015]
-- [Global documentation of gullies with the Mars Reconnaissance...][research_harrison_osinski_2015]
 - [High-Temperature Isothermal Oxidation of Ultra-High...][research_milleroana_corral_2015]
 - [How to Estimate Microaccelerations for Spacecraft with...][research_sedelnikov_potienko_2015]
 - [Infrared Observations with the 1.6 Meter New Solar Telescope...][research_goode_2015]
@@ -1964,7 +1968,6 @@ which applies here to completed ones.
 - [Orbital objects detection algorithm using faint streaks][research_tagawa_yanagisawa_2016]
 - [Rover-to-Orbiter Communication in Mars Taking Advantage of...][research_li_kao_2016]
 - [Space, the New Domain Space Operations and Chinese Military...][research_pollpeter_2016]
-- [Thermal conductivity of surficial lunar regolith estimated...][research_yu_fa_2016]
 - [Atmospheric trajectory and heliocentric orbit of the Ejby...][research_spurny_borovicka_2017]
 - [Attitude pointing schemes and spacecraft configurations for...][research_xu_liang_2017]
 - [Cavernous Hemangioma of the Orbit and Its Impact on Orbital...][research_yatsenko_2017]
@@ -2207,9 +2210,14 @@ which applies here to completed ones.
 
 ### The Vehicle's Own Cluster Is Thin, Which Is the Fifth Instance and the Fifth Reason
 
-**Fourteen records in a harvested pool of 8,905 carry the X-37 designation or the words orbital test vehicle, and every one of them is either from the space agency phase between 1999 and 2004 or is an outside analysis written by people with no access to the programme.**
-Not one describes an orbital mission.
-**The vehicle has flown for fifteen years and generated no citable engineering.**
+**Seventeen records in a harvested pool of 13,351 carry the X-37 designation or the words orbital test vehicle, and fourteen survive into the cited base.**
+Twelve of the fourteen are dated between 2000 and 2005 and every one of those is a space agency document.
+**The remaining two are outside analyses**, an infrared observability study and a flow-field reconstruction,
+written by people with no access to the programme.
+
+**The programme's own literature stops in 2005**, one year after the transfer to the defence research
+agency, and **not one record in the entire base describes a flown mission.** The vehicle has operated for
+fifteen years and generated no citable engineering at all.
 
 | Article | Vehicle | Why its cluster is thin |
 |---|---|---|
@@ -2231,12 +2239,12 @@ Both are given.
 
 | Half | Count | Share of dated |
 |---|---|---|
-| Period, through 2011 | 3,064 | 55.7 percent |
-| Contemporary, 2012 onward | 2,432 | 44.3 percent |
+| Period, through 2011 | 3,061 | 55.8 percent |
+| Contemporary, 2012 onward | 2,428 | 44.2 percent |
 | Undated | 56 | |
-| **Total research records** | **5,552** | |
+| **Total research records** | **5,545** | |
 
-**The period count is 3,064 and the contemporary count is 2,432.** Both are given because a contemporary
+**The period count is 3,061 and the contemporary count is 2,428.** Both are given because a contemporary
 survey lowers the period SHARE while leaving the period COUNT untouched, and reporting the share alone reads
 as a regression when it is the directive working.
 
@@ -2248,21 +2256,22 @@ together, so the report share is the closest available proxy for how much of the
 |---|---|---|
 | Technical reports, all eras | 1,116 | 20.1 percent |
 | Technical reports at or before 2011 | 915 | 16.5 percent |
-| Journal and conference records | 4,436 | 79.9 percent |
+| Journal and conference records | 4,429 | 79.9 percent |
 
 A further **148** reference works are listed below, and they carry the relations that no journal article
 states because every textbook does.
 
-### What the Equation Pass Promoted, and Which Subjects Are Genuinely Thin
+### Which Subjects Are Genuinely Thin, and Why Each One Is
 
-**An equation pass promotes subjects, and the mechanics beneath a relation are not the same literature as the technology above it.**
-The first harvest of this article asked for spaceplanes, power systems, thermal protection and aerobraking.
-It never asked for the second zonal harmonic, the solar aspect angle, the square-cube law or the energy
-state approximation, and every one of those is now a relation this article displays. An audit of the pool
-against the article's own subject list found
-**twenty-four of thirty-seven thin or absent, and two standing at zero while the article displayed them.**
-After three further harvests and a correction to the audit itself, **nineteen remain**, and every one of the
-nineteen is named below with the reason it is thin.
+**The subjects a technical argument rests on are not the subjects its vocabulary names**, and the gap
+between the two is where a literature search fails. This article displays relations drawn from the second
+zonal harmonic, the solar aspect angle, the square-cube law and the energy state approximation. None of
+those four phrases appears anywhere in the article's own prose.
+**A search built from what an article says will not find the literature the article depends on.**
+
+Measured against the list of subjects the arguments actually use,
+**nineteen of thirty-seven are thin or absent in the source base assembled here.** Each is named below,
+because a bare count invites the reader to assume the worst explanation.
 
 **A subject can be thin for three reasons and a count cannot tell them apart.** Naming which applies is the
 whole of the work.
@@ -2270,17 +2279,18 @@ whole of the work.
 **The heading is wrong, which is the commonest kind and the only curable one.** The field does not say
 crossrange, it says lateral range and footprint. It does not say equilibrium glide, it says gliding entry
 and cites Eggers and Allen. It did not say beta angle in 1968, it said solar aspect angle and sun incidence.
-Asking again in each field's own words took equilibrium glide from three records to eighteen, crossrange
-from four to eleven and vehicle scaling from nine to twenty-four.
+Searching in each field's own words rather than in this article's took equilibrium glide from three records
+to eighteen, crossrange from four to eleven and vehicle scaling from nine to twenty-four,
+**and not one of those records was newly found.** They were present the whole time and the question had been
+put in the wrong language.
 
-**And the audit's own headings were thin in exactly the same way**, which is worth recording because it is
-the same defect one level up. The first version of the audit tested for the article's vocabulary while the
-harvest asked in the literature's, so a subject could be well supplied and still measure zero.
-**Three of the largest apparent gaps closed on the measuring instrument rather than on the pool.**
+**That is worth stating plainly, because it applies to the instrument as much as to the search.** A count of
+how well a subject is covered is itself a search, and it undercounts for exactly the same reason.
+**A thin result is a claim about the question before it is a claim about the field.**
 
 **The knowledge is settled and stopped generating papers**, which is not curable and must not be padded. The
 vis-viva relation stands at zero records, the rocket equation at one and Kepler's third law at three, after
-harvests aimed directly at each. **These are not gaps.** They are relations that appear in every
+searches aimed directly at each. **These are not gaps.** They are relations that appear in every
 astrodynamics textbook and in no journal article, because nobody has published on them since the seventeenth
 and nineteenth centuries respectively.
 **The reference works section carries them and that is the correct home.**
@@ -2293,10 +2303,10 @@ subject list falls into it.
 | Subject | Period | Contemporary | Why |
 |---|---|---|---|
 | Specific orbital energy | 0 | 0 | **Settled.** Every astrodynamics textbook, no journal article |
-| The rocket equation | 0 | 1 | **Settled.** Same, and A331 found the same thing |
+| The rocket equation | 0 | 1 | **Settled.** Same, and the [X-34][related_post_a331_orbital_sciences_x34] article found the same |
 | Kepler and the orbital period | 1 | 2 | **Settled**, and the relation is from 1619 |
 | Energy height | 3 | 0 | **Settled.** The method is named after a 1954 paper and is textbook thereafter |
-| The beta angle, period half | 0 | 8 | **Thin heading, and four harvests failed to cure it.** The period documented the same geometry inside thermal design reports that name neither the angle nor its modern synonyms |
+| The beta angle, period half | 0 | 8 | **Thin heading, and no rephrasing cured it.** The period documented the same geometry inside thermal design reports that name neither the angle nor its modern synonyms |
 | Aerobraking corridor control | 1 | 0 | **Thin heading.** The subject is covered at 191 records under aerobraking, periapsis management and density reconstruction |
 | Stagnation heating, contemporary half | 97 | 0 | **Thin heading.** Modern work computes the same quantity and does not cite the correlations by name |
 | Manoeuvre detection, period half | 0 | 20 | **Genuinely modern.** The capability to detect a manoeuvre from the ground is recent |
@@ -2480,9 +2490,8 @@ The article computes bounds precisely because none of these exists.
 
 - [X-37 Flight Demonstrator Project Capabilities for Future...][research_danielldumbacher]
 - [Spaceplane Technology and Research STAR][research_redding_jr_1984]
-- [Response The Spaceplane][research_marshall_1986_c]
+- [Response The Spaceplane][research_marshall_1986_b]
 - [NASA and Military Press for a Spaceplane][research_marshall_1986]
-- [The Spaceplane][research_marshall_1986_b]
 - [Hermes Spaceplane in MBB Wind Tunnel][research_hermes_spaceplane_1988]
 - [On the Japanese spaceplane. Perspective on the...][research_maita_1989]
 - [Subjects in aerodynamic design and hypersonics of HOPE...][research_ito_nomoto_1990]
@@ -5010,7 +5019,6 @@ The article computes bounds precisely because none of these exists.
 - [Solar Magnetic Drivers of Space Weather][research_harvey_howard_1997]
 - [Space Operations for the 21st Century A Functional Approach][research_levy_1997]
 - [The Mercury Orbiter mission][research_grard_1997]
-- [The regolith of Mercury present knowledge and implications...][research_langevin_1997]
 - [A Comparative Analysis of Hartree-Fock and Kohn-Sham Orbital...][research_politzer_abuawwad_1998]
 - [Baryonic Mass Fraction in Rich Clusters and the Total Mass...][research_bludman_1998]
 - [Coplanar Elliptical Orbit Transfer Using Aerocruise][research_lohar_sherwani_1998]
@@ -5163,7 +5171,6 @@ The article computes bounds precisely because none of these exists.
 - [Orbital and Charge Ordering in Manganites][research_raveau_hervieu_2006]
 - [Orbiter Return-To-Flight Entry Aeroheating][research_campbellcharlesh_andersonbrian_2006]
 - [Orbiter to look for lost-to-Mars probes][research_orbiter_to_2006]
-- [Orientation and distribution of recent gullies in the...][research_balme_mangold_2006]
 - [Parametric Optimization Analysis for Minimum-Fuel Low-Thrust...][research_chen_sheu_2006]
 - [Prediction of the structure of the martian upper atmosphere...][research_bougher_murphy_2006]
 - [Space Threat Warning Foundation for Space Superiority...][research_burke_2006]
@@ -5531,10 +5538,8 @@ The article computes bounds precisely because none of these exists.
 - [Preliminary design of a space debris removal mission in LEO...][research_bianchi_niccolai_2024]
 - [Reliability analysis of space debris mitigation strategies...][research_marceloaraujodasilva_matheusalvesdelima_2024]
 - [Space debris removal Review of technologies and techniques...][research_svotina_2024]
-- [Study on the Projection of Global Norms Regarding Space...][research_kang_2024]
 - [The political and legal landscape of space debris mitigation...][research_smith_rathnasabapathy_2024]
 - [Examining The Need for an International Legal Framework to...][research_lovell_2025]
-- [A Law and Economic Analysis of Orbital Debris Mitigation][research_ji_lee_2025]
 - [Advancements in Space Law Satellite Communications Industry...][research_sanchez_2025]
 - [Analysis of current and future threats of space debris and...][research_banik_ali_2025]
 - [DISE A Dynamic Integrated Space-Economy Model for Orbital...][research_bongers_ortiz_2025]
@@ -7069,14 +7074,21 @@ by 1.2 metres and a launch mass of 4,990 kilograms.
 
 Every quantitative result in this article is computed from those published figures and from standard
 relations, and each is reproduced independently by a verification routine that shares no code with the
-routine that produced it. The orbital period, circular speed, eclipse fraction, full-sun beta threshold and
-cycle count follow from the published altitude and inclination alone. The array and radiator bounds follow
-from the published bay dimensions. The drag figures follow from a piecewise exponential atmosphere at
-nominal solar activity. The aerobraking figures follow from the published orbit.
+routine that produced it. The orbital period, circular speed, eclipse fraction, full-sun beta threshold,
+nodal precession, beta cycle and orbit count follow from the published altitude and inclination alone. The
+scaling exponents and the duty cycle follow from published dimensions, masses and dates, and involve no
+model whatever. The array and radiator bounds follow from the published bay dimensions. The drag figures
+follow from a piecewise exponential atmosphere at nominal solar activity. The aerobraking figures follow
+from the published orbit.
 **The identity showing that entry heading change is independent of mass, area and atmosphere is exact within the equilibrium glide assumption**,
 and was checked against an integration that retains the term it claims cancels.
 
 ### Inference
+
+That the eclipse average describes what the mission experienced rather than a modelling convenience is an
+inference from the node and beta cycles being short against the mission, at 58.35 and 50.32 days against
+908.88. That the square-cube penalty rather than a design choice explains the payload fraction is an
+inference from the measured mass exponent of 1.924, and other explanations are available.
 
 That endurance rather than propulsion is the binding constraint is an inference from the computed drag
 budget being small at the altitudes flown. That heat rejection binds more tightly than power generation is
@@ -7122,9 +7134,20 @@ and the only reason it could is that it has a thermal protection system and ther
 atmosphere without consequence. **Reusability bought manoeuvrability**, which is not the argument usually
 made for it.
 
+**Two smaller results deserve carrying forward because neither needed a model.** Measuring the exponent that
+relates this vehicle to the Shuttle orbiter puts mass at length to the **1.924** against 3 for geometric
+similarity, so
+**a similar orbiter shrunk to 8.92 metres would mass 1,072 kilograms and this one masses 4,990**. The small
+vehicle keeps the airframe and loses the room, which is why the payload fraction is 4.55 percent and needs
+no apology. And the operational claim is not the longest mission but the **77.46 percent duty cycle** across
+the 5,433 days from first launch to seventh landing.
+**Two airframes held an X-37B in orbit for three quarters of fifteen years**, which is a statement about
+turnaround that the record mission conceals.
+
 **The third answer is about the record itself, and it is uncomfortable.** This is the most successful
 vehicle in the last ten articles of this series and it has left the thinnest documentary trace of any of
-them. Fourteen records in 8,905, none describing a flown mission, across fifteen years of operations.
+them. Fourteen records in a base of 5,545, none describing a flown mission, and the programme's own
+publications stop in 2005 while the vehicle went on flying for twenty years after that.
 **Four previous articles found a thin cluster for four different reasons, all of which were forms of the programme ending. This one is thin because the programme succeeded and was classified.**
 
 **The documentary trace measures the institution rather than the aircraft**, and an outside analyst armed
@@ -7438,7 +7461,6 @@ summary of what classification achieves and what it costs.
 ### Reference
 
 - [Aerobraking][ref_aerobraking]
-- [Aerojet AR2-3][ref_ar23]
 - [Atmospheric entry][ref_equilibrium_glide]
 - [Ballistic coefficient][ref_ballistic_coefficient]
 - [Beta angle][ref_beta_angle]
@@ -7453,17 +7475,18 @@ summary of what classification achieves and what it costs.
 - [High-test peroxide][ref_h2o2]
 - [Hydrazine][ref_hydrazine]
 - [NASA account of the X-37 flight demonstrator][ref_nasa_x37]
+- [NASA account of the X-40A Space Maneuvering Vehicle][ref_smv]
 - [National Aeronautics and Space Administration][ref_nasa]
 - [Orbital period][ref_orbital_period]
 - [Reinforced carbon-carbon][ref_carbon_carbon]
+- [Rocketdyne AR2 and the AR2-3 derivative][ref_ar23]
 - [Scaled Composites White Knight][ref_white_knight]
 - [Space Launch Initiative][ref_sli]
-- [Space Maneuver Vehicle][ref_smv]
 - [Space Shuttle][ref_shuttle]
+- [Space Shuttle orbiter, whose approach phase defined the technique][ref_taem]
 - [Space-based solar power][ref_sbsp]
 - [Stagnation point heating correlations][ref_sutton_graves]
 - [Stefan-Boltzmann law][ref_stefan_boltzmann]
-- [Terminal area energy management][ref_taem]
 - [The X-37B payload bay as described by the United States Space Force][ref_payload_bay]
 - [Toughened Uni-piece Fibrous Reinforced Oxidation-resistant Composite][ref_tufroc]
 - [Tsiolkovsky rocket equation][ref_rocket_equation]
@@ -7471,7 +7494,7 @@ summary of what classification achieves and what it costs.
 - [Vis-viva equation][ref_vis_viva]
 
 [ref_aerobraking]: https://en.wikipedia.org/wiki/Aerobraking
-[ref_ar23]: https://en.wikipedia.org/wiki/Aerojet_AR2-3
+[ref_ar23]: https://en.wikipedia.org/wiki/Rocketdyne_AR2
 [ref_ballistic_coefficient]: https://en.wikipedia.org/wiki/Ballistic_coefficient
 [ref_beta_angle]: https://en.wikipedia.org/wiki/Beta_angle
 [ref_boeing]: https://en.wikipedia.org/wiki/Phantom_Works
@@ -7492,10 +7515,10 @@ summary of what classification achieves and what it costs.
 [ref_sbsp]: https://en.wikipedia.org/wiki/Space-based_solar_power
 [ref_shuttle]: https://en.wikipedia.org/wiki/Space_Shuttle
 [ref_sli]: https://en.wikipedia.org/wiki/Space_Launch_Initiative
-[ref_smv]: https://en.wikipedia.org/wiki/Space_Maneuver_Vehicle
+[ref_smv]: https://www.nasa.gov/aeronautics/nasa-aircraft/x-40/
 [ref_stefan_boltzmann]: https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law
 [ref_sutton_graves]: https://en.wikipedia.org/wiki/Atmospheric_entry#Entry_vehicle_shapes
-[ref_taem]: https://en.wikipedia.org/wiki/Space_Shuttle_landing
+[ref_taem]: https://en.wikipedia.org/wiki/Space_Shuttle_orbiter
 [ref_tufroc]: https://en.wikipedia.org/wiki/TUFROC
 [ref_usaf]: https://en.wikipedia.org/wiki/United_States_Air_Force
 [ref_vis_viva]: https://en.wikipedia.org/wiki/Vis-viva_equation
@@ -7849,7 +7872,6 @@ summary of what classification achieves and what it costs.
 - [Ballard 1979][research_ballard_1979]
 - [Ballard et al 2010][research_ballard_weaver_2010]
 - [Ballistic problems in the 2015][research_ballistic_problems_in_2015]
-- [Balme et al 2006][research_balme_mangold_2006]
 - [Baluragi et al 2011][research_baluragi_gupta_2011]
 - [Bandini et al 2024][research_bandini_marracci_2024]
 - [Banerjee et al 2018][research_banerjee_guo_2018]
@@ -9327,7 +9349,6 @@ summary of what classification achieves and what it costs.
 - [Harris et al 2007][research_harris_mueller_2007]
 - [Harrison and Gibson 1981][research_harrison_gibson_1981]
 - [Harrison et al 1983][research_harrison_minnis_1983]
-- [Harrison et al 2015][research_harrison_osinski_2015]
 - [Harthun, M. H. et al 1983][research_harthunmh_blumercb_1983]
 - [Harting 1981][research_harting_1981]
 - [Hartung et al 1992][research_hartung_mitcheltree_1992]
@@ -9689,7 +9710,6 @@ summary of what classification achieves and what it costs.
 - [Jhoti et al 2021][research_jhoti_paige_2021]
 - [Ji 2026][research_ji_2026]
 - [Ji et al 2020][research_ji_guo_2020]
-- [Ji et al 2025][research_ji_lee_2025]
 - [Ji et al 2026][research_ji_han_2026]
 - [Jia et al 2020][research_jia_fu_2020]
 - [Jia Yue et al 2019][research_jiayue_yongxiaojian_2019]
@@ -9800,7 +9820,6 @@ summary of what classification achieves and what it costs.
 - [Kana and Chu 1970][research_kana_chu_1970]
 - [Kanda et al 2006][research_kanda_ueda_2006]
 - [Kang 2022][research_kang_2022]
-- [Kang 2024][research_kang_2024]
 - [Kanipe 1983][research_kanipe_1983]
 - [Kanipe, D. B. 1982][research_kanipedb_1982]
 - [Kansara et al 2026][research_kansara_bhade_2026]
@@ -10155,7 +10174,6 @@ summary of what classification achieves and what it costs.
 - [Landry et al 1990][research_landry_rupert_1990]
 - [Lang et al 2025][research_lang_qin_2025]
 - [Langberg 1959][research_langberg_1959]
-- [Langevin 1997][research_langevin_1997]
 - [Langlade 2018][research_langlade_2018]
 - [Langlois et al 2023][research_langlois_benmahmoudjouini_2023]
 - [Lanzerotti 1969][research_lanzerotti_1969]
@@ -10629,7 +10647,6 @@ summary of what classification achieves and what it costs.
 - [Marshak et al 2000][research_marshak_adam_2000]
 - [Marshall 1986][research_marshall_1986]
 - [Marshall 1986][research_marshall_1986_b]
-- [Marshall 1986][research_marshall_1986_c]
 - [Marshall 1988][research_marshall_1988]
 - [Marshall and Breuch 1968][research_marshall_breuch_1968]
 - [Marshall and Luthcke 1994][research_marshall_luthcke_1994]
@@ -12947,7 +12964,6 @@ summary of what classification achieves and what it costs.
 - [Youngquist et al 2018][research_youngquist_nurge_2018]
 - [Yousif et al 2021][research_yousif_judge_2021]
 - [Youssef, Hussein et al 2001][research_youssefhussein_chowdhryrajiv_2001]
-- [Yu and Fa 2016][research_yu_fa_2016]
 - [Yu et al 2014][research_yu_sun_2014]
 - [Yu et al 2018][research_yu_wang_2018]
 - [Yu et al 2019][research_yu_ren_2019]
@@ -13402,7 +13418,6 @@ summary of what classification achieves and what it costs.
 [research_ballard_1979]: https://doi.org/10.2307/3963827
 [research_ballard_weaver_2010]: https://doi.org/10.1016/j.jeurceramsoc.2010.03.015
 [research_ballistic_problems_in_2015]: https://doi.org/10.18698/2308-6033-2015-6-1428
-[research_balme_mangold_2006]: https://doi.org/10.1029/2005je002607
 [research_baluragi_gupta_2011]: https://doi.org/10.1007/s12666-011-0073-x
 [research_bandini_marracci_2024]: https://doi.org/10.1109/tim.2024.3400339
 [research_banerjee_guo_2018]: https://doi.org/10.1002/solr.201800007
@@ -14877,7 +14892,6 @@ summary of what classification achieves and what it costs.
 [research_harris_mueller_2007]: https://doi.org/10.1016/j.icarus.2006.12.003
 [research_harrison_gibson_1981]: https://doi.org/10.2514/3.57796
 [research_harrison_minnis_1983]: https://doi.org/10.2514/3.25634
-[research_harrison_osinski_2015]: https://doi.org/10.1016/j.icarus.2015.01.022
 [research_harthunmh_blumercb_1983]: https://ntrs.nasa.gov/citations/19840002083
 [research_harting_1981]: https://doi.org/10.1111/j.1747-1567.1981.tb01597.x
 [research_hartung_mitcheltree_1992]: https://doi.org/10.2514/3.376
@@ -15242,7 +15256,6 @@ summary of what classification achieves and what it costs.
 [research_ji_2026]: https://doi.org/10.54254/2753-8818/2026.gl35685
 [research_ji_guo_2020]: https://doi.org/10.5098/hmt.14.14
 [research_ji_han_2026]: https://doi.org/10.1016/j.icte.2026.03.001
-[research_ji_lee_2025]: https://doi.org/10.31691/kasl40.2.6.
 [research_jia_fu_2020]: https://doi.org/10.1016/j.actaastro.2020.07.022
 [research_jiang_2002]: https://doi.org/10.1016/s0275-1062(02)00044-9
 [research_jiang_li_2019]: https://doi.org/10.1016/j.actaastro.2019.05.033
@@ -15353,7 +15366,6 @@ summary of what classification achieves and what it costs.
 [research_kana_chu_1970]: https://doi.org/10.2514/3.29995
 [research_kanda_ueda_2006]: https://doi.org/10.2514/1.18444
 [research_kang_2022]: https://doi.org/10.56544/jblr.2022.12.70.355
-[research_kang_2024]: https://doi.org/10.31691/kasl39.2.6.
 [research_kanipe_1983]: https://doi.org/10.2514/3.25605
 [research_kanipedb_1982]: https://ntrs.nasa.gov/citations/19820055562
 [research_kansara_bhade_2026]: https://doi.org/10.7759/s44389-026-00081-3
@@ -15708,7 +15720,6 @@ summary of what classification achieves and what it costs.
 [research_landry_rupert_1990]: https://doi.org/10.1016/0379-6787(90)90002-m
 [research_lang_qin_2025]: https://doi.org/10.1016/j.asr.2025.06.035
 [research_langberg_1959]: https://doi.org/10.1109/tcom.1959.1097551
-[research_langevin_1997]: https://doi.org/10.1016/s0032-0633(96)00098-0
 [research_langlade_2018]: https://doi.org/10.5553/iisl/2018061009005
 [research_langlois_benmahmoudjouini_2023]: https://doi.org/10.1016/j.respol.2022.104626
 [research_lanzerotti_1969]: https://doi.org/10.2514/3.29768
@@ -16182,8 +16193,7 @@ summary of what classification achieves and what it costs.
 [research_marsden_fleck_2003]: https://doi.org/10.1016/j.asr.2003.01.003
 [research_marshak_adam_2000]: https://doi.org/10.21236/ada389502
 [research_marshall_1986]: https://doi.org/10.1126/science.231.4734.105
-[research_marshall_1986_b]: https://doi.org/10.1126/science.231.4740.783-a
-[research_marshall_1986_c]: https://doi.org/10.1126/science.231.4740.783.b
+[research_marshall_1986_b]: https://doi.org/10.1126/science.231.4740.783.b
 [research_marshall_1988]: https://doi.org/10.1126/science.239.4838.347.a
 [research_marshall_breuch_1968]: https://doi.org/10.2514/3.29420
 [research_marshall_luthcke_1994]: https://doi.org/10.2514/3.26408
@@ -18504,7 +18514,6 @@ summary of what classification achieves and what it costs.
 [research_yousif_judge_2021]: https://doi.org/10.1017/s146039692100039x
 [research_youssefhussein_chowdhryrajiv_2001]: https://ntrs.nasa.gov/citations/20010067392
 [research_yu_chen_2025]: https://doi.org/10.3390/aerospace12121084
-[research_yu_fa_2016]: https://doi.org/10.1016/j.pss.2016.02.001
 [research_yu_guo_2025]: https://doi.org/10.1016/j.ijthermalsci.2025.109703
 [research_yu_li_2022]: https://doi.org/10.1016/j.est.2021.103591
 [research_yu_qiu_2022]: https://doi.org/10.1063/5.0131460
