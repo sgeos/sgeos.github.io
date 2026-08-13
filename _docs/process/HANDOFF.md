@@ -11,30 +11,18 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `6520b8d`
+- **Parent commit** (the repository state this handoff describes): `e5ba7cf`
 - **Written**: 2026-08-13
 - **Tree at write**: clean, nothing unpushed
-- **Context**: the X-Planes series is IN PROGRESS. **Thirty-nine of seventy-two articles drafted,
-  all four passes complete on each. None published, and none authorised.**
-- **Since the previous handoff, the work was ALL off the X-Planes mainline.** The Keleusma line ran to
-  completion and **four articles are now PUBLISHED**, being A369, A370, A371 and A372. **The series was
-  renamed** from `keleusma_native` / Keleusma Native Code Generation to `keleusma_research_spikes` /
-  **Keleusma Research Spikes**, and each article's title now shares the main title **Keleusma Research
-  Spike** with a distinct subtitle. A371 carries an **erratum at its head**, because its frame
-  measurements never ran the optimiser and the direction of its central finding was backwards.
-- **The shared machinery changed in three ways that affect every future harvest.**
-  **`homonyms._keys_for` now derives the prospective anchor stem**, which un-blinded **550 of 728
-  rejections** that could never fire at harvest time because anchors are assigned later.
-  **`gate.substance_reason` adds a minimum-substance test**, refusing dictionary headwords and titles
-  identical to their container, since a subject test cannot catch an entry whose title IS the anchor.
-  The homonym store grew **41 to 66 patterns**. `_lib/test_lib.py` is **78 of 78**, up from 75.
-- **Six hundred dead download links were removed from the live site**, `_layouts/post.html` and
-  `index.html` having emitted PDF and EPUB links for every post that have never once resolved.
-- **2,295 truncated citation labels were repaired across 18 X-Planes drafts.** Their identifiers were
-  always correct and only the visible link text was cut, so no reference was removed.
-- **Twenty-two leaked wait loops were reaped**, each written as `until ! pgrep -f "<script>"` which
-  **matches its own command line and can never exit**. The trap is recorded. Key a wait on the job's
-  output, never on its process name.
+- **Context**: the X-Planes series is IN PROGRESS. **Forty-two of seventy-two articles drafted, all
+  four passes complete on each. None published, and none authorised.**
+- **Since the previous handoff, three articles were written**, being **A336 X-39**, **A337 Boeing
+  X-40** and **A338 X-41 Common Aero Vehicle**. All three are committed and pushed.
+- **Two article classes were used for the first time.** A336 is the first **designation anomaly** in
+  the reduced section order, and A338 is the first **documentation-poor** article. A297 named both
+  classes and neither had been exercised.
+- **The Keleusma line is complete and published**, being A369 through A372. Nothing there is
+  outstanding except one item owed from another repository.
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
 and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -52,81 +40,63 @@ described.
 
 ---
 
-## Resume prompt, and the next prompt will be "Please draft A336, 'X-Planes: X-39, Reserved but Never Assigned.'"
+## Resume prompt, and the next prompt will be "Please draft A339, 'X-Planes: Orbital Sciences X-42.'"
 
-**Nothing on the X-Planes mainline is outstanding.** A335 finished all four passes, is committed and
-pushed, and returns 404 while the site root returns 200, which is correct because nothing in that
-series is published. There is no half-finished pass to pick up.
+**Nothing is outstanding.** A338 finished all four passes, is committed and pushed, and there is no
+half-finished pass to pick up. **Wait for the pilot's prompt. Do not begin A339 unprompted.**
 
-**The citation audit is CLOSED and its finding was not what it looked like.** The 44 title mismatches
-were **one systematic defect**, not forty-four judgements. A hard **four-word cap** had been applied to
-the title of every author-less record, so the visible link text read `Air Drag on a 1966` where the
-work is `Air Drag on a Falling Plastic Ball`. **The identifiers were correct throughout**, so the fix
-was to repair labels and not to remove references. **2,295 labels were repaired across 18 X-Planes
-drafts**, rebuilt from `.cache/citations.json` with no network, and inline prose citations were
-repaired as well as list entries. **Removing the 44 would have been the obvious response and wrong.**
+**A339 IS PROBABLY ANOTHER DISPUTED CASE AND THE ROSTER TITLE MAY BE WRONG.** The roster calls it the
+Orbital Sciences X-42, and the anomaly list in this file records that **sources disagree about what the
+X-42 even was**, one calling it an expendable upper stage and another a spaceplane test vehicle, with no
+dedicated treatment existing anywhere. **Establish that from sources before writing a line**, and decide
+the article class from what the record actually supports rather than from the roster title.
 
-**Do not dismiss a citation finding as an artefact without reading the rule that fired.** An earlier
-reading called these noise from a trailing full stop. That was wrong, the comparison never sees
-punctuation, and acting on it would have discarded 2,295 real defects.
+**THE LAST TWO ARTICLES BOTH TURNED ON A DESIGNATION THAT MAY NOT BELONG TO ITS VEHICLE**, and A339 may
+be the third. A336 found a number reserved and never assigned. A338 found that **the X-41A designation
+was allocated in late 1997, years before the programme it is now attached to**, was never used again
+officially, and that the authoritative survey doubts it ever applied. **When the public record pairs a
+number with a vehicle, check the pairing rather than inheriting it.**
 
-**Two items are owed from outside this repository.** A369's claim that per-function frame size varies
-by roughly a factor of thirty awaits the Keleusma decision register, and neither A371's nor A372's
-frame measurements were independently reproduced here, the LLVM 22 toolchain being absent from this
-host.
+**THE THREE CLASSES ARE NOW ALL DEMONSTRATED AND THE CHOICE IS REAL.** A337 is a full-aircraft article
+at 64 equations and 4,735 references. A338 is documentation-poor, full section order with short sections
+and 30 equations, where **the statement of what is unknown carries the weight a specification table
+would otherwise carry**. A336 is a designation anomaly in the reduced order with no vehicle at all.
+**Pick from the record, not from habit, and say in the article which class it is and why.**
 
-**Wait for the pilot's prompt. Do not begin A336 unprompted.**
+**A338 SHOWS WHAT A DOCUMENTATION-POOR ARTICLE CAN STILL DO.** No specifications were ever released, so
+it derived the vehicle from its mission. A published range plus the equilibrium glide relation fixed the
+required lift to drag ratio, the Küchemann barrier refused it below Mach 22.2, the corridor that follows
+put a sharp leading edge above its design temperature, and **the official failure report then confirmed
+that the aerodynamic design was validated and the surprise was thermal**. **Classification hides the
+design and not the physics**, and that method is available whenever the record is thin.
 
-**A336 IS A DESIGNATION ANOMALY AND THAT CHANGES THE JOB.** X-39 was reserved and never assigned.
-There is no aircraft, no keystone to identify and no system to dimension, so
-`_docs/writing/RESEARCH_AIRCRAFT_STRUCTURE.md` prescribes the **reduced six-section order** rather than
-the twelve-section one. **Read that section before writing a line.**
+**ONE ITEM IS OWED FROM OUTSIDE THIS REPOSITORY.** A369's claim that per-function frame size varies by
+roughly a factor of thirty awaits the Keleusma decision register. Neither A371's nor A372's frame
+measurements were independently reproduced here, the LLVM 22 toolchain being absent from this host.
 
-**THE ANOMALY CLASS HAS A BOUNDARY AND A320 ESTABLISHED IT.** The X-23 is listed among the anomalies
-and was written at full length, because the SV-5D actually flew three times and returned a measurement.
-**The test is whether a vehicle existed and produced data, not whether the designation is disputed.**
-For a number that was reserved and never assigned, **the short class is the honest default**, and the
-genre document says in terms that padding a short article with sections it does not need is worse than
-leaving it short.
-
-**THE RESEARCH QUESTION IS THEREFORE ABOUT THE DESIGNATION SYSTEM AND NOT ABOUT A MACHINE.** What was
-the number reserved for, by whom, and why was it never assigned. **I have not researched it and I am
-not going to guess in this file.** Establish it from sources before writing, and where the record does
-not settle it, say so, because on a short article the statement of what is unknown is the main
-contribution.
-
-**EXPECT THE SOURCE BASE TO BE SMALL AND DO NOT INFLATE IT.** The comprehensiveness directive is a
-permission and not an instruction. An article that says the designation was reserved in a given year,
-names the deciding authority and explains what the reservation reveals about the numbering system is
-complete at that length. **Report the counts and do not target them.**
-
-**WHAT THE THREE SERIES SECTIONS SHOULD DO ON AN ANOMALY ARTICLE IS AN OPEN QUESTION.** The
-contemporary-literature survey and the source-base accounting exist to serve a technical argument, and
-an anomaly article has none. **Decide deliberately whether they belong, and say why in the article
-rather than including them out of habit.** A320 kept them because it had a vehicle. This one may not.
-
-**THE SEQUEL IS A REAL AIRCRAFT AND IT IS ALREADY WRITTEN ABOUT HERE.** A337 is the Boeing X-40, which
-A334 and A335 both discuss as the X-37's subscale predecessor. **Do not exhaust the X-40 material in
-A336**, and remember the back-reference-only rule, which means A336 may cite A334 and A335 and must not
-cite A337.
+---
 
 ## Where the Series Stands
 
 Seventy-two articles, A297 through A368, back-dated one per day from 2025-10-06 to 2025-12-16,
 covering every X-designation from X-1 through X-76.
 
-**Thirty-nine complete**, A297 through A335, all four passes each, all in `_drafts/`, **none
+**Forty-two complete**, A297 through A338, all four passes each, all in `_drafts/`, **none
 published**.
 
-| Article | Aircraft | Final state |
-|---|---|---|
-| A329 | Boeing X-32 | 19,593 lines, 28 eq, 6,159 refs |
-| A330 | Lockheed Martin X-33 | 32,379 lines, 92 eq, 10,248 refs |
-| A331 | Orbital Sciences X-34 | 20,006 lines, 38 eq, 6,352 refs |
-| A332 | Lockheed Martin X-35 | 27,560 lines, 71 eq, 8,710 refs |
-| A333 | McDonnell Douglas X-36 | 20,991 lines, 28 eq, 6,696 refs |
-| A334 | Boeing X-37 | 18,700 lines, 42 eq, 5,762 refs |
-| A335 | Scaled Composites X-38 | 6,733 lines, 24 eq, 1,936 refs |
+| Article | Aircraft | Class | Final state |
+|---|---|---|---|
+| A332 | Lockheed Martin X-35 | full | 27,560 lines, 71 eq, 8,710 refs |
+| A333 | McDonnell Douglas X-36 | full | 20,991 lines, 28 eq, 6,696 refs |
+| A334 | Boeing X-37 | full | 18,700 lines, 42 eq, 5,762 refs |
+| A335 | Scaled Composites X-38 | full | 6,733 lines, 24 eq, 1,936 refs |
+| A336 | X-39, reserved but never assigned | **anomaly** | 5,919 lines, 8 eq, 2,523 refs |
+| A337 | Boeing X-40 | full | 10,681 lines, 64 eq, 4,735 refs |
+| A338 | X-41 Common Aero Vehicle | **documentation-poor** | 10,179 lines, 30 eq, 4,654 refs |
+
+**THE SPREAD BETWEEN 32,379 LINES AND 5,919 IS THE DIRECTIVE WORKING, NOT AN INCONSISTENCY.** A336 is
+an eighth the size of A335 because a number that was never assigned has an eighth of the record. **Report
+the counts and do not target them.**
 
 **A335 IS THE SMALLEST FULL-AIRCRAFT ARTICLE SINCE A323 AND THAT IS CORRECT.** Its pool held 6,212
 records against A334's 13,351, because the decelerator literature is smaller than the orbital one and
@@ -691,6 +661,32 @@ pattern.** Twice the false report was large enough to look like a real finding.
 CARRIED FORWARD. KEY IT BY URL AS WELL AS BY ANCHOR**, because disambiguation suffixes shift when an
 earlier record is removed.
 
+**A GROUPING DEFECT MADE A GATE SIMULTANEOUSLY TOO PERMISSIVE AND TOO NARROW, AND NO COUNT SHOWED IT.**
+A337 and A338 write the order-free qualifier as `(?=.*(?:{p}))` because A336 wrote it as `(?=.*{p})`.
+With an alternation inside, the second form parses as `(?=.*first)` OR `second` OR `third`, so **the
+alternation escapes the lookahead and the conjunction silently becomes a disjunction of bare words**. It
+admitted any title containing `maintenance` while refusing `Domain Name System`. **Correcting it moved
+one cluster from 7 records to 132.** Group every part.
+
+**A SURVEY AUDIT MUST TEST THE CONSTRUCTS THE ARTICLE REASONS WITH, NOT ONLY ITS SUBJECT.** Two
+consecutive publication reviews found a displayed subject at or near zero. A337 displayed **relative
+density** as the canonical similarity parameter and the survey held **none**. A338's central construct
+is the **entry corridor** and the survey held **nine**. **The first harvest asks for what the article is
+about and misses what it reasons with**, every time so far. Audit against the article's own load-bearing
+vocabulary before the publication pass ends.
+
+**AUDIT THE SUPPLEMENTARY HARVEST TOO, NOT ONLY THE FIRST.** A337 read samples of its first gate and not
+of the supplementary one, and **two homonym families entered through the new anchors**, being `relative
+density` as a soil-mechanics term for the packing of granular soil and `moment of inertia` as a nuclear
+physics model. **44 records, 10.6 percent of that supplementary set.** A338 audited its supplementary set
+and it came back clean.
+
+**A PUBLISHER-PREFIX CHECK HAS NOW BEATEN THE RANDOM SAMPLE THREE ARTICLES RUNNING.** Scan the reference
+list for identifiers whose prefix does not belong to the field. A clinical-psychology prefix exposed
+`subscale` as a psychometrics term. A condensed-matter prefix exposed the **nanofluid stagnation-point
+flow** literature, which shares `stagnation point` and `heat transfer` with reentry aerothermodynamics
+and shares no physics, at **97 records, 2.2 percent of A338's corpus**. **Make the prefix scan routine.**
+
 ### The homonym table
 
 **THIS IS THE DOMINANT FAILURE MODE AND THE LIST NOW RUNS PAST FORTY.** The most dangerous are internal
@@ -1085,6 +1081,37 @@ command issued after a `cd`.**
 
 ---
 
+### On merging and assembly, earned in A337 and A338
+
+**AN ANCHOR DERIVED FROM AUTHOR AND YEAR IS NOT UNIQUE, AND A MERGE THAT ASSUMES IT IS WILL REPOINT A
+CITATION SILENTLY.** A337 hand-assigned slugs for its primaries, two of them already existed as harvested
+anchors, and the merge overwrote both **without erroring**. **Nothing showed it except an off-by-two in
+the harvested count.** One collision was the same work registered twice; the other was two different
+papers by the same author in the same year. **Pass every existing anchor as `taken` and raise on any
+intersection**, which A338 did, returning zero.
+
+**DO NOT PATCH A COUNT IN PROSE WITH A REGEX THAT SPANS HEADINGS.** A337's cluster-count updater used a
+non-greedy pattern that reached past its intended heading, so two clusters carried their neighbours'
+counts and **the stated totals disagreed with the data by as much as 173 records**. The display sizes
+exposed it, two clusters showing 14 entries where the prose claimed 25. **Rebuild every cluster block
+from the harvest files rather than editing it**, so each count is derived.
+
+**A TEMPLATE THAT IS EDITED RATHER THAN REWRITTEN WILL LEAK.** A338's Source Base was adapted from
+A337's and carried three of its sentences unaltered, including a finding about animal-behaviour apparatus
+belonging to that article and **a reference to the wrong vehicle**. **Sweep a new article for the
+previous one's vehicle names and findings before the publication pass ends.**
+
+**TWO LIBRARY CALLS HAVE SHAPES THAT FAIL SILENTLY.** `refs.dedupe` returns `(kept, dropped)`, so binding
+it to one name yields a list of two lists and the next stage emits a survey of **two** records without
+raising. `refs.clean` was being applied to titles and not to author names, so an HTML entity reached the
+link text undecoded and rendered correctly enough that nothing complained.
+
+**A VERIFIER THAT SHARES AN INPUT WITH THE THING IT CHECKS DOES NOT CHECK THAT INPUT.** A337 and A338
+each carry a `tmp/aNNN/verify.py` that recomputes every published result **from the source units**,
+converting them itself, and shares no code with the draft. A337's runs 55 checks.
+
+---
+
 ## Verification Toolchain
 
 **THE SHARED MECHANISM IS COMMITTED AND MUST NOT BE REBUILT.** `_lib/` holds it, with `README.md`
@@ -1393,8 +1420,14 @@ reproduced here so it survives a clean checkout.
 Short articles by design, and the evidence for the closing article. The designation system is not a
 counter.
 
-**X-23 and X-27 ARE NOW WRITTEN, and X-30 is written although it is not one of the nine.
-The rest remain ahead.**
+**X-23, X-27, X-39 and X-41 ARE NOW WRITTEN, and X-30 is written although it is not one of the nine.
+X-42 IS NEXT and the rest remain ahead.**
+
+**THE THREE CLASSES ARE NOW ALL DEMONSTRATED ON ANOMALY CASES.** X-23 and X-27 went to full length
+because each had a keystone to dimension. **X-39 took the reduced order** because no vehicle existed at
+all. **X-41 took the documentation-poor class**, full section order with short sections, because a
+vehicle existed and its specifications did not. **The class is decided by what the record supports, and
+the article should say which class it is and why.**
 
 - **X-23**, attributed to the Martin Marietta SV-5D PRIME, but USAF nomenclature records reportedly
   show X-23A was never assigned. State the conflict, do not resolve it. **Written at full length in
@@ -1404,10 +1437,21 @@ The rest remain ahead.**
   engine ratings, and the parent F-104 flew for thirty years and anchors the derivative's claims. **The
   class test is whether there is a keystone to dimension systems against, not whether anything flew.**
 - **X-39**, reserved 23 April 1997 for the AFRL Future Aircraft Technology Enhancements programme;
-  no written allocation request followed.
+  no written allocation request followed. **Written in A336 in the reduced order.** The finding is that
+  the gap needed **two** missing documents, the allocation request that was never submitted and the
+  **cancellation that was never filed**, since reuse requires cancellation before the next number is
+  allocated and X-40A was allocated the same year. **The number became unrecoverable before it became
+  unnecessary.** The joint instruction permits reserving popular **names** and has no equivalent
+  provision for design **numbers**.
 - **X-41**, still-classified vehicle in the DARPA FALCON programme. No specifications released.
+  **Written in A338 as the first documentation-poor article.** The designation was allocated in late
+  1997 or early 1998, **years before the programme**, was never used again officially, and the
+  authoritative survey **doubts it ever applied to this vehicle at all**. The article uses the pairing
+  because the public record does and says plainly that it may be wrong.
 - **X-42**, sources disagree, one calling it an expendable upper stage and another a spaceplane test
-  vehicle. No dedicated treatment exists anywhere.
+  vehicle. No dedicated treatment exists anywhere. **This is A339 and it is next.** Establish what the
+  designation actually denotes before choosing a class, and expect the pairing to be in doubt, since
+  that has now been the finding on two consecutive articles.
 - **X-44**, two different aircraft, the Lockheed Martin MANTA and a separate unmanned programme.
 - **X-52**, requested 2006, refused over possible confusion with the B-52. The programme became X-53.
 - **X-58**, skipped, with the slot consumed by the Kratos XQ-58 Valkyrie.
