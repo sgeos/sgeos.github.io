@@ -304,7 +304,10 @@ stated explicitly and was therefore never examined.
 out fine anyway.** They come out differently from the argument, which is worth reporting carefully.
 
 Asking the code generator for an object file carrying a stack-size section, and reading the per-function
-sizes back out of it, gives the frame each module actually receives. **Measured on the code that actually
+sizes back out of it, gives the frame each module actually receives. **Analysing the artefact rather than a
+model of it is the established move here**, taken by [Regehr, Reid and Webb 2005][research_regehr_2005] on
+machine code and by [Brylow, Damgaard and Palsberg 2001][research_brylow_2001] on interrupt-driven assembly,
+and the only novelty in this measurement is how cheap the tooling has become. **Measured on the code that actually
 ships, the proven bound exceeds the real frame in every module measured.**
 
 | Module | proven bound | frame | ratio |
@@ -351,7 +354,9 @@ the boundary.
 
 [WebAssembly][ref_wasm_spec] draws the same line in a different place. Its validation step establishes
 properties about types and control flow, and deliberately establishes **nothing at all about the resource
-consumption of the compiled result.** Whoever embeds a WebAssembly engine is expected to bound resources by
+consumption of the compiled result.** **That omission is a design choice and not an oversight**, since
+[Haas and others 2017][research_haas_2017] state the format's goals as hardware independence together with
+fast validation, and a resource claim would need a target the format refuses to name. Whoever embeds a WebAssembly engine is expected to bound resources by
 their own means while the program runs.
 
 **Neither system does what this project has been assuming.** That is the most useful thing the survey
@@ -384,7 +389,11 @@ copies a function's body into its callers, combines several operations into one 
 work whose result is never used, and shares a computation between two places that both needed it. **Every
 one of those destroys the correspondence $\phi$ presumes.** After optimisation there may be no machine
 instruction attributable to a given bytecode instruction at all, or one machine instruction attributable to
-a dozen.
+a dozen. **This is not a difficulty peculiar to this project.**
+[Kirner and Puschner 2008][research_kirner_puschner_2008] enumerate the obstacles to worst-case timing
+analysis and name the compiler among them for exactly this reason, and
+[Falk and Lokuciejewski 2010][research_falk_2010] respond by building a compiler that optimises for
+worst-case time, which is the constructive form of the same observation.
 
 The argument survives only if the total inequality holds without the correspondence holding, which is a
 weaker thing to know and a harder thing to establish. It also requires that **no operation becomes slower**
@@ -452,7 +461,9 @@ that no inversion was found and that the sample lacks the resolution to find one
 
 **The memory bound is broken in kind.** No constant relates the two quantities, because one of them is not
 a property of the program at all. Fixing it means computing a memory bound from the shipped artefact and
-transferring nothing to it.
+transferring nothing to it, which is what [Regehr, Reid and Webb 2005][research_regehr_2005] do, and if the
+result must travel then it travels as evidence attached to the artefact in the manner
+[Necula 1997][research_necula_1997] describes.
 
 **The time bound is unbroken in kind and unevidenced in degree.** The domination argument may well hold. It
 rests on an assumption that has not been tested at any useful resolution, and on a unit conversion
@@ -480,7 +491,10 @@ memory promise holds would have no way to tell which half was meant.
 **The corpus is small and the part of it this article can measure is smaller.** Nine units of code and
 three widely separated sizes. Every claim about the time proxy is bounded by that.
 
-**The instruction count is a proxy for a proxy.** Native instruction count bounds execution time only under
+**The instruction count is a proxy for a proxy**, and the timing-analysis literature is explicit that a
+count is not an input it accepts, [Wilhelm and others 2008][research_wilhelm_2008] setting out the target
+model any sound analysis needs and [Heckmann and others 2003][research_heckmann_2003] showing that the
+processor decides what is achievable at all. Native instruction count bounds execution time only under
 a bound on cycles per instruction,
 
 $$T_{\mathrm{nat}}(f) \;\le\; \mathrm{CPI}_{\max} \cdot S(f),$$
@@ -11862,10 +11876,10 @@ stronger statement than saying this article found no support, and it is the surv
 **The assumption is not merely unproven here. It is contrary to the practice of every field that has
 addressed the problem.**
 
-**The harvested majority establishes coverage and not agreement.** The survey lists 11,098 references, of
-which 32 were selected because a step of the argument depends on them and were read, and
+**The harvested majority establishes coverage and not agreement.** The survey lists 11,099 references, of
+which 33 were selected because a step of the argument depends on them and were read, and
 11,066 were harvested by query across fifteen clusters and were not. A reader looking for the
-works that carry the argument should read the 32, which are named in the prose above. A reader
+works that carry the argument should read the 33, which are named in the prose above. A reader
 checking whether the survey was assembled to flatter its conclusion should note that the queries were fixed
 before any record was seen, that every admitted record is listed including the 2,255 that are
 merely adjacent, and that the selection procedure is reported below with the count it discarded.
@@ -11897,7 +11911,7 @@ claim in the opening that nobody had looked rather than that looking was hard.
 
 ### How the harvested survey was assembled
 
-**The 32 hand-selected research references were chosen because a step of the argument depends on
+**The 33 hand-selected research references were chosen because a step of the argument depends on
 them, and each was read. The 11,066 harvested references were not chosen that way and were not
 read individually.** Stating that plainly is the point of this subsection, because a list of several
 thousand citations otherwise implies a reading it does not represent. What the harvested list supports is a
@@ -12013,9 +12027,10 @@ nothing in the argument depends on it.
 research identifiers, every one of which was resolved against the registry and compared to the work it is
 cited as. **Four were wrong, an error rate of 14.8 percent**, and none of the four was a false positive of the
 checking method. **A twenty-eighth reference was added during editing** and resolves correctly, so the
-article carries 32 hand-selected references while the error rate above describes the 27 that
-were submitted. **Four more were added by a later primary-reference pass**, being the region and arena
-literature the corrected central claim turned out to rest on, and they resolve correctly. **The harvested references were not checked this way and are not claimed to be**, since they
+article carries 33 hand-selected references while the error rate above describes the 27 that
+were submitted. **Five more were added by a later primary-reference pass**, being the region and arena
+literature the corrected central claim turned out to rest on and the WebAssembly design paper, and they
+resolve correctly. **The harvested references were not checked this way and are not claimed to be**, since they
 come from the registry and not from anybody's memory, which is the failure mode that produced all four
 errors. One digit was transposed, sending
 `Static checking of interrupt-driven software` to a different paper in the same proceedings. One cited the
@@ -12031,7 +12046,7 @@ proceedings series where adjacent identifiers differ by a single digit.** **The 
 supplied from memory**, which is an argument for searching the registry by title and never recalling an
 identifier, and all four corrections here were obtained that way.
 
-**Harvested rather than read.** 11,066 of the 11,098 research references were retrieved by
+**Harvested rather than read.** 11,066 of the 11,099 research references were retrieved by
 keyword query and are listed on the strength of their titles, authors, years and venues as the registry
 holds them. **Nothing in the argument rests on any one of them.** The cluster sizes are the only
 quantitative use made of them, and the coverage claim they support is stated in full in the Source Base. **The residual contamination rate is not zero.** Four independent samples of
@@ -12159,6 +12174,7 @@ occasionally the whole argument.
 
 ### Research
 
+- [Bringing the web up to speed with WebAssembly][research_haas_2017]
 - [Reconsidering custom memory allocation][research_berger_zorn_2002]
 - [Fast allocation and deallocation of memory based on object lifetimes][research_hanson_1990]
 - [2006, 06/00064 An effective technique for the software requirements analysis of NPP safety-critical systems, based on software inspection, requirements traceability, and formal specification][research_06_00064_an_2006]
@@ -27064,6 +27080,7 @@ occasionally the whole argument.
 [research_guzma_pitkanen_2013]: https://doi.org/10.1186/1687-3963-2013-9
 [research_gvozdev_bezhaeva_2021]: https://doi.org/10.1109/icoecs52783.2021.9657250
 [research_gvozdev_chernyakhovskaya_2018]: https://doi.org/10.1109/rusautocon.2018.8501741
+[research_haas_2017]: https://doi.org/10.1145/3062341.3062363
 [research_haas_maseli_2023]: https://doi.org/10.1145/3622855
 [research_haase_2016]: https://doi.org/10.3844/jcssp.2016.314.322
 [research_haase_gradel_2022]: https://doi.org/10.1016/j.apal.2021.103063

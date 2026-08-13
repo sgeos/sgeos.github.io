@@ -9,7 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: **A371 primary-reference review**, the pass that was skipped. **Committed AND pushed. LIVE PAGE CHANGED.**
+**Task**: **A371 primary-reference review continued to completion.**
+**Committed AND pushed. LIVE PAGE CHANGED.**
 
 ---
 
@@ -28,7 +29,41 @@ Part 2 **of 3**, confirmed as rendered rather than assumed. **The `keleusma_nati
 
 ---
 
-## The Skipped Pass, Which Is the Newest Work
+## Finishing the Pass, Which Is the Newest Work
+
+The previous commit fixed the arena gap and **left four thin sections identified and unaddressed**. This
+closes that.
+
+**The pattern across all of them is one defect.** The article cited its sources **in the survey section and
+not where the argument uses them**, so a reader at Result 2 or at the frames measurement had no pointer to
+the literature making the claim, although the works were already in the bibliography.
+
+Five placements at point of use.
+
+- **Regehr 2005** and **Brylow 2001** in the frames section, where analysing the artefact rather than a model
+  of it is the established move and the only novelty is how cheap the tooling has become.
+- **Regehr 2005** and **Necula 1997** in Result 3, where the recommendation to compute from the shipped
+  artefact is actually made.
+- **Wilhelm 2008** and **Heckmann 2003** at the claim that an operation count is not an input timing analysis
+  accepts.
+- **Kirner and Puschner 2008** with **Falk and Lokuciejewski 2010** at Result 2's fragile premise, since
+  **the compiler destroying the correspondence is named as an obstacle by that literature** and the article
+  had presented it as its own difficulty.
+
+**One genuinely new reference.** The WebAssembly claim cited the **specification** while the paper stating
+why the format makes that choice was absent. **Haas and others 2017** is the same gap A372 carried and the
+same fix, and it lifts the post-2014 count in the working set from 2 to 3.
+
+**Counts reconciled again**, hand-selected 32 to 33 and total 11,098 to 11,099, verified as 11,066
+harvested-only plus 33 hand against the 11,099 definitions actually present.
+
+**Three thin sections cleared**, and **the seven that remain are the article's own work throughout** — the
+erratum, the orientation, Pattern Extraction, what the survey shows, how it was assembled, the Epistemic
+State and the Conclusion. None of them reports anybody else's result, so none should carry a citation.
+
+---
+
+## The Skipped Pass, From the Previous Commit
 
 **You were right and the TASKLOG shows it.** A372 records a primary-reference review. A371 does not, having
 gone standards and retarget, then equation density, then straight to publication review.
