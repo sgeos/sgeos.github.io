@@ -25,7 +25,9 @@ of 4. **Out of series with the X-Planes work.**
 **612 lines, 12 display equations, 42 reference definitions, 4,256 words of author prose after the
 standards and retarget pass.** **634 lines, 15 display equations, 42 reference definitions, 4,442 words after
 the equation-density review.** **47 reference definitions and 31 research identifiers after the
-primary-reference review.** Committed. **Not pushed and not published.**
+primary-reference review.** **18,822 lines, 6,055 reference definitions and 5,590 words of author prose
+after the publication review**, which added a harvested contemporary survey of **6,008 records across ten
+clusters** beside the 31 hand-selected works. Committed AND PUSHED. **Not published.**
 
 **Supplied by the pilot from the Keleusma repository and brought to corpus standards here.** The argument is
 that the largest remaining item in a compiler backend was estimated at a quarter of work by reasoning from

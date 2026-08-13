@@ -231,6 +231,64 @@ NOISE_PATTERNS = [
      "attitudes' reached the kept set. The two fields share the exact phrase and "
      "some of their machinery, so only the linguistic subject matter distinguishes "
      "them. Formal VERIFICATION carries no equivalent ambiguity"),
+    (r"\bintermediate representation\b.{0,60}\b(?:speech|phonem|pinyin|acoustic|"
+     r"dialect|handwriting|image caption|音)|"
+     r"\b(?:speech|phonem|pinyin|acoustic|dialect)\w*\b.{0,60}"
+     r"\bintermediate representation\b",
+     "A372: THE INTERMEDIATE REPRESENTATION IN SPEECH AND SIGNAL PIPELINES against "
+     "the COMPILER intermediate representation. 'Toward Unified Chinese "
+     "Multi-Dialectal Speech Recognition via Pinyin Intermediate Representation' "
+     "reached the code-generation cluster"),
+    (r"\bgarbage collection\b.{0,70}\b(?:vehicle|truck|waste|municipal|refuse|bin|"
+     r"kerbside|curbside|recycl|landfill|fee|route|household|sanitat|street|"
+     r"IoT|sensor|smart city|bin level|ultrasonic|LoRa|monitoring system)|"
+     r"\b(?:waste|municipal|refuse|landfill|recycl|sanitat|household|smart)\w*\b"
+     r".{0,70}\bgarbage collection\b|\bsmart garbage\b",
+     "A372: MUNICIPAL WASTE COLLECTION against the MEMORY-RECLAMATION sense. "
+     "'Deep Learning Based Garbage Detection for Autonomous Garbage Collection "
+     "Vehicles' and 'Garbage collection fees: according to regulations or in fact?' "
+     "both reached the kept set. The waste sense is far larger than the computing "
+     "one and shares the exact phrase"),
+    (r"\b(?:facility|facilities|plant|factory|warehouse|logistics|hospital|office|"
+     r"store|shop.floor|workshop|construction site|site) layout\b|"
+     r"\bsystematic layout planning\b|\bwaffle.layout\b|"
+     r"\blayout\b.{0,60}\b(?:heliostat|solar field|wind farm|MOSFET|"
+     r"transistor|photovoltaic|substation)|"
+     r"\blayout\b.{0,60}\b(?:manufactur|assembly line|production line|"
+     r"material handling|supply chain|floor space|workstation)",
+     "A372: FACILITY AND PLANT LAYOUT, an operations-research field that shares "
+     "`layout optimisation` exactly with compiler data layout. 'Designing the "
+     "Logistics Center Structure using the Systematic Layout Planning' and 'Plant "
+     "Layout Optimization for Chemical Industry' reached the kept set"),
+    (r"\bstructural layout\b|\blayout\b.{0,60}\b(?:wing|fuselage|airframe|"
+     r"topology optimi|planform|truss|beam|load.bearing|reinforc)|"
+     r"\b(?:wing|fuselage|airframe|planform)\w*\b.{0,60}\blayout\b",
+     "A372: STRUCTURAL AND AEROSPACE LAYOUT against memory layout. 'Loading and "
+     "planform shape influence on the wing structural layout through topology "
+     "optimization' reached the kept set, which is notable because this corpus's "
+     "OTHER long series is about aircraft and would want that record"),
+    (r"\bcorpus\b.{0,60}\b(?:linguistic|discourse|subjectivity|lexic|"
+     r"translation studies|sociolinguist|native speaker|written english|"
+     r"spoken|text and corpus)|\b(?:linguistic|discourse|lexic|sociolinguist)"
+     r"\w*\b.{0,60}\bcorpus\b",
+     "A372: THE LINGUISTIC CORPUS against a corpus of PROGRAMS. 'A Corpus Study of "
+     "Nested Sources for Subjectivity Analysis' and a review of 'Text and Corpus "
+     "Analysis' reached the kept set. Corpus linguistics is the older and larger "
+     "use of the word"),
+    (r"\bdynamic dispatch\b.{0,70}\b(?:power|grid|generation|load|energy|"
+     r"electricit|renewable|microgrid|unit commitment|intermittent)|"
+     r"\b(?:power|grid|energy|electricit|renewable|microgrid)\w*\b.{0,70}"
+     r"\bdynamic dispatch\b|\beconomic dispatch\b",
+     "A372: POWER-SYSTEM DISPATCH against DYNAMIC METHOD DISPATCH. 'Review of "
+     "Dynamic Dispatch Research Considering Intermittent Power Generation' reached "
+     "the object-dispatch cluster, which is a claim about the literature and not "
+     "merely a stray record"),
+    (r"\bunboxed?\b.{0,50}\b(?:illustration|portfolio|photograph|archive|"
+     r"manuscript|folder|carton|accession|finding aid)|"
+     r"\b(?:box(?:es)? \d|folder|carton|accession)\b.{0,50}\bunboxed?\b",
+     "A372: `UNBOXED` IN ARCHIVAL CATALOGUING against unboxed VALUES. 'Boxes 90-111: "
+     "Miscellaneous Illustrations, Unboxed Illustrations and Portfolios' is a "
+     "finding aid and reached the representation cluster"),
     (r"\bpeephole\b(?!.{0,40}\b(?:optimi[sz]|compil|code|instruction|window|"
      r"transformation))",
      "A371: THE PEEPHOLE AS AN OPTICAL AND CRITICAL-THEORY TERM against the "

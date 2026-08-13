@@ -9,8 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: **A372 primary-reference review**, following the equation pass in the previous commit.
-**Committed. NOT pushed and NOT published.**
+**Task**: **A372 publication review.** All four passes complete.
+**Committed AND pushed. NOT published.**
 
 ---
 
@@ -29,7 +29,53 @@ Part 2 **of 3**, confirmed as rendered rather than assumed. **The `keleusma_nati
 
 ---
 
-## The Primary-Reference Pass, Which Is the Newest Work
+## The Publication Review, Which Is the Newest Work
+
+**The substantive gap was the survey again.** A369 carries 1,759 research references, A370 1,980 and A371
+11,096. A372 arrived with 31.
+
+A harvest of **79 queries across ten clusters in seven rounds** retrieved **45,989** records. The anchor gate
+admitted 6,357 and **6,008 reach the reference list**, beside the 31 hand-selected works, which are untouched
+and verified as **31 of 31 preserved with none repointed**. **23 of the 31 were independently returned by the
+harvest**, which is the coverage corroboration worth having.
+
+**Every lesson A371 paid for was applied from the start, and they held.** All three publication types were
+requested in the first pass rather than discovered late, since **Springer deposits Lecture Notes in Computer
+Science as `book-chapter`** and the book rounds returned 13,378 records here. Qualifiers order-free, anchors
+hyphen-tolerant, proceedings furniture refused by title shape, hand anchors reserved so no harvested record
+could displace a cited one.
+
+## This Is the Most Homonym-Hostile Subject the Corpus Has Swept
+
+Its own vocabulary belongs to enormous literatures elsewhere. **`Aggregate` is concrete and economics.
+`Layout` is integrated-circuit and facility layout. `Alignment` is bioinformatics. `Offset` is carbon.
+`Boxing` is a sport and `arena` is a stadium.** Not one of those is used as an anchor without a computing
+qualifier.
+
+**Eight new families recorded**, taking the store from 56 to 64 patterns, being municipal waste collection
+against memory reclamation, facility and plant layout, structural and aerospace layout, the linguistic corpus
+against a corpus of programs, power-system dispatch against dynamic method dispatch, `unboxed` in archival
+cataloguing, the intermediate representation in speech pipelines, and heuristics-and-biases applications
+outside estimation.
+
+**The power-dispatch family had been contaminating a cluster**, the dispatch count falling 27 to 18 once it
+was removed. That is a claim about the literature, not a stray record.
+
+## Two Defects the Assembler Inherited From A371
+
+**The attrition counts were hardcoded from the previous article.** They are now written out by `gen_master`
+and read back, since a transcribed figure goes stale the moment a harvest is re-run. And one statement read
+the stats file a line after using it.
+
+**Definition-block separation was verified explicitly**, at 0 issues, because the previous pass lost 64
+references to blank lines eaten by a regex while `_verify.py` passed it.
+
+One superlative became a checkable statement, "the largest of the layout clusters" becoming "more than the
+representation and dispatch clusters combined", 183 against 108 plus 11.
+
+---
+
+## The Primary-Reference Pass, From an Earlier Commit
 
 **42 to 47 reference definitions, 26 to 31 research identifiers.** Primary count at a 2000 cutoff rose 17 to
 20, and the year range extended from 1974-2014 to **1974-2017**. The base previously carried **nothing at all
