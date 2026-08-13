@@ -22,8 +22,38 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_boeing_x40.markdown`, A337, editorial date 2025-11-15, series `x_planes` index 41 of 72.
 
 **9,995 lines, 28 display equations, 4,547 reference definitions, 91,329 words after the draft pass**,
-of which 5,472 are author prose. Committed. **Not pushed**, since the draft pass does not push.
-**Not published**, and publication of the series has never been authorised.
+of which 5,472 are author prose. **10,190 lines, 64 display equations, 4,547 reference definitions,
+92,833 words after the equation-density review**, of which 6,620 are author prose. Committed.
+**Not pushed**, since neither pass pushes. **Not published**, and publication of the series has never been
+authorised.
+
+**THE EQUATION PASS MORE THAN DOUBLED THE COUNT AND THE BEST ADDITION IS A SAMPLE-SIZE BOUND.** The draft
+said eight clean landings establish that the concept is sound without saying what eight trials actually
+bound. The standard one-sided limit for zero failures in eight trials gives **31.2 percent at 95 percent
+confidence**, so the flights bound the failure rate only below about a third. **That is the precise sense
+in which the programme established tractability and not reliability**, and a vehicle returning from orbit
+needs a figure orders of magnitude smaller.
+
+**THE RELATIVE DENSITY PARAMETER WAS MISSING AND IT IS THE CANONICAL ONE.** Free-flight similarity is
+normally written as a match of relative density rather than of mass, and computing it gives
+**19.7 against 37.9 for a ratio of 0.519**. **Two independent formulations therefore land on the same
+factor of two**, since the wing loading route and the relative density route share only the published
+masses.
+
+**THE INERTIA CLAIM WAS ASSERTED IN PROSE AND IS NOW DERIVED.** Similarity requires an inertia ratio of
+**0.285** against an actual **0.143**, so the vehicle carried half the rotational inertia demanded and its
+angular acceleration for a given control moment was **1.99 times** the similar value. Combined with the
+13 percent rate increase from geometry, the plant was appreciably harder to fly than the full-scale case.
+
+**THE ENERGY ACCOUNTING IS NEW AND IT CHARACTERISES THE DESCENT.** Of the specific energy available at
+release, **18.9 percent was carried as speed and 81.1 percent was spent against drag**, and a drag-free
+fall from the same height would have arrived at 984 ft/s against the 428 actually reached.
+
+**THE LANDING ACCURACY IS NOW EXPRESSED AS AN ANGLE.** Seven feet of centreline error over a 28,353 foot
+ground track is **0.85 arcmin, or 0.025 percent of the distance flown.**
+
+**A verification routine sharing no code with the draft was written**, and `tmp/a337/verify.py` recomputes
+**55 results** from the published imperial inputs. All pass.
 
 **THE KEYSTONE IS THAT THE X-40A WAS NOT A SCALE MODEL, AND THE ARITHMETIC SAYS SO PLAINLY.** It is
 described almost everywhere as a subscale version of the X-37. Its geometric ratio is **0.778** by the
@@ -57,7 +87,7 @@ an animal-behaviour apparatus and disaster risk reduction**, and checking an out
 found that **subscale is a psychometrics term**, which put one questionnaire-validation record in the
 corpus. It was removed and the measured residual noise is reported as a floor rather than a ceiling.
 
-**Remaining work.** Equation-density review. Primary-reference review. Publication review.
+**Remaining work.** Primary-reference review. Publication review.
 
 ## X-Planes X-39 Reserved but Never Assigned A336 2025-11-14
 

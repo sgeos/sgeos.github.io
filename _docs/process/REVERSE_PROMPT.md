@@ -1,8 +1,71 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A337, X-Planes, Boeing X-40. Draft pass complete.** Committed, **not pushed**, per the
-four-pass rhythm. **Not published.**
+**Task**: **A337, X-Planes, Boeing X-40. Equation-density review complete.** Committed, **not pushed**,
+per the four-pass rhythm. **Not published.**
+
+---
+
+## The Best Addition Says What Eight Flights Actually Prove
+
+**The draft said eight clean landings establish that the concept is sound, and never said what eight
+trials bound.** The standard one-sided limit for zero failures in $n$ trials answers it.
+
+**For eight flights the failure rate is bounded only below 31.2 percent at 95 percent confidence.** That
+is a statement about sample size rather than about the vehicle, and it is the precise sense in which the
+programme established **tractability and not reliability**. A vehicle returning from orbit needs a figure
+orders of magnitude smaller, and no drop-test campaign of affordable length reaches it.
+
+**The article now says both halves.** The flights did establish that the concept, the sensors and the
+integration work at all, which is necessary and different.
+
+---
+
+## The Canonical Similarity Parameter Was Missing
+
+**Free-flight similarity is normally written as a match of relative density**, comparing the vehicle's
+mass to the mass of air in a volume set by its own dimensions, and the draft never used it. Computing it
+gives **19.7 against 37.9, a ratio of 0.519**.
+
+**Two independent formulations therefore land on the same factor of two.** The wing loading route and the
+relative density route share only the published masses, so their agreement is the strongest internal
+check the finding has.
+
+---
+
+## Three Claims That Were Asserted Are Now Derived
+
+**The inertia claim.** The draft said the vehicle had "roughly half the inertia for a given size" in
+prose. Similarity requires an inertia ratio of **0.285** against an actual **0.143**, and the angular
+acceleration for a given control moment is therefore **1.99 times** the similar value. Combined with the
+13 percent rate increase from geometry, the plant was appreciably harder to fly than the full-scale case.
+
+**The energy accounting.** Of the specific energy available at release, **18.9 percent was carried as
+speed and 81.1 percent was spent against drag**. A drag-free fall from the same height would have arrived
+at 984 ft/s against the 428 actually reached, which is the quantitative statement that this was a
+drag-dominated descent rather than an acceleration.
+
+**The landing accuracy.** Seven feet of centreline error means little without the range it was achieved
+over. Over a 28,353 foot ground track it is **0.85 arcmin, or 0.025 percent of the distance flown.**
+
+---
+
+## A Verifier That Shares No Code With the Draft
+
+`tmp/a337/verify.py` recomputes **55 results** from the published imperial figures, converting them itself
+rather than taking the draft's metric values. **All pass.** That is the A335 lesson, that a verifier
+sharing an input with the thing it checks does not check that input.
+
+---
+
+## A Formulaic Tic, Found by the Instrument and Not by Reading
+
+**Seven `worth` constructions were present and five were meta-textual**, being me announcing what the
+article was about to show rather than saying anything. Varying those five across a rotation and keeping
+the two substantive uses took diction from **1 construction above the corpus maximum to 0**.
+
+**Three equation blocks spanned multiple source lines** and were collapsed, so every display equation now
+occupies exactly one.
 
 ---
 
@@ -113,15 +176,17 @@ so an alternation cannot escape its lookahead and turn a conjunction into a disj
 - **All 12 curated URLs resolve at 200.** A sample of 15 harvested identifiers resolves 15 of 15, the 403
   responses being AIAA, MDPI and Bentham, all documented publisher behaviour.
 - Diction **0 constructions above the corpus maximum** against 300 peers.
-- **9,995 lines, 28 display equations, 4,547 reference definitions, 91,329 words**, of which 5,472 are
-  author prose.
+- **10,190 lines, 64 display equations, 4,547 reference definitions, 92,833 words**, of which 6,620 are
+  author prose. Every display equation occupies exactly one source line and the rendered page carries 64
+  display math blocks with balanced delimiters.
+- `tmp/a337/verify.py` **55 of 55**, sharing no code with the draft.
 
 ---
 
 ## Outstanding
 
-**It is committed and not pushed**, which is what the draft pass calls for. The remaining three passes are
-the equation-density review, the primary-reference review and the publication review.
+**It is committed and not pushed**, which is what these passes call for. The remaining two are the
+primary-reference review and the publication review.
 
 **The X-Planes set remains unpublished and unauthorised.** Forty-one of seventy-two drafted, forty of them
 citing a sibling through `post_url` with no target in `_posts/`, so **the set publishes in order or
