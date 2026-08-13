@@ -9,7 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: **A371 PUBLISHED** and pushed live, after the corrections revision in the previous commit.
+**Task**: **A369 corrected**, one sentence, after a consistency check across the three published
+`keleusma_native` articles. A371 was published in the previous commit. **Committed AND pushed.**
 
 ---
 
@@ -28,7 +29,33 @@ Part 2 **of 3**, confirmed as rendered rather than assumed. **The `keleusma_nati
 
 ---
 
-## What Was Checked Before and After the Move
+## The Series Consistency Check, Which Is the Newest Work
+
+**In sequence the three are clean.** Dates 2026-08-06, 07 and 08 against series indices 1, 2 and 3, A-numbers
+A369, A370 and A371, filenames matching dates, and rendered navigation reading Part 1, 2 and 3 of 3.
+
+**In substance A369 carried the conflation A371's item 5 corrects**, and it is fixed. The sentence read that
+the native transfer question is whether a bound proven over the arena survives lowering to code whose stack
+frames are chosen by a register allocator. **Those are two different quantities.** It now says that the arena
+bound transfers without further argument, because native code allocates from the same arena in the same
+bytes, and that the open question is the machine stack frame, which no bytecode-level bound describes.
+
+**No result in A369 changes.** Its subject is coverage ordering and not memory, so this is a fix to how it
+frames an open question. The Chaitin 1982 citation is preserved, since dropping it would orphan an anchor.
+**I added no link to A371**, because A369 is dated two days earlier and the convention is back-reference
+only. The series navigation already connects them.
+
+**A370 needed nothing**, carrying no arena or bound-transfer claim at all.
+
+**The second item is deliberately left alone, as you asked.** A369 says per-function frame size varies by a
+factor of roughly thirty depending on whether the middle-end promotion pass has run, against A371's
+corpus-wide 7.6 percent across the same boundary. Those are different statistics and not a flat
+contradiction, but the claim has the shape of the error the engineering session identified. **It cannot be
+settled here**, since A369 attributes it to the project's decision register, which lives in Keleusma.
+
+---
+
+## What Was Checked Before and After the Publication
 
 **Before.** The date slot 2026-08-08 was free, posts running 08-01 through 08-07. Both `post_url` tags point
 at A369 and A370, which are published, and **nothing anywhere forward-references A371**, so the build

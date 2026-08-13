@@ -424,9 +424,11 @@ The memory-bound side draws on the region and arena literature.
 inference of region lifetimes, [Grossman and colleagues 2002][research_grossman_2002] carried regions into a
 safe systems language, [Hanson 1990][research_hanson_1990] gave the practical arena discipline of allocation
 by object lifetime, and [Berger and colleagues 2002][research_berger_2002] examined empirically when custom
-allocation actually pays. Keleusma's arena model is of this family, and the native transfer question is
-whether a bound proven over the arena survives lowering to code whose stack frames are chosen by a register
-allocator in the tradition of [Chaitin 1982][research_chaitin_1982].
+allocation actually pays. Keleusma's arena model is of this family, and **a bound proven over the arena
+transfers to native code without further argument**, because the machine code allocates from the same
+fixed-size arena in the same bytes. The open native question is a different quantity, being the machine
+stack frame, which no bytecode-level bound describes and which is chosen instead by a register allocator in
+the tradition of [Chaitin 1982][research_chaitin_1982].
 
 A companion measurement, recorded in the project's decision register rather than in a separate article,
 establishes that the per-function frame size is recoverable from the emitted object file, that it folds to a
