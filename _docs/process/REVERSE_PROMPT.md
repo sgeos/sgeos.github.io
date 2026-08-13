@@ -9,8 +9,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: **A372 pathological word usage pass**, following the publication review in the previous commit.
-**Committed AND pushed. NOT published.**
+**Task**: **A372 PUBLISHED** and pushed live. The `keleusma_native` series is complete at four.
 
 ---
 
@@ -29,7 +28,34 @@ Part 2 **of 3**, confirmed as rendered rather than assumed. **The `keleusma_nati
 
 ---
 
-## The Word Usage Pass, Which Is the Newest Work
+## A372 Is Live, and the Series Is Complete
+
+`_posts/2026-08-09-cost_of_compiling_aggregates.markdown`, at
+`/engineering/compilers/verification/2026/08/09/cost_of_compiling_aggregates.html`. **It went live the moment
+it was pushed**, because 2026-08-09 is three days in the past, so the verification build was run **without**
+`--future`.
+
+**Publication renumbered three live pages.** A369, A370 and A371 now read Part 1, 2 and 3 **of 4**, confirmed
+as rendered.
+
+**One imprecision was corrected before the move.** The Epistemic State attributed the 34.5 percent blocking
+figure to "the previous article" when it comes from **A369, not the immediately previous A371**. It now links
+the first article explicitly, and I applied the fix to `tmp/a372/body.md` as well so a re-run could not
+revert it.
+
+**Cross-article consistency was checked against A371 post-erratum.** All five references to the previous
+article survive it, the one naming a retracted figure having been neutralised during the standards pass.
+
+Verification: `_verify.py` **0 errors and 0 warnings across 300 posts**, `./_check.sh` clean at 464 pages,
+**15 display-math blocks with zero raw `$$` survivors and zero unfilled markers**, present on the home page,
+in `feed.xml` and in `sitemap.xml`. Two of 189 internal links are unresolved and that is the **pre-existing
+site-wide** `.pdf` and `.epub` pair the post layout emits for every article.
+
+**`tmp/a372/assemble.py` is now guarded** and refuses to run, as A371's is.
+
+---
+
+## The Word Usage Pass, From an Earlier Commit
 
 **`specific` is not a problem here.** It stands at **1 use, 0.18 per thousand**. I checked it first because
 you named it.

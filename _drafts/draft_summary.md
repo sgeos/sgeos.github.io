@@ -17,35 +17,6 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## Keleusma Research Spike, What It Costs to Compile a Data Structure Whose Shape Is Already Decided A372 2026-08-09
-
-`cost_of_compiling_aggregates.markdown`, A372, editorial date 2026-08-09, series `keleusma_native` index 4
-of 4. **Out of series with the X-Planes work.**
-
-**612 lines, 12 display equations, 42 reference definitions, 4,256 words of author prose after the
-standards and retarget pass.** **634 lines, 15 display equations, 42 reference definitions, 4,442 words after
-the equation-density review.** **47 reference definitions and 31 research identifiers after the
-primary-reference review.** **18,822 lines, 6,055 reference definitions and 5,590 words of author prose
-after the publication review**, which added a harvested contemporary survey of **6,008 records across ten
-clusters** beside the 31 hand-selected works. Committed AND PUSHED. **Not published.**
-
-**Supplied by the pilot from the Keleusma repository and brought to corpus standards here.** The argument is
-that the largest remaining item in a compiler backend was estimated at a quarter of work by reasoning from
-the name of the feature, and that measuring its instances instead shows the residue to be pointer arithmetic
-over compile-time constants. **Of 331 aggregate operations in the corpus, 300 are a constant offset and a
-typed load, 2 need anything resembling a value representation, and 0 use the general mechanism the
-instruction set still carries.** The layout decision that makes aggregates hard was taken three passes
-earlier and baked into the instruction operands, so what reaches the backend is a byte offset and a scalar
-kind.
-
-**The article argues against its own recommendation**, noting that a result reading cheaper than feared
-comes from a party who benefits from the work starting, and that the cost inference rests on structural
-similarity rather than measurement.
-
-**One error is retracted in the source and left visible**, an earlier version having priced aggregate
-construction as machine-stack growth when composite bodies belong in the arena, where `byte_size` is already
-summed by the worst-case-memory pass.
-
 ## X-Planes Scaled Composites X-38 A335 2025-11-13
 
 `x_planes_scaled_composites_x38.markdown`, A335, editorial date 2025-11-13, series `x_planes` index 39

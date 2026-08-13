@@ -6612,7 +6612,8 @@ duplicated a work already cited by hand. 6,008 therefore reach the reference lis
 `NewComposite::Flat`, 41 `GetTupleField::Flat`, 29 `IsEnum`, 14 `GetIndex::Flat`, 4 `GetEnumField::Flat`, 2
 `GetField::Flat` and 2 `GetTupleField::FlatNested`. By form that is 300 flat, 2 nested and **0 boxed**.
 Constructed bodies range from 8 to 64 bytes with a median of 24, from 1 to 5 values with a median of 3.
-Aggregates block 34.5 percent of the corpus at the module level, established in the previous article.
+Aggregates block 34.5 percent of the corpus at the module level, established in the
+[first article of this series][related_post_a369].
 
 **Derived, and checkable from the definitions.** That a flat access is an address computation and a typed
 load, since its operand is a compile-time byte offset and a scalar kind. That a nested access needs no copy,
