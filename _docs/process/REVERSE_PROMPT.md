@@ -9,8 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: **A369 corrected**, one sentence, after a consistency check across the three published
-`keleusma_native` articles. A371 was published in the previous commit. **Committed AND pushed.**
+**Task**: **A371 erratum applied to the published article.** Its central empirical claim was backwards.
+**Committed AND pushed. LIVE PAGE CHANGED.**
 
 ---
 
@@ -29,7 +29,49 @@ Part 2 **of 3**, confirmed as rendered rather than assumed. **The `keleusma_nati
 
 ---
 
-## The Series Consistency Check, Which Is the Newest Work
+## Read This First
+
+**The LinkedIn announcement I drafted for you states the finding backwards.** It says frames exceed the
+proven bound by two to thirteen times in the dangerous direction. **The opposite is true.** If it has been
+posted it needs correcting or taking down, and I can supply a corrected draft.
+
+---
+
+## The Erratum, Which Is the Newest Work
+
+**The article's central empirical claim was backwards, and the cause is worth keeping.** Every frame figure
+came from invoking `llc` at two optimisation levels over the same intermediate representation. **The pass
+that promotes stack slots into registers is a middle-end pass and `llc` is a back end that does not run it**,
+so both figures described unpromoted code and their difference was back-end noise. The Keleusma test suite
+had written that warning down three days earlier.
+
+Three claims were false and are corrected in place.
+
+- **Promotion eliminates the provisioning** rather than relocating it into spill slots. The same 19 modules
+  occupy **5,048 bytes promoted against 275,432 unpromoted, a factor of 54.**
+- **The proven bound exceeds the real frame in every module measured**, ratios running **0.12 to 0.88**. The
+  dangerous-direction framing was the reverse of what happens.
+- **The provisioning change buys nothing for the shipped pipeline**, both regimes measuring 5,048 bytes once
+  promotion runs.
+
+**I was careful not to over-correct.** Eight modules agreeing is not a mechanism. The article now says the
+bound is **empirically conservative on this corpus under the shipped pipeline**, which is much weaker than
+sound, and that deep expression nesting with few live values could plausibly invert it.
+
+**Handling followed the erratum's first ranked option**, an erratum block at the head of the article, with
+the original figures retained so the change is visible. It renders as the first heading.
+
+**My item-2 flag last turn was half right.** The tension was real and **A369 was the correct one.** A371 was
+wrong, which is the opposite of the direction I suspected. A369 needs no change on that point and its
+separate framing fix stands.
+
+**The assembler is now guarded.** `tmp/a371/assemble.py` writes to the `_drafts/` path, so re-running it
+would recreate a draft duplicating the published post and **silently discard this erratum**, which never
+passed through `body.md`. It refuses to run rather than warning.
+
+---
+
+## The Series Consistency Check, From an Earlier Commit
 
 **In sequence the three are clean.** Dates 2026-08-06, 07 and 08 against series indices 1, 2 and 3, A-numbers
 A369, A370 and A371, filenames matching dates, and rendered navigation reading Part 1, 2 and 3 of 3.

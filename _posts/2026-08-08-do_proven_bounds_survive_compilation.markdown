@@ -12,6 +12,37 @@ series_index: 3
 <!-- A371 -->
 <script>console.log("A371");</script>
 
+## Erratum, 2026-08-12
+
+**The empirical sections of this article measured code that had never been optimised, and the corrected
+figures reverse the direction of the finding.** The measurement invoked the back end at two optimisation
+levels over the same intermediate representation. **The pass that promotes stack slots into registers is a
+middle-end pass and the back end does not run it**, so both figures described unpromoted code and the
+difference between them was back-end noise.
+
+Three claims made below are wrong and are corrected in place, with the original figures retained so the
+change is visible.
+
+- **The optimiser eliminates the provisioning, and does not relocate it into spill slots.** Promoted then
+  lowered, the same 19 modules occupy **5,048 bytes** of frame against the 275,432 bytes reported here for
+  unpromoted code, a factor of 54.
+- **The proven bound exceeds the real frame in every module measured, rather than falling short of it.**
+  The ratios run from 0.12 to 0.88. The article's claim that this fails in the dangerous direction is the
+  reverse of what happens.
+- **The provisioning change reported elsewhere as a large saving buys nothing for the shipped pipeline**,
+  since promotion had already removed the dead allocations.
+
+**This does not rescue the bound.** Eight modules agree that it exceeds the frame and **no mechanism
+guarantees that**. The two quantities are in different units, count different things and are decided by
+different agents, so the agreement is coincidence and not construction. The supportable statement is that
+the bound is **empirically conservative on this corpus under the shipped pipeline**, which is much weaker
+than sound.
+
+**The structural contribution is unaffected**, being the three-part split of the bound set out in Result 1,
+the literature survey, and the timing result with its stated weakness.
+
+---
+
 **Somebody proves a program can never use more than a certain amount of memory. Then a compiler rewrites
 that program into a different form before it runs. Does the proof still apply?**
 
@@ -94,10 +125,9 @@ the same fixed-size arena in the same bytes. **The operand-slot term counts a st
 have**, and the machine frame it was being compared against is a third quantity nobody bounded. The stack
 frame is decided by the register allocator. Measured across the whole corpus,
 the compiler emits **38,601 stack allocations** with optimisation switched off and **exactly zero** after
-the pipeline that actually ships. Every one is promoted into a virtual register, and **most are then spilled
-straight back**, because the processor has about fourteen registers and the provisioning is 64 slots.
-**The allocations are deleted and their cost is not.** Whatever the shipped code spends on memory, the
-proven number is not measuring it.
+the pipeline that actually ships. **Promotion removes them**, and the unused ones are dead code that the
+optimiser deletes outright. Whatever the shipped code spends on memory, the proven number is not measuring
+it, because the two are decided by different agents counting different things.
 
 **The time bound is in better shape and its evidence is much weaker than it looks.** The argument that a
 fast implementation is covered by a slow one's bound is sound in outline, and it rests on an assumption
@@ -235,10 +265,13 @@ pass moves them into are *virtual* registers, of which the compiler may invent a
 processor has roughly fourteen it can use freely, so an allocator handed 64 live operand slots **pushes most
 of them straight back onto the stack**, which is called spilling.
 
-**The provisioning is therefore relocated and not removed.** It leaves the intermediate form as an explicit
-allocation and reappears in the machine code as a spill slot, which is why the smallest frames measured sit
-near $64 \times 8 = 512$ bytes, the size of the operand region expressed in bytes. **The count going to zero
-is a fact about the intermediate representation and not about memory.**
+**An earlier version of this article claimed the provisioning is relocated into spill slots rather than
+removed. That claim was wrong**, and it was wrong because the measurement behind it never ran the promotion
+pass. Promoted then lowered, the 19 modules occupy 5,048 bytes of frame in total, against 275,432 bytes
+unpromoted, **a factor of 54.** The provisioning really does leave.
+
+**The count going to zero is still a fact about the intermediate representation and not about memory**, since
+what the frame ends up holding is decided afterwards by the register allocator and not by the count.
 
 The frame that actually ships is whatever the register allocator decides it cannot keep in registers. That decision is made
 by the [code generator][ref_llvm_codegen] from the number of registers the target processor has, the exact
@@ -258,24 +291,37 @@ stated explicitly and was therefore never examined.
 ### The frames were measured, and they run the wrong way
 
 **The argument above is structural, and a structural argument invites the reply that the numbers might come
-out fine anyway.** They do not.
+out fine anyway.** They come out differently from the argument, which is worth reporting carefully.
 
 Asking the code generator for an object file carrying a stack-size section, and reading the per-function
-sizes back out of it, gives the frame each module actually receives. **Every module measured has a native
-frame larger than the bound proven of its bytecode, by roughly two to thirteen times.**
+sizes back out of it, gives the frame each module actually receives. **Measured on the code that actually
+ships, the proven bound exceeds the real frame in every module measured.**
 
-**The direction is the one that matters.** A bound that overestimates wastes memory. A bound that
-underestimates is a promise the artefact does not keep, and an artefact provisioned from these proven
-numbers would be under-provisioned on every module in the corpus.
+| Module | proven bound | frame | ratio |
+|---|---|---|---|
+| `parse` | 64 | 56 | 0.88 |
+| `reconstruct` | 128 | 104 | 0.81 |
+| `analyze` | 64 | 40 | 0.62 |
+| `verify_structural` | 64 | 40 | 0.62 |
+| `verify_typed` | 64 | 40 | 0.62 |
+| `verify_depth` | 64 | 24 | 0.38 |
+| `lexer` | 320 | 40 | 0.12 |
+| `verify_datalayout` | 64 | 8 | 0.12 |
 
-**The corpus totals make the point in one line.** Lowered for `x86_64-unknown-linux-gnu`, the 19 modules
-together occupy 298,192 bytes of frame without optimisation and 275,432 bytes with it, **a reduction of 7.6
-percent and not of everything.** The allocation count fell to zero and the memory it stood for did not.
+**Every ratio is below one, and that is the comfortable direction rather than the dangerous one.** An
+artefact provisioned from these proven numbers would be over-provisioned, which wastes memory and keeps its
+promise.
 
-**And no constant rescues it.** Four modules share a proven bound of exactly 64 bytes while their measured
-frames are 520, 600, 632 and 824 bytes. If the bound were merely in the wrong units, one ratio would carry it
-onto the frame and the project could calibrate that ratio once. **Four different answers to the same bound
-means there is no ratio to find.**
+**This does not make the bound sound, and reading it that way would be the same error in the opposite
+direction.** Nothing constructs the agreement. The two quantities are in different units, count different
+things and are decided by different agents, so eight modules agreeing is a fact about this corpus and not a
+mechanism. **A program with deep expression nesting and few live values could plausibly invert it.** The
+supportable statement is that the bound is empirically conservative on this corpus under the shipped
+pipeline.
+
+**And the ratios do not follow a constant.** They range from 0.12 to 0.88 across modules, and three modules
+sharing a proven bound of 64 receive frames of 56, 40 and 8. **A single ratio cannot map one onto the
+other**, so this is not a scaling the project could calibrate once and then rely on.
 
 ### The same architecture exists in production, and it does not transfer the bound
 
@@ -404,11 +450,14 @@ $\alpha$ that has never been calibrated. The project's own architecture notes th
 per-platform calibration is needed, which is the same gap stated from the other side.
 
 Writing $\mathcal{R}$ for a resource measure, and taking the memory case to mean the machine frame against
-the operand-slot term and not against the arena term, the two failures differ in kind,
+the operand-slot term and not against the arena term, the two gaps differ in kind. **Neither is a proven
+relation and they are unproven for different reasons.** The memory case holds on this corpus with $\beta = 1$
+and nothing establishes it, since no step of the compilation is required to maintain it. The timing case has
+an argument behind it and an unmeasured constant,
 
-$$\nexists \beta : \mathcal{R}^{\mathrm{frame}}_{\mathrm{nat}} \le \beta\, \mathcal{R}^{\mathrm{slots}}_{\mathrm{vm}}, \qquad \exists \alpha \text{ (uncalibrated)} : \mathcal{R}^{\mathrm{time}}_{\mathrm{nat}} \le \alpha\, \mathcal{R}^{\mathrm{time}}_{\mathrm{vm}},$$
+$$\beta = 1 \text{ observed, unproven} : \mathcal{R}^{\mathrm{frame}}_{\mathrm{nat}} \le \beta\, \mathcal{R}^{\mathrm{slots}}_{\mathrm{vm}}, \qquad \exists \alpha \text{ (uncalibrated)} : \mathcal{R}^{\mathrm{time}}_{\mathrm{nat}} \le \alpha\, \mathcal{R}^{\mathrm{time}}_{\mathrm{vm}},$$
 
-which call for different work, being recomputation in the first case and measurement in the second.
+which call for different work, being an argument in the first case and measurement in the second.
 
 **A project that shipped native artefacts today would be shipping part of the language's central promise
 unsupported**, and would not be lying, because the promise is about the bytecode and the bytecode still
@@ -442,15 +491,16 @@ that the per-function frame sizes live in a named section of the object file, in
 number on any host. The equivalent capability exists in other toolchains as
 [GCC's `-fstack-usage`][ref_gcc_devopts] and [Clang's stack-size section][ref_clang_cli].
 
-**The measurement, once taken, is unfavourable in the dangerous direction.** Every module measured has a
-native frame **larger** than the bound proven of its bytecode, by roughly two to thirteen times. An artefact
-provisioned from the proven number would therefore be **under-provisioned**, which is the failure that
-matters, since over-provisioning merely wastes memory.
+**The measurement is easy to get wrong and this article got it wrong once.** The first attempt invoked the
+back end at two optimisation levels over the same intermediate representation, **which never runs the
+promotion pass at all**, so it compared unpromoted code with unpromoted code and read the difference as the
+effect of optimisation. The corrected measurement promotes first and then lowers, which is what the shipped
+pipeline does.
 
-**No constant factor rescues the bound**, and that is the sharper point. Four modules share a proven bound of
-exactly 64 bytes while their measured frames are 520, 600, 632 and 824 bytes. **A single ratio cannot map one
-onto the other**, so the relationship is not a scaling the project could calibrate and then apply. It is the
-absence of a relationship.
+**No constant factor relates the bound to the frame**, which is the sharper point and survives the
+correction. The ratios run from 0.12 to 0.88, and three modules sharing a proven bound of 64 receive frames
+of 56, 40 and 8. **A single ratio cannot map one onto the other**, so the relationship is not a scaling the
+project could calibrate and then apply. It is the absence of a relationship.
 
 **The author wrote both the compiler being measured and the instrument measuring it.** The mitigation
 offered is that the finding is unfavourable to the author's own prior work and would have been more
@@ -11931,10 +11981,12 @@ provisioning is 64 slots per function. Nine stream entry points carry both a pro
 instruction count, and they span three distinct magnitudes, being $(14, 72)$, $(45, 153)$ and $(164, 1143)$. Over 36
 pairs, of which 15 are strictly ordered, there are 0 inversions. Measured memory bounds for stream entry
 points range from 384 to 2,464 bytes with 6 to 71 locals. **Native frame sizes were read from a stack-size
-section in a cross-targeted object file**, and every module's frame exceeds the bound proven of its bytecode
-by roughly two to thirteen times, with four modules sharing a proven bound of 64 bytes against frames of 520,
-600, 632 and 824 bytes. Lowered for `x86_64-unknown-linux-gnu` the 19 modules occupy 298,192 bytes of frame
-unoptimised against 275,432 optimised, **a reduction of 7.6 percent**.
+section in a cross-targeted object file**, and the bound proven of the bytecode exceeds every module's frame
+**in the conservative direction**, the ratios running from 0.12 to 0.88 across the eight modules measured.
+Lowered for `x86_64-unknown-linux-gnu` the 19 modules occupy 5,048 bytes of frame in total when promoted
+before lowering, against 275,432 bytes when they are not, **a factor of 54**. **An earlier version of this
+article reported the unpromoted figures as though they were the shipped ones**, and the erratum at the head
+of the article records what changed.
 
 **Derived, and checkable from the definitions.** That the proven operand depth does not appear in the
 unoptimised frame expression, since the provisioning is a constant. That a tie cannot be an inversion, so
@@ -11985,8 +12037,8 @@ argued and not measured. Whether any inversion exists at higher resolution.
 
 **The strongest claim the evidence supports** is that the operand-slot term of the memory bound does not
 constrain the native frame, because the quantity it measures is absent from the frame's determination and the
-provisioning it might have constrained leaves the intermediate form entirely and returns as spill slots the
-bound never described. **The claim does not extend to the arena term**, which transfers exactly and is not in
+provisioning it might have constrained leaves the intermediate form entirely and is deleted rather than
+carried into the frame. **The claim does not extend to the arena term**, which transfers exactly and is not in
 question, and the difference between those two statements is the difference between a result and an
 overreach. **The weakest link is the timing
 result**, whose zero inversions rest on three distinct magnitudes and should not be cited as support for the
@@ -12012,7 +12064,7 @@ it, and the measurement is far too coarse to be called support.
 **The memory bound splits.** Its arena term transfers exactly, because the machine code allocates from the
 same arena in the same bytes. Its operand-slot term does not transfer and could not, **because it counts a
 structure that native code does not have**, and no constant of proportionality is available between that
-term and the machine frame, four modules with an identical proven bound receiving four different frames.
+term and the machine frame, three modules with an identical proven bound receiving three different frames.
 **The frame is a third quantity, and the honest description is not that a bound was lost but that one was
 never computed.**
 
