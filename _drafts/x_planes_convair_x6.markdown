@@ -940,7 +940,7 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [Jiaju et al 2025 Verification of the Multi-Group Cross Section Generation Code ARES-MAC][research_jiaju_2025]
 - [Jiang 2025 Design and Performance Study of Carbon-Containing Neutron Shielding Materials][research_jiang_2025]
 - [Jiang et al 2026 Atomic-Scale Insights into Tritium Speciation and Interfacial Behaviour][research_jiang_2026]
-- [Johnson 1960 Shield specification No, 1025, [Reactor CRS-1018]][research_johnson_1960]
+- [Johnson 1960 Shield specification No, 1025, Reactor CRS-1018][research_johnson_1960]
 - [Jordan et al 1957 Aircraft Nuclear Propulsion Program, Quarterly Progress Report for Period Ending December 31, 1956, Part 1 - 5][research_jordan_1957]
 - [Jung et al 2025 Long Endurance Analysis of a Solar-Powered High Altitude Unmanned Aircraft][research_jung_2025]
 - [Kam and Schamberger 1961 Military Compact Reactor Program Shield Study In The Ornl Lid Tank, Supplement][research_kam_1961]
