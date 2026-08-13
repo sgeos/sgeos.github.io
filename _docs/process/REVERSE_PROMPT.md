@@ -1,124 +1,131 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A336, X-Planes, X-39, Reserved but Never Assigned. Publication review complete.**
-Committed and **PUSHED**. **Not published.** All four passes are done.
+**Task**: **A337, X-Planes, Boeing X-40. Draft pass complete.** Committed, **not pushed**, per the
+four-pass rhythm. **Not published.**
 
 ---
 
-## The Pass Reversed the Draft Pass a Second Time, for the Same Reason
+## The Finding, Which Contradicts How the Vehicle Is Always Described
 
-**The draft omitted the contemporary-literature survey and gave a reason I still think is correct**, that
-a harvested survey of the **aerospace** literature would measure nothing relevant to whether a letter was
-written in 1997.
+**The X-40A is called a subscale model of the X-37 almost everywhere, and by the test that matters it was
+not one.**
 
-**The conclusion drawn from it was wrong.** This article's subject is not an aircraft. It is what a gap in
-an official register means, and **there is a large, current, directly relevant literature on exactly
-that**, spread across archival science, infrastructure studies, identifier administration and the logic of
-inference from absence. What did not belong was a survey of the wrong field.
+Its geometric ratio to the X-37 is **0.778**, the mean of the published length ratio of 0.752 and span
+ratio of 0.804. **Its mass ratio is 0.618.** Froude similarity at that geometric scale demands a weight of
+**5,186 lb** and the vehicle weighed about **2,600 lb**.
 
-**So the survey is now of the right one.** Eight clusters, being archival silence, the argument from
-silence, classification systems as infrastructure, identifier assignment and reuse, administering a finite
-number space, recordkeeping and the administrative trace, register maintenance, and military nomenclature
-practice.
+**It flew at 50 percent of its dynamically similar mass**, so the Froude number was never matched, and
+therefore the speeds, the times and the trajectory never scaled. **No quantitative aerodynamic result from
+those eight flights transfers to the vehicle it was built to inform.**
 
-**23,114 raw records, 2,550 through the gate, 2,452 into the reference list** after 98 duplicate
-registrations were removed.
-
-**It is kept strictly apart from the evidence.** Not one harvested record is cited in support of any claim
-about the X-39, none was read, and **the article would say exactly the same things if the survey were
-deleted**. The survey lead, the Source Base and the Epistemic State each say so.
+**This is not a criticism and the article says so.** The X-40A carried no propulsion, no thermal
+protection, no payload and no orbital subsystems, and those absent systems are exactly the mass the full
+vehicle would carry. Ballasting a one million dollar test article to preserve a similarity nobody intended
+to exploit would have been a strange use of the money.
 
 ---
 
-## Read This, Because Reading Beat Counting Again
+## The Mass Deficit Is the Programme's Best Argument
 
-**The gate had a defect that no count would ever have shown, and the audit sample found it.**
+**Angular rates scale as the inverse square root of the length ratio**, so at this scale the model's rates
+are **13 percent higher** than the full-scale vehicle's. The halved inertia makes the plant quicker still.
 
-The qualifier helper wrote `(?=.*{p})` where `p` contained an alternation. **The alternation escaped the
-lookahead**, so `(?=.*standard|standards)(?=.*maintenance|revision)` parsed as `(?=.*standard)` OR
-`standards` OR `(?=.*maintenance)` OR `revision`. Every qualified anchor silently became a disjunction of
-bare words.
-
-**It failed in both directions at once**, which is why no statistic caught it. Too permissive, admitting
-building-information-modelling standards maintenance and hydraulic preventive maintenance on the bare word
-`maintenance`. Too narrow, refusing `On the Consolidation of the Internet Domain Name System` because only
-the first alternative was anchored. **Correcting it took the military designation cluster from 7 records
-to 132.**
-
-**A second sample found four more homonym families**, being the boundary-object concept as it is now used
-in education research and design studies, spectrum allocation as a cognitive-radio algorithm rather than a
-regulatory act, biological nomenclature, and `sorting things out` as a pun in cell biology. It also found
-a spelling variant, **`reuse` failing to match `reusable`**. That is the **eighth** spelling or grouping
-defect in this corpus to return a corpus that was wrong rather than empty.
-
-**The article claims a clean corpus nowhere**, and says a third sample is what a fourth would have found.
+**The control system was therefore exercised against something harder to fly than the aircraft it was
+written for**, and it landed the vehicle eight times out of eight, once within 7 feet of the centreline.
+**The subscale test was conservative in the one dimension that mattered**, which is the opposite of the
+usual situation with scale models.
 
 ---
 
-## Two Generator Defects Caught Before They Reached the Article
+## The Disputed Scale Figure Resolves
 
-**`refs.dedupe` returns a pair.** Binding it to one name yields a list of two lists, and the next line
-would have emitted a survey of **two** records without raising. It crashed here only by luck of a later
-type error. This is the silent form of the defect.
+**Four sources give four numbers for the best documented parameter of the aircraft.** Boeing's own press
+release says 90 percent, the space agency says 80, a contemporaneous report of the second free flight says
+85, and a reference encyclopaedia hedges at 80 to 90.
 
-**`refs.clean` was applied to titles and never to author names**, so `Fran&ccedil;ois` reached the link
-text undecoded. It happens to render correctly in a browser, which is why nothing downstream complained.
+**The 90 percent figure is correct about a vehicle that was never built.** The test bed was 90 percent of
+the **Space Maneuver Vehicle**, the operational concept, and the X-37 that everybody now compares it to
+was a later and larger vehicle. **A ratio quoted without its denominator produced a twelve point
+disagreement in the literature.**
 
-**Both are fixed at source, not patched in the output**, and the assembler now carries the published-file
-guard that A371 and A372 have.
+**Nothing depends on which figure is adopted.** The article tabulates the Reynolds, time and angular-rate
+ratios across the whole disputed range and no conclusion moves.
 
 ---
 
-## What the Structural Review Found
+## Numbers Recovered From Figures No Source Combines
 
-**The Related Post list was wrong against the corpus convention.** It was in series order with bare titles
-where every other article in this series sorts alphabetically by the full article title. Rebuilt from the
-drafts' own front matter rather than retyped.
+**No source states the flight path angle.** Release at 15,050 feet, a descent of about 75 seconds and a
+speed of 428 feet per second give a mean sink of 200.7 ft/s, a path angle of **28.0 degrees**, an
+effective lift to drag ratio of **1.88** and a ground range of **4.67 nautical miles**. That is a steep
+energy-management descent rather than a best-glide profile, which is what a vehicle does when it is aiming
+at a fixed point.
 
-**Six Reference entries were misordered**, and after the survey went in, all 2,523 definitions needed
-re-sorting within their anchor groups.
+**No reference area is published anywhere**, so the article bounds it instead. The steady glide fixes the
+product of area and lift coefficient at **13.42 square feet** and the split between them is stated as an
+estimate rather than a measurement.
 
-**A paragraph-order defect from the primary pass had orphaned the Boeing study**, leaving it stranded
-after a concluding paragraph about both contractors.
+---
 
-**Three statements contradicted the new sections** and were reconciled rather than left, being the claim
-that the article carries no survey, the claim that the reference base is small, and the reduced-order
-paragraph.
+## What Did Not Transfer, With Evidence
+
+**The X-37A overran the runway and was damaged on its first free glide flight on 7 April 2006.** The same
+programme lineage, flying a vehicle 120 percent the size built on the X-40A's own outer mould line, failed
+to stop on the runway. **That is the clearest available evidence that the X-40A results did not transfer
+quantitatively.**
+
+**The most durable output was the shape.** A one million dollar test article defined the outer mould line
+of a spacecraft that has since spent years in orbit, which is a return this series has no other example of.
+
+---
+
+## Read This Part, About the Survey Gate
+
+**Reading the audit samples found two homonym families that no count would have shown.** The **runway is a
+piece of apparatus in animal behaviour research**, a straight alley a rat runs down for reinforcement, and
+one such record had been admitted. **Disaster risk reduction** shares both words with flight risk
+reduction and nothing else.
+
+**A third family was found by checking an out-of-place publisher prefix rather than by the random sample.**
+A clinical-psychology identifier in the reference list led to the discovery that **subscale is a
+psychometrics term**, a subscale being a component of a test instrument, so the phrase matches
+questionnaire-validation papers exactly. One had reached the corpus and was removed.
+
+**The measured residual noise is reported as a floor and not a ceiling**, since it counts only what two
+samples and one prefix check happened to surface. The article claims a clean corpus nowhere.
+
+**The A336 lookahead defect cannot recur here.** Each qualifier part is wrapped in a non-capturing group,
+so an alternation cannot escape its lookahead and turn a conjunction into a disjunction of bare words.
 
 ---
 
 ## Verification
 
 - `python3 _verify.py` **0 errors, 0 warnings** across 300 posts.
-- `./_check.sh --drafts` **clean end to end**, 509 pages, no rendered findings.
-- Reference integrity **2,523 used against 2,523 defined**, zero undefined, zero orphaned, zero duplicates.
-- **2,723 reference list entries, all well formed.** All three visible lists and all three definition
-  groups sorted.
+- `./_check.sh --drafts` **clean end to end**, 510 pages, 210 carrying display math, no findings.
+- Reference integrity **4,547 used against 4,547 defined**, zero undefined, zero orphaned, zero duplicates.
+- **Every display equation occupies exactly one source line.** All definition groups and visible lists
+  sorted.
 - Rendered body carries **zero raw display-math delimiters, zero unresolved reference syntax, zero
-  unrendered Liquid and zero empty list items**. Navigation reads **Part 40 of 40**.
-- **A random sample of 20 harvested identifiers resolves 20 of 20.** The 403 responses are ACM and
-  publisher bot detection, which is documented behaviour.
-- Diction **0 constructions above the corpus maximum** against 300 peers. The four words above 5 per
-  thousand are `number`, `designation`, `programme` and `aircraft`, **all of them the article's subject**.
-  `rather than` sits at 4.02 against a maximum of 4.98 and **was not rewritten mechanically**, which is
-  A369's lesson.
-- **Final state 5,919 lines, 8 display equations, 2,523 reference definitions, 53,115 words**, of which
-  6,724 are author prose.
+  unrendered Liquid and zero empty list items**, with MathJax delimiters balanced. Navigation reads
+  **Part 41 of 41**.
+- **All 12 curated URLs resolve at 200.** A sample of 15 harvested identifiers resolves 15 of 15, the 403
+  responses being AIAA, MDPI and Bentham, all documented publisher behaviour.
+- Diction **0 constructions above the corpus maximum** against 300 peers.
+- **9,995 lines, 28 display equations, 4,547 reference definitions, 91,329 words**, of which 5,472 are
+  author prose.
 
 ---
 
 ## Outstanding
 
-**It is committed and pushed, and it is not published**, which is what you asked for.
+**It is committed and not pushed**, which is what the draft pass calls for. The remaining three passes are
+the equation-density review, the primary-reference review and the publication review.
 
-**Publishing it alone would fail the build.** A336 cites thirty-nine siblings through `post_url` and none
-of them exists in `_posts/`, so **the set publishes in order or together**. Forty of seventy-two are
-drafted and **publication has never been authorised**.
-
-**A337 is the Boeing X-40**, editorial date 2025-11-15, series index 41. A336 used only the designation
-facts about the X-40 that its argument required, being the year of allocation and the reassignment from
-the Space Maneuver Vehicle to the test bed, so **the vehicle itself is untouched and available**.
+**The X-Planes set remains unpublished and unauthorised.** Forty-one of seventy-two drafted, forty of them
+citing a sibling through `post_url` with no target in `_posts/`, so **the set publishes in order or
+together**.
 
 **One item is still owed from outside this repository**, being A369's factor-of-roughly-thirty claim,
 which rests on the Keleusma decision register.

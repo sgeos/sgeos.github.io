@@ -17,6 +17,48 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Boeing X-40 A337 2025-11-15
+
+`x_planes_boeing_x40.markdown`, A337, editorial date 2025-11-15, series `x_planes` index 41 of 72.
+
+**9,995 lines, 28 display equations, 4,547 reference definitions, 91,329 words after the draft pass**,
+of which 5,472 are author prose. Committed. **Not pushed**, since the draft pass does not push.
+**Not published**, and publication of the series has never been authorised.
+
+**THE KEYSTONE IS THAT THE X-40A WAS NOT A SCALE MODEL, AND THE ARITHMETIC SAYS SO PLAINLY.** It is
+described almost everywhere as a subscale version of the X-37. Its geometric ratio is **0.778** by the
+mean of the published length and span ratios. Its **mass ratio is 0.618**, since it weighed 2,600 lb
+against the 5,186 lb that Froude similarity demands at that scale. **The vehicle was 50 percent of its
+dynamically similar mass**, so the Froude number was never matched and the speeds, times and trajectory
+never scaled.
+
+**THE SCALE FIGURE IS DISPUTED ACROSS FOUR SOURCES AND THE DISPUTE RESOLVES.** Boeing says 90 percent,
+the space agency 80, a contemporaneous report 85, and an encyclopaedia hedges at 80 to 90.
+**The 90 percent figure is correct about a vehicle that was never built**, being the Space Maneuver
+Vehicle concept rather than the X-37 everyone now compares it to. A ratio quoted without its denominator
+produced a twelve point disagreement about the best documented parameter of the aircraft.
+
+**THE MASS DEFICIT IS THE PROGRAMME'S STRONGEST ARGUMENT RATHER THAN A CRITICISM.** Angular rates scale
+as the inverse square root of the length ratio, so the model's autopilot worked **13 percent faster**
+than the full-scale case demanded, and the halved inertia made the plant quicker still.
+**The subscale test was harder than the full-scale case in the one dimension that mattered.**
+
+**THE FLIGHT PATH ANGLE IS RECOVERED FROM DATA THAT NO SOURCE COMBINES.** Release at 15,050 ft, 75
+seconds, 428 ft/s gives a mean sink of 200.7 ft/s, a path angle of **28.0 degrees**, an effective lift to
+drag ratio of **1.88** and a ground range of 4.67 nautical miles. The 1998 flight was steeper at 1.32 to
+1.47 depending on which release altitude is used.
+
+**THE 2006 X-37A RUNWAY OVERRUN IS THE EVIDENCE THAT TRANSFER FAILED**, the same lineage flying a vehicle
+120 percent the size having failed to stop on the runway on its first free glide.
+
+**THE SURVEY HOLDS 4,495 HARVESTED RECORDS ACROSS NINE CLUSTERS**, none read and none cited as evidence,
+against **twelve curated sources** that carry every claim. **Reading the audit samples found the runway as
+an animal-behaviour apparatus and disaster risk reduction**, and checking an out-of-place publisher prefix
+found that **subscale is a psychometrics term**, which put one questionnaire-validation record in the
+corpus. It was removed and the measured residual noise is reported as a floor rather than a ceiling.
+
+**Remaining work.** Equation-density review. Primary-reference review. Publication review.
+
 ## X-Planes X-39 Reserved but Never Assigned A336 2025-11-14
 
 `x_planes_x39_reserved_never_assigned.markdown`, A336, editorial date 2025-11-14, series `x_planes`
@@ -7084,14 +7126,15 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fifty files exist in `_drafts/`. One is a template. One is this summary.
-**Forty are the in-progress X-Planes series, A297 through A336, none of them published**, and
+Fifty-one files exist in `_drafts/`. One is a template. One is this summary.
+**Forty-one are the in-progress X-Planes series, A297 through A337, none of them published**, and
 publication of the series has never been authorised.
 Eight are the pre-release candidates listed below.
 No stubs remain.
 A79 through A144 have been published.
 
-**These counts were re-measured against the working tree on 2026-08-13 rather than carried forward.**
+**These counts were re-measured against the working tree on 2026-08-13 rather than carried forward**, and
+again after A337 was drafted.
 The previous version read forty-five files and thirty-five X-Planes drafts running to A331, which had
 been true five articles earlier. **A resume channel that disagrees with the tree is worse than one that
 is merely terse**, so the figures above come from counting the directory.
