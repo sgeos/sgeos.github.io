@@ -13,8 +13,8 @@ series_index: 4
 <script>console.log("A372");</script>
 
 **The largest remaining item in a compiler backend was estimated at a quarter's work. Measured, it is
-pointer arithmetic over compile-time constants, and two thirds of the machinery it was supposed to need is
-dead code in every program the compiler is for.**
+pointer arithmetic over compile-time constants, and two of the three representation forms it was supposed to
+need account for two operations in the entire corpus.**
 
 The item is aggregate data types, meaning structs, tuples, arrays and enumerations. It blocks **34.5 percent of the
 corpus**, more than every other unimplemented feature combined, and it had never been scoped because
@@ -131,8 +131,21 @@ while the work actually required prices only the forms the **corpus** contains,
 
 $$C_{\mathrm{act}} \;=\; \sum_{f \in \mathcal{F}} \mathbf{1}\bigl[\lvert \mathcal{A}_f \rvert > 0\bigr] \cdot C(f).$$
 
-**These differ by exactly the terms with no instances**, and nothing in the feature's name distinguishes
-them. That is the whole error, stated before the measurement that exposes it.
+The two differ by exactly the terms with no instances,
+
+$$C_{\mathrm{est}} - C_{\mathrm{act}} \;=\; \sum_{f \,:\, \lvert \mathcal{A}_f \rvert = 0} C(f),$$
+
+and **nothing in the feature's name distinguishes them**. That is the whole error, stated before the
+measurement that exposes it. **The measurement is an evaluation of that sum**, and the article's result is
+that the term which dominated the estimate falls inside it.
+
+**The failure mode this identity describes has a literature**, since pricing $\mathcal{F}$ when the work is
+indexed by the corpus is anchoring on the category. [Jørgensen 2004][research_jorgensen_2004] reviews expert
+estimation of software effort and finds systematic optimism together with strong anchoring on framing, and
+[Jørgensen and Grimstad 2011][research_jorgensen_grimstad_2011] show irrelevant information shifting
+estimates directly. **The contribution here is not the observation that estimates anchor.** It is that in
+this case the anchor is visible in the index set, so the error can be removed by counting instead of by
+debiasing.
 
 ## The Measurement
 
@@ -160,7 +173,9 @@ holds is a comparison rather than an access, and the operation names no layout. 
 below and simply have no representation to be classified by.
 
 **The boxed form has no instances.** The general mechanism, the one that carries the metadata table and the
-heap body and the whole weight of the estimate, **is not used by any program this compiler is for**.
+heap body and the whole weight of the estimate, **is not used by any program this compiler is for**. Taken
+with the two nested occurrences, **the two forms other than flat account for 2 of the 302 operations that
+carry a form at all**, which is the claim the opening makes and this is where it is checkable.
 
 The constructed bodies are small:
 
@@ -197,7 +212,12 @@ allocation and a run of stores.
 already does exactly this** for the program's data segment, where a slot resolves to a base pointer plus a
 constant offset, and that path is implemented and tested.
 
-**Discriminant tests**, 29 instances. Load a word, compare against a constant.
+**Discriminant tests**, 29 instances. A variant is identified by a number stored at the front of the body,
+so the test loads that word and compares it against a constant the compiler already knows,
+
+$$\bigl[\mathrm{load}_{\mathrm{word}}(\mathrm{base}) = k\bigr], \qquad k \text{ fixed at compile time},$$
+
+which is an integer comparison and names no layout, **which is why these 29 carry no form tag**.
 
 **Nested access**, 2 instances. The only form needing an aggregate as a first-class value. Because the
 representation is contiguous, a child body is a sub-range of its parent,
@@ -263,7 +283,11 @@ series before, when a string constant was judged cheap by the same reasoning and
 entire representation decision.
 
 **Two instances is not zero.** The nested form has two occurrences, and a design that handles 300 cases and
-refuses 2 delivers less than the headline. Whether those two sit in modules that are otherwise unblocked is
+refuses 2 delivers
+
+$$\frac{\lvert \mathcal{A}_{\mathsf{Flat}} \rvert}{\lvert \mathcal{A}_{\mathsf{Flat}} \rvert + \lvert \mathcal{A}_{\mathsf{Nested}} \rvert} \;=\; \frac{300}{302} \;=\; 0.993,$$
+
+which is less than the headline and not by much. Whether those two sit in modules that are otherwise unblocked is
 not established here.
 
 **The author scoped work he would then perform.** This is the sharpest threat and it was flagged before the

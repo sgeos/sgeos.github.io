@@ -9,8 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: **A372 imported, brought to corpus standards and retargeted for a general audience.**
-**Committed. NOT pushed and NOT published.**
+**Task**: **A372 equation-density review**, following the standards and retarget pass in the previous
+commit. **Committed. NOT pushed and NOT published.**
 
 ---
 
@@ -26,6 +26,43 @@ configuration that matches the live site.
 
 **Publication renumbered two live pages**, exactly as flagged beforehand. A369 and A370 now read Part 1 and
 Part 2 **of 3**, confirmed as rendered rather than assumed. **The `keleusma_native` series is complete.**
+
+---
+
+## The Equation Pass, Which Is the Newest Work
+
+**12 to 15 display equations.** The audit's four candidate gaps were mostly the known false positives, being
+two survey subsections whose numbers are publication years and an Epistemic State restating measured values.
+
+**The best addition is the article's own thesis, which was stated in words and never displayed.** The prose
+read "These differ by exactly the terms with no instances". That identity now appears as a formula, and
+**the whole article is an evaluation of that one sum.**
+
+Also added, the discriminant test as a load and an integer comparison, which was **the only class in the work
+enumeration with no displayed relation** while the other three each had one, and which explains in passing
+why those 29 operations carry no form tag. And the delivered-coverage ratio of 300 over 302, for the claim
+that handling 300 cases and refusing 2 delivers less than the headline.
+
+## A Number in the Lede Was Supported Nowhere
+
+The opening claimed **two thirds of the machinery it was supposed to need is dead code**, and that figure
+maps to nothing a reader can check. The instruction set defines 11 aggregate opcodes of which 6 are used, and
+the forms number three of which one is empty. **Neither gives two thirds.**
+
+It now reads that two of the three representation forms account for two operations in the entire corpus, and
+the Measurement section says where that is checkable. **This is the same defect A371 shipped with its
+nine-second figure.**
+
+## The Promoted-Subjects Rule Fired Again, on the Eighth Consecutive Article
+
+`citation_gaps` reported 10. The equation pass had promoted the estimate-versus-actual distinction into a
+displayed identity while its supporting literature sat four sections away in the survey. Jørgensen now
+appears beside the identity, with the distinction that **the contribution is not that estimates anchor** but
+that here the anchor is visible in the index set, so the error is removable by counting instead of by
+debiasing.
+
+That took the gaps to **6, and those six are measurements of this corpus or the article's own derivations
+about its own compiler**, where citing anyone would be manufacturing.
 
 ---
 

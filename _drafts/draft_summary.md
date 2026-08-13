@@ -23,7 +23,8 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 of 4. **Out of series with the X-Planes work.**
 
 **612 lines, 12 display equations, 42 reference definitions, 4,256 words of author prose after the
-standards and retarget pass.** Committed. **Not pushed and not published.**
+standards and retarget pass.** **634 lines, 15 display equations, 42 reference definitions, 4,442 words after
+the equation-density review.** Committed. **Not pushed and not published.**
 
 **Supplied by the pilot from the Keleusma repository and brought to corpus standards here.** The argument is
 that the largest remaining item in a compiler backend was estimated at a quarter of work by reasoning from
