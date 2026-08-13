@@ -3993,7 +3993,6 @@ the balance of the contemporary pool, by cluster.
 - [Fatigue analysis of the gearbox housing in high-speed trains...][research_wu_wu_2019]
 - [Finite Element Simulation of Thermal Behavior of Dry Friction...][research_sherza_2019]
 - [Frequency-Parametric Control Electric Drive System Based on...][research_meshcheryakov_boikov_2019]
-- [Micromechanical model of dry friction hybrid polymer...][research_biczo_kalacska_2019]
 - [Modal Analysis and an Experimental Study Into a Marine...][research_he_tang_2019]
 - [Modeling and Analysis of Clutch Engagement Judder in...][research_paygude_joshi_2019]
 - [Prediction of Friction Durability in Off-Road Applications...][research_devlin_adhvaryu_2019]
@@ -11066,7 +11065,6 @@ nobody remembers the date.
 - [Bianco-Mengotti et al 2016][research_biancomengotti_ragazzi_2016]
 - [Biber 2015][research_biber_2015]
 - [Bicknell 1987][research_bicknell_1987]
-- [Biczó and Kalácska 2019][research_biczo_kalacska_2019]
 - [Biczó et al 2020][research_biczo_kalacska_2020]
 - [Bielat, Ralph P. 1959][research_bielatralphp_1959]
 - [Bielecki and Debear 1956][research_bielecki_debear_1956]
@@ -19640,7 +19638,6 @@ nobody remembers the date.
 [research_biancomengotti_ragazzi_2016]: https://doi.org/10.4050/f-0072-2016-11459
 [research_biber_2015]: https://doi.org/10.2514/6.2015-0031
 [research_bicknell_1987]: https://doi.org/10.21236/ada190507
-[research_biczo_kalacska_2019]: https://doi.org/10.21791/ijems.2019.1.41
 [research_biczo_kalacska_2020]: https://doi.org/10.3390/ma13204508
 [research_bielatralphp_1959]: https://ntrs.nasa.gov/citations/19980232001
 [research_bielecki_debear_1956]: https://doi.org/10.21236/ad0103405

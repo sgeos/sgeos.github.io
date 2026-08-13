@@ -553,7 +553,7 @@ one path every time exercises one return site and licenses nothing about the joi
 ### How the literature survey was assembled
 
 The 35 hand-selected research references were chosen because a step of the argument depends on
-them, and each was read. The 1,945 harvested references were not chosen that way and
+them, and each was read. The 1,944 harvested references were not chosen that way and
 were not read individually. **Stating that plainly is the point of this subsection**, because a list of four
 thousand citations otherwise implies a reading it does not represent.
 
@@ -569,7 +569,7 @@ cited by hand were discarded again at assembly so that no work appears twice und
 Of the records the filter admitted, 85 were duplicates holding the same title and year under two
 identifiers, 2 carried a doubled word in the title where a registry had concatenated a title with a book
 title, 1 was untitled or undated, and 4 duplicated a hand-selected entry. 1,945
-therefore reach the reference list.
+therefore reach the reference list. **One was removed by a later audit as an identifier that does not resolve, leaving 1,944.**
 
 **The anchor filter is the step most likely to be wrong, and it was wrong twice before it was right.**
 
@@ -1055,7 +1055,6 @@ is a language-design one.
 - [Leopoldseder and others, 2018, Dominance-based duplication simulation DBDS code duplication to enable compiler optimizations][research_leopoldseder_stadler_2018]
 - [Caamaño and Guelton, 2018, Easy Jit compiler assisted library to enable just-in-time compilation in C++ codes][research_caamano_guelton_2018]
 - [Ottoni, 2018, HHVM JIT a profile-guided, region-based compiler for PHP and Hack][research_ottoni_2018]
-- [., 2018, Just in time and competitive advantage understanding their linkages and impact on operational performance][research_just_in_time_2018]
 - [Brock and others, 2018, PAYJIT space-optimal JIT compilation and its practical implementation][research_brock_ding_2018]
 - [Caliskan and others, 2018, When Coding Style Survives Compilation De-anonymizing Programmers from Executable Binaries][research_caliskan_yamaguchi_2018]
 - [Pape and others, 2017, Adaptive just-in-time value class optimization for lowering memory consumption and improving execution time performance][research_pape_bolz_2017]
@@ -2942,7 +2941,7 @@ work does not consider because no surveyed language separates the two forms in i
 **That separation is Keleusma's own contribution to the problem**, and it is the reason the question is even
 askable here. It is also why the survey cannot answer it.
 
-The scale of the survey should be read for what it is. It lists 1,980 references, of which
+The scale of the survey should be read for what it is. It lists 1,979 references, of which
 35 were selected because the argument depends on them and the rest were harvested by query
 across thirteen clusters. **The harvested majority establishes coverage and not agreement.** A reader
 looking for the works that carry the argument should read the 35, which are named in the prose
@@ -2990,7 +2989,7 @@ machine-code section carrying it is not emitted on this host.
 
 **Verified, and the verification method itself produced a finding twice.** All 35 hand-selected research
 identifiers were resolved against the registry and compared with the work they are cited as.
-**Thirty-five of thirty-five resolve to that work, an error rate of zero.** The 1,945
+**Thirty-five of thirty-five resolve to that work, an error rate of zero.** The 1,944
 harvested identifiers were **not** audited that way and do not need to be, because they were transcribed
 from the registry that issued them rather than recalled, so the failure mode the audit exists to catch
 cannot arise. What the audit would still catch, and did not run for, is a harvested record cited for a claim
@@ -3079,7 +3078,7 @@ The 35 hand-selected works were chosen by the author's judgement of relevance, w
 are the ones the prose reasons from. **That layer is a narrative review.** No protocol was registered and no
 completeness is claimed for it.
 
-The 1,945 harvested works were retrieved by fixed queries against two registries and
+The 1,944 harvested works were retrieved by fixed queries against two registries and
 admitted by a stated filter, which is reproducible in a way the narrative layer is not.
 **It is still not a systematic review.** The query set was written by the same author whose judgement the
 narrative layer rests on, only two registries were searched, no grey literature was sought, no inclusion
@@ -3131,7 +3130,7 @@ coincidence.
 document and piece of reference documentation, were **selected by hand** because the argument depends on
 them. Each states something a step of the reasoning uses, and none is included for completeness.
 
-The remaining 1,945 research references were
+The remaining 1,944 research references were
 **harvested from bibliographic registries by query**
 and constitute the survey in The Contemporary Literature. They were not selected for agreement with the
 article's conclusion and the selection that produced them is reported in Method.
@@ -4052,7 +4051,6 @@ work they are cited as. The result of that check is reported in the Epistemic St
 - [Julián-Iranzo and Rubio-Manzano, 2017, A sound and complete semantics for a similarity-based logic programming language][research_julianiranzo_rubiomanzano_2017]
 - [Jung, 2021, CommitBERT Commit Message Generation Using Pre-Trained Programming Language Model][research_jung_2021]
 - [Jung, 2024, Miri Practical Undefined Behavior Detection for Rust Keynote][research_jung_2024]
-- [., 2018, Just in time and competitive advantage understanding their linkages and impact on operational performance][research_just_in_time_2018]
 - [Jyh-Charn Liu and Hung-Ju Lee, 1994, Deterministic upperbounds of the worst-case execution times of cached programs][research_jyhcharnliu_hungjulee_1994]
 - [Kaestner, 2007, Safe worst-case execution time analysis by abstract interpretation of executable code][research_kaestner_2007]
 - [Kaestner and others, 2025, Determining Worst-Case Execution Time Bounds for Multi-Core Processors][research_kaestner_gebhard_2025]
@@ -6033,7 +6031,6 @@ work they are cited as. The result of that check is reported in the Epistemic St
 [research_julianiranzo_rubiomanzano_2017]: https://doi.org/10.1016/j.fss.2016.12.016
 [research_jung_2021]: https://doi.org/10.18653/v1/2021.nlp4prog-1.3
 [research_jung_2024]: https://doi.org/10.1145/3679005.3695733
-[research_just_in_time_2018]: https://doi.org/10.14738/abr.68.5041.
 [research_jyhcharnliu_hungjulee_1994]: https://doi.org/10.1109/real.1994.342717
 [research_kaestner_2007]: https://doi.org/10.1145/1273444.1254787
 [research_kaestner_gebhard_2025]: https://doi.org/10.4271/2025-01-0155

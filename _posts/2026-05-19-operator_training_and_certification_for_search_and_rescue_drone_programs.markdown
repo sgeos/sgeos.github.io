@@ -204,6 +204,24 @@ it plans the platform investment.
 
 ## The Five Layers of the Training Stack
 
+**Every duration and cost below is a typical figure
+for a programme of this kind
+and not a guarantee.**
+Ranges are stated
+where they are known
+and a programme's own numbers
+will differ
+with its platforms,
+its region
+and the prior experience
+of its operators.
+Stating that once here
+is more honest
+than hedging each figure separately,
+since a hedge repeated
+on every line
+stops being read.
+
 The training a search and rescue
 drone operator
 must complete
@@ -480,7 +498,7 @@ every twenty-four months.
 
 **Layer 1 timeline.**
 A new operator
-typically completes
+completes
 Layer 1
 in
 two to six weeks
@@ -662,13 +680,13 @@ three thousand to ten thousand dollars.
 
 **Layer 2 timeline.**
 Multicopter Layer 2
-typically completes
+completes
 in
 one to two weeks
 including
 the self-paced and instructor-led courses.
 Fixed-wing Layer 2
-typically completes
+completes
 in
 two to four weeks.
 
@@ -848,7 +866,7 @@ for recurrency.
 
 **Layer 3 timeline.**
 Layer 3
-typically completes
+completes
 in
 two to eight weeks
 spread across
@@ -977,14 +995,14 @@ the bulk of the cost
 borne in operator time
 rather than in training fees.
 The recurrency
-typically runs
+runs
 zero to two hundred dollars
 per operator
 per year.
 
 **Layer 4 timeline.**
 Layer 4
-typically completes
+completes
 in
 one to four weeks
 of effort
@@ -1068,7 +1086,7 @@ pre-flight check,
 the deployment procedure,
 and the post-flight inspection.
 The training
-typically costs
+costs
 five hundred to two thousand dollars per operator
 for the initial qualification
 and
@@ -1089,7 +1107,7 @@ in
 the BVLOS procedures
 that the authorisation requires.
 The training
-typically costs
+costs
 two thousand to ten thousand dollars per operator
 for initial qualification
 and
@@ -1156,7 +1174,7 @@ across all specialisations.
 
 **Layer 5 timeline.**
 Layer 5
-typically completes
+completes
 in parallel with
 Layer 3 and Layer 4
 across
@@ -1310,7 +1328,7 @@ all five layers
 of the training stack
 for the platform being operated.
 The RPIC
-typically takes
+takes
 six to twelve months
 to qualify
 from
@@ -1342,7 +1360,7 @@ the platform-specific Layer 2
 that
 the RPIC carries.
 The Visual Observer
-typically qualifies
+qualifies
 in
 two to four months
 from
@@ -1364,7 +1382,7 @@ on
 the payload models
 the programme operates.
 The Sensor Operator
-typically qualifies
+qualifies
 in
 three to six months.
 
@@ -1386,7 +1404,7 @@ including
 ICS-300
 for the role.
 The Coordinator
-typically qualifies
+qualifies
 in
 nine to twelve months.
 
@@ -1427,7 +1445,7 @@ the Layer 3 senior-level certifications
 that
 the SAR providers offer.
 The Team Leader
-typically qualifies
+qualifies
 in
 eighteen to thirty-six months.
 
