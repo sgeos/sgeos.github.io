@@ -1301,7 +1301,6 @@ It is the largest cluster in the survey at 650 records.
 - [Zhang and others, 2026, Compiler-ASR Bridging the IR-to-Assembly Gap for Compiler Optimization via Architecture-Specific Reward][research_zhang_li_2026]
 - [Reddy and others, 2026, Compiler-Assisted Instruction Fusion][research_reddy_singh_2026]
 - [Boda and others, 2026, CPerfSmith A Randomized C Program Generator for Performance-Oriented Compiler Testing][research_boda_chunduri_2026]
-- [2026, cross-compiler, n][research_cross_compiler_n_2026]
 - [Li and others, 2026, DecIR Enhancing LLM-based LLVM IR decompilation through program analysis][research_li_zhang_2026]
 - [Cheng and others, 2026, Denotation-based Compositional Compiler Verification][research_cheng_wu_2026]
 - [Milyutin and others, 2026, DEOBFUSCATION OF MALICIOUS SOFTWARE USING LLVM INTERMEDIATE REPRESENTATION][research_milyutin_ovasapyan_2026]
@@ -1527,7 +1526,6 @@ It is the largest cluster in the survey at 650 records.
 - [Szafarczyk and others, 2023, Compiler Discovered Dynamic Scheduling of Irregular Code in High-Level Synthesis][research_szafarczyk_nabi_2023]
 - [Amarasinghe, 2023, Compiler Support for Structured Data][research_amarasinghe_2023]
 - [Zhang and others, 2023, Compiler Technologies in Deep Learning Co-Design A Survey][research_zhang_xing_2023]
-- [2023, compiler, n][research_compiler_n_2023]
 - [Iskandar and others, 2023, Compiler-Assisted Kernel Selection for FPGA-based Near-Memory Computing Platforms][research_iskandar_elghany_2023]
 - [Gao and Zhao, 2023, Context-Dependent Text-to-SQL Generation with Intermediate Representation][research_gao_zhao_2023]
 - [Mao and others, 2023, Cross-Language Binary-Source Code Matching Based on Rust and Intermediate Representation][research_mao_tang_2023]
@@ -1992,7 +1990,6 @@ arena discipline is why that answer is already bounded.
 - [Jones and others, 2023, Energy-aware garbage collection][research_jones_hosking_2023_i]
 - [Späth, 2023, Garbage Collection][research_spath_2023]
 - [Mangalure and others, 2023, Garbage Collection Android Application][research_mangalure_misal_2023]
-- [2023, garbage collection, n][research_garbage_collection_2023]
 - [Takkalapally and Takkellapally, 2023, GC-TuneHFT AI-Based Garbage Collection Optimization in High-Frequency Trading Environments][research_takkalapally_takkellapally_2023]
 - [Jones and others, 2023, Generational garbage collection][research_jones_hosking_2023_g]
 - [Strach and Sullivan, 2023, Getting and Keeping Garbage Collection][research_strach_sullivan_2023_b]
@@ -6565,8 +6562,8 @@ residue measured here follows from a design decision taken upstream and is not a
 aggregates. **The broad claim, that aggregates are cheap to compile, is contradicted by every cluster
 above.**
 
-The scale should be read for what it is. The survey lists 6,039 references, of which 31 were
-selected because a step of the argument depends on them and were read, and 6,008 were harvested
+The scale should be read for what it is. The survey lists 6,036 references, of which 31 were
+selected because a step of the argument depends on them and were read, and 6,005 were harvested
 by query across ten clusters and were not. **The harvested majority establishes coverage and not agreement.**
 
 ## The Source Base
@@ -6579,7 +6576,7 @@ rather than asserts, because the distribution is a fact about the corpus and not
 ### How the harvested survey was assembled
 
 **The 31 hand-selected research references were chosen because a step of the argument depends on
-them, and each was read. The 6,008 harvested references were not chosen that way and were not
+them, and each was read. The 6,005 harvested references were not chosen that way and were not
 read individually.** Stating that plainly is the point of this subsection, because a list of several thousand
 citations otherwise implies a reading it does not represent. What the harvested list supports is a claim
 about coverage, since the queries were fixed before any record was seen. What it does not support is any
@@ -6604,7 +6601,8 @@ the families earlier sweeps had already paid for.
 **The count that survives is smaller again.** Of the 6,357 records the anchor test admitted, 313
 were duplicates holding the same title and year under two identifiers, 13 carried a contraction
 or a doubled word in a verbatim title that this corpus cannot reproduce in link text, and 23
-duplicated a work already cited by hand. 6,008 therefore reach the reference list.
+duplicated a work already cited by hand. 6,008 therefore reach the reference list, **three of which a later audit removed as dictionary entries
+rather than research**, leaving 6,005.
 
 ## Epistemic State
 
@@ -6646,7 +6644,7 @@ bodies therefore carry an existing bound instead of creating a new unbounded qua
 reached for the machine stack because it was nearer would have converted a bounded quantity into an
 unbounded one for no benefit.**
 
-**Harvested rather than read.** 6,008 of the 6,039 research references were retrieved by
+**Harvested rather than read.** 6,005 of the 6,036 research references were retrieved by
 keyword query and are listed on the strength of their titles, authors, years and venues as the registry holds
 them. **Nothing in the argument rests on any one of them**, and the cluster sizes are the only quantitative
 use made of them. **The residual contamination rate is not zero**, since each sample read during assembly
@@ -7803,7 +7801,6 @@ solved.
 - [1990, Compiler design in C][research_compiler_design_1990]
 - [2011, Compiler design virtual machines][research_compiler_design_2011]
 - [2013, Compiler design analysis and transformation][research_compiler_design_2013]
-- [2023, compiler, n][research_compiler_n_2023]
 - [1998, Compiler technology Tools, translators and language implementation][research_compiler_technology_1998]
 - [2011, Concurrent garbage collection][research_concurrent_garbage_2011]
 - [Conejo, 2026, Formal Verification of Functional Safety Supervisors for Autonomous Vehicles Using Behavior Tree Architectures][research_conejo_2026]
@@ -7877,7 +7874,6 @@ solved.
 - [Criswell and others, 2022, Tutorial LLVM for Security Practitioners][research_criswell_johnson_2022]
 - [Cronquist and McMurchie, 1996, Emerald - An Architecture-Driven Tool Compiler for FPGAs][research_cronquist_mcmurchie_1996]
 - [Crosara and others, 2021, Re-engineering ERC-20 Smart Contracts with Efficient Snapshots for the Java Virtual Machine][research_crosara_olivieri_2021]
-- [2026, cross-compiler, n][research_cross_compiler_n_2026]
 - [Crosthwaite, 2026, CorpusMate 2.0 Integrating AI-powered language analysis into a data-driven learning corpus tool][research_crosthwaite_2026]
 - [Crowcroft and Deegan, 2005, Optimising data layout for delay-line memory][research_crowcroft_deegan_2005]
 - [Crowe and others, 1985, On converting a compiler into an incremental compiler][research_crowe_nicol_1985]
@@ -8441,7 +8437,6 @@ solved.
 - [2002, Garbage Collection of an Extended Common Lisp System for SIMD Architectures][research_garbage_collection_2002_b]
 - [2009, Garbage Collection][research_garbage_collection_2009]
 - [2016, Garbage Collection Support][research_garbage_collection_2016]
-- [2023, garbage collection, n][research_garbage_collection_2023]
 - [2024, Garbage Collection and Segregation in Rural Setting][research_garbage_collection_2024]
 - [2026, Garbage collection on the fly][research_garbage_collection_2026]
 - [Garbervetsky and others, 2017, Static analysis for optimizing big data queries][research_garbervetsky_pavlinovic_2017]
@@ -13843,7 +13838,6 @@ solved.
 [research_compiler_design_1990]: https://doi.org/10.5860/choice.28-0998
 [research_compiler_design_2011]: https://doi.org/10.5860/choice.48-6333
 [research_compiler_design_2013]: https://doi.org/10.5860/choice.50-5637
-[research_compiler_n_2023]: https://doi.org/10.1093/oed/7146954269
 [research_compiler_technology_1998]: https://doi.org/10.1016/s0898-1221(98)90103-1
 [research_concurrent_garbage_2011]: https://doi.org/10.1201/9781315388021-16
 [research_conejo_2026]: https://doi.org/10.1109/iv66570.2026.11624044
@@ -13917,7 +13911,6 @@ solved.
 [research_criswell_johnson_2022]: https://doi.org/10.1109/secdev53368.2022.00012
 [research_cronquist_mcmurchie_1996]: https://doi.org/10.1109/fpga.1996.242542
 [research_crosara_olivieri_2021]: https://doi.org/10.1109/bcca53669.2021.9657047
-[research_cross_compiler_n_2026]: https://doi.org/10.1093/oed/6014415142
 [research_crosthwaite_2026]: https://doi.org/10.29140/aile.2026.104826
 [research_crowcroft_deegan_2005]: https://doi.org/10.1049/el:20057462
 [research_crowe_nicol_1985]: https://doi.org/10.1145/382286.382376
@@ -14481,7 +14474,6 @@ solved.
 [research_garbage_collection_2002_b]: https://doi.org/10.1201/b12542-19
 [research_garbage_collection_2009]: https://doi.org/10.1007/978-1-4302-2370-2_9
 [research_garbage_collection_2016]: https://doi.org/10.1201/9781315386706-13
-[research_garbage_collection_2023]: https://doi.org/10.1093/oed/9460118479
 [research_garbage_collection_2024]: https://doi.org/10.56472/25835238/irjems-v3i2p135
 [research_garbage_collection_2026]: https://doi.org/10.1017/9781009421003.021
 [research_garbervetsky_pavlinovic_2017]: https://doi.org/10.1145/3106237.3117774

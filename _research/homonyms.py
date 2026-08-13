@@ -231,6 +231,21 @@ NOISE_PATTERNS = [
      "attitudes' reached the kept set. The two fields share the exact phrase and "
      "some of their machinery, so only the linguistic subject matter distinguishes "
      "them. Formal VERIFICATION carries no equivalent ambiguity"),
+    (r"^(?:cross.)?compiler,?\s*n\.?$|^sandboxing,?\s*n\.?$|"
+     r"^garbage collection,?\s*n\.?$|^\w[\w\s-]{0,28},\s*(?:n|v|adj|adv)\.$",
+     "A372: DICTIONARY HEADWORDS. An Oxford English Dictionary entry for the word "
+     "`compiler` is typed as a book-chapter and its title matches every subject "
+     "anchor perfectly, because the title IS the anchor. Three reached A371 and "
+     "three reached A372 before an audit caught them. THE GATE HAS NO "
+     "MINIMUM-SUBSTANCE TEST and a one-word headword passes it trivially, which is "
+     "a different failure from a homonym and is caught by the same store"),
+    (r"\bcompiler\b.{0,60}\b(?:medieval|manuscript|scribe|codex|florilegi|"
+     r"anthologi[sz]|Bohemia|monastic|vernacular translation)|"
+     r"\b(?:medieval|manuscript|scribe|codex|monastic)\w*\b.{0,60}\bcompiler\b",
+     "A372: THE MEDIEVAL COMPILER, meaning the person who assembles a manuscript "
+     "from sources, against the PROGRAM that translates code. A chapter titled "
+     "`Compiler` in `Passionate Copying in Late Medieval Bohemia` reached A371's "
+     "kept set. The word predates the computing sense by centuries"),
     (r"\bintermediate representation\b.{0,60}\b(?:speech|phonem|pinyin|acoustic|"
      r"dialect|handwriting|image caption|音)|"
      r"\b(?:speech|phonem|pinyin|acoustic|dialect)\w*\b.{0,60}"

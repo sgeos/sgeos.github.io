@@ -1935,7 +1935,6 @@ Sandboxed and isolated execution accounts for 295 contemporary records.
 - [Lun and Kancherla, 2023, Powering single-cell analyses in the browser with WebAssembly][research_lun_kancherla_2023]
 - [Nakata and others, 2023, Reducing Attack Surface with Container Transplantation for Lightweight Sandboxing][research_nakata_suzuki_2023]
 - [Kritikos and Iphofen, 2023, Sandboxing][research_kritikos_iphofen_2023]
-- [2023, sandboxing, n][research_sandboxing_n_2023]
 - [Seo and others, 2023, Sfitag Efficient Software Fault Isolation with Memory Tagging for ARM Kernel Extensions][research_seo_you_2023]
 - [Rokotyanskaya and Abramov, 2023, Studying WebAssembly and comparison of its performance with JavaScript][research_rokotyanskaya_abramov_2023]
 - [Moron and Wallentowitz, 2023, Support for Just-in-Time Compilation of WebAssembly for Embedded Systems][research_moron_wallentowitz_2023]
@@ -5022,7 +5021,6 @@ once by query and once by judgement, while reporting one selection.
 - [Li and Krishnamachari, 2026, Compiler-Guided Inference-Time Adaptation Improving GPT-5 Programming Performance in Idris][research_li_krishnamachari_2026]
 - [Boda and others, 2026, CPerfSmith A Randomized C Program Generator for Performance-Oriented Compiler Testing][research_boda_chunduri_2026]
 - [Undheim, 2026, CREF-Lang A domain-specific language and compiler for cross-domain cascade-risk notation][research_undheim_2026]
-- [2026, cross-compiler, n][research_cross_compiler_n_2026]
 - [Cheng and others, 2026, Denotation-based Compositional Compiler Verification][research_cheng_wu_2026]
 - [Oh and Kim, 2026, Detecting Compiler-Introduced Security Bugs via IR Mutation and Coverage-Guided Fuzzing][research_oh_kim_2026]
 - [Dvorak and Kolmogorov, 2026, Duality theory in linear optimization and its extensions -- formally verified][research_dvorak_kolmogorov_2026]
@@ -5307,7 +5305,6 @@ once by query and once by judgement, while reporting one selection.
 - [Quetschlich and others, 2023, Compiler Optimization for Quantum Computing Using Reinforcement Learning][research_quetschlich_burgholzer_2023]
 - [Shewale and others, 2023, Compiler Optimization Prediction with New Self-Improved Optimization Model][research_shewale_shinde_2023]
 - [Zhang and others, 2023, Compiler Technologies in Deep Learning Co-Design A Survey][research_zhang_xing_2023]
-- [2023, compiler, n][research_compiler_n_2023]
 - [Maroun and others, 2023, Compiler-Directed Constant Execution Time on Flat Memory Systems][research_maroun_schoeberl_2023]
 - [Ouedraogo and others, 2023, Coqlex Generating Formally Verified Lexers][research_ouedraogo_scherer_2023]
 - [Laukemann and Hager, 2023, Core-Level Performance Engineering with the Open-Source Architecture Code Analyzer OSACA and the Compiler Explorer][research_laukemann_hager_2023]
@@ -5456,7 +5453,6 @@ once by query and once by judgement, while reporting one selection.
 - [Devkota and others, 2021, CcNav Understanding Compiler Optimizations in Binary Code][research_devkota_aschwanden_2021]
 - [Papadimitriou and Gizopoulos, 2021, Characterizing Soft Error Vulnerability of CPUs Across Compiler Optimizations and Microarchitectures][research_papadimitriou_gizopoulos_2021]
 - [Ploensin and others, 2021, Code Transformation Impact on Compiler-based Optimization A Case Study in the CMSSW][research_ploensin_piromsopa_2021]
-- [2021, Compiler][research_compiler_2021]
 - [Ferrari and others, 2021, Compiler Design for Distributed Quantum Computing][research_ferrari_cacciapuoti_2021]
 - [Mehta, 2021, Compiler Directives][research_mehta_2021]
 - [Rodriguez, 2021, Compiler Optimizations][research_rodriguez_2021]
@@ -11876,9 +11872,9 @@ stronger statement than saying this article found no support, and it is the surv
 **The assumption is not merely unproven here. It is contrary to the practice of every field that has
 addressed the problem.**
 
-**The harvested majority establishes coverage and not agreement.** The survey lists 11,099 references, of
+**The harvested majority establishes coverage and not agreement.** The survey lists 11,095 references, of
 which 33 were selected because a step of the argument depends on them and were read, and
-11,066 were harvested by query across fifteen clusters and were not. A reader looking for the
+11,062 were harvested by query across fifteen clusters and were not. A reader looking for the
 works that carry the argument should read the 33, which are named in the prose above. A reader
 checking whether the survey was assembled to flatter its conclusion should note that the queries were fixed
 before any record was seen, that every admitted record is listed including the 2,255 that are
@@ -11912,7 +11908,7 @@ claim in the opening that nobody had looked rather than that looking was hard.
 ### How the harvested survey was assembled
 
 **The 33 hand-selected research references were chosen because a step of the argument depends on
-them, and each was read. The 11,066 harvested references were not chosen that way and were not
+them, and each was read. The 11,062 harvested references were not chosen that way and were not
 read individually.** Stating that plainly is the point of this subsection, because a list of several
 thousand citations otherwise implies a reading it does not represent. What the harvested list supports is a
 claim about coverage, being that the survey did not select for agreement with its conclusion, since the
@@ -11930,7 +11926,8 @@ noticed.** Of the 11,604 records the anchor test admitted, 488 were duplicates h
 and year under two identifiers, 21 carried a contraction or a doubled word in a verbatim title
 that this corpus cannot reproduce in link text, and 27 duplicated a work already cited by hand.
 11,068 therefore reach the reference list, **two of which a later
-primary-reference pass promoted into the hand-selected set** and read. **That last figure is a small piece of corroboration
+primary-reference pass promoted into the hand-selected set** and read, and **four of which a later audit
+removed as dictionary and reference-work entries rather than research**, leaving 11,062. **That last figure is a small piece of corroboration
 for the survey**, because 27 of the 28 works chosen by hand before the harvest ran were
 independently returned by it.
 
@@ -12046,7 +12043,7 @@ proceedings series where adjacent identifiers differ by a single digit.** **The 
 supplied from memory**, which is an argument for searching the registry by title and never recalling an
 identifier, and all four corrections here were obtained that way.
 
-**Harvested rather than read.** 11,066 of the 11,099 research references were retrieved by
+**Harvested rather than read.** 11,062 of the 11,095 research references were retrieved by
 keyword query and are listed on the strength of their titles, authors, years and venues as the registry
 holds them. **Nothing in the argument rests on any one of them.** The cluster sizes are the only
 quantitative use made of them, and the coverage claim they support is stated in full in the Source Base. **The residual contamination rate is not zero.** Four independent samples of
@@ -14290,11 +14287,9 @@ occasionally the whole argument.
 - [2009, Common Subexpression Elimination][research_common_subexpression_2009]
 - [Compagnin and Vardanega, 2016, An automated framework for the timing analysis of applications for an automotive multicore processor][research_compagnin_vardanega_2016]
 - [2014, CompCert][research_compcert_2014]
-- [2021, Compiler][research_compiler_2021]
 - [1990, Compiler design in C][research_compiler_design_1990]
 - [2011, Compiler design virtual machines][research_compiler_design_2011]
 - [2013, Compiler design analysis and transformation][research_compiler_design_2013]
-- [2023, compiler, n][research_compiler_n_2023]
 - [1998, Compiler technology Tools, translators and language implementation][research_compiler_technology_1998]
 - [1994, Compiling Control Revisited A New Approach based upon Abstract Interpretation][research_compiling_control_1994]
 - [2019, Component, Cache replacement, Multithreading, LIRS, Weak Determinism][research_component_cache_2019]
@@ -14437,7 +14432,6 @@ occasionally the whole argument.
 - [Crosara and others, 2021, Re-engineering ERC-20 Smart Contracts with Efficient Snapshots for the Java Virtual Machine][research_crosara_olivieri_2021]
 - [Cross, 1989, Other compiler support working group][research_cross_1989]
 - [Cross, 2025, wrenfold Symbolic code generation for robotics][research_cross_2025]
-- [2026, cross-compiler, n][research_cross_compiler_n_2026]
 - [Crouzet and others, 2024, Coordinating the Fetch and Issue Warp Schedulers to Increase the Timing Predictability of GPUs][research_crouzet_carle_2024]
 - [Crowe and others, 1985, On converting a compiler into an incremental compiler][research_crowe_nicol_1985]
 - [Crowley and Baer, 2004, Worst-Case Execution Time Estimation for Hardware-Assisted Multithreaded Processors][research_crowley_baer_2004]
@@ -20565,7 +20559,6 @@ occasionally the whole argument.
 - [Sanan and others, 2015, Verifying FreeRTOS' Cyclic Doubly Linked List Implementation From Abstract Specification to Machine Code][research_sanan_yang_2015]
 - [Sánchez-Gil and others, 2014, An Operational Semantics for Distributed Lazy Evaluation][research_sanchezgil_hidalgoherrero_2014]
 - [Sandberg and others, 2006, Faster WCET flow analysis by program slicing][research_sandberg_ermedahl_2006]
-- [2023, sandboxing, n][research_sandboxing_n_2023]
 - [2017, Sandboxing. Un juego de negociación de recursos][research_sandboxing_un_2017]
 - [Sandell and others, 2006, Static Timing Analysis of Real-Time Operating System Code][research_sandell_ermedahl_2006]
 - [Sander, 1999, Graph layout for applications in compiler construction][research_sander_1999]
@@ -25388,11 +25381,9 @@ occasionally the whole argument.
 [research_common_subexpression_2009]: https://doi.org/10.1007/978-0-387-39940-9_2228
 [research_compagnin_vardanega_2016]: https://doi.org/10.1109/etfa.2016.7733570
 [research_compcert_2014]: https://doi.org/10.1017/cbo9781107256552.036
-[research_compiler_2021]: https://doi.org/10.2307/jj.5211774.7
 [research_compiler_design_1990]: https://doi.org/10.5860/choice.28-0998
 [research_compiler_design_2011]: https://doi.org/10.5860/choice.48-6333
 [research_compiler_design_2013]: https://doi.org/10.5860/choice.50-5637
-[research_compiler_n_2023]: https://doi.org/10.1093/oed/7146954269
 [research_compiler_technology_1998]: https://doi.org/10.1016/s0898-1221(98)90103-1
 [research_compiling_control_1994]: https://doi.org/10.7551/mitpress/4316.003.0066
 [research_component_cache_2019]: https://doi.org/10.33969/eecs.v3.015
@@ -25535,7 +25526,6 @@ occasionally the whole argument.
 [research_crosara_olivieri_2021]: https://doi.org/10.1109/bcca53669.2021.9657047
 [research_cross_1989]: https://doi.org/10.1145/91354.91383
 [research_cross_2025]: https://doi.org/10.21105/joss.07303
-[research_cross_compiler_n_2026]: https://doi.org/10.1093/oed/6014415142
 [research_crouzet_carle_2024]: https://doi.org/10.1109/dsd64264.2024.00053
 [research_crowe_nicol_1985]: https://doi.org/10.1145/382286.382376
 [research_crowley_baer_2004]: https://doi.org/10.1016/b978-012198157-0/50006-4
@@ -31665,7 +31655,6 @@ occasionally the whole argument.
 [research_sanan_yang_2015]: https://doi.org/10.1109/iceccs.2015.23
 [research_sanchezgil_hidalgoherrero_2014]: https://doi.org/10.2307/j.ctv36xvmkd.8
 [research_sandberg_ermedahl_2006]: https://doi.org/10.1145/1159974.1134666
-[research_sandboxing_n_2023]: https://doi.org/10.1093/oed/7723819585
 [research_sandboxing_un_2017]: https://doi.org/10.4067/s0717-69962017000200032
 [research_sandell_ermedahl_2006]: https://doi.org/10.1007/11925040_10
 [research_sander_1999]: https://doi.org/10.1016/s0304-3975(98)00270-9

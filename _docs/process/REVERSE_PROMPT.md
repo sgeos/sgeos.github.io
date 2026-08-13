@@ -9,8 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: **A371 primary-reference review continued to completion.**
-**Committed AND pushed. LIVE PAGE CHANGED.**
+**Task**: **Dictionary entries removed from two live pages**, found by a background citation sweep.
+**Committed AND pushed. TWO LIVE PAGES CHANGED.**
 
 ---
 
@@ -29,7 +29,36 @@ Part 2 **of 3**, confirmed as rendered rather than assumed. **The `keleusma_nati
 
 ---
 
-## Finishing the Pass, Which Is the Newest Work
+## A Background Sweep Found Dictionary Entries Cited as Research
+
+The corpus-wide citation check I started earlier finished and reported hard findings on both articles I had
+just published. Reading them separates two kinds.
+
+**Most are checker artefacts from a trailing full stop.** `entry_text` strips one and the registry keeps it,
+so `compiler, n` against `compiler, n.` reads as a mismatch and is not one.
+
+**The rest are real, and they are a failure mode neither of us had seen.** `research_compiler_n_2023`
+resolves to **an Oxford English Dictionary entry for the word `compiler`**, typed as a book chapter. Its
+title matches every subject anchor perfectly **because the title IS the anchor**. Six such records were
+across the two articles, OED entries for `compiler`, `cross-compiler`, `sandboxing` and `garbage
+collection`.
+
+**This is not a homonym and qualifying the anchors would not have caught it.** The gate has **no
+minimum-substance test**, and a one-word dictionary headword passes it trivially.
+
+**A seventh is a genuine homonym the sweep had missed**, a chapter titled `Compiler` in *Passionate Copying
+in Late Medieval Bohemia*, where a compiler is the person who assembles a manuscript. That sense predates
+the computing one by centuries.
+
+**Seven records removed from two live pages**, four from A371 and three from A372, **each verified as not
+cited in prose before removal** so no argument lost a support. Totals reconciled rather than nudged, and both
+articles now state the removal in their attrition arithmetic so the change is visible instead of silent.
+
+Two families recorded in the store, taking it to 65 patterns.
+
+---
+
+## Finishing the Pass, From an Earlier Commit
 
 The previous commit fixed the arena gap and **left four thin sections identified and unaddressed**. This
 closes that.
