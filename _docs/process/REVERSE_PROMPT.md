@@ -1,256 +1,123 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A336, X-Planes, X-39, Reserved but Never Assigned. Primary-reference review complete.**
-Committed, **not pushed**, per the four-pass rhythm. **Not published.**
+**Task**: **A336, X-Planes, X-39, Reserved but Never Assigned. Publication review complete.**
+Committed and **PUSHED**. **Not published.** All four passes are done.
 
 ---
 
-## The Primary Pass Found That I Had Asserted Something Without Looking
+## The Pass Reversed the Draft Pass a Second Time, for the Same Reason
 
-**The draft said that a designation which never reaches the Department-wide list has not been assigned, and
-then never opened the list.** That is an assertion dressed as evidence, and it was mine.
+**The draft omitted the contemporary-literature survey and gave a reason I still think is correct**, that
+a harvested survey of the **aerospace** literature would measure nothing relevant to whether a letter was
+written in 1997.
 
-**So I retrieved it.** The 12 May 2004 edition of DoD 4120.15-L, the last publicly released one, carries an
-aircraft appendix running to over a hundred pages. **X-35A, X-36A, X-37A, X-38A, X-40A and X-40B all appear
-in one contiguous passage. There is no X-39 entry anywhere in the document.**
+**The conclusion drawn from it was wrong.** This article's subject is not an aircraft. It is what a gap in
+an official register means, and **there is a large, current, directly relevant literature on exactly
+that**, spread across archival science, infrastructure studies, identifier administration and the logic of
+inference from absence. What did not belong was a survey of the wrong field.
 
-**The caveat is in the article rather than buried.** X-33 and X-34 are **also** absent from that edition,
-and both were substantial flight programmes cancelled in 2001. So absence from a 2004 list is consistent
-with more than one history. **The list corroborates the non-assignment. It does not demonstrate it**, and
-the demonstrative evidence remains Parsch's statement that no request was ever submitted.
+**So the survey is now of the right one.** Eight clusters, being archival silence, the argument from
+silence, classification systems as infrastructure, identifier assignment and reuse, administering a finite
+number space, recordkeeping and the administrative trace, register maintenance, and military nomenclature
+practice.
 
----
+**23,114 raw records, 2,550 through the gate, 2,452 into the reference list** after 98 duplicate
+registrations were removed.
 
-## The Current Instruction Closed an Open Item and Opened Three Findings
-
-I retrieved the joint instruction of **3 November 2020** from a mirror, after the Air Force publishing site
-refused automated requests.
-
-**Reserving a design number in advance of a request is still not a procedure.** Twenty-three years after
-the X-39 was lost to exactly that act, it remains undescribed. That item was open in the draft and is now
-closed.
-
-**Skipping a number is now explicitly authorised.** The current text states that the approving authority
-reserves the authority to skip a design number at discretion. **What was an accident of correspondence in
-1997 is now a stated discretionary power**, which changes the character of the gaps rather than their
-number.
-
-**Retirement and reactivation procedures now exist**, which is precisely the release machinery 1997 lacked.
-They would still not have saved the X-39, because retirement applies to designators that were assigned and
-this one never was. **The same gap, in a newer document.**
-
-**And DoD 4120.15-L is itself recorded as cancelled** as the public designator database, replaced by a
-Department web service. That is why the 2004 edition was the right thing to check.
+**It is kept strictly apart from the evidence.** Not one harvested record is cited in support of any claim
+about the X-39, none was read, and **the article would say exactly the same things if the survey were
+deleted**. The survey lead, the Source Base and the Epistemic State each say so.
 
 ---
 
-## The Contractor Briefing Substantiated an Inference
+## Read This, Because Reading Beat Counting Again
 
-**I had been citing one slide of a fifty-eight-slide deck.** The full Lockheed Martin Phase I briefing
-survives. It selected **five technologies as those requiring flight demonstration**, and its concluding
-slide reports that **integrating them into an existing vehicle would require substantial modification**.
+**The gate had a defect that no count would ever have shown, and the audit sample found it.**
 
-**That is the technical case for a new airframe, and therefore for a new design number.** The draft had
-reasoned its way to that claim. It is now evidenced.
+The qualifier helper wrote `(?=.*{p})` where `p` contained an alternation. **The alternation escaped the
+lookahead**, so `(?=.*standard|standards)(?=.*maintenance|revision)` parsed as `(?=.*standard)` OR
+`standards` OR `(?=.*maintenance)` OR `revision`. Every qualified anchor silently became a disjunction of
+bare words.
 
----
+**It failed in both directions at once**, which is why no statistic caught it. Too permissive, admitting
+building-information-modelling standards maintenance and hydraulic preventive maintenance on the bare word
+`maintenance`. Too narrow, refusing `On the Consolidation of the Internet Domain Name System` because only
+the first alternative was anchored. **Correcting it took the military designation cluster from 7 records
+to 132.**
 
-## Two Things Left Standing
+**A second sample found four more homonym families**, being the boundary-object concept as it is now used
+in education research and design studies, spectrum allocation as a cognitive-radio algorithm rather than a
+regulatory act, biological nomenclature, and `sorting things out` as a pun in cell biology. It also found
+a spelling variant, **`reuse` failing to match `reusable`**. That is the **eighth** spelling or grouping
+defect in this corpus to return a corpus that was wrong rather than empty.
 
-**A source conflict on the nuclear turbojet.** The Smithsonian has the X-6 carrying four X-39 engines; the
-encyclopaedia describes the X-39 as two modified J47 units. **Both hold if the designation names a unit of
-two, but no source says so, so I assert no count.**
-
-**A failed avenue, disclosed in the article rather than passed over.** A budget justification would pin the
-FATE cancellation date. The Air Force financial management archive refused the connection at the transport
-layer. **The date is open for want of access, not for want of a record**, and the article now says which.
-
----
-
-## From the Equation Pass, Which Overturned the Draft Pass
-
-**The draft pass told you this article needed no equations. That was wrong, and its own reasoning was
-wrong.** I wrote that a designation has no mass, no area **and no binding constraint**. The first two
-clauses hold. **The third is false on the article's own evidence.**
-
-**The binding constraint is the numbering itself.** Design numbers are issued consecutively within a
-basic mission and are never replenished, which makes them a finite resource consumed in one direction.
-**That is not a side detail. It is the exact mechanism the article's central finding depends on**, being
-the claim that the X-39 became unrecoverable before it became unnecessary. I described that mechanism at
-length in prose and then declared that the article contained no relation worth displaying.
-
-**524 to 614 lines, 0 to 8 display equations, 4,600 to 5,534 words.** The reference base is unchanged at
-66 with integrity intact, and the `mathjax` flag is now true.
+**The article claims a clean corpus nowhere**, and says a third sample is what a fourth would have found.
 
 ---
 
-## What the Eight Relations Do
+## Two Generator Defects Caught Before They Reached the Article
 
-They state the mechanism and nothing else. The unavailable set as the union of the allocated and reserved
-sets, the next-issue rule as the smallest unavailable number, the passage time at which the sequence goes
-past a number, the recovery condition as cancellation before passage, the monotonicity of the reserved
-set in the absence of any release procedure, the permanent-gap set, and two instantiations for the X-39.
+**`refs.dedupe` returns a pair.** Binding it to one name yields a list of two lists, and the next line
+would have emitted a survey of **two** records without raising. It crashed here only by luck of a later
+type error. This is the silent form of the defect.
 
-**None of them is physical and none is dimensional**, and the article says so plainly rather than leaving
-a reader to wonder why an aerospace article suddenly has set notation.
+**`refs.clean` was applied to titles and never to author names**, so `Fran&ccedil;ois` reached the link
+text undecoded. It happens to render correctly in a browser, which is why nothing downstream complained.
 
-**The formalisation strengthened the conclusion instead of restating it.** The recovery condition fails
-for the X-39 from an infinite cancellation time alone, **with no date required at all**. So the dated
-inequality is confined to the ordering of the passage against the programme cut, and the unsettled month
-of the X-40A allocation is now shown to be irrelevant to the conclusion rather than merely disclaimed as
-a limitation.
-
-**The gaps at A-11, C-30, C-36, V-17, V-19, V-21 and X-39 turn out to be elements of one set** that has
-no rule capable of removing anything from it. That was implicit in the prose and is now explicit.
+**Both are fixed at source, not patched in the output**, and the assembler now carries the published-file
+guard that A371 and A372 have.
 
 ---
 
-## One Step Is Assumed, and I Labelled It Rather Than Hiding It
+## What the Structural Review Found
 
-**Read literally, the next-issue minimum would fall again whenever a lower number was released.** That is
-not a quibble, because **it is precisely what happened to C-16**, which the article cites as the case
-where a number was recovered.
+**The Related Post list was wrong against the corpus convention.** It was in series order with bare titles
+where every other article in this series sorts alphabetically by the full article title. Rebuilt from the
+drafts' own front matter rather than retyped.
 
-So the rule that a release stops helping once the sequence has passed the number is **empirical**, taken
-from Parsch's description of how the office behaves. **No regulation quoted in the article states it**,
-and it is the step the permanence argument leans on hardest. It is now flagged in the text and again
-under a new Analysis heading in the Epistemic State.
+**Six Reference entries were misordered**, and after the survey went in, all 2,523 definitions needed
+re-sorting within their anchor groups.
 
----
+**A paragraph-order defect from the primary pass had orphaned the Boeing study**, leaving it stranded
+after a concluding paragraph about both contractors.
 
-## This Is the First Article in the Series to Take the Reduced Order
-
-**A320 and A324 are both designation anomalies and both were written at full length**, because the SV-5D
-flew three times and returned a measurement, and because the X-27 design record carries complete
-geometry, weights and engine ratings. **X-39 has neither.** No vehicle was ever built, so there is no
-keystone to identify and no system to dimension, and the genre's reduced six-section order applies for
-the first time in forty articles.
-
-**That reduced order still holds, and the claim about equations that once sat here does not.** This
-paragraph previously said the article carried no equations because a designation has no binding
-constraint. **The equation pass above overturned that**, and the sentence is corrected here rather than
-left to contradict the section three headings up.
-
-**The three series sections are absent for a stated reason.** A contemporary-literature survey and a
-source-base accounting exist to demonstrate that a technical argument rests on an adequate reading of a
-field. **This article makes a documentary argument**, so the appropriate standard is exhibition of the
-specific documents, which it does inline. A harvested survey of the aerospace literature would measure
-nothing relevant to whether a letter was written in 1997.
-
----
-
-## The Finding, Which Is About the Register Rather Than About Aviation
-
-**The gap required two missing documents and the second one is the important one.**
-
-The first is the obvious one. The number was reserved on 23 April 1997 for the Future Aircraft Technology
-Enhancements programme, the demonstrator that would have carried it was cut in favour of work already
-being done elsewhere, and **the written allocation request was therefore never submitted.** Air Force
-Joint Instruction 16-401 requires that request and closes the paragraph with **do not use Mission Design
-Series designators before approval**.
-
-**The second is the one that made the gap permanent, and it is a recovery mechanism rather than a
-creation mechanism.** A reserved number can be reused **if the original requester explicitly cancels the
-reservation before the next number is allocated**. Nobody cancelled it. **X-40A was allocated during the
-same year**, so the window closed while the FATE demonstrator was still a live proposal.
-**The number became unrecoverable before it became unnecessary.**
-
-**The sharpest supporting point comes from the instruction's own text.** It permits manufacturers and
-services to reserve a set of **popular names** for future models. **There is no equivalent provision
-anywhere for design numbers.** The system wrote a rule for holding the decorative thing and none for
-holding the structural one, so numbers were reserved anyway through an informal channel with no rule
-attached, and therefore with no rule governing release.
-
-**Reserved turns out to be two different acts sharing a word**, one performed by the assigning authority
-while processing a written request, one performed by the programme office before any request exists.
-Only the second consumed the X-39, and only the first is written down.
-
----
-
-## Read This Part, Because It Nearly Shipped Wrong
-
-**I cited an encyclopaedia article for the X-39 designation and there is no such article.** The page is
-a **disambiguation page**. I caught it by fetching the page and asking what it was about, rather than by
-accepting the 200 it returned.
-
-**The other entry on that page changed the article.** General Electric applied the designation X-39 to a
-pair of modified J47 turbojets rebuilt to run on reactor heat. **Those engines ran**, on a ground test
-stand, against three successive Heat Transfer Reactor Experiments, **and they were built for the Convair
-X-6**, which is the sixth article in this series.
-
-**So one register holds a number with no hardware, and another holds hardware under the same number**,
-and nothing connects them except the string. That is the article's thesis in miniature, and it is now a
-section and the closing beat of the conclusion. **A status-code sweep would have reported that citation
-as healthy.**
-
----
-
-## What I Deliberately Did Not Claim
-
-**The X-40A allocation is dated to 1997 without a month in every accessible source.** I therefore make
-**no claim that the X-39 reservation displaced it**, and the article says so explicitly. What the record
-does settle is the lower bound, that the next number was allocated before the FATE demonstrator was cut,
-which is all the argument needs.
-
-**The causal link between the cancellation and the missing request is labelled an inference**, not a
-fact. No source states it. An alternative reading, that the request was simply forgotten while the
-programme was still alive, is not excluded by anything I found.
-
-**One source conflict is recorded rather than resolved.** The encyclopaedia describes FATE as run jointly
-by the Air Force Research Laboratory and DARPA, while the contemporaneous sources describe an Air Force
-programme whose demonstrator was cut **precisely because** it duplicated a separate DARPA project. The
-second reading is better supported and the conflict is left standing.
-
----
-
-## Two Checks That Earned Their Keep This Pass
-
-**The count-in-my-own-prose defect fired a fifth time.** I wrote that eight relations were nine. It was
-caught by counting the source rather than by rereading, and the sentence now carries a measured figure.
-
-**The promoted-subjects rule fired and was already satisfied.** An equation pass promotes a subject and
-the reference base is supposed to follow. The subject promoted here is the allocation procedure, which is
-already the article's **best**-referenced subject at 13 prose citations across the two versions of the
-joint instruction, the two Department-level issuances and Parsch's allocation page. **No reference work
-is owed**, and I checked rather than assumed, because the rule has fired on eight consecutive articles.
+**Three statements contradicted the new sections** and were reconciled rather than left, being the claim
+that the article carries no survey, the claim that the reference base is small, and the reduced-order
+paragraph.
 
 ---
 
 ## Verification
 
 - `python3 _verify.py` **0 errors, 0 warnings** across 300 posts.
-- `./_check.sh --drafts` **clean end to end**, 509 pages, **209 carrying display math**, no findings.
-- Reference integrity **71 used against 71 defined**, zero undefined, zero orphaned.
-- URL sweep **30 of 32 at 200**, up from 22 of 25. Both refusals are the documented `.mil` pattern.
-- **Primary share of external references 22.2 to 31.2 percent**, with 10 of the 16 load-bearing entries
-  now primary documents. The sixteen and ten were **verified by script, not by eye**.
-- **Every display equation occupies exactly one source line.**
-- Rendered body carries **zero raw display-math delimiters**, MathJax loads, and its delimiters balance.
-- Reference integrity **66 used against 66 defined**, zero undefined, zero orphaned, zero duplicates.
-- **All 39 `post_url` targets resolve.** Nothing anywhere forward-references A336.
-- The rendered article body carries **zero unresolved reference syntax, zero unrendered Liquid and zero
-  raw display-math delimiters**, checked inside the article element with scripts stripped rather than
-  across the whole page.
-- Series navigation renders **Part 40 of 40**, and all 223 internal links on the page resolve.
-- URL sweep **22 of 25 at 200**. The three refusals are `apps.dtic.mil` and `esd.whs.mil`, the documented
-  bot-detection pattern, and all three documents were confirmed to exist by title through search.
-- Prose clean with **zero contractions, zero em dashes, zero en dashes, zero prose semicolons and zero
-  prose parentheticals** outside the debug tag.
+- `./_check.sh --drafts` **clean end to end**, 509 pages, no rendered findings.
+- Reference integrity **2,523 used against 2,523 defined**, zero undefined, zero orphaned, zero duplicates.
+- **2,723 reference list entries, all well formed.** All three visible lists and all three definition
+  groups sorted.
+- Rendered body carries **zero raw display-math delimiters, zero unresolved reference syntax, zero
+  unrendered Liquid and zero empty list items**. Navigation reads **Part 40 of 40**.
+- **A random sample of 20 harvested identifiers resolves 20 of 20.** The 403 responses are ACM and
+  publisher bot detection, which is documented behaviour.
+- Diction **0 constructions above the corpus maximum** against 300 peers. The four words above 5 per
+  thousand are `number`, `designation`, `programme` and `aircraft`, **all of them the article's subject**.
+  `rather than` sits at 4.02 against a maximum of 4.98 and **was not rewritten mechanically**, which is
+  A369's lesson.
+- **Final state 5,919 lines, 8 display equations, 2,523 reference definitions, 53,115 words**, of which
+  6,724 are author prose.
 
 ---
 
 ## Outstanding
 
-**It is committed and not pushed**, which is what these passes call for. **Only the publication review
-remains**, and that pass commits and pushes but does not publish.
+**It is committed and pushed, and it is not published**, which is what you asked for.
 
-**The X-Planes set remains unpublished and unauthorised.** Forty of seventy-two drafted, thirty-nine of
-them citing a sibling through `post_url` with no target in `_posts/`, so **the set publishes in order or
-together** and publishing any one alone fails the build.
+**Publishing it alone would fail the build.** A336 cites thirty-nine siblings through `post_url` and none
+of them exists in `_posts/`, so **the set publishes in order or together**. Forty of seventy-two are
+drafted and **publication has never been authorised**.
 
-**A337 is the Boeing X-40**, editorial date 2025-11-15, series index 41. I kept the X-40 material here to
-the designation facts the argument required, being the year of its allocation and its reassignment from
+**A337 is the Boeing X-40**, editorial date 2025-11-15, series index 41. A336 used only the designation
+facts about the X-40 that its argument required, being the year of allocation and the reassignment from
 the Space Maneuver Vehicle to the test bed, so **the vehicle itself is untouched and available**.
 
 **One item is still owed from outside this repository**, being A369's factor-of-roughly-thirty claim,

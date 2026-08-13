@@ -25,7 +25,8 @@ index 40 of 72.
 **524 lines, 0 display equations, 66 reference definitions, 4,600 words after the draft pass.**
 **614 lines, 8 display equations, 66 reference definitions, 5,534 words after the equation-density
 review.** **712 lines, 8 display equations, 71 reference definitions, 6,655 words after the
-primary-reference review.** Committed. **Not pushed**, since none of these passes pushes.
+primary-reference review.** **5,919 lines, 8 display equations, 2,523 reference definitions, 53,115 words
+after the publication review.** Committed and **PUSHED**.
 **Not published**, and publication of the series has never been authorised.
 
 **THE PRIMARY PASS CHECKED AN ASSERTION AND IT HELD.** The draft claimed that a designation never reaching
@@ -50,6 +51,26 @@ primary evidence a claim the draft had made by inference.**
 
 **Primary share of external references rose from 22.2 to 31.2 percent**, and the URL sweep from 22 of 25 to
 30 of 32, the two refusals being the documented `.mil` bot-detection pattern.
+
+**THE PUBLICATION REVIEW REVERSED THE DRAFT PASS A SECOND TIME, AND FOR THE SAME REASON.** The draft
+omitted the contemporary-literature survey because a harvested survey of the **aerospace** literature would
+measure nothing relevant to whether a letter was written in 1997. **That reasoning is sound and the
+conclusion was wrong**, because the subject is not an aircraft. It is what a gap in an official register
+means, and there is a large current literature on exactly that. **The survey now covers archival science,
+infrastructure studies, identifier administration and the logic of inference from absence**, at
+**2,452 harvested records across eight clusters**, kept strictly separate from the sixteen sources that
+carry the argument, none of which it displaces and none of which it supplements as evidence.
+
+**READING THE AUDIT SAMPLES FOUND A DEFECT NO COUNT WOULD HAVE SHOWN.** The qualifier helper wrote
+`(?=.*{p})` where `p` contained an alternation, so the alternation **escaped the lookahead** and every
+qualified anchor silently became a disjunction of bare words. The gate was simultaneously too permissive,
+admitting any title containing `maintenance`, and too narrow, refusing `Domain Name System`.
+**Correcting it moved the military designation cluster from 7 records to 132.** A second sample found four
+further collisions and a spelling variant, `reuse` failing to match `reusable`, which is the **eighth**
+spelling or grouping defect in this corpus to return a corpus that was wrong rather than empty.
+
+**Final state 5,919 lines, 8 display equations, 2,523 reference definitions, 53,115 words**, of which
+6,724 are author prose. Committed and **PUSHED**. **Not published.**
 
 **THE EQUATION PASS REVERSED THE DRAFT PASS AND THE DRAFT PASS WAS WRONG.** The draft asserted that a
 designation has no mass, no area **and no binding constraint**, and the third clause is false on the
@@ -85,7 +106,9 @@ adequate reading of a field. This article makes a documentary argument and exhib
 inline instead. **The reference base is small on purpose and the article states which dozen entries
 carry the argument.**
 
-**Remaining work.** Publication review.
+**Remaining work.** None. All four passes are complete. **Publication has never been authorised for this
+series** and A336 must not be published alone, since it cites thirty-nine siblings through `post_url` and
+none of them exists in `_posts/`.
 
 ## X-Planes Scaled Composites X-38 A335 2025-11-13
 
