@@ -17,6 +17,45 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## Keleusma Research Spike, Error Correction Meets a Signature A373 2026-08-10
+
+`when_error_correction_meets_a_signature.markdown`, A373, editorial date 2026-08-10, series
+`keleusma_research_spikes` index 5 of 5.
+
+**42,362 lines, 24 display equations, 13,800 reference definitions, 458,572 words after the draft
+pass**, of which 8,305 are author prose. Committed. **Not pushed**, since the draft pass does not push.
+**Not published.**
+
+**COPIED FROM THE ENGINEERING SESSION AND BRUSHED UP, NOT REWRITTEN.** The source at
+`/Users/bsechter/projects/rust/keleusma/tmp/2026-08-10-when_error_correction_meets_a_signature.markdown`
+arrived already stamped A373 with the right series, date and index, and already carrying its survey.
+The work was standards conformance and the general-audience retarget.
+
+**THE SUBJECT IS A COMPOSITION ORDER.** A file carries an error-correcting code so a flipped bit can be
+repaired and a signature so a changed byte is refused, and putting both in one file forces a choice
+neither feature announces. **The two orders are indistinguishable on every undamaged input**, which is
+every input anybody tests.
+
+**THE MEASUREMENT IS EXHAUSTIVE RATHER THAN SAMPLED.** Over one 64-bit word, all 64 single-bit faults
+repair exactly, all 2,016 doubles are detected, **23,364 of 41,664 triples are reported as successful
+repairs and every one is wrong**, a rate of 56.08 percent, and **5,133 of 635,376 quadruples are
+completely invisible**.
+
+**THE GENERAL-AUDIENCE RETARGET WAS MOSTLY ONE CHANGE.** The two candidate orders were labelled **(A)**
+and **(B)** in seventeen places. They are now named **verify-then-scrub** and **scrub-then-verify**,
+which carries the meaning in the name and **removed every prose parenthesis at the same time**. A skip
+signpost was added at the head of the algebra, and the syndrome is glossed in plain words at first use.
+
+**STANDARDS WORK.** 44 prose colons and semicolons removed, the four cross-references converted from
+**hardcoded absolute URLs to `post_url` tags** so they carry the build-time interlock, and two
+constructions brought under the corpus maximum, `which is` falling from 5.66 to 3.85 per thousand.
+
+**PUBLISHING THIS WOULD CHANGE FOUR LIVE PAGES.** A369 through A372 are published and their navigation
+reads Part 1 to 4 **of 4**. Adding A373 at index 5 renumbers all four to **of 5**. That is a change to
+live pages and it has not been made.
+
+**Remaining work.** Equation-density review. Primary-reference review. Publication review.
+
 ## X-Planes X-41 Common Aero Vehicle A338 2025-11-16
 
 `x_planes_x41_common_aero_vehicle.markdown`, A338, editorial date 2025-11-16, series `x_planes` index 42
@@ -7318,7 +7357,7 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fifty-two files exist in `_drafts/`. One is a template. One is this summary.
+Fifty-three files exist in `_drafts/`. One is a template. One is this summary.
 **Forty-two are the in-progress X-Planes series, A297 through A338, none of them published**, and
 publication of the series has never been authorised.
 Eight are the pre-release candidates listed below.

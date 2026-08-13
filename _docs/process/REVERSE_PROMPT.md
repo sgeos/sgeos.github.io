@@ -1,10 +1,93 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A338, X-Planes, X-41 Common Aero Vehicle. Publication review complete.** Committed and
-**PUSHED**. **Not published.** All four passes are done.
+**Task**: **A373, Keleusma Research Spike on error correction meeting a signature. Copied in and brushed
+up to standards, and retargeted for a general audience.** Committed, **not pushed**. **Not published.**
 
 ---
+
+## What Arrived and What I Did
+
+**The source was already in good shape.** It came stamped A373 with the correct series, editorial date
+and index, and already carried its harvested survey at 13,800 references. **I did not rewrite it.** The
+work was standards conformance and the general-audience retarget.
+
+**42,362 lines, 24 display equations, 13,800 reference definitions, 458,572 words**, of which 8,305 are
+author prose.
+
+---
+
+## The Retarget Was Mostly One Change
+
+**The two candidate orders were labelled (A) and (B) in seventeen places.** They are now
+**verify-then-scrub** and **scrub-then-verify**.
+
+**That single change did three things at once.** It puts the meaning in the name, so a reader never has
+to hold a mapping in their head. It **removed every prose parenthesis in the article**, since the labels
+were the only ones. And it made the result headings self-explanatory, because one of them already said
+"Scrub-Then-Verify" while the body said "(B)".
+
+**Two smaller changes finish it.** A skip signpost at the head of the algebra tells a reader who wants
+the argument rather than the derivation to go straight to The Measurement, and says what the algebra is
+for so skipping it is an informed choice. **The syndrome is glossed in plain words at first use**, since
+it appears fourteen times and was previously defined only in symbols.
+
+---
+
+## Standards Work
+
+**44 prose colons and semicolons removed**, across the author prose and the survey leads both. The source
+used the colon as an introducing device throughout, which the house style does not permit.
+
+**The cross-references were hardcoded absolute URLs and are now `post_url` tags.** That matters beyond
+tidiness: a hardcoded path **bypasses the build-time interlock**, so it would rot silently if a category
+or date ever changed, where a `post_url` fails the build loudly. All four targets were verified present
+in `_posts/` and their built URLs confirmed against a production build **before** converting.
+
+**Two constructions sat above the corpus maximum**, `which is` at 5.66 per thousand against 5.29, and
+`worth showing`, which no peer article has ever used. Fifteen uses were varied **across a rotation rather
+than by one replacement**, per A369's lesson, taking `which is` to **3.85** and the count above maximum
+to zero.
+
+---
+
+## One Thing You Should Decide, Not Me
+
+**Publishing this would change four live pages.** A369 through A372 are published and their navigation
+reads **Part 1 to 4 of 4**. A373 sits at index 5, so publishing renumbers all four to **of 5**.
+
+**That is a change to live pages and I have not made it.** The article is not published and the draft
+pass does not push.
+
+---
+
+## Verification
+
+- `python3 _verify.py` **0 errors, 0 warnings**. `./_check.sh --drafts` clean at **512 pages**, 212
+  carrying display math, no rendered findings.
+- Reference integrity **13,800 used against 13,800 defined**, zero undefined, zero orphaned, all
+  definition groups sorted.
+- **Zero em dashes, en dashes, contractions, prose colons, prose semicolons and prose parentheses.**
+- **8 of 8 curated URLs at 200**, and a sample of 15 harvested identifiers resolving 15 of 15.
+- The one block-form `cases` equation is confirmed permitted by `MATHJAX_CONVENTIONS.md`, which allows
+  delimiters on separate lines, and it renders.
+- Diction **0 constructions above the corpus maximum** against 300 peers.
+
+---
+
+## Outstanding
+
+**Three passes remain**, being the equation-density review, the primary-reference review and the
+publication review.
+
+**The X-Planes mainline is untouched by this and remains at forty-two of seventy-two**, all four passes
+complete on each, none published and none authorised. **A339, the Orbital Sciences X-42, starts only on
+your prompt.**
+
+---
+
+## From A338, the X-41 Common Aero Vehicle, Which Is Complete and Pushed
+
 
 ## The Survey's Thinnest Subject Was the Article's Central Construct
 
