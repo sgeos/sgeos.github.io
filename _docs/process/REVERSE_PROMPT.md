@@ -9,8 +9,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: **The series renamed to Keleusma Research Spikes.** Four live pages changed.
-**Committed AND pushed.**
+**Task**: **A371 primary-reference review**, the pass that was skipped. **Committed AND pushed. LIVE PAGE CHANGED.**
 
 ---
 
@@ -29,7 +28,39 @@ Part 2 **of 3**, confirmed as rendered rather than assumed. **The `keleusma_nati
 
 ---
 
-## The Series Rename, Which Is the Newest Work
+## The Skipped Pass, Which Is the Newest Work
+
+**You were right and the TASKLOG shows it.** A372 records a primary-reference review. A371 does not, having
+gone standards and retarget, then equation density, then straight to publication review.
+
+**The gap that pass found was created by a later correction**, which is the promoted-subjects rule in its
+purest form. Item 5 of the draft corrections narrowed the central claim so that **the arena term of the
+memory bound transfers exactly**. That sentence became load-bearing and **cited nobody at all**. The
+reference base never followed the correction.
+
+Four references now sit where the claim is made. **Hanson 1990** for the practical allocation-by-lifetime
+discipline, **Tofte and Talpin 1997** for the theory making region lifetimes statically inferable,
+**Grossman and Morrisett 2002** for regions in a systems language, and **Berger and Zorn 2002** for when a
+custom allocator actually pays. The property that matters throughout is that **a region's total is decided
+before the program runs**, which is what lets the term cross the boundary, and the article now says so.
+
+**Two of the four were already in the article and never cited**, sitting in the harvested block as records
+nobody had read. I promoted them into the hand-selected set instead of adding them again under a second
+anchor.
+
+**The counts were reconciled rather than nudged.** Hand-selected 28 to 32, harvested-only 11,068 to 11,066,
+total 11,096 to 11,098. **The error-rate paragraph still describes the 27 submitted**, since a later addition
+cannot change what was wrong on submission.
+
+Two things I checked rather than assumed. **A double listing is the design**, every harvested anchor
+appearing once in its cluster and once in the complete bibliography, measured as 11,068 anchors at two
+entries and 30 at one. And **a title check I wrote flagged two of the four while measuring the wrong
+direction**, since harvested link text carries surname and year and is a superset of the registry title.
+Checked as containment, all four cover it at 1.00.
+
+---
+
+## The Series Rename, From an Earlier Commit
 
 `series_title` goes from **Keleusma Native Code Generation** to **Keleusma Research Spikes**, and the slug
 from `keleusma_native` to `keleusma_research_spikes`, across all four live pages.

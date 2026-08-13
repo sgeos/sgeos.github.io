@@ -211,6 +211,16 @@ every allocation, and **native code allocates from the same arena in the same by
 does not change at the compilation boundary. A bound on arena use proven of the bytecode is a bound on arena
 use of the machine code, with no argument required beyond noticing that the arena is the same object.
 
+**That property is a consequence of the allocation discipline and not a happy accident**, which is worth
+saying because the discipline has a literature and the article's claim inherits its guarantees.
+[Hanson 1990][research_hanson_1990] gives the practical form, allocating by object lifetime from a region
+that is released as a unit, and [Tofte and Talpin 1997][research_tofte_talpin_1997] give the theory that
+makes region lifetimes statically inferable. [Grossman and Morrisett 2002][research_grossman_morrisett_2002]
+carry regions into a systems language with the safety obligations discharged, and
+[Berger and Zorn 2002][research_berger_zorn_2002] measure when a custom allocator actually pays.
+**The relevant property throughout is that a region's total is decided before the program runs**, and it is
+exactly that property, and not anything about compilation, that lets this term cross the boundary intact.
+
 **The $8 \cdot \max_{ip} \mathrm{depth}$ term is the one with no native counterpart.** It counts slots on the
 interpreter's operand stack, which is a growable vector inside the virtual machine. Native code has no
 operand stack. Those values live in registers, and where they do not fit they live wherever the register
@@ -11852,10 +11862,10 @@ stronger statement than saying this article found no support, and it is the surv
 **The assumption is not merely unproven here. It is contrary to the practice of every field that has
 addressed the problem.**
 
-**The harvested majority establishes coverage and not agreement.** The survey lists 11,096 references, of
-which 28 were selected because a step of the argument depends on them and were read, and
-11,068 were harvested by query across fifteen clusters and were not. A reader looking for the
-works that carry the argument should read the 28, which are named in the prose above. A reader
+**The harvested majority establishes coverage and not agreement.** The survey lists 11,098 references, of
+which 32 were selected because a step of the argument depends on them and were read, and
+11,066 were harvested by query across fifteen clusters and were not. A reader looking for the
+works that carry the argument should read the 32, which are named in the prose above. A reader
 checking whether the survey was assembled to flatter its conclusion should note that the queries were fixed
 before any record was seen, that every admitted record is listed including the 2,255 that are
 merely adjacent, and that the selection procedure is reported below with the count it discarded.
@@ -11887,8 +11897,8 @@ claim in the opening that nobody had looked rather than that looking was hard.
 
 ### How the harvested survey was assembled
 
-**The 28 hand-selected research references were chosen because a step of the argument depends on
-them, and each was read. The 11,068 harvested references were not chosen that way and were not
+**The 32 hand-selected research references were chosen because a step of the argument depends on
+them, and each was read. The 11,066 harvested references were not chosen that way and were not
 read individually.** Stating that plainly is the point of this subsection, because a list of several
 thousand citations otherwise implies a reading it does not represent. What the harvested list supports is a
 claim about coverage, being that the survey did not select for agreement with its conclusion, since the
@@ -11905,7 +11915,8 @@ than one shared with every discipline that publishes. That test discarded 48,487
 noticed.** Of the 11,604 records the anchor test admitted, 488 were duplicates holding the same title
 and year under two identifiers, 21 carried a contraction or a doubled word in a verbatim title
 that this corpus cannot reproduce in link text, and 27 duplicated a work already cited by hand.
-11,068 therefore reach the reference list. **That last figure is a small piece of corroboration
+11,068 therefore reach the reference list, **two of which a later
+primary-reference pass promoted into the hand-selected set** and read. **That last figure is a small piece of corroboration
 for the survey**, because 27 of the 28 works chosen by hand before the harvest ran were
 independently returned by it.
 
@@ -12002,8 +12013,9 @@ nothing in the argument depends on it.
 research identifiers, every one of which was resolved against the registry and compared to the work it is
 cited as. **Four were wrong, an error rate of 14.8 percent**, and none of the four was a false positive of the
 checking method. **A twenty-eighth reference was added during editing** and resolves correctly, so the
-article carries 28 hand-selected references while the error rate above describes the 27 that
-were submitted. **The harvested references were not checked this way and are not claimed to be**, since they
+article carries 32 hand-selected references while the error rate above describes the 27 that
+were submitted. **Four more were added by a later primary-reference pass**, being the region and arena
+literature the corrected central claim turned out to rest on, and they resolve correctly. **The harvested references were not checked this way and are not claimed to be**, since they
 come from the registry and not from anybody's memory, which is the failure mode that produced all four
 errors. One digit was transposed, sending
 `Static checking of interrupt-driven software` to a different paper in the same proceedings. One cited the
@@ -12019,7 +12031,7 @@ proceedings series where adjacent identifiers differ by a single digit.** **The 
 supplied from memory**, which is an argument for searching the registry by title and never recalling an
 identifier, and all four corrections here were obtained that way.
 
-**Harvested rather than read.** 11,068 of the 11,096 research references were retrieved by
+**Harvested rather than read.** 11,066 of the 11,098 research references were retrieved by
 keyword query and are listed on the strength of their titles, authors, years and venues as the registry
 holds them. **Nothing in the argument rests on any one of them.** The cluster sizes are the only
 quantitative use made of them, and the coverage claim they support is stated in full in the Source Base. **The residual contamination rate is not zero.** Four independent samples of
@@ -12147,6 +12159,8 @@ occasionally the whole argument.
 
 ### Research
 
+- [Reconsidering custom memory allocation][research_berger_zorn_2002]
+- [Fast allocation and deallocation of memory based on object lifetimes][research_hanson_1990]
 - [2006, 06/00064 An effective technique for the software requirements analysis of NPP safety-critical systems, based on software inspection, requirements traceability, and formal specification][research_06_00064_an_2006]
 - [1993, 145 Certification of digital systems in commercial avionics applications][research_145_certification_1993]
 - [2019, 14. Space complexity Modeling limited memory][research_14_space_2019]
@@ -24220,6 +24234,7 @@ occasionally the whole argument.
 [research_bergami_2024]: https://doi.org/10.3390/info15010034
 [research_bergamini_descoubes_2005]: https://doi.org/10.1007/978-3-540-31980-1_42
 [research_berger_schuster_2025]: https://doi.org/10.1109/rtss66672.2025.00041
+[research_berger_zorn_2002]: https://doi.org/10.1145/582419.582421
 [research_berghofer_strecker_2004]: https://doi.org/10.1016/s1571-0661(05)82598-8
 [research_beringer_brukardt_2012]: https://doi.org/10.1145/2402676.2402708
 [research_beringer_stewart_2014]: https://doi.org/10.1007/978-3-642-54833-8_7
@@ -27179,6 +27194,7 @@ occasionally the whole argument.
 [research_hansen_siveroni_2005]: https://doi.org/10.1016/j.entcs.2005.02.032
 [research_hansen_wrage_2014]: https://doi.org/10.21236/ada613893
 [research_hansen_wrage_2015]: https://doi.org/10.21236/ada614107
+[research_hanson_1990]: https://doi.org/10.1002/spe.4380200104
 [research_hanssen_myklebust_2016]: https://doi.org/10.1145/2894784.2894799
 [research_hanssen_myklebust_2017]: https://doi.org/10.1145/3120459.3120480
 [research_hanssen_stalhane_2018]: https://doi.org/10.1007/978-3-319-99334-8_3
