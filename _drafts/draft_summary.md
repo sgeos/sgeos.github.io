@@ -61,7 +61,31 @@ and **the nanofluid stagnation-point flow literature**, the last accounting for 
 of the corpus**, and found by checking an out-of-place publisher prefix rather than by the random sample.
 **That is the third consecutive article on which a prefix check has beaten the sample.**
 
-**Remaining work.** Equation-density review. Primary-reference review. Publication review.
+**9,557 lines, 30 display equations, 4,375 reference definitions, 85,417 words after the equation-density
+review**, of which 4,622 are author prose.
+
+**THE BEST ADDITION RECOVERS THE PLANNED FLIGHT TIME FROM THE SAME TWO NUMBERS.** Integrating the glide
+deceleration gives a duration of **29.3 minutes against a planned thirty**, so the published lift to drag
+ratio of 2.6 and the stated Mach 20 now reproduce **both the distance and the duration** of the intended
+flight. **That is the strongest available check that the model describes this vehicle rather than
+something else.**
+
+**THE BOOST COST IS NOW EXACT RATHER THAN RHETORICAL.** Specific energy goes as the square of speed, so the
+mission needs **69 to 87 percent of the energy of reaching orbit**, and the rocket equation turns that into
+a mass ratio of **10.8** at a solid-propellant specific impulse, meaning **near ten tonnes of stack for a
+900 kilogram glider**. The cheap alternative to an intercontinental ballistic missile needs most of one.
+
+**A CONTRADICTION IN THE PUBLISHED FIGURES WAS FOUND BY ARITHMETIC.** The Common Aero Vehicle payload of
+1,000 pounds against a Hypersonic Technology Vehicle mass of 900 kilograms is **50 percent**, which is not
+credible for a hypersonic glider, so **the two figures cannot describe the same vehicle**. The article now
+says which figure it uses where.
+
+**Further additions** cover the inversion that generates the required-ratio table, the Mach conversion, the
+transcendental equation whose root is the Küchemann crossover, the linearity of range in the ratio, the
+glide deceleration at 0.17 to 0.36 of a gravity, the weight, the exponential atmosphere converting density
+to the 61.2 kilometre corridor altitude, and the implied lift coefficient.
+
+**Remaining work.** Primary-reference review. Publication review.
 
 ## X-Planes Boeing X-40 A337 2025-11-15
 

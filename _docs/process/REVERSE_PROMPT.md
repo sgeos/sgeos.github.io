@@ -1,8 +1,59 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A338, X-Planes, X-41 Common Aero Vehicle. Draft pass complete.** Committed, **not pushed**,
-per the four-pass rhythm. **Not published.**
+**Task**: **A338, X-Planes, X-41 Common Aero Vehicle. Equation-density review complete.** Committed,
+**not pushed**, per the four-pass rhythm. **Not published.**
+
+---
+
+## The Best Addition Recovers the Planned Flight Time
+
+**The draft reproduced the intended distance from two published numbers. It now reproduces the intended
+duration from the same two.**
+
+Integrating the glide deceleration gives **29.3 minutes against a planned thirty**. So the published lift
+to drag ratio of 2.6 and the stated Mach 20 now account for **both the distance and the time** of the
+flight that was intended. **That is the strongest available check that the model describes this vehicle
+rather than something else**, and neither figure was used to fit it.
+
+The deceleration itself is gentle, **0.17 of a gravity at entry rising to 0.36 as the centrifugal relief
+disappears**, which is why the flight takes half an hour rather than minutes.
+
+---
+
+## The Boost Cost Is Now Exact Rather Than Rhetorical
+
+The draft said the vehicle "needs most of a space launcher". **That phrase can be made a number.**
+
+Specific energy goes as the square of speed, so the mission needs **69 to 87 percent of the energy of
+reaching orbit**. The rocket equation turns that into a mass ratio of **10.8** at a solid-propellant
+specific impulse, meaning **near ten tonnes of stack for a 900 kilogram glider** before losses.
+
+**The cheap alternative to an intercontinental ballistic missile needs most of one.**
+
+---
+
+## A Contradiction in the Published Figures, Found by Arithmetic
+
+**The Common Aero Vehicle payload is quoted as 1,000 pounds and the Hypersonic Technology Vehicle mass as
+900 kilograms.** That is a payload fraction of **50 percent**, which is not credible for a hypersonic
+glider.
+
+**The two figures cannot describe the same vehicle.** Either the payload belongs to a larger design than
+the one that flew, or the mass belongs to a stripped demonstrator carrying nothing. The record does not
+say which, and the article now states which figure it uses where.
+
+---
+
+## Also Added, and One Defect Repaired
+
+The inversion that generates the required-ratio table, the Mach conversion behind it, the transcendental
+equation whose root is the Küchemann crossover, the linearity of range in the ratio, the weight, the
+exponential atmosphere converting density to the 61.2 kilometre corridor altitude, and the implied lift
+coefficient.
+
+**One equation had absorbed the following prose onto its own source line** and was repaired, so every
+display equation again occupies exactly one line.
 
 ---
 
@@ -88,6 +139,8 @@ It is now part of the routine rather than a lucky catch.
 
 ## Verification
 
+- **9,557 lines, 30 display equations, 4,375 reference definitions, 85,417 words**, of which 4,622 are
+  author prose.
 - `python3 _verify.py` **0 errors, 0 warnings**. `./_check.sh --drafts` clean at **511 pages**.
 - Reference integrity **4,375 used against 4,375 defined**, zero undefined, zero orphaned, zero duplicates.
 - Every display equation on one source line. Rendered body clean on every marker check, both tables
@@ -100,8 +153,8 @@ It is now part of the routine rather than a lucky catch.
 
 ## Outstanding
 
-**It is committed and not pushed**, which is what the draft pass calls for. The remaining three passes are
-the equation-density review, the primary-reference review and the publication review.
+**It is committed and not pushed**, which is what these passes call for. The remaining two are the
+primary-reference review and the publication review.
 
 **The X-Planes set remains unpublished and unauthorised.** Forty-two of seventy-two drafted, forty-one of
 them citing a sibling through `post_url` with no target in `_posts/`, so **the set publishes in order or

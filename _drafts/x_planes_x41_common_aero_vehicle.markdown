@@ -103,8 +103,25 @@ $$R = \left(\frac{L}{D}\right) \frac{R_{e}}{2} \ln \left( \frac{1}{1 - V^{2}/V_{
 being the aerodynamic efficiency of the shape and the speed it is launched at, **and that neither can be
 classified away.**
 
-**Inverting it for the stated requirement gives the design space.** For a range of 9,000 nautical miles,
-being 16,668 kilometres, the required ratio at each entry speed is
+**Range is strictly linear in the ratio and strongly non-linear in speed**, which sets where the design
+effort goes.
+
+$$\frac{\partial R}{R} = \frac{\partial (L/D)}{L/D}$$
+
+**A ten percent loss of aerodynamic efficiency is a ten percent loss of range**, so anything that blunts
+the shape is paid for directly, and the sizing below ends by blunting the shape.
+
+**Inverting it for the stated requirement gives the design space.** Solving the range relation for the
+ratio gives the demand placed on the shape by a fixed distance.
+
+$$\frac{L}{D} = \frac{R}{\dfrac{R_{e}}{2} \ln\left(\dfrac{1}{1 - V^{2}/V_{c}^{2}}\right)}$$
+
+Entry speeds are quoted here as Mach numbers at 40 kilometres, where the speed of sound is about 295
+metres per second, so the conversion is
+
+$$V = M a \qquad a \approx 295 \ \text{m/s}$$
+
+For a range of 9,000 nautical miles, being 16,668 kilometres, the required ratio at each entry speed is
 
 | entry Mach at 40 km | $V$ (m/s) | $V/V_{c}$ | required $L/D$ |
 |---|---|---|---|
@@ -123,8 +140,12 @@ of Mach number.
 $$\left(\frac{L}{D}\right)_{\max} \approx \frac{4(M + 3)}{M}$$
 
 **At Mach 20 that ceiling is 4.60 and the table demands 6.42**, so a 9,000 nautical mile glide entered at
-Mach 20 is not merely hard but unavailable to any shape. Solving for the Mach number at which the ceiling
-first admits the mission gives
+Mach 20 is not merely hard but unavailable to any shape. **The mission becomes available at the Mach
+number where demand and ceiling meet**, which is the root of
+
+$$\frac{R}{\dfrac{R_{e}}{2} \ln\left(\dfrac{1}{1 - (M a / V_{c})^{2}}\right)} = \frac{4(M + 3)}{M}$$
+
+and solving it numerically gives
 
 $$M_{\min} = 22.2 \qquad V_{\min} = 6{,}537 \ \text{m/s} = 0.83 \ V_{c}$$
 
@@ -156,6 +177,25 @@ $$V = 7{,}357 \ \text{m/s} = \text{Mach } 24.9 \ \text{at } 40 \ \text{km}$$
 thousand mile requirement.** That is very nearly a launch to orbit, and it is the quantitative version of
 the observation that boost-glide weapons and space launch are the same problem wearing different labels.
 
+**The same model predicts how long the glide should take, and no source connects those two figures.** The
+deceleration along the path is the drag divided by the mass, and drag is the lift divided by the ratio.
+
+$$\frac{dV}{dt} = -\frac{g\left(1 - V^{2}/V_{c}^{2}\right)}{L/D}$$
+
+**That is a gentle deceleration and it explains the flight time.** At Mach 20 it is 1.67 metres per second
+squared, or 0.17 of a gravity, rising to 0.36 of a gravity as the vehicle slows and the centrifugal relief
+disappears. Separating and integrating gives the time to decelerate from an entry speed to a final one.
+
+$$t = \left(\frac{L}{D}\right) \frac{V_{c}}{g} \left[ \operatorname{artanh}\left(\frac{V_{i}}{V_{c}}\right) - \operatorname{artanh}\left(\frac{V_{f}}{V_{c}}\right) \right]$$
+
+**Evaluating it at the published ratio and entry speed recovers the planned flight time.**
+
+$$t = 2.6 \times \frac{7{,}904}{9.80665} \left[ \operatorname{artanh}(0.746) - \operatorname{artanh}(0.127) \right] = 1{,}755 \ \text{s} = 29.3 \ \text{min}$$
+
+against a planned glide of **thirty minutes** [[Hypersonic Technology Vehicle 2][ref_htv2]].
+**Two published numbers now reproduce both the distance and the duration of the intended flight**, which is
+the strongest check available that the model describes the vehicle rather than something else.
+
 ### The Corridor Is Where the Vehicle Actually Lives
 
 **A glider at this speed is squeezed between two conditions.** It must fly low enough for the air to hold
@@ -169,9 +209,25 @@ $$\rho = \frac{2 W \left(1 - V^{2}/V_{c}^{2}\right)}{V^{2} S C_{L}}$$
 
 At 7,000 metres per second and an assumed $S C_{L}$ of 0.45 square metres this gives
 
+where the weight follows from the published mass.
+
+$$W = m g = (900)(9.80665) = 8{,}826 \ \text{N}$$
+
 $$\rho = \frac{2 (8{,}826)(0.2157)}{(7{,}000)^{2}(0.45)} = 1.73 \times 10^{-4} \ \text{kg/m}^{3}$$
 
-**which is the density near 61 kilometres.** The heating condition then follows from the stagnation-point
+**Converting a density to an altitude needs a model of the atmosphere**, and an exponential fit with a
+scale height $H$ of about 6.9 kilometres is adequate at these heights.
+
+$$\rho = \rho_{0} \exp\left(-\frac{h}{H}\right) \qquad h = -H \ln\left(\frac{\rho}{\rho_{0}}\right)$$
+
+$$h = -6{,}900 \ln\left(\frac{1.73 \times 10^{-4}}{1.225}\right) = 61.2 \ \text{km}$$
+
+**which is the corridor altitude used below.** The lift coefficient implied is small, as it must be at this
+speed, and depends on a reference area the record does not give.
+
+$$C_{L} = \frac{2 W \left(1 - V^{2}/V_{c}^{2}\right)}{\rho V^{2} S} = 0.225 \ \text{at} \ S = 2 \ \text{m}^{2}$$
+
+The heating condition then follows from the stagnation-point
 correlation, in which $R_{n}$ is the leading-edge radius and $k$ is $1.7415 \times 10^{-4}$ in units of
 watts per square metre.
 
@@ -234,7 +290,28 @@ architecture**, and this article does not infer one.
 **The boost requirement derived above is severe and the programme's launch task reflects it.** Flight
 articles were launched on a **Minotaur IV Lite** from Vandenberg Air Force Base to about **160 kilometres**
 before release [[Hypersonic Technology Vehicle 2][ref_htv2]]. **A vehicle that must reach 83 to 93 percent
-of orbital speed needs most of a space launcher**, which is the cost the concept was supposed to avoid.
+of orbital speed needs most of a space launcher**, and the phrase can be made exact. Specific kinetic
+energy goes as the square of speed, so the fraction of orbital energy required is
+
+$$\frac{E/m}{(E/m)_{\text{orbital}}} = \frac{V^{2}}{V_{c}^{2}}$$
+
+$$\left(0.83\right)^{2} = 0.69 \qquad \left(0.931\right)^{2} = 0.87$$
+
+**Between 69 and 87 percent of the energy of reaching orbit**, spent on a vehicle that then throws all of
+it away in the atmosphere.
+
+**The mass consequence follows from the rocket equation**, where $I_{sp}$ is the specific impulse of the
+booster and $m_{0}/m_{f}$ the ratio of stack mass to delivered mass.
+
+$$\frac{m_{0}}{m_{f}} = \exp\left(\frac{\Delta V}{g I_{sp}}\right)$$
+
+At a solid-propellant specific impulse of 280 seconds and the lower of the two speeds this gives
+
+$$\frac{m_{0}}{m_{f}} = \exp\left(\frac{6{,}537}{(9.80665)(280)}\right) = 10.8$$
+
+**so a 900 kilogram glider needs something near ten tonnes of stack before losses**, and the vehicle
+actually used was considerably larger than that. **The cheap alternative to an intercontinental ballistic
+missile turns out to need most of one.**
 
 ### Payload Dispensing
 
@@ -660,7 +737,17 @@ never used again officially, and its applicability to the Common Aero Vehicle is
 that the pairing may be wrong.**
 
 **No specifications or photographs of the Common Aero Vehicle have been released**, so every dimension used
-here belongs to the Hypersonic Technology Vehicle that succeeded it, and the two may differ.
+here belongs to the Hypersonic Technology Vehicle that succeeded it, **and there is arithmetic showing the
+two cannot be the same vehicle.** The payload figure attached to the Common Aero Vehicle is 1,000 pounds
+[[X-41 Common Aero Vehicle][ref_x41_wiki]], against a Hypersonic Technology Vehicle mass of about 900
+kilograms [[X-41 CAV][ref_x41_parsch]].
+
+$$\frac{1{,}000 \ \text{lb}}{900 \ \text{kg}} = \frac{454}{900} = 0.50$$
+
+**A payload half the mass of the whole vehicle is not credible for a hypersonic glider**, so either the
+payload figure belongs to a larger design than the one that flew, or the mass figure belongs to a stripped
+demonstrator carrying nothing. **The record does not say which**, and this article uses each figure only
+where it is safe to.
 
 **The reference area, the lift coefficient and the leading-edge radius are not published.** They are swept
 across a plausible range rather than assumed, and the conclusion is stated as holding across the sweep
