@@ -9,7 +9,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: **A372 publication review.** All four passes complete.
+**Task**: **A372 pathological word usage pass**, following the publication review in the previous commit.
 **Committed AND pushed. NOT published.**
 
 ---
@@ -29,7 +29,35 @@ Part 2 **of 3**, confirmed as rendered rather than assumed. **The `keleusma_nati
 
 ---
 
-## The Publication Review, Which Is the Newest Work
+## The Word Usage Pass, Which Is the Newest Work
+
+**`specific` is not a problem here.** It stands at **1 use, 0.18 per thousand**. I checked it first because
+you named it.
+
+**The measurement again had to exclude the harvest.** The article carries 183,125 raw body words against
+5,595 of author prose, a **thirty-three-fold dilution** that would have made every rate insensitive.
+
+**The phrase instrument found my own boilerplate for the third time in this series.** Six survey leads shared
+the stem `contemporary records concern`, differing only in a number. That is exactly the defect A371's pass
+found as "The harvest returned N further contemporary records", and **no single-word instrument can see it**.
+Six leads now carry a fact about their own cluster, and `is what makes` was reduced from five uses. The
+constructions at or above the peer maximum fell **21 to 16**, every survivor being subject vocabulary
+measured against a corpus of aircraft articles.
+
+**Twelve single words sit above the peer maximum and eleven are simply the subject**, being `boxed`,
+`aggregate`, `layout`, `backend`, `representation`, `form`, `corpus`, `arena` and `anchoring` among them.
+
+**`already` is the twelfth and I left it alone deliberately.** It sits at 3.40 per thousand against a peer
+maximum of 2.77, and **17 of its 19 uses are the article's thesis in one word** — the decision was already
+made upstream, the backend already implements the residue, the bound already exists. I classified all 19
+rather than asserting it. Trading it for a synonym would move the tic, not remove it.
+
+One claim I introduced while editing was checked against the data. "The largest cluster in the survey at 650
+records" is verified as the largest modern cluster, against 575 for estimation and 434 for types.
+
+---
+
+## The Publication Review, From an Earlier Commit
 
 **The substantive gap was the survey again.** A369 carries 1,759 research references, A370 1,980 and A371
 11,096. A372 arrived with 31.

@@ -741,7 +741,7 @@ compiled so that reading a message is pointer arithmetic with no parse step, and
 **Each accepts a rigid layout to make access mechanical**, which is the trade this compiler made and then
 did not trace to its own backend for two releases.
 
-A further 316 contemporary records concern bytecode formats and their machines.
+Bytecode formats and their machines account for a further 316 records.
 
 - [Melo and others, 2026, A Hardware Architecture for Native Execution of Python Bytecode on FPGA A Proof-of-Concept][research_melo_nascimento_2026]
 - [Corrias and others, 2026, An Analysis of Modern Web Security Vulnerabilities Inside WebAssembly Applications][research_corrias_pisu_2026]
@@ -1078,7 +1078,7 @@ would face every one of these rules at once.
 [Necula 1997][research_necula_1997] formalises proof-carrying code and
 [Leroy 2009][research_leroy_2009_cacm] establishes verified compilation; under either stance a backend that
 guessed at an unimplemented form would emit code whose semantics were never established. **Refusal is the
-correct behaviour and it is also what makes a zero-instance form free to skip.**
+correct behaviour and it also lets a zero-instance form be skipped for free.**
 
 **On estimation itself**, the software-engineering literature has documented the anchoring failure this
 article instantiates. [Jørgensen 2004][research_jorgensen_2004] reviews expert estimation of software
@@ -1099,7 +1099,7 @@ measurement that corrects it, because the measurement is specific to one corpus 
 **The transferable part is the method rather than the number.** Classify the instances by the form that
 decides implementation cost, and count.
 
-174 contemporary records concern formats that precompute layout for the same reason.
+A further 174 records treat formats that precompute layout for the same reason.
 
 - [Liang and others, 2026, A Light Application Level Virtualization Framework with Zero-Copy and Migration Agent][research_liang_dai_2026]
 - [Su and Zhang, 2026, A zero-copy lock-free data pipeline for edge streaming][research_su_zhang_2026]
@@ -1280,7 +1280,7 @@ decides implementation cost, and count.
 
 **The sections above are the literatures the argument engages. This is the one the work belongs to**, being
 code generation and the machinery that turns an intermediate form into instructions.
-650 contemporary records concern it.
+It is the largest cluster in the survey at 650 records.
 
 - [Pan and others, 2026, A Backend-Agnostic Compiler for Approximate Query Processing with Probabilistic Tensor Algebra][research_pan_cheney_2026]
 - [Abdulhalik and others, 2026, A Modular Graph Coloring Abstraction for Register Allocation in LLVM Design and Evaluation][research_abdulhalik_baytekin_2026]
@@ -1935,9 +1935,9 @@ code generation and the machinery that turns an intermediate form into instructi
 
 ### Where the bytes go, which the arena decides
 
-183 contemporary records concern allocation and reclamation. They belong here
+Allocation and reclamation account for 183 records. They belong here
 because the article's memory result turns entirely on **which region a constructed body lands in**, and the
-arena discipline is what makes that answer already bounded.
+arena discipline is why that answer is already bounded.
 
 - [Bhatt and others, 2026, A State-of-the-Art Review on Garbage Collection and Segregation Robot][research_bhatt_vegad_2026]
 - [Mueller and Leis, 2026, BareHeap Virtual Memory Assisted Memory Allocation for High Performance Query Processing][research_mueller_leis_2026]
@@ -2125,7 +2125,7 @@ arena discipline is what makes that answer already bounded.
 
 ### Types and verification, which is the series this article sits in
 
-434 contemporary records concern type systems, semantics and verified
+A further 434 records treat type systems, semantics and verified
 compilation. **The connection is that a representation decision is a type-system decision**, taken upstream,
 and the rest of this series is about what survives being compiled.
 
@@ -2756,8 +2756,8 @@ this article is an instance of that tradition**, and its result is a count rathe
 
 ### Estimation and the biases that inflate it
 
-575 contemporary records concern estimation, anchoring and the conditions under
-which a judgement is worth less than it appears. **This is the article's other half**, since the finding is
+Estimation, anchoring and the conditions under which a judgement is worth less than it appears account for
+575 records. **This is the article's other half**, since the finding is
 about an estimate before it is about aggregates.
 
 - [2026, 3. 20The Planning Fallacy][research_3_20the_2026]
