@@ -419,7 +419,6 @@ large and it is upstream of everything this article measures**, which is the poi
 - [Sally, 2022, SENTIMENT ANALYSIS ON YOUTUBE SMART PHONE UNBOXING VIDEO REVIEWS IN SRI LANKA][research_sally_2022]
 - [Balaska and others, 2022, Smart counting of unboxed stocks in the Warehouse 4.0 ecosystem][research_balaska_folinas_2022]
 - [2022, The World of Theoretical Chemistry Unboxed][research_the_world_2022]
-- [2022, Unboxed][research_unboxed_2022]
 - [Walczer, 2021, 8 Toy Unboxing Creator Communities][research_walczer_2021]
 - [Felten and Kahn, 2021, Unboxed Transgender in a Gay Museum?][research_felten_kahn_2021]
 - [Lee and others, 2021, An Effect of Boxing Coach's Instruction Type on Boxing Player's Exercise Commitment and Exercise Continuance Intention][research_lee_oh_2021]
@@ -2516,7 +2515,6 @@ and the rest of this series is about what survives being compiled.
 - [Noonan and others, 2016, Polymorphic type inference for machine code][research_noonan_loginov_2016]
 - [Wei and others, 2016, Revamping JavaScript static analysis via localization and remediation of root causes of imprecision][research_wei_tripp_2016]
 - [Askarpour and others, 2016, SAFER-HRC Safety Analysis Through Formal vERification in Human-Robot Collaboration][research_askarpour_mandrioli_2016]
-- [Galvão and Machado, 2016, Simulation and Formal Verification for Improving Safety of PLC Programs][research_galvao_machado_2016]
 - [Horváth and Pataki, 2016, Source language representation of function summaries in static analysis][research_horvath_pataki_2016]
 - [Ceccato and Scandariato, 2016, Static Analysis and Penetration Testing from the Perspective of Maintenance Teams][research_ceccato_scandariato_2016]
 - [Ouadjaout and others, 2016, Static analysis by abstract interpretation of functional properties of device drivers in TinyOS][research_ouadjaout_mine_2016]
@@ -6562,8 +6560,8 @@ residue measured here follows from a design decision taken upstream and is not a
 aggregates. **The broad claim, that aggregates are cheap to compile, is contradicted by every cluster
 above.**
 
-The scale should be read for what it is. The survey lists 6,036 references, of which 31 were
-selected because a step of the argument depends on them and were read, and 6,005 were harvested
+The scale should be read for what it is. The survey lists 6,034 references, of which 31 were
+selected because a step of the argument depends on them and were read, and 6,003 were harvested
 by query across ten clusters and were not. **The harvested majority establishes coverage and not agreement.**
 
 ## The Source Base
@@ -6576,7 +6574,7 @@ rather than asserts, because the distribution is a fact about the corpus and not
 ### How the harvested survey was assembled
 
 **The 31 hand-selected research references were chosen because a step of the argument depends on
-them, and each was read. The 6,005 harvested references were not chosen that way and were not
+them, and each was read. The 6,003 harvested references were not chosen that way and were not
 read individually.** Stating that plainly is the point of this subsection, because a list of several thousand
 citations otherwise implies a reading it does not represent. What the harvested list supports is a claim
 about coverage, since the queries were fixed before any record was seen. What it does not support is any
@@ -6601,8 +6599,9 @@ the families earlier sweeps had already paid for.
 **The count that survives is smaller again.** Of the 6,357 records the anchor test admitted, 313
 were duplicates holding the same title and year under two identifiers, 13 carried a contraction
 or a doubled word in a verbatim title that this corpus cannot reproduce in link text, and 23
-duplicated a work already cited by hand. 6,008 therefore reach the reference list, **three of which a later audit removed as dictionary entries
-rather than research**, leaving 6,005.
+duplicated a work already cited by hand. 6,008 therefore reach the reference list, **five of which a later audit removed**, three being dictionary
+entries, one a chapter title identical to its book title, and one an identifier that does not resolve at
+all, leaving 6,003.
 
 ## Epistemic State
 
@@ -6644,7 +6643,7 @@ bodies therefore carry an existing bound instead of creating a new unbounded qua
 reached for the machine stack because it was nearer would have converted a bounded quantity into an
 unbounded one for no benefit.**
 
-**Harvested rather than read.** 6,005 of the 6,036 research references were retrieved by
+**Harvested rather than read.** 6,003 of the 6,034 research references were retrieved by
 keyword query and are listed on the strength of their titles, authors, years and venues as the registry holds
 them. **Nothing in the argument rests on any one of them**, and the cluster sizes are the only quantitative
 use made of them. **The residual contamination rate is not zero**, since each sample read during assembly
@@ -8412,7 +8411,6 @@ solved.
 - [Gal and others, 2008, Java bytecode verification via static single assignment form][research_gal_probst_2008]
 - [Gallagher, 2022, Writing Essentials Preparation, Layout, and Structure][research_gallagher_2022]
 - [Galustov and others, 2022, Devirtualization for static analysis with low level intermediate representation][research_galustov_borodin_2022]
-- [Galvão and Machado, 2016, Simulation and Formal Verification for Improving Safety of PLC Programs][research_galvao_machado_2016]
 - [Gamatie and Gonnord, 2011, Static analysis of synchronous programs in signal for efficient design of multi-clocked embedded systems][research_gamatie_gonnord_2011]
 - [Gamatie and Gonnord, 2012, Static analysis of synchronous programs in signal for efficient design of multi-clocked embedded systems][research_gamatie_gonnord_2012]
 - [GAN and others, 2020, Empirical Evaluation of Mimic Software Project Data Sets for Software Effort Estimation][research_gan_yucel_2020]
@@ -12071,7 +12069,6 @@ solved.
 - [Ugawa and others, 2010, Improved replication-based incremental garbage collection for embedded systems][research_ugawa_iwasaki_2010]
 - [ul Huque and others, 2017, Garbage Collection of Forwarding Rules in Software Defined Networks][research_ulhuque_jourjon_2017]
 - [Uma and others, 2022, Formal verification of a 4 bit counter using Kami verification flow][research_uma_marimuthu_2022]
-- [2022, Unboxed][research_unboxed_2022]
 - [2025, Unboxing Japanese Videogames][research_unboxing_japanese_2025]
 - [2025, Unboxing Libby by Steph Cherrywell review][research_unboxing_libby_2025]
 - [Ungan and others, 2014, Comparison of Functional Size Based Estimation and Story Points, Based on Effort Estimation Effectiveness in SCRUM Projects][research_ungan_cizmeli_2014]
@@ -14449,7 +14446,6 @@ solved.
 [research_gal_probst_2008]: https://doi.org/10.1145/1377492.1377496
 [research_gallagher_2022]: https://doi.org/10.1093/hebz/9780198809883.003.0008
 [research_galustov_borodin_2022]: https://doi.org/10.1109/ispras57371.2022.10076859
-[research_galvao_machado_2016]: https://doi.org/10.17667/riim.2016.1-2/9
 [research_gamatie_gonnord_2011]: https://doi.org/10.1145/2016603.1967688
 [research_gamatie_gonnord_2012]: https://doi.org/10.1145/2345141.1967688
 [research_gan_yucel_2020]: https://doi.org/10.1587/transinf.2019edp7150
@@ -18108,7 +18104,6 @@ solved.
 [research_ugawa_iwasaki_2010]: https://doi.org/10.1145/1806651.1806664
 [research_ulhuque_jourjon_2017]: https://doi.org/10.1109/mcom.2017.1601051
 [research_uma_marimuthu_2022]: https://doi.org/10.1063/5.0074153
-[research_unboxed_2022]: https://doi.org/10.7551/mitpress/10863.003.0012
 [research_unboxing_japanese_2025]: https://doi.org/10.7551/mitpress/15321.003.0008
 [research_unboxing_libby_2025]: https://doi.org/10.1353/bcc.2025.a957621
 [research_ungan_cizmeli_2014]: https://doi.org/10.1109/seaa.2014.83

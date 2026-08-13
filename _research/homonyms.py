@@ -231,6 +231,13 @@ NOISE_PATTERNS = [
      "attitudes' reached the kept set. The two fields share the exact phrase and "
      "some of their machinery, so only the linguistic subject matter distinguishes "
      "them. Formal VERIFICATION carries no equivalent ambiguity"),
+    (r"^(?:unboxed|compiler|compcert|garbage collection|interpreter|bytecode|"
+     r"layout|arena|aggregate)$",
+     "A372: A ONE-WORD TITLE IDENTICAL TO A SUBJECT ANCHOR is book front or back "
+     "matter and not a work. `Unboxed`, a chapter of an MIT Press book also titled "
+     "`Unboxed`, reached the kept set, as did `Compiler` and `CompCert` as chapter "
+     "titles. THIS IS A SUBSTANCE TEST AND NOT A SUBJECT TEST, and it is recorded "
+     "here because the accumulated store is the only thing every sweep consults"),
     (r"^(?:cross.)?compiler,?\s*n\.?$|^sandboxing,?\s*n\.?$|"
      r"^garbage collection,?\s*n\.?$|^\w[\w\s-]{0,28},\s*(?:n|v|adj|adv)\.$",
      "A372: DICTIONARY HEADWORDS. An Oxford English Dictionary entry for the word "
