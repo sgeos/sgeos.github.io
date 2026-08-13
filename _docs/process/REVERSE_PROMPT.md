@@ -1,8 +1,68 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A337, X-Planes, Boeing X-40. Equation-density review complete.** Committed, **not pushed**,
+**Task**: **A337, X-Planes, Boeing X-40. Primary-reference review complete.** Committed, **not pushed**,
 per the four-pass rhythm. **Not published.**
+
+---
+
+## The Curated Set Had One Primary Source in Twelve
+
+**Eleven reference works and a single press release is an indefensible base for an article whose keystone
+is a scaling law**, and that is what the first two passes left. I harvested **127 NASA technical reports**
+and selected **28**. The curated set is now 40 sources and its **primary share went from 8 percent to
+70 percent**.
+
+---
+
+## One Primary Changed a Claim Rather Than Supporting One
+
+**The draft said the instrumentation suite is not described anywhere in the accessible record. That was
+wrong, and it was written without searching the technical reports server.**
+
+A paper to the twentieth Digital Avionics Conference names the **Space Integrated Global Positioning
+System and Inertial Navigation System**, reports its testing during the X-40A approach and landing
+campaign against differential satellite navigation, and states two objectives: demonstrating performance
+sufficient for the X-37 requirement, and **reducing the risk of integrating that specific unit into that
+specific vehicle**.
+
+**That is a hardware qualification and not a scaling experiment.** It is this article's thesis stated by
+the people who ran the programme, and it is now the strongest single piece of support the argument has.
+
+---
+
+## Three Uncited Claims Now Rest on Primary Sources
+
+- **The attainable lift to drag ratio of 3 to 4**, which the article uses to say the X-40A flew at half
+  its capability, now rests on flight-determined lift and drag for seven lifting-body and wing-body
+  reentry configurations rather than on my impression.
+- **The touchdown sink rate** behind the landing gear calculation now rests on a statistical analysis of
+  landing contact conditions across three lifting-body research vehicles.
+- **The low lift-to-drag approach regime** now rests on the 1959 flight investigations that opened it and
+  the later work that extended the range downward.
+
+**The Shuttle Approach and Landing Test programme is cited as the methodological precedent** rather than
+asserted, and the 22 percent F/A-18E/F drop model supplies the quantitative comparison, sitting near a
+tenth of full-scale Reynolds number where the X-40A sat at 69 percent.
+
+---
+
+## Read This, Because I Reproduced a Defect This Corpus Has Shipped Before
+
+**Two of my hand-assigned anchors already existed as harvested records**, because both derive from a
+surname and a year, and merging them overwrote the harvested entries **without erroring**.
+
+**Nothing showed it except an off-by-two in the harvested count.** One collision was the same work
+registered twice, once by a conference publisher and once by the reports server, and it is now a single
+entry. **The other was two different papers by the same author in the same year**, and the harvested
+record was restored under its own anchor with the primary given a suffixed one.
+
+**That is the A371 lesson repeated**, that an anchor derived from author and year is not unique and a
+merge assuming it is will repoint a citation silently.
+
+**A mis-mapped identifier was also caught before it shipped.** A hand-chosen record for the X-37 dynamics
+paper resolved to an unrelated X-33 navigation paper. Every selected anchor was afterwards checked against
+its record's first author.
 
 ---
 
@@ -176,8 +236,9 @@ so an alternation cannot escape its lookahead and turn a conjunction into a disj
 - **All 12 curated URLs resolve at 200.** A sample of 15 harvested identifiers resolves 15 of 15, the 403
   responses being AIAA, MDPI and Bentham, all documented publisher behaviour.
 - Diction **0 constructions above the corpus maximum** against 300 peers.
-- **10,190 lines, 64 display equations, 4,547 reference definitions, 92,833 words**, of which 6,620 are
-  author prose. Every display equation occupies exactly one source line and the rendered page carries 64
+- **10,338 lines, 64 display equations, 4,574 reference definitions, 94,474 words**, of which 7,642 are
+  author prose.
+- **All 28 NASA identifiers resolve 200 of 200.** No anchor appears twice in the reference list. Every display equation occupies exactly one source line and the rendered page carries 64
   display math blocks with balanced delimiters.
 - `tmp/a337/verify.py` **55 of 55**, sharing no code with the draft.
 
@@ -185,8 +246,8 @@ so an alternation cannot escape its lookahead and turn a conjunction into a disj
 
 ## Outstanding
 
-**It is committed and not pushed**, which is what these passes call for. The remaining two are the
-primary-reference review and the publication review.
+**It is committed and not pushed**, which is what these passes call for. **Only the publication review
+remains**, and that pass commits and pushes but does not publish.
 
 **The X-Planes set remains unpublished and unauthorised.** Forty-one of seventy-two drafted, forty of them
 citing a sibling through `post_url` with no target in `_posts/`, so **the set publishes in order or

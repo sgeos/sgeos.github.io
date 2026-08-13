@@ -55,6 +55,32 @@ ground track is **0.85 arcmin, or 0.025 percent of the distance flown.**
 **A verification routine sharing no code with the draft was written**, and `tmp/a337/verify.py` recomputes
 **55 results** from the published imperial inputs. All pass.
 
+**10,338 lines, 64 display equations, 4,574 reference definitions, 94,474 words after the
+primary-reference review**, of which 7,642 are author prose.
+
+**THE CURATED SET HAD ONE PRIMARY SOURCE IN TWELVE AND NOW HAS TWENTY-EIGHT IN FORTY.** Eleven reference
+works and a single press release is an indefensible base for an article whose keystone is a scaling law.
+**The primary share of the curated set went from 8 percent to 70 percent**, and 127 NASA reports were
+harvested to select from.
+
+**ONE PRIMARY CHANGED A CLAIM RATHER THAN SUPPORTING ONE.** The draft said the instrumentation suite is
+not described anywhere in the accessible record. **A 2001 Digital Avionics Conference paper names the
+navigation system**, being the Space Integrated Global Positioning System and Inertial Navigation System,
+and states its objectives as demonstrating performance sufficient for the X-37 requirement and reducing
+the risk of integrating that unit into that vehicle. **That is a hardware qualification and not a scaling
+experiment**, which is the article's thesis stated by the people who ran the programme.
+
+**THREE CLAIMS THAT HAD NO CITATION NOW HAVE PRIMARY ONES.** The attainable lift to drag ratio of 3 to 4
+now rests on flight-determined lift and drag for seven lifting-body configurations. The touchdown sink
+rate now rests on a statistical analysis of landing contact conditions across three lifting-body vehicles.
+The low lift-to-drag approach regime now rests on the 1959 flight investigations that opened it.
+
+**THE MERGE REPRODUCED THE A371 SILENT-REPOINTING DEFECT AND AN OFF-BY-TWO CAUGHT IT.** Two hand-assigned
+anchors already existed as harvested records, since both derive from a surname and a year, and the merge
+overwrote them without erroring. **The harvested count fell by two and nothing else showed it.** One was
+the same work registered twice and is now a single entry; **the other was two different papers by the same
+author in the same year**, and the harvested record was restored under its own anchor.
+
 **THE KEYSTONE IS THAT THE X-40A WAS NOT A SCALE MODEL, AND THE ARITHMETIC SAYS SO PLAINLY.** It is
 described almost everywhere as a subscale version of the X-37. Its geometric ratio is **0.778** by the
 mean of the published length and span ratios. Its **mass ratio is 0.618**, since it weighed 2,600 lb
@@ -87,7 +113,7 @@ an animal-behaviour apparatus and disaster risk reduction**, and checking an out
 found that **subscale is a psychometrics term**, which put one questionnaire-validation record in the
 corpus. It was removed and the measured residual noise is reported as a floor rather than a ceiling.
 
-**Remaining work.** Primary-reference review. Publication review.
+**Remaining work.** Publication review.
 
 ## X-Planes X-39 Reserved but Never Assigned A336 2025-11-14
 
