@@ -9,8 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: **A371 erratum applied to the published article.** Its central empirical claim was backwards.
-**Committed AND pushed. LIVE PAGE CHANGED.**
+**Task**: **A372 imported, brought to corpus standards and retargeted for a general audience.**
+**Committed. NOT pushed and NOT published.**
 
 ---
 
@@ -26,6 +26,55 @@ configuration that matches the live site.
 
 **Publication renumbered two live pages**, exactly as flagged beforehand. A369 and A370 now read Part 1 and
 Part 2 **of 3**, confirmed as rendered rather than assumed. **The `keleusma_native` series is complete.**
+
+---
+
+## Where A372 Is
+
+`_drafts/cost_of_compiling_aggregates.markdown`, editorial date **2026-08-09**, series `keleusma_native`
+index 4. **612 lines, 12 display equations, 42 reference definitions, 4,256 words of author prose.**
+Titled under the series convention as **Keleusma Research Spike, What It Costs to Compile a Data Structure
+Whose Shape Is Already Decided**.
+
+The date slot was free and all three `post_url` targets point at published posts, so the build interlock is
+satisfied.
+
+## What the Retarget Needed
+
+**The source claimed no compiler background is required and did not deliver it**, using backend, bytecode,
+aggregate, layout, boxed and arena without introducing any of them. That is the same defect A371 shipped. A
+`## What You Need to Know to Read This` section now carries the six ideas the argument actually needs.
+
+**I wrote "Five ideas" and gave six.** That is the count-in-my-own-prose defect this series has now shipped
+four times. Found by counting, not by any checker.
+
+## Two Fixes Carried In From Earlier Work
+
+**The source reported the series rates as "0 of 31".** A370's published text says **35** in four places and
+its pipeline data holds exactly 35, so it now reads 0 of 35 and agrees with the addendum on A369's live page.
+
+**A sentence attributed a frame reduction to A371**, whose frame figures its own erratum has since
+retracted. It is neutralised to the quantity rather than the figure.
+
+## An Arithmetic Gap, and My First Reading of It Was Wrong
+
+The by-form aggregation gives 300 flat, 2 nested and 0 boxed, totalling **302 against a table total of 331**,
+and the article did not say where the other 29 went.
+
+**I first thought they were missing from the work enumeration. They are not** — it covers them as
+"Discriminant tests, 29 instances", and 239 plus 61 plus 29 plus 2 recovers 331 exactly. The gap is only in
+the by-form line, and a sentence now explains that a discriminant test carries no form tag because it is a
+comparison and names no layout. **I checked that against `src/vm.rs` in the Keleusma tree** rather than
+inferring it from the opcode name.
+
+## Verification
+
+- `_verify.py` **0 errors, 0 warnings**. `./_check.sh --drafts` clean at 508 pages.
+- Reference integrity **42 used against 42 defined**, none undefined, orphaned, duplicated or malformed.
+- **All 26 research identifiers resolve and all 26 titles match the registry**, which matters because this
+  series documents the neighbouring-identifier failure that a working link cannot catch.
+- Style clean. 3 em dashes, 15 semicolons and 11 prose colons removed, `rather` brought under the limit with
+  each substitution checked for grammaticality.
 
 ---
 
