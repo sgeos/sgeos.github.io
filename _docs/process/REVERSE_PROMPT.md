@@ -9,7 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: **A372 PUBLISHED** and pushed live. The `keleusma_native` series is complete at four.
+**Task**: **The series renamed to Keleusma Research Spikes.** Four live pages changed.
+**Committed AND pushed.**
 
 ---
 
@@ -17,7 +18,7 @@ This file is the AI-to-human communication channel. It is overwritten after each
 
 **Published.** `_posts/2026-08-08-do_proven_bounds_survive_compilation.markdown`, live at
 `/engineering/compilers/verification/2026/08/08/do_proven_bounds_survive_compilation.html`, series
-`keleusma_native` index 3. 26 display equations, 11,112 reference definitions.
+`keleusma_research_spikes` index 3. 26 display equations, 11,112 reference definitions.
 
 **It went live the moment it was pushed**, because 2026-08-08 is four days in the past and the site sets
 `future: false`. The verification build was therefore run **without** `--future`, which is the only
@@ -25,6 +26,26 @@ configuration that matches the live site.
 
 **Publication renumbered two live pages**, exactly as flagged beforehand. A369 and A370 now read Part 1 and
 Part 2 **of 3**, confirmed as rendered rather than assumed. **The `keleusma_native` series is complete.**
+
+---
+
+## The Series Rename, Which Is the Newest Work
+
+`series_title` goes from **Keleusma Native Code Generation** to **Keleusma Research Spikes**, and the slug
+from `keleusma_native` to `keleusma_research_spikes`, across all four live pages.
+
+**I changed the slug as well, which is beyond the literal ask.** The old slug asserts native code generation
+for a series no longer defined that way, and the next spike need not concern native code. Say the word if
+you want the slug reverted, though nothing outside the four posts referenced it.
+
+**It is URL-neutral, established before anything was touched.** `_layouts/post.html` uses the slug only to
+group posts and renders `series_title` with the slug as a fallback, so it reaches no URL and no
+reader-visible text. It appears nowhere in `_config.yml`, the layouts, the includes or any plugin. **No
+`redirects/` entry is needed.**
+
+**The change had to be atomic or the series would split in two**, since grouping is by exact slug match and a
+missed file would form a second series of one with broken navigation. All four were rewritten together and
+verified as 4 of 4 with indices 1 through 4 and zero stragglers, then confirmed against a production build.
 
 ---
 
@@ -205,7 +226,7 @@ about its own compiler**, where citing anyone would be manufacturing.
 
 ## Where A372 Is
 
-`_drafts/cost_of_compiling_aggregates.markdown`, editorial date **2026-08-09**, series `keleusma_native`
+`_drafts/cost_of_compiling_aggregates.markdown`, editorial date **2026-08-09**, series `keleusma_research_spikes`
 index 4. **612 lines, 12 display equations, 42 reference definitions, 4,256 words of author prose.**
 Titled under the series convention as **Keleusma Research Spike, What It Costs to Compile a Data Structure
 Whose Shape Is Already Decided**.

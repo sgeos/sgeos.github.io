@@ -5,8 +5,8 @@ comments: true
 title: "Keleusma Research Spike: What a Verified Bound Says About the Code That Actually Runs"
 date: 2026-08-08 09:00:00 +0000
 categories: engineering compilers verification
-series: keleusma_native
-series_title: Keleusma Native Code Generation
+series: keleusma_research_spikes
+series_title: Keleusma Research Spikes
 series_index: 3
 ---
 <!-- A371 -->
