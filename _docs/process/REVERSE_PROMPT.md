@@ -1,8 +1,44 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A338, X-Planes, X-41 Common Aero Vehicle. Primary-reference review complete.** Committed,
-**not pushed**, per the four-pass rhythm. **Not published.**
+**Task**: **A338, X-Planes, X-41 Common Aero Vehicle. Publication review complete.** Committed and
+**PUSHED**. **Not published.** All four passes are done.
+
+---
+
+## The Survey's Thinnest Subject Was the Article's Central Construct
+
+**The entry corridor measured nine records.** The corridor is the whole sizing argument of this article,
+the squeeze between flying low enough to be held up and high enough to survive, and the survey had almost
+nothing on it. **Cross-range stood at fourteen** against a Dependent Systems paragraph that leans on it.
+
+**A supplementary harvest of 3,075 records closed both**, taking the corridor from **9 to 45** and
+cross-range and footprint from **14 to 59**.
+
+**This is the second consecutive article whose survey audit found a displayed subject at or near zero.**
+A337's was relative density. The pattern is the same each time: the first harvest asks for the subject the
+article is *about*, and misses the construct the article *reasons with*.
+
+---
+
+## The Supplementary Set Was Audited This Time
+
+**A337 audited its first harvest by reading samples and did not audit the supplementary one**, and two
+homonym families entered through the new anchors as a result. That gap is now closed as routine.
+
+**The sample came back clean**, twenty-four records all on subject, and no new family was found. The
+anchor-collision check also ran before merging and returned zero, and **all eight cluster blocks were
+rebuilt from the harvest files rather than patched**, so every count in the survey is derived rather than
+edited.
+
+---
+
+## The Template Leak Is Fully Swept
+
+The primary pass found three of A337's sentences sitting in this article's Source Base, including a
+finding about animal-behaviour apparatus and a reference to the wrong vehicle. **I swept the whole article
+afterwards and none remain.** The only mention of another article's vehicle is a legitimate Related Post
+entry.
 
 ---
 
@@ -196,9 +232,10 @@ It is now part of the routine rather than a lucky catch.
 
 ## Verification
 
-- **9,660 lines, 30 display equations, 4,398 reference definitions, 86,461 words**, of which 5,126 are
+- **10,179 lines, 30 display equations, 4,654 reference definitions, 91,036 words**, of which 5,213 are
   author prose.
-- **All 23 NASA identifiers resolve 200 of 200.** No anchor appears twice in the reference list.
+- **23 of 23 swept URLs resolve**, being the 8 curated and a 15-record harvested sample. No anchor appears
+  twice. Structural conformance matches A335 and A337 heading for heading, and acronyms are clean.
 - `python3 _verify.py` **0 errors, 0 warnings**. `./_check.sh --drafts` clean at **511 pages**.
 - Reference integrity **4,375 used against 4,375 defined**, zero undefined, zero orphaned, zero duplicates.
 - Every display equation on one source line. Rendered body clean on every marker check, both tables
@@ -211,8 +248,11 @@ It is now part of the routine rather than a lucky catch.
 
 ## Outstanding
 
-**It is committed and not pushed**, which is what these passes call for. **Only the publication review
-remains**, and that pass commits and pushes but does not publish.
+**It is committed and pushed, and it is not published**, which is what you asked for.
+
+**Publishing it alone would fail the build.** A338 cites forty-one siblings through `post_url` and none
+exists in `_posts/`, so **the set publishes in order or together**. Forty-two of seventy-two are drafted
+and **publication has never been authorised**.
 
 **The X-Planes set remains unpublished and unauthorised.** Forty-two of seventy-two drafted, forty-one of
 them citing a sibling through `post_url` with no target in `_posts/`, so **the set publishes in order or

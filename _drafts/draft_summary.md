@@ -110,7 +110,26 @@ and carried three of its sentences unaltered, including a finding about **animal
 belongs to that article, and a reference to **the wrong vehicle**. A template that is edited rather than
 rewritten will leak, and it did.
 
-**Remaining work.** Publication review.
+**10,179 lines, 30 display equations, 4,654 reference definitions, 91,036 words after the publication
+review**, of which 5,213 are author prose. Committed and **PUSHED**. **Not published.**
+
+**THE SURVEY WAS AUDITED AGAINST THE ARTICLE'S OWN SUBJECTS AND TWO WERE THIN.** **The entry corridor
+measured nine records while the corridor is this article's central construct**, and cross-range stood at
+fourteen against a paragraph that leans on it. A supplementary harvest of 3,075 records closed both,
+taking the corridor from **9 to 45** and cross-range and footprint from **14 to 59**.
+
+**THE SUPPLEMENTARY SET WAS AUDITED BY READING A SAMPLE OF ITS OWN**, which is the process gap A337
+recorded after auditing only its first harvest. **The sample came back clean**, and no new homonym family
+was found.
+
+**A TEMPLATE LEAK HAD ALREADY BEEN CAUGHT IN THE PRIMARY PASS** and the whole article was swept again for
+others. **None remain.** Structural conformance matches the full order plus the two series sections,
+acronyms are clean with only the Minotaur IV model designation flagged, and every list and definition
+group is sorted.
+
+**Remaining work.** None. All four passes are complete. **Publication has never been authorised for this
+series**, and A338 must not be published alone, since it cites forty-one siblings through `post_url` and
+none of them exists in `_posts/`.
 
 ## X-Planes Boeing X-40 A337 2025-11-15
 
