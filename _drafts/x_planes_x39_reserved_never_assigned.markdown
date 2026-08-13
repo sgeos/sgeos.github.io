@@ -1,6 +1,6 @@
 ---
 layout: post
-mathjax: false
+mathjax: true
 comments: true
 title: "X-Planes: X-39, Reserved but Never Assigned"
 date: 2025-11-14 09:00:00 +0000
@@ -186,6 +186,59 @@ while the numbering, which is consumed consecutively and cannot be replenished, 
 provision at all. **The result was not that numbers went unreserved.** It was that they were reserved anyway,
 through an informal channel with no rule attached, and therefore with no rule governing release.
 
+### The Numbering Has a Binding Constraint and It Can Be Written Down
+
+**An earlier version of this article asserted that a designation has no binding constraint, and that was
+wrong on the article's own evidence.** The constraint is the one the instruction states plainly, being that
+design numbers are issued consecutively within a basic mission and are never replenished.
+**It is a finite resource consumed in one direction**, and the whole argument about permanence rests on it,
+so it is worth stating exactly rather than describing.
+
+Let $t$ denote time, let $A(t)$ be the set of design numbers already allocated within a basic mission at
+time $t$, and let $R(t)$ be the set reserved but not yet allocated. A number is unavailable when it lies in
+either set, so the unavailable set is their union.
+
+$$U(t) = A(t) \cup R(t)$$
+
+The instruction directs the assigning authority to issue the next available consecutive design number, so
+the number it would issue at time $t$, written $m(t)$, is the smallest natural number not currently
+unavailable.
+
+$$m(t) = \min \left\{ n \in \mathbb{N} : n \notin U(t) \right\}$$
+
+**One property has to be taken from the practice rather than derived from that definition, and the
+distinction matters.** Read literally, the minimum would fall again whenever a lower number was released,
+which is exactly what happened to C-16. What the documented practice adds is that a release helps only
+while the sequence still stands at the number, so once a higher number has been issued the authority does
+not come back for the one it passed. **That is an empirical rule about how the office behaves and not a
+consequence of the definition**, and the argument below depends on it.
+
+For a particular design number $r$, let $\tau_r$ be the moment the sequence passes it, being the first time
+the next issue exceeds it.
+
+$$\tau_r = \inf \left\{ t : m(t) > r \right\}$$
+
+Let $t_c(r)$ be the time at which a reservation of $r$ is cancelled by its original requester, taken as
+infinite when no cancellation is ever filed. **Recovery is possible exactly when the cancellation precedes
+the passage**, which is Parsch's stated rule rewritten in one line.
+
+$$\operatorname{recoverable}(r) \iff t_c(r) < \tau_r$$
+
+**The asymmetry of the previous subsection now yields a consequence that can be stated exactly.** The
+instruction supplies a route by which numbers enter $R$ and prescribes no procedure for removing them, so
+in the absence of an informal cancellation the reserved set only grows.
+
+$$R(t_1) \subseteq R(t_2) \quad \text{whenever} \quad t_1 \leq t_2$$
+
+The permanent gaps are the reserved numbers the sequence has already gone past, and that set inherits the
+same monotonicity.
+
+$$G(t) = \left\{ n \in R(t) : n < m(t) \right\}$$
+
+**A register built this way accumulates holes and has no mechanism for closing them.** The gaps at A-11,
+C-30, C-36, V-17, V-19, V-21 and X-39 are not a list of unrelated administrative accidents.
+**They are the elements of $G$**, and the set has no rule that could ever remove one.
+
 ### The Gap Is Permanent Because a Second Document Was Also Missing
 
 **This is the part of the record that changes how the gap should be read, and it concerns recovery rather
@@ -210,8 +263,27 @@ open. What the record does settle is that the next design number was allocated b
 was cancelled. **The reuse window closed before the reservation became pointless**, which means that by the
 time anyone could have known the X-39 was not needed, releasing it would no longer have recovered it.
 
-**A cancellation filed in the summer of 1997 would have kept the sequence intact. A cancellation filed after
-the programme was cut would have achieved nothing.** The number was lost before the programme was.
+**The instantiation is short enough to check by eye.** For the X-39 the design number is $r = 39$, and no
+cancellation was ever filed, so the cancellation time is infinite and the recovery condition fails against
+any finite passage time whatever.
+
+$$t_c(39) = \infty \quad \implies \quad \operatorname{recoverable}(39) = \text{false}$$
+
+**The dated part of the argument is the ordering of the passage against the cancellation of the
+programme.** The X-40A allocation places the passage inside 1997, and the Phase I studies ran to
+30 October 1997 with their results feeding the successor programme, so the cut came later.
+
+$$\tau_{39} \leq \text{31 December 1997} < t_{\text{cut}}$$
+
+**That single line is the finding.** The sequence passed 39 while the demonstrator was still a live
+proposal, so **by the time the reservation became pointless the number it held was already gone**.
+A cancellation filed in the summer of 1997 would have kept the sequence intact. A cancellation filed after
+the programme was cut would have achieved nothing. The number was lost before the programme was.
+
+**Note what the inequality does not assert.** It says nothing about where $t_{\text{res}}$ falls relative
+to $\tau_{39}$, because the X-40A allocation is dated to 1997 without a month.
+**Both orderings remain open and the conclusion holds under either**, since a cancellation time of infinity
+fails the condition regardless of when the passage occurred.
 
 ### The Designator Escaped the System That Never Issued It
 
@@ -280,6 +352,19 @@ were operated on a ground test stand with the Heat Transfer Reactor Experiments 
 intended for the Convair X-6. **This is an engine designation and has no connection to the aircraft
 designation beyond the shared string.**
 
+### Analysis
+
+**The formal treatment of the numbering is a restatement rather than a discovery.** The set definitions,
+the next-issue rule and the recovery condition encode what the joint instruction and Parsch's account of
+the practice already say in prose. **Their value is that an ordering argument becomes checkable**, and the
+conclusion for the X-39 follows from a cancellation time of infinity without needing any date at all.
+
+**One step in that treatment is assumed and is labelled as assumed in the text.** Taken literally, the
+minimum of the available set would fall again whenever a lower number was released, and the C-16 case shows
+that a release can indeed recover a number. **The rule that a release stops helping once the sequence has
+passed the number is empirical**, drawn from Parsch's description of the practice, and it is the step the
+permanence argument leans on hardest. **No regulation quoted here states it.**
+
 ### Inference
 
 **That the X-39 request was never submitted because the demonstrator was cancelled is an inference**, not a
@@ -341,9 +426,14 @@ appropriate standard for a documentary claim is exhibition of the specific docum
 above. **A harvested survey of the aerospace literature would measure nothing relevant to whether a letter
 was written in 1997.**
 
-**There are no equations, for the same reason.** The genre derives a keystone relationship and dimensions
-dependent systems against it. **A designation has no mass, no area, and no binding constraint**, and writing
-mathematics here would be decoration.
+**There is no physical mathematics here, and the little that appears is not decoration.** The genre derives
+a keystone relationship and dimensions dependent systems against it. A designation has no mass and no area,
+so there is nothing to size. **An earlier version of this article went on to claim it has no binding
+constraint either, and that was wrong**, since the numbering is a finite resource issued consecutively and
+never replenished, which is precisely the mechanism the permanence argument depends on. The eight relations
+above state that mechanism and nothing else. **None of them is a physical law and none of them is
+dimensional**, and they earn their place only by making an ordering argument checkable that prose states
+loosely.
 
 **The reference base is small and is not padded.** Roughly a dozen of the entries below carry the argument,
 being the two designation surveys, the two versions of the joint instruction, the two Department-level

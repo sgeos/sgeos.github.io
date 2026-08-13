@@ -23,8 +23,18 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 index 40 of 72.
 
 **524 lines, 0 display equations, 66 reference definitions, 4,600 words after the draft pass.**
-Committed. **Not pushed**, since the draft pass does not push. **Not published**, and publication of the
+**614 lines, 8 display equations, 66 reference definitions, 5,534 words after the equation-density
+review.** Committed. **Not pushed**, since neither pass pushes. **Not published**, and publication of the
 series has never been authorised.
+
+**THE EQUATION PASS REVERSED THE DRAFT PASS AND THE DRAFT PASS WAS WRONG.** The draft asserted that a
+designation has no mass, no area **and no binding constraint**, and the third clause is false on the
+article's own evidence. **The binding constraint is the numbering itself**, a finite resource issued
+consecutively within a basic mission and never replenished, which is exactly the mechanism the permanence
+argument depends on. Eight relations now state it, defining the allocated and reserved sets, the
+next-issue rule, the passage time of a number, the recovery condition, the monotonicity of the reserved
+set and the permanent-gap set, then instantiating all of it for the X-39. **None is physical or
+dimensional**, and the article says so.
 
 **THIS IS THE FIRST DESIGNATION ANOMALY IN THE SERIES WRITTEN IN THE REDUCED SECTION ORDER.** A320 and
 A324 are both listed as anomalies and both were written at full length, because the SV-5D flew and the
@@ -51,8 +61,7 @@ adequate reading of a field. This article makes a documentary argument and exhib
 inline instead. **The reference base is small on purpose and the article states which dozen entries
 carry the argument.**
 
-**Remaining work.** Equation-density review, which is expected to conclude that no equations belong.
-Primary-reference review. Publication review.
+**Remaining work.** Primary-reference review. Publication review.
 
 ## X-Planes Scaled Composites X-38 A335 2025-11-13
 

@@ -1,15 +1,59 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A336, X-Planes, X-39, Reserved but Never Assigned. Draft pass complete.** Committed, **not
-pushed**, per the four-pass rhythm. **Not published.**
+**Task**: **A336, X-Planes, X-39, Reserved but Never Assigned. Equation-density review complete.**
+Committed, **not pushed**, per the four-pass rhythm. **Not published.**
 
 ---
 
-## The Short Version
+## Read This First, Because the Pass Overturned the Previous One
 
-**524 lines, zero display equations, 66 reference definitions, 4,600 words.** That is roughly a tenth
-of A335 on every axis, and **the shortness is the honest answer rather than a shortfall.**
+**The draft pass told you this article needed no equations. That was wrong, and its own reasoning was
+wrong.** I wrote that a designation has no mass, no area **and no binding constraint**. The first two
+clauses hold. **The third is false on the article's own evidence.**
+
+**The binding constraint is the numbering itself.** Design numbers are issued consecutively within a
+basic mission and are never replenished, which makes them a finite resource consumed in one direction.
+**That is not a side detail. It is the exact mechanism the article's central finding depends on**, being
+the claim that the X-39 became unrecoverable before it became unnecessary. I described that mechanism at
+length in prose and then declared that the article contained no relation worth displaying.
+
+**524 to 614 lines, 0 to 8 display equations, 4,600 to 5,534 words.** The reference base is unchanged at
+66 with integrity intact, and the `mathjax` flag is now true.
+
+---
+
+## What the Eight Relations Do
+
+They state the mechanism and nothing else. The unavailable set as the union of the allocated and reserved
+sets, the next-issue rule as the smallest unavailable number, the passage time at which the sequence goes
+past a number, the recovery condition as cancellation before passage, the monotonicity of the reserved
+set in the absence of any release procedure, the permanent-gap set, and two instantiations for the X-39.
+
+**None of them is physical and none is dimensional**, and the article says so plainly rather than leaving
+a reader to wonder why an aerospace article suddenly has set notation.
+
+**The formalisation strengthened the conclusion instead of restating it.** The recovery condition fails
+for the X-39 from an infinite cancellation time alone, **with no date required at all**. So the dated
+inequality is confined to the ordering of the passage against the programme cut, and the unsettled month
+of the X-40A allocation is now shown to be irrelevant to the conclusion rather than merely disclaimed as
+a limitation.
+
+**The gaps at A-11, C-30, C-36, V-17, V-19, V-21 and X-39 turn out to be elements of one set** that has
+no rule capable of removing anything from it. That was implicit in the prose and is now explicit.
+
+---
+
+## One Step Is Assumed, and I Labelled It Rather Than Hiding It
+
+**Read literally, the next-issue minimum would fall again whenever a lower number was released.** That is
+not a quibble, because **it is precisely what happened to C-16**, which the article cites as the case
+where a number was recovered.
+
+So the rule that a release stops helping once the sequence has passed the number is **empirical**, taken
+from Parsch's description of how the office behaves. **No regulation quoted in the article states it**,
+and it is the step the permanence argument leans on hardest. It is now flagged in the text and again
+under a new Analysis heading in the Epistemic State.
 
 ---
 
@@ -97,10 +141,25 @@ second reading is better supported and the conflict is left standing.
 
 ---
 
+## Two Checks That Earned Their Keep This Pass
+
+**The count-in-my-own-prose defect fired a fifth time.** I wrote that eight relations were nine. It was
+caught by counting the source rather than by rereading, and the sentence now carries a measured figure.
+
+**The promoted-subjects rule fired and was already satisfied.** An equation pass promotes a subject and
+the reference base is supposed to follow. The subject promoted here is the allocation procedure, which is
+already the article's **best**-referenced subject at 13 prose citations across the two versions of the
+joint instruction, the two Department-level issuances and Parsch's allocation page. **No reference work
+is owed**, and I checked rather than assumed, because the rule has fired on eight consecutive articles.
+
+---
+
 ## Verification
 
 - `python3 _verify.py` **0 errors, 0 warnings** across 300 posts.
-- `./_check.sh --drafts` **clean end to end**, 509 pages, no rendered findings.
+- `./_check.sh --drafts` **clean end to end**, 509 pages, **209 carrying display math**, no findings.
+- **Every display equation occupies exactly one source line.**
+- Rendered body carries **zero raw display-math delimiters**, MathJax loads, and its delimiters balance.
 - Reference integrity **66 used against 66 defined**, zero undefined, zero orphaned, zero duplicates.
 - **All 39 `post_url` targets resolve.** Nothing anywhere forward-references A336.
 - The rendered article body carries **zero unresolved reference syntax, zero unrendered Liquid and zero
@@ -116,9 +175,8 @@ second reading is better supported and the conflict is left standing.
 
 ## Outstanding
 
-**It is committed and not pushed**, which is what the draft pass calls for. The next three passes are the
-equation-density review, which I expect to conclude that no equations belong, then the primary-reference
-review, then the publication review.
+**It is committed and not pushed**, which is what these passes call for. The remaining two are the
+primary-reference review and the publication review.
 
 **The X-Planes set remains unpublished and unauthorised.** Forty of seventy-two drafted, thirty-nine of
 them citing a sibling through `post_url` with no target in `_posts/`, so **the set publishes in order or
