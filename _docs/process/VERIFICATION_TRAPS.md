@@ -193,3 +193,25 @@ the connection outright.
 **The check.** `_lib/resolve.py` falls back to the issuing registry, which is a different route rather
 than a retry of the same failing request. **An HTTP 200 still does not verify a citation**; use
 `_verify_citations.py` for whether an identifier resolves to the work it is cited as.
+
+## Describing a checker's correct findings as noise
+
+**A371 and A372, 2026-08-13.** A citation sweep reported hard findings on two published
+articles. The first reading called most of them artefacts of a trailing full stop, on the
+reasoning that the visible link text strips one while the registry keeps it, so `compiler, n`
+against `compiler, n.` must be a false positive.
+
+**The comparison never sees punctuation.** `tokens` matches alphabetic runs of three or more
+characters, so a trailing stop cannot produce a mismatch. The rule that fires is that the
+registry supplies **no authors** and the label is **too short to read as a title**, which is
+exactly the signature of a dictionary headword. An author-less record with a real multi-word
+title passes cleanly.
+
+**The checker was right and the first reading called it noise.** That is worse than missing a
+finding, because a diagnosis of noise licenses dismissing every similar finding without
+reading it, and forty-five more were waiting in the unpublished drafts.
+
+**Read the rule that fired before deciding a finding is spurious.** The mechanism was
+recoverable in one minute from the source, and asserting a mechanism without checking it is
+the same defect the corpus documents everywhere else, arriving in the diagnosis rather than in
+the article.
