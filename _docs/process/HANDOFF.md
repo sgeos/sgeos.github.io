@@ -11,16 +11,25 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `9d1e733`
-- **Written**: 2026-08-12
+- **Parent commit** (the repository state this handoff describes): `b3ed6a2`
+- **Written**: 2026-08-13
 - **Tree at write**: clean, nothing unpushed
 - **Context**: the X-Planes series is IN PROGRESS. **Thirty-nine of seventy-two articles drafted,
-  all four passes complete on each. None published.**
-- **Since the previous handoff**: **A334, the Boeing X-37, and A335, the Scaled Composites X-38, were
-  each taken through all four passes and pushed.** Neither is published. The tooling gained a
-  bare-pipe strip in `refs.clean`, a typographic-normalisation step in the article gates, a
-  trailing-full-stop guard on harvested identifiers, and eleven new homonym families. **Three new
-  entries were added to `VERIFICATION_TRAPS.md` after A334 and two more after A335.**
+  all four passes complete on each. None published, and none authorised.**
+- **Since the previous handoff, the work was ALL off the X-Planes mainline.** The Keleusma line ran to
+  completion and **four articles are now PUBLISHED**, being A369, A370, A371 and A372. **The series was
+  renamed** from `keleusma_native` / Keleusma Native Code Generation to `keleusma_research_spikes` /
+  **Keleusma Research Spikes**, and each article's title now shares the main title **Keleusma Research
+  Spike** with a distinct subtitle. A371 carries an **erratum at its head**, because its frame
+  measurements never ran the optimiser and the direction of its central finding was backwards.
+- **The shared machinery changed in three ways that affect every future harvest.**
+  **`homonyms._keys_for` now derives the prospective anchor stem**, which un-blinded **550 of 728
+  rejections** that could never fire at harvest time because anchors are assigned later.
+  **`gate.substance_reason` adds a minimum-substance test**, refusing dictionary headwords and titles
+  identical to their container, since a subject test cannot catch an entry whose title IS the anchor.
+  The homonym store grew **41 to 66 patterns**. `_lib/test_lib.py` is **78 of 78**, up from 75.
+- **Six hundred dead download links were removed from the live site**, `_layouts/post.html` and
+  `index.html` having emitted PDF and EPUB links for every post that have never once resolved.
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
 and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -40,9 +49,23 @@ described.
 
 ## Resume prompt, and the next prompt will be "Please draft A336, 'X-Planes: X-39, Reserved but Never Assigned.'"
 
-**Nothing is outstanding.** A335 finished all four passes, is committed and pushed, and returns 404
-while the site root returns 200, which is correct because nothing in the series is published. There is
-no half-finished pass to pick up.
+**Nothing on the X-Planes mainline is outstanding.** A335 finished all four passes, is committed and
+pushed, and returns 404 while the site root returns 200, which is correct because nothing in that
+series is published. There is no half-finished pass to pick up.
+
+**One side item is open and it is deliberately deferred.** A citation audit over 101,028 citations
+reports **44 title mismatches**, of which **43 sit in unpublished X-Planes drafts** and one sits in the
+published A371 and is defensible, being a real book chapter the registry holds without authors.
+**Those 43 belong to their own articles' publication reviews and not to a separate sweep**, since
+removing a reference requires knowing whether the prose depends on it. **24 of the 44 resolve to
+records the registry holds with no authors at all**, which is the rule firing rather than a defect in
+the citation. **Do not dismiss them as artefacts.** An earlier reading called them noise from a
+trailing full stop, which was wrong, since the comparison never sees punctuation.
+
+**Two items are owed from outside this repository.** A369's claim that per-function frame size varies
+by roughly a factor of thirty awaits the Keleusma decision register, and neither A371's nor A372's
+frame measurements were independently reproduced here, the LLVM 22 toolchain being absent from this
+host.
 
 **Wait for the pilot's prompt. Do not begin A336 unprompted.**
 
