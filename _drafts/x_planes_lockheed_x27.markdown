@@ -8775,7 +8775,7 @@ broke, namely an aircraft that existed and flew.
 [research_monkova_monka_2023]: https://doi.org/10.3390/aerospace10040361
 [research_montanojw_1967]: https://ntrs.nasa.gov/citations/19670045542
 [research_moon_2025]: https://doi.org/10.6108/kspe.2025.29.4.055
-[research_moon_2025_b]: https://doi.org/10.31691/kasl40.1.4.
+[research_moon_2025_b]: https://doi.org/10.31691/kasl40.1.4
 [research_moore_1973]: https://doi.org/10.21236/ad0756481
 [research_moore_lueke_1974]: https://doi.org/10.1115/1.3438443
 [research_moorhouse_jenkins_1975]: https://doi.org/10.2514/3.44474

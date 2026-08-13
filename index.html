@@ -11,8 +11,15 @@ layout: default
     <h2 class="post-year-heading" id="year-{{ year.name }}">{{ year.name }}</h2>
     <ul class="post-list">
       {% for post in year.items %}
+        {%- comment -%}
+          Same defect as the post layout carried. These were emitted for every
+          post and none of them has ever resolved, so the home page alone
+          accounted for 600 dead links. Emit each only when the file exists.
+        {%- endcomment -%}
         {% assign post_pdf  = post.url | replace: '.html', '.pdf'  %}
         {% assign post_epub = post.url | replace: '.html', '.epub' %}
+        {% assign post_pdf_file  = site.static_files | where: 'path', post_pdf  | first %}
+        {% assign post_epub_file = site.static_files | where: 'path', post_epub | first %}
         <li>
           <span class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d %H:%M %Z" }}</time></span>
           <h3>
@@ -21,7 +28,7 @@ layout: default
               {% assign series_size = site.posts | where: "series", post.series | size %}
               <span class="series-badge">Part {{ post.series_index }} of {{ series_size }} · {{ post.series_title | default: post.series }}</span>
             {% endif %}
-            <span class="post-list-downloads"><a class="post-download-link" href="{{ post_pdf  | prepend: site.baseurl }}" title="Download PDF">PDF</a> <a class="post-download-link" href="{{ post_epub | prepend: site.baseurl }}" title="Download EPUB">EPUB</a></span>
+            {% if post_pdf_file or post_epub_file %}<span class="post-list-downloads">{%- if post_pdf_file %}<a class="post-download-link" href="{{ post_pdf | prepend: site.baseurl }}" title="Download PDF">PDF</a>{% endif -%}{%- if post_epub_file %} <a class="post-download-link" href="{{ post_epub | prepend: site.baseurl }}" title="Download EPUB">EPUB</a>{% endif -%}</span>{% endif %}
           </h3>
         </li>
       {% endfor %}

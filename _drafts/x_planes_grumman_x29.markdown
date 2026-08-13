@@ -12701,7 +12701,7 @@ than any aircraft in this series and never flew at all.
 [research_rayankula_pathak_2021]: https://doi.org/10.1007/s10846-021-01317-1
 [research_rayej_mckinneylw_1972]: https://ntrs.nasa.gov/citations/19730006292
 [research_rayej_mckinneylw_1973]: https://ntrs.nasa.gov/citations/19730017272
-[research_rea_pecora_2017]: https://doi.org/10.18178/ijmerr.6.6.
+[research_rea_pecora_2017]: https://doi.org/10.18178/ijmerr.6.6
 [research_rea_pecora_2018]: https://doi.org/10.18178/ijmerr.6.6.440-450
 [research_reader_1976]: https://doi.org/10.21236/ada026548
 [research_reajbcoincsantamonicaca_1957]: https://doi.org/10.21236/ad0126837

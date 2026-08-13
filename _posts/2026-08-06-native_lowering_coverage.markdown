@@ -2974,8 +2974,8 @@ measured the same thing the same way, and the pattern across them says more than
 |---|---|---|---|
 | This article | 91 | 5 | 5.5 percent |
 | The calling-convention article | 35 | 0 | 0 percent |
-| The resource-bound article | 27 | 4 | 14.8 percent |
-| The aggregate-cost article | 26 | 7 | 26.9 percent |
+| [The resource-bound article][related_post_a371] | 27 | 4 | 14.8 percent |
+| [The aggregate-cost article][related_post_a372] | 26 | 7 | 26.9 percent |
 
 **The rate is not a measure of care**, since all four bibliographies were assembled and checked the same way.
 What varies is the material. The zero-rate article draws on recent, widely cited works with distinctive
@@ -3076,6 +3076,8 @@ clearest evidence available that knowing about a bias does not protect anyone fr
 - [Related Post, Keleusma's Self-Hosting Strategy][related_post_keleusma_self_hosting]
 - [Related Post, The Stream Processor as Compiler and the Compiler as Stream Processor][related_post_compilers_streaming]
 
+[related_post_a371]: {% post_url 2026-08-08-do_proven_bounds_survive_compilation %}
+[related_post_a372]: {% post_url 2026-08-09-cost_of_compiling_aggregates %}
 [related_post_compilers_streaming]: {% post_url 2026-04-17-stream_processor_as_compiler_and_compiler_as_stream_processor %}
 [related_post_keleusma_022]: {% post_url 2026-07-11-keleusma_0_2_2_getting_started %}
 [related_post_keleusma_self_hosting]: {% post_url 2026-07-12-keleusma_self_hosting_strategy %}

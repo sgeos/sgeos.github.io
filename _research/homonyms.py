@@ -43,6 +43,7 @@ Usage from an article script:
 import json
 import os
 import re
+import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STORE = os.path.join(HERE, "rejected.json")
@@ -434,6 +435,44 @@ def load():
         return json.load(fh)
 
 
+def _anchor_stem(rec):
+    """The anchor this record WOULD be given, computed the way `gen_master` does.
+
+    THIS IS THE FIX FOR A STRUCTURAL GAP THAT MADE THREE QUARTERS OF THE STORE
+    INERT. Of 728 rejections, 550 are keyed by anchor and 173 by identifier,
+    because early sweeps recorded what they dropped after anchors had been
+    assigned. But `filter_records` runs at HARVEST time, where a record is keyed
+    by its digital object identifier and has no anchor yet, so `_keys_for` could
+    never match an anchor-keyed entry and 550 lessons the corpus had paid for
+    were invisible to the only step that would use them.
+
+    Computing the prospective stem here closes that. It is the same function
+    `gen_master` calls, so a record rejected in one article is recognised in the
+    next before it is ever gated.
+    """
+    try:
+        sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(
+            os.path.abspath(__file__))), "_lib"))
+        import refs
+    except Exception:  # noqa: BLE001
+        return None
+    title = rec.get("title") or ""
+    if not title:
+        return None
+    try:
+        return refs.anchor_stem(rec.get("authors") or [], rec.get("year") or "",
+                                title, kind="research")
+    except Exception:  # noqa: BLE001
+        return None
+
+
+# A STORED ANCHOR MAY CARRY A DISAMBIGUATION SUFFIX. `assign_anchors` appends
+# `_2` or `_b` when two records share a stem, so a stored key can be the stem
+# plus a suffix while a freshly computed stem never is. Both directions are
+# tried, since the store holds whichever form the earlier article emitted.
+_SUFFIX = re.compile(r"_(?:\d+|[b-z])$")
+
+
 def _keys_for(rec, key):
     """Every identity a record might already be stored under."""
     out = {key}
@@ -441,6 +480,12 @@ def _keys_for(rec, key):
     if doi:
         out.add(doi)
         out.add("https://doi.org/" + doi.replace("https://doi.org/", ""))
+    stem = _anchor_stem(rec)
+    if stem:
+        out.add(stem)
+        out.add(_SUFFIX.sub("", stem))
+    if isinstance(key, str) and key.startswith("research_"):
+        out.add(_SUFFIX.sub("", key))
     return {k for k in out if k}
 
 
@@ -501,6 +546,34 @@ def record(key, title, why, article, doi=""):
     with open(STORE, "w", encoding="utf-8") as fh:
         json.dump(dict(sorted(store.items())), fh, indent=1, ensure_ascii=False)
     return entry
+
+
+def _self_test():
+    """A CHECKER THAT CANNOT FAIL IS NOT A CHECK.
+
+    The anchor-stem path is the whole point of `_keys_for` and it is exercised
+    only when a harvest happens to contain a previously rejected work, which is
+    to say almost never during development. This asserts it directly.
+    """
+    store = load()
+    anchors = [k for k in store if isinstance(k, str) and k.startswith("research_")]
+    assert anchors, "the store holds no anchor-keyed rejections to test against"
+    # reconstruct a plausible harvest record for one stored anchor and require a hit
+    import refs as _r  # noqa: F401  (path already set by _anchor_stem)
+    probe = {"title": "5th colloquium on industrial aerodynamics", "authors": [],
+             "year": "1982", "doi": "10.0000/probe"}
+    keys = _keys_for(probe, "10.0000/probe")
+    assert "research_5th_colloquium_1982" in keys, (
+        "the prospective anchor stem is not derived, so anchor-keyed rejections "
+        "cannot fire at harvest time")
+    kept, dropped = filter_records({"10.0000/probe": probe})
+    assert dropped and not kept, "a stored anchor-keyed rejection did not fire"
+    # and a record with no stored identity must survive
+    clean = {"title": "A wholly unremarkable paper about nothing in particular",
+             "authors": [], "year": "2026", "doi": "10.0000/clean"}
+    kept, dropped = filter_records({"10.0000/clean": clean})
+    assert kept and not dropped, "the filter rejects a record it has never seen"
+    return f"self-test passed, {len(anchors)} anchor-keyed rejections now reachable"
 
 
 def stats():

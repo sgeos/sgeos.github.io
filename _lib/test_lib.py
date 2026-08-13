@@ -1098,6 +1098,47 @@ def t_clean_collapses_a_repeated_comma_from_a_registry_title():
 
 
 
+
+def t_gate_refuses_a_dictionary_headword_but_keeps_a_short_real_title():
+    """A SUBJECT TEST IS NOT A SUBSTANCE TEST.
+
+    An Oxford English Dictionary entry titled `compiler, n.` passes every
+    computing anchor perfectly, because the title IS the anchor. Six such
+    records reached two published articles. The rule must stay narrow, since
+    `Garbage Collection` and `Abstract Interpretation` are real paper titles.
+    """
+    assert gate.substance_reason("compiler, n.")
+    assert gate.substance_reason("sandboxing, n")
+    assert gate.substance_reason("Unboxed", "Unboxed")
+    assert gate.substance_reason("") 
+    assert gate.substance_reason("Garbage Collection") is None
+    assert gate.substance_reason("Abstract Interpretation") is None
+    assert gate.substance_reason("Region-Based Memory Management",
+                                 "Information and Computation") is None
+
+
+def t_gate_select_refuses_no_substance_before_testing_the_subject():
+    """A record that is not a work should be refused for that reason."""
+    g = gate.Gate([r"\bcompiler"], name="t")
+    recs = [{"title": "compiler, n.", "venue": "Oxford English Dictionary"},
+            {"title": "A verified compiler back-end", "venue": "JAR"}]
+    kept, dropped = gate.select(recs, g)
+    assert len(kept) == 1 and kept[0]["title"].startswith("A verified"), kept
+    assert len(dropped) == 1 and "no substance" in dropped[0][1], dropped
+
+
+def t_homonym_store_reaches_anchor_keyed_rejections_at_harvest_time():
+    """THREE QUARTERS OF THE STORE WAS INERT BEFORE THIS.
+
+    550 of 728 rejections are keyed by anchor, but `filter_records` runs at
+    harvest time where a record has a digital object identifier and no anchor,
+    so those entries could never match. The prospective stem is now derived.
+    """
+    sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(
+        os.path.abspath(__file__))), "_research"))
+    import homonyms
+    homonyms._self_test()
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)

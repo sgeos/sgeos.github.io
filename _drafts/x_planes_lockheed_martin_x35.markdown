@@ -19640,7 +19640,7 @@ nobody remembers the date.
 [research_biancomengotti_ragazzi_2016]: https://doi.org/10.4050/f-0072-2016-11459
 [research_biber_2015]: https://doi.org/10.2514/6.2015-0031
 [research_bicknell_1987]: https://doi.org/10.21236/ada190507
-[research_biczo_kalacska_2019]: https://doi.org/10.21791/ijems.2019.1.41.
+[research_biczo_kalacska_2019]: https://doi.org/10.21791/ijems.2019.1.41
 [research_biczo_kalacska_2020]: https://doi.org/10.3390/ma13204508
 [research_bielatralphp_1959]: https://ntrs.nasa.gov/citations/19980232001
 [research_bielecki_debear_1956]: https://doi.org/10.21236/ad0103405

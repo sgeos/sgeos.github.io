@@ -77,9 +77,29 @@ layout: default
     <p class="post-categories">Filed under: {% for cat in page.categories %}<a href="{{ cat | slugify | prepend: '/categories/' | append: '/' | prepend: site.baseurl }}">{{ cat }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
     {% endif %}
 
+    {%- comment -%}
+      THESE LINKS WERE EMITTED UNCONDITIONALLY AND NONE OF THEM HAS EVER WORKED.
+      The URL was derived by substituting the extension on the post's own path,
+      but no downloadable file has ever been published at that path. Across 300
+      posts that is 600 dead links, and a reader who clicked either got a 404.
+      The two PDF files the site does contain live under `assets/pdf/`, which
+      this substitution never produced.
+
+      Each link is now emitted only when a file actually exists at the derived
+      path, and the whole paragraph is omitted when neither does. Publishing a
+      file at the matching path is all that is needed to bring the link back.
+    {%- endcomment -%}
     {% assign pdf_url  = page.url | replace: '.html', '.pdf'  %}
     {% assign epub_url = page.url | replace: '.html', '.epub' %}
-    <p class="post-downloads">Download: <a class="post-download-link" href="{{ pdf_url  | prepend: site.baseurl }}">PDF</a> · <a class="post-download-link" href="{{ epub_url | prepend: site.baseurl }}">EPUB</a></p>
+    {% assign pdf_file  = site.static_files | where: 'path', pdf_url  | first %}
+    {% assign epub_file = site.static_files | where: 'path', epub_url | first %}
+    {% if pdf_file or epub_file %}
+    <p class="post-downloads">Download:
+      {%- if pdf_file %} <a class="post-download-link" href="{{ pdf_url | prepend: site.baseurl }}">PDF</a>{% endif -%}
+      {%- if pdf_file and epub_file %} ·{% endif -%}
+      {%- if epub_file %} <a class="post-download-link" href="{{ epub_url | prepend: site.baseurl }}">EPUB</a>{% endif -%}
+    </p>
+    {% endif %}
     {% include mathjax.html %}
   </header>
 

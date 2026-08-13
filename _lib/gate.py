@@ -74,11 +74,52 @@ class Gate:
         return "no subject anchor"
 
 
-def select(records, gate, key=lambda r: r.get("title", "")):
-    """Partition records into kept and dropped. Returns (kept, dropped_with_reasons)."""
+# A SUBJECT TEST IS NOT A SUBSTANCE TEST, AND THE CORPUS LEARNED THAT THE HARD WAY.
+# An Oxford English Dictionary entry titled `compiler, n.` passes every computing
+# anchor perfectly, BECAUSE THE TITLE IS THE ANCHOR. Six such records reached two
+# published articles before an audit caught them, along with book chapters titled
+# `Compiler`, `CompCert` and `Unboxed`. No amount of qualifying the anchors helps,
+# since the defect is that the title carries no claim at all.
+#
+# The rule is deliberately narrow. A title of one or two words is refused ONLY when
+# it is a bare subject term or a dictionary headword, because `Garbage Collection`
+# and `Abstract Interpretation` are legitimate paper titles and must survive. What
+# is refused is the dictionary part-of-speech form, and a title identical to its own
+# container, which is book front or back matter rather than a work.
+_HEADWORD = re.compile(r"^\s*[\w][\w\s'-]{0,40},\s*(?:n|v|adj|adv|prep|conj)\.?\s*$",
+                       re.I)
+
+
+def substance_reason(title, container=""):
+    """Why this title is not a work, or None if it is one.
+
+    Reports rather than judges silently, so a caller can log what it refused.
+    """
+    t = (title or "").strip()
+    if not t:
+        return "no title"
+    if _HEADWORD.match(t):
+        return "dictionary headword, a part-of-speech entry rather than a work"
+    c = (container or "").strip()
+    if c and t.casefold() == c.casefold():
+        return "title identical to its container, so book front or back matter"
+    return None
+
+
+def select(records, gate, key=lambda r: r.get("title", ""),
+           container=lambda r: r.get("container", "") or r.get("venue", "")):
+    """Partition records into kept and dropped. Returns (kept, dropped_with_reasons).
+
+    THE SUBSTANCE TEST RUNS FIRST, because a record that is not a work should be
+    refused for that reason and not for whichever anchor it happened to miss.
+    """
     kept, dropped = [], []
     for r in records:
         title = key(r)
+        lacks = substance_reason(title, container(r))
+        if lacks:
+            dropped.append((r, f"[no substance] {lacks}"))
+            continue
         why = gate.explain(title)
         if why is None:
             kept.append(r)
