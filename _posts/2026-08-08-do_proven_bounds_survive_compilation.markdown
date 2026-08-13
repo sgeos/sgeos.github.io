@@ -11872,6 +11872,15 @@ stronger statement than saying this article found no support, and it is the surv
 **The assumption is not merely unproven here. It is contrary to the practice of every field that has
 addressed the problem.**
 
+**That statement and Result 1 look like they disagree, and the difference between them is the point.**
+Result 1 finds that the arena term of the bound does hold of the machine code. **It holds because nothing
+transformed the quantity**, the arena being the same fixed-size region with the same bytes on both sides of
+the boundary, so there is no transfer to justify and no argument to supply. The survey's claim is about
+**carrying a bound across a transformation that changed the thing being measured**, which is what the
+operand-slot term would have required and what no field above attempts. **A quantity that survives because
+it was never transformed is not a counterexample to a claim about transformation.** Distinguishing the two
+is the whole of Result 1.
+
 **The harvested majority establishes coverage and not agreement.** The survey lists 11,095 references, of
 which 33 were selected because a step of the argument depends on them and were read, and
 11,062 were harvested by query across fifteen clusters and were not. A reader looking for the

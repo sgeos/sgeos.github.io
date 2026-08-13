@@ -263,6 +263,7 @@ NOISE_PATTERNS = [
      "reached the code-generation cluster"),
     (r"\bgarbage collection\b.{0,70}\b(?:vehicle|truck|waste|municipal|refuse|bin|"
      r"kerbside|curbside|recycl|landfill|fee|route|household|sanitat|street|"
+     r"municipal solid waste|solid waste|county|environmental cost|"
      r"IoT|sensor|smart city|bin level|ultrasonic|LoRa|monitoring system)|"
      r"\b(?:waste|municipal|refuse|landfill|recycl|sanitat|household|smart)\w*\b"
      r".{0,70}\bgarbage collection\b|\bsmart garbage\b",
@@ -272,7 +273,8 @@ NOISE_PATTERNS = [
      "both reached the kept set. The waste sense is far larger than the computing "
      "one and shares the exact phrase"),
     (r"\b(?:facility|facilities|plant|factory|warehouse|logistics|hospital|office|"
-     r"store|shop.floor|workshop|construction site|site) layout\b|"
+     r"store|shop.floor|workshop|construction site|site|city|urban) layout\b|"
+     r"\blayout of the (?:old )?city\b|\blayout\b.{0,50}\b(?:spatial syntax|urban|streetscape|land use)\b|"
      r"\bsystematic layout planning\b|\bwaffle.layout\b|"
      r"\blayout\b.{0,60}\b(?:heliostat|solar field|wind farm|MOSFET|"
      r"transistor|photovoltaic|substation)|"

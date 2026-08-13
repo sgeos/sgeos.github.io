@@ -624,7 +624,6 @@ layout.
 - [Kucher and Gorlatch, 2021, Implicit Data Layout Optimization for Portable Parallel Programming in C++][research_kucher_gorlatch_2021]
 - [Zakraoui and others, 2021, Improving text-to-image generation with object layout guidance][research_zakraoui_saleh_2021]
 - [Chai and others, 2021, Industrial Structure Transformation and Layout Optimization of Beijing-Tianjin-Hebei Region under Carbon Emission Constraints][research_chai_lin_2021]
-- [Wang, 2021, Information system construction and research on the layout of the old city of Beijing using spatial syntax and heat map][research_wang_2021]
 - [Qin and others, 2021, Layout Structure Assisted Indoor Image Generation][research_qin_zhong_2021]
 - [Jung and others, 2021, Memory Layout Extraction and Verification Method for Reliable Physical Memory Acquisition][research_jung_seo_2021]
 - [Sha, 2021, Research on Optimal Layout of Sensors in Civil Engineering Structure Based on GIS System][research_sha_2021]
@@ -1974,7 +1973,6 @@ arena discipline is why that answer is already bounded.
 - [Kunieda and others, 2024, Implementation of MERN Stack-based Web Application to Visualize Garbage Collection Status][research_kunieda_abe_2024]
 - [Joyce Onyowoicho Odeh et al., 2024, IoT-based Garbage Collection Robot using Wireless Communication EcoPicker-M][research_joyceonyowoichoodehetal_2024]
 - [P. K.Singh, 2024, MFGC Minimal First Garbage Collection for Monitoring of Context-Aware Victim Selection][research_pksingh_2024]
-- [Christensen, 2024, Municipal Solid Waste in Davis County The Financial, Political, and Environmental Costs of Garbage Collection][research_christensen_2024]
 - [Hughes, 2024, Retro-fitting Garbage Collection into Rust Invited Talk][research_hughes_2024]
 - [Shimchenko and others, 2024, Scheduling Garbage Collection for Energy Efficiency on Asymmetric Multicore Processors][research_shimchenko_osterlund_2024]
 - [Wang and others, 2023, Analysis and research on road garbage recognition and detection based on mobile garbage collection robot][research_wang_chen_2023]
@@ -6560,8 +6558,8 @@ residue measured here follows from a design decision taken upstream and is not a
 aggregates. **The broad claim, that aggregates are cheap to compile, is contradicted by every cluster
 above.**
 
-The scale should be read for what it is. The survey lists 6,034 references, of which 31 were
-selected because a step of the argument depends on them and were read, and 6,003 were harvested
+The scale should be read for what it is. The survey lists 6,032 references, of which 31 were
+selected because a step of the argument depends on them and were read, and 6,001 were harvested
 by query across ten clusters and were not. **The harvested majority establishes coverage and not agreement.**
 
 ## The Source Base
@@ -6574,7 +6572,7 @@ rather than asserts, because the distribution is a fact about the corpus and not
 ### How the harvested survey was assembled
 
 **The 31 hand-selected research references were chosen because a step of the argument depends on
-them, and each was read. The 6,003 harvested references were not chosen that way and were not
+them, and each was read. The 6,001 harvested references were not chosen that way and were not
 read individually.** Stating that plainly is the point of this subsection, because a list of several thousand
 citations otherwise implies a reading it does not represent. What the harvested list supports is a claim
 about coverage, since the queries were fixed before any record was seen. What it does not support is any
@@ -6601,7 +6599,7 @@ were duplicates holding the same title and year under two identifiers, 13 carrie
 or a doubled word in a verbatim title that this corpus cannot reproduce in link text, and 23
 duplicated a work already cited by hand. 6,008 therefore reach the reference list, **five of which a later audit removed**, three being dictionary
 entries, one a chapter title identical to its book title, and one an identifier that does not resolve at
-all, leaving 6,003.
+all, and two later audits against the accumulated homonym store, leaving 6,001.
 
 ## Epistemic State
 
@@ -6643,7 +6641,7 @@ bodies therefore carry an existing bound instead of creating a new unbounded qua
 reached for the machine stack because it was nearer would have converted a bounded quantity into an
 unbounded one for no benefit.**
 
-**Harvested rather than read.** 6,003 of the 6,034 research references were retrieved by
+**Harvested rather than read.** 6,001 of the 6,032 research references were retrieved by
 keyword query and are listed on the strength of their titles, authors, years and venues as the registry holds
 them. **Nothing in the argument rests on any one of them**, and the cluster sizes are the only quantitative
 use made of them. **The residual contamination rate is not zero**, since each sample read during assembly
@@ -7733,7 +7731,6 @@ solved.
 - [Chow, 2013, Intermediate Representation][research_chow_2013]
 - [Chow and Hennessy, 1984, Register allocation by priority-based coloring][research_chow_hennessy_1984]
 - [Christakis and Wüstholz, 2016, Bounded Abstract Interpretation][research_christakis_wustholz_2016]
-- [Christensen, 2024, Municipal Solid Waste in Davis County The Financial, Political, and Environmental Costs of Garbage Collection][research_christensen_2024]
 - [Christodorescu and Jha, 2006, Static Analysis of Executables to Detect Malicious Patterns][research_christodorescu_jha_2006]
 - [Christopher, 1984, Reference count garbage collection][research_christopher_1984]
 - [Chu and others, 2009, Cache Conscious Data Structures for Boolean Satisfiability Solvers][research_chu_harwood_2009]
@@ -12215,7 +12212,6 @@ solved.
 - [Wang, 2001, A Formal Dynamic Schema Evolution Model for Hypermedia Databases][research_wang_2001]
 - [Wang, 2006, REDLIB for the Formal Verification of Embedded Systems][research_wang_2006]
 - [Wang, 2011, Conservative snapshot-based actor garbage collection for distributed mobile actor systems][research_wang_2011]
-- [Wang, 2021, Information system construction and research on the layout of the old city of Beijing using spatial syntax and heat map][research_wang_2021]
 - [Wang, 2022, Development of Language Feature Analysis System for Mineral Engineering English Corpus Based on Web][research_wang_2022]
 - [Wang, 2024, Unboxing the temporal patterns of employee engagement a daily and weekly analysis of needs satisfaction, work motivation and employee well-being][research_wang_2024]
 - [Wang, 2024, Research on the Application of Smart Tourism Management System Based on Java Enterprise Edition and Ethereum Virtual Machine][research_wang_2024_b]
@@ -13768,7 +13764,6 @@ solved.
 [research_chow_2013]: https://doi.org/10.1145/2542661.2544374
 [research_chow_hennessy_1984]: https://doi.org/10.1145/502874.502896
 [research_christakis_wustholz_2016]: https://doi.org/10.1007/978-3-662-53413-7_6
-[research_christensen_2024]: https://doi.org/10.5406/26428652.92.4.03
 [research_christodorescu_jha_2006]: https://doi.org/10.21236/ada449067
 [research_christopher_1984]: https://doi.org/10.1002/spe.4380140602
 [research_chu_harwood_2009]: https://doi.org/10.3233/sat190064
@@ -18250,7 +18245,6 @@ solved.
 [research_wang_2001]: https://doi.org/10.1007/978-1-4471-0299-1_3
 [research_wang_2006]: https://doi.org/10.1109/isola.2006.68
 [research_wang_2011]: https://doi.org/10.1007/s11235-011-9509-1
-[research_wang_2021]: https://doi.org/10.1109/icdsca53499.2021.9650138
 [research_wang_2022]: https://doi.org/10.1109/iccs56273.2022.9988369
 [research_wang_2024]: https://doi.org/10.1108/ebhrm-10-2023-0292
 [research_wang_2024_b]: https://doi.org/10.1109/iciics63763.2024.10859371
