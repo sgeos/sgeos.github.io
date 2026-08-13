@@ -84,6 +84,20 @@ that third phase**, since a research designation is for a vehicle and the vehicl
 
 **Two contractors executed Phase I in the second half of 1997.** Lockheed Martin performed its study from
 June through October 1997 under contract F33615-97-C-3804 [[Lockheed Martin FATE briefing][ref_lockheed_fate]].
+**Its briefing survives in full at fifty-eight slides** and is the most detailed public account of what
+Phase I actually concluded [[Lockheed Martin FATE briefing, full deck][ref_fate_deck]].
+A ranking exercise selected **five technologies as those requiring flight demonstration**, being the compact
+inlet, the conformal fluidic nozzle, tailless technologies, the continuous aerodynamic control surface and
+the lambda wing [[FATE, five technologies selected][ref_fate_five]].
+**The concluding slide is the one that matters for the designation.** It reports that the five selected
+technologies achieve three of the six Fixed Wing Vehicle goals, that further technologies would be needed
+to meet the cost goals, and that **integrating them into an existing vehicle would require substantial
+modification** [[FATE, conclusions and recommendations][ref_fate_conclusions]].
+
+**That last finding is the technical case for a new airframe, and therefore for a new design number.** A
+technology that can be demonstrated on an existing aircraft needs no designation of its own. **The
+contractor's own conclusion was that these five could not be**, which is why the reservation made sense in
+April 1997 and why it became worthless when the Air Force declined to build the vehicle.
 [Boeing Phantom Works][ref_phantom_works] performed a parallel study from 22 May to 30 October 1997, reported by Jem Cupstid in
 November 1997 as **Future Aircraft Technology Enhancements, Block I**, technical report
 AFRL-VA-WP-TR-1999-3061, held by the [Defense Technical Information Center][ref_dtic] under accession number
@@ -127,9 +141,22 @@ paragraph closes with four words that settle the matter, being
 
 **The instruction implements Department-level policy and does not stand alone.** The naming and designating
 authority is established at Department of Defense level
-[[DoD Instruction 4120.15][ref_dodi_412015]], and the approved designators themselves are published in a
-single Department-wide list [[DoD 4120.15-L][ref_dod_412015l]].
-**A designation that never reaches that list has not been assigned**, and the X-39 never reached it.
+[[DoD Instruction 4120.15][ref_dodi_412015]], and the approved designators themselves were published in a
+single Department-wide list, **DoD 4120.15-L, whose stated purpose is to list approved designators and
+popular names** [[DoD 4120.15-L][ref_dod_412015l]].
+
+**That list can be checked, and checking it is better than asserting from it.** The edition of 12 May 2004,
+the last publicly released one, carries an appendix of approved aircraft designators running to well over a
+hundred pages. **Its X-series entries include X-35A, X-36A, X-37A, X-38A, X-40A and X-40B**, each with a
+manufacturer, an engine count and a one-line description, and they appear in a single contiguous passage.
+**There is no X-39 entry anywhere in the document.**
+
+**That absence corroborates the non-assignment without quite demonstrating it, and the difference is worth
+keeping.** X-33 and X-34 are also absent from the same list, and both of those were substantial flight
+programmes that were cancelled in 2001, so absence from the 2004 edition is consistent with more than one
+history. **What the list establishes is that the X-39 is not among the approved designators of record while
+its immediate neighbours on both sides are.** The demonstrative evidence that no request was ever submitted
+remains Parsch's, and this is independent corroboration of it from the primary list itself.
 
 **No such request was submitted for the X-39, so the instruction's process never began.** The reason is not
 mysterious and does not require a hypothesis about secrecy. **The request would have been made when the
@@ -172,6 +199,34 @@ vehicles** [[Air Force Joint Instruction 16-401, 2005][ref_afi_16_401_2005]].
 **That reservation is performed by the assigning authority as part of handling a written request.** The
 reservation that consumed the X-39 was performed before any written request existed, by the party that would
 have submitted one. **The two acts share a word and nothing else.**
+
+**The instruction has been reissued since, and the changes answer three questions this article would
+otherwise have to leave open.** The current joint instruction is dated 3 November 2020 and carries the
+Army and Navy numbers alongside the Air Force one
+[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]].
+
+**Reserving a design number in advance of a request is still not a procedure.** The word appears in the
+current text for the approving authority's own retained powers and for the Reserve components, and nowhere
+as something a programme office may do to a number. **Twenty-three years after the X-39 was lost to it, the
+act remains undescribed.**
+
+**Skipping a number, by contrast, is now explicitly authorised.** The current instruction states at
+attachment 2 that **the approving authority reserves the authority to skip design number at discretion**
+[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]]. What was an accident of correspondence in
+1997 is now a stated discretionary power, which is a change in the character of the gaps rather than in
+their number.
+
+**And a release mechanism now exists, which is exactly what 1997 lacked.** The current instruction carries
+a section on the retirement and reactivation of a designator, with eligibility conditions for each
+[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]]. **A number can now be given up and taken back
+by written procedure.** Whether that would have saved the X-39 is not knowable, since retirement applies to
+designators that were assigned and the X-39 never was, **which is the same gap in a newer document**.
+
+**One further change bears on the check made above.** The current instruction records the cancellation of
+DoD 4120.15-L as the publicly accessible database of designators, replaced by a listing on a Department web
+service [[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]]. **The 2004 edition examined here is
+therefore the last public snapshot of the approved list**, which is why the absence of the X-39 from it was
+worth checking directly.
 
 ### The System Provided for Reserving Names and Not Numbers
 
@@ -305,14 +360,22 @@ aircraft behind it at all.**
 
 ### The Same String Names an Engine That Actually Ran
 
-**There is an X-39 that existed, and it is not an aircraft.** General Electric applied the designation to a
-pair of modified [J47][ref_j47] turbojets rebuilt to take their heated compressed air from a reactor heat
-exchanger rather than from burning fuel. **Those engines ran.** They were operated on a ground test stand in
-conjunction with three successive reactors, the Heat Transfer Reactor Experiments numbered one, two and
-three, under the [Aircraft Nuclear Propulsion][ref_anp] programme established by the Air Force and the Atomic
-Energy Commission in 1951 [[General Electric J47][ref_j47]].
-**They were intended to power the [Convair X-6][related_post_a303_convair_x6]**, which is the sixth article
-in this series and the aircraft that would have flown them had the programme survived.
+**There is an X-39 that existed, and it is not an aircraft.** General Electric applied the designation to
+[J47][ref_j47] turbojets rebuilt to take their heated compressed air from a reactor heat exchanger rather
+than from burning fuel. **Those engines ran.** The Smithsonian National Air and Space Museum records that
+General Electric **successfully operated its X-39 engines on a ground test stand in 1956**, and that the
+[Convair X-6][related_post_a303_convair_x6] was to have carried four of them beneath its belly under the
+reactor [[Bernier 2025][research_bernier_2025]]. They were operated against three successive reactors, the
+Heat Transfer Reactor Experiments numbered one, two and three, under the
+[Aircraft Nuclear Propulsion][ref_anp] programme established by the Air Force and the Atomic Energy
+Commission in 1951 [[General Electric J47][ref_j47]].
+**The X-6 is the sixth article in this series**, and it is the aircraft that would have flown them had the
+programme survived.
+
+**The two sources disagree on what counted as one engine and the disagreement is left standing.** The
+museum account has the X-6 carrying four X-39 engines, while the encyclopaedia describes the X-39 as
+consisting of two modified J47 units [[General Electric J47][ref_j47]]. **Both can be true if the
+designation names a unit of two**, but no source consulted here says so, so no count is asserted.
 
 **Two registers therefore contain the same string and disagree completely about what it denotes.** In the
 aircraft designation series, X-39 names nothing and never did. In the engine designation series, X-39 names
@@ -351,6 +414,17 @@ turbojets** adapted to run on reactor heat under the Aircraft Nuclear Propulsion
 were operated on a ground test stand with the Heat Transfer Reactor Experiments one, two and three, and were
 intended for the Convair X-6. **This is an engine designation and has no connection to the aircraft
 designation beyond the shared string.**
+
+### Verified Against the Primary List
+
+**The absence of the X-39 from the approved-designator list was checked rather than asserted.** The
+12 May 2004 edition of DoD 4120.15-L was retrieved and read, and its aircraft appendix carries X-35A,
+X-36A, X-37A, X-38A, X-40A and X-40B with **no X-39 entry anywhere in the document**.
+
+**That is corroboration and not demonstration, and the article says so.** X-33 and X-34 are also absent
+from the same edition, and both were real flight programmes, so absence from a 2004 list is consistent
+with several histories including retirement after cancellation. **The list shows that the X-39 is not
+among the approved designators of record. It cannot by itself show that it never was.**
 
 ### Analysis
 
@@ -391,6 +465,12 @@ fed the successor programme, so the cut came after that date. The Federation of 
 last updated on 24 December 1998 and still described FATE as a live three-phase effort,
 **which is weak evidence for a later date and not proof of one**, because a page may simply go unrevised.
 
+**The obvious avenue for pinning it was attempted and failed for a mechanical reason.** A research and
+development budget justification would show the programme element and the year its funding stopped. The
+Air Force financial management archive holds the relevant fiscal year 1999 submission, and the server
+refused the connection at the transport layer rather than returning a document.
+**The date remains open, and it is open for want of access rather than for want of a record.**
+
 **Who reserved the number is not established.** The sources name the programme and the laboratory, not an
 office or an individual, and the instruction's routing implies a system programme office that no accessible
 source identifies.
@@ -399,15 +479,18 @@ source identifies.
 inferred from the number remaining unallocated and from Parsch listing X-39 among the reservations that
 produced permanent gaps, rather than from any document recording that no cancellation was filed.
 
-**Whether the current instruction has since codified reservation is not established here.** The 1994 and 2005
-versions of Air Force Joint Instruction 16-401 were read directly. The current version could not be retrieved,
-because the Air Force publishing site refused automated requests.
+**Whether the current instruction has codified reservation is now settled, and the answer is that it has
+not.** The 1994, 2005 and 2020 versions of the joint instruction were all read directly. **This item was
+open in an earlier version of this article** and was closed by retrieving the 2020 text from a mirror after
+the Air Force publishing site refused automated requests.
 
-**The nuclear turbojet is cited from a general encyclopaedia rather than from a primary source.** No separate
-article exists for the engine, and the account of it sits within the article on the J47 from which it was
-derived. **The engine's dates and reactor pairings should be treated as secondary reporting**, and they are
+**The nuclear turbojet now rests on a museum account as well as an encyclopaedia, and neither is a primary
+document.** The Smithsonian article supplies the 1956 ground-test date and the intended installation on the
+X-6. No separate encyclopaedia article exists for the engine, and the account there sits within the article
+on the J47 from which it was derived. **The two disagree on how many J47 units constituted one X-39**, so
+no count is asserted. **The reactor pairings should be treated as secondary reporting**, and the engine is
 used here only to establish that the designation string was applied to hardware in a different series, which
-is a claim the source supports plainly.
+both sources support plainly.
 
 **One source conflict is recorded rather than resolved.** The encyclopaedia article on FATE describes the
 programme as run by the Air Force Research Laboratory and the Defense Advanced Research Projects Agency
@@ -435,12 +518,17 @@ above state that mechanism and nothing else. **None of them is a physical law an
 dimensional**, and they earn their place only by making an ordering argument checkable that prose states
 loosely.
 
-**The reference base is small and is not padded.** Roughly a dozen of the entries below carry the argument,
-being the two designation surveys, the two versions of the joint instruction, the two Department-level
-issuances, the two contemporaneous FATE sources, the Boeing technical report, the trade report of the
-cancellation, and the accounts of the X-40 allocation and the nuclear turbojet.
+**The reference base is small and is not padded.** Sixteen of the entries below carry the argument, being
+the two designation surveys, the three versions of the joint instruction, the two Department-level
+issuances, the four parts of the Lockheed Martin briefing, the Boeing technical report, the trade report of
+the cancellation, the account of the X-40 allocation, and the two accounts of the nuclear turbojet.
 **The remainder define terms rather than support claims.** Reporting that split honestly is more useful than
 surrounding a thin subject with material that does not bear on it.
+
+**Ten of those sixteen are primary documents**, being the three instructions, the two Department-level
+issuances, the four briefing parts and the technical report. That is a higher primary share than a subject
+this thin would normally support, and it is a consequence of the subject being administrative.
+**The governing documents are the evidence here, rather than commentary on the evidence.**
 
 ## Conclusion
 
@@ -474,6 +562,7 @@ The next article returns to a vehicle that was built and flown.
 - [Active Aeroelastic Wing][ref_active_aeroelastic_wing]
 - [Aeronautical Systems Center][ref_asc]
 - [Aircraft Nuclear Propulsion][ref_anp]
+- [Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]
 - [Air Force Joint Instruction 16-401, 1994][ref_afi_16_401]
 - [Air Force Joint Instruction 16-401, 2005][ref_afi_16_401_2005]
 - [Air Force Research Laboratory][ref_afrl]
@@ -486,9 +575,12 @@ The next article returns to a vehicle that was built and flown.
 - [Defense Technical Information Center][ref_dtic]
 - [DoD 4120.15-L, Model Designation of Military Aerospace Vehicles][ref_dod_412015l]
 - [DoD Instruction 4120.15, Designating and Naming Military Aerospace Vehicles][ref_dodi_412015]
+- [FATE, conclusions and recommendations][ref_fate_conclusions]
+- [FATE, five technologies selected for study][ref_fate_five]
 - [Future Aircraft Technology Enhancements][ref_fate_wikipedia]
 - [General Electric J47][ref_j47]
 - [Lockheed Martin FATE briefing][ref_lockheed_fate]
+- [Lockheed Martin FATE briefing, full deck][ref_fate_deck]
 - [Missing USAF and DOD Aircraft Designations][ref_missing_mds]
 - [Unmanned Combat Aerial Vehicle][ref_ucav]
 - [United States Department of Defense Aerospace Vehicle Designation][ref_dod_designation]
@@ -542,6 +634,7 @@ The next article returns to a vehicle that was built and flown.
 
 ### Research
 
+- [Bernier 2025, The World Wasn't Ready for Nuclear-Powered Bombers][research_bernier_2025]
 - [Cupstid 1997, Future Aircraft Technology Enhancements, Block I][research_cupstid_1997]
 
 [ref_active_aeroelastic_wing]: https://en.wikipedia.org/wiki/Active_Aeroelastic_Wing
@@ -550,12 +643,16 @@ The next article returns to a vehicle that was built and flown.
 [ref_afrl]: https://en.wikipedia.org/wiki/Air_Force_Research_Laboratory
 [ref_anp]: https://en.wikipedia.org/wiki/Aircraft_Nuclear_Propulsion
 [ref_asc]: https://en.wikipedia.org/wiki/Aeronautical_Systems_Center
+[ref_dafi_16_401_2020]: https://www.designation-systems.net/usmilav/afi16-401.pdf
 [ref_darpa]: https://en.wikipedia.org/wiki/DARPA
-[ref_dod_412015l]: https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodm/412015l.pdf
+[ref_dod_412015l]: https://everyspec.com/DoD/DoD-PUBLICATIONS/DOD_4120--15-L_5753/
 [ref_dod_designation]: https://en.wikipedia.org/wiki/United_States_Department_of_Defense_aerospace_vehicle_designation
 [ref_dodi_412015]: https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/412015p.pdf
 [ref_dtic]: https://en.wikipedia.org/wiki/Defense_Technical_Information_Center
 [ref_fas_x39]: https://man.fas.org/dod-101/sys/ac/x-39.htm
+[ref_fate_conclusions]: https://man.fas.org/dod-101/sys/ac/docs/fatereport/sld058.htm
+[ref_fate_deck]: https://man.fas.org/dod-101/sys/ac/docs/fatereport/index.htm
+[ref_fate_five]: https://man.fas.org/dod-101/sys/ac/docs/fatereport/sld011.htm
 [ref_fate_wikipedia]: https://en.wikipedia.org/wiki/Future_Aircraft_Technology_Enhancements
 [ref_flightglobal_fate]: https://www.flightglobal.com/us-air-force-cuts-fixed-wing-fate-demonstrator-plans/18776.article
 [ref_j47]: https://en.wikipedia.org/wiki/General_Electric_J47
@@ -611,4 +708,5 @@ The next article returns to a vehicle that was built and flown.
 [related_post_a334_boeing_x37]: {% post_url 2025-11-12-x_planes_boeing_x37 %}
 [related_post_a335_scaled_composites_x38]: {% post_url 2025-11-13-x_planes_scaled_composites_x38 %}
 
+[research_bernier_2025]: https://airandspace.si.edu/air-and-space-quarterly/issue-14/nuclear-bomber
 [research_cupstid_1997]: https://apps.dtic.mil/sti/pdfs/ADA367849.pdf

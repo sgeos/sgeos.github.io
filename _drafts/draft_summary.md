@@ -24,8 +24,32 @@ index 40 of 72.
 
 **524 lines, 0 display equations, 66 reference definitions, 4,600 words after the draft pass.**
 **614 lines, 8 display equations, 66 reference definitions, 5,534 words after the equation-density
-review.** Committed. **Not pushed**, since neither pass pushes. **Not published**, and publication of the
-series has never been authorised.
+review.** **712 lines, 8 display equations, 71 reference definitions, 6,655 words after the
+primary-reference review.** Committed. **Not pushed**, since none of these passes pushes.
+**Not published**, and publication of the series has never been authorised.
+
+**THE PRIMARY PASS CHECKED AN ASSERTION AND IT HELD.** The draft claimed that a designation never reaching
+the Department-wide list has not been assigned, **and then did not look at the list**. The 12 May 2004
+edition of DoD 4120.15-L was retrieved and read. **X-35A, X-36A, X-37A, X-38A, X-40A and X-40B are all
+present in one contiguous passage and there is no X-39 entry anywhere in the document.** The caveat is
+recorded rather than buried, since **X-33 and X-34 are also absent** and both were real flight programmes,
+so the list corroborates the non-assignment without demonstrating it.
+
+**THE CURRENT INSTRUCTION WAS RETRIEVED AND IT CLOSED AN OPEN ITEM.** The joint instruction of
+3 November 2020 **still contains no procedure for reserving a design number in advance of a request**,
+twenty-three years on. It does now explicitly authorise **skipping a design number at the approving
+authority's discretion**, it now carries **retirement and reactivation procedures** that 1997 lacked, and
+it records the **cancellation of DoD 4120.15-L as the public designator database**, which is why the 2004
+edition is the last public snapshot worth checking.
+
+**THE LOCKHEED MARTIN BRIEFING SURVIVES IN FULL AT FIFTY-EIGHT SLIDES** and only its title slide had been
+cited. Phase I selected **five technologies requiring flight demonstration**, and the concluding slide
+reports that **integrating them into an existing vehicle would require substantial modification**, which is
+the technical case for a new airframe and therefore for a new design number. **That substantiates by
+primary evidence a claim the draft had made by inference.**
+
+**Primary share of external references rose from 22.2 to 31.2 percent**, and the URL sweep from 22 of 25 to
+30 of 32, the two refusals being the documented `.mil` bot-detection pattern.
 
 **THE EQUATION PASS REVERSED THE DRAFT PASS AND THE DRAFT PASS WAS WRONG.** The draft asserted that a
 designation has no mass, no area **and no binding constraint**, and the third clause is false on the
@@ -61,7 +85,7 @@ adequate reading of a field. This article makes a documentary argument and exhib
 inline instead. **The reference base is small on purpose and the article states which dozen entries
 carry the argument.**
 
-**Remaining work.** Primary-reference review. Publication review.
+**Remaining work.** Publication review.
 
 ## X-Planes Scaled Composites X-38 A335 2025-11-13
 

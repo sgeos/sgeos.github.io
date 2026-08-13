@@ -1,12 +1,74 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A336, X-Planes, X-39, Reserved but Never Assigned. Equation-density review complete.**
+**Task**: **A336, X-Planes, X-39, Reserved but Never Assigned. Primary-reference review complete.**
 Committed, **not pushed**, per the four-pass rhythm. **Not published.**
 
 ---
 
-## Read This First, Because the Pass Overturned the Previous One
+## The Primary Pass Found That I Had Asserted Something Without Looking
+
+**The draft said that a designation which never reaches the Department-wide list has not been assigned, and
+then never opened the list.** That is an assertion dressed as evidence, and it was mine.
+
+**So I retrieved it.** The 12 May 2004 edition of DoD 4120.15-L, the last publicly released one, carries an
+aircraft appendix running to over a hundred pages. **X-35A, X-36A, X-37A, X-38A, X-40A and X-40B all appear
+in one contiguous passage. There is no X-39 entry anywhere in the document.**
+
+**The caveat is in the article rather than buried.** X-33 and X-34 are **also** absent from that edition,
+and both were substantial flight programmes cancelled in 2001. So absence from a 2004 list is consistent
+with more than one history. **The list corroborates the non-assignment. It does not demonstrate it**, and
+the demonstrative evidence remains Parsch's statement that no request was ever submitted.
+
+---
+
+## The Current Instruction Closed an Open Item and Opened Three Findings
+
+I retrieved the joint instruction of **3 November 2020** from a mirror, after the Air Force publishing site
+refused automated requests.
+
+**Reserving a design number in advance of a request is still not a procedure.** Twenty-three years after
+the X-39 was lost to exactly that act, it remains undescribed. That item was open in the draft and is now
+closed.
+
+**Skipping a number is now explicitly authorised.** The current text states that the approving authority
+reserves the authority to skip a design number at discretion. **What was an accident of correspondence in
+1997 is now a stated discretionary power**, which changes the character of the gaps rather than their
+number.
+
+**Retirement and reactivation procedures now exist**, which is precisely the release machinery 1997 lacked.
+They would still not have saved the X-39, because retirement applies to designators that were assigned and
+this one never was. **The same gap, in a newer document.**
+
+**And DoD 4120.15-L is itself recorded as cancelled** as the public designator database, replaced by a
+Department web service. That is why the 2004 edition was the right thing to check.
+
+---
+
+## The Contractor Briefing Substantiated an Inference
+
+**I had been citing one slide of a fifty-eight-slide deck.** The full Lockheed Martin Phase I briefing
+survives. It selected **five technologies as those requiring flight demonstration**, and its concluding
+slide reports that **integrating them into an existing vehicle would require substantial modification**.
+
+**That is the technical case for a new airframe, and therefore for a new design number.** The draft had
+reasoned its way to that claim. It is now evidenced.
+
+---
+
+## Two Things Left Standing
+
+**A source conflict on the nuclear turbojet.** The Smithsonian has the X-6 carrying four X-39 engines; the
+encyclopaedia describes the X-39 as two modified J47 units. **Both hold if the designation names a unit of
+two, but no source says so, so I assert no count.**
+
+**A failed avenue, disclosed in the article rather than passed over.** A budget justification would pin the
+FATE cancellation date. The Air Force financial management archive refused the connection at the transport
+layer. **The date is open for want of access, not for want of a record**, and the article now says which.
+
+---
+
+## From the Equation Pass, Which Overturned the Draft Pass
 
 **The draft pass told you this article needed no equations. That was wrong, and its own reasoning was
 wrong.** I wrote that a designation has no mass, no area **and no binding constraint**. The first two
@@ -65,9 +127,10 @@ geometry, weights and engine ratings. **X-39 has neither.** No vehicle was ever 
 keystone to identify and no system to dimension, and the genre's reduced six-section order applies for
 the first time in forty articles.
 
-**The zero equation count is a decision and the article defends it in its own text.** A designation has
-no mass, no area and no binding constraint. Writing mathematics here would be decoration, and the genre
-document says in terms that padding a short anomaly article is worse than leaving it short.
+**That reduced order still holds, and the claim about equations that once sat here does not.** This
+paragraph previously said the article carried no equations because a designation has no binding
+constraint. **The equation pass above overturned that**, and the sentence is corrected here rather than
+left to contradict the section three headings up.
 
 **The three series sections are absent for a stated reason.** A contemporary-literature survey and a
 source-base accounting exist to demonstrate that a technical argument rests on an adequate reading of a
@@ -158,6 +221,10 @@ is owed**, and I checked rather than assumed, because the rule has fired on eigh
 
 - `python3 _verify.py` **0 errors, 0 warnings** across 300 posts.
 - `./_check.sh --drafts` **clean end to end**, 509 pages, **209 carrying display math**, no findings.
+- Reference integrity **71 used against 71 defined**, zero undefined, zero orphaned.
+- URL sweep **30 of 32 at 200**, up from 22 of 25. Both refusals are the documented `.mil` pattern.
+- **Primary share of external references 22.2 to 31.2 percent**, with 10 of the 16 load-bearing entries
+  now primary documents. The sixteen and ten were **verified by script, not by eye**.
 - **Every display equation occupies exactly one source line.**
 - Rendered body carries **zero raw display-math delimiters**, MathJax loads, and its delimiters balance.
 - Reference integrity **66 used against 66 defined**, zero undefined, zero orphaned, zero duplicates.
@@ -175,8 +242,8 @@ is owed**, and I checked rather than assumed, because the rule has fired on eigh
 
 ## Outstanding
 
-**It is committed and not pushed**, which is what these passes call for. The remaining two are the
-primary-reference review and the publication review.
+**It is committed and not pushed**, which is what these passes call for. **Only the publication review
+remains**, and that pass commits and pushes but does not publish.
 
 **The X-Planes set remains unpublished and unauthorised.** Forty of seventy-two drafted, thirty-nine of
 them citing a sibling through `post_url` with no target in `_posts/`, so **the set publishes in order or
