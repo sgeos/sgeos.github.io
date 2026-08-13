@@ -17,6 +17,43 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes X-39 Reserved but Never Assigned A336 2025-11-14
+
+`x_planes_x39_reserved_never_assigned.markdown`, A336, editorial date 2025-11-14, series `x_planes`
+index 40 of 72.
+
+**524 lines, 0 display equations, 66 reference definitions, 4,600 words after the draft pass.**
+Committed. **Not pushed**, since the draft pass does not push. **Not published**, and publication of the
+series has never been authorised.
+
+**THIS IS THE FIRST DESIGNATION ANOMALY IN THE SERIES WRITTEN IN THE REDUCED SECTION ORDER.** A320 and
+A324 are both listed as anomalies and both were written at full length, because the SV-5D flew and the
+X-27 design record carried complete geometry. **X-39 has neither, since no vehicle was ever built**, so
+the genre's reduced order applies for the first time. There is no keystone, no sizing, and no dependent
+systems, and **there are deliberately no equations**, because a designation has no mass, no area and no
+binding constraint.
+
+**THE FINDING IS THAT THE GAP TOOK TWO MISSING DOCUMENTS AND THE SECOND ONE IS THE IMPORTANT ONE.** The
+number was reserved on 23 April 1997 for the Future Aircraft Technology Enhancements programme, the
+written allocation request was never submitted because the demonstrator was cut, and **the reservation
+was never cancelled**. Reuse requires cancellation before the next number is allocated, X-40A was
+allocated during the same year, so **the number became unrecoverable before it became unnecessary**.
+
+**TWO SUPPORTING OBSERVATIONS CARRY THE ANALYSIS.** The joint instruction explicitly permits reserving
+popular **names** and contains no equivalent provision for design **numbers**, so the act that consumed
+the X-39 had no basis in the written procedure at all. And **the same string names a nuclear turbojet
+that actually ran**, being the pair of reactor-heated J47 engines built for the Convair X-6, which is
+the sixth article in this series.
+
+**THE THREE SERIES SECTIONS ARE DELIBERATELY ABSENT AND THE ARTICLE SAYS WHY.** A contemporary
+literature survey and a source-base accounting exist to show that a technical argument rests on an
+adequate reading of a field. This article makes a documentary argument and exhibits its documents
+inline instead. **The reference base is small on purpose and the article states which dozen entries
+carry the argument.**
+
+**Remaining work.** Equation-density review, which is expected to conclude that no equations belong.
+Primary-reference review. Publication review.
+
 ## X-Planes Scaled Composites X-38 A335 2025-11-13
 
 `x_planes_scaled_composites_x38.markdown`, A335, editorial date 2025-11-13, series `x_planes` index 39
@@ -6991,11 +7028,17 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Forty-five files exist in `_drafts/`. One is a template. One is this summary.
-Thirty-five are the in-progress X-Planes series, A297 through A331, none of them published.
+Fifty files exist in `_drafts/`. One is a template. One is this summary.
+**Forty are the in-progress X-Planes series, A297 through A336, none of them published**, and
+publication of the series has never been authorised.
 Eight are the pre-release candidates listed below.
 No stubs remain.
 A79 through A144 have been published.
+
+**These counts were re-measured against the working tree on 2026-08-13 rather than carried forward.**
+The previous version read forty-five files and thirty-five X-Planes drafts running to A331, which had
+been true five articles earlier. **A resume channel that disagrees with the tree is worse than one that
+is merely terse**, so the figures above come from counting the directory.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.
