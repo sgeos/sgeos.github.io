@@ -282,6 +282,13 @@ something structurally identical elsewhere. That is an argument from similarity 
 series before, when a string constant was judged cheap by the same reasoning and turned out to require an
 entire representation decision.
 
+**Estimating by analogy is a studied method and its record is mixed**, which is the right prior to hold here.
+[Shepperd and Schofield 1997][research_shepperd_schofield_1997] set out the technique and report it
+outperforming algorithmic models on their datasets, while
+[Walkerden and Jeffery 1999][research_walkerden_jeffery_1999] find human-selected analogies doing better than
+the automated ones and neither dominating. **The method is respectable and it is not a measurement**, and the
+present article uses the weaker human form of it.
+
 **Two instances is not zero.** The nested form has two occurrences, and a design that handles 300 cases and
 refuses 2 delivers
 
@@ -292,9 +299,12 @@ not established here.
 
 **The author scoped work he would then perform.** This is the sharpest threat and it was flagged before the
 measurement was taken, since a result reading "cheaper than feared" from a party who benefits from it starting
-sooner deserves more scepticism than one reading "expensive". The mitigation offered is that the central
-number is a **zero**, which is harder to produce by motivated reasoning than a favourable ratio, and that the
-instrument reports counts a reader can reproduce.
+sooner deserves more scepticism than one reading "expensive". **The association between an investigator's
+interest and a favourable result is measured and not merely suspected**, and
+[Bekelman, Li and Gross 2003][research_bekelman_2003] give the systematic review for biomedical research,
+where the effect is large and consistent. The domain is not this one and the mechanism is not domain-specific.
+The mitigation offered is that the central number is a **zero**, which is harder to produce by motivated
+reasoning than a favourable ratio, and that the instrument reports counts a reader can reproduce.
 
 ## Pattern Extraction
 
@@ -327,6 +337,9 @@ The literature that makes aggregates expensive is about deciding representation 
 polymorphism**, where a function compiled once must handle values whose layout differs per instantiation.
 [Peyton Jones and Salkild 1989][research_pj_salkild_1989] give the tagless machine that makes uniform
 representation cheap, [Leroy 1992][research_leroy_1992] introduces the coercion-based unboxing analysis,
+[Ohori 1995][research_ohori_1995] gives the polymorphic record calculus together with **a compilation
+method that resolves field access to an index computation**, which is the closest antecedent to what this
+backend receives already resolved,
 [Henglein and Jørgensen 1994][research_henglein_1994] characterise optimal boxing placement;
 [Harper and Morrisett 1995][research_harper_morrisett_1995] compile polymorphism by passing types at run
 time, [Shao and Appel 1995][research_shao_appel_1995] and [Tarditi and others 1996][research_tarditi_1996]
@@ -397,7 +410,10 @@ assemblies and obliges every implementation to resolve, cache and specialise.
 
 The [WebAssembly garbage-collection proposal][ref_wasm_gc] takes the middle position, declaring struct and
 array types in the module so that field indices are static while the physical layout stays the engine's
-choice.
+choice. **That position follows from the format's stated design goals**, which
+[Haas and others 2017][research_haas_2017] set out as hardware independence together with fast validation,
+and a format that fixed byte offsets would forfeit the first to obtain something the engine can supply
+anyway.
 
 **Keleusma sits at the far end, with the byte offset in the instruction.** That forecloses independent
 recompilation of a dependency, which is a real cost paid elsewhere in the design, and it is exactly why the
@@ -541,6 +557,7 @@ solved.
 [ref_llvm_gep]: https://llvm.org/docs/GetElementPtr.html
 [ref_llvm_langref]: https://llvm.org/docs/LangRef.html
 [ref_llvm_perf_tips]: https://llvm.org/docs/Frontend/PerformanceTips.html
+
 ### Reference, aggregate layout in application binary interfaces
 
 - [System V Application Binary Interface, AMD64 Architecture Processor Supplement][ref_sysv_amd64]
@@ -552,6 +569,7 @@ solved.
 [ref_itanium_cxx_abi]: https://itanium-cxx-abi.github.io/cxx-abi/abi.html
 [ref_rust_layout]: https://doc.rust-lang.org/reference/type-layout.html
 [ref_sysv_amd64]: https://gitlab.com/x86-psABIs/x86-64-ABI
+
 ### Reference, aggregate access in bytecode formats
 
 - [Oracle Java Virtual Machine Specification][ref_jvm_spec]
@@ -561,6 +579,7 @@ solved.
 [ref_ecma335]: https://www.ecma-international.org/publications-and-standards/standards/ecma-335/
 [ref_jvm_spec]: https://docs.oracle.com/javase/specs/jvms/se21/html/index.html
 [ref_wasm_gc]: https://github.com/WebAssembly/gc
+
 ### Reference, precomputed layout outside compilers
 
 - [FlatBuffers][ref_flatbuffers]
@@ -570,6 +589,7 @@ solved.
 [ref_arrow]: https://arrow.apache.org/docs/format/Columnar.html
 [ref_capnproto]: https://capnproto.org/
 [ref_flatbuffers]: https://flatbuffers.dev/
+
 ### Related Post
 
 - [Related Post, Keleusma Research Spike, Blocking Frequency as the Ordering Principle for Instruction-Set Coverage][related_post_a369]
@@ -579,42 +599,50 @@ solved.
 [related_post_a369]: {% post_url 2026-08-06-native_lowering_coverage %}
 [related_post_a370]: {% post_url 2026-08-07-two_calling_conventions %}
 [related_post_a371]: {% post_url 2026-08-08-do_proven_bounds_survive_compilation %}
+
 ### Research
 
-- [Formal verification of a realistic compiler][research_leroy_2009_cacm]
-- [Proof-carrying code][research_necula_1997]
-- [Unboxed objects and polymorphic typing][research_leroy_1992]
-- [Unboxed values as first class citizens in a non-strict functional language][research_pj_launchbury_1991]
-- [Flexible representation analysis][research_shao_1997]
+- [A polymorphic record calculus and its compilation][research_ohori_1995]
 - [A review of studies on expert estimation of software development effort][research_jorgensen_2004]
-- [The impact of irrelevant and misleading information on software development effort estimates][research_jorgensen_grimstad_2011]
-- [An analysis of the dynamic behavior of JavaScript programs][research_richards_2010]
-- [Modern Compiler Implementation in ML][research_appel_1998]
 - [A systematic review of software development cost estimation studies][research_jorgensen_shepperd_2007]
 - [A type-based compiler for Standard ML][research_shao_appel_1995]
+- [Adoption and use of Java generics][research_parnin_2013]
+- [An analysis of the dynamic behavior of JavaScript programs][research_richards_2010]
+- [An Empirical Study of Analogy-based Software Effort Estimation][research_walkerden_jeffery_1999]
 - [Automatic pool allocation: improving performance by controlling data structure layout in the heap][research_lattner_adve_2005]
+- [Bringing the web up to speed with WebAssembly][research_haas_2017]
 - [Cache-conscious structure definition][research_chilimbi_def_1999]
 - [Cache-conscious structure layout][research_chilimbi_layout_1999]
 - [Compiling polymorphism using intensional type analysis][research_harper_morrisett_1995]
+- [Estimating software project effort using analogies][research_shepperd_schofield_1997]
+- [Flexible representation analysis][research_shao_1997]
+- [Formal verification of a realistic compiler][research_leroy_2009_cacm]
 - [Formally optimal boxing][research_henglein_1994]
 - [From System F to typed assembly language][research_morrisett_1999]
 - [How developers use the dynamic features of programming languages][research_callau_2011]
 - [Judgment under uncertainty: heuristics and biases][research_tversky_kahneman_1974]
 - [Mining billions of AST nodes to study actual and potential usage of Java language features][research_dyer_2014]
+- [Modern Compiler Implementation in ML][research_appel_1998]
+- [Proof-carrying code][research_necula_1997]
+- [Scope and Impact of Financial Conflicts of Interest in Biomedical Research][research_bekelman_2003]
 - [Space and time-efficient memory layout for multiple inheritance][research_gil_sweeney_1999]
-- [TIL: a type-directed optimizing compiler for ML][research_tarditi_1996]
 - [The direct cost of virtual function calls in C++][research_driesen_holzle_1996]
+- [The impact of irrelevant and misleading information on software development effort estimates][research_jorgensen_grimstad_2011]
 - [The spineless tagless G-machine][research_pj_salkild_1989]
+- [TIL: a type-directed optimizing compiler for ML][research_tarditi_1996]
 - [Two-directional record layout for multiple inheritance][research_pugh_weddell_1990]
-- [Adoption and use of Java generics][research_parnin_2013]
+- [Unboxed objects and polymorphic typing][research_leroy_1992]
+- [Unboxed values as first class citizens in a non-strict functional language][research_pj_launchbury_1991]
 
 [research_appel_1998]: https://doi.org/10.1017/CBO9780511811449
+[research_bekelman_2003]: https://doi.org/10.1001/jama.289.4.454
 [research_callau_2011]: https://doi.org/10.1145/1985441.1985448
 [research_chilimbi_def_1999]: https://doi.org/10.1145/301618.301635
 [research_chilimbi_layout_1999]: https://doi.org/10.1145/301618.301633
 [research_driesen_holzle_1996]: https://doi.org/10.1145/236337.236369
 [research_dyer_2014]: https://doi.org/10.1145/2568225.2568295
 [research_gil_sweeney_1999]: https://doi.org/10.1145/320385.320408
+[research_haas_2017]: https://doi.org/10.1145/3062341.3062363
 [research_harper_morrisett_1995]: https://doi.org/10.1145/199448.199475
 [research_henglein_1994]: https://doi.org/10.1145/174675.177874
 [research_jorgensen_2004]: https://doi.org/10.1016/s0164-1212(02)00156-5
@@ -625,6 +653,7 @@ solved.
 [research_leroy_2009_cacm]: https://doi.org/10.1145/1538788.1538814
 [research_morrisett_1999]: https://doi.org/10.1145/319301.319345
 [research_necula_1997]: https://doi.org/10.1145/263699.263712
+[research_ohori_1995]: https://doi.org/10.1145/218570.218572
 [research_parnin_2013]: https://doi.org/10.1007/s10664-012-9236-6
 [research_pj_launchbury_1991]: https://doi.org/10.1007/3540543961_30
 [research_pj_salkild_1989]: https://doi.org/10.1145/99370.99385
@@ -632,5 +661,7 @@ solved.
 [research_richards_2010]: https://doi.org/10.1145/1806596.1806598
 [research_shao_1997]: https://doi.org/10.1145/258949.258958
 [research_shao_appel_1995]: https://doi.org/10.1145/207110.207123
+[research_shepperd_schofield_1997]: https://doi.org/10.1109/32.637387
 [research_tarditi_1996]: https://doi.org/10.1145/231379.231414
 [research_tversky_kahneman_1974]: https://doi.org/10.1126/science.185.4157.1124
+[research_walkerden_jeffery_1999]: https://doi.org/10.1023/a:1009872202035

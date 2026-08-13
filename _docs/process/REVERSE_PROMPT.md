@@ -9,8 +9,8 @@ This file is the AI-to-human communication channel. It is overwritten after each
 ## Last Updated
 
 **Date**: 2026-08-12
-**Task**: **A372 equation-density review**, following the standards and retarget pass in the previous
-commit. **Committed. NOT pushed and NOT published.**
+**Task**: **A372 primary-reference review**, following the equation pass in the previous commit.
+**Committed. NOT pushed and NOT published.**
 
 ---
 
@@ -29,7 +29,44 @@ Part 2 **of 3**, confirmed as rendered rather than assumed. **The `keleusma_nati
 
 ---
 
-## The Equation Pass, Which Is the Newest Work
+## The Primary-Reference Pass, Which Is the Newest Work
+
+**42 to 47 reference definitions, 26 to 31 research identifiers.** Primary count at a 2000 cutoff rose 17 to
+20, and the year range extended from 1974-2014 to **1974-2017**. The base previously carried **nothing at all
+after 2014**, in a section titled The Contemporary Literature.
+
+Five references added, each where a step of the argument depends on it.
+
+- **Ohori 1995**, the polymorphic record calculus and a compilation method resolving field access to an index
+  computation. **The closest antecedent to what this backend receives already resolved**, and it was absent
+  while the surrounding unboxing work was cited.
+- **Shepperd and Schofield 1997** and **Walkerden and Jeffery 1999**, for the Threats section's own phrase
+  "an argument from similarity". **Estimation by analogy is that argument's literature** and its record is
+  mixed, which is the right prior for the article to hold.
+- **Bekelman, Li and Gross 2003**, for the threat that the author scoped work he would then perform, since
+  the association between an investigator's interest and a favourable result is measured. **It is a
+  systematic review and therefore not primary**, which the log states rather than eliding.
+- **Haas and others 2017**, the WebAssembly design paper. The format's *proposal* was cited while the paper
+  stating *why* was not, and it closes the contemporary window.
+
+## The Rendered Audit Caught What `_verify.py` Passed, Twice
+
+Re-sorting the link-definition blocks with a regex **ate the blank lines** separating them from adjacent
+headings and list items. Kramdown then stopped reading them as definitions, and **62 and then 64 references
+rendered unresolved** while `_verify.py` reported 0 errors and reference integrity reported 47 used against
+47 defined.
+
+**A source checker predicts what kramdown will do. The rendered audit sees what a reader sees.** That is the
+standing corpus lesson and it fired twice in one pass. I abandoned the regex for a line-based approach that
+sorts each run in place and restores exactly one blank line on each side, verified as 6 runs, 0 separation
+issues, every run sorted.
+
+**Three sections remain uncited and correctly so**, being the orientation section, the Measurement and the
+Epistemic State, which all report the article's own instrument.
+
+---
+
+## The Equation Pass, From an Earlier Commit
 
 **12 to 15 display equations.** The audit's four candidate gaps were mostly the known false positives, being
 two survey subsections whose numbers are publication years and an Epistemic State restating measured values.
