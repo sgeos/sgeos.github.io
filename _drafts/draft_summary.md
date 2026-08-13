@@ -113,7 +113,29 @@ an animal-behaviour apparatus and disaster risk reduction**, and checking an out
 found that **subscale is a psychometrics term**, which put one questionnaire-validation record in the
 corpus. It was removed and the measured residual noise is reported as a floor rather than a ceiling.
 
-**Remaining work.** Publication review.
+**10,681 lines, 64 display equations, 4,735 reference definitions, 97,714 words after the publication
+review**, of which 7,903 are author prose. Committed and **PUSHED**. **Not published.**
+
+**THE SURVEY WAS AUDITED AGAINST THE ARTICLE'S OWN SUBJECTS AND TWO WERE THIN.** **Relative density
+measured zero while the article displays it as the canonical similarity condition**, which is the A335
+pattern exactly. Runway excursion stood at six against a closing argument that rests on a runway overrun.
+A supplementary harvest of 3,184 records took relative density and scaling laws from **0 to 104** and
+runway excursion from **6 to 176**.
+
+**THE SUPPLEMENTARY ANCHORS WERE BADLY CHOSEN AND THE AUDIT CAUGHT THEM.** `relative density` is a
+**soil mechanics term** for how densely a granular soil is packed, and `moment of inertia` names a
+**nuclear physics model** of rotational bands as well as a concrete beam property. **44 records were
+removed, 10.6 percent of the supplementary set.** The first harvest was audited by reading samples and the
+supplementary one initially was not, which is the process gap that let them in.
+
+**A MERGE ROUTINE CORRUPTED SEVEN CLUSTER COUNTS AND THE DISPLAY SIZES EXPOSED IT.** A non-greedy pattern
+reached past its intended heading, so two clusters were given counts belonging to their neighbours and the
+stated totals disagreed with the data by as much as **173 records**. All nine cluster blocks were rebuilt
+from the harvest files rather than patched.
+
+**Remaining work.** None. All four passes are complete. **Publication has never been authorised for this
+series**, and A337 must not be published alone, since it cites forty siblings through `post_url` and none
+of them exists in `_posts/`.
 
 ## X-Planes X-39 Reserved but Never Assigned A336 2025-11-14
 

@@ -1,8 +1,53 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A337, X-Planes, Boeing X-40. Primary-reference review complete.** Committed, **not pushed**,
-per the four-pass rhythm. **Not published.**
+**Task**: **A337, X-Planes, Boeing X-40. Publication review complete.** Committed and **PUSHED**.
+**Not published.** All four passes are done.
+
+---
+
+## The Survey Had a Subject at Zero That the Article Displays
+
+**I audited the survey against the article's own load-bearing subjects and two came back thin.**
+
+**Relative density measured zero.** The article displays it as the canonical form of the similarity
+condition, derives the vehicle's value from it, and uses it as the independent cross-check on the central
+finding. **The survey held nothing on it**, because the first harvest never asked. That is the A335
+pattern exactly.
+
+**Runway excursion stood at six**, against a closing argument that rests on the X-37A overrunning a runway.
+
+**A supplementary harvest of 3,184 records closed both**, taking relative density and scaling laws from
+**0 to 104** and runway excursion from **6 to 176**.
+
+---
+
+## Read This, Because My Supplementary Anchors Were Bad
+
+**`relative density` is a soil mechanics term.** It is the standard measure of how densely a granular soil
+is packed, and it is everywhere in geotechnical engineering. **`moment of inertia` names a nuclear physics
+model** of rotational bands in odd-mass nuclei, and separately a reinforced concrete section property.
+
+**Forty-four records across those families reached the corpus and were removed**, which was 10.6 percent
+of the supplementary set. **The first harvest was audited by reading samples and the supplementary one
+initially was not**, and that is the whole explanation. The gap is recorded in the article rather than
+smoothed over.
+
+**I found them by checking an out-of-place publisher prefix in a routine URL sample**, a Physical Review D
+identifier sitting in an aerospace reference list. That is the second time on this article that a prefix
+check has beaten the random sample.
+
+---
+
+## A Merge Routine Corrupted Seven Cluster Counts
+
+**The routine that updated a cluster's record count used a non-greedy pattern that reached past its
+intended heading**, so two clusters were given counts belonging to their neighbours. **The stated totals
+disagreed with the data by as much as 173 records.**
+
+**The display sizes exposed it**, because two clusters were left showing 14 entries where the prose claimed
+25. **All nine cluster blocks were then rebuilt from the harvest files rather than patched**, and every
+count in the survey is now derived rather than edited.
 
 ---
 
@@ -236,9 +281,13 @@ so an alternation cannot escape its lookahead and turn a conjunction into a disj
 - **All 12 curated URLs resolve at 200.** A sample of 15 harvested identifiers resolves 15 of 15, the 403
   responses being AIAA, MDPI and Bentham, all documented publisher behaviour.
 - Diction **0 constructions above the corpus maximum** against 300 peers.
-- **10,338 lines, 64 display equations, 4,574 reference definitions, 94,474 words**, of which 7,642 are
+- **10,681 lines, 64 display equations, 4,735 reference definitions, 97,714 words**, of which 7,903 are
   author prose.
-- **All 28 NASA identifiers resolve 200 of 200.** No anchor appears twice in the reference list. Every display equation occupies exactly one source line and the rendered page carries 64
+- **All 12 curated URLs and all 28 NASA identifiers resolve 200 of 200**, and a sample of 15 harvested
+  identifiers resolves 15 of 15. No anchor appears twice in the reference list.
+- Contemporary coverage **47.3 percent from 2015 or later, 29.2 percent from 2020 or later**.
+- Structural conformance matches A335 heading for heading. Acronyms clean, the only flagged tokens being
+  `UH` and `CH` from model designations, which the checklist exempts. Every display equation occupies exactly one source line and the rendered page carries 64
   display math blocks with balanced delimiters.
 - `tmp/a337/verify.py` **55 of 55**, sharing no code with the draft.
 
@@ -246,8 +295,11 @@ so an alternation cannot escape its lookahead and turn a conjunction into a disj
 
 ## Outstanding
 
-**It is committed and not pushed**, which is what these passes call for. **Only the publication review
-remains**, and that pass commits and pushes but does not publish.
+**It is committed and pushed, and it is not published**, which is what you asked for.
+
+**Publishing it alone would fail the build.** A337 cites forty siblings through `post_url` and none exists
+in `_posts/`, so **the set publishes in order or together**. Forty-one of seventy-two are drafted and
+**publication has never been authorised**.
 
 **The X-Planes set remains unpublished and unauthorised.** Forty-one of seventy-two drafted, forty of them
 citing a sibling through `post_url` with no target in `_posts/`, so **the set publishes in order or
