@@ -11,7 +11,7 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `b3ed6a2`
+- **Parent commit** (the repository state this handoff describes): `5ace44b`
 - **Written**: 2026-08-13
 - **Tree at write**: clean, nothing unpushed
 - **Context**: the X-Planes series is IN PROGRESS. **Thirty-nine of seventy-two articles drafted,
@@ -30,6 +30,11 @@ resuming agent. Read it first, validate it, then read the live channels.
   The homonym store grew **41 to 66 patterns**. `_lib/test_lib.py` is **78 of 78**, up from 75.
 - **Six hundred dead download links were removed from the live site**, `_layouts/post.html` and
   `index.html` having emitted PDF and EPUB links for every post that have never once resolved.
+- **2,295 truncated citation labels were repaired across 18 X-Planes drafts.** Their identifiers were
+  always correct and only the visible link text was cut, so no reference was removed.
+- **Twenty-two leaked wait loops were reaped**, each written as `until ! pgrep -f "<script>"` which
+  **matches its own command line and can never exit**. The trap is recorded. Key a wait on the job's
+  output, never on its process name.
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
 and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -53,14 +58,17 @@ described.
 pushed, and returns 404 while the site root returns 200, which is correct because nothing in that
 series is published. There is no half-finished pass to pick up.
 
-**One side item is open and it is deliberately deferred.** A citation audit over 101,028 citations
-reports **44 title mismatches**, of which **43 sit in unpublished X-Planes drafts** and one sits in the
-published A371 and is defensible, being a real book chapter the registry holds without authors.
-**Those 43 belong to their own articles' publication reviews and not to a separate sweep**, since
-removing a reference requires knowing whether the prose depends on it. **24 of the 44 resolve to
-records the registry holds with no authors at all**, which is the rule firing rather than a defect in
-the citation. **Do not dismiss them as artefacts.** An earlier reading called them noise from a
-trailing full stop, which was wrong, since the comparison never sees punctuation.
+**The citation audit is CLOSED and its finding was not what it looked like.** The 44 title mismatches
+were **one systematic defect**, not forty-four judgements. A hard **four-word cap** had been applied to
+the title of every author-less record, so the visible link text read `Air Drag on a 1966` where the
+work is `Air Drag on a Falling Plastic Ball`. **The identifiers were correct throughout**, so the fix
+was to repair labels and not to remove references. **2,295 labels were repaired across 18 X-Planes
+drafts**, rebuilt from `.cache/citations.json` with no network, and inline prose citations were
+repaired as well as list entries. **Removing the 44 would have been the obvious response and wrong.**
+
+**Do not dismiss a citation finding as an artefact without reading the rule that fired.** An earlier
+reading called these noise from a trailing full stop. That was wrong, the comparison never sees
+punctuation, and acting on it would have discarded 2,295 real defects.
 
 **Two items are owed from outside this repository.** A369's claim that per-function frame size varies
 by roughly a factor of thirty awaits the Keleusma decision register, and neither A371's nor A372's

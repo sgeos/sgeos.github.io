@@ -215,3 +215,28 @@ reading it, and forty-five more were waiting in the unpublished drafts.
 recoverable in one minute from the source, and asserting a mechanism without checking it is
 the same defect the corpus documents everywhere else, arriving in the diagnosis rather than in
 the article.
+
+## A wait loop that matches its own command line can never exit
+
+**2026-08-13, twenty-two leaked shells across three sessions.** Waiting for a background job was
+written as
+
+    until ! pgrep -f "harvest3.py" > /dev/null; do sleep 60; done
+
+**`pgrep -f` matches the full command line of every process, including the waiting shell's own**,
+and that command line contains the literal string `harvest3.py`. So the loop finds itself, concludes
+the job is still running, and sleeps forever. It is not slow. **It is structurally unable to
+terminate**, and it survives the session that created it.
+
+Twenty-two of these accumulated, aged up to a day and a half, every one waiting on a script that had
+finished long before. They cost almost no processor time, which is why nothing ever surfaced them.
+
+**Key the wait on the job's OUTPUT, not on its process name.**
+
+    until [ -f tmp/a372/cr_dtic.json ]; do sleep 45; done
+    until grep -q "clean of hard" tmp/audit.txt; do sleep 45; done
+
+A sentinel in a file cannot match the waiting shell. **The same defect appears in verification**, and
+it did here: a follow-up check written as `ps -eo command | grep -c "until .*sleep"` reported three
+survivors by counting its own pipeline. Snapshot `ps` to a file and read the file, or the instrument
+becomes one of the things it is measuring.
