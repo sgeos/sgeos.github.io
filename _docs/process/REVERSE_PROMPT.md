@@ -1,370 +1,55 @@
-# Reverse Prompt
-
-> **Navigation**: [Process](./README.md) | [Documentation Root](../README.md)
-
-This file is the AI-to-human communication channel. It is overwritten after each completed task.
-
----
-
 ## Last Updated
 
-**Date**: 2026-08-12
-**Task**: **Dictionary entries removed from two live pages**, found by a background citation sweep.
-**Committed AND pushed. TWO LIVE PAGES CHANGED.**
+**Date**: 2026-08-13
+**Task**: **Side work closed out ahead of a compaction.** The citation audit, the shared harvesting
+machinery, the live-site dead links and twenty-two leaked shells. **Committed AND pushed. The handoff
+is green.**
 
 ---
 
-## Where It Is
+## The Citation Audit Is Closed, and It Was Not What It Looked Like
 
-**Published.** `_posts/2026-08-08-do_proven_bounds_survive_compilation.markdown`, live at
-`/engineering/compilers/verification/2026/08/08/do_proven_bounds_survive_compilation.html`, series
-`keleusma_research_spikes` index 3. 26 display equations, 11,112 reference definitions.
+**The 44 title mismatches were one systematic defect, not forty-four judgements.** A hard four-word cap
+had been applied to the title of every author-less record, so link text read `Air Drag on a 1966` where
+the work is `Air Drag on a Falling Plastic Ball`. **The identifiers were correct throughout.**
 
-**It went live the moment it was pushed**, because 2026-08-08 is four days in the past and the site sets
-`future: false`. The verification build was therefore run **without** `--future`, which is the only
-configuration that matches the live site.
+So the fix was to repair labels, not remove references. **2,295 labels repaired across 18 X-Planes
+drafts**, rebuilt from the local citation cache with no network, and inline prose citations repaired as
+well as list entries. **Removing the 44 would have been the obvious response and wrong.**
 
-**Publication renumbered two live pages**, exactly as flagged beforehand. A369 and A370 now read Part 1 and
-Part 2 **of 3**, confirmed as rendered rather than assumed. **The `keleusma_native` series is complete.**
-
----
-
-## A Background Sweep Found Dictionary Entries Cited as Research
-
-The corpus-wide citation check I started earlier finished and reported hard findings on both articles I had
-just published. Reading them separates two kinds.
-
-**Most are checker artefacts from a trailing full stop.** `entry_text` strips one and the registry keeps it,
-so `compiler, n` against `compiler, n.` reads as a mismatch and is not one.
-
-**The rest are real, and they are a failure mode neither of us had seen.** `research_compiler_n_2023`
-resolves to **an Oxford English Dictionary entry for the word `compiler`**, typed as a book chapter. Its
-title matches every subject anchor perfectly **because the title IS the anchor**. Six such records were
-across the two articles, OED entries for `compiler`, `cross-compiler`, `sandboxing` and `garbage
-collection`.
-
-**This is not a homonym and qualifying the anchors would not have caught it.** The gate has **no
-minimum-substance test**, and a one-word dictionary headword passes it trivially.
-
-**A seventh is a genuine homonym the sweep had missed**, a chapter titled `Compiler` in *Passionate Copying
-in Late Medieval Bohemia*, where a compiler is the person who assembles a manuscript. That sense predates
-the computing one by centuries.
-
-**Seven records removed from two live pages**, four from A371 and three from A372, **each verified as not
-cited in prose before removal** so no argument lost a support. Totals reconciled rather than nudged, and both
-articles now state the removal in their attrition arithmetic so the change is visible instead of silent.
-
-Two families recorded in the store, taking it to 65 patterns.
+**I had earlier called these findings artefacts of a trailing full stop. That was wrong**, the
+comparison never sees punctuation, and acting on it would have discarded 2,295 real defects. Both the
+correction and a trap are recorded.
 
 ---
 
-## Finishing the Pass, From an Earlier Commit
+## The Shared Machinery, Which Affects Every Future Harvest
 
-The previous commit fixed the arena gap and **left four thin sections identified and unaddressed**. This
-closes that.
-
-**The pattern across all of them is one defect.** The article cited its sources **in the survey section and
-not where the argument uses them**, so a reader at Result 2 or at the frames measurement had no pointer to
-the literature making the claim, although the works were already in the bibliography.
-
-Five placements at point of use.
-
-- **Regehr 2005** and **Brylow 2001** in the frames section, where analysing the artefact rather than a model
-  of it is the established move and the only novelty is how cheap the tooling has become.
-- **Regehr 2005** and **Necula 1997** in Result 3, where the recommendation to compute from the shipped
-  artefact is actually made.
-- **Wilhelm 2008** and **Heckmann 2003** at the claim that an operation count is not an input timing analysis
-  accepts.
-- **Kirner and Puschner 2008** with **Falk and Lokuciejewski 2010** at Result 2's fragile premise, since
-  **the compiler destroying the correspondence is named as an obstacle by that literature** and the article
-  had presented it as its own difficulty.
-
-**One genuinely new reference.** The WebAssembly claim cited the **specification** while the paper stating
-why the format makes that choice was absent. **Haas and others 2017** is the same gap A372 carried and the
-same fix, and it lifts the post-2014 count in the working set from 2 to 3.
-
-**Counts reconciled again**, hand-selected 32 to 33 and total 11,098 to 11,099, verified as 11,066
-harvested-only plus 33 hand against the 11,099 definitions actually present.
-
-**Three thin sections cleared**, and **the seven that remain are the article's own work throughout** — the
-erratum, the orientation, Pattern Extraction, what the survey shows, how it was assembled, the Epistemic
-State and the Conclusion. None of them reports anybody else's result, so none should carry a citation.
+- **`homonyms._keys_for` now derives the prospective anchor stem.** 550 of 728 rejections were
+  anchor-keyed and could never fire at harvest time, because anchors are assigned later. **Three
+  quarters of the store was inert.**
+- **`gate.substance_reason` adds a minimum-substance test**, refusing dictionary headwords and titles
+  identical to their container. A subject test cannot catch an entry whose title IS the anchor.
+- The homonym store grew **41 to 66 patterns**; `_lib/test_lib.py` is **78 of 78**.
 
 ---
 
-## The Skipped Pass, From the Previous Commit
+## The Live Site
 
-**You were right and the TASKLOG shows it.** A372 records a primary-reference review. A371 does not, having
-gone standards and retarget, then equation density, then straight to publication review.
+**600 dead download links removed.** Both the post layout and the home page emitted PDF and EPUB links
+for every post, and **no file has ever existed at those paths**. Now conditional on the file existing.
 
-**The gap that pass found was created by a later correction**, which is the promoted-subjects rule in its
-purest form. Item 5 of the draft corrections narrowed the central claim so that **the arena term of the
-memory bound transfers exactly**. That sentence became load-bearing and **cited nobody at all**. The
-reference base never followed the correction.
-
-Four references now sit where the claim is made. **Hanson 1990** for the practical allocation-by-lifetime
-discipline, **Tofte and Talpin 1997** for the theory making region lifetimes statically inferable,
-**Grossman and Morrisett 2002** for regions in a systems language, and **Berger and Zorn 2002** for when a
-custom allocator actually pays. The property that matters throughout is that **a region's total is decided
-before the program runs**, which is what lets the term cross the boundary, and the article now says so.
-
-**Two of the four were already in the article and never cited**, sitting in the harvested block as records
-nobody had read. I promoted them into the hand-selected set instead of adding them again under a second
-anchor.
-
-**The counts were reconciled rather than nudged.** Hand-selected 28 to 32, harvested-only 11,068 to 11,066,
-total 11,096 to 11,098. **The error-rate paragraph still describes the 27 submitted**, since a later addition
-cannot change what was wrong on submission.
-
-Two things I checked rather than assumed. **A double listing is the design**, every harvested anchor
-appearing once in its cluster and once in the complete bibliography, measured as 11,068 anchors at two
-entries and 30 at one. And **a title check I wrote flagged two of the four while measuring the wrong
-direction**, since harvested link text carries surname and year and is a superset of the registry title.
-Checked as containment, all four cover it at 1.00.
+**The `typically` tic in the drone article was fixed without weakening the claims.** All 32 uses hedged
+a duration or a cost, so deletion would have overstated them. The hedge is stated once and
+structurally, and the rate fell 6.88 to 3.83 per thousand.
 
 ---
 
-## The Series Rename, From an Earlier Commit
-
-`series_title` goes from **Keleusma Native Code Generation** to **Keleusma Research Spikes**, and the slug
-from `keleusma_native` to `keleusma_research_spikes`, across all four live pages.
-
-**I changed the slug as well, which is beyond the literal ask.** The old slug asserts native code generation
-for a series no longer defined that way, and the next spike need not concern native code. Say the word if
-you want the slug reverted, though nothing outside the four posts referenced it.
-
-**It is URL-neutral, established before anything was touched.** `_layouts/post.html` uses the slug only to
-group posts and renders `series_title` with the slug as a fallback, so it reaches no URL and no
-reader-visible text. It appears nowhere in `_config.yml`, the layouts, the includes or any plugin. **No
-`redirects/` entry is needed.**
-
-**The change had to be atomic or the series would split in two**, since grouping is by exact slug match and a
-missed file would form a second series of one with broken navigation. All four were rewritten together and
-verified as 4 of 4 with indices 1 through 4 and zero stragglers, then confirmed against a production build.
-
----
-
-## A372 Is Live, and the Series Is Complete
-
-`_posts/2026-08-09-cost_of_compiling_aggregates.markdown`, at
-`/engineering/compilers/verification/2026/08/09/cost_of_compiling_aggregates.html`. **It went live the moment
-it was pushed**, because 2026-08-09 is three days in the past, so the verification build was run **without**
-`--future`.
-
-**Publication renumbered three live pages.** A369, A370 and A371 now read Part 1, 2 and 3 **of 4**, confirmed
-as rendered.
-
-**One imprecision was corrected before the move.** The Epistemic State attributed the 34.5 percent blocking
-figure to "the previous article" when it comes from **A369, not the immediately previous A371**. It now links
-the first article explicitly, and I applied the fix to `tmp/a372/body.md` as well so a re-run could not
-revert it.
-
-**Cross-article consistency was checked against A371 post-erratum.** All five references to the previous
-article survive it, the one naming a retracted figure having been neutralised during the standards pass.
-
-Verification: `_verify.py` **0 errors and 0 warnings across 300 posts**, `./_check.sh` clean at 464 pages,
-**15 display-math blocks with zero raw `$$` survivors and zero unfilled markers**, present on the home page,
-in `feed.xml` and in `sitemap.xml`. Two of 189 internal links are unresolved and that is the **pre-existing
-site-wide** `.pdf` and `.epub` pair the post layout emits for every article.
-
-**`tmp/a372/assemble.py` is now guarded** and refuses to run, as A371's is.
-
----
-
-## The Word Usage Pass, From an Earlier Commit
-
-**`specific` is not a problem here.** It stands at **1 use, 0.18 per thousand**. I checked it first because
-you named it.
-
-**The measurement again had to exclude the harvest.** The article carries 183,125 raw body words against
-5,595 of author prose, a **thirty-three-fold dilution** that would have made every rate insensitive.
-
-**The phrase instrument found my own boilerplate for the third time in this series.** Six survey leads shared
-the stem `contemporary records concern`, differing only in a number. That is exactly the defect A371's pass
-found as "The harvest returned N further contemporary records", and **no single-word instrument can see it**.
-Six leads now carry a fact about their own cluster, and `is what makes` was reduced from five uses. The
-constructions at or above the peer maximum fell **21 to 16**, every survivor being subject vocabulary
-measured against a corpus of aircraft articles.
-
-**Twelve single words sit above the peer maximum and eleven are simply the subject**, being `boxed`,
-`aggregate`, `layout`, `backend`, `representation`, `form`, `corpus`, `arena` and `anchoring` among them.
-
-**`already` is the twelfth and I left it alone deliberately.** It sits at 3.40 per thousand against a peer
-maximum of 2.77, and **17 of its 19 uses are the article's thesis in one word** — the decision was already
-made upstream, the backend already implements the residue, the bound already exists. I classified all 19
-rather than asserting it. Trading it for a synonym would move the tic, not remove it.
-
-One claim I introduced while editing was checked against the data. "The largest cluster in the survey at 650
-records" is verified as the largest modern cluster, against 575 for estimation and 434 for types.
-
----
-
-## The Publication Review, From an Earlier Commit
-
-**The substantive gap was the survey again.** A369 carries 1,759 research references, A370 1,980 and A371
-11,096. A372 arrived with 31.
-
-A harvest of **79 queries across ten clusters in seven rounds** retrieved **45,989** records. The anchor gate
-admitted 6,357 and **6,008 reach the reference list**, beside the 31 hand-selected works, which are untouched
-and verified as **31 of 31 preserved with none repointed**. **23 of the 31 were independently returned by the
-harvest**, which is the coverage corroboration worth having.
-
-**Every lesson A371 paid for was applied from the start, and they held.** All three publication types were
-requested in the first pass rather than discovered late, since **Springer deposits Lecture Notes in Computer
-Science as `book-chapter`** and the book rounds returned 13,378 records here. Qualifiers order-free, anchors
-hyphen-tolerant, proceedings furniture refused by title shape, hand anchors reserved so no harvested record
-could displace a cited one.
-
-## This Is the Most Homonym-Hostile Subject the Corpus Has Swept
-
-Its own vocabulary belongs to enormous literatures elsewhere. **`Aggregate` is concrete and economics.
-`Layout` is integrated-circuit and facility layout. `Alignment` is bioinformatics. `Offset` is carbon.
-`Boxing` is a sport and `arena` is a stadium.** Not one of those is used as an anchor without a computing
-qualifier.
-
-**Eight new families recorded**, taking the store from 56 to 64 patterns, being municipal waste collection
-against memory reclamation, facility and plant layout, structural and aerospace layout, the linguistic corpus
-against a corpus of programs, power-system dispatch against dynamic method dispatch, `unboxed` in archival
-cataloguing, the intermediate representation in speech pipelines, and heuristics-and-biases applications
-outside estimation.
-
-**The power-dispatch family had been contaminating a cluster**, the dispatch count falling 27 to 18 once it
-was removed. That is a claim about the literature, not a stray record.
-
-## Two Defects the Assembler Inherited From A371
-
-**The attrition counts were hardcoded from the previous article.** They are now written out by `gen_master`
-and read back, since a transcribed figure goes stale the moment a harvest is re-run. And one statement read
-the stats file a line after using it.
-
-**Definition-block separation was verified explicitly**, at 0 issues, because the previous pass lost 64
-references to blank lines eaten by a regex while `_verify.py` passed it.
-
-One superlative became a checkable statement, "the largest of the layout clusters" becoming "more than the
-representation and dispatch clusters combined", 183 against 108 plus 11.
-
----
-
-## The Primary-Reference Pass, From an Earlier Commit
-
-**42 to 47 reference definitions, 26 to 31 research identifiers.** Primary count at a 2000 cutoff rose 17 to
-20, and the year range extended from 1974-2014 to **1974-2017**. The base previously carried **nothing at all
-after 2014**, in a section titled The Contemporary Literature.
-
-Five references added, each where a step of the argument depends on it.
-
-- **Ohori 1995**, the polymorphic record calculus and a compilation method resolving field access to an index
-  computation. **The closest antecedent to what this backend receives already resolved**, and it was absent
-  while the surrounding unboxing work was cited.
-- **Shepperd and Schofield 1997** and **Walkerden and Jeffery 1999**, for the Threats section's own phrase
-  "an argument from similarity". **Estimation by analogy is that argument's literature** and its record is
-  mixed, which is the right prior for the article to hold.
-- **Bekelman, Li and Gross 2003**, for the threat that the author scoped work he would then perform, since
-  the association between an investigator's interest and a favourable result is measured. **It is a
-  systematic review and therefore not primary**, which the log states rather than eliding.
-- **Haas and others 2017**, the WebAssembly design paper. The format's *proposal* was cited while the paper
-  stating *why* was not, and it closes the contemporary window.
-
-## The Rendered Audit Caught What `_verify.py` Passed, Twice
-
-Re-sorting the link-definition blocks with a regex **ate the blank lines** separating them from adjacent
-headings and list items. Kramdown then stopped reading them as definitions, and **62 and then 64 references
-rendered unresolved** while `_verify.py` reported 0 errors and reference integrity reported 47 used against
-47 defined.
-
-**A source checker predicts what kramdown will do. The rendered audit sees what a reader sees.** That is the
-standing corpus lesson and it fired twice in one pass. I abandoned the regex for a line-based approach that
-sorts each run in place and restores exactly one blank line on each side, verified as 6 runs, 0 separation
-issues, every run sorted.
-
-**Three sections remain uncited and correctly so**, being the orientation section, the Measurement and the
-Epistemic State, which all report the article's own instrument.
-
----
-
-## The Equation Pass, From an Earlier Commit
-
-**12 to 15 display equations.** The audit's four candidate gaps were mostly the known false positives, being
-two survey subsections whose numbers are publication years and an Epistemic State restating measured values.
-
-**The best addition is the article's own thesis, which was stated in words and never displayed.** The prose
-read "These differ by exactly the terms with no instances". That identity now appears as a formula, and
-**the whole article is an evaluation of that one sum.**
-
-Also added, the discriminant test as a load and an integer comparison, which was **the only class in the work
-enumeration with no displayed relation** while the other three each had one, and which explains in passing
-why those 29 operations carry no form tag. And the delivered-coverage ratio of 300 over 302, for the claim
-that handling 300 cases and refusing 2 delivers less than the headline.
-
-## A Number in the Lede Was Supported Nowhere
-
-The opening claimed **two thirds of the machinery it was supposed to need is dead code**, and that figure
-maps to nothing a reader can check. The instruction set defines 11 aggregate opcodes of which 6 are used, and
-the forms number three of which one is empty. **Neither gives two thirds.**
-
-It now reads that two of the three representation forms account for two operations in the entire corpus, and
-the Measurement section says where that is checkable. **This is the same defect A371 shipped with its
-nine-second figure.**
-
-## The Promoted-Subjects Rule Fired Again, on the Eighth Consecutive Article
-
-`citation_gaps` reported 10. The equation pass had promoted the estimate-versus-actual distinction into a
-displayed identity while its supporting literature sat four sections away in the survey. Jørgensen now
-appears beside the identity, with the distinction that **the contribution is not that estimates anchor** but
-that here the anchor is visible in the index set, so the error is removable by counting instead of by
-debiasing.
-
-That took the gaps to **6, and those six are measurements of this corpus or the article's own derivations
-about its own compiler**, where citing anyone would be manufacturing.
-
----
-
-## Where A372 Is
-
-`_drafts/cost_of_compiling_aggregates.markdown`, editorial date **2026-08-09**, series `keleusma_research_spikes`
-index 4. **612 lines, 12 display equations, 42 reference definitions, 4,256 words of author prose.**
-Titled under the series convention as **Keleusma Research Spike, What It Costs to Compile a Data Structure
-Whose Shape Is Already Decided**.
-
-The date slot was free and all three `post_url` targets point at published posts, so the build interlock is
-satisfied.
-
-## What the Retarget Needed
-
-**The source claimed no compiler background is required and did not deliver it**, using backend, bytecode,
-aggregate, layout, boxed and arena without introducing any of them. That is the same defect A371 shipped. A
-`## What You Need to Know to Read This` section now carries the six ideas the argument actually needs.
-
-**I wrote "Five ideas" and gave six.** That is the count-in-my-own-prose defect this series has now shipped
-four times. Found by counting, not by any checker.
-
-## Two Fixes Carried In From Earlier Work
-
-**The source reported the series rates as "0 of 31".** A370's published text says **35** in four places and
-its pipeline data holds exactly 35, so it now reads 0 of 35 and agrees with the addendum on A369's live page.
-
-**A sentence attributed a frame reduction to A371**, whose frame figures its own erratum has since
-retracted. It is neutralised to the quantity rather than the figure.
-
-## An Arithmetic Gap, and My First Reading of It Was Wrong
-
-The by-form aggregation gives 300 flat, 2 nested and 0 boxed, totalling **302 against a table total of 331**,
-and the article did not say where the other 29 went.
-
-**I first thought they were missing from the work enumeration. They are not** — it covers them as
-"Discriminant tests, 29 instances", and 239 plus 61 plus 29 plus 2 recovers 331 exactly. The gap is only in
-the by-form line, and a sentence now explains that a discriminant test carries no form tag because it is a
-comparison and names no layout. **I checked that against `src/vm.rs` in the Keleusma tree** rather than
-inferring it from the opcode name.
-
-## Verification
-
-- `_verify.py` **0 errors, 0 warnings**. `./_check.sh --drafts` clean at 508 pages.
-- Reference integrity **42 used against 42 defined**, none undefined, orphaned, duplicated or malformed.
-- **All 26 research identifiers resolve and all 26 titles match the registry**, which matters because this
-  series documents the neighbouring-identifier failure that a working link cannot catch.
-- Style clean. 3 em dashes, 15 semicolons and 11 prose colons removed, `rather` brought under the limit with
-  each substitution checked for grammaticality.
+## Twenty-Two Leaked Shells, and Why They Could Never Exit
+
+Each was `until ! pgrep -f "<script>"; do sleep N; done`. **`pgrep -f` matches the waiting shell's own
+command line**, which contains the script name, so every loop found itself and slept forever. Not slow.
+**Structurally unable to terminate.** All reaped, and the trap recorded. Key a wait on the job's output.
 
 ---
 

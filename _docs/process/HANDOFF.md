@@ -11,7 +11,7 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `5ace44b`
+- **Parent commit** (the repository state this handoff describes): `6520b8d`
 - **Written**: 2026-08-13
 - **Tree at write**: clean, nothing unpushed
 - **Context**: the X-Planes series is IN PROGRESS. **Thirty-nine of seventy-two articles drafted,
