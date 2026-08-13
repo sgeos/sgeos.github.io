@@ -1,10 +1,118 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A337, X-Planes, Boeing X-40. Publication review complete.** Committed and **PUSHED**.
-**Not published.** All four passes are done.
+**Task**: **A338, X-Planes, X-41 Common Aero Vehicle. Draft pass complete.** Committed, **not pushed**,
+per the four-pass rhythm. **Not published.**
 
 ---
+
+## The First Documentation-Poor Article in the Series
+
+**A297 names the class and no article had used it.** No specifications for this vehicle have ever been
+released, so the section order is the full one, the sections are short, and **the statement of what is
+unknown carries the weight a specification table would otherwise carry.**
+
+**The keystone is that classification hides the design and not the physics.**
+
+---
+
+## What the Public Numbers Force
+
+**A published range of 9,000 nautical miles and the equilibrium glide relation fix the required lift to
+drag ratio at each entry speed.** The Küchemann barrier then refuses most of that table.
+
+- **Below Mach 22.2 the mission is unavailable to any shape.** The glider had to be boosted to at least
+  **83 percent of orbital speed.**
+- **At the 2.6 ratio actually estimated for the vehicle that flew, the figure is 93 percent**, which is
+  very nearly a launch to orbit, and is the quantitative version of the observation that boost-glide and
+  space launch are the same problem wearing different labels.
+
+**The model was validated before it was used to argue.** Feeding the published 2.6 and Mach 20 into the
+range relation recovers **6,746 km against a planned 7,700**, or **88 percent**, from two published
+numbers and nothing else. That is good agreement for a two-parameter model and not good enough to size
+hardware, and the article says so.
+
+---
+
+## The Corridor Is Where the Vehicle Breaks
+
+**A glider at this speed must fly low enough for the air to hold it up and high enough for the air not to
+destroy it.** At the corridor point a 50 millimetre leading edge reaches **2,921 K**, against a published
+design surface temperature of **2,203 K**.
+
+**Holding the design value needs an edge radius of 0.48 metres on a vehicle four metres long**, and that
+much bluntness collapses the lift to drag ratio the range depends on. **Five of the nine swept
+combinations exceed the design temperature**, and the two quantities swept are exactly the two the record
+withholds.
+
+**The design wants a sharp edge for range and a blunt edge for survival and cannot have both.**
+
+---
+
+## The Failure Report Confirms It in Its Own Terms
+
+Both flights ended near the **ninth minute** of a thirty minute glide. The engineering review board found
+**unexpected aeroshell degradation**, skin peeling beyond expectation, and roll upsets beyond the
+vehicle's control authority.
+
+**It also found that the aerodynamic design was validated and that what the flight taught concerned the
+thermal material properties.** The shape was never the problem. The edge was, **and the arithmetic said so
+before the vehicle flew.**
+
+---
+
+## The Title May Be Wrong
+
+**The X-41A was allocated in late 1997 or early 1998, years before the Common Aero Vehicle programme
+existed**, was never used again in any official announcement, and the authoritative survey explicitly
+doubts that it ever applied to this vehicle. **The article uses the pairing because the public record
+does, and says plainly that it may be wrong.** That connects directly to the X-39 article two before it.
+
+---
+
+## Three Homonym Families, and a Pattern in How They Were Found
+
+Reading the samples caught **the underwater glider**, which shares glide, trajectory, range and vehicle
+with a hypersonic glider and nothing else, and **the block-glide landslide**, which also collects "front
+range".
+
+**A third survived the samples.** A condensed-matter physics identifier in a routine URL check led to the
+**nanofluid stagnation-point flow** literature, a large applied-mathematical field about flow over
+stretching sheets that shares "stagnation point" and "heat transfer" with reentry aerothermodynamics and
+shares no physics. **97 records, 2.2 percent of the corpus, removed.**
+
+**That is the third consecutive article on which a publisher-prefix check has beaten the random sample.**
+It is now part of the routine rather than a lucky catch.
+
+---
+
+## Verification
+
+- `python3 _verify.py` **0 errors, 0 warnings**. `./_check.sh --drafts` clean at **511 pages**.
+- Reference integrity **4,375 used against 4,375 defined**, zero undefined, zero orphaned, zero duplicates.
+- Every display equation on one source line. Rendered body clean on every marker check, both tables
+  rendering, MathJax balanced. Navigation reads **Part 42 of 42**.
+- **8 of 8 curated URLs at 200**, a sample of 15 harvested identifiers resolving 15 of 15.
+- `tmp/a338/verify.py` all pass, sharing no code with the draft.
+- Diction **0 constructions above the corpus maximum** against 300 peers.
+
+---
+
+## Outstanding
+
+**It is committed and not pushed**, which is what the draft pass calls for. The remaining three passes are
+the equation-density review, the primary-reference review and the publication review.
+
+**The X-Planes set remains unpublished and unauthorised.** Forty-two of seventy-two drafted, forty-one of
+them citing a sibling through `post_url` with no target in `_posts/`, so **the set publishes in order or
+together**.
+
+**One item is still owed from outside this repository**, being A369's factor-of-roughly-thirty claim.
+
+---
+
+## From A337, the Boeing X-40, Which Is Complete and Pushed
+
 
 ## The Survey Had a Subject at Zero That the Article Displays
 

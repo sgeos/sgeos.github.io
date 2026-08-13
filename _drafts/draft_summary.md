@@ -17,6 +17,52 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes X-41 Common Aero Vehicle A338 2025-11-16
+
+`x_planes_x41_common_aero_vehicle.markdown`, A338, editorial date 2025-11-16, series `x_planes` index 42
+of 72.
+
+**9,470 lines, 14 display equations, 4,375 reference definitions, 84,741 words after the draft pass**, of
+which 3,986 are author prose. Committed. **Not pushed**, since the draft pass does not push.
+**Not published**, and publication of the series has never been authorised.
+
+**THIS IS THE FIRST ARTICLE IN THE SERIES TO TAKE THE DOCUMENTATION-POOR CLASS.** A297 names the class and
+no article had used it. No specifications for the vehicle have ever been released, so the article derives
+what the vehicle had to be from what it had to do, and the statement of what is unknown carries the weight
+a specification table would otherwise carry.
+
+**THE KEYSTONE IS THAT CLASSIFICATION HIDES THE DESIGN AND NOT THE PHYSICS.** A published range of
+9,000 nautical miles and the equilibrium glide relation demand a lift to drag ratio that the Küchemann
+barrier refuses below **Mach 22.2**, so the glider had to be boosted to at least **83 percent of orbital
+speed**. At the **2.6** ratio actually estimated for the vehicle that flew, the figure rises to
+**93 percent**, which is very nearly a launch to orbit.
+
+**THE MODEL WAS VALIDATED BEFORE IT WAS USED TO ARGUE.** Feeding the published 2.6 and Mach 20 into the
+range relation recovers **6,746 km against a planned 7,700**, or **88 percent**, from two published numbers
+and nothing else.
+
+**THE CORRIDOR IS WHERE THE VEHICLE BREAKS.** Flying low enough for the air to hold it up puts a 50
+millimetre leading edge at **2,921 K** against a published design value of **2,203 K**. Holding the design
+value needs an edge radius of **0.48 m** on a vehicle four metres long, which costs the range the sharpness
+was for. **Five of nine swept combinations exceed the design temperature.**
+
+**THE FAILURE REPORT CONFIRMS THE DERIVATION IN ITS OWN TERMS.** Both flights ended near the ninth minute
+of a thirty minute glide, and the engineering review board found unexpected aeroshell degradation, skin
+peeling beyond expectation, and roll upsets beyond control authority. **It also found that the aerodynamic
+design was validated and that the surprise was thermal.** The shape was never the problem.
+
+**THE DESIGNATION MAY NOT BELONG TO THE VEHICLE.** The X-41A was allocated in late 1997 or early 1998,
+years before the programme, was never used again officially, and the authoritative survey doubts it ever
+applied to this vehicle at all. **The article uses the pairing because the public record does, and says it
+may be wrong.**
+
+**THREE HOMONYM FAMILIES WERE FOUND AND REMOVED**, being the underwater glider, the block-glide landslide,
+and **the nanofluid stagnation-point flow literature**, the last accounting for **97 records, 2.2 percent
+of the corpus**, and found by checking an out-of-place publisher prefix rather than by the random sample.
+**That is the third consecutive article on which a prefix check has beaten the sample.**
+
+**Remaining work.** Equation-density review. Primary-reference review. Publication review.
+
 ## X-Planes Boeing X-40 A337 2025-11-15
 
 `x_planes_boeing_x40.markdown`, A337, editorial date 2025-11-15, series `x_planes` index 41 of 72.
@@ -7204,8 +7250,8 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fifty-one files exist in `_drafts/`. One is a template. One is this summary.
-**Forty-one are the in-progress X-Planes series, A297 through A337, none of them published**, and
+Fifty-two files exist in `_drafts/`. One is a template. One is this summary.
+**Forty-two are the in-progress X-Planes series, A297 through A338, none of them published**, and
 publication of the series has never been authorised.
 Eight are the pre-release candidates listed below.
 No stubs remain.
