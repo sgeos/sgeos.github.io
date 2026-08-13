@@ -85,7 +85,32 @@ transcendental equation whose root is the Küchemann crossover, the linearity of
 glide deceleration at 0.17 to 0.36 of a gravity, the weight, the exponential atmosphere converting density
 to the 61.2 kilometre corridor altitude, and the implied lift coefficient.
 
-**Remaining work.** Primary-reference review. Publication review.
+**9,660 lines, 30 display equations, 4,398 reference definitions, 86,461 words after the
+primary-reference review**, of which 5,126 are author prose.
+
+**THE CURATED SET HAD NO PRIMARY SOURCES AT ALL.** Eight reference works, being two designation
+references, four encyclopaedia articles, one trade report and one programme overview, supplied every date
+and dimension. **For an article whose entire argument is a derivation, citing an encyclopaedia for the
+relations being derived is exactly backwards.** 86 NASA reports were harvested and 23 selected, and three
+canonical papers the harvest had already found were cited for the first time.
+**The primary share of the curated set went from 0 to 76 percent.**
+
+**THREE OF THE ADDITIONS CARRY RELATIONS THE ARTICLE USES NUMERICALLY.** The equilibrium glide range
+relation is **Eggers and colleagues, 1955 and 1958, written before any such vehicle existed**. The lift to
+drag ceiling is **Küchemann 1965**. The stagnation-point heating form belongs to a family running from
+**Fay and Kemp** through free-flight measurement to modern blunt-body procedures.
+**The article had been using all three and citing none.**
+
+**ONE ADDITION SPEAKS DIRECTLY TO THE CENTRAL CONTRADICTION**, being an aerothermal performance constraint
+analysis of **sharp nosecaps and leading edges**, which works the sharp-versus-blunt trade from the
+materials side. **The contradiction derived here is a recognised design problem with its own literature.**
+
+**A TEMPLATE LEAK WAS FOUND AND IS RECORDED IN THE ARTICLE.** The Source Base had been adapted from A337's
+and carried three of its sentences unaltered, including a finding about **animal-behaviour apparatus** that
+belongs to that article, and a reference to **the wrong vehicle**. A template that is edited rather than
+rewritten will leak, and it did.
+
+**Remaining work.** Publication review.
 
 ## X-Planes Boeing X-40 A337 2025-11-15
 

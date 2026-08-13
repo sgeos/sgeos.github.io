@@ -1,8 +1,65 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A338, X-Planes, X-41 Common Aero Vehicle. Equation-density review complete.** Committed,
+**Task**: **A338, X-Planes, X-41 Common Aero Vehicle. Primary-reference review complete.** Committed,
 **not pushed**, per the four-pass rhythm. **Not published.**
+
+---
+
+## The Curated Set Had No Primary Sources At All
+
+**Two designation references, four encyclopaedia articles, one trade report and one programme overview.**
+That was the entire evidentiary base for an article whose **whole argument is a derivation**.
+
+**Citing an encyclopaedia for the relations you are deriving is exactly backwards.** I harvested 86 NASA
+reports, selected 23, and cited three canonical papers the harvest had already found and the prose had
+been ignoring. **The primary share of the curated set went from 0 to 76 percent.**
+
+---
+
+## Three Additions Carry Relations the Article Was Already Using
+
+- **The equilibrium glide range relation is Eggers and colleagues**, published 1955 and refined through
+  1958, **before any such vehicle existed**. The article derives it, uses it for every range figure, and
+  had been treating it as common knowledge.
+- **The lift to drag ceiling is Küchemann 1965**, which the harvest had already surfaced and the prose had
+  never cited.
+- **The stagnation-point heating form** belongs to a family running from Fay and Kemp through free-flight
+  measurement at Mach 14.6 to modern blunt-body procedures.
+
+**The article had been using all three and citing none of them.**
+
+---
+
+## The Central Contradiction Turns Out to Have Its Own Literature
+
+**An aerothermal performance constraint analysis of sharp nosecaps and leading edges** works the
+sharp-versus-blunt trade from the materials side, and a flight experiment programme was built specifically
+to attack it. **The contradiction derived here is a recognised design problem rather than a novel claim**,
+which is a stronger position than deriving it alone.
+
+**The Küchemann ceiling is now corroborated with the measurements it summarises**, being wind tunnel and
+free-flight characterisations of hypersonic glider, all-body and lifting-body configurations. **None
+reports a ratio near what the mission would need at Mach 20**, which is the empirical form of the same
+conclusion.
+
+**And the failure board's ground-test conclusion was stated in advance**, by a 1997 survey of hypersonic
+flight experimentation subtitled status and shortfalls. **The board did not discover that ground test runs
+out. It confirmed it with two vehicles.**
+
+---
+
+## Read This, Because a Template Leaked
+
+**The Source Base had been adapted from A337's and carried three of its sentences unaltered.** One was a
+finding about **the runway as an apparatus in animal behaviour research**, which is that article's homonym
+family and has nothing to do with this one. Another referenced **the wrong vehicle**.
+
+**A template that is edited rather than rewritten will leak**, and it did. The section is rewritten and
+the leak is recorded in the article itself rather than quietly fixed.
+
+**The anchor-collision check ran before merging this time**, per the defect A337 reproduced, and returned
+zero.
 
 ---
 
@@ -139,8 +196,9 @@ It is now part of the routine rather than a lucky catch.
 
 ## Verification
 
-- **9,557 lines, 30 display equations, 4,375 reference definitions, 85,417 words**, of which 4,622 are
+- **9,660 lines, 30 display equations, 4,398 reference definitions, 86,461 words**, of which 5,126 are
   author prose.
+- **All 23 NASA identifiers resolve 200 of 200.** No anchor appears twice in the reference list.
 - `python3 _verify.py` **0 errors, 0 warnings**. `./_check.sh --drafts` clean at **511 pages**.
 - Reference integrity **4,375 used against 4,375 defined**, zero undefined, zero orphaned, zero duplicates.
 - Every display equation on one source line. Rendered body clean on every marker check, both tables
@@ -153,8 +211,8 @@ It is now part of the routine rather than a lucky catch.
 
 ## Outstanding
 
-**It is committed and not pushed**, which is what these passes call for. The remaining two are the
-primary-reference review and the publication review.
+**It is committed and not pushed**, which is what these passes call for. **Only the publication review
+remains**, and that pass commits and pushes but does not publish.
 
 **The X-Planes set remains unpublished and unauthorised.** Forty-two of seventy-two drafted, forty-one of
 them citing a sibling through `post_url` with no target in `_posts/`, so **the set publishes in order or
