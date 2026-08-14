@@ -11,7 +11,7 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `e5ba7cf`
+- **Parent commit** (the repository state this handoff describes): `1cd62b4`
 - **Written**: 2026-08-13
 - **Tree at write**: clean, nothing unpushed
 - **Context**: the X-Planes series is IN PROGRESS. **Forty-two of seventy-two articles drafted, all
@@ -21,8 +21,12 @@ resuming agent. Read it first, validate it, then read the live channels.
 - **Two article classes were used for the first time.** A336 is the first **designation anomaly** in
   the reduced section order, and A338 is the first **documentation-poor** article. A297 named both
   classes and neither had been exercised.
-- **The Keleusma line is complete and published**, being A369 through A372. Nothing there is
-  outstanding except one item owed from another repository.
+- **The Keleusma line is published and now runs to five**, being A369 through **A373**, which was drafted,
+  taken through all four passes and a word-usage pass, and **published on 2026-08-13** at the editorial
+  date 2026-08-10. **Publishing it renumbered four live pages** from Part 1 to 4 of 4 to **of 5**, which
+  was flagged across three passes before it was done. **Next article number is A374.**
+- **One item is owed from another repository**, being A369's factor-of-roughly-thirty claim, which awaits
+  the Keleusma decision register.
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
 and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -42,8 +46,15 @@ described.
 
 ## Resume prompt, and the next prompt will be "Please draft A339, 'X-Planes: Orbital Sciences X-42.'"
 
-**Nothing is outstanding.** A338 finished all four passes, is committed and pushed, and there is no
-half-finished pass to pick up. **Wait for the pilot's prompt. Do not begin A339 unprompted.**
+**Nothing is outstanding.** A338 finished all four passes on the X-Planes mainline, and **A373 was
+drafted, passed and published off it**, so there is no half-finished work anywhere.
+**Wait for the pilot's prompt. Do not begin A339 unprompted.**
+
+**THE PILOT MAY HAND YOU AN EXTERNAL DRAFT INSTEAD, AS HAPPENED WITH A372 AND A373.** The prompt is
+"copy `<path>` into the drafts, and use it as the basis for an article Axxx with a `<date>` editorial
+publication date", and the goal is stated as brushing it up to standards and retargeting it for a general
+audience. **Those arrive already stamped with their article number, series and index**, and the work is
+conformance and retargeting rather than writing. **They still take all four passes afterwards.**
 
 **A339 IS PROBABLY ANOTHER DISPUTED CASE AND THE ROSTER TITLE MAY BE WRONG.** The roster calls it the
 Orbital Sciences X-42, and the anomaly list in this file records that **sources disagree about what the
@@ -1109,6 +1120,50 @@ link text undecoded and rendered correctly enough that nothing complained.
 **A VERIFIER THAT SHARES AN INPUT WITH THE THING IT CHECKS DOES NOT CHECK THAT INPUT.** A337 and A338
 each carry a `tmp/aNNN/verify.py` that recomputes every published result **from the source units**,
 converting them itself, and shares no code with the draft. A337's runs 55 checks.
+
+---
+
+### On measurement and citation, earned in A373
+
+**MEASURE AUTHOR PROSE, NEVER THE RAW BODY.** A373 carries 459,066 raw body words against **8,522 words
+of author prose**, a **dilution factor of 52.7**, the highest in this corpus. Measuring the raw body
+divides every word rate by fifty and **guarantees the instrument reports nothing**. `diction.prose` strips
+link pairs and is the only reason a word pass on a harvested article can fire at all.
+
+**THE TIC IS OFTEN A TEMPLATE, NOT A WORD, AND NO SINGLE-WORD INSTRUMENT CAN SEE IT.** A373's finding was
+thirteen survey subsections opening with an identical frame and closing with an **identical hedge**. Run
+`diction.repeated_ngrams` as well as the word check. **The fix is not deletion**, since the hedge was
+load-bearing; state it **once, structurally, with the reason that a hedge repeated on every heading stops
+being read**, which is what A337 did for `typically`.
+
+**WHEN THIRTEEN SCATTERED COUNTS SAY THE SAME THING, A TABLE SAYS IT BETTER.** Replacing A373's thirteen
+frames with one table removed the boilerplate **and gave the reader comparability they did not have**. The
+table's shape then turned out to be a finding in its own right.
+
+**A DERIVED FIGURE MUST BE COUNTED FROM THE ARTEFACT, NOT READ FROM THE PIPELINE LOG.** A373's source base
+claimed **13,788 harvested works against an anchor gate that passed 13,741**, which is impossible, and the
+reference list actually held **13,722**. **A number that cannot have happened survived four passes**
+because nobody counted the list. Count the list.
+
+**A STATUS CODE IS NOT A CITATION CHECK, AND CHECKING RESOLVABILITY IS NOT CHECKING THE WORK.** Three of
+A373's most foundational citations resolved perfectly and pointed at the wrong works, **Shannon 1948
+resolving to a 2009 encyclopaedia entry about the paper**. Compare every inline citation's label against
+the registered title, which `citations` does and `resolve` does not.
+
+**THE SAME TRAP CATCHES YOU WHILE YOU ARE FIXING IT.** Hunting a replacement identifier, a candidate Open
+Library key returned **HTTP 200 and resolved to `Motor Racing (Inside Story)`**. **Never paste an
+identifier you have not opened.**
+
+**WHERE NO IDENTIFIER EXISTS, A STABLE PUBLISHER URL IS STILL A CITATION.** Four works were named in A373's
+prose with nothing behind them because USENIX and the storage conference register no identifiers.
+**Lacking an identifier is not the same as lacking a citation.** Where not even that exists, name the work
+without a link and say why.
+
+**PROVE A BUILD BREAK IS NOT YOURS BEFORE YOU FIX IT.** `./_check.sh --drafts` failed during A373 on a
+`post_url` in an unrelated draft. **Reproducing the failure at HEAD with the new file removed** settled it
+in one command. The cause was **four `post_url` targets carrying dates from before their drafts were
+re-dated**, and the failure is **date-sensitive**, because a `post_url` to a future-dated draft is not
+exercised until that date arrives. **Audit every `post_url` target after any re-dating.**
 
 ---
 
