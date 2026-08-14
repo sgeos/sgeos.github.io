@@ -66,6 +66,35 @@ def slug(s):
     return re.sub(r"[^a-z0-9]+", "_", s.lower()).strip("_")
 
 
+def title_lead(s):
+    """Strip leading enumeration artefacts from a title used as a LABEL, not as a title.
+
+    ABSTRACTING SERVICES AND PATENT REGISTRIES PREFIX THEIR OWN ACCESSION NUMBER TO THE
+    TITLE FIELD, and Crossref passes it through. Where a record also carries no
+    Latin-script author, the label falls back to the first words of the title and the
+    accession number becomes the reader-visible link text. A339 harvested 33 of these in
+    one pool, producing labels reading "98/02419 Effects of launch 1998", "5451015
+    Crashworthy composite aircraft 1996" and "1162. Design of altitude 1968".
+
+    THIS IS DELIBERATELY NOT PART OF `clean`. A title is entitled to begin with a number
+    and the full reference text should keep it. Only the shortened LABEL needs the prefix
+    removed, so only the label paths call this.
+
+    A number glued to a following capital, as in "85Chapter" and "13Design", is the same
+    artefact with the separating space lost, and is split rather than dropped so no word
+    is destroyed.
+    """
+    s = (s or "").strip()
+    s = s.lstrip("\"'‘’“”«»")
+    # "98/02419 ", "1162. ", "4 " but never "3D printing", which has no space to consume.
+    s = re.sub(r"^\d+(?:[/.-]\d+)*\.?\s+", "", s)
+    # "85Chapter" -> "Chapter", but "3D printing" keeps its digit. Requiring a LOWERCASE
+    # letter after the capital is what separates a glued word from a leading initialism,
+    # and the first version of this rule turned "3D printing" into "D printing".
+    s = re.sub(r"^\d+(?=[A-Z][a-z])", "", s)
+    return s.strip()
+
+
 def clean(s):
     """Strip what the prose rules forbid from anything that becomes link text."""
     # AN UNDECODED HTML ENTITY IS TURNED INTO VISIBLE JUNK BY THE PUNCTUATION RULE BELOW,
@@ -171,7 +200,7 @@ def display(authors, year, title, disambiguate=False):
     """Author-year link text, the X-Planes convention."""
     a = latin_authors(authors)
     if not a:
-        base = clean(" ".join((title or "").split()[:4]))
+        base = clean(" ".join(title_lead(title).split()[:4]))
     elif len(a) == 1:
         base = a[0].title() if a[0].isupper() else a[0]
     elif len(a) == 2:
@@ -212,14 +241,14 @@ def anchor_stem(authors, year, title, kind="research"):
     # on the title.
     title = clean(title)
     if not a:
-        stem = slug(" ".join((title or "").split()[:2])) or "anon"
+        stem = slug(" ".join(title_lead(title).split()[:2])) or "anon"
     elif len(a) >= 2:
         stem = f"{fold(a[0])}_{fold(a[1])}"
     else:
         stem = fold(a[0])
     # A STEM OF NOTHING BUT SEPARATORS IS EMPTY AND THE OLD GUARD MISSED IT.
     if not stem.strip("_"):
-        stem = slug(" ".join((title or "").split()[:3])) or "anon"
+        stem = slug(" ".join(title_lead(title).split()[:3])) or "anon"
     return f"{kind}_{stem}_{year}" if year else f"{kind}_{stem}"
 
 

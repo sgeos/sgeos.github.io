@@ -17,6 +17,72 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Orbital Sciences X-42 A339 2025-11-17
+
+`x_planes_orbital_sciences_x42.markdown`, A339, editorial date 2025-11-17, series `x_planes` index 43
+of 72.
+
+**20,715 lines, 23 display equations, 9,816 reference definitions, 113,314 words after the draft
+pass**, of which 20,961 are author prose, a dilution factor of 5.4. Committed. **Not pushed**, since
+the draft pass does not push. **Not published**, and publication of the series has never been
+authorised.
+
+**THE ROSTER RECORDED THAT SOURCES DISAGREE ABOUT WHAT THE X-42 WAS, AND THE DISAGREEMENT TURNED OUT
+NOT TO BE ONE.** One source calls it an expendable upper stage and another a winged reusable launch
+vehicle, and **both are correct about different vehicles four years apart**. X-42A was allocated in
+late 1997 or early 1998 to the Upper Stage Flight Experiment and never used officially again. In 2002
+the laboratory and industry applied X-42 informally to a winged reusable booster derived from Orbital
+Sciences' Multi-Role Reusable Vehicle. **The two share a contractor and a sponsoring directorate and
+nothing else.**
+
+**THE CLASS TEST IN THE GENRE NOTE DECIDED THIS ONE AGAINST THE ROSTER TITLE.** The test is whether a
+vehicle existed and produced data rather than whether the designation is disputed, and a great deal of
+data exists. The article is therefore **full section order**, with the designation given its own
+section on the A320 precedent, rather than the reduced anomaly order the disputed designation might
+have suggested.
+
+**THE KEYSTONE IS THE PRESSURE-FED TANK MASS RELATION AND IT EXPLAINS BOTH UNUSUAL DESIGN CHOICES AT
+ONCE.** Tank mass is the product of pressure and volume divided by material specific strength, with
+shape entering only through a constant, so the mass fraction has exactly three levers. This vehicle
+pulled two, being a propellant bulk density of **1.230 g/cm³** and a filament wound carbon and epoxy
+structure with **seven to eleven times** the specific strength of aluminium 2219-T87. On the ideal
+membrane relation that is the difference between **0.82 percent** and **5.84 percent** of propellant
+mass.
+
+**TWO PAPERS FOUR YEARS APART SETTLE A NUMBER NEITHER STATES.** The structures paper gives a proof
+pressure of 1,100 psia at 150 percent of operating pressure, which admits two readings. The engine
+paper establishes a floor of **636 psia** from chamber pressure and catalyst bed drop alone, which
+leaves 97 psi of margin under the reading **MEOP = 733 psia** and 464 psi under the alternative.
+**Only the first is a design anyone would build.**
+
+**THE THROAT EROSION IS MEASURED TWICE BY INDEPENDENT MEANS AND THE TWO AGREE.** Because cavitating
+venturis fix the mass flow, the chamber pressure history of the 140 second test implies an erosion
+rate of **0.00050 in/s**, against **0.0009 in/s** measured directly by post-test metrology at a higher
+mixture ratio. Neither was derived from the other. **The same fixed mass flow turns a 22.5 percent
+growth in throat area into about a one percent change in thrust**, which is why an ablative nozzle was
+affordable.
+
+**THE HEADLINE PAPER OVERSTATES HOW EASILY THE THROTTLING WAS OBTAINED.** A companion paper at the
+same conference reports a low frequency catalyst bed instability at about one third of design flow,
+removed by modifying the combustion chamber. The demonstrated throttle range lies **below** that flow,
+so the modification was the precondition for the result the other paper reports.
+
+**THE PROGRAMME WAS DESTROYED BY THE COMPONENT IT EXISTED TO PROVE.** The tank passed a hydrostatic
+proof in April 2003 and later failed during a helium pressurisation test, taking the engine with it. A
+second article leaked. **No flight ever followed and the article treats that as an argument from
+silence.**
+
+**THE GATE WAS CORRECTED IN FOUR ROUNDS AND THE FOURTH CAME FROM A TEST RATHER THAN A SAMPLE.** Bare
+`booster` admitted child booster seats. Three conjunctions were satisfiable by one word because the
+qualifying list contained a word from the term being qualified. The same defect sat in a fourth place
+that fixing the first three did not reach. **A structural test asserting that no conjunction can be
+satisfied by a single word then found a fifth instance no sample had surfaced.**
+
+**SEVEN ORDERING CLAIMS IN THE SURVEY PROSE ARE ASSERTED AGAINST THE COMPUTED COUNTS AT BUILD TIME.**
+The first draft of the survey claimed two different clusters were the smallest and named the residual's
+subordinate as the largest. That is the count-in-own-prose defect for the seventh time in this series,
+and it is now checked rather than trusted.
+
 ## X-Planes X-41 Common Aero Vehicle A338 2025-11-16
 
 `x_planes_x41_common_aero_vehicle.markdown`, A338, editorial date 2025-11-16, series `x_planes` index 42

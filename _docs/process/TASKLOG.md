@@ -8,14 +8,16 @@ Current task state and verification log. This file is the shared source of truth
 ## Current Task
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
-**Status**: **A297 through A335 drafted with all four passes complete on every one, committed and
-PUSHED, and none published. A336 has completed the draft pass only, is committed and NOT pushed, and is
-not published. A336 has completed all four passes, is committed and PUSHED, and is not published.
-A337 has completed all four passes, is committed and PUSHED, and is not published.
-A338 has completed all four passes, is committed and PUSHED, and is not published.**
-Forty-two of seventy-two drafted, **none published**. The next new article is **A339**, and it starts only
-on the pilot's prompt. The next new article after A336 is **A337, the Boeing X-40**, editorial date
-2025-11-15, series index 41, and it starts only on the pilot's prompt.
+**Status**: **A297 through A338 are drafted with all four passes complete on every one, committed and
+PUSHED, and none published. A339 has completed the draft pass only, is committed and NOT pushed, and is
+not published.** Forty-three of seventy-two drafted, **none published**. The next pass is the
+**equation-density review of A339**, and it starts only on the pilot's prompt.
+
+**This block was rewritten again on 2026-08-13**, because it had gone self-contradictory for a sixth
+time, asserting in consecutive sentences that A336 had completed the draft pass only and was not pushed,
+and that A336 had completed all four passes and was pushed, and then naming both A339 and A337 as the
+next new article. **The counts above were re-measured against the working tree rather than carried
+forward**, and the tree holds 43 series drafts, 42 of which cite a sibling, and 0 published.
 
 **A336 is the first designation anomaly in the series written in the reduced section order.** A320 and
 A324 are both anomalies that were nonetheless written at full length, because the SV-5D flew and the

@@ -1139,6 +1139,44 @@ def t_homonym_store_reaches_anchor_keyed_rejections_at_harvest_time():
     import homonyms
     homonyms._self_test()
 
+
+def t_title_lead_strips_accession_prefixes():
+    """A339: an abstracting service's accession number became reader-visible link text.
+
+    Crossref passes through the prefix that abstracting services and patent registries put
+    on the title field. Where the same record carries no Latin-script author, the label
+    falls back to the opening words of the title and the accession number leads it. A339
+    harvested 33 in one pool, giving labels such as "98/02419 Effects of launch 1998" and
+    "5451015 Crashworthy composite aircraft 1996".
+
+    THE FIRST FIX BROKE A LEGITIMATE TITLE. Stripping digits before any capital turned
+    "3D printing" into "D printing", so the rule requires a lowercase letter after the
+    capital, which is what distinguishes a glued word from a leading initialism.
+    """
+    assert refs.title_lead("98/02419 Effects of launch") == "Effects of launch"
+    assert refs.title_lead("5451015 Crashworthy composite") == "Crashworthy composite"
+    assert refs.title_lead("1162. Design of altitude") == "Design of altitude"
+    assert refs.title_lead("4 Launch Vehicles") == "Launch Vehicles"
+    assert refs.title_lead("85Chapter 6 Tutorial") == "Chapter 6 Tutorial"
+    assert refs.title_lead("13Design and evaluation") == "Design and evaluation"
+
+    # A LEADING NUMBER THAT BELONGS TO THE TITLE SURVIVES.
+    assert refs.title_lead("3D printing of nozzles") == "3D printing of nozzles"
+    assert refs.title_lead("2D flow past a cylinder") == "2D flow past a cylinder"
+    assert refs.title_lead("Ordinary title") == "Ordinary title"
+
+    # Both label paths use it, and neither may reintroduce the prefix.
+    assert refs.display([], "1998", "98/02419 Effects of launch vehicle emissions") == \
+        "Effects of launch vehicle 1998"
+    assert refs.anchor_stem([], "1998", "98/02419 Effects of launch") == \
+        "research_effects_of_1998"
+
+    # `clean` MUST NOT ACQUIRE THIS BEHAVIOUR. A full title keeps its leading number,
+    # because only the shortened label needs the prefix gone.
+    assert refs.clean("1162. Design of altitude").startswith("1162"), \
+        "title_lead leaked into clean, which would rewrite full reference text"
+
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)
