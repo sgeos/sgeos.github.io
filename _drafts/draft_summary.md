@@ -77,7 +77,36 @@ crossover across four artefact sizes, and the compound exposure probability in t
 **A VERIFIER SHARING NO CODE WITH THE DRAFT** was written at `tmp/a373/verify.py` and recomputes **31
 results** from the code parameters and raw instrument counts rather than from the quoted percentages.
 
-**Remaining work.** Primary-reference review. Publication review.
+**42,419 lines, 32 display equations, 13,803 reference definitions, 459,078 words after the
+primary-reference review.**
+
+**THE PRIMARY BASE WAS ALREADY STRONG AND THE PASS WAS THEREFORE A VERIFICATION PASS.** The engineering
+session had already cited **57 primary works inline**, covering Shannon, Hamming, Hsiao, Bellare and
+Namprempre, Krawczyk, Kim on Rowhammer, the memory field studies and Bishop and Dilger on
+time-of-check-to-time-of-use. That is a far stronger base than A337 or A338 arrived with, so the work was
+checking the citations rather than finding more.
+
+**THREE FOUNDATIONAL CITATIONS POINTED AT THE WRONG WORKS.** **Shannon 1948** resolved to a **2009 SAGE
+encyclopaedia entry** about the paper rather than the paper. **Gallager 1962** resolved to a Cambridge
+book chapter rather than the IEEE paper. **MacWilliams and Sloane 1977** resolved to a 2004 chapter called
+`Group theory and error-correcting codes` in a different book entirely. **All three are the exact defect
+the article's own Source Base describes**, being a real registered work with a plausible title.
+
+**Shannon and Gallager were corrected to verified identifiers.** MacWilliams and Sloane has no registered
+identifier at all, so it is now **named without a link**, which is the article's own stated policy.
+
+**ALL 57 INLINE CITATIONS WERE THEN CHECKED AGAINST THE REGISTRY** and every one agrees.
+
+**FOUR NAMED PRIMARIES HAD NO CITATION AT ALL.** Flip Feng Shui, the TCG integrity measurement paper, the
+ZFS end-to-end integrity study and Bishop and Dilger were named in prose with nothing behind them, because
+USENIX and FAST register no identifiers. **Lacking an identifier is not the same as lacking a citation**,
+and all four now carry stable publisher URLs. The curated set went from 8 to 12.
+
+**A GUESSED IDENTIFIER WAS CAUGHT BEFORE IT SHIPPED.** A candidate Open Library key returned HTTP 200 and
+resolved to **`Motor Racing (Inside Story)`**, which is the same defect being corrected, arrived at while
+correcting it.
+
+**Remaining work.** Publication review.
 
 ## X-Planes X-41 Common Aero Vehicle A338 2025-11-16
 

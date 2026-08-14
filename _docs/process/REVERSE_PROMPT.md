@@ -1,9 +1,58 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A373, Keleusma Research Spike on error correction meeting a signature. Equation-density
+**Task**: **A373, Keleusma Research Spike on error correction meeting a signature. Primary-reference
 review complete.** Committed, **not pushed**. **Not published.**
-**A pre-existing build break was also found and fixed, and it was not mine.**
+
+---
+
+## Three Foundational Citations Pointed at the Wrong Works
+
+**The primary base was already strong, so this became a verification pass.** The engineering session had
+already cited **57 primary works inline**, covering Shannon, Hamming, Hsiao, Bellare and Namprempre,
+Krawczyk, Kim on Rowhammer, the memory field studies, and Bishop and Dilger on
+time-of-check-to-time-of-use. That is a far better base than A337 or A338 arrived with.
+
+**So I checked the citations instead of hunting for more, and three of the most foundational were wrong.**
+
+- **Shannon 1948** resolved to a **2009 SAGE encyclopaedia entry** about the paper, not the paper.
+- **Gallager 1962** resolved to a Cambridge book chapter, not the IEEE paper.
+- **MacWilliams and Sloane 1977** resolved to a 2004 chapter called `Group theory and error-correcting
+  codes` in an entirely different book.
+
+**All three are the exact defect the article's own Source Base describes**, a real registered work with a
+plausible title. The article boasts of catching eleven of these; three survived into the load-bearing
+citations.
+
+**Shannon and Gallager were corrected to identifiers verified by author, title, container and year.**
+MacWilliams and Sloane has **no registered identifier at all**, so it is now **named without a link**,
+which is the article's own stated policy that a plain mention is honest where an identifier resolving to
+something else is not.
+
+**I then checked all 57 inline citations against the registry. Every one agrees.**
+
+---
+
+## Four Named Primaries Had Nothing Behind Them
+
+Flip Feng Shui, the TCG integrity measurement paper, the ZFS end-to-end integrity study, and **Bishop and
+Dilger** were all named in prose with **no link**, because USENIX and FAST register no identifiers. Bishop
+and Dilger matters most, since their naming of the time-of-check-to-time-of-use flaw is the closest prior
+statement of this article's central point.
+
+**Lacking an identifier is not the same as lacking a citation.** All four now carry stable publisher URLs,
+verified at 200. The curated set went from 8 to 12.
+
+---
+
+## Read This, Because I Nearly Committed the Defect I Was Fixing
+
+Looking for a stable identifier for the MacWilliams and Sloane book, I tried a candidate Open Library key.
+**It returned HTTP 200 and resolved to `Motor Racing (Inside Story)`.**
+
+**That is the same failure mode, arrived at while correcting it.** The memory note that an Open Library
+search endpoint cannot return a not-found is the only reason I checked rather than pasting it in. **A
+status code is not a citation check.**
 
 ---
 
@@ -130,7 +179,7 @@ pass does not push.
 
 ## Outstanding
 
-**Two passes remain**, being the primary-reference review and the publication review.
+**One pass remains**, being the publication review, which commits and pushes but does not publish.
 
 **The X-Planes mainline is untouched by this and remains at forty-two of seventy-two**, all four passes
 complete on each, none published and none authorised. **A339, the Orbital Sciences X-42, starts only on

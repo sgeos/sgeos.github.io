@@ -586,7 +586,7 @@ over overlapping subsets of positions. **Golay** gave the perfect codes that bea
 short note. The specific construction used here is [Hsiao][research_hsiao_1970]'s, which achieves single-error correction and
 double-error detection using minimum-odd-weight columns, improving on the earlier extended-Hamming
 approach by removing the need for a separate overall parity bit, and that is why the syndrome is
-self-classifying by weight. [MacWilliams and Sloane][research_macwilliams_sloane_1977] is the standard reference for the general theory,
+self-classifying by weight. **MacWilliams and Sloane** is the standard reference for the general theory,
 including the distance bounds that make the $t + s < d$ statement above a theorem rather than an
 observation. [Bose and Ray-Chaudhuri][research_bose_raychaudhuri_1960] and independently [Hocquenghem][research_hocquenghem_1959] gave the multiple-error-correcting
 family, and [Reed and Solomon][research_reed_solomon_1960] the non-binary codes used where burst errors dominate. Both are what one
@@ -7365,9 +7365,9 @@ cryptographic operations to any transformation whose behaviour on adversarial in
 
 ### Check-then-use is a named defect in a third field
 
-**Bishop and Dilger** named the time-of-check-to-time-of-use flaw, in which a program checks a property of
-a resource and then acts on the resource, with the property no longer guaranteed to hold at the moment of
-action. The classical setting is a race against a concurrent attacker, and the mechanism here is different
+**[Bishop and Dilger][ref_bishop_dilger]** named the time-of-check-to-time-of-use flaw, in which a program
+checks a property of a resource and then acts on the resource, with the property no longer guaranteed to
+hold at the moment of action. The classical setting is a race against a concurrent attacker, and the mechanism here is different
 in that nothing races, since the artefact is modified by the system itself, deliberately, after the check.
 
 **The structural defect is the same one.** A check establishes a property at $t_0$ and an action assumes it
@@ -14734,16 +14734,28 @@ confined to one byte.
 references were resolved against the registry by query, never written from memory. **A bare title query
 returned the WRONG WORK for eleven of them**, a rate of 14.9 percent, against this series' recorded rates
 of 0 of 35, 4 of 27 and 7 of 26. The wrong answers are the instructive part, because each returns a real
-registered work with a plausible title, being `Flip Feng Shui: hammering a needle in the software stack`
+registered work with a plausible title, being [`Flip Feng Shui: hammering a needle in the software stack`][ref_flip_feng_shui]
 resolved to **`Feng shui research`**, and `The sorcerer's apprentice guide to fault attacks` resolved to a
 humanities book chapter called **`5. The Apprentice Sorcerer`**. No reachability check can catch either.
 
-**Adding the authors to the query fixed sixteen and left eight.** Those eight are **dropped rather than
-guessed at**, and they are dropped for a reason worth recording. **USENIX Security and FAST do not register
-identifiers for their proceedings**, so Efail, Flip Feng Shui, the TCG integrity measurement paper and the
-ZFS end-to-end integrity study have none to cite. They remain in the prose and appear in the reference
-list as plain text with the reason stated, because a plain bullet is honest where an identifier resolving
-to something else is not.
+**Adding the authors to the query fixed sixteen and left eight.** Those eight are **not guessed at**, and
+the reason is worth recording. **USENIX Security and FAST do not register identifiers for their
+proceedings**, so [Efail][ref_efail], [Flip Feng Shui][ref_flip_feng_shui], the
+[TCG integrity measurement paper][ref_tcg_ima] and the [ZFS end-to-end integrity study][ref_zfs_e2e]
+have no identifier to cite. **A plain bullet is honest where an identifier resolving to
+something else is not.**
+
+**Lacking an identifier is not the same as lacking a citation, and the primary-reference pass corrected
+that.** Each of those works has a stable publisher page, and four are now cited by it rather than left
+unreachable, being **Flip Feng Shui**, the **TCG integrity measurement architecture**, the **ZFS
+end-to-end integrity study**, and **Bishop and Dilger**, whose naming of the time-of-check-to-time-of-use
+flaw is the closest prior statement of this article's central point and was previously named in bold with
+nothing behind it. **Efail was already cited by its project site.**
+
+**A fourth work has no citable identifier of any kind and is now unlinked rather than wrongly linked.**
+MacWilliams and Sloane's 1977 book is not registered, and the identifier it carried resolved to a 2004
+book chapter called `Group theory and error-correcting codes` in a different book. **It is named in the
+prose without a link**, which is the same policy applied above.
 
 **A second self-inflicted error, since it generalises.** The similarity function used to rank those
 resolutions folded each title to a single run-on token and therefore scored **zero for identical
@@ -14808,14 +14820,18 @@ authentication, by a route that had nothing to do with storage reliability.
 - [BREACH: Compression Attacks Against HTTPS][ref_breach]
 - [The Update Framework][ref_tuf]
 
+[ref_bishop_dilger]: https://www.usenix.org/legacy/publications/compsystems/1996/spr_bishop.pdf
 [ref_bitsquatting]: http://dinaburg.org/bitsquatting.html
 [ref_breach]: https://www.breachattack.com/
 [ref_doom_principle]: https://moxie.org/2011/12/13/the-cryptographic-doom-principle.html
 [ref_efail]: https://efail.de/
+[ref_flip_feng_shui]: https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/razavi
 [ref_nist_800_38d]: https://doi.org/10.6028/NIST.SP.800-38D
 [ref_project_zero_rowhammer]: https://googleprojectzero.blogspot.com/2015/03/exploiting-dram-rowhammer-bug-to-gain.html
 [ref_rfc8032]: https://www.rfc-editor.org/rfc/rfc8032
+[ref_tcg_ima]: https://www.usenix.org/conference/13th-usenix-security-symposium/design-and-implementation-tcg-based-integrity-measurement
 [ref_tuf]: https://theupdateframework.io/
+[ref_zfs_e2e]: https://www.usenix.org/conference/fast-10/end-end-data-integrity-file-systems-zfs-case-study
 
 ### Research
 
@@ -26193,7 +26209,6 @@ authentication, by a route that had nothing to do with storage reliability.
 - [The order of encryption and authentication for protecting communications (or: how secure is SSL?)][research_krawczyk_2001]
 - [The security and performance of the Galois/Counter Mode (GCM) of operation][research_mcgrew_viega_2004]
 - [The sorcerer's apprentice guide to fault attacks][research_barel_2006]
-- [The theory of error-correcting codes][research_macwilliams_sloane_1977]
 - [Theodor Vierhaus, 2018, Migrating Electronic Systems from Fault Tolerant Computing to Error Resilience][research_theodorvierhaus_2018]
 - [Thiers and others, 2020, Side Channel Attack Resistance of the Elliptic Curve Point Multiplication using Eisenstein Integers][research_thiers_safieh_2020]
 - [Thirion and others, 2026, Fault Model-Driven Formal Verification of Cryptographic Hardware Against Fault Attacks][research_thirion_sercaianu_2026]
@@ -32156,7 +32171,7 @@ authentication, by a route that had nothing to do with storage reliability.
 [research_galimov_alexandrov_2018]: https://doi.org/10.1109/mwent.2018.8337204
 [research_galimov_elushov_2016]: https://doi.org/10.1117/12.2267145
 [research_galkin_efimov_2005]: https://doi.org/10.1109/sibedm.2005.195647
-[research_gallager_1962]: https://doi.org/10.1017/cbo9780511809354.003
+[research_gallager_1962]: https://doi.org/10.1109/tit.1962.1057683
 [research_gallery_mitchell_2009]: https://doi.org/10.1080/01611190802231140
 [research_gallina_dimov_2011]: https://doi.org/10.1109/iwmn.2011.6088486
 [research_gambra_chatterjee_2025]: https://doi.org/10.1109/dft66274.2025.11257444
@@ -36028,7 +36043,6 @@ authentication, by a route that had nothing to do with storage reliability.
 [research_machemie_mazin_2011]: https://doi.org/10.1109/wifs.2011.6123124
 [research_maciejewski_2014]: https://doi.org/10.1142/9789814623353_0003
 [research_maciel_cmarques_2019]: https://doi.org/10.1016/j.microrel.2019.06.024
-[research_macwilliams_sloane_1977]: https://doi.org/10.1017/cbo9780511812187.009
 [research_madalin_miclea_2011]: https://doi.org/10.1109/iolts.2011.5994540
 [research_madalinski_khomenko_2010]: https://doi.org/10.1109/systol.2010.5676089
 [research_madalinski_khomenko_2012]: https://doi.org/10.3182/20120829-3-mx-2028.00048
@@ -39041,7 +39055,7 @@ authentication, by a route that had nothing to do with storage reliability.
 [research_shanmugam_tamilselvan_2016]: https://doi.org/10.14257/ijsia.2016.10.4.05
 [research_shanmugam_tamilselvan_2017]: https://doi.org/10.22266/ijies2017.0228.16
 [research_shanmugham_paramasivam_2021]: https://doi.org/10.4218/etrij.2020-0175
-[research_shannon_1948]: https://doi.org/10.4135/9781412959384.n229
+[research_shannon_1948]: https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
 [research_shanu_chandrasekaran_2016]: https://doi.org/10.1109/ccem.2016.017
 [research_shany_berman_2023]: https://doi.org/10.1109/tit.2023.3263185
 [research_shao_1998]: https://doi.org/10.1049/el:19980804
