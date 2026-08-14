@@ -1,10 +1,59 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A373, Keleusma Research Spike on error correction meeting a signature. Primary-reference
-review complete.** Committed, **not pushed**. **Not published.**
+**Task**: **A373, Keleusma Research Spike on error correction meeting a signature. Publication review
+complete.** Committed and **PUSHED**. **Not published.** All four passes are done.
 
 ---
+
+## One Thing Needs Your Decision
+
+**Publishing this would change four live pages.** A369 through A372 are published and their navigation
+reads **Part 1 to 4 of 4**. A373 sits at index 5, so publishing renumbers all four to **of 5**.
+
+**That is a change to live pages and I have not made it.** The article is committed, pushed and not
+published, which is what you asked for.
+
+---
+
+## The Publication Pass
+
+**The survey audit found no thin subjects**, which is the first of three consecutive publication reviews
+where none appeared. A337 had relative density at zero and A338 had the entry corridor at nine; this
+article's lowest are time-of-check-to-time-of-use and syndrome decoding, both comfortably covered.
+**Contemporary coverage is 56.6 percent of dated entries from 2015 or later and 34.7 percent from 2020 or
+later**, against a median year of 2016.
+
+**Six acronym and style defects were fixed.** The worst was **`ECC` unexpanded in a section heading**,
+now error-correction. `API`, the Trusted Computing Group and the File and Storage Technologies conference
+are spelled out. **The cyclic redundancy check is glossed in the prose beside the quotation that names
+it**, rather than by altering the quotation, since a quotation must not be edited to suit a style rule.
+
+**All-caps emphasis was used once** and is corrected to bold, which is the style guide's rule.
+
+**Structural conformance matches the published sibling A372 heading for heading.**
+
+---
+
+## What This Article Cost Across Four Passes, Worth Knowing
+
+**The draft pass** removed 44 prose colons and semicolons, converted four cross-references from hardcoded
+absolute URLs to `post_url` tags so they carry the build-time interlock, and renamed the two composition
+orders from **(A)** and **(B)** to **verify-then-scrub** and **scrub-then-verify**, which was the whole of
+the general-audience retarget and removed every prose parenthesis at the same time.
+
+**The equation pass** went 24 to 32 and found that the six hand-chosen triple faults which mis-corrected
+at 100 percent were **every way of choosing three positions from eight**, so the biased sample was biased
+**toward the physically likely case**, which the memory field studies say is clustering. It also fixed a
+**pre-existing build break** that was not mine, four stale `post_url` dates across three unrelated
+pre-release drafts.
+
+**The primary pass** found **three foundational citations pointing at the wrong works**, including Shannon
+1948 resolving to a 2009 encyclopaedia entry about the paper. All 57 inline citations were then checked
+against the registry and every one now agrees.
+
+---
+
 
 ## Three Foundational Citations Pointed at the Wrong Works
 

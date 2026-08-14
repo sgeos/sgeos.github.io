@@ -106,7 +106,27 @@ and all four now carry stable publisher URLs. The curated set went from 8 to 12.
 resolved to **`Motor Racing (Inside Story)`**, which is the same defect being corrected, arrived at while
 correcting it.
 
-**Remaining work.** Publication review.
+**42,421 lines, 32 display equations, 13,803 reference definitions, 459,108 words after the publication
+review**, of which 8,708 are author prose. Committed and **PUSHED**. **Not published.**
+
+**THE SURVEY AUDIT FOUND NO THIN SUBJECTS**, which is the first article in three passes where it did not.
+Every load-bearing subject is covered, the lowest being time-of-check-to-time-of-use and syndrome decoding,
+both comfortably above the threshold. Contemporary coverage is **56.6 percent of dated entries from 2015
+or later and 34.7 percent from 2020 or later** against a median year of 2016.
+
+**SIX STYLE AND ACRONYM DEFECTS FIXED.** `ECC` appeared unexpanded in a section heading and is now
+error-correction. `API` and the Trusted Computing Group are spelled out. The cyclic redundancy check is
+glossed in prose beside the quotation that names it, since a quotation must not be altered.
+**All-caps emphasis was used once**, which the style guide bans in favour of bold, and is corrected.
+
+**Structural conformance matches the published sibling A372 heading for heading**, and the twelve curated
+URLs all resolve at 200.
+
+**Remaining work.** None. All four passes are complete.
+
+**PUBLISHING THIS WOULD CHANGE FOUR LIVE PAGES.** A369 through A372 are published and their navigation
+reads Part 1 to 4 **of 4**. A373 sits at index 5, so publishing renumbers all four to **of 5**. That has
+not been done and it is the pilot's call.
 
 ## X-Planes X-41 Common Aero Vehicle A338 2025-11-16
 

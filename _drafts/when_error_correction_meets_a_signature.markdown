@@ -101,7 +101,8 @@ plane is itself a region, holding one check byte per 64-bit word of the region i
 **beside** the data, not interleaved with it. Keeping the payload contiguous is what lets the
 reader use a string in place rather than copying it out, and that is load-bearing for a memory bound.
 
-Signing wraps everything, and the implementation says so.
+Signing wraps everything, and the implementation says so. The trailer it mentions carries a cyclic
+redundancy check, abbreviated CRC, which is a non-cryptographic checksum for accidental damage.
 
 > The signature covers the entire on-disk framed buffer with the signature payload bytes and the CRC
 > trailer bytes zeroed.
@@ -397,12 +398,13 @@ the boundary, with everything after it treated as inside the perimeter.
 constructed from an owned module value, the deserialiser takes a shared reference, and the zero-copy path
 yields a shared slice. **No load path holds a mutable reference to the artefact bytes.** As the interface
 stands, the scrub physically cannot run before verification, because there is nothing for it to write
-into. The only place it fits without new API is afterwards, which is the wrong place.
+into. The only place it fits without a new application programming interface is afterwards, and afterwards is
+the wrong place.
 
 **The rule that follows is not "scrub first". It is that every scrub must be followed by a fresh
 verification**, because a scrub is a modification and the previous verification does not extend over it.
 
-## Result 3: A Clean ECC Report Is Not Evidence Of Integrity
+## Result 3: A Clean Error-Correction Report Is Not Evidence Of Integrity
 
 The 5,133 invisible weight-4 patterns make a stronger claim available than the mis-correction result
 alone.
@@ -14732,14 +14734,14 @@ confined to one byte.
 
 **Verified, and the defect rate is the method's rather than this article's.** All 74 hand-selected
 references were resolved against the registry by query, never written from memory. **A bare title query
-returned the WRONG WORK for eleven of them**, a rate of 14.9 percent, against this series' recorded rates
+returned the **wrong work** for eleven of them**, a rate of 14.9 percent, against this series' recorded rates
 of 0 of 35, 4 of 27 and 7 of 26. The wrong answers are the instructive part, because each returns a real
 registered work with a plausible title, being [`Flip Feng Shui: hammering a needle in the software stack`][ref_flip_feng_shui]
 resolved to **`Feng shui research`**, and `The sorcerer's apprentice guide to fault attacks` resolved to a
 humanities book chapter called **`5. The Apprentice Sorcerer`**. No reachability check can catch either.
 
 **Adding the authors to the query fixed sixteen and left eight.** Those eight are **not guessed at**, and
-the reason is worth recording. **USENIX Security and FAST do not register identifiers for their
+the reason is worth recording. **USENIX Security and the File and Storage Technologies conference do not register identifiers for their
 proceedings**, so [Efail][ref_efail], [Flip Feng Shui][ref_flip_feng_shui], the
 [TCG integrity measurement paper][ref_tcg_ima] and the [ZFS end-to-end integrity study][ref_zfs_e2e]
 have no identifier to cite. **A plain bullet is honest where an identifier resolving to
@@ -14747,7 +14749,7 @@ something else is not.**
 
 **Lacking an identifier is not the same as lacking a citation, and the primary-reference pass corrected
 that.** Each of those works has a stable publisher page, and four are now cited by it rather than left
-unreachable, being **Flip Feng Shui**, the **TCG integrity measurement architecture**, the **ZFS
+unreachable, being **Flip Feng Shui**, the **Trusted Computing Group integrity measurement architecture**, the **ZFS
 end-to-end integrity study**, and **Bishop and Dilger**, whose naming of the time-of-check-to-time-of-use
 flaw is the closest prior statement of this article's central point and was previously named in bold with
 nothing behind it. **Efail was already cited by its project site.**
