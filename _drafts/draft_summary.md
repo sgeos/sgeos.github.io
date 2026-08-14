@@ -22,10 +22,29 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_orbital_sciences_x42.markdown`, A339, editorial date 2025-11-17, series `x_planes` index 43
 of 72.
 
-**20,715 lines, 23 display equations, 9,816 reference definitions, 113,314 words after the draft
-pass**, of which 20,961 are author prose, a dilution factor of 5.4. Committed. **Not pushed**, since
-the draft pass does not push. **Not published**, and publication of the series has never been
-authorised.
+**20,931 lines, 57 display equations, 9,816 reference definitions, 115,229 words after the
+equation-density pass**, of which 22,250 are author prose, a dilution factor of 5.2. Committed.
+**Not pushed**, since neither the draft pass nor the equation pass pushes. **Not published**, and
+publication of the series has never been authorised.
+
+**THE EQUATION PASS TOOK THIS ARTICLE FROM 23 DISPLAY EQUATIONS TO 57 AND FOUND THREE DEFECTS.** The
+draft quoted a great many values whose relations were never shown, the worst being that **the article
+gave a velocity increment family without ever displaying the rocket equation**. Thirty-four relations
+were added, including the propellant split and tank volumes, the throat and exit geometry, the ideal
+vacuum thrust coefficient and the area ratio relation that fixes it, the cavitating venturi mass flow,
+the peroxide decomposition energy balance, the pressurant mass, the cold gas limit, and netting
+analysis with the isotensoid winding angle.
+
+**TWO NEW CROSS-CHECKS CAME OUT OF THE PASS RATHER THAN GOING INTO IT.** The catalyst bed frontal
+diameter derived from the published oxidiser flow and bed mass flux is **9.72 inches against a
+published 10 inch chamber**, and the chamber Mach number implied by the contraction ratio is **0.083**,
+which places the chamber within a tenth of a percent of stagnation temperature and turns the paper's
+autoignition requirement into a residence-time statement.
+
+**THE PASS ALSO INTRODUCED AND THEN CAUGHT TWO OF ITS OWN DEFECTS.** Two inserted displays absorbed the
+following prose onto their own source line, which is the self-inflicted equation defect this series has
+shipped before, and the new consistency-check ordinals contradicted each other, with **a third**
+appearing sixty lines before **the first**.
 
 **THE ROSTER RECORDED THAT SOURCES DISAGREE ABOUT WHAT THE X-42 WAS, AND THE DISAGREEMENT TURNED OUT
 NOT TO BE ONE.** One source calls it an expendable upper stage and another a winged reusable launch
