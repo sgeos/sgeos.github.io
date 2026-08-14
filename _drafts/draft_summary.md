@@ -22,10 +22,38 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_orbital_sciences_x42.markdown`, A339, editorial date 2025-11-17, series `x_planes` index 43
 of 72.
 
-**21,067 lines, 57 display equations, 9,831 reference definitions, 116,772 words after the
-primary-reference pass**, of which 23,457 are author prose, a dilution factor of 5.0. Committed.
-**Not pushed**, since only the publication review pushes. **Not published**, and publication of the
-series has never been authorised.
+**21,099 lines, 57 display equations, 9,831 reference definitions, 117,301 words after the
+publication review**, of which 23,757 are author prose, a dilution factor of 4.9. **All four passes
+complete.** Committed and **PUSHED**. **Not published**, and publication of the series has never been
+authorised.
+
+**THE PUBLICATION REVIEW FOUND FOUR THINGS AND THREE WERE MINE.** A caps-emphasis span reading
+**THE PRIMARY-REFERENCE PASS ADDED 21 SOURCES** violated the rule that emphasis is bold and never
+capitals, and the three peer articles checked carry zero such spans, so it was a regression rather
+than a convention. `USFE` was used three times in prose and never introduced. `published` ran at
+4.16 per thousand against a peer mean of 1.19, with nine uses inside one Epistemic State subsection
+whose opening sentence already carried the qualification.
+
+**THE FOURTH WAS AN INSTRUMENT ARTEFACT AND NOT A DEFECT.** The n-gram check reported `the the the`
+37 times, which is the series back-reference sentence listing forty-two siblings as "the X-1, the
+X-2" and having its link pairs stripped. **Measured with that sentence removed, nothing else moved.**
+
+**`rather` WAS INVESTIGATED AND LEFT ALONE.** It runs at 4.44 per thousand against a peer maximum of
+4.31, but 54 of its 57 uses are `rather than`, which is the construction the style rules push toward
+in place of dash constructions, and only one paragraph in the article uses it twice. **The excess is
+structurally induced by the house style rather than a tic.**
+
+**THE SURVEY GAINED A CLOSING SYNTHESIS BECAUSE THE DATE PROFILE IS A FINDING.** The peroxide cluster
+carries the smallest pre-2000 share of any core cluster at **20 percent** and one of the largest
+post-2015 shares at **51 percent**, which measures the abandonment and revival the article had only
+asserted. The upper stage cluster is the mirror image at **39 percent** pre-2000 and is the smallest
+core cluster. **The two clusters covering the technologies that actually killed the programme are the
+youngest**, with ablatives at 53 percent post-2015, so the tank failed on a problem that is open
+still. **Three ordering claims in that synthesis are asserted against the computed profile at build
+time**, as the sixteen cluster-size claims already were.
+
+**EVERY WORKED FIGURE WAS RE-DERIVED BY A SCRIPT THAT DOES NOT IMPORT THE ONE THAT PRODUCED THEM.**
+Fifty-four values re-typed from the primary papers, all passing.
 
 **THE PRIMARY-REFERENCE PASS ADDED 21 SOURCES, TAKING THE CURATED SET FROM 20 TO 41.** The audit that
 prompted it found **63 of 81 substantial paragraphs carrying no citation**. Many were analysis that

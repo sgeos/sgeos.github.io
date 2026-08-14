@@ -54,6 +54,20 @@ These canonical sources return 403 to curl due to bot-detection. The URL is the 
 | Federal Communications Commission | fcc.gov | Federal bot-detection, observed 2026-08-03 |
 | Financial Accounting Standards Board | fasb.org | Standards-body bot-detection |
 | International Council on Systems Engineering | incose.org | Standards-body bot-detection |
+| MDPI | mdpi.com | Publisher bot-detection, observed 2026-08-14 |
+| AIP Publishing | pubs.aip.org | Publisher bot-detection, observed 2026-08-14 |
+| ASME Digital Collection | asmedigitalcollection.asme.org | Publisher bot-detection, observed 2026-08-14 |
+| Hindawi and Wiley open access | downloads.hindawi.com, hindawi.com | Publisher bot-detection, observed 2026-08-14 |
+
+**A 403 FROM A PUBLISHER IS NOT A CITATION CHECK EITHER WAY, AND THE RIGHT INSTRUMENT IS THE REGISTRY.**
+A339 sampled 40 harvested identifiers and 25 returned 403, which looks alarming and means nothing.
+Every one of the 25 resolved through Crossref to a registered work with a title and authors.
+**Where a DOI is the identifier, query the registry rather than the landing page**, because the
+registry answers the question that matters, which is whether the identifier denotes the work it is
+cited as. The landing page answers only whether the publisher feels like talking to curl today.
+
+**The concentration is worth knowing before it alarms anyone.** Of those 25, nineteen were AIAA, which
+is unavoidable in an aerospace article whose primary literature is the Joint Propulsion Conference.
 | Organisation for Economic Co-operation and Development | oecd.org | Bot-detection |
 | Justia | supreme.justia.com | Case-law host bot-detection |
 | ArianeGroup | arianegroup.com | Blocks curl outright with a connection failure |

@@ -95,7 +95,8 @@ The laboratory then partnered with the NASA Marshall Space Flight Center, which 
 management of further development jointly with the Air Force. **Orbital Sciences Corporation received
 the contract to design, develop and demonstrate the stage**, working from its Launch Services Group at
 Chandler, Arizona[[Ross and others 2000][research_ross_2000]]. The flight article was called the Upper
-Stage Flight Experiment, and it was the flight demonstrator for the Modular Insertion Stage concept.
+Stage Flight Experiment, abbreviated USFE throughout the primary literature and occasionally so here,
+and it was the flight demonstrator for the Modular Insertion Stage concept.
 
 **The institutional arrangement matters to what followed.** Three organisations funded or managed the
 work, being the Air Force Research Laboratory Space Vehicles Directorate, NASA Marshall, and Orbital
@@ -1040,6 +1041,35 @@ rather than as a fact about the hardware.
 
 **72 records.** [[Ankudinov and Vashchenko 2021][research_ankudinov_vashchenko_2021]] [[Bai 2006][research_bai_2006]] [[Belyaev et al 2005][research_belyaev_chvanov_2005]] [[Belyakov 2022][research_belyakov_2022]] [[Berque and Georges 1992][research_berque_georges_1992]] [[Brockmeyer 1993][research_brockmeyer_1993]] [[Brown 2022][research_brown_2022_b]] [[Buckmann et al 1989][research_buckmann_shimp_1989]] [[Buckmann et al 1992][research_buckmann_shrimp_1992]] [[Caldas Pinto et al 2019][research_caldaspinto_ciezki_2019]] [[Caron et al 1996][research_caron_cornu_1996]] [[Cho et al 2019][research_cho_ha_2019]] [[Choi and Moon 2022][research_choi_moon_2022]] [[Clark 1967][research_clark_1967]] [[Contreras et al 2026][research_contreras_fontanetta_2026]] [[Crocker and Peery 1998][research_crocker_peery_1998]] [[Di Matteo and De Rosa 2011][research_dimatteo_derosa_2011]] [[Dorosh and Leontiev 2014][research_dorosh_leontiev_2014]] [[Filin and Mkrtchyan 2021][research_filin_mkrtchyan_2021]] [[Gemranova 2021][research_gemranova_2021]] [[Girault 1989][research_girault_1989]] [[Goertz 1995][research_goertz_1995]] [[Guoyuan and Xiu-Tian 2014][research_guoyuan_xiutian_2014]] [[Ha et al 2020][research_ha_roh_2020]] [[HIP Activities for Turbopump 2019][research_hip_activities_2019]] [[Hudson et al 2000][research_hudson_zoladz_2000]] [[Hudson et al 2003][research_hudson_zoladz_2003]] [[Hwang et al 2018][research_hwang_lee_2018]] [[Hydrostatic bearings for cryogenic 1969][research_hydrostatic_bearings_1969]] [[Jeon et al 2004][research_jeon_lee_2004]] [[Jeon et al 2013][research_jeon_kwak_2013]] [[Jugade 2023][research_jugade_2023]] [[Kamijo et al 1981][research_kamijo_sogame_1981]] [[Kamijo et al 1982][research_kamijo_sogame_1982]] [[Kishimoto et al 2022][research_kishimoto_morita_2022]] [[Lee et al 2016][research_lee_shin_2016]] [[Leto 2019][research_leto_2019]] [[Leto and Bonfiglioli 2017][research_leto_bonfiglioli_2017]] [[Li et al 2018][research_li_sun_2018]] [[Li et al 2018][research_li_sun_2018_b]] [[Liang et al 2021][research_liang_song_2021]] [[Liang et al 2025][research_liang_zhao_2025]] [[Lim et al 2020][research_lim_kim_2020]] [[Lioi et al 2024][research_lioi_cozzi_2024]] [[Mani et al 2016][research_mani_cervone_2016]] [[Motomura 2025][research_motomura_2025]] [[Nam et al 2018][research_nam_moon_2018]] [[Negishi et al 2019][research_negishi_ohno_2019]] [[Numerical Studies on the 2003][research_numerical_studies_2003]] [[Ohashi 1968][research_ohashi_1968]] [[Pastuszko et al 2024][research_pastuszko_chauvo_2024]] [[Prokopenko 2026][research_prokopenko_2026]] [[Ratcliff et al 1993][research_ratcliff_athavale_1993]] [[Rocket Turbomachinery Fundamentals 2019][research_rocket_turbomachinery_2019]] [[Sanand et al 2026][research_sanand_rathee_2026]] [[Sheludko et al 2022][research_sheludko_nazarov_2022]] [[Shoyama et al 2024][research_shoyama_wada_2024]] [[Sierra et al 2017][research_sierra_tizon_2017]] [[Simulation of Two-Phase Flows 2019][research_simulation_of_2019]] [[Sreeyesunath and Sugathan 1994][research_sreeyesunath_sugathan_1994]] [[Torre et al 2018][research_torre_konno_2018]] [[Torres Zanardi et al 2019][research_torreszanardi_bacchi_2019]] [[Wahlen 1995][research_wahlen_1995]] [[Walsh and Jacoby 1972][research_walsh_jacoby_1972]] [[Wan et al 2026][research_wan_xiang_2026]] [[Wang 2019][research_wang_2019]] [[Wang et al 2022][research_wang_liu_2022_b]] [[Wang et al 2025][research_wang_kim_2025]] [[Yamanishi et al 2003][research_yamanishi_kato_2003]] [[Yang et al 2019][research_yang_li_2019]] [[Yoon et al 2013][research_yoon_jeon_2013]] [[Zhang et al 2023][research_zhang_zhao_2023]]
 
+### What the Shape of the Survey Says
+
+**A cluster's size says how much exists. Its date profile says whether the subject is alive**, and on this corpus the two disagree in ways that bear directly on the vehicle.
+
+| Cluster | Before 2000 | 2015 or later |
+|---|---|---|
+| Other propulsion and launch vehicle literature | 36 % | 44 % |
+| Thrust chambers, injectors and combustion | 26 % | 47 % |
+| Composite pressure vessels and tank structure | 24 % | 52 % |
+| Solid, hybrid and alternative rocket propulsion | 42 % | 42 % |
+| Hydrogen peroxide and green propellant propulsion | 20 % | 51 % |
+| Reusable and responsive launch vehicles | 26 % | 38 % |
+| Attitude control, separation and stage subsystems | 35 % | 44 % |
+| Pressure-fed feed systems and stage sizing | 27 % | 50 % |
+| Nozzles, thrust coefficient and performance | 38 % | 43 % |
+| Ablative materials and nozzle erosion | 25 % | 54 % |
+| Upper stages, kick stages and orbit insertion | 39 % | 39 % |
+| Launch vehicle dynamics, loads and flight control | 15 % | 60 % |
+| Cryogenic propellants and cryogenic engines | 21 % | 55 % |
+| Programme, cost and mission analysis | 40 % | 37 % |
+| Test facilities, instrumentation and diagnostics | 40 % | 45 % |
+| Turbomachinery, pumps and engine cycles | 24 % | 60 % |
+
+**The peroxide cluster carries the smallest share of pre-2000 work of any cluster central to this vehicle, at 20 percent, and one of the largest shares of work from 2015 onward, at 51 percent.** That is the abandonment and revival this article describes, measured rather than asserted. **Concentrated peroxide was given up as a propellant in the 1960s and the literature simply stops**, which is why a field with a long history reads as a young one.
+
+**The upper stage cluster is the mirror image and it is the bleakest number in the table.** It carries the largest pre-2000 share of any core cluster at 39 percent and is the smallest core cluster in absolute terms. **The pop-up insertion mission was posed, worked on, and then abandoned without being solved**, and the modern entries under this heading serve commercial rideshare rather than the military responsive-insertion mission that justified this vehicle.
+
+**The two clusters covering the technologies that actually killed the programme are the youngest.** Ablative materials stand at 54 percent post-2015 and composite pressure vessels close behind. **The tank failed because that problem was open, and the date profile says it is open still.** A reader looking for the part of this vehicle that has a future should look there rather than at the stage.
+
 ## The Source Base
 
 **41 curated sources carry the argument and 9,748 harvested records map the
@@ -1057,7 +1087,7 @@ article possible. The programme was run by a contractor under NASA management, s
 its incident report, its pressurant tank development and the design criteria its engineers worked from
 are all in one open register.
 
-**THE PRIMARY-REFERENCE PASS ADDED 21 SOURCES AND THE REASON IS UNCOMFORTABLE.** The draft derived a
+**The primary-reference pass added 21 sources and the reason is uncomfortable.** The draft derived a
 great deal and cited almost nothing for the relations it derived from. **Sixty-three of eighty-one
 substantial paragraphs carried no citation at all.** Many were analysis that needs none, but the
 physical constants, the canonical relations and the programme context were all simply asserted.
@@ -1166,39 +1196,40 @@ hardware[[Ross and others 2001][research_ross_2001]].
 
 ### Verified by Independent Derivation
 
-**These figures were computed from published values rather than quoted, and the derivations are given
-in the article.**
+**Every input below is a value one of the primary papers reports, and every output was computed in
+this article rather than quoted from anywhere.** The qualification is made once here and not repeated
+against each item.
 
 The throat area of 11.06 square inches, throat diameter of 3.75 inches and exit diameter of 23.7 inches
-follow from the published contraction ratio of 7.1 and chamber diameter of ten inches, and the exit
-diameter is consistent with the published 40 inch engine envelope.
+come from the contraction ratio of 7.1 with a chamber diameter of ten inches, and the exit diameter
+sits inside the stated 40 inch engine envelope.
 
-The propellant load of 7,200 pounds follows from the published flowrate and burn time, dividing at the
-published mixture ratio into 5,937 pounds of oxidiser and 1,263 pounds of fuel, occupying 93.8 cubic
-feet in total at a bulk density of 1.230 grams per cubic centimetre.
+The propellant load of 7,200 pounds is the flowrate multiplied by the burn time, and dividing it at the
+stated mixture ratio gives 5,937 pounds of oxidiser and 1,263 pounds of fuel, occupying 93.8 cubic feet
+in total at a bulk density of 1.230 grams per cubic centimetre.
 
-The characteristic velocity of 4,943 feet per second and thrust coefficient of 1.808 follow from the
-published thrust, chamber pressure and flowrate, and the thrust coefficient sits just below the ideal
+The characteristic velocity of 4,943 feet per second and thrust coefficient of 1.808 come from the
+reported thrust, chamber pressure and flowrate, and the thrust coefficient sits just below the ideal
 vacuum value for the stated expansion ratio, as a real nozzle must.
 
 The erosion rate of 0.00050 inches per second implied by the chamber pressure history of the 140 second
 test agrees in magnitude with the 0.0009 inches per second measured directly in the 31 second test and
 orders correctly with mixture ratio. **Neither measurement was derived from the other.**
 
-The catalyst bed frontal diameter of 9.72 inches follows from the published oxidiser flow and the
-published bed mass flux, and fits inside the published ten inch chamber with three percent to spare.
-**Those three numbers were reported in different sections for different purposes and they agree.**
+The catalyst bed frontal diameter of 9.72 inches comes from the oxidiser flow and the bed mass flux,
+and fits inside the ten inch chamber with three percent to spare. **Those three numbers were reported
+in different sections for different purposes and they agree.**
 
-The chamber Mach number of 0.083 follows from the published contraction ratio through the isentropic
-area relation, and places the chamber within a tenth of a percent of stagnation temperature, which is
-the condition the paper's autoignition requirement is really asking for.
+The chamber Mach number of 0.083 comes from the contraction ratio through the isentropic area relation,
+and places the chamber within a tenth of a percent of stagnation temperature, which is the condition
+the paper's autoignition requirement is really asking for.
 
-The ideal vacuum thrust coefficient of 1.884 at a ratio of specific heats of 1.20 and 1.835 at 1.25
-follows from the area ratio relation solved at an expansion ratio of 40. **The measured 1.808 sits
-below both, which is where a real nozzle belongs.**
+The ideal vacuum thrust coefficient of 1.884 at a ratio of specific heats of 1.20 and 1.835 at 1.25 is
+the area ratio relation solved at an expansion ratio of 40. **The measured 1.808 sits below both, which
+is where a real nozzle belongs.**
 
-The isotensoid winding angle of 54.7 degrees follows from the two-to-one ratio of hoop to axial
-membrane load in a pressurised cylinder and from nothing else.
+The isotensoid winding angle of 54.7 degrees rests on the two-to-one ratio of hoop to axial membrane
+load in a pressurised cylinder and on nothing else.
 
 The vacuum thrust coefficient falls by under one percent as the expansion ratio drops from 40 to 32.7,
 which is the change corresponding to a full burn at the allowable erosion rate.
@@ -1265,7 +1296,7 @@ period. This is a plausible common cause and it is not documented as one.
 
 ### What the Record Does Not Settle
 
-**The stage's inert mass was never published**, so this article gives achievable velocity increment as a
+**The stage's inert mass was never released**, so this article gives achievable velocity increment as a
 family across plausible inert and payload masses rather than as a number. Across inert masses from 600
 to 1,200 pounds and payloads from 2,000 to 4,000 pounds, the family spans roughly 2,340 to 3,580 metres
 per second. **The inert mass is the one quantity that would turn that family into an answer**, and it
@@ -1278,12 +1309,13 @@ calculation is an upper bound rather than a confirmation.
 
 **The pressurant figures are isothermal lower bounds.** Real blowdown cools the gas, so the 24.5
 kilograms and the thirteen cubic foot bottle are the least that would have worked, not estimates of
-what was flown. No pressurant mass was ever published.
+what was flown. No figure for the pressurant load appears anywhere in the record.
 
-**The catalyst bed life was never published.** Bed pressure drop is reported as rising with accumulated
-run time and no limit is stated.
+**The catalyst bed has no stated life.** Bed pressure drop is reported as rising with accumulated run
+time and no limit is given, so the one number that would say whether the engine was ready to fly is
+missing.
 
-**The cause of the tank failure was never published.** A vessel that passes a hydrostatic proof at
+**The cause of the tank failure was never disclosed.** A vessel that passes a hydrostatic proof at
 150 percent and later fails during helium pressurisation is reporting something about liners, joints,
 bosses, permeation or the difference between a liquid and a gas as the pressurising medium, and the
 public record does not say which.

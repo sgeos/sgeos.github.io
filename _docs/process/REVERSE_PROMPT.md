@@ -1,120 +1,136 @@
 ## Last Updated
 
-**Date**: 2026-08-13
-**Task**: **A339, "X-Planes: Orbital Sciences X-42", primary-reference review complete.** Committed and
-**not pushed**, since only the publication review pushes. **Not published**, and publication of this
-series has never been authorised.
+**Date**: 2026-08-14
+**Task**: **A339, "X-Planes: Orbital Sciences X-42", publication review complete.** All four passes
+done. Committed and **PUSHED**. **Not published**, and publication of this series has never been
+authorised.
 
 ---
 
-## The Audit That Started It Was Uncomfortable Reading
+## The Review Found Four Things and Three Were Mine
 
-**Sixty-three of eighty-one substantial paragraphs carried no citation.** Many were analysis that needs
-none, and an article whose argument is a derivation will always have long uncited stretches. But the
-physical constants, the canonical relations and the programme context were all simply asserted.
+**A caps-emphasis span had crept in.** The Source Base carried
+**THE PRIMARY-REFERENCE PASS ADDED 21 SOURCES AND THE REASON IS UNCOMFORTABLE** in capitals, which
+breaks the rule that emphasis is bold and never capitals. **I checked three peer articles before
+changing it and all three carry zero such spans**, so it was a regression against the corpus rather
+than a convention I had forgotten. It is now bold lower case.
 
-**The article derived a great deal and cited almost nothing for the relations it derived from.** It
-displayed the rocket equation, the thrust coefficient, the area ratio relation and netting analysis
-without pointing at a single source for any of them.
+**`USFE` was used three times in prose and never introduced.** The acronym rule requires spell-out on
+first use and the house style forbids the parenthetical that would normally do it, so the article now
+introduces it inline at the first full-name mention in Programme Origin.
 
-**Citations in the article proper went from 29 to 54, and distinct cited sources from 20 to 41.**
-Uncited substantial paragraphs fell to 51 of 84.
-
----
-
-## The NASA Design Criteria Monographs Were the Right Answer for Most of It
-
-**Eight are now cited**, covering self-cooled combustion chambers, pressurisation systems, injectors,
-nozzles, metal tanks, regulators and valves, flexible lines, and propellant slosh loads.
-
-**They are the right sources rather than merely available ones.** They are primary documents, they are
-contemporary with the practice this vehicle inherited rather than with the vehicle itself, and they
-state the design problems in the same terms the programme's own engineers used. **The monograph on
-self-cooled chambers treats throat erosion as the life-limiting mechanism and says the material must be
-chosen against burn duration rather than peak heat flux**, which is exactly what this engine did.
-**The monograph on injectors states the efficiency against wall-heating tension as the governing one**,
-which is exactly the trade the four USFE injectors made explicit.
-
-**Huzel and Huang's design handbook joins them** as the source the American industry actually worked
-from, alongside Sutton and Biblarz for the textbook statement.
+**`published` ran at 4.16 per thousand against a peer mean of 1.19.** The word is doing real work in an
+article about what is and is not in the record, but **nine uses sat inside one Epistemic State
+subsection whose opening sentence already carried the qualification**. That subsection is rewritten to
+state it once, three consecutive uses of "was never published" are varied, and the rate is now
+3.04 per thousand, inside the peer range.
 
 ---
 
-## Three Things the Article Had Simply Asserted
+## The Fourth Was the Instrument, Not the Article
 
-**The Gamma engine claim now has a source.** The article says the Gamma derivative injector descends
-from the British peroxide engine that powered Black Knight and Black Arrow, and that now rests on a
-history of the vehicle and its engines rather than on my say-so. **Black Arrow remains the only launch
-vehicle to have put a British satellite into orbit**, which the article now says.
+**The n-gram check reported `the the the` 37 times.** That is the series back-reference sentence, which
+lists forty-two siblings as "the X-1, the X-2, the X-3" and whose link pairs the prose stripper
+replaces with spaces, leaving consecutive bare articles.
 
-**The cavitating venturi has one too**, and a second that matters more. The relation is characterised
-in the flow-control literature, and a recent paper shows the same device is what makes deep throttling
-tractable in modern engines **for exactly the reason this engine needed it**, being that fixing the
-flow upstream removes the coupling between chamber conditions and delivered flow.
-
-**Netting analysis has one that also corrects me.** The 54.7 degree isotensoid angle is a lower bound
-rather than a design, because netting analysis ignores the resin entirely, and optimisation against a
-real failure criterion moves the angle by an amount depending on the laminate and the end closures.
-**The article now says so** rather than leaving the reader with a tidier result than the field
-supports.
-
-**The Military Spaceplane context now rests on two service studies** rather than on a designation
-reference, being a staff study of the Space Maneuver Vehicle as a warfighting asset and an assessment
-of what operationally responsive spacelift would actually require. **Those studies outlived every
-vehicle proposed to satisfy them**, which is a better statement of why the requirement vanished than
-the draft had.
+**It is a structural convention of this series and not repetitive prose.** Re-measured with that
+sentence removed, no other count moved. **Worth knowing for every future article in this series**,
+because it will fire every time and it means nothing.
 
 ---
 
-## Verification Was Against Metadata, Never Against a Status Code
+## `rather` Was Investigated and Deliberately Left Alone
 
-**All 21 additions were resolved and their titles compared against what this article cites them as.**
-Eleven NASA records through the NTRS detail endpoint. Nine identifiers through Crossref, checking title
-and authors. One Open Library key whose title and both authors were checked, **because a guessed key in
-A373 returned a perfectly healthy response for a book about motor racing**.
+**It runs at 4.44 per thousand against a peer maximum of 4.31**, so it is genuinely above the range.
 
-**Nothing was added on the strength of a search result summary.** Two dates still rest on one, being
-the December 1997 contract initiation and the January 1998 request for proposals. **Neither could be
-traced to a document during this pass**, so both are now flagged in the main text and in the Epistemic
-State as reaching the article through programme summaries, and the argument is written not to lean on
-them. That qualification was added because I had claimed it was already there and it was not.
+**54 of its 57 uses are `rather than`**, which is the construction the style rules push toward in place
+of the dash constructions they forbid. **Only one paragraph in the whole article uses it twice**, and
+both uses there are genuine binary contrasts.
+
+**The excess is structurally induced by the house style rather than a tic**, so changing it would mean
+reintroducing the constructions the style guide exists to remove. Reported rather than fixed.
+
+---
+
+## The Survey Gained a Synthesis Because the Date Profile Is a Finding
+
+**The survey reported sixteen cluster sizes and never said what their shape meant.** It now closes with
+a date profile per cluster and three findings drawn from it.
+
+**The peroxide cluster carries the smallest pre-2000 share of any core cluster at 20 percent and one of
+the largest post-2015 shares at 51 percent.** That is the abandonment and revival the article had only
+asserted, now measured. Concentrated peroxide was given up in the 1960s and the literature simply
+stops, which is why a field with a long history reads as a young one.
+
+**The upper stage cluster is the mirror image and it is the bleakest number in the table**, with the
+largest pre-2000 share of any core cluster at 39 percent while being the smallest core cluster
+outright. **The pop-up insertion mission was posed, worked on, and abandoned without being solved.**
+
+**The two clusters covering the technologies that actually killed the programme are the youngest**,
+with ablatives at 53 percent post-2015 and composite pressure vessels close behind. **The tank failed
+on a problem that is open still**, and a reader looking for the part of this vehicle with a future
+should look there rather than at the stage.
+
+**Three ordering claims in that synthesis are asserted against the computed profile at build time**,
+as the seven cluster-size claims already were. The assembly script refuses to write the draft if any
+fails.
+
+---
+
+## Verification
+
+**Every worked figure was re-derived by a script that does not import the one that produced them.**
+Fifty-four values, with the inputs re-typed from the primary papers, so an error in the pipeline could
+not reproduce itself. All pass.
+
+**All 28 curated non-DOI URLs respond.** Every NASA record, both designation pages, the Open Library
+work and the manuscript.
+
+**Forty harvested DOIs were sampled and 25 returned 403.** That looked alarming and meant nothing.
+**All 25 resolve through Crossref to registered works with titles and authors.** Nineteen of them are
+AIAA, which is unavoidable in an aerospace article whose primary literature is the Joint Propulsion
+Conference. **I added MDPI, AIP, ASME and Hindawi to the known-403 catalogue** in
+`URL_VERIFICATION.md`, together with a note that where a DOI is the identifier the registry is the
+instrument and the landing page is not.
+
+**Structural conformance holds.** The twelve-section genre order is present and in order, with the
+designation given its own section on the A320 precedent and the three series sections in place.
+
+**Prose style scans clean on all five rules, plus zero caps-emphasis spans.** The 114 display
+delimiters balance and no display fails to close on its own line. Reference integrity is exact at
+9,831 used and 9,831 defined with nothing undefined and nothing orphaned. `_verify.py` reports 0
+errors and 0 warnings across 301 posts and `./_check.sh --drafts` passes with the rendered audit clean.
 
 ---
 
 ## Counts and State
 
-**21,067 lines, 57 display equations, 9,831 reference definitions, 116,772 words**, of which
-**23,457 are author prose**, a dilution factor of 5.0.
+**21,099 lines, 57 display equations, 9,831 reference definitions, 117,301 words**, of which
+**23,757 are author prose**, a dilution factor of 4.9.
 
-**41 curated sources**, of which **38 are primary or canonical technical sources**, two are the
-designation reference and one is a textbook. **22 of the 41 are contemporary with the programme**,
-dated 1997 to 2009. **The count is reported alongside the fraction deliberately**, because adding a
-canonical monograph from 1967 lowers the fraction while leaving the contemporary count untouched, and
-reporting only the fraction would read as a regression when it is the standard working.
+**41 curated sources**, 38 primary or canonical, 22 contemporary with the programme. **9,754 harvested
+records** across sixteen clusters, from a pool of 25,076 at a 39.4 percent admit rate.
 
-**24 of the 41 come from the NASA Technical Reports Server**, which is the single fact that made the
-article possible.
+**This is the largest survey in the series by a wide margin**, against 4,735 for A337 and 4,654 for
+A338, and the length follows from the subject rather than from a target.
 
-**`_verify.py` reports 0 errors and 0 warnings across 301 posts.** Reference integrity is exact at
-9,831 used and 9,831 defined with no undefined and no orphaned anchors. The 114 display delimiters
-balance, no display fails to close on its own line, and prose style scans clean on all five rules.
-
-**Forty-three of seventy-two drafted, none published, publication never authorised.**
+**Forty-three of seventy-two drafted, none published, publication never authorised.** Forty-two of the
+forty-three cite a sibling through `post_url` with no target in `_posts/`, so **the set publishes in
+order or together**, and publishing any one alone fails the build.
 
 ---
 
 ## What I Did Not Do
 
-**I did not push.** Only the publication review pushes.
+**I did not publish**, and I will not without an explicit instruction. The draft is pushed and sitting
+in `_drafts/`.
 
-**I did not publish**, and I will not without an explicit instruction.
-
-**I did not add references to the survey section.** It already cites 9,754 harvested records and its
-job is coverage, not authority. **The primary-reference standard is about what carries the argument**,
-and the argument lives in the curated set.
+**I did not trim anything to a length or reference target.** The directive is comprehensiveness and
+this article earned its size on a subject with a large adjacent literature and a small primary one.
 
 ---
 
 ## Next
 
-**The publication review of A339**, on your prompt. That is the pass that pushes.
+**A340, "X-Planes: Micro-Craft X-43 Hyper-X"**, editorial date 2025-11-18, series index 44, on your
+prompt. Nothing is outstanding on A339.
