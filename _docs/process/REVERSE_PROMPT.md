@@ -1,99 +1,103 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A339, "X-Planes: Orbital Sciences X-42", equation-density review complete.** Committed and
-**not pushed**, per the rule that only the publication review pushes. **Not published**, and
-publication of this series has never been authorised.
+**Task**: **A339, "X-Planes: Orbital Sciences X-42", primary-reference review complete.** Committed and
+**not pushed**, since only the publication review pushes. **Not published**, and publication of this
+series has never been authorised.
 
 ---
 
-## 23 Equations to 57, and the Worst Gap Was the Most Basic One
+## The Audit That Started It Was Uncomfortable Reading
 
-**The draft gave a velocity increment family across plausible inert and payload masses and never
-displayed the rocket equation.** That is the single clearest instance of the rule this pass enforces,
-which is that if the prose names a result, relies on a relation, or quotes a value some relation
-produced, the relation is shown.
+**Sixty-three of eighty-one substantial paragraphs carried no citation.** Many were analysis that needs
+none, and an article whose argument is a derivation will always have long uncited stretches. But the
+physical constants, the canonical relations and the programme context were all simply asserted.
 
-**It now has its own subsection in Sizing From First Principles**, carrying the rocket equation, the
-effective exhaust velocity of **2,697 metres per second**, the definitions of ignition and burnout
-mass, and the family as a table. **The family spans roughly 2,340 to 3,580 metres per second** against
-a pop-up requirement in the region of two to three, so the vehicle is the right size for the job it was
-described as doing. That is a weak statement and the strongest the record supports.
+**The article derived a great deal and cited almost nothing for the relations it derived from.** It
+displayed the rocket equation, the thrust coefficient, the area ratio relation and netting analysis
+without pointing at a single source for any of them.
 
-**Thirty-four relations were added in total.** The propellant split and the tank volumes, which the
-draft quoted as bare numbers. The throat and exit geometry. The ideal vacuum thrust coefficient and the
-area ratio relation that fixes it. The cavitating venturi mass flow, which the whole erosion argument
-leans on and which the draft described only in words. The peroxide decomposition energy balance. The
-pressurant mass. The cold gas limit. Netting analysis and the isotensoid winding angle.
+**Citations in the article proper went from 29 to 54, and distinct cited sources from 20 to 41.**
+Uncited substantial paragraphs fell to 51 of 84.
 
 ---
 
-## Two Cross-Checks Came Out of the Pass Rather Than Going Into It
+## The NASA Design Criteria Monographs Were the Right Answer for Most of It
 
-**The catalyst bed sizes itself from the published table.** The bed passes only oxidiser, so the flow
-is 29.7 pounds per second, and at the published bed mass flux of 0.4 pounds per second per square inch
-the frontal area is 74.2 square inches and the diameter **9.72 inches**. **The published chamber inner
-diameter is 10 inches.** Those numbers appear in different sections of the paper for different reasons
-and they agree to three percent.
+**Eight are now cited**, covering self-cooled combustion chambers, pressurisation systems, injectors,
+nozzles, metal tanks, regulators and valves, flexible lines, and propellant slosh loads.
 
-**The contraction ratio is a statement about gas speed, not about geometry.** The isentropic area
-relation puts the chamber at **Mach 0.083**, within a tenth of a percent of stagnation temperature.
-**So the paper's requirement of a contraction ratio of at least seven for autoignition is a
-residence-time and temperature requirement written as a shape**, and saying so is more useful than
-repeating the number.
+**They are the right sources rather than merely available ones.** They are primary documents, they are
+contemporary with the practice this vehicle inherited rather than with the vehicle itself, and they
+state the design problems in the same terms the programme's own engineers used. **The monograph on
+self-cooled chambers treats throat erosion as the life-limiting mechanism and says the material must be
+chosen against burn duration rather than peak heat flux**, which is exactly what this engine did.
+**The monograph on injectors states the efficiency against wall-heating tension as the governing one**,
+which is exactly the trade the four USFE injectors made explicit.
 
-**The article now makes exactly three consistency checks on the published table and names them as
-such.** The catalyst bed against the chamber, the exit diameter against the engine envelope, and the
-measured thrust coefficient of 1.808 against the ideal 1.835. **The third is the only one that could
-have embarrassed the paper**, because a measured thrust coefficient above the ideal would mean the
-stated thrust and chamber pressure could not both be true.
+**Huzel and Huang's design handbook joins them** as the source the American industry actually worked
+from, alongside Sutton and Biblarz for the textbook statement.
 
 ---
 
-## The Decomposition Temperature Is Now Derived, and It Overshoots Honestly
+## Three Things the Article Had Simply Asserted
 
-**The draft asserted about 740 degrees Celsius and showed nothing.** The article now carries the
-reaction, its enthalpy of 98.0 kilojoules per mole, the 2.88 megajoules per kilogram of pure peroxide
-that follows, the product split, the heat spent boiling and vaporising the water, and the mixture heat
-capacity.
+**The Gamma engine claim now has a source.** The article says the Gamma derivative injector descends
+from the British peroxide engine that powered Black Knight and Black Arrow, and that now rests on a
+history of the vehicle and its engines rather than on my say-so. **Black Arrow remains the only launch
+vehicle to have put a British satellite into orbit**, which the article now says.
 
-**The balance gives about 780 degrees, six percent high.** It overshoots in the direction the
-assumption predicts, because the heat capacity of steam rises steeply with temperature and the
-calculation holds it constant. **It is reported as an upper bound rather than as a confirmation**, and
-the Epistemic State says so.
+**The cavitating venturi has one too**, and a second that matters more. The relation is characterised
+in the flow-control literature, and a recent paper shows the same device is what makes deep throttling
+tractable in modern engines **for exactly the reason this engine needed it**, being that fixing the
+flow upstream removes the coupling between chamber conditions and delivered flow.
 
-**The point is not the last forty degrees.** It is that the dilution water sets the temperature,
-absorbing heat while releasing none, which is why concentration is the most important number in
-peroxide propulsion.
+**Netting analysis has one that also corrects me.** The 54.7 degree isotensoid angle is a lower bound
+rather than a design, because netting analysis ignores the resin entirely, and optimisation against a
+real failure criterion moves the angle by an amount depending on the laminate and the end closures.
+**The article now says so** rather than leaving the reader with a tidier result than the field
+supports.
+
+**The Military Spaceplane context now rests on two service studies** rather than on a designation
+reference, being a staff study of the Space Maneuver Vehicle as a warfighting asset and an assessment
+of what operationally responsive spacelift would actually require. **Those studies outlived every
+vehicle proposed to satisfy them**, which is a better statement of why the requirement vanished than
+the draft had.
 
 ---
 
-## The Pass Introduced Two Defects of Its Own and Caught Both
+## Verification Was Against Metadata, Never Against a Status Code
 
-**Two inserted displays absorbed the following prose onto their own source line.** That is the
-self-inflicted equation defect this series has shipped before, twice in A373 alone. A scan for display
-lines that open with `$$` and do not close with it found both.
+**All 21 additions were resolved and their titles compared against what this article cites them as.**
+Eleven NASA records through the NTRS detail endpoint. Nine identifiers through Crossref, checking title
+and authors. One Open Library key whose title and both authors were checked, **because a guessed key in
+A373 returned a perfectly healthy response for a book about motor racing**.
 
-**The new ordinals contradicted each other.** I wrote that the catalyst bed check was **a third**
-independent consistency check and, sixty lines later, that the exit diameter check was **the first**.
-**The first appeared after the third.** That is the count-in-own-prose defect again, in a pass whose
-whole purpose is arithmetic. All three are now numbered in the order they occur and the order was
-checked against line numbers rather than against memory.
+**Nothing was added on the strength of a search result summary.** Two dates still rest on one, being
+the December 1997 contract initiation and the January 1998 request for proposals. **Neither could be
+traced to a document during this pass**, so both are now flagged in the main text and in the Epistemic
+State as reaching the article through programme summaries, and the argument is written not to lean on
+them. That qualification was added because I had claimed it was already there and it was not.
 
 ---
 
 ## Counts and State
 
-**20,931 lines, 57 display equations, 9,816 reference definitions, 115,229 words**, of which
-**22,250 are author prose**, a dilution factor of 5.2.
+**21,067 lines, 57 display equations, 9,831 reference definitions, 116,772 words**, of which
+**23,457 are author prose**, a dilution factor of 5.0.
 
-**All 39 figures introduced by this pass were verified against the script that computed them**, as were
-the 27 from the draft pass. The area ratio relation printed in the article was checked by solving it
-independently and reproducing 1.884 and 1.835.
+**41 curated sources**, of which **38 are primary or canonical technical sources**, two are the
+designation reference and one is a textbook. **22 of the 41 are contemporary with the programme**,
+dated 1997 to 2009. **The count is reported alongside the fraction deliberately**, because adding a
+canonical monograph from 1967 lowers the fraction while leaving the contemporary count untouched, and
+reporting only the fraction would read as a regression when it is the standard working.
 
-**`_verify.py` reports 0 errors and 0 warnings across 301 posts.** The 114 display delimiters balance,
-no display line fails to close on its own line, and prose style scans clean at 0 em or en dashes, 0
-contractions, 0 prose colons, 0 prose semicolons and 0 parentheticals in body prose.
+**24 of the 41 come from the NASA Technical Reports Server**, which is the single fact that made the
+article possible.
+
+**`_verify.py` reports 0 errors and 0 warnings across 301 posts.** Reference integrity is exact at
+9,831 used and 9,831 defined with no undefined and no orphaned anchors. The 114 display delimiters
+balance, no display fails to close on its own line, and prose style scans clean on all five rules.
 
 **Forty-three of seventy-two drafted, none published, publication never authorised.**
 
@@ -105,11 +109,12 @@ contractions, 0 prose colons, 0 prose semicolons and 0 parentheticals in body pr
 
 **I did not publish**, and I will not without an explicit instruction.
 
-**I did not add equations to the survey section.** The contemporary literature section maps a field and
-cites it, and it names no results of its own, so it relies on no relations.
+**I did not add references to the survey section.** It already cites 9,754 harvested records and its
+job is coverage, not authority. **The primary-reference standard is about what carries the argument**,
+and the argument lives in the curated set.
 
 ---
 
 ## Next
 
-**The primary-reference review of A339**, on your prompt. Nothing else is outstanding.
+**The publication review of A339**, on your prompt. That is the pass that pushes.

@@ -22,10 +22,35 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_orbital_sciences_x42.markdown`, A339, editorial date 2025-11-17, series `x_planes` index 43
 of 72.
 
-**20,931 lines, 57 display equations, 9,816 reference definitions, 115,229 words after the
-equation-density pass**, of which 22,250 are author prose, a dilution factor of 5.2. Committed.
-**Not pushed**, since neither the draft pass nor the equation pass pushes. **Not published**, and
-publication of the series has never been authorised.
+**21,067 lines, 57 display equations, 9,831 reference definitions, 116,772 words after the
+primary-reference pass**, of which 23,457 are author prose, a dilution factor of 5.0. Committed.
+**Not pushed**, since only the publication review pushes. **Not published**, and publication of the
+series has never been authorised.
+
+**THE PRIMARY-REFERENCE PASS ADDED 21 SOURCES, TAKING THE CURATED SET FROM 20 TO 41.** The audit that
+prompted it found **63 of 81 substantial paragraphs carrying no citation**. Many were analysis that
+needs none, but the physical constants, the canonical relations and the programme context were all
+asserted. Citations in the article proper went from **29 to 54** and distinct cited sources from
+**20 to 41**, with uncited substantial paragraphs falling to 51 of 84.
+
+**THE NASA DESIGN CRITERIA MONOGRAPHS WERE THE RIGHT ANSWER FOR MOST OF IT.** Eight are now cited,
+covering self-cooled combustion chambers, pressurisation systems, injectors, nozzles, metal tanks,
+regulators and valves, flexible lines, and propellant slosh loads. **They are primary documents
+contemporary with the practice this vehicle inherited**, which is why they are preferred to a modern
+reference saying the same thing with less authority. Huzel and Huang's design handbook joins them.
+
+**THREE GAPS WERE FILLED THAT THE ARTICLE HAD SIMPLY ASSERTED.** The Gamma engine claim now rests on a
+history of Black Arrow and its engines, the cavitating venturi relation on the flow-control literature
+that characterises it, and the netting analysis on a paper that also shows the 54.7 degree result is a
+lower bound rather than a design. The Military Spaceplane context now rests on two service studies
+rather than on a designation reference.
+
+**ALL 21 ADDITIONS WERE VERIFIED AGAINST RESOLVED METADATA RATHER THAN STATUS CODES.** Eleven NASA
+records through the NTRS detail endpoint, nine identifiers through Crossref, and one Open Library key
+whose title and both authors were checked, **because a guessed key in A373 returned a healthy response
+for a book about motor racing**. 22 of the 41 curated sources are contemporary with the programme,
+being dated 1997 to 2009, and that count is reported alongside the fraction because adding a canonical
+source from 1967 lowers the fraction while leaving the count untouched.
 
 **THE EQUATION PASS TOOK THIS ARTICLE FROM 23 DISPLAY EQUATIONS TO 57 AND FOUND THREE DEFECTS.** The
 draft quoted a great many values whose relations were never shown, the worst being that **the article
