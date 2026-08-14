@@ -1,8 +1,31 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A373, Keleusma Research Spike on error correction meeting a signature. Pathological word
-usage pass complete.** Committed and **PUSHED**. **Not published.**
+**Task**: **A373 PUBLISHED and PUSHED.** It is live at the editorial date 2026-08-10 as Part 5 of the
+Keleusma Research Spikes series.
+
+---
+
+## It Is Live, and Four Other Pages Changed With It
+
+**A373 is published** at
+`/engineering/compilers/verification/security/2026/08/10/when_error_correction_meets_a_signature.html`.
+
+**Publishing renumbered four live pages**, exactly as flagged across three passes. A369 through A372 now
+read **Part 1, 2, 3 and 4 of 5** where they read **of 4** before, and A373 reads **Part 5 of 5**. All five
+were checked on the built site rather than assumed.
+
+**It was verified against the real deploy condition**, which is a build **without** `--drafts`, because
+that is what the workflow runs. A clean `--drafts` build proves nothing about the deploy.
+
+**The interlock was checked before the move**, not after. The date slot was free, all four `post_url`
+targets were already published, and nothing forward-referenced the article.
+
+**`_verify.py` 0 errors and 0 warnings across 301 posts. `./_check.sh` clean at 465 pages.** The article
+appears on the home page, in `feed.xml` and in `sitemap.xml`.
+
+**Its section was removed from `_drafts/draft_summary.md`**, which tracks `_drafts/` only, leaving 52
+files.
 
 ---
 
