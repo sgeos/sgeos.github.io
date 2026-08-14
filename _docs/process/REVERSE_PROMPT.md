@@ -1,8 +1,63 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A373, Keleusma Research Spike on error correction meeting a signature. Publication review
-complete.** Committed and **PUSHED**. **Not published.** All four passes are done.
+**Task**: **A373, Keleusma Research Spike on error correction meeting a signature. Pathological word
+usage pass complete.** Committed and **PUSHED**. **Not published.**
+
+---
+
+## The Word You Named Was Not the Problem
+
+**`specific` is 2 uses at 0.23 per thousand**, far under any limit. I checked it first because you named
+it.
+
+**The measurement had to strip link pairs or it could not have fired at all.** This article carries
+459,066 raw body words against **8,522 words of author prose**, a **dilution factor of 52.7**, the highest
+in the series. Measuring the raw body would have divided every rate by fifty and guaranteed silence.
+
+---
+
+## The Finding Was a Template, Not a Word
+
+**Thirteen survey subsections opened with an identical frame and closed with an identical hedge**,
+differing only in a cluster name and two numbers. That is the A371 lesson repeating, and no single-word
+instrument can see it.
+
+**The hedge is now stated once, structurally, with the reason** that a hedge repeated on every heading
+stops being read, which is exactly the fix A337 applied to `typically`.
+
+**The thirteen frames are replaced by one table** of cluster sizes. That is better than deleting them,
+because thirteen scattered counts cannot be compared and a table can.
+
+**The table's shape turned out to be a finding.** Check-then-use is the smallest cluster by an order of
+magnitude, which says that **the composition question this article asks has been answered in one field
+and barely posed in the other**. That sentence is now in the article.
+
+---
+
+## An Impossible Count, Found on the Way
+
+**The Source Base claimed 13,788 harvested works against an anchor gate that passed 13,741.** You cannot
+finish with more than the gate let through.
+
+The reference list holds **13,722**. Every figure now comes from a count of the list rather than from the
+pipeline log, and **the 19-record discrepancy against the gate is stated rather than smoothed**. The
+hand-selected total fell 66 to 65, since the primary pass removed the MacWilliams entry, and the whole
+accounting reconciles at **13,722 plus 65 equals 13,787**.
+
+---
+
+## Twelve Words Above the Peer Maximum, and All Twelve Are Legitimate
+
+Measured against 256 published peers: **scrub, fault, faults, signature, syndrome, parity, word, wrong,
+artefact, repair, authentication and integrity**. No peer article writes about this subject, so of course
+they are elevated. **This is the `specific impulse` case**, and each was classified rather than assumed.
+
+**`rather` was checked and left alone.** Its thirty-seven uses carry thirty-seven distinct constructions,
+so it is varied rather than formulaic, and A369's rule is that a mechanical substitution moves a tic
+rather than removing it.
+
+**Repeated four-gram counts fell from 13 to 4**, and nothing that remains is boilerplate.
 
 ---
 

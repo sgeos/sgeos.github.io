@@ -122,7 +122,32 @@ glossed in prose beside the quotation that names it, since a quotation must not 
 **Structural conformance matches the published sibling A372 heading for heading**, and the twelve curated
 URLs all resolve at 200.
 
-**Remaining work.** None. All four passes are complete.
+**PATHOLOGICAL WORD USAGE PASS COMPLETE.** `specific` is **not** a problem here at 2 uses and 0.23 per
+thousand. **The dilution factor is 52.7, the highest in this series**, so measuring the raw body rather
+than author prose would have made every rate vanish and guaranteed silence.
+
+**THE FINDING WAS A TEMPLATE, NOT A WORD, WHICH IS THE A371 LESSON REPEATING.** Thirteen survey
+subsections opened with an identical frame and closed with an **identical hedge**, differing only in a
+cluster name and two numbers. The hedge is now stated **once, structurally, with the reason that a hedge
+repeated on every heading stops being read**, and the thirteen frames are replaced by **a single table**
+that lets a reader compare cluster sizes at a glance, which thirteen scattered counts cannot.
+
+**THE TABLE'S SHAPE TURNED OUT TO BE A FINDING.** Check-then-use is the smallest cluster by an order of
+magnitude, so **the composition question this article asks has been answered in one field and barely posed
+in the other.**
+
+**A COUNT WAS IMPOSSIBLE AND IS NOW MEASURED.** The Source Base claimed **13,788 harvested works against
+an anchor gate that passed 13,741**, which cannot happen. The reference list holds **13,722**, and every
+figure is now taken from a count of the list rather than from the pipeline log. The hand-selected total
+fell 66 to 65 with the reason recorded, and the whole accounting reconciles at 13,722 plus 65 equals
+13,787.
+
+**TWELVE WORDS SIT ABOVE THE PEER MAXIMUM AND ALL TWELVE ARE SUBJECT VOCABULARY**, being scrub, fault,
+faults, signature, syndrome, parity, word, wrong, artefact, repair, authentication and integrity. No peer
+article writes about this subject. **Each was classified rather than assumed**, and `rather` was checked
+and left alone because its thirty-seven uses carry thirty-seven distinct constructions.
+
+**Remaining work.** None. All four passes and the word-usage pass are complete.
 
 **PUBLISHING THIS WOULD CHANGE FOUR LIVE PAGES.** A369 through A372 are published and their navigation
 reads Part 1 to 4 **of 4**. A373 sits at index 5, so publishing renumbers all four to **of 5**. That has

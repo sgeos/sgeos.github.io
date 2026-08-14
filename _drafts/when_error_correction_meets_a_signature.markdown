@@ -580,6 +580,37 @@ code takes the convenient path.
 in a different field**, and the main value of the survey is that connection. The sections below are
 organised by what each body of work contributes to the argument, not by discipline.
 
+**One caveat governs every subsection below and is stated here once rather than repeated in each.** The
+harvested works are listed on the strength of their registry metadata and **none of them was read**, so
+**no claim in this article rests on any one of them**. The works the argument does rest on are named in
+the prose and are a small fraction of what follows. **A hedge repeated on every heading stops being
+read**, which is why it appears here instead.
+
+**The sizes are given once, here, rather than restated under each heading**, because thirteen scattered
+counts cannot be compared and one table can.
+
+| cluster | to 2014 | 2015 onward | total |
+|---|---:|---:|---:|
+| the codes themselves, from Shannon onward | 1,093 | 1,114 | 2,207 |
+| soft errors and radiation effects | 994 | 1,145 | 2,139 |
+| scrubbing, redundancy and dependability | 913 | 782 | 1,695 |
+| the composition of a transformation with an authentication check | 251 | 407 | 658 |
+| fault injection as a deliberate capability | 379 | 712 | 1,091 |
+| induced bit flips | 14 | 155 | 169 |
+| memory integrity verification | 47 | 133 | 180 |
+| check-then-use | 12 | 31 | 43 |
+| silent corruption and storage-side evidence | 298 | 420 | 718 |
+| attestation, secure boot and signed distribution | 300 | 667 | 967 |
+| bytecode verification and verified compilation | 314 | 276 | 590 |
+| the cryptographic foundations the argument uses | 692 | 746 | 1,438 |
+| the surrounding literature | 739 | 1,088 | 1,827 |
+| **all clusters** | **6,046** | **7,676** | **13,722** |
+
+**The shape of that table is itself a finding.** The two literatures this article joins are both large and
+both old, while **check-then-use is the smallest cluster by an order of magnitude** and is almost entirely
+about file-system races. **The composition question this article asks has been answered in one field and
+barely posed in the other.**
+
 ### The codes themselves
 
 [Shannon][research_shannon_1948] established that reliable communication over a noisy channel is possible at all, and
@@ -597,7 +628,6 @@ reaches for when the analysis here shows SECDED is not enough.
 [Chen and Hsiao][research_chen_hsiao_1984] surveyed the application of these codes specifically to semiconductor memory, which is
 the setting whose vocabulary this article borrows.
 
-**The harvested survey for the codes themselves, from Shannon onward** holds 1,093 works to 2014 and 1,114 from 2015 onward. They are listed on the strength of their registry metadata and no claim here rests on any one of them.
 
 - [Mstafa and Elleithy, 2014, A highly secure video steganography using Hamming code 7, 4][research_mstafa_elleithy_2014]
 - [Cheng and Yeh, 2014, A matrix based error correcting code][research_cheng_yeh_2014]
@@ -2815,7 +2845,6 @@ memory, which is the origin of the field. [Ziegler and Lanford][research_ziegler
 and its altitude dependence. [Baumann][research_baumann_2005] gives the modern technology-scaling account of why the rate per
 bit falls while the rate per device does not.
 
-**The harvested survey for soft errors and radiation effects** holds 994 works to 2014 and 1,145 from 2015 onward. They are listed on the strength of their registry metadata and no claim here rests on any one of them.
 
 - [Lin and Zwolinski, 2014, A cost-efficient self-checking register architecture for radiation hardened designs][research_lin_zwolinski_2014_b]
 - [Wang and others, 2014, A Failure Testing System with March C- Algorithm for Single Event Upset][research_wang_li_2014]
@@ -4981,7 +5010,6 @@ flips, but whether anything depends on it.
 None of this literature considers a scrub composed with an authentication check, and that is the gap this
 article sits in.
 
-**The harvested survey for scrubbing, redundancy and dependability** holds 913 works to 2014 and 782 from 2015 onward. They are listed on the strength of their registry metadata and no claim here rests on any one of them.
 
 - [Kaci and others, 2014, A Fault Tolerant Architecture for Data Fusion Targeting Hardware and Software Faults][research_kaci_benjamin_2014]
 - [Miele, 2014, A fault-injection methodology for the system-level dependability analysis of multiprocessor embedded systems][research_miele_2014]
@@ -6703,7 +6731,6 @@ enough. **Marlinspike** compressed the lesson into the practitioner's formulatio
 cryptographic operation before verifying authentication reliably ends badly, which generalises past
 cryptographic operations to any transformation whose behaviour on adversarial input is unspecified.
 
-**The harvested survey for the composition of a transformation with an authentication check** holds 251 works to 2014 and 407 from 2015 onward. They are listed on the strength of their registry metadata and no claim here rests on any one of them.
 
 - [Jing Ren and Ying Gao, 2014, A fully secure identity-based encryption scheme against chosen-ciphertext attack][research_jingren_yinggao_2014]
 - [Jeon and others, 2014, A lightweight authenticated encryption algorithm for RFID systems][research_jeon_kim_2014]
@@ -7390,7 +7417,6 @@ The relevance is that **an attacker choosing three bit positions is a far strong
 radiation placing them at random**, and the 56.08 percent figure is an average over patterns an attacker
 does not have to accept. Inside byte 0 the rate is 100 percent.
 
-**The harvested survey for fault injection as a deliberate capability** holds 379 works to 2014 and 712 from 2015 onward. They are listed on the strength of their registry metadata and no claim here rests on any one of them.
 
 - [Severtson and others, 2014, 139 Reformulation of extended release oxymorphone changes in intentional abuse exposures before and after introduction of tamper resistant formulation][research_severtson_claire_2014]
 - [Stahlberg and others, 2014, 443 Relative bioavailability of a new tamper resistant extended-release oxycodone/naloxone combination product][research_stahlberg_brett_2014_b]
@@ -8500,7 +8526,6 @@ search for the multi-bit patterns the code cannot handle. That is the closest pu
 concern raised here, and it establishes the general lesson that **a correction mechanism is part of the
 attack surface rather than purely a defence.**
 
-**The harvested survey for induced bit flips, which is where correction became attack surface** holds 14 works to 2014 and 155 from 2015 onward. They are listed on the strength of their registry metadata and no claim here rests on any one of them.
 
 - [Rangwala and others, 2014, A taxonomy of privilege escalation attacks in Android applications][research_rangwala_zhang_2014]
 - [Mollus and others, 2014, Curtailing privilege escalation attacks over asynchronous channels on Android][research_mollus_westhoff_2014]
@@ -8691,7 +8716,6 @@ integrity check and a repair mechanism genuinely have to coexist rather than bei
 The engineering there assumes the check is re-run on every access, which is the strongest form of the rule
 this article derives.
 
-**The harvested survey for memory integrity verification** holds 47 works to 2014 and 133 from 2015 onward. They are listed on the strength of their registry metadata and no claim here rests on any one of them.
 
 - [mathi, 2014, Efficient Query Processing for Distributed Hash Tree with Less Maintenance][research_mathi_2014]
 - [M.Pardeshi and R. Borade, 2014, Enhancing Data Dynamics and Storage Security for Cloud Computing using Merkle Hash Tree and AES Algorithms][research_mpardeshi_rborade_2014]
@@ -8914,7 +8938,6 @@ be natural to read that as an integrity mechanism. It covers twelve bytes of hea
 literature says that even where such a check does cover data, its detection guarantee is weaker in
 practice than its parameters suggest.
 
-**The harvested survey for check-then-use, which is a small literature and almost entirely about file-system races** holds 12 works to 2014 and 31 from 2015 onward. They are listed on the strength of their registry metadata and no claim here rests on any one of them.
 
 - [- and others, 2012, Demand Driven Atomicity Violation Analysis with Event Slicing][research_demand_driven_atomicity_2012]
 - [Yousaf and Wietfeld, 2012, Solving pinball routing, race condition and loop formation issues in nested mobile networks][research_yousaf_wietfeld_2012]
@@ -8976,7 +8999,6 @@ only where the check was placed at the boundary that mattered rather than at the
 The consequence for the fault model is the same one the memory field studies gave. **Faults cluster, so
 the multi-bit patterns enumerated above are not tail events**.
 
-**The harvested survey for silent corruption and storage-side evidence** holds 298 works to 2014 and 420 from 2015 onward. They are listed on the strength of their registry metadata and no claim here rests on any one of them.
 
 - [Seung-Hwan Song and others, 2014, A Comparative Study of Single-Poly Embedded Flash Memory Disturbance, Program/Erase Speed, Endurance, and Retention Characteristic][research_seunghwansong_jongyeonkim_2014]
 - [Yang and others, 2014, A New FTL-Based Flash Memory Management Scheme for Flash-Based Storage Systems][research_yang_li_2014]
@@ -9746,7 +9768,6 @@ that its freshness must be part of what is checked.
 **That last principle is this article's conclusion arriving from the attestation literature**, and it is
 the strongest external support for the corrected form of the argument in Result 2.
 
-**The harvested survey for attestation, secure boot and signed distribution** holds 300 works to 2014 and 667 from 2015 onward. They are listed on the strength of their registry metadata and no claim here rests on any one of them.
 
 - [Yew and others, 2014, BUFFER OVERFLOW ATTACK MITIGATION VIA TRUSTED PLATFORM MODULE TPM][research_yew_samsudin_2014]
 - [Liu and others, 2014, A Method of Data Storage and Management of Embedded Trusted Platform Module][research_liu_zhang_2014]
@@ -10726,7 +10747,6 @@ designed from the outset for validation in a single pass. [Leroy][research_leroy
 result that a transformation can be proven to preserve a property, which is what one would want of a scrub
 and is not available for a corrector that mis-corrects by construction.
 
-**The harvested survey for bytecode verification and verified compilation** holds 314 works to 2014 and 276 from 2015 onward. They are listed on the strength of their registry metadata and no claim here rests on any one of them.
 
 - [Bennion and Habli, 2014, A candid industrial evaluation of formal software verification using model checking][research_bennion_habli_2014]
 - [Seidel, 2014, A Case for Multi-level Combination of Theorem Proving and Model Checking Tools][research_seidel_2014]
@@ -11331,7 +11351,6 @@ different article.
 **None of that changes the composition result.** A stronger code mis-corrects at a higher fault weight
 rather than never, so the rule that the corrector must not be the last word is unaffected by the choice.
 
-**The harvested survey for the cryptographic foundations the argument uses** holds 692 works to 2014 and 746 from 2015 onward. They are listed on the strength of their registry metadata and no claim here rests on any one of them.
 
 - [LIEN and YEN, 2014, A DPA Attack on the Implementation of RSA-CRT with Montgomery Reduction][research_lien_yen_2014]
 - [Hu and others, 2014, A highly efficient and identity-based proxy signature scheme without random oracle][research_hu_yang_2014]
@@ -12803,8 +12822,6 @@ discarded. These are works the subject anchors admitted whose subject sits besid
 clusters without belonging to it, which for this article means signal integrity, communication coding,
 hardware test and the reliability of components other than memory.
 
-**The harvested survey for the surrounding literature** holds 739 works to 2014 and
-1,088 from 2015 onward.
 
 - [Wu, 2014, A generic construction of ciphertext-policy attribute-based encryption supporting attribute revocation][research_wu_2014_b]
 - [Tayan and others, 2014, A Hybrid Digital-Signature and Zero-Watermarking Approach for Authentication and Protection of Sensitive Electronic Documents][research_tayan_kabir_2014]
@@ -14641,10 +14658,12 @@ hardware test and the reliability of components other than memory.
 harvest, and the three are not interchangeable.**
 
 **Seventy-four works are hand-selected and cited in the prose**, chosen because a step of the argument
-depends on them. **Sixty-six carry identifiers obtained from the registry**, and **eight carry none**
-because their venues do not register them.
+depends on them. **Sixty-five carry identifiers obtained from the registry**, and **nine carry none**
+because their venues do not register them. **One of the sixty-six lost its identifier during the
+primary-reference review**, when the entry for MacWilliams and Sloane was found to resolve to a different
+book and no registered identifier for the work exists, so it is named without a link.
 
-**13,788 further works are harvested and are additional.** They are listed on the strength of their
+**13,722 further works are harvested and are additional.** They are listed on the strength of their
 titles, authors, years and venues as the registry holds them, and **nothing in the argument rests on any
 one of them**. A list of thirteen thousand citations otherwise implies a reading it does not represent.
 
@@ -14654,7 +14673,7 @@ one of them**. A list of thirteen thousand citations otherwise implies a reading
 period to 2014 from 2015 onward, because a computing subject that is half coding theory and half security
 publishes in both forms and neither round subsumes the other. **39,595 unique identifiers** returned.
 
-The reduction to 13,788 was in two stages and the second is the one that matters.
+The reduction to 13,722 was in two stages and the second is the one that matters.
 
 **A contaminant filter removed 1,799 records**, being 400 by venue, 1,163 by the durable noise patterns in the
 repository store, 127 by patterns earned from this sweep, 33 by prior per-record rejections, and 76 whose
@@ -14666,6 +14685,11 @@ proceedings furniture, which are front matter and session listings deposited und
 kept 94 percent, against the 19 percent the previous article in this series kept, and the difference is
 that this stage requires a **positive subject anchor** while the first only removed what it recognised.
 The anchor gate kept **13,741**, which is 37.3 percent.
+
+**The gate figure and the final figure differ by 19 and the record does not account for the difference.**
+The reference list holds 13,722 harvested works against a gate that passed 13,741. **An earlier version of
+this section stated 13,788, which is larger than the gate output and therefore impossible**, and the
+figure is now taken from a count of the reference list rather than from the pipeline log.
 
 **Every anchor is a compound term or a qualified one, and this subject is unusually badly placed for
 bare words.** `code`, `fault`, `signature`, `parity`, `integrity`, `injection`, `trust`, `mask` and
