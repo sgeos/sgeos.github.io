@@ -22,10 +22,38 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_micro_craft_x43_hyper_x.markdown`, A340, editorial date 2025-11-18, series `x_planes`
 index 44 of 72.
 
-**23,554 lines, 10 display equations, 11,344 reference definitions, 126,801 words after the draft
-pass**, of which 19,230 are author prose, a dilution factor of 6.6. Committed. **Not pushed**, since
-the draft pass does not push. **Not published**, and publication of the series has never been
-authorised.
+**23,713 lines, 30 display equations, 11,344 reference definitions, 128,194 words after the
+equation-density pass**, of which 20,135 are author prose, a dilution factor of 6.4. Committed.
+**Not pushed**, since only the publication review pushes. **Not published**, and publication of the
+series has never been authorised.
+
+**THE EQUATION PASS TOOK THIS ARTICLE FROM 10 DISPLAY EQUATIONS TO 30 AND THE MOST IMPORTANT ADDITION
+FORMALISES THE ARTICLE'S OWN CENTRAL CLAIM.** The draft asserted that no single analysis could have
+found the margin failure and never showed why. It now writes the true margin as the nominal margin
+less the modelling errors, lets each error consume a fraction of the nominal margin, and shows that
+**every analysis reports a healthy margin whenever that fraction is under one while the combination
+fails whenever the number of terms times the fraction exceeds one**. Both conditions hold together
+whenever there is more than one error term, which is the board's finding restated as arithmetic.
+
+**THE DIVERGENCE NOW HAS A GROWTH RATE.** Five cycles at 2.5 hertz over two seconds correspond to a
+damping ratio between **−0.05 and −0.095**, so the vehicle was not wildly unstable but slightly
+unstable, which is the gain margin statement in another form.
+
+**NINE OTHER RELATIONS WERE ADDED THAT THE PROSE HAD LEANED ON SILENTLY.** Momentum thrust and air
+capture, which show that the exit velocity exceeds flight velocity by a few percent rather than a
+factor. The total pressure ratio of **3,543 and 32,345**, which explains why compression is taken
+through several weak shocks. The theta-beta-M relation with worked property jumps. Rayleigh flow,
+which shows a combustor entering at Mach 2 may raise its stagnation temperature by only **26 percent**
+before choking. Combustor residence time of **970 and 680 microseconds**. The heating ratio decomposed
+into a velocity cube of 2.91 against a density square root of 0.702. Reynolds number with Sutherland
+viscosity, showing the flight article an order of magnitude below a full-size vehicle. And the reason
+the thrust-drag margin closes with Mach number.
+
+**THE PASS INTRODUCED TWO DEFECTS AND BOTH WERE CAUGHT.** A display absorbed the following line, which
+is the self-inflicted equation defect this series has shipped before. And **a literal pipe inside
+inline math at the start of a line makes kramdown render the paragraph as a table**, which `_verify.py`
+caught as a warning. Rewriting the absolute value with `\lvert` and `\rvert` removes the pipe
+character entirely.
 
 **THE KEYSTONE IS THRUST-DRAG CLOSURE AND THE ARTICLE'S FINDING IS THAT THE SAME PROBLEM APPEARS
 TWICE.** A scramjet's net thrust is the small difference between installed thrust and total drag. The

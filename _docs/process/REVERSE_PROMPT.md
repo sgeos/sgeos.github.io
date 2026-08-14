@@ -1,123 +1,102 @@
 ## Last Updated
 
 **Date**: 2026-08-14
-**Task**: **A340, "X-Planes: Micro-Craft X-43 Hyper-X", draft pass complete.** Committed and **not
-pushed**, per the draft-pass rule. **Not published**, and publication of this series has never been
-authorised.
+**Task**: **A340, "X-Planes: Micro-Craft X-43 Hyper-X", equation-density review complete.** Committed
+and **not pushed**, since only the publication review pushes. **Not published**, and publication of
+this series has never been authorised.
 
 ---
 
-## The Vehicle Answered One Question and Was Destroyed by the Same Question
+## 10 Equations to 30, and the Most Important One Formalises the Article's Own Claim
 
-**A scramjet's useful output is the difference between the thrust it makes and the drag it suffers, and
-each of those is far larger than the difference.** Before 27 March 2004 nobody knew the sign of that
-difference in free flight, because ground facilities and computation each carried uncertainty bands
-comparable to the difference itself.
+**The draft asserted that no single analysis could have found the margin failure and never showed
+why.** That was the article's central claim carried entirely by prose.
 
-**The first flight was lost to the same shape of problem in a different discipline.** A launch vehicle's
-stability is the difference between the gain its control loop has and the gain at which it goes
-unstable, and the mishap board's numbers say that difference was smaller than the uncertainty on it.
+It now writes the true margin as the nominal margin less the modelling errors, lets each error consume
+a fraction of the nominal margin, and shows the two conditions side by side. **Any single analysis
+reports a healthy margin whenever that fraction is under one. The combination is unstable whenever the
+number of terms times the fraction exceeds one.** Both hold together whenever there is more than one
+error term and the fraction sits between one over the number of terms and one.
 
-**The article treats those as one subject rather than two**, and that is its organising claim.
-
----
-
-## The Mishap Board Report Is the Best Source and It Carries the Arithmetic
-
-**The roll axis gain margin was predicted before flight at 8 decibels against a 6 decibel
-requirement.** Model corrections revised it to **under 2 decibels**. In linear terms the permissible
-gain factor fell from 2.51 to 1.26 against a required 2.00, which is **a loss of 83 percent of the
-entire available overshoot**.
-
-**And the corrected model was still nominally stable.** The board states that nominal corrections alone
-did not predict loss of control, and that parameter uncertainty had to be included before the mishap
-reproduced. **No single contributing factor caused it.**
-
-**That is the sentence the article is built around.** There was no broken part and no single error large
-enough to matter. **A margin is not a quantity. It is a quantity with an uncertainty, and this one had
-an uncertainty larger than itself.**
-
-**The timeline is brutal and precise.** A diverging roll oscillation at 2.5 hertz began at 11.5 seconds,
-the rudder actuator stalled at 13, sideslip diverged past 8 degrees, and the starboard elevon was
-structurally overloaded at 13.5. **Two seconds at 2.5 hertz is five cycles**, and there was no interval
-in which anything could have been done.
-
-**One contributor deserves separate notice.** The thermal protection system changed the outer mould line
-and the change was not modelled. **The thermal solution altered the aerodynamics and the aerodynamic
-model did not know**, which is a coupling failure between disciplines rather than an error inside one.
+**The table that follows is the point.** Three terms each consuming 40 percent, four each consuming 30,
+five each consuming 25. **Every row is a vehicle that every individual analysis passes and that is
+unstable.** That is the mishap board's finding restated as arithmetic rather than paraphrased.
 
 ---
 
-## An Independent Calculation Validated Both Flight Conditions
+## The Divergence Now Has a Growth Rate and It Is Smaller Than Expected
 
-**Mach 6.83 at 95,000 feet and Mach 9.6 at 110,000 feet give dynamic pressures of 955 and 957 pounds
-per square foot.** The altitudes and the Mach numbers were reported separately, and the agreement to
-two pounds per square foot was not arranged by me. **It is the strongest available consistency check on
-the two flight conditions**, and it confirms the constant dynamic pressure corridor the trajectory was
-flown on.
+Five cycles at 2.5 hertz over two seconds fix the growth rate, and the corresponding damping ratio is
+between **−0.051 and −0.095** depending on how much amplitude growth is assumed.
 
-**The stagnation temperatures explain why the vehicle exists at all**, at 2,329 kelvin at the Mach 7
-condition and 4,517 at Mach 10. Decelerating that flow to sonic conditions, as a ramjet would, gives
-static temperatures of 1,941 and 3,764 kelvin. **At Mach 10 a subsonic-combustion inlet delivers air
-that is already dissociating before any fuel is added.** Supersonic combustion is not an efficiency
-choice, it is the only way to keep the working fluid intact.
+**The vehicle was not wildly unstable. It was slightly unstable, for two seconds, which was enough.**
+That is the gain margin statement in another form and it is worth having both.
 
 ---
 
-## The Two Powered Flights Differ in a Way Usually Reported Away
+## Nine Relations the Prose Had Leaned On Silently
 
-**At Mach 7 the vehicle accelerated. At Mach 10 it held constant velocity.**
+**Momentum thrust and air capture**, which show that exit velocity exceeds flight velocity by a few
+percent rather than by a factor, so a five percent excess yields 103 newtons per kilogram per second of
+captured air at Mach 7. **Everything in the engine is spent on that few percent.**
 
-**The margin that was positive at Mach 7 was approximately zero at Mach 9.6**, which is what scramjet
-cycle analysis predicts as Mach number rises. **Reported as a speed record this is the fastest
-air-breathing flight ever made. Reported as physics it is the observation that the closure fails**, and
-the second reading is the one the programme existed to produce.
+**The total pressure ratio**, at 3,543 and 32,345, which is why hypersonic compression is taken through
+several weak oblique shocks rather than one strong one.
+
+**The theta-beta-M relation with worked property jumps**, showing that a single ten degree turn does
+most of a factor of three in pressure and costs a Mach number and a half.
+
+**Rayleigh flow**, which is the relation the isolator exists to answer. A combustor entering at Mach 2
+may raise its stagnation temperature by only **26 percent** before it chokes.
+
+**Combustor residence time**, at 970 and 680 microseconds, which is why the problem is mixing rather
+than chemistry.
+
+**The heating ratio decomposed**, into a velocity cube of 2.91 against a density square root of 0.702,
+giving the factor of 2.04.
+
+**Reynolds number with Sutherland viscosity**, which puts the flight article an order of magnitude
+below a full-size vehicle and is the quantitative form of the scale caution.
+
+**Why the thrust-drag margin closes with Mach number**, which the draft asserted. Heat release per unit
+mass of air is fixed while the kinetic energy of the captured flow grows as the square of speed, so the
+fractional velocity increment falls while drag holds constant on a constant dynamic pressure
+trajectory.
 
 ---
 
-## The Inherited Gate Test Paid for Itself on Its First Run
+## The Pass Introduced Two Defects and Both Were Caught
 
-**The self-satisfaction test A339 earned failed immediately here**, catching three conjunctions in which
-the qualifying vocabulary contained the very word it was meant to qualify, being shock, combustor and
-nozzle. **Those were fixed before the gate ever touched the corpus.** That is the first time in this
-series a defect of that class was caught before it reached a sample.
+**A display absorbed the following line**, which is the self-inflicted equation defect this series has
+shipped before and which a scan for displays that open with `$$` and do not close with it finds
+immediately.
 
-**The audit then found a defect the tests could not.** Hyphenated forms were being dropped, because a
-pattern written with a space does not match "high-enthalpy", "wind-tunnel" or "flight-test".
-**Correcting it recovered 367 records and more than doubled the ground test facilities cluster**, from
-239 to 507. That is the same defect A339 found with filament-wound vessels, in a different vocabulary.
+**The second was new to me and `_verify.py` caught it.** A literal pipe inside inline math at the start
+of a line makes kramdown render the whole paragraph as a table. The absolute value bars in the margin
+relation did exactly that. **Rewriting them with `\lvert` and `\rvert` removes the pipe character
+entirely** and renders identically, which is the right fix rather than reflowing the paragraph.
 
----
-
-## I Fabricated a URL and Caught It
-
-**A designation-reference URL was constructed by pattern from the two preceding articles and does not
-resolve.** The site returns 300 for it and 404 for every variant I tried.
-
-**It was removed rather than replaced with another guess.** The sentence it supported is rewritten to
-rest on the uniform usage of every source consulted, and **the gap is recorded in both the Source Base
-and the Epistemic State** rather than glossed. This is the A373 trap and the only reason it did not
-ship is that curated URLs are checked individually.
+**That check exists because the defect shipped before**, and this is the first time in my work on this
+series that it has fired.
 
 ---
 
 ## Counts and State
 
-**23,554 lines, 10 display equations, 11,344 reference definitions, 126,801 words**, of which
-**19,230 are author prose**, a dilution factor of 6.6.
+**23,713 lines, 30 display equations, 11,344 reference definitions, 128,194 words**, of which
+**20,135 are author prose**, a dilution factor of 6.4.
 
-**22 curated sources, all primary**, of which 21 come from the NASA Technical Reports Server. **11,279
-harvested records** across fourteen clusters from a pool of 21,376 at a 53.3 percent admit rate.
+**All 29 figures introduced by this pass were verified against the script that computed them**, as were
+the 31 from the draft pass.
 
-**The equation count of 10 is low and the equation pass exists for that.** A339 went from 23 to 57 in
-that pass and this article has more physics available than A339 did, so I expect a larger move.
+**`_verify.py` reports 0 errors and 0 warnings across 301 posts.** The 60 display delimiters balance,
+no display fails to close on its own line, no inline math carries a pipe, prose style scans clean on
+all five rules and there are zero caps-emphasis spans. Reference integrity is exact at 11,344 used and
+11,344 defined.
 
-**All 31 figures the article states were cross-checked against the script that computed them**, and all
-22 curated identifiers were verified against resolved metadata rather than status codes.
-
-**`_verify.py` reports 0 errors and 0 warnings across 301 posts.** Prose style scans clean on all five
-rules with zero caps-emphasis spans, the display delimiters balance, and reference integrity is exact
-at 11,344 used and 11,344 defined with nothing undefined and nothing orphaned.
+**One figure in the verification script was wrong and was corrected before it reached the article.**
+The Rayleigh prose said 28 percent at Mach 2.5 where the computation gives 41, and the Mach 2.0 value
+is 26. The article uses the computed figures.
 
 **Forty-four of seventy-two drafted, none published, publication never authorised.**
 
@@ -125,16 +104,15 @@ at 11,344 used and 11,344 defined with nothing undefined and nothing orphaned.
 
 ## What I Did Not Do
 
-**I did not push.** The draft pass commits and stops.
+**I did not push.** Only the publication review pushes.
 
 **I did not publish**, and I will not without an explicit instruction.
 
-**I did not reconstruct the measured net thrust.** The flight established the sign, the programme's own
-papers established magnitudes, and reproducing those requires the force accounting they perform. The
-article says so rather than implying it derived them.
+**I did not add equations to the survey section.** It maps a field and cites it, names no results of
+its own, and so relies on no relations.
 
 ---
 
 ## Next
 
-**The equation-density review of A340**, on your prompt. Nothing else is outstanding.
+**The primary-reference review of A340**, on your prompt. Nothing else is outstanding.

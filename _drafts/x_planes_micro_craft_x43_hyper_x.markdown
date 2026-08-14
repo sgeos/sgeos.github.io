@@ -46,7 +46,24 @@ force has the sign the designer intended.
 
 $$F_{\text{net}} = F_{\text{thrust}} - D$$
 
-**That equation is trivial and it is the whole problem.** At the flight condition, both terms are large
+**That equation is trivial and it is the whole problem.** Writing out the thrust term shows why.
+Uninstalled thrust is a momentum difference plus a pressure term,
+
+$$F_{\text{thrust}} = \dot{m}_{e} V_{e} - \dot{m}_{0} V_{0} + \left( p_{e} - p_{0} \right) A_{e}$$
+
+and the captured air flow is
+
+$$\dot{m}_{0} = \rho V_{0} A_{c}$$
+
+**For a hydrogen scramjet at stoichiometric the fuel flow is about 2.9 percent of the air flow**, so
+the two mass flows are nearly equal and the thrust is dominated by the velocity difference,
+
+$$F_{\text{thrust}} \approx \dot{m}_{0} \left( V_{e} - V_{0} \right)$$
+
+**The exit velocity exceeds the flight velocity by a few percent, not by a factor.** At the Mach 7
+condition a five percent excess gives 103 newtons of thrust per kilogram per second of captured air,
+and at Mach 10 it gives 147. **Everything in the engine is spent on that few percent**, and the drag
+is subtracted from it afterwards. At the flight condition, both terms are large
 and their difference is small. A ground facility can produce one of them with an uncertainty band, and
 computational fluid dynamics can produce the other with an uncertainty band, and if those bands are
 comparable to the difference then no combination of ground testing and analysis can tell you the sign
@@ -125,6 +142,16 @@ already coming apart, before any fuel has been added. **The energy spent breakin
 energy unavailable to push the vehicle**, and it is not recovered in the nozzle because recombination
 is too slow at the residence times involved.
 
+**The pressure side of the same relation says why the inlet is the hard part.** The total pressure
+ratio available at those conditions is
+
+$$\frac{p_{0}}{p} = \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}}$$
+
+which is 3,543 at the Mach 7 condition and 32,345 at the Mach 10 condition. **A perfect inlet would
+deliver all of it and a real one loses total pressure across every shock**, with the losses
+compounding, which is why hypersonic compression is taken through several weak oblique shocks rather
+than one strong one.
+
 **So the reason for supersonic combustion is not efficiency. It is that the alternative destroys the
 working fluid.** A scramjet decelerates the flow only partly, keeping it supersonic through the
 combustor, which keeps the static temperature low enough that the air survives to be burned.
@@ -136,6 +163,10 @@ while the structural and thermal loads scale with dynamic pressure,
 
 $$q = \tfrac{1}{2} \rho V^{2}$$
 
+with the flight velocity following from the Mach number and the local speed of sound,
+
+$$V = M a \qquad a = \sqrt{\gamma R T}$$
+
 **A vehicle accelerating through the hypersonic range therefore flies a corridor rather than a
 trajectory**, climbing as it accelerates so that the dynamic pressure stays roughly constant. Taking
 the standard atmosphere at the two flight altitudes and the two flight Mach numbers gives
@@ -144,6 +175,12 @@ the standard atmosphere at the two flight altitudes and the two flight Mach numb
 |---|---|---|---|---|---|
 | Flight 2 | 6.83 | 95,000 | 0.0216 | 2,056 | 955 |
 | Flight 3 | 9.6 | 110,000 | 0.0107 | 2,934 | 957 |
+
+Worked out at the two conditions,
+
+$$q_{2} = \tfrac{1}{2} \times 0.0216 \times 2{,}056^{2} = 45.7 \ \text{kPa} = 955 \ \text{lbf/ft}^{2}$$
+
+$$q_{3} = \tfrac{1}{2} \times 0.0107 \times 2{,}934^{2} = 45.8 \ \text{kPa} = 957 \ \text{lbf/ft}^{2}$$
 
 **The two flights were flown at the same dynamic pressure to within two pounds per square foot, at Mach
 numbers differing by forty percent.** That is not a coincidence and it is the strongest available check
@@ -193,7 +230,26 @@ configuration.
 ### The Airframe Is the Engine
 
 The forebody generates the first compression through a series of oblique shocks before the flow reaches
-the cowl. **The vehicle's angle of attack is therefore an engine parameter**, because it sets the
+the cowl. **Each of those is governed by the same relation**, which ties the wedge turning angle
+$\theta$ to the shock angle $\beta$ at free stream Mach number $M$,
+
+$$\tan \theta = 2 \cot \beta \, \frac{M^{2} \sin^{2} \beta - 1}{M^{2} \left( \gamma + \cos 2 \beta \right) + 2}$$
+
+and the property jumps across the shock follow from the normal component
+$M_{n1} = M \sin \beta$,
+
+$$\frac{p_{2}}{p_{1}} = 1 + \frac{2 \gamma}{\gamma + 1} \left( M_{n1}^{2} - 1 \right) \qquad \frac{T_{2}}{T_{1}} = \frac{p_{2}}{p_{1}} \cdot \frac{2 + \left( \gamma - 1 \right) M_{n1}^{2}}{\left( \gamma + 1 \right) M_{n1}^{2}}$$
+
+At the Mach 7 condition, representative turning angles give
+
+| $\beta$, deg | $\theta$, deg | $p_{2}/p_{1}$ | $T_{2}/T_{1}$ | $M_{2}$ |
+|---|---|---|---|---|
+| 12 | 4.97 | 2.19 | 1.27 | 5.98 |
+| 15 | 8.38 | 3.48 | 1.51 | 5.41 |
+| 20 | 13.37 | 6.20 | 1.98 | 4.59 |
+
+**A single ten degree turn does most of a factor of three in pressure and costs a Mach number and a
+half**, and the forebody stacks several such turns before the cowl. **The vehicle's angle of attack is therefore an engine parameter**, because it sets the
 effective wedge angle of the first compression surface and so the capture and the compression ratio.
 This coupling is the reason the aerodynamic database and the propulsion database could not be developed
 independently, and the programme treated them as one problem from the
@@ -210,6 +266,24 @@ flight programme from a test campaign.
 
 ### Isolator, Combustor and the Dual Mode
 
+**Heat cannot be added to a supersonic flow without limit, and the limit is geometric rather than
+chemical.** Rayleigh flow, meaning frictionless flow in a constant area duct with heat addition, drives
+the Mach number toward unity from either side, and the maximum heat addition is fixed by the ratio of
+the stagnation temperature to its value at choking,
+
+$$\frac{T_{0}}{T_{0}^{*}} = \frac{\left( \gamma + 1 \right) M^{2} \left[ 2 + \left( \gamma - 1 \right) M^{2} \right]}{\left( 1 + \gamma M^{2} \right)^{2}}$$
+
+| Combustor entry Mach | $T_{0}/T_{0}^{*}$ | Permissible $T_{0}$ rise |
+|---|---|---|
+| 1.5 | 0.909 | 10 % |
+| 2.0 | 0.793 | 26 % |
+| 2.5 | 0.710 | 41 % |
+| 3.0 | 0.654 | 53 % |
+
+**A combustor entering at Mach 2 may raise its stagnation temperature by only about a quarter before
+it chokes.** That is a severe constraint on how much fuel may be burned, and it is the reason the
+isolator exists.
+
 Between the inlet throat and the combustor sits an isolator, which is a constant or nearly constant
 area duct whose job is to contain the shock train that forms when the combustor runs at a pressure the
 inlet would not otherwise tolerate. **Without it, combustor pressure propagates upstream and unstarts
@@ -220,6 +294,16 @@ lengthens as the fuelling changes.
 range and supersonic combustion at the upper end, with the transition managed by fuel
 distribution[[Voland and Rock 1998][research_voland_1998]]. That is why the isolator matters, since the
 subsonic-combustion mode is exactly the condition that drives a shock train upstream.
+
+**The combustor has about a millisecond to work in and often much less.** Taking the combustor
+velocity as a fraction of flight velocity and a representative length for a vehicle of this size,
+
+$$t_{\text{res}} = \frac{L_{c}}{V_{c}}$$
+
+gives residence times of roughly 970 microseconds at the Mach 7 condition and 680 at the Mach 10
+condition for a one metre combustor at half the flight speed. **At those times the problem is mixing
+rather than chemistry**, because turbulent mixing is slower than hydrogen kinetics, and every injector
+design is a compromise between fuel penetration and total pressure loss.
 
 **Ignition used silane.** Gaseous hydrogen does not reliably autoignite at the static temperatures and
 residence times available in a scramjet combustor at the lower end of the range, so a silane and
@@ -248,8 +332,13 @@ radius,
 | Flight 2 | 0.0216 | 2,056 | 4.06 | 406 |
 | Flight 3 | 0.0107 | 2,934 | 8.29 | 829 |
 
-**The Mach 10 condition roughly doubles the leading edge heating of the Mach 7 condition**, at
-essentially the same dynamic pressure, because the cube of velocity beats the square root of density.
+The ratio between the two conditions decomposes cleanly,
+
+$$\frac{\dot{q}_{3}}{\dot{q}_{2}} = \left( \frac{V_{3}}{V_{2}} \right)^{3} \sqrt{\frac{\rho_{3}}{\rho_{2}}} = \left( 1.427 \right)^{3} \times \sqrt{0.492} = 2.91 \times 0.702 = 2.04$$
+
+**The Mach 10 condition doubles the leading edge heating of the Mach 7 condition**, at essentially the
+same dynamic pressure, because the cube of a 1.43 velocity ratio beats the square root of a 0.49
+density ratio.
 **That factor of two is why the third flight needed different leading edges from the second**, and the
 vehicles were not identical.
 
@@ -263,6 +352,8 @@ the leading edges were carbon-carbon.
 The research vehicle had a flight control system designed for a regime with no flight-validated
 aerodynamic model[[Davidson and Lallman 1999][research_davidson_1999]], and its entire powered mission
 lasted about eleven seconds. At the flight speeds that is a short distance.
+
+$$d = V t_{\text{burn}}$$
 
 | | $V$, m/s | 11 s covers |
 |---|---|---|
@@ -281,6 +372,8 @@ during captive flight and initiated separation. The whole assembly was 589 inche
 52-008[[X-43A Mishap Investigation Board 2003][research_mib_2003]].
 
 **The proportions are worth stating because they explain the first flight.**
+
+$$\frac{m_{\text{HXRV}}}{m_{\text{stack}}} = \frac{3{,}000}{41{,}750} = 0.072 \qquad \frac{L_{\text{HXRV}}}{L_{\text{stack}}} = \frac{12}{49.1} = 0.244$$
 
 | | Value | Share of stack |
 |---|---|---|
@@ -334,6 +427,24 @@ release[[X-43A Mishap Investigation Board 2003][research_mib_2003]].
 
 **At 2.5 hertz, two seconds is five cycles.** The vehicle went from nominal to structural failure in
 five cycles of a diverging oscillation, which is a useful thing to know about the class of failure.
+
+**How unstable was it? Less than one might expect.** A diverging oscillation grows as
+
+$$\theta(t) = \theta_{0} \, e^{\sigma t} \cos \omega t \qquad \sigma = \frac{1}{t} \ln \frac{\theta(t)}{\theta_{0}}$$
+
+and the corresponding damping ratio, negative for a divergence, is
+
+$$\zeta = \frac{-\sigma}{\sqrt{\sigma^{2} + \omega^{2}}} \qquad \omega = 2 \pi f$$
+
+| Amplitude growth over 2.0 s | $\sigma$, s⁻¹ | $\zeta$ |
+|---|---|---|
+| 5 times | 0.805 | −0.051 |
+| 10 times | 1.151 | −0.073 |
+| 20 times | 1.498 | −0.095 |
+
+**A damping ratio of a few hundredths on the wrong side of zero is the entire difference between this
+failure and a successful flight.** The vehicle was not wildly unstable. It was slightly unstable, for
+two seconds, which was enough.
 **There was no interval in which anything could have been done**, and the vehicle carried no capability
 to do it.
 
@@ -377,9 +488,33 @@ analysis model and the nonlinear
 simulation[[X-43A Mishap Investigation Board 2003][research_mib_2003]].
 
 **That is what a margin failure looks like when it is honestly investigated.** There was no broken
-part. Every contributing error was individually survivable. **The margin was positive throughout and
-the uncertainty on the margin was larger than the margin**, and no single analysis would ever have
-shown it, because each analysis was looking at one term.
+part. Every contributing error was individually survivable.
+
+**The arithmetic of why no single analysis could have found it is worth writing down.** Let the true
+margin be the nominal margin reduced by the modelling errors,
+
+$$m_{\text{true}} = m_{\text{nominal}} - \sum_{i=1}^{n} \lvert e_{i} \rvert$$
+
+and let each error consume a fraction $f$ of the nominal margin, so that $\lvert e_{i} \rvert = f \, m_{\text{nominal}}$.
+**Any single analysis reports a healthy margin whenever $f < 1$.** The system is nonetheless unstable
+when the errors combine,
+
+$$m_{\text{true}} < 0 \iff n f > 1$$
+
+| Terms $n$ | Each consumes $f$ | Each analysis reports | Combination consumes |
+|---|---|---|---|
+| 3 | 40 % | a 60 % margin remaining | 120 % |
+| 4 | 30 % | a 70 % margin remaining | 120 % |
+| 5 | 25 % | a 75 % margin remaining | 125 % |
+
+**Every row of that table is a vehicle that every individual analysis passes and that is
+unstable.** The condition for the failure to be invisible is $f < 1$ and the condition for it to
+happen is $n f > 1$, and both hold simultaneously whenever $n > 1$ and $f$ is between $1/n$ and 1.
+
+**That is exactly the board's finding restated**, which is that no single contributing factor caused
+the mishap and that it reproduced only when all of the modelling inaccuracies with uncertainty
+variations were incorporated together. **The margin was positive throughout and the uncertainty on the
+margin was larger than the margin.**
 
 The contributors were modelling inaccuracies in the fin actuation system, including under-prediction of
 its compliance, modelling inaccuracies in the aerodynamics, including an error incorporating wind
@@ -412,9 +547,16 @@ power**[[Marshall and Bahm 2005][research_marshall_2005]].
 
 **The distinction between the two flights is the finding, and it is usually reported away.** At Mach 7
 the engine accelerated the vehicle. At Mach 10 the engine sustained it. **The margin that was positive
-at Mach 7 was approximately zero at Mach 10**, which is what scramjet cycle analysis predicts as Mach
-number rises, since the fraction of the flow's energy that the engine can add falls while the drag does
-not.
+at Mach 7 was approximately zero at Mach 10**, and the reason is visible in the thrust relation.
+Rewriting it as a fractional velocity increment,
+
+$$F_{\text{thrust}} \approx \dot{m}_{0} V_{0} \left( \frac{V_{e}}{V_{0}} - 1 \right)$$
+
+**the heat release per unit mass of air is fixed by the fuel and the air, so the energy the engine can
+add does not grow with flight speed while the kinetic energy of the captured flow grows as its
+square.** The fractional increment therefore falls as Mach number rises. Drag meanwhile scales with
+dynamic pressure, which this trajectory holds constant. **One term shrinks and the other does not**,
+and somewhere between Mach 7 and Mach 9.6 they crossed.
 
 **Reported as a speed record this is the fastest air-breathing flight ever made.** Reported as physics
 it is the observation that the thrust-drag margin closes, and the second reading is the one the
@@ -474,6 +616,23 @@ the pairing. After three consecutive articles on contested designations that is 
 sentence and then leaving alone. **The absence of a dispute is not the same as positive evidence that
 none exists**, and this article did not locate a nomenclature reference for the X-43 to check against,
 which is recorded in the Epistemic State.
+
+**A fifth concerns scale, and it is the one with an equation attached.** The article treats a twelve
+foot vehicle as evidence about hypersonic air-breathing propulsion generally, and the quantity that
+refuses to scale is the Reynolds number,
+
+$$\mathrm{Re} = \frac{\rho V L}{\mu} \qquad \mu = \frac{1.458 \times 10^{-6} \, T^{3/2}}{T + 110.4}$$
+
+At the two flight conditions the dynamic viscosity is $1.47 \times 10^{-5}$ and
+$1.51 \times 10^{-5}$ pascal seconds, giving a length Reynolds number of
+$1.11 \times 10^{7}$ at the Mach 7 condition and $7.58 \times 10^{6}$ at Mach 10.
+
+**Reynolds number is proportional to length at a fixed flight condition**, so a vehicle five times
+longer sits at $5.5 \times 10^{7}$ and one ten times longer at $1.11 \times 10^{8}$, an order of
+magnitude above the flight article. **Boundary layer transition location does not scale with it**, and
+transition sets skin friction, heating and the state of the flow entering the inlet. **The flight data
+calibrate the tools at one Reynolds number and the tools are then used at another**, which is a
+weakness the programme understood and could not remove.
 
 **A fourth caution concerns what "first" means here.** A joint Russian and American programme flew a
 scramjet on a Mach 6.5 flight test in the 1990s[[Roudakov and Semenov 1998][research_roudakov_1998]],

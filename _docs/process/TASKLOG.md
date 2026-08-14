@@ -10,9 +10,9 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 **Status**: **A297 through A338 are drafted with all four passes complete on every one, committed and
 PUSHED, and none published. A339 has completed all four passes, is committed and PUSHED, and is not
-published. A340 has completed the draft pass only, is committed and NOT pushed, and is not
-published.** Forty-four of seventy-two drafted, **none published**. The next pass is the
-**equation-density review of A340**, and it starts only on the pilot's prompt.
+published. A340 has completed the draft and equation-density passes, is committed and NOT
+pushed, and is not published.** Forty-four of seventy-two drafted, **none published**. The next pass
+is the **primary-reference review of A340**, and it starts only on the pilot's prompt.
 
 **This block was rewritten again on 2026-08-13**, because it had gone self-contradictory for a sixth
 time, asserting in consecutive sentences that A336 had completed the draft pass only and was not pushed,
