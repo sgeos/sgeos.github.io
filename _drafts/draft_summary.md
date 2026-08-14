@@ -17,6 +17,47 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Micro-Craft X-43 Hyper-X A340 2025-11-18
+
+`x_planes_micro_craft_x43_hyper_x.markdown`, A340, editorial date 2025-11-18, series `x_planes`
+index 44 of 72.
+
+**23,554 lines, 10 display equations, 11,344 reference definitions, 126,801 words after the draft
+pass**, of which 19,230 are author prose, a dilution factor of 6.6. Committed. **Not pushed**, since
+the draft pass does not push. **Not published**, and publication of the series has never been
+authorised.
+
+**THE KEYSTONE IS THRUST-DRAG CLOSURE AND THE ARTICLE'S FINDING IS THAT THE SAME PROBLEM APPEARS
+TWICE.** A scramjet's net thrust is the small difference between installed thrust and total drag. The
+booster's stability is the small difference between the gain the loop has and the gain at which it goes
+unstable. **The programme measured the first correctly and got the second wrong**, and the article
+treats them as one subject.
+
+**THE MISHAP BOARD REPORT IS THE BEST SOURCE ON THIS VEHICLE AND IT CARRIES THE ARITHMETIC.** The roll
+axis gain margin was predicted at **8 dB** against a **6 dB** requirement and corrected to **under
+2 dB**, which is a loss of **83 percent** of the available overshoot, and the corrected model was
+**still nominally stable**. The mishap reproduced only when every modelling inaccuracy was combined
+with its uncertainty. **The margin was positive and the uncertainty on it was larger than the margin.**
+
+**AN INDEPENDENT ATMOSPHERE CALCULATION VALIDATED THE TWO FLIGHT CONDITIONS.** Mach 6.83 at 95,000 ft
+and Mach 9.6 at 110,000 ft give dynamic pressures of **955 and 957 lbf/ft²**, agreeing to two pounds
+per square foot from separately reported altitudes and Mach numbers. **That agreement was not arranged.**
+
+**THE MACH 7 AND MACH 10 FLIGHTS DIFFER IN A WAY USUALLY REPORTED AWAY.** At Mach 7 the vehicle
+accelerated. At Mach 10 it held constant velocity. **The margin that was positive at Mach 7 was
+approximately zero at Mach 10**, which is the physics finding underneath the speed record.
+
+**THE GATE'S SELF-SATISFACTION TEST PAID FOR ITSELF ON ITS FIRST RUN.** Inherited from A339, it failed
+immediately on three conjunctions where the qualifying vocabulary contained the word it qualified,
+being shock, combustor and nozzle. **Those were caught before the gate ever touched the corpus**, which
+is the first time in this series a defect of that class was found before it reached a sample. The audit
+then found a defect the tests could not, being that hyphenated forms were dropped, and correcting it
+recovered **367 records** and more than doubled the ground test facilities cluster.
+
+**A FABRICATED URL WAS CAUGHT AND REMOVED.** A designation-reference URL was constructed by pattern
+from the two preceding articles and does not resolve. **It was removed rather than replaced with
+another guess**, and the resulting gap is recorded in both the Source Base and the Epistemic State.
+
 ## X-Planes Orbital Sciences X-42 A339 2025-11-17
 
 `x_planes_orbital_sciences_x42.markdown`, A339, editorial date 2025-11-17, series `x_planes` index 43

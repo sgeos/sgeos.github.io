@@ -1,136 +1,140 @@
 ## Last Updated
 
 **Date**: 2026-08-14
-**Task**: **A339, "X-Planes: Orbital Sciences X-42", publication review complete.** All four passes
-done. Committed and **PUSHED**. **Not published**, and publication of this series has never been
+**Task**: **A340, "X-Planes: Micro-Craft X-43 Hyper-X", draft pass complete.** Committed and **not
+pushed**, per the draft-pass rule. **Not published**, and publication of this series has never been
 authorised.
 
 ---
 
-## The Review Found Four Things and Three Were Mine
+## The Vehicle Answered One Question and Was Destroyed by the Same Question
 
-**A caps-emphasis span had crept in.** The Source Base carried
-**THE PRIMARY-REFERENCE PASS ADDED 21 SOURCES AND THE REASON IS UNCOMFORTABLE** in capitals, which
-breaks the rule that emphasis is bold and never capitals. **I checked three peer articles before
-changing it and all three carry zero such spans**, so it was a regression against the corpus rather
-than a convention I had forgotten. It is now bold lower case.
+**A scramjet's useful output is the difference between the thrust it makes and the drag it suffers, and
+each of those is far larger than the difference.** Before 27 March 2004 nobody knew the sign of that
+difference in free flight, because ground facilities and computation each carried uncertainty bands
+comparable to the difference itself.
 
-**`USFE` was used three times in prose and never introduced.** The acronym rule requires spell-out on
-first use and the house style forbids the parenthetical that would normally do it, so the article now
-introduces it inline at the first full-name mention in Programme Origin.
+**The first flight was lost to the same shape of problem in a different discipline.** A launch vehicle's
+stability is the difference between the gain its control loop has and the gain at which it goes
+unstable, and the mishap board's numbers say that difference was smaller than the uncertainty on it.
 
-**`published` ran at 4.16 per thousand against a peer mean of 1.19.** The word is doing real work in an
-article about what is and is not in the record, but **nine uses sat inside one Epistemic State
-subsection whose opening sentence already carried the qualification**. That subsection is rewritten to
-state it once, three consecutive uses of "was never published" are varied, and the rate is now
-3.04 per thousand, inside the peer range.
+**The article treats those as one subject rather than two**, and that is its organising claim.
 
 ---
 
-## The Fourth Was the Instrument, Not the Article
+## The Mishap Board Report Is the Best Source and It Carries the Arithmetic
 
-**The n-gram check reported `the the the` 37 times.** That is the series back-reference sentence, which
-lists forty-two siblings as "the X-1, the X-2, the X-3" and whose link pairs the prose stripper
-replaces with spaces, leaving consecutive bare articles.
+**The roll axis gain margin was predicted before flight at 8 decibels against a 6 decibel
+requirement.** Model corrections revised it to **under 2 decibels**. In linear terms the permissible
+gain factor fell from 2.51 to 1.26 against a required 2.00, which is **a loss of 83 percent of the
+entire available overshoot**.
 
-**It is a structural convention of this series and not repetitive prose.** Re-measured with that
-sentence removed, no other count moved. **Worth knowing for every future article in this series**,
-because it will fire every time and it means nothing.
+**And the corrected model was still nominally stable.** The board states that nominal corrections alone
+did not predict loss of control, and that parameter uncertainty had to be included before the mishap
+reproduced. **No single contributing factor caused it.**
 
----
+**That is the sentence the article is built around.** There was no broken part and no single error large
+enough to matter. **A margin is not a quantity. It is a quantity with an uncertainty, and this one had
+an uncertainty larger than itself.**
 
-## `rather` Was Investigated and Deliberately Left Alone
+**The timeline is brutal and precise.** A diverging roll oscillation at 2.5 hertz began at 11.5 seconds,
+the rudder actuator stalled at 13, sideslip diverged past 8 degrees, and the starboard elevon was
+structurally overloaded at 13.5. **Two seconds at 2.5 hertz is five cycles**, and there was no interval
+in which anything could have been done.
 
-**It runs at 4.44 per thousand against a peer maximum of 4.31**, so it is genuinely above the range.
-
-**54 of its 57 uses are `rather than`**, which is the construction the style rules push toward in place
-of the dash constructions they forbid. **Only one paragraph in the whole article uses it twice**, and
-both uses there are genuine binary contrasts.
-
-**The excess is structurally induced by the house style rather than a tic**, so changing it would mean
-reintroducing the constructions the style guide exists to remove. Reported rather than fixed.
-
----
-
-## The Survey Gained a Synthesis Because the Date Profile Is a Finding
-
-**The survey reported sixteen cluster sizes and never said what their shape meant.** It now closes with
-a date profile per cluster and three findings drawn from it.
-
-**The peroxide cluster carries the smallest pre-2000 share of any core cluster at 20 percent and one of
-the largest post-2015 shares at 51 percent.** That is the abandonment and revival the article had only
-asserted, now measured. Concentrated peroxide was given up in the 1960s and the literature simply
-stops, which is why a field with a long history reads as a young one.
-
-**The upper stage cluster is the mirror image and it is the bleakest number in the table**, with the
-largest pre-2000 share of any core cluster at 39 percent while being the smallest core cluster
-outright. **The pop-up insertion mission was posed, worked on, and abandoned without being solved.**
-
-**The two clusters covering the technologies that actually killed the programme are the youngest**,
-with ablatives at 53 percent post-2015 and composite pressure vessels close behind. **The tank failed
-on a problem that is open still**, and a reader looking for the part of this vehicle with a future
-should look there rather than at the stage.
-
-**Three ordering claims in that synthesis are asserted against the computed profile at build time**,
-as the seven cluster-size claims already were. The assembly script refuses to write the draft if any
-fails.
+**One contributor deserves separate notice.** The thermal protection system changed the outer mould line
+and the change was not modelled. **The thermal solution altered the aerodynamics and the aerodynamic
+model did not know**, which is a coupling failure between disciplines rather than an error inside one.
 
 ---
 
-## Verification
+## An Independent Calculation Validated Both Flight Conditions
 
-**Every worked figure was re-derived by a script that does not import the one that produced them.**
-Fifty-four values, with the inputs re-typed from the primary papers, so an error in the pipeline could
-not reproduce itself. All pass.
+**Mach 6.83 at 95,000 feet and Mach 9.6 at 110,000 feet give dynamic pressures of 955 and 957 pounds
+per square foot.** The altitudes and the Mach numbers were reported separately, and the agreement to
+two pounds per square foot was not arranged by me. **It is the strongest available consistency check on
+the two flight conditions**, and it confirms the constant dynamic pressure corridor the trajectory was
+flown on.
 
-**All 28 curated non-DOI URLs respond.** Every NASA record, both designation pages, the Open Library
-work and the manuscript.
+**The stagnation temperatures explain why the vehicle exists at all**, at 2,329 kelvin at the Mach 7
+condition and 4,517 at Mach 10. Decelerating that flow to sonic conditions, as a ramjet would, gives
+static temperatures of 1,941 and 3,764 kelvin. **At Mach 10 a subsonic-combustion inlet delivers air
+that is already dissociating before any fuel is added.** Supersonic combustion is not an efficiency
+choice, it is the only way to keep the working fluid intact.
 
-**Forty harvested DOIs were sampled and 25 returned 403.** That looked alarming and meant nothing.
-**All 25 resolve through Crossref to registered works with titles and authors.** Nineteen of them are
-AIAA, which is unavoidable in an aerospace article whose primary literature is the Joint Propulsion
-Conference. **I added MDPI, AIP, ASME and Hindawi to the known-403 catalogue** in
-`URL_VERIFICATION.md`, together with a note that where a DOI is the identifier the registry is the
-instrument and the landing page is not.
+---
 
-**Structural conformance holds.** The twelve-section genre order is present and in order, with the
-designation given its own section on the A320 precedent and the three series sections in place.
+## The Two Powered Flights Differ in a Way Usually Reported Away
 
-**Prose style scans clean on all five rules, plus zero caps-emphasis spans.** The 114 display
-delimiters balance and no display fails to close on its own line. Reference integrity is exact at
-9,831 used and 9,831 defined with nothing undefined and nothing orphaned. `_verify.py` reports 0
-errors and 0 warnings across 301 posts and `./_check.sh --drafts` passes with the rendered audit clean.
+**At Mach 7 the vehicle accelerated. At Mach 10 it held constant velocity.**
+
+**The margin that was positive at Mach 7 was approximately zero at Mach 9.6**, which is what scramjet
+cycle analysis predicts as Mach number rises. **Reported as a speed record this is the fastest
+air-breathing flight ever made. Reported as physics it is the observation that the closure fails**, and
+the second reading is the one the programme existed to produce.
+
+---
+
+## The Inherited Gate Test Paid for Itself on Its First Run
+
+**The self-satisfaction test A339 earned failed immediately here**, catching three conjunctions in which
+the qualifying vocabulary contained the very word it was meant to qualify, being shock, combustor and
+nozzle. **Those were fixed before the gate ever touched the corpus.** That is the first time in this
+series a defect of that class was caught before it reached a sample.
+
+**The audit then found a defect the tests could not.** Hyphenated forms were being dropped, because a
+pattern written with a space does not match "high-enthalpy", "wind-tunnel" or "flight-test".
+**Correcting it recovered 367 records and more than doubled the ground test facilities cluster**, from
+239 to 507. That is the same defect A339 found with filament-wound vessels, in a different vocabulary.
+
+---
+
+## I Fabricated a URL and Caught It
+
+**A designation-reference URL was constructed by pattern from the two preceding articles and does not
+resolve.** The site returns 300 for it and 404 for every variant I tried.
+
+**It was removed rather than replaced with another guess.** The sentence it supported is rewritten to
+rest on the uniform usage of every source consulted, and **the gap is recorded in both the Source Base
+and the Epistemic State** rather than glossed. This is the A373 trap and the only reason it did not
+ship is that curated URLs are checked individually.
 
 ---
 
 ## Counts and State
 
-**21,099 lines, 57 display equations, 9,831 reference definitions, 117,301 words**, of which
-**23,757 are author prose**, a dilution factor of 4.9.
+**23,554 lines, 10 display equations, 11,344 reference definitions, 126,801 words**, of which
+**19,230 are author prose**, a dilution factor of 6.6.
 
-**41 curated sources**, 38 primary or canonical, 22 contemporary with the programme. **9,754 harvested
-records** across sixteen clusters, from a pool of 25,076 at a 39.4 percent admit rate.
+**22 curated sources, all primary**, of which 21 come from the NASA Technical Reports Server. **11,279
+harvested records** across fourteen clusters from a pool of 21,376 at a 53.3 percent admit rate.
 
-**This is the largest survey in the series by a wide margin**, against 4,735 for A337 and 4,654 for
-A338, and the length follows from the subject rather than from a target.
+**The equation count of 10 is low and the equation pass exists for that.** A339 went from 23 to 57 in
+that pass and this article has more physics available than A339 did, so I expect a larger move.
 
-**Forty-three of seventy-two drafted, none published, publication never authorised.** Forty-two of the
-forty-three cite a sibling through `post_url` with no target in `_posts/`, so **the set publishes in
-order or together**, and publishing any one alone fails the build.
+**All 31 figures the article states were cross-checked against the script that computed them**, and all
+22 curated identifiers were verified against resolved metadata rather than status codes.
+
+**`_verify.py` reports 0 errors and 0 warnings across 301 posts.** Prose style scans clean on all five
+rules with zero caps-emphasis spans, the display delimiters balance, and reference integrity is exact
+at 11,344 used and 11,344 defined with nothing undefined and nothing orphaned.
+
+**Forty-four of seventy-two drafted, none published, publication never authorised.**
 
 ---
 
 ## What I Did Not Do
 
-**I did not publish**, and I will not without an explicit instruction. The draft is pushed and sitting
-in `_drafts/`.
+**I did not push.** The draft pass commits and stops.
 
-**I did not trim anything to a length or reference target.** The directive is comprehensiveness and
-this article earned its size on a subject with a large adjacent literature and a small primary one.
+**I did not publish**, and I will not without an explicit instruction.
+
+**I did not reconstruct the measured net thrust.** The flight established the sign, the programme's own
+papers established magnitudes, and reproducing those requires the force accounting they perform. The
+article says so rather than implying it derived them.
 
 ---
 
 ## Next
 
-**A340, "X-Planes: Micro-Craft X-43 Hyper-X"**, editorial date 2025-11-18, series index 44, on your
-prompt. Nothing is outstanding on A339.
+**The equation-density review of A340**, on your prompt. Nothing else is outstanding.
