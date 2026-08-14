@@ -403,4 +403,4 @@ of upstream changes that may affect OpenBSD installations.
 [github_24711]: https://github.com/anthropics/claude-code/issues/24711
 [openbsd_linux_compat]: https://www.infoworld.com/article/2246944/openbsd-60-tightens-security-by-losing-linux-compatibility.html
 [related_post_claude_code]: {% post_url 2026-01-31-claude_code_getting_started %}
-[related_post_claude_code_freebsd]: {% post_url 2026-02-24-claude_code_getting_started_on_freebsd %}
+[related_post_claude_code_freebsd]: {% post_url 2026-08-13-claude_code_getting_started_on_freebsd %}

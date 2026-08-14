@@ -1,8 +1,61 @@
 ## Last Updated
 
 **Date**: 2026-08-13
-**Task**: **A373, Keleusma Research Spike on error correction meeting a signature. Copied in and brushed
-up to standards, and retargeted for a general audience.** Committed, **not pushed**. **Not published.**
+**Task**: **A373, Keleusma Research Spike on error correction meeting a signature. Equation-density
+review complete.** Committed, **not pushed**. **Not published.**
+**A pre-existing build break was also found and fixed, and it was not mine.**
+
+---
+
+## Read This First, Because the Build Was Broken and It Was Not This Article
+
+**`./_check.sh --drafts` started failing partway through this pass**, on a `post_url` in
+`_drafts/claude_code_getting_started_on_openbsd.markdown` pointing at
+`2026-02-24-claude_code_getting_started_on_freebsd`, which does not exist.
+
+**I proved it was pre-existing before touching anything**, by reproducing the failure at HEAD with the
+A373 draft removed from the tree entirely. It is not caused by this work.
+
+**The cause is stale dates.** Four `post_url` targets across three pre-release-candidate drafts reference
+**2026-02-2x** while those drafts now carry dates of **2026-08-1x**. They were re-dated at some point and
+the tags were not moved with them. **The two targets that point at published posts were correct and I left
+them alone.**
+
+**It is date-sensitive, which is why it surfaced today rather than earlier.** A `post_url` to a
+future-dated draft is not exercised until that date arrives.
+
+**All 961 `post_url` targets across every draft now resolve**, and the page count rose from **512 to 514**,
+which confirms two drafts had not been building at all.
+
+---
+
+## The Equation Pass
+
+**The strongest addition connects the code's worst case to the field literature the article already
+cites.** The six hand-chosen triple faults that mis-corrected at 100 percent were all confined to one
+byte, and **every way of choosing three positions from eight is 56**, so that sub-sweep is exhaustive too.
+**All 56 mis-correct, against 56.08 percent unconditionally, a factor of 1.783.**
+
+**The memory field studies report that faults cluster.** So the accidental bias in the hand-chosen sample
+was **toward the physically likely case**, which is the one direction a biased sample is not harmless in.
+The article previously treated the biased sample only as an error to confess; it is now also evidence.
+
+**An exhaustiveness identity was added**, 23,364 mis-corrected plus 18,300 refused equal to 41,664, which
+shows the enumeration is complete rather than merely large.
+
+**Further additions** cover the binomial generator behind the opening table, the measured rates as the
+divisions they are, the heuristic against the measurement at 0.17 percentage points, the small-artefact
+overhead at 20.0 percent against a documented 12.5 with a 1.60 excess factor, the crossover across four
+artefact sizes, and the compound exposure probability in the time-of-check window. **The article
+explicitly declines to estimate the first factor of that product**, because it depends on medium,
+exposure and workload, none of which is measured.
+
+**24 to 32 display equations.** `tmp/a373/verify.py` recomputes **31 results** from the code parameters
+and the raw instrument counts rather than from the quoted percentages, and shares no code with the draft.
+
+**Two self-inflicted defects were caught during the pass**, an inserted equation that absorbed the
+following prose onto its own source line, and a display duplicated between the summary and the
+derivation. Both are the same class the A338 pass recorded.
 
 ---
 
@@ -77,8 +130,7 @@ pass does not push.
 
 ## Outstanding
 
-**Three passes remain**, being the equation-density review, the primary-reference review and the
-publication review.
+**Two passes remain**, being the primary-reference review and the publication review.
 
 **The X-Planes mainline is untouched by this and remains at forty-two of seventy-two**, all four passes
 complete on each, none published and none authorised. **A339, the Orbital Sciences X-42, starts only on

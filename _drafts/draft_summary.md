@@ -54,7 +54,30 @@ constructions brought under the corpus maximum, `which is` falling from 5.66 to 
 reads Part 1 to 4 **of 4**. Adding A373 at index 5 renumbers all four to **of 5**. That is a change to
 live pages and it has not been made.
 
-**Remaining work.** Equation-density review. Primary-reference review. Publication review.
+**42,405 lines, 32 display equations, 13,800 reference definitions, 458,949 words after the
+equation-density review**, of which 8,576 are author prose.
+
+**THE STRONGEST ADDITION CONNECTS THE CODE'S WORST CASE TO THE FIELD LITERATURE.** The six hand-chosen
+triple faults that mis-corrected at 100 percent were all confined to one byte, and **every way of
+choosing three positions from eight is 56**, so that sub-sweep is exhaustive too. **All 56 mis-correct,
+against 56.08 percent unconditionally, a factor of 1.783.** The memory field studies the article already
+cites report that **faults cluster**, so the accidental bias in the sample was **toward the physically
+likely case**, which is the one direction a biased sample is not harmless in.
+
+**AN EXHAUSTIVENESS IDENTITY WAS ADDED**, being 23,364 mis-corrected plus 18,300 refused equal to 41,664,
+which shows the enumeration is complete rather than merely large. The weight-4 partition checks the same
+way.
+
+**FURTHER ADDITIONS** cover the binomial generator behind the opening table, the measured rates as the
+divisions they are, the heuristic against the measurement at 0.17 percentage points, the small-artefact
+overhead at 136/680 = 20.0 percent against a documented 12.5 and its 1.60 excess factor, the overhead
+crossover across four artefact sizes, and the compound exposure probability in the time-of-check window,
+**whose first factor the article explicitly declines to estimate**.
+
+**A VERIFIER SHARING NO CODE WITH THE DRAFT** was written at `tmp/a373/verify.py` and recomputes **31
+results** from the code parameters and raw instrument counts rather than from the quoted percentages.
+
+**Remaining work.** Primary-reference review. Publication review.
 
 ## X-Planes X-41 Common Aero Vehicle A338 2025-11-16
 

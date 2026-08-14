@@ -23,7 +23,10 @@ error-correcting code exists for and the case no test suite exercises, because p
 deliberately corrupting your own artefact.
 
 Enumerating the fault space of a single 64-bit word exhaustively, rather than sampling it, gives four
-numbers that decide the design.
+numbers that decide the design. The space is small enough to enumerate because the number of ways to flip
+$w$ bits out of 64 is a binomial coefficient, and for $w \le 4$ it stays under a million.
+
+$$\binom{64}{1} = 64, \quad \binom{64}{2} = 2{,}016, \quad \binom{64}{3} = 41{,}664, \quad \binom{64}{4} = 635{,}376$$
 
 | flipped bits | patterns | repaired exactly | **wrongly "repaired"** | **invisible** |
 |---|---|---|---|---|
@@ -33,8 +36,8 @@ numbers that decide the design.
 | 4 | 635,376 | 0 | 0 | **5,133 (0.81%)** |
 
 **Three flipped bits are reported as a successful repair 56.08 percent of the time, and the repair is
-wrong every time it happens.** **Four flipped bits are, 5,133 times, completely invisible**, because the code
-reports the word as clean when the error pattern is itself a valid codeword.
+wrong every time it happens.** **Four flipped bits are, 5,133 times, completely invisible**, because the
+code reports the word as clean when the error pattern is itself a valid codeword.
 
 The consequence is one sentence, and everything else in this article is either its derivation or its
 implications.
@@ -235,6 +238,15 @@ Enumerating all $\binom{64}{3} = 41{,}664$ triple faults exactly gives the follo
 
 $$\frac{23{,}364}{41{,}664} = 0.5608$$
 
+**Nothing in the triple case is unaccounted for**, which is the arithmetic showing the enumeration is
+complete rather than merely large.
+
+$$23{,}364 \ \text{mis-corrected} + 18{,}300 \ \text{refused} = 41{,}664 = \binom{64}{3}$$
+
+The heuristic and the measurement differ by less than a fifth of a percentage point.
+
+$$56.25\% - 56.08\% = 0.17 \ \text{percentage points}$$
+
 **The prediction is right to within 0.17 percentage points**, and that matters because it means the
 mis-correction rate is a property of the parameters $(n, k, r)$ rather than an accident of which columns
 were chosen. A different SECDED code of the same shape would behave the same way.
@@ -289,6 +301,23 @@ qualitative conclusion survives unchanged and the quantitative one was wrong by 
 The article's threats-to-validity section flagged the sample as hand-chosen before the sweep was run,
 and that is the only reason the error was cheap.
 
+### The bias in that sample is the worst case, and the field says it is the likely one
+
+**The 56 patterns confined to one byte are every way of choosing three positions from eight**, so the
+conditional sweep is exhaustive over that neighbourhood too.
+
+$$\binom{8}{3} = 56$$
+
+**All 56 mis-correct**, against 56.08 percent unconditionally, so confinement raises the rate by a factor
+of nearly two.
+
+$$\Pr[\text{mis-correct} \mid w = 3, \ \text{one byte}] = 1.0000, \qquad \frac{1.0000}{0.5608} = 1.783$$
+
+**This is not a curiosity, because the memory field studies cited later report that faults cluster.** A
+fault process that puts three flips in one byte is exactly the process those studies describe, and it is
+the process this code handles worst. **The accidental bias in the hand-chosen sample was toward the
+physically likely case**, which is the one direction a biased sample is not harmless in.
+
 ## Result 1: Repair Is Exact, Which Is What Makes Scrub-Then-Verify Possible
 
 All 64 single-bit error patterns repair to the original word, and 48 of 48 injected into a real artefact
@@ -339,6 +368,16 @@ and between $t_0$ and $t_1$ the bytes are exposed to exactly the fault process t
 installed to survive. If $X_{t_1} = X_{t_0} \oplus e$ with $\mathrm{wt}(e) = 3$, then with probability
 0.5608 the scrub returns wrong bytes, reports success, and **nothing checks them**, because the only check
 ran at $t_0$ against different bytes.
+
+**The probability that this ends in a silently wrong install is a product, and neither factor is zero.**
+Writing $\Pr[F_3]$ for the chance that a weight-3 fault lands in the exposed window,
+
+$$\Pr[\text{wrong bytes installed, reported clean}] = \Pr[F_3] \times 0.5608$$
+
+**The article does not estimate the first factor**, because it depends on the storage medium, the
+exposure time and the workload, and none of those is measured here. **What it does establish is that the
+second factor is not small**, so the product is governed entirely by a quantity the design was built to
+assume is non-zero.
 
 **The assumption verify-then-scrub needs is that no fault occurs between the check and the scrub. The parity plane
 exists because that assumption is false.** A design cannot rest an argument on the negation of its own
@@ -472,8 +511,12 @@ E5 plane overhead against the documented 12.5%:
    parse                payload   303472  planes   37976   12.5%   19 regions
 ```
 
+$$\rho = \frac{136}{680} = 0.200, \qquad \frac{0.200}{0.125} = 1.60$$
+
 At 680 payload bytes the true cost is **20.0 percent**, sixty percent higher than documented. The figure
-is right for the artefacts nobody worries about and wrong for the small ones.
+is right for the artefacts nobody worries about and wrong for the small ones, and the crossover is quick.
+
+$$\rho(680) = 20.0\%, \quad \rho(30{,}616) = 12.65\%, \quad \rho(110{,}904) = 12.53\%, \quad \rho(303{,}472) = 12.51\%$$
 
 ## Threats to Validity
 

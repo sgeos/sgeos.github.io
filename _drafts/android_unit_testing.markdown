@@ -1022,7 +1022,7 @@ and continuous integration with Firebase Test Lab for automated device testing.
 [ref_junit4]: https://junit.org/junit4/
 [ref_mockk]: https://mockk.io/
 [ref_robolectric]: https://robolectric.org/
-[related_post_android_freebsd]: {% post_url 2026-02-23-android_development_on_freebsd %}
+[related_post_android_freebsd]: {% post_url 2026-08-12-android_development_on_freebsd %}
 [related_post_clmm]: {% post_url 2026-02-22-clmm_mathematics %}
 [rust_cargo_ndk]: https://crates.io/crates/cargo-ndk
 [rust_jni]: https://crates.io/crates/jni
