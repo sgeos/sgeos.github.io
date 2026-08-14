@@ -22,9 +22,33 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_micro_craft_x43_hyper_x.markdown`, A340, editorial date 2025-11-18, series `x_planes`
 index 44 of 72.
 
-**23,713 lines, 30 display equations, 11,344 reference definitions, 128,194 words after the
-equation-density pass**, of which 20,135 are author prose, a dilution factor of 6.4. Committed.
-**Not pushed**, since only the publication review pushes. **Not published**, and publication of the
+**23,768 lines, 30 display equations, 11,357 reference definitions, 128,591 words after the
+primary-reference pass**, of which 20,307 are author prose, a dilution factor of 6.3. Committed.
+**Not pushed**, since only the publication review pushes.
+
+**THE PRIMARY-REFERENCE PASS ADDED 15 SOURCES, TAKING THE CURATED SET FROM 22 TO 37.** The audit found
+**48 of 63 substantial paragraphs uncited**, and the derivation sections were the worst offenders,
+which is exactly the wrong way round for an article whose argument is a derivation. **The article
+displayed thirty relations and cited nothing for any of them.**
+
+**ONE DOCUMENT SUPPLIED MOST OF WHAT WAS MISSING.** NACA Report 1135 tabulates the isentropic
+relations, the oblique shock relations and the Rayleigh flow relation in the forms this article uses.
+**A 1953 report is the right citation for a 2004 flight**, because the relations have not changed and
+it states them more carefully than any textbook.
+
+**THREE MORE SUPPLIED THE SPECIFIC CORRELATIONS.** Kantrowitz and Donaldson 1945 for inlet starting,
+Sutton and Graves 1971 for stagnation heating with Fay and Riddell 1958 behind it, and the 1976
+standard atmosphere, **which every flight-condition figure in the article depends on and which the
+draft used silently**.
+
+**ONE PRIMARY THE DRAFT HAD MISSED WAS RECOVERED.** Ferlemann and others 2005 traces the Mach 7
+flowpath from design through ground test to flight, which is the loop the programme existed to close,
+and it belongs in the flight-results discussion.
+
+**CITATIONS IN THE ARTICLE PROPER WENT FROM 29 TO 45** and distinct cited sources from 22 to 37, with
+uncited substantial paragraphs falling to 42 of 66. **All 15 additions were verified against resolved
+metadata**, including two Open Library keys whose titles and authors were checked, because the
+preceding article fabricated a URL by pattern and this pass took the lesson. **Not published**, and publication of the
 series has never been authorised.
 
 **THE EQUATION PASS TOOK THIS ARTICLE FROM 10 DISPLAY EQUATIONS TO 30 AND THE MOST IMPORTANT ADDITION

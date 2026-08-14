@@ -1,102 +1,91 @@
 ## Last Updated
 
 **Date**: 2026-08-14
-**Task**: **A340, "X-Planes: Micro-Craft X-43 Hyper-X", equation-density review complete.** Committed
+**Task**: **A340, "X-Planes: Micro-Craft X-43 Hyper-X", primary-reference review complete.** Committed
 and **not pushed**, since only the publication review pushes. **Not published**, and publication of
 this series has never been authorised.
 
 ---
 
-## 10 Equations to 30, and the Most Important One Formalises the Article's Own Claim
+## The Audit Found the Derivation Sections Were the Worst Offenders
 
-**The draft asserted that no single analysis could have found the margin failure and never showed
-why.** That was the article's central claim carried entirely by prose.
+**Forty-eight of sixty-three substantial paragraphs carried no citation**, and the sections carrying
+the physics were the emptiest. **The article displayed thirty relations and cited nothing for any of
+them.**
 
-It now writes the true margin as the nominal margin less the modelling errors, lets each error consume
-a fraction of the nominal margin, and shows the two conditions side by side. **Any single analysis
-reports a healthy margin whenever that fraction is under one. The combination is unstable whenever the
-number of terms times the fraction exceeds one.** Both hold together whenever there is more than one
-error term and the fraction sits between one over the number of terms and one.
+That is the wrong way round for an article whose argument is a derivation. A reader who wants to check
+the isentropic relation, the oblique shock relation or the Rayleigh flow relation had nowhere to go.
 
-**The table that follows is the point.** Three terms each consuming 40 percent, four each consuming 30,
-five each consuming 25. **Every row is a vehicle that every individual analysis passes and that is
-unstable.** That is the mishap board's finding restated as arithmetic rather than paraphrased.
+**Citations in the article proper went from 29 to 45 and distinct cited sources from 22 to 37.**
+Uncited substantial paragraphs fell to 42 of 66, and what remains is analysis rather than assertion.
 
 ---
 
-## The Divergence Now Has a Growth Rate and It Is Smaller Than Expected
+## One Document Supplied Most of What Was Missing
 
-Five cycles at 2.5 hertz over two seconds fix the growth rate, and the corresponding damping ratio is
-between **−0.051 and −0.095** depending on how much amplitude growth is assumed.
+**NACA Report 1135 tabulates the isentropic relations, the oblique shock relations and the Rayleigh
+flow relation in the forms this article uses**, and it has not been superseded as the reference
+statement of them.
 
-**The vehicle was not wildly unstable. It was slightly unstable, for two seconds, which was enough.**
-That is the gain margin statement in another form and it is worth having both.
-
----
-
-## Nine Relations the Prose Had Leaned On Silently
-
-**Momentum thrust and air capture**, which show that exit velocity exceeds flight velocity by a few
-percent rather than by a factor, so a five percent excess yields 103 newtons per kilogram per second of
-captured air at Mach 7. **Everything in the engine is spent on that few percent.**
-
-**The total pressure ratio**, at 3,543 and 32,345, which is why hypersonic compression is taken through
-several weak oblique shocks rather than one strong one.
-
-**The theta-beta-M relation with worked property jumps**, showing that a single ten degree turn does
-most of a factor of three in pressure and costs a Mach number and a half.
-
-**Rayleigh flow**, which is the relation the isolator exists to answer. A combustor entering at Mach 2
-may raise its stagnation temperature by only **26 percent** before it chokes.
-
-**Combustor residence time**, at 970 and 680 microseconds, which is why the problem is mixing rather
-than chemistry.
-
-**The heating ratio decomposed**, into a velocity cube of 2.91 against a density square root of 0.702,
-giving the factor of 2.04.
-
-**Reynolds number with Sutherland viscosity**, which puts the flight article an order of magnitude
-below a full-size vehicle and is the quantitative form of the scale caution.
-
-**Why the thrust-drag margin closes with Mach number**, which the draft asserted. Heat release per unit
-mass of air is fixed while the kinetic energy of the captured flow grows as the square of speed, so the
-fractional velocity increment falls while drag holds constant on a constant dynamic pressure
-trajectory.
+**A 1953 report is the right citation for a 2004 flight.** The relations have not changed, and the
+report states them more carefully and more completely than any textbook does. Anderson and Heiser and
+Pratt are cited alongside it as the modern statements, not in place of it.
 
 ---
 
-## The Pass Introduced Two Defects and Both Were Caught
+## Three More Supplied the Specific Correlations
 
-**A display absorbed the following line**, which is the self-inflicted equation defect this series has
-shipped before and which a scan for displays that open with `$$` and do not close with it finds
-immediately.
+**Kantrowitz and Donaldson 1945** for inlet starting, which the article had been using by name without
+pointing at the paper that established it, and which has not been improved on as a first estimate.
 
-**The second was new to me and `_verify.py` caught it.** A literal pipe inside inline math at the start
-of a line makes kramdown render the whole paragraph as a table. The absolute value bars in the margin
-relation did exactly that. **Rewriting them with `\lvert` and `\rvert` removes the pipe character
-entirely** and renders identically, which is the right fix rather than reflowing the paragraph.
+**Sutton and Graves 1971** for stagnation heating, with **Fay and Riddell 1958** behind it as the
+dissociated-air analysis the correlation generalises. The article now says the constant carries the
+chemistry, so its heating figures are correlation estimates rather than solutions.
 
-**That check exists because the defect shipped before**, and this is the first time in my work on this
-series that it has fired.
+**The 1976 standard atmosphere**, which every flight-condition figure in this article depends on and
+which the draft used silently. **The dynamic pressure agreement of 955 against 957 rests on it**, so it
+was the least defensible omission in the draft.
+
+---
+
+## One Primary the Draft Had Missed
+
+**Ferlemann and others 2005 traces the Mach 7 flowpath from design through ground test to flight.**
+That is the loop the whole programme existed to close, and the draft's flight-results discussion did
+not cite it. It is now in the Flight 2 section and in the Source Base as one of the four sources that
+do most of the work.
+
+**The X-51A now has a citation too**, where the draft named it as the line of descent and pointed at
+nothing.
+
+---
+
+## Verification Took the Preceding Article's Lesson
+
+**All 15 additions were verified against resolved metadata rather than status codes.** Nine NASA
+records through the NTRS detail endpoint, three identifiers through Crossref checking title and
+authors, and **two Open Library keys whose titles and authors were both checked**.
+
+**That last one is deliberate.** A340's draft pass fabricated a designation URL by pattern and it did
+not resolve. Two book keys in this pass could have gone the same way, so both were resolved before use.
+
+**All 34 curated non-DOI URLs resolve**, checked individually.
 
 ---
 
 ## Counts and State
 
-**23,713 lines, 30 display equations, 11,344 reference definitions, 128,194 words**, of which
-**20,135 are author prose**, a dilution factor of 6.4.
+**23,768 lines, 30 display equations, 11,357 reference definitions, 128,591 words**, of which
+**20,307 are author prose**, a dilution factor of 6.3.
 
-**All 29 figures introduced by this pass were verified against the script that computed them**, as were
-the 31 from the draft pass.
+**37 curated sources, all primary or canonical**, being NASA technical papers, conference papers, one
+mishap investigation board report and two textbooks. **32 come from the NASA Technical Reports
+Server.**
 
-**`_verify.py` reports 0 errors and 0 warnings across 301 posts.** The 60 display delimiters balance,
-no display fails to close on its own line, no inline math carries a pipe, prose style scans clean on
-all five rules and there are zero caps-emphasis spans. Reference integrity is exact at 11,344 used and
-11,344 defined.
-
-**One figure in the verification script was wrong and was corrected before it reached the article.**
-The Rayleigh prose said 28 percent at Mach 2.5 where the computation gives 41, and the Mach 2.0 value
-is 26. The article uses the computed figures.
+**`_verify.py` reports 0 errors and 0 warnings across 301 posts.** Reference integrity is exact at
+11,357 used and 11,357 defined with nothing undefined and nothing orphaned. The 60 display delimiters
+balance, no display fails to close on its own line, prose style scans clean on all five rules and there
+are zero caps-emphasis spans.
 
 **Forty-four of seventy-two drafted, none published, publication never authorised.**
 
@@ -108,11 +97,12 @@ is 26. The article uses the computed figures.
 
 **I did not publish**, and I will not without an explicit instruction.
 
-**I did not add equations to the survey section.** It maps a field and cites it, names no results of
-its own, and so relies on no relations.
+**I did not add references to the survey section.** It cites 11,279 harvested records already and its
+job is coverage rather than authority. **The primary-reference standard is about what carries the
+argument**, and the argument lives in the curated set.
 
 ---
 
 ## Next
 
-**The primary-reference review of A340**, on your prompt. Nothing else is outstanding.
+**The publication review of A340**, on your prompt. That is the pass that pushes.
