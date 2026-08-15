@@ -11,20 +11,20 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `1cd62b4`
-- **Written**: 2026-08-13
+- **Parent commit** (the repository state this handoff describes): `3e823cc`
+- **Written**: 2026-08-14
 - **Tree at write**: clean, nothing unpushed
-- **Context**: the X-Planes series is IN PROGRESS. **Forty-two of seventy-two articles drafted, all
+- **Context**: the X-Planes series is IN PROGRESS. **Forty-four of seventy-two articles drafted, all
   four passes complete on each. None published, and none authorised.**
-- **Since the previous handoff, three articles were written**, being **A336 X-39**, **A337 Boeing
-  X-40** and **A338 X-41 Common Aero Vehicle**. All three are committed and pushed.
-- **Two article classes were used for the first time.** A336 is the first **designation anomaly** in
-  the reduced section order, and A338 is the first **documentation-poor** article. A297 named both
-  classes and neither had been exercised.
-- **The Keleusma line is published and now runs to five**, being A369 through **A373**, which was drafted,
-  taken through all four passes and a word-usage pass, and **published on 2026-08-13** at the editorial
-  date 2026-08-10. **Publishing it renumbered four live pages** from Part 1 to 4 of 4 to **of 5**, which
-  was flagged across three passes before it was done. **Next article number is A374.**
+- **Since the previous handoff, two articles were written**, being **A339 Orbital Sciences X-42** and
+  **A340 Micro-Craft X-43 Hyper-X**. Both are committed and pushed.
+- **A340 is the largest article in the series by every measure**, at 26,249 lines, 12,584 reference
+  definitions and 141,861 words. A339 is second at 21,099 lines. **Neither figure was targeted.**
+- **All three article classes are now demonstrated.** A336 is the designation anomaly in the reduced
+  order, A338 the documentation-poor article, and A339 chose the FULL order over the anomaly order
+  against its own roster title, because the genre test is whether a vehicle existed and produced data.
+- **The Keleusma line is published and runs to five**, being A369 through **A373**, published on
+  2026-08-13 at the editorial date 2026-08-10. **Next article number is A374.**
 - **One item is owed from another repository**, being A369's factor-of-roughly-thirty claim, which awaits
   the Keleusma decision register.
 
@@ -44,11 +44,10 @@ described.
 
 ---
 
-## Resume prompt, and the next prompt will be "Please draft A339, 'X-Planes: Orbital Sciences X-42.'"
+## Resume prompt, and the next prompt will be "Please draft A341, 'X-Planes: X-44, One Designation and Two Aircraft.'"
 
-**Nothing is outstanding.** A338 finished all four passes on the X-Planes mainline, and **A373 was
-drafted, passed and published off it**, so there is no half-finished work anywhere.
-**Wait for the pilot's prompt. Do not begin A339 unprompted.**
+**Nothing is outstanding.** A340 finished all four passes and is pushed, so there is no half-finished
+work anywhere. **Wait for the pilot's prompt. Do not begin A341 unprompted.**
 
 **THE PILOT MAY HAND YOU AN EXTERNAL DRAFT INSTEAD, AS HAPPENED WITH A372 AND A373.** The prompt is
 "copy `<path>` into the drafts, and use it as the basis for an article Axxx with a `<date>` editorial
@@ -56,23 +55,29 @@ publication date", and the goal is stated as brushing it up to standards and ret
 audience. **Those arrive already stamped with their article number, series and index**, and the work is
 conformance and retargeting rather than writing. **They still take all four passes afterwards.**
 
-**A339 IS PROBABLY ANOTHER DISPUTED CASE AND THE ROSTER TITLE MAY BE WRONG.** The roster calls it the
-Orbital Sciences X-42, and the anomaly list in this file records that **sources disagree about what the
-X-42 even was**, one calling it an expendable upper stage and another a spaceplane test vehicle, with no
-dedicated treatment existing anywhere. **Establish that from sources before writing a line**, and decide
-the article class from what the record actually supports rather than from the roster title.
+**A341 IS ANOTHER DISPUTED DESIGNATION AND THE ROSTER TITLE SAYS SO.** It is called "X-44, One
+Designation and Two Aircraft", and the anomaly list in this file records **two different aircraft**,
+being the Lockheed Martin MANTA and a separate unmanned programme. **Establish which is which from
+sources before writing a line**, and decide the class from what the record supports.
 
-**THE LAST TWO ARTICLES BOTH TURNED ON A DESIGNATION THAT MAY NOT BELONG TO ITS VEHICLE**, and A339 may
-be the third. A336 found a number reserved and never assigned. A338 found that **the X-41A designation
-was allocated in late 1997, years before the programme it is now attached to**, was never used again
-officially, and that the authoritative survey doubts it ever applied. **When the public record pairs a
-number with a vehicle, check the pairing rather than inheriting it.**
+**FOUR CONSECUTIVE ARTICLES HAVE NOW TURNED ON A DESIGNATION THAT MAY NOT BELONG TO ITS VEHICLE.**
+A336 found a number reserved and never assigned. A338 found X-41A allocated years before its programme.
+A339 found that the two sources disagreeing about the X-42 **were both right about different vehicles
+four years apart**, one official and never used again, one unofficial and actually used. A340 is the
+exception that proves it, since X-43 is undisputed and the article says so in one sentence and moves on.
+**When the public record pairs a number with a vehicle, check the pairing rather than inheriting it.**
 
-**THE THREE CLASSES ARE NOW ALL DEMONSTRATED AND THE CHOICE IS REAL.** A337 is a full-aircraft article
-at 64 equations and 4,735 references. A338 is documentation-poor, full section order with short sections
-and 30 equations, where **the statement of what is unknown carries the weight a specification table
-would otherwise carry**. A336 is a designation anomaly in the reduced order with no vehicle at all.
-**Pick from the record, not from habit, and say in the article which class it is and why.**
+**A339 SHOWS HOW TO HANDLE A DISPUTE THAT IS NOT ONE.** The roster said sources disagree. They did not
+disagree, they described different things, and **the article's job was to say so rather than to pick a
+side or to hedge**. Expect that shape again on A341, where two aircraft share one number.
+
+**THE THREE CLASSES ARE ALL DEMONSTRATED AND THE CHOICE IS REAL.** A337 and A339 are full-aircraft
+articles. A338 is documentation-poor, full section order with short sections, where **the statement of
+what is unknown carries the weight a specification table would otherwise carry**. A336 is a designation
+anomaly in the reduced order with no vehicle at all. **A339 chose the full order against its own roster
+title**, because the genre test is whether a vehicle existed and produced data rather than whether the
+designation is disputed. **Pick from the record, not from habit, and say in the article which class it
+is and why.**
 
 **A338 SHOWS WHAT A DOCUMENTATION-POOR ARTICLE CAN STILL DO.** No specifications were ever released, so
 it derived the vehicle from its mission. A published range plus the equilibrium glide relation fixed the
@@ -92,18 +97,27 @@ measurements were independently reproduced here, the LLVM 22 toolchain being abs
 Seventy-two articles, A297 through A368, back-dated one per day from 2025-10-06 to 2025-12-16,
 covering every X-designation from X-1 through X-76.
 
-**Forty-two complete**, A297 through A338, all four passes each, all in `_drafts/`, **none
+**Forty-four complete**, A297 through A340, all four passes each, all in `_drafts/`, **none
 published**.
 
 | Article | Aircraft | Class | Final state |
 |---|---|---|---|
-| A332 | Lockheed Martin X-35 | full | 27,560 lines, 71 eq, 8,710 refs |
-| A333 | McDonnell Douglas X-36 | full | 20,991 lines, 28 eq, 6,696 refs |
 | A334 | Boeing X-37 | full | 18,700 lines, 42 eq, 5,762 refs |
 | A335 | Scaled Composites X-38 | full | 6,733 lines, 24 eq, 1,936 refs |
 | A336 | X-39, reserved but never assigned | **anomaly** | 5,919 lines, 8 eq, 2,523 refs |
 | A337 | Boeing X-40 | full | 10,681 lines, 64 eq, 4,735 refs |
 | A338 | X-41 Common Aero Vehicle | **documentation-poor** | 10,179 lines, 30 eq, 4,654 refs |
+| A339 | Orbital Sciences X-42 | full | 21,099 lines, 57 eq, 9,831 refs |
+| A340 | Micro-Craft X-43 Hyper-X | full | 26,249 lines, 30 eq, 12,584 refs |
+
+**A340 IS THE LARGEST ARTICLE IN THE SERIES AND A339 IS SECOND, AND NEITHER WAS TARGETED.** The X-43A
+has a complete public record including a candid mishap board report, and a very large adjacent
+literature. The X-42 had a small primary record and an enormous adjacent one. **Two different reasons
+for the same outcome**, and both are the directive working.
+
+**A340 HAS 30 EQUATIONS AGAINST A339's 57 WHILE BEING A QUARTER LONGER.** The equation count follows
+the subject and not the length, which this pair demonstrates more cleanly than any other in the series.
+**Report the counts and do not target them.**
 
 **THE SPREAD BETWEEN 32,379 LINES AND 5,919 IS THE DIRECTIVE WORKING, NOT AN INCONSISTENCY.** A336 is
 an eighth the size of A335 because a number that was never assigned has an eighth of the record. **Report
@@ -1167,6 +1181,125 @@ exercised until that date arrives. **Audit every `post_url` target after any re-
 
 ---
 
+### On gates, earned in A339 and A340, and the most reusable thing in this file
+
+**A CONJUNCTION WHOSE TWO HALVES CAN BE SATISFIED BY THE SAME WORD IS NOT A CONJUNCTION.** Writing
+`q("booster", AERO)` where `AERO` itself contains `booster` admits anything containing the word once.
+A339 found five instances of this. Three were caught by reading audit samples, one by an empirical
+probe, and **the fifth only by asserting the property**.
+
+**SO ASSERT THE PROPERTY. Do not hunt instances.** The gate now carries a test that, for every
+conjunction, checks that no alternative in one half matches inside another half. **A339 wrote it after
+finding four by hand. A340 inherited it and it failed on the first run**, catching `shock`, `combustor`
+and `nozzle` before the gate ever touched the corpus. **That is the first time in this series a defect
+of that class was caught before it reached a sample**, and it is the strongest argument in this file
+for turning a lesson into a test rather than a comment.
+
+**HYPHENS. A PATTERN WRITTEN WITH A SPACE DOES NOT MATCH THE HYPHENATED FORM.** A339 dropped
+filament-wound vessel work because the pattern demanded `filament wound`. A340 dropped high-enthalpy,
+wind-tunnel and flight-test work for the same reason, and **correcting it recovered 367 records and
+more than doubled one cluster**. Write every multi-word term as `foo[- ]bar` from the start.
+
+**THE AUDIT AND THE TESTS COVER DIFFERENT FAILURES AND NEITHER COVERS THE THIRD ONE.** The tests catch
+malformed patterns. The two-sided sample catches a gate that is too permissive or too narrow. **Neither
+can catch a gate whose QUESTIONS were too narrow**, because both only examine what the queries returned.
+
+**A340 FOUND THAT THIRD FAILURE AND IT IS THE ONE TO WATCH FOR.** The article's most transferable
+finding was about margins and uncertainty, and the survey covered that subject with 235 records out of
+11,279, because every harvest query had been about hypersonic propulsion. **A survey that under-covers
+the subject of its own article's conclusion is not comprehensive.** A supplementary harvest raised the
+pool by thirty percent and that coverage from 235 to 908.
+
+**THE TEST TO APPLY, AND APPLY IT AT THE DRAFT PASS RATHER THAN THE PUBLICATION REVIEW.** Write the
+article's conclusion in one sentence. Ask which literature that sentence belongs to. **If the harvest
+queries do not name that literature, the survey will not cover it**, however good the gate is.
+
+**CROSS-DISCIPLINARY METHODOLOGY VOCABULARY MUST NEVER ADMIT ALONE.** A340's supplementary harvest
+admitted `uncertainty quantification` and got laser powder bed fusion, `epistemic uncertainty` and got
+seismic shear-wave profiles, `six degree of freedom` and got a robotic arm. **Uncertainty, validation,
+sensitivity and margin belong to every field that computes.**
+
+**AND CHECK THE ANCHORS YOU THINK ARE SAFE.** A340 admitted `waverider` bare, because a waverider is an
+unambiguous hypersonic configuration. **Waverider is also the make of an oceanographic wave-measuring
+buoy**, and the gate collected one deployed during a 1980 field experiment.
+
+---
+
+### On claims about your own corpus, earned in A339 and A340
+
+**THE COUNT-IN-OWN-PROSE DEFECT HAS NOW SHIPPED SEVEN TIMES AND SAMPLING WILL NOT STOP IT.** A339's
+first survey draft called two different clusters the smallest, called the keystone cluster the smallest
+when it ranked eighth of sixteen, and named as largest a cluster the residual exceeded twofold.
+
+**SO ASSERT THE ORDERING CLAIMS AGAINST THE COMPUTED COUNTS AT BUILD TIME.** Both articles now do, and
+**A340's guard caught its own author overstating a ratio as an order of magnitude when it was a factor
+of 7.9**. The assembly script refuses to write the draft if any claim fails.
+
+**A DERIVED FIGURE MUST BE COUNTED FROM THE ARTEFACT.** While writing this handoff's predecessor I put
+12,547 harvested records into the reverse prompt from memory. **The counted figure was 12,504**, and it
+reconciles only against the article's own table plus the curated and series anchors.
+
+**AND IT HAPPENED AGAIN WHILE WRITING THIS FILE.** The series table above first recorded A339 at 21,067
+lines, which was its length after the primary-reference pass rather than after the publication review.
+**Measuring the file gave 21,099.** A count taken from a previous report is not a count. **Measure the
+artefact at the moment you write the number**, including in this handoff.
+
+**AND CHECK THAT A CLAIM ABOUT THE ARTICLE IS TRUE OF THE ARTICLE.** A339's reverse prompt stated that
+two weakly sourced dates were flagged in the Epistemic State. **They were not.** The fix was to make the
+article match the claim rather than to soften the claim.
+
+---
+
+### On citations and identifiers, earned in A339 and A340
+
+**A STATUS CODE IS NOT A CITATION CHECK AND A 403 IS NOT A DEAD LINK.** A339 sampled 40 harvested
+identifiers and 25 returned 403, of which **all 25 were registered works**, nineteen of them AIAA.
+**Where a DOI is the identifier, query the registry.** The landing page answers only whether the
+publisher feels like talking to curl. `URL_VERIFICATION.md` now records this and lists the publisher
+hosts.
+
+**DO NOT CONSTRUCT AN IDENTIFIER BY PATTERN.** A340's draft pass built a designation-reference URL from
+the shape of the two preceding articles' URLs. **It does not resolve.** It was removed rather than
+replaced with another guess, and the gap is recorded in the article. This is the A373 trap in a new
+costume, and the only reason it did not ship is that curated URLs are checked individually.
+
+**VERIFY BOOK KEYS THE SAME WAY.** Both articles resolved every Open Library key and checked the title
+and authors, because A373 proved that a guessed key returns a healthy response for the wrong book.
+
+---
+
+### On the NASA design-criteria monographs, earned in A339 and A340
+
+**WHEN AN ARTICLE DERIVES SOMETHING, CITE THE DOCUMENT THE ENGINEERS DERIVED IT FROM.** Both articles
+displayed dozens of relations and cited nothing for any of them until the primary-reference pass.
+
+**THE SP-8000 SERIES IS THE RIGHT ANSWER FOR AMERICAN LIQUID PROPULSION AND STRUCTURES.** A339 cites
+eight, covering self-cooled chambers, pressurisation, injectors, nozzles, metal tanks, regulators,
+flexible lines and slosh loads. **They are primary, contemporary with the practice, and they state the
+design problem in the terms the programme's own engineers used.**
+
+**NACA REPORT 1135 IS THE RIGHT ANSWER FOR COMPRESSIBLE FLOW.** A340 uses it for the isentropic
+relations, the oblique shock relations and Rayleigh flow. **A 1953 report is the correct citation for a
+2004 flight**, because the relations have not changed and it states them better than any textbook.
+Kantrowitz and Donaldson 1945, Sutton and Graves 1971, Fay and Riddell 1958 and the 1976 standard
+atmosphere are the other four to reach for.
+
+**THE STANDARD ATMOSPHERE IS THE ONE PEOPLE FORGET.** Every flight-condition figure in A340 depends on
+it and the draft used it silently.
+
+---
+
+### On markdown hazards, earned in A340
+
+**A LITERAL PIPE INSIDE INLINE MATH AT THE START OF A LINE MAKES KRAMDOWN RENDER THE PARAGRAPH AS A
+TABLE.** Absolute value bars do this. **Write `\lvert` and `\rvert`**, which render identically and
+carry no pipe. `_verify.py` catches it as a warning and this was the first time it fired.
+
+**AN INSERTED DISPLAY THAT ABSORBS THE FOLLOWING PROSE ONTO ITS OWN SOURCE LINE HAS NOW HAPPENED IN
+FOUR ARTICLES.** After every equation pass, scan for lines that open with `$$` and do not close with it.
+
+---
+
 ## Verification Toolchain
 
 **THE SHARED MECHANISM IS COMMITTED AND MUST NOT BE REBUILT.** `_lib/` holds it, with `README.md`
@@ -1252,6 +1385,42 @@ tests the helix-angle cancellation as a **randomised property**.
 ---
 
 ## Open Decisions
+
+**THE DEPLOY GATE NOW TAKES ABOUT THREE HOURS AND THIS IS THE ONE THING THAT NEEDS A DECISION.**
+
+**The numbers.** `./_check.sh --drafts` took roughly thirty-five minutes before A339. A339's passes took
+about ninety minutes each. A340's publication review took **over three hours**. Between A340's
+primary-reference pass and its publication review the article grew about eleven percent and the gate
+time rose about fifty percent, so **the scaling is superlinear in link-definition count**, not in
+article count.
+
+**The cause.** The corpus now carries two drafts above 20,000 lines with more than 22,000 link
+definitions between them, and kramdown's link resolution does not scale linearly. Every gate has passed
+and nothing is broken.
+
+**Why it matters.** Twenty-eight X-Planes articles remain, at four passes each. **At three hours a pass
+that is over three hundred hours of build time still to spend**, and it grows with every article added.
+
+**The options, for the pilot rather than for the agent.**
+
+1. **Keep the full gate on every pass.** Safest and slowest. This is the current practice and the agent
+   will continue it absent instruction.
+2. **Run `_verify.py` plus the static checks between passes and reserve the full build for the
+   publication review.** The static checks are fast and cover reference integrity, prose style, math
+   delimiters and the corpus invariants. **What they cannot do is see what a reader sees**, which is
+   `render.py`'s job and requires a build.
+3. **Build without `--drafts` between passes.** This exercises the deploy path the workflow actually
+   uses and skips the two enormous drafts, but then the article under work is never rendered until the
+   publication review.
+
+**The agent's view, offered because it was asked for.** Option 2 is the reasonable trade, because the
+defects the full build catches are rendering defects, and every rendering defect found so far in this
+series was found either by `_verify.py` as a warning or by the static scans. **But that is an argument
+from a small sample and the pilot should decide.**
+
+**Until told otherwise, run the full gate on every pass.**
+
+---
 
 **Categories, SETTLED and not to be revisited.** `aerospace history engineering`.
 
@@ -1475,8 +1644,8 @@ reproduced here so it survives a clean checkout.
 Short articles by design, and the evidence for the closing article. The designation system is not a
 counter.
 
-**X-23, X-27, X-39 and X-41 ARE NOW WRITTEN, and X-30 is written although it is not one of the nine.
-X-42 IS NEXT and the rest remain ahead.**
+**X-23, X-27, X-39, X-41 AND X-42 ARE NOW WRITTEN, and X-30 is written although it is not one of the
+nine. X-44 IS NEXT and the rest remain ahead.**
 
 **THE THREE CLASSES ARE NOW ALL DEMONSTRATED ON ANOMALY CASES.** X-23 and X-27 went to full length
 because each had a keystone to dimension. **X-39 took the reduced order** because no vehicle existed at
@@ -1503,11 +1672,18 @@ the article should say which class it is and why.**
   1997 or early 1998, **years before the programme**, was never used again officially, and the
   authoritative survey **doubts it ever applied to this vehicle at all**. The article uses the pairing
   because the public record does and says plainly that it may be wrong.
-- **X-42**, sources disagree, one calling it an expendable upper stage and another a spaceplane test
-  vehicle. No dedicated treatment exists anywhere. **This is A339 and it is next.** Establish what the
-  designation actually denotes before choosing a class, and expect the pairing to be in doubt, since
-  that has now been the finding on two consecutive articles.
+- **X-42**, sources disagreed, one calling it an expendable upper stage and another a spaceplane test
+  vehicle. **Written at full length in A339, and the disagreement was not one.** Both sources were
+  right about different vehicles four years apart. X-42A was allocated in late 1997 or early 1998 to
+  the Upper Stage Flight Experiment, a pressure-fed peroxide and JP-8 stage, and never used officially
+  again. In 2002 the laboratory and industry applied X-42 informally to a winged reusable booster from
+  the same contractor. **The authoritative survey ties the number to neither and the article follows
+  it.** The full order was chosen against the roster's implication, because engine and tank hardware
+  existed and produced data.
 - **X-44**, two different aircraft, the Lockheed Martin MANTA and a separate unmanned programme.
+  **This is A341 and it is next.** Establish which designation belongs to which aircraft before writing,
+  and expect the A339 shape rather than a genuine conflict, since a number used twice is not a number
+  in dispute.
 - **X-52**, requested 2006, refused over possible confusion with the B-52. The programme became X-53.
 - **X-58**, skipped, with the slot consumed by the Kratos XQ-58 Valkyrie.
 - **X-67**, skipped, with the slot consumed by the General Atomics XQ-67A.
