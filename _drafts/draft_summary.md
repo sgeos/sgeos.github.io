@@ -22,9 +22,32 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_micro_craft_x43_hyper_x.markdown`, A340, editorial date 2025-11-18, series `x_planes`
 index 44 of 72.
 
-**23,768 lines, 30 display equations, 11,357 reference definitions, 128,591 words after the
-primary-reference pass**, of which 20,307 are author prose, a dilution factor of 6.3. Committed.
-**Not pushed**, since only the publication review pushes.
+**26,249 lines, 30 display equations, 12,584 reference definitions, 141,861 words after the
+publication review**, of which 21,884 are author prose, a dilution factor of 6.5. **All four passes
+complete.** Committed and **PUSHED**.
+
+**THE PUBLICATION REVIEW FOUND A COMPREHENSIVENESS GAP IN THE QUESTIONS RATHER THAN IN THE GATE.**
+This article's most transferable finding concerns margins and uncertainty, and the first harvest
+reached that literature only where it sat beside a scramjet query, leaving it at **235 records**. A
+supplementary harvest of eighteen queries raised the pool from 21,376 to **27,748** and margin and
+control coverage to **908 records across two clusters**, one of them new. **A survey that under-covers
+the subject of its own article's conclusion is not comprehensive.**
+
+**THAT HARVEST IMMEDIATELY PROVED THE GATE'S OWN LESSON AGAIN.** The new vocabulary was admitted bare
+at first, and the audit caught `uncertainty quantification` admitting laser powder bed fusion,
+`epistemic uncertainty` admitting seismic shear-wave profiles, and `six degree of freedom` admitting a
+robotic arm. **Uncertainty methodology belongs to every field that computes.** The same audit found
+that **`waverider` is also a make of oceanographic wave-measuring buoy**, one of which was deployed
+during a 1980 field experiment and admitted by the gate.
+
+**A FORMULAIC FRAME WAS VARIED AND A WORD DELIBERATELY LEFT ALONE.** "At the Mach N condition" appeared
+14 times and now appears 4, across a rotation of Mach, flight number and altitude. **`flight` at
+10.9 per thousand against a peer maximum of 5.4 was left**, because its collocations are all legitimate
+compounds in an article about three flights of a flight research vehicle. `margin` and `uncertainty`
+are similarly above every peer and are the article's literal thesis.
+
+**NACA WAS EXPANDED ON FIRST USE**, which also let the article note that the body preceding NASA wrote
+the report its derivations rest on.
 
 **THE PRIMARY-REFERENCE PASS ADDED 15 SOURCES, TAKING THE CURATED SET FROM 22 TO 37.** The audit found
 **48 of 63 substantial paragraphs uncited**, and the derivation sections were the worst offenders,
