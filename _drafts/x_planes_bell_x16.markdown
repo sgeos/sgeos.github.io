@@ -53,7 +53,7 @@ This is the first designation in the series where the number describes the class
 
 ### What the Programme Was Competing Against
 
-The X-16 was not only competing with two other aeroplanes. It was competing with balloons. Unmanned high-altitude photographic balloons were a serious and contemporaneously funded alternative, and the research is in the archive where the aeroplane is not, as in [BARTHOLOMEW 1954][research_bartholomew_1954]. It was also competing with a family of much more ambitious reconnaissance weapon system studies that were running at the same time and that did leave documents, including the MX-2276 system described in [Bell Aerospace Co Buffalo Ny 1955][research_ny_1955] and [NY 1955, MX-2276 RECONNAISSANCE AIRCRAFT WE][research_ny_1955_2], the Brass Bell study in [Bell Aerospace Co Buffalo Ny 1957][research_ny_1957], and the Weapon System 118P characteristics in [North American Aviation Inc Los Angeles Ca 1956][research_ca_1956]. A contemporaneous high altitude and high speed study is recorded in [MORRIS 1954][research_morris_1954].
+The X-16 was not only competing with two other aeroplanes. It was competing with balloons. Unmanned high-altitude photographic balloons were a serious and contemporaneously funded alternative, and the research is in the archive where the aeroplane is not, as in [BARTHOLOMEW 1954][research_bartholomew_1954]. It was also competing with a family of much more ambitious reconnaissance weapon system studies that were running at the same time and that did leave documents, including the MX-2276 system described in [Bell Aerospace Co Buffalo Ny 1955][research_ny_1955] and [NY 1955, MX-2276 Reconnaissance Aircraft We][research_ny_1955_2], the Brass Bell study in [Bell Aerospace Co Buffalo Ny 1957][research_ny_1957], and the Weapon System 118P characteristics in [North American Aviation Inc Los Angeles Ca 1956][research_ca_1956]. A contemporaneous high altitude and high speed study is recorded in [MORRIS 1954][research_morris_1954].
 
 That context matters for judging the cancellation. The X-16 was not cancelled because reconnaissance from altitude was abandoned. It was cancelled because the same requirement had four other suitors.
 
@@ -1098,7 +1098,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Nordby and Crisman 1964][research_nordby_crisman_1964]
 - [Nrangwesti et al 2025][research_nrangwesti_2025]
 - [Bell Aerospace Co Buffalo Ny 1955][research_ny_1955]
-- [NY 1955, MX-2276 RECONNAISSANCE AIRCRAFT WE][research_ny_1955_2]
+- [NY 1955, MX-2276 Reconnaissance Aircraft We][research_ny_1955_2]
 - [Bell Aerospace Co Buffalo Ny 1957][research_ny_1957]
 - [OKRESS and SOBERMAN 1981][research_okress_soberman_1981]
 - [Onkar et al 2025][research_onkar_2025]

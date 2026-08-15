@@ -11,13 +11,19 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `3e823cc`
+- **Parent commit** (the repository state this handoff describes): `edae64a`
 - **Written**: 2026-08-14
 - **Tree at write**: clean, nothing unpushed
 - **Context**: the X-Planes series is IN PROGRESS. **Forty-four of seventy-two articles drafted, all
   four passes complete on each. None published, and none authorised.**
 - **Since the previous handoff, two articles were written**, being **A339 Orbital Sciences X-42** and
   **A340 Micro-Craft X-43 Hyper-X**. Both are committed and pushed.
+- **A series-wide audit and back-sweep then ran and is complete.** It changed no argument, no reference
+  and no count. It verified every sequence property by measurement, fixed nine caps-emphasis spans and
+  normalised 3,564 citation titles out of all capitals. **It also caught its own first instrument being
+  wrong about A336**, which is written up under `### On gates` and in `VERIFICATION_TRAPS.md`.
+- **Rare gate escapes survive in the earlier articles and were deliberately NOT stripped**, because
+  every survey states its own counts in prose. **A re-harvest at the gate is an open unit of work.**
 - **A340 is the largest article in the series by every measure**, at 26,249 lines, 12,584 reference
   definitions and 141,861 words. A339 is second at 21,099 lines. **Neither figure was targeted.**
 - **All three article classes are now demonstrated.** A336 is the designation anomaly in the reduced
@@ -1222,6 +1228,21 @@ sensitivity and margin belong to every field that computes.**
 **AND CHECK THE ANCHORS YOU THINK ARE SAFE.** A340 admitted `waverider` bare, because a waverider is an
 unambiguous hypersonic configuration. **Waverider is also the make of an oceanographic wave-measuring
 buoy**, and the gate collected one deployed during a 1980 field experiment.
+
+**A FOURTH FAILURE, FOUND BY THE 2026-08-14 SWEEP: THE PROBE THAT LOOKS FOR ESCAPES ASSUMES A DOMAIN.**
+A series-wide probe flagged 78 off-domain citations, **thirty of them in A336**, which read as the worst
+gate escape in the series. **It is not one.** A336's survey states in prose that its subject is not an
+aircraft but what a gap in an official register means, and declares eight clusters across archival
+silence, classification infrastructure and identifier administration. **The probe had assumed that every
+article in an aerospace series is about aerospace.** Before calling a survey off topic, read what the
+article says its topic is.
+
+**THE FIX FOR ONE ARTICLE DOES NOT REACH THE ONES ALREADY WRITTEN.** A330 still carries an Indonesian
+COVID booster-acceptance study, admitted by the bare `booster` that A339 diagnosed and corrected.
+**Every gate lesson in this series was learned incrementally and nothing re-applies a later lesson to an
+earlier article**, so each publication review was correct against the standard that existed when it ran.
+**The repair is a re-harvest at the gate, not an edit to the artefact**, because every survey states its
+own counts in prose and removing records desynchronises them.
 
 ---
 

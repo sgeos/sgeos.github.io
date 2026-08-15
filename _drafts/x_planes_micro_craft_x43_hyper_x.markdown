@@ -869,7 +869,7 @@ hyphenated forms were dropped, and correcting it recovered 367 records and more 
 test facilities cluster.
 
 **The publication review then found a gap that neither test nor audit could see, because it was a gap
-in the QUESTIONS rather than in the gate.** This article's most transferable finding concerns margins
+in the questions rather than in the gate.** This article's most transferable finding concerns margins
 and uncertainty, and the first harvest reached that literature only where it happened to sit beside a
 scramjet query, leaving it at 235 records. **A survey that under-covers the subject of its own
 article's conclusion is not comprehensive.** A supplementary harvest of eighteen queries on stability

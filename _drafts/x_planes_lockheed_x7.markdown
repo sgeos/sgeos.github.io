@@ -925,7 +925,7 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 - [Lundstrom et al 1948 Transonic-flutter Investigation of Wings Attached to Two Low-acceleration Rocket-propelled Vehicles][research_lundstrom_1948]
 - [Ma et al 2026 Multi-Objective and Multi-Point Adjoint Optimization of a Diverterless Inlet][research_ma_2026]
 - [MacLeod 2026 The Prospects for Microwave Actuated Airbreathing Hypersonic Spaceplanes][research_macleod_2026]
-- [Mada and Gutierrez 2026 SYSTEMIC FACTORS OF THE AEROSPACE ENGINEER LEARNING CURVE][research_mada_2026]
+- [Mada and Gutierrez 2026 Systemic Factors of the Aerospace Engineer Learning Curve][research_mada_2026]
 - [Martinez Schramm and Hannemann 2026 Experiments and Simulations of Supersonic Combustion in a Small-Scale Facility][research_martinez_2026]
 - [Maslen 1948 Method for calculation of pressure distributions on thin conical bodies of arbitrary cross section in supersonic stream][research_maslen_1948]
 - [McDonald 2026 Optimization of solid fuel ramjet fuel particulate loading fraction based on measured combustion efficiency data][research_mcdonald_2026]

@@ -174,6 +174,59 @@ about the question before it is a claim about the field.**
 
 ---
 
+## A probe assumes a domain, and the article may not share it
+
+**What happened, 2026-08-14.** A series-wide sweep probed all forty-four X-Planes drafts for harvested
+citations that had escaped the gate, using a list of medical, agricultural and social terms. It returned
+78 hits across twelve articles and **thirty of them, the largest single block, were in A336**, whose
+survey holds archival science, records appraisal, colonial archives and persistent identifier practice.
+The obvious reading was that A336 had the worst gate escape in the series.
+
+**The reading was wrong and the article says so in its own prose.** A336 is the X-39, a designation
+reserved and never assigned, and its survey section states plainly that **"this article's subject is not
+an aircraft. It is what a gap in an official register means"**, then declares eight clusters spanning
+archival silence, classification infrastructure and identifier administration. The records are on topic.
+**The probe had assumed every article in an aerospace series is about aerospace.**
+
+**The same sweep over-corrected in the other direction.** A second instrument judged each citation
+against the modal vocabulary of the cluster it was actually filed under, which needs no domain
+assumption at all. It flagged 5,122 of 67,806, or 7.55 percent. Sampling twenty showed most were
+correct and flagged only because the link text is truncated, with **`Wind Tunnel Verification of a
+Translating Cowl-Lip Method` flagged under a cluster on inlet starting.** A 15 percent precision
+instrument produces a defect count that is mostly not defects.
+
+**The check.** Before judging a survey off topic, read what the article says its topic is. Then sample
+the instrument in both directions, as `gate.audit` already requires, and quote the precision before
+quoting the count. **A flag rate is a claim about the instrument until a sample says otherwise.**
+
+**The habit.** State the article's subject in one sentence, and ask which literature belongs to that
+sentence rather than to the series.
+
+---
+
+## A check with high precision and low recall gives false confidence
+
+**What happened, 2026-08-14.** Nine caps-emphasis spans were found by hand across the series, so the
+lesson was turned into a check for `_verify.py`. The first version flagged any capitalised token whose
+lowercase form led a normal life in the same post: **80 hits across 20 files, of which roughly 85 percent
+were legitimate**, including `AT&T`, `ION-DTN`, `AGENTS.md`, `BE-4` and the `AND` and `OR` of logic
+gates. Narrowing it to capitals inside a bold span, which is emphasis inside emphasis and never correct,
+gave **1 hit corpus-wide and it was real**. That version was nearly committed.
+
+**It would have caught one of the nine defects that motivated it.** Precision was excellent and recall
+was 11 percent. A check that green-lights a corpus while missing eight of nine instances is worse than
+no check, because it stops the manual search that was working.
+
+**A hypothesis about the cause was also wrong, and measuring it took two minutes.** The low recall was
+attributed to `prose_text` stripping only single-line `[text][anchor]` pairs while citation text wraps.
+Comparing it against a multiline strip across the series showed **0.0 percent inflation on every
+article, including the 26,249-line A340**. The helper is correct and the hypothesis was not.
+
+**The check.** Measure recall against the known defects before shipping a checker, not just precision
+against the corpus. **Both numbers, or neither.**
+
+---
+
 ## A summary that lists only exceptions cannot distinguish clean from unexamined
 
 **What happened.** A corpus citation run reported findings per article and listed only articles that

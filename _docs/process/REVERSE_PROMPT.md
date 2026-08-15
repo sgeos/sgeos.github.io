@@ -1,133 +1,134 @@
 ## Last Updated
 
 **Date**: 2026-08-14
-**Task**: **A340, "X-Planes: Micro-Craft X-43 Hyper-X", publication review complete.** All four passes
-done. Committed and **PUSHED**. **Not published**, and publication of this series has never been
-authorised.
+**Task**: **Series-wide audit and back-sweep of the forty-four X-Planes drafts.** Not an article pass.
+No article was written and nothing was published. **A341 was not started.**
 
 ---
 
-## The Comprehensiveness Gap Was in the Questions, Not in the Gate
+## The Series Is Structurally Sound and I Checked Rather Than Assumed
 
-**This article's most transferable finding is not about scramjets.** It is that a stability margin with
-an uncertainty larger than itself is indistinguishable from a negative one, and that no single-factor
-analysis can see it.
+**Every sequence property holds exactly.** Series index runs 1 to 44 with no gaps or duplicates,
+article numbers A297 to A340 likewise, editorial dates 2025-10-06 to 2025-11-18 unbroken, and the
+three agree on an exact arithmetic mapping, index `i` to `A(296+i)` to `2025-10-05` plus `i` days.
+Front matter is identical across all forty-four on series, series title, categories and mathjax.
 
-**The survey covered that subject with 235 records out of 11,279.** The first harvest reached the
-margin and uncertainty literature only where it happened to sit beside a scramjet query, because every
-query I wrote was about hypersonic propulsion. **The gate was working correctly and the questions were
-too narrow**, which is a failure mode neither the self-satisfaction test nor the two-sided audit can
-detect, since both only examine what the queries returned.
+**No draft cites a sibling forward or itself**, every `post_url` target resolves to a post or a draft,
+and there are **zero dangling targets**. The roster still ends flush against the published 2025-12-17
+Solana article with no date collision. **43 of 44 still cite a sibling absent from `_posts/`**, so the
+publish-together constraint is intact.
 
-**A supplementary harvest of eighteen queries** on stability margins, uncertainty quantification, model
-validation and mishap analysis **raised the pool from 21,376 to 27,748** and margin and control
-coverage **from 235 records to 908 across two clusters**, one of them new. **A survey that
-under-covers the subject of its own article's conclusion is not comprehensive**, and that is the test
-I should have applied before the draft pass rather than at the publication review.
+**`_verify.py` reports 0 errors and 0 warnings across 301 posts.** Zero em or en dashes. **Zero true
+contractions**, where an initial crude count of 1,962 was possessives, which are legitimate.
 
 ---
 
-## The New Harvest Immediately Proved the Gate's Own Lesson Again
+## Two Findings, and the Larger One Was My Own Error
 
-**I admitted the new vocabulary bare and the audit caught it within one run.** `uncertainty
-quantification` admitted laser powder bed fusion. `epistemic uncertainty` admitted seismic shear-wave
-velocity profiles. `six degree of freedom` admitted a robotic arm.
+**Nine caps-emphasis spans were real and are fixed**, in A316, A327, A332 and A340. Two carried genuine
+emphasis and became bold, the rest were capitalisation that had leaked out of a harvested source title
+into author prose. `ARE`, `START` and `AN/ARW` were correctly left alone as genuine acronyms.
 
-**Uncertainty methodology belongs to every field that computes**, which makes it exactly as
-cross-disciplinary as hydrogen peroxide was in A339 and exactly as unsuitable for bare admission. All
-of those terms are now conjunctions against aerospace context.
+**The gate-escape finding was largely my instrument, not the corpus.** A probe of medical and
+agricultural terms returned 78 hits across twelve articles, thirty of them in A336, which looked like
+the worst escape in the series. **A336's survey is deliberate and the article says so**, declaring that
+its subject is not an aircraft but what a gap in an official register means, across eight named clusters
+spanning archival silence, classification infrastructure and identifier administration. My probe had
+assumed every article in an aerospace series is about aerospace. **A335's long-COVID orthostatic
+intolerance cluster is likewise correct**, since the X-38 returns deconditioned crew to one gravity.
 
-**The same audit found a homonym I would never have predicted.** **Waverider is also the make of an
-oceanographic wave-measuring buoy**, and the gate admitted one deployed during a field experiment in
-1980. It was a bare admit because a waverider is an unambiguous hypersonic configuration, and it is not.
-
----
-
-## One Frame Varied, Three Words Deliberately Left
-
-**"At the Mach N condition" appeared 14 times and now appears 4**, varied across a rotation of Mach
-number, flight number and altitude rather than replaced by a single substitute. My first attempt
-replaced them all with "on the second flight" and pushed `flight` from 10.79 to 11.31 per thousand,
-which traded one tic for another, so I rebalanced.
-
-**`flight` at 10.9 per thousand against a peer maximum of 5.4 was left alone.** Its collocations are
-flight conditions, flight test, flight control, flight data, first flight, free flight and powered
-flight, which are all legitimate compounds in an article about three flights of a flight research
-vehicle.
-
-**`margin` at 3.2 and `uncertainty` at 2.3 are similarly above every peer and are the article's literal
-thesis.** Manufacturing variation there would obscure meaning to satisfy an instrument.
-
-**NACA was expanded on first use**, which also let the article note that the body preceding NASA wrote
-the 1953 report its derivations rest on.
+**Genuine escapes do exist and are rare.** `Effectiveness of Birth Control` in A323, `Divergence
+Paralysis with Increased Intracranial Pressure` in A326, `Agricultural Data Source Selection for Crop
+Yield` in A329, an Indonesian COVID booster-acceptance study in A330, and `Insurance. Liability
+Insurance.` under A328's general control literature. **The A330 case is the exact `booster` defect A339
+diagnosed and fixed**, which went forward into A339 and A340 and was never swept backward.
 
 ---
 
-## Verification
+## I Did Not Strip Them, and the Reason Is the Count-in-Own-Prose Hazard
 
-**All 44 worked figures were re-derived by a script that does not import the one that produced them**,
-with inputs re-typed from the primary sources. All pass.
+**Every survey states its own counts in prose**, in several phrasings, including 26 per-cluster
+"the harvest returned N records here" statements across four articles and pool totals elsewhere.
+**Removing citations desynchronises every one of them**, which is the defect class that has already
+shipped nine times in this series.
 
-**All 34 curated non-DOI URLs resolve.** A 30-record sample of harvested DOIs returned 15 HTTP failures
-and **all 15 are registered works in Crossref**, which is the pattern A339 documented and the reason
-the catalogue now says the registry is the instrument and the landing page is not.
-
-**Structural conformance holds**, with the twelve-section genre order present and in order and the
-three series sections in place.
-
-**Prose style scans clean on all five rules with zero caps-emphasis spans.** The 60 display delimiters
-balance, no display fails to close on its own line, no inline math carries a pipe, and reference
-integrity is exact at 12,584 used and 12,584 defined. `_verify.py` reports 0 errors and 0 warnings
-across 301 posts and `./_check.sh --drafts` passes with the rendered audit clean.
+**Against that cost, the benefit is small.** The escapes are a fraction of a percent of 245,285
+citations, and every survey states explicitly that the records are an unread map of the surrounding
+literature rather than evidence for any claim. **The correct repair is at the gate and not in the
+artefact**, meaning corrected vocabulary and a re-harvest, which is a rebuild rather than an edit.
+**I recommend that as its own unit of work and did not undertake it unasked.**
 
 ---
 
-## Counts and State
+## What I Did Change
 
-**26,249 lines, 30 display equations, 12,584 reference definitions, 141,861 words**, of which
-**21,884 are author prose**, a dilution factor of 6.5.
+**3,564 citation titles normalised out of all capitals**, across 26 articles, from the DTIC and NTRS
+records that store titles that way. **The acronym set was derived from the data rather than listed**,
+by taking tokens that appear capitalised inside normally-cased titles and keeping those whose capital
+form dominates their normal use. That keeps NASA, VTOL, STOL, RCS, CFD, USAF and LOX and rejects JET,
+AIR, LOW, AN and THE.
 
-**37 curated sources, all primary or canonical**, 32 from the NASA Technical Reports Server. **12,504
-harvested records across fifteen clusters** from a pool of 27,748 at a 45.5 percent admit rate.
-That reconciles as 12,504 harvested plus 37 curated plus 43 related-post links equals the 12,584
-definitions in the file. **I wrote 12,547 here first, from memory rather than from the artefact**,
-and caught it by checking the article's own table against the assembly output.
+**Three defects were caught in my own instrument before it shipped.** A short-token fallback preserved
+`LOW`, `AIR` and `JET` as though they were acronyms. An absolute lowercase threshold demoted `VTOL` to
+`Vtol` and needed to be a ratio. A missing DOTALL flag let citation text that wraps before its year
+evade the prefix strip, which is the same wrapped-form blind spot as the hyphen defects in A339 and A340.
 
-**This is the largest article in the series by every measure**, against A339's 21,067 lines and 9,831
-references, and the length follows from a vehicle with a complete public record and a very large
-adjacent literature.
-
-**Forty-four of seventy-two drafted, none published, publication never authorised.** Forty-three of the
-forty-four cite a sibling through `post_url` with no target in `_posts/`, so **the set publishes in
-order or together**.
-
----
-
-## One Operational Matter Worth Your Attention
-
-**The deploy gate now takes about two hours.** It was roughly thirty-five minutes before A339. The
-corpus carries two drafts above 20,000 lines with more than 22,000 link definitions between them, and
-kramdown's link resolution does not scale linearly.
-
-**Nothing is broken and every gate has passed.** But with twenty-eight X-Planes articles still to
-write, each of which takes four passes, this is on track to become the dominant cost of the project.
-**It may be worth deciding whether every pass needs the full build**, or whether `_verify.py` plus the
-static checks suffice between passes with the full gate reserved for the publication review.
+**The result is provably presentation-only.** 3,534 lines changed, additions equal deletions, line
+counts unchanged in every file, **exactly 2 lines differ by more than letter case** and those two are
+the caps fixes that gained bold markers. **Anchor sets are byte-identical to HEAD in all 44 files** and
+no reference dangles.
 
 ---
 
-## What I Did Not Do
+## A Check I Built, Measured and Rejected
 
-**I did not publish**, and I will not without an explicit instruction. The draft is pushed and sitting
-in `_drafts/`.
+**The caps-emphasis lesson was nearly turned into a `_verify.py` check and should not be.** The broad
+version gave 80 hits across 20 files at roughly 15 percent precision, including `AT&T`, `ION-DTN`,
+`AGENTS.md` and the `AND` and `OR` of logic gates. The narrow version, capitals inside a bold span,
+gave 1 hit corpus-wide and it was real, **but it catches only one of the nine defects that motivated
+it**. A check that green-lights the corpus at 11 percent recall stops the manual search that was
+working. **Both numbers or neither**, and this is recorded in `VERIFICATION_TRAPS.md`.
 
-**I did not trim anything to a length or reference target.** The directive is comprehensiveness and
-this article earned its size.
+**A hypothesis about the low recall was also wrong.** I attributed it to `prose_text` stripping only
+single-line link pairs while citation text wraps, and measured **0.0 percent inflation on every article
+including the 26,249-line A340**. The helper is correct.
+
+---
+
+## One Item Outside This Sweep, for Your Decision
+
+**A published post carries the same defect.** `_posts/2026-08-06-native_lowering_coverage.markdown`
+line 1306 reads `to ADD TO A COMPLETE MACHINE for speed`. It is a one-word prose fix with no URL
+consequence, but the post is live and outward facing, so **I did not touch it**.
+
+---
+
+## Shells, Since You Asked
+
+**This session had zero live background shells.** The 63 in the status line are dead registry entries,
+generated by backgrounding a three-hour deploy gate once per pass.
+
+**The seven live ones belong to the keleusma session**, not this one, and six are unproductive `until`
+loops polling `gh run view`. Five poll runs that already completed, and one has run **10 hours 29
+minutes on an empty run identifier**, so `gh run view ""` fails forever and the loop cannot exit.
+**I did not kill another session's work.** That last one is the trap already recorded in
+`VERIFICATION_TRAPS.md` as a wait loop that can never exit, in a new form: **an unbounded poll with no
+guard on an empty input.**
+
+---
+
+## State
+
+**Forty-four of seventy-two drafted, none published, publication never authorised.** Nothing was
+published, nothing was trimmed, and no article gained or lost a reference.
+
+**The build-time decision is still open and now more pressing**, since the gate is the long pole in
+every pass and twenty-eight articles remain.
 
 ---
 
 ## Next
 
 **A341, "X-Planes: X-44, One Designation and Two Aircraft"**, editorial date 2025-11-19, series index
-45, on your prompt. **The roster title says it is another disputed designation**, so expect the pattern
-of A336 through A339 to continue. Nothing is outstanding on A340.
+45, on your prompt. **Not started.** The re-harvest of the escaped clusters is available as a separate
+unit of work whenever you want it.

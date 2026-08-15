@@ -41,7 +41,7 @@ The alternatives were understood and each had a known defect. A helicopter has a
 
 The configuration's own design requirements were being written at the same time, in [Stuart III 1956][research_iii_1956], [DALLAS and IRVIN 1956][research_dallas_irvin_1956], and the successive treatments of [McCormick and Mallen 1957][research_mccormick_mallen_1957]. Earlier convertiplane flight experience is recorded in [Marks 1956][research_marks_1956] and the critical advance ratio problem in [DOETSCH and MARK 1953][research_doetsch_mark_1953].
 
-The tilt-wing and its relatives were studied continuously from the mid-1950s to the present, across [McCormick and W. 1956, COMPARATIVE STUDY OF VARIOUS TYPES][research_mccormick_w_1956_2], [FELDMAN 1956][research_feldman_1956], [Stepniewski 1957][research_stepniewski_1957], [Stuart 1957][research_stuart_1957], [Stuart 1957, Tilt Wing Propelloplane Design Req][research_stuart_1957_2], [Ward 1960][research_ward_1960], [Koenig and Quigley 1960][research_koenig_quigley_1960], [Quigley and Koenig 1960][research_quigley_koenig_1960], [Kuhn and Grunwald 1960][research_kuhn_grunwald_1960], [Tosti 1961][research_tosti_1961], [O'ROURKE and RUTHERFORD 1991][research_o_rourke_rutherford_1991], [Totah 1992][research_totah_1992], [RUTHERFORD and BASS 1992][research_rutherford_bass_1992], [Sullivan 1993][research_sullivan_1993], [Harris 2003][research_harris_2003], [Armutcuoglu et al 2004][research_armutcuoglu_2004], [de Madrid et al 2007][research_madrid_2007], [Holsten et al 2011][research_holsten_2011], [Cui et al 2019][research_cui_2019], [Rohr et al 2019][research_rohr_2019], [Binz et al 2019][research_binz_2019], [Geuther et al 2020][research_geuther_2020].
+The tilt-wing and its relatives were studied continuously from the mid-1950s to the present, across [McCormick and W. 1956, Comparative Study of Various Types][research_mccormick_w_1956_2], [FELDMAN 1956][research_feldman_1956], [Stepniewski 1957][research_stepniewski_1957], [Stuart 1957][research_stuart_1957], [Stuart 1957, Tilt Wing Propelloplane Design Req][research_stuart_1957_2], [Ward 1960][research_ward_1960], [Koenig and Quigley 1960][research_koenig_quigley_1960], [Quigley and Koenig 1960][research_quigley_koenig_1960], [Kuhn and Grunwald 1960][research_kuhn_grunwald_1960], [Tosti 1961][research_tosti_1961], [O'ROURKE and RUTHERFORD 1991][research_o_rourke_rutherford_1991], [Totah 1992][research_totah_1992], [RUTHERFORD and BASS 1992][research_rutherford_bass_1992], [Sullivan 1993][research_sullivan_1993], [Harris 2003][research_harris_2003], [Armutcuoglu et al 2004][research_armutcuoglu_2004], [de Madrid et al 2007][research_madrid_2007], [Holsten et al 2011][research_holsten_2011], [Cui et al 2019][research_cui_2019], [Rohr et al 2019][research_rohr_2019], [Binz et al 2019][research_binz_2019], [Geuther et al 2020][research_geuther_2020].
 
 What nobody had was flight evidence that the conversion was flyable at full scale. **That is what the X-18 was built to obtain, and it is what the X-18 failed to obtain.**
 
@@ -206,7 +206,7 @@ Solving for the tilt that balances weight at each speed, and setting it beside t
 | 50 m/s | 20.5° | 33.1° | 12.6° |
 | 60 m/s | 17.0° | 30.0° | 13.1° |
 
-The transition problem and the corridor concept were the central preoccupation of the powered-lift community for decades, across [Boeing Co Morton Pa Vertol Div 1956, COMPARATIVE STUDY OF VARIOUS TYPE][research_div_1956_2], [Smith 1958][research_smith_1958], [Loewy and Yntema 1958][research_loewy_yntema_1958], [BAXTER and FINVOLD 1958][research_baxter_finvold_1958], [Mallen and Dancik 1959][research_mallen_dancik_1959], [NACA 1960][research_naca_1960], [NACA 1960, Conference on V/Stol Aircraft a Co][research_naca_1960_2], [Tapscott 1960][research_tapscott_1960], [Tapscott 1960, Criteria for Control and Response][research_tapscott_1960_2], [Anderson 1960][research_anderson_1960], [Stapleford 1980][research_stapleford_1980], [Roberts et al 1981][research_roberts_1981], [FLUK 1981][research_fluk_1981], [HILL 1981][research_hill_1981], [Verma and Junkins 2000][research_verma_junkins_2000], [Kahne 2000][research_kahne_2000], [Kahne 2000, Research Issues in the Transition][research_kahne_2000_2], [Chana 2002][research_chana_2002], [Ng and Datta 2019][research_ng_datta_2019], [Biyela and Rawatlal 2019][research_biyela_rawatlal_2019], [Wang et al 2019, Research on Dynamic Modeling and T][research_wang_2019_2], [Wang et al 2019, Stability Analysis of Tailsitters][research_wang_2019_4].
+The transition problem and the corridor concept were the central preoccupation of the powered-lift community for decades, across [Boeing Co Morton Pa Vertol Div 1956, Comparative Study of Various Type][research_div_1956_2], [Smith 1958][research_smith_1958], [Loewy and Yntema 1958][research_loewy_yntema_1958], [BAXTER and FINVOLD 1958][research_baxter_finvold_1958], [Mallen and Dancik 1959][research_mallen_dancik_1959], [NACA 1960][research_naca_1960], [NACA 1960, Conference on V/Stol Aircraft a Co][research_naca_1960_2], [Tapscott 1960][research_tapscott_1960], [Tapscott 1960, Criteria for Control and Response][research_tapscott_1960_2], [Anderson 1960][research_anderson_1960], [Stapleford 1980][research_stapleford_1980], [Roberts et al 1981][research_roberts_1981], [FLUK 1981][research_fluk_1981], [HILL 1981][research_hill_1981], [Verma and Junkins 2000][research_verma_junkins_2000], [Kahne 2000][research_kahne_2000], [Kahne 2000, Research Issues in the Transition][research_kahne_2000_2], [Chana 2002][research_chana_2002], [Ng and Datta 2019][research_ng_datta_2019], [Biyela and Rawatlal 2019][research_biyela_rawatlal_2019], [Wang et al 2019, Research on Dynamic Modeling and T][research_wang_2019_2], [Wang et al 2019, Stability Analysis of Tailsitters][research_wang_2019_4].
 
 **A corridor exists at every speed.** That is worth stating plainly, because the argument so far has emphasised what is stalled and could leave the impression that the configuration is marginal. **It is not. The tilt-wing works, with a margin of between twelve and thirty-eight degrees of tilt throughout.** The X-18 was under-equipped for the configuration, not attempting an impossible one.
 
@@ -260,7 +260,7 @@ $$V_{\text{cross}} = \sqrt{\frac{2 M_{\text{jet}}}{\rho S \bar{c}\, C_{m\delta_e
 
 The control-power requirement that makes such a system necessary was being established across the same years, in [Reeder 1958][research_reeder_1958], [Carlson 1958][research_carlson_1958], [Slaughter 1958][research_slaughter_1958], and [Crim 1959][research_crim_1959], with the underlying hovering-stability question in [McCaskill 1953][research_mccaskill_1953] and the variable-stability technique that produced much of it in [Harper and P. 1955][research_harper_p_1955].
 
-The control-power and handling-qualities literature that establishes how much authority is enough runs through [Gray et al 1953][research_gray_1953], [DAUGHADAY and DUWALDT 1955][research_daughaday_duwaldt_1955], [Anderson 1960, HIGHLIGHTS OF HANDLING QUALITIES C][research_anderson_1960_2], [Anderson 1960, Highlights of handling qualities c][research_anderson_1960_3], [BULL 1960][research_bull_1960], [Newsom 1962][research_newsom_1962], [Newsom 1962, FORCE-TEST INVESTIGATION OF THE ST][research_newsom_1962_2], [Van Dam et al 1980][research_dam_1980], [HESS 1981][research_hess_1981], [Goldstein 1982][research_goldstein_1982], [NACA 1982][research_naca_1982], [Corless and Blanken 1983][research_corless_blanken_1983], [Harris et al 2000][research_harris_2000], [Teofilatto 2001][research_teofilatto_2001], [Srinathkumar 2011][research_srinathkumar_2011], [Baughman and Longeauay 2015][research_baughman_longeauay_2015], [Portapas and Cooke 2020][research_portapas_cooke_2020], [Humphreys-Jennings et al 2020][research_humphreys_jennings_2020], [Campos and Marques 2021][research_campos_marques_2021], [Guo 2021][research_guo_2021].
+The control-power and handling-qualities literature that establishes how much authority is enough runs through [Gray et al 1953][research_gray_1953], [DAUGHADAY and DUWALDT 1955][research_daughaday_duwaldt_1955], [Anderson 1960, Highlights of Handling Qualities C][research_anderson_1960_2], [Anderson 1960, Highlights of handling qualities c][research_anderson_1960_3], [BULL 1960][research_bull_1960], [Newsom 1962][research_newsom_1962], [Newsom 1962, Force-test Investigation of the St][research_newsom_1962_2], [Van Dam et al 1980][research_dam_1980], [HESS 1981][research_hess_1981], [Goldstein 1982][research_goldstein_1982], [NACA 1982][research_naca_1982], [Corless and Blanken 1983][research_corless_blanken_1983], [Harris et al 2000][research_harris_2000], [Teofilatto 2001][research_teofilatto_2001], [Srinathkumar 2011][research_srinathkumar_2011], [Baughman and Longeauay 2015][research_baughman_longeauay_2015], [Portapas and Cooke 2020][research_portapas_cooke_2020], [Humphreys-Jennings et al 2020][research_humphreys_jennings_2020], [Campos and Marques 2021][research_campos_marques_2021], [Guo 2021][research_guo_2021].
 
 **Below about sixty knots the jet is doing the work.** That is the third time in this series that a vertical take-off aircraft has had to carry a separate thrust-based control system for exactly this reason, and it is the clearest recurring result the series has produced.
 
@@ -579,7 +579,7 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 
 - [Allen 2004][research_allen_2004]
 - [Anderson 1960][research_anderson_1960]
-- [Anderson 1960, HIGHLIGHTS OF HANDLING QUALITIES C][research_anderson_1960_2]
+- [Anderson 1960, Highlights of Handling Qualities C][research_anderson_1960_2]
 - [Anderson 1960, Highlights of handling qualities c][research_anderson_1960_3]
 - [Anderson and Cho 1984][research_anderson_cho_1984]
 - [Anonymous 2026][research_anonymous_2026]
@@ -659,7 +659,7 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Deng et al 2026, Optimization Strategy for Multi-Mo][research_deng_2026_2]
 - [DiMaggio et al 2026][research_dimaggio_2026]
 - [Boeing Co Morton Pa Vertol Div 1956][research_div_1956]
-- [Boeing Co Morton Pa Vertol Div 1956, COMPARATIVE STUDY OF VARIOUS TYPE][research_div_1956_2]
+- [Boeing Co Morton Pa Vertol Div 1956, Comparative Study of Various Type][research_div_1956_2]
 - [DOETSCH and MARK 1953][research_doetsch_mark_1953]
 - [Doran et al 2025][research_doran_2025]
 - [Du et al 2024][research_du_2024]
@@ -813,7 +813,7 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [McCaskill 1953][research_mccaskill_1953]
 - [McCormick and Mallen 1956][research_mccormick_mallen_1956]
 - [McCormick and Mallen 1957][research_mccormick_mallen_1957]
-- [McCormick and W. 1956, COMPARATIVE STUDY OF VARIOUS TYPES][research_mccormick_w_1956_2]
+- [McCormick and W. 1956, Comparative Study of Various Types][research_mccormick_w_1956_2]
 - [Mcveigh et al 1975][research_mcveigh_1975]
 - [Meloney et al 2000][research_meloney_2000]
 - [Meloney et al 2001][research_meloney_2001]
@@ -833,7 +833,7 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Nelson and Mouch 1978][research_nelson_mouch_1978]
 - [Veras Neto and de Andrade 2022][research_neto_andrade_2022]
 - [Newsom 1962][research_newsom_1962]
-- [Newsom 1962, FORCE-TEST INVESTIGATION OF THE ST][research_newsom_1962_2]
+- [Newsom 1962, Force-test Investigation of the St][research_newsom_1962_2]
 - [Ng and Datta 2019][research_ng_datta_2019]
 - [Ni and Lee 2025][research_ni_lee_2025]
 - [Niu et al 2026][research_niu_2026]

@@ -221,8 +221,8 @@ Leeuw 1954][research_castles_de_leeuw_1954], [Castles and Durham 1956, Distribut
 component][research_castles_durham_1956], [Heyson and Katzoff 1956][research_heyson_katzoff_1956],
 [Brenckmann 1958][research_brenckmann_1958], [Castles et al 1958][research_castles_1958], [Castles et al
 1959][research_castles_1959], [Heyson 1959][research_heyson_1959], [Gray 1960][research_gray_1960], [Liu
-1962][research_liu_1962], [Arcidiacono 1964][research_arcidiacono_1964], [Jones 1965, AN ACTUATOR DISC
-THEORY FOR THE][research_jones_1965_2], [van Gunsteren 1971][research_van_gunsteren_1971], [Biggers and
+1962][research_liu_1962], [Arcidiacono 1964][research_arcidiacono_1964], [Jones 1965, An Actuator Disc
+Theory for the][research_jones_1965_2], [van Gunsteren 1971][research_van_gunsteren_1971], [Biggers and
 Orloff 1975][research_biggers_orloff_1975], [Landgrebe and Egolf 1975][research_landgrebe_egolf_1975],
 [Savell and Wells 1975][research_savell_wells_1975], [Nagaraja and Pierce
 1977][research_nagaraja_pierce_1977], [Rummel et al 1978][research_rummel_1978], [Goodman
@@ -336,8 +336,8 @@ the area of the flat fabric before it is inflated.
 in [Ashley M Korzun et al][research_ashley_m_korzun], [Sullivan 1944][research_sullivan_1944], [Sherer and
 Jr. 1945][research_sherer_jr_1945], [Goglia 1952][research_goglia_1952], [Braun 1953][research_braun_1953],
 [Donner 1954][research_donner_1954], [MacCarthy 1954][research_maccarthy_1954], [Miller
-1954][research_miller_1954], [Shepardson 1954][research_shepardson_1954], [Lavier 1955, AIR PERMEABILITY OF
-PARACHUTE][research_lavier_1955], [Lavier 1955, Air Permeability of Parachute][research_lavier_1955_2],
+1954][research_miller_1954], [Shepardson 1954][research_shepardson_1954], [Lavier 1955, Air Permeability of
+Parachute][research_lavier_1955], [Lavier 1955, Air Permeability of Parachute][research_lavier_1955_2],
 [Lavrakas 1955][research_lavrakas_1955], [Smollett 1955][research_smollett_1955], [Sweeney
 1955][research_sweeney_1955], [Downing et al 1956][research_downing_1956], [The use of parachute drogues in the measurement of subsurface ocean currents 1956][research_the_use_1956], [Meyer 1958][research_meyer_1958], [Jailer et al 1960][research_jailer_1960],
 [Tomcsak 1960][research_tomcsak_1960], [Murray 1961][research_murray_1961], [Pedersen
@@ -348,8 +348,8 @@ Whitlock 1963][research_murro_whitlock_1963], [Sims 1963][research_sims_1963], [
 1963][research_walcott_1963], [Lewis 1964][research_lewis_1964], [Pedersen 1964][research_pedersen_1964],
 [Deitering and Hilliard 1965][research_deitering_hilliard_1965], [Melzig and Schmidt
 1965][research_melzig_schmidt_1965], [Figucia and McCafferty 1966][research_figucia_mccafferty_1966],
-[Heinrich 1966, Aerodynamics of the supersonic][research_heinrich_1966_2], [Heinrich 1966, THE EFFECTIVE
-POROSITY OF][research_heinrich_1966], [Chandler 1967][research_chandler_1967], [Eckstrom and Preisser
+[Heinrich 1966, Aerodynamics of the supersonic][research_heinrich_1966_2], [Heinrich 1966, The Effective
+Porosity of][research_heinrich_1966], [Chandler 1967][research_chandler_1967], [Eckstrom and Preisser
 1967][research_eckstrom_preisser_1967], [Menard 1967][research_menard_1967], [Mort
 1967][research_mort_1967], [Preisser et al 1967][research_preisser_1967], [Eckstrom and Preisser
 1968][research_eckstrom_preisser_1968], [Chakoian 1969][research_chakoian_1969], [Goodrick
@@ -394,8 +394,8 @@ Both devices are swept-area drag devices sitting between about 1.2 and 1.7, and 
 al][research_ashley_m_korzun], [Sullivan 1944][research_sullivan_1944], [Sherer and Jr.
 1945][research_sherer_jr_1945], [Goglia 1952][research_goglia_1952], [Braun 1953][research_braun_1953],
 [Donner 1954][research_donner_1954], [MacCarthy 1954][research_maccarthy_1954], [Miller
-1954][research_miller_1954], [Shepardson 1954][research_shepardson_1954], [Lavier 1955, AIR PERMEABILITY OF
-PARACHUTE][research_lavier_1955], [Lavier 1955, Air Permeability of Parachute][research_lavier_1955_2],
+1954][research_miller_1954], [Shepardson 1954][research_shepardson_1954], [Lavier 1955, Air Permeability of
+Parachute][research_lavier_1955], [Lavier 1955, Air Permeability of Parachute][research_lavier_1955_2],
 [Lavrakas 1955][research_lavrakas_1955], [Smollett 1955][research_smollett_1955], [Sweeney
 1955][research_sweeney_1955], [Downing et al 1956][research_downing_1956], [The use of parachute drogues in the measurement of subsurface ocean currents 1956][research_the_use_1956], [Meyer 1958][research_meyer_1958], [Jailer et al 1960][research_jailer_1960],
 [Tomcsak 1960][research_tomcsak_1960], [Murray 1961][research_murray_1961], [Pedersen
@@ -406,8 +406,8 @@ Whitlock 1963][research_murro_whitlock_1963], [Sims 1963][research_sims_1963], [
 1963][research_walcott_1963], [Lewis 1964][research_lewis_1964], [Pedersen 1964][research_pedersen_1964],
 [Deitering and Hilliard 1965][research_deitering_hilliard_1965], [Melzig and Schmidt
 1965][research_melzig_schmidt_1965], [Figucia and McCafferty 1966][research_figucia_mccafferty_1966],
-[Heinrich 1966, Aerodynamics of the supersonic][research_heinrich_1966_2], [Heinrich 1966, THE EFFECTIVE
-POROSITY OF][research_heinrich_1966], [Chandler 1967][research_chandler_1967], [Eckstrom and Preisser
+[Heinrich 1966, Aerodynamics of the supersonic][research_heinrich_1966_2], [Heinrich 1966, The Effective
+Porosity of][research_heinrich_1966], [Chandler 1967][research_chandler_1967], [Eckstrom and Preisser
 1967][research_eckstrom_preisser_1967], [Menard 1967][research_menard_1967], [Mort
 1967][research_mort_1967], [Preisser et al 1967][research_preisser_1967], [Eckstrom and Preisser
 1968][research_eckstrom_preisser_1968], [Chakoian 1969][research_chakoian_1969], [Goodrick
@@ -436,8 +436,8 @@ Garrard 1982][research_konicke_garrard_1982], [Peterson and Johnson 1983][resear
 2002][research_accorsi_leonard_2002], [Johari and Desabrais 2002][research_johari_desabrais_2002], [Stein
 2005][research_stein_2005], [Sengupta et al 2008][research_sengupta_2008], [Sengupta et al
 2009][research_sengupta_2009] and the bluff-body drag it rests on is [Thomas 1942][research_thomas_1942],
-[Odom 1955, A DRAG COEFFICIENT, K D , BASED][research_odom_1955], [Odom 1955, DRAG COEFFICIENT, KD, AND
-SIACCI][research_odom_1955_2], [Hodges 1957][research_hodges_1957], [Odom 1957][research_odom_1957], [Wood
+[Odom 1955, A Drag Coefficient, K D , Based][research_odom_1955], [Odom 1955, Drag Coefficient, Kd, and
+Siacci][research_odom_1955_2], [Hodges 1957][research_hodges_1957], [Odom 1957][research_odom_1957], [Wood
 1957][research_wood_1957], [Odom 1958][research_odom_1958], [Greenspan 1960][research_greenspan_1960],
 [Mizunoya 1960][research_mizunoya_1960], [Landsberg 1961][research_landsberg_1961], [Connolly
 1965][research_connolly_1965], [Crowe 1967][research_crowe_1967], [Stilley 1967][research_stilley_1967],
@@ -1591,7 +1591,7 @@ Autonomous Tracking and][research_wang_2023_3], [Xu et al 2023, An Active Landin
 Method][research_xu_2023], [Zhu et al 2023, A nonlinear model predictive][research_zhu_2023_3], [de Vries
 and Vos 2023][research_de_vries_vos_2023], [Cai et al 2024][research_cai_2024], [Ducard and Carughi
 2024][research_ducard_carughi_2024], [Evdokimenkov et al 2024, Operational control of
-an][research_evdokimenkov_2024], [FEATURES OF DEVELOPING A MOBILE APPLICATION FOR SERVICE DELIVERY USING UNMANNED AERIAL DELIVERY VEHICLE AND PERSONAL DELIVERY DEVICES 2024][research_features_of_2024], [Hung et al
+an][research_evdokimenkov_2024], [Features of Developing a Mobile Application for Service Delivery Using Unmanned Aerial Delivery Vehicle and Personal Delivery Devices 2024][research_features_of_2024], [Hung et al
 2024][research_hung_2024], [Lv et al 2024][research_lv_2024], [Mobile Autonomous Recovery Landing Principle and Control Method for Unmanned Aerial Vehicle 2024][research_mobile_autonomous_2024], [Oktay and Eraslan 2024][research_oktay_eraslan_2024], [Poggi et al
 2024][research_poggi_2024], [Tsitses et al 2024][research_tsitses_2024], [Uzun 2024][research_uzun_2024],
 [Xiao et al 2024][research_xiao_2024], [Yin et al 2024, Cross-View Multi-Scale][research_yin_2024], [Yu et
@@ -2118,7 +2118,7 @@ L2-Gain][research_yang_2023], [Yatsukhno 2023][research_yatsukhno_2023], [Zhang 
 of Fixed-Wing][research_zhang_2023], [Zhao and Zhang 2023][research_zhao_zhang_2023], [Zhou et al 2023,
 Formation control of unmanned][research_zhou_2023_2], [Zhu et al 2023, Experimental Investigation
 on][research_zhu_2023_4], [Zimmer and Gagnon 2023][research_zimmer_gagnon_2023], [Ünal et al
-2023][research_unal_2023], [Вищекин et al 2023, EQUIPMENT FOR PARACHUTE-FREE][research__2023_2],
+2023][research_unal_2023], [Вищекин et al 2023, Equipment for Parachute-free][research__2023_2],
 [Synergy of Aerodynamics and Propulsion: A Comparative Study in Flight and Rocketry 2024][research__2024], [Abu Salem 2024][research_abu_salem_2024], [Accuracy Performance Evaluation System for Precision Reducer Testing Machine 2024][research_accuracy_performance_2024], [Ahmed et al 2024][research_ahmed_2024], [Andersen et al
 2024][research_andersen_2024], [Bhandari et al 2024][research_bhandari_2024], [Biertümpfel et al
 2024][research_biertumpfel_2024], [Boniface et al 2024][research_boniface_2024], [Cao et al 2024, Numerical
@@ -2413,9 +2413,9 @@ Cierva 1934][research_de_la_cierva_1934], [Hoerner 1936][research_hoerner_1936],
 1952][research_army_war_coll_carlisle_barracks_pa_1952], [Avant and Cunningham
 1952][research_avant_cunningham_1952], [General Electric Co Schenectady Ny
 1952][research_general_electric_co_schenectady_ny_1952], [Hughes et al 1952][research_hughes_1952],
-[Jacobson 1952][research_jacobson_1952], [Northrop Aircraft Inc Hawthorne Ca 1952, METHODS OF ANALYSIS AND
-SYNTHESIS][research_northrop_aircraft_inc_hawthorne_ca_1952_2], [Northrop Aircraft Inc Hawthorne Ca 1952,
-RESEARCH ON HIGH LIFT BOUNDARY][research_northrop_aircraft_inc_hawthorne_ca_1952], [Scherberg and Ferguson
+[Jacobson 1952][research_jacobson_1952], [Northrop Aircraft Inc Hawthorne Ca 1952, Methods of Analysis and
+Synthesis][research_northrop_aircraft_inc_hawthorne_ca_1952_2], [Northrop Aircraft Inc Hawthorne Ca 1952,
+Research on High Lift Boundary][research_northrop_aircraft_inc_hawthorne_ca_1952], [Scherberg and Ferguson
 1952][research_scherberg_ferguson_1952], [Schumacher 1952][research_schumacher_1952], [Stutz
 1952][research_stutz_1952], [Sutton and Buell 1952][research_sutton_buell_1952], [Hazard
 1953][research_hazard_1953], [Jaffe 1953][research_jaffe_1953], [Maynard and Steinberg
@@ -2456,11 +2456,11 @@ Board Fort Rucker Al 1957][research_army_aviation_board_fort_rucker_al_1957], [H
 [Theodorsen 1960][research_theodorsen_1960], [van Leeuwen 1960][research_van_leeuwen_1960], [Army Arctic
 Test Center Fort Greely Ak 1961][research_army_arctic_test_center_fort_greely_ak_1961], [Army Aviation
 School Fort Rucker Al 1961][research_army_aviation_school_fort_rucker_al_1961], [Blessing
-1961][research_blessing_1961], [Boeing Co Morton Pa Vertol Div 1961, FLIGHT EVALUATION OF
-REDESIGNED][research_boeing_co_morton_pa_vertol_div_1961_2], [Boeing Co Morton Pa Vertol Div 1961, FLIGHT
-TEST EVALUATION OF AN][research_boeing_co_morton_pa_vertol_div_1961], [Boeing Co Morton Pa Vertol Div 1961,
-HIGH PERFORMANCE TANDEM][research_boeing_co_morton_pa_vertol_div_1961_3], [Boeing Co Morton Pa Vertol Div
-1961, HIGH PERFORMANCE TANDEM][research_boeing_co_morton_pa_vertol_div_1961_4], [Bolds
+1961][research_blessing_1961], [Boeing Co Morton Pa Vertol Div 1961, Flight Evaluation of
+Redesigned][research_boeing_co_morton_pa_vertol_div_1961_2], [Boeing Co Morton Pa Vertol Div 1961, Flight
+Test Evaluation of an][research_boeing_co_morton_pa_vertol_div_1961], [Boeing Co Morton Pa Vertol Div 1961,
+High Performance Tandem][research_boeing_co_morton_pa_vertol_div_1961_3], [Boeing Co Morton Pa Vertol Div
+1961, High Performance Tandem][research_boeing_co_morton_pa_vertol_div_1961_4], [Bolds
 1961][research_bolds_1961], [Brogan et al 1961][research_brogan_1961], [Broglio
 1961][research_broglio_1961], [Crawford and Hodgson 1961][research_crawford_hodgson_1961], [Crox and John F.
 1961][research_crox_john_f_1961], [Etkin 1961][research_etkin_1961], [Fiorini 1961][research_fiorini_1961],
@@ -2510,8 +2510,8 @@ Rucker Al 1964][research_army_aviation_board_fort_rucker_al_1964], [Baron et al 
 1964][research_godwin_1964], [Groomes 1964][research_groomes_1964], [Kaman Aircraft Corp Bloomfield Ct
 1964][research_kaman_aircraft_corp_bloomfield_ct_1964], [Krupka and Kezios
 1964][research_krupka_kezios_1964], [Maull and Bearman 1964][research_maull_bearman_1964], [Miller 1964,
-Rotor blade harmonic air loading][research_miller_1964_2], [Miller 1964, THEORETICAL DETERMINATION
-OF][research_miller_1964], [Royston 1964][research_royston_1964], [Schroers and Antoniou
+Rotor blade harmonic air loading][research_miller_1964_2], [Miller 1964, Theoretical Determination
+of][research_miller_1964], [Royston 1964][research_royston_1964], [Schroers and Antoniou
 1964][research_schroers_antoniou_1964], [Spalding and Chi 1964][research_spalding_chi_1964], [Stackfleth
 1964][research_stackfleth_1964], [VAN Wyckhouse and Cresap 1964][research_van_wyckhouse_cresap_1964],
 [Vagianos and Rooney 1964][research_vagianos_rooney_1964], [Yeates 1964][research_yeates_1964], [Zimmerman
@@ -2523,7 +2523,7 @@ Hilzinger 1965][research_carlson_hilzinger_1965], [Crimi 1965][research_crimi_19
 [Finkelstein 1965][research_finkelstein_1965], [Foulke 1965][research_foulke_1965], [Gorbis and Tonkonogii
 1965][research_gorbis_tonkonogii_1965], [Green and Carr 1965][research_green_carr_1965], [Hall et al
 1965][research_hall_1965], [Ham and Madden 1965][research_ham_madden_1965], [Hirsh
-1965][research_hirsh_1965], [Jones 1965, AN EXTENDED LIFTING LINE THEORY][research_jones_1965], [Mack
+1965][research_hirsh_1965], [Jones 1965, An Extended Lifting Line Theory][research_jones_1965], [Mack
 1965][research_mack_1965], [Mangum 1965][research_mangum_1965], [Mayo 1965][research_mayo_1965], [Muffley
 1965][research_muffley_1965], [Puvrez 1965][research_puvrez_1965], [Segel 1965][research_segel_1965],
 [Sissom 1965][research_sissom_1965], [Stein 1965][research_stein_1965], [Upton and Young
@@ -3603,10 +3603,10 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Boatto et al 2023][research_boatto_2023]
 - [Bobo 1972][research_bobo_1972]
 - [Bodunkov and Kim 2021][research_bodunkov_kim_2021]
-- [Boeing Co Morton Pa Vertol Div 1961, FLIGHT EVALUATION OF REDESIGNED][research_boeing_co_morton_pa_vertol_div_1961_2]
-- [Boeing Co Morton Pa Vertol Div 1961, FLIGHT TEST EVALUATION OF AN][research_boeing_co_morton_pa_vertol_div_1961]
-- [Boeing Co Morton Pa Vertol Div 1961, HIGH PERFORMANCE TANDEM][research_boeing_co_morton_pa_vertol_div_1961_3]
-- [Boeing Co Morton Pa Vertol Div 1961, HIGH PERFORMANCE TANDEM][research_boeing_co_morton_pa_vertol_div_1961_4]
+- [Boeing Co Morton Pa Vertol Div 1961, Flight Evaluation of Redesigned][research_boeing_co_morton_pa_vertol_div_1961_2]
+- [Boeing Co Morton Pa Vertol Div 1961, Flight Test Evaluation of an][research_boeing_co_morton_pa_vertol_div_1961]
+- [Boeing Co Morton Pa Vertol Div 1961, High Performance Tandem][research_boeing_co_morton_pa_vertol_div_1961_3]
+- [Boeing Co Morton Pa Vertol Div 1961, High Performance Tandem][research_boeing_co_morton_pa_vertol_div_1961_4]
 - [Boeing Vertol Co Philadelphia Pa 1974][research_boeing_vertol_co_philadelphia_pa_1974]
 - [Boeing Vertol Co Philadelphia Pa 1977, Heavy Lift Helicopter - Advanced][research_boeing_vertol_co_philadelphia_pa_1977_2]
 - [Boeing Vertol Co Philadelphia Pa 1977, HLH Rotor Blade Manufacturing][research_boeing_vertol_co_philadelphia_pa_1977]
@@ -4241,7 +4241,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Fattizzo et al 2026][research_fattizzo_2026]
 - [Fauli et al 2019][research_fauli_2019]
 - [Fault tolerant control of multiphase multilevel motor drives - technical review 2017][research_fault_tolerant_2017]
-- [FEATURES OF DEVELOPING A MOBILE APPLICATION FOR SERVICE DELIVERY USING UNMANNED AERIAL DELIVERY VEHICLE AND PERSONAL DELIVERY DEVICES 2024][research_features_of_2024]
+- [Features of Developing a Mobile Application for Service Delivery Using Unmanned Aerial Delivery Vehicle and Personal Delivery Devices 2024][research_features_of_2024]
 - [Fedele and Mungiguerra 2018][research_fedele_mungiguerra_2018]
 - [Fedukhin and Mukha 2025][research_fedukhin_mukha_2025]
 - [Feil and Hajek 2021][research_feil_hajek_2021]
@@ -4621,7 +4621,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Heidari and Saska 2021][research_heidari_saska_2021]
 - [Heinrich 1961][research_heinrich_1961]
 - [Heinrich 1966, Aerodynamics of the supersonic][research_heinrich_1966_2]
-- [Heinrich 1966, THE EFFECTIVE POROSITY OF][research_heinrich_1966]
+- [Heinrich 1966, The Effective Porosity of][research_heinrich_1966]
 - [Heinrich and Saari 1978][research_heinrich_saari_1978]
 - [Heinrich et al 2025][research_heinrich_2025]
 - [Heister 2018][research_heister_2018]
@@ -4905,8 +4905,8 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Johnston and Cassarino 1976][research_johnston_cassarino_1976]
 - [Johnston and Hogge 1976][research_johnston_hogge_1976]
 - [Jones 1957][research_jones_1957]
-- [Jones 1965, AN ACTUATOR DISC THEORY FOR THE][research_jones_1965_2]
-- [Jones 1965, AN EXTENDED LIFTING LINE THEORY][research_jones_1965]
+- [Jones 1965, An Actuator Disc Theory for the][research_jones_1965_2]
+- [Jones 1965, An Extended Lifting Line Theory][research_jones_1965]
 - [Jones 1970][research_jones_1970]
 - [Jones 1975, Some considerations in the design][research_jones_1975]
 - [Jones 2017][research_jones_2017]
@@ -5152,7 +5152,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Larsson 2022][research_larsson_2022]
 - [Laschka and Sensburg 1970][research_laschka_sensburg_1970]
 - [Lavandar 1972][research_lavandar_1972]
-- [Lavier 1955, AIR PERMEABILITY OF PARACHUTE][research_lavier_1955]
+- [Lavier 1955, Air Permeability of Parachute][research_lavier_1955]
 - [Lavier 1955, Air Permeability of Parachute][research_lavier_1955_2]
 - [Lavrakas 1955][research_lavrakas_1955]
 - [Law 2004][research_law_2004]
@@ -5542,7 +5542,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Miller 1954][research_miller_1954]
 - [Miller 1962][research_miller_1962]
 - [Miller 1964, Rotor blade harmonic air loading][research_miller_1964_2]
-- [Miller 1964, THEORETICAL DETERMINATION OF][research_miller_1964]
+- [Miller 1964, Theoretical Determination of][research_miller_1964]
 - [Miller 1983][research_miller_1983]
 - [Miller and Koch 1985][research_miller_koch_1985]
 - [Miller et al 2004][research_miller_2004]
@@ -5731,8 +5731,8 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Norberg 1973][research_norberg_1973]
 - [Norbury 1972][research_norbury_1972]
 - [Norling 1961][research_norling_1961]
-- [Northrop Aircraft Inc Hawthorne Ca 1952, METHODS OF ANALYSIS AND SYNTHESIS][research_northrop_aircraft_inc_hawthorne_ca_1952_2]
-- [Northrop Aircraft Inc Hawthorne Ca 1952, RESEARCH ON HIGH LIFT BOUNDARY][research_northrop_aircraft_inc_hawthorne_ca_1952]
+- [Northrop Aircraft Inc Hawthorne Ca 1952, Methods of Analysis and Synthesis][research_northrop_aircraft_inc_hawthorne_ca_1952_2]
+- [Northrop Aircraft Inc Hawthorne Ca 1952, Research on High Lift Boundary][research_northrop_aircraft_inc_hawthorne_ca_1952]
 - [Northrop Aircraft Inc Hawthorne Ca 1953][research_northrop_aircraft_inc_hawthorne_ca_1953]
 - [Norton 1990][research_norton_1990]
 - [Novel Automatic Demoulding and Feeding Device for Oil Seal Transfering Molding Press and Simulation Analysis 2017][research_novel_automatic_2017]
@@ -5747,8 +5747,8 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [O'Brien et al 1992][research_o_brien_1992]
 - [Octaviani et al 2017][research_octaviani_2017]
 - [Oda and Ara 1988][research_oda_ara_1988]
-- [Odom 1955, A DRAG COEFFICIENT, K D , BASED][research_odom_1955]
-- [Odom 1955, DRAG COEFFICIENT, KD, AND SIACCI][research_odom_1955_2]
+- [Odom 1955, A Drag Coefficient, K D , Based][research_odom_1955]
+- [Odom 1955, Drag Coefficient, Kd, and Siacci][research_odom_1955_2]
 - [Odom 1957][research_odom_1957]
 - [Odom 1958][research_odom_1958]
 - [O'Donnell et al 1999][research_o_donnell_1999]
@@ -7201,7 +7201,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Řehounek and Ženíšek 2025][research_rehounek_zenisek_2025]
 - [Бабаков and Финченко 2022][research___2022]
 - [Безденежных et al 2020][research__2020]
-- [Вищекин et al 2023, EQUIPMENT FOR PARACHUTE-FREE][research__2023_2]
+- [Вищекин et al 2023, Equipment for Parachute-free][research__2023_2]
 - [Джанджгава et al 2019][research__2019]
 - [Лучко and Зінченко 2018][research___2018]
 - [Пичкуров and Артюхин 2024][research___2024]

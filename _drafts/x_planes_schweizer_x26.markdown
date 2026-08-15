@@ -294,7 +294,7 @@ and Taylor 1954][research_wiley_taylor_1954], [Croom and Huffman 1957][research_
 [Childress 1958][research_childress_1958], [Fink 1961][research_fink_1961], [Eckhaus
 1962][research_eckhaus_1962], [Regan 1964][research_regan_1964], [Strelkov and Kharlamov
 1967][research_strelkov_kharlamov_1967], [Walchner 1969, Laminar hypersonic roll
-damping][research_walchner_1969_2], [Walchner et al 1969, HYPERSONIC WIND TUNNEL][research_walchner_1969],
+damping][research_walchner_1969_2], [Walchner et al 1969, Hypersonic Wind Tunnel][research_walchner_1969],
 [D. L. Birdsall 1970][research_d_l_birdsall_1970], [Boyden 1971][research_boyden_1971], [Crenshaw
 1971][research_crenshaw_1971], [Huzita 1971][research_huzita_1971], [Cliff and Lutze
 1972][research_cliff_lutze_1972], [Hall and Boothe 1972][research_hall_boothe_1972], [MACKlNNON and Madden
@@ -364,7 +364,7 @@ and Taylor 1954][research_wiley_taylor_1954], [Croom and Huffman 1957][research_
 [Childress 1958][research_childress_1958], [Fink 1961][research_fink_1961], [Eckhaus
 1962][research_eckhaus_1962], [Regan 1964][research_regan_1964], [Strelkov and Kharlamov
 1967][research_strelkov_kharlamov_1967], [Walchner 1969, Laminar hypersonic roll
-damping][research_walchner_1969_2], [Walchner et al 1969, HYPERSONIC WIND TUNNEL][research_walchner_1969],
+damping][research_walchner_1969_2], [Walchner et al 1969, Hypersonic Wind Tunnel][research_walchner_1969],
 [D. L. Birdsall 1970][research_d_l_birdsall_1970], [Boyden 1971][research_boyden_1971], [Crenshaw
 1971][research_crenshaw_1971], [Huzita 1971][research_huzita_1971], [Cliff and Lutze
 1972][research_cliff_lutze_1972], [Hall and Boothe 1972][research_hall_boothe_1972], [MACKlNNON and Madden
@@ -1038,11 +1038,11 @@ Zaal et al][research_peter_zaal], [Brewer 1946][research_brewer_1946], [Huff and
 1958][research_reeder_1958], [Anderson 1960][research_anderson_1960], [Air Force Test Pilot School Edwards
 Afb Ca 1962][research_air_force_test_pilot_school_edwards_afb_ca_1962], [Breul 1963][research_breul_1963],
 [Eppley 1963][research_eppley_1963], [Kidd and Bull 1963][research_kidd_bull_1963], [Newell et al
-1963][research_newell_1963], [Chalk 1964][research_chalk_1964], [Ashkenas 1965, A STUDY OF CONVENTIONAL
-AIRPLANE][research_ashkenas_1965], [Ashkenas 1965, A STUDY OF CONVENTIONAL
-AIRPLANE][research_ashkenas_1965_2], [Curry et al 1965][research_curry_1965], [Higgins and Shomber
+1963][research_newell_1963], [Chalk 1964][research_chalk_1964], [Ashkenas 1965, A Study of Conventional
+Airplane][research_ashkenas_1965], [Ashkenas 1965, A Study of Conventional
+Airplane][research_ashkenas_1965_2], [Curry et al 1965][research_curry_1965], [Higgins and Shomber
 1965][research_higgins_shomber_1965], [Johnston et al 1965, Development of
-satisfactory][research_johnston_1965], [Johnston et al 1965, STUDY OF SIZE EFFECTS ON
+satisfactory][research_johnston_1965], [Johnston et al 1965, Study of Size Effects on
 VTOL][research_johnston_1965_2], [Miller and Clark 1965][research_miller_clark_1965], [McGREGOR and Smith
 1966][research_mcgregor_smith_1966], [Teper and Stapleford 1966][research_teper_stapleford_1966], [Rhoads
 1967][research_rhoads_1967], [Shomber and Gertsen 1967][research_shomber_gertsen_1967], [Blackburn
@@ -1672,7 +1672,7 @@ and][research_wang_2015], [Wei and Renliang 2015][research_wei_renliang_2015], [
 2015][research_xu_2015], [Yeo et al 2015][research_yeo_2015], [Zaal et al 2015][research_zaal_2015], [Zhan
 et al 2015][research_zhan_2015], [Zhang et al 2015, Supercritical natural laminar][research_zhang_2015_2],
 [test and test 2015][research_test_test_2015], [Жданов and Зінченко 2015][research___2015], [Задкова 2015,
-PILOTS ERRORS ACCOUNTING AND][research__2015], [조용성 2015, Noise Source and Transmission][research__2015_2],
+Pilots Errors Accounting and][research__2015], [조용성 2015, Noise Source and Transmission][research__2015_2],
 [Abhishek and Prasad 2016][research_abhishek_prasad_2016], [Abwanzo 2016][research_abwanzo_2016], [Aircraft
 and Rotorcraft System 2016][research_aircraft_and_2016], [Almeida et al 2016][research_almeida_2016],
 [Baldwin et al 2016][research_baldwin_2016], [Bauer et al 2016][research_bauer_2016], [Borer et al
@@ -1989,8 +1989,8 @@ Aerodynamic][research_wang_2022_4], [Wei et al 2022, Design and Implementation o
 2022][research_yang_li_2022], [Yildiz 2022][research_yildiz_2022], [Zajdel et al
 2022][research_zajdel_2022], [Zaporozhets et al 2022][research_zaporozhets_2022], [Zeng et al
 2022][research_zeng_2022], [Zhao et al 2022][research_zhao_2022], [Zhou 2022][research_zhou_2022], [Zhou and
-Chen 2022][research_zhou_chen_2022], [Аkulov et al 2022][research_kulov_2022], [Драмшини 2022, DEVELOPMENT
-OF ALGORITHMS OF THE][research__2022], [Abu Salem et al 2023][research_abu_salem_2023], [Acoustic field
+Chen 2022][research_zhou_chen_2022], [Аkulov et al 2022][research_kulov_2022], [Драмшини 2022, Development
+of Algorithms of the][research__2022], [Abu Salem et al 2023][research_abu_salem_2023], [Acoustic field
 separation with 2023][research_acoustic_field_2023], [Albert et al 2023][research_albert_2023], [Amante et
 al 2023][research_amante_2023], [Ananthkrishnan and Sinha 2023][research_ananthkrishnan_sinha_2023],
 [Application of functional motion screening test in physical fitness test of No.14 Middle School of Kaifeng 2023][research_application_of_2023], [Arifin and Siew
@@ -2000,7 +2000,7 @@ al 2023][research_amante_2023], [Ananthkrishnan and Sinha 2023][research_ananthk
 Mishra 2023][research_chakraborty_mishra_2023], [Chau and Zingg 2023][research_chau_zingg_2023], [Chen et al
 2023, Joint Unmanned Aerial Vehicle][research_chen_2023_2], [Cheng et al 2023][research_cheng_2023],
 [Chenkin et al 2023][research_chenkin_2023], [Cong et al 2023][research_cong_2023], [Cusati et al
-2023][research_cusati_2023], [DESIGN METHODOLOGY OF OFF-GRID PV SOLAR POWERED SYSTEM (A CASE STUDY OF SOLAR POWERED BUS ROOF) 2023][research_design_methodology_2023],
+2023][research_cusati_2023], [Design Methodology of Off-grid PV Solar Powered System (a Case Study of Solar Powered Bus Roof) 2023][research_design_methodology_2023],
 [Design and Analysis of 2023, Design and Analysis of Mechanical][research_design_and_2023], [Design and
 Analysis of 2023, Design and Analysis of Propeller][research_design_and_2023_2], [Dias
 2023][research_dias_2023], [Doebler et al 2023][research_doebler_2023], [Donizetti et al
@@ -2095,9 +2095,9 @@ atmospheric][research_lincke_pieren_2024], [Lincke and Pieren 2024, Semi-empiric
 for][research_lincke_pieren_2024_2], [Liu and Liu 2024][research_liu_liu_2024], [Liu et al 2024,
 Longitudinal low-frequency][research_liu_2024], [Löhr and Haines 2024][research_lohr_haines_2024], [Ma et al
 2024][research_ma_2024], [Masnata and Pirrotta 2024][research_masnata_pirrotta_2024], [Matos and Marta
-2024][research_matos_marta_2024], [Metodiev 2024][research_metodiev_2024], [Mirenkova 2024, FORMATION AND
-DEVELOPMENT OF THE][research_mirenkova_2024_2], [Mirenkova 2024, THE GENESIS OF THE TEST METHOD
-IN][research_mirenkova_2024], [Mohamad Sharom et al 2024][research_mohamad_sharom_2024], [Mori et al
+2024][research_matos_marta_2024], [Metodiev 2024][research_metodiev_2024], [Mirenkova 2024, Formation and
+Development of the][research_mirenkova_2024_2], [Mirenkova 2024, The Genesis of the Test Method
+in][research_mirenkova_2024], [Mohamad Sharom et al 2024][research_mohamad_sharom_2024], [Mori et al
 2024][research_mori_2024], [Negahban et al 2024][research_negahban_2024], [Nguyen and Yano
 2024][research_nguyen_yano_2024], [Ogawara et al 2024][research_ogawara_2024], [Pelykh and Andryushchenko
 2024][research_pelykh_andryushchenko_2024], [Peng et al 2024][research_peng_2024], [Prasannakumar et al
@@ -2377,8 +2377,8 @@ Kamp 1952][research_windstrup_kamp_1952], [Yih et al 1952][research_yih_1952], [
 [McGinnes and Beck 1953][research_mcginnes_beck_1953], [Murphy 1953][research_murphy_1953], [North American
 Aviation Inc Los Angeles Ca 1953][research_north_american_aviation_inc_los_angeles_ca_1953], [Phillips and
 Everest 1953][research_phillips_everest_1953], [Sterne 1953][research_sterne_1953], [Tolhurst and Morrill
-1953][research_tolhurst_morrill_1953], [Air Proving Ground Center Eglin Afb Fl 1954, OPERATIONAL SUITABILITY
-TEST OF][research_air_proving_ground_center_eglin_afb_fl_1954_2], [Air Proving Ground Center Eglin Afb Fl
+1953][research_tolhurst_morrill_1953], [Air Proving Ground Center Eglin Afb Fl 1954, Operational Suitability
+Test of][research_air_proving_ground_center_eglin_afb_fl_1954_2], [Air Proving Ground Center Eglin Afb Fl
 1954, Operational Suitability Test of][research_air_proving_ground_center_eglin_afb_fl_1954], [Fleming
 1954][research_fleming_1954], [Helicopter flight to Thule, 1953 1954][research_helicopter_flight_1954], [King
 1954][research_king_1954], [Morgan 1954][research_morgan_1954], [Wooley and Childs
@@ -2386,15 +2386,15 @@ TEST OF][research_air_proving_ground_center_eglin_afb_fl_1954_2], [Air Proving G
 1955][research_abzug_daros_1955], [Air Proving Ground Center Eglin Afb Fl 1955, Operational Suitability Test
 of][research_air_proving_ground_center_eglin_afb_fl_1955], [Air Proving Ground Center Eglin Afb Fl 1955,
 Operational Suitability Test of][research_air_proving_ground_center_eglin_afb_fl_1955_2], [Bell Aerospace Co
-Buffalo Ny 1955, MX-2276 RECONNAISSANCE AIRCRAFT][research_bell_aerospace_co_buffalo_ny_1955], [Bell
-Aerospace Co Buffalo Ny 1955, MX-2276 RECONNAISSANCE
-AIRCRAFT][research_bell_aerospace_co_buffalo_ny_1955_2], [Coward 1955][research_coward_1955], [Dailey
+Buffalo Ny 1955, MX-2276 Reconnaissance Aircraft][research_bell_aerospace_co_buffalo_ny_1955], [Bell
+Aerospace Co Buffalo Ny 1955, MX-2276 Reconnaissance
+Aircraft][research_bell_aerospace_co_buffalo_ny_1955_2], [Coward 1955][research_coward_1955], [Dailey
 1955][research_dailey_1955], [Heins and Jr 1955][research_heins_jr_1955], [Lerbs 1955][research_lerbs_1955],
 [MacAllister 1955][research_macallister_1955], [McCarthy et al 1955][research_mccarthy_1955], [Poor
 1955][research_poor_1955], [Randall 1955][research_randall_1955], [Strier et al 1955][research_strier_1955],
-[Townsend and Phillips 1955][research_townsend_phillips_1955], [Bell Aerospace Co Buffalo Ny 1956, DUCTED
-PROPELLER ASSAULT][research_bell_aerospace_co_buffalo_ny_1956], [Bell Aerospace Co Buffalo Ny 1956, DUCTED
-PROPELLER ASSAULT][research_bell_aerospace_co_buffalo_ny_1956_3], [Bell Aerospace Co Buffalo Ny 1956,
+[Townsend and Phillips 1955][research_townsend_phillips_1955], [Bell Aerospace Co Buffalo Ny 1956, Ducted
+Propeller Assault][research_bell_aerospace_co_buffalo_ny_1956], [Bell Aerospace Co Buffalo Ny 1956, Ducted
+Propeller Assault][research_bell_aerospace_co_buffalo_ny_1956_3], [Bell Aerospace Co Buffalo Ny 1956,
 STANDARD AIRCRAFT][research_bell_aerospace_co_buffalo_ny_1956_2], [Brown and Heinke
 1956][research_brown_heinke_1956], [Brozek 1956][research_brozek_1956], [Doblhoff
 1956][research_doblhoff_1956], [Dunlap et al 1956][research_dunlap_1956], [Fisher et al
@@ -2424,9 +2424,9 @@ Shanks 1959][research_paulson_shanks_1959], [Perisho 1959][research_perisho_1959
 1960][research_kahle_1960], [Lustig et al 1960][research_lustig_1960], [Nakajima
 1960][research_nakajima_1960], [Naval Ordnance Test Station China Lake Ca
 1960][research_naval_ordnance_test_station_china_lake_ca_1960], [Siegel and Crain
-1960][research_siegel_crain_1960], [Sproull 1960][research_sproull_1960], [Theodorsen 1960, THEORETICAL
-INVESTIGATION OF][research_theodorsen_1960], [Theodorsen 1960, THEORETICAL INVESTIGATION
-OF][research_theodorsen_1960_2], [Thorson and Bohne 1960][research_thorson_bohne_1960], [United States Navy
+1960][research_siegel_crain_1960], [Sproull 1960][research_sproull_1960], [Theodorsen 1960, Theoretical
+Investigation of][research_theodorsen_1960], [Theodorsen 1960, Theoretical Investigation
+of][research_theodorsen_1960_2], [Thorson and Bohne 1960][research_thorson_bohne_1960], [United States Navy
 airship 1960][research_united_states_1960], [Vassiliadis 1960][research_vassiliadis_1960], [Whittingham and
 Swan 1960][research_whittingham_swan_1960], [Army Arctic Test Center Fort Greely Ak
 1961][research_army_arctic_test_center_fort_greely_ak_1961], [Army Aviation School Fort Rucker Al
@@ -2434,9 +2434,9 @@ Swan 1960][research_whittingham_swan_1960], [Army Arctic Test Center Fort Greely
 Morton Pa Vertol Div 1961][research_boeing_co_morton_pa_vertol_div_1961], [Bolds 1961][research_bolds_1961],
 [British Aircraft Corporation 111 1961][research_british_aircraft_1961], [Clark 1961][research_clark_1961],
 [Crawford and Hodgson 1961][research_crawford_hodgson_1961], [Crogan 1961][research_crogan_1961], [Doelling
-1961][research_doelling_1961], [Doelling and Bolt 1961, NOISE CONTROL FOR AIRCRAFT
-ENGINE][research_doelling_bolt_1961], [Doelling and Bolt 1961, NOISE CONTROL FOR AIRCRAFT
-ENGINE][research_doelling_bolt_1961_2], [General Dynamics/Astronautics San Diego Ca
+1961][research_doelling_1961], [Doelling and Bolt 1961, Noise Control for Aircraft
+Engine][research_doelling_bolt_1961], [Doelling and Bolt 1961, Noise Control for Aircraft
+Engine][research_doelling_bolt_1961_2], [General Dynamics/Astronautics San Diego Ca
 1961][research_general_dynamics_astronautics_san_diego_ca_1961], [General Dynamics/Astronautics San Diegoca
 1961][research_general_dynamics_astronautics_san_diegoca_1961], [Gillfillan 1961][research_gillfillan_1961],
 [Hecker 1961][research_hecker_1961], [Knighton 1961][research_knighton_1961], [Morgan
@@ -2445,7 +2445,7 @@ Low-Subsonic][research_paulson_shanks_1961_2], [Paulson and Shanks 1961, Investi
 Low-Subsonic][research_paulson_shanks_1961], [Sandstrom and White 1961][research_sandstrom_white_1961],
 [Shulman 1961][research_shulman_1961], [Sinacori and Lange 1961][research_sinacori_lange_1961], [Stambler
 1961][research_stambler_1961], [Theodorsen and Nomicos 1961][research_theodorsen_nomicos_1961], [Thomas
-1961, FLIGHT VIBRATION SURVEY OF][research_thomas_1961_2], [Thomas 1961, FLIGHT VIBRATION SURVEY OF
+1961, Flight Vibration Survey of][research_thomas_1961_2], [Thomas 1961, Flight Vibration Survey of
 F-101A][research_thomas_1961], [Whittley and Garland 1961][research_whittley_garland_1961], [Wu and Talmadge
 1961][research_wu_talmadge_1961], [Bolds 1962][research_bolds_1962], [Deckert and Hodgson
 1962][research_deckert_hodgson_1962], [Denning 1962][research_denning_1962], [Douglas Aircraft Co Long Beach
@@ -2462,8 +2462,8 @@ and Marek 1963][research_dickey_marek_1963], [Douglas Aircraft Co Long Beach Ca
 1963][research_douglas_aircraft_co_long_beach_ca_1963], [Fluegge-Lotz 1963][research_fluegge_lotz_1963],
 [Gasaway and Hatfield 1963][research_gasaway_hatfield_1963], [Government Not Required to Compensate Homeowners When Damage from Airplane Operations Not due to Direct Overflights 1963][research_government_not_1963], [Kerwin and Leopold 1963][research_kerwin_leopold_1963], [Kohlman
 1963][research_kohlman_1963], [Kurdyla 1963][research_kurdyla_1963], [Linnell 1963][research_linnell_1963],
-[Lorentzen 1963][research_lorentzen_1963], [Mcdonnell Aircraft Corp St Louis Mo 1963, EFFECTS OF TEXO #502AF
-AND][research_mcdonnell_aircraft_corp_st_louis_mo_1963], [Naval Air Test Center Patuxent River Md
+[Lorentzen 1963][research_lorentzen_1963], [Mcdonnell Aircraft Corp St Louis Mo 1963, Effects of Texo #502AF
+and][research_mcdonnell_aircraft_corp_st_louis_mo_1963], [Naval Air Test Center Patuxent River Md
 1963][research_naval_air_test_center_patuxent_river_md_1963], [North American Aviation Inc Los Angeles Ca
 1963][research_north_american_aviation_inc_los_angeles_ca_1963], [Pate and Deitering
 1963][research_pate_deitering_1963], [Power 1963][research_power_1963], [Rawson 1963][research_rawson_1963],
@@ -2515,9 +2515,9 @@ a][research_malmuth_1966_2], [Malmuth 1966, Hypersonic flow over a delta wing][r
 1967][research_leboeuf_mcneese_1967], [Oakes 1967][research_oakes_1967], [Pena 1967][research_pena_1967],
 [Putscher 1967][research_putscher_1967], [Shapiro and Sherman Edwards
 1967][research_shapiro_sherman_edwards_1967], [Sheldon 1967][research_sheldon_1967], [Simmonds 1967,
-SHROUDED PROPELLER TEST PROGRAM][research_simmonds_1967], [Simmonds 1967, SHROUDED PROPELLER TEST
-PROGRAM][research_simmonds_1967_2], [Simmonds 1967, SHROUDED PROPELLER TEST
-PROGRAM][research_simmonds_1967_3], [SlEWERT and Stewart 1967][research_slewert_stewart_1967], [Steiner and
+Shrouded Propeller Test Program][research_simmonds_1967], [Simmonds 1967, Shrouded Propeller Test
+Program][research_simmonds_1967_2], [Simmonds 1967, Shrouded Propeller Test
+Program][research_simmonds_1967_3], [SlEWERT and Stewart 1967][research_slewert_stewart_1967], [Steiner and
 Pratt 1967][research_steiner_pratt_1967], [Thomason et al 1967][research_thomason_1967], [Adamson
 1968][research_adamson_1968], [Anderson 1968][research_anderson_1968], [Bishop and Franken
 1968][research_bishop_franken_1968], [Briardy and Head 1968][research_briardy_head_1968], [Chang and Lester
@@ -3136,7 +3136,7 @@ The next article in this series takes up the Lockheed X-27.
 - [Air Force Test Pilot School Edwards Afb Ca 1994, Volume 4. Test Management Phase][research_air_force_test_pilot_school_edwards_afb_ca_1994_2]
 - [Air Proving Ground Center Eglin Afb Fl 1949][research_air_proving_ground_center_eglin_afb_fl_1949]
 - [Air Proving Ground Center Eglin Afb Fl 1954, Operational Suitability Test of t][research_air_proving_ground_center_eglin_afb_fl_1954]
-- [Air Proving Ground Center Eglin Afb Fl 1954, OPERATIONAL SUITABILITY TEST OF T][research_air_proving_ground_center_eglin_afb_fl_1954_2]
+- [Air Proving Ground Center Eglin Afb Fl 1954, Operational Suitability Test of T][research_air_proving_ground_center_eglin_afb_fl_1954_2]
 - [Air Proving Ground Center Eglin Afb Fl 1955, Operational Suitability Test of t][research_air_proving_ground_center_eglin_afb_fl_1955]
 - [Air Proving Ground Center Eglin Afb Fl 1955, Operational Suitability Test of t][research_air_proving_ground_center_eglin_afb_fl_1955_2]
 - [Aircraft and Rotorcraft System Identification: Engineering Methods with Flight Test Examples, Second Edition (Bookshelf) 2016][research_aircraft_and_2016]
@@ -3242,8 +3242,8 @@ The next article in this series takes up the Lockheed X-27.
 - [Asakura and Takagi 2020][research_asakura_takagi_2020]
 - [Ashill 1970][research_ashill_1970]
 - [Ashkenas 1946][research_ashkenas_1946]
-- [Ashkenas 1965, A STUDY OF CONVENTIONAL AIRPLANE][research_ashkenas_1965]
-- [Ashkenas 1965, A STUDY OF CONVENTIONAL AIRPLANE][research_ashkenas_1965_2]
+- [Ashkenas 1965, A Study of Conventional Airplane][research_ashkenas_1965]
+- [Ashkenas 1965, A Study of Conventional Airplane][research_ashkenas_1965_2]
 - [Ashkenas 1971][research_ashkenas_1971]
 - [Ashkenas 1984][research_ashkenas_1984]
 - [Ashkenas and Klyde 1989][research_ashkenas_klyde_1989]
@@ -3337,10 +3337,10 @@ The next article in this series takes up the Lockheed X-27.
 - [Beek 1977][research_beek_1977]
 - [Beeman 1972][research_beeman_1972]
 - [Behnamgol et al 2026][research_behnamgol_2026]
-- [Bell Aerospace Co Buffalo Ny 1955, MX-2276 RECONNAISSANCE AIRCRAFT][research_bell_aerospace_co_buffalo_ny_1955]
-- [Bell Aerospace Co Buffalo Ny 1955, MX-2276 RECONNAISSANCE AIRCRAFT][research_bell_aerospace_co_buffalo_ny_1955_2]
-- [Bell Aerospace Co Buffalo Ny 1956, DUCTED PROPELLER ASSAULT][research_bell_aerospace_co_buffalo_ny_1956]
-- [Bell Aerospace Co Buffalo Ny 1956, DUCTED PROPELLER ASSAULT][research_bell_aerospace_co_buffalo_ny_1956_3]
+- [Bell Aerospace Co Buffalo Ny 1955, MX-2276 Reconnaissance Aircraft][research_bell_aerospace_co_buffalo_ny_1955]
+- [Bell Aerospace Co Buffalo Ny 1955, MX-2276 Reconnaissance Aircraft][research_bell_aerospace_co_buffalo_ny_1955_2]
+- [Bell Aerospace Co Buffalo Ny 1956, Ducted Propeller Assault][research_bell_aerospace_co_buffalo_ny_1956]
+- [Bell Aerospace Co Buffalo Ny 1956, Ducted Propeller Assault][research_bell_aerospace_co_buffalo_ny_1956_3]
 - [Bell Aerospace Co Buffalo Ny 1956, STANDARD AIRCRAFT][research_bell_aerospace_co_buffalo_ny_1956_2]
 - [Bell Aerospace Co Buffalo Ny 1957][research_bell_aerospace_co_buffalo_ny_1957]
 - [Bellucci 1963][research_bellucci_1963]
@@ -3811,7 +3811,7 @@ The next article in this series takes up the Lockheed X-27.
 - [Design and Analysis of 2023, Design and Analysis of Propeller][research_design_and_2023_2]
 - [DESIGN AND DEVELOPMENT OF ROLL CAGE FOR ALL TERRAIN VEHICLES 2018][research_design_and_2018]
 - [Design and Fluid Flow Analysis of Unmanned Aerial Vehicle (UAV) 2015][research_design_and_2015]
-- [DESIGN METHODOLOGY OF OFF-GRID PV SOLAR POWERED SYSTEM (A CASE STUDY OF SOLAR POWERED BUS ROOF) 2023][research_design_methodology_2023]
+- [Design Methodology of Off-grid PV Solar Powered System (a Case Study of Solar Powered Bus Roof) 2023][research_design_methodology_2023]
 - [Desjardins and Laananen 1980][research_desjardins_laananen_1980]
 - [Deswal et al 2026][research_deswal_2026]
 - [Deters and Russell 1947, Investigation of a Spoiler-Type][research_deters_russell_1947]
@@ -3853,8 +3853,8 @@ The next article in this series takes up the Lockheed X-27.
 - [Dodge Chicago plants electric-power-distribution 1945][research_dodge_chicago_1945]
 - [Doebler et al 2023][research_doebler_2023]
 - [Doelling 1961][research_doelling_1961]
-- [Doelling and Bolt 1961, NOISE CONTROL FOR AIRCRAFT ENGINE][research_doelling_bolt_1961]
-- [Doelling and Bolt 1961, NOISE CONTROL FOR AIRCRAFT ENGINE][research_doelling_bolt_1961_2]
+- [Doelling and Bolt 1961, Noise Control for Aircraft Engine][research_doelling_bolt_1961]
+- [Doelling and Bolt 1961, Noise Control for Aircraft Engine][research_doelling_bolt_1961_2]
 - [Doherty and Butzel 1979, STOL Aircraft Structural][research_doherty_butzel_1979]
 - [Doherty and Butzel 1979, STOL Aircraft Structural][research_doherty_butzel_1979_2]
 - [Dohme 1981][research_dohme_1981]
@@ -4546,7 +4546,7 @@ The next article in this series takes up the Lockheed X-27.
 - [Johnson and Sternfield 1948][research_johnson_sternfield_1948]
 - [Johnston and Donham 1982][research_johnston_donham_1982]
 - [Johnston et al 1965, Development of satisfactory][research_johnston_1965]
-- [Johnston et al 1965, STUDY OF SIZE EFFECTS ON VTOL][research_johnston_1965_2]
+- [Johnston et al 1965, Study of Size Effects on VTOL][research_johnston_1965_2]
 - [Johnston et al 1974][research_johnston_1974]
 - [Jolley et al 1970][research_jolley_1970]
 - [Jonasson 1973][research_jonasson_1973]
@@ -5092,7 +5092,7 @@ The next article in this series takes up the Lockheed X-27.
 - [Mccurdy 1991][research_mccurdy_1991]
 - [McCutchen 1989][research_mccutchen_1989]
 - [Mcdonnell Aircraft Corp St Louis Mo 1950][research_mcdonnell_aircraft_corp_st_louis_mo_1950]
-- [Mcdonnell Aircraft Corp St Louis Mo 1963, EFFECTS OF TEXO #502AF AND][research_mcdonnell_aircraft_corp_st_louis_mo_1963]
+- [Mcdonnell Aircraft Corp St Louis Mo 1963, Effects of Texo #502AF and][research_mcdonnell_aircraft_corp_st_louis_mo_1963]
 - [McDonnell and Ning 2020][research_mcdonnell_ning_2020]
 - [McGinnes and Beck 1953][research_mcginnes_beck_1953]
 - [McGREGOR and Smith 1966][research_mcgregor_smith_1966]
@@ -5161,8 +5161,8 @@ The next article in this series takes up the Lockheed X-27.
 - [Minwalla et al 2016, Range performance evaluation from][research_minwalla_2016]
 - [Mirabella 1997][research_mirabella_1997]
 - [Miravete et al 2026][research_miravete_2026]
-- [Mirenkova 2024, FORMATION AND DEVELOPMENT OF THE][research_mirenkova_2024_2]
-- [Mirenkova 2024, THE GENESIS OF THE TEST METHOD IN][research_mirenkova_2024]
+- [Mirenkova 2024, Formation and Development of the][research_mirenkova_2024_2]
+- [Mirenkova 2024, The Genesis of the Test Method in][research_mirenkova_2024]
 - [Mitcham 1949][research_mitcham_1949]
 - [Mitchell and Hoh 1984][research_mitchell_hoh_1984]
 - [Mitchell et al 2003][research_mitchell_2003]
@@ -5907,9 +5907,9 @@ The next article in this series takes up the Lockheed X-27.
 - [Sim and Curry 1985][research_sim_curry_1985]
 - [Simcox et al 1976][research_simcox_1976]
 - [Simizu 1944][research_simizu_1944]
-- [Simmonds 1967, SHROUDED PROPELLER TEST PROGRAM][research_simmonds_1967]
-- [Simmonds 1967, SHROUDED PROPELLER TEST PROGRAM][research_simmonds_1967_2]
-- [Simmonds 1967, SHROUDED PROPELLER TEST PROGRAM][research_simmonds_1967_3]
+- [Simmonds 1967, Shrouded Propeller Test Program][research_simmonds_1967]
+- [Simmonds 1967, Shrouded Propeller Test Program][research_simmonds_1967_2]
+- [Simmonds 1967, Shrouded Propeller Test Program][research_simmonds_1967_3]
 - [Simmons 2023, System Identification Approach][research_simmons_2023]
 - [Simmons et al 2019][research_simmons_2019]
 - [Simmons et al 2023, Aero-Propulsive Modeling for][research_simmons_2023_3]
@@ -6116,12 +6116,12 @@ The next article in this series takes up the Lockheed X-27.
 - [The Sailplane as a meteorological probe 1948][research_the_sailplane_1948]
 - [The Simplification of Lateral Control 1936][research_the_simplification_1936]
 - [The Use of Aircraft for Reconnaissance Surveys 1940][research_the_use_1940]
-- [Theodorsen 1960, THEORETICAL INVESTIGATION OF][research_theodorsen_1960]
-- [Theodorsen 1960, THEORETICAL INVESTIGATION OF][research_theodorsen_1960_2]
+- [Theodorsen 1960, Theoretical Investigation of][research_theodorsen_1960]
+- [Theodorsen 1960, Theoretical Investigation of][research_theodorsen_1960_2]
 - [Theodorsen and Nomicos 1961][research_theodorsen_nomicos_1961]
 - [Thirtyacre et al 2021][research_thirtyacre_2021]
-- [Thomas 1961, FLIGHT VIBRATION SURVEY OF][research_thomas_1961_2]
-- [Thomas 1961, FLIGHT VIBRATION SURVEY OF F-101A][research_thomas_1961]
+- [Thomas 1961, Flight Vibration Survey of][research_thomas_1961_2]
+- [Thomas 1961, Flight Vibration Survey of F-101A][research_thomas_1961]
 - [Thomas and Hansman 2019][research_thomas_hansman_2019]
 - [Thomas and Hansman 2021][research_thomas_hansman_2021]
 - [Thomas and Jones 1982][research_thomas_jones_1982]
@@ -6268,7 +6268,7 @@ The next article in this series takes up the Lockheed X-27.
 - [Wahler et al 2025, Conceptual Design and][research_wahler_2025]
 - [Wahler et al 2025, Credibility-Based][research_wahler_2025_2]
 - [Walchner 1969, Laminar hypersonic roll damping][research_walchner_1969_2]
-- [Walchner et al 1969, HYPERSONIC WIND TUNNEL][research_walchner_1969]
+- [Walchner et al 1969, Hypersonic Wind Tunnel][research_walchner_1969]
 - [Walker 2015][research_walker_2015]
 - [Walker 2024][research_walker_2024]
 - [Walker and Kaufman 1977][research_walker_kaufman_1977]
@@ -6640,9 +6640,9 @@ The next article in this series takes up the Lockheed X-27.
 - [Żugaj 2017][research_zugaj_2017]
 - [Аkulov et al 2022][research_kulov_2022]
 - [Дмитренко 2024][research__2024]
-- [Драмшини 2022, DEVELOPMENT OF ALGORITHMS OF THE][research__2022]
+- [Драмшини 2022, Development of Algorithms of the][research__2022]
 - [Жданов and Зінченко 2015][research___2015]
-- [Задкова 2015, PILOTS ERRORS ACCOUNTING AND][research__2015]
+- [Задкова 2015, Pilots Errors Accounting and][research__2015]
 - [Тsekhmistro and Shapovalov 2023][research_sekhmistro_shapovalov_2023]
 - [李 2023][research__2023]
 - [김정우 and 김지혜 2018, A Critical Analysis of Test Items][research___2018_2]
