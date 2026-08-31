@@ -17,6 +17,91 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes X-44 One Designation and Two Aircraft A341 2025-11-19
+
+`x_planes_x44_one_designation_two_aircraft.markdown`, A341, editorial date 2025-11-19, series
+`x_planes` index 45 of 72.
+
+**21,239 lines, 25 display equations, 10,270 reference definitions, 118,123 words after the draft
+pass**, of which 11,459 are author prose, a dilution factor of 10.3. **Draft pass only.** Committed
+and **NOT PUSHED**. The equation-density, primary-reference and publication reviews have not run.
+
+**THIS IS THE SECOND DOCUMENTATION-POOR ARTICLE IN THE SERIES AND THE FIRST WITH TWO SUBJECTS.** Two
+aircraft carry the designation X-44A, both Lockheed Martin, both current in 1999. The Multi-Axis
+No-Tail Aircraft was a proposed tailless F-22 derivative that was never built. The other was a
+tailless unmanned flying wing built by the Skunk Works in 1999, flown in 2001 and kept out of public
+view until March 2018. **The aeroplane that exists is the one nobody had heard of.**
+
+**THE ARTICLE'S KEYSTONE NEEDS NO VEHICLE DATA AT ALL, WHICH IS WHY IT SURVIVES THE THIN RECORD.**
+The ratio of thrust-vectored yaw authority to aerodynamic yaw demand carries the ambient static
+pressure once in the engine mass flow and once in the dynamic pressure, so **the pressure cancels
+exactly and the ratio does not depend on altitude.** Above the tropopause it is a function of Mach
+number alone. That function has a minimum at exactly Mach root five halves under ideal recovery,
+where its value is exactly 1.35, and at Mach 1.674 with the military specification inlet model.
+**The X-31's 1994 quasi-tailless demonstration at Mach 1.2 stands 1.135 times above the worst case**,
+so one demonstrated supersonic point very nearly covered the whole supersonic envelope.
+
+**THE SECOND CANCELLATION IS CLEANER THAN THE FIRST AND WAS NOT ANTICIPATED.** For a crosswind of
+fixed speed the sideslip angle goes as one over true airspeed, which introduces a second square root
+of temperature that cancels the one already present. **Both pressure and temperature vanish, and the
+required vector angle depends on Mach number alone, peaking at exactly Mach one.** At equal throttle
+the approach is therefore the easiest case in the envelope and not the hardest.
+
+**THE BINDING CONSTRAINT IS THE THROTTLE AND THE CONCEPT FAILS AT THE RUNWAY.** Restoring the
+demonstrated margin on a sea-level approach in a 15 metre per second crosswind needs 38.4 percent
+thrust against the 7.2 percent the three degree glide slope needs, a factor of 5.33. Absorbing that
+thrust in level flight implies a lift to drag ratio between 1.59 and 1.91, **which no aeroplane in a
+landing configuration achieves.** Pure thrust vectoring therefore cannot meet an operational
+crosswind landing requirement, and a tailless fighter needs an aerodynamic yaw effector at low speed
+that it does not need supersonically. **That is exactly the architecture the X-36 flew and exactly
+the architecture the MANTA proposed to delete.**
+
+**THE ENGINE-OUT CASE GOES THE OTHER WAY AND THE THRUST CANCELS IDENTICALLY.** Trimming a failed
+engine by vectoring the live one needs an angle satisfying the tangent of delta equals y over ell,
+which depends on nothing but where the engines are. Every plausible geometry lands between 4.7 and
+10.5 degrees against a published F-22 deflection of 20. **Two classic fin-sizing cases, opposite
+answers, and reasoning from the fin would have got both wrong.**
+
+**THE F-22 DOES NOT HAVE THE NOZZLE THE MANTA REQUIRED.** Its F119 nozzles are two-dimensional
+convergent-divergent and vector in pitch only. The MANTA is therefore not a subtraction from the
+F-22 but a subtraction and an addition, and the addition is the harder half. Capone and Bare measured
+exactly the sidewall-yaw-flap configuration it needed, across Mach 0.20 to 2.47, and found the
+vectoring increments essentially constant with angle of attack.
+
+**THE UNMANNED AIRCRAFT WAS DERIVED FROM ITS MISSION BECAUSE NOTHING ELSE IS PUBLISHED.** Calibrating
+a thrust lapse exponent of 0.960 in density ratio on the DarkStar's published ceiling, weight and
+thrust gives a locus of weight against ceiling for the F112-powered X-44A. **At a matched 45,000 foot
+ceiling its wing loading is 2.04 times the DarkStar's**, which says it was built to demonstrate a
+configuration and a factory rather than to loiter. **The derivation agrees with the programme's own
+stated purpose and did not use it.** It also carries 8.27 times the X-36's wing area on the same
+engine.
+
+**THE GATE HAD FOUR DEFECTS AND THE AUDIT FOUND ALL FOUR, TWO OF THEM SPELLING VARIANTS.** The
+aerofoil anchor was written as a character class matching the British spelling and a non-word while
+missing `airfoil` entirely. The unmanned aerial vehicle anchor failed on the plural because there is
+no word boundary between the abbreviation and its `s`. `fighter` was omitted altogether. The
+radar-absorbing anchor used a space where the literature uses a hyphen. **This is the sixth
+spelling-variant anchor defect in the series and every one returned a smaller corpus rather than a
+wrong one.**
+
+**NINE NOISE FAMILIES WERE ADDED TO THE SHARED SWEEP STORE IN TWO BATCHES.** Five came from the
+random sample the gate returns, being cavitating flow in a convergent-divergent nozzle, the pilot
+stage of a hydraulic valve, biological flight, the underwater blended wing body and wind turbine
+blades. **Four came from a targeted probe run after the reference set was built**, being ship rudder
+and yaw steering, road vehicle yaw rate control, civil wind engineering, and railway crosswind
+aerodynamics, **none of which appeared in any random sample** because together they were half a
+percent of the corpus. **A random sample detects a mis-tuned gate and a targeted probe detects a rare
+one.** Each is recorded with the record that produced it, and all nine were fixed at the gate before
+any count reached the prose. 296 Crossref records were refused for not being works at all, being peer
+reviews and supplementary components, and 17 more were military part specifications.
+
+**ONE DEFECT WAS CAUGHT BY THE INDEPENDENT NUMBER VERIFIER AND WOULD NOT HAVE BEEN CAUGHT BY
+READING.** A displayed substitution read `0.1667 - 0.0524 = 0.1143` where the sine of three degrees
+is 0.05234, so the line did not evaluate to its own stated answer even though the answer was right.
+**This is the defect the handoff names as the easiest to ship.** Every other stated value in the
+article was re-derived by a verifier that shares no code with the computation that produced them, and
+all 84 checks agree.
+
 ## X-Planes Micro-Craft X-43 Hyper-X A340 2025-11-18
 
 `x_planes_micro_craft_x43_hyper_x.markdown`, A340, editorial date 2025-11-18, series `x_planes`
@@ -7580,18 +7665,17 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fifty-two files exist in `_drafts/`. One is a template. One is this summary.
-**Forty-two are the in-progress X-Planes series, A297 through A338, none of them published**, and
+Fifty-five files exist in `_drafts/`. One is a template. One is this summary.
+**Forty-five are the in-progress X-Planes series, A297 through A341, none of them published**, and
 publication of the series has never been authorised.
 Eight are the pre-release candidates listed below.
 No stubs remain.
 A79 through A144 have been published.
 
-**These counts were re-measured against the working tree on 2026-08-13 rather than carried forward**, and
-again after A337 was drafted.
-The previous version read forty-five files and thirty-five X-Planes drafts running to A331, which had
-been true five articles earlier. **A resume channel that disagrees with the tree is worse than one that
-is merely terse**, so the figures above come from counting the directory.
+**These counts were re-measured against the working tree on 2026-08-30 rather than carried forward.**
+The previous version read fifty-two files and forty-two X-Planes drafts running to A338, which had
+been true three articles earlier. **A resume channel that disagrees with the tree is worse than one
+that is merely terse**, so the figures above come from counting the directory.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.

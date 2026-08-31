@@ -422,6 +422,57 @@ NOISE_PATTERNS = [
      "program consumes. 'A Common Sense Approach to Software Cost Model Selection' "
      "reached the kept set. BOTH SENSES ARE COMPUTING, so a computing qualifier "
      "cannot separate them and only the subject matter can"),
+
+    # ---- observed in the A341 sweep, by reading the kept sample the gate returned.
+    #      Every one of these shares a whole phrase with the subject rather than a
+    #      single word, which is why an aerospace qualifier does not separate them.
+    (r"\bcavitat",
+     "A341: the CONVERGENT-DIVERGENT NOZZLE is a rocket and jet term and also a "
+     "HYDRAULIC one. 'Analysis of high-speed photography of cavitating flow in "
+     "convergent-divergent nozzle' reached the kept set. Cavitation is liquid-phase "
+     "and cannot occur in the flow this series is about"),
+    (r"\bpilot (?:stage|valve|pressure|operated)\b|\bpilot-operated\b",
+     "A341: 'PILOT' is the human being in the aeroplane and also the small first "
+     "stage of a HYDRAULIC VALVE. 'Characteristic and oscillation tendency study for "
+     "different seat geometries of the pilot stage of a valve' reached the kept set, "
+     "carrying 'seat', 'oscillation' and 'pilot' at once"),
+    (r"\b(?:insect|bird|avian|bat|butterfly|beetle)[- ]?(?:wing|flight|flapping)|"
+     r"\bflapping[- ]wing\b|\bornithopter\b|\bfeathers?\b|\bbio-?inspired flight\b",
+     "A341: BIOLOGICAL FLIGHT owns wing, flight, aerodynamics, lift and drag "
+     "completely. 'Passive mechanisms in flying insects and applications in "
+     "bio-inspired flapping-wing micro air vehicles' and 'Morphological effect of "
+     "wing tip feathers on aerodynamics performance of a revolving wing' both "
+     "reached the kept set"),
+    (r"\bunderwater\b|\bsubmarines?\b|\bhydrofoil\b|\bautonomous underwater\b|\bglider fish\b",
+     "A341: the BLENDED WING BODY is an aircraft configuration and also an "
+     "UNDERWATER VEHICLE configuration, and the underwater literature uses the "
+     "identical phrase. 'Synthetic jet-based active flow control for hydrodynamic "
+     "enhancement of a blended-wing-body underwater vehicle' reached the kept set"),
+    (r"\bwind turbines?\b|\bwind energy\b|\btidal turbine\b",
+     "A341: TURBINE BLADES are aerofoils and the wind energy literature writes about "
+     "them in the vocabulary of aerodynamics. Distinct from 'wind tunnel', which must "
+     "survive, so the pattern is anchored on the whole phrase"),
+    (r"\bships?\b|\bvessels?\b|\btwin-screw\b|\bship-steering\b|\bnaval architect",
+     "A341: YAW, ROLL, RUDDER and AUTOPILOT are the whole vocabulary of SHIP steering "
+     "as well as of flight. 'An internal model control approach to the design of "
+     "yaw-rate-control ship-steering autopilots' and 'Dynamic inverse control of ship "
+     "rudder roll/yaw stabilization' both reached the kept set. The boundary before "
+     "'ship' protects AIRSHIP and RELATIONSHIP, which must survive"),
+    (r"\broad vehicles?\b|\bautomobil|\bpassenger cars?\b|\bvehicle yaw rate\b|"
+     r"\bthree-axle\b|\belectronic stability (?:control|program)\b",
+     "A341: VEHICLE YAW RATE CONTROL is a road vehicle dynamics field with its own "
+     "large literature using yaw, sideslip, stability and control identically. "
+     "'Adaptive Yaw Control Of Three-Axle Road Vehicles' reached the kept set"),
+    (r"\btall building|\bhigh-?rise\b|\bnatural ventilation\b|\bbuilding fa[cç]ade|"
+     r"\bbridge deck\b|\bgirder\b|\bwind[- ]?induced vibration of (?:a )?(?:building|bridge)",
+     "A341: WIND ENGINEERING for civil structures runs in wind tunnels, computes "
+     "aerodynamic characteristics and reports crosswind effects. 'Wind Tunnel Studies "
+     "On Tapered Tall Building With Aerodynamic Modification' reached the kept set"),
+    (r"\brailways?\b|\brailroad|\brolling stock\b|\blocomotive|\bhigh-speed trains?\b",
+     "A341: RAILWAY CROSSWIND aerodynamics is a real field using the aerodynamic "
+     "vocabulary. 'Railway applications. Railway rolling stock power and control "
+     "cables' reached the kept set. Note that SHOCK TRAIN is a scramjet isolator term "
+     "and must survive, which is why the pattern does not contain a bare 'train'"),
 ]
 
 _COMPILED = [(re.compile(p, re.I), why) for p, why in NOISE_PATTERNS]
