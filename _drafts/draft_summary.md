@@ -22,11 +22,48 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_x44_one_designation_two_aircraft.markdown`, A341, editorial date 2025-11-19, series
 `x_planes` index 45 of 72.
 
-**24,509 lines, 59 display equations, 11,799 reference definitions, 138,237 words after the
-primary-reference review**, of which **16,890 are author prose**, a dilution factor of 8.2. **Three of
-four passes complete.** Committed and **NOT PUSHED**. The publication review has not run. **The
-equation and primary passes share one commit**, because the pilot prompted for the third while the
-second's build was still running and the tree cannot hold a state it has moved past.
+**28,495 lines, 59 display equations, 13,780 reference definitions, 159,184 words after the
+publication review**, of which **17,574 are author prose**, a dilution factor of 9.1. **All four
+passes complete.** Committed and **PUSHED**. **Not published.** The equation and primary passes share
+one commit, because the pilot prompted for the third while the second's build was still running and
+the tree cannot hold a state it has moved past.
+
+**THE PUBLICATION REVIEW'S ONE SUBSTANTIVE FINDING WAS THAT THE SURVEY UNDER-COVERED THE SUBJECTS OF
+THE ARTICLE'S OWN CONCLUSIONS**, which is the shape A340's publication review found. The first three
+passes harvested for what the article is about. **A conclusion is a claim about a subject too.**
+Probed with the article's results instead of its topics, crosswind landing and approach control stood
+at **40 records**, which is the subject of the strongest result in the article, engine failure and
+minimum control speed at **7**, which is one of the two identities it derives, and aerospace
+designation systems at **0**, which is its entire framing. A supplementary harvest of thirty-one
+queries added **1,981 records** and two new clusters, taking crosswind and approach to 191 and engine
+failure to 51. **Minimum control speed is the regulatory form of exactly the calculation this article
+performs.**
+
+**THE THIRD SUBJECT FAILED AND THE FAILURE IS WORTH MORE THAN THE TWO SUCCESSES.** Eight queries for
+designation systems, nomenclature, records management, classification and archival practice returned
+**1,510 records including Massachusetts tax valuations of 1771, tumour identifiers, salmonella
+serotype naming, dental implant designation systems, adoption secrecy and Chilean human rights
+archives.** Designation, classification, records, identifier and secrecy are among the least
+discriminating words in any literature. **Thirteen survived the aerospace gate and every one was
+component nomenclature**, being oxygen equipment, hydraulic systems, propulsion station numbering and
+aerofoil naming, which is the wrong sense of the word. **A cluster of thirteen off-subject records is
+worse than no cluster because it looks like coverage**, so it was built, read and removed. **This is a
+fourth kind of thin beyond the three the series recognises**, being not reachable by bibliographic
+search at all, and the refusal is recorded in `_research/homonyms.py` with the incident.
+
+**PRIMARY SOURCES 7,681 OF 13,697 AT 56.1 PERCENT AND REPORT PRIMARIES 2,414 AT 17.6**, against 5,026
+at 49.3 percent and 612 at 6.0 before the primary pass. **The count-versus-fraction trap fired at
+every step and both numbers are reported throughout.** Records from 2015 or later went from 3,779 to
+4,450 in count while their share fell from 38.9 percent to 34.1, records predating 1970 went from 454
+to 1,070, and the report share itself fell from 18.3 percent to 17.6 at the last step while its count
+rose from 2,141 to 2,414, because the supplement was aimed at subjects whose literature is largely
+journal and conference work.
+
+**TWO CAPS-EMPHASIS SPANS WERE FOUND AND FIXED AND BOTH WERE MINE**, introduced in the equation and
+primary passes, which is the defect class the 2026-08-14 series audit cleared nine of across four
+articles a fortnight earlier. `rather` had climbed to 5.15 per thousand through the prose those passes
+added, and **eighteen instances were rotated across three forms rather than one substitute**, bringing
+it to 3.83 with `instead` at 0.88 and `and not` at 2.87.
 
 **THE PRIMARY PASS TOOK REPORT PRIMARIES FROM 612 TO 2,141, OR 6.0 PERCENT OF THE CORPUS TO 18.3.**
 Primary sources on the broader definition, counting NASA and Defense Technical Information Center

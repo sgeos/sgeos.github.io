@@ -1,173 +1,119 @@
 ## Last Updated
 
 **Date**: 2026-08-31
-**Task**: **A341 primary-reference review, the third of four passes.** Committed, **not pushed**.
-**This commit also carries the equation-density pass**, which was verified but not separately
-committed because you prompted for the third pass while its build was still running and the tree
-cannot hold a state it has already moved past. **Both passes are described below.** Nothing published
-and publication still not authorised.
+**Task**: **A341 publication review, the fourth and final pass.** Committed and **PUSHED**.
+**Not published.** All forty-five X-Planes drafts remain in `_drafts/` and publication has never been
+authorised.
 
 ---
 
-## The Number the Pass Existed to Move
+## The Review Found One Thing That Mattered and It Was Not a Style Problem
 
-**Report primaries went from 612 to 2,141, or from 6.0 percent of the corpus to 18.3.** Primary sources
-on the broader definition, counting NASA and Defense Technical Information Center reports together with
-AIAA, SAE and Department of Energy identifiers, went from **5,026 of 10,187 at 49.3 percent to 6,555 of
-11,716 at 55.9**.
+**The survey under-covered the subjects of the article's own conclusions.** The first three passes
+harvested for what the article is about. **A conclusion is a claim about a subject too**, and probing
+the survey with the article's results instead of its topics found three of them thin.
 
-**The period statistics moved the other way and I am reporting both numbers because only one of them
-looks like a change.** Records from 2015 or later rose in count from 3,779 to 3,807 while their share
-fell from 38.9 percent to 33.9, and records predating 1970 doubled from 454 to 901. The median
-publication year moved back from 2009 to 2006. **The corpus did not become less current, it became
-deeper in the era the relations come from**, and reporting only the fraction would have made a
-deliberate improvement read as a regression.
+| subject of a conclusion | records before | after |
+|---|---|---|
+| crosswind landing and approach control, the strongest result | 40 | 191 |
+| engine failure and minimum control speed, one of the two identities | 7 | 51 |
+| aerospace designation systems, the article's entire framing | 0 | abandoned |
 
----
-
-## The Subject Audit Was Wrong About Nine Subjects Out of Twelve and I Ran It Twice
-
-**This is the finding of the pass and it is about my instrument rather than about the literature.**
-
-Written in the article's own vocabulary, asking for `tail volume` and `vertical tail sizing`, the audit
-reported the article's own comparison baseline at **eleven records with one report primary.** Rewritten
-in the field's vocabulary, asking for directional stability and control, for the vertical tail in any
-construction, for the empennage and for lateral-directional characteristics, **the same pool returns
-204 records with 32 report primaries, and nothing was harvested between the two measurements.**
-
-The same correction moved the slender-body subject from 9 to 262, the drag polar from 12 to 77 and the
-loop bandwidth subject from 2 to 38. **Nine of the twelve promoted subjects were never thin.**
-
-**A narrow instrument reports a thin literature rather than a bug**, which is why this is invisible in
-every summary statistic, and it is the third time the series has recorded it. I had the lesson in front
-of me from the handoff and wrote the patterns in the article's words anyway.
+**A supplementary harvest of thirty-one queries added 1,981 records and two new clusters.** Minimum
+control speed turns out to be the regulatory form of exactly the calculation this article performs,
+being the speed below which a fin can no longer hold an engine failure, so having the conventional
+answer beside the propulsive one is the point rather than a decoration.
 
 ---
 
-## Three Subjects Are Genuinely Thin and Each for a Different Reason
+## The Third One Failed and the Failure Is Worth More Than the Two Successes
 
-**Naming which kind each one is matters more than the counts, because none of the three is a gap that
-harvesting could close.**
+**This article's whole framing is a designation collision and the survey held nothing on
+designations.** Eight queries were run for designation systems, nomenclature, records management,
+classification and archival practice.
 
-**The standard atmosphere returns three records because it is settled.** It stopped generating papers
-and became a standards document, and the document itself is now cited at the relation that integrates
-it. **A harvest aimed at it would have returned meteorology**, which the sweep store already excludes.
+**They returned 1,510 records including Massachusetts tax valuations of 1771, tumour identifiers,
+salmonella serotype naming, dental implant designation systems, adoption secrecy and Chilean human
+rights archives.** Designation, classification, records, identifier, nomenclature and secrecy are
+among the least discriminating words in any literature, because every discipline that names things
+uses all of them.
 
-**Wing internal volume returns twenty records and almost all are the wrong sense**, being fuel tank
-fire, inerting, sealants and static electricity rather than how much volume a wing encloses. **That
-relation lives in design textbooks and not in the report literature**, and it is cited to books.
+**Thirteen records survived the aerospace gate and every one was the wrong sense of the word**, being
+component nomenclature for oxygen equipment, hydraulic systems, propulsion station numbering and
+aerofoil naming. **A cluster of thirteen off-subject records is worse than no cluster, because it
+looks like coverage.** I built it, read it and removed it.
 
-**Quasi-tailless technique returns twenty-four records with fifteen report primaries, and it is small
-because the field is small.** One aeroplane flew the experiment, inside a variable-stability tradition
-that is itself narrow. **Fifteen report primaries out of twenty-four is a strong showing for a small
-field and not a thin one.**
-
----
-
-## Eleven Foundational Primaries Were Fetched by Identifier Rather Than Searched
-
-**Each is a specific document a relation in this article rests on, and a search returning something
-adjacent would have been worse than useless.** Munk on the aerodynamic forces on airship hulls, which
-is where the slender-body moment the article displays comes from and is dated 1924. Multhopp on the
-aerodynamics of the fuselage. Allen and Perkins on viscous flow over slender inclined bodies. Oswald,
-whose name is on the efficiency factor in the drag polar. The U.S. Standard Atmosphere. Gilruth on
-requirements for satisfactory flying qualities. Campbell and McKinney, Toll and Queijo, and Jones and
-Alksne on lateral derivative estimation. And two in-flight evaluations of pure control system time
-delays, which bound the loop budget with flight data rather than with a phase argument.
-
-**Every one is cited in the prose beside the relation it establishes and not only in the reference
-list.**
+**This is a fourth kind of thin beyond the three the series recognises.** Not never done, not the
+wrong heading, not so settled it stopped generating papers, but **not reachable by bibliographic
+search at all**, because the subject's vocabulary does not discriminate. The subject's real sources
+are the designation registries themselves, which the article already cites and quotes. **The refusal
+is recorded in `_research/homonyms.py` with the incident**, so no later article widens a gate for
+those words.
 
 ---
 
-## The Gate Rejected Two of Those Eleven, Which Is the A333 Failure Exactly
+## Everything Else the Checklist Asks For
 
-**Allen and Perkins was refused because its title uses the vocabulary of the underlying fluid mechanics
-rather than of aircraft, and the U.S. Standard Atmosphere was refused because `atmosphere` was not an
-anchor.** Both were readmitted by name, both anchors were then added so records like them are not
-silently lost, and **the readmission is recorded in the article** because a source admitted by exception
-rather than by rule is one a later reader should be able to question.
+**Prose style is clean and one defect was mine.** Zero contractions, colons, semicolons, em-dashes,
+en-dashes and parentheticals in authored prose. **Two caps-emphasis spans were found and fixed, both
+introduced by me in the previous two passes**, which is the defect the 2026-08-14 series audit cleared
+nine of across four articles. I reintroduced the class within a fortnight of it being cleaned up.
 
-**That takes this article's gate defects to six.** Three more noise families were added to the shared
-sweep store as well, being the signal-processing time compressor against the turbomachinery compressor,
-the ocean families the earlier ship pattern does not reach, and aeromedical research about the crew
-rather than the aeroplane, which entered through the `fighter` anchor this article itself added.
+**Diction.** `rather` had climbed to 5.15 per thousand, above the threshold, entirely through the
+prose the equation and primary passes added. **Eighteen instances were rotated across three forms
+rather than one substitute**, which would only have moved the tic, and it now stands at 3.83 with
+`instead` at 0.88 and `and not` at 2.87. `article` at 4.72 is the article discussing itself in the
+Source Base and Epistemic State, which is the genre working.
 
----
+**Acronyms.** Every multi-letter acronym traced to first use. MANTA, NASA and the Advanced Cruise
+Missile are all spelled out before their first bare use, and the model designations are exempt.
 
-## What the Equation Pass Did, Since It Is In This Commit Too
+**Structural conformance is exact.** All twelve genre sections present and in order, with the three
+series sections placed where A339 places them.
 
-**25 display equations to 59, across 27 edits, and two of them changed what the article says.**
+**Numerical sanity.** 118 re-derivations across two verifiers that share no code with the computation
+that produced the numbers. All agree.
 
-**The draft's sensing claim does not survive being written down.** The gearing from sideslip to nozzle
-is 1.13 degrees per degree and a half-degree measurement error costs 2.9 percent of authority, so the
-static requirement is mild and only the dynamic one binds. **The claim was withdrawn and chased into
-the Dependent Systems section, that subsection's own closing paragraph, and the Epistemic State.**
-
-**Relaxing the constant jet velocity assumption improved the conclusion.** It runs by 25.7 percent
-across the envelope, moving the minimising Mach from 1.674 to 1.550 and cutting the demonstrated
-point's penalty from 13.5 percent to 7.8.
-
-**Three further results.** A propulsive tail volume puts vectoring in a rudder's own units, giving 44
-percent of a thirty-degree rudder at the demonstration point and reproducing the 5.33 throttle factor
-from the opposite direction. The loop budget gives 60 to 90 milliseconds supersonically and says an
-actuator spends it before a processor does. And inverting the slender-body moment shows **the
-instability bracket is conservative**, so every conclusion survives a more unstable aeroplane.
-
-**A second displayed line was found not to evaluate to its own stated answer**, the lapse exponent
-showing the logarithm of 1751 over 8450 and stating 0.960 where those numbers give 0.959. Both
-instances in this article were caught by an instrument and neither by reading.
+**Reference integrity.** Zero undefined, zero orphaned, zero duplicate URLs across 13,780 definitions.
+**Every count the article states about its own corpus was checked against the data it ships with**,
+including all seventeen cluster rows and every cluster's inline record count.
 
 ---
 
-## A Rendering Defect the Rendered Audit Structurally Cannot See
+## Final State
 
-**The build was clean, the rendered audit reported no findings, and the page was still wrong.** An
-edit landed a display equation and the next paragraph's opening sentence on one source line, because
-this article's prose is one paragraph per line and two consecutive edits both anchored there.
-**Kramdown rendered the equation as inline math inside a paragraph and ran two unrelated sentences
-together.**
+**28,495 lines, 59 display equations, 13,780 reference definitions, 159,184 words**, of which 17,574
+are author prose.
 
-**Nothing in the toolchain could have caught it.** The delimiters balance and the markup resolves, so
-`render.py` sees a well-formed page, and no property of the HTML distinguishes an equation the author
-wanted inline from one the author wanted displayed. **I found it by counting display equations in the
-source and `\[` in the rendered HTML and getting 59 against 58.**
+**Primary sources 7,681 of 13,697 research records at 56.1 percent, and report primaries 2,414 at
+17.6.** Against 5,026 at 49.3 percent and 612 at 6.0 before the primary pass.
 
-**The guard is in `lint.py` now rather than in a comment.** `math-display-inlined` is a DEFECT, and it
-was measured across the whole corpus before being promoted, reporting **zero findings** there so it
-gates without flagging anything that already ships. Code is excluded through a new
-`post.strip_code_keeping_lines`, which blanks fenced, Liquid-highlight and indented code while keeping
-line numbers intact so the report points at the right line. **Two regression tests cover it and the
-suite is 81 of 81.** The incident is written up in `VERIFICATION_TRAPS.md`.
-
-**I did not promote it to `_verify.py` and that is your decision rather than mine.** It qualifies on
-the stated grounds, since the corpus is clean of it and the defect reaches a rendered page, but
-`_verify.py` is the CI gate on the deploy path and adding to it is a change of a different kind from
-adding a workbench check. **Say the word and it is about ten lines**, duplicated rather than imported
-because that file must run standalone on a bare runner.
+**Both period numbers, because the count-versus-fraction trap fired at every step.** Records from 2015
+or later went from 3,779 to 4,450 in count while their share fell from 38.9 percent to 34.1, and
+records predating 1970 went from 454 to 1,070. **The report share itself fell at the last step, from
+18.3 percent to 17.6, while its count rose from 2,141 to 2,414**, because the publication supplement
+was aimed at subjects whose literature is largely journal and conference work.
 
 ---
 
 ## State
 
-**24,509 lines, 59 display equations, 11,799 reference definitions, 138,237 words**, of which 16,890
-are author prose. **Two of the four passes were completed in this commit and the publication review
-has not run.**
+**Forty-five of seventy-two drafted. All four passes complete on A341. Committed and PUSHED. NOT
+PUBLISHED, and publication has never been authorised.**
 
-`_verify.py` clean on the draft apart from the `date-filename` artefact every draft reports, zero
-warnings, `lint.py` zero defects, zero true contractions, colons, semicolons or dashes in authored
-prose, reference integrity **zero undefined, zero orphaned, zero duplicate URLs across 11,799
-definitions**. **Every count the article states about its own corpus was checked against the data it
-ships with**, including all fifteen cluster rows and every cluster's inline record count.
-
-**Forty-five of seventy-two drafted, none published, publication never authorised.**
+**43 of the 45 drafts cite a sibling absent from `_posts/`**, so the set publishes in order or
+together and publishing any one alone fails the build.
 
 ---
 
 ## Next
 
-**The publication review of A341 on your prompt**, which is also the pass that pushes.
+**A342, Boeing X-45**, editorial date 2025-11-20, series index 46, on your prompt. **Not started.**
+
+**Two items are still yours to decide.** Whether the new `math-display-inlined` check should be
+promoted from `lint.py` to `_verify.py`, which would make it a CI gate on the deploy path and is about
+ten lines. And the one-word caps defect on the live
+`_posts/2026-08-06-native_lowering_coverage.markdown`, which reads `to ADD TO A COMPLETE MACHINE for
+speed` at line 1306.
 
 **The gate re-harvest of the escaped clusters in the earlier articles remains an open unit of work.**
-**The one-word caps defect on the live `_posts/2026-08-06-native_lowering_coverage.markdown` is still
-yours to decide.**

@@ -468,6 +468,35 @@ NOISE_PATTERNS = [
      "A341: WIND ENGINEERING for civil structures runs in wind tunnels, computes "
      "aerodynamic characteristics and reports crosswind effects. 'Wind Tunnel Studies "
      "On Tapered Tall Building With Aerodynamic Modification' reached the kept set"),
+    # ---- A341, the publication review. A DELIBERATE WIDENING THAT WAS BUILT,
+    #      MEASURED AND ABANDONED. It is recorded as a pattern with an empty effect
+    #      because the useful knowledge is the refusal, not a filter.
+    #
+    #      A341's framing subject is an aircraft DESIGNATION collision, and its
+    #      survey held nothing on designations. Eight queries were run for
+    #      designation systems, nomenclature, records management, classification,
+    #      archival practice and programme secrecy. They returned 1,510 records
+    #      including Massachusetts tax valuations of 1771, tumour identifiers,
+    #      salmonella serotype naming, dental implant designation systems, adoption
+    #      secrecy and Chilean human rights archives.
+    #
+    #      DESIGNATION, CLASSIFICATION, RECORDS, IDENTIFIER, NOMENCLATURE and
+    #      SECRECY are among the least discriminating words in any literature, and
+    #      every discipline that names things uses all of them. Thirteen records
+    #      survived an aerospace gate and every one was component nomenclature,
+    #      being oxygen equipment, hydraulic systems, propulsion station numbering
+    #      and aerofoil naming, which is the wrong sense of the word.
+    #
+    #      DO NOT WIDEN A GATE FOR THESE WORDS. The subject is not reachable by
+    #      bibliographic harvest, and its real sources are the designation
+    #      registries themselves. A weak anchor is worse than no anchor, and this
+    #      is the sharpest instance the store holds.
+    (r"\bsalmonella\b|\bserotype\b|\bdental implant\b|\btax valuation\b|"
+     r"\badoption\b.{0,30}\bsecrecy\b|\bhuman rights\b.{0,30}\barchive",
+     "A341: the residue of a designation and records harvest that was abandoned. These "
+     "specific families reached the shortlist through DESIGNATION, CLASSIFICATION, RECORDS "
+     "and SECRECY, which no aerospace qualifier can separate from their other senses. The "
+     "harvest was removed rather than filtered and the full incident is in the comment above"),
     (r"\btime compressor\b|\bdelay lines?\b|\bcompressor\b(?=[^.]{0,30}\b(?:signal|pulse|radar|acoustic))",
      "A341: COMPRESSOR is a turbomachinery stage and also a SIGNAL PROCESSING device. "
      "'DELAY LINE TIME COMPRESSOR XT-1A' and its WOX-3A sibling reached the kept set "
