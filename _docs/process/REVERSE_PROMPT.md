@@ -1,205 +1,173 @@
 ## Last Updated
 
-**Date**: 2026-08-30
-**Task**: **A341, "X-Planes: X-44, One Designation and Two Aircraft", draft pass.** The first of four.
-Committed, **not pushed**, per the rhythm. **Nothing published and publication still not authorised.**
+**Date**: 2026-08-31
+**Task**: **A341 primary-reference review, the third of four passes.** Committed, **not pushed**.
+**This commit also carries the equation-density pass**, which was verified but not separately
+committed because you prompted for the third pass while its build was still running and the tree
+cannot hold a state it has already moved past. **Both passes are described below.** Nothing published
+and publication still not authorised.
 
 ---
 
-## The Roster Title Was Right and the Two Aircraft Are Both Lockheed Martin
+## The Number the Pass Existed to Move
 
-**Two aircraft carry the designation X-44A and only one of them was ever built.** The Multi-Axis
-No-Tail Aircraft was a proposed tailless F-22 derivative, approved by the National Aeronautics and
-Space Administration in June 1999 and cancelled without metal being cut. The other was a tailless
-unmanned flying wing of about nine metres span, built by the Skunk Works in 1999, first flown in 2001
-and kept out of public view until March 2018. **The aeroplane that exists is the one nobody had heard
-of, and it is now in the National Museum of the United States Air Force.**
+**Report primaries went from 612 to 2,141, or from 6.0 percent of the corpus to 18.3.** Primary sources
+on the broader definition, counting NASA and Defense Technical Information Center reports together with
+AIAA, SAE and Department of Energy identifiers, went from **5,026 of 10,187 at 49.3 percent to 6,555 of
+11,716 at 55.9**.
 
-**This is the fourth article in the last six to turn on a contested designation and the first in which
-both claimants are the same company.** The draft first said fifth consecutive, which the handoff also
-says, and **it does not survive the article's own list**, since the X-40 and the X-43 are both
-undisputed. Four of the last six, not six of six. Three facts about the record are worth your attention. The general
-encyclopaedia has split into two entries, the second stating that it appears unrelated to the first.
-**Parsch's Appendix 4 has no page for the X-44 at all**, and a request for one returns a not-found
-listing the X-41, X-42, X-45, X-47 and X-48 as near misses, which is notable because that registry
-documents this series' other disputed numbers carefully. And **the journalism that broke the story
-said plainly that it does not know how the flying wing came to carry the number.**
-
-**I did not resolve it and I do not think it can be resolved from public sources.**
+**The period statistics moved the other way and I am reporting both numbers because only one of them
+looks like a change.** Records from 2015 or later rose in count from 3,779 to 3,807 while their share
+fell from 38.9 percent to 33.9, and records predating 1970 doubled from 454 to 901. The median
+publication year moved back from 2009 to 2006. **The corpus did not become less current, it became
+deeper in the era the relations come from**, and reporting only the fraction would have made a
+deliberate improvement read as a regression.
 
 ---
 
-## The Keystone Needs No Vehicle Data, Which Is Why It Survives the Thin Record
+## The Subject Audit Was Wrong About Nine Subjects Out of Twelve and I Ran It Twice
 
-**The question the MANTA existed to answer had already been answered in flight five years earlier, by
-an aeroplane this series covered at A328.** The X-31 flew a hundred percent simulated vertical tail
-removal at Mach 1.2 and 37,500 feet in March 1994, restabilised by yaw thrust vectoring, and concluded
-that tailless fighters are feasible. **So the article asks a different question, which is what one
-demonstrated point is worth.**
+**This is the finding of the pass and it is about my instrument rather than about the literature.**
 
-**The static pressure cancels exactly.** It enters the thrust-vectored yaw authority through the
-engine's corrected mass flow and the aerodynamic demand through the dynamic pressure, to the same
-power. Above the tropopause the ratio is therefore a function of Mach number alone, verified at five
-altitudes to one part in ten to the twelfth and against a closed form at three more with exact
-agreement.
+Written in the article's own vocabulary, asking for `tail volume` and `vertical tail sizing`, the audit
+reported the article's own comparison baseline at **eleven records with one report primary.** Rewritten
+in the field's vocabulary, asking for directional stability and control, for the vertical tail in any
+construction, for the empennage and for lateral-directional characteristics, **the same pool returns
+204 records with 32 report primaries, and nothing was harvested between the two measurements.**
 
-**That function has a minimum and it is not where intuition puts it.** Under ideal recovery the
-minimising Mach is exactly the square root of five halves and the value there is exactly 1.35, both
-confirmed by bisection on a numerically differenced derivative and by a brute-force grid. With the
-military specification inlet recovery model the minimum sits at Mach 1.674. **The demonstrated point
-stands 1.135 times above it**, so one supersonic point very nearly covered the whole supersonic
-envelope. **The demonstration was flown next to the hardest condition available rather than at a soft
-one**, and whether by design or by the accident of the X-31's envelope the record does not say.
+The same correction moved the slender-body subject from 9 to 262, the drag polar from 12 to 77 and the
+loop bandwidth subject from 2 to 38. **Nine of the twelve promoted subjects were never thin.**
+
+**A narrow instrument reports a thin literature rather than a bug**, which is why this is invisible in
+every summary statistic, and it is the third time the series has recorded it. I had the lesson in front
+of me from the handoff and wrote the patterns in the article's words anyway.
 
 ---
 
-## A Second and Cleaner Cancellation That I Did Not Anticipate
+## Three Subjects Are Genuinely Thin and Each for a Different Reason
 
-**For a crosswind of fixed speed the sideslip angle goes as one over true airspeed, which introduces a
-second square root of temperature that cancels the one already there.** Both pressure and temperature
-vanish. The required vector angle depends on Mach number alone, at every altitude, in every
-atmosphere, for every crosswind speed and for every aeroplane, **and it peaks at exactly Mach one**,
-because the derivative is proportional to one minus Mach squared.
+**Naming which kind each one is matters more than the counts, because none of the three is a gap that
+harvesting could close.**
 
-**Read at equal throttle that says the approach is the easiest case in the envelope, not the hardest**,
-which is the opposite of what every conventional aeroplane suggests.
+**The standard atmosphere returns three records because it is settled.** It stopped generating papers
+and became a standards document, and the document itself is now cited at the relation that integrates
+it. **A harvest aimed at it would have returned meteorology**, which the sweep store already excludes.
 
----
+**Wing internal volume returns twenty records and almost all are the wrong sense**, being fuel tank
+fire, inerting, sealants and static electricity rather than how much volume a wing encloses. **That
+relation lives in design textbooks and not in the report literature**, and it is cited to books.
 
-## The Concept Fails at the Runway and the Mechanism Is the Throttle
-
-**On an approach the throttle is nearly closed and the control authority is the thrust.** Restoring
-the demonstrated margin on a sea-level approach at 150 knots in a 15 metre per second crosswind needs
-**38.4 percent throttle against the 7.2 percent the three degree glide slope needs, a factor of
-5.33.**
-
-**That is not merely expensive, it is impossible, and saying why is the strongest thing in the
-article.** Absorbing that thrust in level flight implies a lift to drag ratio between 1.59 and 1.91.
-**No aeroplane approaches below two**, and a fighter with gear and flaps down is near six. **Pure
-thrust vectoring cannot meet an operational crosswind landing requirement**, so a tailless fighter
-needs an aerodynamic yaw effector at low speed that it does not need supersonically. That is exactly
-the architecture the X-36 flew and exactly the architecture the MANTA proposed to delete.
-
-**Every airframe quantity cancelled in the ratio**, so the wing area, the span, the yaw derivative and
-the moment arm never had to be known.
+**Quasi-tailless technique returns twenty-four records with fifteen report primaries, and it is small
+because the field is small.** One aeroplane flew the experiment, inside a variable-stability tradition
+that is itself narrow. **Fifteen report primaries out of twenty-four is a strong showing for a small
+field and not a thin one.**
 
 ---
 
-## The Engine-Out Case Goes the Other Way and the Thrust Cancels Identically
+## Eleven Foundational Primaries Were Fetched by Identifier Rather Than Searched
 
-**Trimming a failed engine by vectoring the live one needs an angle satisfying the tangent of delta
-equals y over ell.** The thrust cancels. It does not depend on altitude, speed, atmosphere or any
-aerodynamic property. Every plausible geometry lands between 4.7 and 10.5 degrees against a published
-F-22 deflection of twenty. **The engine-out case, which is one of the two classic reasons fins are
-large, simply does not size a thrust-vectored aeroplane.**
+**Each is a specific document a relation in this article rests on, and a search returning something
+adjacent would have been worse than useless.** Munk on the aerodynamic forces on airship hulls, which
+is where the slender-body moment the article displays comes from and is dated 1924. Multhopp on the
+aerodynamics of the fuselage. Allen and Perkins on viscous flow over slender inclined bodies. Oswald,
+whose name is on the efficiency factor in the drag polar. The U.S. Standard Atmosphere. Gilruth on
+requirements for satisfactory flying qualities. Campbell and McKinney, Toll and Queijo, and Jones and
+Alksne on lateral derivative estimation. And two in-flight evaluations of pure control system time
+delays, which bound the loop budget with flight data rather than with a phase argument.
 
-**Two classic fin-sizing cases, opposite answers, and reasoning from the fin would have got both
-wrong.**
-
----
-
-## The Modification Nobody Counts
-
-**The F-22 has no yaw vectoring.** Its F119 nozzles are two-dimensional convergent-divergent and
-deflect in pitch only, through plus or minus twenty degrees. **The MANTA is therefore not a
-subtraction from the F-22 but a subtraction and an addition, and the addition is the harder half.**
-Capone and Bare measured exactly the sidewall-yaw-flap configuration it needed across Mach 0.20 to
-2.47 and found the vectoring increments essentially constant with angle of attack, which is what a
-tailless aeroplane needs and what a fin cannot give.
+**Every one is cited in the prose beside the relation it establishes and not only in the reference
+list.**
 
 ---
 
-## The Unmanned Aircraft, Derived From Its Mission
+## The Gate Rejected Two of Those Eleven, Which Is the A333 Failure Exactly
 
-**One dimension, one engine and two dates are the entire released specification.** Calibrating a
-thrust lapse exponent of 0.960 in density ratio on the DarkStar's published ceiling, weight and thrust
-gives a locus of weight against ceiling rather than a point, because the two are not separately
-knowable. **At a matched 45,000 foot ceiling the wing loading is 2.04 times the DarkStar's**, which
-says it was built to demonstrate a configuration and a factory rather than to loiter. **That agrees
-with the programme's own stated purpose and the derivation did not use it.** It also carries 8.27
-times the X-36's wing area on the same engine.
+**Allen and Perkins was refused because its title uses the vocabulary of the underlying fluid mechanics
+rather than of aircraft, and the U.S. Standard Atmosphere was refused because `atmosphere` was not an
+anchor.** Both were readmitted by name, both anchors were then added so records like them are not
+silently lost, and **the readmission is recorded in the article** because a source admitted by exception
+rather than by rule is one a later reader should be able to question.
 
-**The load-bearing assumption is the DarkStar's wing area, which is not published.** I put that at the
-point of use rather than only in the epistemic state, because every absolute number in the table
-inherits it. **The ratio between the two wing loadings does not**, since the same assumed polar enters
-both.
+**That takes this article's gate defects to six.** Three more noise families were added to the shared
+sweep store as well, being the signal-processing time compressor against the turbomachinery compressor,
+the ocean families the earlier ship pattern does not reach, and aeromedical research about the crew
+rather than the aeroplane, which entered through the `fighter` anchor this article itself added.
 
 ---
 
-## The Gate Had Four Defects and the Audit Found All Four
+## What the Equation Pass Did, Since It Is In This Commit Too
 
-**Two of them were spelling variants, which makes six such defects in this series.** The aerofoil
-anchor was written as a character class matching the British spelling and a non-word while missing
-`airfoil` entirely, caught in the dropped sample on a paper about rigid airfoils. The unmanned aerial
-vehicle anchor failed on the plural, because there is no word boundary between the abbreviation and
-its `s`. `fighter` was omitted altogether. `radar absorb` was written with a space where the literature
-uses a hyphen. **Every one returned a smaller corpus rather than a wrong one, which is why they
-survive passes.**
+**25 display equations to 59, across 27 edits, and two of them changed what the article says.**
 
-**Nine noise families were added to the shared sweep store, in two batches, and the second batch is
-the more interesting one.** The first five came from the random sample the gate returns, being
-cavitating flow in a convergent-divergent nozzle, the pilot stage of a hydraulic valve, biological
-flight, the underwater blended wing body and wind turbine blades. **The last four came from a targeted
-probe I ran after the reference set was already built**, being ship rudder and yaw steering, road
-vehicle yaw rate control, civil wind engineering for tall buildings, and railway crosswind
-aerodynamics. **None of those four appeared in any random sample**, because together they were about
-half a percent of the corpus, which a sample of thirty will not contain. **A random sample detects a
-mis-tuned gate and a targeted probe detects a rare one, and I do not think they are substitutes.**
+**The draft's sensing claim does not survive being written down.** The gearing from sideslip to nozzle
+is 1.13 degrees per degree and a half-degree measurement error costs 2.9 percent of authority, so the
+static requirement is mild and only the dynamic one binds. **The claim was withdrawn and chased into
+the Dependent Systems section, that subsection's own closing paragraph, and the Epistemic State.**
 
-**Two of the four patterns needed care rather than obviousness.** A bare `train` anchor would have
-removed the scramjet isolator shock train, and a bare `ship` anchor would have removed airships and
-every use of the word relationship. **Each carries the record that produced it.** I fixed all nine at
-the gate before writing any count into the prose, which is the point the last audit made about
-repairing the artefact instead.
+**Relaxing the constant jet velocity assumption improved the conclusion.** It runs by 25.7 percent
+across the envelope, moving the minimising Mach from 1.674 to 1.550 and cutting the demonstrated
+point's penalty from 13.5 percent to 7.8.
 
-**296 Crossref records were refused for not being works at all**, being peer reviews whose titles read
-as a review of a named paper and supplementary components sharing an identifier stem with their
-parent. Seventeen more were military part specifications whose titles are noun phrases inverted for
-filing.
+**Three further results.** A propulsive tail volume puts vectoring in a rudder's own units, giving 44
+percent of a thirty-degree rudder at the demonstration point and reproducing the 5.33 throttle factor
+from the opposite direction. The loop budget gives 60 to 90 milliseconds supersonically and says an
+actuator spends it before a processor does. And inverting the slender-body moment shows **the
+instability bracket is conservative**, so every conclusion survives a more unstable aeroplane.
+
+**A second displayed line was found not to evaluate to its own stated answer**, the lapse exponent
+showing the logarithm of 1751 over 8450 and stating 0.960 where those numbers give 0.959. Both
+instances in this article were caught by an instrument and neither by reading.
 
 ---
 
-## One Defect the Verifier Caught and Reading Would Not Have
+## A Rendering Defect the Rendered Audit Structurally Cannot See
 
-**A displayed substitution read `0.1667 - 0.0524 = 0.1143` where the sine of three degrees is
-0.05234.** The answer was right and the line did not evaluate to its own stated answer. **This is the
-defect the handoff names as the easiest to ship**, and it was found only because an independent
-verifier reads the tables out of the finished article and re-derives them.
+**The build was clean, the rendered audit reported no findings, and the page was still wrong.** An
+edit landed a display equation and the next paragraph's opening sentence on one source line, because
+this article's prose is one paragraph per line and two consecutive edits both anchored there.
+**Kramdown rendered the equation as inline math inside a paragraph and ran two unrelated sentences
+together.**
 
-**Every other stated value agrees.** 84 checks, run by a file that shares no code with the computation
-that produced the numbers, re-implementing the atmosphere and the engine model from their defining
-equations.
+**Nothing in the toolchain could have caught it.** The delimiters balance and the markup resolves, so
+`render.py` sees a well-formed page, and no property of the HTML distinguishes an equation the author
+wanted inline from one the author wanted displayed. **I found it by counting display equations in the
+source and `\[` in the rendered HTML and getting 59 against 58.**
 
----
+**The guard is in `lint.py` now rather than in a comment.** `math-display-inlined` is a DEFECT, and it
+was measured across the whole corpus before being promoted, reporting **zero findings** there so it
+gates without flagging anything that already ships. Code is excluded through a new
+`post.strip_code_keeping_lines`, which blanks fenced, Liquid-highlight and indented code while keeping
+line numbers intact so the report points at the right line. **Two regression tests cover it and the
+suite is 81 of 81.** The incident is written up in `VERIFICATION_TRAPS.md`.
 
-## One Thing I Changed About How the Survey Is Emitted
-
-**My first version emitted each cluster as a bulleted list and that is not the corpus convention.**
-A339 and A340 both emit a short prose paragraph, a bold record count and one inline run of citations,
-which is two lines per record against three and says what the cluster holds. **The first version came
-out at 31,410 lines against 21,239 for the same content**, and carried no description of any cluster.
-I switched to the convention and wrote the sixteen paragraphs.
+**I did not promote it to `_verify.py` and that is your decision rather than mine.** It qualifies on
+the stated grounds, since the corpus is clean of it and the defect reaches a rendered page, but
+`_verify.py` is the CI gate on the deploy path and adding to it is a change of a different kind from
+adding a workbench check. **Say the word and it is about ten lines**, duplicated rather than imported
+because that file must run standalone on a bare runner.
 
 ---
 
 ## State
 
-**Forty-five of seventy-two drafted, none published, publication never authorised.** A341 is committed
-and **not pushed**, which is correct for the draft pass. **21,239 lines, 25 display equations, 10,270
-reference definitions, 118,123 words.** Reference integrity is zero undefined, zero orphaned and zero
-duplicate URLs. `_verify.py` and `lint.py` are clean.
+**24,509 lines, 59 display equations, 11,799 reference definitions, 138,237 words**, of which 16,890
+are author prose. **Two of the four passes were completed in this commit and the publication review
+has not run.**
 
-**Twenty-five equations is well below the series median of 94 and I have not padded it.** The
-equation-density review is the pass that audits it and it has not run.
+`_verify.py` clean on the draft apart from the `date-filename` artefact every draft reports, zero
+warnings, `lint.py` zero defects, zero true contractions, colons, semicolons or dashes in authored
+prose, reference integrity **zero undefined, zero orphaned, zero duplicate URLs across 11,799
+definitions**. **Every count the article states about its own corpus was checked against the data it
+ships with**, including all fifteen cluster rows and every cluster's inline record count.
+
+**Forty-five of seventy-two drafted, none published, publication never authorised.**
 
 ---
 
 ## Next
 
-**The equation-density review of A341 on your prompt**, then the primary-reference review, then the
-publication review, which is also the pass that pushes. **A342, Boeing X-45**, editorial date
-2025-11-20, series index 46, follows after that.
+**The publication review of A341 on your prompt**, which is also the pass that pushes.
 
-**The gate re-harvest of the escaped clusters in the earlier articles remains an open unit of work**
-and is unaffected by anything here. **The one-word caps defect on the live
-`_posts/2026-08-06-native_lowering_coverage.markdown` is still yours to decide.**
+**The gate re-harvest of the escaped clusters in the earlier articles remains an open unit of work.**
+**The one-word caps defect on the live `_posts/2026-08-06-native_lowering_coverage.markdown` is still
+yours to decide.**

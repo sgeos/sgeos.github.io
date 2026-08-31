@@ -66,6 +66,27 @@ def strip_code(text):
     return re.sub(r"`[^`\n]+`", " ", t)
 
 
+def strip_code_keeping_lines(text):
+    """Blank fenced code, Liquid highlight blocks and inline code, PRESERVING LINE NUMBERS.
+
+    `strip_code` deletes the code, which shifts every later line and makes any
+    per-line report point at the wrong place. A check that names a line number
+    needs the numbering intact, so each removed region is replaced by the same
+    count of newlines rather than by a space.
+
+    Indented code is blanked too, by leading tab or four spaces, which
+    `strip_code` does not handle because it never needed to.
+    """
+    def blank(m):
+        return "\n" * m.group(0).count("\n")
+
+    t = re.sub(r"(?s)```.*?```", blank, text)
+    t = re.sub(r"(?s)\{%\s*highlight.*?\{%\s*endhighlight\s*%\}", blank, t)
+    t = re.sub(r"`[^`\n]+`", " ", t)
+    return "\n".join("" if (l.startswith("\t") or l.startswith("    ")) else l
+                     for l in t.split("\n"))
+
+
 def definitions(text):
     """{anchor: url} from the reference block, or from the whole file if there is none."""
     return {a: u.strip() for a, u in DEF_LINE.findall(references(text) or text)}

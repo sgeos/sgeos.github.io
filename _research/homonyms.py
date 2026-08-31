@@ -468,6 +468,22 @@ NOISE_PATTERNS = [
      "A341: WIND ENGINEERING for civil structures runs in wind tunnels, computes "
      "aerodynamic characteristics and reports crosswind effects. 'Wind Tunnel Studies "
      "On Tapered Tall Building With Aerodynamic Modification' reached the kept set"),
+    (r"\btime compressor\b|\bdelay lines?\b|\bcompressor\b(?=[^.]{0,30}\b(?:signal|pulse|radar|acoustic))",
+     "A341: COMPRESSOR is a turbomachinery stage and also a SIGNAL PROCESSING device. "
+     "'DELAY LINE TIME COMPRESSOR XT-1A' and its WOX-3A sibling reached the kept set "
+     "through the turbomachinery anchor, from a Defense Technical Information Center "
+     "harvest aimed at engine cycles"),
+    (r"\bdeep ocean\b|\bocean (?:wave|profiler|surveillance|current)\b|\bcoastal\b|"
+     r"\bwave (?:forces|spectra|shoaling)\b|\bbuoy\b",
+     "A341: the MARINE pattern added earlier is anchored on ship and vessel and does not "
+     "catch OCEAN. 'Deep Ocean Unmanned Vehicle Program' entered through the unmanned "
+     "anchor and 'TABLES OF THE STATISTICAL DISTRIBUTION OF OCEAN WAVE FORCES' through drag"),
+    (r"\bindex of thermal stress\b|\bhot-weather\b|\bheat strain\b|\bhypoxia\b|"
+     r"\bacceleration tolerance\b|\bg-induced loss\b",
+     "A341: AEROMEDICAL research is about the crew rather than the aeroplane and shares "
+     "fighter, aircrew and flight completely. 'Fighter Index of Thermal Stress: Development "
+     "of Interim Guidance for Hot-Weather USAF Operations' reached the kept set through the "
+     "`fighter` anchor this article itself added"),
     (r"\brailways?\b|\brailroad|\brolling stock\b|\blocomotive|\bhigh-speed trains?\b",
      "A341: RAILWAY CROSSWIND aerodynamics is a real field using the aerodynamic "
      "vocabulary. 'Railway applications. Railway rolling stock power and control "

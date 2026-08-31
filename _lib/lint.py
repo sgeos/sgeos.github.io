@@ -41,6 +41,11 @@ def _split(text):
 _strip_code = post.strip_code
 
 
+def _strip_code_lines(text):
+    """Lines with code blanked and numbering preserved. Structure lives in post.py."""
+    return post.strip_code_keeping_lines(text).split("\n")
+
+
 def scan(text):
     """Return a list of (severity, check, detail)."""
     out = []
@@ -57,6 +62,29 @@ def scan(text):
                     f"{mm.group(0)!r}; MathJax reads it as a line break"))
     if stripped.count("$$") % 2:
         out.append((DEFECT, "math-delimiters", "odd number of $$ delimiters"))
+
+    # A DISPLAY EQUATION SHARING A LINE WITH PROSE IS DEMOTED TO INLINE MATH, AND
+    # NOTHING ELSE IN THE TOOLCHAIN SEES IT. A341 shipped one into a build: an edit
+    # landed `$$...$$` and the next paragraph's opening sentence on the same source
+    # line, and kramdown rendered `\(...\)` inside a paragraph with two unrelated
+    # sentences run together. `render.py` cannot catch it, because the delimiters
+    # balance and the markup resolves; the page is merely wrong. It was found by
+    # comparing the source equation count against the rendered one.
+    #
+    # Measured across the whole corpus before being made a defect: four offending
+    # lines in three files, of which three are shell and Makefile syntax inside
+    # code blocks, which `strip_code` removes. The corpus is clean.
+    for i, line in enumerate(_strip_code_lines(text)):
+        if "$$" not in line:
+            continue
+        if re.match(r"^\$\$.*\$\$$", line):        # a complete display equation
+            continue
+        if re.match(r"^\$\$[^$]*$", line) or re.match(r"^[^$]*\$\$$", line):
+            continue                              # one half of a two-line equation
+        if re.match(r"^- \[.*\]\[" + ANCHOR + r"\]$", line):
+            continue    # a reference bullet whose LINK TEXT is a title containing math
+        out.append((DEFECT, "math-display-inlined",
+                    f"line {i+1}: $$ shares a line with prose; renders as INLINE math"))
 
     # ANCHORS ARE COUNTED ACROSS THE WHOLE FILE, NOT BODY AGAINST REFERENCE BLOCK.
     #

@@ -269,6 +269,37 @@ recoverable in one minute from the source, and asserting a mechanism without che
 the same defect the corpus documents everywhere else, arriving in the diagnosis rather than in
 the article.
 
+## A rendered-output audit cannot see a display equation demoted to inline math
+
+**What happened.** In A341 an edit landed a `$$...$$` display equation and the next paragraph's
+opening sentence on the same source line, because the article's prose is written one paragraph per
+line and two consecutive edits both anchored on that line. Kramdown rendered the equation as inline
+math inside a paragraph and ran two unrelated sentences together.
+
+**Why nothing caught it.** `render.py` is the only instrument that sees what a reader sees, and it
+looks for unbalanced delimiters, unresolved markup and unexpanded Liquid. **Here the delimiters
+balance and the markup resolves.** The page is not malformed, it is merely wrong, and no property of
+the HTML distinguishes an equation the author wanted inline from one the author wanted displayed.
+`_verify.py` and `lint.py` both read source and had no rule about it either.
+
+**The check.** Count display equations in the source and count `\[` in the rendered HTML, and require
+them to agree. The discrepancy was one, which is what pointed at the line. **A count comparison
+between two representations finds what neither representation can report on its own.**
+
+**The guard.** `lint.py` now carries `math-display-inlined` as a DEFECT, firing when a line contains
+`$$` and is neither a complete one-line display equation, nor one half of a two-line one, nor a
+reference bullet whose link text is a title containing math. **It was measured across the whole corpus
+before being made a defect** and reports zero findings there, so it gates without flagging anything
+that already ships. Code is excluded through `post.strip_code_keeping_lines`, which blanks fenced,
+Liquid-highlight and indented code while preserving line numbers so the report points at the right
+line. Two regression tests cover it.
+
+**The habit.** When an edit batch inserts an equation next to prose in an unwrapped file, the
+separating blank line is the thing to check, and the cheapest way to check it is to compare counts
+across the source and the render rather than to read.
+
+---
+
 ## A wait loop that matches its own command line can never exit
 
 **2026-08-13, twenty-two leaked shells across three sessions.** Waiting for a background job was

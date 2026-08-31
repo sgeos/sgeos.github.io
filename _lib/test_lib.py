@@ -20,6 +20,7 @@ import diction
 import edits
 import gate
 import lint
+import post
 import refs
 import reflow
 import render
@@ -245,6 +246,50 @@ def t_lint_doubled_backslash():
 def t_lint_glued_heading():
     rows = lint.scan(FM + "Some prose. ## Heading\n\nmore\n")
     assert any(c == "heading-inline" and s == lint.DEFECT for s, c, _ in rows), rows
+
+
+def t_lint_display_math_sharing_a_line_with_prose():
+    """A341 shipped one of these into a build and nothing in the toolchain saw it.
+
+    An edit landed `$$...$$` and the next paragraph's opening sentence on one
+    source line. Kramdown rendered it as INLINE math inside a paragraph, with
+    two unrelated sentences run together. The delimiters balance and the markup
+    resolves, so `render.py` reports nothing; the page is merely wrong. It was
+    found by comparing the source equation count against the rendered one.
+    """
+    bad = FM + "prose\n\n$$a = b$$ **Next paragraph opens here.**\n"
+    rows = lint.scan(bad)
+    assert any(c == "math-display-inlined" and s == lint.DEFECT for s, c, _ in rows), rows
+
+    # A COMPLETE DISPLAY EQUATION ON ITS OWN LINE MUST NOT FIRE.
+    good = FM + "prose\n\n$$a = b$$\n\nmore prose\n"
+    assert not any(c == "math-display-inlined" for _s, c, _ in lint.scan(good))
+
+    # NEITHER MUST A TWO-LINE EQUATION, which 24 percent of the corpus uses and
+    # which kramdown renders correctly. It is a convention, not a defect.
+    two = FM + "prose\n\n$$a = b\nc = d$$\n\nmore\n"
+    assert not any(c == "math-display-inlined" for _s, c, _ in lint.scan(two))
+
+    # NOR A REFERENCE BULLET whose link text is a paper title containing math.
+    ref = FM + "prose\n\n- [$$L_1$$ adaptive control 2026][research_a_2026]\n"
+    assert not any(c == "math-display-inlined" for _s, c, _ in lint.scan(ref))
+
+    # NOR SHELL OR MAKEFILE SYNTAX INSIDE CODE, where `$$` is the shell's own.
+    code = FM + "prose\n\n```sh\nfor i in 1 2; do echo $$i; done\n```\n"
+    assert not any(c == "math-display-inlined" for _s, c, _ in lint.scan(code))
+
+
+def t_post_strip_code_keeping_lines_preserves_numbering():
+    """The line-preserving stripper must not shift the numbers it exists to keep."""
+    text = "a\n```\ncode\nmore code\n```\nb\n"
+    out = post.strip_code_keeping_lines(text)
+    assert len(out.split("\n")) == len(text.split("\n")), (out, text)
+    assert out.split("\n")[5] == "b", out.split("\n")
+    # a Liquid highlight block is code too, and a tab-indented line is code
+    liquid = "a\n{% highlight sh %}\n$$x\n{% endhighlight %}\nb\n"
+    assert len(post.strip_code_keeping_lines(liquid).split("\n")) == len(liquid.split("\n"))
+    assert "$$x" not in post.strip_code_keeping_lines(liquid)
+    assert post.strip_code_keeping_lines("\tmake $$i\n").strip() == ""
 
 
 def t_lint_unfilled_template():

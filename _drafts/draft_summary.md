@@ -22,9 +22,119 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_x44_one_designation_two_aircraft.markdown`, A341, editorial date 2025-11-19, series
 `x_planes` index 45 of 72.
 
-**21,239 lines, 25 display equations, 10,270 reference definitions, 118,123 words after the draft
-pass**, of which 11,459 are author prose, a dilution factor of 10.3. **Draft pass only.** Committed
-and **NOT PUSHED**. The equation-density, primary-reference and publication reviews have not run.
+**24,509 lines, 59 display equations, 11,799 reference definitions, 138,237 words after the
+primary-reference review**, of which **16,890 are author prose**, a dilution factor of 8.2. **Three of
+four passes complete.** Committed and **NOT PUSHED**. The publication review has not run. **The
+equation and primary passes share one commit**, because the pilot prompted for the third while the
+second's build was still running and the tree cannot hold a state it has moved past.
+
+**THE PRIMARY PASS TOOK REPORT PRIMARIES FROM 612 TO 2,141, OR 6.0 PERCENT OF THE CORPUS TO 18.3.**
+Primary sources on the broader definition, counting NASA and Defense Technical Information Center
+reports with AIAA, SAE and Department of Energy identifiers, went from 5,026 of 10,187 at 49.3 percent
+to **6,555 of 11,716 at 55.9**. **The count-versus-fraction trap fired in the classic direction and the
+article reports both numbers**, records from 2015 or later rising in count from 3,779 to 3,807 while
+their share fell from 38.9 percent to 33.9, records predating 1970 doubling from 454 to 901, and the
+median publication year moving back from 2009 to 2006.
+
+**THE FINDING OF THE PASS IS THAT ITS OWN FIRST INSTRUMENT WAS WRONG ABOUT NINE SUBJECTS OF TWELVE.**
+Written in the article's vocabulary, asking for tail volume and vertical tail sizing, the audit
+reported the article's own comparison baseline at **11 records with 1 report primary**. Rewritten in
+the field's vocabulary, asking for directional stability and control, the vertical tail in any
+construction, the empennage and lateral-directional characteristics, **the same pool returns 204
+records with 32 report primaries and nothing was harvested between the two measurements.** The same
+correction moved the slender-body subject from 9 to 262, the drag polar from 12 to 77 and the loop
+bandwidth subject from 2 to 38. **This is the third time the series has recorded an apparent gap
+closing on the instrument rather than on the pool.**
+
+**THREE SUBJECTS ARE GENUINELY THIN AND EACH FOR A DIFFERENT ONE OF THE THREE RECOGNISED REASONS.**
+The standard atmosphere returns three records because it is **settled** and became a standards document,
+now cited as one at the relation that integrates it. Wing internal volume returns twenty of which
+almost all are fuel tank fire, inerting and sealants, because **that relation lives in design textbooks
+and not in the report literature**, and it is cited to books. Quasi-tailless technique returns
+twenty-four with fifteen report primaries and is **small because the field is small**. **None is a gap
+harvesting could close, and naming the kind matters more than the count.**
+
+**ELEVEN FOUNDATIONAL PRIMARIES WERE FETCHED BY IDENTIFIER RATHER THAN SEARCHED**, being Munk 1924 on
+the aerodynamic forces on airship hulls, Multhopp 1942 on the aerodynamics of the fuselage, Allen and
+Perkins 1951 on viscous flow over slender inclined bodies, Oswald 1932, the U.S. Standard Atmosphere,
+Gilruth 1943, Campbell and McKinney 1951, Toll and Queijo 1948, Jones and Alksne 1951, and two
+in-flight evaluations of pure control system time delays that bound the loop budget with flight data
+rather than with a phase argument. **Each is cited in prose beside the relation it establishes.**
+
+**A RENDERING DEFECT WAS FOUND THAT THE RENDERED AUDIT STRUCTURALLY CANNOT SEE.** An edit landed a
+display equation and the next paragraph's opening sentence on one source line, because this article's
+prose is one paragraph per line, and kramdown rendered the equation as inline math with two unrelated
+sentences run together. **The delimiters balance and the markup resolves, so the build was clean and
+`render.py` reported no findings.** It was caught by counting display equations in the source against
+the rendered HTML and getting 59 against 58. **`lint.py` now carries `math-display-inlined` as a
+defect**, measured corpus-wide at zero findings before promotion, with code excluded through a new
+`post.strip_code_keeping_lines` that preserves line numbering, and two regression tests. Written up in
+`VERIFICATION_TRAPS.md`.
+
+**THE GATE REJECTED TWO OF THOSE ELEVEN, WHICH IS THE A333 FAILURE EXACTLY.** Allen and Perkins was
+refused because its title uses the vocabulary of the underlying fluid mechanics rather than of
+aircraft, and the Standard Atmosphere because `atmosphere` was not an anchor. Both were readmitted by
+name, both anchors added, and **the readmission is recorded in the article** because a source admitted
+by exception rather than by rule is one a later reader should be able to question. **That takes this
+article's gate defects to six.** Three further noise families were added to the sweep store, being the
+signal-processing time compressor against the turbomachinery one, the ocean families the earlier ship
+pattern does not reach, and aeromedical research entering through the `fighter` anchor this article
+itself added.
+
+**THE AUTHOR-PROSE FIGURE RECORDED FOR THE DRAFT PASS WAS UNDERSTATED AND IS CORRECTED HERE.** It was
+reported as 11,459 words, which was measured before the survey was rewritten from bulleted lists into
+the corpus's inline-citation convention and therefore predates the sixteen cluster paragraphs that
+rewrite added. **Measured against the committed draft with the same instrument used above, the draft
+pass stood at 12,642 author prose words and a dilution factor of 9.4**, so the equation pass added
+2,916 words of prose rather than the 4,099 a naive comparison would suggest. The commit message for
+the draft pass carries the stale figure and cannot be amended.
+
+**THE EQUATION PASS TOOK 25 DISPLAY EQUATIONS TO 59 ACROSS 27 EDITS AND TWO OF THEM CHANGED WHAT THE
+ARTICLE SAYS.** The draft's sensing claim, that deleting the fin creates a hard requirement on
+sideslip measurement, **does not survive being written down.** The gearing is 1.13 nozzle degrees per
+sideslip degree at the demonstration point and 1.35 on approach, and a half-degree measurement error
+costs 2.9 percent of available authority, so the static requirement is mild. **The claim was withdrawn
+and the corrected dynamic one, that lag and noise at a crossover near seven radians per second are
+what bind, was carried into both the Dependent Systems section and the Epistemic State**, since a
+withdrawn claim that reaches only one of them has survived a whole pass before in this series.
+
+**THE CONSTANT JET VELOCITY ASSUMPTION WAS RELAXED AND THE CONCLUSION IMPROVED.** The jet velocity
+runs by 25.7 percent from the approach to Mach 2.25, which moves the minimising Mach from 1.674 to
+1.550 and cuts the demonstrated point's penalty from 13.5 percent to 7.8. **A conclusion that survives
+its own correction is worth more than one that needed the error.** It is robust to the one engine
+parameter it introduces, the minimising Mach moving only from 1.502 to 1.589 across overall pressure
+ratios from four to twenty, and under the correction Mach 2.0 and Mach 2.25 become easier than the
+demonstrated point rather than harder.
+
+**THE BEST NEW CONSTRUCT IS A PROPULSIVE TAIL VOLUME**, which divides the vectored moment by dynamic
+pressure, wing area and span to give a number in a rudder's own units. Vectoring supplies 0.0181 at
+the demonstration point against about 0.0412 for thirty degrees of conventional rudder, 5.19 times as
+much at maximum thrust on approach, and 0.0154 at glide-slope thrust. **Rebuilding the
+demand-over-availability ratio from it reproduces the 5.33 throttle factor by a route sharing nothing
+with the original derivation.**
+
+**THE LOOP BUDGET TURNS A TIME TO DOUBLE INTO A REQUIREMENT ON HARDWARE**, giving 60 to 90
+milliseconds supersonically and 145 to 218 on approach from a crossover of two to three times the
+unstable pole with thirty degrees of phase margin budgeted to transport delay, and saying that an
+actuator spends that budget long before a processor does.
+
+**INVERTING THE SLENDER-BODY YAWING MOMENT SHOWS THE INSTABILITY BRACKET IS CONSERVATIVE.** A
+derivative of 0.06 per radian implies a fuselage volume of 33.8 cubic metres, a mean cross-section of
+1.79 square metres over the F-22's 18.92 metres, and an F-22 fuselage is plausibly larger. **The real
+tailless aeroplane is more unstable than assumed and every conclusion survives a worse case.**
+
+**A SECOND DISPLAYED LINE WAS FOUND NOT TO EVALUATE TO ITS OWN STATED ANSWER**, the lapse exponent
+showing the logarithm of 1751 over 8450 and stating 0.960 where those numbers give 0.959, the prose
+beside it having already been corrected to 1,747 newtons. **Both instances in this article were caught
+by an instrument and neither by reading.** One further claim was conflated rather than wrong, the
+small-angle statement giving the approximation's cross-altitude variation of 3.3 parts in ten thousand
+as its size, which is 1.25 percent at eleven degrees, and the article now reports both and says which
+reaches the check it was quoted in. The framing section opened by saying four places and contained
+five, one of which this pass closed.
+
+**THE PROMOTED-SUBJECTS RULE FIRED AND IS RECORDED RATHER THAN CLOSED.** Twelve subjects were promoted
+and 34 displayed relations carry no citation within a paragraph of themselves, which is the expected
+state after an equation pass and is the primary-reference pass's target.
 
 **THIS IS THE SECOND DOCUMENTATION-POOR ARTICLE IN THE SERIES AND THE FIRST WITH TWO SUBJECTS.** Two
 aircraft carry the designation X-44A, both Lockheed Martin, both current in 1999. The Multi-Axis
