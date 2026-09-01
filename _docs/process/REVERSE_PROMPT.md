@@ -106,6 +106,14 @@ identifiers registered and **70 of 70 NASA identifiers resolved** with zero titl
 caps-emphasis spans on the corrected instrument, and zero contractions, colons, semicolons, dashes or
 parentheticals in prose.
 
+**The stub-isolated production build succeeded in 9,581 seconds with no Liquid error, against the
+exact bytes that were pushed.** **The rendered audit reports no findings across 59 pages.** Source and
+rendered display-equation counts agree at **37**, being 37 opening and 37 closing rendered delimiters
+with **zero raw dollar pairs leaking**, which is the check A341 had to invent because a display
+equation demoted to inline math is invisible to the audit. **Zero unresolved reference brackets** in
+the rendered HTML, all fourteen sections render in order, and **the U.S. Standard Atmosphere citation
+that this three-article chain existed to recover resolves on the page.**
+
 **Forty-seven of seventy-two drafted, none published, publication never authorised.**
 
 ---

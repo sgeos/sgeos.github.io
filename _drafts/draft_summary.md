@@ -43,6 +43,9 @@ reflex, that a thin measurement means a narrow pattern, is right often enough to
 article inherits and every mass figure depends on, and the survey holds three records using the
 phrase.
 
+**The stub-isolated production build succeeded with no Liquid error, the rendered audit reports no
+findings across 59 pages, and source and rendered display-equation counts agree at 37.**
+
 **THE STANDARD ATMOSPHERE MEASURED ZERO AND THIS ARTICLE DISPLAYS A RELATION THAT USES IT.** A341's
 gate refused the U.S. Standard Atmosphere of 1976, one of its own foundational sources, readmitted it
 by name and **fixed it for itself alone**. A342 then used the standard atmosphere for its engine model
