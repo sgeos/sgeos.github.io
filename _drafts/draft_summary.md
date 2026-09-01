@@ -21,11 +21,50 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_boeing_x45.markdown`, A342, editorial date 2025-11-20, series `x_planes` index 46 of 72.
 
-**14,090 lines, 20 display equations, 6,746 reference definitions, 78,044 words after the
-equation-density review**, of which 8,844 are author prose, a dilution factor of 8.8. **Two of four
-passes complete.** Committed and **NOT PUSHED**. The primary-reference and publication reviews have
-not run. **The draft and equation passes share one commit**, because the pilot prompted for the second
-while the first's build was still running.
+**19,673 lines, 20 display equations, 9,519 reference definitions, 106,990 words after the
+primary-reference review**, of which 9,937 are author prose, a dilution factor of 10.8. **Three of four
+passes complete.** Committed and **NOT PUSHED**. The publication review has not run. **The draft and
+equation passes share one commit**, because the pilot prompted for the second while the first's build
+was still running.
+
+**THE KEYSTONE'S OWN VOCABULARY MEASURED THREE RECORDS BEFORE THE PRIMARY PASS.** Neglect time and
+interaction time are the two quantities the fan-out relation is built from, and the pool the first two
+passes built held three papers using those words. **That is the sharpest gap this series has found
+underneath an article's own keystone.** A targeted harvest closed three of six gaps decisively, taking
+latency from 18 records to 210, approach and landing from 25 to 158 and mass fractions from 6 to 100,
+and improved the rest. **The audit was written in the field's vocabulary from the outset**, which is
+the correction A341's primary pass had to make halfway through.
+
+**REPORT PRIMARIES 359 TO 914, OR 5.4 PERCENT TO 9.7**, and primary sources on a definition fitted to
+a subject spanning two fields **3,438 of 6,671 at 51.5 percent to 5,130 of 9,444 at 54.3**. **A NASA
+report is primary for the aerodynamics and an ACM conference paper is primary for the fan-out
+relation**, and a definition admitting only the first would report the keystone literature as entirely
+secondary. The ACM count went from 47 to 92. **The count-versus-fraction trap fired again and both
+numbers are reported**, records from 2015 or later rising from 3,487 to 4,452 in count while falling
+from 56.4 percent to 50.9 in share, and records predating 2000 going from 942 to 1,798.
+
+**A DEFECT A334 HAD ALREADY RECORDED WAS NOT CARRIED FORWARD AND BIT AGAIN.** The gate refused
+`Validating Human-Robot Interaction Schemes in Multitasking Environments`, where neglect tolerance is
+measured rather than assumed, **because the publisher sets `Human-Robot` with an en dash**. A334
+recorded the same defect on a nickel-hydrogen paper whose depositor used U+2010 and said the
+normalising step should be copied forward. It was not. **The fix went into `_lib/gate.py` rather than
+into this article's script**, since a per-article fix had already failed once, with a regression test
+over six dash code points, and **re-running the original harvest admitted 23 records that were being
+refused on the shape of a dash alone.**
+
+**THE SECOND REJECTION IS NOT A DEFECT AND IS MORE INTERESTING.** `Remote Manipulative Control with
+Transmission Delay`, published in 1963, uses none of the modern terms for its own subject, having
+predated latency, teleoperation and supervisory control as terms of art. **A gate written in a field's
+current vocabulary cannot reach that field's origin.** That paper matters more than expected, since
+Sheridan and Ferrell measured the operator's completion time growing with transmission delay in 1963
+and named the response four years later, **so supervisory control was invented as an answer to latency
+and the X-45A is an aeroplane built on that answer**.
+
+**TWELVE FOUNDATIONAL PRIMARIES WERE FETCHED BY IDENTIFIER AND EACH IS CITED BESIDE ITS RELATION.**
+**Three subjects remain thin, each for a different reason**, scaling laws at 11 being a textbook
+subject cited to books, neglect and interaction time at 47 being thin in vocabulary while the concepts
+are covered at 246 and 220 elsewhere in the survey, and manpower at 48 being defence analysis not
+published where a bibliographic sweep reaches.
 
 **THE GUARD ADDED IN A341 CAUGHT THE SAME DEFECT IN A342.** An edit in the equation pass put a display
 equation and the following sentence on one source line, and `lint.py`'s `math-display-inlined` caught

@@ -1,118 +1,123 @@
 ## Last Updated
 
 **Date**: 2026-08-31
-**Task**: **A342 equation-density review, the second of four passes.** Committed, **not pushed**.
-**This commit also carries the draft pass**, which was verified but not separately committed because
-you prompted for the second pass while its build was still running. **8 display equations to 20.**
+**Task**: **A342 primary-reference review, the third of four passes.** Committed, **not pushed**.
 Nothing published and publication still not authorised.
 
 ---
 
-## The Guard I Added Yesterday Caught the Same Defect Today
+## The Keystone's Own Vocabulary Measured Three Records
 
-**A341's publication review found a display equation sharing a source line with prose, rendering as
-inline math with two sentences run together, and added `math-display-inlined` to `lint.py` because
-`render.py` structurally cannot see it.**
+**Neglect time and interaction time are the two quantities the fan-out relation is built from, and the
+pool the first two passes built held three papers using those words.** That is the sharpest gap this
+series has found underneath an article's own keystone.
 
-**It fired on the very next article.** An edit in this pass put `$$NT = 0 \Longrightarrow FO = 1$$` and
-the following sentence on one line. **Caught before the build rather than after it**, which is the
-whole difference between a lesson in a comment and a lesson in a test.
+**A targeted harvest closed three of six gaps decisively and improved the rest.**
 
----
+| subject | before | after |
+|---|---|---|
+| latency and delay in remote control | 18 | 210 |
+| approach, landing and the low-speed end | 25 | 158 |
+| aircraft mass fractions and the sizing loop | 6 | 100 |
+| manpower and the economics of operating aircraft | 24 | 48 |
+| neglect time and interaction time | 3 | 47 |
+| scaling laws across aircraft size | 1 | 11 |
 
-## Dividing Two Numbers the Draft Had Only Tabulated
-
-**The X-45A and the X-45C carry the same payload fraction to four significant figures.**
-
-$$\frac{680}{5{,}530} = 0.12297 \qquad \frac{2{,}040}{16{,}600} = 0.12289$$
-
-**Their ratio is 0.99940 and the payload was tripled exactly.** The mass exponent in span is 2.977 and
-the exponent computed from the payloads instead is 2.976, **which is the same number and is the
-explanation.**
-
-**So the near-cubic mass scaling is a held payload fraction and not geometry.** The draft called it a
-coincidence of the mission sizing, which was right in direction and wrong to call it a coincidence.
-**A scaling exponent that arrives from the mission looks identical in the arithmetic to one that
-arrives from the shape and means something entirely different**, which is the warning this series has
-recorded before against reading an exponent as a property of the technology. **The correction is
-carried into the two aircraft section, the Epistemic State and the conclusion.**
+**The audit was written in the field's vocabulary from the outset this time**, which is the correction
+A341's primary pass had to make halfway through after reporting its own comparison baseline at eleven
+records where the pool held 204.
 
 ---
 
-## The Coupling the Draft Said It Could Not Evaluate
+## The Definition of Primary Had to Fit a Subject Spanning Two Fields
 
-**The draft said a high-latency link raises interaction time and lowers the fan-out, and left it
-there.** Written down, latency enters both halves and does not cancel, because it lengthens the
-interaction without lengthening the neglect.
+**A NASA report is primary for the aerodynamics and an ACM conference paper is primary for the fan-out
+relation**, and a definition admitting only the first would have reported this article's keystone
+literature as entirely secondary.
 
-$$FO = \frac{NT + IT_{0} + 2\tau}{IT_{0} + 2\tau + SC}$$
+**Report primaries went from 359 to 914, or 5.4 percent to 9.7.** On the fitted definition, which adds
+the AIAA, SAE, ACM and IEEE venues, primary sources went from **3,438 of 6,671 at 51.5 percent to 5,130
+of 9,444 at 54.3**. **The ACM count went from 47 to 92**, which is small and is the venue the keystone
+was published in.
 
-**A satellite round trip costs 21.4 percent of the fan-out on a ten second interaction and a neglect
-time three times it, and a quarter-second link costs 3.6 percent.** That is a design consequence
-rather than an observation, and it says a supervised combat aircraft wants its operator within line of
-sight or its autonomy raised to compensate. **What remains unquantifiable is this aeroplane's actual
-latency, which is not published**, and the relation now says exactly what such a figure would buy.
-
----
-
-## What Else the Pass Added
-
-**Twenty relations from eight, across eleven edits.** The fan-out relation's own derivation, which the
-draft asserted and did not derive, being that serving $N$ vehicles takes $N$ interaction times and each
-must be served within its neglect time. **The operator's utilisation, which turns out to be the
-reciprocal of the fan-out exactly**, so a fully occupied operator is a fan-out of one by definition.
-The cost relation the programme's own argument rests on, in which only the crew term responds to
-autonomy. The remotely piloted case as a limit, at zero neglect time. The payload fractions and both
-exponents. Thrust to weight and the approach thrust fraction, which is the one relation in the
-crosswind comparison that does not involve the wing. The approach speed, the wing area from aspect
-ratio, the sideslip a crosswind produces, the demand index and the margin as a ratio of ratios. And
-the flight rate.
+**Both numbers reported, because the count-versus-fraction trap fired again.** Records from 2015 or
+later rose from 3,487 to **4,452** in count while falling from 56.4 percent to **50.9** in share, and
+records predating 2000 went from 942 to **1,798**.
 
 ---
 
-## The Promoted-Subjects Rule Fired and Is Recorded Rather Than Closed
+## A Defect the Corpus Had Already Recorded, and I Did Not Carry It Forward
 
-**Eleven displayed relations now carry no citation within a paragraph of themselves**, and the pass
-promoted the cost-of-a-sortie argument, the operator utilisation relation and the latency coupling.
-**That is the expected state after an equation pass**, since the reference base cannot follow a
-derivation that did not exist when the pool was built, and closing it is the primary-reference pass's
-business.
+**The gate refused `Validating Human-Robot Interaction Schemes in Multitasking Environments`, which is
+where neglect tolerance is measured rather than assumed, because the publisher sets `Human-Robot` with
+an en dash.**
+
+**A334 recorded exactly this**, on a nickel-hydrogen battery paper whose depositor used U+2010, and
+said the normalising step should be copied forward. **It was not copied forward into A342.**
+
+**So the fix went into the library rather than into the article's script.** `_lib/gate.py` now
+normalises typographic dashes and quotes for every gate, with a regression test covering six dash code
+points and checking that an off-subject title is still refused. **Re-running the original harvest
+through the normalising gate admitted 23 records that were being refused on the shape of a dash
+alone.** A per-article fix had already failed once and the library is where it stops failing.
 
 ---
 
-## From the Draft Pass, Since It Is In This Commit
+## The Second Rejection Is Not a Defect and Is More Interesting
 
-**The keystone is not aerodynamic and its literature is not aeronautical.** One operator flew two
-X-45As in coordination in August 2004, and inverting the fan-out relation for that ratio gives neglect
-time exactly equal to interaction time, which is the autonomy the vehicle had and which no source
-states. **At a fan-out of one an unmanned aeroplane has saved the pilot's life and nothing else.**
+**`Remote Manipulative Control with Transmission Delay`, published in 1963, uses none of the modern
+terms for its own subject.** It predates `latency`, `teleoperation` and `supervisory control` as terms
+of art. **A gate written in a field's current vocabulary cannot reach that field's origin**, and the
+only remedy is to know the document exists and fetch it by identifier.
 
-**The gate was written with two anchor families before the harvest rather than after**, because A341
-twice rejected its own foundational sources for using the vocabulary of the underlying science. **The
-supervisory-control cluster holds 399 records an aeronautical gate would have returned none of.**
+**That paper turned out to matter more than I expected.** Sheridan and Ferrell measured the operator's
+completion time growing with transmission delay in 1963, and four years later named the response to
+it, which was to stop transmitting movements and start transmitting intentions. **Supervisory control
+was invented as an answer to latency**, and the X-45A is an aeroplane built on that answer. The
+article now says so, thirty-nine years of lineage in two citations.
 
-**Two checks I expected to fail did not.** The X-45C's quoted thrust is admissible against its own
-ceiling and yields a lower bound of 16.3 on an unpublished lift to drag ratio, the two figures pinning
-each other. **My first attempt at that check omitted the ram term and reached the opposite
-conclusion.** And the X-45A, which flew A341's condemned configuration sixty-four times, is not a
-counterexample, being better off by 1.28 to 1.98 times across every plausible wing.
+---
 
-**I also cited forward to A343 and A344**, which would have failed the build since this series cites
-backward only, and reference integrity caught it first.
+## Twelve Foundational Primaries, Each Cited Beside Its Relation
+
+Olsen and Wood on fan-out. Crandall and others on neglect tolerance measured. Steinfeld and others on
+the common metrics framework. Whetten and Goodrich, twice, on the switch cost and the multi-operator
+case. Crandall and Cummings on performance metrics. Cummings and colleagues four times on operator
+capacity, controller capacity, scheduling strategy and decentralised control, **all of it about
+aircraft specifically and all of it within eight years of the demonstration**. And Sheridan and
+Ferrell twice, in 1963 and 1967.
+
+---
+
+## Three Subjects Remain Thin and Each for a Different Reason
+
+**Scaling laws across aircraft size return eleven**, because the square-cube argument is a textbook
+subject rather than a journal one, and it is cited to books.
+
+**Neglect and interaction time return forty-seven**, because those exact terms belong to a small
+sub-community while the concepts are covered elsewhere in the survey, under operator workload at 246
+and fan-out at 220. **The thinness is in the vocabulary and not in the coverage**, which is a
+distinction worth making rather than harvesting against.
+
+**Manpower and crew cost return forty-eight**, because much of the analysis that would answer it is
+defence work not published where a bibliographic sweep reaches. **Same limit this article already
+records for its datalink cluster.**
 
 ---
 
 ## State
 
-**A342 is committed and not pushed.** **14,090 lines, 20 display equations, 6,746 reference
-definitions, 78,044 words**, of which 8,844 are author prose.
+**A342 is committed and not pushed.** **Three of four passes complete.** 20 display equations held and
+measured before and after, **9,519 reference definitions**, and the supervisory-control cluster grew
+from 399 records to 1,062.
 
-`_verify.py` clean apart from the `date-filename` artefact every draft reports, zero warnings,
-`lint.py` **zero defects and zero conventions**, zero contractions, colons, semicolons, dashes,
-parentheticals or caps-emphasis spans. Reference integrity zero undefined, zero orphaned, zero
-duplicate URLs. **Every stated value re-derived by a verifier sharing no code with the computation**,
-with every table row read out of the finished article. 126 of 126 NASA identifiers and 300 of 300
-sampled Crossref identifiers resolve with zero title mismatches.
+`_verify.py` clean apart from the `date-filename` artefact, zero warnings, `lint.py` **zero defects and
+zero conventions**, zero style violations. Reference integrity zero undefined, zero orphaned, zero
+duplicate URLs. **Every cluster row and the survey total check against the data the article ships
+with.** `_lib` tests 82 of 82 after the new one.
+
+**One caps-emphasis span was introduced by me in this pass and removed**, which is the third time
+across A341 and A342 that I have reintroduced the class the 2026-08-14 audit cleared.
 
 **Forty-six of seventy-two drafted, none published, publication never authorised.**
 
@@ -120,10 +125,8 @@ sampled Crossref identifiers resolve with zero title mismatches.
 
 ## Next
 
-**The primary-reference review of A342 on your prompt**, which has eleven uncited relations waiting for
-it, then the publication review, which is also the pass that pushes.
+**The publication review of A342 on your prompt**, which is also the pass that pushes.
 
 **Two items remain yours**, being whether `math-display-inlined` should move from `lint.py` to
-`_verify.py`, now with a second incident behind it, and the caps defect on the live
-`_posts/2026-08-06-native_lowering_coverage.markdown`. **`HANDOFF.md` is several commits stale** and
-will self-report as invalid.
+`_verify.py`, now with two incidents behind it, and the caps defect on the live
+`_posts/2026-08-06-native_lowering_coverage.markdown`. **`HANDOFF.md` is several commits stale.**

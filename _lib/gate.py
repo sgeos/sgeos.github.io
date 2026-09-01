@@ -45,6 +45,26 @@ study system systems technique technology theory validation
 """.split())
 
 
+# TYPOGRAPHIC PUNCTUATION IS NORMALISED BEFORE ANY PATTERN SEES A TITLE, AND THAT
+# IS NOT OPTIONAL. A334 refused `Thermal Characteristics of a Nickel-Hydrogen
+# Battery` because the depositor wrote the hyphen as U+2010, and recorded that its
+# selection script carried a normalise step which should be copied forward. It was
+# not copied forward. A342 then refused `Validating Human-Robot Interaction Schemes
+# in Multitasking Environments`, one of its own foundational sources, because the
+# publisher sets `Human-Robot` with an en dash.
+#
+# Twice is a pattern and a per-article fix has now failed once, so the
+# normalisation lives here where every gate inherits it. There is no case in which
+# a subject gate should fail on the shape of a dash.
+_DASHES = dict.fromkeys(map(ord, "\u2010\u2011\u2012\u2013\u2014\u2212"), "-")
+_QUOTES = dict.fromkeys(map(ord, "\u2018\u2019\u201c\u201d"), "'")
+
+
+def normalise(title):
+    """Fold typographic dashes and quotes to their ASCII forms."""
+    return (title or "").translate(_DASHES).translate(_QUOTES)
+
+
 class Gate:
     """A compiled subject gate. Build one per article and do not copy one between articles."""
 
@@ -56,7 +76,7 @@ class Gate:
         self.pattern = re.compile("|".join(f"(?:{p})" for p in strong), re.I)
 
     def admits(self, title):
-        return bool(self.pattern.search(title or ""))
+        return bool(self.pattern.search(normalise(title)))
 
     def explain(self, title):
         """Why a title was dropped, distinguishing 'off subject' from 'only ambiguous words'.
@@ -67,7 +87,7 @@ class Gate:
         """
         if self.admits(title):
             return None
-        hits = [w for w in re.findall(r"[A-Za-z][A-Za-z-]+", (title or "").lower())
+        hits = [w for w in re.findall(r"[A-Za-z][A-Za-z-]+", normalise(title).lower())
                 if w in AMBIGUOUS]
         if len(hits) >= 2:
             return f"no subject anchor, but {len(hits)} ambiguous terms: {sorted(set(hits))}"

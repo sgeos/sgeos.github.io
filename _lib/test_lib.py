@@ -292,6 +292,26 @@ def t_post_strip_code_keeping_lines_preserves_numbering():
     assert post.strip_code_keeping_lines("\tmake $$i\n").strip() == ""
 
 
+def t_gate_normalises_typographic_punctuation():
+    """A334 recorded this and told the series to carry it forward. A342 did not.
+
+    A334 refused a nickel-hydrogen battery paper whose depositor wrote the hyphen
+    as U+2010. A342 then refused `Validating Human-Robot Interaction Schemes in
+    Multitasking Environments`, one of its own foundational sources, because the
+    publisher sets `Human-Robot` with an en dash. Twice is a pattern, and a
+    per-article fix has already failed once, so the gate normalises.
+    """
+    g = gate.Gate([r"human[- ]robot interaction"], name="t")
+    assert g.admits("Common metrics for human-robot interaction")
+    for dash in "\u2010\u2011\u2012\u2013\u2014\u2212":
+        title = f"Validating Human{dash}Robot Interaction Schemes"
+        assert g.admits(title), f"rejected on U+{ord(dash):04X}: {title!r}"
+    # and an off-subject title must still be refused, whatever its punctuation
+    assert not g.admits("Validating Human\u2013Machine Trust in Finance")
+    # explain() must see the same normalised text
+    assert g.explain("Common metrics for human\u2013robot interaction") is None
+
+
 def t_lint_unfilled_template():
     rows = lint.scan(FM + "prose {c('cluster')} tail\n")
     assert any(c == "unfilled-template" and s == lint.DEFECT for s, c, _ in rows), rows
