@@ -17,6 +17,61 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Boeing X-46 A343 2025-11-21
+
+`x_planes_boeing_x46.markdown`, A343, editorial date 2025-11-21, series `x_planes` index 47 of 72.
+
+**9,391 lines, 11 display equations, 4,441 reference definitions, 51,999 words after the draft
+pass**, of which 6,778 are author prose, a dilution factor of 7.7. **One of four passes complete.**
+Committed and **NOT PUSHED**. **Documentation-poor class.**
+
+**THE FIRST AEROPLANE IN THIS SERIES WITH NO PUBLISHED SPECIFICATION AT ALL.** The specialist
+designation directory prints specification tables for the X-45A and the X-45C and prints none for the
+X-46A, saying that Boeing disclosed only minimal information, and no airframe was ever built. **So the
+article takes a question and asks what vehicle it demanded**, which inverts the procedure of every
+other article in the series.
+
+**THE SHARPEST FINDING IS ABOUT DOCUMENTATION RATHER THAN ABOUT THE AEROPLANE.** The figures that
+circulate for the X-46 are the UCAV-N requirement numbers exactly, being a four thousand pound payload
+and a six hundred and fifty nautical mile radius. **The distinction between what was demanded and what
+was achieved collapses whenever nothing was achieved**, and it collapses silently, because the number
+does not change when its meaning does. **Boeing's own announcement of the aeroplane that replaced the
+X-46 does not contain the word X-46**, naming the X-45B as the design set aside, so the naval
+programme is absorbed rather than cancelled.
+
+**THE ANALYSIS INHERITS ONE CONSTANT FROM THE PREVIOUS ARTICLE.** A342 measured the Boeing UCAV
+payload fraction at 0.12297 and 0.12289 across a tripling of payload, and the mean of 0.12293 fixes
+the size at 32,539 lb before any aerodynamics are considered. Breguet range for the two cruise legs
+and Breguet endurance for the loiter give a fuel fraction of 0.5285, so **the demanded empty-weight
+fraction is 0.3485 while the lightest manned carrier aeroplane examined achieves 0.441**. The gap is
+the crew and everything the crew requires.
+
+**THE THREE REQUIREMENT NUMBERS CANNOT HOLD AT ONCE**, implying an aeroplane of 77,713 lb as a single
+profile, which is heavier at takeoff than an F/A-18E. Read as separate capability points the aircraft
+holds 11.03 hours on station at the full radius against a requirement of twelve. **The record does not
+say which reading was meant and the article says so rather than choosing.**
+
+**TWO RESULTS ARE REPORTED WITH THEIR WEAKNESSES ATTACHED.** The carrier approach constraint
+reproduces the built X-45C span to within half a percent, **from three freely chosen parameters**, and
+is labelled a consistency check rather than a derivation. The comparison aircraft are all manned and
+all entered service between 1970 and 1999, so the nine-point gap overstates the difficulty by an
+unknown amount.
+
+**THE VERIFIER CAUGHT ONE DEFECT AND THEN CAUGHT ITSELF.** The article stated a payload fraction of
+0.052 where the computation gives 0.051472, and the table omitted the empty-weight fraction its rows
+depend on. Both were fixed. **Then the verifier passed the corrected article while still carrying the
+old value**, because the number was hardcoded, so it now parses the table out of the finished article.
+
+**First article to run under the tooling added on 2026-09-01.** `_lib/survey.py` reports zero failures
+across 36 claims and `_verify.py` is clean with both promoted checks live. Two inherited-script
+defects were fixed, being a gate that crashed comparing a string year to an integer and an assembly
+assertion carrying a threshold that was a fact about A342's pool rather than about the check.
+
+`_verify.py` zero errors and zero warnings, lint zero defects and zero conventions, reference
+integrity zero undefined, zero orphaned, zero duplicate URLs, 45 of 45 numerical checks passing, and
+zero caps-emphasis spans on the corrected instrument.
+
+
 ## X-Planes Boeing X-45 A342 2025-11-20
 
 `x_planes_boeing_x45.markdown`, A342, editorial date 2025-11-20, series `x_planes` index 46 of 72.
@@ -7890,8 +7945,8 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fifty-six files exist in `_drafts/`. One is a template. One is this summary.
-**Forty-six are the in-progress X-Planes series, A297 through A342, none of them published**, and
+Fifty-seven files exist in `_drafts/`. One is a template. One is this summary.
+**Forty-seven are the in-progress X-Planes series, A297 through A343, none of them published**, and
 publication of the series has never been authorised.
 Eight are the pre-release candidates listed below.
 No stubs remain.
