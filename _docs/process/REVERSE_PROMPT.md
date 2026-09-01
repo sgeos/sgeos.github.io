@@ -117,11 +117,54 @@ math is invisible to the audit. **Zero unresolved reference brackets in the rend
 
 ---
 
+## Tooling, Taken At Your Discretion On 2026-09-01
+
+**`math-display-inlined` is promoted to `_verify.py`.** The deciding fact was not the second incident
+but that **`_verify.py` runs the whole battery over drafts downgraded to warnings**, so the promotion
+makes it a hard error on published posts and a visible warning on drafts, which is where both
+incidents actually happened. Measured at zero across the 174 posts and 47 drafts that enable MathJax,
+and it costs 0.75 seconds of processor time on the gate's 20.
+
+**`survey-row-count` is promoted too**, holding a cluster row's stated count against the citations on
+that row. Sixty-six rows across four files, zero mismatches. **It guards a different failure from the
+one that motivated it** and the article says so, since A342's rows were all correct while the
+paragraph interpreting them was stale.
+
+**`_lib/survey.py` now carries the checker that actually caught A342's defect.** It was written in a
+gitignored directory, which hands the next article the lesson and not the instrument. It reproduces
+all 41 of A342's stated claims from the reference data with zero failures, and it parses spelled-out
+numbers, because the prose style spells small numbers out and a checker reading only digits skips
+exactly the claims an author took trouble over.
+
+## The Instrument I Have Been Using For Caps Was Blind, And Three Of My Measurements Were Wrong
+
+**The regex every caps scan in this work has used cannot see a run containing a single-letter word.**
+Requiring two capitals per token reads `ADD TO A COMPLETE MACHINE` as three short runs and reports
+nothing. **That span is in a published post, it survived the 2026-08-14 audit, and it survived the
+scans that certified A341 and A342 clean of exactly this defect.** The instrument agreed with the
+articles because it could not see the thing either.
+
+**Two more of my measurements were wrong in opposite directions from one blind spot.** Stripping only
+the `[[text][anchor]]` citation form and not the bare `[text][anchor]` form first reported 621 caps
+runs in authored prose that were publisher-shouted citation titles, then reported zero shouted titles
+corpus-wide. **There are 1,045 of those across 13 published posts.**
+
+**A342 is genuinely clean on the corrected instrument**, so that claim survives, but it was luck that
+the weaker one agreed. `lint.py` now carries `caps-emphasis` as a CONVENTION, since `GRANT ALL
+PRIVILEGES ON DATABASE` and `INT TERM QUIT EXIT` are correct as written and cannot be told from
+emphasis by shape. Corpus reports six, of which four are legitimate literals.
+
 ## Next
 
 **A343, Boeing X-46**, editorial date 2025-11-21, series index 47. **The X-46 was cancelled before an
 airframe was built**, so expect the documentation-poor or anomaly class and decide from the record.
 
-**Two items remain yours**, being whether `math-display-inlined` should move from `lint.py` to
-`_verify.py`, now with two incidents behind it, and the caps defect on the live
-`_posts/2026-08-06-native_lowering_coverage.markdown`.
+**Two content decisions remain yours and both are on published posts, so I have not touched them.**
+
+**`_posts/2026-08-06-native_lowering_coverage.markdown` carries TWO authored caps-emphasis spans and
+not the one I reported**, at line 879 `worthless FOR THE INSTRUCTION CLASS PROPOSED` and line 1306
+`to ADD TO A COMPLETE MACHINE for speed`. Each is a one-line change to bold.
+
+**Thirteen published posts carry 1,045 shouted citation titles**, 1,030 of them in the five compiler
+articles of 2026-08-06 to 2026-08-10. `refs.decap` stops new ones at generation. Repairing these is a
+text normalisation over published posts that changes no URL, and it is a larger and separate job.

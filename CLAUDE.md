@@ -41,8 +41,20 @@ python3 _verify.py --strict  # treat warnings as errors too
 
 Checks date collisions, filename versus front matter dates, UTC offsets, reference integrity,
 link-definition ordering, duplicate article numbers, shadowed first categories, math validity,
-prose style, and word-frequency outliers. Every check exists because that defect actually
+prose style, word-frequency outliers, display equations demoted to inline math, and survey cluster
+rows against their own citation counts. Every check exists because that defect actually
 shipped. Citation and URL verification needs the network and lives separately.
+
+**Drafts run the whole battery downgraded to warnings**, so a draft never fails the build while its
+defects stay visible before publication. That is where most defects are found, because that is where
+the work happens.
+
+**A number an article states about its own reference survey is recomputed, never matched.**
+`_lib/survey.py` reads the article, recomputes each statistic from the reference data and compares.
+A presence check asking whether the article still says what it used to say **goes green precisely
+when a number goes stale**, and one did: A342 shipped a survey paragraph wrong in all six of its
+statistics past a verifier that confirmed the stale string. Only the article-internal half of this
+can be gated corpus-wide, since a median publication year cannot be derived from the article.
 
 **Run the whole deploy gate locally:**
 ```sh

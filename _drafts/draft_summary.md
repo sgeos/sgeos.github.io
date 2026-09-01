@@ -1895,7 +1895,7 @@ error**, and it is recorded because an article that harvests a record and never 
 work and thrown it away. Every one of the 2,028 master records is now cited.
 
 **A LIBRARY DEFECT WAS FOUND BY `_verify.py` AND FIXED IN `_lib/refs.py`.** A Springer title reading
-"Al/MLG/CuO/$${\text{Bi}}_{2}{\text{O}}_{3}$$ Nanothermite" reached link text, and truncated for
+`Al/MLG/CuO/$${\text{Bi}}_{2}{\text{O}}_{3}$$ Nanothermite` reached link text, and truncated for
 display it left **a single unbalanced `$$` that opens a MathJax display block and swallows the rest of
 the page**. `refs.clean` stripped HTML, ampersands, brackets and braces and **not dollars or LaTeX
 commands**. It now strips both, `test_lib.py` gained a regression test, and the suite is at 46.

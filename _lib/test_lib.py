@@ -25,6 +25,12 @@ import refs
 import reflow
 import render
 import resolve
+import survey
+
+# `_verify.py` lives at the repository root and is stdlib-only, so importing it
+# here costs nothing and keeps its promoted checks under regression test.
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import _verify
 
 FM = ('---\nlayout: post\nmathjax: true\ncomments: true\ntitle: "T"\n'
       "date: 2026-08-06 09:00:00 +0000\ncategories: engineering\n---\n")
@@ -1273,6 +1279,150 @@ def t_refs_display_normalises_a_shouted_title():
     # A title with no letters at all must not raise.
     assert refs.decap("1962") == "1962"
     assert refs.decap("") == ""
+
+
+def t_verify_gates_a_display_equation_demoted_to_inline_math():
+    """A341 shipped one of these into a build and `render.py` cannot see it.
+
+    An edit landed `$$...$$` and the next paragraph's opening sentence on one
+    source line. Kramdown rendered inline math with two unrelated sentences run
+    together. The delimiters balance and the markup resolves, so the rendered
+    audit reports a clean page. It was found by counting source equations
+    against rendered ones.
+
+    Guarded in `lint.py` first, where it CAUGHT THE SAME DEFECT IN A342 a day
+    later, which is the second incident that justified promoting it to the gate.
+    """
+    bad = FM + "Prose before. $$a = b$$ And prose after.\n"
+    rep = _verify.Report()
+    _verify.check_post("_posts/2026-08-06-t.markdown", bad, rep)
+    assert any(c == "math-display-inlined" for c, _ in rep.errors), \
+        "a display equation sharing a line with prose must fail the gate"
+
+    # THE THREE SHAPES THAT MUST NOT FIRE, each of which occurs in the corpus.
+    for good, why in [
+        ("$$a = b$$\n", "a complete display equation on its own line"),
+        ("$$\na = b\n$$\n", "an equation split across lines"),
+        ("    $$a = b$$ indented\n", "indented, which is far more likely to be code"),
+        ("Prose with `$$a$$` in backticks.\n", "inline code is not math"),
+        ("```\nmake: $$a$$ prose\n```\n", "a fenced code block"),
+    ]:
+        rep = _verify.Report()
+        _verify.check_post("_posts/2026-08-06-t.markdown", FM + good, rep)
+        assert not any(c == "math-display-inlined" for c, _ in rep.errors), \
+            f"false positive on {why}: {good!r}"
+
+    # A POST WITHOUT MATHJAX RENDERS `$$` AS TEXT, so the check does not apply.
+    nomath = FM.replace("mathjax: true", "mathjax: false")
+    rep = _verify.Report()
+    _verify.check_post("_posts/2026-08-06-t.markdown",
+                       nomath + "Prose. $$a = b$$ More prose.\n", rep)
+    assert not any(c == "math-display-inlined" for c, _ in rep.errors), \
+        "the defect is `renders as inline math`, which needs MathJax enabled"
+
+    # Line numbers must survive the code blanking, or the report cannot be acted on.
+    assert _verify.blank_code_keeping_lines("a\n```\nx\n```\nb\n").count("\n") == 5
+
+
+def t_survey_recomputes_a_stated_statistic_instead_of_matching_it():
+    """A342 shipped a survey paragraph stale in all six of its statistics.
+
+    Every mechanical part of that survey was correct. The primary pass
+    regenerated the cluster rows with a script and left the hand-written prose
+    about them alone, and the Source Base four hundred lines below stated the
+    corrected values, so the article contradicted itself.
+
+    IT PASSED BECAUSE THE CHECK WAS A PRESENCE CHECK. `present("1,771 records")`
+    asks whether the article still says what it used to say, which goes green
+    PRECISELY WHEN A NUMBER GOES STALE.
+    """
+    stale = "1,771"
+    assert survey.check([("autonomy clusters", stale, 3192)])[0] == 1, \
+        "a stale number must fail when recomputed, however present it is"
+    assert survey.check([("autonomy clusters", "3,192", 3192)])[0] == 0
+
+    # A SPELLED-OUT NUMBER IS STILL A NUMBER. The prose style spells small
+    # numbers out, so a checker reading only digits skips exactly the claims an
+    # author took trouble over. A342 wrote its pre-2000 count this way.
+    assert survey.words_to_int("Two thousand two hundred and eighty") == 2280
+    assert survey.words_to_int("Nine hundred and forty-two") == 942
+    assert survey.words_to_int("eleven") == 11
+    assert survey.words_to_int("Fan-Out Technology") is None
+    assert survey.check([("pre-2000", "Nine hundred and forty-two", 942)])[0] == 0
+
+    # A row carries its own count and then that many citations.
+    text = ("### Alpha\n\n**2 records.** [[A][research_a]] [[B][research_b]]\n\n"
+            "### Beta\n\n**3 records.** [[C][research_c]]\n")
+    rows = survey.stated_rows(text)
+    assert rows["Alpha"] == (2, 2), rows
+    assert rows["Beta"] == (3, 1), "the desynchronised row must be visible"
+
+    meta = {"a": {"kind": "research", "cluster": "Alpha", "year": "2016"},
+            "b": {"kind": "research", "cluster": "Alpha", "year": "1998"},
+            "c": {"kind": "research", "cluster": "Beta", "year": "2020"},
+            "z": {"kind": "ref", "cluster": None}}
+    assert dict(survey.cluster_counts(meta)) == {"Alpha": 2, "Beta": 1}, \
+        "non-research records must not be counted into a cluster"
+
+    # THE COUNT AND THE FRACTION MOVE IN OPPOSITE DIRECTIONS AND BOTH ARE TRUE,
+    # which is why this returns both rather than letting a caller pick one.
+    st = survey.period_stats(meta)
+    assert st == {"dated": 3, "median": 2016, "recent": 2,
+                  "recent_pct": 66.7, "old": 1}, st
+
+    # An empty pool must not divide by zero.
+    assert survey.period_stats({})["median"] is None
+    assert survey.primary_stats({}, {}, ["x"])["primary_pct"] is None
+
+
+def t_verify_gates_a_survey_row_against_its_own_citations():
+    """The rows are generated and a hand edit can desynchronise them.
+
+    This guards a DIFFERENT failure from the one that motivated it, and the
+    distinction is the point: A342's rows were all correct while the paragraph
+    interpreting them was stale. A median and a period share cannot be derived
+    from the article at all, so those need `survey.py` and the article's data.
+    """
+    row = "**3 records.** [[A][research_a]] [[B][research_b]]\n"
+    rep = _verify.Report()
+    _verify.check_post("_posts/2026-08-06-t.markdown", FM + row, rep)
+    assert any(c == "survey-row-count" for c, _ in rep.errors)
+
+    ok_row = "**2 records.** [[A][research_a]] [[B][research_b]]\n"
+    rep = _verify.Report()
+    _verify.check_post("_posts/2026-08-06-t.markdown", FM + ok_row, rep)
+    assert not any(c == "survey-row-count" for c, _ in rep.errors)
+
+
+def t_lint_sees_caps_emphasis_through_a_single_letter_word():
+    """The obvious pattern for this check cannot see the corpus's own example.
+
+    Requiring two or more capitals per token reads `ADD TO A COMPLETE MACHINE`
+    as `ADD TO`, then `A`, then `COMPLETE MACHINE`, and reports nothing. That
+    blind spot hid a live span through several audits and through the scans that
+    certified two articles clean, which is the instrument sharing the blind spot
+    of the thing it measures.
+
+    A CONVENTION AND NOT A DEFECT. The run cannot be told from a technical
+    literal by shape, and the corpus's other instances are `GRANT ALL PRIVILEGES
+    ON DATABASE` and product names, which are correct as written.
+    """
+    body = FM + "It selects instructions to ADD TO A COMPLETE MACHINE for speed.\n"
+    hits = [d for sev, c, d in lint.scan(body) if c == "caps-emphasis"]
+    assert hits, "a single-letter word must not break the run"
+
+    # Two capitalised words alone are ordinary prose, not emphasis.
+    for ok in ["A B C is fine.\n", "The X-45A And Then.\n"]:
+        assert not [d for _s, c, d in lint.scan(FM + ok) if c == "caps-emphasis"], ok
+
+    # Citation labels carry publisher shouting and are not the author's prose.
+    label = FM + "See [PERFORMANCE ANALYSIS OF CODES][research_a] for this.\n\n"
+    label += "## References\n\n[research_a]: https://doi.org/10.1000/x\n"
+    assert not [d for _s, c, d in lint.scan(label) if c == "caps-emphasis"], \
+        "a shouted citation TITLE is refs.decap's problem, not the author's"
+
+    # It is a convention, so it must never raise the defect guard.
+    lint.assert_clean(body)
 
 
 for name, fn in sorted(list(globals().items())):

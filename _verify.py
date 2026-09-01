@@ -149,6 +149,22 @@ def front_matter(text):
     return m.group(1) if m else None
 
 
+def blank_code_keeping_lines(text):
+    """Code blanked in place, so a line number in a report still means something.
+
+    `prose_lines` DROPS the lines it is not interested in and cannot be reused
+    here, because the lines this check is about are exactly the ones it filters
+    out, being the ones carrying `$$`.
+    """
+    def blank(m):
+        return "\n" * m.group(0).count("\n")
+    t = re.sub(r"(?s)```.*?```", blank, text)
+    t = re.sub(r"(?s)~~~.*?~~~", blank, t)
+    t = re.sub(r"(?s)\{%\s*highlight.*?\{%\s*endhighlight\s*%\}", blank, t)
+    t = re.sub(r"(?s)\{%\s*raw\s*%\}.*?\{%\s*endraw\s*%\}", blank, t)
+    return re.sub(r"`[^`\n]+`", " ", t)
+
+
 def prose_lines(text):
     """Lines eligible for prose checks. Mirrors the extraction in the docs."""
     lines = text.split("\n")
@@ -334,6 +350,65 @@ def check_post(path, text, rep, exemptions=None, is_draft=False):
                          f"{name}: paragraph opens with inline math containing `|`; "
                          f"kramdown renders it as a table. Near {first[:60]!r}")
                 break
+
+
+    # A DISPLAY EQUATION SHARING A LINE WITH PROSE IS DEMOTED TO INLINE MATH AND
+    # NOTHING ELSE IN THE TOOLCHAIN SEES IT. A341 shipped one into a build: an
+    # edit landed `$$...$$` and the next paragraph's opening sentence on one
+    # source line, and kramdown rendered `\(...\)` inside a paragraph with two
+    # unrelated sentences run together. `render.py` CANNOT catch it, because the
+    # delimiters balance and the markup resolves, so the page is merely wrong. It
+    # was found by counting source equations against rendered ones and getting 59
+    # against 58.
+    #
+    # Guarded in `lint.py` first, where it caught the SAME defect in A342 during
+    # the equation pass. Promoted here on the second incident, measured at zero
+    # across the 174 posts and 47 drafts that enable MathJax. Drafts run the whole
+    # battery downgraded to warnings, which is where both incidents happened, so
+    # the promotion guards the workflow that actually produces this defect.
+    #
+    # Indented lines are skipped rather than parsed. An indented `$$` is far more
+    # likely to be a code block than a demoted equation, and this is a gate.
+    if re.search(r"^mathjax:\s*true", fm, re.M):
+        for i, line in enumerate(blank_code_keeping_lines(text).split("\n")):
+            if "$$" not in line or re.match(r"^(?: {4,}|\t)", line):
+                continue
+            if re.match(r"^\$\$.*\$\$$", line):
+                continue                      # a complete display equation
+            if re.match(r"^\$\$[^$]*$", line) or re.match(r"^[^$]*\$\$$", line):
+                continue                      # one half of a two-line equation
+            if re.match(r"^- \[.*\]\[" + ANCHOR + r"\]$", line):
+                continue                      # a reference bullet whose TITLE carries math
+            rep.error("math-display-inlined",
+                      f"{name}: line {i + 1}: $$ shares a line with prose; "
+                      f"renders as INLINE math")
+
+
+    # A SURVEY CLUSTER ROW STATES ITS OWN COUNT AND THEN LISTS THAT MANY
+    # CITATIONS, and the two are written by a generator that a hand edit can
+    # desynchronise. The row reads `**N records.**` followed by N `[[text][anchor]]`
+    # runs on the same line.
+    #
+    # THIS GUARDS A DIFFERENT FAILURE FROM THE ONE THAT MOTIVATED IT, and saying
+    # so matters. A342's publication review found the survey's INTERPRETIVE
+    # paragraph stale in all six of its statistics while every cluster row was
+    # correct, because the primary pass regenerated the mechanical parts and left
+    # the hand-written prose alone. Those six numbers are recomputed from the
+    # reference data by `_lib/survey.py`, since a median and a period share cannot
+    # be derived from the article at all. What IS derivable from the article is
+    # this row-against-its-own-citations agreement, so that is what is gated here.
+    #
+    # Measured at 66 rows across 4 files with zero mismatches before promotion.
+    for i, line in enumerate(text.split("\n")):
+        m = re.match(r"^\*\*([\d,]+) records\.\*\*(.*)$", line)
+        if not m:
+            continue
+        stated = int(m.group(1).replace(",", ""))
+        actual = len(re.findall(r"\]\[([a-z][a-z0-9_]*)\]", m.group(2)))
+        if stated != actual:
+            rep.error("survey-row-count",
+                      f"{name}: line {i + 1}: row states {stated:,} records and "
+                      f"carries {actual:,} citations")
 
     stripped = re.sub(r"(?s)```.*?```", " ", text)
     stripped = re.sub(r"(?s)\{%\s*highlight.*?\{%\s*endhighlight\s*%\}", " ", stripped)

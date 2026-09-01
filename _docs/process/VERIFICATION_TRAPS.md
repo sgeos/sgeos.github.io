@@ -347,6 +347,14 @@ against a string.** The repair was a separate checker that reads the finished ar
 stated statistic by pattern, recomputes it from the reference set and compares. It found six defects
 on its first run. Presence checks are now used only for words.
 
+**Resolved 2026-09-01.** The checker was written in a gitignored scratch directory, which hands the
+next article the lesson and not the instrument, so its general half is now `_lib/survey.py` and is
+under regression test. **Only the article-internal half can be gated corpus-wide**, since a median
+publication year cannot be derived from the article, so `_verify.py` gained `survey-row-count`, which
+holds a cluster row's stated count against the citations on that row. That guards a DIFFERENT failure
+from the one that motivated it, and the distinction is worth keeping in view: A342's rows were all
+correct while the paragraph interpreting them was stale.
+
 **The corollary is that a spelled-out number is still a number.** `Nine hundred and forty-two records
 predate 2000` needs a word-to-integer parser in the checker, and writing one is cheaper than the
 convention of never spelling a number out.
@@ -381,3 +389,31 @@ created one.**
 The term was unnecessary, since `flip chip` and `hybrid bonding` identify the same container without
 it. **Measure what a pattern would drop before adding it**, over the whole pool and not over the
 records that motivated it, and read the titles.
+
+
+## An instrument that shares the blind spot of the thing it measures
+
+**2026-09-01.** Caps-emphasis is the defect this author most reliably reintroduces. The 2026-08-14
+audit cleared nine spans, and the next two articles reintroduced the class three times, once per pass.
+Every scan for it used
+
+    \b[A-Z][A-Z0-9'\-]{1,}(?:\s+[A-Z][A-Z0-9'\-]{1,}){2,}\b
+
+which requires **two or more capitals per token**. So it reads `ADD TO A COMPLETE MACHINE` as `ADD TO`,
+then `A`, then `COMPLETE MACHINE`, and none of the three reaches the required run length. **The pattern
+cannot see a run containing a single-letter word**, and English emphasis is full of `A`, `I` and `O`.
+
+That span sits in a published post. It survived the series audit, it survived every scan run during two
+subsequent articles, and **it survived the scans that certified those two articles clean of exactly
+this defect**. The instrument agreed with the articles because it could not see the thing either.
+
+**Two further measurements taken with the same instrument were also wrong**, and in opposite
+directions. Stripping only the `[[text][anchor]]` citation form and not the bare `[text][anchor]` form
+reported 621 caps runs in authored prose that were in fact publisher-shouted citation titles, and then
+reported zero shouted titles corpus-wide when there are 1,045 across 13 posts. **A single blind spot
+produced both a false alarm and a false all-clear from the same data.**
+
+**Allow single-letter tokens and require the RUN to carry substance instead.** Two words of two or more
+letters within a run of three or more capitalised tokens keeps `A B C` quiet and catches the real case.
+Now `lint.py`'s `caps-emphasis`, a convention rather than a defect, because `GRANT ALL PRIVILEGES ON
+DATABASE` and `INT TERM QUIT EXIT` are correct as written and cannot be told from emphasis by shape.

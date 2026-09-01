@@ -113,6 +113,34 @@ def scan(text):
         if n > 1:
             out.append((DEFECT, "anchor-duplicate", f"[{a}] defined more than once"))
 
+    # CAPS-EMPHASIS IS THE DEFECT THIS AUTHOR MOST RELIABLY REINTRODUCES. The
+    # 2026-08-14 series audit cleared nine spans from four articles, and the very
+    # next two articles reintroduced the class three times, once per pass, every
+    # time in newly written prose. A lesson recorded in a handoff is not a guard.
+    #
+    # A CONVENTION AND NOT A DEFECT, because the run cannot be told apart from a
+    # technical literal by shape alone. The corpus carries 26 of these and nearly
+    # all are legitimate, being `GRANT ALL PRIVILEGES ON DATABASE`,
+    # `INT TERM QUIT EXIT` and product names. Reporting them is useful; failing on
+    # them would be wrong.
+    #
+    # A SINGLE-LETTER WORD MUST NOT BREAK THE RUN. The obvious pattern requires
+    # two or more capitals per token, so it reads `ADD TO A COMPLETE MACHINE` as
+    # `ADD TO`, then `A`, then `COMPLETE MACHINE`, and reports nothing. That blind
+    # spot hid a live span through several audits AND through the scans that
+    # certified two articles clean. Tokens may be one letter; the run must simply
+    # carry two substantial words.
+    prose = _strip_code(text)
+    prose = re.sub(rf"\[\[([^\]]+)\]\[{ANCHOR}\]\]", " ", prose)
+    prose = re.sub(rf"\[([^\]\[]+)\]\[{ANCHOR}\]", " ", prose)
+    prose = re.sub(rf"(?m)^\[{ANCHOR}\]:.*$", " ", prose)
+    for mm in re.finditer(r"\b[A-Z][A-Z0-9'\-]*(?:\s+[A-Z][A-Z0-9'\-]*){2,}\b", prose):
+        run = mm.group(0)
+        if sum(1 for w in run.split() if len(w) >= 2) >= 2:
+            out.append((CONVENTION, "caps-emphasis",
+                        f"{run[:60]!r}; all-capitals emphasis, or a technical literal "
+                        f"that should be in backticks"))
+
     # A `{c('...')}` survivor means a generator emitted a template it never
     # filled. A320 froze its cluster citations this way and the reference
     # generator correctly refused to emit; A369 shipped the placeholders into
