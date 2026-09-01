@@ -45,6 +45,45 @@ study system systems technique technology theory validation
 """.split())
 
 
+# THE SHARED PHYSICAL SUBSTRATE, WHICH IS NOT A SUBJECT AND IS NEEDED BY EVERY
+# SUBJECT THAT COMPUTES ANYTHING AT ALTITUDE.
+#
+# This is deliberately NOT a reusable gate. The header above records what copying
+# gates between articles costs, and nothing here relaxes that. It names one small
+# vocabulary that is common to every article in an aeronautical series because it
+# describes the medium rather than the aeroplane, and a subject gate that omits it
+# reports zero records for a relation the article displays.
+#
+# THE INCIDENT CHAIN IS THREE ARTICLES LONG. A341's gate refused `U.S. Standard
+# Atmosphere, 1976`, one of its own foundational sources, because `atmosphere` was
+# not an anchor, and the article readmitted it BY NAME and recorded the defect.
+# The fix was made for that article only. A342 then used the standard atmosphere
+# for its corrected-parameter engine model and its ceiling analysis and harvested
+# ZERO records about it. A343 displayed the atmosphere relation itself and also
+# harvested zero. Neither noticed, because a subject nobody searched for returns
+# no records and an absent cluster looks like an absent literature.
+#
+# A per-article fix has now failed twice, so the vocabulary lives here.
+# NARROWED AFTER MEASUREMENT, and the first version is the lesson. Written with a
+# bare `speed of sound` and a bare `stratospher`, it admitted the speed of sound in
+# seawater, in mammalian tissue, in ionic liquids, in molten potassium halides and
+# in PVC pipes, together with GNSS tropospheric delay and a tropical cyclone study.
+# FORTY-SEVEN OF ONE HUNDRED AND FORTY-THREE RECORDS IN THE CLUSTER WERE WRONG.
+# `speed of sound` is a homonym across acoustics, physical chemistry, biology and
+# oceanography, which is the same shape as A341's designation harvest returning tax
+# valuations. The term now requires an atmospheric context on one side or the other.
+# Bare `stratospher` is dropped entirely, because genuinely aeronautical
+# stratospheric work carries aircraft vocabulary and is admitted by a subject gate.
+ATMOSPHERE = [
+    r"standard atmosphere|atmospheric (?:model|propert|structur|tabl)|\bICAO atmosphere\b",
+    r"atmosphere.{0,25}(?:propert|model|tabl|altitude)|properties of the atmosphere",
+    r"tropopause|geopotential|pressure altitude|density altitude",
+    r"(?:speed of sound|acoustic velocity).{0,40}(?:air|atmospher|altitude)",
+    r"(?:air|atmospher\w*|altitude).{0,40}(?:speed of sound|acoustic velocity)",
+    r"air (?:densit|temperature|pressure|viscosit).{0,20}altitude|altitude.{0,20}air (?:densit|propert)",
+]
+
+
 # TYPOGRAPHIC PUNCTUATION IS NORMALISED BEFORE ANY PATTERN SEES A TITLE, AND THAT
 # IS NOT OPTIONAL. A334 refused `Thermal Characteristics of a Nickel-Hydrogen
 # Battery` because the depositor wrote the hyphen as U+2010, and recorded that its

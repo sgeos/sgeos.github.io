@@ -267,7 +267,16 @@ def display(authors, year, title, disambiguate=False):
     else:
         x = a[0].title() if a[0].isupper() else a[0]
         base = f"{x} et al"
-    out = f"{base} {year}" if year else base
+    # A TITLE THAT ALREADY ENDS IN ITS OWN YEAR MUST NOT HAVE IT APPENDED AGAIN.
+    # Standards and reference documents are titled that way as a matter of course,
+    # so the no-author branch produced `U.S. Standard Atmosphere, 1976 1976`. A341
+    # carried the same source and did not show this only because it was readmitted
+    # and labelled by hand, which is a repair that does not survive to the next
+    # article.
+    if year and re.search(rf"\b{re.escape(str(year))}$", base.strip()):
+        out = base
+    else:
+        out = f"{base} {year}" if year else base
     if disambiguate:
         out += ", " + clean(decap(title))[:33]
     return clean(out)

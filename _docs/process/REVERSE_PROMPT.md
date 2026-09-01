@@ -1,105 +1,129 @@
 ## Last Updated
 
 **Date**: 2026-09-01
-**Task**: **A343 equation-density review, the second of four passes.** Committed, **not pushed**.
+**Task**: **A343 primary-reference review, the third of four passes.** Committed, **not pushed**.
 Nothing published and publication still not authorised.
 
 ---
 
-## Eleven Display Equations to Thirty-Seven, and Two Prose Claims Were Wrong
+## The Standard Atmosphere Measured Zero and Three Articles Carried the Same Gap
 
-**The pass found what it exists to find, which is prose asserting a result that no displayed relation
-produces.** Two of those assertions turned out to be false as soon as the relation was written down.
+**This article displays a relation that uses the standard atmosphere and its survey held nothing about
+it.** That is the sharpest gap this pass found and it is not local.
 
-**The draft said the implied vehicle is "two and a half times the X-45A" and it is 2.67 times.** The
-ratio was never computed, only estimated from the two masses by eye.
+**A341's gate refused `U.S. Standard Atmosphere, 1976`, one of its own foundational sources**, because
+`atmosphere` was not an anchor. It readmitted that source by name, recorded the defect, and **fixed it
+for itself alone.** A342 then used the standard atmosphere for its corrected-parameter engine model
+and its ceiling analysis and harvested **zero** records about it. A343 displayed the relation and also
+harvested zero.
 
-**The draft said the requirement sits "about one point of empty-weight fraction away from being met"
-and it sits 2.1 points away.** That one is the better catch, because the correction came from writing
-the derivative rather than from recomputing an arithmetic slip,
+**Neither noticed, and the reason is worth keeping.** A subject nobody searched for returns no
+records, and **an absent cluster looks exactly like an absent literature.** There is no signal to
+notice.
 
-$$\frac{\partial E}{\partial \zeta_{\text{empty}}} = -\frac{L/D}{c} \frac{1}{\zeta_{\text{end}}}
-= -44.2 \ \text{hours per unit}$$
-
-which is 0.442 hours per point against 0.97 hours still needed. **An estimate by eye from a table of
-six rows read the gap as half what it is.**
-
----
-
-## One of My Own New Equations Was Wrong and the Verifier Caught It
-
-**I wrote the end-of-mission weight fraction as one minus payload minus empty.** It is empty plus
-payload, equivalently one minus the fuel fraction. The numbers in the table were right, having come
-from code that had it right, so **only the newly written relation was wrong** and it would have been a
-relation contradicting the table beneath it. The verifier now asserts both forms.
-
-**A displayed line must evaluate to its own stated answer, and one did not.** The span agreement was
-written as 0.0042 where the division gives 0.0043. **This is the third article in which that class has
-appeared** and it is the reason the check exists.
-
-**One check was itself wrong.** The gap between the demanded fraction and the lightest carrier
-aeroplane is 0.0925 from the displayed figures and 0.0928 from unrounded inputs, and the verifier
-demanded the second of a line that computes the first. **A displayed line should be checked as it is
-written**, so the verifier now checks both and says which is which.
+**The vocabulary now lives in `_lib/gate.py` as `ATMOSPHERE`**, named explicitly by an article's gate
+rather than copied. That module's own header records what copying gates between articles costs, so
+this is deliberately one small family describing the medium rather than the aeroplane. **The cluster
+went from 0 to 101 records and the U.S. Standard Atmosphere of 1976 is now cited beside the relation
+it supports.**
 
 ---
 
-## The Guard Promoted Yesterday Fired Today
+## Two Gate Defects, Both Mine, in Opposite Directions
 
-**`math-display-inlined` caught two defects in this pass.** Both were mine and both had the same cause,
-which is that a replacement ending in a display equation left the paragraph's remaining prose on the
-same source line. **That renders as inline math with the equation and the following sentences run
-together**, and `render.py` cannot see it because the delimiters balance.
+**The atmosphere family as first written was too permissive.** A bare `speed of sound` admitted the
+speed of sound in seawater, in mammalian tissue, in ionic liquids, in molten potassium halides and in
+polyvinyl chloride pipes, and a bare `stratospher` admitted satellite tropospheric delay and a
+tropical cyclone study. **Forty-seven of the cluster's 143 records were the wrong sense of the words.**
+**A pattern written to catch a homonym created one**, which is exactly what A342's `fan-in` did.
 
-**This is the third consecutive article in which the equation pass has produced this defect.** A341
-shipped it into a build, A342 was caught by the workbench, and A343 by the gate. **The source `$$`
-pair count and the complete-line equation count now agree at 37**, which is the check A341 had to
-invent.
-
----
-
-## What Was Added
-
-**The framing inequality, which the article rested on in words and never wrote.** Carrier suitability
-adds mass and removing the crew saves it, so the requirement is satisfiable only if the crew saving
-exceeds the deck penalty by the gap between what carrier aircraft achieve and what the requirement
-demands. **Neither delta is published for any aircraft**, which is why the article bounds their
-difference rather than estimating them.
-
-**The standard atmosphere and the Mach relation**, which the draft used to produce 430.2 knots without
-showing either. **The fuel split**, which the draft quoted as fourteen and thirty-nine percent, and
-which is 14.0 and 33.8 because the loiter is charged after the outbound leg has already burned fuel.
-**The three readings as three distinct products of the same segment ratios.** **The wing area and span
-relations** the carrier table is built from and never showed. **Thrust from thrust to weight**, which
-puts the required installed thrust 40 percent above the X-45C's at the lowest plausible ratio.
-**The fan-out relation and its latency form**, named in prose and left undisplayed. **The fuel-flow
-equation and its integral**, which the framing section criticised the article for not using.
+**The gate was also too narrow and the DROPPED sample is what showed it.** It refused
+`Specific fuel consumption` and `Calculation of Long Range Cruise Performance` for carrying no subject
+anchor, while this article assumes a value for the first and displays a relation that integrates the
+second. **Only reading a random sample of what was dropped makes that visible**, which is why the gate
+library refuses to return a corpus until both samples are drawn.
 
 ---
 
-## The Promoted-Subjects Rule Fired
+## My Audit Was Wrong About One Subject and That Is the Recurring Failure
 
-**Twenty-seven of thirty-seven equation paragraphs carry no citation within their window.** Most are
-arithmetic on values already cited and legitimately need none. **Three were closed against sources
-already in the reference block**, being the area and span definitions, the thrust relation and the
-fuel-flow equation. **The standard atmosphere is the clearest remaining gap** and it is the same one
-A341 had to readmit by name, so the primary-reference pass should expect to add it.
+**Structural weight estimation measured nine records and the pool held ninety-six.** The pattern was
+written in this article's words, being the carrier structural penalty. **The six queries aimed at it
+had returned 1,059 records and the gate had admitted 669**, so the literature was already there.
 
-**Recorded rather than closed, which is the A342 precedent.** The reference base is the third pass's
-work and harvesting for it here would do that pass badly and early.
+**The penalty for carrier suitability is not published as its own subject.** It is a term inside a
+weight equation, so the field's words are structural weight estimation, wing weight equations and
+component weight methods. **A341 recorded this exact failure and A342 avoided it by writing in the
+field's vocabulary from the outset. This pass did not, on one subject out of twelve.**
+
+---
+
+## The Subject Audit
+
+| subject | before | after |
+|---|---|---|
+| the standard atmosphere | 0 | 79 |
+| cruise performance and the range equation | 50 | 137 |
+| wing loading, approach speed and maximum lift | 21 | 81 |
+| supervisory control and the operator ratio | 42 | 75 |
+| thrust to weight and propulsion sizing | 13 | 50 |
+| structural weight estimation | 9 | 96 |
+
+**One subject remains thin and it is thin in vocabulary rather than in coverage.** Thrust to weight
+returns fifty while the propulsion cluster holds 683 and constraint analysis sits inside aircraft
+sizing at 428. **The relation this article displays for installed thrust is a definition and a
+definition has no literature of its own.**
+
+---
+
+## Counts and Fractions, Both Reported Because They Disagree
+
+**The pool went from the 4,375 records the equation pass left, to 4,379 once the gate was widened, to
+6,755 after the harvest.** The widening and the harvest are separated in the article because they are
+different causes and four records is what the first was worth.
+
+**Report primaries went from 662 to 1,024 while the share moved 15.1 percent to 15.2.** A share that
+does not move while a count rises by 55 percent is the pass working. On the fitted definition, which
+adds the AIAA, SAE, IEEE and ACM venues where aircraft sizing was actually published, primaries went
+from **2,656 of 4,375 at 60.7 percent to 4,156 of 6,755 at 61.5**.
+
+**The period statistics moved the other way, as they have in every reference pass in this series.**
+Records from 2015 or later rose 1,828 to **2,592** in count while falling 45.7 percent to **41.7** in
+share, records predating 2000 went 966 to **1,893**, and the median moved back from 2013 to **2011**.
+**For the Breguet relations and the standard atmosphere the relevant era is a great deal earlier than
+the aeroplane.**
+
+**A tag recording where a record was found and an identifier saying what it is disagree by 184
+records.** A Defense Technical Information Center report reached through a general Crossref sweep is a
+report primary whatever route found it, so the counts are by identifier.
+
+---
+
+## Two More Library Fixes
+
+**`refs.display` appended a year to a title that already ended in one**, producing
+`U.S. Standard Atmosphere, 1976 1976`. A341 carried the same source without the artefact only because
+it was labelled by hand, which is a repair that does not survive to the next article. Standards
+documents are titled that way as a matter of course.
+
+**`_lib` tests are 88 of 88**, with new cases for the atmosphere family in both directions and for the
+duplicated year.
 
 ---
 
 ## State
 
-**A343 is committed and not pushed. Two of four passes complete.** **9,489 lines, 37 display
-equations, 4,441 reference definitions, 52,819 words**, of which 7,560 are author prose. **References
-held at 4,441 and measured before and after**, since an equation pass adds no sources.
+**A343 is committed and not pushed. Three of four passes complete.** **14,287 lines, 37 display
+equations held and measured before and after, 6,821 reference definitions, 77,861 words**, of which
+8,715 are author prose.
 
 `_verify.py` zero errors and zero warnings, `lint.py` **zero defects and zero conventions**, reference
-integrity zero undefined, zero orphaned, zero duplicate URLs, **all numerical checks passing** across
-the original 45 and the additions, zero caps-emphasis spans on the corrected instrument, and zero
-contractions, colons, semicolons, dashes or parentheticals in prose.
+integrity zero undefined, zero orphaned, zero duplicate URLs. **Every survey statistic recomputed from
+the reference data by `_lib/survey.py`**, every cluster row checked against both its own citations and
+the data, and the audit table recomputed from the same patterns the audit uses. **300 of 300 sampled
+Crossref identifiers registered and 47 of 47 NASA identifiers resolved with zero title mismatches.**
+Zero caps-emphasis spans on the corrected instrument and zero contractions, colons, semicolons, dashes
+or parentheticals in prose.
 
 **Forty-seven of seventy-two drafted, none published, publication never authorised.**
 
@@ -107,9 +131,11 @@ contractions, colons, semicolons, dashes or parentheticals in prose.
 
 ## Next
 
-**The primary-reference review of A343 on your prompt**, which is the third of four passes.
+**The publication review of A343 on your prompt**, which is the fourth pass and the one that pushes.
+**Its known target is the survey against the article's own conclusions**, which is what A340, A341 and
+A342 all found, and for this article that means the empty-weight-fraction claim, the two readings of
+the requirement and the span consistency check.
 
 **Two content decisions remain yours and both are on published posts.**
 `_posts/2026-08-06-native_lowering_coverage.markdown` carries two authored caps-emphasis spans at
-lines 879 and 1306, and thirteen published posts carry 1,045 shouted citation titles that `refs.decap`
-now prevents at generation but does not repair.
+lines 879 and 1306, and thirteen published posts carry 1,045 shouted citation titles.

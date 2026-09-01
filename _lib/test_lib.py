@@ -1280,6 +1280,20 @@ def t_refs_display_normalises_a_shouted_title():
     assert refs.decap("1962") == "1962"
     assert refs.decap("") == ""
 
+    # A TITLE ENDING IN ITS OWN YEAR MUST NOT HAVE IT APPENDED AGAIN. Standards
+    # documents are titled this way as a matter of course, and A343 produced
+    # `U.S. Standard Atmosphere, 1976 1976` from a record A341 had carried without
+    # the artefact only because it was labelled by hand.
+    assert refs.display([], "1976", "U.S. Standard Atmosphere, 1976") == \
+        "U.S. Standard Atmosphere, 1976"
+    assert refs.display([], "1962", "U.S. Standard Atmosphere, 1962") == \
+        "U.S. Standard Atmosphere, 1962"
+    # A year that merely appears inside the label is not the same thing.
+    assert refs.display([], "1976", "The 1976 revision of the model") == \
+        "The 1976 revision of 1976"
+    # And an author-derived label always takes its year.
+    assert refs.display(["Smith"], "1976", "anything") == "Smith 1976"
+
 
 def t_verify_gates_a_display_equation_demoted_to_inline_math():
     """A341 shipped one of these into a build and `render.py` cannot see it.
@@ -1423,6 +1437,50 @@ def t_lint_sees_caps_emphasis_through_a_single_letter_word():
 
     # It is a convention, so it must never raise the defect guard.
     lint.assert_clean(body)
+
+
+def t_gate_carries_the_shared_atmosphere_vocabulary():
+    """Three articles displayed an atmosphere relation and two harvested nothing.
+
+    A341's gate refused `U.S. Standard Atmosphere, 1976`, one of its own
+    foundational sources, because `atmosphere` was not an anchor. It readmitted
+    that source by name and recorded the defect FOR ITSELF ONLY. A342 then used
+    the standard atmosphere for its engine model and harvested zero records about
+    it, and A343 displayed the relation and also harvested zero.
+
+    A SUBJECT NOBODY SEARCHED FOR RETURNS NO RECORDS, and an absent cluster looks
+    exactly like an absent literature, which is why neither article noticed. A
+    per-article fix having failed twice, the vocabulary lives in the library.
+
+    This is NOT a reusable gate and must not become one. It names the medium
+    rather than the aeroplane, which is why it is common to every subject here.
+    """
+    g = gate.Gate(gate.ATMOSPHERE, name="t")
+    for title in ["U.S. Standard Atmosphere, 1976",
+                  "Properties of the atmosphere at altitude",
+                  "Speed of sound in air as a function of temperature",
+                  "Atmospheric properties for flight test data reduction",
+                  "Geopotential altitude and the tropopause"]:
+        assert g.admits(title), f"refused {title!r}"
+
+    # It is a substrate, not a subject, so it must not admit unrelated work.
+    for title in ["A study of medieval poetry",
+                  "Precision agriculture with unmanned aerial vehicles",
+                  "Fan-out: measuring human control of multiple robots"]:
+        assert not g.admits(title), f"admitted {title!r}"
+
+    # THE FIRST VERSION OF THIS FAMILY WAS TOO PERMISSIVE AND THAT IS THE LESSON.
+    # A bare `speed of sound` admitted seawater, mammalian tissue, ionic liquids,
+    # molten potassium halides and PVC pipes, and a bare `stratospher` admitted
+    # GNSS tropospheric delay and a tropical cyclone study. Forty-seven of the
+    # cluster's 143 records were wrong. The term is a homonym across acoustics,
+    # physical chemistry, biology and oceanography.
+    for title in ["Speed of sound in seawater as a function of temperature and salinity",
+                  "In vivo temperature dependence of the speed of sound in mammalian tissue",
+                  "Speed of Sound in Binary Molten Mixtures of Potassium Halides",
+                  "Speed of Sound Versus Temperature Using PVC Pipes Open at Both Ends",
+                  "QSPR Model to Predict the Speed of Sound of Ionic Liquids"]:
+        assert not g.admits(title), f"admitted the wrong sense: {title!r}"
 
 
 for name, fn in sorted(list(globals().items())):

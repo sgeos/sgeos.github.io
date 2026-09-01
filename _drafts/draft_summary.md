@@ -21,9 +21,30 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_boeing_x46.markdown`, A343, editorial date 2025-11-21, series `x_planes` index 47 of 72.
 
-**9,489 lines, 37 display equations, 4,441 reference definitions, 52,819 words after the
-equation-density pass**, of which 7,560 are author prose, a dilution factor of 7.0. **Two of four
+**14,287 lines, 37 display equations, 6,821 reference definitions, 77,861 words after the
+primary-reference pass**, of which 8,715 are author prose, a dilution factor of 8.9. **Three of four
 passes complete.** Committed and **NOT PUSHED**. **Documentation-poor class.**
+
+**THE STANDARD ATMOSPHERE MEASURED ZERO AND THIS ARTICLE DISPLAYS A RELATION THAT USES IT.** A341's
+gate refused the U.S. Standard Atmosphere of 1976, one of its own foundational sources, readmitted it
+by name and **fixed it for itself alone**. A342 then used the standard atmosphere for its engine model
+and harvested zero records about it, and A343 displayed the relation and also harvested zero. **A
+subject nobody searched for returns no records, and an absent cluster looks exactly like an absent
+literature.** The vocabulary now lives in `_lib/gate.py` and the cluster went from 0 to 101.
+
+**TWO GATE DEFECTS, BOTH MINE, IN OPPOSITE DIRECTIONS.** The atmosphere family as first written
+admitted the speed of sound in seawater, mammalian tissue, ionic liquids, molten potassium halides and
+PVC pipes, **47 of the cluster's 143 records being the wrong sense of the words**. The gate was
+separately **too narrow**, refusing `Specific fuel consumption` and a cruise-performance paper, which
+only the dropped sample makes visible.
+
+**THE AUDIT WAS WRONG ABOUT ONE SUBJECT.** Structural weight estimation measured 9 where the pool held
+96, because the pattern was written in the article's words rather than the field's. **The penalty for
+carrier suitability is not published as its own subject, it is a term inside a weight equation.**
+
+**Report primaries 662 to 1,024 while the share moved 15.1 to 15.2 percent**, and fitted primaries
+2,656 of 4,375 at 60.7 percent to 4,156 of 6,755 at 61.5. **Records from 2015 or later rose 1,828 to
+2,592 in count while falling 45.7 to 41.7 in share**, and pre-2000 went 966 to 1,893.
 
 **THE EQUATION PASS TOOK 11 DISPLAY EQUATIONS TO 37 AND FOUND TWO PROSE CLAIMS WRONG.** The draft said
 the implied vehicle is two and a half times the X-45A where the ratio is 2.67, and that the
