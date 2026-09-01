@@ -21,9 +21,27 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_boeing_x46.markdown`, A343, editorial date 2025-11-21, series `x_planes` index 47 of 72.
 
-**14,287 lines, 37 display equations, 6,821 reference definitions, 77,861 words after the
-primary-reference pass**, of which 8,715 are author prose, a dilution factor of 8.9. **Three of four
-passes complete.** Committed and **NOT PUSHED**. **Documentation-poor class.**
+**17,305 lines, 37 display equations, 8,319 reference definitions, 93,888 words after the
+publication review**, of which 9,564 are author prose, a dilution factor of 9.8. **All four passes
+complete.** Committed and **PUSHED**. **Not published**, and publication of the series has never been
+authorised. **Documentation-poor class, written in the full section order**, and the article now
+defends that choice against the genre's rule that the reduced order is honest where no vehicle was
+built.
+
+**SEVEN OF SEVEN RESULT-DRIVEN SUBJECTS MEASURED THIN**, the most complete instance the series has
+recorded. **The article's central claim, that the gap between what carrier aircraft weigh and what the
+requirement demands is the crew, rested on 15 records and now rests on 111.** Long-endurance unmanned
+empty weight went 31 to 94 and requirement feasibility 8 to 53.
+
+**THE SAME INSTRUMENT ERROR WAS MADE TWICE AND CAUGHT THE SECOND TIME.** Having measured a subject at
+9 that the pool held 96 of in the previous pass, this pass concluded from 734 records returned and 409
+admitted that two more thin subjects must be artefacts too. **A record the gate admits is not a record
+about the subject**, because the gate admits on any anchor while an audit measures one. **The first
+reflex, that a thin measurement means a narrow pattern, is right often enough to be dangerous.**
+
+**THE WEAKEST JOINT IN THE ANALYSIS IS NOW MEASURED.** The payload fraction is the single constant the
+article inherits and every mass figure depends on, and the survey holds three records using the
+phrase.
 
 **THE STANDARD ATMOSPHERE MEASURED ZERO AND THIS ARTICLE DISPLAYS A RELATION THAT USES IT.** A341's
 gate refused the U.S. Standard Atmosphere of 1976, one of its own foundational sources, readmitted it
