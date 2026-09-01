@@ -21,9 +21,26 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_boeing_x46.markdown`, A343, editorial date 2025-11-21, series `x_planes` index 47 of 72.
 
-**9,391 lines, 11 display equations, 4,441 reference definitions, 51,999 words after the draft
-pass**, of which 6,778 are author prose, a dilution factor of 7.7. **One of four passes complete.**
-Committed and **NOT PUSHED**. **Documentation-poor class.**
+**9,489 lines, 37 display equations, 4,441 reference definitions, 52,819 words after the
+equation-density pass**, of which 7,560 are author prose, a dilution factor of 7.0. **Two of four
+passes complete.** Committed and **NOT PUSHED**. **Documentation-poor class.**
+
+**THE EQUATION PASS TOOK 11 DISPLAY EQUATIONS TO 37 AND FOUND TWO PROSE CLAIMS WRONG.** The draft said
+the implied vehicle is two and a half times the X-45A where the ratio is 2.67, and that the
+requirement sits about one point of empty-weight fraction from being met where it sits 2.1. **The
+second correction came from writing the derivative rather than from recomputing an arithmetic slip**,
+the sensitivity being 0.442 hours per point against 0.97 hours still needed.
+
+**ONE OF THE NEW EQUATIONS WAS ITSELF WRONG AND THE VERIFIER CAUGHT IT.** The end-of-mission weight
+fraction was written as one minus payload minus empty where it is empty plus payload. The table
+beneath it was right because the code was right, so the defect was **a relation contradicting its own
+table**. **A displayed line must also evaluate to its own stated answer and one did not**, the span
+agreement written as 0.0042 where the division gives 0.0043.
+
+**THE GUARD PROMOTED ON 2026-09-01 FIRED THE SAME DAY.** `math-display-inlined` caught two defects,
+both from a replacement ending in a display equation that left the paragraph's remaining prose on the
+same source line. **This is the third consecutive article in which the equation pass produced that
+defect**, A341 shipping it into a build, A342 caught by the workbench and A343 by the gate.
 
 **THE FIRST AEROPLANE IN THIS SERIES WITH NO PUBLISHED SPECIFICATION AT ALL.** The specialist
 designation directory prints specification tables for the X-45A and the X-45C and prints none for the

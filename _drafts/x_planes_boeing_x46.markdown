@@ -27,6 +27,16 @@ That needs stating carefully. **A carrier aeroplane is heavy for reasons that ha
 
 **An unmanned aeroplane gives some of that back.** It has no cockpit, no canopy, no ejection seat, no life support, no crew station displays and no windscreen structure. **The question is whether the credit exceeds the debit**, and the UCAV-N requirement is a statement of how large the credit had to be.
 
+Writing that as a relation makes the whole article one inequality. Let $\zeta_{\text{empty}}$ be the empty weight as a fraction of gross, let $\Delta_{\text{deck}}$ be what carrier suitability adds and $\Delta_{\text{crew}}$ what removing the crew saves, both as fractions of the same gross weight. Then
+
+$$\zeta_{\text{empty}} = \zeta_{\text{ref}} + \Delta_{\text{deck}} - \Delta_{\text{crew}}$$
+
+and the requirement is satisfiable only if
+
+$$\Delta_{\text{crew}} - \Delta_{\text{deck}} \ \ge \ \zeta_{\text{ref}} - \zeta_{\text{req}}$$
+
+**Everything below is an attempt to put a number on the right-hand side**, since $\zeta_{\text{ref}}$ is what manned carrier aircraft achieve and $\zeta_{\text{req}}$ is what the requirement demands. **Neither delta is published for any aircraft**, which is why the article bounds their difference rather than estimating them separately.
+
 The requirement, as the open record gives it, is a payload of four thousand pounds, an operational radius of six hundred and fifty nautical miles, an ability to loiter for up to twelve hours, and carrier takeoff and recovery [[Naval Unmanned Combat Air Vehicle, GlobalSecurity][ref_ucavn_globalsecurity]] [[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]]. **Three numbers and a constraint, and this article's whole analysis is what they imply.**
 
 **The record does not say whether the three numbers hold simultaneously**, and the difference is enormous. An aircraft that flies six hundred and fifty nautical miles, loiters twelve hours and returns is a very different aeroplane from one that does either separately. **Both readings are computed below and the article does not pretend to know which was meant.**
@@ -77,7 +87,11 @@ $$\overline{PF} = 0.12293$$
 
 $$m_{\text{gross}} = \frac{4{,}000}{0.12293} = 32{,}539 \ \text{lb}$$
 
-which is 14,760 kilograms. **That is eleven percent lighter than the X-45C and two and a half times the X-45A**, and it places the X-46A firmly in the larger class rather than the demonstrator class.
+or 14,760 kilograms. Against the two aircraft that were built,
+
+$$\frac{32{,}539}{36{,}597} = 0.889 \qquad \frac{32{,}539}{12{,}192} = 2.67$$
+
+**That is 11.1 percent lighter than the X-45C and 2.67 times the X-45A**, and it places the X-46A firmly in the larger class rather than the demonstrator class.
 
 ### What the Mission Costs in Fuel
 
@@ -91,7 +105,13 @@ $$E = \frac{1}{c} \left( \frac{L}{D} \right) \ln \frac{W_{0}}{W_{1}} \qquad \Lon
 
 **Both are standard and both are stated here because everything below is arithmetic on them** [[Raymer, Aircraft design, a conceptual approach][book_raymer]] [[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]] [[Anderson, Aircraft performance and design][book_anderson_performance]] [[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]].
 
-The assumptions are as follows and each is varied afterwards. Cruise is taken at 40,000 feet and Mach 0.75, which the standard atmosphere turns into a true airspeed of 430.2 knots. The cruise lift to drag ratio is taken as 16, which is the lower bound the previous article pinned for the X-45C from that aircraft's own stated ceiling and thrust. The loiter value is taken as 18, since loiter is flown nearer the best lift to drag ratio than cruise is. **Specific fuel consumption is taken as 0.80 per hour in cruise and 0.75 in loiter**, which is the class of a non-augmented turbofan of the kind both X-45 variants carried.
+The assumptions are as follows and each is varied afterwards. Cruise is taken at 40,000 feet and Mach 0.75. **Forty thousand feet is above the tropopause**, so the standard atmosphere holds the temperature constant at its 11 kilometre value and the speed of sound with it,
+
+$$T = 288.15 - 0.0065 \times 11{,}000 = 216.65 \ \text{K} \qquad a = \sqrt{\gamma R T} = 295.07 \ \text{m/s}$$
+
+$$V = M a = 0.75 \times 295.07 = 221.30 \ \text{m/s} = 430.2 \ \text{kn}$$
+
+The cruise lift to drag ratio is taken as 16, which is the lower bound the previous article pinned for the X-45C from that aircraft's own stated ceiling and thrust. The loiter value is taken as 18, since loiter is flown nearer the best lift to drag ratio than cruise is. **Specific fuel consumption is taken as 0.80 per hour in cruise and 0.75 in loiter**, which is the class of a non-augmented turbofan of the kind both X-45 variants carried.
 
 The three segment ratios are then
 
@@ -101,7 +121,13 @@ $$\frac{W_{1}}{W_{0}} \bigg|_{\text{out}} = 0.9272 \qquad \frac{W_{1}}{W_{0}} \b
 
 $$\zeta_{\text{fuel}} = 1 - \prod_{i} \frac{W_{i+1}}{W_{i}} + 0.05 = 1 - 0.9272 \times 0.6065 \times 0.9272 + 0.05 = 0.5285$$
 
-**More than half the aeroplane is fuel**, and the loiter leg accounts for almost all of it. The two cruise legs together cost fourteen percent of the takeoff weight and the twelve hours of loiter cost thirty-nine.
+**More than half the aeroplane is fuel**, and the loiter leg accounts for most of it. Splitting the product shows where it goes,
+
+$$\zeta_{\text{cruise}} = 1 - \left( \frac{W_{1}}{W_{0}} \right)_{\text{out}} \left( \frac{W_{1}}{W_{0}} \right)_{\text{back}} = 0.1402$$
+
+$$\zeta_{\text{loiter}} = \left( \frac{W_{1}}{W_{0}} \right)_{\text{out}} \left( \frac{W_{1}}{W_{0}} \right)_{\text{back}} \left[ 1 - \left( \frac{W_{1}}{W_{0}} \right)_{\text{loiter}} \right] = 0.3383$$
+
+**The two cruise legs together cost 14.0 percent of the takeoff weight and the twelve hours on station cost 33.8**, and those two with the five percent reserve are the 0.5285 above. **The loiter is charged after the outbound leg has already burned fuel**, which is why it costs 33.8 rather than the 39.3 that its own ratio would suggest if the aeroplane still weighed what it did at takeoff.
 
 ### The Number the Requirement Actually Demands
 
@@ -126,6 +152,10 @@ $$\zeta_{\text{empty}} = 1 - 0.12293 - 0.5285 = 0.3485$$
 | Boeing F/A-18E Super Hornet | 31,500 | 66,000 | 0.477 |
 | Lockheed S-3A Viking | 26,581 | 52,539 | 0.506 |
 
+Each row is the same fraction the requirement was solved for, and the smallest exceeds it by
+
+$$\zeta_{\text{empty}} = \frac{W_{\text{empty}}}{W_{\max}} \qquad 0.441 - 0.3485 = 0.0925$$
+
 **No carrier aeroplane in that table comes within nine points of the demanded fraction** [[Grumman A-6 Intruder][ref_a6_wikipedia]] [[Boeing F/A-18E/F Super Hornet][ref_fa18ef_wikipedia]] [[Lockheed S-3 Viking][ref_s3_wikipedia]]. The S-3A is the closest analogue by mission, being a carrier-based twin-turbofan aeroplane built for long endurance rather than for speed, and it is the heaviest of the four in fraction terms.
 
 **Those are all manned aircraft and that is exactly the argument.** The difference between 0.35 and 0.44 is the crew and everything the crew requires, and **the requirement is a bet that the difference is worth about nine points of gross weight.** Whether it is remains, twenty years later, a question the open literature does not settle for a carrier-suitable airframe.
@@ -134,7 +164,17 @@ $$\zeta_{\text{empty}} = 1 - 0.12293 - 0.5285 = 0.3485$$
 
 **If the three numbers are alternative mission points rather than one profile, the problem changes completely.**
 
-Every row below assumes an empty-weight fraction of 0.42, which is the light end of what a carrier airframe plausibly achieves, and the payload fraction is what remains after the fuel.
+Every row below assumes an empty-weight fraction of 0.42, which is the light end of what a carrier airframe plausibly achieves, and the payload fraction is what remains after the fuel,
+
+$$\zeta_{\text{payload}} = 1 - 0.42 - \zeta_{\text{fuel}} \qquad m_{\text{gross}} = \frac{4{,}000}{\zeta_{\text{payload}}}$$
+
+**Each reading is a different product of the same segment ratios**, which is the whole difference between them,
+
+$$\zeta_{\text{fuel}}^{\text{strike}} = 1 - (0.9272)^{2} + 0.05 = 0.190$$
+
+$$\zeta_{\text{fuel}}^{\text{station}} = 1 - 0.6065 + 0.05 = 0.443$$
+
+$$\zeta_{\text{fuel}}^{\text{both}} = 1 - (0.9272)^{2} (0.6065) + 0.05 = 0.529$$
 
 | reading | fuel fraction | payload fraction available | gross mass for 4,000 lb |
 |---|---|---|---|
@@ -142,7 +182,11 @@ Every row below assumes an empty-weight fraction of 0.42, which is the light end
 | 12 h loiter, no transit | 0.443 | 0.137 | 29,297 lb |
 | 650 nm out, 12 h loiter, 650 nm back | 0.529 | 0.051 | 77,713 lb |
 
-**The third row is the one that cannot be right.** An aeroplane of seventy-eight thousand pounds is larger than an F/A-18E at maximum takeoff weight and is not what anybody was proposing to put on a deck as a demonstrator. **The first row is equally implausible in the other direction**, since a payload fraction of 0.39 is three times what this manufacturer's own aircraft achieve.
+**The third row is the one that cannot be right.** An aeroplane of seventy-eight thousand pounds is larger than an F/A-18E at maximum takeoff weight and is not what anybody was proposing to put on a deck as a demonstrator. **The first row is equally implausible in the other direction.** A payload fraction of 0.390 against the family constant is
+
+$$\frac{0.390}{0.12293} = 3.17$$
+
+**more than three times what this manufacturer's own aircraft achieve**, so an aeroplane meeting the strike reading at that weight would not be one Boeing was building.
 
 **So the honest reading is that the numbers are separate capability points**, and that the twelve-hour figure and the six-hundred-and-fifty-mile figure describe different sorties. **The record does not say so and this article does not claim it does.** What the arithmetic establishes is that they cannot all three hold at once in an aircraft of the size Boeing was building.
 
@@ -150,7 +194,9 @@ Every row below assumes an empty-weight fraction of 0.42, which is the light end
 
 **Turning the calculation around is more informative than the closure test.** Fixing the payload fraction at the family value and assuming an empty-weight fraction, the loiter time follows,
 
-$$E = \frac{L/D}{c} \ln \left( \frac{\zeta_{\text{end}}}{(W_{1}/W_{0})_{\text{out}} (W_{1}/W_{0})_{\text{back}}} \right)^{-1}$$
+$$\zeta_{\text{end}} = \zeta_{\text{empty}} + \zeta_{\text{payload}} = 1 - \zeta_{\text{fuel}} \qquad \left( \frac{W_{1}}{W_{0}} \right)_{\text{loiter}} = \frac{\zeta_{\text{end}}}{(W_{1}/W_{0})_{\text{out}} (W_{1}/W_{0})_{\text{back}}}$$
+
+$$E = \frac{L/D}{c} \, \ln \frac{(W_{1}/W_{0})_{\text{out}} (W_{1}/W_{0})_{\text{back}}}{\zeta_{\text{end}}}$$
 
 | empty fraction | fuel fraction | loiter at 650 nm radius, hours |
 |---|---|---|
@@ -161,11 +207,23 @@ $$E = \frac{L/D}{c} \ln \left( \frac{\zeta_{\text{end}}}{(W_{1}/W_{0})_{\text{ou
 | 0.45 | 0.427 | 9.74 |
 | 0.48 | 0.397 | 8.52 |
 
-**The requirement is demanding and it is not absurd.** At an empty-weight fraction of 0.42, which is light for a carrier aeroplane and plausible for an unmanned one, the aircraft holds eleven hours on station at the full radius against a requirement of twelve. **The requirement sits about one point of empty-weight fraction away from being met**, which is a much more useful statement than that it does or does not close.
+**The requirement is demanding and it is not absurd.** At an empty-weight fraction of 0.42, which is light for a carrier aeroplane and plausible for an unmanned one, the aircraft holds 11.03 hours on station at the full radius against a requirement of twelve.
+
+**The table is close to linear and its slope is the useful number.** Differentiating the loiter relation with respect to the empty-weight fraction, at fixed payload fraction and reserve,
+
+$$\frac{\partial E}{\partial \zeta_{\text{empty}}} = - \frac{L/D}{c} \, \frac{1}{\zeta_{\text{end}}} = -44.2 \ \text{hours per unit}$$
+
+which is 0.442 hours per point of empty-weight fraction. **Closing the remaining 0.97 hours therefore costs about two points and not one**, and solving the relation exactly gives
+
+$$\zeta_{\text{empty}} = 0.3985 \quad \text{for} \quad E = 12 \ \text{hours}$$
+
+**The requirement sits 2.1 points of empty-weight fraction away from being met**, which is a much more useful statement than that it does or does not close. **The draft of this article said one point**, which was an estimate by eye from the table rather than a derivative, and writing the derivative down corrected it.
 
 ### Sensitivity, Because Every Number Above Rests on Two Assumptions
 
-**The loiter lift to drag ratio and the loiter specific fuel consumption carry the whole result.**
+**The loiter lift to drag ratio and the loiter specific fuel consumption carry the whole result.** Both enter only through the loiter ratio, so the demanded fraction has a closed form in them,
+
+$$\zeta_{\text{empty}} (L/D, c) = 1 - \overline{PF} - \left[ 1 - \left( \frac{W_{1}}{W_{0}} \right)_{\text{out}}^{2} \exp \left( - \frac{E c}{L/D} \right) + 0.05 \right]$$
 
 | loiter $L/D$ | $c$ per hour | empty fraction demanded |
 |---|---|---|
@@ -187,7 +245,13 @@ $$E = \frac{L/D}{c} \ln \left( \frac{\zeta_{\text{end}}}{(W_{1}/W_{0})_{\text{ou
 
 $$V_{\text{app}} = \sqrt{\frac{2 (W/S)}{\rho \, C_{L,\max}}} \qquad \Longrightarrow \qquad \frac{W}{S} = \tfrac{1}{2} \rho V_{\text{app}}^{2} C_{L,\max}$$
 
-**A tailless aeroplane has a low maximum lift coefficient and cannot easily be given a high one**, because trailing-edge high-lift devices produce a nose-down pitching moment that a tailless configuration has no tail to balance [[Etkin and Reid, Dynamics of flight][book_etkin_reid]]. **The configuration is chosen for signature before it is chosen for aerodynamics** [[Knott, Shaeffer and Tuley, Radar cross section][book_knott]], and it has a documented history far older than the jet age [[Wooldridge, Winged wonders, the story of the flying wings][book_wooldridge]]. At the gross mass the requirement implies,
+**A tailless aeroplane has a low maximum lift coefficient and cannot easily be given a high one**, because trailing-edge high-lift devices produce a nose-down pitching moment that a tailless configuration has no tail to balance [[Etkin and Reid, Dynamics of flight][book_etkin_reid]]. **The configuration is chosen for signature before it is chosen for aerodynamics** [[Knott, Shaeffer and Tuley, Radar cross section][book_knott]], and it has a documented history far older than the jet age [[Wooldridge, Winged wonders, the story of the flying wings][book_wooldridge]].
+
+**The wing loading then fixes the area, and the aspect ratio turns the area into a span.** Both relations are needed to read the table and neither is more than a definition [[Raymer, Aircraft design, a conceptual approach][book_raymer]] [[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]],
+
+$$S = \frac{W}{(W/S)} \qquad A\!R = \frac{b^{2}}{S} \qquad \Longrightarrow \qquad b = \sqrt{A\!R \cdot S}$$
+
+At the gross mass the requirement implies,
 
 | approach kn | $C_{L,\max}$ | $W/S$ lb/ft² | wing area ft² | span at aspect ratio 5, ft |
 |---|---|---|---|---|
@@ -198,7 +262,9 @@ $$V_{\text{app}} = \sqrt{\frac{2 (W/S)}{\rho \, C_{L,\max}}} \qquad \Longrightar
 | 145 | 1.2 | 85.4 | 381 | 43.6 |
 | 145 | 2.0 | 142.4 | 229 | 33.8 |
 
-**The first row lands on the aeroplane Boeing actually built.** The X-45C spans 14.9 metres, which is 48.9 feet, and a 130-knot approach at a maximum lift coefficient of 1.2 and an aspect ratio of 5 gives 48.7.
+**The first row lands on the aeroplane Boeing actually built.** The X-45C spans 14.9 metres, which is 48.89 feet, and a 130-knot approach at a maximum lift coefficient of 1.2 and an aspect ratio of 5 gives 48.68,
+
+$$\frac{\left| 48.68 - 48.89 \right|}{48.89} = 0.0043$$
 
 **That agreement is a consistency check and not a derivation, and the difference matters.** Three parameters were chosen to produce it, being the approach speed, the maximum lift coefficient and the aspect ratio, and other combinations in the same table give spans from 34 to 45 feet. **What the table establishes is that the requirement and the built aeroplane occupy the same region of the design space**, which is the most a calculation with three free parameters can establish.
 
@@ -214,17 +280,39 @@ $$V_{\text{app}} = \sqrt{\frac{2 (W/S)}{\rho \, C_{L,\max}}} \qquad \Longrightar
 
 ### Carrier Suitability, Which Is a Structural Tax
 
-**The April 2003 announcement itemises what the naval version required**, being structural changes, landing gear, a tailhook and avionics for precision approach and landing [[Boeing to develop new X-45C UCAV for Air Force and Navy demonstrations][ref_boeing_x45c_release]]. **Every item on that list is mass** and every item is charged against the empty-weight fraction the endurance requirement needs to be small.
+**The April 2003 announcement itemises what the naval version required**, being structural changes, landing gear, a tailhook and avionics for precision approach and landing [[Boeing to develop new X-45C UCAV for Air Force and Navy demonstrations][ref_boeing_x45c_release]]. **Every item on that list is mass** and every item is charged against the empty-weight fraction the endurance requirement needs to be small,
+
+$$\Delta_{\text{deck}} = \frac{m_{\text{hook}} + m_{\text{gear}} + m_{\text{structure}} + m_{\text{avionics}}}{m_{\text{gross}}}$$
+
+**No term on the right is published for this aircraft or for any comparable one**, which is why this article bounds the difference between the deck penalty and the crew saving rather than estimating either.
 
 **The tension is the article's subject in one sentence.** Carrier suitability makes the airframe heavier and the endurance requirement demands that it be lighter, and the crew is the only account with enough in it to pay both.
 
 ### Propulsion
 
-**No engine is stated for the X-46A.** The X-45A carried a Honeywell F124 of 28.0 kilonewtons and the X-45C a variant rated at 31.0 [[previous article][related_post_a342_boeing_x45]]. **A vehicle of 32,539 pounds at a thrust to weight ratio typical of a subsonic unmanned aircraft would need appreciably more than either**, and the specific fuel consumption assumed above is the property that matters far more than the thrust, because this aeroplane's mission is dominated by loiter rather than by acceleration.
+**No engine is stated for the X-46A.** The X-45A carried a Honeywell F124 of 28.0 kilonewtons and the X-45C a variant rated at 31.0 [[previous article][related_post_a342_boeing_x45]]. **A vehicle of 32,539 pounds would need appreciably more than either.** Installed thrust follows from the thrust to weight ratio directly [[Raymer, Aircraft design, a conceptual approach][book_raymer]] [[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]],
+
+$$T = \left( \frac{T}{W} \right) W_{\text{gross}}$$
+
+| $T/W$ | thrust, lbf | thrust, kN |
+|---|---|---|
+| 0.30 | 9,762 | 43.4 |
+| 0.35 | 11,389 | 50.7 |
+| 0.40 | 13,016 | 57.9 |
+
+**Even the lowest row is 40 percent above the X-45C's 31.0 kilonewtons**, which says that the naval aeroplane needed a different engine or a considerably better one, and no source states which. **The specific fuel consumption matters far more than the thrust here**, because this aeroplane's mission is dominated by loiter rather than by acceleration, and the sensitivity table already showed what a tenth of a unit of consumption is worth.
 
 ### The Link and the Autonomy
 
-**The naval requirement makes the supervisory problem harder in a specific way.** The previous article established that the number of vehicles one operator can hold is one plus the ratio of neglect time to interaction time, and that latency enters that ratio by lengthening interaction without lengthening neglect [[previous article][related_post_a342_boeing_x45]]. **A carrier is a moving airfield in a high electromagnetic-interference environment**, and recovery aboard it is the least neglectable phase of the sortie. **This article does not compute a fan-out for the X-46A**, because nothing about its ground station or its autonomy was published, and inventing one would be arithmetic without a datum.
+**The naval requirement makes the supervisory problem harder in a specific way.** The previous article established the fan-out relation, in which the number of vehicles one operator can hold is one plus the ratio of neglect time to interaction time [[previous article][related_post_a342_boeing_x45]],
+
+$$FO = \frac{NT + IT}{IT} = 1 + \frac{NT}{IT}$$
+
+**Latency enters by lengthening interaction without lengthening neglect**, so a two-way delay $\tau$ acts only on the denominator,
+
+$$FO = \frac{NT + IT_{0} + 2\tau}{IT_{0} + 2\tau}$$
+
+**A carrier is a moving airfield in a high electromagnetic-interference environment**, and recovery aboard it is the least neglectable phase of the sortie. **This article does not compute a fan-out for the X-46A**, because nothing about its ground station or its autonomy was published, and inventing one would be arithmetic without a datum.
 
 ## The Flight Test Record
 
@@ -238,7 +326,9 @@ $$V_{\text{app}} = \sqrt{\frac{2 (W/S)}{\rho \, C_{L,\max}}} \qquad \Longrightar
 
 **There is no data, so the question becomes what the programme changed without producing any.**
 
-**The requirement survived the designation and that is the substantive answer.** The X-45C was announced as a single design serving both services, with a naval variant adding carrier equipment, and it carried two two-thousand-pound Joint Direct Attack Munitions [[Boeing to develop new X-45C UCAV for Air Force and Navy demonstrations][ref_boeing_x45c_release]]. **Four thousand pounds is the UCAV-N payload requirement exactly.** The X-45C's actual internal payload of 2,040 kilograms is 4,497 pounds, which is that requirement with about twelve percent of margin.
+**The requirement survived the designation and that is the substantive answer.** The X-45C was announced as a single design serving both services, with a naval variant adding carrier equipment, and it carried two two-thousand-pound Joint Direct Attack Munitions [[Boeing to develop new X-45C UCAV for Air Force and Navy demonstrations][ref_boeing_x45c_release]]. **Four thousand pounds is the UCAV-N payload requirement exactly.** The X-45C's actual internal payload of 2,040 kilograms is 4,497 pounds, which carries the requirement with margin,
+
+$$\frac{4{,}497}{4{,}000} - 1 = 0.124$$
 
 **The naval wing planform moved into the surviving aeroplane** [[previous article][related_post_a342_boeing_x45]], so the aerodynamic work outlived the programme that paid for it.
 
@@ -256,7 +346,15 @@ $$V_{\text{app}} = \sqrt{\frac{2 (W/S)}{\rho \, C_{L,\max}}} \qquad \Longrightar
 
 **The comparison aircraft are all manned and all older.** The A-6E entered service in 1970, the S-3A in 1974 and the F/A-18E in 1999, and structural materials moved considerably across that span. **A modern composite airframe should do better than any row in the table**, so the nine-point gap overstates the difficulty by an unknown amount. The comparison establishes that the requirement is demanding, not by how much.
 
-**The Breguet relations assume a constant lift to drag ratio and a constant specific fuel consumption over each segment**, and neither is constant. Over a twelve-hour loiter the aircraft becomes much lighter, its best lift to drag ratio moves, and a real analysis would integrate rather than take a single ratio. **The error is in the direction of pessimism**, since an aircraft flown at its optimum as it lightens does better than one flown at a fixed condition, so the demanded empty fraction is if anything a little less severe than stated.
+**The Breguet relations assume a constant lift to drag ratio and a constant specific fuel consumption over each segment**, and neither is constant. The relations used above are the closed-form solution of the fuel-flow equation [[Anderson, Aircraft performance and design][book_anderson_performance]] [[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]],
+
+$$\frac{dW}{dt} = - c \, T = - c \, \frac{W}{L/D}$$
+
+under exactly that assumption, and a real analysis would integrate
+
+$$E = \int_{W_{1}}^{W_{0}} \frac{L/D}{c \, W} \, dW$$
+
+with the ratio and the consumption varying along the path. Over a twelve-hour loiter the aircraft becomes much lighter and its best lift to drag ratio moves. **The error is in the direction of pessimism**, since an aircraft flown at its optimum as it lightens does better than one flown at a fixed condition, so the demanded empty fraction is if anything a little less severe than stated.
 
 **The carrier span agreement is the weakest attractive result in the article.** Three free parameters were chosen and one combination reproduced the built span to within half a percent. **A calculation with three free parameters can be made to hit almost any target**, and it is reported as a consistency check for that reason and should be read as nothing more.
 
