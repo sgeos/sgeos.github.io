@@ -324,3 +324,60 @@ A sentinel in a file cannot match the waiting shell. **The same defect appears i
 it did here: a follow-up check written as `ps -eo command | grep -c "until .*sleep"` reported three
 survivors by counting its own pipeline. Snapshot `ps` to a file and read the file, or the instrument
 becomes one of the things it is measuring.
+
+## A presence check goes green precisely when a number goes stale
+
+**2026-08-31, A342's publication review.** The article's independent number verifier confirmed forty
+of its forty-one claims by recomputation and the forty-first by this:
+
+    present("1,771 records", "autonomy cluster total")
+
+It printed `[ok ]`. The data said 2,558. **The check asks whether the article still says what it used
+to say, which is a question that answers itself.** A stale number is by definition still present, so
+the one condition that should fail this check is the only condition it cannot detect.
+
+The number had gone stale in the ordinary way. The primary-reference pass regenerated every
+mechanical part of the survey, being the cluster rows and the total, and left the hand-written
+paragraph that interprets them untouched. **All six statistics in that paragraph were stale**, and
+the Source Base four hundred lines further down stated the corrected values, so the article
+contradicted itself and every automated check passed.
+
+**A number that appears in prose must be recomputed from the data that produced it, not matched
+against a string.** The repair was a separate checker that reads the finished article, extracts each
+stated statistic by pattern, recomputes it from the reference set and compares. It found six defects
+on its first run. Presence checks are now used only for words.
+
+**The corollary is that a spelled-out number is still a number.** `Nine hundred and forty-two records
+predate 2000` needs a word-to-integer parser in the checker, and writing one is cheaper than the
+convention of never spelling a number out.
+
+## Two steps in one pass must agree on what identifies a record
+
+**2026-08-31, A342's publication review.** A prune step removed fifty-six records from the reference
+pool and a merge step, minutes later, added two thousand back. Reconciling them failed by four.
+
+**The prune keyed records by ANCHOR and the merge keyed them by URL.** The shared sweep store
+consults a persistent list of prior judgements *by key*, so the prune inherited anchor-keyed
+rejections recorded by earlier articles while the merge, asking about the same records under a
+different name, found no prior judgement and re-admitted them. Three records were removed and
+re-added inside one pass, and the pool therefore depended on the order the two steps ran in.
+
+**Reconcile by the stable identity and check the arithmetic closes.** Set differences by URL gave
+fifty removed and 2,038 added against a pool that went from 9,444 to 11,432, and
+`9444 - 50 + 2038 = 11432` is the assertion that would have caught it immediately. The counts the
+two scripts printed about their own work were each correct and their sum was not.
+
+## A noise pattern written for one field will match a homonym in another
+
+**2026-08-31, A342's publication review.** `fan-out` is this article's keystone and also a
+semiconductor packaging term, so the sweep store gained a pattern naming that vocabulary. The
+pattern included `\bfan[- ]in\b`, for the `Fan-In` in the book title that gave the escape away.
+
+**`Fan-in-Wing` is a lift-fan propulsion configuration**, and the pattern threw out `Design
+Optimization of a Blended-Wing-Body Aircraft with Integrated Fan-in-Wing`, which is squarely on
+subject for an article about a tailless unmanned aeroplane. **A pattern added to catch a homonym
+created one.**
+
+The term was unnecessary, since `flip chip` and `hybrid bonding` identify the same container without
+it. **Measure what a pattern would drop before adding it**, over the whole pool and not over the
+records that motivated it, and read the titles.

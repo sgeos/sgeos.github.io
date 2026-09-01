@@ -506,6 +506,56 @@ NOISE_PATTERNS = [
      "have dropped 'Radioabsorbing material optimal using in the reduction of aircraft "
      "radar cross-section', which is exactly on subject"),
 
+    # ---- A342, THE PUBLICATION REVIEW. Four more consequences of `unmanned`,
+    #      found by a harvest aimed at the article's RESULTS rather than its topics.
+    #      That harvest returned 1,446 records for the question `how many vehicles
+    #      can one operator hold` and only a handful were about it, because the
+    #      phrase `unmanned aerial vehicles` belongs to a literature two orders of
+    #      magnitude larger than the combat one. The cut stays by APPLICATION.
+    (r"detection (?:and (?:track|classif|recognit))?[^.]{0,20}\bof (?:small )?"
+     r"(?:unmanned aerial|uavs?|drones?)\b|counter[- ]?(?:uas|uav|drone)|"
+     r"anti[- ]drone|drone detect|radar recognition of|acoustic detection of (?:uav|drone)",
+     "A342: COUNTER-UAS work treats the aircraft as the TARGET rather than as the "
+     "subject, and shares `unmanned`, `radar` and `detection` completely. 'Radar "
+     "recognition of multiple UAVs' and 'ON DETECTION OF UNMANNED AERIAL VEHICLES' "
+     "reached the kept set. Note the pattern names detection OF the aircraft, so that "
+     "detection BY it, which is a sensor-management subject this article touches, "
+     "survives"),
+    (r"vegetation index|\bndvi\b|multispectral|hyperspectral|orthomosaic|point cloud|"
+     r"image (?:processing|classification|segmentation) (?:in|for|of|using) "
+     r"(?:unmanned|uav|drone)|crop (?:load|yield|monitor|spray|health|estimation)|orchard",
+     "A342: THE AIRCRAFT AS A CAMERA PLATFORM, where the imagery is the subject and the "
+     "vehicle carries it. 'Crop load estimation in orchards' and 'Wheat Monitoring Using "
+     "Unmanned Aerial Vehicle based Hyperspectral Imagery' reached the kept set through "
+     "the bare `unmanned` anchor"),
+    (r"\bagricultur|\bdisaster\b|traffic monitoring|industrial inspection",
+     "A342: WIDENING THE CIVIL APPLICATION FAMILY ADDED IN THE DRAFT PASS, which named "
+     "`precision agricultur` and `disaster (?:response|management|assessment)` and so "
+     "missed 'Fixed-Winged Unmanned Aerial Vehicle Systems Utilized in Agriculture' and "
+     "'Unmanned Aerial Vehicles for Post Disaster Surveys'. A pattern narrow enough to "
+     "name its examples catches only its examples"),
+    (r"wafer[- ]level|redistribution layer|\bcmos\b|\bvlsi\b|integrated circuit|"
+     r"solder (?:joint|bump)|semiconductor packag|flip chip|hybrid bonding",
+     "A342: FAN-OUT IS A SEMICONDUCTOR PACKAGING TERM AS WELL AS THIS ARTICLE'S "
+     "KEYSTONE. Fan-out wafer-level packaging is a large and active field sharing the "
+     "exact hyphenated term, and 'Redistribution Layer Routing for Fan-Out Wafer-Level "
+     "Packaging' reached the kept set. A343 through A345 are unmanned combat aircraft "
+     "resting on the same keystone and will meet it again. THE DISCRIMINATING WORDS ARE "
+     "OFTEN IN THE CONTAINER AND NOT IN THE TITLE: a Springer chapter titled exactly "
+     "`Fan-Out Technology` is separated from this article's keystone only by its book, "
+     "`Flip Chip, Hybrid Bonding, Fan-In, and Fan-Out Technology`, which is why the "
+     "pattern names that vocabulary and why a sweep that drops the venue field cannot "
+     "catch it. AN EARLIER DRAFT OF THIS PATTERN ALSO NAMED `fan-in` AND WAS WRONG, "
+     "because FAN-IN-WING is a lift-fan propulsion configuration and the pattern threw "
+     "out 'Design Optimization of a Blended-Wing-Body Aircraft with Integrated "
+     "Fan-in-Wing', which is exactly on subject. `flip chip` and `hybrid bonding` "
+     "identify the container without it"),
+    (r"_supp\d|supplementary material(?:s)? (?:for|of)\b",
+     "A342: SUPPLEMENTARY-MATERIAL ARTEFACTS are not works. IEEE deposits a separate "
+     "record whose title is the paper's title with `_supp1-<id>` appended, so the parent "
+     "and its attachment both enter and the attachment is uncitable. Twenty-two reached "
+     "the kept set"),
+
     # ---- A341, the publication review. A DELIBERATE WIDENING THAT WAS BUILT,
     #      MEASURED AND ABANDONED. It is recorded as a pattern with an empty effect
     #      because the useful knowledge is the refusal, not a filter.

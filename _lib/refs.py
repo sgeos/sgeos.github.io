@@ -95,6 +95,61 @@ def title_lead(s):
     return s.strip()
 
 
+# Function words stay lowercase inside a title; anything else that is a short
+# all-capitals run is treated as an initialism and preserved.
+_TITLE_STOPWORDS = {
+    "a", "an", "and", "as", "at", "by", "for", "from", "in", "into", "of", "on",
+    "onto", "or", "over", "the", "to", "with", "within", "without", "versus", "vs",
+}
+
+
+def decap(s, threshold=0.6):
+    """Normalise a SHOUTED title, preserving initialisms.
+
+    A PUBLISHER SHOUTING ITS OWN TITLE BECOMES SHOUTED LINK TEXT, and `display`
+    already fixed this for AUTHOR names while leaving the no-author branch, which
+    falls back to the first words of the title, untouched. The 2026-08-14 audit
+    normalised 3,564 citation titles out of all capitals across 26 articles BY
+    HAND, and A342 then harvested four more, because a sweep repairs the corpus
+    once while the defect is reintroduced by the next harvest. This is the same
+    argument that moved the en-dash normalisation into `gate.py`: a per-article or
+    per-sweep fix has already failed, so the fix belongs where the text is built.
+
+    ONLY A PREDOMINANTLY UPPERCASE STRING IS TOUCHED. Deciding word by word cannot
+    work, because `IFAC` and `ON` are the same length and only one of them is an
+    initialism. Deciding on the whole string first means `Volume 5: OGC CDB Radar
+    Cross Section (RCS) Models` is left exactly as its publisher set it, since it
+    is ordinary title case that happens to contain three initialisms.
+
+    Within a shouted string a run of at most four capitals is kept as an
+    initialism unless it is a function word, so `2nd IFAC CONFERENCE ON
+    INTELLIGENT AUTONOMOUS VEHICLES` becomes `2nd IFAC Conference on Intelligent
+    Autonomous Vehicles`. The threshold is a ratio of cased characters and not a
+    count, because a long title needs no more evidence than a short one.
+    """
+    s = s or ""
+    letters = [c for c in s if c.isalpha()]
+    if not letters:
+        return s
+    if sum(1 for c in letters if c.isupper()) / len(letters) < threshold:
+        return s
+    out, first = [], True
+    for tok in re.split(r"(\s+)", s):
+        if not tok.strip():
+            out.append(tok)
+            continue
+        core = tok.strip("([{)]}.,;:!?\"'")
+        low = core.lower()
+        if core.isupper() and len(core) <= 4 and low not in _TITLE_STOPWORDS:
+            out.append(tok)                      # NASA, IFAC, RCS, OGC
+        elif low in _TITLE_STOPWORDS and not first:
+            out.append(tok.lower())
+        else:
+            out.append(tok.title() if tok.isupper() else tok)
+        first = False
+    return "".join(out)
+
+
 def clean(s):
     """Strip what the prose rules forbid from anything that becomes link text."""
     # AN UNDECODED HTML ENTITY IS TURNED INTO VISIBLE JUNK BY THE PUNCTUATION RULE BELOW,
@@ -200,7 +255,9 @@ def display(authors, year, title, disambiguate=False):
     """Author-year link text, the X-Planes convention."""
     a = latin_authors(authors)
     if not a:
-        base = clean(" ".join(title_lead(title).split()[:4]))
+        # DECAP ON THE WHOLE TITLE AND NOT ON THE FRAGMENT. The uppercase ratio is
+        # the evidence, and four words carry less of it than the full title does.
+        base = clean(" ".join(title_lead(decap(title)).split()[:4]))
     elif len(a) == 1:
         base = a[0].title() if a[0].isupper() else a[0]
     elif len(a) == 2:
@@ -212,7 +269,7 @@ def display(authors, year, title, disambiguate=False):
         base = f"{x} et al"
     out = f"{base} {year}" if year else base
     if disambiguate:
-        out += ", " + clean(title)[:33]
+        out += ", " + clean(decap(title))[:33]
     return clean(out)
 
 

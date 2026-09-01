@@ -1242,6 +1242,39 @@ def t_title_lead_strips_accession_prefixes():
         "title_lead leaked into clean, which would rewrite full reference text"
 
 
+def t_refs_display_normalises_a_shouted_title():
+    """The 2026-08-14 audit fixed 3,564 shouted titles BY HAND and A342 harvested more.
+
+    `display` already lowered all-capitals AUTHOR names. Its no-author branch,
+    which falls back to the first words of the title, did not, so a publisher
+    shouting its own title produced shouted link text. A sweep repairs the corpus
+    once; the next harvest reintroduces the defect. Hence the library.
+
+    THE HARD PART IS NOT SHOUTING, IT IS TELLING AN INITIALISM FROM A WORD.
+    `IFAC` and `ON` are the same length, so the decision is taken on the whole
+    string first and only then word by word.
+    """
+    assert refs.decap("2nd IFAC CONFERENCE ON INTELLIGENT AUTONOMOUS VEHICLES") == \
+        "2nd IFAC Conference on Intelligent Autonomous Vehicles"
+    assert refs.display([], "1995", "2nd IFAC CONFERENCE ON INTELLIGENT AUTONOMOUS") == \
+        "2nd IFAC Conference on 1995"
+
+    # ORDINARY TITLE CASE CARRYING INITIALISMS MUST BE LEFT EXACTLY AS SET.
+    ordinary = "Volume 5: OGC CDB Radar Cross Section (RCS) Models"
+    assert refs.decap(ordinary) == ordinary
+    assert refs.decap("A NASA study of the X-15 airframe") == \
+        "A NASA study of the X-15 airframe"
+    assert refs.decap("Fan-out: measuring human control of multiple robots") == \
+        "Fan-out: measuring human control of multiple robots"
+
+    # An all-capitals author name was already handled and must stay handled.
+    assert refs.display(["SMITH"], "2004", "anything") == "Smith 2004"
+
+    # A title with no letters at all must not raise.
+    assert refs.decap("1962") == "1962"
+    assert refs.decap("") == ""
+
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)

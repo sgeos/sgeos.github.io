@@ -21,111 +21,78 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_boeing_x45.markdown`, A342, editorial date 2025-11-20, series `x_planes` index 46 of 72.
 
-**19,673 lines, 20 display equations, 9,519 reference definitions, 106,990 words after the
-primary-reference review**, of which 9,937 are author prose, a dilution factor of 10.8. **Three of four
-passes complete.** Committed and **NOT PUSHED**. The publication review has not run. **The draft and
-equation passes share one commit**, because the pilot prompted for the second while the first's build
-was still running.
+**23,670 lines, 20 display equations, 11,507 reference definitions, 128,143 words after the
+publication review**, of which 10,763 are author prose, a dilution factor of 11.9. **All four passes
+complete.** Committed and **PUSHED**. **Not published**, and publication of the series has never been
+authorised. **The draft and equation passes share one commit**, because the pilot prompted for the
+second while the first's build was still running.
 
-**THE KEYSTONE'S OWN VOCABULARY MEASURED THREE RECORDS BEFORE THE PRIMARY PASS.** Neglect time and
-interaction time are the two quantities the fan-out relation is built from, and the pool the first two
-passes built held three papers using those words. **That is the sharpest gap this series has found
-underneath an article's own keystone.** A targeted harvest closed three of six gaps decisively, taking
-latency from 18 records to 210, approach and landing from 25 to 158 and mass fractions from 6 to 100,
-and improved the rest. **The audit was written in the field's vocabulary from the outset**, which is
-the correction A341's primary pass had to make halfway through.
+**THE ARTICLE CONTRADICTED ITSELF AND EVERY AUTOMATED CHECK PASSED.** The paragraph interpreting the
+survey was stale in all six of its statistics, reporting 1,771 records for four clusters that held
+2,558, while the Source Base four hundred lines below stated the corrected values. **The primary pass
+regenerated every mechanical part of the survey and left the hand-written interpretation alone.** The
+number verifier confirmed the stale figure because it checked for the presence of a string, and **a
+presence check goes green precisely when a number goes stale**. Every survey statistic is now
+recomputed from the reference data by a separate checker, which found six defects on its first run and
+reports zero.
 
-**REPORT PRIMARIES 359 TO 914, OR 5.4 PERCENT TO 9.7**, and primary sources on a definition fitted to
-a subject spanning two fields **3,438 of 6,671 at 51.5 percent to 5,130 of 9,444 at 54.3**. **A NASA
-report is primary for the aerodynamics and an ACM conference paper is primary for the fan-out
-relation**, and a definition admitting only the first would report the keystone literature as entirely
-secondary. The ACM count went from 47 to 92. **The count-versus-fraction trap fired again and both
-numbers are reported**, records from 2015 or later rising from 3,487 to 4,452 in count while falling
-from 56.4 percent to 50.9 in share, and records predating 2000 going from 942 to 1,798.
+**THE PROBE THIS PASS EXISTS TO RUN WAS AIMED AT THE ARTICLE'S CONCLUSIONS AND NOT ITS TOPICS**, which
+is the gap A340 and A341 both found. Eight claims were taken from the closing sections and seven
+measured thin.
 
-**A DEFECT A334 HAD ALREADY RECORDED WAS NOT CARRIED FORWARD AND BIT AGAIN.** The gate refused
-`Validating Human-Robot Interaction Schemes in Multitasking Environments`, where neglect tolerance is
-measured rather than assumed, **because the publisher sets `Human-Robot` with an en dash**. A334
-recorded the same defect on a nickel-hydrogen paper whose depositor used U+2010 and said the
-normalising step should be copied forward. It was not. **The fix went into `_lib/gate.py` rather than
-into this article's script**, since a per-article fix had already failed once, with a regression test
-over six dash code points, and **re-running the original harvest admitted 23 records that were being
-refused on the shape of a dash alone.**
+| result-driven subject | before | after |
+|---|---|---|
+| lift to drag ratio of a tailless aeroplane | 16 | 201 |
+| flight test methodology behind the software-block claim | 32 | 87 |
+| queueing and operator utilisation | 49 | 55 |
+| individual differences and the operator on a day | 18 | 27 |
+| the value of autonomy | 24 | 26 |
+| coupled and heterogeneous tasks | 4 | 17 |
+| reported operator-to-vehicle ratios | 9 | 11 |
 
-**THE SECOND REJECTION IS NOT A DEFECT AND IS MORE INTERESTING.** `Remote Manipulative Control with
-Transmission Delay`, published in 1963, uses none of the modern terms for its own subject, having
-predated latency, teleoperation and supervisory control as terms of art. **A gate written in a field's
-current vocabulary cannot reach that field's origin.** That paper matters more than expected, since
-Sheridan and Ferrell measured the operator's completion time growing with transmission delay in 1963
-and named the response four years later, **so supervisory control was invented as an answer to latency
-and the X-45A is an aeroplane built on that answer**.
+**TWO CLOSED AND BOTH ARE NOW CITED IN THE ARGUMENT.** The lift to drag claim gained
+configuration-specific support on the coupling between trim and efficiency in a tailless aeroplane, and
+the software-block claim gained the test community's own statements from 2003, 2014 and 2018, all
+verified against the registry before use and all predating the editorial date.
 
-**TWELVE FOUNDATIONAL PRIMARIES WERE FETCHED BY IDENTIFIER AND EACH IS CITED BESIDE ITS RELATION.**
-**Three subjects remain thin, each for a different reason**, scaling laws at 11 being a textbook
-subject cited to books, neglect and interaction time at 47 being thin in vocabulary while the concepts
-are covered at 246 and 220 elsewhere in the survey, and manpower at 48 being defence analysis not
-published where a bibliographic sweep reaches.
+**FIVE DID NOT CLOSE AND THE REASON IS MEASURED RATHER THAN ASSUMED.** A harvest aimed at how many
+vehicles one operator can hold returned 1,446 records and almost none were about it, because the words
+that name the subject belong to a literature about photogrammetry, path planning and counter-drone
+radar larger by two orders of magnitude. **The vocabulary does not discriminate**, which is A341's
+designation lesson appearing in a different field.
 
-**THE GUARD ADDED IN A341 CAUGHT THE SAME DEFECT IN A342.** An edit in the equation pass put a display
-equation and the following sentence on one source line, and `lint.py`'s `math-display-inlined` caught
-it before the build rather than after. **That is the difference between a lesson written as a comment
-and a lesson written as a test**, and the incident is one article old.
+**THE SHARPEST CONSEQUENCE SITS UNDER THE ARTICLE'S MOST EXPOSED CLAIM.** The assertion that a ratio of
+two has not been beaten in twenty years rests on eleven records, **four of which are the organisational
+span of control**, meaning a commander's subordinates rather than an operator's vehicles. They were
+kept and named, and **a fifth entry was added to Where the Framing Breaks Down** stating that a
+bibliographic survey is a poor instrument for a negative claim, with the section count corrected from
+four to five.
 
-**THE EQUATION PASS'S BEST FINDING CAME FROM DIVIDING TWO NUMBERS THE DRAFT HAD ONLY TABULATED.** The
-X-45A and X-45C payload fractions are 0.12297 and 0.12289, agreeing to four significant figures with a
-ratio of 0.99940, and the payload was tripled exactly. The mass exponent in span is 2.977 and the
-exponent computed from the payloads instead is 2.976, **the same number, which is the explanation**.
-**The near-cubic mass scaling is a held payload fraction and not geometry.** The draft had called it a
-coincidence of mission sizing, which was right in direction and wrong to call it a coincidence, and
-**a scaling exponent arriving from the mission looks identical in the arithmetic to one arriving from
-the shape and means something entirely different**. The correction is carried into the two aircraft
-section, the Epistemic State and the conclusion.
+**Pool 9,444 to 11,432. Primaries 5,130 at 54.3 percent to 6,320 at 55.3.** Report primaries rose 914
+to 1,061 in count while the share FELL 9.7 to 9.3, **the count-versus-fraction trap firing a third
+time**. Records from 2015 or later 4,452 to 5,272 while falling 50.9 percent to 49.7, and pre-2000
+1,798 to 2,280.
 
-**THE LATENCY COUPLING THE DRAFT SAID IT COULD NOT EVALUATE WAS WRITTEN DOWN.** Latency enters both
-halves of the fan-out relation and does not cancel, because it lengthens the interaction without
-lengthening the neglect, so a satellite round trip costs 21.4 percent of the fan-out on a ten second
-interaction and a quarter-second link costs 3.6. **What remains unquantifiable is this aeroplane's own
-latency, which is not published**, and the relation now says exactly what such a figure would buy.
+**TWO LIBRARY DEFECTS WERE FIXED WHERE THEY STOP RECURRING.** `refs.display` lowered all-capitals
+author names and left its no-author branch shouting, which is why the 2026-08-14 audit repaired 3,564
+titles by hand and why this article harvested four more. Six noise families were added to the shared
+sweep store for A343 through A345, five of them consequences of the word unmanned and one the
+semiconductor packaging sense of fan-out, **whose discriminating words were in the container and not
+the title**.
 
-**THE KEYSTONE IS NOT AERODYNAMIC AND ITS LITERATURE IS NOT AERONAUTICAL.** In August 2004 one
-operator flew two X-45As in coordination for more than an hour under the call signs Stingray 01 and
-02. The relation governing that ratio is the fan-out relation from human-robot interaction, being one
-plus the ratio of neglect time to interaction time. **Inverting it for the demonstrated two gives
-neglect time exactly equal to interaction time**, which is the autonomy the vehicle actually had and
-which no source states in any form. **At a fan-out of one an unmanned aeroplane has saved the pilot's
-life and nothing else**, because the pilot remains committed to one airframe for the whole sortie. A
-fleet ratio of eight demands seven times what the X-45A achieved, and a switch cost of half the
-interaction time removes a third of whatever is achieved.
+**THREE METHOD DEFECTS WERE MINE.** A pattern added to catch a homonym created one, since `fan-in`
+threw out a blended-wing-body paper because `Fan-in-Wing` is a lift-fan configuration. A prune keyed by
+anchor and a merge keyed by URL disagreed about what a record is, so three records were removed and
+re-added inside one pass. And removing gate escapes, normally refused because a survey states its own
+counts in prose, **is safe inside a pass that regenerates every count**, so fifty were removed in that
+window with the argument's own anchors protected by name.
 
-**THE GATE WAS WRITTEN WITH TWO ANCHOR FAMILIES BEFORE THE HARVEST RATHER THAN AFTER.** A341 rejected
-two of its own foundational sources because their titles use the vocabulary of the underlying science
-rather than of aircraft, and this article's keystone papers carry no aeronautical vocabulary whatever.
-The second family admits the vocabulary of supervising a machine and deliberately not bare `autonomy`,
-`operator`, `task` or `workload`. **The supervisory-control cluster holds 399 records that an
-aeronautical gate would have returned none of.**
+**Zero caps-emphasis spans**, which is the first pass across A341 and A342 where I did not introduce
+one. `_verify.py` zero errors and zero warnings, lint zero defects and zero conventions, reference
+integrity zero undefined, zero orphaned, zero duplicate URLs, `_lib` tests 83 of 83, all 41 numerical
+re-derivations passing, and a registry sample of the new references verified with zero title
+mismatches.
 
-**TWO CHECKS EXPECTED TO FAIL DID NOT, AND BOTH PRODUCED SOMETHING BETTER THAN AN ERROR.** The X-45C's
-quoted 7,000 pounds force against an F404 dry rating nearer 11,000 looks wrong and is admissible when
-tested against the vehicle's own stated ceiling, demanding a lift to drag ratio of 16.3. **The check
-yields a lower bound on a quantity no source publishes**, and the thrust and ceiling figures pin each
-other, since 45,000 feet would demand 20.8 and is not admissible. **The first attempt at that check
-omitted the ram term and reached the opposite conclusion.** Separately, the X-45A flew sixty-four
-times the exact tailless thrust-vectored configuration A341 derived could not meet an operational
-crosswind requirement, **and it is not a counterexample**, its approach carrying 11.4 percent of
-maximum thrust against A341's 7.2 and leaving it better off by 1.28 to 1.98 times across every
-plausible wing, with the remainder covered by A341's own stated caveat about test ranges.
-
-**TWO DEFECTS WERE CAUGHT AND BOTH WERE MINE.** Forward references to A343 and A344 would have failed
-the build, since this series cites backward only, and reference integrity caught them before the build
-did. And the number verifier reported the article wrong for writing 6.5 where the computation gives
-6.461, **a tolerance tighter than the quoted precision being a false alarm and not a check**, so it
-now derives its tolerance from how precisely each value is written.
-
-**FOUR NOISE FAMILIES WERE ADDED TO THE SHARED SWEEP STORE**, all consequences of the word `unmanned`,
-being civil small-aircraft applications, the aircraft as a telecommunications node, unmanned ground
-and marine vehicles, and antenna engineering. **The cut is by application and never by platform**, so
-that supervisory-control work demonstrated on small rotorcraft survives, and 38 of 39 records
-mentioning quadrotors do.
 
 ## X-Planes X-44 One Designation and Two Aircraft A341 2025-11-19
 
@@ -7929,7 +7896,7 @@ Eight are the pre-release candidates listed below.
 No stubs remain.
 A79 through A144 have been published.
 
-**These counts were re-measured against the working tree on 2026-08-30 rather than carried forward.**
+**These counts were re-measured against the working tree on 2026-08-31 rather than carried forward.**
 The previous version read fifty-two files and forty-two X-Planes drafts running to A338, which had
 been true three articles earlier. **A resume channel that disagrees with the tree is worse than one
 that is merely terse**, so the figures above come from counting the directory.
