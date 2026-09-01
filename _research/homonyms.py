@@ -468,6 +468,44 @@ NOISE_PATTERNS = [
      "A341: WIND ENGINEERING for civil structures runs in wind tunnels, computes "
      "aerodynamic characteristics and reports crosswind effects. 'Wind Tunnel Studies "
      "On Tapered Tall Building With Aerodynamic Modification' reached the kept set"),
+    # ---- A342, the Boeing X-45. THE CONTAMINANT FAMILIES OF A `unmanned` ANCHOR.
+    #      The civil small-aircraft literature is now vastly larger than the combat
+    #      one, so a gate anchored on `unmanned` admits it wholesale. The cut is by
+    #      APPLICATION and never by PLATFORM, because the supervisory-control and
+    #      cooperative-control literature legitimately uses small rotorcraft as
+    #      testbeds and those results transfer to the subject. 38 of 39 quadrotor
+    #      records survive these patterns and the one that does not is agricultural.
+    (r"photogrammetr|precision agricultur|crop (?:monitor|yield|spray|health)|"
+     r"land cover|remote sensing|oil spill|heritage|archaeolog|wildlife|"
+     r"forest (?:fire|inventory)|power line inspection|parcel deliver|delivery drone|"
+     r"\bfarming\b|vineyard|weed detect|disaster (?:response|management|assessment)|"
+     r"search and rescue",
+     "A342: CIVIL SMALL-AIRCRAFT APPLICATIONS reached the kept set through the bare "
+     "`unmanned` anchor, being hyperspectral imaging for precision agriculture, flood "
+     "monitoring, forest fire prevention and heritage documentation. The cut is by "
+     "application and not by platform, so that cooperative-control work demonstrated on "
+     "the same airframes survives"),
+    (r"\bcellular\b|blockchain|\b5G\b|\b6G\b|internet of things|\bIoT\b|"
+     r"non[- ]terrestrial network|base station|spectrum (?:sharing|allocation)|edge computing",
+     "A342: THE AIRCRAFT AS A TELECOMMUNICATIONS NODE rather than as an aircraft. "
+     "'Blockchain Technology Enabling UAV Cellular Communications' and 'Unmanned Aerial "
+     "Vehicle Cellular Communication Operating in Non-terrestrial Networks' reached the "
+     "kept set. The vehicle is incidental to those papers and the network is the subject"),
+    (r"unmanned (?:ground|surface|underwater) vehicles?|\bUGVs?\b|\bUSVs?\b|\bAUVs?\b|"
+     r"catamaran|autonomous (?:driving|car)\b|self[- ]driving|\brovers?\b|legged robot|"
+     r"manipulator arm",
+     "A342: UNMANNED GROUND, SURFACE AND UNDERWATER VEHICLES share `unmanned`, "
+     "`autonomous`, `mission planning` and `cooperative control` completely with the "
+     "subject. 'Vibration Suppression for Unmanned Catamaran' and 'Stingray: a fast small "
+     "unmanned ground vehicle for urban combat' reached the kept set. Note that MARINE "
+     "CORPS must survive, which is why the pattern names the vehicle types explicitly"),
+    (r"microstrip|patch antenna",
+     "A342: ANTENNA ENGINEERING shares radar cross section completely. Deliberately "
+     "narrow, because radar absorbing material and frequency selective surfaces are "
+     "genuinely aircraft signature subjects and an earlier draft of this pattern would "
+     "have dropped 'Radioabsorbing material optimal using in the reduction of aircraft "
+     "radar cross-section', which is exactly on subject"),
+
     # ---- A341, the publication review. A DELIBERATE WIDENING THAT WAS BUILT,
     #      MEASURED AND ABANDONED. It is recorded as a pattern with an empty effect
     #      because the useful knowledge is the refusal, not a filter.

@@ -17,6 +17,77 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Boeing X-45 A342 2025-11-20
+
+`x_planes_boeing_x45.markdown`, A342, editorial date 2025-11-20, series `x_planes` index 46 of 72.
+
+**14,090 lines, 20 display equations, 6,746 reference definitions, 78,044 words after the
+equation-density review**, of which 8,844 are author prose, a dilution factor of 8.8. **Two of four
+passes complete.** Committed and **NOT PUSHED**. The primary-reference and publication reviews have
+not run. **The draft and equation passes share one commit**, because the pilot prompted for the second
+while the first's build was still running.
+
+**THE GUARD ADDED IN A341 CAUGHT THE SAME DEFECT IN A342.** An edit in the equation pass put a display
+equation and the following sentence on one source line, and `lint.py`'s `math-display-inlined` caught
+it before the build rather than after. **That is the difference between a lesson written as a comment
+and a lesson written as a test**, and the incident is one article old.
+
+**THE EQUATION PASS'S BEST FINDING CAME FROM DIVIDING TWO NUMBERS THE DRAFT HAD ONLY TABULATED.** The
+X-45A and X-45C payload fractions are 0.12297 and 0.12289, agreeing to four significant figures with a
+ratio of 0.99940, and the payload was tripled exactly. The mass exponent in span is 2.977 and the
+exponent computed from the payloads instead is 2.976, **the same number, which is the explanation**.
+**The near-cubic mass scaling is a held payload fraction and not geometry.** The draft had called it a
+coincidence of mission sizing, which was right in direction and wrong to call it a coincidence, and
+**a scaling exponent arriving from the mission looks identical in the arithmetic to one arriving from
+the shape and means something entirely different**. The correction is carried into the two aircraft
+section, the Epistemic State and the conclusion.
+
+**THE LATENCY COUPLING THE DRAFT SAID IT COULD NOT EVALUATE WAS WRITTEN DOWN.** Latency enters both
+halves of the fan-out relation and does not cancel, because it lengthens the interaction without
+lengthening the neglect, so a satellite round trip costs 21.4 percent of the fan-out on a ten second
+interaction and a quarter-second link costs 3.6. **What remains unquantifiable is this aeroplane's own
+latency, which is not published**, and the relation now says exactly what such a figure would buy.
+
+**THE KEYSTONE IS NOT AERODYNAMIC AND ITS LITERATURE IS NOT AERONAUTICAL.** In August 2004 one
+operator flew two X-45As in coordination for more than an hour under the call signs Stingray 01 and
+02. The relation governing that ratio is the fan-out relation from human-robot interaction, being one
+plus the ratio of neglect time to interaction time. **Inverting it for the demonstrated two gives
+neglect time exactly equal to interaction time**, which is the autonomy the vehicle actually had and
+which no source states in any form. **At a fan-out of one an unmanned aeroplane has saved the pilot's
+life and nothing else**, because the pilot remains committed to one airframe for the whole sortie. A
+fleet ratio of eight demands seven times what the X-45A achieved, and a switch cost of half the
+interaction time removes a third of whatever is achieved.
+
+**THE GATE WAS WRITTEN WITH TWO ANCHOR FAMILIES BEFORE THE HARVEST RATHER THAN AFTER.** A341 rejected
+two of its own foundational sources because their titles use the vocabulary of the underlying science
+rather than of aircraft, and this article's keystone papers carry no aeronautical vocabulary whatever.
+The second family admits the vocabulary of supervising a machine and deliberately not bare `autonomy`,
+`operator`, `task` or `workload`. **The supervisory-control cluster holds 399 records that an
+aeronautical gate would have returned none of.**
+
+**TWO CHECKS EXPECTED TO FAIL DID NOT, AND BOTH PRODUCED SOMETHING BETTER THAN AN ERROR.** The X-45C's
+quoted 7,000 pounds force against an F404 dry rating nearer 11,000 looks wrong and is admissible when
+tested against the vehicle's own stated ceiling, demanding a lift to drag ratio of 16.3. **The check
+yields a lower bound on a quantity no source publishes**, and the thrust and ceiling figures pin each
+other, since 45,000 feet would demand 20.8 and is not admissible. **The first attempt at that check
+omitted the ram term and reached the opposite conclusion.** Separately, the X-45A flew sixty-four
+times the exact tailless thrust-vectored configuration A341 derived could not meet an operational
+crosswind requirement, **and it is not a counterexample**, its approach carrying 11.4 percent of
+maximum thrust against A341's 7.2 and leaving it better off by 1.28 to 1.98 times across every
+plausible wing, with the remainder covered by A341's own stated caveat about test ranges.
+
+**TWO DEFECTS WERE CAUGHT AND BOTH WERE MINE.** Forward references to A343 and A344 would have failed
+the build, since this series cites backward only, and reference integrity caught them before the build
+did. And the number verifier reported the article wrong for writing 6.5 where the computation gives
+6.461, **a tolerance tighter than the quoted precision being a false alarm and not a check**, so it
+now derives its tolerance from how precisely each value is written.
+
+**FOUR NOISE FAMILIES WERE ADDED TO THE SHARED SWEEP STORE**, all consequences of the word `unmanned`,
+being civil small-aircraft applications, the aircraft as a telecommunications node, unmanned ground
+and marine vehicles, and antenna engineering. **The cut is by application and never by platform**, so
+that supervisory-control work demonstrated on small rotorcraft survives, and 38 of 39 records
+mentioning quadrotors do.
+
 ## X-Planes X-44 One Designation and Two Aircraft A341 2025-11-19
 
 `x_planes_x44_one_designation_two_aircraft.markdown`, A341, editorial date 2025-11-19, series
@@ -7812,8 +7883,8 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fifty-five files exist in `_drafts/`. One is a template. One is this summary.
-**Forty-five are the in-progress X-Planes series, A297 through A341, none of them published**, and
+Fifty-six files exist in `_drafts/`. One is a template. One is this summary.
+**Forty-six are the in-progress X-Planes series, A297 through A342, none of them published**, and
 publication of the series has never been authorised.
 Eight are the pre-release candidates listed below.
 No stubs remain.
