@@ -91,7 +91,8 @@ window with the argument's own anchors protected by name.
 one. `_verify.py` zero errors and zero warnings, lint zero defects and zero conventions, reference
 integrity zero undefined, zero orphaned, zero duplicate URLs, `_lib` tests 83 of 83, all 41 numerical
 re-derivations passing, and a registry sample of the new references verified with zero title
-mismatches.
+mismatches. **The stub-isolated production build succeeded with no Liquid error, the rendered audit
+reports no findings, and source and rendered display-equation counts agree at 20.**
 
 
 ## X-Planes X-44 One Designation and Two Aircraft A341 2025-11-19

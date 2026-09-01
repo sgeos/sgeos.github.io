@@ -105,6 +105,14 @@ reference integrity zero undefined, zero orphaned, zero duplicate URLs. `_lib` t
 Every survey statistic recomputed from the data and every stated number checked. **Zero
 caps-emphasis spans**, which is the first pass across A341 and A342 where I did not introduce one.
 
+**The stub-isolated production build succeeded in 8,019 seconds with no Liquid error**, and it was
+restarted against the exact final bytes rather than against a copy taken seven prose lines earlier.
+**The rendered audit reports no findings across 58 pages.** Source and rendered display-equation
+counts agree at **20**, being 20 opening and 20 closing rendered delimiters with **zero raw dollar
+pairs leaking**, which is the check A341 had to invent because a display equation demoted to inline
+math is invisible to the audit. **Zero unresolved reference brackets in the rendered HTML**, all
+14 sections render in order, and each of the five citations added this pass resolves to its link.
+
 **Forty-six of seventy-two drafted, none published, publication never authorised.**
 
 ---
