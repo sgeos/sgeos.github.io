@@ -73,6 +73,10 @@ NOISE_PATTERNS = [
                                      "aircraft and also a SINKING MARINE MICROFOSSIL, in "
                                      "'Estimation of sinking velocities using free-falling "
                                      "dynamically scaled models: foraminifera as a test case'"),
+    (r"solid pitch|pycnometer|\bbitumen|\basphalt\b|coal tar",
+     "A345: 'relative density' is the mass condition of a dynamic free-flight model "
+     "and also the ASTM MATERIALS TEST for solid pitch by pycnometer, which reached "
+     "the pool seven times"),
     (r"hydraulic jump|stilling basin|\bspillway\b|open[- ]channel flow",
      "A345: the Froude number is an aeroplane at matched dynamics and also the "
      "OPEN-CHANNEL HYDRAULICS of a hydraulic jump, which is where most of the "

@@ -1,137 +1,119 @@
 ## Last Updated
 
 **Date**: 2026-09-02
-**Task**: **A345 primary-reference review, the third of four passes.** Committed and **not pushed**.
+**Task**: **A345 publication review, the fourth and last of four passes.** Committed and **pushed**.
 **Not published**, and publication of the series still not authorised.
 
 ---
 
-## A Primary Source Found This Pass Contradicted the Draft, and the Article Changed
+## The First Finding Was Prose Rather Than Coverage
 
-**The draft argued that the departure boundary is Reynolds-governed and was therefore left to an 8.5
-percent model that cannot settle it. That framing was too strong and a document says so.**
+**The primary pass left the article narrating its own drafting history inside the argument.** What the
+Data Changed contained the sentences `the draft of this article argued` and `the part the draft of
+this article got wrong`.
 
-**NASA's ground-to-flight correlation update plots the programme's ground tests on axes of vehicle
-scale against chord Reynolds number, and the tests fill the plane.** Free-flight, forced-oscillation,
-rotary and spin and tumble tests sit at low Reynolds number. Static aerodynamic tests, the Arnold
-Engineering Development Center 16T tunnel and **the National Transonic Facility reach the full-scale
-value**. The X-48B flight test is one point on that plane.
+**A reader has no access to a superseded draft.** The correction was right and the framing made the
+reader follow a position the article had already abandoned. **Three passages were rewritten to state
+the corrected position directly**, and the one legitimate place for such a note, the Epistemic State,
+keeps it.
 
-**The instrument that flies and the instrument that reaches Reynolds number are different instruments,
-and the programme ran both.** It further reports **the free-flight method as correlating well with the
-observed one-g flight limits**, which is the specific claim the draft was sceptical of.
-
-**The article's criticism now falls on how the flight result is repeated rather than on how it was
-obtained**, and the transfer section, the conclusion, the limits and the epistemic state were
-rewritten to say so.
+**Two related repairs.** A section headed `the Scaling Says Which to Trust` had a body whose first
+sentence declined to say which, so it was renamed. **The conclusion stated a strong claim in one
+paragraph and qualified it in the next**, which reads as a walk-back, so the qualification now travels
+with the claim.
 
 ---
 
-## The Programme's Own Poor Comparison Is Somewhere Else Entirely
+## The Results Probe Fired for the Sixth Article Running, and This Time Broadening Closed It
 
-**Asked where its ground-to-flight comparisons were poor, the programme does not name the stall or the
-scale factor. It names the support that held the model.**
+**Twelve conclusions were measured against the survey and eleven were thin in the article's own
+words.** Then each was restated in the words a publisher would use in a title.
 
-**The magnitude of the support interference effect on pitching moment was much larger than
-anticipated**, between a three-inch post with a pitch link and a 1.2-inch bent sting in the Langley 14
-by 22 foot tunnel. **On a tailless aeroplane trimmed by its own trailing edge, the pitching moment is
-the quantity least able to absorb an error.**
-
-**A campaign that spent six years worrying about Reynolds number was caught out by a three-inch post**,
-and that is the most useful thing in the record for the next programme.
-
-**New facts recovered.** Phase one ran six blocks to flight 80. Stalls reached **24 degrees slats
-extended and 14 retracted**, a ten-degree spread, with control retained three degrees beyond maximum
-lift. Departure limiter assaults were **highly successful**. Transonic behaviour and post-departure
-modes have **no flight comparison at all**.
-
----
-
-## The Promoted-Subjects Audit Fired on Five Subjects
-
-**The four-pass rhythm has no step that re-asks whether an absent subject has become load-bearing.**
-A345's equation pass made five subjects necessary that the draft did not need.
-
-| Subject | Before | Broadened | After harvest |
+| Result | Article's words | Field's words | After harvest |
 |---|---|---|---|
-| viscosity and its variation with temperature | 0 | 2 | **0** |
-| the relative density factor and model mass scaling | 1 | 7 | 21 |
-| engine-out and asymmetric thrust | 4 | 8 | 21 |
-| the standard atmosphere itself | 60 | | 83 |
-| vertical tail sizing | 106 | | 145 |
+| support interference in a wind tunnel | 4 | 293 | **488** |
+| the leading edge as the thing that sets stall angle | 88 | 449 | 452 |
+| a remote pilot against compressed time | 10 | 347 | 350 |
+| validating a flight control system | 29 | 359 | 366 |
+| vertical surface placement and tail volume | 6 | 188 | 188 |
+| a common data repository for correlation | 6 | 102 | 148 |
+| a cryogenic tunnel as the Reynolds instrument | 8 | 125 | 133 |
+| post-departure modes never compared with flight | 4 | 88 | 102 |
+| the mass condition of a dynamic model | 12 | 47 | 74 |
+| ground-to-flight correlation as a method | 7 | 23 | **51** |
+| engine-out on a two versus three engine layout | 23 | 34 | 34 |
+| thrust to weight as a scaling invariant | 3 | 5 | 5 |
 
-**Each was broadened before being called thin**, which is the discipline A343 failed in the opposite
-direction by assuming two real gaps were artefacts.
+**Restating the question moved eight of the eleven above forty with no harvesting at all.** The
+article's own closing result went **4 to 293**, because the literature says wall interference,
+blockage correction and sting correction at least as often as it says support interference. **A
+targeted harvest then closed a ninth**, ground-to-flight correlation going 23 to 51.
 
----
+**THIS IS THE OPPOSITE OF A340 THROUGH A344.** The same probe measured those articles thin and
+broadening moved none of them, because they concluded about subjects with genuinely small literatures.
+**Here almost every thin measurement was an artefact of vocabulary.**
 
-## Viscosity Stayed at Zero and That Is the Fourth Kind of Thin
+**The transferable lesson is that a thin measurement is a question and not an answer.** The reflex
+that thin means narrow was right nine times of twelve here and wrong three times in A343, which is why
+the table carries three columns rather than one.
 
-**Six queries returned 421 records mentioning viscosity or transport properties and the aeronautical
-gate admitted 14.** The rest are lubricating oils, canola oil, molten metals, protein solutions,
-supercooled sucrose and ASTM Saybolt conversion tables.
-
-**The gate refuses them correctly and no loosening would help.** The viscosity of air as a function of
-temperature was settled by Sutherland in 1893 and has lived in tables ever since. **A bibliographic
-sweep is the wrong instrument for a tabulated physical constant**, and the remedy is to fetch the
-document by identifier. **Nine primaries are now cited that way**, including the U.S. Standard
-Atmosphere 1976, the NBS-NACA tables of thermal properties of gases and Sutherland's paper.
-
----
-
-## The Definition of Primary Was Wrong in a Measurable Way
-
-**Primacy was inherited from whichever sweep returned the record, and it is a property of the
-document.** A Defense Technical Information Center report carries a Crossref-registered identifier
-under the 10.21236 prefix, so the same report arrives twice under two labels.
-
-**101 urls were held twice and deduplication kept the crossref label for 95 of them.** A further 38
-arrived only through Crossref and never carried the primary label at all. **133 report primaries were
-counted as secondary.** Primacy is now derived from the identifier, which is the corpus rule about
-recomputing rather than inheriting, applied to provenance instead of to arithmetic.
+**Two entries stayed low and neither is a gap.** Engine-out on a two against a three engine layout is
+a small real literature at 34. **Thrust to weight being invariant under Froude scaling stands at 5 and
+will not move**, because it is dimensional analysis rather than a finding.
 
 ---
 
-## A Near-Miss Worth Recording Because It Is This Article's Own Subject
+## I Typed Three Values Into That Table and All Three Were Wrong
 
-**A measurement reported zero records naming the X-48 in a pool of six thousand, and it was about to be
-stated as a fact about how the literature is indexed.**
+**The leading-edge row was written 194 and measures 89. Engine-out was written 68 and measures 23.
+Flight-control validation was written 100 and measures 29.** Every one was invented in the direction
+of the story being told.
 
-**The pattern was `\bX-?48\b`, and a word boundary after `48` cannot match `X-48B`, because the next
-character is a letter.** The records had been there all along, and NTRS returns both papers for the
-bare query `X-48B`.
-
-**An article about a hyphen defeating a gate nearly shipped a claim produced by a word boundary
-defeating a probe.** The check that caught it was asking whether the documents I had already cited
-were reachable by search, which is a question worth asking of any claimed absence.
+**The table is now emitted by `results_table.py` from the pool**, and the number verifier reproduces
+all twelve rows in all three columns against the two pools. **The corpus rule about recomputing rather
+than matching was written for statistics carried between passes and applies just as well to a number
+typed once.**
 
 ---
 
 ## State
 
-**A345 is committed and NOT pushed. Three of four passes complete.** **15,615 lines, 36 display
-equations, 7,484 reference definitions, 86,673 words**, of which 9,333 are author prose. Research
-records 6,114 to **7,416**, report primaries 796 to **1,311**, fraction 13.0 to **17.7 percent**.
+**A345 is committed and pushed. All four passes complete.** **17,749 lines, 36 display equations,
+8,534 reference definitions, 97,843 words**, of which 10,012 are author prose, a dilution factor of
+9.8. Editorial date 2025-11-23, series index 49, **full-aircraft class**.
+
+Research 6,114 to **8,466** across the four passes, report primaries 796 to **1,642**, fraction 13.0
+to **19.4 percent**. Median publication year 2006, **2,744 records from 2015 or later** at 33.7
+percent, **3,293 predating 2000**.
 
 `_verify.py` zero errors and zero warnings, `lint.py` **zero defects and zero conventions**, reference
-integrity **7,484 used and defined, zero undefined, orphaned or duplicate**, every stated value
-re-derived by an independent verifier, **all six new NTRS identifiers and all three new DOIs resolved
-in their registries with titles checked**, all 17 survey rows agreeing across three counts, and zero
-contractions, colons, semicolons, dashes, parentheticals or caps-emphasis spans in authored prose.
-**`_lib` tests are 95 of 95.**
+integrity **8,534 used and defined, zero undefined, orphaned or duplicate**, every stated value
+re-derived by a verifier that does not import the computation, **all 17 survey rows agreeing across
+three counts and all 12 results rows across three columns**, source and lint display-equation counts
+agreeing at 36, **300 of 300 sampled Crossref identifiers registered and 224 of 224 NASA identifiers
+resolved** with zero title mismatches, and zero contractions, colons, semicolons, dashes,
+parentheticals or caps-emphasis spans in authored prose. **`_lib` tests are 95 of 95.**
+
+**The stub-isolated production build succeeded in 1,940 seconds with no Liquid error, against the exact bytes that were pushed**, the article's checksum having been matched against the stub copy before the build started. **The rendered audit reports no findings across 84 pages.** Source and rendered display-equation counts agree at **36**, with **zero raw dollar pairs leaking** and **zero unresolved reference brackets**. **Two earlier builds were killed and restarted** because the article changed after they began, and a build of superseded bytes verifies nothing about what ships.
+
+**One curated source fails the sweep and resolves by hand.** `cranfieldaerospace.com` returns 200 to a
+browser user agent and is refused to the sweep, which is the documented bot-mitigation case rather
+than a citation failure.
 
 **Forty-nine of seventy-two drafted, none published, publication never authorised.**
 
 ---
 
+## A Documentation Defect Fixed on the Way
+
+**The stub-build recipe in `HANDOFF.md` omitted the `vendor` step and cost this pass two failed
+builds.** The copy excludes `vendor`, which holds the installed bundle, and nothing put it back, so
+the build fails with `Bundler::GemNotFound` listing every gem. **Setting `BUNDLE_PATH` does not fix
+it**, because the stub carries its own `.bundle/config` pinning a relative `vendor/bundle`. The recipe
+now says to symlink the real `vendor` into the stub.
+
+---
+
 ## Next
 
-**A345's publication review**, the fourth and last. **The known target has fired in five consecutive
-publication reviews**, being that the survey under-covers the subjects of the article's own
-CONCLUSIONS because the first three passes harvest for what the article is ABOUT. **Probe with the
-results**, which for this article now include the support-interference finding, the ten-degree slat
-spread, the ground-to-flight correlation as a method, and the claim that a control system rather than
-a departure boundary is the durable result.
-
-**One thing to check first.** This pass rewrote the transfer section and the conclusion late, so they
-should be read against each other for consistency before anything else is measured.
+**A346**, editorial date 2025-11-24, series index 50. **Nothing is mid-rhythm.**

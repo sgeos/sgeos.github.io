@@ -22,9 +22,10 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_boeing_x48.markdown`, A345, editorial date 2025-11-23, series `x_planes` index
 49 of 72.
 
-**15,615 lines, 36 display equations, 7,484 reference definitions, 86,673 words after the
-primary-reference review**, of which 9,333 are author prose. **Three of four passes complete.**
-Report primaries **1,311 of 7,416, being 17.7 percent**, from 796 of 6,114 at 13.0. Committed and **NOT
+**17,749 lines, 36 display equations, 8,534 reference definitions, 97,843 words after the
+publication review**, of which 10,012 are author prose, a dilution factor of 9.8. **All four passes
+complete.** Committed and **PUSHED**. **Not published**, and publication of the series has never been
+authorised. Report primaries **1,642 of 8,466, being 19.4 percent**, from 796 of 6,114 at 13.0. Committed and **NOT
 pushed**. **Not published**, and publication of the series has never been authorised.
 **Full-aircraft class.**
 
@@ -43,6 +44,22 @@ article divides the programme's own objectives into what transfers and what does
 **THE DEMONSTRATION IS TILTED AND THE DIRECTION IS COMPUTED.** Froude scaling makes thrust to weight
 invariant, the model carries 0.3086 against 0.2245, so it is over-thrusted by 1.374 and **its
 engine-out test is conservative**, the opposite of A332's tilt.
+
+**The stub-isolated production build succeeded in 1,940 seconds against the exact bytes pushed, the rendered audit reports no findings across 84 pages, and source and rendered display-equation counts agree at 36 with zero raw dollar pairs leaking.**
+
+**THE PUBLICATION REVIEW'S FIRST FINDING WAS PROSE.** The primary pass had left the article
+narrating its own drafting history inside the argument, saying `the draft of this article argued`.
+**A reader has no access to a superseded draft**, so three passages were rewritten to state the
+corrected position directly.
+
+**THE RESULTS PROBE FIRED FOR THE SIXTH ARTICLE RUNNING AND THIS TIME BROADENING CLOSED IT.** Eleven
+of twelve conclusions measured thin in the article's own words, and restating them in the field's
+words **moved eight above forty with no harvesting**, the closing result going **4 to 293**. That is
+the opposite of A340 through A344. **A thin measurement is a question rather than an answer.**
+
+**I TYPED THREE TABLE VALUES BY HAND AND ALL THREE WERE WRONG**, every one invented in the direction
+of the story. The table is now emitted from the pool and the verifier reproduces all twelve rows in
+three columns.
 
 **THE PRIMARY PASS FOUND A SOURCE THAT CONTRADICTED THE DRAFT AND THE ARTICLE CHANGED.** NASA's
 ground-to-flight correlation update plots the programme's tests on scale against chord Reynolds

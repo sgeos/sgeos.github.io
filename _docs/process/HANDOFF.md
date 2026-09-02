@@ -1568,7 +1568,13 @@ A341's draft pass, and took **six and a half hours**.
 **The recipe is in `tmp/a342/stub/` and the script that builds it is a dozen lines**, but that path is
 gitignored, so it is written out here. Copy the repository excluding `_posts`, `_drafts`, `_site` and
 `tmp`. Put the article under work into `_posts` with its date prefix. Write every sibling series draft
-into `_posts` as front matter plus one line. **The stub site's own `_verify.py` is not run against it,
+into `_posts` as front matter plus one line.
+
+**ALSO EXCLUDE `vendor` FROM THE COPY AND THEN SYMLINK IT BACK IN**, since it holds the installed
+bundle and is several hundred megabytes. **This step was missing from this recipe until 2026-09-02 and
+cost A345 two failed builds**, which fail with `Bundler::GemNotFound` listing every gem. Setting
+`BUNDLE_PATH` to the real tree does not work, because the stub carries its own `.bundle/config`
+pinning `vendor/bundle` as a relative path. `ln -sfn <repo>/vendor <stub>/vendor` does. **The stub site's own `_verify.py` is not run against it,
 because the stubs would fail. Run that against the real tree.**
 
 **What the stub build cannot see** is an interaction between the article and another real post, and a
