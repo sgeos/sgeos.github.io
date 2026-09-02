@@ -73,6 +73,33 @@ NOISE_PATTERNS = [
                                      "aircraft and also a SINKING MARINE MICROFOSSIL, in "
                                      "'Estimation of sinking velocities using free-falling "
                                      "dynamically scaled models: foraminifera as a test case'"),
+    # ---- A346, the X-49. THE FIRST OF THESE WAS FOUND BY A344 AND RECORDED ONLY AS
+    #      PROSE. A344's publication review reported that its refused records included
+    #      "a substantial literature on estimating the weight of a foetus" and wrote
+    #      that into three process files. Nobody wrote it into this store, so when A346
+    #      made `weight estimation` an anchor for its retrofit-cost argument, thirteen
+    #      clinical records walked in. A lesson recorded as prose is not an instrument.
+    (r"\bchildren\b|\bpaediatric|\bpediatric|\bobese\b|\bfetal\b|\bfoetal\b|"
+     r"birth weight|\bgestational|\bantenatal|\bultrasound.{0,20}weight|"
+     r"emergency department|\bpatients?\b.{0,30}weight",
+     "A346: 'weight estimation' is what a rotorcraft designer does to an airframe and "
+     "also what a clinician does to a child or a foetus. A344 met the same family from "
+     "the other side, as records its gate refused, and recorded it only in prose"),
+    (r"ducted (?:rocket|ramjet)|solid ducted|ramjet|scramjet.{0,20}duct|inlet buzz",
+     "A346: a ducted propulsor is a helicopter anti-torque device and a DUCTED ROCKET "
+     "is solid-propellant missile propulsion, which shares the word"),
+    (r"air condition\w*|heat pump|\bHVAC\b|ventilation duct|chimney",
+     "A346: 'ducted' also describes domestic air conditioning, which reached the pool "
+     "through the same anchor"),
+    (r"journal bearing|magnetic bearing|\bbearings?\b.{0,25}rotor|"
+     r"rotor ?dynamic.{0,30}(?:bearing|shaft|machine|journal)|rotor balancing",
+     "A346: 'rotor dynamics' is a helicopter subject and also the SHAFT-AND-BEARING "
+     "discipline of turbomachinery, which shares the word and nothing else"),
+    (r"surfactant|micellar|polymer(?:ic)? (?:solution|additive)|"
+     r"drag reduc\w+.{0,30}(?:polymer|surfactant|solution|additive)",
+     "A346: 'drag reduction' is a rotor hub fairing and also the POLYMER AND SURFACTANT "
+     "chemistry of pipe flow, which is a larger literature than the aeronautical one"),
+
     (r"solid pitch|pycnometer|\bbitumen|\basphalt\b|coal tar",
      "A345: 'relative density' is the mass condition of a dynamic free-flight model "
      "and also the ASTM MATERIALS TEST for solid pitch by pycnometer, which reached "

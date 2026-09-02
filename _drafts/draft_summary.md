@@ -17,6 +17,33 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Piasecki X-49 SpeedHawk A346 2025-11-24
+
+`x_planes_piasecki_x49.markdown`, A346, editorial date 2025-11-24, series `x_planes` index
+50 of 72.
+
+**8,035 lines, 13 display equations, 3,815 reference definitions, 44,075 words after the draft
+pass**, of which 5,026 are author prose. **One of four passes complete.** Committed and **NOT
+pushed**. **Not published**, and publication of the series has never been authorised.
+**Full-aircraft class.** Report primaries **781 of 3,744, being 20.9 percent**.
+
+**THE KEYSTONE IS THAT COMPOUNDING FIXES ONE HALF OF THE ROTOR AND NOT THE OTHER.** Offloading lift
+relieves the retreating blade, and the X-49A reached an advance ratio of **0.441** where a
+conventional rotor gives out near 0.40. **The advancing tip is set by tip speed plus flight speed and
+does not care about lift**, and at 190 knots it is already at **Mach 0.938**. Neither a drag clean-up
+nor a third engine moves a Mach number.
+
+**THE CONSTRAINT WAS THE TRANSMISSION.** Two T700s make 3,800 shp into a gearbox rated 3,400, so
+**400 horsepower cannot reach the rotor**, which is why the unbuilt phase two added a third engine
+driving the duct directly.
+
+**THE 1965 AIRCRAFT WAS FASTER.** The 16H-1A reached 225 mph on 1,250 shp; the X-49A reached 218.65
+mph with 1.342 times the power per pound. The article argues the retrofit, not the speed, is the
+right figure of merit, at **1,600 lb or 11.7 percent of empty weight**.
+
+**THE DESIGNATION WAS SKIPPED SO THE X-50 COULD HAVE A ROUNDER NUMBER**, and this is **the first
+article in fifty with no designation-directory entry**.
+
 ## X-Planes Boeing X-48 A345 2025-11-23
 
 `x_planes_boeing_x48.markdown`, A345, editorial date 2025-11-23, series `x_planes` index
