@@ -44,6 +44,9 @@ every literal space a hyphen could defeat fired on eleven of twelve subjects, in
 control` and `probe and drogue`. **A checker that fires on almost everything is the permissive-gate
 failure wearing different clothes.** It was measured and abandoned, and a builder shipped instead.
 
+**The stub-isolated production build succeeded with no Liquid error, the rendered audit reports no
+findings across 60 pages, and source and rendered display-equation counts agree at 24.**
+
 **THE EQUATION PASS PROMOTED THIRTEEN RELATIONS AND THE REFERENCE BASE HAD NOT FOLLOWED**, nine of
 twelve subjects measuring thin. Cruise performance went 3 to 130 while the article displays the
 Breguet relation, and maximum lift on a tailless planform 5 to 92 while the whole resolution of the

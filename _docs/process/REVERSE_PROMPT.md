@@ -87,6 +87,13 @@ reference data**, 300 of 300 sampled Crossref identifiers registered and **111 o
 resolved** with zero title mismatches, zero caps-emphasis spans, and zero contractions, colons,
 semicolons, dashes or parentheticals in prose. **`_lib` tests are 89 of 89.**
 
+**The stub-isolated production build succeeded in 5,619 seconds with no Liquid error**, against the
+exact bytes that were pushed. **The rendered audit reports no findings across 60 pages.** Source and
+rendered display-equation counts agree at **24**, with **zero raw dollar pairs leaking**, which is the
+check A341 had to invent because a display equation demoted to inline math is invisible to the audit.
+**Zero unresolved reference brackets**, all fourteen sections render in order, and the U.S. Standard
+Atmosphere citation that the primary pass recovered resolves on the page.
+
 **Forty-eight of seventy-two drafted, none published, publication never authorised.**
 
 ---
