@@ -12,6 +12,7 @@ form of a comment that failed to prevent something.
 """
 
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -1481,6 +1482,32 @@ def t_gate_carries_the_shared_atmosphere_vocabulary():
                   "Speed of Sound Versus Temperature Using PVC Pipes Open at Both Ends",
                   "QSPR Model to Predict the Speed of Sound of Ionic Liquids"]:
         assert not g.admits(title), f"admitted the wrong sense: {title!r}"
+
+
+def t_survey_builds_a_separator_tolerant_term():
+    """The same measurement failed three passes running and the third was one character.
+
+    A344's audit asked for `arresting gear` with a space while the literature
+    writes `ARRESTING-GEAR CABLE`. The subject measured 4 records where the pool
+    held 12, and 40 where it held 72, with nothing harvested between.
+
+    A DIAGNOSTIC WAS BUILT FIRST AND ABANDONED. Flagging every literal space a
+    hyphen could defeat fired on eleven of that article's twelve subjects,
+    including `span of control` and `probe and drogue`, which nobody hyphenates.
+    A checker that fires on almost everything trains its reader to ignore it, so
+    the library offers a builder instead of a warning.
+    """
+    pat = survey.loose("arresting gear")
+    for title in ["AIRCRAFT ARRESTING GEAR CABLE",
+                  "VALIDATION OF DESIGN THEORY FOR AIRCRAFT ARRESTING-GEAR CABLE",
+                  "arresting  gear performance"]:
+        assert re.search(pat, title, re.I), f"{pat} missed {title!r}"
+
+    # It must not run words together, which would match unrelated text.
+    assert not re.search(survey.loose("arresting gear"), "arrestinggear", re.I)
+
+    # Regex metacharacters in a term are escaped rather than interpreted.
+    assert re.search(survey.loose("F/A-18 Hornet"), "F/A-18 Hornet", re.I)
 
 
 for name, fn in sorted(list(globals().items())):

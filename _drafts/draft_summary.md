@@ -22,10 +22,27 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_northrop_grumman_x47.markdown`, A344, editorial date 2025-11-22, series `x_planes` index
 48 of 72.
 
-**16,139 lines, 24 display equations, 7,780 reference definitions, 86,323 words after the
-primary-reference pass**, of which 7,556 are author prose, a dilution factor of 11.4. **Three of four
-passes complete.** Committed and **NOT PUSHED**. **Full-aircraft class**, and the first article in
-four with a flight test record worth tabulating.
+**19,382 lines, 24 display equations, 9,392 reference definitions, 103,575 words after the
+publication review**, of which 8,130 are author prose, a dilution factor of 12.7. **All four passes
+complete.** Committed and **PUSHED**. **Not published**, and publication of the series has never been
+authorised. **Full-aircraft class**, and the first article in four with a flight test record worth
+tabulating.
+
+**SIX OF SEVEN RESULT-DRIVEN SUBJECTS MEASURED THIN AND ONLY ONE CLOSED.** The claim that an automatic
+wave-off on a detected fault is the behaviour a deck requires went 28 to 180. **Each was broadened
+before being called thin**, which is the discipline three earlier passes failed, and broadening moved
+none materially.
+
+**THE ARTICLE'S TWO MOST DISTINCTIVE CLAIMS BELONG TO A DIFFERENT DISCIPLINE.** Identifying which
+constraint is active, and comparing a conceptual estimate against the aeroplane that got built, are
+design methodology rather than aeronautics, and **the refused records include a substantial literature
+on estimating the weight of a foetus**. The aeronautical gate refuses that correctly, so those claims
+stand on the arithmetic and the article says so.
+
+**THE INSTRUMENT FAILURE WAS GIVEN A GUARD AND THE FIRST GUARD WAS WRONG.** A diagnostic flagging
+every literal space a hyphen could defeat fired on eleven of twelve subjects, including `span of
+control` and `probe and drogue`. **A checker that fires on almost everything is the permissive-gate
+failure wearing different clothes.** It was measured and abandoned, and a builder shipped instead.
 
 **THE EQUATION PASS PROMOTED THIRTEEN RELATIONS AND THE REFERENCE BASE HAD NOT FOLLOWED**, nine of
 twelve subjects measuring thin. Cruise performance went 3 to 130 while the article displays the

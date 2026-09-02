@@ -132,6 +132,35 @@ def primary_stats(meta, definitions, prefixes):
             "primary_pct": round(100.0 * hit / len(res), 1)}
 
 
+def loose(term):
+    r"""A multi-word term as a regex that a hyphen or a run of space cannot defeat.
+
+    THE SAME MEASUREMENT FAILED THREE PASSES RUNNING and the third time it was one
+    character. A344's audit asked for `arresting gear` with a space while the
+    literature writes `ARRESTING-GEAR CABLE`, and the subject measured 4 records
+    where the pool held 12, and 40 where it held 72, with nothing harvested
+    between those readings. `gate.py` normalises typographic dashes so no subject
+    GATE fails on the shape of a dash, but an audit pattern is not a gate and
+    normalises nothing.
+
+    A DIAGNOSTIC WAS BUILT FIRST, MEASURED, AND ABANDONED, and the refusal is the
+    useful part. `separator_risks` flagged every literal space in a pattern that a
+    hyphen could defeat. Run over this article's twelve audit subjects it flagged
+    eleven, including `span of control`, `probe and drogue` and `sea state`, which
+    no publisher hyphenates. A checker that fires on almost everything is the
+    permissive-gate failure wearing different clothes, and it would have trained
+    its reader to ignore it. Making the right thing easy beats warning about the
+    wrong one, so what remains is a builder.
+
+        loose("arresting gear")  ->  arresting[-\s]+gear
+
+    Use it for compound technical nouns. Leave ordinary prepositional phrases
+    alone, since `span of control` gains nothing from it.
+    """
+    parts = [re.escape(p) for p in (term or "").split()]
+    return r"[-\s]+".join(parts)
+
+
 def check(claims):
     """Compare (label, stated, actual) triples. Returns (failures, report lines).
 
