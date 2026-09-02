@@ -22,8 +22,8 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_boeing_x48.markdown`, A345, editorial date 2025-11-23, series `x_planes` index
 49 of 72.
 
-**12,786 lines, 7 display equations, 6,183 reference definitions, 69,753 words after the draft
-pass**, of which 6,198 are author prose. **One of four passes complete.** Committed and **NOT
+**12,936 lines, 35 display equations, 6,183 reference definitions, 71,294 words after the
+equation-density review**, of which 7,725 are author prose. **Two of four passes complete.** Committed and **NOT
 pushed**. **Not published**, and publication of the series has never been authorised.
 **Full-aircraft class.**
 
@@ -42,6 +42,13 @@ article divides the programme's own objectives into what transfers and what does
 **THE DEMONSTRATION IS TILTED AND THE DIRECTION IS COMPUTED.** Froude scaling makes thrust to weight
 invariant, the model carries 0.3086 against 0.2245, so it is over-thrusted by 1.374 and **its
 engine-out test is conservative**, the opposite of A332's tilt.
+
+**THE EQUATION PASS FOUND THREE RESULTS RATHER THAN FORMALISING THE OLD ONES.** The standard
+atmosphere makes the Reynolds penalty worse, 40.35 becoming **51.7** for a model at its ceiling
+against an aeroplane near the ground. The relative density factor, assumed away in the draft, moves
+the implied full-scale weight to 914,885 lb at the field elevation, so **854,875 is a lower bound**.
+And the X-48C is **doubly penalised on its weakest axis**, its engine-out upset being 2.378 times the
+full-scale case, with the moment-arm half a sensitivity whose sign admits no other reading.
 
 **A HYPHEN DEFEATED THE GATE AND THEN THE CLUSTERING.** 57 records were refused on a separator alone,
 including the keystone subject. The fix went into `_lib/gate.py` rather than this article's gate, and

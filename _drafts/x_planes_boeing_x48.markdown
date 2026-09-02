@@ -50,11 +50,37 @@ $$n = \frac{20.4\ \text{ft}}{240\ \text{ft}} = 0.085000$$
 
 ### What Froude Matching Does to Everything Else
 
+**Two dimensionless groups compete and only one can be held.** The Froude number is the ratio of inertial to gravitational force and the Reynolds number is the ratio of inertial to viscous force,
+
+$$Fr = \frac{V^{2}}{Lg}, \qquad Re = \frac{VL}{\nu}$$
+
+**Setting the model's Froude number equal to the aeroplane's is what fixes the speed ratio**, and it does so without reference to the air at all,
+
+$$\frac{V_m^{2}}{L_m g} = \frac{V_f^{2}}{L_f g} \implies r_V = \frac{V_m}{V_f} = \sqrt{\frac{L_m}{L_f}} = \sqrt{n}$$
+
+**The mass condition is a separate requirement and it is the one usually forgotten.** A dynamic model must also match the relative density factor, which compares the model's mass to the air it displaces,
+
+$$\sigma = \frac{m}{\rho l^{3}}$$
+
+so that the weight ratio carries an atmospheric term,
+
+$$r_W = \frac{n^{3}}{\sigma}$$
+
+**When the model and the aeroplane fly in the same air, $\sigma$ is one and the term disappears.** The article returns to what happens when they do not.
+
 Holding the Froude number and the relative density fixed determines every other ratio by dimensions alone. With $n$ the length ratio and the model flying in the same air as the aeroplane,
 
 $$r_V = \sqrt{n}, \qquad r_t = \sqrt{n}, \qquad r_\omega = \frac{1}{\sqrt{n}}$$
 
 $$r_W = n^3, \qquad r_I = n^5, \qquad r_{Re} = n^{3/2}$$
+
+**The Reynolds ratio is not an independent choice but a consequence**, being the product of the speed ratio already fixed by Froude and the length ratio,
+
+$$r_{Re} = r_V \, r_L = n^{1/2} \cdot n = n^{3/2}$$
+
+**and that single line is the whole cost of the decision.** Two further ratios follow the same way and both matter later. The dynamic pressure and the wing loading go as
+
+$$r_q = \frac{\rho V_m^{2}}{\rho V_f^{2}} = r_V^{2} = n, \qquad r_{W/S} = \frac{n^{3}}{n^{2}} = n$$
 
 **The weight goes as the cube because it is a force and a force at matched Froude number scales as $\rho V^2 L^2$, which is $n \cdot n^2$.** The underlying rigid-body equations are standard [[Etkin and Reid, Dynamics of flight][book_etkin_reid]] [[McCormick, Aerodynamics, aeronautics and flight mechanics][book_mccormick]]. The Reynolds ratio is the product of the velocity ratio and the length ratio, which is where the three halves comes from.
 
@@ -75,7 +101,19 @@ At $n = 0.085$ these evaluate to the following.
 
 ### The Pilot Does Not Scale
 
-**Time compression is a statement about the pilot as much as about the aeroplane.** A motion that the full-scale aeroplane would develop over three seconds develops in the model in 0.875 seconds. The aeroplane is on a dry lake bed and the pilot is in a ground station, and **the pilot's reaction time is not multiplied by 0.2915 to match.**
+**Time compression is a statement about the pilot as much as about the aeroplane.** Any interval scales as
+
+$$t_m = t_f \sqrt{n} = 0.2915 \, t_f$$
+
+so a motion that the full-scale aeroplane would develop over three seconds develops in the model in
+
+$$t_m = 3 \times 0.2915 = 0.875\ \text{s}$$
+
+**and the angular rates that go with it are faster by the reciprocal,**
+
+$$r_\omega = \frac{1}{\sqrt{n}} = 3.430$$
+
+The aeroplane is on a dry lake bed and the pilot is in a ground station, and **the pilot's reaction time is not multiplied by 0.2915 to match.**
 
 NASA's own account of dynamic model testing states the problem plainly, noting that because a model's angular motions are so much faster than the aeroplane's, the models may be difficult to control, and that the response has often been to share the piloting task among more than one person [[Chambers, Modeling flight, the role of dynamically scaled free-flight models in support of NASA's aerospace programs][research_chambers_modeling_flight]].
 
@@ -85,7 +123,45 @@ $$\frac{r_t^{-1}(0.085)}{r_t^{-1}(0.28)} = 1.815, \qquad \frac{r_{Re}^{-1}(0.085
 
 **The X-48B's pilot faced dynamics 1.815 times faster than the X-36's, and its aerodynamics were 5.979 times further from full scale.** The X-36 article argued that a scale factor is a statement about what an experiment is able to measure. This is the same statement at nearly twice the severity.
 
+### Reynolds Number in Absolute Terms, and the Altitude That Makes It Worse
+
+**A ratio of 40.35 says nothing about where either aeroplane sits**, and the absolute values decide whether the mismatch matters. Using a reference chord and the published maximum speed of 118 knots,
+
+$$Re = \frac{V c}{\nu}, \qquad c = \frac{S}{b} = \frac{100.5}{20.4} = 4.926\ \text{ft}$$
+
+**The wing area here comes from a secondary compilation and not from a primary source**, which the article flags rather than hides. **The ratio below does not depend on it**, because the chord cancels.
+
+At sea level, with $\nu_0 = 1.5723 \times 10^{-4}\ \text{ft}^2/\text{s}$,
+
+$$Re_{\text{model}} = \frac{199.2 \times 4.926}{1.5723 \times 10^{-4}} = 6.24 \times 10^{6}$$
+
+and the corresponding full-scale condition, at $V_f = V_m/\sqrt{n}$ and $c_f = c/n$,
+
+$$Re_{\text{full}} = \frac{683.1 \times 58.0}{1.5723 \times 10^{-4}} = 2.52 \times 10^{8}$$
+
+**Both are above the range where a boundary layer is deciding whether to be turbulent at all, and they are two orders of magnitude apart.**
+
+**The published speed also checks the scaling.** Inverting the speed ratio on the model's maximum,
+
+$$V_f = \frac{118}{\sqrt{0.085}} = 404.7\ \text{kt}$$
+
+**which is a sensible cruise speed for a large subsonic transport**, and is therefore a second piece of evidence that the reference vehicle is real rather than nominal.
+
+**The atmosphere then makes the mismatch worse, and this is the one place the standard atmosphere earns its keep in this article.** The model flew to a ceiling of 10,000 feet while the full-scale aeroplane's low-speed regime is near the ground. Kinematic viscosity rises with altitude,
+
+$$\nu(h) = \frac{\mu(h)}{\rho(h)}, \qquad \frac{\nu(10{,}000)}{\nu(0)} = \frac{2.0135 \times 10^{-4}}{1.5723 \times 10^{-4}} = 1.281$$
+
+so a model tested at its ceiling against an aeroplane approaching at sea level suffers
+
+$$P_{\text{effective}} = n^{-3/2} \times \frac{\nu(10{,}000)}{\nu(0)} = 40.35 \times 1.281 = 51.7$$
+
+**The honest penalty is therefore between 40.35 and 51.7 depending on the test altitude**, and the larger figure is the one that applies to any manoeuvre flown high.
+
 ### What Cancelling the X-48A Cost
+
+**The penalty is a function of span alone once the reference is fixed**, since $n = b/b_{\text{ref}}$ gives
+
+$$P(b) = \left(\frac{b_{\text{ref}}}{b}\right)^{3/2}, \qquad \tau(b) = \left(\frac{b_{\text{ref}}}{b}\right)^{1/2}$$
 
 The three scaled vehicles NASA considered against the same 240-foot reference price out as follows.
 
@@ -95,6 +171,10 @@ The three scaled vehicles NASA considered against the same 240-foot reference pr
 | X-48B, flown | 20.4 ft | 0.0850 | 3.430 | 40.35 |
 | Langley free-flight model | 12 ft | 0.0500 | 4.472 | 89.44 |
 
+**The cost of the substitution is a ratio of two such penalties and needs no other quantity,**
+
+$$\frac{P(20.4)}{P(35)} = \left(\frac{35}{20.4}\right)^{3/2} = 2.247, \qquad \frac{\tau(20.4)}{\tau(35)} = \left(\frac{35}{20.4}\right)^{1/2} = 1.310$$
+
 **Cancelling the 35-foot aeroplane and flying the 20.4-foot one multiplied the Reynolds shortfall by 2.247 and made the aeroplane 31 percent quicker in its own time.** That is the price of the 2002 decision, stated in the only units in which it can be stated. **It is not an argument that the decision was wrong**, since a 35-foot vehicle is a different programme in cost, airspace and risk, but it is the quantity the decision traded.
 
 ### What the Model's Own Weight Says About the Vehicle It Represents
@@ -103,7 +183,29 @@ The three scaled vehicles NASA considered against the same 240-foot reference pr
 
 $$W_{\text{full}} = \frac{525\ \text{lb}}{n^3} = 8.549 \times 10^{5}\ \text{lb}$$
 
-**No source in the record states the reference vehicle's weight, so this is a derived figure and the article treats it as one.** It can nevertheless be tested. Liebeck's published second-generation blended wing body carries a maximum takeoff gross weight of 823,000 pounds, and the BWB-450 baseline spans 249 feet [[Liebeck, Design of the blended wing body subsonic transport][research_liebeck_bwb]]. Scaling that design geometrically to a 240-foot span gives 736,946 pounds, so the vehicle implied by the model's own weight is **1.160 times heavier than a passenger blended wing body of the same span**.
+**That figure assumes $\sigma = 1$, and the relative density factor is exactly the term the earlier section set aside.** Restoring it,
+
+$$W_{\text{full}} = \frac{W_m}{n^{3}} \cdot \frac{\rho_f}{\rho_m}$$
+
+and evaluating for three readings of where the model's condition sits,
+
+| Model condition | $\rho_m/\rho_0$ | Implied full-scale weight |
+|---|---|---|
+| same air as the aeroplane | 1.0000 | 854,875 lb |
+| Rogers Dry Lake, 2,300 ft | 0.9344 | 914,885 lb |
+| ceiling, 10,000 ft | 0.7385 | 1,157,634 lb |
+
+**So 854,875 pounds is a lower bound rather than an estimate**, and the article uses it as one.
+
+**No source in the record states the reference vehicle's weight, so this is a derived figure and the article treats it as one.** It can nevertheless be tested. Liebeck's published second-generation blended wing body carries a maximum takeoff gross weight of 823,000 pounds, and the BWB-450 baseline spans 249 feet [[Liebeck, Design of the blended wing body subsonic transport][research_liebeck_bwb]]. Scaling that design geometrically to a 240-foot span,
+
+$$W(240) = 823{,}000 \times \left(\frac{240}{249}\right)^{3} = 736{,}946\ \text{lb}$$
+
+gives a comparison of
+
+$$\frac{W_{\text{full}}}{W(240)} = \frac{854{,}875}{736{,}946} = 1.160$$
+
+so the vehicle implied by the model's own weight is **at least 1.160 times heavier than a passenger blended wing body of the same span**, and **1.241 times heavier on the field-elevation reading.**
 
 **That is the right direction and about the right size.** The Air Force's stated interest was a multi-role, long-range, high-capacity military transport [[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]], and a freighter is denser than an airliner of the same dimensions, as the conventional airlifter it would replace already shows [[Boeing C-17 Globemaster III][ref_c17_wikipedia]]. The weight relations that make that comparison meaningful are the standard conceptual-design ones [[Raymer, Aircraft design, a conceptual approach][book_raymer]] [[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]] [[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]]. **The model's weight is therefore consistent with a military reference vehicle and not with the commercial one**, which is a fact about the programme recoverable from nothing but the scale relations.
 
@@ -115,9 +217,27 @@ $$\left(\frac{T}{W}\right)_{\text{model}} = \frac{3 \times 54\ \text{lbf}}{525\ 
 
 $$\left(\frac{T}{W}\right)_{\text{full}} = \frac{3 \times 61{,}600\ \text{lbf}}{823{,}000\ \text{lb}} = 0.2245$$
 
+$$\frac{(T/W)_{\text{model}}}{(T/W)_{\text{full}}} = \frac{0.3086}{0.2245} = 1.374$$
+
 **The model carries 1.374 times the thrust to weight of the aeroplane it represents.** This is not a defect. A model that must take off from a lake bed, climb to a test altitude inside a small working area and go around from an approach needs margin the transport does not.
 
-**But it means the demonstration is tilted, and the direction is computable.** Thrust to weight is one of the handful of ratios that fixes an aeroplane's performance at all [[Anderson, Aircraft performance and design][book_anderson_performance]]. An engine-out yaw moment is a thrust asymmetry, so a model with 37 percent more thrust to weight produces a proportionally larger upset than the full-scale aeroplane would at the same flight condition. **Engine-out control was a stated flight-test objective**, tested at low speed, takeoff configuration and minimum operating weight with an outboard engine failed [[Taylor and Vicroy, X-48B flight-test progress overview][research_taylor_x48b_progress]]. **So that particular test was harder than the aeroplane will face, and a pass is conservative.** That is the pleasant direction for a demonstration to be tilted, and it is the opposite of the direction found in [A332][related_post_a332_lockheed_martin_x35].
+**But it means the demonstration is tilted, and the direction is computable.** Thrust to weight is one of the handful of ratios that fixes an aeroplane's performance at all [[Anderson, Aircraft performance and design][book_anderson_performance]].
+
+**The quantity that matters for engine-out is the asymmetric thrust carried as a fraction of weight**, which for $N_e$ equal engines with one failed is
+
+$$\frac{\Delta T}{W} = \frac{T}{W} \cdot \frac{1}{N_e}$$
+
+**Evaluating for the two models and for the full-scale trijet,**
+
+$$\left(\frac{\Delta T}{W}\right)_{B} = \frac{0.3086}{3} = 0.10286, \qquad \left(\frac{\Delta T}{W}\right)_{C} = \frac{0.3560}{2} = 0.17800$$
+
+$$\left(\frac{\Delta T}{W}\right)_{\text{full}} = \frac{0.2245}{3} = 0.07485$$
+
+**against which the two aeroplanes stand at**
+
+$$\frac{0.10286}{0.07485} = 1.374, \qquad \frac{0.17800}{0.07485} = 2.378, \qquad \frac{0.17800}{0.10286} = 1.731$$
+
+An engine-out yaw moment is a thrust asymmetry, so a model with 37 percent more thrust to weight produces a proportionally larger upset than the full-scale aeroplane would at the same flight condition. **Engine-out control was a stated flight-test objective**, tested at low speed, takeoff configuration and minimum operating weight with an outboard engine failed [[Taylor and Vicroy, X-48B flight-test progress overview][research_taylor_x48b_progress]]. **So that particular test was harder than the aeroplane will face, and a pass is conservative.** **The X-48C's engine-out case is harder still, at 2.378 times the full-scale upset**, because losing one engine of two removes half the thrust where losing one of three removes a third, and the C model's thrust to weight is higher as well. That is the pleasant direction for a demonstration to be tilted, and it is the opposite of the direction found in [A332][related_post_a332_lockheed_martin_x35].
 
 ## The Two Aircraft
 
@@ -139,6 +259,32 @@ $$\left(\frac{T}{W}\right)_{\text{full}} = \frac{3 \times 61{,}600\ \text{lbf}}{
 **The C model was a noise aeroplane and its modifications were acoustic in intent.** The winglets were relocated inboard next to the engine exhaust ducts, becoming twin vertical tails, and the aft deck was extended about two feet rearward, both to shield engine noise from the ground [[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]] [[Boeing flies X-48C blended wing body research aircraft][ref_boeing_x48c_release]]. The low-noise configuration descends from NASA's Environmentally Responsible Aviation studies of aircraft two decades ahead [[Environmentally Responsible Aviation Project, NASA][ref_era_project]].
 
 **Two of those changes work against the axis the programme had already named as weakest.** Moving a vertical surface inboard on a swept planform moves it forward, shortening its moment arm about the centre of gravity, and the aft-deck extension recovers part of that arm rather than adding to it. Separately, losing one engine of two removes half the thrust where losing one of three removes a third. **NASA records that the handling qualities of the C model differed from the B model and that new flight control limiters were written for it**, which is the clearest published statement that the noise modification was not free.
+
+### The X-48C Made the Weak Axis Weaker, and the Arithmetic Says by Roughly How Much
+
+**The programme's own stated hypothesis was that yaw control is poor throughout the flight envelope** [[Taylor and Vicroy, X-48B flight-test progress overview][research_taylor_x48b_progress]]. **The noise modification then acted on that axis twice, in the same direction, and neither action was intended to.**
+
+**The first is the engine count.** The asymmetric thrust fraction computed above rises from 0.10286 to 0.17800, a factor of **1.731** against the B model.
+
+**The second is the moment arm.** Directional authority from a vertical surface scales with the tail volume coefficient,
+
+$$V_v = \frac{S_v \, l_v}{S \, b}$$
+
+in which $l_v$ is the distance from the centre of gravity to the surface's aerodynamic centre. **On a swept planform, moving a surface inboard moves it forward**, because the structure it attaches to sweeps aft with span,
+
+$$\Delta l_v = \Delta y \, \tan \Lambda$$
+
+**The sweep angle of the X-48's outer trailing edge is not published**, so this is evaluated as a sensitivity rather than a result. Taking the winglets from the tip at $y = 10.2$ ft to a station near the exhaust ducts at roughly 2.5 ft, so $\Delta y = 7.7$ ft,
+
+| Assumed sweep | Forward shift | Net after the 2 ft aft-deck extension |
+|---|---|---|
+| 30 degrees | 4.45 ft | 2.45 ft |
+| 35 degrees | 5.39 ft | 3.39 ft |
+| 40 degrees | 6.46 ft | 4.46 ft |
+
+**The aft deck was extended about two feet rearward, which acts in the recovering direction**, and that is itself evidence that arm was lost and known to be lost. **Against a tail arm of order ten feet on a twenty-foot aeroplane, a net loss of two to four feet is a reduction in $V_v$ of roughly a quarter to nearly a half**, before any account is taken of the change in surface area or of the interference between a tail and an exhaust plume.
+
+**Both effects push the same way on the axis already named as weakest, and NASA records the consequence.** The project team wrote flight control system modifications for the C model, including limiters to keep it inside a safe envelope, **because its handling qualities differed from the B model's** [[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]]. **The arithmetic above is one reading of why.**
 
 ## Dependent Systems
 
@@ -196,13 +342,17 @@ Testing proceeded in blocks. Envelope expansion came first, then parameter ident
 
 **The reference vehicle's weight is derived and never quoted.** The figure of 854,875 pounds comes from inverting the cube of the scale ratio on the model's own weight. If the model was not weight-scaled with the precision assumed, the number moves and the comparison against Liebeck moves with it.
 
-**The relative density factor is assumed to be one.** The scaling relation for weight is $n^3/\sigma$, where $\sigma$ compares the model's mass density to an atmospheric sample. The model flew from a field at about 2,300 feet to a ceiling of 10,000 feet, and the full-scale aeroplane's low-speed regime is also near sea level, so the assumption is reasonable and it is an assumption.
+**The relative density factor is now quantified rather than assumed away, and it moves the answer.** Taking the model's condition at the field elevation of Rogers Dry Lake raises the implied full-scale weight from 854,875 pounds to 914,885, and taking it at the ceiling raises it to 1,157,634. **The record does not state the altitude at which the weight scaling was set**, so 854,875 pounds is reported as a lower bound and every comparison drawn from it inherits that status.
 
-**The BWB-17 does not fit the same arithmetic.** At 6 percent scale and 120 pounds, inverting the cube gives an implied full-scale weight of 555,556 pounds and an implied reference span of 283 feet. **That does not match Liebeck's 823,000 pounds**, so either the BWB-17 answered to an earlier and lighter reference design or it was not weight-scaled to the vehicle described in the same paper. **The record does not say which**, and this article does not guess.
+**The BWB-17 does not fit the same arithmetic.** At 6 percent scale and 120 pounds,
 
-**The wing area is not stated by any primary source consulted.** Figures near 100 square feet circulate in secondary compilations. **No claim in this article depends on the wing area**, and the wing loading is therefore not computed here, which is a deliberate omission rather than an oversight.
+$$b_{\text{ref}} = \frac{17}{0.06} = 283\ \text{ft}, \qquad W_{\text{full}} = \frac{120}{0.06^{3}} = 555{,}556\ \text{lb}$$
 
-**The X-48C's yaw authority claim is directional and not quantitative.** No source consulted publishes the spanwise or longitudinal position of either the B model's winglets or the C model's twin tails. The argument that moving a surface inboard on a swept planform shortens its moment arm is geometric and sound, but **the size of the change is not computed and cannot be from the published record.**
+**That does not match Liebeck's 823,000 pounds**, so either the BWB-17 answered to an earlier and lighter reference design or it was not weight-scaled to the vehicle described in the same paper. **The record does not say which**, and this article does not guess.
+
+**The wing area is not stated by any primary source consulted, and one section now depends on it.** The figure of 100.5 square feet comes from a secondary compilation. It enters only through the reference chord $c = S/b$ used to put the Reynolds numbers on an absolute footing, and **the ratio of 40.35 does not depend on it at all**, because the chord cancels between model and full scale. **A reader who distrusts the area should discard the two absolute Reynolds figures and keep everything else**, which is why the ratio and not the absolute value carries the argument.
+
+**The X-48C's moment-arm loss is a sensitivity and not a measurement.** No source consulted publishes the sweep of the outer trailing edge, the spanwise station of the C model's twin tails, or the vertical surface areas of either aeroplane. **The inboard station of 2.5 feet and the tail arm of order ten feet are assumptions**, chosen to be plausible rather than derived, and the tabulated shifts move with them. **What does not move is the sign**, since the geometry admits no reading in which moving a surface inboard on an aft-swept planform lengthens its arm. **The engine-count half of the same argument is exact**, resting only on published thrusts and weights.
 
 **The claim that departure onset does not transfer is an argument from the scaling relations and not a measurement.** No source states a full-scale departure angle of attack for the reference vehicle, so there is nothing to compare the model's limiting angle against. **A quantified Reynolds correction to the limiting angle of attack would settle this and is not attempted**, because the correction depends on the configuration's separation behaviour, which is the unknown in question.
 
@@ -372,11 +522,11 @@ The dates, the flight counts, the two configurations, the builder, the engine fi
 
 ### Verified by Independent Derivation
 
-The scale factor of 0.085000 from the published span and reference span. The Froude ratio table. The time compression of 3.430 and the Reynolds penalty of 40.35. The comparison against the X-36 at 1.815 and 5.979. The ladder of three candidate vehicles and the factor of 2.247 in Reynolds number attributable to the X-48A cancellation. The implied full-scale weight of 854,875 pounds and its ratio of 1.160 against Liebeck's design scaled to the same span. The thrust-to-weight figures of 0.3086 and 0.2245 and their ratio of 1.374.
+The scale factor of 0.085000 from the published span and reference span. The Froude ratio table. The time compression of 3.430 and the Reynolds penalty of 40.35. The comparison against the X-36 at 1.815 and 5.979. The ladder of three candidate vehicles and the factor of 2.247 in Reynolds number attributable to the X-48A cancellation. The implied full-scale weight of 854,875 pounds and its ratio of 1.160 against Liebeck's design scaled to the same span. The thrust-to-weight figures of 0.3086 and 0.2245 and their ratio of 1.374. The asymmetric thrust fractions of 0.10286, 0.17800 and 0.07485 and the ratios of 1.374, 2.378 and 1.731 that follow. The absolute Reynolds numbers of $6.24 \times 10^6$ and $2.52 \times 10^8$ at the stated reference chord. The kinematic viscosity ratio of 1.281 between 10,000 feet and sea level on the standard atmosphere, and the effective penalty of 51.7 that follows. The implied full-scale weights of 914,885 and 1,157,634 pounds at the two non-unity readings of the relative density factor. The full-scale equivalent speed of 404.7 knots. The BWB-17's implied reference span of 283 feet and weight of 555,556 pounds.
 
 ### Analysis
 
-The division of the flight results into Froude-governed conclusions that transfer and Reynolds-governed conclusions that do not. The identification of the disagreement between Liebeck's stated stall progression and the observed roll-off as the disagreement the scale factor predicts. The reading of the engine-out test as conservative because the model is over-thrusted. The geometric argument that moving a vertical surface inboard on a swept planform shortens its moment arm.
+The division of the flight results into Froude-governed conclusions that transfer and Reynolds-governed conclusions that do not. The identification of the disagreement between Liebeck's stated stall progression and the observed roll-off as the disagreement the scale factor predicts. The reading of the engine-out test as conservative because the model is over-thrusted. The geometric argument that moving a vertical surface inboard on a swept planform shortens its moment arm, and the tabulated sensitivity of that shift to an assumed sweep angle. The reading of the X-48C as doubly penalised on its weakest axis, by engine count exactly and by moment arm approximately.
 
 ### Inference
 
