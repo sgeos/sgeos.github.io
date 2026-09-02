@@ -100,9 +100,12 @@ Atmosphere citation that the primary pass recovered resolves on the page.
 
 ## Next
 
-**A345**, editorial date 2025-11-23, series index 49. **This completes the run of four unmanned combat
-aircraft**, so the shared supervisory and carrier vocabulary in the gate library and the sweep store
-has done its work and the next subject may need neither.
+**A345, the Boeing X-48**, editorial date 2025-11-23, series index 49. **It is not a combat aircraft
+and an earlier version of this note said the run continued into it.** The X-48 is Boeing's
+blended-wing-body subscale demonstrator, flown with NASA and Cranfield. **The run of unmanned combat
+aircraft was three articles and ended at A344**, so the supervisory-control and carrier vocabularies
+should not be carried into A345 on the strength of that claim. **`gate.ATMOSPHERE` does carry
+forward**, because it names the medium rather than the aeroplane.
 
 **Two content decisions remain yours and both are on published posts.**
 `_posts/2026-08-06-native_lowering_coverage.markdown` carries two authored caps-emphasis spans at

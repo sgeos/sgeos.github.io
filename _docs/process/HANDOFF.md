@@ -11,22 +11,20 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `78ad91c`
-- **Written**: 2026-08-31
-- **Tree at write**: clean. **Two commits were unpushed at the parent, and this handoff's own commit
-  makes three**, which is what `git log origin/master..HEAD` will show you.
-- **Context**: the X-Planes series is IN PROGRESS. **Forty-six of seventy-two articles drafted. None
+- **Parent commit** (the repository state this handoff describes): `884de81`
+- **Written**: 2026-09-02
+- **Tree at write**: clean, and **everything was pushed at the parent**. **One commit is unpushed when
+  you read this and it is this handoff's own**, which is what `git log origin/master..HEAD` will show.
+- **Context**: the X-Planes series is IN PROGRESS. **Forty-eight of seventy-two articles drafted. None
   published, and none authorised.**
-- **A341, X-44, is complete on all four passes and is PUSHED.** **A342, Boeing X-45, has completed
-  three of four passes and is NOT pushed.** The publication review is the pass that pushes and it has
-  not run.
-- **A342's remaining work is one prompt.** "Please review for publication, and make suitable
-  changes..." with the standing directive quoted. Nothing else is outstanding on it.
-- **Three commits are unpushed when you read this and that is expected.** Two are A342's, which the
-  publication review will push, and the third is this handoff.
-- **Next article after A342 completes is A343, Boeing X-46**, editorial date 2025-11-21, series index
-  47. **The X-46 was cancelled before an airframe was built**, so expect the documentation-poor or
-  anomaly class rather than the full one, and decide from the record.
+- **A344, Northrop Grumman X-47, is complete on all four passes and is PUSHED**, including its
+  rendered audit. **No article is mid-rhythm.** The tree is at a clean article boundary.
+- **The next prompt will be "Please draft A345, 'X-Planes: Boeing X-48.'"** Editorial date 2025-11-23,
+  series index 49.
+- **The X-48 is NOT a combat aircraft and an earlier version of this file said it was.** It is
+  Boeing's blended-wing-body subscale demonstrator, flown with NASA and Cranfield. **The run of
+  unmanned combat aircraft was three articles and it ended at A344**, being the X-45, the X-46 and the
+  X-47. Do not carry the supervisory-control anchor family into A345 on the strength of the old claim.
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
 and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -44,64 +42,74 @@ described.
 
 ---
 
-## Resume prompt, and the next prompt will be "Please review A342 for publication."
+## Resume prompt, and the next prompt will be "Please draft A345, the Boeing X-48."
 
-**A342 is three passes in and not pushed. Wait for the pilot's prompt. Do not begin the publication
-review unprompted, and do not push before it.**
+**No article is mid-rhythm. Wait for the pilot's prompt and do not start A345 unprompted.**
 
 **THE PILOT MAY HAND YOU AN EXTERNAL DRAFT INSTEAD, AS HAPPENED WITH A372 AND A373.** The prompt is
 "copy `<path>` into the drafts, and use it as the basis for an article Axxx with a `<date>` editorial
 publication date". Those arrive already stamped with their article number, series and index, and the
 work is conformance and retargeting rather than writing. **They still take all four passes afterwards.**
 
-**A342'S PUBLICATION REVIEW HAS A KNOWN TARGET AND YOU SHOULD GO TO IT FIRST.** A340's and A341's
-publication reviews both found the same thing, which is that **the survey under-covered the subjects of
-the article's own CONCLUSIONS**. The first three passes harvest for what the article is about. **Probe
-the survey with the article's RESULTS instead**, and for A342 that means the fan-out ratio's
-consequences, the payload-fraction finding, the latency coupling and the crosswind comparison
-inherited from A341. **Two of A341's three such probes closed with a harvest and the third could not
-be surveyed at all**, and reporting which is which is the deliverable.
+**A345 IS A CHANGE OF SUBJECT AND THE TOOLING SHOULD CHANGE WITH IT.** The last three articles were
+unmanned combat aircraft and shared a gate carrying a supervisory-control anchor family, a carrier and
+deck family, and a relative-navigation family. **The X-48 is an aerodynamics and flight-dynamics
+research vehicle**, so copy the SHAPE of `tmp/a344/gate_and_cluster.py` and not its anchors. The
+`_lib/gate.py` header records what copying a gate between subjects costs, twice, in opposite
+directions.
 
-**A342 ALSO CARRIES THREE SUBJECTS ALREADY KNOWN TO BE THIN AND ALREADY DIAGNOSED.** Scaling laws at
-11 records is a textbook subject and is cited to books. Neglect and interaction time at 47 is thin in
-vocabulary while the concepts are covered at 246 and 220 elsewhere. Manpower at 48 is defence analysis
-not published where a sweep reaches. **Do not re-harvest these. They are diagnosed and recorded.**
+**WHAT DOES CARRY FORWARD IS `gate.ATMOSPHERE`**, named explicitly rather than copied, because it
+describes the medium rather than the aeroplane. **Three consecutive articles displayed a relation that
+uses the standard atmosphere and two of them harvested zero records about it**, because A341 fixed its
+own gate and nothing else. Name it in A345's gate at the outset.
 
-**CHECK YOUR OWN PROSE FOR CAPS-EMPHASIS SPANS BEFORE YOU FINISH.** The 2026-08-14 audit cleared nine
-of them from the corpus, and **I reintroduced the class three times across A341 and A342**, once per
-pass, every time in newly written Source Base text. It is now the most reliable defect I produce.
-Scan for three or more consecutive all-capitals words in authored prose, excluding acronym lists.
+**THE PUBLICATION REVIEW HAS A KNOWN TARGET AND IT HAS FOUND SOMETHING FIVE TIMES RUNNING.** A340
+through A344 all found the survey under-covering the subjects of the article's own CONCLUSIONS,
+because the first three passes harvest for what the article is ABOUT. **Probe with the article's
+RESULTS.** A344 measured six of seven such subjects thin and closed one.
+
+**BROADEN A SUBJECT BEFORE CALLING IT THIN, AND DO NOT OVER-CORRECT EITHER.** Three passes running
+produced an instrument failure rather than a pool gap, and one pass then over-corrected and assumed
+two real gaps were artefacts. **Use `survey.loose("arresting gear")` when a term is a compound
+technical noun**, since the third failure was a single hyphen.
+
+**CHECK YOUR OWN PROSE FOR CAPS-EMPHASIS SPANS AND FOR PUNCTUATION BEFORE YOU FINISH.** The
+caps-emphasis class was reintroduced three times across A341 and A342 and has been clean since, and
+A344's publication review introduced two semicolons and a colon into new Source Base prose. **Both are
+defects I produce in newly written prose and nowhere else.** The corrected caps instrument allows
+single-letter words inside a run.
 
 ## Where the Series Stands
 
 Seventy-two articles, A297 through A368, back-dated one per day from 2025-10-06 to 2025-12-16,
 covering every X-designation from X-1 through X-76.
 
-**Forty-six drafted.** A297 through A341 have all four passes each and are pushed. **A342 has three of
-four and is not pushed.** All in `_drafts/`, **none published**.
+**Forty-eight drafted.** A297 through A344 have all four passes each and are pushed. All in
+`_drafts/`, **none published**.
 
 | Article | Aircraft | Class | Final state |
 |---|---|---|---|
-| A338 | X-41 Common Aero Vehicle | **documentation-poor** | 10,179 lines, 30 eq, 4,654 refs |
-| A339 | Orbital Sciences X-42 | full | 21,099 lines, 57 eq, 9,831 refs |
 | A340 | Micro-Craft X-43 Hyper-X | full | 26,249 lines, 30 eq, 12,584 refs |
 | A341 | X-44, two aircraft one number | **documentation-poor** | 28,495 lines, 59 eq, 13,780 refs |
-| A342 | Boeing X-45 | full | 19,673 lines, 20 eq, 9,519 refs, **pass 3 of 4** |
+| A342 | Boeing X-45 | full | 23,670 lines, 20 eq, 11,507 refs |
+| A343 | Boeing X-46 | **documentation-poor** | 17,305 lines, 37 eq, 8,319 refs |
+| A344 | Northrop Grumman X-47 | full | 19,382 lines, 24 eq, 9,392 refs |
 
-**A341 IS THE LARGEST ARTICLE IN THE SERIES AND IT IS A DOCUMENTATION-POOR ONE**, which is the
-directive working rather than an inconsistency. Its subject is two aircraft sharing one number, one of
-which was never built and one of which is classified, and the length came from the surrounding
-literature and from four identities that need no vehicle data at all.
+**LINE COUNTS IN THIS SERIES ARE `len(text.split("\n"))` AND NOT `wc -l`**, which differ by one for a
+file ending in a newline. **A344 was recorded with `wc -l` by mistake and so reads one lower than its
+siblings**, at 19,382 where the other convention gives 19,383. It is not worth re-recording and it is
+worth knowing before you spend ten minutes on it.
 
-**A342 HAS 20 EQUATIONS AGAINST A341's 59 AND THAT IS CORRECT.** A341's keystone is a chain of
-cancellations in compressible flow. A342's is a single relation from human-robot interaction, used
-carefully. **The equation count follows the subject and not the length. Report it and do not target
-it.**
+**THE EQUATION COUNT FOLLOWS THE SUBJECT AND NOT THE LENGTH.** A341's keystone is a chain of
+cancellations in compressible flow and it carries 59. A342's is a single relation from human-robot
+interaction and it carries 20. **Report the count and do not target it.**
 
-**A342's KEYSTONE LITERATURE IS NOT AERONAUTICAL AND THIS WILL RECUR.** The X-45's governing relation
-is fan-out, from human-robot interaction. A343 through A345 are unmanned combat aircraft too, so the
-same second anchor family will be needed. **`tmp/a342/gate_and_cluster.py` carries it and is the file
-to copy the shape of, not the aerospace one.**
+**A343 HAS NO PUBLISHED SPECIFICATION AT ALL AND IS THE ONLY SUCH ARTICLE SO FAR.** The record holds a
+requirement instead of a vehicle, so that article sizes the requirement, which inverts the procedure
+of every other. **A344 then scored its predictions against the aeroplane that actually did the job**,
+and A343's inherited payload fraction failed in exactly the direction A343 had named as its weakest
+assumption. **That pairing is the most useful thing the series has produced about its own method**, and
+a later article that can score an earlier one should.
 
 Read `_drafts/draft_summary.md` for per-article detail rather than re-deriving it.
 
@@ -135,6 +143,77 @@ band.
 ---
 
 ## Method Rules Earned the Hard Way
+
+### Earned in A343 and A344, and the first three are about the instruments rather than the subject
+
+**A SUBJECT CORRECTLY ABSENT IN ONE PASS CAN BE MADE LOAD-BEARING BY THE NEXT, AND NOTHING RE-CHECKS
+IT.** A344's draft pass recorded an atmosphere cluster of two records as correct, because that article
+computed no altitude condition, and wrote that judgement into the process files. **The equation pass
+then added a fuel table at Mach 0.75 and 40,000 feet**, which needs the standard atmosphere to become
+a true airspeed, and neither the step nor the citation was there. **The four-pass rhythm has no step
+that re-asks whether an absent subject has become load-bearing.** The audit at the head of the primary
+pass is the only thing that catches it, and only if the subject is in its list.
+
+**A PER-ARTICLE GATE FIX FIXES NOTHING FOR ANYBODY ELSE.** A341's gate refused `U.S. Standard
+Atmosphere, 1976`, one of its own foundational sources, readmitted it by name and recorded the defect.
+A342 then used the standard atmosphere for its engine model and harvested **zero** records about it,
+and A343 displayed the relation and also harvested zero. **A subject nobody searched for returns no
+records, and an absent cluster looks exactly like an absent literature**, so there is no signal to
+notice. The vocabulary is now `gate.ATMOSPHERE` and is named rather than copied.
+
+**AN AUDIT PATTERN IS NOT A GATE AND NORMALISES NOTHING.** `gate.py` normalises typographic dashes so
+no subject gate fails on the shape of a dash. **A344's audit asked for `arresting gear` with a space
+while the literature writes `ARRESTING-GEAR CABLE`**, and the subject measured 4 records where the pool
+held 12, and 40 where it held 72, with nothing harvested between. **Use `survey.loose` for compound
+technical nouns.**
+
+**A CHECKER THAT FIRES ON ALMOST EVERYTHING IS THE PERMISSIVE-GATE FAILURE WEARING DIFFERENT CLOTHES.**
+A diagnostic was built for the hyphen problem, flagging every literal space a hyphen could defeat. Run
+over one article's twelve audit subjects **it flagged eleven**, including `span of control` and `probe
+and drogue`, which nobody hyphenates. **It was measured and abandoned in favour of a builder**, and
+the refusal is recorded in the docstring because it is the more useful half. **Making the right thing
+easy beats warning about the wrong one.**
+
+**A RECORD THE GATE ADMITS IS NOT A RECORD ABOUT THE SUBJECT.** The gate admits on any anchor while an
+audit measures one, so a large admitted count is not evidence of coverage. A344's publication review
+saw 1,139 records returned and 648 admitted for a subject that measured 10. **Volume arrives and
+coverage does not**, and the reflex that a thin measurement means a narrow pattern is right often
+enough to be dangerous.
+
+**A BEFORE AND AN AFTER MEASURED WITH DIFFERENT INSTRUMENTS ARE NOT A COMPARISON.** When a pattern is
+corrected mid-pass, re-measure both columns with the corrected one and print all four numbers.
+
+**A PRESENCE CHECK GOES GREEN PRECISELY WHEN A NUMBER GOES STALE.** A342 shipped a survey paragraph
+wrong in all six of its statistics past a verifier that confirmed the string was still there.
+**Recompute every stated statistic from the data**, which is what `_lib/survey.py` exists for, and use
+presence only for words. A spelled-out number is still a number and needs a word-to-integer parser.
+
+**A PATTERN THAT WAS UNAMBIGUOUS WHEN WRITTEN STOPS BEING SO WHEN THE ARTICLE GROWS.** A344's verifier
+matched its arrestment table by a regular expression that became ambiguous the moment the equation
+pass added a hook-load table beginning with the same cells. **A verifier that parses the article is
+better than one carrying its own copy of a value, and it still needs re-reading when the article
+changes.**
+
+**AN ARTICLE'S OWN ARGUMENT CAN BE OUT OF SCOPE FOR ITS OWN GATE, AND THAT IS CORRECT.** A343's claim
+about a requirement standing in for a measurement belongs to information science, and A344's claims
+about which constraint is active and how estimates compare to outcomes belong to design methodology.
+**An aeronautical gate refuses both correctly**, and a gate that admitted them would be the wrong gate
+for the rest of the article. **Say so in the Source Base and let the claim stand on the arithmetic.**
+
+**DIMENSIONAL REASONING CAN SETTLE A READING THE RECORD LEAVES OPEN.** A344's draft printed two
+readings of an arrested landing and said the record does not choose. **A stopping distance measured
+aboard a ship is a deck distance and must pair with a deck-relative speed**, and the aeroplane's own
+wing loading made one reading of the quoted speed implausible. **Print both, say which is better and
+why, and do not pretend a document settled it.**
+
+**REMOVING GATE ESCAPES IS SAFE ONLY INSIDE A PASS THAT REGENERATES EVERY COUNT.** A survey states its
+own counts in prose, so deleting a record otherwise desynchronises the article from its data. **In
+that one window it is safe**, and the anchors the argument cites must be protected by name.
+
+**A LATER ARTICLE CAN SCORE AN EARLIER ONE AND SHOULD.** A343 sized a requirement with no aeroplane to
+measure and named its weakest assumption. A344 had the aeroplane, and that assumption failed in
+exactly the named direction. **A prediction recorded with its own weakest link is worth more than one
+recorded without, precisely because the next article can grade it.**
 
 ### Earned in A341 and A342, and the most transferable of them is the first
 
@@ -1355,14 +1434,16 @@ FOUR ARTICLES.** After every equation pass, scan for lines that open with `$$` a
 describing each module: `fetch` for archive queries, `refs` for anchors and the reference block, `edits`
 for guarded editing, `reflow`, `lint`, `diction` for word and phrase overuse, `audit` for equation and
 citation gaps, `numcheck` for independent re-derivation, and `citations` for registry verification. Run
-`python3 _lib/test_lib.py`, which should report **75 of 75**. **`refs.clean` gained a bare-pipe strip on
+`python3 _lib/test_lib.py`, which should report **89 of 89**. **`refs.clean` gained a bare-pipe strip on
 2026-08-12**, because kramdown reads a paragraph whose first line contains a pipe as a table and a
 publisher-mangled apostrophe entity put one into link text. **Three modules were added on
 2026-08-11**, being `gate` for subject-anchor gating with a mandatory two-sided sample, `render` for
 auditing BUILT HTML, and `resolve` for identifier resolution. `_research/rejected.json` holds the accumulated
-sweep judgements, reused through `_research/homonyms.py`, **whose curated pattern list is now 35 and
-whose store holds 728 per-record rejections.** A334 and A335 between them added eleven families,
-listed in the homonym table above with the incident that produced each.
+sweep judgements, reused through `_research/homonyms.py`, **whose curated pattern list is now 88 and
+whose store holds 728 per-record rejections.** A334 and A335 between them added eleven families, and
+A342's publication review added six more, all consequences of the word `unmanned` except the
+semiconductor sense of `fan-out`, whose discriminating words are in the CONTAINER rather than the
+title. Each is listed in the homonym table above with the incident that produced it.
 
 **`tmp/*` IS GITIGNORED**, and what belongs there is the article's own payload only, meaning harvest
 queries, cluster definitions and edit text. **Repoint every path** when copying a previous article's
@@ -1384,6 +1465,18 @@ previous subject.
 | `citations` | Crossref registry verification for recalled identifiers, sampling for retrieved ones |
 | `gate` | subject-anchor gating for a harvested corpus. **`audit` samples BOTH the kept and dropped sides and requires a seed**, because a narrow gate reports a small corpus and a permissive one reports a large corpus, and no summary statistic tells them apart |
 | `render` | audit of **BUILT HTML**, the only check that sees what a reader sees. Math balance by backslash-run parity |
+| `survey` | recomputes every statistic an article states about its own reference survey, since **a presence check goes green precisely when a number goes stale**. Carries `words_to_int`, because a spelled-out number is still a number, and `loose` for compound technical nouns a hyphen would otherwise defeat |
+
+**Three additions to existing modules are easy to miss.** `gate.ATMOSPHERE` is a shared vocabulary
+naming the medium rather than any aeroplane, and an article's gate must NAME it rather than copy it.
+`gate.normalise` folds typographic dashes and quotes so no gate fails on the shape of a dash.
+`refs.decap` normalises a shouted title while preserving initialisms, deciding on the whole string
+first because `IFAC` and `ON` are the same length.
+
+**`_verify.py` gained two checks on 2026-09-01.** `math-display-inlined` catches a display equation
+sharing a source line with prose, and `survey-row-count` holds a cluster row's stated count against
+the citations on that row. **`_verify.py` runs its whole battery over DRAFTS downgraded to warnings**,
+which is why promoting the first was worth doing and where both of its incidents had happened.
 | `resolve` | whether an identifier resolves at all, with registry fallback. **Different question from `citations` and neither subsumes the other** |
 
 **Per article, in gitignored `tmp/`.** Harvest queries, cluster definitions, the physics in `calc.py`,
@@ -1464,23 +1557,34 @@ catches the second on the real tree anyway.
 what happened for A341 and A342, or more often. **The agent will continue with the stub build per pass
 and the full build at publication absent instruction.**
 
-### Whether `math-display-inlined` should become a CI gate
+### RESOLVED on 2026-09-01, and the reason it was promoted is not the one expected
 
-**It is currently a `lint.py` defect and not in `_verify.py`.** It catches a display equation sharing a
-source line with prose, which renders as inline math and which `render.py` structurally cannot see.
-**It was measured across the whole corpus at zero findings before promotion to a defect, and it has now
-caught the same error in two consecutive articles.**
+**`math-display-inlined` is now a `_verify.py` check and no longer only a `lint.py` defect.** The
+deciding fact was not the incident count. It was that **`_verify.py` runs its whole battery over
+DRAFTS, downgraded to warnings**, so promotion makes it a hard error on published posts and a visible
+warning on drafts. **Both incidents that motivated it happened in drafts**, so a posts-only gate would
+have guarded the wrong half of the workflow.
 
-**The case for promoting it** is that the defect reaches a rendered page, no other gate can see it, and
-the corpus is clean of it. **The case against** is that `_verify.py` is the CI gate on the deploy path
-and must run standalone on a bare runner, so promotion means duplicating the logic rather than
-importing it. **About ten lines. The agent did not promote it unasked.**
+Measured at promotion at zero across the 174 posts and 47 drafts that then enabled MathJax, and it
+costs 0.75 seconds of the gate's 20 seconds of processor time. **The draft figure is 49 now**, since
+A343 and A344 both enable it. **It has since fired in A343 and again in A344**, which makes
+four consecutive articles in which the equation pass produced this defect.
 
-### The caps defect on a live page
+`survey-row-count` was promoted alongside it, holding a cluster row's stated count against the
+citations on that row. **It guards a different failure from the one that motivated it** and the code
+says so.
 
-`_posts/2026-08-06-native_lowering_coverage.markdown` line 1306 reads `to ADD TO A COMPLETE MACHINE for
-speed`. **A one-word prose fix with no URL consequence, on a published page.** It has been carried
-since 2026-08-14 and the agent has not touched it, because the page is live and outward facing.
+### The caps defect on a live page, and it is two spans rather than one
+
+`_posts/2026-08-06-native_lowering_coverage.markdown` carries **two** authored caps-emphasis spans, at
+line 879 reading `worthless FOR THE INSTRUCTION CLASS PROPOSED` and line 1306 reading `to ADD TO A
+COMPLETE MACHINE for speed`. **The file was reported as carrying one for weeks**, because the scan
+used to find it could not see a run containing a single-letter word.
+
+**Thirteen published posts also carry 1,045 shouted citation titles**, 1,030 of them in the five
+compiler articles of 2026-08-06 to 2026-08-10. `refs.decap` now prevents new ones at generation and
+repairs none of these. **Both are content edits on published pages with no URL consequence, and the
+agent has not touched them.**
 
 ### Still open from before, unchanged
 
