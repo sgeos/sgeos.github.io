@@ -73,6 +73,11 @@ NOISE_PATTERNS = [
                                      "aircraft and also a SINKING MARINE MICROFOSSIL, in "
                                      "'Estimation of sinking velocities using free-falling "
                                      "dynamically scaled models: foraminifera as a test case'"),
+    (r"hydraulic jump|stilling basin|\bspillway\b|open[- ]channel flow",
+     "A345: the Froude number is an aeroplane at matched dynamics and also the "
+     "OPEN-CHANNEL HYDRAULICS of a hydraulic jump, which is where most of the "
+     "Froude literature actually lives. Two escaped an aeronautical gate on "
+     "'scale effects' plus 'air'"),
     (r"\bheliostat\b", "A345: 'wind tunnel test of a full-scale heliostat' is SOLAR "
                        "ENERGY, admitted on the wind tunnel alone"),
     (r"ion cyclotron|mass spectrometr|mass spectroscop",

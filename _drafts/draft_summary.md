@@ -22,8 +22,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_boeing_x48.markdown`, A345, editorial date 2025-11-23, series `x_planes` index
 49 of 72.
 
-**12,936 lines, 35 display equations, 6,183 reference definitions, 71,294 words after the
-equation-density review**, of which 7,725 are author prose. **Two of four passes complete.** Committed and **NOT
+**15,615 lines, 36 display equations, 7,484 reference definitions, 86,673 words after the
+primary-reference review**, of which 9,333 are author prose. **Three of four passes complete.**
+Report primaries **1,311 of 7,416, being 17.7 percent**, from 796 of 6,114 at 13.0. Committed and **NOT
 pushed**. **Not published**, and publication of the series has never been authorised.
 **Full-aircraft class.**
 
@@ -42,6 +43,21 @@ article divides the programme's own objectives into what transfers and what does
 **THE DEMONSTRATION IS TILTED AND THE DIRECTION IS COMPUTED.** Froude scaling makes thrust to weight
 invariant, the model carries 0.3086 against 0.2245, so it is over-thrusted by 1.374 and **its
 engine-out test is conservative**, the opposite of A332's tilt.
+
+**THE PRIMARY PASS FOUND A SOURCE THAT CONTRADICTED THE DRAFT AND THE ARTICLE CHANGED.** NASA's
+ground-to-flight correlation update plots the programme's tests on scale against chord Reynolds
+number and **they fill the plane up to the National Transonic Facility**, so the flight vehicle was
+never asked to carry the Reynolds half alone. **The programme's own poor comparison is support
+interference on pitching moment**, not the stall. New facts recovered include stalls to **24 degrees
+slats extended and 14 retracted** and departure limiter assaults described as highly successful.
+
+**VISCOSITY MEASURED ZERO AND STAYED THERE**, which is the fourth kind of thin. 421 harvested records
+mention viscosity and the gate admits 14, the rest being lubricating oil and Saybolt tables. **A
+bibliographic sweep is the wrong instrument for a constant settled in 1893**, so nine primaries are
+now cited by identifier.
+
+**133 REPORT PRIMARIES WERE COUNTED AS SECONDARY** because primacy was inherited from whichever sweep
+found the record rather than derived from its identifier.
 
 **THE EQUATION PASS FOUND THREE RESULTS RATHER THAN FORMALISING THE OLD ONES.** The standard
 atmosphere makes the Reynolds penalty worse, 40.35 becoming **51.7** for a model at its ceiling
