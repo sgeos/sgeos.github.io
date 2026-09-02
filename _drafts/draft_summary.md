@@ -22,10 +22,26 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_northrop_grumman_x47.markdown`, A344, editorial date 2025-11-22, series `x_planes` index
 48 of 72.
 
-**9,081 lines, 23 display equations, 4,269 reference definitions, 49,841 words after the
-equation-density pass**, of which 6,686 are author prose, a dilution factor of 7.5. **Two of four
+**16,139 lines, 24 display equations, 7,780 reference definitions, 86,323 words after the
+primary-reference pass**, of which 7,556 are author prose, a dilution factor of 11.4. **Three of four
 passes complete.** Committed and **NOT PUSHED**. **Full-aircraft class**, and the first article in
 four with a flight test record worth tabulating.
+
+**THE EQUATION PASS PROMOTED THIRTEEN RELATIONS AND THE REFERENCE BASE HAD NOT FOLLOWED**, nine of
+twelve subjects measuring thin. Cruise performance went 3 to 130 while the article displays the
+Breguet relation, and maximum lift on a tailless planform 5 to 92 while the whole resolution of the
+arrestment speed rests on what a tailless maximum lift coefficient plausibly is.
+
+**THE SAME INSTRUMENT ERROR A THIRD TIME, AND THIS TIME A HYPHEN.** The arresting gear pattern asked
+for `arresting gear` with a space while the literature writes `ARRESTING-GEAR CABLE`. On the original
+pattern the subject measured 4 and 40; **on one admitting the hyphen the same pools measure 12 and 72
+with nothing harvested between**. The article prints all four numbers, because **a before and an after
+measured with different instruments are not a comparison**.
+
+**A SUBJECT BECAME LOAD-BEARING BETWEEN PASSES AND NOTHING RE-CHECKED IT.** The draft pass recorded an
+atmosphere cluster of two records as correct because that article computed no altitude condition. The
+equation pass then added a fuel table at Mach 0.75 and 40,000 feet. **The four-pass rhythm has no step
+that re-asks whether an absent subject has become load-bearing.**
 
 **THE EQUATION PASS SETTLED A QUESTION THE DRAFT LEFT OPEN.** The draft printed two readings of the
 arrested landing and said the record does not choose. **A stopping distance measured aboard a ship is

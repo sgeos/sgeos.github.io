@@ -1,101 +1,112 @@
 ## Last Updated
 
 **Date**: 2026-09-01
-**Task**: **A344 equation-density review, the second of four passes.** Committed, **not pushed**.
+**Task**: **A344 primary-reference review, the third of four passes.** Committed, **not pushed**.
 Nothing published and publication still not authorised.
 
 ---
 
-## Ten Display Equations to Twenty-Three, and the Pass Settled a Question the Draft Left Open
+## The Equation Pass Promoted Thirteen Relations and the Reference Base Had Not Followed
 
-**The draft printed two readings of the arrested landing and said the record does not choose.** Working
-the relations through closes it, and the argument is dimensional rather than documentary.
+**Nine of twelve subjects measured thin.** The equation pass predicted the arresting gear would be the
+gap, and it was, for a machine whose deceleration, hook load and absorbed energy the article computes.
+**It did not predict the two worse ones.**
 
-**A stopping distance measured aboard a ship is a deck distance**, so it must pair with a speed
-relative to that deck. Pairing a deck distance with an airspeed mixes two reference frames, which is
-what the draft's first row did.
+| subject | before | after |
+|---|---|---|
+| cruise performance and the range equation | 3 | **130** |
+| maximum lift on a tailless planform | 5 | **92** |
+| deck motion and its prediction | 30 | 121 |
+| the arresting gear as a machine | 12 | 72 |
+| landing gear loads and sink rate | 14 | 61 |
+| catapult launch | 48 | 60 |
+| autonomous aerial refuelling | 45 | 56 |
+| supervisory control | 28 | 46 |
+| wing loading and thrust loading | 13 | 38 |
 
-**The aeroplane's own wing then says which figure the quoted 145 knots is.** Reading it as a stalling
-speed demands
-
-$$C_{L,\max} = \frac{2 (W/S)}{\rho V^{2}} = 0.617$$
-
-**which is too low even for a tailless planform.** Reading it as an approach airspeed gives 1.14 times
-the stall at a maximum lift coefficient of 0.8, which is an ordinary carrier approach margin. **So the
-engagement was slower than 145 knots and the deceleration is nearer 1.8 g than 2.7.**
-
-**Both rows are still printed**, because the wind over the deck that day is not recorded and an
-argument that fixes a reading is weaker than a document that states one. **Three places in the article
-that said the question was open now say it is settled by argument**, being the framing section, the
-epistemic state and the analysis.
-
----
-
-## The Guard Fired for the Fourth Consecutive Article
-
-**`math-display-inlined` caught one defect and it was mine again.** A replacement ending in a display
-equation left the paragraph's remaining prose on the same source line. **A341 shipped this into a
-build, A342 was caught by the workbench, A343 by the gate, and A344 by the gate.** Source pairs and
-complete-line equations now agree at 23.
-
-**A rounding defect was also caught.** The descent rate at three degrees and 145 knots was written 769
-where the computation gives 768.4977, which rounds to 768. **That is the second article running in
-which a table I wrote failed to round from its own arithmetic.**
-
-**And the verifier broke itself by growing.** The arrestment table was matched by a regular expression
-that became ambiguous when the equation pass added a hook-load table beginning with the same `| 145
-kn |`. **A pattern that was unambiguous when written stopped being so when the article grew**, and it
-now keys on words only the arrestment rows carry.
+**Cruise performance measured three records while the article displays the Breguet relation**, and
+maximum lift measured five while the whole resolution of the arrestment speed rests on what a tailless
+maximum lift coefficient plausibly is.
 
 ---
 
-## What Was Added
+## The Same Instrument Error a Third Time, and This Time It Was a Hyphen
 
-**The relation the keystone rests on and never showed.** Differential positioning is now written out,
-with the range equation carrying a satellite clock offset and ionospheric and tropospheric delays, and
-the between-receiver difference cancelling the clock error exactly and the atmosphere very nearly.
-**What is left is the vector between the two receivers**, which is the quantity the deck problem needs.
+**The arresting gear pattern asked for `arresting gear` with a space.** The literature writes
+`ARRESTING-GEAR CABLE`, `ARRESTING SYSTEM` and `arresting hook`.
 
-**The descent rate**, which the structure section named and did not compute. It is the approach speed
-and the glide slope multiplied, giving 636 to 1,024 feet per minute, against two to three hundred for
-an airliner. **A carrier undercarriage is a different component with the same name.**
+**On the original pattern the subject measured 4 records before the harvest and 40 after it. On a
+pattern admitting the hyphen the same two pools measure 12 and 72**, and nothing was harvested between
+those readings.
 
-**The hook load**, which the prose asserted and did not compute, at 339 to 496 kilonewtons applied at
-a single point at the tail. **The deck runs 36.8 metres under the aeroplane while it stops.**
+**`_lib/gate.py` normalises typographic dashes precisely because this class recurs, and an audit
+pattern is not a gate and normalises nothing.** The article now uses the corrected pattern for both
+columns, because a before and an after measured with different instruments are not a comparison, and
+it prints all four numbers so a reader can see the correction.
 
-**The fuel volume argument for the wing**, which the draft named as a candidate and left untested. The
-published range costs between 3,706 and 4,625 kilograms at plausible lift to drag ratios, **which is a
-large volume to put in a wing this aeroplane has and a fuselage it barely has.** The test is not
-conclusive because a published range figure may be a radius.
-
-**Also the wing loading where it is first used rather than eighty lines later, the time to rest, the
-wind over deck relation, the two ratios between the aircraft, the prediction ratio and the six percent
-disagreement between sources.**
+**This is the third instrument failure in three passes.** A343's primary pass wrote a pattern in the
+article's words and measured 9 where the pool held 96. A343's publication review then over-corrected,
+assuming two thin subjects must be artefacts when they were real. **The failure mode alternates
+direction and does not go away.**
 
 ---
 
-## The Promoted-Subjects Rule Fired
+## A Subject Became Load-Bearing Between Passes and Nothing Re-Checked It
 
-**Seventeen of twenty-three equation paragraphs carry no citation in their window.** Most are
-arithmetic on cited values and legitimately need none. **The differential positioning relation is
-cited to a standard text and the sizing relations to the design texts**, which were the ones that
-needed it. **The remaining gap is the arresting gear as a machine**, whose deceleration this article
-computes and whose literature it does not yet carry. Recorded rather than closed, per precedent, since
-the reference base is the third pass's work.
+**The draft pass recorded an atmosphere cluster of two records as CORRECT**, because that article
+computed no altitude condition, and said so in the process files.
+
+**The equation pass then added a fuel table at Mach 0.75 and 40,000 feet**, which needs the standard
+atmosphere to become a true airspeed. **That step was not shown and the source was not cited.** Both
+are now fixed, the U.S. Standard Atmosphere of 1976 is cited beside the relation, and the cluster
+holds 213 records.
+
+**A subject that is correctly absent in one pass can be made load-bearing by the next, and the
+four-pass rhythm has no step that re-asks the question.** The audit at the head of this pass is the
+only thing that would have caught it, and it caught it only because the atmosphere was in its list.
+
+---
+
+## Counts and Fractions Across Three Stages
+
+**The pool went 4,205, to 6,720 after a harvest aimed at the promoted subjects, to 7,716 after a
+supplementary one.** Report primaries went **684 to 1,217 to 1,364**, or 16.3 percent, then 18.1, then
+**17.7**. Fitted primaries, on a definition that adds the AIAA, SAE, IEEE and ACM venues, went **2,352
+of 4,205 at 55.9 percent, to 3,923 of 6,720 at 58.4, to 4,481 of 7,716 at 58.1**.
+
+**IEEE matters here in a way it did not in earlier articles**, because satellite navigation and
+relative positioning are published there rather than in aeronautical journals.
+
+**Records from 2015 or later rose 1,696 to 2,915 in count while falling 43.2 percent to 40.2 in
+share**, and records predating 2000 went 979 to **2,214**. **The arresting gear literature is largely
+of the 1950s and 1960s**, which is when the machine was designed and it has not fundamentally changed.
+
+---
+
+## Three Subjects Remain Thin, Each for a Different Reason
+
+**Wing loading returns 38 because the phrase is rare while the design-point literature it belongs to
+holds 338**, so the thinness is in the vocabulary.
+
+**Autonomous aerial refuelling returns 56 because it is a genuinely modest literature**, and this
+article mentions the achievement rather than arguing from it.
+
+**Supervisory control returns 46 and is not load-bearing here at all**, because the article explicitly
+declines to compute a fan-out for a vehicle demonstrated one at a time.
 
 ---
 
 ## State
 
-**A344 is committed and not pushed. Two of four passes complete.** **9,081 lines, 23 display
-equations, 4,269 reference definitions, 49,841 words**, of which 6,686 are author prose. **References
-held at 4,269 and measured before and after**, since an equation pass adds no sources.
+**A344 is committed and not pushed. Three of four passes complete.** **16,139 lines, 24 display
+equations, 7,780 reference definitions, 86,323 words**, of which 7,556 are author prose. **One
+equation was added in this pass**, being the atmosphere step the fuel table needed.
 
 `_verify.py` zero errors and zero warnings, `lint.py` **zero defects and zero conventions**, reference
-integrity zero undefined, zero orphaned, zero duplicate URLs, **all numerical checks passing** with
-every table row parsed out of the finished article, every cluster row checked by `_lib/survey.py`,
-zero caps-emphasis spans on the corrected instrument, and zero contractions, colons, semicolons,
-dashes or parentheticals in prose.
+integrity zero undefined, zero orphaned, zero duplicate URLs, all numerical checks passing, **every
+survey statistic and every audit row recomputed from the reference data**, 300 of 300 sampled Crossref
+identifiers registered and **85 of 85 NASA identifiers resolved** with zero title mismatches, zero
+caps-emphasis spans, and zero contractions, colons, semicolons, dashes or parentheticals in prose.
 
 **Forty-eight of seventy-two drafted, none published, publication never authorised.**
 
@@ -103,9 +114,10 @@ dashes or parentheticals in prose.
 
 ## Next
 
-**The primary-reference review of A344 on your prompt**, which is the third of four passes. **The
-arresting gear and the satellite navigation literature are the two subjects the equation pass
-promoted** and the audit should expect both to be thin.
+**The publication review of A344 on your prompt**, which is the fourth pass and the one that pushes.
+**Its known target is the survey against the article's own conclusions**, which A340 through A343 all
+found, and for this article that means the precision the deck demands, the verdict on A343's
+predictions, and the claim that the approach constraint did not size the wing.
 
 **Two content decisions remain yours and both are on published posts.**
 `_posts/2026-08-06-native_lowering_coverage.markdown` carries two authored caps-emphasis spans at
