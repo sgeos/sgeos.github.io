@@ -41,8 +41,9 @@ python3 _verify.py --strict  # treat warnings as errors too
 
 Checks date collisions, filename versus front matter dates, UTC offsets, reference integrity,
 link-definition ordering, duplicate article numbers, shadowed first categories, math validity,
-prose style, word-frequency outliers, display equations demoted to inline math, and survey cluster
-rows against their own citation counts. Every check exists because that defect actually
+prose style, word-frequency outliers, display equations demoted to inline math, survey cluster
+rows against their own citation counts, and the drafted count a resume channel states against the
+drafts actually on disk. Every check exists because that defect actually
 shipped. Citation and URL verification needs the network and lives separately.
 
 **Drafts run the whole battery downgraded to warnings**, so a draft never fails the build while its

@@ -1,8 +1,73 @@
 ## Last Updated
 
-**Date**: 2026-09-01
-**Task**: **A344 publication review, the fourth and last of four passes.** Committed and **pushed**.
+**Date**: 2026-09-02
+**Task**: **Process and tooling pass, taken at pilot discretion. No article content changed.**
 **Not published**, and publication of the series still not authorised.
+
+---
+
+## A Resume Channel Contradicted Itself and the Warning Against That Was in the Same Block
+
+**The Current Task block in `TASKLOG.md` stated two different drafted counts on consecutive lines**,
+forty-eight and forty-seven, the second left behind by an edit that added the corrected figure without
+removing its predecessor. It separately named A342 as the last article with all four passes complete,
+when A343 and A344 were both finished and pushed.
+
+**Eleven lines below the contradiction sat a paragraph saying this block has gone self-contradictory
+six times and that a resume channel disagreeing with itself is worse than one merely out of date.**
+That is the finding rather than an irony. **A warning addressed to a reader does not prevent a defect
+introduced by an editor**, because they are not the same audience and the editor need not have read
+the paragraph.
+
+**Measured from disk before anything was changed**: 48 drafts carry `series: x_planes`, their indices
+run 1 through 48 with no gaps, and 0 are published. Forty-eight was the correct claim.
+
+---
+
+## The Count Was Derivable All Along, So It Is Now Computed
+
+**`_lib/progress.py`** counts the drafts of a series on disk and compares that to what the channels
+claim. This is `survey.py`'s rule moved from an article to a process file: **a presence check asking
+whether a file still says what it used to say goes green precisely when a number goes stale.**
+
+**Two findings, kept separate because their causes and fixes differ.** `progress-stale` means a pass
+did not update the channel. `progress-contradiction` means one edit left its predecessor standing, and
+**comparing a single claim against the truth cannot catch that when one of the two claims is correct.**
+
+**Wired into `_verify.py` as a warning rather than an error**, because the defect misdirects a
+resuming agent rather than a reader and nothing reaches the built site.
+
+**`HANDOFF.md` is deliberately excluded.** It is a snapshot that goes stale by design between
+refreshes and self-reports staleness by a commit comparison, so a count check would fire on it every
+time an article is drafted. **That is the permissive-checker failure recorded here the day before.**
+
+---
+
+## My First Pattern Was the Sloppy Kind This Project Keeps Catching
+
+**`\d[\d,]*` for the number absorbed a trailing comma**, so `A297 through A344, drafted with all four
+passes` read as a count. It matched **22 spans across `TASKLOG.md`**. Tightened to a real thousands
+separator it matches **4**.
+
+**The four surviving matches are why the check is scoped to one block rather than a whole file.** Two
+are history entries stating a count that was correct on its own date. **One is `X-19 drafted`**, where
+an aircraft designation ends in digits that read as a count, a shape appearing on nearly every history
+line of a series covering X-1 through X-76.
+
+**The check was proved to fire before it was trusted.** The contradiction was reintroduced and
+`progress-contradiction` confirmed, because a green run after a repair is also exactly what a dead
+check looks like.
+
+**`HANDOFF.md` was re-stamped to parent `e5cdaa6` rather than left to go stale**, since its content
+remained accurate and staleness would have cost a resuming agent its fallback for nothing.
+
+**Verification**: `_verify.py` **0 errors and 0 warnings** with the new check live, `_lib` tests **94
+of 94** from 89, all four claim shapes exercised including the two that must not match, and every
+touched file byte-compiles with warnings as errors.
+
+---
+
+## The Sections Below Report A344 and Remain Current, Since No Article Work Has Happened Since
 
 ---
 

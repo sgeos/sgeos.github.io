@@ -417,3 +417,28 @@ produced both a false alarm and a false all-clear from the same data.**
 letters within a run of three or more capitalised tokens keeps `A B C` quiet and catches the real case.
 Now `lint.py`'s `caps-emphasis`, a convention rather than a defect, because `GRANT ALL PRIVILEGES ON
 DATABASE` and `INT TERM QUIT EXIT` are correct as written and cannot be told from emphasis by shape.
+
+## Prose warning a reader about a defect does not prevent the defect
+
+**Observed 2026-09-02 in `_docs/process/TASKLOG.md`.**
+
+The Current Task block carried a paragraph stating that it had gone self-contradictory six times
+through incremental editing, and that a resume channel disagreeing with itself is worse than one
+merely out of date. **Eleven lines above that paragraph the block stated `Forty-eight of seventy-two
+drafted` and `Forty-seven of seventy-two drafted` on consecutive lines.**
+
+**The warning and the defect had different audiences.** A note in a file is read by whoever reads the
+file. The defect was introduced by an edit that added a corrected count and did not remove the one it
+replaced, which is a thing an editor does without reading the surrounding paragraph at all.
+
+**The count was derivable the whole time.** It is the number of drafts on disk carrying the series in
+their front matter. `_lib/progress.py` now computes it and `_verify.py` reports a disagreement, which
+is the same rule `_lib/survey.py` records for an article's statistics about its own references.
+
+**The general form.** When a file warns that one of its own fields tends to go wrong, that is evidence
+the field should be computed rather than maintained, not evidence that a warning was needed. Ask
+whether the value is derivable from something already in the repository. If it is, the warning is a
+record of an unautomated check.
+
+**A contradiction and a staleness are reported separately**, because comparing a single stated claim
+to the truth cannot catch a contradiction in which one of the two claims is correct.

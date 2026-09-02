@@ -46,6 +46,8 @@ article-specific content alone.
 | `gate.py` | Subject-anchor gating for a harvested corpus, with the two-sided random audit that is the only thing detecting a mis-tuned gate | 2 copied `select.py` |
 | `render.py` | Audit of BUILT HTML for defects a reader would see, and page-weight reporting | 1 ad hoc `audit_html.py` |
 | `resolve.py` | Whether a cited identifier resolves at all, with registry fallback and bot-mitigation handling | 3 rewritten `sweep.py` |
+| `survey.py` | Recomputation of the statistics an article states about its own reference survey, since a presence check goes green precisely when a number goes stale | scratch `verify_survey.py` |
+| `progress.py` | Recomputation of the drafted count a resume channel states, against the drafts on disk | nothing, the count was maintained by hand |
 | `test_lib.py` | Regression tests, one per shipped defect, plus anti-duplication guards | |
 
 **The library reproduced its own defect within a day.** An audit found `fold` byte-identical in two

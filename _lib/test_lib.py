@@ -22,6 +22,7 @@ import edits
 import gate
 import lint
 import post
+import progress
 import refs
 import reflow
 import render
@@ -1508,6 +1509,101 @@ def t_survey_builds_a_separator_tolerant_term():
 
     # Regex metacharacters in a term are escaped rather than interpreted.
     assert re.search(survey.loose("F/A-18 Hornet"), "F/A-18 Hornet", re.I)
+
+
+def _draft(series, index):
+    return (f"x_{series}_{index}.markdown",
+            f'---\nlayout: post\ntitle: "T"\n'
+            f"date: 2025-11-23 09:00:00 +0000\nseries: {series}\n"
+            f"series_index: {index}\n---\nbody\n")
+
+
+def t_progress_counts_only_the_named_series():
+    """A drafted count is a count of files, and the template has no series line."""
+    files = [_draft("x_planes", 1), _draft("x_planes", 2), _draft("other", 1),
+             ("template.markdown", '---\nlayout: post\ntitle: "T"\n---\nbody\n'),
+             ("notes.markdown", "no front matter at all\n")]
+    assert progress.drafted(files, "x_planes") == 2
+    assert progress.drafted(files, "other") == 1
+    assert progress.indices(files, "x_planes") == [1, 2]
+
+
+def t_progress_reports_a_stale_count_and_a_contradiction_separately():
+    """The two have different causes and different fixes, so they are distinct.
+
+    A mismatch means a pass did not update the channel. A contradiction means one
+    edit added a claim and left its predecessor standing, which is the defect
+    actually observed on 2026-09-02 and which comparing a single claim to the
+    truth cannot catch when one of the two claims is correct.
+    """
+    files = [_draft("x_planes", i) for i in range(1, 49)]
+    stale = progress.check(files, "x_planes",
+                           [("c", "Forty-nine of seventy-two drafted.")],
+                           survey.words_to_int)
+    assert [c for c, _ in stale] == ["progress-stale"], stale
+
+    both = progress.check(
+        files, "x_planes",
+        [("c", "Forty-eight of seventy-two drafted.\n"
+               "Forty-seven of seventy-two drafted.")],
+        survey.words_to_int)
+    assert [c for c, _ in both] == ["progress-contradiction"], both
+    # The correct count is still reported, so the reader knows which claim to keep.
+    assert "48 drafts" in both[0][1]
+
+    for clean in ("Forty-eight of seventy-two drafted.", "48 of 72 articles drafted.",
+                  "48 drafted", "no claim is made here"):
+        assert not progress.check(files, "x_planes", [("c", clean)],
+                                  survey.words_to_int), clean
+
+
+def t_progress_claim_pattern_survives_the_history_it_must_not_read():
+    r"""Shapes that are not a count, measured against the file that contains them.
+
+    `\d[\d,]*` for the number absorbed a trailing comma and read `A344, drafted
+    with all four passes` as a claim, matching twenty-one such fragments. The two
+    that remain are why `section` exists: a history entry stating a count correct
+    on its own date, and `X-19 drafted`, where an aircraft designation ends in
+    digits that read as a count.
+    """
+    for text in ("A297 through A344, drafted with all four passes",
+                 "series x_planes index 48 of 72",
+                 "all forty-eight X-Planes drafts remain in _drafts/"):
+        assert not progress.stated_counts(text, survey.words_to_int), text
+
+    # These DO match, and are excluded by scope rather than by pattern.
+    assert progress.stated_counts("X-19 drafted as a file", survey.words_to_int)
+    assert progress.stated_counts("the five drafted", survey.words_to_int)
+
+
+def t_progress_ignores_a_literal_quoted_as_an_example():
+    """A process file documenting this checker must be able to quote its triggers.
+
+    The section of REVERSE_PROMPT.md explaining why `X-19 drafted` matches DID
+    match on the first run after it was written, and the channel is one the check
+    reads. Blanking code spans is what `_lib/render.py` does for `<pre>` and
+    `<code>`, because a document about a syntax displays that syntax.
+    """
+    files = [_draft("x_planes", i) for i in range(1, 49)]
+    quoted = ("One is `X-19 drafted`, where a designation ends in digits.\n"
+              "Forty-eight of seventy-two drafted.")
+    assert not progress.check(files, "x_planes", [("c", quoted)],
+                              survey.words_to_int)
+    # A fenced block is excluded too, and the surrounding claim still reads.
+    fenced = "```\nForty-nine of seventy-two drafted\n```\n48 drafted"
+    assert not progress.check(files, "x_planes", [("c", fenced)],
+                              survey.words_to_int)
+    # Blanking rather than deleting keeps a code span from FUSING its neighbours
+    # into a token neither contains. Deleting would make this read `drafted`.
+    assert not progress.stated_counts("48 draft`X`ed", survey.words_to_int)
+
+
+def t_progress_section_reads_only_the_block_required_to_be_current():
+    doc = ("# T\n\n## Current Task\n\nForty-eight of seventy-two drafted.\n\n"
+           "## History\n\n| d | five drafted |\n")
+    cur = progress.section(doc, "Current Task")
+    assert "Forty-eight" in cur and "five drafted" not in cur
+    assert progress.section(doc, "Nonexistent") is None
 
 
 for name, fn in sorted(list(globals().items())):

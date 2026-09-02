@@ -11,10 +11,16 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `884de81`
-- **Written**: 2026-09-02
-- **Tree at write**: clean, and **everything was pushed at the parent**. **One commit is unpushed when
-  you read this and it is this handoff's own**, which is what `git log origin/master..HEAD` will show.
+- **Parent commit** (the repository state this handoff describes): `e5cdaa6`
+- **Written**: 2026-09-02, and **RE-STAMPED the same day** after a process and tooling pass.
+- **Tree at write**: clean, and **everything is pushed, including the commit carrying this file**, so
+  `git log origin/master..HEAD` should be empty. **This differs from the previous handoff**, which was
+  written unpushed and said so; the pilot asked for outstanding work to be pushed.
+- **WHY THE PARENT MOVED WITHOUT AN ARTICLE BEING WRITTEN.** A process and tooling pass landed after
+  the previous handoff, repairing a contradiction in TASKLOG.md and gating the count that produced it.
+  **Re-stamping was chosen over letting this file go stale**, because a stale handoff sends a resuming
+  agent to the live channels and waits for instruction, which is friction bought for nothing when the
+  file's own content is still accurate.
 - **Context**: the X-Planes series is IN PROGRESS. **Forty-eight of seventy-two articles drafted. None
   published, and none authorised.**
 - **A344, Northrop Grumman X-47, is complete on all four passes and is PUSHED**, including its
@@ -153,6 +159,15 @@ then added a fuel table at Mach 0.75 and 40,000 feet**, which needs the standard
 a true airspeed, and neither the step nor the citation was there. **The four-pass rhythm has no step
 that re-asks whether an absent subject has become load-bearing.** The audit at the head of the primary
 pass is the only thing that catches it, and only if the subject is in its list.
+
+**PROSE WARNING A READER ABOUT A DEFECT DOES NOT PREVENT THE DEFECT.** TASKLOG.md's Current Task
+block carried a paragraph saying it had gone self-contradictory six times through incremental editing
+and that a resume channel disagreeing with itself is worse than one merely out of date. **On
+2026-09-02 that block stated forty-eight and forty-seven drafted on consecutive lines**, eleven lines
+above its own warning, and also named A342 as the last completed article when A343 and A344 were
+finished. **The warning was addressed to a reader and the defect was introduced by an editor**, and
+those are not the same audience. The count is a count of files on disk, so it is now recomputed rather
+than read.
 
 **A PER-ARTICLE GATE FIX FIXES NOTHING FOR ANYBODY ELSE.** A341's gate refused `U.S. Standard
 Atmosphere, 1976`, one of its own foundational sources, readmitted it by name and recorded the defect.
@@ -1434,7 +1449,7 @@ FOUR ARTICLES.** After every equation pass, scan for lines that open with `$$` a
 describing each module: `fetch` for archive queries, `refs` for anchors and the reference block, `edits`
 for guarded editing, `reflow`, `lint`, `diction` for word and phrase overuse, `audit` for equation and
 citation gaps, `numcheck` for independent re-derivation, and `citations` for registry verification. Run
-`python3 _lib/test_lib.py`, which should report **89 of 89**. **`refs.clean` gained a bare-pipe strip on
+`python3 _lib/test_lib.py`, which should report **94 of 94**. **`refs.clean` gained a bare-pipe strip on
 2026-08-12**, because kramdown reads a paragraph whose first line contains a pipe as a table and a
 publisher-mangled apostrophe entity put one into link text. **Three modules were added on
 2026-08-11**, being `gate` for subject-anchor gating with a mandatory two-sided sample, `render` for
@@ -1507,6 +1522,13 @@ life. **A new warning is now signal rather than noise, so do not let one accumul
 `_lib/render.py` in CI's order, into a throwaway directory. `--drafts` includes drafts and `--weights`
 reports page weight. **`_preview.sh` cannot tell you whether the deploy will pass**, because it ends in
 `jekyll serve --watch` and nothing runs after it.
+
+**`progress-stale` and `progress-contradiction` gate the resume channels themselves**, added
+2026-09-02. `_lib/progress.py` counts the drafts of a series on disk and compares that count to what
+TASKLOG.md's Current Task block and REVERSE_PROMPT.md claim, reporting a disagreement with the tree
+separately from two channels' claims disagreeing with each other. **HANDOFF.md is deliberately
+excluded**, because it goes stale by design between refreshes and a count check would fire on it every
+time an article is drafted.
 
 **Read `_docs/process/VERIFICATION_TRAPS.md` before trusting any checker you write.** It records the
 mistakes this method has actually made and the observation that caught each. The recurring root is

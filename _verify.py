@@ -24,8 +24,13 @@ import os
 import re
 import sys
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "_lib"))
+import progress  # noqa: E402
+import survey  # noqa: E402
+
 POSTS = "_posts"
 DRAFTS = "_drafts"
+DOCS = "_docs/process"
 
 ANCHOR = r"[A-Za-z0-9_-]+"
 DEF_RE = re.compile(rf"^\[({ANCHOR})\]:\s")
@@ -621,6 +626,42 @@ def main():
             if check in ("date-filename", "draft-date-taken", "debug-tag"):
                 continue
             rep.warn(f"draft-{check}", detail)
+
+    # A RESUME CHANNEL'S DRAFTED COUNT IS A COUNT OF FILES, SO IT IS RECOMPUTED.
+    # TASKLOG.md's Current Task block stated forty-eight and forty-seven on
+    # consecutive lines on 2026-09-02, the second left by an edit that added the
+    # first without removing it. That block's own prose says it has gone
+    # self-contradictory six times for that reason, which made it seven, and the
+    # warning did not prevent the defect because a warning addressed to a reader
+    # is not a check.
+    #
+    # A WARNING RATHER THAN AN ERROR. The defect misdirects a resuming agent
+    # rather than a reader, nothing reaches the built site, and failing a push on
+    # documentation prose is out of proportion to that. It is visible in every
+    # normal run and in the count line the pre-push hook prints. Promote it if it
+    # recurs after this.
+    #
+    # HANDOFF.md IS DELIBERATELY EXCLUDED. It is a snapshot that goes stale by
+    # design between refreshes and self-reports staleness by a commit comparison,
+    # so checking its count would fire on every article drafted in between.
+    draft_files = [(os.path.basename(p), open(p, encoding="utf-8").read())
+                   for p in sorted(glob.glob(os.path.join(DRAFTS, "*.markdown")))]
+    tasklog = os.path.join(DOCS, "TASKLOG.md")
+    reverse = os.path.join(DOCS, "REVERSE_PROMPT.md")
+    channels = []
+    if os.path.exists(tasklog):
+        body = progress.section(open(tasklog, encoding="utf-8").read(), "Current Task")
+        if body is not None:
+            channels.append(("TASKLOG.md Current Task", body))
+    if os.path.exists(reverse):
+        channels.append(("REVERSE_PROMPT.md", open(reverse, encoding="utf-8").read()))
+    for series in sorted({m.group(1) for _, t in draft_files
+                          for m in [re.search(r"^series:\s*(\S+)\s*$",
+                                              progress.FM.match(t).group(1), re.M)
+                                    if progress.FM.match(t) else None] if m}):
+        for check, detail in progress.check(draft_files, series, channels,
+                                            survey.words_to_int):
+            rep.warn(check, detail)
 
     if not args.quiet:
         print(f"checked {len(posts)} posts")
