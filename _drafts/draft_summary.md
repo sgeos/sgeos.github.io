@@ -17,6 +17,37 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Boeing X-48 A345 2025-11-23
+
+`x_planes_boeing_x48.markdown`, A345, editorial date 2025-11-23, series `x_planes` index
+49 of 72.
+
+**12,786 lines, 7 display equations, 6,183 reference definitions, 69,753 words after the draft
+pass**, of which 6,198 are author prose. **One of four passes complete.** Committed and **NOT
+pushed**. **Not published**, and publication of the series has never been authorised.
+**Full-aircraft class.**
+
+**THE KEYSTONE IS THE INSTRUMENT RATHER THAN THE VEHICLE**, which is a first for this series. The
+X-48B is an 8.5 percent dynamically scaled free-flight model, and holding Froude number and relative
+density fixed sends Reynolds number as the three-halves power. **Time compression 3.430, Reynolds
+penalty 40.35.** The geometry closes exactly, 20.4 ft over 240 ft giving 0.085000 against a
+separately published 8.5 percent.
+
+**THE CENTRAL FINDING IS A CONTRADICTION ALREADY IN THE RECORD.** Liebeck's design paper says the
+outer wing stays attached into the stall and the ailerons remain effective. The flight report records
+uncommanded wing roll-offs and that lateral stick produced a more abrupt wing drop. **The scaling
+analysis says that is exactly the disagreement a factor of 40 in Reynolds number permits**, so the
+article divides the programme's own objectives into what transfers and what does not.
+
+**THE DEMONSTRATION IS TILTED AND THE DIRECTION IS COMPUTED.** Froude scaling makes thrust to weight
+invariant, the model carries 0.3086 against 0.2245, so it is over-thrusted by 1.374 and **its
+engine-out test is conservative**, the opposite of A332's tilt.
+
+**A HYPHEN DEFEATED THE GATE AND THEN THE CLUSTERING.** 57 records were refused on a separator alone,
+including the keystone subject. The fix went into `_lib/gate.py` rather than this article's gate, and
+fixing cluster assignment moved 195 records out of the residual while the blended wing body cluster
+grew 429 to 593.
+
 ## X-Planes Northrop Grumman X-47 A344 2025-11-22
 
 `x_planes_northrop_grumman_x47.markdown`, A344, editorial date 2025-11-22, series `x_planes` index

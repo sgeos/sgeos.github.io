@@ -1606,6 +1606,36 @@ def t_progress_section_reads_only_the_block_required_to_be_current():
     assert progress.section(doc, "Nonexistent") is None
 
 
+def t_gate_anchor_survives_a_hyphen():
+    """A compound technical noun must not be refused on its separator.
+
+    A345's gate refused 57 records on this alone, including its own keystone
+    subject. The rule existed for audit patterns since A344 and had not been
+    applied to gates.
+    """
+    g = gate.Gate([r"wind tunnel", r"angle of attack", r"jet noise"], name="t")
+    for title in ["Correction of wind-tunnel pressure coefficients",
+                  "Asymmetric Flow Around High-Angle-of-Attack Slender Bodies",
+                  "Investigation of a Jet-Noise-Shielding Methodology",
+                  "Wind tunnel test of a wing"]:
+        assert g.admits(title), title
+
+    # A hyphen is flattened only BETWEEN TWO LETTERS, which leaves an aircraft
+    # designation and a numeric range intact. In a series covering X-1 through
+    # X-76 that is the difference between a harmless rewrite and a damaging one.
+    assert gate.flatten_separators("X-48B") == "X-48B"
+    assert gate.flatten_separators("1997-1999") == "1997-1999"
+    assert gate.flatten_separators("Boundary-Layer") == "Boundary Layer"
+
+    # Flattening must not admit something the gate should refuse.
+    assert not g.admits("Two-phase flow patterns in a vertical pipe")
+
+    # A pattern written with its own separator class still works both ways.
+    g2 = gate.Gate([r"low[- ]observable"], name="t2")
+    assert g2.admits("Low-Observable Planform Design")
+    assert g2.admits("low observable planform design")
+
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)

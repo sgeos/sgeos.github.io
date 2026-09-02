@@ -104,6 +104,32 @@ def normalise(title):
     return (title or "").translate(_DASHES).translate(_QUOTES)
 
 
+# A HYPHEN MUST NOT DEFEAT A MULTI-WORD ANCHOR, AND THIS IS THE SECOND INSTRUMENT
+# IT HAS DEFEATED. A344's audit asked for `arresting gear` with a space while the
+# literature writes `ARRESTING-GEAR CABLE`, and `_lib/survey.py` gained `loose` so
+# that an audit pattern could not be beaten that way. The rule was recorded for
+# AUDIT patterns and nobody applied it to GATES.
+#
+# A345's gate then refused 57 records on a separator alone, among them `Correction
+# of wind-tunnel pressure coefficients for Reynolds number effect` and
+# `Investigation of a Jet-Noise-Shielding Methodology`, which are that article's
+# keystone subject and the subject of its second vehicle. The anchors said `wind
+# tunnel` and `jet noise` with spaces.
+#
+# THE FIX IS HERE RATHER THAN IN AN ARTICLE'S GATE, because a per-article gate fix
+# fixes nothing for anybody else, which the atmosphere family established across
+# three articles. Only a hyphen BETWEEN TWO LETTERS is flattened, and the original
+# title is tested first, so no existing pattern changes meaning. A single-word
+# anchor is unaffected either way: `\blift\b` already matches inside `non-lift`,
+# because a hyphen is not a word character.
+_INTRAWORD_HYPHEN = re.compile(r"(?<=[A-Za-z])-(?=[A-Za-z])")
+
+
+def flatten_separators(title):
+    """`Boundary-Layer Methods` as `Boundary Layer Methods`, for anchor matching only."""
+    return _INTRAWORD_HYPHEN.sub(" ", normalise(title))
+
+
 class Gate:
     """A compiled subject gate. Build one per article and do not copy one between articles."""
 
@@ -115,7 +141,16 @@ class Gate:
         self.pattern = re.compile("|".join(f"(?:{p})" for p in strong), re.I)
 
     def admits(self, title):
-        return bool(self.pattern.search(normalise(title)))
+        """True when the title carries an anchor, hyphenated or not.
+
+        The normalised title is tested first, so a pattern written with a literal
+        hyphen keeps its meaning. The flattened form is tried only on a miss.
+        """
+        t = normalise(title)
+        if self.pattern.search(t):
+            return True
+        flat = _INTRAWORD_HYPHEN.sub(" ", t)
+        return flat != t and bool(self.pattern.search(flat))
 
     def explain(self, title):
         """Why a title was dropped, distinguishing 'off subject' from 'only ambiguous words'.

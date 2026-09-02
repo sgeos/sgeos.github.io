@@ -67,6 +67,25 @@ NOISE_PATTERNS = [
     (r"\bnative speaker", "A369: 'native code' versus NATIVE SPEAKERS"),
     (r"\bnative species\b", "A369: 'native code' versus NATIVE SPECIES"),
 
+    # ---- A345, the X-48. Found by READING the two-sided audit and then measuring
+    #      the specific family, not by suspecting it in advance.
+    (r"\bforaminifer|\bmicrofossil", "A345: 'dynamically scaled model' is a free-flight "
+                                     "aircraft and also a SINKING MARINE MICROFOSSIL, in "
+                                     "'Estimation of sinking velocities using free-falling "
+                                     "dynamically scaled models: foraminifera as a test case'"),
+    (r"\bheliostat\b", "A345: 'wind tunnel test of a full-scale heliostat' is SOLAR "
+                       "ENERGY, admitted on the wind tunnel alone"),
+    (r"ion cyclotron|mass spectrometr|mass spectroscop",
+     "A345: 'frequency sweep' is a flight-test excitation and also the SWEEP OF A MASS "
+     "SPECTROMETER"),
+    (r"guided wave signal|ultrasonic (?:noise|guided)",
+     "A345: 'frequency sweep' and 'noise' both belong to ULTRASONIC NDT"),
+    (r"\bchorus (?:rising|element|wave)", "A345: 'frequency sweep' is also a MAGNETOSPHERIC "
+                                         "CHORUS EMISSION in space physics"),
+    (r"heat (?:transfer|exchanger).{0,70}\btubes?\b|\btubes?\b.{0,70}heat (?:transfer|exchanger)",
+     "A345: 'angle of attack' is an aeroplane and also the INCLINATION OF A HEAT "
+     "EXCHANGER TUBE to the cross-flow"),
+
     # ---- carried from the X-Planes sweeps, where the recurring families were
     #      meteorology, marine engineering and spectroscopy sharing vocabulary
     #      with aerodynamics. See rejected.json for the individual judgements.
