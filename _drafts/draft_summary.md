@@ -22,10 +22,22 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_northrop_grumman_x47.markdown`, A344, editorial date 2025-11-22, series `x_planes` index
 48 of 72.
 
-**8,993 lines, 10 display equations, 4,269 reference definitions, 48,893 words after the draft
-pass**, of which 5,738 are author prose, a dilution factor of 8.5. **One of four passes complete.**
-Committed and **NOT PUSHED**. **Full-aircraft class**, and the first article in four with a flight
-test record worth tabulating.
+**9,081 lines, 23 display equations, 4,269 reference definitions, 49,841 words after the
+equation-density pass**, of which 6,686 are author prose, a dilution factor of 7.5. **Two of four
+passes complete.** Committed and **NOT PUSHED**. **Full-aircraft class**, and the first article in
+four with a flight test record worth tabulating.
+
+**THE EQUATION PASS SETTLED A QUESTION THE DRAFT LEFT OPEN.** The draft printed two readings of the
+arrested landing and said the record does not choose. **A stopping distance measured aboard a ship is
+a deck distance and must pair with a deck-relative speed**, and the aeroplane's own wing fixes the
+reading, since treating the quoted 145 knots as a stalling speed demands a maximum lift coefficient of
+0.617 while treating it as an approach airspeed gives 1.14 times the stall at a plausible 0.8. **The
+engagement was slower and the deceleration nearer 1.8 g than 2.7.**
+
+**THE GUARD FIRED FOR THE FOURTH CONSECUTIVE ARTICLE** and a rounding defect was caught beside it, the
+descent rate written 769 where the computation gives 768.4977. **The verifier also broke itself by
+growing**, its arrestment-table pattern becoming ambiguous when the pass added a hook-load table
+beginning with the same cells.
 
 **THE KEYSTONE IS A GEOMETRY PROBLEM AND IT IS COMPUTABLE.** On 10 July 2013 an X-47B caught the
 three-wire aboard a carrier at sea and on its next approach the two-wire, and choosing between them is

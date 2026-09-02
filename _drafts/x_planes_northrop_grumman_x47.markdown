@@ -74,7 +74,15 @@ $$v_{\text{closure}} = v_{\text{aircraft}} - v_{\text{ship}} = (145 - 25) \times
 
 **At a hundred updates a second the deck moves 12.9 centimetres between one fix and the next**, and the aeroplane closes 61.7 centimetres. **A navigation solution referenced to the earth would have to carry the ship's own position error into the aeroplane's**, and those errors do not cancel because they come from different receivers at different times.
 
-**A differential measurement between the two removes most of what they share.** The satellite clock and ephemeris errors and the bulk of the atmospheric delay are common to two receivers a few miles apart, so a solution computed on the difference is far more accurate than either absolute position [[Misra and Enge, Global Positioning System, signals, measurements and performance][book_misra_enge]]. **The same principle underlies the joint precision approach and landing system the services later fielded** [[Joint Precision Approach and Landing System, Collins Aerospace][ref_jpals_collins]]. **The programme used a precision relative scheme of this kind**, described as allowing the aeroplane to know where it was with respect to the ship [[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]].
+**A differential measurement between the two removes most of what they share.** Write the range each receiver measures to one satellite as the true range plus the errors,
+
+$$\rho_{i} = r_{i} + c \, \delta t_{\text{sat}} + I_{i} + T_{i} + \varepsilon_{i}$$
+
+with a satellite clock offset, an ionospheric and a tropospheric delay and a noise term. **Differencing the two receivers cancels every term the two have in common,**
+
+$$\rho_{A} - \rho_{B} = (r_{A} - r_{B}) + (I_{A} - I_{B}) + (T_{A} - T_{B}) + (\varepsilon_{A} - \varepsilon_{B})$$
+
+**and the satellite clock error is gone exactly** while the atmospheric terms are gone very nearly, because two receivers a few miles apart look through almost the same atmosphere at almost the same satellites. **What is left is the vector between them**, which is the quantity the deck problem actually needs, and it is known far better than either position separately [[Misra and Enge, Global Positioning System, signals, measurements and performance][book_misra_enge]]. **The same principle underlies the joint precision approach and landing system the services later fielded** [[Joint Precision Approach and Landing System, Collins Aerospace][ref_jpals_collins]]. **The programme used a precision relative scheme of this kind**, described as allowing the aeroplane to know where it was with respect to the ship [[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]].
 
 **What the open record does not give is the accuracy achieved.** Figures circulate and none of them is traceable to a programme document, so this article computes what the deck requires and does not assert what the aeroplane delivered.
 
@@ -84,18 +92,62 @@ $$v_{\text{closure}} = v_{\text{aircraft}} - v_{\text{ship}} = (145 - 25) \times
 
 $$a = \frac{v^{2}}{2s}$$
 
+with the time to rest following from the same assumption,
+
+$$t = \frac{2s}{v}$$
+
 | reading of the speed | deceleration, m/s² | in g | time to stop, s |
 |---|---|---|---|
 | 145 kn as airspeed | 26.08 | 2.66 | 2.86 |
 | about 120 kn over the deck, allowing 25 kn of wind | 17.86 | 1.82 | 3.46 |
 
-**The two readings differ by a factor of one and a half and the record does not say which is meant.** An arresting engagement is rated on speed relative to the deck, while a quoted airspeed is relative to the air, and the difference is the wind over the deck. **Both are given because choosing silently would be inventing a figure.**
+**The two readings differ by a factor of one and a half, and the draft of this article left the choice open.** Working the relations through closes it, and the argument is dimensional rather than documentary. **A stopping distance measured aboard a ship is measured along the deck**, so it must be paired with a speed relative to that deck,
+
+$$v_{\text{deck}} = v_{\text{air}} - v_{\text{wod}}$$
+
+where $v_{\text{wod}}$ is the wind over the deck, which a carrier generates by steaming into wind. **Pairing a deck distance with an airspeed mixes two reference frames**, and the first row does exactly that.
+
+**The aeroplane's own wing then says which figure the 145 knots is.** Its wing loading follows from the mass and the area given below,
+
+$$\frac{W}{S} = \frac{19{,}000 \times 9.80665}{88.59} = 2{,}103 \ \text{N/m}^{2} = 43.9 \ \text{lb/ft}^{2}$$
+
+and treating the quoted speed as a stalling speed would then require
+
+$$C_{L,\max} = \frac{2 (W/S)}{\rho V^{2}} = \frac{2 \times 2{,}103}{1.225 \times 74.6^{2}} = 0.617$$
+
+**which is too low even for a tailless planform.** Treating it instead as an approach airspeed gives a sensible margin over the stall,
+
+| $C_{L,\max}$ | stall speed, kn | 145 kn as a multiple of it |
+|---|---|---|
+| 0.8 | 127.4 | 1.14 |
+| 1.0 | 113.9 | 1.27 |
+| 1.2 | 104.0 | 1.39 |
+| 1.6 | 90.1 | 1.61 |
+
+**A tailless aeroplane without trailing-edge high-lift devices sits near the top of that table**, and at a maximum lift coefficient of 0.8 the quoted 145 knots is 1.14 times the stall, which is an ordinary carrier approach margin. **So the 145 knots is most probably an airspeed, the engagement was slower than that, and the second row of the deceleration table is the better one.** The first is retained because the wind over the deck on the day is not recorded, and the argument fixes the reading rather than the number.
 
 The energy the gear absorbs follows directly,
 
 $$E = \tfrac{1}{2} m v^{2} = \tfrac{1}{2} \times 20{,}185 \times 74.6^{2} = 56.2 \ \text{MJ}$$
 
 **Fifty-six megajoules is the kinetic energy of a small car at two hundred miles an hour**, taken out of the aeroplane in under three seconds by a hook and a wire.
+
+**The force that does it follows from the same deceleration and it is the number the structure is built around,**
+
+$$F = m a$$
+
+| reading of the speed | deceleration, m/s² | hook load, kN | as a multiple of the aeroplane's weight |
+|---|---|---|---|
+| 145 kn | 26.08 | 496 | 2.66 |
+| 120 kn | 17.86 | 339 | 1.82 |
+
+**Between a third and half a meganewton is applied at a single point at the tail**, and reacted through a keel that runs the length of the aeroplane.
+
+**The deck does not stop while this happens.** A ship making twenty-five knots runs
+
+$$d_{\text{ship}} = v_{\text{ship}} \, t = 12.86 \times 2.86 = 36.8 \ \text{m}$$
+
+**under the aeroplane during the arrestment**, which is more than a hundred feet of ship passing beneath an aircraft that is itself travelling only 350 feet along it.
 
 ## The Two Aircraft
 
@@ -111,7 +163,11 @@ $$E = \tfrac{1}{2} m v^{2} = \tfrac{1}{2} \times 20{,}185 \times 74.6^{2} = 56.2
 | payload | none | 2,040 kg |
 | flights | one | many |
 
-**The X-47A is a proof of concept and the X-47B is an aeroplane.** The gross mass ratio is 7.6 and the thrust ratio 5.0, and the second aircraft carries a payload while the first carries none [[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]].
+**The X-47A is a proof of concept and the X-47B is an aeroplane**, and the two ratios say how far apart,
+
+$$\frac{m_{B}}{m_{A}} = \frac{19{,}000}{2{,}500} = 7.60 \qquad \frac{T_{B}}{T_{A}} = \frac{71.2}{14.2} = 5.01$$
+
+**Mass grew faster than thrust**, so the larger aircraft has the lower thrust to weight ratio, and the second carries a payload while the first carries none [[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]].
 
 **The X-47B's wing is the part worth measuring.** Its span is 62.1 feet, folding to 30.9, over a wing area of 953.6 square feet [[Northrop Grumman X-47B][ref_x47b_wikipedia]], which makes the aspect ratio
 
@@ -128,6 +184,18 @@ $$A\!R = \frac{b^{2}}{S} = \frac{62.1^{2}}{953.6} = 4.04$$
 ### The Structure That Takes the Arrestment
 
 **The hook, the keel and the gear are sized by the numbers in the arrestment table rather than by flight loads.** A deceleration of two to two and a half g applied through a hook at the tail puts the whole airframe in tension [[Tailhook][ref_tailhook_wikipedia]], and a carrier landing gear is sized for a descent rate several times what a runway aeroplane sees [[Raymer, Aircraft design, a conceptual approach][book_raymer]] [[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]].
+
+**That descent rate is not a free choice, it is the glide slope and the approach speed multiplied together,**
+
+$$w = V \sin \gamma$$
+
+| glide slope | at 145 kn | at 120 kn |
+|---|---|---|
+| 3.0 degrees | 768 ft/min | 636 ft/min |
+| 3.5 degrees | 896 ft/min | 742 ft/min |
+| 4.0 degrees | 1,024 ft/min | 848 ft/min |
+
+**A carrier approach is flown onto the deck rather than flared onto it**, so those rates are arrival rates and not touchdown rates reduced by a flare. **An airliner touches down at two to three hundred feet per minute**, which is why a carrier undercarriage is a different component with the same name.
 
 ### Propulsion
 
@@ -174,7 +242,9 @@ $$FO = \frac{NT + IT}{IT} = 1 + \frac{NT}{IT}$$
 
 $$\frac{m_{\text{payload}}}{m_{\text{gross}}} = \frac{2{,}040}{19{,}000} = 0.10737$$
 
-**against the 0.12293 that was assumed**, and the aeroplane is 1.287 times the predicted mass.
+**against the 0.12293 that was assumed.** The mass follows,
+
+$$\frac{m_{\text{actual}}}{m_{\text{predicted}}} = \frac{41{,}888}{32{,}539} = 1.287$$
 
 **The previous article said this would happen and said why.** It recorded that the inherited payload fraction was its weakest load-bearing assumption, and that a naval variant might not hold it because carrier equipment is charged to empty weight and a designer under that pressure may trade payload fraction rather than accept a larger aeroplane. **The X-47B did both.** It has a lower payload fraction and it is a larger aeroplane, which is the predicted failure in the predicted direction and larger than predicted in magnitude.
 
@@ -182,7 +252,17 @@ $$\frac{m_{\text{payload}}}{m_{\text{gross}}} = \frac{2{,}040}{19{,}000} = 0.107
 
 $$\frac{W}{S} = \frac{41{,}888}{953.6} = 43.9 \ \text{lb/ft}^{2}$$
 
-**So the approach constraint is real and it did not size this wing.** Something else did, and the candidates are fuel volume for a 2,100 nautical mile range and low-speed handling margin on the deck. **A constraint that is satisfied with a wide margin is not the constraint that set the design**, which is a correction to how the previous article used it.
+**So the approach constraint is real and it did not size this wing.** Something else did, and the candidate that can be tested is fuel volume. **The Breguet range relation says what the published range costs in fuel,**
+
+$$\zeta_{\text{fuel}} = 1 - \exp \left( - \frac{R \, c}{V (L/D)} \right)$$
+
+| lift to drag ratio | fuel fraction for 2,100 nm | fuel, kg |
+|---|---|---|
+| 14 | 0.2434 | 4,625 |
+| 16 | 0.2166 | 4,115 |
+| 18 | 0.1950 | 3,706 |
+
+**Between three and a half and four and a half tonnes of fuel**, at a cruise of Mach 0.75 at 40,000 feet and a specific fuel consumption of 0.80 per hour. **That is a large volume to put in a wing 953.6 square feet in area and a fuselage this aeroplane barely has**, and it is the most plausible thing to have set the area. **The test is not conclusive**, because a published range figure may be a radius, in which case the fuel doubles and the argument strengthens. **A constraint that is satisfied with a wide margin is not the constraint that set the design**, which is a correction to how the previous article used it.
 
 **A third prediction held.** The thrust to weight ratio of 0.382 falls inside the 0.30 to 0.40 band that article assumed.
 
@@ -194,11 +274,15 @@ $$\frac{W}{S} = \frac{41{,}888}{953.6} = 43.9 \ \text{lb/ft}^{2}$$
 
 **The precision this article computes is the deck's requirement and not the aeroplane's performance.** The geometry says a wire is worth two to three and a half feet of height. **It does not say what the X-47B achieved**, and the figures that circulate for that are not traceable to a programme document, so no claim about achieved accuracy is made here.
 
-**The arrestment table cannot resolve its own speed.** A quoted 145 knots may be airspeed or speed over the deck, the two differ by the wind over the deck, and the deceleration differs by a factor of one and a half between them. **The article gives both and the record does not choose.**
+**The arrestment reading is settled by argument and not by the record.** A stopping distance aboard a ship must be a deck distance, and the aeroplane's own wing loading makes 145 knots an implausible stalling speed and an ordinary approach speed, so the slower engagement is the better reading. **Both rows are still printed** because the wind over the deck on the day is not recorded, and because an argument that fixes a reading is weaker evidence than a document that states one.
 
 **Scoring the previous article's predictions is comparing a requirement to one aeroplane.** The X-47B is a single design by a single manufacturer that won a competition, and a payload fraction measured from it is one observation. **The previous article's constant came from two aircraft and this adds a third from a different company**, which is better evidence and still not a population.
 
-**The gross mass figures disagree between sources by six percent.** The specialist directory gives 19,000 kilograms and other compilations give 44,501 pounds, which is 20,185 kilograms, and the directory warns that its own figures may be inaccurate. **Every mass fraction in this article moves by about six percent between those readings**, and the conclusions do not turn on which is right because the differences being argued about are larger than that.
+**The gross mass figures disagree between sources by six percent.** The specialist directory gives 19,000 kilograms and other compilations give 44,501 pounds, which is 20,185 kilograms, and the directory warns that its own figures may be inaccurate,
+
+$$\frac{20{,}185}{19{,}000} - 1 = 0.0624$$
+
+**Every mass fraction in this article moves by about six percent between those readings**, and the conclusions do not turn on which is right because the differences being argued about are larger than that.
 
 **Treating the X-47A as a proof of concept understates what its single flight was for.** It carried the relative navigation system that the whole subject turns on, and it is described as landing on a designated spot. **One flight is one flight**, and an article that made more of it would be building on a sentence.
 
@@ -395,6 +479,10 @@ $$\frac{W}{S} = \frac{41{,}888}{953.6} = 43.9 \ \text{lb/ft}^{2}$$
 
 **The approach speed constraint did not size this wing**, since the achieved wing loading is below every value that constraint implies.
 
+**The quoted 145 knots is an approach airspeed rather than an engaging speed**, because reading it as a stalling speed demands a maximum lift coefficient of 0.617 while reading it as an approach speed gives 1.14 times the stall at a maximum lift coefficient of 0.8. **The engagement was therefore slower than 145 knots and the deceleration nearer 1.8 g than 2.7.**
+
+**The wing area is most plausibly set by fuel volume**, since the published range costs between 3,700 and 4,600 kilograms of fuel and there is no fuselage to put it in.
+
 ### Inference
 
 **The relative navigation system is what made the rest of the aeroplane ordinary**, inferred from the geometry rather than from any statement of achieved accuracy.
@@ -405,7 +493,7 @@ $$\frac{W}{S} = \frac{41{,}888}{953.6} = 43.9 \ \text{lb/ft}^{2}$$
 
 **What accuracy the navigation system achieved.** No traceable figure has been found.
 
-**Which speed the arrestment account means.** Airspeed and speed over the deck differ by the wind over the deck and the difference matters by a factor of one and a half.
+**What the wind over the deck was on 10 July 2013.** The reading of the quoted 145 knots is argued from the aeroplane's wing loading and from the fact that a deck distance implies a deck speed, and that argument is not a substitute for a recorded figure.
 
 **What the X-47B weighs empty.** Published figures conflate empty and zero-fuel weight and the two differ by the payload.
 
