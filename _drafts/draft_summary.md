@@ -17,6 +17,44 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Northrop Grumman X-47 A344 2025-11-22
+
+`x_planes_northrop_grumman_x47.markdown`, A344, editorial date 2025-11-22, series `x_planes` index
+48 of 72.
+
+**8,993 lines, 10 display equations, 4,269 reference definitions, 48,893 words after the draft
+pass**, of which 5,738 are author prose, a dilution factor of 8.5. **One of four passes complete.**
+Committed and **NOT PUSHED**. **Full-aircraft class**, and the first article in four with a flight
+test record worth tabulating.
+
+**THE KEYSTONE IS A GEOMETRY PROBLEM AND IT IS COMPUTABLE.** On 10 July 2013 an X-47B caught the
+three-wire aboard a carrier at sea and on its next approach the two-wire, and choosing between them is
+a question of about two feet of height at the ramp. **A glide slope converts height into distance
+along the deck at 19.08 feet per foot at three degrees**, so the 40 to 50 feet between arresting
+pendants is only 2.10 to 3.50 feet of height. **A metre of height error is half a wire.**
+
+**THE ARTICLE SCORES THE PREVIOUS ONE AND IT WAS WRONG IN THE WAY IT PREDICTED.** A343 sized this
+requirement with no aeroplane to measure, inheriting a payload fraction of 0.12293 and predicting
+32,539 lb. The X-47B carries the same 2,040 kg payload as the X-45C at 19,000 kg gross, so its
+fraction is **0.10737** and it is **1.287 times the predicted mass**. **A343 recorded that a naval
+variant might trade payload fraction rather than accept a larger aeroplane, and the X-47B did both.**
+
+**A SECOND PREDICTION FAILED MORE USEFULLY.** A343 argued the approach speed limit sizes the wing and
+computed 68.7 to 142.4 lb/ft2, while the X-47B's wing loading is **43.9**, below every row. **A
+constraint satisfied with a wide margin is not the constraint that set the design.** One prediction
+held, the thrust to weight ratio of 0.382 falling inside the assumed band.
+
+**TWO PLACES WHERE THE ARTICLE DECLINES TO ASSERT.** The achieved navigation accuracy is absent,
+because the circulating figures are not traceable to a programme document, so the article computes
+what the deck requires and says it does not know what the aeroplane delivered. And the arrestment
+cannot resolve its own speed, so both readings are tabulated at 2.66 g and 1.82 g.
+
+`_verify.py` zero errors and zero warnings, lint zero defects and zero conventions, reference
+integrity zero undefined, zero orphaned, zero duplicate URLs, every stated value re-derived, every
+cluster row checked by `_lib/survey.py`, 300 of 300 sampled Crossref identifiers registered and 29 of
+29 NASA identifiers resolved with zero title mismatches, and zero caps-emphasis spans.
+
+
 ## X-Planes Boeing X-46 A343 2025-11-21
 
 `x_planes_boeing_x46.markdown`, A343, editorial date 2025-11-21, series `x_planes` index 47 of 72.
@@ -8004,8 +8042,8 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fifty-seven files exist in `_drafts/`. One is a template. One is this summary.
-**Forty-seven are the in-progress X-Planes series, A297 through A343, none of them published**, and
+Fifty-eight files exist in `_drafts/`. One is a template. One is this summary.
+**Forty-eight are the in-progress X-Planes series, A297 through A344, none of them published**, and
 publication of the series has never been authorised.
 Eight are the pre-release candidates listed below.
 No stubs remain.

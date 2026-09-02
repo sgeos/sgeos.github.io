@@ -1,129 +1,112 @@
 ## Last Updated
 
 **Date**: 2026-09-01
-**Task**: **A343 publication review, the fourth and last of four passes.** Committed and **pushed**.
-**Not published**, and publication of the series still not authorised.
+**Task**: **A344, Northrop Grumman X-47, DRAFT PASS complete.** Committed, **not pushed**, per the
+rhythm. Nothing published and publication still not authorised.
 
 ---
 
-## Seven of Seven Result-Driven Subjects Measured Thin
+## The Keystone Is a Geometry Problem and It Is Computable
 
-**A340, A341 and A342 all found the survey under-covering the subjects of the article's own
-conclusions. A343 is the most complete instance so far.** Seven claims were taken from the closing
-sections and measured in the vocabulary of the field each belongs to, and every one of them was thin.
+**On 10 July 2013 an X-47B caught the three-wire aboard a carrier at sea, and on its next approach the
+two-wire.** Choosing between those two wires is a question of about two feet of height at the ramp,
+and that number is the whole article.
 
-| claim the article makes | before | after |
-|---|---|---|
-| what removing the crew is worth in weight | 15 | **111** |
-| what a long-endurance unmanned aircraft weighs empty | 31 | **94** |
-| whether a set of requirements is feasible at all | 8 | 53 |
-| the payload fraction held across a design family | 2 | 9 |
-| what survives a cancelled programme | 0 | 4 |
-| approach speed as the driver that sizes the wing | 2 | 3 |
-| a requirement standing in for a measurement | 0 | 0 |
+**A glide slope converts height into distance along the deck at an unforgiving rate.** At three
+degrees one foot of height becomes 19.08 feet along the deck. Read the other way, the forty to fifty
+feet between arresting pendants is only
 
-**The first row is the one that mattered.** The article's central claim is that the gap between what
-carrier aircraft weigh and what the requirement demands is the crew. **That claim rested on fifteen
-records and now rests on 111.**
+| pendant spacing, ft | 3.0 deg | 3.5 deg | 4.0 deg |
+|---|---|---|---|
+| 40 | 2.10 ft | 2.45 ft | 2.80 ft |
+| 50 | 2.62 ft | 3.06 ft | 3.50 ft |
 
----
+**A metre of height error is half a wire.** That is why the programme's navigation had to be relative
+to the ship rather than absolute, and it is the reason the rest of the aeroplane could be built to
+ordinary tolerances.
 
-## I Made the Same Instrument Error Twice and Caught It the Second Time
-
-**In the primary pass I wrote an audit pattern in the article's words and measured a subject at nine
-that the pool held ninety-six of.** In this pass I did it again, concluding from 734 records returned
-and 409 admitted that approach speed and the payload fraction must be instrument artefacts too.
-
-**They were not, and the reason is worth keeping.** **A record the gate admits is not a record about
-the subject**, because the gate admits on ANY anchor while an audit measures ONE. Volume arrived and
-coverage did not. Broadening each pattern to the field's actual words moved approach speed from 3 to
-31 and the payload fraction from 9 to 10, both still thin.
-
-**The correction to the correction is the finding.** The first reflex, that a thin measurement means a
-narrow pattern, is right often enough to be dangerous.
+**The measurement is against something that does not wait.** A carrier making 25 knots moves 12.9
+centimetres between updates at 100 hertz, and an aeroplane closing at 145 knots closes 61.7.
 
 ---
 
-## The Weakest Joint in the Analysis, Now Measured
+## The Article Scores the Previous One and It Was Wrong in the Way It Predicted
 
-**The payload fraction is the single constant this article inherits and every mass figure depends on,
-and the survey holds three records using the phrase.** The concept is covered under payload-range
-trades and aircraft weight statistics, but the argument rests on two aircraft measured in the previous
-article rather than on a literature. **That is now said in Where the Framing Breaks Down with the
-number attached**, where before it was said as a qualitative caution.
+**A343 sized this requirement with no aeroplane to measure**, and named the assumption it was least
+sure of. **This article has the aeroplane.**
 
----
+**A343 inherited a payload fraction of 0.12293 from two Boeing aircraft and predicted 32,539 lb.** The
+X-47B carries 2,040 kg, the same payload as the X-45C, at a gross mass of 19,000 kg, so its payload
+fraction is **0.10737** and it is **1.287 times the predicted mass**.
 
-## One Subject Is Not Thin, It Is Out of Scope by Design
+**A343 said exactly this would happen.** It recorded that a naval variant might not hold the fraction,
+because carrier equipment is charged to empty weight and a designer under that pressure may trade
+payload fraction rather than accept a larger aeroplane. **The X-47B did both, and more of each than
+was predicted.**
 
-**The claim that a published figure can be a requirement standing in for a measurement returned zero
-twice.** Its literature is data provenance and bibliographic accuracy, which belongs to information
-science, and **the aeronautical gate refuses it correctly.** The forty-five records those queries did
-place were admitted on the word aircraft and are British Standard component specifications, being
-tyres and rims, tab washers, rivet burrs and cable thimbles. **The word specification pulled in
-documents that specify components rather than documents about how specifications are recorded.**
+**A second prediction failed more usefully.** A343 argued the approach speed limit caps wing loading
+and therefore sizes the wing, computing 68.7 to 142.4 lb/ft². **The X-47B's wing loading is 43.9**,
+below every row. **A constraint satisfied with a wide margin is not the constraint that set the
+design**, so that constraint was true and used in the wrong role. The candidates for what did size it
+are fuel volume for a 2,100 nautical mile range and low-speed handling margin on the deck.
 
-**A gate that admitted the right literature here would be the wrong gate for everything else**, so the
-claim stands on the documents themselves and the article says so.
-
----
-
-## The Class Decision Was Stated but Not Defended, and Now Is
-
-**The genre says that where no vehicle was built the reduced order is the honest choice**, and no
-X-46A was built, so a reader who knows the conventions would ask why this article uses the full order.
-**The reduced order exists for designations rather than aeroplanes**, for cases with no keystone to
-identify and no system to dimension. This designation went normally to a real programme with a
-contractor, a contract and a documented requirement. **The article now carries that reasoning rather
-than only the label.**
+**One prediction held.** The thrust to weight ratio of 0.382 falls inside the 0.30 to 0.40 band A343
+assumed.
 
 ---
 
-## Counts and Fractions Across Four Stages
+## Two Places Where I Declined to Assert
 
-**The pool went 4,375, to 4,379 after a gate widening, to 6,755 after the primary harvest, to 8,253
-after this one.** Report primaries went **662 to 1,024 to 1,232**, a share of 15.1 percent, then 15.2,
-then **14.9**. **A share that barely moves while a count rises by 86 percent is the passes working.**
-Fitted primaries went 2,656 of 4,375 at 60.7 percent, to 4,156 of 6,755 at 61.5, to **5,022 of 8,253
-at 60.9**. Records from 2015 or later rose 1,828 to 2,592 to **3,149** while their share fell 45.7 to
-41.7 and settled at **41.9**, and records predating 2000 went 966 to 1,893 to **2,311**.
+**The achieved navigation accuracy is not in the article.** Figures circulate, none traceable to a
+programme document, so the article computes what the deck REQUIRES and says plainly that it does not
+know what the aeroplane delivered. **That is a stronger position than resting the keystone on a weak
+citation**, and it was a deliberate change of plan after the first sources did not hold up.
 
-**The primary pass's audit table is anchored to the end of that pass and says so**, because the
-publication review afterwards raised several of the same subjects and a table describing what a pass
-did must be measured when it did it.
+**The arrestment cannot resolve its own speed.** A quoted 145 knots may be airspeed or speed over the
+deck, and the deceleration differs by a factor of one and a half between them, at 2.66 g and 1.82 g.
+**Both readings are tabulated and the record does not choose.**
+
+---
+
+## Method Notes
+
+**The keystone cluster was put FIRST in the cluster list because assignment is first match wins.**
+A343 added a carrier cluster after an existing one that matched the same records and it measured 31
+against that one's 197. Relative navigation is this article's keystone, so it precedes the recovery
+cluster that would otherwise absorb every shipboard landing paper. **It holds 847 records and is the
+largest cluster that is not the catch-all.**
+
+**The atmosphere cluster holds two records and that is correct here.** This article computes no
+altitude condition, so the shared vocabulary added in A343 has nothing to do. **A cluster that is
+small because the subject is absent is different from one that is small because the gate missed it**,
+and the difference is whether the article leans on it.
 
 ---
 
 ## State
 
-**A343 is committed and pushed. All four passes complete.** **17,305 lines, 37 display equations held
-and measured, 8,319 reference definitions, 93,888 words**, of which 9,564 are author prose.
+**A344 is committed and not pushed. One of four passes complete.** **8,993 lines, 10 display
+equations, 4,269 reference definitions, 48,893 words**, of which 5,738 are author prose, a dilution
+factor of 8.5. Editorial date 2025-11-22, series index 48, **full-aircraft class**, and the first
+article in four with a flight test record worth tabulating.
 
 `_verify.py` zero errors and zero warnings, `lint.py` **zero defects and zero conventions**, reference
 integrity zero undefined, zero orphaned, zero duplicate URLs, all numerical checks passing, **every
-survey and probe statistic recomputed from the reference data**, 300 of 300 sampled Crossref
-identifiers registered and **70 of 70 NASA identifiers resolved** with zero title mismatches, zero
-caps-emphasis spans on the corrected instrument, and zero contractions, colons, semicolons, dashes or
-parentheticals in prose.
+cluster row checked against both its own citations and the data by `_lib/survey.py`**, 300 of 300
+sampled Crossref identifiers registered and 29 of 29 NASA identifiers resolved with zero title
+mismatches, zero caps-emphasis spans on the corrected instrument, and zero contractions, colons,
+semicolons, dashes or parentheticals in prose.
 
-**The stub-isolated production build succeeded in 9,581 seconds with no Liquid error, against the
-exact bytes that were pushed.** **The rendered audit reports no findings across 59 pages.** Source and
-rendered display-equation counts agree at **37**, being 37 opening and 37 closing rendered delimiters
-with **zero raw dollar pairs leaking**, which is the check A341 had to invent because a display
-equation demoted to inline math is invisible to the audit. **Zero unresolved reference brackets** in
-the rendered HTML, all fourteen sections render in order, and **the U.S. Standard Atmosphere citation
-that this three-article chain existed to recover resolves on the page.**
-
-**Forty-seven of seventy-two drafted, none published, publication never authorised.**
+**Forty-eight of seventy-two drafted, none published, publication never authorised.**
 
 ---
 
 ## Next
 
-**A344, Northrop Grumman X-47**, editorial date 2025-11-22, series index 48. **The X-47A flew once and
-the X-47B flew from a carrier**, so expect the full-aircraft class and a much richer record than this
-one had. **It is also the aeroplane that beat the X-46**, so the comparison this article set up is the
-one that article inherits.
+**The equation-density review of A344 on your prompt**, which is the second of four passes. **Ten
+display equations is low for a full-aircraft article** and the draft names several relations it does
+not show, including the differential positioning that removes common error, the descent rate at
+touchdown, and the fuel volume argument for the wing.
 
 **Two content decisions remain yours and both are on published posts.**
 `_posts/2026-08-06-native_lowering_coverage.markdown` carries two authored caps-emphasis spans at
