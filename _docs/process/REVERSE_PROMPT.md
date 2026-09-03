@@ -1,211 +1,94 @@
 ## Last Updated
 
 **Date**: 2026-09-03
-**Task**: **A348, X-Planes: Boeing X-51 Waverider, primary-reference review. The third of four.**
-Committed and **not pushed**, since only the publication review pushes. **Not published**, and publication of the series
-still not authorised. **Fifty-two of seventy-two drafted.**
+**Task**: **A348, X-Planes: Boeing X-51 Waverider, publication review. The fourth and last of four.**
+Committed and **pushed**. **Not published**, and publication of the series still not authorised.
+**Fifty-two of seventy-two drafted.**
 
 ---
 
-## The First Article to Switch Sweep-Store Patterns Off, and It Nearly Was Not
+## Reading the Opening Against the Conclusion Found Two Defects, Which Is Why It Is Done First
 
-**A346 recorded `ramjet` as a contaminant. A347 recorded `hypersonics` and `missiles`.** Both entries
-carried a written warning that they must not be reused in the articles where those families are the
-subject, and A347's named the X-15, X-30 and X-43 explicitly.
+**The conclusion said the article showed the engine worked by failing three times.** The first flight
+was a partial success cut short after 143 seconds, which is ten times longer than any scramjet had
+flown before, and the article's own flight-record table says so. **A conclusion that contradicts a
+table four hundred lines above it is the defect this read exists to find.**
 
-**A348 is the X-51. Those three patterns would have deleted 3,408 records, being 48.1 percent of
-everything harvested**, including scramjet combustor flameholding, ramjet to scramjet mode
-transition, waverider aerodynamics and inlet unstart prediction. That is not contamination. That is
-the article.
+**It also called the fuel's heat-sink capacity about a twentieth of the energy it releases.** The
+range is 5.4 to 8.1 percent, which is one part in 18.5 to one part in 12.3. **A twentieth is 5
+percent and the range does not reach it.** Corrected to between a twelfth and an eighteenth, in both
+places it appeared.
 
-**A warning addressed to a reader is not a mechanism**, which is this repository's oldest lesson and
-it arrived again one article after the warning was written. `NOISE_PATTERNS` entries may now carry a
-tag, `homonyms.TAGS` lists them, and `noise_hit` and `filter_records` take an `allow` list.
-
-**An unknown tag raises rather than being ignored.** The quiet failure this prevents is an article
-believing it has switched a filter off while its own subject is still being deleted, whose symptom
-would be a thin survey with no explanation. Two regression tests cover both directions and the
-library is **100 of 100**.
-
-**Only tagged patterns can be switched off**, and every other pattern stayed armed, because
-turbomachinery and atmospheric chemistry are contaminants here too.
+**That is a defect found by this read in four consecutive articles.**
 
 ---
 
-## The Article
+## A Presence Check Passed for the Wrong Reason
 
-**The X-51A flew four times. On the flight that worked, the engine under test supplied under eight
-percent of the vehicle's kinetic energy.** A 26 second rocket supplied 92.3 percent; the scramjet
-supplied 7.7 across 210 seconds, taking 8.08 times as long to do a twelfth as much.
+**Correcting the second defect left a claim written in words, so the digits 12 and 18 were added to
+the number checker.** Both passed.
 
-**A340 left a claim unfinished and this article tests it.** That article recorded that eleven seconds
-on hydrogen has not demonstrated a propulsion system, because the thermal problem at length is a
-different problem. **It was right, and the reason is arithmetic.**
+**They passed on `18.8`, on `18,500` and on the X-12 backlink in the opening sentence.** The check
+went green without checking anything.
 
-**The X-51A flew 19.1 times longer than the X-43 at 6.67 times the lower heating rate, so it absorbed
-2.86 times the heat load.** A short flight is a heat capacity problem. A long one is a heat transfer
-problem, because the structure reaches equilibrium.
-
-**The fuel does two jobs and they compete.** 270 pounds of JP-7 was the energy supply and the entire
-heat sink aboard, and its heat sink capacity is 5.4 to 8.1 percent of the energy it releases.
-
-**None of the three failures was combustion.** A thermal seal that had to take three quarters of an
-inch of engine growth, an inlet unstart with a failed transition from ethylene to JP-7, and a fin
-latch. **The discipline's exotic component works and its ordinary components did not.**
+**That is the A342 defect class exactly**, where a presence check confirmed a stale figure because a
+stale figure is by definition still present. The checker now verifies **spelled-out ordinals as
+words**, and doing so confirmed three further claims that had previously been unverifiable, being that
+the stagnation temperature ratio of 3.15 is a third and the heating rate ratio of 6.67 is a seventh.
 
 ---
 
-## The A347 Instrument Caught Six Errors in A348
+## The Conclusions Were Probed Again Because They Were Not the Draft's
 
-**`_lib/booklinks.py` found six of eight book identifiers wrong in this article's first list.** The
-two that were right are the two carried forward from A347's verified set.
+Six of ten were comfortable. **Two of the four thin ones opened above threshold on rephrasing alone**,
+the fin latch reaching 106 records once the question admitted control-surface actuation, and the
+sharp-versus-blunt leading edge reaching 97 once it admitted leading-edge cooling and materials.
 
-**A hand-typed OpenLibrary key is wrong almost every time and a verified one stays right**, which is
-an argument for the instrument rather than for care. Written one article ago, paid for immediately.
+**One was harvested.** Transient heat conduction stood at 59, which is thin for the relation the
+article builds its central distinction on, and a sweep raised it to 88.
 
----
-
-## Two Bugs of the Same Class, One in My Own Diagnostic
-
-**A347's `\bcompressor\b` could not match `COMPRESSORS`.** While auditing A348 I wrote a probe for
-civil-engineering contamination containing a bare `urban`, which matched inside **dist·urban·ce** and
-reported 48 hypersonic flight-control papers as contaminants. **The probe was the defect.**
-
-**Both are the A345 near-miss class**, where `\bX-?48\b` could not match `X-48B`. It has now appeared
-three times, twice in patterns written to implement the lesson.
+**One was deliberately left.** The claim that the engine was never the limiting item stands at 34
+records. **A342 measured span of control at eleven and left it. A347 measured where analysis effort
+goes at 65 and left it.** Both recorded that a bibliographic survey is a poor instrument for a claim
+about how a programme allocated its attention, and this series has now paid for that measurement
+twice. The claim rests on four flight outcomes, which is a small sample, and the Epistemic State says
+so.
 
 ---
 
-## The Equation Pass Supplied the Argument's Missing Half
+## Two Prose Defects Caught by Reading and Not by Any Checker
 
-**19 display equations to 39.**
+**A citation inserted at the primary pass left `It established` with a dangling referent**, the
+nearest preceding subject having become an open-jet test facility. The paragraph was moved to where
+it belongs, which is after the claim it qualifies.
 
-**The draft argued from duration and never said what duration does to a solid.** Heat diffuses as the
-square root of time, so at a diffusivity typical of a nickel superalloy the heat reached **6.2
-millimetres into the structure on the X-43 and 27.1 on the X-51**.
-
-**The ratio is the firm part**, being the square root of the ratio of burn times, and it depends on no
-material property at all because the diffusivity cancels. The absolute depths depend on it entirely.
-**Six millimetres is a skin. Twenty-seven is not carriable as dead mass**, and that is the distinction
-between a heat capacity problem and a heat transfer problem made concrete.
+**The phrase `a discipline whose exotic component has been solved` contradicted the article's own
+Epistemic State**, which states that nothing in the record speaks to the hours an aircraft would need.
+Changed to `has stopped being the constraint`, with the distinction made explicit.
 
 ---
 
-## The Flight Data Bounds the Engine the Programme Never Published
+## A Book Check Reported a Mismatch That Did Not Exist
 
-**Inverting Breguet's range relation gives a product and not a value.**
-
-    Isp x (L/D) = R / (V ln(W0/W1)) = 3,215
-
-At a lift-to-drag ratio of 3 the engine was making about **1,072 seconds** of specific impulse; at 2 it
-is 1,607 and at 4 it is 804. **The flight cannot separate the two factors** and the article says so.
-
-**The vehicle's own acceleration over the burn gives a net specific impulse of 87 seconds**, a lower
-bound because the altitude at booster separation is unpublished and any climb is energy the engine also
-supplied. **Between 89 and 95 percent of what the engine made went into drag.**
-
-That is the article's thesis seen from the propulsion side: the engine was not the marginal component.
+One identifier returned nothing on a single run and resolved correctly on two further runs. **That is
+a transient fetch failure, not a bad key**, and A347's lesson applied without needing to be
+rediscovered: a broken check reports the data as broken, and that is the dangerous direction.
 
 ---
 
-## Two More Results Worth Naming
+## The Prose Read Did Not Cover the Prose the Emitters Produce
 
-**The waverider's compromise is now a temperature.** Sutton and Graves gives 2.85 megawatts per square
-metre at a five millimetre nose radius and 0.90 at fifty, and radiation equilibrium puts those at
-**2,543 and 1,839 degrees Celsius**, both above any structural material. **The shape wants a sharp
-edge to keep the shock attached and the thermal problem wants a blunt one.**
+**Three sentences in the Source Base are generated from the reference data** so that they cannot go
+stale, which is the fix A342 and A347 both earned. **None of them was read after generation.**
 
-**The Kantrowitz limit makes the second flight's failure a number.** A fixed-geometry inlet at Mach 5.1
-cannot contract internally past **1.55**, the throat being at least **0.646** of the capture area, so
-any further compression has to come from the forebody, which is the other reason the vehicle is shaped
-as it is.
+**One opened with `1 record in 5,976`**, using a numeral where the house style spells small numbers
+out. **Another credited `a supplementary sweep` with figures that four sweeps had produced.** Both
+were corrected in the emitters rather than in the article, so the correction survives the next
+regeneration.
 
-**The seal was inverted to give the engine length.** Three quarters of an inch of growth implies an
-engine about six feet long, offered as a consistency check rather than a measurement.
-
----
-
-## The A347 Lesson Was Applied One Pass Earlier
-
-**A347's publication review found its Epistemic State and framing section stale**, both written at the
-draft pass and never updated for the two passes since.
-
-**Both were updated in this pass, immediately.** The Epistemic State now lists every derived quantity
-rather than the draft-pass subset, and a fifth framing limit names the six results that rest on
-material and mixture properties this vehicle never published, being a diffusivity, an expansion
-coefficient, a temperature rise, a nose radius, an emissivity and a stoichiometric ratio.
-
-**One instance of drafting narration was caught and removed** from inside that section, where a limit
-had been introduced as something a named pass had added. **The argument does not narrate its own
-history**, and this defect has now appeared in three consecutive articles.
-
----
-
-## The Primary Fraction Opened at 14.2 Percent and the Reason Was Not the Harvest
-
-**Supersonic combustion stood at 4.3 percent primary across 1,137 records.** The coolant argument
-stood at 4.2. **The sibling programme this whole article compares against had two records.**
-
-**That is a fact about where hypersonic propulsion was published.** NASA Langley and the Air Force
-Research Laboratory worked it out between roughly 1960 and 2010 and issued reports, while the modern
-journal literature on scramjet combustion is enormous and international. **A balanced sweep dilutes
-the primary fraction even when every record it adds is on subject.**
-
-**Two repository-only sweeps took it to 21.4 percent**, 1,262 of 5,891.
-
----
-
-## Two Subjects Were Aimed At Directly and Did Not Move
-
-**Endothermic fuel and engine cycle analysis were the two thinnest and a sweep was written for each.**
-Neither moved much, and the reason was **verified against what the repositories returned rather than
-inferred from the pool**, which is A345's lesson.
-
-**Across the 3,660 records the two repositories returned in total, eighteen touch endothermic fuels or
-fuel heat sink and five touch cycle analysis or specific impulse.** Several of the eighteen are
-off-subject, being photochemical hydrazine synthesis and a methanol shelter cooling system.
-
-**Fuel heat-sink measurement and cycle accounting are things a contractor measures and does not
-publish.** Both of the article's arguments resting on them are now carried by a small named set rather
-than by a keyword sweep, and the article says so.
-
----
-
-## Twenty-Nine Primaries Named by Identifier, Every One Verified
-
-Chief among them the **Mach 5 endothermic-fuel thermal management study**, which is this article's
-coolant argument almost exactly; the **X-43A Mach 10 lessons-learned report** and the chief engineer's
-account of that flight; the **actively cooled structural panel series of 1978 and 1979**, which is
-what a long flight actually needs; the **stream thrust accounting method**, which is how an engine
-with no separable inlet or nozzle is measured at all; and the **waverider heat transfer work** that
-bears directly on the sharp-versus-blunt compromise.
-
----
-
-## A Diagnostic of Mine Reported Two Records Where There Were Sixteen
-
-**A probe for the Hyper-X programme was written as `hyper-?x`.** The corpus normalises an intraword
-hyphen to a space before matching, so the pattern could not match `Hyper X` and reported the sibling
-programme as almost absent from a pool holding sixteen records of it, eleven of them primaries.
-
-**That is the fourth separator or boundary failure in this article's preparation**, after `X-48B`
-against a hyphenated pattern in A345, `COMPRESSORS` against `\bcompressor\b` in A347, and a bare
-`urban` matching inside `disturbance` earlier in A348.
-
-**Every one reported the data as wrong when the diagnostic was wrong**, which is the dangerous
-direction, because it argues for work that is not needed and hides work that is.
-
-**`survey.loose` now splits on hyphens as well as spaces** and carries a regression test naming all
-four incidents. Library 100 to 101.
-
----
-
-## The Pool Counts Are Now Emitted
-
-**The Source Base stated how many records name the X-51, the waverider and supersonic combustion, and
-all of those were hand-typed.** They moved three times during this pass and would have gone stale each
-time. They are emitted from `refs.json` at assembly now, which is the A342 defect class **prevented
-rather than caught**.
+**The build was started, killed and restarted once because of this**, and the reason is worth stating
+precisely. A347's rule was to finish the entire prose read before building, and the read had finished.
+**The rule as written did not say that generated prose is prose.** It does now.
 
 ---
 
@@ -213,27 +96,41 @@ rather than caught**.
 
 - `python3 _verify.py` reports **0 errors, 0 warnings**.
 - `python3 _lib/test_lib.py` reports **101 of 101**.
-- `tmp/a348/verify_numbers.py` reports **ALL CHECKS PASS**, now **80 recomputed claims**, all present
-  in the prose, 17 cluster rows matching their own citations, cluster table matching sections.
-- Reference integrity: **5,966 defined, 5,966 used, 0 undefined, 0 orphaned**.
-- Book links **8 checked, 0 mismatched**. All 20 foundational NTRS identifiers and all promoted DTIC
-  identifiers resolve or are registered.
-- **12,589 lines, 70,295 words, 12,921 author prose words, 39 display equations, none inlined.**
-- Survey **5,891 research records, 1,262 report primaries at 21.4 percent**.
+- `tmp/a348/verify_numbers.py` reports **ALL CHECKS PASS**, **80 recomputed claims** all present in
+  the prose, **four spelled-out ordinal claims verified as words**, 17 cluster rows matching their own
+  citations, cluster table matching sections.
+- Reference integrity: **6,051 defined, 6,051 used, 0 undefined, 0 orphaned, 0 duplicate URLs**.
+- Book links **8 checked, 0 mismatched** on two consecutive runs.
+- Prose: no contractions in author prose, no dashes, no prose colons, one semicolon and it is the
+  `console.log` tag. **Zero authored caps-emphasis runs. Zero drafting narration in the argument.**
+  NASA is spelled out before its first bare use.
+- **12,777 lines, 71,734 words, 13,459 author prose words, 39 display equations, none inlined.**
+- Survey **5,976 research records, 1,301 report primaries at 21.8 percent**.
+- Sweep store **121 patterns**, three tagged.
 
-**No production build has been run.** That belongs to the publication review.
+- **The stub-isolated production build succeeded in 824 seconds with no Liquid error**, against bytes
+  checksummed before the build and re-verified against both the stub copy and the draft after it.
+  **The rendered audit reports no findings across 87 pages.** Source and rendered display equations
+  agree at **39**, **zero raw dollar pairs leak**, **zero unresolved reference brackets**, page
+  renders to 1,063,589 bytes.
+- **The build was started twice and the first was killed and discarded**, because reading the emitted
+  fragments after the prose read found two defects in them. The second ran to completion and the
+  article was not touched again.
 
 ---
 
 ## Next
 
-**The A348 publication review**, the fourth and last pass. It builds and it pushes.
+**A349**, editorial date 2025-11-27, series index 53. **Twenty articles remain.**
 
-**Finish the entire prose read before starting the build.** A347's review started the build twice and
-killed it twice, because the read kept finding things. The rule earned there is that a publication
-review reliably finds prose defects and any build started before the read is finished is wasted.
+**Carry forward.** `gate.ATMOSPHERE` is named rather than copied. The three tagged sweep-store
+families are switched off only for articles whose subject they are, and A348's `harvest.ALLOW` shows
+the pattern. `survey.loose` now splits on hyphens and should be used for any probe naming a
+designation or a hyphenated programme.
 
-**Read the opening against the conclusion first.** That has found a defect in three consecutive
-articles, most recently a disc loading compared to a Black Hawk that nothing in the article computed.
+**The rule that earned itself twice this article**: finish the entire prose read before starting the
+build. A347 started its build twice and killed it twice. A348 started it once, after the read was
+complete, and did not touch the article again.
 
 **The book-identifier repair for A342 through A346 remains outstanding and still needs your decision.**
+Twelve anchors across five drafts, none in a published post.

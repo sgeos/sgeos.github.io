@@ -10,11 +10,15 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A346 are drafted with all four passes complete on every one, committed and
-PUSHED. A348, Boeing X-51 Waverider, has completed the DRAFT, EQUATION-DENSITY and
-PRIMARY-REFERENCE passes, three of four, and is committed and NOT pushed. Fifty-two of seventy-two
-drafted. None published, and publication has never been authorised.**
-The next action is the **A348 publication review**, the fourth and last pass, which builds and pushes.
-Report primaries stand at **1,262 of 5,891, being 21.4 percent**, up from 14.2.
+PUSHED. A348, Boeing X-51 Waverider, has completed ALL FOUR PASSES, is committed and is PUSHED.
+Fifty-two of seventy-two drafted. None published, and publication has never been authorised.**
+The next new article is **A349**, editorial date 2025-11-27, series index 53.
+Report primaries finished at **1,301 of 5,976, being 21.8 percent**, up from 14.2 at the draft pass.
+
+**A348's PUBLICATION REVIEW FOUND A PRESENCE CHECK PASSING ON A COINCIDENCE.** Adding the digits 12
+and 18 to the number checker made a claim pass on `18.8`, on `18,500` and on a backlink. **A check
+that goes green without checking anything is the A342 class**, and the checker now verifies
+spelled-out ordinals as words.
 
 **A348's PRIMARY PASS FOUND TWO SUBJECTS THAT DO NOT MOVE WHEN AIMED AT.** Across 3,660 repository
 records, eighteen touch endothermic fuels and five touch engine cycle analysis. **That was verified

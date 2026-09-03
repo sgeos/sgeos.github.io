@@ -22,12 +22,55 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_boeing_x51.markdown`, A348, editorial date 2025-11-26, series `x_planes` index
 52 of 72.
 
-**12,589 lines, 39 display equations, 5,966 reference definitions, 70,295 words after the
-primary-reference review**, of which 12,921 are author prose. **Three of four passes complete**, being
-the draft, the equation density and the primary references. Committed and **not pushed**, since only
-the publication review pushes. **Not published**, and publication of the series
-has never been authorised. **Full-aircraft class.** Report primaries **1,262 of 5,891, being 21.4
+**12,777 lines, 39 display equations, 6,051 reference definitions, 71,734 words after the
+publication review**, of which 13,459 are author prose. **All four passes complete.** Committed and
+**PUSHED**. **Not published**, and publication of the series
+has never been authorised. **Full-aircraft class.** Report primaries **1,301 of 5,976, being 21.8
 percent**, up from 762 of 5,366 at 14.2 percent.
+
+**The stub-isolated production build succeeded in 824 seconds with no Liquid error, against the exact
+bytes committed**, the checksum having been matched against the stub copy before the build started and
+against both stub and draft after it finished. **The rendered audit reports no findings across 87
+pages.** Source and rendered display-equation counts agree at **39**, with **zero raw dollar pairs
+leaking** and **zero unresolved reference brackets**. The article renders to 1,063,589 bytes.
+
+**THE PROSE READ DID NOT COVER THE PROSE THE EMITTERS PRODUCE, AND THAT IS A NEW GAP.** Three
+sentences in the Source Base are generated from the reference data so they cannot go stale, and none
+of them was read after generation. **One opened `1 record in 5,976`**, using a numeral where the house
+style spells small numbers out, and another credited **a supplementary sweep** with figures that four
+sweeps had produced. Both fixed in the emitters rather than in the article, so they stay fixed.
+
+**The build was started, killed and restarted once because of it.** A347's rule was to finish the
+entire prose read before building, and the read had finished. **The rule as written did not say that
+generated prose is prose**, and it does now.
+
+**READING THE OPENING AGAINST THE CONCLUSION FOUND TWO DEFECTS, WHICH IS WHY IT IS DONE FIRST.** The
+conclusion said the article showed the engine worked **by failing three times**, when the first flight
+was a partial success cut short after 143 seconds and the article says so in its own flight-record
+table. It also called the fuel's heat-sink capacity **about a twentieth** of the energy it releases,
+when 5.4 to 8.1 percent is **one part in 18.5 to one in 12.3**, being between a twelfth and an
+eighteenth.
+
+**A PRESENCE CHECK THEN PASSED FOR THE WRONG REASON.** Correcting the second left a claim written in
+words, and adding the digits 12 and 18 to the number checker made it pass on `18.8`, on `18,500` and
+on the X-12 backlink in the opening sentence. **It went green without checking anything**, which is
+the A342 defect class exactly. The checker now verifies spelled-out ordinals as words and confirms
+three further claims that had been unverifiable.
+
+**THE CONCLUSIONS WERE PROBED AGAIN BECAUSE THEY WERE NOT THE DRAFT'S CONCLUSIONS.** Six of ten were
+comfortable, two of the four thin ones opened above threshold on rephrasing, one was harvested, and
+**one was deliberately left**. The claim that the engine was never the limiting item stands at 34
+records, and A342 and A347 both measured the same class of claim and left it, so **the series has paid
+for that measurement twice already**.
+
+**TWO PROSE DEFECTS WERE CAUGHT BY READING.** A citation inserted at the primary pass left `It
+established` with a dangling referent, and the phrase **a discipline whose exotic component has been
+solved** contradicted the article's own Epistemic State, which says nothing in the record speaks to
+the hours an aircraft would need. Both corrected.
+
+**A BOOK CHECK REPORTED A MISMATCH THAT DID NOT EXIST.** One identifier returned nothing on a single
+run and resolved correctly on two more, which is a transient fetch failure rather than a bad key.
+**A347's lesson applied**, being that a broken check reports the data as broken.
 
 **THE PRIMARY FRACTION OPENED AT 14.2 PERCENT AND THE REASON WAS NOT THE HARVEST.** Supersonic
 combustion stood at **4.3 percent primary across 1,137 records**, the coolant argument at 4.2, and the
