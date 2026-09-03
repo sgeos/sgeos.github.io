@@ -1,7 +1,7 @@
 ## Last Updated
 
 **Date**: 2026-09-02
-**Task**: **A347, X-Planes: Boeing X-50 Dragonfly, equation-density review. The second of four.**
+**Task**: **A347, X-Planes: Boeing X-50 Dragonfly, primary-reference review. The third of four.**
 Committed and **not pushed**, since only the publication review pushes. **Not published**, and
 publication of the series still not authorised. **Fifty-one of seventy-two drafted.**
 
@@ -163,60 +163,97 @@ reasoning. It was moved to the Source Base.
 
 ---
 
-## The Equation Pass Computed the Keystone the Draft Had Only Asserted
+## The Primary Pass Changed the Article's History
 
-**13 display equations to 40**, past A345's 36 and A346's 32.
+**The draft called the X-50A the second serious attempt at a stopped rotor, following the X-wing. It
+is the third.**
 
-**The article's central mechanism was carried entirely by a verbal argument.** The draft said the wake
-skews off the canard before it leaves the tail and that the residual is a nose-up moment. That is the
-claim the whole article rests on and it had no arithmetic behind it.
+**Hughes proposed a tip-jet driven rotor/wing in 1965**, developed it as a research aircraft design
+through 1968, and offered it as city-centre transport in 1967. **The propulsion was flight-proved on
+the XV-9A, which first flew in November 1964.** No rotor/wing aircraft was ever built.
 
-**It does now.** With the wake sheet descending at the induced velocity and convecting aft at the
-flight speed, a surface at station $x_s$ and drop $h$ is clear once $V > v_i (R - x_s) / h$. **The
-canard clears near 15 knots and the tail not until about 108.**
+**None of this appears in any secondary account of the X-50 consulted for this article.** It was found
+by asking the Defense Technical Information Center for hot cycle rotors, not by asking anybody about
+the X-50. Reading about an aeroplane produces the predecessor that aeroplane's own literature names.
 
-**The strongest part is a ratio.** The induced velocity and the surface height appear in both clearing
-speeds and cancel, so
+**It also handed the reaction-drive argument a flight test.** The XV-9A worked, and Hughes abandoned
+pressure-jet propulsion because the aircraft was **noisy and burned a great deal of fuel**. That is
+the Froude efficiency the equation pass computed, being paid forty years before this aeroplane was
+asked to pay it again.
 
-    V_tail / V_canard = (R - x_tail) / (R - x_canard) = 10.5 / 1.5 = 7.0
-
-**The two quantities the estimate is least sure of are exactly the two that do not affect this
-number.** Whatever they really are, the tail stays in the wake to roughly seven times the speed at
-which the canard leaves it. The unopposed moment is equivalent to a centre of gravity shift of **3.7
-to 7.3 inches**, or 5.1 to 10.2 percent of rotor radius, across exactly the band both airframes were
-lost in.
-
-**Other additions.** The reverse flow area fraction $\mu^2/4$ and its limit, where the whole disc
-reverses at an advance ratio of two, reached when the tip speed has fallen to 20 percent of its
-conversion-entry value and with all of that still left to lose. The retreating tip going negative at
-an advance ratio of one. The advancing tip Mach number. The square law of rotor lift against rotor
-speed, tabulated. Blade element loading and the local velocity that survives when the rotational term
-vanishes. The four-term lift balance. Download and its weight fraction, in which the disc area
-cancels. Induced power and figure of merit. Tip jet thrust reduced by the nozzle's own motion, and the
-power it delivers, which fight each other. Aspect ratio with Helmbold's low aspect ratio lift slope,
-showing the stopped rotor gives away 28 to 46 percent of its lift-curve slope to its own proportions.
-The same surface sized twice, at cruise and maximum speed, differing by a factor of 6.42.
+**The opening history, the research question, the reaction-drive section and the conclusion were all
+rewritten.** A survey that changes the argument is the pass working.
 
 ---
 
-## Three Defects in the New Work, and Only One Was Caught by a Machine
+## The Equation Pass Had Moved the Keystone and the Survey Had Not Followed
 
-**The verifier caught a real arithmetic error.** The maximum-speed Mach number was stated as 0.575
-against a computed 0.574.
+Probing the pool for what the article now argues from found the support close to absent.
 
-**Two were caught by reading, and both were in prose I had just written.** A band from 15 to 108 knots
-was described as **an order of magnitude** when it is a factor of seven. And I claimed the hover-value
-induced velocity biased the estimate **conservatively**, when in fact a smaller induced velocity moves
-**both** clearing speeds down together and shifts the band rather than widening it.
+| Subject | Records | Primaries |
+|---|---|---|
+| rotor wake skew angle | 0 | 0 |
+| download pitching moment | 0 | 0 |
+| empennage in the rotor wake | 4 | 0 |
+| figure of merit | 0 | 0 |
+| blade element theory | 86 | 0 |
 
-**A third was the A345 class again.** A note about rounding was written inside the reaction-drive
-argument, and a remark about an earlier draft was written inside the wake section. **The article
-narrating its own drafting history in its own reasoning is a defect this method produces reliably**,
-and it has now been caught twice in two passes on this article alone.
+**A survey holding 86 records on blade element theory and no primary among them is not a survey of
+blade element theory.**
 
-**Where the Framing Breaks Down gained a paragraph saying that quantifying an inference does not make
-it evidence.** The numbers show the proposed mechanism is of the right size to matter. They do not
-show that it operated.
+**The relation the whole article turns on was named rather than searched for.** Heyson and Katzoff's
+1957 treatment of induced velocities near a lifting rotor is where the wake skew relation comes from,
+and no keyword sweep in this article had returned it. Six further reports on inflow modelling, wake
+geometry and rotor-fuselage interaction went in the same way, each verified against the repository
+before being added.
+
+---
+
+## Why the Fraction Opened Low, and What Fixed It
+
+**13.6 percent was the lowest opening of the recent articles, and that is a fact about where this
+subject was published.** Stopped rotors, wake skew, empennage immersion and control power were worked
+out by NASA, the Army and the Navy between roughly 1955 and 1995 and issued as reports, which Crossref
+indexes poorly. **A general sweep dilutes the primary fraction even when every record it adds is on
+subject**, because Crossref returns roughly six records per repository record on these queries.
+
+**The second sweep asked the two repositories only**, so every record it could return was a primary by
+this article's definition. **Final: 1,836 of 7,708, being 23.8 percent, past A346's 23.0.**
+
+**The share by cluster is uneven and the article prints the whole table.** Weight and sizing reaches
+57.7 percent because sizing is what a contractor writes a report about. **Two clusters stayed low
+after being aimed at directly**, being the article's own subject at 11.5 percent and control power at
+11.1, and the article says so rather than hiding it. A cluster that does not move when aimed at is
+reporting something about the field.
+
+---
+
+## A Verification of Mine Was Broken and Nearly Condemned a Thousand Citations
+
+**A sample of ten report identifiers was checked by requesting each address and all ten failed.** The
+conclusion available at that moment was that the survey's report primaries did not resolve.
+
+**The failure was a certificate verification error in my own checking script.** Re-checking against
+the Crossref registry, which is what this corpus verifies citations against rather than an address
+returning a status, found every one registered, and a fourteen-record sample returned fourteen of
+fourteen.
+
+**A broken check reports the data as broken, and that is the dangerous direction**, because a checker
+that fails loudly against good data trains its reader to overrule it.
+
+---
+
+## The Sweep Store Gained Six More Observed Families
+
+Now **115 patterns**. A military environmental assessment for a **wastewater lift station** reached the
+kept set on the word LIFT, and one for a tactical air control **wing** on the word WING.
+Thick-section **composites** reached the aerofoil cluster against a thick aerofoil section. Also
+helmet-mounted display symbology, rotor blade structural repair, spacecraft formation flying, and
+hypersonics.
+
+**The hypersonics pattern carries an explicit warning not to reuse it blindly.** This series covers
+the X-15, the X-30 and the X-43, and for those articles hypersonics is the subject rather than the
+contaminant. It is recorded only because A347's aeroplane never exceeded Mach 0.6.
 
 ---
 
@@ -224,24 +261,28 @@ show that it operated.
 
 - `python3 _verify.py` reports **0 errors, 0 warnings**.
 - `python3 _lib/test_lib.py` reports **98 of 98**.
-- `tmp/a347/verify_numbers.py` reports **ALL CHECKS PASS**, now **96 recomputed claims**, all 96
-  present in the prose, 19 cluster rows matching their own citations, cluster table matching sections.
-- Reference integrity: **6,121 defined, 6,121 used, 0 undefined, 0 orphaned**.
-- **40 display equations, none inlined with prose.** No contractions, no em or en dashes, no prose
-  colons, only the mandatory `console.log` semicolon.
-- **12,959 lines, 71,344 words, 13,815 author prose words.**
+- `tmp/a347/verify_numbers.py` reports **ALL CHECKS PASS**, now **102 recomputed claims**, all present
+  in the prose, 19 cluster rows matching their own citations, cluster table matching sections.
+- **The survey statistics are now emitted from `refs.json` at assembly rather than typed**, by
+  `emit_source_base.py`, so the paragraph and the per-cluster primary table carry no hand-written
+  number. That closes the A342 defect class at its source rather than checking for it afterwards.
+- Reference integrity: **7,788 defined, 7,788 used, 0 undefined, 0 orphaned**.
+- Book links: **13 checked, 0 mismatched**. All 16 hand-added reference URLs return 200.
+- **16,364 lines, 91,414 words, 16,641 author prose words, 40 display equations, none inlined.**
 
-**No production build has been run.** That belongs to the publication review.
+**No production build has been run.** That belongs to the publication review, and costs roughly half
+an hour against a stub site.
 
 ---
 
 ## Next
 
-**The A347 primary-reference review**, the third of four passes. **Report primaries stand at 824 of
-6,042, being 13.6 percent**, which is the lowest opening figure of the recent articles, so the pass
-has room. The obvious targets are the stopped-rotor and X-wing report literature of the 1970s and
-1980s, which is a NASA and Navy literature that Crossref indexes poorly, and the control-power and
-handling-qualities specification reports.
+**The A347 publication review**, the fourth and last pass. It builds and it pushes.
+
+**The known target has fired for seven consecutive articles**, being that the survey under-covers the
+article's own conclusions. **A347 ran that probe at the draft pass instead**, so the publication
+review should probe the conclusions as they now stand, which are not the ones the draft had. The
+history, the reaction-drive argument and the conclusion were all rewritten this pass.
 
 **The book-identifier repair for A342 through A346 is still outstanding and still needs your
-decision.** It is listed above.
+decision.**

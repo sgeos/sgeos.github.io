@@ -154,6 +154,48 @@ NOISE_PATTERNS = [
      "'Numerical Flow Analysis of a Corrugated Dragonfly Airfoil Using Cartesian-Mesh "
      "CFD' reached the kept set through the CARTESIAN MESH query rather than through the "
      "aeroplane's name, which is why a name-based filter would have missed it"),
+    (r"environmental assessment|environmental impact statement|\bNEPA\b|"
+     r"programmatic environmental|wastewater|land use plan|public scoping",
+     "A347: THE MILITARY ENVIRONMENTAL ASSESSMENT, which is a document type the Defense "
+     "Technical Information Center holds in quantity and which names aircraft, wings and "
+     "lift constantly in a non-aerodynamic sense. 'Environmental Assessment (EA) for "
+     "Replacement of the Wastewater Lift Station' reached the kept set on the word LIFT, "
+     "and 'Environmental Assessment for Proposed Aircraft Replacement, 507th Tactical Air "
+     "Control WING' on the word WING"),
+    (r"thick[- ]section composite|composite (?:laminate|structure).{0,40}"
+     r"(?:ballistic|impact|damage tolerance|multiscale)|delamination",
+     "A347: THICK-SECTION COMPOSITE STRUCTURES against a THICK AEROFOIL SECTION. The X-50's "
+     "rotor is 24 percent thick and the word `thick` anchors that family, so 'Damage "
+     "Tolerance of Thick-Section Composites Subjected to Ballistic Impact' reached the "
+     "aerofoil cluster"),
+    (r"hypersonic|high enthalpy|scramjet|reentry vehicle|re-entry vehicle|"
+     r"ablation.{0,30}(?:cone|nose|heat shield)|aerothermodynamic",
+     "A347: HYPERSONICS IN A SUBSONIC ROTORCRAFT SURVEY. 55 records reached the kept set, "
+     "including ablation effects on the pitching moment derivatives of cones. THIS PATTERN "
+     "IS SUBJECT-SPECIFIC AND MUST NOT BE CARRIED BLINDLY: this series covers the X-15, the "
+     "X-30 and the X-43, and for those articles hypersonics is the subject rather than the "
+     "contaminant. It is recorded because A347's aeroplane never exceeded Mach 0.6"),
+    (r"(?:spacecraft|satellite|launch vehicle).{0,40}(?:formation|constellation|"
+     r"rendezvous|docking|attitude control)|formation flying.{0,25}spacecraft|"
+     r"orbital (?:debris|mechanics|transfer)",
+     "A347: SPACECRAFT FORMATION FLYING against aircraft formation and rotor wake. 'Design, "
+     "Integration and Flight Test of a Pair of Autonomous Spacecraft Flying in Formation' "
+     "reached the kept set. The pattern deliberately does NOT match Mars or lunar "
+     "ROTORCRAFT, which are rotor aerodynamics and belong in the pool"),
+    (r"helmet[- ]mounted display|\bsymbolog|head[- ]up display\b|\bHUD\b|"
+     r"display (?:format|scaling|clutter)|night vision goggle|cockpit display",
+     "A347: THE HUMAN-FACTORS LITERATURE OF ROTORCRAFT DISPLAYS. Six records reached "
+     "the kept set through the rotorcraft and hover anchors, including 'Effects of Hover "
+     "Symbology Display Scaling on Performance and Workload'. It is genuinely about "
+     "helicopters and genuinely about hover, and it is about the PILOT rather than the "
+     "aircraft. A347's subject was unmanned, which is what makes the family off-topic "
+     "here rather than merely peripheral"),
+    (r"field[- ]replaceable|blade (?:pocket|repair|bonding)|hot corrosion|"
+     r"adhesive bond|corrosion (?:protection|resistance|fatigue)|depot (?:level|maintenance)",
+     "A347: ROTOR BLADE STRUCTURAL REPAIR AND MATERIALS. 'Bonded Field-Replaceable Rotor "
+     "Blade Pocket for the CH-54B' and a hot corrosion study reached the kept set. The "
+     "words name a rotor blade and the subject is adhesives and corrosion, which is a "
+     "manufacturing literature rather than an aerodynamic one"),
     (r"\bcompressor\b|inlet guide vane|\bIGV\b|turbomachin|blade row|"
      r"(?:axial|centrifugal|multistage|transonic) (?:compressor|turbine stage)|"
      r"stator.{0,25}rotor|rotor.{0,25}stator|splitter vane|aerodynamic detuning",

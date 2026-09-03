@@ -22,12 +22,39 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_boeing_x50.markdown`, A347, editorial date 2025-11-25, series `x_planes` index
 51 of 72.
 
-**12,959 lines, 40 display equations, 6,121 reference definitions, 71,344 words after the
-equation-density review**, of which 13,815 are author prose. **Two of four passes complete**, being
-the draft and the equation density. Committed and **not pushed**, since only the publication review
-pushes. **Not published**, and publication of the series
-has never been authorised. **Full-aircraft class.** Report primaries **824 of 6,042, being 13.6
-percent**, which the primary pass will raise.
+**16,364 lines, 40 display equations, 7,788 reference definitions, 91,414 words after the
+primary-reference review**, of which 16,641 are author prose. **Three of four passes complete**, being
+the draft, the equation density and the primary references. Committed and **not pushed**, since only
+the publication review pushes. **Not published**, and publication of the series has never been
+authorised. **Full-aircraft class.** Report primaries **1,836 of 7,708, being 23.8 percent**, up from
+824 of 6,042 at 13.6 percent, and past A346's 23.0.
+
+**THE PRIMARY PASS CHANGED THE ARTICLE'S HISTORY.** The draft called the X-50A the second serious
+attempt at a stopped rotor, following the X-wing. **It is the third.** Hughes proposed a tip-jet driven
+rotor/wing in 1965, developed it as a research aircraft design through 1968 and offered it as
+city-centre transport in 1967, and flight-proved the propulsion on the XV-9A in 1964. **None of that
+appears in any secondary account of the X-50 consulted**, and it was found by asking the Defense
+Technical Information Center for hot cycle rotors rather than by asking anybody about the X-50.
+
+**IT ALSO GAVE THE REACTION-DRIVE ARGUMENT A FLIGHT TEST.** The XV-9A worked and was abandoned as
+noisy and thirsty, which is the Froude efficiency the equation pass computed being paid forty years
+early. The opening history, the reaction-drive section and the conclusion were all rewritten.
+
+**THE EQUATION PASS HAD MOVED THE KEYSTONE AND THE SURVEY HAD NOT FOLLOWED.** Wake skew returned no
+records at all, the download pitching moment none, the empennage in the wake four with no primaries,
+and **blade element theory 86 records with no primary among them**. Heyson and Katzoff's 1957
+treatment of induced velocities, which is where the skew relation comes from, was named by identifier
+because no keyword sweep in this article had returned it.
+
+**A VERIFICATION OF MINE WAS BROKEN AND NEARLY CONDEMNED A THOUSAND CITATIONS.** Ten sampled report
+identifiers all failed to resolve. **The failure was a certificate error in the checking script.**
+Registry checks against Crossref returned 14 of 14 registered. A checker that fails loudly against
+good data trains its reader to overrule it.
+
+**The sweep store gained six more observed families and stands at 115 patterns**, including a military
+environmental assessment for a wastewater LIFT station and thick-section COMPOSITES against a thick
+aerofoil section. **The hypersonics pattern is marked as subject-specific and must not be carried
+into the X-15, X-30 or X-43 articles**, where it is the subject rather than the contaminant.
 
 **THE EQUATION PASS COMPUTED THE ARTICLE'S KEYSTONE, WHICH THE DRAFT HAD ONLY ASSERTED.** The wake
 skewing off the canard before the tail was carried entirely by a verbal argument. It is now arithmetic.

@@ -10,12 +10,16 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A346 are drafted with all four passes complete on every one, committed and
-PUSHED. A347, Boeing X-50 Dragonfly, has completed the DRAFT and EQUATION-DENSITY passes, two of
-four, and is committed and NOT pushed. Fifty-one of seventy-two drafted. None published, and
-publication has never been authorised.**
-The next action is the **A347 primary-reference review**, the third of four passes. Report primaries
-stand at **824 of 6,042, being 13.6 percent**, which is the lowest opening figure of the recent
-articles and the pass has room.
+PUSHED. A347, Boeing X-50 Dragonfly, has completed the DRAFT, EQUATION-DENSITY and
+PRIMARY-REFERENCE passes, three of four, and is committed and NOT pushed. Fifty-one of seventy-two
+drafted. None published, and publication has never been authorised.**
+The next action is the **A347 publication review**, the fourth and last pass, which builds and pushes.
+Report primaries stand at **1,836 of 7,708, being 23.8 percent**, up from 13.6 and past A346's 23.0.
+
+**THE PRIMARY PASS CORRECTED THE ARTICLE'S HISTORY.** Hughes proposed a tip-jet driven rotor/wing in
+1965 and flight-proved the propulsion on the XV-9A in 1964, so the X-50A is the third attempt at a
+stopped rotor and not the second. **That was found in the Defense Technical Information Center and
+appears in no secondary account of the X-50 consulted.**
 **The X-50 has no duct**, so A346's ducted-propulsor family was dropped entire and its rotor family
 carried forward, which is the gate discipline `_lib/gate.py` records running in both directions.
 
