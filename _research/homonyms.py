@@ -87,7 +87,7 @@ NOISE_PATTERNS = [
      "the other side, as records its gate refused, and recorded it only in prose"),
     (r"ducted (?:rocket|ramjet)|solid ducted|ramjet|scramjet.{0,20}duct|inlet buzz",
      "A346: a ducted propulsor is a helicopter anti-torque device and a DUCTED ROCKET "
-     "is solid-propellant missile propulsion, which shares the word"),
+     "is solid-propellant missile propulsion, which shares the word", "ramjet"),
     (r"air condition\w*|heat pump|\bHVAC\b|ventilation duct|chimney",
      "A346: 'ducted' also describes domestic air conditioning, which reached the pool "
      "through the same anchor"),
@@ -154,6 +154,18 @@ NOISE_PATTERNS = [
      "'Numerical Flow Analysis of a Corrugated Dragonfly Airfoil Using Cartesian-Mesh "
      "CFD' reached the kept set through the CARTESIAN MESH query rather than through the "
      "aeroplane's name, which is why a name-based filter would have missed it"),
+    (r"drug delivery|ferrofluid|\bblood flow\b|arter(?:y|ial|ies)|cardiac|\bstent\b|"
+     r"aneurysm|respiratory tract|biomedical|physiolog",
+     "A348: BIOMEDICAL COMPUTATIONAL FLUID DYNAMICS. 'Hydrodynamic modelling and CFD "
+     "simulation of ferrofluids flow in magnetic targeting drug delivery' reached the "
+     "kept set of a scramjet survey through the bare CFD anchor. Every article in this "
+     "series that names computational fluid dynamics is exposed to this family"),
+    (r"\bUAS\b.{0,40}(?:safety|efficiency|traffic|airspace|integration|operation)|"
+     r"small unmanned aircraft|\bsUAS\b|drone (?:delivery|inspection|photograph)",
+     "A348: SMALL UNMANNED AIRCRAFT OPERATIONS against unmanned research vehicles. 'UAS "
+     "flight test for safety and for efficiency' reached the kept set on `flight test`. "
+     "The X-51 was unmanned and so is most of this series, so the pattern is deliberately "
+     "narrow and names the OPERATIONAL vocabulary rather than the word unmanned"),
     (r"deodoriz\w*|adsorptive|adsorption (?:rotor|wheel)|desiccant (?:rotor|wheel)|"
      r"exhaust gas treatment|\bVOC removal\b",
      "A347: THE ADSORPTION ROTOR OF AIR TREATMENT PLANT. 'Simulation of an Adsorptive "
@@ -170,7 +182,7 @@ NOISE_PATTERNS = [
      "flight-test and demonstrator queries. **THIS PATTERN IS SUBJECT-SPECIFIC AND MUST "
      "NOT BE CARRIED BLINDLY.** The X-Planes series covers the X-7, X-8, X-9, X-10 and "
      "X-17, every one of which IS a missile, and for those articles this pattern would "
-     "delete the subject. It is recorded because A347's aeroplane is a rotorcraft"),
+     "delete the subject. It is recorded because A347's aeroplane is a rotorcraft", "missiles"),
     (r"life support|aircrew (?:integrated|equipment|protection|clothing)|"
      r"oxygen (?:system|mask)|survival equipment|anthropometr",
      "A347: AIRCREW LIFE SUPPORT AND PERSONAL EQUIPMENT. Seven records including "
@@ -197,7 +209,7 @@ NOISE_PATTERNS = [
      "including ablation effects on the pitching moment derivatives of cones. THIS PATTERN "
      "IS SUBJECT-SPECIFIC AND MUST NOT BE CARRIED BLINDLY: this series covers the X-15, the "
      "X-30 and the X-43, and for those articles hypersonics is the subject rather than the "
-     "contaminant. It is recorded because A347's aeroplane never exceeded Mach 0.6"),
+     "contaminant. It is recorded because A347's aeroplane never exceeded Mach 0.6", "hypersonics"),
     (r"(?:spacecraft|satellite|launch vehicle).{0,40}(?:formation|constellation|"
      r"rendezvous|docking|attitude control)|formation flying.{0,25}spacecraft|"
      r"orbital (?:debris|mechanics|transfer)",
@@ -801,7 +813,15 @@ NOISE_PATTERNS = [
      "and must survive, which is why the pattern does not contain a bare 'train'"),
 ]
 
-_COMPILED = [(re.compile(p, re.I), why) for p, why in NOISE_PATTERNS]
+# A PATTERN MAY CARRY A TAG, AND A TAGGED PATTERN IS ONE WHOSE SUBJECT IS SOMEBODY
+# ELSE'S SUBJECT. `hypersonics` is a contaminant in a rotorcraft survey and the whole
+# point of the X-15, X-30, X-43 and X-51 articles. A348 was the first article to need
+# one switched off, one article after A347 recorded the warning in prose. A warning
+# addressed to a reader is not a mechanism, which is this repository's oldest lesson.
+_COMPILED = [(re.compile(e[0], re.I), e[1], e[2] if len(e) > 2 else None)
+             for e in NOISE_PATTERNS]
+
+TAGS = sorted({e[2] for e in NOISE_PATTERNS if len(e) > 2})
 
 
 def load():
@@ -874,21 +894,45 @@ def is_rejected(key, rec=None, store=None):
     return None
 
 
-def noise_hit(text):
-    """The first pattern this text trips, with its incident, or None."""
-    for rx, why in _COMPILED:
+def noise_hit(text, allow=()):
+    """The first pattern this text trips, with its incident, or None.
+
+    `allow` names TAGS to switch off, for an article whose subject is the tagged
+    family. An unknown tag raises rather than being ignored, so a typo cannot
+    silently leave a pattern armed against the article's own subject.
+    """
+    allow = _check_tags(allow)
+    for rx, why, tag in _COMPILED:
+        if tag is not None and tag in allow:
+            continue
         if rx.search(text or ""):
             return rx.pattern, why
     return None
 
 
-def filter_records(records, fields=("title", "venue")):
+def _check_tags(allow):
+    """Validate an allow list against the known tags, loudly."""
+    allow = set(allow or ())
+    unknown = allow - set(TAGS)
+    if unknown:
+        raise ValueError(
+            f"unknown noise-pattern tag(s) {sorted(unknown)}; known tags are {TAGS}. "
+            "A tag that does not exist would silently leave its pattern armed.")
+    return allow
+
+
+def filter_records(records, fields=("title", "venue"), allow=()):
     """Split harvested records into kept and dropped.
 
     `records` is a mapping of key to record. Returns (kept, dropped) where
     dropped maps key to the reason, so the caller can report what was removed
     instead of silently truncating.
+
+    `allow` names TAGS to switch off. Pass it when the tagged family IS the
+    article's subject, and say so in the article's Source Base, because a filter
+    switched off silently is indistinguishable from a filter that never existed.
     """
+    _check_tags(allow)
     store = load()
     kept, dropped = {}, {}
     for key, rec in records.items():
@@ -897,7 +941,7 @@ def filter_records(records, fields=("title", "venue")):
             dropped[key] = f"previously rejected ({prior.get('article', '?')}): {prior.get('why', '')}"
             continue
         blob = " ".join(str(rec.get(f, "")) for f in fields)
-        hit = noise_hit(blob)
+        hit = noise_hit(blob, allow=allow)
         if hit:
             dropped[key] = f"noise pattern {hit[0]} :: {hit[1]}"
             continue

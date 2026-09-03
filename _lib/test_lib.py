@@ -16,9 +16,15 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# THE SWEEP STORE IS REPOSITORY-LEVEL RATHER THAN LIBRARY-LEVEL and its tag
+# mechanism gates whether an article's own subject survives its own filter, which
+# is worth a regression test even though the module lives elsewhere.
+sys.path.insert(0, os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "_research"))
 
 import booklinks
 import diction
+import homonyms
 import edits
 import gate
 import lint
@@ -1706,6 +1712,60 @@ def t_booklinks_reads_a_reference_block():
     # A key that does not resolve fails rather than silently passing.
     bad = booklinks.check(article, fetch=lambda k: None)
     assert bad[0][3] is False
+
+
+def t_homonym_tags_let_a_subject_switch_off_its_own_contaminant():
+    """A348: THE X-51 IS A SCRAMJET AND THE STORE HELD THREE PATTERNS THAT DELETE IT.
+
+    A346 recorded `ramjet` as a contaminant of a helicopter duct survey. A347
+    recorded `hypersonic|scramjet` as a contaminant of a rotorcraft survey and
+    `missile` likewise, and BOTH carried a prose warning not to reuse them in the
+    articles where they are the subject. **A348 was the first article to need that
+    warning honoured, one article later.** A warning addressed to a reader is not a
+    mechanism, so the patterns now carry tags and a caller switches them off by name.
+    """
+    assert homonyms.TAGS == ["hypersonics", "missiles", "ramjet"]
+
+    scramjet = "X-51A Waverider scramjet flight test"
+    # armed by default, which is right for every article that is NOT about them
+    assert homonyms.noise_hit(scramjet) is not None
+    # and switched off by name for the article whose subject they are
+    assert homonyms.noise_hit(scramjet, allow=("hypersonics", "ramjet")) is None
+
+    # switching off one tag must not switch off the others
+    missile = "Terminal homing missile guidance flight test"
+    assert homonyms.noise_hit(missile, allow=("hypersonics",)) is not None
+    assert homonyms.noise_hit(missile, allow=("missiles",)) is None
+
+    # AN UNTAGGED PATTERN CANNOT BE SWITCHED OFF AT ALL, which is deliberate. Only a
+    # family somebody has deliberately marked as somebody else's subject is optional.
+    assert homonyms.noise_hit("Green Leaf Volatiles in the Atmosphere",
+                              allow=tuple(homonyms.TAGS)) is not None
+
+
+def t_homonym_unknown_tag_raises_rather_than_failing_open():
+    """A typo in an allow list must not silently leave a pattern armed.
+
+    THE FAILURE THIS PREVENTS IS THE QUIET ONE. An ignored unknown tag would leave
+    the article's own subject being deleted while the article believed it had
+    switched the filter off, and the symptom would be a thin survey with no
+    explanation, which is exactly the shape of defect this corpus keeps paying for.
+    """
+    for bad in (("hypersonic",), ("Hypersonics",), ("scramjet",), ("typo",)):
+        try:
+            homonyms.noise_hit("anything", allow=bad)
+        except ValueError as exc:
+            assert "unknown noise-pattern tag" in str(exc)
+        else:
+            raise AssertionError(f"allow={bad!r} should have raised")
+
+    # filter_records validates the same way, before doing any work
+    try:
+        homonyms.filter_records({}, allow=("nope",))
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("filter_records should validate its allow list")
 
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):

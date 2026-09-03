@@ -10,9 +10,15 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A346 are drafted with all four passes complete on every one, committed and
-PUSHED. A347, Boeing X-50 Dragonfly, has completed ALL FOUR PASSES, is committed and is PUSHED.
-Fifty-one of seventy-two drafted. None published, and publication has never been authorised.**
-The next new article is **A348**, editorial date 2025-11-26, series index 52.
+PUSHED. A348, Boeing X-51 Waverider, has completed the DRAFT PASS only, the first of four, and is
+committed and NOT pushed. Fifty-two of seventy-two drafted. None published, and publication has never
+been authorised.**
+The next action is the **A348 equation-density review**, the second of four passes.
+
+**A348 IS THE FIRST ARTICLE TO SWITCH SWEEP-STORE PATTERNS OFF.** A346's `ramjet` and A347's
+`hypersonics` and `missiles` patterns would have deleted 48.1 percent of its pool, and both carried a
+written warning against exactly that reuse. **`homonyms.TAGS` now makes the honouring a mechanism**,
+with an unknown tag raising rather than failing open.
 Report primaries finished at **1,873 of 7,872, being 23.8 percent**, up from 13.6 at the draft pass
 and past A346's 23.0.
 

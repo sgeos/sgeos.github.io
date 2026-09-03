@@ -17,6 +17,52 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Boeing X-51 Waverider A348 2025-11-26
+
+`x_planes_boeing_x51.markdown`, A348, editorial date 2025-11-26, series `x_planes` index
+52 of 72.
+
+**11,353 lines, 19 display equations, 5,441 reference definitions, 61,688 words after the draft
+pass**, of which 10,451 are author prose. **Draft pass complete, the first of four.** Committed and
+**not pushed**, since the draft pass does not push. **Not published**, and publication of the series
+has never been authorised. **Full-aircraft class.** Report primaries **762 of 5,366, being 14.2
+percent**, which the primary pass will raise.
+
+**THE ARTICLE'S SIBLING IS A340 AND NOT A347.** The X-50 was a rotorcraft and nothing from its gate
+survives. A340 recorded that eleven seconds on hydrogen has not demonstrated a propulsion system
+because the thermal problem at length is a different problem, **and the X-51 is the experiment that
+tests that claim**. The article picks up its predecessor's unfinished argument.
+
+**THE KEYSTONE IS THAT DURATION CONVERTS A FLUX INTO A LOAD.** The X-51A flew **19.1 times longer**
+than the X-43 at **6.67 times lower heating rate**, so it absorbed **2.86 times the heat**. An eleven
+second flight and a two hundred and ten second flight are not the same experiment at different
+lengths. **A short flight is a heat capacity problem and a long one is a heat transfer problem.**
+
+**THE FUEL DOES TWO JOBS AND THEY COMPETE.** 270 pounds of JP-7 was the energy supply and the entire
+heat sink, and its heat sink capacity is **5.4 to 8.1 percent of the energy it releases**. The fourth
+flight burned the tank dry, so 1.286 pounds per second is measured rather than assumed, and a three
+hundred second burn at that rate would have needed **42.9 percent more fuel than the vehicle carried**.
+
+**THE ENGINE UNDER TEST ADDED UNDER EIGHT PERCENT OF THE VEHICLE'S ENERGY.** A 26 second rocket
+supplied **92.3 percent** and the scramjet **7.7** across 210 seconds. **None of the three failures
+was combustion**, being a thermal seal, an inlet unstart with a failed fuel transition, and a fin
+latch.
+
+**THREE SWEEP-STORE PATTERNS HAD TO BE SWITCHED OFF AND THE WARNING WAS WRITTEN ONE ARTICLE AGO.**
+A346's `ramjet` and A347's `hypersonics` and `missiles` patterns would have deleted **3,408 records,
+being 48.1 percent of the pool**, including scramjet flameholding and waverider aerodynamics.
+**A warning addressed to a reader is not a mechanism**, so `homonyms.TAGS` now exists, a caller
+switches patterns off by name, and an unknown tag raises rather than failing open. Two regression
+tests cover it and the library is 100 of 100.
+
+**THE INSTRUMENT BUILT FOR A347 CAUGHT SIX ERRORS IN A348.** `_lib/booklinks.py` found six of eight
+book identifiers wrong in this article's first list. **The two that were right are the two carried
+forward from A347's verified set.**
+
+**ONE RECORD IN 5,366 NAMES THE X-51 SPECIFICALLY**, which is the same finding A346 reported for the
+X-49. The programme's own Defense Technical Information Center report exists, refuses automated
+retrieval, and is cited as unread.
+
 ## X-Planes Boeing X-50 Dragonfly A347 2025-11-25
 
 `x_planes_boeing_x50.markdown`, A347, editorial date 2025-11-25, series `x_planes` index
