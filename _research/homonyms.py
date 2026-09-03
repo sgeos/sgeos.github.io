@@ -154,6 +154,29 @@ NOISE_PATTERNS = [
      "'Numerical Flow Analysis of a Corrugated Dragonfly Airfoil Using Cartesian-Mesh "
      "CFD' reached the kept set through the CARTESIAN MESH query rather than through the "
      "aeroplane's name, which is why a name-based filter would have missed it"),
+    (r"deodoriz\w*|adsorptive|adsorption (?:rotor|wheel)|desiccant (?:rotor|wheel)|"
+     r"exhaust gas treatment|\bVOC removal\b",
+     "A347: THE ADSORPTION ROTOR OF AIR TREATMENT PLANT. 'Simulation of an Adsorptive "
+     "Deodorizing Rotor for Exhaust Gas Treatment' reached the kept set. A rotor that "
+     "turns slowly through two air streams to move moisture or odour is a rotor by every "
+     "word this survey uses"),
+    (r"thermoelectric|tube bundle|heat exchanger geometry|\bTEG\b.{0,25}(?:module|generator)",
+     "A347: THERMOELECTRIC GENERATORS AND HEAT EXCHANGER GEOMETRY, twelve records, reached "
+     "through the general flow and geometry vocabulary. The store already carried "
+     "heat-exchanger TUBES from A345, which is a narrower form of the same family"),
+    (r"\bmissiles?\b|terminal homing|launch transient|\bABRES\b|warhead|"
+     r"\bRV\b accuracy|reentry body",
+     "A347: MISSILE AND REENTRY-VEHICLE FLIGHT TEST, 25 records, arriving through the "
+     "flight-test and demonstrator queries. **THIS PATTERN IS SUBJECT-SPECIFIC AND MUST "
+     "NOT BE CARRIED BLINDLY.** The X-Planes series covers the X-7, X-8, X-9, X-10 and "
+     "X-17, every one of which IS a missile, and for those articles this pattern would "
+     "delete the subject. It is recorded because A347's aeroplane is a rotorcraft"),
+    (r"life support|aircrew (?:integrated|equipment|protection|clothing)|"
+     r"oxygen (?:system|mask)|survival equipment|anthropometr",
+     "A347: AIRCREW LIFE SUPPORT AND PERSONAL EQUIPMENT. Seven records including "
+     "'Helicopter Aircrew Integrated Life Support System Aircraft Integration Tests'. It "
+     "is helicopter equipment and it is not aerodynamics, and A347's aeroplane carried no "
+     "aircrew at all"),
     (r"environmental assessment|environmental impact statement|\bNEPA\b|"
      r"programmatic environmental|wastewater|land use plan|public scoping",
      "A347: THE MILITARY ENVIRONMENTAL ASSESSMENT, which is a document type the Defense "
@@ -190,13 +213,14 @@ NOISE_PATTERNS = [
      "helicopters and genuinely about hover, and it is about the PILOT rather than the "
      "aircraft. A347's subject was unmanned, which is what makes the family off-topic "
      "here rather than merely peripheral"),
-    (r"field[- ]replaceable|blade (?:pocket|repair|bonding)|hot corrosion|"
+    (r"field[- ](?:replaceable|repairable)|expendable.{0,20}rotor blade|"
+     r"blade (?:pocket|repair|bonding)|hot corrosion|"
      r"adhesive bond|corrosion (?:protection|resistance|fatigue)|depot (?:level|maintenance)",
      "A347: ROTOR BLADE STRUCTURAL REPAIR AND MATERIALS. 'Bonded Field-Replaceable Rotor "
      "Blade Pocket for the CH-54B' and a hot corrosion study reached the kept set. The "
      "words name a rotor blade and the subject is adhesives and corrosion, which is a "
      "manufacturing literature rather than an aerodynamic one"),
-    (r"\bcompressor\b|inlet guide vane|\bIGV\b|turbomachin|blade row|"
+    (r"\bcompressors?\b|inlet guide vanes?|\bIGV\b|turbomachin|blade rows?|"
      r"(?:axial|centrifugal|multistage|transonic) (?:compressor|turbine stage)|"
      r"stator.{0,25}rotor|rotor.{0,25}stator|splitter vane|aerodynamic detuning",
      "A347: TURBOMACHINERY AERODYNAMICS, WHICH IS NOT THE ROTORDYNAMICS FAMILY THE STORE "

@@ -22,12 +22,61 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_boeing_x50.markdown`, A347, editorial date 2025-11-25, series `x_planes` index
 51 of 72.
 
-**16,364 lines, 40 display equations, 7,788 reference definitions, 91,414 words after the
-primary-reference review**, of which 16,641 are author prose. **Three of four passes complete**, being
-the draft, the equation density and the primary references. Committed and **not pushed**, since only
-the publication review pushes. **Not published**, and publication of the series has never been
-authorised. **Full-aircraft class.** Report primaries **1,836 of 7,708, being 23.8 percent**, up from
-824 of 6,042 at 13.6 percent, and past A346's 23.0.
+**16,706 lines, 40 display equations, 7,952 reference definitions, 93,835 words after the
+publication review**, of which 17,442 are author prose. **All four passes complete.** Committed and
+**PUSHED**. **Not published**, and publication of the series has never been authorised.
+**Full-aircraft class.** Report primaries **1,873 of 7,872, being 23.8 percent**, up from 824 of 6,042
+at 13.6 percent, and past A346's 23.0.
+
+**The stub-isolated production build succeeded in 918 seconds with no Liquid error, against the exact
+bytes committed**, the checksum having been matched against the stub copy before the build started and
+again after it finished. **The rendered audit reports no findings across 86 pages.** Source and
+rendered display-equation counts agree at **40**, with **zero raw dollar pairs leaking** and **zero
+unresolved reference brackets**. The article renders to 1,384,343 bytes.
+
+**READING THE OPENING AGAINST THE CONCLUSION FOUND TWO DEFECTS, WHICH IS WHY IT IS DONE FIRST.** The
+conclusion compared this aeroplane's disc loading to a Black Hawk's and **nothing in the article
+computed that**, the comparison appearing only in the closing section, which is where a wrong number
+hides. It is 1.33 and is now computed and verified. The opening said the flight record spanned
+**three years** where it spans **twenty-eight months**.
+
+**THE RESULTS PROBE FIRED FOR THE EIGHTH ARTICLE RUNNING, AND AGAIN MOSTLY AS A QUESTION ABOUT
+PHRASING.** Ten conclusions were probed. Three measured thin and all three opened on rephrasing, tail
+sizing going from **2 records to 380** and demonstrator practice from 4 to 65. **One did not open and
+was deliberately not harvested**, since A341 already proved that asking how aircraft are numbered
+returns tax valuations and salmonella serotypes.
+
+**THE EPISTEMIC STATE WAS STALE AND THE FRAMING SECTION WAS INCOMPLETE.** Both were written at the
+draft pass and neither had been updated for the equation or primary passes. The Epistemic State listed
+only the draft-pass derivations, and the framing section named three unpublished quantities where
+there are four. Both rewritten, and a fifth framing limit added bounding the new ancestry claim to the
+sources actually consulted.
+
+**A STORE PATTERN I WROTE THIS SESSION HAD THE A345 BUG.** `\bcompressor\b` cannot match
+`COMPRESSORS`, so axial-flow compressor design charts reached the kept set. Fixed, along with
+`field-replaceable` missing `field-repairable`. **The sweep store is now 119 patterns**, four more
+families having been observed in the publication harvest.
+
+**THE CLUSTER COMMENTARY WENT STALE WITHIN ONE PASS AND IS NOW EMITTED.** Three of its statistics were
+wrong immediately after the publication harvest moved the counts. **That is the A342 defect class
+arriving for the second time in one article**, and the fix is the same one, being that a number about
+the reference set is emitted from the reference set even when it sits inside a sentence.
+
+**READING THE WHOLE ARTICLE END TO END FOUND A DEFECT NO CHECKER COULD HAVE.** The download
+percentages are computed against the lift-coefficient 1.0 area of 25.5 square feet and the prose
+described that as **the mid-range area of 21.3 square feet**, which is the smallest area in the range.
+**Each number verified on its own and the sentence joining them did not**, because a verifier checks
+values and not the claims that connect them.
+
+**One overclaim of mine was tempered.** The XV-9A being noisy and thirsty was written as the flight
+test agreeing with the Froude arithmetic. A qualitative report does not isolate the Froude efficiency
+from duct losses or the gas generator cycle, and no source gives that aircraft's specific fuel
+consumption. **What the flight test establishes is that the penalty was large enough to end the
+programme**, which is a weaker and true statement.
+
+**THE BUILD WAS STARTED, KILLED AND RESTARTED ON PURPOSE.** The article was edited after the first
+build began, which is exactly A345's recorded defect. The build was discarded rather than shipped
+against bytes that no longer existed.
 
 **THE PRIMARY PASS CHANGED THE ARTICLE'S HISTORY.** The draft called the X-50A the second serious
 attempt at a stopped rotor, following the X-wing. **It is the third.** Hughes proposed a tip-jet driven

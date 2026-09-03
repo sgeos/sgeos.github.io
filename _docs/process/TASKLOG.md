@@ -10,11 +10,16 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A346 are drafted with all four passes complete on every one, committed and
-PUSHED. A347, Boeing X-50 Dragonfly, has completed the DRAFT, EQUATION-DENSITY and
-PRIMARY-REFERENCE passes, three of four, and is committed and NOT pushed. Fifty-one of seventy-two
-drafted. None published, and publication has never been authorised.**
-The next action is the **A347 publication review**, the fourth and last pass, which builds and pushes.
-Report primaries stand at **1,836 of 7,708, being 23.8 percent**, up from 13.6 and past A346's 23.0.
+PUSHED. A347, Boeing X-50 Dragonfly, has completed ALL FOUR PASSES, is committed and is PUSHED.
+Fifty-one of seventy-two drafted. None published, and publication has never been authorised.**
+The next new article is **A348**, editorial date 2025-11-26, series index 52.
+Report primaries finished at **1,873 of 7,872, being 23.8 percent**, up from 13.6 at the draft pass
+and past A346's 23.0.
+
+**A347's PUBLICATION REVIEW FOUND THE ARTICLE'S CONCLUSION CARRYING A NUMBER NOTHING COMPUTED.** The
+disc loading was compared to a Black Hawk's in the closing section and nowhere else, which is where a
+wrong number hides. **Reading the opening against the conclusion is done first for that reason** and
+it has now found a defect in three consecutive articles.
 
 **THE PRIMARY PASS CORRECTED THE ARTICLE'S HISTORY.** Hughes proposed a tip-jet driven rotor/wing in
 1965 and flight-proved the propulsion on the XV-9A in 1964, so the X-50A is the third attempt at a
