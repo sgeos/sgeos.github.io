@@ -10,12 +10,16 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A346 are drafted with all four passes complete on every one, committed and
-PUSHED. A348, Boeing X-51 Waverider, has completed the DRAFT and EQUATION-DENSITY passes, two of
-four, and is committed and NOT pushed. Fifty-two of seventy-two drafted. None published, and
-publication has never been authorised.**
-The next action is the **A348 primary-reference review**, the third of four passes. Report primaries
-stand at **762 of 5,366, being 14.2 percent**, and this subject's report literature is large, so the
-pass has room.
+PUSHED. A348, Boeing X-51 Waverider, has completed the DRAFT, EQUATION-DENSITY and
+PRIMARY-REFERENCE passes, three of four, and is committed and NOT pushed. Fifty-two of seventy-two
+drafted. None published, and publication has never been authorised.**
+The next action is the **A348 publication review**, the fourth and last pass, which builds and pushes.
+Report primaries stand at **1,262 of 5,891, being 21.4 percent**, up from 14.2.
+
+**A348's PRIMARY PASS FOUND TWO SUBJECTS THAT DO NOT MOVE WHEN AIMED AT.** Across 3,660 repository
+records, eighteen touch endothermic fuels and five touch engine cycle analysis. **That was verified
+against what the repositories returned rather than inferred from the pool**, and both of the article's
+arguments resting on them are carried by a small named set.
 
 **A348 IS THE FIRST ARTICLE TO SWITCH SWEEP-STORE PATTERNS OFF.** A346's `ramjet` and A347's
 `hypersonics` and `missiles` patterns would have deleted 48.1 percent of its pool, and both carried a

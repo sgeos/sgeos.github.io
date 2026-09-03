@@ -22,12 +22,40 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_boeing_x51.markdown`, A348, editorial date 2025-11-26, series `x_planes` index
 52 of 72.
 
-**11,509 lines, 39 display equations, 5,441 reference definitions, 63,313 words after the
-equation-density review**, of which 11,801 are author prose. **Two of four passes complete**, being
-the draft and the equation density. Committed and **not pushed**, since only the publication review
-pushes. **Not published**, and publication of the series
-has never been authorised. **Full-aircraft class.** Report primaries **762 of 5,366, being 14.2
-percent**, which the primary pass will raise.
+**12,589 lines, 39 display equations, 5,966 reference definitions, 70,295 words after the
+primary-reference review**, of which 12,921 are author prose. **Three of four passes complete**, being
+the draft, the equation density and the primary references. Committed and **not pushed**, since only
+the publication review pushes. **Not published**, and publication of the series
+has never been authorised. **Full-aircraft class.** Report primaries **1,262 of 5,891, being 21.4
+percent**, up from 762 of 5,366 at 14.2 percent.
+
+**THE PRIMARY FRACTION OPENED AT 14.2 PERCENT AND THE REASON WAS NOT THE HARVEST.** Supersonic
+combustion stood at **4.3 percent primary across 1,137 records**, the coolant argument at 4.2, and the
+sibling programme the whole article compares against had **two records**. Hypersonic propulsion was
+worked out by NASA Langley and the Air Force Research Laboratory and issued as reports, while the
+modern journal literature is enormous, **so a balanced sweep dilutes the fraction even when every
+record it adds is on subject.** Two repository-only sweeps took it to **21.4 percent**.
+
+**TWO SUBJECTS WERE AIMED AT DIRECTLY AND DID NOT MOVE, AND THAT WAS VERIFIED RATHER THAN INFERRED.**
+Across the **3,660 records the repositories returned in total, eighteen touch endothermic fuels and
+five touch cycle analysis**, several of the eighteen being photochemical hydrazine synthesis and a
+methanol shelter cooling system. **Fuel heat-sink measurement and cycle accounting are things a
+contractor measures and does not publish**, so both arguments rest on a small named set.
+
+**TWENTY-NINE PRIMARIES WERE NAMED BY IDENTIFIER AND EVERY ONE VERIFIED.** Chief among them the Mach 5
+endothermic-fuel thermal management study, the X-43A Mach 10 lessons-learned report, the actively
+cooled structural panel series of 1978 and 1979, the stream thrust accounting method, and the
+waverider heat transfer work that bears on the sharp-versus-blunt compromise.
+
+**A DIAGNOSTIC OF MINE REPORTED TWO RECORDS WHERE THERE WERE SIXTEEN.** A probe written as
+`hyper-?x` cannot match `Hyper X`, which is what the corpus normalises `Hyper-X` to. **That is the
+fourth separator or boundary failure in this article's preparation and every one reported the data as
+wrong when the diagnostic was wrong.** `survey.loose` now splits on hyphens as well as spaces and
+carries a regression test. Library 100 to 101.
+
+**THE POOL COUNTS IN THE SOURCE BASE ARE NOW EMITTED FROM THE REFERENCE DATA.** They moved three times
+during this pass and would have gone stale each time, which is the A342 defect class prevented rather
+than caught.
 
 **THE EQUATION PASS SUPPLIED THE ARGUMENT'S MISSING HALF, 19 EQUATIONS TO 39.** The draft argued
 from duration and never said what duration does to a solid. **Heat diffuses as the square root of

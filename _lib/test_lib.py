@@ -1767,6 +1767,38 @@ def t_homonym_unknown_tag_raises_rather_than_failing_open():
     else:
         raise AssertionError("filter_records should validate its allow list")
 
+
+def t_loose_survives_the_flattening_the_corpus_applies():
+    """A348: A PROBE FOR `Hyper-X` REPORTED 2 RECORDS WHERE THERE WERE 16.
+
+    `gate.flatten_separators` normalises an intraword hyphen to a space before
+    matching, so a pattern written with a literal hyphen matches nothing. The same
+    class has now cost four measurements, twice in patterns written to implement
+    the lesson: `\bX-?48\b` against `X-48B` in A345, `\bcompressor\b` against
+    `COMPRESSORS` in A347, a bare `urban` matching inside `disturbance` in A348,
+    and this one.
+    """
+    import re as _re
+    pat = survey.loose("Hyper-X")
+    for form in ("Hyper-X Program Status", "Hyper X program status", "HYPER-X"):
+        assert _re.search(pat, form, _re.I), (pat, form)
+    # and the flattened form, which is what the corpus actually matches against
+    assert _re.search(pat, gate.flatten_separators("Hyper-X Program Status"), _re.I)
+
+    # multi-word terms keep working exactly as before
+    assert _re.search(survey.loose("arresting gear"), "ARRESTING-GEAR CABLE", _re.I)
+    assert _re.search(survey.loose("arresting gear"), "arresting gear", _re.I)
+
+    # A DESIGNATION WITH A DIGIT IS NOT DAMAGED. flatten_separators leaves
+    # letter-hyphen-digit alone, and loose accepts either form, so both match.
+    pat48 = survey.loose("X-48")
+    assert _re.search(pat48, "Boeing X-48B blended wing body", _re.I)
+    assert _re.search(pat48, gate.flatten_separators("Boeing X-48B"), _re.I)
+
+    # an empty or whitespace term produces an empty pattern rather than throwing
+    assert survey.loose("") == ""
+    assert survey.loose("   ") == ""
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)

@@ -1,7 +1,7 @@
 ## Last Updated
 
 **Date**: 2026-09-03
-**Task**: **A348, X-Planes: Boeing X-51 Waverider, equation-density review. The second of four.**
+**Task**: **A348, X-Planes: Boeing X-51 Waverider, primary-reference review. The third of four.**
 Committed and **not pushed**, since only the publication review pushes. **Not published**, and publication of the series
 still not authorised. **Fifty-two of seventy-two drafted.**
 
@@ -141,17 +141,85 @@ history**, and this defect has now appeared in three consecutive articles.
 
 ---
 
+## The Primary Fraction Opened at 14.2 Percent and the Reason Was Not the Harvest
+
+**Supersonic combustion stood at 4.3 percent primary across 1,137 records.** The coolant argument
+stood at 4.2. **The sibling programme this whole article compares against had two records.**
+
+**That is a fact about where hypersonic propulsion was published.** NASA Langley and the Air Force
+Research Laboratory worked it out between roughly 1960 and 2010 and issued reports, while the modern
+journal literature on scramjet combustion is enormous and international. **A balanced sweep dilutes
+the primary fraction even when every record it adds is on subject.**
+
+**Two repository-only sweeps took it to 21.4 percent**, 1,262 of 5,891.
+
+---
+
+## Two Subjects Were Aimed At Directly and Did Not Move
+
+**Endothermic fuel and engine cycle analysis were the two thinnest and a sweep was written for each.**
+Neither moved much, and the reason was **verified against what the repositories returned rather than
+inferred from the pool**, which is A345's lesson.
+
+**Across the 3,660 records the two repositories returned in total, eighteen touch endothermic fuels or
+fuel heat sink and five touch cycle analysis or specific impulse.** Several of the eighteen are
+off-subject, being photochemical hydrazine synthesis and a methanol shelter cooling system.
+
+**Fuel heat-sink measurement and cycle accounting are things a contractor measures and does not
+publish.** Both of the article's arguments resting on them are now carried by a small named set rather
+than by a keyword sweep, and the article says so.
+
+---
+
+## Twenty-Nine Primaries Named by Identifier, Every One Verified
+
+Chief among them the **Mach 5 endothermic-fuel thermal management study**, which is this article's
+coolant argument almost exactly; the **X-43A Mach 10 lessons-learned report** and the chief engineer's
+account of that flight; the **actively cooled structural panel series of 1978 and 1979**, which is
+what a long flight actually needs; the **stream thrust accounting method**, which is how an engine
+with no separable inlet or nozzle is measured at all; and the **waverider heat transfer work** that
+bears directly on the sharp-versus-blunt compromise.
+
+---
+
+## A Diagnostic of Mine Reported Two Records Where There Were Sixteen
+
+**A probe for the Hyper-X programme was written as `hyper-?x`.** The corpus normalises an intraword
+hyphen to a space before matching, so the pattern could not match `Hyper X` and reported the sibling
+programme as almost absent from a pool holding sixteen records of it, eleven of them primaries.
+
+**That is the fourth separator or boundary failure in this article's preparation**, after `X-48B`
+against a hyphenated pattern in A345, `COMPRESSORS` against `\bcompressor\b` in A347, and a bare
+`urban` matching inside `disturbance` earlier in A348.
+
+**Every one reported the data as wrong when the diagnostic was wrong**, which is the dangerous
+direction, because it argues for work that is not needed and hides work that is.
+
+**`survey.loose` now splits on hyphens as well as spaces** and carries a regression test naming all
+four incidents. Library 100 to 101.
+
+---
+
+## The Pool Counts Are Now Emitted
+
+**The Source Base stated how many records name the X-51, the waverider and supersonic combustion, and
+all of those were hand-typed.** They moved three times during this pass and would have gone stale each
+time. They are emitted from `refs.json` at assembly now, which is the A342 defect class **prevented
+rather than caught**.
+
+---
+
 ## Verification State
 
 - `python3 _verify.py` reports **0 errors, 0 warnings**.
-- `python3 _lib/test_lib.py` reports **100 of 100**.
-- `tmp/a348/verify_numbers.py` reports **ALL CHECKS PASS**, now **72 recomputed claims**, all present
+- `python3 _lib/test_lib.py` reports **101 of 101**.
+- `tmp/a348/verify_numbers.py` reports **ALL CHECKS PASS**, now **80 recomputed claims**, all present
   in the prose, 17 cluster rows matching their own citations, cluster table matching sections.
-- Reference integrity: **5,441 defined, 5,441 used, 0 undefined, 0 orphaned**.
-- Book links **8 checked, 0 mismatched**.
-- **11,509 lines, 63,313 words, 11,801 author prose words, 39 display equations, none inlined.** No
-  contractions in author prose, no dashes, no prose colons, one semicolon and it is the debug tag.
-- Sweep store **121 patterns**, three tagged.
+- Reference integrity: **5,966 defined, 5,966 used, 0 undefined, 0 orphaned**.
+- Book links **8 checked, 0 mismatched**. All 20 foundational NTRS identifiers and all promoted DTIC
+  identifiers resolve or are registered.
+- **12,589 lines, 70,295 words, 12,921 author prose words, 39 display equations, none inlined.**
+- Survey **5,891 research records, 1,262 report primaries at 21.4 percent**.
 
 **No production build has been run.** That belongs to the publication review.
 
@@ -159,13 +227,13 @@ history**, and this defect has now appeared in three consecutive articles.
 
 ## Next
 
-**The A348 primary-reference review**, the third of four passes. **Report primaries stand at 762 of
-5,366, being 14.2 percent.** This subject's report literature is unusually large, since hypersonic
-propulsion was worked out largely by NASA, the Air Force and their contractors, so the pass has more
-room than A347's did at the same point.
+**The A348 publication review**, the fourth and last pass. It builds and it pushes.
 
-**Obvious targets** are the Hyper-X and HyTech report series, scramjet ground-test campaigns, the
-endothermic fuel work that underpins the article's coolant argument, and the high-temperature seal and
-structures literature the supplementary sweep only began.
+**Finish the entire prose read before starting the build.** A347's review started the build twice and
+killed it twice, because the read kept finding things. The rule earned there is that a publication
+review reliably finds prose defects and any build started before the read is finished is wasted.
+
+**Read the opening against the conclusion first.** That has found a defect in three consecutive
+articles, most recently a disc loading compared to a Black Hawk that nothing in the article computed.
 
 **The book-identifier repair for A342 through A346 remains outstanding and still needs your decision.**

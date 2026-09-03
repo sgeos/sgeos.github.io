@@ -154,10 +154,27 @@ def loose(term):
 
         loose("arresting gear")  ->  arresting[-\s]+gear
 
-    Use it for compound technical nouns. Leave ordinary prepositional phrases
-    alone, since `span of control` gains nothing from it.
+    IT NOW SPLITS ON HYPHENS AS WELL AS SPACES, and the reason is that the corpus
+    NORMALISES intraword hyphens away before matching. `gate.flatten_separators`
+    turns `Hyper-X` into `Hyper X`, so a probe written as `hyper-?x` matches
+    nothing at all, silently, and reports the subject as absent.
+
+    THAT FAILURE HAS NOW HAPPENED FOUR TIMES AND TWICE IN PATTERNS WRITTEN TO
+    IMPLEMENT THE LESSON. A345's audit could not match `X-48B` with `\bX-?48\b`.
+    A347's sweep-store entry could not match `COMPRESSORS` with `\bcompressor\b`.
+    A348's contamination probe matched `urban` inside `disturbance`, and its
+    Hyper-X probe reported 2 records where there were 16. **Every one was a
+    diagnostic reporting the data as wrong when the diagnostic was wrong**, which
+    is the dangerous direction, because it argues for work that is not needed and
+    hides work that is.
+
+        loose("arresting gear")  ->  arresting[-\s]+gear
+        loose("Hyper-X")         ->  Hyper[-\s]+X
+
+    Use it for compound technical nouns and for hyphenated names. Leave ordinary
+    prepositional phrases alone, since `span of control` gains nothing from it.
     """
-    parts = [re.escape(p) for p in (term or "").split()]
+    parts = [re.escape(p) for p in re.split(r"[\s-]+", (term or "").strip()) if p]
     return r"[-\s]+".join(parts)
 
 
