@@ -22,12 +22,11 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_piasecki_x49.markdown`, A346, editorial date 2025-11-24, series `x_planes` index
 50 of 72.
 
-**10,711 lines, 32 display equations, 5,073 reference definitions, 58,999 words after the
+**10,710 lines, 32 display equations, 5,073 reference definitions, 58,999 words after the
 publication review**, of which 7,203 are author prose, a dilution factor of 8.2. **All four passes
 complete.** Committed and **PUSHED**. **Not published**, and publication of the series has never been
-authorised. Report primaries **1,149 of 5,002, being 23.0 percent**, from 781 of 3,744 at 20.9. Committed and **NOT
-pushed**. **Not published**, and publication of the series has never been authorised.
-**Full-aircraft class.** Report primaries **781 of 3,744, being 20.9 percent**.
+authorised. **Full-aircraft class.** Report primaries **1,149 of 5,002, being 23.0 percent**, up from
+781 of 3,744 at 20.9 percent before the primary pass.
 
 **The stub-isolated production build succeeded in 1,548 seconds with no Liquid error, against the exact bytes that were pushed**, the checksum having been matched against the stub copy before the build started. **The rendered audit reports no findings across 85 pages.** Source and rendered display-equation counts agree at **32**, with **zero raw dollar pairs leaking** and **zero unresolved reference brackets**.
 
