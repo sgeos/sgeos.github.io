@@ -22,11 +22,25 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_piasecki_x49.markdown`, A346, editorial date 2025-11-24, series `x_planes` index
 50 of 72.
 
-**9,281 lines, 32 display equations, 4,371 reference definitions, 51,569 words after the
-primary-reference review**, of which 6,719 are author prose. **Three of four passes complete.**
-Report primaries **958 of 4,300, being 22.3 percent**, from 781 of 3,744 at 20.9. Committed and **NOT
+**10,711 lines, 32 display equations, 5,073 reference definitions, 58,999 words after the
+publication review**, of which 7,203 are author prose, a dilution factor of 8.2. **All four passes
+complete.** Committed and **PUSHED**. **Not published**, and publication of the series has never been
+authorised. Report primaries **1,149 of 5,002, being 23.0 percent**, from 781 of 3,744 at 20.9. Committed and **NOT
 pushed**. **Not published**, and publication of the series has never been authorised.
 **Full-aircraft class.** Report primaries **781 of 3,744, being 20.9 percent**.
+
+**The stub-isolated production build succeeded in 1,548 seconds with no Liquid error, against the exact bytes that were pushed**, the checksum having been matched against the stub copy before the build started. **The rendered audit reports no findings across 85 pages.** Source and rendered display-equation counts agree at **32**, with **zero raw dollar pairs leaking** and **zero unresolved reference brackets**.
+
+**READING THE OPENING AGAINST THE CONCLUSION FOUND TWO DEFECTS.** The conclusion said the 1965
+aeroplane managed its speed `with a third of the power per pound`, contradicting the article's own
+computed ratio of 1.342, which makes it **three-quarters**. It also still billed the retrofit against
+empty weight, a framing the equation pass had superseded with useful load. Both corrected, along with
+a third passage carrying the same stale denominator.
+
+**THE RESULTS PROBE FIRED FOR THE SEVENTH ARTICLE RUNNING.** Seven of nine conclusions were thin in
+the article's own words and **all seven opened on being restated in the field's words**. The keystone
+went **12 to 64 to 207**. **One thin subject was deliberately not harvested**, since A341 already
+proved that how aircraft are numbered returns tax valuations and salmonella serotypes.
 
 **THE PRIMARY PASS APPLIED A345'S LESSON ONE ARTICLE LATER RATHER THAN REDISCOVERING IT.** The
 harvest was rerun asking for the X-49, the SpeedHawk, Piasecki and the VTDP by name, and **the pool

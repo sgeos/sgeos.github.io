@@ -1,8 +1,71 @@
 ## Last Updated
 
 **Date**: 2026-09-02
-**Task**: **A346 primary-reference review, the third of four.** Committed and **not pushed**.
+**Task**: **A346 publication review, the fourth and last of four passes.** Committed and **pushed**.
 **Not published**, and publication of the series still not authorised.
+
+---
+
+## Reading the Opening Against the Conclusion Found Two Defects, Which Is Why It Is Done First
+
+**The conclusion said the 1965 aeroplane managed its speed `with a third of the power per pound`.**
+The article's own equation computes the ratio as **1.342**, so the correct statement is
+**three-quarters**. **The error was in the direction that flatters the story**, which is the third
+time in three articles that a hand-written number has failed that way.
+
+**The conclusion also still billed the retrofit against empty weight**, a framing the equation pass
+had already superseded with useful load, and a third passage carried the same stale denominator. All
+three corrected.
+
+---
+
+## The Results Probe Fired for the Seventh Consecutive Article
+
+**Nine conclusions were measured, seven thin in the article's own words, and all seven opened on being
+restated in the words a publisher would use.**
+
+| Conclusion | Article's words | Field's words | After harvest |
+|---|---|---|---|
+| the advancing blade as the binding limit | 12 | 64 | **207** |
+| a retrofit rather than a clean sheet | 4 | 57 | 173 |
+| an old technology demonstrated late | 2 | 22 | 120 |
+| slowing the rotor to go faster | 36 | 129 | 173 |
+| vibration as the deliverable | 62 | 204 | 227 |
+| hover performance against prediction | 47 | 385 | 402 |
+| the transmission as the constraint | 64 | 136 | 152 |
+| the duct doing three jobs at once | 44 | 132 | 132 |
+| the designation and how aircraft are numbered | 1 | 6 | 7 |
+
+**The keystone is the clearest case.** The advancing blade as the binding limit stood at **12 records**
+asked for as this article phrases it, **64** once the question admitted compressibility, drag
+divergence and transonic flow, and **207** after a harvest.
+
+---
+
+## One Thin Subject Was Deliberately Not Harvested, and the Reason Was Recorded Rather Than Rediscovered
+
+**How aircraft are numbered stood at 6 and was left there.** A341 already ran that experiment for this
+series. Eight queries for designation systems, nomenclature, records management and classification
+returned **1,510 records including Massachusetts tax valuations of 1771, salmonella serotype naming
+and dental implant designation systems**. Thirteen survived an aerospace gate and every one was
+component nomenclature. That cluster was built, read and removed.
+
+**The series has already paid for that measurement and the answer does not need buying twice.** The
+claim about the skipped designation stands on the sponsor's own account rather than on a survey,
+which is the position A343 and A344 reached about arguments of their own that fell outside their
+gates.
+
+---
+
+## The Verifier Caught Its Own Ambiguity
+
+**The results-table parse matched the promoted-subjects table as well**, because two of that table's
+rows share the same four-column shape, and the verifier reported three failures naming rows that are
+not conclusions. **It is now scoped to its own section.**
+
+**A344 recorded that a pattern unambiguous when written stops being so when the article grows.** This
+is that rule firing in a verifier rather than in an article, and it was caught because the verifier
+checks that every row it parses is a row it recognises.
 
 ---
 
@@ -219,9 +282,10 @@ rocket and ramjet of solid-propellant propulsion, and domestic air conditioning.
 
 ## State
 
-**A346 is committed and NOT pushed. Three of four passes complete.** **9,281 lines, 32 display
-equations, 4,371 reference definitions, 51,569 words**, of which 6,719 are author prose. Research
-3,744 to **4,300**, report primaries 781 to **958**, fraction 20.9 to **22.3 percent**. Editorial
+**A346 is committed and PUSHED. All four passes complete.** **10,711 lines, 32 display equations,
+5,073 reference definitions, 58,999 words**, of which 7,203 are author prose, a dilution factor of
+8.2. Research 3,744 to **5,002**, report primaries 781 to **1,149**, fraction 20.9 to **23.0
+percent**, median publication year 2005. Editorial
 date 2025-11-24, series index 50, **full-aircraft class**. Research 3,744, report primaries **781 at
 20.9 percent**, median publication year 2007.
 
@@ -236,16 +300,23 @@ in authored prose. **`_lib` tests are 95 of 95.**
 
 **No production build was run**, which the draft pass does not require.
 
+**The stub-isolated production build succeeded in 1,548 seconds with no Liquid error, against the exact bytes that were pushed**, the checksum having been matched against the stub copy before the build started. **The rendered audit reports no findings across 85 pages.** Source and rendered display-equation counts agree at **32**, with **zero raw dollar pairs leaking** and **zero unresolved reference brackets**.
+
 **Fifty of seventy-two drafted, none published, publication never authorised.**
 
 ---
 
 ## Next
 
-**A346's publication review**, the fourth and last. **The results probe has fired in six consecutive
-publication reviews**, so run it, and note that A345's found eleven of twelve conclusions thin in the
-article's own words and eight of them artefacts of vocabulary. **Probe with this article's
-conclusions**, which include the advancing-blade limit, the transmission as the binding constraint,
-the retrofit as the right figure of merit, and the designation skip. **Read the opening against the
-conclusion first**, since the 1965 comparison is the article's most exposed claim and rests on a
-source the primary pass could not upgrade.
+**A347, Boeing X-50 Dragonfly**, editorial date 2025-11-25, series index 51. **Nothing is
+mid-rhythm.**
+
+**A346 sets it up directly.** The X-50 took the designation the X-49 was skipped for, on DARPA's
+reasoning that a canard rotor wing would be the first true fifty-fifty marriage of helicopter and
+aeroplane. **It crashed twice and never demonstrated conversion.** A346 states that in its opening
+section and cites the X-50 externally rather than by `post_url`, so **A347 may cite A346 back and the
+back-reference-only rule is satisfied in the right direction**.
+
+**The gate should carry the rotorcraft and duct families forward with care.** A346's rotor
+aeromechanics family transfers; its ducted-propulsor family does not, since the X-50 has no duct. A
+stopped-rotor and conversion family will be new.
