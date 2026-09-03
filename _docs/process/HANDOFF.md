@@ -11,17 +11,19 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `9f8efa4`
-- **Written**: 2026-09-02
+- **Parent commit** (the repository state this handoff describes): `66b14ac`
+- **Written**: 2026-09-03
 - **Tree at write**: clean, and **everything was pushed at the parent**. **One commit is unpushed when
   you read this and it is this handoff's own**, which is what `git log origin/master..HEAD` will show.
   The protocol asks for a commit and not a push, so it was left for the pilot.
-- **Context**: the X-Planes series is IN PROGRESS. **Fifty of seventy-two articles drafted. None
+- **Context**: the X-Planes series is IN PROGRESS. **Fifty-two of seventy-two articles drafted. None
   published, and none authorised.**
-- **A346, Piasecki X-49 SpeedHawk, is complete on all four passes and is PUSHED**, including its
+- **A348, Boeing X-51 Waverider, is complete on all four passes and is PUSHED**, including its
   rendered audit. **No article is mid-rhythm.** The tree is at a clean article boundary.
-- **The next prompt will be "Please draft A347, 'X-Planes: Boeing X-50 Dragonfly.'"** Editorial date
-  2025-11-25, series index 51.
+- **The next prompt will be "Please draft A349, 'X-Planes: X-52, the Designation Refused.'"**
+  Editorial date 2025-11-27, series index 53. **This is an ANOMALY CASE and not an aeroplane.** The
+  X-52 was requested in 2006 and refused over possible confusion with the B-52, and the programme
+  became the X-53. See The Nine Anomaly Cases below before writing a line.
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
 and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -39,77 +41,90 @@ described.
 
 ---
 
-## Resume prompt, and the next prompt will be "Please draft A347, the Boeing X-50 Dragonfly."
+## Resume prompt, and the next prompt will be "Please draft A349."
 
-**No article is mid-rhythm. Wait for the pilot's prompt and do not start A347 unprompted.**
+**No article is mid-rhythm. Wait for the pilot's prompt and do not start A349 unprompted.**
 
 **THE PILOT MAY HAND YOU AN EXTERNAL DRAFT INSTEAD, AS HAPPENED WITH A372 AND A373.** The prompt is
 "copy `<path>` into the drafts, and use it as the basis for an article Axxx with a `<date>` editorial
 publication date". Those arrive already stamped with their article number, series and index, and the
 work is conformance and retargeting rather than writing. **They still take all four passes afterwards.**
 
-**A346 SETS A347 UP DIRECTLY AND YOU SHOULD READ IT FIRST.** The X-50 took the designation the X-49
-was skipped for, because DARPA asked for the round number on the reasoning that a canard rotor wing
-would be the first true fifty-fifty marriage of helicopter and aeroplane. **The X-50 crashed twice and
-never demonstrated conversion.** A346 states this in its opening section and **cites the X-50
-externally rather than by `post_url`**, so A347 may cite A346 back and the back-reference-only rule
-resolves in the right direction.
+**A349 IS AN ANOMALY ARTICLE AND ITS SUBJECT IS A DECISION RATHER THAN A VEHICLE.** The precedent is
+already set. A336 covered the X-39, reserved and never assigned. A338 covered the X-41. A341 covered
+the X-44's two aircraft sharing one number. **When there is no aeroplane, the administrative act IS the
+subject and the surrounding programmes are the evidence.**
 
-**CARRY A346's ROTOR FAMILY AND LEAVE ITS DUCT FAMILY BEHIND.** Rotor aeromechanics, advance ratio,
-blade loading, hover and download all transfer. **The ducted-propulsor family does not, because the
-X-50 has no duct.** A stopped-rotor and conversion family will be new, and the conversion itself is
-the subject. **`gate.ATMOSPHERE` carries forward**, named rather than copied.
+**THE X-52 CASE IS SMALL AND WELL DOCUMENTED, WHICH IS ITS OWN HAZARD.** A refusal over confusion with
+the B-52 is a paragraph, and the article has to be built from what surrounds it, meaning the
+designation system itself, the X-53 Active Aeroelastic Wing that took the work, and the pattern of
+skipped and consumed slots this series has now traced four times. **Do not pad, and do not invent
+technical content the case does not have.**
 
-**THE PUBLICATION REVIEW HAS A KNOWN TARGET AND IT HAS NOW FIRED SEVEN TIMES RUNNING.** A340 through
-A346 all found the survey under-covering the subjects of the article's own CONCLUSIONS, because the
-first three passes harvest for what the article is ABOUT. **Probe with the article's RESULTS.**
+**A341 ALREADY RAN THE DESIGNATION-SYSTEM HARVEST AND IT FAILED.** Eight queries for designation
+systems, nomenclature and classification returned 1,510 records including Massachusetts tax valuations
+of 1771, salmonella serotype naming and dental implant designation systems. Thirteen survived an
+aerospace gate and every one was component nomenclature. **The series has paid for that measurement
+and must not buy it again.** The literature for an anomaly article is the literature of the
+neighbouring aeroplanes, not of naming.
 
-**BUT A345 AND A346 BOTH FOUND THE OPPOSITE ANSWER FROM A340 THROUGH A344, AND THAT CHANGES THE
-PROCEDURE.** In A345 eleven of twelve conclusions measured thin in the article's own words and eight
-opened on being restated in the field's words with no harvesting at all. In A346 seven of nine
-measured thin and **all seven opened**. **A thin measurement is a question and not an answer.**
-Measure both columns from the start and report them both.
+**`gate.ATMOSPHERE` CARRIES FORWARD**, named rather than copied, in every article.
 
-**CHECK YOUR OWN PROSE BEFORE YOU FINISH.** The caps-emphasis class and stray punctuation are defects
-this method produces in newly written prose and nowhere else, and A345's publication review found the
-article narrating its own drafting history inside its argument.
+**THREE SWEEP-STORE FAMILIES ARE TAGGED AND MUST BE SWITCHED OFF FOR THE ARTICLES THEY BELONG TO.**
+`hypersonics`, `missiles` and `ramjet`. A348 was the first article to need this, and it needed it
+badly: those three patterns between them would have deleted **3,408 records, being 48.1 percent of its
+pool**. **The X-15, X-30 and X-43 articles are already written, but any future hypersonic or missile
+subject must pass `allow=(...)` to `homonyms.filter_records`.** See `tmp/a348/harvest.py` for the
+shape, and note that an unknown tag raises rather than failing open.
+
+**THE PUBLICATION REVIEW HAS FOUND A DEFECT BY READING THE OPENING AGAINST THE CONCLUSION IN FOUR
+CONSECUTIVE ARTICLES.** Do that first, before anything else in that pass.
+
+**AND FINISH THE ENTIRE PROSE READ BEFORE STARTING THE BUILD.** A347 started its build twice and
+killed it twice. A348 started it twice, the second time because **the read had covered the article but
+not the prose the emitters generate**. The build costs roughly a quarter of an hour and a killed one
+costs all of it.
+
+---
 
 ## Where the Series Stands
 
 Seventy-two articles, A297 through A368, back-dated one per day from 2025-10-06 to 2025-12-16,
 covering every X-designation from X-1 through X-76.
 
-**Fifty drafted.** A297 through A346 have all four passes each and are pushed. All in `_drafts/`,
-**none published**. Series indices 1 through 50 are contiguous with no gaps, verified by measurement.
+**Fifty-two drafted.** A297 through A348 have all four passes each and are pushed. All in `_drafts/`,
+**none published**. Series indices 1 through 52 are contiguous with no gaps, verified by measurement
+on 2026-09-03, and `_posts/` contains zero `x_planes` files.
 
 | Article | Aircraft | Class | Final state |
 |---|---|---|---|
-| A342 | Boeing X-45 | full | 23,670 lines, 20 eq, 11,507 refs |
-| A343 | Boeing X-46 | **documentation-poor** | 17,305 lines, 37 eq, 8,319 refs |
-| A344 | Northrop Grumman X-47 | full | 19,383 lines, 24 eq, 9,392 refs |
-| A345 | Boeing X-48 | full | 17,749 lines, 36 eq, 8,534 refs |
-| A346 | Piasecki X-49 SpeedHawk | full | 10,711 lines, 32 eq, 5,073 refs |
+| A345 | Boeing X-48 | full | 17,748 lines, 36 eq, 8,534 refs |
+| A346 | Piasecki X-49 SpeedHawk | full | 10,710 lines, 32 eq, 5,073 refs |
+| A347 | Boeing X-50 Dragonfly | full | 16,706 lines, 40 eq, 7,952 refs |
+| A348 | Boeing X-51 Waverider | full | 12,777 lines, 39 eq, 6,051 refs |
 
-**LINE COUNTS IN THIS SERIES ARE `len(text.split("\n"))` AND NOT `wc -l`.** A344 was once recorded
-with the latter and read one lower; the table above uses the series convention throughout and A344 now
-reads 19,383.
+**LINE COUNTS IN THIS SERIES ARE `len(text.split("\n"))` AND NOT `wc -l`.** The two differ by one on a
+file ending in a newline, and A344 was once recorded with the latter.
 
-**A346 IS THE SHORTEST FULL-AIRCRAFT ARTICLE IN THE RECENT RUN AND THAT IS A PROPERTY OF THE SUBJECT.**
-Its pool is 5,002 research records against A342's 11,507 definitions, because **the X-49 has
-essentially no indexed technical literature**. Do not read the length as a thin pass.
+**THE LENGTH FOLLOWS THE SUBJECT'S LITERATURE AND NOT THE EFFORT.** A346 is the shortest of the recent
+run because the X-49 has essentially no indexed literature. A348 is short for the same reason at the
+aeroplane level, **one record in 5,976 naming the X-51 specifically**, while its subject literature is
+enormous. **Do not read a short article as a thin pass.**
 
-**THE EQUATION COUNT FOLLOWS THE SUBJECT AND NOT THE LENGTH.** A341's keystone is a chain of
-cancellations in compressible flow and it carries 59. A342's is a single relation from human-robot
-interaction and it carries 20. **Report the count and do not target it.**
+**THE EQUATION COUNT FOLLOWS THE SUBJECT AND NOT THE LENGTH.** A341 carries 59, A342 carries 20.
+**Report the count and do not target it.**
 
-**TWO ARTICLES IN A ROW HAVE FOUND THEIR CENTRAL FACT IN A DOCUMENT THE FIRST HARVEST MISSED.** A345's
-ground-to-flight correlation update contradicted its draft's framing outright. A346's only primary
-about either Piasecki compound aeroplane arrived through a subject query. **Both were found in the
-primary pass, which is where to look.**
+**THE PRIMARY FRACTION IS A FACT ABOUT WHERE A SUBJECT WAS PUBLISHED.** A347 finished at 23.8 percent
+and A348 at 21.8, and A348 opened at 14.2 because hypersonic propulsion has an enormous modern journal
+literature alongside its report literature. **A balanced sweep dilutes the fraction even when every
+record it adds is on subject**, and the fix is a sweep that asks NTRS and DTIC only.
+
+**THREE ARTICLES IN A ROW FOUND THEIR CENTRAL SUPPORT IN DOCUMENTS THE FIRST HARVEST MISSED.** A345's
+ground-to-flight correlation update, A346's only Piasecki primary, and A347's discovery that **Hughes
+had designed a tip-jet rotor/wing in 1965**, making the X-50 the third attempt at a stopped rotor
+rather than the second. **All three were found in the primary pass, which is where to look.**
 
 Read `_drafts/draft_summary.md` for per-article detail rather than re-deriving it.
-
-
 ## The Established Rhythm, Which Is the Most Important Thing Here
 
 Four passes, each a separate prompt from the pilot. **Do not run ahead.**
@@ -140,6 +155,77 @@ band.
 ---
 
 ## Method Rules Earned the Hard Way
+
+### Earned in A347 and A348, and every one of them is about an instrument failing quietly
+
+**A WARNING ADDRESSED TO A READER IS NOT A MECHANISM, AND THIS COST 48 PERCENT OF AN ARTICLE'S POOL.**
+A346 recorded `ramjet` as a contaminant and A347 recorded `hypersonic|scramjet` and `missile`, and
+**both entries carried written warnings not to reuse them where those families are the subject.** A348
+was the X-51. Those three patterns would have deleted **3,408 records, being 48.1 percent of everything
+harvested**, including scramjet flameholding and waverider aerodynamics. The warnings were honoured
+only because the article happened to check. **`homonyms.TAGS` now exists**, a caller switches patterns
+off by name, and an unknown tag raises rather than being ignored, because the quiet failure is an
+article believing it disabled a filter while its own subject is still being deleted.
+
+**A CITATION WHOSE TEXT IS RIGHT AND WHOSE TARGET IS WRONG IS INVISIBLE TO EVERY CHECK THAT DOES NOT
+READ THE TARGET.** A347 checked its inherited book identifiers against OpenLibrary for the first time
+and **nine of ten pointed at unrelated works**, Leishman's `Principles of Helicopter Aerodynamics`
+resolving to a market outlook for dark rum in Japan. The link resolved, the block was well formed, the
+rendered label read correctly, and every existing check passed. **`_lib/booklinks.py` is the
+instrument**, and it caught six more wrong identifiers in A348 one article later, while the two
+carried forward from A347's verified set stayed right. **A hand-typed identifier is wrong almost every
+time and a verified one stays right.**
+
+**A CHECK CAN GO GREEN WITHOUT CHECKING ANYTHING.** A348's conclusion described a range as `about a
+twentieth` when it is one part in 18.5 to one in 12.3. Correcting it to `between a twelfth and an
+eighteenth` left a claim written in words, so the digits `12` and `18` were added to the number
+checker. **Both passed, on `18.8`, on `18,500` and on the X-12 backlink in the opening sentence.**
+That is the A342 defect class in a new costume. **A spelled-out claim needs a spelled-out check**, and
+`verify_numbers.py` now verifies ordinals as words.
+
+**A SEPARATOR OR A WORD BOUNDARY WILL DEFEAT YOUR OWN DIAGNOSTIC, AND IT HAS DONE SO FOUR TIMES.**
+A345's `\bX-?48\b` could not match `X-48B`. A347's `\bcompressor\b` could not match `COMPRESSORS`.
+A348's contamination probe matched `urban` inside `disturbance` and reported 48 on-subject papers as
+contaminants, and its Hyper-X probe reported **2 records where there were 16**, because
+`flatten_separators` turns `Hyper-X` into `Hyper X`. **Every one reported the DATA as wrong when the
+DIAGNOSTIC was wrong**, which is the dangerous direction, because it argues for work that is not needed
+and hides work that is. **`survey.loose` now splits on hyphens as well as spaces.** Use it for any
+probe naming a designation or a hyphenated programme.
+
+**A BROKEN CHECK REPORTS THE DATA AS BROKEN, AND THE SAME LESSON ARRIVED TWICE.** A347 sampled ten
+report identifiers, requested each address, and all ten failed. **The failure was a certificate error
+in the checking script**, and registry checks against Crossref found every one registered. A348 then
+saw one book identifier return nothing on a single run and resolve on two more. **Re-run before
+concluding, and verify against a registry rather than a status code.**
+
+**GENERATED PROSE IS PROSE.** A342's defect class was fixed by emitting survey statistics from the
+reference data so they cannot go stale, and A347 and A348 extended that to the commentary and the pool
+counts. **A348's publication review then read the article and did not read what the emitters
+produced**, and shipped `1 record in 5,976` into a build, using a numeral where the house style spells
+small numbers out, along with a sentence crediting one sweep with figures four sweeps produced.
+**Read the emitted fragments before freezing.** Fix them in the emitter, never in the article, or the
+next regeneration undoes it.
+
+**FINISH THE ENTIRE PROSE READ BEFORE STARTING THE BUILD.** A347 started three builds and killed two,
+each time because the article changed after the build began. A348 started two and killed one, for the
+reason above. **The build is roughly a quarter of an hour and a killed one costs all of it.**
+
+**A NUMBER THAT APPEARS ONLY IN A CONCLUSION IS A NUMBER NO CHECKER HAS EVER SEEN.** A347's conclusion
+compared its disc loading to a Black Hawk's and nothing in the article computed it. **Reading the
+opening against the conclusion has found a defect in four consecutive articles**, so do it first.
+
+**A SUBJECT THAT DOES NOT MOVE WHEN IT IS AIMED AT IS REPORTING SOMETHING ABOUT THE FIELD.** A348 wrote
+sweeps for endothermic fuel and for engine cycle analysis and neither moved. **Verified against what
+the repositories returned rather than inferred from the pool**, eighteen of 3,660 records touch the
+first and five touch the second. Fuel heat-sink measurement and cycle accounting are things a
+contractor measures and does not publish. **Say so in the Source Base rather than harvesting again.**
+
+**AND THE MEASUREMENT THIS SERIES HAS NOW PAID FOR THREE TIMES.** A342 measured span of control at
+eleven records and left it. A347 measured where analysis effort goes at 65 and left it. A348 measured
+whether the engine was the limiting item at 34 and left it. **A bibliographic survey is a poor
+instrument for a claim about how a programme allocated its attention.** Do not buy it a fourth time.
+
+---
 
 ### Earned in A345 and A346, and the first four are about instruments rather than subjects
 
@@ -1503,13 +1589,19 @@ FOUR ARTICLES.** After every equation pass, scan for lines that open with `$$` a
 describing each module: `fetch` for archive queries, `refs` for anchors and the reference block, `edits`
 for guarded editing, `reflow`, `lint`, `diction` for word and phrase overuse, `audit` for equation and
 citation gaps, `numcheck` for independent re-derivation, and `citations` for registry verification. Run
-`python3 _lib/test_lib.py`, which should report **94 of 94**. **`refs.clean` gained a bare-pipe strip on
+`python3 _lib/test_lib.py`, which should report **101 of 101** as of 2026-09-03. **`refs.clean` gained a bare-pipe strip on
 2026-08-12**, because kramdown reads a paragraph whose first line contains a pipe as a table and a
 publisher-mangled apostrophe entity put one into link text. **Three modules were added on
 2026-08-11**, being `gate` for subject-anchor gating with a mandatory two-sided sample, `render` for
 auditing BUILT HTML, and `resolve` for identifier resolution. `_research/rejected.json` holds the accumulated
-sweep judgements, reused through `_research/homonyms.py`, **whose curated pattern list is now 88 and
-whose store holds 728 per-record rejections.** A334 and A335 between them added eleven families, and
+sweep judgements, reused through `_research/homonyms.py`, **whose curated pattern list is now 121.**
+
+**THREE OF THOSE PATTERNS CARRY TAGS AND CAN BE SWITCHED OFF BY NAME**, being `hypersonics`,
+`missiles` and `ramjet`. A tagged pattern is one whose subject is somebody else's subject. Pass
+`allow=("hypersonics", "ramjet")` to `homonyms.filter_records` and to `noise_hit`, list the tags in
+the article's harvest module so the gate and the merge cannot drift apart, **and say in the Source
+Base which were switched off and why**. An unknown tag raises. **Only tagged patterns can be switched
+off**, deliberately, so that a general contaminant cannot be disabled by accident. A334 and A335 between them added eleven families, and
 A342's publication review added six more, all consequences of the word `unmanned` except the
 semiconductor sense of `fan-out`, whose discriminating words are in the CONTAINER rather than the
 title. Each is listed in the homonym table above with the incident that produced it.
@@ -1534,13 +1626,19 @@ previous subject.
 | `citations` | Crossref registry verification for recalled identifiers, sampling for retrieved ones |
 | `gate` | subject-anchor gating for a harvested corpus. **`audit` samples BOTH the kept and dropped sides and requires a seed**, because a narrow gate reports a small corpus and a permissive one reports a large corpus, and no summary statistic tells them apart |
 | `render` | audit of **BUILT HTML**, the only check that sees what a reader sees. Math balance by backslash-run parity |
-| `survey` | recomputes every statistic an article states about its own reference survey, since **a presence check goes green precisely when a number goes stale**. Carries `words_to_int`, because a spelled-out number is still a number, and `loose` for compound technical nouns a hyphen would otherwise defeat |
+| `booklinks` | verifies that a book citation's OpenLibrary work key IS the book the article names. **Nine of ten inherited keys once pointed at unrelated works and every other check passed**, because a citation whose text is right and whose target is wrong is invisible to anything that does not read the target. Skips the generated `Author Year` style, which claims no title |
+| `survey` | recomputes every statistic an article states about its own reference survey, since **a presence check goes green precisely when a number goes stale**. Carries `words_to_int`, because a spelled-out number is still a number, and `loose`, which **now splits on hyphens as well as spaces** because `flatten_separators` turns `Hyper-X` into `Hyper X` and a probe written with a literal hyphen matches nothing, silently |
 
 **Three additions to existing modules are easy to miss.** `gate.ATMOSPHERE` is a shared vocabulary
 naming the medium rather than any aeroplane, and an article's gate must NAME it rather than copy it.
 `gate.normalise` folds typographic dashes and quotes so no gate fails on the shape of a dash.
 `refs.decap` normalises a shouted title while preserving initialisms, deciding on the whole string
 first because `IFAC` and `ON` are the same length.
+
+**THE STUB BUILD TAKES ROUGHLY A QUARTER OF AN HOUR AND ITS COST IS KNOWN.** A345 took 1,940 seconds,
+A346 1,548, A347 918 and A348 824, all against checksum-matched bytes and all reporting no findings.
+**Budget fifteen minutes, and start it only after the entire prose read is finished, including the
+fragments the emitters generate.**
 
 **`_verify.py` gained two checks on 2026-09-01.** `math-display-inlined` catches a display equation
 sharing a source line with prose, and `survey-row-count` holds a cluster row's stated count against
@@ -1617,12 +1715,33 @@ tests the helix-angle cancellation as a **randomised property**.
 
 ## Open Decisions
 
-**Three things need the pilot rather than the agent. The first was the standing one and it is now
-partly answered by technique rather than by a decision.**
+**Four things need the pilot rather than the agent, and the newest is the most concrete.**
 
-**THE STUB BUILD IS NOW ROUTINE AND ITS COST IS KNOWN.** A345 took 1,940 seconds and A346 1,548, both
-against checksum-matched bytes, both reporting no findings across 84 and 85 pages. **Budget roughly
-half an hour per publication review** and start it only after the article is frozen.
+### The book identifiers in A342 through A346, which is the one live repair
+
+**Twelve OpenLibrary anchors across five drafts point at unrelated works**, and the agent has not
+touched them because repairing them edits five other articles and no prompt has asked for it.
+
+`book_sheridan`, `book_anderson_performance`, `book_nicolai`, `book_hoerner_lift`, `book_mccormick`,
+`book_schlichting`, `book_misra_enge`, `book_bramwell`, `book_johnson_helicopter_theory`,
+`book_leishman`, `book_prouty` and `book_stepniewski`.
+
+**None is in a published post**, which is luck rather than process. **The scope was measured**, being
+19 mismatches among the 215 title-style keys of 510 across 40 files, and `_lib/booklinks.py` will
+re-measure it in seconds. **Two of the twelve have no OpenLibrary record at all** and should be dropped
+rather than guessed at, as A347 did with Stepniewski and Hoerner's `Fluid-dynamic lift`.
+
+**The agent will not touch published or drafted articles outside the one in hand absent instruction.**
+
+### The stub build, whose cost is now known and falling
+
+**A345 took 1,940 seconds, A346 1,548, A347 918 and A348 824**, all against checksum-matched bytes and
+all reporting no findings. **Budget a quarter of an hour** and start it only after the entire prose
+read is finished, **including the fragments the emitters generate**, which is the lesson A348 paid for.
+
+**The decision left** is whether to run the full corpus build at the publication review only, which is
+what has happened since A341, or more often. **The agent will continue with the stub build per pass
+and no full build absent instruction.**
 
 ### The deploy gate, and the stub build that mostly answers it
 
@@ -1685,7 +1804,14 @@ compiler articles of 2026-08-06 to 2026-08-10. `refs.decap` now prevents new one
 repairs none of these. **Both are content edits on published pages with no URL consequence, and the
 agent has not touched them.**
 
-### The X-49 has no designation-directory entry, and that will recur
+### RESOLVED. The designation directory gap was specific to the X-49
+
+**A346 was the first article in fifty with no page in the specialist designation directory.** The
+X-50 has one and the X-51 has one, so the gap was a fact about that aeroplane rather than a change in
+the source. **Nothing needs deciding.** The original note is kept below because the situation will
+recur for some later designation and the handling is already settled.
+
+### The X-49 had no designation-directory entry, and that will recur
 
 **A346 is the first article in fifty with no page in the specialist designation directory**, whose
 index runs straight from X-48 to X-50. **That is a fact about the source and not a defect in the
