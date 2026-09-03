@@ -1,8 +1,65 @@
 ## Last Updated
 
 **Date**: 2026-09-02
-**Task**: **A346 draft pass, the first of four.** Committed and **not pushed**, per the rhythm.
+**Task**: **A346 equation-density review, the second of four.** Committed and **not pushed**.
 **Not published**, and publication of the series still not authorised.
+
+---
+
+## The Duct Is No Longer Taken on Trust, Which Was the Flagged Gap
+
+**The draft described the vectored thrust ducted propeller and computed nothing about it.** That was
+named at the end of the last pass as the thing to fix and it is fixed.
+
+Momentum theory first gives the contraction an open rotor suffers, since thrust is momentum flux and
+power is kinetic energy flux, so the far wake moves at twice the disc velocity and **the slipstream
+contracts to half the disc area**. Half the useful acceleration therefore happens downstream where no
+shroud can recover it.
+
+**The ducted actuator disc then gives the augmentation in one line**, with exit-to-disc area ratio
+`sigma_d`,
+
+**T / T_open = (2 sigma_d)^(1/3)**
+
+**An open rotor is the case sigma_d = 1/2 and returns unity, which is the check that the derivation is
+right.** A duct holding the exit at disc area gives **2^(1/3) = 1.26**, and a mildly diffusing one
+1.34. **Twenty-six percent more static thrust for the same power and the same disc area is the whole
+case for the ring tail**, and it is a STATIC result that decays in forward flight, which the article
+now says rather than eliding.
+
+---
+
+## The Lift-Sharing Mechanism Is Now Arithmetic Rather Than Assertion
+
+**Inverting for the wing area needed to carry a fraction of the weight gives 67 to 179 square feet**
+across plausible fractions and lift coefficients at 190 knots. **That is a business jet wing**, which
+is why one could be bought rather than designed and why this configuration is cheap to try.
+
+**The rotor's blade loading then falls as (1-f), and that is the entire mechanism.**
+
+---
+
+## Three Further Results
+
+**The retreating blade needs a lift coefficient larger by 1/(1-mu)^2**, being 2.05 at the baseline
+cruise and **3.20 at the demonstrated 190 knots**. Aerofoils have a ceiling.
+
+**The reverse flow region is a circle of diameter mu R**, so its share of the disc is mu squared over
+four, which **more than doubles from 2.28 to 4.87 percent** between cruise and 190 knots and reaches
+6.53 at the never-exceed speed.
+
+**Parasite power goes as the cube of speed.** The demonstrated speed costs **3.12 times** the baseline
+parasite power and the 200 knot objective 3.64. **That is the second reason phase two was a drag
+programme**, against a transmission with 400 horsepower already stranded.
+
+---
+
+## The Retrofit Penalty Was Against the Wrong Denominator
+
+**The draft gave 1,600 pounds as 11.7 percent of empty weight.** What a modification actually spends
+is useful load, and against 8,236 pounds of it the figure is **19.4 percent**. **That is the number an
+operator would be shown.** Download is now priced as hover power through the three-halves law, five
+percent of gross weight costing 7.6 percent more.
 
 ---
 
@@ -99,8 +156,8 @@ rocket and ramjet of solid-propellant propulsion, and domestic air conditioning.
 
 ## State
 
-**A346 is committed and NOT pushed. One of four passes complete.** **8,035 lines, 13 display
-equations, 3,815 reference definitions, 44,075 words**, of which 5,026 are author prose. Editorial
+**A346 is committed and NOT pushed. Two of four passes complete.** **8,132 lines, 32 display
+equations, 3,815 reference definitions, 44,999 words**, of which 5,939 are author prose. Editorial
 date 2025-11-24, series index 50, **full-aircraft class**. Research 3,744, report primaries **781 at
 20.9 percent**, median publication year 2007.
 
@@ -121,7 +178,8 @@ in authored prose. **`_lib` tests are 95 of 95.**
 
 ## Next
 
-**A346's equation-density review**, the second of four. The article carries **13 display equations**.
-**The equation pass should look hardest at the duct**, which is the one major component the article
-describes without computing anything about, and at the lift-sharing between rotor and wing in forward
-flight, which is currently asserted qualitatively and is the mechanism the whole argument rests on.
+**A346's primary-reference review**, the third of four. Report primaries stand at **781 of 3,744,
+being 20.9 percent**. **Run the promoted-subjects audit first**, because this pass made several
+subjects load-bearing that the draft did not need, being the ducted actuator disc, the reverse flow
+region, parasite power as a cube law and hover download priced as power. **A345's equation pass did
+exactly this and its viscosity subject measured zero.**

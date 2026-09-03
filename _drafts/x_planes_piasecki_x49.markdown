@@ -52,7 +52,23 @@ $$V_{\text{adv}} = \Omega R + V, \qquad V_{\text{ret}} = \Omega R - V$$
 
 $$\mu = \frac{V}{\Omega R}$$
 
-**Two separate limits close in as $\mu$ rises and they are not the same limit** [[Leishman, Principles of helicopter aerodynamics][book_leishman]] [[Johnson, Helicopter theory][book_johnson_helicopter_theory]]. The retreating blade loses dynamic pressure as the square of its local velocity, so it must take more angle of attack to carry its share of the lift, and eventually it stalls. **The advancing blade meanwhile approaches the speed of sound**, and drag divergence arrives whether or not the retreating blade is in trouble.
+**Two separate limits close in as $\mu$ rises and they are not the same limit** [[Leishman, Principles of helicopter aerodynamics][book_leishman]] [[Johnson, Helicopter theory][book_johnson_helicopter_theory]].
+
+**The retreating blade loses dynamic pressure as the square of its local velocity**, so to carry the same section lift it needs a lift coefficient larger by the inverse of that ratio,
+
+$$\frac{q_{\text{ret}}}{q_{\text{hover}}} = \left(\frac{\Omega R - V}{\Omega R}\right)^{2} = (1-\mu)^{2}$$
+
+$$\frac{c_{\ell,\text{req}}}{c_{\ell,\text{hover}}} = \frac{1}{(1-\mu)^{2}}$$
+
+**At the baseline cruise that factor is 2.05. At the demonstrated 190 knots it is 3.20.** The retreating tip is being asked for more than three times the lift coefficient it needs in the hover, and aerofoils have a ceiling.
+
+**There is also a region where the blade flies backwards.** Inboard on the retreating side, the flight speed exceeds the local rotational speed, and the reverse flow region is a circle of diameter $\mu R$ tangent to the hub,
+
+$$\frac{A_{\text{reverse}}}{A} = \frac{\pi (\mu R/2)^{2}}{\pi R^{2}} = \frac{\mu^{2}}{4}$$
+
+**which grows as the square and more than doubles between cruise and the demonstrated speed**, from 2.28 percent of the disc to 4.87, reaching 6.53 at the never-exceed speed [[Calculated blade response at high tip-speed ratios][research_blade_response_high_mu]].
+
+**The advancing blade meanwhile approaches the speed of sound**, and drag divergence arrives whether or not the retreating blade is in trouble.
 
 ### The X-49A's Numbers
 
@@ -83,6 +99,29 @@ The advance ratios follow directly.
 | programme target | 200 kt | 0.464 | 389 ft/s | 0.953 |
 | never-exceed | 220 kt | 0.511 | 355 ft/s | **0.984** |
 
+### What the Wing Actually Has to Carry
+
+**Offloading is a dynamic pressure argument and it is why compounding works at speed and not at all in the hover.** A wing carrying a fraction $f$ of the weight needs
+
+$$f W = \tfrac{1}{2} \rho V^{2} S_w C_L$$
+
+$$S_w = \frac{f W}{q C_L}, \qquad q(190\ \text{kt}) = 122.2\ \text{lb/ft}^{2}$$
+
+**At 190 knots the air is doing enough work that a modest wing carries a great deal.** Taking the maximum gross weight,
+
+| Fraction carried | $C_L = 0.5$ | $C_L = 0.8$ |
+|---|---|---|
+| 30 percent | 107 ft² | 67 ft² |
+| 50 percent | 179 ft² | 112 ft² |
+
+**A business jet wing is of that order**, which is why one could be bought rather than designed, and it is the practical reason this configuration is cheap to try.
+
+**What the rotor then sees is the blade loading reduced in proportion,**
+
+$$\left(\frac{C_T}{\sigma}\right)_{\text{compound}} = (1-f)\left(\frac{C_T}{\sigma}\right)_{\text{pure}}$$
+
+**and that is the entire mechanism.** Halving the rotor's share halves the lift coefficient the retreating blade must find, which is worth exactly the 3.20 factor computed above and no more.
+
 ### The Result That Decides the Article
 
 **A conventional helicopter runs out of rotor somewhere near an advance ratio of 0.35 to 0.40, and the X-49A demonstrated 0.441.** That is the compounding working, and it is a real achievement.
@@ -107,7 +146,13 @@ $$N = 225\ \text{rpm}, \qquad \text{a reduction of } 12.8\ \text{percent}$$
 
 $$\frac{1600}{13648} = 11.7\ \text{percent}$$
 
-and against maximum gross weight, 7.3 percent. **A ninth of the empty airframe is a large modification** by any conceptual-design standard [[Raymer, Aircraft design, a conceptual approach][book_raymer]] [[Anderson, Aircraft performance and design][book_anderson_performance]], and on a naval helicopter whose useful load is the mission, it comes out of payload, fuel or both.
+and against maximum gross weight, 7.3 percent. **But empty weight is the wrong denominator.** What a modification actually spends is useful load, which is the difference between maximum gross and empty,
+
+$$W_{\text{useful}} = 21{,}884 - 13{,}648 = 8{,}236\ \text{lb}$$
+
+$$\frac{1600}{8236} = 19.4\ \text{percent}$$
+
+**Nearly a fifth of everything the aeroplane could otherwise have carried** by any conceptual-design standard [[Raymer, Aircraft design, a conceptual approach][book_raymer]] [[Anderson, Aircraft performance and design][book_anderson_performance]]. On a naval helicopter whose useful load is the mission, that comes out of payload, fuel or both, and 19.4 percent is the number an operator would be shown.
 
 ### The Wing Sits in the Downwash
 
@@ -123,6 +168,12 @@ $$v_i = \sqrt{\frac{W/A}{2\rho}} = 45.0\ \text{ft/s}, \qquad q_{\text{slip}} = \
 
 $$\frac{D}{S_w} = q_{\text{slip}} C_D = 11.6\ \text{to}\ 14.4\ \text{lb per square foot of wing}$$
 
+**Download is paid for as extra thrust, and thrust in the hover is paid for as power.** The rotor must lift the aeroplane and its own download, so
+
+$$T_{\text{req}} = W + D_{\text{dn}}, \qquad \frac{P}{P_0} = \left(\frac{T_{\text{req}}}{W}\right)^{3/2}$$
+
+**by momentum theory, so a download of five percent of gross weight costs about 7.6 percent more hover power**, and the penalty compounds against a transmission that has none to give.
+
 **No source consulted publishes the X-49A's wing area**, the wing having been taken from an Aerostar FJ-100 business jet, so the result is given per square foot and the reader may multiply. **Every ten square feet of wing costs roughly 120 to 145 pounds of hover lift**, which is why the flaperons matter and why compound helicopters droop or slot their wings in the hover.
 
 ### The Constraint Was the Transmission, Not the Engines
@@ -130,6 +181,16 @@ $$\frac{D}{S_w} = q_{\text{slip}} C_D = 11.6\ \text{to}\ 14.4\ \text{lb per squa
 **Two T700 turboshafts deliver 3,800 shaft horsepower and the Seahawk main gearbox is rated at 3,400** [[General Electric T700][ref_t700_wikipedia]] [[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]]. **Four hundred horsepower, 10.5 percent of what the engines make, cannot reach the rotor.**
 
 **That single fact explains the shape of the unbuilt second phase.** The plan was a drag clean-up, including a rotor hub fairing and retracting landing gear, **and a third engine to help drive the ducted propeller** [[X-49 SpeedHawk vectored thrust ducted propeller, GlobalSecurity][ref_x49_globalsecurity]]. A third engine driving the duct directly is not about total power. **It is about routing power to the propulsor without passing it through a gearbox that is already at its limit.**
+
+**There is a second reason phase two was a drag programme and it is a cube law.** Helicopter power divides into induced, profile and parasite terms, and only the last rises steeply with speed [[Prouty, Helicopter performance, stability and control][book_prouty]],
+
+$$P = P_i + P_o + P_p, \qquad P_p = \tfrac{1}{2}\rho V^{3} f_e$$
+
+in which $f_e$ is the equivalent flat plate area. Going from the baseline to the demonstrated speed,
+
+$$\frac{P_p(190)}{P_p(130)} = \left(\frac{190}{130}\right)^{3} = 3.12$$
+
+**and reaching the 200 knot objective would have cost 3.64 times the baseline parasite power.** A hub fairing and retracting gear attack $f_e$ directly, which is the only term in that expression a retrofit can change cheaply. **Against a transmission with 400 horsepower already stranded, that is where the margin had to come from.**
 
 **Phase two was never funded and the aeroplane never flew in that configuration.**
 
@@ -150,6 +211,34 @@ $$\frac{D}{S_w} = q_{\text{slip}} C_D = 11.6\ \text{to}\ 14.4\ \text{lb per squa
 | Hours flown | more than 80 | more than 150 |
 | Built | 1 | 1 |
 
+### What the Duct Buys, Which the Rest of This Article Has Taken on Trust
+
+**A shrouded propulsor is not merely a propeller with a guard around it.** An open rotor's slipstream contracts, and by how much follows from momentum theory alone. Thrust is the momentum flux and power is the kinetic energy flux,
+
+$$T = \dot{m}\, w, \qquad P = \tfrac{1}{2}\dot{m}\, w^{2} = T v_i$$
+
+which together give $w = 2 v_i$, so the far wake moves at twice the velocity at the disc, and continuity then fixes the area,
+
+$$A_\infty v_\infty = A_d v_d \implies \frac{A_\infty}{A_d} = \frac{v_d}{2 v_d} = \frac{1}{2}$$
+
+**The slipstream contracts to half the disc area, and half the useful acceleration therefore happens downstream of the rotor where no shroud can recover it.** **A duct that holds the exit area open prevents that contraction**, and the actuator disc relations change accordingly. With exit area $A_e$, disc area $A_d$ and $\sigma_d = A_e/A_d$,
+
+$$\dot{m} = \rho A_d v_d, \qquad v_e = \frac{v_d}{\sigma_d}$$
+
+$$T = \dot{m} v_e = \frac{\rho A_d v_d^{2}}{\sigma_d}, \qquad P = \tfrac{1}{2}\dot{m} v_e^{2} = \frac{\rho A_d v_d^{3}}{2\sigma_d^{2}}$$
+
+**Eliminating $v_d$ at constant power gives the augmentation directly,**
+
+$$\frac{T}{T_{\text{open}}} = (2\sigma_d)^{1/3}$$
+
+**An open rotor is the case $\sigma_d = 1/2$, which returns unity as it must.** A duct that holds the exit at the disc area gives
+
+$$\frac{T}{T_{\text{open}}} = 2^{1/3} = 1.26$$
+
+**Twenty-six percent more static thrust for the same power and the same disc area**, and a mildly diffusing duct at $\sigma_d = 1.2$ gives 1.34.
+
+**That is the whole case for the ring tail**, and it is why a ducted propeller small enough to fit where a tail rotor went can still supply meaningful forward thrust. **It is also a static result.** The augmentation falls away in forward flight as the duct becomes a fairing around a propeller, and no source consulted publishes where that happens for this duct.
+
 **The duct does three jobs that a tail rotor does one and a half of.** It supplies anti-torque, it supplies yaw control, and in forward flight it supplies thrust, with vanes vectoring the efflux. The first flight exercised exactly that, being hovering, pedal turns and slow forward and sideways flight on the duct for anti-torque, directional and trim control.
 
 ## The Flight Test Record
@@ -168,7 +257,11 @@ $$\frac{190}{1.47} = 129.3\ \text{kt}$$
 
 ### The 1965 Aircraft Was Faster and the Reason Is Not Aerodynamic
 
-**The 16H-1A reached 225 miles per hour in 1965 on a single 1,250 horsepower turbine at 10,800 pounds.** The X-49A reached 218.65 miles per hour in 2008 with 3,400 horsepower at the gearbox and twice the weight. **The later aeroplane had 1.342 times the power per pound and was 6.35 miles per hour slower.**
+**The 16H-1A reached 225 miles per hour in 1965 on a single 1,250 horsepower turbine at 10,800 pounds.** The X-49A reached 218.65 miles per hour in 2008 with 3,400 horsepower at the gearbox and twice the weight. **The comparison is a ratio of power loadings and needs nothing else,**
+
+$$\frac{(W/P)_{16H}}{(W/P)_{X49}} = \frac{10{,}800/1{,}250}{21{,}884/3{,}400} = \frac{8.64}{6.44} = 1.342$$
+
+**The later aeroplane had 1.342 times the power per pound and was 6.35 miles per hour slower.**
 
 **That comparison is real and it is not a fair test of the technology.** The 16H-1A was a clean-sheet compound designed around its ring tail. **The X-49A was a production naval helicopter with a duct and a wing attached to it**, flown inside the envelope that helicopter was already cleared to, with its rotor turning at the speed that helicopter's rotor turns, a hub in the breeze and its landing gear down.
 
@@ -182,7 +275,11 @@ $$\frac{190}{1.47} = 129.3\ \text{kt}$$
 
 ### What the Arithmetic Says Either Way
 
-**Even the unbuilt phase two would have run into the advancing blade.** At 200 knots the advancing tip sits at Mach 0.953 on the Seahawk rotor speed. **A drag clean-up buys thrust and a third engine buys power, and neither of them buys Mach number.** The only remaining variable is rotor speed, and slowing a rotor on a production helicopter changes its dynamics, its autorotation entry and its clearance.
+**Even the unbuilt phase two would have run into the advancing blade.** The advancing tip Mach number is fixed by two terms and a retrofit can change only one of them,
+
+$$M_{\text{adv}} = \frac{\Omega R + V}{a}$$
+
+At 200 knots on the Seahawk rotor speed that is Mach 0.953. **A drag clean-up buys thrust and a third engine buys power, and neither of them buys Mach number.** The only remaining variable is rotor speed, and slowing a rotor on a production helicopter changes its dynamics, its autorotation entry and its clearance.
 
 **That is the argument for the configurations that came later.** Sikorsky's X2 and the coaxial advancing-blade designs slow their rotors deliberately and put the lift on the advancing sides of two rotors [[Sikorsky X2][ref_x2_wikipedia]], which is a different answer to the same asymmetry.
 

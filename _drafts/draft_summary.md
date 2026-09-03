@@ -22,10 +22,24 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_piasecki_x49.markdown`, A346, editorial date 2025-11-24, series `x_planes` index
 50 of 72.
 
-**8,035 lines, 13 display equations, 3,815 reference definitions, 44,075 words after the draft
-pass**, of which 5,026 are author prose. **One of four passes complete.** Committed and **NOT
+**8,132 lines, 32 display equations, 3,815 reference definitions, 44,999 words after the
+equation-density review**, of which 5,939 are author prose. **Two of four passes complete.** Committed and **NOT
 pushed**. **Not published**, and publication of the series has never been authorised.
 **Full-aircraft class.** Report primaries **781 of 3,744, being 20.9 percent**.
+
+**THE EQUATION PASS PRICED THE DUCT, WHICH THE DRAFT HAD TAKEN ON TRUST.** Momentum theory gives
+the slipstream contraction to half the disc area, and the ducted actuator disc then gives
+**T/T_open = (2 sigma_d)^(1/3)**, being **1.26** for a duct that holds the exit at disc area. **An
+open rotor is sigma_d = 1/2 and returns unity**, which is the check that the derivation is right.
+
+**THE LIFT-SHARING MECHANISM IS NOW ARITHMETIC.** Inverting for the wing area needed to carry a
+fraction of the weight gives **67 to 179 square feet**, which is a business jet wing and explains why
+one could be bought rather than designed. The retreating blade needs `1/(1-mu)^2` times the lift
+coefficient, **2.05 at cruise and 3.20 at 190 knots**, and the reverse flow region more than doubles
+to 4.87 percent of the disc.
+
+**THE RETROFIT PENALTY WAS AGAINST THE WRONG DENOMINATOR.** Against useful load rather than empty
+weight, 1,600 lb is **19.4 percent**.
 
 **THE KEYSTONE IS THAT COMPOUNDING FIXES ONE HALF OF THE ROTOR AND NOT THE OTHER.** Offloading lift
 relieves the retreating blade, and the X-49A reached an advance ratio of **0.441** where a
