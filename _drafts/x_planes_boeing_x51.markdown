@@ -64,6 +64,22 @@ $$
 
 **Air at four thousand kelvin is not air any more.** Oxygen begins to dissociate appreciably above about two thousand kelvin, and a gas whose molecules have been pulled apart absorbs the energy of combustion into reassembling itself rather than into pushing on a nozzle.
 
+**The pressures involved are worth seeing before leaving this section.** Bringing the flow to rest isentropically would raise its pressure by
+
+$$
+\frac{p_0}{p} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\!\gamma / (\gamma - 1)} = 594
+$$
+
+**and its density by a factor of 95.8.** A duct that captured that flow and stopped it would be holding six hundred atmospheres of stagnation pressure at a thousand degrees, which is a pressure vessel rather than an engine.
+
+**The dynamic pressure has a form that needs no density at all.**
+
+$$
+q = \tfrac{1}{2} \rho V^2 = \tfrac{1}{2} \gamma p M^2
+$$
+
+**At Mach 5.1 that is 18.2 times the static pressure**, and the cruise value on the fourth flight was 2,731 pounds per square foot, against 1,622 on the first, because the fourth flight was flown ten thousand feet lower where the air is 1.63 times denser.
+
 **So the flow is not slowed to subsonic. It is slowed a little, burned while still supersonic, and expanded.** That is the whole idea, and it is why the engine has no rotating machinery, no compressor and no turbine [[Scramjet][ref_scramjet]] [[Heiser and Pratt, Hypersonic airbreathing propulsion][book_heiser_pratt]] [[Curran and Murthy, Scramjet propulsion][book_curran_murthy]] [[Anderson, Hypersonic and high-temperature gas dynamics][book_anderson_hypersonic]].
 
 **It is also why a scramjet cannot start from a standstill.** There is no machinery to compress anything, so the compression has to be done by going fast, and going fast has to be done by something else.
@@ -101,6 +117,18 @@ $$
 \tan \theta = 2 \cot \beta \, \frac{M_1^2 \sin^2 \beta - 1}{M_1^2 (\gamma + \cos 2\beta) + 2}
 $$
 
+**What matters to the flow is not the free-stream Mach number but its component normal to the shock.**
+
+$$
+M_{n1} = M_1 \sin \beta
+$$
+
+**and it is that component alone which determines the pressure rise.**
+
+$$
+\frac{p_2}{p_1} = 1 + \frac{2 \gamma}{\gamma + 1} \left( M_{n1}^2 - 1 \right)
+$$
+
 **For a given free-stream Mach number and a given wedge angle there are two solutions and only the weaker one attaches**, and above a maximum deflection angle there is no attached solution at all and the shock stands off as a bow wave. **A waverider is a shape designed backwards from a chosen shock**, which is why the shape is unusual and why it works only near the Mach number it was cut for.
 
 **The consequence for the engine is that the inlet has no independent existence.** A change in angle of attack moves the shock, which changes what the inlet swallows, which changes the combustor. **The forebody, the inlet, the combustor and the afterbody nozzle are one device**, and a bookkeeping error in the drag of the first is a bookkeeping error in the thrust of the last [[Anderson, Modern compressible flow][book_anderson_modern]] [[Bertin, Hypersonic aerothermodynamics][book_bertin]].
@@ -111,17 +139,50 @@ $$
 
 **An unstart is the inlet ceasing to swallow the flow it was built to swallow.** The internal contraction of a supersonic inlet can only be so large before the shock system cannot be pushed inside it, and past that limit the shock is expelled forwards, the captured mass flow collapses, and the pressure rise propagates upstream in a fraction of a second [[Two-dimensional scramjet inlet unstart model, wind-tunnel blockage and actuation systems][research_inlet_unstart_model]] [[Highlights from a Mach 4 experimental demonstration of inlet mode transition for turbine-based combined cycle hypersonic propulsion][research_inlet_mode_transition]].
 
+**The limit is computable and it is tighter than intuition suggests.** A fixed-geometry inlet must be able to swallow its own shock system, and the test is whether the throat can pass the flow after a normal shock has stood at the entrance and destroyed most of its total pressure. The isentropic area relation
+
+$$
+\frac{A}{A^*} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^2 \right) \right]^{(\gamma + 1) / 2(\gamma - 1)}
+$$
+
+**gives 27.07 at Mach 5.1**, and a normal shock at that Mach number leaves only 5.72 percent of the total pressure, which enlarges the sonic area by the inverse of that fraction. Requiring the throat to be at least the enlarged sonic area gives the Kantrowitz condition,
+
+$$
+\frac{A_{th}}{A_i} \ \geq \ \frac{1}{(p_{02}/p_{01}) \, (A/A^*)_{M_1}} = 0.646
+$$
+
+**so the throat cannot be smaller than about two thirds of the capture area, and the internal contraction cannot exceed about 1.55.** A designer wanting more compression than that has to get it outside the inlet, on the forebody, which is the other reason this vehicle is shaped the way it is.
+
+**There is a second way to unstart an engine and it comes from the back.** Adding heat to a duct drives the flow towards Mach one whichever side of it the flow starts on, which is Rayleigh flow, and enough heat release chokes the duct thermally. **A thermal choke is a pressure rise that travels forwards**, and the transition from a light starting fuel to the real fuel is exactly a change in how much heat is being released and where.
+
 **The isolator exists to hold that off.** It is a constant-area duct between inlet and combustor whose job is to contain a shock train, so that the pressure rise from combustion has somewhere to sit without reaching the inlet throat. **Its length is a design margin against the engine unstarting itself**, and the fuel transition the second flight failed at is precisely a change in that pressure rise.
 
 ## Heat Is a Rate, and Duration Turns It Into a Load
 
 **This is the article's centre.**
 
-**Stagnation-point heating scales approximately as the square root of density and the cube of velocity.**
+**Stagnation-point heating scales approximately as the square root of density and the cube of velocity**, and the Sutton and Graves correlation puts a constant on it.
 
 $$
-\dot{q} \propto \sqrt{\rho} \, V^3
+\dot{q} = 1.7415 \times 10^{-4} \sqrt{\frac{\rho}{R_n}} \, V^3
 $$
+
+**The nose radius is not published and a waverider wants it small**, so the result is a range. At the fourth flight's condition, with density 0.1155 kilograms per cubic metre and velocity 1,504.9 metres per second,
+
+$$
+R_n = 5 \ \mathrm{mm} \Rightarrow \dot{q} = 2.85 \ \mathrm{MW/m^2} \qquad
+R_n = 50 \ \mathrm{mm} \Rightarrow \dot{q} = 0.90 \ \mathrm{MW/m^2}
+$$
+
+**A surface that has to lose that by radiation alone reaches**
+
+$$
+T_{\text{rad}} = \left( \frac{\dot{q}}{\varepsilon \sigma} \right)^{\!1/4}
+$$
+
+**which is 2,543 degrees Celsius for the sharp edge and 1,839 for the blunt one**, taking emissivity as 0.8. **Both are above what any structural material will hold.**
+
+**That is the waverider's central compromise stated as a temperature.** The shape wants a sharp leading edge, because a sharp edge is what keeps the shock attached and the compressed air underneath. **The thermal problem wants a blunt one**, because heating goes as the inverse square root of the radius. The vehicle has to be sharp enough to work and blunt enough to survive, and there is no setting of that dial that is comfortable.
 
 **By that measure the X-43 was far worse off than the X-51.** On velocity alone,
 
@@ -145,7 +206,28 @@ $$
 
 **The slower aeroplane absorbed nearly three times as much heat.** That is the sentence the whole programme is about, and it is why an eleven second flight and a two hundred and ten second flight are not the same experiment conducted for different lengths of time. **They are different experiments.**
 
-**A short flight is a structures problem you can solve with heat capacity.** Put enough mass in the leading edge and it will not reach failure temperature before the flight is over. **A long flight is a heat transfer problem** [[Schlichting and Gersten, Boundary-layer theory][book_schlichting]], because the structure comes into equilibrium and the heat has to go somewhere other than into the metal.
+**The reason is that heat has to get into the structure, and how far it gets depends on the square root of time.** The diffusion length for a solid of thermal diffusivity $\alpha$ after a time $t$ is
+
+$$
+\delta \approx \sqrt{\alpha t}
+$$
+
+**and for a nickel superalloy, whose diffusivity is about 3.5 millionths of a square metre per second, the two flights differ like this.**
+
+$$
+\delta_{\text{X-43}} = \sqrt{(3.5 \times 10^{-6})(11)} = 6.2 \ \mathrm{mm} \qquad
+\delta_{\text{X-51}} = \sqrt{(3.5 \times 10^{-6})(210)} = 27.1 \ \mathrm{mm}
+$$
+
+**a ratio of**
+
+$$
+\frac{\delta_{\text{X-51}}}{\delta_{\text{X-43}}} = \sqrt{\frac{210}{11}} = 4.37
+$$
+
+**Six millimetres is a skin. Twenty-seven millimetres is not something an aeroplane can carry as dead mass**, and the difference is the whole distinction between the two experiments.
+
+**A short flight is a structures problem you can solve with heat capacity.** Put enough mass in the leading edge and the heat will not have reached the far side of it before the flight is over. **A long flight is a heat transfer problem** [[Schlichting and Gersten, Boundary-layer theory][book_schlichting]], because the heat arrives at the far side, the structure comes into equilibrium, and the energy has to go somewhere other than into the metal.
 
 ## Where the Heat Went, and What It Cost
 
@@ -197,6 +279,60 @@ $$
 
 **which is 42.9 percent more fuel than the vehicle carried.** The 300 second goal and the 270 pound tank were not compatible at the flow rate the engine actually used. **The article does not know which of the two was the later number**, and notes only that the flight which succeeded ran the tank dry rather than running out of objectives.
 
+## What the Flight Says About the Engine
+
+**The programme published no thrust, no specific impulse and no lift-to-drag ratio.** It published a burn time, a fuel load, two Mach numbers and an altitude, and those are enough to bound the rest.
+
+**Start with what the fuel implies about the air.** A kerosene-class fuel burns stoichiometrically at about 0.0685 pounds of fuel per pound of air, so at an equivalence ratio of one the engine was swallowing
+
+$$
+\dot{m}_{\text{air}} = \frac{\dot{m}_f}{\phi \, f_{\text{st}}} = \frac{1.286}{0.0685} = 18.8 \ \mathrm{lb/s}
+$$
+
+**and twice that if it ran at half stoichiometric**, which a scramjet commonly does.
+
+**Now the range relation, which for a cruising air-breather is Breguet's.**
+
+$$
+R = V \, I_{sp} \, \frac{L}{D} \, \ln \frac{W_0}{W_1}
+$$
+
+**The vehicle carried 270 pounds of fuel on a 4,000 pound empty weight**, so the mass ratio is 1.0675 and its logarithm is 0.0653. The powered distance is the cruise speed multiplied by the burn time,
+
+$$
+R = (1504.9)(210) = 316 \ \mathrm{km} = 171 \ \mathrm{nmi}
+$$
+
+**and solving the range relation for what the vehicle must have had gives a product rather than a value.**
+
+$$
+I_{sp} \, \frac{L}{D} = \frac{R}{V \ln (W_0 / W_1)} = 3{,}215
+$$
+
+**The programme published neither factor and the flight cannot separate them.** At a lift-to-drag ratio of 3, which is respectable for a waverider at this Mach number, the specific impulse is 1,072 seconds. At 2 it is 1,607 and at 4 it is 804. **All three are far better than any rocket**, which is the entire case for air-breathing propulsion.
+
+**And now the number that matters.** The vehicle accelerated from Mach 4.9 to Mach 5.1 over the 210 seconds, so the net force it averaged was
+
+$$
+F_{\text{net}} = \frac{m \, \Delta(\tfrac{1}{2} V^2)}{t \, V} = 112 \ \mathrm{lbf}
+$$
+
+**which against the measured fuel flow is a net specific impulse of**
+
+$$
+I_{sp,\text{net}} = \frac{F_{\text{net}}}{\dot{m}_f} = \frac{112}{1.286} = 87 \ \mathrm{s}
+$$
+
+**This is a lower bound and it omits the climb**, because the altitude at booster separation is not published and any climb is energy the engine also had to supply.
+
+**Eighty-seven seconds against an engine that was producing between eight hundred and sixteen hundred.** The difference is drag.
+
+$$
+\frac{I_{sp,\text{net}}}{I_{sp}} = 5.4\% \ \text{to} \ 10.9\%
+$$
+
+**Between 89 and 95 percent of what the engine made went into pushing the vehicle through the air rather than into speeding it up.** That is not an unusual figure for a cruise vehicle, which by definition is spending its thrust on drag. **It is stated here because it is the same finding as the rest of the article seen from the propulsion side**, which is that the engine was not the marginal component.
+
 ## The First Flight Ended at a Seal
 
 **On 26 May 2010 the first vehicle reached Mach 5 at seventy thousand feet and ran its engine for 143 seconds, which was ten times longer than any scramjet had flown before** [[Boeing X-51A WaveRider breaks record in first flight][ref_boeing_first_flight]]. It was cut short by a thermal seal breach at the engine interface, which let hot gas that should have been making thrust leak into the rear of the vehicle.
@@ -208,6 +344,20 @@ $$
 $$
 
 **of the overall length**, and a seal at that interface has to stay sealed across the whole of it while hot gas is on one side.
+
+**The engine's own length is not published, and the growth implies it.** Thermal expansion is
+
+$$
+\Delta L = \alpha L \, \Delta T
+$$
+
+**so solving for the length that gives three quarters of an inch**, at a linear expansion coefficient of thirteen millionths per kelvin and a temperature rise of eight hundred kelvin,
+
+$$
+L = \frac{\Delta L}{\alpha \, \Delta T} = \frac{0.75}{(13 \times 10^{-6})(800)} = 72 \ \mathrm{in} = 6.0 \ \mathrm{ft}
+$$
+
+**which is a plausible engine for a twenty-five foot vehicle**, and is offered as a consistency check on the published growth rather than as a measurement of anything.
 
 **A scramjet has no moving parts and this is what replaces them.** The absence of a compressor and a turbine is the configuration's chief virtue, and what it substitutes is a structure that changes shape by a quarter of a percent while carrying a temperature difference of a thousand degrees, at every joint, for as long as the flight lasts. **That is a duration problem and it does not appear in an eleven second flight at all.**
 
@@ -246,7 +396,7 @@ $$
 
 ## Where the Framing Breaks Down
 
-**Four things in this article are weaker than the rest and the article would rather say so than be caught at it.**
+**Five things in this article are weaker than the rest and the article would rather say so than be caught at it.**
 
 **First, the heat load ratio is a scaling argument and not a calculation.** It treats the heating rate as constant across each burn and it uses the velocity term of a stagnation-point correlation while omitting the density term, on the grounds that the two vehicles flew at broadly comparable dynamic pressures. **The X-43's second powered flight is recorded at a dynamic pressure near a thousand pounds per square foot and the X-51A's fourth flight computes to 2,731**, so the density term is not negligible and including it would raise the X-51A's flux and therefore its load. **The direction of that omission favours the article's conclusion, which is the direction an author should be most suspicious of.**
 
@@ -254,7 +404,11 @@ $$
 
 **Third, the energy share computation uses the boost and cruise Mach numbers of the fourth flight and treats the vehicle mass as constant.** It burned 270 pounds of a roughly four thousand pound vehicle during the cruise, so the mass falls by under seven percent, and accounting for it would move the scramjet's share slightly. **The conclusion that the rocket did the great majority of the work does not depend on that correction.**
 
-**Fourth, the specialist designation directory records plainly that no detailed design data for the X-51A has been published.** There is no published internal geometry against a design literature in which one is the starting point [[Raymer, Aircraft design, a conceptual approach][book_raymer]], no inlet contraction ratio, no combustor length, no isolator length and no engine mass. **Every statement in this article about the flowpath is therefore about scramjets in general and not about this one in particular**, and the article has tried to keep those two registers apart.
+**Fourth, six results in this article rest on material and mixture properties this vehicle never published.** The thermal penetration depths use a diffusivity for the nickel superalloy class, the implied engine length uses an expansion coefficient and a temperature rise from the same class, the heat flux and radiation temperatures use a nose radius given only as a range and an assumed emissivity, and the air flow uses a stoichiometric ratio for kerosene rather than for JP-7. **Each of those is stated where it appears and none is presented as a measurement of this aeroplane.**
+
+**The penetration depth is the one that matters most and it is also the most robust.** Its ratio between the two flights is the square root of the ratio of burn times and depends on no material property at all, because the diffusivity cancels. **The absolute depths depend on it entirely.**
+
+**Fifth, the specialist designation directory records plainly that no detailed design data for the X-51A has been published.** There is no published internal geometry against a design literature in which one is the starting point [[Raymer, Aircraft design, a conceptual approach][book_raymer]], no inlet contraction ratio, no combustor length, no isolator length and no engine mass. **Every statement in this article about the flowpath is therefore about scramjets in general and not about this one in particular**, and the article has tried to keep those two registers apart.
 
 ## The Contemporary Literature
 
@@ -424,7 +578,9 @@ The programme dates and cost, the designation date, the participating organisati
 
 ### Verified by Independent Derivation
 
-The stagnation temperatures and their ratio, the dynamic pressures at both cruise conditions and the density ratio between them, the burn ratio against the X-43, the heating rate and heat load ratios, the fuel flow rate, the cooling power and its share of the fuel's combustion energy, the fuel required for a three hundred second burn, the kinetic energy shares of the booster and the scramjet, the engine growth as a fraction of vehicle length, the burn fractions against the plan, and the programme arithmetic. All are computed in this article from published inputs and are reproducible from them.
+**Everything in this article expressed as a number is computed from published inputs and is reproducible from them.** That covers the stagnation temperatures and their ratio, the isentropic stagnation pressure and density ratios, the dynamic pressures at both cruise conditions and the density ratio between them, the burn ratio against the X-43, the heating rate and heat load ratios, the Sutton and Graves heat flux across a range of nose radii and the radiation equilibrium temperatures it implies, the thermal penetration depths and their ratio, the isentropic area ratio and the Kantrowitz throat limit, the fuel flow rate and the air flow it implies at stoichiometric, the cooling power and its share of the fuel's combustion energy, the fuel required for a three hundred second burn, the kinetic energy shares of the booster and the scramjet, the engine growth as a fraction of vehicle length and the engine length that growth implies, the powered distance, the product of specific impulse and lift-to-drag ratio the range relation yields, the net force and net specific impulse the flight realised, the burn fractions against the plan, and the programme arithmetic.
+
+**Seventy-two of those values are recomputed by a checker and compared against the article rather than searched for in it.**
 
 ### Analysis
 

@@ -1,8 +1,8 @@
 ## Last Updated
 
 **Date**: 2026-09-03
-**Task**: **A348, X-Planes: Boeing X-51 Waverider, draft pass. The first of four.** Committed and
-**not pushed**, since the draft pass does not push. **Not published**, and publication of the series
+**Task**: **A348, X-Planes: Boeing X-51 Waverider, equation-density review. The second of four.**
+Committed and **not pushed**, since only the publication review pushes. **Not published**, and publication of the series
 still not authorised. **Fifty-two of seventy-two drafted.**
 
 ---
@@ -76,27 +76,96 @@ three times, twice in patterns written to implement the lesson.
 
 ---
 
+## The Equation Pass Supplied the Argument's Missing Half
+
+**19 display equations to 39.**
+
+**The draft argued from duration and never said what duration does to a solid.** Heat diffuses as the
+square root of time, so at a diffusivity typical of a nickel superalloy the heat reached **6.2
+millimetres into the structure on the X-43 and 27.1 on the X-51**.
+
+**The ratio is the firm part**, being the square root of the ratio of burn times, and it depends on no
+material property at all because the diffusivity cancels. The absolute depths depend on it entirely.
+**Six millimetres is a skin. Twenty-seven is not carriable as dead mass**, and that is the distinction
+between a heat capacity problem and a heat transfer problem made concrete.
+
+---
+
+## The Flight Data Bounds the Engine the Programme Never Published
+
+**Inverting Breguet's range relation gives a product and not a value.**
+
+    Isp x (L/D) = R / (V ln(W0/W1)) = 3,215
+
+At a lift-to-drag ratio of 3 the engine was making about **1,072 seconds** of specific impulse; at 2 it
+is 1,607 and at 4 it is 804. **The flight cannot separate the two factors** and the article says so.
+
+**The vehicle's own acceleration over the burn gives a net specific impulse of 87 seconds**, a lower
+bound because the altitude at booster separation is unpublished and any climb is energy the engine also
+supplied. **Between 89 and 95 percent of what the engine made went into drag.**
+
+That is the article's thesis seen from the propulsion side: the engine was not the marginal component.
+
+---
+
+## Two More Results Worth Naming
+
+**The waverider's compromise is now a temperature.** Sutton and Graves gives 2.85 megawatts per square
+metre at a five millimetre nose radius and 0.90 at fifty, and radiation equilibrium puts those at
+**2,543 and 1,839 degrees Celsius**, both above any structural material. **The shape wants a sharp
+edge to keep the shock attached and the thermal problem wants a blunt one.**
+
+**The Kantrowitz limit makes the second flight's failure a number.** A fixed-geometry inlet at Mach 5.1
+cannot contract internally past **1.55**, the throat being at least **0.646** of the capture area, so
+any further compression has to come from the forebody, which is the other reason the vehicle is shaped
+as it is.
+
+**The seal was inverted to give the engine length.** Three quarters of an inch of growth implies an
+engine about six feet long, offered as a consistency check rather than a measurement.
+
+---
+
+## The A347 Lesson Was Applied One Pass Earlier
+
+**A347's publication review found its Epistemic State and framing section stale**, both written at the
+draft pass and never updated for the two passes since.
+
+**Both were updated in this pass, immediately.** The Epistemic State now lists every derived quantity
+rather than the draft-pass subset, and a fifth framing limit names the six results that rest on
+material and mixture properties this vehicle never published, being a diffusivity, an expansion
+coefficient, a temperature rise, a nose radius, an emissivity and a stoichiometric ratio.
+
+**One instance of drafting narration was caught and removed** from inside that section, where a limit
+had been introduced as something a named pass had added. **The argument does not narrate its own
+history**, and this defect has now appeared in three consecutive articles.
+
+---
+
 ## Verification State
 
 - `python3 _verify.py` reports **0 errors, 0 warnings**.
-- `python3 _lib/test_lib.py` reports **100 of 100**, up from 98.
-- `tmp/a348/verify_numbers.py` reports **ALL CHECKS PASS**, 38 recomputed claims, all present in the
-  prose, 17 cluster rows matching their own citations, cluster table matching sections.
-- Reference integrity: **5,441 defined, 5,441 used, 0 undefined, 0 orphaned, 0 duplicate URLs**.
-- Book links **8 checked, 0 mismatched**. All eight foundational NTRS identifiers resolve.
-- Prose: no contractions, no dashes, no prose colons, one semicolon and it is the `console.log` tag.
-- **11,353 lines, 61,688 words, 10,451 author prose words, 19 display equations, none inlined.**
-- Sweep store **121 patterns**, three of them tagged.
+- `python3 _lib/test_lib.py` reports **100 of 100**.
+- `tmp/a348/verify_numbers.py` reports **ALL CHECKS PASS**, now **72 recomputed claims**, all present
+  in the prose, 17 cluster rows matching their own citations, cluster table matching sections.
+- Reference integrity: **5,441 defined, 5,441 used, 0 undefined, 0 orphaned**.
+- Book links **8 checked, 0 mismatched**.
+- **11,509 lines, 63,313 words, 11,801 author prose words, 39 display equations, none inlined.** No
+  contractions in author prose, no dashes, no prose colons, one semicolon and it is the debug tag.
+- Sweep store **121 patterns**, three tagged.
+
+**No production build has been run.** That belongs to the publication review.
 
 ---
 
 ## Next
 
-**The A348 equation-density review**, the second of four passes. **19 display equations is low** and
-the pass has obvious targets: the oblique shock relation solved for this vehicle's conditions, the
-Kantrowitz starting limit, the isolator pressure rise, one-dimensional scramjet cycle relations,
-stream thrust and specific impulse, the Rayleigh line for heat addition in a duct, and the
-Sutton-Graves heat flux correlation the article currently uses only as a proportionality.
+**The A348 primary-reference review**, the third of four passes. **Report primaries stand at 762 of
+5,366, being 14.2 percent.** This subject's report literature is unusually large, since hypersonic
+propulsion was worked out largely by NASA, the Air Force and their contractors, so the pass has more
+room than A347's did at the same point.
 
-**The book-identifier repair for A342 through A346 remains outstanding and still needs your
-decision.**
+**Obvious targets** are the Hyper-X and HyTech report series, scramjet ground-test campaigns, the
+endothermic fuel work that underpins the article's coolant argument, and the high-temperature seal and
+structures literature the supplementary sweep only began.
+
+**The book-identifier repair for A342 through A346 remains outstanding and still needs your decision.**

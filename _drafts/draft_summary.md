@@ -22,11 +22,44 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_boeing_x51.markdown`, A348, editorial date 2025-11-26, series `x_planes` index
 52 of 72.
 
-**11,353 lines, 19 display equations, 5,441 reference definitions, 61,688 words after the draft
-pass**, of which 10,451 are author prose. **Draft pass complete, the first of four.** Committed and
-**not pushed**, since the draft pass does not push. **Not published**, and publication of the series
+**11,509 lines, 39 display equations, 5,441 reference definitions, 63,313 words after the
+equation-density review**, of which 11,801 are author prose. **Two of four passes complete**, being
+the draft and the equation density. Committed and **not pushed**, since only the publication review
+pushes. **Not published**, and publication of the series
 has never been authorised. **Full-aircraft class.** Report primaries **762 of 5,366, being 14.2
 percent**, which the primary pass will raise.
+
+**THE EQUATION PASS SUPPLIED THE ARGUMENT'S MISSING HALF, 19 EQUATIONS TO 39.** The draft argued
+from duration and never said what duration does to a solid. **Heat diffuses as the square root of
+time**, so at a diffusivity typical of a nickel superalloy the heat reached **6.2 millimetres into the
+structure on the X-43 and 27.1 on the X-51**, a ratio of 4.37 that depends on no material property
+because the diffusivity cancels. **Six millimetres is a skin. Twenty-seven is not carriable as dead
+mass.**
+
+**THE FLIGHT DATA BOUNDS THE ENGINE, WHICH THE PROGRAMME NEVER PUBLISHED.** Inverting Breguet's range
+relation gives a product of specific impulse and lift-to-drag ratio of **3,215**, so at a lift-to-drag
+ratio of 3 the engine was making about **1,072 seconds**. The vehicle's own acceleration over the burn
+gives a net specific impulse of **87 seconds**, a lower bound since the climb is unpublished.
+**Between 89 and 95 percent of what the engine made went into drag**, which is the article's thesis
+seen from the propulsion side.
+
+**THE WAVERIDER'S COMPROMISE IS NOW A TEMPERATURE.** Sutton and Graves gives 2.85 megawatts per square
+metre at a five millimetre nose radius and 0.90 at fifty, and radiation equilibrium puts those at
+**2,543 and 1,839 degrees Celsius**. The shape wants a sharp edge to keep the shock attached and the
+thermal problem wants a blunt one, and no setting of that dial is comfortable.
+
+**THE KANTROWITZ LIMIT MAKES THE SECOND FLIGHT'S FAILURE A NUMBER.** A fixed-geometry inlet at Mach
+5.1 cannot contract internally past **1.55**, the throat being at least **0.646** of the capture area,
+so any further compression has to come from the forebody.
+
+**THE SEAL WAS INVERTED TO GIVE THE ENGINE LENGTH.** Three quarters of an inch of growth at a typical
+expansion coefficient and an eight hundred kelvin rise implies an engine about **six feet long**,
+offered as a consistency check rather than a measurement.
+
+**THE EPISTEMIC STATE AND THE FRAMING SECTION WERE UPDATED IN THE SAME PASS.** A347 found both stale
+at its publication review, two passes after the content had moved. **They were updated here
+immediately**, and a fifth framing limit was added naming the six results that now rest on material
+properties this vehicle never published.
 
 **THE ARTICLE'S SIBLING IS A340 AND NOT A347.** The X-50 was a rotorcraft and nothing from its gate
 survives. A340 recorded that eleven seconds on hydrogen has not demonstrated a propulsion system
