@@ -122,6 +122,78 @@ NOISE_PATTERNS = [
      "A345: 'angle of attack' is an aeroplane and also the INCLINATION OF A HEAT "
      "EXCHANGER TUBE to the cross-flow"),
 
+    # ---- A347, the X-50. FOUR OF ELEVEN PREDICTED CONTAMINANTS ACTUALLY FIRED and
+    #      the other seven did not, which is the standing rule working. `Dragonfly` as
+    #      the NASA Titan mission, `elliptic` as a curve or a galaxy, `canard` as a
+    #      duck, `hub` as a gene, `wake` as the opposite of sleep, `conversion` as
+    #      energy or chemistry, and the medical bleed were all ANTICIPATED and all
+    #      measured at zero. Only what was observed is recorded here.
+    (r"cross[- ]?coupl\w*.{0,60}(?:catalys|palladium|nickel|alkyl|aryl|hetaryl|silicon|zinc|"
+     r"nucleophil|suzuki|negishi|\bheck\b|boron|halide|contouring|linear motor|"
+     r"machine tool|\bCNC\b|servo|biaxial)|"
+     r"(?:catalys|palladium|alkyl|aryl|hetaryl|alkylzinc|suzuki|contouring|machine tool|"
+     r"\bCNC\b)\w*.{0,60}cross[- ]?coupl",
+     "A347: CROSS-COUPLING IS A HELICOPTER CONTROL DEFECT AND ALSO ONE OF THE LARGEST "
+     "LITERATURES IN SYNTHETIC CHEMISTRY. The X-50's first airframe was lost to cross "
+     "coupling of the rotor controls, so the term is load-bearing for that article, and "
+     "20 records reached its kept set including 'Hetarylzinc Cross-Coupling Reactions' "
+     "and 'Adaptive cross coupling control for CNC machines'. The machine-tool sense is "
+     "the same words about two axes of a milling table"),
+    (r"wind (?:turbine|rotor|energy|farm|power|speed technolog)|\bHAWT\b|\bVAWT\b|"
+     r"darrieus|savonius|betz limit|blade element momentum.{0,30}wind",
+     "A347: THE WIND TURBINE IS A ROTOR AND ITS AERODYNAMIC LITERATURE USES EVERY WORD "
+     "THIS SERIES USES. 21 records reached the kept set, led by 'Aerodynamic Loads and "
+     "Performance of the Darrieus Rotor' and four more Darrieus and Savonius studies. "
+     "The store already carried wind FARMS as a power-systems contaminant, which is a "
+     "different failure and did not catch these. Note that `wind tunnel` is deliberately "
+     "not matched"),
+    (r"\bdragonfl\w*.{0,40}(?:airfoil|wing|insect|corrugat|biolog|entomolog)|"
+     r"(?:insect|corrugated|biomimetic|bio-?inspired).{0,40}\bdragonfl|"
+     r"insect[- ]scale|flapping[- ]wing.{0,30}(?:insect|bird|bat|biolog)",
+     "A347: THE X-50 WAS NAMED DRAGONFLY AND THE INSECT HAS ITS OWN AERODYNAMICS. "
+     "'Numerical Flow Analysis of a Corrugated Dragonfly Airfoil Using Cartesian-Mesh "
+     "CFD' reached the kept set through the CARTESIAN MESH query rather than through the "
+     "aeroplane's name, which is why a name-based filter would have missed it"),
+    (r"\bcompressor\b|inlet guide vane|\bIGV\b|turbomachin|blade row|"
+     r"(?:axial|centrifugal|multistage|transonic) (?:compressor|turbine stage)|"
+     r"stator.{0,25}rotor|rotor.{0,25}stator|splitter vane|aerodynamic detuning",
+     "A347: TURBOMACHINERY AERODYNAMICS, WHICH IS NOT THE ROTORDYNAMICS FAMILY THE STORE "
+     "ALREADY CARRIED. 96 records reached the A347 kept set, led by 'Aerodynamic Modeling "
+     "of Multistage Compressor Flowfields' and 'Supersonic turbomachine rotor flutter "
+     "control by aerodynamic detuning'. A compressor rotor and a helicopter rotor share "
+     "almost every word except the one that distinguishes them, which is the STATOR"),
+    (r"volatile organic|green leaf volatile|\baerosol|\bozone\b|trace gas|"
+     r"atmospheric chemistr|air quality|emissions? inventor|biogenic|particulate matter|"
+     r"greenhouse gas|pollutant dispers|\bmethane\b",
+     "A347: ATMOSPHERIC CHEMISTRY AGAINST THE STANDARD ATMOSPHERE. `gate.ATMOSPHERE` is "
+     "carried by every article in this series to name the medium, and 'Green Leaf "
+     "Volatiles in the Atmosphere—Properties, Transformation, and Significance' matched "
+     "its `atmospheric propert` pattern exactly. Six records, and the family will recur "
+     "in every article that names the atmosphere"),
+    (r"(?:film|impingement|internal|blade|vane) cooling|cooling (?:channel|passage|hole|"
+     r"effectiveness).{0,30}(?:blade|vane|airfoil|turbine)|"
+     r"(?:turbine|nozzle guide vane).{0,40}(?:film cooling|coolant|cooling channel)|"
+     r"crossover jet impingement",
+     "A347: THE TURBINE BLADE IS AN AIRFOIL AND ITS INTERNAL COOLING IS NOT AERODYNAMICS. "
+     "'Experimental/Numerical Crossover Jet Impingement in an Airfoil Leading-Edge Cooling "
+     "Channel' and a film-cooling study of a turbine cascade both reached the kept set on "
+     "the word airfoil. The store already carried turbomachinery ROTORDYNAMICS, which is a "
+     "different failure and did not catch these"),
+    (r"gas lift|artificial lift|liquid unloading|\bwellbore\b|\btubing\b.{0,30}\bwell\b|"
+     r"big bore completion|reservoir (?:pressure|simulation)|oil (?:well|field) production|"
+     r"lift (?:cart|truck|table|platform)|forklift|materials handling|scissor lift",
+     "A347: `LIFT` IS THE OLDEST WORD IN AERODYNAMICS AND ALSO A PETROLEUM ENGINEERING "
+     "METHOD. 'Liquid Unloading in a Big Bore Completion: A Comparison Among Gas Lift, "
+     "Intermittent Production' reached the kept set on the bare word. `lift` cannot be "
+     "removed from an aeronautical gate, so the other sense is filtered here instead"),
+    (r"(?:induction|synchronous|permanent magnet|reluctance|brushless|wound)[- ]?"
+     r"(?:motor|machine|generator)|locked rotor|rotor bar|stator winding|\bPMSM\b|"
+     r"doubly[- ]fed|rotor (?:voltage|current|flux|slip)\b",
+     "A347: THE ROTOR OF AN ELECTRICAL MACHINE. Six records reached the kept set, "
+     "including 'Decoupling control of the rotor cross-coupling voltage for doubly-fed "
+     "induction generator'. That title carries BOTH this contaminant and the "
+     "cross-coupling one, and a stopped rotor is a locked rotor to a motor engineer"),
+
     # ---- carried from the X-Planes sweeps, where the recurring families were
     #      meteorology, marine engineering and spectroscopy sharing vocabulary
     #      with aerodynamics. See rejected.json for the individual judgements.

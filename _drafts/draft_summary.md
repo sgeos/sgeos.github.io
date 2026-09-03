@@ -17,6 +17,48 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Boeing X-50 Dragonfly A347 2025-11-25
+
+`x_planes_boeing_x50.markdown`, A347, editorial date 2025-11-25, series `x_planes` index
+51 of 72.
+
+**12,748 lines, 13 display equations, 6,121 reference definitions, 69,685 words after the draft
+pass**, of which 12,609 are author prose. **Draft pass complete, the first of four.** Committed and
+**not pushed**, since the draft pass does not push. **Not published**, and publication of the series
+has never been authorised. **Full-aircraft class.** Report primaries **824 of 6,042, being 13.6
+percent**, which the primary pass will raise.
+
+**THE KEYSTONE IS THAT THE CONFIGURATION WHICH MAKES CONVERSION SAFE IS WHAT MADE HOVER
+DANGEROUS.** A rotor can only be stopped in flight if it is first unloaded, so the canard and tail
+must carry the whole aircraft at conversion speed, so they must be large, so two surfaces spanning
+0.742 and 0.675 of the rotor diameter sit under a rotor whose disc loading is 1.34 times the X-49A's.
+**Both airframes were lost at low speed and neither ever attempted a conversion.**
+
+**THE 2001 NASA AMES COMPUTATION NAMED THE MECHANISM AND CLEARED THE MARGIN.** It identified forebody
+upwash as a source of nose-up pitching moment that no local geometry change could relieve, and
+concluded the moments were well within control authority. **Five years later the second airframe was
+lost to a nose-up pitching moment the controls could not answer.** The article states plainly that
+these are different flight conditions and that the paper was never asked about the one that mattered.
+
+**THE RESULTS PROBE WAS RUN AT THE DRAFT PASS RATHER THAN THE PUBLICATION REVIEW.** Eight subjects
+were measured in the article's words and the field's before the prose existed. Seven opened by
+factors of two to infinity. **The eighth, control authority, moved only 14 to 24, and it is the
+subject both airframes were lost to**, so a supplementary harvest was run immediately. That subject
+now stands at 160 records and its cluster at 941.
+
+**NINE OF TEN INHERITED BOOK IDENTIFIERS POINTED AT UNRELATED WORKS.** `Leishman, Principles of
+helicopter aerodynamics` resolved to a market outlook for dark rum in Japan. Every existing check
+passed, because the link resolved and the label rendered. **`_lib/booklinks.py` is new, with three
+tests, and the corpus scope is 19 mismatches across the X-Planes drafts and none in a published
+post.** Five other drafts still carry wrong keys and are listed for the pilot.
+
+**ONE IDENTIFIER IN THIS ARTICLE WAS FABRICATED AND CAUGHT BEFORE ASSEMBLY**, a NASA Technical
+Reports Server number written from a title rather than looked up. Found because every foundational
+identifier was verified first.
+
+**THE GATE WAS AUDITED FOUR TIMES AND CHANGED EVERY TIME.** Eleven homonym families were predicted
+and four occurred. The sweep store gained eight observed families and stands at 109 patterns.
+
 ## X-Planes Piasecki X-49 SpeedHawk A346 2025-11-24
 
 `x_planes_piasecki_x49.markdown`, A346, editorial date 2025-11-24, series `x_planes` index

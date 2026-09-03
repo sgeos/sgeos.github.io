@@ -17,6 +17,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+import booklinks
 import diction
 import edits
 import gate
@@ -1635,6 +1636,76 @@ def t_gate_anchor_survives_a_hyphen():
     assert g2.admits("Low-Observable Planform Design")
     assert g2.admits("low observable planform design")
 
+
+
+def t_booklinks_separates_the_two_citation_styles():
+    """A347: NINE OF TEN BOOK IDENTIFIERS POINTED AT UNRELATED WORKS.
+
+    `Leishman, Principles of helicopter aerodynamics` resolved to `The 2007-2012
+    Outlook for Dark Rum in Japan`. Every existing check passed, because the link
+    resolved, the block was well formed and the rendered label read correctly.
+    """
+    # THE GENERATED STYLE CLAIMS NO TITLE. The first version of this measurement
+    # compared an author name against a repository title and reported 16 of 40 as
+    # broken when 4 were, which is the kind of checker that trains its reader to
+    # ignore it.
+    assert booklinks.title_claim("Chul Park 1990") is None
+    assert booklinks.title_claim("World Spaceflight News et al 2017") is None
+    assert booklinks.title_claim("Hoerner 1993") is None
+    # THE HAND-WRITTEN STYLE DOES CLAIM ONE, and it is the style that goes wrong.
+    assert booklinks.title_claim("Leishman, Principles of helicopter aerodynamics") \
+        == "Principles of helicopter aerodynamics"
+    assert booklinks.title_claim("Bramwell, Done and Balmford, Bramwell's helicopter dynamics") \
+        == "Done and Balmford, Bramwell's helicopter dynamics"
+    # A label with no comma claims nothing either.
+    assert booklinks.title_claim("Kelly") is None
+    assert booklinks.title_claim("") is None
+
+
+def t_booklinks_agreement_separates_observed_pairs():
+    """The threshold is set from measured pairs, not chosen for looking reasonable."""
+    # OBSERVED CORRECT PAIRS, differing only in case and punctuation.
+    assert booklinks.agrees("Principles of helicopter aerodynamics",
+                            "Principles of Helicopter Aerodynamics")
+    assert booklinks.agrees("Bramwell's helicopter dynamics", "Bramwell's Helicopter Dynamics")
+    assert booklinks.agrees("Aerodynamics, aeronautics and flight mechanics",
+                            "Aerodynamics, aeronautics, and flight mechanics")
+    # OBSERVED WRONG PAIRS, every one of which shipped into a draft.
+    assert not booklinks.agrees("Principles of helicopter aerodynamics",
+                                "The 2007-2012 Outlook for Dark Rum in Japan")
+    assert not booklinks.agrees("Helicopter performance, stability and control",
+                                "Make Money with Affordable Apartment Buildings")
+    assert not booklinks.agrees("Rotary-wing aerodynamics", "Rural modernization")
+    assert not booklinks.agrees("Fluid-dynamic lift", "Semiotic phenomenology of rhetoric")
+    # A missing target is not agreement.
+    assert not booklinks.agrees("Helicopter theory", None)
+
+
+def t_booklinks_reads_a_reference_block():
+    """Anchors, labels and definitions are matched across the whole article."""
+    article = (
+        "text [[Leishman, Principles of helicopter aerodynamics][book_leishman]] more\n"
+        "\n### Books\n\n"
+        "- [Leishman, Principles of helicopter aerodynamics][book_leishman]\n"
+        "- [Chul Park 1990][book_chulpark_1990]\n"
+        "\n[book_leishman]: https://openlibrary.org/works/OL5833093W\n"
+        "[book_chulpark_1990]: https://openlibrary.org/works/OL2814979W\n")
+    cites = booklinks.citations(article)
+    assert set(cites) == {"book_leishman", "book_chulpark_1990"}
+    assert cites["book_leishman"][1] == "https://openlibrary.org/works/OL5833093W"
+    assert booklinks.work_key(cites["book_leishman"][1]) == "OL5833093W"
+    assert booklinks.work_key("https://example.com/nope") is None
+
+    # THE GENERATED CITATION IS OMITTED RATHER THAN REPORTED AS PASSING, so a
+    # caller cannot read `not checked` as `checked and correct`. That confusion is
+    # the exact defect `survey.py` was written for.
+    out = booklinks.check(article, fetch=lambda k: "Principles of Helicopter Aerodynamics")
+    assert [r[0] for r in out] == ["book_leishman"]
+    assert out[0][3] is True
+
+    # A key that does not resolve fails rather than silently passing.
+    bad = booklinks.check(article, fetch=lambda k: None)
+    assert bad[0][3] is False
 
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):

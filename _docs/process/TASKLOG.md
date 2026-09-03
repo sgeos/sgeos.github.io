@@ -9,13 +9,26 @@ Current task state and verification log. This file is the shared source of truth
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
-**Status**: **A297 through A344 are drafted with all four passes complete on every one, committed and
-PUSHED. A346, Piasecki X-49 SpeedHawk, has completed ALL FOUR PASSES, is committed and is PUSHED.
-Fifty of seventy-two drafted. None published, and publication has never
+**Status**: **A297 through A346 are drafted with all four passes complete on every one, committed and
+PUSHED. A347, Boeing X-50 Dragonfly, has completed the DRAFT PASS only, the first of four, and is
+committed and NOT pushed. Fifty-one of seventy-two drafted. None published, and publication has never
 been authorised.**
-The next new article is **A347**, Boeing X-50 Dragonfly, editorial date 2025-11-25, series index 51.
-**The X-48 is a blended-wing-body research demonstrator and not a combat aircraft**, and the
-supervisory-control and carrier vocabularies of A342 through A344 were correctly left behind.
+The next action is the **A347 equation-density review**, the second of four passes.
+**The X-50 has no duct**, so A346's ducted-propulsor family was dropped entire and its rotor family
+carried forward, which is the gate discipline `_lib/gate.py` records running in both directions.
+
+**A347's KEYSTONE IS THAT CONVERSION SAFETY AND HOVER DANGER ARE THE SAME DESIGN DECISION.** A rotor
+can be stopped in flight only if it is unloaded first, so the canard and horizontal tail must carry
+the whole aircraft at conversion speed, so they must be large, so surfaces spanning 0.742 and 0.675
+of the rotor diameter sit beneath a rotor loaded to 1.34 times the X-49A's disc loading. **Both
+airframes were lost at low speed and neither ever attempted a conversion.**
+
+**NINE OF TEN BOOK IDENTIFIERS INHERITED FROM A346 POINTED AT UNRELATED WORKS**, `Leishman,
+Principles of helicopter aerodynamics` resolving to a market outlook for dark rum in Japan. Every
+existing check passed, because a citation whose text is right and whose target is wrong is invisible
+to any check that does not read the target. `_lib/booklinks.py` is the instrument. **Nineteen
+mismatches were measured across the corpus, all in unpublished X-Planes drafts and none in a
+published post.** A345, A342, A343 and A344 still carry wrong keys and are a separate unit of work.
 
 **A343 is the first aeroplane in this series with no published specification at all.** The specialist
 designation directory prints specification tables for the X-45A and X-45C and none for the X-46A,
