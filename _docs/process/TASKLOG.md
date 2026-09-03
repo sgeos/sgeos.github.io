@@ -10,10 +10,12 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A346 are drafted with all four passes complete on every one, committed and
-PUSHED. A347, Boeing X-50 Dragonfly, has completed the DRAFT PASS only, the first of four, and is
-committed and NOT pushed. Fifty-one of seventy-two drafted. None published, and publication has never
-been authorised.**
-The next action is the **A347 equation-density review**, the second of four passes.
+PUSHED. A347, Boeing X-50 Dragonfly, has completed the DRAFT and EQUATION-DENSITY passes, two of
+four, and is committed and NOT pushed. Fifty-one of seventy-two drafted. None published, and
+publication has never been authorised.**
+The next action is the **A347 primary-reference review**, the third of four passes. Report primaries
+stand at **824 of 6,042, being 13.6 percent**, which is the lowest opening figure of the recent
+articles and the pass has room.
 **The X-50 has no duct**, so A346's ducted-propulsor family was dropped entire and its rotor family
 carried forward, which is the gate discipline `_lib/gate.py` records running in both directions.
 

@@ -1,9 +1,9 @@
 ## Last Updated
 
 **Date**: 2026-09-02
-**Task**: **A347, X-Planes: Boeing X-50 Dragonfly, draft pass. The first of four.** Committed and
-**not pushed**, since the draft pass does not push. **Not published**, and publication of the series
-still not authorised. **Fifty-one of seventy-two drafted.**
+**Task**: **A347, X-Planes: Boeing X-50 Dragonfly, equation-density review. The second of four.**
+Committed and **not pushed**, since only the publication review pushes. **Not published**, and
+publication of the series still not authorised. **Fifty-one of seventy-two drafted.**
 
 ---
 
@@ -163,10 +163,85 @@ reasoning. It was moved to the Source Base.
 
 ---
 
+## The Equation Pass Computed the Keystone the Draft Had Only Asserted
+
+**13 display equations to 40**, past A345's 36 and A346's 32.
+
+**The article's central mechanism was carried entirely by a verbal argument.** The draft said the wake
+skews off the canard before it leaves the tail and that the residual is a nose-up moment. That is the
+claim the whole article rests on and it had no arithmetic behind it.
+
+**It does now.** With the wake sheet descending at the induced velocity and convecting aft at the
+flight speed, a surface at station $x_s$ and drop $h$ is clear once $V > v_i (R - x_s) / h$. **The
+canard clears near 15 knots and the tail not until about 108.**
+
+**The strongest part is a ratio.** The induced velocity and the surface height appear in both clearing
+speeds and cancel, so
+
+    V_tail / V_canard = (R - x_tail) / (R - x_canard) = 10.5 / 1.5 = 7.0
+
+**The two quantities the estimate is least sure of are exactly the two that do not affect this
+number.** Whatever they really are, the tail stays in the wake to roughly seven times the speed at
+which the canard leaves it. The unopposed moment is equivalent to a centre of gravity shift of **3.7
+to 7.3 inches**, or 5.1 to 10.2 percent of rotor radius, across exactly the band both airframes were
+lost in.
+
+**Other additions.** The reverse flow area fraction $\mu^2/4$ and its limit, where the whole disc
+reverses at an advance ratio of two, reached when the tip speed has fallen to 20 percent of its
+conversion-entry value and with all of that still left to lose. The retreating tip going negative at
+an advance ratio of one. The advancing tip Mach number. The square law of rotor lift against rotor
+speed, tabulated. Blade element loading and the local velocity that survives when the rotational term
+vanishes. The four-term lift balance. Download and its weight fraction, in which the disc area
+cancels. Induced power and figure of merit. Tip jet thrust reduced by the nozzle's own motion, and the
+power it delivers, which fight each other. Aspect ratio with Helmbold's low aspect ratio lift slope,
+showing the stopped rotor gives away 28 to 46 percent of its lift-curve slope to its own proportions.
+The same surface sized twice, at cruise and maximum speed, differing by a factor of 6.42.
+
+---
+
+## Three Defects in the New Work, and Only One Was Caught by a Machine
+
+**The verifier caught a real arithmetic error.** The maximum-speed Mach number was stated as 0.575
+against a computed 0.574.
+
+**Two were caught by reading, and both were in prose I had just written.** A band from 15 to 108 knots
+was described as **an order of magnitude** when it is a factor of seven. And I claimed the hover-value
+induced velocity biased the estimate **conservatively**, when in fact a smaller induced velocity moves
+**both** clearing speeds down together and shifts the band rather than widening it.
+
+**A third was the A345 class again.** A note about rounding was written inside the reaction-drive
+argument, and a remark about an earlier draft was written inside the wake section. **The article
+narrating its own drafting history in its own reasoning is a defect this method produces reliably**,
+and it has now been caught twice in two passes on this article alone.
+
+**Where the Framing Breaks Down gained a paragraph saying that quantifying an inference does not make
+it evidence.** The numbers show the proposed mechanism is of the right size to matter. They do not
+show that it operated.
+
+---
+
+## Verification State
+
+- `python3 _verify.py` reports **0 errors, 0 warnings**.
+- `python3 _lib/test_lib.py` reports **98 of 98**.
+- `tmp/a347/verify_numbers.py` reports **ALL CHECKS PASS**, now **96 recomputed claims**, all 96
+  present in the prose, 19 cluster rows matching their own citations, cluster table matching sections.
+- Reference integrity: **6,121 defined, 6,121 used, 0 undefined, 0 orphaned**.
+- **40 display equations, none inlined with prose.** No contractions, no em or en dashes, no prose
+  colons, only the mandatory `console.log` semicolon.
+- **12,959 lines, 71,344 words, 13,815 author prose words.**
+
+**No production build has been run.** That belongs to the publication review.
+
+---
+
 ## Next
 
-**The A347 equation-density review**, the second of four passes. Thirteen display equations is low for
-this genre and the pass has obvious targets, being the reverse-flow region as a function of advance
-ratio, the wake skew angle, the pitching moment balance about the centre of gravity, blade element
-loading on a stopped blade, and the momentum-theory power relations the article currently states only
-in words.
+**The A347 primary-reference review**, the third of four passes. **Report primaries stand at 824 of
+6,042, being 13.6 percent**, which is the lowest opening figure of the recent articles, so the pass
+has room. The obvious targets are the stopped-rotor and X-wing report literature of the 1970s and
+1980s, which is a NASA and Navy literature that Crossref indexes poorly, and the control-power and
+handling-qualities specification reports.
+
+**The book-identifier repair for A342 through A346 is still outstanding and still needs your
+decision.** It is listed above.

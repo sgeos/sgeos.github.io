@@ -72,6 +72,40 @@ $$
 
 **which sits in the middle of that range.** So the X-50A most likely began its conversion at about the advance ratio where the X-49A ran out of aeroplane, and then went further in the one direction no conventional rotor can go.
 
+**What lies in that direction is worth stating exactly.** The region of the disc in which the blade meets the air backwards is a circle of diameter $\mu R$ lying on the retreating side, so its share of the disc area is
+
+$$
+\frac{A_{\text{rev}}}{A} = \frac{\pi (\mu R / 2)^2}{\pi R^2} = \frac{\mu^2}{4}
+$$
+
+**At the conversion entry that is between 2.46 and 4.81 percent of the disc**, which is unremarkable and is about what the X-49A carried at its maximum speed. The relation is quadratic, and it does not stop.
+
+$$
+\mu = 1 \ \Rightarrow \ \frac{A_{\text{rev}}}{A} = 25\% \qquad \mu = 2 \ \Rightarrow \ \frac{A_{\text{rev}}}{A} = 100\%
+$$
+
+**At an advance ratio of two the reverse flow region covers the entire disc.** Holding the conversion speed of 219.4 feet per second, that happens when the tip speed has fallen to
+
+$$
+\Omega R = \frac{V}{2} = 109.7 \ \mathrm{ft/s}
+$$
+
+**which is 20 percent of the tip speed the aeroplane most likely entered conversion at, and the rotor still has all of that left to lose.** The quadratic form is exact only up to that point, since beyond an advance ratio of two the circle it describes is larger than the disc and there is no more disc left to cover.
+
+**The retreating tip reaches zero airspeed earlier still.** Its velocity is
+
+$$
+V_{\text{ret}} = \Omega R - V = \Omega R \,(1 - \mu)
+$$
+
+**which vanishes at an advance ratio of one and is negative beyond it**, so from that point the retreating blade travels backwards through the air along its entire length. The advancing blade has the opposite problem and it is a compressibility one,
+
+$$
+M_{\text{adv}} = \frac{\Omega R + V}{a}
+$$
+
+**giving between 0.644 and 0.824 at conversion entry**, falling as the rotor slows, which is the one thing that gets easier on the way down.
+
 ### Lift Falls With the Square of Rotor Speed
 
 Rotor thrust in hover follows from the thrust coefficient, in the standard form used throughout the rotorcraft literature [[Leishman, Principles of helicopter aerodynamics][book_leishman]] [[Johnson, Helicopter theory][book_johnson_helicopter_theory]] [[Seddon, Basic helicopter aerodynamics][book_seddon]].
@@ -80,13 +114,48 @@ $$
 T = C_T \rho A (\Omega R)^2
 $$
 
-**Halving the rotor speed quarters the available thrust at constant thrust coefficient.** A rotor that is slowing to a stop is therefore losing its lift on a square law, and it loses it fastest at the end. There is no rotor speed at which the surface stops being a rotor and starts being a wing. There is a continuous handover, and the handover has to be completed before the rotor speed reaches the value at which the rotor cannot carry the aircraft.
+**Halving the rotor speed quarters the available thrust at constant thrust coefficient.**
+
+$$
+\frac{L}{L_0} = \left( \frac{\Omega}{\Omega_0} \right)^{\!2}
+$$
+
+| Rotor speed remaining | Lift remaining |
+|---|---|
+| 75 percent | 56.25 percent |
+| 50 percent | 25 percent |
+| 25 percent | 6.25 percent |
+| 10 percent | 1 percent |
+
+**The same law read blade by blade shows where the difficulty concentrates.** The lift of an element of blade at radius $r$ and azimuth $\psi$ is
+
+$$
+\mathrm{d}L = \tfrac{1}{2} \rho U^2 c \, C_l \, \mathrm{d}r
+$$
+
+with the local velocity
+
+$$
+U(r, \psi) = \Omega r + V \sin \psi
+$$
+
+**and it is that sine term that survives when the first term goes to zero.** A stopped rotor is not a rotor with no velocity over it. It is a wing with the flow arriving from one side.
+
+A rotor that is slowing to a stop is therefore losing its lift on a square law, and it loses it fastest at the end. There is no rotor speed at which the surface stops being a rotor and starts being a wing. There is a continuous handover, and the handover has to be completed before the rotor speed reaches the value at which the rotor cannot carry the aircraft.
 
 ### Unloading Is the Only Way Through
 
 **The X-wing programme established what happens if the handover is not completed.** The 2001 computational study opens by recording that analysis and testing of the X-wing found high transient aerodynamic loads during conversion, and that the canard rotor wing design addresses this by generating positive lift on both the canard and the horizontal tail so that the main rotor can be completely unloaded throughout the conversion manoeuvre [[Pandya and Aftosmis, Computation of external aerodynamics for a canard rotor/wing aircraft][research_pandya_aftosmis]].
 
 **An unloaded rotor does not stall, whatever its advance ratio.** That is the trick, and it is a good one. Retreating blade stall is a consequence of demanding lift from a blade with insufficient dynamic pressure, and a blade asked for no lift cannot be asked for too much. The reverse flow region can cover the entire disc without consequence if the disc is carrying nothing.
+
+**The bookkeeping is a single equation and the whole configuration follows from it.**
+
+$$
+L_{\text{rotor}} + L_{\text{canard}} + L_{\text{tail}} + L_{\text{fuselage}} = W
+$$
+
+**Driving the first term to zero forces the others to make up the difference**, and they have to do it at whatever airspeed the conversion happens at.
 
 **The price is that the weight has to go somewhere, and it goes onto the canard and the horizontal tail.** Everything that follows in this article is a consequence of that sentence.
 
@@ -140,11 +209,97 @@ $$
 q_{\text{slip}} = \tfrac{1}{2} \rho (2 v_i)^2 = \frac{W}{A} = 12.9 \ \mathrm{lbf/ft^2}
 $$
 
-**So between 21 and 32 square feet of lifting surface sits in a 12.9 pound per square foot slipstream in hover.** Taking a drag coefficient of unity for surfaces with flaps deployed gives a download of 12.9 pounds per square foot, and against the mid-range area of 21.3 square feet that is 22.6 percent of the gross weight. At a drag coefficient of 0.6 it is 13.5 percent and at 1.2 it is 27.1 percent.
+**So between 21 and 32 square feet of lifting surface sits in a 12.9 pound per square foot slipstream in hover.** The download on that surface is
+
+$$
+D = q_{\text{slip}} \, S \, C_D = \frac{W}{A} S \, C_D
+$$
+
+**and expressed as a fraction of the weight the disc area cancels out of the geometry entirely.**
+
+$$
+\frac{D}{W} = \frac{S \, C_D}{A}
+$$
+
+Taking a drag coefficient of unity for surfaces with flaps deployed gives a download of 12.9 pounds per square foot, and against the mid-range area of 21.3 square feet that is 22.6 percent of the gross weight. At a drag coefficient of 0.6 it is 13.5 percent and at 1.2 it is 27.1 percent.
+
+**The power that slipstream costs is worth naming while the momentum theory is open.** The ideal induced power is
+
+$$
+P_i = W v_i = (1460)(52.1) = 76{,}082 \ \mathrm{ft \, lbf/s} = 138.3 \ \mathrm{hp}
+$$
+
+and the real figure follows from the figure of merit,
+
+$$
+\mathrm{FM} = \frac{W v_i}{P_{\text{actual}}}
+$$
+
+**which at 0.6 to 0.7 puts the rotor power between 198 and 231 horsepower**, before any of the reaction drive losses discussed below.
 
 **The download is not the point, though it is large.** The point is what happens to that force as the aircraft begins to move forward.
 
-**In hover the wake goes straight down and both surfaces are in it.** The canard is ahead of the centre of gravity and the tail behind it, so the two downloads produce opposing pitching moments that partly cancel. **As the aircraft accelerates the wake skews aft.** The canard comes out of the wake first and the tail stays in it longest. The forward download disappears while the aft download remains, and the residual is a nose-up pitching moment that grows with airspeed.
+### The Wake Does Not Leave Both Surfaces at Once
+
+**In hover the wake goes straight down and both surfaces are in it.** The canard is ahead of the centre of gravity and the tail behind it, so the two downloads produce opposing pitching moments that partly cancel.
+
+**As the aircraft accelerates the wake skews aft**, through an angle from the vertical given by the ratio of flight speed to induced velocity.
+
+$$
+\tan \chi = \frac{V}{v_i}
+$$
+
+| Airspeed | Skew angle |
+|---|---|
+| 10 knots | 17.9 degrees |
+| 20 knots | 32.9 degrees |
+| 30 knots | 44.2 degrees |
+| 40 knots | 52.3 degrees |
+| 60 knots | 62.8 degrees |
+
+**The wake sheet shed from the forward edge of the disc descends at** $v_i$ **and convects aft at** $V$, so at a vertical drop $h$ below the rotor plane it has moved aft by $h V / v_i$ and its forward boundary stands at
+
+$$
+x_w = R - h \, \frac{V}{v_i}
+$$
+
+**A surface at longitudinal station** $x_s$ **is therefore clear of the wake once** $x_w < x_s$, which happens at
+
+$$
+V_{\text{clear}} = v_i \, \frac{R - x_s}{h}
+$$
+
+**The longitudinal stations are estimated from the overall dimensions and are not published**, so the result is a range. Taking the canard 4.0 to 5.0 feet ahead of the hub, the tail 4.0 to 5.0 feet behind it, and both 2.5 to 3.5 feet below the rotor plane gives
+
+$$
+V_{\text{clear, canard}} \approx 9 \ \text{to} \ 25 \ \mathrm{kt} \qquad V_{\text{clear, tail}} \approx 88 \ \text{to} \ 136 \ \mathrm{kt}
+$$
+
+**with nominal values of 15 knots and 108 knots.** Between those two speeds the canard is out of the wake and the tail is still in it.
+
+**The ratio between those two speeds is the robust part of this estimate**, because the induced velocity and the vertical drop appear in both and cancel.
+
+$$
+\frac{V_{\text{clear, tail}}}{V_{\text{clear, canard}}} = \frac{R - x_{\text{tail}}}{R - x_{\text{canard}}} = \frac{10.5}{1.5} = 7.0
+$$
+
+**So whatever the induced velocity really is, and whatever the surfaces really sit at, the tail stays in the wake to roughly seven times the airspeed at which the canard leaves it.** The two quantities the estimate is least sure of are exactly the two that do not affect this number.
+
+**That is the whole mechanism.** The nose-down contribution from the forward surface disappears at walking pace and the nose-up contribution from the aft surface persists almost to conversion entry. The pitching moment is
+
+$$
+M = D_{\text{tail}} \, l_{\text{tail}} - D_{\text{canard}} \, l_{\text{canard}}
+$$
+
+and the swing as the canard clears is the loss of the second term. **Expressed as the shift in centre of gravity it is equivalent to**, which is the form that means something without a published control moment,
+
+$$
+\Delta x_{cg} = \frac{q_{\text{slip}} \, S_c \, C_D \, l_c}{W}
+$$
+
+**that is 3.7 inches at a drag coefficient of 0.6, 6.1 inches at 1.0 and 7.3 inches at 1.2**, being between 5.1 and 10.2 percent of the rotor radius, appearing over a speed band the aircraft crosses in a few seconds.
+
+**One approximation in this estimate should be stated and its effect is not what it first appears.** The induced velocity used is the hover value, and induced velocity falls as forward speed builds, so the true skew angle is larger than the table says. **That moves both clearing speeds down together rather than only the canard's**, since both are proportional to the induced velocity. The band shifts to lower airspeed and keeps its width in ratio, and it does not widen.
 
 **This is a known effect on conventional helicopters and it is why many of them carry a programmable stabilator** [[Prouty, Helicopter performance, stability and control][book_prouty]] [[Padfield, Helicopter flight dynamics][book_padfield]]. On the X-50A the surface concerned spans two thirds of the rotor diameter and is sized to carry the entire aircraft, so the effect is not a trim nuisance. It is a large moment produced by a large surface, and it appears in exactly the speed range between hover and conversion entry.
 
@@ -153,6 +308,20 @@ $$
 ### What Reaction Drive Deletes
 
 **The X-50A had no gearbox, no driveshaft and no tail rotor.** During rotary-wing flight the exhaust of the Williams F112 turbofan was diverted through the rotor hub, out along the blades and through nozzles at the tips [[The revolutionary Boeing Canard Rotor/Wing aircraft begins flight testing][ref_boeing_first_flight]] [[Williams F112][ref_f112_wikipedia]]. As the canard and tail took up the load the exhaust was progressively diverted to a nozzle at the rear.
+
+**The thrust a tip nozzle produces is reduced by its own motion**, since the nozzle is already travelling at the tip speed when the gas leaves it.
+
+$$
+T_{\text{tip}} = \dot{m} \, (V_j - \Omega R)
+$$
+
+**and the power delivered to the rotor is that thrust acting through the tip speed**, summed over the blades.
+
+$$
+P = N \, T_{\text{tip}} \, \Omega R
+$$
+
+**Those two expressions fight each other.** Raising the tip speed raises the second and lowers the first, and the product has a maximum that no published figure for this aeroplane allows to be located.
 
 **A tip-driven rotor applies no torque to the airframe**, because the force turning it acts at the blade tips rather than through a shaft. That deletes the anti-torque requirement entirely, and with it the tail rotor, its driveshaft, its gearbox and the power they consume. On a machine that also has to stop its rotor in flight this is more than a weight saving. **A stopped shaft-driven rotor would still have a transmission attached to it, and the torque path would have to be broken and remade.**
 
@@ -188,11 +357,51 @@ $$
 
 **Twenty-four percent thickness is extraordinary** [[Hoerner, Fluid dynamic drag][book_hoerner_drag]] [[Schlichting and Gersten, Boundary-layer theory][book_schlichting]] [[McCormick, Aerodynamics, aeronautics and flight mechanics][book_mccormick]]. A transport wing runs near 12 percent and a helicopter blade nearer 9 to 12. The section exists because a blade that must work in reverse flow cannot have a sharp edge anywhere, and because the blade has to be deep enough to duct hot exhaust gas to the tip.
 
+**The planform is as awkward as the section.** A stopped two-bladed rotor is a wing of twelve foot span and very large chord, so its aspect ratio
+
+$$
+A\!R = \frac{b^2}{S} = \frac{b^2}{b \, c} = \frac{b}{c}
+$$
+
+**is between 3 and 6 for a chord between four and two feet**, against roughly 8 for a light aeroplane and 30 for a sailplane. A wing that stubby loses a large part of its lift-curve slope, which Helmbold's relation gives as
+
+$$
+a = \frac{2 \pi A\!R}{2 + \sqrt{A\!R^2 + 4}}
+$$
+
+| Chord | Aspect ratio | Lift-curve slope, per radian | Loss against two-dimensional |
+|---|---|---|---|
+| 2 feet | 6.0 | 4.53 | 27.9 percent |
+| 3 feet | 4.0 | 3.88 | 38.2 percent |
+| 4 feet | 3.0 | 3.36 | 46.5 percent |
+
+**So the surface that has to carry the aeroplane in high-speed flight gives away between a quarter and a half of its lift-curve slope to its own proportions**, before the elliptical section costs anything further. **The rotor chord is not published and this is the fourth result in the article that depends on an unpublished quantity.**
+
 **The elliptical section is a better reverse-flow aerofoil than a conventional symmetric one**, which is the reason it was chosen, and it is a worse aerofoil than either in the regimes where those are used. The stopped-rotor literature has been circling this compromise since the 1960s [[Biggers and Watts, Horizontal stoppable rotor conversion][research_horizontal_stoppable]] [[Ballard, McCloud and Forsyth, An investigation of a stoppable helicopter rotor with circulation control][research_stoppable_circulation]] [[Lance, Sung and Stroub, Low-speed wind-tunnel test of an unpowered high-speed stoppable rotor concept in fixed-wing mode][research_stoppable_fixed_wing_mode]].
 
 ## The Aircraft
 
 **The X-50A was unmanned, 17.7 feet long, 6.5 feet high and weighed 1,460 pounds.** It carried a two-bladed teetering rotor twelve feet in diameter, an 8.9 foot canard and an 8.1 foot horizontal tail, and was powered by a single Williams F112 turbofan [[The revolutionary Boeing Canard Rotor/Wing aircraft begins flight testing][ref_boeing_first_flight]] [[Dragonfly canard rotor wing unmanned aerial vehicle, Federation of American Scientists][ref_fas_crw]]. Maximum speed was quoted as 380 knots and cruise as 150 knots, with conversion planned near 120 to 130 knots.
+
+**The speed range is the configuration's central difficulty stated as arithmetic.** The lift a wing must produce is fixed and the dynamic pressure available is not, so the required product of area and lift coefficient scales inversely with the square of speed.
+
+$$
+S \, C_L = \frac{W}{q} = \frac{2W}{\rho V^2}
+$$
+
+**At 150 knots that product is 19.17 square feet and at 380 knots it is 2.99**, a ratio of
+
+$$
+\frac{(S C_L)_{\text{cruise}}}{(S C_L)_{\text{max}}} = \left( \frac{V_{\text{max}}}{V_{\text{cruise}}} \right)^{\!2} = \left( \frac{380}{150} \right)^{\!2} = 6.42
+$$
+
+**and the maximum speed itself is only**
+
+$$
+M = \frac{V}{a} = \frac{641.4}{1116.4} = 0.574
+$$
+
+**at sea level, so compressibility is not what sizes this wing.** The wing is sized by the requirement to be a rotor, and every fixed-wing condition it meets afterwards finds it enormously oversized. **That is not a criticism of the design. It is the definition of the configuration.**
 
 **The sources disagree about the weight and the disagreement is small but real.** Boeing states 1,460 pounds. The general encyclopaedia states an empty weight of 1,265 pounds and a gross weight of 1,422 pounds [[Boeing X-50 Dragonfly][ref_x50_wikipedia]]. The spread between the two gross figures is 38 pounds, or 2.7 percent, and it moves the computed disc loading from 12.9 to 12.6 pounds per square foot. **No conclusion in this article turns on the difference**, and the larger figure is used throughout because it is the manufacturer's own.
 
@@ -245,6 +454,8 @@ $$
 **The chain of reasoning in this article is a chain of plausible inferences and not a demonstrated causal account, and four links are weaker than the others.**
 
 **First, the article claims the wake-skew pitch-up mechanism without direct evidence that it was the mechanism.** The accident finding is a nose-up pitching moment from airspeed and rotor wake exceeding control authority. That the specific route was the tail remaining in the wake as the canard left it is the standard explanation for that signature on rotorcraft, and it is consistent with the geometry, and it is not stated in any source consulted about this aeroplane. **It is an inference from configuration and it is offered as one.**
+
+**Quantifying it does not make it evidence.** The equation-density review computed the clearing speeds, the skew angles and the equivalent centre of gravity shift, and none of that establishes that this is what happened to either airframe. **An arithmetically detailed inference is still an inference**, and the numbers show only that the proposed mechanism is of the right size to matter rather than that it operated.
 
 **Second, the surface areas are derived and not published.** The canard and tail areas are computed from the requirement to carry the aircraft at the published conversion speed, under an assumed lift coefficient range. If the real surfaces are substantially larger, because they were sized by a stall margin rather than by cruise lift, then the download and moment arguments strengthen. If they are smaller, the arguments weaken. **The spans are published and the areas are not, and the spans alone carry the geometric part of the argument.**
 

@@ -22,11 +22,33 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_boeing_x50.markdown`, A347, editorial date 2025-11-25, series `x_planes` index
 51 of 72.
 
-**12,748 lines, 13 display equations, 6,121 reference definitions, 69,685 words after the draft
-pass**, of which 12,609 are author prose. **Draft pass complete, the first of four.** Committed and
-**not pushed**, since the draft pass does not push. **Not published**, and publication of the series
+**12,959 lines, 40 display equations, 6,121 reference definitions, 71,344 words after the
+equation-density review**, of which 13,815 are author prose. **Two of four passes complete**, being
+the draft and the equation density. Committed and **not pushed**, since only the publication review
+pushes. **Not published**, and publication of the series
 has never been authorised. **Full-aircraft class.** Report primaries **824 of 6,042, being 13.6
 percent**, which the primary pass will raise.
+
+**THE EQUATION PASS COMPUTED THE ARTICLE'S KEYSTONE, WHICH THE DRAFT HAD ONLY ASSERTED.** The wake
+skewing off the canard before the tail was carried entirely by a verbal argument. It is now arithmetic.
+**The canard clears the rotor wake near 15 knots and the tail not until about 108**, and the ratio
+between those two speeds is exactly 7.0 **independent of the induced velocity and the surface height**,
+which are the two quantities the estimate is least sure of. The unopposed nose-up moment is equivalent
+to a centre of gravity shift of **3.7 to 7.3 inches**, appearing across exactly the band both airframes
+were lost in.
+
+**13 display equations to 40**, past A345's 36 and A346's 32. The additions are the reverse flow area
+fraction and its limit at an advance ratio of two, the retreating tip going negative at one, the
+advancing tip Mach number, the square law of rotor lift against speed, blade element loading, the lift
+balance, download, induced power and figure of merit, the whole wake-skew derivation, tip jet thrust
+and power, aspect ratio with Helmbold's low aspect ratio lift slope, and the same surface sized twice
+at cruise and maximum speed.
+
+**THE VERIFIER CAUGHT A REAL ARITHMETIC ERROR AND TWO ARTEFACTS.** The maximum-speed Mach number was
+stated as 0.575 against a computed 0.574. **Two errors in the new prose were caught on reading rather
+than by a checker**, being a band described as an order of magnitude when it is a factor of seven, and
+a claim that the hover-value approximation biased the estimate conservatively when in fact it moves
+both clearing speeds together.
 
 **THE KEYSTONE IS THAT THE CONFIGURATION WHICH MAKES CONVERSION SAFE IS WHAT MADE HOVER
 DANGEROUS.** A rotor can only be stopped in flight if it is first unloaded, so the canard and tail
