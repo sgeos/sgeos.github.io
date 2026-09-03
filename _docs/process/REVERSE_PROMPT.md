@@ -1,8 +1,71 @@
 ## Last Updated
 
 **Date**: 2026-09-02
-**Task**: **A346 equation-density review, the second of four.** Committed and **not pushed**.
+**Task**: **A346 primary-reference review, the third of four.** Committed and **not pushed**.
 **Not published**, and publication of the series still not authorised.
+
+---
+
+## All Six Promoted Subjects Were Held, Which Is Not What the Last Two Articles Found
+
+**The equation pass made the ducted actuator disc, slipstream contraction, the reverse flow region,
+parasite drag as a cube law, hover download and lift sharing load-bearing.** Nothing in the rhythm
+re-asks whether the pool holds them, and this audit is the only thing that can.
+
+| Subject | Article's words | Field's words | After harvest |
+|---|---|---|---|
+| the ducted actuator disc | 250 | | 289 |
+| the reverse flow region | 87 | | 98 |
+| slipstream contraction and momentum theory | 66 | | 67 |
+| hover download and the power it costs | 46 | | 55 |
+| parasite drag and the equivalent flat plate area | 21 | **157** | 217 |
+| lift sharing between a rotor and a wing | 28 | **83** | 90 |
+
+**Two measured thin and both opened on broadening before any harvesting.** Parasite drag went 21 to
+157 once asked in the words a publisher uses, which include fairing, streamlining and interference
+drag. **Neither was a pool gap.** A345's viscosity subject measured zero and stayed there; this
+article had no such case.
+
+---
+
+## A345's Hardest Lesson Was Applied One Article Later Rather Than Rediscovered
+
+**A345 found in its own primary pass that its first harvest had never named its aeroplane.** This
+harvest was rerun asking NASA, the Defense Technical Information Center and Crossref for the X-49,
+the SpeedHawk, Piasecki, the 16H, the ring tail and the vectored thrust ducted propeller by name.
+
+**The pool still holds zero records naming any of them.**
+
+**That claim was verified against the search engines and not against the pool**, because A345 nearly
+published the same claim when the fault lay in its own measuring pattern. Asked directly, **NTRS
+returns nothing for `SpeedHawk`, nothing for `vectored thrust ducted propeller` and nothing for
+`16H-1A`**. Its `Piasecki` results are the Heli-Stat airship and unrelated authors of that surname.
+**DTIC's `X-49 SpeedHawk` results are reports merely NUMBERED 49**, one a computer graphics laboratory
+progress report and one a strategic forum on Korean local elections.
+
+**So the X-49 has essentially no indexed technical literature in either repository**, which is
+consistent with a Small Business Innovation Research programme run through a contractor and published
+in vertical flight society proceedings rather than as government reports.
+
+---
+
+## One Primary Exists About Either Aeroplane and Its Text Could Not Be Read
+
+**The 16H-1A flight test research programme, by Meyers, Tompkins and Goldberg and dated 1968, is the
+only primary document in 4,300 records about either Piasecki compound aeroplane.** It reached the pool
+through a SUBJECT query rather than a name query.
+
+**Its full text could not be retrieved.** The repository refuses automated requests, which is
+bot mitigation rather than a citation failure, and the identifier is registered and resolves.
+
+**The consequence is stated in the article rather than hidden.** Its opening comparison, which is the
+strongest claim it makes, **still rests on the manufacturer's own account of its own aeroplane**. A
+reader with library access can close that gap and this article cannot.
+
+**What the repositories do hold is the duct's own literature and it is a 1960s one**, 131 records
+naming a ducted propeller, among them a multi-volume ducted propeller assault transport study and a
+two-volume theoretical investigation of ducted propeller aerodynamics. **The technology the X-49A
+demonstrated in 2007 was documented while the 16H was still flying.**
 
 ---
 
@@ -156,8 +219,9 @@ rocket and ramjet of solid-propellant propulsion, and domestic air conditioning.
 
 ## State
 
-**A346 is committed and NOT pushed. Two of four passes complete.** **8,132 lines, 32 display
-equations, 3,815 reference definitions, 44,999 words**, of which 5,939 are author prose. Editorial
+**A346 is committed and NOT pushed. Three of four passes complete.** **9,281 lines, 32 display
+equations, 4,371 reference definitions, 51,569 words**, of which 6,719 are author prose. Research
+3,744 to **4,300**, report primaries 781 to **958**, fraction 20.9 to **22.3 percent**. Editorial
 date 2025-11-24, series index 50, **full-aircraft class**. Research 3,744, report primaries **781 at
 20.9 percent**, median publication year 2007.
 
@@ -178,8 +242,10 @@ in authored prose. **`_lib` tests are 95 of 95.**
 
 ## Next
 
-**A346's primary-reference review**, the third of four. Report primaries stand at **781 of 3,744,
-being 20.9 percent**. **Run the promoted-subjects audit first**, because this pass made several
-subjects load-bearing that the draft did not need, being the ducted actuator disc, the reverse flow
-region, parasite power as a cube law and hover download priced as power. **A345's equation pass did
-exactly this and its viscosity subject measured zero.**
+**A346's publication review**, the fourth and last. **The results probe has fired in six consecutive
+publication reviews**, so run it, and note that A345's found eleven of twelve conclusions thin in the
+article's own words and eight of them artefacts of vocabulary. **Probe with this article's
+conclusions**, which include the advancing-blade limit, the transmission as the binding constraint,
+the retrofit as the right figure of merit, and the designation skip. **Read the opening against the
+conclusion first**, since the 1965 comparison is the article's most exposed claim and rests on a
+source the primary pass could not upgrade.

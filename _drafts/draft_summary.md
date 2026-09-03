@@ -22,10 +22,25 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_piasecki_x49.markdown`, A346, editorial date 2025-11-24, series `x_planes` index
 50 of 72.
 
-**8,132 lines, 32 display equations, 3,815 reference definitions, 44,999 words after the
-equation-density review**, of which 5,939 are author prose. **Two of four passes complete.** Committed and **NOT
+**9,281 lines, 32 display equations, 4,371 reference definitions, 51,569 words after the
+primary-reference review**, of which 6,719 are author prose. **Three of four passes complete.**
+Report primaries **958 of 4,300, being 22.3 percent**, from 781 of 3,744 at 20.9. Committed and **NOT
 pushed**. **Not published**, and publication of the series has never been authorised.
 **Full-aircraft class.** Report primaries **781 of 3,744, being 20.9 percent**.
+
+**THE PRIMARY PASS APPLIED A345'S LESSON ONE ARTICLE LATER RATHER THAN REDISCOVERING IT.** The
+harvest was rerun asking for the X-49, the SpeedHawk, Piasecki and the VTDP by name, and **the pool
+still holds zero records naming any of them**. That was verified against the search engines rather
+than the pool, since A345 nearly published the same claim when the fault was in its own pattern.
+**NTRS returns nothing for `SpeedHawk` or `16H-1A`, and DTIC's `X-49` results are reports merely
+numbered 49.**
+
+**ONE PRIMARY EXISTS AND ITS TEXT COULD NOT BE READ**, the 16H-1A flight test report of 1968, so the
+article's opening comparison still rests on the manufacturer's own account. **What the repositories
+do hold is the duct's 1960s literature**, 131 ducted-propeller records.
+
+**All six promoted subjects were held**, the two thin ones opening on broadening before any
+harvesting.
 
 **THE EQUATION PASS PRICED THE DUCT, WHICH THE DRAFT HAD TAKEN ON TRUST.** Momentum theory gives
 the slipstream contraction to half the disc area, and the ducted actuator disc then gives
