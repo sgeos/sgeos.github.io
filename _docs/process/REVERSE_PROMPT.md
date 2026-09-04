@@ -1,109 +1,160 @@
 ## Last Updated
 
 **Date**: 2026-09-04
-**Task**: **The book-identifier repair for A342 through A346.** Twelve anchors and sixteen citations
-replaced. Committed and **pushed**. **Not an article pass**, and no article's argument, prose, counts
-or reference totals changed. **Fifty-two of seventy-two drafted, none published**, and publication of
-the series still not authorised.
+**Task**: **A349, X-Planes: X-52, the Designation Refused, draft pass. The first of four.**
+Committed, **not pushed**, since only the publication review pushes. **Not published**, and
+publication of the series still not authorised. **Fifty-three of seventy-two drafted.**
 
 ---
 
-## The Instrument Was Broken and Would Have Rewritten Correct Citations
+## The Subject Is a Refusal and Not a Gap
 
-**The first measurement of this repair was garbage and was discarded.** `_lib/booklinks.py` resolved a
-work key by reading `openlibrary.org/works/<key>.json`. That endpoint returns **HTTP 500 for records
-that plainly exist**. `OL17855977W` is Raymer's `Aircraft design, a conceptual approach` and
-`OL5220705W` is Wooldridge's `Winged Wonders`, and both returned `Internal Error` six times out of six
-while other keys returned 200 every time.
+**X-52A was requested in 2006, disapproved because of possible confusion with the B-52 series, and
+X-53A was allocated to the programme instead.** The paperwork was done correctly and the answer was no.
 
-**A nonexistent key returns 500 as well.** That endpoint therefore cannot separate `this key is wrong`
-from `this record will not serve`, and the module collapsed both into `None`, which `check` reported as
-a mismatch. **Had the repair run against that measurement it would have replaced correct identifiers
-with different ones.**
-
-**That is the third time this corpus has paid for the same lesson.** A347's local SSL certificate error
-nearly condemned 1,051 citations. A348 saw one book identifier fail on one run and resolve on the two
-after it. **A broken check reports the data as broken, and that is the dangerous direction.**
+**That is a different anomaly from A336's X-39**, where the allocation request was never submitted and
+the number was lost to two missing documents. **Here nothing was lost.** The request was made,
+considered, refused and answered on the same occasion, the programme got a designation, and the
+register records why 52 is absent. **The cost of the refusal, measured in anything the designation
+system exists to provide, is zero**, which is what makes it the cleanest case in the series for asking
+what the rule is actually for.
 
 ---
 
-## The Search Index Is the Oracle, and It Answers a Question the Work Record Does Not
+## The Finding Came From Reading the Instruction, Not a Description of It
 
-`search.json?q=key:"/works/OLnnnW"` returns **numFound 1 with a title and an author** for a real key
-and **numFound 0** for a bogus one, which is exactly the discrimination this needed. It also accepts
-twenty keys in one query, which mattered because openlibrary.org was resetting roughly one connection
-in three while this ran.
+**The 14 April 2005 issue was read in full and it does not contain the rule that refused the number.**
 
-**It carries the author, which the work record does not give without a second request.** Every
-replacement was therefore held to **both halves** of an `Author, Title` claim rather than to the title
-alone, which is a higher standard than the gate it has to pass. A repair checked on title only is free
-to land on a different author's book of the same name.
+- It directs that the coordinating office **assign the next available consecutive design number**.
+- **It does not contain the word skip**, nor any discretion, nor any criterion for judging a number
+  unsuitable.
+- Its duplication check, its **trademark search** and its four levels of review apply to the
+  **popular name**, which the same document calls an aid to communications and media references.
+- The designation, which it calls **official**, is issued in sequence by a logistics office.
+- **Its only written anti-confusion rule for a designator is that the series letters I and O are
+  prohibited because they resemble the digits 1 and 0.**
 
-`resolve` now reports `found`, `absent` or `unknown`, and `check` reports `ok`, `wrong`, `missing` or
-`undetermined`, **so that `could not be determined` can never be read as `wrong`**. `_lib/tests` are
-102 of 102, up from 101.
+**The 1994 issue says the same.** **The 3 November 2020 issue adds one sentence, at A2.1.6.1.2,
+granting AF/A8PE the authority to skip a design number at discretion, with no criterion attached.**
 
----
-
-## What Was Actually Wrong
-
-**Sixteen citations across twelve anchors, in all five drafts.** Seven of A346's eight checkable book
-citations, five of A345's nine, two of A343's seven, one of A344's six and one of A342's eleven.
-
-They pointed at a market outlook for dark rum in Japan, a guide to buying apartment buildings, a book
-about log homes, a Spanish travel guide to the Greek islands, a text on green chemistry, a volume of
-`History of Universities`, a book on liturgy, an immigration handbook, a work on semiotic
-phenomenology, a study of rural modernisation in Java, a survey of adult-education thinkers, and **a
-strategy guide for the video game `Vigilante 8`**.
-
-**Eight replacements were already living in the corpus**, seven of them in A347, which is the article
-that found this class of defect and repaired its own. Four were resolved by fresh search, namely
-Sheridan at `OL4274944W`, Hoerner at `OL5289631W`, Misra and Enge at `OL24594478W` and Stepniewski at
-`OL5602816W`.
-
-**The repair script confirmed the old key wrong before touching it**, so that a key which was correct
-all along could not be replaced, and **refused rather than guessed** on any disagreement. It refused
-nothing. Corpus measurement moved from **283 of 300 to 299 of 300**.
+**So the authority was absent for at least twenty-six years while the practice ran throughout them**,
+and when it was finally written down it described a power rather than a test.
 
 ---
 
-## Two Things Left for You
+## The Same Office Had Manufactured the Same Collision Four Years Earlier
 
-**A324 carries a malformed label over a correct key.** `book_jenkins` reads `Administration, National
-Aeronautics and Space, Jenkins, Dennis R...`, which is the repository's author field copied verbatim
-with its ellipsis, so the label swallowed the title. The identifier is right and the rendered citation
-is not. **It is outside A342 through A346 and belongs to an article that has completed all four
-passes**, so it was reported rather than edited. It is the one remaining item in the 299 of 300.
+**F-35 was approved on 5 June 2002 by HQ USAF/XPPE**, which became AF/A8PE on 1 February 2006,
+**against its own nomenclature office's recommendation of F-24A** made on the ground that design
+numbers are assigned consecutively. The number came from a press conference, by replacing the X of
+X-35 with an F.
 
-**A substantial fraction of OpenLibrary work pages currently return Internal Error to a reader.** Four
-of the 22 book URLs in the five repaired drafts failed on two consecutive serial requests, and the
-condition also hits keys A347 shipped and you already approved, namely Schlichting at `OL11833044W` and
-Bramwell at `OL16987916W`. **No key was changed to chase this.** Selecting an identifier against a
-transient server fault is the error this entire task was spent avoiding. **If it persists it is a
-reader-facing problem for the whole series and not for these five drafts**, and it wants its own
-decision.
+**A cross-series numeric echo was desirable continuity in 2002 and a hazard in 2006**, under one
+instruction that authorised neither. The article states the inconsistency as one of the system rather
+than of any person, because the individuals need not have been the same.
+
+---
+
+## The Sharpest Thing in the Record Is an Asymmetry
+
+**Q-7 and Q-8 were requested in 1953 to renumber two drones because they were ALREADY being confused
+with the unmodified aircraft they were built from**, and the confusion was costing production time and
+parts. **Both requests were refused in March 1954.**
+
+**In 1954 the system declined to act although confusion was occurring. In 2006 it acted because
+confusion might occur.**
+
+---
+
+## The Sweep Store Is Aeronautical and This Subject Is Not
+
+**This is the first article in the series whose subject is not an aeroplane**, and the store noticed.
+
+Applied untagged, the inherited store removed **310 records of which
+188 were on subject**. Among them was an intervention study on look-alike and
+sound-alike medication errors, **the single most on-subject title in the whole harvest**, and the
+readback and hearback literature, both removed by a pattern reading patient or clinic.
+
+**The store is not wrong. It is aeronautical.** Every medical pattern in it was earned because medicine
+bleeds into aeroplane sweeps. **Refusing a proposed drug name because an approved name is near it is
+the same administrative act as refusing X-52A because a B-52 exists.**
+
+**3 tagged families covering 7 patterns are switched off by
+name** through A348's mechanism. `homonyms.TAGS` now holds six. The store gained three new patterns and
+stands at 124.
+
+---
+
+## The Filter Built to Protect the Survey Deleted Its Subject
+
+**Biological nomenclature reached the kept set, as it had for A336, and component nomenclature had done
+the same for A341**, so a pattern was written to remove the family for good.
+
+**Its first version anchored on the phrase `generic name`, which is the taxonomic term and is also the
+pharmacist's term for a nonproprietary drug name.** It deleted a paper on the hazards of illegible
+prescriptions with look-alike and sound-alike trade and generic names. It also anchored on `taxonomy`,
+deleting a controller-to-controller communication taxonomy and a cognitive error taxonomy.
+
+**A filter built to remove naming-that-is-not-this-naming removed this-naming, and only reading its own
+drops found it.**
+
+---
+
+## Three Further Defects Caught Before the Build
+
+**A fabricated report identifier.** One of four foundational identifiers was written from a plausible
+title rather than looked up and resolved to nothing. **That is the A347 defect exactly**, and it was
+caught because every foundational identifier is verified before assembly. The correct source is better
+than the invented one.
+
+**A false superlative.** The article claimed the lowest report-primary fraction in the series. **A336
+is lower, at zero of 2,454 records.** The claim is now a computed rank rather than a typed assertion,
+and it reads **second-lowest of 53**.
+
+**A heading contradicting its own section.** Correcting the superlative in the body left the heading
+saying `Is the Lowest in the Series`. **That is the opening-against-conclusion defect at paragraph
+scale**, and it was found by reading the assembled article rather than the source.
 
 ---
 
 ## Verification State
 
-- `python3 _verify.py` reports **0 errors, 0 warnings** across 301 posts.
-- `python3 _lib/test_lib.py` reports **102 of 102**, with a new test naming the 2026-09-04 failure.
-- Corpus book measurement: **300 checkable citations, 299 correct, 0 absent, 0 undetermined**.
-- The diff is **16 changed lines in five drafts**, every one a reference definition. **No prose, no
-  equation, no count and no reference total moved.**
-- **No production build was run.** The change is confined to reference-definition URLs in drafts,
-  which the production build excludes, and it cannot reach Liquid, kramdown or MathJax. `_verify.py`
-  covers reference integrity and reports clean.
+- `python3 _verify.py` reports **0 errors, 0 warnings**.
+- `python3 _lib/test_lib.py` reports **104 of 104**, up from 102, with two new tests naming this
+  article's failures. **The A348 tag test was changed from pinning the whole tag list to asserting
+  presence**, because a test that fails when the store grows correctly teaches its reader to edit it
+  without reading it.
+- `tmp/a349/verify_numbers.py` reports **ALL CHECKS PASS**, with every survey statistic recomputed from
+  the reference data, the cluster table matching its own citation runs, and claims written in words
+  checked as words.
+- Reference integrity: **2,046 defined, 2,046 used, 0 undefined,
+  0 orphaned, 0 duplicate URLs**.
+- Book links **four checked, zero mismatched**, verified on title AND author.
+- Prose: no contractions, no dashes, no prose colons, no prose semicolons.
+- **4,560 lines, 28,087 words, 13 display equations, 2,046 reference definitions.**
+- Survey **1,968 research records across 10 clusters**, report primaries
+  **36 at 1.8 percent**.
+- **The stub-isolated production build succeeded in 22 seconds with no Liquid error**, against a
+  checksum taken before the build and re-verified after it. **The rendered audit reports no findings
+  across 88 pages.** Zero raw dollar pairs leak, zero unresolved reference brackets, page renders to
+  435,333 bytes. The rendered `\[` count is 14 against 13 source equations **because one `cases`
+  environment carries a `\[4pt]` line-spacing directive**, which was checked rather than assumed.
+
+---
+
+## One Thing to Carry Into the Next Build
+
+**`tmp/a349/make_stub.sh` now symlinks `vendor` back into the stub.** The rsync excludes `vendor`, the
+gems live in `vendor/bundle`, and A348 restored the link by hand without recording the step, so A349's
+first build failed with every gem missing. **The recipe is now in the script rather than in a memory.**
 
 ---
 
 ## Next
 
-**A349**, `X-Planes: X-52, the Designation Refused`, editorial date 2025-11-27, series index 53.
-**Twenty articles remain.** No article is mid-rhythm.
+**A349 has three passes remaining**, being the equation-density review, the primary-reference review
+and the publication review, in that order and each on its own prompt.
 
-**Carry forward.** Use `booklinks.resolve` and never the work JSON endpoint. Hold a book key to title
-and author both. The three tagged sweep-store families are switched off only for the articles whose
-subject they are. `survey.loose` splits on hyphens. Finish the entire prose read, generated fragments
-included, before starting a build.
+**A350 is Boeing X-53 Active Aeroelastic Wing**, editorial date 2025-11-28, series index 54. **A349
+deliberately leaves the aeroelastics alone**, names the programme and stops, so the roll-reversal
+problem, the control laws and the flight-test results are all still available to it.

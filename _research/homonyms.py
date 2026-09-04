@@ -84,7 +84,8 @@ NOISE_PATTERNS = [
      r"emergency department|\bpatients?\b.{0,30}weight",
      "A346: 'weight estimation' is what a rotorcraft designer does to an airframe and "
      "also what a clinician does to a child or a foetus. A344 met the same family from "
-     "the other side, as records its gate refused, and recorded it only in prose"),
+     "the other side, as records its gate refused, and recorded it only in prose",
+     "medicine"),
     (r"ducted (?:rocket|ramjet)|solid ducted|ramjet|scramjet.{0,20}duct|inlet buzz",
      "A346: a ducted propulsor is a helicopter anti-torque device and a DUCTED ROCKET "
      "is solid-propellant missile propulsion, which shares the word", "ramjet"),
@@ -159,7 +160,8 @@ NOISE_PATTERNS = [
      "A348: BIOMEDICAL COMPUTATIONAL FLUID DYNAMICS. 'Hydrodynamic modelling and CFD "
      "simulation of ferrofluids flow in magnetic targeting drug delivery' reached the "
      "kept set of a scramjet survey through the bare CFD anchor. Every article in this "
-     "series that names computational fluid dynamics is exposed to this family"),
+     "series that names computational fluid dynamics is exposed to this family",
+     "medicine"),
     (r"\bUAS\b.{0,40}(?:safety|efficiency|traffic|airspace|integration|operation)|"
      r"small unmanned aircraft|\bsUAS\b|drone (?:delivery|inspection|photograph)",
      "A348: SMALL UNMANNED AIRCRAFT OPERATIONS against unmanned research vehicles. 'UAS "
@@ -280,10 +282,45 @@ NOISE_PATTERNS = [
     (r"\bnerve block", "X-Planes: 'blocking' returned anaesthesia"),
     (r"\banaesth|\banesth", "X-Planes: same family as nerve block"),
 
+    # ---- A349, the first article in the series whose subject is not an aeroplane
+    (r"zoological nomenclature|botanical nomenclature|bacteriological code|"
+     r"nomenclatural type|plenary powers|\bICZN\b|\bIUPAC\b|"
+     r"\b(?:neotype|lectotype|holotype|syntype)\b|type[- ]species|"
+     r"\b(?:genus|subspecies|nom\. nov)\b|\bspecies\b.{0,25}\b(?:name|nomenclature|"
+     r"designation|described)\b|Opinion \d+ \(Case \d+\)",
+     "A349: BIOLOGICAL AND CHEMICAL NOMENCLATURE. 'Opinion 511 Validation under the "
+     "Plenary Powers of the generic name Maja Lamarck, 1801 (class Crustacea)' reached "
+     "the kept set of a survey about aircraft designations. **A336 met this family and "
+     "recorded it in prose, and A341 met component nomenclature the same way and found "
+     "thirteen survivors of which every one was a component.** The series has now met "
+     "naming-that-is-not-this-naming three times and this is the first time it is an "
+     "instrument rather than a paragraph. **THE FIRST VERSION OF THIS PATTERN DELETED "
+     "THE SUBJECT IT WAS PROTECTING.** It anchored on `generic name` and on `taxonomy`, "
+     "and `generic name` is the pharmacist's term for a nonproprietary drug name, so it "
+     "removed `Potential Hazards of Illegible Prescription: Look Alike Sound Alike Trade "
+     "and Generic Names` and `Brand Name v/s Generic Name`, while `taxonomy` removed a "
+     "controller-to-controller communication taxonomy and a cognitive error taxonomy. A "
+     "filter built to remove naming-that-is-not-this-naming removed this-naming, and only "
+     "reading its drops found it"),
+    (r"microsatellit|\bgenom|\btranscriptom|nucleotide|\bDNA\b|\bRNA\b|"
+     r"protein sequence|gene sequence|\ballele",
+     "A349: THE GENOMICS IDENTIFIER AND THE GENOMICS STRING. 'AutomAted RepeaT "
+     "Identifier (AARTI): A tool to identify common, polymorphic, and unique "
+     "microsatellites' reached a kept set through `identifier`, and approximate string "
+     "matching on gene sequences reached it through the string-similarity family. Both "
+     "words are exact for this corpus and exact for that one"),
+    (r"purchase (?:decision|intention|behavio)|buying behavio|consumer values|"
+     r"brand (?:equity|loyalty|preference|attitude|image)|willingness to pay",
+     "A349: BRAND-NAME MARKETING THAT IS NOT ABOUT CONFUSION. 'The Effect of Brand Name "
+     "on Consumer Buying Behavior' reached the kept set of a survey about confusable "
+     "identifiers through the bare phrase `brand name`. The confusion literature and "
+     "the preference literature share their vocabulary and share nothing else"),
+
     # ---- general field bleed, seen across several sweeps
-    (r"\bpatient\b|\bclinic", "medical bleed, seen in most sweeps"),
-    (r"\bvaccin|\bepidemi|\bmortality\b", "public-health bleed"),
-    (r"\bblood pressure\b|\bcholesterol\b", "'lowering' is a compiler term and a medical one"),
+    (r"\bpatient\b|\bclinic", "medical bleed, seen in most sweeps", "medicine"),
+    (r"\bvaccin|\bepidemi|\bmortality\b", "public-health bleed", "medicine"),
+    (r"\bblood pressure\b|\bcholesterol\b",
+     "'lowering' is a compiler term and a medical one", "medicine"),
     (r"\bclassroom\b|\bcurricul|\bpedagog", "'instruction' is a machine term and a TEACHING term"),
     (r"\bnanoparticle|\bcatalys", "'synthesis' is a program term and a CHEMICAL term"),
     (r"\bwireless sensor network", "'coverage' in sensor networks is a different problem"),
@@ -358,7 +395,8 @@ NOISE_PATTERNS = [
      "missed it"),
     (r"\bODE\b|\bordinary differential equation\b|\bcalculus\b|\bteaching\b",
      "A335: THE PARACHUTE PROBLEM is a standard exercise in differential equations "
-     "teaching. 'ODE Models for the Parachute Problem' reached the kept set"),
+     "teaching. 'ODE Models for the Parachute Problem' reached the kept set",
+     "teaching"),
     (r"\bcrack\b|\bfatigue crack|\bstress intensity\b|\bfracture toughness\b",
      "A335: CRACK OPENING LOAD in fracture mechanics shares the exact phrase with "
      "PARACHUTE OPENING LOAD, which is the article's term of art. 'Observations on "
@@ -557,7 +595,8 @@ NOISE_PATTERNS = [
      "A371: THE HUMAN INTERPRETER, and SIGN LANGUAGE most of all, against the "
      "PROGRAM interpreter. 'Sign Language Interpreter AI using machine learning "
      "algorithm' reached the kept set through an anchor qualified by `language`, "
-     "which is exactly the wrong qualifier for this word"),
+     "which is exactly the wrong qualifier for this word",
+     "interpreting"),
     (r"\bJava\b.{0,40}\b(?:field|basin|island|sea|volcano|seismic|earthquake|"
      r"tsunami|province|regenc|Indonesia|East Java|West Java|Central Java)|"
      r"\b(?:East|West|Central) Java\b|\bpre.stack (?:depth|time) migration\b|"

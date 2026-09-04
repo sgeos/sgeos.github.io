@@ -1796,7 +1796,11 @@ def t_homonym_tags_let_a_subject_switch_off_its_own_contaminant():
     warning honoured, one article later.** A warning addressed to a reader is not a
     mechanism, so the patterns now carry tags and a caller switches them off by name.
     """
-    assert homonyms.TAGS == ["hypersonics", "missiles", "ramjet"]
+    # PRESENCE AND NOT EQUALITY. The first version of this pinned the whole list, so
+    # A349 broke it merely by tagging three more families, and a test that fails when
+    # the store grows correctly trains its reader to edit the test without reading it.
+    for tag in ("hypersonics", "missiles", "ramjet"):
+        assert tag in homonyms.TAGS, tag
 
     scramjet = "X-51A Waverider scramjet flight test"
     # armed by default, which is right for every article that is NOT about them
@@ -1813,6 +1817,69 @@ def t_homonym_tags_let_a_subject_switch_off_its_own_contaminant():
     # family somebody has deliberately marked as somebody else's subject is optional.
     assert homonyms.noise_hit("Green Leaf Volatiles in the Atmosphere",
                               allow=tuple(homonyms.TAGS)) is not None
+
+
+def t_homonym_tags_cover_the_first_subject_that_is_not_an_aeroplane():
+    """A349: THE STORE IS AERONAUTICAL AND THIS SUBJECT IS NOT.
+
+    The X-52 designation was refused because it could be confused with the B-52, so the
+    article's literature is confusable names and the errors they cause, and the largest
+    and most rigorous body of that work is about medication names. **Every medical
+    pattern in the store was earned honestly, because medicine bleeds into aeroplane
+    sweeps.** Applied to A349's harvest with nothing switched off, the inherited store
+    removed 310 records of which 188 were on subject, including an intervention study on
+    look-alike and sound-alike medication errors, which is the single most on-subject
+    title in that harvest.
+    """
+    for tag in ("medicine", "teaching", "interpreting"):
+        assert tag in homonyms.TAGS, tag
+
+    lasa = ("Intervention on look-alike sound-alike medication errors for patient "
+            "safety in healthcare institutions")
+    # armed by default, which is right for every article about an aeroplane
+    assert homonyms.noise_hit(lasa) is not None
+    # and switched off for the one article whose subject it is
+    assert homonyms.noise_hit(lasa, allow=("medicine",)) is None
+
+    # the readback literature was lost through the same pattern, on one word
+    readback = "Closing the communication loop, using readback and hearback to support patient safety"
+    assert homonyms.noise_hit(readback) is not None
+    assert homonyms.noise_hit(readback, allow=("medicine",)) is None
+
+    # SWITCHING MEDICINE OFF MUST NOT SWITCH OFF THE AERONAUTICAL FAMILIES.
+    assert homonyms.noise_hit("Hypersonic reentry vehicle ablation",
+                              allow=("medicine", "teaching", "interpreting")) is not None
+
+
+def t_homonym_a349_patterns_do_not_delete_their_own_subject():
+    """A349: THE FILTER BUILT TO REMOVE NAMING-THAT-IS-NOT-THIS-NAMING REMOVED THIS-NAMING.
+
+    Biological nomenclature reached the kept set of a survey about aircraft designations,
+    as it had for A336, so a pattern was written to remove it. **Its first version
+    anchored on `generic name`, which is the taxonomic term and is also the pharmacist's
+    term for a nonproprietary drug name**, and on `taxonomy`, which is the general word
+    for any classification. It deleted the article's own subject and only reading its
+    drops found it.
+    """
+    # the family the pattern exists to remove
+    assert homonyms.noise_hit(
+        "Opinion 511 Validation under the Plenary Powers of the generic name Maja "
+        "Lamarck, 1801 (class Crustacea)") is not None
+    assert homonyms.noise_hit(
+        "Oniscus Asellus Linnaeus, 1758 (Crustacea, Isopoda): Proposed Designation "
+        "Of A Neotype") is not None
+
+    # AND THE TITLES IT MUST NOT REMOVE, every one of which it did remove at first.
+    for keep in [
+        "Potential Hazards of Illegible Prescription: Look Alike Sound Alike Trade "
+        "and Generic Names",
+        "Brand Name v/s Generic Name",
+        "Concordance of synonyms and trade names with generic names",
+        "Controller-to-controller communication and coordination taxonomy",
+        "The Confusion Fingerprint Index: Cognitive Error Taxonomy as an Adaptive "
+        "Learning Signal in Learners",
+    ]:
+        assert homonyms.noise_hit(keep, allow=("medicine",)) is None, keep
 
 
 def t_homonym_unknown_tag_raises_rather_than_failing_open():

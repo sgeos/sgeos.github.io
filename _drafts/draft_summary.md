@@ -17,6 +17,25 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes X-52, the Designation Refused A349 2025-11-27
+
+`x_planes_x52_designation_refused.markdown`, A349, editorial date 2025-11-27, series `x_planes` index 53 of 72.
+
+**4,560 lines, 13 display equations, 2,046 reference definitions, 28,087 words at the draft pass**, of which about 7,000 are author prose. **Draft pass complete, the first of four.** **Not published**, and publication of the series has never been authorised. **Designation-anomaly class, written in the reduced order**, which is the second time the series has used it after A336.
+
+**THE SUBJECT IS A REFUSAL AND NOT A GAP, AND THAT IS A DIFFERENT ANOMALY FROM ANY WRITTEN SO FAR.** X-52A was requested in 2006, disapproved because of possible confusion with the B-52, and X-53A was allocated instead. The paperwork was done correctly and the answer was no.
+
+**THE CENTRAL FINDING CAME FROM READING THE GOVERNING INSTRUCTION RATHER THAN A DESCRIPTION OF IT.** The issue in force in 2006 directs that the next available consecutive design number be assigned, contains no authority to skip one, and does not contain the word skip. Its duplication check, its trademark search and its four levels of review all apply to the **popular name** and not to the designation. **Its only written anti-confusion rule for a designator is that the series letters I and O are prohibited because they resemble the digits 1 and 0.** The 1994 issue says the same. **The 2020 issue adds one sentence granting the deciding office authority to skip a design number at discretion, with no criterion attached**, so the authority was absent for at least twenty-six years while the practice ran throughout them.
+
+**THE SAME OFFICE HAD MANUFACTURED THE SAME COLLISION FOUR YEARS EARLIER.** F-35 was approved on 5 June 2002 against a nomenclature-office recommendation of F-24A made on the ground that numbers are assigned consecutively, and the number came from replacing the X of X-35 with an F. **A cross-series numeric echo was desirable continuity in 2002 and a hazard in 2006.**
+
+**THE REFUSAL BELONGS TO A DOCUMENTED FAMILY AND THE FAMILY CONTAINS AN ASYMMETRY.** C-16, C-42, C-43, C-44, P-6, T-50, V-14 and F-19 were all skipped or withdrawn over confusability, and C-16's reported reason names the mechanism precisely as confusing the aircraft with the F-16 during the stress of high combat radio traffic. **But Q-7 and Q-8 were requests to renumber drones because they were ALREADY being confused with unmodified aircraft, and both were refused in March 1954.** The system acted on possibility and declined to act on evidence.
+
+**THE STORE IS AERONAUTICAL AND THIS SUBJECT IS NOT.** Applied to the harvest untagged, the inherited sweep store removed 310 records of which 188 were on subject, including the single most on-subject title in the harvest. **3 tagged families covering 7 patterns are switched off by name.** The store gained three new patterns, and **the first version of one of them deleted the article's own subject** by anchoring on the phrase generic name, which is a taxonomic term and the pharmacist's term for a nonproprietary drug name.
+
+**A FABRICATED REPORT IDENTIFIER WAS CAUGHT BEFORE ASSEMBLY**, written from a plausible title rather than looked up, which is the A347 defect exactly. **A SUPERLATIVE WAS CAUGHT IN THE DRAFT READ**, the article having claimed the lowest report-primary fraction in the series when A336 is lower at zero. Report primaries stand at 36 of 1,968, being 1.8 percent, which is the second-lowest of 53 and is a fact about the subject rather than about the harvest.
+
+**Remaining work.** Equation-density review, primary-reference review and publication review, in that order.
 ## X-Planes Boeing X-51 Waverider A348 2025-11-26
 
 `x_planes_boeing_x51.markdown`, A348, editorial date 2025-11-26, series `x_planes` index

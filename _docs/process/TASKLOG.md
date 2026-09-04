@@ -9,10 +9,12 @@ Current task state and verification log. This file is the shared source of truth
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
-**Status**: **A297 through A346 are drafted with all four passes complete on every one, committed and
-PUSHED. A348, Boeing X-51 Waverider, has completed ALL FOUR PASSES, is committed and is PUSHED.
-Fifty-two of seventy-two drafted. None published, and publication has never been authorised.**
-The next new article is **A349**, editorial date 2025-11-27, series index 53.
+**Status**: **A297 through A348 are drafted with all four passes complete on every one, committed and
+PUSHED. A349, X-52, the Designation Refused, has completed its DRAFT PASS ONLY, the first of four,
+and is committed and NOT pushed. Fifty-three of seventy-two drafted. None published, and publication
+has never been authorised.**
+The next new article is **A350**, Boeing X-53 Active Aeroelastic Wing, editorial date 2025-11-28,
+series index 54.
 Report primaries finished at **1,301 of 5,976, being 21.8 percent**, up from 14.2 at the draft pass.
 
 **THE BOOK-IDENTIFIER REPAIR FOR A342 THROUGH A346 IS DONE.** Twelve anchors and sixteen citations
@@ -44,6 +46,63 @@ this is not a property of the repair. Of the 22 book URLs in the five repaired d
 already approved, namely Schlichting at `OL11833044W` and Bramwell at `OL16987916W`. **No key was
 changed to chase this**, because selecting an identifier against a transient server fault is the
 error this whole task was spent avoiding.
+
+**A349 IS THE SECOND ARTICLE WRITTEN IN THE REDUCED ANOMALY ORDER AND ITS SUBJECT IS A REFUSAL RATHER
+THAN A GAP.** X-52A was requested in 2006, disapproved because of possible confusion with the B-52, and
+X-53A allocated instead. **The paperwork was done correctly and the answer was no**, which is a
+different anomaly from A336's X-39, where the answer was never asked for.
+
+**THE CENTRAL FINDING CAME FROM READING THE GOVERNING INSTRUCTION IN FULL RATHER THAN A DESCRIPTION OF
+IT.** The 14 April 2005 issue in force directs that the next available consecutive design number be
+assigned, **contains no authority to skip one and does not contain the word skip**. Its duplication
+check, its trademark search and its four levels of review all apply to the **popular name**, which the
+same document describes as aiding communications and media references, and not to the designation,
+which it calls official. **Its only written anti-confusion rule for a designator is that the series
+letters I and O are prohibited because they resemble the digits 1 and 0.** The 1994 issue says the
+same. **The 3 November 2020 issue adds one sentence at A2.1.6.1.2 granting AF/A8PE authority to skip a
+design number at discretion, with no criterion attached**, so the authority was absent for at least
+twenty-six years while the practice ran throughout them.
+
+**THE SAME OFFICE HAD MANUFACTURED THE SAME COLLISION FOUR YEARS EARLIER.** F-35 was approved on 5 June
+2002 by HQ USAF/XPPE, which became AF/A8PE on 1 February 2006, against a nomenclature-office
+recommendation of F-24A made on the ground that numbers are assigned consecutively. The number came
+from replacing the X of X-35 with an F at a press conference. **A cross-series numeric echo was
+desirable continuity in 2002 and a hazard in 2006, under one instruction that authorised neither.**
+
+**THE FAMILY CONTAINS AN ASYMMETRY THAT IS THE SHARPEST THING IN THE ARTICLE.** C-16, C-42, C-43, C-44,
+P-6, T-50, V-14 and F-19 were skipped or withdrawn over confusability, and C-16's reported reason names
+the mechanism as confusing the aircraft with the F-16 during the stress of high combat radio traffic.
+**But Q-7 and Q-8 were requests to renumber drones because they were ALREADY being confused with the
+unmodified aircraft they were built from, and both were refused in March 1954.** The system acted on
+possibility and declined to act on evidence.
+
+**THE SWEEP STORE IS AERONAUTICAL AND THIS IS THE FIRST ARTICLE IN THE SERIES WHOSE SUBJECT IS NOT AN
+AEROPLANE.** Applied untagged, the inherited store removed 310 records of
+which **188 were on subject**, including an intervention study on look-alike and
+sound-alike medication errors, the single most on-subject title in the harvest, and the readback and
+hearback literature. **3 tagged families covering 7 patterns
+are switched off by name** through A348's tag mechanism. `homonyms.TAGS` is now
+['interpreting', 'medicine', 'teaching', 'hypersonics', 'missiles', 'ramjet'] sorted, and the store stands at 124 patterns.
+
+**THE FILTER BUILT TO PROTECT THE SURVEY DELETED ITS SUBJECT.** Biological nomenclature reached the kept
+set, as it had for A336 and as component nomenclature had for A341, so a pattern was written to remove
+it for good. **Its first version anchored on `generic name`, which is the taxonomic term and is also the
+pharmacist's term for a nonproprietary drug name**, and on `taxonomy`, which is the general word for any
+classification. It deleted look-alike and sound-alike drug-name papers and a controller-to-controller
+communication taxonomy. **Only reading its own drops found it.** `_lib/tests` are 104 of 104, and the
+tag test was changed from pinning the whole tag list to asserting presence, because a test that fails
+when the store grows correctly trains its reader to edit it without reading it.
+
+**A FABRICATED REPORT IDENTIFIER WAS CAUGHT BEFORE ASSEMBLY**, written from a plausible title rather than
+looked up, which is the A347 defect exactly. **A SUPERLATIVE WAS CAUGHT IN THE DRAFT READ**, the article
+having claimed the lowest report-primary fraction in the series when A336 is lower at zero. The claim is
+now a computed rank. **Report primaries are 36 of 1,968, being
+1.8 percent, the second-lowest of 53**, and the two articles at the
+bottom of that ranking are the two whose subjects are administrative acts rather than aeroplanes.
+
+**THE STUB BUILD RECIPE WAS INCOMPLETE IN THE SCRIPT AND COMPLETE ONLY IN A348's MEMORY.** `make_stub.sh`
+excludes `vendor` and A348 symlinked it back by hand without recording the step, so A349's first build
+failed with every gem missing. **The symlink is now in the script.**
 
 **A348's PUBLICATION REVIEW FOUND A PRESENCE CHECK PASSING ON A COINCIDENCE.** Adding the digits 12
 and 18 to the number checker made a claim pass on `18.8`, on `18,500` and on a backlink. **A check
@@ -873,6 +932,7 @@ and publishing any one alone fails the build.
 
 | Date | Change |
 |------|--------|
+| 2026-09-04 | **A349 DRAFT PASS, the first of four. Committed, NOT pushed. NOT published.** X-Planes: X-52, the Designation Refused, editorial date 2025-11-27, series index 53. **4,560 lines, 13 display equations, 2,046 reference definitions, 28,087 words**, of which about 7,000 are author prose. **Designation-anomaly class in the reduced order**, the second after A336, and **the subject is a refusal rather than a gap**. X-52A requested 2006, disapproved for possible confusion with the B-52, X-53A allocated instead. **The finding came from reading the governing instruction in full.** The 2005 issue in force requires the next available consecutive design number, contains no authority to skip one, does not contain the word skip, and aims its entire confusability apparatus at the POPULAR NAME rather than the designation. Its only written anti-confusion rule for a designator prohibits the series letters I and O for resembling digits. The 1994 issue says the same and the 2020 issue adds bare discretion to skip with no criterion, so **the authority was absent for at least twenty-six years while the practice ran**. **The same office approved F-35 in 2002 against its own nomenclature office**, taking X-35's number across a series boundary on purpose. **Q-7 and Q-8 were refused in 1954 although confusion was actually occurring**, so the system acted on possibility and not on evidence. **The sweep store is aeronautical and this subject is not**: untagged it removed 310 records of which 188 were on subject, and 3 tags covering 7 patterns are switched off. **A pattern written to remove naming-that-is-not-this-naming removed this-naming** through `generic name`. A fabricated NTRS identifier and a false superlative were both caught before the build. Store 121 to 124 patterns, tests 102 to 104. Build clean in 22 seconds, 88 pages, **rendered audit reports no findings**, zero raw dollar pairs, zero unresolved brackets. |
 | 2026-09-04 | **BOOK-IDENTIFIER REPAIR FOR A342 THROUGH A346. Committed and PUSHED. NOT an article pass, and no article's argument, prose, counts or reference totals changed.** Twelve anchors and sixteen citation lines replaced, being `book_sheridan`, `book_anderson_performance`, `book_nicolai`, `book_hoerner_lift`, `book_mccormick`, `book_schlichting`, `book_misra_enge`, `book_bramwell`, `book_johnson_helicopter_theory`, `book_leishman`, `book_prouty` and `book_stepniewski`. Eight replacements were taken from keys already vetted elsewhere in the corpus, seven from A347 and one from A324, and four were resolved by fresh search, namely Sheridan at `OL4274944W`, Hoerner at `OL5289631W`, Misra and Enge at `OL24594478W` and Stepniewski at `OL5602816W`. **Every replacement was confirmed on title AND on author, and every old key was confirmed wrong, before anything was written**, and the repair script refuses rather than guesses. Corpus measurement moved from **283 of 300 to 299 of 300 checkable book citations correct**, the remaining one being A324's malformed label over a correct key, reported and left for the pilot. **THE INSTRUMENT WAS FOUND BROKEN FIRST.** `_lib/booklinks.py` read the OpenLibrary work JSON endpoint, which returns HTTP 500 both for records that exist and for keys that do not, so a dead record and a wrong key were indistinguishable and both were reported as mismatches. Raymer at `OL17855977W` and Wooldridge at `OL5220705W` are correct and returned Internal Error six times out of six. **Repairing against that measurement would have rewritten correct citations.** The module now reads the search index, which returns a title and an author for a real key and nothing for a bogus one, and reports `found`, `absent` or `unknown` rather than collapsing failure into a verdict. `_lib/tests` 101 to 102. **A substantial fraction of OpenLibrary work pages currently return Internal Error to a reader**, including keys A347 shipped, and no key was changed to chase it. |
 | 2026-09-02 | **A346 PUBLICATION REVIEW, the fourth and final pass. Committed and PUSHED. NOT published.** All fifty X-Planes drafts remain in `_drafts/`. Final state **10,711 lines, 32 display equations, 5,073 reference definitions, 58,999 words**, of which 7,203 are author prose. Research 4,300 to **5,002**, report primaries 958 to **1,149**, fraction 22.3 to **23.0 percent**. **READING THE OPENING AGAINST THE CONCLUSION FOUND TWO DEFECTS AND THAT IS WHY IT IS DONE FIRST.** The conclusion said the 1965 aeroplane managed its speed **`with a third of the power per pound`**, which contradicts the article's own equation. The computed ratio is 1.342, so the correct statement is **three-quarters**, and the error was in the direction that flatters the story. The conclusion also still billed the retrofit against **empty weight**, a framing the EQUATION pass had already superseded with useful load, and a third passage carried the same stale denominator. All three corrected. **THE RESULTS PROBE FIRED FOR THE SEVENTH CONSECUTIVE ARTICLE.** Nine conclusions measured, **seven thin in the article's own words and all seven opened on being restated in the field's words**. The keystone is the clearest case, **the advancing blade as the binding limit standing at 12 records** as this article phrases it and **64** once the question admitted compressibility, drag divergence and transonic flow, which is what the literature calls it. A harvest took it to **207**. **ONE THIN SUBJECT WAS DELIBERATELY NOT HARVESTED AND THE REASON IS RECORDED RATHER THAN REDISCOVERED.** How aircraft are numbered stood at 6. **A341 already ran that experiment for this series**, and eight queries for designation systems and nomenclature returned 1,510 records including Massachusetts tax valuations of 1771, salmonella serotype naming and dental implant designation systems, of which thirteen survived an aerospace gate and every one was component nomenclature. **The series has already paid for that measurement and the answer does not need buying twice.** The claim about the skipped designation therefore stands on the sponsor's account rather than on a survey, which is the position A343 and A344 reached about arguments of their own. **THE VERIFIER CAUGHT ITS OWN AMBIGUITY.** The results-table parse matched the promoted-subjects table as well, because two of that table's rows share the four-column shape, so it is now scoped to its own section. **A344 recorded that a pattern unambiguous when written stops being so when the article grows**, and this is that, in a verifier rather than in an article. Verification: `_verify.py` zero errors and zero warnings, lint **zero defects and zero conventions**, reference integrity **5,073 used and defined, zero undefined, orphaned or duplicate**, every stated value re-derived by a verifier that does not import the computation, **all four advance-ratio rows and all nine results rows checked in three columns**, the published hover tip Mach number reproduced independently from rotor geometry, the duct augmentation checked at three area ratios including the open-rotor case that must return unity, all 16 survey rows agreeing across three counts, zero contractions, colons, semicolons, dashes, parentheticals or caps-emphasis spans in prose. `_lib` tests 95 of 95. **The stub-isolated production build succeeded in 1,548 seconds with no Liquid error, against the exact bytes that were pushed**, the checksum having been matched against the stub copy before the build started. **The rendered audit reports no findings across 85 pages.** Source and rendered display-equation counts agree at **32**, with **zero raw dollar pairs leaking** and **zero unresolved reference brackets**. |
 | 2026-09-02 | **A346 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed. NOT published.** References **3,815 to 4,371 definitions**, research 3,744 to **4,300**, report primaries 781 to **958**, fraction 20.9 to **22.3 percent**. Lines 8,132 to 9,281, author prose 5,939 to 6,719 words. **THE PROMOTED-SUBJECTS AUDIT RAN FIRST AND ALL SIX SUBJECTS WERE HELD.** The equation pass had made the ducted actuator disc, slipstream contraction, the reverse flow region, parasite drag as a cube law, hover download and lift sharing load-bearing. **Two measured thin and BOTH OPENED ON BROADENING before any harvesting**, parasite drag 21 to **157** once asked in the words a publisher uses, and lift sharing 28 to 83. **Neither was a pool gap**, which matches A345's publication review and is the opposite of A340 through A344. **A345's HARDEST LESSON WAS APPLIED ONE ARTICLE LATER RATHER THAN REDISCOVERED.** That article found in its own primary pass that its first harvest had never named its aeroplane; this harvest was rerun asking NASA, DTIC and Crossref for the X-49, the SpeedHawk, Piasecki, the 16H, the ring tail and the VTDP by name. **The pool still holds ZERO records naming any of them.** **THAT CLAIM WAS VERIFIED AGAINST THE SEARCH ENGINES AND NOT AGAINST THE POOL**, because A345 nearly published the same claim when the fault was in its own measuring pattern. Asked directly, **NTRS returns nothing for `SpeedHawk`, nothing for `vectored thrust ducted propeller` and nothing for `16H-1A`**, its `Piasecki` results being the Heli-Stat and unrelated authors of that surname, while **DTIC's `X-49 SpeedHawk` results are reports merely NUMBERED 49**, including a computer graphics progress report and a strategic forum on Korean elections. **So the X-49 has essentially no indexed technical literature in either repository**, consistent with an SBIR-funded contractor programme publishing in vertical flight society proceedings. **ONE PRIMARY EXISTS AND ITS TEXT COULD NOT BE READ.** The 16H-1A flight test research programme, Meyers, Tompkins and Goldberg 1968, **is the only primary document in 4,300 records about either Piasecki compound aeroplane**, and it reached the pool through a SUBJECT query rather than a name query. Its identifier is registered and resolves and the repository refuses automated retrieval, so **the article's opening comparison still rests on the manufacturer's account of its own aeroplane**, which the limits section now states as the weakest source behind the strongest claim. **WHAT THE REPOSITORIES DO HOLD IS THE DUCT'S OWN LITERATURE AND IT IS A 1960s ONE**, 131 records naming a ducted propeller including a multi-volume assault transport study and a two-volume theoretical investigation of ducted propeller aerodynamics. **The technology the X-49A demonstrated in 2007 was documented while the 16H was flying.** Eight primaries are now cited by identifier. Verification: `_verify.py` zero errors and zero warnings, lint **zero defects and zero conventions**, reference integrity **4,371 used and defined, zero undefined, orphaned or duplicate**, every stated value re-derived by an independent verifier, all 16 survey rows agreeing across three counts, zero contractions, colons, semicolons, dashes, parentheticals or caps-emphasis spans in prose. `_lib` tests 95 of 95. **NOT PUSHED.** |
