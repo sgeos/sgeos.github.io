@@ -675,13 +675,13 @@ The acoustic measurements and the shielding result of the X-48C, which need a no
 - [Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]
 - [Wooldridge, Winged wonders, the story of the flying wings][book_wooldridge]
 
-[book_anderson_performance]: https://openlibrary.org/works/OL977213W
+[book_anderson_performance]: https://openlibrary.org/works/OL1993317W
 [book_etkin_reid]: https://openlibrary.org/works/OL19844466W
-[book_hoerner_lift]: https://openlibrary.org/works/OL4106729W
-[book_mccormick]: https://openlibrary.org/works/OL2757646W
-[book_nicolai]: https://openlibrary.org/works/OL16599220W
+[book_hoerner_lift]: https://openlibrary.org/works/OL5289631W
+[book_mccormick]: https://openlibrary.org/works/OL1968708W
+[book_nicolai]: https://openlibrary.org/works/OL15909375W
 [book_raymer]: https://openlibrary.org/works/OL17855977W
-[book_schlichting]: https://openlibrary.org/works/OL15316576W
+[book_schlichting]: https://openlibrary.org/works/OL11833044W
 [book_torenbeek]: https://openlibrary.org/works/OL17631348W
 [book_wooldridge]: https://openlibrary.org/works/OL5220705W
 

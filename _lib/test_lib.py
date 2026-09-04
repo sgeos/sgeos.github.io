@@ -1705,13 +1705,85 @@ def t_booklinks_reads_a_reference_block():
     # THE GENERATED CITATION IS OMITTED RATHER THAN REPORTED AS PASSING, so a
     # caller cannot read `not checked` as `checked and correct`. That confusion is
     # the exact defect `survey.py` was written for.
-    out = booklinks.check(article, fetch=lambda k: "Principles of Helicopter Aerodynamics")
-    assert [r[0] for r in out] == ["book_leishman"]
-    assert out[0][3] is True
+    def _found(title, authors=()):
+        return lambda k: (booklinks.FOUND, title, list(authors))
 
-    # A key that does not resolve fails rather than silently passing.
-    bad = booklinks.check(article, fetch=lambda k: None)
-    assert bad[0][3] is False
+    out = booklinks.check(article, lookup=_found("Principles of Helicopter Aerodynamics"))
+    assert [r[0] for r in out] == ["book_leishman"]
+    assert out[0][3] == booklinks.OK
+
+    # A key that resolves to another book is WRONG.
+    bad = booklinks.check(article, lookup=_found("The 2007-2012 Outlook for Dark Rum in Japan"))
+    assert bad[0][3] == booklinks.WRONG
+
+    # A key the repository does not carry is MISSING.
+    gone = booklinks.check(article, lookup=lambda k: (booklinks.ABSENT, None, []))
+    assert gone[0][3] == booklinks.MISSING
+
+
+def t_booklinks_never_turns_a_failed_lookup_into_a_verdict():
+    """2026-09-04: THE WORK JSON ENDPOINT REPORTED CORRECT CITATIONS AS BROKEN.
+
+    `openlibrary.org/works/<key>.json` returned HTTP 500 for `OL17855977W`, which
+    is Raymer's `Aircraft design, a conceptual approach`, and for `OL5220705W`,
+    which is Wooldridge's `Winged Wonders`, six times out of six each. A
+    NONEXISTENT KEY RETURNS 500 TOO, so that endpoint cannot tell a wrong key from
+    a record that will not serve. The first version of this module collapsed both
+    into None and called both a mismatch, and the A342 to A346 repair run against
+    that measurement WOULD HAVE REWRITTEN CORRECT CITATIONS.
+
+    This is the third time this corpus has paid for the same lesson. A347's local
+    SSL error nearly condemned 1,051 citations. A348 saw one book identifier fail
+    on one run and resolve on the two after it. A BROKEN CHECK REPORTS THE DATA AS
+    BROKEN, and that is the dangerous direction.
+    """
+    article = (
+        "### Books\n\n"
+        "- [Leishman, Principles of helicopter aerodynamics][book_leishman]\n"
+        "\n[book_leishman]: https://openlibrary.org/works/OL5833093W\n")
+
+    # UNREACHABLE IS NOT WRONG. It is not `ok` either, and a caller must be able to
+    # tell the difference without guessing.
+    out = booklinks.check(article, lookup=lambda k: (booklinks.UNKNOWN, None, []))
+    assert out[0][3] == booklinks.UNDETERMINED
+    assert out[0][3] != booklinks.WRONG
+    assert out[0][3] != booklinks.OK
+
+    # `resolve` reports UNKNOWN rather than raising when the network is gone.
+    def _dead(req, timeout=None):
+        raise OSError("connection reset by peer")
+
+    assert booklinks.resolve("OL5833093W", opener=_dead, tries=1) == \
+        (booklinks.UNKNOWN, None, [])
+
+    # AN EMPTY SEARCH RESULT IS the authoritative absence, and is distinct from it.
+    class _Resp:
+        def __init__(self, payload):
+            self._p = payload
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *a):
+            return False
+
+        def read(self):
+            return self._p
+
+    def _empty(req, timeout=None):
+        return _Resp(b'{"numFound": 0, "docs": []}')
+
+    assert booklinks.resolve("OL999999999W", opener=_empty) == (booklinks.ABSENT, None, [])
+
+    # THE AUTHOR HALF OF A CLAIM IS READ TOO, because two books can share a title.
+    assert booklinks.author_claim("Hoerner and Borst, Fluid-dynamic lift") == \
+        ["Hoerner", "Borst"]
+    assert booklinks.author_agrees("Hoerner and Borst, Fluid-dynamic lift",
+                                   ["Sighard F. Hoerner"])
+    assert not booklinks.author_agrees("Sheridan, Telerobotics, automation and "
+                                       "human supervisory control", ["Bart Farkas"])
+    # A repository that lists nobody is a disagreement, not a crash.
+    assert not booklinks.author_agrees("Prouty, Helicopter performance", [])
 
 
 def t_homonym_tags_let_a_subject_switch_off_its_own_contaminant():

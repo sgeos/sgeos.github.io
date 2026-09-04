@@ -1,136 +1,109 @@
 ## Last Updated
 
-**Date**: 2026-09-03
-**Task**: **A348, X-Planes: Boeing X-51 Waverider, publication review. The fourth and last of four.**
-Committed and **pushed**. **Not published**, and publication of the series still not authorised.
-**Fifty-two of seventy-two drafted.**
+**Date**: 2026-09-04
+**Task**: **The book-identifier repair for A342 through A346.** Twelve anchors and sixteen citations
+replaced. Committed and **pushed**. **Not an article pass**, and no article's argument, prose, counts
+or reference totals changed. **Fifty-two of seventy-two drafted, none published**, and publication of
+the series still not authorised.
 
 ---
 
-## Reading the Opening Against the Conclusion Found Two Defects, Which Is Why It Is Done First
+## The Instrument Was Broken and Would Have Rewritten Correct Citations
 
-**The conclusion said the article showed the engine worked by failing three times.** The first flight
-was a partial success cut short after 143 seconds, which is ten times longer than any scramjet had
-flown before, and the article's own flight-record table says so. **A conclusion that contradicts a
-table four hundred lines above it is the defect this read exists to find.**
+**The first measurement of this repair was garbage and was discarded.** `_lib/booklinks.py` resolved a
+work key by reading `openlibrary.org/works/<key>.json`. That endpoint returns **HTTP 500 for records
+that plainly exist**. `OL17855977W` is Raymer's `Aircraft design, a conceptual approach` and
+`OL5220705W` is Wooldridge's `Winged Wonders`, and both returned `Internal Error` six times out of six
+while other keys returned 200 every time.
 
-**It also called the fuel's heat-sink capacity about a twentieth of the energy it releases.** The
-range is 5.4 to 8.1 percent, which is one part in 18.5 to one part in 12.3. **A twentieth is 5
-percent and the range does not reach it.** Corrected to between a twelfth and an eighteenth, in both
-places it appeared.
+**A nonexistent key returns 500 as well.** That endpoint therefore cannot separate `this key is wrong`
+from `this record will not serve`, and the module collapsed both into `None`, which `check` reported as
+a mismatch. **Had the repair run against that measurement it would have replaced correct identifiers
+with different ones.**
 
-**That is a defect found by this read in four consecutive articles.**
-
----
-
-## A Presence Check Passed for the Wrong Reason
-
-**Correcting the second defect left a claim written in words, so the digits 12 and 18 were added to
-the number checker.** Both passed.
-
-**They passed on `18.8`, on `18,500` and on the X-12 backlink in the opening sentence.** The check
-went green without checking anything.
-
-**That is the A342 defect class exactly**, where a presence check confirmed a stale figure because a
-stale figure is by definition still present. The checker now verifies **spelled-out ordinals as
-words**, and doing so confirmed three further claims that had previously been unverifiable, being that
-the stagnation temperature ratio of 3.15 is a third and the heating rate ratio of 6.67 is a seventh.
+**That is the third time this corpus has paid for the same lesson.** A347's local SSL certificate error
+nearly condemned 1,051 citations. A348 saw one book identifier fail on one run and resolve on the two
+after it. **A broken check reports the data as broken, and that is the dangerous direction.**
 
 ---
 
-## The Conclusions Were Probed Again Because They Were Not the Draft's
+## The Search Index Is the Oracle, and It Answers a Question the Work Record Does Not
 
-Six of ten were comfortable. **Two of the four thin ones opened above threshold on rephrasing alone**,
-the fin latch reaching 106 records once the question admitted control-surface actuation, and the
-sharp-versus-blunt leading edge reaching 97 once it admitted leading-edge cooling and materials.
+`search.json?q=key:"/works/OLnnnW"` returns **numFound 1 with a title and an author** for a real key
+and **numFound 0** for a bogus one, which is exactly the discrimination this needed. It also accepts
+twenty keys in one query, which mattered because openlibrary.org was resetting roughly one connection
+in three while this ran.
 
-**One was harvested.** Transient heat conduction stood at 59, which is thin for the relation the
-article builds its central distinction on, and a sweep raised it to 88.
+**It carries the author, which the work record does not give without a second request.** Every
+replacement was therefore held to **both halves** of an `Author, Title` claim rather than to the title
+alone, which is a higher standard than the gate it has to pass. A repair checked on title only is free
+to land on a different author's book of the same name.
 
-**One was deliberately left.** The claim that the engine was never the limiting item stands at 34
-records. **A342 measured span of control at eleven and left it. A347 measured where analysis effort
-goes at 65 and left it.** Both recorded that a bibliographic survey is a poor instrument for a claim
-about how a programme allocated its attention, and this series has now paid for that measurement
-twice. The claim rests on four flight outcomes, which is a small sample, and the Epistemic State says
-so.
-
----
-
-## Two Prose Defects Caught by Reading and Not by Any Checker
-
-**A citation inserted at the primary pass left `It established` with a dangling referent**, the
-nearest preceding subject having become an open-jet test facility. The paragraph was moved to where
-it belongs, which is after the claim it qualifies.
-
-**The phrase `a discipline whose exotic component has been solved` contradicted the article's own
-Epistemic State**, which states that nothing in the record speaks to the hours an aircraft would need.
-Changed to `has stopped being the constraint`, with the distinction made explicit.
+`resolve` now reports `found`, `absent` or `unknown`, and `check` reports `ok`, `wrong`, `missing` or
+`undetermined`, **so that `could not be determined` can never be read as `wrong`**. `_lib/tests` are
+102 of 102, up from 101.
 
 ---
 
-## A Book Check Reported a Mismatch That Did Not Exist
+## What Was Actually Wrong
 
-One identifier returned nothing on a single run and resolved correctly on two further runs. **That is
-a transient fetch failure, not a bad key**, and A347's lesson applied without needing to be
-rediscovered: a broken check reports the data as broken, and that is the dangerous direction.
+**Sixteen citations across twelve anchors, in all five drafts.** Seven of A346's eight checkable book
+citations, five of A345's nine, two of A343's seven, one of A344's six and one of A342's eleven.
+
+They pointed at a market outlook for dark rum in Japan, a guide to buying apartment buildings, a book
+about log homes, a Spanish travel guide to the Greek islands, a text on green chemistry, a volume of
+`History of Universities`, a book on liturgy, an immigration handbook, a work on semiotic
+phenomenology, a study of rural modernisation in Java, a survey of adult-education thinkers, and **a
+strategy guide for the video game `Vigilante 8`**.
+
+**Eight replacements were already living in the corpus**, seven of them in A347, which is the article
+that found this class of defect and repaired its own. Four were resolved by fresh search, namely
+Sheridan at `OL4274944W`, Hoerner at `OL5289631W`, Misra and Enge at `OL24594478W` and Stepniewski at
+`OL5602816W`.
+
+**The repair script confirmed the old key wrong before touching it**, so that a key which was correct
+all along could not be replaced, and **refused rather than guessed** on any disagreement. It refused
+nothing. Corpus measurement moved from **283 of 300 to 299 of 300**.
 
 ---
 
-## The Prose Read Did Not Cover the Prose the Emitters Produce
+## Two Things Left for You
 
-**Three sentences in the Source Base are generated from the reference data** so that they cannot go
-stale, which is the fix A342 and A347 both earned. **None of them was read after generation.**
+**A324 carries a malformed label over a correct key.** `book_jenkins` reads `Administration, National
+Aeronautics and Space, Jenkins, Dennis R...`, which is the repository's author field copied verbatim
+with its ellipsis, so the label swallowed the title. The identifier is right and the rendered citation
+is not. **It is outside A342 through A346 and belongs to an article that has completed all four
+passes**, so it was reported rather than edited. It is the one remaining item in the 299 of 300.
 
-**One opened with `1 record in 5,976`**, using a numeral where the house style spells small numbers
-out. **Another credited `a supplementary sweep` with figures that four sweeps had produced.** Both
-were corrected in the emitters rather than in the article, so the correction survives the next
-regeneration.
-
-**The build was started, killed and restarted once because of this**, and the reason is worth stating
-precisely. A347's rule was to finish the entire prose read before building, and the read had finished.
-**The rule as written did not say that generated prose is prose.** It does now.
+**A substantial fraction of OpenLibrary work pages currently return Internal Error to a reader.** Four
+of the 22 book URLs in the five repaired drafts failed on two consecutive serial requests, and the
+condition also hits keys A347 shipped and you already approved, namely Schlichting at `OL11833044W` and
+Bramwell at `OL16987916W`. **No key was changed to chase this.** Selecting an identifier against a
+transient server fault is the error this entire task was spent avoiding. **If it persists it is a
+reader-facing problem for the whole series and not for these five drafts**, and it wants its own
+decision.
 
 ---
 
 ## Verification State
 
-- `python3 _verify.py` reports **0 errors, 0 warnings**.
-- `python3 _lib/test_lib.py` reports **101 of 101**.
-- `tmp/a348/verify_numbers.py` reports **ALL CHECKS PASS**, **80 recomputed claims** all present in
-  the prose, **four spelled-out ordinal claims verified as words**, 17 cluster rows matching their own
-  citations, cluster table matching sections.
-- Reference integrity: **6,051 defined, 6,051 used, 0 undefined, 0 orphaned, 0 duplicate URLs**.
-- Book links **8 checked, 0 mismatched** on two consecutive runs.
-- Prose: no contractions in author prose, no dashes, no prose colons, one semicolon and it is the
-  `console.log` tag. **Zero authored caps-emphasis runs. Zero drafting narration in the argument.**
-  NASA is spelled out before its first bare use.
-- **12,777 lines, 71,734 words, 13,459 author prose words, 39 display equations, none inlined.**
-- Survey **5,976 research records, 1,301 report primaries at 21.8 percent**.
-- Sweep store **121 patterns**, three tagged.
-
-- **The stub-isolated production build succeeded in 824 seconds with no Liquid error**, against bytes
-  checksummed before the build and re-verified against both the stub copy and the draft after it.
-  **The rendered audit reports no findings across 87 pages.** Source and rendered display equations
-  agree at **39**, **zero raw dollar pairs leak**, **zero unresolved reference brackets**, page
-  renders to 1,063,589 bytes.
-- **The build was started twice and the first was killed and discarded**, because reading the emitted
-  fragments after the prose read found two defects in them. The second ran to completion and the
-  article was not touched again.
+- `python3 _verify.py` reports **0 errors, 0 warnings** across 301 posts.
+- `python3 _lib/test_lib.py` reports **102 of 102**, with a new test naming the 2026-09-04 failure.
+- Corpus book measurement: **300 checkable citations, 299 correct, 0 absent, 0 undetermined**.
+- The diff is **16 changed lines in five drafts**, every one a reference definition. **No prose, no
+  equation, no count and no reference total moved.**
+- **No production build was run.** The change is confined to reference-definition URLs in drafts,
+  which the production build excludes, and it cannot reach Liquid, kramdown or MathJax. `_verify.py`
+  covers reference integrity and reports clean.
 
 ---
 
 ## Next
 
-**A349**, editorial date 2025-11-27, series index 53. **Twenty articles remain.**
+**A349**, `X-Planes: X-52, the Designation Refused`, editorial date 2025-11-27, series index 53.
+**Twenty articles remain.** No article is mid-rhythm.
 
-**Carry forward.** `gate.ATMOSPHERE` is named rather than copied. The three tagged sweep-store
-families are switched off only for articles whose subject they are, and A348's `harvest.ALLOW` shows
-the pattern. `survey.loose` now splits on hyphens and should be used for any probe naming a
-designation or a hyphenated programme.
-
-**The rule that earned itself twice this article**: finish the entire prose read before starting the
-build. A347 started its build twice and killed it twice. A348 started it once, after the read was
-complete, and did not touch the article again.
-
-**The book-identifier repair for A342 through A346 remains outstanding and still needs your decision.**
-Twelve anchors across five drafts, none in a published post.
+**Carry forward.** Use `booklinks.resolve` and never the work JSON endpoint. Hold a book key to title
+and author both. The three tagged sweep-store families are switched off only for the articles whose
+subject they are. `survey.loose` splits on hyphens. Finish the entire prose read, generated fragments
+included, before starting a build.

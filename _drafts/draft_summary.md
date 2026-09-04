@@ -298,7 +298,8 @@ now stands at 160 records and its cluster at 941.
 helicopter aerodynamics` resolved to a market outlook for dark rum in Japan. Every existing check
 passed, because the link resolved and the label rendered. **`_lib/booklinks.py` is new, with three
 tests, and the corpus scope is 19 mismatches across the X-Planes drafts and none in a published
-post.** Five other drafts still carry wrong keys and are listed for the pilot.
+post.** **REPAIRED 2026-09-04 across A342 through A346**, twelve anchors and sixteen citations, and
+the corpus now measures 299 of 300 checkable book citations correct.
 
 **ONE IDENTIFIER IN THIS ARTICLE WAS FABRICATED AND CAUGHT BEFORE ASSEMBLY**, a NASA Technical
 Reports Server number written from a title rather than looked up. Found because every foundational
@@ -317,6 +318,11 @@ publication review**, of which 7,203 are author prose, a dilution factor of 8.2.
 complete.** Committed and **PUSHED**. **Not published**, and publication of the series has never been
 authorised. **Full-aircraft class.** Report primaries **1,149 of 5,002, being 23.0 percent**, up from
 781 of 3,744 at 20.9 percent before the primary pass.
+
+**BOOK IDENTIFIERS REPAIRED 2026-09-04.** Seven of the eight `Author, Title` book citations
+pointed at unrelated works, among them a market outlook for dark rum in Japan, a book about log
+homes and a guide to buying apartment buildings. Every replacement was confirmed on title and on
+author before it was written.
 
 **The stub-isolated production build succeeded in 1,548 seconds with no Liquid error, against the exact bytes that were pushed**, the checksum having been matched against the stub copy before the build started. **The rendered audit reports no findings across 85 pages.** Source and rendered display-equation counts agree at **32**, with **zero raw dollar pairs leaking** and **zero unresolved reference brackets**.
 
@@ -388,6 +394,10 @@ authorised. Report primaries **1,642 of 8,466, being 19.4 percent**, from 796 of
 pushed**. **Not published**, and publication of the series has never been authorised.
 **Full-aircraft class.**
 
+**BOOK IDENTIFIERS REPAIRED 2026-09-04.** Five of the nine `Author, Title` book citations pointed
+at unrelated works, among them a text on green chemistry and a book on liturgy. Every replacement
+was confirmed on title and on author before it was written.
+
 **THE KEYSTONE IS THE INSTRUMENT RATHER THAN THE VEHICLE**, which is a first for this series. The
 X-48B is an 8.5 percent dynamically scaled free-flight model, and holding Froude number and relative
 density fixed sends Reynolds number as the three-halves power. **Time compression 3.430, Reynolds
@@ -457,6 +467,10 @@ publication review**, of which 8,130 are author prose, a dilution factor of 12.7
 complete.** Committed and **PUSHED**. **Not published**, and publication of the series has never been
 authorised. **Full-aircraft class**, and the first article in four with a flight test record worth
 tabulating.
+
+**BOOK IDENTIFIERS REPAIRED 2026-09-04.** One of the six `Author, Title` book citations pointed at
+an unrelated work, `Misra and Enge` resolving to a volume of `History of Universities`. The
+replacement was confirmed on title and on author before it was written.
 
 **SIX OF SEVEN RESULT-DRIVEN SUBJECTS MEASURED THIN AND ONLY ONE CLOSED.** The claim that an automatic
 wave-off on a detected fault is the behaviour a deck requires went 28 to 180. **Each was broadened
@@ -543,6 +557,10 @@ complete.** Committed and **PUSHED**. **Not published**, and publication of the 
 authorised. **Documentation-poor class, written in the full section order**, and the article now
 defends that choice against the genre's rule that the reduced order is honest where no vehicle was
 built.
+
+**BOOK IDENTIFIERS REPAIRED 2026-09-04.** Two of the seven `Author, Title` book citations pointed
+at unrelated works, a Spanish travel guide to the Greek islands and a text on green chemistry.
+Both replacements were confirmed on title and on author before they were written.
 
 **SEVEN OF SEVEN RESULT-DRIVEN SUBJECTS MEASURED THIN**, the most complete instance the series has
 recorded. **The article's central claim, that the gap between what carrier aircraft weigh and what the
@@ -656,6 +674,11 @@ publication review**, of which 10,763 are author prose, a dilution factor of 11.
 complete.** Committed and **PUSHED**. **Not published**, and publication of the series has never been
 authorised. **The draft and equation passes share one commit**, because the pilot prompted for the
 second while the first's build was still running.
+
+**BOOK IDENTIFIERS REPAIRED 2026-09-04.** One of the eleven `Author, Title` book citations pointed
+at an unrelated work, `Sheridan, Telerobotics, automation and human supervisory control` resolving
+to a strategy guide for the video game `Vigilante 8`. The replacement was confirmed on title and
+on author before it was written.
 
 **THE ARTICLE CONTRADICTED ITSELF AND EVERY AUTOMATED CHECK PASSED.** The paragraph interpreting the
 survey was stale in all six of its statistics, reporting 1,771 records for four clusters that held

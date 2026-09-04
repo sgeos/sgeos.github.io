@@ -659,10 +659,10 @@ with the ratio and the consumption varying along the path. Over a twelve-hour lo
 - [Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]
 - [Wooldridge, Winged wonders, the story of the flying wings][book_wooldridge]
 
-[book_anderson_performance]: https://openlibrary.org/works/OL977213W
+[book_anderson_performance]: https://openlibrary.org/works/OL1993317W
 [book_etkin_reid]: https://openlibrary.org/works/OL19844466W
 [book_knott]: https://openlibrary.org/works/OL18817543W
-[book_nicolai]: https://openlibrary.org/works/OL16599220W
+[book_nicolai]: https://openlibrary.org/works/OL15909375W
 [book_raymer]: https://openlibrary.org/works/OL17855977W
 [book_torenbeek]: https://openlibrary.org/works/OL17631348W
 [book_wooldridge]: https://openlibrary.org/works/OL5220705W

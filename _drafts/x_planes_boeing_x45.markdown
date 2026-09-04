@@ -660,7 +660,7 @@ The record, as the primary directory gives it [[Parsch, Boeing X-45 and X-46, Di
 [book_mattingly_engine_design]: https://openlibrary.org/works/OL3739225W
 [book_nelson]: https://openlibrary.org/works/OL2690894W
 [book_raymer]: https://openlibrary.org/works/OL17855977W
-[book_sheridan]: https://openlibrary.org/works/OL2035932W
+[book_sheridan]: https://openlibrary.org/works/OL4274944W
 [book_torenbeek]: https://openlibrary.org/works/OL17631348W
 [book_wooldridge]: https://openlibrary.org/works/OL5220705W
 

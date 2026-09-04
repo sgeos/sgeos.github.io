@@ -592,7 +592,7 @@ $$\frac{20{,}185}{19{,}000} - 1 = 0.0624$$
 
 [book_etkin_reid]: https://openlibrary.org/works/OL19844466W
 [book_knott]: https://openlibrary.org/works/OL18817543W
-[book_misra_enge]: https://openlibrary.org/works/OL8016599W
+[book_misra_enge]: https://openlibrary.org/works/OL24594478W
 [book_raymer]: https://openlibrary.org/works/OL17855977W
 [book_torenbeek]: https://openlibrary.org/works/OL17631348W
 [book_wooldridge]: https://openlibrary.org/works/OL5220705W

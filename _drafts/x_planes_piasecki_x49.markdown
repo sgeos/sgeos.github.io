@@ -558,14 +558,14 @@ The Dragonfly canard rotor wing, which is the next article. The Cheyenne compoun
 - [Raymer, Aircraft design, a conceptual approach][book_raymer]
 - [Stepniewski and Keys, Rotary-wing aerodynamics][book_stepniewski]
 
-[book_anderson_performance]: https://openlibrary.org/works/OL977213W
-[book_bramwell]: https://openlibrary.org/works/OL8092639W
-[book_johnson_helicopter_theory]: https://openlibrary.org/works/OL4114985W
-[book_leishman]: https://openlibrary.org/works/OL3305929W
-[book_mccormick]: https://openlibrary.org/works/OL2757646W
-[book_prouty]: https://openlibrary.org/works/OL2716618W
+[book_anderson_performance]: https://openlibrary.org/works/OL1993317W
+[book_bramwell]: https://openlibrary.org/works/OL16987916W
+[book_johnson_helicopter_theory]: https://openlibrary.org/works/OL19240W
+[book_leishman]: https://openlibrary.org/works/OL5833093W
+[book_mccormick]: https://openlibrary.org/works/OL1968708W
+[book_prouty]: https://openlibrary.org/works/OL2698158W
 [book_raymer]: https://openlibrary.org/works/OL17855977W
-[book_stepniewski]: https://openlibrary.org/works/OL4266962W
+[book_stepniewski]: https://openlibrary.org/works/OL5602816W
 
 ### Reference
 
