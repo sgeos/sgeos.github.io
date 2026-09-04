@@ -46,6 +46,40 @@ $$n^{\star}(m) \;=\; \min\bigl\{\,k \in \mathbb{N} \;:\; k \notin A_m \,\bigr\}$
 
 and in 2006 the X series held 1 through 51, so $n^{\star}(X) = 52$. **The number that was refused is the number the instruction names.**
 
+**The rule is a statement about a set that only ever shrinks.** Writing $V_m(t)$ for the numbers still
+available within basic mission $m$ at time $t$, and taking the range the instruction itself gives,
+
+$$V_m(t) \;=\; \{1, 2, \ldots, 999\} \setminus A_m(t),
+\qquad n^{\star}(m) \;=\; \min V_m(t).$$
+
+**Nothing returns a number to that set.** The instruction directs that a retired designation is not
+used again for another vehicle, so the allocated set is non-decreasing in time and the available set is
+non-increasing,
+
+$$t_1 \leq t_2 \;\implies\; A_m(t_1) \subseteq A_m(t_2)
+\;\implies\; V_m(t_2) \subseteq V_m(t_1).$$
+
+**A design number is therefore consumed and not borrowed.**
+
+**But a refusal consumes one by a route this model has no term for.** The instruction knows two states,
+allocated and available, and the master list of designations records a third. The C-16 correspondence
+directs that the number be marked **not used**, which is neither, so the honest partition is
+
+$$\{1, 2, \ldots, 999\} \;=\; \underbrace{A_m(t)}_{\text{allocated}}
+\;\sqcup\; \underbrace{U_m(t)}_{\text{marked not used}}
+\;\sqcup\; \underbrace{V_m(t)}_{\text{available}},$$
+
+with $n^{\star}(m) = \min V_m(t)$ as before. **The instruction defines the first and the third and
+never mentions the second**, and yet the second is where the X-52 went, along with C-16, C-42, C-43,
+C-44, P-6, F-19 and every thirteenth number in the system.
+
+**What was assigned is not what the sequence rule names.** With $n^{\star}(X) = 52$ and 53 allocated,
+
+$$\text{assigned} \;-\; n^{\star}(X) \;=\; 53 - 52
+\;=\; 1,$$
+
+which is the whole of the anomaly written as arithmetic.
+
 **The word skip does not appear in the 2005 issue at all.** Neither does discretion, nor any authority to decline a design number, nor any criterion by which a proposed number might be judged unsuitable. **The document that governed the decision contains no provision under which the decision could be made.**
 
 **Nor did the issue before it.** The 1994 issue of the same joint instruction was read as well, and it says the same things in the same order. The coordinating office will assign the next available consecutive design number within each basic mission for new vehicles. Design numbers run consecutively from 1 to 999. Requested popular names are checked for duplication against the master list, the Judge Advocate General conducts a trademark search of them, and final coordination comes from the Assistant Secretary of Defence for Public Affairs. The only mention of confusion attached to a designator is the prohibition of I and O as series symbols [[Air Force Joint Instruction 16-401, 1994][ref_afi_16_401]] [[United States Department of Defense Aerospace Vehicle Designation][ref_dod_designation]].
@@ -70,6 +104,20 @@ $$|S| \;=\; 26 - 2 \;=\; 24,$$
 
 so a design number supports twenty-four production models before the instruction requires the design number itself to advance to the next unused value.
 
+**The two limits together give the size of a mission's designation space.** With design numbers running
+from 1 to $999$ and twenty-four permitted series symbols,
+
+$$N_m \;=\; 999 \times 24
+\;=\; 23,976,$$
+
+and the 2020 issue, which expands the design number to four digits once 999 is reached, raises that to
+
+$$N_m' \;=\; 9,999 \times 24
+\;=\; 239,976.$$
+
+**Fifty-one of those had been consumed when the request was made.** Scarcity is not why 52 was
+refused, and no reading of the instruction suggests that it was.
+
 **That rule is the whole of the system's written thinking about a confusable designator, and it is about typography.** It does not consider what happens when the number is spoken. It does not consider another mission series at all.
 
 ### The Authority Was Written Down Fourteen Years Later
@@ -79,6 +127,14 @@ so a design number supports twenty-four production models before the instruction
 **Attachment 2, paragraph A2.1.6.1.2 reads that AF/A8PE reserves the authority to skip design number at discretion.**
 
 **That is one sentence, it names the office that refused the X-52A, and it supplies no criterion whatsoever.** It does not say to avoid confusion. It does not say when, or on what evidence, or subject to what review. **It converts a thing that office had been doing into a thing that office is entitled to do**, and it does so without describing the thing.
+
+**The two intervals that matter are both long and they are the article's timeline in one line,**
+
+$$\underbrace{2020 - 2006}_{14 \ \text{years after the refusal}}
+\qquad\text{and}\qquad
+\underbrace{2020 - 1994}_{26 \ \text{years after the earliest issue read here}}.$$
+
+**The practice ran for the whole of the second interval and the authority arrived at the end of it.**
 
 **Every other provision quoted above survives into the 2020 issue unchanged in substance.** Design numbers still run consecutively. The series symbol still forbids I and O to avoid confusion with the design number. The popular name still goes to a trademark search and still gets its four levels of review [[Department of the Air Force Instruction 16-401, 3 November 2020][ref_dafi_16_401_2020]]. **The discretion to skip a number is the addition, and it is the only one that matters to this article.**
 
@@ -114,6 +170,14 @@ so a design number supports twenty-four production models before the instruction
 
 **A number is also skipped for reasons that have nothing to do with confusion.** F-13 was rejected by the manufacturer or the Navy for superstitious reasons, and since the late 1960s it has been an unwritten rule that a design number 13 is always skipped, which has cost A-13, C-13, G-13, Q-13 and V-13 as well [[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. **A system that skips every thirteenth number by unwritten custom is not a system that will find skipping the fifty-second difficult.**
 
+**That custom is measurable and it is the largest single deletion in the whole record.** Counting the
+mission symbols whose thirteenth number is absent by it,
+
+$$\bigl| \{\, m \in M \;:\; 13 \notin A_m \text{ by custom} \,\} \bigr| \;=\; 6,$$
+
+being the fighter, attack, cargo, glider, drone and vertical-take-off series. **One unwritten rule has
+removed six numbers, and the instruction mentions it nowhere.**
+
 ### Every One of These Collisions Crosses a Series Boundary
 
 **Look at what is actually colliding in each case.** X-52 with B-52. C-16 with F-16. C-43 and C-44 with T-43 and T-44. V-14 with X-14. P-6 with P6M. **In every instance the two designations differ in the mission symbol and agree in the design number.**
@@ -129,6 +193,12 @@ and within that space the pairs are unique by construction, because each mission
 $$\sigma(m, n) \;=\; n,$$
 
 and under $\sigma$ the two designations are the same object. **The C-16 reason names that channel explicitly, and it is a radio.**
+
+**The designations a listener cannot separate are the fibre of that projection**, and its size is the
+quantity the rest of this section turns on,
+
+$$\sigma^{-1}(k) \;=\; \bigl\{\, (m, k) \;:\; m \in M,\ k \in A_m \,\bigr\},
+\qquad \bigl| \sigma^{-1}(k) \bigr| \;=\; o_k.$$
 
 **The two spaces are of very different sizes and that is the entire problem.** The register holds
 
@@ -150,11 +220,45 @@ $$C \;=\; \sum_{k \geq 1} \binom{o_k}{2},$$
 
 which is zero only if no number is ever issued twice across all series. **Every low design number in this system has been issued in several series**, because every series starts at one and counts up. There is an X-4 and an F-4. There is an X-5 and an F-5. There is an X-15 and an F-15, an X-16 and an F-16, an X-22 and an F-22, an X-35 and an F-35 [[List of X-planes][ref_list_of_x_planes]] [[1962 United States Tri-Service Aircraft Designation System][ref_tri_service_1962]].
 
+**The average of $o_k$ over the numbers in use is the factor by which the register outruns the radio,**
+
+$$R \;=\; \frac{\sum_{m \in M} \bigl| A_m \bigr|}
+{\Bigl| \bigcup_{m \in M} A_m \Bigr|}
+\;=\; \operatorname*{mean}_{k \,\in\, \bigcup_m A_m} o_k,$$
+
+and $R > 1$ whenever any two series have both reached the same number. **The public record does not
+permit computing $R$ for this system**, because no complete allocated set is published for every
+mission symbol, and the article claims no value for it.
+
 **If the mission letter is lost, the chance of attributing a spoken number to the right series is at best**
 
 $$P(\text{correct} \mid k) \;=\; \frac{1}{o_k}$$
 
 under a uniform prior over the series holding that number. **This is an idealisation and the article says so**, since a listener has context, expectation and an aerodrome full of clues. It is stated because it shows the shape of the thing. **The quantity the system controls is $o_k$, and the system increases it every time a new series is opened.**
+
+**The same quantity in bits is the part of the identifier the channel throws away.** A listener who has
+heard the number and not the letter carries a residual uncertainty of
+
+$$H(k) \;=\; \log_2 o_k$$
+
+bits, which is zero when a number belongs to one series and one bit when it belongs to two.
+
+**The two decisions this article compares act on that quantity in opposite senses, at two different
+numbers, and by the same one bit.** One of them spent the bit and the other withheld it. The X-35 had been allocated and the F-35 was approved on top of it,
+so
+
+$$\Delta H(35) \;=\; \log_2 2 - \log_2 1
+\;=\; +1 \ \text{bit}.$$
+
+The B-52 had been allocated and X-52A was refused, so the multiplicity stayed where it was and
+
+$$\Delta H(52) \;=\; \log_2 1 - \log_2 1
+\;=\; 0 \ \text{bits},$$
+
+against the $+1$ bit the approval would have added.
+
+**One office added a bit of ambiguity in 2002 and declined to add the same bit in 2006**, and wrote
+down its reason for neither.
 
 ### The System Declined to Fix the Confusion It Actually Had
 
@@ -179,6 +283,16 @@ and for most aeroplanes this is a few decades.
 $$T_{\text{occupied}} \;\geq\; 2050 - 1955 \;=\; 95 \ \text{years},$$
 
 and at the moment of the refusal in 2006 the aeroplane had already held the numeral for fifty-one of them.
+
+**Split at the year of the decision, the two halves are of comparable size and both are large.**
+
+$$\underbrace{2006 - 1955}_{51 \ \text{years already served}}
+\;+\;
+\underbrace{2050 - 2006}_{44 \ \text{years still expected}}
+\;=\; 95 \ \text{years}.$$
+
+**Whoever refused the number in 2006 was standing near the middle of its occupancy and not near
+the end of it.**
 
 **So the request in 2006 was not unlucky in some general way.** It asked for the one number in the low range of the sequence that is attached to the longest-serving combat aircraft in the history of the thing. **Had the X series reached 52 in 1948 the answer would have been yes, and had it reached 52 in 2048 the answer would probably still be no.**
 
@@ -206,15 +320,71 @@ $$d_{i,j} \;=\;
 \min\bigl\{\, d_{i-1,j} + 1, \; d_{i,j-1} + 1, \; d_{i-1,j-1} + \mathbb{1}[\,a_i \neq b_j\,] \,\bigr\}, & \text{otherwise},
 \end{cases}$$
 
-with the edit distance being the value at the far corner, where $m$ and $n$ are the lengths of the two strings. **For the pair in question the value is 1**, since substituting B for X is the only operation required. Normalised against the longer string,
+with the edit distance being the value at the far corner, where $\ell_a$ and $\ell_b$ are the lengths of the two strings. **The letters $m$ and $n$ are not reused here**, since they name the basic mission symbol and the design number above. **For the pair in question the value is 1**, since substituting B for X is the only operation required. Normalised against the longer string,
 
-$$s(a, b) \;=\; 1 - \frac{d_{m,n}}{\max(m,\, n)} \;=\; 1 - \frac{1}{4} \;=\; 0.75.$$
+$$s(a, b) \;=\; 1 - \frac{d_{\ell_a,\, \ell_b}}{\max(\ell_a,\, \ell_b)} \;=\; 1 - \frac{1}{4} \;=\; 0.75.$$
 
-**Three of the four characters are shared and the three that are shared are the ones the instruction issues in sequence.**
+**Three of the four characters are shared, and the three that are shared are the ones the instruction issues in sequence.** That is the longest common subsequence, and it gives a second measure that agrees with the first,
 
-**Spoken, the pair separates slightly further and not much.** Rendered as they would be said, ex fifty two against bee fifty two, the edit distance over words is 1 and over characters is 2. **The part that differs is one syllable at the front and the part that agrees is everything after it.**
+$$s_{\mathrm{LCS}}(a, b) \;=\; \frac{\bigl| \mathrm{LCS}(a, b) \bigr|}{\max(\ell_a,\, \ell_b)}
+\;=\; \frac{3}{4} \;=\; 0.75.$$
 
-**None of this proves the refusal was correct.** A similarity of 0.75 is a number and not a decision, and a decision needs a threshold, and a threshold needs a criterion, and the criterion is the thing that was never written. **What the measurement establishes is that the judgement was of a kind that can be made explicit, and was not.** The literature surveyed below is very largely the record of other people making exactly this kind of judgement explicit, under published criteria, in fields where getting it wrong kills somebody.
+**The measure the drug regulators actually reach for is neither of those.** Name-similarity assessment
+is usually done on character bigrams, comparing the sets of adjacent letter pairs rather than the
+positions, because a listener who mishears is not performing an alignment. The two names give
+
+$$\mathcal{B}(\text{X-52}) = \{\,\texttt{X-},\ \texttt{-5},\ \texttt{52}\,\},
+\qquad
+\mathcal{B}(\text{B-52}) = \{\,\texttt{B-},\ \texttt{-5},\ \texttt{52}\,\},$$
+
+sharing two of three, and the Dice coefficient on those sets is
+
+$$s_{\mathrm{Dice}}(a, b)
+\;=\; \frac{2 \bigl| \mathcal{B}(a) \cap \mathcal{B}(b) \bigr|}
+{\bigl| \mathcal{B}(a) \bigr| + \bigl| \mathcal{B}(b) \bigr|}
+\;=\; \frac{4}{6} \;\approx\; 0.667.$$
+
+**Three measures, three values between 0.667 and 0.75, and not one of them is a decision.**
+
+### Saying It Aloud Moves the Two Names Closer Together and Not Further Apart
+
+**The refusal was about a spoken designation, so the spoken forms are the ones that matter**, and
+measuring them reverses the intuitive answer. Rendered as they would be said, `ex fifty two` against
+`bee fifty two`, the character edit distance is 2 over strings of
+12 and 13 characters, so
+
+$$s\bigl(\text{ex fifty two},\ \text{bee fifty two}\bigr)
+\;=\; 1 - \frac{2}{13} \;\approx\; 0.846.$$
+
+**That is higher than the 0.75 the written pair scores, and higher means closer.**
+Spelling the designation out does not separate the two names. It pushes them together, because the
+shared part expands into two long words while the part that distinguishes them stays one short syllable
+at the front.
+
+**At the level of whole words the picture is the reverse again**, since one token in three differs,
+
+$$s_{\text{word}} \;=\; 1 - \frac{1}{3}
+\;\approx\; 0.667.$$
+
+**So the answer depends on what you think a listener is matching**, and a decision that records no
+measure has not said which of these it meant, or whether it meant any of them.
+
+### A Decision Needs a Threshold, and the Threshold Is the Thing That Is Missing
+
+**Every one of the measures above is a number in the unit interval.** Turning one into a refusal takes
+one more object, which is a threshold, and the rule is then simply
+
+$$\text{refuse } b \quad \text{if and only if} \quad
+\max_{a \,\in\, \mathcal{A}} s(a, b) \;\geq\; \tau,$$
+
+where $\mathcal{A}$ is the set of designations already in use, $s$ is whichever measure has been
+adopted, and $\tau$ is where the line is drawn.
+
+**The 2006 decision supplies $b$ and it supplies the outcome. It supplies no $s$, no $\tau$ and no
+$\mathcal{A}$.** The 2020 instruction, which finally granted the authority, supplies none of them
+either. **That is the finding, and it is why this section exists.**
+
+**None of this proves the refusal was wrong, and none of it proves the refusal was right.** **What the measurement establishes is that the judgement was of a kind that can be made explicit, and was not.** The literature surveyed below is very largely the record of other people making exactly this kind of judgement explicit, under published criteria, in fields where getting it wrong kills somebody.
 
 ## The Contemporary Literature
 
@@ -393,7 +563,11 @@ The 3 November 2020 issue adds, at Attachment 2 paragraph A2.1.6.1.2, that AF/A8
 
 ### Analysis
 
-The edit distance between the strings X-52 and B-52 is 1 and the normalised similarity is 0.75. These are computed and not quoted from any source.
+The edit distance between the strings X-52 and B-52 is 1, the normalised edit similarity is 0.75, the longest common subsequence is three characters giving the same 0.75, and the Dice coefficient on character bigrams is two thirds. These are computed and not quoted from any source.
+
+**Rendered as they would be spoken, the two names are more similar rather than less.** The character edit distance between `ex fifty two` and `bee fifty two` is 2 over strings of 12 and 13 characters, giving a normalised similarity of about 0.846 against the written pair's 0.75. **At the level of whole words one token in three differs, giving about 0.667**, so the ordering depends on what a listener is taken to be matching.
+
+The X-35 was allocated before the F-35 was approved, so that approval raised the number of series holding the design number 35 from one to two and added one bit of residual uncertainty to a listener who hears the number without the mission letter. The refusal of X-52A held the corresponding quantity at 52 unchanged and added none.
 
 The B-52 entered service in 1955 and is planned to serve into the 2050s, so the numeral has been and will be occupied for something near a century, and had been occupied for fifty-one years at the moment of the refusal [[Boeing B-52 Stratofortress][ref_b52]].
 
