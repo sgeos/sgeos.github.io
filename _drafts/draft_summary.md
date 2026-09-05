@@ -21,7 +21,38 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_x52_designation_refused.markdown`, A349, editorial date 2025-11-27, series `x_planes` index 53 of 72.
 
-**4,734 lines, 33 display equations, 2,046 reference definitions, 29,449 words after the equation-density review**, of which about 7,600 are author prose. **Two of four passes complete.** **Not published**, and publication of the series has never been authorised. **Designation-anomaly class, written in the reduced order**, which is the second time the series has used it after A336.
+**4,820 lines, 34 display equations, 2,057 reference definitions, 30,499 words after the primary-reference review**, of which about 8,200 are author prose. **Three of four passes complete.** **Not published**, and publication of the series has never been authorised. **Designation-anomaly class, written in the reduced order**, which is the second time the series has used it after A336.
+
+**PRIMARY-REFERENCE REVIEW.** Report primaries 42 of 1,974, being
+2.1 percent, up from 36 of 1,968 at 1.8 percent, and **still the second-lowest in the
+series** behind A336's zero. **The curated primary-document count is reported alongside the fraction,
+which is what the genre document asks for, and it stands at 9.**
+
+**THE ARTICLE'S CENTRAL CLAIM WAS RESTING ON THE SURVEY RATHER THAN ON A CITATION.** It said a drug
+regulator makes the same judgement against published criteria, and cited nothing. **The Food and Drug
+Administration publishes every object the 2006 decision lacks**, being the measure, the comparison set
+and the thresholds, in a guidance dated December 2020 that was read in full. The bands are a combined
+score of 70 percent or more for a highly similar name pair, 55 to 69 percent for a moderately similar
+pair and 54 percent or less for low similarity, **and the guidance states that the 55 percent screening
+threshold rests on the validation work done on the algorithms.** The article's own bigram figure of
+about 66.7 percent and edit similarity of 75 percent fall in different bands, which is stated as an
+illustration and explicitly not as a result of that program.
+
+**A WEB SUMMARY GAVE THE WRONG THRESHOLD AND THE DOCUMENT GAVE THE RIGHT ONE.** The search result said
+the moderate band begins at 50 percent. **The guidance says 55.** The same lesson as reading the
+designation instruction rather than a description of it, met twice in one article.
+
+**THE CIVIL AVIATION SIDE GAINED A PRIMARY STUDY WITH A COUNT**, being the United Kingdom authority's
+call sign confusion study resting on 482 reports filed by pilots and controllers, together with the
+European briefing note that followed it. **Neither is referenced anywhere in the designation
+instruction**, and that absence was checked by grep across all three issues rather than asserted.
+
+**THE REPORT REGISTRIES WERE AIMED AT DIRECTLY AND DO NOT HOLD THIS SUBJECT.** A supplementary sweep
+retrieved 1,196 records the main harvest did not hold, 1,148
+survived the sweep store and **7 passed the subject gate**. The defence registry supplied
+1,158 of them and 2 of the survivors. **The gate and store were
+unrelaxed**, because a supplementary sweep that loosens either raises the fraction by admitting records
+the first sweep had correctly refused.
 
 **EQUATION-DENSITY REVIEW, 13 TO 33.** The subject is administrative and the relations are therefore set-theoretic, information-theoretic and metric rather than physical. **The designation space gained an honest partition into three states**, allocated, marked not used, and available, because the instruction defines only the first and third while the master list records the second and that is where the X-52 went. **The confusability judgement gained the three measures it never recorded**, being normalised edit distance at 0.75, longest common subsequence at 0.75 and the bigram Dice coefficient at two thirds, together with the decision rule that turns any of them into a refusal and the observation that the record supplies no measure, no threshold and no comparison set.
 
