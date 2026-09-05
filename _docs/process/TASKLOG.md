@@ -11,11 +11,11 @@ Current task state and verification log. This file is the shared source of truth
 
 **Status**: **A297 through A348 are drafted with all four passes complete on every one, committed and
 PUSHED. A349, X-52, the Designation Refused, has completed ALL FOUR PASSES and is committed and
-PUSHED. Fifty-three of seventy-two drafted. None published, and publication
+PUSHED. A350, Boeing X-53 Active Aeroelastic Wing, has completed its DRAFT PASS ONLY, the first of
+four, and is committed and NOT pushed. None published, and publication
 has never been authorised.**
-Fifty-three of seventy-two drafted. None published, and publication has never been authorised.
-The next new article is **A350**, Boeing X-53 Active Aeroelastic Wing, editorial date 2025-11-28,
-series index 54.
+Fifty-four of seventy-two drafted. None published, and publication has never been authorised.
+The next new article is **A351**, Gulfstream X-54, editorial date 2025-11-29, series index 55.
 Report primaries finished at **1,301 of 5,976, being 21.8 percent**, up from 14.2 at the draft pass.
 
 **THE BOOK-IDENTIFIER REPAIR FOR A342 THROUGH A346 IS DONE.** Twelve anchors and sixteen citations
@@ -47,6 +47,47 @@ this is not a property of the repair. Of the 22 book URLs in the five repaired d
 already approved, namely Schlichting at `OL11833044W` and Bramwell at `OL16987916W`. **No key was
 changed to chase this**, because selecting an identifier against a transient server fault is the
 error this whole task was spent avoiding.
+
+**A350 IS A FULL-AIRCRAFT ARTICLE AND THE FIRST VEHICLE IN THREE.** The X-53 removed a fighter's wing
+stiffening on purpose and rolled the aeroplane by twisting the wing with its leading-edge flaps.
+**Aileron reversal is the keystone**, being the dynamic pressure at which a trailing-edge surface
+twists a flexible wing hard enough to cancel its own rolling moment, and the classical answer is
+torsional stiffness, and torsional stiffness is weight.
+
+**THE AEROPLANE NEVER REACHED THE CONDITION IT WAS NAMED FOR.** Two of the four host requirements did
+not survive, the external stores provision deleted outright and **the requirement to fly beyond
+reversal deleted after early flight tests showed it could not be met**. No full reversal was observed,
+the aileron rolling moment approaching zero and staying there. **The two test points the aeroplane
+could not reach are the only two above 1,400 pounds per square foot**, computed here from the standard
+atmosphere rather than read from a source, and the report attributes the shortfall to drag from the
+research instrumentation itself.
+
+**THE CLEAREST SHORTFALL IS IN THE REGION THE CONCEPT IS AIMED AT.** Time-to-bank met the level 1 goal
+at subsonic region I and supersonic region II and **failed to meet even the level 2 requirement at
+subsonic region III**, which is the regime where the trailing edge has gone to zero and the leading
+edge carries the whole roll.
+
+**A DERIVATION ERROR WAS CAUGHT IN THE PROSE READ.** The stated reversal dynamic pressure dropped a
+term the article's own moment balance produces. The full expression is given, then the textbook
+reduction, with the article saying which it uses.
+
+**TWO INVENTED OR MISATTRIBUTED CLAIMS WERE CAUGHT IN THE SAME READ.** The article had said the
+instrumentation added several hundred pounds, **which no source states**, and had attributed the
+performance shortfall to weight when the report attributes it to drag. Both corrected.
+
+**A BROKEN CURATED URL WAS CAUGHT BY THE SWEEP AND COST A BUILD.** `ref_harv` pointed at a Wikipedia
+title with an agency prefix that returns 404. **The build was killed rather than allowed to finish on a
+file about to change.**
+
+**THE SWEEP STORE NEEDED NO TAG, WHICH IS THE OPPOSITE OF A349.** It removed 419 of
+6,127 records and a read of the drops found them correct. **Report primaries
+247 of 3,296 at 7.5 percent** against 2.0 percent one article
+ago, because the measure works again when the subject is an aeroplane.
+
+**THE KEYSTONE LITERATURE IS THE SMALLEST CLUSTER AT 22 RECORDS AND THAT IS THE
+FINDING.** A probe found it at 32, a second sweep in every vocabulary the field has used moved it to
+43, and it is still the smallest. **Reversal was solved in the 1940s by adding stiffness and the
+literature closed.**
 
 **A349's PUBLICATION REVIEW FOUND TWO DEFECTS BY READING THE OPENING AGAINST THE CONCLUSION, WHICH IS
 NOW FIVE CONSECUTIVE ARTICLES.** The opening said the number was refused because of how it would

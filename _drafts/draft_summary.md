@@ -17,6 +17,55 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Boeing X-53 Active Aeroelastic Wing A350 2025-11-28
+
+`x_planes_boeing_x53_active_aeroelastic_wing.markdown`, A350, editorial date 2025-11-28, series
+`x_planes` index 54 of 72.
+
+**7,223 lines, 11 display equations, 3,372 reference definitions, 41,819 words at the
+draft pass.** **Draft pass complete, the first of four.** **Not published**, and publication of the
+series has never been authorised. **Full-aircraft class**, and the first vehicle in three articles.
+
+**THE ARTICLE'S SPINE IS THAT THE AEROPLANE NEVER REACHED THE CONDITION IT WAS NAMED FOR.** Aileron
+reversal is where a trailing-edge surface twists a flexible wing hard enough to cancel its own rolling
+moment, and the X-53 was built to fly past it using leading-edge surfaces that twist the wing the other
+way. **Two of the programme's four host requirements did not survive**, the external stores provision
+deleted outright and the requirement to fly beyond reversal deleted after early flight tests showed it
+could not be met.
+
+**THE TWO TEST POINTS THE AEROPLANE COULD NOT REACH ARE THE ONLY TWO ABOVE 1,400 POUNDS PER SQUARE
+FOOT**, which is where the programme's own four-region figure draws reversal. That was computed here
+from the standard atmosphere rather than read from any source. **The report attributes the shortfall to
+drag from the research instrumentation itself**, naming the external deflection targets, the wiring,
+the pressure instrumentation and the camera pods.
+
+**THE CLEAREST SHORTFALL IS IN THE REGION THE CONCEPT IS AIMED AT.** Time-to-bank met the level 1 goal
+at the subsonic region I and supersonic region II test points and **failed to meet even the level 2
+requirement at the subsonic region III test point**, which is the regime where the trailing edge has
+gone to zero and the leading edge carries the whole roll.
+
+**AND NO REVERSAL WAS OBSERVED.** The aileron rolling moment approached zero and stayed there without
+changing sign, and the report's own hypothesis is that the surfaces were themselves flexible enough to
+relieve the hinge moment they were applying to the wing.
+
+**A DERIVATION ERROR WAS CAUGHT IN THE PROSE READ.** The stated reversal dynamic pressure dropped a
+term the article's own moment balance produces. The full expression is now given, followed by the
+textbook reduction, **with the article saying which one it uses and why**.
+
+**TWO PRIMARY SOURCES DISAGREE AND THE ARTICLE REPORTS THE DISAGREEMENT** rather than choosing
+silently, on flight counts and on instrumentation, and the report's numbers are used because it is the
+engineering account.
+
+**THE SWEEP STORE NEEDED NO TAG, WHICH IS THE OPPOSITE OF A349.** It removed 419 of
+6,127 records and reading a sample found the drops correct, because this subject is a
+wing and the store was built by articles about wings.
+
+**Report primaries 247 of 3,296 at 7.5 percent**, against 2.0
+percent one article ago, **because the measure works again when the subject is an aeroplane**.
+
+**Remaining work.** Equation-density review, primary-reference review and publication review, in that
+order.
+
 ## X-Planes X-52, the Designation Refused A349 2025-11-27
 
 `x_planes_x52_designation_refused.markdown`, A349, editorial date 2025-11-27, series `x_planes` index 53 of 72.

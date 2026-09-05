@@ -1,126 +1,151 @@
 ## Last Updated
 
 **Date**: 2026-09-04
-**Task**: **A349, X-Planes: X-52, the Designation Refused, publication review. The fourth and last of
-four.** Committed and **pushed**. **Not published**, and publication of the series still not
-authorised. **Fifty-three of seventy-two drafted.**
+**Task**: **A350, X-Planes: Boeing X-53 Active Aeroelastic Wing, draft pass. The first of four.**
+Committed, **not pushed**, since only the publication review pushes. **Not published**, and publication
+of the series still not authorised. **Fifty-four of seventy-two drafted.**
 
 ---
 
-## Reading the Opening Against the Conclusion Found Two Defects, Which Is Why It Is Done First
+## The Aeroplane Never Reached the Condition It Was Named For
 
-**The opening said the number was refused because of how it would sound.** The registry says only
-possible confusion, in one clause, and this article's own Epistemic State records that no document
-giving the reasoning has been seen. **The opening was asserting as fact the channel the body argues for
-as inference.** It now says the number was refused because it resembled a number already in use, and
-adds that the record does not say through which sense.
+**The X-53 is a production F/A-18 with its wing stiffening deliberately removed.** Boeing's Phantom
+Works built covers that returned the wing to its preproduction torsional stiffness, undoing the two
+roll modifications the contractor had added when full-scale development flight tests showed degraded
+transonic and supersonic roll performance.
 
-**The conclusion predated a subsection the previous pass had added.** The primary-reference review
-introduced the comparison with the other naming authority, which is the sharpest thing in the article,
-and the conclusion had been written before it existed and did not mention it. **A conclusion that ends
-before the argument does is the defect this read exists to find.**
+**Aileron reversal is the keystone.** A trailing-edge surface twists a flexible wing against itself,
+its rolling moment falls with dynamic pressure, and at reversal it changes sign. **The classical answer
+is torsional stiffness and torsional stiffness is weight**, and the design charts for choosing it were
+published before the war ended. **A leading-edge surface twists the wing the other way**, so the
+flexibility that destroys one amplifies the other.
 
-**That is five consecutive articles.**
+**Two of the programme's four host requirements did not survive.** The external stores provision was
+deleted outright. **The requirement to fly beyond trailing-edge control reversal was deleted after
+early flight tests showed it could not be met.**
 
----
+**No reversal was observed.** The aileron rolling moment approached zero and stayed there without
+changing sign, and the report's own hypothesis is that the surfaces were themselves flexible enough to
+relieve the hinge moment they were applying to the wing.
 
-## Seven Conclusions Probed, Three Thin, and Two Opened on Rephrasing Alone
-
-**Names are refused before use because of similarity** measured **two** records until the probe was
-allowed to say look-alike and sound-alike, whereupon it measured **203**.
-
-**Spoken confusability against written** went from **46 to 273** the same way.
-
-**A probe that names a concept in the author's words rather than in the field's measures the author.**
-This series has now paid for that four times, and the fix is always the same, which is to ask what the
-literature calls the thing.
-
----
-
-## The One That Stayed Thin Was Harvested For and Is Still Thin
-
-**That a similarity judgement needs a stated threshold, and that a threshold needs evidence behind it,
-stands at sixteen records.** 2,201 were retrieved across twelve queries aimed at
-thresholds and validation, 1,988 were not already held, and 304 passed the
-gate.
-
-**What that harvest mostly returned was not thresholds.** It returned the general method literature of
-string similarity, applied to road lines, toponyms, traffic signs, ontology alignment, co-word
-bibliometrics, protein surfaces, fuzzy sets and the confusability of quantum states. **Edit distance is
-domain-general and this subject is one application of it.**
-
-**Five further families went into the sweep store and the gate's generic similarity anchor now requires
-a naming or confusion context.** That also removed contaminants the main pool had been carrying since
-the draft pass, so the main gate fell from 2,081 to 2,026 and the fall is a correction.
-
-**The claim is left standing on a primary document and the article says so**, following A342 at eleven,
-A347 at 65 and A348 at 34. **What is forbidden is not knowing.**
+**And the two test points at the highest dynamic pressures were never flown.** Mach 1.3 at 15,000 feet
+and Mach 1.2 at 10,000 feet were outside the aeroplane's performance envelope. **Computed here from the
+standard atmosphere, those are about 1,413 and 1,467 pounds per square foot, and they are the only two
+above 1,400**, which is where the programme's own four-region figure draws reversal. **The report
+attributes the shortfall to drag from the research instrumentation itself**, naming the external
+deflection targets, the wiring, the pressure instrumentation and the camera pods.
 
 ---
 
-## The Source Base Was Reporting One Sweep Against Three
+## The Clearest Shortfall Is in the Region the Concept Is Aimed At
 
-**It said 4,993 records retrieved and 2,337 through the gate.** Both numbers were right and they could
-not both be right in one sentence, because two later sweeps had fed the pool since the first was
-written. **The retrieval figure is now 8,177 across three sweeps and it is emitted
-rather than typed.**
+**Time-to-bank met the level 1 goal at the subsonic region I and supersonic region II test points.**
+**At the subsonic region III test point it failed to meet even the level 2 requirement.**
 
-**That is a stale-number defect of exactly the class the emit-never-type discipline exists to prevent**,
-and it survived two passes because each pass added a sweep without revisiting the sentence that counted
-them.
+**Region III is where the trailing edge has gone to zero and the leading edge carries the whole roll**,
+which is precisely the regime a deliberately flexible wing exists to exploit.
+
+**The demonstration is nonetheless real.** Roll rates within 15 to 20 percent of a production F/A-18
+were obtained by active control of wing flexibility alone, **without the differential rolling
+horizontal tail the production aeroplane uses for the job at these conditions.**
 
 ---
 
-## A Build Was Killed Because the Article Changed After It Started
+## Three Defects the Prose Read Caught
 
-**The checksum caught it.** A late correction to the Out of Scope section landed while the build was
-running, so the build would have been a build of a different file. **It was killed and discarded rather
-than reported**, the prose read was finished, and the article was frozen and built once.
+**A derivation error.** The stated reversal dynamic pressure dropped a term the article's own moment
+balance produces. The full expression is now given, then the textbook reduction, **with the article
+saying which one it uses and why**.
 
-**That is A347's rule enforced rather than rediscovered**, which is the first time in this series it has
-cost nothing to obey.
+**An invented quantity.** The article had said the instrumentation added several hundred pounds. **No
+source states any such figure.** Removed, and the article now says the record does not give it.
+
+**A misattribution.** The performance shortfall had been attributed to weight, and the report
+attributes it to drag. Corrected.
+
+---
+
+## A Broken Curated URL Cost a Build
+
+**`ref_harv` pointed at a Wikipedia title carrying an agency prefix that returns 404.** The curated URL
+sweep caught it while the production build was running.
+
+**The build was killed rather than allowed to finish on a file that was about to change**, which is
+A347's rule and the second consecutive article in which it has been enforced rather than rediscovered.
+
+---
+
+## The Sweep Store Needed No Tag, Which Is the Opposite of the Previous Article
+
+**It removed 419 records of 6,127 and reading a sample found the
+drops correct.** A349 had to switch seven patterns off across three tagged families, because its
+subject was confusable names and the store is aeronautical. **This subject is a wing, and the store was
+built by articles about wings.**
+
+**Two adjacent families were checked closely.** The wind turbine blade is an aeroelastic structure and
+the family stays armed, its drops being wind speed forecasting rather than blade aeroelasticity.
+Rotorcraft aeroelasticity is not filtered at all and about 99 records carry it,
+many of them tiltrotor wing work that belongs here.
+
+---
+
+## The Keystone Literature Is the Smallest Cluster and That Is the Finding
+
+**22 records of 3,296, or 0.67 percent, are about
+control reversal itself.** A probe found it at 32, so a second sweep was run in every vocabulary the
+field has used across eighty years, 2,485 fresh records were gated to 565, and
+the probe moved to 43.
+
+**It is still the smallest cluster.** Reversal was solved in the 1940s by adding stiffness and the
+answer held, so the literature closed. **A literature closes when a problem stops being open**, and
+this article is about an attempt to reopen one that did not reach the condition.
+
+---
+
+## A Wait Loop Matched Itself and Never Terminated
+
+**`after_build.sh` waits on `pgrep -f "jekyll build"`, and a shell running that loop has the string
+`jekyll build` in its own command line.** So the loop matched itself, three of them accumulated, and
+each waited for the others for ever while the build had long since finished.
+
+**The build log said `done in 168.107 seconds` while `pgrep` still reported a match.** The audit was
+run directly instead, and the lingering shells were killed.
+
+**This is the same shape as A349's stale audit log**, where the audit raced the build and reported the
+previous run's numbers. **The wait condition in that script is not trustworthy and the build log is**,
+so read the log rather than the process table.
 
 ---
 
 ## Verification State
 
-- `python3 _verify.py` reports **0 errors, 0 warnings** across 301 posts.
+- `python3 _verify.py` reports **0 errors, 0 warnings**.
 - `python3 _lib/test_lib.py` reports **104 of 104**.
-- `tmp/a349/verify_numbers.py` reports **ALL CHECKS PASS**, with every survey statistic recomputed from
-  the reference data, every string metric recomputed inside the checker from the strings themselves,
-  claims written in words checked as words, and the cluster table matching its own citation runs.
-- Reference integrity: **2,296 defined, 2,296 used, 0 undefined, 0
+- `tmp/a350/verify_numbers.py` reports **ALL CHECKS PASS**, with the dynamic pressures recomputed inside
+  the checker from the atmosphere rather than compared against `analysis.json`.
+- Reference integrity: **3,372 defined, 3,372 used, 0 undefined, 0
   orphaned, 0 duplicate URLs**.
-- **Book links four checked, zero mismatched**, verified on title AND author.
-- **All twenty-six curated http URLs return 200**, plus the bracketed instruction PDF.
-- Prose: no contractions, no dashes, no prose colons, no prose semicolons, no inline span carrying a
+- **All 25 foundational report identifiers verified against the report server before
+  assembly**, and all six book links verified on title AND author.
+- **All seventeen curated http URLs resolve**, after the one that did not was corrected.
+- Prose: no contractions, no dashes, no prose colons outside citation labels, no inline span carrying a
   relation or a pipe.
-- **5,311 lines, 33,551 words, 34 display equations, 2,296 reference definitions.**
-- Survey **2,213 research records across 10 clusters**, report primaries 44 at
-  2.0 percent, **9 curated primary documents reported alongside
-  the fraction**.
-- **The stub-isolated production build succeeded in 39 seconds with no Liquid error**, against a
-  checksum taken before it and re-verified after. **The rendered audit reports no findings across 88
-  pages.** Zero raw dollar pairs, zero unresolved reference brackets, page 498,895 bytes.
-- **Source 34 display equations against 34 real rendered display blocks.** The page carries 37
-  backslash-brackets and the three extra were confirmed as `[4pt]` and two `[2pt]` line-spacing
-  directives rather than assumed away.
-- **Sweep store 129 patterns, 8 of them recorded by this
-  article**, and six tags, three of which this article added.
+- **7,223 lines, 41,819 words, 11 display equations, 3,372 reference definitions.**
+- Survey **3,296 research records across 12 clusters**, report primaries 247 at 7.5 percent.
+- **The stub-isolated production build succeeded in 168 seconds with no Liquid error**, against a
+  checksum taken before it and re-verified after. **The rendered audit reports no findings across 89
+  pages.** **Source 11 display equations against 11 rendered display blocks**, zero raw dollar pairs,
+  zero unresolved reference brackets, page 625,332 bytes.
 
 ---
 
 ## Next
 
-**A350, Boeing X-53 Active Aeroelastic Wing**, editorial date 2025-11-28, series index 54. **Nineteen
-articles remain.** No article is mid-rhythm.
+**A350 has three passes remaining**, the equation-density review, the primary-reference review and the
+publication review, in that order and each on its own prompt.
 
-**A349 deliberately left the aeroelastics alone.** It names the programme and stops, so the roll
-reversal problem, the four regions of roll control effectiveness against dynamic pressure, the control
-laws, the two flight phases and the fact that the aeroplane never reached the condition it was named
-for are all still available to A350.
-
-**Carry forward.** The sweep store is aeronautical and a non-aeronautical subject must measure what it
-deletes before trusting it. A probe must use the field's words. A supplementary sweep must not relax
-the gate. And the retrieval arithmetic in a Source Base has to be emitted, because a second sweep
-invalidates a sentence written for the first.
+**The equation pass has a great deal to work with.** The article displays eleven relations and the
+report supplies far more that the prose currently states in words, among them the roll-mode time
+constant against its level 1 and level 2 limits, the hinge-moment limits against the actuator
+capabilities, the four-region boundaries as dynamic pressures, and the weight-against-stiffness trade
+that is the whole motivation.
