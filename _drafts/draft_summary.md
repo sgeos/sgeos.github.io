@@ -22,9 +22,35 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_boeing_x53_active_aeroelastic_wing.markdown`, A350, editorial date 2025-11-28, series
 `x_planes` index 54 of 72.
 
-**7,299 lines, 27 display equations, 3,372 reference definitions, 42,861 words after the
-equation-density review.** **Two of four passes complete.** **Not published**, and publication of the
+**7,404 lines, 27 display equations, 3,384 reference definitions, 43,817 words after the
+primary-reference review.** **Three of four passes complete.** **Not published**, and publication of the
 series has never been authorised. **Full-aircraft class**, and the first vehicle in three articles.
+
+**PRIMARY-REFERENCE REVIEW.** Primaries 261 of 3,307, being
+7.9 percent, up from 247 of 3,296 at 7.5 percent. **The programme's own citation chain
+had been read and not cited.** The flight test report's bibliography names the papers the programme was
+built on, and the draft used the report's account of them without pointing at any of them. Fourteen
+were added and every identifier verified before assembly.
+
+**THE COUNT SPLITS INTO TWO KINDS AND THE ARTICLE NOW REPORTS BOTH.**
+254 carry a report-server or defence-registry identifier, which is what the
+corpus-wide measure can see, and **7 are journal and conference papers
+named by hand** whose aeronautical-society identifiers the measure cannot distinguish from any other.
+**Named foundational sources now stand at 39.**
+
+**THE CLASSICAL LITERATURE THE SIZING SECTION LEANS ON WAS TWO REPORTS CITED ONCE EACH.** Two more
+wartime and early postwar reports were added, and the article now says plainly that the literature
+sizing wings for rolling performance is older than the jet engine and was not superseded.
+
+**AN ANACHRONISM WAS CAUGHT IN THE PROSE READ.** The article had the Air Force Research Laboratory
+sponsoring a programme that ran from 1984, and **that laboratory was not formed until 1997**, a year
+after the flight programme began. The predecessor was the Flight Dynamics Laboratory of the Air Force
+Wright Aeronautical Laboratories, and the article now says so and says when the change happened.
+
+**A WAIT-ON-LOG MATCHED A PREVIOUS BUILD'S COMPLETION TOKEN.** The build log had not yet been truncated
+when the wait began, so the wait returned immediately against a stale `done in` line and the audit ran
+against a `_site` that had just been deleted. **A completion token is only evidence if the log is known
+to be fresh.**
 
 **EQUATION-DENSITY REVIEW, 11 TO 27.**
 

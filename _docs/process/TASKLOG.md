@@ -11,8 +11,8 @@ Current task state and verification log. This file is the shared source of truth
 
 **Status**: **A297 through A348 are drafted with all four passes complete on every one, committed and
 PUSHED. A349, X-52, the Designation Refused, has completed ALL FOUR PASSES and is committed and
-PUSHED. A350, Boeing X-53 Active Aeroelastic Wing, has completed its DRAFT and EQUATION-DENSITY
-passes, two of four, and is committed and NOT pushed. None published, and publication
+PUSHED. A350, Boeing X-53 Active Aeroelastic Wing, has completed its DRAFT, EQUATION-DENSITY and
+PRIMARY-REFERENCE passes, three of four, and is committed and NOT pushed. None published, and publication
 has never been authorised.**
 Fifty-four of seventy-two drafted. None published, and publication has never been authorised.
 The next new article is **A351**, Gulfstream X-54, editorial date 2025-11-29, series index 55.
@@ -47,6 +47,36 @@ this is not a property of the repair. Of the 22 book URLs in the five repaired d
 already approved, namely Schlichting at `OL11833044W` and Bramwell at `OL16987916W`. **No key was
 changed to chase this**, because selecting an identifier against a transient server fault is the
 error this whole task was spent avoiding.
+
+**A350's PRIMARY-REFERENCE REVIEW FOUND THE PROGRAMME'S OWN CITATION CHAIN READ AND NOT CITED.** The
+flight test report's bibliography names the papers the programme was built on, and the draft used the
+report's account of them without pointing at any of them. **Fourteen were added**, being the wind-tunnel
+programme's summaries and its flutter and simulation work, the applications to an F-16 derivative wing
+and to the Agile Falcon, the flight programme's own plan and analytical development, the strain-gauge
+load calibration, the deflection-based loads work, the high alpha research vehicle that supplied the
+wings, and the production support flight control computer that ran the research control laws. **Every
+identifier was verified before assembly.**
+
+**PRIMARIES 261 OF 3,307, BEING 7.9 PERCENT**, up from 247 of
+3,296 at 7.5. **The count splits into two kinds and the article now reports both**, since
+254 carry a report-server or defence-registry identifier that the
+corpus-wide measure can see and **7 are journal and conference papers named
+by hand** whose aeronautical-society identifiers it cannot distinguish. Named foundational sources stand
+at 39.
+
+**THE CLASSICAL LITERATURE THE SIZING SECTION LEANS ON HAD BEEN TWO REPORTS CITED ONCE EACH.** Two more
+were added and the article now states plainly that the literature sizing wings for rolling performance
+is older than the jet engine and was not superseded.
+
+**AN ANACHRONISM WAS CAUGHT IN THE PROSE READ.** The article had the Air Force Research Laboratory
+sponsoring a programme that ran from 1984, and **that laboratory was not formed until 1997**. The
+predecessor was the Flight Dynamics Laboratory of the Air Force Wright Aeronautical Laboratories, and
+the article now names it and dates the change.
+
+**A WAIT-ON-LOG MATCHED A PREVIOUS BUILD'S COMPLETION TOKEN**, because the log had not been truncated
+when the wait began, so the audit ran against a `_site` that had just been deleted. **A completion token
+is only evidence if the log is known to be fresh**, which is the same shape as A349's stale audit log
+and A350's self-matching process wait. **Three variants of one mistake in two articles.**
 
 **A350's EQUATION-DENSITY REVIEW TOOK 11 DISPLAY EQUATIONS TO 27, AND THE LARGEST FINDING CAME OUT OF
 A TABLE THE DRAFT HAD ONLY TABULATED.** The flight test report gives actuator force, horn arm and
@@ -1098,6 +1128,7 @@ and publishing any one alone fails the build.
 
 | Date | Change |
 |------|--------|
+| 2026-09-05 | **A350 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed. NOT published.** References 3,372 to 3,384, research 3,296 to 3,307, **primaries 247 to 261, being 7.5 to 7.9 percent**, lines 7,299 to 7,404, words 42,861 to 43,817, equations unchanged at 27. **THE PROGRAMME'S OWN CITATION CHAIN HAD BEEN READ AND NOT CITED**, and fourteen sources from the flight test report's own bibliography were added and verified. **The primary count now splits into 254 report-server identifiers the corpus measure can see and 7 named journal papers it cannot**, and the article reports both. Two further wartime reports were added to the classical sizing literature that had stood at two cited once each. **An anachronism was caught in the prose read**, the article having the Air Force Research Laboratory sponsor a 1984 programme when that laboratory was formed in 1997. **A wait-on-log matched a previous build's completion token** because the log had not been truncated when the wait began, which is the third variant in two articles of trusting a stale signal. |
 | 2026-09-05 | **A350 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed. NOT published.** **Display equations 11 to 27**, lines 7,223 to 7,299, words 41,819 to 42,861, references unchanged at 3,372. **THE LARGEST FINDING CAME OUT OF A TABLE THE DRAFT HAD ONLY TABULATED.** Actuator force times horn arm is a moment in the same units as the structural limit printed beside it, and **three of the four wing surfaces carry actuators strong enough to break their own limits**, the aileron by 4.8 percent, the trailing-edge flap by 4.4 and the inboard leading-edge flap by 38.7. **The structure was protected by procedure and not by the actuator.** Added the Bredt-Batho stiffness-to-mass derivation that makes reversal margin linear in structural mass; **the ratio of reversal to divergence dynamic pressure, in which the stiffness cancels**, so stiffening changes neither limit's order; the four regions as conditions on dynamic pressure; the hinge-moment relation; the roll equation with its helix angle, time constant and bank-angle integral, **showing that the time-to-bank criteria were testing roll rate and not roll damping**; the unflown test points as ratios at 17.4 and 21.9 percent of dynamic pressure; and the roll performance as a fraction of production. **The same insertion bug appeared three times and was caught three times**, an addition appended to a complete paragraph producing a full stop followed by a comma, and a regex for that signature now runs over the assembled article. **An inlined relation was caught by the article's own checker.** |
 | 2026-09-04 | **A349 PUBLICATION REVIEW, the fourth and final pass. Committed and PUSHED. NOT published.** All fifty-three X-Planes drafts remain in `_drafts/`. Final state **5,311 lines, 34 display equations, 2,296 reference definitions, 33,551 words**, research 2,213, report primaries 44 at 2.0 percent and 9 curated primary documents. **READING THE OPENING AGAINST THE CONCLUSION FOUND TWO DEFECTS, MAKING FIVE CONSECUTIVE ARTICLES.** The opening said the number was refused because of how it would SOUND, which the registry does not say and which the article's own Epistemic State contradicts, and **the conclusion predated the subsection the primary pass added**, so the sharpest comparison in the article was missing from its ending. **Seven conclusions probed, three thin, two opened on rephrasing alone**, names-refused-before-use going from two records to 203 and spoken-against-written from 46 to 273. **The one that stayed thin was harvested for and is still thin at 16**, and the harvest returned mostly domain-general string similarity, so five further families went into the store and the generic similarity anchor now needs a naming or confusion context, which also cleaned contaminants the main pool had carried since the draft pass. **The Source Base was reporting one sweep's retrieval against three sweeps' gate total** and now reports 8,177 across three. **A build was killed because the article changed after it started**, caught by checksum. Store 129 patterns, 8 from this article. Build clean in 39 seconds, 88 pages, **rendered audit reports no findings**, 34 source equations against 34 real rendered blocks, zero raw dollar pairs, zero unresolved brackets, page 498,895 bytes. |
 | 2026-09-04 | **A349 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed. NOT published.** References 2,046 to 2,057 definitions, research 1,968 to 1,974, **report primaries 36 to 42, being 1.8 to 2.1 percent**, display equations 33 to 34, lines 4,734 to 4,820, words 29,449 to 30,499. **THE ARTICLE'S CENTRAL CLAIM WAS RESTING ON ITS OWN SURVEY.** It asserted that a drug regulator makes the same judgement against published criteria and cited nothing. **The Food and Drug Administration publishes the measure, the comparison set and the thresholds**, and the December 2020 guidance was read in full: 70 percent or more highly similar, 55 to 69 moderately similar, 54 or less low similarity, **with the 55 percent screening threshold stated to rest on validation work**. A web summary had given 50 and the document gives 55, which is the read-the-document lesson met twice in one article. The article's own bigram figure of 66.7 percent and edit similarity of 75 percent fall in different bands, stated as an illustration and explicitly not as a result of that program. **The aviation side gained a primary study with a count**, the United Kingdom call sign confusion study resting on 482 pilot and controller reports, plus the European briefing note. **Neither appears anywhere in any of the three issues of the instruction, verified by search rather than asserted.** **THE REPORT REGISTRIES WERE AIMED AT DIRECTLY AND DO NOT HOLD THIS SUBJECT**: 1,196 supplementary records retrieved, 1,148 past the store, **7 past the gate**, with the defence registry supplying 1,158 and 2 survivors, gate and store unrelaxed. **9 curated sources are now counted as primary documents alongside the fraction.** Build clean in 21 seconds, 88 pages, **rendered audit reports no findings**, source 34 equations against 34 real rendered blocks with three line-spacing directives accounting for the difference. |

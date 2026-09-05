@@ -1,121 +1,115 @@
 ## Last Updated
 
 **Date**: 2026-09-05
-**Task**: **A350, X-Planes: Boeing X-53 Active Aeroelastic Wing, equation-density review. The second of
+**Task**: **A350, X-Planes: Boeing X-53 Active Aeroelastic Wing, primary-reference review. The third of
 four.** Committed, **not pushed**, since only the publication review pushes. **Not published**, and
 publication of the series still not authorised. **Fifty-four of seventy-two drafted.**
 
 ---
 
-## The Largest Finding Came Out of a Table the Draft Had Only Tabulated
+## The Programme's Own Citation Chain Had Been Read and Not Cited
 
-**The flight test report gives actuator force, horn arm and structural limit in adjacent columns.**
-Force times arm is a moment in the same units as the limit printed beside it, and the draft reproduced
-all three columns without ever multiplying the first two.
+**The flight test report's bibliography names the papers the programme was built on**, and the draft
+used the report's account of those papers without pointing at a single one of them.
 
-**Multiplying them is alarming.** The aileron actuator delivers 52,400
-inch-pounds against a structural limit of 50,000, which it exceeds by 4.8 percent.
-**The trailing-edge flap exceeds its own limit by 4.4 percent and the inboard
-leading-edge flap's rotary actuator exceeds its negative limit by 38.7 percent.**
+**Fourteen were added.** The wind-tunnel programme's summaries and its flutter suppression and model
+reduction work. The applications of the concept to an F-16 derivative wing and to the Agile Falcon,
+neither of which became the testbed. The flight programme's own plan and its technical and analytical
+development. The strain-gauge load calibration and the deflection-based loads estimation. The high
+alpha research vehicle that supplied the wings. **And the production support flight control computer**,
+which matters because the article calls the research flight control system the first of its kind on an
+F/A-18 in a safety-of-flight critical envelope, and the computer it ran on had been built for the fleet
+beforehand.
 
-**Three of the four wing surfaces carry actuators strong enough to break their own structural limits**,
-and only the outboard leading-edge flap cannot.
-
-**That explains the entire flight-test caution regime**, which the draft had reported as a list of
-procedures without a reason. The build-up through 25, 50, 75 and 100 percent lateral stick. The
-real-time envelope display. The aural disengage tone. The test conductor authorised to terminate a
-manoeuvre before the pilot reached a boundary. **The structure was protected by procedure and not by
-the actuator**, and the report's remark that the aileron hinge moment dominated the flight test stops
-being a complaint and becomes an arithmetic consequence.
+**Every identifier was verified against its repository before assembly**, which is the discipline that
+caught a fabricated identifier in A347 and another in A349.
 
 ---
 
-## The Motivation Is Now a Derivation
+## The Primary Count Splits Into Two Kinds and the Article Now Reports Both
 
-**The draft asserted that torsional stiffness is weight and left it there.** Bredt-Batho gives the
-torsional rigidity of a thin-walled box as linear in skin thickness, the skin mass per unit span is
-linear in the same thickness, so eliminating it leaves stiffness proportional to mass.
+**Primaries are 261 of 3,307, or 7.9 percent**, up from 247 of
+3,296 at 7.5.
 
-**And the reversal dynamic pressure is proportional to stiffness**, so reversal margin is bought
-linearly in structural mass, at the corner of the envelope and carried everywhere else in it. **That is
-the whole motivation for the programme in one chain.**
+**254 carry a report-server or defence-registry identifier**, which is what
+the corpus-wide measure can see.
 
----
+**7 are journal and conference papers named by hand**, and the measure
+cannot see them because an aeronautical society's identifier looks like any other digital object
+identifier. **That is the same blind spot A349 hit and reported**, in a milder form, and reporting both
+numbers costs nothing and prevents a reader inferring the wrong thing from either.
 
-## Dividing the Two Classical Limits Makes the Stiffness Cancel
-
-**The ratio of reversal to divergence dynamic pressure depends only on the flap's lift and pitching
-moment and on where the elastic axis sits.** $K_\theta$ is gone from it entirely.
-
-**So stiffening a wing moves both limits together and changes neither's order.** A designer can push
-reversal further out in absolute terms and cannot push it past divergence by that means, which is why
-reversal is the limit that gets designed against and divergence is the one that gets checked.
+**Named foundational sources stand at 39.**
 
 ---
 
-## The Time-to-Bank Criteria Were Testing Roll Rate and Not Roll Damping
+## The Classical Literature Was Carrying More Than Its Citation Count Suggested
 
-**With measured roll-mode time constants of order a tenth of a second and criteria written at 50, 90
-and 180 degrees of bank, the exponential term in the first-order bank response is negligible** and time
-to bank is very nearly angle over rate.
+**The sizing section rests on the wartime and early postwar work that settled reversal by adding
+stiffness, and that work stood at two reports cited once each.** Two more were added, and the article
+now says plainly that this literature is older than the jet engine and was not superseded.
 
-**The slowest measured constant beat its level 1 goal by two thirds again**, and **two of the three fell
-below the fast guideline the programme wrote for itself** out of concern about roll-ratchet
-pilot-induced oscillation. **A criterion written to catch an aeroplane that rolls too slowly had to be
-given a second end**, because this one rolled too readily.
+**That matters because it is the article's argument.** The X-53 exists to reopen a question the
+classical answer closed, and an article which asserts that while citing the classical answer twice is
+asserting rather than showing.
 
 ---
 
-## Three Insertion Bugs, All the Same Shape, All Caught
+## An Anachronism the Prose Read Caught
 
-**Each was an addition appended to a line that was already a complete paragraph.** The result was a
-full stop followed by a comma, and twice an equation placed before the sentence it depends on.
+**The article had the Air Force Research Laboratory sponsoring a programme that ran from 1984.** That
+laboratory was formed in 1997, a year after the flight programme began.
 
-**A regex for that signature now runs over the assembled article** and reports zero, alongside a check
-for lowercase words following a full stop in author prose.
+**The predecessor is named in the flight test report's own first reference**, being the Flight Dynamics
+Laboratory of the Air Force Wright Aeronautical Laboratories. The article now names it and dates the
+change, and the correction improves the story rather than merely fixing it, because the sponsor
+changing identity between the tunnel programme and the flight programme is part of how long this took.
 
-**An inlined relation was also caught, and by the article's own checker rather than by reading.** The
-skin mass per unit span had been written inline while the rigidity beside it was displayed, and the
-inline-math check that A349 built flagged it.
+---
+
+## A Wait-on-Log Matched a Previous Build's Completion Token
+
+**The equation pass replaced `pgrep` with a wait on the build log for `done in`, because the process
+wait had matched itself.** This pass found the replacement's own failure mode.
+
+**The wait began before the log was truncated**, matched the previous build's completion line, returned
+immediately, and the audit then ran against a `_site` that `make_stub.sh` had just deleted. The audit
+reported the directory missing, which is the loud failure and the lucky one.
+
+**A completion token is only evidence if the log is known to be fresh.** That is the third variant in
+two articles of the same mistake, after A349's stale audit log and this article's self-matching process
+wait. **Truncate or timestamp the log first, then wait on it.**
 
 ---
 
 ## Verification State
 
-- `python3 _verify.py` reports **0 errors, 0 warnings** across 301 posts.
+- `python3 _verify.py` reports **0 errors, 0 warnings**.
 - `python3 _lib/test_lib.py` reports **104 of 104**.
-- `tmp/a350/verify_numbers.py` reports **ALL CHECKS PASS**. **Every actuator figure is recomputed inside
-  the checker from the force and the arm** rather than compared against `eqns.json`, so a wrong value in
-  the generator cannot validate itself, and the dynamic pressures are recomputed from the atmosphere the
-  same way.
-- Reference integrity: **3,372 defined, 3,372 used, 0 undefined, 0
+- `tmp/a350/verify_numbers.py` reports **ALL CHECKS PASS**, with the actuator moments and the dynamic
+  pressures recomputed inside the checker rather than compared against the generator.
+- Reference integrity: **3,384 defined, 3,384 used, 0 undefined, 0
   orphaned, 0 duplicate URLs**.
-- Prose: no contractions, no dashes, no prose colons outside citation labels, **no inline span carrying
-  a relation or a pipe**.
-- **7,299 lines, 42,861 words, 27 display equations, 3,372 reference definitions.**
-- **The build succeeded in 65 seconds with no Liquid error**, against a checksum taken before it and
-  re-verified after. **The rendered audit reports no findings across 89 pages.** **Source 27 display
-  equations against 27 real rendered display blocks**, three line-spacing directives accounting for the
-  difference in the raw count, zero raw dollar pairs, zero unresolved reference brackets, page 633,451
-  bytes.
-
----
-
-## One Process Note Carried Forward
-
-**Do not wait on `pgrep -f "jekyll build"`.** A shell running that loop has the string in its own
-command line, so the loop matches itself and never terminates. Three of them accumulated during the
-draft pass while the build had long since finished. **Wait on the build log for `done in` instead**,
-which is what this pass did and which worked.
+- **All seven book links verified on title AND author.** **All seventeen curated http URLs resolve.**
+- Prose: no contractions, no dashes, no prose colons outside citation labels, no inline relation, and
+  **zero instances of the insertion signature the equation pass added a check for**.
+- **7,404 lines, 43,817 words, 27 display equations, 3,384 reference definitions.**
+- Survey **3,307 research records across 12 clusters**.
+- **The stub-isolated production build succeeded in 837 seconds with no Liquid error**, against a
+  checksum taken before it and re-verified after. **The rendered audit reports no findings across 89
+  pages.** **Source 27 display equations against 27 real rendered display blocks**, three line-spacing
+  directives accounting for the raw count, zero raw dollar pairs, zero unresolved reference brackets,
+  page 641,950 bytes. **This build took thirteen times longer than the equation pass's**, on a
+  reference block twelve records larger, so build time is not linear in the corpus and a wait must be
+  open-ended.
 
 ---
 
 ## Next
 
-**A350 has two passes remaining**, the primary-reference review and the publication review.
+**A350 has one pass remaining, the publication review.**
 
-**Report primaries stand at 247 of 3,296, or 7.5 percent**, which
-is healthy for this series and needs no rescuing. **The primary pass should look instead at whether the
-argument leans anywhere on the survey rather than on a document**, and at the classical literature,
-since the reversal charts and the flexible-wing lateral control methods are cited once each and carry
-more of the sizing section than that suggests.
+**Expect it to read the opening against the conclusion first**, which has found a defect in five
+consecutive articles. **The specific risk here is that the article has gained three sections since the
+conclusion was written**, on the actuator overload arithmetic, on the primary split, and on the
+classical literature, and the conclusion mentions none of them.
