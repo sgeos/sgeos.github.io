@@ -10,9 +10,10 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A348 are drafted with all four passes complete on every one, committed and
-PUSHED. A349, X-52, the Designation Refused, has completed its DRAFT, EQUATION-DENSITY and
-PRIMARY-REFERENCE passes, three of four, and is committed and NOT pushed. Fifty-three of seventy-two drafted. None published, and publication
+PUSHED. A349, X-52, the Designation Refused, has completed ALL FOUR PASSES and is committed and
+PUSHED. Fifty-three of seventy-two drafted. None published, and publication
 has never been authorised.**
+Fifty-three of seventy-two drafted. None published, and publication has never been authorised.
 The next new article is **A350**, Boeing X-53 Active Aeroelastic Wing, editorial date 2025-11-28,
 series index 54.
 Report primaries finished at **1,301 of 5,976, being 21.8 percent**, up from 14.2 at the draft pass.
@@ -46,6 +47,39 @@ this is not a property of the repair. Of the 22 book URLs in the five repaired d
 already approved, namely Schlichting at `OL11833044W` and Bramwell at `OL16987916W`. **No key was
 changed to chase this**, because selecting an identifier against a transient server fault is the
 error this whole task was spent avoiding.
+
+**A349's PUBLICATION REVIEW FOUND TWO DEFECTS BY READING THE OPENING AGAINST THE CONCLUSION, WHICH IS
+NOW FIVE CONSECUTIVE ARTICLES.** The opening said the number was refused because of how it would
+**sound**. The registry says only possible confusion, and this article's own Epistemic State records
+that no document giving the reasoning has been seen. **The opening asserted as fact the channel the
+body argues for as inference.** Separately, **the conclusion predated the subsection the primary pass
+added**, so the article's sharpest comparison, that another naming authority publishes the measure, the
+comparison set and the thresholds, was missing from its own ending. Both repaired.
+
+**SEVEN CONCLUSIONS WERE PROBED AND THREE CAME BACK THIN, AND TWO OPENED ON REPHRASING ALONE.** Names
+refused before use stood at two records until the probe was allowed to say look-alike and sound-alike,
+then 203. Spoken against written confusability went 46 to 273. **A probe that names a concept in the
+author's words rather than the field's measures the author**, which this series has now paid for four
+times.
+
+**THE ONE THAT STAYED THIN WAS HARVESTED FOR AND IS STILL THIN.** The claim that a similarity judgement
+needs a stated threshold stands at 16 records. 2,201 were retrieved and
+304 passed the gate, **and what came back was mostly the general method literature of
+string similarity applied to road lines, toponyms, traffic signs, ontology alignment, protein surfaces,
+fuzzy sets and the confusability of quantum states.** Five further families went into the sweep store
+and the gate's generic similarity anchor now requires a naming or confusion context, **which also
+removed contaminants the main pool had carried since the draft pass**. The claim rests on a primary
+document and the article says so, following A342 at eleven, A347 at 65 and A348 at 34.
+
+**THE SOURCE BASE WAS REPORTING ONE SWEEP'S RETRIEVAL AGAINST THREE SWEEPS' GATE TOTAL.** It said 4,993
+retrieved and 2,337 gated, which cannot both be true once two later sweeps have fed the pool. **Now
+8,177 across three sweeps**, emitted rather than typed.
+
+**A BUILD WAS KILLED BECAUSE THE ARTICLE CHANGED AFTER IT STARTED.** The checksum caught it and the
+build was discarded rather than reported, which is A347's rule enforced instead of rediscovered.
+
+**THE SWEEP STORE STANDS AT 129 PATTERNS, 8 OF THEM RECORDED BY
+THIS ARTICLE.**
 
 **A349's PRIMARY-REFERENCE REVIEW FOUND THE ARTICLE'S CENTRAL CLAIM RESTING ON ITS OWN SURVEY.** The
 article said a drug regulator makes the same judgement the Air Force made, against published criteria,
@@ -989,6 +1023,7 @@ and publishing any one alone fails the build.
 
 | Date | Change |
 |------|--------|
+| 2026-09-04 | **A349 PUBLICATION REVIEW, the fourth and final pass. Committed and PUSHED. NOT published.** All fifty-three X-Planes drafts remain in `_drafts/`. Final state **5,311 lines, 34 display equations, 2,296 reference definitions, 33,551 words**, research 2,213, report primaries 44 at 2.0 percent and 9 curated primary documents. **READING THE OPENING AGAINST THE CONCLUSION FOUND TWO DEFECTS, MAKING FIVE CONSECUTIVE ARTICLES.** The opening said the number was refused because of how it would SOUND, which the registry does not say and which the article's own Epistemic State contradicts, and **the conclusion predated the subsection the primary pass added**, so the sharpest comparison in the article was missing from its ending. **Seven conclusions probed, three thin, two opened on rephrasing alone**, names-refused-before-use going from two records to 203 and spoken-against-written from 46 to 273. **The one that stayed thin was harvested for and is still thin at 16**, and the harvest returned mostly domain-general string similarity, so five further families went into the store and the generic similarity anchor now needs a naming or confusion context, which also cleaned contaminants the main pool had carried since the draft pass. **The Source Base was reporting one sweep's retrieval against three sweeps' gate total** and now reports 8,177 across three. **A build was killed because the article changed after it started**, caught by checksum. Store 129 patterns, 8 from this article. Build clean in 39 seconds, 88 pages, **rendered audit reports no findings**, 34 source equations against 34 real rendered blocks, zero raw dollar pairs, zero unresolved brackets, page 498,895 bytes. |
 | 2026-09-04 | **A349 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed. NOT published.** References 2,046 to 2,057 definitions, research 1,968 to 1,974, **report primaries 36 to 42, being 1.8 to 2.1 percent**, display equations 33 to 34, lines 4,734 to 4,820, words 29,449 to 30,499. **THE ARTICLE'S CENTRAL CLAIM WAS RESTING ON ITS OWN SURVEY.** It asserted that a drug regulator makes the same judgement against published criteria and cited nothing. **The Food and Drug Administration publishes the measure, the comparison set and the thresholds**, and the December 2020 guidance was read in full: 70 percent or more highly similar, 55 to 69 moderately similar, 54 or less low similarity, **with the 55 percent screening threshold stated to rest on validation work**. A web summary had given 50 and the document gives 55, which is the read-the-document lesson met twice in one article. The article's own bigram figure of 66.7 percent and edit similarity of 75 percent fall in different bands, stated as an illustration and explicitly not as a result of that program. **The aviation side gained a primary study with a count**, the United Kingdom call sign confusion study resting on 482 pilot and controller reports, plus the European briefing note. **Neither appears anywhere in any of the three issues of the instruction, verified by search rather than asserted.** **THE REPORT REGISTRIES WERE AIMED AT DIRECTLY AND DO NOT HOLD THIS SUBJECT**: 1,196 supplementary records retrieved, 1,148 past the store, **7 past the gate**, with the defence registry supplying 1,158 and 2 survivors, gate and store unrelaxed. **9 curated sources are now counted as primary documents alongside the fraction.** Build clean in 21 seconds, 88 pages, **rendered audit reports no findings**, source 34 equations against 34 real rendered blocks with three line-spacing directives accounting for the difference. |
 | 2026-09-04 | **A349 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed. NOT published.** **Display equations 13 to 33**, lines 4,560 to 4,734, words 28,087 to 29,449, references unchanged at 2,046. **The subject is administrative, so the relations are set-theoretic, information-theoretic and metric rather than physical.** Added the shrinking availability set and its monotonicity, **an honest three-state partition of the design-number space** into allocated, marked not used, and available, since the instruction defines only two and the master list records the third; the mission designation space capacity of 999 times 24; the fibre of the projection that drops the mission letter; the mean multiplicity, stated symbolically and explicitly NOT computed because no complete allocated set is published; the residual uncertainty in bits; **the two decisions expressed in that unit, the F-35 approval adding one bit at 35 and the X-52A refusal withholding one at 52**; the occupancy split at the year of the decision; the aggregate cost of the unwritten thirteen rule at six numbers; the timeline intervals of 14 and 26 years; and **three similarity measures plus the decision rule the 2006 record does not contain**. **MEASURING THE SPOKEN FORMS OVERTURNED A PROSE CLAIM.** The draft said saying the designation aloud separates the two names and it does the opposite, 0.75 written against about 0.846 spoken, because the shared numeral expands into two long words while the distinguishing letter stays one syllable. **Two defects introduced by the pass were caught by it**, a symbol collision on `m` and `n` and an unsupported consumption rate. Build clean in 21 seconds, 88 pages, **rendered audit reports no findings**, source 33 equations against 33 real rendered display blocks with the thirty-fourth backslash-bracket confirmed as a `[4pt]` line-spacing directive inside a cases environment. |
 | 2026-09-04 | **A349 DRAFT PASS, the first of four. Committed, NOT pushed. NOT published.** X-Planes: X-52, the Designation Refused, editorial date 2025-11-27, series index 53. **4,560 lines, 13 display equations, 2,046 reference definitions, 28,087 words**, of which about 7,000 are author prose. **Designation-anomaly class in the reduced order**, the second after A336, and **the subject is a refusal rather than a gap**. X-52A requested 2006, disapproved for possible confusion with the B-52, X-53A allocated instead. **The finding came from reading the governing instruction in full.** The 2005 issue in force requires the next available consecutive design number, contains no authority to skip one, does not contain the word skip, and aims its entire confusability apparatus at the POPULAR NAME rather than the designation. Its only written anti-confusion rule for a designator prohibits the series letters I and O for resembling digits. The 1994 issue says the same and the 2020 issue adds bare discretion to skip with no criterion, so **the authority was absent for at least twenty-six years while the practice ran**. **The same office approved F-35 in 2002 against its own nomenclature office**, taking X-35's number across a series boundary on purpose. **Q-7 and Q-8 were refused in 1954 although confusion was actually occurring**, so the system acted on possibility and not on evidence. **The sweep store is aeronautical and this subject is not**: untagged it removed 310 records of which 188 were on subject, and 3 tags covering 7 patterns are switched off. **A pattern written to remove naming-that-is-not-this-naming removed this-naming** through `generic name`. A fabricated NTRS identifier and a false superlative were both caught before the build. Store 121 to 124 patterns, tests 102 to 104. Build clean in 22 seconds, 88 pages, **rendered audit reports no findings**, zero raw dollar pairs, zero unresolved brackets. |

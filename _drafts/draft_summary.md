@@ -21,7 +21,36 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_x52_designation_refused.markdown`, A349, editorial date 2025-11-27, series `x_planes` index 53 of 72.
 
-**4,820 lines, 34 display equations, 2,057 reference definitions, 30,499 words after the primary-reference review**, of which about 8,200 are author prose. **Three of four passes complete.** **Not published**, and publication of the series has never been authorised. **Designation-anomaly class, written in the reduced order**, which is the second time the series has used it after A336.
+**5,311 lines, 34 display equations, 2,296 reference definitions, 33,551 words after the publication review**, of which about 9,000 are author prose. **ALL FOUR PASSES COMPLETE.** Committed and **PUSHED**. **Not published**, and publication of the series has never been authorised. **Designation-anomaly class, written in the reduced order**, which is the second time the series has used it after A336.
+
+**PUBLICATION REVIEW, AND READING THE OPENING AGAINST THE CONCLUSION FOUND TWO DEFECTS.** The opening
+said the number was refused because of how it would **sound**, and the registry says only possible
+confusion while this article's own Epistemic State records that no document giving the reasoning has
+been seen. **The opening was asserting a channel as fact that the body argues for as inference.** And
+the conclusion predated the subsection the primary pass had added, so **the article's sharpest
+comparison was absent from its own ending**. Both repaired. That read has now found a defect in five
+consecutive articles.
+
+**SEVEN CONCLUSIONS WERE PROBED AND THREE CAME BACK THIN. TWO OPENED ON REPHRASING ALONE.** The claim
+that names are refused before use stood at two records until the probe was allowed to say look-alike
+and sound-alike, whereupon it stood at 203. Spoken against written confusability went from 46 to 273.
+**A probe that names a concept in the author's words rather than the field's measures the author.**
+
+**THE ONE THAT STAYED THIN WAS HARVESTED AND IS STILL THIN.** That a similarity judgement needs a
+stated threshold stands at 16 records. 2,201 were retrieved, 304 passed the
+gate, **and what the harvest mostly returned was the general method literature of string similarity
+applied to road lines, traffic signs, ontology alignment, protein surfaces, fuzzy sets and quantum
+states.** Five further families went into the sweep store and the gate's generic similarity anchor now
+needs a naming or confusion context, **which also removed contaminants the main pool had carried since
+the draft pass**. The claim is left standing on a primary document and the article says so.
+
+**THE SOURCE BASE WAS REPORTING ONE SWEEP'S RETRIEVAL AGAINST THREE SWEEPS' GATE TOTAL.** It said 4,993
+records retrieved and 2,337 through the gate, which does not add up once two later sweeps have fed the
+pool. **Now 8,177 across three sweeps**, and the arithmetic is emitted rather than
+typed.
+
+**A BUILD WAS KILLED BECAUSE THE ARTICLE CHANGED AFTER IT STARTED**, which is A347's rule enforced
+rather than rediscovered. The checksum caught it.
 
 **PRIMARY-REFERENCE REVIEW.** Report primaries 42 of 1,974, being
 2.1 percent, up from 36 of 1,968 at 1.8 percent, and **still the second-lowest in the
@@ -74,7 +103,7 @@ the first sweep had correctly refused.
 
 **A FABRICATED REPORT IDENTIFIER WAS CAUGHT BEFORE ASSEMBLY**, written from a plausible title rather than looked up, which is the A347 defect exactly. **A SUPERLATIVE WAS CAUGHT IN THE DRAFT READ**, the article having claimed the lowest report-primary fraction in the series when A336 is lower at zero. Report primaries stand at 36 of 1,968, being 1.8 percent, which is the second-lowest of 53 and is a fact about the subject rather than about the harvest.
 
-**Remaining work.** Equation-density review, primary-reference review and publication review, in that order.
+**No remaining work.** All four passes complete. **Not published**, and publication of the series has never been authorised.
 ## X-Planes Boeing X-51 Waverider A348 2025-11-26
 
 `x_planes_boeing_x51.markdown`, A348, editorial date 2025-11-26, series `x_planes` index

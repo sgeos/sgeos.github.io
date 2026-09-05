@@ -316,6 +316,45 @@ NOISE_PATTERNS = [
      "identifiers through the bare phrase `brand name`. The confusion literature and "
      "the preference literature share their vocabulary and share nothing else"),
 
+    (r"molecular similarit|chemical similarit|\bfingerprint\w*\b.{0,25}(?:molecul|chemic|"
+     r"compound|ligand)|(?:molecul|chemic|compound|ligand).{0,25}\bfingerprint|"
+     r"\bTanimoto\b|structure[- ]activity|electronic structure|\bcheminformatic|"
+     r"protein (?:similarit|structure|surface)|sequence alignment|\bligand\b",
+     "A349: MOLECULAR AND CHEMICAL SIMILARITY. A survey about whether two NAMES are too "
+     "alike admitted 'Evaluating molecular similarity measures: Do similarity measures "
+     "reflect electronic structure properties' and a protein surface similarity screen, "
+     "because `similarity measure` is the same phrase in both fields and nothing else "
+     "about them is the same"),
+    (r"intuitionistic fuzzy|fuzzy (?:rough|soft) set|hesitant fuzzy|"
+     r"neutrosophic|picture fuzzy|\bq-rung\b|interval[- ]valued fuzzy",
+     "A349: FUZZY SET SIMILARITY MATHEMATICS. 'Improved measure of similarity between "
+     "intuitionistic fuzzy rough sets' and 'A distance measure, similarity measure and "
+     "possibility degree for hesitant interval-valued fuzzy sets' reached the kept set of "
+     "a survey about confusable names. The literature of similarity AS MATHEMATICS is "
+     "vast and is not the literature of similarity AS A NAMING HAZARD"),
+    (r"drug[- ]drug (?:similarit|interaction)|therapeutic substitution|"
+     r"drug repositioning|drug repurposing|drug[- ]target|pharmacokinetic",
+     "A349: DRUG-DRUG SIMILARITY, WHICH IS NOT DRUG-NAME SIMILARITY. 'KGDDS: A System "
+     "for Drug-Drug Similarity Measure in Therapeutic Substitution' and 'Measure clinical "
+     "drug-drug similarity using Electronic Medical Records' compare the MOLECULES. This "
+     "article's subject compares the LABELS, and the two share every word"),
+    (r"material\s+medica|pharmacognos|herbal medicin|\bTCM\b|medicinal plant|"
+     r"\badulterant\b|botanical authentication",
+     "A349: HERBAL AUTHENTICATION. 'Authentication and differentiation of two easily "
+     "confusable Chinese material medica' is about telling two PLANTS apart and reached a "
+     "survey about telling two NAMES apart through the word confusable"),
+
+    (r"\btoponym|road (?:line|network|sign)|traffic sign|\bgeospatial|\bcartograph|"
+     r"\bontology alignment\b|\bschema matching\b|co-?word analysis|\bbibliometric|"
+     r"quantum state|\bSDN\b|intrusion detection|duplicate detection|entailment|"
+     r"\bkeystroke\b|\bphase retrieval\b",
+     "A349: STRING SIMILARITY AS A GENERAL METHOD, APPLIED SOMEWHERE ELSE. A harvest aimed "
+     "at similarity THRESHOLDS returned road-line matching, toponym matching, traffic sign "
+     "recognition, ontology alignment, co-word bibliometrics, confusability graphs for "
+     "quantum states and a software-defined-network attack detector. **Edit distance is a "
+     "general method and this article's subject is one application of it**, so the method "
+     "literature is admitted only where it touches names, identifiers or confusion"),
+
     # ---- general field bleed, seen across several sweeps
     (r"\bpatient\b|\bclinic", "medical bleed, seen in most sweeps", "medicine"),
     (r"\bvaccin|\bepidemi|\bmortality\b", "public-health bleed", "medicine"),
