@@ -1,151 +1,121 @@
 ## Last Updated
 
-**Date**: 2026-09-04
-**Task**: **A350, X-Planes: Boeing X-53 Active Aeroelastic Wing, draft pass. The first of four.**
-Committed, **not pushed**, since only the publication review pushes. **Not published**, and publication
-of the series still not authorised. **Fifty-four of seventy-two drafted.**
+**Date**: 2026-09-05
+**Task**: **A350, X-Planes: Boeing X-53 Active Aeroelastic Wing, equation-density review. The second of
+four.** Committed, **not pushed**, since only the publication review pushes. **Not published**, and
+publication of the series still not authorised. **Fifty-four of seventy-two drafted.**
 
 ---
 
-## The Aeroplane Never Reached the Condition It Was Named For
+## The Largest Finding Came Out of a Table the Draft Had Only Tabulated
 
-**The X-53 is a production F/A-18 with its wing stiffening deliberately removed.** Boeing's Phantom
-Works built covers that returned the wing to its preproduction torsional stiffness, undoing the two
-roll modifications the contractor had added when full-scale development flight tests showed degraded
-transonic and supersonic roll performance.
+**The flight test report gives actuator force, horn arm and structural limit in adjacent columns.**
+Force times arm is a moment in the same units as the limit printed beside it, and the draft reproduced
+all three columns without ever multiplying the first two.
 
-**Aileron reversal is the keystone.** A trailing-edge surface twists a flexible wing against itself,
-its rolling moment falls with dynamic pressure, and at reversal it changes sign. **The classical answer
-is torsional stiffness and torsional stiffness is weight**, and the design charts for choosing it were
-published before the war ended. **A leading-edge surface twists the wing the other way**, so the
-flexibility that destroys one amplifies the other.
+**Multiplying them is alarming.** The aileron actuator delivers 52,400
+inch-pounds against a structural limit of 50,000, which it exceeds by 4.8 percent.
+**The trailing-edge flap exceeds its own limit by 4.4 percent and the inboard
+leading-edge flap's rotary actuator exceeds its negative limit by 38.7 percent.**
 
-**Two of the programme's four host requirements did not survive.** The external stores provision was
-deleted outright. **The requirement to fly beyond trailing-edge control reversal was deleted after
-early flight tests showed it could not be met.**
+**Three of the four wing surfaces carry actuators strong enough to break their own structural limits**,
+and only the outboard leading-edge flap cannot.
 
-**No reversal was observed.** The aileron rolling moment approached zero and stayed there without
-changing sign, and the report's own hypothesis is that the surfaces were themselves flexible enough to
-relieve the hinge moment they were applying to the wing.
-
-**And the two test points at the highest dynamic pressures were never flown.** Mach 1.3 at 15,000 feet
-and Mach 1.2 at 10,000 feet were outside the aeroplane's performance envelope. **Computed here from the
-standard atmosphere, those are about 1,413 and 1,467 pounds per square foot, and they are the only two
-above 1,400**, which is where the programme's own four-region figure draws reversal. **The report
-attributes the shortfall to drag from the research instrumentation itself**, naming the external
-deflection targets, the wiring, the pressure instrumentation and the camera pods.
+**That explains the entire flight-test caution regime**, which the draft had reported as a list of
+procedures without a reason. The build-up through 25, 50, 75 and 100 percent lateral stick. The
+real-time envelope display. The aural disengage tone. The test conductor authorised to terminate a
+manoeuvre before the pilot reached a boundary. **The structure was protected by procedure and not by
+the actuator**, and the report's remark that the aileron hinge moment dominated the flight test stops
+being a complaint and becomes an arithmetic consequence.
 
 ---
 
-## The Clearest Shortfall Is in the Region the Concept Is Aimed At
+## The Motivation Is Now a Derivation
 
-**Time-to-bank met the level 1 goal at the subsonic region I and supersonic region II test points.**
-**At the subsonic region III test point it failed to meet even the level 2 requirement.**
+**The draft asserted that torsional stiffness is weight and left it there.** Bredt-Batho gives the
+torsional rigidity of a thin-walled box as linear in skin thickness, the skin mass per unit span is
+linear in the same thickness, so eliminating it leaves stiffness proportional to mass.
 
-**Region III is where the trailing edge has gone to zero and the leading edge carries the whole roll**,
-which is precisely the regime a deliberately flexible wing exists to exploit.
-
-**The demonstration is nonetheless real.** Roll rates within 15 to 20 percent of a production F/A-18
-were obtained by active control of wing flexibility alone, **without the differential rolling
-horizontal tail the production aeroplane uses for the job at these conditions.**
+**And the reversal dynamic pressure is proportional to stiffness**, so reversal margin is bought
+linearly in structural mass, at the corner of the envelope and carried everywhere else in it. **That is
+the whole motivation for the programme in one chain.**
 
 ---
 
-## Three Defects the Prose Read Caught
+## Dividing the Two Classical Limits Makes the Stiffness Cancel
 
-**A derivation error.** The stated reversal dynamic pressure dropped a term the article's own moment
-balance produces. The full expression is now given, then the textbook reduction, **with the article
-saying which one it uses and why**.
+**The ratio of reversal to divergence dynamic pressure depends only on the flap's lift and pitching
+moment and on where the elastic axis sits.** $K_\theta$ is gone from it entirely.
 
-**An invented quantity.** The article had said the instrumentation added several hundred pounds. **No
-source states any such figure.** Removed, and the article now says the record does not give it.
-
-**A misattribution.** The performance shortfall had been attributed to weight, and the report
-attributes it to drag. Corrected.
+**So stiffening a wing moves both limits together and changes neither's order.** A designer can push
+reversal further out in absolute terms and cannot push it past divergence by that means, which is why
+reversal is the limit that gets designed against and divergence is the one that gets checked.
 
 ---
 
-## A Broken Curated URL Cost a Build
+## The Time-to-Bank Criteria Were Testing Roll Rate and Not Roll Damping
 
-**`ref_harv` pointed at a Wikipedia title carrying an agency prefix that returns 404.** The curated URL
-sweep caught it while the production build was running.
+**With measured roll-mode time constants of order a tenth of a second and criteria written at 50, 90
+and 180 degrees of bank, the exponential term in the first-order bank response is negligible** and time
+to bank is very nearly angle over rate.
 
-**The build was killed rather than allowed to finish on a file that was about to change**, which is
-A347's rule and the second consecutive article in which it has been enforced rather than rediscovered.
-
----
-
-## The Sweep Store Needed No Tag, Which Is the Opposite of the Previous Article
-
-**It removed 419 records of 6,127 and reading a sample found the
-drops correct.** A349 had to switch seven patterns off across three tagged families, because its
-subject was confusable names and the store is aeronautical. **This subject is a wing, and the store was
-built by articles about wings.**
-
-**Two adjacent families were checked closely.** The wind turbine blade is an aeroelastic structure and
-the family stays armed, its drops being wind speed forecasting rather than blade aeroelasticity.
-Rotorcraft aeroelasticity is not filtered at all and about 99 records carry it,
-many of them tiltrotor wing work that belongs here.
+**The slowest measured constant beat its level 1 goal by two thirds again**, and **two of the three fell
+below the fast guideline the programme wrote for itself** out of concern about roll-ratchet
+pilot-induced oscillation. **A criterion written to catch an aeroplane that rolls too slowly had to be
+given a second end**, because this one rolled too readily.
 
 ---
 
-## The Keystone Literature Is the Smallest Cluster and That Is the Finding
+## Three Insertion Bugs, All the Same Shape, All Caught
 
-**22 records of 3,296, or 0.67 percent, are about
-control reversal itself.** A probe found it at 32, so a second sweep was run in every vocabulary the
-field has used across eighty years, 2,485 fresh records were gated to 565, and
-the probe moved to 43.
+**Each was an addition appended to a line that was already a complete paragraph.** The result was a
+full stop followed by a comma, and twice an equation placed before the sentence it depends on.
 
-**It is still the smallest cluster.** Reversal was solved in the 1940s by adding stiffness and the
-answer held, so the literature closed. **A literature closes when a problem stops being open**, and
-this article is about an attempt to reopen one that did not reach the condition.
+**A regex for that signature now runs over the assembled article** and reports zero, alongside a check
+for lowercase words following a full stop in author prose.
 
----
-
-## A Wait Loop Matched Itself and Never Terminated
-
-**`after_build.sh` waits on `pgrep -f "jekyll build"`, and a shell running that loop has the string
-`jekyll build` in its own command line.** So the loop matched itself, three of them accumulated, and
-each waited for the others for ever while the build had long since finished.
-
-**The build log said `done in 168.107 seconds` while `pgrep` still reported a match.** The audit was
-run directly instead, and the lingering shells were killed.
-
-**This is the same shape as A349's stale audit log**, where the audit raced the build and reported the
-previous run's numbers. **The wait condition in that script is not trustworthy and the build log is**,
-so read the log rather than the process table.
+**An inlined relation was also caught, and by the article's own checker rather than by reading.** The
+skin mass per unit span had been written inline while the rigidity beside it was displayed, and the
+inline-math check that A349 built flagged it.
 
 ---
 
 ## Verification State
 
-- `python3 _verify.py` reports **0 errors, 0 warnings**.
+- `python3 _verify.py` reports **0 errors, 0 warnings** across 301 posts.
 - `python3 _lib/test_lib.py` reports **104 of 104**.
-- `tmp/a350/verify_numbers.py` reports **ALL CHECKS PASS**, with the dynamic pressures recomputed inside
-  the checker from the atmosphere rather than compared against `analysis.json`.
+- `tmp/a350/verify_numbers.py` reports **ALL CHECKS PASS**. **Every actuator figure is recomputed inside
+  the checker from the force and the arm** rather than compared against `eqns.json`, so a wrong value in
+  the generator cannot validate itself, and the dynamic pressures are recomputed from the atmosphere the
+  same way.
 - Reference integrity: **3,372 defined, 3,372 used, 0 undefined, 0
   orphaned, 0 duplicate URLs**.
-- **All 25 foundational report identifiers verified against the report server before
-  assembly**, and all six book links verified on title AND author.
-- **All seventeen curated http URLs resolve**, after the one that did not was corrected.
-- Prose: no contractions, no dashes, no prose colons outside citation labels, no inline span carrying a
-  relation or a pipe.
-- **7,223 lines, 41,819 words, 11 display equations, 3,372 reference definitions.**
-- Survey **3,296 research records across 12 clusters**, report primaries 247 at 7.5 percent.
-- **The stub-isolated production build succeeded in 168 seconds with no Liquid error**, against a
-  checksum taken before it and re-verified after. **The rendered audit reports no findings across 89
-  pages.** **Source 11 display equations against 11 rendered display blocks**, zero raw dollar pairs,
-  zero unresolved reference brackets, page 625,332 bytes.
+- Prose: no contractions, no dashes, no prose colons outside citation labels, **no inline span carrying
+  a relation or a pipe**.
+- **7,299 lines, 42,861 words, 27 display equations, 3,372 reference definitions.**
+- **The build succeeded in 65 seconds with no Liquid error**, against a checksum taken before it and
+  re-verified after. **The rendered audit reports no findings across 89 pages.** **Source 27 display
+  equations against 27 real rendered display blocks**, three line-spacing directives accounting for the
+  difference in the raw count, zero raw dollar pairs, zero unresolved reference brackets, page 633,451
+  bytes.
+
+---
+
+## One Process Note Carried Forward
+
+**Do not wait on `pgrep -f "jekyll build"`.** A shell running that loop has the string in its own
+command line, so the loop matches itself and never terminates. Three of them accumulated during the
+draft pass while the build had long since finished. **Wait on the build log for `done in` instead**,
+which is what this pass did and which worked.
 
 ---
 
 ## Next
 
-**A350 has three passes remaining**, the equation-density review, the primary-reference review and the
-publication review, in that order and each on its own prompt.
+**A350 has two passes remaining**, the primary-reference review and the publication review.
 
-**The equation pass has a great deal to work with.** The article displays eleven relations and the
-report supplies far more that the prose currently states in words, among them the roll-mode time
-constant against its level 1 and level 2 limits, the hinge-moment limits against the actuator
-capabilities, the four-region boundaries as dynamic pressures, and the weight-against-stiffness trade
-that is the whole motivation.
+**Report primaries stand at 247 of 3,296, or 7.5 percent**, which
+is healthy for this series and needs no rescuing. **The primary pass should look instead at whether the
+argument leans anywhere on the survey rather than on a document**, and at the classical literature,
+since the reversal charts and the flexible-wing lateral control methods are cited once each and carry
+more of the sizing section than that suggests.

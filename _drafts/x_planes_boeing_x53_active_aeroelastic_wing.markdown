@@ -32,6 +32,28 @@ Deflect an aileron down and it does two things. It increases the camber of the s
 
 **Torsional stiffness is weight.** That is the whole of the problem. A wing stiff enough to keep its ailerons working at the corner of the envelope is heavier than the aerodynamics require everywhere else in it.
 
+**That sentence is a relation and it is worth writing down.** For a thin-walled torsion box of enclosed
+area $A$, skin thickness $t$ and perimeter $\oint \mathrm{d}s$, the Bredt-Batho result gives a torsional
+rigidity
+
+$$GJ \;=\; \frac{4 A^{2} G\, t}{\oint \mathrm{d}s},$$
+
+while the mass of that skin per unit span is
+
+$$m' \;=\; \rho_{s}\, t \oint \mathrm{d}s .$$
+
+**Both are linear in the same thickness**, so eliminating it,
+
+$$GJ \;=\; \frac{4 A^{2} G}{\bigl( \oint \mathrm{d}s \bigr)^{2}} \cdot \frac{m'}{\rho_{s}}
+\qquad\Longrightarrow\qquad GJ \;\propto\; m' .$$
+
+**And the reversal dynamic pressure is proportional to torsional stiffness.** So to first order
+
+$$q_{R} \;\propto\; K_\theta \;\propto\; GJ \;\propto\; m',$$
+
+which is the whole problem in one line. **Reversal margin is bought linearly in structural mass**, and
+it is bought at the corner of the envelope and carried everywhere else in it.
+
 **The X-53 asks a question about the sign of the twist rather than its magnitude.** A leading-edge flap deflected down also twists the wing, and it twists it the other way, because its hinge is ahead of the elastic axis rather than behind it. **A leading-edge surface twists the wing into the airflow instead of out of it.** So the same flexibility that destroys a trailing-edge surface's authority amplifies a leading-edge surface's.
 
 **The keystone is therefore this.** Can a flight control system be given a deliberately flexible wing and a set of leading- and trailing-edge surfaces, and told to produce roll by choosing how to twist the wing, rather than by fighting the twist?
@@ -121,6 +143,25 @@ reaching zero at $q_R$ and going negative above it [[Bisplinghoff, Aeroelasticit
 
 **Two things in that expression are worth reading carefully.** $q_R$ is proportional to $K_\theta$, so buying reversal margin means buying stiffness. And $q_R$ does not depend on the surface's own lift effectiveness alone but on the ratio of its lift to its pitching moment, **so a surface that produces its lift with less pitching moment reverses later**.
 
+**A third is worth more than either, and it appears only when the two limits are divided.** Taking the
+reduced reversal expression against the divergence expression, the stiffness cancels,
+
+$$\frac{q_{R}}{q_{D}} \;=\;
+\frac{-\,C_{L,\delta}\, K_\theta}{S c \, C_{L,\alpha} C_{m,\delta}}
+\cdot \frac{S e \, C_{L,\alpha}}{K_\theta}
+\;=\; \frac{-\,C_{L,\delta}\, e}{c \, C_{m,\delta}} .$$
+
+**$K_\theta$ is gone.** Whether a wing reverses before it diverges is fixed by its aerodynamics and by
+where its elastic axis sits, and **stiffening the wing moves both limits together and changes neither's
+order**. A designer can push reversal further out in absolute terms and cannot push it past divergence
+by that means.
+
+**For a conventional wing that ratio comes out below one**, with a flap lift slope of order two to
+three per radian, a flap pitching moment of order half that, and an elastic axis a tenth of a chord or
+so behind the aerodynamic centre. **That is why reversal is the limit that gets designed against and
+divergence is the one that gets checked**, and it is why this article is about the first and mentions
+the second once. The programme stayed clear of both.
+
 ### The Leading-Edge Surface Has the Opposite Sign
 
 **A leading-edge flap deflected down hinges ahead of the elastic axis**, so its pitching-moment derivative about that axis takes the opposite sign. The camber contribution is small and the twist contribution dominates, and the twist is now nose-up rather than nose-down.
@@ -148,6 +189,21 @@ with the trailing-edge surface recovering its authority as the wing is stiffened
 
 **Region IV is the condition the aeroplane is named for.** It is where a flexible wing stops being a liability and becomes an advantage, because the trailing-edge surface can be used backwards while the leading-edge surface does the work.
 
+**The boundaries are conditions on dynamic pressure and can be written as such.** Writing
+$\eta_{\mathrm{TE}}(q)$ and $\eta_{\mathrm{LE}}(q)$ for the two rolling effectivenesses,
+
+$$\text{region} \;=\;
+\begin{cases}
+\mathrm{I}, & \eta_{\mathrm{LE}} \approx 0, \\[2pt]
+\mathrm{II}, & \eta_{\mathrm{LE}} \approx \eta_{\mathrm{TE}} > 0, \\[2pt]
+\mathrm{III}, & \eta_{\mathrm{TE}} = 0 \ \text{ and } \ \eta_{\mathrm{LE}} > 0, \\[2pt]
+\mathrm{IV}, & \eta_{\mathrm{TE}} < 0 ,
+\end{cases}$$
+
+so that the boundary between III and IV is $q = q_{R}$ exactly. **Region III is a point in the simple
+model and a band in a real wing**, because a wing has a spanwise distribution of stiffness and its
+sections do not all reverse at once.
+
 ## Dependent Systems
 
 ### The Leading-Edge Flap Had to Be Cut in Half
@@ -170,6 +226,37 @@ with the trailing-edge surface recovering its authority as the wing is stiffened
 **Its structural limit is about 50,000 inch-pounds of hinge moment in one direction and 52,000 in the other**, and the flight test report records that **the aileron hinge moment was a design driver for the flight control system** and that it dominated concerns throughout the second phase of flight test, even after everything the design effort had given it.
 
 **That is worth pausing on.** The aeroplane exists to demonstrate that the trailing edge need not carry the roll, and the trailing edge's hinge moment is nonetheless what constrained the whole test programme.
+
+**A hinge moment is a dynamic pressure times a geometry times a coefficient,**
+
+$$H \;=\; q\, S_{f}\, \bar{c}_{f} \bigl( C_{h,\alpha}\, \alpha \;+\; C_{h,\delta}\, \delta \bigr),$$
+
+for a surface of area $S_{f}$ and mean chord $\bar{c}_{f}$ aft of its hinge. **It grows with dynamic
+pressure exactly as the twist that drives reversal does**, so the corner of the envelope where the
+technology becomes interesting is the same corner where the surface becomes hardest to hold.
+
+**The actuator's side of that contest is a force on a lever,**
+
+$$M_{\mathrm{act}} \;=\; F \, r ,$$
+
+and the report's own table gives the force, the arm and the structural limit in adjacent columns,
+without ever multiplying the first two together.
+
+**Multiplying them is alarming.** The aileron actuator delivers
+
+$$M_{\mathrm{act}} \;=\; 13{,}100\ \text{lb} \times 4.0\ \text{in}
+\;=\; 52{,}400\ \text{in-lb}
+\qquad\text{against a structural limit of}\qquad 50{,}000\ \text{in-lb},$$
+
+which exceeds it by 4.8 percent. **The trailing-edge flap exceeds its own limit by
+4.4 percent on the same arithmetic, and the inboard leading-edge flap's rotary actuator
+exceeds its negative limit by 38.7 percent.**
+
+**Three of the four wing surfaces carry actuators strong enough to break their own structural limits**,
+and only the outboard leading-edge flap cannot. **That is why the flight test was run the way it was**,
+with a build-up in lateral stick through 25, 50, 75 and 100 percent, a real-time envelope display, an
+aural disengage tone and a test conductor authorised to call a manoeuvre off before the pilot reached a
+boundary. **The structure was not protected by the actuator. It was protected by procedure.**
 
 ### Two Design Teams Solved Two Different Optimisation Problems
 
@@ -211,6 +298,17 @@ $$q(1.2,\ 10{,}000\ \text{ft}) \;\approx\; 1{,}467\ \text{psf}.$$
 
 **What it does fix is the scale of the thing**, and on that scale the two test points the aeroplane could not reach are the only two that lie beyond the axis entirely. **The aeroplane could not get to the corner of the envelope where the phenomenon it is named for is drawn**, and the instrumentation that made it a research aeroplane is part of why.
 
+**The shortfall is better stated as a ratio than as a gap.** Against the highest point actually flown,
+
+$$\frac{q(1.3,\ 15{,}000)}{q(1.2,\ 15{,}000)} \;\approx\; 1.174
+\qquad\text{and}\qquad
+\frac{q(1.2,\ 10{,}000)}{q(1.2,\ 15{,}000)} \;\approx\; 1.219,$$
+
+so the aeroplane was short of its two unflown conditions by 17.4 and
+21.9 percent of dynamic pressure. **That is not a near miss and it is not a wide
+one**, and on a body whose drag rises steeply through this part of the envelope it is the difference
+between a level-flight test point and a shallow dive that was never cleared.
+
 ### The Aileron Never Reversed
 
 **Phase I showed no tendency for the aileron to fully reverse.** The report states that the aileron roll control moments approached zero and stayed there, without changing sign.
@@ -221,17 +319,64 @@ $$q(1.2,\ 10{,}000\ \text{ft}) \;\approx\; 1{,}467\ \text{psf}.$$
 
 ### Roll Performance Met Its Goal Twice and Missed Its Requirement Once
 
+**Roll rate and roll-mode time constant are the two numbers the criteria are written on, and both come
+from one equation.** For roll inertia $I_{x}$, span $b$, control derivative $C_{l,\delta}$ and damping
+derivative $C_{l,p}$, which is negative,
+
+$$I_{x}\, \dot{p} \;=\; q S b \left( C_{l,\delta}\, \delta \;+\; C_{l,p}\, \frac{p b}{2V} \right).$$
+
+**Steady state gives the helix angle**, which is the classical measure of rolling power and which is
+independent of dynamic pressure for a rigid wing,
+
+$$\frac{p_{\mathrm{ss}} b}{2V} \;=\; -\,\frac{C_{l,\delta}}{C_{l,p}}\, \delta .$$
+
+**On a flexible wing $C_{l,\delta}$ is the quantity that decays toward reversal**, so the helix angle
+decays with it, which is the same statement as the effectiveness ratio above wearing different clothes.
+
+**The transient gives the time constant,**
+
+$$\tau_{R} \;=\; -\,\frac{2 I_{x} V}{q S b^{2} C_{l,p}}
+\;=\; -\,\frac{4 I_{x}}{\rho V S b^{2} C_{l,p}} ,$$
+
+**so the roll mode gets faster as speed rises**, falling like $1/V$ at fixed density. That is why the
+measured constants are short and why a fast roll mode was a concern rather than a prize.
+
+**Bank angle follows from integrating the first-order response,**
+
+$$\phi(t) \;=\; p_{\mathrm{ss}} \Bigl[\, t \;-\; \tau_{R} \bigl( 1 - e^{-t/\tau_{R}} \bigr) \Bigr],$$
+
+and a time-to-bank criterion is that expression inverted at a stated angle. **With time constants of
+order a tenth of a second and criteria written at 50, 90 and 180 degrees, the exponential term is
+negligible and time to bank is very nearly $\phi / p_{\mathrm{ss}}$**, which means the criteria were
+testing roll rate and not roll damping.
+
 **Time-to-bank criteria were drawn from the military handbook on flying qualities, with level 1 goals and level 2 requirements at bank angles of 50, 90 and 180 degrees.**
 
 **At the subsonic region I test point and the supersonic region II test point, the control designs met the level 1 goal.** **At the subsonic region III test point, roll performance was inadequate to meet the level 2 requirement.**
 
 **Region III is the region the whole programme was built for.** It is where the trailing edge has gone to zero and the leading edge is generating all of the rolling moment, which is precisely the regime in which a deliberately flexible wing is supposed to pay for itself. **It is also the one region where the aeroplane failed to meet even the lower of its two standards.**
 
-**Roll-mode time constants were short everywhere**, at 0.18 seconds subsonic region I, 0.10 seconds subsonic region III and 0.60 seconds supersonic region II, against a level 1 limit of 1.0 seconds and a level 2 limit of 1.4. A separate guideline discouraged constants quicker than 0.3 seconds because of roll-ratchet concerns, and the programme's own requirements document allowed quicker ones provided they were no worse than the production control laws, which these were not.
+**Roll-mode time constants were short everywhere**, at 0.18 seconds subsonic region I, 0.10 seconds subsonic region III and 0.60 seconds supersonic region II, against a level 1 limit of 1.0 seconds and a level 2 limit of 1.4.
+
+**None of the three was near its upper limit.** The slowest, supersonic at 0.60 seconds, sits at
+
+$$\frac{\tau_{\mathrm{level\,1}}}{\tau_{R}}
+\;=\; \frac{1.0}{0.60} \;\approx\; 1.67,$$
+
+**so even the slowest measured roll mode beat its level 1 goal by two thirds again.**
+
+**The concern ran the other way.** Two of the three fell below the 0.3 second guideline that the programme wrote for itself out of concern about roll-ratchet pilot-induced oscillation, and its own requirements document allowed constants that quick provided they were no worse than the production control laws, which these were not. **A criterion written to catch an aeroplane that rolls too slowly had to be given a second end**, because this one rolled too readily.
 
 ### Overall Roll Rates Came Within Fifteen to Twenty Percent, Without the Tail
 
 **Across the second phase, roll rates adequate for lateral control were obtained by active control of wing flexibility alone**, within 15 to 20 percent of a production F/A-18, **and without the differential rolling horizontal tail that a standard F/A-18 relies on at these conditions** [[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]].
+
+**Stated as a ratio,**
+
+$$\frac{p_{\mathrm{AAW}}}{p_{\mathrm{prod}}}
+\;\in\; \bigl[\, 0.80,\ 0.85 \,\bigr],$$
+
+**and the aeroplane in the denominator is using a control effector the one in the numerator was not.**
 
 **Roll rates at 15,000 feet were highest at Mach 0.85 and Mach 1.2 and lowest at Mach 0.95**, which is the same transonic dip a conventional F/A-18 shows, and which belongs to the shock rather than to the structure [[Shock location dominated transonic flight loads on the active aeroelastic wing][research_aaw_shock_loads]].
 

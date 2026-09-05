@@ -11,8 +11,8 @@ Current task state and verification log. This file is the shared source of truth
 
 **Status**: **A297 through A348 are drafted with all four passes complete on every one, committed and
 PUSHED. A349, X-52, the Designation Refused, has completed ALL FOUR PASSES and is committed and
-PUSHED. A350, Boeing X-53 Active Aeroelastic Wing, has completed its DRAFT PASS ONLY, the first of
-four, and is committed and NOT pushed. None published, and publication
+PUSHED. A350, Boeing X-53 Active Aeroelastic Wing, has completed its DRAFT and EQUATION-DENSITY
+passes, two of four, and is committed and NOT pushed. None published, and publication
 has never been authorised.**
 Fifty-four of seventy-two drafted. None published, and publication has never been authorised.
 The next new article is **A351**, Gulfstream X-54, editorial date 2025-11-29, series index 55.
@@ -47,6 +47,40 @@ this is not a property of the repair. Of the 22 book URLs in the five repaired d
 already approved, namely Schlichting at `OL11833044W` and Bramwell at `OL16987916W`. **No key was
 changed to chase this**, because selecting an identifier against a transient server fault is the
 error this whole task was spent avoiding.
+
+**A350's EQUATION-DENSITY REVIEW TOOK 11 DISPLAY EQUATIONS TO 27, AND THE LARGEST FINDING CAME OUT OF
+A TABLE THE DRAFT HAD ONLY TABULATED.** The flight test report gives actuator force, horn arm and
+structural limit in adjacent columns, and force times arm is a moment in the same units as the limit.
+**The aileron actuator delivers 52,400 inch-pounds against a structural limit
+of 50,000**, which it exceeds by 4.8 percent. The trailing-edge flap exceeds its
+own by 4.4 percent and the inboard leading-edge flap's rotary actuator exceeds its
+negative limit by 38.7 percent. **Three of the four wing surfaces carry actuators
+strong enough to break their own structural limits**, and only the outboard leading-edge flap cannot.
+**That explains the whole flight-test caution regime**, the build-up in lateral stick, the real-time
+envelope display, the aural disengage tone and the test conductor's authority to terminate a manoeuvre.
+**The structure was protected by procedure and not by the actuator.**
+
+**THE MOTIVATION IS NOW A DERIVATION RATHER THAN A SENTENCE.** Bredt-Batho gives torsional rigidity
+linear in skin thickness and the skin mass is linear in the same thickness, so stiffness is
+proportional to mass and the reversal dynamic pressure with it. **Reversal margin is bought linearly in
+structural mass.**
+
+**AND DIVIDING THE TWO CLASSICAL LIMITS MAKES THE STIFFNESS CANCEL.** The ratio of reversal to
+divergence dynamic pressure depends only on the flap's lift and pitching moment and on where the
+elastic axis sits, so **stiffening a wing moves both limits together and changes neither's order**.
+
+**THE ROLL CRITERIA WERE TESTING ROLL RATE AND NOT ROLL DAMPING**, since with time constants of order
+a tenth of a second the exponential term in the bank response is negligible and time to bank is nearly
+angle over rate. The slowest measured constant beat its level 1 goal by two thirds again, and two of
+three fell below the fast guideline the programme wrote for itself.
+
+**THE SAME INSERTION BUG APPEARED THREE TIMES IN THIS PASS AND WAS CAUGHT THREE TIMES.** Each was an
+addition appended to a line that was already a complete paragraph, producing a full stop followed by a
+comma and, twice, an equation placed before the sentence it depends on. **A regex for that signature
+now runs over the assembled article.**
+
+**AN INLINED RELATION WAS CAUGHT BY THE ARTICLE'S OWN CHECKER**, the skin mass per unit span having
+been written inline while the rigidity beside it was displayed.
 
 **A350 IS A FULL-AIRCRAFT ARTICLE AND THE FIRST VEHICLE IN THREE.** The X-53 removed a fighter's wing
 stiffening on purpose and rolled the aeroplane by twisting the wing with its leading-edge flaps.
@@ -1064,6 +1098,7 @@ and publishing any one alone fails the build.
 
 | Date | Change |
 |------|--------|
+| 2026-09-05 | **A350 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed. NOT published.** **Display equations 11 to 27**, lines 7,223 to 7,299, words 41,819 to 42,861, references unchanged at 3,372. **THE LARGEST FINDING CAME OUT OF A TABLE THE DRAFT HAD ONLY TABULATED.** Actuator force times horn arm is a moment in the same units as the structural limit printed beside it, and **three of the four wing surfaces carry actuators strong enough to break their own limits**, the aileron by 4.8 percent, the trailing-edge flap by 4.4 and the inboard leading-edge flap by 38.7. **The structure was protected by procedure and not by the actuator.** Added the Bredt-Batho stiffness-to-mass derivation that makes reversal margin linear in structural mass; **the ratio of reversal to divergence dynamic pressure, in which the stiffness cancels**, so stiffening changes neither limit's order; the four regions as conditions on dynamic pressure; the hinge-moment relation; the roll equation with its helix angle, time constant and bank-angle integral, **showing that the time-to-bank criteria were testing roll rate and not roll damping**; the unflown test points as ratios at 17.4 and 21.9 percent of dynamic pressure; and the roll performance as a fraction of production. **The same insertion bug appeared three times and was caught three times**, an addition appended to a complete paragraph producing a full stop followed by a comma, and a regex for that signature now runs over the assembled article. **An inlined relation was caught by the article's own checker.** |
 | 2026-09-04 | **A349 PUBLICATION REVIEW, the fourth and final pass. Committed and PUSHED. NOT published.** All fifty-three X-Planes drafts remain in `_drafts/`. Final state **5,311 lines, 34 display equations, 2,296 reference definitions, 33,551 words**, research 2,213, report primaries 44 at 2.0 percent and 9 curated primary documents. **READING THE OPENING AGAINST THE CONCLUSION FOUND TWO DEFECTS, MAKING FIVE CONSECUTIVE ARTICLES.** The opening said the number was refused because of how it would SOUND, which the registry does not say and which the article's own Epistemic State contradicts, and **the conclusion predated the subsection the primary pass added**, so the sharpest comparison in the article was missing from its ending. **Seven conclusions probed, three thin, two opened on rephrasing alone**, names-refused-before-use going from two records to 203 and spoken-against-written from 46 to 273. **The one that stayed thin was harvested for and is still thin at 16**, and the harvest returned mostly domain-general string similarity, so five further families went into the store and the generic similarity anchor now needs a naming or confusion context, which also cleaned contaminants the main pool had carried since the draft pass. **The Source Base was reporting one sweep's retrieval against three sweeps' gate total** and now reports 8,177 across three. **A build was killed because the article changed after it started**, caught by checksum. Store 129 patterns, 8 from this article. Build clean in 39 seconds, 88 pages, **rendered audit reports no findings**, 34 source equations against 34 real rendered blocks, zero raw dollar pairs, zero unresolved brackets, page 498,895 bytes. |
 | 2026-09-04 | **A349 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed. NOT published.** References 2,046 to 2,057 definitions, research 1,968 to 1,974, **report primaries 36 to 42, being 1.8 to 2.1 percent**, display equations 33 to 34, lines 4,734 to 4,820, words 29,449 to 30,499. **THE ARTICLE'S CENTRAL CLAIM WAS RESTING ON ITS OWN SURVEY.** It asserted that a drug regulator makes the same judgement against published criteria and cited nothing. **The Food and Drug Administration publishes the measure, the comparison set and the thresholds**, and the December 2020 guidance was read in full: 70 percent or more highly similar, 55 to 69 moderately similar, 54 or less low similarity, **with the 55 percent screening threshold stated to rest on validation work**. A web summary had given 50 and the document gives 55, which is the read-the-document lesson met twice in one article. The article's own bigram figure of 66.7 percent and edit similarity of 75 percent fall in different bands, stated as an illustration and explicitly not as a result of that program. **The aviation side gained a primary study with a count**, the United Kingdom call sign confusion study resting on 482 pilot and controller reports, plus the European briefing note. **Neither appears anywhere in any of the three issues of the instruction, verified by search rather than asserted.** **THE REPORT REGISTRIES WERE AIMED AT DIRECTLY AND DO NOT HOLD THIS SUBJECT**: 1,196 supplementary records retrieved, 1,148 past the store, **7 past the gate**, with the defence registry supplying 1,158 and 2 survivors, gate and store unrelaxed. **9 curated sources are now counted as primary documents alongside the fraction.** Build clean in 21 seconds, 88 pages, **rendered audit reports no findings**, source 34 equations against 34 real rendered blocks with three line-spacing directives accounting for the difference. |
 | 2026-09-04 | **A349 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed. NOT published.** **Display equations 13 to 33**, lines 4,560 to 4,734, words 28,087 to 29,449, references unchanged at 2,046. **The subject is administrative, so the relations are set-theoretic, information-theoretic and metric rather than physical.** Added the shrinking availability set and its monotonicity, **an honest three-state partition of the design-number space** into allocated, marked not used, and available, since the instruction defines only two and the master list records the third; the mission designation space capacity of 999 times 24; the fibre of the projection that drops the mission letter; the mean multiplicity, stated symbolically and explicitly NOT computed because no complete allocated set is published; the residual uncertainty in bits; **the two decisions expressed in that unit, the F-35 approval adding one bit at 35 and the X-52A refusal withholding one at 52**; the occupancy split at the year of the decision; the aggregate cost of the unwritten thirteen rule at six numbers; the timeline intervals of 14 and 26 years; and **three similarity measures plus the decision rule the 2006 record does not contain**. **MEASURING THE SPOKEN FORMS OVERTURNED A PROSE CLAIM.** The draft said saying the designation aloud separates the two names and it does the opposite, 0.75 written against about 0.846 spoken, because the shared numeral expands into two long words while the distinguishing letter stays one syllable. **Two defects introduced by the pass were caught by it**, a symbol collision on `m` and `n` and an unsupported consumption rate. Build clean in 21 seconds, 88 pages, **rendered audit reports no findings**, source 33 equations against 33 real rendered display blocks with the thirty-fourth backslash-bracket confirmed as a `[4pt]` line-spacing directive inside a cases environment. |

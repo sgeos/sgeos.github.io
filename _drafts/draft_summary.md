@@ -22,9 +22,46 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_boeing_x53_active_aeroelastic_wing.markdown`, A350, editorial date 2025-11-28, series
 `x_planes` index 54 of 72.
 
-**7,223 lines, 11 display equations, 3,372 reference definitions, 41,819 words at the
-draft pass.** **Draft pass complete, the first of four.** **Not published**, and publication of the
+**7,299 lines, 27 display equations, 3,372 reference definitions, 42,861 words after the
+equation-density review.** **Two of four passes complete.** **Not published**, and publication of the
 series has never been authorised. **Full-aircraft class**, and the first vehicle in three articles.
+
+**EQUATION-DENSITY REVIEW, 11 TO 27.**
+
+**THE ACTUATOR TABLE WAS TABULATED AND NEVER MULTIPLIED.** The report gives actuator force, horn arm
+and structural limit in adjacent columns, and the product of the first two is a moment in the same
+units as the third. **The aileron actuator delivers 52,400 inch-pounds against
+a structural limit of 50,000**, exceeding it by 4.8 percent. The trailing-edge flap
+exceeds its own by 4.4 percent and the inboard leading-edge flap's rotary actuator
+exceeds its negative limit by 38.7 percent. **Three of the four wing surfaces carry
+actuators strong enough to break their own structural limits**, which is why the flight test ran on
+build-up, a real-time envelope display, an aural disengage tone and a test conductor authorised to call
+a manoeuvre off. **The structure was protected by procedure and not by the actuator.**
+
+**THE MOTIVATION IS NOW A DERIVATION.** Bredt-Batho gives torsional rigidity linear in skin thickness
+and the skin mass is linear in the same thickness, so $GJ \propto m'$ and therefore
+$q_R \propto m'$. **Reversal margin is bought linearly in structural mass**, at the corner of the
+envelope and carried everywhere else in it.
+
+**AND DIVIDING THE TWO CLASSICAL LIMITS MAKES THE STIFFNESS CANCEL.** The ratio $q_R/q_D$ depends only
+on the flap's lift and pitching moment and on where the elastic axis sits. **Stiffening a wing moves
+both limits together and changes neither's order**, so a designer cannot buy reversal margin relative
+to divergence by adding stiffness.
+
+**THE ROLL CRITERIA WERE TESTING ROLL RATE AND NOT ROLL DAMPING.** With measured time constants of
+order a tenth of a second against criteria written at 50, 90 and 180 degrees of bank, the exponential
+term in the first-order bank response is negligible and time to bank is very nearly angle over rate.
+**The slowest measured constant beat its level 1 goal by two thirds again**, and two of the three fell
+below the fast guideline the programme wrote for itself out of roll-ratchet concern. **A criterion
+written to catch an aeroplane that rolls too slowly had to be given a second end.**
+
+**THE UNFLOWN TEST POINTS ARE NOW A RATIO.** The aeroplane was short of them by
+17.4 and 21.9 percent of dynamic pressure against the highest
+point it did fly.
+
+**THE SAME INSERTION BUG APPEARED THREE TIMES AND WAS CAUGHT THREE TIMES**, each an addition appended
+to a line that was already a complete paragraph, producing a full stop followed by a comma. **A regex
+for that signature now runs over the assembled article** and reports zero.
 
 **THE ARTICLE'S SPINE IS THAT THE AEROPLANE NEVER REACHED THE CONDITION IT WAS NAMED FOR.** Aileron
 reversal is where a trailing-edge surface twists a flexible wing hard enough to cancel its own rolling
