@@ -16,7 +16,12 @@ series_index: 54
 
 This is the fifty-fourth article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], the [X-46][related_post_a343_boeing_x46], the [X-47][related_post_a344_northrop_grumman_x47], the [X-48][related_post_a345_boeing_x48], the [X-49][related_post_a346_piasecki_x49], the [X-50][related_post_a347_boeing_x50], the [X-51][related_post_a348_boeing_x51], and the [X-52][related_post_a349_x52_designation_refused].
 
-**It worked, and it did not reach the condition it was named for.**
+**It rolled, and it never reached the condition it was named for.**
+
+**Both halves of that sentence are load-bearing.** The aeroplane rolled acceptably on wing surfaces
+alone, without the tail a production F/A-18 uses for the job at these speeds. It also missed the lower
+of its two roll requirements in exactly the regime the concept exists to exploit, and it could not
+reach the dynamic pressures at which the phenomenon it is named for occurs.
 
 **The aeroplane got its designation on 16 August 2006, more than a year after it had stopped flying**, and it got the number 53 because the number 52 had been refused a few months earlier by the office that allocates them [[Boeing X-53 Active Aeroelastic Wing][ref_x53_wikipedia]] [[Missing USAF and DOD Aircraft Designations][ref_missing_mds]] [[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]]. **The previous article in this series is about that refusal** [[X-Planes: X-52, the Designation Refused][related_post_a349_x52_designation_refused]]. This one is about the aeroplane that took the number, and it is the first vehicle in three articles.
 
@@ -410,130 +415,142 @@ $$\frac{p_{\mathrm{AAW}}}{p_{\mathrm{prod}}}
 
 | Cluster | Records |
 |---|---|
-| Other aeronautical and structural literature | 526 |
-| Flutter, and the instability this programme chose not to fly | 432 |
-| Measuring a wing in the air | 400 |
-| Shaping a wing so that it bends usefully | 383 |
-| The flow over the wing at these speeds | 358 |
-| Control laws for an aircraft that will not hold its shape | 354 |
-| Static aeroelasticity, twist and divergence | 257 |
-| Roll performance and how an aeroplane is judged to have enough | 220 |
-| Load alleviation, which is the other thing a flexible wing can be asked to do | 198 |
-| Wind tunnels, and the models that stood in for the aeroplane | 110 |
-| The atmosphere and the flight condition | 47 |
-| Control reversal, and the dynamic pressure at which a surface stops working | 22 |
-| **Total** | **3,307** |
+| Other aeronautical and structural literature | 560 |
+| The flow over the wing at these speeds | 477 |
+| Flutter, and the instability this programme chose not to fly | 454 |
+| Shaping a wing so that it bends usefully | 408 |
+| Measuring a wing in the air | 403 |
+| Control laws for an aircraft that will not hold its shape | 371 |
+| Roll performance and how an aeroplane is judged to have enough | 287 |
+| Static aeroelasticity, twist and divergence | 260 |
+| Load alleviation, which is the other thing a flexible wing can be asked to do | 200 |
+| Wind tunnels, and the models that stood in for the aeroplane | 118 |
+| The atmosphere and the flight condition | 44 |
+| Control reversal, and the dynamic pressure at which a surface stops working | 23 |
+| **Total** | **3,605** |
 
 ### Other aeronautical and structural literature
 
 **The residual, reported and not hidden.** On-subject work belonging to no cluster above.
 
-**526 records.** [[2-D Prototypical Aeroelastic Wing 2013][research_2_d_prototypical_2013]] [[2-D Prototypical Aeroelastic Wing 2018][research_2_d_prototypical_2018]] [[3-D Prototypical Aeroelastic Wing 2013][research_3_d_prototypical_2013]] [[3-D Prototypical Aeroelastic Wing 2018][research_3_d_prototypical_2018]] [[A summary of the active flexible wing program][research_afw_summary]] [[Abdallah 2018][research_abdallah_2018]] [[Abdallah et al 2013][research_abdallah_newman_2013]] [[Abdallah et al 2014][research_abdallah_newman_2014]] [[Achache and Whalley 1996][research_achache_whalley_1996]] [[Active aeroelastic wing aerodynamic model development and validation for a modified F/A-18A][research_aaw_aero_model]] [[Aeroelastic Control 2005][research_aeroelastic_control_2005]] [[Ahmad et al 2018][research_ahmad_baig_2018]] [[Akmese et al 2009][research_akmese_comert_2009]] [[Al-Shehabi and Newman 2000][research_alshehabi_newman_2000]] [[Al-Shehabi and Newman 2000][research_alshehabi_newman_2000_b]] [[Alighanbari and Lee 2003][research_alighanbari_lee_2003]] [[Allaire et al 2014][research_allaire_lecerf_2014]] [[Allen et al 2005][research_allen_lizotte_2005]] [[Alstrom et al 2010][research_alstrom_marzocca_2010]] [[An application of the active flexible wing concept to an F-16 derivative wing][research_afw_f16_derivative]] [[An et al 2023][research_an_zhu_2023]] [[An overview of the active flexible wing program][research_afw_overview]] [[Andersen et al 1996][research_andersen_forster_1996]] [[Anderson et al 2005][research_anderson_white_2005]] [[Application of active flexible wing technology to the Agile Falcon][research_agile_falcon]] [[Aravinth et al 2018][research_aravinth_shinde_2018]] [[Armanious and Lind 2018][research_armanious_lind_2018]] [[Babcock and Lind 2012][research_babcock_lind_2012]] [[Babcock and Lind 2012][research_babcock_lind_2012_b]] [[Badcock et al 2003][research_badcock_rampurawala_2003]] [[Bae and Lee 2002][research_bae_lee_2002]] [[Bae et al 2002][research_bae_yang_2002]] [[Bai et al 2022][research_bai_cao_2022]] [[Bajaj 2019][research_bajaj_2019]] [[Balakrishnan 2012][research_balakrishnan_2012]] [[Balas et al 2011][research_balas_seiler_2011]] [[Baranyi 2006][research_baranyi_2006]] [[Baranyi 2006][research_baranyi_2006_b]] [[Baranyi and Patton 2003][research_baranyi_patton_2003]] [[Baz et al 1987][research_baz_iman_1987]] [[Behal et al 2004][research_behal_marzocca_2004]] [[Behal et al 2006][research_behal_marzocca_2006]] [[Bhat 2018][research_bhat_2018_c]] [[Bhat 2018][research_bhat_2018_d]] [[Bichiou et al 2016][research_bichiou_hajj_2016]] [[Bielawa 2006][research_bielawa_2006]] [[Blair 1994][research_blair_1994]] [[Block and Strganac 1998][research_block_strganac_1998]] [[Block et al 1997][research_block_gilliatt_1997]] [[Bontoft et al 2026][research_bontoft_bhuwal_2026]] [[Bontoft et al 2026][research_bontoft_bhuwal_2026_b]] [[Bottasso and Montinari 2013][research_bottasso_montinari_2013]] [[Bove 2026][research_bove_2026]] [[Bramsiepe et al 2020][research_bramsiepe_voss_2020]] [[Bras et al 2022][research_bras_warwick_2022]] [[Braun et al 2003][research_braun_boucke_2003]] [[Brooks and Meyer 1995][research_brooks_meyer_1995]] [[Brown and Caverly 2021][research_brown_caverly_2021]] [[Brown and Singh 2015][research_brown_singh_2015]] [[Brown and Singh 2016][research_brown_singh_2016]] [[Bunge et al 2016][research_bunge_alkurdi_2016]] [[Burken et al 1986][research_burken_alag_1986]] [[Butler et al 1995][research_butler_lillico_1995]] [[Byun and Guruswamy 1994][research_byun_guruswamy_1994]] [[Byun and Guruswamy 1996][research_byun_guruswamy_1996_b]] [[Byun and Guruswamy 1996][research_byun_guruswamy_1996_c]] [[Calculation of Elastic Deformations 2004][research_calculation_of_2004]] [[Canfield 2014][research_canfield_2014]] [[Carlson and Cassarino 1973][research_carlson_cassarino_1973]] [[Cavagna et al 2009][research_cavagna_ricci_2009]] [[Cea and Palacios 2023][research_cea_palacios_2023]] [[Cea and Palacios 2024][research_cea_palacios_2024]] [[Celi 1994][research_celi_1994]] [[Cesnik et al 1999][research_cesnik_shin_1999]] [[Chajec et al 2019][research_chajec_krzymien_2019]] [[Chandre Vila][research_chandrevila]] [[Chapter 15. Aeroelastic Systems 1994][research_chapter_15_1994]] [[Chapter 2. Exploring the 2005][research_chapter_2_2005]] [[Chapter III Elastic Deformations 1982][research_chapter_iii_1982]] [[Chen et al 1998][research_chen_chang_1998]] [[Chen et al 2008][research_chen_baldelli_2008]] [[Cheng et al 2023][research_cheng_cea_2023]] [[Cizmas and Strganac 2010][research_cizmas_strganac_2010]] [[Cocco and Meroli 2026][research_cocco_meroli_2026]] [[Cole 1990][research_cole_1990]] [[Cole and Weiland 2009][research_cole_weiland_2009]] [[Conti et al 2021][research_conti_saltari_2021]] [[Cook and Smith 2014][research_cook_smith_2014]] [[Cord 1989][research_cord_1989]] [[Crane, H. L. and Reeder, J. P. 1945][research_cranehl_reederjp_1945]] [[Cumming and Diebler 2005][research_cumming_diebler_2005]] [[D'Vari and Baker 1999][research_dvari_baker_1999]] [[Dancila and Botez 2014][research_dancila_botez_2014]] [[Danowsky et al 2008][research_danowsky_thompson_2008]] [[Das et al 2021][research_das_venkatraman_2021]] [[Davis 1974][research_davis_1974]] [[de Visser 1999][research_devisser_1999]] [[de Visser et al 2009][research_devisser_mulder_2009]] [[Deflection-based aircraft structural loads estimation with comparison to flight][research_deflection_loads_flight]] [[Deflection-based structural loads estimation from the active aeroelastic wing F/A-18 aircraft][research_aaw_deflection_loads]] [[Dehaan 1990][research_dehaan_1990]] [[Demasi 2024][research_demasi_2024]] [[Demasi and Livne 2005][research_demasi_livne_2005]] [[Demenkov 2009][research_demenkov_2009]] [[Determination of the effect of wing flexibility on lateral manoeuvrability][research_wing_flexibility_lateral]] [[Dhital and Chouvion 2024][research_dhital_chouvion_2024]] [[Dias et al 2015][research_dias_demarqui_2015]] [[Dimitriadis 2008][research_dimitriadis_2008]] [[Dimitriadis 2011][research_dimitriadis_2011]] [[Dinyavari and Friedmann 1986][research_dinyavari_friedmann_1986]] [[Djojodihardjo 2023][research_djojodihardjo_2023]] [[Djojodihardjo 2023][research_djojodihardjo_2023_c]] [[Done 1996][research_done_1996]] [[Dowell 1983][research_dowell_1983]] [[Dowell et al 2006][research_dowell_attar_2006]] [[Dracopoulos and Oz 1992][research_dracopoulos_oz_1992]] [[Dracopoulos and Öz 1988][research_dracopoulos_oz_1988]] [[Dreier 1987][research_dreier_1987]] [[Durmaz and Kaya 2013][research_durmaz_kaya_2013]] [[Eckstrom and Spain 1982][research_eckstrom_spain_1982]] [[Efremov 1992][research_efremov_1992]] [[Epureanu 2001][research_epureanu_2001]] [[Exploring the Flight Envelope 2015][research_exploring_the_2015]] [[Fan and Hall 2014][research_fan_hall_2014]] [[Fan and Lutze 1996][research_fan_lutze_1996]] [[Farbridge et al 1956][research_farbridge_woodward_1956]] [[Farhat 2001][research_farhat_2001]] [[Farhat and Amsallem 2011][research_farhat_amsallem_2011]] [[Farhat and Lin 1990][research_farhat_lin_1990]] [[Fernandez Escudero][research_fernandezescudero]] [[Filippou et al 2024][research_filippou_kilimtzidis_2024]] [[Flight Envelope 2005][research_flight_envelope_2005]] [[Flight Envelope 2021][research_flight_envelope_2021]] [[Flight Envelope Awareness/Protection][research_flight_envelope]] [[Forster et al 1996][research_forster_kolonay_1996]] [[Fournier][research_fournier]] [[Frampton and Clark 1998][research_frampton_clark_1998]] [[Franklin 2018][research_franklin_2018]] [[Freidmann 2001][research_freidmann_2001]] [[Friedmann 1977][research_friedmann_1977]] [[Friedmann 1987][research_friedmann_1987]] [[Friedmann 1990][research_friedmann_1990]] [[Friedmann 2000][research_friedmann_2000]] [[Friedmann 2001][research_friedmann_2001]] [[Friedmann 2004][research_friedmann_2004]] [[Friedmann 2010][research_friedmann_2010]] [[Friedmann and Hodges 2003][research_friedmann_hodges_2003]] [[Friedmann and Hodges 2003][research_friedmann_hodges_2003_b]] [[Friedmann and Straub 1980][research_friedmann_straub_1980]] [[Gai and Seffen 2025][research_gai_seffen_2025]] [[Gandhi and Hathaway 1998][research_gandhi_hathaway_1998]] [[Ganguli and Chopra 1995][research_ganguli_chopra_1995]] [[Garcia 2005][research_garcia_2005]] [[Gasparetto][research_gasparetto]] [[Geisbauer 2011][research_geisbauer_2011]] [[Gennaretti 2024][research_gennaretti_2024]] [[Gern and Librescu 1998][research_gern_librescu_1998]] [[Ghosh and Raisinghani 1993][research_ghosh_raisinghani_1993]] [[Ghosh and Raisinghani 1994][research_ghosh_raisinghani_1994]] [[Giansante et al 2022][research_giansante_bernardini_2022]] [[Gilbert et al 1982][research_gilbert_schmidt_1982]] [[Gilbert et al 1984][research_gilbert_schmidt_1984]] [[Gimmestad 1979][research_gimmestad_1979]] [[Giunta 1999][research_giunta_1999]] [[Gobal and Grandhi 2015][research_gobal_grandhi_2015]] [[Gordnier and Attar 2012][research_gordnier_attar_2012]] [[Gratton 2014][research_gratton_2014]] [[Gratton 2018][research_gratton_2018]] [[Grauer 2016][research_grauer_2016]] [[Grauer and Morelli 2014][research_grauer_morelli_2014]] [[Graves et al 2002][research_graves_burner_2002]] [[Gray and Martins 2024][research_gray_martins_2024]] [[Greenwell 2004][research_greenwell_2004]] [[Griffin 2006][research_griffin_2006]] [[Gu et al 2024][research_gu_healy_2024]] [[Gu et al 2024][research_gu_healy_2024_b]] [[Gujjula and Singh 2005][research_gujjula_singh_2005]] [[Guo et al 2018][research_guo_cao_2018]] [[Gupta 1996][research_gupta_1996]] [[Guruswamy 1992][research_guruswamy_1992]] [[Gwin 1974][research_gwin_1974]] [[Gwin 1976][research_gwin_1976]] [[Haas and Chopra 1987][research_haas_chopra_1987]] [[Hablowetz 2000][research_hablowetz_2000]] [[Haddadpour et al 2005][research_haddadpour_shams_2005]] [[Hajj 2004][research_hajj_2004]] [[Halder and Benedict 2018][research_halder_benedict_2018]] [[Hanel 1998][research_hanel_1998]] [[Hartman 2019][research_hartman_2019]] [[Hess and Flick 2004][research_hess_flick_2004]] [[Hess and Hess 1997][research_hess_hess_1997]] [[Hilger and Ritter 2021][research_hilger_ritter_2021]] [[Hilton and Nguyen 2014][research_hilton_nguyen_2014]] [[Hjartarson et al 2014][research_hjartarson_seiler_2014]] [[Horn et al 1998][research_horn_calise_1998]] [[Hui et al 2000][research_hui_collins_2000]] [[Hui et al 2005][research_hui_auriti_2005]] [[Hussein et al 2025][research_hussein_rashid_2025]] [[Huttsell and Eastep 1989][research_huttsell_eastep_1989]] [[Iannacci and Mayo 1999][research_iannacci_mayo_1999]] [[Ifju et al 2001][research_ifju_waszak_2001]] [[Introduction to Aeroelastic Rotor 2018][research_introduction_to_2018]] [[Ippolito et al 2014][research_ippolito_ting_2014]] [[Ishihara and Nguyen 2014][research_ishihara_nguyen_2014]] [[Ishihara et al 2013][research_ishihara_nguyen_2013]] [[Jafari et al 2019][research_jafari_feizarefi_2019]] [[Jebakumar et al 2019][research_jebakumar_kumar_2019]] [[Jian and Jinwu 2009][research_jian_jinwu_2009]] [[Jiang and Li 2018][research_jiang_li_2018]] [[Jiang and Li 2018][research_jiang_li_2018_b]] [[Johnston and Cassarino 1976][research_johnston_cassarino_1976]] [[Jorge and Lind 2013][research_jorge_lind_2013]] [[Juliana et al 2004][research_juliana_chu_2004]] [[Kafkas et al 2021][research_kafkas_kilimtzidis_2021]] [[Karpouzian and Librescu 1994][research_karpouzian_librescu_1994]] [[Ke et al 2008][research_ke_zhigang_2008]] [[Kennedy and Martins 2013][research_kennedy_martins_2013]] [[Kholodar 2014][research_kholodar_2014]] [[Koo and Lee 1994][research_koo_lee_1994]] [[Kreshock et al 2016][research_kreshock_kang_2016]] [[Kroeger, R. A. 1977][research_kroegerra_1977]] [[Kurita et al 2019][research_kurita_koike_2019]] [[Kuttenkeuler and Ringertz 1998][research_kuttenkeuler_ringertz_1998]] [[Küssner 1959][research_kussner_1959]] [[Lazarus et al 1991][research_lazarus_crawley_1991]] [[Lazarus et al 1995][research_lazarus_crawley_1995]] [[Lee 1994][research_lee_1994]] [[Lee and Kim 1995][research_lee_kim_1995]] [[Lee and Singh 2006][research_lee_singh_2006]] [[Lee and Singh 2009][research_lee_singh_2009]] [[Lee and Singh 2018][research_lee_singh_2018]] [[Leijonhufvud and Karlsson 2011][research_leijonhufvud_karlsson_2011]] [[Lesoinne 2007][research_lesoinne_2007]] [[Lesoinne and Farhat 1993][research_lesoinne_farhat_1993]] [[Lesoinne and Farhat 1995][research_lesoinne_farhat_1995]] [[Lesoinne and Kaila 2005][research_lesoinne_kaila_2005]] [[Lesoinne et al 2001][research_lesoinne_balas_2001]] [[Li 2018][research_li_2018]] [[Li et al 2010][research_li_guo_2010]] [[Li et al 2010][research_li_guo_2010_b]] [[Li et al 2021][research_li_wan_2021]] [[Li et al 2025][research_li_zheng_2025]] [[Librescu and Beiner 1983][research_librescu_beiner_1983]] [[Limitations and Flight Envelope 2017][research_limitations_and_2017]] [[Lin and Crawley 1994][research_lin_crawley_1994]] [[Lin et al 1995][research_lin_crawley_1995]] [[Lin et al 1996][research_lin_crawley_1996]] [[Lind 1999][research_lind_1999]] [[Lind et al 1998][research_lind_freudinger_1998]] [[Lindsley 2009][research_lindsley_2009]] [[Liu 2019][research_liu_2019]] [[Liu et al 2024][research_liu_yang_2024]] [[Liu et al 2025][research_liu_fan_2025]] [[Livne 2001][research_livne_2001]] [[Livne 2010][research_livne_2010]] [[Lizotte, Andrew and Allen, Michael J. 2005][research_lizotteandrew_allenmichaelj_2005]] [[Loads model development and analysis for the F/A-18 active aeroelastic wing airplane][research_aaw_loads_model]] [[Loewy 1969][research_loewy_1969]] [[Loewy 2000][research_loewy_2000]] [[Lombaerts 2012][research_lombaerts_2012]] [[Loth et al 2000][research_loth_geubelle_2000]] [[Lowe and Zingg 2021][research_lowe_zingg_2021]] [[Lu and Murthy 1990][research_lu_murthy_1990]] [[Lukichev et al 2017][research_lukichev_demidova_2017]] [[Ma et al 2022][research_ma_wang_2022]] [[Maalawi 2012][research_maalawi_2012]] [[Mahmood 2025][research_mahmood_2025]] [[Mannarino and Mantegazza 2014][research_mannarino_mantegazza_2014]] [[Mardanpour and Rastkar 2017][research_mardanpour_rastkar_2017]] [[Mardanpour et al 2013][research_mardanpour_richards_2013]] [[Mardanpour et al 2014][research_mardanpour_richards_2014]] [[Mas Colomer][research_mascolomer]] [[Masarati et al 2016][research_masarati_tod_2016]] [[McGurk et al 2024][research_mcgurk_stodieck_2024]] [[McTavish][research_mctavish]] [[Mehrotra, S. C. 1980][research_mehrotrasc_1980]] [[Melville 2000][research_melville_2000]] [[Melville and Gordnier 1998][research_melville_gordnier_1998]] [[Methods of calculating the 2015][research_methods_of_calculating_2015]] [[Milanese et al 2008][research_milanese_marzocca_2008]] [[Missoum 2012][research_missoum_2012]] [[Mkhoyan et al 2022][research_mkhoyan_wang_2022]] [[Mocsányi et al 2019][research_mocsanyi_takarics_2019]] [[Mocsányi et al 2020][research_mocsanyi_takarics_2020]] [[Mohammadi 1999][research_mohammadi_1999]] [[Mohd et al 2025][research_mohd_amoozgar_2025]] [[Molusis and Kleinman 1982][research_molusis_kleinman_1982]] [[Mooij 2020][research_mooij_2020]] [[Mooij and Wang 2021][research_mooij_wang_2021]] [[Moravej Barzani et al 2022][research_moravejbarzani_shahverdi_2022]] [[Morino and Obayashi 2015][research_morino_obayashi_2015]] [[Moshier 2006][research_moshier_2006]] [[Moshtaghzadeh et al 2023][research_moshtaghzadeh_rangel_2023]] [[Moszczynski et al 2026][research_moszczynski_grant_2026]] [[Mukhopadhyay 2003][research_mukhopadhyay_2003]] [[Murphy and Mermagen 2004][research_murphy_mermagen_2004]] [[Murphy et al 2004][research_murphy_klein_2004]] [[Murthy and Lu 1992][research_murthy_lu_1992]] [[Muscarello et al 2017][research_muscarello_masarati_2017]] [[Naftaly and Raveh 2025][research_naftaly_raveh_2025]] [[Neumann et al 2020][research_neumann_dealmeida_2020]] [[Newman and Buttrill 1995][research_newman_buttrill_1995]] [[Newman and Kassem 1997][research_newman_kassem_1997_b]] [[Newman et al 1997][research_newman_kassem_1997]] [[Newman et al 1997][research_newman_kassem_1997_c]] [[Ng et al 2020][research_ng_ong_2020]] [[Nguyen and Tal 2015][research_nguyen_tal_2015]] [[Nguyen and Tuzcu 2009][research_nguyen_tuzcu_2009]] [[Nguyen et al 2011][research_nguyen_tuzcu_2011]] [[Nguyen et al 2013][research_nguyen_ting_2013_b]] [[Nguyen et al 2015][research_nguyen_ting_2015_b]] [[Nguyen et al 2016][research_nguyen_ting_2016]] [[Nguyen et al 2018][research_nguyen_reynolds_2018]] [[Niel][research_niel]] [[Nikolaos et al 2024][research_nikolaos_spyridon_2024]] [[Nixon 2020][research_nixon_2020]] [[Numerical calculation method and 2015][research_numerical_calculation_2015]] [[Numerical Method and Program 2013][research_numerical_method_2013]] [[Onkar et al 2024][research_onkar_kumar_2024]] [[Ormiston 2001][research_ormiston_2001]] [[Oyibo 1984][research_oyibo_1984]] [[Ozbay and Turi][research_ozbay_turi]] [[Ozger 2007][research_ozger_2007]] [[Paladini et al 2024][research_paladini_drewiacki_2024]] [[Pandita et al 2009][research_pandita_chakraborty_2009]] [[Papadopoulos 1958][research_papadopoulos_1958]] [[Parsons][research_parsons]] [[Patil 2003][research_patil_2003]] [[Patil and Hodges 2000][research_patil_hodges_2000_b]] [[Pavlov and Pavlov 2024][research_pavlov_pavlov_2024]] [[Peng 2011][research_peng_2011]] [[Peters 1988][research_peters_1988]] [[Phan 2020][research_phan_2020]] [[Pomin et al 2001][research_pomin_altmikus_2001]] [[Poole et al 2020][research_poole_allen_2020_b]] [[Prazenica 2014][research_prazenica_2014]] [[Prazenica et al 2004][research_prazenica_reisenthel_2004]] [[Proulx-Cabana][research_proulxcabana]] [[Prudhomme 1995][research_prudhomme_1995]] [[Prudhomme and Prudhomme 1997][research_prudhomme_prudhomme_1997]] [[Pusch 2018][research_pusch_2018]] [[Qin and Librescu 2003][research_qin_librescu_2003]] [[Qiu et al 2018][research_qiu_xu_2018]] [[Rahman and Li 2013][research_rahman_li_2013]] [[Rao and Padmanabhan 2019][research_rao_padmanabhan_2019]] [[Rao et al 1978][research_rao_kronenberger_1978]] [[Raveh 2026][research_raveh_2026]] [[Raveh and Levy 2004][research_raveh_levy_2004]] [[Reich et al 2002][research_reich_raveh_2002]] [[Reich et al 2004][research_reich_raveh_2004]] [[Ricci et al 2022][research_ricci_marchetti_2022]] [[Richard et al 2000][research_richard_rule_2000]] [[Richard et al 2001][research_richard_rule_2001]] [[Righi 2017][research_righi_2017]] [[Rimer et al 1984][research_rimer_chipman_1984]] [[Rimer et al 1986][research_rimer_chipman_1986]] [[Robinson][research_robinson]] [[Rocha et al 2007][research_rocha_moniz_2007]] [[Rodden 1956][research_rodden_1956]] [[Rogers 1998][research_rogers_1998]] [[Roknizadeh et al 2012][research_roknizadeh_nobari_2012]] [[Roskam, J. and Lan, C. 1973][research_roskamj_lanc_1973]] [[Rowan and Burns 1975][research_rowan_burns_1975]] [[Rowley 2008][research_rowley_2008]] [[Rowley 2010][research_rowley_2010]] [[Rubillo et al 2005][research_rubillo_bollt_2005]] [[Rufino et al 2026][research_rufino_faria_2026]] [[Saltari et al 2022][research_saltari_pizzoli_2022]] [[Sang Bum Choi et al][research_sangbumchoi_haojianxu]] [[Sazesh and Shams 2017][research_sazesh_shams_2017]] [[Schmidt 1986][research_schmidt_1986]] [[Schmidt and Newman 1988][research_schmidt_newman_1988]] [[Schneider][research_schneider]] [[Schoneman 2019][research_schoneman_2019]] [[Schuster 1995][research_schuster_1995]] [[Schuster, David M. and Edwards, John W. 2004][research_schusterdavidm_edwardsjohnw_2004]] [[Schwanz and Wells 1980][research_schwanz_wells_1980]] [[Schweikhard 1966][research_schweikhard_1966]] [[Schweikhard 1967][research_schweikhard_1967]] [[Sebastiano and Ricci 2013][research_sebastiano_ricci_2013]] [[Segel 1952][research_segel_1952]] [[Seiler et al 2012][research_seiler_balas_2012]] [[Selvam et al 2001][research_selvam_qu_2001]] [[Sendner et al 2018][research_sendner_stahl_2018]] [[Sharqi et al 2021][research_sharqi_cesnik_2021]] [[Shaw et al][research_shaw_hidalgo]] [[Shevare and Arya 2012][research_shevare_arya_2012]] [[Shklovskii and Kurt 1961][research_shklovskii_kurt_1961]] [[Shmelоv et al 2019][research_shmelv_vladov_2019]] [[Shukla and Patil 2015][research_shukla_patil_2015]] [[Silva][research_silva]] [[Simmons et al 2025][research_simmons_riso_2025]] [[Simulation and model reduction for the active flexible wing program][research_afw_simulation_reduction]] [[Singer 1956][research_singer_1956]] [[Singh and Brenner 2003][research_singh_brenner_2003]] [[Singh and Wang 2002][research_singh_wang_2002]] [[Singh et al 2010][research_singh_mcdonough_2010]] [[Singh et al 2015][research_singh_brown_2015]] [[Singh et al 2016][research_singh_brown_2016]] [[Sivanandi et al 2022][research_sivanandi_gupta_2022]] [[Sivanandi et al 2024][research_sivanandi_gupta_2024]] [[Smith et al 2001][research_smith_patil_2001]] [[Sotoudeh and Ferman 2019][research_sotoudeh_ferman_2019]] [[Sotoudeh et al 2010][research_sotoudeh_hodges_2010]] [[Spada et al 2017][research_spada_afonso_2017]] [[Squires 2004][research_squires_2004]] [[Srinivas and Chopra 1998][research_srinivas_chopra_1998]] [[Stalford 1981][research_stalford_1981]] [[Stamatellou and Kalfas 2021][research_stamatellou_kalfas_2021]] [[Stanford 2018][research_stanford_2018]] [[Stanford 2021][research_stanford_2021]] [[Stanford and Dunning 2015][research_stanford_dunning_2015]] [[Stettner 2000][research_stettner_2000]] [[Stiharu-Alexe 1991][research_stiharualexe_1991]] [[Stiharu-Alexe et al][research_stiharualexe_oshea]] [[Stougie et al 2024][research_stougie_pollack_2024]] [[Strganac 2007][research_strganac_2007]] [[Striz et al 1991][research_striz_eastep_1991]] [[Su 2015][research_su_2015]] [[Su and Cesnik 2009][research_su_cesnik_2009]] [[Su and Cesnik 2010][research_su_cesnik_2010]] [[Su et al 2017][research_su_huang_2017]] [[Su et al 2018][research_su_wang_2018]] [[Suleman 2007][research_suleman_2007]] [[Suleman and Costa 2004][research_suleman_costa_2004]] [[Suleman and Moniz][research_suleman_moniz]] [[Suleman et al 2016][research_suleman_afonso_2016]] [[Summary of an active flexible wing program][research_afw_technology_summary]] [[Sungpil Yang et al 2016][research_sungpilyang_hashemi_2016]] [[Svoboda et al 2021][research_svoboda_hromcik_2021]] [[Swaim][research_swaim]] [[Swaim 1983][research_swaim_1983]] [[Szollosi and Baranyi 2016][research_szollosi_baranyi_2016]] [[Takarics et al 2018][research_takarics_vanek_2018]] [[Tamayama 2017][research_tamayama_2017]] [[Tamura and Yumitori 2024][research_tamura_yumitori_2024]] [[Tang and Dowell 1998][research_tang_dowell_1998]] [[Tang and Dowell 2001][research_tang_dowell_2001]] [[Tang et al 2000][research_tang_kholodar_2000]] [[Taylor 1959][research_taylor_1959]] [[Taylor et al 2007][research_taylor_gaitonde_2007]] [[Teng and Chen 2006][research_teng_chen_2006]] [[Terilli et al 2025][research_terilli_bueno_2025]] [[Tewari 2001][research_tewari_2001]] [[Tewari 2015][research_tewari_2015]] [[Tharayil and Alleyne 2001][research_tharayil_alleyne_2001]] [[Tharayil and Alleyne 2004][research_tharayil_alleyne_2004]] [[The development of a lateral-control system for use with large-span flaps][research_lateral_control_large_flaps]] [[The effect of elastic 1969][research_the_effect_1969]] [[The F-18 high alpha research vehicle, a high-angle-of-attack testbed aircraft][research_harv_testbed]] [[Tiomkin and Raveh 2021][research_tiomkin_raveh_2021]] [[Toffol 2023][research_toffol_2023]] [[Toffol and Ricci 2023][research_toffol_ricci_2023]] [[Torok 1996][research_torok_1996]] [[Traas et al 2026][research_traas_atmaca_2026]] [[Trame et al 1985][research_trame_williams_1985]] [[Trenka 1971][research_trenka_1971]] [[Tucker Harvey et al 2020][research_tuckerharvey_khovanov_2020]] [[Tung et al 1996][research_tung_yu_1996]] [[Turi and Rankin 1988][research_turi_rankin_1988]] [[Turns and Kraige][research_turns_kraige]] [[Twist model development and results from the active aeroelastic wing F/A-18 aircraft][research_aaw_twist_model]] [[Upper Atmosphere Re-Entry Study 1961][research_upper_atmosphere_1961]] [[Urnes et al 2008][research_urnes_reichenbach_2008]] [[van Schoor and von Flotow 1990][research_vanschoor_vonflotow_1990]] [[Vandierendonck 1973][research_vandierendonck_1973]] [[Variation of natural radioactivity 1956][research_variation_of_1956]] [[Verhaegen 1987][research_verhaegen_1987]] [[Verstraete et al 2019][research_verstraete_roccia_2019]] [[Vindigni 2023][research_vindigni_2023]] [[Vos et al 2007][research_vos_hodigeresiddaramaiah_2007]] [[Wall et al 2024][research_wall_amoozgar_2024]] [[Wan Kim and Cho 2008][research_wankim_cho_2008]] [[Wang et al 2012][research_wang_xargay_2012]] [[Wang et al 2018][research_wang_wynn_2018]] [[Wang et al 2019][research_wang_yang_2019]] [[Wang et al 2025][research_wang_hu_2025]] [[Wang et al 2026][research_wang_hu_2026]] [[Warwick et al 2019][research_warwick_bras_2019]] [[Waszak and Schmidt 1988][research_waszak_schmidt_1988]] [[Waszak et al 2002][research_waszak_davidson_2002]] [[Wei et al 2018][research_wei_zhao_2018]] [[Weiss and Thielecke 2000][research_weiss_thielecke_2000]] [[Weisshaar 1985][research_weisshaar_1985]] [[Weisshaar 2010][research_weisshaar_2010]] [[Winther et al 1993][research_winther_hagemeyer_1993]] [[Wood and Buffano 1964][research_wood_buffano_1964]] [[Wood et al 1999][research_wood_loth_1999]] [[Woodward 1962][research_woodward_1962]] [[Wu et al 2021][research_wu_zhang_2021]] [[Wu et al 2024][research_wu_zhou_2024]] [[Wu et al 2025][research_wu_li_2025]] [[Wyrick 1965][research_wyrick_1965]] [[Xie et al 2012][research_xie_yang_2012]] [[Xing and Singh 1999][research_xing_singh_1999]] [[Xu et al 2015][research_xu_gao_2015]] [[Xu et al 2015][research_xu_gao_2015_b]] [[Xue and Li 2016][research_xue_li_2016]] [[Xue et al 2019][research_xue_ye_2019]] [[Yang and Guo 2009][research_yang_guo_2009]] [[Yang and Li 2022][research_yang_li_2022]] [[Yang et al 2007][research_yang_zheng_2007]] [[Yang et al 2018][research_yang_dudley_2018]] [[Yeh 1995][research_yeh_1995]] [[Yu 2026][research_yu_2026]] [[Yucelen et al 2011][research_yucelen_kim_2011]] [[Yusuf et al 2019][research_yusuf_hayes_2019]] [[Zafirov 2010][research_zafirov_2010]] [[Zaichik et al 2013][research_zaichik_yashin_2013]] [[Zeiler, Thomas A. 1998][research_zeilerthomasa_1998]] [[Zeng and Singh 1998][research_zeng_singh_1998]] [[Zhang and Behal 2014][research_zhang_behal_2014]] [[Zhang and Singh 2000][research_zhang_singh_2000]] [[Zhang and Söffker 2010][research_zhang_soffker_2010]] [[Zhang et al 2017][research_zhang_devisser_2017]] [[Zhang et al 2025][research_zhang_jiao_2025]] [[Zhao 2011][research_zhao_2011]] [[Zheng et al 2018][research_zheng_zhang_2018]] [[Zhu et al 2017][research_zhu_chen_2017]] [[Zhuang et al 2017][research_zhuang_wu_2017]] [[Zientek 2001][research_zientek_2001]] [[Zink et al 1998][research_zink_mavris_1998]] [[Zink et al 2000][research_zink_mavris_2000]] [[Zink et al 2000][research_zink_raveh_2000]] [[Zink et al 2001][research_zink_raveh_2001]] [[Zink et al 2003][research_zink_raveh_2003]]
-
-### Flutter, and the instability this programme chose not to fly
-
-**Large, old and deliberately out of scope.** Flutter, limit cycle oscillation, buffet and aeroelastic stability. **The predecessor wind-tunnel programme suppressed flutter actively and the flight programme removed that requirement**, which is the single largest scope decision in the story and the reason a manned aeroplane could fly it at all.
-
-**432 records.** [[A flutter suppression system using strain gages applied to active flexible wing technology][research_afw_flutter_strain_gauge]] [[A parametric sensitivity and 1991][research_a_parametric_1991]] [[A synthesis of reduced-order 1994][research_a_synthesis_1994]] [[Abel and Newsom 1981][research_abel_newsom_1981]] [[Abel et al 1977][research_abel_perryiii_1977]] [[Abel et al 1978][research_abel_iii_1978]] [[Abel et al 1979][research_abel_newsom_1979]] [[Abramova et al 2016][research_abramova_petrov_2016]] [[Active control of a 1994][research_active_control_1994]] [[Active Flutter Suppression 2016][research_active_flutter_2016]] [[Active flutter suppression via 1999][research_active_flutter_1999]] [[Afkhami and Alighanbari 2007][research_afkhami_alighanbari_2007]] [[Akinwale and Datta 2025][research_akinwale_datta_2025]] [[Alag and Burken 1987][research_alag_burken_1987]] [[Alag et al 1986][research_alag_burken_1986]] [[Alhajjar et al 2018][research_alhajjar_aljiboory_2018]] [[Allen et al 2003][research_allen_fenwick_2003]] [[Amoozgar and Shahverdi 2019][research_amoozgar_shahverdi_2019]] [[Amoozgar et al 2013][research_amoozgar_irani_2013]] [[Amoozgar et al 2020][research_amoozgar_fazelzadeh_2020]] [[Amoozgar et al 2021][research_amoozgar_friswell_2021]] [[Amoozgar et al 2024][research_amoozgar_hall_2024]] [[Anderson et al 2004][research_anderson_white_2004]] [[Anderson et al 2026][research_anderson_caverly_2026]] [[Andrighettoni and Mantegazza 1998][research_andrighettoni_mantegazza_1998]] [[Appendix C Flutter Analysis 2016][research_appendix_c_2016]] [[Asadi and Farsadi 2020][research_asadi_farsadi_2020]] [[Asadi et al 2021][research_asadi_farsadi_2021]] [[Bachelder et al 2004][research_bachelder_klyde_2004]] [[Bahia Monteiro et al 2023][research_bahiamonteiro_gray_2023]] [[Baldelli et al 2009][research_baldelli_zeng_2009]] [[Balleur et al 2002][research_balleur_girodrouxlavigne_2002]] [[Banerjee et al 2014][research_banerjee_liu_2014]] [[Barker and Balas 2000][research_barker_balas_2000]] [[Barker et al 1999][research_barker_balas_1999]] [[Ben Asher and Raveh 2023][research_benasher_raveh_2023]] [[Bendiksen 1992][research_bendiksen_1992]] [[Bendiksen 2001][research_bendiksen_2001]] [[Bendiksen et al 1997][research_bendiksen_hwang_1997]] [[Bennett et al 2001][research_bennett_brown_2001]] [[Bergman et al 2011][research_bergman_vakakis_2011]] [[Bernelli-Zazzera et al 2000][research_bernellizazzera_mantegazza_2000]] [[Bhat 2018][research_bhat_2018_b]] [[Bi et al 2017][research_bi_xie_2017]] [[Bismarck-Nasr 1992][research_bismarcknasr_1992]] [[Bismarck-Nasr 1994][research_bismarcknasr_1994]] [[Blue et al 1997][research_blue_balas_1997]] [[Borglund 2003][research_borglund_2003]] [[Borglund and Kuttenkeuler 2002][research_borglund_kuttenkeuler_2002]] [[Borglund and Nilsson 2004][research_borglund_nilsson_2004]] [[Botez et al 2002][research_botez_doin_2002]] [[Bradshaw et al 1988][research_bradshaw_rahulan_1988]] [[Breitsamter 2005][research_breitsamter_2005]] [[Breitsamter and Laschka 2000][research_breitsamter_laschka_2000]] [[Breitsamter and Schmid 2008][research_breitsamter_schmid_2008]] [[Browne et al 2024][research_browne_maldonado_2024]] [[Buddhamatya et al 2026][research_buddhamatya_miranda_2026]] [[Bunton and Denegri 2000][research_bunton_denegri_2000]] [[Byreddy et al 2003][research_byreddy_grandhi_2003]] [[Candida et al 2019][research_candida_souzadepaula_2019]] [[Cazier, Jr. and Kehoe 1986][research_cazierjr_kehoe_1986]] [[Chakravarty and Moore 1986][research_chakravarty_moore_1986]] [[Chang et al 2002][research_chang_trivailo_2002]] [[Chang et al 2010][research_chang_yang_2010]] [[Chen et al 2006][research_chen_wickramasinghe_2006]] [[Chen et al 2009][research_chen_ulker_2009]] [[Chen et al 2023][research_chen_shi_2023]] [[Chen et al 2023][research_chen_shi_2023_b]] [[Chopra 1983][research_chopra_1983]] [[Chopra 1988][research_chopra_1988]] [[Chung et al 2002][research_chung_lee_2002]] [[Crittenden et al 1977][research_crittenden_weisshaar_1977]] [[Crittenden et al 1978][research_crittenden_weishaar_1978]] [[Damveld 2004][research_damveld_2004]] [[Darabseh et al 2022][research_darabseh_tarabulsi_2022]] [[Darabseh et al 2022][research_darabseh_tarabulsi_2022_b]] [[Delgado et al 2026][research_delgado_datta_2026]] [[Denegri and Dubben 2003][research_denegri_dubben_2003]] [[Denegri et al 2005][research_denegri_dubben_2005]] [[Desmarais and Reed, Iii 1980][research_desmarais_reediii_1980]] [[Dessi and Mastroddi 2002][research_dessi_mastroddi_2002]] [[Di Pasquale 2024][research_dipasquale_2024]] [[Di Pasquale and Prince 2023][research_dipasquale_prince_2023]] [[Diwekar and Yedavalli 1995][research_diwekar_yedavalli_1995]] [[Dixit et al 2016][research_dixit_kodhanda_2016]] [[Djayapertapa and Allen 2002][research_djayapertapa_allen_2002]] [[Dowell 1990][research_dowell_1990]] [[Dowell 1996][research_dowell_1996]] [[Dowell 1999][research_dowell_1999]] [[Dowell 2001][research_dowell_2001]] [[Downs and Prazenica 2022][research_downs_prazenica_2022]] [[Downs and Prazenica 2023][research_downs_prazenica_2023]] [[Drake and Balakrishnan 2004][research_drake_balakrishnan_2004]] [[Duan and Zhang 2018][research_duan_zhang_2018]] [[Eichelsdörfer 2026][research_eichelsdorfer_2026]] [[Eichelsdörfer 2026][research_eichelsdorfer_2026_b]] [[Elastic and Aeroelastic Instabilities 2008][research_elastic_and_2008]] [[Elhami and Narab 2012][research_elhami_narab_2012]] [[Ericsson and Reding 1981][research_ericsson_reding_1981]] [[Eversman and Danda Roy 1996][research_eversman_dandaroy_1996]] [[Eversman and Roy 1997][research_eversman_roy_1997]] [[Farhangnia et al 1996][research_farhangnia_guruswamy_1996]] [[Faroughi et al 2012][research_faroughi_malekzadeh_2012]] [[Faïsse][research_faisse]] [[Faïsse et al 2021][research_faisse_vernay_2021]] [[Floros and Kang 2017][research_floros_kang_2017]] [[Flutter suppression control law synthesis for the active flexible wing model][research_afw_flutter_suppression]] [[Forte and Nguyen 2026][research_forte_nguyen_2026_d]] [[Friedmann 1973][research_friedmann_1973]] [[Fujimori et al 1995][research_fujimori_nikiforuk_1995]] [[Fukumoto et al 2023][research_fukumoto_kouchi_2023]] [[Gabel et al 1961][research_gabel_ricks_1961]] [[Gade and Inman 1996][research_gade_inman_1996]] [[Gade and Inman 1997][research_gade_inman_1997]] [[Gangsaas et al 1981][research_gangsaas_ly_1981]] [[Garrard and Liebst 1983][research_garrard_liebst_1983]] [[Garrard and Liebst 1985][research_garrard_liebst_1985]] [[Garrick, I E and Rubinow, S I 1946][research_garrickie_rubinowsi_1946]] [[Garrick, I E and Rubinow, S I 1946][research_garrickie_rubinowsi_1946_b]] [[Generalized predictive control for 1997][research_generalized_predictive_1997]] [[Gern 2001][research_gern_2001]] [[Ghiringhelli et al 1990][research_ghiringhelli_lanz_1990]] [[Ghiringhelli et al 1992][research_ghiringhelli_lanz_1992]] [[Ghosh and Patil 2022][research_ghosh_patil_2022]] [[Goizueta et al 2021][research_goizueta_drachinsky_2021]] [[Goizueta et al 2022][research_goizueta_wynn_2022]] [[Gonzales et al 2022][research_gonzales_sakaue_2022]] [[Grauer and Waite 1986][research_grauer_waite_1986]] [[Grauer and Waite 2024][research_grauer_waite_2024]] [[Green and Fernandez 1994][research_green_fernandez_1994]] [[Gupta et al 2005][research_gupta_doyle_2005]] [[Haas and Chopra 1989][research_haas_chopra_1989]] [[Haas and Chopra 1990][research_haas_chopra_1990]] [[Haley and Soloway 2001][research_haley_soloway_2001]] [[Haley and Soloway 2022][research_haley_soloway_2022]] [[Ham et al 1994][research_ham_kim_1994]] [[Harvey 1983][research_harvey_1983]] [[He et al 2024][research_he_shi_2024]] [[Hitch 1978][research_hitch_1978]] [[Hodges 1973][research_hodges_1973]] [[Hodson et al 1993][research_hodson_dobbs_1993]] [[Hoseini and Hodges 2019][research_hoseini_hodges_2019]] [[Huang et al 2015][research_huang_qian_2015]] [[Huang et al 2024][research_huang_zhang_2024]] [[Hwang and Pi 1982][research_hwang_pi_1982]] [[Ishii 1965][research_ishii_1965]] [[Izadpanahi][research_izadpanahi]] [[Jeong et al 2013][research_jeong_lee_2013]] [[Jiang et al 2019][research_jiang_tian_2019]] [[Johnson 1980][research_johnson_1980]] [[Jones 1976][research_jones_1976]] [[Karpel 1982][research_karpel_1982]] [[Karpel 1989][research_karpel_1989]] [[Kayran 2004][research_kayran_2004]] [[Kayran 2007][research_kayran_2007]] [[Kehoe 1988][research_kehoe_1988]] [[Kheiri and Riazat 2025][research_kheiri_riazat_2025]] [[Kholodar 2016][research_kholodar_2016]] [[Kim and Crassidis 2003][research_kim_crassidis_2003]] [[Klepl 1995][research_klepl_1995]] [[Kojima et al 2019][research_kojima_kameda_2019]] [[Kosmatka and Panza 2002][research_kosmatka_panza_2002]] [[Kotikalpudi et al 2016][research_kotikalpudi_pfifer_2016]] [[Kotikalpudi et al 2018][research_kotikalpudi_danowsky_2018]] [[Kratochvíl and Valenta 2024][research_kratochvil_valenta_2024]] [[Kreshock et al 2018][research_kreshock_yeo_2018]] [[Kwon et al 2026][research_kwon_chang_2026]] [[Lai et al 2014][research_lai_zhang_2014]] [[Lai et al 2016][research_lai_lu_2016]] [[Lam et al 2024][research_lam_paranjape_2024]] [[Lambert and Gursul 2001][research_lambert_gursul_2001]] [[Lanjun Li et al 2006][research_lanjunli_shouyiyu_2006]] [[Lee-Rausch and Batina 1993][research_leerausch_batina_1993]] [[Levinski 2004][research_levinski_2004]] [[Lewis et al 1979][research_lewis_platt_1979]] [[Lhachemi et al 2017][research_lhachemi_chu_2017]] [[Lhachemi et al 2017][research_lhachemi_saussie_2017]] [[Li and Fleeter 1996][research_li_fleeter_1996]] [[Li and Xia 2017][research_li_xia_2017]] [[Li et al 2009][research_li_dong_2009]] [[Li et al 2014][research_li_zhang_2014]] [[Li et al 2024][research_li_dai_2024]] [[Li et al 2025][research_li_dai_2025]] [[Lichtenwalner et al 1996][research_lichtenwalner_little_1996]] [[Liebst 1987][research_liebst_1987]] [[Liebst et al 1986][research_liebst_garrard_1986]] [[Liebst et al 1986][research_liebst_garrard_1986_b]] [[Liebst et al 1988][research_liebst_garrard_1988]] [[Lind and Brenner 1997][research_lind_brenner_1997_b]] [[Lind et al 1997][research_lind_brenner_1997]] [[Lorber and Carta 1991][research_lorber_carta_1991]] [[Lottati 1987][research_lottati_1987]] [[Lottati 1988][research_lottati_1988]] [[Lu and Huang 1993][research_lu_huang_1993]] [[Lu and Yeh 1993][research_lu_yeh_1993]] [[Lu et al 2016][research_lu_cui_2016]] [[Luce and Moore 1963][research_luce_moore_1963]] [[Lum et al 2016][research_lum_xu_2016]] [[Luton and Mook 1992][research_luton_mook_1992]] [[Luton and Mook 1993][research_luton_mook_1993]] [[Lyons et al 1973][research_lyons_vepa_1973]] [[Mahesh et al 1980][research_mahesh_stone_1980]] [[Mamedov et al 2018][research_mamedov_paryshev_2018]] [[Mangalam et al 2008][research_mangalam_mangalam_2008]] [[Mangalam et al 2010][research_mangalam_jutte_2010]] [[Marchetti 2023][research_marchetti_2023]] [[Mardanpour et al 2019][research_mardanpour_izadpanahi_2019]] [[Marques and Azevedo 2007][research_marques_azevedo_2007]] [[Marques and Azevedo 2008][research_marques_azevedo_2008]] [[Marques et al 2010][research_marques_badcock_2010]] [[Marques et al 2012][research_marques_badcock_2012]] [[Marretta and Marino 2007][research_marretta_marino_2007]] [[Marzocca et al 2002][research_marzocca_librescu_2002]] [[Masini et al 2019][research_masini_timme_2019]] [[Masini et al 2020][research_masini_timme_2020]] [[Mason and Berg 1994][research_mason_berg_1994]] [[Mataich et al 2025][research_mataich_elkhadiri_2025]] [[Mattaboni et al 2009][research_mattaboni_quaranta_2009]] [[Mayer et al 2019][research_mayer_lutz_2019]] [[Mayya et al 2022][research_mayya_karnick_2022]] [[Melville 2002][research_melville_2002]] [[Meng 2021][research_meng_2021]] [[Micheli 2024][research_micheli_2024]] [[Model Rotor Testing for 2006][research_model_rotor_2006]] [[Molton et al 2010][research_molton_bur_2010]] [[Molton et al 2013][research_molton_dandois_2013]] [[Moni et al 2026][research_moni_wales_2026]] [[Moosavi and Elasha 2022][research_moosavi_elasha_2022]] [[Moulin 2004][research_moulin_2004]] [[Mu et al 2022][research_mu_huang_2022]] [[Muchamad Bayu Sakti Pratama et al 2022][research_muchamadbayusaktipratama_erwinsulaeman_2022]] [[Mukhopadhyay 1995][research_mukhopadhyay_1995]] [[Murugan and Ganguli 2005][research_murugan_ganguli_2005]] [[Muscarello et al 2026][research_muscarello_marzocca_2026]] [[Muñoz and García-Fogeda 2022][research_munoz_garciafogeda_2022]] [[Muñoz and García-Fogeda 2023][research_munoz_garciafogeda_2023]] [[Muñoz and García-Fogeda 2024][research_munoz_garciafogeda_2024]] [[Na Zhao et al 2010][research_nazhao_dengqingcao_2010]] [[Nae et al 2019][research_nae_stroe_2019]] [[Nailu et al 2025][research_nailu_wentao_2025]] [[Nam et al 1996][research_nam_kim_1996]] [[Nam et al 1997][research_nam_kim_1997]] [[Nash et al 2025][research_nash_timme_2025]] [[Nasu, Ken-Ichi 1986][research_nasukenichi_1986]] [[Newsom 1978][research_newsom_1978]] [[Newsom 1979][research_newsom_1979]] [[Nguyen and Swei 2015][research_nguyen_swei_2015]] [[Nguyen et al 2019][research_nguyen_fugate_2019]] [[Nguyen et al 2026][research_nguyen_xiong_2026]] [[Nissim 1975][research_nissim_1975]] [[Nissim 1976][research_nissim_1976]] [[Nissim and Lottati 1979][research_nissim_lottati_1979]] [[Nissim and Lottati 1979][research_nissim_lottati_1979_b]] [[Nissim and Lottati 1980][research_nissim_lottati_1980]] [[Nissim, E. et al 1976][research_nissime_caspia_1976]] [[Nitzsche 1994][research_nitzsche_1994]] [[Noll and Huttsell 1978][research_noll_huttsell_1978]] [[Noll and Huttsell 1979][research_noll_huttsell_1979]] [[Noll and Merino 1976][research_noll_merino_1976]] [[Noll et al 1980][research_noll_huttsell_1980]] [[Noll et al 1983][research_noll_eastep_1983]] [[Noll et al 1983][research_noll_calico_1983]] [[Noll et al 1984][research_noll_eastep_1984]] [[O'Brien and Datta 2026][research_obrien_datta_2026]] [[Ohta et al 1984][research_ohta_nikiforuk_1984]] [[Ohta et al 1989][research_ohta_fujimori_1989]] [[Oremland et al 2017][research_oremland_suryakumar_2017]] [[Ouellette 2017][research_ouellette_2017]] [[Ouyang et al 2021][research_ouyang_gu_2021]] [[Ouyang et al 2026][research_ouyang_jia_2026]] [[Oyibo 1983][research_oyibo_1983]] [[Ozbay 1993][research_ozbay_1993]] [[Panel flutter in a 1991][research_panel_flutter_1991]] [[Passive wing/store flutter suppression 1982][research_passive_wing_store_1982]] [[Patartics et al 2017][research_patartics_luspay_2017]] [[Pecora et al 2018][research_pecora_amoroso_2018]] [[Peloubet, Jr. et al 1983][research_peloubetjr_haller_1983]] [[Perkins and Brice 1966][research_perkins_brice_1966]] [[Perry, Iii et al 1990][research_perryiii_mukhopadhyay_1990]] [[Pines et al 1955][research_pines_dugundji_1955]] [[Pitt et al 2016][research_pitt_sexton_2016]] [[Plath][research_plath]] [[Poplingher et al 2022][research_poplingher_mallik_2022]] [[Porter and Gu 1991][research_porter_gu_1991]] [[Porter et al 1992][research_porter_merzougui_1992]] [[Porter et al 1992][research_porter_merzougui_1992_b]] [[Pushtaev 1989][research_pushtaev_1989]] [[Qian 2018][research_qian_2018]] [[Qian et al 2014][research_qian_huang_2014]] [[Qian et al 2014][research_qian_huang_2014_b]] [[Quero 2025][research_quero_2025]] [[Raja and Upadhya 2007][research_raja_upadhya_2007]] [[Rea et al 2017][research_rea_pecora_2017]] [[Rea et al 2018][research_rea_pecora_2018]] [[Reding and Ericsson 1977][research_reding_ericsson_1977]] [[Reich, hoor, Mart et al 1995][research_reichhoormart_lin_1995]] [[Rendina and Mazzoni 1999][research_rendina_mazzoni_1999]] [[Rigatos et al 2026][research_rigatos_dala_2026]] [[Rock et al 1993][research_rock_ashley_1993]] [[Roger et al 1974][research_roger_hodges_1974]] [[Roy and Eversman 1996][research_roy_eversman_1996]] [[Ruhlin and Pratt-Barlow 1981][research_ruhlin_prattbarlow_1981]] [[Rule et al 2000][research_rule_richard_2000]] [[Rule et al 2001][research_rule_richard_2001]] [[Rutkowski 1979][research_rutkowski_1979]] [[Sabatini et al 2026][research_sabatini_livne_2026]] [[Sabatini et al 2026][research_sabatini_coppotelli_2026]] [[Sahyoun et al 2026][research_sahyoun_boose_2026]] [[Saitoh et al 1995][research_saitoh_hashidate_1995]] [[Santos et al 2026][research_santos_marques_2026]] [[Schauerte et al 2026][research_schauerte_kwong_2026]] [[Schewe and Mai 2019][research_schewe_mai_2019]] [[Schildkamp et al 2023][research_schildkamp_chang_2023]] [[Schmidt 2016][research_schmidt_2016]] [[sekhar et al 2024][research_sekhar_suresh_2024]] [[Sharma et al 2022][research_sharma_agrawal_2022]] [[Sharpe et al 2023][research_sharpe_ulker_2023]] [[Sheta 2000][research_sheta_2000]] [[Silva et al 2006][research_silva_mello_2006]] [[Simmons et al 2026][research_simmons_chang_2026]] [[Singh and Friedmann 2020][research_singh_friedmann_2020]] [[Singh and Friedmann 2021][research_singh_friedmann_2021]] [[Singh and Venkatraman 2023][research_singh_venkatraman_2023]] [[Slaby and Smith 2011][research_slaby_smith_2011]] [[Slater 1985][research_slater_1985]] [[Smith 2025][research_smith_2025]] [[Song et al 2010][research_song_wu_2010]] [[Sotoudeh 2014][research_sotoudeh_2014]] [[Sotoudeh 2015][research_sotoudeh_2015]] [[Spangler, Jr. and Jacques 1999][research_spanglerjr_jacques_1999]] [[Srinathkumar and Adams, Jr. 1989][research_srinathkumar_adamsjr_1989]] [[Stanewsky and Basler 1989][research_stanewsky_basler_1989]] [[Stanford and Beran 2011][research_stanford_beran_2011]] [[Stanford and Jacobson 2023][research_stanford_jacobson_2023]] [[Starodub 2026][research_starodub_2026]] [[Steimle et al 2008][research_steimle_schroder_2008]] [[Su et al 2023][research_su_sun_2023]] [[Sun and Bai 2014][research_sun_bai_2014]] [[Suzuki 1990][research_suzuki_1990]] [[Suzuki and Matsuda 1991][research_suzuki_matsuda_1991]] [[Svoboda and Hromcik 2019][research_svoboda_hromcik_2019]] [[Svoboda et al 2018][research_svoboda_hromcik_2018]] [[Syed et al 2022][research_syed_moshtaghzadeh_2022]] [[Szymanski et al 2025][research_szymanski_alstrom_2025]] [[Tadi 2003][research_tadi_2003]] [[Tang and Dowell 1996][research_tang_dowell_1996]] [[Tang and Dowell 2013][research_tang_dowell_2013]] [[Tang et al 2017][research_tang_chen_2017]] [[Tani 1992][research_tani_1992]] [[Teixeira and Cesnik 2020][research_teixeira_cesnik_2020]] [[Teng 2007][research_teng_2007]] [[Tewari 1998][research_tewari_1998]] [[Tewari 1999][research_tewari_1999]] [[Tewari 2009][research_tewari_2009]] [[Theis et al 2016][research_theis_pfifer_2016]] [[Theis et al 2020][research_theis_pfifer_2020]] [[Tian et al 2026][research_tian_wang_2026]] [[Ting et al 2026][research_ting_berg_2026]] [[Toker and Ozbay][research_toker_ozbay]] [[Torrigiani and Berci 2021][research_torrigiani_berci_2021]] [[Tracy and Chopra 1998][research_tracy_chopra_1998]] [[Triplett 1972][research_triplett_1972]] [[Triplett et al 1973][research_triplett_kappus_1973]] [[U. P. V. et al 2025][research_upv_deodhare_2025]] [[Unsteady Aerodynamics and Flutter 2006][research_unsteady_aerodynamics_2006]] [[Uppoor and Chopra 2026][research_uppoor_chopra_2026]] [[Vepa 2007][research_vepa_2007]] [[Vepa 2007][research_vepa_2007_b]] [[Vernon 1993][research_vernon_1993]] [[Vindigni 2024][research_vindigni_2024]] [[Vindigni et al 2024][research_vindigni_mantegna_2024]] [[Vindigni et al 2024][research_vindigni_mantegna_2024_b]] [[Vindigni et al 2026][research_vindigni_mantegna_2026]] [[Von Flotow 1989][research_vonflotow_1989]] [[Voracek and Clarke 1991][research_voracek_clarke_1991]] [[Waite et al 2019][research_waite_stanford_2019_b]] [[Waitman and Marcos 2020][research_waitman_marcos_2020]] [[Wasmi et al 2015][research_wasmi_hasan_2015]] [[Waszak 1996][research_waszak_1996]] [[Waszak 2001][research_waszak_2001]] [[Waszak and Buttrill 1991][research_waszak_buttrill_1991]] [[Waszak and Srinathkumar 1991][research_waszak_srinathkumar_1991]] [[Waszak and Srinathkumar 1992][research_waszak_srinathkumar_1992]] [[Waszak and Srinathkumar 1995][research_waszak_srinathkumar_1995]] [[weibing and Kuisheng 2006][research_weibing_kuisheng_2006]] [[Weisshaar 1978][research_weisshaar_1978]] [[Weisshaar and Ryan 1984][research_weisshaar_ryan_1984]] [[Weisshaar, T. A. 1983][research_weisshaarta_1983]] [[Wilcox and Brenner 2011][research_wilcox_brenner_2011]] [[Wilde et al 2001][research_wilde_omenzetter_2001]] [[Wing Buffeting Control at 2018][research_wing_buffeting_2018]] [[Woods et al 1989][research_woods_gilbert_1989]] [[Woods et al 1990][research_woods_gilbert_1990]] [[Wright and Silva 2026][research_wright_silva_2026]] [[Wu and Cooper 2016][research_wu_cooper_2016]] [[Wu et al 2022][research_wu_dai_2022]] [[Wuestenhagen 2022][research_wuestenhagen_2022]] [[Wuestenhagen et al 2018][research_wuestenhagen_kier_2018]] [[Wuestenhagen et al 2018][research_wuestenhagen_kier_2018_b]] [[Xiang and Wang 2023][research_xiang_wang_2023]] [[Xiao et al 2022][research_xiao_wang_2022]] [[Xie and Yang 2011][research_xie_yang_2011]] [[Xie et al 2007][research_xie_leng_2007]] [[Xie et al 2016][research_xie_liu_2016]] [[Xiong and Liu 2013][research_xiong_liu_2013]] [[Xiong and Nguyen 2024][research_xiong_nguyen_2024_b]] [[Xiong and Yang 2001][research_xiong_yang_2001]] [[Yang and Wan 1978][research_yang_wan_1978]] [[Yang and Xia 2011][research_yang_xia_2011]] [[Yang et al 2014][research_yang_li_2014]] [[Yang et al 2017][research_yang_huang_2017]] [[Yang et al 2019][research_yang_huang_2019]] [[Yang et al 2025][research_yang_kou_2025]] [[Yates 1963][research_yates_1963]] [[Ye and Ye 2021][research_ye_ye_2021]] [[Yeo et al 2010][research_yeo_potsdam_2010]] [[Yeo et al 2023][research_yeo_kang_2023]] [[Yu et al 2004][research_yu_yuan_2004]] [[Yu et al 2026][research_yu_bose_2026]] [[Yurkovich 1986][research_yurkovich_1986]] [[Zeng et al 2012][research_zeng_kukreja_2012]] [[Zhan 2016][research_zhan_2016]] [[Zhang and Soffker][research_zhang_soffker]] [[Zhang et al 2008][research_zhang_xu_2008]] [[Zhang et al 2026][research_zhang_deng_2026]] [[Zhao 2009][research_zhao_2009]] [[Zhong et al 2025][research_zhong_xia_2025]] [[Zhou et al 2018][research_zhou_yu_2018]] [[Zhu and Qiao 2009][research_zhu_qiao_2009]] [[Zou et al 2021][research_zou_mu_2021]] [[Zou et al 2022][research_zou_huang_2022]] [[Čečrdle 2018][research_cecrdle_2018]]
-
-### Measuring a wing in the air
-
-**The largest cluster, and half of what this programme actually was.** Flight test technique, parameter identification, strain-gauge load calibration and in-flight deflection measurement. **The X-53 spent its whole first phase measuring itself** before anybody wrote a control law, and the models that came out of that phase are what the second phase flew.
-
-**400 records.** [[A comparative study of 2026][research_a_comparative_2026]] [[A flight research program for active aeroelastic wing technology][research_aaw_flight_research_plan]] [[Active aeroelastic wing flight research program, technical program and model analytical development][research_aaw_technical_program]] [[Advisory Group for Aerospace Research and Development 1984][research_advisorygroupforaerospaceresearchanddevelopment_1984]] [[Air Force Flight Test Center Edwards Afb Ca 1970][research_airforceflighttestcenteredwardsafbca_1970]] [[Air Force Flight Test Center Edwards Afb Ca 1974][research_airforceflighttestcenteredwardsafbca_1974]] [[Air Force Flight Test Center Edwards Afb Ca 1974][research_airforceflighttestcenteredwardsafbca_1974_b]] [[Air Force Flight Test Center Edwards Afb Ca 2002][research_airforceflighttestcenteredwardsafbca_2002]] [[Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]] [[Air Force Test Pilot School Edwards Afb Ca 1990][research_airforcetestpilotschooledwardsafbca_1990]] [[Air Force Test Pilot School Edwards Afb Ca 1990][research_airforcetestpilotschooledwardsafbca_1990_b]] [[Ajaj and Djidjeli 2022][research_ajaj_djidjeli_2022]] [[Alaverdi and Paris 2001][research_alaverdi_paris_2001]] [[Albisser][research_albisser]] [[Alvarez 2014][research_alvarez_2014]] [[Anderson et al 1983][research_anderson_vincent_1983]] [[Andrews and Gordon 1981][research_andrews_gordon_1981]] [[Andrienko et al 2010][research_andrienko_tropova_2010]] [[Aref'ev 1968][research_arefev_1968]] [[Armstrong 1977][research_armstrong_1977]] [[Arnold 1981][research_arnold_1981]] [[Bach and McNally 1988][research_bach_mcnally_1988]] [[Bachelder et al 2011][research_bachelder_thompson_2011]] [[Baer-Riedhart 1981][research_baerriedhart_1981]] [[Bateman et al 2023][research_bateman_dewekker_2023]] [[Baumann et al 2008][research_baumann_pahle_2008]] [[Bednarz et al 2013][research_bednarz_zhu_2013]] [[Belisle et al 2010][research_belisle_neale_2010]] [[Benjamin M Simmons][research_benjaminmsimmons]] [[Benyamen and Keshmiri 2022][research_benyamen_keshmiri_2022]] [[Beug et al 2012][research_beug_moser_2012]] [[Bever 1992][research_bever_1992]] [[Biederman et al 1994][research_biederman_meincke_1994]] [[Bigler 1986][research_bigler_1986]] [[Birks and Ludlow 1969][research_birks_ludlow_1969]] [[Blair et al 2008][research_blair_robinson_2008]] [[Bleimeyer 1981][research_bleimeyer_1981]] [[Bohacek et al][research_bohacek_nakamura]] [[Bouchalkha et al 2015][research_bouchalkha_alhammadi_2015]] [[Brandon and Morelli 2014][research_brandon_morelli_2014]] [[Brenner and Prazenica 2005][research_brenner_prazenica_2005]] [[Bronz and Hattenberger 2016][research_bronz_hattenberger_2016]] [[Brown et al 2004][research_brown_dillon_2004]] [[Bunge et al 2015][research_bunge_munerasavino_2015]] [[Burch 1966][research_burch_1966]] [[Burch 1967][research_burch_1967]] [[Burcham, Jr. et al 1981][research_burchamjr_myers_1981]] [[Burchett 2011][research_burchett_2011]] [[Burchett 2012][research_burchett_2012]] [[Canniff 1969][research_canniff_1969]] [[Carico 1998][research_carico_1998]] [[Carpenter et al 2018][research_carpenter_solomon_2018]] [[Carter][research_carter]] [[Castellani et al 2016][research_castellani_cooper_2016_b]] [[Castillo Zuñiga et al 2019][research_castillozuniga_giacobinisouza_2019]] [[Chahmi 2022][research_chahmi_2022]] [[Chapman and Yates 1992][research_chapman_yates_1992]] [[Chase][research_chase]] [[Chase and McDonald 2014][research_chase_mcdonald_2014]] [[Chen et al 2026][research_chen_ding_2026]] [[Cheney 1988][research_cheney_1988]] [[Chestnutt 1966][research_chestnutt_1966]] [[Clarke and Roskam 1982][research_clarke_roskam_1982]] [[Clarke et al 2005][research_clarke_allen_2005]] [[Cliett 1952][research_cliett_1952]] [[Cockrell and Doherr 1981][research_cockrell_doherr_1981]] [[Corminboeuf 2015][research_corminboeuf_2015]] [[Cornell Aeronautical Lab Inc Buffalo Ny 1947][research_cornellaeronauticallabincbuffalony_1947]] [[Couch et al 2001][research_couch_duren_2001]] [[Cowan et al 1998][research_cowan_arenajr_1998]] [[Crites et al 1992][research_crites_rueger_1992]] [[Cui et al 2021][research_cui_jianlong_2021]] [[Cunningham et al 2008][research_cunningham_foster_2008]] [[Cusimano and Johnson 1994][research_cusimano_johnson_1994]] [[Danowsky et al 2012][research_danowsky_schulze_2012]] [[de Visser and Pool 2023][research_devisser_pool_2023]] [[Deangelis 1981][research_deangelis_1981]] [[DeAngelis 1982][research_deangelis_1982]] [[Deiler 2016][research_deiler_2016]] [[Demo 1986][research_demo_1986]] [[Development of a Continuous 2012][research_development_of_2012]] [[Dias 2023][research_dias_2023]] [[Dicarlo et al 1992][research_dicarlo_brown_1992]] [[Dobronski 1988][research_dobronski_1988]] [[Dooley and Yeary 1979][research_dooley_yeary_1979]] [[Dorin and Smolin 1977][research_dorin_smolin_1977]] [[Drouet and Champoux 2014][research_drouet_champoux_2014]] [[Dwyer 1994][research_dwyer_1994]] [[Dynamic force calibration of][research_dynamic_force]] [[Ellis et al 2001][research_ellis_hui_2001]] [[Energy Approach To Performance 2003][research_energy_approach_2003]] [[Engelien 1994][research_engelien_1994]] [[Erdman 2005][research_erdman_2005]] [[Eulrich and Rynaski 1980][research_eulrich_rynaski_1980]] [[F.M. Strain Gauge System 1975][research_f_m_strain_1975]] [[Fechter and Mills 1988][research_fechter_mills_1988]] [[Finnestead et al 1970][research_finnestead_connor_1970]] [[Fischenberg 1995][research_fischenberg_1995]] [[Fisher et al 1956][research_fisher_gertsen_1956]] [[Flight test of a 1979][research_flight_test_1979]] [[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]] [[Flight Testing 1992][research_flight_testing_1992]] [[Flight-Loads Prediction and Structural-Life 1981][research_flight_loads_prediction_1981]] [[Force measurement. Strain gauge][research_force_measurement]] [[Fosdick 1970][research_fosdick_1970]] [[Foster 1966][research_foster_1966]] [[Francisco Peña and Benjamin Park 2024][research_franciscopena_benjaminpark_2024]] [[French 1988][research_french_1988]] [[French and Eastep 1996][research_french_eastep_1996]] [[Frierson and Van Meter 1977][research_frierson_vanmeter_1977]] [[Frierson et al 1978][research_frierson_moore_1978]] [[Frost, Susan A. et al 2015][research_frostsusana_wrightcameronhg_2015]] [[Further development and flight 1994][research_further_development_1994]] [[Gallagher and Wei 2008][research_gallagher_wei_2008]] [[Galway 1980][research_galway_1980]] [[Garcia-Velo and Walker 1995][research_garciavelo_walker_1995]] [[Gera et al 1981][research_gera_wilson_1981]] [[Gibson 1981][research_gibson_1981]] [[Gibson and Ung 1995][research_gibson_ung_1995]] [[Goodman and Conigliaro 1986][research_goodman_conigliaro_1986]] [[Gorbushin et al 2024][research_gorbushin_kozik_2024]] [[Goupil][research_goupil]] [[Grauer and Boucher 2017][research_grauer_boucher_2017]] [[Grauer and Morelli 2023][research_grauer_morelli_2023]] [[Gregory and McCrink 2016][research_gregory_mccrink_2016]] [[Gupta 2011][research_gupta_2011]] [[Gupta 2019][research_gupta_2019]] [[Hale and Chapman 2012][research_hale_chapman_2012]] [[Hanafee and Radcliffe 1967][research_hanafee_radcliffe_1967]] [[Harris et al 2016][research_harris_arthurs_2016]] [[Hatamleh et al 2009][research_hatamleh_ma_2009]] [[Hayashi and Ueda 2017][research_hayashi_ueda_2017]] [[Helicopter Flight Parameter Identification 1987][research_helicopter_flight_1987]] [[Helmken et al 1996][research_helmken_emmons_1996]] [[Hess 1986][research_hess_1986]] [[Hicks and Jenkins 1990][research_hicks_jenkins_1990]] [[High-Load Strain Gauge Balance 2018][research_high_load_strain_2018]] [[Hiti 2017][research_hiti_2017]] [[Hodges and Mckenzie 1975][research_hodges_mckenzie_1975]] [[Hofmann et al 2025][research_hofmann_hosseini_2025]] [[Holberg and Grabowsky 1981][research_holberg_grabowsky_1981]] [[Hollis et al 1999][research_hollis_brandon_1999]] [[Holman and Tuozzolo 2009][research_holman_tuozzolo_2009]] [[Hosseini et al 2025][research_hosseini_hofmann_2025]] [[Howell 1988][research_howell_1988]] [[Hu et al 2009][research_hu_qu_2009]] [[Hu et al 2024][research_hu_yu_2024]] [[Hu et al 2026][research_hu_traisnel_2026]] [[Hughes and Wernicke 1974][research_hughes_wernicke_1974]] [[Hur and Valasek 2003][research_hur_valasek_2003]] [[Iaconis and D'Emilia 1994][research_iaconis_demilia_1994]] [[Idsardi 1983][research_idsardi_1983]] [[Iliff and Maine 1983][research_iliff_maine_1983]] [[In-flight deflection measurement of the HiMAT aeroelastically tailored wing][research_himat_deflection]] [[Incorporating agility flight test 1994][research_incorporating_agility_1994]] [[Introduction to Stability and 2003][research_introduction_to_2003]] [[Iriarte et al 2021][research_iriarte_aginaga_2021]] [[Ishii et al 2005][research_ishii_gomi_2005]] [[Jain et al 2025][research_jain_singla_2025]] [[Jategaonkar et al 2004][research_jategaonkar_fischenberg_2004]] [[Jenkins et al 1977][research_jenkins_kuhl_1977]] [[Jenkins, Jerald M. and Kuhl, Albert E. 1977][research_jenkinsjeraldm_kuhlalberte_1977]] [[Kaletka and Fu 1993][research_kaletka_fu_1993]] [[Kannemans 1995][research_kannemans_1995]] [[Kelly 1974][research_kelly_1974]] [[Kelly 1988][research_kelly_1988]] [[Kim 2004][research_kim_2004]] [[Kim et al 2013][research_kim_ahn_2013]] [[King 1944][research_king_1944]] [[Klabes et al 2018][research_klabes_callsen_2018]] [[Klimek 2024][research_klimek_2024]] [[Knighton 1992][research_knighton_1992]] [[Kobow et al 2026][research_kobow_wennemann_2026]] [[Kobusch and Eichstädt 2017][research_kobusch_eichstadt_2017]] [[Koeniguer and Spear 2018][research_koeniguer_spear_2018]] [[Kokolios 1994][research_kokolios_1994]] [[Krasuski and Bakuła 2021][research_krasuski_bakua_2021]] [[Krings et al 2013][research_krings_henning_2013]] [[Kukreja 2009][research_kukreja_2009]] [[Kukreja and Brenner][research_kukreja_brenner]] [[Kulhánek 2019][research_kulhanek_2019]] [[Kumar and Ghosh 2017][research_kumar_ghosh_2017]] [[Kumar and Ghosh 2023][research_kumar_ghosh_2023]] [[Kumar et al 2008][research_kumar_ganguli_2008]] [[Kuppuswamy and Kiran 1981][research_kuppuswamy_kiran_1981]] [[Kutluay et al 2009][research_kutluay_mahmutyazicioglu_2009]] [[Laban and Masui 1993][research_laban_masui_1993]] [[Lamour 2014][research_lamour_2014]] [[Lamy 1983][research_lamy_1983]] [[Lang 1981][research_lang_1981]] [[Large et al 1981][research_large_may_1981]] [[Larsson 2019][research_larsson_2019]] [[Layton 1986][research_layton_1986]] [[Lekou and Mouzakis 2009][research_lekou_mouzakis_2009]] [[Levchenko 1987][research_levchenko_1987]] [[Level Flight Performance Flight 2003][research_level_flight_2003]] [[Lieberman 1963][research_lieberman_1963]] [[Lim et al 2000][research_lim_sreenatha_2000]] [[Lin 1983][research_lin_1983]] [[Lind and Brenner 1998][research_lind_brenner_1998]] [[Lind and Brenner 1999][research_lind_brenner_1999]] [[Lind and Brenner 1999][research_lind_brenner_1999_b]] [[Liu et al 2023][research_liu_pang_2023]] [[Liu et al 2023][research_liu_wang_2023]] [[Lo and Chan][research_lo_chan]] [[Lokos et al 2002][research_lokos_olney_2002_b]] [[Lokos et al 2005][research_lokos_lizotte_2005]] [[Lokos, William A. and Stauf, Rick 2004][research_lokoswilliama_staufrick_2004]] [[Lokos, William A. et al 2015][research_lokoswilliama_millerericj_2015]] [[Londono and Leonhardt 2012][research_londono_leonhardt_2012]] [[Long 1968][research_long_1968]] [[Longitudinal Control And Trim 2003][research_longitudinal_control_2003]] [[Lykins and Keshmiri 2010][research_lykins_keshmiri_2010]] [[Macmillan 1981][research_macmillan_1981]] [[Mandal and Gu 2016][research_mandal_gu_2016]] [[Mansfield 1953][research_mansfield_1953]] [[Martin 1978][research_martin_1978]] [[Martin Co Denver Co 1966][research_martincodenverco_1966]] [[Maslan et al 2018][research_maslan_sira_2018]] [[Matheny and Panageas 1981][research_matheny_panageas_1981]] [[Maunder 1979][research_maunder_1979]] [[McClintock 1959][research_mcclintock_1959]] [[Mckenzie 1973][research_mckenzie_1973]] [[Mcnally and Bach, Jr. 1988][research_mcnally_bachjr_1988]] [[McQuinn and Valasek 2025][research_mcquinn_valasek_2025]] [[Mehra, R. K. and Eupta, N. K. 1975][research_mehrark_euptank_1975]] [[Mehra, R. K. and Tyler, J. S. 1973][research_mehrark_tylerjs_1973]] [[Mehta et al 2017][research_mehta_marland_2017]] [[Mertaugh 1998][research_mertaugh_1998]] [[Meyer, Jr. and Schneider 1983][research_meyerjr_schneider_1983]] [[Miller et al 2011][research_miller_decallafon_2011]] [[Miller et al 2019][research_miller_pena_2019]] [[Miller, Jr. 1973][research_millerjr_1973]] [[Miodushevsky and Ruggiero 2000][research_miodushevsky_ruggiero_2000]] [[Mohamed and Dongare 2021][research_mohamed_dongare_2021]] [[Montel and Thielecke 2015][research_montel_thielecke_2015]] [[Mordfin and Bloss 1962][research_mordfin_bloss_1962]] [[Morelli 2011][research_morelli_2011]] [[Morelli 2012][research_morelli_2012]] [[Morelli and Klein 1995][research_morelli_klein_1995]] [[Morger 1988][research_morger_1988]] [[Nakadate 2005][research_nakadate_2005]] [[Nicolaides 1976][research_nicolaides_1976]] [[Nicolas et al 2016][research_nicolas_sullivan_2016]] [[Niculescu et al 2021][research_niculescu_corcau_2021]] [[Nieminen et al 2023][research_nieminen_tuohineva_2023]] [[Nisbet et al 1958][research_nisbet_brennan_1958]] [[Nisbet et al 1960][research_nisbet_brennan_1960]] [[Niven and Tait 2000][research_niven_tait_2000]] [[Norton 1990][research_norton_1990]] [[Ockier et al 2017][research_ockier_kolb_2017]] [[Oelker and Friehmelt 1998][research_oelker_friehmelt_1998]] [[Ogren et al 1974][research_ogren_sotanski_1974]] [[Overload Detection System Using 2023][research_overload_detection_2023]] [[Padua and Preisighe Viana 2025][research_padua_preisigheviana_2025]] [[Pang et al 2025][research_pang_yin_2025]] [[Paris and Alaverdi 2005][research_paris_alaverdi_2005]] [[Pawlak 1994][research_pawlak_1994]] [[Peele, E. L. and Eckstrom, C. V. 1975][research_peeleel_eckstromcv_1975]] [[Pendleton et al 1998][research_pendleton_bessette_1998]] [[Pendleton et al 2007][research_pendleton_flick_2007]] [[Peng et al 2024][research_peng_wang_2024]] [[Peschel and Röske 2000][research_peschel_roske_2000]] [[Petersen 1981][research_petersen_1981]] [[Petronevich et al 2021][research_petronevich_lyutov_2021]] [[Philipsen and Zhai 2007][research_philipsen_zhai_2007]] [[Picard 2002][research_picard_2002]] [[Plaetschke et al 1982][research_plaetschke_mulder_1982]] [[Porterfield and Alexander 1970][research_porterfield_alexander_1970]] [[Prato et al 2026][research_prato_facello_2026]] [[Production support flight control computers, research capability for F/A-18 aircraft at Dryden Flight Research Center][research_psfcc]] [[Qiu and Wang 2021][research_qiu_wang_2021]] [[Qu et al 2025][research_qu_xu_2025]] [[Raab 2014][research_raab_2014]] [[Raab 2026][research_raab_2026]] [[Raisinghani and Adak 1983][research_raisinghani_adak_1983]] [[Raisinghani and Kumar 1995][research_raisinghani_kumar_1995]] [[Rakin 1981][research_rakin_1981]] [[Raol and Singh 2023][research_raol_singh_2023_b]] [[Ratcliff et al 2016][research_ratcliff_bodkin_2016]] [[Reasor et al 2016][research_reasor_bhamidipati_2016]] [[Rediess and Melton 1994][research_rediess_melton_1994]] [[Reschke 2005][research_reschke_2005]] [[Rester and A. C. 1984][research_rester_ac_1984]] [[Rester and Alfred C. 1988][research_rester_alfredc_1988]] [[Rhoads 1952][research_rhoads_1952]] [[Richter et al 2023][research_richter_khalifa_2023]] [[Riemersma and Lammertink 1988][research_riemersma_lammertink_1988]] [[Rising 1982][research_rising_1982]] [[Roberts et al 1966][research_roberts_smith_1966]] [[Roeser and Mönnich 2024][research_roeser_monnich_2024]] [[Ruiz Garcia et al 2022][research_ruizgarcia_brown_2022]] [[Ruler 1967][research_ruler_1967]] [[Rustenburg 1973][research_rustenburg_1973]] [[S.A. Gee et al][research_sagee_akylas]] [[Saric 2010][research_saric_2010]] [[Sarnico 1993][research_sarnico_1993]] [[Schajer 2021][research_schajer_2021]] [[Schwanz and Grimes 1980][research_schwanz_grimes_1980]] [[Schäck 2020][research_schack_2020]] [[Shi et al 2023][research_shi_wang_2023]] [[Shi et al 2023][research_shi_zuo_2023]] [[Shock location dominated transonic flight loads on the active aeroelastic wing][research_aaw_shock_loads]] [[Simpson 1972][research_simpson_1972]] [[Simulation in support of 1988][research_simulation_in_1988]] [[Sinske et al 2018][research_sinske_govers_2018]] [[Smith et al 2003][research_smith_moes_2003]] [[Sneshko et al 2005][research_sneshko_chetvergov_2005]] [[Socha and Izydorczyk 2024][research_socha_izydorczyk_2024]] [[Staley 1976][research_staley_1976]] [[Stalford 1980][research_stalford_1980]] [[Stange 1959][research_stange_1959]] [[Starr et al 2011][research_starr_olds_2011]] [[Static Longitudinal Stability Flight 2003][research_static_longitudinal_2003]] [[Stengel 1983][research_stengel_1983]] [[Stepanova 2025][research_stepanova_2025]] [[Stevenson 1991][research_stevenson_1991]] [[Stewart and Bauer 1983][research_stewart_bauer_1983]] [[Strain gage loads calibration testing of the active aeroelastic wing F/A-18 aircraft][research_strain_gage_calibration]] [[Strain Gauge Bonding Service 1975][research_strain_gauge_1975]] [[Strain Gauge Specifications 1967][research_strain_gauge_1967]] [[Strain Gauge Symposium and 1965][research_strain_gauge_1965]] [[Strang 1943][research_strang_1943]] [[Subramanya and Prasad 2013][research_subramanya_prasad_2013]] [[Sun et al 2018][research_sun_schilder_2018]] [[Svec 1981][research_svec_1981]] [[Svendsen 1994][research_svendsen_1994]] [[Sykes][research_sykes]] [[Szymanski et al 2025][research_szymanski_ghazi_2025]] [[Sóbester 2021][research_sobester_2021]] [[Taha et al 2011][research_taha_tang_2011]] [[Tai et al 2023][research_tai_wang_2023]] [[Tantrairatn and Veres 2015][research_tantrairatn_veres_2015]] [[Taranto and Abdulrahim 2023][research_taranto_abdulrahim_2023]] [[Tartabini et al 2016][research_tartabini_gilbert_2016]] [[Taylor 2012][research_taylor_2012]] [[Taylor et al 1992][research_taylor_bennett_1992]] [[Tegelaar 1984][research_tegelaar_1984]] [[Teng and Fan 2025][research_teng_fan_2025]] [[The Saunders-Roe Technograph Foil 1952][research_the_saunders_roe_1952]] [[Thienel et al 1998][research_thienel_lewis_1998]] [[Tischler 2018][research_tischler_2018]] [[Tischler and Zivan 2007][research_tischler_zivan_2007]] [[Tomaine, R. L. et al 1978][research_tomainerl_bryantwh_1978]] [[Tracy 1981][research_tracy_1981]] [[Travassos and Kaufman 1979][research_travassos_kaufman_1979]] [[Tsonev and Kuzmanov 2022][research_tsonev_kuzmanov_2022]] [[Ulbrich 2011][research_ulbrich_2011]] [[Ulbrich 2024][research_ulbrich_2024]] [[Van Gaasbeek 1980][research_vangaasbeek_1980]] [[Van Graas et al 1994][research_vangraas_diggle_1994]] [[Van Pelt 1981][research_vanpelt_1981]] [[Van Wyckhouse 1966][research_vanwyckhouse_1966]] [[Vanwalleghem et al 2015][research_vanwalleghem_debaere_2015]] [[Verstynen, Jr. 1974][research_verstynenjr_1974]] [[Vincent and Franklin 1981][research_vincent_franklin_1981]] [[Volobuyev et al 2017][research_volobuyev_gorbushin_2017]] [[Voracek et al 2002][research_voracek_reaves_2002]] [[Walendziuk 2018][research_walendziuk_2018]] [[Wallace 1978][research_wallace_1978]] [[Wallace 2000][research_wallace_2000]] [[Wang and Iliff 2004][research_wang_iliff_2004]] [[Wang et al 1986][research_wang_demiroz_1986]] [[Wang et al 2022][research_wang_tai_2022]] [[Wang et al 2023][research_wang_xing_2023]] [[Wang et al 2024][research_wang_li_2024]] [[Ward 1988][research_ward_1988]] [[Wei and Zhang 2024][research_wei_zhang_2024]] [[Weinstein et al 2018][research_weinstein_hubbard_2018]] [[Wells and Keskar 1979][research_wells_keskar_1979]] [[Wells et al 1981][research_wells_banda_1981]] [[Wells et al 1982][research_wells_banda_1982]] [[Whitbeck et al 1982][research_whitbeck_smith_1982]] [[White 1973][research_white_1973]] [[Wieland 2025][research_wieland_2025]] [[Wildschek et al 2009][research_wildschek_maier_2009]] [[Wilson][research_wilson]] [[Wilson et al 2016][research_wilson_ryan_2016]] [[Wingrove, R. C. 1978][research_wingroverc_1978]] [[Winters et al 1991][research_winters_hassan_1991]] [[Wolf and Bossert 2001][research_wolf_bossert_2001]] [[Woodrow et al 2013][research_woodrow_tischler_2013]] [[Woodruff 2009][research_woodruff_2009]] [[Woolf 2012][research_woolf_2012]] [[Xiao et al 2011][research_xiao_li_2011]] [[Xu and West 1990][research_xu_west_1990]] [[Yavuztürk et al 2017][research_yavuzturk_topbas_2017]] [[Yee 1992][research_yee_1992]] [[Yu et al 2013][research_yu_zhao_2013]] [[Yuan 2026][research_yuan_2026]] [[Zhang and Cheng 2025][research_zhang_cheng_2025]] [[Zhang and Cheng 2026][research_zhang_cheng_2026]] [[Zhang et al 2013][research_zhang_yang_2013]] [[Zhao et al 2025][research_zhao_zhang_2025]] [[Zhavyrkin and Sladkova 2023][research_zhavyrkin_sladkova_2023]] [[Zhou et al 2013][research_zhou_xu_2013]] [[Zhuang and Lei 2020][research_zhuang_lei_2020]] [[Zubin 1998][research_zubin_1998]] [[Çelik and Metin 2026][research_celik_metin_2026]] [[Ştefănescu 2020][research_stefanescu_2020]]
-
-### Shaping a wing so that it bends usefully
-
-**Aeroelastic tailoring, composite covers, wing boxes and the morphing literature that grew out of them.** **The classical answer to a flexible wing is to stiffen it and stiffness is weight**, and this shelf is the eighty-year argument about whether there is another answer.
-
-**383 records.** [[Abdelkader et al 2011][research_abdelkader_harmin_2011]] [[Abdi, F. et al 1988][research_abdif_ideh_1988]] [[Abdullah and Sulaeman 2013][research_abdullah_sulaeman_2013]] [[Abdulrahim et al 2004][research_abdulrahim_garcia_2004]] [[Abraham-Doman and Merrett 2014][research_abrahamdoman_merrett_2014]] [[Aero structural optimization for 2018][research_aero_structural_2018]] [[Ahmadi and Farsadi 2024][research_ahmadi_farsadi_2024]] [[Alsaidi et al 2018][research_alsaidi_akbar_2018]] [[Alsaidi et al 2018][research_alsaidi_akbar_2018_b]] [[Alsaidi et al 2019][research_alsaidi_joe_2019]] [[Alsaidi et al 2019][research_alsaidi_joe_2019_b]] [[Alulema et al 2020][research_alulema_valencia_2020]] [[Alvarez and Wissa 2021][research_alvarez_wissa_2021]] [[Alyanak and Pendleton 2014][research_alyanak_pendleton_2014]] [[Alyanak and Pendleton 2017][research_alyanak_pendleton_2017]] [[Amendola et al 2018][research_amendola_dimino_2018]] [[Ameri et al 2007][research_ameri_lowenberg_2007]] [[American Institute of Aeronautics and Astronautics 1993][research_americaninstituteofaeronauticsandastronautics_1993]] [[Andakhshideh and Tahani 2013][research_andakhshideh_tahani_2013]] [[Arizono and Isogai 2005][research_arizono_isogai_2005]] [[Austin et al 1976][research_austin_hadcock_1976]] [[Ayaz et al 2024][research_ayaz_rasoolmemon_2024]] [[Azzi et al 2024][research_azzi_tahiliani_2024]] [[Balon et al 2021][research_balon_benes_2021]] [[Bang et al 2022][research_bang_rana_2022]] [[Bartels et al 2019][research_bartels_stanford_2019]] [[Bartels et al 2019][research_bartels_stanford_2019_b]] [[Beatty et al 1977][research_beatty_brooks_1977]] [[Beaverstock et al 2015][research_beaverstock_woods_2015]] [[Bilgen et al 2011][research_bilgen_saavedraflores_2011]] [[Blair and Canfield 2002][research_blair_canfield_2002]] [[Bohlmann et al 1988][research_bohlmann_weisshaar_1988]] [[Bohlmann et al 1992][research_bohlmann_love_1992]] [[Bohlmann, Jonathan D. and Scott, Robert C. 1991][research_bohlmannjonathand_scottrobertc_1991]] [[Bonnema and Smith 1988][research_bonnema_smith_1988]] [[Bonnema, Kenneth L. and Lokos, William A. 1989][research_bonnemakennethl_lokoswilliama_1989]] [[Bordogna et al 2016][research_bordogna_macquart_2016]] [[Bordogna et al 2020][research_bordogna_lancelot_2020]] [[Botez et al 2018][research_botez_koreanschi_2018]] [[Cao and Lyu 2024][research_cao_lyu_2024]] [[Cao et al 2024][research_cao_zhao_2024]] [[Cao et al 2025][research_cao_lin_2025]] [[Carrillo et al 2024][research_carrillo_debreuker_2024]] [[Cavagna et al 2011][research_cavagna_ricci_2011]] [[Cen et al 2025][research_cen_xu_2025]] [[Cen et al 2026][research_cen_xu_2026]] [[Cesnik 2002][research_cesnik_2002]] [[Cesnik 2005][research_cesnik_2005]] [[Cesnik et al 2000][research_cesnik_ortegamorales_2000]] [[Chae et al 2017][research_chae_moosavian_2017]] [[Chen and Han 2017][research_chen_han_2017]] [[Chen et al 2015][research_chen_zhou_2015]] [[Cheng et al 2025][research_cheng_song_2025]] [[Choi et al 2020][research_choi_lim_2020]] [[Clark 2001][research_clark_2001]] [[Dale et al 2013][research_dale_cooper_2013]] [[Dale et al 2014][research_dale_cooper_2014]] [[De Breuker et al 2018][research_debreuker_binder_2018]] [[De Gaspari et al 2015][research_degaspari_ricci_2015]] [[Decamp and Hardy 1984][research_decamp_hardy_1984]] [[Delgado Regis et al 2004][research_delgadoregis_mattos_2004]] [[Dillenius and Mcintosh, Jr. 1988][research_dillenius_mcintoshjr_1988]] [[Dimino et al 2021][research_dimino_andreutti_2021]] [[Dubnický et al 2023][research_dubnicky_splichal_2023]] [[Dunning et al 2014][research_dunning_stanford_2014]] [[Eastep et al 1999][research_eastep_tischler_1999]] [[Eguea][research_eguea]] [[Eldwaib et al 2018][research_eldwaib_grbovic_2018]] [[Elham and Bahamonde Jacome 2016][research_elham_bahamondejacome_2016]] [[Elham and Timmer 2016][research_elham_timmer_2016]] [[Elshazly et al 2025][research_elshazly_kassem_2025]] [[Eraslan and Oktay 2023][research_eraslan_oktay_2023]] [[Eraslan and Oktay 2024][research_eraslan_oktay_2024]] [[España and Gilyard 1995][research_espana_gilyard_1995]] [[Espńa and Gilyard 1994][research_espna_gilyard_1994]] [[Fasel 2020][research_fasel_2020]] [[Feng et al 2015][research_feng_liu_2015]] [[Feng et al 2015][research_feng_liu_2015_b]] [[Fichera et al 2019][research_fichera_isnardi_2019]] [[Flexible manufacturing cell for 2003][research_flexible_manufacturing_2003]] [[Flight test results from a supercritical mission adaptive wing with smooth variable camber][research_mission_adaptive_flight]] [[Fonte et al 2018][research_fonte_iannaccone_2018]] [[Friedmann et al 1992][research_friedmann_venkatesan_1992]] [[Gamboa and Santos 2016][research_gamboa_santos_2016]] [[Gandhi et al 2009][research_gandhi_cooper_2009]] [[Ganguli and Chopra 1997][research_ganguli_chopra_1997]] [[Garcia et al 2003][research_garcia_abdulrahim_2003]] [[Gasbarri et al 2009][research_gasbarri_chiwiacowsky_2009]] [[Gautham Vigneswar et al 2025][research_gauthamvigneswar_ali_2025]] [[Gautham Vigneswar et al 2025][research_gauthamvigneswar_ali_2025_b]] [[Georgiou et al 2012][research_georgiou_manan_2012]] [[Gern and Librescu 2000][research_gern_librescu_2000]] [[Giese et al 1996][research_giese_reich_1996]] [[Gimmestad 1981][research_gimmestad_1981]] [[Giraud et al 2021][research_giraud_raibaudo_2021]] [[Green 1986][research_green_1986]] [[Green 1987][research_green_1987]] [[Griffin][research_griffin]] [[Grigorie and Botez 2014][research_grigorie_botez_2014]] [[Grigorie and Botez 2018][research_grigorie_botez_2018]] [[Grigorie et al 2009][research_grigorie_botez_2009]] [[Grigorie et al 2011][research_grigorie_popov_2011]] [[Gupta 2012][research_gupta_2012]] [[Haider et al 2022][research_haider_ajaj_2022]] [[Haider et al 2023][research_haider_ajaj_2023]] [[He et al 2023][research_he_wang_2023]] [[Heaney and Quindlen 2024][research_heaney_quindlen_2024]] [[Henry et al 2017][research_henry_molinari_2017]] [[Herencia et al 2007][research_herencia_weaver_2007]] [[Hu][research_hu]] [[Hu et al 2025][research_hu_dai_2025]] [[Hua et al 2025][research_hua_wang_2025]] [[Huang et al 2024][research_huang_wang_2024]] [[Huang et al 2025][research_huang_fraihat_2025]] [[Iannuzzo et al 2018][research_iannuzzo_russo_2018]] [[Ibren et al 2020][research_ibren_sulaeman_2020]] [[Islam et al 2025][research_islam_rahman_2025]] [[Islam et al 2025][research_islam_rahman_2025_b]] [[Islam et al 2026][research_islam_rahman_2026]] [[Isogai 1988][research_isogai_1988]] [[Isogai 1989][research_isogai_1989]] [[Jha and Chattopadhyay 1999][research_jha_chattopadhyay_1999]] [[Jia et al 2022][research_jia_zhang_2022]] [[Jia et al 2023][research_jia_zhang_2023]] [[Jiang and Yang 2026][research_jiang_yang_2026]] [[Jin et al 2013][research_jin_song_2013]] [[Jing and Zhang 2017][research_jing_zhang_2017]] [[Jini Raj et al 2023][research_jiniraj_bruceralphinrose_2023]] [[Jo and Majid 2023][research_jo_majid_2023]] [[Jodin et al 2017][research_jodin_scheller_2017]] [[John F Quindlen et al][research_johnfquindlen_danielmortega]] [[Joo et al 2015][research_joo_marks_2015]] [[Jun et al 2014][research_jun_harmin_2014]] [[Jutte, Christine and Stanford, Bret K. 2014][research_juttechristine_stanfordbretk_2014]] [[Kalaji 2023][research_kalaji_2023]] [[Kapania and Chun 2003][research_kapania_chun_2003]] [[Kapase et al 2026][research_kapase_joshi_2026]] [[Karpel and Sheena 1989][research_karpel_sheena_1989]] [[Karpel et al 2000][research_karpel_moulin_2000]] [[Karpouzian and Librescu 1991][research_karpouzian_librescu_1991]] [[Katagiri et al 2024][research_katagiri_park_2024]] [[Katam et al 2005][research_katam_lebeau_2005]] [[Kaufman et al 1996][research_kaufman_balabanov_1996]] [[Kaygan and Ulusoy 2018][research_kaygan_ulusoy_2018]] [[Keidel et al 2019][research_keidel_molinari_2019]] [[Keidel et al 2020][research_keidel_lienhard_2020]] [[Khot et al 2002][research_khot_zweber_2002]] [[Kim et al 2007][research_kim_kim_2007]] [[Kimaru and Bouferrouk 2017][research_kimaru_bouferrouk_2017]] [[Kirsch et al 2020][research_kirsch_montagnier_2020]] [[Koo 2001][research_koo_2001]] [[Koohi et al 2014][research_koohi_shahverdi_2014]] [[Kopsaftopoulos et al 2015][research_kopsaftopoulos_nardari_2015]] [[Koreanschi et al 2014][research_koreanschi_oliviu_2014]] [[Koreanschi et al 2016][research_koreanschi_oliviu_2016]] [[Krüger et al 2022][research_kruger_meddaikar_2022]] [[Kuder et al 2014][research_kuder_arrieta_2014]] [[Larson 1986][research_larson_1986]] [[Leal et al 2017][research_leal_petterson_2017]] [[Leal et al 2018][research_leal_stroud_2018]] [[Leal et al 2018][research_leal_white_2018]] [[Lebofsky et al 2015][research_lebofsky_ting_2015]] [[Lebofsky et al 2015][research_lebofsky_ting_2015_b]] [[Leitch et al 2024][research_leitch_stodieck_2024]] [[Leitch et al 2025][research_leitch_stodieck_2025]] [[Li and Ang 2016][research_li_ang_2016]] [[Li and Li 2016][research_li_li_2016]] [[Li et al 2019][research_li_zhang_2019]] [[Li et al 2022][research_li_ge_2022]] [[Li et al 2025][research_li_wang_2025]] [[Liang and Qin 2012][research_liang_qin_2012]] [[Liu et al 2013][research_liu_zhu_2013]] [[Liu et al 2015][research_liu_zhou_2015]] [[Liu et al 2020][research_liu_gao_2020]] [[Liu et al 2023][research_liu_zhang_2023]] [[Liu et al 2026][research_liu_qian_2026]] [[Lobo do Vale et al 2021][research_lobodovale_raffaelli_2021]] [[Love and Bohlmann 1991][research_love_bohlmann_1991]] [[Lynch and Rogers 1976][research_lynch_rogers_1976]] [[M. V. Sunil and Menghal 2022][research_mvsunil_menghal_2022]] [[Ma et al 2023][research_ma_liu_2023]] [[Macquart et al 2016][research_macquart_werter_2016]] [[Magar et al 2018][research_magar_fuchi_2018]] [[Maki 2016][research_maki_2016]] [[Manan and Cooper 2008][research_manan_cooper_2008]] [[Marano et al 2022][research_marano_belardo_2022]] [[Marciniuk et al 2024][research_marciniuk_piskur_2024]] [[Marks et al 2015][research_marks_zientarski_2015]] [[Marks et al 2016][research_marks_zientarski_2016]] [[Mason and Iglesias 2001][research_mason_iglesias_2001]] [[Meirovitch 1995][research_meirovitch_1995]] [[Melville 2021][research_melville_2021]] [[Menshchikov and Somov 2019][research_menshchikov_somov_2019]] [[Mihaila-Andres et al 2017][research_mihailaandres_larco_2017]] [[Mihaila-Andres et al 2017][research_mihailaandres_rosu_2017]] [[Miskin and Takahashi 2018][research_miskin_takahashi_2018]] [[Mission adaptive wing test program][research_mission_adaptive_wing]] [[Mkhoyan et al 2020][research_mkhoyan_thakrar_2020]] [[Mkhoyan et al 2021][research_mkhoyan_thakrar_2021]] [[Mkhoyan et al 2024][research_mkhoyan_wang_2024]] [[Montgomery and Hunsaker 2022][research_montgomery_hunsaker_2022]] [[Moon 1996][research_moon_1996]] [[Moosavian 2021][research_moosavian_2021]] [[Morphing WING REAL TIME 2010][research_morphing_wing_2010]] [[Morphing Wing Technologies 2018][research_morphing_wing_2018]] [[Najmi et al 2023][research_najmi_siddiqui_2023]] [[Namdeo et al 2023][research_namdeo_bhattacharyya_2023]] [[Navardi et al 2023][research_navardi_shahverdi_2023]] [[Navardi et al 2026][research_navardi_shahverdi_2026]] [[Navrátil et al 2024][research_navratil_hostinsky_2024]] [[Nguyen et al 2013][research_nguyen_ting_2013]] [[Nguyen et al 2015][research_nguyen_ting_2015]] [[Nguyen et al 2015][research_nguyen_precup_2015]] [[Nguyen et al 2019][research_nguyen_cramer_2019]] [[Nguyen et al 2020][research_nguyen_cramer_2020]] [[Nguyen, Nhan et al 2015][research_nguyennhan_kaulupender_2015]] [[Nixon et al 2000][research_nixon_piatak_2000]] [[Nixon, Mark W. et al 1999][research_nixonmarkw_piatakdavidj_1999]] [[Noevere and Wilhite 2016][research_noevere_wilhite_2016]] [[Norton 1989][research_norton_1989]] [[Null and Shkarayev 2004][research_null_shkarayev_2004]] [[Null and Shkarayev 2005][research_null_shkarayev_2005]] [[Obradovic and Subbarao 2010][research_obradovic_subbarao_2010]] [[Olivett et al 2020][research_olivett_corrao_2020]] [[Opgenoord and Willcox 2018][research_opgenoord_willcox_2018]] [[Othman et al 2019][research_othman_silva_2019]] [[Ouyang et al 2013][research_ouyang_chen_2013]] [[Oz et al 2025][research_oz_ekici_2025]] [[Ozbek et al 2023][research_ozbek_ekici_2023]] [[Ozbek et al 2024][research_ozbek_ekici_2024]] [[Palacios et al 2009][research_palacios_glaz_2009]] [[Palaia et al 2025][research_palaia_salem_2025]] [[Papila and Haftka 1999][research_papila_haftka_1999]] [[Patil and Patil 1997][research_patil_patil_1997]] [[Pecora 2018][research_pecora_2018]] [[Pecora and Pecora 2018][research_pecora_pecora_2018]] [[Pecora et al 2021][research_pecora_amoroso_2021]] [[Perera and Guo 2008][research_perera_guo_2008]] [[Peter and Stumpf 2018][research_peter_stumpf_2018]] [[Petermeier et al 2010][research_petermeier_radtke_2010]] [[Pines and Newman 1974][research_pines_newman_1974]] [[Pitt 2004][research_pitt_2004]] [[Poomadath and Ajaj 2025][research_poomadath_ajaj_2025]] [[Popelka et al 1997][research_popelka_lindsay_1997]] [[Powers et al 1992][research_powers_webb_1992]] [[Prabhakar 2025][research_prabhakar_2025]] [[Prabhakar and Murugan 2022][research_prabhakar_murugan_2022]] [[Prabhakar and Murugan 2026][research_prabhakar_murugan_2026]] [[Precup et al 2018][research_precup_mor_2018]] [[Psarros and Savaidis 2025][research_psarros_savaidis_2025]] [[Punzi et al 2024][research_punzi_crooks_2024]] [[Qian and Alonso 2021][research_qian_alonso_2021]] [[Rade and de Souza 2016][research_rade_desouza_2016]] [[Radestock et al 2018][research_radestock_falken_2018]] [[Rahn, D. and Reinertson, L. 1986][research_rahnd_reinertsonl_1986]] [[Rajpal et al 2021][research_rajpal_mitrotta_2021]] [[Reduction of structural loads using maneuver load control on the advanced fighter technology integration F-111 mission adaptive wing][research_afti_mlc]] [[Rehfield et al 1991][research_rehfield_chang_1991]] [[Reist et al 2022][research_reist_koo_2022]] [[Renken 1985][research_renken_1985]] [[Ricci et al 2016][research_ricci_degaspari_2016]] [[Ritter et al 2017][research_ritter_dillinger_2017]] [[Rocha et al 2005][research_rocha_moniz_2005]] [[S et al 2025][research_s_a_2025]] [[Samuels 1982][research_samuels_1982]] [[Sanders et al 2003][research_sanders_eastep_2003]] [[Sanmugadas et al 2021][research_sanmugadas_gupta_2021]] [[Sarojini et al 2022][research_sarojini_solano_2022]] [[Scarth et al 2015][research_scarth_sartor_2015]] [[Schreyer et al 2026][research_schreyer_selm_2026]] [[Schröder and Meijering 2005][research_schroder_meijering_2005]] [[Schweikert et al 2022][research_schweikert_patel_2022]] [[Seber and Sakarya 2010][research_seber_sakarya_2010]] [[Seber and Sakarya 2011][research_seber_sakarya_2011]] [[Segui et al 2017][research_segui_gabor_2017]] [[Setoodeh et al 2005][research_setoodeh_abdallah_2005]] [[Sharifi et al 2025][research_sharifi_vincenti_2025]] [[Shi and Song 2012][research_shi_song_2012]] [[Shirk et al 1984][research_shirk_hertz_1984]] [[Shirk, M. H. et al 1986][research_shirkmh_hertztj_1986]] [[Siler et al 1997][research_siler_volk_1997]] [[Singha 2025][research_singha_2025]] [[Singha and Murugan 2023][research_singha_murugan_2023]] [[Skillen and Crossley 2005][research_skillen_crossley_2005]] [[Smith, Benjamin et al 2020][research_smithbenjamin_brookstimothy_2020]] [[Smith, John W. et al 1992][research_smithjohnw_lockwiltonp_1992]] [[Solano et al 2020][research_solano_sarojini_2020]] [[Soneda et al 2020][research_soneda_yokozeki_2020]] [[Soneda et al 2026][research_soneda_tsushima_2026]] [[Sotoudeh and Hosking 2018][research_sotoudeh_hosking_2018]] [[Soykasap and Hodges 1999][research_soykasap_hodges_1999]] [[Soykasap and Hodges 2000][research_soykasap_hodges_2000]] [[Stacey and Thomas 2019][research_stacey_thomas_2019]] [[Stanford 2014][research_stanford_2014]] [[Stanford 2016][research_stanford_2016]] [[Stanford, Bret K. and Jutte, Christine V. 2014][research_stanfordbretk_juttechristinev_2014]] [[Stodieck et al 2013][research_stodieck_cooper_2013]] [[Stodieck et al 2014][research_stodieck_cooper_2014]] [[Stodieck et al 2015][research_stodieck_cooper_2015]] [[Stodieck et al 2017][research_stodieck_cooper_2017]] [[Structural weight comparison of 1981][research_structural_weight_1981]] [[Sulaeman et al 2017][research_sulaeman_abdullah_2017]] [[Svoboda et al 2023][research_svoboda_hengstermovric_2023]] [[Taflan et al 2023][research_taflan_smith_2023]] [[Taflan et al 2023][research_taflan_smith_2023_b]] [[Takahashi et al 2016][research_takahashi_yokozeki_2016]] [[Tal and Nguyen 2015][research_tal_nguyen_2015]] [[Tao and Bin 2026][research_tao_bin_2026]] [[Thuwis et al][research_thuwis_debreuker]] [[Thuwis et al 2009][research_thuwis_debreuker_2009]] [[Tian et al 2016][research_tian_yang_2016]] [[Tischler and Venkayya 1998][research_tischler_venkayya_1998]] [[Tischler et al 2000][research_tischler_venkayya_2000]] [[Torenbeek 1972][research_torenbeek_1972]] [[Triplett 1979][research_triplett_1979]] [[Triplett 1980][research_triplett_1980]] [[Triplett 1980][research_triplett_1980_b]] [[Tsushima et al 2018][research_tsushima_yokozeki_2018]] [[Tsushima et al 2018][research_tsushima_arizono_2018]] [[Urnes, James, Sr. et al 2013][research_urnesjamessr_nguyennhan_2013]] [[Vale et al 2011][research_vale_leite_2011]] [[Vincent and Botez 2015][research_vincent_botez_2015]] [[Volk et al 1998][research_volk_siler_1998]] [[Vu][research_vu]] [[Vu et al 2005][research_vu_kelkar_2005]] [[Waite et al 2020][research_waite_bartels_2020]] [[Waite et al 2021][research_waite_grauer_2021]] [[Wales et al 2015][research_wales_cheung_2015]] [[Wan et al 2003][research_wan_yang_2003]] [[Wang et al 2019][research_wang_wan_2019]] [[Wang et al 2019][research_wang_wan_2019_b]] [[Wang et al 2021][research_wang_wan_2021]] [[Wang et al 2021][research_wang_hou_2021]] [[Wang et al 2021][research_wang_mkhoyan_2021]] [[Wang et al 2023][research_wang_lei_2023]] [[Wang et al 2023][research_wang_chen_2023]] [[Wang et al 2024][research_wang_zhao_2024]] [[Wang et al 2025][research_wang_xu_2025]] [[Wang et al 2026][research_wang_chen_2026]] [[Wansasueb et al 2023][research_wansasueb_panagant_2023]] [[Weisshaar 1980][research_weisshaar_1980]] [[Weisshaar 1981][research_weisshaar_1981]] [[Weisshaar 1987][research_weisshaar_1987]] [[Weisshaar and Duke 2006][research_weisshaar_duke_2006]] [[Weisshaar and Lee 2002][research_weisshaar_lee_2002]] [[Werner 2018][research_werner_2018]] [[Werter and De Breuker 2016][research_werter_debreuker_2016]] [[Wu et al 2024][research_wu_li_2024]] [[Wunderlich and Dähne 2017][research_wunderlich_dahne_2017]] [[Wunderlich et al 2017][research_wunderlich_dahne_2017_b]] [[Xin and Li 2025][research_xin_li_2025]] [[Yamane 1992][research_yamane_1992]] [[Yamane and Friedmann 1990][research_yamane_friedmann_1990]] [[Yamane and Friedmann 1993][research_yamane_friedmann_1993]] [[Yan et al 2019][research_yan_li_2019]] [[Yang et al 2015][research_yang_sartor_2015]] [[Yang et al 2024][research_yang_xu_2024]] [[Yao et al 2023][research_yao_kan_2023]] [[Yokozeki et al 2014][research_yokozeki_sugiura_2014]] [[You et al 2020][research_you_kim_2020]] [[Yu and He 2016][research_yu_he_2016]] [[Yu et al 2017][research_yu_wang_2017]] [[Yue et al 2017][research_yue_zhang_2017]] [[Yue et al 2017][research_yue_wang_2017]] [[Yurkovich 2009][research_yurkovich_2009]] [[Zaw and Baranovski 2026][research_zaw_baranovski_2026]] [[Zeng et al 2017][research_zeng_qian_2017]] [[Zhang and Wang 2019][research_zhang_wang_2019]] [[Zhang et al 2019][research_zhang_ge_2019]] [[Zhang et al 2020][research_zhang_chen_2020]] [[Zhang et al 2021][research_zhang_shaw_2021]] [[Zhang et al 2025][research_zhang_hou_2025]] [[Zhang et al 2025][research_zhang_kang_2025]] [[Zhang et al 2026][research_zhang_dai_2026]] [[Zhang et al 2026][research_zhang_dai_2026_b]] [[Zhao et al 2024][research_zhao_li_2024]] [[Zhu 2018][research_zhu_2018]] [[Zink et al 1999][research_zink_mavris_1999]] [[Özbek et al 2023][research_ozbek_ekici_2023_b]] [[Świtała and Lipski 2026][research_switala_lipski_2026]] [[Święch 2020][research_swiech_2020]] [[Şahin et al 2018][research_sahin_cakir_2018]] [[Şahin et al 2018][research_sahin_cakir_2018_b]]
+**560 records.** [[2-D Prototypical Aeroelastic Wing 2013][research_2_d_prototypical_2013]] [[2-D Prototypical Aeroelastic Wing 2018][research_2_d_prototypical_2018]] [[3-D Prototypical Aeroelastic Wing 2013][research_3_d_prototypical_2013]] [[3-D Prototypical Aeroelastic Wing 2018][research_3_d_prototypical_2018]] [[A summary of the active flexible wing program][research_afw_summary]] [[Abdallah 2018][research_abdallah_2018]] [[Abdallah et al 2013][research_abdallah_newman_2013]] [[Abdallah et al 2014][research_abdallah_newman_2014]] [[Achache and Whalley 1996][research_achache_whalley_1996]] [[Active aeroelastic wing aerodynamic model development and validation for a modified F/A-18A][research_aaw_aero_model]] [[Aeroelastic Control 2005][research_aeroelastic_control_2005]] [[Ahmad et al 2018][research_ahmad_baig_2018]] [[Akmese et al 2009][research_akmese_comert_2009]] [[Al-Shehabi and Newman 2000][research_alshehabi_newman_2000]] [[Al-Shehabi and Newman 2000][research_alshehabi_newman_2000_b]] [[Alighanbari and Lee 2003][research_alighanbari_lee_2003]] [[Allaire et al 2014][research_allaire_lecerf_2014]] [[Allen et al 2005][research_allen_lizotte_2005]] [[Alstrom et al 2010][research_alstrom_marzocca_2010]] [[An application of the active flexible wing concept to an F-16 derivative wing][research_afw_f16_derivative]] [[An et al 2023][research_an_zhu_2023]] [[An overview of the active flexible wing program][research_afw_overview]] [[Andersen et al 1996][research_andersen_forster_1996]] [[Anderson et al 2005][research_anderson_white_2005]] [[Application of active flexible wing technology to the Agile Falcon][research_agile_falcon]] [[Aravinth et al 2018][research_aravinth_shinde_2018]] [[Arena et al 2017][research_arena_pecora_2017]] [[Armanious and Lind 2018][research_armanious_lind_2018]] [[Babcock and Lind 2012][research_babcock_lind_2012]] [[Babcock and Lind 2012][research_babcock_lind_2012_b]] [[Badcock et al 2003][research_badcock_rampurawala_2003]] [[Bae and Lee 2002][research_bae_lee_2002]] [[Bae et al 2002][research_bae_yang_2002]] [[Bai et al 2022][research_bai_cao_2022]] [[Bajaj 2019][research_bajaj_2019]] [[Balakrishnan 2012][research_balakrishnan_2012]] [[Balas et al 2011][research_balas_seiler_2011]] [[Baranyi 2006][research_baranyi_2006]] [[Baranyi 2006][research_baranyi_2006_b]] [[Baranyi 2016][research_baranyi_2016]] [[Baranyi 2023][research_baranyi_2023]] [[Baranyi and Patton 2003][research_baranyi_patton_2003]] [[Baranyi and Takarics 2014][research_baranyi_takarics_2014]] [[Baranyi et al 2008][research_baranyi_korondi_2008]] [[Baz et al 1987][research_baz_iman_1987]] [[Behal et al 2004][research_behal_marzocca_2004]] [[Behal et al 2006][research_behal_marzocca_2006]] [[Bhat 2018][research_bhat_2018_c]] [[Bhat 2018][research_bhat_2018_d]] [[Bichiou et al 2016][research_bichiou_hajj_2016]] [[Bielawa 2006][research_bielawa_2006]] [[Blair 1994][research_blair_1994]] [[Block and Strganac 1998][research_block_strganac_1998]] [[Block et al 1997][research_block_gilliatt_1997]] [[Bontoft et al 2026][research_bontoft_bhuwal_2026]] [[Bontoft et al 2026][research_bontoft_bhuwal_2026_b]] [[Bottasso and Montinari 2013][research_bottasso_montinari_2013]] [[Bove 2026][research_bove_2026]] [[Bramsiepe et al 2020][research_bramsiepe_voss_2020]] [[Bras et al 2022][research_bras_warwick_2022]] [[Braun et al 2003][research_braun_boucke_2003]] [[Brooks and Meyer 1995][research_brooks_meyer_1995]] [[Brown and Caverly 2021][research_brown_caverly_2021]] [[Brown and Singh 2015][research_brown_singh_2015]] [[Brown and Singh 2016][research_brown_singh_2016]] [[Bunge et al 2016][research_bunge_alkurdi_2016]] [[Burken et al 1986][research_burken_alag_1986]] [[Butler et al 1995][research_butler_lillico_1995]] [[Byun and Guruswamy 1994][research_byun_guruswamy_1994]] [[Byun and Guruswamy 1996][research_byun_guruswamy_1996_b]] [[Byun and Guruswamy 1996][research_byun_guruswamy_1996_c]] [[Byun and Guruswamy 1998][research_byun_guruswamy_1998]] [[Calculation of Elastic Deformations 2004][research_calculation_of_2004]] [[Canfield 2014][research_canfield_2014]] [[Carlson and Cassarino 1973][research_carlson_cassarino_1973]] [[Cavagna et al 2009][research_cavagna_ricci_2009]] [[Cea and Palacios 2023][research_cea_palacios_2023]] [[Cea and Palacios 2024][research_cea_palacios_2024]] [[Celi 1994][research_celi_1994]] [[Cesnik et al 1999][research_cesnik_shin_1999]] [[Chajec et al 2019][research_chajec_krzymien_2019]] [[Chandre Vila][research_chandrevila]] [[Chapter 15. Aeroelastic Systems 1994][research_chapter_15_1994]] [[Chapter 2. Exploring the 2005][research_chapter_2_2005]] [[Chen et al 1998][research_chen_chang_1998]] [[Chen et al 2008][research_chen_baldelli_2008]] [[Cheng et al 2023][research_cheng_cea_2023]] [[Cizmas and Strganac 2010][research_cizmas_strganac_2010]] [[Cocco and Meroli 2026][research_cocco_meroli_2026]] [[Cole 1990][research_cole_1990]] [[Cole and Weiland 2009][research_cole_weiland_2009]] [[Conti et al 2021][research_conti_saltari_2021]] [[Cook and Smith 2014][research_cook_smith_2014]] [[Cord 1989][research_cord_1989]] [[Crane, H. L. and Reeder, J. P. 1945][research_cranehl_reederjp_1945]] [[Cumming and Diebler 2005][research_cumming_diebler_2005]] [[D'Vari and Baker 1999][research_dvari_baker_1999]] [[Dancila and Botez 2014][research_dancila_botez_2014]] [[Danowsky et al 2008][research_danowsky_thompson_2008]] [[Das et al 2021][research_das_venkatraman_2021]] [[Davis 1974][research_davis_1974]] [[de Visser 1999][research_devisser_1999]] [[de Visser et al 2009][research_devisser_mulder_2009]] [[Deflection-based aircraft structural loads estimation with comparison to flight][research_deflection_loads_flight]] [[Deflection-based structural loads estimation from the active aeroelastic wing F/A-18 aircraft][research_aaw_deflection_loads]] [[Dehaan 1990][research_dehaan_1990]] [[Demasi 2024][research_demasi_2024]] [[Demasi and Livne 2005][research_demasi_livne_2005]] [[Demenkov 2009][research_demenkov_2009]] [[Determination of the effect of wing flexibility on lateral manoeuvrability][research_wing_flexibility_lateral]] [[Dhital and Chouvion 2024][research_dhital_chouvion_2024]] [[Dias et al 2015][research_dias_demarqui_2015]] [[Dimitriadis 2008][research_dimitriadis_2008]] [[Dimitriadis 2011][research_dimitriadis_2011]] [[Dinyavari and Friedmann 1986][research_dinyavari_friedmann_1986]] [[Djojodihardjo 2023][research_djojodihardjo_2023]] [[Djojodihardjo 2023][research_djojodihardjo_2023_c]] [[Done 1996][research_done_1996]] [[dos Santos Goncalves et al 2025][research_dossantosgoncalves_santos_2025]] [[Dowell 1983][research_dowell_1983]] [[Dowell et al 2003][research_dowell_bliss_2003]] [[Dowell et al 2006][research_dowell_attar_2006]] [[Dracopoulos and Oz 1992][research_dracopoulos_oz_1992]] [[Dracopoulos and Öz 1988][research_dracopoulos_oz_1988]] [[Dreier 1987][research_dreier_1987]] [[Durmaz and Kaya 2013][research_durmaz_kaya_2013]] [[Eckstrom and Spain 1982][research_eckstrom_spain_1982]] [[Efremov 1992][research_efremov_1992]] [[Epureanu 2001][research_epureanu_2001]] [[Exploring the Flight Envelope 2015][research_exploring_the_2015]] [[Fagley et al 2015][research_fagley_seidel_2015]] [[Fan and Hall 2014][research_fan_hall_2014]] [[Fan and Lutze 1996][research_fan_lutze_1996]] [[Farbridge et al 1956][research_farbridge_woodward_1956]] [[Farhat 2001][research_farhat_2001]] [[Farhat and Amsallem 2011][research_farhat_amsallem_2011]] [[Farhat and Lin 1990][research_farhat_lin_1990]] [[Fazelzadeh et al 2016][research_fazelzadeh_azadi_2016]] [[Fernandez Escudero][research_fernandezescudero]] [[Filippou et al 2024][research_filippou_kilimtzidis_2024]] [[Flight Envelope 2005][research_flight_envelope_2005]] [[Flight Envelope 2021][research_flight_envelope_2021]] [[Flight Envelope Awareness/Protection][research_flight_envelope]] [[Forster et al 1996][research_forster_kolonay_1996]] [[Fournier][research_fournier]] [[Frampton and Clark 1998][research_frampton_clark_1998]] [[Franklin 2018][research_franklin_2018]] [[Freidmann 2001][research_freidmann_2001]] [[Friedmann 1977][research_friedmann_1977]] [[Friedmann 1987][research_friedmann_1987]] [[Friedmann 1990][research_friedmann_1990]] [[Friedmann 2000][research_friedmann_2000]] [[Friedmann 2001][research_friedmann_2001]] [[Friedmann 2004][research_friedmann_2004]] [[Friedmann 2010][research_friedmann_2010]] [[Friedmann and Hodges 2003][research_friedmann_hodges_2003]] [[Friedmann and Hodges 2003][research_friedmann_hodges_2003_b]] [[Friedmann and Straub 1980][research_friedmann_straub_1980]] [[Gai and Seffen 2025][research_gai_seffen_2025]] [[Gandhi and Hathaway 1998][research_gandhi_hathaway_1998]] [[Ganguli and Chopra 1995][research_ganguli_chopra_1995]] [[Garcia 2005][research_garcia_2005]] [[Gasparetto][research_gasparetto]] [[Geisbauer 2011][research_geisbauer_2011]] [[Gennaretti 2024][research_gennaretti_2024]] [[Gern and Librescu 1998][research_gern_librescu_1998]] [[Ghosh and Raisinghani 1993][research_ghosh_raisinghani_1993]] [[Ghosh and Raisinghani 1994][research_ghosh_raisinghani_1994]] [[Giansante et al 2022][research_giansante_bernardini_2022]] [[Gilbert et al 1982][research_gilbert_schmidt_1982]] [[Gilbert et al 1984][research_gilbert_schmidt_1984]] [[Gimmestad 1979][research_gimmestad_1979]] [[Giunta 1999][research_giunta_1999]] [[Gobal and Grandhi 2015][research_gobal_grandhi_2015]] [[Gordnier and Attar 2012][research_gordnier_attar_2012]] [[Gratton 2014][research_gratton_2014]] [[Gratton 2018][research_gratton_2018]] [[Grauer 2016][research_grauer_2016]] [[Grauer and Morelli 2014][research_grauer_morelli_2014]] [[Graves et al 2002][research_graves_burner_2002]] [[Gray and Martins 2024][research_gray_martins_2024]] [[Greenwell 2004][research_greenwell_2004]] [[Griffin 2006][research_griffin_2006]] [[Gu et al 2024][research_gu_healy_2024]] [[Gu et al 2024][research_gu_healy_2024_b]] [[Gujjula and Singh 2005][research_gujjula_singh_2005]] [[Guo et al 2018][research_guo_cao_2018]] [[Gupta 1996][research_gupta_1996]] [[Guruswamy 1992][research_guruswamy_1992]] [[Gwin 1974][research_gwin_1974]] [[Gwin 1976][research_gwin_1976]] [[Haas and Chopra 1987][research_haas_chopra_1987]] [[Hablowetz 2000][research_hablowetz_2000]] [[Haddadpour et al 2005][research_haddadpour_shams_2005]] [[Hajj 2004][research_hajj_2004]] [[Halder and Benedict 2018][research_halder_benedict_2018]] [[Hanel 1998][research_hanel_1998]] [[Hartman 2019][research_hartman_2019]] [[Hess and Flick 2004][research_hess_flick_2004]] [[Hess and Hess 1997][research_hess_hess_1997]] [[Hilger and Ritter 2021][research_hilger_ritter_2021]] [[Hilton and Nguyen 2014][research_hilton_nguyen_2014]] [[Hjartarson et al 2014][research_hjartarson_seiler_2014]] [[Horn et al 1998][research_horn_calise_1998]] [[Hui et al 2000][research_hui_collins_2000]] [[Hui et al 2005][research_hui_auriti_2005]] [[Hussein et al 2025][research_hussein_rashid_2025]] [[Huttsell and Eastep 1989][research_huttsell_eastep_1989]] [[Iannacci and Mayo 1999][research_iannacci_mayo_1999]] [[Ifju et al 2001][research_ifju_waszak_2001]] [[Introduction to Aeroelastic Rotor 2018][research_introduction_to_2018]] [[Ippolito et al 2014][research_ippolito_ting_2014]] [[Ishihara and Nguyen 2014][research_ishihara_nguyen_2014]] [[Ishihara et al 2013][research_ishihara_nguyen_2013]] [[Jafari et al 2019][research_jafari_feizarefi_2019]] [[Jebakumar et al 2019][research_jebakumar_kumar_2019]] [[Jian and Jinwu 2009][research_jian_jinwu_2009]] [[Jiang and Li 2018][research_jiang_li_2018]] [[Jiang and Li 2018][research_jiang_li_2018_b]] [[Johnston and Cassarino 1976][research_johnston_cassarino_1976]] [[Jorge and Lind 2013][research_jorge_lind_2013]] [[Juliana et al 2004][research_juliana_chu_2004]] [[Kafkas et al 2021][research_kafkas_kilimtzidis_2021]] [[Karpouzian 1998][research_karpouzian_1998]] [[Karpouzian and Librescu 1994][research_karpouzian_librescu_1994]] [[Ke et al 2008][research_ke_zhigang_2008]] [[Kennedy and Martins 2013][research_kennedy_martins_2013]] [[Kerho, Michael et al 2012][research_kerhomichael_braggmichaelb_2012]] [[Kholodar 2014][research_kholodar_2014]] [[Koo and Lee 1994][research_koo_lee_1994]] [[Kreshock et al 2016][research_kreshock_kang_2016]] [[Kroeger, R. A. 1977][research_kroegerra_1977]] [[Kurita et al 2019][research_kurita_koike_2019]] [[Kuttenkeuler and Ringertz 1998][research_kuttenkeuler_ringertz_1998]] [[Küssner 1959][research_kussner_1959]] [[Lazarus et al 1991][research_lazarus_crawley_1991]] [[Lazarus et al 1995][research_lazarus_crawley_1995]] [[Lee 1994][research_lee_1994]] [[Lee and Chen 2004][research_lee_chen_2004]] [[Lee and Kim 1995][research_lee_kim_1995]] [[Lee and Singh 2006][research_lee_singh_2006]] [[Lee and Singh 2009][research_lee_singh_2009]] [[Lee and Singh 2018][research_lee_singh_2018]] [[Leijonhufvud and Karlsson 2011][research_leijonhufvud_karlsson_2011]] [[Lesoinne 2007][research_lesoinne_2007]] [[Lesoinne and Farhat 1993][research_lesoinne_farhat_1993]] [[Lesoinne and Farhat 1995][research_lesoinne_farhat_1995]] [[Lesoinne and Kaila 2005][research_lesoinne_kaila_2005]] [[Lesoinne et al 2001][research_lesoinne_balas_2001]] [[Li 2018][research_li_2018]] [[Li et al 2010][research_li_guo_2010]] [[Li et al 2010][research_li_guo_2010_b]] [[Li et al 2021][research_li_wan_2021]] [[Li et al 2025][research_li_zheng_2025]] [[Librescu and Beiner 1983][research_librescu_beiner_1983]] [[Limitations and Flight Envelope 2017][research_limitations_and_2017]] [[Lin and Crawley 1994][research_lin_crawley_1994]] [[Lin et al 1995][research_lin_crawley_1995]] [[Lin et al 1996][research_lin_crawley_1996]] [[Lind 1999][research_lind_1999]] [[Lind et al 1998][research_lind_freudinger_1998]] [[Lindsley 2009][research_lindsley_2009]] [[Liu 2019][research_liu_2019]] [[Liu et al 2024][research_liu_yang_2024]] [[Liu et al 2025][research_liu_fan_2025]] [[Livne 2001][research_livne_2001]] [[Livne 2010][research_livne_2010]] [[Lizotte, Andrew and Allen, Michael J. 2005][research_lizotteandrew_allenmichaelj_2005]] [[Loads model development and analysis for the F/A-18 active aeroelastic wing airplane][research_aaw_loads_model]] [[Loewy 1969][research_loewy_1969]] [[Loewy 2000][research_loewy_2000]] [[Lombaerts 2012][research_lombaerts_2012]] [[Loth et al 2000][research_loth_geubelle_2000]] [[Lowe and Zingg 2021][research_lowe_zingg_2021]] [[Lu and Murthy 1990][research_lu_murthy_1990]] [[Lukichev et al 2017][research_lukichev_demidova_2017]] [[Ma et al 2022][research_ma_wang_2022]] [[Maalawi 2012][research_maalawi_2012]] [[Mahmood 2025][research_mahmood_2025]] [[Mallik et al 2015][research_mallik_kapania_2015]] [[Mannarino and Mantegazza 2014][research_mannarino_mantegazza_2014]] [[Mardanpour and Rastkar 2017][research_mardanpour_rastkar_2017]] [[Mardanpour et al 2013][research_mardanpour_richards_2013]] [[Mardanpour et al 2014][research_mardanpour_richards_2014]] [[Mas Colomer][research_mascolomer]] [[Masarati et al 2016][research_masarati_tod_2016]] [[McGurk et al 2024][research_mcgurk_stodieck_2024]] [[McTavish][research_mctavish]] [[Mehrotra, S. C. 1980][research_mehrotrasc_1980]] [[Melville 2000][research_melville_2000]] [[Melville and Gordnier 1998][research_melville_gordnier_1998]] [[Methods of calculating the 2015][research_methods_of_calculating_2015]] [[Milanese et al 2008][research_milanese_marzocca_2008]] [[Mishra and Baeder 2016][research_mishra_baeder_2016]] [[Missoum 2012][research_missoum_2012]] [[Mkhoyan et al 2022][research_mkhoyan_wang_2022]] [[Mocsányi et al 2019][research_mocsanyi_takarics_2019]] [[Mocsányi et al 2020][research_mocsanyi_takarics_2020]] [[Mohammadi 1999][research_mohammadi_1999]] [[Mohd et al 2025][research_mohd_amoozgar_2025]] [[Molusis and Kleinman 1982][research_molusis_kleinman_1982]] [[Mooij 2020][research_mooij_2020]] [[Mooij and Wang 2021][research_mooij_wang_2021]] [[Moravej Barzani et al 2022][research_moravejbarzani_shahverdi_2022]] [[Morino and Obayashi 2015][research_morino_obayashi_2015]] [[Morris et al 2008][research_morris_allen_2008]] [[Moshier 2006][research_moshier_2006]] [[Moshtaghzadeh et al 2023][research_moshtaghzadeh_rangel_2023]] [[Moszczynski et al 2026][research_moszczynski_grant_2026]] [[Mukhopadhyay 2003][research_mukhopadhyay_2003]] [[Murphy and Mermagen 2004][research_murphy_mermagen_2004]] [[Murphy et al 2004][research_murphy_klein_2004]] [[Murthy and Lu 1992][research_murthy_lu_1992]] [[Muscarello et al 2017][research_muscarello_masarati_2017]] [[Na et al 2006][research_na_librescu_2006]] [[Naftaly and Raveh 2025][research_naftaly_raveh_2025]] [[Nam et al 1998][research_nam_chattopadhyay_1998]] [[Nam et al 2000][research_nam_chattopadhyay_2000]] [[Neuert and Dinkler 2020][research_neuert_dinkler_2020]] [[Neumann et al 2020][research_neumann_dealmeida_2020]] [[Newman and Buttrill 1995][research_newman_buttrill_1995]] [[Newman and Kassem 1997][research_newman_kassem_1997_b]] [[Newman et al 1997][research_newman_kassem_1997]] [[Newman et al 1997][research_newman_kassem_1997_c]] [[Ng et al 2020][research_ng_ong_2020]] [[Nguyen and Tal 2015][research_nguyen_tal_2015]] [[Nguyen and Tuzcu 2009][research_nguyen_tuzcu_2009]] [[Nguyen et al 2011][research_nguyen_tuzcu_2011]] [[Nguyen et al 2013][research_nguyen_ting_2013_b]] [[Nguyen et al 2015][research_nguyen_ting_2015_b]] [[Nguyen et al 2016][research_nguyen_ting_2016]] [[Nguyen et al 2018][research_nguyen_reynolds_2018]] [[Niel][research_niel]] [[Nikolaos et al 2024][research_nikolaos_spyridon_2024]] [[Nixon 2020][research_nixon_2020]] [[Numerical calculation method and 2015][research_numerical_calculation_2015]] [[Numerical Method and Program 2013][research_numerical_method_2013]] [[Onkar et al 2024][research_onkar_kumar_2024]] [[Ormiston 2001][research_ormiston_2001]] [[Oyibo 1984][research_oyibo_1984]] [[Ozbay and Turi][research_ozbay_turi]] [[Ozger 2007][research_ozger_2007]] [[Paladini et al 2024][research_paladini_drewiacki_2024]] [[Pandita et al 2009][research_pandita_chakraborty_2009]] [[Papadopoulos 1958][research_papadopoulos_1958]] [[Parsons][research_parsons]] [[Patil 2003][research_patil_2003]] [[Patil and Hodges 2000][research_patil_hodges_2000_b]] [[Patil and Hodges 2002][research_patil_hodges_2002]] [[Pavlov and Pavlov 2024][research_pavlov_pavlov_2024]] [[Peng 2011][research_peng_2011]] [[Peters 1988][research_peters_1988]] [[Phan 2020][research_phan_2020]] [[Pomin et al 2001][research_pomin_altmikus_2001]] [[Poole et al 2020][research_poole_allen_2020_b]] [[Prazenica 2014][research_prazenica_2014]] [[Prazenica et al 2004][research_prazenica_reisenthel_2004]] [[Proulx-Cabana][research_proulxcabana]] [[Prudhomme 1995][research_prudhomme_1995]] [[Prudhomme and Prudhomme 1997][research_prudhomme_prudhomme_1997]] [[Pusch 2018][research_pusch_2018]] [[Qin and Librescu 2003][research_qin_librescu_2003]] [[Qiu et al 2018][research_qiu_xu_2018]] [[Rahman and Li 2013][research_rahman_li_2013]] [[Rao and Padmanabhan 2019][research_rao_padmanabhan_2019]] [[Rao et al 1978][research_rao_kronenberger_1978]] [[Raveh 2026][research_raveh_2026]] [[Raveh and Levy 2004][research_raveh_levy_2004]] [[Reich et al 2002][research_reich_raveh_2002]] [[Reich et al 2004][research_reich_raveh_2004]] [[Reinbold et al 2021][research_reinbold_sorensen_2021]] [[Ricci et al 2022][research_ricci_marchetti_2022]] [[Richard et al 2000][research_richard_rule_2000]] [[Richard et al 2001][research_richard_rule_2001]] [[Righi 2017][research_righi_2017]] [[Rimer et al 1984][research_rimer_chipman_1984]] [[Rimer et al 1986][research_rimer_chipman_1986]] [[Robinson][research_robinson]] [[Rocha et al 2007][research_rocha_moniz_2007]] [[Rodden 1956][research_rodden_1956]] [[Rogers 1998][research_rogers_1998]] [[Roknizadeh et al 2012][research_roknizadeh_nobari_2012]] [[Roskam, J. and Lan, C. 1973][research_roskamj_lanc_1973]] [[Rowan and Burns 1975][research_rowan_burns_1975]] [[Rowley 2008][research_rowley_2008]] [[Rowley 2010][research_rowley_2010]] [[Rubillo et al 2005][research_rubillo_bollt_2005]] [[Rufino et al 2026][research_rufino_faria_2026]] [[Saltari et al 2022][research_saltari_pizzoli_2022]] [[Sang Bum Choi et al][research_sangbumchoi_haojianxu]] [[Sazesh and Shams 2017][research_sazesh_shams_2017]] [[Schmidt 1986][research_schmidt_1986]] [[Schmidt and Newman 1988][research_schmidt_newman_1988]] [[Schneider][research_schneider]] [[Schoneman 2019][research_schoneman_2019]] [[Schuster 1995][research_schuster_1995]] [[Schuster, David M. and Edwards, John W. 2004][research_schusterdavidm_edwardsjohnw_2004]] [[Schwanz and Wells 1980][research_schwanz_wells_1980]] [[Schweikhard 1966][research_schweikhard_1966]] [[Schweikhard 1967][research_schweikhard_1967]] [[Sebastiano and Ricci 2013][research_sebastiano_ricci_2013]] [[Segel 1952][research_segel_1952]] [[Seiler et al 2012][research_seiler_balas_2012]] [[Selvam et al 2001][research_selvam_qu_2001]] [[Sendner et al 2018][research_sendner_stahl_2018]] [[Sharqi et al 2021][research_sharqi_cesnik_2021]] [[Shaw et al][research_shaw_hidalgo]] [[Shevare and Arya 2012][research_shevare_arya_2012]] [[Shin et al 2007][research_shin_lee_2007]] [[Shklovskii and Kurt 1961][research_shklovskii_kurt_1961]] [[Shmelоv et al 2019][research_shmelv_vladov_2019]] [[Shukla and Patil 2015][research_shukla_patil_2015]] [[Silva][research_silva]] [[Silva and De Marqui Junior 2014][research_silva_demarquijunior_2014]] [[Simmons et al 2025][research_simmons_riso_2025]] [[Simulation and model reduction for the active flexible wing program][research_afw_simulation_reduction]] [[Singer 1956][research_singer_1956]] [[Singh and Brenner 2003][research_singh_brenner_2003]] [[Singh and Wang 2002][research_singh_wang_2002]] [[Singh et al 2010][research_singh_mcdonough_2010]] [[Singh et al 2015][research_singh_brown_2015]] [[Singh et al 2016][research_singh_brown_2016]] [[Sivanandi et al 2022][research_sivanandi_gupta_2022]] [[Sivanandi et al 2024][research_sivanandi_gupta_2024]] [[Smith et al 2001][research_smith_patil_2001]] [[Sommerwerk et al 2013][research_sommerwerk_haupt_2013]] [[Sotoudeh and Ferman 2019][research_sotoudeh_ferman_2019]] [[Sotoudeh et al 2010][research_sotoudeh_hodges_2010]] [[Spada et al 2017][research_spada_afonso_2017]] [[Squires 2004][research_squires_2004]] [[Srinivas and Chopra 1998][research_srinivas_chopra_1998]] [[Stalford 1981][research_stalford_1981]] [[Stamatellou and Kalfas 2021][research_stamatellou_kalfas_2021]] [[Stanford 2018][research_stanford_2018]] [[Stanford 2021][research_stanford_2021]] [[Stanford and Dunning 2015][research_stanford_dunning_2015]] [[Stettner 2000][research_stettner_2000]] [[Stiharu-Alexe 1991][research_stiharualexe_1991]] [[Stiharu-Alexe et al][research_stiharualexe_oshea]] [[Stougie et al 2024][research_stougie_pollack_2024]] [[Strganac 2007][research_strganac_2007]] [[Striz et al 1991][research_striz_eastep_1991]] [[Su 2015][research_su_2015]] [[Su and Cesnik 2009][research_su_cesnik_2009]] [[Su and Cesnik 2010][research_su_cesnik_2010]] [[Su et al 2017][research_su_huang_2017]] [[Su et al 2018][research_su_wang_2018]] [[Suleman 2007][research_suleman_2007]] [[Suleman and Costa 2004][research_suleman_costa_2004]] [[Suleman and Moniz][research_suleman_moniz]] [[Suleman et al 2016][research_suleman_afonso_2016]] [[Summary of an active flexible wing program][research_afw_technology_summary]] [[Sungpil Yang et al 2016][research_sungpilyang_hashemi_2016]] [[Suryakumar et al 2016][research_suryakumar_babbar_2016]] [[Svoboda et al 2021][research_svoboda_hromcik_2021]] [[Swaim][research_swaim]] [[Swaim 1983][research_swaim_1983]] [[Swei and Nguyen 2014][research_swei_nguyen_2014]] [[Szollosi and Baranyi 2016][research_szollosi_baranyi_2016]] [[Takarics et al 2018][research_takarics_vanek_2018]] [[Tamayama 2017][research_tamayama_2017]] [[Tamura and Yumitori 2024][research_tamura_yumitori_2024]] [[Tang and Dowell 1998][research_tang_dowell_1998]] [[Tang and Dowell 2001][research_tang_dowell_2001]] [[Tang et al 2000][research_tang_kholodar_2000]] [[Tar et al 2013][research_tar_rudas_2013]] [[Taylor 1959][research_taylor_1959]] [[Taylor et al 2007][research_taylor_gaitonde_2007]] [[Teng and Chen 2006][research_teng_chen_2006]] [[Terilli et al 2025][research_terilli_bueno_2025]] [[Tewari 2001][research_tewari_2001]] [[Tewari 2015][research_tewari_2015]] [[Tharayil and Alleyne 2001][research_tharayil_alleyne_2001]] [[Tharayil and Alleyne 2004][research_tharayil_alleyne_2004]] [[The development of a lateral-control system for use with large-span flaps][research_lateral_control_large_flaps]] [[The effect of elastic 1969][research_the_effect_1969]] [[The F-18 high alpha research vehicle, a high-angle-of-attack testbed aircraft][research_harv_testbed]] [[Tigner et al 1998][research_tigner_holden_1998]] [[Tiomkin and Raveh 2021][research_tiomkin_raveh_2021]] [[Toffol 2023][research_toffol_2023]] [[Toffol and Ricci 2023][research_toffol_ricci_2023]] [[Torok 1996][research_torok_1996]] [[Traas et al 2026][research_traas_atmaca_2026]] [[Trame et al 1985][research_trame_williams_1985]] [[Trenka 1971][research_trenka_1971]] [[Tucker Harvey et al 2020][research_tuckerharvey_khovanov_2020]] [[Tung et al 1996][research_tung_yu_1996]] [[Turi and Rankin 1988][research_turi_rankin_1988]] [[Turns and Kraige][research_turns_kraige]] [[Twist model development and results from the active aeroelastic wing F/A-18 aircraft][research_aaw_twist_model]] [[Upper Atmosphere Re-Entry Study 1961][research_upper_atmosphere_1961]] [[Urnes et al 2008][research_urnes_reichenbach_2008]] [[van Schoor and von Flotow 1990][research_vanschoor_vonflotow_1990]] [[Vandierendonck 1973][research_vandierendonck_1973]] [[Varkonyi-Koczy et al][research_varkonyikoczy_baranyi]] [[Verhaegen 1987][research_verhaegen_1987]] [[Verstraete et al 2019][research_verstraete_roccia_2019]] [[Vindigni 2023][research_vindigni_2023]] [[Vos et al 2007][research_vos_hodigeresiddaramaiah_2007]] [[Wall et al 2024][research_wall_amoozgar_2024]] [[Wan Kim and Cho 2008][research_wankim_cho_2008]] [[Wang et al 2011][research_wang_huo_2011]] [[Wang et al 2012][research_wang_xargay_2012]] [[Wang et al 2012][research_wang_lin_2012]] [[Wang et al 2018][research_wang_wynn_2018]] [[Wang et al 2019][research_wang_yang_2019]] [[Wang et al 2022][research_wang_zhao_2022_b]] [[Wang et al 2025][research_wang_hu_2025]] [[Wang et al 2026][research_wang_hu_2026]] [[Warwick et al 2019][research_warwick_bras_2019]] [[Waszak and Schmidt 1988][research_waszak_schmidt_1988]] [[Waszak et al 2002][research_waszak_davidson_2002]] [[Wei et al 2018][research_wei_zhao_2018]] [[Weiss and Thielecke 2000][research_weiss_thielecke_2000]] [[Weisshaar 1985][research_weisshaar_1985]] [[Weisshaar 2010][research_weisshaar_2010]] [[Wilkie et al 1996][research_wilkie_belvin_1996]] [[Winther et al 1993][research_winther_hagemeyer_1993]] [[Wood and Buffano 1964][research_wood_buffano_1964]] [[Wood et al 1999][research_wood_loth_1999]] [[Woodward 1962][research_woodward_1962]] [[Wooldridge 1960][research_wooldridge_1960]] [[Wu et al 2021][research_wu_zhang_2021]] [[Wu et al 2024][research_wu_zhou_2024]] [[Wu et al 2025][research_wu_li_2025]] [[Wyrick 1965][research_wyrick_1965]] [[Xie et al 2012][research_xie_yang_2012]] [[Xing and Singh 1999][research_xing_singh_1999]] [[Xu 2025][research_xu_2025]] [[Xu et al 2015][research_xu_gao_2015]] [[Xu et al 2015][research_xu_gao_2015_b]] [[Xue and Li 2016][research_xue_li_2016]] [[Xue et al 2019][research_xue_ye_2019]] [[Yang and Guo 2009][research_yang_guo_2009]] [[Yang and Li 2022][research_yang_li_2022]] [[Yang et al 2007][research_yang_zheng_2007]] [[Yang et al 2018][research_yang_dudley_2018]] [[Yeh 1995][research_yeh_1995]] [[Yu 2026][research_yu_2026]] [[Yucelen et al 2011][research_yucelen_kim_2011]] [[Yusuf et al 2019][research_yusuf_hayes_2019]] [[Zafirov 2010][research_zafirov_2010]] [[Zaichik et al 2013][research_zaichik_yashin_2013]] [[Zeiler, Thomas A. 1998][research_zeilerthomasa_1998]] [[Zeng and Singh 1998][research_zeng_singh_1998]] [[Zhang and Behal 2014][research_zhang_behal_2014]] [[Zhang and Singh 2000][research_zhang_singh_2000]] [[Zhang and Söffker 2010][research_zhang_soffker_2010]] [[Zhang et al 2017][research_zhang_devisser_2017]] [[Zhang et al 2025][research_zhang_jiao_2025]] [[Zhao 2011][research_zhao_2011]] [[Zheng et al 2018][research_zheng_zhang_2018]] [[Zhu et al 2017][research_zhu_chen_2017]] [[Zhuang et al 2017][research_zhuang_wu_2017]] [[Zientek 2001][research_zientek_2001]] [[Zink et al 1998][research_zink_mavris_1998]] [[Zink et al 2000][research_zink_mavris_2000]] [[Zink et al 2000][research_zink_raveh_2000]] [[Zink et al 2001][research_zink_raveh_2001]] [[Zink et al 2003][research_zink_raveh_2003]]
 
 ### The flow over the wing at these speeds
 
 **Transonic and supersonic aerodynamics, which is where the wing stops behaving.** Shocks, pressure distributions, spanwise loading and aerodynamic derivatives. **The roll rate dipped at Mach 0.95 and the reason is in this cluster**, since a shock moving across the wing moves the centre of pressure that the twist is levering against.
 
-**358 records.** [[A-7 Transonic Wing Designs 1982][research_a_7_transonic_1982]] [[Aerodynamic Phenomena in Supersonic 2020][research_aerodynamic_phenomena_2020]] [[Aeroelasticity Problems in Compressible 2010][research_aeroelasticity_problems_2010]] [[Agarwal and Deese 1983][research_agarwal_deese_1983]] [[Agarwal and Deese 1984][research_agarwal_deese_1984]] [[Agrawal et al 1991][research_agrawal_kinard_1991]] [[Alden and Schindel 1952][research_alden_schindel_1952]] [[An experimental and computational 1978][research_an_experimental_1978]] [[Appendix B Solution to 2016][research_appendix_b_2016]] [[Application of a Shock-Turbulent 1982][research_application_of_1982_b]] [[Application of Computational Methods 1982][research_application_of_1982]] [[Apte and Athani 1979][research_apte_athani_1979]] [[Archambaud et al 2004][research_archambaud_louis_2004]] [[Armstrong and Miller 1968][research_armstrong_miller_1968]] [[Askari and Soltani 2019][research_askari_soltani_2019]] [[Auls'chenko et al 2006][research_aulschenko_zamuraev_2006]] [[Azevedo 1987][research_azevedo_1987]] [[Babinsky and Délery 2011][research_babinsky_delery_2011]] [[Babister 1980][research_babister_1980]] [[Bae et al 2004][research_bae_inman_2004]] [[Baker and Forsey 1981][research_baker_forsey_1981]] [[Barnwell 1974][research_barnwell_1974]] [[Batina 1986][research_batina_1986]] [[Belesiotis-Kataras and Timme 2021][research_belesiotiskataras_timme_2021]] [[Bennett et al 1985][research_bennett_seidel_1985]] [[Bennett et al 1991][research_bennett_dansberry_1991]] [[Bennett et al 1993][research_bennett_dansberry_1993]] [[Beresh et al 2020][research_beresh_barone_2020]] [[Berton 2022][research_berton_2022]] [[Biswas and Jimbo 2015][research_biswas_jimbo_2015]] [[Blank 1995][research_blank_1995]] [[Bodin and Fuchs 2008][research_bodin_fuchs_2008]] [[Boppe 1977][research_boppe_1977]] [[Brown 1989][research_brown_1989]] [[Bryson, Jr. and Desai 1968][research_brysonjr_desai_1968]] [[Burrows et al 2021][research_burrows_vukasinovic_2021]] [[Cahill 1986][research_cahill_1986]] [[Calder and Gupta 1977][research_calder_gupta_1977]] [[Campbell and Smith 1987][research_campbell_smith_1987]] [[Carafoli 1969][research_carafoli_1969]] [[Carlson 1981][research_carlson_1981]] [[Carlson and Weed 1985][research_carlson_weed_1985]] [[Cassel et al 1969][research_cassel_durando_1969]] [[Caughey 1982][research_caughey_1982]] [[Caughey and Jameson 1977][research_caughey_jameson_1977]] [[Chakrabartty and Dhanalakshmi 1995][research_chakrabartty_dhanalakshmi_1995]] [[Chan et al 2017][research_chan_hooker_2017]] [[Chaparro et al 2017][research_chaparro_fujiwara_2017]] [[Chapter 3. Aerodynamics of 1960][research_chapter_3_1960]] [[Chapter 5. Wing-Body Interference 1957][research_chapter_5_1957]] [[Chen 1982][research_chen_1982]] [[Chen et al 1984][research_chen_vassberg_1984]] [[Chen et al 2026][research_chen_zhang_2026]] [[Cheng 1982][research_cheng_1982]] [[Chung 2002][research_chung_2002]] [[Chung et al 2021][research_chung_su_2021]] [[Chyu and Kuwahara 1982][research_chyu_kuwahara_1982]] [[Clark and Valarezo 1990][research_clark_valarezo_1990]] [[Clyde et al 1984][research_clyde_bonner_1984]] [[Cook 1964][research_cook_1964]] [[Cook 1965][research_cook_1965]] [[Cosentino and Holst 1985][research_cosentino_holst_1985]] [[Cox and Roskam 1990][research_cox_roskam_1990]] [[Crasta and Khan 2014][research_crasta_khan_2014]] [[Cunningham 1972][research_cunningham_1972]] [[Currao and Yeh 2026][research_currao_yeh_2026]] [[Dai and Zhang 2023][research_dai_zhang_2023]] [[Dallaire et al 2007][research_dallaire_tribes_2007]] [[Das 2026][research_das_2026]] [[Deconinck and Hirsch 1981][research_deconinck_hirsch_1981]] [[Durston and Stonum 1987][research_durston_stonum_1987]] [[Eastep et al 1998][research_eastep_andersen_1998]] [[Edwards et al 1985][research_edwards_carter_1985]] [[Edwards et al 1986][research_edwards_whitfield_1986]] [[Epstein 1954][research_epstein_1954]] [[Eskandary et al 2012][research_eskandary_dardel_2012]] [[Fagbade and Heinz 2024][research_fagbade_heinz_2024]] [[Farbridge and Smith 1977][research_farbridge_smith_1977]] [[Fitzgerald et al 1994][research_fitzgerald_ralston_1994]] [[Flores and Van Dalsem 1985][research_flores_vandalsem_1985]] [[Foley and Woodrey 1980][research_foley_woodrey_1980]] [[Fornasier and Heiss 1987][research_fornasier_heiss_1987]] [[Forsey 1983][research_forsey_1983]] [[Franciscus 1983][research_franciscus_1983]] [[Fruchtman 1974][research_fruchtman_1974]] [[Fuchs 1981][research_fuchs_1981]] [[Fujii and Obayashi 1986][research_fujii_obayashi_1986]] [[Galloway et al 1992][research_galloway_gelhausen_1992]] [[Gally and Carlson 1987][research_gally_carlson_1987]] [[Gloss and Washburn 1977][research_gloss_washburn_1977]] [[Gloss and Washburn 1978][research_gloss_washburn_1978]] [[Gomillion 1976][research_gomillion_1976]] [[Grasmeyer 1999][research_grasmeyer_1999]] [[Gregg and Misegades 1987][research_gregg_misegades_1987]] [[Guderley 1987][research_guderley_1987]] [[Guderley 1988][research_guderley_1988]] [[Guillot and Friedmann 1994][research_guillot_friedmann_1994_b]] [[Gupta et al 2021][research_gupta_datta_2021]] [[Guruswamy 2019][research_guruswamy_2019]] [[Guruswamy and Tu 1989][research_guruswamy_tu_1989]] [[Guruswamy and Tu 1994][research_guruswamy_tu_1994]] [[Halwas and Aggarwal 2019][research_halwas_aggarwal_2019]] [[Halwas and Aggarwal 2019][research_halwas_aggarwal_2019_b]] [[Hammer and Garmann 2023][research_hammer_garmann_2023]] [[Hartmann 2012][research_hartmann_2012]] [[Hartmann 2013][research_hartmann_2013]] [[Hayabe and Kwak 2025][research_hayabe_kwak_2025]] [[Held and Fuchs 1999][research_held_fuchs_1999]] [[Heltsley and Cline 1979][research_heltsley_cline_1979]] [[Heltsley et al 1981][research_heltsley_crosswy_1981]] [[Hendrickson et al 1978][research_hendrickson_grossman_1978]] [[Henne 1980][research_henne_1980]] [[Henne and Hicks 1978][research_henne_hicks_1978]] [[Hiley and Bowers 1981][research_hiley_bowers_1981]] [[Hinz and Miller 1979][research_hinz_miller_1979]] [[History of Supersonic Transport 2020][research_history_of_2020]] [[Holst and Thomas 1982][research_holst_thomas_1982]] [[Hope and Kunz 2019][research_hope_kunz_2019]] [[Hu 1995][research_hu_1995]] [[Huffman and Fox, Jr. 1985][research_huffman_foxjr_1985]] [[Hybrid Approach to Transonic 1982][research_hybrid_approach_1982]] [[Ide and Shankar 1987][research_ide_shankar_1987]] [[Ide et al 2019][research_ide_ishida_2019]] [[Ilie and Havenar 2023][research_ilie_havenar_2023]] [[Ionela Raluca Maxim 1970][research_ionelaralucamaxim_1970]] [[Israq et al 2025][research_israq_ahmaad_2025]] [[Iyer et al 2017][research_iyer_park_2017]] [[Jameson 1973][research_jameson_1973]] [[Jameson 1977][research_jameson_1977]] [[Jameson 1982][research_jameson_1982]] [[Jameson 2003][research_jameson_2003]] [[Jameson and Caughey 1977][research_jameson_caughey_1977]] [[Jamshidi et al 2016][research_jamshidi_dardel_2016]] [[Janardhan and Grandhi 2003][research_janardhan_grandhi_2003]] [[Jepps 1981][research_jepps_1981]] [[Johnson, C. B. and Kaufman, L. G., III 1979][research_johnsoncb_kaufmanlgiii_1979]] [[Johnston 1998][research_johnston_1998]] [[Jones 1950][research_jones_1950]] [[Jones 1980][research_jones_1980]] [[Jones and Jarrett 2018][research_jones_jarrett_2018]] [[Kady and Takahashi 2014][research_kady_takahashi_2014]] [[Kandil and Menzies 1996][research_kandil_menzies_1996]] [[Kandil et al 1993][research_kandil_kandil_1993]] [[Kandil et al 1994][research_kandil_kalisch_1994]] [[Karania et al 2021][research_karania_mohan_2021]] [[Keener 1984][research_keener_1984]] [[Kehrer 1971][research_kehrer_1971]] [[Kim and Sung 1993][research_kim_sung_1993]] [[Kim and Winchenbach 1986][research_kim_winchenbach_1986]] [[Kim et al 2001][research_kim_obayashi_2001]] [[Kim et al 2006][research_kim_jeon_2006]] [[Kishi et al 2016][research_kishi_kanazaki_2016]] [[Kisslinger and Vetsch 1965][research_kisslinger_vetsch_1965]] [[Klausmeyer 2018][research_klausmeyer_2018]] [[Klopfer and Nielsen 1980][research_klopfer_nielsen_1980]] [[Klug et al 2020][research_klug_radespiel_2020]] [[Klug et al 2023][research_klug_ullah_2023]] [[Ko et al 2003][research_ko_mason_2003]] [[Kolonay and Yang 1998][research_kolonay_yang_1998]] [[Krenz 1979][research_krenz_1979]] [[Kuhlman et al 1988][research_kuhlman_cerney_1988]] [[Kulfan and Vachal 1978][research_kulfan_vachal_1978]] [[Kurade et al 2021][research_kurade_venkatakrishnan_2021]] [[Lan et al 2006][research_lan_bianchi_2006]] [[Larson 1958][research_larson_1958]] [[Laughrey 1969][research_laughrey_1969]] [[Lee and Boedicker 1985][research_lee_boedicker_1985]] [[Leventhal et al 1977][research_leventhal_keel_1977]] [[Li and Geiselhart 2026][research_li_geiselhart_2026]] [[Li and Livne 1995][research_li_livne_1995]] [[Li and Livne 1997][research_li_livne_1997]] [[Li and Qin 2020][research_li_qin_2020_b]] [[Librescu et al 2003][research_librescu_na_2003]] [[Lin 1982][research_lin_1982]] [[Liu 2022][research_liu_2022]] [[Liu 2022][research_liu_2022_b]] [[Liu et al 2023][research_liu_lei_2023]] [[Lombardi et al 1997][research_lombardi_salvetti_1997]] [[Luce and Jr 1949][research_luce_jr_1949]] [[Ly et al 2006][research_ly_gear_2006]] [[M 2026][research_m_2026]] [[Mabey and Gaudet 1975][research_mabey_gaudet_1975]] [[Mack 1979][research_mack_1979]] [[Madson and Ericksont 1985][research_madson_ericksont_1985]] [[Marion and Sharma 2025][research_marion_sharma_2025]] [[Martin and Gerber 1953][research_martin_gerber_1953]] [[Mason 1982][research_mason_1982]] [[Mason 1983][research_mason_1983]] [[Masson et al 1999][research_masson_veilleux_1999]] [[Maute et al 2008][research_maute_farhat_2008]] [[McDonald et al 1982][research_mcdonald_shamroth_1982]] [[McLean 1994][research_mclean_1994]] [[McParlin and Adamczak 2003][research_mcparlin_adamczak_2003]] [[Menzies and Kandil 1996][research_menzies_kandil_1996]] [[Meyer and Fields 1978][research_meyer_fields_1978]] [[Miller and Schemensky 1979][research_miller_schemensky_1979]] [[Miller and Wood 1983][research_miller_wood_1983]] [[Miller et al 1979][research_miller_protopapas_1979]] [[Miskin and Takahashi 2019][research_miskin_takahashi_2019]] [[Morton et al 2012][research_morton_cox_2012]] [[Muhamad Jayadi 2025][research_muhamadjayadi_2025]] [[NACA Conference on Aerodynamic 1949][research_naca_conference_1949]] [[Nadim Melhem et al 2024][research_nadimmelhem_richardmunroe_2024]] [[Nangia and Palmer 2007][research_nangia_palmer_2007]] [[Narain 1983][research_narain_1983]] [[Naylor 1957][research_naylor_1957]] [[Newman, Iii and Baysal 1992][research_newmaniii_baysal_1992]] [[Nguyen and Xiong 2021][research_nguyen_xiong_2021]] [[Nguyen and Xiong 2022][research_nguyen_xiong_2022]] [[Nguyen and Xiong 2023][research_nguyen_xiong_2023_b]] [[Nguyen and Xiong 2023][research_nguyen_xiong_2023_c]] [[Nguyen and Xiong 2024][research_nguyen_xiong_2024]] [[Nguyen and Xiong 2024][research_nguyen_xiong_2024_b]] [[Nilsson et al 2023][research_nilsson_yao_2023]] [[Nomura 2003][research_nomura_2003]] [[Obayashi et al 2000][research_obayashi_sasaki_2000]] [[Oberkampf 1974][research_oberkampf_1974]] [[Ojiaku and Prakash 2026][research_ojiaku_prakash_2026]] [[Owens et al 2003][research_owens_capone_2003]] [[Owens et al 2004][research_owens_capone_2004]] [[Owens et al 2006][research_owens_mcconnell_2006]] [[Padova and Falk 1980][research_padova_falk_1980]] [[Palacios and Cesnik 2005][research_palacios_cesnik_2005]] [[Paniagua 2013][research_paniagua_2013]] [[Patil et al 2000][research_patil_hodges_2000]] [[Paul and Rein 2016][research_paul_rein_2016]] [[Paul and Rein 2017][research_paul_rein_2017]] [[Pfaff 1965][research_pfaff_1965]] [[Plaban and Takahashi 2021][research_plaban_takahashi_2021]] [[Polonsky 2026][research_polonsky_2026]] [[Poole et al 2020][research_poole_allen_2020]] [[Prasannakumar et al 2022][research_prasannakumar_sudhi_2022]] [[Properties and Design of 2012][research_properties_and_2012]] [[Puentes and Takahashi 2024][research_puentes_takahashi_2024]] [[Qin 2012][research_qin_2012]] [[Raghunathan and Coll 1981][research_raghunathan_coll_1981]] [[Raghunathan et al 1998][research_raghunathan_mitchell_1998]] [[Raj 1983][research_raj_1983]] [[Raluca MAXIM 2020][research_ralucamaxim_2020]] [[Rambacher and Bons 2023][research_rambacher_bons_2023]] [[Rao et al 2005][research_rao_behal_2005]] [[Recine et al 2025][research_recine_schuh_2025]] [[Reddy 1987][research_reddy_1987]] [[Regan 1964][research_regan_1964]] [[Requirements of a commercial 1967][research_requirements_of_1967]] [[Reuther and Jameson 1995][research_reuther_jameson_1995]] [[Riou et al 2010][research_riou_garnier_2010]] [[Rizk 1980][research_rizk_1980]] [[Rizzetta 1977][research_rizzetta_1977]] [[Rizzetta 1995][research_rizzetta_1995]] [[Rizzi 1981][research_rizzi_1981]] [[Rizzi 1981][research_rizzi_1981_b]] [[Rizzi 1984][research_rizzi_1984]] [[Rizzi 1995][research_rizzi_1995]] [[Rizzi et al 1986][research_rizzi_purcell_1986]] [[Robins and Carlson 1979][research_robins_carlson_1979]] [[Robins and Carlson 1980][research_robins_carlson_1980]] [[Roohani and Skews 2009][research_roohani_skews_2009]] [[Roos et al 1975][research_roos_bennekers_1975]] [[Rosemann and Birkemeyer 2002][research_rosemann_birkemeyer_2002]] [[Roskam, J. et al 1972][research_roskamj_lanc_1972]] [[Roughen et al 2010][research_roughen_bendiksen_2010]] [[Rumpfkeil et al 2021][research_rumpfkeil_lickenbrock_2021]] [[Russo et al 2020][research_russo_tognaccini_2020]] [[Russo et al 2020][research_russo_tognaccini_2020_b]] [[Sakamura and Komaki 2011][research_sakamura_komaki_2011]] [[Sandford et al 1980][research_sandford_ricketts_1980]] [[Sapkal and Attar 2011][research_sapkal_attar_2011]] [[Sapkal and Attar 2012][research_sapkal_attar_2012]] [[Sartor][research_sartor]] [[Sartor et al 2012][research_sartor_losfeld_2012]] [[Sartor et al 2013][research_sartor_clement_2013]] [[Schmidt 1995][research_schmidt_1995]] [[Schmitt et al 1983][research_schmitt_destarac_1983]] [[Schuelein 2008][research_schuelein_2008]] [[Schuster, David M. and Byrd, James E. 2003][research_schusterdavidm_byrdjamese_2003]] [[Seebass 1982][research_seebass_1982]] [[Seginer and Rose 1976][research_seginer_rose_1976]] [[Seidel et al 1985][research_seidel_sandford_1985]] [[Semionov and Kosinov 2007][research_semionov_kosinov_2007]] [[Sezgin and Krstic 2013][research_sezgin_krstic_2013]] [[Sha et al 2022][research_sha_sun_2022]] [[Shankar and Goebel 1985][research_shankar_goebel_1985]] [[Shankar and Malmuth 1982][research_shankar_malmuth_1982]] [[Shieh 1988][research_shieh_1988]] [[Silva and Bennett 1995][research_silva_bennett_1995]] [[Silva et al 2008][research_silva_mello_2008]] [[Slender Aircraft for Flight 2012][research_slender_aircraft_2012]] [[Smith and Dahlem 1981][research_smith_dahlem_1981]] [[Smith and Shyy 1995][research_smith_shyy_1995]] [[Sorensen and Bencze 1974][research_sorensen_bencze_1974]] [[Sorensen and Smeltzer 1972][research_sorensen_smeltzer_1972]] [[Spaid 1984][research_spaid_1984]] [[Spearman 1979][research_spearman_1979]] [[Spearman et al 1992][research_spearman_tice_1992]] [[Spinner and Rudnik 2023][research_spinner_rudnik_2023]] [[Stengel 1969][research_stengel_1969]] [[Streett 1981][research_streett_1981]] [[Sudhi et al 2021][research_sudhi_radespiel_2021]] [[Sundaram and Wu 1983][research_sundaram_wu_1983]] [[Supersonic Aircraft High-Speed Civil 1997][research_supersonic_aircraft_1997]] [[Supersonic Three-dimensional Wing Theory 1960][research_supersonic_three_dimensional_1960]] [[Supersonic transport wing minimum 1992][research_supersonic_transport_1992]] [[Szema and Shankar 1984][research_szema_shankar_1984]] [[Technical applications for an 1976][research_technical_applications_1976]] [[Tekawade et al 2024][research_tekawade_chandwadkar_2024]] [[Thomas and Holst 1983][research_thomas_holst_1983]] [[Three-dimensional boundary-layer transition on 1994][research_three_dimensional_boundary_layer_1994]] [[Tian et al 2026][research_tian_li_2026]] [[Trankle and Bachner 1993][research_trankle_bachner_1993]] [[Transonic Aircraft Configurations 2012][research_transonic_aircraft_2012]] [[Transonic and supersonic flight 1992][research_transonic_and_1992]] [[Transonic Maneuver/Cruise Airfoil Design 1980][research_transonic_maneuver_cruise_1980]] [[Transonic Wing Shape Design 2015][research_transonic_wing_2015]] [[Transonic, Shock, and Multidimensional 1982][research_transonic_shock_1982]] [[Tucker, Warren A and Nelson, Robert L 1950][research_tuckerwarrena_nelsonrobertl_1950]] [[Turner et al 2025][research_turner_seo_2025]] [[Tursi 2003][research_tursi_2003]] [[Uzun and Malik 2018][research_uzun_malik_2018]] [[Uzun and Malik 2019][research_uzun_malik_2019]] [[Vadyak et al 1987][research_vadyak_smith_1987]] [[Vaughn, Jr. 1982][research_vaughnjr_1982]] [[Velkova 2017][research_velkova_2017]] [[Vukasinovic et al 2013][research_vukasinovic_gissen_2013]] [[Waggoner 1980][research_waggoner_1980]] [[Waggoner 1982][research_waggoner_1982]] [[Wagner 1983][research_wagner_1983]] [[Ward 1949][research_ward_1949]] [[Wasson and Mehus 1967][research_wasson_mehus_1967]] [[Watts 1976][research_watts_1976]] [[Weed et al 1983][research_weed_carlson_1983]] [[Wells 2017][research_wells_2017]] [[Whitford 1991][research_whitford_1991]] [[Wieseman et al 2005][research_wieseman_silva_2005]] [[Williams 1965][research_williams_1965]] [[Williams and Hunt 1980][research_williams_hunt_1980]] [[Wimpress and Swihart 1964][research_wimpress_swihart_1964]] [[Wing Theory in Supersonic 1969][research_wing_theory_1969]] [[Winograd and Miles 1956][research_winograd_miles_1956]] [[Wood and Miller 1985][research_wood_miller_1985]] [[Xiong and Nguyen 2024][research_xiong_nguyen_2024]] [[Xiong et al 2019][research_xiong_fugate_2019]] [[Xiong et al 2021][research_xiong_nguyen_2021]] [[Xiong et al 2023][research_xiong_nguyen_2023]] [[Yamazaki and Kusunose 2016][research_yamazaki_kusunose_2016]] [[Yang et al 2025][research_yang_wu_2025]] [[Yoneyama and Hatamura 1989][research_yoneyama_hatamura_1989]] [[Yonezawa and Obayashi 2010][research_yonezawa_obayashi_2010]] [[Yoshikawa 1982][research_yoshikawa_1982]] [[Yu 1979][research_yu_1979]] [[Yu 1980][research_yu_1980]] [[Yu and Campbell 1992][research_yu_campbell_1992]] [[Yue 2026][research_yue_2026]] [[Zhang et al 2024][research_zhang_tian_2024]] [[Zheng 2010][research_zheng_2010]] [[Zhou et al 2017][research_zhou_chen_2017]] [[Zhu et al 2019][research_zhu_li_2019]] [[Zubin et al 2019][research_zubin_maksimov_2019]]
+**477 records.** [[A-7 Transonic Wing Designs 1982][research_a_7_transonic_1982]] [[Adamczyk and Goldstein 1978][research_adamczyk_goldstein_1978]] [[Adams 1953][research_adams_1953]] [[Aerodynamic Phenomena in Supersonic 2020][research_aerodynamic_phenomena_2020]] [[Aeroelasticity Problems in Compressible 2010][research_aeroelasticity_problems_2010]] [[Agarwal and Deese 1983][research_agarwal_deese_1983]] [[Agarwal and Deese 1984][research_agarwal_deese_1984]] [[Agrawal et al 1991][research_agrawal_kinard_1991]] [[Akram and Hasan 2024][research_akram_hasan_2024]] [[Alam et al 2006][research_alam_matsuo_2006]] [[Alden and Schindel 1952][research_alden_schindel_1952]] [[Alvi 2005][research_alvi_2005]] [[An experimental and computational 1978][research_an_experimental_1978]] [[Andersen et al 1997][research_andersen_kolonay_1997]] [[Andersen et al 1998][research_andersen_kolonay_1998_b]] [[Andersen et al 1998][research_andersen_kolonay_1998_c]] [[Appendix B Solution to 2016][research_appendix_b_2016]] [[Application of a Shock-Turbulent 1982][research_application_of_1982_b]] [[Application of Computational Methods 1982][research_application_of_1982]] [[Apte and Athani 1979][research_apte_athani_1979]] [[Archambaud et al 2004][research_archambaud_louis_2004]] [[Armstrong and Miller 1968][research_armstrong_miller_1968]] [[Arnal 1989][research_arnal_1989]] [[Askari and Soltani 2019][research_askari_soltani_2019]] [[Auls'chenko et al 2006][research_aulschenko_zamuraev_2006]] [[Azevedo 1987][research_azevedo_1987]] [[Babinsky and Délery 2011][research_babinsky_delery_2011]] [[Babinsky and Ogawa 2006][research_babinsky_ogawa_2006]] [[Babister 1980][research_babister_1980]] [[Bae et al 2004][research_bae_inman_2004]] [[Baker and Forsey 1981][research_baker_forsey_1981]] [[Barnwell 1974][research_barnwell_1974]] [[Batina 1986][research_batina_1986]] [[Belesiotis-Kataras and Timme 2021][research_belesiotiskataras_timme_2021]] [[Bennett et al 1985][research_bennett_seidel_1985]] [[Bennett et al 1991][research_bennett_dansberry_1991]] [[Bennett et al 1993][research_bennett_dansberry_1993]] [[Beresh et al 2020][research_beresh_barone_2020]] [[Berton 2022][research_berton_2022]] [[Bharadvaj 1990][research_bharadvaj_1990]] [[Bharadvaj 1991][research_bharadvaj_1991]] [[Biswas and Jimbo 2015][research_biswas_jimbo_2015]] [[Blank 1995][research_blank_1995]] [[Bodin and Fuchs 2008][research_bodin_fuchs_2008]] [[Boppe 1977][research_boppe_1977]] [[Bradley et al 1976][research_bradley_whitten_1976]] [[Brix, Jr. and Platzer 1974][research_brixjr_platzer_1974]] [[Brower 1961][research_brower_1961]] [[Brown 1989][research_brown_1989]] [[Bryson, Jr. and Desai 1968][research_brysonjr_desai_1968]] [[Burrows et al 2019][research_burrows_vukasinovic_2019]] [[Burrows et al 2021][research_burrows_vukasinovic_2021]] [[Cahill 1986][research_cahill_1986]] [[Calder and Gupta 1977][research_calder_gupta_1977]] [[Campbell and Smith 1987][research_campbell_smith_1987]] [[Carafoli 1969][research_carafoli_1969]] [[Carlson 1981][research_carlson_1981]] [[Carlson and Miller 1981][research_carlson_miller_1981]] [[Carlson and Weed 1985][research_carlson_weed_1985]] [[Cassel et al 1969][research_cassel_durando_1969]] [[Caughey 1982][research_caughey_1982]] [[Caughey and Jameson 1977][research_caughey_jameson_1977]] [[Chakrabartty and Dhanalakshmi 1995][research_chakrabartty_dhanalakshmi_1995]] [[Chan et al 2017][research_chan_hooker_2017]] [[Chanzy][research_chanzy]] [[Chaparro et al 2017][research_chaparro_fujiwara_2017]] [[Chapman and Powles 2019][research_chapman_powles_2019]] [[Chapter 3. Aerodynamics of 1960][research_chapter_3_1960]] [[Chapter 5. Wing-Body Interference 1957][research_chapter_5_1957]] [[Chen 1982][research_chen_1982]] [[Chen et al 1984][research_chen_vassberg_1984]] [[Chen et al 2026][research_chen_zhang_2026]] [[Chen et al 2026][research_chen_zhou_2026]] [[Cheng 1982][research_cheng_1982]] [[Chin 1992][research_chin_1992]] [[Chung 2002][research_chung_2002]] [[Chung et al 2021][research_chung_su_2021]] [[Chushkin 1979][research_chushkin_1979]] [[Chyu and Kuwahara 1982][research_chyu_kuwahara_1982]] [[Clark and Valarezo 1990][research_clark_valarezo_1990]] [[Clyde et al 1984][research_clyde_bonner_1984]] [[Cook 1964][research_cook_1964]] [[Cook 1965][research_cook_1965]] [[Cosentino and Holst 1985][research_cosentino_holst_1985]] [[Cox and Roskam 1990][research_cox_roskam_1990]] [[Crasta and Khan 2014][research_crasta_khan_2014]] [[Crisalli et al 1979][research_crisalli_stahara_1979]] [[Cunningham 1972][research_cunningham_1972]] [[Cunningham, Jr. 1975][research_cunninghamjr_1975]] [[Currao and Yeh 2026][research_currao_yeh_2026]] [[Dai and Zhang 2023][research_dai_zhang_2023]] [[Dallaire et al 2007][research_dallaire_tribes_2007]] [[Das 2026][research_das_2026]] [[de Nicola et al 1995][research_denicola_tognaccini_1995]] [[Deconinck and Hirsch 1981][research_deconinck_hirsch_1981]] [[Denison 1954][research_denison_1954]] [[Duff 1952][research_duff_1952]] [[Durston and Stonum 1987][research_durston_stonum_1987]] [[E. Goldstein and Ricco 2020][research_egoldstein_ricco_2020]] [[Eastep et al 1998][research_eastep_andersen_1998]] [[Eastep et al 2001][research_eastep_andersen_2001]] [[Edwards et al 1985][research_edwards_carter_1985]] [[Edwards et al 1986][research_edwards_whitfield_1986]] [[Epstein 1954][research_epstein_1954]] [[Erwin et al 1992][research_erwin_gregorek_1992]] [[Eskandary et al 2012][research_eskandary_dardel_2012]] [[Extension of FLO Codes 1982][research_extension_of_1982]] [[Fagbade and Heinz 2024][research_fagbade_heinz_2024]] [[Farbridge and Smith 1977][research_farbridge_smith_1977]] [[Fitzgerald et al 1994][research_fitzgerald_ralston_1994]] [[Flores and Van Dalsem 1985][research_flores_vandalsem_1985]] [[Foley and Woodrey 1980][research_foley_woodrey_1980]] [[Fornasier and Heiss 1987][research_fornasier_heiss_1987]] [[Forsey 1983][research_forsey_1983]] [[Forster and Steijl 2015][research_forster_steijl_2015]] [[Fournis 2022][research_fournis_2022]] [[Franciscus 1983][research_franciscus_1983]] [[Fruchtman 1974][research_fruchtman_1974]] [[Fuchs 1981][research_fuchs_1981]] [[Fujii and Obayashi 1986][research_fujii_obayashi_1986]] [[Galloway et al 1992][research_galloway_gelhausen_1992]] [[Gally and Carlson 1987][research_gally_carlson_1987]] [[Garzon and Matisheck 2012][research_garzon_matisheck_2012]] [[George et al 2016][research_george_ukeiley_2016]] [[Gilfert and Gudmundsson 2019][research_gilfert_gudmundsson_2019]] [[Gloss and Washburn 1977][research_gloss_washburn_1977]] [[Gloss and Washburn 1978][research_gloss_washburn_1978]] [[Gnemmi and Rey 2008][research_gnemmi_rey_2008]] [[Gomillion 1976][research_gomillion_1976]] [[Grasmeyer 1999][research_grasmeyer_1999]] [[Gregg and Misegades 1987][research_gregg_misegades_1987]] [[Guderley 1987][research_guderley_1987]] [[Guderley 1988][research_guderley_1988]] [[Guillot and Friedmann 1994][research_guillot_friedmann_1994_b]] [[Gupta et al 2021][research_gupta_datta_2021]] [[Guruswamy 2019][research_guruswamy_2019]] [[Guruswamy and Tu 1989][research_guruswamy_tu_1989]] [[Guruswamy and Tu 1994][research_guruswamy_tu_1994]] [[Hahn et al 2024][research_hahn_lax_2024]] [[Hallberg and Kaminer 1999][research_hallberg_kaminer_1999]] [[Halwas and Aggarwal 2019][research_halwas_aggarwal_2019]] [[Halwas and Aggarwal 2019][research_halwas_aggarwal_2019_b]] [[Hammer and Garmann 2023][research_hammer_garmann_2023]] [[Hartley et al 1965][research_hartley_furey_1965]] [[Hartmann 2012][research_hartmann_2012]] [[Hartmann 2013][research_hartmann_2013]] [[Hasan and Akram 2022][research_hasan_akram_2022]] [[Hayabe and Kwak 2025][research_hayabe_kwak_2025]] [[Heinrich et al 1959][research_heinrich_ballinger_1959]] [[Held and Fuchs 1999][research_held_fuchs_1999]] [[Heltsley and Cline 1979][research_heltsley_cline_1979]] [[Heltsley et al 1981][research_heltsley_crosswy_1981]] [[Hendrickson et al 1978][research_hendrickson_grossman_1978]] [[Henne 1980][research_henne_1980]] [[Henne and Hicks 1978][research_henne_hicks_1978]] [[Hiley and Bowers 1981][research_hiley_bowers_1981]] [[Hinz and Miller 1979][research_hinz_miller_1979]] [[History of Supersonic Transport 2020][research_history_of_2020]] [[Holst and Thomas 1982][research_holst_thomas_1982]] [[Hope and Kunz 2019][research_hope_kunz_2019]] [[Hu 1995][research_hu_1995]] [[Huang and Hartley 1969][research_huang_hartley_1969]] [[Huang and Hwang 1969][research_huang_hwang_1969]] [[Huang and Hwang 1970][research_huang_hwang_1970]] [[Huffman and Fox, Jr. 1985][research_huffman_foxjr_1985]] [[Hybrid Approach to Transonic 1982][research_hybrid_approach_1982]] [[Ide and Shankar 1987][research_ide_shankar_1987]] [[Ide et al 2019][research_ide_ishida_2019]] [[Iizuka and Fujii 2006][research_iizuka_fujii_2006]] [[Ilie and Havenar 2023][research_ilie_havenar_2023]] [[Influence of wing geometry 1989][research_influence_of_1989]] [[Ionela Raluca Maxim 1970][research_ionelaralucamaxim_1970]] [[Israq et al 2025][research_israq_ahmaad_2025]] [[Iyer et al 2017][research_iyer_park_2017]] [[Jameson 1973][research_jameson_1973]] [[Jameson 1977][research_jameson_1977]] [[Jameson 1982][research_jameson_1982]] [[Jameson 2003][research_jameson_2003]] [[Jameson and Caughey 1977][research_jameson_caughey_1977]] [[Jamshidi et al 2016][research_jamshidi_dardel_2016]] [[Janardhan and Grandhi 2003][research_janardhan_grandhi_2003]] [[Jepps 1981][research_jepps_1981]] [[Johnson, C. B. and Kaufman, L. G., III 1979][research_johnsoncb_kaufmanlgiii_1979]] [[Johnston 1992][research_johnston_1992]] [[Johnston 1998][research_johnston_1998]] [[Jones 1950][research_jones_1950]] [[Jones 1980][research_jones_1980]] [[Jones and Jarrett 2018][research_jones_jarrett_2018]] [[Kady and Takahashi 2014][research_kady_takahashi_2014]] [[Kandil and Menzies 1996][research_kandil_menzies_1996]] [[Kandil et al 1993][research_kandil_kandil_1993]] [[Kandil et al 1994][research_kandil_kalisch_1994]] [[Karania et al 2021][research_karania_mohan_2021]] [[Katary 1983][research_katary_1983]] [[Keener 1984][research_keener_1984]] [[Kehrer 1971][research_kehrer_1971]] [[Khotyanovsky et al 2017][research_khotyanovsky_kudryavtsev_2017]] [[Kim and Sung 1993][research_kim_sung_1993]] [[Kim and Winchenbach 1986][research_kim_winchenbach_1986]] [[Kim et al 2001][research_kim_obayashi_2001]] [[Kim et al 2006][research_kim_jeon_2006]] [[Kishi et al 2016][research_kishi_kanazaki_2016]] [[Kisslinger and Vetsch 1965][research_kisslinger_vetsch_1965]] [[Klausmeyer 2004][research_klausmeyer_2004]] [[Klausmeyer 2018][research_klausmeyer_2018]] [[Klopfer and Nielsen 1980][research_klopfer_nielsen_1980]] [[Klug et al 2020][research_klug_radespiel_2020]] [[Klug et al 2023][research_klug_ullah_2023]] [[Ko et al 2003][research_ko_mason_2003]] [[Kolonay and Yang 1998][research_kolonay_yang_1998]] [[Korobkin 1953][research_korobkin_1953]] [[Krenz 1979][research_krenz_1979]] [[Krothapalli et al 2003][research_krothapalli_alvi_2003]] [[Kuhlman et al 1988][research_kuhlman_cerney_1988]] [[Kulfan and Vachal 1978][research_kulfan_vachal_1978]] [[Kurade et al 2021][research_kurade_venkatakrishnan_2021]] [[Kurosaka 1974][research_kurosaka_1974]] [[Lamar 1977][research_lamar_1977]] [[Lan et al 2006][research_lan_bianchi_2006]] [[Lan et al 2026][research_lan_wang_2026]] [[Larson 1958][research_larson_1958]] [[Laughrey 1969][research_laughrey_1969]] [[Lee and Boedicker 1985][research_lee_boedicker_1985]] [[Leventhal et al 1977][research_leventhal_keel_1977]] [[Li and Geiselhart 2026][research_li_geiselhart_2026]] [[Li and Livne 1995][research_li_livne_1995]] [[Li and Livne 1996][research_li_livne_1996]] [[Li and Livne 1997][research_li_livne_1997]] [[Li and Livne 1997][research_li_livne_1997_b]] [[Li and Qin 2020][research_li_qin_2020_b]] [[Librescu et al 2003][research_librescu_na_2003]] [[Lin 1982][research_lin_1982]] [[Liu 2022][research_liu_2022]] [[Liu 2022][research_liu_2022_b]] [[Liu and Liu 2016][research_liu_liu_2016]] [[Liu and Zha 2016][research_liu_zha_2016]] [[Liu et al 2023][research_liu_lei_2023]] [[Lombardi et al 1997][research_lombardi_salvetti_1997]] [[Lozano et al 2022][research_lozano_rahbari_2022]] [[Luce and Jr 1949][research_luce_jr_1949]] [[Lusk et al 2012][research_lusk_cattafesta_2012]] [[Ly et al 2006][research_ly_gear_2006]] [[M 2026][research_m_2026]] [[M. Abhinav and V. Narasimha Reddy 2016][research_mabhinav_vnarasimhareddy_2016]] [[Mabey and Gaudet 1975][research_mabey_gaudet_1975]] [[Mack 1979][research_mack_1979]] [[Madson and Ericksont 1985][research_madson_ericksont_1985]] [[Marchman 1975][research_marchman_1975]] [[Marion and Sharma 2025][research_marion_sharma_2025]] [[Martin and Gerber 1953][research_martin_gerber_1953]] [[Mason 1982][research_mason_1982]] [[Mason 1983][research_mason_1983]] [[Masson et al 1999][research_masson_veilleux_1999]] [[Maute et al 2008][research_maute_farhat_2008]] [[Mavriplis and Levy 2002][research_mavriplis_levy_2002]] [[McDonald et al 1982][research_mcdonald_shamroth_1982]] [[McLean 1994][research_mclean_1994]] [[McParlin and Adamczak 2003][research_mcparlin_adamczak_2003]] [[Menzies and Kandil 1996][research_menzies_kandil_1996]] [[Mertens et al 1986][research_mertens_klevenhusen_1986]] [[Meyer and Fields 1978][research_meyer_fields_1978]] [[Milanovic and Kalkhoran 2000][research_milanovic_kalkhoran_2000]] [[Miller and Schemensky 1979][research_miller_schemensky_1979]] [[Miller and Wood 1983][research_miller_wood_1983]] [[Miller et al 1979][research_miller_protopapas_1979]] [[Miskin and Takahashi 2019][research_miskin_takahashi_2019]] [[Moon et al 2010][research_moon_gai_2010]] [[Morton et al 2012][research_morton_cox_2012]] [[Muhamad Jayadi 2025][research_muhamadjayadi_2025]] [[NACA Conference on Aerodynamic 1949][research_naca_conference_1949]] [[Nadim Melhem et al 2024][research_nadimmelhem_richardmunroe_2024]] [[Nangia and Palmer 2007][research_nangia_palmer_2007]] [[Narain 1983][research_narain_1983]] [[Nastase 1988][research_nastase_1988]] [[Naylor 1957][research_naylor_1957]] [[Newman, Iii and Baysal 1992][research_newmaniii_baysal_1992]] [[Nguyen and Xiong 2021][research_nguyen_xiong_2021]] [[Nguyen and Xiong 2022][research_nguyen_xiong_2022]] [[Nguyen and Xiong 2023][research_nguyen_xiong_2023_b]] [[Nguyen and Xiong 2023][research_nguyen_xiong_2023_c]] [[Nguyen and Xiong 2024][research_nguyen_xiong_2024]] [[Nguyen and Xiong 2024][research_nguyen_xiong_2024_b]] [[Nielsen et al 1984][research_nielsen_goodwin_1984]] [[Nilsson et al 2023][research_nilsson_yao_2023]] [[Nixon 1983][research_nixon_1983]] [[Nixon and Nixon 1997][research_nixon_nixon_1997]] [[Nixon et al 1990][research_nixon_caruso_1990]] [[Nomura 2003][research_nomura_2003]] [[Nonlinear Aeroelastic Analysis of 2007][research_nonlinear_aeroelastic_2007]] [[O and Lewis 2001][research_o_lewis_2001]] [[Obayashi et al 2000][research_obayashi_sasaki_2000]] [[Oberkampf 1974][research_oberkampf_1974]] [[Oberkampf 1981][research_oberkampf_1981]] [[Ojiaku and Prakash 2026][research_ojiaku_prakash_2026]] [[Owens et al 2003][research_owens_capone_2003]] [[Owens et al 2004][research_owens_capone_2004]] [[Owens et al 2006][research_owens_mcconnell_2006]] [[Padova and Falk 1980][research_padova_falk_1980]] [[Palacios and Cesnik 2005][research_palacios_cesnik_2005]] [[Paniagua 2013][research_paniagua_2013]] [[Park 2003][research_park_2003]] [[Patil et al 2000][research_patil_hodges_2000]] [[Paul and Rein 2016][research_paul_rein_2016]] [[Paul and Rein 2017][research_paul_rein_2017]] [[Pfaff 1965][research_pfaff_1965]] [[Plaban and Takahashi 2021][research_plaban_takahashi_2021]] [[Polonsky 2026][research_polonsky_2026]] [[Poole et al 2020][research_poole_allen_2020]] [[Potential Equation Methods for 1982][research_potential_equation_1982]] [[Powles][research_powles]] [[Powles 2004][research_powles_2004]] [[Powles 2004][research_powles_2004_b]] [[Powles and Chapman 2019][research_powles_chapman_2019]] [[Prasannakumar et al 2022][research_prasannakumar_sudhi_2022]] [[Properties and Design of 2012][research_properties_and_2012]] [[Puentes and Takahashi 2024][research_puentes_takahashi_2024]] [[Qin 2012][research_qin_2012]] [[Radvogin 1979][research_radvogin_1979]] [[Ragab and El-Gabry 2015][research_ragab_elgabry_2015]] [[Raghunathan and Coll 1981][research_raghunathan_coll_1981]] [[Raghunathan et al 1998][research_raghunathan_mitchell_1998]] [[Raj 1983][research_raj_1983]] [[Raluca MAXIM 2020][research_ralucamaxim_2020]] [[Rambacher and Bons 2023][research_rambacher_bons_2023]] [[Rao et al 2005][research_rao_behal_2005]] [[Rao, D. M. 1980][research_raodm_1980]] [[Rao, D. M. and Johnson, T. D., Jr. 1982][research_raodm_johnsontdjr_1982]] [[Recine et al 2025][research_recine_schuh_2025]] [[Reddy 1987][research_reddy_1987]] [[Regan 1964][research_regan_1964]] [[Reimann 2016][research_reimann_2016]] [[Reimer 1998][research_reimer_1998]] [[Requirements of a commercial 1967][research_requirements_of_1967]] [[Reuther and Jameson 1995][research_reuther_jameson_1995]] [[Riou et al 2010][research_riou_garnier_2010]] [[Rivers et al 2001][research_rivers_wahls_2001]] [[Rizk 1980][research_rizk_1980]] [[Rizzetta 1977][research_rizzetta_1977]] [[Rizzetta 1995][research_rizzetta_1995]] [[Rizzi 1981][research_rizzi_1981]] [[Rizzi 1981][research_rizzi_1981_b]] [[Rizzi 1984][research_rizzi_1984]] [[Rizzi 1995][research_rizzi_1995]] [[Rizzi et al 1986][research_rizzi_purcell_1986]] [[Robins and Carlson 1979][research_robins_carlson_1979]] [[Robins and Carlson 1980][research_robins_carlson_1980]] [[Roohani and Skews 2009][research_roohani_skews_2009]] [[Roos et al 1975][research_roos_bennekers_1975]] [[Rose and Pittman 1989][research_rose_pittman_1989]] [[Rosemann and Birkemeyer 2002][research_rosemann_birkemeyer_2002]] [[Rosen 1985][research_rosen_1985]] [[Rosen 1988][research_rosen_1988]] [[Roskam, J. et al 1972][research_roskamj_lanc_1972]] [[Roughen et al 2010][research_roughen_bendiksen_2010]] [[Rumpfkeil et al 2021][research_rumpfkeil_lickenbrock_2021]] [[Russo et al 2020][research_russo_tognaccini_2020]] [[Russo et al 2020][research_russo_tognaccini_2020_b]] [[Sakamura and Komaki 2011][research_sakamura_komaki_2011]] [[Sandford et al 1980][research_sandford_ricketts_1980]] [[Sapkal and Attar 2011][research_sapkal_attar_2011]] [[Sapkal and Attar 2012][research_sapkal_attar_2012]] [[Sartor][research_sartor]] [[Sartor et al 2012][research_sartor_losfeld_2012]] [[Sartor et al 2013][research_sartor_clement_2013]] [[Schmidt 1995][research_schmidt_1995]] [[Schmitt et al 1983][research_schmitt_destarac_1983]] [[Schuelein 2008][research_schuelein_2008]] [[Schuster, David M. and Byrd, James E. 2003][research_schusterdavidm_byrdjamese_2003]] [[Seebass 1982][research_seebass_1982]] [[Seginer and Rose 1976][research_seginer_rose_1976]] [[Seidel et al 1985][research_seidel_sandford_1985]] [[Seider and Haenel 1991][research_seider_haenel_1991]] [[Semionov and Kosinov 2007][research_semionov_kosinov_2007]] [[Seraile et al 2024][research_seraile_uddin_2024]] [[Sezgin and Krstic 2013][research_sezgin_krstic_2013]] [[Sha et al 2022][research_sha_sun_2022]] [[Shankar 1980][research_shankar_1980]] [[Shankar and Goebel 1985][research_shankar_goebel_1985]] [[Shankar and Malmuth 1982][research_shankar_malmuth_1982]] [[Shao et al 2026][research_shao_he_2026]] [[Sharp 1959][research_sharp_1959]] [[Shieh 1988][research_shieh_1988]] [[Silva and Bennett 1995][research_silva_bennett_1995]] [[Silva et al 2008][research_silva_mello_2008]] [[Singh et al 2022][research_singh_ukeiley_2022]] [[Slender Aircraft for Flight 2012][research_slender_aircraft_2012]] [[Smetana and Knepper 1973][research_smetana_knepper_1973]] [[Smith and Dahlem 1981][research_smith_dahlem_1981]] [[Smith and Shyy 1995][research_smith_shyy_1995]] [[Smith et al 2008][research_smith_henfling_2008]] [[Sorensen and Bencze 1974][research_sorensen_bencze_1974]] [[Sorensen and Smeltzer 1972][research_sorensen_smeltzer_1972]] [[Spaid 1984][research_spaid_1984]] [[Spearman 1979][research_spearman_1979]] [[Spearman et al 1992][research_spearman_tice_1992]] [[Spinner and Rudnik 2023][research_spinner_rudnik_2023]] [[Stengel 1969][research_stengel_1969]] [[Sticchi et al 2026][research_sticchi_ragni_2026]] [[Streett 1981][research_streett_1981]] [[Subsonic/Transonic Prediction Capabilities for 1986][research_subsonic_transonic_prediction_1986]] [[Sudhi et al 2021][research_sudhi_radespiel_2021]] [[Sundaram and Wu 1983][research_sundaram_wu_1983]] [[Supersonic Aircraft High-Speed Civil 1997][research_supersonic_aircraft_1997]] [[Supersonic Three-dimensional Wing Theory 1960][research_supersonic_three_dimensional_1960]] [[Supersonic transport wing minimum 1992][research_supersonic_transport_1992]] [[Supersonic Two-dimensional Airfoil Theory 1960][research_supersonic_two_dimensional_1960]] [[Szema and Shankar 1984][research_szema_shankar_1984]] [[Takallu and Spence 1989][research_takallu_spence_1989]] [[Taverna 1985][research_taverna_1985]] [[Technical applications for an 1976][research_technical_applications_1976]] [[Tekawade et al 2024][research_tekawade_chandwadkar_2024]] [[Tetrault et al 2000][research_tetrault_schetz_2000]] [[Tetrault et al 2001][research_tetrault_schetz_2001]] [[Thomas and Holst 1983][research_thomas_holst_1983]] [[Three-dimensional boundary-layer transition on 1994][research_three_dimensional_boundary_layer_1994]] [[Tian et al 2026][research_tian_li_2026]] [[Trailing Edge Circulation Control 2006][research_trailing_edge_2006]] [[Trankle and Bachner 1993][research_trankle_bachner_1993]] [[Transonic Aircraft Configurations 2012][research_transonic_aircraft_2012]] [[Transonic and supersonic flight 1992][research_transonic_and_1992]] [[Transonic Maneuver/Cruise Airfoil Design 1980][research_transonic_maneuver_cruise_1980]] [[Transonic Wing Shape Design 2015][research_transonic_wing_2015]] [[Transonic, Shock, and Multidimensional 1982][research_transonic_shock_1982]] [[Traub 1997][research_traub_1997]] [[Tucker, Warren A and Nelson, Robert L 1950][research_tuckerwarrena_nelsonrobertl_1950]] [[Turner et al 2025][research_turner_seo_2025]] [[Turpin et al 2020][research_turpin_chin_2020]] [[Tursi 2003][research_tursi_2003]] [[Uzun and Malik 2018][research_uzun_malik_2018]] [[Uzun and Malik 2019][research_uzun_malik_2019]] [[Vadyak et al 1987][research_vadyak_smith_1987]] [[van der Maas 1959][research_vandermaas_1959]] [[Vaughn and Burkhalter 1986][research_vaughn_burkhalter_1986]] [[Vaughn, Jr. 1982][research_vaughnjr_1982]] [[Velkova 2017][research_velkova_2017]] [[Voevodenko and Panteleev 1989][research_voevodenko_panteleev_1989]] [[Vukasinovic et al 2013][research_vukasinovic_gissen_2013]] [[Waggoner 1980][research_waggoner_1980]] [[Waggoner 1982][research_waggoner_1982]] [[Wagner 1983][research_wagner_1983]] [[Wang et al 2002][research_wang_milanovic_2002]] [[Ward 1949][research_ward_1949]] [[Wasson and Mehus 1967][research_wasson_mehus_1967]] [[Watts 1976][research_watts_1976]] [[Weed et al 1983][research_weed_carlson_1983]] [[Wells 2017][research_wells_2017]] [[Whitford 1991][research_whitford_1991]] [[Wieseman et al 2005][research_wieseman_silva_2005]] [[Williams 1965][research_williams_1965]] [[Williams and Hunt 1980][research_williams_hunt_1980]] [[Wilmoth and Putnam 1984][research_wilmoth_putnam_1984]] [[Wimpress and Swihart 1964][research_wimpress_swihart_1964]] [[Wing Theory in Supersonic 1969][research_wing_theory_1969]] [[Winograd and Miles 1956][research_winograd_miles_1956]] [[Wood and Miller 1984][research_wood_miller_1984]] [[Wood and Miller 1985][research_wood_miller_1985]] [[Wood and Miller 1985][research_wood_miller_1985_b]] [[Xiong and Nguyen 2024][research_xiong_nguyen_2024]] [[Xiong et al 2019][research_xiong_fugate_2019]] [[Xiong et al 2021][research_xiong_nguyen_2021]] [[Xiong et al 2023][research_xiong_nguyen_2023]] [[Yamazaki and Kusunose 2016][research_yamazaki_kusunose_2016]] [[Yang et al 2025][research_yang_wu_2025]] [[Yaros 1977][research_yaros_1977]] [[Yoneyama and Hatamura 1989][research_yoneyama_hatamura_1989]] [[Yonezawa and Obayashi 2010][research_yonezawa_obayashi_2010]] [[Yoshikawa 1982][research_yoshikawa_1982]] [[Yu 1979][research_yu_1979]] [[Yu 1980][research_yu_1980]] [[Yu and Campbell 1992][research_yu_campbell_1992]] [[Yue 2026][research_yue_2026]] [[Zhang et al 2024][research_zhang_tian_2024]] [[Zheng 2010][research_zheng_2010]] [[Zheng-hong 1992][research_zhenghong_1992]] [[Zhou et al 2017][research_zhou_chen_2017]] [[Zhu et al 2019][research_zhu_li_2019]] [[Zubin et al 2019][research_zubin_maksimov_2019]]
+
+### Flutter, and the instability this programme chose not to fly
+
+**Large, old and deliberately out of scope.** Flutter, limit cycle oscillation, buffet and aeroelastic stability. **The predecessor wind-tunnel programme suppressed flutter actively and the flight programme removed that requirement**, which is the single largest scope decision in the story and the reason a manned aeroplane could fly it at all.
+
+**454 records.** [[A flutter suppression system using strain gages applied to active flexible wing technology][research_afw_flutter_strain_gauge]] [[A parametric sensitivity and 1991][research_a_parametric_1991]] [[A synthesis of reduced-order 1994][research_a_synthesis_1994]] [[Abel and Newsom 1981][research_abel_newsom_1981]] [[Abel et al 1977][research_abel_perryiii_1977]] [[Abel et al 1978][research_abel_iii_1978]] [[Abel et al 1979][research_abel_newsom_1979]] [[Abramova et al 2016][research_abramova_petrov_2016]] [[Active control of a 1994][research_active_control_1994]] [[Active Flutter Suppression 2016][research_active_flutter_2016]] [[Active flutter suppression via 1999][research_active_flutter_1999]] [[Afkhami and Alighanbari 2007][research_afkhami_alighanbari_2007]] [[Akinwale and Datta 2025][research_akinwale_datta_2025]] [[Alag and Burken 1987][research_alag_burken_1987]] [[Alag et al 1986][research_alag_burken_1986]] [[Alhajjar et al 2018][research_alhajjar_aljiboory_2018]] [[Allen et al 2003][research_allen_fenwick_2003]] [[Amoozgar and Shahverdi 2019][research_amoozgar_shahverdi_2019]] [[Amoozgar et al 2013][research_amoozgar_irani_2013]] [[Amoozgar et al 2020][research_amoozgar_fazelzadeh_2020]] [[Amoozgar et al 2021][research_amoozgar_friswell_2021]] [[Amoozgar et al 2024][research_amoozgar_hall_2024]] [[Anderson et al 2004][research_anderson_white_2004]] [[Anderson et al 2026][research_anderson_caverly_2026]] [[Andrighettoni and Mantegazza 1998][research_andrighettoni_mantegazza_1998]] [[Appendix C Flutter Analysis 2016][research_appendix_c_2016]] [[Ardelean et al 2006][research_ardelean_mcever_2006]] [[Asadi and Farsadi 2020][research_asadi_farsadi_2020]] [[Asadi et al 2021][research_asadi_farsadi_2021]] [[Bachelder et al 2004][research_bachelder_klyde_2004]] [[Bahia Monteiro et al 2023][research_bahiamonteiro_gray_2023]] [[Baldelli et al 2009][research_baldelli_zeng_2009]] [[Balleur et al 2002][research_balleur_girodrouxlavigne_2002]] [[Banerjee et al 2014][research_banerjee_liu_2014]] [[Baran and Yirtici 2026][research_baran_yirtici_2026]] [[Barker and Balas 2000][research_barker_balas_2000]] [[Barker et al 1999][research_barker_balas_1999]] [[Ben Asher and Raveh 2023][research_benasher_raveh_2023]] [[Bendiksen 1992][research_bendiksen_1992]] [[Bendiksen 2001][research_bendiksen_2001]] [[Bendiksen et al 1997][research_bendiksen_hwang_1997]] [[Bennett et al 2001][research_bennett_brown_2001]] [[Bergman et al 2011][research_bergman_vakakis_2011]] [[Bernelli-Zazzera et al 2000][research_bernellizazzera_mantegazza_2000]] [[Bhat 2018][research_bhat_2018_b]] [[Bi et al 2017][research_bi_xie_2017]] [[Bismarck-Nasr 1992][research_bismarcknasr_1992]] [[Bismarck-Nasr 1994][research_bismarcknasr_1994]] [[Blue et al 1997][research_blue_balas_1997]] [[Borglund 2003][research_borglund_2003]] [[Borglund and Kuttenkeuler 2002][research_borglund_kuttenkeuler_2002]] [[Borglund and Nilsson 2004][research_borglund_nilsson_2004]] [[Botez et al 2002][research_botez_doin_2002]] [[Bradshaw et al 1988][research_bradshaw_rahulan_1988]] [[Breitsamter 2005][research_breitsamter_2005]] [[Breitsamter and Laschka 2000][research_breitsamter_laschka_2000]] [[Breitsamter and Schmid 2008][research_breitsamter_schmid_2008]] [[Browne et al 2024][research_browne_maldonado_2024]] [[Buddhamatya et al 2026][research_buddhamatya_miranda_2026]] [[Bunton and Denegri 2000][research_bunton_denegri_2000]] [[Byreddy et al 2003][research_byreddy_grandhi_2003]] [[Candida et al 2019][research_candida_souzadepaula_2019]] [[Cazier, Jr. and Kehoe 1986][research_cazierjr_kehoe_1986]] [[Chakravarty and Moore 1986][research_chakravarty_moore_1986]] [[Chang et al 2002][research_chang_trivailo_2002]] [[Chang et al 2010][research_chang_yang_2010]] [[Chen et al 2006][research_chen_wickramasinghe_2006]] [[Chen et al 2009][research_chen_ulker_2009]] [[Chen et al 2023][research_chen_shi_2023]] [[Chen et al 2023][research_chen_shi_2023_b]] [[Chopra 1983][research_chopra_1983]] [[Chopra 1988][research_chopra_1988]] [[Chung et al 2002][research_chung_lee_2002]] [[Crittenden et al 1977][research_crittenden_weisshaar_1977]] [[Crittenden et al 1978][research_crittenden_weishaar_1978]] [[Damveld 2004][research_damveld_2004]] [[Darabseh et al 2022][research_darabseh_tarabulsi_2022]] [[Darabseh et al 2022][research_darabseh_tarabulsi_2022_b]] [[Delgado et al 2026][research_delgado_datta_2026]] [[Denegri and Dubben 2003][research_denegri_dubben_2003]] [[Denegri et al 2005][research_denegri_dubben_2005]] [[Desmarais and Reed, Iii 1980][research_desmarais_reediii_1980]] [[Dessi and Mastroddi 2002][research_dessi_mastroddi_2002]] [[Di Pasquale 2024][research_dipasquale_2024]] [[Di Pasquale and Prince 2023][research_dipasquale_prince_2023]] [[Diwekar and Yedavalli 1995][research_diwekar_yedavalli_1995]] [[Dixit et al 2016][research_dixit_kodhanda_2016]] [[Djayapertapa and Allen 2002][research_djayapertapa_allen_2002]] [[Dowell 1990][research_dowell_1990]] [[Dowell 1996][research_dowell_1996]] [[Dowell 1999][research_dowell_1999]] [[Dowell 2001][research_dowell_2001]] [[Downs and Prazenica 2022][research_downs_prazenica_2022]] [[Downs and Prazenica 2023][research_downs_prazenica_2023]] [[Drake and Balakrishnan 2004][research_drake_balakrishnan_2004]] [[Duan and Zhang 2018][research_duan_zhang_2018]] [[Eichelsdörfer 2026][research_eichelsdorfer_2026]] [[Eichelsdörfer 2026][research_eichelsdorfer_2026_b]] [[Elastic and Aeroelastic Instabilities 2008][research_elastic_and_2008]] [[Elhami and Narab 2012][research_elhami_narab_2012]] [[Ericsson and Reding 1981][research_ericsson_reding_1981]] [[Eversman and Danda Roy 1996][research_eversman_dandaroy_1996]] [[Eversman and Roy 1997][research_eversman_roy_1997]] [[Farhangnia et al 1996][research_farhangnia_guruswamy_1996]] [[Faroughi et al 2012][research_faroughi_malekzadeh_2012]] [[Faïsse][research_faisse]] [[Faïsse et al 2021][research_faisse_vernay_2021]] [[Floros and Kang 2017][research_floros_kang_2017]] [[Flutter suppression control law synthesis for the active flexible wing model][research_afw_flutter_suppression]] [[Forte and Nguyen 2026][research_forte_nguyen_2026_d]] [[Friedmann 1973][research_friedmann_1973]] [[Fujimori et al 1995][research_fujimori_nikiforuk_1995]] [[Fukumoto et al 2023][research_fukumoto_kouchi_2023]] [[Gabel et al 1961][research_gabel_ricks_1961]] [[Gade and Inman 1996][research_gade_inman_1996]] [[Gade and Inman 1997][research_gade_inman_1997]] [[Gadsden and Habibi 2007][research_gadsden_habibi_2007]] [[Gangsaas et al 1981][research_gangsaas_ly_1981]] [[Garrard and Liebst 1983][research_garrard_liebst_1983]] [[Garrard and Liebst 1985][research_garrard_liebst_1985]] [[Garrard, William L. et al 1987][research_garrardwilliaml_liebstbradleys_1987]] [[Garrick, I E and Rubinow, S I 1946][research_garrickie_rubinowsi_1946]] [[Garrick, I E and Rubinow, S I 1946][research_garrickie_rubinowsi_1946_b]] [[Generalized predictive control for 1997][research_generalized_predictive_1997]] [[Gern 2001][research_gern_2001]] [[Ghiringhelli et al 1990][research_ghiringhelli_lanz_1990]] [[Ghiringhelli et al 1992][research_ghiringhelli_lanz_1992]] [[Ghosh and Patil 2022][research_ghosh_patil_2022]] [[Giannelis et al 2019][research_giannelis_murray_2019]] [[Godavarthi et al 2026][research_godavarthi_seo_2026]] [[Goizueta et al 2021][research_goizueta_drachinsky_2021]] [[Goizueta et al 2022][research_goizueta_wynn_2022]] [[Gonzales et al 2022][research_gonzales_sakaue_2022]] [[Grauer and Waite 1986][research_grauer_waite_1986]] [[Grauer and Waite 2024][research_grauer_waite_2024]] [[Green and Fernandez 1994][research_green_fernandez_1994]] [[Gupta et al 2005][research_gupta_doyle_2005]] [[Haas and Chopra 1989][research_haas_chopra_1989]] [[Haas and Chopra 1990][research_haas_chopra_1990]] [[Haley and Soloway 2001][research_haley_soloway_2001]] [[Haley and Soloway 2022][research_haley_soloway_2022]] [[Ham et al 1994][research_ham_kim_1994]] [[Harvey 1983][research_harvey_1983]] [[He et al 2016][research_he_yang_2016]] [[He et al 2024][research_he_shi_2024]] [[Hitch 1978][research_hitch_1978]] [[Hodges 1973][research_hodges_1973]] [[Hodson et al 1993][research_hodson_dobbs_1993]] [[Hoseini and Hodges 2019][research_hoseini_hodges_2019]] [[Huang et al 2015][research_huang_qian_2015]] [[Huang et al 2024][research_huang_zhang_2024]] [[Hwang and Pi 1982][research_hwang_pi_1982]] [[Ishii 1965][research_ishii_1965]] [[Izadpanahi][research_izadpanahi]] [[Jeong et al 2013][research_jeong_lee_2013]] [[Jiang et al 2019][research_jiang_tian_2019]] [[Jiang et al 2026][research_jiang_shang_2026]] [[Johnson 1980][research_johnson_1980]] [[Jones 1976][research_jones_1976]] [[Jones and Nisbet 1976][research_jones_nisbet_1976]] [[Karpel 1982][research_karpel_1982]] [[Karpel 1989][research_karpel_1989]] [[Kayran 2004][research_kayran_2004]] [[Kayran 2007][research_kayran_2007]] [[Kehoe 1988][research_kehoe_1988]] [[Kheiri and Riazat 2025][research_kheiri_riazat_2025]] [[Kholodar 2016][research_kholodar_2016]] [[Kim and Crassidis 2003][research_kim_crassidis_2003]] [[Klepl 1995][research_klepl_1995]] [[Kojima and Hashimoto 2023][research_kojima_hashimoto_2023]] [[Kojima et al 2019][research_kojima_kameda_2019]] [[Kosmatka and Panza 2002][research_kosmatka_panza_2002]] [[Kotikalpudi et al 2016][research_kotikalpudi_pfifer_2016]] [[Kotikalpudi et al 2018][research_kotikalpudi_danowsky_2018]] [[Kratochvíl and Valenta 2024][research_kratochvil_valenta_2024]] [[Kreshock et al 2018][research_kreshock_yeo_2018]] [[Kwon and Vepa 2022][research_kwon_vepa_2022]] [[Kwon et al 2026][research_kwon_chang_2026]] [[Lai et al 2014][research_lai_zhang_2014]] [[Lai et al 2016][research_lai_lu_2016]] [[Lam et al 2024][research_lam_paranjape_2024]] [[Lambert and Gursul 2001][research_lambert_gursul_2001]] [[Lanjun Li et al 2006][research_lanjunli_shouyiyu_2006]] [[Lee-Rausch and Batina 1993][research_leerausch_batina_1993]] [[Levinski 2004][research_levinski_2004]] [[Lewis et al 1979][research_lewis_platt_1979]] [[Lhachemi et al 2017][research_lhachemi_chu_2017]] [[Lhachemi et al 2017][research_lhachemi_saussie_2017]] [[Li and Fleeter 1996][research_li_fleeter_1996]] [[Li and Xia 2017][research_li_xia_2017]] [[Li et al 2009][research_li_dong_2009]] [[Li et al 2014][research_li_zhang_2014]] [[Li et al 2024][research_li_dai_2024]] [[Li et al 2025][research_li_dai_2025]] [[Lichtenwalner et al 1996][research_lichtenwalner_little_1996]] [[Liebst 1987][research_liebst_1987]] [[Liebst et al 1986][research_liebst_garrard_1986]] [[Liebst et al 1986][research_liebst_garrard_1986_b]] [[Liebst et al 1988][research_liebst_garrard_1988]] [[Lind and Brenner 1997][research_lind_brenner_1997_b]] [[Lind et al 1997][research_lind_brenner_1997]] [[Liu et al 2020][research_liu_gao_2020_b]] [[Lorber and Carta 1991][research_lorber_carta_1991]] [[Lottati 1987][research_lottati_1987]] [[Lottati 1988][research_lottati_1988]] [[Lu and Huang 1993][research_lu_huang_1993]] [[Lu and Yeh 1993][research_lu_yeh_1993]] [[Lu et al 2016][research_lu_cui_2016]] [[Luce and Moore 1963][research_luce_moore_1963]] [[Lum et al 2016][research_lum_xu_2016]] [[Luton and Mook 1992][research_luton_mook_1992]] [[Luton and Mook 1993][research_luton_mook_1993]] [[Lyons et al 1973][research_lyons_vepa_1973]] [[Mahesh et al 1980][research_mahesh_stone_1980]] [[Mamedov et al 2018][research_mamedov_paryshev_2018]] [[Mangalam et al 2008][research_mangalam_mangalam_2008]] [[Mangalam et al 2010][research_mangalam_jutte_2010]] [[Marchetti 2023][research_marchetti_2023]] [[Mardanpour et al 2019][research_mardanpour_izadpanahi_2019]] [[Marques and Azevedo 2007][research_marques_azevedo_2007]] [[Marques and Azevedo 2008][research_marques_azevedo_2008]] [[Marques et al 2010][research_marques_badcock_2010]] [[Marques et al 2012][research_marques_badcock_2012]] [[Marretta and Marino 2007][research_marretta_marino_2007]] [[Marzocca et al 2002][research_marzocca_librescu_2002]] [[Masini et al 2019][research_masini_timme_2019]] [[Masini et al 2020][research_masini_timme_2020]] [[Mason and Berg 1994][research_mason_berg_1994]] [[Mataich et al 2025][research_mataich_elkhadiri_2025]] [[Mattaboni et al 2009][research_mattaboni_quaranta_2009]] [[Mayer et al 2019][research_mayer_lutz_2019]] [[Mayya et al 2022][research_mayya_karnick_2022]] [[Melville 2002][research_melville_2002]] [[Meng 2021][research_meng_2021]] [[Micheli 2024][research_micheli_2024]] [[Model Rotor Testing for 2006][research_model_rotor_2006]] [[Molton et al 2010][research_molton_bur_2010]] [[Molton et al 2013][research_molton_dandois_2013]] [[Molyneux 1960][research_molyneux_1960]] [[Moni et al 2026][research_moni_wales_2026]] [[Moosavi and Elasha 2022][research_moosavi_elasha_2022]] [[Moulin 2004][research_moulin_2004]] [[Mu et al 2022][research_mu_huang_2022]] [[Muchamad Bayu Sakti Pratama et al 2022][research_muchamadbayusaktipratama_erwinsulaeman_2022]] [[Mukhopadhyay 1995][research_mukhopadhyay_1995]] [[Murugan and Ganguli 2005][research_murugan_ganguli_2005]] [[Muscarello et al 2026][research_muscarello_marzocca_2026]] [[Muñoz and García-Fogeda 2022][research_munoz_garciafogeda_2022]] [[Muñoz and García-Fogeda 2023][research_munoz_garciafogeda_2023]] [[Muñoz and García-Fogeda 2024][research_munoz_garciafogeda_2024]] [[Na Zhao et al 2010][research_nazhao_dengqingcao_2010]] [[Nae et al 2019][research_nae_stroe_2019]] [[Nailu et al 2025][research_nailu_wentao_2025]] [[Nam et al 1996][research_nam_kim_1996]] [[Nam et al 1997][research_nam_kim_1997]] [[Nash et al 2025][research_nash_timme_2025]] [[Nasu, Ken-Ichi 1986][research_nasukenichi_1986]] [[Newsom 1978][research_newsom_1978]] [[Newsom 1979][research_newsom_1979]] [[Nguyen and Swei 2015][research_nguyen_swei_2015]] [[Nguyen et al 2019][research_nguyen_fugate_2019]] [[Nguyen et al 2026][research_nguyen_xiong_2026]] [[Nissim 1975][research_nissim_1975]] [[Nissim 1976][research_nissim_1976]] [[Nissim and Lottati 1979][research_nissim_lottati_1979]] [[Nissim and Lottati 1979][research_nissim_lottati_1979_b]] [[Nissim and Lottati 1980][research_nissim_lottati_1980]] [[Nissim, E. et al 1976][research_nissime_caspia_1976]] [[Nitzsche 1994][research_nitzsche_1994]] [[Nixon 2020][research_nixon_2020_b]] [[Noll and Huttsell 1978][research_noll_huttsell_1978]] [[Noll and Huttsell 1979][research_noll_huttsell_1979]] [[Noll and Merino 1976][research_noll_merino_1976]] [[Noll et al 1980][research_noll_huttsell_1980]] [[Noll et al 1983][research_noll_eastep_1983]] [[Noll et al 1983][research_noll_calico_1983]] [[Noll et al 1984][research_noll_eastep_1984]] [[O'Brien and Datta 2026][research_obrien_datta_2026]] [[Ohta et al 1984][research_ohta_nikiforuk_1984]] [[Ohta et al 1989][research_ohta_fujimori_1989]] [[Oremland et al 2017][research_oremland_suryakumar_2017]] [[Ouellette 2017][research_ouellette_2017]] [[Ouyang et al 2021][research_ouyang_gu_2021]] [[Ouyang et al 2026][research_ouyang_jia_2026]] [[Oyibo 1983][research_oyibo_1983]] [[Ozbay 1993][research_ozbay_1993]] [[Panel flutter in a 1991][research_panel_flutter_1991]] [[Passive wing/store flutter suppression 1982][research_passive_wing_store_1982]] [[Patartics et al 2017][research_patartics_luspay_2017]] [[Pecora et al 2018][research_pecora_amoroso_2018]] [[Peloubet, Jr. et al 1983][research_peloubetjr_haller_1983]] [[Perkins and Brice 1966][research_perkins_brice_1966]] [[Perry, Iii et al 1990][research_perryiii_mukhopadhyay_1990]] [[Phillips et al 2002][research_phillips_lambert_2002]] [[Pines et al 1955][research_pines_dugundji_1955]] [[Pitt et al 2016][research_pitt_sexton_2016]] [[Plath][research_plath]] [[Poplingher et al 2022][research_poplingher_mallik_2022]] [[Porter and Gu 1991][research_porter_gu_1991]] [[Porter et al 1992][research_porter_merzougui_1992]] [[Porter et al 1992][research_porter_merzougui_1992_b]] [[Prediction of transonic flutter 1981][research_prediction_of_1981]] [[Pushtaev 1989][research_pushtaev_1989]] [[Qian 2018][research_qian_2018]] [[Qian et al 2014][research_qian_huang_2014]] [[Qian et al 2014][research_qian_huang_2014_b]] [[Quero 2025][research_quero_2025]] [[Raja and Upadhya 2007][research_raja_upadhya_2007]] [[Rea et al 2017][research_rea_pecora_2017]] [[Rea et al 2018][research_rea_pecora_2018]] [[Reding and Ericsson 1977][research_reding_ericsson_1977]] [[Reich, hoor, Mart et al 1995][research_reichhoormart_lin_1995]] [[Rendina and Mazzoni 1999][research_rendina_mazzoni_1999]] [[Rigatos et al 2026][research_rigatos_dala_2026]] [[Rock et al 1993][research_rock_ashley_1993]] [[Roger et al 1974][research_roger_hodges_1974]] [[Roy and Eversman 1996][research_roy_eversman_1996]] [[Ruhlin and Pratt-Barlow 1981][research_ruhlin_prattbarlow_1981]] [[Rule et al 2000][research_rule_richard_2000]] [[Rule et al 2001][research_rule_richard_2001]] [[Rutkowski 1979][research_rutkowski_1979]] [[Sabatini et al 2026][research_sabatini_livne_2026]] [[Sabatini et al 2026][research_sabatini_coppotelli_2026]] [[Sahyoun et al 2026][research_sahyoun_boose_2026]] [[Saitoh et al 1995][research_saitoh_hashidate_1995]] [[Santos et al 2026][research_santos_marques_2026]] [[Schauerte et al 2026][research_schauerte_kwong_2026]] [[Schewe and Mai 2019][research_schewe_mai_2019]] [[Schildkamp et al 2023][research_schildkamp_chang_2023]] [[Schmidt 2016][research_schmidt_2016]] [[sekhar et al 2024][research_sekhar_suresh_2024]] [[Sharma et al 2022][research_sharma_agrawal_2022]] [[Sharpe et al 2023][research_sharpe_ulker_2023]] [[Shen and Chopra 2001][research_shen_chopra_2001]] [[Shen and Chopra 2003][research_shen_chopra_2003]] [[Sheta 2000][research_sheta_2000]] [[Silva et al 2006][research_silva_mello_2006]] [[Simmons et al 2026][research_simmons_chang_2026]] [[Singh and Friedmann 2020][research_singh_friedmann_2020]] [[Singh and Friedmann 2021][research_singh_friedmann_2021]] [[Singh and Venkatraman 2023][research_singh_venkatraman_2023]] [[Slaby and Smith 2011][research_slaby_smith_2011]] [[Slater 1985][research_slater_1985]] [[Smith 2025][research_smith_2025]] [[Song et al 2010][research_song_wu_2010]] [[Sotoudeh 2014][research_sotoudeh_2014]] [[Sotoudeh 2015][research_sotoudeh_2015]] [[Spangler, Jr. and Jacques 1999][research_spanglerjr_jacques_1999]] [[Srinathkumar and Adams, Jr. 1989][research_srinathkumar_adamsjr_1989]] [[Stanewsky and Basler 1989][research_stanewsky_basler_1989]] [[Stanford and Beran 2011][research_stanford_beran_2011]] [[Stanford and Jacobson 2023][research_stanford_jacobson_2023]] [[Stark 1977][research_stark_1977]] [[Starodub 2026][research_starodub_2026]] [[Steimle et al 2008][research_steimle_schroder_2008]] [[Su et al 2023][research_su_sun_2023]] [[Sun and Bai 2014][research_sun_bai_2014]] [[Suzuki 1990][research_suzuki_1990]] [[Suzuki and Matsuda 1991][research_suzuki_matsuda_1991]] [[Svoboda and Hromcik 2019][research_svoboda_hromcik_2019]] [[Svoboda et al 2018][research_svoboda_hromcik_2018]] [[Syed et al 2022][research_syed_moshtaghzadeh_2022]] [[Szymanski et al 2025][research_szymanski_alstrom_2025]] [[Tadi 2003][research_tadi_2003]] [[Tang and Dowell 1996][research_tang_dowell_1996]] [[Tang and Dowell 2013][research_tang_dowell_2013]] [[Tang et al 2017][research_tang_chen_2017]] [[Tani 1992][research_tani_1992]] [[Teixeira and Cesnik 2020][research_teixeira_cesnik_2020]] [[Teng 2007][research_teng_2007]] [[Teng and Chen 2005][research_teng_chen_2005]] [[Tewari 1998][research_tewari_1998]] [[Tewari 1999][research_tewari_1999]] [[Tewari 2009][research_tewari_2009]] [[Theis et al 2016][research_theis_pfifer_2016]] [[Theis et al 2020][research_theis_pfifer_2020]] [[Tian et al 2026][research_tian_wang_2026]] [[Ting et al 2026][research_ting_berg_2026]] [[Toker and Ozbay][research_toker_ozbay]] [[Torrigiani and Berci 2021][research_torrigiani_berci_2021]] [[Tracy and Chopra 1998][research_tracy_chopra_1998]] [[Triplett 1972][research_triplett_1972]] [[Triplett et al 1973][research_triplett_kappus_1973]] [[U. P. V. et al 2025][research_upv_deodhare_2025]] [[Unsteady Aerodynamics and Flutter 2006][research_unsteady_aerodynamics_2006]] [[Uppoor and Chopra 2026][research_uppoor_chopra_2026]] [[Vepa 2007][research_vepa_2007]] [[Vepa 2007][research_vepa_2007_b]] [[Vernon 1993][research_vernon_1993]] [[Vindigni 2024][research_vindigni_2024]] [[Vindigni et al 2024][research_vindigni_mantegna_2024]] [[Vindigni et al 2024][research_vindigni_mantegna_2024_b]] [[Vindigni et al 2026][research_vindigni_mantegna_2026]] [[Von Flotow 1989][research_vonflotow_1989]] [[Voracek and Clarke 1991][research_voracek_clarke_1991]] [[Waite et al 2019][research_waite_stanford_2019_b]] [[Waitman and Marcos 2020][research_waitman_marcos_2020]] [[Wasmi et al 2015][research_wasmi_hasan_2015]] [[Waszak 1996][research_waszak_1996]] [[Waszak 2001][research_waszak_2001]] [[Waszak and Buttrill 1991][research_waszak_buttrill_1991]] [[Waszak and Srinathkumar 1991][research_waszak_srinathkumar_1991]] [[Waszak and Srinathkumar 1992][research_waszak_srinathkumar_1992]] [[Waszak and Srinathkumar 1995][research_waszak_srinathkumar_1995]] [[weibing and Kuisheng 2006][research_weibing_kuisheng_2006]] [[Weisshaar 1978][research_weisshaar_1978]] [[Weisshaar and Ryan 1984][research_weisshaar_ryan_1984]] [[Weisshaar, T. A. 1983][research_weisshaarta_1983]] [[Wilcox and Brenner 2011][research_wilcox_brenner_2011]] [[Wilde et al 2001][research_wilde_omenzetter_2001]] [[Wing Buffeting Control at 2018][research_wing_buffeting_2018]] [[Woods et al 1989][research_woods_gilbert_1989]] [[Woods et al 1990][research_woods_gilbert_1990]] [[Wright and Silva 2026][research_wright_silva_2026]] [[Wu and Cooper 2016][research_wu_cooper_2016]] [[Wu et al 2022][research_wu_dai_2022]] [[Wuestenhagen 2022][research_wuestenhagen_2022]] [[Wuestenhagen et al 2018][research_wuestenhagen_kier_2018]] [[Wuestenhagen et al 2018][research_wuestenhagen_kier_2018_b]] [[Xiang and Wang 2023][research_xiang_wang_2023]] [[Xiao et al 2022][research_xiao_wang_2022]] [[Xie and Yang 2011][research_xie_yang_2011]] [[Xie et al 2007][research_xie_leng_2007]] [[Xie et al 2016][research_xie_liu_2016]] [[Xiong and Liu 2013][research_xiong_liu_2013]] [[Xiong and Nguyen 2024][research_xiong_nguyen_2024_b]] [[Xiong and Yang 2001][research_xiong_yang_2001]] [[Yang and Wan 1978][research_yang_wan_1978]] [[Yang and Xia 2011][research_yang_xia_2011]] [[Yang et al 2014][research_yang_li_2014]] [[Yang et al 2017][research_yang_huang_2017]] [[Yang et al 2019][research_yang_huang_2019]] [[Yang et al 2025][research_yang_kou_2025]] [[Yao and Marques 2014][research_yao_marques_2014]] [[Yates 1963][research_yates_1963]] [[Ye and Ye 2021][research_ye_ye_2021]] [[Yeo et al 2010][research_yeo_potsdam_2010]] [[Yeo et al 2023][research_yeo_kang_2023]] [[Yu et al 2004][research_yu_yuan_2004]] [[Yu et al 2026][research_yu_bose_2026]] [[Yurkovich 1986][research_yurkovich_1986]] [[Zeng et al 2012][research_zeng_kukreja_2012]] [[Zhan 2016][research_zhan_2016]] [[Zhang and Soffker][research_zhang_soffker]] [[Zhang and Ye 2010][research_zhang_ye_2010]] [[Zhang et al 2008][research_zhang_xu_2008]] [[Zhang et al 2026][research_zhang_deng_2026]] [[Zhao 2009][research_zhao_2009]] [[Zhong et al 2025][research_zhong_xia_2025]] [[Zhou et al 2018][research_zhou_yu_2018]] [[Zhu and Qiao 2009][research_zhu_qiao_2009]] [[Zou et al 2021][research_zou_mu_2021]] [[Zou et al 2022][research_zou_huang_2022]] [[Čečrdle 2018][research_cecrdle_2018]]
+
+### Shaping a wing so that it bends usefully
+
+**Aeroelastic tailoring, composite covers, wing boxes and the morphing literature that grew out of them.** **The classical answer to a flexible wing is to stiffen it and stiffness is weight**, and this shelf is the eighty-year argument about whether there is another answer.
+
+**408 records.** [[Abdelkader et al 2011][research_abdelkader_harmin_2011]] [[Abdi, F. et al 1988][research_abdif_ideh_1988]] [[Abdullah and Sulaeman 2013][research_abdullah_sulaeman_2013]] [[Abdulrahim et al 2004][research_abdulrahim_garcia_2004]] [[Abraham-Doman and Merrett 2014][research_abrahamdoman_merrett_2014]] [[Aero structural optimization for 2018][research_aero_structural_2018]] [[Ahmadi and Farsadi 2024][research_ahmadi_farsadi_2024]] [[Alsaidi et al 2018][research_alsaidi_akbar_2018]] [[Alsaidi et al 2018][research_alsaidi_akbar_2018_b]] [[Alsaidi et al 2019][research_alsaidi_joe_2019]] [[Alsaidi et al 2019][research_alsaidi_joe_2019_b]] [[Alulema et al 2020][research_alulema_valencia_2020]] [[Alvarez and Wissa 2021][research_alvarez_wissa_2021]] [[Alyanak and Pendleton 2014][research_alyanak_pendleton_2014]] [[Alyanak and Pendleton 2017][research_alyanak_pendleton_2017]] [[Amendola et al 2018][research_amendola_dimino_2018]] [[Ameri et al 2007][research_ameri_lowenberg_2007]] [[American Institute of Aeronautics and Astronautics 1993][research_americaninstituteofaeronauticsandastronautics_1993]] [[Andakhshideh and Tahani 2013][research_andakhshideh_tahani_2013]] [[Arizono and Isogai 2005][research_arizono_isogai_2005]] [[Austin et al 1976][research_austin_hadcock_1976]] [[Ayaz et al 2024][research_ayaz_rasoolmemon_2024]] [[Azzi et al 2024][research_azzi_tahiliani_2024]] [[Balon et al 2021][research_balon_benes_2021]] [[Bang et al 2022][research_bang_rana_2022]] [[Bartels et al 2019][research_bartels_stanford_2019]] [[Bartels et al 2019][research_bartels_stanford_2019_b]] [[Beatty et al 1977][research_beatty_brooks_1977]] [[Beaverstock et al 2015][research_beaverstock_woods_2015]] [[Bilgen et al 2011][research_bilgen_saavedraflores_2011]] [[Blair and Canfield 2002][research_blair_canfield_2002]] [[Bohlmann et al 1988][research_bohlmann_weisshaar_1988]] [[Bohlmann et al 1992][research_bohlmann_love_1992]] [[Bohlmann, Jonathan D. and Scott, Robert C. 1991][research_bohlmannjonathand_scottrobertc_1991]] [[Bonnema and Smith 1988][research_bonnema_smith_1988]] [[Bonnema, Kenneth L. and Lokos, William A. 1989][research_bonnemakennethl_lokoswilliama_1989]] [[Bordogna et al 2016][research_bordogna_macquart_2016]] [[Bordogna et al 2020][research_bordogna_lancelot_2020]] [[Boskovic and Redding 2009][research_boskovic_redding_2009]] [[Botez et al 2018][research_botez_koreanschi_2018]] [[Cao and Lyu 2024][research_cao_lyu_2024]] [[Cao et al 2024][research_cao_zhao_2024]] [[Cao et al 2025][research_cao_lin_2025]] [[Cao et al 2026][research_cao_lin_2026]] [[Carrillo et al 2024][research_carrillo_debreuker_2024]] [[Cavagna et al 2011][research_cavagna_ricci_2011]] [[Cen et al 2025][research_cen_xu_2025]] [[Cen et al 2026][research_cen_xu_2026]] [[Cesnik 2002][research_cesnik_2002]] [[Cesnik 2005][research_cesnik_2005]] [[Cesnik et al 2000][research_cesnik_ortegamorales_2000]] [[Chae et al 2017][research_chae_moosavian_2017]] [[Chen and Han 2017][research_chen_han_2017]] [[Chen et al 2015][research_chen_zhou_2015]] [[Cheng et al 2025][research_cheng_song_2025]] [[Choi et al 2020][research_choi_lim_2020]] [[Clark 2001][research_clark_2001]] [[Dale et al 2013][research_dale_cooper_2013]] [[Dale et al 2014][research_dale_cooper_2014]] [[De Breuker et al 2007][research_debreuker_abdalla_2007]] [[De Breuker et al 2018][research_debreuker_binder_2018]] [[De Gaspari et al 2015][research_degaspari_ricci_2015]] [[Decamp and Hardy 1984][research_decamp_hardy_1984]] [[Delgado Regis et al 2004][research_delgadoregis_mattos_2004]] [[Dillenius and Mcintosh, Jr. 1988][research_dillenius_mcintoshjr_1988]] [[Dimino et al 2021][research_dimino_andreutti_2021]] [[Dubnický et al 2023][research_dubnicky_splichal_2023]] [[Dunning et al 2014][research_dunning_stanford_2014]] [[Eastep et al 1999][research_eastep_tischler_1999]] [[Eguea][research_eguea]] [[Eldwaib et al 2018][research_eldwaib_grbovic_2018]] [[Elham and Bahamonde Jacome 2016][research_elham_bahamondejacome_2016]] [[Elham and Timmer 2016][research_elham_timmer_2016]] [[Elshazly et al 2025][research_elshazly_kassem_2025]] [[Eraslan and Oktay 2023][research_eraslan_oktay_2023]] [[Eraslan and Oktay 2024][research_eraslan_oktay_2024]] [[España and Gilyard 1995][research_espana_gilyard_1995]] [[Espńa and Gilyard 1994][research_espna_gilyard_1994]] [[Fasel 2020][research_fasel_2020]] [[Feng et al 2015][research_feng_liu_2015]] [[Feng et al 2015][research_feng_liu_2015_b]] [[Fichera et al 2019][research_fichera_isnardi_2019]] [[Flexible manufacturing cell for 2003][research_flexible_manufacturing_2003]] [[Flight test results from a supercritical mission adaptive wing with smooth variable camber][research_mission_adaptive_flight]] [[Fonte et al 2018][research_fonte_iannaccone_2018]] [[Friedmann et al 1992][research_friedmann_venkatesan_1992]] [[Fujiwara and Nguyen 2017][research_fujiwara_nguyen_2017]] [[Gamboa and Santos 2016][research_gamboa_santos_2016]] [[Gandhi et al 2009][research_gandhi_cooper_2009]] [[Ganguli and Chopra 1997][research_ganguli_chopra_1997]] [[Garcia et al 2003][research_garcia_abdulrahim_2003]] [[Gasbarri et al 2009][research_gasbarri_chiwiacowsky_2009]] [[Gautham Vigneswar et al 2025][research_gauthamvigneswar_ali_2025]] [[Gautham Vigneswar et al 2025][research_gauthamvigneswar_ali_2025_b]] [[Georgiou et al 2012][research_georgiou_manan_2012]] [[Gern and Librescu 2000][research_gern_librescu_2000]] [[Giese et al 1996][research_giese_reich_1996]] [[Gimmestad 1981][research_gimmestad_1981]] [[Giraud et al 2021][research_giraud_raibaudo_2021]] [[Green 1986][research_green_1986]] [[Green 1987][research_green_1987]] [[Griffin][research_griffin]] [[Grigorie and Botez 2014][research_grigorie_botez_2014]] [[Grigorie and Botez 2018][research_grigorie_botez_2018]] [[Grigorie et al 2009][research_grigorie_botez_2009]] [[Grigorie et al 2011][research_grigorie_popov_2011]] [[Grogorie et al 2013][research_grogorie_popov_2013]] [[Gupta 2012][research_gupta_2012]] [[Haider et al 2022][research_haider_ajaj_2022]] [[Haider et al 2023][research_haider_ajaj_2023]] [[He and Guo 2012][research_he_guo_2012]] [[He et al 2023][research_he_wang_2023]] [[Heaney and Quindlen 2024][research_heaney_quindlen_2024]] [[Henry et al 2017][research_henry_molinari_2017]] [[Herencia et al 2007][research_herencia_weaver_2007]] [[Hu][research_hu]] [[Hu et al 2025][research_hu_dai_2025]] [[Hua et al 2025][research_hua_wang_2025]] [[Huang et al 2024][research_huang_wang_2024]] [[Huang et al 2024][research_huang_fan_2024]] [[Huang et al 2025][research_huang_fraihat_2025]] [[Iannuzzo et al 2018][research_iannuzzo_russo_2018]] [[Ibren et al 2020][research_ibren_sulaeman_2020]] [[Islam et al 2025][research_islam_rahman_2025]] [[Islam et al 2025][research_islam_rahman_2025_b]] [[Islam et al 2026][research_islam_rahman_2026]] [[Isogai 1988][research_isogai_1988]] [[Isogai 1989][research_isogai_1989]] [[Jha and Chattopadhyay 1999][research_jha_chattopadhyay_1999]] [[Jia et al 2022][research_jia_zhang_2022]] [[Jia et al 2023][research_jia_zhang_2023]] [[Jiang and Yang 2026][research_jiang_yang_2026]] [[Jin et al 2013][research_jin_song_2013]] [[Jing and Zhang 2017][research_jing_zhang_2017]] [[Jini Raj et al 2023][research_jiniraj_bruceralphinrose_2023]] [[Jo and Majid 2023][research_jo_majid_2023]] [[Jodin et al 2017][research_jodin_scheller_2017]] [[John F Quindlen et al][research_johnfquindlen_danielmortega]] [[Joo et al 2015][research_joo_marks_2015]] [[Jun et al 2014][research_jun_harmin_2014]] [[Jutte, Christine and Stanford, Bret K. 2014][research_juttechristine_stanfordbretk_2014]] [[Kalaji 2023][research_kalaji_2023]] [[Kapania and Chun 2003][research_kapania_chun_2003]] [[Kapase et al 2026][research_kapase_joshi_2026]] [[Karpel and Sheena 1989][research_karpel_sheena_1989]] [[Karpel et al 2000][research_karpel_moulin_2000]] [[Karpouzian and Librescu 1991][research_karpouzian_librescu_1991]] [[Katagiri et al 2024][research_katagiri_park_2024]] [[Katam et al 2005][research_katam_lebeau_2005]] [[Kaufman et al 1996][research_kaufman_balabanov_1996]] [[Kaygan and Ulusoy 2018][research_kaygan_ulusoy_2018]] [[Keidel et al 2019][research_keidel_molinari_2019]] [[Keidel et al 2020][research_keidel_lienhard_2020]] [[Khot et al 2002][research_khot_zweber_2002]] [[Kim et al 2007][research_kim_kim_2007]] [[Kimaru and Bouferrouk 2017][research_kimaru_bouferrouk_2017]] [[Kirsch et al 2020][research_kirsch_montagnier_2020]] [[Koo 2001][research_koo_2001]] [[Koohi et al 2014][research_koohi_shahverdi_2014]] [[Kopsaftopoulos et al 2015][research_kopsaftopoulos_nardari_2015]] [[Koreanschi et al 2014][research_koreanschi_oliviu_2014]] [[Koreanschi et al 2016][research_koreanschi_oliviu_2016]] [[Krüger et al 2022][research_kruger_meddaikar_2022]] [[Kuder et al 2014][research_kuder_arrieta_2014]] [[Larson 1986][research_larson_1986]] [[Leal et al 2017][research_leal_petterson_2017]] [[Leal et al 2018][research_leal_stroud_2018]] [[Leal et al 2018][research_leal_white_2018]] [[Lebofsky et al 2014][research_lebofsky_ting_2014]] [[Lebofsky et al 2015][research_lebofsky_ting_2015]] [[Lebofsky et al 2015][research_lebofsky_ting_2015_b]] [[Leitch et al 2024][research_leitch_stodieck_2024]] [[Leitch et al 2025][research_leitch_stodieck_2025]] [[Lendraitis 2019][research_lendraitis_2019]] [[Li and Ang 2016][research_li_ang_2016]] [[Li and Li 2016][research_li_li_2016]] [[Li et al 2019][research_li_zhang_2019]] [[Li et al 2022][research_li_ge_2022]] [[Li et al 2024][research_li_sun_2024]] [[Li et al 2025][research_li_wang_2025]] [[Liang and Qin 2012][research_liang_qin_2012]] [[Liu et al 2013][research_liu_zhu_2013]] [[Liu et al 2015][research_liu_zhou_2015]] [[Liu et al 2020][research_liu_gao_2020]] [[Liu et al 2023][research_liu_zhang_2023]] [[Liu et al 2026][research_liu_qian_2026]] [[Livne et al 2014][research_livne_precup_2014]] [[Lobo do Vale et al 2021][research_lobodovale_raffaelli_2021]] [[Love and Bohlmann 1991][research_love_bohlmann_1991]] [[Lynch and Rogers 1976][research_lynch_rogers_1976]] [[M. V. Sunil and Menghal 2022][research_mvsunil_menghal_2022]] [[Ma et al 2023][research_ma_liu_2023]] [[Macquart et al 2016][research_macquart_werter_2016]] [[Magar et al 2018][research_magar_fuchi_2018]] [[Maki 2016][research_maki_2016]] [[Manan and Cooper 2008][research_manan_cooper_2008]] [[Marano et al 2022][research_marano_belardo_2022]] [[Marciniuk et al 2024][research_marciniuk_piskur_2024]] [[Marks et al 2015][research_marks_zientarski_2015]] [[Marks et al 2016][research_marks_zientarski_2016]] [[Mason and Iglesias 2001][research_mason_iglesias_2001]] [[Meirovitch 1995][research_meirovitch_1995]] [[Melville 2021][research_melville_2021]] [[Menshchikov and Somov 2019][research_menshchikov_somov_2019]] [[Mihaila-Andres et al 2017][research_mihailaandres_larco_2017]] [[Mihaila-Andres et al 2017][research_mihailaandres_rosu_2017]] [[Miskin and Takahashi 2018][research_miskin_takahashi_2018]] [[Mission adaptive wing test program][research_mission_adaptive_wing]] [[Mkhoyan et al 2020][research_mkhoyan_thakrar_2020]] [[Mkhoyan et al 2021][research_mkhoyan_thakrar_2021]] [[Mkhoyan et al 2024][research_mkhoyan_wang_2024]] [[Montgomery and Hunsaker 2022][research_montgomery_hunsaker_2022]] [[Moon 1996][research_moon_1996]] [[Moosavian 2021][research_moosavian_2021]] [[Morphing WING REAL TIME 2010][research_morphing_wing_2010]] [[Morphing Wing Technologies 2018][research_morphing_wing_2018]] [[Najmi et al 2023][research_najmi_siddiqui_2023]] [[Namdeo et al 2023][research_namdeo_bhattacharyya_2023]] [[Nastase 2011][research_nastase_2011]] [[Navardi et al 2023][research_navardi_shahverdi_2023]] [[Navardi et al 2026][research_navardi_shahverdi_2026]] [[Navrátil et al 2024][research_navratil_hostinsky_2024]] [[Nguyen et al 2013][research_nguyen_ting_2013]] [[Nguyen et al 2015][research_nguyen_ting_2015]] [[Nguyen et al 2015][research_nguyen_precup_2015]] [[Nguyen et al 2019][research_nguyen_cramer_2019]] [[Nguyen et al 2020][research_nguyen_cramer_2020]] [[Nguyen, Nhan et al 2015][research_nguyennhan_kaulupender_2015]] [[Nixon et al 2000][research_nixon_piatak_2000]] [[Nixon, Mark W. et al 1999][research_nixonmarkw_piatakdavidj_1999]] [[Noevere and Wilhite 2016][research_noevere_wilhite_2016]] [[Norton 1989][research_norton_1989]] [[Null and Shkarayev 2004][research_null_shkarayev_2004]] [[Null and Shkarayev 2005][research_null_shkarayev_2005]] [[Obradovic and Subbarao 2010][research_obradovic_subbarao_2010]] [[Olivett et al 2020][research_olivett_corrao_2020]] [[Opgenoord and Willcox 2018][research_opgenoord_willcox_2018]] [[Othman et al 2019][research_othman_silva_2019]] [[Ouyang et al 2013][research_ouyang_chen_2013]] [[Oz et al 2025][research_oz_ekici_2025]] [[Ozbek et al 2023][research_ozbek_ekici_2023]] [[Ozbek et al 2024][research_ozbek_ekici_2024]] [[Palacios et al 2009][research_palacios_glaz_2009]] [[Palaia et al 2025][research_palaia_salem_2025]] [[Papila and Haftka 1999][research_papila_haftka_1999]] [[Patil and Patil 1997][research_patil_patil_1997]] [[Pecora 2018][research_pecora_2018]] [[Pecora and Pecora 2018][research_pecora_pecora_2018]] [[Pecora et al 2021][research_pecora_amoroso_2021]] [[Perera and Guo 2008][research_perera_guo_2008]] [[Peter and Stumpf 2018][research_peter_stumpf_2018]] [[Petermeier et al 2010][research_petermeier_radtke_2010]] [[Pines and Newman 1974][research_pines_newman_1974]] [[Pitt 2004][research_pitt_2004]] [[Poomadath and Ajaj 2025][research_poomadath_ajaj_2025]] [[Popelka et al 1997][research_popelka_lindsay_1997]] [[Powers et al 1992][research_powers_webb_1992]] [[Prabhakar 2025][research_prabhakar_2025]] [[Prabhakar and Murugan 2022][research_prabhakar_murugan_2022]] [[Prabhakar and Murugan 2026][research_prabhakar_murugan_2026]] [[Precup et al 2018][research_precup_mor_2018]] [[Psarros and Savaidis 2025][research_psarros_savaidis_2025]] [[Punzi et al 2024][research_punzi_crooks_2024]] [[Qian and Alonso 2021][research_qian_alonso_2021]] [[Rade and de Souza 2016][research_rade_desouza_2016]] [[Radestock et al 2018][research_radestock_falken_2018]] [[Rahn, D. and Reinertson, L. 1986][research_rahnd_reinertsonl_1986]] [[Rajpal et al 2021][research_rajpal_mitrotta_2021]] [[Reduction of structural loads using maneuver load control on the advanced fighter technology integration F-111 mission adaptive wing][research_afti_mlc]] [[Rehfield et al 1991][research_rehfield_chang_1991]] [[Reist et al 2022][research_reist_koo_2022]] [[Renken 1985][research_renken_1985]] [[Ricci et al 2016][research_ricci_degaspari_2016]] [[Ritter et al 2017][research_ritter_dillinger_2017]] [[Rocha et al 2005][research_rocha_moniz_2005]] [[S et al 2025][research_s_a_2025]] [[Samuels 1982][research_samuels_1982]] [[Sanders et al 2003][research_sanders_eastep_2003]] [[Sanmugadas et al 2021][research_sanmugadas_gupta_2021]] [[Sarojini et al 2022][research_sarojini_solano_2022]] [[Scarth et al 2015][research_scarth_sartor_2015]] [[Schreyer et al 2026][research_schreyer_selm_2026]] [[Schröder and Meijering 2005][research_schroder_meijering_2005]] [[Schweikert et al 2022][research_schweikert_patel_2022]] [[Seber and Sakarya 2010][research_seber_sakarya_2010]] [[Seber and Sakarya 2011][research_seber_sakarya_2011]] [[Segui et al 2017][research_segui_gabor_2017]] [[Setoodeh et al 2005][research_setoodeh_abdallah_2005]] [[Sharifi et al 2025][research_sharifi_vincenti_2025]] [[Shi and Song 2012][research_shi_song_2012]] [[Shirk et al 1984][research_shirk_hertz_1984]] [[Shirk, M. H. et al 1986][research_shirkmh_hertztj_1986]] [[Sihite et al 2023][research_sihite_salagame_2023]] [[Siler et al 1997][research_siler_volk_1997]] [[Singha 2025][research_singha_2025]] [[Singha and Murugan 2022][research_singha_murugan_2022]] [[Singha and Murugan 2023][research_singha_murugan_2023]] [[Skillen and Crossley 2005][research_skillen_crossley_2005]] [[Smith, Benjamin et al 2020][research_smithbenjamin_brookstimothy_2020]] [[Smith, John W. et al 1992][research_smithjohnw_lockwiltonp_1992]] [[Solano et al 2020][research_solano_sarojini_2020]] [[Soneda et al 2020][research_soneda_yokozeki_2020]] [[Soneda et al 2021][research_soneda_yokozeki_2021]] [[Soneda et al 2026][research_soneda_tsushima_2026]] [[Sotoudeh and Hosking 2018][research_sotoudeh_hosking_2018]] [[Soykasap and Hodges 1999][research_soykasap_hodges_1999]] [[Soykasap and Hodges 2000][research_soykasap_hodges_2000]] [[Stacey and Thomas 2019][research_stacey_thomas_2019]] [[Stanford 2014][research_stanford_2014]] [[Stanford 2016][research_stanford_2016]] [[Stanford, Bret K. and Jutte, Christine V. 2014][research_stanfordbretk_juttechristinev_2014]] [[Stodieck et al 2013][research_stodieck_cooper_2013]] [[Stodieck et al 2014][research_stodieck_cooper_2014]] [[Stodieck et al 2015][research_stodieck_cooper_2015]] [[Stodieck et al 2017][research_stodieck_cooper_2017]] [[Structural weight comparison of 1981][research_structural_weight_1981]] [[Sulaeman et al 2017][research_sulaeman_abdullah_2017]] [[Svoboda et al 2023][research_svoboda_hengstermovric_2023]] [[Taflan et al 2023][research_taflan_smith_2023]] [[Taflan et al 2023][research_taflan_smith_2023_b]] [[Takahashi et al 2016][research_takahashi_yokozeki_2016]] [[Tal and Nguyen 2015][research_tal_nguyen_2015]] [[Tao and Bin 2026][research_tao_bin_2026]] [[Tchatchueng Kammegne et al 2016][research_tchatchuengkammegne_botez_2016]] [[Thuwis et al][research_thuwis_debreuker]] [[Thuwis et al 2009][research_thuwis_debreuker_2009]] [[Tian et al 2016][research_tian_yang_2016]] [[Ting, Eric et al 2015][research_tingeric_daotung_2015]] [[Tischler and Venkayya 1998][research_tischler_venkayya_1998]] [[Tischler et al 2000][research_tischler_venkayya_2000]] [[Torenbeek 1972][research_torenbeek_1972]] [[Triplett 1979][research_triplett_1979]] [[Triplett 1980][research_triplett_1980]] [[Triplett 1980][research_triplett_1980_b]] [[Tsushima et al 2018][research_tsushima_yokozeki_2018]] [[Tsushima et al 2018][research_tsushima_arizono_2018]] [[Urnes, James, Sr. et al 2013][research_urnesjamessr_nguyennhan_2013]] [[Vale et al 2011][research_vale_leite_2011]] [[Vincent and Botez 2015][research_vincent_botez_2015]] [[Volk et al 1998][research_volk_siler_1998]] [[Vu][research_vu]] [[Vu et al 2005][research_vu_kelkar_2005]] [[Waite et al 2020][research_waite_bartels_2020]] [[Waite et al 2021][research_waite_grauer_2021]] [[Wales et al 2015][research_wales_cheung_2015]] [[Wan et al 2003][research_wan_yang_2003]] [[Wang et al 2019][research_wang_wan_2019]] [[Wang et al 2019][research_wang_wan_2019_b]] [[Wang et al 2021][research_wang_wan_2021]] [[Wang et al 2021][research_wang_hou_2021]] [[Wang et al 2021][research_wang_mkhoyan_2021]] [[Wang et al 2023][research_wang_lei_2023]] [[Wang et al 2023][research_wang_chen_2023]] [[Wang et al 2023][research_wang_ma_2023]] [[Wang et al 2024][research_wang_zhao_2024]] [[Wang et al 2025][research_wang_xu_2025]] [[Wang et al 2025][research_wang_feng_2025]] [[Wang et al 2026][research_wang_chen_2026]] [[Wansasueb et al 2023][research_wansasueb_panagant_2023]] [[Weisshaar 1980][research_weisshaar_1980]] [[Weisshaar 1981][research_weisshaar_1981]] [[Weisshaar 1987][research_weisshaar_1987]] [[Weisshaar and Duke 2006][research_weisshaar_duke_2006]] [[Weisshaar and Lee 2002][research_weisshaar_lee_2002]] [[Werner 2018][research_werner_2018]] [[Werter and De Breuker 2016][research_werter_debreuker_2016]] [[Wu et al 2024][research_wu_li_2024]] [[Wunderlich and Dähne 2017][research_wunderlich_dahne_2017]] [[Wunderlich et al 2017][research_wunderlich_dahne_2017_b]] [[Xin and Li 2025][research_xin_li_2025]] [[Xiong et al 2021][research_xiong_bartels_2021]] [[Xiong et al 2022][research_xiong_nguyen_2022]] [[Yamane 1992][research_yamane_1992]] [[Yamane and Friedmann 1990][research_yamane_friedmann_1990]] [[Yamane and Friedmann 1993][research_yamane_friedmann_1993]] [[Yan et al 2019][research_yan_li_2019]] [[Yang et al 2015][research_yang_sartor_2015]] [[Yang et al 2024][research_yang_xu_2024]] [[Yang et al 2024][research_yang_xiao_2024]] [[Yao et al 2023][research_yao_kan_2023]] [[Yokozeki et al 2014][research_yokozeki_sugiura_2014]] [[You et al 2020][research_you_kim_2020]] [[Yu and He 2016][research_yu_he_2016]] [[Yu et al 2017][research_yu_wang_2017]] [[Yu et al 2026][research_yu_yan_2026]] [[Yue et al 2017][research_yue_zhang_2017]] [[Yue et al 2017][research_yue_wang_2017]] [[Yurkovich 2009][research_yurkovich_2009]] [[Zaw and Baranovski 2026][research_zaw_baranovski_2026]] [[Zeng et al 2017][research_zeng_qian_2017]] [[Zhang and Wang 2019][research_zhang_wang_2019]] [[Zhang et al 2019][research_zhang_ge_2019]] [[Zhang et al 2020][research_zhang_chen_2020]] [[Zhang et al 2021][research_zhang_shaw_2021]] [[Zhang et al 2025][research_zhang_hou_2025]] [[Zhang et al 2025][research_zhang_kang_2025]] [[Zhang et al 2025][research_zhang_yang_2025]] [[Zhang et al 2026][research_zhang_dai_2026]] [[Zhang et al 2026][research_zhang_dai_2026_b]] [[Zhao et al 2021][research_zhao_yang_2021]] [[Zhao et al 2024][research_zhao_li_2024]] [[Zhu 2018][research_zhu_2018]] [[Zink et al 1999][research_zink_mavris_1999]] [[Özbek et al 2023][research_ozbek_ekici_2023_b]] [[Świtała and Lipski 2026][research_switala_lipski_2026]] [[Święch 2020][research_swiech_2020]] [[Şahin et al 2018][research_sahin_cakir_2018]] [[Şahin et al 2018][research_sahin_cakir_2018_b]]
+
+### Measuring a wing in the air
+
+**The largest cluster, and half of what this programme actually was.** Flight test technique, parameter identification, strain-gauge load calibration and in-flight deflection measurement. **The X-53 spent its whole first phase measuring itself** before anybody wrote a control law, and the models that came out of that phase are what the second phase flew.
+
+**403 records.** [[A comparative study of 2026][research_a_comparative_2026]] [[A flight research program for active aeroelastic wing technology][research_aaw_flight_research_plan]] [[Active aeroelastic wing flight research program, technical program and model analytical development][research_aaw_technical_program]] [[Advisory Group for Aerospace Research and Development 1984][research_advisorygroupforaerospaceresearchanddevelopment_1984]] [[Air Force Flight Test Center Edwards Afb Ca 1970][research_airforceflighttestcenteredwardsafbca_1970]] [[Air Force Flight Test Center Edwards Afb Ca 1974][research_airforceflighttestcenteredwardsafbca_1974]] [[Air Force Flight Test Center Edwards Afb Ca 1974][research_airforceflighttestcenteredwardsafbca_1974_b]] [[Air Force Flight Test Center Edwards Afb Ca 2002][research_airforceflighttestcenteredwardsafbca_2002]] [[Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]] [[Air Force Test Pilot School Edwards Afb Ca 1990][research_airforcetestpilotschooledwardsafbca_1990]] [[Air Force Test Pilot School Edwards Afb Ca 1990][research_airforcetestpilotschooledwardsafbca_1990_b]] [[Ajaj and Djidjeli 2022][research_ajaj_djidjeli_2022]] [[Alaverdi and Paris 2001][research_alaverdi_paris_2001]] [[Albisser][research_albisser]] [[Alvarez 2014][research_alvarez_2014]] [[Anderson et al 1983][research_anderson_vincent_1983]] [[Andrews and Gordon 1981][research_andrews_gordon_1981]] [[Andrienko et al 2010][research_andrienko_tropova_2010]] [[Aref'ev 1968][research_arefev_1968]] [[Armstrong 1977][research_armstrong_1977]] [[Arnold 1981][research_arnold_1981]] [[Bach and McNally 1988][research_bach_mcnally_1988]] [[Bachelder et al 2011][research_bachelder_thompson_2011]] [[Baer-Riedhart 1981][research_baerriedhart_1981]] [[Barrett, Ron 1999][research_barrettron_1999]] [[Bateman et al 2023][research_bateman_dewekker_2023]] [[Baumann et al 2008][research_baumann_pahle_2008]] [[Bednarz et al 2013][research_bednarz_zhu_2013]] [[Belisle et al 2010][research_belisle_neale_2010]] [[Benjamin M Simmons][research_benjaminmsimmons]] [[Benyamen and Keshmiri 2022][research_benyamen_keshmiri_2022]] [[Beug et al 2012][research_beug_moser_2012]] [[Bever 1992][research_bever_1992]] [[Biederman et al 1994][research_biederman_meincke_1994]] [[Bigler 1986][research_bigler_1986]] [[Birks and Ludlow 1969][research_birks_ludlow_1969]] [[Blair et al 2008][research_blair_robinson_2008]] [[Bleimeyer 1981][research_bleimeyer_1981]] [[Bohacek et al][research_bohacek_nakamura]] [[Bouchalkha et al 2015][research_bouchalkha_alhammadi_2015]] [[Brandon and Morelli 2014][research_brandon_morelli_2014]] [[Brenner and Prazenica 2005][research_brenner_prazenica_2005]] [[Bronz and Hattenberger 2016][research_bronz_hattenberger_2016]] [[Brown et al 2004][research_brown_dillon_2004]] [[Bunge et al 2015][research_bunge_munerasavino_2015]] [[Burch 1966][research_burch_1966]] [[Burch 1967][research_burch_1967]] [[Burcham, Jr. et al 1981][research_burchamjr_myers_1981]] [[Burchett 2011][research_burchett_2011]] [[Burchett 2012][research_burchett_2012]] [[Canniff 1969][research_canniff_1969]] [[Carico 1998][research_carico_1998]] [[Carpenter et al 2018][research_carpenter_solomon_2018]] [[Carter][research_carter]] [[Castellani et al 2016][research_castellani_cooper_2016_b]] [[Castillo Zuñiga et al 2019][research_castillozuniga_giacobinisouza_2019]] [[Chahmi 2022][research_chahmi_2022]] [[Chapman and Yates 1992][research_chapman_yates_1992]] [[Chase][research_chase]] [[Chase and McDonald 2014][research_chase_mcdonald_2014]] [[Chen et al 2026][research_chen_ding_2026]] [[Cheney 1988][research_cheney_1988]] [[Chestnutt 1966][research_chestnutt_1966]] [[Clarke and Roskam 1982][research_clarke_roskam_1982]] [[Clarke et al 2005][research_clarke_allen_2005]] [[Cliett 1952][research_cliett_1952]] [[Cockrell and Doherr 1981][research_cockrell_doherr_1981]] [[Corminboeuf 2015][research_corminboeuf_2015]] [[Cornell Aeronautical Lab Inc Buffalo Ny 1947][research_cornellaeronauticallabincbuffalony_1947]] [[Couch et al 2001][research_couch_duren_2001]] [[Cowan et al 1998][research_cowan_arenajr_1998]] [[Crites et al 1992][research_crites_rueger_1992]] [[Cui et al 2021][research_cui_jianlong_2021]] [[Cunningham et al 2008][research_cunningham_foster_2008]] [[Cusimano and Johnson 1994][research_cusimano_johnson_1994]] [[Danowsky et al 2012][research_danowsky_schulze_2012]] [[de Visser and Pool 2023][research_devisser_pool_2023]] [[Deangelis 1981][research_deangelis_1981]] [[DeAngelis 1982][research_deangelis_1982]] [[Deiler 2016][research_deiler_2016]] [[Demo 1986][research_demo_1986]] [[Development of a Continuous 2012][research_development_of_2012]] [[Dias 2023][research_dias_2023]] [[Dicarlo et al 1992][research_dicarlo_brown_1992]] [[Dobronski 1988][research_dobronski_1988]] [[Dooley and Yeary 1979][research_dooley_yeary_1979]] [[Dorin and Smolin 1977][research_dorin_smolin_1977]] [[Drouet and Champoux 2014][research_drouet_champoux_2014]] [[Dwyer 1994][research_dwyer_1994]] [[Dynamic force calibration of][research_dynamic_force]] [[Ellis et al 2001][research_ellis_hui_2001]] [[Energy Approach To Performance 2003][research_energy_approach_2003]] [[Engelien 1994][research_engelien_1994]] [[Erdman 2005][research_erdman_2005]] [[Eulrich and Rynaski 1980][research_eulrich_rynaski_1980]] [[F.M. Strain Gauge System 1975][research_f_m_strain_1975]] [[Fechter and Mills 1988][research_fechter_mills_1988]] [[Finnestead et al 1970][research_finnestead_connor_1970]] [[Fischenberg 1995][research_fischenberg_1995]] [[Fischer et al 1983][research_fischer_wrightjr_1983]] [[Fisher et al 1956][research_fisher_gertsen_1956]] [[Flight test of a 1979][research_flight_test_1979]] [[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]] [[Flight Testing 1992][research_flight_testing_1992]] [[Flight-Loads Prediction and Structural-Life 1981][research_flight_loads_prediction_1981]] [[Force measurement. Strain gauge][research_force_measurement]] [[Fosdick 1970][research_fosdick_1970]] [[Foster 1966][research_foster_1966]] [[Francisco Peña and Benjamin Park 2024][research_franciscopena_benjaminpark_2024]] [[French 1988][research_french_1988]] [[French and Eastep 1996][research_french_eastep_1996]] [[Frierson and Van Meter 1977][research_frierson_vanmeter_1977]] [[Frierson et al 1978][research_frierson_moore_1978]] [[Frost, Susan A. et al 2015][research_frostsusana_wrightcameronhg_2015]] [[Further development and flight 1994][research_further_development_1994]] [[Gallagher and Wei 2008][research_gallagher_wei_2008]] [[Galway 1980][research_galway_1980]] [[Garcia-Velo and Walker 1995][research_garciavelo_walker_1995]] [[Gera et al 1981][research_gera_wilson_1981]] [[Gibson 1981][research_gibson_1981]] [[Gibson and Ung 1995][research_gibson_ung_1995]] [[Goodman and Conigliaro 1986][research_goodman_conigliaro_1986]] [[Gorbushin et al 2024][research_gorbushin_kozik_2024]] [[Goupil][research_goupil]] [[Grauer and Boucher 2017][research_grauer_boucher_2017]] [[Grauer and Morelli 2023][research_grauer_morelli_2023]] [[Gregory and McCrink 2016][research_gregory_mccrink_2016]] [[Gupta 2011][research_gupta_2011]] [[Gupta 2019][research_gupta_2019]] [[Hale and Chapman 2012][research_hale_chapman_2012]] [[Hanafee and Radcliffe 1967][research_hanafee_radcliffe_1967]] [[Harris et al 2016][research_harris_arthurs_2016]] [[Hatamleh et al 2009][research_hatamleh_ma_2009]] [[Hayashi and Ueda 2017][research_hayashi_ueda_2017]] [[Helicopter Flight Parameter Identification 1987][research_helicopter_flight_1987]] [[Helmken et al 1996][research_helmken_emmons_1996]] [[Hess 1986][research_hess_1986]] [[Hicks and Jenkins 1990][research_hicks_jenkins_1990]] [[High-Load Strain Gauge Balance 2018][research_high_load_strain_2018]] [[Hiti 2017][research_hiti_2017]] [[Hodges and Mckenzie 1975][research_hodges_mckenzie_1975]] [[Hofmann et al 2025][research_hofmann_hosseini_2025]] [[Holberg and Grabowsky 1981][research_holberg_grabowsky_1981]] [[Hollis et al 1999][research_hollis_brandon_1999]] [[Holman and Tuozzolo 2009][research_holman_tuozzolo_2009]] [[Hosseini et al 2025][research_hosseini_hofmann_2025]] [[Howell 1988][research_howell_1988]] [[Hu et al 2009][research_hu_qu_2009]] [[Hu et al 2024][research_hu_yu_2024]] [[Hu et al 2026][research_hu_traisnel_2026]] [[Hughes and Wernicke 1974][research_hughes_wernicke_1974]] [[Hur and Valasek 2003][research_hur_valasek_2003]] [[Iaconis and D'Emilia 1994][research_iaconis_demilia_1994]] [[Idsardi 1983][research_idsardi_1983]] [[Iliff and Maine 1983][research_iliff_maine_1983]] [[In-flight deflection measurement of the HiMAT aeroelastically tailored wing][research_himat_deflection]] [[Incorporating agility flight test 1994][research_incorporating_agility_1994]] [[Introduction to Stability and 2003][research_introduction_to_2003]] [[Iriarte et al 2021][research_iriarte_aginaga_2021]] [[Ishii et al 2005][research_ishii_gomi_2005]] [[Jain et al 2025][research_jain_singla_2025]] [[Jategaonkar et al 2004][research_jategaonkar_fischenberg_2004]] [[Jenkins et al 1977][research_jenkins_kuhl_1977]] [[Jenkins, Jerald M. and Kuhl, Albert E. 1977][research_jenkinsjeraldm_kuhlalberte_1977]] [[Kaletka and Fu 1993][research_kaletka_fu_1993]] [[Kannemans 1995][research_kannemans_1995]] [[Kelly 1974][research_kelly_1974]] [[Kelly 1988][research_kelly_1988]] [[Kim 2004][research_kim_2004]] [[Kim et al 2013][research_kim_ahn_2013]] [[King 1944][research_king_1944]] [[Klabes et al 2018][research_klabes_callsen_2018]] [[Klimek 2024][research_klimek_2024]] [[Knighton 1992][research_knighton_1992]] [[Kobow et al 2026][research_kobow_wennemann_2026]] [[Kobusch and Eichstädt 2017][research_kobusch_eichstadt_2017]] [[Koeniguer and Spear 2018][research_koeniguer_spear_2018]] [[Kokolios 1994][research_kokolios_1994]] [[Krasuski and Bakuła 2021][research_krasuski_bakua_2021]] [[Krings et al 2013][research_krings_henning_2013]] [[Kukreja 2009][research_kukreja_2009]] [[Kukreja and Brenner][research_kukreja_brenner]] [[Kulhánek 2019][research_kulhanek_2019]] [[Kumar and Ghosh 2017][research_kumar_ghosh_2017]] [[Kumar and Ghosh 2023][research_kumar_ghosh_2023]] [[Kumar et al 2008][research_kumar_ganguli_2008]] [[Kuppuswamy and Kiran 1981][research_kuppuswamy_kiran_1981]] [[Kutluay et al 2009][research_kutluay_mahmutyazicioglu_2009]] [[Laban and Masui 1993][research_laban_masui_1993]] [[Lamour 2014][research_lamour_2014]] [[Lamy 1983][research_lamy_1983]] [[Lang 1981][research_lang_1981]] [[Large et al 1981][research_large_may_1981]] [[Larsson 2019][research_larsson_2019]] [[Layton 1986][research_layton_1986]] [[Lekou and Mouzakis 2009][research_lekou_mouzakis_2009]] [[Levchenko 1987][research_levchenko_1987]] [[Level Flight Performance Flight 2003][research_level_flight_2003]] [[Lieberman 1963][research_lieberman_1963]] [[Lim et al 2000][research_lim_sreenatha_2000]] [[Lin 1983][research_lin_1983]] [[Lind and Brenner 1998][research_lind_brenner_1998]] [[Lind and Brenner 1999][research_lind_brenner_1999]] [[Lind and Brenner 1999][research_lind_brenner_1999_b]] [[Liu et al 2023][research_liu_pang_2023]] [[Liu et al 2023][research_liu_wang_2023]] [[Lo and Chan][research_lo_chan]] [[Lokos et al 2002][research_lokos_olney_2002_b]] [[Lokos et al 2005][research_lokos_lizotte_2005]] [[Lokos, William A. and Stauf, Rick 2004][research_lokoswilliama_staufrick_2004]] [[Lokos, William A. et al 2015][research_lokoswilliama_millerericj_2015]] [[Londono and Leonhardt 2012][research_londono_leonhardt_2012]] [[Long 1968][research_long_1968]] [[Longitudinal Control And Trim 2003][research_longitudinal_control_2003]] [[Lykins and Keshmiri 2010][research_lykins_keshmiri_2010]] [[Macmillan 1981][research_macmillan_1981]] [[Mandal and Gu 2016][research_mandal_gu_2016]] [[Mansfield 1953][research_mansfield_1953]] [[Martin 1978][research_martin_1978]] [[Martin Co Denver Co 1966][research_martincodenverco_1966]] [[Maslan et al 2018][research_maslan_sira_2018]] [[Matheny and Panageas 1981][research_matheny_panageas_1981]] [[Maunder 1979][research_maunder_1979]] [[McClintock 1959][research_mcclintock_1959]] [[Mckenzie 1973][research_mckenzie_1973]] [[Mcnally and Bach, Jr. 1988][research_mcnally_bachjr_1988]] [[McQuinn and Valasek 2025][research_mcquinn_valasek_2025]] [[Mehra, R. K. and Eupta, N. K. 1975][research_mehrark_euptank_1975]] [[Mehra, R. K. and Tyler, J. S. 1973][research_mehrark_tylerjs_1973]] [[Mehta et al 2017][research_mehta_marland_2017]] [[Mertaugh 1998][research_mertaugh_1998]] [[Meyer, Jr. and Schneider 1983][research_meyerjr_schneider_1983]] [[Miller et al 2011][research_miller_decallafon_2011]] [[Miller et al 2019][research_miller_pena_2019]] [[Miller, Jr. 1973][research_millerjr_1973]] [[Miodushevsky and Ruggiero 2000][research_miodushevsky_ruggiero_2000]] [[Mohamed and Dongare 2021][research_mohamed_dongare_2021]] [[Montel and Thielecke 2015][research_montel_thielecke_2015]] [[Mordfin and Bloss 1962][research_mordfin_bloss_1962]] [[Morelli 2011][research_morelli_2011]] [[Morelli 2012][research_morelli_2012]] [[Morelli and Klein 1995][research_morelli_klein_1995]] [[Morger 1988][research_morger_1988]] [[Nakadate 2005][research_nakadate_2005]] [[Nicolaides 1976][research_nicolaides_1976]] [[Nicolas et al 2016][research_nicolas_sullivan_2016]] [[Niculescu et al 2021][research_niculescu_corcau_2021]] [[Nieminen et al 2023][research_nieminen_tuohineva_2023]] [[Nisbet et al 1958][research_nisbet_brennan_1958]] [[Nisbet et al 1960][research_nisbet_brennan_1960]] [[Niven and Tait 2000][research_niven_tait_2000]] [[Norton 1990][research_norton_1990]] [[Ockier et al 2017][research_ockier_kolb_2017]] [[Oelker and Friehmelt 1998][research_oelker_friehmelt_1998]] [[Ogren et al 1974][research_ogren_sotanski_1974]] [[Overload Detection System Using 2023][research_overload_detection_2023]] [[Padua and Preisighe Viana 2025][research_padua_preisigheviana_2025]] [[Pang et al 2025][research_pang_yin_2025]] [[Paris and Alaverdi 2005][research_paris_alaverdi_2005]] [[Pawlak 1994][research_pawlak_1994]] [[Peele, E. L. and Eckstrom, C. V. 1975][research_peeleel_eckstromcv_1975]] [[Pendleton et al 1998][research_pendleton_bessette_1998]] [[Pendleton et al 2007][research_pendleton_flick_2007]] [[Peng et al 2024][research_peng_wang_2024]] [[Peschel and Röske 2000][research_peschel_roske_2000]] [[Petersen 1981][research_petersen_1981]] [[Petronevich et al 2021][research_petronevich_lyutov_2021]] [[Philipsen and Zhai 2007][research_philipsen_zhai_2007]] [[Picard 2002][research_picard_2002]] [[Plaetschke et al 1982][research_plaetschke_mulder_1982]] [[Porterfield and Alexander 1970][research_porterfield_alexander_1970]] [[Prato et al 2026][research_prato_facello_2026]] [[Production support flight control computers, research capability for F/A-18 aircraft at Dryden Flight Research Center][research_psfcc]] [[Qiu and Wang 2021][research_qiu_wang_2021]] [[Qu et al 2025][research_qu_xu_2025]] [[Raab 2014][research_raab_2014]] [[Raab 2026][research_raab_2026]] [[Raisinghani and Adak 1983][research_raisinghani_adak_1983]] [[Raisinghani and Kumar 1995][research_raisinghani_kumar_1995]] [[Rakin 1981][research_rakin_1981]] [[Raol and Singh 2023][research_raol_singh_2023_b]] [[Ratcliff et al 2016][research_ratcliff_bodkin_2016]] [[Reasor et al 2016][research_reasor_bhamidipati_2016]] [[Rediess and Melton 1994][research_rediess_melton_1994]] [[Reschke 2005][research_reschke_2005]] [[Rester and A. C. 1984][research_rester_ac_1984]] [[Rester and Alfred C. 1988][research_rester_alfredc_1988]] [[Rhoads 1952][research_rhoads_1952]] [[Richter et al 2023][research_richter_khalifa_2023]] [[Riemersma and Lammertink 1988][research_riemersma_lammertink_1988]] [[Rising 1982][research_rising_1982]] [[Roberts et al 1966][research_roberts_smith_1966]] [[Roeser and Mönnich 2024][research_roeser_monnich_2024]] [[Ruiz Garcia et al 2022][research_ruizgarcia_brown_2022]] [[Ruler 1967][research_ruler_1967]] [[Rustenburg 1973][research_rustenburg_1973]] [[S.A. Gee et al][research_sagee_akylas]] [[Saric 2010][research_saric_2010]] [[Sarnico 1993][research_sarnico_1993]] [[Schajer 2021][research_schajer_2021]] [[Schwanz and Grimes 1980][research_schwanz_grimes_1980]] [[Schäck 2020][research_schack_2020]] [[Shi et al 2023][research_shi_wang_2023]] [[Shi et al 2023][research_shi_zuo_2023]] [[Shock location dominated transonic flight loads on the active aeroelastic wing][research_aaw_shock_loads]] [[Simpson 1972][research_simpson_1972]] [[Simulation in support of 1988][research_simulation_in_1988]] [[Sinske et al 2018][research_sinske_govers_2018]] [[Smith et al 2003][research_smith_moes_2003]] [[Sneshko et al 2005][research_sneshko_chetvergov_2005]] [[Socha and Izydorczyk 2024][research_socha_izydorczyk_2024]] [[Staley 1976][research_staley_1976]] [[Stalford 1980][research_stalford_1980]] [[Stange 1959][research_stange_1959]] [[Starr et al 2011][research_starr_olds_2011]] [[Static Longitudinal Stability Flight 2003][research_static_longitudinal_2003]] [[Stengel 1983][research_stengel_1983]] [[Stepanova 2025][research_stepanova_2025]] [[Stevenson 1991][research_stevenson_1991]] [[Stewart and Bauer 1983][research_stewart_bauer_1983]] [[Strain gage loads calibration testing of the active aeroelastic wing F/A-18 aircraft][research_strain_gage_calibration]] [[Strain Gauge Bonding Service 1975][research_strain_gauge_1975]] [[Strain Gauge Specifications 1967][research_strain_gauge_1967]] [[Strain Gauge Symposium and 1965][research_strain_gauge_1965]] [[Strang 1943][research_strang_1943]] [[Subramanya and Prasad 2013][research_subramanya_prasad_2013]] [[Sun et al 2018][research_sun_schilder_2018]] [[Svec 1981][research_svec_1981]] [[Svendsen 1994][research_svendsen_1994]] [[Sykes][research_sykes]] [[Szymanski et al 2025][research_szymanski_ghazi_2025]] [[Sóbester 2021][research_sobester_2021]] [[Taha et al 2011][research_taha_tang_2011]] [[Tai et al 2023][research_tai_wang_2023]] [[Tantrairatn and Veres 2015][research_tantrairatn_veres_2015]] [[Taranto and Abdulrahim 2023][research_taranto_abdulrahim_2023]] [[Tartabini et al 2016][research_tartabini_gilbert_2016]] [[Taylor 2012][research_taylor_2012]] [[Taylor et al 1992][research_taylor_bennett_1992]] [[Tegelaar 1984][research_tegelaar_1984]] [[Teng and Fan 2025][research_teng_fan_2025]] [[The Saunders-Roe Technograph Foil 1952][research_the_saunders_roe_1952]] [[Thienel et al 1998][research_thienel_lewis_1998]] [[Tischler 2018][research_tischler_2018]] [[Tischler and Zivan 2007][research_tischler_zivan_2007]] [[Tomaine, R. L. et al 1978][research_tomainerl_bryantwh_1978]] [[Tracy 1981][research_tracy_1981]] [[Transonic flight test of 1994][research_transonic_flight_1994]] [[Travassos and Kaufman 1979][research_travassos_kaufman_1979]] [[Tsonev and Kuzmanov 2022][research_tsonev_kuzmanov_2022]] [[Ulbrich 2011][research_ulbrich_2011]] [[Ulbrich 2024][research_ulbrich_2024]] [[Van Gaasbeek 1980][research_vangaasbeek_1980]] [[Van Graas et al 1994][research_vangraas_diggle_1994]] [[Van Pelt 1981][research_vanpelt_1981]] [[Van Wyckhouse 1966][research_vanwyckhouse_1966]] [[Vanwalleghem et al 2015][research_vanwalleghem_debaere_2015]] [[Verstynen, Jr. 1974][research_verstynenjr_1974]] [[Vincent and Franklin 1981][research_vincent_franklin_1981]] [[Volobuyev et al 2017][research_volobuyev_gorbushin_2017]] [[Voracek et al 2002][research_voracek_reaves_2002]] [[Walendziuk 2018][research_walendziuk_2018]] [[Wallace 1978][research_wallace_1978]] [[Wallace 2000][research_wallace_2000]] [[Wang and Iliff 2004][research_wang_iliff_2004]] [[Wang et al 1986][research_wang_demiroz_1986]] [[Wang et al 2022][research_wang_tai_2022]] [[Wang et al 2023][research_wang_xing_2023]] [[Wang et al 2024][research_wang_li_2024]] [[Ward 1988][research_ward_1988]] [[Wei and Zhang 2024][research_wei_zhang_2024]] [[Weinstein et al 2018][research_weinstein_hubbard_2018]] [[Wells and Keskar 1979][research_wells_keskar_1979]] [[Wells et al 1981][research_wells_banda_1981]] [[Wells et al 1982][research_wells_banda_1982]] [[Whitbeck et al 1982][research_whitbeck_smith_1982]] [[White 1973][research_white_1973]] [[Wieland 2025][research_wieland_2025]] [[Wildschek et al 2009][research_wildschek_maier_2009]] [[Wilson][research_wilson]] [[Wilson et al 2016][research_wilson_ryan_2016]] [[Wingrove, R. C. 1978][research_wingroverc_1978]] [[Winters et al 1991][research_winters_hassan_1991]] [[Wolf and Bossert 2001][research_wolf_bossert_2001]] [[Woodrow et al 2013][research_woodrow_tischler_2013]] [[Woodruff 2009][research_woodruff_2009]] [[Woolf 2012][research_woolf_2012]] [[Xiao et al 2011][research_xiao_li_2011]] [[Xu and West 1990][research_xu_west_1990]] [[Yavuztürk et al 2017][research_yavuzturk_topbas_2017]] [[Yee 1992][research_yee_1992]] [[Yu et al 2013][research_yu_zhao_2013]] [[Yuan 2026][research_yuan_2026]] [[Zhang and Cheng 2025][research_zhang_cheng_2025]] [[Zhang and Cheng 2026][research_zhang_cheng_2026]] [[Zhang et al 2013][research_zhang_yang_2013]] [[Zhao et al 2025][research_zhao_zhang_2025]] [[Zhavyrkin and Sladkova 2023][research_zhavyrkin_sladkova_2023]] [[Zhou et al 2013][research_zhou_xu_2013]] [[Zhuang and Lei 2020][research_zhuang_lei_2020]] [[Zubin 1998][research_zubin_1998]] [[Çelik and Metin 2026][research_celik_metin_2026]] [[Ştefănescu 2020][research_stefanescu_2020]]
 
 ### Control laws for an aircraft that will not hold its shape
 
 **Where the programme ended up.** Flight control law design for flexible aircraft, control allocation among many surfaces, and aeroservoelastic interaction. **The Active Aeroelastic Wing reduced its own objective to this**, having dropped active flutter suppression from the wind-tunnel programme that preceded it.
 
-**354 records.** [[Abdulrahim et al 2018][research_abdulrahim_weibley_2018]] [[Adamson et al 2019][research_adamson_fichera_2019]] [[Adaptive Transonic Aeroservoelasticity 2016][research_adaptive_transonic_2016]] [[Aeroservoelastic tailoring for lateral control enhancement][research_aeroservoelastic_tailoring]] [[Aeroservoelastic wind-tunnel investigations using the active flexible wing model, status and recent accomplishments][research_afw_tm101570]] [[Air Force Test Pilot School Edwards Afb Ca 1988][research_airforcetestpilotschooledwardsafbca_1988]] [[Allen and Pollock 1983][research_allen_pollock_1983]] [[Allen et al 1986][research_allen_reardon_1986]] [[Alwi and Edwards 2007][research_alwi_edwards_2007]] [[Alwi and Edwards 2009][research_alwi_edwards_2009]] [[Andersen et al 1997][research_andersen_forster_1997]] [[Andersen et al 1998][research_andersen_kolonay_1998]] [[Antonakis and Biannic 2024][research_antonakis_biannic_2024]] [[Babcock and Lind 2013][research_babcock_lind_2013]] [[Babcock and Lind 2013][research_babcock_lind_2013_b]] [[Baggi et al 2020][research_baggi_franco_2020]] [[Baggi et al 2022][research_baggi_serrani_2022]] [[Bailey et al 1988][research_bailey_powers_1988]] [[Balas et al 2004][research_balas_hindman_2004]] [[Balas et al 2012][research_balas_moreno_2012]] [[Banavara and Newsom 2010][research_banavara_newsom_2010]] [[Barb and Mulder 2003][research_barb_mulder_2003]] [[Beh et al 2018][research_beh_hofinger_2018]] [[Benosman et al 2007][research_benosman_liao_2007]] [[Bian et al 2018][research_bian_nener_2018]] [[Bian et al 2019][research_bian_nener_2019]] [[Binder et al 2021][research_binder_wildschek_2021]] [[Binwen Lu et al 2016][research_binwenlu_jianjunma_2016]] [[Blight et al 2018][research_blight_lanedailey_2018]] [[Bocola et al 2015][research_bocola_muscarello_2015]] [[Bodson 2000][research_bodson_2000]] [[Boskovic and Mehra][research_boskovic_mehra]] [[Boskovic et al][research_boskovic_ling]] [[Botez et al 2008][research_botez_grigorie_2008]] [[Bouadi][research_bouadi]] [[Brenner 2002][research_brenner_2002]] [[Brenner and Lind 1998][research_brenner_lind_1998]] [[Brenner et al 1997][research_brenner_feron_1997]] [[Brenner, Martin J. 1996][research_brennermartinj_1996]] [[Brenner, Martin J. 2001][research_brennermartinj_2001]] [[Brinker and Wise 2000][research_brinker_wise_2000]] [[Brown et al 2017][research_brown_singh_2017]] [[Bucharles and Vacher 2002][research_bucharles_vacher_2002]] [[Buffington 1997][research_buffington_1997]] [[Buffington 1999][research_buffington_1999]] [[Burcham, Jr. and Burken 1994][research_burchamjr_burken_1994]] [[Burton and Kneeland, Jr. 1981][research_burton_kneelandjr_1981]] [[Cabaleiro de la Hoz and Fioriti 2021][research_cabaleirodelahoz_fioriti_2021]] [[Chen 2015][research_chen_2015]] [[Chen et al 2018][research_chen_zhou_2018]] [[Chin][research_chin]] [[Chin et al 1987][research_chin_chacon_1987]] [[Chin et al 2011][research_chin_brenner_2011]] [[ChunSheng Liu et al 2012][research_chunshengliu_xinzhongzhu_2012]] [[Colombo et al 2018][research_colombo_muscarello_2018]] [[Comer et al 2024][research_comer_bhandari_2024]] [[Cong et al 2023][research_cong_hu_2023]] [[Control Allocation and Flight 2016][research_control_allocation_2016]] [[Cotoi and Botez 2002][research_cotoi_botez_2002]] [[Cotton 1974][research_cotton_1974]] [[Cramer and Nguyen 2020][research_cramer_nguyen_2020]] [[Cristofaro 2024][research_cristofaro_2024]] [[Cruz and Kienitz 2007][research_cruz_kienitz_2007]] [[Dai et al 2012][research_dai_wu_2012]] [[Danowsky et al 2009][research_danowsky_thompson_2009]] [[Danowsky et al 2010][research_danowsky_brenner_2010]] [[Danowsky et al 2013][research_danowsky_thompson_2013]] [[Danowsky et al 2016][research_danowsky_lieu_2016]] [[de Vries and Van Kampen 2019][research_devries_vankampen_2019]] [[Demourant and Ferreres 2013][research_demourant_ferreres_2013]] [[Development and testing of control laws for the active aeroelastic wing program][research_aaw_control_laws]] [[Dibley et al 2005][research_dibley_allen_2005]] [[Dillinger et al 2020][research_dillinger_meddaikar_2020]] [[Dilmi 2022][research_dilmi_2022]] [[Doman and Oppenheimer 2002][research_doman_oppenheimer_2002]] [[Doman et al 2007][research_doman_gamble_2007]] [[Doman et al 2009][research_doman_gamble_2009]] [[Dong et al 2016][research_dong_lu_2016]] [[Dong et al 2024][research_dong_zhou_2024]] [[Durham et al 2016][research_durham_bordignon_2016]] [[Edwards et al 1997][research_edwards_fittante_1997]] [[Epple and Altenbach 1982][research_epple_altenbach_1982]] [[Favale et al 2021][research_favale_haidar_2021]] [[Faïsse et al 2022][research_faisse_vernay_2022]] [[Felt et al 1978][research_felt_huttsell_1978]] [[Ferreres and Puyou 2006][research_ferreres_puyou_2006]] [[Fonzi et al 2024][research_fonzi_ricci_2024]] [[Fonzi et al 2025][research_fonzi_ricci_2025]] [[Forte et al 2026][research_forte_nguyen_2026_b]] [[Frame-wise Control Allocation 2016][research_frame_wise_control_2016]] [[Franze et al 2013][research_franze_mattei_2013]] [[Friedmann 1992][research_friedmann_1992]] [[Friedmann 1998][research_friedmann_1998]] [[Frost et al 2012][research_frost_taylor_2012]] [[Gai and Wang 2013][research_gai_wang_2013]] [[Gai et al 2019][research_gai_sun_2019]] [[Gao et al 2021][research_gao_an_2021]] [[Gao et al 2021][research_gao_an_2021_b]] [[Ghorawat et al 2016][research_ghorawat_lee_2016]] [[Gilbert, Michael G. 1989][research_gilbertmichaelg_1989]] [[Graham et al 2007][research_graham_deoliveira_2007]] [[Gregory et al 2007][research_gregory_cao_2007]] [[Gregory et al 2011][research_gregory_xargay_2011]] [[Ground and flight testing 2000][research_ground_and_2000]] [[Guan et al 2025][research_guan_xing_2025]] [[Guillot and Friedmann 1994][research_guillot_friedmann_1994]] [[Gupta, K. K. et al 1987][research_guptakk_brennermj_1987]] [[Gupta, K. K. et al 1991][research_guptakk_brennermj_1991]] [[Haddadpour 2006][research_haddadpour_2006]] [[Haghighat et al 2010][research_haghighat_liu_2010]] [[Haghighat et al 2012][research_haghighat_martins_2012]] [[Han and Kim 2011][research_han_kim_2011]] [[Hansen et al 2020][research_hansen_duan_2020]] [[Hansen et al 2020][research_hansen_duan_2020_b]] [[Hansen et al 2022][research_hansen_duan_2022]] [[Hanson et al 2002][research_hanson_ryan_2002]] [[Harkegard][research_harkegard]] [[Hartwell and Nguyen 2021][research_hartwell_nguyen_2021]] [[Henderson and Lavretsky 1999][research_henderson_lavretsky_1999]] [[Hjartarson et al 2013][research_hjartarson_seiler_2013]] [[Hofmann and Kezer 1962][research_hofmann_kezer_1962]] [[Hoh and Mitchell 2018][research_hoh_mitchell_2018]] [[Hongchao Li et al][research_hongchaoli_zhongkeshi]] [[Hopwood et al 2019][research_hopwood_ruskin_2019]] [[Hu et al 2023][research_hu_shao_2023]] [[Huber 1995][research_huber_1995]] [[Hutto 1975][research_hutto_1975]] [[Idan et al 1999][research_idan_karpel_1999]] [[Ide and Ominsky 1990][research_ide_ominsky_1990]] [[Ingle and Kothmann 1998][research_ingle_kothmann_1998]] [[Isnardi et al 2018][research_isnardi_paoletti_2018]] [[Jackson and Livne 2005][research_jackson_livne_2005]] [[Jackson and Livne 2014][research_jackson_livne_2014]] [[Jenney et al 1982][research_jenney_schreadley_1982]] [[Jianjun Ma et al 2008][research_jianjunma_wenqiangli_2008]] [[Jianjun Ma et al 2008][research_jianjunma_pengli_2008]] [[Jing and Ma 2025][research_jing_ma_2025]] [[Jingping et al 2011][research_jingping_weiguo_2011]] [[Jurisson et al 2022][research_jurisson_debreuker_2022]] [[Karpel 1990][research_karpel_1990]] [[Karpel et al 1998][research_karpel_idan_1998]] [[Keas and MacMynowski 2009][research_keas_macmynowski_2009]] [[Kefayat and Kamali 2024][research_kefayat_kamali_2024]] [[Khrabrov and Sidoryuk 2010][research_khrabrov_sidoryuk_2010]] [[Khrabrov and Sidoryuk 2013][research_khrabrov_sidoryuk_2013]] [[Klepl 1990][research_klepl_1990]] [[Kubica and Livet 1994][research_kubica_livet_1994]] [[Kubica and Livet 1994][research_kubica_livet_1994_b]] [[Kubica et al 1995][research_kubica_livet_1995]] [[Kukreja, Sunil L. 2007][research_kukrejasunill_2007]] [[Layton 1995][research_layton_1995]] [[Layton 1996][research_layton_1996]] [[Li et al 2011][research_li_yu_2011]] [[Li et al 2012][research_li_yu_2012]] [[Li et al 2025][research_li_xiong_2025]] [[Lin et al 2019][research_lin_zhang_2019]] [[Lind and Brenner 1999][research_lind_brenner_1999_c]] [[Lind and Brenner 1999][research_lind_brenner_1999_d]] [[Lind and Brenner 1999][research_lind_brenner_1999_e]] [[Lind and Brenner 1999][research_lind_brenner_1999_f]] [[Lingyu et al 2006][research_lingyu_youwu_2006]] [[Little 1996][research_little_1996]] [[Liu and Zhang 2020][research_liu_zhang_2020]] [[Liu et al 2009][research_liu_sun_2009]] [[Liu et al 2018][research_liu_zhang_2018]] [[Liu et al 2025][research_liu_he_2025]] [[Liu et al 2026][research_liu_li_2026]] [[Livet et al 1994][research_livet_kubica_1994]] [[Livet et al 1995][research_livet_kubica_1995]] [[Livne 1993][research_livne_1993]] [[Livne and Li 1994][research_livne_li_1994]] [[Lou et al 2024][research_lou_duan_2024]] [[Love and Lind 2010][research_love_lind_2010]] [[Lu et al 2019][research_lu_ma_2019]] [[Lu et al 2026][research_lu_lan_2026]] [[Ma and Wang 2009][research_ma_wang_2009]] [[Maharaj 1997][research_maharaj_1997]] [[Mangalam et al 2007][research_mangalam_flick_2007]] [[Masarati et al 2010][research_masarati_quaranta_2010]] [[Masarati et al 2011][research_masarati_muscarello_2011]] [[Matamoros and de Visser 2018][research_matamoros_devisser_2018]] [[Mccuish and Caldwell 2018][research_mccuish_caldwell_2018]] [[Meirovitch and Tuzcu 2002][research_meirovitch_tuzcu_2002]] [[Miyazawa 2000][research_miyazawa_2000]] [[Model Reference Adaptation of 2016][research_model_reference_2016]] [[Mohamed and G 2020][research_mohamed_g_2020]] [[Mor and Livne 2004][research_mor_livne_2004]] [[Mor and Livne 2005][research_mor_livne_2005]] [[Moreno et al 2012][research_moreno_seiler_2012]] [[Moreno et al 2015][research_moreno_pfifer_2015]] [[Moulin et al 2001][research_moulin_idan_2001]] [[Moulin et al 2002][research_moulin_idan_2002]] [[Moulin et al 2010][research_moulin_ritz_2010]] [[Moulin et al 2011][research_moulin_zeng_2011]] [[Mouyon et al 2003][research_mouyon_cumer_2003]] [[Mu et al 2026][research_mu_huang_2026]] [[Mukhopadhyay 1988][research_mukhopadhyay_1988]] [[Murch 2008][research_murch_2008]] [[Muñoz Medina][research_munozmedina]] [[Napolitano et al 2001][research_napolitano_song_2001]] [[Newman and Schmidt 1994][research_newman_schmidt_1994]] [[Nguyen and Xiong 2026][research_nguyen_xiong_2026_b]] [[Nguyen et al 2018][research_nguyen_saussie_2018]] [[Nguyen et al 2018][research_nguyen_ting_2018]] [[Nguyen et al 2022][research_nguyen_webb_2022]] [[Nguyen et al 2023][research_nguyen_xiong_2023]] [[Nhan Nguyen et al][research_nhannguyen_benjaminwebb]] [[Noll et al 1989][research_noll_perryiii_1989]] [[Oliver and Singh 2020][research_oliver_singh_2020]] [[Ouellette 2026][research_ouellette_2026]] [[Ouellette et al 2010][research_ouellette_patil_2010]] [[Ouellette et al 2012][research_ouellette_patil_2012]] [[Ouellette et al 2014][research_ouellette_patil_2014]] [[Ouellette et al 2023][research_ouellette_miller_2023]] [[Pachikara and Lind 2012][research_pachikara_lind_2012]] [[Pankonien et al 2018][research_pankonien_durscher_2018]] [[Patil and Clark 2002][research_patil_clark_2002]] [[Pellegrino et al 2022][research_pellegrino_quaranta_2022]] [[Penning et al 2009][research_penning_zink_2009]] [[Pfeifle and Fichter 2021][research_pfeifle_fichter_2021]] [[Pfeifle and Fichter 2021][research_pfeifle_fichter_2021_b]] [[Pfeifle and Fichter 2023][research_pfeifle_fichter_2023]] [[Phillips][research_phillips]] [[Pototzky 2010][research_pototzky_2010]] [[Prasanth and Mehra 1999][research_prasanth_mehra_1999]] [[Prochazka et al 2018][research_prochazka_eduardo_2018]] [[Pursel 1977][research_pursel_1977]] [[Pusch et al 2022][research_pusch_kier_2022]] [[Puyou and Berard 2007][research_puyou_berard_2007]] [[Qin et al 2023][research_qin_wei_2023]] [[Qin et al 2023][research_qin_liu_2023]] [[Quach 2026][research_quach_2026]] [[Quach 2026][research_quach_2026_b]] [[Quackenbush et al 2009][research_quackenbush_keller_2009]] [[Quaranta et al 2013][research_quaranta_masarati_2013]] [[Rains et al 2024][research_rains_huang_2024]] [[Rao et al][research_rao_behal]] [[Raol and Singh 2023][research_raol_singh_2023]] [[Re 2014][research_re_2014]] [[Reichenbach 2008][research_reichenbach_2008]] [[Reichenbach et al 2009][research_reichenbach_urnes_2009]] [[Reichenbach et al 2011][research_reichenbach_castelluccio_2011]] [[Richardson and Kesler 1988][research_richardson_kesler_1988]] [[Ro et al 1992][research_ro_barlow_1992]] [[Robinson][research_robinson_b]] [[Rogers 2007][research_rogers_2007]] [[Sackett and Kirchwey 1982][research_sackett_kirchwey_1982]] [[Sadien et al 2019][research_sadien_carton_2019]] [[Sadien et al 2020][research_sadien_roos_2020]] [[Sahasrabudhe et al 1997][research_sahasrabudhe_celi_1997]] [[Scalera and Durham 1999][research_scalera_durham_1999]] [[Schmidt 1986][research_schmidt_1986_b]] [[Schmidt and Newman 1990][research_schmidt_newman_1990]] [[Schulze et al 2016][research_schulze_danowsky_2016]] [[Scordamaglia et al 2025][research_scordamaglia_mattei_2025]] [[Scott et al 2008][research_scott_vetter_2008]] [[Scott et al 2011][research_scott_coulson_2011]] [[Scott et al 2015][research_scott_allen_2015]] [[Shearwood et al 2020][research_shearwood_nabawy_2020]] [[Shearwood et al 2020][research_shearwood_nabawy_2020_b]] [[Sheldon and Rasmussen][research_sheldon_rasmussen]] [[Shimin et al 2025][research_shimin_letian_2025]] [[Shweyk and Weltz 2005][research_shweyk_weltz_2005]] [[Silvestre 2013][research_silvestre_2013]] [[Simbuerger et al 2022][research_simbuerger_raveh_2022]] [[Simoes et al 2009][research_simoes_alazard_2009]] [[Simões et al 2011][research_simoes_apkarian_2011]] [[Singh et al 2014][research_singh_mcdonough_2014]] [[Soares 2007][research_soares_2007]] [[Soares 2007][research_soares_2007_b]] [[Song et al 2014][research_song_liu_2014]] [[Song et al 2018][research_song_whidborne_2018]] [[Stalla et al 2024][research_stalla_kier_2024]] [[Stam and de Visser 2025][research_stam_devisser_2025]] [[Stanford 2015][research_stanford_2015]] [[Stanford 2016][research_stanford_2016_b]] [[Stanford 2019][research_stanford_2019]] [[Steer 2004][research_steer_2004]] [[Stephan 2025][research_stephan_2025]] [[Stettner and Schrage 1992][research_stettner_schrage_1992]] [[Suh, Peter M. et al 2015][research_suhpeterm_conyershowardjason_2015]] [[Sun et al 2020][research_sun_shi_2020]] [[Suryakumar et al 2016][research_suryakumar_mangalam_2016]] [[Szabolcsi and Gáspár 1997][research_szabolcsi_gaspar_1997]] [[Tabassum and Bai 2022][research_tabassum_bai_2022]] [[Tang et al 2015][research_tang_wu_2015]] [[Tang et al 2025][research_tang_yang_2025]] [[Tantaroudas and Da Ronch 2017][research_tantaroudas_daronch_2017]] [[Tariq and Nahon 2020][research_tariq_nahon_2020]] [[Taylor and Yoo 2011][research_taylor_yoo_2011]] [[Taylor et al 1995][research_taylor_pratt_1995]] [[Teng 2006][research_teng_2006]] [[Tewari 2015][research_tewari_2015_c]] [[Tewari 2016][research_tewari_2016]] [[The active flexible wing aeroservoelastic wind-tunnel test program][research_afw_wind_tunnel]] [[The Geometry of Control 2016][research_the_geometry_2016]] [[Theis et al 2015][research_theis_pfifer_2015]] [[Theis et al 2015][research_theis_takarics_2015]] [[Thompson et al 2007][research_thompson_klyde_2007]] [[Thompson et al 2011][research_thompson_danowsky_2011]] [[Ting et al 2017][research_ting_chaparro_2017]] [[Ting et al 2023][research_ting_mesbahi_2023]] [[Tingting and Aijun 2014][research_tingting_aijun_2014]] [[Tohidi et al 2018][research_tohidi_yildiz_2018]] [[Tol et al 2014][research_tol_devisser_2014]] [[Torralba et al 2009][research_torralba_puyou_2009]] [[Tırman et al 2024][research_tirman_ture_2024]] [[Vartio et al 2008][research_vartio_shaw_2008]] [[Veiberman and Karpel 2022][research_veiberman_karpel_2022]] [[Veiberman et al 2016][research_veiberman_weiss_2016]] [[Vile et al 2019][research_vile_alwi_2019]] [[Vile et al 2019][research_vile_alwi_2019_b]] [[Vile et al 2020][research_vile_alwi_2020]] [[Wahler et al 2023][research_wahler_varriale_2023]] [[Waite et al 2019][research_waite_stanford_2019]] [[Walker and Postlthewaite][research_walker_postlthewaite]] [[Wang and Guo 2012][research_wang_guo_2012]] [[Wang et al 2018][research_wang_zhang_2018]] [[Wang et al 2025][research_wang_yu_2025]] [[Wang et al 2025][research_wang_li_2025]] [[Weisshaar 1994][research_weisshaar_1994_b]] [[Weisshaar and Nam 1990][research_weisshaar_nam_1990]] [[Weisshaar, Terrence A. and Changho, Nam 1989][research_weisshaarterrencea_changhonam_1989]] [[Whitbeck and Hofmann 1978][research_whitbeck_hofmann_1978]] [[Williams 2004][research_williams_2004]] [[Williams-Hayes 2005][research_williamshayes_2005]] [[Wu and Livne 2015][research_wu_livne_2015]] [[Wu and Livne 2016][research_wu_livne_2016]] [[Wustenhagen et al 2021][research_wustenhagen_suelozgen_2021]] [[Xiaoguang et al 2023][research_xiaoguang_du_2023]] [[Xu et al 2016][research_xu_tang_2016]] [[Xu et al 2020][research_xu_zhang_2020]] [[Xu et al 2024][research_xu_sevart_2024]] [[Yamashiro and Stirling 2007][research_yamashiro_stirling_2007]] [[Yang and Gao 2020][research_yang_gao_2020]] [[Yang and Shen 2007][research_yang_shen_2007]] [[Yang et al 2009][research_yang_zhong_2009]] [[Yang et al 2011][research_yang_kim_2011]] [[Yiming et al 2019][research_yiming_mei_2019]] [[Yomchinda et al 2009][research_yomchinda_horn_2009]] [[Youssef 1985][research_youssef_1985]] [[Yurtsever et al 2026][research_yurtsever_sahin_2026]] [[Zaki et al 2017][research_zaki_unel_2017]] [[Zeng et al 2007][research_zeng_baldelli_2007]] [[Zeng et al 2008][research_zeng_baldelli_2008]] [[Zeng et al 2011][research_zeng_wang_2011]] [[Zhang and Zhao 2023][research_zhang_zhao_2023]] [[Zhang et al 2007][research_zhang_suresh_2007]] [[Zhang et al 2008][research_zhang_rabbath_2008]] [[Zhang et al 2025][research_zhang_xiang_2025]] [[Zhao et al 2026][research_zhao_zheng_2026]] [[Zhen and Cui 2023][research_zhen_cui_2023]] [[Zhong et al 2009][research_zhong_yang_2009]] [[Zou et al 2012][research_zou_yang_2012]]
-
-### Static aeroelasticity, twist and divergence
-
-**The physics the aeroplane was named for.** Elastic axis, torsional stiffness, wing twist and divergence. **A trailing-edge surface twists the wing against itself and a leading-edge surface twists it with itself**, and everything the X-53 did follows from that one asymmetry.
-
-**257 records.** [[Abel 1972][research_abel_1972]] [[Adali 1981][research_adali_1981]] [[Agostinelli and Allen 2012][research_agostinelli_allen_2012]] [[Ahmad and Gazetas 1992][research_ahmad_gazetas_1992]] [[Akasaka et al 1989][research_akasaka_katoh_1989]] [[Amoozgar and Irani 2012][research_amoozgar_irani_2012]] [[Arai and Tanaka 2020][research_arai_tanaka_2020]] [[Arizono and Cesnik 2013][research_arizono_cesnik_2013]] [[Arnold 1942][research_arnold_1942]] [[Azizov et al 2019][research_azizov_derkowski_2019]] [[Balakrishnan 2006][research_balakrishnan_2006]] [[Balakrishnan 2007][research_balakrishnan_2007]] [[Balakrishnan and Iliff 2007][research_balakrishnan_iliff_2007]] [[Banerjee and Williams 1992][research_banerjee_williams_1992]] [[Baz and Chen 1993][research_baz_chen_1993]] [[Bdeiwi et al 2019][research_bdeiwi_ciarella_2019]] [[Belote and Menezes 2019][research_belote_menezes_2019]] [[Berci 2017][research_berci_2017]] [[Bernhard and Chopra 1996][research_bernhard_chopra_1996]] [[Bernhard and Chopra 1997][research_bernhard_chopra_1997]] [[Bhat 2018][research_bhat_2018]] [[Blair and Weisshaar 1982][research_blair_weisshaar_1982]] [[Boehm et al 2001][research_boehm_flick_2001]] [[Bohlmann et al 1990][research_bohlmann_eckstrom_1990]] [[Brincklow et al 2021][research_brincklow_montgomery_2021]] [[Brown, Stuart C. 1959][research_brownstuartc_1959]] [[Bugała 2025][research_bugala_2025]] [[Bugała et al 2023][research_bugala_sznajder_2023]] [[Bureerat 2026][research_bureerat_2026]] [[Burner and Martinson 1996][research_burner_martinson_1996]] [[Burner et al 2000][research_burner_liu_2000]] [[Burner, Alpheus W. et al 2005][research_burneralpheusw_lokoswilliama_2005]] [[Byun and Guruswamy 1996][research_byun_guruswamy_1996]] [[Castellani et al 2016][research_castellani_cooper_2016]] [[Castellani et al 2017][research_castellani_cooper_2017]] [[Cavin and Holyoak 1978][research_cavin_holyoak_1978]] [[Cestino and Iannuzzo 2026][research_cestino_iannuzzo_2026]] [[Chang 2005][research_chang_2005]] [[Chapman 1969][research_chapman_1969]] [[Charts for the determination of wing torsional stiffness required for specified rolling characteristics][research_charts_torsional_stiffness]] [[Cheng 1961][research_cheng_1961]] [[Cheng et al 2023][research_cheng_shi_2023]] [[Cheung et al 2023][research_cheung_palles_2023]] [[Chipman et al 1982][research_chipman_zislin_1982]] [[Chipman et al 1983][research_chipman_zislin_1983]] [[Costa and Vilela 2014][research_costa_vilela_2014]] [[Crawley et al 1995][research_crawley_curtiss_1995]] [[Cunningham 2017][research_cunningham_2017]] [[Daneshmehr et al 2013][research_daneshmehr_inman_2013]] [[Daynes et al 2015][research_daynes_lachenal_2015]] [[de Melo et al 2024][research_demelo_bussamra_2024]] [[Dixon 1963][research_dixon_1963]] [[Djojodihardjo 2023][research_djojodihardjo_2023_b]] [[Dooley 1965][research_dooley_1965]] [[Dowell 2021][research_dowell_2021]] [[Dowell et al 1989][research_dowell_curtiss_1989]] [[Du Peloux De Saint Romain][research_dupelouxdesaintromain]] [[Dubigeon 1992][research_dubigeon_1992]] [[Dumpleton 1987][research_dumpleton_1987]] [[Ecsedi 2000][research_ecsedi_2000]] [[Edwards 1992][research_edwards_1992]] [[Effective Torsional Stiffness of 1976][research_effective_torsional_1976]] [[Ehlers and Weisshaar 1992][research_ehlers_weisshaar_1992]] [[Ehlers and Weisshaar 1993][research_ehlers_weisshaar_1993]] [[Elastic Torsional Stiffness of 1965][research_elastic_torsional_1965]] [[Ellers and Boggs 2003][research_ellers_boggs_2003]] [[Engel and Miller][research_engel_miller]] [[Eslimy-Isfahany and Banerjee 1995][research_eslimyisfahany_banerjee_1995]] [[Eslimy-Isfahany et al 1996][research_eslimyisfahany_banerjee_1996]] [[Etnier 2001][research_etnier_2001]] [[Ezawa et al 2024][research_ezawa_nakatsugawa_2024]] [[Fang and Yang 2025][research_fang_yang_2025]] [[Fang et al 2025][research_fang_wang_2025]] [[Felker 1992][research_felker_1992]] [[Felker 1993][research_felker_1993]] [[Forster et al 2002][research_forster_sanders_2002]] [[Galloping and Torsional Divergence 2019][research_galloping_and_2019]] [[Garcia and Guruswamy 1999][research_garcia_guruswamy_1999]] [[Garud and Ajluni 2024][research_garud_ajluni_2024]] [[Gilbert and Silva 1987][research_gilbert_silva_1987]] [[Gimmestad 1981][research_gimmestad_1981_b]] [[Gowtham et al 2023][research_gowtham_baashkaran_2023]] [[Griffin and Eastep 1981][research_griffin_eastep_1981]] [[Gross 2002][research_gross_2002]] [[Guangming and Zhengfeng 2009][research_guangming_zhengfeng_2009]] [[Gunasekaran and Mukherjee 2016][research_gunasekaran_mukherjee_2016]] [[Guo et al 2018][research_guo_shen_2018]] [[Guo et al 2022][research_guo_yan_2022]] [[Haas and Chopra 1988][research_haas_chopra_1988]] [[Hahn and Haupt 2022][research_hahn_haupt_2022]] [[Hancock 1961][research_hancock_1961]] [[Hancock 1963][research_hancock_1963]] [[Hancock 1965][research_hancock_1965]] [[Harash et al 2012][research_harash_yadykin_2012]] [[Hatami-Marbini 2018][research_hatamimarbini_2018]] [[Herrmann][research_herrmann]] [[Herrmann and Nemat-Nasser 1966][research_herrmann_nematnasser_1966]] [[Hodges 2007][research_hodges_2007]] [[Hou and Satyanarayana 2000][research_hou_satyanarayana_2000]] [[Hoult and Beyer 2020][research_hoult_beyer_2020]] [[How to Model Post-Cracking 2020][research_how_to_2020]] [[Humbad 1978][research_humbad_1978]] [[Huo et al 2013][research_huo_yuan_2013]] [[Huo et al 2013][research_huo_wang_2013]] [[Hwu and Tsai 2002][research_hwu_tsai_2002]] [[Ibrahim and Castravete 2005][research_ibrahim_castravete_2005]] [[Investigations of Static Aeroelasticity 2016][research_investigations_of_static_2016]] [[J and J 2015][research_j_j_2015]] [[Jain 2014][research_jain_2014]] [[Johns 1964][research_johns_1964]] [[Jovanov and De Breuker 2015][research_jovanov_debreuker_2015]] [[K. Badri and Torabpour 2025][research_kbadri_torabpour_2025]] [[K. Badri and Torabpour 2026][research_kbadri_torabpour_2026]] [[Kadrnka and Hawley 1993][research_kadrnka_hawley_1993]] [[Kafkas and Lampeas 2020][research_kafkas_lampeas_2020]] [[Karathanasopoulos 2015][research_karathanasopoulos_2015]] [[Karpouzian 1991][research_karpouzian_1991]] [[Kawakami et al 2007][research_kawakami_takatoya_2007]] [[Kawakami et al 2008][research_kawakami_takatoya_2008]] [[Kaza and Kielb 1982][research_kaza_kielb_1982]] [[Khot et al 1997][research_khot_eastep_1997]] [[Kilimtzidis and Kostopoulos 2023][research_kilimtzidis_kostopoulos_2023]] [[Kim et al 2023][research_kim_sung_2023]] [[Kimler and Canfield 2006][research_kimler_canfield_2006]] [[Klaue and Seidel 2009][research_klaue_seidel_2009]] [[Lee et al 1994][research_lee_kim_1994]] [[Lei et al 2020][research_lei_wang_2020]] [[Li et al 2020][research_li_yang_2020]] [[Li et al 2021][research_li_wang_2021]] [[Li et al 2023][research_li_luo_2023]] [[Li et al 2024][research_li_zhang_2024]] [[Li et al 2024][research_li_zhiqiang_2024]] [[Li et al 2024][research_li_qian_2024]] [[Li et al 2024][research_li_kou_2024]] [[Li et al 2025][research_li_li_2025]] [[Li et al 2026][research_li_zhang_2026]] [[Liang et al 2025][research_liang_chen_2025]] [[Liang et al 2026][research_liang_chen_2026]] [[Librescu and Simovich 1988][research_librescu_simovich_1988]] [[Librescu and Song 1992][research_librescu_song_1992]] [[Librescu and Thangjitham 1989][research_librescu_thangjitham_1989]] [[Librescu and Thangjitham 1991][research_librescu_thangjitham_1991]] [[Liu et al 2011][research_liu_yin_2011]] [[Liu et al 2013][research_liu_bai_2013]] [[Lokos et al 2002][research_lokos_olney_2002]] [[Lottati 1985][research_lottati_1985]] [[Low et al 2016][research_low_pheh_2016]] [[Macek et al 2021][research_macek_branco_2021]] [[Macek et al 2021][research_macek_marciniak_2021]] [[Machado-e-Costa et al 2016][research_machadoecosta_valarinho_2016]] [[Mao et al 2023][research_mao_guo_2023]] [[Matter et al 2018][research_matter_darabseh_2018]] [[Meng et al 2020][research_meng_kaihua_2020]] [[Meresman and Ribak 2017][research_meresman_ribak_2017]] [[Merrett and Hilton 2011][research_merrett_hilton_2011]] [[Merrett et al 2011][research_merrett_hilton_2011_b]] [[Micks 1950][research_micks_1950]] [[Miniature slide units offer 2002][research_miniature_slide_2002]] [[Muscati and Grootenhuis 1975][research_muscati_grootenhuis_1975]] [[Nair and Goza 2022][research_nair_goza_2022]] [[Newsome et al 1998][research_newsome_berkooz_1998]] [[Niblett 1986][research_niblett_1986]] [[Noh et al 2025][research_noh_andreu_2025]] [[On selection of the 1972][research_on_selection_1972]] [[Pavanasam et al 2024][research_pavanasam_anil_2024]] [[Pecora et al 2012][research_pecora_amoroso_2012]] [[Phillips et al 2022][research_phillips_white_2022]] [[Price et al 2002][research_price_koffi_2002]] [[Qiao et al 2018][research_qiao_zhou_2018]] [[Qiao et al 2019][research_qiao_zhou_2019]] [[Qiao et al 2025][research_qiao_wang_2025]] [[Qin and Zhang 2013][research_qin_zhang_2013]] [[Ramlal et al 2025][research_ramlal_desai_2025]] [[Raoof and Kraincanic 1998][research_raoof_kraincanic_1998]] [[Reinbold et al 2026][research_reinbold_breitsamter_2026]] [[Revivo and Raveh 2025][research_revivo_raveh_2025]] [[Rimer et al 1984][research_rimer_chipman_1984_b]] [[Rodden 1981][research_rodden_1981]] [[Rodden 1984][research_rodden_1984]] [[Rodden 1989][research_rodden_1989]] [[Rodden and Bellinger 1982][research_rodden_bellinger_1982]] [[Rodden and Love 1984][research_rodden_love_1984]] [[Rodden and Love 1985][research_rodden_love_1985]] [[Rosenberg 1944][research_rosenberg_1944]] [[Sacchi et al 2025][research_sacchi_healy_2025]] [[Sampo' et al 2010][research_sampo_sorniotti_2010]] [[Schmidt 1991][research_schmidt_1991]] [[Scholes and Slater 1970][research_scholes_slater_1970]] [[Schuster et al 1990][research_schuster_vadyak_1990]] [[Selvadurai 1984][research_selvadurai_1984]] [[Shavezipur 2021][research_shavezipur_2021]] [[Shen et al 2019][research_shen_branscomb_2019]] [[Shen et al 2024][research_shen_li_2024]] [[Shipley and Gopalarathnam 2006][research_shipley_gopalarathnam_2006]] [[Shu-yi et al 2010][research_shuyi_xin_2010]] [[Shubin 1995][research_shubin_1995]] [[Song et al 1992][research_song_librescu_1992]] [[Static Aeroelastic Considerations 1996][research_static_aeroelastic_1996]] [[Static Aeroelasticity 2002][research_static_aeroelasticity_2002]] [[Static Aeroelasticity 2005][research_static_aeroelasticity_2005]] [[Static Aeroelasticity 2011][research_static_aeroelasticity_2011]] [[Static Aeroelasticity and Flutter 2014][research_static_aeroelasticity_2014_c]] [[Static Aeroelasticity Effect 2014][research_static_aeroelasticity_2014]] [[Static Aeroelasticity Effect 2014][research_static_aeroelasticity_2014_b]] [[Sun 2024][research_sun_2024]] [[Swaim 1961][research_swaim_1961]] [[Tacca et al 2024][research_tacca_colvin_2024]] [[The influence of the aerodynamic span effect on the magnitude of the torsional-divergence velocity][research_span_effect_divergence]] [[Thel et al 2022][research_thel_hahn_2022]] [[Thielicke and Stamhuis 2018][research_thielicke_stamhuis_2018]] [[Ting et al 2014][research_ting_lebofsky_2014]] [[Torsional Divergence 2014][research_torsional_divergence_2014]] [[Torsional stiffness and fatigue 1994][research_torsional_stiffness_1994]] [[Torsional stiffness of plastic 1972][research_torsional_stiffness_1972]] [[Truong et al 2022][research_truong_gosselin_2022]] [[Tsushima et al 2019][research_tsushima_yokozeki_2019]] [[Uhm 2021][research_uhm_2021]] [[Van Zyl 2001][research_vanzyl_2001]] [[Vance et al 1974][research_vance_brown_1974]] [[Varello et al 2013][research_varello_lamberti_2013]] [[Verri et al 2024][research_verri_luizbussamra_2024]] [[Verri et al 2025][research_verri_desilvabussamra_2025]] [[Wang 2019][research_wang_2019]] [[Wang et al 2021][research_wang_chang_2021]] [[Wang et al 2024][research_wang_wang_2024]] [[Wang et al 2026][research_wang_pei_2026]] [[Wang et al 2026][research_wang_pei_2026_b]] [[Webb and Takahashi 2022][research_webb_takahashi_2022]] [[Weisshaar 1973][research_weisshaar_1973]] [[Weisshaar 1974][research_weisshaar_1974]] [[Weisshaar 1974][research_weisshaar_1974_b]] [[Weisshaar 1979][research_weisshaar_1979]] [[Weisshaar 1990][research_weisshaar_1990_b]] [[Weisshaar and Ashley 1974][research_weisshaar_ashley_1974]] [[White and Hartl 2024][research_white_hartl_2024]] [[Wing torsional stiffness tests of the active aeroelastic wing F/A-18 airplane][research_aaw_torsional_stiffness]] [[Wunderlich 2015][research_wunderlich_2015]] [[Xie 2010][research_xie_2010]] [[xu et al 2023][research_xu_song_2023]] [[Yang et al 2009][research_yang_chen_2009]] [[Yang et al 2019][research_yang_xie_2019]] [[Yasue and Sawada 2009][research_yasue_sawada_2009]] [[Yin et al 2026][research_yin_xiao_2026]] [[Yu et al 2014][research_yu_lv_2014]] [[Zahn 1984][research_zahn_1984]] [[Zeiler 1998][research_zeiler_1998]] [[Zeiler 1999][research_zeiler_1999]] [[Zhang and Zhu 2021][research_zhang_zhu_2021]] [[Zhang et al 2018][research_zhang_zhou_2018]] [[Zhang et al 2018][research_zhang_zhou_2018_b]] [[Zhang et al 2021][research_zhang_guo_2021]] [[Zhao 2012][research_zhao_2012]] [[zhao 2019][research_zhao_2019]] [[Zhao 2020][research_zhao_2020]] [[Zheng et al 2013][research_zheng_hedrick_2013]] [[Zhi et al 2020][research_zhi_zhou_2020]] [[Zyablikov and Shirshov 2021][research_zyablikov_shirshov_2021]]
+**371 records.** [[Abdulrahim et al 2018][research_abdulrahim_weibley_2018]] [[Adamson et al 2019][research_adamson_fichera_2019]] [[Adaptive Transonic Aeroservoelasticity 2016][research_adaptive_transonic_2016]] [[Aeroservoelastic tailoring for lateral control enhancement][research_aeroservoelastic_tailoring]] [[Aeroservoelastic wind-tunnel investigations using the active flexible wing model, status and recent accomplishments][research_afw_tm101570]] [[Air Force Test Pilot School Edwards Afb Ca 1988][research_airforcetestpilotschooledwardsafbca_1988]] [[Allen and Pollock 1983][research_allen_pollock_1983]] [[Allen et al 1986][research_allen_reardon_1986]] [[Alwi and Edwards 2007][research_alwi_edwards_2007]] [[Alwi and Edwards 2009][research_alwi_edwards_2009]] [[Alwi and Edwards 2010][research_alwi_edwards_2010]] [[Andersen et al 1997][research_andersen_forster_1997]] [[Andersen et al 1998][research_andersen_kolonay_1998]] [[Antonakis and Biannic 2024][research_antonakis_biannic_2024]] [[Atay et al 2021][research_atay_bryant_2021]] [[Babcock and Lind 2013][research_babcock_lind_2013]] [[Babcock and Lind 2013][research_babcock_lind_2013_b]] [[Baggi et al 2020][research_baggi_franco_2020]] [[Baggi et al 2022][research_baggi_serrani_2022]] [[Bailey et al 1988][research_bailey_powers_1988]] [[Balas et al 2004][research_balas_hindman_2004]] [[Balas et al 2012][research_balas_moreno_2012]] [[Banavara and Newsom 2010][research_banavara_newsom_2010]] [[Barb and Mulder 2003][research_barb_mulder_2003]] [[Beh et al 2018][research_beh_hofinger_2018]] [[Benosman et al 2007][research_benosman_liao_2007]] [[Bian et al 2018][research_bian_nener_2018]] [[Bian et al 2019][research_bian_nener_2019]] [[Binder et al 2021][research_binder_wildschek_2021]] [[Binwen Lu et al 2016][research_binwenlu_jianjunma_2016]] [[Blight et al 2018][research_blight_lanedailey_2018]] [[Bocola et al 2015][research_bocola_muscarello_2015]] [[Bodson 2000][research_bodson_2000]] [[Boskovic and Mehra][research_boskovic_mehra]] [[Boskovic et al][research_boskovic_ling]] [[Botez et al 2008][research_botez_grigorie_2008]] [[Bouadi][research_bouadi]] [[Brenner 2002][research_brenner_2002]] [[Brenner and Lind 1998][research_brenner_lind_1998]] [[Brenner et al 1997][research_brenner_feron_1997]] [[Brenner, Martin J. 1996][research_brennermartinj_1996]] [[Brenner, Martin J. 2001][research_brennermartinj_2001]] [[Brinker and Wise 2000][research_brinker_wise_2000]] [[Brown et al 2017][research_brown_singh_2017]] [[Bucharles and Vacher 2002][research_bucharles_vacher_2002]] [[Buffington 1997][research_buffington_1997]] [[Buffington 1999][research_buffington_1999]] [[Burcham, Jr. and Burken 1994][research_burchamjr_burken_1994]] [[Burton and Kneeland, Jr. 1981][research_burton_kneelandjr_1981]] [[Cabaleiro de la Hoz and Fioriti 2021][research_cabaleirodelahoz_fioriti_2021]] [[Cameron and Princen 2000][research_cameron_princen_2000]] [[Chen 2015][research_chen_2015]] [[Chen et al 2018][research_chen_zhou_2018]] [[Chin][research_chin]] [[Chin et al 1987][research_chin_chacon_1987]] [[Chin et al 2011][research_chin_brenner_2011]] [[ChunSheng Liu et al 2012][research_chunshengliu_xinzhongzhu_2012]] [[Colombo et al 2018][research_colombo_muscarello_2018]] [[Comer et al 2024][research_comer_bhandari_2024]] [[Cong et al 2023][research_cong_hu_2023]] [[Control Allocation and Flight 2016][research_control_allocation_2016]] [[Cotoi and Botez 2002][research_cotoi_botez_2002]] [[Cotton 1974][research_cotton_1974]] [[Cramer and Nguyen 2020][research_cramer_nguyen_2020]] [[Cristofaro 2024][research_cristofaro_2024]] [[Cruz and Kienitz 2007][research_cruz_kienitz_2007]] [[Dai et al 2012][research_dai_wu_2012]] [[Danowsky et al 2009][research_danowsky_thompson_2009]] [[Danowsky et al 2010][research_danowsky_brenner_2010]] [[Danowsky et al 2013][research_danowsky_thompson_2013]] [[Danowsky et al 2016][research_danowsky_lieu_2016]] [[de Vries and Van Kampen 2019][research_devries_vankampen_2019]] [[Demourant and Ferreres 2013][research_demourant_ferreres_2013]] [[Development and testing of control laws for the active aeroelastic wing program][research_aaw_control_laws]] [[Dibley et al 2005][research_dibley_allen_2005]] [[Dillinger et al 2020][research_dillinger_meddaikar_2020]] [[Dilmi 2022][research_dilmi_2022]] [[Doman and Oppenheimer 2002][research_doman_oppenheimer_2002]] [[Doman et al 2007][research_doman_gamble_2007]] [[Doman et al 2009][research_doman_gamble_2009]] [[Dong et al 2016][research_dong_lu_2016]] [[Dong et al 2024][research_dong_zhou_2024]] [[Durham et al 2016][research_durham_bordignon_2016]] [[Edwards et al 1997][research_edwards_fittante_1997]] [[Epple and Altenbach 1982][research_epple_altenbach_1982]] [[Favale et al 2021][research_favale_haidar_2021]] [[Faïsse et al 2022][research_faisse_vernay_2022]] [[Felt et al 1978][research_felt_huttsell_1978]] [[Ferreres and Puyou 2006][research_ferreres_puyou_2006]] [[Fonzi et al 2024][research_fonzi_ricci_2024]] [[Fonzi et al 2025][research_fonzi_ricci_2025]] [[Forte et al 2026][research_forte_nguyen_2026_b]] [[Frame-wise Control Allocation 2016][research_frame_wise_control_2016]] [[Franze et al 2013][research_franze_mattei_2013]] [[Friedmann 1992][research_friedmann_1992]] [[Friedmann 1998][research_friedmann_1998]] [[Frost et al 2012][research_frost_taylor_2012]] [[Gai and Wang 2013][research_gai_wang_2013]] [[Gai et al 2019][research_gai_sun_2019]] [[Gao et al 2021][research_gao_an_2021]] [[Gao et al 2021][research_gao_an_2021_b]] [[Ghorawat et al 2016][research_ghorawat_lee_2016]] [[Gilbert, Michael G. 1989][research_gilbertmichaelg_1989]] [[Graham et al 2007][research_graham_deoliveira_2007]] [[Gregory et al 2007][research_gregory_cao_2007]] [[Gregory et al 2011][research_gregory_xargay_2011]] [[Gripp et al 2023][research_gripp_guimaraesmoreira_2023]] [[Ground and flight testing 2000][research_ground_and_2000]] [[Guan et al 2025][research_guan_xing_2025]] [[Guillot and Friedmann 1994][research_guillot_friedmann_1994]] [[Gupta, K. K. et al 1987][research_guptakk_brennermj_1987]] [[Gupta, K. K. et al 1991][research_guptakk_brennermj_1991]] [[Haddadpour 2006][research_haddadpour_2006]] [[Haghighat et al 2010][research_haghighat_liu_2010]] [[Haghighat et al 2012][research_haghighat_martins_2012]] [[Han and Kim 2011][research_han_kim_2011]] [[Hansen et al 2020][research_hansen_duan_2020]] [[Hansen et al 2020][research_hansen_duan_2020_b]] [[Hansen et al 2022][research_hansen_duan_2022]] [[Hanson et al 2002][research_hanson_ryan_2002]] [[Harkegard][research_harkegard]] [[Hartwell and Nguyen 2021][research_hartwell_nguyen_2021]] [[Henderson and Lavretsky 1999][research_henderson_lavretsky_1999]] [[Hjartarson et al 2013][research_hjartarson_seiler_2013]] [[Hofmann and Kezer 1962][research_hofmann_kezer_1962]] [[Hoh and Mitchell 2018][research_hoh_mitchell_2018]] [[Hongchao Li et al][research_hongchaoli_zhongkeshi]] [[Hopwood et al 2019][research_hopwood_ruskin_2019]] [[Hu et al 2023][research_hu_shao_2023]] [[Huber 1995][research_huber_1995]] [[Hutto 1975][research_hutto_1975]] [[Idan et al 1999][research_idan_karpel_1999]] [[Ide and Ominsky 1990][research_ide_ominsky_1990]] [[Ingle and Kothmann 1998][research_ingle_kothmann_1998]] [[Isnardi et al 2018][research_isnardi_paoletti_2018]] [[Jackson and Livne 2005][research_jackson_livne_2005]] [[Jackson and Livne 2014][research_jackson_livne_2014]] [[Jenney et al 1982][research_jenney_schreadley_1982]] [[Jianjun Ma et al 2008][research_jianjunma_wenqiangli_2008]] [[Jianjun Ma et al 2008][research_jianjunma_pengli_2008]] [[Jing and Ma 2025][research_jing_ma_2025]] [[Jingping et al 2011][research_jingping_weiguo_2011]] [[Jothiraj et al 2020][research_jothiraj_sharf_2020]] [[Jurisson et al 2022][research_jurisson_debreuker_2022]] [[Karpel 1990][research_karpel_1990]] [[Karpel et al 1998][research_karpel_idan_1998]] [[Keas and MacMynowski 2009][research_keas_macmynowski_2009]] [[Kefayat and Kamali 2024][research_kefayat_kamali_2024]] [[Khrabrov and Sidoryuk 2010][research_khrabrov_sidoryuk_2010]] [[Khrabrov and Sidoryuk 2013][research_khrabrov_sidoryuk_2013]] [[Klepl 1990][research_klepl_1990]] [[Kubica and Livet 1994][research_kubica_livet_1994]] [[Kubica and Livet 1994][research_kubica_livet_1994_b]] [[Kubica et al 1995][research_kubica_livet_1995]] [[Kukreja, Sunil L. 2007][research_kukrejasunill_2007]] [[Layton 1995][research_layton_1995]] [[Layton 1996][research_layton_1996]] [[Li et al 2011][research_li_yu_2011]] [[Li et al 2012][research_li_yu_2012]] [[Li et al 2025][research_li_xiong_2025]] [[Lin et al 2019][research_lin_zhang_2019]] [[Lind and Brenner 1999][research_lind_brenner_1999_c]] [[Lind and Brenner 1999][research_lind_brenner_1999_d]] [[Lind and Brenner 1999][research_lind_brenner_1999_e]] [[Lind and Brenner 1999][research_lind_brenner_1999_f]] [[Lingyu et al 2006][research_lingyu_youwu_2006]] [[Little 1996][research_little_1996]] [[Liu and Zhang 2020][research_liu_zhang_2020]] [[Liu et al 2009][research_liu_sun_2009]] [[Liu et al 2018][research_liu_zhang_2018]] [[Liu et al 2018][research_liu_zhao_2018]] [[Liu et al 2025][research_liu_he_2025]] [[Liu et al 2026][research_liu_li_2026]] [[Livet et al 1994][research_livet_kubica_1994]] [[Livet et al 1995][research_livet_kubica_1995]] [[Livne 1993][research_livne_1993]] [[Livne and Li 1994][research_livne_li_1994]] [[Lou et al 2024][research_lou_duan_2024]] [[Love and Lind 2010][research_love_lind_2010]] [[Lu et al 2019][research_lu_ma_2019]] [[Lu et al 2026][research_lu_lan_2026]] [[Ma and Wang 2009][research_ma_wang_2009]] [[Maharaj 1997][research_maharaj_1997]] [[Mangalam et al 2007][research_mangalam_flick_2007]] [[Masarati et al 2010][research_masarati_quaranta_2010]] [[Masarati et al 2011][research_masarati_muscarello_2011]] [[Matamoros and de Visser 2018][research_matamoros_devisser_2018]] [[Mccuish and Caldwell 2018][research_mccuish_caldwell_2018]] [[Meirovitch and Tuzcu 2002][research_meirovitch_tuzcu_2002]] [[Miyazawa 2000][research_miyazawa_2000]] [[Model Reference Adaptation of 2016][research_model_reference_2016]] [[Mohamed and G 2020][research_mohamed_g_2020]] [[Mor and Livne 2004][research_mor_livne_2004]] [[Mor and Livne 2005][research_mor_livne_2005]] [[Moreno et al 2012][research_moreno_seiler_2012]] [[Moreno et al 2015][research_moreno_pfifer_2015]] [[Moulin et al 2001][research_moulin_idan_2001]] [[Moulin et al 2002][research_moulin_idan_2002]] [[Moulin et al 2010][research_moulin_ritz_2010]] [[Moulin et al 2011][research_moulin_zeng_2011]] [[Mouyon et al 2003][research_mouyon_cumer_2003]] [[Mu et al 2026][research_mu_huang_2026]] [[Mukhopadhyay 1988][research_mukhopadhyay_1988]] [[Murch 2008][research_murch_2008]] [[Muñoz Medina][research_munozmedina]] [[Napolitano et al 2001][research_napolitano_song_2001]] [[Newman and Schmidt 1994][research_newman_schmidt_1994]] [[Nguyen and Xiong 2026][research_nguyen_xiong_2026_b]] [[Nguyen et al 2018][research_nguyen_saussie_2018]] [[Nguyen et al 2018][research_nguyen_ting_2018]] [[Nguyen et al 2022][research_nguyen_webb_2022]] [[Nguyen et al 2023][research_nguyen_xiong_2023]] [[Nhan Nguyen et al][research_nhannguyen_benjaminwebb]] [[Noll et al 1989][research_noll_perryiii_1989]] [[Oliver and Singh 2020][research_oliver_singh_2020]] [[Ouellette 2026][research_ouellette_2026]] [[Ouellette et al 2010][research_ouellette_patil_2010]] [[Ouellette et al 2012][research_ouellette_patil_2012]] [[Ouellette et al 2014][research_ouellette_patil_2014]] [[Ouellette et al 2023][research_ouellette_miller_2023]] [[Pachikara and Lind 2012][research_pachikara_lind_2012]] [[Pankonien et al 2018][research_pankonien_durscher_2018]] [[Patil and Clark 2002][research_patil_clark_2002]] [[Pedro and Tshabalala 2017][research_pedro_tshabalala_2017]] [[Pedro and Tshabalala 2017][research_pedro_tshabalala_2017_b]] [[Pellegrino et al 2022][research_pellegrino_quaranta_2022]] [[Penning et al 2009][research_penning_zink_2009]] [[Perry, Iii et al 1988][research_perryiii_dunn_1988]] [[Pfeifle and Fichter 2021][research_pfeifle_fichter_2021]] [[Pfeifle and Fichter 2021][research_pfeifle_fichter_2021_b]] [[Pfeifle and Fichter 2023][research_pfeifle_fichter_2023]] [[Phillips][research_phillips]] [[Pototzky 2010][research_pototzky_2010]] [[Prasanth and Mehra 1999][research_prasanth_mehra_1999]] [[Prochazka et al 2018][research_prochazka_eduardo_2018]] [[Pursel 1977][research_pursel_1977]] [[Pusch et al 2022][research_pusch_kier_2022]] [[Puyou and Berard 2007][research_puyou_berard_2007]] [[Qin et al 2023][research_qin_wei_2023]] [[Qin et al 2023][research_qin_liu_2023]] [[Quach 2026][research_quach_2026]] [[Quach 2026][research_quach_2026_b]] [[Quackenbush et al 2009][research_quackenbush_keller_2009]] [[Quaranta et al 2013][research_quaranta_masarati_2013]] [[Rains et al 2024][research_rains_huang_2024]] [[Rao et al][research_rao_behal]] [[Raol and Singh 2023][research_raol_singh_2023]] [[Re 2014][research_re_2014]] [[Reichenbach 2008][research_reichenbach_2008]] [[Reichenbach et al 2009][research_reichenbach_urnes_2009]] [[Reichenbach et al 2011][research_reichenbach_castelluccio_2011]] [[Richardson and Kesler 1988][research_richardson_kesler_1988]] [[Ro et al 1992][research_ro_barlow_1992]] [[Robinson][research_robinson_b]] [[Rogers 2007][research_rogers_2007]] [[Sackett and Kirchwey 1982][research_sackett_kirchwey_1982]] [[Sadien et al 2019][research_sadien_carton_2019]] [[Sadien et al 2020][research_sadien_roos_2020]] [[Sahasrabudhe et al 1997][research_sahasrabudhe_celi_1997]] [[Scalera and Durham 1999][research_scalera_durham_1999]] [[Schmidt 1986][research_schmidt_1986_b]] [[Schmidt and Newman 1990][research_schmidt_newman_1990]] [[Schulze et al 2016][research_schulze_danowsky_2016]] [[Scordamaglia et al 2025][research_scordamaglia_mattei_2025]] [[Scott et al 2008][research_scott_vetter_2008]] [[Scott et al 2011][research_scott_coulson_2011]] [[Scott et al 2015][research_scott_allen_2015]] [[Shearwood et al 2020][research_shearwood_nabawy_2020]] [[Shearwood et al 2020][research_shearwood_nabawy_2020_b]] [[Shearwood et al 2021][research_shearwood_nabawy_2021]] [[Sheldon and Rasmussen][research_sheldon_rasmussen]] [[Shimin et al 2025][research_shimin_letian_2025]] [[Shweyk and Weltz 2005][research_shweyk_weltz_2005]] [[Silvestre 2013][research_silvestre_2013]] [[Simbuerger et al 2022][research_simbuerger_raveh_2022]] [[Simoes et al 2009][research_simoes_alazard_2009]] [[Simões et al 2011][research_simoes_apkarian_2011]] [[Singh et al 2014][research_singh_mcdonough_2014]] [[Snell 1993][research_snell_1993]] [[Soares 2007][research_soares_2007]] [[Soares 2007][research_soares_2007_b]] [[Song et al 2014][research_song_liu_2014]] [[Song et al 2018][research_song_whidborne_2018]] [[Stalla et al 2024][research_stalla_kier_2024]] [[Stam and de Visser 2025][research_stam_devisser_2025]] [[Stanford 2015][research_stanford_2015]] [[Stanford 2016][research_stanford_2016_b]] [[Stanford 2019][research_stanford_2019]] [[Steer 2004][research_steer_2004]] [[Stephan 2025][research_stephan_2025]] [[Stettner and Schrage 1992][research_stettner_schrage_1992]] [[Suh, Peter M. et al 2015][research_suhpeterm_conyershowardjason_2015]] [[Sun et al 2020][research_sun_shi_2020]] [[Suryakumar et al 2016][research_suryakumar_mangalam_2016]] [[Szabolcsi and Gáspár 1997][research_szabolcsi_gaspar_1997]] [[Tabassum and Bai 2022][research_tabassum_bai_2022]] [[Tan et al 2014][research_tan_zhou_2014]] [[Tang et al 2015][research_tang_wu_2015]] [[Tang et al 2025][research_tang_yang_2025]] [[Tantaroudas and Da Ronch 2017][research_tantaroudas_daronch_2017]] [[Tariq and Nahon 2020][research_tariq_nahon_2020]] [[Taylor and Yoo 2011][research_taylor_yoo_2011]] [[Taylor et al 1995][research_taylor_pratt_1995]] [[Teng 2006][research_teng_2006]] [[Tewari 2015][research_tewari_2015_c]] [[Tewari 2016][research_tewari_2016]] [[The active flexible wing aeroservoelastic wind-tunnel test program][research_afw_wind_tunnel]] [[The Geometry of Control 2016][research_the_geometry_2016]] [[Theis et al 2015][research_theis_pfifer_2015]] [[Theis et al 2015][research_theis_takarics_2015]] [[Thompson et al 2007][research_thompson_klyde_2007]] [[Thompson et al 2011][research_thompson_danowsky_2011]] [[Ting et al 2017][research_ting_chaparro_2017]] [[Ting et al 2023][research_ting_mesbahi_2023]] [[Tingting and Aijun 2014][research_tingting_aijun_2014]] [[Tohidi et al 2018][research_tohidi_yildiz_2018]] [[Tol et al 2014][research_tol_devisser_2014]] [[Torralba et al 2009][research_torralba_puyou_2009]] [[Tırman et al 2024][research_tirman_ture_2024]] [[Vartio et al 2008][research_vartio_shaw_2008]] [[Veiberman and Karpel 2022][research_veiberman_karpel_2022]] [[Veiberman et al 2016][research_veiberman_weiss_2016]] [[Vile et al 2019][research_vile_alwi_2019]] [[Vile et al 2019][research_vile_alwi_2019_b]] [[Vile et al 2020][research_vile_alwi_2020]] [[Wahler et al 2023][research_wahler_varriale_2023]] [[Waite et al 2019][research_waite_stanford_2019]] [[Walker and Postlthewaite][research_walker_postlthewaite]] [[Wang and Guo 2012][research_wang_guo_2012]] [[Wang and Zhang 2022][research_wang_zhang_2022]] [[Wang et al 2018][research_wang_zhang_2018]] [[Wang et al 2024][research_wang_shi_2024]] [[Wang et al 2025][research_wang_yu_2025]] [[Wang et al 2025][research_wang_li_2025]] [[Waters et al 2013][research_waters_voskuijl_2013]] [[Weisshaar 1994][research_weisshaar_1994_b]] [[Weisshaar and Nam 1990][research_weisshaar_nam_1990]] [[Weisshaar, Terrence A. and Changho, Nam 1989][research_weisshaarterrencea_changhonam_1989]] [[Whitbeck and Hofmann 1978][research_whitbeck_hofmann_1978]] [[Williams 2004][research_williams_2004]] [[Williams-Hayes 2005][research_williamshayes_2005]] [[Wu and Livne 2015][research_wu_livne_2015]] [[Wu and Livne 2016][research_wu_livne_2016]] [[Wu et al 2023][research_wu_zha_2023]] [[Wustenhagen et al 2021][research_wustenhagen_suelozgen_2021]] [[Xiaoguang et al 2023][research_xiaoguang_du_2023]] [[Xu et al 2016][research_xu_tang_2016]] [[Xu et al 2020][research_xu_zhang_2020]] [[Xu et al 2024][research_xu_sevart_2024]] [[Yamashiro and Stirling 2007][research_yamashiro_stirling_2007]] [[Yan et al 2025][research_yan_liu_2025]] [[Yang and Gao 2020][research_yang_gao_2020]] [[Yang and Shen 2007][research_yang_shen_2007]] [[Yang et al 2009][research_yang_zhong_2009]] [[Yang et al 2011][research_yang_kim_2011]] [[Yiming et al 2019][research_yiming_mei_2019]] [[Yomchinda et al 2009][research_yomchinda_horn_2009]] [[Youssef 1985][research_youssef_1985]] [[Yurtsever et al 2026][research_yurtsever_sahin_2026]] [[Zaki et al 2017][research_zaki_unel_2017]] [[Zeng et al 2007][research_zeng_baldelli_2007]] [[Zeng et al 2008][research_zeng_baldelli_2008]] [[Zeng et al 2011][research_zeng_wang_2011]] [[Zhang and Zhao 2023][research_zhang_zhao_2023]] [[Zhang et al 2007][research_zhang_suresh_2007]] [[Zhang et al 2008][research_zhang_rabbath_2008]] [[Zhang et al 2025][research_zhang_xiang_2025]] [[Zhao et al 2026][research_zhao_zheng_2026]] [[Zhen and Cui 2023][research_zhen_cui_2023]] [[Zhong et al 2009][research_zhong_yang_2009]] [[Zou et al 2012][research_zou_yang_2012]]
 
 ### Roll performance and how an aeroplane is judged to have enough
 
 **The requirement side, which is where the programme's clearest failure lives.** Roll rate, roll mode time constant, time to bank, ailerons, flaps, stabilators and hinge moments. **Hinge moment dominated the flight test**, and the aeroplane met its level 1 goal at two test points and missed the level 2 requirement at a third.
 
-**220 records.** [[ACM produces 737 aileron 2005][research_acm_produces_2005]] [[Adnyana 2017][research_adnyana_2017]] [[Aileron 2005][research_aileron_2005]] [[Air Force Test Pilot School Edwards Afb Ca 1989][research_airforcetestpilotschooledwardsafbca_1989]] [[Alam and Sohn 2023][research_alam_sohn_2023]] [[Albertani et al 2005][research_albertani_stanford_2005]] [[Alighanbari 2002][research_alighanbari_2002]] [[Altman 1952][research_altman_1952]] [[Anderson 1984][research_anderson_1984]] [[Anderson 1985][research_anderson_1985]] [[Ansell et al 2010][research_ansell_bragg_2010]] [[Ansell et al 2011][research_ansell_bragg_2011]] [[Ansell et al 2011][research_ansell_bragg_2011_b]] [[Ansell et al 2013][research_ansell_kerho_2013]] [[Ansell et al 2014][research_ansell_kerho_2014]] [[Ashkenas 1965][research_ashkenas_1965]] [[Atkinson 2016][research_atkinson_2016]] [[Avci et al 2026][research_avci_tegin_2026]] [[Ball 1978][research_ball_1978]] [[Ball 1979][research_ball_1979]] [[Bamber, Millard J 1934][research_bambermillardj_1934]] [[Bendiksen 1993][research_bendiksen_1993]] [[Bogatyrev 2017][research_bogatyrev_2017]] [[Boothe et al 1974][research_boothe_chen_1974]] [[Braun et al][research_braun_boucke]] [[Breul 1963][research_breul_1963]] [[Brewer, Gerald W. 1946][research_brewergeraldw_1946]] [[Brincklow and Hunsaker 2021][research_brincklow_hunsaker_2021]] [[Brown, Jr. 1970][research_brownjr_1970]] [[Bruno Santos et al 2020][research_brunosantos_oliveira_2020]] [[Burt Jr 1976][research_burtjr_1976]] [[Carlsson and Cronander 2005][research_carlsson_cronander_2005]] [[Carruthers et al 2007][research_carruthers_taylor_2007]] [[Cartwright 2010][research_cartwright_2010]] [[Celi 1991][research_celi_1991]] [[Cesnik and Brown 2002][research_cesnik_brown_2002]] [[Chand and Hansen][research_chand_hansen]] [[Chandrasekharan et al 2015][research_chandrasekharan_iarocci_2015]] [[Chen and Liu 2014][research_chen_liu_2014]] [[Chen et al 2026][research_chen_cai_2026]] [[Chen et al 2026][research_chen_gray_2026]] [[Cheng et al 1987][research_cheng_edwards_1987]] [[Covell et al 1986][research_covell_miller_1986]] [[Dai et al 2022][research_dai_qiu_2022]] [[Davis][research_davis]] [[Deere et al 2011][research_deere_pao_2011]] [[Dieterich et al 2006][research_dieterich_enenkl_2006]] [[Dixon 1972][research_dixon_1972]] [[Duffy 1989][research_duffy_1989]] [[Duncan 1950][research_duncan_1950]] [[Dynamic Lateral-Directional Stability Theory 2003][research_dynamic_lateral_directional_2003]] [[Ferrara 2025][research_ferrara_2025]] [[Ghalandari et al 2022][research_ghalandari_mahariq_2022]] [[Gomec et al 2020][research_gomec_unver_2020]] [[Gomec et al 2020][research_gomec_unver_2020_b]] [[Gordnier 1993][research_gordnier_1993]] [[Grant et al 1989][research_grant_nelson_1989]] [[Grantz 1985][research_grantz_1985]] [[Grantz and Marchman 1983][research_grantz_marchman_1983]] [[Greer et al 2021][research_greer_sardahi_2021]] [[Grismer et al 2000][research_grismer_kinsey_2000]] [[Gross et al 1986][research_gross_chandler_1986]] [[Grove 2006][research_grove_2006]] [[Guerreiro and Hubbard 2008][research_guerreiro_hubbard_2008]] [[Gurbacki and Bragg 1999][research_gurbacki_bragg_1999]] [[Gurbacki and Bragg 2001][research_gurbacki_bragg_2001]] [[Hall and Mason 2012][research_hall_mason_2012]] [[Harper and Robert P. 1955][research_harper_robertp_1955]] [[Haucke et al 2016][research_haucke_bauer_2016]] [[He et al 2020][research_he_song_2020]] [[He et al 2020][research_he_deparday_2020]] [[He et al 2021][research_he_wang_2021]] [[Hodapp, Jr. and Beckmann 1972][research_hodappjr_beckmann_1972]] [[Hopkins, E. J. and Lovette, G. H. 1977][research_hopkinsej_lovettegh_1977]] [[Hwang et al 1991][research_hwang_chen_1991]] [[Initial flight test of 1989][research_initial_flight_1989]] [[Innocenti 1985][research_innocenti_1985]] [[Irfan et al 2026][research_irfan_nanangburhan_2026]] [[Izadi et al 2007][research_izadi_pakmehr_2007]] [[Ize and Arena 1998][research_ize_arena_1998]] [[Ize and Arena, Jr. 1999][research_ize_arenajr_1999]] [[Ize et al 1997][research_ize_arenajr_1997]] [[Jabbar et al 2026][research_jabbar_setiawan_2026]] [[Jacobs, P. F. 1983][research_jacobspf_1983]] [[Jaworski 2012][research_jaworski_2012]] [[Jiang 1999][research_jiang_1999]] [[Jiang et al 2000][research_jiang_an_2000]] [[Karpouzian and Librescu 1992][research_karpouzian_librescu_1992]] [[Kassapakis and Warwick 1994][research_kassapakis_warwick_1994]] [[Keçecioğlu and Salih Yiğit 2026][research_kececioglu_salihyigit_2026]] [[Khot 1999][research_khot_1999]] [[Khot et al 1998][research_khot_appa_1998]] [[Khot et al 1998][research_khot_appa_1998_b]] [[Khot et al 2000][research_khot_zweber_2000]] [[Khot et al 2000][research_khot_appa_2000]] [[Klim et al 2013][research_klim_zeppetelli_2013]] [[Klyde et al 2007][research_klyde_bachelder_2007]] [[Kowalska and Goetzendorf-Grabowski 2022][research_kowalska_goetzendorfgrabowski_2022]] [[Kumar et al 2021][research_kumar_sunil_2021]] [[Kuo and Hsu 1997][research_kuo_hsu_1997]] [[Kwak et al 2004][research_kwak_shirotake_2004]] [[Kwong et al 2024][research_kwong_severson_2024]] [[Landers and Landrum 1998][research_landers_landrum_1998]] [[Landers et al 1997][research_landers_landrum_1997]] [[Lateral-Directional Stability Theory and 2003][research_lateral_directional_stability_2003]] [[Lauchle 1974][research_lauchle_1974]] [[Laurie and Farokhi 1993][research_laurie_farokhi_1993]] [[Lei and Kwak 2005][research_lei_kwak_2005]] [[Levy 1992][research_levy_1992]] [[Li et al 1999][research_li_zhu_1999]] [[Liu and Gong 2021][research_liu_gong_2021]] [[Liu et al 2025][research_liu_li_2025]] [[Luoma, Avro A 1944][research_luomaavroa_1944]] [[Marchman, Iii and Grantz 1982][research_marchmaniii_grantz_1982]] [[Masunaga and Bueno 2019][research_masunaga_bueno_2019]] [[Mayya et al 2023][research_mayya_srivastava_2023]] [[Melton et al 2005][research_melton_schaeffler_2005]] [[Meng et al 2024][research_meng_hu_2024]] [[Mertins et al 2005][research_mertins_elsholz_2005]] [[Miller et al 2014][research_miller_holguin_2014]] [[Mitchell and Hoh 1984][research_mitchell_hoh_1984]] [[Mohamed et al 2021][research_mohamed_abdelhady_2021]] [[Montgomery 1971][research_montgomery_1971]] [[Mulder et al 2009][research_mulder_lubbers_2009]] [[Nadimi 1999][research_nadimi_1999]] [[Nurohman et al 2018][research_nurohman_arifianto_2018]] [[O'Donnell and Mohseni 2019][research_odonnell_mohseni_2019]] [[Pan and Huang 2019][research_pan_huang_2019]] [[Park and Abla 1982][research_park_abla_1982]] [[Park and Abla 1983][research_park_abla_1983]] [[Park and Chung 2012][research_park_chung_2012]] [[Park et al 2001][research_park_lee_2001]] [[Parker et al 1991][research_parker_spain_1991]] [[Patidar et al 2025][research_patidar_sarwar_2025]] [[Pavlenko and Reslan 2022][research_pavlenko_reslan_2022]] [[Pedreiro et al 1998][research_pedreiro_takahara_1998]] [[Pedreiro et al 1999][research_pedreiro_takahara_1999]] [[Perez-Becker et al 2021][research_perezbecker_marten_2021]] [[Pettit and Grandhi 2003][research_pettit_grandhi_2003]] [[Pitt Ford et al 2012][research_pittford_stevens_2012]] [[Poojari 2022][research_poojari_2022]] [[Potvin and Grant 2026][research_potvin_grant_2026]] [[Psolla-Bress et al][research_psollabress_haselmeyer]] [[Purser, P. E. and Tucker, W. A. 1949][research_purserpe_tuckerwa_1949]] [[Purwadi et al 2023][research_purwadi_hidayat_2023]] [[Qiu and Ang 2019][research_qiu_ang_2019]] [[Ratliff and Pagilla 2008][research_ratliff_pagilla_2008]] [[Rennie and Jumper 1995][research_rennie_jumper_1995]] [[Rennie and Jumper 1997][research_rennie_jumper_1997]] [[Ricci and Scotti 2009][research_ricci_scotti_2009]] [[Roysdon and Khalid 2010][research_roysdon_khalid_2010]] [[Roysdon and Khalid 2011][research_roysdon_khalid_2011]] [[Sahoo and Cesnik 2002][research_sahoo_cesnik_2002]] [[Sainio and Krandel 1993][research_sainio_krandel_1993]] [[Sanghi et al 2020][research_sanghi_riso_2020]] [[Sanghi et al 2024][research_sanghi_cesnik_2024]] [[Sardahi and Kolonay 2021][research_sardahi_kolonay_2021]] [[Sarvankar et al 2023][research_sarvankar_sarkar_2023]] [[Sarvankar et al 2024][research_sarvankar_sarkar_2024]] [[Sattar et al 2020][research_sattar_wang_2020]] [[Sebastia and Hornung 2023][research_sebastia_hornung_2023]] [[Sebastia et al 2024][research_sebastia_wurz_2024]] [[Segawa and Gopalarathnam 2008][research_segawa_gopalarathnam_2008]] [[Shao et al 2024][research_shao_guo_2024]] [[Shearwood et al 2023][research_shearwood_nabawy_2023]] [[Shmilovich et al 2023][research_shmilovich_yadlin_2023]] [[Shmilovich et al 2026][research_shmilovich_yadlin_2026]] [[Sieradzki 2016][research_sieradzki_2016]] [[Sigrest et al 2022][research_sigrest_wu_2022]] [[Simsek and Tekinalp 2015][research_simsek_tekinalp_2015]] [[Singh et al 2024][research_singh_kumari_2024]] [[Sinha and Ananthkrishnan 2002][research_sinha_ananthkrishnan_2002]] [[Sohn et al 2006][research_sohn_chung_2006]] [[Sohn et al 2007][research_sohn_chung_2007]] [[Soinne 1999][research_soinne_1999]] [[Solarte-Pineda et al 2026][research_solartepineda_bravomosquera_2026]] [[Song et al 2014][research_song_yang_2014]] [[Song et al 2025][research_song_zhang_2025]] [[Soovere 1981][research_soovere_1981]] [[Sreenivasulu et al 2025][research_sreenivasulu_neelapu_2025]] [[Steer 2003][research_steer_2003]] [[Steger and Bailey 1979][research_steger_bailey_1979]] [[Steger and Bailey 1980][research_steger_bailey_1980]] [[Strand and Ennis 2012][research_strand_ennis_2012]] [[Strelkov and Kharlamov 1967][research_strelkov_kharlamov_1967]] [[Suleman et al 2000][research_suleman_crawford_2000]] [[Suleman et al 2002][research_suleman_crawford_2002]] [[Sun and Hu 2005][research_sun_hu_2005]] [[Sun et al 2021][research_sun_zhou_2021]] [[Tai et al 2023][research_tai_wang_2023_b]] [[Tamayama et al 2003][research_tamayama_kheirandish_2003]] [[Taraborrelli 2023][research_taraborrelli_2023]] [[The Effects of Leading 2007][research_the_effects_2007]] [[Tischler and Hoh 1982][research_tischler_hoh_1982]] [[Triplett and Ising 1971][research_triplett_ising_1971]] [[Veley et al 2008][research_veley_khot_2008]] [[Walker and Aglietti 2007][research_walker_aglietti_2007]] [[Wang et al 2021][research_wang_wu_2021]] [[Wang et al 2022][research_wang_zhao_2022]] [[Wei et al 2022][research_wei_lin_2022]] [[Weiss 1983][research_weiss_1983]] [[Weisshaar 1977][research_weisshaar_1977]] [[Weisshaar 1990][research_weisshaar_1990]] [[Weisshaar 1994][research_weisshaar_1994]] [[Wilson et al 1993][research_wilson_riley_1993]] [[Wolfson 2009][research_wolfson_2009]] [[Xie et al 2019][research_xie_zhao_2019]] [[Xu and Qiu 2011][research_xu_qiu_2011]] [[Xu et al 2020][research_xu_han_2020]] [[Yanagihara et al 1991][research_yanagihara_suzuki_1991]] [[Yang et al 2023][research_yang_liu_2023]] [[Yerly et al 2016][research_yerly_deluca_2016]] [[Yuan et al 2023][research_yuan_ma_2023]] [[Zanette and Almeida 2015][research_zanette_almeida_2015]] [[Zhang and Zhang 2013][research_zhang_zhang_2013]] [[Zhang et al 2013][research_zhang_yu_2013]] [[Zhang et al 2017][research_zhang_wang_2017]] [[Zhang et al 2022][research_zhang_liu_2022]] [[Zhang et al 2024][research_zhang_zhao_2024]] [[Zhao et al 2020][research_zhao_he_2020]]
+**287 records.** [[ACM produces 737 aileron 2005][research_acm_produces_2005]] [[Adnyana 2017][research_adnyana_2017]] [[Aileron 2005][research_aileron_2005]] [[Air Force Test Pilot School Edwards Afb Ca 1989][research_airforcetestpilotschooledwardsafbca_1989]] [[Aircraft lateral-directional handling qualities 2011][research_aircraft_lateral_directional_2011]] [[Alam and Sohn 2023][research_alam_sohn_2023]] [[Albertani et al 2005][research_albertani_stanford_2005]] [[Ali and Elkhamry 2024][research_ali_elkhamry_2024]] [[Alighanbari 2002][research_alighanbari_2002]] [[Altman 1952][research_altman_1952]] [[Anderson 1984][research_anderson_1984]] [[Anderson 1985][research_anderson_1985]] [[Ansell et al 2010][research_ansell_bragg_2010]] [[Ansell et al 2011][research_ansell_bragg_2011]] [[Ansell et al 2011][research_ansell_bragg_2011_b]] [[Ansell et al 2013][research_ansell_kerho_2013]] [[Ansell et al 2014][research_ansell_kerho_2014]] [[Antonakis 2025][research_antonakis_2025]] [[Asaro et al 2025][research_asaro_atmaca_2025]] [[Ashkenas 1965][research_ashkenas_1965]] [[Atkinson 2016][research_atkinson_2016]] [[Avci et al 2026][research_avci_tegin_2026]] [[Ball 1978][research_ball_1978]] [[Ball 1979][research_ball_1979]] [[Bamber, Millard J 1934][research_bambermillardj_1934]] [[Bendiksen 1993][research_bendiksen_1993]] [[Bluman and Gandhi 2011][research_bluman_gandhi_2011]] [[Bogatyrev 2017][research_bogatyrev_2017]] [[Boothe et al 1974][research_boothe_chen_1974]] [[Braun et al][research_braun_boucke]] [[Breul 1963][research_breul_1963]] [[Brewer, Gerald W. 1946][research_brewergeraldw_1946]] [[Brincklow and Hunsaker 2021][research_brincklow_hunsaker_2021]] [[Brown, Jr. 1970][research_brownjr_1970]] [[Bruno Santos et al 2020][research_brunosantos_oliveira_2020]] [[Burt Jr 1976][research_burtjr_1976]] [[Carlsson and Cronander 2005][research_carlsson_cronander_2005]] [[Carruthers et al 2007][research_carruthers_taylor_2007]] [[Cartwright 2010][research_cartwright_2010]] [[Celi 1991][research_celi_1991]] [[Cesnik and Brown 2002][research_cesnik_brown_2002]] [[Chand and Hansen][research_chand_hansen]] [[Chandrasekharan et al 2015][research_chandrasekharan_iarocci_2015]] [[Charles et al 1996][research_charles_hassan_1996]] [[Chen and Liu 2014][research_chen_liu_2014]] [[Chen et al 2026][research_chen_cai_2026]] [[Chen et al 2026][research_chen_gray_2026]] [[Cheng et al 1987][research_cheng_edwards_1987]] [[Covell et al 1986][research_covell_miller_1986]] [[Cronander and Ringertz 2000][research_cronander_ringertz_2000]] [[Dai et al 2022][research_dai_qiu_2022]] [[Darling and Hickson 1998][research_darling_hickson_1998]] [[Davis][research_davis]] [[De Voogt and Ganapathisubramani 2022][research_devoogt_ganapathisubramani_2022]] [[Deere et al 2011][research_deere_pao_2011]] [[Deng and Gursul 1996][research_deng_gursul_1996]] [[Deng et al 1997][research_deng_gursul_1997]] [[Dieterich et al 2006][research_dieterich_enenkl_2006]] [[Dixon 1972][research_dixon_1972]] [[Duffy 1989][research_duffy_1989]] [[Duling et al 2010][research_duling_gandhi_2010]] [[Duncan 1950][research_duncan_1950]] [[Dynamic Lateral-Directional Stability Theory 2003][research_dynamic_lateral_directional_2003]] [[Fazelzadeh et al 2016][research_fazelzadeh_ghasemi_2016]] [[Ferrara 2025][research_ferrara_2025]] [[Gandhi and Bluman 2009][research_gandhi_bluman_2009]] [[Gandhi et al 2014][research_gandhi_duling_2014]] [[Gerontakos and Lee 2006][research_gerontakos_lee_2006]] [[Gerontakos and Lee 2007][research_gerontakos_lee_2007]] [[Gerontakos and Lee 2008][research_gerontakos_lee_2008]] [[Ghalandari et al 2022][research_ghalandari_mahariq_2022]] [[Ghorawat et al 2016][research_ghorawat_lee_2016_b]] [[Gomec et al 2020][research_gomec_unver_2020]] [[Gomec et al 2020][research_gomec_unver_2020_b]] [[Gordnier 1993][research_gordnier_1993]] [[Grant et al 1989][research_grant_nelson_1989]] [[Grantz 1985][research_grantz_1985]] [[Grantz and Marchman 1983][research_grantz_marchman_1983]] [[Greer et al 2021][research_greer_sardahi_2021]] [[Grismer et al 2000][research_grismer_kinsey_2000]] [[Gross et al 1986][research_gross_chandler_1986]] [[Grove 2006][research_grove_2006]] [[Guerreiro and Hubbard 2008][research_guerreiro_hubbard_2008]] [[Gurbacki and Bragg 1999][research_gurbacki_bragg_1999]] [[Gurbacki and Bragg 2001][research_gurbacki_bragg_2001]] [[Halim 1989][research_halim_1989]] [[Hall and Mason 2012][research_hall_mason_2012]] [[Harper and Robert P. 1955][research_harper_robertp_1955]] [[Hassan, A. A. et al 1992][research_hassanaa_charlesbd_1992]] [[Hassan, Ahmed A. et al 1994][research_hassanahmeda_sankarln_1994]] [[Haucke et al 2016][research_haucke_bauer_2016]] [[He et al 2020][research_he_song_2020]] [[He et al 2020][research_he_deparday_2020]] [[He et al 2021][research_he_wang_2021]] [[Hernandez et al 1989][research_hernandez_wood_1989]] [[Hernandez et al 1990][research_hernandez_wood_1990]] [[Hodapp, Jr. and Beckmann 1972][research_hodappjr_beckmann_1972]] [[Hopkins, E. J. and Lovette, G. H. 1977][research_hopkinsej_lovettegh_1977]] [[Hussein 2023][research_hussein_2023]] [[Hwang et al 1991][research_hwang_chen_1991]] [[Initial flight test of 1989][research_initial_flight_1989]] [[Innocenti 1985][research_innocenti_1985]] [[Irfan et al 2026][research_irfan_nanangburhan_2026]] [[Ishide and Itazawa 2017][research_ishide_itazawa_2017]] [[Izadi et al 2007][research_izadi_pakmehr_2007]] [[Ize and Arena 1998][research_ize_arena_1998]] [[Ize and Arena, Jr. 1999][research_ize_arenajr_1999]] [[Ize et al 1997][research_ize_arenajr_1997]] [[Jabbar et al 2026][research_jabbar_setiawan_2026]] [[Jacobs, P. F. 1983][research_jacobspf_1983]] [[Jaworski 2012][research_jaworski_2012]] [[Jepson and Gopalarathnam 2005][research_jepson_gopalarathnam_2005]] [[Jiang 1999][research_jiang_1999]] [[Jiang et al 2000][research_jiang_an_2000]] [[Karagounis et al 1989][research_karagounis_maxworthy_1989]] [[Karpouzian and Librescu 1992][research_karpouzian_librescu_1992]] [[Kassapakis and Warwick 1994][research_kassapakis_warwick_1994]] [[Keçecioğlu and Salih Yiğit 2026][research_kececioglu_salihyigit_2026]] [[Khot 1999][research_khot_1999]] [[Khot et al 1998][research_khot_appa_1998]] [[Khot et al 1998][research_khot_appa_1998_b]] [[Khot et al 2000][research_khot_zweber_2000]] [[Khot et al 2000][research_khot_appa_2000]] [[Klim et al 2013][research_klim_zeppetelli_2013]] [[Klyde et al 2007][research_klyde_bachelder_2007]] [[Kowalska and Goetzendorf-Grabowski 2022][research_kowalska_goetzendorfgrabowski_2022]] [[Kumar et al 2021][research_kumar_sunil_2021]] [[Kuo and Hsu 1997][research_kuo_hsu_1997]] [[Kwak et al 2004][research_kwak_shirotake_2004]] [[Kwong et al 2024][research_kwong_severson_2024]] [[Lackner and van Kuik 2009][research_lackner_vankuik_2009]] [[Landers and Landrum 1998][research_landers_landrum_1998]] [[Landers et al 1997][research_landers_landrum_1997]] [[Lateral-Directional Stability Theory and 2003][research_lateral_directional_stability_2003]] [[Lauchle 1974][research_lauchle_1974]] [[Laurie and Farokhi 1993][research_laurie_farokhi_1993]] [[Lee and Gerontakos 2009][research_lee_gerontakos_2009]] [[Lee and Singh 2013][research_lee_singh_2013]] [[Lee and Su 2012][research_lee_su_2012]] [[Lei and Kwak 2005][research_lei_kwak_2005]] [[Levy 1992][research_levy_1992]] [[Li 2026][research_li_2026]] [[Li et al 1999][research_li_zhu_1999]] [[Lim and Lee 2009][research_lim_lee_2009]] [[Lim and Lee 2009][research_lim_lee_2009_b]] [[Liu and Gong 2021][research_liu_gong_2021]] [[Liu et al 2025][research_liu_li_2025]] [[Low Reynolds Number Aerodynamics 2008][research_low_reynolds_2008]] [[Lubis et al 2026][research_lubis_ellyawansetyoarbintarso_2026]] [[Luoma, Avro A 1944][research_luomaavroa_1944]] [[Marchman 1981][research_marchman_1981]] [[Marchman, Iii and Grantz 1982][research_marchmaniii_grantz_1982]] [[Masunaga and Bueno 2019][research_masunaga_bueno_2019]] [[Mayya et al 2023][research_mayya_srivastava_2023]] [[Melton et al 2005][research_melton_schaeffler_2005]] [[Meng et al 2024][research_meng_hu_2024]] [[Mertins et al 2005][research_mertins_elsholz_2005]] [[Miller et al 2014][research_miller_holguin_2014]] [[Mitchell and Hoh 1984][research_mitchell_hoh_1984]] [[Mohamed et al 2021][research_mohamed_abdelhady_2021]] [[Montgomery 1971][research_montgomery_1971]] [[Mulder et al 2009][research_mulder_lubbers_2009]] [[Murray, Harry E. and Erwin, Mary A. 1945][research_murrayharrye_erwinmarya_1945]] [[Nadimi 1999][research_nadimi_1999]] [[Nastase 2012][research_nastase_2012]] [[Nath Dubba 2021][research_nathdubba_2021]] [[Nurohman et al 2018][research_nurohman_arifianto_2018]] [[O'Donnell and Mohseni 2019][research_odonnell_mohseni_2019]] [[Oh and Tavella 1987][research_oh_tavella_1987]] [[Pan and Huang 2019][research_pan_huang_2019]] [[Park and Abla 1982][research_park_abla_1982]] [[Park and Abla 1983][research_park_abla_1983]] [[Park and Chung 2012][research_park_chung_2012]] [[Park et al 2001][research_park_lee_2001]] [[Parker et al 1991][research_parker_spain_1991]] [[Patidar et al 2025][research_patidar_sarwar_2025]] [[Pavlenko and Reslan 2022][research_pavlenko_reslan_2022]] [[Pedreiro et al 1998][research_pedreiro_takahara_1998]] [[Pedreiro et al 1999][research_pedreiro_takahara_1999]] [[Perez-Becker et al 2021][research_perezbecker_marten_2021]] [[Perry and Mueller 1986][research_perry_mueller_1986]] [[Perry and Mueller 1987][research_perry_mueller_1987]] [[Pettit and Grandhi 2003][research_pettit_grandhi_2003]] [[Phillips et al 2025][research_phillips_haughn_2025]] [[Pitt Ford et al 2012][research_pittford_stevens_2012]] [[Poojari 2022][research_poojari_2022]] [[Potvin and Grant 2026][research_potvin_grant_2026]] [[Psolla-Bress et al][research_psollabress_haselmeyer]] [[Purser, P. E. and Tucker, W. A. 1949][research_purserpe_tuckerwa_1949]] [[Purser, Paul E. and Gillis, Clarence L. 1943][research_purserpaule_gillisclarencel_1943]] [[Purser, Paul E. and Mckinney, Elizabeth G. 1945][research_purserpaule_mckinneyelizabethg_1945]] [[Purwadi et al 2023][research_purwadi_hidayat_2023]] [[Qiu and Ang 2019][research_qiu_ang_2019]] [[Rao, D. M. 1984][research_raodm_1984]] [[Ratliff and Pagilla 2008][research_ratliff_pagilla_2008]] [[Rennie and Jumper 1995][research_rennie_jumper_1995]] [[Rennie and Jumper 1997][research_rennie_jumper_1997]] [[Ricci and Scotti 2009][research_ricci_scotti_2009]] [[Rinoie et al 2006][research_rinoie_shirotake_2006]] [[Roysdon and Khalid 2010][research_roysdon_khalid_2010]] [[Roysdon and Khalid 2011][research_roysdon_khalid_2011]] [[Sahoo and Cesnik 2002][research_sahoo_cesnik_2002]] [[Sainio and Krandel 1993][research_sainio_krandel_1993]] [[Sanghi et al 2020][research_sanghi_riso_2020]] [[Sanghi et al 2024][research_sanghi_cesnik_2024]] [[Sardahi and Kolonay 2021][research_sardahi_kolonay_2021]] [[Sarvankar et al 2023][research_sarvankar_sarkar_2023]] [[Sarvankar et al 2024][research_sarvankar_sarkar_2024]] [[Sattar et al 2020][research_sattar_wang_2020]] [[Sebastia and Hornung 2023][research_sebastia_hornung_2023]] [[Sebastia et al 2024][research_sebastia_wurz_2024]] [[Segawa and Gopalarathnam 2008][research_segawa_gopalarathnam_2008]] [[Shao et al 2024][research_shao_guo_2024]] [[Shearwood et al 2023][research_shearwood_nabawy_2023]] [[Shen and Chopra 2000][research_shen_chopra_2000]] [[Shen and Chopra 2004][research_shen_chopra_2004]] [[Shmilovich et al 2023][research_shmilovich_yadlin_2023]] [[Shmilovich et al 2026][research_shmilovich_yadlin_2026]] [[Sieradzki 2016][research_sieradzki_2016]] [[Sigrest et al 2022][research_sigrest_wu_2022]] [[Silton and Coyle 2016][research_silton_coyle_2016]] [[Simsek and Tekinalp 2015][research_simsek_tekinalp_2015]] [[Singh et al 2024][research_singh_kumari_2024]] [[Sinha and Ananthkrishnan 2002][research_sinha_ananthkrishnan_2002]] [[Sohn et al 2006][research_sohn_chung_2006]] [[Sohn et al 2007][research_sohn_chung_2007]] [[Soinne 1999][research_soinne_1999]] [[Solarte-Pineda et al 2026][research_solartepineda_bravomosquera_2026]] [[Song et al 2014][research_song_yang_2014]] [[Song et al 2025][research_song_zhang_2025]] [[Soovere 1981][research_soovere_1981]] [[Sreenivasulu et al 2025][research_sreenivasulu_neelapu_2025]] [[Steer 2003][research_steer_2003]] [[Steger and Bailey 1979][research_steger_bailey_1979]] [[Steger and Bailey 1980][research_steger_bailey_1980]] [[Strand and Ennis 2012][research_strand_ennis_2012]] [[Straub and Charles 2001][research_straub_charles_2001]] [[Straub et al 1996][research_straub_chopra_1996]] [[Strelkov and Kharlamov 1967][research_strelkov_kharlamov_1967]] [[Suleman et al 2000][research_suleman_crawford_2000]] [[Suleman et al 2002][research_suleman_crawford_2002]] [[Sun and Hu 2005][research_sun_hu_2005]] [[Sun et al 2021][research_sun_zhou_2021]] [[Tai et al 2023][research_tai_wang_2023_b]] [[Tamayama et al 2003][research_tamayama_kheirandish_2003]] [[Taraborrelli 2023][research_taraborrelli_2023]] [[The Effects of Leading 2007][research_the_effects_2007]] [[Thomas A Harris 1935][research_thomasaharris_1935]] [[Tischler and Hoh 1982][research_tischler_hoh_1982]] [[Toyoda et al 2015][research_toyoda_kwak_2015]] [[Traub and Kadapala 2010][research_traub_kadapala_2010]] [[Traub et al 2006][research_traub_lund_2006]] [[Tremblay-Dionne and Lee 2018][research_tremblaydionne_lee_2018]] [[Triplett and Ising 1971][research_triplett_ising_1971]] [[Utaka 2004][research_utaka_2004]] [[Veley et al 2008][research_veley_khot_2008]] [[Visconti et al 2018][research_visconti_eun_2018]] [[Walker and Aglietti 2007][research_walker_aglietti_2007]] [[Wang et al 2012][research_wang_behal_2012]] [[Wang et al 2021][research_wang_wu_2021]] [[Wang et al 2022][research_wang_zhao_2022]] [[Ward and Stout 1986][research_ward_stout_1986]] [[Wei et al 2022][research_wei_lin_2022]] [[Weiss 1983][research_weiss_1983]] [[Weisshaar 1977][research_weisshaar_1977]] [[Weisshaar 1990][research_weisshaar_1990]] [[Weisshaar 1994][research_weisshaar_1994]] [[Wilson et al 1993][research_wilson_riley_1993]] [[Wing trailing edge flap 1991][research_wing_trailing_1991]] [[Wolfson 2009][research_wolfson_2009]] [[Xie et al 2019][research_xie_zhao_2019]] [[Xing and Xu 2022][research_xing_xu_2022]] [[Xu and Qiu 2011][research_xu_qiu_2011]] [[Xu et al 2020][research_xu_han_2020]] [[Yanagihara et al 1991][research_yanagihara_suzuki_1991]] [[Yang et al 2023][research_yang_liu_2023]] [[Yerly et al 2016][research_yerly_deluca_2016]] [[Yillikci et al 2005][research_yillikci_yilmaz_2005]] [[Yuan et al 2023][research_yuan_ma_2023]] [[Zanette and Almeida 2015][research_zanette_almeida_2015]] [[Zhang and Zhang 2013][research_zhang_zhang_2013]] [[Zhang et al 2013][research_zhang_yu_2013]] [[Zhang et al 2017][research_zhang_wang_2017]] [[Zhang et al 2019][research_zhang_liu_2019]] [[Zhang et al 2022][research_zhang_liu_2022]] [[Zhang et al 2024][research_zhang_zhao_2024]] [[Zhao et al 2020][research_zhao_he_2020]]
+
+### Static aeroelasticity, twist and divergence
+
+**The physics the aeroplane was named for.** Elastic axis, torsional stiffness, wing twist and divergence. **A trailing-edge surface twists the wing against itself and a leading-edge surface twists it with itself**, and everything the X-53 did follows from that one asymmetry.
+
+**260 records.** [[Abel 1972][research_abel_1972]] [[Adali 1981][research_adali_1981]] [[Agostinelli and Allen 2012][research_agostinelli_allen_2012]] [[Ahmad and Gazetas 1992][research_ahmad_gazetas_1992]] [[Akasaka et al 1989][research_akasaka_katoh_1989]] [[Amoozgar and Irani 2012][research_amoozgar_irani_2012]] [[Arai and Tanaka 2020][research_arai_tanaka_2020]] [[Arizono and Cesnik 2013][research_arizono_cesnik_2013]] [[Arnold 1942][research_arnold_1942]] [[Azizov et al 2019][research_azizov_derkowski_2019]] [[Balakrishnan 2006][research_balakrishnan_2006]] [[Balakrishnan 2007][research_balakrishnan_2007]] [[Balakrishnan and Iliff 2007][research_balakrishnan_iliff_2007]] [[Banerjee and Williams 1992][research_banerjee_williams_1992]] [[Baz and Chen 1993][research_baz_chen_1993]] [[Bdeiwi et al 2019][research_bdeiwi_ciarella_2019]] [[Belote and Menezes 2019][research_belote_menezes_2019]] [[Berci 2017][research_berci_2017]] [[Bernhard and Chopra 1996][research_bernhard_chopra_1996]] [[Bernhard and Chopra 1997][research_bernhard_chopra_1997]] [[Bhat 2018][research_bhat_2018]] [[Blair and Weisshaar 1982][research_blair_weisshaar_1982]] [[Boehm et al 2001][research_boehm_flick_2001]] [[Bohlmann et al 1990][research_bohlmann_eckstrom_1990]] [[Brincklow et al 2021][research_brincklow_montgomery_2021]] [[Brown, Stuart C. 1959][research_brownstuartc_1959]] [[Bugała 2025][research_bugala_2025]] [[Bugała et al 2023][research_bugala_sznajder_2023]] [[Bureerat 2026][research_bureerat_2026]] [[Burner and Martinson 1996][research_burner_martinson_1996]] [[Burner et al 2000][research_burner_liu_2000]] [[Burner, Alpheus W. et al 2005][research_burneralpheusw_lokoswilliama_2005]] [[Byun and Guruswamy 1996][research_byun_guruswamy_1996]] [[Castellani et al 2016][research_castellani_cooper_2016]] [[Castellani et al 2017][research_castellani_cooper_2017]] [[Cavin and Holyoak 1978][research_cavin_holyoak_1978]] [[Cestino and Iannuzzo 2026][research_cestino_iannuzzo_2026]] [[Chang 2005][research_chang_2005]] [[Chapman 1969][research_chapman_1969]] [[Charts for the determination of wing torsional stiffness required for specified rolling characteristics][research_charts_torsional_stiffness]] [[Cheng 1961][research_cheng_1961]] [[Cheng et al 2023][research_cheng_shi_2023]] [[Cheung et al 2023][research_cheung_palles_2023]] [[Chipman et al 1982][research_chipman_zislin_1982]] [[Chipman et al 1983][research_chipman_zislin_1983]] [[Costa and Vilela 2014][research_costa_vilela_2014]] [[Crawley et al 1995][research_crawley_curtiss_1995]] [[Cunningham 2017][research_cunningham_2017]] [[Daneshmehr et al 2013][research_daneshmehr_inman_2013]] [[Daynes et al 2015][research_daynes_lachenal_2015]] [[de Melo et al 2024][research_demelo_bussamra_2024]] [[Dixon 1963][research_dixon_1963]] [[Djojodihardjo 2023][research_djojodihardjo_2023_b]] [[Dooley 1965][research_dooley_1965]] [[Dowell 2021][research_dowell_2021]] [[Dowell et al 1989][research_dowell_curtiss_1989]] [[Du Peloux De Saint Romain][research_dupelouxdesaintromain]] [[Dubigeon 1992][research_dubigeon_1992]] [[Dumpleton 1987][research_dumpleton_1987]] [[Ecsedi 2000][research_ecsedi_2000]] [[Edwards 1992][research_edwards_1992]] [[Effective Torsional Stiffness of 1976][research_effective_torsional_1976]] [[Ehlers and Weisshaar 1992][research_ehlers_weisshaar_1992]] [[Ehlers and Weisshaar 1993][research_ehlers_weisshaar_1993]] [[Ehlers and Weisshaar 1993][research_ehlers_weisshaar_1993_b]] [[Elastic Torsional Stiffness of 1965][research_elastic_torsional_1965]] [[Ellers and Boggs 2003][research_ellers_boggs_2003]] [[Engel and Miller][research_engel_miller]] [[Eslimy-Isfahany and Banerjee 1995][research_eslimyisfahany_banerjee_1995]] [[Eslimy-Isfahany et al 1996][research_eslimyisfahany_banerjee_1996]] [[Etnier 2001][research_etnier_2001]] [[Ezawa et al 2024][research_ezawa_nakatsugawa_2024]] [[Fang and Yang 2025][research_fang_yang_2025]] [[Fang et al 2025][research_fang_wang_2025]] [[Felker 1992][research_felker_1992]] [[Felker 1993][research_felker_1993]] [[Forster et al 2002][research_forster_sanders_2002]] [[Galloping and Torsional Divergence 2019][research_galloping_and_2019]] [[Garcia and Guruswamy 1999][research_garcia_guruswamy_1999]] [[Garud and Ajluni 2024][research_garud_ajluni_2024]] [[Gilbert and Silva 1987][research_gilbert_silva_1987]] [[Gimmestad 1981][research_gimmestad_1981_b]] [[Gowtham et al 2023][research_gowtham_baashkaran_2023]] [[Griffin and Eastep 1981][research_griffin_eastep_1981]] [[Gross 2002][research_gross_2002]] [[Guangming and Zhengfeng 2009][research_guangming_zhengfeng_2009]] [[Gunasekaran and Mukherjee 2016][research_gunasekaran_mukherjee_2016]] [[Guo et al 2018][research_guo_shen_2018]] [[Guo et al 2022][research_guo_yan_2022]] [[Haas and Chopra 1988][research_haas_chopra_1988]] [[Hahn and Haupt 2022][research_hahn_haupt_2022]] [[Hancock 1961][research_hancock_1961]] [[Hancock 1963][research_hancock_1963]] [[Hancock 1965][research_hancock_1965]] [[Harash et al 2012][research_harash_yadykin_2012]] [[Hatami-Marbini 2018][research_hatamimarbini_2018]] [[Herrmann][research_herrmann]] [[Herrmann and Nemat-Nasser 1966][research_herrmann_nematnasser_1966]] [[Hodges 2007][research_hodges_2007]] [[Hou and Satyanarayana 2000][research_hou_satyanarayana_2000]] [[Hoult and Beyer 2020][research_hoult_beyer_2020]] [[How to Model Post-Cracking 2020][research_how_to_2020]] [[Humbad 1978][research_humbad_1978]] [[Huo et al 2013][research_huo_yuan_2013]] [[Huo et al 2013][research_huo_wang_2013]] [[Hwu and Tsai 2002][research_hwu_tsai_2002]] [[Ibrahim and Castravete 2005][research_ibrahim_castravete_2005]] [[Investigations of Static Aeroelasticity 2016][research_investigations_of_static_2016]] [[J and J 2015][research_j_j_2015]] [[Jain 2014][research_jain_2014]] [[Johns 1964][research_johns_1964]] [[Jovanov and De Breuker 2015][research_jovanov_debreuker_2015]] [[K. Badri and Torabpour 2025][research_kbadri_torabpour_2025]] [[K. Badri and Torabpour 2026][research_kbadri_torabpour_2026]] [[Kadrnka and Hawley 1993][research_kadrnka_hawley_1993]] [[Kafkas and Lampeas 2020][research_kafkas_lampeas_2020]] [[Karathanasopoulos 2015][research_karathanasopoulos_2015]] [[Karpouzian 1991][research_karpouzian_1991]] [[Kawakami et al 2007][research_kawakami_takatoya_2007]] [[Kawakami et al 2008][research_kawakami_takatoya_2008]] [[Kaza and Kielb 1982][research_kaza_kielb_1982]] [[Khot et al 1997][research_khot_eastep_1997]] [[Kilimtzidis and Kostopoulos 2023][research_kilimtzidis_kostopoulos_2023]] [[Kim et al 2023][research_kim_sung_2023]] [[Kimler and Canfield 2006][research_kimler_canfield_2006]] [[Klaue and Seidel 2009][research_klaue_seidel_2009]] [[Lee et al 1994][research_lee_kim_1994]] [[Lei et al 2020][research_lei_wang_2020]] [[Li et al 2020][research_li_yang_2020]] [[Li et al 2021][research_li_wang_2021]] [[Li et al 2023][research_li_luo_2023]] [[Li et al 2024][research_li_zhang_2024]] [[Li et al 2024][research_li_zhiqiang_2024]] [[Li et al 2024][research_li_qian_2024]] [[Li et al 2024][research_li_kou_2024]] [[Li et al 2025][research_li_li_2025]] [[Li et al 2026][research_li_zhang_2026]] [[Liang et al 2025][research_liang_chen_2025]] [[Liang et al 2026][research_liang_chen_2026]] [[Librescu and Simovich 1988][research_librescu_simovich_1988]] [[Librescu and Song 1992][research_librescu_song_1992]] [[Librescu and Thangjitham 1989][research_librescu_thangjitham_1989]] [[Librescu and Thangjitham 1991][research_librescu_thangjitham_1991]] [[Liu et al 2011][research_liu_yin_2011]] [[Liu et al 2013][research_liu_bai_2013]] [[Liu et al 2017][research_liu_bai_2017]] [[Lokos et al 2002][research_lokos_olney_2002]] [[Lottati 1985][research_lottati_1985]] [[Low et al 2016][research_low_pheh_2016]] [[Macek et al 2021][research_macek_branco_2021]] [[Macek et al 2021][research_macek_marciniak_2021]] [[Machado-e-Costa et al 2016][research_machadoecosta_valarinho_2016]] [[Mao et al 2023][research_mao_guo_2023]] [[Matter et al 2018][research_matter_darabseh_2018]] [[Meng et al 2020][research_meng_kaihua_2020]] [[Meresman and Ribak 2017][research_meresman_ribak_2017]] [[Merrett and Hilton 2011][research_merrett_hilton_2011]] [[Merrett et al 2011][research_merrett_hilton_2011_b]] [[Micks 1950][research_micks_1950]] [[Miniature slide units offer 2002][research_miniature_slide_2002]] [[Muscati and Grootenhuis 1975][research_muscati_grootenhuis_1975]] [[Nair and Goza 2022][research_nair_goza_2022]] [[Newsome et al 1998][research_newsome_berkooz_1998]] [[Niblett 1986][research_niblett_1986]] [[Noh et al 2025][research_noh_andreu_2025]] [[On selection of the 1972][research_on_selection_1972]] [[Pavanasam et al 2024][research_pavanasam_anil_2024]] [[Pecora et al 2012][research_pecora_amoroso_2012]] [[Phillips et al 2022][research_phillips_white_2022]] [[Price et al 2002][research_price_koffi_2002]] [[Qiao et al 2018][research_qiao_zhou_2018]] [[Qiao et al 2019][research_qiao_zhou_2019]] [[Qiao et al 2025][research_qiao_wang_2025]] [[Qin and Zhang 2013][research_qin_zhang_2013]] [[Ramlal et al 2025][research_ramlal_desai_2025]] [[Raoof and Kraincanic 1998][research_raoof_kraincanic_1998]] [[Reinbold et al 2026][research_reinbold_breitsamter_2026]] [[Revivo and Raveh 2025][research_revivo_raveh_2025]] [[Rimer et al 1984][research_rimer_chipman_1984_b]] [[Rodden 1981][research_rodden_1981]] [[Rodden 1984][research_rodden_1984]] [[Rodden 1989][research_rodden_1989]] [[Rodden and Bellinger 1982][research_rodden_bellinger_1982]] [[Rodden and Love 1984][research_rodden_love_1984]] [[Rodden and Love 1985][research_rodden_love_1985]] [[Rosenberg 1944][research_rosenberg_1944]] [[Sacchi et al 2025][research_sacchi_healy_2025]] [[Sampo' et al 2010][research_sampo_sorniotti_2010]] [[Schmidt 1991][research_schmidt_1991]] [[Scholes and Slater 1970][research_scholes_slater_1970]] [[Schuster et al 1990][research_schuster_vadyak_1990]] [[Selvadurai 1984][research_selvadurai_1984]] [[Shavezipur 2021][research_shavezipur_2021]] [[Shen et al 2019][research_shen_branscomb_2019]] [[Shen et al 2024][research_shen_li_2024]] [[Shipley and Gopalarathnam 2006][research_shipley_gopalarathnam_2006]] [[Shu-yi et al 2010][research_shuyi_xin_2010]] [[Shubin 1995][research_shubin_1995]] [[Song et al 1992][research_song_librescu_1992]] [[Static Aeroelastic Considerations 1996][research_static_aeroelastic_1996]] [[Static Aeroelasticity 2002][research_static_aeroelasticity_2002]] [[Static Aeroelasticity 2005][research_static_aeroelasticity_2005]] [[Static Aeroelasticity 2011][research_static_aeroelasticity_2011]] [[Static Aeroelasticity and Flutter 2014][research_static_aeroelasticity_2014_c]] [[Static Aeroelasticity Effect 2014][research_static_aeroelasticity_2014]] [[Static Aeroelasticity Effect 2014][research_static_aeroelasticity_2014_b]] [[Sun 2024][research_sun_2024]] [[Swaim 1961][research_swaim_1961]] [[Tacca et al 2024][research_tacca_colvin_2024]] [[The influence of the aerodynamic span effect on the magnitude of the torsional-divergence velocity][research_span_effect_divergence]] [[Thel et al 2022][research_thel_hahn_2022]] [[Thielicke and Stamhuis 2018][research_thielicke_stamhuis_2018]] [[Ting et al 2014][research_ting_lebofsky_2014]] [[Torsional Divergence 2014][research_torsional_divergence_2014]] [[Torsional stiffness and fatigue 1994][research_torsional_stiffness_1994]] [[Torsional stiffness of plastic 1972][research_torsional_stiffness_1972]] [[Truong et al 2022][research_truong_gosselin_2022]] [[Tsushima et al 2019][research_tsushima_yokozeki_2019]] [[Uhm 2021][research_uhm_2021]] [[Van Zyl 2001][research_vanzyl_2001]] [[Vance et al 1974][research_vance_brown_1974]] [[Varello et al 2013][research_varello_lamberti_2013]] [[Verri et al 2024][research_verri_luizbussamra_2024]] [[Verri et al 2025][research_verri_desilvabussamra_2025]] [[Wang 2019][research_wang_2019]] [[Wang et al 2021][research_wang_chang_2021]] [[Wang et al 2024][research_wang_wang_2024]] [[Wang et al 2026][research_wang_pei_2026]] [[Wang et al 2026][research_wang_pei_2026_b]] [[Webb and Takahashi 2022][research_webb_takahashi_2022]] [[Weisshaar 1973][research_weisshaar_1973]] [[Weisshaar 1974][research_weisshaar_1974]] [[Weisshaar 1974][research_weisshaar_1974_b]] [[Weisshaar 1979][research_weisshaar_1979]] [[Weisshaar 1990][research_weisshaar_1990_b]] [[Weisshaar and Ashley 1974][research_weisshaar_ashley_1974]] [[White and Hartl 2024][research_white_hartl_2024]] [[Wing torsional stiffness tests of the active aeroelastic wing F/A-18 airplane][research_aaw_torsional_stiffness]] [[Wunderlich 2015][research_wunderlich_2015]] [[Xie 2010][research_xie_2010]] [[xu et al 2023][research_xu_song_2023]] [[Yang et al 2009][research_yang_chen_2009]] [[Yang et al 2019][research_yang_xie_2019]] [[Yasue and Sawada 2009][research_yasue_sawada_2009]] [[Yin et al 2026][research_yin_xiao_2026]] [[Yu et al 2014][research_yu_lv_2014]] [[Zahn 1984][research_zahn_1984]] [[Zeiler 1998][research_zeiler_1998]] [[Zeiler 1999][research_zeiler_1999]] [[Zhang and Zhu 2021][research_zhang_zhu_2021]] [[Zhang et al 2016][research_zhang_yang_2016]] [[Zhang et al 2018][research_zhang_zhou_2018]] [[Zhang et al 2018][research_zhang_zhou_2018_b]] [[Zhang et al 2021][research_zhang_guo_2021]] [[Zhao 2012][research_zhao_2012]] [[zhao 2019][research_zhao_2019]] [[Zhao 2020][research_zhao_2020]] [[Zheng et al 2013][research_zheng_hedrick_2013]] [[Zhi et al 2020][research_zhi_zhou_2020]] [[Zyablikov and Shirshov 2021][research_zyablikov_shirshov_2021]]
 
 ### Load alleviation, which is the other thing a flexible wing can be asked to do
 
 **The same hardware pointed at a different objective.** Manoeuvre and gust load alleviation, and active load control. **The two design teams on this programme optimised opposite problems**, one maximising roll rate under load constraints and the other minimising loads under a roll constraint, and this cluster is the second of those.
 
-**198 records.** [[Ahmadi Tehrani et al 2025][research_ahmaditehrani_ellis_2025]] [[Alam and Hromcik 2019][research_alam_hromcik_2019]] [[Alam et al 2015][research_alam_hromcik_2015]] [[Ali 2024][research_ali_2024]] [[Allyn and Takahashi 2016][research_allyn_takahashi_2016]] [[An et al 2018][research_an_xie_2018]] [[Anderson et al 1972][research_anderson_berger_1972]] [[Aouf et al 2000][research_aouf_boulet_2000]] [[Asaro et al 2023][research_asaro_cavaliere_2023]] [[Aslam-Mir and McLean][research_aslammir_mclean]] [[Bai et al 2014][research_bai_zhang_2014]] [[Balatti et al 2023][research_balatti_ellis_2023]] [[Balatti et al 2023][research_balatti_khodaparast_2023]] [[Barzgaran et al 2021][research_barzgaran_quenzer_2021]] [[Bendixen et al 1981][research_bendixen_oconnell_1981]] [[Beyer et al 2024][research_beyer_ullah_2024]] [[Beyer et al 2024][research_beyer_steen_2024]] [[Bi et al 2017][research_bi_xie_2017_b]] [[Breitenstein et al 2023][research_breitenstein_muller_2023]] [[Breitenstein et al 2024][research_breitenstein_muller_2024]] [[Bruni et al 2014][research_bruni_cestino_2014]] [[Bruni et al 2015][research_bruni_frulla_2015]] [[Burgstaller and Galffy 2024][research_burgstaller_galffy_2024]] [[Burris and Bender 1969][research_burris_bender_1969]] [[Burris and Bender 1969][research_burris_bender_1969_b]] [[Carrillo et al 2022][research_carrillo_mertens_2022]] [[Cavaliere and Fezans 2024][research_cavaliere_fezans_2024]] [[Caverly et al 2017][research_caverly_forbes_2017]] [[Cheung et al 2019][research_cheung_rezgui_2019]] [[Cheung et al 2019][research_cheung_rezgui_2019_b]] [[Cheung et al 2020][research_cheung_rezgui_2020]] [[Ciniglio et al 2003][research_ciniglio_manimala_2003]] [[Curpanaru et al 2025][research_curpanaru_pastor_2025]] [[Darden 1984][research_darden_1984]] [[Darden 1985][research_darden_1985]] [[Dillsaver et al 2011][research_dillsaver_cesnik_2011]] [[Disney 1975][research_disney_1975]] [[Disney 1977][research_disney_1977]] [[Drew et al 2020][research_drew_hashemi_2020]] [[Duan et al 2021][research_duan_kolmanovsky_2021]] [[Duessler et al 2023][research_duessler_mylvaganam_2023]] [[Duessler et al 2024][research_duessler_mylvaganam_2024]] [[Fan et al 2017][research_fan_liu_2017]] [[Farsadi et al 2026][research_farsadi_ahmadi_2026]] [[Ferrier et al 2018][research_ferrier_nguyen_2018]] [[Fezans 2017][research_fezans_2017]] [[Fezans and Joos 2017][research_fezans_joos_2017]] [[Fezans et al 2019][research_fezans_joos_2019]] [[Filippou et al 2026][research_filippou_sodja_2026]] [[Fonte and Mantegazza 2017][research_fonte_mantegazza_2017]] [[Fonte et al 2015][research_fonte_ricci_2015]] [[Fonte et al 2018][research_fonte_toffol_2018]] [[Forte and Nguyen 2026][research_forte_nguyen_2026]] [[Forte and Nguyen 2026][research_forte_nguyen_2026_c]] [[Forte et al 2022][research_forte_nguyen_2022]] [[Forte et al 2023][research_forte_nguyen_2023]] [[Forte et al 2026][research_forte_nguyen_2026_e]] [[Fournier et al 2022][research_fournier_massioni_2022]] [[Fujimori et al 1989][research_fujimori_ohta_1989]] [[Fujimori et al 1990][research_fujimori_ohta_1990]] [[Gao et al 2024][research_gao_liu_2024]] [[Gennaretti and Ponzi 1999][research_gennaretti_ponzi_1999]] [[Gern et al 2000][research_gern_ko_2000]] [[Ghorawat et al 2015][research_ghorawat_lee_2015]] [[Giesseler et al 2012][research_giesseler_kopf_2012]] [[Haghighat et al 2012][research_haghighat_liu_2012]] [[Hammerton et al 2018][research_hammerton_su_2018]] [[Handojo et al 2018][research_handojo_lancelot_2018]] [[Hashemi and Nguyen 2018][research_hashemi_nguyen_2018_b]] [[Hashemi et al 2018][research_hashemi_nguyen_2018]] [[He et al 2022][research_he_wang_2022]] [[Hillebrand and Lutz 2026][research_hillebrand_lutz_2026]] [[Hillebrand et al 2024][research_hillebrand_breitenstein_2024]] [[Hillebrand et al 2026][research_hillebrand_breitenstein_2026]] [[Hoffmann et al 2011][research_hoffmann_loftfield_2011]] [[Huebner and Reimer 2019][research_huebner_reimer_2019]] [[Islam et al 2018][research_islam_martin_2018]] [[Johnston, J. F. 1979][research_johnstonjf_1979]] [[Khalil and Bauknecht 2024][research_khalil_bauknecht_2024]] [[Khalil and Fezans 2019][research_khalil_fezans_2019]] [[Khalil and Fezans 2019][research_khalil_fezans_2019_b]] [[Khalil and Fezans 2020][research_khalil_fezans_2020]] [[Khalil et al 2020][research_khalil_asaro_2020]] [[Khalil et al 2022][research_khalil_asaro_2022]] [[Kopf et al 2015][research_kopf_giesseler_2015]] [[Kopf et al 2018][research_kopf_bullinger_2018]] [[Kordt et al 2002][research_kordt_ballauf_2002]] [[Krengel 2024][research_krengel_2024]] [[Krengel and Hepperle 2022][research_krengel_hepperle_2022]] [[Krengel and Hepperle 2023][research_krengel_hepperle_2023]] [[Leble and Barakos 2016][research_leble_barakos_2016]] [[Lee and Singh 2014][research_lee_singh_2014]] [[Lee et al 2018][research_lee_hashemi_2018]] [[Li and Qin 2020][research_li_qin_2020]] [[Li and Qin 2021][research_li_qin_2021]] [[Li and Qin 2021][research_li_qin_2021_b]] [[Li and Qin 2022][research_li_qin_2022]] [[Li et al 2017][research_li_zhao_2017]] [[Li et al 2018][research_li_huang_2018]] [[Li et al 2025][research_li_gong_2025]] [[Liao et al 2026][research_liao_zhang_2026]] [[Lin 2016][research_lin_2016]] [[Liu and Sun 2016][research_liu_sun_2016]] [[Liu and Sun 2017][research_liu_sun_2017]] [[Liu et al 2017][research_liu_sun_2017_b]] [[Liu et al 2018][research_liu_dong_2018]] [[Lucas et al 2009][research_lucas_valasek_2009]] [[Mancini and Vos 2019][research_mancini_vos_2019]] [[Manimala et al 2004][research_manimala_padfield_2004]] [[Matsuzaki et al 1987][research_matsuzaki_ueda_1987]] [[Matsuzaki et al 1989][research_matsuzaki_ueda_1989]] [[Mballo and Prasad 2022][research_mballo_prasad_2022]] [[Michel et al 2025][research_michel_stalla_2025]] [[Molz and Breitsamter 2026][research_molz_breitsamter_2026]] [[Moore 1992][research_moore_1992]] [[Moore 1995][research_moore_1995]] [[Muradas Odriozola][research_muradasodriozola]] [[Müller et al 2026][research_muller_woidt_2026]] [[Narayanaswamy et al 2008][research_narayanaswamy_narayanan_2008]] [[Narimani et al 2025][research_narimani_haddadpour_2025]] [[Nguyen 2021][research_nguyen_2021]] [[Nguyen et al 2017][research_nguyen_ting_2017]] [[Nguyen et al 2018][research_nguyen_hashemi_2018]] [[Nie et al 2009][research_nie_zhang_2009]] [[Nixon and Tzuoo 1987][research_nixon_tzuoo_1987]] [[Odriozola et al 2026][research_odriozola_marquier_2026]] [[Ohta and Fujimori 1988][research_ohta_fujimori_1988]] [[Ossmann and Poussot-Vassal 2018][research_ossmann_poussotvassal_2018]] [[Paletta et al 2010][research_paletta_belardo_2010]] [[Pasley et al 1973][research_pasley_rohling_1973]] [[Pourtakdoust and Khodabakhsh 2026][research_pourtakdoust_khodabakhsh_2026]] [[Poussot-Vassal et al 2022][research_poussotvassal_vuillemin_2022]] [[Pusch 2017][research_pusch_2017]] [[Pusch et al 2019][research_pusch_knoblach_2019]] [[Qi et al 2015][research_qi_ting_2015]] [[Qu and Li 2022][research_qu_li_2022]] [[Rieck et al 2026][research_rieck_herrmann_2026]] [[Roll plus maneuver load alleviation control system designs for the active flexible wing][research_afw_roll_mla]] [[Rolling maneuver load alleviation using active controls][research_rolling_mla_active]] [[Sanghi et al 2022][research_sanghi_riso_2022]] [[Scaramal and Horn 2022][research_scaramal_horn_2022]] [[Scaramal and Horn 2023][research_scaramal_horn_2023]] [[Scaramal et al 2021][research_scaramal_saetti_2021]] [[Schlemmer et al 2020][research_schlemmer_dehmlow_2020]] [[Schumann et al 2025][research_schumann_wustenhagen_2025]] [[Seki et al 2019][research_seki_tani_2019]] [[Siebert et al 2026][research_siebert_strothteicher_2026]] [[Skinner and Zare-Behtash 2018][research_skinner_zarebehtash_2018]] [[Sodja et al 2018][research_sodja_werter_2018]] [[Sodja et al 2021][research_sodja_werter_2021]] [[Stanford 2020][research_stanford_2020]] [[Streitenberger and Feldwisch 2025][research_streitenberger_feldwisch_2025]] [[Strothteicher and Fezans 2026][research_strothteicher_fezans_2026]] [[Suresh et al 2010][research_suresh_radhakrishnan_2010]] [[Suzuki and Yonezawa 1993][research_suzuki_yonezawa_1993]] [[Tang et al 2016][research_tang_wu_2016]] [[Tani et al 2018][research_tani_seki_2018]] [[Tantaroudas and Karachalios 2026][research_tantaroudas_karachalios_2026]] [[Thapa Magar et al 2018][research_thapamagar_pankonien_2018]] [[Thomas and Shkarayev 2026][research_thomas_shkarayev_2026]] [[Ting et al 2022][research_ting_mesbahi_2022]] [[Toffol 2024][research_toffol_2024]] [[Ullah et al 2021][research_ullah_lutz_2021]] [[Ullah et al 2022][research_ullah_kamoun_2022]] [[Ullah et al 2023][research_ullah_lutz_2023]] [[Vartio et al 2005][research_vartio_shimko_2005]] [[Virgilio Pereira et al 2019][research_virgiliopereira_kolmanovsky_2019]] [[Virgilio Pereira et al 2019][research_virgiliopereira_kolmanovsky_2019_b]] [[Voskuijl et al 2008][research_voskuijl_walker_2008]] [[Wada et al 2020][research_wada_tamayama_2020]] [[Wang et al 2018][research_wang_vankampen_2018]] [[Wang et al 2019][research_wang_vankampen_2019]] [[Wang et al 2019][research_wang_tang_2019]] [[Wang et al 2021][research_wang_mkhoyan_2021_b]] [[Wheatcroft et al 2025][research_wheatcroft_groh_2025]] [[White 1970][research_white_1970]] [[White 1971][research_white_1971]] [[Wildschek et al 2006][research_wildschek_maier_2006]] [[Wildschek et al 2013][research_wildschek_hanis_2013]] [[Woods-Vedeler and Pototzky 1992][research_woodsvedeler_pototzky_1992]] [[Woods-Vedeler et al 1995][research_woodsvedeler_pototzky_1995]] [[Woods-Vedeler, Jessica A. et al 1994][research_woodsvedelerjessicaa_pototzkyanthonys_1994]] [[Wuestenhagen 2023][research_wuestenhagen_2023]] [[Wynn et al 2022][research_wynn_artola_2022]] [[Xu and Kroo 2011][research_xu_kroo_2011]] [[Xu and Kroo 2011][research_xu_kroo_2011_b]] [[Xu and Kroo 2014][research_xu_kroo_2014]] [[Xu et al 2011][research_xu_zhu_2011]] [[Xue Lei et al 2016][research_xuelei_zhangzheyu_2016]] [[Yang et al 2010][research_yang_xiao_2010]] [[Yang et al 2025][research_yang_liu_2025]] [[Yin et al 2015][research_yin_wu_2015]] [[Zeng et al 2010][research_zeng_moulin_2010]] [[Zhang et al 2024][research_zhang_qiu_2024]] [[Zhao et al 2016][research_zhao_yue_2016]] [[Zhao et al 2023][research_zhao_yang_2023]] [[Zink et al 2002][research_zink_raveh_2002]] [[Zink et al 2004][research_zink_raveh_2004]]
+**200 records.** [[Ahmadi Tehrani et al 2025][research_ahmaditehrani_ellis_2025]] [[Alam and Hromcik 2019][research_alam_hromcik_2019]] [[Alam et al 2015][research_alam_hromcik_2015]] [[Ali 2024][research_ali_2024]] [[Allyn and Takahashi 2016][research_allyn_takahashi_2016]] [[An et al 2018][research_an_xie_2018]] [[Anderson et al 1972][research_anderson_berger_1972]] [[Aouf et al 2000][research_aouf_boulet_2000]] [[Asaro et al 2023][research_asaro_cavaliere_2023]] [[Aslam-Mir and McLean][research_aslammir_mclean]] [[Bai et al 2014][research_bai_zhang_2014]] [[Balatti et al 2023][research_balatti_ellis_2023]] [[Balatti et al 2023][research_balatti_khodaparast_2023]] [[Barzgaran et al 2021][research_barzgaran_quenzer_2021]] [[Bendixen et al 1981][research_bendixen_oconnell_1981]] [[Beyer et al 2024][research_beyer_ullah_2024]] [[Beyer et al 2024][research_beyer_steen_2024]] [[Bi et al 2017][research_bi_xie_2017_b]] [[Breitenstein et al 2023][research_breitenstein_muller_2023]] [[Breitenstein et al 2024][research_breitenstein_muller_2024]] [[Bruni et al 2014][research_bruni_cestino_2014]] [[Bruni et al 2015][research_bruni_frulla_2015]] [[Burgstaller and Galffy 2024][research_burgstaller_galffy_2024]] [[Burris and Bender 1969][research_burris_bender_1969]] [[Burris and Bender 1969][research_burris_bender_1969_b]] [[Carrillo et al 2022][research_carrillo_mertens_2022]] [[Cavaliere and Fezans 2024][research_cavaliere_fezans_2024]] [[Caverly et al 2017][research_caverly_forbes_2017]] [[Cheung et al 2019][research_cheung_rezgui_2019]] [[Cheung et al 2019][research_cheung_rezgui_2019_b]] [[Cheung et al 2020][research_cheung_rezgui_2020]] [[Ciniglio et al 2003][research_ciniglio_manimala_2003]] [[Curpanaru et al 2025][research_curpanaru_pastor_2025]] [[Darden 1984][research_darden_1984]] [[Darden 1985][research_darden_1985]] [[Dillsaver et al 2011][research_dillsaver_cesnik_2011]] [[Disney 1975][research_disney_1975]] [[Disney 1977][research_disney_1977]] [[Drew et al 2020][research_drew_hashemi_2020]] [[Duan et al 2021][research_duan_kolmanovsky_2021]] [[Duessler et al 2023][research_duessler_mylvaganam_2023]] [[Duessler et al 2024][research_duessler_mylvaganam_2024]] [[Fan et al 2017][research_fan_liu_2017]] [[Farsadi et al 2026][research_farsadi_ahmadi_2026]] [[Ferrier et al 2018][research_ferrier_nguyen_2018]] [[Fezans 2017][research_fezans_2017]] [[Fezans and Joos 2017][research_fezans_joos_2017]] [[Fezans et al 2019][research_fezans_joos_2019]] [[Filippou et al 2026][research_filippou_sodja_2026]] [[Fonte and Mantegazza 2017][research_fonte_mantegazza_2017]] [[Fonte et al 2015][research_fonte_ricci_2015]] [[Fonte et al 2018][research_fonte_toffol_2018]] [[Forte and Nguyen 2026][research_forte_nguyen_2026]] [[Forte and Nguyen 2026][research_forte_nguyen_2026_c]] [[Forte et al 2022][research_forte_nguyen_2022]] [[Forte et al 2023][research_forte_nguyen_2023]] [[Forte et al 2026][research_forte_nguyen_2026_e]] [[Fournier et al 2022][research_fournier_massioni_2022]] [[Fujimori et al 1989][research_fujimori_ohta_1989]] [[Fujimori et al 1990][research_fujimori_ohta_1990]] [[Gao et al 2024][research_gao_liu_2024]] [[Gennaretti and Ponzi 1999][research_gennaretti_ponzi_1999]] [[Gern et al 2000][research_gern_ko_2000]] [[Ghorawat et al 2015][research_ghorawat_lee_2015]] [[Giesseler et al 2012][research_giesseler_kopf_2012]] [[Haghighat et al 2012][research_haghighat_liu_2012]] [[Hammerton et al 2018][research_hammerton_su_2018]] [[Handojo et al 2018][research_handojo_lancelot_2018]] [[Hashemi and Nguyen 2018][research_hashemi_nguyen_2018_b]] [[Hashemi et al 2018][research_hashemi_nguyen_2018]] [[He et al 2022][research_he_wang_2022]] [[Hillebrand and Lutz 2026][research_hillebrand_lutz_2026]] [[Hillebrand et al 2024][research_hillebrand_breitenstein_2024]] [[Hillebrand et al 2026][research_hillebrand_breitenstein_2026]] [[Hoffmann et al 2011][research_hoffmann_loftfield_2011]] [[Huebner and Reimer 2019][research_huebner_reimer_2019]] [[Islam et al 2018][research_islam_martin_2018]] [[Johnston, J. F. 1979][research_johnstonjf_1979]] [[Khalil and Bauknecht 2024][research_khalil_bauknecht_2024]] [[Khalil and Fezans 2019][research_khalil_fezans_2019]] [[Khalil and Fezans 2019][research_khalil_fezans_2019_b]] [[Khalil and Fezans 2020][research_khalil_fezans_2020]] [[Khalil et al 2020][research_khalil_asaro_2020]] [[Khalil et al 2022][research_khalil_asaro_2022]] [[Kopf et al 2015][research_kopf_giesseler_2015]] [[Kopf et al 2018][research_kopf_bullinger_2018]] [[Kordt et al 2002][research_kordt_ballauf_2002]] [[Krengel 2024][research_krengel_2024]] [[Krengel and Hepperle 2022][research_krengel_hepperle_2022]] [[Krengel and Hepperle 2023][research_krengel_hepperle_2023]] [[Leble and Barakos 2016][research_leble_barakos_2016]] [[Lee and Singh 2014][research_lee_singh_2014]] [[Lee et al 2018][research_lee_hashemi_2018]] [[Li and Qin 2020][research_li_qin_2020]] [[Li and Qin 2021][research_li_qin_2021]] [[Li and Qin 2021][research_li_qin_2021_b]] [[Li and Qin 2022][research_li_qin_2022]] [[Li et al 2017][research_li_zhao_2017]] [[Li et al 2018][research_li_huang_2018]] [[Li et al 2025][research_li_gong_2025]] [[Liao et al 2026][research_liao_zhang_2026]] [[Lin 2016][research_lin_2016]] [[Liu and Sun 2016][research_liu_sun_2016]] [[Liu and Sun 2017][research_liu_sun_2017]] [[Liu et al 2017][research_liu_sun_2017_b]] [[Liu et al 2018][research_liu_dong_2018]] [[Lucas et al 2009][research_lucas_valasek_2009]] [[Mancini and Vos 2019][research_mancini_vos_2019]] [[Manimala et al 2004][research_manimala_padfield_2004]] [[Matsuzaki et al 1987][research_matsuzaki_ueda_1987]] [[Matsuzaki et al 1989][research_matsuzaki_ueda_1989]] [[Mballo and Prasad 2022][research_mballo_prasad_2022]] [[Michel et al 2025][research_michel_stalla_2025]] [[Molz and Breitsamter 2026][research_molz_breitsamter_2026]] [[Moore 1992][research_moore_1992]] [[Moore 1995][research_moore_1995]] [[Muradas Odriozola][research_muradasodriozola]] [[Müller et al 2026][research_muller_woidt_2026]] [[Narayanaswamy et al 2008][research_narayanaswamy_narayanan_2008]] [[Narimani et al 2025][research_narimani_haddadpour_2025]] [[Nguyen 2021][research_nguyen_2021]] [[Nguyen et al 2017][research_nguyen_ting_2017]] [[Nguyen et al 2018][research_nguyen_hashemi_2018]] [[Nie et al 2009][research_nie_zhang_2009]] [[Nixon and Tzuoo 1986][research_nixon_tzuoo_1986]] [[Nixon and Tzuoo 1987][research_nixon_tzuoo_1987]] [[Odriozola et al 2026][research_odriozola_marquier_2026]] [[Ohta and Fujimori 1988][research_ohta_fujimori_1988]] [[Ossmann and Poussot-Vassal 2018][research_ossmann_poussotvassal_2018]] [[Paletta et al 2010][research_paletta_belardo_2010]] [[Pasley et al 1973][research_pasley_rohling_1973]] [[Pourtakdoust and Khodabakhsh 2026][research_pourtakdoust_khodabakhsh_2026]] [[Poussot-Vassal et al 2022][research_poussotvassal_vuillemin_2022]] [[Pusch 2017][research_pusch_2017]] [[Pusch et al 2019][research_pusch_knoblach_2019]] [[Qi et al 2015][research_qi_ting_2015]] [[Qu and Li 2022][research_qu_li_2022]] [[Rieck et al 2026][research_rieck_herrmann_2026]] [[Roll plus maneuver load alleviation control system designs for the active flexible wing][research_afw_roll_mla]] [[Rolling maneuver load alleviation using active controls][research_rolling_mla_active]] [[Sanghi et al 2022][research_sanghi_riso_2022]] [[Scaramal and Horn 2022][research_scaramal_horn_2022]] [[Scaramal and Horn 2023][research_scaramal_horn_2023]] [[Scaramal et al 2021][research_scaramal_saetti_2021]] [[Schlemmer et al 2020][research_schlemmer_dehmlow_2020]] [[Schumann et al 2025][research_schumann_wustenhagen_2025]] [[Seki et al 2019][research_seki_tani_2019]] [[Siebert et al 2026][research_siebert_strothteicher_2026]] [[Skinner and Zare-Behtash 2018][research_skinner_zarebehtash_2018]] [[Sodja et al 2018][research_sodja_werter_2018]] [[Sodja et al 2021][research_sodja_werter_2021]] [[Stanford 2020][research_stanford_2020]] [[Streitenberger and Feldwisch 2025][research_streitenberger_feldwisch_2025]] [[Strothteicher and Fezans 2026][research_strothteicher_fezans_2026]] [[Suresh et al 2010][research_suresh_radhakrishnan_2010]] [[Suzuki and Yonezawa 1993][research_suzuki_yonezawa_1993]] [[Tang et al 2016][research_tang_wu_2016]] [[Tani et al 2018][research_tani_seki_2018]] [[Tantaroudas and Karachalios 2026][research_tantaroudas_karachalios_2026]] [[Thapa Magar et al 2018][research_thapamagar_pankonien_2018]] [[Thomas and Shkarayev 2026][research_thomas_shkarayev_2026]] [[Ting et al 2022][research_ting_mesbahi_2022]] [[Toffol 2024][research_toffol_2024]] [[Ullah et al 2021][research_ullah_lutz_2021]] [[Ullah et al 2022][research_ullah_kamoun_2022]] [[Ullah et al 2023][research_ullah_lutz_2023]] [[Vartio et al 2005][research_vartio_shimko_2005]] [[Virgilio Pereira et al 2019][research_virgiliopereira_kolmanovsky_2019]] [[Virgilio Pereira et al 2019][research_virgiliopereira_kolmanovsky_2019_b]] [[Voskuijl et al 2008][research_voskuijl_walker_2008]] [[Wada et al 2020][research_wada_tamayama_2020]] [[Wang et al 2018][research_wang_vankampen_2018]] [[Wang et al 2019][research_wang_vankampen_2019]] [[Wang et al 2019][research_wang_tang_2019]] [[Wang et al 2021][research_wang_mkhoyan_2021_b]] [[Wheatcroft et al 2025][research_wheatcroft_groh_2025]] [[White 1970][research_white_1970]] [[White 1971][research_white_1971]] [[Wildschek et al 2006][research_wildschek_maier_2006]] [[Wildschek et al 2013][research_wildschek_hanis_2013]] [[Woods-Vedeler and Pototzky 1992][research_woodsvedeler_pototzky_1992]] [[Woods-Vedeler et al 1995][research_woodsvedeler_pototzky_1995]] [[Woods-Vedeler, Jessica A. et al 1994][research_woodsvedelerjessicaa_pototzkyanthonys_1994]] [[Wuestenhagen 2023][research_wuestenhagen_2023]] [[Wynn et al 2022][research_wynn_artola_2022]] [[Xu 2026][research_xu_2026]] [[Xu and Kroo 2011][research_xu_kroo_2011]] [[Xu and Kroo 2011][research_xu_kroo_2011_b]] [[Xu and Kroo 2014][research_xu_kroo_2014]] [[Xu et al 2011][research_xu_zhu_2011]] [[Xue Lei et al 2016][research_xuelei_zhangzheyu_2016]] [[Yang et al 2010][research_yang_xiao_2010]] [[Yang et al 2025][research_yang_liu_2025]] [[Yin et al 2015][research_yin_wu_2015]] [[Zeng et al 2010][research_zeng_moulin_2010]] [[Zhang et al 2024][research_zhang_qiu_2024]] [[Zhao et al 2016][research_zhao_yue_2016]] [[Zhao et al 2023][research_zhao_yang_2023]] [[Zink et al 2002][research_zink_raveh_2002]] [[Zink et al 2004][research_zink_raveh_2004]]
 
 ### Wind tunnels, and the models that stood in for the aeroplane
 
 **Where this technology lived for nine years before it flew.** Aeroelastic wind-tunnel models, the transonic dynamics tunnel and ground vibration testing. **The Active Flexible Wing programme ran from 1984 to 1993 entirely in a tunnel**, and the flight programme existed to find out what a full-scale aeroplane would do instead.
 
-**110 records.** [[Aeroelastic modeling of the active flexible wing wind-tunnel model][research_afw_modeling]] [[Aeroelastic Modelling 2016][research_aeroelastic_modelling_2016]] [[Anderson 1993][research_anderson_1993]] [[Bagherzadeh 2020][research_bagherzadeh_2020]] [[Bass et al 1993][research_bass_thompson_1993]] [[Bass et al 1995][research_bass_thompson_1995]] [[Begnini et al 2018][research_begnini_bones_2018]] [[Bennett, R. M. et al 1977][research_bennettrm_farmermg_1977]] [[Bergmann and Sevart 1973][research_bergmann_sevart_1973]] [[Bergmann and Sevart 1975][research_bergmann_sevart_1975]] [[Black et al 2007][research_black_schwaab_2007]] [[Bosch et al 2014][research_bosch_schmehl_2014]] [[Briardy and Head 1968][research_briardy_head_1968]] [[Buttrill and Houck 1990][research_buttrill_houck_1990]] [[Carlsson 2003][research_carlsson_2003]] [[Carlsson 2004][research_carlsson_2004]] [[Carlsson 2005][research_carlsson_2005]] [[Cavanaugh et al 2007][research_cavanaugh_robertson_2007]] [[Cella and Biancolini 2012][research_cella_biancolini_2012]] [[Cesnik et al 2023][research_cesnik_ritter_2023]] [[Chawla et al 1988][research_chawla_edwards_1988]] [[Chung et al 2019][research_chung_cho_2019]] [[Coder 2023][research_coder_2023]] [[Coder 2025][research_coder_2025]] [[Coe, Jr. and Perkins 1990][research_coejr_perkins_1990]] [[Coetzee et al 2023][research_coetzee_lowenberg_2023]] [[Cole et al 2003][research_cole_noll_2003]] [[Correction of model deformation 2017][research_correction_of_2017]] [[Darida and Smrcek 1998][research_darida_smrcek_1998]] [[De Gaspari et al 2007][research_degaspari_ricci_2007]] [[Deitering and Hilliard 1965][research_deitering_hilliard_1965]] [[Dias and Girardi 2016][research_dias_girardi_2016]] [[Diedrich 1971][research_diedrich_1971]] [[Dobbs et al 1985][research_dobbs_miller_1985]] [[Experimental results from the active aeroelastic wing wind tunnel test program][research_aaw_wind_tunnel]] [[Fay and Johnstone 1960][research_fay_johnstone_1960]] [[Fejtek 1994][research_fejtek_1994]] [[Forte and Nguyen 2024][research_forte_nguyen_2024]] [[Friedmann 1989][research_friedmann_1989]] [[Gaspari et al 2009][research_gaspari_ricci_2009]] [[Ghee and Taylor 2000][research_ghee_taylor_2000]] [[Ghee and Taylor 2004][research_ghee_taylor_2004]] [[Grauer et al 2012][research_grauer_heeg_2012]] [[Gutierrez et al 1994][research_gutierrez_tate_1994]] [[Haney et al 1978][research_haney_waggoner_1978]] [[Haney et al 1979][research_haney_johnson_1979]] [[Harry and Trobaugh 1966][research_harry_trobaugh_1966]] [[Heeg 2006][research_heeg_2006]] [[Heeg et al 2005][research_heeg_spain_2005]] [[Hildebrand et al 2003][research_hildebrand_eidson_2003]] [[Hoadley and McGraw 1995][research_hoadley_mcgraw_1995]] [[Kai et al 2020][research_kai_sugiura_2020]] [[Karpel 1990][research_karpel_1990_b]] [[Khaddage][research_khaddage]] [[Kolesar 1971][research_kolesar_1971]] [[Kolesar et al 1970][research_kolesar_kassianides_1970]] [[Kolesar et al 1970][research_kolesar_kassianides_1970_b]] [[Koreanschi et al 2015][research_koreanschi_oliviu_2015]] [[Koven, William and Kayten, Gerald G. 1946][research_kovenwilliam_kaytengeraldg_1946]] [[Lee et al 1993][research_lee_valerio_1993]] [[Levinsky and Palko 1978][research_levinsky_palko_1978]] [[Li and Xia 2018][research_li_xia_2018]] [[Lindsley 2007][research_lindsley_2007]] [[Lucas 1978][research_lucas_1978]] [[Matula et al 2026][research_matula_yalla_2026]] [[Mayo et al 2016][research_mayo_carroll_2016]] [[Mcclain and Pountney 1982][research_mcclain_pountney_1982]] [[Meng and Yu 2023][research_meng_yu_2023]] [[Meng et al 2021][research_meng_wan_2021]] [[Morgenstern 2004][research_morgenstern_2004]] [[Nguyen and Urnes 2012][research_nguyen_urnes_2012]] [[Nicolosi et al 2020][research_nicolosi_cusati_2020]] [[Orr 2010][research_orr_2010]] [[Pankonien et al 2019][research_pankonien_durscher_2019]] [[Paul][research_paul]] [[Persoon et al 1980][research_persoon_roos_1980]] [[Piatak, David J. and Cleckner, Craig S. 2002][research_piatakdavidj_clecknercraigs_2002]] [[Raveh et al 2023][research_raveh_sodja_2023]] [[Ricci and Scotti 2008][research_ricci_scotti_2008]] [[Ricci et al 2008][research_ricci_scotti_2008_b]] [[Rill and Ganzer 1988][research_rill_ganzer_1988]] [[Rocha Da Costa][research_rochadacosta]] [[Schmidt and Chavez 2001][research_schmidt_chavez_2001]] [[Sclafani et al 2012][research_sclafani_slotnick_2012]] [[Serpieri and Kotsonis 2015][research_serpieri_kotsonis_2015]] [[Simmons and Murphy 2021][research_simmons_murphy_2021]] [[Sims and Carter 1981][research_sims_carter_1981]] [[Sinclair and Flowers 2010][research_sinclair_flowers_2010]] [[Srivathsan and Rauleder 2023][research_srivathsan_rauleder_2023]] [[Stalla et al 2026][research_stalla_looye_2026]] [[Strand and Levinsky 1969][research_strand_levinsky_1969]] [[Tewari 2015][research_tewari_2015_b]] [[Tijdeman et al 1979][research_tijdeman_vannunen_1979]] [[Tijdeman et al 1979][research_tijdeman_vannunen_1979_b]] [[Tillotson and Fuhs 1982][research_tillotson_fuhs_1982]] [[Tsushima et al 2025][research_tsushima_soneda_2025]] [[Tuzcu and Nguyen 2010][research_tuzcu_nguyen_2010]] [[Ulker et al 2012][research_ulker_nitzsche_2012]] [[Wallace 1952][research_wallace_1952]] [[Wang et al 2025][research_wang_chen_2025]] [[White 1963][research_white_1963]] [[Wieseman et al 1995][research_wieseman_hoadley_1995]] [[Xiong and Nguyen 2024][research_xiong_nguyen_2024_c]] [[Xu et al 2023][research_xu_chen_2023]] [[Yamamoto 1992][research_yamamoto_1992]] [[Zeising and Gerhardt 1993][research_zeising_gerhardt_1993]] [[Zhang et al 2019][research_zhang_kang_2019]] [[Zhang et al 2025][research_zhang_li_2025]] [[Çiçek and Kayran 2019][research_cicek_kayran_2019]] [[Čečrdle et al 2022][research_cecrdle_malinek_2022]]
+**118 records.** [[Aeroelastic modeling of the active flexible wing wind-tunnel model][research_afw_modeling]] [[Aeroelastic Modelling 2016][research_aeroelastic_modelling_2016]] [[Anderson 1993][research_anderson_1993]] [[Asymptotic methods for the 1991][research_asymptotic_methods_1991]] [[Bagherzadeh 2020][research_bagherzadeh_2020]] [[Bass et al 1993][research_bass_thompson_1993]] [[Bass et al 1995][research_bass_thompson_1995]] [[Begnini et al 2018][research_begnini_bones_2018]] [[Bennett, R. M. et al 1977][research_bennettrm_farmermg_1977]] [[Bergmann and Sevart 1973][research_bergmann_sevart_1973]] [[Bergmann and Sevart 1975][research_bergmann_sevart_1975]] [[Bieniawski and Kroo 2003][research_bieniawski_kroo_2003]] [[Black et al 2007][research_black_schwaab_2007]] [[Bosch et al 2014][research_bosch_schmehl_2014]] [[Briardy and Head 1968][research_briardy_head_1968]] [[Buttrill and Houck 1990][research_buttrill_houck_1990]] [[Cain 1979][research_cain_1979]] [[Carlsson 2003][research_carlsson_2003]] [[Carlsson 2004][research_carlsson_2004]] [[Carlsson 2005][research_carlsson_2005]] [[Cavanaugh et al 2007][research_cavanaugh_robertson_2007]] [[Cella and Biancolini 2012][research_cella_biancolini_2012]] [[Cesnik et al 2023][research_cesnik_ritter_2023]] [[Chawla et al 1988][research_chawla_edwards_1988]] [[Chung et al 2019][research_chung_cho_2019]] [[Coder 2023][research_coder_2023]] [[Coder 2025][research_coder_2025]] [[Coe, Jr. and Perkins 1990][research_coejr_perkins_1990]] [[Coetzee et al 2023][research_coetzee_lowenberg_2023]] [[Cole et al 2003][research_cole_noll_2003]] [[Correction of model deformation 2017][research_correction_of_2017]] [[Darida and Smrcek 1998][research_darida_smrcek_1998]] [[De Gaspari et al 2007][research_degaspari_ricci_2007]] [[Deitering and Hilliard 1965][research_deitering_hilliard_1965]] [[Dias and Girardi 2016][research_dias_girardi_2016]] [[Diedrich 1971][research_diedrich_1971]] [[Dobbs et al 1985][research_dobbs_miller_1985]] [[Experimental results from the active aeroelastic wing wind tunnel test program][research_aaw_wind_tunnel]] [[Fay and Johnstone 1960][research_fay_johnstone_1960]] [[Fejtek 1994][research_fejtek_1994]] [[Forte and Nguyen 2024][research_forte_nguyen_2024]] [[Friedmann 1989][research_friedmann_1989]] [[Gaspari et al 2009][research_gaspari_ricci_2009]] [[Ghee and Taylor 2000][research_ghee_taylor_2000]] [[Ghee and Taylor 2004][research_ghee_taylor_2004]] [[Grauer et al 2012][research_grauer_heeg_2012]] [[Gutierrez et al 1994][research_gutierrez_tate_1994]] [[Haney et al 1978][research_haney_waggoner_1978]] [[Haney et al 1979][research_haney_johnson_1979]] [[Harry and Trobaugh 1966][research_harry_trobaugh_1966]] [[Heeg 2006][research_heeg_2006]] [[Heeg et al 2005][research_heeg_spain_2005]] [[Hildebrand et al 2003][research_hildebrand_eidson_2003]] [[Hoadley and McGraw 1995][research_hoadley_mcgraw_1995]] [[Kai et al 2020][research_kai_sugiura_2020]] [[Karpel 1990][research_karpel_1990_b]] [[Khaddage][research_khaddage]] [[Kolesar 1971][research_kolesar_1971]] [[Kolesar et al 1970][research_kolesar_kassianides_1970]] [[Kolesar et al 1970][research_kolesar_kassianides_1970_b]] [[Koreanschi et al 2015][research_koreanschi_oliviu_2015]] [[Koven, William and Kayten, Gerald G. 1946][research_kovenwilliam_kaytengeraldg_1946]] [[Lee et al 1993][research_lee_valerio_1993]] [[Levinsky and Palko 1978][research_levinsky_palko_1978]] [[Li and Xia 2018][research_li_xia_2018]] [[Lindsley 2007][research_lindsley_2007]] [[Lucas 1978][research_lucas_1978]] [[Matula et al 2026][research_matula_yalla_2026]] [[Mayo et al 2016][research_mayo_carroll_2016]] [[Mcclain and Pountney 1982][research_mcclain_pountney_1982]] [[Meng and Yu 2023][research_meng_yu_2023]] [[Meng et al 2021][research_meng_wan_2021]] [[Morgenstern 2004][research_morgenstern_2004]] [[Nguyen and Urnes 2012][research_nguyen_urnes_2012]] [[Nicolosi et al 2020][research_nicolosi_cusati_2020]] [[Orr 2010][research_orr_2010]] [[Pankonien et al 2019][research_pankonien_durscher_2019]] [[Paul][research_paul]] [[Persoon et al 1980][research_persoon_roos_1980]] [[Phillips and Waggoner 1988][research_phillips_waggoner_1988]] [[Piatak, David J. and Cleckner, Craig S. 2002][research_piatakdavidj_clecknercraigs_2002]] [[Pusch et al 2019][research_pusch_ossmann_2019]] [[Pusch et al 2019][research_pusch_ossmann_2019_b]] [[Raveh et al 2023][research_raveh_sodja_2023]] [[Ricci and Scotti 2008][research_ricci_scotti_2008]] [[Ricci et al 2008][research_ricci_scotti_2008_b]] [[Rill and Ganzer 1988][research_rill_ganzer_1988]] [[Rocha Da Costa][research_rochadacosta]] [[S. and M. 2011][research_s_m_2011]] [[Schmidt and Chavez 2001][research_schmidt_chavez_2001]] [[Sclafani et al 2012][research_sclafani_slotnick_2012]] [[Selerowicz 2020][research_selerowicz_2020]] [[Serpieri and Kotsonis 2015][research_serpieri_kotsonis_2015]] [[Simmons and Murphy 2021][research_simmons_murphy_2021]] [[Sims and Carter 1981][research_sims_carter_1981]] [[Sinclair and Flowers 2010][research_sinclair_flowers_2010]] [[Srivathsan and Rauleder 2023][research_srivathsan_rauleder_2023]] [[Stalla et al 2026][research_stalla_looye_2026]] [[Strand and Levinsky 1969][research_strand_levinsky_1969]] [[Tewari 2015][research_tewari_2015_b]] [[Tijdeman et al 1979][research_tijdeman_vannunen_1979]] [[Tijdeman et al 1979][research_tijdeman_vannunen_1979_b]] [[Tillotson and Fuhs 1982][research_tillotson_fuhs_1982]] [[Tsushima et al 2025][research_tsushima_soneda_2025]] [[Tuzcu and Nguyen 2010][research_tuzcu_nguyen_2010]] [[Ulker et al 2012][research_ulker_nitzsche_2012]] [[Wallace 1952][research_wallace_1952]] [[Wang et al 2025][research_wang_chen_2025]] [[White 1963][research_white_1963]] [[Wieseman et al 1995][research_wieseman_hoadley_1995]] [[Xiong and Nguyen 2024][research_xiong_nguyen_2024_c]] [[Xu et al 2023][research_xu_chen_2023]] [[Yamamoto 1992][research_yamamoto_1992]] [[Zeising and Gerhardt 1993][research_zeising_gerhardt_1993]] [[Zhang et al 2019][research_zhang_kang_2019]] [[Zhang et al 2025][research_zhang_li_2025]] [[Çiçek and Kayran 2019][research_cicek_kayran_2019]] [[Čečrdle et al 2022][research_cecrdle_malinek_2022]]
 
 ### The atmosphere and the flight condition
 
 **The medium, named rather than assumed.** Standard atmosphere, density altitude and dynamic pressure. **Every claim in this article is a claim about dynamic pressure**, because that is the variable the reversal condition is defined on, and it is set by altitude and speed together.
 
-**47 records.** [[A Properties of Standard 2006][research_a_properties_2006]] [[Appendix A Standard Atmosphere 2021][research_appendix_a_2021]] [[Appendix A. The Standard 2011][research_appendix_a_2011]] [[Appendix B Properties of 2003][research_appendix_b_2003]] [[Atmosphere standard atmosphere 2006][research_atmosphere_standard_2006]] [[B-34. U. S. Standard 1963][research_b_34_u_1963]] [[Definition of the standard 1954][research_definition_of_1954]] [[Dennis P. Dykstra 1980][research_dennispdykstra_1980]] [[Essenhigh 2006][research_essenhigh_2006]] [[Everett et al 1972][research_everett_cashwell_1972]] [[Gooch 2011][research_gooch_2011]] [[Gooch 2011][research_gooch_2011_b]] [[Herbert][research_herbert]] [[International Standard Atmosphere 2010][research_international_standard_2010]] [[Kang et al 2023][research_kang_zhao_2023]] [[Kang et al 2023][research_kang_meng_2023]] [[Kaushik 2018][research_kaushik_2018]] [[Kurzke and Halliwell 2018][research_kurzke_halliwell_2018]] [[Kurzke et al 2025][research_kurzke_halliwell_2025]] [[Lee and Aldredge 2015][research_lee_aldredge_2015]] [[Minimum Performance Standard for][research_minimum_performance]] [[Minimum Performance Standard for][research_minimum_performance_b]] [[Paper, board and pulps][research_paper_board]] [[Pressures and Temperatures for 2000][research_pressures_and_2000]] [[Properties of the U.S 2014][research_properties_of_2014]] [[Properties of the U.S 2024][research_properties_of_2024]] [[Report No. 538, altitude-pressure 1935][research_report_no_1935]] [[Ross et al 1993][research_ross_law_1993]] [[Space environment natural and][research_space_environment]] [[Standard Atmosphere][research_standard_atmosphere]] [[Standard Atmosphere 2005][research_standard_atmosphere_2005]] [[Standard atmosphere 2007][research_standard_atmosphere_2007]] [[Standard Atmosphere 2023][research_standard_atmosphere_2023]] [[Standard Atmosphere 2024][research_standard_atmosphere_2024]] [[Standard atmosphere chart 1927][research_standard_atmosphere_1927]] [[Standard atmosphere chart supersedes 1927][research_standard_atmosphere_1927_b]] [[Standard Atmosphere Data 1992][research_standard_atmosphere_1992]] [[standard atmosphere for preconditioning 2021][research_standard_atmosphere_2021]] [[standard atmosphere for testing 2021][research_standard_atmosphere_2021_b]] [[Standard Atmospheric Profilesa aSource 2002][research_standard_atmospheric_2002]] [[The Flight Environment Standard 2021][research_the_flight_2021]] [[The International Standard Atmosphere 2017][research_the_international_2017]] [[The international standard atmosphere 2026][research_the_international_2026]] [[The Standard Atmosphere 1964][research_the_standard_1964]] [[The Standard Atmosphere 1976][research_the_standard_1976]] [[US Standard Atmosphere Model 2014][research_us_standard_2014]] [[Vaughan 2003][research_vaughan_2003]]
+**44 records.** [[A Properties of Standard 2006][research_a_properties_2006]] [[Appendix A Standard Atmosphere 2021][research_appendix_a_2021]] [[Appendix A. The Standard 2011][research_appendix_a_2011]] [[Appendix B Properties of 2003][research_appendix_b_2003]] [[Atmosphere standard atmosphere 2006][research_atmosphere_standard_2006]] [[B-34. U. S. Standard 1963][research_b_34_u_1963]] [[Definition of the standard 1954][research_definition_of_1954]] [[Dennis P. Dykstra 1980][research_dennispdykstra_1980]] [[Essenhigh 2006][research_essenhigh_2006]] [[Everett et al 1972][research_everett_cashwell_1972]] [[Gooch 2011][research_gooch_2011]] [[Gooch 2011][research_gooch_2011_b]] [[International Standard Atmosphere 2010][research_international_standard_2010]] [[Kang et al 2023][research_kang_zhao_2023]] [[Kang et al 2023][research_kang_meng_2023]] [[Kaushik 2018][research_kaushik_2018]] [[Kurzke and Halliwell 2018][research_kurzke_halliwell_2018]] [[Kurzke et al 2025][research_kurzke_halliwell_2025]] [[Lee and Aldredge 2015][research_lee_aldredge_2015]] [[Minimum Performance Standard for][research_minimum_performance]] [[Minimum Performance Standard for][research_minimum_performance_b]] [[Paper, board and pulps][research_paper_board]] [[Pressures and Temperatures for 2000][research_pressures_and_2000]] [[Properties of the U.S 2014][research_properties_of_2014]] [[Properties of the U.S 2024][research_properties_of_2024]] [[Report No. 538, altitude-pressure 1935][research_report_no_1935]] [[Ross et al 1993][research_ross_law_1993]] [[Space environment natural and][research_space_environment]] [[Standard Atmosphere][research_standard_atmosphere]] [[Standard Atmosphere 2005][research_standard_atmosphere_2005]] [[Standard atmosphere 2007][research_standard_atmosphere_2007]] [[Standard Atmosphere 2023][research_standard_atmosphere_2023]] [[Standard Atmosphere 2024][research_standard_atmosphere_2024]] [[Standard atmosphere chart 1927][research_standard_atmosphere_1927]] [[Standard atmosphere chart supersedes 1927][research_standard_atmosphere_1927_b]] [[standard atmosphere for preconditioning 2021][research_standard_atmosphere_2021]] [[standard atmosphere for testing 2021][research_standard_atmosphere_2021_b]] [[The Flight Environment Standard 2021][research_the_flight_2021]] [[The International Standard Atmosphere 2017][research_the_international_2017]] [[The international standard atmosphere 2026][research_the_international_2026]] [[The Standard Atmosphere 1964][research_the_standard_1964]] [[The Standard Atmosphere 1976][research_the_standard_1976]] [[US Standard Atmosphere Model 2014][research_us_standard_2014]] [[Vaughan 2003][research_vaughan_2003]]
 
 ### Control reversal, and the dynamic pressure at which a surface stops working
 
 **The smallest cluster in the survey, and its size is the finding.** Aileron reversal, rolling effectiveness and the loss of control power with dynamic pressure. **The problem was solved in the 1940s by adding torsional stiffness and the answer held**, so the literature closed. This article is about an attempt to reopen it, and the attempt did not reach the condition.
 
-**22 records.** [[Beldica and Hilton 1999][research_beldica_hilton_1999]] [[Bihrle and Barnhart 1982][research_bihrle_barnhart_1982]] [[Bihrle et al 1980][research_bihrle_jr_1980]] [[Calculation of the lateral control of swept and unswept flexible wings of arbitrary stiffness][research_lateral_control_flexible]] [[Clark 2026][research_clark_2026]] [[DeLaurier 2024][research_delaurier_2024]] [[Goland 1952][research_goland_1952]] [[Grosser 1965][research_grosser_1965]] [[Horton 1943][research_horton_1943]] [[Hunn 1953][research_hunn_1953]] [[hussain and Khan 2019][research_hussain_khan_2019]] [[Kim and Song 2013][research_kim_song_2013]] [[Mukherjee and Shaw 2004][research_mukherjee_shaw_2004]] [[Mukherjee and Shaw 2007][research_mukherjee_shaw_2007]] [[Pearson, Henry A and Aiken, William S, Jr 1944][research_pearsonhenrya_aikenwilliamsjr_1944]] [[Rolling effectiveness and aileron reversal of rectangular wings at supersonic speeds][research_supersonic_aileron_reversal]] [[Rose and Jinu 2014][research_rose_jinu_2014]] [[Sandahl, Carl A 1948][research_sandahlcarla_1948]] [[Silva][research_silva_b]] [[Song and Kim 2009][research_song_kim_2009]] [[Thomson 1946][research_thomson_1946]] [[Yoon et al 2012][research_yoon_chung_2012]]
+**23 records.** [[Beldica and Hilton 1999][research_beldica_hilton_1999]] [[Bihrle and Barnhart 1982][research_bihrle_barnhart_1982]] [[Bihrle et al 1980][research_bihrle_jr_1980]] [[Calculation of the lateral control of swept and unswept flexible wings of arbitrary stiffness][research_lateral_control_flexible]] [[Clark 2026][research_clark_2026]] [[DeLaurier 2024][research_delaurier_2024]] [[Goland 1952][research_goland_1952]] [[Grosser 1965][research_grosser_1965]] [[Horton 1943][research_horton_1943]] [[Hunn 1953][research_hunn_1953]] [[hussain and Khan 2019][research_hussain_khan_2019]] [[Kim and Song 2013][research_kim_song_2013]] [[Mukherjee and Shaw 2004][research_mukherjee_shaw_2004]] [[Mukherjee and Shaw 2007][research_mukherjee_shaw_2007]] [[Pearson, Henry A and Aiken, William S, Jr 1944][research_pearsonhenrya_aikenwilliamsjr_1944]] [[Platanitis and Strganac 2005][research_platanitis_strganac_2005]] [[Rolling effectiveness and aileron reversal of rectangular wings at supersonic speeds][research_supersonic_aileron_reversal]] [[Rose and Jinu 2014][research_rose_jinu_2014]] [[Sandahl, Carl A 1948][research_sandahlcarla_1948]] [[Silva][research_silva_b]] [[Song and Kim 2009][research_song_kim_2009]] [[Thomson 1946][research_thomson_1946]] [[Yoon et al 2012][research_yoon_chung_2012]]
 
 
 ## The Source Base
 
-**The seventeen curated sources and seven books that carry the argument, and the 3,307 that map the field, are different things.**
+**The seventeen curated sources and seven books that carry the argument, and the 3,605 that map the field, are different things.**
 
 **The evidentiary base is unusually strong for this series because the programme documented itself.** Beyond the curated references sit thirty-nine named technical reports, being the programme's own and those of the wind-tunnel programme that preceded it and the wartime work that settled the classical answer, **every one verified against the report server before assembly**. **The flight test report was read in full**, and most of what this article says about what happened comes from it rather than from any description of it.
 
-**The survey base was harvested and none of it was read.** 8,612 records were retrieved across two sweeps, 3,410 passed the subject gate, and 3,307 reach the reference list after duplicate registrations were removed.
+**The survey base was harvested and none of it was read.** 10,181 records were retrieved across two sweeps, 3,715 passed the subject gate, and 3,605 reach the reference list after duplicate registrations were removed.
 
 ### The Pool
 
-**The main harvest retrieved 5,108 records from the scholarly registry, 896 from the defence report registry and 123 from the space agency's, for 6,127.** A second sweep aimed at the keystone added 2,485 the first did not hold, for 8,612 in total.
+**Three sweeps.** The main harvest retrieved 5,108 records from the scholarly registry, 896 from the defence report registry and 123 from the space agency's, for 6,127. A sweep aimed at the keystone added 2,485 the first did not hold, and a sweep aimed at the leading-edge surface as a roll effector added 1,569 more, for 10,181 in total.
 
-**3,410 passed the subject gate and 3,307 survived deduplication into the reference list, across 12 clusters.**
+**3,715 passed the subject gate and 3,605 survived deduplication into the reference list, across 12 clusters.**
+
+### The Conclusions Were Probed and the Three Thin Ones Are the Three That Matter
+
+**Eight conclusions were probed against the pool and three came back thin.**
+
+**The thin three are the three things that make this aeroplane interesting.** The phenomenon it is named for stands at 50 records. The effector it used instead stands at 50 on the narrow wording and 145 on the field's. The constraint that dominated its flight test stands at 66.
+
+**One of the three was rephrased and harvested for, and the two moves are reported separately because they are different things.** Before the sweep the leading-edge shelf measured 34 on the narrow wording and 58 on the field's. **Rewording the probe roughly doubled it and the sweep roughly doubled it again**, to 50 and 145. 1,872 records were retrieved, 1,569 were not already held and 310 passed the gate.
+
+**The sweep was worth running because the two senses of the phrase are not one literature.** The leading-edge device is enormously written about as a high-lift device and barely at all as a roll effector, and the second is the whole of what the X-53 did with it.
+
+**The other two are left where they are and the article says so.** Reversal closed as a research question in the 1940s and the classical answer held. Hinge moment is a design constraint that rarely titles a paper and constantly decides one. **A342 measured span of control at eleven and left it, A347 measured where analysis effort goes at 65, A348 left a claim at 34 and A349 left one at 16.** What is forbidden is not knowing.
 
 ### The Primary Fraction and What the Corpus-Wide Measure Cannot See
 
-**Primaries are 261 of 3,307, or 7.9 percent**, against 2.0 percent one article ago. **The measure works again because the subject is an aeroplane again**, and the report registries hold this literature in a way they did not hold the last one.
+**Primaries are 282 of 3,605, or 7.8 percent**, against 2.0 percent one article ago. **The measure works again because the subject is an aeroplane again**, and the report registries hold this literature in a way they did not hold the last one.
 
-**The count splits into two kinds and the article reports both.** 254 carry an identifier from the space agency's report server or the defence technical information centre, which is what the corpus-wide measure can see. **Seven are journal and conference papers named by hand**, being the programme's own publications and those of the wind-tunnel programme before it, and the measure cannot see them because an aeronautical society's identifier looks like any other.
+**The count splits into two kinds and the article reports both.** 275 carry an identifier from the space agency's report server or the defence technical information centre, which is what the corpus-wide measure can see. **Seven are journal and conference papers named by hand**, being the programme's own publications and those of the wind-tunnel programme before it, and the measure cannot see them because an aeronautical society's identifier looks like any other.
 
 **Thirty-nine sources are named foundational references rather than harvested ones.** They are the programme's technical reports, the wind-tunnel programme's, the wartime work that settled the classical answer, and the papers on the instrumentation and the flight control computer. **Every one was verified against its repository before assembly**, which is the discipline that caught a fabricated identifier in A347 and another in A349.
 
 ### The Keystone Literature Is the Smallest Cluster and That Is the Finding
 
-**Twenty-two records of 3,307, or 0.67 percent, are about control reversal itself.** That is the smallest cluster in the survey and it is about the thing the aeroplane is named for.
+**Twenty-three records of 3,605, or 0.64 percent, are about control reversal itself.** That is the smallest cluster in the survey and it is about the thing the aeroplane is named for.
 
-**The first sweep found fewer still, and the gap was in the asking rather than in the field.** A probe of the pool found the keystone standing at 32 records, so a second sweep was run in every vocabulary the field has used for it across eighty years, being aeroelastic control effectiveness, aeroelastic efficiency, rolling power and elastic correction to the stability derivatives. 2,930 records were retrieved, 2,485 were not already held, 565 passed the gate, and the keystone probe moved to 43.
+**The first sweep found fewer still, and the gap was in the asking rather than in the field.** A probe of the pool found the keystone standing at 32 records, so a second sweep was run in every vocabulary the field has used for it across eighty years, being aeroelastic control effectiveness, aeroelastic efficiency, rolling power and elastic correction to the stability derivatives. 2,930 records were retrieved, 2,485 were not already held, 565 passed the gate, and the keystone probe moved to 50.
 
 **It is still the smallest cluster and that is the finding rather than a defect in the sweep.** Reversal was solved in the 1940s by adding torsional stiffness, the design charts were published before the war ended, and the answer held. **A literature closes when a problem stops being open**, and this article is about an attempt to reopen one that did not reach the condition.
 
 ### The Sweep Store Needed No Tag, Which Is the Opposite of the Previous Article
 
-**The shared sweep store holds 129 patterns observed to contaminate earlier sweeps, and this article switched none of them off.** Applied with nothing disabled it removed 419 records of 6,127, and reading a sample of them found the drops correct.
+**The shared sweep store holds 130 patterns observed to contaminate earlier sweeps, and this article switched none of them off.** Applied with nothing disabled it removed 427 records of 6,127, and reading a sample of them found the drops correct.
 
 **That is worth stating because the previous article had to switch seven patterns off across three tagged families.** A349's subject was confusable names and the store is aeronautical, so the store was wrong for it in a way that had to be measured and corrected. **This article's subject is a wing**, and the store was built by articles about wings.
 
-**Two families were checked closely because they are adjacent rather than contaminating.** The wind turbine blade is an aeroelastic structure and the family is armed, and reading the drops found wind speed forecasting and wind farm output smoothing rather than blade aeroelasticity. Fatigue cracking is armed and the drops included two records on flight control and crack growth in a flexible aircraft, which is a small and named loss. **Rotorcraft aeroelasticity is not filtered at all** and about 99 records in the pool carry it, many of them tiltrotor wing work that belongs here on the merits.
+**Two families were checked closely because they are adjacent rather than contaminating.** The wind turbine blade is an aeroelastic structure and the family is armed, and reading the drops found wind speed forecasting and wind farm output smoothing rather than blade aeroelasticity. Fatigue cracking is armed and the drops included two records on flight control and crack growth in a flexible aircraft, which is a small and named loss. **Rotorcraft aeroelasticity is not filtered at all** and about 107 records in the pool carry it, many of them tiltrotor wing work that belongs here on the merits.
 
 ### Two Primary Sources Disagree About How Many Flights and How Many Gauges
 
@@ -615,7 +632,26 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 
 **And it never saw reversal.** The requirement to fly beyond it was abandoned when early tests showed it could not be met, the aileron rolling moment approached zero and stopped rather than changing sign, and **the two test points at the highest dynamic pressures were never flown because the aeroplane could not get to them**, the report naming the external targets, wiring, pressure instrumentation and camera pods as likely sources of the extra drag.
 
-**So this is a demonstration that stopped one region short of its own name.** The Active Aeroelastic Wing showed that a flexible wing can be flown as a control effector and did not show what happens past the point where the classical answer runs out. **The classical answer is stiffness, the classical answer is heavy, and the aeroplane built to find an alternative could not reach the condition that makes the alternative necessary.**
+**The aeroplane was also never as far from breaking as its flight rules made it look.** The
+programme's own table sets out actuator force, horn arm and structural limit in adjacent columns
+without ever multiplying the first two together, and multiplying them shows that **three of the four wing surfaces carry actuators strong enough to exceed their own
+structural limits**. The aileron by about five percent, the trailing-edge flap by about four, and the
+inboard leading-edge flap by nearly forty. **The structure was protected by a build-up schedule, a
+real-time envelope display, an aural tone and a test conductor's voice**, and not by any inability of
+the hardware to overload it.
+
+**The cost the whole programme exists to attack is now a proportionality rather than a slogan.** A
+thin-walled torsion box gives rigidity linear in skin thickness and mass linear in the same thickness,
+so stiffness is proportional to mass, and the reversal dynamic pressure is proportional to stiffness.
+**Reversal margin is bought linearly in structural weight**, at one corner of the envelope, and carried
+everywhere else in it for the life of the aeroplane.
+
+**Dividing the two classical limits then shows what stiffness cannot buy.** The ratio of reversal to
+divergence dynamic pressure has no stiffness in it at all. **A designer can push reversal further out
+and cannot push it past divergence by stiffening**, which is why the alternative the X-53 was built to
+find is worth looking for.
+
+**So this is a demonstration that stopped one region short of its own name.** The Active Aeroelastic Wing showed that a flexible wing can be flown as a control effector and did not show what happens past the point where the classical answer runs out. **The classical answer is stiffness, the classical answer is heavy by a factor that is now written down, and the aeroplane built to find an alternative could not reach the condition that makes the alternative necessary.**
 
 ## References
 
@@ -822,6 +858,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Active Flutter Suppression 2016][research_active_flutter_2016]
 - [Active flutter suppression via 1999][research_active_flutter_1999]
 - [Adali 1981][research_adali_1981]
+- [Adamczyk and Goldstein 1978][research_adamczyk_goldstein_1978]
+- [Adams 1953][research_adams_1953]
 - [Adamson et al 2019][research_adamson_fichera_2019]
 - [Adaptive Transonic Aeroservoelasticity 2016][research_adaptive_transonic_2016]
 - [Adnyana 2017][research_adnyana_2017]
@@ -853,16 +891,19 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Air Force Test Pilot School Edwards Afb Ca 1989][research_airforcetestpilotschooledwardsafbca_1989]
 - [Air Force Test Pilot School Edwards Afb Ca 1990][research_airforcetestpilotschooledwardsafbca_1990]
 - [Air Force Test Pilot School Edwards Afb Ca 1990][research_airforcetestpilotschooledwardsafbca_1990_b]
+- [Aircraft lateral-directional handling qualities 2011][research_aircraft_lateral_directional_2011]
 - [Ajaj and Djidjeli 2022][research_ajaj_djidjeli_2022]
 - [Akasaka et al 1989][research_akasaka_katoh_1989]
 - [Akinwale and Datta 2025][research_akinwale_datta_2025]
 - [Akmese et al 2009][research_akmese_comert_2009]
+- [Akram and Hasan 2024][research_akram_hasan_2024]
 - [Al-Shehabi and Newman 2000][research_alshehabi_newman_2000]
 - [Al-Shehabi and Newman 2000][research_alshehabi_newman_2000_b]
 - [Alag and Burken 1987][research_alag_burken_1987]
 - [Alag et al 1986][research_alag_burken_1986]
 - [Alam and Hromcik 2019][research_alam_hromcik_2019]
 - [Alam and Sohn 2023][research_alam_sohn_2023]
+- [Alam et al 2006][research_alam_matsuo_2006]
 - [Alam et al 2015][research_alam_hromcik_2015]
 - [Alaverdi and Paris 2001][research_alaverdi_paris_2001]
 - [Albertani et al 2005][research_albertani_stanford_2005]
@@ -870,6 +911,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Alden and Schindel 1952][research_alden_schindel_1952]
 - [Alhajjar et al 2018][research_alhajjar_aljiboory_2018]
 - [Ali 2024][research_ali_2024]
+- [Ali and Elkhamry 2024][research_ali_elkhamry_2024]
 - [Alighanbari 2002][research_alighanbari_2002]
 - [Alighanbari and Lee 2003][research_alighanbari_lee_2003]
 - [Allaire et al 2014][research_allaire_lecerf_2014]
@@ -887,8 +929,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Alulema et al 2020][research_alulema_valencia_2020]
 - [Alvarez 2014][research_alvarez_2014]
 - [Alvarez and Wissa 2021][research_alvarez_wissa_2021]
+- [Alvi 2005][research_alvi_2005]
 - [Alwi and Edwards 2007][research_alwi_edwards_2007]
 - [Alwi and Edwards 2009][research_alwi_edwards_2009]
+- [Alwi and Edwards 2010][research_alwi_edwards_2010]
 - [Alyanak and Pendleton 2014][research_alyanak_pendleton_2014]
 - [Alyanak and Pendleton 2017][research_alyanak_pendleton_2017]
 - [Amendola et al 2018][research_amendola_dimino_2018]
@@ -908,7 +952,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Andakhshideh and Tahani 2013][research_andakhshideh_tahani_2013]
 - [Andersen et al 1996][research_andersen_forster_1996]
 - [Andersen et al 1997][research_andersen_forster_1997]
+- [Andersen et al 1997][research_andersen_kolonay_1997]
 - [Andersen et al 1998][research_andersen_kolonay_1998]
+- [Andersen et al 1998][research_andersen_kolonay_1998_b]
+- [Andersen et al 1998][research_andersen_kolonay_1998_c]
 - [Anderson 1984][research_anderson_1984]
 - [Anderson 1985][research_anderson_1985]
 - [Anderson 1993][research_anderson_1993]
@@ -925,6 +972,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Ansell et al 2011][research_ansell_bragg_2011_b]
 - [Ansell et al 2013][research_ansell_kerho_2013]
 - [Ansell et al 2014][research_ansell_kerho_2014]
+- [Antonakis 2025][research_antonakis_2025]
 - [Antonakis and Biannic 2024][research_antonakis_biannic_2024]
 - [Aouf et al 2000][research_aouf_boulet_2000]
 - [Appendix A Standard Atmosphere 2021][research_appendix_a_2021]
@@ -939,20 +987,26 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Arai and Tanaka 2020][research_arai_tanaka_2020]
 - [Aravinth et al 2018][research_aravinth_shinde_2018]
 - [Archambaud et al 2004][research_archambaud_louis_2004]
+- [Ardelean et al 2006][research_ardelean_mcever_2006]
 - [Aref'ev 1968][research_arefev_1968]
+- [Arena et al 2017][research_arena_pecora_2017]
 - [Arizono and Cesnik 2013][research_arizono_cesnik_2013]
 - [Arizono and Isogai 2005][research_arizono_isogai_2005]
 - [Armanious and Lind 2018][research_armanious_lind_2018]
 - [Armstrong 1977][research_armstrong_1977]
 - [Armstrong and Miller 1968][research_armstrong_miller_1968]
+- [Arnal 1989][research_arnal_1989]
 - [Arnold 1942][research_arnold_1942]
 - [Arnold 1981][research_arnold_1981]
 - [Asadi and Farsadi 2020][research_asadi_farsadi_2020]
 - [Asadi et al 2021][research_asadi_farsadi_2021]
 - [Asaro et al 2023][research_asaro_cavaliere_2023]
+- [Asaro et al 2025][research_asaro_atmaca_2025]
 - [Ashkenas 1965][research_ashkenas_1965]
 - [Askari and Soltani 2019][research_askari_soltani_2019]
 - [Aslam-Mir and McLean][research_aslammir_mclean]
+- [Asymptotic methods for the 1991][research_asymptotic_methods_1991]
+- [Atay et al 2021][research_atay_bryant_2021]
 - [Atkinson 2016][research_atkinson_2016]
 - [Atmosphere standard atmosphere 2006][research_atmosphere_standard_2006]
 - [Auls'chenko et al 2006][research_aulschenko_zamuraev_2006]
@@ -968,6 +1022,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Babcock and Lind 2013][research_babcock_lind_2013]
 - [Babcock and Lind 2013][research_babcock_lind_2013_b]
 - [Babinsky and Délery 2011][research_babinsky_delery_2011]
+- [Babinsky and Ogawa 2006][research_babinsky_ogawa_2006]
 - [Babister 1980][research_babister_1980]
 - [Bach and McNally 1988][research_bach_mcnally_1988]
 - [Bachelder et al 2004][research_bachelder_klyde_2004]
@@ -1005,13 +1060,19 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Banerjee and Williams 1992][research_banerjee_williams_1992]
 - [Banerjee et al 2014][research_banerjee_liu_2014]
 - [Bang et al 2022][research_bang_rana_2022]
+- [Baran and Yirtici 2026][research_baran_yirtici_2026]
 - [Baranyi 2006][research_baranyi_2006]
 - [Baranyi 2006][research_baranyi_2006_b]
+- [Baranyi 2016][research_baranyi_2016]
+- [Baranyi 2023][research_baranyi_2023]
 - [Baranyi and Patton 2003][research_baranyi_patton_2003]
+- [Baranyi and Takarics 2014][research_baranyi_takarics_2014]
+- [Baranyi et al 2008][research_baranyi_korondi_2008]
 - [Barb and Mulder 2003][research_barb_mulder_2003]
 - [Barker and Balas 2000][research_barker_balas_2000]
 - [Barker et al 1999][research_barker_balas_1999]
 - [Barnwell 1974][research_barnwell_1974]
+- [Barrett, Ron 1999][research_barrettron_1999]
 - [Bartels et al 2019][research_bartels_stanford_2019]
 - [Bartels et al 2019][research_bartels_stanford_2019_b]
 - [Barzgaran et al 2021][research_barzgaran_quenzer_2021]
@@ -1061,6 +1122,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Bever 1992][research_bever_1992]
 - [Beyer et al 2024][research_beyer_steen_2024]
 - [Beyer et al 2024][research_beyer_ullah_2024]
+- [Bharadvaj 1990][research_bharadvaj_1990]
+- [Bharadvaj 1991][research_bharadvaj_1991]
 - [Bhat 2018][research_bhat_2018]
 - [Bhat 2018][research_bhat_2018_b]
 - [Bhat 2018][research_bhat_2018_c]
@@ -1072,6 +1135,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Bichiou et al 2016][research_bichiou_hajj_2016]
 - [Biederman et al 1994][research_biederman_meincke_1994]
 - [Bielawa 2006][research_bielawa_2006]
+- [Bieniawski and Kroo 2003][research_bieniawski_kroo_2003]
 - [Bigler 1986][research_bigler_1986]
 - [Bihrle and Barnhart 1982][research_bihrle_barnhart_1982]
 - [Bihrle et al 1980][research_bihrle_jr_1980]
@@ -1093,6 +1157,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Block and Strganac 1998][research_block_strganac_1998]
 - [Block et al 1997][research_block_gilliatt_1997]
 - [Blue et al 1997][research_blue_balas_1997]
+- [Bluman and Gandhi 2011][research_bluman_gandhi_2011]
 - [Bocola et al 2015][research_bocola_muscarello_2015]
 - [Bodin and Fuchs 2008][research_bodin_fuchs_2008]
 - [Bodson 2000][research_bodson_2000]
@@ -1116,6 +1181,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Borglund and Nilsson 2004][research_borglund_nilsson_2004]
 - [Bosch et al 2014][research_bosch_schmehl_2014]
 - [Boskovic and Mehra][research_boskovic_mehra]
+- [Boskovic and Redding 2009][research_boskovic_redding_2009]
 - [Boskovic et al][research_boskovic_ling]
 - [Botez et al 2002][research_botez_doin_2002]
 - [Botez et al 2008][research_botez_grigorie_2008]
@@ -1124,6 +1190,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Bouadi][research_bouadi]
 - [Bouchalkha et al 2015][research_bouchalkha_alhammadi_2015]
 - [Bove 2026][research_bove_2026]
+- [Bradley et al 1976][research_bradley_whitten_1976]
 - [Bradshaw et al 1988][research_bradshaw_rahulan_1988]
 - [Bramsiepe et al 2020][research_bramsiepe_voss_2020]
 - [Brandon and Morelli 2014][research_brandon_morelli_2014]
@@ -1147,8 +1214,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Brincklow and Hunsaker 2021][research_brincklow_hunsaker_2021]
 - [Brincklow et al 2021][research_brincklow_montgomery_2021]
 - [Brinker and Wise 2000][research_brinker_wise_2000]
+- [Brix, Jr. and Platzer 1974][research_brixjr_platzer_1974]
 - [Bronz and Hattenberger 2016][research_bronz_hattenberger_2016]
 - [Brooks and Meyer 1995][research_brooks_meyer_1995]
+- [Brower 1961][research_brower_1961]
 - [Brown 1989][research_brown_1989]
 - [Brown and Caverly 2021][research_brown_caverly_2021]
 - [Brown and Singh 2015][research_brown_singh_2015]
@@ -1185,6 +1254,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Burner, Alpheus W. et al 2005][research_burneralpheusw_lokoswilliama_2005]
 - [Burris and Bender 1969][research_burris_bender_1969]
 - [Burris and Bender 1969][research_burris_bender_1969_b]
+- [Burrows et al 2019][research_burrows_vukasinovic_2019]
 - [Burrows et al 2021][research_burrows_vukasinovic_2021]
 - [Burt Jr 1976][research_burtjr_1976]
 - [Burton and Kneeland, Jr. 1981][research_burton_kneelandjr_1981]
@@ -1195,11 +1265,14 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Byun and Guruswamy 1996][research_byun_guruswamy_1996]
 - [Byun and Guruswamy 1996][research_byun_guruswamy_1996_b]
 - [Byun and Guruswamy 1996][research_byun_guruswamy_1996_c]
+- [Byun and Guruswamy 1998][research_byun_guruswamy_1998]
 - [Cabaleiro de la Hoz and Fioriti 2021][research_cabaleirodelahoz_fioriti_2021]
 - [Cahill 1986][research_cahill_1986]
+- [Cain 1979][research_cain_1979]
 - [Calculation of Elastic Deformations 2004][research_calculation_of_2004]
 - [Calculation of the lateral control of swept and unswept flexible wings of arbitrary stiffness][research_lateral_control_flexible]
 - [Calder and Gupta 1977][research_calder_gupta_1977]
+- [Cameron and Princen 2000][research_cameron_princen_2000]
 - [Campbell and Smith 1987][research_campbell_smith_1987]
 - [Candida et al 2019][research_candida_souzadepaula_2019]
 - [Canfield 2014][research_canfield_2014]
@@ -1207,10 +1280,12 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Cao and Lyu 2024][research_cao_lyu_2024]
 - [Cao et al 2024][research_cao_zhao_2024]
 - [Cao et al 2025][research_cao_lin_2025]
+- [Cao et al 2026][research_cao_lin_2026]
 - [Carafoli 1969][research_carafoli_1969]
 - [Carico 1998][research_carico_1998]
 - [Carlson 1981][research_carlson_1981]
 - [Carlson and Cassarino 1973][research_carlson_cassarino_1973]
+- [Carlson and Miller 1981][research_carlson_miller_1981]
 - [Carlson and Weed 1985][research_carlson_weed_1985]
 - [Carlsson 2003][research_carlsson_2003]
 - [Carlsson 2004][research_carlsson_2004]
@@ -1262,14 +1337,16 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Chang 2005][research_chang_2005]
 - [Chang et al 2002][research_chang_trivailo_2002]
 - [Chang et al 2010][research_chang_yang_2010]
+- [Chanzy][research_chanzy]
 - [Chaparro et al 2017][research_chaparro_fujiwara_2017]
 - [Chapman 1969][research_chapman_1969]
+- [Chapman and Powles 2019][research_chapman_powles_2019]
 - [Chapman and Yates 1992][research_chapman_yates_1992]
 - [Chapter 15. Aeroelastic Systems 1994][research_chapter_15_1994]
 - [Chapter 2. Exploring the 2005][research_chapter_2_2005]
 - [Chapter 3. Aerodynamics of 1960][research_chapter_3_1960]
 - [Chapter 5. Wing-Body Interference 1957][research_chapter_5_1957]
-- [Chapter III Elastic Deformations 1982][research_chapter_iii_1982]
+- [Charles et al 1996][research_charles_hassan_1996]
 - [Charts for the determination of wing torsional stiffness required for specified rolling characteristics][research_charts_torsional_stiffness]
 - [Chase][research_chase]
 - [Chase and McDonald 2014][research_chase_mcdonald_2014]
@@ -1291,6 +1368,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Chen et al 2026][research_chen_ding_2026]
 - [Chen et al 2026][research_chen_gray_2026]
 - [Chen et al 2026][research_chen_zhang_2026]
+- [Chen et al 2026][research_chen_zhou_2026]
 - [Cheney 1988][research_cheney_1988]
 - [Cheng 1961][research_cheng_1961]
 - [Cheng 1982][research_cheng_1982]
@@ -1304,6 +1382,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Cheung et al 2020][research_cheung_rezgui_2020]
 - [Cheung et al 2023][research_cheung_palles_2023]
 - [Chin][research_chin]
+- [Chin 1992][research_chin_1992]
 - [Chin et al 1987][research_chin_chacon_1987]
 - [Chin et al 2011][research_chin_brenner_2011]
 - [Chipman et al 1982][research_chipman_zislin_1982]
@@ -1316,6 +1395,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Chung et al 2019][research_chung_cho_2019]
 - [Chung et al 2021][research_chung_su_2021]
 - [ChunSheng Liu et al 2012][research_chunshengliu_xinzhongzhu_2012]
+- [Chushkin 1979][research_chushkin_1979]
 - [Chyu and Kuwahara 1982][research_chyu_kuwahara_1982]
 - [Ciniglio et al 2003][research_ciniglio_manimala_2003]
 - [Cizmas and Strganac 2010][research_cizmas_strganac_2010]
@@ -1359,16 +1439,19 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Crane, H. L. and Reeder, J. P. 1945][research_cranehl_reederjp_1945]
 - [Crasta and Khan 2014][research_crasta_khan_2014]
 - [Crawley et al 1995][research_crawley_curtiss_1995]
+- [Crisalli et al 1979][research_crisalli_stahara_1979]
 - [Cristofaro 2024][research_cristofaro_2024]
 - [Crites et al 1992][research_crites_rueger_1992]
 - [Crittenden et al 1977][research_crittenden_weisshaar_1977]
 - [Crittenden et al 1978][research_crittenden_weishaar_1978]
+- [Cronander and Ringertz 2000][research_cronander_ringertz_2000]
 - [Cruz and Kienitz 2007][research_cruz_kienitz_2007]
 - [Cui et al 2021][research_cui_jianlong_2021]
 - [Cumming and Diebler 2005][research_cumming_diebler_2005]
 - [Cunningham 1972][research_cunningham_1972]
 - [Cunningham 2017][research_cunningham_2017]
 - [Cunningham et al 2008][research_cunningham_foster_2008]
+- [Cunningham, Jr. 1975][research_cunninghamjr_1975]
 - [Curpanaru et al 2025][research_curpanaru_pastor_2025]
 - [Currao and Yeh 2026][research_currao_yeh_2026]
 - [Cusimano and Johnson 1994][research_cusimano_johnson_1994]
@@ -1393,18 +1476,22 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Darden 1984][research_darden_1984]
 - [Darden 1985][research_darden_1985]
 - [Darida and Smrcek 1998][research_darida_smrcek_1998]
+- [Darling and Hickson 1998][research_darling_hickson_1998]
 - [Das 2026][research_das_2026]
 - [Das et al 2021][research_das_venkatraman_2021]
 - [Davis][research_davis]
 - [Davis 1974][research_davis_1974]
 - [Daynes et al 2015][research_daynes_lachenal_2015]
+- [De Breuker et al 2007][research_debreuker_abdalla_2007]
 - [De Breuker et al 2018][research_debreuker_binder_2018]
 - [De Gaspari et al 2007][research_degaspari_ricci_2007]
 - [De Gaspari et al 2015][research_degaspari_ricci_2015]
 - [de Melo et al 2024][research_demelo_bussamra_2024]
+- [de Nicola et al 1995][research_denicola_tognaccini_1995]
 - [de Visser 1999][research_devisser_1999]
 - [de Visser and Pool 2023][research_devisser_pool_2023]
 - [de Visser et al 2009][research_devisser_mulder_2009]
+- [De Voogt and Ganapathisubramani 2022][research_devoogt_ganapathisubramani_2022]
 - [de Vries and Van Kampen 2019][research_devries_vankampen_2019]
 - [Deangelis 1981][research_deangelis_1981]
 - [DeAngelis 1982][research_deangelis_1982]
@@ -1427,6 +1514,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Demourant and Ferreres 2013][research_demourant_ferreres_2013]
 - [Denegri and Dubben 2003][research_denegri_dubben_2003]
 - [Denegri et al 2005][research_denegri_dubben_2005]
+- [Deng and Gursul 1996][research_deng_gursul_1996]
+- [Deng et al 1997][research_deng_gursul_1997]
+- [Denison 1954][research_denison_1954]
 - [Dennis P. Dykstra 1980][research_dennispdykstra_1980]
 - [Desmarais and Reed, Iii 1980][research_desmarais_reediii_1980]
 - [Dessi and Mastroddi 2002][research_dessi_mastroddi_2002]
@@ -1472,6 +1562,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Dooley 1965][research_dooley_1965]
 - [Dooley and Yeary 1979][research_dooley_yeary_1979]
 - [Dorin and Smolin 1977][research_dorin_smolin_1977]
+- [dos Santos Goncalves et al 2025][research_dossantosgoncalves_santos_2025]
 - [Dowell 1983][research_dowell_1983]
 - [Dowell 1990][research_dowell_1990]
 - [Dowell 1996][research_dowell_1996]
@@ -1479,6 +1570,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Dowell 2001][research_dowell_2001]
 - [Dowell 2021][research_dowell_2021]
 - [Dowell et al 1989][research_dowell_curtiss_1989]
+- [Dowell et al 2003][research_dowell_bliss_2003]
 - [Dowell et al 2006][research_dowell_attar_2006]
 - [Downs and Prazenica 2022][research_downs_prazenica_2022]
 - [Downs and Prazenica 2023][research_downs_prazenica_2023]
@@ -1495,7 +1587,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Dubnický et al 2023][research_dubnicky_splichal_2023]
 - [Duessler et al 2023][research_duessler_mylvaganam_2023]
 - [Duessler et al 2024][research_duessler_mylvaganam_2024]
+- [Duff 1952][research_duff_1952]
 - [Duffy 1989][research_duffy_1989]
+- [Duling et al 2010][research_duling_gandhi_2010]
 - [Dumpleton 1987][research_dumpleton_1987]
 - [Duncan 1950][research_duncan_1950]
 - [Dunning et al 2014][research_dunning_stanford_2014]
@@ -1505,8 +1599,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Dwyer 1994][research_dwyer_1994]
 - [Dynamic force calibration of][research_dynamic_force]
 - [Dynamic Lateral-Directional Stability Theory 2003][research_dynamic_lateral_directional_2003]
+- [E. Goldstein and Ricco 2020][research_egoldstein_ricco_2020]
 - [Eastep et al 1998][research_eastep_andersen_1998]
 - [Eastep et al 1999][research_eastep_tischler_1999]
+- [Eastep et al 2001][research_eastep_andersen_2001]
 - [Eckstrom and Spain 1982][research_eckstrom_spain_1982]
 - [Ecsedi 2000][research_ecsedi_2000]
 - [Edwards 1992][research_edwards_1992]
@@ -1518,6 +1614,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Eguea][research_eguea]
 - [Ehlers and Weisshaar 1992][research_ehlers_weisshaar_1992]
 - [Ehlers and Weisshaar 1993][research_ehlers_weisshaar_1993]
+- [Ehlers and Weisshaar 1993][research_ehlers_weisshaar_1993_b]
 - [Eichelsdörfer 2026][research_eichelsdorfer_2026]
 - [Eichelsdörfer 2026][research_eichelsdorfer_2026_b]
 - [Elastic and Aeroelastic Instabilities 2008][research_elastic_and_2008]
@@ -1539,6 +1636,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Eraslan and Oktay 2024][research_eraslan_oktay_2024]
 - [Erdman 2005][research_erdman_2005]
 - [Ericsson and Reding 1981][research_ericsson_reding_1981]
+- [Erwin et al 1992][research_erwin_gregorek_1992]
 - [Eskandary et al 2012][research_eskandary_dardel_2012]
 - [Eslimy-Isfahany and Banerjee 1995][research_eslimyisfahany_banerjee_1995]
 - [Eslimy-Isfahany et al 1996][research_eslimyisfahany_banerjee_1996]
@@ -1552,9 +1650,11 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Eversman and Roy 1997][research_eversman_roy_1997]
 - [Experimental results from the active aeroelastic wing wind tunnel test program][research_aaw_wind_tunnel]
 - [Exploring the Flight Envelope 2015][research_exploring_the_2015]
+- [Extension of FLO Codes 1982][research_extension_of_1982]
 - [Ezawa et al 2024][research_ezawa_nakatsugawa_2024]
 - [F.M. Strain Gauge System 1975][research_f_m_strain_1975]
 - [Fagbade and Heinz 2024][research_fagbade_heinz_2024]
+- [Fagley et al 2015][research_fagley_seidel_2015]
 - [Fan and Hall 2014][research_fan_hall_2014]
 - [Fan and Lutze 1996][research_fan_lutze_1996]
 - [Fan et al 2017][research_fan_liu_2017]
@@ -1571,6 +1671,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Fasel 2020][research_fasel_2020]
 - [Favale et al 2021][research_favale_haidar_2021]
 - [Fay and Johnstone 1960][research_fay_johnstone_1960]
+- [Fazelzadeh et al 2016][research_fazelzadeh_azadi_2016]
+- [Fazelzadeh et al 2016][research_fazelzadeh_ghasemi_2016]
 - [Faïsse][research_faisse]
 - [Faïsse et al 2021][research_faisse_vernay_2021]
 - [Faïsse et al 2022][research_faisse_vernay_2022]
@@ -1593,6 +1695,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Filippou et al 2026][research_filippou_sodja_2026]
 - [Finnestead et al 1970][research_finnestead_connor_1970]
 - [Fischenberg 1995][research_fischenberg_1995]
+- [Fischer et al 1983][research_fischer_wrightjr_1983]
 - [Fisher et al 1956][research_fisher_gertsen_1956]
 - [Fitzgerald et al 1994][research_fitzgerald_ralston_1994]
 - [Flexible manufacturing cell for 2003][research_flexible_manufacturing_2003]
@@ -1617,6 +1720,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Force measurement. Strain gauge][research_force_measurement]
 - [Fornasier and Heiss 1987][research_fornasier_heiss_1987]
 - [Forsey 1983][research_forsey_1983]
+- [Forster and Steijl 2015][research_forster_steijl_2015]
 - [Forster et al 1996][research_forster_kolonay_1996]
 - [Forster et al 2002][research_forster_sanders_2002]
 - [Forte and Nguyen 2024][research_forte_nguyen_2024]
@@ -1631,6 +1735,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Foster 1966][research_foster_1966]
 - [Fournier][research_fournier]
 - [Fournier et al 2022][research_fournier_massioni_2022]
+- [Fournis 2022][research_fournis_2022]
 - [Frame-wise Control Allocation 2016][research_frame_wise_control_2016]
 - [Frampton and Clark 1998][research_frampton_clark_1998]
 - [Francisco Peña and Benjamin Park 2024][research_franciscopena_benjaminpark_2024]
@@ -1665,11 +1770,13 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Fujimori et al 1989][research_fujimori_ohta_1989]
 - [Fujimori et al 1990][research_fujimori_ohta_1990]
 - [Fujimori et al 1995][research_fujimori_nikiforuk_1995]
+- [Fujiwara and Nguyen 2017][research_fujiwara_nguyen_2017]
 - [Fukumoto et al 2023][research_fukumoto_kouchi_2023]
 - [Further development and flight 1994][research_further_development_1994]
 - [Gabel et al 1961][research_gabel_ricks_1961]
 - [Gade and Inman 1996][research_gade_inman_1996]
 - [Gade and Inman 1997][research_gade_inman_1997]
+- [Gadsden and Habibi 2007][research_gadsden_habibi_2007]
 - [Gai and Seffen 2025][research_gai_seffen_2025]
 - [Gai and Wang 2013][research_gai_wang_2013]
 - [Gai et al 2019][research_gai_sun_2019]
@@ -1679,8 +1786,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Gally and Carlson 1987][research_gally_carlson_1987]
 - [Galway 1980][research_galway_1980]
 - [Gamboa and Santos 2016][research_gamboa_santos_2016]
+- [Gandhi and Bluman 2009][research_gandhi_bluman_2009]
 - [Gandhi and Hathaway 1998][research_gandhi_hathaway_1998]
 - [Gandhi et al 2009][research_gandhi_cooper_2009]
+- [Gandhi et al 2014][research_gandhi_duling_2014]
 - [Gangsaas et al 1981][research_gangsaas_ly_1981]
 - [Ganguli and Chopra 1995][research_ganguli_chopra_1995]
 - [Ganguli and Chopra 1997][research_ganguli_chopra_1997]
@@ -1693,9 +1802,11 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Garcia-Velo and Walker 1995][research_garciavelo_walker_1995]
 - [Garrard and Liebst 1983][research_garrard_liebst_1983]
 - [Garrard and Liebst 1985][research_garrard_liebst_1985]
+- [Garrard, William L. et al 1987][research_garrardwilliaml_liebstbradleys_1987]
 - [Garrick, I E and Rubinow, S I 1946][research_garrickie_rubinowsi_1946]
 - [Garrick, I E and Rubinow, S I 1946][research_garrickie_rubinowsi_1946_b]
 - [Garud and Ajluni 2024][research_garud_ajluni_2024]
+- [Garzon and Matisheck 2012][research_garzon_matisheck_2012]
 - [Gasbarri et al 2009][research_gasbarri_chiwiacowsky_2009]
 - [Gasparetto][research_gasparetto]
 - [Gaspari et al 2009][research_gaspari_ricci_2009]
@@ -1705,12 +1816,16 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Generalized predictive control for 1997][research_generalized_predictive_1997]
 - [Gennaretti 2024][research_gennaretti_2024]
 - [Gennaretti and Ponzi 1999][research_gennaretti_ponzi_1999]
+- [George et al 2016][research_george_ukeiley_2016]
 - [Georgiou et al 2012][research_georgiou_manan_2012]
 - [Gera et al 1981][research_gera_wilson_1981]
 - [Gern 2001][research_gern_2001]
 - [Gern and Librescu 1998][research_gern_librescu_1998]
 - [Gern and Librescu 2000][research_gern_librescu_2000]
 - [Gern et al 2000][research_gern_ko_2000]
+- [Gerontakos and Lee 2006][research_gerontakos_lee_2006]
+- [Gerontakos and Lee 2007][research_gerontakos_lee_2007]
+- [Gerontakos and Lee 2008][research_gerontakos_lee_2008]
 - [Ghalandari et al 2022][research_ghalandari_mahariq_2022]
 - [Ghee and Taylor 2000][research_ghee_taylor_2000]
 - [Ghee and Taylor 2004][research_ghee_taylor_2004]
@@ -1718,9 +1833,11 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Ghiringhelli et al 1992][research_ghiringhelli_lanz_1992]
 - [Ghorawat et al 2015][research_ghorawat_lee_2015]
 - [Ghorawat et al 2016][research_ghorawat_lee_2016]
+- [Ghorawat et al 2016][research_ghorawat_lee_2016_b]
 - [Ghosh and Patil 2022][research_ghosh_patil_2022]
 - [Ghosh and Raisinghani 1993][research_ghosh_raisinghani_1993]
 - [Ghosh and Raisinghani 1994][research_ghosh_raisinghani_1994]
+- [Giannelis et al 2019][research_giannelis_murray_2019]
 - [Giansante et al 2022][research_giansante_bernardini_2022]
 - [Gibson 1981][research_gibson_1981]
 - [Gibson and Ung 1995][research_gibson_ung_1995]
@@ -1730,6 +1847,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Gilbert et al 1982][research_gilbert_schmidt_1982]
 - [Gilbert et al 1984][research_gilbert_schmidt_1984]
 - [Gilbert, Michael G. 1989][research_gilbertmichaelg_1989]
+- [Gilfert and Gudmundsson 2019][research_gilfert_gudmundsson_2019]
 - [Gimmestad 1979][research_gimmestad_1979]
 - [Gimmestad 1981][research_gimmestad_1981]
 - [Gimmestad 1981][research_gimmestad_1981_b]
@@ -1737,7 +1855,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Giunta 1999][research_giunta_1999]
 - [Gloss and Washburn 1977][research_gloss_washburn_1977]
 - [Gloss and Washburn 1978][research_gloss_washburn_1978]
+- [Gnemmi and Rey 2008][research_gnemmi_rey_2008]
 - [Gobal and Grandhi 2015][research_gobal_grandhi_2015]
+- [Godavarthi et al 2026][research_godavarthi_seo_2026]
 - [Goizueta et al 2021][research_goizueta_drachinsky_2021]
 - [Goizueta et al 2022][research_goizueta_wynn_2022]
 - [Goland 1952][research_goland_1952]
@@ -1785,7 +1905,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Grigorie and Botez 2018][research_grigorie_botez_2018]
 - [Grigorie et al 2009][research_grigorie_botez_2009]
 - [Grigorie et al 2011][research_grigorie_popov_2011]
+- [Gripp et al 2023][research_gripp_guimaraesmoreira_2023]
 - [Grismer et al 2000][research_grismer_kinsey_2000]
+- [Grogorie et al 2013][research_grogorie_popov_2013]
 - [Gross 2002][research_gross_2002]
 - [Gross et al 1986][research_gross_chandler_1986]
 - [Grosser 1965][research_grosser_1965]
@@ -1833,6 +1955,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Haghighat et al 2012][research_haghighat_liu_2012]
 - [Haghighat et al 2012][research_haghighat_martins_2012]
 - [Hahn and Haupt 2022][research_hahn_haupt_2022]
+- [Hahn et al 2024][research_hahn_lax_2024]
 - [Haider et al 2022][research_haider_ajaj_2022]
 - [Haider et al 2023][research_haider_ajaj_2023]
 - [Hajj 2004][research_hajj_2004]
@@ -1840,7 +1963,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Hale and Chapman 2012][research_hale_chapman_2012]
 - [Haley and Soloway 2001][research_haley_soloway_2001]
 - [Haley and Soloway 2022][research_haley_soloway_2022]
+- [Halim 1989][research_halim_1989]
 - [Hall and Mason 2012][research_hall_mason_2012]
+- [Hallberg and Kaminer 1999][research_hallberg_kaminer_1999]
 - [Halwas and Aggarwal 2019][research_halwas_aggarwal_2019]
 - [Halwas and Aggarwal 2019][research_halwas_aggarwal_2019_b]
 - [Ham et al 1994][research_ham_kim_1994]
@@ -1864,18 +1989,24 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Harper and Robert P. 1955][research_harper_robertp_1955]
 - [Harris et al 2016][research_harris_arthurs_2016]
 - [Harry and Trobaugh 1966][research_harry_trobaugh_1966]
+- [Hartley et al 1965][research_hartley_furey_1965]
 - [Hartman 2019][research_hartman_2019]
 - [Hartmann 2012][research_hartmann_2012]
 - [Hartmann 2013][research_hartmann_2013]
 - [Hartwell and Nguyen 2021][research_hartwell_nguyen_2021]
 - [Harvey 1983][research_harvey_1983]
+- [Hasan and Akram 2022][research_hasan_akram_2022]
 - [Hashemi and Nguyen 2018][research_hashemi_nguyen_2018_b]
 - [Hashemi et al 2018][research_hashemi_nguyen_2018]
+- [Hassan, A. A. et al 1992][research_hassanaa_charlesbd_1992]
+- [Hassan, Ahmed A. et al 1994][research_hassanahmeda_sankarln_1994]
 - [Hatami-Marbini 2018][research_hatamimarbini_2018]
 - [Hatamleh et al 2009][research_hatamleh_ma_2009]
 - [Haucke et al 2016][research_haucke_bauer_2016]
 - [Hayabe and Kwak 2025][research_hayabe_kwak_2025]
 - [Hayashi and Ueda 2017][research_hayashi_ueda_2017]
+- [He and Guo 2012][research_he_guo_2012]
+- [He et al 2016][research_he_yang_2016]
 - [He et al 2020][research_he_deparday_2020]
 - [He et al 2020][research_he_song_2020]
 - [He et al 2021][research_he_wang_2021]
@@ -1885,6 +2016,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Heaney and Quindlen 2024][research_heaney_quindlen_2024]
 - [Heeg 2006][research_heeg_2006]
 - [Heeg et al 2005][research_heeg_spain_2005]
+- [Heinrich et al 1959][research_heinrich_ballinger_1959]
 - [Held and Fuchs 1999][research_held_fuchs_1999]
 - [Helicopter Flight Parameter Identification 1987][research_helicopter_flight_1987]
 - [Helmken et al 1996][research_helmken_emmons_1996]
@@ -1895,8 +2027,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Henne 1980][research_henne_1980]
 - [Henne and Hicks 1978][research_henne_hicks_1978]
 - [Henry et al 2017][research_henry_molinari_2017]
-- [Herbert][research_herbert]
 - [Herencia et al 2007][research_herencia_weaver_2007]
+- [Hernandez et al 1989][research_hernandez_wood_1989]
+- [Hernandez et al 1990][research_hernandez_wood_1990]
 - [Herrmann][research_herrmann]
 - [Herrmann and Nemat-Nasser 1966][research_herrmann_nematnasser_1966]
 - [Hess 1986][research_hess_1986]
@@ -1951,7 +2084,11 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Hu et al 2025][research_hu_dai_2025]
 - [Hu et al 2026][research_hu_traisnel_2026]
 - [Hua et al 2025][research_hua_wang_2025]
+- [Huang and Hartley 1969][research_huang_hartley_1969]
+- [Huang and Hwang 1969][research_huang_hwang_1969]
+- [Huang and Hwang 1970][research_huang_hwang_1970]
 - [Huang et al 2015][research_huang_qian_2015]
+- [Huang et al 2024][research_huang_fan_2024]
 - [Huang et al 2024][research_huang_wang_2024]
 - [Huang et al 2024][research_huang_zhang_2024]
 - [Huang et al 2025][research_huang_fraihat_2025]
@@ -1967,6 +2104,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Huo et al 2013][research_huo_yuan_2013]
 - [Hur and Valasek 2003][research_hur_valasek_2003]
 - [hussain and Khan 2019][research_hussain_khan_2019]
+- [Hussein 2023][research_hussein_2023]
 - [Hussein et al 2025][research_hussein_rashid_2025]
 - [Hutto 1975][research_hutto_1975]
 - [Huttsell and Eastep 1989][research_huttsell_eastep_1989]
@@ -1985,10 +2123,12 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Ide et al 2019][research_ide_ishida_2019]
 - [Idsardi 1983][research_idsardi_1983]
 - [Ifju et al 2001][research_ifju_waszak_2001]
+- [Iizuka and Fujii 2006][research_iizuka_fujii_2006]
 - [Ilie and Havenar 2023][research_ilie_havenar_2023]
 - [Iliff and Maine 1983][research_iliff_maine_1983]
 - [In-flight deflection measurement of the HiMAT aeroelastically tailored wing][research_himat_deflection]
 - [Incorporating agility flight test 1994][research_incorporating_agility_1994]
+- [Influence of wing geometry 1989][research_influence_of_1989]
 - [Ingle and Kothmann 1998][research_ingle_kothmann_1998]
 - [Initial flight test of 1989][research_initial_flight_1989]
 - [Innocenti 1985][research_innocenti_1985]
@@ -2000,6 +2140,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Ippolito et al 2014][research_ippolito_ting_2014]
 - [Irfan et al 2026][research_irfan_nanangburhan_2026]
 - [Iriarte et al 2021][research_iriarte_aginaga_2021]
+- [Ishide and Itazawa 2017][research_ishide_itazawa_2017]
 - [Ishihara and Nguyen 2014][research_ishihara_nguyen_2014]
 - [Ishihara et al 2013][research_ishihara_nguyen_2013]
 - [Ishii 1965][research_ishii_1965]
@@ -2041,6 +2182,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Jenney et al 1982][research_jenney_schreadley_1982]
 - [Jeong et al 2013][research_jeong_lee_2013]
 - [Jepps 1981][research_jepps_1981]
+- [Jepson and Gopalarathnam 2005][research_jepson_gopalarathnam_2005]
 - [Jha and Chattopadhyay 1999][research_jha_chattopadhyay_1999]
 - [Jia et al 2022][research_jia_zhang_2022]
 - [Jia et al 2023][research_jia_zhang_2023]
@@ -2051,6 +2193,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Jiang and Yang 2026][research_jiang_yang_2026]
 - [Jiang et al 2000][research_jiang_an_2000]
 - [Jiang et al 2019][research_jiang_tian_2019]
+- [Jiang et al 2026][research_jiang_shang_2026]
 - [Jianjun Ma et al 2008][research_jianjunma_pengli_2008]
 - [Jianjun Ma et al 2008][research_jianjunma_wenqiangli_2008]
 - [Jin et al 2013][research_jin_song_2013]
@@ -2064,6 +2207,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Johns 1964][research_johns_1964]
 - [Johnson 1980][research_johnson_1980]
 - [Johnson, C. B. and Kaufman, L. G., III 1979][research_johnsoncb_kaufmanlgiii_1979]
+- [Johnston 1992][research_johnston_1992]
 - [Johnston 1998][research_johnston_1998]
 - [Johnston and Cassarino 1976][research_johnston_cassarino_1976]
 - [Johnston, J. F. 1979][research_johnstonjf_1979]
@@ -2071,8 +2215,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Jones 1976][research_jones_1976]
 - [Jones 1980][research_jones_1980]
 - [Jones and Jarrett 2018][research_jones_jarrett_2018]
+- [Jones and Nisbet 1976][research_jones_nisbet_1976]
 - [Joo et al 2015][research_joo_marks_2015]
 - [Jorge and Lind 2013][research_jorge_lind_2013]
+- [Jothiraj et al 2020][research_jothiraj_sharf_2020]
 - [Jovanov and De Breuker 2015][research_jovanov_debreuker_2015]
 - [Juliana et al 2004][research_juliana_chu_2004]
 - [Jun et al 2014][research_jun_harmin_2014]
@@ -2095,6 +2241,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Kannemans 1995][research_kannemans_1995]
 - [Kapania and Chun 2003][research_kapania_chun_2003]
 - [Kapase et al 2026][research_kapase_joshi_2026]
+- [Karagounis et al 1989][research_karagounis_maxworthy_1989]
 - [Karania et al 2021][research_karania_mohan_2021]
 - [Karathanasopoulos 2015][research_karathanasopoulos_2015]
 - [Karpel 1982][research_karpel_1982]
@@ -2105,12 +2252,14 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Karpel et al 1998][research_karpel_idan_1998]
 - [Karpel et al 2000][research_karpel_moulin_2000]
 - [Karpouzian 1991][research_karpouzian_1991]
+- [Karpouzian 1998][research_karpouzian_1998]
 - [Karpouzian and Librescu 1991][research_karpouzian_librescu_1991]
 - [Karpouzian and Librescu 1992][research_karpouzian_librescu_1992]
 - [Karpouzian and Librescu 1994][research_karpouzian_librescu_1994]
 - [Kassapakis and Warwick 1994][research_kassapakis_warwick_1994]
 - [Katagiri et al 2024][research_katagiri_park_2024]
 - [Katam et al 2005][research_katam_lebeau_2005]
+- [Katary 1983][research_katary_1983]
 - [Kaufman et al 1996][research_kaufman_balabanov_1996]
 - [Kaushik 2018][research_kaushik_2018]
 - [Kawakami et al 2007][research_kawakami_takatoya_2007]
@@ -2130,6 +2279,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Kelly 1974][research_kelly_1974]
 - [Kelly 1988][research_kelly_1988]
 - [Kennedy and Martins 2013][research_kennedy_martins_2013]
+- [Kerho, Michael et al 2012][research_kerhomichael_braggmichaelb_2012]
 - [Keçecioğlu and Salih Yiğit 2026][research_kececioglu_salihyigit_2026]
 - [Khaddage][research_khaddage]
 - [Khalil and Bauknecht 2024][research_khalil_bauknecht_2024]
@@ -2148,6 +2298,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Khot et al 2000][research_khot_appa_2000]
 - [Khot et al 2000][research_khot_zweber_2000]
 - [Khot et al 2002][research_khot_zweber_2002]
+- [Khotyanovsky et al 2017][research_khotyanovsky_kudryavtsev_2017]
 - [Khrabrov and Sidoryuk 2010][research_khrabrov_sidoryuk_2010]
 - [Khrabrov and Sidoryuk 2013][research_khrabrov_sidoryuk_2013]
 - [Kilimtzidis and Kostopoulos 2023][research_kilimtzidis_kostopoulos_2023]
@@ -2169,6 +2320,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Kisslinger and Vetsch 1965][research_kisslinger_vetsch_1965]
 - [Klabes et al 2018][research_klabes_callsen_2018]
 - [Klaue and Seidel 2009][research_klaue_seidel_2009]
+- [Klausmeyer 2004][research_klausmeyer_2004]
 - [Klausmeyer 2018][research_klausmeyer_2018]
 - [Klepl 1990][research_klepl_1990]
 - [Klepl 1995][research_klepl_1995]
@@ -2183,6 +2335,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Kobow et al 2026][research_kobow_wennemann_2026]
 - [Kobusch and Eichstädt 2017][research_kobusch_eichstadt_2017]
 - [Koeniguer and Spear 2018][research_koeniguer_spear_2018]
+- [Kojima and Hashimoto 2023][research_kojima_hashimoto_2023]
 - [Kojima et al 2019][research_kojima_kameda_2019]
 - [Kokolios 1994][research_kokolios_1994]
 - [Kolesar 1971][research_kolesar_1971]
@@ -2199,6 +2352,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Koreanschi et al 2014][research_koreanschi_oliviu_2014]
 - [Koreanschi et al 2015][research_koreanschi_oliviu_2015]
 - [Koreanschi et al 2016][research_koreanschi_oliviu_2016]
+- [Korobkin 1953][research_korobkin_1953]
 - [Kosmatka and Panza 2002][research_kosmatka_panza_2002]
 - [Kotikalpudi et al 2016][research_kotikalpudi_pfifer_2016]
 - [Kotikalpudi et al 2018][research_kotikalpudi_danowsky_2018]
@@ -2214,6 +2368,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Kreshock et al 2018][research_kreshock_yeo_2018]
 - [Krings et al 2013][research_krings_henning_2013]
 - [Kroeger, R. A. 1977][research_kroegerra_1977]
+- [Krothapalli et al 2003][research_krothapalli_alvi_2003]
 - [Krüger et al 2022][research_kruger_meddaikar_2022]
 - [Kubica and Livet 1994][research_kubica_livet_1994]
 - [Kubica and Livet 1994][research_kubica_livet_1994_b]
@@ -2233,22 +2388,27 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Kuppuswamy and Kiran 1981][research_kuppuswamy_kiran_1981]
 - [Kurade et al 2021][research_kurade_venkatakrishnan_2021]
 - [Kurita et al 2019][research_kurita_koike_2019]
+- [Kurosaka 1974][research_kurosaka_1974]
 - [Kurzke and Halliwell 2018][research_kurzke_halliwell_2018]
 - [Kurzke et al 2025][research_kurzke_halliwell_2025]
 - [Kutluay et al 2009][research_kutluay_mahmutyazicioglu_2009]
 - [Kuttenkeuler and Ringertz 1998][research_kuttenkeuler_ringertz_1998]
 - [Kwak et al 2004][research_kwak_shirotake_2004]
+- [Kwon and Vepa 2022][research_kwon_vepa_2022]
 - [Kwon et al 2026][research_kwon_chang_2026]
 - [Kwong et al 2024][research_kwong_severson_2024]
 - [Küssner 1959][research_kussner_1959]
 - [Laban and Masui 1993][research_laban_masui_1993]
+- [Lackner and van Kuik 2009][research_lackner_vankuik_2009]
 - [Lai et al 2014][research_lai_zhang_2014]
 - [Lai et al 2016][research_lai_lu_2016]
 - [Lam et al 2024][research_lam_paranjape_2024]
+- [Lamar 1977][research_lamar_1977]
 - [Lambert and Gursul 2001][research_lambert_gursul_2001]
 - [Lamour 2014][research_lamour_2014]
 - [Lamy 1983][research_lamy_1983]
 - [Lan et al 2006][research_lan_bianchi_2006]
+- [Lan et al 2026][research_lan_wang_2026]
 - [Landers and Landrum 1998][research_landers_landrum_1998]
 - [Landers et al 1997][research_landers_landrum_1997]
 - [Lang 1981][research_lang_1981]
@@ -2270,16 +2430,21 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Leal et al 2018][research_leal_stroud_2018]
 - [Leal et al 2018][research_leal_white_2018]
 - [Leble and Barakos 2016][research_leble_barakos_2016]
+- [Lebofsky et al 2014][research_lebofsky_ting_2014]
 - [Lebofsky et al 2015][research_lebofsky_ting_2015]
 - [Lebofsky et al 2015][research_lebofsky_ting_2015_b]
 - [Lee 1994][research_lee_1994]
 - [Lee and Aldredge 2015][research_lee_aldredge_2015]
 - [Lee and Boedicker 1985][research_lee_boedicker_1985]
+- [Lee and Chen 2004][research_lee_chen_2004]
+- [Lee and Gerontakos 2009][research_lee_gerontakos_2009]
 - [Lee and Kim 1995][research_lee_kim_1995]
 - [Lee and Singh 2006][research_lee_singh_2006]
 - [Lee and Singh 2009][research_lee_singh_2009]
+- [Lee and Singh 2013][research_lee_singh_2013]
 - [Lee and Singh 2014][research_lee_singh_2014]
 - [Lee and Singh 2018][research_lee_singh_2018]
+- [Lee and Su 2012][research_lee_su_2012]
 - [Lee et al 1993][research_lee_valerio_1993]
 - [Lee et al 1994][research_lee_kim_1994]
 - [Lee et al 2018][research_lee_hashemi_2018]
@@ -2290,6 +2455,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Leitch et al 2024][research_leitch_stodieck_2024]
 - [Leitch et al 2025][research_leitch_stodieck_2025]
 - [Lekou and Mouzakis 2009][research_lekou_mouzakis_2009]
+- [Lendraitis 2019][research_lendraitis_2019]
 - [Lesoinne 2007][research_lesoinne_2007]
 - [Lesoinne and Farhat 1993][research_lesoinne_farhat_1993]
 - [Lesoinne and Farhat 1995][research_lesoinne_farhat_1995]
@@ -2305,12 +2471,15 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Lhachemi et al 2017][research_lhachemi_chu_2017]
 - [Lhachemi et al 2017][research_lhachemi_saussie_2017]
 - [Li 2018][research_li_2018]
+- [Li 2026][research_li_2026]
 - [Li and Ang 2016][research_li_ang_2016]
 - [Li and Fleeter 1996][research_li_fleeter_1996]
 - [Li and Geiselhart 2026][research_li_geiselhart_2026]
 - [Li and Li 2016][research_li_li_2016]
 - [Li and Livne 1995][research_li_livne_1995]
+- [Li and Livne 1996][research_li_livne_1996]
 - [Li and Livne 1997][research_li_livne_1997]
+- [Li and Livne 1997][research_li_livne_1997_b]
 - [Li and Qin 2020][research_li_qin_2020]
 - [Li and Qin 2020][research_li_qin_2020_b]
 - [Li and Qin 2021][research_li_qin_2021]
@@ -2336,6 +2505,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Li et al 2024][research_li_dai_2024]
 - [Li et al 2024][research_li_kou_2024]
 - [Li et al 2024][research_li_qian_2024]
+- [Li et al 2024][research_li_sun_2024]
 - [Li et al 2024][research_li_zhang_2024]
 - [Li et al 2024][research_li_zhiqiang_2024]
 - [Li et al 2025][research_li_dai_2025]
@@ -2361,6 +2531,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Liebst et al 1986][research_liebst_garrard_1986]
 - [Liebst et al 1986][research_liebst_garrard_1986_b]
 - [Liebst et al 1988][research_liebst_garrard_1988]
+- [Lim and Lee 2009][research_lim_lee_2009]
+- [Lim and Lee 2009][research_lim_lee_2009_b]
 - [Lim et al 2000][research_lim_sreenatha_2000]
 - [Limitations and Flight Envelope 2017][research_limitations_and_2017]
 - [Lin 1982][research_lin_1982]
@@ -2389,18 +2561,23 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Liu 2022][research_liu_2022]
 - [Liu 2022][research_liu_2022_b]
 - [Liu and Gong 2021][research_liu_gong_2021]
+- [Liu and Liu 2016][research_liu_liu_2016]
 - [Liu and Sun 2016][research_liu_sun_2016]
 - [Liu and Sun 2017][research_liu_sun_2017]
+- [Liu and Zha 2016][research_liu_zha_2016]
 - [Liu and Zhang 2020][research_liu_zhang_2020]
 - [Liu et al 2009][research_liu_sun_2009]
 - [Liu et al 2011][research_liu_yin_2011]
 - [Liu et al 2013][research_liu_bai_2013]
 - [Liu et al 2013][research_liu_zhu_2013]
 - [Liu et al 2015][research_liu_zhou_2015]
+- [Liu et al 2017][research_liu_bai_2017]
 - [Liu et al 2017][research_liu_sun_2017_b]
 - [Liu et al 2018][research_liu_dong_2018]
 - [Liu et al 2018][research_liu_zhang_2018]
+- [Liu et al 2018][research_liu_zhao_2018]
 - [Liu et al 2020][research_liu_gao_2020]
+- [Liu et al 2020][research_liu_gao_2020_b]
 - [Liu et al 2023][research_liu_lei_2023]
 - [Liu et al 2023][research_liu_pang_2023]
 - [Liu et al 2023][research_liu_wang_2023]
@@ -2417,6 +2594,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Livne 2001][research_livne_2001]
 - [Livne 2010][research_livne_2010]
 - [Livne and Li 1994][research_livne_li_1994]
+- [Livne et al 2014][research_livne_precup_2014]
 - [Lizotte, Andrew and Allen, Michael J. 2005][research_lizotteandrew_allenmichaelj_2005]
 - [Lo and Chan][research_lo_chan]
 - [Loads model development and analysis for the F/A-18 active aeroelastic wing airplane][research_aaw_loads_model]
@@ -2442,13 +2620,16 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Love and Bohlmann 1991][research_love_bohlmann_1991]
 - [Love and Lind 2010][research_love_lind_2010]
 - [Low et al 2016][research_low_pheh_2016]
+- [Low Reynolds Number Aerodynamics 2008][research_low_reynolds_2008]
 - [Lowe and Zingg 2021][research_lowe_zingg_2021]
+- [Lozano et al 2022][research_lozano_rahbari_2022]
 - [Lu and Huang 1993][research_lu_huang_1993]
 - [Lu and Murthy 1990][research_lu_murthy_1990]
 - [Lu and Yeh 1993][research_lu_yeh_1993]
 - [Lu et al 2016][research_lu_cui_2016]
 - [Lu et al 2019][research_lu_ma_2019]
 - [Lu et al 2026][research_lu_lan_2026]
+- [Lubis et al 2026][research_lubis_ellyawansetyoarbintarso_2026]
 - [Lucas 1978][research_lucas_1978]
 - [Lucas et al 2009][research_lucas_valasek_2009]
 - [Luce and Jr 1949][research_luce_jr_1949]
@@ -2456,6 +2637,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Lukichev et al 2017][research_lukichev_demidova_2017]
 - [Lum et al 2016][research_lum_xu_2016]
 - [Luoma, Avro A 1944][research_luomaavroa_1944]
+- [Lusk et al 2012][research_lusk_cattafesta_2012]
 - [Luton and Mook 1992][research_luton_mook_1992]
 - [Luton and Mook 1993][research_luton_mook_1993]
 - [Ly et al 2006][research_ly_gear_2006]
@@ -2463,6 +2645,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Lynch and Rogers 1976][research_lynch_rogers_1976]
 - [Lyons et al 1973][research_lyons_vepa_1973]
 - [M 2026][research_m_2026]
+- [M. Abhinav and V. Narasimha Reddy 2016][research_mabhinav_vnarasimhareddy_2016]
 - [M. V. Sunil and Menghal 2022][research_mvsunil_menghal_2022]
 - [Ma and Wang 2009][research_ma_wang_2009]
 - [Ma et al 2022][research_ma_wang_2022]
@@ -2481,6 +2664,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Mahesh et al 1980][research_mahesh_stone_1980]
 - [Mahmood 2025][research_mahmood_2025]
 - [Maki 2016][research_maki_2016]
+- [Mallik et al 2015][research_mallik_kapania_2015]
 - [Mamedov et al 2018][research_mamedov_paryshev_2018]
 - [Manan and Cooper 2008][research_manan_cooper_2008]
 - [Mancini and Vos 2019][research_mancini_vos_2019]
@@ -2494,6 +2678,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Mao et al 2023][research_mao_guo_2023]
 - [Marano et al 2022][research_marano_belardo_2022]
 - [Marchetti 2023][research_marchetti_2023]
+- [Marchman 1975][research_marchman_1975]
+- [Marchman 1981][research_marchman_1981]
 - [Marchman, Iii and Grantz 1982][research_marchmaniii_grantz_1982]
 - [Marciniuk et al 2024][research_marciniuk_piskur_2024]
 - [Mardanpour and Rastkar 2017][research_mardanpour_rastkar_2017]
@@ -2535,6 +2721,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Matula et al 2026][research_matula_yalla_2026]
 - [Maunder 1979][research_maunder_1979]
 - [Maute et al 2008][research_maute_farhat_2008]
+- [Mavriplis and Levy 2002][research_mavriplis_levy_2002]
 - [Mayer et al 2019][research_mayer_lutz_2019]
 - [Mayo et al 2016][research_mayo_carroll_2016]
 - [Mayya et al 2022][research_mayya_karnick_2022]
@@ -2573,6 +2760,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Merrett and Hilton 2011][research_merrett_hilton_2011]
 - [Merrett et al 2011][research_merrett_hilton_2011_b]
 - [Mertaugh 1998][research_mertaugh_1998]
+- [Mertens et al 1986][research_mertens_klevenhusen_1986]
 - [Mertins et al 2005][research_mertins_elsholz_2005]
 - [Methods of calculating the 2015][research_methods_of_calculating_2015]
 - [Meyer and Fields 1978][research_meyer_fields_1978]
@@ -2583,6 +2771,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Mihaila-Andres et al 2017][research_mihailaandres_larco_2017]
 - [Mihaila-Andres et al 2017][research_mihailaandres_rosu_2017]
 - [Milanese et al 2008][research_milanese_marzocca_2008]
+- [Milanovic and Kalkhoran 2000][research_milanovic_kalkhoran_2000]
 - [Miller and Schemensky 1979][research_miller_schemensky_1979]
 - [Miller and Wood 1983][research_miller_wood_1983]
 - [Miller et al 1979][research_miller_protopapas_1979]
@@ -2594,6 +2783,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Minimum Performance Standard for][research_minimum_performance]
 - [Minimum Performance Standard for][research_minimum_performance_b]
 - [Miodushevsky and Ruggiero 2000][research_miodushevsky_ruggiero_2000]
+- [Mishra and Baeder 2016][research_mishra_baeder_2016]
 - [Miskin and Takahashi 2018][research_miskin_takahashi_2018]
 - [Miskin and Takahashi 2019][research_miskin_takahashi_2019]
 - [Mission adaptive wing test program][research_mission_adaptive_wing]
@@ -2616,6 +2806,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Molton et al 2010][research_molton_bur_2010]
 - [Molton et al 2013][research_molton_dandois_2013]
 - [Molusis and Kleinman 1982][research_molusis_kleinman_1982]
+- [Molyneux 1960][research_molyneux_1960]
 - [Molz and Breitsamter 2026][research_molz_breitsamter_2026]
 - [Moni et al 2026][research_moni_wales_2026]
 - [Montel and Thielecke 2015][research_montel_thielecke_2015]
@@ -2624,6 +2815,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Mooij 2020][research_mooij_2020]
 - [Mooij and Wang 2021][research_mooij_wang_2021]
 - [Moon 1996][research_moon_1996]
+- [Moon et al 2010][research_moon_gai_2010]
 - [Moore 1992][research_moore_1992]
 - [Moore 1995][research_moore_1995]
 - [Moosavi and Elasha 2022][research_moosavi_elasha_2022]
@@ -2642,6 +2834,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Morino and Obayashi 2015][research_morino_obayashi_2015]
 - [Morphing WING REAL TIME 2010][research_morphing_wing_2010]
 - [Morphing Wing Technologies 2018][research_morphing_wing_2018]
+- [Morris et al 2008][research_morris_allen_2008]
 - [Morton et al 2012][research_morton_cox_2012]
 - [Moshier 2006][research_moshier_2006]
 - [Moshtaghzadeh et al 2023][research_moshtaghzadeh_rangel_2023]
@@ -2666,6 +2859,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Murch 2008][research_murch_2008]
 - [Murphy and Mermagen 2004][research_murphy_mermagen_2004]
 - [Murphy et al 2004][research_murphy_klein_2004]
+- [Murray, Harry E. and Erwin, Mary A. 1945][research_murrayharrye_erwinmarya_1945]
 - [Murthy and Lu 1992][research_murthy_lu_1992]
 - [Murugan and Ganguli 2005][research_murugan_ganguli_2005]
 - [Muscarello et al 2017][research_muscarello_masarati_2017]
@@ -2676,6 +2870,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Muñoz and García-Fogeda 2024][research_munoz_garciafogeda_2024]
 - [Muñoz Medina][research_munozmedina]
 - [Müller et al 2026][research_muller_woidt_2026]
+- [Na et al 2006][research_na_librescu_2006]
 - [Na Zhao et al 2010][research_nazhao_dengqingcao_2010]
 - [NACA Conference on Aerodynamic 1949][research_naca_conference_1949]
 - [Nadim Melhem et al 2024][research_nadimmelhem_richardmunroe_2024]
@@ -2688,6 +2883,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Nakadate 2005][research_nakadate_2005]
 - [Nam et al 1996][research_nam_kim_1996]
 - [Nam et al 1997][research_nam_kim_1997]
+- [Nam et al 1998][research_nam_chattopadhyay_1998]
+- [Nam et al 2000][research_nam_chattopadhyay_2000]
 - [Namdeo et al 2023][research_namdeo_bhattacharyya_2023]
 - [Nangia and Palmer 2007][research_nangia_palmer_2007]
 - [Napolitano et al 2001][research_napolitano_song_2001]
@@ -2695,11 +2892,16 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Narayanaswamy et al 2008][research_narayanaswamy_narayanan_2008]
 - [Narimani et al 2025][research_narimani_haddadpour_2025]
 - [Nash et al 2025][research_nash_timme_2025]
+- [Nastase 1988][research_nastase_1988]
+- [Nastase 2011][research_nastase_2011]
+- [Nastase 2012][research_nastase_2012]
 - [Nasu, Ken-Ichi 1986][research_nasukenichi_1986]
+- [Nath Dubba 2021][research_nathdubba_2021]
 - [Navardi et al 2023][research_navardi_shahverdi_2023]
 - [Navardi et al 2026][research_navardi_shahverdi_2026]
 - [Navrátil et al 2024][research_navratil_hostinsky_2024]
 - [Naylor 1957][research_naylor_1957]
+- [Neuert and Dinkler 2020][research_neuert_dinkler_2020]
 - [Neumann et al 2020][research_neumann_dealmeida_2020]
 - [Newman and Buttrill 1995][research_newman_buttrill_1995]
 - [Newman and Kassem 1997][research_newman_kassem_1997_b]
@@ -2750,6 +2952,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Niculescu et al 2021][research_niculescu_corcau_2021]
 - [Nie et al 2009][research_nie_zhang_2009]
 - [Niel][research_niel]
+- [Nielsen et al 1984][research_nielsen_goodwin_1984]
 - [Nieminen et al 2023][research_nieminen_tuohineva_2023]
 - [Nikolaos et al 2024][research_nikolaos_spyridon_2024]
 - [Nilsson et al 2023][research_nilsson_yao_2023]
@@ -2763,8 +2966,13 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Nissim, E. et al 1976][research_nissime_caspia_1976]
 - [Nitzsche 1994][research_nitzsche_1994]
 - [Niven and Tait 2000][research_niven_tait_2000]
+- [Nixon 1983][research_nixon_1983]
 - [Nixon 2020][research_nixon_2020]
+- [Nixon 2020][research_nixon_2020_b]
+- [Nixon and Nixon 1997][research_nixon_nixon_1997]
+- [Nixon and Tzuoo 1986][research_nixon_tzuoo_1986]
 - [Nixon and Tzuoo 1987][research_nixon_tzuoo_1987]
+- [Nixon et al 1990][research_nixon_caruso_1990]
 - [Nixon et al 2000][research_nixon_piatak_2000]
 - [Nixon, Mark W. et al 1999][research_nixonmarkw_piatakdavidj_1999]
 - [Noevere and Wilhite 2016][research_noevere_wilhite_2016]
@@ -2778,6 +2986,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Noll et al 1984][research_noll_eastep_1984]
 - [Noll et al 1989][research_noll_perryiii_1989]
 - [Nomura 2003][research_nomura_2003]
+- [Nonlinear Aeroelastic Analysis of 2007][research_nonlinear_aeroelastic_2007]
 - [Norton 1989][research_norton_1989]
 - [Norton 1990][research_norton_1990]
 - [Null and Shkarayev 2004][research_null_shkarayev_2004]
@@ -2785,15 +2994,18 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Numerical calculation method and 2015][research_numerical_calculation_2015]
 - [Numerical Method and Program 2013][research_numerical_method_2013]
 - [Nurohman et al 2018][research_nurohman_arifianto_2018]
+- [O and Lewis 2001][research_o_lewis_2001]
 - [O'Brien and Datta 2026][research_obrien_datta_2026]
 - [O'Donnell and Mohseni 2019][research_odonnell_mohseni_2019]
 - [Obayashi et al 2000][research_obayashi_sasaki_2000]
 - [Oberkampf 1974][research_oberkampf_1974]
+- [Oberkampf 1981][research_oberkampf_1981]
 - [Obradovic and Subbarao 2010][research_obradovic_subbarao_2010]
 - [Ockier et al 2017][research_ockier_kolb_2017]
 - [Odriozola et al 2026][research_odriozola_marquier_2026]
 - [Oelker and Friehmelt 1998][research_oelker_friehmelt_1998]
 - [Ogren et al 1974][research_ogren_sotanski_1974]
+- [Oh and Tavella 1987][research_oh_tavella_1987]
 - [Ohta and Fujimori 1988][research_ohta_fujimori_1988]
 - [Ohta et al 1984][research_ohta_nikiforuk_1984]
 - [Ohta et al 1989][research_ohta_fujimori_1989]
@@ -2848,6 +3060,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Paper, board and pulps][research_paper_board]
 - [Papila and Haftka 1999][research_papila_haftka_1999]
 - [Paris and Alaverdi 2005][research_paris_alaverdi_2005]
+- [Park 2003][research_park_2003]
 - [Park and Abla 1982][research_park_abla_1982]
 - [Park and Abla 1983][research_park_abla_1983]
 - [Park and Chung 2012][research_park_chung_2012]
@@ -2861,6 +3074,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Patil 2003][research_patil_2003]
 - [Patil and Clark 2002][research_patil_clark_2002]
 - [Patil and Hodges 2000][research_patil_hodges_2000_b]
+- [Patil and Hodges 2002][research_patil_hodges_2002]
 - [Patil and Patil 1997][research_patil_patil_1997]
 - [Patil et al 2000][research_patil_hodges_2000]
 - [Paul][research_paul]
@@ -2878,6 +3092,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Pecora et al 2021][research_pecora_amoroso_2021]
 - [Pedreiro et al 1998][research_pedreiro_takahara_1998]
 - [Pedreiro et al 1999][research_pedreiro_takahara_1999]
+- [Pedro and Tshabalala 2017][research_pedro_tshabalala_2017]
+- [Pedro and Tshabalala 2017][research_pedro_tshabalala_2017_b]
 - [Peele, E. L. and Eckstrom, C. V. 1975][research_peeleel_eckstromcv_1975]
 - [Pellegrino et al 2022][research_pellegrino_quaranta_2022]
 - [Peloubet, Jr. et al 1983][research_peloubetjr_haller_1983]
@@ -2889,6 +3105,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Perera and Guo 2008][research_perera_guo_2008]
 - [Perez-Becker et al 2021][research_perezbecker_marten_2021]
 - [Perkins and Brice 1966][research_perkins_brice_1966]
+- [Perry and Mueller 1986][research_perry_mueller_1986]
+- [Perry and Mueller 1987][research_perry_mueller_1987]
+- [Perry, Iii et al 1988][research_perryiii_dunn_1988]
 - [Perry, Iii et al 1990][research_perryiii_mukhopadhyay_1990]
 - [Persoon et al 1980][research_persoon_roos_1980]
 - [Peschel and Röske 2000][research_peschel_roske_2000]
@@ -2905,7 +3124,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Phan 2020][research_phan_2020]
 - [Philipsen and Zhai 2007][research_philipsen_zhai_2007]
 - [Phillips][research_phillips]
+- [Phillips and Waggoner 1988][research_phillips_waggoner_1988]
+- [Phillips et al 2002][research_phillips_lambert_2002]
 - [Phillips et al 2022][research_phillips_white_2022]
+- [Phillips et al 2025][research_phillips_haughn_2025]
 - [Piatak, David J. and Cleckner, Craig S. 2002][research_piatakdavidj_clecknercraigs_2002]
 - [Picard 2002][research_picard_2002]
 - [Pines and Newman 1974][research_pines_newman_1974]
@@ -2915,6 +3137,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Pitt Ford et al 2012][research_pittford_stevens_2012]
 - [Plaban and Takahashi 2021][research_plaban_takahashi_2021]
 - [Plaetschke et al 1982][research_plaetschke_mulder_1982]
+- [Platanitis and Strganac 2005][research_platanitis_strganac_2005]
 - [Plath][research_plath]
 - [Polonsky 2026][research_polonsky_2026]
 - [Pomin et al 2001][research_pomin_altmikus_2001]
@@ -2928,11 +3151,16 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Porter et al 1992][research_porter_merzougui_1992]
 - [Porter et al 1992][research_porter_merzougui_1992_b]
 - [Porterfield and Alexander 1970][research_porterfield_alexander_1970]
+- [Potential Equation Methods for 1982][research_potential_equation_1982]
 - [Pototzky 2010][research_pototzky_2010]
 - [Potvin and Grant 2026][research_potvin_grant_2026]
 - [Pourtakdoust and Khodabakhsh 2026][research_pourtakdoust_khodabakhsh_2026]
 - [Poussot-Vassal et al 2022][research_poussotvassal_vuillemin_2022]
 - [Powers et al 1992][research_powers_webb_1992]
+- [Powles][research_powles]
+- [Powles 2004][research_powles_2004]
+- [Powles 2004][research_powles_2004_b]
+- [Powles and Chapman 2019][research_powles_chapman_2019]
 - [Prabhakar 2025][research_prabhakar_2025]
 - [Prabhakar and Murugan 2022][research_prabhakar_murugan_2022]
 - [Prabhakar and Murugan 2026][research_prabhakar_murugan_2026]
@@ -2942,6 +3170,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Prazenica 2014][research_prazenica_2014]
 - [Prazenica et al 2004][research_prazenica_reisenthel_2004]
 - [Precup et al 2018][research_precup_mor_2018]
+- [Prediction of transonic flutter 1981][research_prediction_of_1981]
 - [Pressures and Temperatures for 2000][research_pressures_and_2000]
 - [Price et al 2002][research_price_koffi_2002]
 - [Prochazka et al 2018][research_prochazka_eduardo_2018]
@@ -2958,10 +3187,14 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Punzi et al 2024][research_punzi_crooks_2024]
 - [Pursel 1977][research_pursel_1977]
 - [Purser, P. E. and Tucker, W. A. 1949][research_purserpe_tuckerwa_1949]
+- [Purser, Paul E. and Gillis, Clarence L. 1943][research_purserpaule_gillisclarencel_1943]
+- [Purser, Paul E. and Mckinney, Elizabeth G. 1945][research_purserpaule_mckinneyelizabethg_1945]
 - [Purwadi et al 2023][research_purwadi_hidayat_2023]
 - [Pusch 2017][research_pusch_2017]
 - [Pusch 2018][research_pusch_2018]
 - [Pusch et al 2019][research_pusch_knoblach_2019]
+- [Pusch et al 2019][research_pusch_ossmann_2019]
+- [Pusch et al 2019][research_pusch_ossmann_2019_b]
 - [Pusch et al 2022][research_pusch_kier_2022]
 - [Pushtaev 1989][research_pushtaev_1989]
 - [Puyou and Berard 2007][research_puyou_berard_2007]
@@ -2992,6 +3225,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Raab 2026][research_raab_2026]
 - [Rade and de Souza 2016][research_rade_desouza_2016]
 - [Radestock et al 2018][research_radestock_falken_2018]
+- [Radvogin 1979][research_radvogin_1979]
+- [Ragab and El-Gabry 2015][research_ragab_elgabry_2015]
 - [Raghunathan and Coll 1981][research_raghunathan_coll_1981]
 - [Raghunathan et al 1998][research_raghunathan_mitchell_1998]
 - [Rahman and Li 2013][research_rahman_li_2013]
@@ -3010,6 +3245,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Rao et al][research_rao_behal]
 - [Rao et al 1978][research_rao_kronenberger_1978]
 - [Rao et al 2005][research_rao_behal_2005]
+- [Rao, D. M. 1980][research_raodm_1980]
+- [Rao, D. M. 1984][research_raodm_1984]
+- [Rao, D. M. and Johnson, T. D., Jr. 1982][research_raodm_johnsontdjr_1982]
 - [Raol and Singh 2023][research_raol_singh_2023]
 - [Raol and Singh 2023][research_raol_singh_2023_b]
 - [Raoof and Kraincanic 1998][research_raoof_kraincanic_1998]
@@ -3035,6 +3273,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Reichenbach 2008][research_reichenbach_2008]
 - [Reichenbach et al 2009][research_reichenbach_urnes_2009]
 - [Reichenbach et al 2011][research_reichenbach_castelluccio_2011]
+- [Reimann 2016][research_reimann_2016]
+- [Reimer 1998][research_reimer_1998]
+- [Reinbold et al 2021][research_reinbold_sorensen_2021]
 - [Reinbold et al 2026][research_reinbold_breitsamter_2026]
 - [Reist et al 2022][research_reist_koo_2022]
 - [Rendina and Mazzoni 1999][research_rendina_mazzoni_1999]
@@ -3066,9 +3307,11 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Rimer et al 1984][research_rimer_chipman_1984]
 - [Rimer et al 1984][research_rimer_chipman_1984_b]
 - [Rimer et al 1986][research_rimer_chipman_1986]
+- [Rinoie et al 2006][research_rinoie_shirotake_2006]
 - [Riou et al 2010][research_riou_garnier_2010]
 - [Rising 1982][research_rising_1982]
 - [Ritter et al 2017][research_ritter_dillinger_2017]
+- [Rivers et al 2001][research_rivers_wahls_2001]
 - [Rizk 1980][research_rizk_1980]
 - [Rizzetta 1977][research_rizzetta_1977]
 - [Rizzetta 1995][research_rizzetta_1995]
@@ -3105,7 +3348,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Roohani and Skews 2009][research_roohani_skews_2009]
 - [Roos et al 1975][research_roos_bennekers_1975]
 - [Rose and Jinu 2014][research_rose_jinu_2014]
+- [Rose and Pittman 1989][research_rose_pittman_1989]
 - [Rosemann and Birkemeyer 2002][research_rosemann_birkemeyer_2002]
+- [Rosen 1985][research_rosen_1985]
+- [Rosen 1988][research_rosen_1988]
 - [Rosenberg 1944][research_rosenberg_1944]
 - [Roskam, J. and Lan, C. 1973][research_roskamj_lanc_1973]
 - [Roskam, J. et al 1972][research_roskamj_lanc_1972]
@@ -3130,6 +3376,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Rustenburg 1973][research_rustenburg_1973]
 - [Rutkowski 1979][research_rutkowski_1979]
 - [S et al 2025][research_s_a_2025]
+- [S. and M. 2011][research_s_m_2011]
 - [S.A. Gee et al][research_sagee_akylas]
 - [Sabatini et al 2026][research_sabatini_coppotelli_2026]
 - [Sabatini et al 2026][research_sabatini_livne_2026]
@@ -3221,30 +3468,41 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Seginer and Rose 1976][research_seginer_rose_1976]
 - [Segui et al 2017][research_segui_gabor_2017]
 - [Seidel et al 1985][research_seidel_sandford_1985]
+- [Seider and Haenel 1991][research_seider_haenel_1991]
 - [Seiler et al 2012][research_seiler_balas_2012]
 - [sekhar et al 2024][research_sekhar_suresh_2024]
 - [Seki et al 2019][research_seki_tani_2019]
+- [Selerowicz 2020][research_selerowicz_2020]
 - [Selvadurai 1984][research_selvadurai_1984]
 - [Selvam et al 2001][research_selvam_qu_2001]
 - [Semionov and Kosinov 2007][research_semionov_kosinov_2007]
 - [Sendner et al 2018][research_sendner_stahl_2018]
+- [Seraile et al 2024][research_seraile_uddin_2024]
 - [Serpieri and Kotsonis 2015][research_serpieri_kotsonis_2015]
 - [Setoodeh et al 2005][research_setoodeh_abdallah_2005]
 - [Sezgin and Krstic 2013][research_sezgin_krstic_2013]
 - [Sha et al 2022][research_sha_sun_2022]
+- [Shankar 1980][research_shankar_1980]
 - [Shankar and Goebel 1985][research_shankar_goebel_1985]
 - [Shankar and Malmuth 1982][research_shankar_malmuth_1982]
 - [Shao et al 2024][research_shao_guo_2024]
+- [Shao et al 2026][research_shao_he_2026]
 - [Sharifi et al 2025][research_sharifi_vincenti_2025]
 - [Sharma et al 2022][research_sharma_agrawal_2022]
+- [Sharp 1959][research_sharp_1959]
 - [Sharpe et al 2023][research_sharpe_ulker_2023]
 - [Sharqi et al 2021][research_sharqi_cesnik_2021]
 - [Shavezipur 2021][research_shavezipur_2021]
 - [Shaw et al][research_shaw_hidalgo]
 - [Shearwood et al 2020][research_shearwood_nabawy_2020]
 - [Shearwood et al 2020][research_shearwood_nabawy_2020_b]
+- [Shearwood et al 2021][research_shearwood_nabawy_2021]
 - [Shearwood et al 2023][research_shearwood_nabawy_2023]
 - [Sheldon and Rasmussen][research_sheldon_rasmussen]
+- [Shen and Chopra 2000][research_shen_chopra_2000]
+- [Shen and Chopra 2001][research_shen_chopra_2001]
+- [Shen and Chopra 2003][research_shen_chopra_2003]
+- [Shen and Chopra 2004][research_shen_chopra_2004]
 - [Shen et al 2019][research_shen_branscomb_2019]
 - [Shen et al 2024][research_shen_li_2024]
 - [Sheta 2000][research_sheta_2000]
@@ -3254,6 +3512,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Shi et al 2023][research_shi_zuo_2023]
 - [Shieh 1988][research_shieh_1988]
 - [Shimin et al 2025][research_shimin_letian_2025]
+- [Shin et al 2007][research_shin_lee_2007]
 - [Shipley and Gopalarathnam 2006][research_shipley_gopalarathnam_2006]
 - [Shirk et al 1984][research_shirk_hertz_1984]
 - [Shirk, M. H. et al 1986][research_shirkmh_hertztj_1986]
@@ -3269,10 +3528,13 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Siebert et al 2026][research_siebert_strothteicher_2026]
 - [Sieradzki 2016][research_sieradzki_2016]
 - [Sigrest et al 2022][research_sigrest_wu_2022]
+- [Sihite et al 2023][research_sihite_salagame_2023]
 - [Siler et al 1997][research_siler_volk_1997]
+- [Silton and Coyle 2016][research_silton_coyle_2016]
 - [Silva][research_silva]
 - [Silva][research_silva_b]
 - [Silva and Bennett 1995][research_silva_bennett_1995]
+- [Silva and De Marqui Junior 2014][research_silva_demarquijunior_2014]
 - [Silva et al 2006][research_silva_mello_2006]
 - [Silva et al 2008][research_silva_mello_2008]
 - [Silvestre 2013][research_silvestre_2013]
@@ -3298,8 +3560,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Singh et al 2014][research_singh_mcdonough_2014]
 - [Singh et al 2015][research_singh_brown_2015]
 - [Singh et al 2016][research_singh_brown_2016]
+- [Singh et al 2022][research_singh_ukeiley_2022]
 - [Singh et al 2024][research_singh_kumari_2024]
 - [Singha 2025][research_singha_2025]
+- [Singha and Murugan 2022][research_singha_murugan_2022]
 - [Singha and Murugan 2023][research_singha_murugan_2023]
 - [Sinha and Ananthkrishnan 2002][research_sinha_ananthkrishnan_2002]
 - [Sinske et al 2018][research_sinske_govers_2018]
@@ -3310,13 +3574,16 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Slaby and Smith 2011][research_slaby_smith_2011]
 - [Slater 1985][research_slater_1985]
 - [Slender Aircraft for Flight 2012][research_slender_aircraft_2012]
+- [Smetana and Knepper 1973][research_smetana_knepper_1973]
 - [Smith 2025][research_smith_2025]
 - [Smith and Dahlem 1981][research_smith_dahlem_1981]
 - [Smith and Shyy 1995][research_smith_shyy_1995]
 - [Smith et al 2001][research_smith_patil_2001]
 - [Smith et al 2003][research_smith_moes_2003]
+- [Smith et al 2008][research_smith_henfling_2008]
 - [Smith, Benjamin et al 2020][research_smithbenjamin_brookstimothy_2020]
 - [Smith, John W. et al 1992][research_smithjohnw_lockwiltonp_1992]
+- [Snell 1993][research_snell_1993]
 - [Sneshko et al 2005][research_sneshko_chetvergov_2005]
 - [Soares 2007][research_soares_2007]
 - [Soares 2007][research_soares_2007_b]
@@ -3328,7 +3595,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Soinne 1999][research_soinne_1999]
 - [Solano et al 2020][research_solano_sarojini_2020]
 - [Solarte-Pineda et al 2026][research_solartepineda_bravomosquera_2026]
+- [Sommerwerk et al 2013][research_sommerwerk_haupt_2013]
 - [Soneda et al 2020][research_soneda_yokozeki_2020]
+- [Soneda et al 2021][research_soneda_yokozeki_2021]
 - [Soneda et al 2026][research_soneda_tsushima_2026]
 - [Song and Kim 2009][research_song_kim_2009]
 - [Song et al 1992][research_song_librescu_1992]
@@ -3374,10 +3643,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Standard Atmosphere 2024][research_standard_atmosphere_2024]
 - [Standard atmosphere chart 1927][research_standard_atmosphere_1927]
 - [Standard atmosphere chart supersedes 1927][research_standard_atmosphere_1927_b]
-- [Standard Atmosphere Data 1992][research_standard_atmosphere_1992]
 - [standard atmosphere for preconditioning 2021][research_standard_atmosphere_2021]
 - [standard atmosphere for testing 2021][research_standard_atmosphere_2021_b]
-- [Standard Atmospheric Profilesa aSource 2002][research_standard_atmospheric_2002]
 - [Stanewsky and Basler 1989][research_stanewsky_basler_1989]
 - [Stanford 2014][research_stanford_2014]
 - [Stanford 2015][research_stanford_2015]
@@ -3392,6 +3659,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Stanford and Jacobson 2023][research_stanford_jacobson_2023]
 - [Stanford, Bret K. and Jutte, Christine V. 2014][research_stanfordbretk_juttechristinev_2014]
 - [Stange 1959][research_stange_1959]
+- [Stark 1977][research_stark_1977]
 - [Starodub 2026][research_starodub_2026]
 - [Starr et al 2011][research_starr_olds_2011]
 - [Static Aeroelastic Considerations 1996][research_static_aeroelastic_1996]
@@ -3415,6 +3683,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Stettner and Schrage 1992][research_stettner_schrage_1992]
 - [Stevenson 1991][research_stevenson_1991]
 - [Stewart and Bauer 1983][research_stewart_bauer_1983]
+- [Sticchi et al 2026][research_sticchi_ragni_2026]
 - [Stiharu-Alexe 1991][research_stiharualexe_1991]
 - [Stiharu-Alexe et al][research_stiharualexe_oshea]
 - [Stodieck et al 2013][research_stodieck_cooper_2013]
@@ -3429,6 +3698,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Strand and Ennis 2012][research_strand_ennis_2012]
 - [Strand and Levinsky 1969][research_strand_levinsky_1969]
 - [Strang 1943][research_strang_1943]
+- [Straub and Charles 2001][research_straub_charles_2001]
+- [Straub et al 1996][research_straub_chopra_1996]
 - [Streett 1981][research_streett_1981]
 - [Streitenberger and Feldwisch 2025][research_streitenberger_feldwisch_2025]
 - [Strelkov and Kharlamov 1967][research_strelkov_kharlamov_1967]
@@ -3443,6 +3714,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Su et al 2018][research_su_wang_2018]
 - [Su et al 2023][research_su_sun_2023]
 - [Subramanya and Prasad 2013][research_subramanya_prasad_2013]
+- [Subsonic/Transonic Prediction Capabilities for 1986][research_subsonic_transonic_prediction_1986]
 - [Sudhi et al 2021][research_sudhi_radespiel_2021]
 - [Suh, Peter M. et al 2015][research_suhpeterm_conyershowardjason_2015]
 - [Sulaeman et al 2017][research_sulaeman_abdullah_2017]
@@ -3464,7 +3736,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Supersonic Aircraft High-Speed Civil 1997][research_supersonic_aircraft_1997]
 - [Supersonic Three-dimensional Wing Theory 1960][research_supersonic_three_dimensional_1960]
 - [Supersonic transport wing minimum 1992][research_supersonic_transport_1992]
+- [Supersonic Two-dimensional Airfoil Theory 1960][research_supersonic_two_dimensional_1960]
 - [Suresh et al 2010][research_suresh_radhakrishnan_2010]
+- [Suryakumar et al 2016][research_suryakumar_babbar_2016]
 - [Suryakumar et al 2016][research_suryakumar_mangalam_2016]
 - [Suzuki 1990][research_suzuki_1990]
 - [Suzuki and Matsuda 1991][research_suzuki_matsuda_1991]
@@ -3478,6 +3752,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Swaim][research_swaim]
 - [Swaim 1961][research_swaim_1961]
 - [Swaim 1983][research_swaim_1983]
+- [Swei and Nguyen 2014][research_swei_nguyen_2014]
 - [Syed et al 2022][research_syed_moshtaghzadeh_2022]
 - [Sykes][research_sykes]
 - [Szabolcsi and Gáspár 1997][research_szabolcsi_gaspar_1997]
@@ -3495,11 +3770,13 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Tai et al 2023][research_tai_wang_2023]
 - [Tai et al 2023][research_tai_wang_2023_b]
 - [Takahashi et al 2016][research_takahashi_yokozeki_2016]
+- [Takallu and Spence 1989][research_takallu_spence_1989]
 - [Takarics et al 2018][research_takarics_vanek_2018]
 - [Tal and Nguyen 2015][research_tal_nguyen_2015]
 - [Tamayama 2017][research_tamayama_2017]
 - [Tamayama et al 2003][research_tamayama_kheirandish_2003]
 - [Tamura and Yumitori 2024][research_tamura_yumitori_2024]
+- [Tan et al 2014][research_tan_zhou_2014]
 - [Tang and Dowell 1996][research_tang_dowell_1996]
 - [Tang and Dowell 1998][research_tang_dowell_1998]
 - [Tang and Dowell 2001][research_tang_dowell_2001]
@@ -3515,25 +3792,31 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Tantaroudas and Karachalios 2026][research_tantaroudas_karachalios_2026]
 - [Tantrairatn and Veres 2015][research_tantrairatn_veres_2015]
 - [Tao and Bin 2026][research_tao_bin_2026]
+- [Tar et al 2013][research_tar_rudas_2013]
 - [Taraborrelli 2023][research_taraborrelli_2023]
 - [Taranto and Abdulrahim 2023][research_taranto_abdulrahim_2023]
 - [Tariq and Nahon 2020][research_tariq_nahon_2020]
 - [Tartabini et al 2016][research_tartabini_gilbert_2016]
+- [Taverna 1985][research_taverna_1985]
 - [Taylor 1959][research_taylor_1959]
 - [Taylor 2012][research_taylor_2012]
 - [Taylor and Yoo 2011][research_taylor_yoo_2011]
 - [Taylor et al 1992][research_taylor_bennett_1992]
 - [Taylor et al 1995][research_taylor_pratt_1995]
 - [Taylor et al 2007][research_taylor_gaitonde_2007]
+- [Tchatchueng Kammegne et al 2016][research_tchatchuengkammegne_botez_2016]
 - [Technical applications for an 1976][research_technical_applications_1976]
 - [Tegelaar 1984][research_tegelaar_1984]
 - [Teixeira and Cesnik 2020][research_teixeira_cesnik_2020]
 - [Tekawade et al 2024][research_tekawade_chandwadkar_2024]
 - [Teng 2006][research_teng_2006]
 - [Teng 2007][research_teng_2007]
+- [Teng and Chen 2005][research_teng_chen_2005]
 - [Teng and Chen 2006][research_teng_chen_2006]
 - [Teng and Fan 2025][research_teng_fan_2025]
 - [Terilli et al 2025][research_terilli_bueno_2025]
+- [Tetrault et al 2000][research_tetrault_schetz_2000]
+- [Tetrault et al 2001][research_tetrault_schetz_2001]
 - [Tewari 1998][research_tewari_1998]
 - [Tewari 1999][research_tewari_1999]
 - [Tewari 2001][research_tewari_2001]
@@ -3565,6 +3848,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Thel et al 2022][research_thel_hahn_2022]
 - [Thielicke and Stamhuis 2018][research_thielicke_stamhuis_2018]
 - [Thienel et al 1998][research_thienel_lewis_1998]
+- [Thomas A Harris 1935][research_thomasaharris_1935]
 - [Thomas and Holst 1983][research_thomas_holst_1983]
 - [Thomas and Shkarayev 2026][research_thomas_shkarayev_2026]
 - [Thompson et al 2007][research_thompson_klyde_2007]
@@ -3576,6 +3860,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Tian et al 2016][research_tian_yang_2016]
 - [Tian et al 2026][research_tian_li_2026]
 - [Tian et al 2026][research_tian_wang_2026]
+- [Tigner et al 1998][research_tigner_holden_1998]
 - [Tijdeman et al 1979][research_tijdeman_vannunen_1979]
 - [Tijdeman et al 1979][research_tijdeman_vannunen_1979_b]
 - [Tillotson and Fuhs 1982][research_tillotson_fuhs_1982]
@@ -3584,6 +3869,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Ting et al 2022][research_ting_mesbahi_2022]
 - [Ting et al 2023][research_ting_mesbahi_2023]
 - [Ting et al 2026][research_ting_berg_2026]
+- [Ting, Eric et al 2015][research_tingeric_daotung_2015]
 - [Tingting and Aijun 2014][research_tingting_aijun_2014]
 - [Tiomkin and Raveh 2021][research_tiomkin_raveh_2021]
 - [Tischler 2018][research_tischler_2018]
@@ -3605,17 +3891,24 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Torsional Divergence 2014][research_torsional_divergence_2014]
 - [Torsional stiffness and fatigue 1994][research_torsional_stiffness_1994]
 - [Torsional stiffness of plastic 1972][research_torsional_stiffness_1972]
+- [Toyoda et al 2015][research_toyoda_kwak_2015]
 - [Traas et al 2026][research_traas_atmaca_2026]
 - [Tracy 1981][research_tracy_1981]
 - [Tracy and Chopra 1998][research_tracy_chopra_1998]
+- [Trailing Edge Circulation Control 2006][research_trailing_edge_2006]
 - [Trame et al 1985][research_trame_williams_1985]
 - [Trankle and Bachner 1993][research_trankle_bachner_1993]
 - [Transonic Aircraft Configurations 2012][research_transonic_aircraft_2012]
 - [Transonic and supersonic flight 1992][research_transonic_and_1992]
+- [Transonic flight test of 1994][research_transonic_flight_1994]
 - [Transonic Maneuver/Cruise Airfoil Design 1980][research_transonic_maneuver_cruise_1980]
 - [Transonic Wing Shape Design 2015][research_transonic_wing_2015]
 - [Transonic, Shock, and Multidimensional 1982][research_transonic_shock_1982]
+- [Traub 1997][research_traub_1997]
+- [Traub and Kadapala 2010][research_traub_kadapala_2010]
+- [Traub et al 2006][research_traub_lund_2006]
 - [Travassos and Kaufman 1979][research_travassos_kaufman_1979]
+- [Tremblay-Dionne and Lee 2018][research_tremblaydionne_lee_2018]
 - [Trenka 1971][research_trenka_1971]
 - [Triplett 1972][research_triplett_1972]
 - [Triplett 1979][research_triplett_1979]
@@ -3635,6 +3928,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Turi and Rankin 1988][research_turi_rankin_1988]
 - [Turner et al 2025][research_turner_seo_2025]
 - [Turns and Kraige][research_turns_kraige]
+- [Turpin et al 2020][research_turpin_chin_2020]
 - [Tursi 2003][research_tursi_2003]
 - [Tuzcu and Nguyen 2010][research_tuzcu_nguyen_2010]
 - [Twist model development and results from the active aeroelastic wing F/A-18 aircraft][research_aaw_twist_model]
@@ -3653,10 +3947,12 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Urnes et al 2008][research_urnes_reichenbach_2008]
 - [Urnes, James, Sr. et al 2013][research_urnesjamessr_nguyennhan_2013]
 - [US Standard Atmosphere Model 2014][research_us_standard_2014]
+- [Utaka 2004][research_utaka_2004]
 - [Uzun and Malik 2018][research_uzun_malik_2018]
 - [Uzun and Malik 2019][research_uzun_malik_2019]
 - [Vadyak et al 1987][research_vadyak_smith_1987]
 - [Vale et al 2011][research_vale_leite_2011]
+- [van der Maas 1959][research_vandermaas_1959]
 - [Van Gaasbeek 1980][research_vangaasbeek_1980]
 - [Van Graas et al 1994][research_vangraas_diggle_1994]
 - [Van Pelt 1981][research_vanpelt_1981]
@@ -3667,10 +3963,11 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Vandierendonck 1973][research_vandierendonck_1973]
 - [Vanwalleghem et al 2015][research_vanwalleghem_debaere_2015]
 - [Varello et al 2013][research_varello_lamberti_2013]
-- [Variation of natural radioactivity 1956][research_variation_of_1956]
+- [Varkonyi-Koczy et al][research_varkonyikoczy_baranyi]
 - [Vartio et al 2005][research_vartio_shimko_2005]
 - [Vartio et al 2008][research_vartio_shaw_2008]
 - [Vaughan 2003][research_vaughan_2003]
+- [Vaughn and Burkhalter 1986][research_vaughn_burkhalter_1986]
 - [Vaughn, Jr. 1982][research_vaughnjr_1982]
 - [Veiberman and Karpel 2022][research_veiberman_karpel_2022]
 - [Veiberman et al 2016][research_veiberman_weiss_2016]
@@ -3696,6 +3993,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Vindigni et al 2026][research_vindigni_mantegna_2026]
 - [Virgilio Pereira et al 2019][research_virgiliopereira_kolmanovsky_2019]
 - [Virgilio Pereira et al 2019][research_virgiliopereira_kolmanovsky_2019_b]
+- [Visconti et al 2018][research_visconti_eun_2018]
+- [Voevodenko and Panteleev 1989][research_voevodenko_panteleev_1989]
 - [Volk et al 1998][research_volk_siler_1998]
 - [Volobuyev et al 2017][research_volobuyev_gorbushin_2017]
 - [Von Flotow 1989][research_vonflotow_1989]
@@ -3729,7 +4028,12 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Wang 2019][research_wang_2019]
 - [Wang and Guo 2012][research_wang_guo_2012]
 - [Wang and Iliff 2004][research_wang_iliff_2004]
+- [Wang and Zhang 2022][research_wang_zhang_2022]
 - [Wang et al 1986][research_wang_demiroz_1986]
+- [Wang et al 2002][research_wang_milanovic_2002]
+- [Wang et al 2011][research_wang_huo_2011]
+- [Wang et al 2012][research_wang_behal_2012]
+- [Wang et al 2012][research_wang_lin_2012]
 - [Wang et al 2012][research_wang_xargay_2012]
 - [Wang et al 2018][research_wang_vankampen_2018]
 - [Wang et al 2018][research_wang_wynn_2018]
@@ -3747,13 +4051,17 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Wang et al 2021][research_wang_wu_2021]
 - [Wang et al 2022][research_wang_tai_2022]
 - [Wang et al 2022][research_wang_zhao_2022]
+- [Wang et al 2022][research_wang_zhao_2022_b]
 - [Wang et al 2023][research_wang_chen_2023]
 - [Wang et al 2023][research_wang_lei_2023]
+- [Wang et al 2023][research_wang_ma_2023]
 - [Wang et al 2023][research_wang_xing_2023]
 - [Wang et al 2024][research_wang_li_2024]
+- [Wang et al 2024][research_wang_shi_2024]
 - [Wang et al 2024][research_wang_wang_2024]
 - [Wang et al 2024][research_wang_zhao_2024]
 - [Wang et al 2025][research_wang_chen_2025]
+- [Wang et al 2025][research_wang_feng_2025]
 - [Wang et al 2025][research_wang_hu_2025]
 - [Wang et al 2025][research_wang_li_2025]
 - [Wang et al 2025][research_wang_xu_2025]
@@ -3765,6 +4073,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Wansasueb et al 2023][research_wansasueb_panagant_2023]
 - [Ward 1949][research_ward_1949]
 - [Ward 1988][research_ward_1988]
+- [Ward and Stout 1986][research_ward_stout_1986]
 - [Warwick et al 2019][research_warwick_bras_2019]
 - [Wasmi et al 2015][research_wasmi_hasan_2015]
 - [Wasson and Mehus 1967][research_wasson_mehus_1967]
@@ -3776,6 +4085,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Waszak and Srinathkumar 1992][research_waszak_srinathkumar_1992]
 - [Waszak and Srinathkumar 1995][research_waszak_srinathkumar_1995]
 - [Waszak et al 2002][research_waszak_davidson_2002]
+- [Waters et al 2013][research_waters_voskuijl_2013]
 - [Watts 1976][research_watts_1976]
 - [Webb and Takahashi 2022][research_webb_takahashi_2022]
 - [Weed et al 1983][research_weed_carlson_1983]
@@ -3831,10 +4141,12 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Wildschek et al 2006][research_wildschek_maier_2006]
 - [Wildschek et al 2009][research_wildschek_maier_2009]
 - [Wildschek et al 2013][research_wildschek_hanis_2013]
+- [Wilkie et al 1996][research_wilkie_belvin_1996]
 - [Williams 1965][research_williams_1965]
 - [Williams 2004][research_williams_2004]
 - [Williams and Hunt 1980][research_williams_hunt_1980]
 - [Williams-Hayes 2005][research_williamshayes_2005]
+- [Wilmoth and Putnam 1984][research_wilmoth_putnam_1984]
 - [Wilson][research_wilson]
 - [Wilson et al 1993][research_wilson_riley_1993]
 - [Wilson et al 2016][research_wilson_ryan_2016]
@@ -3842,6 +4154,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Wing Buffeting Control at 2018][research_wing_buffeting_2018]
 - [Wing Theory in Supersonic 1969][research_wing_theory_1969]
 - [Wing torsional stiffness tests of the active aeroelastic wing F/A-18 airplane][research_aaw_torsional_stiffness]
+- [Wing trailing edge flap 1991][research_wing_trailing_1991]
 - [Wingrove, R. C. 1978][research_wingroverc_1978]
 - [Winograd and Miles 1956][research_winograd_miles_1956]
 - [Winters et al 1991][research_winters_hassan_1991]
@@ -3849,7 +4162,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Wolf and Bossert 2001][research_wolf_bossert_2001]
 - [Wolfson 2009][research_wolfson_2009]
 - [Wood and Buffano 1964][research_wood_buffano_1964]
+- [Wood and Miller 1984][research_wood_miller_1984]
 - [Wood and Miller 1985][research_wood_miller_1985]
+- [Wood and Miller 1985][research_wood_miller_1985_b]
 - [Wood et al 1999][research_wood_loth_1999]
 - [Woodrow et al 2013][research_woodrow_tischler_2013]
 - [Woodruff 2009][research_woodruff_2009]
@@ -3859,6 +4174,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Woods-Vedeler et al 1995][research_woodsvedeler_pototzky_1995]
 - [Woods-Vedeler, Jessica A. et al 1994][research_woodsvedelerjessicaa_pototzkyanthonys_1994]
 - [Woodward 1962][research_woodward_1962]
+- [Wooldridge 1960][research_wooldridge_1960]
 - [Woolf 2012][research_woolf_2012]
 - [Wright and Silva 2026][research_wright_silva_2026]
 - [Wu and Cooper 2016][research_wu_cooper_2016]
@@ -3866,6 +4182,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Wu and Livne 2016][research_wu_livne_2016]
 - [Wu et al 2021][research_wu_zhang_2021]
 - [Wu et al 2022][research_wu_dai_2022]
+- [Wu et al 2023][research_wu_zha_2023]
 - [Wu et al 2024][research_wu_li_2024]
 - [Wu et al 2024][research_wu_zhou_2024]
 - [Wu et al 2025][research_wu_li_2025]
@@ -3891,14 +4208,19 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Xie et al 2019][research_xie_zhao_2019]
 - [Xin and Li 2025][research_xin_li_2025]
 - [Xing and Singh 1999][research_xing_singh_1999]
+- [Xing and Xu 2022][research_xing_xu_2022]
 - [Xiong and Liu 2013][research_xiong_liu_2013]
 - [Xiong and Nguyen 2024][research_xiong_nguyen_2024]
 - [Xiong and Nguyen 2024][research_xiong_nguyen_2024_b]
 - [Xiong and Nguyen 2024][research_xiong_nguyen_2024_c]
 - [Xiong and Yang 2001][research_xiong_yang_2001]
 - [Xiong et al 2019][research_xiong_fugate_2019]
+- [Xiong et al 2021][research_xiong_bartels_2021]
 - [Xiong et al 2021][research_xiong_nguyen_2021]
+- [Xiong et al 2022][research_xiong_nguyen_2022]
 - [Xiong et al 2023][research_xiong_nguyen_2023]
+- [Xu 2025][research_xu_2025]
+- [Xu 2026][research_xu_2026]
 - [Xu and Kroo 2011][research_xu_kroo_2011]
 - [Xu and Kroo 2011][research_xu_kroo_2011_b]
 - [Xu and Kroo 2014][research_xu_kroo_2014]
@@ -3923,6 +4245,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Yamashiro and Stirling 2007][research_yamashiro_stirling_2007]
 - [Yamazaki and Kusunose 2016][research_yamazaki_kusunose_2016]
 - [Yan et al 2019][research_yan_li_2019]
+- [Yan et al 2025][research_yan_liu_2025]
 - [Yanagihara et al 1991][research_yanagihara_suzuki_1991]
 - [Yang and Gao 2020][research_yang_gao_2020]
 - [Yang and Guo 2009][research_yang_guo_2009]
@@ -3942,11 +4265,14 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Yang et al 2019][research_yang_huang_2019]
 - [Yang et al 2019][research_yang_xie_2019]
 - [Yang et al 2023][research_yang_liu_2023]
+- [Yang et al 2024][research_yang_xiao_2024]
 - [Yang et al 2024][research_yang_xu_2024]
 - [Yang et al 2025][research_yang_kou_2025]
 - [Yang et al 2025][research_yang_liu_2025]
 - [Yang et al 2025][research_yang_wu_2025]
+- [Yao and Marques 2014][research_yao_marques_2014]
 - [Yao et al 2023][research_yao_kan_2023]
+- [Yaros 1977][research_yaros_1977]
 - [Yasue and Sawada 2009][research_yasue_sawada_2009]
 - [Yates 1963][research_yates_1963]
 - [Yavuztürk et al 2017][research_yavuzturk_topbas_2017]
@@ -3956,6 +4282,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Yeo et al 2010][research_yeo_potsdam_2010]
 - [Yeo et al 2023][research_yeo_kang_2023]
 - [Yerly et al 2016][research_yerly_deluca_2016]
+- [Yillikci et al 2005][research_yillikci_yilmaz_2005]
 - [Yiming et al 2019][research_yiming_mei_2019]
 - [Yin et al 2015][research_yin_wu_2015]
 - [Yin et al 2026][research_yin_xiao_2026]
@@ -3977,6 +4304,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Yu et al 2014][research_yu_lv_2014]
 - [Yu et al 2017][research_yu_wang_2017]
 - [Yu et al 2026][research_yu_bose_2026]
+- [Yu et al 2026][research_yu_yan_2026]
 - [Yuan 2026][research_yuan_2026]
 - [Yuan et al 2023][research_yuan_ma_2023]
 - [Yucelen et al 2011][research_yucelen_kim_2011]
@@ -4012,6 +4340,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Zhang and Soffker][research_zhang_soffker]
 - [Zhang and Söffker 2010][research_zhang_soffker_2010]
 - [Zhang and Wang 2019][research_zhang_wang_2019]
+- [Zhang and Ye 2010][research_zhang_ye_2010]
 - [Zhang and Zhang 2013][research_zhang_zhang_2013]
 - [Zhang and Zhao 2023][research_zhang_zhao_2023]
 - [Zhang and Zhu 2021][research_zhang_zhu_2021]
@@ -4020,12 +4349,14 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Zhang et al 2008][research_zhang_xu_2008]
 - [Zhang et al 2013][research_zhang_yang_2013]
 - [Zhang et al 2013][research_zhang_yu_2013]
+- [Zhang et al 2016][research_zhang_yang_2016]
 - [Zhang et al 2017][research_zhang_devisser_2017]
 - [Zhang et al 2017][research_zhang_wang_2017]
 - [Zhang et al 2018][research_zhang_zhou_2018]
 - [Zhang et al 2018][research_zhang_zhou_2018_b]
 - [Zhang et al 2019][research_zhang_ge_2019]
 - [Zhang et al 2019][research_zhang_kang_2019]
+- [Zhang et al 2019][research_zhang_liu_2019]
 - [Zhang et al 2020][research_zhang_chen_2020]
 - [Zhang et al 2021][research_zhang_guo_2021]
 - [Zhang et al 2021][research_zhang_shaw_2021]
@@ -4038,6 +4369,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Zhang et al 2025][research_zhang_kang_2025]
 - [Zhang et al 2025][research_zhang_li_2025]
 - [Zhang et al 2025][research_zhang_xiang_2025]
+- [Zhang et al 2025][research_zhang_yang_2025]
 - [Zhang et al 2026][research_zhang_dai_2026]
 - [Zhang et al 2026][research_zhang_dai_2026_b]
 - [Zhang et al 2026][research_zhang_deng_2026]
@@ -4048,6 +4380,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Zhao 2020][research_zhao_2020]
 - [Zhao et al 2016][research_zhao_yue_2016]
 - [Zhao et al 2020][research_zhao_he_2020]
+- [Zhao et al 2021][research_zhao_yang_2021]
 - [Zhao et al 2023][research_zhao_yang_2023]
 - [Zhao et al 2024][research_zhao_li_2024]
 - [Zhao et al 2025][research_zhao_zhang_2025]
@@ -4057,6 +4390,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 - [Zheng 2010][research_zheng_2010]
 - [Zheng et al 2013][research_zheng_hedrick_2013]
 - [Zheng et al 2018][research_zheng_zhang_2018]
+- [Zheng-hong 1992][research_zhenghong_1992]
 - [Zhi et al 2020][research_zhi_zhou_2020]
 - [Zhong et al 2009][research_zhong_yang_2009]
 - [Zhong et al 2025][research_zhong_xia_2025]
@@ -4136,6 +4470,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_active_flutter_1999]: https://doi.org/10.1109/acc.1999.786286
 [research_active_flutter_2016]: https://doi.org/10.1002/9781118823491.ch4
 [research_adali_1981]: https://doi.org/10.1080/03052158108902442
+[research_adamczyk_goldstein_1978]: https://doi.org/10.2514/3.61040
+[research_adams_1953]: https://doi.org/10.2514/8.2663
 [research_adamson_fichera_2019]: https://doi.org/10.2514/6.2019-1754
 [research_adaptive_transonic_2016]: https://doi.org/10.1002/9781118823491.ch11
 [research_adnyana_2017]: https://doi.org/10.14203/metalurgi.v31i3.175
@@ -4169,6 +4505,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_ahmadi_farsadi_2024]: https://doi.org/10.1016/j.ast.2023.108849
 [research_ahmaditehrani_ellis_2025]: https://doi.org/10.2514/6.2025-0715
 [research_aileron_2005]: https://doi.org/10.1002/0471743984.vse0218
+[research_aircraft_lateral_directional_2011]: https://doi.org/10.1049/pbce074e_ch9
 [research_airforceflighttestcenteredwardsafbca_1970]: https://doi.org/10.21236/ada529707
 [research_airforceflighttestcenteredwardsafbca_1974]: https://doi.org/10.21236/ada011561
 [research_airforceflighttestcenteredwardsafbca_1974_b]: https://doi.org/10.21236/ada011562
@@ -4182,10 +4519,12 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_akasaka_katoh_1989]: https://doi.org/10.2346/1.2141688
 [research_akinwale_datta_2025]: https://doi.org/10.2514/1.c037994
 [research_akmese_comert_2009]: https://doi.org/10.2514/6.2009-6302
+[research_akram_hasan_2024]: https://doi.org/10.1504/pcfd.2024.135636
 [research_alag_burken_1986]: https://doi.org/10.2514/6.1986-2243
 [research_alag_burken_1987]: https://doi.org/10.2514/3.20253
 [research_alam_hromcik_2015]: https://doi.org/10.1016/j.ast.2014.12.020
 [research_alam_hromcik_2019]: https://doi.org/10.1016/j.conengprac.2019.05.005
+[research_alam_matsuo_2006]: https://doi.org/10.1299/jsmemecjo.2006.2.0_83
 [research_alam_sohn_2023]: https://doi.org/10.3390/jmse12010062
 [research_alaverdi_paris_2001]: https://doi.org/10.2514/6.2001-4015
 [research_albertani_stanford_2005]: https://doi.org/10.2514/6.2005-6324
@@ -4193,6 +4532,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_alden_schindel_1952]: https://doi.org/10.2514/8.2140
 [research_alhajjar_aljiboory_2018]: https://doi.org/10.2514/6.2018-1342
 [research_ali_2024]: https://doi.org/10.1016/j.rico.2024.100399
+[research_ali_elkhamry_2024]: https://doi.org/10.1109/iceeng58856.2024.10566342
 [research_alighanbari_2002]: https://doi.org/10.2514/2.2986
 [research_alighanbari_lee_2003]: https://doi.org/10.2514/2.3129
 [research_allaire_lecerf_2014]: https://doi.org/10.2514/6.2014-1175
@@ -4212,8 +4552,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_alulema_valencia_2020]: https://doi.org/10.2514/6.2020-3958
 [research_alvarez_2014]: https://doi.org/10.5162/etc2014/2.5
 [research_alvarez_wissa_2021]: https://doi.org/10.1115/smasis2021-68299
+[research_alvi_2005]: https://doi.org/10.21236/ada458295
 [research_alwi_edwards_2007]: https://doi.org/10.1109/cca.2007.4389401
 [research_alwi_edwards_2009]: https://doi.org/10.1109/acc.2009.5160331
+[research_alwi_edwards_2010]: https://doi.org/10.1109/cca.2010.5611072
 [research_alyanak_pendleton_2014]: https://doi.org/10.2514/6.2014-3158
 [research_alyanak_pendleton_2017]: https://doi.org/10.2514/1.c033040
 [research_amendola_dimino_2018]: https://doi.org/10.1016/b978-0-08-100964-2.00018-6
@@ -4231,7 +4573,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_andakhshideh_tahani_2013]: https://doi.org/10.1016/j.euromechsol.2013.06.002
 [research_andersen_forster_1996]: https://doi.org/10.2514/6.1996-1443
 [research_andersen_forster_1997]: https://doi.org/10.2514/2.2208
+[research_andersen_kolonay_1997]: https://doi.org/10.2514/6.1997-1385
 [research_andersen_kolonay_1998]: https://doi.org/10.2514/6.1998-1803
+[research_andersen_kolonay_1998_b]: https://doi.org/10.2514/6.1998-529
+[research_andersen_kolonay_1998_c]: https://doi.org/10.2514/2.2378
 [research_anderson_1984]: https://doi.org/10.2514/6.1984-2093
 [research_anderson_1985]: https://doi.org/10.2514/3.45218
 [research_anderson_1993]: https://doi.org/10.2514/6.1993-3795
@@ -4248,6 +4593,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_ansell_bragg_2011_b]: https://doi.org/10.4271/2011-38-0066
 [research_ansell_kerho_2013]: https://doi.org/10.2514/6.2013-2654
 [research_ansell_kerho_2014]: https://doi.org/10.2514/1.c032703
+[research_antonakis_2025]: https://doi.org/10.1016/j.ast.2025.110020
 [research_antonakis_biannic_2024]: https://doi.org/10.2514/1.c037707
 [research_aouf_boulet_2000]: https://doi.org/10.1109/acc.2000.879526
 [research_appendix_a_2011]: https://doi.org/10.1515/9781400839063-017
@@ -4261,20 +4607,26 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_arai_tanaka_2020]: https://doi.org/10.1299/jsmemecj.2020.j19206
 [research_aravinth_shinde_2018]: https://doi.org/10.2514/6.2018-1443
 [research_archambaud_louis_2004]: https://doi.org/10.2514/6.2004-2245
+[research_ardelean_mcever_2006]: https://doi.org/10.2514/1.12214
 [research_arefev_1968]: https://doi.org/10.1007/bf00979749
+[research_arena_pecora_2017]: https://doi.org/10.1063/1.5002521
 [research_arizono_cesnik_2013]: https://doi.org/10.2514/6.2013-1862
 [research_arizono_isogai_2005]: https://doi.org/10.2514/1.392
 [research_armanious_lind_2018]: https://doi.org/10.2514/6.2018-1012
 [research_armstrong_1977]: https://doi.org/10.21236/adb029224
 [research_armstrong_miller_1968]: https://doi.org/10.2514/3.43932
+[research_arnal_1989]: https://doi.org/10.1007/978-3-642-83584-1_21
 [research_arnold_1942]: https://doi.org/10.2514/8.10949
 [research_arnold_1981]: https://doi.org/10.2514/6.1981-2444
 [research_asadi_farsadi_2020]: https://doi.org/10.1016/j.ast.2020.105853
 [research_asadi_farsadi_2021]: https://doi.org/10.2514/1.j059568
+[research_asaro_atmaca_2025]: https://doi.org/10.2514/6.2025-2475
 [research_asaro_cavaliere_2023]: https://doi.org/10.2514/6.2023-1946
 [research_ashkenas_1965]: https://doi.org/10.21236/ad0627659
 [research_askari_soltani_2019]: https://doi.org/10.2514/1.c035328
 [research_aslammir_mclean]: https://doi.org/10.1109/naecon.1994.332859
+[research_asymptotic_methods_1991]: https://doi.org/10.2514/6.1991-1712
+[research_atay_bryant_2021]: https://doi.org/10.1115/1.4050998
 [research_atkinson_2016]: https://doi.org/10.2514/6.2016-1185
 [research_atmosphere_standard_2006]: https://doi.org/10.1007/978-0-387-30160-0_849
 [research_aulschenko_zamuraev_2006]: https://doi.org/10.1134/s1063785006010020
@@ -4290,6 +4642,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_babcock_lind_2013]: https://doi.org/10.2514/6.2013-4845
 [research_babcock_lind_2013_b]: https://doi.org/10.2514/6.2013-4744
 [research_babinsky_delery_2011]: https://doi.org/10.1017/cbo9780511842757.003
+[research_babinsky_ogawa_2006]: https://doi.org/10.2514/6.2006-3698
 [research_babister_1980]: https://doi.org/10.1016/b978-0-08-024768-7.50011-9
 [research_bach_mcnally_1988]: https://doi.org/10.1016/s1474-6670(17)54915-0
 [research_bachelder_klyde_2004]: https://doi.org/10.2514/6.2004-5065
@@ -4327,13 +4680,19 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_banerjee_liu_2014]: https://doi.org/10.5890/jand.2014.12.012
 [research_banerjee_williams_1992]: https://doi.org/10.1016/0045-7949(92)90026-v
 [research_bang_rana_2022]: https://doi.org/10.1115/1.4053089
+[research_baran_yirtici_2026]: https://doi.org/10.2139/ssrn.6838884
 [research_baranyi_2006]: https://doi.org/10.2514/1.14981
 [research_baranyi_2006_b]: https://doi.org/10.2514/1.9462
+[research_baranyi_2016]: https://doi.org/10.1007/978-3-319-19605-3_8
+[research_baranyi_2023]: https://doi.org/10.1007/978-3-031-44575-0_13
+[research_baranyi_korondi_2008]: https://doi.org/10.1111/j.1934-6093.2005.tb00379.x
 [research_baranyi_patton_2003]: https://doi.org/10.23919/ecc.2003.7085276
+[research_baranyi_takarics_2014]: https://doi.org/10.2514/1.g000080
 [research_barb_mulder_2003]: https://doi.org/10.2514/6.2003-5556
 [research_barker_balas_1999]: https://doi.org/10.2514/2.4418
 [research_barker_balas_2000]: https://doi.org/10.2514/2.4637
 [research_barnwell_1974]: https://doi.org/10.2514/6.1974-185
+[research_barrettron_1999]: https://ntrs.nasa.gov/citations/19990064144
 [research_bartels_stanford_2019]: https://doi.org/10.2514/6.2019-2035
 [research_bartels_stanford_2019_b]: https://doi.org/10.2514/6.2019-2035.c1
 [research_barzgaran_quenzer_2021]: https://doi.org/10.2514/6.2021-0500
@@ -4383,6 +4742,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_bever_1992]: https://doi.org/10.2514/6.1992-4113
 [research_beyer_steen_2024]: https://doi.org/10.2514/1.g007984
 [research_beyer_ullah_2024]: https://doi.org/10.1007/s13272-024-00760-8
+[research_bharadvaj_1990]: https://doi.org/10.2514/6.1990-935
+[research_bharadvaj_1991]: https://doi.org/10.2514/3.10817
 [research_bhat_2018]: https://doi.org/10.1201/9781315370613-3
 [research_bhat_2018_b]: https://doi.org/10.1201/9781315370613-9
 [research_bhat_2018_c]: https://doi.org/10.1201/9781315370613-6
@@ -4394,6 +4755,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_bichiou_hajj_2016]: https://doi.org/10.1007/s11071-016-2922-y
 [research_biederman_meincke_1994]: https://doi.org/10.2514/6.1994-2125
 [research_bielawa_2006]: https://doi.org/10.2514/4.862373
+[research_bieniawski_kroo_2003]: https://doi.org/10.2514/6.2003-220
 [research_bigler_1986]: https://doi.org/10.2514/6.1986-9729
 [research_bihrle_barnhart_1982]: https://doi.org/10.2514/3.44789
 [research_bihrle_jr_1980]: https://doi.org/10.21236/ada082335
@@ -4415,6 +4777,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_block_gilliatt_1997]: https://doi.org/10.2514/6.1997-16
 [research_block_strganac_1998]: https://doi.org/10.2514/2.4346
 [research_blue_balas_1997]: https://doi.org/10.2514/6.1997-3640
+[research_bluman_gandhi_2011]: https://doi.org/10.4050/jahs.56.032005
 [research_bocola_muscarello_2015]: https://doi.org/10.2514/6.2015-2557
 [research_bodin_fuchs_2008]: https://doi.org/10.2514/6.2008-4174
 [research_bodson_2000]: https://doi.org/10.21236/ada381657
@@ -4439,6 +4802,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_bosch_schmehl_2014]: https://doi.org/10.2514/1.g000545
 [research_boskovic_ling]: https://doi.org/10.1109/cdc.2002.1184767
 [research_boskovic_mehra]: https://doi.org/10.1109/acc.2002.1024911
+[research_boskovic_redding_2009]: https://doi.org/10.2514/6.2009-5759
 [research_botez_doin_2002]: https://doi.org/10.1115/imece2002-33623
 [research_botez_grigorie_2008]: https://doi.org/10.2514/1.32817
 [research_botez_koreanschi_2018]: https://doi.org/10.1017/aer.2018.15
@@ -4446,6 +4810,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_bouadi]: https://doi.org/10.70675/aa62b2a6zce9ez41fcz95cdz6ebfead4b829
 [research_bouchalkha_alhammadi_2015]: https://doi.org/10.1109/aeect.2015.7360545
 [research_bove_2026]: https://doi.org/10.21741/9781644904251-72
+[research_bradley_whitten_1976]: https://doi.org/10.2514/3.58652
 [research_bradshaw_rahulan_1988]: https://doi.org/10.1177/014233128801000105
 [research_bramsiepe_voss_2020]: https://doi.org/10.1007/s13272-020-00446-x
 [research_brandon_morelli_2014]: https://doi.org/10.2514/6.2014-2554
@@ -4469,8 +4834,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_brincklow_hunsaker_2021]: https://doi.org/10.1017/aer.2020.139
 [research_brincklow_montgomery_2021]: https://doi.org/10.2514/6.2021-0327
 [research_brinker_wise_2000]: https://doi.org/10.2514/6.2000-3941
+[research_brixjr_platzer_1974]: https://doi.org/10.2514/6.1974-14
 [research_bronz_hattenberger_2016]: https://doi.org/10.2514/6.2016-3979
 [research_brooks_meyer_1995]: https://doi.org/10.2514/6.1995-1504
+[research_brower_1961]: https://doi.org/10.2514/8.9265
 [research_brown_1989]: https://doi.org/10.2514/6.1989-2112
 [research_brown_caverly_2021]: https://doi.org/10.2514/6.2021-1562
 [research_brown_dillon_2004]: https://doi.org/10.2514/6.2004-4815
@@ -4507,6 +4874,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_burneralpheusw_lokoswilliama_2005]: https://ntrs.nasa.gov/citations/20060002833
 [research_burris_bender_1969]: https://doi.org/10.21236/ad0865310
 [research_burris_bender_1969_b]: https://doi.org/10.21236/ad0864555
+[research_burrows_vukasinovic_2019]: https://doi.org/10.2514/6.2019-3687
 [research_burrows_vukasinovic_2021]: https://doi.org/10.1007/s00348-021-03280-x
 [research_burtjr_1976]: https://doi.org/10.21236/ada037077
 [research_burton_kneelandjr_1981]: https://doi.org/10.2514/6.1981-2465
@@ -4517,21 +4885,26 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_byun_guruswamy_1996]: https://doi.org/10.2514/6.1996-4059
 [research_byun_guruswamy_1996_b]: https://doi.org/10.2514/3.46954
 [research_byun_guruswamy_1996_c]: https://doi.org/10.2514/6.1996-1389
+[research_byun_guruswamy_1998]: https://doi.org/10.2514/2.2297
 [research_cabaleirodelahoz_fioriti_2021]: https://doi.org/10.1177/09544100211063110
 [research_cahill_1986]: https://doi.org/10.4271/861846
+[research_cain_1979]: https://doi.org/10.21236/ada379310
 [research_calculation_of_2004]: https://doi.org/10.1201/9780203021187.axa
 [research_calder_gupta_1977]: https://doi.org/10.2514/6.1977-830
+[research_cameron_princen_2000]: https://doi.org/10.2514/6.2000-4539
 [research_campbell_smith_1987]: https://doi.org/10.2514/6.1987-2552
 [research_candida_souzadepaula_2019]: https://doi.org/10.26678/abcm.diname2019.din2019-0103
 [research_canfield_2014]: https://doi.org/10.21236/ada610546
 [research_canniff_1969]: https://doi.org/10.2514/6.1969-842
 [research_cao_lin_2025]: https://doi.org/10.2139/ssrn.5375639
+[research_cao_lin_2026]: https://doi.org/10.1016/j.ast.2026.112676
 [research_cao_lyu_2024]: https://doi.org/10.3390/act13090369
 [research_cao_zhao_2024]: https://doi.org/10.23967/j.rimni.2024.03.004
 [research_carafoli_1969]: https://doi.org/10.1016/b978-0-08-012330-1.50005-4
 [research_carico_1998]: https://doi.org/10.21236/ada350677
 [research_carlson_1981]: https://doi.org/10.1007/978-3-663-14008-5_11
 [research_carlson_cassarino_1973]: https://doi.org/10.21236/ad0771963
+[research_carlson_miller_1981]: https://doi.org/10.2514/6.1981-1656
 [research_carlson_weed_1985]: https://doi.org/10.2514/6.1985-4075
 [research_carlsson_2003]: https://doi.org/10.2514/6.2003-450
 [research_carlsson_2004]: https://doi.org/10.2514/1.8431
@@ -4586,14 +4959,16 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_chang_2005]: https://doi.org/10.4271/2005-01-2273
 [research_chang_trivailo_2002]: https://doi.org/10.1142/9789812776228_0125
 [research_chang_yang_2010]: https://doi.org/10.2514/6.2010-1510
+[research_chanzy]: https://doi.org/10.70675/7b37fd70z8fa1z4932za5c1z2fe8a3577a93
 [research_chaparro_fujiwara_2017]: https://doi.org/10.2514/6.2017-4221
 [research_chapman_1969]: https://doi.org/10.1243/jmes_jour_1969_011_010_02
+[research_chapman_powles_2019]: https://doi.org/10.1016/j.wavemoti.2019.03.003
 [research_chapman_yates_1992]: https://doi.org/10.2514/6.1992-4502
 [research_chapter_15_1994]: https://doi.org/10.1515/9781400880034-018
 [research_chapter_2_2005]: https://doi.org/10.1515/9781400866816-003
 [research_chapter_3_1960]: https://doi.org/10.1515/9781400874941-004
 [research_chapter_5_1957]: https://doi.org/10.1515/9781400879908-011
-[research_chapter_iii_1982]: https://doi.org/10.1016/s0074-6142(08)60469-6
+[research_charles_hassan_1996]: https://doi.org/10.4050/vfs-f52-1015
 [research_charts_torsional_stiffness]: https://ntrs.nasa.gov/citations/19930092723
 [research_chase]: https://doi.org/10.15368/theses.2014.38
 [research_chase_mcdonald_2014]: https://doi.org/10.2514/6.2014-0033
@@ -4615,6 +4990,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_chen_zhang_2026]: https://doi.org/10.2139/ssrn.7380660
 [research_chen_zhou_2015]: https://doi.org/10.2514/6.2015-1176
 [research_chen_zhou_2018]: https://doi.org/10.2514/1.c034621
+[research_chen_zhou_2026]: https://doi.org/10.2139/ssrn.7358526
 [research_cheney_1988]: https://doi.org/10.2514/6.1988-2125
 [research_cheng_1961]: https://doi.org/10.1115/1.3641678
 [research_cheng_1982]: https://doi.org/10.1016/b978-0-12-493280-7.50010-3
@@ -4628,6 +5004,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_cheung_rezgui_2019_b]: https://doi.org/10.2514/6.2019-1863.c1
 [research_cheung_rezgui_2020]: https://doi.org/10.2514/1.c035732
 [research_chin]: https://doi.org/10.15368/theses.2011.43
+[research_chin_1992]: https://doi.org/10.2514/6.1992-2617
 [research_chin_brenner_2011]: https://doi.org/10.2514/6.2011-6206
 [research_chin_chacon_1987]: https://doi.org/10.2514/6.1987-2878
 [research_chipman_zislin_1982]: https://doi.org/10.2514/6.1982-684
@@ -4640,6 +5017,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_chung_lee_2002]: https://doi.org/10.2514/6.2002-2934
 [research_chung_su_2021]: https://doi.org/10.3390/aerospace8060157
 [research_chunshengliu_xinzhongzhu_2012]: https://doi.org/10.1109/acc.2012.6314694
+[research_chushkin_1979]: https://doi.org/10.1016/0041-5553(79)90146-0
 [research_chyu_kuwahara_1982]: https://doi.org/10.2514/6.1982-350
 [research_cicek_kayran_2019]: https://doi.org/10.1115/imece2019-11483
 [research_ciniglio_manimala_2003]: https://doi.org/10.4050/vfs-f59-000140
@@ -4684,16 +5062,19 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_cranehl_reederjp_1945]: https://ntrs.nasa.gov/citations/20050028615
 [research_crasta_khan_2014]: https://doi.org/10.9790/5728-10530108
 [research_crawley_curtiss_1995]: https://doi.org/10.1007/978-94-011-0499-9_2
+[research_crisalli_stahara_1979]: https://doi.org/10.21236/ada082005
 [research_cristofaro_2024]: https://doi.org/10.1002/oca.3222
 [research_crites_rueger_1992]: https://doi.org/10.2514/6.1992-3983
 [research_crittenden_weishaar_1978]: https://doi.org/10.2514/3.58383
 [research_crittenden_weisshaar_1977]: https://doi.org/10.2514/6.1977-454
+[research_cronander_ringertz_2000]: https://doi.org/10.1016/s1270-9638(00)01071-3
 [research_cruz_kienitz_2007]: https://doi.org/10.4271/2007-01-2898
 [research_cui_jianlong_2021]: https://doi.org/10.1515/mt-2020-0101
 [research_cumming_diebler_2005]: https://doi.org/10.2514/6.2005-6312
 [research_cunningham_1972]: https://doi.org/10.2514/3.59005
 [research_cunningham_2017]: https://doi.org/10.2514/6.2017-1651
 [research_cunningham_foster_2008]: https://doi.org/10.2514/6.2008-6200
+[research_cunninghamjr_1975]: https://doi.org/10.2514/6.1975-99
 [research_curpanaru_pastor_2025]: https://doi.org/10.2514/6.2025-3739
 [research_currao_yeh_2026]: https://doi.org/10.2139/ssrn.6450319
 [research_cusimano_johnson_1994]: https://doi.org/10.2514/6.1994-2120
@@ -4717,6 +5098,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_darden_1984]: https://doi.org/10.2514/6.1984-138
 [research_darden_1985]: https://doi.org/10.2514/3.45082
 [research_darida_smrcek_1998]: https://doi.org/10.2514/6.1998-2532
+[research_darling_hickson_1998]: https://doi.org/10.1115/imece1998-0470
 [research_das_2026]: https://doi.org/10.2514/6.2026-112783
 [research_das_venkatraman_2021]: https://doi.org/10.2514/6.2021-0730
 [research_davis]: https://doi.org/10.22215/etd/2006-07735
@@ -4724,6 +5106,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_daynes_lachenal_2015]: https://doi.org/10.1016/j.tws.2015.04.017
 [research_deangelis_1981]: https://doi.org/10.2514/6.1981-2450
 [research_deangelis_1982]: https://doi.org/10.2514/3.44816
+[research_debreuker_abdalla_2007]: https://doi.org/10.1117/12.716731
 [research_debreuker_binder_2018]: https://doi.org/10.2514/6.2018-0764
 [research_decamp_hardy_1984]: https://doi.org/10.2514/6.1984-2088
 [research_deconinck_hirsch_1981]: https://doi.org/10.1007/978-3-663-14008-5_7
@@ -4746,6 +5129,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_demourant_ferreres_2013]: https://doi.org/10.1051/eucass/201306729
 [research_denegri_dubben_2003]: https://doi.org/10.2514/6.2003-1426
 [research_denegri_dubben_2005]: https://doi.org/10.2514/1.1345
+[research_deng_gursul_1996]: https://doi.org/10.2514/3.47060
+[research_deng_gursul_1997]: https://doi.org/10.2514/6.1997-1972
+[research_denicola_tognaccini_1995]: https://doi.org/10.2514/3.46776
+[research_denison_1954]: https://doi.org/10.2514/8.3249
 [research_dennispdykstra_1980]: https://doi.org/10.13031/2013.34619
 [research_desmarais_reediii_1980]: https://doi.org/10.2514/6.1980-792
 [research_dessi_mastroddi_2002]: https://doi.org/10.1115/imece2002-33065
@@ -4753,6 +5140,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_devisser_1999]: https://doi.org/10.2514/6.1999-1258
 [research_devisser_mulder_2009]: https://doi.org/10.2514/6.2009-5726
 [research_devisser_pool_2023]: https://doi.org/10.2514/1.c037283
+[research_devoogt_ganapathisubramani_2022]: https://doi.org/10.1017/flo.2022.11
 [research_devries_vankampen_2019]: https://doi.org/10.2514/6.2019-0144
 [research_dhital_chouvion_2024]: https://doi.org/10.20944/preprints202411.1381.v1
 [research_dias_2023]: https://doi.org/10.2514/1.c037252
@@ -4793,6 +5181,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_dooley_1965]: https://doi.org/10.1016/0020-7403(65)90017-2
 [research_dooley_yeary_1979]: https://doi.org/10.21236/ada071648
 [research_dorin_smolin_1977]: https://doi.org/10.1007/bf00817129
+[research_dossantosgoncalves_santos_2025]: https://doi.org/10.2514/6.2025-1015
 [research_dowell_1983]: https://doi.org/10.21236/ada135133
 [research_dowell_1990]: https://doi.org/10.21236/ada227930
 [research_dowell_1996]: https://doi.org/10.21236/ada325524
@@ -4800,6 +5189,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_dowell_2001]: https://doi.org/10.21236/ada389366
 [research_dowell_2021]: https://doi.org/10.1007/978-3-030-74236-2_2
 [research_dowell_attar_2006]: https://doi.org/10.21236/ada469723
+[research_dowell_bliss_2003]: https://doi.org/10.2514/2.3130
 [research_dowell_curtiss_1989]: https://doi.org/10.1007/978-94-015-7858-5_2
 [research_downs_prazenica_2022]: https://doi.org/10.2514/6.2022-1729
 [research_downs_prazenica_2023]: https://doi.org/10.2514/6.2023-0130
@@ -4815,7 +5205,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_dubnicky_splichal_2023]: https://doi.org/10.21495/em2023-59
 [research_duessler_mylvaganam_2023]: https://doi.org/10.2514/6.2023-2571
 [research_duessler_mylvaganam_2024]: https://doi.org/10.2514/6.2024-0614
+[research_duff_1952]: https://doi.org/10.2514/8.2356
 [research_duffy_1989]: https://doi.org/10.2514/6.1989-3383
+[research_duling_gandhi_2010]: https://doi.org/10.4050/vfs-f66-000316
 [research_dumpleton_1987]: https://doi.org/10.1080/03052158708941082
 [research_duncan_1950]: https://doi.org/10.1017/s0001925900000378
 [research_dunning_stanford_2014]: https://doi.org/10.2514/6.2014-0344
@@ -4828,6 +5220,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_dynamic_force]: https://doi.org/10.3403/00024595
 [research_dynamic_lateral_directional_2003]: https://doi.org/10.2514/5.9781600861840.0311.0322
 [research_eastep_andersen_1998]: https://doi.org/10.2514/6.1998-4932
+[research_eastep_andersen_2001]: https://doi.org/10.2514/2.2842
 [research_eastep_tischler_1999]: https://doi.org/10.2514/2.2546
 [research_eckstrom_spain_1982]: https://doi.org/10.2514/6.1982-678
 [research_ecsedi_2000]: https://doi.org/10.1016/s0093-6413(00)00110-5
@@ -4837,9 +5230,11 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_edwards_whitfield_1986]: https://doi.org/10.1007/978-3-642-82770-9_7
 [research_effective_torsional_1976]: https://doi.org/10.14359/11098
 [research_efremov_1992]: https://doi.org/10.1007/bf00847286
+[research_egoldstein_ricco_2020]: https://doi.org/10.5772/intechopen.83672
 [research_eguea]: https://doi.org/10.11606/d.18.2019.tde-05072019-144340
 [research_ehlers_weisshaar_1992]: https://doi.org/10.2514/6.1992-2526
 [research_ehlers_weisshaar_1993]: https://doi.org/10.2514/3.46376
+[research_ehlers_weisshaar_1993_b]: https://doi.org/10.1117/12.152754
 [research_eichelsdorfer_2026]: https://doi.org/10.2514/6.2026-1556
 [research_eichelsdorfer_2026_b]: https://doi.org/10.2514/6.2026-1555
 [research_elastic_and_2008]: https://doi.org/10.1017/cbo9780511801631.034
@@ -4861,6 +5256,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_eraslan_oktay_2024]: https://doi.org/10.28948/ngumuh.1501418
 [research_erdman_2005]: https://doi.org/10.21236/ada435347
 [research_ericsson_reding_1981]: https://doi.org/10.2514/6.1981-1672
+[research_erwin_gregorek_1992]: https://doi.org/10.2514/6.1992-4035
 [research_eskandary_dardel_2012]: https://doi.org/10.1016/j.actaastro.2011.07.017
 [research_eslimyisfahany_banerjee_1995]: https://doi.org/10.2514/6.1995-1448
 [research_eslimyisfahany_banerjee_1996]: https://doi.org/10.1006/jsvi.1996.0421
@@ -4873,9 +5269,11 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_eversman_dandaroy_1996]: https://doi.org/10.2514/6.1996-1345
 [research_eversman_roy_1997]: https://doi.org/10.2514/2.2163
 [research_exploring_the_2015]: https://doi.org/10.2307/j.ctt1287kgx.5
+[research_extension_of_1982]: https://doi.org/10.2514/5.9781600865558.0467.0487
 [research_ezawa_nakatsugawa_2024]: https://doi.org/10.2139/ssrn.4780376
 [research_f_m_strain_1975]: https://doi.org/10.1111/j.1475-1305.1975.tb00165.x
 [research_fagbade_heinz_2024]: https://doi.org/10.3390/app14072705
+[research_fagley_seidel_2015]: https://doi.org/10.2514/6.2015-1505
 [research_faisse]: https://doi.org/10.70675/c7bfd6f3z9deez44edz8b34zc551fda30c97
 [research_faisse_vernay_2021]: https://doi.org/10.2514/6.2021-0892
 [research_faisse_vernay_2022]: https://doi.org/10.2514/6.2022-2243
@@ -4895,6 +5293,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_fasel_2020]: https://doi.org/10.52843/cassyni.tbr8qg
 [research_favale_haidar_2021]: https://doi.org/10.4050/f-0077-2021-16766
 [research_fay_johnstone_1960]: https://doi.org/10.21236/ad0248516
+[research_fazelzadeh_azadi_2016]: https://doi.org/10.1177/1077546315591336
+[research_fazelzadeh_ghasemi_2016]: https://doi.org/10.20855/ijav.2016.21.3427
 [research_fechter_mills_1988]: https://doi.org/10.2514/6.1988-2174
 [research_fejtek_1994]: https://doi.org/10.2514/6.1994-2604
 [research_felker_1992]: https://doi.org/10.2514/6.1992-2123
@@ -4914,6 +5314,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_filippou_sodja_2026]: https://doi.org/10.2139/ssrn.6828778
 [research_finnestead_connor_1970]: https://doi.org/10.21236/ad0874210
 [research_fischenberg_1995]: https://doi.org/10.2514/6.1995-3438
+[research_fischer_wrightjr_1983]: https://doi.org/10.2514/6.1983-2508
 [research_fisher_gertsen_1956]: https://doi.org/10.21236/ad0092459
 [research_fitzgerald_ralston_1994]: https://doi.org/10.2514/6.1994-3400
 [research_flexible_manufacturing_2003]: https://doi.org/10.1108/aeat.2003.12775fab.001
@@ -4937,6 +5338,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_forsey_1983]: https://doi.org/10.2514/6.1983-1805
 [research_forster_kolonay_1996]: https://doi.org/10.2514/6.1996-4010
 [research_forster_sanders_2002]: https://doi.org/10.2514/6.2002-5404
+[research_forster_steijl_2015]: https://doi.org/10.2514/6.2015-1709
 [research_forte_nguyen_2022]: https://doi.org/10.2514/6.2022-0715
 [research_forte_nguyen_2023]: https://doi.org/10.2514/6.2023-0881
 [research_forte_nguyen_2024]: https://doi.org/10.2514/6.2024-1782
@@ -4949,6 +5351,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_foster_1966]: https://doi.org/10.1088/0950-7671/43/3/421
 [research_fournier]: https://doi.org/10.70675/740d6648z220fz43a1zbeaczdfda6e921f86
 [research_fournier_massioni_2022]: https://doi.org/10.2514/1.g006084
+[research_fournis_2022]: https://doi.org/10.2514/6.2022-3886
 [research_frame_wise_control_2016]: https://doi.org/10.1002/9781118827789.ch7
 [research_frampton_clark_1998]: https://doi.org/10.2514/6.1998-1980
 [research_franciscopena_benjaminpark_2024]: https://ntrs.nasa.gov/citations/20240008449
@@ -4983,11 +5386,13 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_fujimori_nikiforuk_1995]: https://doi.org/10.1016/b978-0-08-042238-1.50041-0
 [research_fujimori_ohta_1989]: https://doi.org/10.1016/s1474-6670(17)53399-6
 [research_fujimori_ohta_1990]: https://doi.org/10.1016/b978-0-08-037027-9.50024-0
+[research_fujiwara_nguyen_2017]: https://doi.org/10.2514/6.2017-4218
 [research_fukumoto_kouchi_2023]: https://doi.org/10.2514/6.2023-1180
 [research_further_development_1994]: https://doi.org/10.2514/6.1994-2141
 [research_gabel_ricks_1961]: https://doi.org/10.21236/ad0267342
 [research_gade_inman_1996]: https://doi.org/10.1115/imece1996-0909
 [research_gade_inman_1997]: https://doi.org/10.2514/2.4139
+[research_gadsden_habibi_2007]: https://doi.org/10.1115/imece2007-41897
 [research_gai_seffen_2025]: https://doi.org/10.2514/6.2025-1088.c1
 [research_gai_sun_2019]: https://doi.org/10.1109/safeprocess45799.2019.9213444
 [research_gai_wang_2013]: https://doi.org/10.1016/j.cja.2013.04.031
@@ -4997,7 +5402,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_gally_carlson_1987]: https://doi.org/10.2514/6.1987-2551
 [research_galway_1980]: https://doi.org/10.21236/ada090484
 [research_gamboa_santos_2016]: https://doi.org/10.2514/6.2016-0317
+[research_gandhi_bluman_2009]: https://doi.org/10.4050/vfs-f65-000122
 [research_gandhi_cooper_2009]: https://doi.org/10.2514/6.2009-5890
+[research_gandhi_duling_2014]: https://doi.org/10.1017/s0001924000009337
 [research_gandhi_hathaway_1998]: https://doi.org/10.2514/2.2341
 [research_gangsaas_ly_1981]: https://doi.org/10.2514/6.1981-21
 [research_ganguli_chopra_1995]: https://doi.org/10.2514/3.46882
@@ -5011,9 +5418,11 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_garciavelo_walker_1995]: https://doi.org/10.2514/6.1995-3500
 [research_garrard_liebst_1983]: https://doi.org/10.2514/6.1983-2222
 [research_garrard_liebst_1985]: https://doi.org/10.2514/3.19980
+[research_garrardwilliaml_liebstbradleys_1987]: https://ntrs.nasa.gov/citations/19870012527
 [research_garrickie_rubinowsi_1946]: https://ntrs.nasa.gov/citations/19930081835
 [research_garrickie_rubinowsi_1946_b]: https://ntrs.nasa.gov/citations/19930090942
 [research_garud_ajluni_2024]: https://doi.org/10.2514/6.2024-84867
+[research_garzon_matisheck_2012]: https://doi.org/10.2514/6.2012-3258
 [research_gasbarri_chiwiacowsky_2009]: https://doi.org/10.1007/s00158-009-0429-6
 [research_gasparetto]: https://doi.org/10.22215/etd/2021-14645
 [research_gaspari_ricci_2009]: https://doi.org/10.2514/1.34649
@@ -5023,12 +5432,16 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_generalized_predictive_1997]: https://doi.org/10.1109/37.608553
 [research_gennaretti_2024]: https://doi.org/10.1007/978-3-031-53379-2_4
 [research_gennaretti_ponzi_1999]: https://doi.org/10.1017/s0001924000064964
+[research_george_ukeiley_2016]: https://doi.org/10.2514/6.2016-2755
 [research_georgiou_manan_2012]: https://doi.org/10.1016/j.ymssp.2012.05.003
 [research_gera_wilson_1981]: https://doi.org/10.2514/6.1981-2505
 [research_gern_2001]: https://doi.org/10.1006/rwvb.2001.0194
 [research_gern_ko_2000]: https://doi.org/10.2514/6.2000-4826
 [research_gern_librescu_1998]: https://doi.org/10.2514/2.499
 [research_gern_librescu_2000]: https://doi.org/10.2514/2.2718
+[research_gerontakos_lee_2006]: https://doi.org/10.2514/1.19776
+[research_gerontakos_lee_2007]: https://doi.org/10.2514/1.27577
+[research_gerontakos_lee_2008]: https://doi.org/10.1007/s00348-008-0514-4
 [research_ghalandari_mahariq_2022]: https://doi.org/10.32604/cmc.2022.020884
 [research_ghee_taylor_2000]: https://doi.org/10.21236/ada377908
 [research_ghee_taylor_2004]: https://doi.org/10.2514/6.2004-4843
@@ -5036,9 +5449,11 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_ghiringhelli_lanz_1992]: https://doi.org/10.1016/b978-0-12-012752-8.50007-6
 [research_ghorawat_lee_2015]: https://doi.org/10.2514/6.2015-2555
 [research_ghorawat_lee_2016]: https://doi.org/10.2514/6.2016-1866
+[research_ghorawat_lee_2016_b]: https://doi.org/10.1007/978-3-319-48944-5_29
 [research_ghosh_patil_2022]: https://doi.org/10.2514/6.2022-1126
 [research_ghosh_raisinghani_1993]: https://doi.org/10.2514/6.1993-3640
 [research_ghosh_raisinghani_1994]: https://doi.org/10.2514/3.46510
+[research_giannelis_murray_2019]: https://doi.org/10.2514/6.2019-1339
 [research_giansante_bernardini_2022]: https://doi.org/10.3390/app122312204
 [research_gibson_1981]: https://doi.org/10.2514/6.1981-2507
 [research_gibson_ung_1995]: https://doi.org/10.2514/6.1995-1201
@@ -5048,6 +5463,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_gilbert_schmidt_1984]: https://doi.org/10.2514/3.8566
 [research_gilbert_silva_1987]: https://doi.org/10.2514/6.1987-2563
 [research_gilbertmichaelg_1989]: https://ntrs.nasa.gov/citations/19890015868
+[research_gilfert_gudmundsson_2019]: https://doi.org/10.2514/6.2019-3491
 [research_gimmestad_1979]: https://doi.org/10.2514/6.1979-726
 [research_gimmestad_1981]: https://doi.org/10.2514/6.1981-607
 [research_gimmestad_1981_b]: https://doi.org/10.2514/6.1981-1671
@@ -5055,7 +5471,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_giunta_1999]: https://doi.org/10.1016/s1369-8869(99)00016-6
 [research_gloss_washburn_1977]: https://doi.org/10.2514/6.1977-1132
 [research_gloss_washburn_1978]: https://doi.org/10.2514/3.58347
+[research_gnemmi_rey_2008]: https://doi.org/10.2514/6.2008-6885
 [research_gobal_grandhi_2015]: https://doi.org/10.2514/6.2015-0766
+[research_godavarthi_seo_2026]: https://doi.org/10.2514/6.2026-2313
 [research_goizueta_drachinsky_2021]: https://doi.org/10.2514/6.2021-1711
 [research_goizueta_wynn_2022]: https://doi.org/10.2514/1.c036710
 [research_goland_1952]: https://doi.org/10.21236/ad0004240
@@ -5103,7 +5521,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_grigorie_botez_2014]: https://doi.org/10.2514/6.2014-2187
 [research_grigorie_botez_2018]: https://doi.org/10.1016/b978-0-08-100964-2.00012-5
 [research_grigorie_popov_2011]: https://doi.org/10.2514/6.2011-6460
+[research_gripp_guimaraesmoreira_2023]: https://doi.org/10.26678/abcm.diname2023.din2023-0107
 [research_grismer_kinsey_2000]: https://doi.org/10.2514/6.2000-4325
+[research_grogorie_popov_2013]: https://doi.org/10.2514/6.2013-4918
 [research_gross_2002]: https://doi.org/10.2514/6.2002-310
 [research_gross_chandler_1986]: https://doi.org/10.23919/acc.1986.4789163
 [research_grosser_1965]: https://doi.org/10.2514/6.1965-789
@@ -5151,6 +5571,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_haghighat_liu_2012]: https://doi.org/10.2514/1.57013
 [research_haghighat_martins_2012]: https://doi.org/10.2514/1.c031344
 [research_hahn_haupt_2022]: https://doi.org/10.1007/s13272-022-00586-2
+[research_hahn_lax_2024]: https://doi.org/10.3390/fluids9120291
 [research_haider_ajaj_2022]: https://doi.org/10.3390/aerospace9090483
 [research_haider_ajaj_2023]: https://doi.org/10.3390/aerospace10010057
 [research_hajj_2004]: https://doi.org/10.21236/ada428596
@@ -5158,7 +5579,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_hale_chapman_2012]: https://doi.org/10.1111/j.1747-1567.2011.00801.x
 [research_haley_soloway_2001]: https://doi.org/10.2514/2.4696
 [research_haley_soloway_2022]: https://doi.org/10.1109/mcs.2022.3171473
+[research_halim_1989]: https://doi.org/10.2514/6.1989-1793
 [research_hall_mason_2012]: https://doi.org/10.2514/6.2012-2482
+[research_hallberg_kaminer_1999]: https://doi.org/10.2514/2.7639
 [research_halwas_aggarwal_2019]: https://doi.org/10.2514/1.c035481
 [research_halwas_aggarwal_2019_b]: https://doi.org/10.2514/1.c035093
 [research_ham_kim_1994]: https://doi.org/10.2514/6.1994-1745
@@ -5182,28 +5605,35 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_harper_robertp_1955]: https://doi.org/10.21236/ad0092496
 [research_harris_arthurs_2016]: https://doi.org/10.1109/icuas.2016.7502624
 [research_harry_trobaugh_1966]: https://doi.org/10.21236/ad0641246
+[research_hartley_furey_1965]: https://doi.org/10.21236/ad0626655
 [research_hartman_2019]: https://doi.org/10.2514/6.2019-1292
 [research_hartmann_2012]: https://doi.org/10.2514/6.2012-459
 [research_hartmann_2013]: https://doi.org/10.1002/fld.3762
 [research_hartwell_nguyen_2021]: https://doi.org/10.2514/6.2021-1117
 [research_harv_testbed]: https://ntrs.nasa.gov/citations/19920024160
 [research_harvey_1983]: https://doi.org/10.23919/acc.1983.4788223
+[research_hasan_akram_2022]: https://doi.org/10.1504/pcfd.2022.10052925
 [research_hashemi_nguyen_2018]: https://doi.org/10.2514/6.2018-0623
 [research_hashemi_nguyen_2018_b]: https://doi.org/10.2514/6.2018-0619
+[research_hassanaa_charlesbd_1992]: https://ntrs.nasa.gov/citations/19920011930
+[research_hassanahmeda_sankarln_1994]: https://ntrs.nasa.gov/citations/19950039582
 [research_hatamimarbini_2018]: https://doi.org/10.1103/physreve.97.022504
 [research_hatamleh_ma_2009]: https://doi.org/10.2514/6.2009-5936
 [research_haucke_bauer_2016]: https://doi.org/10.1007/978-3-319-27279-5_19
 [research_hayabe_kwak_2025]: https://doi.org/10.2514/6.2025-0257
 [research_hayashi_ueda_2017]: https://doi.org/10.1016/j.measurement.2016.10.027
 [research_he_deparday_2020]: https://doi.org/10.2514/1.j059719
+[research_he_guo_2012]: https://doi.org/10.3901/cjme.2012.02.248
 [research_he_shi_2024]: https://doi.org/10.2514/1.j061902.c1
 [research_he_song_2020]: https://doi.org/10.2514/6.2020-1908
 [research_he_wang_2021]: https://doi.org/10.2514/6.2021-2534
 [research_he_wang_2022]: https://doi.org/10.1145/3548608.3559293
 [research_he_wang_2023]: https://doi.org/10.1155/2023/1711088
+[research_he_yang_2016]: https://doi.org/10.1016/j.jfluidstructs.2015.11.014
 [research_heaney_quindlen_2024]: https://doi.org/10.2514/6.2024-2509
 [research_heeg_2006]: https://doi.org/10.2514/6.2006-2185
 [research_heeg_spain_2005]: https://doi.org/10.2514/6.2005-2234
+[research_heinrich_ballinger_1959]: https://doi.org/10.21236/ad0210257
 [research_held_fuchs_1999]: https://doi.org/10.1615/tsfp1.2030
 [research_helicopter_flight_1987]: https://doi.org/10.1108/eb036427
 [research_helmken_emmons_1996]: https://doi.org/10.1063/1.49842
@@ -5214,8 +5644,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_henne_1980]: https://doi.org/10.2514/6.1980-330
 [research_henne_hicks_1978]: https://doi.org/10.2514/6.1978-105
 [research_henry_molinari_2017]: https://doi.org/10.2514/6.2017-0294
-[research_herbert]: https://doi.org/10.1007/10339647_21
 [research_herencia_weaver_2007]: https://doi.org/10.2514/6.2007-2214
+[research_hernandez_wood_1989]: https://doi.org/10.2514/6.1989-27
+[research_hernandez_wood_1990]: https://doi.org/10.2514/3.45912
 [research_herrmann]: https://doi.org/10.15368/theses.2016.157
 [research_herrmann_nematnasser_1966]: https://doi.org/10.2514/6.1966-475
 [research_hess_1986]: https://doi.org/10.2514/6.1986-2681
@@ -5271,7 +5702,11 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_hu_traisnel_2026]: https://doi.org/10.2139/ssrn.6790318
 [research_hu_yu_2024]: https://doi.org/10.1109/cac63892.2024.10865419
 [research_hua_wang_2025]: https://doi.org/10.3390/aerospace12040327
+[research_huang_fan_2024]: https://doi.org/10.2139/ssrn.4750675
 [research_huang_fraihat_2025]: https://doi.org/10.2514/6.2025-3471
+[research_huang_hartley_1969]: https://doi.org/10.1063/1.1692299
+[research_huang_hwang_1969]: https://doi.org/10.2514/6.1969-652
+[research_huang_hwang_1970]: https://doi.org/10.1063/1.1692921
 [research_huang_qian_2015]: https://doi.org/10.1016/j.jfluidstructs.2015.03.014
 [research_huang_wang_2024]: https://doi.org/10.1007/s00158-024-03809-8
 [research_huang_zhang_2024]: https://doi.org/10.1007/978-981-99-8048-2_113
@@ -5287,6 +5722,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_huo_yuan_2013]: https://doi.org/10.1007/s11771-013-1489-8
 [research_hur_valasek_2003]: https://doi.org/10.2514/6.2003-5539
 [research_hussain_khan_2019]: https://doi.org/10.1109/ibcast.2019.8667187
+[research_hussein_2023]: https://doi.org/10.1007/s00707-023-03618-y
 [research_hussein_rashid_2025]: https://doi.org/10.1007/s42401-025-00395-5
 [research_hutto_1975]: https://doi.org/10.4050/vfs-f31-035
 [research_huttsell_eastep_1989]: https://doi.org/10.2514/6.1989-3375
@@ -5305,9 +5741,11 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_ide_shankar_1987]: https://doi.org/10.2514/6.1987-707
 [research_idsardi_1983]: https://doi.org/10.2514/6.1983-2732
 [research_ifju_waszak_2001]: https://doi.org/10.2514/6.2001-4005
+[research_iizuka_fujii_2006]: https://doi.org/10.2514/6.iac-06-d2.p.1.09
 [research_ilie_havenar_2023]: https://doi.org/10.2514/6.2023-4089
 [research_iliff_maine_1983]: https://doi.org/10.2514/3.48210
 [research_incorporating_agility_1994]: https://doi.org/10.2514/6.1994-2135
+[research_influence_of_1989]: https://doi.org/10.2514/6.1989-85
 [research_ingle_kothmann_1998]: https://doi.org/10.4050/vfs-f54-00100
 [research_initial_flight_1989]: https://doi.org/10.2514/6.1989-3359
 [research_innocenti_1985]: https://doi.org/10.2514/6.1985-1805
@@ -5319,6 +5757,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_ippolito_ting_2014]: https://doi.org/10.2514/6.2014-1044
 [research_irfan_nanangburhan_2026]: https://doi.org/10.35261/barometer.v11i2.13201
 [research_iriarte_aginaga_2021]: https://doi.org/10.1016/j.measurement.2020.108938
+[research_ishide_itazawa_2017]: https://doi.org/10.1016/j.taml.2017.11.010
 [research_ishihara_nguyen_2013]: https://doi.org/10.2514/6.2013-4860
 [research_ishihara_nguyen_2014]: https://doi.org/10.1109/cdc.2014.7039759
 [research_ishii_1965]: https://doi.org/10.2514/6.1965-772
@@ -5360,6 +5799,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_jenney_schreadley_1982]: https://doi.org/10.21236/ada117244
 [research_jeong_lee_2013]: https://doi.org/10.2514/1.c032087
 [research_jepps_1981]: https://doi.org/10.1007/978-3-663-14008-5_9
+[research_jepson_gopalarathnam_2005]: https://doi.org/10.2514/6.2005-1035
 [research_jha_chattopadhyay_1999]: https://doi.org/10.2514/6.1999-1514
 [research_jia_zhang_2022]: https://doi.org/10.3390/aerospace9110699
 [research_jia_zhang_2023]: https://doi.org/10.3390/aerospace10100853
@@ -5368,6 +5808,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_jiang_an_2000]: https://doi.org/10.2514/6.2000-4324
 [research_jiang_li_2018]: https://doi.org/10.2514/6.2018-3160
 [research_jiang_li_2018_b]: https://doi.org/10.2514/6.2018-3160.c1
+[research_jiang_shang_2026]: https://doi.org/10.1016/j.ast.2026.112106
 [research_jiang_tian_2019]: https://doi.org/10.1016/j.ast.2019.03.043
 [research_jiang_yang_2026]: https://doi.org/10.1007/978-981-95-7840-5_15
 [research_jianjunma_pengli_2008]: https://doi.org/10.1109/asc-icsc.2008.4675349
@@ -5383,6 +5824,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_johns_1964]: https://doi.org/10.2514/3.2691
 [research_johnson_1980]: https://doi.org/10.2514/6.1980-765
 [research_johnsoncb_kaufmanlgiii_1979]: https://ntrs.nasa.gov/citations/19790035549
+[research_johnston_1992]: https://doi.org/10.2514/6.1992-2653
 [research_johnston_1998]: https://doi.org/10.2514/6.1998-2736
 [research_johnston_cassarino_1976]: https://doi.org/10.21236/ada020871
 [research_johnstonjf_1979]: https://ntrs.nasa.gov/citations/19820007203
@@ -5390,8 +5832,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_jones_1976]: https://doi.org/10.2514/3.44558
 [research_jones_1980]: https://doi.org/10.2514/6.1980-3040
 [research_jones_jarrett_2018]: https://doi.org/10.2514/1.j056725
+[research_jones_nisbet_1976]: https://doi.org/10.1017/s0001924000034138
 [research_joo_marks_2015]: https://doi.org/10.2514/6.2015-1050
 [research_jorge_lind_2013]: https://doi.org/10.2514/6.2013-4983
+[research_jothiraj_sharf_2020]: https://doi.org/10.1109/icuas48674.2020.9214036
 [research_jovanov_debreuker_2015]: https://doi.org/10.2514/6.2015-0175
 [research_juliana_chu_2004]: https://doi.org/10.2514/6.2004-5170
 [research_jun_harmin_2014]: https://doi.org/10.4028/www.scientific.net/amm.629.182
@@ -5412,6 +5856,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_kannemans_1995]: https://doi.org/10.2514/6.1995-3434
 [research_kapania_chun_2003]: https://doi.org/10.2514/6.2003-2004
 [research_kapase_joshi_2026]: https://doi.org/10.22214/ijraset.2026.79150
+[research_karagounis_maxworthy_1989]: https://doi.org/10.2514/6.1989-997
 [research_karania_mohan_2021]: https://doi.org/10.1007/978-981-15-9601-8_38
 [research_karathanasopoulos_2015]: https://doi.org/10.1016/j.istruc.2015.05.004
 [research_karpel_1982]: https://doi.org/10.2514/3.57379
@@ -5422,12 +5867,14 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_karpel_moulin_2000]: https://doi.org/10.2514/6.2000-4722
 [research_karpel_sheena_1989]: https://doi.org/10.2514/3.45791
 [research_karpouzian_1991]: https://doi.org/10.2514/3.10655
+[research_karpouzian_1998]: https://doi.org/10.2514/6.1998-1797
 [research_karpouzian_librescu_1991]: https://doi.org/10.2514/6.1991-934
 [research_karpouzian_librescu_1992]: https://doi.org/10.2514/6.1992-2469
 [research_karpouzian_librescu_1994]: https://doi.org/10.2514/3.46551
 [research_kassapakis_warwick_1994]: https://doi.org/10.1002/acs.4480080405
 [research_katagiri_park_2024]: https://doi.org/10.2514/6.2024-0850
 [research_katam_lebeau_2005]: https://doi.org/10.2514/6.2005-4880
+[research_katary_1983]: https://doi.org/10.2514/6.1983-2133
 [research_kaufman_balabanov_1996]: https://doi.org/10.2514/6.1996-89
 [research_kaushik_2018]: https://doi.org/10.1007/978-981-13-1678-4_1
 [research_kawakami_takatoya_2007]: https://doi.org/10.2514/6.2007-4174
@@ -5450,6 +5897,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_kelly_1974]: https://doi.org/10.2514/6.1974-909
 [research_kelly_1988]: https://doi.org/10.2514/6.1988-2129
 [research_kennedy_martins_2013]: https://doi.org/10.2514/6.2013-1530
+[research_kerhomichael_braggmichaelb_2012]: https://ntrs.nasa.gov/citations/20120007486
 [research_khaddage]: https://doi.org/10.22215/etd/2017-12070
 [research_khalil_asaro_2020]: https://doi.org/10.2514/6.2020-2940
 [research_khalil_asaro_2022]: https://doi.org/10.2514/1.c036426
@@ -5467,6 +5915,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_khot_eastep_1997]: https://doi.org/10.2514/6.1997-1268
 [research_khot_zweber_2000]: https://doi.org/10.2514/6.2000-1333
 [research_khot_zweber_2002]: https://doi.org/10.2514/2.2971
+[research_khotyanovsky_kudryavtsev_2017]: https://doi.org/10.1063/1.5007509
 [research_khrabrov_sidoryuk_2010]: https://doi.org/10.2514/6.2010-284
 [research_khrabrov_sidoryuk_2013]: https://doi.org/10.14355/fae.2013.0204.06
 [research_kilimtzidis_kostopoulos_2023]: https://doi.org/10.3390/aerospace10030251
@@ -5488,6 +5937,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_kisslinger_vetsch_1965]: https://doi.org/10.2514/6.1965-1245
 [research_klabes_callsen_2018]: https://doi.org/10.1007/978-3-319-76780-2_19
 [research_klaue_seidel_2009]: https://doi.org/10.1103/physrevlett.102.028302
+[research_klausmeyer_2004]: https://doi.org/10.2514/6.2004-553
 [research_klausmeyer_2018]: https://doi.org/10.2514/6.2018-2992
 [research_klepl_1990]: https://doi.org/10.23919/acc.1990.4790836
 [research_klepl_1995]: https://doi.org/10.2514/3.46702
@@ -5502,6 +5952,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_kobow_wennemann_2026]: https://doi.org/10.2514/6.2026-0302
 [research_kobusch_eichstadt_2017]: https://doi.org/10.21014/acta_imeko.v6i1.433
 [research_koeniguer_spear_2018]: https://doi.org/10.2514/6.2018-4169
+[research_kojima_hashimoto_2023]: https://doi.org/10.2514/6.2023-1425
 [research_kojima_kameda_2019]: https://doi.org/10.1007/978-3-319-91017-8_134
 [research_kokolios_1994]: https://doi.org/10.2514/6.1994-10
 [research_kolesar_1971]: https://doi.org/10.21236/ad0734236
@@ -5518,6 +5969,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_koreanschi_oliviu_2014]: https://doi.org/10.2514/6.2014-3170
 [research_koreanschi_oliviu_2015]: https://doi.org/10.2514/6.2015-3386
 [research_koreanschi_oliviu_2016]: https://doi.org/10.2514/6.2016-1083
+[research_korobkin_1953]: https://doi.org/10.2514/8.2739
 [research_kosmatka_panza_2002]: https://doi.org/10.2514/6.2002-3470
 [research_kotikalpudi_danowsky_2018]: https://doi.org/10.2514/6.2018-3426
 [research_kotikalpudi_pfifer_2016]: https://doi.org/10.2514/6.2016-1752
@@ -5533,6 +5985,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_kreshock_yeo_2018]: https://doi.org/10.4050/f-0074-2018-12761
 [research_krings_henning_2013]: https://doi.org/10.1007/978-3-642-38253-6_17
 [research_kroegerra_1977]: https://ntrs.nasa.gov/citations/19780012166
+[research_krothapalli_alvi_2003]: https://doi.org/10.21236/ada414914
 [research_kruger_meddaikar_2022]: https://doi.org/10.3390/aerospace9100535
 [research_kubica_livet_1994]: https://doi.org/10.2514/6.1994-3630
 [research_kubica_livet_1994_b]: https://doi.org/10.1109/cca.1994.381445
@@ -5552,6 +6005,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_kuppuswamy_kiran_1981]: https://doi.org/10.2514/6.1981-2381
 [research_kurade_venkatakrishnan_2021]: https://doi.org/10.1017/aer.2021.99
 [research_kurita_koike_2019]: https://doi.org/10.2322/tjsass.62.108
+[research_kurosaka_1974]: https://doi.org/10.1115/1.3445745
 [research_kurzke_halliwell_2018]: https://doi.org/10.1007/978-3-319-75979-1_14
 [research_kurzke_halliwell_2025]: https://doi.org/10.1007/978-3-031-65026-0_20
 [research_kussner_1959]: https://doi.org/10.1016/b978-1-4831-9833-0.50009-8
@@ -5559,15 +6013,19 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_kuttenkeuler_ringertz_1998]: https://doi.org/10.2514/2.2330
 [research_kwak_shirotake_2004]: https://doi.org/10.2514/6.2004-5082
 [research_kwon_chang_2026]: https://doi.org/10.1201/9781003761891-33
+[research_kwon_vepa_2022]: https://doi.org/10.1177/10775463211052370
 [research_kwong_severson_2024]: https://doi.org/10.2514/6.2024-84746
 [research_laban_masui_1993]: https://doi.org/10.2514/3.46327
+[research_lackner_vankuik_2009]: https://doi.org/10.2514/6.2009-685
 [research_lai_lu_2016]: https://doi.org/10.2514/6.2016-3835
 [research_lai_zhang_2014]: https://doi.org/10.2514/6.2014-1200
 [research_lam_paranjape_2024]: https://doi.org/10.2514/6.2024-2820
+[research_lamar_1977]: https://doi.org/10.2514/3.58916
 [research_lambert_gursul_2001]: https://doi.org/10.2514/6.2001-2426
 [research_lamour_2014]: https://doi.org/10.5162/etc2014/4.2
 [research_lamy_1983]: https://doi.org/10.2514/6.1983-2736
 [research_lan_bianchi_2006]: https://doi.org/10.2514/6.2006-6490
+[research_lan_wang_2026]: https://doi.org/10.1016/j.ast.2025.110978
 [research_landers_landrum_1997]: https://doi.org/10.2514/6.1997-2248
 [research_landers_landrum_1998]: https://doi.org/10.2514/2.3355
 [research_lang_1981]: https://doi.org/10.2514/6.1981-2416
@@ -5591,18 +6049,23 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_leal_stroud_2018]: https://doi.org/10.2514/6.2018-0799
 [research_leal_white_2018]: https://doi.org/10.2514/6.2018-0800
 [research_leble_barakos_2016]: https://doi.org/10.1007/978-3-319-39095-6_7
+[research_lebofsky_ting_2014]: https://doi.org/10.2514/6.2014-2443
 [research_lebofsky_ting_2015]: https://doi.org/10.2514/6.2015-1408
 [research_lebofsky_ting_2015_b]: https://doi.org/10.2514/6.2015-2723
 [research_lee_1994]: https://doi.org/10.2514/6.1994-1695
 [research_lee_aldredge_2015]: https://doi.org/10.1016/j.ast.2015.08.004
 [research_lee_boedicker_1985]: https://doi.org/10.2514/6.1985-3073
+[research_lee_chen_2004]: https://doi.org/10.2514/6.2004-1944
+[research_lee_gerontakos_2009]: https://doi.org/10.2514/1.42431
 [research_lee_hashemi_2018]: https://doi.org/10.23919/acc.2018.8431916
 [research_lee_kim_1994]: https://doi.org/10.2514/3.46667
 [research_lee_kim_1995]: https://doi.org/10.2514/3.46803
 [research_lee_singh_2006]: https://doi.org/10.2514/6.2006-6315
 [research_lee_singh_2009]: https://doi.org/10.2514/6.2009-6301
+[research_lee_singh_2013]: https://doi.org/10.2514/6.2013-333
 [research_lee_singh_2014]: https://doi.org/10.2514/6.2014-0603
 [research_lee_singh_2018]: https://doi.org/10.2514/6.2018-1341
+[research_lee_su_2012]: https://doi.org/10.2514/1.j051278
 [research_lee_valerio_1993]: https://doi.org/10.2514/6.1993-3468
 [research_leerausch_batina_1993]: https://doi.org/10.2514/6.1993-3476
 [research_lei_kwak_2005]: https://doi.org/10.2514/6.2005-5087
@@ -5611,6 +6074,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_leitch_stodieck_2024]: https://doi.org/10.2139/ssrn.4786120
 [research_leitch_stodieck_2025]: https://doi.org/10.1016/j.compstruct.2025.119706
 [research_lekou_mouzakis_2009]: https://doi.org/10.1115/1.3027508
+[research_lendraitis_2019]: https://doi.org/10.5755/j01.mech.25.4.22325
 [research_lesoinne_2007]: https://doi.org/10.21236/ada481320
 [research_lesoinne_balas_2001]: https://doi.org/10.2514/6.2001-4031
 [research_lesoinne_farhat_1993]: https://doi.org/10.2514/6.1993-3325
@@ -5626,6 +6090,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_lhachemi_chu_2017]: https://doi.org/10.2514/1.g002497
 [research_lhachemi_saussie_2017]: https://doi.org/10.2514/6.2017-1735
 [research_li_2018]: https://doi.org/10.3901/jme.2018.05.142
+[research_li_2026]: https://doi.org/10.1109/ecitech69277.2026.11601801
 [research_li_ang_2016]: https://doi.org/10.21595/jve.2016.16705
 [research_li_dai_2024]: https://doi.org/10.2514/1.j063907
 [research_li_dai_2025]: https://doi.org/10.1063/5.0295770
@@ -5641,7 +6106,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_li_li_2016]: https://doi.org/10.1177/1729881416664846
 [research_li_li_2025]: https://doi.org/10.21203/rs.3.rs-7650803/v1
 [research_li_livne_1995]: https://doi.org/10.2514/6.1995-1219
+[research_li_livne_1996]: https://doi.org/10.2514/6.1996-4171
 [research_li_livne_1997]: https://doi.org/10.2514/2.2179
+[research_li_livne_1997_b]: https://doi.org/10.2514/2.2203
 [research_li_luo_2023]: https://doi.org/10.21203/rs.3.rs-2932289/v1
 [research_li_qian_2024]: https://doi.org/10.3390/aerospace11121015
 [research_li_qin_2020]: https://doi.org/10.1016/j.ast.2019.105622
@@ -5649,6 +6116,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_li_qin_2021]: https://doi.org/10.1016/j.jfluidstructs.2021.103407
 [research_li_qin_2021_b]: https://doi.org/10.1016/j.ast.2021.106919
 [research_li_qin_2022]: https://doi.org/10.3390/app122010537
+[research_li_sun_2024]: https://doi.org/10.1017/pma.2024.2
 [research_li_wan_2021]: https://doi.org/10.3390/app112411800
 [research_li_wang_2021]: https://doi.org/10.1155/2021/3949078
 [research_li_wang_2025]: https://doi.org/10.23919/ccc64809.2025.11179130
@@ -5682,6 +6150,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_liebst_garrard_1986]: https://doi.org/10.2514/6.1986-2247
 [research_liebst_garrard_1986_b]: https://doi.org/10.2514/3.20068
 [research_liebst_garrard_1988]: https://doi.org/10.2514/3.20297
+[research_lim_lee_2009]: https://doi.org/10.1016/j.jsv.2008.10.029
+[research_lim_lee_2009_b]: https://doi.org/10.1142/s0217984909018655
 [research_lim_sreenatha_2000]: https://doi.org/10.2514/6.2000-3904
 [research_limitations_and_2017]: https://doi.org/10.1002/9781118534786.ch20
 [research_lin_1982]: https://doi.org/10.2514/6.1982-1326
@@ -5710,14 +6180,17 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_liu_2022]: https://doi.org/10.1007/978-981-19-4586-1_12
 [research_liu_2022_b]: https://doi.org/10.1007/978-981-19-4586-1_13
 [research_liu_bai_2013]: https://doi.org/10.4028/www.scientific.net/amm.302.377
+[research_liu_bai_2017]: https://doi.org/10.2514/1.j055054
 [research_liu_dong_2018]: https://doi.org/10.1109/icca.2018.8444282
 [research_liu_fan_2025]: https://doi.org/10.3390/app15137596
 [research_liu_gao_2020]: https://doi.org/10.1016/j.jfluidstructs.2020.103098
+[research_liu_gao_2020_b]: https://doi.org/10.1007/s40435-020-00694-z
 [research_liu_gong_2021]: https://doi.org/10.1177/0020294020983377
 [research_liu_he_2025]: https://doi.org/10.1007/978-981-96-1467-7_35
 [research_liu_lei_2023]: https://doi.org/10.3390/aerospace10070646
 [research_liu_li_2025]: https://doi.org/10.3390/fluids10060152
 [research_liu_li_2026]: https://doi.org/10.3390/electronics15163532
+[research_liu_liu_2016]: https://doi.org/10.1177/1687814016644375
 [research_liu_pang_2023]: https://doi.org/10.1016/j.measurement.2023.113165
 [research_liu_qian_2026]: https://doi.org/10.1016/j.ast.2026.112709
 [research_liu_sun_2009]: https://doi.org/10.1109/ccdc.2009.5192368
@@ -5727,9 +6200,11 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_liu_wang_2023]: https://doi.org/10.3390/s23218846
 [research_liu_yang_2024]: https://doi.org/10.20944/preprints202410.1024.v1
 [research_liu_yin_2011]: https://doi.org/10.1117/12.880323
+[research_liu_zha_2016]: https://doi.org/10.2514/6.2016-3472
 [research_liu_zhang_2018]: https://doi.org/10.1109/gncc42960.2018.9019008
 [research_liu_zhang_2020]: https://doi.org/10.23919/ccc50068.2020.9188689
 [research_liu_zhang_2023]: https://doi.org/10.1002/aisy.202300420
+[research_liu_zhao_2018]: https://doi.org/10.1109/gncc42960.2018.9019139
 [research_liu_zhou_2015]: https://doi.org/10.2991/itms-15.2015.114
 [research_liu_zhu_2013]: https://doi.org/10.1016/j.cja.2013.04.015
 [research_livet_kubica_1994]: https://doi.org/10.1016/s1474-6670(17)45836-8
@@ -5738,6 +6213,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_livne_2001]: https://doi.org/10.2514/6.2001-1370
 [research_livne_2010]: https://doi.org/10.1002/9780470686652.eae148
 [research_livne_li_1994]: https://doi.org/10.1115/imece1994-1443
+[research_livne_precup_2014]: https://doi.org/10.2514/6.2014-2442
 [research_lizotteandrew_allenmichaelj_2005]: https://ntrs.nasa.gov/citations/20050111580
 [research_lo_chan]: https://doi.org/10.1109/smelec.1996.616492
 [research_lobodovale_raffaelli_2021]: https://doi.org/10.3390/app112210631
@@ -5762,13 +6238,16 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_love_bohlmann_1991]: https://doi.org/10.2514/6.1991-1099
 [research_love_lind_2010]: https://doi.org/10.2514/6.2010-7504
 [research_low_pheh_2016]: https://doi.org/10.1109/aim.2016.7576787
+[research_low_reynolds_2008]: https://doi.org/10.2514/1.33001
 [research_lowe_zingg_2021]: https://doi.org/10.2514/6.2021-2547
+[research_lozano_rahbari_2022]: https://doi.org/10.1016/j.compfluid.2022.105513
 [research_lu_cui_2016]: https://doi.org/10.2514/6.2016-1226
 [research_lu_huang_1993]: https://doi.org/10.2514/3.11436
 [research_lu_lan_2026]: https://doi.org/10.1109/ccdc69976.2026.11560122
 [research_lu_ma_2019]: https://doi.org/10.1109/access.2019.2956818
 [research_lu_murthy_1990]: https://doi.org/10.2514/3.45947
 [research_lu_yeh_1993]: https://doi.org/10.2514/6.1993-3285
+[research_lubis_ellyawansetyoarbintarso_2026]: https://doi.org/10.34151/jurtek.v19i1.5519
 [research_lucas_1978]: https://doi.org/10.21236/adb028240
 [research_lucas_valasek_2009]: https://doi.org/10.2514/6.2009-2536
 [research_luce_jr_1949]: https://doi.org/10.21236/ada278113
@@ -5776,6 +6255,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_lukichev_demidova_2017]: https://doi.org/10.1109/ctsys.2017.8109577
 [research_lum_xu_2016]: https://doi.org/10.1109/acc.2016.7525401
 [research_luomaavroa_1944]: https://ntrs.nasa.gov/citations/19930092838
+[research_lusk_cattafesta_2012]: https://doi.org/10.1007/s00348-012-1282-8
 [research_luton_mook_1992]: https://doi.org/10.2514/6.1992-4652
 [research_luton_mook_1993]: https://doi.org/10.2514/3.11930
 [research_ly_gear_2006]: https://doi.org/10.21914/anziamj.v47i0.1046
@@ -5788,6 +6268,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_ma_wang_2022]: https://doi.org/10.3390/aerospace9110691
 [research_maalawi_2012]: https://doi.org/10.5772/45878
 [research_mabey_gaudet_1975]: https://doi.org/10.2514/3.44494
+[research_mabhinav_vnarasimhareddy_2016]: https://doi.org/10.17577/ijertv5is060367
 [research_macek_branco_2021]: https://doi.org/10.1016/j.measurement.2021.109910
 [research_macek_marciniak_2021]: https://doi.org/10.1016/j.measurement.2021.109443
 [research_machadoecosta_valarinho_2016]: https://doi.org/10.1016/j.engstruct.2016.09.014
@@ -5800,6 +6281,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_mahesh_stone_1980]: https://doi.org/10.2514/6.1980-1758
 [research_mahmood_2025]: https://doi.org/10.1177/10775463241312815
 [research_maki_2016]: https://doi.org/10.2514/6.2016-3849
+[research_mallik_kapania_2015]: https://doi.org/10.2514/6.2015-1175
 [research_mamedov_paryshev_2018]: https://doi.org/10.1615/tsagiscij.2018027114
 [research_manan_cooper_2008]: https://doi.org/10.2514/6.2008-5868
 [research_mancini_vos_2019]: https://doi.org/10.2514/6.2019-3272
@@ -5813,6 +6295,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_mao_guo_2023]: https://doi.org/10.54097/hset.v77i.14411
 [research_marano_belardo_2022]: https://doi.org/10.3390/aerospace9070335
 [research_marchetti_2023]: https://doi.org/10.21741/9781644902813-8
+[research_marchman_1975]: https://doi.org/10.2514/3.44423
+[research_marchman_1981]: https://doi.org/10.2514/3.57599
 [research_marchmaniii_grantz_1982]: https://doi.org/10.2514/6.1982-128
 [research_marciniuk_piskur_2024]: https://doi.org/10.3390/en17081801
 [research_mardanpour_izadpanahi_2019]: https://doi.org/10.2514/1.j057183
@@ -5854,6 +6338,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_matula_yalla_2026]: https://doi.org/10.5194/wes-2025-263
 [research_maunder_1979]: https://doi.org/10.2514/6.1979-1803
 [research_maute_farhat_2008]: https://doi.org/10.13052/remn.17.217-243
+[research_mavriplis_levy_2002]: https://doi.org/10.2514/6.2002-838
 [research_mayer_lutz_2019]: https://doi.org/10.2514/1.c034969
 [research_mayo_carroll_2016]: https://doi.org/10.1115/imece2016-65683
 [research_mayya_karnick_2022]: https://doi.org/10.2514/6.2022-4173
@@ -5892,6 +6377,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_merrett_hilton_2011]: https://doi.org/10.2514/6.2011-1716
 [research_merrett_hilton_2011_b]: https://doi.org/10.2514/6.2011-6208
 [research_mertaugh_1998]: https://doi.org/10.21236/ada350674
+[research_mertens_klevenhusen_1986]: https://doi.org/10.2514/6.1986-512
 [research_mertins_elsholz_2005]: https://doi.org/10.1016/j.ast.2005.06.003
 [research_methods_of_calculating_2015]: https://doi.org/10.20535/0203-377129201563837
 [research_meyer_fields_1978]: https://doi.org/10.2514/6.1978-148
@@ -5902,6 +6388,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_mihailaandres_larco_2017]: https://doi.org/10.1063/1.4992590
 [research_mihailaandres_rosu_2017]: https://doi.org/10.1109/icmae.2017.8038669
 [research_milanese_marzocca_2008]: https://doi.org/10.2514/6.2008-3866
+[research_milanovic_kalkhoran_2000]: https://doi.org/10.2514/6.2000-4002
 [research_miller_decallafon_2011]: https://doi.org/10.2514/6.2011-6207
 [research_miller_holguin_2014]: https://doi.org/10.2514/6.2014-0277
 [research_miller_pena_2019]: https://doi.org/10.2514/6.2019-0227
@@ -5913,6 +6400,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_minimum_performance]: https://doi.org/10.4271/as855
 [research_minimum_performance_b]: https://doi.org/10.4271/as8003
 [research_miodushevsky_ruggiero_2000]: https://doi.org/10.1142/9789812792013_0078
+[research_mishra_baeder_2016]: https://doi.org/10.2514/1.c033236
 [research_miskin_takahashi_2018]: https://doi.org/10.2514/6.2018-4002
 [research_miskin_takahashi_2019]: https://doi.org/10.2514/6.2019-3068
 [research_mission_adaptive_flight]: https://ntrs.nasa.gov/citations/19930027277
@@ -5936,6 +6424,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_molton_bur_2010]: https://doi.org/10.2514/6.2010-4595
 [research_molton_dandois_2013]: https://doi.org/10.2514/1.j051000
 [research_molusis_kleinman_1982]: https://doi.org/10.1109/cdc.1982.268383
+[research_molyneux_1960]: https://doi.org/10.1108/eb033339
 [research_molz_breitsamter_2026]: https://doi.org/10.1016/j.ast.2026.113432
 [research_moni_wales_2026]: https://doi.org/10.2514/6.2026-4251
 [research_montel_thielecke_2015]: https://doi.org/10.2514/6.2015-2237
@@ -5944,6 +6433,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_mooij_2020]: https://doi.org/10.2514/6.2020-1103
 [research_mooij_wang_2021]: https://doi.org/10.2514/6.2021-1221
 [research_moon_1996]: https://doi.org/10.21236/ada361169
+[research_moon_gai_2010]: https://doi.org/10.2514/6.2010-4687
 [research_moore_1992]: https://doi.org/10.2514/6.1992-2100
 [research_moore_1995]: https://doi.org/10.2514/3.46703
 [research_moosavi_elasha_2022]: https://doi.org/10.3390/designs6020029
@@ -5962,6 +6452,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_morino_obayashi_2015]: https://doi.org/10.2514/1.c032775
 [research_morphing_wing_2010]: https://doi.org/10.5220/0002885701140124
 [research_morphing_wing_2018]: https://doi.org/10.1016/c2015-0-01317-x
+[research_morris_allen_2008]: https://doi.org/10.2514/6.2008-7054
 [research_morton_cox_2012]: https://doi.org/10.2514/6.2012-1624
 [research_moshier_2006]: https://doi.org/10.21236/ada448143
 [research_moshtaghzadeh_rangel_2023]: https://doi.org/10.2514/6.2023-0587
@@ -5991,12 +6482,14 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_murch_2008]: https://doi.org/10.2514/6.2008-6990
 [research_murphy_klein_2004]: https://doi.org/10.2514/6.2004-5277
 [research_murphy_mermagen_2004]: https://doi.org/10.2514/6.2004-5058
+[research_murrayharrye_erwinmarya_1945]: https://ntrs.nasa.gov/citations/19930092851
 [research_murthy_lu_1992]: https://doi.org/10.1016/b978-0-12-012754-2.50012-1
 [research_murugan_ganguli_2005]: https://doi.org/10.2514/1.5652
 [research_muscarello_marzocca_2026]: https://doi.org/10.2514/6.2026-1648
 [research_muscarello_masarati_2017]: https://doi.org/10.4050/jahs.62.022003
 [research_muscati_grootenhuis_1975]: https://doi.org/10.1111/j.1475-1305.1975.tb00149.x
 [research_mvsunil_menghal_2022]: https://doi.org/10.26634/jme.12.3.18591
+[research_na_librescu_2006]: https://doi.org/10.2514/1.15015
 [research_naca_conference_1949]: https://ntrs.nasa.gov/citations/19650074048
 [research_nadimi_1999]: https://doi.org/10.32855/2642-2492.1455
 [research_nadimmelhem_richardmunroe_2024]: https://doi.org/10.1201/9781003516903-2
@@ -6006,6 +6499,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_nair_goza_2022]: https://doi.org/10.2514/6.2022-1968
 [research_najmi_siddiqui_2023]: https://doi.org/10.2139/ssrn.4568776
 [research_nakadate_2005]: https://doi.org/10.2514/6.2005-7408
+[research_nam_chattopadhyay_1998]: https://doi.org/10.2514/6.1998-4834
+[research_nam_chattopadhyay_2000]: https://doi.org/10.2514/2.1123
 [research_nam_kim_1996]: https://doi.org/10.2514/6.1996-3984
 [research_nam_kim_1997]: https://doi.org/10.2514/6.1997-1265
 [research_namdeo_bhattacharyya_2023]: https://doi.org/10.2514/6.2023-4244
@@ -6015,12 +6510,17 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_narayanaswamy_narayanan_2008]: https://doi.org/10.2514/6.2008-5971
 [research_narimani_haddadpour_2025]: https://doi.org/10.1016/j.ast.2025.109992
 [research_nash_timme_2025]: https://doi.org/10.2514/6.2025-3767
+[research_nastase_1988]: https://doi.org/10.1016/0169-5983(88)90097-4
+[research_nastase_2011]: https://doi.org/10.1002/pamm.201110279
+[research_nastase_2012]: https://doi.org/10.1002/pamm.201210296
 [research_nasukenichi_1986]: https://ntrs.nasa.gov/citations/19870009139
+[research_nathdubba_2021]: https://doi.org/10.1109/iccisc52257.2021.9484871
 [research_navardi_shahverdi_2023]: https://doi.org/10.1142/s1758825122500910
 [research_navardi_shahverdi_2026]: https://doi.org/10.1016/j.ast.2026.112391
 [research_navratil_hostinsky_2024]: https://doi.org/10.1088/1742-6596/2716/1/012029
 [research_naylor_1957]: https://doi.org/10.2514/8.3909
 [research_nazhao_dengqingcao_2010]: https://doi.org/10.1109/isscaa.2010.5632395
+[research_neuert_dinkler_2020]: https://doi.org/10.1007/s13272-020-00467-6
 [research_neumann_dealmeida_2020]: https://doi.org/10.1016/j.jfluidstructs.2020.102901
 [research_newman_buttrill_1995]: https://doi.org/10.2514/6.1995-3250
 [research_newman_kassem_1997]: https://doi.org/10.2514/6.1997-3621
@@ -6071,6 +6571,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_niculescu_corcau_2021]: https://doi.org/10.1109/icate49685.2021.9465010
 [research_nie_zhang_2009]: https://doi.org/10.1109/ical.2009.5262891
 [research_niel]: https://doi.org/10.70675/0a5746acz2780z42a1z83e4zb2dace818ceb
+[research_nielsen_goodwin_1984]: https://doi.org/10.2514/6.1984-312
 [research_nieminen_tuohineva_2023]: https://doi.org/10.1016/j.ijfatigue.2023.107533
 [research_nikolaos_spyridon_2024]: https://doi.org/10.21203/rs.3.rs-4764693/v1
 [research_nilsson_yao_2023]: https://doi.org/10.31224/2981
@@ -6084,8 +6585,13 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_nissime_caspia_1976]: https://ntrs.nasa.gov/citations/19760019497
 [research_nitzsche_1994]: https://doi.org/10.2514/3.46552
 [research_niven_tait_2000]: https://doi.org/10.1017/s0001924000017875
+[research_nixon_1983]: https://doi.org/10.21236/ada145227
 [research_nixon_2020]: https://doi.org/10.2514/6.2020-2672
+[research_nixon_2020_b]: https://doi.org/10.2514/6.2020-2729
+[research_nixon_caruso_1990]: https://doi.org/10.2514/6.1990-389
+[research_nixon_nixon_1997]: https://doi.org/10.2514/6.1997-2240
 [research_nixon_piatak_2000]: https://doi.org/10.4050/jahs.45.270
+[research_nixon_tzuoo_1986]: https://doi.org/10.21236/ada167748
 [research_nixon_tzuoo_1987]: https://doi.org/10.2514/3.45510
 [research_nixonmarkw_piatakdavidj_1999]: https://ntrs.nasa.gov/citations/19990050923
 [research_noevere_wilhite_2016]: https://doi.org/10.2514/6.2016-0235
@@ -6099,6 +6605,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_noll_merino_1976]: https://doi.org/10.2514/6.1976-1542
 [research_noll_perryiii_1989]: https://doi.org/10.2514/6.1989-1168
 [research_nomura_2003]: https://doi.org/10.2514/6.2003-4145
+[research_nonlinear_aeroelastic_2007]: https://doi.org/10.5139/jksas.2007.35.4.295
 [research_norton_1989]: https://doi.org/10.2514/6.1989-1320
 [research_norton_1990]: https://doi.org/10.21236/ada257262
 [research_null_shkarayev_2004]: https://doi.org/10.2514/6.2004-2694
@@ -6106,8 +6613,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_numerical_calculation_2015]: https://doi.org/10.1002/9781118920978.ch2
 [research_numerical_method_2013]: https://doi.org/10.1002/9781118451205.ch12
 [research_nurohman_arifianto_2018]: https://doi.org/10.1088/1742-6596/1005/1/012020
+[research_o_lewis_2001]: https://doi.org/10.2514/6.2001-561
 [research_obayashi_sasaki_2000]: https://doi.org/10.1109/4235.850658
 [research_oberkampf_1974]: https://doi.org/10.2514/6.1974-111
+[research_oberkampf_1981]: https://doi.org/10.2172/6501712
 [research_obradovic_subbarao_2010]: https://doi.org/10.2514/6.2010-8236
 [research_obrien_datta_2026]: https://doi.org/10.2514/1.c038655
 [research_ockier_kolb_2017]: https://doi.org/10.4050/f-0073-2017-12180
@@ -6115,6 +6624,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_odriozola_marquier_2026]: https://doi.org/10.2514/1.c038643
 [research_oelker_friehmelt_1998]: https://doi.org/10.2514/6.1998-4263
 [research_ogren_sotanski_1974]: https://doi.org/10.21236/ad0784134
+[research_oh_tavella_1987]: https://doi.org/10.2514/3.45452
 [research_ohta_fujimori_1988]: https://doi.org/10.2514/6.1988-4114
 [research_ohta_fujimori_1989]: https://doi.org/10.2514/3.20390
 [research_ohta_nikiforuk_1984]: https://doi.org/10.2514/6.1984-1931
@@ -6170,6 +6680,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_paper_board]: https://doi.org/10.3403/30408899u
 [research_papila_haftka_1999]: https://doi.org/10.2514/6.1999-1312
 [research_paris_alaverdi_2005]: https://doi.org/10.2514/1.3172
+[research_park_2003]: https://doi.org/10.1115/gt2003-38292
 [research_park_abla_1982]: https://doi.org/10.2514/6.1982-183
 [research_park_abla_1983]: https://doi.org/10.2514/3.19811
 [research_park_chung_2012]: https://doi.org/10.5139/jksas.2012.40.2.165
@@ -6184,6 +6695,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_patil_clark_2002]: https://doi.org/10.2514/6.2002-1632
 [research_patil_hodges_2000]: https://doi.org/10.2514/2.2685
 [research_patil_hodges_2000_b]: https://doi.org/10.2514/6.2000-1627
+[research_patil_hodges_2002]: https://doi.org/10.2514/2.4882
 [research_patil_patil_1997]: https://doi.org/10.2514/6.1997-15
 [research_paul]: https://doi.org/10.15368/theses.2017.65
 [research_paul_rein_2016]: https://doi.org/10.2514/6.2016-0799
@@ -6200,6 +6712,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_pecora_pecora_2018]: https://doi.org/10.1016/b978-0-08-100964-2.00014-9
 [research_pedreiro_takahara_1998]: https://doi.org/10.2514/6.1998-4518
 [research_pedreiro_takahara_1999]: https://doi.org/10.2514/2.2539
+[research_pedro_tshabalala_2017]: https://doi.org/10.1109/ascc.2017.8287198
+[research_pedro_tshabalala_2017_b]: https://doi.org/10.1016/j.ifacol.2017.12.033
 [research_peeleel_eckstromcv_1975]: https://ntrs.nasa.gov/citations/19750023957
 [research_pellegrino_quaranta_2022]: https://doi.org/10.4050/f-0078-2022-1163
 [research_peloubetjr_haller_1983]: https://doi.org/10.2514/6.1983-995
@@ -6211,6 +6725,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_perera_guo_2008]: https://doi.org/10.2514/6.2008-5969
 [research_perezbecker_marten_2021]: https://doi.org/10.5194/wes-2021-1
 [research_perkins_brice_1966]: https://doi.org/10.21236/ad0632829
+[research_perry_mueller_1986]: https://doi.org/10.2514/6.1986-1787
+[research_perry_mueller_1987]: https://doi.org/10.2514/3.45491
+[research_perryiii_dunn_1988]: https://doi.org/10.2514/6.1988-2211
 [research_perryiii_mukhopadhyay_1990]: https://doi.org/10.2514/6.1990-1074
 [research_persoon_roos_1980]: https://doi.org/10.21236/ada097094
 [research_peschel_roske_2000]: https://doi.org/10.1016/s0263-2241(99)00056-1
@@ -6227,6 +6744,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_phan_2020]: https://doi.org/10.1016/j.istruc.2020.08.035
 [research_philipsen_zhai_2007]: https://doi.org/10.2514/6.2007-143
 [research_phillips]: https://doi.org/10.33915/etd.3049
+[research_phillips_haughn_2025]: https://doi.org/10.2514/6.2025-0053
+[research_phillips_lambert_2002]: https://doi.org/10.2514/6.2002-3065
+[research_phillips_waggoner_1988]: https://doi.org/10.2514/6.1988-2538
 [research_phillips_white_2022]: https://doi.org/10.2514/6.2022-2555
 [research_piatakdavidj_clecknercraigs_2002]: https://ntrs.nasa.gov/citations/20030013003
 [research_picard_2002]: https://doi.org/10.21236/ada409130
@@ -6237,6 +6757,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_pittford_stevens_2012]: https://doi.org/10.2514/6.2012-2840
 [research_plaban_takahashi_2021]: https://doi.org/10.2514/6.2021-2423
 [research_plaetschke_mulder_1982]: https://doi.org/10.1016/s1474-6670(17)63152-5
+[research_platanitis_strganac_2005]: https://doi.org/10.2514/1.6692
 [research_plath]: https://doi.org/10.70675/9415f5c4zb15ez4e25z87c4z376e176813a2
 [research_polonsky_2026]: https://doi.org/10.2514/1.c038869
 [research_pomin_altmikus_2001]: https://doi.org/10.1007/978-3-642-56548-9_26
@@ -6250,11 +6771,16 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_porter_merzougui_1992]: https://doi.org/10.2514/6.1992-2105
 [research_porter_merzougui_1992_b]: https://doi.org/10.2514/6.1992-2104
 [research_porterfield_alexander_1970]: https://doi.org/10.4050/jahs.15.3.22
+[research_potential_equation_1982]: https://doi.org/10.2514/5.9781600865558.0239.0296
 [research_pototzky_2010]: https://doi.org/10.2514/6.2010-7801
 [research_potvin_grant_2026]: https://doi.org/10.2514/6.2026-1883.c1
 [research_pourtakdoust_khodabakhsh_2026]: https://doi.org/10.1016/j.ast.2025.111214
 [research_poussotvassal_vuillemin_2022]: https://doi.org/10.2514/6.2022-1044
 [research_powers_webb_1992]: https://doi.org/10.2514/6.1992-4101
+[research_powles]: https://doi.org/10.1007/1-4020-2604-8_48
+[research_powles_2004]: https://doi.org/10.1016/j.jsv.2003.11.014
+[research_powles_2004_b]: https://doi.org/10.1016/j.jsv.2003.11.041
+[research_powles_chapman_2019]: https://doi.org/10.1016/j.wavemoti.2019.01.003
 [research_prabhakar_2025]: https://doi.org/10.52843/cassyni.fjt1xn
 [research_prabhakar_murugan_2022]: https://doi.org/10.1115/smasis2022-90198
 [research_prabhakar_murugan_2026]: https://doi.org/10.1007/978-3-032-16528-2_26
@@ -6264,6 +6790,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_prazenica_2014]: https://doi.org/10.2514/6.2014-2188
 [research_prazenica_reisenthel_2004]: https://doi.org/10.2514/6.2004-1939
 [research_precup_mor_2018]: https://doi.org/10.2514/6.2018-3106
+[research_prediction_of_1981]: https://doi.org/10.2514/6.1981-609
 [research_pressures_and_2000]: https://doi.org/10.1016/b978-012257060-5/50023-x
 [research_price_koffi_2002]: https://doi.org/10.2514/6.2002-1210
 [research_prochazka_eduardo_2018]: https://doi.org/10.1109/ccta.2018.8511538
@@ -6279,12 +6806,16 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_puentes_takahashi_2024]: https://doi.org/10.2514/6.2024-0001
 [research_punzi_crooks_2024]: https://doi.org/10.4050/f-0080-2024-1149
 [research_pursel_1977]: https://doi.org/10.2514/6.1977-1514
+[research_purserpaule_gillisclarencel_1943]: https://ntrs.nasa.gov/citations/20150015606
+[research_purserpaule_mckinneyelizabethg_1945]: https://ntrs.nasa.gov/citations/19930092763
 [research_purserpe_tuckerwa_1949]: https://ntrs.nasa.gov/citations/19650074054
 [research_purwadi_hidayat_2023]: https://doi.org/10.1063/5.0181422
 [research_pusch_2017]: https://doi.org/10.1109/ccta.2017.8062766
 [research_pusch_2018]: https://doi.org/10.2514/6.2018-0618
 [research_pusch_kier_2022]: https://doi.org/10.2514/6.2022-0439
 [research_pusch_knoblach_2019]: https://doi.org/10.1007/s13272-019-00367-4
+[research_pusch_ossmann_2019]: https://doi.org/10.2514/6.2019-0131
+[research_pusch_ossmann_2019_b]: https://doi.org/10.2514/6.2019-0131.c1
 [research_pushtaev_1989]: https://doi.org/10.1016/0041-5553(89)90024-4
 [research_puyou_berard_2007]: https://doi.org/10.3182/20070625-5-fr-2916.00085
 [research_qi_ting_2015]: https://doi.org/10.1109/chicc.2015.7259631
@@ -6314,6 +6845,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_raab_2026]: https://doi.org/10.21741/9781644904251-262
 [research_rade_desouza_2016]: https://doi.org/10.21236/ad1009258
 [research_radestock_falken_2018]: https://doi.org/10.1115/smasis2018-7976
+[research_radvogin_1979]: https://doi.org/10.1016/0021-8928(79)90100-x
+[research_ragab_elgabry_2015]: https://doi.org/10.1115/gt2015-43221
 [research_raghunathan_coll_1981]: https://doi.org/10.2514/3.7765
 [research_raghunathan_mitchell_1998]: https://doi.org/10.1007/s001930050113
 [research_rahman_li_2013]: https://doi.org/10.4028/www.scientific.net/amm.419.55
@@ -6332,6 +6865,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_rao_behal_2005]: https://doi.org/10.2514/6.2005-6250
 [research_rao_kronenberger_1978]: https://doi.org/10.21236/ada055619
 [research_rao_padmanabhan_2019]: https://doi.org/10.1504/ijndc.2019.103285
+[research_raodm_1980]: https://ntrs.nasa.gov/citations/19810027244
+[research_raodm_1984]: https://ntrs.nasa.gov/citations/19850011675
+[research_raodm_johnsontdjr_1982]: https://ntrs.nasa.gov/citations/19820038517
 [research_raol_singh_2023]: https://doi.org/10.1201/9781003293514-12
 [research_raol_singh_2023_b]: https://doi.org/10.1201/9781003293514-10
 [research_raoof_kraincanic_1998]: https://doi.org/10.1016/s0045-7949(98)00128-x
@@ -6356,7 +6892,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_reichenbach_castelluccio_2011]: https://doi.org/10.2514/6.2011-1956
 [research_reichenbach_urnes_2009]: https://doi.org/10.2514/6.2009-6143
 [research_reichhoormart_lin_1995]: https://doi.org/10.2514/6.1995-1193
+[research_reimann_2016]: https://doi.org/10.2514/6.2016-3578
+[research_reimer_1998]: https://doi.org/10.2514/6.1998-5
 [research_reinbold_breitsamter_2026]: https://doi.org/10.2514/1.c038409
+[research_reinbold_sorensen_2021]: https://doi.org/10.1007/s13272-021-00561-3
 [research_reist_koo_2022]: https://doi.org/10.2514/1.c036754
 [research_rendina_mazzoni_1999]: https://doi.org/10.1002/stc.4300060108
 [research_renken_1985]: https://doi.org/10.2514/6.1985-5006
@@ -6387,9 +6926,11 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_rimer_chipman_1984]: https://doi.org/10.2514/6.1984-1866
 [research_rimer_chipman_1984_b]: https://doi.org/10.2514/3.45034
 [research_rimer_chipman_1986]: https://doi.org/10.2514/3.20069
+[research_rinoie_shirotake_2006]: https://doi.org/10.2514/1.21470
 [research_riou_garnier_2010]: https://doi.org/10.2514/1.j050531
 [research_rising_1982]: https://doi.org/10.2514/6.1982-1297
 [research_ritter_dillinger_2017]: https://doi.org/10.2514/6.2017-0637
+[research_rivers_wahls_2001]: https://doi.org/10.2514/6.2001-2462
 [research_rizk_1980]: https://doi.org/10.2514/6.1980-125
 [research_rizzetta_1977]: https://doi.org/10.21236/ada057505
 [research_rizzetta_1995]: https://doi.org/10.2514/6.1995-2282
@@ -6424,7 +6965,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_roohani_skews_2009]: https://doi.org/10.1007/978-3-540-85181-3_98
 [research_roos_bennekers_1975]: https://doi.org/10.2514/6.1975-864
 [research_rose_jinu_2014]: https://doi.org/10.1177/0954410014537241
+[research_rose_pittman_1989]: https://doi.org/10.2514/6.1989-343
 [research_rosemann_birkemeyer_2002]: https://doi.org/10.1007/978-3-540-45856-2_12
+[research_rosen_1985]: https://doi.org/10.2514/6.1985-423
+[research_rosen_1988]: https://doi.org/10.2514/6.1988-3
 [research_rosenberg_1944]: https://doi.org/10.2514/8.11091
 [research_roskamj_lanc_1972]: https://ntrs.nasa.gov/citations/19730013170
 [research_roskamj_lanc_1973]: https://ntrs.nasa.gov/citations/19730013169
@@ -6449,6 +6993,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_rustenburg_1973]: https://doi.org/10.21236/ad0761491
 [research_rutkowski_1979]: https://doi.org/10.2514/3.58539
 [research_s_a_2025]: https://doi.org/10.37591/jopc.v13i04.215732
+[research_s_m_2011]: https://doi.org/10.5772/15983
 [research_sabatini_coppotelli_2026]: https://doi.org/10.2514/1.g009632
 [research_sabatini_livne_2026]: https://doi.org/10.2514/6.2026-1443
 [research_sacchi_healy_2025]: https://doi.org/10.2514/6.2025-0713
@@ -6542,31 +7087,42 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_seginer_rose_1976]: https://doi.org/10.2514/6.1976-330
 [research_segui_gabor_2017]: https://doi.org/10.2316/p.2017.848-048
 [research_seidel_sandford_1985]: https://doi.org/10.2514/6.1985-598
+[research_seider_haenel_1991]: https://doi.org/10.2514/6.1991-184
 [research_seiler_balas_2012]: https://doi.org/10.1007/978-1-4614-1833-7_19
 [research_sekhar_suresh_2024]: https://doi.org/10.1051/matecconf/202439201016
 [research_seki_tani_2019]: https://doi.org/10.2514/6.2019-1105
+[research_selerowicz_2020]: https://doi.org/10.24425/ame.2009.132091
 [research_selvadurai_1984]: https://doi.org/10.1520/stp36812s
 [research_selvam_qu_2001]: https://doi.org/10.21236/ada399278
 [research_semionov_kosinov_2007]: https://doi.org/10.1134/s0869864307030031
 [research_sendner_stahl_2018]: https://doi.org/10.2514/6.2018-3194
+[research_seraile_uddin_2024]: https://doi.org/10.2514/6.2024-2852
 [research_serpieri_kotsonis_2015]: https://doi.org/10.2514/6.2015-2576
 [research_setoodeh_abdallah_2005]: https://doi.org/10.2514/6.2005-2083
 [research_sezgin_krstic_2013]: https://doi.org/10.1109/cdc.2013.6760342
 [research_sha_sun_2022]: https://doi.org/10.34759/vst-2022-4-22-35
+[research_shankar_1980]: https://doi.org/10.2514/6.1980-1390
 [research_shankar_goebel_1985]: https://doi.org/10.2514/6.1985-428
 [research_shankar_malmuth_1982]: https://doi.org/10.21236/ada121662
 [research_shao_guo_2024]: https://doi.org/10.2139/ssrn.5041226
+[research_shao_he_2026]: https://doi.org/10.2139/ssrn.6351262
 [research_sharifi_vincenti_2025]: https://doi.org/10.1016/j.compstruct.2025.118839
 [research_sharma_agrawal_2022]: https://doi.org/10.1109/icc56513.2022.10093649
+[research_sharp_1959]: https://doi.org/10.1017/s0022112059000301
 [research_sharpe_ulker_2023]: https://doi.org/10.2514/6.2023-3951
 [research_sharqi_cesnik_2021]: https://doi.org/10.2514/6.2021-0905
 [research_shavezipur_2021]: https://doi.org/10.32920/ryerson.14651571
 [research_shaw_hidalgo]: https://doi.org/10.1109/aero.2006.1656021
 [research_shearwood_nabawy_2020]: https://doi.org/10.3390/aerospace7100150
 [research_shearwood_nabawy_2020_b]: https://doi.org/10.2514/6.2020-2677
+[research_shearwood_nabawy_2021]: https://doi.org/10.2514/6.2021-1826
 [research_shearwood_nabawy_2023]: https://doi.org/10.1109/access.2023.3286848
 [research_sheldon_rasmussen]: https://doi.org/10.1109/naecon.1994.332847
 [research_shen_branscomb_2019]: https://doi.org/10.1177/1528083719881818
+[research_shen_chopra_2000]: https://doi.org/10.2514/6.2000-1622
+[research_shen_chopra_2001]: https://doi.org/10.2514/6.2001-1675
+[research_shen_chopra_2003]: https://doi.org/10.4050/jahs.48.236
+[research_shen_chopra_2004]: https://doi.org/10.2514/1.14431
 [research_shen_li_2024]: https://doi.org/10.3390/app14031304
 [research_sheta_2000]: https://doi.org/10.2514/6.2000-4227
 [research_shevare_arya_2012]: https://doi.org/10.2514/6.2012-2596
@@ -6575,6 +7131,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_shi_zuo_2023]: https://doi.org/10.1016/j.asr.2023.06.009
 [research_shieh_1988]: https://doi.org/10.2514/6.1988-3614
 [research_shimin_letian_2025]: https://doi.org/10.1007/978-981-96-2252-8_15
+[research_shin_lee_2007]: https://doi.org/10.2514/1.24721
 [research_shipley_gopalarathnam_2006]: https://doi.org/10.2514/6.2006-451
 [research_shirk_hertz_1984]: https://doi.org/10.2514/6.1984-982
 [research_shirkmh_hertztj_1986]: https://ntrs.nasa.gov/citations/19860035417
@@ -6589,10 +7146,13 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_siebert_strothteicher_2026]: https://doi.org/10.2139/ssrn.6498098
 [research_sieradzki_2016]: https://doi.org/10.5604/05096669.1226890
 [research_sigrest_wu_2022]: https://doi.org/10.1115/smasis2022-89275
+[research_sihite_salagame_2023]: https://doi.org/10.1109/cdc49753.2023.10383886
 [research_siler_volk_1997]: https://doi.org/10.2514/6.1997-1165
+[research_silton_coyle_2016]: https://doi.org/10.2514/6.2016-0309
 [research_silva]: https://doi.org/10.14393/ufu.te.2022.345
 [research_silva_b]: https://doi.org/10.11606/003273318
 [research_silva_bennett_1995]: https://doi.org/10.2514/3.46678
+[research_silva_demarquijunior_2014]: https://doi.org/10.1115/smasis2014-7539
 [research_silva_mello_2006]: https://doi.org/10.2514/1.16886
 [research_silva_mello_2008]: https://doi.org/10.2514/1.33406
 [research_silvestre_2013]: https://doi.org/10.1007/978-3-642-38253-6_37
@@ -6616,9 +7176,11 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_singh_kumari_2024]: https://doi.org/10.1063/5.0185035
 [research_singh_mcdonough_2010]: https://doi.org/10.1115/imece2010-38877
 [research_singh_mcdonough_2014]: https://doi.org/10.2514/1.c032183
+[research_singh_ukeiley_2022]: https://doi.org/10.2514/1.c036678
 [research_singh_venkatraman_2023]: https://doi.org/10.2514/6.2023-1566
 [research_singh_wang_2002]: https://doi.org/10.2514/6.2002-4442
 [research_singha_2025]: https://doi.org/10.52843/cassyni.rwpkvl
+[research_singha_murugan_2022]: https://doi.org/10.2514/6.2022-1124
 [research_singha_murugan_2023]: https://doi.org/10.2514/6.2023-3753
 [research_sinha_ananthkrishnan_2002]: https://doi.org/10.2514/2.3014
 [research_sinske_govers_2018]: https://doi.org/10.1007/s13272-018-0294-3
@@ -6629,13 +7191,16 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_slaby_smith_2011]: https://doi.org/10.2514/6.2011-2171
 [research_slater_1985]: https://doi.org/10.2514/6.1985-1965
 [research_slender_aircraft_2012]: https://doi.org/10.2514/5.9781600869228.0439.0447
+[research_smetana_knepper_1973]: https://doi.org/10.2514/3.44355
 [research_smith_2025]: https://doi.org/10.33548/scientia1180
 [research_smith_dahlem_1981]: https://doi.org/10.2514/6.1981-1659
+[research_smith_henfling_2008]: https://doi.org/10.2514/6.2008-832
 [research_smith_moes_2003]: https://doi.org/10.2514/6.2003-5701
 [research_smith_patil_2001]: https://doi.org/10.2514/6.2001-1582
 [research_smith_shyy_1995]: https://doi.org/10.1115/imece1995-1328
 [research_smithbenjamin_brookstimothy_2020]: https://ntrs.nasa.gov/citations/20200001139
 [research_smithjohnw_lockwiltonp_1992]: https://ntrs.nasa.gov/citations/19920012951
+[research_snell_1993]: https://doi.org/10.2514/6.1993-3775
 [research_sneshko_chetvergov_2005]: https://doi.org/10.2514/1.3334
 [research_soares_2007]: https://doi.org/10.2514/6.2007-2943
 [research_soares_2007_b]: https://doi.org/10.2514/6.2007-2942
@@ -6648,8 +7213,10 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_soinne_1999]: https://doi.org/10.2514/6.1999-3147
 [research_solano_sarojini_2020]: https://doi.org/10.2514/6.2020-0274.c1
 [research_solartepineda_bravomosquera_2026]: https://doi.org/10.2514/1.c038573
+[research_sommerwerk_haupt_2013]: https://doi.org/10.2514/6.2013-2791
 [research_soneda_tsushima_2026]: https://doi.org/10.2514/1.j065576
 [research_soneda_yokozeki_2020]: https://doi.org/10.2514/6.2020-0450
+[research_soneda_yokozeki_2021]: https://doi.org/10.2514/6.2021-0953
 [research_song_kim_2009]: https://doi.org/10.5139/jksas.2009.37.12.1192
 [research_song_librescu_1992]: https://doi.org/10.2514/3.11633
 [research_song_liu_2014]: https://doi.org/10.1109/chicc.2014.6896454
@@ -6691,14 +7258,12 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_standard_atmosphere]: https://doi.org/10.1007/springerreference_29038
 [research_standard_atmosphere_1927]: https://doi.org/10.6028/nbs.mp.78
 [research_standard_atmosphere_1927_b]: https://doi.org/10.6028/nbs.mp.82
-[research_standard_atmosphere_1992]: https://doi.org/10.1016/b978-0-12-354355-4.50022-x
 [research_standard_atmosphere_2005]: https://doi.org/10.1017/cbo9780511807138.014
 [research_standard_atmosphere_2007]: https://doi.org/10.1007/978-0-387-30160-0_10930
 [research_standard_atmosphere_2021]: https://doi.org/10.5040/9781501365072.15547
 [research_standard_atmosphere_2021_b]: https://doi.org/10.5040/9781501365072.15548
 [research_standard_atmosphere_2023]: https://doi.org/10.1017/9781009043076.015
 [research_standard_atmosphere_2024]: https://doi.org/10.2514/5.9781624107290.1007.1012
-[research_standard_atmospheric_2002]: https://doi.org/10.1016/s0074-6142(02)80030-4
 [research_stanewsky_basler_1989]: https://doi.org/10.1007/978-3-642-83584-1_38
 [research_stanford_2014]: https://doi.org/10.2514/6.2014-2596
 [research_stanford_2015]: https://doi.org/10.2514/6.2015-2419
@@ -6713,6 +7278,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_stanford_jacobson_2023]: https://doi.org/10.2514/6.2023-0589
 [research_stanfordbretk_juttechristinev_2014]: https://ntrs.nasa.gov/citations/20140012777
 [research_stange_1959]: https://doi.org/10.21236/ada955359
+[research_stark_1977]: https://doi.org/10.2514/3.44627
 [research_starodub_2026]: https://doi.org/10.32620/aktt.2026.1.02
 [research_starr_olds_2011]: https://doi.org/10.2514/6.2011-6465
 [research_static_aeroelastic_1996]: https://doi.org/10.2514/5.9781600862465.0223.0231
@@ -6737,6 +7303,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_stettner_schrage_1992]: https://doi.org/10.2514/6.1992-4781
 [research_stevenson_1991]: https://doi.org/10.2514/6.1991-2878
 [research_stewart_bauer_1983]: https://doi.org/10.2514/6.1983-2712
+[research_sticchi_ragni_2026]: https://doi.org/10.2514/6.2026-3486
 [research_stiharualexe_1991]: https://doi.org/10.23919/acc.1991.4791848
 [research_stiharualexe_oshea]: https://doi.org/10.1109/acc.1994.751829
 [research_stodieck_cooper_2013]: https://doi.org/10.1016/j.compstruct.2013.07.023
@@ -6751,6 +7318,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_strand_ennis_2012]: https://doi.org/10.1109/aero.2012.6187310
 [research_strand_levinsky_1969]: https://doi.org/10.21236/ad0698355
 [research_strang_1943]: https://doi.org/10.1108/eb030987
+[research_straub_charles_2001]: https://doi.org/10.4050/jahs.46.192
+[research_straub_chopra_1996]: https://doi.org/10.4050/vfs-f52-10210
 [research_streett_1981]: https://doi.org/10.2514/6.1981-1266
 [research_streitenberger_feldwisch_2025]: https://doi.org/10.2514/6.2025-1663
 [research_strelkov_kharlamov_1967]: https://doi.org/10.1007/bf01040744
@@ -6765,6 +7334,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_su_sun_2023]: https://doi.org/10.1016/j.ymssp.2023.110776
 [research_su_wang_2018]: https://doi.org/10.1145/3208833.3208850
 [research_subramanya_prasad_2013]: https://doi.org/10.1049/cp.2013.2516
+[research_subsonic_transonic_prediction_1986]: https://doi.org/10.2514/5.9781600865763.0401.0430
 [research_sudhi_radespiel_2021]: https://doi.org/10.2514/6.2021-2606
 [research_suhpeterm_conyershowardjason_2015]: https://ntrs.nasa.gov/citations/20150020901
 [research_sulaeman_abdullah_2017]: https://doi.org/10.1088/1757-899x/184/1/012010
@@ -6786,7 +7356,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_supersonic_aircraft_1997]: https://doi.org/10.2514/5.9781600866449.0173.0210
 [research_supersonic_three_dimensional_1960]: https://doi.org/10.1515/9781400877706-009
 [research_supersonic_transport_1992]: https://doi.org/10.2514/6.1992-2372
+[research_supersonic_two_dimensional_1960]: https://doi.org/10.1515/9781400877706-006
 [research_suresh_radhakrishnan_2010]: https://doi.org/10.1504/ijde.2010.034864
+[research_suryakumar_babbar_2016]: https://doi.org/10.2514/1.c033602
 [research_suryakumar_mangalam_2016]: https://doi.org/10.2514/6.2016-3101
 [research_suzuki_1990]: https://doi.org/10.2514/6.1990-3325
 [research_suzuki_matsuda_1991]: https://doi.org/10.2514/3.20782
@@ -6800,6 +7372,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_swaim]: https://doi.org/10.1109/naecon.1988.195064
 [research_swaim_1961]: https://doi.org/10.2514/8.9241
 [research_swaim_1983]: https://doi.org/10.2514/6.1983-2219
+[research_swei_nguyen_2014]: https://doi.org/10.2514/6.2014-1041
 [research_swiech_2020]: https://doi.org/10.3390/aerospace7030027
 [research_switala_lipski_2026]: https://doi.org/10.1063/5.0302401
 [research_syed_moshtaghzadeh_2022]: https://doi.org/10.2514/6.2022-2557
@@ -6818,11 +7391,13 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_tai_wang_2023]: https://doi.org/10.2514/1.j062188
 [research_tai_wang_2023_b]: https://doi.org/10.3390/aerospace10040350
 [research_takahashi_yokozeki_2016]: https://doi.org/10.1177/1045389x16642298
+[research_takallu_spence_1989]: https://doi.org/10.2514/6.1989-1080
 [research_takarics_vanek_2018]: https://doi.org/10.1109/aero.2018.8396537
 [research_tal_nguyen_2015]: https://doi.org/10.2514/6.2015-2722
 [research_tamayama_2017]: https://doi.org/10.1063/1.4972751
 [research_tamayama_kheirandish_2003]: https://doi.org/10.2322/tjsass.46.186
 [research_tamura_yumitori_2024]: https://doi.org/10.2514/6.2024-2446
+[research_tan_zhou_2014]: https://doi.org/10.4028/www.scientific.net/amr.940.419
 [research_tang_chen_2017]: https://doi.org/10.1109/med.2017.7984127
 [research_tang_dowell_1996]: https://doi.org/10.2514/3.47059
 [research_tang_dowell_1998]: https://doi.org/10.2514/2.2377
@@ -6838,25 +7413,31 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_tantaroudas_karachalios_2026]: https://doi.org/10.24132/acm.2026.1114
 [research_tantrairatn_veres_2015]: https://doi.org/10.1016/j.ifacol.2015.09.485
 [research_tao_bin_2026]: https://doi.org/10.3390/biomimetics11010036
+[research_tar_rudas_2013]: https://doi.org/10.4028/www.scientific.net/amm.300-301.1593
 [research_taraborrelli_2023]: https://doi.org/10.21741/9781644902813-92
 [research_taranto_abdulrahim_2023]: https://doi.org/10.2514/6.2023-71776
 [research_tariq_nahon_2020]: https://doi.org/10.1109/icuas48674.2020.9213869
 [research_tartabini_gilbert_2016]: https://doi.org/10.2514/6.2016-0783
+[research_taverna_1985]: https://doi.org/10.2514/6.1985-205
 [research_taylor_1959]: https://doi.org/10.1017/s0001924000092502
 [research_taylor_2012]: https://doi.org/10.2514/6.2012-4410
 [research_taylor_bennett_1992]: https://doi.org/10.2514/6.1992-170
 [research_taylor_gaitonde_2007]: https://doi.org/10.2514/1.22959
 [research_taylor_pratt_1995]: https://doi.org/10.2514/6.1995-3180
 [research_taylor_yoo_2011]: https://doi.org/10.2514/6.2011-6253
+[research_tchatchuengkammegne_botez_2016]: https://doi.org/10.2514/6.2016-3390
 [research_technical_applications_1976]: https://doi.org/10.2514/6.1976-892
 [research_tegelaar_1984]: https://doi.org/10.2118/12420-ms
 [research_teixeira_cesnik_2020]: https://doi.org/10.1017/aer.2019.165
 [research_tekawade_chandwadkar_2024]: https://doi.org/10.61653/joast.v76i3.2024.979
 [research_teng_2006]: https://doi.org/10.2514/6.2006-6317
 [research_teng_2007]: https://doi.org/10.4271/2007-01-3921
+[research_teng_chen_2005]: https://doi.org/10.4271/2005-01-3421
 [research_teng_chen_2006]: https://doi.org/10.2514/6.2006-443
 [research_teng_fan_2025]: https://doi.org/10.1007/978-981-96-2440-9_40
 [research_terilli_bueno_2025]: https://doi.org/10.26678/abcm.cobem2025.cob2025-1817
+[research_tetrault_schetz_2000]: https://doi.org/10.2514/6.2000-509
+[research_tetrault_schetz_2001]: https://doi.org/10.2514/2.1389
 [research_tewari_1998]: https://doi.org/10.2514/6.1998-4142
 [research_tewari_1999]: https://doi.org/10.2514/6.1999-4312
 [research_tewari_2001]: https://doi.org/10.2514/2.4727
@@ -6886,6 +7467,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_thienel_lewis_1998]: https://doi.org/10.21236/ada373637
 [research_thomas_holst_1983]: https://doi.org/10.2514/6.1983-499
 [research_thomas_shkarayev_2026]: https://doi.org/10.2514/6.2026-4006
+[research_thomasaharris_1935]: https://ntrs.nasa.gov/citations/19930091601
 [research_thompson_danowsky_2011]: https://doi.org/10.2514/6.2011-6209
 [research_thompson_klyde_2007]: https://doi.org/10.2514/6.2007-6716
 [research_thomson_1946]: https://doi.org/10.2514/8.11345
@@ -6895,6 +7477,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_tian_li_2026]: https://doi.org/10.1016/j.jsv.2026.119977
 [research_tian_wang_2026]: https://doi.org/10.1016/j.compstruct.2026.120104
 [research_tian_yang_2016]: https://doi.org/10.1061/(asce)as.1943-5525.0000652
+[research_tigner_holden_1998]: https://doi.org/10.2514/6.1998-4831
 [research_tijdeman_vannunen_1979]: https://doi.org/10.21236/ada071420
 [research_tijdeman_vannunen_1979_b]: https://doi.org/10.21236/ada077370
 [research_tillotson_fuhs_1982]: https://doi.org/10.2514/6.1982-1361
@@ -6903,6 +7486,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_ting_lebofsky_2014]: https://doi.org/10.2514/6.2014-0838
 [research_ting_mesbahi_2022]: https://doi.org/10.2514/6.2022-2489
 [research_ting_mesbahi_2023]: https://doi.org/10.2514/1.g007450
+[research_tingeric_daotung_2015]: https://ntrs.nasa.gov/citations/20190025220
 [research_tingting_aijun_2014]: https://doi.org/10.1109/icarcv.2014.7064295
 [research_tiomkin_raveh_2021]: https://doi.org/10.1016/j.paerosci.2021.100738
 [research_tirman_ture_2024]: https://doi.org/10.4050/f-0080-2024-1231
@@ -6925,17 +7509,24 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_torsional_divergence_2014]: https://doi.org/10.1007/978-94-007-2739-7_100771
 [research_torsional_stiffness_1972]: https://doi.org/10.1016/0010-4361(72)90404-1
 [research_torsional_stiffness_1994]: https://doi.org/10.1016/0026-2714(94)90317-4
+[research_toyoda_kwak_2015]: https://doi.org/10.1016/j.proeng.2015.06.050
 [research_traas_atmaca_2026]: https://doi.org/10.2514/6.2026-0549
 [research_tracy_1981]: https://doi.org/10.2514/6.1981-2464
 [research_tracy_chopra_1998]: https://doi.org/10.2514/2.2371
+[research_trailing_edge_2006]: https://doi.org/10.2514/5.9781600866838.0245.0276
 [research_trame_williams_1985]: https://doi.org/10.2514/6.1985-1858
 [research_trankle_bachner_1993]: https://doi.org/10.2514/6.1993-3634
 [research_transonic_aircraft_2012]: https://doi.org/10.2514/5.9781600869174.0171.0220
 [research_transonic_and_1992]: https://doi.org/10.1017/cbo9780511607134.012
+[research_transonic_flight_1994]: https://doi.org/10.2514/6.1994-2142
 [research_transonic_maneuver_cruise_1980]: https://doi.org/10.2514/5.9781600865466.0187.0211
 [research_transonic_shock_1982]: https://doi.org/10.1016/c2013-0-11177-4
 [research_transonic_wing_2015]: https://doi.org/10.1142/9781783266296_0011
+[research_traub_1997]: https://doi.org/10.2514/2.2193
+[research_traub_kadapala_2010]: https://doi.org/10.2514/1.c031006
+[research_traub_lund_2006]: https://doi.org/10.2514/1.17899
 [research_travassos_kaufman_1979]: https://doi.org/10.2514/6.1979-1636
+[research_tremblaydionne_lee_2018]: https://doi.org/10.1115/1.4041736
 [research_trenka_1971]: https://doi.org/10.21236/ad0727653
 [research_triplett_1972]: https://doi.org/10.2514/3.59009
 [research_triplett_1979]: https://doi.org/10.2514/6.1979-725
@@ -6955,6 +7546,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_turi_rankin_1988]: https://doi.org/10.23919/acc.1988.4790101
 [research_turner_seo_2025]: https://doi.org/10.2514/6.2025-1494
 [research_turns_kraige]: https://doi.org/10.1017/cbo9780511813696.014
+[research_turpin_chin_2020]: https://doi.org/10.2514/1.j059267
 [research_tursi_2003]: https://doi.org/10.2514/6.2003-3787
 [research_tuzcu_nguyen_2010]: https://doi.org/10.2514/6.2010-7503
 [research_uhm_2021]: https://doi.org/10.4271/2021-01-0797
@@ -6971,11 +7563,13 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_urnes_reichenbach_2008]: https://doi.org/10.2514/6.2008-6983
 [research_urnesjamessr_nguyennhan_2013]: https://ntrs.nasa.gov/citations/20140006948
 [research_us_standard_2014]: https://doi.org/10.1016/b978-0-12-419953-8.00019-x
+[research_utaka_2004]: https://doi.org/10.2514/6.2004-1271
 [research_uzun_malik_2018]: https://doi.org/10.2514/6.2018-3854
 [research_uzun_malik_2019]: https://doi.org/10.2514/1.j057850
 [research_vadyak_smith_1987]: https://doi.org/10.2514/6.1987-1752
 [research_vale_leite_2011]: https://doi.org/10.1177/1045389x11416031
 [research_vance_brown_1974]: https://doi.org/10.21236/ad0783390
+[research_vandermaas_1959]: https://doi.org/10.1016/b978-1-4831-9730-2.50014-4
 [research_vandierendonck_1973]: https://doi.org/10.2514/6.1973-159
 [research_vangaasbeek_1980]: https://doi.org/10.21236/ada089008
 [research_vangraas_diggle_1994]: https://doi.org/10.1002/j.2161-4296.1994.tb02322.x
@@ -6985,10 +7579,11 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_vanwyckhouse_1966]: https://doi.org/10.21236/ad0630927
 [research_vanzyl_2001]: https://doi.org/10.2514/2.2806
 [research_varello_lamberti_2013]: https://doi.org/10.5139/ijass.2013.14.4.310
-[research_variation_of_1956]: https://doi.org/10.1029/tr037i002p00177
+[research_varkonyikoczy_baranyi]: https://doi.org/10.1109/isie.2003.1267245
 [research_vartio_shaw_2008]: https://doi.org/10.2514/6.2008-7192
 [research_vartio_shimko_2005]: https://doi.org/10.2514/6.2005-1946
 [research_vaughan_2003]: https://doi.org/10.1016/b0-12-227090-8/00379-1
+[research_vaughn_burkhalter_1986]: https://doi.org/10.2514/3.45346
 [research_vaughnjr_1982]: https://doi.org/10.2514/6.1982-414
 [research_veiberman_karpel_2022]: https://doi.org/10.2514/6.2022-0244
 [research_veiberman_weiss_2016]: https://doi.org/10.2514/6.2016-1486
@@ -7014,6 +7609,8 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_vindigni_mantegna_2026]: https://doi.org/10.1016/j.ejcon.2026.101632
 [research_virgiliopereira_kolmanovsky_2019]: https://doi.org/10.2514/6.2019-1591
 [research_virgiliopereira_kolmanovsky_2019_b]: https://doi.org/10.2514/6.2019-1591.c1
+[research_visconti_eun_2018]: https://doi.org/10.1108/aeat-10-2016-0165
+[research_voevodenko_panteleev_1989]: https://doi.org/10.1007/bf01051491
 [research_volk_siler_1998]: https://doi.org/10.2514/6.1998-1971
 [research_volobuyev_gorbushin_2017]: https://doi.org/10.1615/tsagiscij.2017021104
 [research_vonflotow_1989]: https://doi.org/10.2514/6.1989-1187
@@ -7044,23 +7641,30 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_wallace_2000]: https://doi.org/10.21236/ada382563
 [research_wan_yang_2003]: https://doi.org/10.2514/6.2003-1491
 [research_wang_2019]: https://doi.org/10.1063/1.5087963
+[research_wang_behal_2012]: https://doi.org/10.2514/1.54347
 [research_wang_chang_2021]: https://doi.org/10.1108/aeat-01-2021-0022
 [research_wang_chen_2023]: https://doi.org/10.1016/j.tws.2023.111266
 [research_wang_chen_2025]: https://doi.org/10.2139/ssrn.5529999
 [research_wang_chen_2026]: https://doi.org/10.2139/ssrn.6750138
 [research_wang_demiroz_1986]: https://doi.org/10.2514/6.1986-9772
+[research_wang_feng_2025]: https://doi.org/10.20944/preprints202501.2203.v1
 [research_wang_guo_2012]: https://doi.org/10.1504/ijmic.2012.046692
 [research_wang_hou_2021]: https://doi.org/10.1109/cac53003.2021.9727458
 [research_wang_hu_2025]: https://doi.org/10.2139/ssrn.5264811
 [research_wang_hu_2026]: https://doi.org/10.1016/j.ast.2025.111272
+[research_wang_huo_2011]: https://doi.org/10.1177/1077546311424306
 [research_wang_iliff_2004]: https://doi.org/10.2514/1.332
 [research_wang_lei_2023]: https://doi.org/10.3390/vibration6040062
 [research_wang_li_2024]: https://doi.org/10.1061/jaeeez.aseng-5657
 [research_wang_li_2025]: https://doi.org/10.1016/j.ast.2025.110134
+[research_wang_lin_2012]: https://doi.org/10.1109/is3c.2012.117
+[research_wang_ma_2023]: https://doi.org/10.1061/jaeeez.aseng-4622
+[research_wang_milanovic_2002]: https://doi.org/10.2514/6.2002-557
 [research_wang_mkhoyan_2021]: https://doi.org/10.2514/1.g005870
 [research_wang_mkhoyan_2021_b]: https://doi.org/10.2514/6.2021-0503
 [research_wang_pei_2026]: https://doi.org/10.1016/j.measurement.2026.121991
 [research_wang_pei_2026_b]: https://doi.org/10.1088/1361-6501/ae4ac2
+[research_wang_shi_2024]: https://doi.org/10.1109/tvt.2023.3308577
 [research_wang_tai_2022]: https://doi.org/10.3390/aerospace9110689
 [research_wang_tang_2019]: https://doi.org/10.23919/chicc.2019.8865402
 [research_wang_vankampen_2018]: https://doi.org/10.2514/6.2018-0774
@@ -7077,12 +7681,15 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_wang_yang_2019]: https://doi.org/10.2514/6.2019-1021
 [research_wang_yu_2025]: https://doi.org/10.1016/j.cja.2025.103603
 [research_wang_zhang_2018]: https://doi.org/10.1109/icarcv.2018.8581089
+[research_wang_zhang_2022]: https://doi.org/10.2514/6.2022-2079
 [research_wang_zhao_2022]: https://doi.org/10.3390/aerospace9080433
+[research_wang_zhao_2022_b]: https://doi.org/10.2514/1.j060909
 [research_wang_zhao_2024]: https://doi.org/10.2139/ssrn.5001796
 [research_wankim_cho_2008]: https://doi.org/10.1080/10402000802325533
 [research_wansasueb_panagant_2023]: https://doi.org/10.1007/s00707-023-03756-3
 [research_ward_1949]: https://doi.org/10.1017/s0001925900000056
 [research_ward_1988]: https://doi.org/10.2514/6.1988-2116
+[research_ward_stout_1986]: https://doi.org/10.2514/6.1986-168
 [research_warwick_bras_2019]: https://doi.org/10.2514/6.2019-1116
 [research_wasmi_hasan_2015]: https://doi.org/10.31026/j.eng.2015.12.07
 [research_wasson_mehus_1967]: https://doi.org/10.2514/3.43843
@@ -7094,6 +7701,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_waszak_srinathkumar_1991]: https://doi.org/10.2514/6.1991-2629
 [research_waszak_srinathkumar_1992]: https://doi.org/10.2514/6.1992-2097
 [research_waszak_srinathkumar_1995]: https://doi.org/10.2514/3.46684
+[research_waters_voskuijl_2013]: https://doi.org/10.1016/j.ast.2013.01.004
 [research_watts_1976]: https://doi.org/10.21236/ada030344
 [research_webb_takahashi_2022]: https://doi.org/10.2514/6.2022-3587
 [research_weed_carlson_1983]: https://doi.org/10.21236/ada129573
@@ -7149,10 +7757,12 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_wildschek_hanis_2013]: https://doi.org/10.1051/eucass/201306707
 [research_wildschek_maier_2006]: https://doi.org/10.2514/6.2006-6054
 [research_wildschek_maier_2009]: https://doi.org/10.2514/6.2009-6118
+[research_wilkie_belvin_1996]: https://doi.org/10.1115/imece1996-0652
 [research_williams_1965]: https://doi.org/10.1016/b978-0-08-011074-5.50012-9
 [research_williams_2004]: https://doi.org/10.2514/6.2004-6283
 [research_williams_hunt_1980]: https://doi.org/10.2514/6.1980-1809
 [research_williamshayes_2005]: https://doi.org/10.2514/6.2005-6995
+[research_wilmoth_putnam_1984]: https://doi.org/10.2514/6.1984-192
 [research_wilson]: https://doi.org/10.15368/theses.2020.2
 [research_wilson_riley_1993]: https://doi.org/10.21236/ada273685
 [research_wilson_ryan_2016]: https://doi.org/10.1109/maes.2016.150128
@@ -7160,6 +7770,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_wing_buffeting_2018]: https://doi.org/10.15372/pmtf20180406
 [research_wing_flexibility_lateral]: https://ntrs.nasa.gov/citations/19930092577
 [research_wing_theory_1969]: https://doi.org/10.1016/c2013-0-02078-6
+[research_wing_trailing_1991]: https://doi.org/10.1016/0094-114x(91)90064-b
 [research_wingroverc_1978]: https://ntrs.nasa.gov/citations/19790066419
 [research_winograd_miles_1956]: https://doi.org/10.1017/s0001925900010167
 [research_winters_hassan_1991]: https://doi.org/10.1007/978-1-4615-3746-5_32
@@ -7168,7 +7779,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_wolfson_2009]: https://doi.org/10.1016/j.chembiol.2009.09.008
 [research_wood_buffano_1964]: https://doi.org/10.21236/ad0607656
 [research_wood_loth_1999]: https://doi.org/10.2514/6.1999-614
+[research_wood_miller_1984]: https://doi.org/10.2514/6.1984-2208
 [research_wood_miller_1985]: https://doi.org/10.2514/3.45141
+[research_wood_miller_1985_b]: https://doi.org/10.2514/3.45151
 [research_woodrow_tischler_2013]: https://doi.org/10.2514/6.2013-4739
 [research_woodruff_2009]: https://doi.org/10.2514/6.2009-5722
 [research_woods_gilbert_1989]: https://doi.org/10.2514/6.1989-1385
@@ -7177,6 +7790,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_woodsvedeler_pototzky_1995]: https://doi.org/10.2514/3.46685
 [research_woodsvedelerjessicaa_pototzkyanthonys_1994]: https://ntrs.nasa.gov/citations/19950010982
 [research_woodward_1962]: https://doi.org/10.21236/ad0282989
+[research_wooldridge_1960]: https://doi.org/10.1108/eb033272
 [research_woolf_2012]: https://doi.org/10.2514/6.2012-2723
 [research_wright_silva_2026]: https://doi.org/10.4050/sm-2026-vlada-5167
 [research_wu_cooper_2016]: https://doi.org/10.2514/6.2016-1227
@@ -7185,6 +7799,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_wu_li_2025]: https://doi.org/10.1016/j.tws.2025.113710
 [research_wu_livne_2015]: https://doi.org/10.2514/6.2015-2056
 [research_wu_livne_2016]: https://doi.org/10.2514/1.j054824
+[research_wu_zha_2023]: https://doi.org/10.1109/icma57826.2023.10216271
 [research_wu_zhang_2021]: https://doi.org/10.1016/j.ijmecsci.2021.106358
 [research_wu_zhou_2024]: https://doi.org/10.1017/aer.2024.43
 [research_wuestenhagen_2022]: https://doi.org/10.2514/6.2022-0440
@@ -7209,14 +7824,19 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_xie_zhao_2019]: https://doi.org/10.1109/icusai47366.2019.9124755
 [research_xin_li_2025]: https://doi.org/10.1038/s41598-025-08792-8
 [research_xing_singh_1999]: https://doi.org/10.2514/6.1999-4283
+[research_xing_xu_2022]: https://doi.org/10.1134/s0015462822030168
+[research_xiong_bartels_2021]: https://doi.org/10.2514/6.2021-2528
 [research_xiong_fugate_2019]: https://doi.org/10.2514/6.2019-3026
 [research_xiong_liu_2013]: https://doi.org/10.2514/6.2013-3205
 [research_xiong_nguyen_2021]: https://doi.org/10.2514/6.2021-0336
+[research_xiong_nguyen_2022]: https://doi.org/10.2514/6.2022-4150
 [research_xiong_nguyen_2023]: https://doi.org/10.2514/6.2023-1575
 [research_xiong_nguyen_2024]: https://doi.org/10.2514/6.2024-2668
 [research_xiong_nguyen_2024_b]: https://doi.org/10.2514/6.2024-4056
 [research_xiong_nguyen_2024_c]: https://doi.org/10.2514/6.2024-2678
 [research_xiong_yang_2001]: https://doi.org/10.2514/6.2001-1463
+[research_xu_2025]: https://doi.org/10.1038/s41598-025-06503-x
+[research_xu_2026]: https://doi.org/10.1038/s41598-026-56983-8
 [research_xu_chen_2023]: https://doi.org/10.1017/aer.2023.59
 [research_xu_gao_2015]: https://doi.org/10.1155/2015/258315
 [research_xu_gao_2015_b]: https://doi.org/10.3923/jse.2015.217.229
@@ -7241,6 +7861,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_yamashiro_stirling_2007]: https://doi.org/10.2514/6.2007-6381
 [research_yamazaki_kusunose_2016]: https://doi.org/10.2514/1.c033417
 [research_yan_li_2019]: https://doi.org/10.1051/jnwpu/20193740656
+[research_yan_liu_2025]: https://doi.org/10.1007/978-981-96-3592-4_18
 [research_yanagihara_suzuki_1991]: https://doi.org/10.4271/911979
 [research_yang_chen_2009]: https://doi.org/10.2514/1.42370
 [research_yang_dudley_2018]: https://doi.org/10.2514/1.j056280
@@ -7260,11 +7881,14 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_yang_wu_2025]: https://doi.org/10.1063/5.0280452
 [research_yang_xia_2011]: https://doi.org/10.1007/s11431-011-4454-5
 [research_yang_xiao_2010]: https://doi.org/10.1007/s11431-010-4103-4
+[research_yang_xiao_2024]: https://doi.org/10.2514/1.c037399
 [research_yang_xie_2019]: https://doi.org/10.1177/0954410019885238
 [research_yang_xu_2024]: https://doi.org/10.1007/s11071-024-09764-9
 [research_yang_zheng_2007]: https://doi.org/10.1007/978-3-540-75999-7_127
 [research_yang_zhong_2009]: https://doi.org/10.1109/aero.2009.4839614
 [research_yao_kan_2023]: https://doi.org/10.3390/aerospace10040328
+[research_yao_marques_2014]: https://doi.org/10.2514/6.2014-2310
+[research_yaros_1977]: https://doi.org/10.2514/6.1977-226
 [research_yasue_sawada_2009]: https://doi.org/10.2514/6.2009-604
 [research_yates_1963]: https://doi.org/10.2514/6.1963-205
 [research_yavuzturk_topbas_2017]: https://doi.org/10.2514/6.2017-1865
@@ -7274,6 +7898,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_yeo_kang_2023]: https://doi.org/10.2514/1.c036950
 [research_yeo_potsdam_2010]: https://doi.org/10.4050/vfs-f66-000444
 [research_yerly_deluca_2016]: https://doi.org/10.2514/6.2016-3570
+[research_yillikci_yilmaz_2005]: https://doi.org/10.2514/6.2005-5809
 [research_yiming_mei_2019]: https://doi.org/10.1109/iccais46528.2019.9074698
 [research_yin_wu_2015]: https://doi.org/10.2514/6.2015-1860
 [research_yin_xiao_2026]: https://doi.org/10.1007/978-981-95-7668-5_12
@@ -7293,6 +7918,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_yu_he_2016]: https://doi.org/10.1109/chicc.2016.7553228
 [research_yu_lv_2014]: https://doi.org/10.4028/www.scientific.net/amm.633-634.1233
 [research_yu_wang_2017]: https://doi.org/10.1155/2017/1592527
+[research_yu_yan_2026]: https://doi.org/10.2139/ssrn.6580127
 [research_yu_yuan_2004]: https://doi.org/10.2514/6.2004-1752
 [research_yu_zhao_2013]: https://doi.org/10.4028/www.scientific.net/amm.327.246
 [research_yuan_2026]: https://doi.org/10.54254/2753-8818/2026.dl34744
@@ -7338,6 +7964,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_zhang_kang_2019]: https://doi.org/10.2514/6.2019-1368
 [research_zhang_kang_2025]: https://doi.org/10.1016/j.ymssp.2024.111871
 [research_zhang_li_2025]: https://doi.org/10.1007/s42405-025-00955-1
+[research_zhang_liu_2019]: https://doi.org/10.1115/1.4043240
 [research_zhang_liu_2022]: https://doi.org/10.1109/lra.2022.3192803
 [research_zhang_qiu_2024]: https://doi.org/10.3390/act13060229
 [research_zhang_rabbath_2008]: https://doi.org/10.1109/acc.2008.4586631
@@ -7352,6 +7979,9 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_zhang_xiang_2025]: https://doi.org/10.23919/ccc64809.2025.11178744
 [research_zhang_xu_2008]: https://doi.org/10.1109/asc-icsc.2008.4675399
 [research_zhang_yang_2013]: https://doi.org/10.1016/j.measurement.2013.07.017
+[research_zhang_yang_2016]: https://doi.org/10.2514/6.2016-1783
+[research_zhang_yang_2025]: https://doi.org/10.2514/1.c038158
+[research_zhang_ye_2010]: https://doi.org/10.1016/j.actaastro.2009.09.016
 [research_zhang_yu_2013]: https://doi.org/10.1155/2013/714168
 [research_zhang_zhang_2013]: https://doi.org/10.4028/www.scientific.net/amm.397-400.218
 [research_zhang_zhao_2023]: https://doi.org/10.3390/aerospace10120981
@@ -7366,6 +7996,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_zhao_2020]: https://doi.org/10.1504/ijvnv.2020.112428
 [research_zhao_he_2020]: https://doi.org/10.1016/j.ast.2019.105635
 [research_zhao_li_2024]: https://doi.org/10.1016/j.taml.2024.100540
+[research_zhao_yang_2021]: https://doi.org/10.1109/access.2021.3073592
 [research_zhao_yang_2023]: https://doi.org/10.1016/j.cja.2022.06.016
 [research_zhao_yue_2016]: https://doi.org/10.2514/1.c033713
 [research_zhao_zhang_2025]: https://doi.org/10.3390/s25051633
@@ -7375,6 +8006,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 [research_zheng_2010]: https://doi.org/10.1007/s10409-009-0328-5
 [research_zheng_hedrick_2013]: https://doi.org/10.1371/journal.pone.0053060
 [research_zheng_zhang_2018]: https://doi.org/10.1109/access.2018.2789935
+[research_zhenghong_1992]: https://doi.org/10.1007/bf02481800
 [research_zhi_zhou_2020]: https://doi.org/10.1117/12.2557758
 [research_zhong_xia_2025]: https://doi.org/10.1007/978-981-95-2998-8_44
 [research_zhong_yang_2009]: https://doi.org/10.2514/6.2009-58

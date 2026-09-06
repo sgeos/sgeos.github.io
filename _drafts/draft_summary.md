@@ -22,9 +22,36 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `x_planes_boeing_x53_active_aeroelastic_wing.markdown`, A350, editorial date 2025-11-28, series
 `x_planes` index 54 of 72.
 
-**7,404 lines, 27 display equations, 3,384 reference definitions, 43,817 words after the
-primary-reference review.** **Three of four passes complete.** **Not published**, and publication of the
+**8,036 lines, 27 display equations, 3,682 reference definitions, 47,556 words after the
+publication review.** **ALL FOUR PASSES COMPLETE.** Committed and **PUSHED**. **Not published**, and publication of the
 series has never been authorised. **Full-aircraft class**, and the first vehicle in three articles.
+
+**PUBLICATION REVIEW, AND READING THE OPENING AGAINST THE CONCLUSION FOUND TWO DEFECTS, MAKING SIX
+CONSECUTIVE ARTICLES.** The opening said **It worked**, which the body spends three sections
+qualifying, and it now says **It rolled, and it never reached the condition it was named for** with
+both halves spelled out. **The conclusion predated three sections added in the two later passes**, on
+the actuator overload arithmetic, the stiffness-to-mass proportionality and the ratio in which
+stiffness cancels, and mentioned none of them. All three are now in it.
+
+**EIGHT CONCLUSIONS WERE PROBED AND THE THREE THIN ONES ARE THE THREE THAT MAKE THIS AEROPLANE
+INTERESTING.** The phenomenon it is named for, the effector it used instead, and the constraint that
+dominated its flight test. **None of the three is thin because the probe was badly worded**, which is
+what A349 found and what this article checked for first.
+
+**ONE OF THE THREE WAS REPHRASED AND HARVESTED FOR, AND THE ARTICLE REPORTS THE TWO MOVES SEPARATELY.**
+The leading-edge device is enormously written about as a high-lift device and barely at all as a roll
+effector, and the second is the whole of what the X-53 did with it. Rewording roughly doubled the shelf
+from 34 to 58, and a sweep of 1,569 fresh records of which 310 passed the gate
+roughly doubled it again to 145. **The other two are left where they are and the article says so.**
+
+**A CONTAMINANT FAMILY WAS RECORDED THAT NO EARLIER ARTICLE COULD HAVE MET.** `The Leading Edge` is
+the masthead of the Society of Exploration Geophysicists, and a sweep for the leading-edge flap as a
+roll effector returned its digital editions, a microseismic moment-tensor inversion and an interview
+with a geophysicist. **Store 130 patterns.**
+
+**Primaries 282 of 3,605 at 7.8 percent**, of which
+275 carry a report-server identifier and 7 are
+journal papers named by hand. **References 3,682.**
 
 **PRIMARY-REFERENCE REVIEW.** Primaries 261 of 3,307, being
 7.9 percent, up from 247 of 3,296 at 7.5 percent. **The programme's own citation chain
@@ -126,8 +153,8 @@ wing and the store was built by articles about wings.
 **Report primaries 247 of 3,296 at 7.5 percent**, against 2.0
 percent one article ago, **because the measure works again when the subject is an aeroplane**.
 
-**Remaining work.** Equation-density review, primary-reference review and publication review, in that
-order.
+**No remaining work.** All four passes complete. **Not published**, and publication of the series has
+never been authorised.
 
 ## X-Planes X-52, the Designation Refused A349 2025-11-27
 

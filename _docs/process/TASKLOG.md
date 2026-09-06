@@ -11,11 +11,12 @@ Current task state and verification log. This file is the shared source of truth
 
 **Status**: **A297 through A348 are drafted with all four passes complete on every one, committed and
 PUSHED. A349, X-52, the Designation Refused, has completed ALL FOUR PASSES and is committed and
-PUSHED. A350, Boeing X-53 Active Aeroelastic Wing, has completed its DRAFT, EQUATION-DENSITY and
-PRIMARY-REFERENCE passes, three of four, and is committed and NOT pushed. None published, and publication
+PUSHED. A350, Boeing X-53 Active Aeroelastic Wing, has completed ALL FOUR PASSES and is committed
+and PUSHED. None published, and publication
 has never been authorised.**
 Fifty-four of seventy-two drafted. None published, and publication has never been authorised.
 The next new article is **A351**, Gulfstream X-54, editorial date 2025-11-29, series index 55.
+**Eighteen articles remain.**
 Report primaries finished at **1,301 of 5,976, being 21.8 percent**, up from 14.2 at the draft pass.
 
 **THE BOOK-IDENTIFIER REPAIR FOR A342 THROUGH A346 IS DONE.** Twelve anchors and sixteen citations
@@ -47,6 +48,30 @@ this is not a property of the repair. Of the 22 book URLs in the five repaired d
 already approved, namely Schlichting at `OL11833044W` and Bramwell at `OL16987916W`. **No key was
 changed to chase this**, because selecting an identifier against a transient server fault is the
 error this whole task was spent avoiding.
+
+**A350's PUBLICATION REVIEW FOUND TWO DEFECTS BY READING THE OPENING AGAINST THE CONCLUSION, WHICH IS
+NOW SIX CONSECUTIVE ARTICLES.** The opening said **It worked**, a claim the body spends three sections
+qualifying, and it now says **It rolled, and it never reached the condition it was named for**, with
+both halves spelled out immediately. **The conclusion predated three sections added in the two later
+passes**, on the actuator overload arithmetic, on the stiffness-to-mass proportionality and on the
+ratio in which stiffness cancels, and mentioned none of them. All three are in it now.
+
+**EIGHT CONCLUSIONS WERE PROBED AND THE THREE THIN ONES ARE THE THREE THAT MAKE THIS AEROPLANE
+INTERESTING.** The phenomenon it is named for, the effector it used instead, and the constraint that
+dominated its flight test. **None was thin because the probe was badly worded**, which is the first
+thing this pass checked, having watched A349 lose two of three thin conclusions to its own vocabulary.
+
+**ONE WAS REPHRASED AND HARVESTED FOR AND THE TWO MOVES ARE REPORTED SEPARATELY.** The leading-edge
+device is enormously written about as a high-lift device and barely at all as a roll effector, and the
+second is the whole of what the X-53 did with it. **Rewording roughly doubled the shelf from 34 to 58
+and a sweep roughly doubled it again to 145**, with 1,569 fresh records of which
+310 passed the gate. **The other two are left where they are.**
+
+**A CONTAMINANT FAMILY WAS RECORDED THAT NO EARLIER ARTICLE COULD HAVE MET.** `The Leading Edge` is the
+masthead of the Society of Exploration Geophysicists, and the sweep returned its digital editions, a
+microseismic moment-tensor inversion and an interview with a geophysicist. **The phrase names the front
+of a wing and a geophysics journal, and the aeronautical sense is the rarer one in a general index.**
+Store 130 patterns.
 
 **A350's PRIMARY-REFERENCE REVIEW FOUND THE PROGRAMME'S OWN CITATION CHAIN READ AND NOT CITED.** The
 flight test report's bibliography names the papers the programme was built on, and the draft used the
@@ -1128,6 +1153,7 @@ and publishing any one alone fails the build.
 
 | Date | Change |
 |------|--------|
+| 2026-09-06 | **A350 PUBLICATION REVIEW, the fourth and final pass. Committed and PUSHED. NOT published.** All fifty-four X-Planes drafts remain in `_drafts/`. Final state **8,036 lines, 27 display equations, 3,682 reference definitions, 47,556 words**, research 3,605, primaries 282 at 7.8 percent of which 275 carry a report-server identifier and 7 are journal papers named by hand. **READING THE OPENING AGAINST THE CONCLUSION FOUND TWO DEFECTS, MAKING SIX CONSECUTIVE ARTICLES.** The opening said `It worked` where the body spends three sections qualifying it, and **the conclusion predated three sections added in the two later passes** and mentioned none of them. **Eight conclusions probed and the three thin ones are the three that make the aeroplane interesting**, being the phenomenon it is named for, the effector it used instead and the constraint that dominated its flight test, **and none was thin because the probe was badly worded**. One was rephrased and harvested for, the two moves reported separately, 34 to 58 by rewording and 58 to 145 by a sweep of 1,569 fresh records of which 310 passed the gate. **`The Leading Edge` is a geophysics journal** and the family is now in the store, which stands at 130 patterns. Retrieved 10,181 across three sweeps, 3,715 through the gate. |
 | 2026-09-05 | **A350 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed. NOT published.** References 3,372 to 3,384, research 3,296 to 3,307, **primaries 247 to 261, being 7.5 to 7.9 percent**, lines 7,299 to 7,404, words 42,861 to 43,817, equations unchanged at 27. **THE PROGRAMME'S OWN CITATION CHAIN HAD BEEN READ AND NOT CITED**, and fourteen sources from the flight test report's own bibliography were added and verified. **The primary count now splits into 254 report-server identifiers the corpus measure can see and 7 named journal papers it cannot**, and the article reports both. Two further wartime reports were added to the classical sizing literature that had stood at two cited once each. **An anachronism was caught in the prose read**, the article having the Air Force Research Laboratory sponsor a 1984 programme when that laboratory was formed in 1997. **A wait-on-log matched a previous build's completion token** because the log had not been truncated when the wait began, which is the third variant in two articles of trusting a stale signal. |
 | 2026-09-05 | **A350 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed. NOT published.** **Display equations 11 to 27**, lines 7,223 to 7,299, words 41,819 to 42,861, references unchanged at 3,372. **THE LARGEST FINDING CAME OUT OF A TABLE THE DRAFT HAD ONLY TABULATED.** Actuator force times horn arm is a moment in the same units as the structural limit printed beside it, and **three of the four wing surfaces carry actuators strong enough to break their own limits**, the aileron by 4.8 percent, the trailing-edge flap by 4.4 and the inboard leading-edge flap by 38.7. **The structure was protected by procedure and not by the actuator.** Added the Bredt-Batho stiffness-to-mass derivation that makes reversal margin linear in structural mass; **the ratio of reversal to divergence dynamic pressure, in which the stiffness cancels**, so stiffening changes neither limit's order; the four regions as conditions on dynamic pressure; the hinge-moment relation; the roll equation with its helix angle, time constant and bank-angle integral, **showing that the time-to-bank criteria were testing roll rate and not roll damping**; the unflown test points as ratios at 17.4 and 21.9 percent of dynamic pressure; and the roll performance as a fraction of production. **The same insertion bug appeared three times and was caught three times**, an addition appended to a complete paragraph producing a full stop followed by a comma, and a regex for that signature now runs over the assembled article. **An inlined relation was caught by the article's own checker.** |
 | 2026-09-04 | **A349 PUBLICATION REVIEW, the fourth and final pass. Committed and PUSHED. NOT published.** All fifty-three X-Planes drafts remain in `_drafts/`. Final state **5,311 lines, 34 display equations, 2,296 reference definitions, 33,551 words**, research 2,213, report primaries 44 at 2.0 percent and 9 curated primary documents. **READING THE OPENING AGAINST THE CONCLUSION FOUND TWO DEFECTS, MAKING FIVE CONSECUTIVE ARTICLES.** The opening said the number was refused because of how it would SOUND, which the registry does not say and which the article's own Epistemic State contradicts, and **the conclusion predated the subsection the primary pass added**, so the sharpest comparison in the article was missing from its ending. **Seven conclusions probed, three thin, two opened on rephrasing alone**, names-refused-before-use going from two records to 203 and spoken-against-written from 46 to 273. **The one that stayed thin was harvested for and is still thin at 16**, and the harvest returned mostly domain-general string similarity, so five further families went into the store and the generic similarity anchor now needs a naming or confusion context, which also cleaned contaminants the main pool had carried since the draft pass. **The Source Base was reporting one sweep's retrieval against three sweeps' gate total** and now reports 8,177 across three. **A build was killed because the article changed after it started**, caught by checksum. Store 129 patterns, 8 from this article. Build clean in 39 seconds, 88 pages, **rendered audit reports no findings**, 34 source equations against 34 real rendered blocks, zero raw dollar pairs, zero unresolved brackets, page 498,895 bytes. |

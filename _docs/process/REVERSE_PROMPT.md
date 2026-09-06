@@ -1,84 +1,57 @@
 ## Last Updated
 
-**Date**: 2026-09-05
-**Task**: **A350, X-Planes: Boeing X-53 Active Aeroelastic Wing, primary-reference review. The third of
-four.** Committed, **not pushed**, since only the publication review pushes. **Not published**, and
-publication of the series still not authorised. **Fifty-four of seventy-two drafted.**
+**Date**: 2026-09-06
+**Task**: **A350, X-Planes: Boeing X-53 Active Aeroelastic Wing, publication review. The fourth and
+last of four.** Committed and **pushed**. **Not published**, and publication of the series still not
+authorised. **Fifty-four of seventy-two drafted.**
 
 ---
 
-## The Programme's Own Citation Chain Had Been Read and Not Cited
+## Reading the Opening Against the Conclusion Found Two Defects, Which Is Now Six Consecutive Articles
 
-**The flight test report's bibliography names the papers the programme was built on**, and the draft
-used the report's account of those papers without pointing at a single one of them.
+**The opening said `It worked`.** The body then spends three sections qualifying that, since the
+aeroplane missed the lower of its two roll requirements in the one regime the concept exists to
+exploit, and could not reach the dynamic pressures where the phenomenon it is named for occurs.
 
-**Fourteen were added.** The wind-tunnel programme's summaries and its flutter suppression and model
-reduction work. The applications of the concept to an F-16 derivative wing and to the Agile Falcon,
-neither of which became the testbed. The flight programme's own plan and its technical and analytical
-development. The strain-gauge load calibration and the deflection-based loads estimation. The high
-alpha research vehicle that supplied the wings. **And the production support flight control computer**,
-which matters because the article calls the research flight control system the first of its kind on an
-F/A-18 in a safety-of-flight critical envelope, and the computer it ran on had been built for the fleet
-beforehand.
+**It now says `It rolled, and it never reached the condition it was named for`**, and spells both
+halves out in the paragraph beneath, so the compression no longer outruns the argument.
 
-**Every identifier was verified against its repository before assembly**, which is the discipline that
-caught a fabricated identifier in A347 and another in A349.
+**The conclusion predated three sections that the two later passes added.** The actuator overload
+arithmetic, the stiffness-to-mass proportionality and the ratio in which stiffness cancels were all
+absent from it. **A conclusion written before half the findings existed is the defect this read is for**,
+and it is the second article running in which it was the specific risk flagged in advance.
 
 ---
 
-## The Primary Count Splits Into Two Kinds and the Article Now Reports Both
+## Eight Conclusions Probed, and the Three Thin Ones Are the Three That Matter
 
-**Primaries are 261 of 3,307, or 7.9 percent**, up from 247 of
-3,296 at 7.5.
+**The phenomenon the aeroplane is named for, the effector it used instead, and the constraint that
+dominated its flight test.** Those are the three thin shelves, and they are exactly the three things
+that make this aeroplane worth an article.
 
-**254 carry a report-server or defence-registry identifier**, which is what
-the corpus-wide measure can see.
+**None of them was thin because the probe was badly worded**, and that was the first thing checked,
+because A349 lost two of its three thin conclusions to its own vocabulary one article ago.
 
-**7 are journal and conference papers named by hand**, and the measure
-cannot see them because an aeronautical society's identifier looks like any other digital object
-identifier. **That is the same blind spot A349 hit and reported**, in a milder form, and reporting both
-numbers costs nothing and prevents a reader inferring the wrong thing from either.
+**One was rephrased and harvested for, and the two moves are reported separately.** The leading-edge
+device is enormously written about as a high-lift device and barely at all as a roll effector, which is
+the whole of what the X-53 did with it. **Rewording roughly doubled the shelf from 34 to 58 and a sweep
+roughly doubled it again to 145**, with 1,569 fresh records of which 310 passed
+the gate.
 
-**Named foundational sources stand at 39.**
-
----
-
-## The Classical Literature Was Carrying More Than Its Citation Count Suggested
-
-**The sizing section rests on the wartime and early postwar work that settled reversal by adding
-stiffness, and that work stood at two reports cited once each.** Two more were added, and the article
-now says plainly that this literature is older than the jet engine and was not superseded.
-
-**That matters because it is the article's argument.** The X-53 exists to reopen a question the
-classical answer closed, and an article which asserts that while citing the classical answer twice is
-asserting rather than showing.
+**The other two are left where they are and the article says so.** Reversal closed as a research
+question in the 1940s. Hinge moment rarely titles a paper and constantly decides one.
 
 ---
 
-## An Anachronism the Prose Read Caught
+## A Contaminant Family No Earlier Article Could Have Met
 
-**The article had the Air Force Research Laboratory sponsoring a programme that ran from 1984.** That
-laboratory was formed in 1997, a year after the flight programme began.
+**`The Leading Edge` is the masthead of the Society of Exploration Geophysicists.** A sweep for the
+leading-edge flap as a roll effector returned its digital editions, a microseismic moment-tensor
+inversion and an interview with a geophysicist.
 
-**The predecessor is named in the flight test report's own first reference**, being the Flight Dynamics
-Laboratory of the Air Force Wright Aeronautical Laboratories. The article now names it and dates the
-change, and the correction improves the story rather than merely fixing it, because the sponsor
-changing identity between the tunnel programme and the flight programme is part of how long this took.
-
----
-
-## A Wait-on-Log Matched a Previous Build's Completion Token
-
-**The equation pass replaced `pgrep` with a wait on the build log for `done in`, because the process
-wait had matched itself.** This pass found the replacement's own failure mode.
-
-**The wait began before the log was truncated**, matched the previous build's completion line, returned
-immediately, and the audit then ran against a `_site` that `make_stub.sh` had just deleted. The audit
-reported the directory missing, which is the loud failure and the lucky one.
-
-**A completion token is only evidence if the log is known to be fresh.** That is the third variant in
-two articles of the same mistake, after A349's stale audit log and this article's self-matching process
-wait. **Truncate or timestamp the log first, then wait on it.**
+**The phrase names the front of a wing and a geophysics journal**, and in a general bibliographic index
+the aeronautical sense is the rarer one. The family is now in the store, which stands at
+130 patterns.
 
 ---
 
@@ -86,30 +59,51 @@ wait. **Truncate or timestamp the log first, then wait on it.**
 
 - `python3 _verify.py` reports **0 errors, 0 warnings**.
 - `python3 _lib/test_lib.py` reports **104 of 104**.
-- `tmp/a350/verify_numbers.py` reports **ALL CHECKS PASS**, with the actuator moments and the dynamic
-  pressures recomputed inside the checker rather than compared against the generator.
-- Reference integrity: **3,384 defined, 3,384 used, 0 undefined, 0
+- `tmp/a350/verify_numbers.py` reports **ALL CHECKS PASS**, with the actuator moments recomputed inside
+  the checker from the force and the arm, the dynamic pressures recomputed from the atmosphere, and the
+  cluster table checked against its own citation runs.
+- Reference integrity: **3,682 defined, 3,682 used, 0 undefined, 0
   orphaned, 0 duplicate URLs**.
 - **All seven book links verified on title AND author.** **All seventeen curated http URLs resolve.**
-- Prose: no contractions, no dashes, no prose colons outside citation labels, no inline relation, and
-  **zero instances of the insertion signature the equation pass added a check for**.
-- **7,404 lines, 43,817 words, 27 display equations, 3,384 reference definitions.**
-- Survey **3,307 research records across 12 clusters**.
-- **The stub-isolated production build succeeded in 837 seconds with no Liquid error**, against a
+- Prose: no contractions, no dashes, no prose colons outside citation labels, no inline relation, no
+  pipe in inline math, **zero instances of the insertion signature**, and zero unbraced digit
+  separators inside display math.
+- **8,036 lines, 47,556 words, 27 display equations, 3,682 reference definitions.**
+- Survey **3,605 research records across 12 clusters**, retrieved 10,181
+  across three sweeps, 3,715 through the gate.
+- **The stub-isolated production build succeeded in 1,290 seconds with no Liquid error**, against a
   checksum taken before it and re-verified after. **The rendered audit reports no findings across 89
   pages.** **Source 27 display equations against 27 real rendered display blocks**, three line-spacing
   directives accounting for the raw count, zero raw dollar pairs, zero unresolved reference brackets,
-  page 641,950 bytes. **This build took thirteen times longer than the equation pass's**, on a
-  reference block twelve records larger, so build time is not linear in the corpus and a wait must be
-  open-ended.
+  page 692,441 bytes.
+- Primaries **282 at 7.8 percent**, being
+  275 report-server identifiers and 7 journal
+  papers named by hand, against 39 named foundational sources.
+
+---
+
+## Three Build-Wait Failures in Two Articles, and What Finally Worked
+
+**A349 ran its audit before the build finished and reported the previous run's numbers.**
+
+**A350's draft pass waited on `pgrep -f "jekyll build"`, and the waiting shell had that string in its
+own command line**, so the loop matched itself and three of them accumulated while the build had long
+since finished.
+
+**A350's primary pass waited on the build log for `done in` and matched the previous build's line**,
+because the log had not yet been truncated when the wait began, and the audit then ran against a site
+directory that had just been deleted.
+
+**What works is to delete the log first, then wait for BOTH the completion line and the site directory
+to exist.** That is what this pass did.
 
 ---
 
 ## Next
 
-**A350 has one pass remaining, the publication review.**
+**A351, Gulfstream X-54**, editorial date 2025-11-29, series index 55. **Eighteen articles remain.** No
+article is mid-rhythm.
 
-**Expect it to read the opening against the conclusion first**, which has found a defect in five
-consecutive articles. **The specific risk here is that the article has gained three sections since the
-conclusion was written**, on the actuator overload arithmetic, on the primary split, and on the
-classical literature, and the conclusion mentions none of them.
+**Carry forward.** Probe in the field's words before concluding a shelf is thin. Report a rewording and
+a harvest as separate moves, because they are. Multiply the columns of any table the source only sets
+out. And delete the build log before waiting on it.

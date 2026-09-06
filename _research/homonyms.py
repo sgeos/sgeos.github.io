@@ -355,6 +355,15 @@ NOISE_PATTERNS = [
      "general method and this article's subject is one application of it**, so the method "
      "literature is admitted only where it touches names, identifiers or confusion"),
 
+    (r"The Leading Edge Digital Edition|\bCSEG\b|\bSEG\b.{0,25}(?:annual meeting|technical program)|"
+     r"microseismic|seismic (?:inversion|attribute|interpretation)|reservoir characteri[sz]ation|"
+     r"well log|\bgeophys",
+     "A350: `The Leading Edge` IS A GEOPHYSICS JOURNAL. A sweep for the leading-edge flap as a "
+     "ROLL effector returned its digital editions, a microseismic moment-tensor inversion and an "
+     "interview with a geophysicist. **The phrase names the front of a wing and the masthead of "
+     "the Society of Exploration Geophysicists**, and the aeronautical sense is the rarer one in "
+     "a general bibliographic index"),
+
     # ---- general field bleed, seen across several sweeps
     (r"\bpatient\b|\bclinic", "medical bleed, seen in most sweeps", "medicine"),
     (r"\bvaccin|\bepidemi|\bmortality\b", "public-health bleed", "medicine"),
