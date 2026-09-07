@@ -147,7 +147,8 @@ NOISE_PATTERNS = [
      "Performance of the Darrieus Rotor' and four more Darrieus and Savonius studies. "
      "The store already carried wind FARMS as a power-systems contaminant, which is a "
      "different failure and did not catch these. Note that `wind tunnel` is deliberately "
-     "not matched"),
+     "not matched",
+     "wind-energy"),
     (r"\bdragonfl\w*.{0,40}(?:airfoil|wing|insect|corrugat|biolog|entomolog)|"
      r"(?:insect|corrugated|biomimetic|bio-?inspired).{0,40}\bdragonfl|"
      r"insect[- ]scale|flapping[- ]wing.{0,30}(?:insect|bird|bat|biolog)",
@@ -198,7 +199,8 @@ NOISE_PATTERNS = [
      "lift constantly in a non-aerodynamic sense. 'Environmental Assessment (EA) for "
      "Replacement of the Wastewater Lift Station' reached the kept set on the word LIFT, "
      "and 'Environmental Assessment for Proposed Aircraft Replacement, 507th Tactical Air "
-     "Control WING' on the word WING"),
+     "Control WING' on the word WING",
+     "environmental-assessment"),
     (r"thick[- ]section composite|composite (?:laminate|structure).{0,40}"
      r"(?:ballistic|impact|damage tolerance|multiscale)|delamination",
      "A347: THICK-SECTION COMPOSITE STRUCTURES against a THICK AEROFOIL SECTION. The X-50's "
@@ -278,7 +280,8 @@ NOISE_PATTERNS = [
     #      meteorology, marine engineering and spectroscopy sharing vocabulary
     #      with aerodynamics. See rejected.json for the individual judgements.
     (r"\bmeteorolog", "X-Planes: 'boundary layer' is aerodynamics and also the ATMOSPHERIC "
-                      "boundary layer; 71 rejection reasons name meteorology"),
+                      "boundary layer; 71 rejection reasons name meteorology",
+     "meteorology"),
     (r"\bnerve block", "X-Planes: 'blocking' returned anaesthesia"),
     (r"\banaesth|\banesth", "X-Planes: same family as nerve block"),
 
@@ -301,7 +304,8 @@ NOISE_PATTERNS = [
      "and Generic Names` and `Brand Name v/s Generic Name`, while `taxonomy` removed a "
      "controller-to-controller communication taxonomy and a cognitive error taxonomy. A "
      "filter built to remove naming-that-is-not-this-naming removed this-naming, and only "
-     "reading its drops found it"),
+     "reading its drops found it",
+     "nomenclature"),
     (r"microsatellit|\bgenom|\btranscriptom|nucleotide|\bDNA\b|\bRNA\b|"
      r"protein sequence|gene sequence|\ballele",
      "A349: THE GENOMICS IDENTIFIER AND THE GENOMICS STRING. 'AutomAted RepeaT "
@@ -362,14 +366,16 @@ NOISE_PATTERNS = [
      "ROLL effector returned its digital editions, a microseismic moment-tensor inversion and an "
      "interview with a geophysicist. **The phrase names the front of a wing and the masthead of "
      "the Society of Exploration Geophysicists**, and the aeronautical sense is the rarer one in "
-     "a general bibliographic index"),
+     "a general bibliographic index",
+     "geophysics"),
 
     # ---- general field bleed, seen across several sweeps
     (r"\bpatient\b|\bclinic", "medical bleed, seen in most sweeps", "medicine"),
     (r"\bvaccin|\bepidemi|\bmortality\b", "public-health bleed", "medicine"),
     (r"\bblood pressure\b|\bcholesterol\b",
      "'lowering' is a compiler term and a medical one", "medicine"),
-    (r"\bclassroom\b|\bcurricul|\bpedagog", "'instruction' is a machine term and a TEACHING term"),
+    (r"\bclassroom\b|\bcurricul|\bpedagog", "'instruction' is a machine term and a TEACHING term",
+     "teaching"),
     (r"\bnanoparticle|\bcatalys", "'synthesis' is a program term and a CHEMICAL term"),
     (r"\bwireless sensor network", "'coverage' in sensor networks is a different problem"),
     (r"\bsupertanker|\bsingle[- ]screw\b|\bmarine propuls",
@@ -739,27 +745,32 @@ NOISE_PATTERNS = [
      "A341: the BLENDED WING BODY is an aircraft configuration and also an "
      "UNDERWATER VEHICLE configuration, and the underwater literature uses the "
      "identical phrase. 'Synthetic jet-based active flow control for hydrodynamic "
-     "enhancement of a blended-wing-body underwater vehicle' reached the kept set"),
+     "enhancement of a blended-wing-body underwater vehicle' reached the kept set",
+     "marine"),
     (r"\bwind turbines?\b|\bwind energy\b|\btidal turbine\b",
      "A341: TURBINE BLADES are aerofoils and the wind energy literature writes about "
      "them in the vocabulary of aerodynamics. Distinct from 'wind tunnel', which must "
-     "survive, so the pattern is anchored on the whole phrase"),
+     "survive, so the pattern is anchored on the whole phrase",
+     "wind-energy"),
     (r"\bships?\b|\bvessels?\b|\btwin-screw\b|\bship-steering\b|\bnaval architect",
      "A341: YAW, ROLL, RUDDER and AUTOPILOT are the whole vocabulary of SHIP steering "
      "as well as of flight. 'An internal model control approach to the design of "
      "yaw-rate-control ship-steering autopilots' and 'Dynamic inverse control of ship "
      "rudder roll/yaw stabilization' both reached the kept set. The boundary before "
-     "'ship' protects AIRSHIP and RELATIONSHIP, which must survive"),
+     "'ship' protects AIRSHIP and RELATIONSHIP, which must survive",
+     "marine"),
     (r"\broad vehicles?\b|\bautomobil|\bpassenger cars?\b|\bvehicle yaw rate\b|"
      r"\bthree-axle\b|\belectronic stability (?:control|program)\b",
      "A341: VEHICLE YAW RATE CONTROL is a road vehicle dynamics field with its own "
      "large literature using yaw, sideslip, stability and control identically. "
-     "'Adaptive Yaw Control Of Three-Axle Road Vehicles' reached the kept set"),
+     "'Adaptive Yaw Control Of Three-Axle Road Vehicles' reached the kept set",
+     "surface-transport"),
     (r"\btall building|\bhigh-?rise\b|\bnatural ventilation\b|\bbuilding fa[cç]ade|"
      r"\bbridge deck\b|\bgirder\b|\bwind[- ]?induced vibration of (?:a )?(?:building|bridge)",
      "A341: WIND ENGINEERING for civil structures runs in wind tunnels, computes "
      "aerodynamic characteristics and reports crosswind effects. 'Wind Tunnel Studies "
-     "On Tapered Tall Building With Aerodynamic Modification' reached the kept set"),
+     "On Tapered Tall Building With Aerodynamic Modification' reached the kept set",
+     "civil-structures"),
     # ---- A342, the Boeing X-45. THE CONTAMINANT FAMILIES OF A `unmanned` ANCHOR.
     #      The civil small-aircraft literature is now vastly larger than the combat
     #      one, so a gate anchored on `unmanned` admits it wholesale. The cut is by
@@ -776,7 +787,8 @@ NOISE_PATTERNS = [
      "`unmanned` anchor, being hyperspectral imaging for precision agriculture, flood "
      "monitoring, forest fire prevention and heritage documentation. The cut is by "
      "application and not by platform, so that cooperative-control work demonstrated on "
-     "the same airframes survives"),
+     "the same airframes survives",
+     "remote-sensing"),
     (r"\bcellular\b|blockchain|\b5G\b|\b6G\b|internet of things|\bIoT\b|"
      r"non[- ]terrestrial network|base station|spectrum (?:sharing|allocation)|edge computing",
      "A342: THE AIRCRAFT AS A TELECOMMUNICATIONS NODE rather than as an aircraft. "
@@ -886,7 +898,8 @@ NOISE_PATTERNS = [
      r"\bwave (?:forces|spectra|shoaling)\b|\bbuoy\b",
      "A341: the MARINE pattern added earlier is anchored on ship and vessel and does not "
      "catch OCEAN. 'Deep Ocean Unmanned Vehicle Program' entered through the unmanned "
-     "anchor and 'TABLES OF THE STATISTICAL DISTRIBUTION OF OCEAN WAVE FORCES' through drag"),
+     "anchor and 'TABLES OF THE STATISTICAL DISTRIBUTION OF OCEAN WAVE FORCES' through drag",
+     "marine"),
     (r"\bindex of thermal stress\b|\bhot-weather\b|\bheat strain\b|\bhypoxia\b|"
      r"\bacceleration tolerance\b|\bg-induced loss\b",
      "A341: AEROMEDICAL research is about the crew rather than the aeroplane and shares "
@@ -897,7 +910,8 @@ NOISE_PATTERNS = [
      "A341: RAILWAY CROSSWIND aerodynamics is a real field using the aerodynamic "
      "vocabulary. 'Railway applications. Railway rolling stock power and control "
      "cables' reached the kept set. Note that SHOCK TRAIN is a scramjet isolator term "
-     "and must survive, which is why the pattern does not contain a bare 'train'"),
+     "and must survive, which is why the pattern does not contain a bare 'train'",
+     "surface-transport"),
 ]
 
 # A PATTERN MAY CARRY A TAG, AND A TAGGED PATTERN IS ONE WHOSE SUBJECT IS SOMEBODY

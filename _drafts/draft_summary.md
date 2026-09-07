@@ -17,6 +17,74 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Gulfstream X-54 A351 2025-11-29
+
+`x_planes_gulfstream_x54.markdown`, A351, editorial date 2025-11-29, series `x_planes` index 55 of 72.
+
+**6,745 lines, 11 display equations, 3,159 reference definitions, 39,473 words after the draft pass.**
+**DRAFT PASS ONLY, the first of four.** Committed and **NOT pushed**, which is what the draft pass
+asks for. **Not published**, and publication of the series has never been authorised.
+**Designation-anomaly class**, and the third such article after the X-39 and the X-52, but different
+from both because this number was allocated to a real contractor with a real sponsor and a real
+mission statement, and then nothing was built.
+
+**THE REGISTRY ENTRY IS THE ARTICLE AND ITS UNIQUENESS IS MEASURED RATHER THAN ASSERTED.** The X-54A
+was allocated on 5 May 2008 to Gulfstream Aerospace, sponsored by NASA, with two Rolls-Royce Tay 651
+engines and a mission stated as generating relevant ground sonic boom signatures **in support of NASA
+and a regulatory change process**. **Of the 510 designations allocated between August 1998 and November
+2025, exactly one mission statement contains the word `regulatory`**, and `certification`, `rulemaking`
+and `policy` appear in none of them.
+
+**THE FIRST OPENING WAS AN IMPRESSION AND IT WAS FALSE.** It claimed every other aeroplane in the
+series was designated to fly. **The X-6, the X-20, the X-30 and the X-33 all have articles here and
+none flew in the form its designation names.** An impression was replaced by a count.
+
+**THE CENTRAL COMPUTATION IS ONE THE SOURCE SET OUT AND DID NOT PERFORM.** The Quiet Spike flight test
+report explains that no ground signature was attempted because the aeroplane's own shocks would
+overtake the spike's shocklets **within a short distance below the flight path**, which is the case for
+building the X-54 written by the people who would have built it, two years before the number was
+allocated. **Weak-shock theory turns that into a number.** The coalescence distance is 1.73 kilometres
+at the weakest shock difference in the plausible range and 0.35 kilometres at a typical one, against
+13,716 metres of air below the test altitude, so **the shaped signature is destroyed in the first 12.6
+percent of its journey at best and the first 2.5 percent typically**. The conclusion survives an order
+of magnitude of uncertainty, and the plane-wave and fixed-separation limitations are both stated.
+
+**THE SWEEP STORE PREDICTED WRONG AND THE PREDICTION WAS WRITTEN DOWN BEFORE THE MEASUREMENT.** The
+harvest script said an aeronautical subject would need no tag switched off. **Thirteen families had to
+be.** Fully armed the store dropped 375 records and the gate then kept 2,485; with thirteen off it
+dropped 147 and the gate kept 2,577, so **228 returned and 92 reached the corpus**, among them
+`Underwater measurements of a sonic boom` and a citation of the 1976 standard atmosphere. **The store
+is about aeroplanes and this article is about a noise.** Nine tag families were added, taking the store
+from six tags to fifteen across 130 patterns, and `ramjet` is deliberately left armed with its residual
+cost of 28 records reported.
+
+**A SECOND STORE PATTERN COVERED AN ALREADY-TAGGED FAMILY AND STAYED ARMED**, so the wind-turbine
+community-noise literature was still being deleted after the `wind-energy` tag was applied. **That is
+the failure `homonyms.TAGS` exists to prevent, met from a direction the mechanism does not cover.**
+
+**A FALSE FINDING WAS CAUGHT BEFORE IT SHIPPED.** On the main sweep, Mach cutoff measured 17 records
+against 2,627 while low-boom shaping measured 283, and the article was going to report that the
+mechanism which changed the rule is less studied than the one that did not. **A supplementary sweep
+returned 87 and the contrast evaporated.**
+
+**FOUR INSTRUMENTS FAILED AND THREE FAILED IN THE DANGEROUS DIRECTION**, being a `str.replace` that
+matched nothing and reported success, a number verifier that discarded half the article and reported a
+present number missing, a paragraph-opening check that let a decimal through, and a probe whose field
+wording was narrower than its plain wording. **A new checker compares every prose citation label to the
+title of its target and found one mismatch nothing else here would have seen.** One curated DOI was
+also wrong and the identifier check caught it before assembly.
+
+**Two conclusions remain thin and the article says so**, being that a shaped nose on an ordinary
+aeroplane cannot deliver a shaped ground signature at 41 records, and that the rule is the deliverable
+at 57.
+
+**The stub-isolated production build succeeded in 92 seconds with no Liquid error, against the exact
+bytes committed**, the checksum having been matched against the stub copy before the build started and
+against the draft after it finished. **The rendered audit reports no findings across 90 pages.** Source
+and rendered display-equation counts agree at **11**, with **zero raw dollar pairs leaking**, zero
+unresolved reference brackets, zero unexpanded slots and zero unrendered Liquid.
+
+
 ## X-Planes Boeing X-53 Active Aeroelastic Wing A350 2025-11-28
 
 `x_planes_boeing_x53_active_aeroelastic_wing.markdown`, A350, editorial date 2025-11-28, series

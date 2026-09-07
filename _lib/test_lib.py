@@ -1882,6 +1882,81 @@ def t_homonym_a349_patterns_do_not_delete_their_own_subject():
         assert homonyms.noise_hit(keep, allow=("medicine",)) is None, keep
 
 
+def t_homonym_a351_tags_cover_every_pattern_in_their_family():
+    """A351: A TAG SWITCHES OFF ONE PATTERN AND A FAMILY CAN BE SPREAD ACROSS SEVERAL.
+
+    **This is the failure `TAGS` exists to prevent, met from a direction the mechanism
+    does not cover.** A351's subject is a sonic boom and the people who hear it, so it
+    switched off the wind-energy family to recover the wind-turbine community-noise
+    literature, which is exposure-response methodology and not contamination. **The
+    literature was still being deleted afterwards**, because the store holds TWO entries
+    matching wind turbines, one added by A341 and one by A347, and only the first
+    carried the tag.
+
+    It was found by measuring the residual and not by reading the store, which is why
+    this test asserts on TITLES rather than on the shape of the pattern list.
+    """
+    for tag in ("meteorology", "geophysics", "surface-transport", "marine",
+                "wind-energy", "civil-structures", "environmental-assessment",
+                "nomenclature", "remote-sensing"):
+        assert tag in homonyms.TAGS, tag
+
+    A351 = ("civil-structures", "environmental-assessment", "geophysics", "hypersonics",
+            "marine", "medicine", "meteorology", "missiles", "nomenclature",
+            "remote-sensing", "surface-transport", "teaching", "wind-energy")
+
+    # EVERY ONE OF THESE WAS DELETED BY THE ARMED STORE AND EVERY ONE IS ON SUBJECT.
+    #
+    # **EACH IS ASSERTED ARMED FIRST.** Two titles in the first version of this test were
+    # never deleted by their TITLE at all, having been removed through their VENUE, so
+    # those two assertions passed for the wrong reason. A test that would pass with the
+    # fix reverted is not a test, and the guard below is the only thing that catches it.
+    for title in [
+        "Underwater measurements of a sonic boom",
+        "Three-dimensional underwater sound pressure field due to sonic boom",
+        "Meteorologically Induced Variability of Sonic Boom of a Supersonic Aircraft "
+        "in Cruising or Acceleration Phase",
+        "A methodology for the prediction of the sonic boom in tunnels of high-speed "
+        "trains",
+        "Determination of Aircraft Sonic Boom Noise Penetration into Seas, Bays, and "
+        "Lakes for Environmental Assessment",
+        "EFFECT OF SONIC BOOM FROM AIRCRAFT ON WILDLIFE AND ANIMAL HUSBANDRY",
+        "Effects of Meteorological Variability on Sonic Boom Propagation from "
+        "Hypersonic Aircraft",
+        # THE TWO-PATTERN CASE. Tagging one wind entry left the other armed.
+        "Perception and annoyance due to wind turbine noise, a dose-response "
+        "relationship",
+        "A comparison between exposure-response relationships for wind turbine "
+        "annoyance and annoyance due to other noise sources",
+    ]:
+        assert homonyms.noise_hit(title) is not None, f"vacuous, never armed: {title}"
+        assert homonyms.noise_hit(title, allow=A351) is None, title
+
+    # THE VENUE PATH, WHICH IS HOW THE GEOPHYSICS FAMILY ACTUALLY DELETED THE
+    # ATMOSPHERE LITERATURE. `The Leading Edge` is the masthead of the Society of
+    # Exploration Geophysicists, recorded by A350 for a leading-edge flap sweep, and it
+    # took two citations of the standard atmosphere with it.
+    venued = {
+        "u1": {"title": "Standard Atmospheric Profiles",
+               "venue": "The Leading Edge Digital Edition"},
+        "u2": {"title": "Characterization of absorption and non-linear effects in "
+                        "infrasound propagation using an augmented Burgers equation",
+               "venue": "SEG Technical Program Expanded Abstracts"},
+    }
+    _, dropped = homonyms.filter_records(venued)
+    assert set(dropped) == {"u1", "u2"}, f"vacuous venue case: {dropped}"
+    _, dropped = homonyms.filter_records(venued, allow=A351)
+    assert not dropped, dropped
+
+    # AND THE FAMILIES A351 DELIBERATELY LEFT ARMED MUST STAY ARMED.
+    assert homonyms.noise_hit("Supersonic combustion ramjet inlet buzz",
+                              allow=A351) is not None
+    # Switching these off must not disarm a family no tag names.
+    assert homonyms.noise_hit(
+        "Aerodynamic Optimization of the SRV2 Radial Compressor Using an "
+        "Adjoint-Based Optimization Method", allow=A351) is not None
+
+
 def t_homonym_unknown_tag_raises_rather_than_failing_open():
     """A typo in an allow list must not silently leave a pattern armed.
 

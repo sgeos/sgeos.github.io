@@ -9,426 +9,80 @@ Current task state and verification log. This file is the shared source of truth
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
-**Status**: **A297 through A348 are drafted with all four passes complete on every one, committed and
-PUSHED. A349, X-52, the Designation Refused, has completed ALL FOUR PASSES and is committed and
-PUSHED. A350, Boeing X-53 Active Aeroelastic Wing, has completed ALL FOUR PASSES and is committed
-and PUSHED. None published, and publication
-has never been authorised.**
-Fifty-four of seventy-two drafted. None published, and publication has never been authorised.
-The next new article is **A351**, Gulfstream X-54, editorial date 2025-11-29, series index 55.
-**Eighteen articles remain.**
-Report primaries finished at **1,301 of 5,976, being 21.8 percent**, up from 14.2 at the draft pass.
-
-**THE BOOK-IDENTIFIER REPAIR FOR A342 THROUGH A346 IS DONE.** Twelve anchors and sixteen citations
-replaced, every one confirmed on title AND on author before it was written. The corpus now measures
-**299 of 300 checkable book citations correct**, against 283 of 300 before the repair.
-
-**THE INSTRUMENT WAS WRONG AND WOULD HAVE REWRITTEN CORRECT CITATIONS.** `_lib/booklinks.py` read
-`openlibrary.org/works/<key>.json`, which returns **HTTP 500 for records that plainly exist**.
-`OL17855977W` is Raymer's `Aircraft design, a conceptual approach` and `OL5220705W` is Wooldridge's
-`Winged Wonders`, and both returned `Internal Error` six times out of six while other keys returned
-200 every time. **A NONEXISTENT KEY RETURNS 500 AS WELL**, so that endpoint cannot separate a wrong
-key from a record that will not serve, and the module collapsed both into `None` and called both a
-mismatch. **The first measurement of this repair was therefore garbage and was discarded.** The
-oracle is now the search index, which answers with a title AND an author for a real key and with
-nothing for a bogus one. `resolve` reports three states and `check` reports four, so
-`could not be determined` can never be read as `wrong`. **That is the third time this corpus has paid
-for the same lesson**, after A347's local SSL error nearly condemned 1,051 citations and A348's
-transient book mismatch. `_lib/tests` are 102 of 102.
-
-**ONE DEFECT WAS FOUND OUTSIDE THE REPAIR'S SCOPE AND LEFT FOR THE PILOT.** A324's `book_jenkins`
-label reads `Administration, National Aeronautics and Space, Jenkins, Dennis R...`, the repository's
-author field copied verbatim with its ellipsis, so the article's own label swallowed the title. **The
-key is correct.** It is a label defect in an article that has completed all four passes and is not
-part of A342 through A346.
-
-**A SUBSTANTIAL FRACTION OF OPENLIBRARY WORK PAGES CURRENTLY RETURN INTERNAL ERROR TO A READER**, and
-this is not a property of the repair. Of the 22 book URLs in the five repaired drafts, four returned
-500 on two consecutive serial requests, and the condition also hits keys A347 shipped and the pilot
-already approved, namely Schlichting at `OL11833044W` and Bramwell at `OL16987916W`. **No key was
-changed to chase this**, because selecting an identifier against a transient server fault is the
-error this whole task was spent avoiding.
-
-**A350's PUBLICATION REVIEW FOUND TWO DEFECTS BY READING THE OPENING AGAINST THE CONCLUSION, WHICH IS
-NOW SIX CONSECUTIVE ARTICLES.** The opening said **It worked**, a claim the body spends three sections
-qualifying, and it now says **It rolled, and it never reached the condition it was named for**, with
-both halves spelled out immediately. **The conclusion predated three sections added in the two later
-passes**, on the actuator overload arithmetic, on the stiffness-to-mass proportionality and on the
-ratio in which stiffness cancels, and mentioned none of them. All three are in it now.
-
-**EIGHT CONCLUSIONS WERE PROBED AND THE THREE THIN ONES ARE THE THREE THAT MAKE THIS AEROPLANE
-INTERESTING.** The phenomenon it is named for, the effector it used instead, and the constraint that
-dominated its flight test. **None was thin because the probe was badly worded**, which is the first
-thing this pass checked, having watched A349 lose two of three thin conclusions to its own vocabulary.
-
-**ONE WAS REPHRASED AND HARVESTED FOR AND THE TWO MOVES ARE REPORTED SEPARATELY.** The leading-edge
-device is enormously written about as a high-lift device and barely at all as a roll effector, and the
-second is the whole of what the X-53 did with it. **Rewording roughly doubled the shelf from 34 to 58
-and a sweep roughly doubled it again to 145**, with 1,569 fresh records of which
-310 passed the gate. **The other two are left where they are.**
-
-**A CONTAMINANT FAMILY WAS RECORDED THAT NO EARLIER ARTICLE COULD HAVE MET.** `The Leading Edge` is the
-masthead of the Society of Exploration Geophysicists, and the sweep returned its digital editions, a
-microseismic moment-tensor inversion and an interview with a geophysicist. **The phrase names the front
-of a wing and a geophysics journal, and the aeronautical sense is the rarer one in a general index.**
-Store 130 patterns.
-
-**A350's PRIMARY-REFERENCE REVIEW FOUND THE PROGRAMME'S OWN CITATION CHAIN READ AND NOT CITED.** The
-flight test report's bibliography names the papers the programme was built on, and the draft used the
-report's account of them without pointing at any of them. **Fourteen were added**, being the wind-tunnel
-programme's summaries and its flutter and simulation work, the applications to an F-16 derivative wing
-and to the Agile Falcon, the flight programme's own plan and analytical development, the strain-gauge
-load calibration, the deflection-based loads work, the high alpha research vehicle that supplied the
-wings, and the production support flight control computer that ran the research control laws. **Every
-identifier was verified before assembly.**
-
-**PRIMARIES 261 OF 3,307, BEING 7.9 PERCENT**, up from 247 of
-3,296 at 7.5. **The count splits into two kinds and the article now reports both**, since
-254 carry a report-server or defence-registry identifier that the
-corpus-wide measure can see and **7 are journal and conference papers named
-by hand** whose aeronautical-society identifiers it cannot distinguish. Named foundational sources stand
-at 39.
-
-**THE CLASSICAL LITERATURE THE SIZING SECTION LEANS ON HAD BEEN TWO REPORTS CITED ONCE EACH.** Two more
-were added and the article now states plainly that the literature sizing wings for rolling performance
-is older than the jet engine and was not superseded.
-
-**AN ANACHRONISM WAS CAUGHT IN THE PROSE READ.** The article had the Air Force Research Laboratory
-sponsoring a programme that ran from 1984, and **that laboratory was not formed until 1997**. The
-predecessor was the Flight Dynamics Laboratory of the Air Force Wright Aeronautical Laboratories, and
-the article now names it and dates the change.
-
-**A WAIT-ON-LOG MATCHED A PREVIOUS BUILD'S COMPLETION TOKEN**, because the log had not been truncated
-when the wait began, so the audit ran against a `_site` that had just been deleted. **A completion token
-is only evidence if the log is known to be fresh**, which is the same shape as A349's stale audit log
-and A350's self-matching process wait. **Three variants of one mistake in two articles.**
-
-**A350's EQUATION-DENSITY REVIEW TOOK 11 DISPLAY EQUATIONS TO 27, AND THE LARGEST FINDING CAME OUT OF
-A TABLE THE DRAFT HAD ONLY TABULATED.** The flight test report gives actuator force, horn arm and
-structural limit in adjacent columns, and force times arm is a moment in the same units as the limit.
-**The aileron actuator delivers 52,400 inch-pounds against a structural limit
-of 50,000**, which it exceeds by 4.8 percent. The trailing-edge flap exceeds its
-own by 4.4 percent and the inboard leading-edge flap's rotary actuator exceeds its
-negative limit by 38.7 percent. **Three of the four wing surfaces carry actuators
-strong enough to break their own structural limits**, and only the outboard leading-edge flap cannot.
-**That explains the whole flight-test caution regime**, the build-up in lateral stick, the real-time
-envelope display, the aural disengage tone and the test conductor's authority to terminate a manoeuvre.
-**The structure was protected by procedure and not by the actuator.**
-
-**THE MOTIVATION IS NOW A DERIVATION RATHER THAN A SENTENCE.** Bredt-Batho gives torsional rigidity
-linear in skin thickness and the skin mass is linear in the same thickness, so stiffness is
-proportional to mass and the reversal dynamic pressure with it. **Reversal margin is bought linearly in
-structural mass.**
-
-**AND DIVIDING THE TWO CLASSICAL LIMITS MAKES THE STIFFNESS CANCEL.** The ratio of reversal to
-divergence dynamic pressure depends only on the flap's lift and pitching moment and on where the
-elastic axis sits, so **stiffening a wing moves both limits together and changes neither's order**.
-
-**THE ROLL CRITERIA WERE TESTING ROLL RATE AND NOT ROLL DAMPING**, since with time constants of order
-a tenth of a second the exponential term in the bank response is negligible and time to bank is nearly
-angle over rate. The slowest measured constant beat its level 1 goal by two thirds again, and two of
-three fell below the fast guideline the programme wrote for itself.
-
-**THE SAME INSERTION BUG APPEARED THREE TIMES IN THIS PASS AND WAS CAUGHT THREE TIMES.** Each was an
-addition appended to a line that was already a complete paragraph, producing a full stop followed by a
-comma and, twice, an equation placed before the sentence it depends on. **A regex for that signature
-now runs over the assembled article.**
-
-**AN INLINED RELATION WAS CAUGHT BY THE ARTICLE'S OWN CHECKER**, the skin mass per unit span having
-been written inline while the rigidity beside it was displayed.
-
-**A350 IS A FULL-AIRCRAFT ARTICLE AND THE FIRST VEHICLE IN THREE.** The X-53 removed a fighter's wing
-stiffening on purpose and rolled the aeroplane by twisting the wing with its leading-edge flaps.
-**Aileron reversal is the keystone**, being the dynamic pressure at which a trailing-edge surface
-twists a flexible wing hard enough to cancel its own rolling moment, and the classical answer is
-torsional stiffness, and torsional stiffness is weight.
-
-**THE AEROPLANE NEVER REACHED THE CONDITION IT WAS NAMED FOR.** Two of the four host requirements did
-not survive, the external stores provision deleted outright and **the requirement to fly beyond
-reversal deleted after early flight tests showed it could not be met**. No full reversal was observed,
-the aileron rolling moment approaching zero and staying there. **The two test points the aeroplane
-could not reach are the only two above 1,400 pounds per square foot**, computed here from the standard
-atmosphere rather than read from a source, and the report attributes the shortfall to drag from the
-research instrumentation itself.
-
-**THE CLEAREST SHORTFALL IS IN THE REGION THE CONCEPT IS AIMED AT.** Time-to-bank met the level 1 goal
-at subsonic region I and supersonic region II and **failed to meet even the level 2 requirement at
-subsonic region III**, which is the regime where the trailing edge has gone to zero and the leading
-edge carries the whole roll.
-
-**A DERIVATION ERROR WAS CAUGHT IN THE PROSE READ.** The stated reversal dynamic pressure dropped a
-term the article's own moment balance produces. The full expression is given, then the textbook
-reduction, with the article saying which it uses.
-
-**TWO INVENTED OR MISATTRIBUTED CLAIMS WERE CAUGHT IN THE SAME READ.** The article had said the
-instrumentation added several hundred pounds, **which no source states**, and had attributed the
-performance shortfall to weight when the report attributes it to drag. Both corrected.
-
-**A BROKEN CURATED URL WAS CAUGHT BY THE SWEEP AND COST A BUILD.** `ref_harv` pointed at a Wikipedia
-title with an agency prefix that returns 404. **The build was killed rather than allowed to finish on a
-file about to change.**
-
-**THE SWEEP STORE NEEDED NO TAG, WHICH IS THE OPPOSITE OF A349.** It removed 419 of
-6,127 records and a read of the drops found them correct. **Report primaries
-247 of 3,296 at 7.5 percent** against 2.0 percent one article
-ago, because the measure works again when the subject is an aeroplane.
-
-**THE KEYSTONE LITERATURE IS THE SMALLEST CLUSTER AT 22 RECORDS AND THAT IS THE
-FINDING.** A probe found it at 32, a second sweep in every vocabulary the field has used moved it to
-43, and it is still the smallest. **Reversal was solved in the 1940s by adding stiffness and the
-literature closed.**
-
-**A349's PUBLICATION REVIEW FOUND TWO DEFECTS BY READING THE OPENING AGAINST THE CONCLUSION, WHICH IS
-NOW FIVE CONSECUTIVE ARTICLES.** The opening said the number was refused because of how it would
-**sound**. The registry says only possible confusion, and this article's own Epistemic State records
-that no document giving the reasoning has been seen. **The opening asserted as fact the channel the
-body argues for as inference.** Separately, **the conclusion predated the subsection the primary pass
-added**, so the article's sharpest comparison, that another naming authority publishes the measure, the
-comparison set and the thresholds, was missing from its own ending. Both repaired.
-
-**SEVEN CONCLUSIONS WERE PROBED AND THREE CAME BACK THIN, AND TWO OPENED ON REPHRASING ALONE.** Names
-refused before use stood at two records until the probe was allowed to say look-alike and sound-alike,
-then 203. Spoken against written confusability went 46 to 273. **A probe that names a concept in the
-author's words rather than the field's measures the author**, which this series has now paid for four
-times.
-
-**THE ONE THAT STAYED THIN WAS HARVESTED FOR AND IS STILL THIN.** The claim that a similarity judgement
-needs a stated threshold stands at 16 records. 2,201 were retrieved and
-304 passed the gate, **and what came back was mostly the general method literature of
-string similarity applied to road lines, toponyms, traffic signs, ontology alignment, protein surfaces,
-fuzzy sets and the confusability of quantum states.** Five further families went into the sweep store
-and the gate's generic similarity anchor now requires a naming or confusion context, **which also
-removed contaminants the main pool had carried since the draft pass**. The claim rests on a primary
-document and the article says so, following A342 at eleven, A347 at 65 and A348 at 34.
-
-**THE SOURCE BASE WAS REPORTING ONE SWEEP'S RETRIEVAL AGAINST THREE SWEEPS' GATE TOTAL.** It said 4,993
-retrieved and 2,337 gated, which cannot both be true once two later sweeps have fed the pool. **Now
-8,177 across three sweeps**, emitted rather than typed.
-
-**A BUILD WAS KILLED BECAUSE THE ARTICLE CHANGED AFTER IT STARTED.** The checksum caught it and the
-build was discarded rather than reported, which is A347's rule enforced instead of rediscovered.
-
-**THE SWEEP STORE STANDS AT 129 PATTERNS, 8 OF THEM RECORDED BY
-THIS ARTICLE.**
-
-**A349's PRIMARY-REFERENCE REVIEW FOUND THE ARTICLE'S CENTRAL CLAIM RESTING ON ITS OWN SURVEY.** The
-article said a drug regulator makes the same judgement the Air Force made, against published criteria,
-and cited nothing for it. **The Food and Drug Administration publishes every object the 2006 decision
-lacks**, and the guidance was read in full rather than described. The bands are a combined score of 70
-percent or more for a highly similar name pair, 55 to 69 percent for a moderately similar pair, and 54
-percent or less for low similarity, **and the 55 percent screening threshold is stated to rest on the
-validation work done on the algorithms.** **A WEB SUMMARY HAD GIVEN 50 PERCENT AND THE DOCUMENT GIVES
-55**, which is the reading-the-document lesson met a second time inside one article.
-
-**THE AVIATION SIDE GAINED A PRIMARY STUDY WITH A COUNT.** The United Kingdom authority's call sign
-confusion study rests on 482 reports filed by pilots and controllers, and the European briefing note
-that followed names the formats most likely to be confused. **Neither is referenced anywhere in any of
-the three issues of the designation instruction**, and that absence was verified by search across all
-three rather than asserted.
-
-**THE REPORT REGISTRIES WERE AIMED AT DIRECTLY AND DO NOT HOLD THIS SUBJECT.** A supplementary sweep
-retrieved 1,196 records the main harvest did not hold, 1,148 survived
-the sweep store, and **7 passed the subject gate**. The defence registry supplied
-1,158 of them and 2 of the survivors. **The gate and the store were
-the main harvest's, unrelaxed**, because a supplementary sweep that loosens either raises the primary
-fraction by admitting what the first sweep correctly refused. **That is a fact about the subject and
-not about the sweep.**
-
-**THE COUNT IS NOW REPORTED ALONGSIDE THE FRACTION**, which the genre document asks for and which
-matters more here than anywhere else in the series. Report primaries 42 of
-1,974 at 2.1 percent, still second-lowest behind A336's zero, and
-**9 curated sources are primary documents rather than descriptions of one**.
-
-**A349's EQUATION-DENSITY REVIEW TOOK 13 DISPLAY EQUATIONS TO 33**, and the subject being
-administrative rather than physical, the relations are set-theoretic, information-theoretic and metric.
-**The designation space gained an honest three-state partition**, allocated, marked not used, and
-available, because the instruction defines the first and third while the master list records the second
-and that is where the X-52 went along with C-16, C-42, C-43, C-44, P-6, F-19 and every thirteenth
-number.
-
-**THE CONFUSABILITY JUDGEMENT GAINED THE THREE MEASURES IT NEVER RECORDED.** Normalised edit distance
-0.75, longest common subsequence 0.75, bigram Dice two thirds, together with the decision rule that
-turns any of them into a refusal and the statement that the record supplies no measure, no threshold
-and no comparison set.
-
-**MEASURING THE SPOKEN FORMS OVERTURNED A CLAIM THE DRAFT HAD MADE.** The draft said that saying the
-designation aloud separates the two names. **It does the opposite.** Character similarity rises from
-0.75 written to about 0.846 spoken, because the shared numeral expands into two long words while the
-distinguishing letter stays one short syllable. **A relation computed rather than assumed inverted the
-prose that had named it**, which is the equation review working exactly as intended.
-
-**THE TWO DECISIONS ARE NOW IN THE SAME UNIT.** A listener who hears the design number without the
-mission letter carries `log2(o_k)` bits of residual uncertainty. **The F-35 approval raised that at 35
-from zero to one bit and the X-52A refusal held it at 52 at zero**, against the one bit the approval
-would have added. One office spent the bit in 2002 and withheld it in 2006.
-
-**TWO DEFECTS INTRODUCED BY THE PASS WERE CAUGHT BY THE PASS.** The edit-distance section reused `m`
-and `n`, which name the basic mission symbol and the design number two sections above, and they are now
-`l_a` and `l_b`. **A sentence claimed the X series consumed fifty-one numbers in forty-four years**,
-which is a figure carried across from an unrelated subtraction, and the rate was removed rather than
-repaired because its start date had not been established in this article.
-
-**A349 IS THE SECOND ARTICLE WRITTEN IN THE REDUCED ANOMALY ORDER AND ITS SUBJECT IS A REFUSAL RATHER
-THAN A GAP.** X-52A was requested in 2006, disapproved because of possible confusion with the B-52, and
-X-53A allocated instead. **The paperwork was done correctly and the answer was no**, which is a
-different anomaly from A336's X-39, where the answer was never asked for.
-
-**THE CENTRAL FINDING CAME FROM READING THE GOVERNING INSTRUCTION IN FULL RATHER THAN A DESCRIPTION OF
-IT.** The 14 April 2005 issue in force directs that the next available consecutive design number be
-assigned, **contains no authority to skip one and does not contain the word skip**. Its duplication
-check, its trademark search and its four levels of review all apply to the **popular name**, which the
-same document describes as aiding communications and media references, and not to the designation,
-which it calls official. **Its only written anti-confusion rule for a designator is that the series
-letters I and O are prohibited because they resemble the digits 1 and 0.** The 1994 issue says the
-same. **The 3 November 2020 issue adds one sentence at A2.1.6.1.2 granting AF/A8PE authority to skip a
-design number at discretion, with no criterion attached**, so the authority was absent for at least
-twenty-six years while the practice ran throughout them.
-
-**THE SAME OFFICE HAD MANUFACTURED THE SAME COLLISION FOUR YEARS EARLIER.** F-35 was approved on 5 June
-2002 by HQ USAF/XPPE, which became AF/A8PE on 1 February 2006, against a nomenclature-office
-recommendation of F-24A made on the ground that numbers are assigned consecutively. The number came
-from replacing the X of X-35 with an F at a press conference. **A cross-series numeric echo was
-desirable continuity in 2002 and a hazard in 2006, under one instruction that authorised neither.**
-
-**THE FAMILY CONTAINS AN ASYMMETRY THAT IS THE SHARPEST THING IN THE ARTICLE.** C-16, C-42, C-43, C-44,
-P-6, T-50, V-14 and F-19 were skipped or withdrawn over confusability, and C-16's reported reason names
-the mechanism as confusing the aircraft with the F-16 during the stress of high combat radio traffic.
-**But Q-7 and Q-8 were requests to renumber drones because they were ALREADY being confused with the
-unmodified aircraft they were built from, and both were refused in March 1954.** The system acted on
-possibility and declined to act on evidence.
-
-**THE SWEEP STORE IS AERONAUTICAL AND THIS IS THE FIRST ARTICLE IN THE SERIES WHOSE SUBJECT IS NOT AN
-AEROPLANE.** Applied untagged, the inherited store removed 310 records of
-which **188 were on subject**, including an intervention study on look-alike and
-sound-alike medication errors, the single most on-subject title in the harvest, and the readback and
-hearback literature. **3 tagged families covering 7 patterns
-are switched off by name** through A348's tag mechanism. `homonyms.TAGS` is now
-['interpreting', 'medicine', 'teaching', 'hypersonics', 'missiles', 'ramjet'] sorted, and the store stands at 124 patterns.
-
-**THE FILTER BUILT TO PROTECT THE SURVEY DELETED ITS SUBJECT.** Biological nomenclature reached the kept
-set, as it had for A336 and as component nomenclature had for A341, so a pattern was written to remove
-it for good. **Its first version anchored on `generic name`, which is the taxonomic term and is also the
-pharmacist's term for a nonproprietary drug name**, and on `taxonomy`, which is the general word for any
-classification. It deleted look-alike and sound-alike drug-name papers and a controller-to-controller
-communication taxonomy. **Only reading its own drops found it.** `_lib/tests` are 104 of 104, and the
-tag test was changed from pinning the whole tag list to asserting presence, because a test that fails
-when the store grows correctly trains its reader to edit it without reading it.
-
-**A FABRICATED REPORT IDENTIFIER WAS CAUGHT BEFORE ASSEMBLY**, written from a plausible title rather than
-looked up, which is the A347 defect exactly. **A SUPERLATIVE WAS CAUGHT IN THE DRAFT READ**, the article
-having claimed the lowest report-primary fraction in the series when A336 is lower at zero. The claim is
-now a computed rank. **Report primaries are 36 of 1,968, being
-1.8 percent, the second-lowest of 53**, and the two articles at the
-bottom of that ranking are the two whose subjects are administrative acts rather than aeroplanes.
-
-**THE STUB BUILD RECIPE WAS INCOMPLETE IN THE SCRIPT AND COMPLETE ONLY IN A348's MEMORY.** `make_stub.sh`
-excludes `vendor` and A348 symlinked it back by hand without recording the step, so A349's first build
-failed with every gem missing. **The symlink is now in the script.**
-
-**A348's PUBLICATION REVIEW FOUND A PRESENCE CHECK PASSING ON A COINCIDENCE.** Adding the digits 12
-and 18 to the number checker made a claim pass on `18.8`, on `18,500` and on a backlink. **A check
-that goes green without checking anything is the A342 class**, and the checker now verifies
-spelled-out ordinals as words.
-
-**A348's PRIMARY PASS FOUND TWO SUBJECTS THAT DO NOT MOVE WHEN AIMED AT.** Across 3,660 repository
-records, eighteen touch endothermic fuels and five touch engine cycle analysis. **That was verified
-against what the repositories returned rather than inferred from the pool**, and both of the article's
-arguments resting on them are carried by a small named set.
-
-**A348 IS THE FIRST ARTICLE TO SWITCH SWEEP-STORE PATTERNS OFF.** A346's `ramjet` and A347's
-`hypersonics` and `missiles` patterns would have deleted 48.1 percent of its pool, and both carried a
-written warning against exactly that reuse. **`homonyms.TAGS` now makes the honouring a mechanism**,
-with an unknown tag raising rather than failing open.
-Report primaries finished at **1,873 of 7,872, being 23.8 percent**, up from 13.6 at the draft pass
-and past A346's 23.0.
-
-**A347's PUBLICATION REVIEW FOUND THE ARTICLE'S CONCLUSION CARRYING A NUMBER NOTHING COMPUTED.** The
-disc loading was compared to a Black Hawk's in the closing section and nowhere else, which is where a
-wrong number hides. **Reading the opening against the conclusion is done first for that reason** and
-it has now found a defect in three consecutive articles.
-
-**THE PRIMARY PASS CORRECTED THE ARTICLE'S HISTORY.** Hughes proposed a tip-jet driven rotor/wing in
-1965 and flight-proved the propulsion on the XV-9A in 1964, so the X-50A is the third attempt at a
-stopped rotor and not the second. **That was found in the Defense Technical Information Center and
-appears in no secondary account of the X-50 consulted.**
-**The X-50 has no duct**, so A346's ducted-propulsor family was dropped entire and its rotor family
-carried forward, which is the gate discipline `_lib/gate.py` records running in both directions.
-
-**A347's KEYSTONE IS THAT CONVERSION SAFETY AND HOVER DANGER ARE THE SAME DESIGN DECISION.** A rotor
-can be stopped in flight only if it is unloaded first, so the canard and horizontal tail must carry
-the whole aircraft at conversion speed, so they must be large, so surfaces spanning 0.742 and 0.675
-of the rotor diameter sit beneath a rotor loaded to 1.34 times the X-49A's disc loading. **Both
-airframes were lost at low speed and neither ever attempted a conversion.**
-
-**NINE OF TEN BOOK IDENTIFIERS INHERITED FROM A346 POINTED AT UNRELATED WORKS**, `Leishman,
-Principles of helicopter aerodynamics` resolving to a market outlook for dark rum in Japan. Every
-existing check passed, because a citation whose text is right and whose target is wrong is invisible
-to any check that does not read the target. `_lib/booklinks.py` is the instrument. **Nineteen
-mismatches were measured across the corpus, all in unpublished X-Planes drafts and none in a
-published post.** A345, A342, A343 and A344 still carry wrong keys and are a separate unit of work.
-
-**A343 is the first aeroplane in this series with no published specification at all.** The specialist
-designation directory prints specification tables for the X-45A and X-45C and none for the X-46A,
-saying Boeing disclosed only minimal information, and no airframe was ever built. **So the article
-sizes the REQUIREMENT rather than describing a vehicle**, which inverts the usual procedure. **The
-figures that circulate for the X-46 are the UCAV-N requirement numbers exactly**, being a four
-thousand pound payload and a six hundred and fifty nautical mile radius, and the distinction between
-what was demanded and what was achieved collapses silently whenever nothing was achieved.
-
-**These counts were re-measured against the working tree on 2026-09-02 rather than carried forward.**
-This block is rewritten from measurement at the end of every pass, because it has gone
-self-contradictory seven times by being edited incrementally, and **a resume channel that disagrees
-with itself is worse than one that is merely out of date**.
-
-**THE SEVENTH IS WHY THIS PARAGRAPH IS NO LONGER THE ONLY SAFEGUARD.** On 2026-09-02 this block
-stated forty-eight and forty-seven on consecutive lines, one left behind by an edit that added the
-corrected count without removing its predecessor, and it also named A342 as the last article with all
-four passes complete when A343 and A344 were finished and pushed. **The warning in this very paragraph
-sat eleven lines below the contradiction and did not prevent it, because a warning addressed to a
-reader is not a check.** `_verify.py` now recomputes the count from the drafts on disk, reporting
-`progress-stale` when a claim disagrees with the tree and `progress-contradiction` when a current
-channel states two different counts.
-
-**A342, Boeing X-45, completed its publication review on 2026-08-31.** The review's own target was the
-one A340 and A341 had both identified, which is that a survey assembled around an article's topics can
-be silent on the article's conclusions. **Eight claims were taken from the closing sections and seven
-measured thin. Two closed decisively**, being the lift to drag ratio of a tailless aeroplane at 16
-records to 201 and the flight test methodology behind the software-block claim at 32 to 87.
-**Five did not close, and the reason is measured rather than assumed**: a harvest aimed at how many
-vehicles one operator can hold returned 1,446 records and almost none were about it, because the words
-that name the subject belong to a far larger literature about photogrammetry and path planning.
-
-**The article now states the limit of its own most exposed claim.** A fifth entry was added to Where
-the Framing Breaks Down recording that the assertion about twenty years rests on eleven records, that
-four of those eleven are the organisational sense of span of control, and that a bibliographic survey
-is a poor instrument for a negative claim.
-
-**A defect class was found in which every automated check passed.** The paragraph interpreting the
-survey was stale in all six of its statistics while the Source Base stated the corrected values, so the
-article contradicted itself. **The number verifier confirmed the stale figure**, because it checked for
-the presence of a string, and a presence check goes green precisely when a number goes stale. Every
-survey statistic is now recomputed from the reference data by a separate checker. See
-`VERIFICATION_TRAPS.md`, which gained three entries from this pass.
-
-**Two fixes went into the library rather than into the article.** `refs.display` normalised
-all-capitals author names and left its no-author branch shouting, which is why the 2026-08-14 audit had
-to repair 3,564 titles by hand and why A342 harvested four more. `_lib/tests` are 83 of 83. The shared
-sweep store gained six noise families that A343 through A345 will need, being five consequences of the
-word unmanned and the semiconductor packaging sense of fan-out.
-
-**A series-wide audit and back-sweep ran on 2026-08-14 and is complete.** It was not an article pass
-and changed no article's argument, references or counts. It verified the sequence properties by
-measurement, fixed nine caps-emphasis spans across A316, A327, A332 and A340, and normalised 3,564
-citation titles out of all capitals across 26 articles. **It also found that its own first instrument
-was wrong**, having read A336's deliberate archival-science survey as the worst gate escape in the
-series when the article states in prose that its subject is not an aircraft. **Genuine gate escapes
-exist and are rare.** The audit declined to strip them because a survey states its own counts in prose
-and removal desynchronises them. **A342's publication review established the exception**, which is that
-removal is safe inside a pass that regenerates the survey and every count in it, and fifty were removed
-in that window with the anchors the argument cites protected by name. **The re-harvest of escaped
-clusters in A323, A326, A328, A329 and A330 has still not been done.**
-
-**All forty-six drafts remain in `_drafts/`.** Forty-five of them cite another draft in the set through
+**Status**: **A297 through A350 are drafted with all four passes complete on every one, committed and
+PUSHED. A351, Gulfstream X-54, has completed the DRAFT PASS ONLY and is committed and NOT pushed**,
+which is what the draft pass asks for. **Fifty-five of seventy-two drafted. None published, and
+publication has never been authorised. Seventeen articles remain.**
+The next prompt in the rhythm is A351's **equation-density review**.
+
+**A351's SUBJECT IS AN AEROPLANE THAT WAS NEVER BUILT, AND ITS REGISTRY ENTRY IS THE ARTICLE.** The
+X-54A was allocated on 5 May 2008 to Gulfstream Aerospace, sponsored by NASA, with the mission stated
+as generating relevant ground sonic boom signatures `in support of NASA and a regulatory change
+process`. **Of the 510 designations allocated between August 1998 and November 2025, exactly one
+mission statement contains the word `regulatory`**, and `certification`, `rulemaking` and `policy`
+appear in none. That is measured by `registry_scan.py` and asserted by `assemble.py`, because it is the
+first sentence a reader meets. **The first version of that opening was an impression and was false**,
+having claimed every other aeroplane in the series was designated to fly when the X-6, X-20, X-30 and
+X-33 all have articles here and none flew as designated.
+
+**THE CENTRAL COMPUTATION IS ONE THE SOURCE SET OUT AND DID NOT PERFORM.** The Quiet Spike flight test
+report states that a ground signature was not attempted because the aeroplane's own shocks would
+overtake the spike's shocklets `within a short distance below the flight path`. **That is a quantity
+and weak-shock theory gives it.** The coalescence distance is 1.73 kilometres at the weakest shock
+difference in the plausible range and 0.35 kilometres at a typical one, against 13,716 metres of air
+below the test altitude, so **the shaped signature is destroyed in the first 12.6 percent of its
+journey at best and the first 2.5 percent typically**. The conclusion survives an order of magnitude of
+uncertainty and both limitations of the estimate are stated in the article.
+
+**THE SWEEP STORE PREDICTED WRONG AND THE PREDICTION WAS WRITTEN DOWN BEFORE THE MEASUREMENT.** The
+harvest script said an aeronautical subject would need no tag. **Thirteen families had to be switched
+off.** Fully armed the store dropped 375 records and the gate kept 2,485; with thirteen off it dropped
+147 and the gate kept 2,577, so 228 returned and 92 reached the corpus. Deleted records included
+`Underwater measurements of a sonic boom` and a citation of the 1976 standard atmosphere. **The store
+is about aeroplanes and this article is about a noise**, and community-noise research is one field in
+which railways, roads and wind turbines are cases beside aircraft rather than contaminants.
+**Nine tag families were added, taking the store from six tags to fifteen across 130 patterns.**
+
+**A SECOND PATTERN COVERED AN ALREADY-TAGGED FAMILY AND STAYED ARMED.** The wind-turbine
+community-noise literature was still being deleted after the `wind-energy` tag was applied, because two
+store entries match that family and only one carried the tag. **That is the failure `homonyms.TAGS`
+exists to prevent, met from a direction the mechanism does not cover**, since a tag switches off one
+pattern while a family can be spread across several. Found by measuring the residual, not by reading.
+
+**A FALSE FINDING WAS CAUGHT BEFORE IT SHIPPED.** On the main sweep Mach cutoff measured 17 records
+against 2,627 while low-boom shaping measured 283, and the article was going to report that the
+mechanism which changed the rule is less studied than the one that did not. **A supplementary sweep
+returned 87 and the contrast evaporated.** Rewording had moved it 24 to 17, so the vocabulary did
+nothing and the harvest did all of it.
+
+**FOUR INSTRUMENTS FAILED AND THREE FAILED IN THE DANGEROUS DIRECTION.** A `str.replace` matched
+nothing and reported success, so one of four gate patches silently did not apply. The number verifier
+cut the article at the survey heading, discarded everything after it and reported a present number
+missing. The paragraph-opening check used a lookahead that let a decimal through. The indoor-response
+probe's field wording was narrower than its plain wording and reported a shelf that shrank on
+restatement. **Every substitution in this article's scripts now asserts its match count.**
+
+**AND THE TEST WRITTEN TO LOCK THE STORE FIX IN PLACE PASSED FOR THE WRONG REASON.** Two of its
+eleven titles were never deleted by their title, having been removed through their venue, so those
+assertions would have passed with the fix reverted. **The test now asserts each title is armed before
+asserting the tag disarms it**, and the venue cases go through `filter_records`. Tests 105 of 105.
+
+**A NEW CHECKER COMPARES EVERY PROSE CITATION LABEL TO THE TITLE OF ITS TARGET**, since survey labels
+are emitted and cannot drift while body labels are typed. **It found one mismatch that nothing else in
+this repository would have seen.** Separately, the identifier check caught one wrong curated DOI before
+assembly, pointing at a paper on thermals and cloud modelling.
+
+**A351 COUNTS.** 6,745 lines, 39,473 words, 11 display equations, 3,159 reference definitions, 3,072
+research records, **318 report primaries at 10.4 percent**, 42 curated sources with every identifier
+verified, 7 books resolved on the search index, 8,289 records retrieved across two sweeps, 3,210
+through the gate, 11 clusters with a residual of 57.
+
+**A324's `book_jenkins` LABEL REMAINS THE ONE LIVE REPAIR**, unchanged. The key is correct and the
+label swallowed the title. **The OpenLibrary work pages returning Internal Error to a reader** is also
+unchanged, and this article's book keys were resolved against the search index rather than that
+endpoint.
+
+**All fifty-five drafts remain in `_drafts/`.** Fifty-four of them cite another draft in the set through
 `post_url` and none of those targets exists in `_posts/`, so **the set publishes in order or together**,
 and publishing any one alone fails the build.
 
