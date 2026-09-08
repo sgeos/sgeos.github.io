@@ -5,138 +5,127 @@
 ## Last Updated
 
 **Date**: 2026-09-07
-**Task**: **A351, X-Planes: Gulfstream X-54, primary-reference review. The third of four.**
-Committed and **not pushed**, which is what this pass asks for. **Not published**, and publication of
-the series still not authorised. **Fifty-five of seventy-two drafted.**
-
-**Report primaries 318 to 380, being 10.4 percent to 12.1. Curated sources forty-two to eighty-four.**
+**Task**: **A351, X-Planes: Gulfstream X-54, publication review. The fourth and last of four.**
+Committed and **PUSHED**. **Not published**, and publication of the series still not authorised.
+**Fifty-five of seventy-two drafted.**
 
 ---
 
-## The Largest Gain Came From Bibliographies, Not From Sweeping
+## Reading the Opening Against the Conclusion Found a Defect, Which Is Now Seven Consecutive Articles
 
-**Sixteen of the article's thirty-one display equations carried no citation at all**, which the pass
-began by measuring rather than assuming. The equation review had made a dozen subjects load-bearing
-that the draft pass had correctly treated as background, and **the four-pass rhythm has no step that
-re-asks whether an absent subject has become load-bearing.** This audit is that step.
+**The conclusion predated the primary pass and did not mention its central finding.** That pass had
+established that Mach cutoff was measured in flight and published in 1971, two years before the
+prohibition it now helps displace and fifty-four before the order to repeal it. **The conclusion still
+described the repeal as resting on a technique the article treated as modern.**
 
-**Three primary documents carry bibliographies naming exactly what those equations needed.** The Quiet
-Spike flight test report, the shaped-boom demonstration paper and the Mach cutoff investigation each
-list the work they were built on, and this article had been using their ACCOUNTS of those documents
-rather than the documents. **This is the A350 finding, one article later, and it doubled the curated
-set.**
-
-- **The Gulfstream design chain from 2003 to 2009.** The company's supersonic vehicle studies, its
-  non-axisymmetric shaping method, Henne's published case for the small supersonic civil aircraft, the
-  extendable-spike patent of March 2004, the prototype design and validation, the flight results, the
-  aerodynamic effect of a thirty-foot boom on the host, and the propagation work it went on publishing
-  after the aeroplane it wanted was not built.
-- **The classical literature from 1956 to 1979.** Whitham on weak shock propagation, Jones on lower
-  bounds, Hayes with the stratified-atmosphere propagation code, McLean on nonasymptotic effects,
-  Carlson on transport design, Darden in real rather than isothermal atmospheres, and the wind-tunnel
-  study that validated the minimisation concept before anybody flew it.
-- **The human-response experiments the loudness procedure was calibrated against**, including booms of
-  different shapes and rise times, booms against aircraft flyovers, and simulated booms in people's
-  own homes.
-- **The standard atmosphere the article computes in**, which is the A341 lesson document.
+It now says the aeroplane **was overtaken not by a newer idea but by an older one**, which had been
+sitting in the same agency's report server the whole time and needed no airframe to make its case.
+**The opening carries the same fact in one clause and does not outrun it.**
 
 ---
 
-## And a Finding That Changed the Shape of the Story
+## Six Prose Defects the Read Found, and Four Are Referents the Later Passes Broke
 
-**Mach cutoff was measured in flight and published in 1971.** The article had it as the modern
-alternative, demonstrated by the space agency in 2012. **It is two years older than the prohibition it
-now helps displace and fifty-four years older than the order to repeal it.**
+**An insertion does not only risk a run-on. It breaks what the next paragraph points at.**
 
-**That came out of a bibliography and not out of a sweep.** It turns the closing argument from a new
-technique overtaking an old aeroplane into an old technique outlasting one.
-
----
-
-## The Equation Pass Had Shipped an Anachronism
-
-**A regulatory limit of 0.11 pounds per square foot went into the article dated November 2025.** It is
-the interim limit in a notice of proposed rulemaking published in **July 2026**, seven months after
-the editorial date, and the prose promised it would `later appear` in an article that stops before it
-does.
-
-**An anachronism hides in a number as easily as in a sponsor's name**, which is the A350 lesson met
-from a new direction. The passage is re-anchored on Concorde, which boomed throughout the period the
-article covers, at roughly two pounds per square foot, 133.6 decibels peak and one part in 1,060 of
-ambient. **No pressure target for a shaped signature is quoted, because a low-boom goal is stated in
-perceived level and the two are not interconvertible.**
-
-**`verify_numbers.py` now refuses any year in the prose after the dateline**, and it was proved
-non-vacuous by injecting one.
+- **`The last of these is the one that decides loudness`** pointed at a list of three that the
+  equation pass's Snell's law paragraph had come between. It now names absorption.
+- **`Hayes supplied the other half in the same year`** and **`A wind-tunnel investigation the same
+  year`** had both lost their referents across paragraphs added later. Both now name the year.
+- **`Gulfstream's own contribution was flown three years later`** counted from a paragraph the primary
+  pass inserted before it.
+- **A display equation ended in a full stop** and the sentence continued on the next line.
+- **`a 11.1 percent increase`** wanted `an`.
 
 ---
 
-## Instruments
+## And Two Claims That Were Wrong Rather Than Unclear
 
-**A doubled backslash is invisible to a macro allowlist.** `\\times` contains `\times`, so the check
-added last pass passed it while MathJax would have rendered a line break followed by the word. **It
-came out of an emitter whose escaping had been through a heredoc twice.** The verifier now refuses a
-doubled backslash in math, proved by injection.
+**A prediction was stated as a measurement.** The article said the spike cost the host aeroplane three
+to five percent of its subsonic stability and up to twenty-four percent supersonically. **Those are
+predictions from three aerodynamic models, and flight measurement contradicted them**: directional
+stability flattened by Mach 1.4 and the aeroplane was more stable than a standard F-15 by Mach 1.8.
+**What actually set the limit was pitch damping falling away above Mach 1.7.** This is the A350
+misattribution class, met on a different quantity.
 
-**A hard-coded word list in the verifier reported the article as wrong when the checker was stale.**
-The store gained two tag families this pass, so the spelled-out count moved from nine to eleven and
-the check still expected nine. **A spelled-out claim needs a spelled-out check computed from the same
-data the prose is.**
-
-**One anchor pointed at a paper whose title was not the label citing it**, and two anchors shared one
-URL. The label checker found the first and the reference integrity check found the second, and they
-were the same defect seen from two directions.
-
-**One identifier could not be verified and was dropped rather than cited.** `Sonic Boom: Six Decades
-of Research` is the standard monograph and the NTRS API returns 404 for it on four consecutive
-requests while the citations page returns 200. **That 200 is the single-page-app shell.** An HTTP 200
-is not verification.
+**An unverified job title was asserted** for the author of the Gulfstream case paper and is now removed.
 
 ---
 
-## A New Contaminant Family, Earned by This Subject
+## Three Statements Had Gone Stale Between Passes
 
-**`community response` is an ecological term as well as an acoustic one.** `Plant Community Response
-in Small Plots One Year after Treatment with Triclopyr and Endothall` reached the kept set of a survey
-whose second-largest cluster is community response to noise. **The pattern is anchored on the ORGANISM
-word rather than on `community`, which must survive.**
+**The Epistemic State still listed `the threshold expressed as a level and as a pressure ratio`** after
+the primary pass had removed that threshold as out of horizon and re-anchored on Concorde.
 
-**Coupled atmosphere-ocean modelling** was recorded at the same time, and it also removed three North
-Pacific Acoustic Laboratory studies of ocean SHADOW ZONE arrivals that had entered through the
-atmospheric shadow-zone anchor. **Store 132 patterns, seventeen tags.**
+**The shaping cluster was described as the fourth largest and is the fifth.** Three reference passes
+moved it. **The rank is now emitted from the data rather than typed**, with an ordinal table, so it
+cannot go stale again.
 
-**Every sweep is re-gated whenever the store changes.** A pattern is global, so re-gating only the
-sweep that motivated it would leave the corpus as the union of two instruments. `merge_sweeps.py`
-applies one gate, one store and one tag set to all three sweeps, and the store's four measured numbers
-were re-taken with the current instrument rather than carried forward.
+**Two small numbers were numerals where the house style spells them out.**
+
+---
+
+## A Citation List Was Turned Into an Argument
+
+The primary pass had added a paragraph reading `the article describes X, Y and Z` with fourteen
+citations and no content. **A comprehensive survey is not a list.** It now carries what those documents
+actually record, which is that **the Quiet Spike's hard problem was structural rather than
+aerodynamic**: the aerodynamics were confirmed in a wind tunnel in 2002, and what remained was whether
+a thirty-foot telescoping tube could be flown at all. Segment joint stiffness governed the design, a
+pneumatic actuator was built and abandoned for an electric cable and pulley, the schedule would not
+allow a conventional mated ground vibration test before the flutter analysis, and structural mode
+interaction testing found a lightly damped ten to thirteen hertz pitch oscillation with the spike
+retracted. **None of that is about sonic boom**, and it is the second reason a purpose-built airframe
+was wanted.
+
+---
+
+## The Age of the Literature Is Itself a Finding, and the Article Now Reports It
+
+**2,967 of the 3,143 research records carry a year and their median is 2008.** Publication ran at 31.8
+records a year through the 1970s, **fell to 19.2 through the 1980s**, and has grown every decade since
+to 101.0 in the 2020s. The trough is 60.4 percent of the peak before it and the present rate is 5.3
+times the trough.
+
+**The American supersonic transport was cancelled in 1971 and the prohibition took effect in 1973, and
+the decade that follows those two dates is the only one in this corpus in which the subject shrank.**
+
+**The report primaries are a generation older than the survey.** Their median year is 1982 against 2008
+for the corpus, a gap of twenty-six years. **The agency did this work in the 1960s and 1970s and
+published it as reports**, so a report-primary fraction of 12.1 percent is reporting when the subject
+was funded rather than how the article was researched.
+
+**Every ordinal claim in the survey commentary was checked against the survey's own table**, and every
+per-cluster count against its row. No mismatches.
 
 ---
 
 ## Counts
 
-| Quantity | Draft | Equations | Primaries |
-|---|---|---|---|
-| Lines | 6,745 | 6,891 | 7,057 |
-| Words | 39,473 | 41,392 | 44,159 |
-| Display equations | 11 | 31 | 31 |
-| Reference definitions | 3,159 | 3,159 | 3,231 |
-| Research records | 3,072 | 3,072 | 3,143 |
-| Report primaries | 318 at 10.4 percent | unchanged | **380 at 12.1 percent** |
-| Curated sources | 42 | 42 | **84** |
-| Retrieved across sweeps | 8,289 in two | unchanged | **9,521 in three** |
-| Prose citation labels checked | 41 | 48 | **105** |
+| Quantity | Draft | Equations | Primaries | Publication |
+|---|---|---|---|---|
+| Lines | 6,745 | 6,891 | 7,057 | 7,077 |
+| Words | 39,473 | 41,392 | 44,159 | 44,766 |
+| Display equations | 11 | 31 | 31 | 31 |
+| Reference definitions | 3,159 | 3,159 | 3,231 | 3,231 |
+| Research records | 3,072 | 3,072 | 3,143 | 3,143 |
+| Report primaries | 318 at 10.4 percent | unchanged | 380 at 12.1 | unchanged |
+| Curated sources | 42 | 42 | 84 | 84 |
+| Prose citation labels checked | 41 | 48 | 105 | 106 |
 
-**The measure misses four of the documents that decide the argument** — a designation registry, an
-executive order, a part of the code of federal regulations and a patent — and the article reports the
-count of named primary documents beside the fraction rather than instead of it.
+**Verifier clean at 0 errors and 0 warnings. Tests 105 of 105.** The stub-isolated production build
+succeeded against the exact bytes pushed, and the rendered audit reports no findings across 90 pages
+with source and rendered display-equation counts agreeing at 31.
 
 ---
 
 ## Open Questions for the Pilot
 
-**A324's `book_jenkins` label remains the one live repair**, unchanged.
+**A324's `book_jenkins` label remains the one live repair**, unchanged across all four passes. The key
+is correct and the label swallowed the title.
 
 **The OpenLibrary work pages returning Internal Error to a reader** is also unchanged.
 
-**Nothing is pushed.** The next prompt in the rhythm is the publication review, which is the one that
-asks for a push.
+**A351 is complete on all four passes and is PUSHED. Nothing is published and publication of the
+series has never been authorised.** The next new article is **A352, the X-55**, editorial date
+2025-11-30, series index 56.

@@ -21,9 +21,8 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_gulfstream_x54.markdown`, A351, editorial date 2025-11-29, series `x_planes` index 55 of 72.
 
-**7,057 lines, 31 display equations, 3,231 reference definitions, 44,159 words after the
-primary-reference review.** **DRAFT, EQUATION-DENSITY AND PRIMARY-REFERENCE PASSES COMPLETE, three of
-four.** Committed and **NOT pushed**, which is what those passes ask for. **Not published**, and publication of the series has never been authorised.
+**7,077 lines, 31 display equations, 3,231 reference definitions, 44,766 words after the publication
+review.** **ALL FOUR PASSES COMPLETE.** Committed and **PUSHED**. **Not published**, and publication of the series has never been authorised.
 **Designation-anomaly class**, and the third such article after the X-39 and the X-52, but different
 from both because this number was allocated to a real contractor with a real sponsor and a real
 mission statement, and then nothing was built.
@@ -121,6 +120,45 @@ does not minimise the other.
 
 **TWO PASSAGES NARRATED THE ARTICLE'S OWN DRAFTING HISTORY INSIDE THE ARGUMENT AND WERE REWRITTEN.**
 
+**PUBLICATION REVIEW, AND READING THE OPENING AGAINST THE CONCLUSION FOUND A DEFECT, MAKING SEVEN
+CONSECUTIVE ARTICLES.** The conclusion predated the primary pass and did not mention its central
+finding, that Mach cutoff was measured in flight and published in 1971. **It described the repeal as
+resting on a technique the article treated as modern.** It now says the aeroplane was overtaken not by
+a newer idea but by an older one, which had been sitting in the same agency's report server the whole
+time and needed no airframe to make its case.
+
+**FOUR OF THE SIX PROSE DEFECTS WERE REFERENTS THAT LATER PASSES BROKE.** `The last of these` pointed
+at a list the equation pass's Snell's law paragraph had come between, `the same year` had lost its
+antecedent twice, and `three years later` counted from a paragraph the primary pass inserted before it.
+**An insertion does not only risk a run-on. It breaks what the next paragraph points at.** A display
+equation also ended in a full stop where the sentence continued.
+
+**A PREDICTION WAS STATED AS A MEASUREMENT.** The article said the spike cost the host aeroplane three
+to five percent of its subsonic stability and up to twenty-four percent supersonically. **Those are
+predictions from three aerodynamic models, and flight measurement contradicted them**, directional
+stability flattening by Mach 1.4 and the aeroplane proving more stable than a standard F-15 by Mach
+1.8, with pitch damping above Mach 1.7 setting the real limit. **This is the A350 misattribution class
+on a different quantity.** An unverified job title was also removed.
+
+**THREE STATEMENTS HAD GONE STALE BETWEEN PASSES.** The Epistemic State still listed a threshold the
+primary pass had removed as out of horizon. **The shaping cluster was called the fourth largest and is
+the fifth**, three reference passes having moved it, so the rank is now emitted from the data rather
+than typed.
+
+**A CITATION LIST WAS TURNED INTO AN ARGUMENT.** The primary pass had left a paragraph reading `the
+article describes X, Y and Z` with fourteen citations and no content. **A comprehensive survey is not a
+list.** It now carries what those documents record, which is that the Quiet Spike's hard problem was
+structural rather than aerodynamic, the aerodynamics having been confirmed in a wind tunnel in 2002.
+
+**THE AGE OF THE LITERATURE IS ITSELF A FINDING AND THE ARTICLE NOW REPORTS IT.** Publication ran at
+31.8 records a year through the 1970s, **fell to 19.2 through the 1980s**, and has grown every decade
+since to 101.0 in the 2020s, the trough being 60.4 percent of the peak before it. **The decade
+following the 1971 cancellation of the American supersonic transport and the 1973 prohibition is the
+only one in this corpus in which the subject shrank.** The report primaries median 1982 against 2008
+for the corpus, a gap of twenty-six years, **so a report-primary fraction of 12.1 percent reports when
+the subject was funded rather than how this article was researched.** Every ordinal claim in the survey
+commentary was checked against the survey's own table with no mismatches.
+
 **THE PRIMARY PASS TOOK REPORT PRIMARIES FROM 318 AT 10.4 PERCENT TO 380 AT 12.1, AND THE CURATED SET
 FROM FORTY-TWO TO EIGHTY-FOUR.** It began by measuring which of the thirty-one display equations
 carried no citation. **Sixteen did not**, because the equation review had made a dozen subjects
@@ -169,7 +207,7 @@ whenever the store changes.
 bytes committed**, the checksum having been matched against the stub copy before the build started and
 against the draft after it finished. **The rendered audit reports no findings across 90 pages.** Source
 and rendered display-equation counts agree at **31**, with **zero raw dollar pairs leaking**, zero
-unresolved reference brackets, zero unexpanded slots and zero unrendered Liquid. **105 prose citation
+unresolved reference brackets, zero unexpanded slots and zero unrendered Liquid. **106 prose citation
 labels were checked against the titles they point at and none mismatched.**
 
 

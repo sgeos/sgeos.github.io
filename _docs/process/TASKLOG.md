@@ -10,11 +10,46 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A350 are drafted with all four passes complete on every one, committed and
-PUSHED. A351, Gulfstream X-54, has completed the DRAFT PASS, the EQUATION-DENSITY REVIEW and the
-PRIMARY-REFERENCE REVIEW and is committed and NOT pushed**, which is what those passes ask for.
+PUSHED. A351, Gulfstream X-54, has completed ALL FOUR PASSES and is committed and PUSHED.**
 **Fifty-five of seventy-two drafted. None published, and publication has never been authorised.
-Seventeen articles remain.** The next prompt in the rhythm is A351's **publication review**, which is
-the one that asks for a push.
+Seventeen articles remain.** The next new article is **A352, the X-55**, editorial date 2025-11-30,
+series index 56.
+
+**A351's PUBLICATION REVIEW FOUND A DEFECT BY READING THE OPENING AGAINST THE CONCLUSION, WHICH IS NOW
+SEVEN CONSECUTIVE ARTICLES.** The conclusion predated the primary pass and did not mention its central
+finding, that Mach cutoff was measured in flight and published in 1971. **It described the repeal as
+resting on a technique the article treated as modern.** It now says the aeroplane was overtaken not by
+a newer idea but by an older one, and the opening carries the same fact in one clause.
+
+**FOUR OF THE SIX PROSE DEFECTS WERE REFERENTS THAT LATER PASSES BROKE.** `The last of these` pointed
+at a list the equation pass had come between, `the same year` had lost its antecedent twice, and
+`three years later` counted from a paragraph the primary pass inserted before it. **An insertion does
+not only risk a run-on. It breaks what the next paragraph points at.**
+
+**A PREDICTION WAS STATED AS A MEASUREMENT.** The article said the spike cost the host aeroplane up to
+twenty-four percent of its supersonic lateral-directional stability. **That is a prediction from three
+aerodynamic models and flight measurement contradicted it**, the aeroplane proving more stable than a
+standard F-15 by Mach 1.8, with pitch damping rather than directional stability setting the limit.
+**This is the A350 misattribution class on a different quantity.** An unverified job title was also
+removed.
+
+**THREE STATEMENTS HAD GONE STALE BETWEEN PASSES.** The Epistemic State still listed a threshold the
+primary pass had removed as out of horizon. **The shaping cluster was called the fourth largest and is
+the fifth**, three reference passes having moved it, so the rank is now emitted from the data with an
+ordinal table rather than typed.
+
+**A CITATION LIST WAS TURNED INTO AN ARGUMENT.** The primary pass had left a paragraph reading `the
+article describes X, Y and Z` with fourteen citations and no content. It now carries what those
+documents record, which is that **the Quiet Spike's hard problem was structural rather than
+aerodynamic**, the aerodynamics having been confirmed in a wind tunnel in 2002.
+
+**THE AGE OF THE LITERATURE IS ITSELF A FINDING AND THE ARTICLE NOW REPORTS IT.** Publication ran at
+31.8 records a year through the 1970s, **fell to 19.2 through the 1980s**, and has grown every decade
+since to 101.0 in the 2020s. **The decade following the 1971 cancellation and the 1973 rule is the only
+one in this corpus in which the subject shrank.** The report primaries median 1982 against 2008 for the
+corpus, a gap of twenty-six years, so a report-primary fraction of 12.1 percent reports when the
+subject was funded rather than how the article was researched. **Every ordinal claim in the survey
+commentary was checked against the survey's own table with no mismatches.**
 
 **THE PRIMARY PASS TOOK REPORT PRIMARIES FROM 318 AT 10.4 PERCENT TO 380 AT 12.1, AND THE CURATED SET
 FROM FORTY-TWO TO EIGHTY-FOUR.** The pass began by measuring which of the thirty-one display equations
@@ -162,11 +197,11 @@ are emitted and cannot drift while body labels are typed. **It found one mismatc
 this repository would have seen.** Separately, the identifier check caught one wrong curated DOI before
 assembly, pointing at a paper on thermals and cloud modelling.
 
-**A351 COUNTS AFTER THE PRIMARY PASS.** 7,057 lines, 44,159 words, **31 display equations**, 3,231
-reference definitions, 3,143 research records, **380 report primaries at 12.1 percent**, 84 curated
-sources with every identifier verified, 7 books resolved on the search index, 9,521 records retrieved
-across three sweeps, 3,273 through the gate, 11 clusters. **105 prose citation labels checked against
-the titles they point at, none mismatched.**
+**A351 FINAL COUNTS.** 7,077 lines, 44,766 words, **31 display equations**, 3,231 reference
+definitions, 3,143 research records, **380 report primaries at 12.1 percent**, 84 curated sources with
+every identifier verified, 7 books resolved on the search index, 9,521 records retrieved across three
+sweeps, 3,273 through the gate, 11 clusters. **106 prose citation labels checked against the titles
+they point at, none mismatched.** Median publication year 2008, report-primary median 1982.
 
 **A324's `book_jenkins` LABEL REMAINS THE ONE LIVE REPAIR**, unchanged. The key is correct and the
 label swallowed the title. **The OpenLibrary work pages returning Internal Error to a reader** is also
