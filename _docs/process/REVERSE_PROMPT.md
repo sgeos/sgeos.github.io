@@ -5,179 +5,137 @@
 ## Last Updated
 
 **Date**: 2026-09-07
-**Task**: **A351, X-Planes: Gulfstream X-54, draft pass. The first of four.** Committed and **not
-pushed**, which is what the draft pass asks for. **Not published**, and publication of the series
-still not authorised. **Fifty-five of seventy-two drafted.**
+**Task**: **A351, X-Planes: Gulfstream X-54, equation-density review. The second of four.**
+Committed and **not pushed**, which is what this pass asks for. **Not published**, and publication of
+the series still not authorised. **Fifty-five of seventy-two drafted.**
+
+**Eleven display equations to thirty-one.**
 
 ---
 
-## The Registry Entry Is the Article, and It Was Verified Rather Than Admired
+## The Pass Changed a Conclusion Twice, Which Is What It Is For
 
-**The X-54A was designated on 5 May 2008 to Gulfstream Aerospace, sponsored by NASA, and the register
-states its mission as generating relevant ground sonic boom signatures `in support of NASA and a
-regulatory change process`.** It was never built.
+**Adding the equations was not the point. Working them was.** Two of the article's own claims did not
+survive being computed properly, and both errors ran in the direction that flattered the argument.
 
-**The opening claim was measured against the register rather than asserted.** Of the 510 designations
-allocated between August 1998 and November 2025, **exactly one mission statement contains the word
-`regulatory`**, and `certification`, `rulemaking` and `policy` appear in none of them. `registry_scan.py`
-computes that and `assemble.py` asserts it, because it is the first sentence a reader meets.
+### The Draft Divided by the Wrong Distance
 
-**The first version of that opening said `Every other aeroplane in this series was designated to fly`,
-which is vague and also false.** The X-6, the X-20, the X-30 and the X-33 all have articles here and
-none flew in the form its designation names. **An impression was replaced by a count.**
+**A boom does not travel straight down.** The ray leaves normal to the Mach cone, so it makes the Mach
+angle with the vertical and the path from 45,000 feet at Mach 1.4 is
 
----
+    r = h / cos(mu) = h / sqrt(1 - 1/M^2)
 
-## The Central Computation Is One the Source Set Out and Did Not Perform
+which is **19,598 metres and not 13,716**. Every percentage in the draft's coalescence table was too
+large by 42.9 percent. **The correction makes the finding stronger, which is exactly why it was easy
+to miss.**
 
-**The Quiet Spike flight test report says a ground signature was not attempted because `the stronger
-shocks of today's aircraft would overtake the spike's weak shocks within a short distance below the
-flight path`.** That is the case for building the X-54, written by the people who would have built it,
-two years before the number was allocated.
+### And the Conclusion Is Conditional, Which the Plane-Wave Form Hid
 
-**`A short distance` is a quantity and weak-shock theory gives it.** Two shocks close at a rate set by
-the difference in their strengths, the speed of sound cancels, and the coalescence distance is
+**The draft said the coalescence result did not depend on the assumed shock strength.** It looked that
+way because dividing a fixed closing rate into a fixed separation scales the same at every strength.
+**Adding geometric spreading breaks that.** Both shocks weaken as roughly the inverse square root of
+distance, so integrating
 
-    L = separation * 4 gamma / ((gamma + 1) * d(dp)/p)
+    ds/dr = -((gamma+1)/(4 gamma)) delta_0 sqrt(r_0/r)
 
-**At the weakest shock difference in the plausible range it is 1.73 kilometres, and at a typical one
-0.35 kilometres, against 13,716 metres of air below the test altitude.** So the shaped signature is
-destroyed in the first 12.6 percent of its journey at best and the first 2.5 percent typically.
-**The conclusion survives an order of magnitude of uncertainty in the assumption**, which is the only
-reason it is worth stating, and geometric spreading would have to lengthen the distance by a factor of
-7.9 before it changed. **Both limitations are stated in the article rather than buried.**
+to zero separation gives `sqrt(r_c) = sqrt(r_0) + L/(2 sqrt(r_0))`, where `L` is the plane-wave answer
+and `r_0` is one aeroplane length.
 
-**This is the A350 rule applied one article later.** A source that has done the measuring has not
-necessarily done the arithmetic.
+| Strength difference | Plane wave | With spreading | Share of the ray path |
+|---|---|---|---|
+| 0.01 | 1,729 m | 40,177 m | **never completes** |
+| 0.02 | 864 m | 10,491 m | 53.5 percent |
+| 0.05 | 346 m | 1,902 m | 9.7 percent |
+| 0.10 | 173 m | 577 m | 2.9 percent |
 
----
-
-## The Sweep Store Predicted Wrong, and the Prediction Was Written Down First
-
-**The harvest script said the subject is aeronautical, the store is aeronautical, and no family should
-need switching off. Thirteen did.**
-
-**Measured with one instrument on both settings.** Fully armed the store dropped 375 records and the
-gate then kept 2,485. With thirteen families off it dropped 147 and the gate kept 2,577, so **228
-records returned and 92 reached the corpus**. Among the deletions were `Underwater measurements of a
-sonic boom`, `Meteorologically Induced Variability of Sonic Boom of a Supersonic Aircraft`, a citation
-of the 1976 standard atmosphere, and the whole community-noise exposure-response literature.
-
-**The reason is structural rather than accidental.** Every pattern in the store was earned by a sweep
-whose subject was an aeroplane, and this article's subject is a noise. **Community-noise research is
-one methodological field in which railways, roads and wind turbines are cases beside aircraft rather
-than contaminants of it.**
-
-**Nine tag families were added, taking the store from six tags to fifteen.** `ramjet` is deliberately
-left armed because its recorded incident still holds here, and the residual cost of the families left
-armed is 28 records, reported rather than filtered away.
-
-### And a Second Pattern Covered a Family That Had Already Been Tagged
-
-**The wind-turbine community-noise literature was still being deleted after the `wind-energy` tag was
-applied**, because two separate store entries match that family and only one carried the tag. **That
-is precisely the failure `homonyms.TAGS` exists to prevent**, met from a direction the mechanism does
-not cover, since a tag switches off one pattern while a contaminant family can be spread across
-several. **It was found by measuring the residual, not by reading the store.**
+**At the weakest strength in the range the shocks would still be separate when they arrived.** The
+finding holds at 0.02 and above, which is where an aeroplane the size of an F-15 sits. **So the
+programme's stated reason is right about its own aeroplane and is not a general truth about spikes**,
+and the article now says the smaller thing.
 
 ---
 
-## A False Finding Was Caught Before It Shipped
+## Symbols Collided Four Times and a Table Now Prevents It
 
-**On the main sweep alone, Mach cutoff measured 17 records against a pool of 2,627 while low-boom
-shaping measured 283.** This article was going to report that the mechanism which actually changed the
-rule is less studied than the mechanism that did not.
+**`T` was the temperature, the N-wave duration and the sound-exposure reference time.** **`L` was the
+atmospheric lapse rate, the coalescence distance and the sound pressure level.** **`R` was the gas
+constant and the ground reflection coefficient.** **`\ell` was the lift per unit length and the shock
+separation.** A349 shipped the same class of defect using `m` and `n` for two things each.
 
-**A supplementary sweep aimed at it returned 87 and the contrast evaporated.** The rewording had moved
-it from 24 to 17, so the vocabulary did nothing and the harvest did all of it, and reporting only the
-endpoints would have credited the wording with the sweep's result.
+**`verify_numbers.py` now carries a declared symbol table and refuses anything undeclared.** A regex
+cannot know what a symbol means, so the instrument is the table plus the refusal, and maintaining it is
+what catches a collision because a second meaning has nowhere to go. **It was proved non-vacuous by
+injecting an undeclared symbol and watching it fail.**
 
-**A pool that was not asked returns an absence indistinguishable from one that was.**
-
----
-
-## Instruments That Failed and Were Fixed
-
-**A `str.replace` matched nothing and reported success.** One of four gate patches silently did not
-apply, and the audit sample showed the defect it was supposed to fix still present. **Every
-substitution in this article's scripts now asserts its match count**, and `assemble.py` asserts every
-slot present before substitution and none left after.
-
-**A new checker compares every prose citation label to the title of the thing it points at.** The
-survey's labels are emitted and cannot drift; the body's are typed. **It found one**, a label reading
-`Overview of Low-Boom Flight Demonstration Mission and X-59 QueSST Aircraft` over an anchor whose
-target is `An Overview of NASA Sonic Boom Flight Research`. Nothing else in this repository would have
-seen it.
-
-**One curated DOI was wrong and the identifier check caught it before assembly**, pointing at a paper
-on thermals and cloud modelling under a claim about sonic-boom generation theory. **Forty-two curated
-identifiers verified, forty-one right.**
-
-**Two checkers were themselves wrong and both failed in the dangerous direction.** The number verifier
-cut the article at the survey heading and threw away everything after it, then reported a number
-missing that was present. The paragraph-opening check used a negative lookahead that let a decimal
-through, so `17.6 years after the number was allocated` opened a paragraph with a numeral unseen.
-
-**And the test written to lock the store fix in place passed for the wrong reason.** Two of its
-eleven titles were never deleted by their title at all, having been removed through their venue, so
-those assertions would have passed with the fix reverted. **`_lib/test_lib.py` now asserts each title
-is armed BEFORE asserting the tag disarms it**, and the venue cases are exercised through
-`filter_records` with a venue attached. **A test that cannot fail is not a test**, and this is the same
-shape as A348's check that went green without checking anything. Tests are 105 of 105.
-
-**One probe was mis-instrumented.** The indoor-response probe's field wording was narrower than its
-plain wording, so it reported a shelf that shrank on restatement. **A rephrasing that loses records is
-a worse instrument, not a smaller field**, and the second column must now be a superset of the first.
+**The check itself was wrong on its first run** and reported LaTeX operators as undeclared symbols,
+because `\int_{0}` is `\int` followed by an underscore and a trailing word boundary never matches one.
+**A broken diagnostic reports the data as broken**, which is the direction that wastes work.
 
 ---
 
-## What the Article Says
+## A Pipe Masked a Failed Assembly and the Verifier Validated Stale Bytes
 
-**Eleven display equations**, covering the Mach angle, weak-shock propagation speed, the coalescence
-length, Whitham's F-function, the equivalent area with its lift term, the pre-steepening pressure, the
-N-wave decay exponents, the shock rise time, the sound exposure level and the cutoff Mach number.
+**`python3 assemble.py | tail -3 && python3 verify_numbers.py` reports the exit status of `tail`**, so
+a failed assembly let the verifier run against the previous draft and report all checks passing.
+**A checker that silently validates stale output is worse than no checker.** `verify_numbers.py` now
+refuses to run when `body.md` or any input JSON is newer than the draft, which is cheaper than
+remembering to set `pipefail`.
 
-**The cutoff Mach number falls out as a temperature ratio and nothing else**, giving 1.153 for the
-standard atmosphere above the tropopause and moving by 0.04 for ten kelvin of ground temperature. **So
-the technique that actually changed the rule is a forecast rather than a chart.**
+---
 
-**The altitude argument was backwards in the first draft.** It said doubling the distance costs 40.5
-percent of the overpressure and called that a weak lever, which is not weak at all. **The lever is
-weak because the range is short**, so the article now states that climbing from 45,000 to 50,000 feet
-buys 7.6 percent and that halving the boom by climbing alone needs 113,393 feet.
+## What Was Added
 
-**Two conclusions remain thin and the article says so.** That a shaped nose on an ordinary aeroplane
-cannot deliver a shaped ground signature, at 41 records, resting on a primary document and on the
-arithmetic above. That the rule is the deliverable and the aeroplane the evidence for it, at 57.
+**Twenty new display equations.** The speed of sound; the ray path from altitude; the N-wave waveform
+and its positive-phase impulse; the total lift term in the equivalent area and the resulting
+square-root weight scaling; the von Karman wave-drag integral; the two standard-atmosphere layers; the
+dynamic pressure in its pressure-and-Mach form; the aging length; the spreading-corrected coalescence;
+the Taylor shock profile; the ray invariant for a stratified medium; the sound pressure level; the
+ground reflection factor; the threshold as a pressure ratio; the effective sound speed with wind; the
+lateral cutoff azimuth; and the turning altitude.
+
+**Three of them produce numbers the article had no way to state before.**
+
+- **The dynamic pressure relation is a check on the record and the record passes it.** The Quiet Spike
+  report gives 685 pounds per square foot at Mach 1.8 and 45,000 feet, and inverting the relation at
+  that altitude gives **Mach 1.782**.
+- **The turning altitude collapses fast.** At Mach 1.10 the ray turns at 4,001 metres and at Mach 1.15
+  at 251 metres, so five hundredths of Mach take the shadow zone from 13,125 feet to 823. **The
+  technique that actually changed the rule is a forecast rather than a chart.**
+- **The threshold in acoustic units.** 0.11 pounds per square foot is 5.27 pascals, **108.4 decibels
+  peak** against roughly 133.6 for a Concorde at cruise, and one part in 19,000 of ambient.
+
+**And one is an engineering tension the article had stated only in words.** Wave drag is a functional
+of the same second derivative that sets the F-function, so **the boom and the drag are two functionals
+of one function** and the distribution minimising one does not minimise the other.
+
+---
+
+## Two Passages Narrated the Article's Own Drafting History and Were Rewritten
+
+**A reader has no access to a superseded draft.** The corrected position is now stated directly in the
+argument and the correction itself lives in What the Data Changed, which is the A345 rule and the
+section that exists for it.
 
 ---
 
 ## Counts
 
-| Quantity | Value |
-|---|---|
-| Lines | 6,745 |
-| Words | 39,473 |
-| Display equations | 11 |
-| Reference definitions | 3,159 |
-| Research records | 3,072 |
-| Report primaries | 318, being 10.4 percent |
-| Curated sources | 42, every identifier verified |
-| Books | 7, every key resolved on the search index |
-| Retrieved across two sweeps | 8,289 |
-| Through the subject gate | 3,210 |
-| Clusters | 11, residual 57 |
+| Quantity | Draft pass | After this pass |
+|---|---|---|
+| Lines | 6,745 | 6,891 |
+| Words | 39,473 | 41,392 |
+| Display equations | 11 | **31** |
+| Reference definitions | 3,159 | 3,159 |
+| Prose citation labels checked | 41 | 48 |
+
+**References were not touched by this pass**, which is the next one's job.
 
 ---
 
 ## Open Questions for the Pilot
 
-**A324's `book_jenkins` label remains the one live repair**, unchanged from the last report. The key is
-correct and the label swallowed the title.
+**A324's `book_jenkins` label remains the one live repair**, unchanged.
 
-**The OpenLibrary work pages returning Internal Error to a reader** is also unchanged. The seven book
-keys in this article were resolved against the search index rather than the work endpoint, which is
-what `_lib/booklinks.py` now does.
+**The OpenLibrary work pages returning Internal Error to a reader** is also unchanged.
 
-**Nothing is pushed.** The draft pass commits and does not push, and the next prompt in the rhythm is
-the equation-density review.
+**Nothing is pushed.** The next prompt in the rhythm is the primary-reference review.

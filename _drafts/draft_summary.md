@@ -21,9 +21,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_gulfstream_x54.markdown`, A351, editorial date 2025-11-29, series `x_planes` index 55 of 72.
 
-**6,745 lines, 11 display equations, 3,159 reference definitions, 39,473 words after the draft pass.**
-**DRAFT PASS ONLY, the first of four.** Committed and **NOT pushed**, which is what the draft pass
-asks for. **Not published**, and publication of the series has never been authorised.
+**6,891 lines, 31 display equations, 3,159 reference definitions, 41,392 words after the
+equation-density review.** **DRAFT PASS AND EQUATION-DENSITY REVIEW COMPLETE, two of four.** Committed
+and **NOT pushed**, which is what those passes ask for. **Not published**, and publication of the series has never been authorised.
 **Designation-anomaly class**, and the third such article after the X-39 and the X-52, but different
 from both because this number was allocated to a real contractor with a real sponsor and a real
 mission statement, and then nothing was built.
@@ -78,10 +78,53 @@ also wrong and the identifier check caught it before assembly.
 aeroplane cannot deliver a shaped ground signature at 41 records, and that the rule is the deliverable
 at 57.
 
-**The stub-isolated production build succeeded in 92 seconds with no Liquid error, against the exact
+**THE EQUATION PASS TOOK 11 DISPLAY EQUATIONS TO 31 AND CHANGED A CONCLUSION TWICE.** Adding the
+equations was not the point. Working them was, and two of the article's own claims did not survive
+being computed properly. **Both errors ran in the direction that flattered the argument.**
+
+**THE DRAFT DIVIDED BY THE WRONG DISTANCE.** A boom does not travel straight down. The ray leaves
+normal to the Mach cone, so it makes the Mach angle with the vertical, and the path from 45,000 feet at
+Mach 1.4 is **19,598 metres and not 13,716**. Every percentage in the draft's coalescence table was too
+large by 42.9 percent.
+
+**AND THE COALESCENCE CONCLUSION IS CONDITIONAL, WHICH THE PLANE-WAVE FORM HID.** The draft said the
+result did not depend on the assumed shock strength, and it looked that way because dividing a fixed
+closing rate into a fixed separation scales identically at every strength. **Geometric spreading breaks
+that.** Both shocks weaken as roughly the inverse square root of distance, and integrating the
+weakening gives a corrected distance of **40,177 metres at the weakest strength in the range, against
+19,598 metres of ray path**, so the shocks would still be separate when they arrived. **The finding
+holds at 0.02 and above**, which is where an aeroplane the size of an F-15 sits. **The programme's
+stated reason is right about its own aeroplane and is not a general truth about spikes**, and the
+article now says the smaller thing.
+
+**FOUR SYMBOL COLLISIONS SHIPPED INTO THE PASS AND READING FOUND THEM.** `T` was the temperature, the
+N-wave duration and the sound-exposure reference time. `L` was the lapse rate, the coalescence distance
+and the sound pressure level. `R` was the gas constant and the ground reflection coefficient. The lift
+per unit length and the shock separation shared a symbol. **A349 shipped the same class.**
+`verify_numbers.py` now carries a declared symbol table and refuses anything undeclared, and a second
+new check refuses any LaTeX macro outside the package set this site's MathJax actually loads, **because
+an unknown macro renders as red text and fails nothing**. Both were proved non-vacuous by injecting a
+defect and watching them fail.
+
+**A PIPE MASKED A FAILED ASSEMBLY AND THE VERIFIER VALIDATED STALE BYTES.** Piping `assemble.py` into
+`tail` reports the exit status of `tail`, so a shell `&&` let the verifier check the previous draft and
+report everything passing. **The verifier now refuses to run when any input is newer than the draft.**
+
+**THREE NEW EQUATIONS PRODUCE NUMBERS THE ARTICLE COULD NOT STATE BEFORE.** The dynamic pressure
+relation is a check on the record and the record passes it, since 685 pounds per square foot at 45,000
+feet inverts to **Mach 1.782** against a stated 1.8. The ray turning altitude collapses from 4,001
+metres at Mach 1.10 to 251 metres at Mach 1.15. The regulatory threshold of 0.11 pounds per square foot
+is 5.27 pascals, **108.4 decibels peak** against roughly 133.6 for a Concorde, and one part in 19,000
+of ambient. **And the von Karman wave-drag integral makes an engineering tension explicit**, since the
+boom and the drag are two functionals of the same second derivative and the distribution minimising one
+does not minimise the other.
+
+**TWO PASSAGES NARRATED THE ARTICLE'S OWN DRAFTING HISTORY INSIDE THE ARGUMENT AND WERE REWRITTEN.**
+
+**The stub-isolated production build succeeded in 94 seconds with no Liquid error, against the exact
 bytes committed**, the checksum having been matched against the stub copy before the build started and
 against the draft after it finished. **The rendered audit reports no findings across 90 pages.** Source
-and rendered display-equation counts agree at **11**, with **zero raw dollar pairs leaking**, zero
+and rendered display-equation counts agree at **31**, with **zero raw dollar pairs leaking**, zero
 unresolved reference brackets, zero unexpanded slots and zero unrendered Liquid.
 
 

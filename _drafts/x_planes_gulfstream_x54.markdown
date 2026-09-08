@@ -42,7 +42,17 @@ Every point on the airframe that displaces air sends out a disturbance. Above th
 
 $$\mu \;=\; \arcsin\!\left(\frac{1}{M}\right).$$
 
-At Mach 1.4 that angle is 45.6 degrees and at Mach 1.8 it is 33.7 degrees, so a faster aeroplane drags a narrower cone behind it.
+where the speed of sound in a perfect gas depends on temperature and on nothing else,
+
+$$a \;=\; \sqrt{\gamma R T}.$$
+
+At Mach 1.4 the Mach angle is 45.6 degrees and at Mach 1.8 it is 33.7 degrees, so a faster aeroplane drags a narrower cone behind it.
+
+**The wave does not travel straight down and that matters later.** A ray leaves normal to the cone surface, so it makes the Mach angle with the vertical, and the distance it covers from cruise altitude $h$ to the ground is
+
+$$r \;=\; \frac{h}{\cos\mu} \;=\; \frac{h}{\sqrt{1 - M^{-2}}}.$$
+
+At Mach 1.4 from 45,000 feet that is 19,598 metres of air rather than 13,716, which is 42.9 percent further than the altitude suggests.
 
 **Close to the aeroplane the disturbance is not one shock but many**, one for the nose, one for the canopy, one for each wing leading edge, one for the inlets, one for the tail. **The near-field signature is a rippled thing with structure in it**, and photographs of it look nothing like the textbook boom [[Origins and Overview of the Shaped Sonic Boom Demonstration Program][research_ssbd_origins]].
 
@@ -51,6 +61,14 @@ At Mach 1.4 that angle is 45.6 degrees and at Mach 1.8 it is 33.7 degrees, so a 
 $$\frac{U}{a} \;=\; 1 \;+\; \frac{\gamma+1}{4\gamma}\,\frac{\Delta p}{p} \;+\; \mathcal{O}\!\left(\frac{\Delta p}{p}\right)^{2}.$$
 
 **So the front of the signature catches the middle and the back of it catches the middle from behind.** Given enough distance the structure collapses into two shocks with a linear expansion between them, which is the N-wave everybody on the ground actually hears [[Sonic Boom][ref_sonic_boom]] [[N-Wave][ref_n_wave]] [[Pierce, Acoustics, an introduction to its physical principles and applications][book_pierce]].
+
+**The shape it decays into has a name and a form.** For a positive-phase duration $T_{N}$ the waveform is a straight line between two jumps, the symbol carrying a subscript because $T$ is already the temperature in this article,
+
+$$\Delta p(t) \;=\; \Delta p_{\max}\left(1 - \frac{2t}{T_{N}}\right), \qquad 0 \le t \le T_{N},$$
+
+whose positive-phase impulse follows immediately,
+
+$$I \;=\; \int_{0}^{T_{N}/2}\Delta p(t)\,\mathrm{d}t \;=\; \frac{\Delta p_{\max} T_{N}}{4}.$$
 
 **That is the crucial point and it is easy to miss.** The N-wave is not what the aeroplane makes. **The N-wave is what any shape decays into**, and it is loud because two isolated shocks with nothing between them present the ear with two near-instantaneous pressure steps.
 
@@ -69,7 +87,17 @@ $$F(y) \;=\; \frac{1}{2\pi}\int_{0}^{y} \frac{A_e''(\xi)}{\sqrt{y-\xi}}\;\mathrm
 $$A_e(x) \;=\; A(x) \;+\; \frac{\beta}{2q}\int_{0}^{x} \ell(\xi)\,\mathrm{d}\xi ,
 \qquad \beta = \sqrt{M^{2}-1}.$$
 
-**An aeroplane's boom is therefore partly a consequence of its weight**, and a heavier aeroplane at the same length is louder for reasons no amount of shaping can remove [[Area Rule][ref_area_rule]].
+**An aeroplane's boom is therefore partly a consequence of its weight**, and the whole of the lift enters the equivalent area by the tail,
+
+$$A_{L}(l) \;=\; \frac{\beta W}{2q},$$
+
+so a heavier aeroplane at the same length is louder for reasons no amount of shaping can remove [[Area Rule][ref_area_rule]].
+
+**The penalty is a square root rather than a proportionality, and that is worth knowing.** A fully aged N-wave amplitude goes as the square root of the F-function amplitude, and the F-function amplitude is linear in the lift, so
+
+$$\Delta p \;\propto\; W^{1/2}.$$
+
+**Doubling the aeroplane's weight costs only 41.4 percent in overpressure.** That is the one generous exponent in this subject.
 
 Before nonlinear steepening takes hold, the pressure disturbance at distance $r$ follows from $F$ directly,
 
@@ -87,7 +115,33 @@ $$\Delta p \;\propto\; r^{-3/4}, \qquad \Delta t \;\propto\; r^{1/4}.$$
 
 Hayes supplied the other half in the same year, showing how the signature propagates through an atmosphere whose density and sound speed vary with height [[Sonic-Boom Propagation through a Stratified Atmosphere][research_hayes_1972]].
 
+**There is a catch built into the mathematics and it is not a small one.** The wave drag of a slender body in linearised supersonic flow is a functional of the same second derivative that sets the F-function [[Ashley and Landahl, Aerodynamics of wings and bodies][book_ashley_landahl]],
+
+$$D \;=\; -\frac{q}{2\pi}\int_{0}^{l}\!\!\int_{0}^{l} A_e''(x_{1})\,A_e''(x_{2})\,
+\ln\lvert x_{1}-x_{2}\rvert \;\mathrm{d}x_{1}\,\mathrm{d}x_{2}.$$
+
+**So the boom and the drag are two different functionals of one function**, and the distribution that minimises the first is not the distribution that minimises the second. **A low-boom aeroplane pays for its quietness in cruise efficiency**, which is why the design literature that follows is about the trade rather than about either objective alone.
+
 **By 1979 the theory was complete enough to design against.** The X-54 was designated twenty-nine years later.
+
+## The Medium, Because Every Number Here Is Taken From It
+
+**Every altitude, Mach number and dynamic pressure in this article is computed in the standard atmosphere, and the relations are worth putting on the page rather than assuming.**
+
+Below the tropopause the temperature falls linearly and hydrostatic equilibrium in a perfect gas fixes the pressure [[U.S. Standard Atmosphere][ref_us_standard_atmosphere]],
+
+$$T(z) \;=\; T_{0} - Lz, \qquad
+p(z) \;=\; p_{0}\left(\frac{T(z)}{T_{0}}\right)^{g/LR},$$
+
+with $L = 0.0065$ kelvin per metre giving an exponent of 5.2559. Above it the temperature is constant to a first approximation and the pressure falls exponentially with a scale height of 6,341.6 metres,
+
+$$p(z) \;=\; p_{11}\exp\!\left[-\frac{g\,(z - z_{11})}{R\,T_{11}}\right].$$
+
+**The dynamic pressure follows from the pressure and the Mach number alone**, which is the form worth carrying because a flight test report states both,
+
+$$q \;=\; \tfrac{1}{2}\rho V^{2} \;=\; \frac{\gamma}{2}\,p\,M^{2}.$$
+
+**That relation is also a check on the record and the record passes it.** The Quiet Spike report gives a design dynamic pressure of 685 pounds per square foot and a design Mach number of 1.8 at 45,000 feet. **Inverting the relation at that altitude gives Mach 1.782**, which agrees with the stated figure to within the rounding of the inputs.
 
 ## What Had Already Been Proved by 2008
 
@@ -117,31 +171,63 @@ The Quiet Spike was a telescoping composite nose boom, extending from 14.15 feet
 
 **`A short distance below the flight path` is a quantity, and weak-shock theory gives it.**
 
-Two shocks separated by a distance $\ell$ along the ray close on each other at a rate set by the difference in their strengths. Substituting the propagation speed above,
+Two shocks separated by a distance $s$ along the ray close on each other at a rate set by the difference in their strengths. The separation is written $s$ because $\ell$ is already the lift per unit length above, and the coalescence distance is written $\mathcal{L}$ to keep it clear of the lapse rate $L$. Substituting the propagation speed,
 
 $$\Delta U \;=\; a\,\frac{\gamma+1}{4\gamma}\,\frac{\Delta p}{p},$$
 
 so the stronger overtakes the weaker after a travel distance
 
-$$L \;=\; \frac{a\,\ell}{\Delta U_{1}-\Delta U_{2}} \;=\; \ell\,\frac{4\gamma}{(\gamma+1)}\left[\frac{\Delta p_{1}-\Delta p_{2}}{p}\right]^{-1}.$$
+$$\mathcal{L} \;=\; \frac{a\,s}{\Delta U_{1}-\Delta U_{2}} \;=\; s\,\frac{4\gamma}{(\gamma+1)}\left[\frac{\Delta p_{1}-\Delta p_{2}}{p}\right]^{-1}.$$
 
 **The speed of sound cancels**, so the answer does not depend on altitude except through the pressure ratio itself, which is the reason this estimate is worth making at all.
 
-**With the spike extended to 24.31 feet, and taking the difference in strength between the aeroplane's own shocks and the spike's shocklets as a fraction of ambient pressure, weak-shock theory gives a coalescence distance of 1.73 kilometres at the weakest shock difference in the range, which is the assumption most favourable to the spike, and 0.35 kilometres at a typical one. **The test altitude is 45,000 feet, which is 13,716 metres of air.**
+**That expression is not a new one and it is worth recognising.** It is the aging length of nonlinear acoustics, being the distance over which a wave of length $s$ and strength $\Delta p / p$ distorts into its asymptotic form,
 
-**So the shaped signature is destroyed in the first 12.6 percent of its journey on the assumption most generous to it, and the first 2.5 percent on a typical one.** **The conclusion survives an order of magnitude of uncertainty in the assumed shock strength**, which is why it is worth stating at all, and geometric spreading would have to lengthen the distance by a factor of 7.9 at best and 39.7 typically before the conclusion changed.
+$$r_{\text{age}} \;\sim\; s\,\frac{4\gamma}{(\gamma+1)}\,\frac{p}{\Delta p}.$$
 
-| Strength difference $\Delta(\Delta p)/p$ | Coalescence distance | As a share of the descent |
+**So the question of whether a spike survives to the ground and the question of when a signature becomes an N-wave are the same question**, asked with different words, and the classical theory answers both [[Whitham, Linear and nonlinear waves][book_whitham]] [[Hamilton and Blackstock, Nonlinear acoustics][book_hamilton_blackstock]].
+
+**With the spike extended to 24.31 feet, and taking the difference in strength between the aeroplane's own shocks and the spike's shocklets as a fraction of ambient pressure, weak-shock theory gives a coalescence distance of 1.73 kilometres at the weakest shock difference in the range and 0.35 kilometres at a typical one.**
+
+**The distance that matters is the ray path and not the altitude.** The ray leaves normal to the Mach cone, so it makes the Mach angle with the vertical, and its path from 45,000 feet is 19,598 metres rather than 13,716, which is 42.9 percent longer. **Against the ray path the coalescence occupies 8.8 percent of the journey at the weakest assumption and 1.8 percent at a typical one.**
+
+| Strength difference $\Delta(\Delta p)/p$ | Coalescence distance | As a share of the ray path |
 |---|---|---|
-| 0.01 | 1,729 m | 12.6 percent |
-| 0.02 | 864 m | 6.3 percent |
-| 0.03 | 576 m | 4.2 percent |
-| 0.05 | 346 m | 2.5 percent |
-| 0.10 | 173 m | 1.3 percent |
+| 0.01 | 1,729 m | 8.8 percent |
+| 0.02 | 864 m | 4.4 percent |
+| 0.03 | 576 m | 2.9 percent |
+| 0.05 | 346 m | 1.8 percent |
+| 0.10 | 173 m | 0.9 percent |
 
-**The assumed shock-strength difference is an assumption and this article will not pretend otherwise.** The record does not publish the near-field overpressures of the F-15B with the spike fitted in a form this calculation can consume directly. **What the table shows is that the conclusion does not depend on the assumption**, because across the whole plausible range the coalescence happens in the first eighth of the descent at worst.
+**The assumed shock-strength difference is an assumption and this article will not pretend otherwise.** The record does not publish the near-field overpressures of the F-15B with the spike fitted in a form this calculation can consume directly. **On this plane-wave estimate the conclusion looks independent of the assumption**, since the coalescence completes in the first tenth of the journey across the whole range. **The next subsection shows that appearance to be an artefact of the plane-wave assumption.**
 
-**Two limitations are stated rather than buried.** The estimate is a plane-wave result and real boom propagation spreads geometrically, which weakens both shocks with distance and lengthens the coalescence. It also treats the shock separation as fixed when it is in fact shrinking throughout. **The first effect lengthens $L$ and the second shortens it**, and the factor by which the first would have to win is 7.9 at the most generous assumption. **That is a large factor to find**, and the programme evidently did not expect to find it either.
+### The Spreading Correction, Which Changes the Answer at One End
+
+**The estimate above is a plane-wave result and a real boom spreads.** Both shocks weaken with distance, roughly as $r^{-1/2}$ before the wave has aged, so the closing rate falls as they travel and the coalescence takes longer than the plane-wave figure.
+
+Writing the strength difference as $\delta(r) = \delta_{0}\sqrt{r_{0}/r}$ and integrating the separation to zero,
+
+$$\frac{\mathrm{d}s}{\mathrm{d}r} \;=\; -\frac{\gamma+1}{4\gamma}\,\delta_{0}\sqrt{\frac{r_{0}}{r}}
+\qquad\Longrightarrow\qquad
+\sqrt{r_{c}} \;=\; \sqrt{r_{0}} \;+\; \frac{\mathcal{L}}{2\sqrt{r_{0}}},$$
+
+where $\mathcal{L}$ is exactly the plane-wave answer above and $r_{0}$ is the distance at which $\delta_{0}$ is quoted, taken here as one aeroplane length.
+
+**The correction changes the answer at one end of the range and not at the other.** Integrating the weakening gives a corrected distance of 1.9 kilometres at a typical near-field shock strength, being 9.7 percent of the ray path, against 0.35 kilometres uncorrected.
+
+**At the weakest strength in the range it does not complete at all.** The corrected distance there is 40.18 kilometres against 19,598 metres of ray path, so the shocks would still be separate when they arrived. **The plane-wave form of the estimate hides that**, because dividing a fixed closing rate into a fixed separation gives an answer that scales the same way at every strength. **The conclusion is therefore conditional.** It holds for strength differences of 0.02 and above, which is where an aeroplane the size of an F-15 actually sits, and fails below that.
+
+**So the programme's stated reason is correct for its own aeroplane and is not a general truth about spikes.** A weaker host, or a longer one, would push the coalescence further out, and that is the same observation that makes a purpose-built low-boom airframe work at all.
+
+| Strength difference at one length | Plane wave | With spreading | As a share of the ray path |
+|---|---|---|---|
+| 0.01 | 1,729 m | 40,177 m | never completes |
+| 0.02 | 864 m | 10,491 m | 53.5 percent |
+| 0.03 | 576 m | 4,866 m | 24.8 percent |
+| 0.05 | 346 m | 1,902 m | 9.7 percent |
+| 0.10 | 173 m | 577 m | 2.9 percent |
+
+**The finding stands where it matters and it is not universal**, and the table is the honest form of it.
 
 ## Whether the Shape Survives the Trip
 
@@ -149,7 +235,17 @@ $$L \;=\; \frac{a\,\ell}{\Delta U_{1}-\Delta U_{2}} \;=\; \ell\,\frac{4\gamma}{(
 
 The atmosphere is stratified, so rays bend. It is turbulent, so the wavefront is distorted by eddies it passes through. And it absorbs, so the shock front is not a discontinuity at all [[State of the art of sonic boom modeling][research_plotkin_state_of_art]] [[Sonic Boom Research: History and Future][research_maglieri_history]].
 
-**The last of these is the one that decides loudness.** A shock in a real gas has a thickness set by the competition between nonlinear steepening and molecular relaxation, and the resulting rise time varies inversely with the amplitude,
+**The bending is Snell's law with a continuously varying index and it has one conserved quantity.** For a horizontally stratified medium the ray parameter is invariant along a ray [[Pierce, Acoustics, an introduction to its physical principles and applications][book_pierce]],
+
+$$\frac{a(z)}{\cos\theta(z)} \;=\; V_{t} \;=\; \text{constant},$$
+
+where $\theta$ is the ray's angle below the horizontal and $V_{t}$ is the horizontal trace velocity of the wavefront. **Everything in this section and the next follows from that one line**, because a ray turns horizontal exactly where $a(z)$ reaches $V_{t}$, and it turns before the ground whenever the air below is fast enough.
+
+**The last of these is the one that decides loudness.** A shock in a real gas is not a jump. It is a steady balance between nonlinear steepening and diffusion, and the profile that balance produces is a hyperbolic tangent [[Blackstock, Fundamentals of physical acoustics][book_blackstock]],
+
+$$\Delta p(t) \;=\; \frac{\Delta p_{\max}}{2}\left[1 - \tanh\!\left(\frac{t}{\tau}\right)\right],$$
+
+whose width varies inversely with the amplitude,
 
 $$\tau \;\propto\; \frac{1}{\Delta p}.$$
 
@@ -165,11 +261,31 @@ The propagation codes that carry this work are the space agency's own, and they 
 
 **A pressure is not a loudness, and the rule is about loudness.**
 
+**Before any of that there is a units problem worth clearing away.** An overpressure becomes a level in the ordinary acoustic way,
+
+$$L_{p} \;=\; 20\log_{10}\!\left(\frac{\Delta p}{p_{\mathrm{ref}}}\right),
+\qquad p_{\mathrm{ref}} = 20\ \mu\mathrm{Pa},$$
+
+so the 0.11 pounds per square foot that later appears as a regulatory limit is 5.27 pascals, or 108.4 decibels peak, against roughly 133.6 for a Concorde at cruise. **The limit is 25.2 decibels below the aeroplane that provoked the rule.** As a fraction of the pressure the air is already at,
+
+$$\frac{\Delta p}{p_{\infty}} \;=\; 5.20 \times 10^{-5},$$
+
+which is one part in 19,000.
+
+**A ground measurement is also not the incident wave.** The surface reflects, and the two arrivals superpose, so a gauge on the ground reads, with $\mathcal{R}$ distinguished from the gas constant $R$,
+
+$$\Delta p_{\text{measured}} \;=\; (1 + \mathcal{R})\,\Delta p_{\text{incident}}
+\;\approx\; 1.9\,\Delta p_{\text{incident}},
+\qquad \mathcal{R} \approx 0.9,$$
+
+for a hard surface. **A rule written about the measured quantity is therefore written about roughly twice the wave the aeroplane sent**, which is a convention rather than a physical claim and is worth stating once.
+
 The metric the discipline settled on is the perceived level in decibels, computed by Stevens' Mark VII procedure from the one-third-octave spectrum of the waveform [[Perceived Level of Noise by Mark VII and Decibels][research_stevens_mark_vii]] [[Calculation of the perceived level of noise (PLdB) using Stevens' method (Mark VII)][research_pldb_calculation]]. **It was not invented for booms.** It was a general loudness metric that turned out to rank boom waveforms in an order that matched what listeners reported, which is the only property a metric of this kind needs.
 
 The sound exposure level, being the energy of the event referred to one second, is the other quantity in constant use,
 
-$$\mathrm{SEL} \;=\; 10\log_{10}\!\left[\frac{1}{T_{0}}\int \frac{p^{2}(t)}{p_{\mathrm{ref}}^{2}}\,\mathrm{d}t\right].$$
+$$\mathrm{SEL} \;=\; 10\log_{10}\!\left[\frac{1}{t_{\mathrm{ref}}}\int \frac{p^{2}(t)}{p_{\mathrm{ref}}^{2}}\,\mathrm{d}t\right],
+\qquad t_{\mathrm{ref}} = 1\ \mathrm{s}.$$
 
 **Neither number is the answer, because the answer is what people say.** The space agency has run human response programmes on this question since the 1960s, and it has run them in laboratories, in purpose-built simulators, and in people's own houses [[Overview of NASA human response to sonic boom program][research_human_response_overview]] [[Subjective response of people to simulated sonic booms in their homes][research_simulated_booms_homes]] [[Sonic boom acceptability studies][research_boom_acceptability]].
 
@@ -205,9 +321,29 @@ $$M_{\mathrm{co}} \;=\; \frac{a_{\text{ground}}}{a_{\text{cruise}}} \;=\; \sqrt{
 
 **For the standard atmosphere above the tropopause this gives 1.153**, and it is very nearly independent of altitude, because the temperature above 11 kilometres is constant [[U.S. Standard Atmosphere][ref_us_standard_atmosphere]] [[Anderson, Modern compressible flow][book_anderson_compressible]].
 
+**The ray invariant also says where the turning happens, and the answer is uncomfortably sensitive.** Below the tropopause the temperature is linear in height, so setting $a(z)$ equal to the trace velocity and squaring gives a turning altitude that is a straight line in the square of the Mach number,
+
+$$z_{\text{turn}} \;=\; \frac{T_{0} - M^{2}\,T_{\text{cruise}}}{L}.$$
+
+**At Mach 1.10 the ray turns at 4,001 metres, and at Mach 1.15 it turns at 251 metres.** A five-hundredths increase in Mach number collapses the shadow zone from 13,125 feet to 823, which is the margin an operator is managing.
+
 **So an aeroplane may fly at Mach 1.153 and make no boom on the ground whatever its shape.** The space agency measured this directly in 2012, flying an F-18 above a microphone array more than two kilometres long and mapping the acoustic field in the shadow zone below the cutoff altitude [[Mach Cutoff Analysis and Results from NASA's Farfield Investigation of No-Boom Thresholds][research_faint_mach_cutoff]] [[Lateral Cutoff Analysis and Results from NASA's Farfield Investigation of No-Boom Thresholds][research_faint_lateral_cutoff]]. What arrives is not silence but an evanescent rumble, and the programme measured it and named a metric for it [[Flight Demonstration Of Low Overpressure N-Wave Sonic Booms And Evanescent Waves][research_evanescent_demo]].
 
-**The catch is in the temperature ratio.** A ground temperature ten kelvin warmer or cooler moves the cutoff Mach number by 0.04, so the technique is not a chart but a forecast, and an operator using it is betting on an atmosphere it did not measure.
+**The catch is in the temperature ratio, and there is a second term the still-air form leaves out.** Wind adds to the propagation speed along the ray, so the quantity that matters is an effective sound speed rather than a thermodynamic one,
+
+$$c_{\mathrm{eff}}(z) \;=\; a(z) + \mathbf{u}(z)\cdot\hat{\mathbf{n}},
+\qquad
+M_{\mathrm{co}} \;=\; \frac{c_{\mathrm{eff}}(0)}{a(z_{\text{cruise}})} .$$
+
+**A ground temperature ten kelvin warmer or cooler moves the cutoff Mach number by 0.04 on its own**, and a tailwind at the surface moves it further. **So the technique is not a chart but a forecast**, and an operator using it is betting on an atmosphere it did not measure.
+
+**The same ratio also bounds the boom carpet.** A ray leaving at azimuth $\phi$ from the track carries a horizontal trace velocity reduced by the cosine, so it reaches the ground only while
+
+$$M\cos\phi \;\ge\; M_{\mathrm{co}}
+\qquad\Longrightarrow\qquad
+\phi_{\max} \;=\; \arccos\!\left(\frac{M_{\mathrm{co}}}{M}\right).$$
+
+**At Mach 1.4 that is 34.5 degrees**, and it widens to 50.2 degrees at Mach 1.8. **A supersonic aeroplane does not boom everything beneath it**, and the width of what it does boom is set by the same temperature ratio as the cutoff itself [[Lateral Cutoff Analysis and Results from NASA's Farfield Investigation of No-Boom Thresholds][research_faint_lateral_cutoff]].
 
 **Mach cutoff needs no low-boom aeroplane, no shaped signature and no new airframe.** It needs a temperature profile and a willingness to fly slowly. **It is the cheaper answer to the same question, and it is the one that was available.**
 
@@ -366,21 +502,29 @@ The later programme's design target is stated in perceived level rather than pre
 
 ## What the Data Changed
 
-**Three things changed while this article was being written and all three came from measurement rather than reading.**
+**Five things changed while this article was being written and every one came from measurement rather than reading. Two of them changed a conclusion this article had already drawn.**
 
-**The first is the coalescence distance.** The draft reproduced the flight test report's statement that the aeroplane's own shocks would overtake the spike's shocklets within a short distance, and treated that as the finding. **It is not the finding. It is the input to one.** Weak-shock theory turns `a short distance` into a number, and the number is a small fraction of the descent across the whole plausible range of assumptions. **A source that has done the measuring has not necessarily done the arithmetic**, which is the lesson the previous article in this series paid for in a table of actuator forces.
+**The first is the coalescence distance.** The draft reproduced the flight test report's statement that the aeroplane's own shocks would overtake the spike's shocklets within a short distance, and treated that as the finding. **It is not the finding. It is the input to one.** Weak-shock theory turns `a short distance` into a number. **A source that has done the measuring has not necessarily done the arithmetic**, which is the lesson the previous article in this series paid for in a table of actuator forces.
 
-**The second is that the sweep store was wrong here and the harvest script had predicted it would be right.** The prediction was written into the script before the harvest and is still there, which is the only reason the refutation is legible. **An aeronautical store failed an aeronautical subject** because the subject is a noise and the store had only ever met community-noise research as contamination.
+**The second is that the first version of that arithmetic divided by the wrong distance.** A boom does not travel straight down. The ray leaves normal to the Mach cone and makes the Mach angle with the vertical, so the path from 45,000 feet at Mach 1.4 is 19,598 metres and not 13,716. **Every percentage in the first version was too large by 42.9 percent**, and the error was in the direction that flattered the argument.
 
-**The third is a finding that was about to be published and was false.** On the main sweep alone, the mechanism that actually changed the rule measured 17 records against a pool of 2,627, and the shaping mechanism that did not change the rule measured 283. **That contrast was going to be reported.** A supplementary sweep aimed at it returned 87, and the contrast evaporated. **The first pool was not asked about Mach cutoff, and a pool that was not asked returns an absence indistinguishable from one that was.**
+**The third is that the conclusion is narrower than the draft claimed.** The plane-wave estimate made the finding look independent of the assumed shock strength, and adding geometric spreading shows that it is not. **At the weakest strength in the range the coalescence never completes**, reaching 40.18 kilometres against 19,598 metres of ray path. It completes at 0.02 and above, which is where an aeroplane the size of an F-15 sits. **The finding stands for the aeroplane the report was written about and is not a general truth about spikes**, and the draft did not say so because the draft had not done the correction.
+
+**The fourth is that the sweep store was wrong here and the harvest script had predicted it would be right.** The prediction was written into the script before the harvest and is still there, which is the only reason the refutation is legible. **An aeronautical store failed an aeronautical subject** because the subject is a noise and the store had only ever met community-noise research as contamination.
+
+**The fifth is a finding that was about to be published and was false.** On the main sweep alone, the mechanism that actually changed the rule measured 17 records against a pool of 2,627, and the shaping mechanism that did not change the rule measured 283. **That contrast was going to be reported.** A supplementary sweep aimed at it returned 87, and the contrast evaporated. **The first pool was not asked about Mach cutoff, and a pool that was not asked returns an absence indistinguishable from one that was.**
 
 ## Epistemic State
 
 **What is documentary fact.** The X-54A designation was allocated on 5 May 2008 to Gulfstream Aerospace with NASA as the sponsoring agency, with two Rolls-Royce Tay 651 engines and the mission statement quoted in full above. The Shaped Sonic Boom Demonstration flew on 27 August 2003 and measured a shaped signature on the ground. The Quiet Spike flew 32 flights on a NASA F-15B between August 2006 and February 2007, reached Mach 1.8 at 685 pounds per square foot, probed its near field at Mach 1.4, and did not attempt a ground measurement for the reason its report states. The prohibition on civil supersonic flight over the United States dates from 1973 and Executive Order 14304 of 6 June 2025 directs its repeal within 180 days.
 
-**What is computed here and not taken from a source.** The coalescence distances and their sensitivity, the cutoff Mach number and its temperature sensitivity, the Mach angles, the true airspeeds, the consistency of 685 pounds per square foot with Mach 1.8 at 45,000 feet, and every count in the Source Base. **The coalescence calculation rests on an assumed range of shock-strength differences that no source in this article supplies**, and the article reports the range rather than a value for that reason.
+**What is computed here and not taken from a source.** The coalescence distances both with and without geometric spreading, the ray path length, the cutoff Mach number and its temperature sensitivity, the turning altitude, the lateral cutoff azimuth, the Mach angles, the true airspeeds, the standard-atmosphere quantities, the threshold expressed as a level and as a pressure ratio, the consistency of 685 pounds per square foot with Mach 1.8 at 45,000 feet, and every count in the Source Base.
+
+**The coalescence calculation rests on an assumed range of shock-strength differences that no source in this article supplies**, and the article reports the range rather than a value for that reason. **It also rests on a reference distance at which that strength is quoted**, taken here as one aeroplane length, and the answer is sensitive to both. **The spreading-corrected result is the one to read**, and it does not support the conclusion at the weakest end of the range.
 
 **What is secondary and marked as such.** The X-54's cruise Mach number, altitude and perceived-level target, and the account that the agency regarded the designation as a placeholder. **None of the argument depends on any of them.**
+
+**What is an approximation rather than a result.** The spreading correction assumes both shocks weaken as the inverse square root of distance and that they weaken proportionally, neither of which is exact once the wave begins to age. **It is a bound rather than a prediction**, and a propagation code of the kind the discipline actually uses would answer the question properly [[PCBoom 7 Technical Reference, 2nd Edition][research_pcboom_technical]]. The Mach cutoff relation likewise assumes a horizontally stratified atmosphere and still air, and the article states the wind term without using it.
 
 **What is not known.** Why the aeroplane was not built. No primary document reviewed here records a decision, and the absence of a cancellation record is not evidence of a cancellation. **Also unknown is whether the interim standard the executive order directs was in place on the deadline**, which falls four days after this article's date and therefore outside what it can report.
 
@@ -400,7 +544,9 @@ The later programme's design target is stated in perceived level rather than pre
 
 **An X-designation is usually a promise that something will be flown, and this series has already documented several that were not.**
 
-The X-54A's registry entry made a narrower promise than most. It promised ground sonic boom signatures, in support of a regulatory change process, and it made that promise in 2008 because a flight test report had established two years earlier that no existing aeroplane could produce them. **The gap was real, the argument for filling it was correct, and the entry names the gap precisely.**
+The X-54A's registry entry made a narrower promise than most. It promised ground sonic boom signatures, in support of a regulatory change process, and it made that promise in 2008 because a flight test report had established two years earlier that no existing aeroplane could produce them. **The gap was real and the entry names it precisely.**
+
+**The argument for filling it survives arithmetic, though not quite in the form the report states it.** Working the overtaking through weak-shock theory shows that the spike's shocklets are consumed well before the ground for an aeroplane the size of the one they were bolted to, and that the same calculation would come out differently on a weaker or longer host. **The programme's reason was right about its own aeroplane rather than about spikes in general**, which is a smaller claim than the report makes and a sufficient one for what followed.
 
 **Nothing was built.** The evidence the entry describes was eventually gathered by a different aeroplane under a different number a decade later, and in the meantime the prohibition was ordered repealed on the strength of a technique that makes no ground boom at all rather than a quiet one.
 

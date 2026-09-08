@@ -10,10 +10,54 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A350 are drafted with all four passes complete on every one, committed and
-PUSHED. A351, Gulfstream X-54, has completed the DRAFT PASS ONLY and is committed and NOT pushed**,
-which is what the draft pass asks for. **Fifty-five of seventy-two drafted. None published, and
-publication has never been authorised. Seventeen articles remain.**
-The next prompt in the rhythm is A351's **equation-density review**.
+PUSHED. A351, Gulfstream X-54, has completed the DRAFT PASS and the EQUATION-DENSITY REVIEW and is
+committed and NOT pushed**, which is what those passes ask for. **Fifty-five of seventy-two drafted.
+None published, and publication has never been authorised. Seventeen articles remain.**
+The next prompt in the rhythm is A351's **primary-reference review**.
+
+**THE EQUATION PASS TOOK 11 DISPLAY EQUATIONS TO 31 AND CHANGED A CONCLUSION TWICE.** Adding the
+equations was not the point. Working them was, and two of the article's own claims did not survive
+being computed properly. **Both errors ran in the direction that flattered the argument.**
+
+**THE DRAFT DIVIDED BY THE WRONG DISTANCE.** A boom does not travel straight down. The ray leaves
+normal to the Mach cone, so the path from 45,000 feet at Mach 1.4 is **19,598 metres and not 13,716**,
+and every percentage in the draft's coalescence table was too large by 42.9 percent.
+
+**AND THE COALESCENCE CONCLUSION IS CONDITIONAL, WHICH THE PLANE-WAVE FORM HID.** The draft said the
+result did not depend on the assumed shock strength, and it looked that way because dividing a fixed
+closing rate into a fixed separation scales the same at every strength. **Adding geometric spreading
+breaks that.** At the weakest strength in the range the corrected distance is 40,177 metres against
+19,598 metres of ray path, so **the shocks would still be separate when they arrived**. The finding
+holds at 0.02 and above, which is where an aeroplane the size of an F-15 sits. **The programme's stated
+reason is right about its own aeroplane and is not a general truth about spikes**, and the article now
+says the smaller thing.
+
+**FOUR SYMBOL COLLISIONS SHIPPED INTO THE PASS AND READING FOUND THEM.** `T` was the temperature, the
+N-wave duration and the sound-exposure reference time. `L` was the lapse rate, the coalescence distance
+and the sound pressure level. `R` was the gas constant and the ground reflection coefficient. `\ell`
+was the lift per unit length and the shock separation. **A349 shipped the same class using `m` and `n`
+for two things each.** `verify_numbers.py` now carries a declared symbol table and refuses anything
+undeclared, and it was proved non-vacuous by injecting an undeclared symbol and watching it fail.
+**The check was itself wrong on its first run** and reported LaTeX operators as undeclared, because
+`\int_{0}` is `\int` followed by an underscore and a trailing word boundary never matches one.
+
+**A PIPE MASKED A FAILED ASSEMBLY AND THE VERIFIER VALIDATED STALE BYTES.** `assemble.py | tail` reports
+the exit status of `tail`, so a shell `&&` let the verifier run against the previous draft and report
+all checks passing. **`verify_numbers.py` now refuses to run when any input is newer than the draft.**
+
+**THREE NEW EQUATIONS PRODUCE NUMBERS THE ARTICLE COULD NOT STATE BEFORE.** The dynamic pressure
+relation is a check on the record and the record passes it, since 685 pounds per square foot at 45,000
+feet inverts to **Mach 1.782** against a stated 1.8. The turning altitude collapses from 4,001 metres
+at Mach 1.10 to 251 metres at Mach 1.15. The 0.11 pound per square foot threshold is 5.27 pascals,
+**108.4 decibels peak** against roughly 133.6 for a Concorde, and one part in 19,000 of ambient.
+
+**AND ONE IS AN ENGINEERING TENSION THE ARTICLE HAD STATED ONLY IN WORDS.** Wave drag is a functional
+of the same second derivative that sets the F-function, so the boom and the drag are two functionals of
+one function and the distribution minimising one does not minimise the other.
+
+**TWO PASSAGES NARRATED THE ARTICLE'S OWN DRAFTING HISTORY INSIDE THE ARGUMENT AND WERE REWRITTEN**,
+which is the A345 rule. The corrected position is stated directly and the correction lives in What the
+Data Changed.
 
 **A351's SUBJECT IS AN AEROPLANE THAT WAS NEVER BUILT, AND ITS REGISTRY ENTRY IS THE ARTICLE.** The
 X-54A was allocated on 5 May 2008 to Gulfstream Aerospace, sponsored by NASA, with the mission stated
@@ -72,7 +116,7 @@ are emitted and cannot drift while body labels are typed. **It found one mismatc
 this repository would have seen.** Separately, the identifier check caught one wrong curated DOI before
 assembly, pointing at a paper on thermals and cloud modelling.
 
-**A351 COUNTS.** 6,745 lines, 39,473 words, 11 display equations, 3,159 reference definitions, 3,072
+**A351 COUNTS AFTER THE EQUATION PASS.** 6,891 lines, 41,392 words, **31 display equations**, 3,159 reference definitions, 3,072
 research records, **318 report primaries at 10.4 percent**, 42 curated sources with every identifier
 verified, 7 books resolved on the search index, 8,289 records retrieved across two sweeps, 3,210
 through the gate, 11 clusters with a residual of 57.
