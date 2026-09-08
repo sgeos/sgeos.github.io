@@ -54,7 +54,12 @@ STORE = os.path.join(HERE, "rejected.json")
 NOISE_PATTERNS = [
     # ---- observed in the A369 compiler sweep, by reading the venue histogram
     (r"\bdielectric\b", "A369: 'binary translation' returned 45 records on the static "
-                        "dielectric constants of BINARY LIQUID MIXTURES"),
+                        "dielectric constants of BINARY LIQUID MIXTURES. **A352 TAGGED IT** "
+                        "because DIELECTRIC CURE MONITORING is how a thermoset's state of "
+                        "cure is measured in situ, and this pattern deleted 90 records "
+                        "including 'Dielectric Measurements for Monitoring the Cure of "
+                        "Epoxies and Composite Materials'",
+     "cure-monitoring"),
     (r"\bliquid mixtur", "A369: same incident as dielectric"),
     (r"\blanguage corpora\b", "A369: 'code corpora' returned LINGUISTIC corpora"),
     (r"\bmeasure spaces\b", "A369: 'metric' returned MEASURE THEORY"),
@@ -116,7 +121,11 @@ NOISE_PATTERNS = [
      "A345: 'frequency sweep' is a flight-test excitation and also the SWEEP OF A MASS "
      "SPECTROMETER"),
     (r"guided wave signal|ultrasonic (?:noise|guided)",
-     "A345: 'frequency sweep' and 'noise' both belong to ULTRASONIC NDT"),
+     "A345: 'frequency sweep' and 'noise' both belong to ULTRASONIC NDT. **A352 TAGGED "
+     "IT** because a bonded joint's acceptance criterion IS an ultrasonic inspection, and "
+     "this pattern deleted 'Health Monitoring of Composite Structures Using Ultrasonic "
+     "Guided Waves'",
+     "ndt"),
     (r"\bchorus (?:rising|element|wave)", "A345: 'frequency sweep' is also a MAGNETOSPHERIC "
                                          "CHORUS EMISSION in space physics"),
     (r"heat (?:transfer|exchanger).{0,70}\btubes?\b|\btubes?\b.{0,70}heat (?:transfer|exchanger)",
@@ -156,7 +165,7 @@ NOISE_PATTERNS = [
      "'Numerical Flow Analysis of a Corrugated Dragonfly Airfoil Using Cartesian-Mesh "
      "CFD' reached the kept set through the CARTESIAN MESH query rather than through the "
      "aeroplane's name, which is why a name-based filter would have missed it"),
-    (r"drug delivery|ferrofluid|\bblood flow\b|arter(?:y|ial|ies)|cardiac|\bstent\b|"
+    (r"drug delivery|ferrofluid|\bblood flow\b|arter(?:y|ial|ies)|cardiac|\bstent(?:s|ing)?\b|"
      r"aneurysm|respiratory tract|biomedical|physiolog",
      "A348: BIOMEDICAL COMPUTATIONAL FLUID DYNAMICS. 'Hydrodynamic modelling and CFD "
      "simulation of ferrofluids flow in magnetic targeting drug delivery' reached the "
@@ -206,7 +215,10 @@ NOISE_PATTERNS = [
      "A347: THICK-SECTION COMPOSITE STRUCTURES against a THICK AEROFOIL SECTION. The X-50's "
      "rotor is 24 percent thick and the word `thick` anchors that family, so 'Damage "
      "Tolerance of Thick-Section Composites Subjected to Ballistic Impact' reached the "
-     "aerofoil cluster"),
+     "aerofoil cluster. **A352 TAGGED IT** because delamination is the failure mode of the "
+     "bonded, unitised structure that article is about, and this pattern deleted 93 records "
+     "including 'Delamination Resistance Of Laminate Made With VBO MTM46/HTS Prepreg'",
+     "delamination"),
     (r"hypersonic|high enthalpy|scramjet|reentry vehicle|re-entry vehicle|"
      r"ablation.{0,30}(?:cone|nose|heat shield)|aerothermodynamic",
      "A347: HYPERSONICS IN A SUBSONIC ROTORCRAFT SURVEY. 55 records reached the kept set, "
@@ -229,9 +241,18 @@ NOISE_PATTERNS = [
      "helicopters and genuinely about hover, and it is about the PILOT rather than the "
      "aircraft. A347's subject was unmanned, which is what makes the family off-topic "
      "here rather than merely peripheral"),
+    (r"adhesive bond",
+     "A347 recorded this inside the rotor-blade repair entry below. **A352 SPLIT IT OUT AND "
+     "TAGGED IT**, because adhesive bonding is how a unitised composite airframe is joined "
+     "and is therefore that article's subject rather than its contamination. The combined "
+     "entry deleted 207 records including 'Effects of processing conditions on bondline "
+     "void formation in vacuum bag only adhesive bonding'. **A TAG ON THE WHOLE ENTRY WOULD "
+     "HAVE OPENED THE WRONG HALF**, since rotor-blade pockets and hot corrosion are still "
+     "contamination, so the family was separated rather than the entry weakened",
+     "adhesive-bonding"),
     (r"field[- ](?:replaceable|repairable)|expendable.{0,20}rotor blade|"
      r"blade (?:pocket|repair|bonding)|hot corrosion|"
-     r"adhesive bond|corrosion (?:protection|resistance|fatigue)|depot (?:level|maintenance)",
+     r"corrosion (?:protection|resistance|fatigue)|depot (?:level|maintenance)",
      "A347: ROTOR BLADE STRUCTURAL REPAIR AND MATERIALS. 'Bonded Field-Replaceable Rotor "
      "Blade Pocket for the CH-54B' and a hot corrosion study reached the kept set. The "
      "words name a rotor blade and the subject is adhesives and corrosion, which is a "
@@ -392,6 +413,16 @@ NOISE_PATTERNS = [
      "ocean-modelling"),
 
     # ---- general field bleed, seen across several sweeps
+    (r"\bdentin\w*|\bdental\b|\bdentist|\benamel\b|endodont|orthodont|"
+     r"\btooth\b|\bteeth\b|\bcaries\b|\bocclusal\b|\bveneers?\b|"
+     r"composite restorat|resin cement",
+     "A352: DENTAL RESIN COMPOSITES. A composites-manufacturing article must switch off "
+     "`composites`, `adhesive-bonding` and `fracture`, and doing so readmitted 39 records "
+     "on restorative dentistry, which uses BOND STRENGTH, CURE KINETICS, RESIN COMPOSITE "
+     "and DEGREE OF CONVERSION as its own terms of art. 'MICROTENSILE BOND STRENGTH OF "
+     "SELF-ADHESIVE RESIN COMPOSITE TO DENTIN' reached the kept set. **The cost of a "
+     "widening arrives at the moment of widening**, and this is that cost",
+     "dentistry"),
     (r"\bpatient\b|\bclinic", "medical bleed, seen in most sweeps", "medicine"),
     (r"\bvaccin|\bepidemi|\bmortality\b", "public-health bleed", "medicine"),
     (r"\bblood pressure\b|\bcholesterol\b",
@@ -476,12 +507,22 @@ NOISE_PATTERNS = [
     (r"\bcrack\b|\bfatigue crack|\bstress intensity\b|\bfracture toughness\b",
      "A335: CRACK OPENING LOAD in fracture mechanics shares the exact phrase with "
      "PARACHUTE OPENING LOAD, which is the article's term of art. 'Observations on "
-     "fatigue crack opening load determinations' reached the kept set"),
+     "fatigue crack opening load determinations' reached the kept set. **A352 TAGGED IT** "
+     "because interlaminar fracture toughness is the property that decides whether a bonded "
+     "composite joint is acceptable, and this pattern deleted 68 records including "
+     "'Evaluation of Interlaminar Fracture Toughness of Out-of-Plane Wrinkled Prepreg "
+     "Woven CFRP Laminates'",
+     "fracture"),
     (r"\bepoxy\b|\bresin\b|\blaminate\b|\bcomposite\b.{0,30}\bimpact tolerance\b|"
      r"\bimpact tolerance\b.{0,30}\bcomposite\b",
      "A335: IMPACT TOLERANCE means MATERIAL TOUGHNESS in composites and HUMAN "
      "ACCELERATION TOLERANCE in aeromedicine. 'Advanced epoxy composites of improved "
-     "impact tolerance' reached the kept set through the aeromedical anchor"),
+     "impact tolerance' reached the kept set through the aeromedical anchor. **A352 TAGGED "
+     "IT AND IT IS THE MOST EXPENSIVE ENTRY IN THIS FILE FOR A COMPOSITES SUBJECT.** "
+     "`epoxy`, `resin` and `laminate` are bare words naming that article's entire subject, "
+     "and this one entry deleted 1,529 records, being 63 percent of every deletion the "
+     "store made from an 11,325-record harvest",
+     "composites"),
     (r"\bparachute flare\b|\billumination flare\b|\bflare\b.{0,25}\b(?:munition|"
      r"pyrotechnic|binder|candle)",
      "A335: THE PARACHUTE FLARE IS A PARACHUTE-SUSPENDED MUNITION and shares both "
@@ -741,7 +782,11 @@ NOISE_PATTERNS = [
      "consumes, against the COMPILER COST MODEL, meaning the time or space a "
      "program consumes. 'A Common Sense Approach to Software Cost Model Selection' "
      "reached the kept set. BOTH SENSES ARE COMPUTING, so a computing qualifier "
-     "cannot separate them and only the subject matter can"),
+     "cannot separate them and only the subject matter can. **A352 TAGGED IT**, because "
+     "the X-55's registry entry names `extreme time and cost compression` as the thing to "
+     "be validated, and this pattern deleted 'Composite Airframe Cost Estimation Model "
+     "Research' along with two carbon-fibre manufacturing cost models",
+     "cost-estimation"),
 
     # ---- observed in the A341 sweep, by reading the kept sample the gate returned.
     #      Every one of these shares a whole phrase with the subject rather than a
@@ -861,7 +906,8 @@ NOISE_PATTERNS = [
      "'Unmanned Aerial Vehicles for Post Disaster Surveys'. A pattern narrow enough to "
      "name its examples catches only its examples"),
     (r"wafer[- ]level|redistribution layer|\bcmos\b|\bvlsi\b|integrated circuit|"
-     r"solder (?:joint|bump)|semiconductor packag|flip chip|hybrid bonding",
+     r"solder (?:joint|bump)|semiconductor packag|flip chip|hybrid bonding|"
+     r"die attach|underfill|leadframe",
      "A342: FAN-OUT IS A SEMICONDUCTOR PACKAGING TERM AS WELL AS THIS ARTICLE'S "
      "KEYSTONE. Fan-out wafer-level packaging is a large and active field sharing the "
      "exact hyphenated term, and 'Redistribution Layer Routing for Fan-Out Wafer-Level "

@@ -17,6 +17,81 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Lockheed Martin X-55 ACCA A352 2025-11-30
+
+`x_planes_lockheed_martin_x55_acca.markdown`, A352, editorial date 2025-11-30, series `x_planes` index 56 of 72.
+
+**10,459 lines, 8 display equations, 4,970 reference definitions, 59,764 words after the draft
+pass.** **DRAFT PASS COMPLETE, the first of four.** Committed and **NOT pushed**, which is the
+rhythm. **Not published**, and publication of the series has never been authorised.
+**Manufacturing-demonstrator class, and the first article in this series whose subject is a way of
+building rather than a way of flying.**
+
+**THE REGISTRY ENTRY IS THE ARTICLE AND ITS UNIQUENESS IS MEASURED RATHER THAN ASSERTED.** The X-55A
+was allocated on 19 October 2009 to Lockheed Martin, with two Pratt and Whitney PW306B engines and
+the Air Force as sponsor, to validate **extreme time and cost compression in airframe manufacture
+using large, unitized composite structures fabricated using low-temperature, out-of autoclave curing
+techniques**. **Of 526 allocation rows in the addendum it is the only entry naming manufacture, the
+only one naming fabrication, the only one naming a unitized structure and the only one mentioning an
+autoclave.** Ten others name cost and every one of them describes a vehicle that is itself cheap.
+
+**THE FIRST OPENING CLAIMED MORE THAN THE MEASUREMENT SUPPORTED AND WAS NARROWED.** It said one entry
+alone describes how a vehicle would be built. **The FA-18E entry records forty-two percent fewer
+structural parts**, which is a construction claim and is the X-55's own metric. The distinction that
+survives is sharper: the fighter's part count is a property it already has, and the X-55's manufacture
+is the hypothesis.
+
+**THE NUMBER ARRIVED 139 DAYS AFTER THE FIRST FLIGHT**, the aeroplane having flown on 2 June 2009 and
+been designated on 19 October. **That is the third article running in which the number and the flying
+have come apart.**
+
+**THE CENTRAL ARITHMETIC IS THAT THE REGISTRY ENTRY PULLS AGAINST ITSELF.** An Arrhenius law fitted to
+two lines of the MTM45-1 datasheet gives **54.5 kilojoules per mole** and predicts the table's third
+entry at 3.02 hours against a recommended four, a margin of 32.2 percent. **Counting the mandatory
+post-cure, the low-temperature route costs three times the autoclave route's oven dwell and the
+lowest-temperature option costs eleven times.** The time compression cannot come from the cure.
+
+**THE SCHEDULE IS THE HALF THAT FAILED.** Twelve months were asked for and about twenty were taken,
+**because the skin on the lower fuselage did not bond and a second fuselage had to be built**. The
+demonstration of time compression was delayed by the process being demonstrated, and the cost half
+held.
+
+**THE FASTENER ARITHMETIC LOCATES THE SAVING WHERE THE DEMONSTRATOR CANNOT REACH IT.** Thirty-six
+thousand fasteners were not installed, worth **0.24 to 2.44 percent of the 49,097,981 dollar Phase II
+contract** across a tenfold range of assumptions. The saving is recurring and a demonstrator is a run
+of one.
+
+**A SUSPICION FAILED AND THE FAILURE IS IN THE ARTICLE.** The autoclave-size argument gives **18.4
+tonnes of shell** for a vessel that would take the part, so it is real at launch-vehicle scale and
+false here. **The void arithmetic was also wrong in the flattering direction** and correcting it moved
+the required pressure ratio from 8.30 to 8.96, further beyond what an autoclave supplies.
+
+**THE ATMOSPHERE IS LOAD-BEARING IN EXACTLY ONE PLACE.** Air Force Plant 42 stands at 2,543 feet,
+where the whole atmosphere is **27.27 inches of mercury** and the prepreg datasheet asks for a minimum
+vacuum of **29.00**. Elevation alone costs 8.85 percent of the available consolidation pressure.
+
+**THE SWEEP STORE WAS ARMED AGAINST THE ENTIRE SUBJECT.** With every pattern armed it refused **2,430
+of 11,325 records, being 21.5 percent**, and a single `epoxy|resin|laminate` entry accounted for
+1,529 of them. **Seven new tag families and one entry split** took it to 432 at 3.8 percent. Store
+**134 patterns, 25 tag families**.
+
+**REWORDING BEAT SWEEPING IN FIVE OF SIX THIN SUBJECTS**, out-life going 7 to 150 on vocabulary and
+150 to 196 on a sweep, reported in three columns after the first version conflated the two moves.
+
+**FIVE CHECKERS COULD NOT FAIL WHEN FIRST WRITTEN**, including an injection harness that patched a
+source pattern list while the code reads a compiled cache, and therefore reported a good test as
+vacuous.
+
+**Verifier clean at 0 errors and 0 warnings. Tests 106 of 106. Lint 0 defects.** The article's own
+verifier runs six checks and every one was proved capable of failing by injection.
+
+**The stub-isolated production build succeeded in 700 seconds with no Liquid error, against the
+exact bytes committed**, the checksum having been matched against the stub copy before the build
+started and against both stub and draft after it finished. **The rendered audit reports no findings
+across 91 pages.** Source and rendered display-equation counts agree at **8**, with **zero raw dollar
+pairs leaking**, **zero unresolved reference brackets**, **zero unexpanded slots** and **zero
+unrendered Liquid**. The page is 934,230 bytes.
+
 ## X-Planes Gulfstream X-54 A351 2025-11-29
 
 `x_planes_gulfstream_x54.markdown`, A351, editorial date 2025-11-29, series `x_planes` index 55 of 72.

@@ -9,209 +9,108 @@ Current task state and verification log. This file is the shared source of truth
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
-**Status**: **A297 through A350 are drafted with all four passes complete on every one, committed and
-PUSHED. A351, Gulfstream X-54, has completed ALL FOUR PASSES and is committed and PUSHED.**
-**Fifty-five of seventy-two drafted. None published, and publication has never been authorised.
-Seventeen articles remain.** The next new article is **A352, the X-55**, editorial date 2025-11-30,
-series index 56.
+**Status**: **A297 through A351 are drafted with all four passes complete on every one, committed and
+PUSHED. A352, Lockheed Martin X-55 ACCA, has completed its DRAFT PASS and is committed and NOT
+pushed**, which is the rhythm. **Fifty-six of seventy-two drafted. None published, and publication has
+never been authorised. Sixteen articles remain.** The next pass is **A352's equation-density review**.
 
-**A351's PUBLICATION REVIEW FOUND A DEFECT BY READING THE OPENING AGAINST THE CONCLUSION, WHICH IS NOW
-SEVEN CONSECUTIVE ARTICLES.** The conclusion predated the primary pass and did not mention its central
-finding, that Mach cutoff was measured in flight and published in 1971. **It described the repeal as
-resting on a technique the article treated as modern.** It now says the aeroplane was overtaken not by
-a newer idea but by an older one, and the opening carries the same fact in one clause.
+**THE SUBJECT IS MANUFACTURE AND NOT FLIGHT, AND THE REGISTRY ENTRY SAYS SO.** The X-55A was
+allocated on 19 October 2009 to Lockheed Martin with two Pratt and Whitney PW306B engines and the
+Air Force as sponsor, to `validate extreme time and cost compression in airframe manufacture using
+large, unitized composite structures fabricated using low-temperature, out-of autoclave curing
+techniques`. **Of 526 allocation rows in the addendum it is the only entry that names manufacture,
+the only one that names fabrication, the only one that names a unitized structure and the only one
+that mentions an autoclave.** Ten other entries name cost and every one of them describes a vehicle
+that is itself cheap, so cost is an adjective there and the dependent variable here. **The FA-18E
+entry is the register's only other construction claim**, recording forty-two percent fewer structural
+parts as a property of an aeroplane already in production.
 
-**FOUR OF THE SIX PROSE DEFECTS WERE REFERENTS THAT LATER PASSES BROKE.** `The last of these` pointed
-at a list the equation pass had come between, `the same year` had lost its antecedent twice, and
-`three years later` counted from a paragraph the primary pass inserted before it. **An insertion does
-not only risk a run-on. It breaks what the next paragraph points at.**
+**THE NUMBER ARRIVED 139 DAYS AFTER THE FIRST FLIGHT.** The aeroplane flew on 2 June 2009 and was
+designated on 19 October. **That is the third article running in which the number and the flying have
+come apart**, after an aeroplane designated a year after it stopped flying and a number allocated to
+an aeroplane never built.
 
-**A PREDICTION WAS STATED AS A MEASUREMENT.** The article said the spike cost the host aeroplane up to
-twenty-four percent of its supersonic lateral-directional stability. **That is a prediction from three
-aerodynamic models and flight measurement contradicted it**, the aeroplane proving more stable than a
-standard F-15 by Mach 1.8, with pitch damping rather than directional stability setting the limit.
-**This is the A350 misattribution class on a different quantity.** An unverified job title was also
-removed.
+**THE ARTICLE'S CENTRAL ARITHMETIC IS THAT THE REGISTRY ENTRY PULLS AGAINST ITSELF.** Low-temperature
+curing and time compression run in opposite directions, and the material datasheet prices the tension
+exactly. **Fitting an Arrhenius law to two lines of the MTM45-1 cure table gives 54.5 kilojoules per
+mole**, which predicts the table's third entry at 3.02 hours against a recommended four, a margin of
+32.2 percent that is what a process specification carries. **Counting the mandatory post-cure, the
+low-temperature route costs three times the oven dwell of the autoclave route it replaces and the
+lowest-temperature option costs eleven times.** So the time compression cannot come from the cure. It
+comes from part count, which is a recurring saving a run of one cannot collect.
 
-**THREE STATEMENTS HAD GONE STALE BETWEEN PASSES.** The Epistemic State still listed a threshold the
-primary pass had removed as out of horizon. **The shaping cluster was called the fourth largest and is
-the fifth**, three reference passes having moved it, so the rank is now emitted from the data with an
-ordinal table rather than typed.
+**AND THE SCHEDULE IS THE HALF THAT FAILED.** Twelve months were asked for and about twenty were
+taken, an overrun of roughly two thirds, **because the skin on the lower fuselage did not bond and a
+second fuselage had to be built**. The demonstration of time compression was delayed by the process
+being demonstrated. The cost half held, and the trade press recorded the programme as seven months
+late and on budget.
 
-**A CITATION LIST WAS TURNED INTO AN ARGUMENT.** The primary pass had left a paragraph reading `the
-article describes X, Y and Z` with fourteen citations and no content. It now carries what those
-documents record, which is that **the Quiet Spike's hard problem was structural rather than
-aerodynamic**, the aerodynamics having been confirmed in a wind tunnel in 2002.
+**THE FASTENER ARITHMETIC IS THE SHARPEST RESULT.** Thirty-six thousand fasteners were not installed,
+and at two to ten minutes each and a hundred to two hundred dollars an hour that is **0.24 to 2.44
+percent of the 49,097,981 dollar Phase II contract**. The saving is real and it is recurring, and a
+demonstrator is a run of one.
 
-**THE AGE OF THE LITERATURE IS ITSELF A FINDING AND THE ARTICLE NOW REPORTS IT.** Publication ran at
-31.8 records a year through the 1970s, **fell to 19.2 through the 1980s**, and has grown every decade
-since to 101.0 in the 2020s. **The decade following the 1971 cancellation and the 1973 rule is the only
-one in this corpus in which the subject shrank.** The report primaries median 1982 against 2008 for the
-corpus, a gap of twenty-six years, so a report-primary fraction of 12.1 percent reports when the
-subject was funded rather than how the article was researched. **Every ordinal claim in the survey
-commentary was checked against the survey's own table with no mismatches.**
+**A SUSPICION FAILED AND THE FAILURE IS IN THE ARTICLE.** The first draft of the autoclave argument
+said no autoclave was large enough. **The pressure vessel scaling gives 18.4 tonnes of shell for a
+vessel that would take the part**, an ordinary industrial machine, so the size argument is real at
+launch-vehicle scale and false at this one. The steel goes as the cube of the diameter, which is why
+it is real at the other scale.
 
-**THE PRIMARY PASS TOOK REPORT PRIMARIES FROM 318 AT 10.4 PERCENT TO 380 AT 12.1, AND THE CURATED SET
-FROM FORTY-TWO TO EIGHTY-FOUR.** The pass began by measuring which of the thirty-one display equations
-carried no citation. **Sixteen did not**, because the equation review had made a dozen subjects
-load-bearing that the draft had correctly treated as background, and **the four-pass rhythm has no
-step that re-asks whether an absent subject has become load-bearing**. This audit is that step.
+**THE ONE PLACE THE ATMOSPHERE IS LOAD-BEARING DECIDES A MANUFACTURING SPECIFICATION.** A vacuum bag
+cannot press harder than the air outside it, so consolidation is bounded by the elevation of the
+factory floor. **Air Force Plant 42 is at 2,543 feet, where the whole atmosphere is 27.27 inches of
+mercury and the prepreg datasheet asks for a minimum vacuum of 29.** Read as a gauge vacuum that
+specification is unattainable on that site by 1.73 inches. Elevation alone costs 8.85 percent of the
+available consolidation pressure. **`gate.ATMOSPHERE` is named for that computation and for nothing
+else.**
 
-**THE LARGEST GAIN CAME FROM BIBLIOGRAPHIES AND NOT FROM SWEEPING.** The Quiet Spike flight test
-report, the shaped-boom demonstration paper and the Mach cutoff investigation each list the work they
-were built on, and this article had been using their accounts of those documents rather than the
-documents. **This is the A350 finding one article later.** It added the Gulfstream design chain from
-2003 to 2009 including the March 2004 patent, the classical literature from 1956 to 1979 including
-Whitham on weak shocks and Hayes with the stratified-atmosphere code, the human-response experiments
-the loudness procedure was calibrated against, and the standard atmosphere the article computes in.
+**THE SWEEP STORE WAS ARMED AGAINST THIS ARTICLE'S ENTIRE SUBJECT AND THE MEASUREMENT WAS TAKEN
+FIRST.** With every pattern armed the store refused **2,430 of the 11,325-record main harvest, being
+21.5 percent**, and **a single entry accounted for 1,529 of them, 63 percent of every deletion**,
+being the alternation `epoxy`, `resin`, `laminate` recorded by A335. **Seven new tag families were
+written and one existing entry was split**, taking the refusal to 432 at 3.8 percent and recovering
+1,998 records. **The split is the new lesson and it runs opposite to A351's**: that article found a
+contaminant family spanning two entries, this one found a single entry spanning two families, and
+tagging the whole entry would have readmitted rotor blade pockets and hot corrosion. Store **134
+patterns, 25 tag families**, and `dentistry` was added in the same commit because switching off
+`composites`, `adhesive-bonding` and `fracture` readmitted thirty-nine records on restorative
+dentistry.
 
-**AND A FINDING THAT CHANGED THE SHAPE OF THE STORY. Mach cutoff was measured in flight and published
-in 1971**, which is two years before the prohibition it now helps displace and fifty-four before the
-order to repeal it. The article had it as the modern alternative demonstrated in 2012. **That came out
-of a bibliography, and it turns the closing argument from a new technique overtaking an old aeroplane
-into an old technique outlasting one.**
+**REWORDING BEAT SWEEPING IN FIVE OF SIX THIN SUBJECTS, WHICH IS THE EIGHTH ARTICLE RUNNING.**
+Out-life went 7 to 150 on vocabulary alone and 150 to 196 on a sweep. **The three columns are
+reported separately because the first version of that table conflated them**, crediting the
+vocabulary with the sweep's records inside the very fragment that warns against doing so.
 
-**THE EQUATION PASS HAD SHIPPED AN ANACHRONISM AND THIS PASS CAUGHT IT.** A regulatory limit of 0.11
-pounds per square foot went into an article dated November 2025, and it is the interim limit in a
-notice of proposed rulemaking published in **July 2026**. The prose promised it would `later appear`
-in an article that stops before it does. **An anachronism hides in a number as easily as in a
-sponsor's name.** The passage is re-anchored on Concorde at roughly two pounds per square foot, and
-`verify_numbers.py` now refuses any year in the prose after the dateline.
+**FIVE CHECKERS COULD NOT FAIL WHEN FIRST WRITTEN AND EVERY ONE WAS CAUGHT BY COUNTING WHAT IT HAD
+LOOKED AT.** The gate's self-satisfying-conjunction test parsed zero candidates and missed an
+injected defect. The store injection harness patched the source pattern list while the code reads a
+compiled cache, so it injected nothing and **reported a good test as vacuous**. The symbol table
+stripped every macro before scanning and could not see a Greek letter. The assembler's leftover-slot
+regex could not match a digit, and nine of eighty-two slots carry one. And the probe's separator
+helper crashed on a character class.
 
-**A DOUBLED BACKSLASH IS INVISIBLE TO A MACRO ALLOWLIST**, since `\\times` contains `\times`, so the
-check added last pass passed it while MathJax would have rendered a line break and a word. It came out
-of an emitter whose escaping had been through a heredoc twice. **A HARD-CODED WORD LIST IN THE
-VERIFIER ALSO REPORTED THE ARTICLE AS WRONG WHEN THE CHECKER WAS STALE**, the store having gained two
-tag families. Both are fixed and both fixes were proved by injection.
+**THE PERIOD STATISTICS NOW STOP AT THE DATELINE AND THE BIBLIOGRAPHY DOES NOT.** 136 records carry a
+year after 30 November 2025 and are excluded from every statistic while remaining cited, because a
+rate computed over papers not yet written is a claim about the future wearing the clothes of a
+measurement. **A351 states a median over a corpus holding forty-nine records dated after its own
+dateline**, which is the established convention for citation and had not been separated from
+statistics before.
 
-**ONE IDENTIFIER COULD NOT BE VERIFIED AND WAS DROPPED RATHER THAN CITED.** `Sonic Boom: Six Decades of
-Research` is the standard monograph and the NTRS API returns 404 on four consecutive requests while
-the citations page returns 200. **That 200 is the single-page-app shell.**
+**Verifier clean at 0 errors and 0 warnings. Tests 106 of 106. Lint 0 defects.**
 
-**A NEW CONTAMINANT FAMILY WAS EARNED. `community response` IS AN ECOLOGICAL TERM AS WELL AS AN
-ACOUSTIC ONE**, and a plant-community treatment study reached the kept set of a survey whose
-second-largest cluster is community response to noise. Coupled atmosphere-ocean modelling was recorded
-at the same time and also removed three ocean shadow-zone studies that had entered through the
-atmospheric shadow-zone anchor. **Store 132 patterns, seventeen tags.** `merge_sweeps.py` now re-gates
-all three sweeps together whenever the store changes, because a pattern is global and re-gating one
-sweep would leave the corpus as the union of two instruments.
+**The stub-isolated production build succeeded in 700 seconds with no Liquid error, against the
+exact bytes committed**, the checksum having been matched against the stub copy before the build
+started and against both stub and draft after it finished. **The rendered audit reports no findings
+across 91 pages.** Source and rendered display-equation counts agree at **8**, with **zero raw dollar
+pairs leaking**, **zero unresolved reference brackets**, **zero unexpanded slots** and **zero
+unrendered Liquid**. The page is 934,230 bytes.
 
-**THE EQUATION PASS TOOK 11 DISPLAY EQUATIONS TO 31 AND CHANGED A CONCLUSION TWICE.** Adding the
-equations was not the point. Working them was, and two of the article's own claims did not survive
-being computed properly. **Both errors ran in the direction that flattered the argument.**
 
-**THE DRAFT DIVIDED BY THE WRONG DISTANCE.** A boom does not travel straight down. The ray leaves
-normal to the Mach cone, so the path from 45,000 feet at Mach 1.4 is **19,598 metres and not 13,716**,
-and every percentage in the draft's coalescence table was too large by 42.9 percent.
-
-**AND THE COALESCENCE CONCLUSION IS CONDITIONAL, WHICH THE PLANE-WAVE FORM HID.** The draft said the
-result did not depend on the assumed shock strength, and it looked that way because dividing a fixed
-closing rate into a fixed separation scales the same at every strength. **Adding geometric spreading
-breaks that.** At the weakest strength in the range the corrected distance is 40,177 metres against
-19,598 metres of ray path, so **the shocks would still be separate when they arrived**. The finding
-holds at 0.02 and above, which is where an aeroplane the size of an F-15 sits. **The programme's stated
-reason is right about its own aeroplane and is not a general truth about spikes**, and the article now
-says the smaller thing.
-
-**FOUR SYMBOL COLLISIONS SHIPPED INTO THE PASS AND READING FOUND THEM.** `T` was the temperature, the
-N-wave duration and the sound-exposure reference time. `L` was the lapse rate, the coalescence distance
-and the sound pressure level. `R` was the gas constant and the ground reflection coefficient. `\ell`
-was the lift per unit length and the shock separation. **A349 shipped the same class using `m` and `n`
-for two things each.** `verify_numbers.py` now carries a declared symbol table and refuses anything
-undeclared, and it was proved non-vacuous by injecting an undeclared symbol and watching it fail.
-**The check was itself wrong on its first run** and reported LaTeX operators as undeclared, because
-`\int_{0}` is `\int` followed by an underscore and a trailing word boundary never matches one.
-
-**A PIPE MASKED A FAILED ASSEMBLY AND THE VERIFIER VALIDATED STALE BYTES.** `assemble.py | tail` reports
-the exit status of `tail`, so a shell `&&` let the verifier run against the previous draft and report
-all checks passing. **`verify_numbers.py` now refuses to run when any input is newer than the draft.**
-
-**THREE NEW EQUATIONS PRODUCE NUMBERS THE ARTICLE COULD NOT STATE BEFORE.** The dynamic pressure
-relation is a check on the record and the record passes it, since 685 pounds per square foot at 45,000
-feet inverts to **Mach 1.782** against a stated 1.8. The turning altitude collapses from 4,001 metres
-at Mach 1.10 to 251 metres at Mach 1.15. The 0.11 pound per square foot threshold is 5.27 pascals,
-**108.4 decibels peak** against roughly 133.6 for a Concorde, and one part in 19,000 of ambient.
-
-**AND ONE IS AN ENGINEERING TENSION THE ARTICLE HAD STATED ONLY IN WORDS.** Wave drag is a functional
-of the same second derivative that sets the F-function, so the boom and the drag are two functionals of
-one function and the distribution minimising one does not minimise the other.
-
-**TWO PASSAGES NARRATED THE ARTICLE'S OWN DRAFTING HISTORY INSIDE THE ARGUMENT AND WERE REWRITTEN**,
-which is the A345 rule. The corrected position is stated directly and the correction lives in What the
-Data Changed.
-
-**A351's SUBJECT IS AN AEROPLANE THAT WAS NEVER BUILT, AND ITS REGISTRY ENTRY IS THE ARTICLE.** The
-X-54A was allocated on 5 May 2008 to Gulfstream Aerospace, sponsored by NASA, with the mission stated
-as generating relevant ground sonic boom signatures `in support of NASA and a regulatory change
-process`. **Of the 510 designations allocated between August 1998 and November 2025, exactly one
-mission statement contains the word `regulatory`**, and `certification`, `rulemaking` and `policy`
-appear in none. That is measured by `registry_scan.py` and asserted by `assemble.py`, because it is the
-first sentence a reader meets. **The first version of that opening was an impression and was false**,
-having claimed every other aeroplane in the series was designated to fly when the X-6, X-20, X-30 and
-X-33 all have articles here and none flew as designated.
-
-**THE CENTRAL COMPUTATION IS ONE THE SOURCE SET OUT AND DID NOT PERFORM.** The Quiet Spike flight test
-report states that a ground signature was not attempted because the aeroplane's own shocks would
-overtake the spike's shocklets `within a short distance below the flight path`. **That is a quantity
-and weak-shock theory gives it.** The coalescence distance is 1.73 kilometres at the weakest shock
-difference in the plausible range and 0.35 kilometres at a typical one, against 13,716 metres of air
-below the test altitude, so **the shaped signature is destroyed in the first 12.6 percent of its
-journey at best and the first 2.5 percent typically**. The conclusion survives an order of magnitude of
-uncertainty and both limitations of the estimate are stated in the article.
-
-**THE SWEEP STORE PREDICTED WRONG AND THE PREDICTION WAS WRITTEN DOWN BEFORE THE MEASUREMENT.** The
-harvest script said an aeronautical subject would need no tag. **Thirteen families had to be switched
-off.** Fully armed the store dropped 375 records and the gate kept 2,485; with thirteen off it dropped
-147 and the gate kept 2,577, so 228 returned and 92 reached the corpus. Deleted records included
-`Underwater measurements of a sonic boom` and a citation of the 1976 standard atmosphere. **The store
-is about aeroplanes and this article is about a noise**, and community-noise research is one field in
-which railways, roads and wind turbines are cases beside aircraft rather than contaminants.
-**Nine tag families were added, taking the store from six tags to fifteen across 130 patterns.**
-
-**A SECOND PATTERN COVERED AN ALREADY-TAGGED FAMILY AND STAYED ARMED.** The wind-turbine
-community-noise literature was still being deleted after the `wind-energy` tag was applied, because two
-store entries match that family and only one carried the tag. **That is the failure `homonyms.TAGS`
-exists to prevent, met from a direction the mechanism does not cover**, since a tag switches off one
-pattern while a family can be spread across several. Found by measuring the residual, not by reading.
-
-**A FALSE FINDING WAS CAUGHT BEFORE IT SHIPPED.** On the main sweep Mach cutoff measured 17 records
-against 2,627 while low-boom shaping measured 283, and the article was going to report that the
-mechanism which changed the rule is less studied than the one that did not. **A supplementary sweep
-returned 87 and the contrast evaporated.** Rewording had moved it 24 to 17, so the vocabulary did
-nothing and the harvest did all of it.
-
-**FOUR INSTRUMENTS FAILED AND THREE FAILED IN THE DANGEROUS DIRECTION.** A `str.replace` matched
-nothing and reported success, so one of four gate patches silently did not apply. The number verifier
-cut the article at the survey heading, discarded everything after it and reported a present number
-missing. The paragraph-opening check used a lookahead that let a decimal through. The indoor-response
-probe's field wording was narrower than its plain wording and reported a shelf that shrank on
-restatement. **Every substitution in this article's scripts now asserts its match count.**
-
-**AND THE TEST WRITTEN TO LOCK THE STORE FIX IN PLACE PASSED FOR THE WRONG REASON.** Two of its
-eleven titles were never deleted by their title, having been removed through their venue, so those
-assertions would have passed with the fix reverted. **The test now asserts each title is armed before
-asserting the tag disarms it**, and the venue cases go through `filter_records`. Tests 105 of 105.
-
-**A NEW CHECKER COMPARES EVERY PROSE CITATION LABEL TO THE TITLE OF ITS TARGET**, since survey labels
-are emitted and cannot drift while body labels are typed. **It found one mismatch that nothing else in
-this repository would have seen.** Separately, the identifier check caught one wrong curated DOI before
-assembly, pointing at a paper on thermals and cloud modelling.
-
-**A351 FINAL COUNTS.** 7,077 lines, 44,766 words, **31 display equations**, 3,231 reference
-definitions, 3,143 research records, **380 report primaries at 12.1 percent**, 84 curated sources with
-every identifier verified, 7 books resolved on the search index, 9,521 records retrieved across three
-sweeps, 3,273 through the gate, 11 clusters. **106 prose citation labels checked against the titles
-they point at, none mismatched.** Median publication year 2008, report-primary median 1982.
-
-**A324's `book_jenkins` LABEL REMAINS THE ONE LIVE REPAIR**, unchanged. The key is correct and the
-label swallowed the title. **The OpenLibrary work pages returning Internal Error to a reader** is also
-unchanged, and this article's book keys were resolved against the search index rather than that
-endpoint.
-
-**All fifty-five drafts remain in `_drafts/`.** Fifty-four of them cite another draft in the set through
-`post_url` and none of those targets exists in `_posts/`, so **the set publishes in order or together**,
-and publishing any one alone fails the build.
-
+**Open for the pilot.** A324's malformed `book_jenkins` label over a correct key, unchanged. The
+OpenLibrary work pages returning Internal Error to a reader, unchanged. **And A350 ships a duplicated
+`## The Contemporary Literature` heading at lines 412 and 414**, found while comparing section
+structures, not repaired here because A350 is complete on all four passes and the repair belongs to
+the pilot.
 
 ## Success Criteria
 
@@ -933,6 +832,7 @@ and publishing any one alone fails the build.
 
 | Date | Change |
 |------|--------|
+| 2026-09-08 | **A352 RESEARCHED AND WRITTEN, the draft pass, the first of four. Committed, NOT pushed. NOT published.** Lockheed Martin X-55 ACCA, editorial date 2025-11-30, series index 56. **10,459 lines, 8 display equations, 4,970 reference definitions, 59,764 words**, research 4,874, report primaries 308 at 6.3 percent, 25 curated identifiers with every title taken from the registry rather than typed. **THE SUBJECT IS MANUFACTURE AND NOTHING IN THE GATE IS AERODYNAMIC.** Of 526 allocation rows the X-55A is the only entry naming manufacture, fabrication, a unitized structure or an autoclave, and the ten other entries naming cost all describe vehicles that are themselves cheap. **THE STORE WAS ARMED AGAINST THE WHOLE SUBJECT AND THE MEASUREMENT WAS TAKEN BEFORE THE TAGS WERE WRITTEN**, refusing 2,430 of 11,325 at 21.5 percent with a single `epoxy|resin|laminate` entry accounting for 1,529 of them. Seven new tag families plus one entry SPLIT took it to 432 at 3.8 percent. **A352's lesson runs opposite to A351's**: a family can span two entries and an entry can span two families, and tagging the A347 rotor-repair entry whole would have readmitted blade pockets and hot corrosion. Store 134 patterns, 25 tags, `dentistry` added in the same commit as the sentence recording it. **REWORDING BEAT SWEEPING IN FIVE OF SIX THIN SUBJECTS**, out-life going 7 to 150 on vocabulary and 150 to 196 on a sweep, reported in three columns after the first version conflated them. **THE CENTRAL FINDING IS THAT THE REGISTRY ENTRY PULLS AGAINST ITSELF**, an Arrhenius fit to two lines of the MTM45-1 datasheet giving 54.5 kJ/mol and predicting the table's third entry to within the margin a process specification carries, and the low-temperature route costing three times the autoclave route's dwell once the mandatory post-cure is counted. **The schedule overran by roughly two thirds because the lower fuselage skin did not bond**, so the demonstration of time compression was delayed by the process being demonstrated. **Fastener labour is 0.24 to 2.44 percent of the contract**, which locates the saving in production rather than in a demonstrator. **A SUSPICION FAILED AND IS RECORDED**: an ACCA-sized autoclave is 18.4 tonnes of shell, so `no autoclave is large enough` is false at this scale. **Plant 42 at 2,543 feet cannot supply the 29 inches of vacuum the datasheet asks for**, which is why `gate.ATMOSPHERE` is named. **FIVE CHECKERS COULD NOT FAIL WHEN WRITTEN**, including an injection harness that patched a source list while the code read a compiled cache and therefore reported a good test as vacuous. Verifier 0 errors 0 warnings, tests 106 of 106, lint 0 defects. **Build clean in 700 seconds against checksum-matched bytes, 91 pages, rendered audit reports no findings**, source and rendered display-equation counts agree at 8 with zero raw dollar pairs leaking and zero unexpanded slots. |
 | 2026-09-06 | **A350 PUBLICATION REVIEW, the fourth and final pass. Committed and PUSHED. NOT published.** All fifty-four X-Planes drafts remain in `_drafts/`. Final state **8,036 lines, 27 display equations, 3,682 reference definitions, 47,556 words**, research 3,605, primaries 282 at 7.8 percent of which 275 carry a report-server identifier and 7 are journal papers named by hand. **READING THE OPENING AGAINST THE CONCLUSION FOUND TWO DEFECTS, MAKING SIX CONSECUTIVE ARTICLES.** The opening said `It worked` where the body spends three sections qualifying it, and **the conclusion predated three sections added in the two later passes** and mentioned none of them. **Eight conclusions probed and the three thin ones are the three that make the aeroplane interesting**, being the phenomenon it is named for, the effector it used instead and the constraint that dominated its flight test, **and none was thin because the probe was badly worded**. One was rephrased and harvested for, the two moves reported separately, 34 to 58 by rewording and 58 to 145 by a sweep of 1,569 fresh records of which 310 passed the gate. **`The Leading Edge` is a geophysics journal** and the family is now in the store, which stands at 130 patterns. Retrieved 10,181 across three sweeps, 3,715 through the gate. |
 | 2026-09-05 | **A350 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed. NOT published.** References 3,372 to 3,384, research 3,296 to 3,307, **primaries 247 to 261, being 7.5 to 7.9 percent**, lines 7,299 to 7,404, words 42,861 to 43,817, equations unchanged at 27. **THE PROGRAMME'S OWN CITATION CHAIN HAD BEEN READ AND NOT CITED**, and fourteen sources from the flight test report's own bibliography were added and verified. **The primary count now splits into 254 report-server identifiers the corpus measure can see and 7 named journal papers it cannot**, and the article reports both. Two further wartime reports were added to the classical sizing literature that had stood at two cited once each. **An anachronism was caught in the prose read**, the article having the Air Force Research Laboratory sponsor a 1984 programme when that laboratory was formed in 1997. **A wait-on-log matched a previous build's completion token** because the log had not been truncated when the wait began, which is the third variant in two articles of trusting a stale signal. |
 | 2026-09-05 | **A350 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed. NOT published.** **Display equations 11 to 27**, lines 7,223 to 7,299, words 41,819 to 42,861, references unchanged at 3,372. **THE LARGEST FINDING CAME OUT OF A TABLE THE DRAFT HAD ONLY TABULATED.** Actuator force times horn arm is a moment in the same units as the structural limit printed beside it, and **three of the four wing surfaces carry actuators strong enough to break their own limits**, the aileron by 4.8 percent, the trailing-edge flap by 4.4 and the inboard leading-edge flap by 38.7. **The structure was protected by procedure and not by the actuator.** Added the Bredt-Batho stiffness-to-mass derivation that makes reversal margin linear in structural mass; **the ratio of reversal to divergence dynamic pressure, in which the stiffness cancels**, so stiffening changes neither limit's order; the four regions as conditions on dynamic pressure; the hinge-moment relation; the roll equation with its helix angle, time constant and bank-angle integral, **showing that the time-to-bank criteria were testing roll rate and not roll damping**; the unflown test points as ratios at 17.4 and 21.9 percent of dynamic pressure; and the roll performance as a fraction of production. **The same insertion bug appeared three times and was caught three times**, an addition appended to a complete paragraph producing a full stop followed by a comma, and a regex for that signature now runs over the assembled article. **An inlined relation was caught by the article's own checker.** |

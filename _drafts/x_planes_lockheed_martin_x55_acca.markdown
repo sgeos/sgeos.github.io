@@ -1,0 +1,10459 @@
+---
+layout: post
+mathjax: true
+comments: true
+title:  "X-Planes: Lockheed Martin X-55 ACCA"
+date:   2025-11-30 09:00:00 +0000
+categories: aerospace history engineering
+series: x_planes
+series_title: X-Planes
+series_index: 56
+---
+<!-- A352 -->
+<script>console.log("A352");</script>
+
+**The joint designation register has allocated 526 numbers since August 1998, and exactly one of their mission statements makes the way a vehicle would be manufactured the thing to be proved.** It belongs to the X-55 [[DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]].
+
+This is the fifty-sixth article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], the [X-46][related_post_a343_boeing_x46], the [X-47][related_post_a344_northrop_grumman_x47], the [X-48][related_post_a345_boeing_x48], the [X-49][related_post_a346_piasecki_x49], the [X-50][related_post_a347_boeing_x50], the [X-51][related_post_a348_boeing_x51], the [X-52][related_post_a349_x52_designation_refused], the [X-53][related_post_a350_boeing_x53], and the [X-54][related_post_a351_gulfstream_x54].
+
+**The aeroplane flew before it had the number.** Its first flight was on 2 June 2009 and the designation was approved on 19 October 2009, 139 days later [[Lockheed Martin X-55][ref_x55_wikipedia]] [[DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]]. **That is the third article running in which the number and the flying have come apart**, after an aeroplane designated more than a year after it stopped flying [[X-Planes: Boeing X-53 Active Aeroelastic Wing][related_post_a350_boeing_x53]] and a number allocated to an aeroplane that was never built at all [[X-Planes: Gulfstream X-54][related_post_a351_gulfstream_x54]].
+
+**This article is about a way of building things, and almost nothing in it is about flight.**
+
+## The Registry Entry Is the Primary Document
+
+**On 19 October 2009 the joint designation registry recorded the following against X-55A**, allocated to Lockheed Martin, powered by two Pratt and Whitney PW306B engines, and sponsored by the United States Air Force [[DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]].
+
+> Highly modified, experimental transport to validate extreme time and cost compression in airframe manufacture using large, unitized composite structures fabricated using low-temperature, out-of autoclave curing techniques.
+
+Of the 526 allocation rows the addendum carries, the X-55A's mission
+statement is **the only one that names manufacture, the only one that names fabrication, the
+only one that names a unitized structure and the only one that mentions an autoclave**. It
+shares the word `composite` with one other entry and the word `cost` with
+ten. **Every one of those ten describes
+a vehicle that is itself cheap**, being low-cost aerial targets, low-cost cruise missiles and
+a low-cost unmanned aircraft. **In those entries cost is an adjective on the article. In this
+one it is the dependent variable.**
+
+**One other entry in the register makes a claim about construction, and the comparison is
+worth drawing because it is the same metric.** The FA-18E was allocated on
+12 April 2004 with a mission statement recording that the aircraft is approximately
+twenty-five percent larger than its predecessor and **contains forty-two percent fewer
+structural parts** [[DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August
+1998][ref_mds_addendum]]. **That is a part count and it is the X-55's own measure.**
+
+**The difference is what the sentence is for.** The fighter's part count is a property it
+already has, stated about an aeroplane in production. **The X-55's manufacture is the
+hypothesis**, stated about an aeroplane that did not yet exist, in a register whose other
+five hundred entries describe what a vehicle will do.
+
+**Read as an engineering brief that sentence contains three claims and they do not all point the same way.** Time is to be compressed. Cost is to be compressed. And the curing is to be done at low temperature and outside an autoclave. **The last of those is a method, and this article's central arithmetic is that the method makes the first one harder rather than easier.**
+
+## What Was Actually Built
+
+The airframe began as a Fairchild Dornier 328JET, a thirty-two seat regional aeroplane with a high wing and rear-mounted engines [[Fairchild Dornier 328JET][ref_dornier_328jet]] [[Pratt and Whitney Canada PW300][ref_pw306]]. **Everything aft of the crew station was cut off and replaced.** The wing, the engines, the landing gear, the avionics and the forward fuselage stayed as they were [[The Carbon Comet, Lockheed Martin][ref_carbon_comet]].
+
+**The replacement was a composite mid and aft fuselage with the vertical tail integrated into it.** The fuselage was made as an upper and a lower half, each roughly 65 feet long, bonded to circular frames and to each other along a longitudinal seam with adhesive and ply overlays [[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]] [[Lockheed Martin X-55][ref_x55_wikipedia]]. The skins were a sandwich, with facesheets of out-of-autoclave carbon epoxy prepreg over a nonmetallic honeycomb core [[Honeycomb Structure][ref_honeycomb]] [[Prepreg][ref_prepreg]]. The vertical tail used a conventional autoclave-cured tape. The work was done at the Advanced Development Programs facility at Air Force Plant 42 in Palmdale [[Skunk Works][ref_skunk_works]] [[United States Air Force Plant 42][ref_plant42]].
+
+**The numbers the manufacturer gives for the result are the ones the whole argument rests on.** Approximately 300 structural parts against approximately 3,000 for a metallic design of the same size, and approximately 4,000 mechanical fasteners against approximately 40,000 [[The Carbon Comet, Lockheed Martin][ref_carbon_comet]]. **Both are a factor of ten, which is ninety percent fewer fasteners.**
+
+**The trade press states that figure as ninety-eight percent and the manufacturer's own numbers give ninety.** The discrepancy is recorded rather than resolved, because the two sources may be counting different structures, and this article uses the manufacturer's pair throughout since it is the one that comes with both halves [[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]].
+
+## The Programme It Came Out Of
+
+**The X-55 is the flight article of an argument that took eleven years to assemble.** The Composites Affordability Initiative ran from the mid 1990s as a joint effort of the Air Force Research Laboratory, the Office of Naval Research, Bell, Boeing, Lockheed Martin and Northrop Grumman, at a reported 152 million dollars over eleven years [[Market Trends, the Composites Affordability Initiative, Part I, CompositesWorld][ref_cw_cai]] [[Air Force Research Laboratory][ref_afrl]].
+
+**Its central finding was not about materials.** It was that the cost of a composite airframe is dominated by assembly rather than by fabrication, and that the way to attack assembly is to have fewer parts to assemble. Cost savings across its demonstrations ranged from 17 to 47 percent, and the largest single driver was part count reduction through large unitised and bonded structures [[Market Trends, Composites Affordability Initiative, Part II, CompositesWorld][ref_cw_cai2]].
+
+**The registry entry compresses that conclusion into one sentence and then asks for an aeroplane to test it.**
+
+## An Autoclave Is a Pressure Vessel, and That Is Nearly the Whole Argument
+
+A conventional aerospace laminate is cured in an autoclave, a heated pressure vessel that raises the gas around the bagged part to something near 85 pounds per square inch while the bag itself is evacuated [[Autoclave, Industrial][ref_autoclave]] [[Campbell, Manufacturing processes for advanced composites][book_campbell]]. **The pressure is not there to shape the part. It is there to close the voids.**
+
+An autoclave is therefore a pressure vessel, and a pressure vessel scales badly. Hoop stress fixes the wall thickness as the pressure times the radius over the allowable stress [[Pressure Vessel][ref_pressure_vessel]].
+
+$$
+t_{w} = \frac{p\,r}{\sigma_{\text{allow}}}
+$$
+
+The shell mass is the density times the shell area times that thickness, and the shell area is itself proportional to the radius times the length.
+
+$$
+m_{\text{shell}} = 2 \pi \rho \, r \, L \, t_{w} = \frac{2 \pi \rho \, p \, r^{2} L}{\sigma_{\text{allow}}}
+$$
+
+**For a vessel whose length keeps pace with its diameter the steel therefore goes as the cube of the diameter.** Doubling every dimension multiplies the shell by eight, which the arithmetic below confirms rather than assumes.
+
+| Vessel | Shell steel |
+|---|---|
+| One able to take a 65 foot fuselage half | 18.4 tonnes |
+| The same vessel with every dimension doubled | 147.5 tonnes |
+| One able to take a heavy-lift launch vehicle barrel, 40 by 80 feet | 190 tonnes |
+
+**And here the obvious argument fails, which is worth saying plainly because it was the first argument this article reached for.** The usual case for out-of-autoclave processing is that no autoclave is large enough. That case is real for a launch vehicle, where the barrel sections are nine to ten metres in diameter and the vessel that would take them has been estimated at around 100 million dollars to build and install [[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]] [[Comparison of Autoclave and Out-of-Autoclave Composites][research_sutter_comparison]].
+
+**It is not the case here.** A vessel able to take a 65 foot fuselage half is an ordinary industrial autoclave with a shell of roughly 18.4 tonnes, and such vessels exist in quantity. **The X-55's reason for leaving the autoclave was therefore not that it could not fit.** It was cycle time, capital avoidance, tooling that need not survive an autoclave, and the removal of a single shared bottleneck through which every part in the factory must pass in turn.
+
+## The Pressure a Vacuum Bag Cannot Supply
+
+**A vacuum bag has one source of pressure and it is the atmosphere.** The bag is evacuated and the air outside presses the laminate against the tool, so the consolidation pressure is the ambient pressure minus whatever remains inside the bag [[Vacuum Bagging][ref_vacuum_bagging]]. **It follows that a vacuum bag can never press harder than the weather allows, and that the ceiling falls with the elevation of the factory floor.**
+
+The standard atmosphere gives the ambient pressure as a function of geopotential altitude, with the troposphere's constant lapse rate [[U.S. Standard Atmosphere][ref_us_standard_atmosphere]] [[Barometric Formula][ref_barometric]].
+
+$$
+p(h) = p_{0}\left(1 - \frac{\lambda h}{T_{0}}\right)^{\frac{g}{R_{\text{air}}\lambda}}
+$$
+
+Here $R_{\text{air}}$ is the specific gas constant of air, which is a different quantity from the molar gas constant $R$ that appears in the cure kinetics below. With the sea level values and a lapse rate of 0.0065 kelvin per metre the exponent is 5.256. **Air Force Plant 42 stands at 2,543 feet**, which is 775.1 metres, and the relation gives 92.35 kilopascals there against 101.33 at sea level [[United States Air Force Plant 42][ref_plant42]].
+
+**The maximum consolidation pressure available in that building is therefore 13.39 pounds per square inch, against 14.7 at sea level.** The elevation alone costs 8.85 percent of it, and no pump can recover any part of that, because the pressure is not being generated inside the bag. It is being withheld from outside.
+
+**This has a consequence in the material specification that is easy to miss.** The datasheet for the prepreg the fuselage was made from calls for a minimum vacuum of 980 millibar, which it also writes as 29.00 inches of mercury [[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]]. **The entire atmosphere at Plant 42 is 27.27 inches of mercury.** Read as a gauge vacuum, meaning inches below ambient, that specification is unattainable there by 1.73 inches, not because of any deficiency in the equipment but because the air on that site does not contain that much pressure to remove.
+
+**The reading that makes the specification attainable is the absolute one**, meaning that the bag is to be pumped down to about twenty millibar absolute, which a pump does without reference to ambient. **The two readings are not interchangeable and the industry knows it**, which is why the rule of thumb that roughly one inch of mercury is lost per thousand feet of elevation is standard advice in composites shops. **The physically meaningful quantity is the differential across the bag**, and that quantity is capped by ambient under either reading.
+
+## What Has to Replace the Pressure
+
+**Since an out-of-autoclave process gives up a factor of 7.35 in pressure, the question is what the pressure was doing.** For an entrapped gas at constant temperature, Boyle's law gives the volume as inversely proportional to pressure [[Boyle's Law][ref_boyle]].
+
+$$
+V_{1} = V_{0}\,\frac{p_{0}}{p_{1}}
+$$
+
+The void fraction is not the void volume, because compressing the gas shrinks the whole laminate as well. With the solid taken as incompressible beside a gas, an initial void fraction $\phi_{0}$ becomes
+
+$$
+\phi_{1} = \frac{\phi_{0}\,p_{0}/p_{1}}{\left(1-\phi_{0}\right) + \phi_{0}\,p_{0}/p_{1}}
+$$
+
+**Now put a real number through it.** A government and industry team cured the same prepreg family the X-55 used, after it had been left out of the freezer for thirty-five days, and measured 8.3 percent voids by acid digestion against 0.1 percent for the fresh material [[Comparison of Autoclave and Out-of-Autoclave Composites][research_sutter_comparison]]. **Taking that laminate into a full autoclave and squeezing it would leave 1.22 percent.** Primary aerospace structure wants below 1 percent, and reaching that from 8.3 percent by compression alone needs a pressure ratio of 8.96, which is more than an autoclave supplies.
+
+**So the pressure was never mainly compressing the voids. It was helping to remove them**, by dissolving gas into the resin and by driving resin into places air had been. **An out-of-autoclave prepreg does the same job by architecture instead.** The tows are only partially impregnated, so dry fibre bundles form a connected network of channels through which air and volatiles can be drawn out under vacuum before the resin flows and seals them [[Effect of room-temperature out-time on tow impregnation in an out-of-autoclave prepreg][research_outtime_tow_impregnation]] [[Out-of-autoclave prepreg consolidation: Coupled air evacuation and prepreg impregnation modeling][research_coupled_evacuation]]. Flow through that network is a Darcy problem, with the volumetric flux set by the permeability, the viscosity and the pressure gradient [[Darcy's Law][ref_darcy]].
+
+$$
+q = -\frac{k}{\mu}\,\nabla p
+$$
+
+**Every term in that expression is working against the clock.** The permeability falls as the resin impregnates the tow, the viscosity falls and then rises as the resin cures, and the pressure gradient is bounded by the one atmosphere the site can supply. **This is why debulking, the practice of applying vacuum at intervals during layup rather than only at the end, matters far more without an autoclave than with one** [[Effects of debulk temperature on air evacuation during vacuum bag-only prepreg processing][research_debulk_temperature]] [[Bulk factor characterization of heated debulked autoclave and out-of-autoclave carbon fibre prepregs][research_bulk_factor]].
+
+## Low Temperature and Time Compression Pull Against Each Other
+
+**The registry entry asks for extreme time compression and for low-temperature curing in the same sentence, and the material datasheet prices the second against the first.**
+
+A thermoset cure is a chemical reaction, and its rate follows an Arrhenius law, so the time to reach a given degree of cure rises exponentially as the temperature falls [[Arrhenius Equation][ref_arrhenius]] [[Thermosetting Polymer][ref_thermosetting]].
+
+$$
+t \;=\; A \exp\!\left(\frac{E_{a}}{R\,T}\right)
+$$
+
+**The datasheet supplies two points on that curve and does not divide them.** It offers twenty hours at 80 degrees Celsius and two hours at 130, both as oven vacuum bag cures [[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]]. **A factor of ten in time across fifty kelvin is an activation energy.**
+
+$$
+E_{a} \;=\; R\,\frac{\ln\!\left(t_{1}/t_{2}\right)}{1/T_{1} - 1/T_{2}}
+$$
+
+**That gives 54.5 kilojoules per mole**, which sits squarely in the range the literature reports for epoxy amine systems, so the two-point fit is not an artefact [[Thermal models for MTM45-1 and Cycom 5320 out-of-autoclave prepreg resins][research_kratz_thermal_models]] [[Strong, Fundamentals of composites manufacturing][book_strong]].
+
+**The fit can be tested against a third point the datasheet also gives.** Extrapolating to 120 degrees predicts a dwell of 3.02 hours. **The datasheet recommends four.** The recommendation is 32.2 percent longer than the kinetics require, and that difference is not an error in either. **A cure schedule is not a kinetics prediction.** It carries margin for laminate thickness, for thermal lag through the tool, and for the fact that an oven is a far worse heat exchanger than a pressurised autoclave.
+
+**Now count the whole cycle rather than the initial cure.** Any part cured below 180 degrees must afterwards be given a free-standing post-cure of two hours at that temperature to develop full properties, and the autoclave-only cure at 180 degrees does not need one.
+
+| Route | Initial cure | Post-cure | Total dwell | Against the autoclave |
+|---|---|---|---|---|
+| 80 C vacuum bag oven | 20 h at 80 C | 2 h at 180 C | 22 h | 11 times |
+| 120 C vacuum bag oven | 4 h at 120 C | 2 h at 180 C | 6 h | 3 times |
+| 130 C vacuum bag oven | 2 h at 130 C | 2 h at 180 C | 4 h | 2 times |
+| 180 C autoclave only | 2 h at 180 C | none | 2 h | 1 time |
+
+**The low-temperature route the registry entry names costs three times the oven dwell of the route it replaces, and the lowest-temperature option costs eleven times.** Whatever the time compression came from, it did not come from the cure.
+
+## Where the Compression Actually Comes From
+
+**It came from not having to put the parts together**, which is what the Composites Affordability Initiative concluded before the aeroplane existed.
+
+**But the arithmetic of that saving, on this aeroplane, is smaller than it sounds.** **Thirty-six thousand fasteners were not installed.** Installing one in an airframe means drilling, reaming, deburring, cleaning, sealing, setting and inspecting, and published touch times for that sequence vary by an order of magnitude with the joint and the access.
+
+| Minutes a fastener | Burdened rate | Hours saved | Value | Share of the contract |
+|---|---|---|---|---|
+| 2 | 100 dollars an hour | 1,200 | 120,000 dollars | 0.24 percent |
+| 5 | 150 dollars an hour | 3,000 | 450,000 dollars | 0.92 percent |
+| 10 | 200 dollars an hour | 6,000 | 1,200,000 dollars | 2.44 percent |
+
+**Against a contract of 49,097,981 dollars, the fasteners that were never installed are worth between a quarter of one percent and two and a half percent.** The assumptions are stated rather than hidden, and the conclusion is robust across the whole range of them, because the range spans a factor of ten and the answer stays small.
+
+**This is not an argument that the saving is illusory. It is an argument about where the saving lives.** A fastener eliminated is worth its installation cost **every time an aeroplane is built**. On a fleet the saving is a recurring cost multiplied by a production run, and it compounds with the learning that a simpler assembly permits [[Recurring Cost Minimization of Composite Laminated Structures, Optimum Part Size as a Function of Learning][research_recurring_cost_part_size]] [[Experience Curve Effects][ref_learning_curve]] [[Military Airframe Costs: The Effects of Advanced Materials and Manufacturing Processes][research_rand_airframe_costs]].
+
+**On one aeroplane it is worth one aeroplane's assembly labour, and the tooling, the qualification and the first-article learning all fall on that single article.** The demonstrator is the worst possible case for the economics it was built to demonstrate.
+
+## The Clock That Runs on the Material
+
+**A prepreg is a reacting system from the moment it leaves the freezer, and the datasheet gives it twenty-one days of out life and ten days of tack life at room temperature** [[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]]. **Out life is cumulative and nothing resets it.**
+
+**The consequence for a large unitised part is direct and it is the argument this article thinks is the strongest one available.** Unitisation means making parts bigger. A bigger part takes longer to lay up. **And the material is degrading throughout.**
+
+The tests already quoted make that concrete. The same prepreg family at thirty-five days out of the freezer had lost tack almost entirely, showed 8.3 percent voids where the fresh material showed 0.1 percent, and returned short beam shear strengths at about four fifths of its peers [[Comparison of Autoclave and Out-of-Autoclave Composites][research_sutter_comparison]]. **That is a rise from a tenth of one percent to more than eight percent for one interval of shop-floor time**, and every one of the four fresh systems in that study measured below 2 percent, and the effect on the resin's viscosity and gel behaviour is measurable long before that [[Out-time effects on cure kinetics and viscosity for an out-of-autoclave (OOA) prepreg: Modelling and monitoring][research_outtime_cure_kinetics]] [[In-situ cure monitoring of an out-of-autoclave prepreg: Effects of out-time on viscosity, gelation and vitrification][research_outtime_cure_monitoring]].
+
+**Inverting for the rate rather than comparing areas is what attaches a margin to the claim.** One fuselage half of 19.8 metres over a nine foot diameter is about 85 square metres of surface.
+
+| Facesheet plies | Working hours a day | Ply area | Rate needed inside the out-life |
+|---|---|---|---|
+| 12 | 8 | 1,024 square metres | 6.09 square metres an hour |
+| 12 | 16 | 1,024 square metres | 3.05 square metres an hour |
+| 24 | 16 | 2,048 square metres | 6.09 square metres an hour |
+
+**A twelve-ply facesheet on one half-shell is roughly 1,024 square metres of ply to place**, and fitting that inside the out-life window at one shift a day requires 6.09 square metres an hour sustained, every working hour, for three weeks. **That is a crew size rather than a schedule, and the crew size is being set by chemistry.**
+
+**A programme whose whole argument was fewer and larger parts still built its fuselage in eight pieces** [[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]]. **The record does not say why**, and a large structure is subdivided for tooling, for handling, for the tail and for the frames as readily as for anything else. **What can be said is that unitisation has an optimum and it is not infinity**, and that out-life is one of the bounds on it, and the only one of them that no tooling change can relax.
+
+## The Schedule, Which Is the Half That Failed
+
+**The programme's own dates are the measurement.**
+
+| Event | Date |
+|---|---|
+| Broad agency announcement issued | January 2007 |
+| First flight required by that announcement | October 2008 |
+| Phase II awarded to Lockheed Martin | October 2007 |
+| First flight achieved | 2 June 2009 |
+
+**Twelve months were asked for and about twenty were taken**, an overrun of roughly two thirds. **The award and the deadline are published to the month and not to the day, so the overrun is between seven and eight months and no closer** [[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]] [[Lockheed Martin Conducts Successful Flight of AFRL's Advanced Composite Cargo Aircraft][ref_lm_first_flight]]. The trade press recorded it at the time as seven months past the deadline and on budget, and that reconciles with the dates to within a rounding [[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]].
+
+**The cause is the part that matters.** The first flight was expected in the winter of 2008 and 2009, and the schedule slipped because the skin on the lower fuselage did not bond satisfactorily. **A second fuselage had to be built** [[Lockheed Martin X-55][ref_x55_wikipedia]].
+
+**An aeroplane designated to validate extreme time compression in airframe manufacture lost the better part of a year to a defect in the manufacturing process it existed to validate.** That is not a criticism of the programme, which is what a demonstrator is for. **It is an observation about what the demonstrator demonstrated**, and the observation is that the cost half of the charter survived and the time half did not.
+
+**And it is worth being precise about which half survived.** The cost claim is that the aeroplane was built at half the estimated cost of a conventional design of the same size [[The Carbon Comet, Lockheed Martin][ref_carbon_comet]]. **That is a comparison against an estimate.** No metallic aft fuselage for this aeroplane was ever built to compare it with, and no such aeroplane existed to be estimated except on paper. **The schedule, by contrast, was compared against a date**, and a date is an observation.
+
+## What a Single Aeroplane Can and Cannot Demonstrate
+
+**The X-55's central quantity has no instrument.** This is the second article in this series whose binding number is an estimate rather than a reading, after a vehicle whose entire argument turned on a launch price [[X-Planes: Orbital Sciences X-34][related_post_a331_orbital_sciences_x34]].
+
+**A flying demonstrator can settle several things and cannot settle the one it was named for.** It can settle whether a twenty metre bonded composite fuselage will carry flight loads, whether it can be built at all, whether the tooling closes, and whether the structure behaves as predicted once instrumented. **It cannot settle a recurring cost**, because a recurring cost is a property of a production run and the demonstrator is a run of one.
+
+**What it can do is retire the technical risk that would otherwise make the cost estimate inadmissible**, and that is a real and sufficient purpose. **The registry entry claims more than that**, and the gap between the two is the subject of this article.
+
+## What Followed
+
+Phase III was awarded in September 2009 and covered envelope expansion and structural characterisation, with the aeroplane instrumented to measure the loads its structure actually saw, and a flight test programme of roughly twenty sorties [[Lockheed Martin X-55][ref_x55_wikipedia]]. **The aeroplane is now on display at the Joe Davies Heritage Airpark in Palmdale, a few miles from the building it was made in** [[Joe Davies Heritage Airpark][ref_joe_davies]].
+
+**No second X-55 was built and none was intended.** The technology went where a technology goes when it works, which is into other people's programmes and out of the public record.
+
+## The Source Base
+
+**Two sweeps retrieved 15,422 records**, being 11,373 from
+the main harvest and 4,049 from a supplementary one aimed at the two
+subjects that rewording did not open. The shared sweep store refused
+718 of them and the subject gate refused
+7,675 more, leaving **5,248 through the gate and
+4,874 distinct works after deduplication**. Every one of them is cited in the
+survey below. The reference list holds 4,970 definitions in total, being the
+research records together with thirty-four reference sources,
+seven books and fifty-five links to earlier articles in this series.
+
+### The Sweep Store Was Armed Against This Article's Entire Subject
+
+**The shared sweep store was armed against this article's entire subject, and the
+measurement was taken before the tags were written rather than after.** Run over the
+11,325 records of the main harvest with every pattern armed, the store
+refused **2,430, being 21.5 percent**, across
+sixty-eight distinct patterns. **A single entry accounted for
+1,529 of them, which is 63 percent of every
+deletion**, and that entry is the alternation `epoxy`, `resin`, `laminate`, recorded by A335
+because a parachute article kept meeting composites where it wanted aeromedical impact
+tolerance. **Here those three words are the subject.**
+
+**Seven new tag families were written and one existing entry was
+split**, and with nine families switched off the same store refuses
+**432 records, being 3.8 percent**. The
+tags recovered **1,998 records, or 17.6 percent of
+the harvest**. The families are `adhesive-bonding`, `composites`, `cost-estimation`,
+`cure-monitoring`, `delamination`, `fracture` and `ndt`, together with the existing
+`meteorology` and `nomenclature`.
+
+**The split is the new lesson and it runs opposite to A351's.** That article found that a
+contaminant **family** can span two store entries, so tagging one leaves the other armed. This
+one found that a single **entry** can span two families. The A347 rotor-blade repair entry alternates
+`field-replaceable`, `rotor blade`, `blade pocket`, `hot corrosion`, `adhesive bond`,
+`corrosion protection` and `depot maintenance`, and exactly one of those alternatives names
+this article's subject. **Tagging the entry would have readmitted rotor blade pockets and hot
+corrosion**, so the alternative was separated into its own tagged entry and the remainder left
+armed. A test in `_lib/test_lib.py` holds the separated half armed, and that assertion was
+proved capable of failing by rebuilding the store the naive way and watching it fail.
+
+**Widening has a price and it arrived immediately.** Switching off `composites`,
+`adhesive-bonding` and `fracture` readmitted thirty-nine records on restorative dentistry,
+which uses bond strength, cure kinetics, resin composite and degree of conversion as its own
+terms of art. A `dentistry` family was added in the same commit as this sentence.
+
+### Rewording Against Sweeping
+
+**Six subjects measured thin against the article's own vocabulary and
+five of them opened on rewording alone, with no harvesting whatever.**
+This is the eighth consecutive article in which that has happened, and it is reported as two
+moves rather than one because a sweep must not be credited with work the vocabulary did.
+
+| Subject | The article's words | The field's words | After the second sweep | Gain from rewording | Gain from sweeping |
+|---|---|---|---|---|---|
+| whether a demonstrator can demonstrate a production saving | 1 | 54 | 91 | +53 | +37 |
+| assembly labour, fasteners and part count | 16 | 64 | 75 | +48 | +11 |
+| out life and tack life of a prepreg | 7 | 150 | 196 | +143 | +46 |
+| consolidation and compaction pressure | 12 | 87 | 88 | +75 | +1 |
+| bonded joint certification and the disbond rule | 7 | 17 | 31 | +10 | +14 |
+| the aeroplane itself and its programme | 2 | 20 | 22 | +18 | +2 |
+
+**The largest single gain was out-life**, which the article calls by that name and the
+literature mostly calls ageing, out-time, storage and tack retention. **A subject the article
+argues is the binding constraint on the whole method measured seven records under its own
+name.**
+
+**Only two subjects survived the rewording still thin**, and a supplementary sweep was aimed
+at them. The aeroplane itself remains the smallest cluster in the survey and no amount of
+asking moves it.
+
+### Primary Documents
+
+**308 of the 4,874 research records are report primaries, being
+6.3 percent**, counted as a report-server or defence-registry identifier.
+**That fraction is lower than the last several articles in this series and the reason is the
+subject rather than the method.** Sonic boom research was done by a government agency and
+published as agency reports. **Composite manufacturing was done by contractors**, and a
+contractor's process hours, cure schedules and scrap rates are a competitive asset rather
+than a publication. The report shelf that does exist is largely the predecessor programme's,
+and it is cited heavily.
+
+**The report primaries are a generation older than the survey.** Their median year is
+1990 against 2011 for the corpus, a gap of
+21 years.
+
+**The named primary documents this article rests on are not all visible to that measure.** The designation registry, the material datasheet and the manufacturer's own account of the build carry no report-server identifier and never will [[DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]] [[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]] [[The Carbon Comet, Lockheed Martin][ref_carbon_comet]]. **The fraction and the count of named primary documents are reported side by side, and the measure is not adjusted to flatter either.**
+
+### The Age of the Literature
+
+**4,472 of the research records carry a year at or before this article's
+own dateline, and their median is 2011**, with the range running from
+1927 to 2025. Publication rate by decade, in records a year, is
+set out below. The 2020s are counted over six years rather than ten, so the figures are rates
+and not counts.
+
+**A further 136 records carry a later year and are excluded from every
+statistic in this section**, being 2.8 percent of the corpus. They remain
+in the reference list, because this series back-dates its articles and cites later work in the
+bibliography by long-standing convention. **A statistic is a different thing from a citation.**
+A rate computed over papers that had not been written when this article is dated would be a
+claim about the future wearing the clothes of a measurement, and the previous article in this
+series states a median over a corpus holding forty-nine records dated after its own dateline.
+**A further 266 records carry no year at all**, and some fraction of those is
+certainly later than the dateline too, which no filter can reach.
+
+| Decade | Records a year |
+|---|---|
+| 1950s | 1.0 |
+| 1960s | 5.0 |
+| 1970s | 14.2 |
+| 1980s | 40.2 |
+| 1990s | 72.8 |
+| 2000s | 76.8 |
+| 2010s | 126.3 |
+| 2020s | 184.2 |
+
+**This literature has grown in every decade since the 1950s and has never once contracted**,
+which is worth setting beside the previous article in this series. **The sonic boom corpus
+fell by forty percent through the 1980s**, in the decade after the American supersonic
+transport was cancelled and overland supersonic flight was prohibited. **Composite
+manufacturing was never prohibited and its curve shows it.** A literature records what was
+permitted as faithfully as it records what was discovered.
+
+### What the Gate Was Built For, and What It Deliberately Refuses
+
+**The gate anchors on process, chemistry, voids, bonding, cost, tooling, inspection, structure, material and the aeroplane, together with the shared atmosphere vocabulary.** The medium is named rather than inherited, and it is named for one reason, which is that the consolidation pressure computation above needs it.
+
+**Two adjacent literatures are refused deliberately and the decision is recorded rather than buried.** Wind turbine blade manufacture is the largest infused composite structure anybody builds and shares most of this article's process vocabulary. Marine composites share the rest. **Both are adjacent rather than contaminating**, and both were left out because the subject is an airframe, which means the count in the survey below is smaller than the technology's full literature and is not offered as that.
+
+## The Contemporary Literature
+
+| Cluster | Records |
+|---|---|
+| The structure itself, and the qualification it has to pass | 904 |
+| Bonding, which is how a unitised structure is joined | 867 |
+| Curing a thermoset, which is where the time actually goes | 783 |
+| Laying the material down, and the clock that runs while you do | 433 |
+| Seeing inside, because the acceptance criterion is an inspection | 415 |
+| The cost of building it, which is the thing being validated | 405 |
+| The tool, and why a cured part is not the shape it was cured on | 285 |
+| Voids, gas transport and the pressure that is not there | 259 |
+| Consolidating without a pressure vessel, which is the whole premise | 233 |
+| Other work on composite materials, processing and structures | 228 |
+| The atmosphere, which bounds what a vacuum bag can do | 45 |
+| The aeroplane and the programmes around it | 17 |
+| **Total** | **4,874** |
+
+### The structure itself, and the qualification it has to pass
+
+**The largest cluster, and it is the one an X-Planes reader expects.** Composite fuselages, wing boxes, stiffened panels, sandwich construction, damage tolerance, compression after impact and the building-block approach by which such a structure is qualified. **The X-55's aft fuselage belongs here and contributed almost nothing to it**, because a demonstrator that flies twenty times generates a designation and not a literature [[Structural Reliability Analysis of the Advanced Composite Cargo Aircraft][research_acca_reliability]].
+
+[[Abbott 1989][research_abbott_1989]], [[Abdi et al 2009][research_abdi_surdenas_2009]], [[Abramovich 2008][research_abramovich_2008]], [[Abramovich et al 2007][research_abramovich_bisagni_2007]], [[Abramovich et al 2006][research_abramovich_weller_2006]], [[Abramovich and Weller 2009][research_abramovich_weller_2009]], [[Abramovich and Weller 2010][research_abramovich_weller_2010]], [[Abrate 2001][research_abrate_2001]], [[Aditya and Babu 2020][research_aditya_babu_2020]], [[Advanced-composite wing completes 13 1981][research_advanced_composite_wing_1981]], [[Advances in Thick Section 2020][research_advances_in_2020]], [[Agarwal 1982][research_agarwal_1982]], [[Agin and Blicblau 1993][research_agin_blicblau_1993]], [[Akashi and Akagi 2021][research_akashi_akagi_2021]], [[Akay and Hanna 1990][research_akay_hanna_1990]], [[Akula 2014][research_akula_2014]], [[Akula 2015][research_akula_2015]], [[Al Ahmed et al 2024][research_alahmed_hassan_2024]], [[Alam 2021][research_alam_2021]], [[Alam and Khanal 2020][research_alam_khanal_2020]], [[Alana M. Cardona et al][research_alanamcardona_erinkanderson]], [[Alderliesten and Homan 2006][research_alderliesten_homan_2006]], [[Alhajahmad and Mittelstedt 2021][research_alhajahmad_mittelstedt_2021]], [[Alhajahmad and Mittelstedt 2021][research_alhajahmad_mittelstedt_2021_b]], [[Alhajahmad and Mittelstedt 2025][research_alhajahmad_mittelstedt_2025]], [[Allen and Boyd 1992][research_allen_boyd_1992]], [[Allen and Przekop 2015][research_allen_przekop_2015]], [[Alms et al 2010][research_alms_glancey_2010]], [[Al-Sukhon][research_alsukhon]], [[Al-Sukhon and El Sayed 2020][research_alsukhon_elsayed_2020]], [[Altan et al 2016][research_altan_bayraktar_2016]], [[Ambur et al 1997][research_ambur_rouse_1997]], [[Ambur and Rouse 2005][research_ambur_rouse_2005]], [[Ambur, Damodar R. and Rouse, Marshall 1998][research_amburdamodarr_rousemarshall_1998]], [[An adaptive composite structure 1998][research_an_adaptive_1998]], [[Anisetti et al 2013][research_anisetti_ardagna_2013]], [[Aoki et al 2006][research_aoki_ishikawa_2006]], [[Apparatus for moulding and 1990][research_apparatus_for_1990]], [[Application Design of 2013][research_application_design_2013]], [[Arakaki and Faria 2016][research_arakaki_faria_2016]], [[Araújo Bortolete et al 2025][research_araujobortolete_souza_2025]], [[Armstrong 1999][research_armstrong_1999]], [[Arnold and Parekh 1986][research_arnold_parekh_1986]], [[Arnold and Parekh 1987][research_arnold_parekh_1987]], [[Ashforth et al 2023][research_ashforth_momm_2023]], [[Ashton 1975][research_ashton_1975]], [[Advanced Technology Composite Fuselage - Manufacturing][research_atcas_manufacturing]], [[Advanced Technology Composite Fuselage - Materials and Processes][research_atcas_materials]], [[Advanced Technology Composite Fuselage Program Overview][research_atcas_overview]], [[Advanced Technology Composite Fuselage-Structural Performance][research_atcas_structural]], [[Bacarreza and Aliabadi 2018][research_bacarreza_aliabadi_2018]], [[Bae and Chang 2015][research_bae_chang_2015]], [[Bai et al 2017][research_bai_lei_2017]], [[Bai and Wang 2026][research_bai_wang_2026]], [[Bailey et al 2011][research_bailey_battley_2011]], [[Baker, Donald J. et al 2003][research_bakerdonaldj_fudgejack_2003]], [[Banuk 1996][research_banuk_1996]], [[Baranovski and Zaw 2023][research_baranovski_zaw_2023]], [[Baron, W. G. and Oetting, J. D. 1990][research_baronwg_oettingjd_1990]], [[Barsotti and Gaiotti 2022][research_barsotti_gaiotti_2022]], [[Bartholomew et al 1994][research_bartholomew_harris_1994]], [[Bartley-Cho and Ranatunga 2020][research_bartleycho_ranatunga_2020]], [[Bartley-Cho et al 2018][research_bartleycho_smyers_2018]], [[Basic Composite Repair Technician][research_basic_composite]], [[Batra et al 2020][research_batra_chattopadhyay_2020]], [[Bayandor et al 2002][research_bayandor_scott_2002]], [[Bayandor et al 2003][research_bayandor_thomson_2003]], [[Beck 1981][research_beck_1981]], [[Belov et al 2017][research_belov_zheleznov_2017]], [[Bendsøe 1988][research_bendsoe_1988]], [[Benedictus and Alderliesten 2009][research_benedictus_alderliesten_2009]], [[Bennett 1988][research_bennett_1988]], [[Berg et al 1989][research_berg_gerharz_1989]], [[Berggreen and Hayman 2020][research_berggreen_hayman_2020]], [[Berthelot 1999][research_berthelot_1999]], [[Berthelot 1999][research_berthelot_1999_b]], [[Berthelot 1999][research_berthelot_1999_c]], [[Berthelot 1999][research_berthelot_1999_d]], [[Beukers et al 2011][research_beukers_bersee_2011]], [[Bigand][research_bigand]], [[Bilal Afzal 2020][research_bilalafzal_2020]], [[Bisagni 2008][research_bisagni_2008]], [[Bisagni and Lanzi 2002][research_bisagni_lanzi_2002]], [[Bisagni et al 2011][research_bisagni_vescovini_2011]], [[Biskner and Higgins 2005][research_biskner_higgins_2005]], [[Blair et al 1996][research_blair_bharatram_1996]], [[Blair and Weisshaar 1981][research_blair_weisshaar_1981]], [[Blázquez et al 2012][research_blazquez_reinoso_2012]], [[Bogdanovich 2008][research_bogdanovich_2008]], [[Bohlooly et al 2020][research_bohlooly_kouchakzadeh_2020]], [[Bohlooly et al 2018][research_bohlooly_mirzavand_2018]], [[Boitnott et al 1987][research_boitnott_fasanella_1987]], [[Bonanni and Tacey 1996][research_bonanni_tacey_1996]], [[Bootle 1999][research_bootle_1999]], [[Borgato and Pievani 1995][research_borgato_pievani_1995]], [[Bouslama et al 2022][research_bouslama_maslouhi_2022]], [[Bratukhin et al 1995][research_bratukhin_bogolyubov_1995]], [[Brauner et al 2014][research_brauner_soprano_2014]], [[Brink et al 2020][research_brink_vankan_2020]], [[Brown and Timmerman 1991][research_brown_timmerman_1991]], [[Bruno and Lato 1991][research_bruno_lato_1991]], [[Bruno, Joseph and Libeskind, Mark 1990][research_brunojoseph_libeskindmark_1990]], [[Brunson and Rais-Rohani 1996][research_brunson_raisrohani_1996]], [[Buckling and Postbuckling of 1995][research_buckling_and_1995]], [[Butler and Liu 2008][research_butler_liu_2008]], [[Byar and Tan][research_byar_tan]], [[Byklum et al 2004][research_byklum_steen_2004]], [[Cai 2024][research_cai_2024]], [[Cai et al 2025][research_cai_ji_2025]], [[Campolo and Cipri 1995][research_campolo_cipri_1995]], [[Caputo et al 2021][research_caputo_lamanna_2021]], [[Caputo et al 2019][research_caputo_manzo_2019]], [[Caravasos 1992][research_caravasos_1992]], [[Cardoso et al 2025][research_cardoso_reis_2025]], [[Catapano and Montemurro 2014][research_catapano_montemurro_2014]], [[Cetkovic 2016][research_cetkovic_2016]], [[Chagraoui and Soula 2024][research_chagraoui_soula_2024]], [[Chambers et al 2018][research_chambers_hoffman_2018]], [[Chambers et al 2017][research_chambers_oonnoonny_2017]], [[Chambers et al 2017][research_chambers_yutko_2017]], [[Chambers et al 2018][research_chambers_yutko_2018]], [[Chamis 1981][research_chamis_1981]], [[Chang et al 2024][research_chang_ren_2024]], [[Chattopadhyay and Dragomir 2001][research_chattopadhyay_dragomir_2001]], [[Chen][research_chen]], [[Chen et al 2014][research_chen_bil_2014]], [[Chen et al 2020][research_chen_cheng_2020]], [[Chen et al 2001][research_chen_davila_2001]], [[Chen et al 2023][research_chen_legrand_2023]], [[Chen et al 2014][research_chen_lei_2014]], [[Chen et al 1991][research_chen_lin_1991]], [[Chen and Mei 1994][research_chen_mei_1994]], [[Chen et al 2026][research_chen_wu_2026]], [[Cheung and Scott 1996][research_cheung_scott_1996]], [[Chi et al 2010][research_chi_langdon_2010]], [[Chiariello et al 2024][research_chiariello_perillo_2024]], [[Chinva et al 1996][research_chinva_olarey_1996]], [[Cho and Rhee 2011][research_cho_rhee_2011]], [[Chou and Cronmen 1978][research_chou_cronmen_1978]], [[Chu et al 2023][research_chu_featherston_2023]], [[Ciminello et al 2026][research_ciminello_memmolo_2026]], [[Clayton 1970][research_clayton_1970]], [[Collier et al 2002][research_collier_yarrington_2002]], [[Combined sensor system for 1998][research_combined_sensor_1998]], [[Combined sensor system for 1998][research_combined_sensor_1998_b]], [[Composite fuselage saves time 2000][research_composite_fuselage_2000]], [[Composite panel with integral 1990][research_composite_panel_1990]], [[Composite sintered material having 1991][research_composite_sintered_1991]], [[Composite structure reinforcement 1990][research_composite_structure_1990]], [[Composite structure 1998][research_composite_structure_1998]], [[Composite tails prove airworthy 2001][research_composite_tails_2001]], [[Composite wing structures 2001][research_composite_wing_2001]], [[Controlled damage based design][research_controlled_damage_based]], [[Core, Flexible Honeycomb, Aluminum][research_core_flexible]], [[CORE, Flexible Honeycomb, Aluminum][research_core_flexible_b]], [[CORE, Flexible Honeycomb, Aluminum][research_core_flexible_c]], [[Core, Flexible Honeycomb, Aluminum][research_core_flexible_d]], [[CORE, Flexible Honeycomb, Aluminum][research_core_flexible_e]], [[Core, Flexible Honeycomb, Aluminum][research_core_flexible_f]], [[CORE, Honeycomb, Aluminum Alloy][research_core_honeycomb]], [[Cot et al 2015][research_cot_mukherjee_2015]], [[Cox 2006][research_cox_2006]], [[Cózar et al 2020][research_cozar_turon_2020]], [[Crashworthiness and Energy Absorption][research_crashworthiness_and]], [[Crashworthiness of Composite Thin-Walled 2017][research_crashworthiness_of_2017]], [[Crashworthy composite aircraft structure 1996][research_crashworthy_composite_1996]], [[Composite fuselage crown panel manufacturing technology][research_crown_panel_manufacturing]], [[Methodologies for optimal design of composite fuselage crown panels][research_crown_panel_optimal]], [[Manufacturing scale-up of composite fuselage crown panels][research_crown_panel_scaleup]], [[Crump et al 2009][research_crump_dulieubarton_2009]], [[Cumbo et al 2022][research_cumbo_baroni_2022]], [[Damage identification for composite 2017][research_damage_identification_2017]], [[da Silva et al 2022][research_dasilva_donadon_2022]], [[Datta 2021][research_datta_2021]], [[Davila Montano][research_davilamontano]], [[Davis, G. W. and Sakata, I. F. 1981][research_davisgw_sakataif_1981]], [[Dear 2020][research_dear_2020]], [[Debski et al 2013][research_debski_kubiak_2013]], [[De Fenza et al 2017][research_defenza_petrone_2017]], [[Degenhardt et al 2006][research_degenhardt_rolfes_2006]], [[Degenhardt and Tessmer 2007][research_degenhardt_tessmer_2007]], [[Deo 1996][research_deo_1996]], [[de Sá Rodrigues et al 2023][research_desarodrigues_giannakeas_2023]], [[Design of Composite Structures 2017][research_design_of_2017]], [[Destic and Bouvet 2016][research_destic_bouvet_2016]], [[Devarajan and Kapania 2020][research_devarajan_kapania_2020]], [[Dewaidi][research_dewaidi]], [[Dickson et al 1980][research_dickson_cole_1980]], [[Dinardo and Lagace 1987][research_dinardo_lagace_1987]], [[Dmitriev et al 2016][research_dmitriev_zhyvenkova_2016]], [[Dong et al 2023][research_dong_liu_2023]], [[Doong and Chen 1995][research_doong_chen_1995]], [[Dopker et al 1994][research_dopker_murphy_1994]], [[Dorward and Ketola 1983][research_dorward_ketola_1983]], [[Dost, E. F. et al 1992][research_dostef_averywb_1992]], [[Double-lobe fuselage composite airplane 1988][research_double_lobe_fuselage_1988]], [[Dragan and Synaszko 2009][research_dragan_synaszko_2009]], [[Du et al 2019][research_du_yue_2019]], [[Duan et al 2024][research_duan_sun_2024]], [[Dubary et al 2018][research_dubary_bouvet_2018]], [[Dung and Hoa 2015][research_dung_hoa_2015]], [[Dvorak 1997][research_dvorak_1997]], [[Dvorak 1997][research_dvorak_1997_b]], [[Dvorak 2002][research_dvorak_2002]], [[Dynamic Analysis of a 2014][research_dynamic_analysis_2014]], [[Effect of Damage in 2015][research_effect_of_2015]], [[Egan et al 2015][research_egan_mccarthy_2015]], [[Egge 1993][research_egge_1993]], [[Ekvall and Griffin 1981][research_ekvall_griffin_1981]], [[Ekvall and Griffin 1982][research_ekvall_griffin_1982]], [[Ekvall and Griffin 1983][research_ekvall_griffin_1983]], [[Elastic Buckling Response of 2021][research_elastic_buckling_2021]], [[Ellinas and Supple 1983][research_ellinas_supple_1983]], [[El Yaakoubi-Mesbah and Mittelstedt 2026][research_elyaakoubimesbah_mittelstedt_2026]], [[Emam and Eltaher 2016][research_emam_eltaher_2016]], [[Engelstad et al 2015][research_engelstad_koon_2015]], [[E. Sadiq et al 2021][research_esadiq_jjweeg_2021]], [[Eschen et al 2018][research_eschen_harnisch_2018]], [[European programme develops composite 1995][research_european_programme_1995]], [[Faggiani and Falzon 2018][research_faggiani_falzon_2018]], [[Falzon 2006][research_falzon_2006]], [[Falzon 2008][research_falzon_2008]], [[Falzon and Cerini 2006][research_falzon_cerini_2006]], [[Falzon and Faggiani 2012][research_falzon_faggiani_2012]], [[Falzon and Steven 1995][research_falzon_steven_1995]], [[Falzon et al 2000][research_falzon_stevens_2000]], [[Fan et al 1992][research_fan_kroeplin_1992]], [[Fan et al 2023][research_fan_xie_2023]], [[Fang et al 2018][research_fang_yuan_2018]], [[Farley, Gary L. and Dickinson, Larry C. 1992][research_farleygaryl_dickinsonlarryc_1992]], [[Farzan Nasab et al 2018][research_farzannasab_geijselaers_2018]], [[Fasanella and Jackson 1998][research_fasanella_jackson_1998]], [[Fasanella and Jackson 1999][research_fasanella_jackson_1999]], [[Fasanella and Jackson 2000][research_fasanella_jackson_2000]], [[Fasanella and Jackson 2002][research_fasanella_jackson_2002]], [[Fasanella et al 2003][research_fasanella_jackson_2003]], [[Fasanella et al 2003][research_fasanella_jackson_2003_b]], [[Fasanella and Jackson 2004][research_fasanella_jackson_2004]], [[Fasanella et al 2004][research_fasanella_jackson_2004_b]], [[Fasanella et al 2005][research_fasanella_jackson_2005]], [[Fasanella et al 2013][research_fasanella_jackson_2013]], [[Feddal et al 2018][research_feddal_khamlichi_2018]], [[Feng et al 2020][research_feng_ma_2020]], [[Feng et al 2013][research_feng_mou_2013]], [[Feng et al 2016][research_feng_zhang_2016]], [[Feng et al 2016][research_feng_zhang_2016_b]], [[Feraboli et al 2007][research_feraboli_norris_2007]], [[Flotten 2005][research_flotten_2005]], [[Flynn, B. W. et al 1997][research_flynnbw_bodinejb_1997]], [[Fojtl et al 2013][research_fojtl_rusnakova_2013]], [[Foo et al 2007][research_foo_chai_2007]], [[Foreman 1980][research_foreman_1980]], [[Foye et al 1980][research_foye_swindlehurst_1980]], [[Funnell][research_funnell]], [[Furtado et al 2019][research_furtado_catalanotti_2019]], [[Furtado et al 2021][research_furtado_pereira_2021]], [[Galea and Chiu 1996][research_galea_chiu_1996]], [[Galgalikar and Thompson 2016][research_galgalikar_thompson_2016]], [[Gao et al 2018][research_gao_ren_2018]], [[Garbo, S. P. 1983][research_garbosp_1983]], [[Gargano et al 2020][research_gargano_das_2020]], [[Garofano 2023][research_garofano_2023]], [[Garofano and Riccio 2024][research_garofano_riccio_2024]], [[Garofano and Riccio 2026][research_garofano_riccio_2026]], [[Garrett 1986][research_garrett_1986]], [[Ghilai et al 2010][research_ghilai_feldman_2010]], [[Ghinet and Atalla 2011][research_ghinet_atalla_2011]], [[Gholami et al 2016][research_gholami_alashti_2016]], [[Ghosh and Sinha 2005][research_ghosh_sinha_2005]], [[Gillespie et al 2003][research_gillespie_monib_2003]], [[Gong et al 2022][research_gong_wu_2022]], [[Good, Danny E. and Mazza, L. Thomas 1988][research_gooddannye_mazzalthomas_1988]], [[Goodman et al 1981][research_goodman_lincoln_1981]], [[Goossens et al 2025][research_goossens_jimenez_2025]], [[Görlich et al 2021][research_gorlich_arelt_2021]], [[Goutaudier et al 2020][research_goutaudier_osmond_2020]], [[Goyal et al 2022][research_goyal_pennington_2022]], [[Graczykowski et al 2016][research_graczykowski_orlowska_2016]], [[Graham 1996][research_graham_1996]], [[Gransden and Alderliesten 2017][research_gransden_alderliesten_2017]], [[Grimes 1998][research_grimes_1998]], [[Guida et al 2018][research_guida_marulo_2018]], [[Guin and Nettles 2021][research_guin_nettles_2021]], [[Gunnink 1988][research_gunnink_1988]], [[Guo et al 2025][research_guo_bao_2025]], [[Guo and Chattopadhyay 1995][research_guo_chattopadhyay_1995]], [[Guo et al 2016][research_guo_guan_2016]], [[Guo and Ruess 2015][research_guo_ruess_2015]], [[Gupta and Ghosh 2019][research_gupta_ghosh_2019]], [[Gupta et al 2025][research_gupta_kumawat_2025]], [[Gürdal and Haftka 1988][research_gurdal_haftka_1988]], [[Guyett and Cardrick 1980][research_guyett_cardrick_1980]], [[Hadcock 1985][research_hadcock_1985]], [[Haddadpour et al 2008][research_haddadpour_kouchakzadeh_2008]], [[Han 1984][research_han_1984]], [[Han et al 2016][research_han_qin_2016]], [[Hanley 1968][research_hanley_1968]], [[Hao et al 2019][research_hao_nan_2019]], [[Harris et al 2002][research_harris_starnes_2002]], [[Harris, Charles E. et al 2001][research_harrischarlese_starnesjameshjr_2001]], [[Hart et al 2002][research_hart_johnson_2002]], [[Hasan 2023][research_hasan_2023]], [[Hassan et al 2017][research_hassan_othman_2017]], [[He 2007][research_he_2007]], [[He et al 2012][research_he_cheng_2012]], [[He and Hu 2008][research_he_hu_2008]], [[Heil 2025][research_heil_2025]], [[Heintze et al 2011][research_heintze_geier_2011]], [[Henderson et al 1999][research_henderson_gurdal_1999]], [[Herakovich and Johnson 1981][research_herakovich_johnson_1981]], [[Hermansen et al 2026][research_hermansen_borstnar_2026]], [[Hermansen and Lund 2021][research_hermansen_lund_2021]], [[Hermansen and Lund 2023][research_hermansen_lund_2023]], [[Hiel 2026][research_hiel_2026]], [[Hiken 2017][research_hiken_2017]], [[Hiken 2019][research_hiken_2019]], [[Hisada et al 2018][research_hisada_minakuchi_2018]], [[Holland and Chaudhari 2024][research_holland_chaudhari_2024]], [[Honeycomb Core, Aluminum Alloy][research_honeycomb_core]], [[Honeycomb Core, Aluminum Alloy][research_honeycomb_core_b]], [[Honeycomb CORE, Aluminum Alloy][research_honeycomb_core_c]], [[Honeycomb-Cored Sandwich Structure Composites 2010][research_honeycomb_cored_sandwich_2010]], [[Honeycomb-laminate composite structure 1979][research_honeycomb_laminate_composite_1979]], [[Hoo Fatt and Park 2001][research_hoofatt_park_2001]], [[Hosur et al 2003][research_hosur_jeelani_2003]], [[Hosur et al 2003][research_hosur_jeelani_2003_b]], [[Hosur et al 2003][research_hosur_jeelani_2003_c]], [[Houston et al 2017][research_houston_quinn_2017]], [[Hozić 2014][research_hozic_2014]], [[Hozić et al 2023][research_hozic_thore_2023]], [[Hu et al 2023][research_hu_wang_2023]], [[Huang et al 2022][research_huang_long_2022]], [[Hull 1982][research_hull_1982]], [[Huntington and Lyrintzis 1993][research_huntington_lyrintzis_1993]], [[Huttrop 1980][research_huttrop_1980]], [[Hybrid-electric aircraft has composite 2012][research_hybrid_electric_aircraft_2012]], [[iaset 2021][research_iaset_2021]], [[Ilcewicz and Ashforth 2018][research_ilcewicz_ashforth_2018]], [[Ilcewicz and Murphy 2005][research_ilcewicz_murphy_2005]], [[Ilcewicz, Larry B. et al 1989][research_ilcewiczlarryb_dosternstf_1989]], [[Ilcewicz, Larry B. et al 1993][research_ilcewiczlarryb_smithpeterj_1993]], [[Imhof 1997][research_imhof_1997]], [[Investigation of the Characteristic 2022][research_investigation_of_2022]], [[Iqbal et al 2003][research_iqbal_mccarthy_2003]], [[Itu et al 2019][research_itu_vlase_2019]], [[J et al 2022][research_j_chaurasia_2022]], [[Jackson 1996][research_jackson_1996]], [[Jackson 2001][research_jackson_2001]], [[Jackson et al 2001][research_jackson_fasanella_2001]], [[Jackson and Fasanella 2018][research_jackson_fasanella_2018]], [[Jackson and Kellas 2008][research_jackson_kellas_2008]], [[Jackson, Anthony C. et al 1993][research_jacksonanthonyc_barrieronalde_1993]], [[Jacobson 1981][research_jacobson_1981]], [[Jacobson 1983][research_jacobson_1983]], [[Jadhav 2022][research_jadhav_2022]], [[Janeliukstis and Chen 2021][research_janeliukstis_chen_2021]], [[Jansen and Rolfes 2017][research_jansen_rolfes_2017]], [[Jansen and Rolfes 2020][research_jansen_rolfes_2020]], [[Jaunky et al 1998][research_jaunky_knight_1998]], [[Jaunky et al 1996][research_jaunky_knightjr_1996]], [[Jayasree et al 2017][research_jayasree_airale_2017]], [[Jeans et al 1981][research_jeans_grimes_1981]], [[Jeans et al 1983][research_jeans_grimes_1983]], [[Jennise et al 2022][research_jennise_yuhazri_2022]], [[Jensen][research_jensen]], [[Ji et al 2021][research_ji_zhao_2021]], [[Jian and Yao 2011][research_jian_yao_2011]], [[Jin et al 2011][research_jin_song_2011]], [[Johnson et al 1997][research_johnson_kindervater_1997]], [[Joining and Repair of 1997][research_joining_and_1997]], [[Joining of Composite Structures 2004][research_joining_of_2004]], [[Joining of Composite Structures 2016][research_joining_of_2016]], [[Jones 1969][research_jones_1969]], [[Jones 2013][research_jones_2013]], [[Jones et al 1992][research_jones_robinson_1992]], [[Jones and Smith 1995][research_jones_smith_1995]], [[Jonna and Srinivas 2025][research_jonna_srinivas_2025]], [[Jordan][research_jordan]], [[Joshi and Biggers 1996][research_joshi_biggers_1996]], [[Juhui et al 2024][research_juhui_wang_2024]], [[Justin et al 2019][research_justin_gangloff_2019]], [[Jweeg et al 2021][research_jweeg_bakhy_2021]], [[Kabashima and Ozaki 2000][research_kabashima_ozaki_2000]], [[Kafalı and Tunca 2023][research_kafali_tunca_2023]], [[Kamarian et al 2019][research_kamarian_bodaghi_2019]], [[Kan et al 1997][research_kan_cordero_1997]], [[Kaneda 2023][research_kaneda_2023]], [[Kang and Kim 2005][research_kang_kim_2005]], [[Kanth S and Pandian D 2025][research_kanths_pandiand_2025]], [[Kassapoglou, Christos et al 1990][research_kassapoglouchristos_dinicolaalbertj_1990]], [[Katunin 2016][research_katunin_2016]], [[Kaware and Kotambkar 2021][research_kaware_kotambkar_2021]], [[Kedward 1976][research_kedward_1976]], [[Kellas et al 2000][research_kellas_boitnott_2000]], [[Kellas and Jackson 2010][research_kellas_jackson_2010]], [[Kendall and Gonzalez 1965][research_kendall_gonzalez_1965]], [[Khan and Riccio 2025][research_khan_riccio_2025]], [[Kidane][research_kidane]], [[Kikukawa 2020][research_kikukawa_2020]], [[Kim 2001][research_kim_2001]], [[Kim et al 2013][research_kim_defrancisci_2013]], [[Kim et al 2008][research_kim_ji_2008]], [[Kim and Kim 2008][research_kim_kim_2008]], [[Kim et al 2013][research_kim_lim_2013]], [[Kim and Noor 1996][research_kim_noor_1996]], [[Kim et al 2014][research_kim_shin_2014]], [[Kim and Tuttle 1994][research_kim_tuttle_1994]], [[Kiser and Jay P. 2010][research_kiser_jayp_2010]], [[Kling 2008][research_kling_2008]], [[Klotzsche, M. 1984][research_klotzschem_1984]], [[Koide et al 2017][research_koide_luersen_2017]], [[Kolanu et al 2018][research_kolanu_raju_2018]], [[Kolarik 1990][research_kolarik_1990]], [[Kong et al 1998][research_kong_lee_1998]], [[Kong et al 2008][research_kong_park_2008]], [[Kootte et al 2021][research_kootte_bisagni_2021]], [[Kordas and Lampeas 2024][research_kordas_lampeas_2024]], [[Kordonowy and Toupet 2011][research_kordonowy_toupet_2011]], [[Koricho et al 2013][research_koricho_belingardi_2013]], [[Kothari 2011][research_kothari_2011]], [[Kubiak and Mania 2016][research_kubiak_mania_2016]], [[Kuenzi 1952][research_kuenzi_1952]], [[Kumar 2010][research_kumar_2010]], [[Kumar et al 2021][research_kumar_arindamkumarchanda_2021]], [[Kumar et al 2007][research_kumar_bryan_2007]], [[Kumar et al 2023][research_kumar_ganeshnarayanan_2023]], [[Kumar and Kalaichelvan 2017][research_kumar_kalaichelvan_2017]], [[Kumar et al 2024][research_kumar_kumar_2024]], [[Kumar and Singh 2010][research_kumar_singh_2010]], [[Kwon 2020][research_kwon_2020]], [[Kwon and Dharan 1995][research_kwon_dharan_1995]], [[Kyungpyo Kim 2018][research_kyungpyokim_2018]], [[Laakso and Hoggatt 1976][research_laakso_hoggatt_1976]], [[Laananen and Renze 1993][research_laananen_renze_1993]], [[Lagace 1988][research_lagace_1988]], [[Lanzi and Giavotto 2006][research_lanzi_giavotto_2006]], [[Lares][research_lares]], [[Lee 2019][research_lee_2019]], [[Lee et al 2020][research_lee_cho_2020]], [[Lee et al 2020][research_lee_cho_2020_b]], [[Lee and Choi 1999][research_lee_choi_1999]], [[Lee et al 1997][research_lee_kim_1997]], [[Leissa 1981][research_leissa_1981]], [[Leissa 1995][research_leissa_1995]], [[Leonard, R. W. and Wagner, R. D. 1976][research_leonardrw_wagnerrd_1976]], [[Leone et al][research_leone_awerbuch]], [[Lepage et al 2001][research_lepage_kindervater_2001]], [[Less and Abramovich 2012][research_less_abramovich_2012]], [[Levy et al 1980][research_levy_kuo_1980]], [[Li et al 2026][research_li_an_2026]], [[Li et al 1994][research_li_elishakoff_1994]], [[Li et al 2020][research_li_guo_2020_b]], [[Li et al 2020][research_li_liu_2020]], [[Li and Wu 2015][research_li_wu_2015]], [[Li et al 2022][research_li_xu_2022]], [[Li et al 2025][research_li_yang_2025]], [[Li et al 2026][research_li_zhang_2026]], [[Lian et al 2023][research_lian_zhang_2023]], [[Libeskind et al 1973][research_libeskind_minecci_1973]], [[Lin et al 2017][research_lin_jin_2017]], [[Lin and Styuart 2007][research_lin_styuart_2007]], [[Linde et al 2006][research_linde_schulz_2006]], [[Linul and Khezrzadeh 2021][research_linul_khezrzadeh_2021]], [[Linul et al 2021][research_linul_pietras_2021]], [[Lis 2025][research_lis_2025]], [[Liu et al 2022][research_liu_gao_2022]], [[Liu et al 2014][research_liu_han_2014]], [[Liu et al 2014][research_liu_huan_2014]], [[Liu et al 2020][research_liu_jiang_2020]], [[Liu and Nagano 2014][research_liu_nagano_2014]], [[Liu et al 2021][research_liu_yue_2021]], [[Liu et al 2023][research_liu_zhang_2023]], [[Livne et al 1990][research_livne_schmit_1990]], [[Livne et al 1993][research_livne_schmit_1993]], [[Long et al 2024][research_long_wenbo_2024]], [[Lopatin et al 2021][research_lopatin_morozov_2021]], [[Lorang and Carr 2017][research_lorang_carr_2017]], [[Loughlan 1994][research_loughlan_1994]], [[Loughlan 1994][research_loughlan_1994_b]], [[Loughlan 1996][research_loughlan_1996]], [[Luan 2019][research_luan_2019]], [[Luczak et al 2008][research_luczak_vecchio_2008]], [[Lukaszewicz 2013][research_lukaszewicz_2013]], [[Lund 2017][research_lund_2017]], [[Luo et al 2014][research_luo_yan_2014]], [[Lv and Ren 2023][research_lv_ren_2023]], [[Lv and Ren 2023][research_lv_ren_2023_b]], [[Maalawi 2011][research_maalawi_2011]], [[Machine Learning Aided Analysis 2024][research_machine_learning_2024]], [[Maguire et al 2018][research_maguire_nayak_2018]], [[MahÃ© 2001][research_maha_2001]], [[Maia and de Oliveira 2005][research_maia_deoliveira_2005]], [[Mair 2002][research_mair_2002]], [[Mandel et al 2016][research_mandel_taubert_2016]], [[Manzo et al 2021][research_manzo_perfetto_2021]], [[Mar 1984][research_mar_1984]], [[Marano et al 2022][research_marano_belardo_2022]], [[Marano et al 2024][research_marano_gagliardi_2024]], [[Marczak 2022][research_marczak_2022]], [[Massabò 2020][research_massabo_2020]], [[Masud et al 2015][research_masud_khan_2015]], [[Materials Systems Inc Concord Ma 1994][research_materialssystemsincconcordma_1994]], [[Maziz et al 2020][research_maziz_rechak_2020]], [[McCarthy et al 2018][research_mccarthy_toni_2018]], [[Mccarty, John E. and Roeseler, William G. 1984][research_mccartyjohne_roeselerwilliamg_1984]], [[McElroy et al 2019][research_mcelroy_zanganeh_2019]], [[Mchenry and Hensley 1974][research_mchenry_hensley_1974]], [[McHenry and Hensley 1975][research_mchenry_hensley_1975]], [[Mcmanus and Mak 1993][research_mcmanus_mak_1993]], [[Medwick et al 1999][research_medwick_castro_1999]], [[Megson 2013][research_megson_2013]], [[Megson 2017][research_megson_2017]], [[Megson 2018][research_megson_2018]], [[Megson 2022][research_megson_2022]], [[Meidell 2009][research_meidell_2009]], [[Method and material for 1978][research_method_and_1978]], [[Method for producing a 1991][research_method_for_1991]], [[Michalski and Krauze 2019][research_michalski_krauze_2019]], [[Miranda et al 2025][research_miranda_cini_2025]], [[Miravete 1996][research_miravete_1996]], [[Miravete 1996][research_miravete_1996_b]], [[Mitrofanov and Ryzhova 2021][research_mitrofanov_ryzhova_2021]], [[Mittelstedt 2025][research_mittelstedt_2025]], [[Mittelstedt 2025][research_mittelstedt_2025_b]], [[Mittelstedt and Schröder 2010][research_mittelstedt_schroder_2010]], [[Mittelstedt and Schröder 2010][research_mittelstedt_schroder_2010_b]], [[Miura 1975][research_miura_1975]], [[Mobasher Amini and Nakisa 2011][research_mobasheramini_nakisa_2011]], [[Möcker and Reimerdes][research_mocker_reimerdes]], [[Möcker and Reimerdes 2006][research_mocker_reimerdes_2006]], [[Moix-Bonet 2025][research_moixbonet_2025]], [[Mojtahedi et al 2022][research_mojtahedi_hokmabady_2022]], [[Molent and Forrester 2017][research_molent_forrester_2017]], [[Molinari 2020][research_molinari_2020]], [[Molyneaux and Curtis 1991][research_molyneaux_curtis_1991]], [[Monzon and Foley 1988][research_monzon_foley_1988]], [[Moradi et al 2021][research_moradi_vosoughi_2021]], [[Mostafa and Shankar 2013][research_mostafa_shankar_2013]], [[Mou et al 2026][research_mou_zhang_2026]], [[Mou et al 2014][research_mou_zou_2014]], [[Mou et al 2016][research_mou_zou_2016]], [[Mouhat et al 2019][research_mouhat_bybi_2019]], [[Muc 1991][research_muc_1991]], [[Mukhopadhyay 2014][research_mukhopadhyay_2014]], [[Mukhopadhyay and Sorokach 2015][research_mukhopadhyay_sorokach_2015]], [[Muliana and Haj-Ali 2005][research_muliana_hajali_2005]], [[Muliana and Haj-Ali 2006][research_muliana_hajali_2006]], [[Müller et al 2017][research_muller_ruggiero_2017]], [[Munjal][research_munjal]], [[Murphy and Quinn 2018][research_murphy_quinn_2018]], [[Musicman and Reinert 1980][research_musicman_reinert_1980]], [[Muthyala][research_muthyala]], [[Myhre and Beck 1979][research_myhre_beck_1979]], [[Myhre and Labor 1981][research_myhre_labor_1981]], [[Nadeem Masood et al 2020][research_nadeemmasood_viswamurthy_2020]], [[Nagar 1994][research_nagar_1994]], [[Nagendra et al 1991][research_nagendra_haftka_1991]], [[Nagendra et al 1993][research_nagendra_haftka_1993]], [[Naidu and Sinha 2005][research_naidu_sinha_2005]], [[Nakashima et al 2007][research_nakashima_matsumiya_2007]], [[Nam et al 2015][research_nam_park_2015]], [[Narita 2002][research_narita_2002]], [[Negrin et al 2025][research_negrin_kripka_2025]], [[Nemeth 1995][research_nemeth_1995]], [[Nesterenko 2013][research_nesterenko_2013]], [[Nettles et al 2023][research_nettles_barnes_2023]], [[Nettles et al 2022][research_nettles_guin_2022]], [[Nettles, Alan T. et al 2008][research_nettlesalant_gregoryelizabeth_2008]], [[Nettles, A. T. and Hromisin, S. M. 2013][research_nettlesat_hromisinsm_2013]], [[Nettles, A. T. and Lance, D. G. 1993][research_nettlesat_lancedg_1993]], [[New honeycomb composite 2006][research_new_honeycomb_2006]], [[Nezhad et al 2014][research_nezhad_merwick_2014]], [[Ning et al 2007][research_ning_janowski_2007]], [[Noor and Peters 1994][research_noor_peters_1994]], [[Noor et al 1993][research_noor_starnes_1993]], [[Noor et al 1997][research_noor_starves_1997]], [[Nordby et al 1964][research_nordby_noyes_1964]], [[Norwood et al 2022][research_norwood_brown_2022]], [[Norwood et al 2022][research_norwood_brown_2022_b]], [[Norwood et al 2021][research_norwood_schneberger_2021]], [[Noton 1957][research_noton_1957]], [[Nowakowski et al 2019][research_nowakowski_baran_2019]], [[Nur Ainin et al 2022][research_nurainin_azaman_2022]], [[Nurashikin and Hazizan 2011][research_nurashikin_hazizan_2011]], [[Odacı et al 2012][research_odaci_kilicaslan_2012]], [[Oh et al 2006][research_oh_kim_2006]], [[Optimization of design allowables 1988][research_optimization_of_1988]], [[Orifici et al 2008][research_orifici_thomson_2008]], [[Orisamolu et al 1997][research_orisamolu_luo_1997]], [[Oskay 2012][research_oskay_2012]], [[Ovesy and Assaee 2018][research_ovesy_assaee_2018]], [[Paccou][research_paccou]], [[Palazotto 1988][research_palazotto_1988]], [[Palazotto 1995][research_palazotto_1995]], [[Palmberg et al 1987][research_palmberg_blom_1987]], [[Paluch et al 2008][research_paluch_grediac_2008]], [[Panda et al 2025][research_panda_sarnaik_2025]], [[Pantelides 1996][research_pantelides_1996]], [[Paolozzi and Peroni 1996][research_paolozzi_peroni_1996]], [[Paonessa et al 2005][research_paonessa_digiulio_2005]], [[Papila and Atilgan 2022][research_papila_atilgan_2022]], [[Parametric Investigations on Laminated 2024][research_parametric_investigations_2024]], [[Park 2007][research_park_2007]], [[Park 2015][research_park_2015]], [[Park 2016][research_park_2016]], [[Park 2019][research_park_2019]], [[Park et al 2012][research_park_kan_2012]], [[Park and Kong 2011][research_park_kong_2011]], [[Park and Kong 2013][research_park_kong_2013]], [[Park et al 2024][research_park_youn_2024]], [[Parveez 2024][research_parveez_2024]], [[Pashkov et al 2023][research_pashkov_zhuleva_2023]], [[Patel 2014][research_patel_2014]], [[Patnaik et al 2008][research_patnaik_pai_2008]], [[Patterson and Pinckney 1988][research_patterson_pinckney_1988]], [[Pengfei et al 2025][research_pengfei_xuhui_2025]], [[Penumadu 2020][research_penumadu_2020]], [[Perez et al 2000][research_perez_johnson_2000]], [[Perfetto et al 2018][research_perfetto_deluca_2018]], [[Perfetto et al 2019][research_perfetto_deluca_2019]], [[Perfetto et al 2019][research_perfetto_lamanna_2019]], [[Peronnet][research_peronnet]], [[Perret][research_perret]], [[Perret et al 2011][research_perret_mistou_2011]], [[Perret et al 2012][research_perret_mistou_2012]], [[Peterlin 1975][research_peterlin_1975]], [[Pettit 1979][research_pettit_1979]], [[Philippidis 2000][research_philippidis_2000]], [[Pimm 1976][research_pimm_1976]], [[Pinckney 1964][research_pinckney_1964]], [[Pochiraju 1999][research_pochiraju_1999]], [[Poe 1971][research_poe_1971]], [[Polimeno and Meo 2009][research_polimeno_meo_2009]], [[Poncia et al 1975][research_poncia_krauss_1975]], [[Prabhakaran et al 2002][research_prabhakaran_saha_2002]], [[Preeti et al 2022][research_preeti_jones_2022]], [[Process for manufacturing a 1972][research_process_for_1972]], [[Process for moulding and 1989][research_process_for_1989]], [[Process for manufacturing a 1991][research_process_for_1991]], [[Process for forming a 1992][research_process_for_1992]], [[Process for forming a 1993][research_process_for_1993]], [[Process for preparing advance 1994][research_process_for_1994]], [[Process of making a 1991][research_process_of_1991]], [[Pugazhenthi et al 2018][research_pugazhenthi_gopalakannan_2018]], [[Qi et al 2026][research_qi_zhou_2026]], [[Qu et al 2025][research_qu_zhao_2025]], [[Quatmann and Reimerdes 2011][research_quatmann_reimerdes_2011]], [[Rafighi and Tabarsa 2011][research_rafighi_tabarsa_2011]], [[Ragavan and Amde 1999][research_ragavan_amde_1999]], [[Rao et al 2024][research_rao_sinha_2024]], [[Raper 1991][research_raper_1991]], [[Rapoff, Andrew J. et al 1990][research_rapoffandrewj_dillharoldd_1990]], [[Rasuo 2015][research_rasuo_2015]], [[Rathinam and Chinnamokkaiyan 2026][research_rathinam_chinnamokkaiyan_2026]], [[Reinoso et al 2012][research_reinoso_blazquez_2012]], [[Remi Rey et al 2026][research_remirey_rinahashimoto_2026]], [[Ren et al 2019][research_ren_gao_2019]], [[Riccio et al 2024][research_riccio_garofano_2024]], [[Riccio et al 2018][research_riccio_raimondo_2018]], [[Riccio et al 2019][research_riccio_saputo_2019]], [[Riccio et al 2020][research_riccio_saputo_2020]], [[Riccio et al 2020][research_riccio_saputo_2020_b]], [[Riccio et al 2020][research_riccio_saputo_2020_c]], [[Riccio et al 2021][research_riccio_saputo_2021]], [[Rich and Maass 1981][research_rich_maass_1981]], [[Rich et al 1975][research_rich_ridgley_1975]], [[Riley 1986][research_riley_1986]], [[Rispler 2004][research_rispler_2004]], [[Roberge 2008][research_roberge_2008]], [[Robinson][research_robinson]], [[Rodzewicz 2009][research_rodzewicz_2009]], [[Rodzewicz 2010][research_rodzewicz_2010]], [[Rosenfeld 1971][research_rosenfeld_1971]], [[Roudolff and Gädke 2000][research_roudolff_gadke_2000]], [[Rouse and Ambur 1996][research_rouse_ambur_1996]], [[Rouse et al 2006][research_rouse_ambur_2006]], [[Rozylo 2021][research_rozylo_2021]], [[Russo et al 2019][research_russo_guida_2019]], [[Rust et al][research_rust_todt]], [[Růžek and Běhal 2009][research_ruzek_behal_2009]], [[Ruzzene 2003][research_ruzzene_2003]], [[S et al 2011][research_s_k_2011]], [[Sabat and Palazotto 2013][research_sabat_palazotto_2013]], [[Sadighi et al 2021][research_sadighi_azimi_2021]], [[Sadiq et al 2020][research_sadiq_bakhy_2020]], [[Sadowski 1988][research_sadowski_1988]], [[Sahoo 2021][research_sahoo_2021]], [[Sahoo et al 2017][research_sahoo_gujar_2017]], [[Sahoo et al 2025][research_sahoo_swain_2025]], [[Salamon 1981][research_salamon_1981]], [[Saliba and Attard 2018][research_saliba_attard_2018]], [[Samikkannu 2011][research_samikkannu_2011]], [[Sands et al 2008][research_sands_vaidya_2008]], [[Santare, Michael H. and Pipes, R. Byron 1992][research_santaremichaelh_pipesrbyron_1992]], [[Savci et al 2000][research_savci_curiskis_2000]], [[Sawal and Hazizan 2011][research_sawal_hazizan_2011]], [[Sawicki 2004][research_sawicki_2004]], [[Sayyad et al 2022][research_sayyad_ghugal_2022]], [[Schilling and Mittelstedt 2021][research_schilling_mittelstedt_2021]], [[Schilling and Mittelstedt 2022][research_schilling_mittelstedt_2022]], [[Schmidt et al 2000][research_schmidt_ragavan_2000]], [[Schultz, Marc R. et al 2011][research_schultzmarcr_oremontleonard_2011]], [[Sebaey 2022][research_sebaey_2022]], [[Sebaey et al 2013][research_sebaey_gonzalez_2013]], [[Sebaey and Mahdi 2016][research_sebaey_mahdi_2016]], [[Seemann 2019][research_seemann_2019]], [[Seemann 2019][research_seemann_2019_b]], [[Seemann 2020][research_seemann_2020]], [[Segal 1988][research_segal_1988]], [[Sellitto et al 2020][research_sellitto_dicaprio_2020]], [[Sellitto et al 2019][research_sellitto_riccio_2019]], [[Seneviratne et al 2019][research_seneviratne_saseendran_2019]], [[Shah and Kapania 2019][research_shah_kapania_2019]], [[Shao et al 2012][research_shao_he_2012]], [[Sharma 1981][research_sharma_1981]], [[Shaw et al 2015][research_shaw_dayyani_2015]], [[Sheinman et al 1988][research_sheinman_frostig_1988]], [[Sheinman et al 1992][research_sheinman_frostig_1992]], [[Shen et al 2013][research_shen_kurfess_2013]], [[Sheppard et al 1998][research_sheppard_leong_1998]], [[Shesh and Sastry Veluri 2023][research_shesh_sastryveluri_2023]], [[Shi et al 2018][research_shi_chen_2018]], [[Shi et al 2014][research_shi_li_2014]], [[Shi and Wang 2016][research_shi_wang_2016]], [[Shi et al 2021][research_shi_wu_2021]], [[Shine 2014][research_shine_2014]], [[Shroff and Kassapoglou 2014][research_shroff_kassapoglou_2014]], [[Shuart 1981][research_shuart_1981]], [[Shukla et al 2020][research_shukla_salazar_2020]], [[Shyprykevich][research_shyprykevich]], [[Shyr and Pan 2004][research_shyr_pan_2004]], [[Sierakowski 2000][research_sierakowski_2000]], [[Sikdar and Banerjee 2016][research_sikdar_banerjee_2016]], [[Singhal et al 2018][research_singhal_sahu_2018]], [[Sjølund et al 2019][research_sjolund_peeters_2019]], [[Smith, Peter J. et al 1985][research_smithpeterj_wilsonrobertd_1985]], [[Smith, P. J. et al 1986][research_smithpj_thomsonlw_1986]], [[Smotrova 2021][research_smotrova_2021]], [[Sobel and Sharp 1994][research_sobel_sharp_1994]], [[Soderquist 1981][research_soderquist_1981]], [[Soderquist 1987][research_soderquist_1987]], [[Sofiyev 2016][research_sofiyev_2016]], [[Software to engineer composite 2009][research_software_to_2009]], [[Sohouli et al 2017][research_sohouli_yildiz_2017]], [[Solvay and Airborne receive 2023][research_solvay_and_2023]], [[Somers et al 1992][research_somers_weller_1992]], [[Somireddy and Czekanski 2020][research_somireddy_czekanski_2020]], [[Soovere 1983][research_soovere_1983]], [[Soovere 1985][research_soovere_1985]], [[Sørensen and Lund 2015][research_sorensen_lund_2015]], [[Sørensen et al 2014][research_sorensen_sorensen_2014]], [[Sorrentino et al 2021][research_sorrentino_romano_2021]], [[Spagnoli and Chryssanthopoulos 1999][research_spagnoli_chryssanthopoulos_1999]], [[Sridharan et al 1992][research_sridharan_zeggane_1992]], [[Stamatelos and Labeas 2025][research_stamatelos_labeas_2025]], [[Staniszewski et al 2012][research_staniszewski_bogetti_2012]], [[Steen 1989][research_steen_1989]], [[Stein 1988][research_stein_1988]], [[Stevens et al 1995][research_stevens_ricci_1995]], [[Stiftinger et al 1995][research_stiftinger_skrnajakl_1995]], [[Stocchi et al 2014][research_stocchi_colabella_2014]], [[Stone 1978][research_stone_1978]], [[Strizhius 2014][research_strizhius_2014]], [[Strizhius 2016][research_strizhius_2016]], [[Strizhius 2020][research_strizhius_2020]], [[Sturm et al 2014][research_sturm_klett_2014]], [[Sue and Whitcomb 2008][research_sue_whitcomb_2008]], [[Suh et al 2003][research_suh_han_2003]], [[Sullivan][research_sullivan]], [[Sun and Mao 1993][research_sun_mao_1993]], [[Sun et al 2024][research_sun_zhao_2024]], [[Sun et al 2025][research_sun_zhao_2025]], [[Sweeney][research_sweeney]], [[Tai et al 2023][research_tai_zhou_2023]], [[Taig 1972][research_taig_1972]], [[Taki and Kitagawa 1995][research_taki_kitagawa_1995]], [[Talezadehlari and Rahimi 2016][research_talezadehlari_rahimi_2016]], [[Talreja and Phan 2019][research_talreja_phan_2019]], [[Tan and Akil 2012][research_tan_akil_2012]], [[Tang 1989][research_tang_1989]], [[Tanzer, H. J. 1982][research_tanzerhj_1982]], [[Tauhiduzzaman and Carlsson 2020][research_tauhiduzzaman_carlsson_2020]], [[Tay et al 2019][research_tay_flores_2019]], [[Terry 2000][research_terry_2000]], [[Test Method for Static][research_test_method_n]], [[Test Methods and Design 1989][research_test_methods_1989]], [[Tetteh et al 2023][research_tetteh_mensah_2023]], [[Thanikasalam and Ramamoorthy 2024][research_thanikasalam_ramamoorthy_2024]], [[Through-Life Damage Detection and 2016][research_through_life_damage_2016]], [[Thuresson and Abelin 1987][research_thuresson_abelin_1987]], [[Tian][research_tian]], [[Todoroki and Sekishiro 2007][research_todoroki_sekishiro_2007]], [[Todoroki and Sekishiro 2008][research_todoroki_sekishiro_2008]], [[Todoroki and Sekishiro 2008][research_todoroki_sekishiro_2008_b]], [[Toffol and Ricci 2023][research_toffol_ricci_2023]], [[Tolstikov and Pykhalov 2021][research_tolstikov_pykhalov_2021]], [[Toor 1973][research_toor_1973]], [[Tripathy and Rao 1991][research_tripathy_rao_1991]], [[Tripathy and Rao 1993][research_tripathy_rao_1993]], [[Turan 2026][research_turan_2026]], [[Tyahla and Storr 1988][research_tyahla_storr_1988]], [[Ukraintsev 1998][research_ukraintsev_1998]], [[Umezawa and Aoki 2015][research_umezawa_aoki_2015]], [[Utham et al 2025][research_utham_watts_2025]], [[V and K Maharana 2022][research_v_kmaharana_2022]], [[Vargas-Rojas et al 2014][research_vargasrojas_camarenaarellano_2014]], [[Venkatachari et al 2015][research_venkatachari_natarajan_2015]], [[Vescovini and Bisagni 2018][research_vescovini_bisagni_2018]], [[Viswanathau et al 1973][research_viswanathau_soong_1973]], [[Vitali and Sankar 1999][research_vitali_sankar_1999]], [[V. Mohan et al 1998][research_vmohan_tamma_1998]], [[Wang and Abdalla 2015][research_wang_abdalla_2015]], [[Wang and Abdalla 2016][research_wang_abdalla_2016]], [[Wang et al 2017][research_wang_abdalla_2017]], [[Wang et al 1998][research_wang_banbury_1998]], [[Wang et al 2010][research_wang_guo_2010]], [[Wang et al 2026][research_wang_ning_2026]], [[Wang et al 2006][research_wang_poe_2006]], [[Wang and Qiao 2021][research_wang_qiao_2021]], [[Wang and Song 2022][research_wang_song_2022]], [[Wang and Spier][research_wang_spier]], [[Wang et al 2024][research_wang_xu_2024]], [[Wang et al 2011][research_wang_zhang_2011]], [[Wang et al 2024][research_wang_zhang_2024]], [[Wang et al 2026][research_wang_zhang_2026]], [[Wang, John T. et al 1996][research_wangjohnt_jegleydawnc_1996]], [[Ward 2026][research_ward_2026]], [[Watson 1980][research_watson_1980]], [[Watson 1981][research_watson_1981]], [[Watson 1982][research_watson_1982]], [[Weber et al 2022][research_weber_middendorf_2022]], [[Weber et al 2023][research_weber_voelkle_2023]], [[Weber et al 2023][research_weber_voelkle_2023_b]], [[Weckner et al 2020][research_weckner_cuenca_2020]], [[Wei et al 2022][research_wei_fu_2022]], [[Wen et al 2018][research_wen_yue_2018]], [[Whinery et al 1971][research_whinery_clayton_1971]], [[Whitehead and Deo 1983][research_whitehead_deo_1983]], [[Whitehead, R. S. 1991][research_whiteheadrs_1991]], [[Wilkins, D. J. 1983][research_wilkinsdj_1983]], [[Willden, Kurtis et al 1992][research_willdenkurtis_metschans_1992]], [[Wiranto et al 2024][research_wiranto_saraswati_2024]], [[Wodesenbet et al 2003][research_wodesenbet_kidane_2003]], [[Wong 2020][research_wong_2020]], [[Woodson et al 1995][research_woodson_johnson_1995]], [[Woodson et al 1996][research_woodson_johnson_1996]], [[Wu et al 2023][research_wu_hu_2023]], [[Wu et al 2023][research_wu_liu_2023]], [[Wu et al 2024][research_wu_qiu_2024]], [[Wu and Zhang 1991][research_wu_zhang_1991]], [[Xianfei et al 2017][research_xianfei_yunwen_2017]], [[Xiang 2017][research_xiang_2017]], [[Xiao et al 2018][research_xiao_shen_2018]], [[Xia-Shi 1987][research_xiashi_1987]], [[Xiong 1995][research_xiong_1995]], [[Xu 2009][research_xu_2009]], [[Xu et al 2020][research_xu_chen_2020]], [[Xuan][research_xuan]], [[Xue et al 2014][research_xue_ding_2014]], [[Xue et al 2011][research_xue_wang_2011]], [[Yamamoto et al 2016][research_yamamoto_hayama_2016]], [[Yarlagadda 2012][research_yarlagadda_2012]], [[Yee et al 1995][research_yee_groleau_1995]], [[Yoo and Hajela 2000][research_yoo_hajela_2000]], [[Yoon et al 2000][research_yoon_lee_2000]], [[Yu et al 2016][research_yu_feng_2016]], [[Yu et al 2016][research_yu_han_2016]], [[Yu et al 2022][research_yu_wang_2022]], [[Yu and Xue 2016][research_yu_xue_2016]], [[Yuan 1993][research_yuan_1993]], [[Yue et al 2018][research_yue_wen_2018]], [[Yun et al 2024][research_yun_zhao_2024]], [[Zahran and Abdelwahab 2019][research_zahran_abdelwahab_2019]], [[Zaini et al 2018][research_zaini_azaman_2018]], [[Zakki and Windyandari 2023][research_zakki_windyandari_2023]], [[Zang et al 2024][research_zang_liu_2024]], [[Zemer 1960][research_zemer_1960]], [[Zevincent Queenata et al 2025][research_zevincentqueenata_imadewiragunarsa_2025]], [[Zhai et al 2025][research_zhai_lyu_2025]], [[Zhang et al 2021][research_zhang_an_2021]], [[Zhang et al 2017][research_zhang_chen_2017]], [[Zhang et al 2017][research_zhang_ge_2017]], [[Zhang et al 2024][research_zhang_qu_2024]], [[Zhang et al 2015][research_zhang_sun_2015]], [[Zhang and Taheri 2003][research_zhang_taheri_2003]], [[Zhang et al 2026][research_zhang_wan_2026]], [[Zhang et al 2017][research_zhang_xu_2017]], [[Zhang et al 2020][research_zhang_xu_2020]], [[Zhang et al 2023][research_zhang_xu_2023]], [[Zhao et al 2025][research_zhao_jiang_2025]], [[Zhao et al 2024][research_zhao_lin_2024]], [[Zheleznov and Ser'eznov 2021][research_zheleznov_sereznov_2021]], [[Zhou and Davies 1994][research_zhou_davies_1994]], [[Zhou et al 2022][research_zhou_enos_2022]], [[Zhou et al 2024][research_zhou_zhu_2024]], [[Zhu and Chai 2013][research_zhu_chai_2013]], [[Zhu et al 2023][research_zhu_liu_2023]], [[Zhu et al 2015][research_zhu_yan_2015]], [[Zhu et al 2015][research_zhu_yan_2015_b]], [[Zhuang et al 2022][research_zhuang_chaurasia_2022]], [[Zimmermann et al 2006][research_zimmermann_klein_2006]], [[Zimmermann and Rolfes 2006][research_zimmermann_rolfes_2006]], [[Zou et al 2025][research_zou_jia_2025]], [[Zou et al 2012][research_zou_mou_2012]].
+
+### Bonding, which is how a unitised structure is joined
+
+**The second largest cluster, and its size is the argument.** Adhesive joints, co-curing and co-bonding, bondline quality, disbond, the double cantilever beam and interlaminar fracture. **A unitised structure is one whose parts have been replaced by joints that cannot be inspected by looking at them**, so the discipline that decides whether unitisation is safe is adhesion science rather than structural analysis [[Kinloch, Adhesion and adhesives][book_kinloch]].
+
+[[Abdel Wahab 2015][research_abdelwahab_2015]], [[Acceptance Criteria Adhesive-Bonded Metal-Faced][research_acceptance_criteria]], [[Accurate bond-line inspection with 2010][research_accurate_bond_line_2010]], [[Action and Goyal 2022][research_action_goyal_2022]], [[Adams 1987][research_adams_1987]], [[Adhesive bonded aircraft structures 1955][research_adhesive_bonded_1955]], [[adhesive-bonded fabrics 2021][research_adhesive_bonded_fabrics_2021]], [[Adhesive-Bonded Metal-Faced Sandwich Structures][research_adhesive_bonded_metal_faced]], [[Adhesive-bonded sculpture 1972][research_adhesive_bonded_sculpture_1972]], [[Adhesive Film, Epoxy-Base for][research_adhesive_film]], [[Adhesive Forces in Bonded 2008][research_adhesive_forces_2008]], [[Adhesively-bonded nutplate mounts to 1990][research_adhesively_bonded_nutplate_1990]], [[Adhesives for leather and][research_adhesives_for]], [[Aimmanee 2018][research_aimmanee_2018]], [[Aimmanee and Hongpimolmas 2017][research_aimmanee_hongpimolmas_2017]], [[Akhavan-Safar et al 2023][research_akhavansafar_marques_2023]], [[Akman et al 2019][research_akman_erdogan_2019]], [[Akpinar and Akpinar 2023][research_akpinar_akpinar_2023]], [[Albrecht and Sahli 1986][research_albrecht_sahli_1986]], [[Alderliesten 2009][research_alderliesten_2009]], [[Al-Hamrani and Alnahhal 2023][research_alhamrani_alnahhal_2023]], [[Alic 1977][research_alic_1977]], [[Aliheidari, and Ameli 2023][research_aliheidari_ameli_2023]], [[Alshedayfat et al 2024][research_alshedayfat_wagih_2024]], [[Amif et al 2026][research_amif_yudhanto_2026]], [[Amiri et al 2006][research_amiri_bouiadjra_2006]], [[Analysis and Design of 2011][research_analysis_and_2011]], [[Analysis and design of][research_analysis_and_design]], [[Analysis of composite-to-metal joints 1986][research_analysis_of_1986]], [[Analytical Study of Concrete 1996][research_analytical_study_1996]], [[Andonovska 2021][research_andonovska_2021]], [[Anyfantis 2012][research_anyfantis_2012]], [[Apalak et al 2006][research_apalak_apalak_2006]], [[Arenas et al 2019][research_arenas_suarez_2019]], [[Armanios et al 2002][research_armanios_bucinell_2002]], [[Arnold 1987][research_arnold_1987]], [[Ascher and Späth 2025][research_ascher_spath_2025]], [[Ashcroft et al 2003][research_ashcroft_erpolat_2003]], [[Ashton et al 2003][research_ashton_reid_2003]], [[Askins 1999][research_askins_1999]], [[Asokan et al 2012][research_asokan_manikandan_2012]], [[Attar et al 2023][research_attar_echcherifelkettani_2023]], [[Azzouz et al 2021][research_azzouz_mhamdia_2021]], [[B et al 2023][research_b_patil_2023]], [[B et al 2023][research_b_tallur_2023]], [[Baburao 1970][research_baburao_1970]], [[Bachir Bouiadjra et al 2007][research_bachirbouiadjra_fekirini_2007]], [[Bachir Bouiadjra et al 2012][research_bachirbouiadjra_oudad_2012]], [[Bailey and Weber 2023][research_bailey_weber_2023]], [[Bajere 1994][research_bajere_1994]], [[Baker 1999][research_baker_1999]], [[Baker 2010][research_baker_2010]], [[Baker 2011][research_baker_2011]], [[Baker 2011][research_baker_2011_b]], [[Baker et al 2012][research_baker_bitton_2012]], [[Baker et al 2014][research_baker_gunnion_2014]], [[Baker and Nezhad 2021][research_baker_nezhad_2021]], [[Baker and Wang 2018][research_baker_wang_2018]], [[Balaji and Rajesh 2024][research_balaji_rajesh_2024]], [[Balaji et al 2025][research_balaji_rajesh_2025]], [[Ball 1999][research_ball_1999]], [[Banerjee et al 2024][research_banerjee_tavaf_2024]], [[Bardenstein et al 2022][research_bardenstein_lukatsky_2022]], [[Barna et al 1989][research_barna_allemeier_1989]], [[Baron 1996][research_baron_1996]], [[Barraza and Action 2023][research_barraza_action_2023]], [[Bartholomeusz and Geddes 2002][research_bartholomeusz_geddes_2002]], [[Bartholomeusz and Searl 2002][research_bartholomeusz_searl_2002]], [[Bartley-Cho and Muraliraj 2022][research_bartleycho_muraliraj_2022]], [[Bartley-Cho and Nickerson 2019][research_bartleycho_nickerson_2019]], [[Baun 1977][research_baun_1977]], [[Baykara 2026][research_baykara_2026]], [[Beevers and Kho 1984][research_beevers_kho_1984]], [[Behavior and Design of 2006][research_behavior_and_2006]], [[Bekas et al 2019][research_bekas_sharifkhodaei_2019]], [[Bellinger et al 1998][research_bellinger_komorowski_1998]], [[Belnoue et al 2016][research_belnoue_giannis_2016]], [[Benyahia et al 2014][research_benyahia_albedah_2014]], [[Benyahia et al 2014][research_benyahia_albedah_2014_b]], [[Benyahia et al 2014][research_benyahia_faribouanani_2014]], [[Berens et al 1974][research_berens_johnson_1974]], [[Bian et al 2024][research_bian_wu_2024]], [[Bigelow 1988][research_bigelow_1988]], [[Bin et al 2019][research_bin_mingzhi_2019]], [[Bindal et al 1992][research_bindal_saksena_1992]], [[Bing et al 2020][research_bing_wang_2020]], [[Biszczanik et al 2022][research_biszczanik_talaska_2022]], [[Bogdanovich and Kizhakkethara 1999][research_bogdanovich_kizhakkethara_1999]], [[Bommareddy 2025][research_bommareddy_2025]], [[Bond 2002][research_bond_2002]], [[Bond strength adhesive 2007][research_bond_strength_2007]], [[Bonded composite structures 1979][research_bonded_composite_1979]], [[Bonded Joints and Repairs 2016][research_bonded_joints_2016]], [[Bonded Repair of Aircraft 1988][research_bonded_repair_1988]], [[Bonded repair of aircraft 1994][research_bonded_repair_1994]], [[Borrie et al 2015][research_borrie_liu_2015]], [[Bouiadjra et al 2008][research_bouiadjra_ouinas_2008]], [[Boyd et al 2018][research_boyd_bogetti_2018]], [[Brian P. Justusson et al][research_brianpjustusson_josephdschaefer]], [[Brotherhood et al 2002][research_brotherhood_drinkwater_2002]], [[Broughton et al 2025][research_broughton_laranjeira_2025]], [[Brunner 2015][research_brunner_2015]], [[Bürger et al 2014][research_burger_rans_2014]], [[Burnett et al 1995][research_burnett_magnuson_1995]], [[Burton and Noor 1997][research_burton_noor_1997]], [[Butkus et al 2002][research_butkus_valentin_2002]], [[Caamaño et al 2022][research_caamano_boulaayoun_2022]], [[Çalık and Akpinar 2023][research_calik_akpinar_2023]], [[Callinan and Galea 2002][research_callinan_galea_2002]], [[Camarena et al 2024][research_camarena_anderson_2024]], [[Camim][research_camim]], [[Caminero et al 2013][research_caminero_pavlopoulou_2013]], [[Campbell et al][research_campbell_smith]], [[Campilho 2023][research_campilho_2023]], [[Campilho and da Silva 2015][research_campilho_dasilva_2015]], [[Cantrell 2018][research_cantrell_2018]], [[Canumalla and Schackmuth][research_canumalla_schackmuth]], [[Capell et al 2007][research_capell_palaniappan_2007]], [[Carbon Fiber Fabric Repair][research_carbon_fiber_b]], [[Carbon Fiber Fabric Repair][research_carbon_fiber_g]], [[Carbon Fiber Fabric Repair][research_carbon_fiber_j]], [[Carbon Fiber Fabric Repair][research_carbon_fiber_k]], [[Carbon Fiber Fabric Repair][research_carbon_fiber_l]], [[Cawley et al 1993][research_cawley_pialucha_1993]], [[Celik et al 2014][research_celik_cehreli_2014]], [[Chabot and Brescia 1993][research_chabot_brescia_1993]], [[Chadegani et al 2009][research_chadegani_yang_2009]], [[Chadegani et al 2012][research_chadegani_yang_2012]], [[Chadegani, Alireza et al 2012][research_chadeganialireza_yangchihdar_2012]], [[Chalkley and Baker 1999][research_chalkley_baker_1999]], [[Chalkley et al 2002][research_chalkley_wang_2002]], [[Chapman 1981][research_chapman_1981]], [[Chau][research_chau]], [[Chau and Lee 1997][research_chau_lee_1997]], [[Chen et al 2013][research_chen_haitran_2013]], [[Chen et al 2026][research_chen_liu_2026]], [[Cheng et al 2013][research_cheng_ozsoy_2013]], [[Chern et al 1992][research_chern_djordjevic_1992]], [[Chester et al 1999][research_chester_walker_1999]], [[Cheung et al 2010][research_cheung_gray_2010]], [[Cheung and Lin 2009][research_cheung_lin_2009]], [[Cheung and Lin 2012][research_cheung_lin_2012]], [[Chiu et al 2000][research_chiu_koh_2000]], [[Choi et al 2026][research_choi_aslam_2026]], [[Choi et al 2004][research_choi_kim_2004]], [[Chuang et al 1986][research_chuang_chang_1986]], [[Cidlina and Müller 2015][research_cidlina_muller_2015]], [[Clark and Romilly 2001][research_clark_romilly_2001]], [[Claus and Kline 1979][research_claus_kline_1979]], [[Clay et al 2021][research_clay_brown_2021]], [[Clay et al 2023][research_clay_knoth_2023]], [[Clearfield et al 1991][research_clearfield_mcnamara_1991]], [[Co-cure 2007][research_co_cure_2007]], [[Cobb et al 1999][research_cobb_johnson_1999]], [[Coduti and Paratore 1997][research_coduti_paratore_1997]], [[Coladas Mato et al 2019][research_coladasmato_webb_2019]], [[Composite and Bonded Structure][research_composite_and]], [[Composite and Bonded Structure][research_composite_and_b]], [[Composite and Bonded Structure][research_composite_and_c]], [[Composite moulding apparatus for 1995][research_composite_moulding_1995]], [[Cone 1966][research_cone_1966]], [[Constructive Design of Bonded 2008][research_constructive_design_2008]], [[Corrosion of Welded, Brazed 1999][research_corrosion_of_1999]], [[Crane et al 2021][research_crane_hartsmith_2021]], [[Crilly 1967][research_crilly_1967]], [[Crocombe and Moult 1988][research_crocombe_moult_1988]], [[Cuc and Giurgiutiu 2004][research_cuc_giurgiutiu_2004]], [[Curtin and Adey 2000][research_curtin_adey_2000]], [[Czarnocki and Piekarski 1986][research_czarnocki_piekarski_1986]], [[Czarnocki and Piekarski 1986][research_czarnocki_piekarski_1986_b]], [[D et al 2025][research_d_rameshkumar_2025]], [[da Costa Mattos et al 2012][research_dacostamattos_monteiro_2012]], [[Dai et al 2023][research_dai_li_2023]], [[Damghani et al 2024][research_damghani_saadkhan_2024]], [[Dance and Middlebrook 1979][research_dance_middlebrook_1979]], [[Das and Pradhan 2013][research_das_pradhan_2013]], [[da Silva and Campilho 2015][research_dasilva_campilho_2015]], [[Davis 2002][research_davis_2002]], [[Davis and Harkless 2001][research_davis_harkless_2001]], [[Davoodi and Safizadeh 2025][research_davoodi_safizadeh_2025]], [[Davydenko et al 2018][research_davydenko_horb_2018]], [[DeBruyn et al 2008][research_debruyn_hurworth_2008]], [[de Freitas and Budzik 2023][research_defreitas_budzik_2023]], [[de la Cruz and Sheppard 1990][research_delacruz_sheppard_1990]], [[de Medeiros et al 2014][research_demedeiros_borges_2014]], [[Demir et al 2023][research_demir_yildiz_2023]], [[de Morais 2023][research_demorais_2023]], [[de Moura and Chousal 2013][research_demoura_chousal_2013]], [[Deng et al 2026][research_deng_lugo_2026]], [[Denney and Mall 1996][research_denney_mall_1996]], [[Denney and Mall 1997][research_denney_mall_1997]], [[Design of Adhesive Bonded 2024][research_design_of_2024]], [[Dhilipkumar and Rajesh 2021][research_dhilipkumar_rajesh_2021]], [[Dhilipkumar and Rajesh 2022][research_dhilipkumar_rajesh_2022]], [[Dickstein et al 1993][research_dickstein_spelt_1993]], [[Digby and Packham 1995][research_digby_packham_1995]], [[Diharjo et al 2016][research_diharjo_anwar_2016]], [[Disbond 2007][research_disbond_2007]], [[Dobrzański and Oleksiak 2021][research_dobrzanski_oleksiak_2021]], [[dos Reis et al 1992][research_dosreis_beall_1992]], [[Douglas Aircraft Co Long Beach Ca 1977][research_douglasaircraftcolongbeachca_1977]], [[Dragan et al 2011][research_dragan_synaszko_2011]], [[Du][research_du]], [[Duan and Gao 2018][research_duan_gao_2018]], [[Dugnani and Chang 2016][research_dugnani_chang_2016]], [[Duong 2019][research_duong_2019]], [[Duong and Wang 2007][research_duong_wang_2007]], [[Dzenis 2005][research_dzenis_2005]], [[Edwards et al 2011][research_edwards_savage_2011]], [[Effect of Fly Ash 2012][research_effect_of_2012]], [[Effect of Bondline Thickness 2016][research_effect_of_2016_b]], [[Effect of Adhesive Thickness 2023][research_effect_of_2023]], [[Effects of input uncertainty 2015][research_effects_of_2015]], [[Elster et al 2001][research_elster_trego_2001]], [[Emery 1989][research_emery_1989]], [[Emtiaz et al 2026][research_emtiaz_shepherd_2026]], [[Esmaeel and Taheri 2013][research_esmaeel_taheri_2013]], [[Evaluation of Wood Adhesive 2023][research_evaluation_of_2023]], [[Experimental study of adhesive-bonded 1976][research_experimental_study_1976]], [[Experimental Study of Concrete 1996][research_experimental_study_1996]], [[Factors Influencing Bond Strength 2001][research_factors_influencing_2001]], [[Fagan et al 1992][research_fagan_anthony_1992]], [[Fahim and Islam 2024][research_fahim_islam_2024]], [[Fame et al 2021][research_fame_ramoacorreia_2021]], [[Fame et al 2022][research_fame_wu_2022]], [[Farhadinejad et al 2024][research_farhadinejad_karimi_2024]], [[Fari Bouanani et al 2013][research_faribouanani_benyahia_2013]], [[Farshidi and Berggreen 2022][research_farshidi_berggreen_2022]], [[Fasel and Todd 2010][research_fasel_todd_2010]], [[Fassbender et al 1980][research_fassbender_hagemaier_1980]], [[Fatigue and Fracture of 2015][research_fatigue_and_2015]], [[Fatigue properties of adhesive-bonded 1980][research_fatigue_properties_1980]], [[Fekih et al 2012][research_fekih_albedah_2012]], [[Fekirini et al 2008][research_fekirini_bachirbouiadjra_2008]], [[Fernando et al 2019][research_fernando_costa_2019]], [[Flôr][research_flor]], [[Forgione 2025][research_forgione_2025]], [[Fracture work of thin 1988][research_fracture_work_1988]], [[Francis and Gutierrez-Lemini 1984][research_francis_gutierrezlemini_1984]], [[Franz and Laube 1986][research_franz_laube_1986]], [[Free Vibration Analysis and 2009][research_free_vibration_2009]], [[Frohnmüller et al 2022][research_frohnmuller_wisner_2022]], [[Fujimoto and Sekine 2007][research_fujimoto_sekine_2007]], [[Fursa et al 2018][research_fursa_petrov_2018]], [[Fuwape 1994][research_fuwape_1994]], [[Gandy and Asmatulu 2012][research_gandy_asmatulu_2012]], [[Gayncs et al 2026][research_gayncs_spalik_2026]], [[Genest et al 2009][research_genest_martinez_2009]], [[Ghavam et al 2017][research_ghavam_soleimanpour_2017]], [[Gilibert et al 1989][research_gilibert_klein_1989]], [[Givot et al][research_givot_krupka]], [[Gleich et al 2001][research_gleich_vantooren_2001]], [[Gleich et al 2001][research_gleich_vantooren_2001_b]], [[Gobbato et al 2015][research_gobbato_kosmatka_2015]], [[Goldstone et al 1993][research_goldstone_so_1993]], [[Gong et al 2015][research_gong_cheng_2015]], [[Gonzalez and Cagle 1964][research_gonzalez_cagle_1964]], [[Gooch 2011][research_gooch_2011_c]], [[Gordon and Caballero 1970][research_gordon_caballero_1970]], [[Gosse 2004][research_gosse_2004]], [[Gosse and Hause 1988][research_gosse_hause_1988]], [[Gosse and Hause 1992][research_gosse_hause_1992]], [[Gosselin 1986][research_gosselin_1986]], [[Gotsis et al 1995][research_gotsis_chamis_1995]], [[Goyal et al 2023][research_goyal_hoos_2023]], [[Grendahl et al 2001][research_grendahl_chin_2001]], [[Griffin et al 1991][research_griffin_pang_1991]], [[Gu and Chattopadhyay 1995][research_gu_chattopadhyay_1995]], [[Guan et al 2026][research_guan_zhang_2026]], [[Guide for Use of][research_guide_for]], [[Guidelines for Bonded Repair][research_guidelines_for]], [[Guidelines for Repair Process][research_guidelines_for_b]], [[Guijt et al 2001][research_guijt_verhoeven_2001]], [[Guin et al 2019][research_guin_newton_2019]], [[Guo et al 2009][research_guo_ogin_2009]], [[Gutowski 1987][research_gutowski_1987]], [[Habib][research_habib]], [[Hacısalihoglu and Akpinar 2022][research_hacisalihoglu_akpinar_2022]], [[Hafiz and Abdel Wahab 2015][research_hafiz_abdelwahab_2015]], [[Hamada et al 1991][research_hamada_maekawa_1991]], [[Hammer and Grant 1980][research_hammer_grant_1980]], [[Han et al 2017][research_han_cho_2017]], [[Han and Kang 2018][research_han_kang_2018]], [[Han et al 2024][research_han_li_2024]], [[Harkless et al 2002][research_harkless_kerr_2002]], [[Harkless and Kerr 2002][research_harkless_kerr_2002_b]], [[Harris et al 2012][research_harris_vaughan_2012]], [[Harris et al 2013][research_harris_vaughan_2013]], [[Hartmann et al 1992][research_hartmann_hoskins_1992]], [[Hart-Smith][research_hartsmith]], [[Hart-Smith 1988][research_hartsmith_1988]], [[Hart-Smith, L. J. 1974][research_hartsmithlj_1974]], [[Hazell et al 2010][research_hazell_applebythomas_2010]], [[He et al 2015][research_he_yang_2015]], [[Hedia 2006][research_hedia_2006]], [[Heller and Kaye 2002][research_heller_kaye_2002]], [[Helms][research_helms]], [[Helms et al 2002][research_helms_li_2002]], [[Helms et al 2003][research_helms_li_2003]], [[Helms et al 1996][research_helms_yang_1996]], [[Helms et al 1999][research_helms_yang_1999]], [[Hernandez et al 2019][research_hernandez_gutierrezduran_2019]], [[Heslehurst 1999][research_heslehurst_1999]], [[Hikosaka et al 2013][research_hikosaka_matsuzaki_2013]], [[Hirwani et al 2021][research_hirwani_mishra_2021]], [[Hollaway et al 1990][research_hollaway_romhi_1990]], [[Honda and Minakuchi 2026][research_honda_minakuchi_2026]], [[Horioka 1988][research_horioka_1988]], [[Houzibe et al 2023][research_houzibe_elkettani_2023]], [[Hovanec][research_hovanec]], [[Hsu et al 2010][research_hsu_mor_2010]], [[Hu et al 2018][research_hu_jones_2018]], [[Hu et al 2023][research_hu_li_2023]], [[Huang and Yang 2001][research_huang_yang_2001]], [[Hudson et al 2025][research_hudson_georgiou_2025]], [[Improvement of adhesive-bonded structural 1971][research_improvement_of_1971]], [[Influence of predetermined delaminations 1991][research_influence_of_1991]], [[Irle and Bolton 1988][research_irle_bolton_1988]], [[Irving et al 2011][research_irving_zhang_2011]], [[Isaacs 2021][research_isaacs_2021]], [[Ivañez et al 2019][research_ivanez_garciacastillo_2019]], [[Iyer Kumar and De Waele 2025][research_iyerkumar_dewaele_2025]], [[Jahangir and Safizadeh 2026][research_jahangir_safizadeh_2026]], [[Jerold John Britto and Vasanthanathan 2022][research_jeroldjohnbritto_vasanthanathan_2022]], [[Ji][research_ji]], [[Ji et al 2010][research_ji_ouyang_2010]], [[Jin and An 2025][research_jin_an_2025]], [[Jodatnia and Saeidi Googarchin 2026][research_jodatnia_saeidigoogarchin_2026]], [[Jonas and Aldag 1987][research_jonas_aldag_1987]], [[Jones et al 1993][research_jones_chiu_1993]], [[Jones et al 2021][research_jones_kinloch_2021]], [[Joshi 1998][research_joshi_1998]], [[Ju-fen et al 2003][research_jufen_gang_2003]], [[Jung-Ho Kwon and Pavchok 2010][research_junghokwon_pavchok_2010]], [[Kaddouri et al 2008][research_kaddouri_ouinas_2008]], [[Kadlec et al 2020][research_kadlec_ruzek_2020]], [[Kan and Ratwani 1982][research_kan_ratwani_1982]], [[Kan and Ratwani 1983][research_kan_ratwani_1983]], [[Kanterakis et al 2020][research_kanterakis_chemama_2020]], [[Kapoor and Prakash 1984][research_kapoor_prakash_1984]], [[Karpenko et al 2015][research_karpenko_koricho_2015]], [[Kashfuddoja and Ramji 2014][research_kashfuddoja_ramji_2014]], [[Katnam et al 2013][research_katnam_dasilva_2013]], [[Katnam et al 2013][research_katnam_dhote_2013]], [[Kawawaki et al 1998][research_kawawaki_nakano_1998]], [[Kebede et al 2017][research_kebede_kim_2017]], [[Kechter and Achenbach 1990][research_kechter_achenbach_1990]], [[Keller 2010][research_keller_2010]], [[Keller and Gürtler 2006][research_keller_gurtler_2006]], [[Kelly 2005][research_kelly_2005]], [[Kenney and Kenney 2004][research_kenney_kenney_2004]], [[Kesavan and Rajesh 2025][research_kesavan_rajesh_2025]], [[Khan et al 2018][research_khan_aglietti_2018]], [[Khashaba and Najjar 2018][research_khashaba_najjar_2018]], [[Khoo and Kim 2011][research_khoo_kim_2011]], [[Khoshmanesh et al 2022][research_khoshmanesh_watson_2022]], [[Khshain et al 2015][research_khshain_almahaidi_2015]], [[Kieronski et al 2004][research_kieronski_knock_2004]], [[Kilian et al 2026][research_kilian_klein_2026]], [[Kim][research_kim]], [[Kim 2003][research_kim_2003]], [[Kim et al 2017][research_kim_chun_2017]], [[Kim et al 2005][research_kim_kayir_2005]], [[Kim et al 1992][research_kim_kim_1992]], [[Kim et al 2003][research_kim_kwon_2003]], [[Kim and Lee 2002][research_kim_lee_2002_b]], [[Kimberlain and Dull 2018][research_kimberlain_dull_2018]], [[King et al 1982][research_king_kler_1982]], [[Kinloch and Kodokian 1988][research_kinloch_kodokian_1988]], [[Kline 1984][research_kline_1984]], [[Kobayashi et al 1993][research_kobayashi_ogasawara_1993]], [[Kobayashi et al 2019][research_kobayashi_yanagisawa_2019]], [[Koh et al 2002][research_koh_chiu_2002]], [[Koh et al 2003][research_koh_chiu_2003]], [[Koh and Chiu 2003][research_koh_chiu_2003_b]], [[Koh et al 2012][research_koh_isa_2012]], [[Koodalil et al 2019][research_koodalil_barnoncel_2019]], [[Kostin et al 2021][research_kostin_nasonov_2021]], [[Krajangta][research_krajangta]], [[Kressel et al 2023][research_kressel_bardenstein_2023]], [[Kressel et al 2023][research_kressel_bardenstein_2023_b]], [[Krieger 1988][research_krieger_1988]], [[Kruger et al 2008][research_kruger_lord_2008]], [[Kumar 2009][research_kumar_2009]], [[Kumar and De Waele 2024][research_kumar_dewaele_2024]], [[Kumar et al 2018][research_kumar_ghosh_2018]], [[Kumar et al 2016][research_kumar_wardle_2016]], [[Kumazawa et al 2024][research_kumazawa_motoyama_2024]], [[Kuperman][research_kuperman]], [[Kupski et al 2019][research_kupski_teixeiradefreitas_2019]], [[Kurennov 2020][research_kurennov_2020]], [[Kurnia et al 2024][research_kurnia_hadi_2024]], [[Kurz and Kessler 2010][research_kurz_kessler_2010]], [[Kutscha 1962][research_kutscha_1962]], [[Kwan][research_kwan]], [[Kwon 2018][research_kwon_2018]], [[Kwon and Jeong 2013][research_kwon_jeong_2013]], [[Kyoung et al 1998][research_kyoung_kim_1998]], [[Lambinet and Khodaei 2020][research_lambinet_khodaei_2020]], [[Laser ultrasonic investigation of 2009][research_laser_ultrasonic_2009]], [[Ledesma et al 2025][research_ledesma_spaeth_2025]], [[Lee][research_lee]], [[Lee and Lee 2004][research_lee_lee_2004]], [[Lee et al 2004][research_lee_lee_2004_b]], [[Lees 1991][research_lees_1991]], [[Leone et al 2015][research_leone_davila_2015]], [[Leone and Genna 2018][research_leone_genna_2018]], [[Lertora et al 2019][research_lertora_mandolfino_2019]], [[Lertthawinchira][research_lertthawinchira]], [[Li][research_li]], [[Li et al 2020][research_li_guo_2020]], [[Li et al 1999][research_li_leesullivan_1999]], [[Li et al 2025][research_li_liu_2025]], [[Li et al 2026][research_li_wang_2026]], [[Li and Zhou 2021][research_li_zhou_2021]], [[Liddel and Foote 2015][research_liddel_foote_2015]], [[Light and Bloom 1996][research_light_bloom_1996]], [[Lin et al 2014][research_lin_richard_2014]], [[Lin et al 2021][research_lin_wang_2021]], [[Lißner et al 2019][research_lissner_alabort_2019]], [[Liu et al 2020][research_liu_chen_2020]], [[Liu et al 2013][research_liu_johnston_2013]], [[Liu et al 2018][research_liu_lemanski_2018]], [[Liu et al 2021][research_liu_qian_2021]], [[Liu and Wang 2007][research_liu_wang_2007]], [[Loh et al][research_loh_chou]], [[Long-Term Performance of Adhesive 2016][research_long_term_performance_2016]], [[Lopes Fernandes et al 2021][research_lopesfernandes_budzik_2021]], [[Lopez Cruz][research_lopezcruz]], [[Lopez-Cruz et al 2017][research_lopezcruz_laliberte_2017]], [[Low cost production of 1998][research_low_cost_1998]], [[Lowe and Cawley 1993][research_lowe_cawley_1993]], [[Lowe et al 1999][research_lowe_chan_1999]], [[Lu et al 2021][research_lu_su_2021]], [[Ludwig et al 1993][research_ludwig_sullivan_1993]], [[Ma et al 2026][research_ma_zhao_2026]], [[Maćkowiak et al 2020][research_mackowiak_ligaj_2020]], [[Madan and Shuart 1990][research_madan_shuart_1990]], [[Madan and Sutton 1988][research_madan_sutton_1988]], [[Madelpech et al 2009][research_madelpech_juaneda_2009]], [[Madenci 2000][research_madenci_2000]], [[Maeva et al 2002][research_maeva_chapman_2002]], [[Mahoney 1990][research_mahoney_1990]], [[Malinowski et al 2021][research_malinowski_wandowski_2021]], [[Mańczak 2026][research_manczak_2026]], [[Manoharan and Gururaja 2025][research_manoharan_gururaja_2025]], [[Manoharan and Gururaja 2026][research_manoharan_gururaja_2026]], [[Maqi and Hidayat 2023][research_maqi_hidayat_2023]], [[Mardani et al 2016][research_mardani_stein_2016]], [[Marques et al 2022][research_marques_carbas_2022]], [[Marques et al 2023][research_marques_madureira_2023]], [[Martens and Schröder 2020][research_martens_schroder_2020]], [[Martin et al 1970][research_martin_moore_1970]], [[Masood et al 2017][research_masood_viswamurthy_2017]], [[Mazza et al 2003][research_mazza_avram_2003]], [[McAbee et al 1970][research_mcabee_tanner_1970]], [[Megueni et al 2004][research_megueni_bachirbouiadjra_2004]], [[Meher and Rabius Sunny 2024][research_meher_rabiussunny_2024]], [[Meneghetti et al 2010][research_meneghetti_quaresimin_2010]], [[Meneghetti et al 2012][research_meneghetti_quaresimin_2012]], [[Meneghin et al 2009][research_meneghin_pacchione_2009]], [[Merrill 2021][research_merrill_2021]], [[Method of insetting predesigned 1992][research_method_of_1992_b]], [[Methods of test for][research_methods_of_b]], [[Meyer][research_meyer]], [[Meyer and Rose 1976][research_meyer_rose_1976]], [[Michelotti et al 2020][research_michelotti_niedzwiecki_2020]], [[Mieloszyk and Ostachowicz 2017][research_mieloszyk_ostachowicz_2017]], [[Mihara et al 2018][research_mihara_minematsu_2018]], [[Milazzo and Oliveri 2017][research_milazzo_oliveri_2017]], [[Miller et al 1988][research_miller_hammill_1988]], [[Min and Williams 2016][research_min_williams_2016]], [[Minford 1991][research_minford_1991]], [[Minford 2018][research_minford_2018]], [[Minguet and Minguet 1997][research_minguet_minguet_1997]], [[Mitra and Joglekar 2023][research_mitra_joglekar_2023]], [[Mode-I Fracture of CFRP 2013][research_mode_i_fracture_2013]], [[Modzel et al 2010][research_modzel_kamke_2010]], [[Modzel et al 2010][research_modzel_kamke_2010_b]], [[Mohabeddine et al 2023][research_mohabeddine_malik_2023]], [[Mohamad et al 2010][research_mohamad_tarfaoui_2010]], [[Molent and Jones 2018][research_molent_jones_2018_b]], [[Molitor and Young 2004][research_molitor_young_2004]], [[Monaco et al 2016][research_monaco_boffa_2016]], [[Montméat et al 2017][research_montmeat_enot_2017]], [[Mori and Sugibayashi 1990][research_mori_sugibayashi_1990]], [[Morimoto et al 2020][research_morimoto_fujimoto_2020]], [[Moroni et al 2021][research_moroni_pirondi_2021]], [[Mortensen and Thybo Thomsen 2002][research_mortensen_thybothomsen_2002]], [[Müller 2017][research_muller_2017]], [[Müller and Fredell 1999][research_muller_fredell_1999]], [[Naboulsi and Mall 1996][research_naboulsi_mall_1996]], [[Naboulsi et al 1997][research_naboulsi_mall_1997]], [[Nagao et al 1979][research_nagao_nakao_1979]], [[Nagaraja and Alwar 1979][research_nagaraja_alwar_1979]], [[Naghipour 2015][research_naghipour_2015]], [[Najib and Nobari 2015][research_najib_nobari_2015]], [[Nakao and Hayashi 2018][research_nakao_hayashi_2018]], [[NDT of adhesive bond 1970][research_ndt_of_1970]], [[Nestleroth][research_nestleroth]], [[Nettles, Alan T. and Ratcliffe, James G. 2006][research_nettlesalant_ratcliffejamesg_2006]], [[Nguyen][research_nguyen]], [[Nguyen et al 2009][research_nguyen_kweon_2009]], [[Ni and Frazier 1998][research_ni_frazier_1998]], [[Nimje and Panigrahi 2020][research_nimje_panigrahi_2020]], [[Noda and Takaki 2024][research_noda_takaki_2024]], [[Nondestructive Bond Strength Testing 1997][research_nondestructive_bond_1997]], [[Nondestructive Inspection of Adhesive-Bonded 2018][research_nondestructive_inspection_2018]], [[Nuttall 2012][research_nuttall_2012]], [[Objois et al 1999][research_objois_gilibert_1999]], [[O'Dell et al 2026][research_odell_hasburgh_2026]], [[Okafor et al 2005][research_okafor_singh_2005]], [[Ömeroğlu et al 2025][research_omeroglu_cam_2025]], [[Osakue et al 2017][research_osakue_martina_2017]], [[Oshima and Koyanagi 2025][research_oshima_koyanagi_2025]], [[Oshima et al 2023][research_oshima_mikami_2023]], [[Oshima et al 2019][research_oshima_yoshimura_2019]], [[Oterkus et al 2005][research_oterkus_barut_2005]], [[Ouinas 2012][research_ouinas_2012]], [[Ouinas et al 2012][research_ouinas_bachirbouiadjra_2012]], [[Ouinas et al 2010][research_ouinas_bouiadjra_2010]], [[Özer 2018][research_ozer_2018]], [[Ozer and Oz 2012][research_ozer_oz_2012]], [[Paine and Rogers 1995][research_paine_rogers_1995]], [[Palaniappan et al 2008][research_palaniappan_ogin_2008]], [[Panigrahi 2009][research_panigrahi_2009]], [[Panigrahi and Nimje 2022][research_panigrahi_nimje_2022]], [[Panigrahi and Nimje 2022][research_panigrahi_nimje_2022_b]], [[Panigrahi and Nimje 2022][research_panigrahi_nimje_2022_c]], [[Papadakis and Chapman 1992][research_papadakis_chapman_1992]], [[Park et al 2018][research_park_choi_2018_b]], [[Parker 1986][research_parker_1986]], [[Parker 1994][research_parker_1994]], [[Paroissien et al 2007][research_paroissien_sartor_2007]], [[Pellone et al 2024][research_pellone_ciminello_2024]], [[Perillo et al 2014][research_perillo_vedivik_2014]], [[Peters and Springer 1986][research_peters_springer_1986]], [[Phosphate bonded composite electrodes 1991][research_phosphate_bonded_1991]], [[Physical-Chemical Characterization Techniques, Epoxy][research_physical_chemical_characterization]], [[Physio-Chemical Characterization Techniques, Epoxy][research_physio_chemical_characterization]], [[Pirondi et al 2015][research_pirondi_giuliese_2015]], [[Pisharody and Smith 2022][research_pisharody_smith_2022]], [[Plagianakos and Saravanos 2009][research_plagianakos_saravanos_2009]], [[Plaka et al 2022][research_plaka_bednarcyk_2022]], [[Podoba et al 1981][research_podoba_kodali_1981]], [[Pol and Banerjee 2014][research_pol_banerjee_2014]], [[Potapov and Luk'yanov 1988][research_potapov_lukyanov_1988]], [[Potluri et al 2003][research_potluri_kusak_2003]], [[Potter 1982][research_potter_1982]], [[Potter et al 2001][research_potter_davies_2001]], [[Prabhune and Talreja 2007][research_prabhune_talreja_2007]], [[Practice for Surface Preparation][research_practice_for_b]], [[Practice for Atmospheric Exposure][research_practice_for_c]], [[Practice for Estimating the][research_practice_for_d]], [[Predecki and Barrett 1983][research_predecki_barrett_1983]], [[Predecki and Barrett 1984][research_predecki_barrett_1984]], [[Preisz et al 2026][research_preisz_holtmannspotter_2026]], [[Primer, Adhesive, Corrosion-inhibiting For][research_primer_adhesive]], [[Production of Bonded Joints 2008][research_production_of_2008]], [[Pugno 1999][research_pugno_1999]], [[Pulipati et al 2023][research_pulipati_kokkadaravindranath_2023]], [[Purabgola et al 2020][research_purabgola_rastogi_2020]], [[Puspaningtyas et al 2024][research_puspaningtyas_jusuf_2024]], [[Pyun et al 2022][research_pyun_koester_2022]], [[Qian and Sun 2008][research_qian_sun_2008]], [[Qin et al 2009][research_qin_zhao_2009]], [[Qing et al 2006][research_qing_beard_2006]], [[Qiu et al 2017][research_qiu_shi_2017]], [[Quan et al 2020][research_quan_alderliesten_2020]], [[Quan et al 2022][research_quan_zhao_2022]], [[Quaresimin 2005][research_quaresimin_2005]], [[R and Narayana Naik 2020][research_r_narayananaik_2020]], [[Raheem 2018][research_raheem_2018]], [[Raihan et al 2022][research_raihan_qhobosheane_2022]], [[Raisch][research_raisch]], [[Rajasekaran and Shadmehri 2020][research_rajasekaran_shadmehri_2020]], [[Rajeckas 1989][research_rajeckas_1989]], [[Rakestraw et al 1994][research_rakestraw_vrana_1994]], [[Ramamurthy and Rao 1978][research_ramamurthy_rao_1978]], [[Ranade et al 2014][research_ranade_guan_2014]], [[Rans and Alderliesten 2009][research_rans_alderliesten_2009]], [[Rarthlomeusz et al 1993][research_rarthlomeusz_paul_1993]], [[Rasiah and Breach][research_rasiah_breach]], [[Ratwani 1977][research_ratwani_1977]], [[Razaqpur et al 2020][research_razaqpur_cameron_2020]], [[Reinhart 1988][research_reinhart_1988]], [[Reis 1994][research_reis_1994]], [[Reis et al 2022][research_reis_costa_2022]], [[Reis et al 2011][research_reis_ferreira_2011]], [[Ren and Lissenden 2015][research_ren_lissenden_2015]], [[Renton and Vinson 1973][research_renton_vinson_1973]], [[Renton and Vinson 1975][research_renton_vinson_1975]], [[Repair and Strengthening with 1996][research_repair_and_1996]], [[Retolaza et al 2022][research_retolaza_corujo_2022]], [[Ribeiro et al 2016][research_ribeiro_campilho_2016]], [[Richard and Lin 2016][research_richard_lin_2016]], [[Richard and Lin 2017][research_richard_lin_2017]], [[Richardson et al 1987][research_richardson_angelici_1987]], [[Rider et al 1999][research_rider_olssonjacques_1999]], [[Ridha et al 2011][research_ridha_tan_2011]], [[Rincon Urbina et al 2022][research_rinconurbina_ayre_2022]], [[River 2003][research_river_2003]], [[Rivera-Gonzalez 2024][research_riveragonzalez_2024]], [[Rizk et al 2019][research_rizk_nahas_2019]], [[R. Koloor and Tamin 2018][research_rkoloor_tamin_2018]], [[Roach 1998][research_roach_1998]], [[Roach 2002][research_roach_2002]], [[Roach et al 2004][research_roach_rackow_2004]], [[Roach and Rackow 2007][research_roach_rackow_2007]], [[Roach and Rackow 2018][research_roach_rackow_2018]], [[Roach and Scala 2002][research_roach_scala_2002]], [[Roberts et al 2021][research_roberts_justusson_2021]], [[Roeper et al 2023][research_roeper_sommacal_2023]], [[Rogers 1972][research_rogers_1972]], [[Rogers 1974][research_rogers_1974]], [[Romilly and Clark 2005][research_romilly_clark_2005]], [[Romilly and Clark 2008][research_romilly_clark_2008]], [[Rose 1991][research_rose_1991]], [[Rose 1992][research_rose_1992]], [[Rose 1997][research_rose_1997]], [[Rosty et al 1982][research_rosty_russell_1982]], [[Rousseau and Friedmann 2001][research_rousseau_friedmann_2001]], [[Roy et al 1993][research_roy_gacougnolle_1993]], [[Roy et al 1997][research_roy_mabru_1997]], [[Rudawska 2019][research_rudawska_2019]], [[Rudawska and Dębski 2015][research_rudawska_debski_2015]], [[Russell 2018][research_russell_2018]], [[Russell et al 1991][research_russell_bowers_1991]], [[Russian et al 2021][research_russian_khan_2021]], [[Sabelkin et al 2006][research_sabelkin_mall_2006]], [[Sachse et al 2021][research_sachse_pickett_2021]], [[Sachyani and Dickstein 2020][research_sachyani_dickstein_2020]], [[Sadeghi et al 2019][research_sadeghi_zimmermann_2019]], [[Safari et al 2020][research_safari_farahani_2020]], [[Sagnard][research_sagnard]], [[Sahoo et al 2013][research_sahoo_dattaguru_2013]], [[Sahraei and Boodaghei 2023][research_sahraei_boodaghei_2023]], [[Sahu et al 2018][research_sahu_singh_2018]], [[Said 2026][research_said_2026]], [[Saillard][research_saillard]], [[Sakuno 1993][research_sakuno_1993]], [[Sakurayama et al 2015][research_sakurayama_minakuchi_2015]], [[Sałacinski et al 2016][research_salacinski_leski_2016]], [[Sałaciński et al 2026][research_salacinski_puchala_2026]], [[Samann 2019][research_samann_2019]], [[Sancaktar and Kumar 1999][research_sancaktar_kumar_1999]], [[Sánchez Serrano et al 2015][research_sanchezserrano_urena_2015]], [[Sarfaraz 2015][research_sarfaraz_2015]], [[Satheeshkumar and Ganesh Narayanan 2016][research_satheeshkumar_ganeshnarayanan_2016]], [[Satheeshkumar and Narayanan 2014][research_satheeshkumar_narayanan_2014]], [[Sato 2005][research_sato_2005]], [[Sawant and Prabhu Gaonkar 2025][research_sawant_prabhugaonkar_2025]], [[Scala and Doyle 1995][research_scala_doyle_1995]], [[Schmidt and Frazier 2000][research_schmidt_frazier_2000]], [[Schmueser and Johnson 1990][research_schmueser_johnson_1990]], [[Schoeppner et al 2002][research_schoeppner_mollenhauer_2002]], [[Schoeppner et al 1998][research_schoeppner_roy_1998]], [[Schubbe and Mall 1999][research_schubbe_mall_1999]], [[Schubbe and Mall 1999][research_schubbe_mall_1999_b]], [[Sciomenta et al 2024][research_sciomenta_paoletti_2024]], [[Scott 1966][research_scott_1966]], [[Sebera et al 2026][research_sebera_praus_2026]], [[Sedalor and Fleming 2020][research_sedalor_fleming_2020]], [[Šedková et al 2022][research_sedkova_vlk_2022]], [[Segal et al 1990][research_segal_dickstein_1990]], [[Seidl 1998][research_seidl_1998]], [[Seifried 2001][research_seifried_2001]], [[Seneviratne et al 2015][research_seneviratne_tomblin_2015]], [[Seo and Lim 2005][research_seo_lim_2005]], [[Seo et al 2004][research_seo_yoon_2004]], [[Sernek and Kamke 2007][research_sernek_kamke_2007]], [[Shaban 2025][research_shaban_2025]], [[Shabani et al 2026][research_shabani_li_2026]], [[Shafaq et al 2024][research_shafaq_donough_2024]], [[Shahverdi and Vassilopoulos 2015][research_shahverdi_vassilopoulos_2015]], [[Shahverdi et al 2015][research_shahverdi_vassilopoulos_2015_b]], [[Shang][research_shang]], [[Shang 2013][research_shang_2013]], [[Shen and Rutherford 1970][research_shen_rutherford_1970]], [[Shin et al 1997][research_shin_kim_1997]], [[Shinde et al 2015][research_shinde_kumar_2015]], [[Shyprykevich, P. 1983][research_shyprykevichp_1983]], [[Sihn et al 2003][research_sihn_miyano_2003]], [[Sikdar and Banerjee 2016][research_sikdar_banerjee_2016_b]], [[Sikdar et al 2016][research_sikdar_banerjee_2016_c]], [[Sikdar et al 2018][research_sikdar_kudela_2018]], [[Silva et al 2019][research_silva_carneironeto_2019]], [[Sim et al 2012][research_sim_tan_2012]], [[Simitses 1995][research_simitses_1995]], [[Singh and Schonberg 2005][research_singh_schonberg_2005]], [[Sirin Karaarslan et al 2015][research_sirinkaraarslan_ozsevik_2015]], [[Sittiwaitayaporn][research_sittiwaitayaporn]], [[Skorupa and Skorupa 2012][research_skorupa_skorupa_2012]], [[Skorupa and Skorupa 2012][research_skorupa_skorupa_2012_b]], [[Smiley et al 1991][research_smiley_chao_1991]], [[Smith 2002][research_smith_2002]], [[Smith and Yang 1992][research_smith_yang_1992]], [[So][research_so]], [[Somers et al 1991][research_somers_weller_1991]], [[Song and Lim 2001][research_song_lim_2001]], [[Southward et al 2008][research_southward_mallinson_2008]], [[SP-165 Repair and Strengthening 1996][research_sp_165_repair_1996]], [[Special Design Aspects of 1996][research_special_design_1996]], [[Specification for Corrosion-Inhibiting Adhesive][research_specification_for_c]], [[Spies 1953][research_spies_1953]], [[Steinmetz 2025][research_steinmetz_2025]], [[Steinmetz 2025][research_steinmetz_2025_b]], [[Steinmetz 2025][research_steinmetz_2025_c]], [[Steinmetz 2025][research_steinmetz_2025_d]], [[Steinmetz 2025][research_steinmetz_2025_e]], [[Steinmetz 2025][research_steinmetz_2025_f]], [[Strength Analysis of Welded 2021][research_strength_analysis_2021]], [[Strength, Calculation and Testing 2008][research_strength_calculation_2008]], [[Strength of Adhesive-Bonded Lap 2002][research_strength_of_adhesive_bonded_2002]], [[Stresses in adhesive-bonded joints 1975][research_stresses_in_1975]], [[Structural adhesives. Guidelines for][research_structural_adhesives]], [[Study of micromechanical properties 1968][research_study_of_1968]], [[Stutzmann 1987][research_stutzmann_1987]], [[Su and Gao 2014][research_su_gao_2014]], [[Summers][research_summers]], [[Sun et al 2015][research_sun_pugno_2015]], [[Surface Preparation and Priming][research_surface_preparation]], [[Surface preparation of boron 1972][research_surface_preparation_1972]], [[Surface Preparation for Painting 2001][research_surface_preparation_2001]], [[Surface Preparation Techniques for 2013][research_surface_preparation_2013]], [[Surface Preparation for Structural][research_surface_preparation_b]], [[Sutherland et al 2017][research_sutherland_amado_2017]], [[Suwanpakpraek et al 2019][research_suwanpakpraek_patamaprohm_2019]], [[Suzuki et al 2013][research_suzuki_matsuzaki_2013]], [[Swamy et al 2021][research_swamy_manjunath_2021]], [[Szépe 1966][research_szepe_1966]], [[Szeptyński 2025][research_szeptynski_2025]], [[Tafreshi 2006][research_tafreshi_2006]], [[Taha et al 2020][research_taha_alnahhal_2020]], [[Taha and Alnahhal 2021][research_taha_alnahhal_2021]], [[Taheri et al 2013][research_taheri_shadlou_2013]], [[Takamizawa et al 2022][research_takamizawa_hirokane_2022]], [[Takemura and Sugiura 2019][research_takemura_sugiura_2019]], [[Tan 1992][research_tan_1992]], [[Tanulia et al 2022][research_tanulia_wang_2022]], [[Tao et al 2020][research_tao_li_2020]], [[Tatar et al 2018][research_tatar_torrence_2018]], [[Tedlapu and Gerini-Romagnoli 2024][research_tedlapu_geriniromagnoli_2024]], [[Teller et al 1990][research_teller_diercks_1990]], [[Terasaki et al 2024][research_terasaki_fujio_2024]], [[Test Method for Flexural][research_test_method_k]], [[Test Method for Adhesive-Bonded][research_test_method_l]], [[Test Method for Bond][research_test_method_m]], [[Testing adhesive bonded structural 1971][research_testing_adhesive_1971]], [[The use of finite 1996][research_the_use_1996]], [[Thirunavukarasu and Sikarwar 2024][research_thirunavukarasu_sikarwar_2024]], [[Thomas][research_thomas]], [[Thomas and Antony 2003][research_thomas_antony_2003]], [[Thomson and Scott 2000][research_thomson_scott_2000]], [[Thrall 1977][research_thrall_1977]], [[Todd and Challis 1999][research_todd_challis_1999]], [[Tomioka and Kakiage 1996][research_tomioka_kakiage_1996]], [[Tong et al 2022][research_tong_hua_2022]], [[Tong et al 1994][research_tong_sheppard_1994]], [[Tong et al 2003][research_tong_spelt_2003]], [[Tong and Steven 1996][research_tong_steven_1996]], [[Tong et al 1997][research_tong_zhu_1997]], [[Torrelli and Paroissien 2020][research_torrelli_paroissien_2020]], [[Toyama et al 2017][research_toyama_yamamoto_2017]], [[Tsai et al 1999][research_tsai_alper_1999]], [[Tsujimoto et al 2016][research_tsujimoto_barkmeier_2016]], [[Tsujimoto et al 2022][research_tsujimoto_fischer_2022]], [[Twerdowski et al 2006][research_twerdowski_vonbuttlar_2006]], [[Udd et al 2003][research_udd_kreger_2003]], [[Ulker and Haddad Derafshi 2020][research_ulker_haddadderafshi_2020]], [[Ultrasonic study of adhesive 1994][research_ultrasonic_study_1994]], [[Ultrasonic testing of adhesive 1966][research_ultrasonic_testing_1966]], [[Unidirectional Carbon Fiber Tape][research_unidirectional_carbon]], [[Unidirectional Carbon Fiber Tape][research_unidirectional_carbon_e]], [[Unidirectional Carbon Fiber Tape][research_unidirectional_carbon_f]], [[Unknown 1986][research_unknown_1986]], [[Uysal 2016][research_uysal_2016]], [[van Tooren et al 2004][research_vantooren_gleich_2004]], [[Varshitha et al 2026][research_varshitha_rayanam_2026]], [[Vasconcellos Birro][research_vasconcellosbirro]], [[Vassilopoulos 2015][research_vassilopoulos_2015]], [[Vassilopoulos 2015][research_vassilopoulos_2015_b]], [[Vassilopoulos and Keller 2015][research_vassilopoulos_keller_2015]], [[Vassilopoulos et al 2015][research_vassilopoulos_shahverdi_2015]], [[Verhoeven 2005][research_verhoeven_2005]], [[Vijaya Kumar et al 2013][research_vijayakumar_bhat_2013]], [[Villacarlos and Pulutan 2020][research_villacarlos_pulutan_2020]], [[Vinson 1978][research_vinson_1978]], [[Vinson 1981][research_vinson_1981]], [[Völkerink and Hühne 2022][research_volkerink_huhne_2022]], [[Wagih et al 2022][research_wagih_hashem_2022]], [[Wake 1979][research_wake_1979]], [[Wang][research_wang]], [[Wang 1964][research_wang_1964]], [[Wang and Duong 2016][research_wang_duong_2016]], [[Wang and Duong 2016][research_wang_duong_2016_b]], [[Wang and Hsu 2009][research_wang_hsu_2009]], [[Wang et al 2025][research_wang_hu_2025]], [[Wang et al 2016][research_wang_li_2016]], [[Wang et al 2020][research_wang_liang_2020]], [[Wang et al 2019][research_wang_liu_2019]], [[Wang et al 2023][research_wang_luo_2023]], [[Wang et al 2022][research_wang_yazdaninezhad_2022]], [[Ward et al 1984][research_ward_sheridan_1984]], [[Weathering Tests on Epoxy-Bonded 1996][research_weathering_tests_1996]], [[Wegman and Mitchell 1992][research_wegman_mitchell_1992]], [[Weiland et al 2019][research_weiland_debruyne_2019]], [[Welch and Eden 1989][research_welch_eden_1989]], [[Wendler and Frazier 1995][research_wendler_frazier_1995]], [[Wendler and Frazier 1996][research_wendler_frazier_1996]], [[Westerdahl and Hall 1973][research_westerdahl_hall_1973]], [[Whittingham et al 2009][research_whittingham_baker_2009]], [[Whittingham et al 2006][research_whittingham_li_2006]], [[Wiacek 1991][research_wiacek_1991]], [[Williams et al 1987][research_williams_donnellan_1987]], [[Wilson and Charles 1981][research_wilson_charles_1981]], [[Wojtczak and Rucka 2022][research_wojtczak_rucka_2022]], [[Wong 2017][research_wong_2017]], [[Wong et al 2025][research_wong_wang_2025]], [[Wongwiwat et al 1991][research_wongwiwat_rizzo_1991]], [[Wu 2017][research_wu_2017]], [[Wu 2017][research_wu_2017_b]], [[Wu et al 2013][research_wu_liu_2013]], [[Xiang et al 2010][research_xiang_zhao_2010]], [[Xiao et al 2020][research_xiao_howden_2020]], [[Xie et al 2016][research_xie_liu_2016]], [[Xu et al 2023][research_xu_ramani_2023]], [[Xu et al 2015][research_xu_yu_2015]], [[Yamada and Kobayashi 2017][research_yamada_kobayashi_2017]], [[Yamaguchi and Amano 1980][research_yamaguchi_amano_1980]], [[Yamakawa et al 1976][research_yamakawa_yamamoto_1976]], [[Yamashita et al 2013][research_yamashita_kenmotsu_2013]], [[Yamashita et al 2011][research_yamashita_kien_2011]], [[Yan et al 2023][research_yan_jiang_2023]], [[Yan and Lin 2017][research_yan_lin_2017]], [[Yanen and Solmaz 2022][research_yanen_solmaz_2022]], [[Yang][research_yang]], [[Yang 2025][research_yang_2025]], [[Yang et al 2019][research_yang_silva_2019]], [[Yang et al 2024][research_yang_zhipeng_2024]], [[Yashiro et al 2016][research_yashiro_wada_2016]], [[Yasuoka 2021][research_yasuoka_2021]], [[Yau et al 2024][research_yau_ocholi_2024]], [[Ye et al 2019][research_ye_yan_2019]], [[Yildirim-Manav et al 2025][research_yildirimmanav_yaziciakbiyik_2025]], [[Yılmaz and Çelik 2026][research_yilmaz_celik_2026]], [[Yılmaz and Jasiūnienė 2020][research_yilmaz_jasiuniene_2020]], [[Yokozeki et al 2015][research_yokozeki_ishibashi_2015]], [[Yu et al 2024][research_yu_an_2024]], [[Yuan and Chen 2012][research_yuan_chen_2012]], [[Yuan et al 2008][research_yuan_li_2008]], [[Zabeu][research_zabeu]], [[Zhang et al 2025][research_zhang_cheng_2025]], [[Zhang et al 2015][research_zhang_ding_2015]], [[Zhang et al 2010][research_zhang_fu_2010]], [[Zhang and Huang 2021][research_zhang_huang_2021]], [[Zhang et al 2020][research_zhang_li_2020]], [[Zhang et al 2024][research_zhang_liu_2024]], [[Zhang et al 2024][research_zhang_xu_2024]], [[Zhang et al 2020][research_zhang_zhang_2020]], [[Zhao and Guo 2014][research_zhao_guo_2014]], [[Zhao et al 2011][research_zhao_lu_2011]], [[Zhao et al 2013][research_zhao_qin_2013]], [[Zhao et al 2025][research_zhao_yan_2025]], [[Zheng et al 2010][research_zheng_zhao_2010]], [[Zhu et al 2019][research_zhu_wang_2019]], [[Zhu et al 2019][research_zhu_wang_2019_b]].
+
+### Curing a thermoset, which is where the time actually goes
+
+**The third largest cluster and the one this article computes in.** Cure kinetics, activation energy, the degree of cure, the glass transition, vitrification, calorimetry and the cycle design built on them. **The registry entry's phrase `low-temperature` is a claim about this shelf**, and this shelf is where the price of that choice is set [[Thermal models for MTM45-1 and Cycom 5320 out-of-autoclave prepreg resins][research_kratz_thermal_models]].
+
+[[A fiber optic ultrasound 1998][research_a_fiber_1998]], [[A. and K. 2013][research_a_k_2013]], [[A. Abdul Razak et al 2016][research_aabdulrazak_jsaleh_2016]], [[Abali et al 2021][research_abali_zecchini_2021]], [[Abbasi and Jannesari 2023][research_abbasi_jannesari_2023]], [[Abbasi and Peerzada 2023][research_abbasi_peerzada_2023]], [[Abdullah 2015][research_abdullah_2015]], [[Abouhamzeh et al 2015][research_abouhamzeh_sinke_2015]], [[Achilias et al 2012][research_achilias_karabela_2012]], [[Ackermann et al 2021][research_ackermann_carosella_2021]], [[Adams and Goldfarb 1982][research_adams_goldfarb_1982]], [[Adefemi 2015][research_adefemi_2015]], [[Adriana 2013][research_adriana_2013]], [[Aerospace series. Analysis of][research_aerospace_series]], [[Ahopelto 1986][research_ahopelto_1986]], [[Akhtar 1987][research_akhtar_1987]], [[Alavi-Soltani et al 2011][research_alavisoltani_sabzevari_2011]], [[Aleong and Munro 1991][research_aleong_munro_1991]], [[Allahbakhsh et al 2013][research_allahbakhsh_mazinani_2013]], [[Allaoui and El Bounia 2009][research_allaoui_elbounia_2009]], [[Almond et al 1992][research_almond_braddell_1992]], [[Almond et al 1993][research_almond_braddell_1993]], [[Alonso et al 2006][research_alonso_oliet_2006]], [[Alpay et al 2023][research_alpay_uygur_2023]], [[Altmann][research_altmann]], [[Altmann et al 2001][research_altmann_halley_2001]], [[Altmann and Halley 2003][research_altmann_halley_2003]], [[Anagwu and Skordos 2023][research_anagwu_skordos_2023]], [[Andres et al 1994][research_andres_miguez_1994]], [[Anil Kumar and Sundaram 2016][research_anilkumar_sundaram_2016]], [[Apicella et al 1987][research_apicella_kenny_1987]], [[Applications of Calorimetry in 2013][research_applications_of_2013]], [[Arridge and Speake 1972][research_arridge_speake_1972]], [[Askadskii et al 2013][research_askadskii_popova_2013]], [[Asraf et al 2025][research_asraf_purwoko_2025]], [[Aussawasathien and Sancaktar 2008][research_aussawasathien_sancaktar_2008]], [[Baghad et al 2021][research_baghad_elmabrouk_2021]], [[Balaji et al 2023][research_balaji_sbarufatti_2023]], [[Balamurugan and Kannan 2009][research_balamurugan_kannan_2009]], [[Bao et al 2012][research_bao_gawne_2012]], [[Barghamadi and Behmadi 2012][research_barghamadi_behmadi_2012]], [[Barral et al 1995][research_barral_cano_1995]], [[Barral et al 1997][research_barral_cano_1997]], [[Barral et al 1999][research_barral_cano_1999]], [[Barton 1980][research_barton_1980]], [[Barton 1985][research_barton_1985]], [[Barton 1986][research_barton_1986]], [[Barton and Wright 1985][research_barton_wright_1985]], [[Basford 1976][research_basford_1976]], [[Bashir 2023][research_bashir_2023]], [[Bender et al 2019][research_bender_centea_2019]], [[Bestley et al 2011][research_bestley_brown_2011]], [[Bidstrup and Day 1994][research_bidstrup_day_1994]], [[Bidstrup et al 1989][research_bidstrup_sheppard_1989]], [[Biernath and Soane 1992][research_biernath_soane_1992]], [[Bilyeu][research_bilyeu]], [[Bilyeu][research_bilyeu_b]], [[Bilyeu et al 2002][research_bilyeu_brostow_2002]], [[Binders for paints and][research_binders_for]], [[Boey et al 1994][research_boey_lee_1994]], [[Boey and Lye 1990][research_boey_lye_1990]], [[Boey and Qiang 2000][research_boey_qiang_2000]], [[Bogetti and Gillespie 1991][research_bogetti_gillespie_1991]], [[Booth and Hay 1969][research_booth_hay_1969]], [[Boothby et al 2018][research_boothby_piszkiewicz_2018]], [[Bouscarrat][research_bouscarrat]], [[Boztas et al 2025][research_boztas_atespare_2025]], [[Brazier and Schwartz 1980][research_brazier_schwartz_1980]], [[Brich et al 2025][research_brich_hill_2025]], [[Byrne et al 1980][research_byrne_hagnauer_1980]], [[Cadenato et al 1997][research_cadenato_salla_1997]], [[Cai and Salovey 2001][research_cai_salovey_2001]], [[Calado and Advani 2000][research_calado_advani_2000]], [[Cao et al 2014][research_cao_hu_2014]], [[Cao et al 2014][research_cao_jin_2014]], [[Capehart et al 2007][research_capehart_kia_2007]], [[Carbas et al 2013][research_carbas_marques_2013]], [[Carlone and Palazzo][research_carlone_palazzo]], [[Carlone and Palazzo 2011][research_carlone_palazzo_2011]], [[Carlone and Palazzo 2013][research_carlone_palazzo_2013]], [[Caron et al 2017][research_caron_larreteguy_2017]], [[Carter et al 2003][research_carter_emmerson_2003]], [[Cascaval et al 2006][research_cascaval_rosu_2006]], [[Cassara et al 2026][research_cassara_copeman_2026]], [[Cender et al 2022][research_cender_lavaggi_2022]], [[Chaiwan et al 2019][research_chaiwan_kaewkittinarong_2019]], [[Chandran et al 2012][research_chandran_krishna_2012]], [[Chang et al 1996][research_chang_chen_1996]], [[Characterization of thermoset cure 1990][research_characterization_of_1990]], [[Characterizing rheological cure behaviour 1981][research_characterizing_rheological_1981]], [[Chemorheology and Gelation 2000][research_chemorheology_and_2000]], [[Chemorheology and chemorheological modelling 2009][research_chemorheology_and_2009]], [[Chemorheology of Thermosetting Polymers 1982][research_chemorheology_of_1982]], [[Chemorheology of Thermosetting Polymers 1982][research_chemorheology_of_1982_b]], [[Chemorheology of Epoxy/Nickel Conductive 2008][research_chemorheology_of_2008]], [[Chen et al 1993][research_chen_chen_1993]], [[Chen et al 2004][research_chen_don_2004]], [[Chen et al 1998][research_chen_fu_1998]], [[Chen et al 2026][research_chen_han_2026]], [[Chen et al 2003][research_chen_he_2003]], [[Chen et al 2017][research_chen_li_2017]], [[Chen et al 2026][research_chen_li_2026]], [[Chen et al 2021][research_chen_poursartip_2021]], [[Chen et al 2019][research_chen_ren_2019]], [[Chen et al 1993][research_chen_tu_1993]], [[Chen et al 2014][research_chen_zhou_2014]], [[Chen et al 2023][research_chen_zhu_2023]], [[Chiao and Lyon 1990][research_chiao_lyon_1990]], [[Cho and Douglas 2002][research_cho_douglas_2002]], [[Choi et al 2011][research_choi_janisse_2011]], [[Choi et al 2022][research_choi_jeong_2022]], [[Chueangchayaphan et al 2020][research_chueangchayaphan_nithiuthai_2020]], [[Ciriscioli et al 1991][research_ciriscioli_springer_1991]], [[Cizmecioglu et al 1986][research_cizmecioglu_gupta_1986]], [[Cole 1991][research_cole_1991]], [[Composites review characterization of 1986][research_composites_review_1986]], [[Cook et al 2001][research_cook_lau_2001]], [[Corezzi et al 2010][research_corezzi_fioretto_2010]], [[Costa et al 2005][research_costa_botelho_2005]], [[Costa et al 2006][research_costa_botelho_2006]], [[Costa et al 2005][research_costa_pardini_2005]], [[Couchman 1980][research_couchman_1980]], [[Cui et al 2003][research_cui_hong_2003]], [[Cummings 1983][research_cummings_1983]], [[Cure cycle 2007][research_cure_cycle_2007]], [[Cure Shrinkage and Residual 2014][research_cure_shrinkage_2014]], [[Cytec unveils low temperature 2011][research_cytec_unveils_2011]], [[D'Amato 2007][research_damato_2007]], [[Dao et al 2006][research_dao_hodgkin_2006]], [[Dao et al 2007][research_dao_hodgkin_2007]], [[Davies et al 2007][research_davies_day_2007]], [[Deringer et al 2017][research_deringer_groschel_2017]], [[Deshpande et al 2019][research_deshpande_shah_2019]], [[Dewangan and Chakladar 2023][research_dewangan_chakladar_2023]], [[Differential Scanning Calorimetry][research_differential_scanning]], [[Differential Scanning Calorimetry 1 2019][research_differential_scanning_2019]], [[Differential Scanning Calorimetry Measurement 2025][research_differential_scanning_2025]], [[Differential Thermal Analysis DTA][research_differential_thermal]], [[Dimopoulos et al 2011][research_dimopoulos_skordos_2011]], [[Dispenza and Spadaro 2000][research_dispenza_spadaro_2000]], [[Dolkun et al 2018][research_dolkun_zhu_2018]], [[Dong et al 2018][research_dong_zhao_2018]], [[Dorighi et al 1996][research_dorighi_krishnaswamy_1996]], [[Draper et al 2019][research_draper_liang_2019]], [[Du et al 2004][research_du_guo_2004]], [[Duller et al 2026][research_duller_mahendran_2026]], [[Dunn 2020][research_dunn_2020]], [[Dušek and Matějka 1984][research_dusek_matejka_1984]], [[Dutruch et al 1997][research_dutruch_pascal_1997]], [[Effects of prepreg ageing 1990][research_effects_of_1990]], [[Electrical insulating materials. Methods][research_electrical_insulating]], [[Eley 1982][research_eley_1982]], [[El Labban et al 2007][research_ellabban_mousseau_2007]], [[Enns and Gillham 1983][research_enns_gillham_1983]], [[Enos et al 2023][research_enos_zhang_2023]], [[Eom et al 2001][research_eom_boogh_2001]], [[Eom et al 2013][research_eom_seo_2013]], [[Ernst 1985][research_ernst_1985]], [[Ersoy and Tugutlu 2009][research_ersoy_tugutlu_2009]], [[Esmizadeh et al 2016][research_esmizadeh_naderi_2016]], [[Et al. 2021][research_etal_2021]], [[Exotherm 2007][research_exotherm_2007]], [[Fan et al 2023][research_fan_zhang_2023]], [[Faruque and Chakraborty 2016][research_faruque_chakraborty_2016]], [[Fast cure epoxy agent 1998][research_fast_cure_1998]], [[Fava 1968][research_fava_1968]], [[Feldstein 2001][research_feldstein_2001]], [[Feldstein et al 2003][research_feldstein_roos_2003]], [[Feldstein et al 2001][research_feldstein_shandryuk_2001]], [[Feller 2015][research_feller_2015]], [[Feng and Liu 2024][research_feng_liu_2024]], [[Feng et al 1985][research_feng_reifsnider_1985]], [[Fernandez et al 2019][research_fernandez_angeles_2019]], [[Fernando][research_fernando]], [[Fernando et al 2023][research_fernando_vandi_2023]], [[Fisch et al 1969][research_fisch_hofmann_1969]], [[Fleszar 1988][research_fleszar_1988]], [[Flora et al 2021][research_flora_rizzo_2021]], [[Focke et al 1991][research_focke_smit_1991]], [[Fontana 1998][research_fontana_1998]], [[Foster et al 2015][research_foster_hoff_2015]], [[Fraga et al 2009][research_fraga_hutchinson_2009]], [[Fraga et al 2009][research_fraga_montserrat_2009]], [[Francis 2016][research_francis_2016]], [[Francis 2017][research_francis_2017]], [[Franieck et al 2021][research_franieck_fleischmann_2021]], [[Frank-Susich et al 1993][research_franksusich_laananen_1993]], [[Friis-Pedersen et al 2008][research_friispedersen_houmoller_2008]], [[Fu et al 2023][research_fu_schoenholz_2023]], [[Fu and Zhong 2011][research_fu_zhong_2011]], [[Fuller and Judovits 2001][research_fuller_judovits_2001]], [[Furushima 2019][research_furushima_2019]], [[Gan et al 2010][research_gan_sun_2010]], [[Ganapathi et al 2015][research_ganapathi_joshi_2015]], [[Gao et al 2000][research_gao_li_2000]], [[Gao and Nie 2006][research_gao_nie_2006]], [[Gao et al 2026][research_gao_wang_2026]], [[Gao et al 2010][research_gao_zhang_2010]], [[Garschke et al 2013][research_garschke_parlevliet_2013]], [[Geipel and Eitner 2013][research_geipel_eitner_2013]], [[Geiß and Schumann 2026][research_geiss_schumann_2026]], [[Genidy et al 1999][research_genidy_madhukar_1999]], [[Gerami et al 2018][research_gerami_bagheri_2018]], [[Ghaemy et al 2004][research_ghaemy_barghamadi_2004]], [[Ghaemy et al 2005][research_ghaemy_rostami_2005]], [[Ghodhbani et al 2016][research_ghodhbani_marechal_2016]], [[Ghosh et al 2014][research_ghosh_pawar_2014]], [[Gkertzos et al 2024][research_gkertzos_kotzakolios_2024]], [[glass transition temperature 2021][research_glass_transition_2021]], [[Glass-transition temperature 2007][research_glass_transition_temperature_2007]], [[Glass-Transition Temperature T g 2013][research_glass_transition_temperature_2013]], [[glass-transition temperature 2014][research_glass_transition_temperature_2014]], [[Gonzalo et al 2024][research_gonzalo_seara_2024]], [[Gooch 2011][research_gooch_2011]], [[Gooch 2011][research_gooch_2011_b]], [[Gorbunova et al 1998][research_gorbunova_kerber_1998]], [[Gourichon et al 2024][research_gourichon_lebel_2024]], [[Gu et al 2024][research_gu_luan_2024]], [[Guo et al 2005][research_guo_du_2005]], [[Hadipeykani et al 2020][research_hadipeykani_aghadavoudi_2020]], [[Hagnauer et al 1983][research_hagnauer_laliberte_1983]], [[Hagnauer et al 1982][research_hagnauer_pearce_1982]], [[Hahn 1988][research_hahn_1988]], [[Hall et al 2024][research_hall_zeng_2024]], [[Halley 2012][research_halley_2012]], [[Hamad et al 2022][research_hamad_fei_2022]], [[Han and Lee 2018][research_han_lee_2018]], [[Han and Lem 1983][research_han_lem_1983]], [[Han and Lem 1984][research_han_lem_1984]], [[Han et al 2010][research_han_wood_2010]], [[Hardis][research_hardis]], [[Harris 2010][research_harris_2010]], [[Harsch et al 2007][research_harsch_kargerkocsis_2007]], [[Hay et al 1976][research_hay_fitzgerald_1976]], [[Hay and Mills 1982][research_hay_mills_1982]], [[Hayaty et al 2010][research_hayaty_beheshty_2010]], [[Heise and Martin 1990][research_heise_martin_1990]], [[Henkel introduces new low 2005][research_henkel_introduces_2005]], [[Hensel and Schick 1998][research_hensel_schick_1998]], [[Hexion Inc. to offer 2016][research_hexion_inc_2016]], [[Hexion launches bio-based, low 2009][research_hexion_launches_2009]], [[Hexion Launches Next Generation 2015][research_hexion_launches_2015]], [[Hexion Specialty Chemicals launches 2009][research_hexion_specialty_2009]], [[Hill et al 2001][research_hill_george_2001]], [[Hill et al 2002][research_hill_george_2002]], [[Höhne et al 1996][research_hohne_hemminger_1996]], [[Höhne et al 2003][research_hohne_hemminger_2003]], [[Hojjati, et al 2000][research_hojjati_johnston_2000]], [[Holbery and Bordia 2001][research_holbery_bordia_2001]], [[Homem de Mello Junior et al 2025][research_homemdemellojunior_desampaioalves_2025]], [[Hong and Chung 1991][research_hong_chung_1991]], [[Hong et al 2017][research_hong_lee_2017]], [[Hong Zhang et al 2006][research_hongzhang_qinmin_2006]], [[Hosseinpour et al 2016][research_hosseinpour_nazockdast_2016]], [[Hou and Hou 1987][research_hou_hou_1987]], [[Hou et al 1990][research_hou_hou_1990]], [[hours. Low exotherm profile 2000][research_hours_low_2000]], [[hours. Low exotherm profile 2000][research_hours_low_2000_b]], [[Hourston and Song][research_hourston_song]], [[Hseih et al 1998][research_hseih_su_1998]], [[Hsiao 2005][research_hsiao_2005]], [[Hsich et al 1982][research_hsich_zurn_1982]], [[Hu et al 2020][research_hu_centea_2020]], [[Hu et al 2015][research_hu_sharifi_2015]], [[Huang and Lee 2010][research_huang_lee_2010]], [[Huang and Patham 2012][research_huang_patham_2012]], [[Huang et al 2012][research_huang_ren_2012]], [[Hudson et al 2023][research_hudson_baro_2023]], [[Hui et al 2022][research_hui_xu_2022]], [[Hutchinson and Moradi 2020][research_hutchinson_moradi_2020]], [[Hwang et al 2018][research_hwang_park_2018]], [[Hyun et al 2020][research_hyun_kim_2020]], [[Ichihara et al 1971][research_ichihara_komatsu_1971]], [[Ingram et al 2007][research_ingram_liggat_2007]], [[Ishida and Rodriguez 1995][research_ishida_rodriguez_1995]], [[Ismail et al 2026][research_ismail_fitriyana_2026]], [[Jagadeesh et al 1990][research_jagadeesh_siddaramaiah_1990]], [[Jahromi et al 2012][research_jahromi_shojaei_2012]], [[Jang et al 1992][research_jang_boxwell_1992]], [[Jang and Yi 1995][research_jang_yi_1995]], [[Jefferson Andrew et al 2016][research_jeffersonandrew_arumugam_2016]], [[Jena 2023][research_jena_2023]], [[Jing et al 2014][research_jing_liu_2014]], [[Johncock and Tudgey 1986][research_johncock_tudgey_1986]], [[Johnson and Pitchumani 2010][research_johnson_pitchumani_2010]], [[Jørgensen and Mikkelsen 2023][research_jorgensen_mikkelsen_2023]], [[Jørgensen and Mikkelsen 2024][research_jorgensen_mikkelsen_2024]], [[Jouyandeh et al 2019][research_jouyandeh_paran_2019_b]], [[Jubsilp et al 2010][research_jubsilp_punson_2010]], [[Jugla et al 2007][research_jugla_jochum_2007]], [[Jung et al 2015][research_jung_roh_2015]], [[Juska and Mayes 1995][research_juska_mayes_1995]], [[Kalima Bukenya et al 2021][research_kalimabukenya_michaelolaya_2021]], [[Kalra et al 1992][research_kalra_perry_1992]], [[Kang et al 2003][research_kang_kang_2003]], [[Karayannidou et al 2006][research_karayannidou_achilias_2006]], [[Karkanas et al 1996][research_karkanas_partridge_1996]], [[Karkanas and Partridge 2000][research_karkanas_partridge_2000]], [[Karl et al 2024][research_karl_rudolph_2024]], [[Kasemsiri et al 2011][research_kasemsiri_hiziroglu_2011]], [[Kato et al 2020][research_kato_ikeda_2020]], [[Kazilas and Partridge 2005][research_kazilas_partridge_2005]], [[Keenan 1987][research_keenan_1987]], [[Kennedy and Hansen 2008][research_kennedy_hansen_2008]], [[Kenny 1994][research_kenny_1994]], [[Khalyavina et al 2012][research_khalyavina_haussler_2012]], [[Khattab 2013][research_khattab_2013]], [[Khouider et al 1985][research_khouider_rochette_1985]], [[Kim 2000][research_kim_2000]], [[Kim 2002][research_kim_2002]], [[Kim et al 2005][research_kim_beak_2005]], [[Kim and Daniel 2002][research_kim_daniel_2002]], [[Kim and Kim 1994][research_kim_kim_1994]], [[Kim et al 2022][research_kim_kim_2022]], [[Kim and Lee 1996][research_kim_lee_1996]], [[Kim and Lee 1997][research_kim_lee_1997]], [[Kim and Lee 2003][research_kim_lee_2003]], [[Kim et al 2006][research_kim_lee_2006]], [[Kim et al 1998][research_kim_lu_1998]], [[Kim et al 2026][research_kim_melkote_2026]], [[Kim et al 2016][research_kim_min_2016]], [[Kim et al 2002][research_kim_moon_2002]], [[Kim and Nutt 2020][research_kim_nutt_2020]], [[Kim et al 2006][research_kim_park_2006]], [[Kim et al 2006][research_kim_park_2006_b]], [[Kim et al 2010][research_kim_park_2010]], [[Kim and Shin 2000][research_kim_shin_2000]], [[Kim et al 2002][research_kim_son_2002]], [[Kim et al 2013][research_kim_yoo_2013]], [[King and Rice 1996][research_king_rice_1996]], [[Kinsey et al 1997][research_kinsey_hajisheikh_1997]], [[Kishore 1978][research_kishore_1978]], [[Koenis et al 2022][research_koenis_vanhoorn_2022]], [[Koike 2002][research_koike_2002]], [[Kopatz et al 2021][research_kopatz_unangst_2021]], [[Koreeda et al 2011][research_koreeda_matos_2011]], [[Kotula et al 2023][research_kotula_woodcock_2023]], [[Kraft lignin � Glass][research_kraft_lignin]], [[Thermal models for MTM45-1 and Cycom 5320 out-of-autoclave prepreg resins][research_kratz_thermal_models]], [[Křesálek and Mikuličová 2020][research_kresalek_mikulicova_2020]], [[Krishnan et al 2025][research_krishnan_lessard_2025]], [[Krishnaswamy et al 2019][research_krishnaswamy_marchante_2019]], [[Kropka et al 2016][research_kropka_stavig_2016]], [[Lacey et al][research_lacey_price]], [[Lacoste et al 2012][research_lacoste_szymanska_2012]], [[Lairez et al 1991][research_lairez_durand_1991]], [[LaLiberte and Bornstein 1981][research_laliberte_bornstein_1981]], [[Lam 1987][research_lam_1987]], [[Lam 1989][research_lam_1989]], [[Lam and Afromowitz 1995][research_lam_afromowitz_1995]], [[Lam et al 1990][research_lam_plaumann_1990]], [[Landuyt et al 1989][research_landuyt_liegeois_1989]], [[Lane et al 1989][research_lane_khattak_1989]], [[Lange et al 2000][research_lange_altmann_2000]], [[Lange et al 1995][research_lange_toll_1995]], [[Lange et al 1997][research_lange_toll_1997]], [[Larrain et al 1981][research_larrain_tagle_1981]], [[Lau 1992][research_lau_1992]], [[Leckenby 1983][research_leckenby_1983]], [[Lee 2020][research_lee_2020]], [[Lee 2021][research_lee_2021]], [[Lee and Hartmann 1984][research_lee_hartmann_1984]], [[Lee et al 2006][research_lee_kim_2006]], [[Lee et al 1982][research_lee_kuo_1982]], [[Lee and Lee 2008][research_lee_lee_2008]], [[Lee et al 1997][research_lee_shim_1997]], [[Lee et al 2000][research_lee_shim_2000]], [[Lee et al 2000][research_lee_shim_2000_b]], [[Lee et al 1994][research_lee_young_1994]], [[Lem and Han 1983][research_lem_han_1983]], [[Leroy et al 2005][research_leroy_dupuy_2005]], [[Leung and Lee 1999][research_leung_lee_1999]], [[Leung et al 2003][research_leung_scola_2003]], [[Levy 1982][research_levy_1982]], [[Levy and Ames 1984][research_levy_ames_1984]], [[Levy and Schwab 1991][research_levy_schwab_1991]], [[Leyland and O'Malley 2007][research_leyland_omalley_2007]], [[Li and Kessler 2014][research_li_kessler_2014]], [[Li et al 2025][research_li_lai_2025]], [[Li and Lee 2000][research_li_lee_2000]], [[Li et al 2012][research_li_li_2012]], [[Li et al 2017][research_li_li_2017_b]], [[Li et al 2025][research_li_xue_2025]], [[Li et al 2025][research_li_zhang_2025]], [[Liang and Chandrashekhara 2006][research_liang_chandrashekhara_2006]], [[Limaye et al 2026][research_limaye_li_2026]], [[Lin et al 2006][research_lin_leu_2006]], [[Lin and Wang 1994][research_lin_wang_1994]], [[Lind et al 1986][research_lind_fry_1986]], [[Lind et al 1984][research_lind_sandreczki_1984]], [[Liu et al 2005][research_liu_chen_2005]], [[Liu et al 2012][research_liu_chen_2012]], [[Liu et al 2026][research_liu_fu_2026]], [[Liu et al 2019][research_liu_guan_2019]], [[Liu et al 2010][research_liu_li_2010]], [[Liu et al 2019][research_liu_li_2019]], [[Liu et al 2020][research_liu_li_2020]], [[Liu et al 2007][research_liu_sheng_2007]], [[Liu et al 2020][research_liu_wang_2020]], [[Liu et al 2006][research_liu_zhang_2006]], [[Loos and Springer 1983][research_loos_springer_1983]], [[Lorenz et al 2024][research_lorenz_hopmann_2024]], [[Losada et al 2006][research_losada_mier_2006]], [[Love and Piguet-Ruinet 2007][research_love_piguetruinet_2007]], [[Low temperature cure powders 2005][research_low_temperature_2005]], [[Low temperature cure thermosetting 2009][research_low_temperature_2009]], [[Low temperature cure surface 2009][research_low_temperature_2009_b]], [[Low-Temperature-Cure Powder Coating Technology 2022][research_low_temperature_cure_powder_2022]], [[Lucas et al 1993][research_lucas_borrajo_1993]], [[Lula 1980][research_lula_1980]], [[Luo et al 2008][research_luo_wei_2008]], [[Luo et al 2018][research_luo_yu_2018]], [[Ma et al 2014][research_ma_li_2014]], [[Macan et al 2004][research_macan_ivankovic_2004]], [[Madhukar 2000][research_madhukar_2000]], [[Maeva et al 2007][research_maeva_severina_2007]], [[Mafi et al 2005][research_mafi_mirabedini_2005]], [[Mahfoud and Harb 2023][research_mahfoud_harb_2023]], [[Maistros et al 1997][research_maistros_fontana_1997]], [[Maklakov and Pimenov 1973][research_maklakov_pimenov_1973]], [[Mallick and Raghupathi 1979][research_mallick_raghupathi_1979]], [[Mansilla et al 2013][research_mansilla_rodriguezgarraza_2013]], [[Maoyu 1990][research_maoyu_1990]], [[Martin et al 2018][research_martin_warrior_2018]], [[Martinho Simões and da Piedade 2008][research_martinhosimoes_dapiedade_2008]], [[Mathias and Tregre 1998][research_mathias_tregre_1998]], [[Matsukawa et al 2014][research_matsukawa_enomoto_2014]], [[Maurer 1965][research_maurer_1965]], [[May and Mitschang 2021][research_may_mitschang_2021]], [[Measurement of the stress 1981][research_measurement_of_1981]], [[Mechanical Properties Of Elastomers][research_mechanical_properties]], [[Mechanical properties of elastomers 2007][research_mechanical_properties_2007]], [[Megiatto et al 2009][research_megiatto_silva_2009]], [[Menge et al 2020][research_menge_trochu_2020]], [[Mesogitis et al 2018][research_mesogitis_kratz_2018]], [[Mesogitis et al 2016][research_mesogitis_skordos_2016]], [[Methods of test for][research_methods_of]], [[Meza-Mendoza et al 2018][research_mezamendoza_chavezgarcia_2018]], [[Miao et al 2012][research_miao_li_2012]], [[Michaud et al 2002][research_michaud_beris_2002]], [[Michaud et al 2002][research_michaud_beris_2002_b]], [[Middleton 2011][research_middleton_2011]], [[Mijovic and Lee 1989][research_mijovic_lee_1989]], [[Mijović and Lee 1989][research_mijovic_lee_1989_b]], [[Min et al 1993][research_min_stachurski_1993]], [[Min et al 1993][research_min_stachurski_1993_b]], [[Minoda et al 1985][research_minoda_sakatani_1985]], [[Mitra and Leonov 2010][research_mitra_leonov_2010]], [[Mohamed Mydeen et al 2024][research_mohamedmydeen_madesh_2024]], [[Mohseni et al 2017][research_mohseni_fernlund_2017]], [[Montserrat and Cima 1999][research_montserrat_cima_1999]], [[Moon et al 2004][research_moon_morgan_2004]], [[Moon et al 2004][research_moon_morgan_2004_b]], [[Morfini et al 2018][research_morfini_goglio_2018]], [[Morgan et al 1985][research_morgan_walkup_1985]], [[Mori and Hsiao 2008][research_mori_hsiao_2008]], [[Mortensen et al 2018][research_mortensen_andersen_2018]], [[Moscato and Seyler 1994][research_moscato_seyler_1994]], [[Mukhtar and Klosterman 2025][research_mukhtar_klosterman_2025]], [[Musto et al 2001][research_musto_martuscelli_2001]], [[Na et al 2014][research_na_yeom_2014]], [[Nae et al 1984][research_nae_reich_1984]], [[Naing 2026][research_naing_2026]], [[Naito et al 2023][research_naito_mobuchon_2023]], [[Narkis and Nicolais 1970][research_narkis_nicolais_1970]], [[Nassar et al 2022][research_nassar_jagatap_2022]], [[Nawab et al 2012][research_nawab_casari_2012]], [[Neiss and Vanderheiden 1994][research_neiss_vanderheiden_1994]], [[New Resin Options for 2018][research_new_resin_2018]], [[Next Generation of Low 2015][research_next_generation_2015]], [[Ng et al 2000][research_ng_boswell_2000]], [[Ng and Manas-Zloczower 1989][research_ng_manaszloczower_1989]], [[Nguyen et al 2002][research_nguyen_koerner_2002]], [[Niknafs Kermani et al 2019][research_niknafskermani_simacek_2019]], [[Niknafs Kermani et al 2020][research_niknafskermani_simacek_2020]], [[Novikov et al 2002][research_novikov_elizarova_2002]], [[Nowak et al 2026][research_nowak_waskiewicz_2026]], [[O'Brien and White 2003][research_obrien_white_2003]], [[Ocando et al 2016][research_ocando_fernandez_2016]], [[Ocando et al 2017][research_ocando_fernandez_2017]], [[Oh and Lee 2002][research_oh_lee_2002]], [[Okabe et al 1991][research_okabe_takashima_1991]], [[Olaya et al 2022][research_olaya_shah_2022]], [[Olaya et al 2023][research_olaya_shah_2023]], [[Olofsson 1997][research_olofsson_1997]], [[Omrani et al 2008][research_omrani_simon_2008]], [[Omrani et al 2008][research_omrani_simon_2008_b]], [[Oosthuizen and Stone 1997][research_oosthuizen_stone_1997]], [[Out-time effects on cure kinetics and viscosity for an out-of-autoclave OOA prepreg Modelling and monitoring][research_outtime_cure_kinetics]], [[In-situ cure monitoring of an out-of-autoclave prepreg Effects of out-time on viscosity, gelation and vitrification][research_outtime_cure_monitoring]], [[Modelling and monitoring of out-time and moisture absorption effects on cure kinetics and viscosity for an out-of-autoclave OoA prepreg][research_outtime_moisture]], [[Oyanguren and Williams 1993][research_oyanguren_williams_1993]], [[Öz et al 2025][research_oz_uz_2025]], [[Pace and Chov 2025][research_pace_chov_2025]], [[Pal et al 2025][research_pal_soumyamol_2025]], [[Palaniappan et al 2001][research_palaniappan_sreedhar_2001]], [[Palmese et al 2020][research_palmese_lascala_2020]], [[Pang and Gillham 1990][research_pang_gillham_1990]], [[Panneerselvan et al 2026][research_panneerselvan_mohan_2026]], [[Pantelelis 2003][research_pantelelis_2003]], [[Pantelelis et al 2003][research_pantelelis_vrouvakis_2003]], [[Park et al 2009][research_park_choi_2009]], [[Park et al 2003][research_park_goo_2003]], [[Park and Jeong 2010][research_park_jeong_2010]], [[Park and Kang 2007][research_park_kang_2007]], [[Park and Lee 1998][research_park_lee_1998]], [[Park and Lee 2001][research_park_lee_2001]], [[Park et al 1999][research_park_riedl_1999]], [[Parker and Povey 2012][research_parker_povey_2012]], [[Partridge 2000][research_partridge_2000]], [[Parvathy et al 2021][research_parvathy_mohanty_2021]], [[Patel et al 1987][research_patel_patel_1987]], [[Patham 2012][research_patham_2012]], [[Patil et al 2019][research_patil_moheimani_2019]], [[Patil et al 2019][research_patil_moheimani_2019_b]], [[Patterson and Grenestedt 2018][research_patterson_grenestedt_2018]], [[Patterson et al 2010][research_patterson_piatkowski_2010]], [[Paz-Abuin et al 1997][research_pazabuin_pellin_1997]], [[Peng and Riedl 1994][research_peng_riedl_1994]], [[Peng and Yu 2021][research_peng_yu_2021]], [[Peng and Yu 2021][research_peng_yu_2021_b]], [[Perrin et al 2023][research_perrin_vaudemont_2023]], [[Peters 1994][research_peters_1994]], [[Peyron and Watts 2022][research_peyron_watts_2022]], [[Peyser and Bascom 1974][research_peyser_bascom_1974]], [[Peyser and Bascom 1977][research_peyser_bascom_1977]], [[Phansalkar and Han 2024][research_phansalkar_han_2024]], [[Phansalkar et al 2024][research_phansalkar_jang_2024]], [[Phansalkar et al 2025][research_phansalkar_jang_2025]], [[Philipp et al 2009][research_philipp_muller_2009]], [[Photo-Curing Schemes to Cure 2018][research_photo_curing_schemes_2018]], [[Pillai and Thomas 2011][research_pillai_thomas_2011]], [[Plastics � Differential scanning][research_plastics]], [[Plastics � Fast differential][research_plastics_b]], [[Plastics. Differential scanning calorimetry][research_plastics_differential]], [[Plastics. Differential scanning calorimetry][research_plastics_differential_b]], [[Plastics. Epoxy resins. Determination][research_plastics_epoxy]], [[Plesu et al 1993][research_plesu_azaar_1993]], [[Ponomareva et al 1978][research_ponomareva_irzhak_1978]], [[Poorabdollah and Kamran 2017][research_poorabdollah_kamran_2017]], [[Potentially Game-changing Low Temperature 2023][research_potentially_game_changing_2023]], [[Pothnis et al 2024][research_pothnis_velon_2024]], [[POTTING COMPOUND, EPOXY Bisphenol][research_potting_compound]], [[Poulopoulos et al 2022][research_poulopoulos_zervos_2022]], [[Poursartip et al 2020][research_poursartip_fernlund_2020]], [[Powder Coating Chemistry Options 2019][research_powder_coating_2019]], [[Practice for Determination of][research_practice_for]], [[Pramanik et al 2014][research_pramanik_fowler_2014]], [[Prime 1973][research_prime_1973]], [[Puglia and Kenny 2015][research_puglia_kenny_2015]], [[Puglia and Kenny 2017][research_puglia_kenny_2017]], [[Puhurcuoğlu and Arman 2024][research_puhurcuoglu_arman_2024]], [[Puhurcuoğlu and Arman 2025][research_puhurcuoglu_arman_2025]], [[Pusatcioglu et al 1979][research_pusatcioglu_fricke_1979]], [[Qiao et al 2025][research_qiao_xing_2025]], [[Raghavan 2009][research_raghavan_2009]], [[Rahman and Radford 2016][research_rahman_radford_2016]], [[Raigar et al 2026][research_raigar_velu_2026]], [[Ramos et al 2005][research_ramos_pagani_2005]], [[Rawat et al 2014][research_rawat_pathak_2014]], [[Reading 2023][research_reading_2023]], [[Ren et al 2018][research_ren_wang_2018]], [[Richardson 1992][research_richardson_1992]], [[Rigid PVC pipes. Differential][research_rigid_pvc]], [[Rivers et al 2017][research_rivers_leesullivan_2017]], [[Rochery and Lam 2000][research_rochery_lam_2000]], [[Rodriguez 1994][research_rodriguez_1994]], [[Rogers][research_rogers]], [[Rogers and Lee-Sullivan 2003][research_rogers_leesullivan_2003]], [[Rogers et al 1999][research_rogers_marand_1999]], [[Rohr and Klein 1990][research_rohr_klein_1990]], [[Romberg et al 2022][research_romberg_hershey_2022]], [[Romberg and Kotula 2023][research_romberg_kotula_2023]], [[Rose et al 2026][research_rose_wilkins_2026]], [[Roşu et al 2002][research_rosu_cascaval_2002]], [[Roşu et al 2004][research_rosu_mititelu_2004]], [[Royall et al 2018][research_royall_williams_2018]], [[Rubber compounding ingredients. Process][research_rubber_compounding]], [[Rubber, raw. Determination of][research_rubber_raw]], [[Rubber, vulcanized � Determination][research_rubber_vulcanized]], [[Ruiz and Trochu 2005][research_ruiz_trochu_2005]], [[Russell et al 2000][research_russell_madhukar_2000]], [[Saad et al 2011][research_saad_abdelhamid_2011]], [[Saad et al 2015][research_saad_ezz_2015]], [[Sabzevari et al 2011][research_sabzevari_alavisoltani_2011]], [[Safarpour et al 2011][research_safarpour_omrani_2011]], [[Sakaguchi 1975][research_sakaguchi_1975]], [[Sakka and Mackenzie 1971][research_sakka_mackenzie_1971]], [[Saldana and Martinez-Monteagudo 2013][research_saldana_martinezmonteagudo_2013]], [[Salla et al 1999][research_salla_cadenato_1999]], [[Salmoria et al 2008][research_salmoria_klauss_2008]], [[Sandler 2026][research_sandler_2026]], [[Sanford and McCullough 1990][research_sanford_mccullough_1990]], [[Sarojini Narayana et al 2024][research_sarojininarayana_khoun_2024]], [[Sbirrazzuoli et al 2003][research_sbirrazzuoli_vyazovkin_2003]], [[Schiraldi et al 1985][research_schiraldi_baldini_1985]], [[Schlimbach and Ogale 2012][research_schlimbach_ogale_2012]], [[Schoenhoz and Zobeiry 2023][research_schoenhoz_zobeiry_2023]], [[Schönborn and Haessner 1985][research_schonborn_haessner_1985]], [[Scratch hardness as an 1989][research_scratch_hardness_1989]], [[Sealing Compound, Polysulfide Type][research_sealing_compound]], [[Sealing Compounds, Quick Repair][research_sealing_compounds]], [[Seifi and Hojjati 2005][research_seifi_hojjati_2005]], [[Sells and Zhang 2024][research_sells_zhang_2024]], [[Shah et al 2017][research_shah_halls_2017]], [[Shanks 2011][research_shanks_2011]], [[Shen and Skordos 2024][research_shen_skordos_2024]], [[Sheng et al 2016][research_sheng_yin_2016]], [[Sheppard and Senturia 1986][research_sheppard_senturia_1986]], [[Shi et al 2013][research_shi_zhang_2013]], [[Shibayama 2000][research_shibayama_2000]], [[Shibayama et al 2005][research_shibayama_ozeki_2005]], [[Shim et al 1991][research_shim_lee_1991]], [[Shin et al 2015][research_shin_hwang_2015]], [[Shnawa 2022][research_shnawa_2022]], [[Shojaei 2006][research_shojaei_2006]], [[Shrestha et al 2022][research_shrestha_enos_2022]], [[Shtrauss 2002][research_shtrauss_2002]], [[Siddiqui et al 2013][research_siddiqui_sudher_2013]], [[Simonov-Yemelyanov and Ezdakov 2024][research_simonovyemelyanov_ezdakov_2024]], [[Sircar and Chartoff 1994][research_sircar_chartoff_1994]], [[Slark and O'kane 1997][research_slark_okane_1997]], [[Smith 2000][research_smith_2000]], [[Snow and Armistead 1994][research_snow_armistead_1994]], [[So and Taube 2004][research_so_taube_2004]], [[Soahib et al 2007][research_soahib_miao_2007]], [[Soohyun et al 2015][research_soohyun_dongyoung_2015]], [[Sourour and Kamal 1976][research_sourour_kamal_1976]], [[Spini et al 2025][research_spini_marzorati_2025]], [[Springer 1982][research_springer_1982]], [[Standard Practice for Glass][research_standard_practice]], [[Stark et al 2013][research_stark_jaunich_2013_b]], [[St John and George 1992][research_stjohn_george_1992]], [[Sturtevant 1980][research_sturtevant_1980]], [[Stutz and Mertes 1989][research_stutz_mertes_1989]], [[Stutz and Mertes 1993][research_stutz_mertes_1993]], [[Su et al 1995][research_su_kuo_1995]], [[Su and Woo 1995][research_su_woo_1995]], [[Su et al 2014][research_su_yang_2014]], [[Sun et al 2025][research_sun_cheng_2025]], [[Sun et al 2014][research_sun_liu_2014]], [[Susott 1982][research_susott_1982]], [[Swan et al 2021][research_swan_creighton_2021]], [[Swarin and Wims 1977][research_swarin_wims_1977]], [[Tadlaoui et al 1994][research_tadlaoui_granger_1994]], [[Tagle et al 1984][research_tagle_daz_1984]], [[Talbot 2004][research_talbot_2004]], [[Tan et al 2013][research_tan_ahmad_2013]], [[Tarasov et al 2015][research_tarasov_shevtsov_2015]], [[Teil et al 2004][research_teil_page_2004]], [[Teimouri and Li 2024][research_teimouri_li_2024]], [[Teplinsky and Gutman 1996][research_teplinsky_gutman_1996]], [[Test Method for Purity][research_test_method_h]], [[Test Method for the][research_test_method_i]], [[Test Method for Assignment][research_test_method_j]], [[Test Methods for Assignment][research_test_methods_c]], [[Test Methods for the][research_test_methods_d]], [[Tezel et al 2021][research_tezel_sarmah_2021]], [[The Effect of the 1987][research_the_effect_1987]], [[The Handbook of Differential 2023][research_the_handbook_2023]], [[Thermoset announces new fast 2003][research_thermoset_announces_2003]], [[Thomas et al 1997][research_thomas_joseph_1997]], [[Thomas et al][research_thomas_kardos]], [[Thostenson and Chou 2001][research_thostenson_chou_2001]], [[Timmerman et al 2003][research_timmerman_hayes_2003]], [[Toda 2022][research_toda_2022]], [[Tollens and Lee 1993][research_tollens_lee_1993]], [[Toratani and Takamizawa 1994][research_toratani_takamizawa_1994]], [[Tracy and Totaro 1992][research_tracy_totaro_1992]], [[Truong][research_truong]], [[Tsaprailis and Liang 2017][research_tsaprailis_liang_2017]], [[Tsaprailis et al 2023][research_tsaprailis_rao_2023]], [[Tucci et al 2024][research_tucci_esperto_2024]], [[Tungare et al 1988][research_tungare_martin_1988]], [[Tye 1994][research_tye_1994]], [[Tyler B. Hudson et al][research_tylerbhudson_kennethmserrano]], [[Ultra-low-temperature cure for MDF 2022][research_ultra_low_temperature_cure_2022]], [[Um et al 2002][research_um_daniel_2002]], [[Um et al 2002][research_um_lee_2002]], [[Ungarish et al 1990][research_ungarish_joseph_1990]], [[Urbaczewski et al 1990][research_urbaczewski_pascault_1990]], [[Urbaniak 2011][research_urbaniak_2011]], [[Urbaniak 2018][research_urbaniak_2018]], [[Vafayan et al 2013][research_vafayan_abedini_2013]], [[Van Assche et al 1995][research_vanassche_vanhemelrijck_1995]], [[Van Assche et al 1996][research_vanassche_vanhemelrijck_1996]], [[Van Assche et al 1997][research_vanassche_vanhemelrijck_1997]], [[Van Assche et al 2000][research_vanassche_verdonck_2000]], [[Van Dijk et al 1992][research_vandijk_eleveld_1992]], [[van Mechelen 2017][research_vanmechelen_2017]], [[Vázquez-Torres 2014][research_vazqueztorres_2014]], [[Verchere et al 1990][research_verchere_sautereau_1990]], [[Vergnaud and Bouzon 1992][research_vergnaud_bouzon_1992]], [[Vergnaud and Bouzon 1992][research_vergnaud_bouzon_1992_b]], [[Vergnaud and Bouzon 1992][research_vergnaud_bouzon_1992_c]], [[Vergnaud and Bouzon 1992][research_vergnaud_bouzon_1992_d]], [[Viehman and Schweizer 2008][research_viehman_schweizer_2008]], [[Vinnik and Roznyatovsky 2003][research_vinnik_roznyatovsky_2003]], [[Vinnik and Roznyatovsky 2006][research_vinnik_roznyatovsky_2006]], [[Vlassopoulos et al 1998][research_vlassopoulos_chira_1998]], [[Vo et al 2013][research_vo_vora_2013]], [[Vora et al 1996][research_vora_trivedi_1996]], [[Voß and Vallée 2023][research_voss_vallee_2023]], [[Voto et al 2021][research_voto_sequeira_2021]], [[Vroon and van Hoorn 2023][research_vroon_vanhoorn_2023]], [[Vyazovkin and Sbirrazzuoli 1996][research_vyazovkin_sbirrazzuoli_1996]], [[Waenawae et al 2016][research_waenawae_pumkrachang_2016]], [[Waller et al 2022][research_waller_bakis_2022]], [[Wang et al 2022][research_wang_chen_2022]], [[Wang and Ediger 2000][research_wang_ediger_2000]], [[Wang et al 2023][research_wang_fan_2023]], [[Wang et al 1997][research_wang_he_1997]], [[Wang and Kwag 2006][research_wang_kwag_2006]], [[Wang et al 2024][research_wang_lai_2024]], [[Wang et al 2021][research_wang_niu_2021]], [[Wang et al 2020][research_wang_segura_2020]], [[Wang and Storm 2003][research_wang_storm_2003]], [[Wang et al 2022][research_wang_zhang_2022]], [[Wazalwar and Raichur 2021][research_wazalwar_raichur_2021]], [[White and Hahn 1990][research_white_hahn_1990]], [[White and Hahn 1993][research_white_hahn_1993]], [[Whiting and Carr 1979][research_whiting_carr_1979]], [[Wiedemann et al 2025][research_wiedemann_pittsyk_2025]], [[Willard 1972][research_willard_1972]], [[Wingard and Beatty 1990][research_wingard_beatty_1990]], [[Winter 2017][research_winter_2017]], [[Wisanrakkit and Gillham 1990][research_wisanrakkit_gillham_1990]], [[Witman and Wang 2006][research_witman_wang_2006]], [[Wu et al 2014][research_wu_huang_2014]], [[Wu et al 2020][research_wu_larsson_2020]], [[Wu et al 2025][research_wu_wei_2025]], [[Wu et al 2016][research_wu_zhan_2016]], [[Xiao-jing et al 2013][research_xiaojing_chunpeng_2013]], [[Xie et al 2020][research_xie_huang_2020]], [[Xie et al 2004][research_xie_liu_2004]], [[Xie et al 2009][research_xie_zhang_2009]], [[Xu et al 2003][research_xu_bao_2003]], [[Xu et al 2026][research_xu_li_2026]], [[Xu and Schlup 1996][research_xu_schlup_1996]], [[Xu et al 2021][research_xu_tian_2021]], [[Xue and Zhang 2014][research_xue_zhang_2014]], [[Yamini et al 2019][research_yamini_shakeri_2019]], [[Yan][research_yan]], [[Yan 2006][research_yan_2006]], [[Yang et al 2009][research_yang_hsieh_2009]], [[Yang et al 2024][research_yang_huang_2024]], [[Yang et al 2024][research_yang_liu_2024]], [[Yang et al 2021][research_yang_plovie_2021]], [[Yang et al 2018][research_yang_xie_2018]], [[Yang et al 2023][research_yang_zhao_2023]], [[Yangyang et al 2020][research_yangyang_pyi_2020]], [[Yi et al 1995][research_yi_hilton_1995]], [[Yi et al 1996][research_yi_hilton_1996]], [[Yi and Hilton 1998][research_yi_hilton_1998]], [[Yilmazoglu and Hanzlik 2025][research_yilmazoglu_hanzlik_2025]], [[Yoozbashizadeh et al 2018][research_yoozbashizadeh_barjasteh_2018]], [[Young 1995][research_young_1995]], [[Young 1996][research_young_1996]], [[Yousefi et al 1997][research_yousefi_lafleur_1997]], [[Yu et al 2005][research_yu_mhaisalkar_2005]], [[Yu et al 2006][research_yu_mhaisalkar_2006]], [[Yuritsyn 2019][research_yuritsyn_2019]], [[Yuritsyn 2020][research_yuritsyn_2020]], [[Zade et al 2023][research_zade_neogi_2023]], [[Zade et al 2021][research_zade_shyamprasad_2021]], [[Zappino et al 2024][research_zappino_petrolo_2024]], [[Zeng et al 2010][research_zeng_sun_2010]], [[Zhang et al 2018][research_zhang_chang_2018]], [[Zhang et al 2012][research_zhang_dong_2012]], [[Zhang et al 2026][research_zhang_shang_2026]], [[Zhang and Vyazovkin 2007][research_zhang_vyazovkin_2007]], [[Zhang et al 2010][research_zhang_xu_2010]], [[Zhang et al 2021][research_zhang_xu_2021]], [[Zhao et al 2001][research_zhao_cordovez_2001]], [[Zhao and Hu 2010][research_zhao_hu_2010]], [[Zhao et al 2020][research_zhao_wang_2020]], [[Zhong and Guo 1998][research_zhong_guo_1998]], [[Zhou and Sancaktar][research_zhou_sancaktar]], [[Zhou et al 2011][research_zhou_yin_2011]], [[Zhu et al 2025][research_zhu_yang_2025]], [[Zhu et al 2026][research_zhu_yang_2026]], [[Zukas 1994][research_zukas_1994]], [[Zvetkov et al 2008][research_zvetkov_krastev_2008]].
+
+### Laying the material down, and the clock that runs while you do
+
+**Placement, and the material's own clock.** Automated fibre placement, tape laying, hand layup, infusion, resin transfer moulding, and the out-life and tack life that bound how long any of it may take. **The clock is the half that gets forgotten**, and it is the constraint this article argues actually limits how large a unitised part can be [[Effect of room-temperature out-time on tow impregnation in an out-of-autoclave prepreg][research_outtime_tow_impregnation]].
+
+[[Aaboud et al 2017][research_aaboud_saouab_2017]], [[Acosta et al 2023][research_acosta_esteves_2023]], [[Adali 1995][research_adali_1995]], [[Advanced Composites Prepreg][research_advanced_composites]], [[Advanced Composites Prepreg][research_advanced_composites_b]], [[Advanced Composites Prepreg][research_advanced_composites_c]], [[Advanced Composites Prepreg][research_advanced_composites_d]], [[Air et al 2022][research_air_shamsuddoha_2022]], [[Air et al 2023][research_air_shamsuddoha_2023]], [[Al et al 2021][research_al_jonathan_2021]], [[Al-Hamdan et al 1995][research_alhamdan_tufail_1995]], [[Ali and Yasko 2024][research_ali_yasko_2024]], [[Al Mahmood 2017][research_almahmood_2017]], [[Almeida-Fernandes et al 2021][research_almeidafernandes_correia_2021]], [[Alotaibi et al 2022][research_alotaibi_abeykoon_2022]], [[Alotaibi et al 2024][research_alotaibi_soutis_2024]], [[Al-saadi et al 2019][research_alsaadi_aravinthan_2019]], [[Amaoui and Hattabi 2023][research_amaoui_hattabi_2023]], [[An et al 2017][research_an_singh_2017]], [[Anderson, Robert L. and Grant, Carroll G. 1991][research_andersonrobertl_grantcarrollg_1991]], [[Anderson, Robert L. and Grant, Carroll G. 1992][research_andersonrobertl_grantcarrollg_1992]], [[Andre et al 2016][research_andre_ariawan_2016]], [[Antonelli and Farina 1999][research_antonelli_farina_1999]], [[Archodoulaki et al 2015][research_archodoulaki_merola_2015]], [[Aretxabaleta et al 2022][research_aretxabaleta_rytka_2022]], [[Arian Nik et al 2014][research_ariannik_fayazbakhsh_2014]], [[Aromatic polyamide fiber-based composite 1988][research_aromatic_polyamide_1988]], [[Arsenyeva et al 2024][research_arsenyeva_duddeck_2024]], [[Automated preform manufacture for 1990][research_automated_preform_1990]], [[Bahar 2022][research_bahar_2022]], [[Bahar 2022][research_bahar_2022_b]], [[Bahar 2022][research_bahar_2022_c]], [[Bahar 2022][research_bahar_2022_d]], [[Bakhshi and Hojjati 2018][research_bakhshi_hojjati_2018]], [[Balaga et al 2023][research_balaga_gargitter_2023]], [[Balokas et al 2023][research_balokas_heinecke_2023]], [[Banks-Sills et al 2023][research_bankssills_choron_2023]], [[Barcenas et al 2025][research_barcenas_khoun_2025]], [[Barcenas et al 2023][research_barcenas_narayana_2023]], [[Barjasteh et al 2018][research_barjasteh_gouni_2018]], [[Béchet et al 2003][research_bechet_ruiz_2003]], [[BÉChet et al 2020][research_bechet_ruiz_2020]], [[Belhaj et al 2021][research_belhaj_dodangeh_2021]], [[Bhatt et al 2022][research_bhatt_gohil_2022]], [[Bickerton et al 2013][research_bickerton_govignon_2013]], [[Bickerton and Kelly 2012][research_bickerton_kelly_2012]], [[Björnsson 2017][research_bjornsson_2017]], [[Björnsson et al 2013][research_bjornsson_lindback_2013]], [[Bloechle 1982][research_bloechle_1982]], [[Boutrih et al 2022][research_boutrih_makich_2022]], [[Brasington et al 2020][research_brasington_harik_2020]], [[Buhagiar et al 2026][research_buhagiar_tretiak_2026]], [[Bur and Joyot 2017][research_bur_joyot_2017]], [[Bur et al 2018][research_bur_joyot_2018]], [[C0613_C0613M Test Method for 2008][research_c0613_c0613m_test_2008]], [[Carbon Fiber Fabric Repair][research_carbon_fiber]], [[Carbon Fiber Fabric Repair][research_carbon_fiber_c]], [[Carbon Fiber and Fiberglass][research_carbon_fiber_d]], [[Carbon Fiber Fabric Repair][research_carbon_fiber_e]], [[Carbon Fiber Fabric Repair][research_carbon_fiber_f]], [[Carbon Fiber Fabric Repair][research_carbon_fiber_h]], [[Carbon Fiber Fabric Repair][research_carbon_fiber_i]], [[Castro et al 2021][research_castro_sket_2021]], [[Chang 2015][research_chang_2015]], [[Chang 2019][research_chang_2019]], [[Chen et al 2014][research_chen_chenkeat_2014]], [[Chen et al 2021][research_chen_fu_2021]], [[Chen et al 2021][research_chen_joseph_2021]], [[Chen et al 2023][research_chen_tian_2023]], [[Chen et al 2024][research_chen_ye_2024]], [[Chmielewski et al 1993][research_chmielewski_jayaraman_1993]], [[Comas-Cardona et al 2005][research_comascardona_groenenboom_2005]], [[Composite fuselage frames manufactured 2004][research_composite_fuselage_2004]], [[Compression molding prepreg for 2020][research_compression_molding_2020]], [[Crothers and Baddock 2002][research_crothers_baddock_2002]], [[C. William et al 2025][research_cwilliam_sndazi_2025]], [[Dalla Libera Junior et al 2020][research_dallaliberajunior_leao_2020]], [[Dawn Jegley et al][research_dawnjegley_alanamariecardona]], [[Deignan et al 2017][research_deignan_stanley_2017]], [[Desplentere et al 2009][research_desplentere_verpoest_2009]], [[Developments in resin transfer 1991][research_developments_in_1991]], [[Dillon 2005][research_dillon_2005]], [[Dimitrovová][research_dimitrovova]], [[Di Pietro and Compston 2010][research_dipietro_compston_2010]], [[Dong 2008][research_dong_2008]], [[Donough et al 2022][research_donough_shafaq_2022]], [[Duann et al 2005][research_duann_chen_2005]], [[Endruweit 2023][research_endruweit_2023]], [[Eneyew and Ramulu 2014][research_eneyew_ramulu_2014]], [[Epoxy prepreg solution for 2019][research_epoxy_prepreg_2019]], [[Epoxy resin composition and 1992][research_epoxy_resin_1992]], [[Fang et al 2020][research_fang_zhang_2020]], [[Fauster et al 2018][research_fauster_thirunavukkarasu_2018]], [[Ferguson et al 2019][research_ferguson_fetfatsidis_2019]], [[Fernández-León et al 2026][research_fernandezleon_mocerino_2026]], [[Ferreira Luz et al 2012][research_ferreiraluz_amico_2012]], [[Fiberite aims low-styrene prepreg 1996][research_fiberite_aims_1996]], [[Fierro et al 2019][research_fierro_flora_2019]], [[Fink et al 1998][research_fink_mcknight_1998]], [[Fire retardant prepreg resin 2015][research_fire_retardant_2015]], [[Flemming et al 1999][research_flemming_ziegmann_1999]], [[Fong et al 2015][research_fong_saba_2015]], [[Frishfelds and Lundström 2011][research_frishfelds_lundstrom_2011]], [[G., and M., 1999][research_g_m_1999]], [[Gaikwad et al 2025][research_gaikwad_wagmare_2025]], [[Gain et al 2022][research_gain_oromiehie_2022]], [[Garate et al 2022][research_garate_harismendy_2022]], [[Gascons et al 2011][research_gascons_blanco_2011]], [[Gawryluk and Teter 2023][research_gawryluk_teter_2023]], [[Ghamisi et al 2024][research_ghamisi_charter_2024]], [[Ghayour et al 2023][research_ghayour_ganesan_2023]], [[Ghayour et al 2020][research_ghayour_hojjati_2020]], [[Ghose, Sayata et al 2011][research_ghosesayata_lewistoddm_2011]], [[Gintert 1995][research_gintert_1995]], [[GMS Composites develops a 2016][research_gms_composites_2016]], [[Grant et al 2025][research_grant_ryan_2025]], [[Graphite Fiber Tape And][research_graphite_fiber]], [[Gu and Liang 2004][research_gu_liang_2004]], [[Gu et al 2015][research_gu_qin_2015]], [[Gupta and Kelly 2013][research_gupta_kelly_2013]], [[Gutiérrez and Morales 2000][research_gutierrez_morales_2000]], [[Halpin et al 1983][research_halpin_kardos_1983]], [[Hanzlik and Yilmazoglu 2024][research_hanzlik_yilmazoglu_2024]], [[Hawley, Arthur V. 1993][research_hawleyarthurv_1993]], [[Hayes et al 2000][research_hayes_gilbert_2000]], [[Hayes and Seferis 1998][research_hayes_seferis_1998]], [[Hayes and Seferis 1999][research_hayes_seferis_1999]], [[Hayward and Harris 1990][research_hayward_harris_1990]], [[Henne et al 2004][research_henne_ermanni_2004]], [[Henz et al 2002][research_henz_tamma_2002]], [[Hickman and Williams 1989][research_hickman_williams_1989]], [[High performance epoxy marine 2011][research_high_performance_2011]], [[Hill 1990][research_hill_1990]], [[Holmes and Larry R. 2013][research_holmes_larryr_2013]], [[Hopmann et al 2017][research_hopmann_wagner_2017]], [[Hosseini et al 2026][research_hosseini_beheshty_2026]], [[Houen][research_houen]], [[Hsiao et al 2022][research_hsiao_islam_2022]], [[Hu 2008][research_hu_2008]], [[Hu et al 2017][research_hu_xiao_2017]], [[Humphry][research_humphry]], [[Hutchinson et al 2014][research_hutchinson_schubel_2014]], [[Imbert 2015][research_imbert_2015]], [[Improved resin transfer moulding 1998][research_improved_resin_1998]], [[Joesbury et al 2026][research_joesbury_nagarajan_2026]], [[Johnson et al 1998][research_johnson_rudd_1998]], [[Kadiyala et al 2022][research_kadiyala_devlin_2022]], [[Kadiyala et al 2021][research_kadiyala_portela_2021]], [[Kang et al 2000][research_kang_jung_2000]], [[Kannan et al 2018][research_kannan_kannan_2018]], [[Kärger and Kling 2013][research_karger_kling_2013]], [[Kavitha and Vijayan 2024][research_kavitha_vijayan_2024]], [[Kaynak and Kas 2006][research_kaynak_kas_2006]], [[Kazmi et al 2018][research_kazmi_govignon_2018]], [[Kelkar et al 1999][research_kelkar_chaphalkar_1999]], [[Keller et al 2018][research_keller_dransfeld_2018]], [[Kendall et al 1992][research_kendall_rudd_1992]], [[Keramati et al 2021][research_keramati_fernandezleon_2021]], [[Kermenov et al 2025][research_kermenov_foix_2025]], [[Khan et al 2011][research_khan_yahya_2011]], [[Khosravi 2002][research_khosravi_2002]], [[Kim and Daniel 2003][research_kim_daniel_2003]], [[Kim et al 1995][research_kim_lee_1995]], [[King et al 2025][research_king_echeverria_2025]], [[Kirk et al 2026][research_kirk_finley_2026]], [[Kiuna et al 2002][research_kiuna_lawrence_2002]], [[Kong and Zhang 2022][research_kong_zhang_2022]], [[Kratz et al 2023][research_kratz_hartley_2023]], [[Kumar and Kumar 2022][research_kumar_kumar_2022]], [[Kumar and Shukla 2014][research_kumar_shukla_2014]], [[Kuo and Chen 2020][research_kuo_chen_2020]], [[Kuppusamy 2018][research_kuppusamy_2018]], [[Kuppusamy and Neogi 2017][research_kuppusamy_neogi_2017]], [[Kuppusamy et al 2021][research_kuppusamy_zade_2021]], [[Lam et al 2000][research_lam_joshi_2000]], [[Laminate and prepreg selection 2002][research_laminate_and_2002]], [[Larson and Drzal 1994][research_larson_drzal_1994]], [[Laurenzi and Marchetti 2012][research_laurenzi_marchetti_2012]], [[Lee et al 2022][research_lee_duhovic_2022]], [[Lee et al 2023][research_lee_duhovic_2023]], [[Lee et al 2023][research_lee_duhovic_2023_b]], [[Lei 2018][research_lei_2018]], [[Lekakou and Bader 1998][research_lekakou_bader_1998]], [[Lekakou et al 2007][research_lekakou_hearn_2007]], [[Li et al 2022][research_li_brown_2022]], [[Li et al 2015][research_li_hallett_2015]], [[Li et al 2025][research_li_hao_2025]], [[Li et al 2022][research_li_huang_2022]], [[Li et al 2026][research_li_liu_2026]], [[Liquid composite molding simulation 2002][research_liquid_composite_2002]], [[Liu et al 2023][research_liu_featherston_2023]], [[Lomov and Abaimov 2022][research_lomov_abaimov_2022]], [[Long et al 1998][research_long_blanchard_1998]], [[Loos et al 1996][research_loos_macrae_1996]], [[Lovejoy et al 2023][research_lovejoy_jegley_2023]], [[Lukaszewicz and Potter 2011][research_lukaszewicz_potter_2011]], [[Lukaszewicz et al 2012][research_lukaszewicz_ward_2012]], [[Luthy and Ermanni 2001][research_luthy_ermanni_2001]], [[Luthy and Ermanni 2002][research_luthy_ermanni_2002]], [[Maenz et al 2014][research_maenz_muhlstadt_2014]], [[Maffezzoli et al 1990][research_maffezzoli_kenny_1990]], [[Mal et al 1998][research_mal_couniot_1998]], [[Malhan et al 2020][research_malhan_jomyjoseph_2020]], [[Malhan et al 2018][research_malhan_kabir_2018]], [[Malhan et al 2019][research_malhan_kabir_2019]], [[Malhan et al 2021][research_malhan_shembekar_2021]], [[Mannino et al 2017][research_mannino_latteri_2017]], [[Marioli-Riga 2003][research_marioliriga_2003]], [[Markus, Alan 1992][research_markusalan_1992]], [[Markus, Alan and Palmer, Ray 1991][research_markusalan_palmerray_1991]], [[Markus, Alan et al 1993][research_markusalan_thrashpatrick_1993]], [[Mather 2005][research_mather_2005]], [[Matsuzaki and Shiota 2017][research_matsuzaki_shiota_2017]], [[McArthur et al 2024][research_mcarthur_mcknight_2024]], [[McArthur et al 2025][research_mcarthur_mcknight_2025]], [[McArthur et al 2024][research_mcarthur_mehnen_2024]], [[McHugh and Stark 2016][research_mchugh_stark_2016]], [[Meister et al 2021][research_meister_wermes_2021]], [[Mendikute et al 2021][research_mendikute_plazaola_2021]], [[Method of fabricating fibre 1990][research_method_of_1990]], [[Method of fabricating fibre 1992][research_method_of_1992]], [[Method of resin transfer 1993][research_method_of_1993]], [[Method of making composite 1994][research_method_of_1994]], [[Meyer et al 2023][research_meyer_garber_2023]], [[Milenkovic et al 2021][research_milenkovic_slavkovic_2021]], [[Mills 2026][research_mills_2026]], [[Mills et al 1974][research_mills_brown_1974]], [[Mills and Dauksys 1973][research_mills_dauksys_1973]], [[Mishra et al 2019][research_mishra_peeters_2019]], [[Möllers et al 2023][research_mollers_schmidt_2023]], [[Muralidharan and Summerscales 2011][research_muralidharan_summerscales_2011]], [[Murray et al 2020][research_murray_robert_2020]], [[Mussatayev et al 2025][research_mussatayev_yi_2025]], [[Naffakh et al 2006][research_naffakh_dumon_2006]], [[Nakata et al 2018][research_nakata_tanabe_2018]], [[Nana et al 2025][research_nana_xiaoming_2025]], [[Nancarrow et al 2024][research_nancarrow_warren_2024]], [[Nash et al 1980][research_nash_poranski_1980]], [[Neft et al 2002][research_neft_schulte_2002]], [[Newcomb 2019][research_newcomb_2019]], [[Nguyen et al 2019][research_nguyen_vijayachandran_2019]], [[Nguyen-Thuc and Maazouz 2004][research_nguyenthuc_maazouz_2004]], [[Nilakantan and Nutt 2015][research_nilakantan_nutt_2015]], [[Noevere, August et al 2019][research_noevereaugust_colliercraig_2019]], [[Ntourmas et al 2023][research_ntourmas_glock_2023]], [[null][research_null]], [[null][research_null_b]], [[null][research_null_c]], [[Obertscheider and Fauster 2023][research_obertscheider_fauster_2023]], [[Odagiri et al 1996][research_odagiri_kishi_1996]], [[Odiyi et al 2022][research_odiyi_sharif_2022]], [[Oksman 2001][research_oksman_2001]], [[O'Leary et al 2022][research_oleary_kratz_2022]], [[Optimization Design of Stacking 2024][research_optimization_design_2024]], [[Oromiehie et al 2021][research_oromiehie_gain_2021]], [[Oromiehie et al 2022][research_oromiehie_gain_2022]], [[Oromiehie et al 2024][research_oromiehie_matti_2024]], [[Ortiz de Mendibil et al 2016][research_ortizdemendibil_aretxabaleta_2016]], [[Owen et al 1990][research_owen_middleton_1990]], [[Ozaydin Ince et al 2024][research_ozaydinince_can_2024]], [[Palardy et al 2012][research_palardy_hubert_2012]], [[Park et al 2003][research_park_han_2003]], [[Patz 1981][research_patz_1981]], [[Peng et al 2023][research_peng_wang_2023]], [[Pereira et al 2026][research_pereira_cardoso_2026]], [[Perret et al 2011][research_perret_mistou_2011_b]], [[Pillai and Advani 1998][research_pillai_advani_1998]], [[Pitchumani 2000][research_pitchumani_2000]], [[Polnikorn 2024][research_polnikorn_2024]], [[Polowick][research_polowick]], [[Poly amide-imide prepreg and composite 1991][research_poly_amide_imide_1991]], [[Polyclad introduces laser drillable 2002][research_polyclad_introduces_2002]], [[Polyclad introduces polyimide laminate 2003][research_polyclad_introduces_2003]], [[Polyclad introduces 370HR lead-free 2004][research_polyclad_introduces_2004]], [[Polyimide composition and prepreg 1991][research_polyimide_composition_1991]], [[Popham 2019][research_popham_2019]], [[Potter 1997][research_potter_1997]], [[Potter 1997][research_potter_1997_b]], [[Potter 1997][research_potter_1997_c]], [[Potter 1997][research_potter_1997_e]], [[Potter 1997][research_potter_1997_f]], [[Potter 1997][research_potter_1997_h]], [[Potter 1997][research_potter_1997_i]], [[Potter 1997][research_potter_1997_j]], [[Potter 1999][research_potter_1999]], [[Potter 2023][research_potter_2023]], [[Prakash et al 2025][research_prakash_bag_2025]], [[Preforms for resin transfer 1989][research_preforms_for_1989]], [[Prepreg 2007][research_prepreg_2007]], [[prepreg 2021][research_prepreg_2021]], [[prepreg, adj. and n 2023][research_prepreg_adj_2023]], [[Prepreg for making a 1985][research_prepreg_for_1985]], [[PRF launches new epoxy 2016][research_prf_launches_2016]], [[Prince and Zhao 2026][research_prince_zhao_2026]], [[Prince and Zhao 2026][research_prince_zhao_2026_b]], [[Process for producing inorganic 1995][research_process_for_1995]], [[Prototype Aircraft Access Door 1987][research_prototype_aircraft_1987]], [[Qu et al 2021][research_qu_he_2021]], [[Quintana et al 2023][research_quintana_sharp_2023]], [[Räckers 1998][research_rackers_1998]], [[Ramy Harik et al][research_ramyharik_andrewlovejoy]], [[Ramy Harik et al][research_ramyharik_andrewlovejoy_b]], [[Raps et al 2022][research_raps_chadwick_2022]], [[Ratle et al 2009][research_ratle_achim_2009]], [[Rempe 1996][research_rempe_1996]], [[Resin technology can cure 2017][research_resin_technology_2017]], [[Resin transfer moulding process 1993][research_resin_transfer_1993]], [[Resin transfer moulding the 1994][research_resin_transfer_1994]], [[Resin Transfer Molding and 1995][research_resin_transfer_1995]], [[Resin Transfer Moulding for 1998][research_resin_transfer_1998]], [[Review of Research and 2022][research_review_of_research_2022]], [[Robertson 1988][research_robertson_1988]], [[Robinson and Kosmatka 2008][research_robinson_kosmatka_2008]], [[Rudd 2001][research_rudd_2001]], [[Rudd et al 1995][research_rudd_long_1995]], [[Rudd et al 1997][research_rudd_long_1997]], [[Rudd et al 1997][research_rudd_long_1997_b]], [[Rudd et al 1990][research_rudd_owen_1990]], [[Rudd et al 1999][research_rudd_turner_1999]], [[Rutt et al 2019][research_rutt_lekakou_2019]], [[Rydarowski and Koziol 2014][research_rydarowski_koziol_2014]], [[Saad et al 2011][research_saad_echchelh_2011]], [[Saha et al 2026][research_saha_scheneman_2026]], [[Sandberg et al 2019][research_sandberg_hattel_2019]], [[Sanjana et al 1981][research_sanjana_schaefer_1981]], [[Scarponi et al 2009][research_scarponi_pizzinelli_2009]], [[Scheirer][research_scheirer]], [[Schenke and Ehlers 2016][research_schenke_ehlers_2016]], [[Schubert 2009][research_schubert_2009]], [[Schuster et al 2014][research_schuster_govignon_2014]], [[Schuster et al 2020][research_schuster_mayer_2020]], [[Sebastian et al 2019][research_sebastian_obertscheider_2019]], [[Sebastian et al 2021][research_sebastian_obertscheider_2021]], [[Selyugin 2021][research_selyugin_2021]], [[Seong et al 2017][research_seong_kim_2017]], [[Sevkat and Brahimi 2011][research_sevkat_brahimi_2011]], [[Shah and Schubel 2015][research_shah_schubel_2015]], [[Shembekar et al 2020][research_shembekar_kabir_2020]], [[Shevtsov et al 2017][research_shevtsov_zhilyaev_2017]], [[Shevtsov et al 2021][research_shevtsov_zhilyaev_2021]], [[Shevtsov et al 2021][research_shevtsov_zhilyaev_2021_b]], [[Shiino et al 2021][research_shiino_cipo_2021]], [[Shimamoto et al 2016][research_shimamoto_tominaga_2016]], [[Shojaei 2006][research_shojaei_2006_b]], [[Shuvo 2019][research_shuvo_2019]], [[Simacek et al 2008][research_simacek_advani_2008]], [[Simulating liquid moulding 2002][research_simulating_liquid_2002]], [[Sirtautas et al 2014][research_sirtautas_pickett_2014]], [[Smith et al 2016][research_smith_qureshi_2016]], [[Spurgeon 2005][research_spurgeon_2005]], [[Stratton 1998][research_stratton_1998]], [[Suemasu et al 2021][research_suemasu_aoki_2021]], [[Suemasu et al 2023][research_suemasu_aoki_2023]], [[Summerscales 1993][research_summerscales_1993]], [[Summerscales and Searle 2005][research_summerscales_searle_2005]], [[Sun][research_sun]], [[Sun et al 2017][research_sun_han_2017]], [[Sun et al 2021][research_sun_han_2021]], [[Sun et al 2013][research_sun_li_2013]], [[Swanson and Toombes 1989][research_swanson_toombes_1989]], [[Swingle et al 2022][research_swingle_harik_2022]], [[Syensqo expands its bio-based 2024][research_syensqo_expands_2024]], [[Tanabe et al 2017][research_tanabe_nakata_2017]], [[TenCate to supply prepreg 2015][research_tencate_to_2015]], [[Teoh and Hsiao 2011][research_teoh_hsiao_2011]], [[Test Method for Matrix 1900][research_test_method_1900]], [[Test Method for Gel 1900][research_test_method_1900_c]], [[Test Method for Constituent 2008][research_test_method_2008_b]], [[Test Method for Constituent][research_test_method_b]], [[Test Method for Matrix][research_test_method_c]], [[Test Method for Gel][research_test_method_f]], [[Test Methods for Constituent][research_test_methods]], [[Test Methods for Constituent][research_test_methods_b]], [[The modelling of pressure 1988][research_the_modelling_1988]], [[Thermosetting resin and prepreg 1991][research_thermosetting_resin_1991]], [[Torres 2019][research_torres_2019]], [[Trochez et al 2021][research_trochez_jamora_2021]], [[Tsotsis 2013][research_tsotsis_2013]], [[Ucar and Dizman 2026][research_ucar_dizman_2026]], [[Ullah et al 2024][research_ullah_waseem_2024]], [[Umer et al 2007][research_umer_bickerton_2007]], [[Umer et al 2007][research_umer_bickerton_2007_b]], [[Umer et al 2008][research_umer_bickerton_2008]], [[Unidirectional Carbon Fiber Tape][research_unidirectional_carbon_b]], [[Unidirectional Carbon Fiber Tape][research_unidirectional_carbon_c]], [[Unidirectional Carbon Fiber Tape][research_unidirectional_carbon_d]], [[Uozumi et al 2005][research_uozumi_kito_2005]], [[Valverde et al 2022][research_valverde_sun_2022]], [[van Harten 1993][research_vanharten_1993]], [[Van Hoa et al 2016][research_vanhoa_duchoang_2016]], [[Van Melick et al 1998][research_vanmelick_haagh_1998]], [[Variable temperature prepreg 2020][research_variable_temperature_2020]], [[Venkatesan et al 2023][research_venkatesan_zulkifli_2023]], [[Verrey et al 2006][research_verrey_michaud_2006]], [[Vickers, John H. and Pelham, Larry I. 1993][research_vickersjohnh_pelhamlarryi_1993]], [[Vijay and Durvasula 1998][research_vijay_durvasula_1998]], [[Villière et al 2015][research_villiere_gueroult_2015]], [[Vinogradov et al 1995][research_vinogradov_golovkin_1995]], [[Vu-Khanh and Denault 1991][research_vukhanh_denault_1991]], [[Walbran et al 2009][research_walbran_bickerton_2009]], [[Walbran et al 2012][research_walbran_verleye_2012]], [[Walter et al 2026][research_walter_scherdel_2026]], [[Wang 2005][research_wang_2005]], [[Wang et al 2016][research_wang_bai_2016]], [[Wang et al 2008][research_wang_grove_2008]], [[Wehbe et al 2019][research_wehbe_tatting_2019]], [[Wehbe et al 2020][research_wehbe_tatting_2020]], [[Williams 2022][research_williams_2022]], [[Woigk et al 2018][research_woigk_hallett_2018]], [[Wolfrum et al 2004][research_wolfrum_stang_2004]], [[Wright et al 2023][research_wright_kelly_2023]], [[Wright et al 2026][research_wright_maclaren_2026]], [[Wu and Young 2024][research_wu_young_2024]], [[Xiao et al 2025][research_xiao_qu_2025]], [[Yadav et al 2020][research_yadav_kumar_2020]], [[Yang et al 2023][research_yang_cao_2023]], [[Yang and Ren 2024][research_yang_ren_2024]], [[Yang et al 2011][research_yang_xiao_2011]], [[Yingzhao et al 2026][research_yingzhao_mengni_2026]], [[Yu et al 2020][research_yu_zhang_2020]], [[Zacherl et al 2024][research_zacherl_fontes_2024]], [[Zade and Kuppusamy 2019][research_zade_kuppusamy_2019]], [[Zade and Kuppusamy 2020][research_zade_kuppusamy_2020]], [[Zade and Kuppusamy 2021][research_zade_kuppusamy_2021]], [[Zenker and Schön 2019][research_zenker_schon_2019]], [[Zhang et al 2020][research_zhang_liu_2020]], [[Zhao et al 2021][research_zhao_donough_2021]], [[Zhao et al 2023][research_zhao_donough_2023]], [[Zhao et al 2021][research_zhao_rodgers_2021]], [[Zhao et al 2025][research_zhao_wu_2025]], [[Zhao et al 2016][research_zhao_xiao_2016]], [[Zhu et al 2022][research_zhu_droste_2022]], [[Zingraff et al 2005][research_zingraff_michaud_2005]].
+
+### Seeing inside, because the acceptance criterion is an inspection
+
+**What a bonded structure is accepted on.** Ultrasonic inspection, thermography, tomography, cure monitoring and structural health monitoring. **A fastener can be counted and a bondline cannot**, so removing thirty-six thousand fasteners moves the burden of proof from an assembly record onto an inspection.
+
+[[A model of passive 1982][research_a_model_1982]], [[A real-time ultrasonic imaging 1990][research_a_real_time_1990]], [[A real-time ultrasonic imaging 1994][research_a_real_time_1994]], [[Abdel-Latif 2009][research_abdellatif_2009]], [[Abraham and McIlhagger 1998][research_abraham_mcilhagger_1998]], [[Acoustographic nondestructive evaluation of 1990][research_acoustographic_nondestructive_1990]], [[Afromowitz and Lam 1989][research_afromowitz_lam_1989]], [[Ahmed et al 2025][research_ahmed_sadaf_2025]], [[Aldrin 2002][research_aldrin_2002]], [[Alexander 1998][research_alexander_1998]], [[Amin][research_amin]], [[An et al 2021][research_an_din_2021]], [[An ultrasonic system for 1994][research_an_ultrasonic_1994]], [[Andersen 1981][research_andersen_1981]], [[Andersen 1981][research_andersen_1981_b]], [[Andersen 1981][research_andersen_1981_c]], [[Andersen 1981][research_andersen_1981_d]], [[Anderson et al 1988][research_anderson_henry_1988]], [[Aranguren et al 2020][research_aranguren_etxaniz_2020]], [[Attenuation in ultrasonic inspection 1967][research_attenuation_in_1967]], [[Awad Hallosh Khidhir and Qussay Younis Hamid 2015][research_awadhalloshkhidhir_qussayyounishamid_2015]], [[Bahadori et al 2021][research_bahadori_tekerek_2021]], [[Bahr and Rosengreen 1985][research_bahr_rosengreen_1985]], [[Bail 2008][research_bail_2008]], [[Baker and Michael 1980][research_baker_michael_1980]], [[Bakis and Reifsnider 1988][research_bakis_reifsnider_1988]], [[Banerjee et al 2007][research_banerjee_ricci_2007]], [[Bangalore][research_bangalore]], [[Bar-Cohen and Chimenti 1987][research_barcohen_chimenti_1987]], [[Beck and Frederick Jr 1981][research_beck_frederickjr_1981]], [[Beere 2010][research_beere_2010]], [[Benammar et al 2010][research_benammar_drai_2010]], [[Berger Associates Inc Harrisburg Pa 1980][research_bergerassociatesincharrisburgpa_1980]], [[Berger Associates Inc Harrisburg Pa 1980][research_bergerassociatesincharrisburgpa_1980_b]], [[Blue 1988][research_blue_1988]], [[Boateng et al 2019][research_boateng_schubel_2019]], [[Boll et al 2014][research_boll_schubert_2014]], [[Bond 2015][research_bond_2015]], [[Bond 2019][research_bond_2019]], [[Bond 2021][research_bond_2021]], [[Bond 2022][research_bond_2022]], [[Bond 2025][research_bond_2025]], [[Bornemann et al 2024][research_bornemann_zhou_2024]], [[Boyd et al 1982][research_boyd_maxfield_1982]], [[Boyle and Sladek 1975][research_boyle_sladek_1975]], [[Breede et al 2015][research_breede_kahalimoghaddam_2015]], [[Brown et al 1974][research_brown_jr_1974]], [[Buchinger and Sharif Khodaei 2021][research_buchinger_sharifkhodaei_2021]], [[Buddala et al 2024][research_buddala_tallur_2024]], [[Capitani et al 2011][research_capitani_capriolo_2011]], [[Chailleux et al 1999][research_chailleux_salvia_1999]], [[Chang and Ihn 2003][research_chang_ihn_2003]], [[Chapelon 1987][research_chapelon_1987]], [[Chen et al 1998][research_chen_chew_1998]], [[Chen et al 2022][research_chen_janeliukstis_2022]], [[Chi and Sladek 1975][research_chi_sladek_1975]], [[Chimenti 1991][research_chimenti_1991]], [[Chimenti and Fortunko 1994][research_chimenti_fortunko_1994]], [[Choi et al 2003][research_choi_kim_2003]], [[Composite Honeycomb NDI Reference][research_composite_honeycomb]], [[Composite Repair Ndt/Ndi Handbook][research_composite_repair]], [[Condon and Cook 1983][research_condon_cook_1983]], [[Copley 1987][research_copley_1987]], [[Crosby and Fernando 1999][research_crosby_fernando_1999]], [[Cusano et al 2000][research_cusano_breglio_2000]], [[Dahmen 2025][research_dahmen_2025]], [[Dahmen 2026][research_dahmen_2026]], [[Datta et al 2026][research_datta_masood_2026]], [[Datta et al 1996][research_datta_munshi_1996]], [[Day et al 1989][research_day_lee_1989]], [[De Giorgi et al 2020][research_degiorgi_nobile_2020]], [[De Rosset 2003][research_derosset_2003]], [[Desgrosseilliers et al 2014][research_desgrosseilliers_groulx_2014]], [[Development of an Automated 1994][research_development_of_1994]], [[Dielectric cure monitoring-a critical 1990][research_dielectric_cure_1990]], [[Dielectric Cure Monitoring of 2008][research_dielectric_cure_2008]], [[Dielectric measurements for cure 1990][research_dielectric_measurements_1990]], [[Dines 1979][research_dines_1979]], [[Djiauw 1981][research_djiauw_1981]], [[Dorbath et al 2023][research_dorbath_schur_2023]], [[Druy et al 1989][research_druy_elandjian_1989]], [[Dugmore et al 2002][research_dugmore_jonson_2002]], [[Duke 1983][research_duke_1983]], [[Duke, Jr. et al 1996][research_dukejr_lesko_1996]], [[Dvorak et al 2013][research_dvorak_kabrt_2013]], [[Dziubek 1980][research_dziubek_1980]], [[Dziubek 1981][research_dziubek_1981]], [[Dziubek 1981][research_dziubek_1981_b]], [[Dziubek 1981][research_dziubek_1981_c]], [[Dziubek 1981][research_dziubek_1981_d]], [[Dziubek 1981][research_dziubek_1981_e]], [[Dziubek 1981][research_dziubek_1981_f]], [[Dziubek 1981][research_dziubek_1981_g]], [[Dziubek 1981][research_dziubek_1981_h]], [[Dziubek 1981][research_dziubek_1981_i]], [[Eder and Rose 1994][research_eder_rose_1994]], [[Elburn and Toonen 2012][research_elburn_toonen_2012]], [[Elenchezhian et al 2022][research_elenchezhian_enos_2022]], [[Ensminger and Bond 2011][research_ensminger_bond_2011]], [[Ensminger and Bond 2023][research_ensminger_bond_2023]], [[Ermolenko 2025][research_ermolenko_2025]], [[Ermolenko et al 2024][research_ermolenko_glushkov_2024]], [[Evaluation of nondestructive evaluation 1989][research_evaluation_of_1989]], [[Evaluation of bond testing 1990][research_evaluation_of_1990]], [[Evaluation of bond testing 1994][research_evaluation_of_1994]], [[Fein 1998][research_fein_1998]], [[Feith and Lawrie 1963][research_feith_lawrie_1963]], [[Fomitchov et al 1999][research_fomitchov_krishnaswamy_1999]], [[Franieck et al 2021][research_franieck_fleischmann_2021_b]], [[Free and Strandberg 1975][research_free_strandberg_1975]], [[Frey et al 1996][research_frey_groebrinkhaus_1996]], [[Futchko 1981][research_futchko_1981]], [[Futchko 1981][research_futchko_1981_b]], [[Futchko 1981][research_futchko_1981_c]], [[Futchko 1981][research_futchko_1981_d]], [[Futchko 1981][research_futchko_1981_e]], [[Gammell 1993][research_gammell_1993]], [[Gilroy and Phillips 1980][research_gilroy_phillips_1980]], [[Giordano et al 2000][research_giordano_nicolais_2000]], [[Glushkov et al 2015][research_glushkov_glushkova_2015]], [[Godı́nez 2001][research_godinez_2001]], [[Gomes and Kota 1992][research_gomes_kota_1992]], [[Goode 1994][research_goode_1994]], [[Green, Jr. 1995][research_greenjr_1995]], [[Gregory and Juarez 2018][research_gregory_juarez_2018]], [[Groh et al 2018][research_groh_lee_2018]], [[Groh et al 2017][research_groh_lipka_2017]], [[Gros 1997][research_gros_1997]], [[Grosskopf and Duke 1992][research_grosskopf_duke_1992]], [[Guo et al 2024][research_guo_gu_2024]], [[Gupta et al 2025][research_gupta_wuzella_2025]], [[Hall et al 2024][research_hall_zeng_2024_b]], [[Hamstad 1983][research_hamstad_1983]], [[Hannan et al 1980][research_hannan_barrick_1980]], [[Harizi and Tuloup 2026][research_harizi_tuloup_2026]], [[Harrigan 2017][research_harrigan_2017]], [[Harris 1963][research_harris_1963]], [[Hay et al 2003][research_hay_wei_2003]], [[Hayford and Henneke][research_hayford_henneke]], [[Hayford et al 1977][research_hayford_henneke_1977]], [[Henneke 1992][research_henneke_1992]], [[Henneke and Jones 1979][research_henneke_jones_1979]], [[Herath et al 2022][research_herath_janith_2022]], [[Hiki and Maruyama 1975][research_hiki_maruyama_1975]], [[Hirota et al 2019][research_hirota_sato_2019]], [[Hobbs 1995][research_hobbs_1995]], [[Hofmann and Glasser 1990][research_hofmann_glasser_1990]], [[Hosten 1991][research_hosten_1991]], [[Hsiao et al 1999][research_hsiao_lin_1999]], [[Hsu and Fischer 1996][research_hsu_fischer_1996]], [[Huang et al 2001][research_huang_bao_2001]], [[Huang and Lanza di Scalea 2023][research_huang_lanzadiscalea_2023]], [[Hudson and Yuan 2018][research_hudson_yuan_2018]], [[Hutchins et al 1993][research_hutchins_mottram_1993]], [[Iervolino and Meo 2017][research_iervolino_meo_2017]], [[In situ infrared spectroscopy 1998][research_in_situ_1998]], [[In-situ composite cure monitoring 1990][research_in_situ_composite_1990]], [[Inspection of grey iron 1970][research_inspection_of_1970]], [[Investigation of acoustic pressure 1990][research_investigation_of_1990]], [[Investigation of acoustic pressure 1990][research_investigation_of_1990_b]], [[Investigation of acoustic pressure 1994][research_investigation_of_1994]], [[Ito et al 2012][research_ito_minakuchi_2012]], [[Jang and Rao 1987][research_jang_rao_1987]], [[Jang and Shih 1990][research_jang_shih_1990]], [[Jin Soo Kim and Dai Gil Lee 1996][research_jinsookim_daigillee_1996]], [[Jiroutova 2016][research_jiroutova_2016]], [[Jongsma 1981][research_jongsma_1981]], [[Jongsma 1981][research_jongsma_1981_b]], [[Jongsma 1981][research_jongsma_1981_c]], [[Jongsma 1981][research_jongsma_1981_d]], [[Jongsma 1981][research_jongsma_1981_e]], [[Jongsma 1981][research_jongsma_1981_f]], [[Joshi][research_joshi]], [[Juarez, Peter D. et al 2016][research_juarezpeterd_cramerkelliott_2016]], [[Jung and Jin Kang 2007][research_jung_jinkang_2007]], [[Kahali Moghaddam et al 2017][research_kahalimoghaddam_hubner_2017]], [[Kang et al 2001][research_kang_kang_2001]], [[Kang et al 2006][research_kang_lee_2006]], [[Karlsson et al 2024][research_karlsson_dutta_2024]], [[Katunin et al 2015][research_katunin_dragan_2015]], [[Kautz 1992][research_kautz_1992]], [[Kautz 1996][research_kautz_1996]], [[Kazilas and Partridge 2004][research_kazilas_partridge_2004]], [[Keller and Pessiki 2018][research_keller_pessiki_2018]], [[Kennedy and Woodmansee 1970][research_kennedy_woodmansee_1970]], [[Kennedy and Woodmansee 1971][research_kennedy_woodmansee_1971]], [[Kerrin and Klemperer 1992][research_kerrin_klemperer_1992]], [[Khalifa et al 2024][research_khalifa_lammer_2024]], [[Kim and Lee 2002][research_kim_lee_2002]], [[Kim et al 2024][research_kim_lee_2024]], [[Kim et al 2024][research_kim_lee_2024_b]], [[Kimball 1981][research_kimball_1981]], [[Kimball 1981][research_kimball_1981_b]], [[Kimball 1981][research_kimball_1981_c]], [[Kimball 1981][research_kimball_1981_d]], [[Kimball 1981][research_kimball_1981_e]], [[Kimball 1981][research_kimball_1981_f]], [[Kinra 1985][research_kinra_1985]], [[Kinra 1987][research_kinra_1987]], [[Korytoski et al 1961][research_korytoski_hatch_1961]], [[Kovaleva and Savotchenko 2021][research_kovaleva_savotchenko_2021]], [[Krainer 1963][research_krainer_1963]], [[Kranbuehl 2008][research_kranbuehl_2008]], [[Kranbuehl et al 1987][research_kranbuehl_delos_1987]], [[Kranbuehl et al 1989][research_kranbuehl_haverty_1989]], [[Lawless 1980][research_lawless_1980]], [[Lee et al 2020][research_lee_hong_2020]], [[Lee and Kim 2004][research_lee_kim_2004]], [[Lee and Lee 2002][research_lee_lee_2002]], [[Lee and Lee 2024][research_lee_lee_2024]], [[Lenhart et al 1999][research_lenhart_vanzanten_1999]], [[Lettera and Natale 2024][research_lettera_natale_2024]], [[Lhermitte et al][research_lhermitte_handley]], [[Lid 2001][research_lid_2001]], [[Lionetto et al 2007][research_lionetto_tarzia_2007]], [[Liping et al 2012][research_liping_booninn_2012]], [[Liu 2000][research_liu_2000]], [[Liu 2001][research_liu_2001]], [[Liu et al 1997][research_liu_ganesh_1997]], [[Lott et al 1991][research_lott_kunerth_1991]], [[Lovejoy 2004][research_lovejoy_2004]], [[Lozev and Spencer 2003][research_lozev_spencer_2003]], [[Lucht][research_lucht]], [[Mahoon 1983][research_mahoon_1983]], [[Maistros and Partridge 1995][research_maistros_partridge_1995]], [[Maklad 1981][research_maklad_1981]], [[Maklad 1981][research_maklad_1981_b]], [[Mal et al 1991][research_mal_yin_1991]], [[Martin 1963][research_martin_1963]], [[Marzani et al 2019][research_marzani_testoni_2019]], [[Matzkanin 1986][research_matzkanin_1986]], [[Matzkanin and Yolken 2001][research_matzkanin_yolken_2001]], [[May and Claus 1996][research_may_claus_1996]], [[McGovern 1979][research_mcgovern_1979]], [[McIlhagger et al 2000][research_mcilhagger_brown_2000]], [[Meola et al 2017][research_meola_boccardi_2017]], [[Meyer zu Westerhausen et al 2024][research_meyerzuwesterhausen_kyriazis_2024]], [[Miakisheva et al 2020][research_miakisheva_glushkov_2020]], [[Michaels et al 2009][research_michaels_michaels_2009]], [[Michaels et al 2009][research_michaels_michaels_2009_b]], [[Mizukami et al 2020][research_mizukami_ikeda_2020]], [[Monitoring the composite cure 1991][research_monitoring_the_1991]], [[Murayama et al 2002][research_murayama_kageyama_2002]], [[Na 2007][research_na_2007]], [[Nagabhushana et al 2022][research_nagabhushana_wang_2022]], [[Nam et al 1999][research_nam_lee_1999]], [[Nayeb-Hashemi and Zheng 1990][research_nayebhashemi_zheng_1990]], [[Nazarchuk et al 2022][research_nazarchuk_muravsky_2022]], [[Neural Network Nondestructive Evaluation 2013][research_neural_network_2013]], [[New possibilities of routine 1970][research_new_possibilities_1970]], [[Nishi et al 2024][research_nishi_itoh_2024]], [[Nondestructive Evaluation of Food 2010][research_nondestructive_evaluation_2010]], [[Nondestructive Evaluation Methods for 2013][research_nondestructive_evaluation_2013]], [[Nondestructive Evaluation Methods for 2013][research_nondestructive_evaluation_2013_b]], [[Nondestructive Evaluation of Materials 2018][research_nondestructive_evaluation_2018]], [[Norose et al 2014][research_norose_mizutani_2014]], [[O'Brien 1990][research_obrien_1990]], [[O'Dwyer et al 1998][research_odwyer_maistros_1998]], [[Ogilvy 1995][research_ogilvy_1995]], [[Ollivier-Lamarque][research_ollivierlamarque]], [[Ophir 1982][research_ophir_1982]], [[Oromiehie et al 2016][research_oromiehie_prusty_2016]], [[Oromiehie et al 2019][research_oromiehie_prusty_2019]], [[Oshima et al 2001][research_oshima_aoki_2001]], [[Oshima et al 2003][research_oshima_inoue_2003]], [[Oshima et al 2003][research_oshima_inoue_2003_b]], [[Oshima et al 2003][research_oshima_inoue_2003_c]], [[Park 2017][research_park_2017]], [[Partridge and Maistros 2000][research_partridge_maistros_2000]], [[Paul][research_paul]], [[Perry et al 1992][research_perry_lee_1992]], [[Pilon][research_pilon]], [[Pipes et al 1979][research_pipes_scott_1979]], [[Pommer and Sinapius 2018][research_pommer_sinapius_2018]], [[Posarac et al 2010][research_posarac_dimitrijevic_2010]], [[Pouchias et al 2019][research_pouchias_cunningham_2019]], [[Prozorovska et al 2017][research_prozorovska_muralidharan_2017]], [[Qing et al 2020][research_qing_liu_2020]], [[Quate 1979][research_quate_1979]], [[Quate 1981][research_quate_1981]], [[Quattrocchi et al 2019][research_quattrocchi_freni_2019]], [[Quinn et al 2023][research_quinn_davidson_2023]], [[Rahim 2021][research_rahim_2021]], [[Ramakrishnan et al 2014][research_ramakrishnan_rajan_2014]], [[Rayne 1975][research_rayne_1975]], [[Rempt 2003][research_rempt_2003]], [[Robinson 1984][research_robinson_1984]], [[Robinson 1984][research_robinson_1984_b]], [[Roth et al 1997][research_roth_bodis_1997]], [[Rufai et al 2020][research_rufai_chandarana_2020]], [[Sacco et al 2020][research_sacco_bazradwan_2020]], [[Saikrishna et al 2014][research_saikrishna_srinivas_2014]], [[Santosa 1992][research_santosa_1992]], [[Sarjeant et al][research_sarjeant_speer]], [[Scheerer et al 2025][research_scheerer_simon_2025]], [[Schmachtenberg et al 2005][research_schmachtenberg_schultezurheide_2005]], [[Schoenwald et al][research_schoenwald_kendig]], [[Scholle and Sinapius 2018][research_scholle_sinapius_2018]], [[Sebastian 2001][research_sebastian_2001]], [[Segreto et al 2019][research_segreto_teti_2019]], [[Sen et al 2020][research_sen_saito_2020]], [[Shan and Heng 2011][research_shan_heng_2011]], [[Shannon et al 1993][research_shannon_liaw_1993]], [[Shepard 2018][research_shepard_2018]], [[Shepard et al 1988][research_shepard_day_1988]], [[Shepard et al 1998][research_shepard_smith_1998]], [[Shepard and Smith 1999][research_shepard_smith_1999]], [[Shimada et al 2001][research_shimada_miyajima_2001]], [[Shtrauss et al 1996][research_shtrauss_kalpinsh_1996]], [[Shuler and Heil 2013][research_shuler_heil_2013]], [[Siggins 2013][research_siggins_2013]], [[Skordos et al 1999][research_skordos_karkanas_1999]], [[Skordos and Partridge 2000][research_skordos_partridge_2000]], [[Slattery et al 1998][research_slattery_coronabittick_1998]], [[Smith 2004][research_smith_2004]], [[Smith et al 2024][research_smith_pik_2024]], [[Solid Composite Laminate NDI][research_solid_composite]], [[Solodov et al 2008][research_solodov_pfleiderer_2008]], [[Sorrentino et al 2019][research_sorrentino_romano_2019]], [[Spencer et al 2021][research_spencer_hassen_2021]], [[Sreeshan et al 2020][research_sreeshan_dinesh_2020]], [[Sulaiman et al 2013][research_sulaiman_heil_2013]], [[Sulaiman et al 2012][research_sulaiman_ortiz_2012]], [[Sullivan and Davis 1979][research_sullivan_davis_1979]], [[Sun 2003][research_sun_2003]], [[Sutin 2000][research_sutin_2000]], [[Swiderski and Vavilov 2015][research_swiderski_vavilov_2015]], [[Taheri and Hassen 2019][research_taheri_hassen_2019]], [[Takagaki et al 2013][research_takagaki_minakuchi_2013]], [[Takeda et al 2007][research_takeda_aoki_2007]], [[Tang et al 2022][research_tang_wang_2022]], [[Third European Conference on 1980][research_third_european_1980]], [[Tifkitsis and Skordos 2019][research_tifkitsis_skordos_2019]], [[Tittmann 1975][research_tittmann_1975]], [[Tittmann 2018][research_tittmann_2018]], [[Tittmann and Crane 2000][research_tittmann_crane_2000]], [[Tracy 2009][research_tracy_2009]], [[Tracy 2011][research_tracy_2011]], [[Training Guidance for Solid][research_training_guidance]], [[Trenton et al 2021][research_trenton_abiel_2021]], [[Triollet et al 2011][research_triollet_robert_2011]], [[Tříska et al 2023][research_triska_hnidka_2023]], [[Tserpes et al 2014][research_tserpes_karachalios_2014]], [[Udd 2004][research_udd_2004]], [[Ultrasonic Inspection][research_ultrasonic_inspection]], [[Ultrasonic inspection of a 1971][research_ultrasonic_inspection_1971]], [[Ultrasonic inspection devices Ultrasonic 1971][research_ultrasonic_inspection_1971_b]], [[Ultrasonic inspection of a 1972][research_ultrasonic_inspection_1972]], [[Ultrasonic inspection of composite 1985][research_ultrasonic_inspection_1985]], [[Ultrasonic inspection of graphite 1994][research_ultrasonic_inspection_1994]], [[Ultrasonic inspection of graphite 1994][research_ultrasonic_inspection_1994_b]], [[Ultrasonic inspection of impact 1994][research_ultrasonic_inspection_1994_c]], [[Ultrasonic Inspection 2013][research_ultrasonic_inspection_2013]], [[Ultrasonic Nondestructive Evaluation for 2003][research_ultrasonic_nondestructive_2003]], [[Ultrasonic probes Ultrasonic inspection 1971][research_ultrasonic_probes_1971]], [[Ultrasonic probes Ultrasonic inspection 1972][research_ultrasonic_probes_1972]], [[Ultrasonic system for in 1990][research_ultrasonic_system_1990]], [[Ultrasonic system for in 1994][research_ultrasonic_system_1994]], [[Unwin 2002][research_unwin_2002]], [[Unwin 2004][research_unwin_2004]], [[Vacher et al 2004][research_vacher_molimard_2004]], [[Van Otterloo][research_vanotterloo]], [[Vary and Bowles 1979][research_vary_bowles_1979]], [[Vasudevan][research_vasudevan]], [[Vogel 1978][research_vogel_1978]], [[Vogel 1978][research_vogel_1978_b]], [[Wang et al 1998][research_wang_day_1998]], [[Wang and Huang 2021][research_wang_huang_2021]], [[Wang et al 1997][research_wang_hwang_1997]], [[Weissberg and Baruch 1981][research_weissberg_baruch_1981]], [[Wetton et al 1990][research_wetton_foster_1990]], [[Wikswo 2000][research_wikswo_2000]], [[Williams 1981][research_williams_1981]], [[Williams 1981][research_williams_1981_b]], [[Williams 1981][research_williams_1981_c]], [[Williams 1981][research_williams_1981_d]], [[Williams 1981][research_williams_1981_e]], [[Williams 1981][research_williams_1981_f]], [[Wilson 1984][research_wilson_1984]], [[Woerdeman et al 1997][research_woerdeman_spoerre_1997]], [[Wong][research_wong]], [[Woodmansee 1992][research_woodmansee_1992]], [[Wu et al 2001][research_wu_zhang_2001]], [[Wu et al 2015][research_wu_zhou_2015]], [[Xu 2026][research_xu_2026]], [[Xu et al 2014][research_xu_yue_2014]], [[Yachin 1981][research_yachin_1981]], [[Yachin 1981][research_yachin_1981_b]], [[Yachin 1981][research_yachin_1981_c]], [[Yachin 1981][research_yachin_1981_d]], [[Yachin 1981][research_yachin_1981_e]], [[Yachin 1981][research_yachin_1981_f]], [[Yachin 1981][research_yachin_1981_g]], [[Yachin 1981][research_yachin_1981_h]], [[Yang et al 2014][research_yang_chiesura_2014]], [[Yassene et al 2017][research_yassene_fares_2017]], [[Yee et al 1975][research_yee_kunselman_1975]], [[Yolken and Matzkanin 2001][research_yolken_matzkanin_2001]], [[Yuan et al 2014][research_yuan_han_2014]], [[Yurov V.M. 2019][research_yurovvm_2019]], [[Zalameda et al 2017][research_zalameda_bolduc_2017]], [[Zellouf et al 2001][research_zellouf_goyette_2001]], [[Zhang et al 2017][research_zhang_borigo_2017]], [[Zhang et al 2022][research_zhang_peng_2022]], [[Zhang et al 1999][research_zhang_wang_1999]], [[Zhang et al 2000][research_zhang_wu_2000]], [[Zhiying et al 2024][research_zhiying_feifei_2024]], [[Zhong and Nsengiyumva 2022][research_zhong_nsengiyumva_2022]], [[Zhong and Nsengiyumva 2022][research_zhong_nsengiyumva_2022_b]], [[Zhong and Nsengiyumva 2022][research_zhong_nsengiyumva_2022_c]], [[Zhong and Nsengiyumva 2022][research_zhong_nsengiyumva_2022_d]], [[Zhu et al 2026][research_zhu_zhou_2026]], [[Zoughi and Ganchev 1995][research_zoughi_ganchev_1995]], [[Zukas et al 1982][research_zukas_macknight_1982]], [[Zukas and Wentworth 1987][research_zukas_wentworth_1987]].
+
+### The cost of building it, which is the thing being validated
+
+**The sixth largest cluster, and the registry entry names it directly.** Manufacturing cost models, cost-estimating relationships, learning curves, design for manufacture and assembly, part count and producibility. **This is the shelf the X-55 was designated to add a point to** [[Military Airframe Costs The Effects of Advanced Materials and Manufacturing Processes][research_rand_airframe_costs]] [[Recurring Cost Minimization of Composite Laminated Structures Optimum Part Size as a Function of Learning Curve Effects and Assembly][research_recurring_cost_part_size]].
+
+[[3D CAD software chosen 2001][research_3d_cad_2001]], [[A preliminary estimate of 1970][research_a_preliminary_1970]], [[Abraham and Prasad 1969][research_abraham_prasad_1969]], [[Adams 1974][research_adams_1974]], [[Aircraft Cost Considerations 2010][research_aircraft_cost_2010]], [[An evaluation of an airframe cost-estimating relationship][research_airframe_cer]], [[Composite Airframe Cost Estimation Model Research Report on Activity][research_airframe_cost_model]], [[Alvarez et al 2025][research_alvarez_mohammed_2025]], [[Amirullah and Jakaria 2023][research_amirullah_jakaria_2023]], [[Amor 2002][research_amor_2002]], [[Anderson 2001][research_anderson_2001]], [[Anderson et al 2025][research_anderson_cardona_2025]], [[Anggriawan et al 2026][research_anggriawan_arief_2026]], [[Apgar 1993][research_apgar_1993]], [[Appleton 2008][research_appleton_2008]], [[Arellano and Higgins 2008][research_arellano_higgins_2008]], [[Asadayoobi et al 2021][research_asadayoobi_jaber_2021]], [[August Noevere and Von Jamora][research_augustnoevere_vonjamora]], [[August T Noevere and Craig S Collier 2020][research_augusttnoevere_craigscollier_2020]], [[Automated laser repair for 2009][research_automated_laser_2009]], [[Awad et al 2011][research_awad_aravinthan_2011]], [[Badiru 1991][research_badiru_1991]], [[Badiru 1992][research_badiru_1992]], [[Badiru and Jaber 2026][research_badiru_jaber_2026]], [[Bagan 1967][research_bagan_1967]], [[Bain 1952][research_bain_1952]], [[Balut et al 1991][research_balut_frazier_1991]], [[Bao and Chen 2023][research_bao_chen_2023]], [[Barlow et al 2002][research_barlow_howe_2002]], [[Bauer et al 2025][research_bauer_hanninen_2025]], [[Bayoumi 2000][research_bayoumi_2000]], [[Berry 2002][research_berry_2002]], [[Bjornsson et al 2015][research_bjornsson_lindback_2015]], [[Blackwell and Eastlake][research_blackwell_eastlake]], [[Bogue 2012][research_bogue_2012]], [[Boothroyd 1987][research_boothroyd_1987]], [[Boothroyd 1994][research_boothroyd_1994]], [[Boothroyd 1996][research_boothroyd_1996]], [[Boothroyd 1997][research_boothroyd_1997]], [[Boothroyd et al 2001][research_boothroyd_dewhurst_2001]], [[Boothroyd et al 2010][research_boothroyd_dewhurst_2010]], [[Boushab et al 2024][research_boushab_mote_2024]], [[Brookhart 2021][research_brookhart_2021]], [[Brown 1978][research_brown_1978]], [[Brown 1978][research_brown_1978_b]], [[Bush 1965][research_bush_1965]], [[Cabrinha and Ponitz 2014][research_cabrinha_ponitz_2014]], [[Çalmaşur et al 2021][research_calmasur_dastan_2021]], [[Camacho et al 2019][research_camacho_veiga_2019]], [[Camin and McKenzie 1980][research_camin_mckenzie_1980]], [[Cao et al 2022][research_cao_wang_2022]], [[Castagne et al 2004][research_castagne_curran_2004]], [[Cavalcanti Hernandes et al 2025][research_cavalcantihernandes_szejka_2025]], [[Chai et al 2023][research_chai_eisenbart_2023]], [[Chan et al 2018][research_chan_lu_2018]], [[Chen 1983][research_chen_1983]], [[Chen et al 2022][research_chen_li_2022]], [[Chen and Storch 2013][research_chen_storch_2013]], [[Chen et al 1998][research_chen_usman_1998]], [[Cherrington and Towill 1983][research_cherrington_towill_1983]], [[Choi et al 2005][research_choi_kelly_2005]], [[Choi et al 2006][research_choi_mount_2006]], [[Cody and Tiedje 1996][research_cody_tiedje_1996]], [[Cody and Tiedje 1997][research_cody_tiedje_1997]], [[Colley 2009][research_colley_2009]], [[Comey et al 1978][research_comey_culy_1978]], [[Composite skin cuts cost 1995][research_composite_skin_1995]], [[Computer Aided Manufacturing Cost 2010][research_computer_aided_2010]], [[Copeland 1995][research_copeland_1995]], [[Cortes et al 2019][research_cortes_maravola_2019]], [[Cost-Estimating Relationships for Aircraft 1972][research_cost_estimating_relationships_1972]], [[Composite Manufacturing Cost Model Targeting on Design Optimization][research_cost_model_design]], [[Cost of manufacturing aerofoil 2000][research_cost_of_2000]], [[Cost of Composites A 2010][research_cost_of_2010]], [[Cost of Composites A 2013][research_cost_of_2013]], [[Crosby et al 2003][research_crosby_kundu_2003]], [[Cunningham 1980][research_cunningham_1980]], [[Curran et al 2007][research_curran_gomis_2007]], [[Dance and Jarvis][research_dance_jarvis]], [[Dawei and Xuefeng 2012][research_dawei_xuefeng_2012]], [[de Cos et al 2008][research_decos_sanchez_2008]], [[Delionback 1979][research_delionback_1979]], [[Deng and Yeh 2009][research_deng_yeh_2009]], [[Deng and Yeh 2010][research_deng_yeh_2010]], [[Deng and Yeh 2011][research_deng_yeh_2011]], [[Design for manufacture, assembly][research_design_for]], [[Design for manufacture and 1998][research_design_for_1998]], [[Design for Manufacture and 2001][research_design_for_2001]], [[Design for Manufacturing 2007][research_design_for_2007]], [[Detweiler 1995][research_detweiler_1995]], [[Detz and van der Zwaan 2020][research_detz_vanderzwaan_2020]], [[Dhavale 1990][research_dhavale_1990]], [[Ding][research_ding]], [[Di Pasquale Davide et al 2017][research_dipasqualedavide_goredavid_2017]], [[Domanski 2020][research_domanski_2020]], [[Donath et al 1981][research_donath_globerson_1981]], [[Eakin 2010][research_eakin_2010]], [[Eduardo Salamanca and Luis Quiroz 2005][research_eduardosalamanca_luisquiroz_2005]], [[Edwards 2002][research_edwards_2002]], [[Eggert][research_eggert]], [[Eric J. Carlson et al 2004][research_ericjcarlson_yongyang_2004]], [[Factors that influence Manufacturing][research_factors_that]], [[Farrington][research_farrington]], [[Fereday and Potter 2013][research_fereday_potter_2013]], [[Ferreira et al 2019][research_ferreira_biesek_2019]], [[Ferreira et al 2021][research_ferreira_biesek_2021]], [[Fibre placement technology cuts 1997][research_fibre_placement_1997]], [[Finchum 1974][research_finchum_1974]], [[Fioriti et al 2018][research_fioriti_vercella_2018]], [[Fioriti and Vercella 2019][research_fioriti_vercella_2019]], [[Franceschini and Galetto 2004][research_franceschini_galetto_2004]], [[Fraser and Williams 2005][research_fraser_williams_2005]], [[Fredericks and Connor 1960][research_fredericks_connor_1960]], [[Friot et al 2017][research_friot_meiffre_2017]], [[Fung and Popplewell 1994][research_fung_popplewell_1994]], [[Funk 1989][research_funk_1989]], [[Gamweger et al 2009][research_gamweger_jobstl_2009]], [[Gauthier et al 2000][research_gauthier_dewhurst_2000]], [[George et al 2019][research_george_rutz_2019]], [[Ghobbar and Mukherjee 2026][research_ghobbar_mukherjee_2026]], [[Gill et al 2016][research_gill_visotsky_2016]], [[Globerson 1980][research_globerson_1980]], [[Globerson 1984][research_globerson_1984]], [[Globerson and Gold 1997][research_globerson_gold_1997]], [[Goddard 1982][research_goddard_1982]], [[Gopisetti][research_gopisetti]], [[Greenwell 1977][research_greenwell_1977]], [[Grosse et al 2015][research_grosse_glock_2015]], [[Gudmundsson 2014][research_gudmundsson_2014]], [[Gudmundsson 2022][research_gudmundsson_2022]], [[Gupta and Mahendran 2025][research_gupta_mahendran_2025]], [[Gurumurthy 2024][research_gurumurthy_2024]], [[Gutowski et al 1994][research_gutowski_hoult_1994]], [[Haifeng et al 2014][research_haifeng_haiyan_2014]], [[Hällgren et al 2016][research_hallgren_pejryd_2016]], [[Hamzah et al 2018][research_hamzah_rosli_2018]], [[Harkins 1979][research_harkins_1979]], [[Harlalka et al 2016][research_harlalka_naiju_2016]], [[Hartley 1965][research_hartley_1965]], [[Harvey 2002][research_harvey_2002]], [[Harvey 2005][research_harvey_2005]], [[Harvey 2015][research_harvey_2015]], [[Haynes et al 2025][research_haynes_luzetsky_2025]], [[Hazbany et al][research_hazbany_gilad]], [[Heimbs et al 2013][research_heimbs_hoffmann_2013]], [[Hennessey et al 2023][research_hennessey_freckleton_2023]], [[Herpradipto et al 2025][research_herpradipto_rosyidi_2025]], [[Herrera 1998][research_herrera_1998]], [[Herrick 1989][research_herrick_1989]], [[Hill 1996][research_hill_1996]], [[Hinrichsen and Bautista 2001][research_hinrichsen_bautista_2001]], [[Hogan et al 2020][research_hogan_elshaw_2020]], [[Hogan et al 2022][research_hogan_elshaw_2022]], [[Holzwarth 1998][research_holzwarth_1998]], [[Hong et al 2015][research_hong_chung_2015]], [[Hou and Lai 2015][research_hou_lai_2015]], [[Hoult and Meador 1997][research_hoult_meador_1997]], [[Hoult and Meador 2010][research_hoult_meador_2010]], [[Huang and Mak 1999][research_huang_mak_1999]], [[Huang and Mak 2003][research_huang_mak_2003]], [[Hübner et al 2018][research_hubner_ohde_2018]], [[Hueber et al 2016][research_hueber_horejsi_2016]], [[Hueber et al 2019][research_hueber_schwingshandl_2019]], [[Hunt and Sturges 1993][research_hunt_sturges_1993]], [[Ilcewicz, L. B. et al 1991][research_ilcewiczlb_walkerth_1991]], [[Improved lightweight, unitized barrier/flow 2001][research_improved_lightweight_2001]], [[Ipkovich et al 2025][research_ipkovich_kummer_2025]], [[Islam 2026][research_islam_2026]], [[Ito et al 2004][research_ito_yamagishi_2004]], [[Jaber and Bonney 1999][research_jaber_bonney_1999]], [[Jackson 1998][research_jackson_1998]], [[Jared 1997][research_jared_1997]], [[Jegley and Velicki 2013][research_jegley_velicki_2013]], [[Jeremiah et al 2025][research_jeremiah_madubueze_2025]], [[Jia et al 2013][research_jia_guo_2013]], [[Johnson 1969][research_johnson_1969]], [[Jones 2018][research_jones_2018]], [[Joshi et al 2008][research_joshi_guttenberg_2008]], [[Jung 2002][research_jung_2002]], [[Kalowekamo and Baker 2009][research_kalowekamo_baker_2009]], [[Kamrani and Nasr 2009][research_kamrani_nasr_2009]], [[Kamrani and Salhieh 2002][research_kamrani_salhieh_2002]], [[Karpiuk 2015][research_karpiuk_2015]], [[Kasai 2006][research_kasai_2006]], [[Keel 1988][research_keel_1988]], [[Killingsworth 2006][research_killingsworth_2006]], [[Kim et al 2001][research_kim_kim_2001]], [[Kiritsis and Xirouchakis 1998][research_kiritsis_xirouchakis_1998]], [[Klanšek and Kravanja 2006][research_klansek_kravanja_2006]], [[Kneece et al 2014][research_kneece_rr_2014]], [[Kosztowny and Waas 2014][research_kosztowny_waas_2014]], [[Kosztowny and Waas 2015][research_kosztowny_waas_2015]], [[Kosztowny and Waas 2021][research_kosztowny_waas_2021]], [[Kosztowny and Waas 2021][research_kosztowny_waas_2021_b]], [[Krupnik 2022][research_krupnik_2022]], [[Kulkarni and Rosen 1977][research_kulkarni_rosen_1977]], [[Kumar and Saha 2025][research_kumar_saha_2025]], [[Kundu et al 2003][research_kundu_crosby_2003]], [[Kurasova et al 2021][research_kurasova_marcinkevicius_2021]], [[Laurenzi et al 2014][research_laurenzi_casini_2014]], [[Lax et al 2018][research_lax_darnell_2018]], [[Lax et al 2018][research_lax_darnell_2018_b]], [[Lead-free design for manufacture 2005][research_lead_free_design_2005]], [[Learning Curve][research_learning_curve]], [[Learning Curves Production Breaks/Lost 2015][research_learning_curves_2015]], [[Learning Curves Unit Theory 2015][research_learning_curves_2015_b]], [[Learning Curves Production Breaks/Lost 2026][research_learning_curves_2026]], [[Learning Curves Unit Theory 2026][research_learning_curves_2026_b]], [[Leclerc and Subbarayan 1998][research_leclerc_subbarayan_1998]], [[Letaief et al 2020][research_letaief_tlija_2020]], [[Li et al 2020][research_li_mei_2020]], [[Lin et al 2011][research_lin_lee_2011]], [[Liu et al 2011][research_liu_davis_2011]], [[Liu et al 2025][research_liu_zheng_2025]], [[Locascio 2001][research_locascio_2001]], [[Lovejoy 2022][research_lovejoy_2022]], [[Lovelace 1998][research_lovelace_1998]], [[Low cost PEI prepreg 2001][research_low_cost_2001]], [[Low-cost composite primary structure 1978][research_low_cost_composite_1978]], [[Lueck and Schenewerk 1996][research_lueck_schenewerk_1996]], [[Lundberg 1956][research_lundberg_1956]], [[Maffezzoli et al 2012][research_maffezzoli_gennaro_2012]], [[Mahadik and Masel 2018][research_mahadik_masel_2018]], [[Mahieux 2001][research_mahieux_2001]], [[Majd and Pindyck 1987][research_majd_pindyck_1987]], [[Maksud and Yusof 2013][research_maksud_yusof_2013]], [[Maley][research_maley]], [[Malstrom and Collins 2000][research_malstrom_collins_2000]], [[Manufacturing cost estimation A 1993][research_manufacturing_cost_1993]], [[Manufacturing Cost and Product 2017][research_manufacturing_cost_2017]], [[Markryun et al 2025][research_markryun_alex_2025]], [[Mårtensson et al 2015][research_martensson_zenkert_2015]], [[Martín et al 2017][research_martin_preciado_2017]], [[Martinez and Revilla 2015][research_martinez_revilla_2015]], [[Martins et al 2022][research_martins_santos_2022]], [[Maukar et al 2019][research_maukar_sosodoro_2019]], [[Mazumdar and Hoa 1995][research_mazumdar_hoa_1995]], [[Mazzola and McCardle 1997][research_mazzola_mccardle_1997]], [[McClure 1977][research_mcclure_1977]], [[Mead Carney And Co Inc New York 1954][research_meadcarneyandcoincnewyork_1954]], [[Measom and Sewell 1996][research_measom_sewell_1996]], [[Military Airframe Acquisition Costs 2001][research_military_airframe_2001]], [[Mills and Jones 2010][research_mills_jones_2010]], [[Mochizuki et al 1969][research_mochizuki_sawada_1969]], [[Moeller 1980][research_moeller_1980]], [[Molloy et al 1998][research_molloy_tilley_1998]], [[Molloy et al 1998][research_molloy_tilley_1998_b]], [[Momblona 2022][research_momblona_2022]], [[Morimoto et al 2015][research_morimoto_kobayashi_2015]], [[Morse 1972][research_morse_1972]], [[Morse et al 2022][research_morse_cartabia_2022]], [[Morse and Mallardo 2023][research_morse_mallardo_2023]], [[Moses 1990][research_moses_1990]], [[Moses 1991][research_moses_1991]], [[Moses 1991][research_moses_1991_b]], [[Moses 1992][research_moses_1992]], [[Moses 1995][research_moses_1995]], [[Mowins 2006][research_mowins_2006]], [[Mwesigwa et al 2024][research_mwesigwa_tentzeris_2024]], [[Nazarudin and Suryadi 2021][research_nazarudin_suryadi_2021]], [[Neamah et al 2024][research_neamah_alkindi_2024]], [[Nemet 2006][research_nemet_2006]], [[Nettles, Alan T. 1991][research_nettlesalant_1991]], [[Newport News Shipbuilding Va 1993][research_newportnewsshipbuildingva_1993]], [[Nguyen 2025][research_nguyen_2025]], [[Ning et al 2020][research_ning_shi_2020]], [[Ning et al 2020][research_ning_shi_2020_b]], [[Ning et al 2023][research_ning_shi_2023]], [[Ninio 2006][research_ninio_2006]], [[Noton 1983][research_noton_1983]], [[Noton 1984][research_noton_1984]], [[Noton and Preston 1981][research_noton_preston_1981]], [[Nunez 1989][research_nunez_1989]], [[Nussbaum 1994][research_nussbaum_1994]], [[Nyemba 2025][research_nyemba_2025]], [[O.A. 2025][research_oa_2025]], [[Ong 1995][research_ong_1995]], [[Ostwald and Sathyamoorthy 1992][research_ostwald_sathyamoorthy_1992]], [[Ozdoeva and Smolyakov 2020][research_ozdoeva_smolyakov_2020]], [[Pananiswami and Bishop 1991][research_pananiswami_bishop_1991]], [[Park et al 2004][research_park_lee_2004]], [[Parks 1985][research_parks_1985]], [[Patwardhan and Ramani 2004][research_patwardhan_ramani_2004]], [[Paxton et al 2025][research_paxton_penghui_2025]], [[Pedersen and Slepniov 2016][research_pedersen_slepniov_2016]], [[Peretto 1997][research_peretto_1997]], [[Perry et al][research_perry_mauchand]], [[Phillips 1986][research_phillips_1986]], [[Phillips 1986][research_phillips_1986_b]], [[Plaza and Rohlf 2008][research_plaza_rohlf_2008]], [[Pohya et al 2018][research_pohya_wicke_2018]], [[Posteucă and Sakamoto 2017][research_posteuca_sakamoto_2017]], [[Posteucă and Sakamoto 2017][research_posteuca_sakamoto_2017_b]], [[Posteucă and Sakamoto 2017][research_posteuca_sakamoto_2017_c]], [[Practical Cost Estimating for 2005][research_practical_cost_2005]], [[Prasittisopin and Tuvayanond 2022][research_prasittisopin_tuvayanond_2022]], [[Printed Circuit Board Design 2001][research_printed_circuit_2001]], [[Printed Circuit Board Design 2010][research_printed_circuit_2010]], [[Pritz et al 2016][research_pritz_etzel_2016]], [[Product Manufacturing and Cost 2013][research_product_manufacturing_2013]], [[Qin et al 2017][research_qin_liu_2017]], [[Rachowitz et al 1979][research_rachowitz_coletti_1979]], [[Military Airframe Costs The Effects of Advanced Materials and Manufacturing Processes][research_rand_airframe_costs]], [[Recurring Cost Minimization of Composite Laminated Structures Optimum Part Size as a Function of Learning Curve Effects and Assembly][research_recurring_cost_part_size]], [[Remer et al 1992][research_remer_ziegler_1992]], [[Remy Jane P. Ampong, Rosalina A. Sagocsoc* 2026][research_remyjanepampongrosalinaasagocsoc_2026]], [[Retz 2019][research_retz_2019]], [[Richardson and Stewart 2012][research_richardson_stewart_2012]], [[Rigelsford 2004][research_rigelsford_2004]], [[Riguidel and Ridler 1998][research_riguidel_ridler_1998]], [[Rodgers and Johnson 1987][research_rodgers_johnson_1987]], [[Rorsted 1999][research_rorsted_1999]], [[Rosenthal 1982][research_rosenthal_1982]], [[Rotheiser 2009][research_rotheiser_2009]], [[Roy and Palacio 2000][research_roy_palacio_2000]], [[Saadat et al][research_saadat_thomas]], [[Sakinc and E. Smith 2023][research_sakinc_esmith_2023]], [[Saltoğlu et al 2016][research_saltoglu_humaira_2016]], [[Sang-bong 2007][research_sangbong_2007]], [[Sarka 2017][research_sarka_2017]], [[Sarker and Coates 1997][research_sarker_coates_1997]], [[Scanlan et al 2006][research_scanlan_rao_2006]], [[Sehdev et al 1995][research_sehdev_fan_1995]], [[Selvaraj et al 2008][research_selvaraj_radhakrishnan_2008]], [[Sheahen et al 2000][research_sheahen_schmidt_2000]], [[Shilun 2014][research_shilun_2014]], [[Shimpi and Sawarkar 2026][research_shimpi_sawarkar_2026]], [[Shin et al 2023][research_shin_kim_2023]], [[Shiue 1991][research_shiue_1991]], [[Shivajee et al 2019][research_shivajee_singh_2019]], [[Shu 2004][research_shu_2004]], [[Shukla, J. G. and Bayha, T. D. 1993][research_shuklajg_bayhatd_1993]], [[Singh Gill et al 2016][research_singhgill_visotsky_2016]], [[Skelly 1989][research_skelly_1989]], [[Smunt 1999][research_smunt_1999]], [[Smunt 2000][research_smunt_2000]], [[Smunt 2011][research_smunt_2011]], [[Soares et al 2018][research_soares_henriques_2018]], [[Son 1991][research_son_1991]], [[Stahl et al 1984][research_stahl_arena_1984]], [[Stinson 2006][research_stinson_2006]], [[Sun 2026][research_sun_2026]], [[Tan et al 2022][research_tan_mills_2022]], [[Teng et al 2014][research_teng_lou_2014]], [[The Application of Computer 1994][research_the_application_1994]], [[The Learning Curve 2011][research_the_learning_2011]], [[Thirunavukkarasu 2021][research_thirunavukkarasu_2021]], [[Tierney et al 2021][research_tierney_higgins_2021]], [[Tihansky 1976][research_tihansky_1976]], [[Tirkel 2013][research_tirkel_2013]], [[Tirovolis and Serghides 2005][research_tirovolis_serghides_2005]], [[Tlija et al 2018][research_tlija_letaief_2018]], [[Tokucoglu et al 2022][research_tokucoglu_chen_2022]], [[Torres et al 2019][research_torres_piedra_2019]], [[Towill 1977][research_towill_1977]], [[Towill 1985][research_towill_1985]], [[Tsuchiya 1990][research_tsuchiya_1990]], [[Tsuchiya 2004][research_tsuchiya_2004]], [[Tuvayanond and Prasittisopin 2023][research_tuvayanond_prasittisopin_2023]], [[Tuvayanond and Prasittisopin 2023][research_tuvayanond_prasittisopin_2023_b]], [[Using the Learning Curve 2010][research_using_the_2010]], [[van Hattum et al 2011][research_vanhattum_regel_2011]], [[Vincent 2009][research_vincent_2009]], [[Walls and Crawford 1995][research_walls_crawford_1995]], [[Walser and Ranjan 2016][research_walser_ranjan_2016]], [[Wang 2025][research_wang_2025]], [[Wang et al 2018][research_wang_huang_2018]], [[Warman 1996][research_warman_1996]], [[Wasim and Oliveira 2022][research_wasim_oliveira_2022]], [[Weeks 2001][research_weeks_2001]], [[Wei and Egbelu 2000][research_wei_egbelu_2000]], [[Whisnant 1992][research_whisnant_1992]], [[Why do Aircraft Cost][research_why_do]], [[Why do aircraft cost 1999][research_why_do_1999]], [[Wicke and Pohya 2018][research_wicke_pohya_2018]], [[Widanage and Kim 2024][research_widanage_kim_2024]], [[Wilkinson and Ruggles-Wrenn 2016][research_wilkinson_ruggleswrenn_2016]], [[Wilkinson and Ruggles-Wrenn 2016][research_wilkinson_ruggleswrenn_2016_b]], [[Williams and Ambler][research_williams_ambler]], [[Wit 2001][research_wit_2001]], [[Womer and Marcotte 1986][research_womer_marcotte_1986]], [[Wong et al 1992][research_wong_imam_1992]], [[Woo and Ditto 1985][research_woo_ditto_1985]], [[Wu and Baur 2024][research_wu_baur_2024]], [[Wu et al 2023][research_wu_sadhukhan_2023]], [[Xu Xinsheng et al 2006][research_xuxinsheng_fangshuiliang_2006]], [[Yamashina and Mizuyama 1997][research_yamashina_mizuyama_1997]], [[Yang and Zhao 2018][research_yang_zhao_2018]], [[Yao and Wei][research_yao_wei]], [[Yao et al 2021][research_yao_xu_2021]], [[Yazid et al 2024][research_yazid_ginting_2024]], [[Ye et al 2009][research_ye_zhang_2009]], [[Yi et al 2023][research_yi_werrel_2023]], [[Yin and Hou 2019][research_yin_hou_2019]], [[Yohanes and Idris 2021][research_yohanes_idris_2021]], [[You et al 2024][research_you_wang_2024]], [[Young et al 2022][research_young_yu_2022]], [[Younossi et al 2001][research_younossi_kennedy_2001]], [[Yuan et al 2018][research_yuan_sun_2018]], [[Zaloom and Miller 1982][research_zaloom_miller_1982]], [[Zarei et al 2026][research_zarei_delavari_2026]], [[Zhao and Kapania 2016][research_zhao_kapania_2016]], [[Zhao and Kapania 2016][research_zhao_kapania_2016_b]], [[Zhao Xiaojia et al 2014][research_zhaoxiaojia_urdumassoud_2014]], [[Zhen et al 2023][research_zhen_wang_2023]].
+
+### The tool, and why a cured part is not the shape it was cured on
+
+**Tooling, and the shape that comes off it.** Tool materials, thermal expansion, spring-in, cure-induced distortion, residual stress and the shimming that absorbs what is left. **A unitised part is a large part, and a large part carries its distortion over a long baseline**, so this cluster grows in importance exactly as the part count falls.
+
+[[Abitz and Pety 2024][research_abitz_pety_2024]], [[Advanced composite prepreg tooling 1992][research_advanced_composite_1992]], [[Ahmad et al 2026][research_ahmad_zhang_2026]], [[Ahmed and Jones 1988][research_ahmed_jones_1988]], [[Albert et al 2020][research_albert_fernlund_2020]], [[Al-Dhaheri et al 2020][research_aldhaheri_khan_2020]], [[Al-Dhaheri et al 2020][research_aldhaheri_khan_2020_b]], [[Alzyod and Ficzere 2023][research_alzyod_ficzere_2023]], [[Antonucci et al 2006][research_antonucci_cusano_2006]], [[Arafath et al 2008][research_arafath_vaziri_2008]], [[Arafath et al 2009][research_arafath_vaziri_2009]], [[Backmann et al 2024][research_backmann_adil_2024]], [[Balaji et al 2024][research_balaji_dumas_2024]], [[Bao et al 2002][research_bao_su_2002]], [[Barbero and Wen 2003][research_barbero_wen_2003]], [[Bellini and Sorrentino 2018][research_bellini_sorrentino_2018]], [[Benazzo and Pellegrino 2026][research_benazzo_pellegrino_2026]], [[Berge and Eide 1982][research_berge_eide_1982]], [[Bickerton and Kelly 2007][research_bickerton_kelly_2007]], [[Blanchard 2020][research_blanchard_2020]], [[Bogacz 1992][research_bogacz_1992]], [[Bondarchuk and Fedulov 2019][research_bondarchuk_fedulov_2019]], [[Bosi et al 2018][research_bosi_schlothauer_2018]], [[Brauner et al 2014][research_brauner_bauer_2014]], [[Brauner et al 2013][research_brauner_peters_2013]], [[Bushko and Stokes 1996][research_bushko_stokes_1996]], [[°C cure epoxy tooling 2020][research_c_cure_2020]], [[Cai et al 2023][research_cai_wang_2023]], [[Cameron et al 2023][research_cameron_hozic_2023]], [[Cameron et al 2021][research_cameron_saseendran_2021]], [[Campbell 2004][research_campbell_2004]], [[Campos et al 2017][research_campos_mewis_2017]], [[Ce Xiao et al 2008][research_cexiao_cai_2008]], [[Chang et al 2019][research_chang_yang_2019]], [[Chaudhuri 2010][research_chaudhuri_2010]], [[Chava et al 2022][research_chava_namilae_2022_b]], [[Chen et al 2020][research_chen_wang_2020]], [[Chen et al 2021][research_chen_wang_2021]], [[Chen et al 1998][research_chen_yang_1998]], [[Chen and Zhang 2018][research_chen_zhang_2018]], [[Chen and Zhang 2019][research_chen_zhang_2019]], [[Chilvers and Morris 1998][research_chilvers_morris_1998]], [[Choi and Im 1999][research_choi_im_1999]], [[Chou and Penn 1992][research_chou_penn_1992]], [[Çiçek et al 2016][research_cicek_erdal_2016]], [[Çınar and Ersoy 2015][research_cinar_ersoy_2015]], [[Cinar et al 2020][research_cinar_guven_2020]], [[Clifford et al 2006][research_clifford_jansson_2006]], [[Composite tooling 1990][research_composite_tooling_1990]], [[Córcoles et al 2015][research_corcoles_zastrow_2015]], [[Corrado and Polini 2019][research_corrado_polini_2019]], [[Crasto et al 2002][research_crasto_kim_2002]], [[Cui et al 2025][research_cui_zhang_2025]], [[D'Angelo et al 2018][research_dangelo_cavaccini_2018]], [[Dassios et al 2013][research_dassios_aggelis_2013]], [[Delsol et al 2026][research_delsol_olivier_2026]], [[Ding et al 2022][research_ding_fang_2022]], [[Ding et al 2015][research_ding_li_2015]], [[Ding et al 2020][research_ding_wang_2020]], [[Dippenaar and Schreve 2012][research_dippenaar_schreve_2012]], [[Djokic et al 2002][research_djokic_johnston_2002]], [[Dong 2009][research_dong_2009]], [[Dong 2010][research_dong_2010]], [[Dong 2010][research_dong_2010_b]], [[Dorworth 2001][research_dorworth_2001]], [[Drew et al 2018][research_drew_knipe_2018]], [[Duperrex et al 2021][research_duperrex_pesci_2021]], [[Ehmke et al 2017][research_ehmke_rao_2017]], [[Eijpe and Powell 1997][research_eijpe_powell_1997]], [[Ekom 2021][research_ekom_2021]], [[Enami et al 2016][research_enami_horiuchi_2016]], [[Fabre and Barrallier 2005][research_fabre_barrallier_2005]], [[Feldman 1986][research_feldman_1986]], [[Fenn and Jones 1989][research_fenn_jones_1989]], [[Feuchtgruber et al 2023][research_feuchtgruber_holmes_2023]], [[Feuchtgruber et al 2024][research_feuchtgruber_holmes_2024]], [[Fischer 2003][research_fischer_2003]], [[Fischer 2003][research_fischer_2003_b]], [[Fischer 2003][research_fischer_2003_c]], [[Fischer 2013][research_fischer_2013]], [[Fischer 2013][research_fischer_2013_b]], [[Fischer 2013][research_fischer_2013_c]], [[Franciosa et al 2020][research_franciosa_gallo_2020]], [[Gao et al 2017][research_gao_an_2017]], [[Geng et al 2020][research_geng_li_2020]], [[Gibbons et al 2009][research_gibbons_seguigarza_2009]], [[Goncalves et al 2023][research_goncalves_arteiro_2023]], [[Gopal et al 2000][research_gopal_adali_2000]], [[Griffiths and Leigh 2019][research_griffiths_leigh_2019]], [[Guan et al 2026][research_guan_yan_2026]], [[Gupta et al 2012][research_gupta_kelly_2012]], [[Gutman et al 1994][research_gutman_kadim_1994]], [[Hack and Leverant 1982][research_hack_leverant_1982]], [[Han et al 2013][research_han_butterfield_2013]], [[Handbook of Molded Part 2013][research_handbook_of_2013]], [[Hao and Zhang 2019][research_hao_zhang_2019]], [[Hartmann and Loy 2026][research_hartmann_loy_2026]], [[Hasselman 1999][research_hasselman_1999]], [[Hedin 1963][research_hedin_1963]], [[Hewson et al 2013][research_hewson_rice_2013]], [[Ho-Nguyen-Tan et al 2024][research_honguyentan_jeon_2024]], [[Hu et al 2020][research_hu_shan_2020]], [[Hu et al 2026][research_hu_yong_2026]], [[Huang et al 2000][research_huang_gillespie_2000]], [[Hui et al 2024][research_hui_xu_2024]], [[Hui et al 2026][research_hui_zhong_2026]], [[Huitink and Montazeri 2021][research_huitink_montazeri_2021]], [[Irving et al 2014][research_irving_ratchev_2014]], [[Jabarulla Khan et al 2022][research_jabarullakhan_creighton_2022]], [[Jain et al 1997][research_jain_lutton_1997]], [[Jamora et al 2020][research_jamora_wu_2020]], [[Ji 2017][research_ji_2017]], [[Ji and Xia 2015][research_ji_xia_2015]], [[Jiang et al 2023][research_jiang_chen_2023]], [[Jo et al 2023][research_jo_copenhaver_2023]], [[John Martin 2002][research_johnmartin_2002]], [[Johnston et al 2001][research_johnston_vaziri_2001]], [[Joseph and Namilae 2024][research_joseph_namilae_2024]], [[Kappel 2016][research_kappel_2016]], [[Kappel 2018][research_kappel_2018]], [[Kappel 2019][research_kappel_2019]], [[Kappel et al 2015][research_kappel_stefaniak_2015]], [[Karalekas et al 2008][research_karalekas_cugnoni_2008]], [[Khoun and Hubert 2010][research_khoun_hubert_2010]], [[Kim 2004][research_kim_2004]], [[Kim and Choi 2001][research_kim_choi_2001]], [[Kim and Kim 2024][research_kim_kim_2024]], [[Kim and Lee 2026][research_kim_lee_2026]], [[Kim and White 1998][research_kim_white_1998]], [[Kiyani et al 2026][research_kiyani_deshpande_2026]], [[Koslowski and Bonten 2019][research_koslowski_bonten_2019]], [[Kravchenko et al 2017][research_kravchenko_kravchenko_2017]], [[Kress and Winkler 2009][research_kress_winkler_2009]], [[Kroupa and Bartsch 1998][research_kroupa_bartsch_1998]], [[Kudo et al 2026][research_kudo_kato_2026]], [[Lacoste et al 2011][research_lacoste_freour_2011]], [[Lee et al 2026][research_lee_kim_2026]], [[Lee et al 2025][research_lee_smit_2025]], [[Li et al 2025][research_li_cheng_2025]], [[Li and Jia 2013][research_li_jia_2013]], [[Li et al 2017][research_li_li_2017]], [[Li et al 2022][research_li_li_2022]], [[Li et al 2020][research_li_wang_2020]], [[Li and Zhou 2004][research_li_zhou_2004]], [[Lin et al 2022][research_lin_zeng_2022]], [[Liu et al 2013][research_liu_deng_2013]], [[Liu et al 2021][research_liu_guan_2021]], [[Liu et al 2024][research_liu_sinke_2024]], [[Liu et al 2021][research_liu_zheng_2021]], [[Low temperature moulding LTM 1990][research_low_temperature_1990]], [[Lu et al 2025][research_lu_liang_2025]], [[Mahto et al 2022][research_mahto_kubher_2022]], [[Man and Zhai 2006][research_man_zhai_2006]], [[Mandrel forms composite fuselage 2005][research_mandrel_forms_2005]], [[Maravola et al 2018][research_maravola_cortes_2018]], [[Meuwissen et al 2004][research_meuwissen_deboer_2004]], [[Mi et al 2026][research_mi_hu_2026]], [[Minakuchi 2014][research_minakuchi_2014]], [[Minakuchi et al 2019][research_minakuchi_sawaguchi_2019]], [[Mirone et al 2025][research_mirone_corallo_2025]], [[Mirzaee-Sisan et al][research_mirzaeesisan_smith]], [[Mohanta and Neogi 2026][research_mohanta_neogi_2026]], [[Montés and Sánchez 2010][research_montes_sanchez_2010]], [[Naghdinasab et al 2026][research_naghdinasab_dilllanger_2026]], [[Nawab and Jacquemin 2016][research_nawab_jacquemin_2016]], [[Neutron Diffraction Measurements of 2016][research_neutron_diffraction_2016]], [[Nishiyama et al 2012][research_nishiyama_tsutsumi_2012]], [[Oliveira 2021][research_oliveira_2021]], [[Outeiro et al 2007][research_outeiro_umbrello_2007]], [[Ouyang et al 2026][research_ouyang_wang_2026]], [[Parambil et al 2022][research_parambil_chen_2022]], [[Park et al 1994][research_park_marcus_1994]], [[Patel and Dodge 2026][research_patel_dodge_2026]], [[Patil et al 2019][research_patil_shah_2019]], [[Peng et al 2022][research_peng_xu_2022]], [[Pereira et al 2019][research_pereira_leboulluec_2019]], [[Perreux and Lazuardi 2001][research_perreux_lazuardi_2001]], [[Perreux and Lazuardi 2001][research_perreux_lazuardi_2001_b]], [[Phansalkar and Han 2026][research_phansalkar_han_2026]], [[Poorzeinolabedin et al 2014][research_poorzeinolabedin_parnas_2014]], [[Potter 1997][research_potter_1997_d]], [[Potter 1997][research_potter_1997_g]], [[Prasad et al 1987][research_prasad_prabhakaran_1987]], [[Prime and Hill 2004][research_prime_hill_2004]], [[Process induced distortions of][research_process_induced_distortions]], [[Process-induced stress and deformation 1992][research_process_induced_stress_1992]], [[Qiao and Yao 2020][research_qiao_yao_2020]], [[Rai et al 1991][research_rai_lee_1991]], [[Ramesh et al 2010][research_ramesh_heng_2010]], [[Ravanfar et al][research_ravanfar_daniel]], [[Redin][research_redin]], [[Residual Stress in Metal-Matrix 2016][research_residual_stress_2016]], [[Residual Stress and Powder 2024][research_residual_stress_2024]], [[Residual stresses and stress-strain 1972][research_residual_stresses_1972]], [[Robert and Dusserre 2013][research_robert_dusserre_2013]], [[Rocha et al 2021][research_rocha_semprimoschnig_2021]], [[Russo et al 2021][research_russo_langella_2021]], [[Saadat and Cretin 2002][research_saadat_cretin_2002]], [[Sandberg et al 2021][research_sandberg_yuksel_2021]], [[Schoenholz et al 2022][research_schoenholz_moomaw_2022]], [[Sfar Zbed][research_sfarzbed]], [[Sherif El-Gizawy and Kuan 2003][research_sherifelgizawy_kuan_2003]], [[Shojiro et al 1997][research_shojiro_tanaka_1997]], [[Shrotriya et al 2001][research_shrotriya_sottos_2001]], [[Sicot et al 2005][research_sicot_gong_2005]], [[Sinkler et al 2025][research_sinkler_ravangard_2025]], [[Skinner and Chattopadhyay 2021][research_skinner_chattopadhyay_2021]], [[Skordos and Partridge 2007][research_skordos_partridge_2007]], [[Somalwar][research_somalwar]], [[Spray metal composite tooling 1982][research_spray_metal_1982]], [[Spring-in simulation example 2020][research_spring_in_simulation_2020]], [[Sreejith et al 2021][research_sreejith_kannan_2021]], [[Sreejith et al 2023][research_sreejith_kannan_2023]], [[Sreekantamurthy, Thammaiah et al 2016][research_sreekantamurthythammaiah_hudsontylerb_2016]], [[Steinzig and Broetto 2014][research_steinzig_broetto_2014]], [[Struzziero et al 2020][research_struzziero_nardi_2020]], [[Suh and Lee 2004][research_suh_lee_2004]], [[Sun and Zhang 2020][research_sun_zhang_2020]], [[Takezawa et al 2022][research_takezawa_guo_2022]], [[The transverse coefficient of 1992][research_the_transverse_1992]], [[Thermal Diffusivity and Coefficient 2014][research_thermal_diffusivity_2014]], [[Thermal residual stress in 1987][research_thermal_residual_1987]], [[Thiede-Smet and Wadsworth 1998][research_thiedesmet_wadsworth_1998]], [[T. M 2025][research_tm_2025]], [[Tool board 'new approach' 2015][research_tool_board_2015]], [[Tooling study Epoxy prepreg 2014][research_tooling_study_2014]], [[Toyoda et al 2024][research_toyoda_lorin_2024]], [[Türk et al 2019][research_turk_ruegg_2019]], [[Vangerko 1988][research_vangerko_1988]], [[Vanzijl et al 1994][research_vanzijl_sukumar_1994]], [[Vermes and Czigany 2022][research_vermes_czigany_2022]], [[Vermeulen and van Tooren 2007][research_vermeulen_vantooren_2007]], [[Vermilyea 1988][research_vermilyea_1988]], [[Vo et al 2019][research_vo_poulsen_2019]], [[Von Jamora et al][research_vonjamora_chaunceywu]], [[Wadsworth 1998][research_wadsworth_1998]], [[Wang 2022][research_wang_2022]], [[Wang et al 1992][research_wang_daniel_1992]], [[Wang et al 2017][research_wang_dou_2017]], [[Wang et al 2020][research_wang_li_2020]], [[Wang et al 2022][research_wang_liu_2022]], [[Wang et al 2026][research_wang_sun_2026]], [[Wang et al 2024][research_wang_timofte_2024]], [[Wang et al 2026][research_wang_xie_2026]], [[Weitsman 1985][research_weitsman_1985]], [[Wen et al][research_wen_long]], [[Wen et al 2019][research_wen_yue_2019]], [[White and Hahn 1992][research_white_hahn_1992]], [[Wise 2000][research_wise_2000]], [[Wollmann et al 2008][research_wollmann_bernhard_2008]], [[Wu et al][research_wu_hualu]], [[Wu et al 2026][research_wu_tan_2026]], [[Xiaojun Wang and Chung 1997][research_xiaojunwang_chung_1997]], [[Xu et al 2022][research_xu_zhou_2022]], [[Yan et al 2025][research_yan_matveev_2025]], [[yang et al 2021][research_yang_bao_2021]], [[Yang et al 2021][research_yang_bao_2021_b]], [[Yang et al 2018][research_yang_liu_2018]], [[Yang et al 2019][research_yang_wang_2019]], [[Yi and Lam 2012][research_yi_lam_2012]], [[Yi et al 2005][research_yi_liang_2005]], [[Yoneyama et al 2025][research_yoneyama_iizuka_2025]], [[Yoo et al 2025][research_yoo_vinot_2025]], [[Yoon and Kim 2001][research_yoon_kim_2001]], [[Young and Wang 2002][research_young_wang_2002]], [[Yuan et al 2016][research_yuan_wang_2016]], [[Yuan et al 2024][research_yuan_wei_2024]], [[Yuan et al 2021][research_yuan_yang_2021]], [[Yue et al 2025][research_yue_li_2025]], [[Yue and Shi 2018][research_yue_shi_2018]], [[Zarrelli et al 2006][research_zarrelli_partridge_2006]], [[Zeng et al 2025][research_zeng_gui_2025]], [[Zeng et al 2016][research_zeng_schubel_2016]], [[Zhang et al 2018][research_zhang_wang_2018]], [[Zhang et al 2019][research_zhang_wang_2019]], [[Zhang et al 2019][research_zhang_wang_2019_b]], [[Zhang et al 2026][research_zhang_wang_2026]], [[Zhang et al 2019][research_zhang_yang_2019]], [[Zhang et al 2026][research_zhang_ye_2026]], [[Zhang et al 2016][research_zhang_yin_2016]], [[Zhao et al 2020][research_zhao_zhang_2020]], [[Zhou et al 2014][research_zhou_xu_2014]], [[Zhou et al 2015][research_zhou_xu_2015]], [[Zok et al 2010][research_zok_fleck_2010]], [[Zumbo et al 2021][research_zumbo_bevacqua_2021]].
+
+### Voids, gas transport and the pressure that is not there
+
+**The keystone physics, and it is not a large cluster.** Void content, porosity, entrapped air, volatiles, permeability, resin flow and consolidation. **Everything an autoclave does with pressure, an out-of-autoclave process must do with transport** [[Out-of-autoclave prepreg consolidation Coupled air evacuation and prepreg impregnation modeling][research_coupled_evacuation]].
+
+[[A Look at the 2004][research_a_look_2004]], [[Abrahamsen and Faltinsen 2011][research_abrahamsen_faltinsen_2011]], [[Ahmad et al 2005][research_ahmad_hashim_2005]], [[Allsop et al 2025][research_allsop_tahir_2025]], [[Amico and Lekakou 2001][research_amico_lekakou_2001]], [[Anderson and Altan 2014][research_anderson_altan_2014]], [[Anderson and Altan 2015][research_anderson_altan_2015]], [[Anjali et al 2013][research_anjali_choudhry_2013]], [[Antartis et al 2015][research_antartis_dillon_2015]], [[Antonucci et al 2003][research_antonucci_giordano_2003]], [[Aqida et al 2012][research_aqida_ghazali_2012]], [[Ashbee 1986][research_ashbee_1986]], [[Austen and Avitzur 1974][research_austen_avitzur_1974]], [[Awenlimobor et al 2025][research_awenlimobor_sayah_2025]], [[Awenlimobor et al 2026][research_awenlimobor_sayah_2026]], [[Ayanoglu et al 2022][research_ayanoglu_carlsson_2022]], [[Bakhshi and Hojjati 2019][research_bakhshi_hojjati_2019]], [[Bandaru et al 2019][research_bandaru_clancy_2019]], [[Barnes and Mazey 1958][research_barnes_mazey_1958]], [[Barzegar et al 2021][research_barzegar_moallem_2021]], [[Bilyeu et al 2001][research_bilyeu_brostow_2001]], [[Binetruy et al 1998][research_binetruy_hilaire_1998]], [[Brinckman and Chaiko 2001][research_brinckman_chaiko_2001]], [[Bung and Valero 2018][research_bung_valero_2018]], [[Caballero et al 2021][research_caballero_gonzalez_2021]], [[Caballero Garzón][research_caballerogarzon]], [[Cai 1992][research_cai_1992]], [[Cai et al 1992][research_cai_gutowski_1992]], [[Cary 1967][research_cary_1967]], [[Castro Arias][research_castroarias]], [[Chahal 1966][research_chahal_1966]], [[Chaiko and Brinckman 2001][research_chaiko_brinckman_2001]], [[Chang 2025][research_chang_2025]], [[Chen et al 2021][research_chen_wu_2021]], [[Chen et al 2004][research_chen_ye_2004]], [[Chenlong Yang 2011][research_chenlongyang_2011]], [[Chosie and Vasconcelos 2013][research_chosie_vasconcelos_2013]], [[Christiansen 1944][research_christiansen_1944]], [[Composites. Prepregs. Determination of][research_composites_prepregs]], [[D3530_D3530M Test Method for 2008][research_d3530_d3530m_test_2008]], [[Dai et al 2010][research_dai_he_2010]], [[Daniel et al 1992][research_daniel_wooh_1992]], [[Danzi et al 2016][research_danzi_klunker_2016]], [[Davé 1990][research_dave_1990]], [[Dave et al 1987][research_dave_kardos_1987]], [[Dave et al 1987][research_dave_kardos_1987_b]], [[Dehghani et al 2025][research_dehghani_perrin_2025]], [[DeValve and Pitchumani 2013][research_devalve_pitchumani_2013]], [[Duong et al 2015][research_duong_duclos_2015]], [[Eldeeb et al 2026][research_eldeeb_xu_2026]], [[Endruweit et al 2022][research_endruweit_matveev_2022]], [[Eum et al 2007][research_eum_kageyama_2007]], [[Fan et al 2024][research_fan_hou_2024]], [[Feng et al 2024][research_feng_li_2024]], [[Feng et al 2019][research_feng_zhou_2019]], [[Firoozkoohi et al 2017][research_firoozkoohi_abrahamsen_2017]], [[Fuller and Gammell 1987][research_fuller_gammell_1987]], [[Gangloff et al 2014][research_gangloff_simacek_2014]], [[Garrett et al 2025][research_garrett_allen_2025]], [[Gayot et al 2022][research_gayot_soete_2022]], [[Geng 2021][research_geng_2021]], [[George et al 2020][research_george_rapking_2020]], [[Gorthala et al 1994][research_gorthala_roux_1994]], [[Grelsson 1992][research_grelsson_1992]], [[Grunenfelder and Nutt 2010][research_grunenfelder_nutt_2010]], [[Gu et al 2006][research_gu_li_2006]], [[Gu et al 2008][research_gu_li_2008]], [[Guemes 2001][research_guemes_2001]], [[Gueroult et al 2013][research_gueroult_lebellavacry_2013]], [[Haghshenas et al 2018][research_haghshenas_vaziri_2018]], [[Hamada et al 1995][research_hamada_ikegawa_1995]], [[Hanafiah and Othman 2022][research_hanafiah_othman_2022]], [[Handley et al 1987][research_handley_hughes_1987]], [[He et al 2020][research_he_li_2020]], [[Helmus et al 2016][research_helmus_kratz_2016]], [[Hojjati and Kheradpisheh 2023][research_hojjati_kheradpisheh_2023]], [[Hsu and Jeong 1989][research_hsu_jeong_1989]], [[Hsu and Nair 1987][research_hsu_nair_1987]], [[Huang and Daehn 1998][research_huang_daehn_1998]], [[Huang et al 2021][research_huang_fan_2021]], [[Huang et al 2022][research_huang_fan_2022]], [[Huang and Yung 2010][research_huang_yung_2010]], [[Huang and Zhu 2020][research_huang_zhu_2020]], [[Hubert and Poursartip 2001][research_hubert_poursartip_2001]], [[Hughes et al 1988][research_hughes_handley_1988]], [[Iba and Hokoi 2009][research_iba_hokoi_2009]], [[Iba and Hokoi 2010][research_iba_hokoi_2010]], [[Improved preimpregnated material comprising 1992][research_improved_preimpregnated_1992]], [[Ishida et al 2020][research_ishida_kitada_2020]], [[Ishii et al 2016][research_ishii_biwa_2016]], [[Islam et al 2022][research_islam_donough_2022]], [[Jeong 1997][research_jeong_1997]], [[Jeong and Hsu 1995][research_jeong_hsu_1995]], [[Johnson and Pitchumani 2008][research_johnson_pitchumani_2008]], [[Jona and Goren 1971][research_jona_goren_1971]], [[Kalatur et al 2014][research_kalatur_buyakova_2014]], [[Kanetoh and Yokoi 2012][research_kanetoh_yokoi_2012]], [[Kardos et al 1983][research_kardos_dudukovic_1983]], [[Karumbaiah et al 2019][research_karumbaiah_kracke_2019]], [[Kedari et al 2011][research_kedari_farah_2011]], [[Keller and van der Kamp 1992][research_keller_vanderkamp_1992]], [[Kermani et al 2018][research_kermani_simacek_2018]], [[Kim et al 2023][research_kim_choi_2023]], [[Klosterman et al 2020][research_klosterman_browning_2020]], [[Kotomin and Avdeev 2003][research_kotomin_avdeev_2003]], [[Krach and Advani 1996][research_krach_advani_1996]], [[Kratz et al 2017][research_kratz_mahapatra_2017]], [[Kulkov et al 2015][research_kulkov_buyakova_2015]], [[Lai et al 2015][research_lai_wang_2015]], [[Larimore et al 2012][research_larimore_holmes_2012]], [[Laux et al 2002][research_laux_cros_2002]], [[Lay et al 1998][research_lay_brunet_1998]], [[LeBel et al 2017][research_lebel_ruiz_2017]], [[Lebel-Lavacry et al 2012][research_lebellavacry_park_2012]], [[Lee et al 2025][research_lee_duhovic_2025]], [[Lee et al 2026][research_lee_duhovic_2026]], [[Lee and Lee 2003][research_lee_lee_2003]], [[Li and Bai 2024][research_li_bai_2024]], [[Li et al 2024][research_li_yin_2024]], [[Li et al 2022][research_li_zhang_2022]], [[Liang et al 2024][research_liang_zhang_2024]], [[Liang et al 2023][research_liang_zhuang_2023]], [[Liew and Wong 2026][research_liew_wong_2026]], [[Lin et al 2020][research_lin_zhang_2020]], [[Liu and Wu 2010][research_liu_wu_2010]], [[Liu et al 2026][research_liu_wu_2026]], [[Llorca 2000][research_llorca_2000]], [[Llorca 2018][research_llorca_2018]], [[Lu and Liu 2013][research_lu_liu_2013]], [[Lundström 1997][research_lundstrom_1997]], [[Ma et al 2024][research_ma_gao_2024]], [[Mandell and Tsai 1990][research_mandell_tsai_1990]], [[Matsuzaki et al 2013][research_matsuzaki_seto_2013]], [[McGovern and Jar 1999][research_mcgovern_jar_1999]], [[Mendikute et al 2022][research_mendikute_baskaran_2022]], [[Merotte et al 2020][research_merotte_bahramshahi_2020]], [[Method for producing a 1978][research_method_for_1978]], [[Michaels et al 1993][research_michaels_michaels_1993]], [[Michaud 2016][research_michaud_2016]], [[Mignolet 1994][research_mignolet_1994]], [[Mori and Minakuchi 2026][research_mori_minakuchi_2026]], [[Morrison and Bader 1989][research_morrison_bader_1989]], [[Moyer 1975][research_moyer_1975]], [[Muser 1968][research_muser_1968]], [[Nagy et al 1987][research_nagy_rypien_1987]], [[Nagy et al 1987][research_nagy_rypien_1987_b]], [[Nair et al 1989][research_nair_hsu_1989]], [[Naskar and Edie 2006][research_naskar_edie_2006]], [[Newaz and Majumdar 1994][research_newaz_majumdar_1994]], [[Nixon-Pearson et al 2016][research_nixonpearson_belnoue_2016]], [[Okereke et al 2017][research_okereke_paulbuckley_2017]], [[Olarewaju and Lee 1991][research_olarewaju_lee_1991]], [[Oromiehie et al 2019][research_oromiehie_garbe_2019]], [[Osama 2024][research_osama_2024]], [[Paithankar et al 1990][research_paithankar_sangani_1990]], [[Pal 2005][research_pal_2005]], [[Pang et al 2014][research_pang_li_2014]], [[Pantaloni et al 2020][research_pantaloni_bourmaud_2020]], [[Parham 1971][research_parham_1971]], [[Park et al 2010][research_park_choi_2010]], [[Parnas 1998][research_parnas_1998]], [[Patel et al 2020][research_patel_gajjar_2020]], [[Patel and Lee 1995][research_patel_lee_1995]], [[Patel and Lee 1996][research_patel_lee_1996]], [[Peng et al 2024][research_peng_li_2024]], [[Phillips et al 2018][research_phillips_agarwal_2018]], [[Podymova and Karabutov 2013][research_podymova_karabutov_2013]], [[Porosity characterization in thin 1994][research_porosity_characterization_1994]], [[Pozos-Estrada 2025][research_pozosestrada_2025]], [[Precup 2025][research_precup_2025]], [[Process for the production 1988][research_process_for_1988]], [[Quintana-Molina et al 2023][research_quintanamolina_pradohernandez_2023]], [[Rahatekar and Roux 2003][research_rahatekar_roux_2003]], [[Reed et al 1993][research_reed_batzinger_1993]], [[Ren et al 2017][research_ren_wang_2017]], [[Rizzolo and Walczyk 2014][research_rizzolo_walczyk_2014]], [[Rizzolo and Walczyk 2016][research_rizzolo_walczyk_2016]], [[Roychowdhury et al 1992][research_roychowdhury_gillespie_1992]], [[Roychowdhury et al 2001][research_roychowdhury_gillespie_2001]], [[Salem et al 2012][research_salem_elgaraihy_2012]], [[Samantaray et al 2023][research_samantaray_misra_2023]], [[Sarthak Mahapatra et al 2021][research_sarthakmahapatra_belnoue_2021]], [[Sawaragi and Nochino 1987][research_sawaragi_nochino_1987]], [[Schell et al 2007][research_schell_deleglise_2007]], [[Scherer 2008][research_scherer_2008]], [[Sebaey et al 2021][research_sebaey_bouhrara_2021]], [[Seferis 2006][research_seferis_2006]], [[Seferis 2009][research_seferis_2009]], [[Shah and Clifford 2015][research_shah_clifford_2015]], [[Shanthar et al 2026][research_shanthar_prosser_2026]], [[Shen et al 2019][research_shen_guo_2019]], [[Shen et al 2026][research_shen_he_2026]], [[Shi et al 2016][research_shi_villegas_2016]], [[Shi et al 2023][research_shi_wang_2023]], [[Shi et al 2024][research_shi_wang_2024]], [[Shim and Seferis 1997][research_shim_seferis_1997]], [[Shokrollahi et al 2020][research_shokrollahi_toghraie_2020]], [[Shoukroun et al 2021][research_shoukroun_olivo_2021]], [[Smith and Poursartip 1993][research_smith_poursartip_1993]], [[Song 2006][research_song_2006]], [[Stamopoulos et al 2015][research_stamopoulos_tserpes_2015]], [[Standard Test Method for][research_standard_test]], [[Suarez, J. and Dastin, S. 1992][research_suarezj_dastins_1992]], [[Tahir et al 2024][research_tahir_allsop_2024]], [[Tang et al 1987][research_tang_lee_1987]], [[Tang and Postle 2000][research_tang_postle_2000]], [[Test Method for Volatiles][research_test_method]], [[Test Method for Resin 1900][research_test_method_1900_b]], [[Test Method for Volatiles 2008][research_test_method_2008]], [[Test Method for Carbon][research_test_method_d]], [[Test Method for Determination][research_test_method_e]], [[Test Method for Resin][research_test_method_g]], [[Test methods for the][research_test_methods_e]], [[Thomas and Nutt 2009][research_thomas_nutt_2009]], [[Timms et al 2012][research_timms_bickerton_2012]], [[Titomanlio et al 1984][research_titomanlio_piccarolo_1984]], [[Tittmann et al 1986][research_tittmann_hosten_1986]], [[Turturro et al 2020][research_turturro_caputo_2020]], [[Um et al 2009][research_um_byun_2009]], [[Ungar 1975][research_ungar_1975]], [[van den Nieuwenhuizen and Miller 1994][research_vandennieuwenhuizen_miller_1994]], [[Vasconcelos and Chosie 2013][research_vasconcelos_chosie_2013]], [[Vasconcelos and Leite 2011][research_vasconcelos_leite_2011]], [[Vasconcelos et al 2011][research_vasconcelos_wright_2011]], [[Vaxman et al 2011][research_vaxman_narkis_2011]], [[Verheus and Peeters 1993][research_verheus_peeters_1993]], [[Vivian Silveira et al 2025][research_viviansilveira_canhotoalves_2025]], [[Vo et al 2022][research_vo_pucci_2022]], [[Vogl et al 2024][research_vogl_knott_2024]], [[Walbran et al 2012][research_walbran_bickerton_2012]], [[Walter et al 2026][research_walter_beausoleil_2026]], [[Wang and Gao 2016][research_wang_gao_2016]], [[Wang et al 2022][research_wang_he_2022]], [[Wang et al 1993][research_wang_matlock_1993]], [[Wang et al 2026][research_wang_ren_2026]], [[Wang and Vasconcelos 2018][research_wang_vasconcelos_2018]], [[Wang et al 2023][research_wang_xu_2023]], [[Warda et al 2019][research_warda_wahba_2019]], [[Warner 1960][research_warner_1960]], [[Wu et al 2010][research_wu_fakcharoenphol_2010]], [[Wymer and Engel 1994][research_wymer_engel_1994]], [[Yang et al 2019][research_yang_wang_2019_b]], [[Yang and Yang 2022][research_yang_yang_2022]], [[Yang and Yang 2023][research_yang_yang_2023]], [[Yang and Yang 2024][research_yang_yang_2024]], [[Yas and Hojjati 2026][research_yas_hojjati_2026]], [[Yeager et al 2015][research_yeager_simacek_2015]], [[Yin 2012][research_yin_2012]], [[Yoon et al 2004][research_yoon_chung_2004]], [[Young 1995][research_young_1995_b]], [[Zalameda and Smith 1994][research_zalameda_smith_1994]], [[Zhang et al 2017][research_zhang_heider_2017_b]], [[Zhang et al 2011][research_zhang_hongkepan_2011]], [[Zhang et al 2025][research_zhang_li_2025]], [[Zhang et al 2025][research_zhang_li_2025_b]], [[Zhang et al 2026][research_zhang_prabha_2026]], [[Zhang and Vairavarnoorthy 2006][research_zhang_vairavarnoorthy_2006]], [[Zhou et al 2013][research_zhou_li_2013]], [[Zhu et al 2015][research_zhu_cai_2015]].
+
+### Consolidating without a pressure vessel, which is the whole premise
+
+**The premise, stated as a shelf.** Out-of-autoclave and vacuum-bag-only processing, the autoclave it is measured against, debulking, bagging and the consolidation pressure each route supplies. **This cluster is smaller than the cure cluster and that ordering is itself a finding**, because the difficulty of the method turns out to live in the chemistry rather than in the bag [[Comparison of Autoclave and Out-of-Autoclave Composites][research_sutter_comparison]].
+
+[[Agius and Fox 2015][research_agius_fox_2015]], [[Air evacuation during vacuum bag only prepreg processing of honeycomb sandwich structures In-plane air extraction prior to cure][research_air_evacuation_sandwich]], [[Aldhahri and Klosterman 2025][research_aldhahri_klosterman_2025]], [[Alshahrani and Hojjati 2017][research_alshahrani_hojjati_2017]], [[Amirkhosravi et al 2017][research_amirkhosravi_pishvar_2017]], [[Analysis of vbo governing 2021][research_analysis_of_2021]], [[Anandan et al 2016][research_anandan_dhaliwal_2016]], [[Anders et al 2022][research_anders_nutt_2022]], [[Arikan et al 2022][research_arikan_eroglu_2022]], [[Autoclave cures composite aircraft 2000][research_autoclave_cures_2000]], [[Autoclave Curing 2025][research_autoclave_curing_2025]], [[Barzoki et al 2019][research_barzoki_ipakchi_2019]], [[Bellisario 2023][research_bellisario_2023]], [[Bellisario et al 2019][research_bellisario_quadrini_2019]], [[Bloom et al 2014][research_bloom_napper_2014]], [[Boey 1988][research_boey_1988]], [[Bregman et al 2024][research_bregman_lee_2024]], [[Bulk factor characterization of heated debulked autoclave and out-of-autoclave carbon fibre prepregs][research_bulk_factor]], [[Canaroli et al 2025][research_canaroli_baldi_2025]], [[Centea et al 2015][research_centea_grunenfelder_2015]], [[Centea and Hubert 2011][research_centea_hubert_2011]], [[Centea and Hubert 2012][research_centea_hubert_2012]], [[Centea and Hubert 2013][research_centea_hubert_2013]], [[Centea and Nutt 2015][research_centea_nutt_2015]], [[Chang and Young 2023][research_chang_young_2023]], [[Chang et al 2016][research_chang_zhan_2016]], [[Chang et al 2017][research_chang_zhan_2017]], [[Chava and Namilae 2022][research_chava_namilae_2022]], [[Chen et al 2018][research_chen_gao_2018]], [[Ciriscioli et al 1992][research_ciriscioli_qiulingwang_1992]], [[Ciriscioli and Springer 2021][research_ciriscioli_springer_2021]], [[Ciriscioli and Springer 2021][research_ciriscioli_springer_2021_b]], [[C. Jin et al 2019][research_cjin_li_2019]], [[Cloth, Type "e" Glass][research_cloth_type]], [[Cloth, Type "E" Glass][research_cloth_type_b]], [[Comer et al 2019][research_comer_ray_2019]], [[Continuous monitoring system for 1990][research_continuous_monitoring_1990]], [[Coulehan 1984][research_coulehan_1984]], [[Out-of-autoclave prepreg consolidation Coupled air evacuation and prepreg impregnation modeling][research_coupled_evacuation]], [[Crawford et al 2022][research_crawford_ramezankhani_2022]], [[Czarnocki and Czajkowska 2015][research_czarnocki_czajkowska_2015]], [[Dai et al 2023][research_dai_webb_2023]], [[Dang et al 2011][research_dang_bernetich_2011]], [[de Andrade Raponi et al 2020][research_deandraderaponi_barbosa_2020]], [[Effects of debulk temperature on air evacuation during vacuum bag-only prepreg processing][research_debulk_temperature]], [[de Faria Gonzales Leal et al 2024][research_defariagonzalesleal_depaulasantos_2024]], [[Degraff et al 2022][research_degraff_liang_2022]], [[de Lumley et al 2019][research_delumley_mathieu_2019]], [[Dewangan and Chakladar 2024][research_dewangan_chakladar_2024]], [[Diukov 2021][research_diukov_2021]], [[Domínguez and Madsen 2014][research_dominguez_madsen_2014]], [[Donetskiy et al 2022][research_donetskiy_timoshkov_2022]], [[Ekuase et al 2022][research_ekuase_anjum_2022]], [[°F Autoclave Cure, Low][research_f_autoclave]], [[﻿Fabrication of Glass Fiber-Reinforced 2023][research_fabrication_of_2023]], [[Fanteria et al 2023][research_fanteria_karachalios_2023]], [[Fernández et al 2003][research_fernandez_blas_2003]], [[Fernlund et al 2018][research_fernlund_mobuchon_2018]], [[Fernlund et al 2003][research_fernlund_osooly_2003]], [[Filippov et al 2026][research_filippov_pervukhin_2026]], [[Fukuda 2001][research_fukuda_2001]], [[Gackowski et al 2023][research_gackowski_sharma_2023]], [[Galiana 2022][research_galiana_2022]], [[Galvez-Hernandez et al 2024][research_galvezhernandez_nazemi_2024]], [[Gangloff et al 2016][research_gangloff_cender_2016]], [[Gleason 1983][research_gleason_1983]], [[Greber 2022][research_greber_2022]], [[Grunenfelder et al 2017][research_grunenfelder_dills_2017]], [[Hamill et al 2015][research_hamill_centea_2015]], [[Hank et al 2022][research_hank_lee_2022]], [[Haschenburger 2021][research_haschenburger_2021]], [[Helmus et al 2015][research_helmus_hinterholzl_2015]], [[Hernandez Caraballa et al 2022][research_hernandezcaraballa_bregman_2022]], [[Hidayat 2018][research_hidayat_2018]], [[Holmes et al 2012][research_holmes_larryr_2012]], [[Holmes and Larry R. 2012][research_holmes_larryr_2012_b]], [[Hong et al 2016][research_hong_song_2016]], [[Hou et al 2013][research_hou_miller_2013]], [[Howell and Hines 2024][research_howell_hines_2024]], [[Hu et al 2019][research_hu_centea_2019]], [[Hubert 2023][research_hubert_2023]], [[Hubert et al 2018][research_hubert_centea_2018]], [[Hudson et al 2021][research_hudson_follis_2021]], [[Hudson et al 2026][research_hudson_pankiewicz_2026]], [[Iorio et al 2023][research_iorio_quadrini_2023]], [[Janzen and May 2023][research_janzen_may_2023]], [[Jayasree et al 2020][research_jayasree_omairey_2020]], [[Jiang et al 2021][research_jiang_he_2021]], [[Jinno et al 2003][research_jinno_sakai_2003]], [[Joven and Minaie 2018][research_joven_minaie_2018]], [[Joven et al 2013][research_joven_tavakol_2013]], [[Kaur et al 2016][research_kaur_anandan_2016]], [[Kaushik and Raghavan 2010][research_kaushik_raghavan_2010]], [[Khan et al 2017][research_khan_khan_2017]], [[Kim et al 2024][research_kim_jang_2024]], [[Kim et al 2004][research_kim_kim_2004]], [[Kim and Lee 2012][research_kim_lee_2012]], [[Kim et al 2020][research_kim_lee_2020]], [[Koushyar et al 2011][research_koushyar_alavisoltani_2011]], [[Kratz and Hubert 2015][research_kratz_hubert_2015]], [[Kratz and Hubert 2015][research_kratz_hubert_2015_b]], [[Krogh et al 2020][research_krogh_jakobsen_2020]], [[Kubiś et al 2018][research_kubis_seredynski_2018]], [[Kunc et al 2017][research_kunc_duty_2017]], [[Laboratory production of discontinuous-aligned 1986][research_laboratory_production_1986]], [[Lachana Dora and Mishra 2022][research_lachanadora_mishra_2022]], [[Lane et al 2011][research_lane_higgins_2011]], [[Lee et al 2018][research_lee_ni_2018]], [[LeMay 2019][research_lemay_2019]], [[LeMay and Askari 2018][research_lemay_askari_2018]], [[Levy and Hubert 2019][research_levy_hubert_2019]], [[Li et al 2012][research_li_fu_2012]], [[Liapi et al 2025][research_liapi_saffar_2025]], [[Liu et al 2024][research_liu_he_2024]], [[Louis and Ermanni 2012][research_louis_ermanni_2012]], [[Lu et al 2023][research_lu_evans_2023]], [[Ma et al 2015][research_ma_centea_2015]], [[Maes et al 2022][research_maes_radhakrishnan_2022]], [[Maffezzoli and Grieco 2012][research_maffezzoli_grieco_2012]], [[Maguire et al 2020][research_maguire_nayak_2020]], [[Mahdavi et al 2017][research_mahdavi_gupta_2017]], [[Mahdi et al 2003][research_mahdi_kim_2003]], [[Mallow and Campbell 2000][research_mallow_campbell_2000]], [[Manson and Seferis 1989][research_manson_seferis_1989]], [[Martins et al 2018][research_martins_gomes_2018]], [[McDonald et al 2014][research_mcdonald_wallace_2014]], [[Md Hanafiah and Othman 2024][research_mdhanafiah_othman_2024]], [[Md Hanafiah and Othman 2024][research_mdhanafiah_othman_2024_b]], [[Medium Temperature, Out-of-Autoclave, Oven-Vacuum-Bag][research_medium_temperature]], [[Mestnikov et al 2016][research_mestnikov_semenov_2016]], [[Method and apparatus for 1994][research_method_and_1994]], [[Mezeix et al 2014][research_mezeix_nasir_2014]], [[Mezeix et al 2015][research_mezeix_seman_2015]], [[Mohan et al 2016][research_mohan_alshahrani_2016]], [[Moretti et al 2021][research_moretti_olivier_2021]], [[Mujahid et al 2020][research_mujahid_sallih_2020]], [[Müller et al 2017][research_muller_palardy_2017]], [[Narayana Swamy][research_narayanaswamy]], [[Netzel et al 2021][research_netzel_hoffmann_2021]], [[Netzel et al 2021][research_netzel_mordasini_2021]], [[Nguyen et al 2018][research_nguyen_ju_2018]], [[Nieto-León et al 2022][research_nietoleon_rodriguezbellido_2022]], [[Nilakantan and Nutt 2017][research_nilakantan_nutt_2017]], [[Niu et al 2026][research_niu_hui_2026]], [[Njionhou et al 2012][research_njionhou_berthet_2012]], [[Nur Hafzareen Md Hanafiah et al 2024][research_nurhafzareenmdhanafiah_abdulrahimothman_2024]], [[Nur Hafzareen Md Hanafiah et al 2024][research_nurhafzareenmdhanafiah_abdulrahimothman_2024_b]], [[Oliveri et al 2021][research_oliveri_zucco_2021]], [[Olivier and Serrano 2023][research_olivier_serrano_2023]], [[Orozco][research_orozco]], [[Out of autoclave manufacturing][research_out_of_autoclave]], [[Effect of room-temperature out-time on tow impregnation in an out-of-autoclave prepreg][research_outtime_tow_impregnation]], [[Páez et al 2022][research_paez_utrera_2022]], [[Park et al 2018][research_park_choi_2018]], [[Paul et al 2021][research_paul_andrea_2021]], [[Pishvar et al 2017][research_pishvar_amirkhosravi_2017]], [[Pishvar et al 2018][research_pishvar_amirkhosravi_2018]], [[Polyxeni et al 2019][research_polyxeni_christina_2019]], [[Popineau et al 2021][research_popineau_celino_2021]], [[Pourahmadi et al 2024][research_pourahmadi_shadmehri_2024]], [[Préau and Hubert 2018][research_preau_hubert_2018]], [[Prepreg requires no autoclaving 1998][research_prepreg_requires_1998]], [[Quadrini et al 2021][research_quadrini_santoro_2021]], [[Quinlan et al 2014][research_quinlan_farhang_2014]], [[Rajmohan and Arunachalam 2022][research_rajmohan_arunachalam_2022]], [[Ren and Zhang 2025][research_ren_zhang_2025]], [[Ren and Zhang 2025][research_ren_zhang_2025_b]], [[Ryan et al 2023][research_ryan_ridgard_2023]], [[Saenz-Castillo et al 2020][research_saenzcastillo_martin_2020]], [[Saffar et al 2022][research_saffar_beauchene_2022]], [[Saffar et al 2020][research_saffar_sonnenfeld_2020]], [[Samaratunga et al 2021][research_samaratunga_severino_2021]], [[Santoro et al 2020][research_santoro_bellisario_2020]], [[Schechter et al 2018][research_schechter_centea_2018]], [[Schechter et al 2020][research_schechter_centea_2020]], [[Mitigating void growth in out-of-autoclave prepreg processing using a semi-permeable membrane to maintain resin pressure][research_semipermeable_membrane]], [[Seon et al 2020][research_seon_nikishkov_2020]], [[Serrano et al 2017][research_serrano_olivier_2017]], [[Shaik et al 2021][research_shaik_ramakrishna_2021]], [[Sherwin 1999][research_sherwin_1999]], [[Sheu and Young 2023][research_sheu_young_2023]], [[Soltani et al 2014][research_soltani_le_2014]], [[Staal et al 2022][research_staal_caglar_2022]], [[Stark et al 2013][research_stark_jaunich_2013]], [[Steiner and Sandor 1991][research_steiner_sandor_1991]], [[Steiner and Sandor 1992][research_steiner_sandor_1992]], [[Stroe et al 2025][research_stroe_crunteanu_2025]], [[Strong 2026][research_strong_2026]], [[Suárez et al 2016][research_suarez_townsend_2016]], [[Subawi 2011][research_subawi_2011]], [[Sukia et al 2022][research_sukia_esnaola_2022]], [[Surjoseputro et al 2018][research_surjoseputro_blumel_2018]], [[Surjoseputro et al 2018][research_surjoseputro_blumel_2018_b]], [[Sussmann et al 2018][research_sussmann_amirkhosravi_2018]], [[Comparison of Autoclave and Out-of-Autoclave Composites][research_sutter_comparison]], [[Swamy et al 2023][research_swamy_grouve_2023]], [[Swamy et al 2024][research_swamy_grouve_2024]], [[Swamy et al 2023][research_swamy_wijskamp_2023]], [[Takagaki et al 2016][research_takagaki_hisada_2016]], [[Torres et al 2022][research_torres_sket_2022]], [[Torres et al 2022][research_torres_sket_2022_b]], [[Torres López][research_torreslopez]], [[Tubular autoclave for curing 1992][research_tubular_autoclave_1992]], [[Tuttle 1987][research_tuttle_1987]], [[Unitary vacuum bag for 1996][research_unitary_vacuum_1996]], [[van der Werff et al 2025][research_vanderwerff_heisserer_2025]], [[Villareal et al 2019][research_villareal_harden_2019]], [[Vora et al 2014][research_vora_vo_2014]], [[Wang et al 2016][research_wang_guan_2016]], [[Wang et al 2018][research_wang_zhu_2018]], [[Weber et al 2019][research_weber_englhard_2019]], [[Westergaard 2005][research_westergaard_2005]], [[Wilson et al 2016][research_wilson_currens_2016]], [[Wu and Xu 2025][research_wu_xu_2025]], [[Wu and Young 2022][research_wu_young_2022]], [[Wu and Young 2022][research_wu_young_2022_b]], [[Wu and Young 2022][research_wu_young_2022_c]], [[Xin et al 2010][research_xin_gu_2010]], [[Xin et al 2011][research_xin_li_2011]], [[Xu et al 2026][research_xu_wang_2026]], [[Xu and Xie 2025][research_xu_xie_2025]], [[Yang et al 2013][research_yang_gao_2013]], [[Yazıcı et al 2013][research_yazici_deniz_2013]], [[Youker and Harris-Ezell 2007][research_youker_harrisezell_2007]], [[Yue et al 2022][research_yue_xu_2022]], [[Yun et al 2026][research_yun_xu_2026]], [[Zeng and Raghavan 2010][research_zeng_raghavan_2010]], [[Zervos et al 2024][research_zervos_syriopoulos_2024]], [[Zhang et al 2017][research_zhang_heider_2017]], [[Zhang et al 2020][research_zhang_heider_2020]], [[Zhang et al 2007][research_zhang_li_2007]], [[Zorko 2025][research_zorko_2025]], [[Zou et al 2026][research_zou_yang_2026]].
+
+### Other work on composite materials, processing and structures
+
+**The residual, at 4.7 percent.** Composite work that carries an anchor and belongs to none of the eleven headings. A residual this size is a partition that fits, and A351's first attempt at one left thirty-six percent in the residual, which is not a finding about a literature but a statement about the shelves.
+
+[[Abouhamzeh et al 2014][research_abouhamzeh_sinke_2014]], [[Adams et al 1986][research_adams_gupta_1986]], [[Adams and Monib 1980][research_adams_monib_1980]], [[Alghamdi and Dodd 2007][research_alghamdi_dodd_2007]], [[Alkoc et al 2024][research_alkoc_hazaryoruc_2024]], [[Ambekar et al 2026][research_ambekar_shahi_2026]], [[Aminanda 2012][research_aminanda_2012]], [[Amitha N. R and Vrinda. T 2011][research_amithanr_vrindat_2011]], [[Antonucci et al 2006][research_antonucci_giordano_2006]], [[Ariyatum et al 2006][research_ariyatum_unnanon_2006]], [[Arnott et al 2002][research_arnott_rider_2002]], [[Aronhime and Gillham][research_aronhime_gillham]], [[Bascom 1964][research_bascom_1964]], [[Behera et al 2020][research_behera_thawre_2020]], [[Biron 2004][research_biron_2004]], [[Boller 1965][research_boller_1965]], [[Booth et al 2022][research_booth_cairns_2022]], [[Boria 2013][research_boria_2013]], [[Cadieu et al 2019][research_cadieu_kopp_2019]], [[Cameron 2025][research_cameron_2025]], [[Camponeschi et al 1994][research_camponeschi_bohlmann_1994]], [[Carlone and Palazzo 2009][research_carlone_palazzo_2009]], [[Carrillo and Cantwell 2009][research_carrillo_cantwell_2009]], [[Chang et al 2012][research_chang_zeng_2012]], [[Chen et al 2020][research_chen_poursartip_2020]], [[Childers et al 2016][research_childers_hassan_2016]], [[Chittaranjan . V and K. Muni Sekhar 2017][research_chittaranjanv_kmunisekhar_2017]], [[Choi and Lee 1995][research_choi_lee_1995]], [[Chu et al 1997][research_chu_mckenna_1997]], [[Conductive Thermoset Composites 2018][research_conductive_thermoset_2018]], [[Daines 1966][research_daines_1966]], [[Daissè et al 2022][research_daisse_marcon_2022]], [[Dauksys et al 1968][research_dauksys_pagano_1968]], [[DePasqual 2001][research_depasqual_2001]], [[Deshpande 2020][research_deshpande_2020]], [[Deshpande et al 2020][research_deshpande_shah_2020]], [[Ding et al 2007][research_ding_tong_2007]], [[Dong Wang et al 2019][research_dongwang_li_2019]], [[Drying of Thermosetting Composite][research_drying_of]], [[Dusi et al 1982][research_dusi_may_1982]], [[Effect of Layering on 2016][research_effect_of_2016]], [[Effects of graphite fiber 1989][research_effects_of_1989]], [[Epoxy resin moulding material 2002][research_epoxy_resin_2002]], [[Estridge 2018][research_estridge_2018]], [[Fang et al 2019][research_fang_li_2019]], [[Fantuzzi et al 2024][research_fantuzzi_dib_2024]], [[Farahani et al 2011][research_farahani_sefidgar_2011]], [[Fard et al 2011][research_fard_liu_2011]], [[Farmer and Covert 1993][research_farmer_covert_1993]], [[Farmer and Covert 1994][research_farmer_covert_1994]], [[Fibre-glass Reinforced Composite Components 1979][research_fibre_glass_reinforced_1979]], [[Forsman 1983][research_forsman_1983]], [[Fracture characterisation of random 1987][research_fracture_characterisation_1987]], [[Fredell and Guijt 2002][research_fredell_guijt_2002]], [[Freeman and Campbell 1972][research_freeman_campbell_1972]], [[Friedman 1961][research_friedman_1961]], [[Gama and Gillespie 2008][research_gama_gillespie_2008]], [[Ganesan and Vasudevan 2023][research_ganesan_vasudevan_2023]], [[Gerendt et al 2019][research_gerendt_dean_2019]], [[Gerzeski 1996][research_gerzeski_1996]], [[Gillham 1983][research_gillham_1983]], [[Gillham 1987][research_gillham_1987]], [[Gonzalez-Canche et al 2017][research_gonzalezcanche_floresjohnson_2017]], [[Griffin 1979][research_griffin_1979]], [[Guo et al 2005][research_guo_du_2005_b]], [[Henriksen et al 1983][research_henriksen_arthur_1983]], [[Hering 1983][research_hering_1983]], [[Heydarinouri et al 2021][research_heydarinouri_vidovic_2021]], [[Hickey and Campagna 1990][research_hickey_campagna_1990]], [[High-pressure decorative laminates HPL][research_high_pressure_decorative]], [[High temperature thermoset resin 2008][research_high_temperature_2008]], [[High temperature thermoset resin 2011][research_high_temperature_2011]], [[Hinrichs 1983][research_hinrichs_1983]], [[Hoa 1981][research_hoa_1981]], [[H P Kan and T A Dyer 1996][research_hpkan_tadyer_1996]], [[Hu et al 2013][research_hu_tang_2013]], [[Hui et al 2022][research_hui_xu_2022_b]], [[Hussain et al 2020][research_hussain_regalla_2020]], [[Iryani et al 2019][research_iryani_kadir_2019]], [[Ito et al 2014][research_ito_obo_2014]], [[Jae Ung Cho 2016][research_jaeungcho_2016]], [[Jegley et al 2001][research_jegley_bush_2001]], [[Jiang et al 2026][research_jiang_liao_2026]], [[John and George 1994][research_john_george_1994]], [[Jouyandeh et al 2019][research_jouyandeh_paran_2019]], [[Kaiser 1994][research_kaiser_1994]], [[Kale 2021][research_kale_2021]], [[Kang and Lee 1994][research_kang_lee_1994]], [[Karpouzian and Librescu 1994][research_karpouzian_librescu_1994]], [[Karthik et al 2023][research_karthik_rajamani_2023]], [[Kaware et al 2022][research_kaware_kotambkar_2022]], [[Kaware and Kotambkar 2023][research_kaware_kotambkar_2023]], [[Khalifa et al 2025][research_khalifa_lammer_2025]], [[Khalili et al 2010][research_khalili_malekzadeh_2010]], [[Khoun et al 2009][research_khoun_centea_2009]], [[Kim and Chang 2019][research_kim_chang_2019]], [[Kim et al 1993][research_kim_chiba_1993]], [[Kim et al 1995][research_kim_chiba_1995]], [[Kim et al 2020][research_kim_he_2020]], [[Kim and Inoue 1995][research_kim_inoue_1995]], [[Kishi and Odagiri][research_kishi_odagiri]], [[Klasztorny et al 2018][research_klasztorny_nycz_2018]], [[Klinger 1984][research_klinger_1984]], [[Kobayashi and Tanaka 2012][research_kobayashi_tanaka_2012]], [[Kruse et al 2025][research_kruse_balk_2025]], [[Kumar 2018][research_kumar_2018]], [[Kuppusamy 2018][research_kuppusamy_2018_b]], [[Lee et al 2015][research_lee_kim_2015]], [[Li and Larock 2003][research_li_larock_2003]], [[Lim and Kim 2024][research_lim_kim_2024]], [[Liu et al 2025][research_liu_wang_2025]], [[Lopato and Chady 2013][research_lopato_chady_2013]], [[Lopez et al 2020][research_lopez_salvador_2020]], [[Luo et al 2020][research_luo_mo_2020]], [[Manufacturing, structure and mechanical 2003][research_manufacturing_structure_2003]], [[Manzini and Roehl 1990][research_manzini_roehl_1990]], [[Matadi Boumbimba et al 2014][research_matadiboumbimba_froustey_2014]], [[May 1995][research_may_1995]], [[Mcallister and Hill 1984][research_mcallister_hill_1984]], [[Measuring thermoset resin viscosity 1999][research_measuring_thermoset_1999]], [[Medjahed et al 2019][research_medjahed_derradji_2019]], [[Mijović 1991][research_mijovic_1991]], [[Miotto and Dias 2015][research_miotto_dias_2015]], [[Miyano and Nakada 2020][research_miyano_nakada_2020]], [[Miyase et al 1993][research_miyase_wang_1993]], [[Mohan and Grentzer 1995][research_mohan_grentzer_1995]], [[Moisture and thermal expansion 1984][research_moisture_and_1984]], [[Morgan 2007][research_morgan_2007]], [[Ndiaye and Asl Sharhani 2026][research_ndiaye_aslsharhani_2026]], [[Nemes and Bodelle 1995][research_nemes_bodelle_1995]], [[Nhuapeng et al 2008][research_nhuapeng_kumfu_2008]], [[Noah Martimfold 2025][research_noahmartimfold_2025]], [[Nowak and Schmidt 2015][research_nowak_schmidt_2015]], [[Noyes 1965][research_noyes_1965]], [[Noyes 1966][research_noyes_1966]], [[Ogisu et al 2006][research_ogisu_shimanuki_2006]], [[Oh 2007][research_oh_2007]], [[Olaya et al 2025][research_olaya_ricks_2025]], [[Olusanya][research_olusanya]], [[Pang and Gillham 1988][research_pang_gillham_1988]], [[Pang and Gillham 1989][research_pang_gillham_1989]], [[Pantelelis 2005][research_pantelelis_2005]], [[Parham 1971][research_parham_1971_b]], [[Patel et al 2025][research_patel_ji_2025]], [[Perala et al 1979][research_perala_lee_1979]], [[Petersson et al 2013][research_petersson_motte_2013]], [[Pethrick et al 2009][research_pethrick_miller_2009]], [[Philippidis et al 1999][research_philippidis_lekou_1999]], [[Polyester, fibreglass-reinforced composite laminate 1978][research_polyester_fibreglass_reinforced_1978]], [[Portanova, Marc A. 1994][research_portanovamarca_1994]], [[Prabhakar 2020][research_prabhakar_2020]], [[Preface - Thermoset Resins 1998][research_preface_1998]], [[Processing of high-reactivity epoxy 1975][research_processing_of_1975]], [[Quagliato et al 2019][research_quagliato_jang_2019]], [[Ramezani 2020][research_ramezani_2020]], [[Ramos et al 2006][research_ramos_frazao_2006]], [[Rashedi et al 2016][research_rashedi_sridhar_2016]], [[Ratna 2022][research_ratna_2022]], [[Ratna 2022][research_ratna_2022_b]], [[Ratna 2022][research_ratna_2022_c]], [[Sachse et al 2020][research_sachse_pickett_2020]], [[Secondary Bonding 2001][research_secondary_bonding_2001]], [[Shang 2023][research_shang_2023]], [[Shevtsov et al 2012][research_shevtsov_zhilyaev_2012]], [[Shibata 2013][research_shibata_2013]], [[Shim and Ahn 2013][research_shim_ahn_2013]], [[Shimokawa et al 2007][research_shimokawa_kakuta_2007]], [[Shokrieh and Taheri Behrooz 2001][research_shokrieh_taheribehrooz_2001]], [[Sikarwar et al 2017][research_sikarwar_velmurugan_2017]], [[Singer 1956][research_singer_1956]], [[Smith 1968][research_smith_1968]], [[Solodov et al 2018][research_solodov_segur_2018]], [[Sorrentino and Bellini 2015][research_sorrentino_bellini_2015]], [[Sorrentino et al 2013][research_sorrentino_polini_2013]], [[Sorrentino and Tersigni 2010][research_sorrentino_tersigni_2010]], [[Specification for Filament-Wound Glass-Fiber-Reinforced][research_specification_for]], [[Specification for Filament-Wound Glass-Fiber-Reinforced 2008][research_specification_for_2008]], [[Specification for Contact-Molded Glass-Fiber-Reinforced][research_specification_for_b]], [[Sreenivasa and Joshi 2013][research_sreenivasa_joshi_2013]], [[Starr and Starr 1998][research_starr_starr_1998]], [[Starr and Starr 1998][research_starr_starr_1998_b]], [[Stenberg 1988][research_stenberg_1988]], [[Strasser et al 2024][research_strasser_moukhina_2024]], [[Su et al 1999][research_su_mai_1999]], [[Sugiman and Crocombe 2012][research_sugiman_crocombe_2012]], [[Sun and Huang 2016][research_sun_huang_2016]], [[Thermoset resin impregnated web 1983][research_thermoset_resin_1983]], [[Thermoset resin demand to 1995][research_thermoset_resin_1995]], [[Thermoset Resin Stoichiometry Calculations 2016][research_thermoset_resin_2016]], [[Thermoset Resins - A][research_thermoset_resins]], [[Tifkitsis et al 2023][research_tifkitsis_winistoerfer_2023]], [[Tobin et al 2024][research_tobin_kumarbandaru_2024]], [[Tong and Appleby-Hougham 1986][research_tong_applebyhougham_1986]], [[Toughened thermoset resin matrix 2015][research_toughened_thermoset_2015]], [[Toutanji and Ortiz 2001][research_toutanji_ortiz_2001]], [[Trends in thermoset resin 1993][research_trends_in_1993]], [[Turns and Kraige][research_turns_kraige]], [[Tyler et al 2009][research_tyler_brady_2009]], [[Upper Atmosphere Re-Entry Study 1961][research_upper_atmosphere_1961]], [[Urbaniak and Grudzinski 2007][research_urbaniak_grudzinski_2007]], [[Urbaniak and Grudzinski 2007][research_urbaniak_grudzinski_2007_b]], [[Varley et al 1996][research_varley_hodgkin_1996]], [[Vernigora et al 2020][research_vernigora_sypchenko_2020]], [[Vernigora et al 2020][research_vernigora_sypchenko_2020_b]], [[Vistein et al 2019][research_vistein_deden_2019]], [[Walrath and Adams 1980][research_walrath_adams_1980]], [[Wang et al 2016][research_wang_ji_2016]], [[Wang et al 2020][research_wang_wang_2020]], [[Wang et al 2025][research_wang_xu_2025]], [[Ward 1974][research_ward_1974]], [[Warrior et al 2001][research_warrior_wilson_2001]], [[Williams et al 1984][research_williams_borrajo_1984]], [[Wolff 1987][research_wolff_1987]], [[Wright et al 2022][research_wright_darville_2022]], [[Xu et al 2024][research_xu_liu_2024]], [[Xu and Schlup 1998][research_xu_schlup_1998]], [[Xu et al 2024][research_xu_zhang_2024]], [[Yamanaka et al 2023][research_yamanaka_matsubara_2023]], [[Yasa and Ersoy 2018][research_yasa_ersoy_2018]], [[Yoon et al 2019][research_yoon_kim_2019]], [[Yuan et al 2021][research_yuan_kong_2021]], [[Zeng et al 2023][research_zeng_leng_2023]], [[Zhang et al 2023][research_zhang_lin_2023]], [[Zhang et al 2016][research_zhang_liu_2016]], [[Zhang et al 2022][research_zhang_xu_2022]], [[Zhang et al 2022][research_zhang_xu_2022_b]], [[Zu et al 2024][research_zu_luo_2024]], [[Zu et al 2017][research_zu_zhou_2017]].
+
+### The atmosphere, which bounds what a vacuum bag can do
+
+**Small, and load-bearing in exactly one place.** The standard atmosphere, pressure altitude and the barometric relation. **A vacuum bag cannot press harder than the air outside it**, so the elevation of the factory floor enters a manufacturing specification, and this shelf is what that computation stands on [[U.S. Standard Atmosphere][ref_us_standard_atmosphere]].
+
+[[A Properties of Standard 2006][research_a_properties_2006]], [[Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]], [[Appendix A. The Standard 2011][research_appendix_a_2011]], [[Appendix A Standard Atmosphere 2021][research_appendix_a_2021]], [[Atmosphere standard atmosphere 2006][research_atmosphere_standard_2006]], [[B-34. U. S. Standard 1963][research_b_34_u_1963]], [[Brown 2012][research_brown_2012]], [[Definition of the standard 1954][research_definition_of_1954]], [[Essenhigh 2006][research_essenhigh_2006]], [[Everett et al 1972][research_everett_cashwell_1972]], [[Gooch 2011][research_gooch_2011_d]], [[Gooch 2011][research_gooch_2011_e]], [[International Standard Atmosphere 2010][research_international_standard_2010]], [[Kang et al 2023][research_kang_meng_2023]], [[Kang et al 2023][research_kang_zhao_2023]], [[Kaushik 2018][research_kaushik_2018]], [[Lee and Aldredge 2015][research_lee_aldredge_2015]], [[Minimum Performance Standard for][research_minimum_performance]], [[Minimum Performance Standard for][research_minimum_performance_b]], [[Paper, board and pulps][research_paper_board]], [[pressure altitude 2014][research_pressure_altitude_2014]], [[pressure-altitude variation 2014][research_pressure_altitude_variation_2014]], [[Pressures and Temperatures for 2000][research_pressures_and_2000]], [[Report No. 538, altitude-pressure 1935][research_report_no_1935]], [[Space environment natural and][research_space_environment]], [[Standard Atmosphere][research_standard_atmosphere]], [[Standard atmosphere chart 1927][research_standard_atmosphere_1927]], [[Standard atmosphere chart supersedes 1927][research_standard_atmosphere_1927_b]], [[Standard Atmosphere 2005][research_standard_atmosphere_2005]], [[Standard atmosphere 2007][research_standard_atmosphere_2007]], [[Standard Atmosphere Data 2013][research_standard_atmosphere_2013]], [[standard atmosphere 2014][research_standard_atmosphere_2014]], [[standard atmosphere for preconditioning 2021][research_standard_atmosphere_2021]], [[standard atmosphere for testing 2021][research_standard_atmosphere_2021_b]], [[Standard Atmosphere 2023][research_standard_atmosphere_2023]], [[Standard Atmosphere 2024][research_standard_atmosphere_2024]], [[The Flight Environment Standard 2021][research_the_flight_2021]], [[The International Standard Atmosphere 2017][research_the_international_2017]], [[The international standard atmosphere 2026][research_the_international_2026]], [[The Standard Atmosphere 1964][research_the_standard_1964]], [[The Standard Atmosphere 1976][research_the_standard_1976]], [[U.S. standard atmosphere supplements 1966][research_u_s_standard_1966]], [[US Standard Atmosphere Model 2014][research_us_standard_2014]], [[Vaughan 2003][research_vaughan_2003]], [[zero pressure altitude 2014][research_zero_pressure_2014]].
+
+### The aeroplane and the programmes around it
+
+**Seventeen records, and the smallest cluster in the survey.** The Advanced Composite Cargo Aircraft, the programmes it inherited from, and the demonstrators around it. **The X-55 produced a designation, a first flight and almost no documentary trace**, which is the third kind of thin this series has catalogued rather than the first, because the work was done and was not published, a contractor's manufacturing hours being a competitive asset [[Advanced Technology Composite Fuselage Program Overview][research_atcas_overview]].
+
+[[Advanced Composite Cargo Aircraft makes first flight][research_acca_first_flight]], [[Structural Reliability Analysis of the Advanced Composite Cargo Aircraft][research_acca_reliability]], [[Aircraft Oxygen Replenishment Coupling][research_aircraft_oxygen]], [[Bouwer and Ignatuk 2025][research_bouwer_ignatuk_2025]], [[Bouwer and Ignatuk 2025][research_bouwer_ignatuk_2025_b]], [[Bouwer and Kaiser 2019][research_bouwer_kaiser_2019]], [[Deaton, Jerry W. et al 1995][research_deatonjerryw_dexterhbenson_1995]], [[Dehennis 2025][research_dehennis_2025]], [[Fielding 1983][research_fielding_1983]], [[Gardner et al 2014][research_gardner_holmes_2014]], [[Halpin 2011][research_halpin_2011]], [[Lange and Moore 1982][research_lange_moore_1982]], [[Molent and Jones 2018][research_molent_jones_2018]], [[Quinlivan and Fenbert 1995][research_quinlivan_fenbert_1995]], [[Raja 2009][research_raja_2009]], [[Smillie 1983][research_smillie_1983]], [[Smith et al 1987][research_smith_cliff_1987]].
+
+## What the Data Changed
+
+**The first version of the autoclave argument was wrong and it was wrong in the flattering direction.** It said that the aeroplane left the autoclave because no autoclave was large enough. **Working the pressure vessel scaling gave a shell of 18.4 tonnes for a vessel that would take the part**, which is an ordinary industrial machine. The size argument is real at launch vehicle scale and false at this one, and the real reasons had to be stated instead.
+
+**The void arithmetic was wrong on its first pass in the same direction.** Dividing a void fraction by a pressure ratio ignores that the laminate shrinks along with the void, and correcting it moved the compressed value from 1.13 to 1.22 percent and the required pressure ratio from 8.30 to 8.96. **The corrected numbers strengthen the finding**, because they put the target further beyond what an autoclave can reach by squeezing.
+
+**The activation energy was not looked up. It was fitted to two lines of a datasheet table**, and the value it returns agrees with the published range for this chemistry, and predicts a third entry in the same table to within the margin a process specification would be expected to carry.
+
+**And the schedule was not read from a narrative.** Both the plan and the outcome are dates in the public record, and the difference between them had been reported at the time without being subtracted.
+
+## Epistemic State
+
+**What is documented.** The registry entry, the donor airframe, the structural arrangement, the material family, the part and fastener counts, the contract value, the required and achieved first flight dates, the cause of the delay, and the aeroplane's disposition.
+
+**What is computed here and stated as such.** The pressure at Plant 42 and the consolidation pressures that follow from it. The pressure vessel scaling. The Boyle's law void arithmetic. The activation energy fitted to the datasheet, and the dwell comparison built on it. The fastener labour, whose minutes and rates are assumptions carrying a stated range. The layup rate implied by the out-life. **None of those is a measurement of this aeroplane.** They are what the published constants imply, and where an assumption drives an answer the assumption is named beside it.
+
+**What is uncertain.** The ninety against ninety-eight percent fastener discrepancy is unresolved. **The same source calls the fuselage sixty feet long and its skins sixty-five**, and this article uses the more specific of the two figures throughout, which makes the skin area and every rate derived from it an upper estimate. The number of flights actually completed is reported as approximately twenty and this article found no primary record of the total. The cure schedule actually used on the fuselage is not published, and the trade press reports an oven cure at 180 degrees where the datasheet's vacuum bag cure is 120 degrees with a post-cure at 180, which is most likely a description of the post-cure rather than a contradiction. **The article does not assume which.**
+
+**What could not be verified.** No Air Force Research Laboratory final report on this programme was located in the public report registries under any of the queries tried, and the absence is reported rather than treated as evidence of absence. **The claim that the bond failure was caused by out-life is not made**, because no source states it. The out-life argument here is a mechanism the literature supports and not a diagnosis of this event.
+
+**What the corpus excludes.** 136 records carry a year later than this article's dateline and are excluded from every statistic while remaining in the reference list. A further 266 carry no year at all and cannot be filtered either way.
+
+## Out of Scope
+
+The aerodynamics of the aeroplane, which were the Dornier's and were not modified. The flight test instrumentation and the loads it measured, for which no public dataset was found. Thermoplastic composites, which answer the same question a different way and would double the article. The certification of bonded primary structure, which is named because the survey covers it and is not argued here. **And the aeroplane's contribution to any later programme, which is exactly the information a contractor does not publish.**
+
+## Conclusion
+
+**The X-55 was given a number to validate that an airframe could be built faster and cheaper, and the record shows it was built cheaper and slower.**
+
+**The two halves of the registry entry were never symmetric.** The cost claim is a comparison against an estimate of an aeroplane nobody built. The schedule claim is a comparison against a date, and the date was missed by seven to eight months because the skin on the lower fuselage did not bond and a second fuselage had to be made. **The demonstration was delayed by the thing being demonstrated.**
+
+**The arithmetic says that is what should have been expected, and says why.** Low-temperature curing costs three times the oven dwell of the cure it replaces, so the time saving cannot come from the chemistry. It has to come from part count, and part count is a recurring saving that a run of one cannot collect. **Meanwhile the same technology that lets a part be large enough to be worth unitising puts a chemical clock on how long its layup may take**, and a programme whose whole argument was fewer and larger parts still assembled its fuselage from eight of them.
+
+**None of that makes the aeroplane a failure.** It flew, it carried its loads, it retired the risk that would have made the cost estimate inadmissible, and it did so on a Phase II contract of 49,097,981 dollars. **What it could not do was measure the quantity in its own mission statement**, because that quantity only exists across a production run and there was never going to be a second aeroplane.
+
+**And one number in this article is worth keeping for its own sake.** The pressure a vacuum bag can apply is the pressure of the air outside it, so the consolidation available to an out-of-autoclave process at Air Force Plant 42 is 13.39 pounds per square inch rather than the 14.7 of sea level, and the material datasheet asks for a vacuum the site's entire atmosphere cannot supply. **A manufacturing specification for an aeroplane turns out to depend on the elevation of the floor it is built on.**
+
+**The number arrived 139 days after the first flight, which is the right order for a designation that was recognising a result rather than authorising an attempt.**
+
+## References
+
+### Books
+
+- [Baker, Composite materials for aircraft structures][book_baker]
+- [Campbell, Manufacturing processes for advanced composites][book_campbell]
+- [Gutowski, Advanced composites manufacturing][book_gutowski]
+- [Jones, Mechanics of composite materials][book_jones]
+- [Kinloch, Adhesion and adhesives][book_kinloch]
+- [Niu, Composite airframe structures][book_niu]
+- [Strong, Fundamentals of composites manufacturing][book_strong]
+
+[book_baker]: https://openlibrary.org/works/OL16938898W
+[book_campbell]: https://openlibrary.org/works/OL3476791W
+[book_gutowski]: https://openlibrary.org/works/OL23612005W
+[book_jones]: https://openlibrary.org/works/OL1876296W
+[book_kinloch]: https://openlibrary.org/works/OL5279139W
+[book_niu]: https://openlibrary.org/works/OL12314802W
+[book_strong]: https://openlibrary.org/works/OL2956903W
+
+### Reference
+
+- [Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]
+- [Air Force Research Laboratory][ref_afrl]
+- [Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]
+- [Arrhenius Equation][ref_arrhenius]
+- [Autoclave, Industrial][ref_autoclave]
+- [Barometric Formula][ref_barometric]
+- [Boyle's Law][ref_boyle]
+- [Composite Material][ref_composite_material]
+- [Darcy's Law][ref_darcy]
+- [DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]
+- [DOD 4120.15-L, Model Designation of Military Aerospace Vehicles][ref_dod_412015l]
+- [Experience Curve Effects][ref_learning_curve]
+- [Fairchild Dornier 328JET][ref_dornier_328jet]
+- [Glass Transition][ref_glass_transition]
+- [Honeycomb Structure][ref_honeycomb]
+- [Joe Davies Heritage Airpark][ref_joe_davies]
+- [Lockheed Martin Conducts Successful Flight of AFRL's Advanced Composite Cargo Aircraft][ref_lm_first_flight]
+- [Lockheed Martin X-55][ref_x55_wikipedia]
+- [Market Trends, Composites Affordability Initiative, Part II, CompositesWorld][ref_cw_cai2]
+- [Market Trends, the Composites Affordability Initiative, Part I, CompositesWorld][ref_cw_cai]
+- [Missing USAF and DOD Aircraft Designations][ref_missing_mds]
+- [MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]
+- [NMS 451, MTM45-1 NCAMP Material Base Specification][ref_ncamp_mtm45]
+- [Out of Autoclave Composite Manufacturing][ref_ooa_wikipedia]
+- [Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]
+- [Pratt and Whitney Canada PW300][ref_pw306]
+- [Prepreg][ref_prepreg]
+- [Pressure Vessel][ref_pressure_vessel]
+- [Skunk Works][ref_skunk_works]
+- [The Carbon Comet, Lockheed Martin][ref_carbon_comet]
+- [Thermosetting Polymer][ref_thermosetting]
+- [U.S. Standard Atmosphere][ref_us_standard_atmosphere]
+- [United States Air Force Plant 42][ref_plant42]
+- [Vacuum Bagging][ref_vacuum_bagging]
+
+[ref_afrl]: https://en.wikipedia.org/wiki/Air_Force_Research_Laboratory
+[ref_arrhenius]: https://en.wikipedia.org/wiki/Arrhenius_equation
+[ref_autoclave]: https://en.wikipedia.org/wiki/Autoclave_(industrial)
+[ref_barometric]: https://en.wikipedia.org/wiki/Barometric_formula
+[ref_boyle]: https://en.wikipedia.org/wiki/Boyle%27s_law
+[ref_carbon_comet]: https://www.lockheedmartin.com/en-us/news/features/history/acca.html
+[ref_composite_material]: https://en.wikipedia.org/wiki/Composite_material
+[ref_cw_acca]: https://www.compositesworld.com/columns/advanced-composite-cargo-aircraft-proves-large-structure-practicality
+[ref_cw_cai]: https://www.compositesworld.com/columns/market-trends-the-composites-affordability-initiative-part-i
+[ref_cw_cai2]: https://www.compositesworld.com/columns/market-trends-composites-affordability-initiative-part-ii
+[ref_cw_ooa]: https://www.compositesworld.com/articles/out-of-autoclave-prepregs-hype-or-revolution
+[ref_darcy]: https://en.wikipedia.org/wiki/Darcy%27s_law
+[ref_dod_412015l]: https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodm/412015l.pdf
+[ref_dornier_328jet]: https://en.wikipedia.org/wiki/Fairchild_Dornier_328JET
+[ref_glass_transition]: https://en.wikipedia.org/wiki/Glass_transition
+[ref_honeycomb]: https://en.wikipedia.org/wiki/Honeycomb_structure
+[ref_joe_davies]: https://en.wikipedia.org/wiki/Joe_Davies_Heritage_Airpark
+[ref_learning_curve]: https://en.wikipedia.org/wiki/Experience_curve_effects
+[ref_lm_first_flight]: https://news.lockheedmartin.com/2009-06-03-Lockheed-Martin-Conducts-Successful-Flight-of-AFRLs-Advanced-Composite-Cargo-Aircraft
+[ref_mds_addendum]: https://www.designation-systems.net/usmilav/412015-L(addendum).html
+[ref_mds_allocation]: https://www.designation-systems.net/usmilav/mdsallocation.html
+[ref_missing_mds]: https://www.designation-systems.net/usmilav/missing-mds.html
+[ref_mtm45_datasheet]: https://cstjmateriauxcomposites.wordpress.com/wp-content/uploads/2017/11/cytec_mtm45-1_resine_epoxyde.pdf
+[ref_ncamp_mtm45]: https://www.wichita.edu/industry_and_defense/NIAR/Documents/MTM45-1-NCAMP-Material-Base-Specification-new.pdf
+[ref_ooa_wikipedia]: https://en.wikipedia.org/wiki/Out_of_autoclave_composite_manufacturing
+[ref_plant42]: https://en.wikipedia.org/wiki/United_States_Air_Force_Plant_42
+[ref_prepreg]: https://en.wikipedia.org/wiki/Prepreg
+[ref_pressure_vessel]: https://en.wikipedia.org/wiki/Pressure_vessel
+[ref_pw306]: https://en.wikipedia.org/wiki/Pratt_%26_Whitney_Canada_PW300
+[ref_skunk_works]: https://en.wikipedia.org/wiki/Skunk_Works
+[ref_thermosetting]: https://en.wikipedia.org/wiki/Thermosetting_polymer
+[ref_us_standard_atmosphere]: https://en.wikipedia.org/wiki/U.S._Standard_Atmosphere
+[ref_vacuum_bagging]: https://en.wikipedia.org/wiki/Vacuum_bagging
+[ref_x55_wikipedia]: https://en.wikipedia.org/wiki/Lockheed_Martin_X-55
+
+### Related Post
+
+- [X-Planes: Aerojet X-8 Aerobee][related_post_a305_aerojet_x8]
+- [X-Planes: Bell X-1][related_post_a298_bell_x1]
+- [X-Planes: Bell X-14][related_post_a311_bell_x14]
+- [X-Planes: Bell X-16][related_post_a313_bell_x16]
+- [X-Planes: Bell X-2][related_post_a299_bell_x2]
+- [X-Planes: Bell X-22][related_post_a319_bell_x22]
+- [X-Planes: Bell X-5][related_post_a302_bell_x5]
+- [X-Planes: Bell X-9 Shrike][related_post_a306_bell_x9]
+- [X-Planes: Bensen X-25][related_post_a322_bensen_x25]
+- [X-Planes: Boeing X-20 Dyna-Soar][related_post_a317_boeing_x20]
+- [X-Planes: Boeing X-32][related_post_a329_boeing_x32]
+- [X-Planes: Boeing X-37][related_post_a334_boeing_x37]
+- [X-Planes: Boeing X-40][related_post_a337_boeing_x40]
+- [X-Planes: Boeing X-45][related_post_a342_boeing_x45]
+- [X-Planes: Boeing X-46][related_post_a343_boeing_x46]
+- [X-Planes: Boeing X-48][related_post_a345_boeing_x48]
+- [X-Planes: Boeing X-50 Dragonfly][related_post_a347_boeing_x50]
+- [X-Planes: Boeing X-51 Waverider][related_post_a348_boeing_x51]
+- [X-Planes: Boeing X-53 Active Aeroelastic Wing][related_post_a350_boeing_x53]
+- [X-Planes: Convair X-11][related_post_a308_convair_x11]
+- [X-Planes: Convair X-12][related_post_a309_convair_x12]
+- [X-Planes: Convair X-6][related_post_a303_convair_x6]
+- [X-Planes: Curtiss-Wright X-19][related_post_a316_curtiss_wright_x19]
+- [X-Planes: Douglas X-3 Stiletto][related_post_a300_douglas_x3]
+- [X-Planes: Framing and the Research Aircraft Model][related_post_a297_framing]
+- [X-Planes: Grumman X-29][related_post_a326_grumman_x29]
+- [X-Planes: Gulfstream X-54][related_post_a351_gulfstream_x54]
+- [X-Planes: Hiller X-18][related_post_a315_hiller_x18]
+- [X-Planes: Lockheed Martin X-33][related_post_a330_lockheed_martin_x33]
+- [X-Planes: Lockheed Martin X-35][related_post_a332_lockheed_martin_x35]
+- [X-Planes: Lockheed X-17][related_post_a314_lockheed_x17]
+- [X-Planes: Lockheed X-27][related_post_a324_lockheed_x27]
+- [X-Planes: Lockheed X-7][related_post_a304_lockheed_x7]
+- [X-Planes: Martin Marietta X-23 PRIME and a Contested Assignment][related_post_a320_martin_marietta_x23]
+- [X-Planes: Martin Marietta X-24][related_post_a321_martin_marietta_x24]
+- [X-Planes: McDonnell Douglas X-36][related_post_a333_mcdonnell_douglas_x36]
+- [X-Planes: Micro-Craft X-43 Hyper-X][related_post_a340_micro_craft_x43]
+- [X-Planes: North American X-10][related_post_a307_north_american_x10]
+- [X-Planes: North American X-15][related_post_a312_north_american_x15]
+- [X-Planes: Northrop Grumman X-47][related_post_a344_northrop_grumman_x47]
+- [X-Planes: Northrop X-21][related_post_a318_northrop_x21]
+- [X-Planes: Northrop X-4 Bantam][related_post_a301_northrop_x4]
+- [X-Planes: Orbital Sciences X-34][related_post_a331_orbital_sciences_x34]
+- [X-Planes: Orbital Sciences X-42][related_post_a339_orbital_sciences_x42]
+- [X-Planes: Osprey X-28 Sea Skimmer][related_post_a325_osprey_x28]
+- [X-Planes: Piasecki X-49 SpeedHawk][related_post_a346_piasecki_x49]
+- [X-Planes: Rockwell X-30 and the National Aero-Space Plane][related_post_a327_rockwell_x30]
+- [X-Planes: Rockwell-MBB X-31][related_post_a328_rockwell_mbb_x31]
+- [X-Planes: Ryan X-13 Vertijet][related_post_a310_ryan_x13]
+- [X-Planes: Scaled Composites X-38][related_post_a335_scaled_composites_x38]
+- [X-Planes: Schweizer X-26 Frigate][related_post_a323_schweizer_x26]
+- [X-Planes: X-39, Reserved but Never Assigned][related_post_a336_x39_reserved_never_assigned]
+- [X-Planes: X-41 Common Aero Vehicle][related_post_a338_x41_common_aero_vehicle]
+- [X-Planes: X-44, One Designation and Two Aircraft][related_post_a341_x44_two_aircraft]
+- [X-Planes: X-52, the Designation Refused][related_post_a349_x52_designation_refused]
+
+[related_post_a297_framing]: {% post_url 2025-10-06-x_planes_framing %}
+[related_post_a298_bell_x1]: {% post_url 2025-10-07-x_planes_bell_x1 %}
+[related_post_a299_bell_x2]: {% post_url 2025-10-08-x_planes_bell_x2 %}
+[related_post_a300_douglas_x3]: {% post_url 2025-10-09-x_planes_douglas_x3 %}
+[related_post_a301_northrop_x4]: {% post_url 2025-10-10-x_planes_northrop_x4 %}
+[related_post_a302_bell_x5]: {% post_url 2025-10-11-x_planes_bell_x5 %}
+[related_post_a303_convair_x6]: {% post_url 2025-10-12-x_planes_convair_x6 %}
+[related_post_a304_lockheed_x7]: {% post_url 2025-10-13-x_planes_lockheed_x7 %}
+[related_post_a305_aerojet_x8]: {% post_url 2025-10-14-x_planes_aerojet_x8 %}
+[related_post_a306_bell_x9]: {% post_url 2025-10-15-x_planes_bell_x9 %}
+[related_post_a307_north_american_x10]: {% post_url 2025-10-16-x_planes_north_american_x10 %}
+[related_post_a308_convair_x11]: {% post_url 2025-10-17-x_planes_convair_x11 %}
+[related_post_a309_convair_x12]: {% post_url 2025-10-18-x_planes_convair_x12 %}
+[related_post_a310_ryan_x13]: {% post_url 2025-10-19-x_planes_ryan_x13 %}
+[related_post_a311_bell_x14]: {% post_url 2025-10-20-x_planes_bell_x14 %}
+[related_post_a312_north_american_x15]: {% post_url 2025-10-21-x_planes_north_american_x15 %}
+[related_post_a313_bell_x16]: {% post_url 2025-10-22-x_planes_bell_x16 %}
+[related_post_a314_lockheed_x17]: {% post_url 2025-10-23-x_planes_lockheed_x17 %}
+[related_post_a315_hiller_x18]: {% post_url 2025-10-24-x_planes_hiller_x18 %}
+[related_post_a316_curtiss_wright_x19]: {% post_url 2025-10-25-x_planes_curtiss_wright_x19 %}
+[related_post_a317_boeing_x20]: {% post_url 2025-10-26-x_planes_boeing_x20 %}
+[related_post_a318_northrop_x21]: {% post_url 2025-10-27-x_planes_northrop_x21 %}
+[related_post_a319_bell_x22]: {% post_url 2025-10-28-x_planes_bell_x22 %}
+[related_post_a320_martin_marietta_x23]: {% post_url 2025-10-29-x_planes_martin_marietta_x23 %}
+[related_post_a321_martin_marietta_x24]: {% post_url 2025-10-30-x_planes_martin_marietta_x24 %}
+[related_post_a322_bensen_x25]: {% post_url 2025-10-31-x_planes_bensen_x25 %}
+[related_post_a323_schweizer_x26]: {% post_url 2025-11-01-x_planes_schweizer_x26 %}
+[related_post_a324_lockheed_x27]: {% post_url 2025-11-02-x_planes_lockheed_x27 %}
+[related_post_a325_osprey_x28]: {% post_url 2025-11-03-x_planes_osprey_x28 %}
+[related_post_a326_grumman_x29]: {% post_url 2025-11-04-x_planes_grumman_x29 %}
+[related_post_a327_rockwell_x30]: {% post_url 2025-11-05-x_planes_rockwell_x30 %}
+[related_post_a328_rockwell_mbb_x31]: {% post_url 2025-11-06-x_planes_rockwell_mbb_x31 %}
+[related_post_a329_boeing_x32]: {% post_url 2025-11-07-x_planes_boeing_x32 %}
+[related_post_a330_lockheed_martin_x33]: {% post_url 2025-11-08-x_planes_lockheed_martin_x33 %}
+[related_post_a331_orbital_sciences_x34]: {% post_url 2025-11-09-x_planes_orbital_sciences_x34 %}
+[related_post_a332_lockheed_martin_x35]: {% post_url 2025-11-10-x_planes_lockheed_martin_x35 %}
+[related_post_a333_mcdonnell_douglas_x36]: {% post_url 2025-11-11-x_planes_mcdonnell_douglas_x36 %}
+[related_post_a334_boeing_x37]: {% post_url 2025-11-12-x_planes_boeing_x37 %}
+[related_post_a335_scaled_composites_x38]: {% post_url 2025-11-13-x_planes_scaled_composites_x38 %}
+[related_post_a336_x39_reserved_never_assigned]: {% post_url 2025-11-14-x_planes_x39_reserved_never_assigned %}
+[related_post_a337_boeing_x40]: {% post_url 2025-11-15-x_planes_boeing_x40 %}
+[related_post_a338_x41_common_aero_vehicle]: {% post_url 2025-11-16-x_planes_x41_common_aero_vehicle %}
+[related_post_a339_orbital_sciences_x42]: {% post_url 2025-11-17-x_planes_orbital_sciences_x42 %}
+[related_post_a340_micro_craft_x43]: {% post_url 2025-11-18-x_planes_micro_craft_x43_hyper_x %}
+[related_post_a341_x44_two_aircraft]: {% post_url 2025-11-19-x_planes_x44_one_designation_two_aircraft %}
+[related_post_a342_boeing_x45]: {% post_url 2025-11-20-x_planes_boeing_x45 %}
+[related_post_a343_boeing_x46]: {% post_url 2025-11-21-x_planes_boeing_x46 %}
+[related_post_a344_northrop_grumman_x47]: {% post_url 2025-11-22-x_planes_northrop_grumman_x47 %}
+[related_post_a345_boeing_x48]: {% post_url 2025-11-23-x_planes_boeing_x48 %}
+[related_post_a346_piasecki_x49]: {% post_url 2025-11-24-x_planes_piasecki_x49 %}
+[related_post_a347_boeing_x50]: {% post_url 2025-11-25-x_planes_boeing_x50 %}
+[related_post_a348_boeing_x51]: {% post_url 2025-11-26-x_planes_boeing_x51 %}
+[related_post_a349_x52_designation_refused]: {% post_url 2025-11-27-x_planes_x52_designation_refused %}
+[related_post_a350_boeing_x53]: {% post_url 2025-11-28-x_planes_boeing_x53_active_aeroelastic_wing %}
+[related_post_a351_gulfstream_x54]: {% post_url 2025-11-29-x_planes_gulfstream_x54 %}
+
+### Research
+
+- [3D CAD software chosen 2001][research_3d_cad_2001]
+- [A fiber optic ultrasound 1998][research_a_fiber_1998]
+- [A Look at the 2004][research_a_look_2004]
+- [A model of passive 1982][research_a_model_1982]
+- [A preliminary estimate of 1970][research_a_preliminary_1970]
+- [A Properties of Standard 2006][research_a_properties_2006]
+- [A real-time ultrasonic imaging 1990][research_a_real_time_1990]
+- [A real-time ultrasonic imaging 1994][research_a_real_time_1994]
+- [A. Abdul Razak et al 2016][research_aabdulrazak_jsaleh_2016]
+- [A. and K. 2013][research_a_k_2013]
+- [Aaboud et al 2017][research_aaboud_saouab_2017]
+- [Abali et al 2021][research_abali_zecchini_2021]
+- [Abbasi and Jannesari 2023][research_abbasi_jannesari_2023]
+- [Abbasi and Peerzada 2023][research_abbasi_peerzada_2023]
+- [Abbott 1989][research_abbott_1989]
+- [Abdel Wahab 2015][research_abdelwahab_2015]
+- [Abdel-Latif 2009][research_abdellatif_2009]
+- [Abdi et al 2009][research_abdi_surdenas_2009]
+- [Abdullah 2015][research_abdullah_2015]
+- [Abitz and Pety 2024][research_abitz_pety_2024]
+- [Abouhamzeh et al 2014][research_abouhamzeh_sinke_2014]
+- [Abouhamzeh et al 2015][research_abouhamzeh_sinke_2015]
+- [Abraham and McIlhagger 1998][research_abraham_mcilhagger_1998]
+- [Abraham and Prasad 1969][research_abraham_prasad_1969]
+- [Abrahamsen and Faltinsen 2011][research_abrahamsen_faltinsen_2011]
+- [Abramovich 2008][research_abramovich_2008]
+- [Abramovich and Weller 2009][research_abramovich_weller_2009]
+- [Abramovich and Weller 2010][research_abramovich_weller_2010]
+- [Abramovich et al 2006][research_abramovich_weller_2006]
+- [Abramovich et al 2007][research_abramovich_bisagni_2007]
+- [Abrate 2001][research_abrate_2001]
+- [Acceptance Criteria Adhesive-Bonded Metal-Faced][research_acceptance_criteria]
+- [Accurate bond-line inspection with 2010][research_accurate_bond_line_2010]
+- [Achilias et al 2012][research_achilias_karabela_2012]
+- [Ackermann et al 2021][research_ackermann_carosella_2021]
+- [Acosta et al 2023][research_acosta_esteves_2023]
+- [Acoustographic nondestructive evaluation of 1990][research_acoustographic_nondestructive_1990]
+- [Action and Goyal 2022][research_action_goyal_2022]
+- [Adali 1995][research_adali_1995]
+- [Adams 1974][research_adams_1974]
+- [Adams 1987][research_adams_1987]
+- [Adams and Goldfarb 1982][research_adams_goldfarb_1982]
+- [Adams and Monib 1980][research_adams_monib_1980]
+- [Adams et al 1986][research_adams_gupta_1986]
+- [Adefemi 2015][research_adefemi_2015]
+- [Adhesive bonded aircraft structures 1955][research_adhesive_bonded_1955]
+- [Adhesive Film, Epoxy-Base for][research_adhesive_film]
+- [Adhesive Forces in Bonded 2008][research_adhesive_forces_2008]
+- [adhesive-bonded fabrics 2021][research_adhesive_bonded_fabrics_2021]
+- [Adhesive-Bonded Metal-Faced Sandwich Structures][research_adhesive_bonded_metal_faced]
+- [Adhesive-bonded sculpture 1972][research_adhesive_bonded_sculpture_1972]
+- [Adhesively-bonded nutplate mounts to 1990][research_adhesively_bonded_nutplate_1990]
+- [Adhesives for leather and][research_adhesives_for]
+- [Aditya and Babu 2020][research_aditya_babu_2020]
+- [Adriana 2013][research_adriana_2013]
+- [Advanced Composite Cargo Aircraft makes first flight][research_acca_first_flight]
+- [Advanced composite prepreg tooling 1992][research_advanced_composite_1992]
+- [Advanced Composites Prepreg][research_advanced_composites]
+- [Advanced Composites Prepreg][research_advanced_composites_b]
+- [Advanced Composites Prepreg][research_advanced_composites_c]
+- [Advanced Composites Prepreg][research_advanced_composites_d]
+- [Advanced Technology Composite Fuselage - Manufacturing][research_atcas_manufacturing]
+- [Advanced Technology Composite Fuselage - Materials and Processes][research_atcas_materials]
+- [Advanced Technology Composite Fuselage Program Overview][research_atcas_overview]
+- [Advanced Technology Composite Fuselage-Structural Performance][research_atcas_structural]
+- [Advanced-composite wing completes 13 1981][research_advanced_composite_wing_1981]
+- [Advances in Thick Section 2020][research_advances_in_2020]
+- [Aerospace series. Analysis of][research_aerospace_series]
+- [Afromowitz and Lam 1989][research_afromowitz_lam_1989]
+- [Agarwal 1982][research_agarwal_1982]
+- [Agin and Blicblau 1993][research_agin_blicblau_1993]
+- [Agius and Fox 2015][research_agius_fox_2015]
+- [Ahmad et al 2005][research_ahmad_hashim_2005]
+- [Ahmad et al 2026][research_ahmad_zhang_2026]
+- [Ahmed and Jones 1988][research_ahmed_jones_1988]
+- [Ahmed et al 2025][research_ahmed_sadaf_2025]
+- [Ahopelto 1986][research_ahopelto_1986]
+- [Aimmanee 2018][research_aimmanee_2018]
+- [Aimmanee and Hongpimolmas 2017][research_aimmanee_hongpimolmas_2017]
+- [Air et al 2022][research_air_shamsuddoha_2022]
+- [Air et al 2023][research_air_shamsuddoha_2023]
+- [Air evacuation during vacuum bag only prepreg processing of honeycomb sandwich structures In-plane air extraction prior to cure][research_air_evacuation_sandwich]
+- [Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]
+- [Aircraft Cost Considerations 2010][research_aircraft_cost_2010]
+- [Aircraft Oxygen Replenishment Coupling][research_aircraft_oxygen]
+- [Akashi and Akagi 2021][research_akashi_akagi_2021]
+- [Akay and Hanna 1990][research_akay_hanna_1990]
+- [Akhavan-Safar et al 2023][research_akhavansafar_marques_2023]
+- [Akhtar 1987][research_akhtar_1987]
+- [Akman et al 2019][research_akman_erdogan_2019]
+- [Akpinar and Akpinar 2023][research_akpinar_akpinar_2023]
+- [Akula 2014][research_akula_2014]
+- [Akula 2015][research_akula_2015]
+- [Al Ahmed et al 2024][research_alahmed_hassan_2024]
+- [Al et al 2021][research_al_jonathan_2021]
+- [Al Mahmood 2017][research_almahmood_2017]
+- [Al-Dhaheri et al 2020][research_aldhaheri_khan_2020]
+- [Al-Dhaheri et al 2020][research_aldhaheri_khan_2020_b]
+- [Al-Hamdan et al 1995][research_alhamdan_tufail_1995]
+- [Al-Hamrani and Alnahhal 2023][research_alhamrani_alnahhal_2023]
+- [Al-saadi et al 2019][research_alsaadi_aravinthan_2019]
+- [Al-Sukhon][research_alsukhon]
+- [Al-Sukhon and El Sayed 2020][research_alsukhon_elsayed_2020]
+- [Alam 2021][research_alam_2021]
+- [Alam and Khanal 2020][research_alam_khanal_2020]
+- [Alana M. Cardona et al][research_alanamcardona_erinkanderson]
+- [Alavi-Soltani et al 2011][research_alavisoltani_sabzevari_2011]
+- [Albert et al 2020][research_albert_fernlund_2020]
+- [Albrecht and Sahli 1986][research_albrecht_sahli_1986]
+- [Alderliesten 2009][research_alderliesten_2009]
+- [Alderliesten and Homan 2006][research_alderliesten_homan_2006]
+- [Aldhahri and Klosterman 2025][research_aldhahri_klosterman_2025]
+- [Aldrin 2002][research_aldrin_2002]
+- [Aleong and Munro 1991][research_aleong_munro_1991]
+- [Alexander 1998][research_alexander_1998]
+- [Alghamdi and Dodd 2007][research_alghamdi_dodd_2007]
+- [Alhajahmad and Mittelstedt 2021][research_alhajahmad_mittelstedt_2021]
+- [Alhajahmad and Mittelstedt 2021][research_alhajahmad_mittelstedt_2021_b]
+- [Alhajahmad and Mittelstedt 2025][research_alhajahmad_mittelstedt_2025]
+- [Ali and Yasko 2024][research_ali_yasko_2024]
+- [Alic 1977][research_alic_1977]
+- [Aliheidari, and Ameli 2023][research_aliheidari_ameli_2023]
+- [Alkoc et al 2024][research_alkoc_hazaryoruc_2024]
+- [Allahbakhsh et al 2013][research_allahbakhsh_mazinani_2013]
+- [Allaoui and El Bounia 2009][research_allaoui_elbounia_2009]
+- [Allen and Boyd 1992][research_allen_boyd_1992]
+- [Allen and Przekop 2015][research_allen_przekop_2015]
+- [Allsop et al 2025][research_allsop_tahir_2025]
+- [Almeida-Fernandes et al 2021][research_almeidafernandes_correia_2021]
+- [Almond et al 1992][research_almond_braddell_1992]
+- [Almond et al 1993][research_almond_braddell_1993]
+- [Alms et al 2010][research_alms_glancey_2010]
+- [Alonso et al 2006][research_alonso_oliet_2006]
+- [Alotaibi et al 2022][research_alotaibi_abeykoon_2022]
+- [Alotaibi et al 2024][research_alotaibi_soutis_2024]
+- [Alpay et al 2023][research_alpay_uygur_2023]
+- [Alshahrani and Hojjati 2017][research_alshahrani_hojjati_2017]
+- [Alshedayfat et al 2024][research_alshedayfat_wagih_2024]
+- [Altan et al 2016][research_altan_bayraktar_2016]
+- [Altmann][research_altmann]
+- [Altmann and Halley 2003][research_altmann_halley_2003]
+- [Altmann et al 2001][research_altmann_halley_2001]
+- [Alvarez et al 2025][research_alvarez_mohammed_2025]
+- [Alzyod and Ficzere 2023][research_alzyod_ficzere_2023]
+- [Amaoui and Hattabi 2023][research_amaoui_hattabi_2023]
+- [Ambekar et al 2026][research_ambekar_shahi_2026]
+- [Ambur and Rouse 2005][research_ambur_rouse_2005]
+- [Ambur et al 1997][research_ambur_rouse_1997]
+- [Ambur, Damodar R. and Rouse, Marshall 1998][research_amburdamodarr_rousemarshall_1998]
+- [Amico and Lekakou 2001][research_amico_lekakou_2001]
+- [Amif et al 2026][research_amif_yudhanto_2026]
+- [Amin][research_amin]
+- [Aminanda 2012][research_aminanda_2012]
+- [Amiri et al 2006][research_amiri_bouiadjra_2006]
+- [Amirkhosravi et al 2017][research_amirkhosravi_pishvar_2017]
+- [Amirullah and Jakaria 2023][research_amirullah_jakaria_2023]
+- [Amitha N. R and Vrinda. T 2011][research_amithanr_vrindat_2011]
+- [Amor 2002][research_amor_2002]
+- [An adaptive composite structure 1998][research_an_adaptive_1998]
+- [An et al 2017][research_an_singh_2017]
+- [An et al 2021][research_an_din_2021]
+- [An evaluation of an airframe cost-estimating relationship][research_airframe_cer]
+- [An ultrasonic system for 1994][research_an_ultrasonic_1994]
+- [Anagwu and Skordos 2023][research_anagwu_skordos_2023]
+- [Analysis and design of][research_analysis_and_design]
+- [Analysis and Design of 2011][research_analysis_and_2011]
+- [Analysis of composite-to-metal joints 1986][research_analysis_of_1986]
+- [Analysis of vbo governing 2021][research_analysis_of_2021]
+- [Analytical Study of Concrete 1996][research_analytical_study_1996]
+- [Anandan et al 2016][research_anandan_dhaliwal_2016]
+- [Anders et al 2022][research_anders_nutt_2022]
+- [Andersen 1981][research_andersen_1981]
+- [Andersen 1981][research_andersen_1981_b]
+- [Andersen 1981][research_andersen_1981_c]
+- [Andersen 1981][research_andersen_1981_d]
+- [Anderson 2001][research_anderson_2001]
+- [Anderson and Altan 2014][research_anderson_altan_2014]
+- [Anderson and Altan 2015][research_anderson_altan_2015]
+- [Anderson et al 1988][research_anderson_henry_1988]
+- [Anderson et al 2025][research_anderson_cardona_2025]
+- [Anderson, Robert L. and Grant, Carroll G. 1991][research_andersonrobertl_grantcarrollg_1991]
+- [Anderson, Robert L. and Grant, Carroll G. 1992][research_andersonrobertl_grantcarrollg_1992]
+- [Andonovska 2021][research_andonovska_2021]
+- [Andre et al 2016][research_andre_ariawan_2016]
+- [Andres et al 1994][research_andres_miguez_1994]
+- [Anggriawan et al 2026][research_anggriawan_arief_2026]
+- [Anil Kumar and Sundaram 2016][research_anilkumar_sundaram_2016]
+- [Anisetti et al 2013][research_anisetti_ardagna_2013]
+- [Anjali et al 2013][research_anjali_choudhry_2013]
+- [Antartis et al 2015][research_antartis_dillon_2015]
+- [Antonelli and Farina 1999][research_antonelli_farina_1999]
+- [Antonucci et al 2003][research_antonucci_giordano_2003]
+- [Antonucci et al 2006][research_antonucci_cusano_2006]
+- [Antonucci et al 2006][research_antonucci_giordano_2006]
+- [Anyfantis 2012][research_anyfantis_2012]
+- [Aoki et al 2006][research_aoki_ishikawa_2006]
+- [Apalak et al 2006][research_apalak_apalak_2006]
+- [Apgar 1993][research_apgar_1993]
+- [Apicella et al 1987][research_apicella_kenny_1987]
+- [Apparatus for moulding and 1990][research_apparatus_for_1990]
+- [Appendix A Standard Atmosphere 2021][research_appendix_a_2021]
+- [Appendix A. The Standard 2011][research_appendix_a_2011]
+- [Appleton 2008][research_appleton_2008]
+- [Application Design of 2013][research_application_design_2013]
+- [Applications of Calorimetry in 2013][research_applications_of_2013]
+- [Aqida et al 2012][research_aqida_ghazali_2012]
+- [Arafath et al 2008][research_arafath_vaziri_2008]
+- [Arafath et al 2009][research_arafath_vaziri_2009]
+- [Arakaki and Faria 2016][research_arakaki_faria_2016]
+- [Aranguren et al 2020][research_aranguren_etxaniz_2020]
+- [Araújo Bortolete et al 2025][research_araujobortolete_souza_2025]
+- [Archodoulaki et al 2015][research_archodoulaki_merola_2015]
+- [Arellano and Higgins 2008][research_arellano_higgins_2008]
+- [Arenas et al 2019][research_arenas_suarez_2019]
+- [Aretxabaleta et al 2022][research_aretxabaleta_rytka_2022]
+- [Arian Nik et al 2014][research_ariannik_fayazbakhsh_2014]
+- [Arikan et al 2022][research_arikan_eroglu_2022]
+- [Ariyatum et al 2006][research_ariyatum_unnanon_2006]
+- [Armanios et al 2002][research_armanios_bucinell_2002]
+- [Armstrong 1999][research_armstrong_1999]
+- [Arnold 1987][research_arnold_1987]
+- [Arnold and Parekh 1986][research_arnold_parekh_1986]
+- [Arnold and Parekh 1987][research_arnold_parekh_1987]
+- [Arnott et al 2002][research_arnott_rider_2002]
+- [Aromatic polyamide fiber-based composite 1988][research_aromatic_polyamide_1988]
+- [Aronhime and Gillham][research_aronhime_gillham]
+- [Arridge and Speake 1972][research_arridge_speake_1972]
+- [Arsenyeva et al 2024][research_arsenyeva_duddeck_2024]
+- [Asadayoobi et al 2021][research_asadayoobi_jaber_2021]
+- [Ascher and Späth 2025][research_ascher_spath_2025]
+- [Ashbee 1986][research_ashbee_1986]
+- [Ashcroft et al 2003][research_ashcroft_erpolat_2003]
+- [Ashforth et al 2023][research_ashforth_momm_2023]
+- [Ashton 1975][research_ashton_1975]
+- [Ashton et al 2003][research_ashton_reid_2003]
+- [Askadskii et al 2013][research_askadskii_popova_2013]
+- [Askins 1999][research_askins_1999]
+- [Asokan et al 2012][research_asokan_manikandan_2012]
+- [Asraf et al 2025][research_asraf_purwoko_2025]
+- [Atmosphere standard atmosphere 2006][research_atmosphere_standard_2006]
+- [Attar et al 2023][research_attar_echcherifelkettani_2023]
+- [Attenuation in ultrasonic inspection 1967][research_attenuation_in_1967]
+- [August Noevere and Von Jamora][research_augustnoevere_vonjamora]
+- [August T Noevere and Craig S Collier 2020][research_augusttnoevere_craigscollier_2020]
+- [Aussawasathien and Sancaktar 2008][research_aussawasathien_sancaktar_2008]
+- [Austen and Avitzur 1974][research_austen_avitzur_1974]
+- [Autoclave cures composite aircraft 2000][research_autoclave_cures_2000]
+- [Autoclave Curing 2025][research_autoclave_curing_2025]
+- [Automated laser repair for 2009][research_automated_laser_2009]
+- [Automated preform manufacture for 1990][research_automated_preform_1990]
+- [Awad et al 2011][research_awad_aravinthan_2011]
+- [Awad Hallosh Khidhir and Qussay Younis Hamid 2015][research_awadhalloshkhidhir_qussayyounishamid_2015]
+- [Awenlimobor et al 2025][research_awenlimobor_sayah_2025]
+- [Awenlimobor et al 2026][research_awenlimobor_sayah_2026]
+- [Ayanoglu et al 2022][research_ayanoglu_carlsson_2022]
+- [Azzouz et al 2021][research_azzouz_mhamdia_2021]
+- [B et al 2023][research_b_patil_2023]
+- [B et al 2023][research_b_tallur_2023]
+- [B-34. U. S. Standard 1963][research_b_34_u_1963]
+- [Baburao 1970][research_baburao_1970]
+- [Bacarreza and Aliabadi 2018][research_bacarreza_aliabadi_2018]
+- [Bachir Bouiadjra et al 2007][research_bachirbouiadjra_fekirini_2007]
+- [Bachir Bouiadjra et al 2012][research_bachirbouiadjra_oudad_2012]
+- [Backmann et al 2024][research_backmann_adil_2024]
+- [Badiru 1991][research_badiru_1991]
+- [Badiru 1992][research_badiru_1992]
+- [Badiru and Jaber 2026][research_badiru_jaber_2026]
+- [Bae and Chang 2015][research_bae_chang_2015]
+- [Bagan 1967][research_bagan_1967]
+- [Baghad et al 2021][research_baghad_elmabrouk_2021]
+- [Bahadori et al 2021][research_bahadori_tekerek_2021]
+- [Bahar 2022][research_bahar_2022]
+- [Bahar 2022][research_bahar_2022_b]
+- [Bahar 2022][research_bahar_2022_c]
+- [Bahar 2022][research_bahar_2022_d]
+- [Bahr and Rosengreen 1985][research_bahr_rosengreen_1985]
+- [Bai and Wang 2026][research_bai_wang_2026]
+- [Bai et al 2017][research_bai_lei_2017]
+- [Bail 2008][research_bail_2008]
+- [Bailey and Weber 2023][research_bailey_weber_2023]
+- [Bailey et al 2011][research_bailey_battley_2011]
+- [Bain 1952][research_bain_1952]
+- [Bajere 1994][research_bajere_1994]
+- [Baker 1999][research_baker_1999]
+- [Baker 2010][research_baker_2010]
+- [Baker 2011][research_baker_2011]
+- [Baker 2011][research_baker_2011_b]
+- [Baker and Michael 1980][research_baker_michael_1980]
+- [Baker and Nezhad 2021][research_baker_nezhad_2021]
+- [Baker and Wang 2018][research_baker_wang_2018]
+- [Baker et al 2012][research_baker_bitton_2012]
+- [Baker et al 2014][research_baker_gunnion_2014]
+- [Baker, Donald J. et al 2003][research_bakerdonaldj_fudgejack_2003]
+- [Bakhshi and Hojjati 2018][research_bakhshi_hojjati_2018]
+- [Bakhshi and Hojjati 2019][research_bakhshi_hojjati_2019]
+- [Bakis and Reifsnider 1988][research_bakis_reifsnider_1988]
+- [Balaga et al 2023][research_balaga_gargitter_2023]
+- [Balaji and Rajesh 2024][research_balaji_rajesh_2024]
+- [Balaji et al 2023][research_balaji_sbarufatti_2023]
+- [Balaji et al 2024][research_balaji_dumas_2024]
+- [Balaji et al 2025][research_balaji_rajesh_2025]
+- [Balamurugan and Kannan 2009][research_balamurugan_kannan_2009]
+- [Ball 1999][research_ball_1999]
+- [Balokas et al 2023][research_balokas_heinecke_2023]
+- [Balut et al 1991][research_balut_frazier_1991]
+- [Bandaru et al 2019][research_bandaru_clancy_2019]
+- [Banerjee et al 2007][research_banerjee_ricci_2007]
+- [Banerjee et al 2024][research_banerjee_tavaf_2024]
+- [Bangalore][research_bangalore]
+- [Banks-Sills et al 2023][research_bankssills_choron_2023]
+- [Banuk 1996][research_banuk_1996]
+- [Bao and Chen 2023][research_bao_chen_2023]
+- [Bao et al 2002][research_bao_su_2002]
+- [Bao et al 2012][research_bao_gawne_2012]
+- [Bar-Cohen and Chimenti 1987][research_barcohen_chimenti_1987]
+- [Baranovski and Zaw 2023][research_baranovski_zaw_2023]
+- [Barbero and Wen 2003][research_barbero_wen_2003]
+- [Barcenas et al 2023][research_barcenas_narayana_2023]
+- [Barcenas et al 2025][research_barcenas_khoun_2025]
+- [Bardenstein et al 2022][research_bardenstein_lukatsky_2022]
+- [Barghamadi and Behmadi 2012][research_barghamadi_behmadi_2012]
+- [Barjasteh et al 2018][research_barjasteh_gouni_2018]
+- [Barlow et al 2002][research_barlow_howe_2002]
+- [Barna et al 1989][research_barna_allemeier_1989]
+- [Barnes and Mazey 1958][research_barnes_mazey_1958]
+- [Baron 1996][research_baron_1996]
+- [Baron, W. G. and Oetting, J. D. 1990][research_baronwg_oettingjd_1990]
+- [Barral et al 1995][research_barral_cano_1995]
+- [Barral et al 1997][research_barral_cano_1997]
+- [Barral et al 1999][research_barral_cano_1999]
+- [Barraza and Action 2023][research_barraza_action_2023]
+- [Barsotti and Gaiotti 2022][research_barsotti_gaiotti_2022]
+- [Bartholomeusz and Geddes 2002][research_bartholomeusz_geddes_2002]
+- [Bartholomeusz and Searl 2002][research_bartholomeusz_searl_2002]
+- [Bartholomew et al 1994][research_bartholomew_harris_1994]
+- [Bartley-Cho and Muraliraj 2022][research_bartleycho_muraliraj_2022]
+- [Bartley-Cho and Nickerson 2019][research_bartleycho_nickerson_2019]
+- [Bartley-Cho and Ranatunga 2020][research_bartleycho_ranatunga_2020]
+- [Bartley-Cho et al 2018][research_bartleycho_smyers_2018]
+- [Barton 1980][research_barton_1980]
+- [Barton 1985][research_barton_1985]
+- [Barton 1986][research_barton_1986]
+- [Barton and Wright 1985][research_barton_wright_1985]
+- [Barzegar et al 2021][research_barzegar_moallem_2021]
+- [Barzoki et al 2019][research_barzoki_ipakchi_2019]
+- [Bascom 1964][research_bascom_1964]
+- [Basford 1976][research_basford_1976]
+- [Bashir 2023][research_bashir_2023]
+- [Basic Composite Repair Technician][research_basic_composite]
+- [Batra et al 2020][research_batra_chattopadhyay_2020]
+- [Bauer et al 2025][research_bauer_hanninen_2025]
+- [Baun 1977][research_baun_1977]
+- [Bayandor et al 2002][research_bayandor_scott_2002]
+- [Bayandor et al 2003][research_bayandor_thomson_2003]
+- [Baykara 2026][research_baykara_2026]
+- [Bayoumi 2000][research_bayoumi_2000]
+- [Beck 1981][research_beck_1981]
+- [Beck and Frederick Jr 1981][research_beck_frederickjr_1981]
+- [Beere 2010][research_beere_2010]
+- [Beevers and Kho 1984][research_beevers_kho_1984]
+- [Behavior and Design of 2006][research_behavior_and_2006]
+- [Behera et al 2020][research_behera_thawre_2020]
+- [Bekas et al 2019][research_bekas_sharifkhodaei_2019]
+- [Belhaj et al 2021][research_belhaj_dodangeh_2021]
+- [Bellinger et al 1998][research_bellinger_komorowski_1998]
+- [Bellini and Sorrentino 2018][research_bellini_sorrentino_2018]
+- [Bellisario 2023][research_bellisario_2023]
+- [Bellisario et al 2019][research_bellisario_quadrini_2019]
+- [Belnoue et al 2016][research_belnoue_giannis_2016]
+- [Belov et al 2017][research_belov_zheleznov_2017]
+- [Benammar et al 2010][research_benammar_drai_2010]
+- [Benazzo and Pellegrino 2026][research_benazzo_pellegrino_2026]
+- [Bender et al 2019][research_bender_centea_2019]
+- [Bendsøe 1988][research_bendsoe_1988]
+- [Benedictus and Alderliesten 2009][research_benedictus_alderliesten_2009]
+- [Bennett 1988][research_bennett_1988]
+- [Benyahia et al 2014][research_benyahia_albedah_2014]
+- [Benyahia et al 2014][research_benyahia_albedah_2014_b]
+- [Benyahia et al 2014][research_benyahia_faribouanani_2014]
+- [Berens et al 1974][research_berens_johnson_1974]
+- [Berg et al 1989][research_berg_gerharz_1989]
+- [Berge and Eide 1982][research_berge_eide_1982]
+- [Berger Associates Inc Harrisburg Pa 1980][research_bergerassociatesincharrisburgpa_1980]
+- [Berger Associates Inc Harrisburg Pa 1980][research_bergerassociatesincharrisburgpa_1980_b]
+- [Berggreen and Hayman 2020][research_berggreen_hayman_2020]
+- [Berry 2002][research_berry_2002]
+- [Berthelot 1999][research_berthelot_1999]
+- [Berthelot 1999][research_berthelot_1999_b]
+- [Berthelot 1999][research_berthelot_1999_c]
+- [Berthelot 1999][research_berthelot_1999_d]
+- [Bestley et al 2011][research_bestley_brown_2011]
+- [Beukers et al 2011][research_beukers_bersee_2011]
+- [Bhatt et al 2022][research_bhatt_gohil_2022]
+- [Bian et al 2024][research_bian_wu_2024]
+- [Bickerton and Kelly 2007][research_bickerton_kelly_2007]
+- [Bickerton and Kelly 2012][research_bickerton_kelly_2012]
+- [Bickerton et al 2013][research_bickerton_govignon_2013]
+- [Bidstrup and Day 1994][research_bidstrup_day_1994]
+- [Bidstrup et al 1989][research_bidstrup_sheppard_1989]
+- [Biernath and Soane 1992][research_biernath_soane_1992]
+- [Bigand][research_bigand]
+- [Bigelow 1988][research_bigelow_1988]
+- [Bilal Afzal 2020][research_bilalafzal_2020]
+- [Bilyeu][research_bilyeu]
+- [Bilyeu][research_bilyeu_b]
+- [Bilyeu et al 2001][research_bilyeu_brostow_2001]
+- [Bilyeu et al 2002][research_bilyeu_brostow_2002]
+- [Bin et al 2019][research_bin_mingzhi_2019]
+- [Bindal et al 1992][research_bindal_saksena_1992]
+- [Binders for paints and][research_binders_for]
+- [Binetruy et al 1998][research_binetruy_hilaire_1998]
+- [Bing et al 2020][research_bing_wang_2020]
+- [Biron 2004][research_biron_2004]
+- [Bisagni 2008][research_bisagni_2008]
+- [Bisagni and Lanzi 2002][research_bisagni_lanzi_2002]
+- [Bisagni et al 2011][research_bisagni_vescovini_2011]
+- [Biskner and Higgins 2005][research_biskner_higgins_2005]
+- [Biszczanik et al 2022][research_biszczanik_talaska_2022]
+- [Bjornsson et al 2015][research_bjornsson_lindback_2015]
+- [Björnsson 2017][research_bjornsson_2017]
+- [Björnsson et al 2013][research_bjornsson_lindback_2013]
+- [Blackwell and Eastlake][research_blackwell_eastlake]
+- [Blair and Weisshaar 1981][research_blair_weisshaar_1981]
+- [Blair et al 1996][research_blair_bharatram_1996]
+- [Blanchard 2020][research_blanchard_2020]
+- [Bloechle 1982][research_bloechle_1982]
+- [Bloom et al 2014][research_bloom_napper_2014]
+- [Blue 1988][research_blue_1988]
+- [Blázquez et al 2012][research_blazquez_reinoso_2012]
+- [Boateng et al 2019][research_boateng_schubel_2019]
+- [Boey 1988][research_boey_1988]
+- [Boey and Lye 1990][research_boey_lye_1990]
+- [Boey and Qiang 2000][research_boey_qiang_2000]
+- [Boey et al 1994][research_boey_lee_1994]
+- [Bogacz 1992][research_bogacz_1992]
+- [Bogdanovich 2008][research_bogdanovich_2008]
+- [Bogdanovich and Kizhakkethara 1999][research_bogdanovich_kizhakkethara_1999]
+- [Bogetti and Gillespie 1991][research_bogetti_gillespie_1991]
+- [Bogue 2012][research_bogue_2012]
+- [Bohlooly et al 2018][research_bohlooly_mirzavand_2018]
+- [Bohlooly et al 2020][research_bohlooly_kouchakzadeh_2020]
+- [Boitnott et al 1987][research_boitnott_fasanella_1987]
+- [Boll et al 2014][research_boll_schubert_2014]
+- [Boller 1965][research_boller_1965]
+- [Bommareddy 2025][research_bommareddy_2025]
+- [Bonanni and Tacey 1996][research_bonanni_tacey_1996]
+- [Bond 2002][research_bond_2002]
+- [Bond 2015][research_bond_2015]
+- [Bond 2019][research_bond_2019]
+- [Bond 2021][research_bond_2021]
+- [Bond 2022][research_bond_2022]
+- [Bond 2025][research_bond_2025]
+- [Bond strength adhesive 2007][research_bond_strength_2007]
+- [Bondarchuk and Fedulov 2019][research_bondarchuk_fedulov_2019]
+- [Bonded composite structures 1979][research_bonded_composite_1979]
+- [Bonded Joints and Repairs 2016][research_bonded_joints_2016]
+- [Bonded Repair of Aircraft 1988][research_bonded_repair_1988]
+- [Bonded repair of aircraft 1994][research_bonded_repair_1994]
+- [Booth and Hay 1969][research_booth_hay_1969]
+- [Booth et al 2022][research_booth_cairns_2022]
+- [Boothby et al 2018][research_boothby_piszkiewicz_2018]
+- [Boothroyd 1987][research_boothroyd_1987]
+- [Boothroyd 1994][research_boothroyd_1994]
+- [Boothroyd 1996][research_boothroyd_1996]
+- [Boothroyd 1997][research_boothroyd_1997]
+- [Boothroyd et al 2001][research_boothroyd_dewhurst_2001]
+- [Boothroyd et al 2010][research_boothroyd_dewhurst_2010]
+- [Bootle 1999][research_bootle_1999]
+- [Borgato and Pievani 1995][research_borgato_pievani_1995]
+- [Boria 2013][research_boria_2013]
+- [Bornemann et al 2024][research_bornemann_zhou_2024]
+- [Borrie et al 2015][research_borrie_liu_2015]
+- [Bosi et al 2018][research_bosi_schlothauer_2018]
+- [Bouiadjra et al 2008][research_bouiadjra_ouinas_2008]
+- [Bouscarrat][research_bouscarrat]
+- [Boushab et al 2024][research_boushab_mote_2024]
+- [Bouslama et al 2022][research_bouslama_maslouhi_2022]
+- [Boutrih et al 2022][research_boutrih_makich_2022]
+- [Bouwer and Ignatuk 2025][research_bouwer_ignatuk_2025]
+- [Bouwer and Ignatuk 2025][research_bouwer_ignatuk_2025_b]
+- [Bouwer and Kaiser 2019][research_bouwer_kaiser_2019]
+- [Boyd et al 1982][research_boyd_maxfield_1982]
+- [Boyd et al 2018][research_boyd_bogetti_2018]
+- [Boyle and Sladek 1975][research_boyle_sladek_1975]
+- [Boztas et al 2025][research_boztas_atespare_2025]
+- [Brasington et al 2020][research_brasington_harik_2020]
+- [Bratukhin et al 1995][research_bratukhin_bogolyubov_1995]
+- [Brauner et al 2013][research_brauner_peters_2013]
+- [Brauner et al 2014][research_brauner_bauer_2014]
+- [Brauner et al 2014][research_brauner_soprano_2014]
+- [Brazier and Schwartz 1980][research_brazier_schwartz_1980]
+- [Breede et al 2015][research_breede_kahalimoghaddam_2015]
+- [Bregman et al 2024][research_bregman_lee_2024]
+- [Brian P. Justusson et al][research_brianpjustusson_josephdschaefer]
+- [Brich et al 2025][research_brich_hill_2025]
+- [Brinckman and Chaiko 2001][research_brinckman_chaiko_2001]
+- [Brink et al 2020][research_brink_vankan_2020]
+- [Brookhart 2021][research_brookhart_2021]
+- [Brotherhood et al 2002][research_brotherhood_drinkwater_2002]
+- [Broughton et al 2025][research_broughton_laranjeira_2025]
+- [Brown 1978][research_brown_1978]
+- [Brown 1978][research_brown_1978_b]
+- [Brown 2012][research_brown_2012]
+- [Brown and Timmerman 1991][research_brown_timmerman_1991]
+- [Brown et al 1974][research_brown_jr_1974]
+- [Brunner 2015][research_brunner_2015]
+- [Bruno and Lato 1991][research_bruno_lato_1991]
+- [Bruno, Joseph and Libeskind, Mark 1990][research_brunojoseph_libeskindmark_1990]
+- [Brunson and Rais-Rohani 1996][research_brunson_raisrohani_1996]
+- [Buchinger and Sharif Khodaei 2021][research_buchinger_sharifkhodaei_2021]
+- [Buckling and Postbuckling of 1995][research_buckling_and_1995]
+- [Buddala et al 2024][research_buddala_tallur_2024]
+- [Buhagiar et al 2026][research_buhagiar_tretiak_2026]
+- [Bulk factor characterization of heated debulked autoclave and out-of-autoclave carbon fibre prepregs][research_bulk_factor]
+- [Bung and Valero 2018][research_bung_valero_2018]
+- [Bur and Joyot 2017][research_bur_joyot_2017]
+- [Bur et al 2018][research_bur_joyot_2018]
+- [Burnett et al 1995][research_burnett_magnuson_1995]
+- [Burton and Noor 1997][research_burton_noor_1997]
+- [Bush 1965][research_bush_1965]
+- [Bushko and Stokes 1996][research_bushko_stokes_1996]
+- [Butkus et al 2002][research_butkus_valentin_2002]
+- [Butler and Liu 2008][research_butler_liu_2008]
+- [Byar and Tan][research_byar_tan]
+- [Byklum et al 2004][research_byklum_steen_2004]
+- [Byrne et al 1980][research_byrne_hagnauer_1980]
+- [Béchet et al 2003][research_bechet_ruiz_2003]
+- [BÉChet et al 2020][research_bechet_ruiz_2020]
+- [Bürger et al 2014][research_burger_rans_2014]
+- [C. Jin et al 2019][research_cjin_li_2019]
+- [C. William et al 2025][research_cwilliam_sndazi_2025]
+- [C0613_C0613M Test Method for 2008][research_c0613_c0613m_test_2008]
+- [Caamaño et al 2022][research_caamano_boulaayoun_2022]
+- [Caballero et al 2021][research_caballero_gonzalez_2021]
+- [Caballero Garzón][research_caballerogarzon]
+- [Cabrinha and Ponitz 2014][research_cabrinha_ponitz_2014]
+- [Cadenato et al 1997][research_cadenato_salla_1997]
+- [Cadieu et al 2019][research_cadieu_kopp_2019]
+- [Cai 1992][research_cai_1992]
+- [Cai 2024][research_cai_2024]
+- [Cai and Salovey 2001][research_cai_salovey_2001]
+- [Cai et al 1992][research_cai_gutowski_1992]
+- [Cai et al 2023][research_cai_wang_2023]
+- [Cai et al 2025][research_cai_ji_2025]
+- [Calado and Advani 2000][research_calado_advani_2000]
+- [Callinan and Galea 2002][research_callinan_galea_2002]
+- [Camacho et al 2019][research_camacho_veiga_2019]
+- [Camarena et al 2024][research_camarena_anderson_2024]
+- [Cameron 2025][research_cameron_2025]
+- [Cameron et al 2021][research_cameron_saseendran_2021]
+- [Cameron et al 2023][research_cameron_hozic_2023]
+- [Camim][research_camim]
+- [Camin and McKenzie 1980][research_camin_mckenzie_1980]
+- [Caminero et al 2013][research_caminero_pavlopoulou_2013]
+- [Campbell 2004][research_campbell_2004]
+- [Campbell et al][research_campbell_smith]
+- [Campilho 2023][research_campilho_2023]
+- [Campilho and da Silva 2015][research_campilho_dasilva_2015]
+- [Campolo and Cipri 1995][research_campolo_cipri_1995]
+- [Camponeschi et al 1994][research_camponeschi_bohlmann_1994]
+- [Campos et al 2017][research_campos_mewis_2017]
+- [Canaroli et al 2025][research_canaroli_baldi_2025]
+- [Cantrell 2018][research_cantrell_2018]
+- [Canumalla and Schackmuth][research_canumalla_schackmuth]
+- [Cao et al 2014][research_cao_hu_2014]
+- [Cao et al 2014][research_cao_jin_2014]
+- [Cao et al 2022][research_cao_wang_2022]
+- [Capehart et al 2007][research_capehart_kia_2007]
+- [Capell et al 2007][research_capell_palaniappan_2007]
+- [Capitani et al 2011][research_capitani_capriolo_2011]
+- [Caputo et al 2019][research_caputo_manzo_2019]
+- [Caputo et al 2021][research_caputo_lamanna_2021]
+- [Caravasos 1992][research_caravasos_1992]
+- [Carbas et al 2013][research_carbas_marques_2013]
+- [Carbon Fiber and Fiberglass][research_carbon_fiber_d]
+- [Carbon Fiber Fabric Repair][research_carbon_fiber]
+- [Carbon Fiber Fabric Repair][research_carbon_fiber_b]
+- [Carbon Fiber Fabric Repair][research_carbon_fiber_c]
+- [Carbon Fiber Fabric Repair][research_carbon_fiber_e]
+- [Carbon Fiber Fabric Repair][research_carbon_fiber_f]
+- [Carbon Fiber Fabric Repair][research_carbon_fiber_g]
+- [Carbon Fiber Fabric Repair][research_carbon_fiber_h]
+- [Carbon Fiber Fabric Repair][research_carbon_fiber_i]
+- [Carbon Fiber Fabric Repair][research_carbon_fiber_j]
+- [Carbon Fiber Fabric Repair][research_carbon_fiber_k]
+- [Carbon Fiber Fabric Repair][research_carbon_fiber_l]
+- [Cardoso et al 2025][research_cardoso_reis_2025]
+- [Carlone and Palazzo][research_carlone_palazzo]
+- [Carlone and Palazzo 2009][research_carlone_palazzo_2009]
+- [Carlone and Palazzo 2011][research_carlone_palazzo_2011]
+- [Carlone and Palazzo 2013][research_carlone_palazzo_2013]
+- [Caron et al 2017][research_caron_larreteguy_2017]
+- [Carrillo and Cantwell 2009][research_carrillo_cantwell_2009]
+- [Carter et al 2003][research_carter_emmerson_2003]
+- [Cary 1967][research_cary_1967]
+- [Cascaval et al 2006][research_cascaval_rosu_2006]
+- [Cassara et al 2026][research_cassara_copeman_2026]
+- [Castagne et al 2004][research_castagne_curran_2004]
+- [Castro Arias][research_castroarias]
+- [Castro et al 2021][research_castro_sket_2021]
+- [Catapano and Montemurro 2014][research_catapano_montemurro_2014]
+- [Cavalcanti Hernandes et al 2025][research_cavalcantihernandes_szejka_2025]
+- [Cawley et al 1993][research_cawley_pialucha_1993]
+- [Ce Xiao et al 2008][research_cexiao_cai_2008]
+- [Celik et al 2014][research_celik_cehreli_2014]
+- [Cender et al 2022][research_cender_lavaggi_2022]
+- [Centea and Hubert 2011][research_centea_hubert_2011]
+- [Centea and Hubert 2012][research_centea_hubert_2012]
+- [Centea and Hubert 2013][research_centea_hubert_2013]
+- [Centea and Nutt 2015][research_centea_nutt_2015]
+- [Centea et al 2015][research_centea_grunenfelder_2015]
+- [Cetkovic 2016][research_cetkovic_2016]
+- [Chabot and Brescia 1993][research_chabot_brescia_1993]
+- [Chadegani et al 2009][research_chadegani_yang_2009]
+- [Chadegani et al 2012][research_chadegani_yang_2012]
+- [Chadegani, Alireza et al 2012][research_chadeganialireza_yangchihdar_2012]
+- [Chagraoui and Soula 2024][research_chagraoui_soula_2024]
+- [Chahal 1966][research_chahal_1966]
+- [Chai et al 2023][research_chai_eisenbart_2023]
+- [Chaiko and Brinckman 2001][research_chaiko_brinckman_2001]
+- [Chailleux et al 1999][research_chailleux_salvia_1999]
+- [Chaiwan et al 2019][research_chaiwan_kaewkittinarong_2019]
+- [Chalkley and Baker 1999][research_chalkley_baker_1999]
+- [Chalkley et al 2002][research_chalkley_wang_2002]
+- [Chambers et al 2017][research_chambers_oonnoonny_2017]
+- [Chambers et al 2017][research_chambers_yutko_2017]
+- [Chambers et al 2018][research_chambers_hoffman_2018]
+- [Chambers et al 2018][research_chambers_yutko_2018]
+- [Chamis 1981][research_chamis_1981]
+- [Chan et al 2018][research_chan_lu_2018]
+- [Chandran et al 2012][research_chandran_krishna_2012]
+- [Chang 2015][research_chang_2015]
+- [Chang 2019][research_chang_2019]
+- [Chang 2025][research_chang_2025]
+- [Chang and Ihn 2003][research_chang_ihn_2003]
+- [Chang and Young 2023][research_chang_young_2023]
+- [Chang et al 1996][research_chang_chen_1996]
+- [Chang et al 2012][research_chang_zeng_2012]
+- [Chang et al 2016][research_chang_zhan_2016]
+- [Chang et al 2017][research_chang_zhan_2017]
+- [Chang et al 2019][research_chang_yang_2019]
+- [Chang et al 2024][research_chang_ren_2024]
+- [Chapelon 1987][research_chapelon_1987]
+- [Chapman 1981][research_chapman_1981]
+- [Characterization of thermoset cure 1990][research_characterization_of_1990]
+- [Characterizing rheological cure behaviour 1981][research_characterizing_rheological_1981]
+- [Chattopadhyay and Dragomir 2001][research_chattopadhyay_dragomir_2001]
+- [Chau][research_chau]
+- [Chau and Lee 1997][research_chau_lee_1997]
+- [Chaudhuri 2010][research_chaudhuri_2010]
+- [Chava and Namilae 2022][research_chava_namilae_2022]
+- [Chava et al 2022][research_chava_namilae_2022_b]
+- [Chemorheology and chemorheological modelling 2009][research_chemorheology_and_2009]
+- [Chemorheology and Gelation 2000][research_chemorheology_and_2000]
+- [Chemorheology of Epoxy/Nickel Conductive 2008][research_chemorheology_of_2008]
+- [Chemorheology of Thermosetting Polymers 1982][research_chemorheology_of_1982]
+- [Chemorheology of Thermosetting Polymers 1982][research_chemorheology_of_1982_b]
+- [Chen][research_chen]
+- [Chen 1983][research_chen_1983]
+- [Chen and Mei 1994][research_chen_mei_1994]
+- [Chen and Storch 2013][research_chen_storch_2013]
+- [Chen and Zhang 2018][research_chen_zhang_2018]
+- [Chen and Zhang 2019][research_chen_zhang_2019]
+- [Chen et al 1991][research_chen_lin_1991]
+- [Chen et al 1993][research_chen_chen_1993]
+- [Chen et al 1993][research_chen_tu_1993]
+- [Chen et al 1998][research_chen_chew_1998]
+- [Chen et al 1998][research_chen_fu_1998]
+- [Chen et al 1998][research_chen_usman_1998]
+- [Chen et al 1998][research_chen_yang_1998]
+- [Chen et al 2001][research_chen_davila_2001]
+- [Chen et al 2003][research_chen_he_2003]
+- [Chen et al 2004][research_chen_don_2004]
+- [Chen et al 2004][research_chen_ye_2004]
+- [Chen et al 2013][research_chen_haitran_2013]
+- [Chen et al 2014][research_chen_bil_2014]
+- [Chen et al 2014][research_chen_chenkeat_2014]
+- [Chen et al 2014][research_chen_lei_2014]
+- [Chen et al 2014][research_chen_zhou_2014]
+- [Chen et al 2017][research_chen_li_2017]
+- [Chen et al 2018][research_chen_gao_2018]
+- [Chen et al 2019][research_chen_ren_2019]
+- [Chen et al 2020][research_chen_cheng_2020]
+- [Chen et al 2020][research_chen_poursartip_2020]
+- [Chen et al 2020][research_chen_wang_2020]
+- [Chen et al 2021][research_chen_fu_2021]
+- [Chen et al 2021][research_chen_joseph_2021]
+- [Chen et al 2021][research_chen_poursartip_2021]
+- [Chen et al 2021][research_chen_wang_2021]
+- [Chen et al 2021][research_chen_wu_2021]
+- [Chen et al 2022][research_chen_janeliukstis_2022]
+- [Chen et al 2022][research_chen_li_2022]
+- [Chen et al 2023][research_chen_legrand_2023]
+- [Chen et al 2023][research_chen_tian_2023]
+- [Chen et al 2023][research_chen_zhu_2023]
+- [Chen et al 2024][research_chen_ye_2024]
+- [Chen et al 2026][research_chen_han_2026]
+- [Chen et al 2026][research_chen_li_2026]
+- [Chen et al 2026][research_chen_liu_2026]
+- [Chen et al 2026][research_chen_wu_2026]
+- [Cheng et al 2013][research_cheng_ozsoy_2013]
+- [Chenlong Yang 2011][research_chenlongyang_2011]
+- [Chern et al 1992][research_chern_djordjevic_1992]
+- [Cherrington and Towill 1983][research_cherrington_towill_1983]
+- [Chester et al 1999][research_chester_walker_1999]
+- [Cheung and Lin 2009][research_cheung_lin_2009]
+- [Cheung and Lin 2012][research_cheung_lin_2012]
+- [Cheung and Scott 1996][research_cheung_scott_1996]
+- [Cheung et al 2010][research_cheung_gray_2010]
+- [Chi and Sladek 1975][research_chi_sladek_1975]
+- [Chi et al 2010][research_chi_langdon_2010]
+- [Chiao and Lyon 1990][research_chiao_lyon_1990]
+- [Chiariello et al 2024][research_chiariello_perillo_2024]
+- [Childers et al 2016][research_childers_hassan_2016]
+- [Chilvers and Morris 1998][research_chilvers_morris_1998]
+- [Chimenti 1991][research_chimenti_1991]
+- [Chimenti and Fortunko 1994][research_chimenti_fortunko_1994]
+- [Chinva et al 1996][research_chinva_olarey_1996]
+- [Chittaranjan . V and K. Muni Sekhar 2017][research_chittaranjanv_kmunisekhar_2017]
+- [Chiu et al 2000][research_chiu_koh_2000]
+- [Chmielewski et al 1993][research_chmielewski_jayaraman_1993]
+- [Cho and Douglas 2002][research_cho_douglas_2002]
+- [Cho and Rhee 2011][research_cho_rhee_2011]
+- [Choi and Im 1999][research_choi_im_1999]
+- [Choi and Lee 1995][research_choi_lee_1995]
+- [Choi et al 2003][research_choi_kim_2003]
+- [Choi et al 2004][research_choi_kim_2004]
+- [Choi et al 2005][research_choi_kelly_2005]
+- [Choi et al 2006][research_choi_mount_2006]
+- [Choi et al 2011][research_choi_janisse_2011]
+- [Choi et al 2022][research_choi_jeong_2022]
+- [Choi et al 2026][research_choi_aslam_2026]
+- [Chosie and Vasconcelos 2013][research_chosie_vasconcelos_2013]
+- [Chou and Cronmen 1978][research_chou_cronmen_1978]
+- [Chou and Penn 1992][research_chou_penn_1992]
+- [Christiansen 1944][research_christiansen_1944]
+- [Chu et al 1997][research_chu_mckenna_1997]
+- [Chu et al 2023][research_chu_featherston_2023]
+- [Chuang et al 1986][research_chuang_chang_1986]
+- [Chueangchayaphan et al 2020][research_chueangchayaphan_nithiuthai_2020]
+- [Cidlina and Müller 2015][research_cidlina_muller_2015]
+- [Ciminello et al 2026][research_ciminello_memmolo_2026]
+- [Cinar et al 2020][research_cinar_guven_2020]
+- [Ciriscioli and Springer 2021][research_ciriscioli_springer_2021]
+- [Ciriscioli and Springer 2021][research_ciriscioli_springer_2021_b]
+- [Ciriscioli et al 1991][research_ciriscioli_springer_1991]
+- [Ciriscioli et al 1992][research_ciriscioli_qiulingwang_1992]
+- [Cizmecioglu et al 1986][research_cizmecioglu_gupta_1986]
+- [Clark and Romilly 2001][research_clark_romilly_2001]
+- [Claus and Kline 1979][research_claus_kline_1979]
+- [Clay et al 2021][research_clay_brown_2021]
+- [Clay et al 2023][research_clay_knoth_2023]
+- [Clayton 1970][research_clayton_1970]
+- [Clearfield et al 1991][research_clearfield_mcnamara_1991]
+- [Clifford et al 2006][research_clifford_jansson_2006]
+- [Cloth, Type "e" Glass][research_cloth_type]
+- [Cloth, Type "E" Glass][research_cloth_type_b]
+- [Co-cure 2007][research_co_cure_2007]
+- [Cobb et al 1999][research_cobb_johnson_1999]
+- [Coduti and Paratore 1997][research_coduti_paratore_1997]
+- [Cody and Tiedje 1996][research_cody_tiedje_1996]
+- [Cody and Tiedje 1997][research_cody_tiedje_1997]
+- [Coladas Mato et al 2019][research_coladasmato_webb_2019]
+- [Cole 1991][research_cole_1991]
+- [Colley 2009][research_colley_2009]
+- [Collier et al 2002][research_collier_yarrington_2002]
+- [Comas-Cardona et al 2005][research_comascardona_groenenboom_2005]
+- [Combined sensor system for 1998][research_combined_sensor_1998]
+- [Combined sensor system for 1998][research_combined_sensor_1998_b]
+- [Comer et al 2019][research_comer_ray_2019]
+- [Comey et al 1978][research_comey_culy_1978]
+- [Comparison of Autoclave and Out-of-Autoclave Composites][research_sutter_comparison]
+- [Composite Airframe Cost Estimation Model Research Report on Activity][research_airframe_cost_model]
+- [Composite and Bonded Structure][research_composite_and]
+- [Composite and Bonded Structure][research_composite_and_b]
+- [Composite and Bonded Structure][research_composite_and_c]
+- [Composite fuselage crown panel manufacturing technology][research_crown_panel_manufacturing]
+- [Composite fuselage frames manufactured 2004][research_composite_fuselage_2004]
+- [Composite fuselage saves time 2000][research_composite_fuselage_2000]
+- [Composite Honeycomb NDI Reference][research_composite_honeycomb]
+- [Composite Manufacturing Cost Model Targeting on Design Optimization][research_cost_model_design]
+- [Composite moulding apparatus for 1995][research_composite_moulding_1995]
+- [Composite panel with integral 1990][research_composite_panel_1990]
+- [Composite Repair Ndt/Ndi Handbook][research_composite_repair]
+- [Composite sintered material having 1991][research_composite_sintered_1991]
+- [Composite skin cuts cost 1995][research_composite_skin_1995]
+- [Composite structure 1998][research_composite_structure_1998]
+- [Composite structure reinforcement 1990][research_composite_structure_1990]
+- [Composite tails prove airworthy 2001][research_composite_tails_2001]
+- [Composite tooling 1990][research_composite_tooling_1990]
+- [Composite wing structures 2001][research_composite_wing_2001]
+- [Composites review characterization of 1986][research_composites_review_1986]
+- [Composites. Prepregs. Determination of][research_composites_prepregs]
+- [Compression molding prepreg for 2020][research_compression_molding_2020]
+- [Computer Aided Manufacturing Cost 2010][research_computer_aided_2010]
+- [Condon and Cook 1983][research_condon_cook_1983]
+- [Conductive Thermoset Composites 2018][research_conductive_thermoset_2018]
+- [Cone 1966][research_cone_1966]
+- [Constructive Design of Bonded 2008][research_constructive_design_2008]
+- [Continuous monitoring system for 1990][research_continuous_monitoring_1990]
+- [Controlled damage based design][research_controlled_damage_based]
+- [Cook et al 2001][research_cook_lau_2001]
+- [Copeland 1995][research_copeland_1995]
+- [Copley 1987][research_copley_1987]
+- [Core, Flexible Honeycomb, Aluminum][research_core_flexible]
+- [CORE, Flexible Honeycomb, Aluminum][research_core_flexible_b]
+- [CORE, Flexible Honeycomb, Aluminum][research_core_flexible_c]
+- [Core, Flexible Honeycomb, Aluminum][research_core_flexible_d]
+- [CORE, Flexible Honeycomb, Aluminum][research_core_flexible_e]
+- [Core, Flexible Honeycomb, Aluminum][research_core_flexible_f]
+- [CORE, Honeycomb, Aluminum Alloy][research_core_honeycomb]
+- [Corezzi et al 2010][research_corezzi_fioretto_2010]
+- [Corrado and Polini 2019][research_corrado_polini_2019]
+- [Corrosion of Welded, Brazed 1999][research_corrosion_of_1999]
+- [Cortes et al 2019][research_cortes_maravola_2019]
+- [Cost of Composites A 2010][research_cost_of_2010]
+- [Cost of Composites A 2013][research_cost_of_2013]
+- [Cost of manufacturing aerofoil 2000][research_cost_of_2000]
+- [Cost-Estimating Relationships for Aircraft 1972][research_cost_estimating_relationships_1972]
+- [Costa et al 2005][research_costa_botelho_2005]
+- [Costa et al 2005][research_costa_pardini_2005]
+- [Costa et al 2006][research_costa_botelho_2006]
+- [Cot et al 2015][research_cot_mukherjee_2015]
+- [Couchman 1980][research_couchman_1980]
+- [Coulehan 1984][research_coulehan_1984]
+- [Cox 2006][research_cox_2006]
+- [Crane et al 2021][research_crane_hartsmith_2021]
+- [Crashworthiness and Energy Absorption][research_crashworthiness_and]
+- [Crashworthiness of Composite Thin-Walled 2017][research_crashworthiness_of_2017]
+- [Crashworthy composite aircraft structure 1996][research_crashworthy_composite_1996]
+- [Crasto et al 2002][research_crasto_kim_2002]
+- [Crawford et al 2022][research_crawford_ramezankhani_2022]
+- [Crilly 1967][research_crilly_1967]
+- [Crocombe and Moult 1988][research_crocombe_moult_1988]
+- [Crosby and Fernando 1999][research_crosby_fernando_1999]
+- [Crosby et al 2003][research_crosby_kundu_2003]
+- [Crothers and Baddock 2002][research_crothers_baddock_2002]
+- [Crump et al 2009][research_crump_dulieubarton_2009]
+- [Cuc and Giurgiutiu 2004][research_cuc_giurgiutiu_2004]
+- [Cui et al 2003][research_cui_hong_2003]
+- [Cui et al 2025][research_cui_zhang_2025]
+- [Cumbo et al 2022][research_cumbo_baroni_2022]
+- [Cummings 1983][research_cummings_1983]
+- [Cunningham 1980][research_cunningham_1980]
+- [Cure cycle 2007][research_cure_cycle_2007]
+- [Cure Shrinkage and Residual 2014][research_cure_shrinkage_2014]
+- [Curran et al 2007][research_curran_gomis_2007]
+- [Curtin and Adey 2000][research_curtin_adey_2000]
+- [Cusano et al 2000][research_cusano_breglio_2000]
+- [Cytec unveils low temperature 2011][research_cytec_unveils_2011]
+- [Czarnocki and Czajkowska 2015][research_czarnocki_czajkowska_2015]
+- [Czarnocki and Piekarski 1986][research_czarnocki_piekarski_1986]
+- [Czarnocki and Piekarski 1986][research_czarnocki_piekarski_1986_b]
+- [Córcoles et al 2015][research_corcoles_zastrow_2015]
+- [Cózar et al 2020][research_cozar_turon_2020]
+- [D et al 2025][research_d_rameshkumar_2025]
+- [D'Amato 2007][research_damato_2007]
+- [D'Angelo et al 2018][research_dangelo_cavaccini_2018]
+- [D3530_D3530M Test Method for 2008][research_d3530_d3530m_test_2008]
+- [da Costa Mattos et al 2012][research_dacostamattos_monteiro_2012]
+- [da Silva and Campilho 2015][research_dasilva_campilho_2015]
+- [da Silva et al 2022][research_dasilva_donadon_2022]
+- [Dahmen 2025][research_dahmen_2025]
+- [Dahmen 2026][research_dahmen_2026]
+- [Dai et al 2010][research_dai_he_2010]
+- [Dai et al 2023][research_dai_li_2023]
+- [Dai et al 2023][research_dai_webb_2023]
+- [Daines 1966][research_daines_1966]
+- [Daissè et al 2022][research_daisse_marcon_2022]
+- [Dalla Libera Junior et al 2020][research_dallaliberajunior_leao_2020]
+- [Damage identification for composite 2017][research_damage_identification_2017]
+- [Damghani et al 2024][research_damghani_saadkhan_2024]
+- [Dance and Jarvis][research_dance_jarvis]
+- [Dance and Middlebrook 1979][research_dance_middlebrook_1979]
+- [Dang et al 2011][research_dang_bernetich_2011]
+- [Daniel et al 1992][research_daniel_wooh_1992]
+- [Danzi et al 2016][research_danzi_klunker_2016]
+- [Dao et al 2006][research_dao_hodgkin_2006]
+- [Dao et al 2007][research_dao_hodgkin_2007]
+- [Das and Pradhan 2013][research_das_pradhan_2013]
+- [Dassios et al 2013][research_dassios_aggelis_2013]
+- [Datta 2021][research_datta_2021]
+- [Datta et al 1996][research_datta_munshi_1996]
+- [Datta et al 2026][research_datta_masood_2026]
+- [Dauksys et al 1968][research_dauksys_pagano_1968]
+- [Dave et al 1987][research_dave_kardos_1987]
+- [Dave et al 1987][research_dave_kardos_1987_b]
+- [Davies et al 2007][research_davies_day_2007]
+- [Davila Montano][research_davilamontano]
+- [Davis 2002][research_davis_2002]
+- [Davis and Harkless 2001][research_davis_harkless_2001]
+- [Davis, G. W. and Sakata, I. F. 1981][research_davisgw_sakataif_1981]
+- [Davoodi and Safizadeh 2025][research_davoodi_safizadeh_2025]
+- [Davydenko et al 2018][research_davydenko_horb_2018]
+- [Davé 1990][research_dave_1990]
+- [Dawei and Xuefeng 2012][research_dawei_xuefeng_2012]
+- [Dawn Jegley et al][research_dawnjegley_alanamariecardona]
+- [Day et al 1989][research_day_lee_1989]
+- [de Andrade Raponi et al 2020][research_deandraderaponi_barbosa_2020]
+- [de Cos et al 2008][research_decos_sanchez_2008]
+- [de Faria Gonzales Leal et al 2024][research_defariagonzalesleal_depaulasantos_2024]
+- [De Fenza et al 2017][research_defenza_petrone_2017]
+- [de Freitas and Budzik 2023][research_defreitas_budzik_2023]
+- [De Giorgi et al 2020][research_degiorgi_nobile_2020]
+- [de la Cruz and Sheppard 1990][research_delacruz_sheppard_1990]
+- [de Lumley et al 2019][research_delumley_mathieu_2019]
+- [de Medeiros et al 2014][research_demedeiros_borges_2014]
+- [de Morais 2023][research_demorais_2023]
+- [de Moura and Chousal 2013][research_demoura_chousal_2013]
+- [De Rosset 2003][research_derosset_2003]
+- [de Sá Rodrigues et al 2023][research_desarodrigues_giannakeas_2023]
+- [Dear 2020][research_dear_2020]
+- [Deaton, Jerry W. et al 1995][research_deatonjerryw_dexterhbenson_1995]
+- [DeBruyn et al 2008][research_debruyn_hurworth_2008]
+- [Debski et al 2013][research_debski_kubiak_2013]
+- [Definition of the standard 1954][research_definition_of_1954]
+- [Degenhardt and Tessmer 2007][research_degenhardt_tessmer_2007]
+- [Degenhardt et al 2006][research_degenhardt_rolfes_2006]
+- [Degraff et al 2022][research_degraff_liang_2022]
+- [Dehennis 2025][research_dehennis_2025]
+- [Dehghani et al 2025][research_dehghani_perrin_2025]
+- [Deignan et al 2017][research_deignan_stanley_2017]
+- [Delionback 1979][research_delionback_1979]
+- [Delsol et al 2026][research_delsol_olivier_2026]
+- [Demir et al 2023][research_demir_yildiz_2023]
+- [Deng and Yeh 2009][research_deng_yeh_2009]
+- [Deng and Yeh 2010][research_deng_yeh_2010]
+- [Deng and Yeh 2011][research_deng_yeh_2011]
+- [Deng et al 2026][research_deng_lugo_2026]
+- [Denney and Mall 1996][research_denney_mall_1996]
+- [Denney and Mall 1997][research_denney_mall_1997]
+- [Deo 1996][research_deo_1996]
+- [DePasqual 2001][research_depasqual_2001]
+- [Deringer et al 2017][research_deringer_groschel_2017]
+- [Desgrosseilliers et al 2014][research_desgrosseilliers_groulx_2014]
+- [Deshpande 2020][research_deshpande_2020]
+- [Deshpande et al 2019][research_deshpande_shah_2019]
+- [Deshpande et al 2020][research_deshpande_shah_2020]
+- [Design for manufacture and 1998][research_design_for_1998]
+- [Design for Manufacture and 2001][research_design_for_2001]
+- [Design for manufacture, assembly][research_design_for]
+- [Design for Manufacturing 2007][research_design_for_2007]
+- [Design of Adhesive Bonded 2024][research_design_of_2024]
+- [Design of Composite Structures 2017][research_design_of_2017]
+- [Desplentere et al 2009][research_desplentere_verpoest_2009]
+- [Destic and Bouvet 2016][research_destic_bouvet_2016]
+- [Detweiler 1995][research_detweiler_1995]
+- [Detz and van der Zwaan 2020][research_detz_vanderzwaan_2020]
+- [DeValve and Pitchumani 2013][research_devalve_pitchumani_2013]
+- [Devarajan and Kapania 2020][research_devarajan_kapania_2020]
+- [Development of an Automated 1994][research_development_of_1994]
+- [Developments in resin transfer 1991][research_developments_in_1991]
+- [Dewaidi][research_dewaidi]
+- [Dewangan and Chakladar 2023][research_dewangan_chakladar_2023]
+- [Dewangan and Chakladar 2024][research_dewangan_chakladar_2024]
+- [Dhavale 1990][research_dhavale_1990]
+- [Dhilipkumar and Rajesh 2021][research_dhilipkumar_rajesh_2021]
+- [Dhilipkumar and Rajesh 2022][research_dhilipkumar_rajesh_2022]
+- [Di Pasquale Davide et al 2017][research_dipasqualedavide_goredavid_2017]
+- [Di Pietro and Compston 2010][research_dipietro_compston_2010]
+- [Dickson et al 1980][research_dickson_cole_1980]
+- [Dickstein et al 1993][research_dickstein_spelt_1993]
+- [Dielectric Cure Monitoring of 2008][research_dielectric_cure_2008]
+- [Dielectric cure monitoring-a critical 1990][research_dielectric_cure_1990]
+- [Dielectric measurements for cure 1990][research_dielectric_measurements_1990]
+- [Differential Scanning Calorimetry][research_differential_scanning]
+- [Differential Scanning Calorimetry 1 2019][research_differential_scanning_2019]
+- [Differential Scanning Calorimetry Measurement 2025][research_differential_scanning_2025]
+- [Differential Thermal Analysis DTA][research_differential_thermal]
+- [Digby and Packham 1995][research_digby_packham_1995]
+- [Diharjo et al 2016][research_diharjo_anwar_2016]
+- [Dillon 2005][research_dillon_2005]
+- [Dimitrovová][research_dimitrovova]
+- [Dimopoulos et al 2011][research_dimopoulos_skordos_2011]
+- [Dinardo and Lagace 1987][research_dinardo_lagace_1987]
+- [Dines 1979][research_dines_1979]
+- [Ding][research_ding]
+- [Ding et al 2007][research_ding_tong_2007]
+- [Ding et al 2015][research_ding_li_2015]
+- [Ding et al 2020][research_ding_wang_2020]
+- [Ding et al 2022][research_ding_fang_2022]
+- [Dippenaar and Schreve 2012][research_dippenaar_schreve_2012]
+- [Disbond 2007][research_disbond_2007]
+- [Dispenza and Spadaro 2000][research_dispenza_spadaro_2000]
+- [Diukov 2021][research_diukov_2021]
+- [Djiauw 1981][research_djiauw_1981]
+- [Djokic et al 2002][research_djokic_johnston_2002]
+- [Dmitriev et al 2016][research_dmitriev_zhyvenkova_2016]
+- [Dobrzański and Oleksiak 2021][research_dobrzanski_oleksiak_2021]
+- [Dolkun et al 2018][research_dolkun_zhu_2018]
+- [Domanski 2020][research_domanski_2020]
+- [Domínguez and Madsen 2014][research_dominguez_madsen_2014]
+- [Donath et al 1981][research_donath_globerson_1981]
+- [Donetskiy et al 2022][research_donetskiy_timoshkov_2022]
+- [Dong 2008][research_dong_2008]
+- [Dong 2009][research_dong_2009]
+- [Dong 2010][research_dong_2010]
+- [Dong 2010][research_dong_2010_b]
+- [Dong et al 2018][research_dong_zhao_2018]
+- [Dong et al 2023][research_dong_liu_2023]
+- [Dong Wang et al 2019][research_dongwang_li_2019]
+- [Donough et al 2022][research_donough_shafaq_2022]
+- [Doong and Chen 1995][research_doong_chen_1995]
+- [Dopker et al 1994][research_dopker_murphy_1994]
+- [Dorbath et al 2023][research_dorbath_schur_2023]
+- [Dorighi et al 1996][research_dorighi_krishnaswamy_1996]
+- [Dorward and Ketola 1983][research_dorward_ketola_1983]
+- [Dorworth 2001][research_dorworth_2001]
+- [dos Reis et al 1992][research_dosreis_beall_1992]
+- [Dost, E. F. et al 1992][research_dostef_averywb_1992]
+- [Double-lobe fuselage composite airplane 1988][research_double_lobe_fuselage_1988]
+- [Douglas Aircraft Co Long Beach Ca 1977][research_douglasaircraftcolongbeachca_1977]
+- [Dragan and Synaszko 2009][research_dragan_synaszko_2009]
+- [Dragan et al 2011][research_dragan_synaszko_2011]
+- [Draper et al 2019][research_draper_liang_2019]
+- [Drew et al 2018][research_drew_knipe_2018]
+- [Druy et al 1989][research_druy_elandjian_1989]
+- [Drying of Thermosetting Composite][research_drying_of]
+- [Du][research_du]
+- [Du et al 2004][research_du_guo_2004]
+- [Du et al 2019][research_du_yue_2019]
+- [Duan and Gao 2018][research_duan_gao_2018]
+- [Duan et al 2024][research_duan_sun_2024]
+- [Duann et al 2005][research_duann_chen_2005]
+- [Dubary et al 2018][research_dubary_bouvet_2018]
+- [Dugmore et al 2002][research_dugmore_jonson_2002]
+- [Dugnani and Chang 2016][research_dugnani_chang_2016]
+- [Duke 1983][research_duke_1983]
+- [Duke, Jr. et al 1996][research_dukejr_lesko_1996]
+- [Duller et al 2026][research_duller_mahendran_2026]
+- [Dung and Hoa 2015][research_dung_hoa_2015]
+- [Dunn 2020][research_dunn_2020]
+- [Duong 2019][research_duong_2019]
+- [Duong and Wang 2007][research_duong_wang_2007]
+- [Duong et al 2015][research_duong_duclos_2015]
+- [Duperrex et al 2021][research_duperrex_pesci_2021]
+- [Dusi et al 1982][research_dusi_may_1982]
+- [Dutruch et al 1997][research_dutruch_pascal_1997]
+- [Dušek and Matějka 1984][research_dusek_matejka_1984]
+- [Dvorak 1997][research_dvorak_1997]
+- [Dvorak 1997][research_dvorak_1997_b]
+- [Dvorak 2002][research_dvorak_2002]
+- [Dvorak et al 2013][research_dvorak_kabrt_2013]
+- [Dynamic Analysis of a 2014][research_dynamic_analysis_2014]
+- [Dzenis 2005][research_dzenis_2005]
+- [Dziubek 1980][research_dziubek_1980]
+- [Dziubek 1981][research_dziubek_1981]
+- [Dziubek 1981][research_dziubek_1981_b]
+- [Dziubek 1981][research_dziubek_1981_c]
+- [Dziubek 1981][research_dziubek_1981_d]
+- [Dziubek 1981][research_dziubek_1981_e]
+- [Dziubek 1981][research_dziubek_1981_f]
+- [Dziubek 1981][research_dziubek_1981_g]
+- [Dziubek 1981][research_dziubek_1981_h]
+- [Dziubek 1981][research_dziubek_1981_i]
+- [E. Sadiq et al 2021][research_esadiq_jjweeg_2021]
+- [Eakin 2010][research_eakin_2010]
+- [Eder and Rose 1994][research_eder_rose_1994]
+- [Eduardo Salamanca and Luis Quiroz 2005][research_eduardosalamanca_luisquiroz_2005]
+- [Edwards 2002][research_edwards_2002]
+- [Edwards et al 2011][research_edwards_savage_2011]
+- [Effect of Adhesive Thickness 2023][research_effect_of_2023]
+- [Effect of Bondline Thickness 2016][research_effect_of_2016_b]
+- [Effect of Damage in 2015][research_effect_of_2015]
+- [Effect of Fly Ash 2012][research_effect_of_2012]
+- [Effect of Layering on 2016][research_effect_of_2016]
+- [Effect of room-temperature out-time on tow impregnation in an out-of-autoclave prepreg][research_outtime_tow_impregnation]
+- [Effects of debulk temperature on air evacuation during vacuum bag-only prepreg processing][research_debulk_temperature]
+- [Effects of graphite fiber 1989][research_effects_of_1989]
+- [Effects of input uncertainty 2015][research_effects_of_2015]
+- [Effects of prepreg ageing 1990][research_effects_of_1990]
+- [Egan et al 2015][research_egan_mccarthy_2015]
+- [Egge 1993][research_egge_1993]
+- [Eggert][research_eggert]
+- [Ehmke et al 2017][research_ehmke_rao_2017]
+- [Eijpe and Powell 1997][research_eijpe_powell_1997]
+- [Ekom 2021][research_ekom_2021]
+- [Ekuase et al 2022][research_ekuase_anjum_2022]
+- [Ekvall and Griffin 1981][research_ekvall_griffin_1981]
+- [Ekvall and Griffin 1982][research_ekvall_griffin_1982]
+- [Ekvall and Griffin 1983][research_ekvall_griffin_1983]
+- [El Labban et al 2007][research_ellabban_mousseau_2007]
+- [El Yaakoubi-Mesbah and Mittelstedt 2026][research_elyaakoubimesbah_mittelstedt_2026]
+- [Elastic Buckling Response of 2021][research_elastic_buckling_2021]
+- [Elburn and Toonen 2012][research_elburn_toonen_2012]
+- [Eldeeb et al 2026][research_eldeeb_xu_2026]
+- [Electrical insulating materials. Methods][research_electrical_insulating]
+- [Elenchezhian et al 2022][research_elenchezhian_enos_2022]
+- [Eley 1982][research_eley_1982]
+- [Ellinas and Supple 1983][research_ellinas_supple_1983]
+- [Elster et al 2001][research_elster_trego_2001]
+- [Emam and Eltaher 2016][research_emam_eltaher_2016]
+- [Emery 1989][research_emery_1989]
+- [Emtiaz et al 2026][research_emtiaz_shepherd_2026]
+- [Enami et al 2016][research_enami_horiuchi_2016]
+- [Endruweit 2023][research_endruweit_2023]
+- [Endruweit et al 2022][research_endruweit_matveev_2022]
+- [Eneyew and Ramulu 2014][research_eneyew_ramulu_2014]
+- [Engelstad et al 2015][research_engelstad_koon_2015]
+- [Enns and Gillham 1983][research_enns_gillham_1983]
+- [Enos et al 2023][research_enos_zhang_2023]
+- [Ensminger and Bond 2011][research_ensminger_bond_2011]
+- [Ensminger and Bond 2023][research_ensminger_bond_2023]
+- [Eom et al 2001][research_eom_boogh_2001]
+- [Eom et al 2013][research_eom_seo_2013]
+- [Epoxy prepreg solution for 2019][research_epoxy_prepreg_2019]
+- [Epoxy resin composition and 1992][research_epoxy_resin_1992]
+- [Epoxy resin moulding material 2002][research_epoxy_resin_2002]
+- [Eric J. Carlson et al 2004][research_ericjcarlson_yongyang_2004]
+- [Ermolenko 2025][research_ermolenko_2025]
+- [Ermolenko et al 2024][research_ermolenko_glushkov_2024]
+- [Ernst 1985][research_ernst_1985]
+- [Ersoy and Tugutlu 2009][research_ersoy_tugutlu_2009]
+- [Eschen et al 2018][research_eschen_harnisch_2018]
+- [Esmaeel and Taheri 2013][research_esmaeel_taheri_2013]
+- [Esmizadeh et al 2016][research_esmizadeh_naderi_2016]
+- [Essenhigh 2006][research_essenhigh_2006]
+- [Estridge 2018][research_estridge_2018]
+- [Et al. 2021][research_etal_2021]
+- [Eum et al 2007][research_eum_kageyama_2007]
+- [European programme develops composite 1995][research_european_programme_1995]
+- [Evaluation of bond testing 1990][research_evaluation_of_1990]
+- [Evaluation of bond testing 1994][research_evaluation_of_1994]
+- [Evaluation of nondestructive evaluation 1989][research_evaluation_of_1989]
+- [Evaluation of Wood Adhesive 2023][research_evaluation_of_2023]
+- [Everett et al 1972][research_everett_cashwell_1972]
+- [Exotherm 2007][research_exotherm_2007]
+- [Experimental study of adhesive-bonded 1976][research_experimental_study_1976]
+- [Experimental Study of Concrete 1996][research_experimental_study_1996]
+- [Fabre and Barrallier 2005][research_fabre_barrallier_2005]
+- [Factors Influencing Bond Strength 2001][research_factors_influencing_2001]
+- [Factors that influence Manufacturing][research_factors_that]
+- [Fagan et al 1992][research_fagan_anthony_1992]
+- [Faggiani and Falzon 2018][research_faggiani_falzon_2018]
+- [Fahim and Islam 2024][research_fahim_islam_2024]
+- [Falzon 2006][research_falzon_2006]
+- [Falzon 2008][research_falzon_2008]
+- [Falzon and Cerini 2006][research_falzon_cerini_2006]
+- [Falzon and Faggiani 2012][research_falzon_faggiani_2012]
+- [Falzon and Steven 1995][research_falzon_steven_1995]
+- [Falzon et al 2000][research_falzon_stevens_2000]
+- [Fame et al 2021][research_fame_ramoacorreia_2021]
+- [Fame et al 2022][research_fame_wu_2022]
+- [Fan et al 1992][research_fan_kroeplin_1992]
+- [Fan et al 2023][research_fan_xie_2023]
+- [Fan et al 2023][research_fan_zhang_2023]
+- [Fan et al 2024][research_fan_hou_2024]
+- [Fang et al 2018][research_fang_yuan_2018]
+- [Fang et al 2019][research_fang_li_2019]
+- [Fang et al 2020][research_fang_zhang_2020]
+- [Fanteria et al 2023][research_fanteria_karachalios_2023]
+- [Fantuzzi et al 2024][research_fantuzzi_dib_2024]
+- [Farahani et al 2011][research_farahani_sefidgar_2011]
+- [Fard et al 2011][research_fard_liu_2011]
+- [Farhadinejad et al 2024][research_farhadinejad_karimi_2024]
+- [Fari Bouanani et al 2013][research_faribouanani_benyahia_2013]
+- [Farley, Gary L. and Dickinson, Larry C. 1992][research_farleygaryl_dickinsonlarryc_1992]
+- [Farmer and Covert 1993][research_farmer_covert_1993]
+- [Farmer and Covert 1994][research_farmer_covert_1994]
+- [Farrington][research_farrington]
+- [Farshidi and Berggreen 2022][research_farshidi_berggreen_2022]
+- [Faruque and Chakraborty 2016][research_faruque_chakraborty_2016]
+- [Farzan Nasab et al 2018][research_farzannasab_geijselaers_2018]
+- [Fasanella and Jackson 1998][research_fasanella_jackson_1998]
+- [Fasanella and Jackson 1999][research_fasanella_jackson_1999]
+- [Fasanella and Jackson 2000][research_fasanella_jackson_2000]
+- [Fasanella and Jackson 2002][research_fasanella_jackson_2002]
+- [Fasanella and Jackson 2004][research_fasanella_jackson_2004]
+- [Fasanella et al 2003][research_fasanella_jackson_2003]
+- [Fasanella et al 2003][research_fasanella_jackson_2003_b]
+- [Fasanella et al 2004][research_fasanella_jackson_2004_b]
+- [Fasanella et al 2005][research_fasanella_jackson_2005]
+- [Fasanella et al 2013][research_fasanella_jackson_2013]
+- [Fasel and Todd 2010][research_fasel_todd_2010]
+- [Fassbender et al 1980][research_fassbender_hagemaier_1980]
+- [Fast cure epoxy agent 1998][research_fast_cure_1998]
+- [Fatigue and Fracture of 2015][research_fatigue_and_2015]
+- [Fatigue properties of adhesive-bonded 1980][research_fatigue_properties_1980]
+- [Fauster et al 2018][research_fauster_thirunavukkarasu_2018]
+- [Fava 1968][research_fava_1968]
+- [Feddal et al 2018][research_feddal_khamlichi_2018]
+- [Fein 1998][research_fein_1998]
+- [Feith and Lawrie 1963][research_feith_lawrie_1963]
+- [Fekih et al 2012][research_fekih_albedah_2012]
+- [Fekirini et al 2008][research_fekirini_bachirbouiadjra_2008]
+- [Feldman 1986][research_feldman_1986]
+- [Feldstein 2001][research_feldstein_2001]
+- [Feldstein et al 2001][research_feldstein_shandryuk_2001]
+- [Feldstein et al 2003][research_feldstein_roos_2003]
+- [Feller 2015][research_feller_2015]
+- [Feng and Liu 2024][research_feng_liu_2024]
+- [Feng et al 1985][research_feng_reifsnider_1985]
+- [Feng et al 2013][research_feng_mou_2013]
+- [Feng et al 2016][research_feng_zhang_2016]
+- [Feng et al 2016][research_feng_zhang_2016_b]
+- [Feng et al 2019][research_feng_zhou_2019]
+- [Feng et al 2020][research_feng_ma_2020]
+- [Feng et al 2024][research_feng_li_2024]
+- [Fenn and Jones 1989][research_fenn_jones_1989]
+- [Feraboli et al 2007][research_feraboli_norris_2007]
+- [Fereday and Potter 2013][research_fereday_potter_2013]
+- [Ferguson et al 2019][research_ferguson_fetfatsidis_2019]
+- [Fernandez et al 2019][research_fernandez_angeles_2019]
+- [Fernando][research_fernando]
+- [Fernando et al 2019][research_fernando_costa_2019]
+- [Fernando et al 2023][research_fernando_vandi_2023]
+- [Fernlund et al 2003][research_fernlund_osooly_2003]
+- [Fernlund et al 2018][research_fernlund_mobuchon_2018]
+- [Fernández et al 2003][research_fernandez_blas_2003]
+- [Fernández-León et al 2026][research_fernandezleon_mocerino_2026]
+- [Ferreira et al 2019][research_ferreira_biesek_2019]
+- [Ferreira et al 2021][research_ferreira_biesek_2021]
+- [Ferreira Luz et al 2012][research_ferreiraluz_amico_2012]
+- [Feuchtgruber et al 2023][research_feuchtgruber_holmes_2023]
+- [Feuchtgruber et al 2024][research_feuchtgruber_holmes_2024]
+- [Fiberite aims low-styrene prepreg 1996][research_fiberite_aims_1996]
+- [Fibre placement technology cuts 1997][research_fibre_placement_1997]
+- [Fibre-glass Reinforced Composite Components 1979][research_fibre_glass_reinforced_1979]
+- [Fielding 1983][research_fielding_1983]
+- [Fierro et al 2019][research_fierro_flora_2019]
+- [Filippov et al 2026][research_filippov_pervukhin_2026]
+- [Finchum 1974][research_finchum_1974]
+- [Fink et al 1998][research_fink_mcknight_1998]
+- [Fioriti and Vercella 2019][research_fioriti_vercella_2019]
+- [Fioriti et al 2018][research_fioriti_vercella_2018]
+- [Fire retardant prepreg resin 2015][research_fire_retardant_2015]
+- [Firoozkoohi et al 2017][research_firoozkoohi_abrahamsen_2017]
+- [Fisch et al 1969][research_fisch_hofmann_1969]
+- [Fischer 2003][research_fischer_2003]
+- [Fischer 2003][research_fischer_2003_b]
+- [Fischer 2003][research_fischer_2003_c]
+- [Fischer 2013][research_fischer_2013]
+- [Fischer 2013][research_fischer_2013_b]
+- [Fischer 2013][research_fischer_2013_c]
+- [Flemming et al 1999][research_flemming_ziegmann_1999]
+- [Fleszar 1988][research_fleszar_1988]
+- [Flora et al 2021][research_flora_rizzo_2021]
+- [Flotten 2005][research_flotten_2005]
+- [Flynn, B. W. et al 1997][research_flynnbw_bodinejb_1997]
+- [Flôr][research_flor]
+- [Focke et al 1991][research_focke_smit_1991]
+- [Fojtl et al 2013][research_fojtl_rusnakova_2013]
+- [Fomitchov et al 1999][research_fomitchov_krishnaswamy_1999]
+- [Fong et al 2015][research_fong_saba_2015]
+- [Fontana 1998][research_fontana_1998]
+- [Foo et al 2007][research_foo_chai_2007]
+- [Foreman 1980][research_foreman_1980]
+- [Forgione 2025][research_forgione_2025]
+- [Forsman 1983][research_forsman_1983]
+- [Foster et al 2015][research_foster_hoff_2015]
+- [Foye et al 1980][research_foye_swindlehurst_1980]
+- [Fracture characterisation of random 1987][research_fracture_characterisation_1987]
+- [Fracture work of thin 1988][research_fracture_work_1988]
+- [Fraga et al 2009][research_fraga_hutchinson_2009]
+- [Fraga et al 2009][research_fraga_montserrat_2009]
+- [Franceschini and Galetto 2004][research_franceschini_galetto_2004]
+- [Franciosa et al 2020][research_franciosa_gallo_2020]
+- [Francis 2016][research_francis_2016]
+- [Francis 2017][research_francis_2017]
+- [Francis and Gutierrez-Lemini 1984][research_francis_gutierrezlemini_1984]
+- [Franieck et al 2021][research_franieck_fleischmann_2021]
+- [Franieck et al 2021][research_franieck_fleischmann_2021_b]
+- [Frank-Susich et al 1993][research_franksusich_laananen_1993]
+- [Franz and Laube 1986][research_franz_laube_1986]
+- [Fraser and Williams 2005][research_fraser_williams_2005]
+- [Fredell and Guijt 2002][research_fredell_guijt_2002]
+- [Fredericks and Connor 1960][research_fredericks_connor_1960]
+- [Free and Strandberg 1975][research_free_strandberg_1975]
+- [Free Vibration Analysis and 2009][research_free_vibration_2009]
+- [Freeman and Campbell 1972][research_freeman_campbell_1972]
+- [Frey et al 1996][research_frey_groebrinkhaus_1996]
+- [Friedman 1961][research_friedman_1961]
+- [Friis-Pedersen et al 2008][research_friispedersen_houmoller_2008]
+- [Friot et al 2017][research_friot_meiffre_2017]
+- [Frishfelds and Lundström 2011][research_frishfelds_lundstrom_2011]
+- [Frohnmüller et al 2022][research_frohnmuller_wisner_2022]
+- [Fu and Zhong 2011][research_fu_zhong_2011]
+- [Fu et al 2023][research_fu_schoenholz_2023]
+- [Fujimoto and Sekine 2007][research_fujimoto_sekine_2007]
+- [Fukuda 2001][research_fukuda_2001]
+- [Fuller and Gammell 1987][research_fuller_gammell_1987]
+- [Fuller and Judovits 2001][research_fuller_judovits_2001]
+- [Fung and Popplewell 1994][research_fung_popplewell_1994]
+- [Funk 1989][research_funk_1989]
+- [Funnell][research_funnell]
+- [Fursa et al 2018][research_fursa_petrov_2018]
+- [Furtado et al 2019][research_furtado_catalanotti_2019]
+- [Furtado et al 2021][research_furtado_pereira_2021]
+- [Furushima 2019][research_furushima_2019]
+- [Futchko 1981][research_futchko_1981]
+- [Futchko 1981][research_futchko_1981_b]
+- [Futchko 1981][research_futchko_1981_c]
+- [Futchko 1981][research_futchko_1981_d]
+- [Futchko 1981][research_futchko_1981_e]
+- [Fuwape 1994][research_fuwape_1994]
+- [G., and M., 1999][research_g_m_1999]
+- [Gackowski et al 2023][research_gackowski_sharma_2023]
+- [Gaikwad et al 2025][research_gaikwad_wagmare_2025]
+- [Gain et al 2022][research_gain_oromiehie_2022]
+- [Galea and Chiu 1996][research_galea_chiu_1996]
+- [Galgalikar and Thompson 2016][research_galgalikar_thompson_2016]
+- [Galiana 2022][research_galiana_2022]
+- [Galvez-Hernandez et al 2024][research_galvezhernandez_nazemi_2024]
+- [Gama and Gillespie 2008][research_gama_gillespie_2008]
+- [Gammell 1993][research_gammell_1993]
+- [Gamweger et al 2009][research_gamweger_jobstl_2009]
+- [Gan et al 2010][research_gan_sun_2010]
+- [Ganapathi et al 2015][research_ganapathi_joshi_2015]
+- [Gandy and Asmatulu 2012][research_gandy_asmatulu_2012]
+- [Ganesan and Vasudevan 2023][research_ganesan_vasudevan_2023]
+- [Gangloff et al 2014][research_gangloff_simacek_2014]
+- [Gangloff et al 2016][research_gangloff_cender_2016]
+- [Gao and Nie 2006][research_gao_nie_2006]
+- [Gao et al 2000][research_gao_li_2000]
+- [Gao et al 2010][research_gao_zhang_2010]
+- [Gao et al 2017][research_gao_an_2017]
+- [Gao et al 2018][research_gao_ren_2018]
+- [Gao et al 2026][research_gao_wang_2026]
+- [Garate et al 2022][research_garate_harismendy_2022]
+- [Garbo, S. P. 1983][research_garbosp_1983]
+- [Gardner et al 2014][research_gardner_holmes_2014]
+- [Gargano et al 2020][research_gargano_das_2020]
+- [Garofano 2023][research_garofano_2023]
+- [Garofano and Riccio 2024][research_garofano_riccio_2024]
+- [Garofano and Riccio 2026][research_garofano_riccio_2026]
+- [Garrett 1986][research_garrett_1986]
+- [Garrett et al 2025][research_garrett_allen_2025]
+- [Garschke et al 2013][research_garschke_parlevliet_2013]
+- [Gascons et al 2011][research_gascons_blanco_2011]
+- [Gauthier et al 2000][research_gauthier_dewhurst_2000]
+- [Gawryluk and Teter 2023][research_gawryluk_teter_2023]
+- [Gayncs et al 2026][research_gayncs_spalik_2026]
+- [Gayot et al 2022][research_gayot_soete_2022]
+- [Geipel and Eitner 2013][research_geipel_eitner_2013]
+- [Geiß and Schumann 2026][research_geiss_schumann_2026]
+- [Genest et al 2009][research_genest_martinez_2009]
+- [Geng 2021][research_geng_2021]
+- [Geng et al 2020][research_geng_li_2020]
+- [Genidy et al 1999][research_genidy_madhukar_1999]
+- [George et al 2019][research_george_rutz_2019]
+- [George et al 2020][research_george_rapking_2020]
+- [Gerami et al 2018][research_gerami_bagheri_2018]
+- [Gerendt et al 2019][research_gerendt_dean_2019]
+- [Gerzeski 1996][research_gerzeski_1996]
+- [Ghaemy et al 2004][research_ghaemy_barghamadi_2004]
+- [Ghaemy et al 2005][research_ghaemy_rostami_2005]
+- [Ghamisi et al 2024][research_ghamisi_charter_2024]
+- [Ghavam et al 2017][research_ghavam_soleimanpour_2017]
+- [Ghayour et al 2020][research_ghayour_hojjati_2020]
+- [Ghayour et al 2023][research_ghayour_ganesan_2023]
+- [Ghilai et al 2010][research_ghilai_feldman_2010]
+- [Ghinet and Atalla 2011][research_ghinet_atalla_2011]
+- [Ghobbar and Mukherjee 2026][research_ghobbar_mukherjee_2026]
+- [Ghodhbani et al 2016][research_ghodhbani_marechal_2016]
+- [Gholami et al 2016][research_gholami_alashti_2016]
+- [Ghose, Sayata et al 2011][research_ghosesayata_lewistoddm_2011]
+- [Ghosh and Sinha 2005][research_ghosh_sinha_2005]
+- [Ghosh et al 2014][research_ghosh_pawar_2014]
+- [Gibbons et al 2009][research_gibbons_seguigarza_2009]
+- [Gilibert et al 1989][research_gilibert_klein_1989]
+- [Gill et al 2016][research_gill_visotsky_2016]
+- [Gillespie et al 2003][research_gillespie_monib_2003]
+- [Gillham 1983][research_gillham_1983]
+- [Gillham 1987][research_gillham_1987]
+- [Gilroy and Phillips 1980][research_gilroy_phillips_1980]
+- [Gintert 1995][research_gintert_1995]
+- [Giordano et al 2000][research_giordano_nicolais_2000]
+- [Givot et al][research_givot_krupka]
+- [Gkertzos et al 2024][research_gkertzos_kotzakolios_2024]
+- [glass transition temperature 2021][research_glass_transition_2021]
+- [Glass-transition temperature 2007][research_glass_transition_temperature_2007]
+- [glass-transition temperature 2014][research_glass_transition_temperature_2014]
+- [Glass-Transition Temperature T g 2013][research_glass_transition_temperature_2013]
+- [Gleason 1983][research_gleason_1983]
+- [Gleich et al 2001][research_gleich_vantooren_2001]
+- [Gleich et al 2001][research_gleich_vantooren_2001_b]
+- [Globerson 1980][research_globerson_1980]
+- [Globerson 1984][research_globerson_1984]
+- [Globerson and Gold 1997][research_globerson_gold_1997]
+- [Glushkov et al 2015][research_glushkov_glushkova_2015]
+- [GMS Composites develops a 2016][research_gms_composites_2016]
+- [Gobbato et al 2015][research_gobbato_kosmatka_2015]
+- [Goddard 1982][research_goddard_1982]
+- [Godı́nez 2001][research_godinez_2001]
+- [Goldstone et al 1993][research_goldstone_so_1993]
+- [Gomes and Kota 1992][research_gomes_kota_1992]
+- [Goncalves et al 2023][research_goncalves_arteiro_2023]
+- [Gong et al 2015][research_gong_cheng_2015]
+- [Gong et al 2022][research_gong_wu_2022]
+- [Gonzalez and Cagle 1964][research_gonzalez_cagle_1964]
+- [Gonzalez-Canche et al 2017][research_gonzalezcanche_floresjohnson_2017]
+- [Gonzalo et al 2024][research_gonzalo_seara_2024]
+- [Gooch 2011][research_gooch_2011]
+- [Gooch 2011][research_gooch_2011_b]
+- [Gooch 2011][research_gooch_2011_c]
+- [Gooch 2011][research_gooch_2011_d]
+- [Gooch 2011][research_gooch_2011_e]
+- [Good, Danny E. and Mazza, L. Thomas 1988][research_gooddannye_mazzalthomas_1988]
+- [Goode 1994][research_goode_1994]
+- [Goodman et al 1981][research_goodman_lincoln_1981]
+- [Goossens et al 2025][research_goossens_jimenez_2025]
+- [Gopal et al 2000][research_gopal_adali_2000]
+- [Gopisetti][research_gopisetti]
+- [Gorbunova et al 1998][research_gorbunova_kerber_1998]
+- [Gordon and Caballero 1970][research_gordon_caballero_1970]
+- [Gorthala et al 1994][research_gorthala_roux_1994]
+- [Gosse 2004][research_gosse_2004]
+- [Gosse and Hause 1988][research_gosse_hause_1988]
+- [Gosse and Hause 1992][research_gosse_hause_1992]
+- [Gosselin 1986][research_gosselin_1986]
+- [Gotsis et al 1995][research_gotsis_chamis_1995]
+- [Gourichon et al 2024][research_gourichon_lebel_2024]
+- [Goutaudier et al 2020][research_goutaudier_osmond_2020]
+- [Goyal et al 2022][research_goyal_pennington_2022]
+- [Goyal et al 2023][research_goyal_hoos_2023]
+- [Graczykowski et al 2016][research_graczykowski_orlowska_2016]
+- [Graham 1996][research_graham_1996]
+- [Gransden and Alderliesten 2017][research_gransden_alderliesten_2017]
+- [Grant et al 2025][research_grant_ryan_2025]
+- [Graphite Fiber Tape And][research_graphite_fiber]
+- [Greber 2022][research_greber_2022]
+- [Green, Jr. 1995][research_greenjr_1995]
+- [Greenwell 1977][research_greenwell_1977]
+- [Gregory and Juarez 2018][research_gregory_juarez_2018]
+- [Grelsson 1992][research_grelsson_1992]
+- [Grendahl et al 2001][research_grendahl_chin_2001]
+- [Griffin 1979][research_griffin_1979]
+- [Griffin et al 1991][research_griffin_pang_1991]
+- [Griffiths and Leigh 2019][research_griffiths_leigh_2019]
+- [Grimes 1998][research_grimes_1998]
+- [Groh et al 2017][research_groh_lipka_2017]
+- [Groh et al 2018][research_groh_lee_2018]
+- [Gros 1997][research_gros_1997]
+- [Grosse et al 2015][research_grosse_glock_2015]
+- [Grosskopf and Duke 1992][research_grosskopf_duke_1992]
+- [Grunenfelder and Nutt 2010][research_grunenfelder_nutt_2010]
+- [Grunenfelder et al 2017][research_grunenfelder_dills_2017]
+- [Gu and Chattopadhyay 1995][research_gu_chattopadhyay_1995]
+- [Gu and Liang 2004][research_gu_liang_2004]
+- [Gu et al 2006][research_gu_li_2006]
+- [Gu et al 2008][research_gu_li_2008]
+- [Gu et al 2015][research_gu_qin_2015]
+- [Gu et al 2024][research_gu_luan_2024]
+- [Guan et al 2026][research_guan_yan_2026]
+- [Guan et al 2026][research_guan_zhang_2026]
+- [Gudmundsson 2014][research_gudmundsson_2014]
+- [Gudmundsson 2022][research_gudmundsson_2022]
+- [Guemes 2001][research_guemes_2001]
+- [Gueroult et al 2013][research_gueroult_lebellavacry_2013]
+- [Guida et al 2018][research_guida_marulo_2018]
+- [Guide for Use of][research_guide_for]
+- [Guidelines for Bonded Repair][research_guidelines_for]
+- [Guidelines for Repair Process][research_guidelines_for_b]
+- [Guijt et al 2001][research_guijt_verhoeven_2001]
+- [Guin and Nettles 2021][research_guin_nettles_2021]
+- [Guin et al 2019][research_guin_newton_2019]
+- [Gunnink 1988][research_gunnink_1988]
+- [Guo and Chattopadhyay 1995][research_guo_chattopadhyay_1995]
+- [Guo and Ruess 2015][research_guo_ruess_2015]
+- [Guo et al 2005][research_guo_du_2005]
+- [Guo et al 2005][research_guo_du_2005_b]
+- [Guo et al 2009][research_guo_ogin_2009]
+- [Guo et al 2016][research_guo_guan_2016]
+- [Guo et al 2024][research_guo_gu_2024]
+- [Guo et al 2025][research_guo_bao_2025]
+- [Gupta and Ghosh 2019][research_gupta_ghosh_2019]
+- [Gupta and Kelly 2013][research_gupta_kelly_2013]
+- [Gupta and Mahendran 2025][research_gupta_mahendran_2025]
+- [Gupta et al 2012][research_gupta_kelly_2012]
+- [Gupta et al 2025][research_gupta_kumawat_2025]
+- [Gupta et al 2025][research_gupta_wuzella_2025]
+- [Gurumurthy 2024][research_gurumurthy_2024]
+- [Gutiérrez and Morales 2000][research_gutierrez_morales_2000]
+- [Gutman et al 1994][research_gutman_kadim_1994]
+- [Gutowski 1987][research_gutowski_1987]
+- [Gutowski et al 1994][research_gutowski_hoult_1994]
+- [Guyett and Cardrick 1980][research_guyett_cardrick_1980]
+- [Görlich et al 2021][research_gorlich_arelt_2021]
+- [Gürdal and Haftka 1988][research_gurdal_haftka_1988]
+- [H P Kan and T A Dyer 1996][research_hpkan_tadyer_1996]
+- [Habib][research_habib]
+- [Hack and Leverant 1982][research_hack_leverant_1982]
+- [Hacısalihoglu and Akpinar 2022][research_hacisalihoglu_akpinar_2022]
+- [Hadcock 1985][research_hadcock_1985]
+- [Haddadpour et al 2008][research_haddadpour_kouchakzadeh_2008]
+- [Hadipeykani et al 2020][research_hadipeykani_aghadavoudi_2020]
+- [Hafiz and Abdel Wahab 2015][research_hafiz_abdelwahab_2015]
+- [Haghshenas et al 2018][research_haghshenas_vaziri_2018]
+- [Hagnauer et al 1982][research_hagnauer_pearce_1982]
+- [Hagnauer et al 1983][research_hagnauer_laliberte_1983]
+- [Hahn 1988][research_hahn_1988]
+- [Haifeng et al 2014][research_haifeng_haiyan_2014]
+- [Hall et al 2024][research_hall_zeng_2024]
+- [Hall et al 2024][research_hall_zeng_2024_b]
+- [Halley 2012][research_halley_2012]
+- [Halpin 2011][research_halpin_2011]
+- [Halpin et al 1983][research_halpin_kardos_1983]
+- [Hamad et al 2022][research_hamad_fei_2022]
+- [Hamada et al 1991][research_hamada_maekawa_1991]
+- [Hamada et al 1995][research_hamada_ikegawa_1995]
+- [Hamill et al 2015][research_hamill_centea_2015]
+- [Hammer and Grant 1980][research_hammer_grant_1980]
+- [Hamstad 1983][research_hamstad_1983]
+- [Hamzah et al 2018][research_hamzah_rosli_2018]
+- [Han 1984][research_han_1984]
+- [Han and Kang 2018][research_han_kang_2018]
+- [Han and Lee 2018][research_han_lee_2018]
+- [Han and Lem 1983][research_han_lem_1983]
+- [Han and Lem 1984][research_han_lem_1984]
+- [Han et al 2010][research_han_wood_2010]
+- [Han et al 2013][research_han_butterfield_2013]
+- [Han et al 2016][research_han_qin_2016]
+- [Han et al 2017][research_han_cho_2017]
+- [Han et al 2024][research_han_li_2024]
+- [Hanafiah and Othman 2022][research_hanafiah_othman_2022]
+- [Handbook of Molded Part 2013][research_handbook_of_2013]
+- [Handley et al 1987][research_handley_hughes_1987]
+- [Hank et al 2022][research_hank_lee_2022]
+- [Hanley 1968][research_hanley_1968]
+- [Hannan et al 1980][research_hannan_barrick_1980]
+- [Hanzlik and Yilmazoglu 2024][research_hanzlik_yilmazoglu_2024]
+- [Hao and Zhang 2019][research_hao_zhang_2019]
+- [Hao et al 2019][research_hao_nan_2019]
+- [Hardis][research_hardis]
+- [Harizi and Tuloup 2026][research_harizi_tuloup_2026]
+- [Harkins 1979][research_harkins_1979]
+- [Harkless and Kerr 2002][research_harkless_kerr_2002_b]
+- [Harkless et al 2002][research_harkless_kerr_2002]
+- [Harlalka et al 2016][research_harlalka_naiju_2016]
+- [Harrigan 2017][research_harrigan_2017]
+- [Harris 1963][research_harris_1963]
+- [Harris 2010][research_harris_2010]
+- [Harris et al 2002][research_harris_starnes_2002]
+- [Harris et al 2012][research_harris_vaughan_2012]
+- [Harris et al 2013][research_harris_vaughan_2013]
+- [Harris, Charles E. et al 2001][research_harrischarlese_starnesjameshjr_2001]
+- [Harsch et al 2007][research_harsch_kargerkocsis_2007]
+- [Hart et al 2002][research_hart_johnson_2002]
+- [Hart-Smith][research_hartsmith]
+- [Hart-Smith 1988][research_hartsmith_1988]
+- [Hart-Smith, L. J. 1974][research_hartsmithlj_1974]
+- [Hartley 1965][research_hartley_1965]
+- [Hartmann and Loy 2026][research_hartmann_loy_2026]
+- [Hartmann et al 1992][research_hartmann_hoskins_1992]
+- [Harvey 2002][research_harvey_2002]
+- [Harvey 2005][research_harvey_2005]
+- [Harvey 2015][research_harvey_2015]
+- [Hasan 2023][research_hasan_2023]
+- [Haschenburger 2021][research_haschenburger_2021]
+- [Hassan et al 2017][research_hassan_othman_2017]
+- [Hasselman 1999][research_hasselman_1999]
+- [Hawley, Arthur V. 1993][research_hawleyarthurv_1993]
+- [Hay and Mills 1982][research_hay_mills_1982]
+- [Hay et al 1976][research_hay_fitzgerald_1976]
+- [Hay et al 2003][research_hay_wei_2003]
+- [Hayaty et al 2010][research_hayaty_beheshty_2010]
+- [Hayes and Seferis 1998][research_hayes_seferis_1998]
+- [Hayes and Seferis 1999][research_hayes_seferis_1999]
+- [Hayes et al 2000][research_hayes_gilbert_2000]
+- [Hayford and Henneke][research_hayford_henneke]
+- [Hayford et al 1977][research_hayford_henneke_1977]
+- [Haynes et al 2025][research_haynes_luzetsky_2025]
+- [Hayward and Harris 1990][research_hayward_harris_1990]
+- [Hazbany et al][research_hazbany_gilad]
+- [Hazell et al 2010][research_hazell_applebythomas_2010]
+- [He 2007][research_he_2007]
+- [He and Hu 2008][research_he_hu_2008]
+- [He et al 2012][research_he_cheng_2012]
+- [He et al 2015][research_he_yang_2015]
+- [He et al 2020][research_he_li_2020]
+- [Hedia 2006][research_hedia_2006]
+- [Hedin 1963][research_hedin_1963]
+- [Heil 2025][research_heil_2025]
+- [Heimbs et al 2013][research_heimbs_hoffmann_2013]
+- [Heintze et al 2011][research_heintze_geier_2011]
+- [Heise and Martin 1990][research_heise_martin_1990]
+- [Heller and Kaye 2002][research_heller_kaye_2002]
+- [Helms][research_helms]
+- [Helms et al 1996][research_helms_yang_1996]
+- [Helms et al 1999][research_helms_yang_1999]
+- [Helms et al 2002][research_helms_li_2002]
+- [Helms et al 2003][research_helms_li_2003]
+- [Helmus et al 2015][research_helmus_hinterholzl_2015]
+- [Helmus et al 2016][research_helmus_kratz_2016]
+- [Henderson et al 1999][research_henderson_gurdal_1999]
+- [Henkel introduces new low 2005][research_henkel_introduces_2005]
+- [Henne et al 2004][research_henne_ermanni_2004]
+- [Henneke 1992][research_henneke_1992]
+- [Henneke and Jones 1979][research_henneke_jones_1979]
+- [Hennessey et al 2023][research_hennessey_freckleton_2023]
+- [Henriksen et al 1983][research_henriksen_arthur_1983]
+- [Hensel and Schick 1998][research_hensel_schick_1998]
+- [Henz et al 2002][research_henz_tamma_2002]
+- [Herakovich and Johnson 1981][research_herakovich_johnson_1981]
+- [Herath et al 2022][research_herath_janith_2022]
+- [Hering 1983][research_hering_1983]
+- [Hermansen and Lund 2021][research_hermansen_lund_2021]
+- [Hermansen and Lund 2023][research_hermansen_lund_2023]
+- [Hermansen et al 2026][research_hermansen_borstnar_2026]
+- [Hernandez Caraballa et al 2022][research_hernandezcaraballa_bregman_2022]
+- [Hernandez et al 2019][research_hernandez_gutierrezduran_2019]
+- [Herpradipto et al 2025][research_herpradipto_rosyidi_2025]
+- [Herrera 1998][research_herrera_1998]
+- [Herrick 1989][research_herrick_1989]
+- [Heslehurst 1999][research_heslehurst_1999]
+- [Hewson et al 2013][research_hewson_rice_2013]
+- [Hexion Inc. to offer 2016][research_hexion_inc_2016]
+- [Hexion launches bio-based, low 2009][research_hexion_launches_2009]
+- [Hexion Launches Next Generation 2015][research_hexion_launches_2015]
+- [Hexion Specialty Chemicals launches 2009][research_hexion_specialty_2009]
+- [Heydarinouri et al 2021][research_heydarinouri_vidovic_2021]
+- [Hickey and Campagna 1990][research_hickey_campagna_1990]
+- [Hickman and Williams 1989][research_hickman_williams_1989]
+- [Hidayat 2018][research_hidayat_2018]
+- [Hiel 2026][research_hiel_2026]
+- [High performance epoxy marine 2011][research_high_performance_2011]
+- [High temperature thermoset resin 2008][research_high_temperature_2008]
+- [High temperature thermoset resin 2011][research_high_temperature_2011]
+- [High-pressure decorative laminates HPL][research_high_pressure_decorative]
+- [Hiken 2017][research_hiken_2017]
+- [Hiken 2019][research_hiken_2019]
+- [Hiki and Maruyama 1975][research_hiki_maruyama_1975]
+- [Hikosaka et al 2013][research_hikosaka_matsuzaki_2013]
+- [Hill 1990][research_hill_1990]
+- [Hill 1996][research_hill_1996]
+- [Hill et al 2001][research_hill_george_2001]
+- [Hill et al 2002][research_hill_george_2002]
+- [Hinrichs 1983][research_hinrichs_1983]
+- [Hinrichsen and Bautista 2001][research_hinrichsen_bautista_2001]
+- [Hirota et al 2019][research_hirota_sato_2019]
+- [Hirwani et al 2021][research_hirwani_mishra_2021]
+- [Hisada et al 2018][research_hisada_minakuchi_2018]
+- [Ho-Nguyen-Tan et al 2024][research_honguyentan_jeon_2024]
+- [Hoa 1981][research_hoa_1981]
+- [Hobbs 1995][research_hobbs_1995]
+- [Hofmann and Glasser 1990][research_hofmann_glasser_1990]
+- [Hogan et al 2020][research_hogan_elshaw_2020]
+- [Hogan et al 2022][research_hogan_elshaw_2022]
+- [Hojjati and Kheradpisheh 2023][research_hojjati_kheradpisheh_2023]
+- [Hojjati, et al 2000][research_hojjati_johnston_2000]
+- [Holbery and Bordia 2001][research_holbery_bordia_2001]
+- [Holland and Chaudhari 2024][research_holland_chaudhari_2024]
+- [Hollaway et al 1990][research_hollaway_romhi_1990]
+- [Holmes and Larry R. 2012][research_holmes_larryr_2012_b]
+- [Holmes and Larry R. 2013][research_holmes_larryr_2013]
+- [Holmes et al 2012][research_holmes_larryr_2012]
+- [Holzwarth 1998][research_holzwarth_1998]
+- [Homem de Mello Junior et al 2025][research_homemdemellojunior_desampaioalves_2025]
+- [Honda and Minakuchi 2026][research_honda_minakuchi_2026]
+- [Honeycomb Core, Aluminum Alloy][research_honeycomb_core]
+- [Honeycomb Core, Aluminum Alloy][research_honeycomb_core_b]
+- [Honeycomb CORE, Aluminum Alloy][research_honeycomb_core_c]
+- [Honeycomb-Cored Sandwich Structure Composites 2010][research_honeycomb_cored_sandwich_2010]
+- [Honeycomb-laminate composite structure 1979][research_honeycomb_laminate_composite_1979]
+- [Hong and Chung 1991][research_hong_chung_1991]
+- [Hong et al 2015][research_hong_chung_2015]
+- [Hong et al 2016][research_hong_song_2016]
+- [Hong et al 2017][research_hong_lee_2017]
+- [Hong Zhang et al 2006][research_hongzhang_qinmin_2006]
+- [Hoo Fatt and Park 2001][research_hoofatt_park_2001]
+- [Hopmann et al 2017][research_hopmann_wagner_2017]
+- [Horioka 1988][research_horioka_1988]
+- [Hosseini et al 2026][research_hosseini_beheshty_2026]
+- [Hosseinpour et al 2016][research_hosseinpour_nazockdast_2016]
+- [Hosten 1991][research_hosten_1991]
+- [Hosur et al 2003][research_hosur_jeelani_2003]
+- [Hosur et al 2003][research_hosur_jeelani_2003_b]
+- [Hosur et al 2003][research_hosur_jeelani_2003_c]
+- [Hou and Hou 1987][research_hou_hou_1987]
+- [Hou and Lai 2015][research_hou_lai_2015]
+- [Hou et al 1990][research_hou_hou_1990]
+- [Hou et al 2013][research_hou_miller_2013]
+- [Houen][research_houen]
+- [Hoult and Meador 1997][research_hoult_meador_1997]
+- [Hoult and Meador 2010][research_hoult_meador_2010]
+- [hours. Low exotherm profile 2000][research_hours_low_2000]
+- [hours. Low exotherm profile 2000][research_hours_low_2000_b]
+- [Hourston and Song][research_hourston_song]
+- [Houston et al 2017][research_houston_quinn_2017]
+- [Houzibe et al 2023][research_houzibe_elkettani_2023]
+- [Hovanec][research_hovanec]
+- [Howell and Hines 2024][research_howell_hines_2024]
+- [Hozić 2014][research_hozic_2014]
+- [Hozić et al 2023][research_hozic_thore_2023]
+- [Hseih et al 1998][research_hseih_su_1998]
+- [Hsiao 2005][research_hsiao_2005]
+- [Hsiao et al 1999][research_hsiao_lin_1999]
+- [Hsiao et al 2022][research_hsiao_islam_2022]
+- [Hsich et al 1982][research_hsich_zurn_1982]
+- [Hsu and Fischer 1996][research_hsu_fischer_1996]
+- [Hsu and Jeong 1989][research_hsu_jeong_1989]
+- [Hsu and Nair 1987][research_hsu_nair_1987]
+- [Hsu et al 2010][research_hsu_mor_2010]
+- [Hu 2008][research_hu_2008]
+- [Hu et al 2013][research_hu_tang_2013]
+- [Hu et al 2015][research_hu_sharifi_2015]
+- [Hu et al 2017][research_hu_xiao_2017]
+- [Hu et al 2018][research_hu_jones_2018]
+- [Hu et al 2019][research_hu_centea_2019]
+- [Hu et al 2020][research_hu_centea_2020]
+- [Hu et al 2020][research_hu_shan_2020]
+- [Hu et al 2023][research_hu_li_2023]
+- [Hu et al 2023][research_hu_wang_2023]
+- [Hu et al 2026][research_hu_yong_2026]
+- [Huang and Daehn 1998][research_huang_daehn_1998]
+- [Huang and Lanza di Scalea 2023][research_huang_lanzadiscalea_2023]
+- [Huang and Lee 2010][research_huang_lee_2010]
+- [Huang and Mak 1999][research_huang_mak_1999]
+- [Huang and Mak 2003][research_huang_mak_2003]
+- [Huang and Patham 2012][research_huang_patham_2012]
+- [Huang and Yang 2001][research_huang_yang_2001]
+- [Huang and Yung 2010][research_huang_yung_2010]
+- [Huang and Zhu 2020][research_huang_zhu_2020]
+- [Huang et al 2000][research_huang_gillespie_2000]
+- [Huang et al 2001][research_huang_bao_2001]
+- [Huang et al 2012][research_huang_ren_2012]
+- [Huang et al 2021][research_huang_fan_2021]
+- [Huang et al 2022][research_huang_fan_2022]
+- [Huang et al 2022][research_huang_long_2022]
+- [Hubert 2023][research_hubert_2023]
+- [Hubert and Poursartip 2001][research_hubert_poursartip_2001]
+- [Hubert et al 2018][research_hubert_centea_2018]
+- [Hudson and Yuan 2018][research_hudson_yuan_2018]
+- [Hudson et al 2021][research_hudson_follis_2021]
+- [Hudson et al 2023][research_hudson_baro_2023]
+- [Hudson et al 2025][research_hudson_georgiou_2025]
+- [Hudson et al 2026][research_hudson_pankiewicz_2026]
+- [Hueber et al 2016][research_hueber_horejsi_2016]
+- [Hueber et al 2019][research_hueber_schwingshandl_2019]
+- [Hughes et al 1988][research_hughes_handley_1988]
+- [Hui et al 2022][research_hui_xu_2022]
+- [Hui et al 2022][research_hui_xu_2022_b]
+- [Hui et al 2024][research_hui_xu_2024]
+- [Hui et al 2026][research_hui_zhong_2026]
+- [Huitink and Montazeri 2021][research_huitink_montazeri_2021]
+- [Hull 1982][research_hull_1982]
+- [Humphry][research_humphry]
+- [Hunt and Sturges 1993][research_hunt_sturges_1993]
+- [Huntington and Lyrintzis 1993][research_huntington_lyrintzis_1993]
+- [Hussain et al 2020][research_hussain_regalla_2020]
+- [Hutchins et al 1993][research_hutchins_mottram_1993]
+- [Hutchinson and Moradi 2020][research_hutchinson_moradi_2020]
+- [Hutchinson et al 2014][research_hutchinson_schubel_2014]
+- [Huttrop 1980][research_huttrop_1980]
+- [Hwang et al 2018][research_hwang_park_2018]
+- [Hybrid-electric aircraft has composite 2012][research_hybrid_electric_aircraft_2012]
+- [Hyun et al 2020][research_hyun_kim_2020]
+- [Hällgren et al 2016][research_hallgren_pejryd_2016]
+- [Höhne et al 1996][research_hohne_hemminger_1996]
+- [Höhne et al 2003][research_hohne_hemminger_2003]
+- [Hübner et al 2018][research_hubner_ohde_2018]
+- [iaset 2021][research_iaset_2021]
+- [Iba and Hokoi 2009][research_iba_hokoi_2009]
+- [Iba and Hokoi 2010][research_iba_hokoi_2010]
+- [Ichihara et al 1971][research_ichihara_komatsu_1971]
+- [Iervolino and Meo 2017][research_iervolino_meo_2017]
+- [Ilcewicz and Ashforth 2018][research_ilcewicz_ashforth_2018]
+- [Ilcewicz and Murphy 2005][research_ilcewicz_murphy_2005]
+- [Ilcewicz, L. B. et al 1991][research_ilcewiczlb_walkerth_1991]
+- [Ilcewicz, Larry B. et al 1989][research_ilcewiczlarryb_dosternstf_1989]
+- [Ilcewicz, Larry B. et al 1993][research_ilcewiczlarryb_smithpeterj_1993]
+- [Imbert 2015][research_imbert_2015]
+- [Imhof 1997][research_imhof_1997]
+- [Improved lightweight, unitized barrier/flow 2001][research_improved_lightweight_2001]
+- [Improved preimpregnated material comprising 1992][research_improved_preimpregnated_1992]
+- [Improved resin transfer moulding 1998][research_improved_resin_1998]
+- [Improvement of adhesive-bonded structural 1971][research_improvement_of_1971]
+- [In situ infrared spectroscopy 1998][research_in_situ_1998]
+- [In-situ composite cure monitoring 1990][research_in_situ_composite_1990]
+- [In-situ cure monitoring of an out-of-autoclave prepreg Effects of out-time on viscosity, gelation and vitrification][research_outtime_cure_monitoring]
+- [Influence of predetermined delaminations 1991][research_influence_of_1991]
+- [Ingram et al 2007][research_ingram_liggat_2007]
+- [Inspection of grey iron 1970][research_inspection_of_1970]
+- [International Standard Atmosphere 2010][research_international_standard_2010]
+- [Investigation of acoustic pressure 1990][research_investigation_of_1990]
+- [Investigation of acoustic pressure 1990][research_investigation_of_1990_b]
+- [Investigation of acoustic pressure 1994][research_investigation_of_1994]
+- [Investigation of the Characteristic 2022][research_investigation_of_2022]
+- [Iorio et al 2023][research_iorio_quadrini_2023]
+- [Ipkovich et al 2025][research_ipkovich_kummer_2025]
+- [Iqbal et al 2003][research_iqbal_mccarthy_2003]
+- [Irle and Bolton 1988][research_irle_bolton_1988]
+- [Irving et al 2011][research_irving_zhang_2011]
+- [Irving et al 2014][research_irving_ratchev_2014]
+- [Iryani et al 2019][research_iryani_kadir_2019]
+- [Isaacs 2021][research_isaacs_2021]
+- [Ishida and Rodriguez 1995][research_ishida_rodriguez_1995]
+- [Ishida et al 2020][research_ishida_kitada_2020]
+- [Ishii et al 2016][research_ishii_biwa_2016]
+- [Islam 2026][research_islam_2026]
+- [Islam et al 2022][research_islam_donough_2022]
+- [Ismail et al 2026][research_ismail_fitriyana_2026]
+- [Ito et al 2004][research_ito_yamagishi_2004]
+- [Ito et al 2012][research_ito_minakuchi_2012]
+- [Ito et al 2014][research_ito_obo_2014]
+- [Itu et al 2019][research_itu_vlase_2019]
+- [Ivañez et al 2019][research_ivanez_garciacastillo_2019]
+- [Iyer Kumar and De Waele 2025][research_iyerkumar_dewaele_2025]
+- [J et al 2022][research_j_chaurasia_2022]
+- [Jabarulla Khan et al 2022][research_jabarullakhan_creighton_2022]
+- [Jaber and Bonney 1999][research_jaber_bonney_1999]
+- [Jackson 1996][research_jackson_1996]
+- [Jackson 1998][research_jackson_1998]
+- [Jackson 2001][research_jackson_2001]
+- [Jackson and Fasanella 2018][research_jackson_fasanella_2018]
+- [Jackson and Kellas 2008][research_jackson_kellas_2008]
+- [Jackson et al 2001][research_jackson_fasanella_2001]
+- [Jackson, Anthony C. et al 1993][research_jacksonanthonyc_barrieronalde_1993]
+- [Jacobson 1981][research_jacobson_1981]
+- [Jacobson 1983][research_jacobson_1983]
+- [Jadhav 2022][research_jadhav_2022]
+- [Jae Ung Cho 2016][research_jaeungcho_2016]
+- [Jagadeesh et al 1990][research_jagadeesh_siddaramaiah_1990]
+- [Jahangir and Safizadeh 2026][research_jahangir_safizadeh_2026]
+- [Jahromi et al 2012][research_jahromi_shojaei_2012]
+- [Jain et al 1997][research_jain_lutton_1997]
+- [Jamora et al 2020][research_jamora_wu_2020]
+- [Janeliukstis and Chen 2021][research_janeliukstis_chen_2021]
+- [Jang and Rao 1987][research_jang_rao_1987]
+- [Jang and Shih 1990][research_jang_shih_1990]
+- [Jang and Yi 1995][research_jang_yi_1995]
+- [Jang et al 1992][research_jang_boxwell_1992]
+- [Jansen and Rolfes 2017][research_jansen_rolfes_2017]
+- [Jansen and Rolfes 2020][research_jansen_rolfes_2020]
+- [Janzen and May 2023][research_janzen_may_2023]
+- [Jared 1997][research_jared_1997]
+- [Jaunky et al 1996][research_jaunky_knightjr_1996]
+- [Jaunky et al 1998][research_jaunky_knight_1998]
+- [Jayasree et al 2017][research_jayasree_airale_2017]
+- [Jayasree et al 2020][research_jayasree_omairey_2020]
+- [Jeans et al 1981][research_jeans_grimes_1981]
+- [Jeans et al 1983][research_jeans_grimes_1983]
+- [Jefferson Andrew et al 2016][research_jeffersonandrew_arumugam_2016]
+- [Jegley and Velicki 2013][research_jegley_velicki_2013]
+- [Jegley et al 2001][research_jegley_bush_2001]
+- [Jena 2023][research_jena_2023]
+- [Jennise et al 2022][research_jennise_yuhazri_2022]
+- [Jensen][research_jensen]
+- [Jeong 1997][research_jeong_1997]
+- [Jeong and Hsu 1995][research_jeong_hsu_1995]
+- [Jeremiah et al 2025][research_jeremiah_madubueze_2025]
+- [Jerold John Britto and Vasanthanathan 2022][research_jeroldjohnbritto_vasanthanathan_2022]
+- [Ji][research_ji]
+- [Ji 2017][research_ji_2017]
+- [Ji and Xia 2015][research_ji_xia_2015]
+- [Ji et al 2010][research_ji_ouyang_2010]
+- [Ji et al 2021][research_ji_zhao_2021]
+- [Jia et al 2013][research_jia_guo_2013]
+- [Jian and Yao 2011][research_jian_yao_2011]
+- [Jiang et al 2021][research_jiang_he_2021]
+- [Jiang et al 2023][research_jiang_chen_2023]
+- [Jiang et al 2026][research_jiang_liao_2026]
+- [Jin and An 2025][research_jin_an_2025]
+- [Jin et al 2011][research_jin_song_2011]
+- [Jin Soo Kim and Dai Gil Lee 1996][research_jinsookim_daigillee_1996]
+- [Jing et al 2014][research_jing_liu_2014]
+- [Jinno et al 2003][research_jinno_sakai_2003]
+- [Jiroutova 2016][research_jiroutova_2016]
+- [Jo et al 2023][research_jo_copenhaver_2023]
+- [Jodatnia and Saeidi Googarchin 2026][research_jodatnia_saeidigoogarchin_2026]
+- [Joesbury et al 2026][research_joesbury_nagarajan_2026]
+- [John and George 1994][research_john_george_1994]
+- [John Martin 2002][research_johnmartin_2002]
+- [Johncock and Tudgey 1986][research_johncock_tudgey_1986]
+- [Johnson 1969][research_johnson_1969]
+- [Johnson and Pitchumani 2008][research_johnson_pitchumani_2008]
+- [Johnson and Pitchumani 2010][research_johnson_pitchumani_2010]
+- [Johnson et al 1997][research_johnson_kindervater_1997]
+- [Johnson et al 1998][research_johnson_rudd_1998]
+- [Johnston et al 2001][research_johnston_vaziri_2001]
+- [Joining and Repair of 1997][research_joining_and_1997]
+- [Joining of Composite Structures 2004][research_joining_of_2004]
+- [Joining of Composite Structures 2016][research_joining_of_2016]
+- [Jona and Goren 1971][research_jona_goren_1971]
+- [Jonas and Aldag 1987][research_jonas_aldag_1987]
+- [Jones 1969][research_jones_1969]
+- [Jones 2013][research_jones_2013]
+- [Jones 2018][research_jones_2018]
+- [Jones and Smith 1995][research_jones_smith_1995]
+- [Jones et al 1992][research_jones_robinson_1992]
+- [Jones et al 1993][research_jones_chiu_1993]
+- [Jones et al 2021][research_jones_kinloch_2021]
+- [Jongsma 1981][research_jongsma_1981]
+- [Jongsma 1981][research_jongsma_1981_b]
+- [Jongsma 1981][research_jongsma_1981_c]
+- [Jongsma 1981][research_jongsma_1981_d]
+- [Jongsma 1981][research_jongsma_1981_e]
+- [Jongsma 1981][research_jongsma_1981_f]
+- [Jonna and Srinivas 2025][research_jonna_srinivas_2025]
+- [Jordan][research_jordan]
+- [Joseph and Namilae 2024][research_joseph_namilae_2024]
+- [Joshi][research_joshi]
+- [Joshi 1998][research_joshi_1998]
+- [Joshi and Biggers 1996][research_joshi_biggers_1996]
+- [Joshi et al 2008][research_joshi_guttenberg_2008]
+- [Jouyandeh et al 2019][research_jouyandeh_paran_2019]
+- [Jouyandeh et al 2019][research_jouyandeh_paran_2019_b]
+- [Joven and Minaie 2018][research_joven_minaie_2018]
+- [Joven et al 2013][research_joven_tavakol_2013]
+- [Ju-fen et al 2003][research_jufen_gang_2003]
+- [Juarez, Peter D. et al 2016][research_juarezpeterd_cramerkelliott_2016]
+- [Jubsilp et al 2010][research_jubsilp_punson_2010]
+- [Jugla et al 2007][research_jugla_jochum_2007]
+- [Juhui et al 2024][research_juhui_wang_2024]
+- [Jung 2002][research_jung_2002]
+- [Jung and Jin Kang 2007][research_jung_jinkang_2007]
+- [Jung et al 2015][research_jung_roh_2015]
+- [Jung-Ho Kwon and Pavchok 2010][research_junghokwon_pavchok_2010]
+- [Juska and Mayes 1995][research_juska_mayes_1995]
+- [Justin et al 2019][research_justin_gangloff_2019]
+- [Jweeg et al 2021][research_jweeg_bakhy_2021]
+- [Jørgensen and Mikkelsen 2023][research_jorgensen_mikkelsen_2023]
+- [Jørgensen and Mikkelsen 2024][research_jorgensen_mikkelsen_2024]
+- [Kabashima and Ozaki 2000][research_kabashima_ozaki_2000]
+- [Kaddouri et al 2008][research_kaddouri_ouinas_2008]
+- [Kadiyala et al 2021][research_kadiyala_portela_2021]
+- [Kadiyala et al 2022][research_kadiyala_devlin_2022]
+- [Kadlec et al 2020][research_kadlec_ruzek_2020]
+- [Kafalı and Tunca 2023][research_kafali_tunca_2023]
+- [Kahali Moghaddam et al 2017][research_kahalimoghaddam_hubner_2017]
+- [Kaiser 1994][research_kaiser_1994]
+- [Kalatur et al 2014][research_kalatur_buyakova_2014]
+- [Kale 2021][research_kale_2021]
+- [Kalima Bukenya et al 2021][research_kalimabukenya_michaelolaya_2021]
+- [Kalowekamo and Baker 2009][research_kalowekamo_baker_2009]
+- [Kalra et al 1992][research_kalra_perry_1992]
+- [Kamarian et al 2019][research_kamarian_bodaghi_2019]
+- [Kamrani and Nasr 2009][research_kamrani_nasr_2009]
+- [Kamrani and Salhieh 2002][research_kamrani_salhieh_2002]
+- [Kan and Ratwani 1982][research_kan_ratwani_1982]
+- [Kan and Ratwani 1983][research_kan_ratwani_1983]
+- [Kan et al 1997][research_kan_cordero_1997]
+- [Kaneda 2023][research_kaneda_2023]
+- [Kanetoh and Yokoi 2012][research_kanetoh_yokoi_2012]
+- [Kang and Kim 2005][research_kang_kim_2005]
+- [Kang and Lee 1994][research_kang_lee_1994]
+- [Kang et al 2000][research_kang_jung_2000]
+- [Kang et al 2001][research_kang_kang_2001]
+- [Kang et al 2003][research_kang_kang_2003]
+- [Kang et al 2006][research_kang_lee_2006]
+- [Kang et al 2023][research_kang_meng_2023]
+- [Kang et al 2023][research_kang_zhao_2023]
+- [Kannan et al 2018][research_kannan_kannan_2018]
+- [Kanterakis et al 2020][research_kanterakis_chemama_2020]
+- [Kanth S and Pandian D 2025][research_kanths_pandiand_2025]
+- [Kapoor and Prakash 1984][research_kapoor_prakash_1984]
+- [Kappel 2016][research_kappel_2016]
+- [Kappel 2018][research_kappel_2018]
+- [Kappel 2019][research_kappel_2019]
+- [Kappel et al 2015][research_kappel_stefaniak_2015]
+- [Karalekas et al 2008][research_karalekas_cugnoni_2008]
+- [Karayannidou et al 2006][research_karayannidou_achilias_2006]
+- [Kardos et al 1983][research_kardos_dudukovic_1983]
+- [Karkanas and Partridge 2000][research_karkanas_partridge_2000]
+- [Karkanas et al 1996][research_karkanas_partridge_1996]
+- [Karl et al 2024][research_karl_rudolph_2024]
+- [Karlsson et al 2024][research_karlsson_dutta_2024]
+- [Karpenko et al 2015][research_karpenko_koricho_2015]
+- [Karpiuk 2015][research_karpiuk_2015]
+- [Karpouzian and Librescu 1994][research_karpouzian_librescu_1994]
+- [Karthik et al 2023][research_karthik_rajamani_2023]
+- [Karumbaiah et al 2019][research_karumbaiah_kracke_2019]
+- [Kasai 2006][research_kasai_2006]
+- [Kasemsiri et al 2011][research_kasemsiri_hiziroglu_2011]
+- [Kashfuddoja and Ramji 2014][research_kashfuddoja_ramji_2014]
+- [Kassapoglou, Christos et al 1990][research_kassapoglouchristos_dinicolaalbertj_1990]
+- [Katnam et al 2013][research_katnam_dasilva_2013]
+- [Katnam et al 2013][research_katnam_dhote_2013]
+- [Kato et al 2020][research_kato_ikeda_2020]
+- [Katunin 2016][research_katunin_2016]
+- [Katunin et al 2015][research_katunin_dragan_2015]
+- [Kaur et al 2016][research_kaur_anandan_2016]
+- [Kaushik 2018][research_kaushik_2018]
+- [Kaushik and Raghavan 2010][research_kaushik_raghavan_2010]
+- [Kautz 1992][research_kautz_1992]
+- [Kautz 1996][research_kautz_1996]
+- [Kavitha and Vijayan 2024][research_kavitha_vijayan_2024]
+- [Kaware and Kotambkar 2021][research_kaware_kotambkar_2021]
+- [Kaware and Kotambkar 2023][research_kaware_kotambkar_2023]
+- [Kaware et al 2022][research_kaware_kotambkar_2022]
+- [Kawawaki et al 1998][research_kawawaki_nakano_1998]
+- [Kaynak and Kas 2006][research_kaynak_kas_2006]
+- [Kazilas and Partridge 2004][research_kazilas_partridge_2004]
+- [Kazilas and Partridge 2005][research_kazilas_partridge_2005]
+- [Kazmi et al 2018][research_kazmi_govignon_2018]
+- [Kebede et al 2017][research_kebede_kim_2017]
+- [Kechter and Achenbach 1990][research_kechter_achenbach_1990]
+- [Kedari et al 2011][research_kedari_farah_2011]
+- [Kedward 1976][research_kedward_1976]
+- [Keel 1988][research_keel_1988]
+- [Keenan 1987][research_keenan_1987]
+- [Kelkar et al 1999][research_kelkar_chaphalkar_1999]
+- [Kellas and Jackson 2010][research_kellas_jackson_2010]
+- [Kellas et al 2000][research_kellas_boitnott_2000]
+- [Keller 2010][research_keller_2010]
+- [Keller and Gürtler 2006][research_keller_gurtler_2006]
+- [Keller and Pessiki 2018][research_keller_pessiki_2018]
+- [Keller and van der Kamp 1992][research_keller_vanderkamp_1992]
+- [Keller et al 2018][research_keller_dransfeld_2018]
+- [Kelly 2005][research_kelly_2005]
+- [Kendall and Gonzalez 1965][research_kendall_gonzalez_1965]
+- [Kendall et al 1992][research_kendall_rudd_1992]
+- [Kennedy and Hansen 2008][research_kennedy_hansen_2008]
+- [Kennedy and Woodmansee 1970][research_kennedy_woodmansee_1970]
+- [Kennedy and Woodmansee 1971][research_kennedy_woodmansee_1971]
+- [Kenney and Kenney 2004][research_kenney_kenney_2004]
+- [Kenny 1994][research_kenny_1994]
+- [Keramati et al 2021][research_keramati_fernandezleon_2021]
+- [Kermani et al 2018][research_kermani_simacek_2018]
+- [Kermenov et al 2025][research_kermenov_foix_2025]
+- [Kerrin and Klemperer 1992][research_kerrin_klemperer_1992]
+- [Kesavan and Rajesh 2025][research_kesavan_rajesh_2025]
+- [Khalifa et al 2024][research_khalifa_lammer_2024]
+- [Khalifa et al 2025][research_khalifa_lammer_2025]
+- [Khalili et al 2010][research_khalili_malekzadeh_2010]
+- [Khalyavina et al 2012][research_khalyavina_haussler_2012]
+- [Khan and Riccio 2025][research_khan_riccio_2025]
+- [Khan et al 2011][research_khan_yahya_2011]
+- [Khan et al 2017][research_khan_khan_2017]
+- [Khan et al 2018][research_khan_aglietti_2018]
+- [Khashaba and Najjar 2018][research_khashaba_najjar_2018]
+- [Khattab 2013][research_khattab_2013]
+- [Khoo and Kim 2011][research_khoo_kim_2011]
+- [Khoshmanesh et al 2022][research_khoshmanesh_watson_2022]
+- [Khosravi 2002][research_khosravi_2002]
+- [Khouider et al 1985][research_khouider_rochette_1985]
+- [Khoun and Hubert 2010][research_khoun_hubert_2010]
+- [Khoun et al 2009][research_khoun_centea_2009]
+- [Khshain et al 2015][research_khshain_almahaidi_2015]
+- [Kidane][research_kidane]
+- [Kieronski et al 2004][research_kieronski_knock_2004]
+- [Kikukawa 2020][research_kikukawa_2020]
+- [Kilian et al 2026][research_kilian_klein_2026]
+- [Killingsworth 2006][research_killingsworth_2006]
+- [Kim][research_kim]
+- [Kim 2000][research_kim_2000]
+- [Kim 2001][research_kim_2001]
+- [Kim 2002][research_kim_2002]
+- [Kim 2003][research_kim_2003]
+- [Kim 2004][research_kim_2004]
+- [Kim and Chang 2019][research_kim_chang_2019]
+- [Kim and Choi 2001][research_kim_choi_2001]
+- [Kim and Daniel 2002][research_kim_daniel_2002]
+- [Kim and Daniel 2003][research_kim_daniel_2003]
+- [Kim and Inoue 1995][research_kim_inoue_1995]
+- [Kim and Kim 1994][research_kim_kim_1994]
+- [Kim and Kim 2008][research_kim_kim_2008]
+- [Kim and Kim 2024][research_kim_kim_2024]
+- [Kim and Lee 1996][research_kim_lee_1996]
+- [Kim and Lee 1997][research_kim_lee_1997]
+- [Kim and Lee 2002][research_kim_lee_2002]
+- [Kim and Lee 2002][research_kim_lee_2002_b]
+- [Kim and Lee 2003][research_kim_lee_2003]
+- [Kim and Lee 2012][research_kim_lee_2012]
+- [Kim and Lee 2026][research_kim_lee_2026]
+- [Kim and Noor 1996][research_kim_noor_1996]
+- [Kim and Nutt 2020][research_kim_nutt_2020]
+- [Kim and Shin 2000][research_kim_shin_2000]
+- [Kim and Tuttle 1994][research_kim_tuttle_1994]
+- [Kim and White 1998][research_kim_white_1998]
+- [Kim et al 1992][research_kim_kim_1992]
+- [Kim et al 1993][research_kim_chiba_1993]
+- [Kim et al 1995][research_kim_chiba_1995]
+- [Kim et al 1995][research_kim_lee_1995]
+- [Kim et al 1998][research_kim_lu_1998]
+- [Kim et al 2001][research_kim_kim_2001]
+- [Kim et al 2002][research_kim_moon_2002]
+- [Kim et al 2002][research_kim_son_2002]
+- [Kim et al 2003][research_kim_kwon_2003]
+- [Kim et al 2004][research_kim_kim_2004]
+- [Kim et al 2005][research_kim_beak_2005]
+- [Kim et al 2005][research_kim_kayir_2005]
+- [Kim et al 2006][research_kim_lee_2006]
+- [Kim et al 2006][research_kim_park_2006]
+- [Kim et al 2006][research_kim_park_2006_b]
+- [Kim et al 2008][research_kim_ji_2008]
+- [Kim et al 2010][research_kim_park_2010]
+- [Kim et al 2013][research_kim_defrancisci_2013]
+- [Kim et al 2013][research_kim_lim_2013]
+- [Kim et al 2013][research_kim_yoo_2013]
+- [Kim et al 2014][research_kim_shin_2014]
+- [Kim et al 2016][research_kim_min_2016]
+- [Kim et al 2017][research_kim_chun_2017]
+- [Kim et al 2020][research_kim_he_2020]
+- [Kim et al 2020][research_kim_lee_2020]
+- [Kim et al 2022][research_kim_kim_2022]
+- [Kim et al 2023][research_kim_choi_2023]
+- [Kim et al 2024][research_kim_jang_2024]
+- [Kim et al 2024][research_kim_lee_2024]
+- [Kim et al 2024][research_kim_lee_2024_b]
+- [Kim et al 2026][research_kim_melkote_2026]
+- [Kimball 1981][research_kimball_1981]
+- [Kimball 1981][research_kimball_1981_b]
+- [Kimball 1981][research_kimball_1981_c]
+- [Kimball 1981][research_kimball_1981_d]
+- [Kimball 1981][research_kimball_1981_e]
+- [Kimball 1981][research_kimball_1981_f]
+- [Kimberlain and Dull 2018][research_kimberlain_dull_2018]
+- [King and Rice 1996][research_king_rice_1996]
+- [King et al 1982][research_king_kler_1982]
+- [King et al 2025][research_king_echeverria_2025]
+- [Kinloch and Kodokian 1988][research_kinloch_kodokian_1988]
+- [Kinra 1985][research_kinra_1985]
+- [Kinra 1987][research_kinra_1987]
+- [Kinsey et al 1997][research_kinsey_hajisheikh_1997]
+- [Kiritsis and Xirouchakis 1998][research_kiritsis_xirouchakis_1998]
+- [Kirk et al 2026][research_kirk_finley_2026]
+- [Kiser and Jay P. 2010][research_kiser_jayp_2010]
+- [Kishi and Odagiri][research_kishi_odagiri]
+- [Kishore 1978][research_kishore_1978]
+- [Kiuna et al 2002][research_kiuna_lawrence_2002]
+- [Kiyani et al 2026][research_kiyani_deshpande_2026]
+- [Klanšek and Kravanja 2006][research_klansek_kravanja_2006]
+- [Klasztorny et al 2018][research_klasztorny_nycz_2018]
+- [Kline 1984][research_kline_1984]
+- [Kling 2008][research_kling_2008]
+- [Klinger 1984][research_klinger_1984]
+- [Klosterman et al 2020][research_klosterman_browning_2020]
+- [Klotzsche, M. 1984][research_klotzschem_1984]
+- [Kneece et al 2014][research_kneece_rr_2014]
+- [Kobayashi and Tanaka 2012][research_kobayashi_tanaka_2012]
+- [Kobayashi et al 1993][research_kobayashi_ogasawara_1993]
+- [Kobayashi et al 2019][research_kobayashi_yanagisawa_2019]
+- [Koenis et al 2022][research_koenis_vanhoorn_2022]
+- [Koh and Chiu 2003][research_koh_chiu_2003_b]
+- [Koh et al 2002][research_koh_chiu_2002]
+- [Koh et al 2003][research_koh_chiu_2003]
+- [Koh et al 2012][research_koh_isa_2012]
+- [Koide et al 2017][research_koide_luersen_2017]
+- [Koike 2002][research_koike_2002]
+- [Kolanu et al 2018][research_kolanu_raju_2018]
+- [Kolarik 1990][research_kolarik_1990]
+- [Kong and Zhang 2022][research_kong_zhang_2022]
+- [Kong et al 1998][research_kong_lee_1998]
+- [Kong et al 2008][research_kong_park_2008]
+- [Koodalil et al 2019][research_koodalil_barnoncel_2019]
+- [Kootte et al 2021][research_kootte_bisagni_2021]
+- [Kopatz et al 2021][research_kopatz_unangst_2021]
+- [Kordas and Lampeas 2024][research_kordas_lampeas_2024]
+- [Kordonowy and Toupet 2011][research_kordonowy_toupet_2011]
+- [Koreeda et al 2011][research_koreeda_matos_2011]
+- [Koricho et al 2013][research_koricho_belingardi_2013]
+- [Korytoski et al 1961][research_korytoski_hatch_1961]
+- [Koslowski and Bonten 2019][research_koslowski_bonten_2019]
+- [Kostin et al 2021][research_kostin_nasonov_2021]
+- [Kosztowny and Waas 2014][research_kosztowny_waas_2014]
+- [Kosztowny and Waas 2015][research_kosztowny_waas_2015]
+- [Kosztowny and Waas 2021][research_kosztowny_waas_2021]
+- [Kosztowny and Waas 2021][research_kosztowny_waas_2021_b]
+- [Kothari 2011][research_kothari_2011]
+- [Kotomin and Avdeev 2003][research_kotomin_avdeev_2003]
+- [Kotula et al 2023][research_kotula_woodcock_2023]
+- [Koushyar et al 2011][research_koushyar_alavisoltani_2011]
+- [Kovaleva and Savotchenko 2021][research_kovaleva_savotchenko_2021]
+- [Krach and Advani 1996][research_krach_advani_1996]
+- [Kraft lignin � Glass][research_kraft_lignin]
+- [Krainer 1963][research_krainer_1963]
+- [Krajangta][research_krajangta]
+- [Kranbuehl 2008][research_kranbuehl_2008]
+- [Kranbuehl et al 1987][research_kranbuehl_delos_1987]
+- [Kranbuehl et al 1989][research_kranbuehl_haverty_1989]
+- [Kratz and Hubert 2015][research_kratz_hubert_2015]
+- [Kratz and Hubert 2015][research_kratz_hubert_2015_b]
+- [Kratz et al 2017][research_kratz_mahapatra_2017]
+- [Kratz et al 2023][research_kratz_hartley_2023]
+- [Kravchenko et al 2017][research_kravchenko_kravchenko_2017]
+- [Kress and Winkler 2009][research_kress_winkler_2009]
+- [Kressel et al 2023][research_kressel_bardenstein_2023]
+- [Kressel et al 2023][research_kressel_bardenstein_2023_b]
+- [Krieger 1988][research_krieger_1988]
+- [Krishnan et al 2025][research_krishnan_lessard_2025]
+- [Krishnaswamy et al 2019][research_krishnaswamy_marchante_2019]
+- [Krogh et al 2020][research_krogh_jakobsen_2020]
+- [Kropka et al 2016][research_kropka_stavig_2016]
+- [Kroupa and Bartsch 1998][research_kroupa_bartsch_1998]
+- [Kruger et al 2008][research_kruger_lord_2008]
+- [Krupnik 2022][research_krupnik_2022]
+- [Kruse et al 2025][research_kruse_balk_2025]
+- [Kubiak and Mania 2016][research_kubiak_mania_2016]
+- [Kubiś et al 2018][research_kubis_seredynski_2018]
+- [Kudo et al 2026][research_kudo_kato_2026]
+- [Kuenzi 1952][research_kuenzi_1952]
+- [Kulkarni and Rosen 1977][research_kulkarni_rosen_1977]
+- [Kulkov et al 2015][research_kulkov_buyakova_2015]
+- [Kumar 2009][research_kumar_2009]
+- [Kumar 2010][research_kumar_2010]
+- [Kumar 2018][research_kumar_2018]
+- [Kumar and De Waele 2024][research_kumar_dewaele_2024]
+- [Kumar and Kalaichelvan 2017][research_kumar_kalaichelvan_2017]
+- [Kumar and Kumar 2022][research_kumar_kumar_2022]
+- [Kumar and Saha 2025][research_kumar_saha_2025]
+- [Kumar and Shukla 2014][research_kumar_shukla_2014]
+- [Kumar and Singh 2010][research_kumar_singh_2010]
+- [Kumar et al 2007][research_kumar_bryan_2007]
+- [Kumar et al 2016][research_kumar_wardle_2016]
+- [Kumar et al 2018][research_kumar_ghosh_2018]
+- [Kumar et al 2021][research_kumar_arindamkumarchanda_2021]
+- [Kumar et al 2023][research_kumar_ganeshnarayanan_2023]
+- [Kumar et al 2024][research_kumar_kumar_2024]
+- [Kumazawa et al 2024][research_kumazawa_motoyama_2024]
+- [Kunc et al 2017][research_kunc_duty_2017]
+- [Kundu et al 2003][research_kundu_crosby_2003]
+- [Kuo and Chen 2020][research_kuo_chen_2020]
+- [Kuperman][research_kuperman]
+- [Kuppusamy 2018][research_kuppusamy_2018]
+- [Kuppusamy 2018][research_kuppusamy_2018_b]
+- [Kuppusamy and Neogi 2017][research_kuppusamy_neogi_2017]
+- [Kuppusamy et al 2021][research_kuppusamy_zade_2021]
+- [Kupski et al 2019][research_kupski_teixeiradefreitas_2019]
+- [Kurasova et al 2021][research_kurasova_marcinkevicius_2021]
+- [Kurennov 2020][research_kurennov_2020]
+- [Kurnia et al 2024][research_kurnia_hadi_2024]
+- [Kurz and Kessler 2010][research_kurz_kessler_2010]
+- [Kutscha 1962][research_kutscha_1962]
+- [Kwan][research_kwan]
+- [Kwon 2018][research_kwon_2018]
+- [Kwon 2020][research_kwon_2020]
+- [Kwon and Dharan 1995][research_kwon_dharan_1995]
+- [Kwon and Jeong 2013][research_kwon_jeong_2013]
+- [Kyoung et al 1998][research_kyoung_kim_1998]
+- [Kyungpyo Kim 2018][research_kyungpyokim_2018]
+- [Kärger and Kling 2013][research_karger_kling_2013]
+- [Křesálek and Mikuličová 2020][research_kresalek_mikulicova_2020]
+- [Laakso and Hoggatt 1976][research_laakso_hoggatt_1976]
+- [Laananen and Renze 1993][research_laananen_renze_1993]
+- [Laboratory production of discontinuous-aligned 1986][research_laboratory_production_1986]
+- [Lacey et al][research_lacey_price]
+- [Lachana Dora and Mishra 2022][research_lachanadora_mishra_2022]
+- [Lacoste et al 2011][research_lacoste_freour_2011]
+- [Lacoste et al 2012][research_lacoste_szymanska_2012]
+- [Lagace 1988][research_lagace_1988]
+- [Lai et al 2015][research_lai_wang_2015]
+- [Lairez et al 1991][research_lairez_durand_1991]
+- [LaLiberte and Bornstein 1981][research_laliberte_bornstein_1981]
+- [Lam 1987][research_lam_1987]
+- [Lam 1989][research_lam_1989]
+- [Lam and Afromowitz 1995][research_lam_afromowitz_1995]
+- [Lam et al 1990][research_lam_plaumann_1990]
+- [Lam et al 2000][research_lam_joshi_2000]
+- [Lambinet and Khodaei 2020][research_lambinet_khodaei_2020]
+- [Laminate and prepreg selection 2002][research_laminate_and_2002]
+- [Landuyt et al 1989][research_landuyt_liegeois_1989]
+- [Lane et al 1989][research_lane_khattak_1989]
+- [Lane et al 2011][research_lane_higgins_2011]
+- [Lange and Moore 1982][research_lange_moore_1982]
+- [Lange et al 1995][research_lange_toll_1995]
+- [Lange et al 1997][research_lange_toll_1997]
+- [Lange et al 2000][research_lange_altmann_2000]
+- [Lanzi and Giavotto 2006][research_lanzi_giavotto_2006]
+- [Lares][research_lares]
+- [Larimore et al 2012][research_larimore_holmes_2012]
+- [Larrain et al 1981][research_larrain_tagle_1981]
+- [Larson and Drzal 1994][research_larson_drzal_1994]
+- [Laser ultrasonic investigation of 2009][research_laser_ultrasonic_2009]
+- [Lau 1992][research_lau_1992]
+- [Laurenzi and Marchetti 2012][research_laurenzi_marchetti_2012]
+- [Laurenzi et al 2014][research_laurenzi_casini_2014]
+- [Laux et al 2002][research_laux_cros_2002]
+- [Lawless 1980][research_lawless_1980]
+- [Lax et al 2018][research_lax_darnell_2018]
+- [Lax et al 2018][research_lax_darnell_2018_b]
+- [Lay et al 1998][research_lay_brunet_1998]
+- [Lead-free design for manufacture 2005][research_lead_free_design_2005]
+- [Learning Curve][research_learning_curve]
+- [Learning Curves Production Breaks/Lost 2015][research_learning_curves_2015]
+- [Learning Curves Production Breaks/Lost 2026][research_learning_curves_2026]
+- [Learning Curves Unit Theory 2015][research_learning_curves_2015_b]
+- [Learning Curves Unit Theory 2026][research_learning_curves_2026_b]
+- [LeBel et al 2017][research_lebel_ruiz_2017]
+- [Lebel-Lavacry et al 2012][research_lebellavacry_park_2012]
+- [Leckenby 1983][research_leckenby_1983]
+- [Leclerc and Subbarayan 1998][research_leclerc_subbarayan_1998]
+- [Ledesma et al 2025][research_ledesma_spaeth_2025]
+- [Lee][research_lee]
+- [Lee 2019][research_lee_2019]
+- [Lee 2020][research_lee_2020]
+- [Lee 2021][research_lee_2021]
+- [Lee and Aldredge 2015][research_lee_aldredge_2015]
+- [Lee and Choi 1999][research_lee_choi_1999]
+- [Lee and Hartmann 1984][research_lee_hartmann_1984]
+- [Lee and Kim 2004][research_lee_kim_2004]
+- [Lee and Lee 2002][research_lee_lee_2002]
+- [Lee and Lee 2003][research_lee_lee_2003]
+- [Lee and Lee 2004][research_lee_lee_2004]
+- [Lee and Lee 2008][research_lee_lee_2008]
+- [Lee and Lee 2024][research_lee_lee_2024]
+- [Lee et al 1982][research_lee_kuo_1982]
+- [Lee et al 1994][research_lee_young_1994]
+- [Lee et al 1997][research_lee_kim_1997]
+- [Lee et al 1997][research_lee_shim_1997]
+- [Lee et al 2000][research_lee_shim_2000]
+- [Lee et al 2000][research_lee_shim_2000_b]
+- [Lee et al 2004][research_lee_lee_2004_b]
+- [Lee et al 2006][research_lee_kim_2006]
+- [Lee et al 2015][research_lee_kim_2015]
+- [Lee et al 2018][research_lee_ni_2018]
+- [Lee et al 2020][research_lee_cho_2020]
+- [Lee et al 2020][research_lee_cho_2020_b]
+- [Lee et al 2020][research_lee_hong_2020]
+- [Lee et al 2022][research_lee_duhovic_2022]
+- [Lee et al 2023][research_lee_duhovic_2023]
+- [Lee et al 2023][research_lee_duhovic_2023_b]
+- [Lee et al 2025][research_lee_duhovic_2025]
+- [Lee et al 2025][research_lee_smit_2025]
+- [Lee et al 2026][research_lee_duhovic_2026]
+- [Lee et al 2026][research_lee_kim_2026]
+- [Lees 1991][research_lees_1991]
+- [Lei 2018][research_lei_2018]
+- [Leissa 1981][research_leissa_1981]
+- [Leissa 1995][research_leissa_1995]
+- [Lekakou and Bader 1998][research_lekakou_bader_1998]
+- [Lekakou et al 2007][research_lekakou_hearn_2007]
+- [Lem and Han 1983][research_lem_han_1983]
+- [LeMay 2019][research_lemay_2019]
+- [LeMay and Askari 2018][research_lemay_askari_2018]
+- [Lenhart et al 1999][research_lenhart_vanzanten_1999]
+- [Leonard, R. W. and Wagner, R. D. 1976][research_leonardrw_wagnerrd_1976]
+- [Leone and Genna 2018][research_leone_genna_2018]
+- [Leone et al][research_leone_awerbuch]
+- [Leone et al 2015][research_leone_davila_2015]
+- [Lepage et al 2001][research_lepage_kindervater_2001]
+- [Leroy et al 2005][research_leroy_dupuy_2005]
+- [Lertora et al 2019][research_lertora_mandolfino_2019]
+- [Lertthawinchira][research_lertthawinchira]
+- [Less and Abramovich 2012][research_less_abramovich_2012]
+- [Letaief et al 2020][research_letaief_tlija_2020]
+- [Lettera and Natale 2024][research_lettera_natale_2024]
+- [Leung and Lee 1999][research_leung_lee_1999]
+- [Leung et al 2003][research_leung_scola_2003]
+- [Levy 1982][research_levy_1982]
+- [Levy and Ames 1984][research_levy_ames_1984]
+- [Levy and Hubert 2019][research_levy_hubert_2019]
+- [Levy and Schwab 1991][research_levy_schwab_1991]
+- [Levy et al 1980][research_levy_kuo_1980]
+- [Leyland and O'Malley 2007][research_leyland_omalley_2007]
+- [Lhermitte et al][research_lhermitte_handley]
+- [Li][research_li]
+- [Li and Bai 2024][research_li_bai_2024]
+- [Li and Jia 2013][research_li_jia_2013]
+- [Li and Kessler 2014][research_li_kessler_2014]
+- [Li and Larock 2003][research_li_larock_2003]
+- [Li and Lee 2000][research_li_lee_2000]
+- [Li and Wu 2015][research_li_wu_2015]
+- [Li and Zhou 2004][research_li_zhou_2004]
+- [Li and Zhou 2021][research_li_zhou_2021]
+- [Li et al 1994][research_li_elishakoff_1994]
+- [Li et al 1999][research_li_leesullivan_1999]
+- [Li et al 2012][research_li_fu_2012]
+- [Li et al 2012][research_li_li_2012]
+- [Li et al 2015][research_li_hallett_2015]
+- [Li et al 2017][research_li_li_2017]
+- [Li et al 2017][research_li_li_2017_b]
+- [Li et al 2020][research_li_guo_2020]
+- [Li et al 2020][research_li_guo_2020_b]
+- [Li et al 2020][research_li_liu_2020]
+- [Li et al 2020][research_li_mei_2020]
+- [Li et al 2020][research_li_wang_2020]
+- [Li et al 2022][research_li_brown_2022]
+- [Li et al 2022][research_li_huang_2022]
+- [Li et al 2022][research_li_li_2022]
+- [Li et al 2022][research_li_xu_2022]
+- [Li et al 2022][research_li_zhang_2022]
+- [Li et al 2024][research_li_yin_2024]
+- [Li et al 2025][research_li_cheng_2025]
+- [Li et al 2025][research_li_hao_2025]
+- [Li et al 2025][research_li_lai_2025]
+- [Li et al 2025][research_li_liu_2025]
+- [Li et al 2025][research_li_xue_2025]
+- [Li et al 2025][research_li_yang_2025]
+- [Li et al 2025][research_li_zhang_2025]
+- [Li et al 2026][research_li_an_2026]
+- [Li et al 2026][research_li_liu_2026]
+- [Li et al 2026][research_li_wang_2026]
+- [Li et al 2026][research_li_zhang_2026]
+- [Lian et al 2023][research_lian_zhang_2023]
+- [Liang and Chandrashekhara 2006][research_liang_chandrashekhara_2006]
+- [Liang et al 2023][research_liang_zhuang_2023]
+- [Liang et al 2024][research_liang_zhang_2024]
+- [Liapi et al 2025][research_liapi_saffar_2025]
+- [Libeskind et al 1973][research_libeskind_minecci_1973]
+- [Lid 2001][research_lid_2001]
+- [Liddel and Foote 2015][research_liddel_foote_2015]
+- [Liew and Wong 2026][research_liew_wong_2026]
+- [Light and Bloom 1996][research_light_bloom_1996]
+- [Lim and Kim 2024][research_lim_kim_2024]
+- [Limaye et al 2026][research_limaye_li_2026]
+- [Lin and Styuart 2007][research_lin_styuart_2007]
+- [Lin and Wang 1994][research_lin_wang_1994]
+- [Lin et al 2006][research_lin_leu_2006]
+- [Lin et al 2011][research_lin_lee_2011]
+- [Lin et al 2014][research_lin_richard_2014]
+- [Lin et al 2017][research_lin_jin_2017]
+- [Lin et al 2020][research_lin_zhang_2020]
+- [Lin et al 2021][research_lin_wang_2021]
+- [Lin et al 2022][research_lin_zeng_2022]
+- [Lind et al 1984][research_lind_sandreczki_1984]
+- [Lind et al 1986][research_lind_fry_1986]
+- [Linde et al 2006][research_linde_schulz_2006]
+- [Linul and Khezrzadeh 2021][research_linul_khezrzadeh_2021]
+- [Linul et al 2021][research_linul_pietras_2021]
+- [Lionetto et al 2007][research_lionetto_tarzia_2007]
+- [Liping et al 2012][research_liping_booninn_2012]
+- [Liquid composite molding simulation 2002][research_liquid_composite_2002]
+- [Lis 2025][research_lis_2025]
+- [Liu 2000][research_liu_2000]
+- [Liu 2001][research_liu_2001]
+- [Liu and Nagano 2014][research_liu_nagano_2014]
+- [Liu and Wang 2007][research_liu_wang_2007]
+- [Liu and Wu 2010][research_liu_wu_2010]
+- [Liu et al 1997][research_liu_ganesh_1997]
+- [Liu et al 2005][research_liu_chen_2005]
+- [Liu et al 2006][research_liu_zhang_2006]
+- [Liu et al 2007][research_liu_sheng_2007]
+- [Liu et al 2010][research_liu_li_2010]
+- [Liu et al 2011][research_liu_davis_2011]
+- [Liu et al 2012][research_liu_chen_2012]
+- [Liu et al 2013][research_liu_deng_2013]
+- [Liu et al 2013][research_liu_johnston_2013]
+- [Liu et al 2014][research_liu_han_2014]
+- [Liu et al 2014][research_liu_huan_2014]
+- [Liu et al 2018][research_liu_lemanski_2018]
+- [Liu et al 2019][research_liu_guan_2019]
+- [Liu et al 2019][research_liu_li_2019]
+- [Liu et al 2020][research_liu_chen_2020]
+- [Liu et al 2020][research_liu_jiang_2020]
+- [Liu et al 2020][research_liu_li_2020]
+- [Liu et al 2020][research_liu_wang_2020]
+- [Liu et al 2021][research_liu_guan_2021]
+- [Liu et al 2021][research_liu_qian_2021]
+- [Liu et al 2021][research_liu_yue_2021]
+- [Liu et al 2021][research_liu_zheng_2021]
+- [Liu et al 2022][research_liu_gao_2022]
+- [Liu et al 2023][research_liu_featherston_2023]
+- [Liu et al 2023][research_liu_zhang_2023]
+- [Liu et al 2024][research_liu_he_2024]
+- [Liu et al 2024][research_liu_sinke_2024]
+- [Liu et al 2025][research_liu_wang_2025]
+- [Liu et al 2025][research_liu_zheng_2025]
+- [Liu et al 2026][research_liu_fu_2026]
+- [Liu et al 2026][research_liu_wu_2026]
+- [Livne et al 1990][research_livne_schmit_1990]
+- [Livne et al 1993][research_livne_schmit_1993]
+- [Lißner et al 2019][research_lissner_alabort_2019]
+- [Llorca 2000][research_llorca_2000]
+- [Llorca 2018][research_llorca_2018]
+- [Locascio 2001][research_locascio_2001]
+- [Loh et al][research_loh_chou]
+- [Lomov and Abaimov 2022][research_lomov_abaimov_2022]
+- [Long et al 1998][research_long_blanchard_1998]
+- [Long et al 2024][research_long_wenbo_2024]
+- [Long-Term Performance of Adhesive 2016][research_long_term_performance_2016]
+- [Loos and Springer 1983][research_loos_springer_1983]
+- [Loos et al 1996][research_loos_macrae_1996]
+- [Lopatin et al 2021][research_lopatin_morozov_2021]
+- [Lopato and Chady 2013][research_lopato_chady_2013]
+- [Lopes Fernandes et al 2021][research_lopesfernandes_budzik_2021]
+- [Lopez Cruz][research_lopezcruz]
+- [Lopez et al 2020][research_lopez_salvador_2020]
+- [Lopez-Cruz et al 2017][research_lopezcruz_laliberte_2017]
+- [Lorang and Carr 2017][research_lorang_carr_2017]
+- [Lorenz et al 2024][research_lorenz_hopmann_2024]
+- [Losada et al 2006][research_losada_mier_2006]
+- [Lott et al 1991][research_lott_kunerth_1991]
+- [Loughlan 1994][research_loughlan_1994]
+- [Loughlan 1994][research_loughlan_1994_b]
+- [Loughlan 1996][research_loughlan_1996]
+- [Louis and Ermanni 2012][research_louis_ermanni_2012]
+- [Love and Piguet-Ruinet 2007][research_love_piguetruinet_2007]
+- [Lovejoy 2004][research_lovejoy_2004]
+- [Lovejoy 2022][research_lovejoy_2022]
+- [Lovejoy et al 2023][research_lovejoy_jegley_2023]
+- [Lovelace 1998][research_lovelace_1998]
+- [Low cost PEI prepreg 2001][research_low_cost_2001]
+- [Low cost production of 1998][research_low_cost_1998]
+- [Low temperature cure powders 2005][research_low_temperature_2005]
+- [Low temperature cure surface 2009][research_low_temperature_2009_b]
+- [Low temperature cure thermosetting 2009][research_low_temperature_2009]
+- [Low temperature moulding LTM 1990][research_low_temperature_1990]
+- [Low-cost composite primary structure 1978][research_low_cost_composite_1978]
+- [Low-Temperature-Cure Powder Coating Technology 2022][research_low_temperature_cure_powder_2022]
+- [Lowe and Cawley 1993][research_lowe_cawley_1993]
+- [Lowe et al 1999][research_lowe_chan_1999]
+- [Lozev and Spencer 2003][research_lozev_spencer_2003]
+- [Lu and Liu 2013][research_lu_liu_2013]
+- [Lu et al 2021][research_lu_su_2021]
+- [Lu et al 2023][research_lu_evans_2023]
+- [Lu et al 2025][research_lu_liang_2025]
+- [Luan 2019][research_luan_2019]
+- [Lucas et al 1993][research_lucas_borrajo_1993]
+- [Lucht][research_lucht]
+- [Luczak et al 2008][research_luczak_vecchio_2008]
+- [Ludwig et al 1993][research_ludwig_sullivan_1993]
+- [Lueck and Schenewerk 1996][research_lueck_schenewerk_1996]
+- [Lukaszewicz 2013][research_lukaszewicz_2013]
+- [Lukaszewicz and Potter 2011][research_lukaszewicz_potter_2011]
+- [Lukaszewicz et al 2012][research_lukaszewicz_ward_2012]
+- [Lula 1980][research_lula_1980]
+- [Lund 2017][research_lund_2017]
+- [Lundberg 1956][research_lundberg_1956]
+- [Lundström 1997][research_lundstrom_1997]
+- [Luo et al 2008][research_luo_wei_2008]
+- [Luo et al 2014][research_luo_yan_2014]
+- [Luo et al 2018][research_luo_yu_2018]
+- [Luo et al 2020][research_luo_mo_2020]
+- [Luthy and Ermanni 2001][research_luthy_ermanni_2001]
+- [Luthy and Ermanni 2002][research_luthy_ermanni_2002]
+- [Lv and Ren 2023][research_lv_ren_2023]
+- [Lv and Ren 2023][research_lv_ren_2023_b]
+- [Ma et al 2014][research_ma_li_2014]
+- [Ma et al 2015][research_ma_centea_2015]
+- [Ma et al 2024][research_ma_gao_2024]
+- [Ma et al 2026][research_ma_zhao_2026]
+- [Maalawi 2011][research_maalawi_2011]
+- [Macan et al 2004][research_macan_ivankovic_2004]
+- [Machine Learning Aided Analysis 2024][research_machine_learning_2024]
+- [Madan and Shuart 1990][research_madan_shuart_1990]
+- [Madan and Sutton 1988][research_madan_sutton_1988]
+- [Madelpech et al 2009][research_madelpech_juaneda_2009]
+- [Madenci 2000][research_madenci_2000]
+- [Madhukar 2000][research_madhukar_2000]
+- [Maenz et al 2014][research_maenz_muhlstadt_2014]
+- [Maes et al 2022][research_maes_radhakrishnan_2022]
+- [Maeva et al 2002][research_maeva_chapman_2002]
+- [Maeva et al 2007][research_maeva_severina_2007]
+- [Maffezzoli and Grieco 2012][research_maffezzoli_grieco_2012]
+- [Maffezzoli et al 1990][research_maffezzoli_kenny_1990]
+- [Maffezzoli et al 2012][research_maffezzoli_gennaro_2012]
+- [Mafi et al 2005][research_mafi_mirabedini_2005]
+- [Maguire et al 2018][research_maguire_nayak_2018]
+- [Maguire et al 2020][research_maguire_nayak_2020]
+- [Mahadik and Masel 2018][research_mahadik_masel_2018]
+- [Mahdavi et al 2017][research_mahdavi_gupta_2017]
+- [Mahdi et al 2003][research_mahdi_kim_2003]
+- [Mahfoud and Harb 2023][research_mahfoud_harb_2023]
+- [Mahieux 2001][research_mahieux_2001]
+- [Mahoney 1990][research_mahoney_1990]
+- [Mahoon 1983][research_mahoon_1983]
+- [Mahto et al 2022][research_mahto_kubher_2022]
+- [MahÃ© 2001][research_maha_2001]
+- [Maia and de Oliveira 2005][research_maia_deoliveira_2005]
+- [Mair 2002][research_mair_2002]
+- [Maistros and Partridge 1995][research_maistros_partridge_1995]
+- [Maistros et al 1997][research_maistros_fontana_1997]
+- [Majd and Pindyck 1987][research_majd_pindyck_1987]
+- [Maklad 1981][research_maklad_1981]
+- [Maklad 1981][research_maklad_1981_b]
+- [Maklakov and Pimenov 1973][research_maklakov_pimenov_1973]
+- [Maksud and Yusof 2013][research_maksud_yusof_2013]
+- [Mal et al 1991][research_mal_yin_1991]
+- [Mal et al 1998][research_mal_couniot_1998]
+- [Maley][research_maley]
+- [Malhan et al 2018][research_malhan_kabir_2018]
+- [Malhan et al 2019][research_malhan_kabir_2019]
+- [Malhan et al 2020][research_malhan_jomyjoseph_2020]
+- [Malhan et al 2021][research_malhan_shembekar_2021]
+- [Malinowski et al 2021][research_malinowski_wandowski_2021]
+- [Mallick and Raghupathi 1979][research_mallick_raghupathi_1979]
+- [Mallow and Campbell 2000][research_mallow_campbell_2000]
+- [Malstrom and Collins 2000][research_malstrom_collins_2000]
+- [Man and Zhai 2006][research_man_zhai_2006]
+- [Mandel et al 2016][research_mandel_taubert_2016]
+- [Mandell and Tsai 1990][research_mandell_tsai_1990]
+- [Mandrel forms composite fuselage 2005][research_mandrel_forms_2005]
+- [Mannino et al 2017][research_mannino_latteri_2017]
+- [Manoharan and Gururaja 2025][research_manoharan_gururaja_2025]
+- [Manoharan and Gururaja 2026][research_manoharan_gururaja_2026]
+- [Mansilla et al 2013][research_mansilla_rodriguezgarraza_2013]
+- [Manson and Seferis 1989][research_manson_seferis_1989]
+- [Manufacturing Cost and Product 2017][research_manufacturing_cost_2017]
+- [Manufacturing cost estimation A 1993][research_manufacturing_cost_1993]
+- [Manufacturing scale-up of composite fuselage crown panels][research_crown_panel_scaleup]
+- [Manufacturing, structure and mechanical 2003][research_manufacturing_structure_2003]
+- [Manzini and Roehl 1990][research_manzini_roehl_1990]
+- [Manzo et al 2021][research_manzo_perfetto_2021]
+- [Maoyu 1990][research_maoyu_1990]
+- [Maqi and Hidayat 2023][research_maqi_hidayat_2023]
+- [Mar 1984][research_mar_1984]
+- [Marano et al 2022][research_marano_belardo_2022]
+- [Marano et al 2024][research_marano_gagliardi_2024]
+- [Maravola et al 2018][research_maravola_cortes_2018]
+- [Marczak 2022][research_marczak_2022]
+- [Mardani et al 2016][research_mardani_stein_2016]
+- [Marioli-Riga 2003][research_marioliriga_2003]
+- [Markryun et al 2025][research_markryun_alex_2025]
+- [Markus, Alan 1992][research_markusalan_1992]
+- [Markus, Alan and Palmer, Ray 1991][research_markusalan_palmerray_1991]
+- [Markus, Alan et al 1993][research_markusalan_thrashpatrick_1993]
+- [Marques et al 2022][research_marques_carbas_2022]
+- [Marques et al 2023][research_marques_madureira_2023]
+- [Martens and Schröder 2020][research_martens_schroder_2020]
+- [Martin 1963][research_martin_1963]
+- [Martin et al 1970][research_martin_moore_1970]
+- [Martin et al 2018][research_martin_warrior_2018]
+- [Martinez and Revilla 2015][research_martinez_revilla_2015]
+- [Martinho Simões and da Piedade 2008][research_martinhosimoes_dapiedade_2008]
+- [Martins et al 2018][research_martins_gomes_2018]
+- [Martins et al 2022][research_martins_santos_2022]
+- [Martín et al 2017][research_martin_preciado_2017]
+- [Marzani et al 2019][research_marzani_testoni_2019]
+- [Masood et al 2017][research_masood_viswamurthy_2017]
+- [Massabò 2020][research_massabo_2020]
+- [Masud et al 2015][research_masud_khan_2015]
+- [Matadi Boumbimba et al 2014][research_matadiboumbimba_froustey_2014]
+- [Materials Systems Inc Concord Ma 1994][research_materialssystemsincconcordma_1994]
+- [Mather 2005][research_mather_2005]
+- [Mathias and Tregre 1998][research_mathias_tregre_1998]
+- [Matsukawa et al 2014][research_matsukawa_enomoto_2014]
+- [Matsuzaki and Shiota 2017][research_matsuzaki_shiota_2017]
+- [Matsuzaki et al 2013][research_matsuzaki_seto_2013]
+- [Matzkanin 1986][research_matzkanin_1986]
+- [Matzkanin and Yolken 2001][research_matzkanin_yolken_2001]
+- [Maukar et al 2019][research_maukar_sosodoro_2019]
+- [Maurer 1965][research_maurer_1965]
+- [May 1995][research_may_1995]
+- [May and Claus 1996][research_may_claus_1996]
+- [May and Mitschang 2021][research_may_mitschang_2021]
+- [Maziz et al 2020][research_maziz_rechak_2020]
+- [Mazumdar and Hoa 1995][research_mazumdar_hoa_1995]
+- [Mazza et al 2003][research_mazza_avram_2003]
+- [Mazzola and McCardle 1997][research_mazzola_mccardle_1997]
+- [Maćkowiak et al 2020][research_mackowiak_ligaj_2020]
+- [Mańczak 2026][research_manczak_2026]
+- [McAbee et al 1970][research_mcabee_tanner_1970]
+- [Mcallister and Hill 1984][research_mcallister_hill_1984]
+- [McArthur et al 2024][research_mcarthur_mcknight_2024]
+- [McArthur et al 2024][research_mcarthur_mehnen_2024]
+- [McArthur et al 2025][research_mcarthur_mcknight_2025]
+- [McCarthy et al 2018][research_mccarthy_toni_2018]
+- [Mccarty, John E. and Roeseler, William G. 1984][research_mccartyjohne_roeselerwilliamg_1984]
+- [McClure 1977][research_mcclure_1977]
+- [McDonald et al 2014][research_mcdonald_wallace_2014]
+- [McElroy et al 2019][research_mcelroy_zanganeh_2019]
+- [McGovern 1979][research_mcgovern_1979]
+- [McGovern and Jar 1999][research_mcgovern_jar_1999]
+- [Mchenry and Hensley 1974][research_mchenry_hensley_1974]
+- [McHenry and Hensley 1975][research_mchenry_hensley_1975]
+- [McHugh and Stark 2016][research_mchugh_stark_2016]
+- [McIlhagger et al 2000][research_mcilhagger_brown_2000]
+- [Mcmanus and Mak 1993][research_mcmanus_mak_1993]
+- [Md Hanafiah and Othman 2024][research_mdhanafiah_othman_2024]
+- [Md Hanafiah and Othman 2024][research_mdhanafiah_othman_2024_b]
+- [Mead Carney And Co Inc New York 1954][research_meadcarneyandcoincnewyork_1954]
+- [Measom and Sewell 1996][research_measom_sewell_1996]
+- [Measurement of the stress 1981][research_measurement_of_1981]
+- [Measuring thermoset resin viscosity 1999][research_measuring_thermoset_1999]
+- [Mechanical Properties Of Elastomers][research_mechanical_properties]
+- [Mechanical properties of elastomers 2007][research_mechanical_properties_2007]
+- [Medium Temperature, Out-of-Autoclave, Oven-Vacuum-Bag][research_medium_temperature]
+- [Medjahed et al 2019][research_medjahed_derradji_2019]
+- [Medwick et al 1999][research_medwick_castro_1999]
+- [Megiatto et al 2009][research_megiatto_silva_2009]
+- [Megson 2013][research_megson_2013]
+- [Megson 2017][research_megson_2017]
+- [Megson 2018][research_megson_2018]
+- [Megson 2022][research_megson_2022]
+- [Megueni et al 2004][research_megueni_bachirbouiadjra_2004]
+- [Meher and Rabius Sunny 2024][research_meher_rabiussunny_2024]
+- [Meidell 2009][research_meidell_2009]
+- [Meister et al 2021][research_meister_wermes_2021]
+- [Mendikute et al 2021][research_mendikute_plazaola_2021]
+- [Mendikute et al 2022][research_mendikute_baskaran_2022]
+- [Meneghetti et al 2010][research_meneghetti_quaresimin_2010]
+- [Meneghetti et al 2012][research_meneghetti_quaresimin_2012]
+- [Meneghin et al 2009][research_meneghin_pacchione_2009]
+- [Menge et al 2020][research_menge_trochu_2020]
+- [Meola et al 2017][research_meola_boccardi_2017]
+- [Merotte et al 2020][research_merotte_bahramshahi_2020]
+- [Merrill 2021][research_merrill_2021]
+- [Mesogitis et al 2016][research_mesogitis_skordos_2016]
+- [Mesogitis et al 2018][research_mesogitis_kratz_2018]
+- [Mestnikov et al 2016][research_mestnikov_semenov_2016]
+- [Method and apparatus for 1994][research_method_and_1994]
+- [Method and material for 1978][research_method_and_1978]
+- [Method for producing a 1978][research_method_for_1978]
+- [Method for producing a 1991][research_method_for_1991]
+- [Method of fabricating fibre 1990][research_method_of_1990]
+- [Method of fabricating fibre 1992][research_method_of_1992]
+- [Method of insetting predesigned 1992][research_method_of_1992_b]
+- [Method of making composite 1994][research_method_of_1994]
+- [Method of resin transfer 1993][research_method_of_1993]
+- [Methodologies for optimal design of composite fuselage crown panels][research_crown_panel_optimal]
+- [Methods of test for][research_methods_of]
+- [Methods of test for][research_methods_of_b]
+- [Meuwissen et al 2004][research_meuwissen_deboer_2004]
+- [Meyer][research_meyer]
+- [Meyer and Rose 1976][research_meyer_rose_1976]
+- [Meyer et al 2023][research_meyer_garber_2023]
+- [Meyer zu Westerhausen et al 2024][research_meyerzuwesterhausen_kyriazis_2024]
+- [Meza-Mendoza et al 2018][research_mezamendoza_chavezgarcia_2018]
+- [Mezeix et al 2014][research_mezeix_nasir_2014]
+- [Mezeix et al 2015][research_mezeix_seman_2015]
+- [Mi et al 2026][research_mi_hu_2026]
+- [Miakisheva et al 2020][research_miakisheva_glushkov_2020]
+- [Miao et al 2012][research_miao_li_2012]
+- [Michaels et al 1993][research_michaels_michaels_1993]
+- [Michaels et al 2009][research_michaels_michaels_2009]
+- [Michaels et al 2009][research_michaels_michaels_2009_b]
+- [Michalski and Krauze 2019][research_michalski_krauze_2019]
+- [Michaud 2016][research_michaud_2016]
+- [Michaud et al 2002][research_michaud_beris_2002]
+- [Michaud et al 2002][research_michaud_beris_2002_b]
+- [Michelotti et al 2020][research_michelotti_niedzwiecki_2020]
+- [Middleton 2011][research_middleton_2011]
+- [Mieloszyk and Ostachowicz 2017][research_mieloszyk_ostachowicz_2017]
+- [Mignolet 1994][research_mignolet_1994]
+- [Mihara et al 2018][research_mihara_minematsu_2018]
+- [Mijovic and Lee 1989][research_mijovic_lee_1989]
+- [Mijović 1991][research_mijovic_1991]
+- [Mijović and Lee 1989][research_mijovic_lee_1989_b]
+- [Milazzo and Oliveri 2017][research_milazzo_oliveri_2017]
+- [Milenkovic et al 2021][research_milenkovic_slavkovic_2021]
+- [Military Airframe Acquisition Costs 2001][research_military_airframe_2001]
+- [Military Airframe Costs The Effects of Advanced Materials and Manufacturing Processes][research_rand_airframe_costs]
+- [Miller et al 1988][research_miller_hammill_1988]
+- [Mills 2026][research_mills_2026]
+- [Mills and Dauksys 1973][research_mills_dauksys_1973]
+- [Mills and Jones 2010][research_mills_jones_2010]
+- [Mills et al 1974][research_mills_brown_1974]
+- [Min and Williams 2016][research_min_williams_2016]
+- [Min et al 1993][research_min_stachurski_1993]
+- [Min et al 1993][research_min_stachurski_1993_b]
+- [Minakuchi 2014][research_minakuchi_2014]
+- [Minakuchi et al 2019][research_minakuchi_sawaguchi_2019]
+- [Minford 1991][research_minford_1991]
+- [Minford 2018][research_minford_2018]
+- [Minguet and Minguet 1997][research_minguet_minguet_1997]
+- [Minimum Performance Standard for][research_minimum_performance]
+- [Minimum Performance Standard for][research_minimum_performance_b]
+- [Minoda et al 1985][research_minoda_sakatani_1985]
+- [Miotto and Dias 2015][research_miotto_dias_2015]
+- [Miranda et al 2025][research_miranda_cini_2025]
+- [Miravete 1996][research_miravete_1996]
+- [Miravete 1996][research_miravete_1996_b]
+- [Mirone et al 2025][research_mirone_corallo_2025]
+- [Mirzaee-Sisan et al][research_mirzaeesisan_smith]
+- [Mishra et al 2019][research_mishra_peeters_2019]
+- [Mitigating void growth in out-of-autoclave prepreg processing using a semi-permeable membrane to maintain resin pressure][research_semipermeable_membrane]
+- [Mitra and Joglekar 2023][research_mitra_joglekar_2023]
+- [Mitra and Leonov 2010][research_mitra_leonov_2010]
+- [Mitrofanov and Ryzhova 2021][research_mitrofanov_ryzhova_2021]
+- [Mittelstedt 2025][research_mittelstedt_2025]
+- [Mittelstedt 2025][research_mittelstedt_2025_b]
+- [Mittelstedt and Schröder 2010][research_mittelstedt_schroder_2010]
+- [Mittelstedt and Schröder 2010][research_mittelstedt_schroder_2010_b]
+- [Miura 1975][research_miura_1975]
+- [Miyano and Nakada 2020][research_miyano_nakada_2020]
+- [Miyase et al 1993][research_miyase_wang_1993]
+- [Mizukami et al 2020][research_mizukami_ikeda_2020]
+- [Mobasher Amini and Nakisa 2011][research_mobasheramini_nakisa_2011]
+- [Mochizuki et al 1969][research_mochizuki_sawada_1969]
+- [Mode-I Fracture of CFRP 2013][research_mode_i_fracture_2013]
+- [Modelling and monitoring of out-time and moisture absorption effects on cure kinetics and viscosity for an out-of-autoclave OoA prepreg][research_outtime_moisture]
+- [Modzel et al 2010][research_modzel_kamke_2010]
+- [Modzel et al 2010][research_modzel_kamke_2010_b]
+- [Moeller 1980][research_moeller_1980]
+- [Mohabeddine et al 2023][research_mohabeddine_malik_2023]
+- [Mohamad et al 2010][research_mohamad_tarfaoui_2010]
+- [Mohamed Mydeen et al 2024][research_mohamedmydeen_madesh_2024]
+- [Mohan and Grentzer 1995][research_mohan_grentzer_1995]
+- [Mohan et al 2016][research_mohan_alshahrani_2016]
+- [Mohanta and Neogi 2026][research_mohanta_neogi_2026]
+- [Mohseni et al 2017][research_mohseni_fernlund_2017]
+- [Moisture and thermal expansion 1984][research_moisture_and_1984]
+- [Moix-Bonet 2025][research_moixbonet_2025]
+- [Mojtahedi et al 2022][research_mojtahedi_hokmabady_2022]
+- [Molent and Forrester 2017][research_molent_forrester_2017]
+- [Molent and Jones 2018][research_molent_jones_2018]
+- [Molent and Jones 2018][research_molent_jones_2018_b]
+- [Molinari 2020][research_molinari_2020]
+- [Molitor and Young 2004][research_molitor_young_2004]
+- [Molloy et al 1998][research_molloy_tilley_1998]
+- [Molloy et al 1998][research_molloy_tilley_1998_b]
+- [Molyneaux and Curtis 1991][research_molyneaux_curtis_1991]
+- [Momblona 2022][research_momblona_2022]
+- [Monaco et al 2016][research_monaco_boffa_2016]
+- [Monitoring the composite cure 1991][research_monitoring_the_1991]
+- [Montméat et al 2017][research_montmeat_enot_2017]
+- [Montserrat and Cima 1999][research_montserrat_cima_1999]
+- [Montés and Sánchez 2010][research_montes_sanchez_2010]
+- [Monzon and Foley 1988][research_monzon_foley_1988]
+- [Moon et al 2004][research_moon_morgan_2004]
+- [Moon et al 2004][research_moon_morgan_2004_b]
+- [Moradi et al 2021][research_moradi_vosoughi_2021]
+- [Moretti et al 2021][research_moretti_olivier_2021]
+- [Morfini et al 2018][research_morfini_goglio_2018]
+- [Morgan 2007][research_morgan_2007]
+- [Morgan et al 1985][research_morgan_walkup_1985]
+- [Mori and Hsiao 2008][research_mori_hsiao_2008]
+- [Mori and Minakuchi 2026][research_mori_minakuchi_2026]
+- [Mori and Sugibayashi 1990][research_mori_sugibayashi_1990]
+- [Morimoto et al 2015][research_morimoto_kobayashi_2015]
+- [Morimoto et al 2020][research_morimoto_fujimoto_2020]
+- [Moroni et al 2021][research_moroni_pirondi_2021]
+- [Morrison and Bader 1989][research_morrison_bader_1989]
+- [Morse 1972][research_morse_1972]
+- [Morse and Mallardo 2023][research_morse_mallardo_2023]
+- [Morse et al 2022][research_morse_cartabia_2022]
+- [Mortensen and Thybo Thomsen 2002][research_mortensen_thybothomsen_2002]
+- [Mortensen et al 2018][research_mortensen_andersen_2018]
+- [Moscato and Seyler 1994][research_moscato_seyler_1994]
+- [Moses 1990][research_moses_1990]
+- [Moses 1991][research_moses_1991]
+- [Moses 1991][research_moses_1991_b]
+- [Moses 1992][research_moses_1992]
+- [Moses 1995][research_moses_1995]
+- [Mostafa and Shankar 2013][research_mostafa_shankar_2013]
+- [Mou et al 2014][research_mou_zou_2014]
+- [Mou et al 2016][research_mou_zou_2016]
+- [Mou et al 2026][research_mou_zhang_2026]
+- [Mouhat et al 2019][research_mouhat_bybi_2019]
+- [Mowins 2006][research_mowins_2006]
+- [Moyer 1975][research_moyer_1975]
+- [Muc 1991][research_muc_1991]
+- [Mujahid et al 2020][research_mujahid_sallih_2020]
+- [Mukhopadhyay 2014][research_mukhopadhyay_2014]
+- [Mukhopadhyay and Sorokach 2015][research_mukhopadhyay_sorokach_2015]
+- [Mukhtar and Klosterman 2025][research_mukhtar_klosterman_2025]
+- [Muliana and Haj-Ali 2005][research_muliana_hajali_2005]
+- [Muliana and Haj-Ali 2006][research_muliana_hajali_2006]
+- [Munjal][research_munjal]
+- [Muralidharan and Summerscales 2011][research_muralidharan_summerscales_2011]
+- [Murayama et al 2002][research_murayama_kageyama_2002]
+- [Murphy and Quinn 2018][research_murphy_quinn_2018]
+- [Murray et al 2020][research_murray_robert_2020]
+- [Muser 1968][research_muser_1968]
+- [Musicman and Reinert 1980][research_musicman_reinert_1980]
+- [Mussatayev et al 2025][research_mussatayev_yi_2025]
+- [Musto et al 2001][research_musto_martuscelli_2001]
+- [Muthyala][research_muthyala]
+- [Mwesigwa et al 2024][research_mwesigwa_tentzeris_2024]
+- [Myhre and Beck 1979][research_myhre_beck_1979]
+- [Myhre and Labor 1981][research_myhre_labor_1981]
+- [Mårtensson et al 2015][research_martensson_zenkert_2015]
+- [Möcker and Reimerdes][research_mocker_reimerdes]
+- [Möcker and Reimerdes 2006][research_mocker_reimerdes_2006]
+- [Möllers et al 2023][research_mollers_schmidt_2023]
+- [Müller 2017][research_muller_2017]
+- [Müller and Fredell 1999][research_muller_fredell_1999]
+- [Müller et al 2017][research_muller_palardy_2017]
+- [Müller et al 2017][research_muller_ruggiero_2017]
+- [Na 2007][research_na_2007]
+- [Na et al 2014][research_na_yeom_2014]
+- [Naboulsi and Mall 1996][research_naboulsi_mall_1996]
+- [Naboulsi et al 1997][research_naboulsi_mall_1997]
+- [Nadeem Masood et al 2020][research_nadeemmasood_viswamurthy_2020]
+- [Nae et al 1984][research_nae_reich_1984]
+- [Naffakh et al 2006][research_naffakh_dumon_2006]
+- [Nagabhushana et al 2022][research_nagabhushana_wang_2022]
+- [Nagao et al 1979][research_nagao_nakao_1979]
+- [Nagar 1994][research_nagar_1994]
+- [Nagaraja and Alwar 1979][research_nagaraja_alwar_1979]
+- [Nagendra et al 1991][research_nagendra_haftka_1991]
+- [Nagendra et al 1993][research_nagendra_haftka_1993]
+- [Naghdinasab et al 2026][research_naghdinasab_dilllanger_2026]
+- [Naghipour 2015][research_naghipour_2015]
+- [Nagy et al 1987][research_nagy_rypien_1987]
+- [Nagy et al 1987][research_nagy_rypien_1987_b]
+- [Naidu and Sinha 2005][research_naidu_sinha_2005]
+- [Naing 2026][research_naing_2026]
+- [Nair et al 1989][research_nair_hsu_1989]
+- [Naito et al 2023][research_naito_mobuchon_2023]
+- [Najib and Nobari 2015][research_najib_nobari_2015]
+- [Nakao and Hayashi 2018][research_nakao_hayashi_2018]
+- [Nakashima et al 2007][research_nakashima_matsumiya_2007]
+- [Nakata et al 2018][research_nakata_tanabe_2018]
+- [Nam et al 1999][research_nam_lee_1999]
+- [Nam et al 2015][research_nam_park_2015]
+- [Nana et al 2025][research_nana_xiaoming_2025]
+- [Nancarrow et al 2024][research_nancarrow_warren_2024]
+- [Narayana Swamy][research_narayanaswamy]
+- [Narita 2002][research_narita_2002]
+- [Narkis and Nicolais 1970][research_narkis_nicolais_1970]
+- [Nash et al 1980][research_nash_poranski_1980]
+- [Naskar and Edie 2006][research_naskar_edie_2006]
+- [Nassar et al 2022][research_nassar_jagatap_2022]
+- [Nawab and Jacquemin 2016][research_nawab_jacquemin_2016]
+- [Nawab et al 2012][research_nawab_casari_2012]
+- [Nayeb-Hashemi and Zheng 1990][research_nayebhashemi_zheng_1990]
+- [Nazarchuk et al 2022][research_nazarchuk_muravsky_2022]
+- [Nazarudin and Suryadi 2021][research_nazarudin_suryadi_2021]
+- [Ndiaye and Asl Sharhani 2026][research_ndiaye_aslsharhani_2026]
+- [NDT of adhesive bond 1970][research_ndt_of_1970]
+- [Neamah et al 2024][research_neamah_alkindi_2024]
+- [Neft et al 2002][research_neft_schulte_2002]
+- [Negrin et al 2025][research_negrin_kripka_2025]
+- [Neiss and Vanderheiden 1994][research_neiss_vanderheiden_1994]
+- [Nemes and Bodelle 1995][research_nemes_bodelle_1995]
+- [Nemet 2006][research_nemet_2006]
+- [Nemeth 1995][research_nemeth_1995]
+- [Nesterenko 2013][research_nesterenko_2013]
+- [Nestleroth][research_nestleroth]
+- [Nettles et al 2022][research_nettles_guin_2022]
+- [Nettles et al 2023][research_nettles_barnes_2023]
+- [Nettles, A. T. and Hromisin, S. M. 2013][research_nettlesat_hromisinsm_2013]
+- [Nettles, A. T. and Lance, D. G. 1993][research_nettlesat_lancedg_1993]
+- [Nettles, Alan T. 1991][research_nettlesalant_1991]
+- [Nettles, Alan T. and Ratcliffe, James G. 2006][research_nettlesalant_ratcliffejamesg_2006]
+- [Nettles, Alan T. et al 2008][research_nettlesalant_gregoryelizabeth_2008]
+- [Netzel et al 2021][research_netzel_hoffmann_2021]
+- [Netzel et al 2021][research_netzel_mordasini_2021]
+- [Neural Network Nondestructive Evaluation 2013][research_neural_network_2013]
+- [Neutron Diffraction Measurements of 2016][research_neutron_diffraction_2016]
+- [New honeycomb composite 2006][research_new_honeycomb_2006]
+- [New possibilities of routine 1970][research_new_possibilities_1970]
+- [New Resin Options for 2018][research_new_resin_2018]
+- [Newaz and Majumdar 1994][research_newaz_majumdar_1994]
+- [Newcomb 2019][research_newcomb_2019]
+- [Newport News Shipbuilding Va 1993][research_newportnewsshipbuildingva_1993]
+- [Next Generation of Low 2015][research_next_generation_2015]
+- [Nezhad et al 2014][research_nezhad_merwick_2014]
+- [Ng and Manas-Zloczower 1989][research_ng_manaszloczower_1989]
+- [Ng et al 2000][research_ng_boswell_2000]
+- [Nguyen][research_nguyen]
+- [Nguyen 2025][research_nguyen_2025]
+- [Nguyen et al 2002][research_nguyen_koerner_2002]
+- [Nguyen et al 2009][research_nguyen_kweon_2009]
+- [Nguyen et al 2018][research_nguyen_ju_2018]
+- [Nguyen et al 2019][research_nguyen_vijayachandran_2019]
+- [Nguyen-Thuc and Maazouz 2004][research_nguyenthuc_maazouz_2004]
+- [Nhuapeng et al 2008][research_nhuapeng_kumfu_2008]
+- [Ni and Frazier 1998][research_ni_frazier_1998]
+- [Nieto-León et al 2022][research_nietoleon_rodriguezbellido_2022]
+- [Niknafs Kermani et al 2019][research_niknafskermani_simacek_2019]
+- [Niknafs Kermani et al 2020][research_niknafskermani_simacek_2020]
+- [Nilakantan and Nutt 2015][research_nilakantan_nutt_2015]
+- [Nilakantan and Nutt 2017][research_nilakantan_nutt_2017]
+- [Nimje and Panigrahi 2020][research_nimje_panigrahi_2020]
+- [Ning et al 2007][research_ning_janowski_2007]
+- [Ning et al 2020][research_ning_shi_2020]
+- [Ning et al 2020][research_ning_shi_2020_b]
+- [Ning et al 2023][research_ning_shi_2023]
+- [Ninio 2006][research_ninio_2006]
+- [Nishi et al 2024][research_nishi_itoh_2024]
+- [Nishiyama et al 2012][research_nishiyama_tsutsumi_2012]
+- [Niu et al 2026][research_niu_hui_2026]
+- [Nixon-Pearson et al 2016][research_nixonpearson_belnoue_2016]
+- [Njionhou et al 2012][research_njionhou_berthet_2012]
+- [Noah Martimfold 2025][research_noahmartimfold_2025]
+- [Noda and Takaki 2024][research_noda_takaki_2024]
+- [Noevere, August et al 2019][research_noevereaugust_colliercraig_2019]
+- [Nondestructive Bond Strength Testing 1997][research_nondestructive_bond_1997]
+- [Nondestructive Evaluation Methods for 2013][research_nondestructive_evaluation_2013]
+- [Nondestructive Evaluation Methods for 2013][research_nondestructive_evaluation_2013_b]
+- [Nondestructive Evaluation of Food 2010][research_nondestructive_evaluation_2010]
+- [Nondestructive Evaluation of Materials 2018][research_nondestructive_evaluation_2018]
+- [Nondestructive Inspection of Adhesive-Bonded 2018][research_nondestructive_inspection_2018]
+- [Noor and Peters 1994][research_noor_peters_1994]
+- [Noor et al 1993][research_noor_starnes_1993]
+- [Noor et al 1997][research_noor_starves_1997]
+- [Nordby et al 1964][research_nordby_noyes_1964]
+- [Norose et al 2014][research_norose_mizutani_2014]
+- [Norwood et al 2021][research_norwood_schneberger_2021]
+- [Norwood et al 2022][research_norwood_brown_2022]
+- [Norwood et al 2022][research_norwood_brown_2022_b]
+- [Noton 1957][research_noton_1957]
+- [Noton 1983][research_noton_1983]
+- [Noton 1984][research_noton_1984]
+- [Noton and Preston 1981][research_noton_preston_1981]
+- [Novikov et al 2002][research_novikov_elizarova_2002]
+- [Nowak and Schmidt 2015][research_nowak_schmidt_2015]
+- [Nowak et al 2026][research_nowak_waskiewicz_2026]
+- [Nowakowski et al 2019][research_nowakowski_baran_2019]
+- [Noyes 1965][research_noyes_1965]
+- [Noyes 1966][research_noyes_1966]
+- [Ntourmas et al 2023][research_ntourmas_glock_2023]
+- [null][research_null]
+- [null][research_null_b]
+- [null][research_null_c]
+- [Nunez 1989][research_nunez_1989]
+- [Nur Ainin et al 2022][research_nurainin_azaman_2022]
+- [Nur Hafzareen Md Hanafiah et al 2024][research_nurhafzareenmdhanafiah_abdulrahimothman_2024]
+- [Nur Hafzareen Md Hanafiah et al 2024][research_nurhafzareenmdhanafiah_abdulrahimothman_2024_b]
+- [Nurashikin and Hazizan 2011][research_nurashikin_hazizan_2011]
+- [Nussbaum 1994][research_nussbaum_1994]
+- [Nuttall 2012][research_nuttall_2012]
+- [Nyemba 2025][research_nyemba_2025]
+- [O'Brien 1990][research_obrien_1990]
+- [O'Brien and White 2003][research_obrien_white_2003]
+- [O'Dell et al 2026][research_odell_hasburgh_2026]
+- [O'Dwyer et al 1998][research_odwyer_maistros_1998]
+- [O'Leary et al 2022][research_oleary_kratz_2022]
+- [O.A. 2025][research_oa_2025]
+- [Obertscheider and Fauster 2023][research_obertscheider_fauster_2023]
+- [Objois et al 1999][research_objois_gilibert_1999]
+- [Ocando et al 2016][research_ocando_fernandez_2016]
+- [Ocando et al 2017][research_ocando_fernandez_2017]
+- [Odacı et al 2012][research_odaci_kilicaslan_2012]
+- [Odagiri et al 1996][research_odagiri_kishi_1996]
+- [Odiyi et al 2022][research_odiyi_sharif_2022]
+- [Ogilvy 1995][research_ogilvy_1995]
+- [Ogisu et al 2006][research_ogisu_shimanuki_2006]
+- [Oh 2007][research_oh_2007]
+- [Oh and Lee 2002][research_oh_lee_2002]
+- [Oh et al 2006][research_oh_kim_2006]
+- [Okabe et al 1991][research_okabe_takashima_1991]
+- [Okafor et al 2005][research_okafor_singh_2005]
+- [Okereke et al 2017][research_okereke_paulbuckley_2017]
+- [Oksman 2001][research_oksman_2001]
+- [Olarewaju and Lee 1991][research_olarewaju_lee_1991]
+- [Olaya et al 2022][research_olaya_shah_2022]
+- [Olaya et al 2023][research_olaya_shah_2023]
+- [Olaya et al 2025][research_olaya_ricks_2025]
+- [Oliveira 2021][research_oliveira_2021]
+- [Oliveri et al 2021][research_oliveri_zucco_2021]
+- [Olivier and Serrano 2023][research_olivier_serrano_2023]
+- [Ollivier-Lamarque][research_ollivierlamarque]
+- [Olofsson 1997][research_olofsson_1997]
+- [Olusanya][research_olusanya]
+- [Omrani et al 2008][research_omrani_simon_2008]
+- [Omrani et al 2008][research_omrani_simon_2008_b]
+- [Ong 1995][research_ong_1995]
+- [Oosthuizen and Stone 1997][research_oosthuizen_stone_1997]
+- [Ophir 1982][research_ophir_1982]
+- [Optimization Design of Stacking 2024][research_optimization_design_2024]
+- [Optimization of design allowables 1988][research_optimization_of_1988]
+- [Orifici et al 2008][research_orifici_thomson_2008]
+- [Orisamolu et al 1997][research_orisamolu_luo_1997]
+- [Oromiehie et al 2016][research_oromiehie_prusty_2016]
+- [Oromiehie et al 2019][research_oromiehie_garbe_2019]
+- [Oromiehie et al 2019][research_oromiehie_prusty_2019]
+- [Oromiehie et al 2021][research_oromiehie_gain_2021]
+- [Oromiehie et al 2022][research_oromiehie_gain_2022]
+- [Oromiehie et al 2024][research_oromiehie_matti_2024]
+- [Orozco][research_orozco]
+- [Ortiz de Mendibil et al 2016][research_ortizdemendibil_aretxabaleta_2016]
+- [Osakue et al 2017][research_osakue_martina_2017]
+- [Osama 2024][research_osama_2024]
+- [Oshima and Koyanagi 2025][research_oshima_koyanagi_2025]
+- [Oshima et al 2001][research_oshima_aoki_2001]
+- [Oshima et al 2003][research_oshima_inoue_2003]
+- [Oshima et al 2003][research_oshima_inoue_2003_b]
+- [Oshima et al 2003][research_oshima_inoue_2003_c]
+- [Oshima et al 2019][research_oshima_yoshimura_2019]
+- [Oshima et al 2023][research_oshima_mikami_2023]
+- [Oskay 2012][research_oskay_2012]
+- [Ostwald and Sathyamoorthy 1992][research_ostwald_sathyamoorthy_1992]
+- [Oterkus et al 2005][research_oterkus_barut_2005]
+- [Ouinas 2012][research_ouinas_2012]
+- [Ouinas et al 2010][research_ouinas_bouiadjra_2010]
+- [Ouinas et al 2012][research_ouinas_bachirbouiadjra_2012]
+- [Out of autoclave manufacturing][research_out_of_autoclave]
+- [Out-of-autoclave prepreg consolidation Coupled air evacuation and prepreg impregnation modeling][research_coupled_evacuation]
+- [Out-time effects on cure kinetics and viscosity for an out-of-autoclave OOA prepreg Modelling and monitoring][research_outtime_cure_kinetics]
+- [Outeiro et al 2007][research_outeiro_umbrello_2007]
+- [Ouyang et al 2026][research_ouyang_wang_2026]
+- [Ovesy and Assaee 2018][research_ovesy_assaee_2018]
+- [Owen et al 1990][research_owen_middleton_1990]
+- [Oyanguren and Williams 1993][research_oyanguren_williams_1993]
+- [Ozaydin Ince et al 2024][research_ozaydinince_can_2024]
+- [Ozdoeva and Smolyakov 2020][research_ozdoeva_smolyakov_2020]
+- [Ozer and Oz 2012][research_ozer_oz_2012]
+- [Paccou][research_paccou]
+- [Pace and Chov 2025][research_pace_chov_2025]
+- [Paine and Rogers 1995][research_paine_rogers_1995]
+- [Paithankar et al 1990][research_paithankar_sangani_1990]
+- [Pal 2005][research_pal_2005]
+- [Pal et al 2025][research_pal_soumyamol_2025]
+- [Palaniappan et al 2001][research_palaniappan_sreedhar_2001]
+- [Palaniappan et al 2008][research_palaniappan_ogin_2008]
+- [Palardy et al 2012][research_palardy_hubert_2012]
+- [Palazotto 1988][research_palazotto_1988]
+- [Palazotto 1995][research_palazotto_1995]
+- [Palmberg et al 1987][research_palmberg_blom_1987]
+- [Palmese et al 2020][research_palmese_lascala_2020]
+- [Paluch et al 2008][research_paluch_grediac_2008]
+- [Pananiswami and Bishop 1991][research_pananiswami_bishop_1991]
+- [Panda et al 2025][research_panda_sarnaik_2025]
+- [Pang and Gillham 1988][research_pang_gillham_1988]
+- [Pang and Gillham 1989][research_pang_gillham_1989]
+- [Pang and Gillham 1990][research_pang_gillham_1990]
+- [Pang et al 2014][research_pang_li_2014]
+- [Panigrahi 2009][research_panigrahi_2009]
+- [Panigrahi and Nimje 2022][research_panigrahi_nimje_2022]
+- [Panigrahi and Nimje 2022][research_panigrahi_nimje_2022_b]
+- [Panigrahi and Nimje 2022][research_panigrahi_nimje_2022_c]
+- [Panneerselvan et al 2026][research_panneerselvan_mohan_2026]
+- [Pantaloni et al 2020][research_pantaloni_bourmaud_2020]
+- [Pantelelis 2003][research_pantelelis_2003]
+- [Pantelelis 2005][research_pantelelis_2005]
+- [Pantelelis et al 2003][research_pantelelis_vrouvakis_2003]
+- [Pantelides 1996][research_pantelides_1996]
+- [Paolozzi and Peroni 1996][research_paolozzi_peroni_1996]
+- [Paonessa et al 2005][research_paonessa_digiulio_2005]
+- [Papadakis and Chapman 1992][research_papadakis_chapman_1992]
+- [Paper, board and pulps][research_paper_board]
+- [Papila and Atilgan 2022][research_papila_atilgan_2022]
+- [Parambil et al 2022][research_parambil_chen_2022]
+- [Parametric Investigations on Laminated 2024][research_parametric_investigations_2024]
+- [Parham 1971][research_parham_1971]
+- [Parham 1971][research_parham_1971_b]
+- [Park 2007][research_park_2007]
+- [Park 2015][research_park_2015]
+- [Park 2016][research_park_2016]
+- [Park 2017][research_park_2017]
+- [Park 2019][research_park_2019]
+- [Park and Jeong 2010][research_park_jeong_2010]
+- [Park and Kang 2007][research_park_kang_2007]
+- [Park and Kong 2011][research_park_kong_2011]
+- [Park and Kong 2013][research_park_kong_2013]
+- [Park and Lee 1998][research_park_lee_1998]
+- [Park and Lee 2001][research_park_lee_2001]
+- [Park et al 1994][research_park_marcus_1994]
+- [Park et al 1999][research_park_riedl_1999]
+- [Park et al 2003][research_park_goo_2003]
+- [Park et al 2003][research_park_han_2003]
+- [Park et al 2004][research_park_lee_2004]
+- [Park et al 2009][research_park_choi_2009]
+- [Park et al 2010][research_park_choi_2010]
+- [Park et al 2012][research_park_kan_2012]
+- [Park et al 2018][research_park_choi_2018]
+- [Park et al 2018][research_park_choi_2018_b]
+- [Park et al 2024][research_park_youn_2024]
+- [Parker 1986][research_parker_1986]
+- [Parker 1994][research_parker_1994]
+- [Parker and Povey 2012][research_parker_povey_2012]
+- [Parks 1985][research_parks_1985]
+- [Parnas 1998][research_parnas_1998]
+- [Paroissien et al 2007][research_paroissien_sartor_2007]
+- [Partridge 2000][research_partridge_2000]
+- [Partridge and Maistros 2000][research_partridge_maistros_2000]
+- [Parvathy et al 2021][research_parvathy_mohanty_2021]
+- [Parveez 2024][research_parveez_2024]
+- [Pashkov et al 2023][research_pashkov_zhuleva_2023]
+- [Patel 2014][research_patel_2014]
+- [Patel and Dodge 2026][research_patel_dodge_2026]
+- [Patel and Lee 1995][research_patel_lee_1995]
+- [Patel and Lee 1996][research_patel_lee_1996]
+- [Patel et al 1987][research_patel_patel_1987]
+- [Patel et al 2020][research_patel_gajjar_2020]
+- [Patel et al 2025][research_patel_ji_2025]
+- [Patham 2012][research_patham_2012]
+- [Patil et al 2019][research_patil_moheimani_2019]
+- [Patil et al 2019][research_patil_moheimani_2019_b]
+- [Patil et al 2019][research_patil_shah_2019]
+- [Patnaik et al 2008][research_patnaik_pai_2008]
+- [Patterson and Grenestedt 2018][research_patterson_grenestedt_2018]
+- [Patterson and Pinckney 1988][research_patterson_pinckney_1988]
+- [Patterson et al 2010][research_patterson_piatkowski_2010]
+- [Patwardhan and Ramani 2004][research_patwardhan_ramani_2004]
+- [Patz 1981][research_patz_1981]
+- [Paul][research_paul]
+- [Paul et al 2021][research_paul_andrea_2021]
+- [Paxton et al 2025][research_paxton_penghui_2025]
+- [Paz-Abuin et al 1997][research_pazabuin_pellin_1997]
+- [Pedersen and Slepniov 2016][research_pedersen_slepniov_2016]
+- [Pellone et al 2024][research_pellone_ciminello_2024]
+- [Peng and Riedl 1994][research_peng_riedl_1994]
+- [Peng and Yu 2021][research_peng_yu_2021]
+- [Peng and Yu 2021][research_peng_yu_2021_b]
+- [Peng et al 2022][research_peng_xu_2022]
+- [Peng et al 2023][research_peng_wang_2023]
+- [Peng et al 2024][research_peng_li_2024]
+- [Pengfei et al 2025][research_pengfei_xuhui_2025]
+- [Penumadu 2020][research_penumadu_2020]
+- [Perala et al 1979][research_perala_lee_1979]
+- [Pereira et al 2019][research_pereira_leboulluec_2019]
+- [Pereira et al 2026][research_pereira_cardoso_2026]
+- [Peretto 1997][research_peretto_1997]
+- [Perez et al 2000][research_perez_johnson_2000]
+- [Perfetto et al 2018][research_perfetto_deluca_2018]
+- [Perfetto et al 2019][research_perfetto_deluca_2019]
+- [Perfetto et al 2019][research_perfetto_lamanna_2019]
+- [Perillo et al 2014][research_perillo_vedivik_2014]
+- [Peronnet][research_peronnet]
+- [Perret][research_perret]
+- [Perret et al 2011][research_perret_mistou_2011]
+- [Perret et al 2011][research_perret_mistou_2011_b]
+- [Perret et al 2012][research_perret_mistou_2012]
+- [Perreux and Lazuardi 2001][research_perreux_lazuardi_2001]
+- [Perreux and Lazuardi 2001][research_perreux_lazuardi_2001_b]
+- [Perrin et al 2023][research_perrin_vaudemont_2023]
+- [Perry et al][research_perry_mauchand]
+- [Perry et al 1992][research_perry_lee_1992]
+- [Peterlin 1975][research_peterlin_1975]
+- [Peters 1994][research_peters_1994]
+- [Peters and Springer 1986][research_peters_springer_1986]
+- [Petersson et al 2013][research_petersson_motte_2013]
+- [Pethrick et al 2009][research_pethrick_miller_2009]
+- [Pettit 1979][research_pettit_1979]
+- [Peyron and Watts 2022][research_peyron_watts_2022]
+- [Peyser and Bascom 1974][research_peyser_bascom_1974]
+- [Peyser and Bascom 1977][research_peyser_bascom_1977]
+- [Phansalkar and Han 2024][research_phansalkar_han_2024]
+- [Phansalkar and Han 2026][research_phansalkar_han_2026]
+- [Phansalkar et al 2024][research_phansalkar_jang_2024]
+- [Phansalkar et al 2025][research_phansalkar_jang_2025]
+- [Philipp et al 2009][research_philipp_muller_2009]
+- [Philippidis 2000][research_philippidis_2000]
+- [Philippidis et al 1999][research_philippidis_lekou_1999]
+- [Phillips 1986][research_phillips_1986]
+- [Phillips 1986][research_phillips_1986_b]
+- [Phillips et al 2018][research_phillips_agarwal_2018]
+- [Phosphate bonded composite electrodes 1991][research_phosphate_bonded_1991]
+- [Photo-Curing Schemes to Cure 2018][research_photo_curing_schemes_2018]
+- [Physical-Chemical Characterization Techniques, Epoxy][research_physical_chemical_characterization]
+- [Physio-Chemical Characterization Techniques, Epoxy][research_physio_chemical_characterization]
+- [Pillai and Advani 1998][research_pillai_advani_1998]
+- [Pillai and Thomas 2011][research_pillai_thomas_2011]
+- [Pilon][research_pilon]
+- [Pimm 1976][research_pimm_1976]
+- [Pinckney 1964][research_pinckney_1964]
+- [Pipes et al 1979][research_pipes_scott_1979]
+- [Pirondi et al 2015][research_pirondi_giuliese_2015]
+- [Pisharody and Smith 2022][research_pisharody_smith_2022]
+- [Pishvar et al 2017][research_pishvar_amirkhosravi_2017]
+- [Pishvar et al 2018][research_pishvar_amirkhosravi_2018]
+- [Pitchumani 2000][research_pitchumani_2000]
+- [Plagianakos and Saravanos 2009][research_plagianakos_saravanos_2009]
+- [Plaka et al 2022][research_plaka_bednarcyk_2022]
+- [Plastics � Differential scanning][research_plastics]
+- [Plastics � Fast differential][research_plastics_b]
+- [Plastics. Differential scanning calorimetry][research_plastics_differential]
+- [Plastics. Differential scanning calorimetry][research_plastics_differential_b]
+- [Plastics. Epoxy resins. Determination][research_plastics_epoxy]
+- [Plaza and Rohlf 2008][research_plaza_rohlf_2008]
+- [Plesu et al 1993][research_plesu_azaar_1993]
+- [Pochiraju 1999][research_pochiraju_1999]
+- [Podoba et al 1981][research_podoba_kodali_1981]
+- [Podymova and Karabutov 2013][research_podymova_karabutov_2013]
+- [Poe 1971][research_poe_1971]
+- [Pohya et al 2018][research_pohya_wicke_2018]
+- [Pol and Banerjee 2014][research_pol_banerjee_2014]
+- [Polimeno and Meo 2009][research_polimeno_meo_2009]
+- [Polnikorn 2024][research_polnikorn_2024]
+- [Polowick][research_polowick]
+- [Poly amide-imide prepreg and composite 1991][research_poly_amide_imide_1991]
+- [Polyclad introduces 370HR lead-free 2004][research_polyclad_introduces_2004]
+- [Polyclad introduces laser drillable 2002][research_polyclad_introduces_2002]
+- [Polyclad introduces polyimide laminate 2003][research_polyclad_introduces_2003]
+- [Polyester, fibreglass-reinforced composite laminate 1978][research_polyester_fibreglass_reinforced_1978]
+- [Polyimide composition and prepreg 1991][research_polyimide_composition_1991]
+- [Polyxeni et al 2019][research_polyxeni_christina_2019]
+- [Pommer and Sinapius 2018][research_pommer_sinapius_2018]
+- [Poncia et al 1975][research_poncia_krauss_1975]
+- [Ponomareva et al 1978][research_ponomareva_irzhak_1978]
+- [Poorabdollah and Kamran 2017][research_poorabdollah_kamran_2017]
+- [Poorzeinolabedin et al 2014][research_poorzeinolabedin_parnas_2014]
+- [Popham 2019][research_popham_2019]
+- [Popineau et al 2021][research_popineau_celino_2021]
+- [Porosity characterization in thin 1994][research_porosity_characterization_1994]
+- [Portanova, Marc A. 1994][research_portanovamarca_1994]
+- [Posarac et al 2010][research_posarac_dimitrijevic_2010]
+- [Posteucă and Sakamoto 2017][research_posteuca_sakamoto_2017]
+- [Posteucă and Sakamoto 2017][research_posteuca_sakamoto_2017_b]
+- [Posteucă and Sakamoto 2017][research_posteuca_sakamoto_2017_c]
+- [Potapov and Luk'yanov 1988][research_potapov_lukyanov_1988]
+- [Potentially Game-changing Low Temperature 2023][research_potentially_game_changing_2023]
+- [Pothnis et al 2024][research_pothnis_velon_2024]
+- [Potluri et al 2003][research_potluri_kusak_2003]
+- [Potter 1982][research_potter_1982]
+- [Potter 1997][research_potter_1997]
+- [Potter 1997][research_potter_1997_b]
+- [Potter 1997][research_potter_1997_c]
+- [Potter 1997][research_potter_1997_d]
+- [Potter 1997][research_potter_1997_e]
+- [Potter 1997][research_potter_1997_f]
+- [Potter 1997][research_potter_1997_g]
+- [Potter 1997][research_potter_1997_h]
+- [Potter 1997][research_potter_1997_i]
+- [Potter 1997][research_potter_1997_j]
+- [Potter 1999][research_potter_1999]
+- [Potter 2023][research_potter_2023]
+- [Potter et al 2001][research_potter_davies_2001]
+- [POTTING COMPOUND, EPOXY Bisphenol][research_potting_compound]
+- [Pouchias et al 2019][research_pouchias_cunningham_2019]
+- [Poulopoulos et al 2022][research_poulopoulos_zervos_2022]
+- [Pourahmadi et al 2024][research_pourahmadi_shadmehri_2024]
+- [Poursartip et al 2020][research_poursartip_fernlund_2020]
+- [Powder Coating Chemistry Options 2019][research_powder_coating_2019]
+- [Pozos-Estrada 2025][research_pozosestrada_2025]
+- [Prabhakar 2020][research_prabhakar_2020]
+- [Prabhakaran et al 2002][research_prabhakaran_saha_2002]
+- [Prabhune and Talreja 2007][research_prabhune_talreja_2007]
+- [Practical Cost Estimating for 2005][research_practical_cost_2005]
+- [Practice for Atmospheric Exposure][research_practice_for_c]
+- [Practice for Determination of][research_practice_for]
+- [Practice for Estimating the][research_practice_for_d]
+- [Practice for Surface Preparation][research_practice_for_b]
+- [Prakash et al 2025][research_prakash_bag_2025]
+- [Pramanik et al 2014][research_pramanik_fowler_2014]
+- [Prasad et al 1987][research_prasad_prabhakaran_1987]
+- [Prasittisopin and Tuvayanond 2022][research_prasittisopin_tuvayanond_2022]
+- [Precup 2025][research_precup_2025]
+- [Predecki and Barrett 1983][research_predecki_barrett_1983]
+- [Predecki and Barrett 1984][research_predecki_barrett_1984]
+- [Preeti et al 2022][research_preeti_jones_2022]
+- [Preface - Thermoset Resins 1998][research_preface_1998]
+- [Preforms for resin transfer 1989][research_preforms_for_1989]
+- [Preisz et al 2026][research_preisz_holtmannspotter_2026]
+- [Prepreg 2007][research_prepreg_2007]
+- [prepreg 2021][research_prepreg_2021]
+- [Prepreg for making a 1985][research_prepreg_for_1985]
+- [Prepreg requires no autoclaving 1998][research_prepreg_requires_1998]
+- [prepreg, adj. and n 2023][research_prepreg_adj_2023]
+- [pressure altitude 2014][research_pressure_altitude_2014]
+- [pressure-altitude variation 2014][research_pressure_altitude_variation_2014]
+- [Pressures and Temperatures for 2000][research_pressures_and_2000]
+- [PRF launches new epoxy 2016][research_prf_launches_2016]
+- [Prime 1973][research_prime_1973]
+- [Prime and Hill 2004][research_prime_hill_2004]
+- [Primer, Adhesive, Corrosion-inhibiting For][research_primer_adhesive]
+- [Prince and Zhao 2026][research_prince_zhao_2026]
+- [Prince and Zhao 2026][research_prince_zhao_2026_b]
+- [Printed Circuit Board Design 2001][research_printed_circuit_2001]
+- [Printed Circuit Board Design 2010][research_printed_circuit_2010]
+- [Pritz et al 2016][research_pritz_etzel_2016]
+- [Process for forming a 1992][research_process_for_1992]
+- [Process for forming a 1993][research_process_for_1993]
+- [Process for manufacturing a 1972][research_process_for_1972]
+- [Process for manufacturing a 1991][research_process_for_1991]
+- [Process for moulding and 1989][research_process_for_1989]
+- [Process for preparing advance 1994][research_process_for_1994]
+- [Process for producing inorganic 1995][research_process_for_1995]
+- [Process for the production 1988][research_process_for_1988]
+- [Process induced distortions of][research_process_induced_distortions]
+- [Process of making a 1991][research_process_of_1991]
+- [Process-induced stress and deformation 1992][research_process_induced_stress_1992]
+- [Processing of high-reactivity epoxy 1975][research_processing_of_1975]
+- [Product Manufacturing and Cost 2013][research_product_manufacturing_2013]
+- [Production of Bonded Joints 2008][research_production_of_2008]
+- [Prototype Aircraft Access Door 1987][research_prototype_aircraft_1987]
+- [Prozorovska et al 2017][research_prozorovska_muralidharan_2017]
+- [Préau and Hubert 2018][research_preau_hubert_2018]
+- [Pugazhenthi et al 2018][research_pugazhenthi_gopalakannan_2018]
+- [Puglia and Kenny 2015][research_puglia_kenny_2015]
+- [Puglia and Kenny 2017][research_puglia_kenny_2017]
+- [Pugno 1999][research_pugno_1999]
+- [Puhurcuoğlu and Arman 2024][research_puhurcuoglu_arman_2024]
+- [Puhurcuoğlu and Arman 2025][research_puhurcuoglu_arman_2025]
+- [Pulipati et al 2023][research_pulipati_kokkadaravindranath_2023]
+- [Purabgola et al 2020][research_purabgola_rastogi_2020]
+- [Pusatcioglu et al 1979][research_pusatcioglu_fricke_1979]
+- [Puspaningtyas et al 2024][research_puspaningtyas_jusuf_2024]
+- [Pyun et al 2022][research_pyun_koester_2022]
+- [Páez et al 2022][research_paez_utrera_2022]
+- [Qi et al 2026][research_qi_zhou_2026]
+- [Qian and Sun 2008][research_qian_sun_2008]
+- [Qiao and Yao 2020][research_qiao_yao_2020]
+- [Qiao et al 2025][research_qiao_xing_2025]
+- [Qin et al 2009][research_qin_zhao_2009]
+- [Qin et al 2017][research_qin_liu_2017]
+- [Qing et al 2006][research_qing_beard_2006]
+- [Qing et al 2020][research_qing_liu_2020]
+- [Qiu et al 2017][research_qiu_shi_2017]
+- [Qu et al 2021][research_qu_he_2021]
+- [Qu et al 2025][research_qu_zhao_2025]
+- [Quadrini et al 2021][research_quadrini_santoro_2021]
+- [Quagliato et al 2019][research_quagliato_jang_2019]
+- [Quan et al 2020][research_quan_alderliesten_2020]
+- [Quan et al 2022][research_quan_zhao_2022]
+- [Quaresimin 2005][research_quaresimin_2005]
+- [Quate 1979][research_quate_1979]
+- [Quate 1981][research_quate_1981]
+- [Quatmann and Reimerdes 2011][research_quatmann_reimerdes_2011]
+- [Quattrocchi et al 2019][research_quattrocchi_freni_2019]
+- [Quinlan et al 2014][research_quinlan_farhang_2014]
+- [Quinlivan and Fenbert 1995][research_quinlivan_fenbert_1995]
+- [Quinn et al 2023][research_quinn_davidson_2023]
+- [Quintana et al 2023][research_quintana_sharp_2023]
+- [Quintana-Molina et al 2023][research_quintanamolina_pradohernandez_2023]
+- [R and Narayana Naik 2020][research_r_narayananaik_2020]
+- [R. Koloor and Tamin 2018][research_rkoloor_tamin_2018]
+- [Rachowitz et al 1979][research_rachowitz_coletti_1979]
+- [Rafighi and Tabarsa 2011][research_rafighi_tabarsa_2011]
+- [Ragavan and Amde 1999][research_ragavan_amde_1999]
+- [Raghavan 2009][research_raghavan_2009]
+- [Rahatekar and Roux 2003][research_rahatekar_roux_2003]
+- [Raheem 2018][research_raheem_2018]
+- [Rahim 2021][research_rahim_2021]
+- [Rahman and Radford 2016][research_rahman_radford_2016]
+- [Rai et al 1991][research_rai_lee_1991]
+- [Raigar et al 2026][research_raigar_velu_2026]
+- [Raihan et al 2022][research_raihan_qhobosheane_2022]
+- [Raisch][research_raisch]
+- [Raja 2009][research_raja_2009]
+- [Rajasekaran and Shadmehri 2020][research_rajasekaran_shadmehri_2020]
+- [Rajeckas 1989][research_rajeckas_1989]
+- [Rajmohan and Arunachalam 2022][research_rajmohan_arunachalam_2022]
+- [Rakestraw et al 1994][research_rakestraw_vrana_1994]
+- [Ramakrishnan et al 2014][research_ramakrishnan_rajan_2014]
+- [Ramamurthy and Rao 1978][research_ramamurthy_rao_1978]
+- [Ramesh et al 2010][research_ramesh_heng_2010]
+- [Ramezani 2020][research_ramezani_2020]
+- [Ramos et al 2005][research_ramos_pagani_2005]
+- [Ramos et al 2006][research_ramos_frazao_2006]
+- [Ramy Harik et al][research_ramyharik_andrewlovejoy]
+- [Ramy Harik et al][research_ramyharik_andrewlovejoy_b]
+- [Ranade et al 2014][research_ranade_guan_2014]
+- [Rans and Alderliesten 2009][research_rans_alderliesten_2009]
+- [Rao et al 2024][research_rao_sinha_2024]
+- [Raper 1991][research_raper_1991]
+- [Rapoff, Andrew J. et al 1990][research_rapoffandrewj_dillharoldd_1990]
+- [Raps et al 2022][research_raps_chadwick_2022]
+- [Rarthlomeusz et al 1993][research_rarthlomeusz_paul_1993]
+- [Rashedi et al 2016][research_rashedi_sridhar_2016]
+- [Rasiah and Breach][research_rasiah_breach]
+- [Rasuo 2015][research_rasuo_2015]
+- [Rathinam and Chinnamokkaiyan 2026][research_rathinam_chinnamokkaiyan_2026]
+- [Ratle et al 2009][research_ratle_achim_2009]
+- [Ratna 2022][research_ratna_2022]
+- [Ratna 2022][research_ratna_2022_b]
+- [Ratna 2022][research_ratna_2022_c]
+- [Ratwani 1977][research_ratwani_1977]
+- [Ravanfar et al][research_ravanfar_daniel]
+- [Rawat et al 2014][research_rawat_pathak_2014]
+- [Rayne 1975][research_rayne_1975]
+- [Razaqpur et al 2020][research_razaqpur_cameron_2020]
+- [Reading 2023][research_reading_2023]
+- [Recurring Cost Minimization of Composite Laminated Structures Optimum Part Size as a Function of Learning Curve Effects and Assembly][research_recurring_cost_part_size]
+- [Redin][research_redin]
+- [Reed et al 1993][research_reed_batzinger_1993]
+- [Reinhart 1988][research_reinhart_1988]
+- [Reinoso et al 2012][research_reinoso_blazquez_2012]
+- [Reis 1994][research_reis_1994]
+- [Reis et al 2011][research_reis_ferreira_2011]
+- [Reis et al 2022][research_reis_costa_2022]
+- [Remer et al 1992][research_remer_ziegler_1992]
+- [Remi Rey et al 2026][research_remirey_rinahashimoto_2026]
+- [Rempe 1996][research_rempe_1996]
+- [Rempt 2003][research_rempt_2003]
+- [Remy Jane P. Ampong, Rosalina A. Sagocsoc* 2026][research_remyjanepampongrosalinaasagocsoc_2026]
+- [Ren and Lissenden 2015][research_ren_lissenden_2015]
+- [Ren and Zhang 2025][research_ren_zhang_2025]
+- [Ren and Zhang 2025][research_ren_zhang_2025_b]
+- [Ren et al 2017][research_ren_wang_2017]
+- [Ren et al 2018][research_ren_wang_2018]
+- [Ren et al 2019][research_ren_gao_2019]
+- [Renton and Vinson 1973][research_renton_vinson_1973]
+- [Renton and Vinson 1975][research_renton_vinson_1975]
+- [Repair and Strengthening with 1996][research_repair_and_1996]
+- [Report No. 538, altitude-pressure 1935][research_report_no_1935]
+- [Residual Stress and Powder 2024][research_residual_stress_2024]
+- [Residual Stress in Metal-Matrix 2016][research_residual_stress_2016]
+- [Residual stresses and stress-strain 1972][research_residual_stresses_1972]
+- [Resin technology can cure 2017][research_resin_technology_2017]
+- [Resin Transfer Molding and 1995][research_resin_transfer_1995]
+- [Resin Transfer Moulding for 1998][research_resin_transfer_1998]
+- [Resin transfer moulding process 1993][research_resin_transfer_1993]
+- [Resin transfer moulding the 1994][research_resin_transfer_1994]
+- [Retolaza et al 2022][research_retolaza_corujo_2022]
+- [Retz 2019][research_retz_2019]
+- [Review of Research and 2022][research_review_of_research_2022]
+- [Ribeiro et al 2016][research_ribeiro_campilho_2016]
+- [Riccio et al 2018][research_riccio_raimondo_2018]
+- [Riccio et al 2019][research_riccio_saputo_2019]
+- [Riccio et al 2020][research_riccio_saputo_2020]
+- [Riccio et al 2020][research_riccio_saputo_2020_b]
+- [Riccio et al 2020][research_riccio_saputo_2020_c]
+- [Riccio et al 2021][research_riccio_saputo_2021]
+- [Riccio et al 2024][research_riccio_garofano_2024]
+- [Rich and Maass 1981][research_rich_maass_1981]
+- [Rich et al 1975][research_rich_ridgley_1975]
+- [Richard and Lin 2016][research_richard_lin_2016]
+- [Richard and Lin 2017][research_richard_lin_2017]
+- [Richardson 1992][research_richardson_1992]
+- [Richardson and Stewart 2012][research_richardson_stewart_2012]
+- [Richardson et al 1987][research_richardson_angelici_1987]
+- [Rider et al 1999][research_rider_olssonjacques_1999]
+- [Ridha et al 2011][research_ridha_tan_2011]
+- [Rigelsford 2004][research_rigelsford_2004]
+- [Rigid PVC pipes. Differential][research_rigid_pvc]
+- [Riguidel and Ridler 1998][research_riguidel_ridler_1998]
+- [Riley 1986][research_riley_1986]
+- [Rincon Urbina et al 2022][research_rinconurbina_ayre_2022]
+- [Rispler 2004][research_rispler_2004]
+- [River 2003][research_river_2003]
+- [Rivera-Gonzalez 2024][research_riveragonzalez_2024]
+- [Rivers et al 2017][research_rivers_leesullivan_2017]
+- [Rizk et al 2019][research_rizk_nahas_2019]
+- [Rizzolo and Walczyk 2014][research_rizzolo_walczyk_2014]
+- [Rizzolo and Walczyk 2016][research_rizzolo_walczyk_2016]
+- [Roach 1998][research_roach_1998]
+- [Roach 2002][research_roach_2002]
+- [Roach and Rackow 2007][research_roach_rackow_2007]
+- [Roach and Rackow 2018][research_roach_rackow_2018]
+- [Roach and Scala 2002][research_roach_scala_2002]
+- [Roach et al 2004][research_roach_rackow_2004]
+- [Roberge 2008][research_roberge_2008]
+- [Robert and Dusserre 2013][research_robert_dusserre_2013]
+- [Roberts et al 2021][research_roberts_justusson_2021]
+- [Robertson 1988][research_robertson_1988]
+- [Robinson][research_robinson]
+- [Robinson 1984][research_robinson_1984]
+- [Robinson 1984][research_robinson_1984_b]
+- [Robinson and Kosmatka 2008][research_robinson_kosmatka_2008]
+- [Rocha et al 2021][research_rocha_semprimoschnig_2021]
+- [Rochery and Lam 2000][research_rochery_lam_2000]
+- [Rodgers and Johnson 1987][research_rodgers_johnson_1987]
+- [Rodriguez 1994][research_rodriguez_1994]
+- [Rodzewicz 2009][research_rodzewicz_2009]
+- [Rodzewicz 2010][research_rodzewicz_2010]
+- [Roeper et al 2023][research_roeper_sommacal_2023]
+- [Rogers][research_rogers]
+- [Rogers 1972][research_rogers_1972]
+- [Rogers 1974][research_rogers_1974]
+- [Rogers and Lee-Sullivan 2003][research_rogers_leesullivan_2003]
+- [Rogers et al 1999][research_rogers_marand_1999]
+- [Rohr and Klein 1990][research_rohr_klein_1990]
+- [Romberg and Kotula 2023][research_romberg_kotula_2023]
+- [Romberg et al 2022][research_romberg_hershey_2022]
+- [Romilly and Clark 2005][research_romilly_clark_2005]
+- [Romilly and Clark 2008][research_romilly_clark_2008]
+- [Rorsted 1999][research_rorsted_1999]
+- [Rose 1991][research_rose_1991]
+- [Rose 1992][research_rose_1992]
+- [Rose 1997][research_rose_1997]
+- [Rose et al 2026][research_rose_wilkins_2026]
+- [Rosenfeld 1971][research_rosenfeld_1971]
+- [Rosenthal 1982][research_rosenthal_1982]
+- [Rosty et al 1982][research_rosty_russell_1982]
+- [Roth et al 1997][research_roth_bodis_1997]
+- [Rotheiser 2009][research_rotheiser_2009]
+- [Roudolff and Gädke 2000][research_roudolff_gadke_2000]
+- [Rouse and Ambur 1996][research_rouse_ambur_1996]
+- [Rouse et al 2006][research_rouse_ambur_2006]
+- [Rousseau and Friedmann 2001][research_rousseau_friedmann_2001]
+- [Roy and Palacio 2000][research_roy_palacio_2000]
+- [Roy et al 1993][research_roy_gacougnolle_1993]
+- [Roy et al 1997][research_roy_mabru_1997]
+- [Royall et al 2018][research_royall_williams_2018]
+- [Roychowdhury et al 1992][research_roychowdhury_gillespie_1992]
+- [Roychowdhury et al 2001][research_roychowdhury_gillespie_2001]
+- [Rozylo 2021][research_rozylo_2021]
+- [Roşu et al 2002][research_rosu_cascaval_2002]
+- [Roşu et al 2004][research_rosu_mititelu_2004]
+- [Rubber compounding ingredients. Process][research_rubber_compounding]
+- [Rubber, raw. Determination of][research_rubber_raw]
+- [Rubber, vulcanized � Determination][research_rubber_vulcanized]
+- [Rudawska 2019][research_rudawska_2019]
+- [Rudawska and Dębski 2015][research_rudawska_debski_2015]
+- [Rudd 2001][research_rudd_2001]
+- [Rudd et al 1990][research_rudd_owen_1990]
+- [Rudd et al 1995][research_rudd_long_1995]
+- [Rudd et al 1997][research_rudd_long_1997]
+- [Rudd et al 1997][research_rudd_long_1997_b]
+- [Rudd et al 1999][research_rudd_turner_1999]
+- [Rufai et al 2020][research_rufai_chandarana_2020]
+- [Ruiz and Trochu 2005][research_ruiz_trochu_2005]
+- [Russell 2018][research_russell_2018]
+- [Russell et al 1991][research_russell_bowers_1991]
+- [Russell et al 2000][research_russell_madhukar_2000]
+- [Russian et al 2021][research_russian_khan_2021]
+- [Russo et al 2019][research_russo_guida_2019]
+- [Russo et al 2021][research_russo_langella_2021]
+- [Rust et al][research_rust_todt]
+- [Rutt et al 2019][research_rutt_lekakou_2019]
+- [Ruzzene 2003][research_ruzzene_2003]
+- [Ryan et al 2023][research_ryan_ridgard_2023]
+- [Rydarowski and Koziol 2014][research_rydarowski_koziol_2014]
+- [Räckers 1998][research_rackers_1998]
+- [Růžek and Běhal 2009][research_ruzek_behal_2009]
+- [S et al 2011][research_s_k_2011]
+- [Saad et al 2011][research_saad_abdelhamid_2011]
+- [Saad et al 2011][research_saad_echchelh_2011]
+- [Saad et al 2015][research_saad_ezz_2015]
+- [Saadat and Cretin 2002][research_saadat_cretin_2002]
+- [Saadat et al][research_saadat_thomas]
+- [Sabat and Palazotto 2013][research_sabat_palazotto_2013]
+- [Sabelkin et al 2006][research_sabelkin_mall_2006]
+- [Sabzevari et al 2011][research_sabzevari_alavisoltani_2011]
+- [Sacco et al 2020][research_sacco_bazradwan_2020]
+- [Sachse et al 2020][research_sachse_pickett_2020]
+- [Sachse et al 2021][research_sachse_pickett_2021]
+- [Sachyani and Dickstein 2020][research_sachyani_dickstein_2020]
+- [Sadeghi et al 2019][research_sadeghi_zimmermann_2019]
+- [Sadighi et al 2021][research_sadighi_azimi_2021]
+- [Sadiq et al 2020][research_sadiq_bakhy_2020]
+- [Sadowski 1988][research_sadowski_1988]
+- [Saenz-Castillo et al 2020][research_saenzcastillo_martin_2020]
+- [Safari et al 2020][research_safari_farahani_2020]
+- [Safarpour et al 2011][research_safarpour_omrani_2011]
+- [Saffar et al 2020][research_saffar_sonnenfeld_2020]
+- [Saffar et al 2022][research_saffar_beauchene_2022]
+- [Sagnard][research_sagnard]
+- [Saha et al 2026][research_saha_scheneman_2026]
+- [Sahoo 2021][research_sahoo_2021]
+- [Sahoo et al 2013][research_sahoo_dattaguru_2013]
+- [Sahoo et al 2017][research_sahoo_gujar_2017]
+- [Sahoo et al 2025][research_sahoo_swain_2025]
+- [Sahraei and Boodaghei 2023][research_sahraei_boodaghei_2023]
+- [Sahu et al 2018][research_sahu_singh_2018]
+- [Said 2026][research_said_2026]
+- [Saikrishna et al 2014][research_saikrishna_srinivas_2014]
+- [Saillard][research_saillard]
+- [Sakaguchi 1975][research_sakaguchi_1975]
+- [Sakinc and E. Smith 2023][research_sakinc_esmith_2023]
+- [Sakka and Mackenzie 1971][research_sakka_mackenzie_1971]
+- [Sakuno 1993][research_sakuno_1993]
+- [Sakurayama et al 2015][research_sakurayama_minakuchi_2015]
+- [Salamon 1981][research_salamon_1981]
+- [Saldana and Martinez-Monteagudo 2013][research_saldana_martinezmonteagudo_2013]
+- [Salem et al 2012][research_salem_elgaraihy_2012]
+- [Saliba and Attard 2018][research_saliba_attard_2018]
+- [Salla et al 1999][research_salla_cadenato_1999]
+- [Salmoria et al 2008][research_salmoria_klauss_2008]
+- [Saltoğlu et al 2016][research_saltoglu_humaira_2016]
+- [Samann 2019][research_samann_2019]
+- [Samantaray et al 2023][research_samantaray_misra_2023]
+- [Samaratunga et al 2021][research_samaratunga_severino_2021]
+- [Samikkannu 2011][research_samikkannu_2011]
+- [Sancaktar and Kumar 1999][research_sancaktar_kumar_1999]
+- [Sandberg et al 2019][research_sandberg_hattel_2019]
+- [Sandberg et al 2021][research_sandberg_yuksel_2021]
+- [Sandler 2026][research_sandler_2026]
+- [Sands et al 2008][research_sands_vaidya_2008]
+- [Sanford and McCullough 1990][research_sanford_mccullough_1990]
+- [Sang-bong 2007][research_sangbong_2007]
+- [Sanjana et al 1981][research_sanjana_schaefer_1981]
+- [Santare, Michael H. and Pipes, R. Byron 1992][research_santaremichaelh_pipesrbyron_1992]
+- [Santoro et al 2020][research_santoro_bellisario_2020]
+- [Santosa 1992][research_santosa_1992]
+- [Sarfaraz 2015][research_sarfaraz_2015]
+- [Sarjeant et al][research_sarjeant_speer]
+- [Sarka 2017][research_sarka_2017]
+- [Sarker and Coates 1997][research_sarker_coates_1997]
+- [Sarojini Narayana et al 2024][research_sarojininarayana_khoun_2024]
+- [Sarthak Mahapatra et al 2021][research_sarthakmahapatra_belnoue_2021]
+- [Satheeshkumar and Ganesh Narayanan 2016][research_satheeshkumar_ganeshnarayanan_2016]
+- [Satheeshkumar and Narayanan 2014][research_satheeshkumar_narayanan_2014]
+- [Sato 2005][research_sato_2005]
+- [Savci et al 2000][research_savci_curiskis_2000]
+- [Sawal and Hazizan 2011][research_sawal_hazizan_2011]
+- [Sawant and Prabhu Gaonkar 2025][research_sawant_prabhugaonkar_2025]
+- [Sawaragi and Nochino 1987][research_sawaragi_nochino_1987]
+- [Sawicki 2004][research_sawicki_2004]
+- [Sayyad et al 2022][research_sayyad_ghugal_2022]
+- [Sałacinski et al 2016][research_salacinski_leski_2016]
+- [Sałaciński et al 2026][research_salacinski_puchala_2026]
+- [Sbirrazzuoli et al 2003][research_sbirrazzuoli_vyazovkin_2003]
+- [Scala and Doyle 1995][research_scala_doyle_1995]
+- [Scanlan et al 2006][research_scanlan_rao_2006]
+- [Scarponi et al 2009][research_scarponi_pizzinelli_2009]
+- [Schechter et al 2018][research_schechter_centea_2018]
+- [Schechter et al 2020][research_schechter_centea_2020]
+- [Scheerer et al 2025][research_scheerer_simon_2025]
+- [Scheirer][research_scheirer]
+- [Schell et al 2007][research_schell_deleglise_2007]
+- [Schenke and Ehlers 2016][research_schenke_ehlers_2016]
+- [Scherer 2008][research_scherer_2008]
+- [Schilling and Mittelstedt 2021][research_schilling_mittelstedt_2021]
+- [Schilling and Mittelstedt 2022][research_schilling_mittelstedt_2022]
+- [Schiraldi et al 1985][research_schiraldi_baldini_1985]
+- [Schlimbach and Ogale 2012][research_schlimbach_ogale_2012]
+- [Schmachtenberg et al 2005][research_schmachtenberg_schultezurheide_2005]
+- [Schmidt and Frazier 2000][research_schmidt_frazier_2000]
+- [Schmidt et al 2000][research_schmidt_ragavan_2000]
+- [Schmueser and Johnson 1990][research_schmueser_johnson_1990]
+- [Schoenholz et al 2022][research_schoenholz_moomaw_2022]
+- [Schoenhoz and Zobeiry 2023][research_schoenhoz_zobeiry_2023]
+- [Schoenwald et al][research_schoenwald_kendig]
+- [Schoeppner et al 1998][research_schoeppner_roy_1998]
+- [Schoeppner et al 2002][research_schoeppner_mollenhauer_2002]
+- [Scholle and Sinapius 2018][research_scholle_sinapius_2018]
+- [Schubbe and Mall 1999][research_schubbe_mall_1999]
+- [Schubbe and Mall 1999][research_schubbe_mall_1999_b]
+- [Schubert 2009][research_schubert_2009]
+- [Schultz, Marc R. et al 2011][research_schultzmarcr_oremontleonard_2011]
+- [Schuster et al 2014][research_schuster_govignon_2014]
+- [Schuster et al 2020][research_schuster_mayer_2020]
+- [Schönborn and Haessner 1985][research_schonborn_haessner_1985]
+- [Sciomenta et al 2024][research_sciomenta_paoletti_2024]
+- [Scott 1966][research_scott_1966]
+- [Scratch hardness as an 1989][research_scratch_hardness_1989]
+- [Sealing Compound, Polysulfide Type][research_sealing_compound]
+- [Sealing Compounds, Quick Repair][research_sealing_compounds]
+- [Sebaey 2022][research_sebaey_2022]
+- [Sebaey and Mahdi 2016][research_sebaey_mahdi_2016]
+- [Sebaey et al 2013][research_sebaey_gonzalez_2013]
+- [Sebaey et al 2021][research_sebaey_bouhrara_2021]
+- [Sebastian 2001][research_sebastian_2001]
+- [Sebastian et al 2019][research_sebastian_obertscheider_2019]
+- [Sebastian et al 2021][research_sebastian_obertscheider_2021]
+- [Sebera et al 2026][research_sebera_praus_2026]
+- [Secondary Bonding 2001][research_secondary_bonding_2001]
+- [Sedalor and Fleming 2020][research_sedalor_fleming_2020]
+- [Seemann 2019][research_seemann_2019]
+- [Seemann 2019][research_seemann_2019_b]
+- [Seemann 2020][research_seemann_2020]
+- [Seferis 2006][research_seferis_2006]
+- [Seferis 2009][research_seferis_2009]
+- [Segal 1988][research_segal_1988]
+- [Segal et al 1990][research_segal_dickstein_1990]
+- [Segreto et al 2019][research_segreto_teti_2019]
+- [Sehdev et al 1995][research_sehdev_fan_1995]
+- [Seidl 1998][research_seidl_1998]
+- [Seifi and Hojjati 2005][research_seifi_hojjati_2005]
+- [Seifried 2001][research_seifried_2001]
+- [Sellitto et al 2019][research_sellitto_riccio_2019]
+- [Sellitto et al 2020][research_sellitto_dicaprio_2020]
+- [Sells and Zhang 2024][research_sells_zhang_2024]
+- [Selvaraj et al 2008][research_selvaraj_radhakrishnan_2008]
+- [Selyugin 2021][research_selyugin_2021]
+- [Sen et al 2020][research_sen_saito_2020]
+- [Seneviratne et al 2015][research_seneviratne_tomblin_2015]
+- [Seneviratne et al 2019][research_seneviratne_saseendran_2019]
+- [Seo and Lim 2005][research_seo_lim_2005]
+- [Seo et al 2004][research_seo_yoon_2004]
+- [Seon et al 2020][research_seon_nikishkov_2020]
+- [Seong et al 2017][research_seong_kim_2017]
+- [Sernek and Kamke 2007][research_sernek_kamke_2007]
+- [Serrano et al 2017][research_serrano_olivier_2017]
+- [Sevkat and Brahimi 2011][research_sevkat_brahimi_2011]
+- [Sfar Zbed][research_sfarzbed]
+- [Shaban 2025][research_shaban_2025]
+- [Shabani et al 2026][research_shabani_li_2026]
+- [Shafaq et al 2024][research_shafaq_donough_2024]
+- [Shah and Clifford 2015][research_shah_clifford_2015]
+- [Shah and Kapania 2019][research_shah_kapania_2019]
+- [Shah and Schubel 2015][research_shah_schubel_2015]
+- [Shah et al 2017][research_shah_halls_2017]
+- [Shahverdi and Vassilopoulos 2015][research_shahverdi_vassilopoulos_2015]
+- [Shahverdi et al 2015][research_shahverdi_vassilopoulos_2015_b]
+- [Shaik et al 2021][research_shaik_ramakrishna_2021]
+- [Shan and Heng 2011][research_shan_heng_2011]
+- [Shang][research_shang]
+- [Shang 2013][research_shang_2013]
+- [Shang 2023][research_shang_2023]
+- [Shanks 2011][research_shanks_2011]
+- [Shannon et al 1993][research_shannon_liaw_1993]
+- [Shanthar et al 2026][research_shanthar_prosser_2026]
+- [Shao et al 2012][research_shao_he_2012]
+- [Sharma 1981][research_sharma_1981]
+- [Shaw et al 2015][research_shaw_dayyani_2015]
+- [Sheahen et al 2000][research_sheahen_schmidt_2000]
+- [Sheinman et al 1988][research_sheinman_frostig_1988]
+- [Sheinman et al 1992][research_sheinman_frostig_1992]
+- [Shembekar et al 2020][research_shembekar_kabir_2020]
+- [Shen and Rutherford 1970][research_shen_rutherford_1970]
+- [Shen and Skordos 2024][research_shen_skordos_2024]
+- [Shen et al 2013][research_shen_kurfess_2013]
+- [Shen et al 2019][research_shen_guo_2019]
+- [Shen et al 2026][research_shen_he_2026]
+- [Sheng et al 2016][research_sheng_yin_2016]
+- [Shepard 2018][research_shepard_2018]
+- [Shepard and Smith 1999][research_shepard_smith_1999]
+- [Shepard et al 1988][research_shepard_day_1988]
+- [Shepard et al 1998][research_shepard_smith_1998]
+- [Sheppard and Senturia 1986][research_sheppard_senturia_1986]
+- [Sheppard et al 1998][research_sheppard_leong_1998]
+- [Sherif El-Gizawy and Kuan 2003][research_sherifelgizawy_kuan_2003]
+- [Sherwin 1999][research_sherwin_1999]
+- [Shesh and Sastry Veluri 2023][research_shesh_sastryveluri_2023]
+- [Sheu and Young 2023][research_sheu_young_2023]
+- [Shevtsov et al 2012][research_shevtsov_zhilyaev_2012]
+- [Shevtsov et al 2017][research_shevtsov_zhilyaev_2017]
+- [Shevtsov et al 2021][research_shevtsov_zhilyaev_2021]
+- [Shevtsov et al 2021][research_shevtsov_zhilyaev_2021_b]
+- [Shi and Wang 2016][research_shi_wang_2016]
+- [Shi et al 2013][research_shi_zhang_2013]
+- [Shi et al 2014][research_shi_li_2014]
+- [Shi et al 2016][research_shi_villegas_2016]
+- [Shi et al 2018][research_shi_chen_2018]
+- [Shi et al 2021][research_shi_wu_2021]
+- [Shi et al 2023][research_shi_wang_2023]
+- [Shi et al 2024][research_shi_wang_2024]
+- [Shibata 2013][research_shibata_2013]
+- [Shibayama 2000][research_shibayama_2000]
+- [Shibayama et al 2005][research_shibayama_ozeki_2005]
+- [Shiino et al 2021][research_shiino_cipo_2021]
+- [Shilun 2014][research_shilun_2014]
+- [Shim and Ahn 2013][research_shim_ahn_2013]
+- [Shim and Seferis 1997][research_shim_seferis_1997]
+- [Shim et al 1991][research_shim_lee_1991]
+- [Shimada et al 2001][research_shimada_miyajima_2001]
+- [Shimamoto et al 2016][research_shimamoto_tominaga_2016]
+- [Shimokawa et al 2007][research_shimokawa_kakuta_2007]
+- [Shimpi and Sawarkar 2026][research_shimpi_sawarkar_2026]
+- [Shin et al 1997][research_shin_kim_1997]
+- [Shin et al 2015][research_shin_hwang_2015]
+- [Shin et al 2023][research_shin_kim_2023]
+- [Shinde et al 2015][research_shinde_kumar_2015]
+- [Shine 2014][research_shine_2014]
+- [Shiue 1991][research_shiue_1991]
+- [Shivajee et al 2019][research_shivajee_singh_2019]
+- [Shnawa 2022][research_shnawa_2022]
+- [Shojaei 2006][research_shojaei_2006]
+- [Shojaei 2006][research_shojaei_2006_b]
+- [Shojiro et al 1997][research_shojiro_tanaka_1997]
+- [Shokrieh and Taheri Behrooz 2001][research_shokrieh_taheribehrooz_2001]
+- [Shokrollahi et al 2020][research_shokrollahi_toghraie_2020]
+- [Shoukroun et al 2021][research_shoukroun_olivo_2021]
+- [Shrestha et al 2022][research_shrestha_enos_2022]
+- [Shroff and Kassapoglou 2014][research_shroff_kassapoglou_2014]
+- [Shrotriya et al 2001][research_shrotriya_sottos_2001]
+- [Shtrauss 2002][research_shtrauss_2002]
+- [Shtrauss et al 1996][research_shtrauss_kalpinsh_1996]
+- [Shu 2004][research_shu_2004]
+- [Shuart 1981][research_shuart_1981]
+- [Shukla et al 2020][research_shukla_salazar_2020]
+- [Shukla, J. G. and Bayha, T. D. 1993][research_shuklajg_bayhatd_1993]
+- [Shuler and Heil 2013][research_shuler_heil_2013]
+- [Shuvo 2019][research_shuvo_2019]
+- [Shyprykevich][research_shyprykevich]
+- [Shyprykevich, P. 1983][research_shyprykevichp_1983]
+- [Shyr and Pan 2004][research_shyr_pan_2004]
+- [Sicot et al 2005][research_sicot_gong_2005]
+- [Siddiqui et al 2013][research_siddiqui_sudher_2013]
+- [Sierakowski 2000][research_sierakowski_2000]
+- [Siggins 2013][research_siggins_2013]
+- [Sihn et al 2003][research_sihn_miyano_2003]
+- [Sikarwar et al 2017][research_sikarwar_velmurugan_2017]
+- [Sikdar and Banerjee 2016][research_sikdar_banerjee_2016]
+- [Sikdar and Banerjee 2016][research_sikdar_banerjee_2016_b]
+- [Sikdar et al 2016][research_sikdar_banerjee_2016_c]
+- [Sikdar et al 2018][research_sikdar_kudela_2018]
+- [Silva et al 2019][research_silva_carneironeto_2019]
+- [Sim et al 2012][research_sim_tan_2012]
+- [Simacek et al 2008][research_simacek_advani_2008]
+- [Simitses 1995][research_simitses_1995]
+- [Simonov-Yemelyanov and Ezdakov 2024][research_simonovyemelyanov_ezdakov_2024]
+- [Simulating liquid moulding 2002][research_simulating_liquid_2002]
+- [Singer 1956][research_singer_1956]
+- [Singh and Schonberg 2005][research_singh_schonberg_2005]
+- [Singh Gill et al 2016][research_singhgill_visotsky_2016]
+- [Singhal et al 2018][research_singhal_sahu_2018]
+- [Sinkler et al 2025][research_sinkler_ravangard_2025]
+- [Sircar and Chartoff 1994][research_sircar_chartoff_1994]
+- [Sirin Karaarslan et al 2015][research_sirinkaraarslan_ozsevik_2015]
+- [Sirtautas et al 2014][research_sirtautas_pickett_2014]
+- [Sittiwaitayaporn][research_sittiwaitayaporn]
+- [Sjølund et al 2019][research_sjolund_peeters_2019]
+- [Skelly 1989][research_skelly_1989]
+- [Skinner and Chattopadhyay 2021][research_skinner_chattopadhyay_2021]
+- [Skordos and Partridge 2000][research_skordos_partridge_2000]
+- [Skordos and Partridge 2007][research_skordos_partridge_2007]
+- [Skordos et al 1999][research_skordos_karkanas_1999]
+- [Skorupa and Skorupa 2012][research_skorupa_skorupa_2012]
+- [Skorupa and Skorupa 2012][research_skorupa_skorupa_2012_b]
+- [Slark and O'kane 1997][research_slark_okane_1997]
+- [Slattery et al 1998][research_slattery_coronabittick_1998]
+- [Smiley et al 1991][research_smiley_chao_1991]
+- [Smillie 1983][research_smillie_1983]
+- [Smith 1968][research_smith_1968]
+- [Smith 2000][research_smith_2000]
+- [Smith 2002][research_smith_2002]
+- [Smith 2004][research_smith_2004]
+- [Smith and Poursartip 1993][research_smith_poursartip_1993]
+- [Smith and Yang 1992][research_smith_yang_1992]
+- [Smith et al 1987][research_smith_cliff_1987]
+- [Smith et al 2016][research_smith_qureshi_2016]
+- [Smith et al 2024][research_smith_pik_2024]
+- [Smith, P. J. et al 1986][research_smithpj_thomsonlw_1986]
+- [Smith, Peter J. et al 1985][research_smithpeterj_wilsonrobertd_1985]
+- [Smotrova 2021][research_smotrova_2021]
+- [Smunt 1999][research_smunt_1999]
+- [Smunt 2000][research_smunt_2000]
+- [Smunt 2011][research_smunt_2011]
+- [Snow and Armistead 1994][research_snow_armistead_1994]
+- [So][research_so]
+- [So and Taube 2004][research_so_taube_2004]
+- [Soahib et al 2007][research_soahib_miao_2007]
+- [Soares et al 2018][research_soares_henriques_2018]
+- [Sobel and Sharp 1994][research_sobel_sharp_1994]
+- [Soderquist 1981][research_soderquist_1981]
+- [Soderquist 1987][research_soderquist_1987]
+- [Sofiyev 2016][research_sofiyev_2016]
+- [Software to engineer composite 2009][research_software_to_2009]
+- [Sohouli et al 2017][research_sohouli_yildiz_2017]
+- [Solid Composite Laminate NDI][research_solid_composite]
+- [Solodov et al 2008][research_solodov_pfleiderer_2008]
+- [Solodov et al 2018][research_solodov_segur_2018]
+- [Soltani et al 2014][research_soltani_le_2014]
+- [Solvay and Airborne receive 2023][research_solvay_and_2023]
+- [Somalwar][research_somalwar]
+- [Somers et al 1991][research_somers_weller_1991]
+- [Somers et al 1992][research_somers_weller_1992]
+- [Somireddy and Czekanski 2020][research_somireddy_czekanski_2020]
+- [Son 1991][research_son_1991]
+- [Song 2006][research_song_2006]
+- [Song and Lim 2001][research_song_lim_2001]
+- [Soohyun et al 2015][research_soohyun_dongyoung_2015]
+- [Soovere 1983][research_soovere_1983]
+- [Soovere 1985][research_soovere_1985]
+- [Sorrentino and Bellini 2015][research_sorrentino_bellini_2015]
+- [Sorrentino and Tersigni 2010][research_sorrentino_tersigni_2010]
+- [Sorrentino et al 2013][research_sorrentino_polini_2013]
+- [Sorrentino et al 2019][research_sorrentino_romano_2019]
+- [Sorrentino et al 2021][research_sorrentino_romano_2021]
+- [Sourour and Kamal 1976][research_sourour_kamal_1976]
+- [Southward et al 2008][research_southward_mallinson_2008]
+- [SP-165 Repair and Strengthening 1996][research_sp_165_repair_1996]
+- [Space environment natural and][research_space_environment]
+- [Spagnoli and Chryssanthopoulos 1999][research_spagnoli_chryssanthopoulos_1999]
+- [Special Design Aspects of 1996][research_special_design_1996]
+- [Specification for Contact-Molded Glass-Fiber-Reinforced][research_specification_for_b]
+- [Specification for Corrosion-Inhibiting Adhesive][research_specification_for_c]
+- [Specification for Filament-Wound Glass-Fiber-Reinforced][research_specification_for]
+- [Specification for Filament-Wound Glass-Fiber-Reinforced 2008][research_specification_for_2008]
+- [Spencer et al 2021][research_spencer_hassen_2021]
+- [Spies 1953][research_spies_1953]
+- [Spini et al 2025][research_spini_marzorati_2025]
+- [Spray metal composite tooling 1982][research_spray_metal_1982]
+- [Spring-in simulation example 2020][research_spring_in_simulation_2020]
+- [Springer 1982][research_springer_1982]
+- [Spurgeon 2005][research_spurgeon_2005]
+- [Sreejith et al 2021][research_sreejith_kannan_2021]
+- [Sreejith et al 2023][research_sreejith_kannan_2023]
+- [Sreekantamurthy, Thammaiah et al 2016][research_sreekantamurthythammaiah_hudsontylerb_2016]
+- [Sreenivasa and Joshi 2013][research_sreenivasa_joshi_2013]
+- [Sreeshan et al 2020][research_sreeshan_dinesh_2020]
+- [Sridharan et al 1992][research_sridharan_zeggane_1992]
+- [St John and George 1992][research_stjohn_george_1992]
+- [Staal et al 2022][research_staal_caglar_2022]
+- [Stahl et al 1984][research_stahl_arena_1984]
+- [Stamatelos and Labeas 2025][research_stamatelos_labeas_2025]
+- [Stamopoulos et al 2015][research_stamopoulos_tserpes_2015]
+- [Standard Atmosphere][research_standard_atmosphere]
+- [Standard Atmosphere 2005][research_standard_atmosphere_2005]
+- [Standard atmosphere 2007][research_standard_atmosphere_2007]
+- [standard atmosphere 2014][research_standard_atmosphere_2014]
+- [Standard Atmosphere 2023][research_standard_atmosphere_2023]
+- [Standard Atmosphere 2024][research_standard_atmosphere_2024]
+- [Standard atmosphere chart 1927][research_standard_atmosphere_1927]
+- [Standard atmosphere chart supersedes 1927][research_standard_atmosphere_1927_b]
+- [Standard Atmosphere Data 2013][research_standard_atmosphere_2013]
+- [standard atmosphere for preconditioning 2021][research_standard_atmosphere_2021]
+- [standard atmosphere for testing 2021][research_standard_atmosphere_2021_b]
+- [Standard Practice for Glass][research_standard_practice]
+- [Standard Test Method for][research_standard_test]
+- [Staniszewski et al 2012][research_staniszewski_bogetti_2012]
+- [Stark et al 2013][research_stark_jaunich_2013]
+- [Stark et al 2013][research_stark_jaunich_2013_b]
+- [Starr and Starr 1998][research_starr_starr_1998]
+- [Starr and Starr 1998][research_starr_starr_1998_b]
+- [Steen 1989][research_steen_1989]
+- [Stein 1988][research_stein_1988]
+- [Steiner and Sandor 1991][research_steiner_sandor_1991]
+- [Steiner and Sandor 1992][research_steiner_sandor_1992]
+- [Steinmetz 2025][research_steinmetz_2025]
+- [Steinmetz 2025][research_steinmetz_2025_b]
+- [Steinmetz 2025][research_steinmetz_2025_c]
+- [Steinmetz 2025][research_steinmetz_2025_d]
+- [Steinmetz 2025][research_steinmetz_2025_e]
+- [Steinmetz 2025][research_steinmetz_2025_f]
+- [Steinzig and Broetto 2014][research_steinzig_broetto_2014]
+- [Stenberg 1988][research_stenberg_1988]
+- [Stevens et al 1995][research_stevens_ricci_1995]
+- [Stiftinger et al 1995][research_stiftinger_skrnajakl_1995]
+- [Stinson 2006][research_stinson_2006]
+- [Stocchi et al 2014][research_stocchi_colabella_2014]
+- [Stone 1978][research_stone_1978]
+- [Strasser et al 2024][research_strasser_moukhina_2024]
+- [Stratton 1998][research_stratton_1998]
+- [Strength Analysis of Welded 2021][research_strength_analysis_2021]
+- [Strength of Adhesive-Bonded Lap 2002][research_strength_of_adhesive_bonded_2002]
+- [Strength, Calculation and Testing 2008][research_strength_calculation_2008]
+- [Stresses in adhesive-bonded joints 1975][research_stresses_in_1975]
+- [Strizhius 2014][research_strizhius_2014]
+- [Strizhius 2016][research_strizhius_2016]
+- [Strizhius 2020][research_strizhius_2020]
+- [Stroe et al 2025][research_stroe_crunteanu_2025]
+- [Strong 2026][research_strong_2026]
+- [Structural adhesives. Guidelines for][research_structural_adhesives]
+- [Structural Reliability Analysis of the Advanced Composite Cargo Aircraft][research_acca_reliability]
+- [Struzziero et al 2020][research_struzziero_nardi_2020]
+- [Study of micromechanical properties 1968][research_study_of_1968]
+- [Sturm et al 2014][research_sturm_klett_2014]
+- [Sturtevant 1980][research_sturtevant_1980]
+- [Stutz and Mertes 1989][research_stutz_mertes_1989]
+- [Stutz and Mertes 1993][research_stutz_mertes_1993]
+- [Stutzmann 1987][research_stutzmann_1987]
+- [Su and Gao 2014][research_su_gao_2014]
+- [Su and Woo 1995][research_su_woo_1995]
+- [Su et al 1995][research_su_kuo_1995]
+- [Su et al 1999][research_su_mai_1999]
+- [Su et al 2014][research_su_yang_2014]
+- [Suarez, J. and Dastin, S. 1992][research_suarezj_dastins_1992]
+- [Subawi 2011][research_subawi_2011]
+- [Sue and Whitcomb 2008][research_sue_whitcomb_2008]
+- [Suemasu et al 2021][research_suemasu_aoki_2021]
+- [Suemasu et al 2023][research_suemasu_aoki_2023]
+- [Sugiman and Crocombe 2012][research_sugiman_crocombe_2012]
+- [Suh and Lee 2004][research_suh_lee_2004]
+- [Suh et al 2003][research_suh_han_2003]
+- [Sukia et al 2022][research_sukia_esnaola_2022]
+- [Sulaiman et al 2012][research_sulaiman_ortiz_2012]
+- [Sulaiman et al 2013][research_sulaiman_heil_2013]
+- [Sullivan][research_sullivan]
+- [Sullivan and Davis 1979][research_sullivan_davis_1979]
+- [Summers][research_summers]
+- [Summerscales 1993][research_summerscales_1993]
+- [Summerscales and Searle 2005][research_summerscales_searle_2005]
+- [Sun][research_sun]
+- [Sun 2003][research_sun_2003]
+- [Sun 2026][research_sun_2026]
+- [Sun and Huang 2016][research_sun_huang_2016]
+- [Sun and Mao 1993][research_sun_mao_1993]
+- [Sun and Zhang 2020][research_sun_zhang_2020]
+- [Sun et al 2013][research_sun_li_2013]
+- [Sun et al 2014][research_sun_liu_2014]
+- [Sun et al 2015][research_sun_pugno_2015]
+- [Sun et al 2017][research_sun_han_2017]
+- [Sun et al 2021][research_sun_han_2021]
+- [Sun et al 2024][research_sun_zhao_2024]
+- [Sun et al 2025][research_sun_cheng_2025]
+- [Sun et al 2025][research_sun_zhao_2025]
+- [Surface Preparation and Priming][research_surface_preparation]
+- [Surface Preparation for Painting 2001][research_surface_preparation_2001]
+- [Surface Preparation for Structural][research_surface_preparation_b]
+- [Surface preparation of boron 1972][research_surface_preparation_1972]
+- [Surface Preparation Techniques for 2013][research_surface_preparation_2013]
+- [Surjoseputro et al 2018][research_surjoseputro_blumel_2018]
+- [Surjoseputro et al 2018][research_surjoseputro_blumel_2018_b]
+- [Susott 1982][research_susott_1982]
+- [Sussmann et al 2018][research_sussmann_amirkhosravi_2018]
+- [Sutherland et al 2017][research_sutherland_amado_2017]
+- [Sutin 2000][research_sutin_2000]
+- [Suwanpakpraek et al 2019][research_suwanpakpraek_patamaprohm_2019]
+- [Suzuki et al 2013][research_suzuki_matsuzaki_2013]
+- [Suárez et al 2016][research_suarez_townsend_2016]
+- [Swamy et al 2021][research_swamy_manjunath_2021]
+- [Swamy et al 2023][research_swamy_grouve_2023]
+- [Swamy et al 2023][research_swamy_wijskamp_2023]
+- [Swamy et al 2024][research_swamy_grouve_2024]
+- [Swan et al 2021][research_swan_creighton_2021]
+- [Swanson and Toombes 1989][research_swanson_toombes_1989]
+- [Swarin and Wims 1977][research_swarin_wims_1977]
+- [Sweeney][research_sweeney]
+- [Swiderski and Vavilov 2015][research_swiderski_vavilov_2015]
+- [Swingle et al 2022][research_swingle_harik_2022]
+- [Syensqo expands its bio-based 2024][research_syensqo_expands_2024]
+- [Szeptyński 2025][research_szeptynski_2025]
+- [Szépe 1966][research_szepe_1966]
+- [Sánchez Serrano et al 2015][research_sanchezserrano_urena_2015]
+- [Sørensen and Lund 2015][research_sorensen_lund_2015]
+- [Sørensen et al 2014][research_sorensen_sorensen_2014]
+- [T. M 2025][research_tm_2025]
+- [Tadlaoui et al 1994][research_tadlaoui_granger_1994]
+- [Tafreshi 2006][research_tafreshi_2006]
+- [Tagle et al 1984][research_tagle_daz_1984]
+- [Taha and Alnahhal 2021][research_taha_alnahhal_2021]
+- [Taha et al 2020][research_taha_alnahhal_2020]
+- [Taheri and Hassen 2019][research_taheri_hassen_2019]
+- [Taheri et al 2013][research_taheri_shadlou_2013]
+- [Tahir et al 2024][research_tahir_allsop_2024]
+- [Tai et al 2023][research_tai_zhou_2023]
+- [Taig 1972][research_taig_1972]
+- [Takagaki et al 2013][research_takagaki_minakuchi_2013]
+- [Takagaki et al 2016][research_takagaki_hisada_2016]
+- [Takamizawa et al 2022][research_takamizawa_hirokane_2022]
+- [Takeda et al 2007][research_takeda_aoki_2007]
+- [Takemura and Sugiura 2019][research_takemura_sugiura_2019]
+- [Takezawa et al 2022][research_takezawa_guo_2022]
+- [Taki and Kitagawa 1995][research_taki_kitagawa_1995]
+- [Talbot 2004][research_talbot_2004]
+- [Talezadehlari and Rahimi 2016][research_talezadehlari_rahimi_2016]
+- [Talreja and Phan 2019][research_talreja_phan_2019]
+- [Tan 1992][research_tan_1992]
+- [Tan and Akil 2012][research_tan_akil_2012]
+- [Tan et al 2013][research_tan_ahmad_2013]
+- [Tan et al 2022][research_tan_mills_2022]
+- [Tanabe et al 2017][research_tanabe_nakata_2017]
+- [Tang 1989][research_tang_1989]
+- [Tang and Postle 2000][research_tang_postle_2000]
+- [Tang et al 1987][research_tang_lee_1987]
+- [Tang et al 2022][research_tang_wang_2022]
+- [Tanulia et al 2022][research_tanulia_wang_2022]
+- [Tanzer, H. J. 1982][research_tanzerhj_1982]
+- [Tao et al 2020][research_tao_li_2020]
+- [Tarasov et al 2015][research_tarasov_shevtsov_2015]
+- [Tatar et al 2018][research_tatar_torrence_2018]
+- [Tauhiduzzaman and Carlsson 2020][research_tauhiduzzaman_carlsson_2020]
+- [Tay et al 2019][research_tay_flores_2019]
+- [Tedlapu and Gerini-Romagnoli 2024][research_tedlapu_geriniromagnoli_2024]
+- [Teil et al 2004][research_teil_page_2004]
+- [Teimouri and Li 2024][research_teimouri_li_2024]
+- [Teller et al 1990][research_teller_diercks_1990]
+- [TenCate to supply prepreg 2015][research_tencate_to_2015]
+- [Teng et al 2014][research_teng_lou_2014]
+- [Teoh and Hsiao 2011][research_teoh_hsiao_2011]
+- [Teplinsky and Gutman 1996][research_teplinsky_gutman_1996]
+- [Terasaki et al 2024][research_terasaki_fujio_2024]
+- [Terry 2000][research_terry_2000]
+- [Test Method for Adhesive-Bonded][research_test_method_l]
+- [Test Method for Assignment][research_test_method_j]
+- [Test Method for Bond][research_test_method_m]
+- [Test Method for Carbon][research_test_method_d]
+- [Test Method for Constituent][research_test_method_b]
+- [Test Method for Constituent 2008][research_test_method_2008_b]
+- [Test Method for Determination][research_test_method_e]
+- [Test Method for Flexural][research_test_method_k]
+- [Test Method for Gel][research_test_method_f]
+- [Test Method for Gel 1900][research_test_method_1900_c]
+- [Test Method for Matrix][research_test_method_c]
+- [Test Method for Matrix 1900][research_test_method_1900]
+- [Test Method for Purity][research_test_method_h]
+- [Test Method for Resin][research_test_method_g]
+- [Test Method for Resin 1900][research_test_method_1900_b]
+- [Test Method for Static][research_test_method_n]
+- [Test Method for the][research_test_method_i]
+- [Test Method for Volatiles][research_test_method]
+- [Test Method for Volatiles 2008][research_test_method_2008]
+- [Test Methods and Design 1989][research_test_methods_1989]
+- [Test Methods for Assignment][research_test_methods_c]
+- [Test Methods for Constituent][research_test_methods]
+- [Test Methods for Constituent][research_test_methods_b]
+- [Test Methods for the][research_test_methods_d]
+- [Test methods for the][research_test_methods_e]
+- [Testing adhesive bonded structural 1971][research_testing_adhesive_1971]
+- [Tetteh et al 2023][research_tetteh_mensah_2023]
+- [Tezel et al 2021][research_tezel_sarmah_2021]
+- [Thanikasalam and Ramamoorthy 2024][research_thanikasalam_ramamoorthy_2024]
+- [The Application of Computer 1994][research_the_application_1994]
+- [The Effect of the 1987][research_the_effect_1987]
+- [The Flight Environment Standard 2021][research_the_flight_2021]
+- [The Handbook of Differential 2023][research_the_handbook_2023]
+- [The International Standard Atmosphere 2017][research_the_international_2017]
+- [The international standard atmosphere 2026][research_the_international_2026]
+- [The Learning Curve 2011][research_the_learning_2011]
+- [The modelling of pressure 1988][research_the_modelling_1988]
+- [The Standard Atmosphere 1964][research_the_standard_1964]
+- [The Standard Atmosphere 1976][research_the_standard_1976]
+- [The transverse coefficient of 1992][research_the_transverse_1992]
+- [The use of finite 1996][research_the_use_1996]
+- [Thermal Diffusivity and Coefficient 2014][research_thermal_diffusivity_2014]
+- [Thermal models for MTM45-1 and Cycom 5320 out-of-autoclave prepreg resins][research_kratz_thermal_models]
+- [Thermal residual stress in 1987][research_thermal_residual_1987]
+- [Thermoset announces new fast 2003][research_thermoset_announces_2003]
+- [Thermoset resin demand to 1995][research_thermoset_resin_1995]
+- [Thermoset resin impregnated web 1983][research_thermoset_resin_1983]
+- [Thermoset Resin Stoichiometry Calculations 2016][research_thermoset_resin_2016]
+- [Thermoset Resins - A][research_thermoset_resins]
+- [Thermosetting resin and prepreg 1991][research_thermosetting_resin_1991]
+- [Thiede-Smet and Wadsworth 1998][research_thiedesmet_wadsworth_1998]
+- [Third European Conference on 1980][research_third_european_1980]
+- [Thirunavukarasu and Sikarwar 2024][research_thirunavukarasu_sikarwar_2024]
+- [Thirunavukkarasu 2021][research_thirunavukkarasu_2021]
+- [Thomas][research_thomas]
+- [Thomas and Antony 2003][research_thomas_antony_2003]
+- [Thomas and Nutt 2009][research_thomas_nutt_2009]
+- [Thomas et al][research_thomas_kardos]
+- [Thomas et al 1997][research_thomas_joseph_1997]
+- [Thomson and Scott 2000][research_thomson_scott_2000]
+- [Thostenson and Chou 2001][research_thostenson_chou_2001]
+- [Thrall 1977][research_thrall_1977]
+- [Through-Life Damage Detection and 2016][research_through_life_damage_2016]
+- [Thuresson and Abelin 1987][research_thuresson_abelin_1987]
+- [Tian][research_tian]
+- [Tierney et al 2021][research_tierney_higgins_2021]
+- [Tifkitsis and Skordos 2019][research_tifkitsis_skordos_2019]
+- [Tifkitsis et al 2023][research_tifkitsis_winistoerfer_2023]
+- [Tihansky 1976][research_tihansky_1976]
+- [Timmerman et al 2003][research_timmerman_hayes_2003]
+- [Timms et al 2012][research_timms_bickerton_2012]
+- [Tirkel 2013][research_tirkel_2013]
+- [Tirovolis and Serghides 2005][research_tirovolis_serghides_2005]
+- [Titomanlio et al 1984][research_titomanlio_piccarolo_1984]
+- [Tittmann 1975][research_tittmann_1975]
+- [Tittmann 2018][research_tittmann_2018]
+- [Tittmann and Crane 2000][research_tittmann_crane_2000]
+- [Tittmann et al 1986][research_tittmann_hosten_1986]
+- [Tlija et al 2018][research_tlija_letaief_2018]
+- [Tobin et al 2024][research_tobin_kumarbandaru_2024]
+- [Toda 2022][research_toda_2022]
+- [Todd and Challis 1999][research_todd_challis_1999]
+- [Todoroki and Sekishiro 2007][research_todoroki_sekishiro_2007]
+- [Todoroki and Sekishiro 2008][research_todoroki_sekishiro_2008]
+- [Todoroki and Sekishiro 2008][research_todoroki_sekishiro_2008_b]
+- [Toffol and Ricci 2023][research_toffol_ricci_2023]
+- [Tokucoglu et al 2022][research_tokucoglu_chen_2022]
+- [Tollens and Lee 1993][research_tollens_lee_1993]
+- [Tolstikov and Pykhalov 2021][research_tolstikov_pykhalov_2021]
+- [Tomioka and Kakiage 1996][research_tomioka_kakiage_1996]
+- [Tong and Appleby-Hougham 1986][research_tong_applebyhougham_1986]
+- [Tong and Steven 1996][research_tong_steven_1996]
+- [Tong et al 1994][research_tong_sheppard_1994]
+- [Tong et al 1997][research_tong_zhu_1997]
+- [Tong et al 2003][research_tong_spelt_2003]
+- [Tong et al 2022][research_tong_hua_2022]
+- [Tool board 'new approach' 2015][research_tool_board_2015]
+- [Tooling study Epoxy prepreg 2014][research_tooling_study_2014]
+- [Toor 1973][research_toor_1973]
+- [Toratani and Takamizawa 1994][research_toratani_takamizawa_1994]
+- [Torrelli and Paroissien 2020][research_torrelli_paroissien_2020]
+- [Torres 2019][research_torres_2019]
+- [Torres et al 2019][research_torres_piedra_2019]
+- [Torres et al 2022][research_torres_sket_2022]
+- [Torres et al 2022][research_torres_sket_2022_b]
+- [Torres López][research_torreslopez]
+- [Toughened thermoset resin matrix 2015][research_toughened_thermoset_2015]
+- [Toutanji and Ortiz 2001][research_toutanji_ortiz_2001]
+- [Towill 1977][research_towill_1977]
+- [Towill 1985][research_towill_1985]
+- [Toyama et al 2017][research_toyama_yamamoto_2017]
+- [Toyoda et al 2024][research_toyoda_lorin_2024]
+- [Tracy 2009][research_tracy_2009]
+- [Tracy 2011][research_tracy_2011]
+- [Tracy and Totaro 1992][research_tracy_totaro_1992]
+- [Training Guidance for Solid][research_training_guidance]
+- [Trends in thermoset resin 1993][research_trends_in_1993]
+- [Trenton et al 2021][research_trenton_abiel_2021]
+- [Triollet et al 2011][research_triollet_robert_2011]
+- [Tripathy and Rao 1991][research_tripathy_rao_1991]
+- [Tripathy and Rao 1993][research_tripathy_rao_1993]
+- [Trochez et al 2021][research_trochez_jamora_2021]
+- [Truong][research_truong]
+- [Tsai et al 1999][research_tsai_alper_1999]
+- [Tsaprailis and Liang 2017][research_tsaprailis_liang_2017]
+- [Tsaprailis et al 2023][research_tsaprailis_rao_2023]
+- [Tserpes et al 2014][research_tserpes_karachalios_2014]
+- [Tsotsis 2013][research_tsotsis_2013]
+- [Tsuchiya 1990][research_tsuchiya_1990]
+- [Tsuchiya 2004][research_tsuchiya_2004]
+- [Tsujimoto et al 2016][research_tsujimoto_barkmeier_2016]
+- [Tsujimoto et al 2022][research_tsujimoto_fischer_2022]
+- [Tubular autoclave for curing 1992][research_tubular_autoclave_1992]
+- [Tucci et al 2024][research_tucci_esperto_2024]
+- [Tungare et al 1988][research_tungare_martin_1988]
+- [Turan 2026][research_turan_2026]
+- [Turns and Kraige][research_turns_kraige]
+- [Turturro et al 2020][research_turturro_caputo_2020]
+- [Tuttle 1987][research_tuttle_1987]
+- [Tuvayanond and Prasittisopin 2023][research_tuvayanond_prasittisopin_2023]
+- [Tuvayanond and Prasittisopin 2023][research_tuvayanond_prasittisopin_2023_b]
+- [Twerdowski et al 2006][research_twerdowski_vonbuttlar_2006]
+- [Tyahla and Storr 1988][research_tyahla_storr_1988]
+- [Tye 1994][research_tye_1994]
+- [Tyler B. Hudson et al][research_tylerbhudson_kennethmserrano]
+- [Tyler et al 2009][research_tyler_brady_2009]
+- [Türk et al 2019][research_turk_ruegg_2019]
+- [Tříska et al 2023][research_triska_hnidka_2023]
+- [U.S. standard atmosphere supplements 1966][research_u_s_standard_1966]
+- [Ucar and Dizman 2026][research_ucar_dizman_2026]
+- [Udd 2004][research_udd_2004]
+- [Udd et al 2003][research_udd_kreger_2003]
+- [Ukraintsev 1998][research_ukraintsev_1998]
+- [Ulker and Haddad Derafshi 2020][research_ulker_haddadderafshi_2020]
+- [Ullah et al 2024][research_ullah_waseem_2024]
+- [Ultra-low-temperature cure for MDF 2022][research_ultra_low_temperature_cure_2022]
+- [Ultrasonic Inspection][research_ultrasonic_inspection]
+- [Ultrasonic Inspection 2013][research_ultrasonic_inspection_2013]
+- [Ultrasonic inspection devices Ultrasonic 1971][research_ultrasonic_inspection_1971_b]
+- [Ultrasonic inspection of a 1971][research_ultrasonic_inspection_1971]
+- [Ultrasonic inspection of a 1972][research_ultrasonic_inspection_1972]
+- [Ultrasonic inspection of composite 1985][research_ultrasonic_inspection_1985]
+- [Ultrasonic inspection of graphite 1994][research_ultrasonic_inspection_1994]
+- [Ultrasonic inspection of graphite 1994][research_ultrasonic_inspection_1994_b]
+- [Ultrasonic inspection of impact 1994][research_ultrasonic_inspection_1994_c]
+- [Ultrasonic Nondestructive Evaluation for 2003][research_ultrasonic_nondestructive_2003]
+- [Ultrasonic probes Ultrasonic inspection 1971][research_ultrasonic_probes_1971]
+- [Ultrasonic probes Ultrasonic inspection 1972][research_ultrasonic_probes_1972]
+- [Ultrasonic study of adhesive 1994][research_ultrasonic_study_1994]
+- [Ultrasonic system for in 1990][research_ultrasonic_system_1990]
+- [Ultrasonic system for in 1994][research_ultrasonic_system_1994]
+- [Ultrasonic testing of adhesive 1966][research_ultrasonic_testing_1966]
+- [Um et al 2002][research_um_daniel_2002]
+- [Um et al 2002][research_um_lee_2002]
+- [Um et al 2009][research_um_byun_2009]
+- [Umer et al 2007][research_umer_bickerton_2007]
+- [Umer et al 2007][research_umer_bickerton_2007_b]
+- [Umer et al 2008][research_umer_bickerton_2008]
+- [Umezawa and Aoki 2015][research_umezawa_aoki_2015]
+- [Ungar 1975][research_ungar_1975]
+- [Ungarish et al 1990][research_ungarish_joseph_1990]
+- [Unidirectional Carbon Fiber Tape][research_unidirectional_carbon]
+- [Unidirectional Carbon Fiber Tape][research_unidirectional_carbon_b]
+- [Unidirectional Carbon Fiber Tape][research_unidirectional_carbon_c]
+- [Unidirectional Carbon Fiber Tape][research_unidirectional_carbon_d]
+- [Unidirectional Carbon Fiber Tape][research_unidirectional_carbon_e]
+- [Unidirectional Carbon Fiber Tape][research_unidirectional_carbon_f]
+- [Unitary vacuum bag for 1996][research_unitary_vacuum_1996]
+- [Unknown 1986][research_unknown_1986]
+- [Unwin 2002][research_unwin_2002]
+- [Unwin 2004][research_unwin_2004]
+- [Uozumi et al 2005][research_uozumi_kito_2005]
+- [Upper Atmosphere Re-Entry Study 1961][research_upper_atmosphere_1961]
+- [Urbaczewski et al 1990][research_urbaczewski_pascault_1990]
+- [Urbaniak 2011][research_urbaniak_2011]
+- [Urbaniak 2018][research_urbaniak_2018]
+- [Urbaniak and Grudzinski 2007][research_urbaniak_grudzinski_2007]
+- [Urbaniak and Grudzinski 2007][research_urbaniak_grudzinski_2007_b]
+- [US Standard Atmosphere Model 2014][research_us_standard_2014]
+- [Using the Learning Curve 2010][research_using_the_2010]
+- [Utham et al 2025][research_utham_watts_2025]
+- [Uysal 2016][research_uysal_2016]
+- [V and K Maharana 2022][research_v_kmaharana_2022]
+- [V. Mohan et al 1998][research_vmohan_tamma_1998]
+- [Vacher et al 2004][research_vacher_molimard_2004]
+- [Vafayan et al 2013][research_vafayan_abedini_2013]
+- [Valverde et al 2022][research_valverde_sun_2022]
+- [Van Assche et al 1995][research_vanassche_vanhemelrijck_1995]
+- [Van Assche et al 1996][research_vanassche_vanhemelrijck_1996]
+- [Van Assche et al 1997][research_vanassche_vanhemelrijck_1997]
+- [Van Assche et al 2000][research_vanassche_verdonck_2000]
+- [van den Nieuwenhuizen and Miller 1994][research_vandennieuwenhuizen_miller_1994]
+- [van der Werff et al 2025][research_vanderwerff_heisserer_2025]
+- [Van Dijk et al 1992][research_vandijk_eleveld_1992]
+- [van Harten 1993][research_vanharten_1993]
+- [van Hattum et al 2011][research_vanhattum_regel_2011]
+- [Van Hoa et al 2016][research_vanhoa_duchoang_2016]
+- [van Mechelen 2017][research_vanmechelen_2017]
+- [Van Melick et al 1998][research_vanmelick_haagh_1998]
+- [Van Otterloo][research_vanotterloo]
+- [van Tooren et al 2004][research_vantooren_gleich_2004]
+- [Vangerko 1988][research_vangerko_1988]
+- [Vanzijl et al 1994][research_vanzijl_sukumar_1994]
+- [Vargas-Rojas et al 2014][research_vargasrojas_camarenaarellano_2014]
+- [Variable temperature prepreg 2020][research_variable_temperature_2020]
+- [Varley et al 1996][research_varley_hodgkin_1996]
+- [Varshitha et al 2026][research_varshitha_rayanam_2026]
+- [Vary and Bowles 1979][research_vary_bowles_1979]
+- [Vasconcellos Birro][research_vasconcellosbirro]
+- [Vasconcelos and Chosie 2013][research_vasconcelos_chosie_2013]
+- [Vasconcelos and Leite 2011][research_vasconcelos_leite_2011]
+- [Vasconcelos et al 2011][research_vasconcelos_wright_2011]
+- [Vassilopoulos 2015][research_vassilopoulos_2015]
+- [Vassilopoulos 2015][research_vassilopoulos_2015_b]
+- [Vassilopoulos and Keller 2015][research_vassilopoulos_keller_2015]
+- [Vassilopoulos et al 2015][research_vassilopoulos_shahverdi_2015]
+- [Vasudevan][research_vasudevan]
+- [Vaughan 2003][research_vaughan_2003]
+- [Vaxman et al 2011][research_vaxman_narkis_2011]
+- [Venkatachari et al 2015][research_venkatachari_natarajan_2015]
+- [Venkatesan et al 2023][research_venkatesan_zulkifli_2023]
+- [Verchere et al 1990][research_verchere_sautereau_1990]
+- [Vergnaud and Bouzon 1992][research_vergnaud_bouzon_1992]
+- [Vergnaud and Bouzon 1992][research_vergnaud_bouzon_1992_b]
+- [Vergnaud and Bouzon 1992][research_vergnaud_bouzon_1992_c]
+- [Vergnaud and Bouzon 1992][research_vergnaud_bouzon_1992_d]
+- [Verheus and Peeters 1993][research_verheus_peeters_1993]
+- [Verhoeven 2005][research_verhoeven_2005]
+- [Vermes and Czigany 2022][research_vermes_czigany_2022]
+- [Vermeulen and van Tooren 2007][research_vermeulen_vantooren_2007]
+- [Vermilyea 1988][research_vermilyea_1988]
+- [Vernigora et al 2020][research_vernigora_sypchenko_2020]
+- [Vernigora et al 2020][research_vernigora_sypchenko_2020_b]
+- [Verrey et al 2006][research_verrey_michaud_2006]
+- [Vescovini and Bisagni 2018][research_vescovini_bisagni_2018]
+- [Vickers, John H. and Pelham, Larry I. 1993][research_vickersjohnh_pelhamlarryi_1993]
+- [Viehman and Schweizer 2008][research_viehman_schweizer_2008]
+- [Vijay and Durvasula 1998][research_vijay_durvasula_1998]
+- [Vijaya Kumar et al 2013][research_vijayakumar_bhat_2013]
+- [Villacarlos and Pulutan 2020][research_villacarlos_pulutan_2020]
+- [Villareal et al 2019][research_villareal_harden_2019]
+- [Villière et al 2015][research_villiere_gueroult_2015]
+- [Vincent 2009][research_vincent_2009]
+- [Vinnik and Roznyatovsky 2003][research_vinnik_roznyatovsky_2003]
+- [Vinnik and Roznyatovsky 2006][research_vinnik_roznyatovsky_2006]
+- [Vinogradov et al 1995][research_vinogradov_golovkin_1995]
+- [Vinson 1978][research_vinson_1978]
+- [Vinson 1981][research_vinson_1981]
+- [Vistein et al 2019][research_vistein_deden_2019]
+- [Viswanathau et al 1973][research_viswanathau_soong_1973]
+- [Vitali and Sankar 1999][research_vitali_sankar_1999]
+- [Vivian Silveira et al 2025][research_viviansilveira_canhotoalves_2025]
+- [Vlassopoulos et al 1998][research_vlassopoulos_chira_1998]
+- [Vo et al 2013][research_vo_vora_2013]
+- [Vo et al 2019][research_vo_poulsen_2019]
+- [Vo et al 2022][research_vo_pucci_2022]
+- [Vogel 1978][research_vogel_1978]
+- [Vogel 1978][research_vogel_1978_b]
+- [Vogl et al 2024][research_vogl_knott_2024]
+- [Von Jamora et al][research_vonjamora_chaunceywu]
+- [Vora et al 1996][research_vora_trivedi_1996]
+- [Vora et al 2014][research_vora_vo_2014]
+- [Voto et al 2021][research_voto_sequeira_2021]
+- [Voß and Vallée 2023][research_voss_vallee_2023]
+- [Vroon and van Hoorn 2023][research_vroon_vanhoorn_2023]
+- [Vu-Khanh and Denault 1991][research_vukhanh_denault_1991]
+- [Vyazovkin and Sbirrazzuoli 1996][research_vyazovkin_sbirrazzuoli_1996]
+- [Vázquez-Torres 2014][research_vazqueztorres_2014]
+- [Völkerink and Hühne 2022][research_volkerink_huhne_2022]
+- [Wadsworth 1998][research_wadsworth_1998]
+- [Waenawae et al 2016][research_waenawae_pumkrachang_2016]
+- [Wagih et al 2022][research_wagih_hashem_2022]
+- [Wake 1979][research_wake_1979]
+- [Walbran et al 2009][research_walbran_bickerton_2009]
+- [Walbran et al 2012][research_walbran_bickerton_2012]
+- [Walbran et al 2012][research_walbran_verleye_2012]
+- [Waller et al 2022][research_waller_bakis_2022]
+- [Walls and Crawford 1995][research_walls_crawford_1995]
+- [Walrath and Adams 1980][research_walrath_adams_1980]
+- [Walser and Ranjan 2016][research_walser_ranjan_2016]
+- [Walter et al 2026][research_walter_beausoleil_2026]
+- [Walter et al 2026][research_walter_scherdel_2026]
+- [Wang][research_wang]
+- [Wang 1964][research_wang_1964]
+- [Wang 2005][research_wang_2005]
+- [Wang 2022][research_wang_2022]
+- [Wang 2025][research_wang_2025]
+- [Wang and Abdalla 2015][research_wang_abdalla_2015]
+- [Wang and Abdalla 2016][research_wang_abdalla_2016]
+- [Wang and Duong 2016][research_wang_duong_2016]
+- [Wang and Duong 2016][research_wang_duong_2016_b]
+- [Wang and Ediger 2000][research_wang_ediger_2000]
+- [Wang and Gao 2016][research_wang_gao_2016]
+- [Wang and Hsu 2009][research_wang_hsu_2009]
+- [Wang and Huang 2021][research_wang_huang_2021]
+- [Wang and Kwag 2006][research_wang_kwag_2006]
+- [Wang and Qiao 2021][research_wang_qiao_2021]
+- [Wang and Song 2022][research_wang_song_2022]
+- [Wang and Spier][research_wang_spier]
+- [Wang and Storm 2003][research_wang_storm_2003]
+- [Wang and Vasconcelos 2018][research_wang_vasconcelos_2018]
+- [Wang et al 1992][research_wang_daniel_1992]
+- [Wang et al 1993][research_wang_matlock_1993]
+- [Wang et al 1997][research_wang_he_1997]
+- [Wang et al 1997][research_wang_hwang_1997]
+- [Wang et al 1998][research_wang_banbury_1998]
+- [Wang et al 1998][research_wang_day_1998]
+- [Wang et al 2006][research_wang_poe_2006]
+- [Wang et al 2008][research_wang_grove_2008]
+- [Wang et al 2010][research_wang_guo_2010]
+- [Wang et al 2011][research_wang_zhang_2011]
+- [Wang et al 2016][research_wang_bai_2016]
+- [Wang et al 2016][research_wang_guan_2016]
+- [Wang et al 2016][research_wang_ji_2016]
+- [Wang et al 2016][research_wang_li_2016]
+- [Wang et al 2017][research_wang_abdalla_2017]
+- [Wang et al 2017][research_wang_dou_2017]
+- [Wang et al 2018][research_wang_huang_2018]
+- [Wang et al 2018][research_wang_zhu_2018]
+- [Wang et al 2019][research_wang_liu_2019]
+- [Wang et al 2020][research_wang_li_2020]
+- [Wang et al 2020][research_wang_liang_2020]
+- [Wang et al 2020][research_wang_segura_2020]
+- [Wang et al 2020][research_wang_wang_2020]
+- [Wang et al 2021][research_wang_niu_2021]
+- [Wang et al 2022][research_wang_chen_2022]
+- [Wang et al 2022][research_wang_he_2022]
+- [Wang et al 2022][research_wang_liu_2022]
+- [Wang et al 2022][research_wang_yazdaninezhad_2022]
+- [Wang et al 2022][research_wang_zhang_2022]
+- [Wang et al 2023][research_wang_fan_2023]
+- [Wang et al 2023][research_wang_luo_2023]
+- [Wang et al 2023][research_wang_xu_2023]
+- [Wang et al 2024][research_wang_lai_2024]
+- [Wang et al 2024][research_wang_timofte_2024]
+- [Wang et al 2024][research_wang_xu_2024]
+- [Wang et al 2024][research_wang_zhang_2024]
+- [Wang et al 2025][research_wang_hu_2025]
+- [Wang et al 2025][research_wang_xu_2025]
+- [Wang et al 2026][research_wang_ning_2026]
+- [Wang et al 2026][research_wang_ren_2026]
+- [Wang et al 2026][research_wang_sun_2026]
+- [Wang et al 2026][research_wang_xie_2026]
+- [Wang et al 2026][research_wang_zhang_2026]
+- [Wang, John T. et al 1996][research_wangjohnt_jegleydawnc_1996]
+- [Ward 1974][research_ward_1974]
+- [Ward 2026][research_ward_2026]
+- [Ward et al 1984][research_ward_sheridan_1984]
+- [Warda et al 2019][research_warda_wahba_2019]
+- [Warman 1996][research_warman_1996]
+- [Warner 1960][research_warner_1960]
+- [Warrior et al 2001][research_warrior_wilson_2001]
+- [Wasim and Oliveira 2022][research_wasim_oliveira_2022]
+- [Watson 1980][research_watson_1980]
+- [Watson 1981][research_watson_1981]
+- [Watson 1982][research_watson_1982]
+- [Wazalwar and Raichur 2021][research_wazalwar_raichur_2021]
+- [Weathering Tests on Epoxy-Bonded 1996][research_weathering_tests_1996]
+- [Weber et al 2019][research_weber_englhard_2019]
+- [Weber et al 2022][research_weber_middendorf_2022]
+- [Weber et al 2023][research_weber_voelkle_2023]
+- [Weber et al 2023][research_weber_voelkle_2023_b]
+- [Weckner et al 2020][research_weckner_cuenca_2020]
+- [Weeks 2001][research_weeks_2001]
+- [Wegman and Mitchell 1992][research_wegman_mitchell_1992]
+- [Wehbe et al 2019][research_wehbe_tatting_2019]
+- [Wehbe et al 2020][research_wehbe_tatting_2020]
+- [Wei and Egbelu 2000][research_wei_egbelu_2000]
+- [Wei et al 2022][research_wei_fu_2022]
+- [Weiland et al 2019][research_weiland_debruyne_2019]
+- [Weissberg and Baruch 1981][research_weissberg_baruch_1981]
+- [Weitsman 1985][research_weitsman_1985]
+- [Welch and Eden 1989][research_welch_eden_1989]
+- [Wen et al][research_wen_long]
+- [Wen et al 2018][research_wen_yue_2018]
+- [Wen et al 2019][research_wen_yue_2019]
+- [Wendler and Frazier 1995][research_wendler_frazier_1995]
+- [Wendler and Frazier 1996][research_wendler_frazier_1996]
+- [Westerdahl and Hall 1973][research_westerdahl_hall_1973]
+- [Westergaard 2005][research_westergaard_2005]
+- [Wetton et al 1990][research_wetton_foster_1990]
+- [Whinery et al 1971][research_whinery_clayton_1971]
+- [Whisnant 1992][research_whisnant_1992]
+- [White and Hahn 1990][research_white_hahn_1990]
+- [White and Hahn 1992][research_white_hahn_1992]
+- [White and Hahn 1993][research_white_hahn_1993]
+- [Whitehead and Deo 1983][research_whitehead_deo_1983]
+- [Whitehead, R. S. 1991][research_whiteheadrs_1991]
+- [Whiting and Carr 1979][research_whiting_carr_1979]
+- [Whittingham et al 2006][research_whittingham_li_2006]
+- [Whittingham et al 2009][research_whittingham_baker_2009]
+- [Why do Aircraft Cost][research_why_do]
+- [Why do aircraft cost 1999][research_why_do_1999]
+- [Wiacek 1991][research_wiacek_1991]
+- [Wicke and Pohya 2018][research_wicke_pohya_2018]
+- [Widanage and Kim 2024][research_widanage_kim_2024]
+- [Wiedemann et al 2025][research_wiedemann_pittsyk_2025]
+- [Wikswo 2000][research_wikswo_2000]
+- [Wilkins, D. J. 1983][research_wilkinsdj_1983]
+- [Wilkinson and Ruggles-Wrenn 2016][research_wilkinson_ruggleswrenn_2016]
+- [Wilkinson and Ruggles-Wrenn 2016][research_wilkinson_ruggleswrenn_2016_b]
+- [Willard 1972][research_willard_1972]
+- [Willden, Kurtis et al 1992][research_willdenkurtis_metschans_1992]
+- [Williams 1981][research_williams_1981]
+- [Williams 1981][research_williams_1981_b]
+- [Williams 1981][research_williams_1981_c]
+- [Williams 1981][research_williams_1981_d]
+- [Williams 1981][research_williams_1981_e]
+- [Williams 1981][research_williams_1981_f]
+- [Williams 2022][research_williams_2022]
+- [Williams and Ambler][research_williams_ambler]
+- [Williams et al 1984][research_williams_borrajo_1984]
+- [Williams et al 1987][research_williams_donnellan_1987]
+- [Wilson 1984][research_wilson_1984]
+- [Wilson and Charles 1981][research_wilson_charles_1981]
+- [Wilson et al 2016][research_wilson_currens_2016]
+- [Wingard and Beatty 1990][research_wingard_beatty_1990]
+- [Winter 2017][research_winter_2017]
+- [Wiranto et al 2024][research_wiranto_saraswati_2024]
+- [Wisanrakkit and Gillham 1990][research_wisanrakkit_gillham_1990]
+- [Wise 2000][research_wise_2000]
+- [Wit 2001][research_wit_2001]
+- [Witman and Wang 2006][research_witman_wang_2006]
+- [Wodesenbet et al 2003][research_wodesenbet_kidane_2003]
+- [Woerdeman et al 1997][research_woerdeman_spoerre_1997]
+- [Woigk et al 2018][research_woigk_hallett_2018]
+- [Wojtczak and Rucka 2022][research_wojtczak_rucka_2022]
+- [Wolff 1987][research_wolff_1987]
+- [Wolfrum et al 2004][research_wolfrum_stang_2004]
+- [Wollmann et al 2008][research_wollmann_bernhard_2008]
+- [Womer and Marcotte 1986][research_womer_marcotte_1986]
+- [Wong][research_wong]
+- [Wong 2017][research_wong_2017]
+- [Wong 2020][research_wong_2020]
+- [Wong et al 1992][research_wong_imam_1992]
+- [Wong et al 2025][research_wong_wang_2025]
+- [Wongwiwat et al 1991][research_wongwiwat_rizzo_1991]
+- [Woo and Ditto 1985][research_woo_ditto_1985]
+- [Woodmansee 1992][research_woodmansee_1992]
+- [Woodson et al 1995][research_woodson_johnson_1995]
+- [Woodson et al 1996][research_woodson_johnson_1996]
+- [Wright et al 2022][research_wright_darville_2022]
+- [Wright et al 2023][research_wright_kelly_2023]
+- [Wright et al 2026][research_wright_maclaren_2026]
+- [Wu 2017][research_wu_2017]
+- [Wu 2017][research_wu_2017_b]
+- [Wu and Baur 2024][research_wu_baur_2024]
+- [Wu and Xu 2025][research_wu_xu_2025]
+- [Wu and Young 2022][research_wu_young_2022]
+- [Wu and Young 2022][research_wu_young_2022_b]
+- [Wu and Young 2022][research_wu_young_2022_c]
+- [Wu and Young 2024][research_wu_young_2024]
+- [Wu and Zhang 1991][research_wu_zhang_1991]
+- [Wu et al][research_wu_hualu]
+- [Wu et al 2001][research_wu_zhang_2001]
+- [Wu et al 2010][research_wu_fakcharoenphol_2010]
+- [Wu et al 2013][research_wu_liu_2013]
+- [Wu et al 2014][research_wu_huang_2014]
+- [Wu et al 2015][research_wu_zhou_2015]
+- [Wu et al 2016][research_wu_zhan_2016]
+- [Wu et al 2020][research_wu_larsson_2020]
+- [Wu et al 2023][research_wu_hu_2023]
+- [Wu et al 2023][research_wu_liu_2023]
+- [Wu et al 2023][research_wu_sadhukhan_2023]
+- [Wu et al 2024][research_wu_qiu_2024]
+- [Wu et al 2025][research_wu_wei_2025]
+- [Wu et al 2026][research_wu_tan_2026]
+- [Wymer and Engel 1994][research_wymer_engel_1994]
+- [Xia-Shi 1987][research_xiashi_1987]
+- [Xianfei et al 2017][research_xianfei_yunwen_2017]
+- [Xiang 2017][research_xiang_2017]
+- [Xiang et al 2010][research_xiang_zhao_2010]
+- [Xiao et al 2018][research_xiao_shen_2018]
+- [Xiao et al 2020][research_xiao_howden_2020]
+- [Xiao et al 2025][research_xiao_qu_2025]
+- [Xiao-jing et al 2013][research_xiaojing_chunpeng_2013]
+- [Xiaojun Wang and Chung 1997][research_xiaojunwang_chung_1997]
+- [Xie et al 2004][research_xie_liu_2004]
+- [Xie et al 2009][research_xie_zhang_2009]
+- [Xie et al 2016][research_xie_liu_2016]
+- [Xie et al 2020][research_xie_huang_2020]
+- [Xin et al 2010][research_xin_gu_2010]
+- [Xin et al 2011][research_xin_li_2011]
+- [Xiong 1995][research_xiong_1995]
+- [Xu 2009][research_xu_2009]
+- [Xu 2026][research_xu_2026]
+- [Xu and Schlup 1996][research_xu_schlup_1996]
+- [Xu and Schlup 1998][research_xu_schlup_1998]
+- [Xu and Xie 2025][research_xu_xie_2025]
+- [Xu et al 2003][research_xu_bao_2003]
+- [Xu et al 2014][research_xu_yue_2014]
+- [Xu et al 2015][research_xu_yu_2015]
+- [Xu et al 2020][research_xu_chen_2020]
+- [Xu et al 2021][research_xu_tian_2021]
+- [Xu et al 2022][research_xu_zhou_2022]
+- [Xu et al 2023][research_xu_ramani_2023]
+- [Xu et al 2024][research_xu_liu_2024]
+- [Xu et al 2024][research_xu_zhang_2024]
+- [Xu et al 2026][research_xu_li_2026]
+- [Xu et al 2026][research_xu_wang_2026]
+- [Xu Xinsheng et al 2006][research_xuxinsheng_fangshuiliang_2006]
+- [Xuan][research_xuan]
+- [Xue and Zhang 2014][research_xue_zhang_2014]
+- [Xue et al 2011][research_xue_wang_2011]
+- [Xue et al 2014][research_xue_ding_2014]
+- [Yachin 1981][research_yachin_1981]
+- [Yachin 1981][research_yachin_1981_b]
+- [Yachin 1981][research_yachin_1981_c]
+- [Yachin 1981][research_yachin_1981_d]
+- [Yachin 1981][research_yachin_1981_e]
+- [Yachin 1981][research_yachin_1981_f]
+- [Yachin 1981][research_yachin_1981_g]
+- [Yachin 1981][research_yachin_1981_h]
+- [Yadav et al 2020][research_yadav_kumar_2020]
+- [Yamada and Kobayashi 2017][research_yamada_kobayashi_2017]
+- [Yamaguchi and Amano 1980][research_yamaguchi_amano_1980]
+- [Yamakawa et al 1976][research_yamakawa_yamamoto_1976]
+- [Yamamoto et al 2016][research_yamamoto_hayama_2016]
+- [Yamanaka et al 2023][research_yamanaka_matsubara_2023]
+- [Yamashina and Mizuyama 1997][research_yamashina_mizuyama_1997]
+- [Yamashita et al 2011][research_yamashita_kien_2011]
+- [Yamashita et al 2013][research_yamashita_kenmotsu_2013]
+- [Yamini et al 2019][research_yamini_shakeri_2019]
+- [Yan][research_yan]
+- [Yan 2006][research_yan_2006]
+- [Yan and Lin 2017][research_yan_lin_2017]
+- [Yan et al 2023][research_yan_jiang_2023]
+- [Yan et al 2025][research_yan_matveev_2025]
+- [Yanen and Solmaz 2022][research_yanen_solmaz_2022]
+- [Yang][research_yang]
+- [Yang 2025][research_yang_2025]
+- [Yang and Ren 2024][research_yang_ren_2024]
+- [Yang and Yang 2022][research_yang_yang_2022]
+- [Yang and Yang 2023][research_yang_yang_2023]
+- [Yang and Yang 2024][research_yang_yang_2024]
+- [Yang and Zhao 2018][research_yang_zhao_2018]
+- [Yang et al 2009][research_yang_hsieh_2009]
+- [Yang et al 2011][research_yang_xiao_2011]
+- [Yang et al 2013][research_yang_gao_2013]
+- [Yang et al 2014][research_yang_chiesura_2014]
+- [Yang et al 2018][research_yang_liu_2018]
+- [Yang et al 2018][research_yang_xie_2018]
+- [Yang et al 2019][research_yang_silva_2019]
+- [Yang et al 2019][research_yang_wang_2019]
+- [Yang et al 2019][research_yang_wang_2019_b]
+- [yang et al 2021][research_yang_bao_2021]
+- [Yang et al 2021][research_yang_bao_2021_b]
+- [Yang et al 2021][research_yang_plovie_2021]
+- [Yang et al 2023][research_yang_cao_2023]
+- [Yang et al 2023][research_yang_zhao_2023]
+- [Yang et al 2024][research_yang_huang_2024]
+- [Yang et al 2024][research_yang_liu_2024]
+- [Yang et al 2024][research_yang_zhipeng_2024]
+- [Yangyang et al 2020][research_yangyang_pyi_2020]
+- [Yao and Wei][research_yao_wei]
+- [Yao et al 2021][research_yao_xu_2021]
+- [Yarlagadda 2012][research_yarlagadda_2012]
+- [Yas and Hojjati 2026][research_yas_hojjati_2026]
+- [Yasa and Ersoy 2018][research_yasa_ersoy_2018]
+- [Yashiro et al 2016][research_yashiro_wada_2016]
+- [Yassene et al 2017][research_yassene_fares_2017]
+- [Yasuoka 2021][research_yasuoka_2021]
+- [Yau et al 2024][research_yau_ocholi_2024]
+- [Yazid et al 2024][research_yazid_ginting_2024]
+- [Yazıcı et al 2013][research_yazici_deniz_2013]
+- [Ye et al 2009][research_ye_zhang_2009]
+- [Ye et al 2019][research_ye_yan_2019]
+- [Yeager et al 2015][research_yeager_simacek_2015]
+- [Yee et al 1975][research_yee_kunselman_1975]
+- [Yee et al 1995][research_yee_groleau_1995]
+- [Yi and Hilton 1998][research_yi_hilton_1998]
+- [Yi and Lam 2012][research_yi_lam_2012]
+- [Yi et al 1995][research_yi_hilton_1995]
+- [Yi et al 1996][research_yi_hilton_1996]
+- [Yi et al 2005][research_yi_liang_2005]
+- [Yi et al 2023][research_yi_werrel_2023]
+- [Yildirim-Manav et al 2025][research_yildirimmanav_yaziciakbiyik_2025]
+- [Yilmazoglu and Hanzlik 2025][research_yilmazoglu_hanzlik_2025]
+- [Yin 2012][research_yin_2012]
+- [Yin and Hou 2019][research_yin_hou_2019]
+- [Yingzhao et al 2026][research_yingzhao_mengni_2026]
+- [Yohanes and Idris 2021][research_yohanes_idris_2021]
+- [Yokozeki et al 2015][research_yokozeki_ishibashi_2015]
+- [Yolken and Matzkanin 2001][research_yolken_matzkanin_2001]
+- [Yoneyama et al 2025][research_yoneyama_iizuka_2025]
+- [Yoo and Hajela 2000][research_yoo_hajela_2000]
+- [Yoo et al 2025][research_yoo_vinot_2025]
+- [Yoon and Kim 2001][research_yoon_kim_2001]
+- [Yoon et al 2000][research_yoon_lee_2000]
+- [Yoon et al 2004][research_yoon_chung_2004]
+- [Yoon et al 2019][research_yoon_kim_2019]
+- [Yoozbashizadeh et al 2018][research_yoozbashizadeh_barjasteh_2018]
+- [You et al 2024][research_you_wang_2024]
+- [Youker and Harris-Ezell 2007][research_youker_harrisezell_2007]
+- [Young 1995][research_young_1995]
+- [Young 1995][research_young_1995_b]
+- [Young 1996][research_young_1996]
+- [Young and Wang 2002][research_young_wang_2002]
+- [Young et al 2022][research_young_yu_2022]
+- [Younossi et al 2001][research_younossi_kennedy_2001]
+- [Yousefi et al 1997][research_yousefi_lafleur_1997]
+- [Yu and Xue 2016][research_yu_xue_2016]
+- [Yu et al 2005][research_yu_mhaisalkar_2005]
+- [Yu et al 2006][research_yu_mhaisalkar_2006]
+- [Yu et al 2016][research_yu_feng_2016]
+- [Yu et al 2016][research_yu_han_2016]
+- [Yu et al 2020][research_yu_zhang_2020]
+- [Yu et al 2022][research_yu_wang_2022]
+- [Yu et al 2024][research_yu_an_2024]
+- [Yuan 1993][research_yuan_1993]
+- [Yuan and Chen 2012][research_yuan_chen_2012]
+- [Yuan et al 2008][research_yuan_li_2008]
+- [Yuan et al 2014][research_yuan_han_2014]
+- [Yuan et al 2016][research_yuan_wang_2016]
+- [Yuan et al 2018][research_yuan_sun_2018]
+- [Yuan et al 2021][research_yuan_kong_2021]
+- [Yuan et al 2021][research_yuan_yang_2021]
+- [Yuan et al 2024][research_yuan_wei_2024]
+- [Yue and Shi 2018][research_yue_shi_2018]
+- [Yue et al 2018][research_yue_wen_2018]
+- [Yue et al 2022][research_yue_xu_2022]
+- [Yue et al 2025][research_yue_li_2025]
+- [Yun et al 2024][research_yun_zhao_2024]
+- [Yun et al 2026][research_yun_xu_2026]
+- [Yuritsyn 2019][research_yuritsyn_2019]
+- [Yuritsyn 2020][research_yuritsyn_2020]
+- [Yurov V.M. 2019][research_yurovvm_2019]
+- [Yılmaz and Jasiūnienė 2020][research_yilmaz_jasiuniene_2020]
+- [Yılmaz and Çelik 2026][research_yilmaz_celik_2026]
+- [Zabeu][research_zabeu]
+- [Zacherl et al 2024][research_zacherl_fontes_2024]
+- [Zade and Kuppusamy 2019][research_zade_kuppusamy_2019]
+- [Zade and Kuppusamy 2020][research_zade_kuppusamy_2020]
+- [Zade and Kuppusamy 2021][research_zade_kuppusamy_2021]
+- [Zade et al 2021][research_zade_shyamprasad_2021]
+- [Zade et al 2023][research_zade_neogi_2023]
+- [Zahran and Abdelwahab 2019][research_zahran_abdelwahab_2019]
+- [Zaini et al 2018][research_zaini_azaman_2018]
+- [Zakki and Windyandari 2023][research_zakki_windyandari_2023]
+- [Zalameda and Smith 1994][research_zalameda_smith_1994]
+- [Zalameda et al 2017][research_zalameda_bolduc_2017]
+- [Zaloom and Miller 1982][research_zaloom_miller_1982]
+- [Zang et al 2024][research_zang_liu_2024]
+- [Zappino et al 2024][research_zappino_petrolo_2024]
+- [Zarei et al 2026][research_zarei_delavari_2026]
+- [Zarrelli et al 2006][research_zarrelli_partridge_2006]
+- [Zellouf et al 2001][research_zellouf_goyette_2001]
+- [Zemer 1960][research_zemer_1960]
+- [Zeng and Raghavan 2010][research_zeng_raghavan_2010]
+- [Zeng et al 2010][research_zeng_sun_2010]
+- [Zeng et al 2016][research_zeng_schubel_2016]
+- [Zeng et al 2023][research_zeng_leng_2023]
+- [Zeng et al 2025][research_zeng_gui_2025]
+- [Zenker and Schön 2019][research_zenker_schon_2019]
+- [zero pressure altitude 2014][research_zero_pressure_2014]
+- [Zervos et al 2024][research_zervos_syriopoulos_2024]
+- [Zevincent Queenata et al 2025][research_zevincentqueenata_imadewiragunarsa_2025]
+- [Zhai et al 2025][research_zhai_lyu_2025]
+- [Zhang and Huang 2021][research_zhang_huang_2021]
+- [Zhang and Taheri 2003][research_zhang_taheri_2003]
+- [Zhang and Vairavarnoorthy 2006][research_zhang_vairavarnoorthy_2006]
+- [Zhang and Vyazovkin 2007][research_zhang_vyazovkin_2007]
+- [Zhang et al 1999][research_zhang_wang_1999]
+- [Zhang et al 2000][research_zhang_wu_2000]
+- [Zhang et al 2007][research_zhang_li_2007]
+- [Zhang et al 2010][research_zhang_fu_2010]
+- [Zhang et al 2010][research_zhang_xu_2010]
+- [Zhang et al 2011][research_zhang_hongkepan_2011]
+- [Zhang et al 2012][research_zhang_dong_2012]
+- [Zhang et al 2015][research_zhang_ding_2015]
+- [Zhang et al 2015][research_zhang_sun_2015]
+- [Zhang et al 2016][research_zhang_liu_2016]
+- [Zhang et al 2016][research_zhang_yin_2016]
+- [Zhang et al 2017][research_zhang_borigo_2017]
+- [Zhang et al 2017][research_zhang_chen_2017]
+- [Zhang et al 2017][research_zhang_ge_2017]
+- [Zhang et al 2017][research_zhang_heider_2017]
+- [Zhang et al 2017][research_zhang_heider_2017_b]
+- [Zhang et al 2017][research_zhang_xu_2017]
+- [Zhang et al 2018][research_zhang_chang_2018]
+- [Zhang et al 2018][research_zhang_wang_2018]
+- [Zhang et al 2019][research_zhang_wang_2019]
+- [Zhang et al 2019][research_zhang_wang_2019_b]
+- [Zhang et al 2019][research_zhang_yang_2019]
+- [Zhang et al 2020][research_zhang_heider_2020]
+- [Zhang et al 2020][research_zhang_li_2020]
+- [Zhang et al 2020][research_zhang_liu_2020]
+- [Zhang et al 2020][research_zhang_xu_2020]
+- [Zhang et al 2020][research_zhang_zhang_2020]
+- [Zhang et al 2021][research_zhang_an_2021]
+- [Zhang et al 2021][research_zhang_xu_2021]
+- [Zhang et al 2022][research_zhang_peng_2022]
+- [Zhang et al 2022][research_zhang_xu_2022]
+- [Zhang et al 2022][research_zhang_xu_2022_b]
+- [Zhang et al 2023][research_zhang_lin_2023]
+- [Zhang et al 2023][research_zhang_xu_2023]
+- [Zhang et al 2024][research_zhang_liu_2024]
+- [Zhang et al 2024][research_zhang_qu_2024]
+- [Zhang et al 2024][research_zhang_xu_2024]
+- [Zhang et al 2025][research_zhang_cheng_2025]
+- [Zhang et al 2025][research_zhang_li_2025]
+- [Zhang et al 2025][research_zhang_li_2025_b]
+- [Zhang et al 2026][research_zhang_prabha_2026]
+- [Zhang et al 2026][research_zhang_shang_2026]
+- [Zhang et al 2026][research_zhang_wan_2026]
+- [Zhang et al 2026][research_zhang_wang_2026]
+- [Zhang et al 2026][research_zhang_ye_2026]
+- [Zhao and Guo 2014][research_zhao_guo_2014]
+- [Zhao and Hu 2010][research_zhao_hu_2010]
+- [Zhao and Kapania 2016][research_zhao_kapania_2016]
+- [Zhao and Kapania 2016][research_zhao_kapania_2016_b]
+- [Zhao et al 2001][research_zhao_cordovez_2001]
+- [Zhao et al 2011][research_zhao_lu_2011]
+- [Zhao et al 2013][research_zhao_qin_2013]
+- [Zhao et al 2016][research_zhao_xiao_2016]
+- [Zhao et al 2020][research_zhao_wang_2020]
+- [Zhao et al 2020][research_zhao_zhang_2020]
+- [Zhao et al 2021][research_zhao_donough_2021]
+- [Zhao et al 2021][research_zhao_rodgers_2021]
+- [Zhao et al 2023][research_zhao_donough_2023]
+- [Zhao et al 2024][research_zhao_lin_2024]
+- [Zhao et al 2025][research_zhao_jiang_2025]
+- [Zhao et al 2025][research_zhao_wu_2025]
+- [Zhao et al 2025][research_zhao_yan_2025]
+- [Zhao Xiaojia et al 2014][research_zhaoxiaojia_urdumassoud_2014]
+- [Zheleznov and Ser'eznov 2021][research_zheleznov_sereznov_2021]
+- [Zhen et al 2023][research_zhen_wang_2023]
+- [Zheng et al 2010][research_zheng_zhao_2010]
+- [Zhiying et al 2024][research_zhiying_feifei_2024]
+- [Zhong and Guo 1998][research_zhong_guo_1998]
+- [Zhong and Nsengiyumva 2022][research_zhong_nsengiyumva_2022]
+- [Zhong and Nsengiyumva 2022][research_zhong_nsengiyumva_2022_b]
+- [Zhong and Nsengiyumva 2022][research_zhong_nsengiyumva_2022_c]
+- [Zhong and Nsengiyumva 2022][research_zhong_nsengiyumva_2022_d]
+- [Zhou and Davies 1994][research_zhou_davies_1994]
+- [Zhou and Sancaktar][research_zhou_sancaktar]
+- [Zhou et al 2011][research_zhou_yin_2011]
+- [Zhou et al 2013][research_zhou_li_2013]
+- [Zhou et al 2014][research_zhou_xu_2014]
+- [Zhou et al 2015][research_zhou_xu_2015]
+- [Zhou et al 2022][research_zhou_enos_2022]
+- [Zhou et al 2024][research_zhou_zhu_2024]
+- [Zhu and Chai 2013][research_zhu_chai_2013]
+- [Zhu et al 2015][research_zhu_cai_2015]
+- [Zhu et al 2015][research_zhu_yan_2015]
+- [Zhu et al 2015][research_zhu_yan_2015_b]
+- [Zhu et al 2019][research_zhu_wang_2019]
+- [Zhu et al 2019][research_zhu_wang_2019_b]
+- [Zhu et al 2022][research_zhu_droste_2022]
+- [Zhu et al 2023][research_zhu_liu_2023]
+- [Zhu et al 2025][research_zhu_yang_2025]
+- [Zhu et al 2026][research_zhu_yang_2026]
+- [Zhu et al 2026][research_zhu_zhou_2026]
+- [Zhuang et al 2022][research_zhuang_chaurasia_2022]
+- [Zimmermann and Rolfes 2006][research_zimmermann_rolfes_2006]
+- [Zimmermann et al 2006][research_zimmermann_klein_2006]
+- [Zingraff et al 2005][research_zingraff_michaud_2005]
+- [Zok et al 2010][research_zok_fleck_2010]
+- [Zorko 2025][research_zorko_2025]
+- [Zou et al 2012][research_zou_mou_2012]
+- [Zou et al 2025][research_zou_jia_2025]
+- [Zou et al 2026][research_zou_yang_2026]
+- [Zoughi and Ganchev 1995][research_zoughi_ganchev_1995]
+- [Zu et al 2017][research_zu_zhou_2017]
+- [Zu et al 2024][research_zu_luo_2024]
+- [Zukas 1994][research_zukas_1994]
+- [Zukas and Wentworth 1987][research_zukas_wentworth_1987]
+- [Zukas et al 1982][research_zukas_macknight_1982]
+- [Zumbo et al 2021][research_zumbo_bevacqua_2021]
+- [Zvetkov et al 2008][research_zvetkov_krastev_2008]
+- [°C cure epoxy tooling 2020][research_c_cure_2020]
+- [°F Autoclave Cure, Low][research_f_autoclave]
+- [Çalmaşur et al 2021][research_calmasur_dastan_2021]
+- [Çalık and Akpinar 2023][research_calik_akpinar_2023]
+- [Çiçek et al 2016][research_cicek_erdal_2016]
+- [Çınar and Ersoy 2015][research_cinar_ersoy_2015]
+- [Ömeroğlu et al 2025][research_omeroglu_cam_2025]
+- [Öz et al 2025][research_oz_uz_2025]
+- [Özer 2018][research_ozer_2018]
+- [Šedková et al 2022][research_sedkova_vlk_2022]
+- [﻿Fabrication of Glass Fiber-Reinforced 2023][research_fabrication_of_2023]
+
+[research_3d_cad_2001]: https://doi.org/10.1108/aeat.2001.12773aab.025
+[research_a_fiber_1998]: https://doi.org/10.1016/s0963-8695(98)90433-9
+[research_a_k_2013]: https://doi.org/10.5772/51882
+[research_a_look_2004]: https://doi.org/10.1201/9781482295085-47
+[research_a_model_1982]: https://doi.org/10.1016/0010-4361(82)90088-x
+[research_a_preliminary_1970]: https://doi.org/10.2514/6.1970-870
+[research_a_properties_2006]: https://doi.org/10.1002/9780470117859.app1
+[research_a_real_time_1990]: https://doi.org/10.1016/0308-9126(90)91680-r
+[research_a_real_time_1994]: https://doi.org/10.1016/0963-8695(94)90723-4
+[research_aabdulrazak_jsaleh_2016]: https://doi.org/10.30684/etj.34.9a.2
+[research_aaboud_saouab_2017]: https://doi.org/10.1177/0021998317697481
+[research_abali_zecchini_2021]: https://doi.org/10.3390/ma14143853
+[research_abbasi_jannesari_2023]: https://doi.org/10.1016/j.tca.2023.179472
+[research_abbasi_peerzada_2023]: https://doi.org/10.1016/b978-0-323-98337-2.00014-6
+[research_abbott_1989]: https://doi.org/10.4271/892210
+[research_abdellatif_2009]: https://doi.org/10.1007/978-90-481-2669-9_10
+[research_abdelwahab_2015]: https://doi.org/10.1016/b978-0-85709-806-1.00011-2
+[research_abdi_surdenas_2009]: https://doi.org/10.1007/978-0-387-95924-5_6
+[research_abdullah_2015]: https://doi.org/10.52763/pjsir.phys.sci.58.2.2015.99.105
+[research_abitz_pety_2024]: https://doi.org/10.33599/nasampe/c.24.0239
+[research_abouhamzeh_sinke_2014]: https://doi.org/10.1177/0021998314539776
+[research_abouhamzeh_sinke_2015]: https://doi.org/10.1016/j.compstruct.2015.07.098
+[research_abraham_mcilhagger_1998]: https://doi.org/10.1016/s1359-835x(98)00048-7
+[research_abraham_prasad_1969]: https://doi.org/10.1147/rd.134.0343
+[research_abrahamsen_faltinsen_2011]: https://doi.org/10.1063/1.3638612
+[research_abramovich_2008]: https://doi.org/10.1142/9781848162303_0001
+[research_abramovich_bisagni_2007]: https://doi.org/10.2514/6.2007-2126
+[research_abramovich_weller_2006]: https://doi.org/10.1016/j.compstruct.2005.11.045
+[research_abramovich_weller_2009]: https://doi.org/10.2140/jomms.2009.4.1187
+[research_abramovich_weller_2010]: https://doi.org/10.1142/s0219455410003750
+[research_abrate_2001]: https://doi.org/10.1016/s0263-8223(01)00018-6
+[research_acca_first_flight]: https://doi.org/10.1016/s0034-3617(09)70228-0
+[research_acca_reliability]: https://doi.org/10.2514/6.2013-1684
+[research_acceptance_criteria]: https://doi.org/10.4271/ams3920a
+[research_accurate_bond_line_2010]: https://doi.org/10.1108/ssmt.2010.21922dad.002
+[research_achilias_karabela_2012]: https://doi.org/10.1080/10601325.2012.696995
+[research_ackermann_carosella_2021]: https://doi.org/10.1002/app.51664
+[research_acosta_esteves_2023]: https://doi.org/10.3390/ma16186237
+[research_acoustographic_nondestructive_1990]: https://doi.org/10.1016/0308-9126(90)91684-l
+[research_action_goyal_2022]: https://doi.org/10.2514/6.2022-0105
+[research_adali_1995]: https://doi.org/10.1007/978-94-011-1228-4_10
+[research_adams_1974]: https://doi.org/10.2514/3.44411
+[research_adams_1987]: https://doi.org/10.1007/978-94-009-3419-1_3
+[research_adams_goldfarb_1982]: https://doi.org/10.21236/ada118945
+[research_adams_gupta_1986]: https://doi.org/10.21236/ada177995
+[research_adams_monib_1980]: https://doi.org/10.1007/978-1-4684-1033-4_49
+[research_adefemi_2015]: https://doi.org/10.11648/j.am.20150405.11
+[research_adhesive_bonded_1955]: https://doi.org/10.1016/0016-0032(55)90833-4
+[research_adhesive_bonded_fabrics_2021]: https://doi.org/10.5040/9781501365072.126
+[research_adhesive_bonded_metal_faced]: https://doi.org/10.4271/ams3920
+[research_adhesive_bonded_sculpture_1972]: https://doi.org/10.1016/0010-4361(72)90455-7
+[research_adhesive_film]: https://doi.org/10.4271/ams3695
+[research_adhesive_forces_2008]: https://doi.org/10.1002/9783527626458.ch6
+[research_adhesively_bonded_nutplate_1990]: https://doi.org/10.1016/0261-3069(90)90069-v
+[research_adhesives_for]: https://doi.org/10.3403/01337162u
+[research_aditya_babu_2020]: https://doi.org/10.1063/1.5141564
+[research_adriana_2013]: https://doi.org/10.5772/53822
+[research_advanced_composite_1992]: https://doi.org/10.1016/0034-3617(92)90053-f
+[research_advanced_composite_wing_1981]: https://doi.org/10.1016/0010-4361(81)90022-7
+[research_advanced_composites]: https://doi.org/10.4271/ams3960
+[research_advanced_composites_b]: https://doi.org/10.4271/ams3915
+[research_advanced_composites_c]: https://doi.org/10.4271/ams3914a
+[research_advanced_composites_d]: https://doi.org/10.4271/ams3914b
+[research_advances_in_2020]: https://doi.org/10.1007/978-3-030-31065-3
+[research_aerospace_series]: https://doi.org/10.3403/30359645u
+[research_afromowitz_lam_1989]: https://doi.org/10.1007/978-1-4613-0817-1_184
+[research_agarwal_1982]: https://doi.org/10.1007/bf02326363
+[research_agin_blicblau_1993]: https://doi.org/10.1016/0261-3069(93)90053-x
+[research_agius_fox_2015]: https://doi.org/10.1016/j.compositesa.2015.02.023
+[research_ahmad_hashim_2005]: https://doi.org/10.1177/0021998305047096
+[research_ahmad_zhang_2026]: https://doi.org/10.1016/j.compstruct.2026.120147
+[research_ahmed_jones_1988]: https://doi.org/10.1016/0010-4361(88)90003-1
+[research_ahmed_sadaf_2025]: https://doi.org/10.1080/10589759.2025.2601837
+[research_ahopelto_1986]: https://doi.org/10.2514/6.1986-1019
+[research_aimmanee_2018]: https://doi.org/10.5772/intechopen.72288
+[research_aimmanee_hongpimolmas_2017]: https://doi.org/10.1016/j.compstruct.2016.12.043
+[research_air_evacuation_sandwich]: https://doi.org/10.1016/j.compositesa.2014.10.013
+[research_air_shamsuddoha_2022]: https://doi.org/10.21203/rs.3.rs-2188408/v1
+[research_air_shamsuddoha_2023]: https://doi.org/10.1007/s00170-023-10946-9
+[research_aircraft_cost_2010]: https://doi.org/10.1017/cbo9780511844652.018
+[research_aircraft_oxygen]: https://doi.org/10.4271/as1219a
+[research_airforcetestpilotschooledwardsafbca_1962]: https://doi.org/10.21236/ada320208
+[research_airframe_cer]: https://doi.org/10.1016/0040-1625(82)90009-9
+[research_airframe_cost_model]: https://doi.org/10.21236/ada584686
+[research_akashi_akagi_2021]: https://doi.org/10.1246/bcsj.20210089
+[research_akay_hanna_1990]: https://doi.org/10.1016/0010-4361(90)90347-y
+[research_akhavansafar_marques_2023]: https://doi.org/10.1016/b978-0-323-91214-3.00004-1
+[research_akhtar_1987]: https://doi.org/10.4028/www.scientific.net/kem.13-15.339
+[research_akman_erdogan_2019]: https://doi.org/10.1016/j.ijadhadh.2018.12.003
+[research_akpinar_akpinar_2023]: https://doi.org/10.1515/mt-2022-0284
+[research_akula_2014]: https://doi.org/10.1016/j.compstruct.2014.06.001
+[research_akula_2015]: https://doi.org/10.1115/pvp2015-45727
+[research_al_jonathan_2021]: https://doi.org/10.33599/nasampe/s.21.0513
+[research_alahmed_hassan_2024]: https://doi.org/10.1063/5.0195176
+[research_alam_2021]: https://doi.org/10.1115/1.0004301v
+[research_alam_khanal_2020]: https://doi.org/10.1115/imece2020-23825
+[research_alanamcardona_erinkanderson]: https://ntrs.nasa.gov/citations/20250003430
+[research_alavisoltani_sabzevari_2011]: https://doi.org/10.1177/0021998311415443
+[research_albert_fernlund_2020]: https://doi.org/10.1201/9781003076155-36
+[research_albrecht_sahli_1986]: https://doi.org/10.1520/stp29056s
+[research_alderliesten_2009]: https://doi.org/10.1016/j.ijfatigue.2008.05.001
+[research_alderliesten_homan_2006]: https://doi.org/10.1016/j.ijfatigue.2006.02.015
+[research_aldhaheri_khan_2020]: https://doi.org/10.1016/j.compstruct.2020.112503
+[research_aldhaheri_khan_2020_b]: https://doi.org/10.1016/j.compositesa.2020.106020
+[research_aldhahri_klosterman_2025]: https://doi.org/10.33599/nasampe/s.25.0147
+[research_aldrin_2002]: https://doi.org/10.21236/ada409520
+[research_aleong_munro_1991]: https://doi.org/10.1002/pen.760311809
+[research_alexander_1998]: https://doi.org/10.21236/ada352602
+[research_alghamdi_dodd_2007]: https://doi.org/10.1109/icsd.2007.4290890
+[research_alhajahmad_mittelstedt_2021]: https://doi.org/10.1016/j.compstruct.2020.113271
+[research_alhajahmad_mittelstedt_2021_b]: https://doi.org/10.1016/j.tws.2021.107526
+[research_alhajahmad_mittelstedt_2025]: https://doi.org/10.1016/j.compstruct.2025.118946
+[research_alhamdan_tufail_1995]: https://doi.org/10.1177/096369359500400504
+[research_alhamrani_alnahhal_2023]: https://doi.org/10.1016/j.compstruct.2023.117306
+[research_ali_yasko_2024]: https://doi.org/10.1115/imece2024-144728
+[research_alic_1977]: https://doi.org/10.21236/ada049529
+[research_aliheidari_ameli_2023]: https://doi.org/10.12783/asc38/36688
+[research_alkoc_hazaryoruc_2024]: https://doi.org/10.1080/09243046.2024.2345837
+[research_allahbakhsh_mazinani_2013]: https://doi.org/10.1016/j.tca.2013.04.010
+[research_allaoui_elbounia_2009]: https://doi.org/10.3144/expresspolymlett.2009.73
+[research_allen_boyd_1992]: https://doi.org/10.1007/978-3-642-84792-9_4
+[research_allen_przekop_2015]: https://doi.org/10.2514/1.c033071
+[research_allsop_tahir_2025]: https://doi.org/10.1016/j.sna.2025.116681
+[research_almahmood_2017]: https://doi.org/10.11648/j.bio.20170501.12
+[research_almeidafernandes_correia_2021]: https://doi.org/10.1016/j.compstruct.2021.113884
+[research_almond_braddell_1992]: https://doi.org/10.1016/0032-3861(92)90898-7
+[research_almond_braddell_1993]: https://doi.org/10.4028/www.scientific.net/msf.119-121.477
+[research_alms_glancey_2010]: https://doi.org/10.1016/j.compstruct.2010.04.007
+[research_alonso_oliet_2006]: https://doi.org/10.1016/j.cej.2006.06.008
+[research_alotaibi_abeykoon_2022]: https://doi.org/10.3390/jcs6110330
+[research_alotaibi_soutis_2024]: https://doi.org/10.3390/jcs8100401
+[research_alpay_uygur_2023]: https://doi.org/10.1002/app.53922
+[research_alsaadi_aravinthan_2019]: https://doi.org/10.1016/j.engstruct.2019.109448
+[research_alshahrani_hojjati_2017]: https://doi.org/10.1016/j.compositesa.2017.06.021
+[research_alshedayfat_wagih_2024]: https://doi.org/10.1016/j.compositesa.2024.108090
+[research_alsukhon]: https://doi.org/10.22215/etd/2020-14178
+[research_alsukhon_elsayed_2020]: https://doi.org/10.2514/6.2020-1633
+[research_altan_bayraktar_2016]: https://doi.org/10.1007/s00170-015-8259-8
+[research_altmann]: https://doi.org/10.14264/240440
+[research_altmann_halley_2001]: https://doi.org/10.1002/1521-3900(200105)169:1<171::aid-masy171>3.0.co;2-y
+[research_altmann_halley_2003]: https://doi.org/10.1002/pi.1058
+[research_alvarez_mohammed_2025]: https://doi.org/10.1080/21693277.2025.2525935
+[research_alzyod_ficzere_2023]: https://doi.org/10.3390/polym15132893
+[research_amaoui_hattabi_2023]: https://doi.org/10.14445/22315381/ijett-v71i2p224
+[research_ambekar_shahi_2026]: https://doi.org/10.33599/gl.2026.incomat.tp26-0015
+[research_ambur_rouse_1997]: https://doi.org/10.2514/6.1997-1303
+[research_ambur_rouse_2005]: https://doi.org/10.2514/1.18994
+[research_amburdamodarr_rousemarshall_1998]: https://ntrs.nasa.gov/citations/19980019036
+[research_amico_lekakou_2001]: https://doi.org/10.1016/s0266-3538(01)00104-x
+[research_amif_yudhanto_2026]: https://doi.org/10.1007/978-3-032-05212-4_15
+[research_amin]: https://doi.org/10.31274/rtd-180813-8099
+[research_aminanda_2012]: https://doi.org/10.1007/978-3-642-23659-4_11
+[research_amiri_bouiadjra_2006]: https://doi.org/10.1243/14644207jmda46
+[research_amirkhosravi_pishvar_2017]: https://doi.org/10.1016/j.compositesa.2017.03.032
+[research_amirullah_jakaria_2023]: https://doi.org/10.21070/ups.3309
+[research_amithanr_vrindat_2011]: https://doi.org/10.15373/2249555x/july2013/58
+[research_amor_2002]: https://doi.org/10.1177/875697280203300304
+[research_an_adaptive_1998]: https://doi.org/10.1201/9781482268560-11
+[research_an_din_2021]: https://doi.org/10.1016/j.compstruct.2021.114592
+[research_an_singh_2017]: https://doi.org/10.1016/j.compstruct.2017.02.095
+[research_an_ultrasonic_1994]: https://doi.org/10.1016/0963-8695(94)90683-1
+[research_anagwu_skordos_2023]: https://doi.org/10.1016/j.polymer.2023.126427
+[research_analysis_and_2011]: https://doi.org/10.1061/9780784406120.ch05
+[research_analysis_and_design]: https://doi.org/10.12681/eadd/26591
+[research_analysis_of_1986]: https://doi.org/10.1016/0010-4361(86)90272-7
+[research_analysis_of_2021]: https://doi.org/10.62753/ctp.2021.03.3.3
+[research_analytical_study_1996]: https://doi.org/10.14359/1475
+[research_anandan_dhaliwal_2016]: https://doi.org/10.1002/app.43984
+[research_anders_nutt_2022]: https://doi.org/10.33599/nasampe/c.22.0047
+[research_andersen_1981]: https://doi.org/10.21236/ada108957
+[research_andersen_1981_b]: https://doi.org/10.21236/ada108947
+[research_andersen_1981_c]: https://doi.org/10.21236/ada108945
+[research_andersen_1981_d]: https://doi.org/10.21236/ada108948
+[research_anderson_2001]: https://doi.org/10.1520/stp14503s
+[research_anderson_altan_2014]: https://doi.org/10.1002/pc.22952
+[research_anderson_altan_2015]: https://doi.org/10.1063/1.4918431
+[research_anderson_cardona_2025]: https://doi.org/10.33599/nasampe/s.25.0005
+[research_anderson_henry_1988]: https://doi.org/10.21236/ada199058
+[research_andersonrobertl_grantcarrollg_1991]: https://ntrs.nasa.gov/citations/19930021675
+[research_andersonrobertl_grantcarrollg_1992]: https://ntrs.nasa.gov/citations/19950021850
+[research_andonovska_2021]: https://doi.org/10.55302/jms2142122a
+[research_andre_ariawan_2016]: https://doi.org/10.1177/0021998316664197
+[research_andres_miguez_1994]: https://doi.org/10.1002/pi.1994.210350407
+[research_anggriawan_arief_2026]: https://doi.org/10.36842/jomase.v70i2.637
+[research_anilkumar_sundaram_2016]: https://doi.org/10.1016/j.carbon.2015.09.044
+[research_anisetti_ardagna_2013]: https://doi.org/10.1109/icws.2013.70
+[research_anjali_choudhry_2013]: https://doi.org/10.47893/ijmie.2013.1133
+[research_antartis_dillon_2015]: https://doi.org/10.1177/0021998314568653
+[research_antonelli_farina_1999]: https://doi.org/10.1016/s1359-835x(99)00044-5
+[research_antonucci_cusano_2006]: https://doi.org/10.1016/j.compositesa.2005.05.016
+[research_antonucci_giordano_2003]: https://doi.org/10.1016/s0924-0136(03)00338-8
+[research_antonucci_giordano_2006]: https://doi.org/10.1016/j.compscitech.2005.07.009
+[research_anyfantis_2012]: https://doi.org/10.1016/j.compstruct.2012.03.002
+[research_aoki_ishikawa_2006]: https://doi.org/10.1016/j.ijfatigue.2006.02.017
+[research_apalak_apalak_2006]: https://doi.org/10.1177/0892705706067487
+[research_apgar_1993]: https://doi.org/10.2514/6.1993-1181
+[research_apicella_kenny_1987]: https://doi.org/10.1007/978-94-009-3457-3_18
+[research_apparatus_for_1990]: https://doi.org/10.1016/0010-4361(90)90228-o
+[research_appendix_a_2011]: https://doi.org/10.1515/9781400839063-017
+[research_appendix_a_2021]: https://doi.org/10.1002/9781118949818.app1
+[research_appleton_2008]: https://doi.org/10.1108/aa.2008.03328cae.001
+[research_application_design_2013]: https://doi.org/10.1002/9781118536933.ch13
+[research_applications_of_2013]: https://doi.org/10.5772/2898
+[research_aqida_ghazali_2012]: https://doi.org/10.11113/jt.v40.395
+[research_arafath_vaziri_2008]: https://doi.org/10.1016/j.compositesa.2008.04.009
+[research_arafath_vaziri_2009]: https://doi.org/10.1016/j.compositesa.2009.01.009
+[research_arakaki_faria_2016]: https://doi.org/10.1177/0021998315623625
+[research_aranguren_etxaniz_2020]: https://doi.org/10.3390/s20185291
+[research_araujobortolete_souza_2025]: https://doi.org/10.26678/abcm.cobem2023.cob2023-1568
+[research_archodoulaki_merola_2015]: https://doi.org/10.4028/www.scientific.net/msf.825-826.36
+[research_arellano_higgins_2008]: https://doi.org/10.2139/ssrn.1131122
+[research_arenas_suarez_2019]: https://doi.org/10.1016/j.promfg.2019.09.037
+[research_aretxabaleta_rytka_2022]: https://doi.org/10.23967/r.matcomp.2022.03.013
+[research_ariannik_fayazbakhsh_2014]: https://doi.org/10.1016/j.compstruct.2013.07.059
+[research_arikan_eroglu_2022]: https://doi.org/10.3390/ma15020451
+[research_ariyatum_unnanon_2006]: https://doi.org/10.1299/jsmeasmp.2006.152
+[research_armanios_bucinell_2002]: https://doi.org/10.1520/ctr10562j
+[research_armstrong_1999]: https://doi.org/10.1080/10667857.1999.11752840
+[research_arnold_1987]: https://doi.org/10.2514/6.1987-732
+[research_arnold_parekh_1986]: https://doi.org/10.2514/6.1986-1027
+[research_arnold_parekh_1987]: https://doi.org/10.2514/3.45524
+[research_arnott_rider_2002]: https://doi.org/10.1016/b978-008042699-0/50005-x
+[research_aromatic_polyamide_1988]: https://doi.org/10.1016/0010-4361(88)90332-1
+[research_aronhime_gillham]: https://doi.org/10.1007/bfb0035358
+[research_arridge_speake_1972]: https://doi.org/10.1016/0032-3861(72)90112-7
+[research_arsenyeva_duddeck_2024]: https://doi.org/10.1016/j.compstruct.2023.117628
+[research_asadayoobi_jaber_2021]: https://doi.org/10.1016/j.apm.2020.12.005
+[research_ascher_spath_2025]: https://doi.org/10.20944/preprints202503.2292.v1
+[research_ashbee_1986]: https://doi.org/10.1177/002199838602000201
+[research_ashcroft_erpolat_2003]: https://doi.org/10.4028/www.scientific.net/kem.245-246.501
+[research_ashforth_momm_2023]: https://doi.org/10.1016/b978-0-323-91214-3.00029-6
+[research_ashton_1975]: https://doi.org/10.2514/6.1975-825
+[research_ashton_reid_2003]: https://doi.org/10.1080/1058975042000274899
+[research_askadskii_popova_2013]: https://doi.org/10.4028/www.scientific.net/amr.864-867.751
+[research_askins_1999]: https://doi.org/10.21236/ada400387
+[research_asokan_manikandan_2012]: https://doi.org/10.1016/j.proeng.2012.06.279
+[research_asraf_purwoko_2025]: https://doi.org/10.1557/s43580-025-01358-w
+[research_atcas_manufacturing]: https://ntrs.nasa.gov/citations/19970016010
+[research_atcas_materials]: https://ntrs.nasa.gov/citations/19970017924
+[research_atcas_overview]: https://ntrs.nasa.gov/citations/19970016008
+[research_atcas_structural]: https://ntrs.nasa.gov/citations/19970016009
+[research_atmosphere_standard_2006]: https://doi.org/10.1007/978-0-387-30160-0_849
+[research_attar_echcherifelkettani_2023]: https://doi.org/10.1016/j.ndteint.2023.102841
+[research_attenuation_in_1967]: https://doi.org/10.1016/0041-624x(67)90116-3
+[research_augustnoevere_vonjamora]: https://ntrs.nasa.gov/citations/20240010252
+[research_augusttnoevere_craigscollier_2020]: https://ntrs.nasa.gov/citations/20200002929
+[research_aussawasathien_sancaktar_2008]: https://doi.org/10.1002/masy.200850405
+[research_austen_avitzur_1974]: https://doi.org/10.1115/1.3438494
+[research_autoclave_cures_2000]: https://doi.org/10.1016/s0034-3617(00)80093-4
+[research_autoclave_curing_2025]: https://doi.org/10.1007/978-981-97-2998-2_92
+[research_automated_laser_2009]: https://doi.org/10.1108/aeat.2009.12781dab.008
+[research_automated_preform_1990]: https://doi.org/10.1016/0034-3617(90)90099-z
+[research_awad_aravinthan_2011]: https://doi.org/10.1007/978-3-642-17487-2_103
+[research_awadhalloshkhidhir_qussayyounishamid_2015]: https://doi.org/10.33899/rengj.2015.101024
+[research_awenlimobor_sayah_2025]: https://doi.org/10.21203/rs.3.rs-7190667/v1
+[research_awenlimobor_sayah_2026]: https://doi.org/10.1007/s10443-025-10418-1
+[research_ayanoglu_carlsson_2022]: https://doi.org/10.1177/00219983221144500
+[research_azzouz_mhamdia_2021]: https://doi.org/10.4028/www.scientific.net/amr.1167.1
+[research_b_34_u_1963]: https://doi.org/10.1016/0019-1035(63)90063-0
+[research_b_patil_2023]: https://doi.org/10.1088/1361-665x/ace40b
+[research_b_tallur_2023]: https://doi.org/10.12783/shm2023/36950
+[research_baburao_1970]: https://doi.org/10.21236/ad0870907
+[research_bacarreza_aliabadi_2018]: https://doi.org/10.1142/9781786344335_0007
+[research_bachirbouiadjra_fekirini_2007]: https://doi.org/10.1016/j.commatsci.2006.10.016
+[research_bachirbouiadjra_oudad_2012]: https://doi.org/10.1016/j.matdes.2011.12.028
+[research_backmann_adil_2024]: https://doi.org/10.1177/08927057241290469
+[research_badiru_1991]: https://doi.org/10.1016/0278-6125(91)90001-i
+[research_badiru_1992]: https://doi.org/10.1007/978-1-4615-3480-8_9
+[research_badiru_jaber_2026]: https://doi.org/10.1201/9781003537762-53
+[research_bae_chang_2015]: https://doi.org/10.1016/j.compstruct.2015.06.075
+[research_bagan_1967]: https://doi.org/10.2514/6.1967-826
+[research_baghad_elmabrouk_2021]: https://doi.org/10.1177/09673911211028413
+[research_bahadori_tekerek_2021]: https://doi.org/10.1115/1.4049781
+[research_bahar_2022]: https://doi.org/10.1007/978-3-662-66127-7_2
+[research_bahar_2022_b]: https://doi.org/10.1007/978-3-662-66127-7
+[research_bahar_2022_c]: https://doi.org/10.1007/978-3-662-66127-7_7
+[research_bahar_2022_d]: https://doi.org/10.1007/978-3-662-66127-7_3
+[research_bahr_rosengreen_1985]: https://doi.org/10.21236/ada171128
+[research_bai_lei_2017]: https://doi.org/10.1016/j.compstruct.2017.01.022
+[research_bai_wang_2026]: https://doi.org/10.1117/12.3107001
+[research_bail_2008]: https://doi.org/10.1061/40988(323)50
+[research_bailey_battley_2011]: https://doi.org/10.2514/6.2011-1981
+[research_bailey_weber_2023]: https://doi.org/10.33599/nasampe/s.23.0208
+[research_bain_1952]: https://doi.org/10.4271/520201
+[research_bajere_1994]: https://doi.org/10.1520/jte12671j
+[research_baker_1999]: https://doi.org/10.1016/s0263-8223(00)00011-8
+[research_baker_2010]: https://doi.org/10.1007/s10443-010-9161-z
+[research_baker_2011]: https://doi.org/10.1002/9781118097298.weoc018
+[research_baker_2011_b]: https://doi.org/10.1002/9781118097298.weoc017
+[research_baker_bitton_2012]: https://doi.org/10.1016/j.ijadhadh.2012.03.004
+[research_baker_gunnion_2014]: https://doi.org/10.1080/00218464.2014.883315
+[research_baker_michael_1980]: https://doi.org/10.21236/ada083531
+[research_baker_nezhad_2021]: https://doi.org/10.1016/b978-0-12-819954-1.00022-8
+[research_baker_wang_2018]: https://doi.org/10.1016/b978-0-08-100540-8.00006-6
+[research_bakerdonaldj_fudgejack_2003]: https://ntrs.nasa.gov/citations/20040085785
+[research_bakhshi_hojjati_2018]: https://doi.org/10.25071/10315/35232
+[research_bakhshi_hojjati_2019]: https://doi.org/10.1177/0731684419868845
+[research_bakis_reifsnider_1988]: https://doi.org/10.1007/978-1-4613-0979-6_28
+[research_balaga_gargitter_2023]: https://doi.org/10.1177/00219983231168943
+[research_balaji_dumas_2024]: https://doi.org/10.3390/jcs8120533
+[research_balaji_rajesh_2024]: https://doi.org/10.1002/pc.28452
+[research_balaji_rajesh_2025]: https://doi.org/10.1016/j.matlet.2025.138053
+[research_balaji_sbarufatti_2023]: https://doi.org/10.23967/c.composites.2023.009
+[research_balamurugan_kannan_2009]: https://doi.org/10.1007/s10853-009-4085-4
+[research_ball_1999]: https://doi.org/10.1038/news990805-3
+[research_balokas_heinecke_2023]: https://doi.org/10.1016/j.compstruct.2023.116923
+[research_balut_frazier_1991]: https://doi.org/10.21236/ada232661
+[research_bandaru_clancy_2019]: https://doi.org/10.1016/j.compstruct.2019.02.011
+[research_banerjee_ricci_2007]: https://doi.org/10.1002/9780470612248.ch2
+[research_banerjee_tavaf_2024]: https://doi.org/10.3390/jcs8030107
+[research_bangalore]: https://doi.org/10.33915/etd.1218
+[research_bankssills_choron_2023]: https://doi.org/10.1111/ffe.14199
+[research_banuk_1996]: https://doi.org/10.1115/imece1996-0616
+[research_bao_chen_2023]: https://doi.org/10.1109/ieem58616.2023.10407009
+[research_bao_gawne_2012]: https://doi.org/10.1016/j.surfcoat.2012.06.007
+[research_bao_su_2002]: https://doi.org/10.1177/0021998302036014173
+[research_baranovski_zaw_2023]: https://doi.org/10.1051/e3sconf/202341302002
+[research_barbero_wen_2003]: https://doi.org/10.1520/stp38412s
+[research_barcenas_khoun_2025]: https://doi.org/10.1177/00219983251370393
+[research_barcenas_narayana_2023]: https://doi.org/10.1177/00219983231181640
+[research_barcohen_chimenti_1987]: https://doi.org/10.1007/978-1-4684-5338-6_9
+[research_bardenstein_lukatsky_2022]: https://doi.org/10.2514/6.2022-1778
+[research_barghamadi_behmadi_2012]: https://doi.org/10.1002/pc.22232
+[research_barjasteh_gouni_2018]: https://doi.org/10.1177/0021998318810841
+[research_barlow_howe_2002]: https://doi.org/10.1016/s0263-8223(02)00062-4
+[research_barna_allemeier_1989]: https://doi.org/10.1007/978-1-4613-0817-1_179
+[research_barnes_mazey_1958]: https://doi.org/10.1016/0001-6160(58)90083-x
+[research_baron_1996]: https://doi.org/10.2514/6.1996-1328
+[research_baronwg_oettingjd_1990]: https://ntrs.nasa.gov/citations/19920023274
+[research_barral_cano_1995]: https://doi.org/10.1002/pi.1995.210380406
+[research_barral_cano_1997]: https://doi.org/10.1002/(sici)1097-0126(199703)42:3<301::aid-pi714>3.0.co;2-f
+[research_barral_cano_1999]: https://doi.org/10.1023/a:1010128206026
+[research_barraza_action_2023]: https://doi.org/10.2514/6.2023-1319
+[research_barsotti_gaiotti_2022]: https://doi.org/10.1201/9781003358961-15
+[research_bartholomeusz_geddes_2002]: https://doi.org/10.1016/b978-008042699-0/50039-5
+[research_bartholomeusz_searl_2002]: https://doi.org/10.1016/b978-008042699-0/50032-2
+[research_bartholomew_harris_1994]: https://doi.org/10.2514/6.1994-4354
+[research_bartleycho_muraliraj_2022]: https://doi.org/10.2514/6.2022-1779
+[research_bartleycho_nickerson_2019]: https://doi.org/10.33599/nasampe/s.19.1457
+[research_bartleycho_ranatunga_2020]: https://doi.org/10.12783/asc35/34968
+[research_bartleycho_smyers_2018]: https://doi.org/10.2514/6.2018-0974
+[research_barton_1980]: https://doi.org/10.1016/0032-3861(80)90314-6
+[research_barton_1985]: https://doi.org/10.1007/3-540-15546-5_5
+[research_barton_1986]: https://doi.org/10.1002/pi.4980180110
+[research_barton_wright_1985]: https://doi.org/10.1016/0040-6031(85)85612-4
+[research_barzegar_moallem_2021]: https://doi.org/10.1016/j.compstruct.2020.113374
+[research_barzoki_ipakchi_2019]: https://doi.org/10.1142/s1758825119500479
+[research_bascom_1964]: https://doi.org/10.21236/ad0604682
+[research_basford_1976]: https://doi.org/10.2172/7263852
+[research_bashir_2023]: https://doi.org/10.3390/coatings13030592
+[research_basic_composite]: https://doi.org/10.4271/arp6262
+[research_batra_chattopadhyay_2020]: https://doi.org/10.1007/978-3-030-31065-3_10
+[research_bauer_hanninen_2025]: https://doi.org/10.1364/opticaopen.29922719
+[research_baun_1977]: https://doi.org/10.1016/b978-0-12-442101-1.50026-1
+[research_bayandor_scott_2002]: https://doi.org/10.1016/s0263-8223(02)00109-5
+[research_bayandor_thomson_2003]: https://doi.org/10.1533/ijcr.2003.0238
+[research_baykara_2026]: https://doi.org/10.1016/j.ijadhadh.2026.104368
+[research_bayoumi_2000]: https://doi.org/10.1016/b978-008043711-8/50051-9
+[research_bechet_ruiz_2003]: https://doi.org/10.1016/s1359-835x(03)00199-4
+[research_bechet_ruiz_2020]: https://doi.org/10.1201/9781003076155-24
+[research_beck_1981]: https://doi.org/10.2514/3.57560
+[research_beck_frederickjr_1981]: https://doi.org/10.21236/ada109109
+[research_beere_2010]: https://doi.org/10.21236/ada525648
+[research_beevers_kho_1984]: https://doi.org/10.1007/978-1-4613-2749-3_37
+[research_behavior_and_2006]: https://doi.org/10.14359/18234
+[research_behera_thawre_2020]: https://doi.org/10.1016/j.matpr.2019.12.329
+[research_bekas_sharifkhodaei_2019]: https://doi.org/10.1016/j.compstruct.2019.01.008
+[research_belhaj_dodangeh_2021]: https://doi.org/10.1016/j.compstruct.2021.113602
+[research_bellinger_komorowski_1998]: https://doi.org/10.2514/2.2322
+[research_bellini_sorrentino_2018]: https://doi.org/10.1016/j.compstruct.2018.05.038
+[research_bellisario_2023]: https://doi.org/10.21741/9781644902479-194
+[research_bellisario_quadrini_2019]: https://doi.org/10.1115/msec2019-2765
+[research_belnoue_giannis_2016]: https://doi.org/10.1016/j.ijadhadh.2016.03.010
+[research_belov_zheleznov_2017]: https://doi.org/10.3103/s1068799817040067
+[research_benammar_drai_2010]: https://doi.org/10.4028/www.scientific.net/msf.636-637.1555
+[research_benazzo_pellegrino_2026]: https://doi.org/10.2139/ssrn.7073919
+[research_bender_centea_2019]: https://doi.org/10.33599/nasampe/c.19.0733
+[research_bendsoe_1988]: https://doi.org/10.1007/978-94-009-1413-1_5
+[research_benedictus_alderliesten_2009]: https://doi.org/10.1016/j.ijfatigue.2009.02.004
+[research_bennett_1988]: https://doi.org/10.1016/0263-8223(88)90064-5
+[research_benyahia_albedah_2014]: https://doi.org/10.1016/j.matdes.2013.08.024
+[research_benyahia_albedah_2014_b]: https://doi.org/10.1590/1516-1439.259613
+[research_benyahia_faribouanani_2014]: https://doi.org/10.1016/j.matdes.2013.12.081
+[research_berens_johnson_1974]: https://doi.org/10.21236/ada000383
+[research_berg_gerharz_1989]: https://doi.org/10.1520/stp10407s
+[research_berge_eide_1982]: https://doi.org/10.1520/stp30101s
+[research_bergerassociatesincharrisburgpa_1980]: https://doi.org/10.21236/ada081587
+[research_bergerassociatesincharrisburgpa_1980_b]: https://doi.org/10.21236/ada091592
+[research_berggreen_hayman_2020]: https://doi.org/10.1007/978-3-030-31065-3_15
+[research_berry_2002]: https://doi.org/10.4271/2002-01-2923
+[research_berthelot_1999]: https://doi.org/10.1007/978-1-4612-0527-2_26
+[research_berthelot_1999_b]: https://doi.org/10.1007/978-1-4612-0527-2_20
+[research_berthelot_1999_c]: https://doi.org/10.1007/978-1-4612-0527-2_23
+[research_berthelot_1999_d]: https://doi.org/10.1007/978-1-4612-0527-2_24
+[research_bestley_brown_2011]: https://doi.org/10.2495/mc110311
+[research_beukers_bersee_2011]: https://doi.org/10.1007/978-0-85729-166-0_1
+[research_bhatt_gohil_2022]: https://doi.org/10.36909/jer.9941
+[research_bian_wu_2024]: https://doi.org/10.1080/10589759.2024.2349241
+[research_bickerton_govignon_2013]: https://doi.org/10.1533/9780857098641.2.155
+[research_bickerton_kelly_2007]: https://doi.org/10.4028/0-87849-427-8.17
+[research_bickerton_kelly_2012]: https://doi.org/10.1533/9780857096258.3.348
+[research_bidstrup_day_1994]: https://doi.org/10.1520/stp15368s
+[research_bidstrup_sheppard_1989]: https://doi.org/10.1002/pen.760290510
+[research_biernath_soane_1992]: https://doi.org/10.1007/978-1-4615-3456-3_10
+[research_bigand]: https://doi.org/10.70675/8a11acf7z7116z4928z8be1zf2b40f6b4c43
+[research_bigelow_1988]: https://doi.org/10.1520/stp30338s
+[research_bilalafzal_2020]: https://doi.org/10.5772/intechopen.93323
+[research_bilyeu]: https://doi.org/10.12794/metadc4437
+[research_bilyeu_b]: https://doi.org/10.12794/metadc2281
+[research_bilyeu_brostow_2001]: https://doi.org/10.14314/polimery.2001.799
+[research_bilyeu_brostow_2002]: https://doi.org/10.1002/pc.10505
+[research_bin_mingzhi_2019]: https://doi.org/10.1115/imece2019-10717
+[research_bindal_saksena_1992]: https://doi.org/10.1016/0003-682x(92)90037-s
+[research_binders_for]: https://doi.org/10.3403/30074993u
+[research_binetruy_hilaire_1998]: https://doi.org/10.1177/002199839803200302
+[research_bing_wang_2020]: https://doi.org/10.22541/au.159708679.94752496
+[research_biron_2004]: https://doi.org/10.1016/b978-185617411-4/50006-1
+[research_bisagni_2008]: https://doi.org/10.1142/9781848162303_0002
+[research_bisagni_lanzi_2002]: https://doi.org/10.1016/s0263-8223(02)00053-3
+[research_bisagni_vescovini_2011]: https://doi.org/10.2514/1.c031106
+[research_biskner_higgins_2005]: https://doi.org/10.21236/ada443361
+[research_biszczanik_talaska_2022]: https://doi.org/10.1016/j.ijadhadh.2021.103081
+[research_bjornsson_2017]: https://doi.org/10.3384/diss.diva-137488
+[research_bjornsson_lindback_2013]: https://doi.org/10.4271/2013-01-2289
+[research_bjornsson_lindback_2015]: https://doi.org/10.4271/2015-01-2606
+[research_blackwell_eastlake]: https://doi.org/10.18260/1-2--8243
+[research_blair_bharatram_1996]: https://doi.org/10.2514/6.1996-3995
+[research_blair_weisshaar_1981]: https://doi.org/10.2514/6.1981-1670
+[research_blanchard_2020]: https://doi.org/10.1201/9781003076155-21
+[research_blazquez_reinoso_2012]: https://doi.org/10.1016/j.compstruct.2011.12.013
+[research_bloechle_1982]: https://doi.org/10.1108/eb043674
+[research_bloom_napper_2014]: https://doi.org/10.1179/2055035914y.0000000005
+[research_blue_1988]: https://doi.org/10.1520/stp25965s
+[research_boateng_schubel_2019]: https://doi.org/10.1016/j.sna.2019.01.001
+[research_boey_1988]: https://doi.org/10.1016/0142-9418(88)90019-0
+[research_boey_lee_1994]: https://doi.org/10.1007/bf00366883
+[research_boey_lye_1990]: https://doi.org/10.1016/0924-0136(90)90152-k
+[research_boey_qiang_2000]: https://doi.org/10.1016/s0032-3861(99)00409-7
+[research_bogacz_1992]: https://doi.org/10.1007/978-94-011-1787-6_5
+[research_bogdanovich_2008]: https://doi.org/10.21236/ada586571
+[research_bogdanovich_kizhakkethara_1999]: https://doi.org/10.1016/s1359-8368(99)00026-8
+[research_bogetti_gillespie_1991]: https://doi.org/10.1177/002199839102500302
+[research_bogue_2012]: https://doi.org/10.1108/01445151211212262
+[research_bohlooly_kouchakzadeh_2020]: https://doi.org/10.1016/j.tws.2019.106528
+[research_bohlooly_mirzavand_2018]: https://doi.org/10.1016/j.apm.2018.06.008
+[research_boitnott_fasanella_1987]: https://doi.org/10.4271/871009
+[research_boll_schubert_2014]: https://doi.org/10.1109/jsen.2014.2309172
+[research_boller_1965]: https://doi.org/10.21236/ad0474434
+[research_bommareddy_2025]: https://doi.org/10.31399/asm.amp.2025-07.p026
+[research_bonanni_tacey_1996]: https://doi.org/10.1177/089270579600900201
+[research_bond_2002]: https://doi.org/10.1016/b978-008042699-0/50023-1
+[research_bond_2015]: https://doi.org/10.1117/12.2086279
+[research_bond_2019]: https://doi.org/10.33552/mcms.2019.01.000511
+[research_bond_2021]: https://doi.org/10.1007/978-3-030-48200-8_34-1
+[research_bond_2022]: https://doi.org/10.1007/978-3-030-73206-6_34
+[research_bond_2025]: https://doi.org/10.1007/978-3-031-84477-5_34
+[research_bond_strength_2007]: https://doi.org/10.1007/978-0-387-30160-0_1449
+[research_bondarchuk_fedulov_2019]: https://doi.org/10.3846/aviation.2019.9745
+[research_bonded_composite_1979]: https://doi.org/10.1016/0010-4361(79)90472-5
+[research_bonded_joints_2016]: https://doi.org/10.1016/c2013-0-00565-8
+[research_bonded_repair_1988]: https://doi.org/10.1007/978-94-009-2752-0
+[research_bonded_repair_1994]: https://doi.org/10.1016/0963-8695(94)90664-5
+[research_booth_cairns_2022]: https://doi.org/10.33599/nasampe/c.22.0114
+[research_booth_hay_1969]: https://doi.org/10.1016/0032-3861(69)90012-3
+[research_boothby_piszkiewicz_2018]: https://doi.org/10.1016/j.bpj.2017.11.3065
+[research_boothroyd_1987]: https://doi.org/10.1007/bf02601481
+[research_boothroyd_1994]: https://doi.org/10.1016/0010-4485(94)90082-5
+[research_boothroyd_1996]: https://doi.org/10.1007/978-94-011-3985-4_2
+[research_boothroyd_1997]: https://doi.org/10.31399/asm.hb.v20.a0002480
+[research_boothroyd_dewhurst_2001]: https://doi.org/10.1201/9780824741587
+[research_boothroyd_dewhurst_2010]: https://doi.org/10.1201/9781420089288
+[research_bootle_1999]: https://doi.org/10.21236/ada379694
+[research_borgato_pievani_1995]: https://doi.org/10.1007/978-94-015-8563-7_28
+[research_boria_2013]: https://doi.org/10.1002/9781118535288.ch9
+[research_bornemann_zhou_2024]: https://doi.org/10.1109/sensors60989.2024.10785169
+[research_borrie_liu_2015]: https://doi.org/10.1016/j.compstruct.2015.06.021
+[research_bosi_schlothauer_2018]: https://doi.org/10.2514/6.2018-2241
+[research_bouiadjra_ouinas_2008]: https://doi.org/10.1016/j.commatsci.2007.07.008
+[research_bouscarrat]: https://doi.org/10.70675/603b6286zb944z4ec2zbae0z4f2d940f7c5e
+[research_boushab_mote_2024]: https://doi.org/10.1007/s42114-024-00832-7
+[research_bouslama_maslouhi_2022]: https://doi.org/10.1177/00219983221096888
+[research_boutrih_makich_2022]: https://doi.org/10.1016/j.procir.2022.03.117
+[research_bouwer_ignatuk_2025]: https://doi.org/10.4050/f-0081-2025-0229
+[research_bouwer_ignatuk_2025_b]: https://doi.org/10.4050/f-0081-2025-229
+[research_bouwer_kaiser_2019]: https://doi.org/10.4050/f-0075-2019-14675
+[research_boyd_bogetti_2018]: https://doi.org/10.1016/j.compstruct.2018.01.062
+[research_boyd_maxfield_1982]: https://doi.org/10.2172/5287016
+[research_boyle_sladek_1975]: https://doi.org/10.1007/978-3-642-95275-3_7
+[research_boztas_atespare_2025]: https://doi.org/10.1002/pc.70067
+[research_brasington_harik_2020]: https://doi.org/10.33599/nasampe/s.20.0061
+[research_bratukhin_bogolyubov_1995]: https://doi.org/10.1007/978-94-011-1268-0_7
+[research_brauner_bauer_2014]: https://doi.org/10.1177/0021998313519281
+[research_brauner_peters_2013]: https://doi.org/10.1177/0021998313502101
+[research_brauner_soprano_2014]: https://doi.org/10.1177/0021998314527777
+[research_brazier_schwartz_1980]: https://doi.org/10.1016/0040-6031(80)80052-9
+[research_breede_kahalimoghaddam_2015]: https://doi.org/10.4028/www.scientific.net/msf.825-826.936
+[research_bregman_lee_2024]: https://doi.org/10.1080/09243046.2023.2300590
+[research_brianpjustusson_josephdschaefer]: https://ntrs.nasa.gov/citations/20205002928
+[research_brich_hill_2025]: https://doi.org/10.33599/nasampe/c.25.74
+[research_brinckman_chaiko_2001]: https://doi.org/10.13182/nt01-a3164
+[research_brink_vankan_2020]: https://doi.org/10.23967/emus.2020.012
+[research_brookhart_2021]: https://doi.org/10.4050/sm_struct_2021-1015
+[research_brotherhood_drinkwater_2002]: https://doi.org/10.1023/a:1022584822730
+[research_broughton_laranjeira_2025]: https://doi.org/10.2139/ssrn.5572154
+[research_brown_1978]: https://doi.org/10.21236/ada068719
+[research_brown_1978_b]: https://doi.org/10.21236/ada068720
+[research_brown_2012]: https://doi.org/10.21236/ada569074
+[research_brown_jr_1974]: https://doi.org/10.21236/ad0783851
+[research_brown_timmerman_1991]: https://doi.org/10.2514/6.1991-3167
+[research_brunner_2015]: https://doi.org/10.1016/b978-0-85709-806-1.00001-x
+[research_bruno_lato_1991]: https://doi.org/10.1016/0263-8223(91)90014-p
+[research_brunojoseph_libeskindmark_1990]: https://ntrs.nasa.gov/citations/19920023270
+[research_brunson_raisrohani_1996]: https://doi.org/10.2514/6.1996-1378
+[research_buchinger_sharifkhodaei_2021]: https://doi.org/10.1080/09243046.2021.2001910
+[research_buckling_and_1995]: https://doi.org/10.1007/978-94-011-1228-4
+[research_buddala_tallur_2024]: https://doi.org/10.1080/10589759.2024.2363983
+[research_buhagiar_tretiak_2026]: https://doi.org/10.2139/ssrn.6873524
+[research_bulk_factor]: https://doi.org/10.1016/j.compositesb.2021.108940
+[research_bung_valero_2018]: https://doi.org/10.3390/geosciences8090333
+[research_bur_joyot_2017]: https://doi.org/10.1063/1.5008204
+[research_bur_joyot_2018]: https://doi.org/10.1016/j.crme.2018.04.007
+[research_burger_rans_2014]: https://doi.org/10.1080/00218464.2013.845095
+[research_burnett_magnuson_1995]: https://doi.org/10.1007/978-1-4615-1987-4_195
+[research_burton_noor_1997]: https://doi.org/10.1016/s0168-874x(96)00081-9
+[research_bush_1965]: https://doi.org/10.4271/650370
+[research_bushko_stokes_1996]: https://doi.org/10.1002/pen.10419
+[research_butkus_valentin_2002]: https://doi.org/10.1016/b978-008042699-0/50008-5
+[research_butler_liu_2008]: https://doi.org/10.1142/9781848162303_0007
+[research_byar_tan]: https://doi.org/10.17918/etd-278
+[research_byklum_steen_2004]: https://doi.org/10.1016/j.tws.2003.12.006
+[research_byrne_hagnauer_1980]: https://doi.org/10.1002/pc.750010204
+[research_c0613_c0613m_test_2008]: https://doi.org/10.1520/c0613m
+[research_c_cure_2020]: https://doi.org/10.1016/j.repl.2020.04.030
+[research_caamano_boulaayoun_2022]: https://doi.org/10.23967/r.matcomp.2017.10.022
+[research_caballero_gonzalez_2021]: https://doi.org/10.26226/morressier.612f6735bc98103724100767
+[research_caballerogarzon]: https://doi.org/10.20868/upm.thesis.81422
+[research_cabrinha_ponitz_2014]: https://doi.org/10.52842/conf.caadria.2014.953
+[research_cadenato_salla_1997]: https://doi.org/10.1007/bf01987448
+[research_cadieu_kopp_2019]: https://doi.org/10.1016/j.compstruct.2019.110952
+[research_cai_1992]: https://doi.org/10.1016/0956-7143(92)90112-8
+[research_cai_2024]: https://doi.org/10.1117/12.3026606
+[research_cai_gutowski_1992]: https://doi.org/10.1177/002199839202600908
+[research_cai_ji_2025]: https://doi.org/10.1016/j.compstruct.2025.119360
+[research_cai_salovey_2001]: https://doi.org/10.1002/pen.10882
+[research_cai_wang_2023]: https://doi.org/10.1115/1.4063919
+[research_calado_advani_2000]: https://doi.org/10.1007/978-3-446-40177-8_2
+[research_calik_akpinar_2023]: https://doi.org/10.1016/j.ijadhadh.2023.103365
+[research_callinan_galea_2002]: https://doi.org/10.1016/b978-008042699-0/50021-8
+[research_calmasur_dastan_2021]: https://doi.org/10.12959/issn.1855-0541.iiass-2021-no1-art6
+[research_camacho_veiga_2019]: https://doi.org/10.3390/ma12071157
+[research_camarena_anderson_2024]: https://doi.org/10.22541/au.170664377.77106999/v1
+[research_cameron_2025]: https://doi.org/10.5006/lac25-00013
+[research_cameron_hozic_2023]: https://doi.org/10.1007/s00158-023-03504-0
+[research_cameron_saseendran_2021]: https://doi.org/10.1177/00219983211024341
+[research_camim]: https://doi.org/10.11606/d.25.2019.tde-25112019-205524
+[research_camin_mckenzie_1980]: https://doi.org/10.1007/978-1-4684-1033-4_21
+[research_caminero_pavlopoulou_2013]: https://doi.org/10.1016/j.compstruct.2012.07.028
+[research_campbell_2004]: https://doi.org/10.1016/b978-185617415-2/50005-8
+[research_campbell_smith]: https://doi.org/10.1109/stherm.1999.762433
+[research_campilho_2023]: https://doi.org/10.3390/pr11123369
+[research_campilho_dasilva_2015]: https://doi.org/10.1016/b978-0-85709-806-1.00004-5
+[research_campolo_cipri_1995]: https://doi.org/10.1007/978-94-015-8563-7_20
+[research_camponeschi_bohlmann_1994]: https://doi.org/10.1520/stp24336s
+[research_campos_mewis_2017]: https://doi.org/10.1016/j.ndteint.2017.05.006
+[research_canaroli_baldi_2025]: https://doi.org/10.1016/j.hybadv.2025.100550
+[research_cantrell_2018]: https://doi.org/10.1007/s10921-018-0530-0
+[research_canumalla_schackmuth]: https://doi.org/10.1109/ectc.1999.776241
+[research_cao_hu_2014]: https://doi.org/10.1016/j.tca.2014.06.014
+[research_cao_jin_2014]: https://doi.org/10.1016/j.tca.2014.07.006
+[research_cao_wang_2022]: https://doi.org/10.1109/wcmeim56910.2022.10021449
+[research_capehart_kia_2007]: https://doi.org/10.1177/0021998306068077
+[research_capell_palaniappan_2007]: https://doi.org/10.1088/1464-4258/9/6/s07
+[research_capitani_capriolo_2011]: https://doi.org/10.5755/j01.u.66.2.525
+[research_caputo_lamanna_2021]: https://doi.org/10.2514/1.j059216
+[research_caputo_manzo_2019]: https://doi.org/10.1016/j.prostr.2020.02.070
+[research_caravasos_1992]: https://doi.org/10.2514/6.1992-1256
+[research_carbas_marques_2013]: https://doi.org/10.1080/00218464.2013.779559
+[research_carbon_fiber]: https://doi.org/10.4271/ams3970/3
+[research_carbon_fiber_b]: https://doi.org/10.4271/ams3970/2a
+[research_carbon_fiber_c]: https://doi.org/10.4271/ams3970/3a
+[research_carbon_fiber_d]: https://doi.org/10.4271/ams6891
+[research_carbon_fiber_e]: https://doi.org/10.4271/ams3970
+[research_carbon_fiber_f]: https://doi.org/10.4271/ams3970a
+[research_carbon_fiber_g]: https://doi.org/10.4271/ams3970/6
+[research_carbon_fiber_h]: https://doi.org/10.4271/ams3970/1
+[research_carbon_fiber_i]: https://doi.org/10.4271/ams3970/1a
+[research_carbon_fiber_j]: https://doi.org/10.4271/ams3970/4
+[research_carbon_fiber_k]: https://doi.org/10.4271/ams3970/4a
+[research_carbon_fiber_l]: https://doi.org/10.4271/ams3970/2
+[research_cardoso_reis_2025]: https://doi.org/10.1590/1679-7825/e8284
+[research_carlone_palazzo]: https://doi.org/10.4203/ccp.94.65
+[research_carlone_palazzo_2009]: https://doi.org/10.1007/s12289-009-0450-8
+[research_carlone_palazzo_2011]: https://doi.org/10.1063/1.3589483
+[research_carlone_palazzo_2013]: https://doi.org/10.1504/ijmpt.2013.056297
+[research_caron_larreteguy_2017]: https://doi.org/10.52292/j.laar.2017.302
+[research_carrillo_cantwell_2009]: https://doi.org/10.1016/j.mechmat.2009.03.002
+[research_carter_emmerson_2003]: https://doi.org/10.1016/s1359-835x(02)00115-x
+[research_cary_1967]: https://doi.org/10.1097/00010694-196709000-00005
+[research_cascaval_rosu_2006]: https://doi.org/10.14314/polimery.2006.199
+[research_cassara_copeman_2026]: https://doi.org/10.1002/pola.70292
+[research_castagne_curran_2004]: https://doi.org/10.2514/6.2004-6235
+[research_castro_sket_2021]: https://doi.org/10.1016/j.compscitech.2021.108999
+[research_castroarias]: https://doi.org/10.20868/upm.thesis.69350
+[research_catapano_montemurro_2014]: https://doi.org/10.1016/j.compstruct.2014.07.057
+[research_cavalcantihernandes_szejka_2025]: https://doi.org/10.1080/0951192x.2025.2545485
+[research_cawley_pialucha_1993]: https://doi.org/10.1007/978-1-4615-2848-7_196
+[research_celik_cehreli_2014]: https://doi.org/10.1080/01694243.2014.896069
+[research_cender_lavaggi_2022]: https://doi.org/10.1177/00219983221115824
+[research_centea_grunenfelder_2015]: https://doi.org/10.1016/j.compositesa.2014.09.029
+[research_centea_hubert_2011]: https://doi.org/10.1016/j.compscitech.2010.12.009
+[research_centea_hubert_2012]: https://doi.org/10.1016/j.compositesa.2012.03.028
+[research_centea_hubert_2013]: https://doi.org/10.1177/0021998313494101
+[research_centea_nutt_2015]: https://doi.org/10.1177/0021998315602949
+[research_cetkovic_2016]: https://doi.org/10.1016/j.compstruct.2016.01.082
+[research_cexiao_cai_2008]: https://doi.org/10.1109/itme.2008.4743954
+[research_chabot_brescia_1993]: https://doi.org/10.1163/156856193x00042
+[research_chadegani_yang_2009]: https://doi.org/10.2514/1.37513
+[research_chadegani_yang_2012]: https://doi.org/10.2514/1.c031516
+[research_chadeganialireza_yangchihdar_2012]: https://ntrs.nasa.gov/citations/20120008792
+[research_chagraoui_soula_2024]: https://doi.org/10.1016/j.euromechsol.2024.105381
+[research_chahal_1966]: https://doi.org/10.1097/00010694-196608000-00008
+[research_chai_eisenbart_2023]: https://doi.org/10.3390/ma16247580
+[research_chaiko_brinckman_2001]: https://doi.org/10.1115/1.1430668
+[research_chailleux_salvia_1999]: https://doi.org/10.1117/12.373611
+[research_chaiwan_kaewkittinarong_2019]: https://doi.org/10.1016/j.tca.2019.03.023
+[research_chalkley_baker_1999]: https://doi.org/10.1016/s0143-7496(98)90028-8
+[research_chalkley_wang_2002]: https://doi.org/10.1016/b978-008042699-0/50007-3
+[research_chambers_hoffman_2018]: https://doi.org/10.12783/asc33/25960
+[research_chambers_oonnoonny_2017]: https://doi.org/10.12783/asc2017/15178
+[research_chambers_yutko_2017]: https://doi.org/10.2514/6.2017-0508
+[research_chambers_yutko_2018]: https://doi.org/10.2514/6.2018-0224
+[research_chamis_1981]: https://doi.org/10.1520/stp734-eb
+[research_chan_lu_2018]: https://doi.org/10.1016/j.jmsy.2017.12.001
+[research_chandran_krishna_2012]: https://doi.org/10.5402/2012/309861
+[research_chang_2015]: https://doi.org/10.1179/1743289815y.0000000002
+[research_chang_2019]: https://doi.org/10.1080/14658011.2019.1647387
+[research_chang_2025]: https://doi.org/10.1515/polyeng-2024-0089
+[research_chang_chen_1996]: https://doi.org/10.1002/pc.10666
+[research_chang_ihn_2003]: https://doi.org/10.1201/9780203501962.ch9
+[research_chang_ren_2024]: https://doi.org/10.1007/s00170-024-14725-y
+[research_chang_yang_2019]: https://doi.org/10.1088/1757-899x/493/1/012140
+[research_chang_young_2023]: https://doi.org/10.1007/s12221-023-00026-w
+[research_chang_zeng_2012]: https://doi.org/10.1002/pi.4233
+[research_chang_zhan_2016]: https://doi.org/10.1080/09276440.2016.1237113
+[research_chang_zhan_2017]: https://doi.org/10.1007/s12221-017-7384-4
+[research_chapelon_1987]: https://doi.org/10.1016/0161-7346(87)90055-1
+[research_chapman_1981]: https://doi.org/10.1520/stp33473s
+[research_characterization_of_1990]: https://doi.org/10.1016/0010-4361(90)90402-i
+[research_characterizing_rheological_1981]: https://doi.org/10.1016/0010-4361(81)90484-5
+[research_chattopadhyay_dragomir_2001]: https://doi.org/10.21236/ada399729
+[research_chau]: https://doi.org/10.14711/thesis-b655877
+[research_chau_lee_1997]: https://doi.org/10.4028/www.scientific.net/kem.145-149.601
+[research_chaudhuri_2010]: https://doi.org/10.1016/j.compstruct.2009.10.040
+[research_chava_namilae_2022]: https://doi.org/10.1007/s10443-022-10086-5
+[research_chava_namilae_2022_b]: https://doi.org/10.1177/00219983211066545
+[research_chemorheology_and_2000]: https://doi.org/10.1201/9781482273700-37
+[research_chemorheology_and_2009]: https://doi.org/10.1017/cbo9780511581403.006
+[research_chemorheology_of_1982]: https://doi.org/10.1021/bk-1982-0227.fw001
+[research_chemorheology_of_1982_b]: https://doi.org/10.1021/bk-1982-0227
+[research_chemorheology_of_2008]: https://doi.org/10.1201/b12245-20
+[research_chen]: https://doi.org/10.33915/etd.2626
+[research_chen_1983]: https://doi.org/10.1111/j.1540-5915.1983.tb00178.x
+[research_chen_bil_2014]: https://doi.org/10.2514/6.2014-3264
+[research_chen_chen_1993]: https://doi.org/10.1016/0263-8223(93)90156-k
+[research_chen_cheng_2020]: https://doi.org/10.1177/1099636220935563
+[research_chen_chenkeat_2014]: https://doi.org/10.1515/secm-2013-0257
+[research_chen_chew_1998]: https://doi.org/10.21236/ada351741
+[research_chen_davila_2001]: https://doi.org/10.4050/vfs-f57-00096
+[research_chen_don_2004]: https://doi.org/10.1002/app.20314
+[research_chen_fu_1998]: https://doi.org/10.1002/(sici)1097-0126(199808)46:4<325::aid-pi33>3.0.co;2-i
+[research_chen_fu_2021]: https://doi.org/10.1016/j.compositesa.2020.106160
+[research_chen_gao_2018]: https://doi.org/10.1016/j.conbuildmat.2017.10.074
+[research_chen_haitran_2013]: https://doi.org/10.1108/00022661311313560
+[research_chen_han_2026]: https://doi.org/10.2139/ssrn.6709808
+[research_chen_he_2003]: https://doi.org/10.1016/s0142-9418(03)00002-3
+[research_chen_janeliukstis_2022]: https://doi.org/10.1016/j.compstruct.2022.115525
+[research_chen_joseph_2021]: https://doi.org/10.1115/1.4052132
+[research_chen_legrand_2023]: https://doi.org/10.1016/j.compstruct.2022.116594
+[research_chen_lei_2014]: https://doi.org/10.4028/www.scientific.net/amr.941-944.1558
+[research_chen_li_2017]: https://doi.org/10.1177/0954008317693291
+[research_chen_li_2022]: https://doi.org/10.1007/s10443-022-10027-2
+[research_chen_li_2026]: https://doi.org/10.1088/1742-6596/3197/1/012046
+[research_chen_lin_1991]: https://doi.org/10.1016/0045-7949(91)90176-m
+[research_chen_liu_2026]: https://doi.org/10.1016/j.measurement.2026.122569
+[research_chen_mei_1994]: https://doi.org/10.1115/imece1994-1272
+[research_chen_poursartip_2020]: https://doi.org/10.1016/j.compscitech.2020.108241
+[research_chen_poursartip_2021]: https://doi.org/10.1016/j.compositesa.2021.106447
+[research_chen_ren_2019]: https://doi.org/10.12783/asc34/31399
+[research_chen_storch_2013]: https://doi.org/10.1007/978-3-642-40352-1_40
+[research_chen_tian_2023]: https://doi.org/10.2115/fiberst.2023-0002
+[research_chen_tu_1993]: https://doi.org/10.1177/002199839302701603
+[research_chen_usman_1998]: https://doi.org/10.4271/982370
+[research_chen_wang_2020]: https://doi.org/10.1016/j.compstruct.2020.112168
+[research_chen_wang_2021]: https://doi.org/10.1016/j.tws.2021.108425
+[research_chen_wu_2021]: https://doi.org/10.1016/j.compstruct.2021.114585
+[research_chen_wu_2026]: https://doi.org/10.1016/j.compstruct.2025.120000
+[research_chen_yang_1998]: https://doi.org/10.1016/s0263-8223(98)00028-2
+[research_chen_ye_2004]: https://doi.org/10.1016/j.compstruct.2004.04.056
+[research_chen_ye_2024]: https://doi.org/10.1016/j.compstruct.2023.117721
+[research_chen_zhang_2018]: https://doi.org/10.1016/j.compstruct.2018.07.016
+[research_chen_zhang_2019]: https://doi.org/10.1016/j.compositesa.2019.105575
+[research_chen_zhou_2014]: https://doi.org/10.1134/s1560090414050017
+[research_chen_zhu_2023]: https://doi.org/10.1155/2023/5244722
+[research_cheng_ozsoy_2013]: https://doi.org/10.1002/9781118753682.ch2
+[research_chenlongyang_2011]: https://doi.org/10.1109/mace.2011.5987849
+[research_chern_djordjevic_1992]: https://doi.org/10.1016/0963-8695(92)90581-z
+[research_cherrington_towill_1983]: https://doi.org/10.1080/00207548308942364
+[research_chester_walker_1999]: https://doi.org/10.1016/s0143-7496(98)00014-1
+[research_cheung_gray_2010]: https://doi.org/10.2514/6.2010-3024
+[research_cheung_lin_2009]: https://doi.org/10.2514/6.2009-2242
+[research_cheung_lin_2012]: https://doi.org/10.2514/1.c031616
+[research_cheung_scott_1996]: https://doi.org/10.1533/cras.1996.0022
+[research_chi_langdon_2010]: https://doi.org/10.1016/j.matdes.2009.10.058
+[research_chi_sladek_1975]: https://doi.org/10.1007/978-3-642-95275-3_11
+[research_chiao_lyon_1990]: https://doi.org/10.1177/002199839002400704
+[research_chiariello_perillo_2024]: https://doi.org/10.3390/aerospace11040278
+[research_childers_hassan_2016]: https://doi.org/10.1016/j.arabjc.2015.08.010
+[research_chilvers_morris_1998]: https://doi.org/10.1006/jmre.1998.1464
+[research_chimenti_1991]: https://doi.org/10.1016/0041-624x(91)90003-q
+[research_chimenti_fortunko_1994]: https://doi.org/10.1016/0041-624x(94)90004-3
+[research_chinva_olarey_1996]: https://doi.org/10.1533/cras.1996.0024
+[research_chittaranjanv_kmunisekhar_2017]: https://doi.org/10.17577/ijertv6is040662
+[research_chiu_koh_2000]: https://doi.org/10.1016/s0263-8223(00)00110-0
+[research_chmielewski_jayaraman_1993]: https://doi.org/10.1002/pc.750140311
+[research_cho_douglas_2002]: https://doi.org/10.1021/ma011817v
+[research_cho_rhee_2011]: https://doi.org/10.1016/j.compstruct.2011.04.019
+[research_choi_aslam_2026]: https://doi.org/10.1016/j.ndteint.2026.103798
+[research_choi_im_1999]: https://doi.org/10.1016/s0263-8223(00)00045-3
+[research_choi_janisse_2011]: https://doi.org/10.1002/pola.24909
+[research_choi_jeong_2022]: https://doi.org/10.1016/j.polymer.2022.125030
+[research_choi_kelly_2005]: https://doi.org/10.2514/1.12872
+[research_choi_kim_2003]: https://doi.org/10.1016/s0924-0136(02)00845-2
+[research_choi_kim_2004]: https://doi.org/10.4028/www.scientific.net/kem.270-273.1200
+[research_choi_lee_1995]: https://doi.org/10.1177/002199839502900903
+[research_choi_mount_2006]: https://doi.org/10.1109/psce.2006.296425
+[research_chosie_vasconcelos_2013]: https://doi.org/10.1061/9780784412947.161
+[research_chou_cronmen_1978]: https://doi.org/10.21236/ada325876
+[research_chou_penn_1992]: https://doi.org/10.1177/002199839202600202
+[research_christiansen_1944]: https://doi.org/10.1097/00010694-194411000-00002
+[research_chu_featherston_2023]: https://doi.org/10.2514/6.2023-1270
+[research_chu_mckenna_1997]: https://doi.org/10.1016/s0014-3057(96)00243-1
+[research_chuang_chang_1986]: https://doi.org/10.1007/978-1-4615-7763-8_91
+[research_chueangchayaphan_nithiuthai_2020]: https://doi.org/10.1007/s00289-020-03269-2
+[research_cicek_erdal_2016]: https://doi.org/10.1177/0021998316669993
+[research_cidlina_muller_2015]: https://doi.org/10.21062/ujep/x.2015/a/1213-2489/mt/15/4/520
+[research_ciminello_memmolo_2026]: https://doi.org/10.3390/applmech7010019
+[research_cinar_ersoy_2015]: https://doi.org/10.1016/j.compositesa.2014.10.025
+[research_cinar_guven_2020]: https://doi.org/10.1016/j.compstruct.2020.112425
+[research_ciriscioli_qiulingwang_1992]: https://doi.org/10.1177/002199839202600106
+[research_ciriscioli_springer_1991]: https://doi.org/10.1177/002199839102501201
+[research_ciriscioli_springer_2021]: https://doi.org/10.1201/9781003209010-4
+[research_ciriscioli_springer_2021_b]: https://doi.org/10.1201/9781003209010-5
+[research_cizmecioglu_gupta_1986]: https://doi.org/10.1002/app.1986.070320804
+[research_cjin_li_2019]: https://doi.org/10.5772/intechopen.81600
+[research_clark_romilly_2001]: https://doi.org/10.4271/2001-01-2628
+[research_claus_kline_1979]: https://doi.org/10.1063/1.325943
+[research_clay_brown_2021]: https://doi.org/10.2514/6.2021-0311
+[research_clay_knoth_2023]: https://doi.org/10.2514/6.2023-1316
+[research_clayton_1970]: https://doi.org/10.2514/6.1970-919
+[research_clearfield_mcnamara_1991]: https://doi.org/10.1007/978-1-4757-9006-1_8
+[research_clifford_jansson_2006]: https://doi.org/10.1016/j.compositesa.2005.05.008
+[research_cloth_type]: https://doi.org/10.4271/ams3845/2
+[research_cloth_type_b]: https://doi.org/10.4271/ams3845/1b
+[research_co_cure_2007]: https://doi.org/10.1007/978-0-387-30160-0_2485
+[research_cobb_johnson_1999]: https://doi.org/10.1080/00218469908014844
+[research_coduti_paratore_1997]: https://doi.org/10.4271/970151
+[research_cody_tiedje_1996]: https://doi.org/10.1557/proc-426-539
+[research_cody_tiedje_1997]: https://doi.org/10.1063/1.53464
+[research_coladasmato_webb_2019]: https://doi.org/10.1016/j.ast.2019.05.024
+[research_cole_1991]: https://doi.org/10.1021/ma00011a011
+[research_colley_2009]: https://doi.org/10.2139/ssrn.1421681
+[research_collier_yarrington_2002]: https://doi.org/10.2514/6.2002-1222
+[research_comascardona_groenenboom_2005]: https://doi.org/10.1016/j.compositesa.2004.11.009
+[research_combined_sensor_1998]: https://doi.org/10.1016/s0963-8695(98)90469-8
+[research_combined_sensor_1998_b]: https://doi.org/10.1016/s0963-8695(98)90477-7
+[research_comer_ray_2019]: https://doi.org/10.1016/j.compstruct.2019.01.069
+[research_comey_culy_1978]: https://doi.org/10.4271/781033
+[research_composite_and]: https://doi.org/10.4271/air5279
+[research_composite_and_b]: https://doi.org/10.4271/air5278
+[research_composite_and_c]: https://doi.org/10.4271/air4938a
+[research_composite_fuselage_2000]: https://doi.org/10.1016/s0034-3617(00)88837-2
+[research_composite_fuselage_2004]: https://doi.org/10.1016/s0034-3617(04)00150-x
+[research_composite_honeycomb]: https://doi.org/10.4271/arp5606a
+[research_composite_moulding_1995]: https://doi.org/10.1016/0010-4361(95)92627-o
+[research_composite_panel_1990]: https://doi.org/10.1016/0956-7143(90)90253-s
+[research_composite_repair]: https://doi.org/10.4271/arp5089
+[research_composite_sintered_1991]: https://doi.org/10.1016/0010-4361(91)90179-k
+[research_composite_skin_1995]: https://doi.org/10.1016/0034-3617(95)92157-5
+[research_composite_structure_1990]: https://doi.org/10.1016/0956-7143(90)90279-6
+[research_composite_structure_1998]: https://doi.org/10.1016/s1359-835x(98)90111-7
+[research_composite_tails_2001]: https://doi.org/10.1108/aeat.2001.12773aab.004
+[research_composite_tooling_1990]: https://doi.org/10.1016/0956-7143(90)90204-a
+[research_composite_wing_2001]: https://doi.org/10.1108/aeat.2001.12773aab.009
+[research_composites_prepregs]: https://doi.org/10.3403/01970554
+[research_composites_review_1986]: https://doi.org/10.1016/0010-4361(86)90309-5
+[research_compression_molding_2020]: https://doi.org/10.1016/j.repl.2020.04.015
+[research_computer_aided_2010]: https://doi.org/10.30684/etj.28.8.20
+[research_condon_cook_1983]: https://doi.org/10.4050/sm_struct_1983-3199
+[research_conductive_thermoset_2018]: https://doi.org/10.21741/9781945291876-7
+[research_cone_1966]: https://doi.org/10.1520/stp44648s
+[research_constructive_design_2008]: https://doi.org/10.1002/9783527626458.ch11
+[research_continuous_monitoring_1990]: https://doi.org/10.1016/0956-7143(90)90283-3
+[research_controlled_damage_based]: https://doi.org/10.12681/eadd/46168
+[research_cook_lau_2001]: https://doi.org/10.1002/1097-0126(200101)50:1<129::aid-pi598>3.0.co;2-c
+[research_copeland_1995]: https://doi.org/10.4271/952032
+[research_copley_1987]: https://doi.org/10.1007/978-1-4613-1893-4_104
+[research_corcoles_zastrow_2015]: https://doi.org/10.1109/usnc-ursi.2015.7303599
+[research_core_flexible]: https://doi.org/10.4271/ams4177d
+[research_core_flexible_b]: https://doi.org/10.4271/ams4177b
+[research_core_flexible_c]: https://doi.org/10.4271/ams4178b
+[research_core_flexible_d]: https://doi.org/10.4271/ams4178e
+[research_core_flexible_e]: https://doi.org/10.4271/ams4177
+[research_core_flexible_f]: https://doi.org/10.4271/ams4177f
+[research_core_honeycomb]: https://doi.org/10.4271/ams4349c
+[research_corezzi_fioretto_2010]: https://doi.org/10.1016/j.polymer.2010.09.073
+[research_corrado_polini_2019]: https://doi.org/10.1177/0021998319828443
+[research_corrosion_of_1999]: https://doi.org/10.31399/asm.tb.caaa.t67870161
+[research_cortes_maravola_2019]: https://doi.org/10.33599/nasampe/s.19.1556
+[research_cost_estimating_relationships_1972]: https://doi.org/10.7249/r0761
+[research_cost_model_design]: https://doi.org/10.1007/s10443-020-09828-0
+[research_cost_of_2000]: https://doi.org/10.1108/aeat.2000.12772bab.003
+[research_cost_of_2010]: https://doi.org/10.1002/9780470972700.ch2
+[research_cost_of_2013]: https://doi.org/10.1002/9781118536933.ch2
+[research_costa_botelho_2005]: https://doi.org/10.1590/s1516-14392005000300016
+[research_costa_botelho_2006]: https://doi.org/10.1007/s10853-006-6082-1
+[research_costa_pardini_2005]: https://doi.org/10.1590/s1516-14392005000100012
+[research_cot_mukherjee_2015]: https://doi.org/10.12783/shm2015/282
+[research_couchman_1980]: https://doi.org/10.1021/ma60077a046
+[research_coulehan_1984]: https://doi.org/10.1007/978-1-4613-2781-3_15
+[research_coupled_evacuation]: https://doi.org/10.1177/0021998315592005
+[research_cox_2006]: https://doi.org/10.21236/ada447105
+[research_cozar_turon_2020]: https://doi.org/10.1016/j.compositesa.2020.106069
+[research_crane_hartsmith_2021]: https://doi.org/10.1016/b978-0-12-819954-1.00008-3
+[research_crashworthiness_and]: https://doi.org/10.51459/futajeet.2023.17.2.49
+[research_crashworthiness_of_2017]: https://doi.org/10.1201/9781315140452
+[research_crashworthy_composite_1996]: https://doi.org/10.1016/1359-835x(96)81202-4
+[research_crasto_kim_2002]: https://doi.org/10.1002/pc.10447
+[research_crawford_ramezankhani_2022]: https://doi.org/10.21203/rs.3.rs-2277713/v1
+[research_crilly_1967]: https://doi.org/10.4271/670857
+[research_crocombe_moult_1988]: https://doi.org/10.1007/978-94-009-1349-3_12
+[research_crosby_fernando_1999]: https://doi.org/10.1007/978-1-4757-6077-4_3
+[research_crosby_kundu_2003]: https://doi.org/10.2514/6.2003-6827
+[research_crothers_baddock_2002]: https://doi.org/10.1016/s0263-8223(02)00085-5
+[research_crown_panel_manufacturing]: https://ntrs.nasa.gov/citations/19940028627
+[research_crown_panel_optimal]: https://doi.org/10.2514/6.1994-1493
+[research_crown_panel_scaleup]: https://ntrs.nasa.gov/citations/19950022414
+[research_crump_dulieubarton_2009]: https://doi.org/10.1088/0957-0233/21/1/015108
+[research_cuc_giurgiutiu_2004]: https://doi.org/10.1117/12.540358
+[research_cui_hong_2003]: https://doi.org/10.1002/app.12394
+[research_cui_zhang_2025]: https://doi.org/10.1016/j.coco.2025.102564
+[research_cumbo_baroni_2022]: https://doi.org/10.1177/00219983221117216
+[research_cummings_1983]: https://doi.org/10.1002/pc.750040402
+[research_cunningham_1980]: https://doi.org/10.1109/mspec.1980.6330359
+[research_cure_cycle_2007]: https://doi.org/10.1007/978-0-387-30160-0_3137
+[research_cure_shrinkage_2014]: https://doi.org/10.1201/b16618-8
+[research_curran_gomis_2007]: https://doi.org/10.1016/j.ijpe.2006.11.010
+[research_curtin_adey_2000]: https://doi.org/10.1520/stp14818s
+[research_cusano_breglio_2000]: https://doi.org/10.1016/s0924-4247(00)00361-7
+[research_cwilliam_sndazi_2025]: https://doi.org/10.52339/tjet.v44i2.1310
+[research_cytec_unveils_2011]: https://doi.org/10.1016/s1364-5439(10)70257-4
+[research_czarnocki_czajkowska_2015]: https://doi.org/10.1515/ama-2015-0029
+[research_czarnocki_piekarski_1986]: https://doi.org/10.1016/0143-7496(86)90055-2
+[research_czarnocki_piekarski_1986_b]: https://doi.org/10.1016/0143-7496(86)90020-5
+[research_d3530_d3530m_test_2008]: https://doi.org/10.1520/d3530m
+[research_d_rameshkumar_2025]: https://doi.org/10.1177/08927057251412293
+[research_dacostamattos_monteiro_2012]: https://doi.org/10.1016/j.matdes.2011.07.031
+[research_dahmen_2025]: https://doi.org/10.2139/ssrn.5895696
+[research_dahmen_2026]: https://doi.org/10.1016/j.ultras.2026.108047
+[research_dai_he_2010]: https://doi.org/10.1007/s00226-010-0332-8
+[research_dai_li_2023]: https://doi.org/10.1111/ffe.13981
+[research_dai_webb_2023]: https://doi.org/10.2514/6.2023-0516
+[research_daines_1966]: https://doi.org/10.21236/ad0645874
+[research_daisse_marcon_2022]: https://doi.org/10.1016/j.polymer.2022.125326
+[research_dallaliberajunior_leao_2020]: https://doi.org/10.1080/14658011.2020.1729658
+[research_damage_identification_2017]: https://doi.org/10.21741/9781945291296-4
+[research_damato_2007]: https://doi.org/10.1016/j.compstruct.2005.10.001
+[research_damghani_saadkhan_2024]: https://doi.org/10.1016/j.compstruct.2024.117989
+[research_dance_jarvis]: https://doi.org/10.1109/ismss.1990.66108
+[research_dance_middlebrook_1979]: https://doi.org/10.1520/stp36024s
+[research_dang_bernetich_2011]: https://doi.org/10.4050/vfs-f67-000236
+[research_dangelo_cavaccini_2018]: https://doi.org/10.1109/metroaerospace.2018.8453579
+[research_daniel_wooh_1992]: https://doi.org/10.1007/bf00566012
+[research_danzi_klunker_2016]: https://doi.org/10.1177/0021998316671574
+[research_dao_hodgkin_2006]: https://doi.org/10.1002/app.24862
+[research_dao_hodgkin_2007]: https://doi.org/10.1002/app.27104
+[research_das_pradhan_2013]: https://doi.org/10.1177/1056789513513199
+[research_dasilva_campilho_2015]: https://doi.org/10.1016/b978-0-85709-806-1.00002-1
+[research_dasilva_donadon_2022]: https://doi.org/10.1016/j.tws.2021.108636
+[research_dassios_aggelis_2013]: https://doi.org/10.1016/j.compositesa.2012.06.011
+[research_datta_2021]: https://doi.org/10.32920/ryerson.14646126.v1
+[research_datta_masood_2026]: https://doi.org/10.1016/j.measurement.2026.122194
+[research_datta_munshi_1996]: https://doi.org/10.1080/10589759608953015
+[research_dauksys_pagano_1968]: https://doi.org/10.21236/ad0670597
+[research_dave_1990]: https://doi.org/10.1177/002199839002400102
+[research_dave_kardos_1987]: https://doi.org/10.1002/pc.750080106
+[research_dave_kardos_1987_b]: https://doi.org/10.1002/pc.750080209
+[research_davies_day_2007]: https://doi.org/10.4028/0-87849-427-8.545
+[research_davilamontano]: https://doi.org/10.70675/b082d691z58cbz4550z8e51z9fa7aeaa2210
+[research_davis_2002]: https://doi.org/10.1016/b978-008042699-0/50026-7
+[research_davis_harkless_2001]: https://doi.org/10.21236/ada386004
+[research_davisgw_sakataif_1981]: https://ntrs.nasa.gov/citations/19810013888
+[research_davoodi_safizadeh_2025]: https://doi.org/10.1784/insi.2025.67.12.741
+[research_davydenko_horb_2018]: https://doi.org/10.14419/ijet.v7i3.2.14551
+[research_dawei_xuefeng_2012]: https://doi.org/10.1016/j.phpro.2012.03.109
+[research_dawnjegley_alanamariecardona]: https://ntrs.nasa.gov/citations/20230002978
+[research_day_lee_1989]: https://doi.org/10.1007/978-94-009-1123-9_106
+[research_deandraderaponi_barbosa_2020]: https://doi.org/10.1007/s00170-020-05022-5
+[research_dear_2020]: https://doi.org/10.1007/978-3-030-31065-3_3
+[research_deatonjerryw_dexterhbenson_1995]: https://ntrs.nasa.gov/citations/19960021801
+[research_debruyn_hurworth_2008]: https://doi.org/10.2514/6.2008-6034
+[research_debski_kubiak_2013]: https://doi.org/10.1016/j.compstruct.2012.12.033
+[research_debulk_temperature]: https://doi.org/10.1080/20550340.2020.1728476
+[research_decos_sanchez_2008]: https://doi.org/10.1016/j.ijpe.2007.05.016
+[research_defariagonzalesleal_depaulasantos_2024]: https://doi.org/10.1080/10426914.2024.2334679
+[research_defenza_petrone_2017]: https://doi.org/10.1016/j.compstruct.2016.10.004
+[research_definition_of_1954]: https://doi.org/10.59161/cgpm1954res4e
+[research_defreitas_budzik_2023]: https://doi.org/10.1016/b978-0-323-91214-3.00027-2
+[research_degenhardt_rolfes_2006]: https://doi.org/10.1016/j.compstruct.2005.11.042
+[research_degenhardt_tessmer_2007]: https://doi.org/10.2514/6.2007-2180
+[research_degiorgi_nobile_2020]: https://doi.org/10.1007/s42452-020-03428-0
+[research_degraff_liang_2022]: https://doi.org/10.33599/nasampe/c.22.0102
+[research_dehennis_2025]: https://doi.org/10.4050/f-0081-2025-0228
+[research_dehghani_perrin_2025]: https://doi.org/10.1016/j.jcomc.2025.100625
+[research_deignan_stanley_2017]: https://doi.org/10.1177/0021998317740733
+[research_delacruz_sheppard_1990]: https://doi.org/10.1016/0022-2860(90)87013-n
+[research_delionback_1979]: https://doi.org/10.1080/21649405.1979.10462447
+[research_delsol_olivier_2026]: https://doi.org/10.4028/p-jwxq3e
+[research_delumley_mathieu_2019]: https://doi.org/10.33599/nasampe/s.19.1409
+[research_demedeiros_borges_2014]: https://doi.org/10.1186/2196-4351-2-13
+[research_demir_yildiz_2023]: https://doi.org/10.1115/imece2023-113986
+[research_demorais_2023]: https://doi.org/10.1080/00218464.2023.2230896
+[research_demoura_chousal_2013]: https://doi.org/10.1002/9781118753682.ch5
+[research_deng_lugo_2026]: https://doi.org/10.1016/j.nxmate.2026.102159
+[research_deng_yeh_2009]: https://doi.org/10.1002/j.2334-5837.2009.tb00948.x
+[research_deng_yeh_2010]: https://doi.org/10.1016/j.eswa.2010.05.038
+[research_deng_yeh_2011]: https://doi.org/10.1016/j.ijpe.2011.02.019
+[research_denney_mall_1996]: https://doi.org/10.2514/6.1996-1322
+[research_denney_mall_1997]: https://doi.org/10.1016/s0013-7944(97)00050-7
+[research_deo_1996]: https://doi.org/10.1115/imece1996-0619
+[research_depasqual_2001]: https://doi.org/10.21236/ada386085
+[research_deringer_groschel_2017]: https://doi.org/10.1515/polyeng-2016-0409
+[research_derosset_2003]: https://doi.org/10.21236/ada419365
+[research_desarodrigues_giannakeas_2023]: https://doi.org/10.1016/j.ndteint.2023.102924
+[research_desgrosseilliers_groulx_2014]: https://doi.org/10.1007/s00231-014-1295-3
+[research_deshpande_2020]: https://doi.org/10.26226/morressier.5f5f8e69aa777f8ba5bd5f74
+[research_deshpande_shah_2019]: https://doi.org/10.12783/asc34/31379
+[research_deshpande_shah_2020]: https://doi.org/10.12783/asc35/34889
+[research_design_for]: https://doi.org/10.3403/bs8887
+[research_design_for_1998]: https://doi.org/10.1049/me:19980513
+[research_design_for_2001]: https://doi.org/10.1201/9780824741587.ch15
+[research_design_for_2007]: https://doi.org/10.1201/9781420046885.axc
+[research_design_of_2017]: https://doi.org/10.1201/9781315268057-15
+[research_design_of_2024]: https://doi.org/10.3390/books978-3-0365-9908-3
+[research_desplentere_verpoest_2009]: https://doi.org/10.1063/1.3203279
+[research_destic_bouvet_2016]: https://doi.org/10.1016/j.csndt.2016.09.003
+[research_detweiler_1995]: https://doi.org/10.1080/08823871.1995.10462291
+[research_detz_vanderzwaan_2020]: https://doi.org/10.1016/j.jclepro.2020.122278
+[research_devalve_pitchumani_2013]: https://doi.org/10.1016/j.compositesa.2013.03.016
+[research_devarajan_kapania_2020]: https://doi.org/10.1016/j.compstruct.2020.111881
+[research_development_of_1994]: https://doi.org/10.1016/0963-8695(94)90685-8
+[research_developments_in_1991]: https://doi.org/10.1016/0034-3617(91)90189-6
+[research_dewaidi]: https://doi.org/10.12794/metadc1707373
+[research_dewangan_chakladar_2023]: https://doi.org/10.1016/j.mtcomm.2023.105711
+[research_dewangan_chakladar_2024]: https://doi.org/10.1002/pc.28885
+[research_dhavale_1990]: https://doi.org/10.1108/01443579010143792
+[research_dhilipkumar_rajesh_2021]: https://doi.org/10.1016/j.coco.2021.100878
+[research_dhilipkumar_rajesh_2022]: https://doi.org/10.1177/00219983221088900
+[research_dickson_cole_1980]: https://doi.org/10.1007/978-1-4684-1033-4_17
+[research_dickstein_spelt_1993]: https://doi.org/10.1080/10589759308952803
+[research_dielectric_cure_1990]: https://doi.org/10.1016/0010-4361(90)90157-r
+[research_dielectric_cure_2008]: https://doi.org/10.1201/9781420043730-21
+[research_dielectric_measurements_1990]: https://doi.org/10.1016/0308-9126(90)91646-b
+[research_differential_scanning]: https://doi.org/10.1007/springerreference_33962
+[research_differential_scanning_2019]: https://doi.org/10.31399/asm.hb.v10.a0006672
+[research_differential_scanning_2025]: https://doi.org/10.1201/9780367694265-eppmpt32-0
+[research_differential_thermal]: https://doi.org/10.1007/0-306-48404-8_4
+[research_digby_packham_1995]: https://doi.org/10.1016/0143-7496(95)98739-9
+[research_diharjo_anwar_2016]: https://doi.org/10.1063/1.4941496
+[research_dillon_2005]: https://doi.org/10.21236/ada437260
+[research_dimitrovova]: https://doi.org/10.4203/ccp.81.146
+[research_dimopoulos_skordos_2011]: https://doi.org/10.1002/app.34605
+[research_dinardo_lagace_1987]: https://doi.org/10.2514/6.1987-730
+[research_dines_1979]: https://doi.org/10.1016/0161-7346(79)90003-8
+[research_ding]: https://doi.org/10.32469/10355/10928
+[research_ding_fang_2022]: https://doi.org/10.1016/j.compstruct.2021.114871
+[research_ding_li_2015]: https://doi.org/10.1016/j.compstruct.2015.03.034
+[research_ding_tong_2007]: https://doi.org/10.1177/0892705707073086
+[research_ding_wang_2020]: https://doi.org/10.1016/j.compstruct.2020.112629
+[research_dipasqualedavide_goredavid_2017]: https://doi.org/10.3233/978-1-61499-792-4-579
+[research_dipietro_compston_2010]: https://doi.org/10.1007/978-3-642-10798-6_10
+[research_dippenaar_schreve_2012]: https://doi.org/10.1007/s00170-012-4034-2
+[research_disbond_2007]: https://doi.org/10.1007/978-0-387-30160-0_3764
+[research_dispenza_spadaro_2000]: https://doi.org/10.1023/a:1010190022480
+[research_diukov_2021]: https://doi.org/10.34759/trd-2021-116-12
+[research_djiauw_1981]: https://doi.org/10.4271/811350
+[research_djokic_johnston_2002]: https://doi.org/10.1016/s1359-835x(01)00083-5
+[research_dmitriev_zhyvenkova_2016]: https://doi.org/10.17277/amt.2016.02.pp.053-060
+[research_dobrzanski_oleksiak_2021]: https://doi.org/10.2478/tar-2021-0004
+[research_dolkun_zhu_2018]: https://doi.org/10.1177/0021998318771458
+[research_domanski_2020]: https://doi.org/10.1201/9781003013877-4
+[research_dominguez_madsen_2014]: https://doi.org/10.1177/0021998314559060
+[research_donath_globerson_1981]: https://doi.org/10.1080/00207548108956639
+[research_donetskiy_timoshkov_2022]: https://doi.org/10.52190/2073-2562_2022_1_29
+[research_dong_2008]: https://doi.org/10.1016/j.compscitech.2008.03.019
+[research_dong_2009]: https://doi.org/10.1016/j.compositesa.2009.05.013
+[research_dong_2010]: https://doi.org/10.1016/j.compstruct.2009.11.026
+[research_dong_2010_b]: https://doi.org/10.1016/j.compositesa.2009.12.009
+[research_dong_liu_2023]: https://doi.org/10.1016/j.apacoust.2022.109200
+[research_dong_zhao_2018]: https://doi.org/10.3390/ma11030421
+[research_dongwang_li_2019]: https://doi.org/10.1016/j.compstruct.2018.10.016
+[research_donough_shafaq_2022]: https://doi.org/10.1016/j.compositesa.2022.107179
+[research_doong_chen_1995]: https://doi.org/10.1007/978-94-011-1228-4_7
+[research_dopker_murphy_1994]: https://doi.org/10.2514/6.1994-1406
+[research_dorbath_schur_2023]: https://doi.org/10.1109/jsen.2023.3310739
+[research_dorighi_krishnaswamy_1996]: https://doi.org/10.1007/978-1-4613-0383-1_85
+[research_dorward_ketola_1983]: https://doi.org/10.2514/6.1983-970
+[research_dorworth_2001]: https://doi.org/10.31399/asm.hb.v21.a0003403
+[research_dosreis_beall_1992]: https://doi.org/10.1016/0963-8695(92)90552-r
+[research_dostef_averywb_1992]: https://ntrs.nasa.gov/citations/19950022061
+[research_double_lobe_fuselage_1988]: https://doi.org/10.1016/0010-4361(88)90321-7
+[research_douglasaircraftcolongbeachca_1977]: https://doi.org/10.21236/ada056857
+[research_dragan_synaszko_2009]: https://doi.org/10.2478/v10164-010-0003-0
+[research_dragan_synaszko_2011]: https://doi.org/10.2478/v10164-010-0033-7
+[research_draper_liang_2019]: https://doi.org/10.5006/c2019-12829
+[research_drew_knipe_2018]: https://doi.org/10.53347/rid-60856
+[research_druy_elandjian_1989]: https://doi.org/10.1117/12.948895
+[research_drying_of]: https://doi.org/10.4271/arp4977
+[research_du]: https://doi.org/10.14264/eb3f76d
+[research_du_guo_2004]: https://doi.org/10.1002/pi.1533
+[research_du_yue_2019]: https://doi.org/10.1115/1.4044249
+[research_duan_gao_2018]: https://doi.org/10.1016/j.cryogenics.2018.07.008
+[research_duan_sun_2024]: https://doi.org/10.1080/13588265.2024.2366626
+[research_duann_chen_2005]: https://doi.org/10.1002/app.21399
+[research_dubary_bouvet_2018]: https://doi.org/10.1016/j.compstruct.2018.08.045
+[research_dugmore_jonson_2002]: https://doi.org/10.1016/s0263-8223(02)00131-9
+[research_dugnani_chang_2016]: https://doi.org/10.1177/1045389x16645864
+[research_duke_1983]: https://doi.org/10.1520/stp28540s
+[research_dukejr_lesko_1996]: https://doi.org/10.1117/12.259138
+[research_duller_mahendran_2026]: https://doi.org/10.1016/j.polymer.2026.129561
+[research_dung_hoa_2015]: https://doi.org/10.1016/j.compositesb.2014.10.018
+[research_dunn_2020]: https://doi.org/10.13031/trans.13708
+[research_duong_2019]: https://doi.org/10.1115/1.4042893
+[research_duong_duclos_2015]: https://doi.org/10.1016/j.phpro.2015.08.015
+[research_duong_wang_2007]: https://doi.org/10.1016/b978-008045146-6/50004-7
+[research_duperrex_pesci_2021]: https://doi.org/10.1016/j.msea.2021.141148
+[research_dusek_matejka_1984]: https://doi.org/10.1021/ba-1984-0208.ch002
+[research_dusi_may_1982]: https://doi.org/10.1021/bk-1982-0227.ch018
+[research_dutruch_pascal_1997]: https://doi.org/10.1002/(sici)1099-1581(199701)8:1<8::aid-pat603>3.0.co;2-q
+[research_dvorak_1997]: https://doi.org/10.21236/ada336916
+[research_dvorak_1997_b]: https://doi.org/10.21236/ada336915
+[research_dvorak_2002]: https://doi.org/10.21236/ada414027
+[research_dvorak_kabrt_2013]: https://doi.org/10.4028/www.scientific.net/amm.486.102
+[research_dynamic_analysis_2014]: https://doi.org/10.4172/2169-0022.1000152
+[research_dzenis_2005]: https://doi.org/10.21236/ada431776
+[research_dziubek_1980]: https://doi.org/10.21236/ada083385
+[research_dziubek_1981]: https://doi.org/10.21236/ada108965
+[research_dziubek_1981_b]: https://doi.org/10.21236/ada108960
+[research_dziubek_1981_c]: https://doi.org/10.21236/ada108963
+[research_dziubek_1981_d]: https://doi.org/10.21236/ada108966
+[research_dziubek_1981_e]: https://doi.org/10.21236/ada108962
+[research_dziubek_1981_f]: https://doi.org/10.21236/ada108958
+[research_dziubek_1981_g]: https://doi.org/10.21236/ada108964
+[research_dziubek_1981_h]: https://doi.org/10.21236/ada108967
+[research_dziubek_1981_i]: https://doi.org/10.21236/ada108959
+[research_eakin_2010]: https://doi.org/10.1002/9780470686652.eae363
+[research_eder_rose_1994]: https://doi.org/10.1115/imece1994-1051
+[research_eduardosalamanca_luisquiroz_2005]: https://doi.org/10.1108/00022660510585983
+[research_edwards_2002]: https://doi.org/10.1016/s0261-3069(02)00050-x
+[research_edwards_savage_2011]: https://doi.org/10.5755/j01.u.66.2.529
+[research_effect_of_2012]: https://doi.org/10.14359/51683770
+[research_effect_of_2015]: https://doi.org/10.1002/9781119013228.ch7
+[research_effect_of_2016]: https://doi.org/10.16962/elkapj/si.arimpie-2016.8
+[research_effect_of_2016_b]: https://doi.org/10.2174/9781681083056116010006
+[research_effect_of_2023]: https://doi.org/10.3901/jme.2023.02.104
+[research_effects_of_1989]: https://doi.org/10.1016/0010-4361(89)90923-3
+[research_effects_of_1990]: https://doi.org/10.1016/0956-7143(90)90062-2
+[research_effects_of_2015]: https://doi.org/10.1201/b18179-102
+[research_egan_mccarthy_2015]: https://doi.org/10.1016/j.compstruct.2015.07.004
+[research_egge_1993]: https://doi.org/10.21236/ada275381
+[research_eggert]: https://doi.org/10.18260/1-2--370
+[research_ehmke_rao_2017]: https://doi.org/10.1109/coase.2017.8256179
+[research_eijpe_powell_1997]: https://doi.org/10.1016/s0263-8223(98)80004-4
+[research_ekom_2021]: https://doi.org/10.7771/2159-6670.1211
+[research_ekuase_anjum_2022]: https://doi.org/10.3390/jcs6060172
+[research_ekvall_griffin_1981]: https://doi.org/10.2514/6.1981-541
+[research_ekvall_griffin_1982]: https://doi.org/10.2514/3.57447
+[research_ekvall_griffin_1983]: https://doi.org/10.2514/3.56725
+[research_elastic_buckling_2021]: https://doi.org/10.5829/ije.2021.34.01a.27
+[research_elburn_toonen_2012]: https://doi.org/10.21236/ada579857
+[research_eldeeb_xu_2026]: https://doi.org/10.1016/j.compstruct.2026.120156
+[research_electrical_insulating]: https://doi.org/10.3403/03046795
+[research_elenchezhian_enos_2022]: https://doi.org/10.33599/nasampe/c.22.0141
+[research_eley_1982]: https://doi.org/10.1021/bk-1982-0227.ch017
+[research_ellabban_mousseau_2007]: https://doi.org/10.1063/1.2729631
+[research_ellinas_supple_1983]: https://doi.org/10.4043/4472-ms
+[research_elster_trego_2001]: https://doi.org/10.1117/12.434173
+[research_elyaakoubimesbah_mittelstedt_2026]: https://doi.org/10.1016/j.compstruct.2026.120209
+[research_emam_eltaher_2016]: https://doi.org/10.1016/j.compstruct.2016.05.029
+[research_emery_1989]: https://doi.org/10.1007/978-1-4613-0817-1_101
+[research_emtiaz_shepherd_2026]: https://doi.org/10.1016/j.compositesb.2026.113572
+[research_enami_horiuchi_2016]: https://doi.org/10.1109/icep.2016.7486871
+[research_endruweit_2023]: https://doi.org/10.1016/b978-0-12-819160-6.00019-6
+[research_endruweit_matveev_2022]: https://doi.org/10.1002/pc.27001
+[research_eneyew_ramulu_2014]: https://doi.org/10.1115/imece2014-38732
+[research_engelstad_koon_2015]: https://doi.org/10.2514/6.2015-0198
+[research_enns_gillham_1983]: https://doi.org/10.1002/app.1983.070280810
+[research_enos_zhang_2023]: https://doi.org/10.12783/asc38/36621
+[research_ensminger_bond_2011]: https://doi.org/10.1201/b11173-7
+[research_ensminger_bond_2023]: https://doi.org/10.1201/9780429286964-8
+[research_eom_boogh_2001]: https://doi.org/10.1002/pen.10746
+[research_eom_seo_2013]: https://doi.org/10.7317/pk.2013.37.2.240
+[research_epoxy_prepreg_2019]: https://doi.org/10.1016/j.repl.2019.06.049
+[research_epoxy_resin_1992]: https://doi.org/10.1016/0010-4361(92)90407-l
+[research_epoxy_resin_2002]: https://doi.org/10.1016/s1350-4789(02)09035-9
+[research_ericjcarlson_yongyang_2004]: https://doi.org/10.2172/828876
+[research_ermolenko_2025]: https://doi.org/10.7868/s3034498025060024
+[research_ermolenko_glushkov_2024]: https://doi.org/10.1109/dd62861.2024.10768014
+[research_ernst_1985]: https://doi.org/10.1016/0040-6031(85)85208-4
+[research_ersoy_tugutlu_2009]: https://doi.org/10.1002/pen.21514
+[research_esadiq_jjweeg_2021]: https://doi.org/10.30684/etj.v39i1a.1722
+[research_eschen_harnisch_2018]: https://doi.org/10.1016/j.promfg.2018.11.005
+[research_esmaeel_taheri_2013]: https://doi.org/10.1002/9781118753682.ch9
+[research_esmizadeh_naderi_2016]: https://doi.org/10.1007/s10973-016-5594-4
+[research_essenhigh_2006]: https://doi.org/10.1021/ef050276y
+[research_estridge_2018]: https://doi.org/10.1016/j.polymer.2018.02.062
+[research_etal_2021]: https://doi.org/10.17762/converter.199
+[research_eum_kageyama_2007]: https://doi.org/10.1117/12.715339
+[research_european_programme_1995]: https://doi.org/10.1016/0034-3617(95)91322-x
+[research_evaluation_of_1989]: https://doi.org/10.1016/0308-9126(89)91049-3
+[research_evaluation_of_1990]: https://doi.org/10.1016/0308-9126(90)91636-8
+[research_evaluation_of_1994]: https://doi.org/10.1016/0963-8695(94)90707-2
+[research_evaluation_of_2023]: https://doi.org/10.1002/9783527842780.ch20
+[research_everett_cashwell_1972]: https://doi.org/10.2172/4635208
+[research_exotherm_2007]: https://doi.org/10.1007/978-0-387-30160-0_4587
+[research_experimental_study_1976]: https://doi.org/10.1016/0010-4361(76)90083-5
+[research_experimental_study_1996]: https://doi.org/10.14359/1473
+[research_f_autoclave]: https://doi.org/10.4271/ams3961
+[research_fabre_barrallier_2005]: https://doi.org/10.4028/0-87849-969-5.251
+[research_fabrication_of_2023]: https://doi.org/10.3791/200332
+[research_factors_influencing_2001]: https://doi.org/10.14359/10149
+[research_factors_that]: https://doi.org/10.1007/978-3-540-34648-7_7
+[research_fagan_anthony_1992]: https://doi.org/10.1016/0963-8695(92)90553-s
+[research_faggiani_falzon_2018]: https://doi.org/10.1142/9781786344335_0008
+[research_fahim_islam_2024]: https://doi.org/10.2139/ssrn.4862388
+[research_falzon_2006]: https://doi.org/10.1533/9781845690960.236
+[research_falzon_2008]: https://doi.org/10.1142/9781848162303_0003
+[research_falzon_cerini_2006]: https://doi.org/10.1016/j.compstruct.2005.11.053
+[research_falzon_faggiani_2012]: https://doi.org/10.1016/j.compstruct.2011.10.015
+[research_falzon_steven_1995]: https://doi.org/10.2514/6.1995-1458
+[research_falzon_stevens_2000]: https://doi.org/10.1016/s1359-835x(99)00085-8
+[research_fame_ramoacorreia_2021]: https://doi.org/10.1016/j.compstruct.2021.113625
+[research_fame_wu_2022]: https://doi.org/10.1016/j.compstruct.2022.116223
+[research_fan_hou_2024]: https://doi.org/10.3850/iahr-hic2483430201-103
+[research_fan_kroeplin_1992]: https://doi.org/10.2514/6.1992-2285
+[research_fan_xie_2023]: https://doi.org/10.1016/j.compstruct.2023.116813
+[research_fan_zhang_2023]: https://doi.org/10.1016/j.compscitech.2022.109844
+[research_fang_li_2019]: https://doi.org/10.1016/j.ijheatmasstransfer.2019.04.007
+[research_fang_yuan_2018]: https://doi.org/10.1177/1099636218755555
+[research_fang_zhang_2020]: https://doi.org/10.1016/j.compscitech.2020.108259
+[research_fanteria_karachalios_2023]: https://doi.org/10.1007/978-3-031-28547-9_9
+[research_fantuzzi_dib_2024]: https://doi.org/10.1016/j.jcomc.2024.100447
+[research_farahani_sefidgar_2011]: https://doi.org/10.1016/j.icheatmasstransfer.2011.06.001
+[research_fard_liu_2011]: https://doi.org/10.21236/ada544807
+[research_farhadinejad_karimi_2024]: https://doi.org/10.21203/rs.3.rs-5178830/v1
+[research_faribouanani_benyahia_2013]: https://doi.org/10.1016/j.matdes.2013.03.017
+[research_farleygaryl_dickinsonlarryc_1992]: https://ntrs.nasa.gov/citations/19920061832
+[research_farmer_covert_1993]: https://doi.org/10.2514/6.1993-1574
+[research_farmer_covert_1994]: https://doi.org/10.2514/3.546
+[research_farrington]: https://doi.org/10.1109/icept.2005.1564614
+[research_farshidi_berggreen_2022]: https://doi.org/10.1177/10996362221115420
+[research_faruque_chakraborty_2016]: https://doi.org/10.1063/1.4947860
+[research_farzannasab_geijselaers_2018]: https://doi.org/10.1016/j.compstruct.2018.08.059
+[research_fasanella_jackson_1998]: https://doi.org/10.4050/vfs-f54-00074
+[research_fasanella_jackson_1999]: https://doi.org/10.4050/vfs-f55-00038
+[research_fasanella_jackson_2000]: https://doi.org/10.4050/vfs-f56-00065
+[research_fasanella_jackson_2002]: https://doi.org/10.4050/vfs-f58-00092
+[research_fasanella_jackson_2003]: https://doi.org/10.4050/vfs-f59-000089
+[research_fasanella_jackson_2003_b]: https://doi.org/10.4050/vfs-f59-000083
+[research_fasanella_jackson_2004]: https://doi.org/10.4050/jahs.49.140
+[research_fasanella_jackson_2004_b]: https://doi.org/10.4050/vfs-f60-000120
+[research_fasanella_jackson_2005]: https://doi.org/10.4050/1.3092852
+[research_fasanella_jackson_2013]: https://doi.org/10.4050/sm_struct_2013-3115
+[research_fasel_todd_2010]: https://doi.org/10.1016/j.ymssp.2009.12.002
+[research_fassbender_hagemaier_1980]: https://doi.org/10.1016/0143-7496(80)90062-7
+[research_fast_cure_1998]: https://doi.org/10.1108/prt.1998.12927faf.008
+[research_fatigue_and_2015]: https://doi.org/10.1016/c2013-0-16372-6
+[research_fatigue_properties_1980]: https://doi.org/10.1016/0010-4361(80)90460-7
+[research_fauster_thirunavukkarasu_2018]: https://doi.org/10.1088/1757-899x/406/1/012060
+[research_fava_1968]: https://doi.org/10.1016/0032-3861(68)90024-4
+[research_feddal_khamlichi_2018]: https://doi.org/10.1051/matecconf/201819100008
+[research_fein_1998]: https://doi.org/10.1007/978-1-4615-5339-7_153
+[research_feith_lawrie_1963]: https://doi.org/10.21236/ad0401658
+[research_fekih_albedah_2012]: https://doi.org/10.1016/j.matdes.2012.04.025
+[research_fekirini_bachirbouiadjra_2008]: https://doi.org/10.1016/j.compstruct.2006.12.004
+[research_feldman_1986]: https://doi.org/10.21236/ada301942
+[research_feldstein_2001]: https://doi.org/10.1016/s0032-3861(01)00225-7
+[research_feldstein_roos_2003]: https://doi.org/10.1016/s0032-3861(03)00046-6
+[research_feldstein_shandryuk_2001]: https://doi.org/10.1016/s0032-3861(00)00445-6
+[research_feller_2015]: https://doi.org/10.1002/9781119051862.ch1
+[research_feng_li_2024]: https://doi.org/10.1016/j.ijmecsci.2023.108904
+[research_feng_liu_2024]: https://doi.org/10.3390/ma17143545
+[research_feng_ma_2020]: https://doi.org/10.1016/j.compstruct.2020.112132
+[research_feng_mou_2013]: https://doi.org/10.1080/13588265.2013.805291
+[research_feng_reifsnider_1985]: https://doi.org/10.1520/ctr10288j
+[research_feng_zhang_2016]: https://doi.org/10.1016/j.compstruct.2016.08.012
+[research_feng_zhang_2016_b]: https://doi.org/10.1002/pc.24239
+[research_feng_zhou_2019]: https://doi.org/10.3390/s19071654
+[research_fenn_jones_1989]: https://doi.org/10.1007/978-94-009-1143-7_25
+[research_feraboli_norris_2007]: https://doi.org/10.1504/ijvd.2007.013642
+[research_fereday_potter_2013]: https://doi.org/10.56330/bwmf4451
+[research_ferguson_fetfatsidis_2019]: https://doi.org/10.12783/asc34/31401
+[research_fernandez_angeles_2019]: https://doi.org/10.1109/eptc47984.2019.9026594
+[research_fernandez_blas_2003]: https://doi.org/10.1016/s0924-0136(03)00309-1
+[research_fernandezleon_mocerino_2026]: https://doi.org/10.1016/j.compositesa.2026.109644
+[research_fernando]: https://doi.org/10.14264/dd1e89f
+[research_fernando_costa_2019]: https://doi.org/10.1590/s1517-707620190003.0717
+[research_fernando_vandi_2023]: https://doi.org/10.1016/j.conbuildmat.2023.131332
+[research_fernlund_mobuchon_2018]: https://doi.org/10.1016/b978-0-12-803581-8.09899-4
+[research_fernlund_osooly_2003]: https://doi.org/10.1016/s0263-8223(03)00117-x
+[research_ferreira_biesek_2019]: https://doi.org/10.5151/cbgdp2019-36
+[research_ferreira_biesek_2021]: https://doi.org/10.1007/s40430-021-03080-8
+[research_ferreiraluz_amico_2012]: https://doi.org/10.4028/www.scientific.net/ddf.326-328.158
+[research_feuchtgruber_holmes_2023]: https://doi.org/10.2139/ssrn.4626527
+[research_feuchtgruber_holmes_2024]: https://doi.org/10.1177/08927057241264475
+[research_fiberite_aims_1996]: https://doi.org/10.1016/s0034-3617(96)80243-8
+[research_fibre_glass_reinforced_1979]: https://doi.org/10.1108/eb035585
+[research_fibre_placement_1997]: https://doi.org/10.1016/s0034-3617(97)91633-7
+[research_fielding_1983]: https://doi.org/10.1108/eb035897
+[research_fierro_flora_2019]: https://doi.org/10.12783/shm2019/32369
+[research_filippov_pervukhin_2026]: https://doi.org/10.21203/rs.3.rs-10122653/v1
+[research_finchum_1974]: https://doi.org/10.1287/mnsc.21.2.237
+[research_fink_mcknight_1998]: https://doi.org/10.21236/ada363416
+[research_fioriti_vercella_2018]: https://doi.org/10.2514/1.c034664
+[research_fioriti_vercella_2019]: https://doi.org/10.15866/irease.v12i6.17333
+[research_fire_retardant_2015]: https://doi.org/10.1016/j.repl.2015.03.018
+[research_firoozkoohi_abrahamsen_2017]: https://doi.org/10.1115/omae2017-62390
+[research_fisch_hofmann_1969]: https://doi.org/10.1002/app.1969.070130203
+[research_fischer_2003]: https://doi.org/10.1016/b978-188420772-3.50004-3
+[research_fischer_2003_b]: https://doi.org/10.1016/b978-188420772-3.50009-2
+[research_fischer_2003_c]: https://doi.org/10.1016/b978-188420772-3.50010-9
+[research_fischer_2013]: https://doi.org/10.1016/b978-1-4557-2597-7.00002-1
+[research_fischer_2013_b]: https://doi.org/10.1016/b978-1-4557-2597-7.00008-2
+[research_fischer_2013_c]: https://doi.org/10.1016/b978-1-4557-2597-7.00007-0
+[research_flemming_ziegmann_1999]: https://doi.org/10.1007/978-3-642-58371-1_6
+[research_fleszar_1988]: https://doi.org/10.21236/ada204291
+[research_flor]: https://doi.org/10.11606/d.18.2016.tde-04042016-161659
+[research_flora_rizzo_2021]: https://doi.org/10.1016/j.matpr.2020.01.376
+[research_flotten_2005]: https://doi.org/10.21236/ada456476
+[research_flynnbw_bodinejb_1997]: https://ntrs.nasa.gov/citations/19970016700
+[research_focke_smit_1991]: https://doi.org/10.1002/pen.760312306
+[research_fojtl_rusnakova_2013]: https://doi.org/10.4028/www.scientific.net/amm.486.283
+[research_fomitchov_krishnaswamy_1999]: https://doi.org/10.1117/12.339960
+[research_fong_saba_2015]: https://doi.org/10.1007/978-3-319-07944-8_8
+[research_fontana_1998]: https://doi.org/10.1016/s1359-835x(97)00048-1
+[research_foo_chai_2007]: https://doi.org/10.1016/j.compstruct.2006.07.010
+[research_foreman_1980]: https://doi.org/10.1007/978-1-4684-1033-4_7
+[research_forgione_2025]: https://doi.org/10.4071/001c.147197
+[research_forsman_1983]: https://doi.org/10.21236/ada130832
+[research_foster_hoff_2015]: https://doi.org/10.1002/polb.23764
+[research_foye_swindlehurst_1980]: https://doi.org/10.1007/978-1-4684-1033-4_14
+[research_fracture_characterisation_1987]: https://doi.org/10.1016/0010-4361(87)90327-2
+[research_fracture_work_1988]: https://doi.org/10.1016/0010-4361(88)90189-9
+[research_fraga_hutchinson_2009]: https://doi.org/10.1007/s10973-009-0601-7
+[research_fraga_montserrat_2009]: https://doi.org/10.1002/macp.200900322
+[research_franceschini_galetto_2004]: https://doi.org/10.1108/17410380410555925
+[research_franciosa_gallo_2020]: https://doi.org/10.1109/metroaerospace48742.2020.9160163
+[research_francis_2016]: https://doi.org/10.1007/978-3-319-18158-5_22-1
+[research_francis_2017]: https://doi.org/10.1007/978-3-319-40043-3_22
+[research_francis_gutierrezlemini_1984]: https://doi.org/10.1007/978-1-4613-2749-3_40
+[research_franieck_fleischmann_2021]: https://doi.org/10.3390/polym13111734
+[research_franieck_fleischmann_2021_b]: https://doi.org/10.23919/empc53418.2021.9584963
+[research_franksusich_laananen_1993]: https://doi.org/10.1016/0956-7143(93)90098-s
+[research_franz_laube_1986]: https://doi.org/10.1016/0263-8223(86)90076-0
+[research_fraser_williams_2005]: https://doi.org/10.21236/ada435779
+[research_fredell_guijt_2002]: https://doi.org/10.1016/b978-008042699-0/50016-4
+[research_fredericks_connor_1960]: https://doi.org/10.4271/600210
+[research_free_strandberg_1975]: https://doi.org/10.1007/978-3-642-95275-3_8
+[research_free_vibration_2009]: https://doi.org/10.1201/9781420093339-15
+[research_freeman_campbell_1972]: https://doi.org/10.1520/stp27744s
+[research_frey_groebrinkhaus_1996]: https://doi.org/10.1016/0300-9440(95)00520-x
+[research_friedman_1961]: https://doi.org/10.21236/ad0294885
+[research_friispedersen_houmoller_2008]: https://doi.org/10.1002/app.28407
+[research_friot_meiffre_2017]: https://doi.org/10.4271/2017-01-2098
+[research_frishfelds_lundstrom_2011]: https://doi.org/10.1007/s11029-011-9200-3
+[research_frohnmuller_wisner_2022]: https://doi.org/10.1520/stp163320200063
+[research_fu_schoenholz_2023]: https://doi.org/10.12783/asc38/36563
+[research_fu_zhong_2011]: https://doi.org/10.1016/j.tca.2011.01.016
+[research_fujimoto_sekine_2007]: https://doi.org/10.1016/j.compstruct.2005.08.005
+[research_fukuda_2001]: https://doi.org/10.1051/mattech/200189120027s
+[research_fuller_gammell_1987]: https://doi.org/10.1007/978-1-4613-1893-4_132
+[research_fuller_judovits_2001]: https://doi.org/10.1520/stp10702s
+[research_fung_popplewell_1994]: https://doi.org/10.1016/b978-0-444-81901-7.50026-8
+[research_funk_1989]: https://doi.org/10.1080/00207548908942608
+[research_funnell]: https://doi.org/10.22215/etd/2000-05115
+[research_fursa_petrov_2018]: https://doi.org/10.1080/10589759.2018.1484918
+[research_furtado_catalanotti_2019]: https://doi.org/10.1016/j.compstruct.2019.111168
+[research_furtado_pereira_2021]: https://doi.org/10.23967/composites.2021.109
+[research_furushima_2019]: https://doi.org/10.1016/j.tca.2018.12.012
+[research_futchko_1981]: https://doi.org/10.21236/ada109208
+[research_futchko_1981_b]: https://doi.org/10.21236/ada109154
+[research_futchko_1981_c]: https://doi.org/10.21236/ada109210
+[research_futchko_1981_d]: https://doi.org/10.21236/ada109209
+[research_futchko_1981_e]: https://doi.org/10.21236/ada109211
+[research_fuwape_1994]: https://doi.org/10.1016/0960-8524(94)90142-2
+[research_g_m_1999]: https://doi.org/10.1515/secm.1999.8.2.83
+[research_gackowski_sharma_2023]: https://doi.org/10.1016/j.addma.2023.103519
+[research_gaikwad_wagmare_2025]: https://doi.org/10.1007/s12034-025-03445-y
+[research_gain_oromiehie_2022]: https://doi.org/10.1016/j.coco.2022.101109
+[research_galea_chiu_1996]: https://doi.org/10.1533/cras.1996.0023
+[research_galgalikar_thompson_2016]: https://doi.org/10.1115/1.4033459
+[research_galiana_2022]: https://doi.org/10.23967/r.matcomp.2019.01.003
+[research_galvezhernandez_nazemi_2024]: https://doi.org/10.1177/00219983241302328
+[research_gama_gillespie_2008]: https://doi.org/10.1016/j.compstruct.2007.11.001
+[research_gammell_1993]: https://doi.org/10.1007/978-1-4615-2848-7_135
+[research_gamweger_jobstl_2009]: https://doi.org/10.1007/978-3-446-42062-5_6
+[research_gan_sun_2010]: https://doi.org/10.3724/sp.j.1105.2010.09319
+[research_ganapathi_joshi_2015]: https://doi.org/10.1007/s10973-015-5090-2
+[research_gandy_asmatulu_2012]: https://doi.org/10.1115/imece2012-93462
+[research_ganesan_vasudevan_2023]: https://doi.org/10.1007/978-981-99-1894-2_18
+[research_gangloff_cender_2016]: https://doi.org/10.1177/0021998316676325
+[research_gangloff_simacek_2014]: https://doi.org/10.1016/j.compositesa.2014.05.010
+[research_gao_an_2017]: https://doi.org/10.1177/0954410017740919
+[research_gao_li_2000]: https://doi.org/10.1002/1097-4628(20001024)78:4<794::aid-app120>3.3.co;2-8
+[research_gao_nie_2006]: https://doi.org/10.1002/pi.2182
+[research_gao_ren_2018]: https://doi.org/10.1080/13588265.2018.1454289
+[research_gao_wang_2026]: https://doi.org/10.1016/j.renene.2025.124501
+[research_gao_zhang_2010]: https://doi.org/10.4028/www.scientific.net/kem.428-429.71
+[research_garate_harismendy_2022]: https://doi.org/10.1007/s12289-022-01660-0
+[research_garbosp_1983]: https://ntrs.nasa.gov/citations/19830025689
+[research_gardner_holmes_2014]: https://doi.org/10.21236/ada601399
+[research_gargano_das_2020]: https://doi.org/10.1007/978-3-030-31065-3_4
+[research_garofano_2023]: https://doi.org/10.21741/9781644902813-83
+[research_garofano_riccio_2024]: https://doi.org/10.1007/978-3-031-77697-7_21
+[research_garofano_riccio_2026]: https://doi.org/10.1016/j.ast.2026.111634
+[research_garrett_1986]: https://doi.org/10.1520/stp35339s
+[research_garrett_allen_2025]: https://doi.org/10.1007/s10443-025-10402-9
+[research_garschke_parlevliet_2013]: https://doi.org/10.1016/j.polymertesting.2012.09.011
+[research_gascons_blanco_2011]: https://doi.org/10.1007/s10443-011-9218-7
+[research_gauthier_dewhurst_2000]: https://doi.org/10.2514/6.2000-3404
+[research_gawryluk_teter_2023]: https://doi.org/10.2139/ssrn.4421798
+[research_gayncs_spalik_2026]: https://doi.org/10.1201/9781003761822-36
+[research_gayot_soete_2022]: https://doi.org/10.12783/asc37/36388
+[research_geipel_eitner_2013]: https://doi.org/10.1016/j.egypro.2013.07.287
+[research_geiss_schumann_2026]: https://doi.org/10.4028/p-l4cuqq
+[research_genest_martinez_2009]: https://doi.org/10.1016/j.compstruct.2008.02.010
+[research_geng_2021]: https://doi.org/10.31219/osf.io/5827v
+[research_geng_li_2020]: https://doi.org/10.3390/met10050666
+[research_genidy_madhukar_1999]: https://doi.org/10.1177/073168449901801403
+[research_george_rapking_2020]: https://doi.org/10.33599/nasampe/s.20.0085
+[research_george_rutz_2019]: https://doi.org/10.33599/nasampe/c.19.0851
+[research_gerami_bagheri_2018]: https://doi.org/10.1007/s10973-018-7961-9
+[research_gerendt_dean_2019]: https://doi.org/10.1016/j.compstruct.2019.111368
+[research_gerzeski_1996]: https://doi.org/10.21236/ada326790
+[research_ghaemy_barghamadi_2004]: https://doi.org/10.1002/app.20960
+[research_ghaemy_rostami_2005]: https://doi.org/10.1002/pi.1949
+[research_ghamisi_charter_2024]: https://doi.org/10.3389/fmtec.2024.1277152
+[research_ghavam_soleimanpour_2017]: https://doi.org/10.5978/islsm.17-or-19
+[research_ghayour_ganesan_2023]: https://doi.org/10.1016/j.compstruct.2023.116986
+[research_ghayour_hojjati_2020]: https://doi.org/10.1016/j.compstruct.2020.112536
+[research_ghilai_feldman_2010]: https://doi.org/10.1142/s0219455410003816
+[research_ghinet_atalla_2011]: https://doi.org/10.1016/j.compstruc.2010.09.008
+[research_ghobbar_mukherjee_2026]: https://doi.org/10.1093/imaman/dpag003
+[research_ghodhbani_marechal_2016]: https://doi.org/10.1016/j.polymertesting.2016.10.009
+[research_gholami_alashti_2016]: https://doi.org/10.1016/j.compstruct.2015.12.019
+[research_ghosesayata_lewistoddm_2011]: https://ntrs.nasa.gov/citations/20110020263
+[research_ghosh_pawar_2014]: https://doi.org/10.1615/intjenergeticmaterialschemprop.2014010649
+[research_ghosh_sinha_2005]: https://doi.org/10.1533/ijcr.2005.0354
+[research_gibbons_seguigarza_2009]: https://doi.org/10.1243/09544100jaero582
+[research_gilibert_klein_1989]: https://doi.org/10.1002/masy.19890230132
+[research_gill_visotsky_2016]: https://doi.org/10.1115/msec2016-8724
+[research_gillespie_monib_2003]: https://doi.org/10.1177/002199803036243
+[research_gillham_1983]: https://doi.org/10.1007/978-1-4615-9293-8_7
+[research_gillham_1987]: https://doi.org/10.21236/ada184669
+[research_gilroy_phillips_1980]: https://doi.org/10.1016/b978-0-08-024771-7.50063-6
+[research_gintert_1995]: https://doi.org/10.2514/6.1995-3889
+[research_giordano_nicolais_2000]: https://doi.org/10.1002/pc.10207
+[research_givot_krupka]: https://doi.org/10.1109/mikon.2000.913931
+[research_gkertzos_kotzakolios_2024]: https://doi.org/10.1177/00219983241295816
+[research_glass_transition_2021]: https://doi.org/10.5040/9781501365072.6989
+[research_glass_transition_temperature_2007]: https://doi.org/10.1007/978-0-387-30160-0_5434
+[research_glass_transition_temperature_2013]: https://doi.org/10.1007/978-0-387-92897-5_100612
+[research_glass_transition_temperature_2014]: https://doi.org/10.1351/goldbook.g02641
+[research_gleason_1983]: https://doi.org/10.1520/stp28545s
+[research_gleich_vantooren_2001]: https://doi.org/10.1163/156856101317048734
+[research_gleich_vantooren_2001_b]: https://doi.org/10.1163/156856101317035503
+[research_globerson_1980]: https://doi.org/10.1080/00207548008919656
+[research_globerson_1984]: https://doi.org/10.1080/00207548408942429
+[research_globerson_gold_1997]: https://doi.org/10.1080/002075497195669
+[research_glushkov_glushkova_2015]: https://doi.org/10.1007/978-3-319-26324-3_31
+[research_gms_composites_2016]: https://doi.org/10.1016/j.repl.2016.08.025
+[research_gobbato_kosmatka_2015]: https://doi.org/10.1016/b978-0-85709-806-1.00017-3
+[research_goddard_1982]: https://doi.org/10.1109/tchmt.1982.1136009
+[research_godinez_2001]: https://doi.org/10.1063/1.1373984
+[research_goldstone_so_1993]: https://doi.org/10.2514/6.1993-2464
+[research_gomes_kota_1992]: https://doi.org/10.1080/09349849208968055
+[research_goncalves_arteiro_2023]: https://doi.org/10.1016/j.compstruct.2023.117158
+[research_gong_cheng_2015]: https://doi.org/10.1016/j.compstruct.2014.12.048
+[research_gong_wu_2022]: https://doi.org/10.1016/j.compstruct.2021.114844
+[research_gonzalez_cagle_1964]: https://doi.org/10.1520/stp44571s
+[research_gonzalezcanche_floresjohnson_2017]: https://doi.org/10.1016/j.compstruct.2017.02.100
+[research_gonzalo_seara_2024]: https://doi.org/10.23967/r.matcomp.2024.02.14
+[research_gooch_2011]: https://doi.org/10.1007/978-1-4419-6247-8_3191
+[research_gooch_2011_b]: https://doi.org/10.1007/978-1-4419-6247-8_4654
+[research_gooch_2011_c]: https://doi.org/10.1007/978-1-4419-6247-8_2529
+[research_gooch_2011_d]: https://doi.org/10.1007/978-1-4419-6247-8_879
+[research_gooch_2011_e]: https://doi.org/10.1007/978-1-4419-6247-8_11129
+[research_gooddannye_mazzalthomas_1988]: https://ntrs.nasa.gov/citations/19880007253
+[research_goode_1994]: https://doi.org/10.1049/cp:19941100
+[research_goodman_lincoln_1981]: https://doi.org/10.2514/6.1981-1686
+[research_goossens_jimenez_2025]: https://doi.org/10.1051/epjconf/202533507018
+[research_gopal_adali_2000]: https://doi.org/10.1016/s0263-8223(99)00080-x
+[research_gopisetti]: https://doi.org/10.33915/etd.3950
+[research_gorbunova_kerber_1998]: https://doi.org/10.1007/978-3-642-51062-5_100
+[research_gordon_caballero_1970]: https://doi.org/10.1007/978-1-4615-8621-0_15
+[research_gorlich_arelt_2021]: https://doi.org/10.4050/f-0077-2021-16894
+[research_gorthala_roux_1994]: https://doi.org/10.1177/002199839402800601
+[research_gosse_2004]: https://doi.org/10.2514/6.2004-1788
+[research_gosse_hause_1988]: https://doi.org/10.1007/978-1-4613-0979-6_9
+[research_gosse_hause_1992]: https://doi.org/10.1016/0963-8695(92)90612-k
+[research_gosselin_1986]: https://doi.org/10.1021/bk-1986-0322.ch016
+[research_gotsis_chamis_1995]: https://doi.org/10.2514/6.1995-1283
+[research_gourichon_lebel_2024]: https://doi.org/10.33599/nasampe/s.24.0187
+[research_goutaudier_osmond_2020]: https://doi.org/10.5802/crmeca.12
+[research_goyal_hoos_2023]: https://doi.org/10.2514/6.2023-1318
+[research_goyal_pennington_2022]: https://doi.org/10.2514/6.2022-2394
+[research_graczykowski_orlowska_2016]: https://doi.org/10.1016/j.compstruct.2016.02.085
+[research_graham_1996]: https://doi.org/10.1016/0263-8223(96)00020-7
+[research_gransden_alderliesten_2017]: https://doi.org/10.1080/13588265.2016.1273987
+[research_grant_ryan_2025]: https://doi.org/10.33599/nasampe/s.25.0022
+[research_graphite_fiber]: https://doi.org/10.4271/ams3894a
+[research_greber_2022]: https://doi.org/10.33599/nasampe/s.22.0719
+[research_greenjr_1995]: https://doi.org/10.1117/12.212545
+[research_greenwell_1977]: https://doi.org/10.1080/01468037708240536
+[research_gregory_juarez_2018]: https://doi.org/10.1115/1.4040764
+[research_grelsson_1992]: https://doi.org/10.1016/0261-3069(92)90189-o
+[research_grendahl_chin_2001]: https://doi.org/10.21236/ada397160
+[research_griffin_1979]: https://doi.org/10.2514/6.1979-1807
+[research_griffin_pang_1991]: https://doi.org/10.1002/pen.760310710
+[research_griffiths_leigh_2019]: https://doi.org/10.1016/j.sna.2019.07.034
+[research_grimes_1998]: https://doi.org/10.1115/imece1998-0387
+[research_groh_lee_2018]: https://doi.org/10.23919/eumc.2018.8541434
+[research_groh_lipka_2017]: https://doi.org/10.1109/mwsym.2017.8058766
+[research_gros_1997]: https://doi.org/10.1016/b978-034067648-6/50007-4
+[research_grosse_glock_2015]: https://doi.org/10.1016/j.ijpe.2015.06.021
+[research_grosskopf_duke_1992]: https://doi.org/10.1520/stp15353s
+[research_grunenfelder_dills_2017]: https://doi.org/10.1016/j.compositesa.2016.10.027
+[research_grunenfelder_nutt_2010]: https://doi.org/10.1016/j.compscitech.2010.09.009
+[research_gu_chattopadhyay_1995]: https://doi.org/10.2514/6.1995-1499
+[research_gu_li_2006]: https://doi.org/10.1177/0021998306062319
+[research_gu_li_2008]: https://doi.org/10.1002/pc.20659
+[research_gu_liang_2004]: https://doi.org/10.1002/pi.1557
+[research_gu_luan_2024]: https://doi.org/10.1109/iemt61324.2024.10875227
+[research_gu_qin_2015]: https://doi.org/10.1177/096739111502300102
+[research_guan_yan_2026]: https://doi.org/10.1016/j.compositesa.2026.109721
+[research_guan_zhang_2026]: https://doi.org/10.3390/ma19091859
+[research_gudmundsson_2014]: https://doi.org/10.1016/b978-0-12-397308-5.00002-7
+[research_gudmundsson_2022]: https://doi.org/10.1016/b978-0-12-818465-3.00003-3
+[research_guemes_2001]: https://doi.org/10.1007/978-3-7091-2686-8_26
+[research_gueroult_lebellavacry_2013]: https://doi.org/10.1080/09243046.2013.862383
+[research_guida_marulo_2018]: https://doi.org/10.1007/bf03404766
+[research_guide_for]: https://doi.org/10.1520/d4896-01r24
+[research_guidelines_for]: https://doi.org/10.4271/air6292
+[research_guidelines_for_b]: https://doi.org/10.4271/air6291
+[research_guijt_verhoeven_2001]: https://doi.org/10.1007/978-94-010-0995-9_31
+[research_guin_nettles_2021]: https://doi.org/10.1177/10996362211020413
+[research_guin_newton_2019]: https://doi.org/10.33599/nasampe/c.19.0663
+[research_gunnink_1988]: https://doi.org/10.1016/0263-8223(88)90062-1
+[research_guo_bao_2025]: https://doi.org/10.3390/machines13020159
+[research_guo_chattopadhyay_1995]: https://doi.org/10.2514/6.1995-1287
+[research_guo_du_2005]: https://doi.org/10.1002/app.21879
+[research_guo_du_2005_b]: https://doi.org/10.1016/j.compscitech.2004.07.015
+[research_guo_gu_2024]: https://doi.org/10.2139/ssrn.4764561
+[research_guo_guan_2016]: https://doi.org/10.1142/9789814759687_0078
+[research_guo_ogin_2009]: https://doi.org/10.4028/www.scientific.net/amr.79-82.2067
+[research_guo_ruess_2015]: https://doi.org/10.1016/j.compstruct.2015.01.012
+[research_gupta_ghosh_2019]: https://doi.org/10.1016/j.compositesb.2019.107295
+[research_gupta_kelly_2012]: https://doi.org/10.1016/j.compositesa.2012.08.003
+[research_gupta_kelly_2013]: https://doi.org/10.1016/j.ijheatmasstransfer.2013.04.013
+[research_gupta_kumawat_2025]: https://doi.org/10.1016/j.compstruct.2025.118997
+[research_gupta_mahendran_2025]: https://doi.org/10.1080/28361466.2025.2480634
+[research_gupta_wuzella_2025]: https://doi.org/10.7712/150125.13715.304002
+[research_gurdal_haftka_1988]: https://doi.org/10.1520/stp26125s
+[research_gurumurthy_2024]: https://doi.org/10.46254/ap05.20240118
+[research_gutierrez_morales_2000]: https://doi.org/10.1533/9780857093134.131
+[research_gutman_kadim_1994]: https://doi.org/10.1007/bf00271217
+[research_gutowski_1987]: https://doi.org/10.1016/b978-1-4832-8386-9.50061-9
+[research_gutowski_hoult_1994]: https://doi.org/10.1016/0956-7143(94)90138-4
+[research_guyett_cardrick_1980]: https://doi.org/10.1017/s0001924000031055
+[research_habib]: https://doi.org/10.22215/etd/2012-07267
+[research_hacisalihoglu_akpinar_2022]: https://doi.org/10.1016/j.tafmec.2022.103364
+[research_hack_leverant_1982]: https://doi.org/10.1520/stp30106s
+[research_hadcock_1985]: https://doi.org/10.2514/6.1985-846
+[research_haddadpour_kouchakzadeh_2008]: https://doi.org/10.1016/j.compstruct.2007.04.012
+[research_hadipeykani_aghadavoudi_2020]: https://doi.org/10.1016/j.physa.2019.123995
+[research_hafiz_abdelwahab_2015]: https://doi.org/10.1016/b978-0-85709-806-1.00014-8
+[research_haghshenas_vaziri_2018]: https://doi.org/10.1177/0021998318762295
+[research_hagnauer_laliberte_1983]: https://doi.org/10.1021/bk-1983-0221.ch012
+[research_hagnauer_pearce_1982]: https://doi.org/10.1021/bk-1982-0227.ch002
+[research_hahn_1988]: https://doi.org/10.1016/0730-725x(88)90186-5
+[research_haifeng_haiyan_2014]: https://doi.org/10.1109/cso.2014.70
+[research_hall_zeng_2024]: https://doi.org/10.1016/j.compositesa.2024.108110
+[research_hall_zeng_2024_b]: https://doi.org/10.1016/j.compositesa.2024.108168
+[research_halley_2012]: https://doi.org/10.1533/9780857097637.1.92
+[research_hallgren_pejryd_2016]: https://doi.org/10.1016/j.procir.2016.05.049
+[research_halpin_2011]: https://doi.org/10.1007/978-0-85729-166-0_2
+[research_halpin_kardos_1983]: https://doi.org/10.1351/pac198355050893
+[research_hamad_fei_2022]: https://doi.org/10.1177/00219983211065549
+[research_hamada_ikegawa_1995]: https://doi.org/10.1115/imece1995-0320
+[research_hamada_maekawa_1991]: https://doi.org/10.1007/978-94-011-3856-7_34
+[research_hamill_centea_2015]: https://doi.org/10.1016/j.compositesa.2015.04.009
+[research_hammer_grant_1980]: https://doi.org/10.21236/ada084254
+[research_hamstad_1983]: https://doi.org/10.21236/ada132621
+[research_hamzah_rosli_2018]: https://doi.org/10.1063/1.5066778
+[research_han_1984]: https://doi.org/10.21236/ada150053
+[research_han_butterfield_2013]: https://doi.org/10.1177/0954405413488362
+[research_han_cho_2017]: https://doi.org/10.1016/j.compstruct.2017.04.041
+[research_han_kang_2018]: https://doi.org/10.1016/j.compstruct.2017.11.012
+[research_han_lee_2018]: https://doi.org/10.7317/pk.2018.42.3.485
+[research_han_lem_1983]: https://doi.org/10.1002/app.1983.070281014
+[research_han_lem_1984]: https://doi.org/10.1002/app.1984.070290538
+[research_han_li_2024]: https://doi.org/10.1016/j.tws.2024.111976
+[research_han_qin_2016]: https://doi.org/10.1016/j.matdes.2015.12.158
+[research_han_wood_2010]: https://doi.org/10.1109/elinsl.2010.5549752
+[research_hanafiah_othman_2022]: https://doi.org/10.1002/mawe.202100223
+[research_handbook_of_2013]: https://doi.org/10.1016/c2011-0-06800-x
+[research_handley_hughes_1987]: https://doi.org/10.1109/ultsym.1987.199074
+[research_hank_lee_2022]: https://doi.org/10.2514/6.2022-1094
+[research_hanley_1968]: https://doi.org/10.2514/6.1968-1036
+[research_hannan_barrick_1980]: https://doi.org/10.21236/ada091494
+[research_hanzlik_yilmazoglu_2024]: https://doi.org/10.33599/nasampe/s.24.0105
+[research_hao_nan_2019]: https://doi.org/10.1088/1757-899x/531/1/012045
+[research_hao_zhang_2019]: https://doi.org/10.1201/9781315226460-42
+[research_hardis]: https://doi.org/10.31274/etd-180810-1520
+[research_harizi_tuloup_2026]: https://doi.org/10.2139/ssrn.7395647
+[research_harkins_1979]: https://doi.org/10.21236/ada078004
+[research_harkless_kerr_2002]: https://doi.org/10.1016/b978-008042699-0/50040-1
+[research_harkless_kerr_2002_b]: https://doi.org/10.1016/b978-008042699-0/50041-3
+[research_harlalka_naiju_2016]: https://doi.org/10.1080/21693277.2016.1261052
+[research_harrigan_2017]: https://doi.org/10.4050/sm_struct_2017-4038
+[research_harris_1963]: https://doi.org/10.21236/ad0402393
+[research_harris_2010]: https://doi.org/10.1016/s1364-5439(10)70153-2
+[research_harris_starnes_2002]: https://doi.org/10.2514/2.2992
+[research_harris_vaughan_2012]: https://doi.org/10.1002/9781118217498.ch14
+[research_harris_vaughan_2013]: https://doi.org/10.1016/j.jeurceramsoc.2013.05.026
+[research_harrischarlese_starnesjameshjr_2001]: https://ntrs.nasa.gov/citations/20010041346
+[research_harsch_kargerkocsis_2007]: https://doi.org/10.1016/j.eurpolymj.2007.01.025
+[research_hart_johnson_2002]: https://doi.org/10.2514/6.2002-1331
+[research_hartley_1965]: https://doi.org/10.2307/2097667
+[research_hartmann_hoskins_1992]: https://doi.org/10.1016/0963-8695(92)90527-n
+[research_hartmann_loy_2026]: https://doi.org/10.1177/00219983261417351
+[research_hartsmith]: https://doi.org/10.1201/9781315136684-13
+[research_hartsmith_1988]: https://doi.org/10.1007/978-94-009-2752-0_3
+[research_hartsmithlj_1974]: https://ntrs.nasa.gov/citations/19740053098
+[research_harvey_2002]: https://doi.org/10.1002/9780470172551.ch46
+[research_harvey_2005]: https://doi.org/10.1002/0471777447.ch25
+[research_harvey_2015]: https://doi.org/10.1002/9781118985960.meh211
+[research_hasan_2023]: https://doi.org/10.1016/j.tws.2022.110417
+[research_haschenburger_2021]: https://doi.org/10.3139/o999.01042021
+[research_hassan_othman_2017]: https://doi.org/10.1007/s00170-017-0096-5
+[research_hasselman_1999]: https://doi.org/10.1177/002199839903300204
+[research_hawleyarthurv_1993]: https://ntrs.nasa.gov/citations/19950025000
+[research_hay_fitzgerald_1976]: https://doi.org/10.1016/0032-3861(76)90177-4
+[research_hay_mills_1982]: https://doi.org/10.1016/0032-3861(82)90283-x
+[research_hay_wei_2003]: https://doi.org/10.1177/0021998303037010005
+[research_hayaty_beheshty_2010]: https://doi.org/10.1002/app.32982
+[research_hayes_gilbert_2000]: https://doi.org/10.1016/s1359-835x(00)00012-9
+[research_hayes_seferis_1998]: https://doi.org/10.1002/pen.10197
+[research_hayes_seferis_1999]: https://doi.org/10.1016/b978-188420781-5.50020-6
+[research_hayford_henneke]: https://doi.org/10.1520/stp36910s
+[research_hayford_henneke_1977]: https://doi.org/10.1177/002199837701100406
+[research_haynes_luzetsky_2025]: https://doi.org/10.4050/f-0081-2025-0162
+[research_hayward_harris_1990]: https://doi.org/10.1016/0956-7143(90)90163-q
+[research_hazbany_gilad]: https://doi.org/10.1007/978-3-540-69820-3_47
+[research_hazell_applebythomas_2010]: https://doi.org/10.1243/03093247jsa604
+[research_he_2007]: https://doi.org/10.1299/jsmeatem.2007.6._os18-1-3-
+[research_he_cheng_2012]: https://doi.org/10.1016/j.compstruct.2011.12.033
+[research_he_hu_2008]: https://doi.org/10.1016/j.matdes.2007.03.003
+[research_he_li_2020]: https://doi.org/10.1016/j.compstruct.2020.112844
+[research_he_yang_2015]: https://doi.org/10.2991/seee-15.2015.32
+[research_hedia_2006]: https://doi.org/10.3139/120.100775
+[research_hedin_1963]: https://doi.org/10.2172/4125153
+[research_heil_2025]: https://doi.org/10.33599/nasampe/c.25.136
+[research_heimbs_hoffmann_2013]: https://doi.org/10.1080/13588265.2013.801294
+[research_heintze_geier_2011]: https://doi.org/10.1117/12.880596
+[research_heise_martin_1990]: https://doi.org/10.1002/app.1990.070390321
+[research_heller_kaye_2002]: https://doi.org/10.1016/b978-008042699-0/50012-7
+[research_helms]: https://doi.org/10.31390/gradschool_disstheses.6677
+[research_helms_li_2002]: https://doi.org/10.1115/etce2002/cmda-29072
+[research_helms_li_2003]: https://doi.org/10.1002/pc.10004
+[research_helms_yang_1996]: https://doi.org/10.1177/089270579600900305
+[research_helms_yang_1999]: https://doi.org/10.1115/1.2812389
+[research_helmus_hinterholzl_2015]: https://doi.org/10.1016/j.compositesa.2015.03.021
+[research_helmus_kratz_2016]: https://doi.org/10.1177/0021998316650273
+[research_henderson_gurdal_1999]: https://doi.org/10.2514/2.2431
+[research_henkel_introduces_2005]: https://doi.org/10.1108/ssmt.2005.21917bad.008
+[research_henne_ermanni_2004]: https://doi.org/10.1016/j.compscitech.2003.09.021
+[research_henneke_1992]: https://doi.org/10.1007/978-3-662-11345-5_9
+[research_henneke_jones_1979]: https://doi.org/10.1520/stp36026s
+[research_hennessey_freckleton_2023]: https://doi.org/10.1615/faim1998.430
+[research_henriksen_arthur_1983]: https://doi.org/10.1007/978-94-009-6640-6_25
+[research_hensel_schick_1998]: https://doi.org/10.1016/s0022-3093(98)00607-3
+[research_henz_tamma_2002]: https://doi.org/10.21236/ada400221
+[research_herakovich_johnson_1981]: https://doi.org/10.1520/stp29317s
+[research_herath_janith_2022]: https://doi.org/10.1109/mercon55799.2022.9906248
+[research_hering_1983]: https://doi.org/10.21236/ada142524
+[research_hermansen_borstnar_2026]: https://doi.org/10.1016/j.compstruct.2025.119852
+[research_hermansen_lund_2021]: https://doi.org/10.23967/composites.2021.081
+[research_hermansen_lund_2023]: https://doi.org/10.1007/s00158-023-03708-4
+[research_hernandez_gutierrezduran_2019]: https://doi.org/10.33599/nasampe/s.19.1481
+[research_hernandezcaraballa_bregman_2022]: https://doi.org/10.2172/2003708
+[research_herpradipto_rosyidi_2025]: https://doi.org/10.1007/978-981-96-4353-0_25
+[research_herrera_1998]: https://doi.org/10.4271/981873
+[research_herrick_1989]: https://doi.org/10.2514/6.1989-2815
+[research_heslehurst_1999]: https://doi.org/10.1016/s0143-7496(98)00029-3
+[research_hewson_rice_2013]: https://doi.org/10.21236/ada593025
+[research_hexion_inc_2016]: https://doi.org/10.1016/j.fopow.2016.05.023
+[research_hexion_launches_2009]: https://doi.org/10.1016/s1364-5439(09)70233-3
+[research_hexion_launches_2015]: https://doi.org/10.1016/j.fopow.2015.05.026
+[research_hexion_specialty_2009]: https://doi.org/10.1016/s1364-5439(09)70166-2
+[research_heydarinouri_vidovic_2021]: https://doi.org/10.1016/j.compstruct.2021.114509
+[research_hickey_campagna_1990]: https://doi.org/10.1016/0040-6031(90)80177-z
+[research_hickman_williams_1989]: https://doi.org/10.4271/890198
+[research_hidayat_2018]: https://doi.org/10.1109/icast1.2018.8751599
+[research_hiel_2026]: https://doi.org/10.1201/9781003761464_ch7
+[research_high_performance_2011]: https://doi.org/10.1016/s0034-3617(11)70068-6
+[research_high_pressure_decorative]: https://doi.org/10.3403/03299203u
+[research_high_temperature_2008]: https://doi.org/10.1016/s0034-3617(08)70332-1
+[research_high_temperature_2011]: https://doi.org/10.1016/s0034-3617(11)70101-1
+[research_hiken_2017]: https://doi.org/10.4271/2017-01-2154
+[research_hiken_2019]: https://doi.org/10.5772/intechopen.82353
+[research_hiki_maruyama_1975]: https://doi.org/10.1007/978-3-642-95275-3_59
+[research_hikosaka_matsuzaki_2013]: https://doi.org/10.3144/expresspolymlett.2013.26
+[research_hill_1990]: https://doi.org/10.21236/ada221772
+[research_hill_1996]: https://doi.org/10.2514/6.1996-1327
+[research_hill_george_2001]: https://doi.org/10.1002/pat.139
+[research_hill_george_2002]: https://doi.org/10.1002/pat.198
+[research_hinrichs_1983]: https://doi.org/10.1520/stp28537s
+[research_hinrichsen_bautista_2001]: https://doi.org/10.1016/s1290-0958(01)90072-3
+[research_hirota_sato_2019]: https://doi.org/10.12783/asc34/31418
+[research_hirwani_mishra_2021]: https://doi.org/10.1016/j.compstruct.2021.113768
+[research_hisada_minakuchi_2018]: https://doi.org/10.12783/asc33/26092
+[research_hoa_1981]: https://doi.org/10.1520/stp29321s
+[research_hobbs_1995]: https://doi.org/10.1080/10589759508952836
+[research_hofmann_glasser_1990]: https://doi.org/10.1016/0040-6031(90)80179-3
+[research_hogan_elshaw_2020]: https://doi.org/10.3390/forecast2040023
+[research_hogan_elshaw_2022]: https://doi.org/10.1201/9781003220978-8
+[research_hohne_hemminger_1996]: https://doi.org/10.1007/978-3-662-03302-9_6
+[research_hohne_hemminger_2003]: https://doi.org/10.1007/978-3-662-06710-9_6
+[research_hojjati_johnston_2000]: https://doi.org/10.1515/secm.2000.9.3.111
+[research_hojjati_kheradpisheh_2023]: https://doi.org/10.33599/nasampe/s.23.0338
+[research_holbery_bordia_2001]: https://doi.org/10.1023/a:1012474702397
+[research_holland_chaudhari_2024]: https://doi.org/10.1016/j.mfglet.2024.03.010
+[research_hollaway_romhi_1990]: https://doi.org/10.1016/0263-8223(90)90070-u
+[research_holmes_larryr_2012]: https://doi.org/10.21236/ada564674
+[research_holmes_larryr_2012_b]: https://doi.org/10.21236/ada571902
+[research_holmes_larryr_2013]: https://doi.org/10.21236/ada570994
+[research_holzwarth_1998]: https://doi.org/10.2514/6.1998-1872
+[research_homemdemellojunior_desampaioalves_2025]: https://doi.org/10.1016/j.jmrt.2025.06.042
+[research_honda_minakuchi_2026]: https://doi.org/10.1080/09243046.2026.2646143
+[research_honeycomb_core]: https://doi.org/10.4271/ams4176a
+[research_honeycomb_core_b]: https://doi.org/10.4271/ams4175c
+[research_honeycomb_core_c]: https://doi.org/10.4271/ams4348
+[research_honeycomb_cored_sandwich_2010]: https://doi.org/10.31399/asm.tb.omfrc.t53030223
+[research_honeycomb_laminate_composite_1979]: https://doi.org/10.1016/0010-4361(79)90475-0
+[research_hong_chung_1991]: https://doi.org/10.1295/polymj.23.747
+[research_hong_chung_2015]: https://doi.org/10.1016/j.energy.2014.10.050
+[research_hong_lee_2017]: https://doi.org/10.7317/pk.2017.41.2.260
+[research_hong_song_2016]: https://doi.org/10.7234/composres.2016.29.5.315
+[research_honguyentan_jeon_2024]: https://doi.org/10.1016/j.compositesb.2024.111599
+[research_hongzhang_qinmin_2006]: https://doi.org/10.1002/app.23146
+[research_hoofatt_park_2001]: https://doi.org/10.1016/s0263-8223(01)00026-5
+[research_hopmann_wagner_2017]: https://doi.org/10.1177/0021998317747374
+[research_horioka_1988]: https://doi.org/10.5990/jwpa.14.156
+[research_hosseini_beheshty_2026]: https://doi.org/10.2139/ssrn.7052060
+[research_hosseinpour_nazockdast_2016]: https://doi.org/10.1063/1.4942315
+[research_hosten_1991]: https://doi.org/10.1007/978-1-4615-3742-7_39
+[research_hosur_jeelani_2003]: https://doi.org/10.21236/ada421599
+[research_hosur_jeelani_2003_b]: https://doi.org/10.21236/ada421601
+[research_hosur_jeelani_2003_c]: https://doi.org/10.21236/ada421600
+[research_hou_hou_1987]: https://doi.org/10.2514/6.1987-751
+[research_hou_hou_1990]: https://doi.org/10.3139/217.900088
+[research_hou_lai_2015]: https://doi.org/10.1115/imece2015-50931
+[research_hou_miller_2013]: https://doi.org/10.1177/0731684413503050
+[research_houen]: https://doi.org/10.14264/beaab92
+[research_hoult_meador_1997]: https://doi.org/10.31399/asm.hb.v20.a0002483
+[research_hoult_meador_2010]: https://doi.org/10.31399/asm.hb.v22b.a0005527
+[research_hours_low_2000]: https://doi.org/10.1201/9781482279054-26
+[research_hours_low_2000_b]: https://doi.org/10.1201/9781482279054-31
+[research_hourston_song]: https://doi.org/10.1007/1-4020-3750-3_3
+[research_houston_quinn_2017]: https://doi.org/10.1016/j.tws.2017.03.006
+[research_houzibe_elkettani_2023]: https://doi.org/10.1016/j.wavemoti.2022.103105
+[research_hovanec]: https://doi.org/10.33915/etd.5826
+[research_howell_hines_2024]: https://doi.org/10.33599/nasampe/s.24.0033
+[research_hozic_2014]: https://doi.org/10.3384/lic.diva-102316
+[research_hozic_thore_2023]: https://doi.org/10.1016/j.compstruct.2023.117336
+[research_hpkan_tadyer_1996]: https://ntrs.nasa.gov/citations/19970010846
+[research_hseih_su_1998]: https://doi.org/10.1016/s0032-3861(97)00510-7
+[research_hsiao_2005]: https://doi.org/10.1115/imece2005-80669
+[research_hsiao_islam_2022]: https://doi.org/10.33599/nasampe/s.22.0751
+[research_hsiao_lin_1999]: https://doi.org/10.1016/s0963-8695(99)00002-x
+[research_hsich_zurn_1982]: https://doi.org/10.1021/bk-1982-0227.ch016
+[research_hsu_fischer_1996]: https://doi.org/10.1117/12.259209
+[research_hsu_jeong_1989]: https://doi.org/10.1007/978-1-4613-0817-1_197
+[research_hsu_mor_2010]: https://doi.org/10.2514/6.2010-1308
+[research_hsu_nair_1987]: https://doi.org/10.1007/978-1-4613-1893-4_135
+[research_hu_2008]: https://doi.org/10.1533/9781845694982.221
+[research_hu_centea_2019]: https://doi.org/10.1177/0021998319864420
+[research_hu_centea_2020]: https://doi.org/10.1002/pc.25497
+[research_hu_jones_2018]: https://doi.org/10.1016/b978-0-08-100540-8.00012-1
+[research_hu_li_2023]: https://doi.org/10.3390/ma16196361
+[research_hu_shan_2020]: https://doi.org/10.1080/13588265.2020.1757583
+[research_hu_sharifi_2015]: https://doi.org/10.1021/bk-2015-1192.ch023
+[research_hu_tang_2013]: https://doi.org/10.1016/j.fuel.2013.04.032
+[research_hu_wang_2023]: https://doi.org/10.1108/mmms-11-2022-0255
+[research_hu_xiao_2017]: https://doi.org/10.1080/13588265.2017.1286934
+[research_hu_yong_2026]: https://doi.org/10.2139/ssrn.6142363
+[research_huang_bao_2001]: https://doi.org/10.1117/12.435544
+[research_huang_daehn_1998]: https://doi.org/10.1016/s0026-0657(98)85011-x
+[research_huang_fan_2021]: https://doi.org/10.1061/9780784483466.045
+[research_huang_fan_2022]: https://doi.org/10.26226/m.634060663701db4fe3530502
+[research_huang_gillespie_2000]: https://doi.org/10.1016/s0263-8223(00)00062-3
+[research_huang_lanzadiscalea_2023]: https://doi.org/10.1016/j.compstruct.2023.117373
+[research_huang_lee_2010]: https://doi.org/10.1016/j.compositesa.2009.12.003
+[research_huang_long_2022]: https://doi.org/10.1177/10996362221131274
+[research_huang_mak_1999]: https://doi.org/10.1016/s0166-3615(98)00105-5
+[research_huang_mak_2003]: https://doi.org/10.1007/978-3-642-55778-1_8
+[research_huang_patham_2012]: https://doi.org/10.1002/app.37567
+[research_huang_ren_2012]: https://doi.org/10.1007/s10443-012-9270-y
+[research_huang_yang_2001]: https://doi.org/10.1115/etce2001-17041
+[research_huang_yung_2010]: https://doi.org/10.1177/0021998310373517
+[research_huang_zhu_2020]: https://doi.org/10.1061/(asce)em.1943-7889.0001858
+[research_hubert_2023]: https://doi.org/10.1016/b978-0-12-819160-6.00020-2
+[research_hubert_centea_2018]: https://doi.org/10.1016/b978-0-12-803581-8.09900-8
+[research_hubert_poursartip_2001]: https://doi.org/10.1016/s1359-835x(00)00143-3
+[research_hubner_ohde_2018]: https://doi.org/10.4071/2380-4505-2018.1.000037
+[research_hudson_baro_2023]: https://doi.org/10.1177/00219983231188173
+[research_hudson_follis_2021]: https://doi.org/10.1016/j.compositesa.2021.106337
+[research_hudson_georgiou_2025]: https://doi.org/10.1177/00219983251369766
+[research_hudson_pankiewicz_2026]: https://doi.org/10.1007/s10443-026-10503-z
+[research_hudson_yuan_2018]: https://doi.org/10.1115/1.4039230
+[research_hueber_horejsi_2016]: https://doi.org/10.1080/20550340.2016.1154642
+[research_hueber_schwingshandl_2019]: https://doi.org/10.1080/20550340.2019.1599536
+[research_hughes_handley_1988]: https://doi.org/10.1007/978-1-4613-0979-6_19
+[research_hui_xu_2022]: https://doi.org/10.1016/j.compstruct.2022.115341
+[research_hui_xu_2022_b]: https://doi.org/10.1016/j.compscitech.2022.109455
+[research_hui_xu_2024]: https://doi.org/10.1016/j.compstruct.2023.117827
+[research_hui_zhong_2026]: https://doi.org/10.1016/j.compstruct.2026.120853
+[research_huitink_montazeri_2021]: https://doi.org/10.1115/1.0003539v
+[research_hull_1982]: https://doi.org/10.1016/0010-4361(82)90045-3
+[research_humphry]: https://doi.org/10.14264/6eb8f34
+[research_hunt_sturges_1993]: https://doi.org/10.1115/detc1993-0305
+[research_huntington_lyrintzis_1993]: https://doi.org/10.2514/6.1993-1438
+[research_hussain_regalla_2020]: https://doi.org/10.1080/13588265.2020.1837478
+[research_hutchins_mottram_1993]: https://doi.org/10.1016/b978-0-7506-1877-9.50193-1
+[research_hutchinson_moradi_2020]: https://doi.org/10.3390/ma13163634
+[research_hutchinson_schubel_2014]: https://doi.org/10.1177/0731684414527805
+[research_huttrop_1980]: https://doi.org/10.1007/978-1-4684-1033-4_3
+[research_hwang_park_2018]: https://doi.org/10.1007/s00170-018-2467-y
+[research_hybrid_electric_aircraft_2012]: https://doi.org/10.1016/s0034-3617(12)70051-6
+[research_hyun_kim_2020]: https://doi.org/10.1177/0021998320963541
+[research_iaset_2021]: https://doi.org/10.2139/ssrn.3962860
+[research_iba_hokoi_2009]: https://doi.org/10.1520/jai102030
+[research_iba_hokoi_2010]: https://doi.org/10.1520/stp49024s
+[research_ichihara_komatsu_1971]: https://doi.org/10.1295/polymj.2.530
+[research_iervolino_meo_2017]: https://doi.org/10.12783/shm2017/13935
+[research_ilcewicz_ashforth_2018]: https://doi.org/10.1016/b978-0-12-803581-8.10314-5
+[research_ilcewicz_murphy_2005]: https://doi.org/10.2514/6.2005-1877
+[research_ilcewiczlarryb_dosternstf_1989]: https://ntrs.nasa.gov/citations/19900046030
+[research_ilcewiczlarryb_smithpeterj_1993]: https://ntrs.nasa.gov/citations/19950022613
+[research_ilcewiczlb_walkerth_1991]: https://ntrs.nasa.gov/citations/19940028357
+[research_imbert_2015]: https://doi.org/10.4271/2015-01-0722
+[research_imhof_1997]: https://doi.org/10.1108/00022669710178010
+[research_improved_lightweight_2001]: https://doi.org/10.1016/s1464-2859(01)80599-x
+[research_improved_preimpregnated_1992]: https://doi.org/10.1016/0010-4361(92)90245-p
+[research_improved_resin_1998]: https://doi.org/10.1108/aeat.1998.12770cab.034
+[research_improvement_of_1971]: https://doi.org/10.1016/0010-4361(71)90009-7
+[research_in_situ_1998]: https://doi.org/10.1016/s0963-8695(98)90479-0
+[research_in_situ_composite_1990]: https://doi.org/10.1016/0010-4361(90)90127-i
+[research_influence_of_1991]: https://doi.org/10.1016/0010-4361(91)90231-5
+[research_ingram_liggat_2007]: https://doi.org/10.1002/pi.2237
+[research_inspection_of_1970]: https://doi.org/10.1016/0041-624x(70)90769-9
+[research_international_standard_2010]: https://doi.org/10.1017/cbo9780511844652.021
+[research_investigation_of_1990]: https://doi.org/10.1016/0308-9126(90)91701-t
+[research_investigation_of_1990_b]: https://doi.org/10.1016/0308-9126(90)91693-n
+[research_investigation_of_1994]: https://doi.org/10.1016/0963-8695(94)90727-7
+[research_investigation_of_2022]: https://doi.org/10.7454/mst.v26i3.1558
+[research_iorio_quadrini_2023]: https://doi.org/10.1177/00219983231204117
+[research_ipkovich_kummer_2025]: https://doi.org/10.1016/j.cirpj.2025.08.011
+[research_iqbal_mccarthy_2003]: https://doi.org/10.4050/vfs-f59-000066
+[research_irle_bolton_1988]: https://doi.org/10.1515/hfsg.1988.42.1.53
+[research_irving_ratchev_2014]: https://doi.org/10.4271/2014-01-2252
+[research_irving_zhang_2011]: https://doi.org/10.1007/978-94-007-1664-3_59
+[research_iryani_kadir_2019]: https://doi.org/10.5373/jardcs/v11sp11/20193066
+[research_isaacs_2021]: https://doi.org/10.32920/ryerson.14661906
+[research_ishida_kitada_2020]: https://doi.org/10.1080/09243046.2020.1752964
+[research_ishida_rodriguez_1995]: https://doi.org/10.1016/0032-3861(95)97878-j
+[research_ishii_biwa_2016]: https://doi.org/10.1016/j.compstruct.2016.05.054
+[research_islam_2026]: https://doi.org/10.63125/av45jf21
+[research_islam_donough_2022]: https://doi.org/10.1177/08927057221123477
+[research_ismail_fitriyana_2026]: https://doi.org/10.21203/rs.3.rs-9331394/v1
+[research_ito_minakuchi_2012]: https://doi.org/10.1080/09243046.2012.723363
+[research_ito_obo_2014]: https://doi.org/10.1080/09243046.2014.906914
+[research_ito_yamagishi_2004]: https://doi.org/10.1163/1568551041408804
+[research_itu_vlase_2019]: https://doi.org/10.1016/j.promfg.2019.02.195
+[research_ivanez_garciacastillo_2019]: https://doi.org/10.1016/j.polymertesting.2019.106000
+[research_iyerkumar_dewaele_2025]: https://doi.org/10.3390/ma18143286
+[research_j_chaurasia_2022]: https://doi.org/10.4271/2022-26-0029
+[research_jabarullakhan_creighton_2022]: https://doi.org/10.1021/acs.iecr.2c02018
+[research_jaber_bonney_1999]: https://doi.org/10.1016/s0925-5273(98)00027-9
+[research_jackson_1996]: https://doi.org/10.4050/vfs-f52-2036
+[research_jackson_1998]: https://doi.org/10.4337/9781035377596.00014
+[research_jackson_2001]: https://doi.org/10.1533/cras.2001.0166
+[research_jackson_fasanella_2001]: https://doi.org/10.2514/2.2739
+[research_jackson_fasanella_2018]: https://doi.org/10.1016/b978-0-12-803581-8.10063-3
+[research_jackson_kellas_2008]: https://doi.org/10.4050/vfs-f64-000286
+[research_jacksonanthonyc_barrieronalde_1993]: https://ntrs.nasa.gov/citations/19950022612
+[research_jacobson_1981]: https://doi.org/10.2514/6.1981-1699
+[research_jacobson_1983]: https://doi.org/10.2514/3.44865
+[research_jadhav_2022]: https://doi.org/10.1007/978-3-030-88192-4_4
+[research_jaeungcho_2016]: https://doi.org/10.17958/ksmt.18.3.201606.405
+[research_jagadeesh_siddaramaiah_1990]: https://doi.org/10.1002/app.1990.070400716
+[research_jahangir_safizadeh_2026]: https://doi.org/10.2139/ssrn.7357995
+[research_jahromi_shojaei_2012]: https://doi.org/10.1177/0731684412451937
+[research_jain_lutton_1997]: https://doi.org/10.1177/002199839703100704
+[research_jamora_wu_2020]: https://doi.org/10.1016/j.compstruct.2020.112482
+[research_janeliukstis_chen_2021]: https://doi.org/10.1016/j.compstruct.2021.114143
+[research_jang_boxwell_1992]: https://doi.org/10.1007/978-94-011-2874-2_4
+[research_jang_rao_1987]: https://doi.org/10.1007/978-1-4684-5338-6_4
+[research_jang_shih_1990]: https://doi.org/10.1080/10426919008953248
+[research_jang_yi_1995]: https://doi.org/10.1295/polymj.27.404
+[research_jansen_rolfes_2017]: https://doi.org/10.1007/978-3-662-53605-6_95-1
+[research_jansen_rolfes_2020]: https://doi.org/10.1007/978-3-662-55771-6_95
+[research_janzen_may_2023]: https://doi.org/10.1002/pc.27696
+[research_jared_1997]: https://doi.org/10.1007/978-3-642-60718-9_6
+[research_jaunky_knight_1998]: https://doi.org/10.1016/s0263-8223(98)00020-8
+[research_jaunky_knightjr_1996]: https://doi.org/10.2514/6.1996-1581
+[research_jayasree_airale_2017]: https://doi.org/10.1016/j.compositesb.2017.06.007
+[research_jayasree_omairey_2020]: https://doi.org/10.1515/secm-2020-0033
+[research_jeans_grimes_1981]: https://doi.org/10.2514/6.1981-495
+[research_jeans_grimes_1983]: https://doi.org/10.2514/3.44838
+[research_jeffersonandrew_arumugam_2016]: https://doi.org/10.1016/j.compstruct.2015.10.037
+[research_jegley_bush_2001]: https://doi.org/10.2514/6.2001-1334
+[research_jegley_velicki_2013]: https://doi.org/10.2514/6.2013-410
+[research_jena_2023]: https://doi.org/10.1201/9781003424000-37
+[research_jennise_yuhazri_2022]: https://doi.org/10.4028/p-y225f9
+[research_jensen]: https://doi.org/10.1007/1-4020-3848-8_79
+[research_jeong_1997]: https://doi.org/10.1177/002199839703100303
+[research_jeong_hsu_1995]: https://doi.org/10.1016/0041-624x(95)00023-v
+[research_jeremiah_madubueze_2025]: https://doi.org/10.63373/3047-8014/34
+[research_jeroldjohnbritto_vasanthanathan_2022]: https://doi.org/10.1088/2053-1591/ac6169
+[research_ji]: https://doi.org/10.31390/gradschool_dissertations.2025
+[research_ji_2017]: https://doi.org/10.12783/dtmse/icmea2015/7285
+[research_ji_ouyang_2010]: https://doi.org/10.1007/s10704-010-9571-9
+[research_ji_xia_2015]: https://doi.org/10.4028/www.scientific.net/amm.727-728.192
+[research_ji_zhao_2021]: https://doi.org/10.1016/j.compstruct.2020.113121
+[research_jia_guo_2013]: https://doi.org/10.4028/www.scientific.net/amr.710.798
+[research_jian_yao_2011]: https://doi.org/10.1016/j.proeng.2011.10.028
+[research_jiang_chen_2023]: https://doi.org/10.1080/20550340.2023.2171940
+[research_jiang_he_2021]: https://doi.org/10.1016/j.compstruct.2020.113101
+[research_jiang_liao_2026]: https://doi.org/10.1177/00219983261458006
+[research_jin_an_2025]: https://doi.org/10.1016/j.jmapro.2025.06.038
+[research_jin_song_2011]: https://doi.org/10.2514/1.c031493
+[research_jing_liu_2014]: https://doi.org/10.1002/app.40853
+[research_jinno_sakai_2003]: https://doi.org/10.1163/156855103322320374
+[research_jinsookim_daigillee_1996]: https://doi.org/10.1016/0925-4005(95)01761-j
+[research_jiroutova_2016]: https://doi.org/10.21062/ujep/x.2016/a/1213-2489/mt/16/3/512
+[research_jo_copenhaver_2023]: https://doi.org/10.1115/imece2023-114142
+[research_jodatnia_saeidigoogarchin_2026]: https://doi.org/10.1016/j.engfracmech.2026.112317
+[research_joesbury_nagarajan_2026]: https://doi.org/10.1177/00219983261433464
+[research_john_george_1994]: https://doi.org/10.1016/0079-6700(94)90032-9
+[research_johncock_tudgey_1986]: https://doi.org/10.1002/pi.4980180504
+[research_johnmartin_2002]: https://doi.org/10.2172/821697
+[research_johnson_1969]: https://doi.org/10.21236/ad0750098
+[research_johnson_kindervater_1997]: https://doi.org/10.4050/vfs-f53-225
+[research_johnson_pitchumani_2008]: https://doi.org/10.1177/0021998308091264
+[research_johnson_pitchumani_2010]: https://doi.org/10.5098/hmt.v1.1.3007
+[research_johnson_rudd_1998]: https://doi.org/10.1016/s1359-835x(97)00043-2
+[research_johnston_vaziri_2001]: https://doi.org/10.1106/yxea-5mh9-76j5-back
+[research_joining_and_1997]: https://doi.org/10.1201/9781482277739-15
+[research_joining_of_2004]: https://doi.org/10.2514/5.9781600861680.0289.0368
+[research_joining_of_2016]: https://doi.org/10.2514/5.9781624103261.0397.0482
+[research_jona_goren_1971]: https://doi.org/10.3109/10520297109067842
+[research_jonas_aldag_1987]: https://doi.org/10.4271/871022
+[research_jones_1969]: https://doi.org/10.1520/stp49824s
+[research_jones_2013]: https://doi.org/10.21236/ada593350
+[research_jones_2018]: https://doi.org/10.4324/9781315160092-3
+[research_jones_chiu_1993]: https://doi.org/10.1016/0263-8223(93)90166-n
+[research_jones_kinloch_2021]: https://doi.org/10.12783/asc36/35872
+[research_jones_robinson_1992]: https://doi.org/10.2514/6.1992-2473
+[research_jones_smith_1995]: https://doi.org/10.1016/0263-8223(95)00097-6
+[research_jongsma_1981]: https://doi.org/10.21236/ada109108
+[research_jongsma_1981_b]: https://doi.org/10.21236/ada108971
+[research_jongsma_1981_c]: https://doi.org/10.21236/ada108969
+[research_jongsma_1981_d]: https://doi.org/10.21236/ada109115
+[research_jongsma_1981_e]: https://doi.org/10.21236/ada108968
+[research_jongsma_1981_f]: https://doi.org/10.21236/ada108970
+[research_jonna_srinivas_2025]: https://doi.org/10.1080/15397734.2025.2517249
+[research_jordan]: https://doi.org/10.51415/10321/1930
+[research_jorgensen_mikkelsen_2023]: https://doi.org/10.2139/ssrn.4622121
+[research_jorgensen_mikkelsen_2024]: https://doi.org/10.1016/j.heliyon.2024.e25450
+[research_joseph_namilae_2024]: https://doi.org/10.2514/6.2024-0039
+[research_joshi]: https://doi.org/10.33915/etd.4001
+[research_joshi_1998]: https://doi.org/10.21236/ada358669
+[research_joshi_biggers_1996]: https://doi.org/10.1016/1359-8368(95)00027-5
+[research_joshi_guttenberg_2008]: https://doi.org/10.1016/j.ergon.2007.10.012
+[research_jouyandeh_paran_2019]: https://doi.org/10.1016/j.porgcoat.2018.11.025
+[research_jouyandeh_paran_2019_b]: https://doi.org/10.1016/j.porgcoat.2019.02.040
+[research_joven_minaie_2018]: https://doi.org/10.1177/0021998318774608
+[research_joven_tavakol_2013]: https://doi.org/10.1002/app.38909
+[research_juarezpeterd_cramerkelliott_2016]: https://ntrs.nasa.gov/citations/20160009052
+[research_jubsilp_punson_2010]: https://doi.org/10.1016/j.polymdegradstab.2010.03.029
+[research_jufen_gang_2003]: https://doi.org/10.1016/s0263-8223(03)00016-3
+[research_jugla_jochum_2007]: https://doi.org/10.4028/0-87849-427-8.225
+[research_juhui_wang_2024]: https://doi.org/10.21203/rs.3.rs-4268719/v1
+[research_jung_2002]: https://doi.org/10.1023/a:1016092808320
+[research_jung_jinkang_2007]: https://doi.org/10.1177/0021998306068088
+[research_jung_roh_2015]: https://doi.org/10.1016/j.compstruct.2014.08.026
+[research_junghokwon_pavchok_2010]: https://doi.org/10.1109/ifost.2010.5668025
+[research_juska_mayes_1995]: https://doi.org/10.21236/ada298742
+[research_justin_gangloff_2019]: https://doi.org/10.33599/nasampe/s.19.1536
+[research_jweeg_bakhy_2021]: https://doi.org/10.4028/www.scientific.net/msf.1039.65
+[research_kabashima_ozaki_2000]: https://doi.org/10.1163/15685510052000101
+[research_kaddouri_ouinas_2008]: https://doi.org/10.1016/j.commatsci.2008.03.003
+[research_kadiyala_devlin_2022]: https://doi.org/10.1016/j.compositesa.2021.106764
+[research_kadiyala_portela_2021]: https://doi.org/10.1016/j.compscitech.2020.108512
+[research_kadlec_ruzek_2020]: https://doi.org/10.1016/j.compscitech.2019.107967
+[research_kafali_tunca_2023]: https://doi.org/10.1017/aer.2023.85
+[research_kahalimoghaddam_hubner_2017]: https://doi.org/10.1016/j.sna.2017.10.007
+[research_kaiser_1994]: https://doi.org/10.1080/09349849408968088
+[research_kalatur_buyakova_2014]: https://doi.org/10.14382/epitoanyag-jsbcm.2014.6
+[research_kale_2021]: https://doi.org/10.2139/ssrn.3779179
+[research_kalimabukenya_michaelolaya_2021]: https://ntrs.nasa.gov/citations/20205009287
+[research_kalowekamo_baker_2009]: https://doi.org/10.1016/j.solener.2009.02.003
+[research_kalra_perry_1992]: https://doi.org/10.1177/002199839202601706
+[research_kamarian_bodaghi_2019]: https://doi.org/10.1080/15397734.2019.1674664
+[research_kamrani_nasr_2009]: https://doi.org/10.1007/978-0-387-95863-7_6
+[research_kamrani_salhieh_2002]: https://doi.org/10.1007/978-1-4757-3581-9_5
+[research_kan_cordero_1997]: https://doi.org/10.21236/ada326762
+[research_kan_ratwani_1982]: https://doi.org/10.2514/6.1982-737
+[research_kan_ratwani_1983]: https://doi.org/10.2514/3.44953
+[research_kaneda_2023]: https://doi.org/10.2514/6.2023-2420
+[research_kanetoh_yokoi_2012]: https://doi.org/10.3139/217.2457
+[research_kang_jung_2000]: https://doi.org/10.1016/s1359-835x(99)00086-x
+[research_kang_kang_2001]: https://doi.org/10.1117/12.435569
+[research_kang_kang_2003]: https://doi.org/10.1088/0964-1726/12/1/304
+[research_kang_kim_2005]: https://doi.org/10.1016/j.compstruct.2004.07.001
+[research_kang_lee_1994]: https://doi.org/10.1177/002199839402801604
+[research_kang_lee_2006]: https://doi.org/10.4028/0-87849-412-x.1201
+[research_kang_meng_2023]: https://doi.org/10.3390/atmos14101577
+[research_kang_zhao_2023]: https://doi.org/10.3390/atmos14121784
+[research_kannan_kannan_2018]: https://doi.org/10.4271/2018-28-0014
+[research_kanterakis_chemama_2020]: https://doi.org/10.1007/978-3-030-35346-9_13
+[research_kanths_pandiand_2025]: https://doi.org/10.14293/pr2199.001688.v1
+[research_kapoor_prakash_1984]: https://doi.org/10.1016/b978-1-4832-8440-8.50277-5
+[research_kappel_2016]: https://doi.org/10.1016/j.compstruct.2016.01.016
+[research_kappel_2018]: https://doi.org/10.1016/j.compstruct.2018.02.059
+[research_kappel_2019]: https://doi.org/10.1016/j.compstruct.2018.10.045
+[research_kappel_stefaniak_2015]: https://doi.org/10.1016/j.compstruct.2014.09.069
+[research_karalekas_cugnoni_2008]: https://doi.org/10.1016/j.compositesa.2008.04.010
+[research_karayannidou_achilias_2006]: https://doi.org/10.1016/j.eurpolymj.2006.08.025
+[research_kardos_dudukovic_1983]: https://doi.org/10.1520/stp28541s
+[research_karger_kling_2013]: https://doi.org/10.1016/j.compstruct.2012.11.024
+[research_karkanas_partridge_1996]: https://doi.org/10.1002/(sici)1097-0126(199610)41:2<183::aid-pi621>3.0.co;2-f
+[research_karkanas_partridge_2000]: https://doi.org/10.1002/1097-4628(20000815)77:7<1419::aid-app3>3.0.co;2-n
+[research_karl_rudolph_2024]: https://doi.org/10.33599/nasampe/c.24.0233
+[research_karlsson_dutta_2024]: https://doi.org/10.2139/ssrn.4743596
+[research_karpenko_koricho_2015]: https://doi.org/10.1063/1.4914719
+[research_karpiuk_2015]: https://doi.org/10.17814/mechanik.2015.2.40
+[research_karpouzian_librescu_1994]: https://doi.org/10.2514/6.1994-1490
+[research_karthik_rajamani_2023]: https://doi.org/10.1007/978-981-99-2349-6_56
+[research_karumbaiah_kracke_2019]: https://doi.org/10.1016/j.compstruct.2018.12.039
+[research_kasai_2006]: https://doi.org/10.37665/pptsbht97632
+[research_kasemsiri_hiziroglu_2011]: https://doi.org/10.1016/j.tca.2011.03.020
+[research_kashfuddoja_ramji_2014]: https://doi.org/10.1177/0021998314521058
+[research_kassapoglouchristos_dinicolaalbertj_1990]: https://ntrs.nasa.gov/citations/19910032629
+[research_katnam_dasilva_2013]: https://doi.org/10.1016/j.paerosci.2013.03.003
+[research_katnam_dhote_2013]: https://doi.org/10.1080/00218464.2013.759432
+[research_kato_ikeda_2020]: https://doi.org/10.3390/polym12112484
+[research_katunin_2016]: https://doi.org/10.1515/fas-2016-0002
+[research_katunin_dragan_2015]: https://doi.org/10.1016/j.compstruct.2015.02.080
+[research_kaur_anandan_2016]: https://doi.org/10.1117/12.2219492
+[research_kaushik_2018]: https://doi.org/10.1007/978-981-13-1678-4_1
+[research_kaushik_raghavan_2010]: https://doi.org/10.1016/j.compositesa.2010.05.003
+[research_kautz_1992]: https://doi.org/10.1080/09349849208968062
+[research_kautz_1996]: https://doi.org/10.1080/09349849608968104
+[research_kavitha_vijayan_2024]: https://doi.org/10.1007/s12221-024-00670-w
+[research_kaware_kotambkar_2021]: https://doi.org/10.1080/13588265.2021.1914985
+[research_kaware_kotambkar_2022]: https://doi.org/10.1080/13588265.2022.2123178
+[research_kaware_kotambkar_2023]: https://doi.org/10.1080/13588265.2023.2230634
+[research_kawawaki_nakano_1998]: https://doi.org/10.1115/imece1998-1119
+[research_kaynak_kas_2006]: https://doi.org/10.1177/096739110601400105
+[research_kazilas_partridge_2004]: https://doi.org/10.1088/0957-0233/15/5/l01
+[research_kazilas_partridge_2005]: https://doi.org/10.1016/j.polymer.2005.05.005
+[research_kazmi_govignon_2018]: https://doi.org/10.1177/0021998318783308
+[research_kebede_kim_2017]: https://doi.org/10.4172/0976-4860.1000180
+[research_kechter_achenbach_1990]: https://doi.org/10.1007/978-1-4684-5772-8_159
+[research_kedari_farah_2011]: https://doi.org/10.1177/0021998311415442
+[research_kedward_1976]: https://doi.org/10.1016/0010-4361(76)90277-9
+[research_keel_1988]: https://doi.org/10.2514/6.1988-2343
+[research_keenan_1987]: https://doi.org/10.1002/app.1987.070330525
+[research_kelkar_chaphalkar_1999]: https://doi.org/10.2514/6.1999-1438
+[research_kellas_boitnott_2000]: https://doi.org/10.4050/vfs-f56-00054
+[research_kellas_jackson_2010]: https://doi.org/10.4050/jahs.55.042002
+[research_keller_2010]: https://doi.org/10.1533/9781845699796.3.439
+[research_keller_dransfeld_2018]: https://doi.org/10.1016/j.compositesb.2018.07.041
+[research_keller_gurtler_2006]: https://doi.org/10.1016/j.compstruct.2005.04.028
+[research_keller_pessiki_2018]: https://doi.org/10.1080/09349847.2018.1475585
+[research_keller_vanderkamp_1992]: https://doi.org/10.1111/j.1745-6584.1992.tb00804.x
+[research_kelly_2005]: https://doi.org/10.1016/j.compstruct.2004.04.016
+[research_kendall_gonzalez_1965]: https://doi.org/10.2514/3.43696
+[research_kendall_rudd_1992]: https://doi.org/10.1016/0956-7143(92)90111-7
+[research_kennedy_hansen_2008]: https://doi.org/10.1007/s11081-008-9068-9
+[research_kennedy_woodmansee_1970]: https://doi.org/10.21236/ad0716803
+[research_kennedy_woodmansee_1971]: https://doi.org/10.21236/ad0727156
+[research_kenney_kenney_2004]: https://doi.org/10.1520/stp12559s
+[research_kenny_1994]: https://doi.org/10.1002/app.1994.070510424
+[research_keramati_fernandezleon_2021]: https://doi.org/10.26226/morressier.612f6739bc98103724100975
+[research_kermani_simacek_2018]: https://doi.org/10.12783/asc33/25991
+[research_kermenov_foix_2025]: https://doi.org/10.1016/j.rcim.2024.102899
+[research_kerrin_klemperer_1992]: https://doi.org/10.21236/ada400228
+[research_kesavan_rajesh_2025]: https://doi.org/10.1080/09276440.2025.2581917
+[research_khalifa_lammer_2024]: https://doi.org/10.2139/ssrn.4783572
+[research_khalifa_lammer_2025]: https://doi.org/10.1007/s10570-025-06451-9
+[research_khalili_malekzadeh_2010]: https://doi.org/10.1016/j.compstruct.2009.11.012
+[research_khalyavina_haussler_2012]: https://doi.org/10.1016/j.polymer.2012.01.020
+[research_khan_aglietti_2018]: https://doi.org/10.1016/j.ijadhadh.2018.01.011
+[research_khan_khan_2017]: https://doi.org/10.4018/978-1-5225-2440-3.ch014
+[research_khan_riccio_2025]: https://doi.org/10.1007/978-3-031-81284-2_5
+[research_khan_yahya_2011]: https://doi.org/10.4028/www.scientific.net/amr.326.53
+[research_khashaba_najjar_2018]: https://doi.org/10.1016/j.compstruct.2017.09.095
+[research_khattab_2013]: https://doi.org/10.1155/2013/162657
+[research_khoo_kim_2011]: https://doi.org/10.1080/00218464.2011.600668
+[research_khoshmanesh_watson_2022]: https://doi.org/10.1016/j.compstruct.2022.115328
+[research_khosravi_2002]: https://doi.org/10.1007/978-94-010-0373-5_9
+[research_khouider_rochette_1985]: https://doi.org/10.1016/0040-6031(85)85484-8
+[research_khoun_centea_2009]: https://doi.org/10.1177/0021998309353960
+[research_khoun_hubert_2010]: https://doi.org/10.1016/j.compositesa.2009.06.014
+[research_khshain_almahaidi_2015]: https://doi.org/10.1016/j.compstruct.2015.04.060
+[research_kidane]: https://doi.org/10.31390/gradschool_theses.1504
+[research_kieronski_knock_2004]: https://doi.org/10.1520/stp12585s
+[research_kikukawa_2020]: https://doi.org/10.1201/9781003078784-10
+[research_kilian_klein_2026]: https://doi.org/10.1016/j.ijadhadh.2026.104399
+[research_killingsworth_2006]: https://doi.org/10.1080/15411656.2006.10462254
+[research_kim]: https://doi.org/10.22215/etd/2016-11507
+[research_kim_2000]: https://doi.org/10.1163/15685510051029255
+[research_kim_2001]: https://doi.org/10.21236/ada400690
+[research_kim_2002]: https://doi.org/10.1016/s0032-3861(02)00444-5
+[research_kim_2003]: https://doi.org/10.1080/00218460309578
+[research_kim_2004]: https://doi.org/10.1177/0021998304043746
+[research_kim_beak_2005]: https://doi.org/10.1007/bf02705795
+[research_kim_chang_2019]: https://doi.org/10.1016/j.compstruct.2019.111514
+[research_kim_chiba_1993]: https://doi.org/10.1016/0032-3861(93)90125-t
+[research_kim_chiba_1995]: https://doi.org/10.1016/0032-3861(95)90676-s
+[research_kim_choi_2001]: https://doi.org/10.2514/6.2001-1514
+[research_kim_choi_2023]: https://doi.org/10.1177/00219983231157275
+[research_kim_chun_2017]: https://doi.org/10.1080/09243046.2017.1345441
+[research_kim_daniel_2002]: https://doi.org/10.1177/0021998302036014598
+[research_kim_daniel_2003]: https://doi.org/10.1177/096369350301200404
+[research_kim_defrancisci_2013]: https://doi.org/10.1080/09243046.2013.862389
+[research_kim_he_2020]: https://doi.org/10.1080/09243046.2020.1824145
+[research_kim_inoue_1995]: https://doi.org/10.1016/0032-3861(95)91442-a
+[research_kim_jang_2024]: https://doi.org/10.3390/polym16081094
+[research_kim_ji_2008]: https://doi.org/10.1163/156855108x385339
+[research_kim_kayir_2005]: https://doi.org/10.1177/0021998305052028
+[research_kim_kim_1992]: https://doi.org/10.1016/0263-8223(92)90016-6
+[research_kim_kim_1994]: https://doi.org/10.1002/pen.760340803
+[research_kim_kim_2001]: https://doi.org/10.1016/s0263-8223(00)00145-8
+[research_kim_kim_2004]: https://doi.org/10.1016/j.compstruct.2004.04.070
+[research_kim_kim_2008]: https://doi.org/10.1177/0021998308094967
+[research_kim_kim_2022]: https://doi.org/10.1016/j.compstruct.2022.115379
+[research_kim_kim_2024]: https://doi.org/10.1080/09243046.2024.2384766
+[research_kim_kwon_2003]: https://doi.org/10.2514/6.2003-1996
+[research_kim_lee_1995]: https://doi.org/10.1016/0924-0136(94)01704-5
+[research_kim_lee_1996]: https://doi.org/10.1177/002199839603001302
+[research_kim_lee_1997]: https://doi.org/10.1177/002199839703102203
+[research_kim_lee_2002]: https://doi.org/10.1016/s0263-8223(02)00072-7
+[research_kim_lee_2002_b]: https://doi.org/10.1016/s0263-8223(02)00060-0
+[research_kim_lee_2003]: https://doi.org/10.1016/s0032-3861(03)00647-5
+[research_kim_lee_2006]: https://doi.org/10.1016/j.compstruct.2006.04.029
+[research_kim_lee_2012]: https://doi.org/10.1007/s12541-012-0094-3
+[research_kim_lee_2020]: https://doi.org/10.1142/s021798492040014x
+[research_kim_lee_2024]: https://doi.org/10.1080/09243046.2024.2398289
+[research_kim_lee_2024_b]: https://doi.org/10.1117/12.3013061
+[research_kim_lee_2026]: https://doi.org/10.1109/ectc51846.2026.00259
+[research_kim_lim_2013]: https://doi.org/10.1016/j.compstruct.2012.08.019
+[research_kim_lu_1998]: https://doi.org/10.1295/polymj.30.90
+[research_kim_melkote_2026]: https://doi.org/10.1016/j.compositesa.2025.109453
+[research_kim_min_2016]: https://doi.org/10.1016/j.tca.2016.08.014
+[research_kim_moon_2002]: https://doi.org/10.1177/0021998302036021712
+[research_kim_noor_1996]: https://doi.org/10.1016/0168-874x(95)00052-u
+[research_kim_nutt_2020]: https://doi.org/10.1080/20550340.2020.1815276
+[research_kim_park_2006]: https://doi.org/10.1016/j.compstruct.2006.04.030
+[research_kim_park_2006_b]: https://doi.org/10.1016/j.compositesa.2005.09.015
+[research_kim_park_2010]: https://doi.org/10.1016/j.tca.2009.10.011
+[research_kim_shin_2000]: https://doi.org/10.1002/pen.11272
+[research_kim_shin_2014]: https://doi.org/10.1016/j.compstruct.2014.01.042
+[research_kim_son_2002]: https://doi.org/10.1002/pi.861
+[research_kim_tuttle_1994]: https://doi.org/10.2514/6.1994-1496
+[research_kim_white_1998]: https://doi.org/10.1080/10759419808945905
+[research_kim_yoo_2013]: https://doi.org/10.1016/j.compositesb.2012.04.021
+[research_kimball_1981]: https://doi.org/10.21236/ada108949
+[research_kimball_1981_b]: https://doi.org/10.21236/ada108903
+[research_kimball_1981_c]: https://doi.org/10.21236/ada108950
+[research_kimball_1981_d]: https://doi.org/10.21236/ada108951
+[research_kimball_1981_e]: https://doi.org/10.21236/ada108953
+[research_kimball_1981_f]: https://doi.org/10.21236/ada109164
+[research_kimberlain_dull_2018]: https://doi.org/10.1520/stp160420170101
+[research_king_echeverria_2025]: https://doi.org/10.14339/sto-avt-384-3
+[research_king_kler_1982]: https://doi.org/10.21236/ada117710
+[research_king_rice_1996]: https://doi.org/10.1557/proc-430-601
+[research_kinloch_kodokian_1988]: https://doi.org/10.21236/ada198689
+[research_kinra_1985]: https://doi.org/10.21236/ada164056
+[research_kinra_1987]: https://doi.org/10.21236/ada205713
+[research_kinsey_hajisheikh_1997]: https://doi.org/10.1016/s0924-0136(96)02662-3
+[research_kiritsis_xirouchakis_1998]: https://doi.org/10.1115/detc98/dfm-5731
+[research_kirk_finley_2026]: https://doi.org/10.1557/s43579-026-01034-6
+[research_kiser_jayp_2010]: https://doi.org/10.21236/ada532142
+[research_kishi_odagiri]: https://doi.org/10.1887/0750307420/b873c16
+[research_kishore_1978]: https://doi.org/10.1021/ac50030a019
+[research_kiuna_lawrence_2002]: https://doi.org/10.1016/s1359-835x(02)00177-x
+[research_kiyani_deshpande_2026]: https://doi.org/10.1016/j.compositesb.2026.113952
+[research_klansek_kravanja_2006]: https://doi.org/10.1016/j.jcsr.2005.08.005
+[research_klasztorny_nycz_2018]: https://doi.org/10.1016/j.compstruct.2017.10.046
+[research_kline_1984]: https://doi.org/10.1007/978-1-4613-2749-3_35
+[research_kling_2008]: https://doi.org/10.1142/9781848162303_0005
+[research_klinger_1984]: https://doi.org/10.1016/0008-6223(84)90156-8
+[research_klosterman_browning_2020]: https://doi.org/10.1177/0021998320952517
+[research_klotzschem_1984]: https://ntrs.nasa.gov/citations/19870019180
+[research_kneece_rr_2014]: https://doi.org/10.21236/ada606290
+[research_kobayashi_ogasawara_1993]: https://doi.org/10.1163/156855193x00061
+[research_kobayashi_tanaka_2012]: https://doi.org/10.1163/156855112x629559
+[research_kobayashi_yanagisawa_2019]: https://doi.org/10.6089/jscm.45.91
+[research_koenis_vanhoorn_2022]: https://doi.org/10.23967/eccomas.2022.274
+[research_koh_chiu_2002]: https://doi.org/10.1142/9789812777973_0070
+[research_koh_chiu_2003]: https://doi.org/10.1177/147592103039834
+[research_koh_chiu_2003_b]: https://doi.org/10.1088/0964-1726/12/4/314
+[research_koh_isa_2012]: https://doi.org/10.1177/0021998312437233
+[research_koide_luersen_2017]: https://doi.org/10.26678/abcm.cobem2017.cob17-0623
+[research_koike_2002]: https://doi.org/10.1177/147776060201800301
+[research_kolanu_raju_2018]: https://doi.org/10.1016/j.compstruct.2018.05.015
+[research_kolarik_1990]: https://doi.org/10.4271/900997
+[research_kong_lee_1998]: https://doi.org/10.1016/s0263-8223(98)00044-0
+[research_kong_park_2008]: https://doi.org/10.1163/156855108x385302
+[research_kong_zhang_2022]: https://doi.org/10.1117/12.2635161
+[research_koodalil_barnoncel_2019]: https://doi.org/10.1063/1.5099746
+[research_kootte_bisagni_2021]: https://doi.org/10.2514/6.2021-0441
+[research_kopatz_unangst_2021]: https://doi.org/10.1016/j.addma.2021.102159
+[research_kordas_lampeas_2024]: https://doi.org/10.1016/j.ijfatigue.2024.108217
+[research_kordonowy_toupet_2011]: https://doi.org/10.2514/6.2011-1496
+[research_koreeda_matos_2011]: https://doi.org/10.1007/s10973-011-1602-x
+[research_koricho_belingardi_2013]: https://doi.org/10.1002/9781118535288.ch6
+[research_korytoski_hatch_1961]: https://doi.org/10.21236/ad0257000
+[research_koslowski_bonten_2019]: https://doi.org/10.1063/1.5084847
+[research_kostin_nasonov_2021]: https://doi.org/10.1088/1742-6596/1925/1/012070
+[research_kosztowny_waas_2014]: https://doi.org/10.2514/6.2014-0164
+[research_kosztowny_waas_2015]: https://doi.org/10.2514/6.2015-1439
+[research_kosztowny_waas_2021]: https://doi.org/10.1016/j.ijnonlinmec.2021.103815
+[research_kosztowny_waas_2021_b]: https://doi.org/10.1016/j.ijnonlinmec.2021.103814
+[research_kothari_2011]: https://doi.org/10.1007/978-94-007-1664-3_44
+[research_kotomin_avdeev_2003]: https://doi.org/10.1023/a:1022939622714
+[research_kotula_woodcock_2023]: https://doi.org/10.1016/j.polymer.2023.125967
+[research_koushyar_alavisoltani_2011]: https://doi.org/10.1177/0021998311429618
+[research_kovaleva_savotchenko_2021]: https://doi.org/10.1177/00219983211046373
+[research_krach_advani_1996]: https://doi.org/10.1177/002199839603000805
+[research_kraft_lignin]: https://doi.org/10.3403/30474121u
+[research_krainer_1963]: https://doi.org/10.1016/0041-624x(63)90083-0
+[research_krajangta]: https://doi.org/10.58837/chula.the.2010.385
+[research_kranbuehl_2008]: https://doi.org/10.1201/9781420043730.ch16
+[research_kranbuehl_delos_1987]: https://doi.org/10.1007/978-1-4613-1893-4_147
+[research_kranbuehl_haverty_1989]: https://doi.org/10.1177/073168448900800501
+[research_kratz_hartley_2023]: https://doi.org/10.33599/nasampe/s.23.0049
+[research_kratz_hubert_2015]: https://doi.org/10.1016/j.compositesa.2014.11.026
+[research_kratz_hubert_2015_b]: https://doi.org/10.1016/j.compositesa.2014.11.030
+[research_kratz_mahapatra_2017]: https://doi.org/10.12783/asc2017/15255
+[research_kratz_thermal_models]: https://doi.org/10.1177/0021998312440131
+[research_kravchenko_kravchenko_2017]: https://doi.org/10.12783/asc2017/15222
+[research_kresalek_mikulicova_2020]: https://doi.org/10.1016/j.polymertesting.2020.106496
+[research_kress_winkler_2009]: https://doi.org/10.1016/j.compstruct.2008.08.009
+[research_kressel_bardenstein_2023]: https://doi.org/10.2514/6.2023-1320
+[research_kressel_bardenstein_2023_b]: https://doi.org/10.2514/6.2023-1320.c1
+[research_krieger_1988]: https://doi.org/10.1520/stp30341s
+[research_krishnan_lessard_2025]: https://doi.org/10.1021/acsmacrolett.5c00132
+[research_krishnaswamy_marchante_2019]: https://doi.org/10.1080/25740881.2019.1576194
+[research_krogh_jakobsen_2020]: https://doi.org/10.1016/j.compositesa.2020.106052
+[research_kropka_stavig_2016]: https://doi.org/10.2172/1430479
+[research_kroupa_bartsch_1998]: https://doi.org/10.1016/s1359-8368(98)00017-1
+[research_kruger_lord_2008]: https://doi.org/10.1063/1.2902670
+[research_krupnik_2022]: https://doi.org/10.1017/9781108974349.022
+[research_kruse_balk_2025]: https://doi.org/10.1177/08927057251314411
+[research_kubiak_mania_2016]: https://doi.org/10.1016/j.compstruct.2016.07.040
+[research_kubis_seredynski_2018]: https://doi.org/10.1051/matecconf/201824001015
+[research_kudo_kato_2026]: https://doi.org/10.1007/s11340-026-01356-5
+[research_kuenzi_1952]: https://doi.org/10.1520/stp43990s
+[research_kulkarni_rosen_1977]: https://doi.org/10.2514/3.58906
+[research_kulkov_buyakova_2015]: https://doi.org/10.14382/epitoanyag-jsbcm.2015.26
+[research_kumar_2009]: https://doi.org/10.1016/j.ijadhadh.2009.06.006
+[research_kumar_2010]: https://doi.org/10.21236/ada521792
+[research_kumar_2018]: https://doi.org/10.22214/ijraset.2018.1197
+[research_kumar_arindamkumarchanda_2021]: https://doi.org/10.5109/4742119
+[research_kumar_bryan_2007]: https://doi.org/10.2172/940297
+[research_kumar_dewaele_2024]: https://doi.org/10.1016/j.prostr.2024.01.069
+[research_kumar_ganeshnarayanan_2023]: https://doi.org/10.1007/978-981-19-8452-5_6
+[research_kumar_ghosh_2018]: https://doi.org/10.1007/s11029-018-9737-5
+[research_kumar_kalaichelvan_2017]: https://doi.org/10.1007/s12633-016-9544-3
+[research_kumar_kumar_2022]: https://doi.org/10.1016/j.matpr.2021.09.055
+[research_kumar_kumar_2024]: https://doi.org/10.55248/gengpi.5.0224.0571
+[research_kumar_saha_2025]: https://doi.org/10.1016/b978-0-443-22145-3.00009-8
+[research_kumar_shukla_2014]: https://doi.org/10.1515/jmsp-2014-0014
+[research_kumar_singh_2010]: https://doi.org/10.1016/j.compstruct.2009.08.049
+[research_kumar_wardle_2016]: https://doi.org/10.1021/acsami.6b13038
+[research_kumazawa_motoyama_2024]: https://doi.org/10.1080/09243046.2024.2357832
+[research_kunc_duty_2017]: https://doi.org/10.2172/1410928
+[research_kundu_crosby_2003]: https://doi.org/10.2514/6.2003-6829
+[research_kuo_chen_2020]: https://doi.org/10.3390/app10238488
+[research_kuperman]: https://doi.org/10.1201/9781315136684-16
+[research_kuppusamy_2018]: https://doi.org/10.4018/978-1-5225-5216-1.ch005
+[research_kuppusamy_2018_b]: https://doi.org/10.4018/978-1-5225-3401-3.ch002
+[research_kuppusamy_neogi_2017]: https://doi.org/10.1515/amm-2017-0278
+[research_kuppusamy_zade_2021]: https://doi.org/10.1016/j.matpr.2020.05.048
+[research_kupski_teixeiradefreitas_2019]: https://doi.org/10.1016/j.compstruct.2019.02.093
+[research_kurasova_marcinkevicius_2021]: https://doi.org/10.18178/ijmlc.2021.11.1.1010
+[research_kurennov_2020]: https://doi.org/10.1007/s11223-020-00231-5
+[research_kurnia_hadi_2024]: https://doi.org/10.29303/jppipa.v10i11.9107
+[research_kurz_kessler_2010]: https://doi.org/10.1061/41130(369)330
+[research_kutscha_1962]: https://doi.org/10.21236/ad0640857
+[research_kwan]: https://doi.org/10.5353/th_b3121234
+[research_kwon_2018]: https://doi.org/10.1016/b978-0-12-803581-8.10057-8
+[research_kwon_2020]: https://doi.org/10.1007/978-3-030-31065-3_7
+[research_kwon_dharan_1995]: https://doi.org/10.1115/imece1995-1372
+[research_kwon_jeong_2013]: https://doi.org/10.7234/composres.2013.26.2.079
+[research_kyoung_kim_1998]: https://doi.org/10.1016/s0263-8223(98)00101-9
+[research_kyungpyokim_2018]: https://doi.org/10.17958/ksmt.20.3.201806.333
+[research_laakso_hoggatt_1976]: https://doi.org/10.2514/6.1976-1524
+[research_laananen_renze_1993]: https://doi.org/10.1016/0263-8223(93)90194-u
+[research_laboratory_production_1986]: https://doi.org/10.1016/0010-4361(86)90334-4
+[research_lacey_price]: https://doi.org/10.1007/1-4020-3750-3_1
+[research_lachanadora_mishra_2022]: https://doi.org/10.1049/pbme015e_ch2
+[research_lacoste_freour_2011]: https://doi.org/10.4028/www.scientific.net/msf.681.309
+[research_lacoste_szymanska_2012]: https://doi.org/10.1007/s12289-012-1100-0
+[research_lagace_1988]: https://doi.org/10.21236/ada217827
+[research_lai_wang_2015]: https://doi.org/10.1016/j.compscitech.2015.03.018
+[research_lairez_durand_1991]: https://doi.org/10.1002/masy.19910450107
+[research_laliberte_bornstein_1981]: https://doi.org/10.21236/ada104658
+[research_lam_1987]: https://doi.org/10.1002/pc.750080609
+[research_lam_1989]: https://doi.org/10.1002/pc.750100608
+[research_lam_afromowitz_1995]: https://doi.org/10.1364/ao.34.005635
+[research_lam_joshi_2000]: https://doi.org/10.1016/s0266-3538(99)00192-x
+[research_lam_plaumann_1990]: https://doi.org/10.1002/app.1990.070411137
+[research_lambinet_khodaei_2020]: https://doi.org/10.1063/5.0035249
+[research_laminate_and_2002]: https://doi.org/10.1016/s0026-0576(02)80513-x
+[research_landuyt_liegeois_1989]: https://doi.org/10.1002/bscb.19890980919
+[research_lane_higgins_2011]: https://doi.org/10.1115/1.4004321
+[research_lane_khattak_1989]: https://doi.org/10.1002/pen.760290513
+[research_lange_altmann_2000]: https://doi.org/10.1016/s0032-3861(99)00758-2
+[research_lange_moore_1982]: https://doi.org/10.2514/6.1982-812
+[research_lange_toll_1995]: https://doi.org/10.1016/0032-3861(95)97876-h
+[research_lange_toll_1997]: https://doi.org/10.1016/s0032-3861(96)00584-8
+[research_lanzi_giavotto_2006]: https://doi.org/10.1016/j.compstruct.2005.11.047
+[research_lares]: https://doi.org/10.22215/etd/2012-07337
+[research_larimore_holmes_2012]: https://doi.org/10.21236/ada570166
+[research_larrain_tagle_1981]: https://doi.org/10.1007/bf00255705
+[research_larson_drzal_1994]: https://doi.org/10.1016/0010-4361(94)90206-2
+[research_laser_ultrasonic_2009]: https://doi.org/10.1109/ultsym.2009.5441449
+[research_lau_1992]: https://doi.org/10.1021/bk-1992-0496.ch013
+[research_laurenzi_casini_2014]: https://doi.org/10.1016/j.compositesa.2014.09.007
+[research_laurenzi_marchetti_2012]: https://doi.org/10.5772/48172
+[research_laux_cros_2002]: https://doi.org/10.1016/s0022-3115(01)00747-4
+[research_lawless_1980]: https://doi.org/10.1016/b978-1-4832-8370-8.50125-x
+[research_lax_darnell_2018]: https://doi.org/10.1109/icnsurv.2018.8384948
+[research_lax_darnell_2018_b]: https://doi.org/10.1109/icnsurv.2018.8384860
+[research_lay_brunet_1998]: https://doi.org/10.1016/s0924-0136(97)00425-1
+[research_lead_free_design_2005]: https://doi.org/10.1108/ssmt.2005.21917dab.003
+[research_learning_curve]: https://doi.org/10.1007/springerreference_116297
+[research_learning_curves_2015]: https://doi.org/10.1002/9781118802342.ch12
+[research_learning_curves_2015_b]: https://doi.org/10.1002/9781118802342.ch10
+[research_learning_curves_2026]: https://doi.org/10.1002/9781394298075.ch12
+[research_learning_curves_2026_b]: https://doi.org/10.1002/9781394298075.ch10
+[research_lebel_ruiz_2017]: https://doi.org/10.1002/pc.24609
+[research_lebellavacry_park_2012]: https://doi.org/10.1115/esda2012-82722
+[research_leckenby_1983]: https://doi.org/10.1002/pi.4980150111
+[research_leclerc_subbarayan_1998]: https://doi.org/10.1007/978-1-4615-5803-3_4
+[research_ledesma_spaeth_2025]: https://doi.org/10.64631/vgfg4029
+[research_lee]: https://doi.org/10.5353/th_b3120823
+[research_lee_2019]: https://doi.org/10.29279/kostet.2019.24.4.23
+[research_lee_2020]: https://doi.org/10.7317/pk.2020.44.2.163
+[research_lee_2021]: https://doi.org/10.7317/pk.2021.45.2.219
+[research_lee_aldredge_2015]: https://doi.org/10.1016/j.ast.2015.08.004
+[research_lee_cho_2020]: https://doi.org/10.2514/1.g005063
+[research_lee_cho_2020_b]: https://doi.org/10.2514/1.g005063.c1
+[research_lee_choi_1999]: https://doi.org/10.1016/s0263-8223(00)00038-6
+[research_lee_duhovic_2022]: https://doi.org/10.1080/14658011.2022.2108983
+[research_lee_duhovic_2023]: https://doi.org/10.1016/j.compositesa.2023.107433
+[research_lee_duhovic_2023_b]: https://doi.org/10.1080/20550340.2023.2266288
+[research_lee_duhovic_2025]: https://doi.org/10.1016/j.compositesa.2025.108857
+[research_lee_duhovic_2026]: https://doi.org/10.1016/j.compositesa.2026.109661
+[research_lee_hartmann_1984]: https://doi.org/10.1002/app.1984.070290440
+[research_lee_hong_2020]: https://doi.org/10.1080/09243046.2020.1825154
+[research_lee_kim_1997]: https://doi.org/10.2514/2.7436
+[research_lee_kim_2004]: https://doi.org/10.1177/0021998304040563
+[research_lee_kim_2006]: https://doi.org/10.1016/j.compositesa.2005.05.017
+[research_lee_kim_2015]: https://doi.org/10.1016/j.compstruct.2014.10.002
+[research_lee_kim_2026]: https://doi.org/10.1016/j.compositesb.2026.113563
+[research_lee_kuo_1982]: https://doi.org/10.21236/ada122383
+[research_lee_lee_2002]: https://doi.org/10.1016/s0263-8223(02)00029-6
+[research_lee_lee_2003]: https://doi.org/10.1177/096739110301100706
+[research_lee_lee_2004]: https://doi.org/10.1016/j.compstruct.2003.11.011
+[research_lee_lee_2004_b]: https://doi.org/10.1016/j.compstruct.2004.04.042
+[research_lee_lee_2008]: https://doi.org/10.1016/j.compstruct.2008.03.018
+[research_lee_lee_2024]: https://doi.org/10.1080/09243046.2024.2372902
+[research_lee_ni_2018]: https://doi.org/10.1016/j.compscitech.2018.02.031
+[research_lee_shim_1997]: https://doi.org/10.1016/s0254-0584(97)80073-9
+[research_lee_shim_2000]: https://doi.org/10.1023/a:1004801227150
+[research_lee_shim_2000_b]: https://doi.org/10.14314/polimery.2000.036
+[research_lee_smit_2025]: https://doi.org/10.1016/j.compositesb.2025.112409
+[research_lee_young_1994]: https://doi.org/10.1016/0263-8223(94)90072-8
+[research_lees_1991]: https://doi.org/10.1007/978-94-011-3662-4_36
+[research_lei_2018]: https://doi.org/10.1088/1757-899x/307/1/012001
+[research_leissa_1981]: https://doi.org/10.1007/978-94-009-8120-1_21
+[research_leissa_1995]: https://doi.org/10.1007/978-94-011-1228-4_1
+[research_lekakou_bader_1998]: https://doi.org/10.1016/s1359-835x(97)00030-4
+[research_lekakou_hearn_2007]: https://doi.org/10.1179/174328407x157371
+[research_lem_han_1983]: https://doi.org/10.1002/app.1983.070281015
+[research_lemay_2019]: https://doi.org/10.33599/nasampe/c.19.0760
+[research_lemay_askari_2018]: https://doi.org/10.1177/0021998318781887
+[research_lenhart_vanzanten_1999]: https://doi.org/10.1117/12.339955
+[research_leonardrw_wagnerrd_1976]: https://ntrs.nasa.gov/citations/19770045382
+[research_leone_awerbuch]: https://doi.org/10.17918/etd-3381
+[research_leone_davila_2015]: https://doi.org/10.1016/j.compositesb.2015.03.046
+[research_leone_genna_2018]: https://doi.org/10.1016/j.compstruct.2018.03.096
+[research_lepage_kindervater_2001]: https://doi.org/10.4050/vfs-f57-00052
+[research_leroy_dupuy_2005]: https://doi.org/10.1016/j.polymer.2005.07.061
+[research_lertora_mandolfino_2019]: https://doi.org/10.3390/ma12081242
+[research_lertthawinchira]: https://doi.org/10.58837/chula.the.2016.1576
+[research_less_abramovich_2012]: https://doi.org/10.1016/j.compositesb.2011.11.070
+[research_letaief_tlija_2020]: https://doi.org/10.1080/0951192x.2020.1815842
+[research_lettera_natale_2024]: https://doi.org/10.3390/machines12020103
+[research_leung_lee_1999]: https://doi.org/10.21236/ada373561
+[research_leung_scola_2003]: https://doi.org/10.21236/ada411520
+[research_levy_1982]: https://doi.org/10.1021/bk-1982-0197.ch019
+[research_levy_ames_1984]: https://doi.org/10.1007/978-1-4613-2435-5_11
+[research_levy_hubert_2019]: https://doi.org/10.1016/j.compositesa.2019.105568
+[research_levy_kuo_1980]: https://doi.org/10.2514/6.1980-405
+[research_levy_schwab_1991]: https://doi.org/10.1002/pc.750120205
+[research_leyland_omalley_2007]: https://doi.org/10.5006/s2007-00052
+[research_lhermitte_handley]: https://doi.org/10.1109/ultsym.1991.234077
+[research_li]: https://doi.org/10.31979/etd.5kth-n889
+[research_li_an_2026]: https://doi.org/10.1016/j.compstruct.2026.120650
+[research_li_bai_2024]: https://doi.org/10.1063/5.0245785
+[research_li_brown_2022]: https://doi.org/10.31224/2318
+[research_li_cheng_2025]: https://doi.org/10.2139/ssrn.5343330
+[research_li_elishakoff_1994]: https://doi.org/10.1115/imece1994-1275
+[research_li_fu_2012]: https://doi.org/10.4028/www.scientific.net/amr.426.330
+[research_li_guo_2020]: https://doi.org/10.1016/j.compstruct.2020.111916
+[research_li_guo_2020_b]: https://doi.org/10.1016/j.compstruct.2020.112334
+[research_li_hallett_2015]: https://doi.org/10.1515/secm-2013-0322
+[research_li_hao_2025]: https://doi.org/10.1002/pc.29679
+[research_li_huang_2022]: https://doi.org/10.1177/00219983221111495
+[research_li_jia_2013]: https://doi.org/10.4028/www.scientific.net/kem.575-576.183
+[research_li_kessler_2014]: https://doi.org/10.1007/s10973-014-3647-0
+[research_li_lai_2025]: https://doi.org/10.2139/ssrn.5761259
+[research_li_larock_2003]: https://doi.org/10.1002/pi.1060
+[research_li_lee_2000]: https://doi.org/10.1016/s0032-3861(99)00178-0
+[research_li_leesullivan_1999]: https://doi.org/10.1016/s0263-8223(99)00106-3
+[research_li_li_2012]: https://doi.org/10.1016/j.tca.2012.09.012
+[research_li_li_2017]: https://doi.org/10.1177/0021998317693674
+[research_li_li_2017_b]: https://doi.org/10.1007/s10443-017-9608-6
+[research_li_li_2022]: https://doi.org/10.1016/j.compstruct.2022.115780
+[research_li_liu_2020]: https://doi.org/10.37763/wr.1336-4561/65.6.9891000
+[research_li_liu_2025]: https://doi.org/10.1016/j.tws.2025.113740
+[research_li_liu_2026]: https://doi.org/10.1080/10589759.2026.2690481
+[research_li_mei_2020]: https://doi.org/10.1016/j.jclepro.2019.119868
+[research_li_wang_2020]: https://doi.org/10.1016/j.compstruct.2020.112822
+[research_li_wang_2026]: https://doi.org/10.1016/j.compstruct.2025.120033
+[research_li_wu_2015]: https://doi.org/10.1016/j.compstruct.2015.03.056
+[research_li_xu_2022]: https://doi.org/10.1177/00219983221127475
+[research_li_xue_2025]: https://doi.org/10.20944/preprints202508.2070.v1
+[research_li_yang_2025]: https://doi.org/10.1088/1742-6596/3006/1/012054
+[research_li_yin_2024]: https://doi.org/10.1016/j.geotexmem.2023.10.008
+[research_li_zhang_2022]: https://doi.org/10.3390/en15051654
+[research_li_zhang_2025]: https://doi.org/10.2139/ssrn.5363353
+[research_li_zhang_2026]: https://doi.org/10.1016/j.compscitech.2026.111619
+[research_li_zhou_2004]: https://doi.org/10.1243/095440604323052300
+[research_li_zhou_2021]: https://doi.org/10.3390/nano11020363
+[research_lian_zhang_2023]: https://doi.org/10.1016/j.compstruct.2023.117383
+[research_liang_chandrashekhara_2006]: https://doi.org/10.1002/app.24369
+[research_liang_zhang_2024]: https://doi.org/10.1080/09276440.2024.2347031
+[research_liang_zhuang_2023]: https://doi.org/10.2139/ssrn.4632299
+[research_liapi_saffar_2025]: https://doi.org/10.1177/08927057251344193
+[research_libeskind_minecci_1973]: https://doi.org/10.21236/ada326073
+[research_lid_2001]: https://doi.org/10.1080/10589750108953109
+[research_liddel_foote_2015]: https://doi.org/10.12783/shm2015/139
+[research_liew_wong_2026]: https://doi.org/10.2139/ssrn.6900744
+[research_light_bloom_1996]: https://doi.org/10.1117/12.259049
+[research_lim_kim_2024]: https://doi.org/10.1080/09243046.2024.2315703
+[research_limaye_li_2026]: https://doi.org/10.1177/00219983251406709
+[research_lin_jin_2017]: https://doi.org/10.12783/dtetr/mdm2016/4903
+[research_lin_lee_2011]: https://doi.org/10.1108/00022661111138657
+[research_lin_leu_2006]: https://doi.org/10.1515/polyeng.2006.26.7.687
+[research_lin_richard_2014]: https://doi.org/10.2514/6.2014-1534
+[research_lin_styuart_2007]: https://doi.org/10.2514/1.26913
+[research_lin_wang_1994]: https://doi.org/10.1016/0032-3861(94)90863-x
+[research_lin_wang_2021]: https://doi.org/10.12783/asc36/35742
+[research_lin_zeng_2022]: https://doi.org/10.1007/s00170-022-10436-4
+[research_lin_zhang_2020]: https://doi.org/10.1016/j.ndteint.2020.102272
+[research_lind_fry_1986]: https://doi.org/10.21236/ada206426
+[research_lind_sandreczki_1984]: https://doi.org/10.21236/ada149463
+[research_linde_schulz_2006]: https://doi.org/10.1016/j.compstruct.2005.11.048
+[research_linul_khezrzadeh_2021]: https://doi.org/10.1016/j.compstruct.2021.114156
+[research_linul_pietras_2021]: https://doi.org/10.1016/j.compositesa.2021.106516
+[research_lionetto_tarzia_2007]: https://doi.org/10.3728/icultrasonics.2007.vienna.1433_lionetto
+[research_liping_booninn_2012]: https://doi.org/10.21611/qirt.2012.377
+[research_liquid_composite_2002]: https://doi.org/10.1108/aeat.2002.12774fab.010
+[research_lis_2025]: https://doi.org/10.31648/ts.11257
+[research_lissner_alabort_2019]: https://doi.org/10.1016/j.jmps.2019.06.011
+[research_liu_2000]: https://doi.org/10.21236/ada408159
+[research_liu_2001]: https://doi.org/10.21236/ada409851
+[research_liu_chen_2005]: https://doi.org/10.4028/0-87849-960-1.1041
+[research_liu_chen_2012]: https://doi.org/10.1002/pi.4165
+[research_liu_chen_2020]: https://doi.org/10.1016/j.ultras.2020.106062
+[research_liu_davis_2011]: https://doi.org/10.21236/ada553518
+[research_liu_deng_2013]: https://doi.org/10.1002/9781118444887.ch6
+[research_liu_featherston_2023]: https://doi.org/10.1016/j.compstruct.2023.116853
+[research_liu_fu_2026]: https://doi.org/10.1016/j.compstruct.2026.120067
+[research_liu_ganesh_1997]: https://doi.org/10.1177/002199839703100106
+[research_liu_gao_2022]: https://doi.org/10.1016/j.compstruct.2022.115924
+[research_liu_guan_2019]: https://doi.org/10.1109/icmae.2019.8880957
+[research_liu_guan_2021]: https://doi.org/10.1016/j.compstruct.2021.114203
+[research_liu_han_2014]: https://doi.org/10.1016/j.tws.2014.08.008
+[research_liu_he_2024]: https://doi.org/10.1002/pc.29050
+[research_liu_huan_2014]: https://doi.org/10.1007/s00170-014-6113-z
+[research_liu_jiang_2020]: https://doi.org/10.1080/13588265.2020.1838179
+[research_liu_johnston_2013]: https://doi.org/10.1115/imece2013-65767
+[research_liu_lemanski_2018]: https://doi.org/10.1016/j.ijadhadh.2018.10.005
+[research_liu_li_2010]: https://doi.org/10.1149/1.3360719
+[research_liu_li_2019]: https://doi.org/10.1063/1674-0068/cjcp1810231
+[research_liu_li_2020]: https://doi.org/10.1002/pc.25811
+[research_liu_nagano_2014]: https://doi.org/10.1016/j.ijheatmasstransfer.2014.07.034
+[research_liu_qian_2021]: https://doi.org/10.1177/00219983211041761
+[research_liu_sheng_2007]: https://doi.org/10.1007/s10973-006-8467-4
+[research_liu_sinke_2024]: https://doi.org/10.1007/s10443-024-10266-5
+[research_liu_wang_2007]: https://doi.org/10.1016/j.compstruct.2006.08.024
+[research_liu_wang_2020]: https://doi.org/10.1088/2053-1591/ab9a7f
+[research_liu_wang_2025]: https://doi.org/10.1007/s10443-025-10410-9
+[research_liu_wu_2010]: https://doi.org/10.4028/www.scientific.net/amr.160-162.1211
+[research_liu_wu_2026]: https://doi.org/10.1016/j.compositesa.2026.109778
+[research_liu_yue_2021]: https://doi.org/10.1016/j.compstruct.2020.113198
+[research_liu_zhang_2006]: https://doi.org/10.1016/j.compstruct.2005.02.001
+[research_liu_zhang_2023]: https://doi.org/10.2139/ssrn.4658633
+[research_liu_zheng_2021]: https://doi.org/10.1177/0021998321992423
+[research_liu_zheng_2025]: https://doi.org/10.3390/aerospace12070592
+[research_livne_schmit_1990]: https://doi.org/10.2514/3.45972
+[research_livne_schmit_1993]: https://doi.org/10.2514/3.46347
+[research_llorca_2000]: https://doi.org/10.1016/b0-08-042993-9/00005-x
+[research_llorca_2018]: https://doi.org/10.1016/b978-0-12-803581-8.09962-8
+[research_locascio_2001]: https://doi.org/10.1007/978-1-4615-1599-9_14
+[research_loh_chou]: https://doi.org/10.1109/stherm.2000.837059
+[research_lomov_abaimov_2022]: https://doi.org/10.3390/polym14214644
+[research_long_blanchard_1998]: https://doi.org/10.1016/s1359-835x(98)00054-2
+[research_long_term_performance_2016]: https://doi.org/10.14359/51688060
+[research_long_wenbo_2024]: https://doi.org/10.2514/1.c037780
+[research_loos_macrae_1996]: https://doi.org/10.2514/6.1996-1533
+[research_loos_springer_1983]: https://doi.org/10.1520/stp28542s
+[research_lopatin_morozov_2021]: https://doi.org/10.1016/j.euromechsol.2020.104090
+[research_lopato_chady_2013]: https://doi.org/10.1080/10589759.2012.694882
+[research_lopesfernandes_budzik_2021]: https://doi.org/10.1016/j.compstruct.2021.113687
+[research_lopez_salvador_2020]: https://doi.org/10.1201/9781003078784-63
+[research_lopezcruz]: https://doi.org/10.22215/etd/2016-11608
+[research_lopezcruz_laliberte_2017]: https://doi.org/10.1016/j.compstruct.2017.02.084
+[research_lorang_carr_2017]: https://doi.org/10.2514/6.2017-3653
+[research_lorenz_hopmann_2024]: https://doi.org/10.1063/5.0192340
+[research_losada_mier_2006]: https://doi.org/10.4028/www.scientific.net/msf.514-516.1094
+[research_lott_kunerth_1991]: https://doi.org/10.2172/6270236
+[research_loughlan_1994]: https://doi.org/10.1016/0263-8223(94)90100-7
+[research_loughlan_1994_b]: https://doi.org/10.1016/0263-8223(94)90089-2
+[research_loughlan_1996]: https://doi.org/10.1016/0263-8223(96)00027-x
+[research_louis_ermanni_2012]: https://doi.org/10.1002/9781118097298.weoc056
+[research_love_piguetruinet_2007]: https://doi.org/10.1002/app.26692
+[research_lovejoy_2004]: https://doi.org/10.1108/aeat.2004.12776caf.001
+[research_lovejoy_2022]: https://doi.org/10.33599/nasampe/c.22.0012
+[research_lovejoy_jegley_2023]: https://doi.org/10.33599/nasampe/s.23.0047
+[research_lovelace_1998]: https://doi.org/10.21236/ada354032
+[research_low_cost_1998]: https://doi.org/10.1016/s0026-0657(97)89776-7
+[research_low_cost_2001]: https://doi.org/10.1016/s0034-3617(01)80274-5
+[research_low_cost_composite_1978]: https://doi.org/10.1016/0010-4361(78)90386-5
+[research_low_temperature_1990]: https://doi.org/10.1016/0034-3617(90)90177-g
+[research_low_temperature_2005]: https://doi.org/10.1016/s1364-5439(05)00272-8
+[research_low_temperature_2009]: https://doi.org/10.1016/s1364-5439(09)70123-6
+[research_low_temperature_2009_b]: https://doi.org/10.1108/ssmt.2009.21921cad.010
+[research_low_temperature_cure_powder_2022]: https://doi.org/10.1016/j.fopow.2022.10.024
+[research_lowe_cawley_1993]: https://doi.org/10.1007/978-1-4615-2848-7_212
+[research_lowe_chan_1999]: https://doi.org/10.1007/978-1-4615-4791-4_194
+[research_lozev_spencer_2003]: https://doi.org/10.55274/r0011117
+[research_lu_evans_2023]: https://doi.org/10.1016/j.compstruct.2023.117048
+[research_lu_liang_2025]: https://doi.org/10.1016/j.metrad.2025.100166
+[research_lu_liu_2013]: https://doi.org/10.1016/j.triboint.2012.11.012
+[research_lu_su_2021]: https://doi.org/10.1016/j.compstruct.2021.114121
+[research_luan_2019]: https://doi.org/10.35534/mse.0102006c
+[research_lucas_borrajo_1993]: https://doi.org/10.1016/0032-3861(93)90393-o
+[research_lucht]: https://doi.org/10.31274/rtd-180814-6077
+[research_luczak_vecchio_2008]: https://doi.org/10.1117/12.803146
+[research_ludwig_sullivan_1993]: https://doi.org/10.1007/978-1-4615-2848-7_199
+[research_lueck_schenewerk_1996]: https://doi.org/10.2523/36577-ms
+[research_lukaszewicz_2013]: https://doi.org/10.1002/9781118535288.ch5
+[research_lukaszewicz_potter_2011]: https://doi.org/10.1177/0954405411411817
+[research_lukaszewicz_ward_2012]: https://doi.org/10.1016/j.compositesb.2011.12.003
+[research_lula_1980]: https://doi.org/10.2172/5256048
+[research_lund_2017]: https://doi.org/10.1007/s00158-017-1866-2
+[research_lundberg_1956]: https://doi.org/10.4271/560066
+[research_lundstrom_1997]: https://doi.org/10.1016/s1359-835x(96)00109-1
+[research_luo_mo_2020]: https://doi.org/10.1080/13588265.2020.1816438
+[research_luo_wei_2008]: https://doi.org/10.1002/app.28090
+[research_luo_yan_2014]: https://doi.org/10.4028/www.scientific.net/amm.529.102
+[research_luo_yu_2018]: https://doi.org/10.1016/j.tca.2018.03.003
+[research_luthy_ermanni_2001]: https://doi.org/10.1115/imece2001/htd-24356
+[research_luthy_ermanni_2002]: https://doi.org/10.1016/s1359-835x(01)00115-4
+[research_lv_ren_2023]: https://doi.org/10.1177/00219983221150860
+[research_lv_ren_2023_b]: https://doi.org/10.1016/j.ast.2023.108582
+[research_ma_centea_2015]: https://doi.org/10.1002/pc.23773
+[research_ma_gao_2024]: https://doi.org/10.2139/ssrn.4878352
+[research_ma_li_2014]: https://doi.org/10.1177/0731684414559757
+[research_ma_zhao_2026]: https://doi.org/10.1016/j.compositesb.2026.114105
+[research_maalawi_2011]: https://doi.org/10.1016/j.compstruct.2010.09.007
+[research_macan_ivankovic_2004]: https://doi.org/10.1016/j.tca.2004.01.004
+[research_machine_learning_2024]: https://doi.org/10.1016/c2022-0-00102-1
+[research_mackowiak_ligaj_2020]: https://doi.org/10.3390/ma13184011
+[research_madan_shuart_1990]: https://doi.org/10.1520/stp24108s
+[research_madan_sutton_1988]: https://doi.org/10.2514/6.1988-2292
+[research_madelpech_juaneda_2009]: https://doi.org/10.1007/978-90-481-2746-7_56
+[research_madenci_2000]: https://doi.org/10.21236/ada387637
+[research_madhukar_2000]: https://doi.org/10.21236/ada379701
+[research_maenz_muhlstadt_2014]: https://doi.org/10.1177/0021998314557295
+[research_maes_radhakrishnan_2022]: https://doi.org/10.1016/j.compositesa.2022.107172
+[research_maeva_chapman_2002]: https://doi.org/10.1007/978-1-4419-8606-1_44
+[research_maeva_severina_2007]: https://doi.org/10.1080/09349840601128747
+[research_maffezzoli_gennaro_2012]: https://doi.org/10.1002/9781118097298.weoc253
+[research_maffezzoli_grieco_2012]: https://doi.org/10.1007/s10443-012-9265-8
+[research_maffezzoli_kenny_1990]: https://doi.org/10.14314/polimery.1990.005
+[research_mafi_mirabedini_2005]: https://doi.org/10.1016/j.porgcoat.2005.06.006
+[research_maguire_nayak_2018]: https://doi.org/10.1016/j.matdes.2017.10.068
+[research_maguire_nayak_2020]: https://doi.org/10.1016/j.compositesa.2020.105970
+[research_maha_2001]: https://doi.org/10.1016/s1296-2139(00)01081-2
+[research_mahadik_masel_2018]: https://doi.org/10.1016/j.promfg.2018.10.014
+[research_mahdavi_gupta_2017]: https://doi.org/10.1515/secm-2017-0132
+[research_mahdi_kim_2003]: https://doi.org/10.1177/0021998303037006776
+[research_mahfoud_harb_2023]: https://doi.org/10.1177/00219983231160874
+[research_mahieux_2001]: https://doi.org/10.1016/s0263-8223(01)00041-1
+[research_mahoney_1990]: https://doi.org/10.1007/978-1-4613-0671-9_4
+[research_mahoon_1983]: https://doi.org/10.1016/b978-0-408-22162-7.50014-2
+[research_mahto_kubher_2022]: https://doi.org/10.1177/00219983221109865
+[research_maia_deoliveira_2005]: https://doi.org/10.4271/2005-01-4011
+[research_mair_2002]: https://doi.org/10.1016/s0263-8223(02)00058-2
+[research_maistros_fontana_1997]: https://doi.org/10.1023/a:1018588715441
+[research_maistros_partridge_1995]: https://doi.org/10.1016/0266-3538(95)00007-0
+[research_majd_pindyck_1987]: https://doi.org/10.3386/w2423
+[research_maklad_1981]: https://doi.org/10.1016/0161-7346(81)90126-7
+[research_maklad_1981_b]: https://doi.org/10.1016/0161-7346(81)90125-5
+[research_maklakov_pimenov_1973]: https://doi.org/10.1016/0032-3950(73)90274-8
+[research_maksud_yusof_2013]: https://doi.org/10.4028/www.scientific.net/amm.315.503
+[research_mal_couniot_1998]: https://doi.org/10.1016/s1359-835x(97)00065-1
+[research_mal_yin_1991]: https://doi.org/10.1007/978-1-4615-3742-7_51
+[research_maley]: https://doi.org/10.22215/etd/2008-10650
+[research_malhan_jomyjoseph_2020]: https://doi.org/10.1109/icra40945.2020.9196876
+[research_malhan_kabir_2018]: https://doi.org/10.1109/coase.2018.8560586
+[research_malhan_kabir_2019]: https://doi.org/10.1115/msec2019-3003
+[research_malhan_shembekar_2021]: https://doi.org/10.1016/j.rcim.2020.102020
+[research_malinowski_wandowski_2021]: https://doi.org/10.1007/978-3-319-92810-4_4
+[research_mallick_raghupathi_1979]: https://doi.org/10.1002/pen.760191103
+[research_mallow_campbell_2000]: https://doi.org/10.1007/978-3-446-40177-8_10
+[research_malstrom_collins_2000]: https://doi.org/10.1201/9780203908587.ch10.2
+[research_man_zhai_2006]: https://doi.org/10.21236/ada448675
+[research_manczak_2026]: https://doi.org/10.58286/33554
+[research_mandel_taubert_2016]: https://doi.org/10.1016/j.compstruct.2015.10.032
+[research_mandell_tsai_1990]: https://doi.org/10.21236/ada258817
+[research_mandrel_forms_2005]: https://doi.org/10.1016/s0034-3617(05)00574-6
+[research_mannino_latteri_2017]: https://doi.org/10.1002/9781119441632.ch36
+[research_manoharan_gururaja_2025]: https://doi.org/10.13052/97887-438-0830-5_6
+[research_manoharan_gururaja_2026]: https://doi.org/10.1002/pc.70837
+[research_mansilla_rodriguezgarraza_2013]: https://doi.org/10.1016/j.polymertesting.2013.03.001
+[research_manson_seferis_1989]: https://doi.org/10.1177/089270578900200103
+[research_manufacturing_cost_1993]: https://doi.org/10.1016/0278-6125(93)90256-s
+[research_manufacturing_cost_2017]: https://doi.org/10.1201/9780203748145-23
+[research_manufacturing_structure_2003]: https://doi.org/10.62753/ctp.2003.09.7.7
+[research_manzini_roehl_1990]: https://doi.org/10.23919/acc.1990.4791073
+[research_manzo_perfetto_2021]: https://doi.org/10.1088/1757-899x/1038/1/012058
+[research_maoyu_1990]: https://doi.org/10.1016/0043-1354(90)90171-2
+[research_maqi_hidayat_2023]: https://doi.org/10.22441/jtm.v12i3.16709
+[research_mar_1984]: https://doi.org/10.2514/3.48225
+[research_marano_belardo_2022]: https://doi.org/10.3390/aerospace9070335
+[research_marano_gagliardi_2024]: https://doi.org/10.1007/978-3-031-77697-7_23
+[research_maravola_cortes_2018]: https://doi.org/10.1115/imece2018-88594
+[research_marczak_2022]: https://doi.org/10.3390/ma15217611
+[research_mardani_stein_2016]: https://doi.org/10.1002/pamm.201610098
+[research_marioliriga_2003]: https://doi.org/10.1007/978-94-017-2852-2_25
+[research_markryun_alex_2025]: https://doi.org/10.62891/6a6315c9
+[research_markusalan_1992]: https://ntrs.nasa.gov/citations/19940028622
+[research_markusalan_palmerray_1991]: https://ntrs.nasa.gov/citations/19930021249
+[research_markusalan_thrashpatrick_1993]: https://ntrs.nasa.gov/citations/19950022629
+[research_marques_carbas_2022]: https://doi.org/10.1049/pbme015e_ch11
+[research_marques_madureira_2023]: https://doi.org/10.1016/j.compstruct.2023.117528
+[research_martens_schroder_2020]: https://doi.org/10.1016/j.compstruct.2020.111991
+[research_martensson_zenkert_2015]: https://doi.org/10.1016/j.compstruct.2015.08.115
+[research_martin_1963]: https://doi.org/10.21236/ad0402888
+[research_martin_moore_1970]: https://doi.org/10.21236/ad0877005
+[research_martin_preciado_2017]: https://doi.org/10.5220/0006393904370443
+[research_martin_warrior_2018]: https://doi.org/10.1007/s10443-018-9682-4
+[research_martinez_revilla_2015]: https://doi.org/10.1016/j.promfg.2015.07.638
+[research_martinhosimoes_dapiedade_2008]: https://doi.org/10.1093/oso/9780195133196.003.0016
+[research_martins_gomes_2018]: https://doi.org/10.3390/fib6040092
+[research_martins_santos_2022]: https://doi.org/10.3390/materproc2022008084
+[research_marzani_testoni_2019]: https://doi.org/10.1177/1475921719889029
+[research_masood_viswamurthy_2017]: https://doi.org/10.1177/0021998317715505
+[research_massabo_2020]: https://doi.org/10.1007/978-3-030-31065-3_12
+[research_masud_khan_2015]: https://doi.org/10.2514/6.2015-1669
+[research_matadiboumbimba_froustey_2014]: https://doi.org/10.1016/j.compstruct.2014.05.028
+[research_materialssystemsincconcordma_1994]: https://doi.org/10.21236/ada294555
+[research_mather_2005]: https://doi.org/10.21236/ada468819
+[research_mathias_tregre_1998]: https://doi.org/10.1002/(sici)1097-4628(19980418)68:3<475::aid-app13>3.3.co;2-g
+[research_matsukawa_enomoto_2014]: https://doi.org/10.1109/icsj.2014.7009603
+[research_matsuzaki_seto_2013]: https://doi.org/10.1080/09243046.2013.832829
+[research_matsuzaki_shiota_2017]: https://doi.org/10.1016/j.compstruct.2017.03.089
+[research_matzkanin_1986]: https://doi.org/10.21236/ada207422
+[research_matzkanin_yolken_2001]: https://doi.org/10.21236/ada398282
+[research_maukar_sosodoro_2019]: https://doi.org/10.1109/icsecc.2019.8907071
+[research_maurer_1965]: https://doi.org/10.5254/1.3535715
+[research_may_1995]: https://doi.org/10.21236/ada294775
+[research_may_claus_1996]: https://doi.org/10.1117/12.259207
+[research_may_mitschang_2021]: https://doi.org/10.1016/j.coco.2021.100881
+[research_maziz_rechak_2020]: https://doi.org/10.1177/0021998320969799
+[research_mazumdar_hoa_1995]: https://doi.org/10.1177/002199839502901106
+[research_mazza_avram_2003]: https://doi.org/10.21236/ada415239
+[research_mazzola_mccardle_1997]: https://doi.org/10.1287/opre.45.3.440
+[research_mcabee_tanner_1970]: https://doi.org/10.21236/ad0709585
+[research_mcallister_hill_1984]: https://doi.org/10.1016/0008-6223(84)90454-8
+[research_mcarthur_mcknight_2024]: https://doi.org/10.2139/ssrn.4998262
+[research_mcarthur_mcknight_2025]: https://doi.org/10.1016/j.compositesa.2025.109081
+[research_mcarthur_mehnen_2024]: https://doi.org/10.1016/j.procs.2024.02.036
+[research_mccarthy_toni_2018]: https://doi.org/10.4050/f-0074-2018-12880
+[research_mccartyjohne_roeselerwilliamg_1984]: https://ntrs.nasa.gov/citations/19870008427
+[research_mcclure_1977]: https://doi.org/10.21236/ada041183
+[research_mcdonald_wallace_2014]: https://doi.org/10.1155/2014/830295
+[research_mcelroy_zanganeh_2019]: https://doi.org/10.2514/6.2019-2388
+[research_mcgovern_1979]: https://doi.org/10.21236/ada081801
+[research_mcgovern_jar_1999]: https://doi.org/10.1177/096369359900800602
+[research_mchenry_hensley_1974]: https://doi.org/10.2514/6.1974-347
+[research_mchenry_hensley_1975]: https://doi.org/10.2514/3.59806
+[research_mchugh_stark_2016]: https://doi.org/10.1016/j.polymertesting.2015.11.015
+[research_mcilhagger_brown_2000]: https://doi.org/10.1016/s1359-835x(00)00050-6
+[research_mcmanus_mak_1993]: https://doi.org/10.2514/6.1993-1523
+[research_mdhanafiah_othman_2024]: https://doi.org/10.11113/aej.v14.21061
+[research_mdhanafiah_othman_2024_b]: https://doi.org/10.5614/j.eng.technol.sci.2024.56.2.4
+[research_meadcarneyandcoincnewyork_1954]: https://doi.org/10.21236/ad0027966
+[research_measom_sewell_1996]: https://doi.org/10.4050/vfs-f52-1163
+[research_measurement_of_1981]: https://doi.org/10.1016/0010-4361(81)90074-4
+[research_measuring_thermoset_1999]: https://doi.org/10.1016/s0034-3617(99)90185-6
+[research_mechanical_properties]: https://doi.org/10.1163/ej.9789004157200.i-188.11
+[research_mechanical_properties_2007]: https://doi.org/10.1201/b12239-5
+[research_medium_temperature]: https://doi.org/10.4271/ams6562
+[research_medjahed_derradji_2019]: https://doi.org/10.1016/j.compstruct.2018.11.037
+[research_medwick_castro_1999]: https://doi.org/10.21236/ada373274
+[research_megiatto_silva_2009]: https://doi.org/10.1016/j.polymertesting.2009.07.001
+[research_megson_2013]: https://doi.org/10.1016/b978-0-08-096905-3.00034-6
+[research_megson_2017]: https://doi.org/10.1016/b978-0-08-100914-7.00025-6
+[research_megson_2018]: https://doi.org/10.1016/b978-0-08-102076-0.00024-5
+[research_megson_2022]: https://doi.org/10.1016/b978-0-12-822868-5.00025-5
+[research_megueni_bachirbouiadjra_2004]: https://doi.org/10.1016/j.commatsci.2003.11.001
+[research_meher_rabiussunny_2024]: https://doi.org/10.1016/j.ymssp.2024.111661
+[research_meidell_2009]: https://doi.org/10.1016/j.compositesb.2009.01.003
+[research_meister_wermes_2021]: https://doi.org/10.1007/s10845-021-01774-3
+[research_mendikute_baskaran_2022]: https://doi.org/10.1016/j.compstruct.2022.115922
+[research_mendikute_plazaola_2021]: https://doi.org/10.1016/j.compositesb.2021.108973
+[research_meneghetti_quaresimin_2010]: https://doi.org/10.1533/9781845698058.3.316
+[research_meneghetti_quaresimin_2012]: https://doi.org/10.1016/j.compositesb.2011.07.009
+[research_meneghin_pacchione_2009]: https://doi.org/10.1007/978-90-481-2746-7_25
+[research_menge_trochu_2020]: https://doi.org/10.1201/9781003072089-35
+[research_meola_boccardi_2017]: https://doi.org/10.1016/b978-1-78242-171-9.00002-4
+[research_merotte_bahramshahi_2020]: https://doi.org/10.33599/nasampe/s.20.0201
+[research_merrill_2021]: https://doi.org/10.1115/1.0003807v
+[research_mesogitis_kratz_2018]: https://doi.org/10.1177/0021998318818245
+[research_mesogitis_skordos_2016]: https://doi.org/10.1177/0021998315615200
+[research_mestnikov_semenov_2016]: https://doi.org/10.1063/1.4937880
+[research_method_and_1978]: https://doi.org/10.1016/0010-4361(78)90645-6
+[research_method_and_1994]: https://doi.org/10.1016/0010-4361(94)90051-5
+[research_method_for_1978]: https://doi.org/10.1016/0010-4361(78)90751-6
+[research_method_for_1991]: https://doi.org/10.1016/0956-7143(91)90227-8
+[research_method_of_1990]: https://doi.org/10.1016/0956-7143(90)90179-z
+[research_method_of_1992]: https://doi.org/10.1016/0956-7143(92)90094-b
+[research_method_of_1992_b]: https://doi.org/10.1016/0010-4361(92)90166-r
+[research_method_of_1993]: https://doi.org/10.1016/0956-7143(93)90083-k
+[research_method_of_1994]: https://doi.org/10.1016/0956-7143(94)90155-4
+[research_methods_of]: https://doi.org/10.3403/00308411
+[research_methods_of_b]: https://doi.org/10.3403/00152630
+[research_meuwissen_deboer_2004]: https://doi.org/10.1016/j.microrel.2004.05.001
+[research_meyer]: https://doi.org/10.17918/00005848
+[research_meyer_garber_2023]: https://doi.org/10.33599/nasampe/s.23.0349
+[research_meyer_rose_1976]: https://doi.org/10.1080/00218467608075079
+[research_meyerzuwesterhausen_kyriazis_2024]: https://doi.org/10.1017/pds.2024.70
+[research_mezamendoza_chavezgarcia_2018]: https://doi.org/10.1557/adv.2018.603
+[research_mezeix_nasir_2014]: https://doi.org/10.4028/www.scientific.net/amm.606.113
+[research_mezeix_seman_2015]: https://doi.org/10.1016/j.compstruct.2015.01.005
+[research_mi_hu_2026]: https://doi.org/10.1016/j.compositesa.2026.110195
+[research_miakisheva_glushkov_2020]: https://doi.org/10.1109/dd49902.2020.9274608
+[research_miao_li_2012]: https://doi.org/10.1007/s10443-012-9296-1
+[research_michaels_michaels_1993]: https://doi.org/10.1007/978-1-4615-2848-7_164
+[research_michaels_michaels_2009]: https://doi.org/10.1063/1.3114360
+[research_michaels_michaels_2009_b]: https://doi.org/10.1063/1.3114128
+[research_michalski_krauze_2019]: https://doi.org/10.2478/tar-2019-0013
+[research_michaud_2016]: https://doi.org/10.1007/s11242-016-0629-7
+[research_michaud_beris_2002]: https://doi.org/10.1177/0021998302036010590
+[research_michaud_beris_2002_b]: https://doi.org/10.1177/0021998302036010589
+[research_michelotti_niedzwiecki_2020]: https://doi.org/10.3390/polym12040950
+[research_middleton_2011]: https://doi.org/10.1177/147776061102700203
+[research_mieloszyk_ostachowicz_2017]: https://doi.org/10.1016/j.ymssp.2016.07.006
+[research_mignolet_1994]: https://doi.org/10.1177/002199839402801505
+[research_mihara_minematsu_2018]: https://doi.org/10.1299/jsmeyamanashi.2018.yc2018-059
+[research_mijovic_1991]: https://doi.org/10.1002/pc.750120209
+[research_mijovic_lee_1989]: https://doi.org/10.1002/app.1989.070370404
+[research_mijovic_lee_1989_b]: https://doi.org/10.1002/app.1989.070381201
+[research_milazzo_oliveri_2017]: https://doi.org/10.2514/1.j055159
+[research_milenkovic_slavkovic_2021]: https://doi.org/10.1016/j.compstruct.2021.114063
+[research_military_airframe_2001]: https://doi.org/10.7249/mr1325
+[research_miller_hammill_1988]: https://doi.org/10.1520/stp30340s
+[research_mills_2026]: https://doi.org/10.31399/asm.hb.v21.a0007054
+[research_mills_brown_1974]: https://doi.org/10.2514/6.1974-356
+[research_mills_dauksys_1973]: https://doi.org/10.2514/6.1973-382
+[research_mills_jones_2010]: https://doi.org/10.1243/09544100jaero573
+[research_min_stachurski_1993]: https://doi.org/10.1016/0032-3861(93)90017-5
+[research_min_stachurski_1993_b]: https://doi.org/10.1016/0032-3861(93)90155-4
+[research_min_williams_2016]: https://doi.org/10.2514/6.2016-1501
+[research_minakuchi_2014]: https://doi.org/10.1177/0021998314528735
+[research_minakuchi_sawaguchi_2019]: https://doi.org/10.1080/09243046.2019.1573452
+[research_minford_1991]: https://doi.org/10.1007/978-1-4757-9006-1_9
+[research_minford_2018]: https://doi.org/10.1201/9781315136691-23
+[research_minguet_minguet_1997]: https://doi.org/10.2514/6.1997-1342
+[research_minimum_performance]: https://doi.org/10.4271/as855
+[research_minimum_performance_b]: https://doi.org/10.4271/as8003
+[research_minoda_sakatani_1985]: https://doi.org/10.1520/stp32809s
+[research_miotto_dias_2015]: https://doi.org/10.1016/j.compstruct.2015.03.054
+[research_miranda_cini_2025]: https://doi.org/10.1016/j.compstruct.2024.118674
+[research_miravete_1996]: https://doi.org/10.1533/9780857092977.117
+[research_miravete_1996_b]: https://doi.org/10.1533/9780857092977.19
+[research_mirone_corallo_2025]: https://doi.org/10.3390/en18205364
+[research_mirzaeesisan_smith]: https://doi.org/10.1007/1-4020-5329-0_15
+[research_mishra_peeters_2019]: https://doi.org/10.1016/j.compstruct.2019.111233
+[research_mitra_joglekar_2023]: https://doi.org/10.3397/in_2023_1043
+[research_mitra_leonov_2010]: https://doi.org/10.1134/s0965545x10110052
+[research_mitrofanov_ryzhova_2021]: https://doi.org/10.1088/1742-6596/1925/1/012054
+[research_mittelstedt_2025]: https://doi.org/10.1007/978-3-662-70788-3_23
+[research_mittelstedt_2025_b]: https://doi.org/10.1007/978-3-662-70788-3_17
+[research_mittelstedt_schroder_2010]: https://doi.org/10.1002/pamm.201010089
+[research_mittelstedt_schroder_2010_b]: https://doi.org/10.1016/j.compstruct.2010.04.009
+[research_miura_1975]: https://doi.org/10.2514/3.44468
+[research_miyano_nakada_2020]: https://doi.org/10.1007/978-3-030-31065-3_18
+[research_miyase_wang_1993]: https://doi.org/10.1177/002199839302700903
+[research_mizukami_ikeda_2020]: https://doi.org/10.1080/09243046.2020.1812801
+[research_mobasheramini_nakisa_2011]: https://doi.org/10.5821/iwp.2011.11.15623
+[research_mochizuki_sawada_1969]: https://doi.org/10.1143/jjap.8.488
+[research_mocker_reimerdes]: https://doi.org/10.4203/ccp.79.48
+[research_mocker_reimerdes_2006]: https://doi.org/10.1016/j.compstruct.2005.11.061
+[research_mode_i_fracture_2013]: https://doi.org/10.1201/b14994-12
+[research_modzel_kamke_2010]: https://doi.org/10.1007/s00226-010-0304-z
+[research_modzel_kamke_2010_b]: https://doi.org/10.1007/s00226-010-0354-2
+[research_moeller_1980]: https://doi.org/10.21236/ada083804
+[research_mohabeddine_malik_2023]: https://doi.org/10.1016/j.compstruct.2023.117284
+[research_mohamad_tarfaoui_2010]: https://doi.org/10.4028/www.scientific.net/kem.446.137
+[research_mohamedmydeen_madesh_2024]: https://doi.org/10.1016/j.reactfunctpolym.2024.106032
+[research_mohan_alshahrani_2016]: https://doi.org/10.1177/0021998316635238
+[research_mohan_grentzer_1995]: https://doi.org/10.1177/073168449501400105
+[research_mohanta_neogi_2026]: https://doi.org/10.4028/p-aulw7f
+[research_mohseni_fernlund_2017]: https://doi.org/10.1177/0021998317734393
+[research_moisture_and_1984]: https://doi.org/10.1016/0010-4361(84)90326-4
+[research_moixbonet_2025]: https://doi.org/10.21741/9781644903513-37
+[research_mojtahedi_hokmabady_2022]: https://doi.org/10.1016/j.compstruct.2021.114794
+[research_molent_forrester_2017]: https://doi.org/10.1016/j.compstruct.2016.12.076
+[research_molent_jones_2018]: https://doi.org/10.1016/b978-0-08-100540-8.00009-1
+[research_molent_jones_2018_b]: https://doi.org/10.1016/b978-0-08-100540-8.00010-8
+[research_molinari_2020]: https://doi.org/10.1201/9781003076155-124
+[research_molitor_young_2004]: https://doi.org/10.1016/j.ijadhadh.2003.06.001
+[research_mollers_schmidt_2023]: https://doi.org/10.1007/s10443-023-10189-7
+[research_molloy_tilley_1998]: https://doi.org/10.1007/978-1-4615-5785-2_1
+[research_molloy_tilley_1998_b]: https://doi.org/10.1007/978-1-4615-5785-2_2
+[research_molyneaux_curtis_1991]: https://doi.org/10.1007/978-94-011-3662-4_25
+[research_momblona_2022]: https://doi.org/10.29363/nanoge.sus-mhp.2022.006
+[research_monaco_boffa_2016]: https://doi.org/10.1117/12.2219204
+[research_monitoring_the_1991]: https://doi.org/10.1016/0010-4361(91)90596-9
+[research_montes_sanchez_2010]: https://doi.org/10.1016/j.compositesa.2009.07.003
+[research_montmeat_enot_2017]: https://doi.org/10.1016/j.mee.2017.03.008
+[research_montserrat_cima_1999]: https://doi.org/10.1016/s0040-6031(99)00033-7
+[research_monzon_foley_1988]: https://doi.org/10.21236/ada199691
+[research_moon_morgan_2004]: https://doi.org/10.1177/0021998304040256
+[research_moon_morgan_2004_b]: https://doi.org/10.1177/0021998304040258
+[research_moradi_vosoughi_2021]: https://doi.org/10.1016/j.tws.2020.107382
+[research_moretti_olivier_2021]: https://doi.org/10.1016/j.compositesa.2020.106224
+[research_morfini_goglio_2018]: https://doi.org/10.1115/pvp2018-84009
+[research_morgan_2007]: https://doi.org/10.21236/ada468808
+[research_morgan_walkup_1985]: https://doi.org/10.1002/app.1985.070300123
+[research_mori_hsiao_2008]: https://doi.org/10.1115/imece2008-67600
+[research_mori_minakuchi_2026]: https://doi.org/10.1080/09243046.2026.2685931
+[research_mori_sugibayashi_1990]: https://doi.org/10.1299/jsmea1988.33.3_349
+[research_morimoto_fujimoto_2020]: https://doi.org/10.6089/jscm.46.121
+[research_morimoto_kobayashi_2015]: https://doi.org/10.1007/s00170-015-7868-6
+[research_moroni_pirondi_2021]: https://doi.org/10.3390/ma14143778
+[research_morrison_bader_1989]: https://doi.org/10.1016/0010-4361(89)90675-7
+[research_morse_1972]: https://doi.org/10.2308/tar-4490322
+[research_morse_cartabia_2022]: https://doi.org/10.1007/s00158-022-03250-9
+[research_morse_mallardo_2023]: https://doi.org/10.1063/5.0145177
+[research_mortensen_andersen_2018]: https://doi.org/10.1088/1757-899x/388/1/012014
+[research_mortensen_thybothomsen_2002]: https://doi.org/10.1016/s0263-8223(02)00002-8
+[research_moscato_seyler_1994]: https://doi.org/10.1520/stp15378s
+[research_moses_1990]: https://doi.org/10.21236/ada230075
+[research_moses_1991]: https://doi.org/10.1007/978-1-4612-3202-5_4
+[research_moses_1991_b]: https://doi.org/10.21236/ada233115
+[research_moses_1992]: https://doi.org/10.1007/978-1-4612-2936-0_1
+[research_moses_1995]: https://doi.org/10.1080/08823871.1995.10462293
+[research_mostafa_shankar_2013]: https://doi.org/10.4028/www.scientific.net/amm.376.69
+[research_mou_zhang_2026]: https://doi.org/10.1016/j.ast.2026.112243
+[research_mou_zou_2014]: https://doi.org/10.1016/j.proeng.2014.09.060
+[research_mou_zou_2016]: https://doi.org/10.1590/1679-78252446
+[research_mouhat_bybi_2019]: https://doi.org/10.3221/igf-esis.50.12
+[research_mowins_2006]: https://doi.org/10.4271/2006-01-3160
+[research_moyer_1975]: https://doi.org/10.2172/4212139
+[research_muc_1991]: https://doi.org/10.1007/978-94-011-3662-4_23
+[research_mujahid_sallih_2020]: https://doi.org/10.1002/pc.25848
+[research_mukhopadhyay_2014]: https://doi.org/10.2514/6.2014-2427
+[research_mukhopadhyay_sorokach_2015]: https://doi.org/10.2514/6.2015-3096
+[research_mukhtar_klosterman_2025]: https://doi.org/10.33599/nasampe/s.25.0047
+[research_muliana_hajali_2005]: https://doi.org/10.2514/6.2005-2080
+[research_muliana_hajali_2006]: https://doi.org/10.1016/j.compstruct.2005.02.006
+[research_muller_2017]: https://doi.org/10.21062/ujep/x.2017/a/1213-2489/mt/17/5/791
+[research_muller_fredell_1999]: https://doi.org/10.1023/a:1008869910744
+[research_muller_palardy_2017]: https://doi.org/10.1177/0021998317727592
+[research_muller_ruggiero_2017]: https://doi.org/10.21062/ujep/x.2017/a/1213-2489/mt/17/4/530
+[research_munjal]: https://doi.org/10.1520/stp10022s
+[research_muralidharan_summerscales_2011]: https://doi.org/10.15373/2249555x/july2013/90
+[research_murayama_kageyama_2002]: https://doi.org/10.1163/156855102762506326
+[research_murphy_quinn_2018]: https://doi.org/10.1142/9781786344335_0003
+[research_murray_robert_2020]: https://doi.org/10.1016/j.matdes.2020.108512
+[research_muser_1968]: https://doi.org/10.4271/680331
+[research_musicman_reinert_1980]: https://doi.org/10.2514/6.1980-744
+[research_mussatayev_yi_2025]: https://doi.org/10.2139/ssrn.5221606
+[research_musto_martuscelli_2001]: https://doi.org/10.1016/s0032-3861(00)00884-3
+[research_muthyala]: https://doi.org/10.31390/gradschool_theses.552
+[research_mwesigwa_tentzeris_2024]: https://doi.org/10.7759/cureus.58289
+[research_myhre_beck_1979]: https://doi.org/10.2514/3.58595
+[research_myhre_labor_1981]: https://doi.org/10.2514/3.57524
+[research_na_2007]: https://doi.org/10.1063/1.2718072
+[research_na_yeom_2014]: https://doi.org/10.7317/pk.2014.38.2.171
+[research_naboulsi_mall_1996]: https://doi.org/10.1016/0263-8223(96)00043-8
+[research_naboulsi_mall_1997]: https://doi.org/10.2514/6.1997-1363
+[research_nadeemmasood_viswamurthy_2020]: https://doi.org/10.1016/j.compstruct.2020.112104
+[research_nae_reich_1984]: https://doi.org/10.1021/ba-1984-0208.ch017
+[research_naffakh_dumon_2006]: https://doi.org/10.1016/j.compscitech.2005.09.007
+[research_nagabhushana_wang_2022]: https://doi.org/10.1002/jum.16005
+[research_nagao_nakao_1979]: https://doi.org/10.4271/790563
+[research_nagar_1994]: https://doi.org/10.1115/imece1994-1292
+[research_nagaraja_alwar_1979]: https://doi.org/10.1080/00218467908544617
+[research_nagendra_haftka_1991]: https://doi.org/10.1016/0263-8223(91)90033-u
+[research_nagendra_haftka_1993]: https://doi.org/10.2514/6.1993-1584
+[research_naghdinasab_dilllanger_2026]: https://doi.org/10.1016/j.compstruct.2025.120022
+[research_naghipour_2015]: https://doi.org/10.1016/b978-0-85709-806-1.00015-x
+[research_nagy_rypien_1987]: https://doi.org/10.1007/978-1-4684-5338-6_70
+[research_nagy_rypien_1987_b]: https://doi.org/10.1007/978-1-4613-1893-4_162
+[research_naidu_sinha_2005]: https://doi.org/10.1533/ijcr.2005.0357
+[research_naing_2026]: https://doi.org/10.26434/chemrxiv.15005629/v1
+[research_nair_hsu_1989]: https://doi.org/10.1007/bf00566584
+[research_naito_mobuchon_2023]: https://doi.org/10.1080/09243046.2023.2279001
+[research_najib_nobari_2015]: https://doi.org/10.1016/j.ijadhadh.2015.08.004
+[research_nakao_hayashi_2018]: https://doi.org/10.1115/1.4039229
+[research_nakashima_matsumiya_2007]: https://doi.org/10.1061/(asce)0733-9445(2007)133:2(297)
+[research_nakata_tanabe_2018]: https://doi.org/10.1299/jsmemecj.2018.j0430103
+[research_nam_lee_1999]: https://doi.org/10.1115/imece1999-0890
+[research_nam_park_2015]: https://doi.org/10.5139/ijass.2015.16.3.360
+[research_nana_xiaoming_2025]: https://doi.org/10.1016/j.compstruct.2025.119146
+[research_nancarrow_warren_2024]: https://doi.org/10.33599/nasampe/s.24.0088
+[research_narayanaswamy]: https://doi.org/10.3990/1.9789036563734
+[research_narita_2002]: https://doi.org/10.1016/s0263-8223(02)00099-5
+[research_narkis_nicolais_1970]: https://doi.org/10.21236/ad0876334
+[research_nash_poranski_1980]: https://doi.org/10.1021/bk-1980-0132.ch034
+[research_naskar_edie_2006]: https://doi.org/10.1177/0021998306061300
+[research_nassar_jagatap_2022]: https://doi.org/10.1115/imece2022-94434
+[research_nawab_casari_2012]: https://doi.org/10.1007/s10853-012-7026-6
+[research_nawab_jacquemin_2016]: https://doi.org/10.1002/9781119116288.ch5
+[research_nayebhashemi_zheng_1990]: https://doi.org/10.1007/978-1-4684-5772-8_195
+[research_nazarchuk_muravsky_2022]: https://doi.org/10.1080/09349847.2022.2049407
+[research_nazarudin_suryadi_2021]: https://doi.org/10.33005/juminten.v2i2.228
+[research_ndiaye_aslsharhani_2026]: https://doi.org/10.2139/ssrn.7389899
+[research_ndt_of_1970]: https://doi.org/10.1016/0029-1021(70)90145-3
+[research_neamah_alkindi_2024]: https://doi.org/10.1371/journal.pone.0301440
+[research_neft_schulte_2002]: https://doi.org/10.1520/stp10637s
+[research_negrin_kripka_2025]: https://doi.org/10.1016/j.engstruct.2025.121461
+[research_neiss_vanderheiden_1994]: https://doi.org/10.1002/masy.19940860110
+[research_nemes_bodelle_1995]: https://doi.org/10.1115/imece1995-0047
+[research_nemet_2006]: https://doi.org/10.1016/j.enpol.2005.06.020
+[research_nemeth_1995]: https://doi.org/10.1007/978-94-011-1228-4_8
+[research_nesterenko_2013]: https://doi.org/10.3103/s1052618813060071
+[research_nestleroth]: https://doi.org/10.17918/00007019
+[research_nettles_barnes_2023]: https://doi.org/10.1177/10996362231180147
+[research_nettles_guin_2022]: https://doi.org/10.1177/10996362221116572
+[research_nettlesalant_1991]: https://ntrs.nasa.gov/citations/19920013436
+[research_nettlesalant_gregoryelizabeth_2008]: https://ntrs.nasa.gov/citations/20090008535
+[research_nettlesalant_ratcliffejamesg_2006]: https://ntrs.nasa.gov/citations/20070002000
+[research_nettlesat_hromisinsm_2013]: https://ntrs.nasa.gov/citations/20130013421
+[research_nettlesat_lancedg_1993]: https://ntrs.nasa.gov/citations/19930045470
+[research_netzel_hoffmann_2021]: https://doi.org/10.1016/j.compositesa.2021.106636
+[research_netzel_mordasini_2021]: https://doi.org/10.1016/j.compositesa.2021.106348
+[research_neural_network_2013]: https://doi.org/10.1201/b16257-15
+[research_neutron_diffraction_2016]: https://doi.org/10.21741/9781945291173-92
+[research_new_honeycomb_2006]: https://doi.org/10.1108/aeat.2006.12778dad.014
+[research_new_possibilities_1970]: https://doi.org/10.1016/0041-624x(70)90984-4
+[research_new_resin_2018]: https://doi.org/10.1016/j.fopow.2018.11.001
+[research_newaz_majumdar_1994]: https://doi.org/10.1115/imece1994-0202
+[research_newcomb_2019]: https://doi.org/10.1016/j.polymertesting.2019.04.006
+[research_newportnewsshipbuildingva_1993]: https://doi.org/10.21236/ada457051
+[research_next_generation_2015]: https://doi.org/10.1016/j.fopow.2015.10.024
+[research_nezhad_merwick_2014]: https://doi.org/10.1080/13588265.2014.963378
+[research_ng_boswell_2000]: https://doi.org/10.21236/ada377439
+[research_ng_manaszloczower_1989]: https://doi.org/10.1002/pen.760290507
+[research_nguyen]: https://doi.org/10.32657/10356/74090
+[research_nguyen_2025]: https://doi.org/10.1109/atigb66719.2025.11142221
+[research_nguyen_ju_2018]: https://doi.org/10.1016/j.compstruct.2017.03.078
+[research_nguyen_koerner_2002]: https://doi.org/10.1002/app.10836
+[research_nguyen_kweon_2009]: https://doi.org/10.1177/0021998309345295
+[research_nguyen_vijayachandran_2019]: https://doi.org/10.1016/j.compstruct.2019.111335
+[research_nguyenthuc_maazouz_2004]: https://doi.org/10.1002/pi.1437
+[research_nhuapeng_kumfu_2008]: https://doi.org/10.4028/www.scientific.net/amr.55-57.457
+[research_ni_frazier_1998]: https://doi.org/10.1080/00218469808009961
+[research_nietoleon_rodriguezbellido_2022]: https://doi.org/10.23967/r.matcomp.2019.04.012
+[research_niknafskermani_simacek_2019]: https://doi.org/10.33599/nasampe/s.19.1432
+[research_niknafskermani_simacek_2020]: https://doi.org/10.1016/j.compositesa.2020.106071
+[research_nilakantan_nutt_2015]: https://doi.org/10.1016/j.repl.2014.12.070
+[research_nilakantan_nutt_2017]: https://doi.org/10.1177/0021998317707253
+[research_nimje_panigrahi_2020]: https://doi.org/10.1002/9781119737322.ch8
+[research_ning_janowski_2007]: https://doi.org/10.1016/j.compstruct.2006.04.090
+[research_ning_shi_2020]: https://doi.org/10.1016/j.jmsy.2019.12.005
+[research_ning_shi_2020_b]: https://doi.org/10.1016/j.jmsy.2020.04.011
+[research_ning_shi_2023]: https://doi.org/10.1080/0951192x.2023.2165160
+[research_ninio_2006]: https://doi.org/10.1093/acprof:oso/9780199299829.003.0003
+[research_nishi_itoh_2024]: https://doi.org/10.1080/09243046.2024.2334089
+[research_nishiyama_tsutsumi_2012]: https://doi.org/10.1016/j.jmr.2012.02.001
+[research_niu_hui_2026]: https://doi.org/10.1016/j.compositesa.2025.109314
+[research_nixonpearson_belnoue_2016]: https://doi.org/10.1177/0021998316665681
+[research_njionhou_berthet_2012]: https://doi.org/10.1007/s00170-012-4257-2
+[research_noahmartimfold_2025]: https://doi.org/10.64229/33dp4a84
+[research_noda_takaki_2024]: https://doi.org/10.1299/jsmemm.2024.c207
+[research_noevereaugust_colliercraig_2019]: https://ntrs.nasa.gov/citations/20200002674
+[research_nondestructive_bond_1997]: https://doi.org/10.14359/5945
+[research_nondestructive_evaluation_2010]: https://doi.org/10.1007/978-3-642-15796-7
+[research_nondestructive_evaluation_2013]: https://doi.org/10.1201/b15806-43
+[research_nondestructive_evaluation_2013_b]: https://doi.org/10.1201/b15806-44
+[research_nondestructive_evaluation_2018]: https://doi.org/10.31399/asm.hb.v17.9781627081900
+[research_nondestructive_inspection_2018]: https://doi.org/10.31399/asm.hb.v17.a0006457
+[research_noor_peters_1994]: https://doi.org/10.1016/0168-874x(94)90026-4
+[research_noor_starnes_1993]: https://doi.org/10.1016/0263-8223(93)90225-f
+[research_noor_starves_1997]: https://doi.org/10.1016/s0168-874x(97)00014-0
+[research_nordby_noyes_1964]: https://doi.org/10.21236/ad0607339
+[research_norose_mizutani_2014]: https://doi.org/10.1109/ultsym.2014.0352
+[research_norwood_brown_2022]: https://doi.org/10.2514/6.2022-2605
+[research_norwood_brown_2022_b]: https://doi.org/10.2514/6.2022-2605.c1
+[research_norwood_schneberger_2021]: https://doi.org/10.2514/6.2021-0572
+[research_noton_1957]: https://doi.org/10.1108/eb032782
+[research_noton_1983]: https://doi.org/10.21236/adb075988
+[research_noton_1984]: https://doi.org/10.21236/adb088339
+[research_noton_preston_1981]: https://doi.org/10.2514/6.1981-518
+[research_novikov_elizarova_2002]: https://doi.org/10.1201/9780203005491.ch24
+[research_nowak_schmidt_2015]: https://doi.org/10.1016/j.compstruct.2015.06.019
+[research_nowak_waskiewicz_2026]: https://doi.org/10.21203/rs.3.rs-8000691/v1
+[research_nowakowski_baran_2019]: https://doi.org/10.2478/fas-2019-0003
+[research_noyes_1965]: https://doi.org/10.2514/6.1965-771
+[research_noyes_1966]: https://doi.org/10.2514/3.43758
+[research_ntourmas_glock_2023]: https://doi.org/10.1016/j.compositesb.2023.110714
+[research_null]: https://doi.org/10.4271/ams3970/5a
+[research_null_b]: https://doi.org/10.4271/ams3960b
+[research_null_c]: https://doi.org/10.4271/ams3915b
+[research_nunez_1989]: https://doi.org/10.21236/ada215552
+[research_nurainin_azaman_2022]: https://doi.org/10.1088/2631-6331/ac8d7a
+[research_nurashikin_hazizan_2011]: https://doi.org/10.1177/0021998311410475
+[research_nurhafzareenmdhanafiah_abdulrahimothman_2024]: https://doi.org/10.37934/araset.37.1.3748
+[research_nurhafzareenmdhanafiah_abdulrahimothman_2024_b]: https://doi.org/10.37934/araset.37.1.6981
+[research_nussbaum_1994]: https://doi.org/10.1080/08823871.1994.10462281
+[research_nuttall_2012]: https://doi.org/10.21236/ad1013158
+[research_nyemba_2025]: https://doi.org/10.1201/9781003559832-5
+[research_oa_2025]: https://doi.org/10.47191/jefms/v8-i10-51
+[research_obertscheider_fauster_2023]: https://doi.org/10.21105/joss.04763
+[research_objois_gilibert_1999]: https://doi.org/10.1080/00218469908010485
+[research_obrien_1990]: https://doi.org/10.1016/0161-7346(90)90193-2
+[research_obrien_white_2003]: https://doi.org/10.1002/pen.10071
+[research_ocando_fernandez_2016]: https://doi.org/10.1007/978-3-319-18158-5_36-1
+[research_ocando_fernandez_2017]: https://doi.org/10.1007/978-3-319-40043-3_36
+[research_odaci_kilicaslan_2012]: https://doi.org/10.1080/13588265.2012.690215
+[research_odagiri_kishi_1996]: https://doi.org/10.1163/156855196x00301
+[research_odell_hasburgh_2026]: https://doi.org/10.2737/fpl-rp-724
+[research_odiyi_sharif_2022]: https://doi.org/10.1016/j.tca.2021.179133
+[research_odwyer_maistros_1998]: https://doi.org/10.1117/12.316469
+[research_ogilvy_1995]: https://doi.org/10.1016/0041-624x(95)00018-x
+[research_ogisu_shimanuki_2006]: https://doi.org/10.1163/156855106777873923
+[research_oh_2007]: https://doi.org/10.4028/www.scientific.net/msf.544-545.427
+[research_oh_kim_2006]: https://doi.org/10.1016/j.compstruct.2005.04.016
+[research_oh_lee_2002]: https://doi.org/10.1177/0021998302036001300
+[research_okabe_takashima_1991]: https://doi.org/10.7567/jjaps.30s1.31
+[research_okafor_singh_2005]: https://doi.org/10.1016/j.compstruct.2005.02.023
+[research_okereke_paulbuckley_2017]: https://doi.org/10.1016/j.compstruct.2017.02.070
+[research_oksman_2001]: https://doi.org/10.1177/073168401772678634
+[research_olarewaju_lee_1991]: https://doi.org/10.2523/21703-ms
+[research_olaya_ricks_2025]: https://doi.org/10.1038/s44334-025-00059-4
+[research_olaya_shah_2022]: https://doi.org/10.26434/chemrxiv-2022-ddlc9
+[research_olaya_shah_2023]: https://doi.org/10.26434/chemrxiv-2022-ddlc9-v2
+[research_oleary_kratz_2022]: https://doi.org/10.12783/asc37/36442
+[research_oliveira_2021]: https://doi.org/10.29327/bgc21.432765
+[research_oliveri_zucco_2021]: https://doi.org/10.2514/6.2021-0919
+[research_olivier_serrano_2023]: https://doi.org/10.12783/asc38/36685
+[research_ollivierlamarque]: https://doi.org/10.70675/4ddade8fz3365z44bczbaf4zbf0e60460a74
+[research_olofsson_1997]: https://doi.org/10.1023/a:1008822801134
+[research_olusanya]: https://doi.org/10.51415/10321/2464
+[research_omeroglu_cam_2025]: https://doi.org/10.1186/s12903-025-05807-8
+[research_omrani_simon_2008]: https://doi.org/10.1016/j.eurpolymj.2007.12.021
+[research_omrani_simon_2008_b]: https://doi.org/10.1002/kin.20350
+[research_ong_1995]: https://doi.org/10.1016/0925-5273(94)00089-s
+[research_oosthuizen_stone_1997]: https://doi.org/10.1016/s0263-8223(97)00123-2
+[research_ophir_1982]: https://doi.org/10.1016/0161-7346(82)90013-x
+[research_optimization_design_2024]: https://doi.org/10.3901/jme.2024.19.199
+[research_optimization_of_1988]: https://doi.org/10.1016/0010-4361(88)90565-4
+[research_orifici_thomson_2008]: https://doi.org/10.1016/j.compstruct.2007.01.012
+[research_orisamolu_luo_1997]: https://doi.org/10.2514/6.1997-1070
+[research_oromiehie_gain_2021]: https://doi.org/10.1016/j.compstruct.2021.114223
+[research_oromiehie_gain_2022]: https://doi.org/10.1016/j.compstruct.2021.114762
+[research_oromiehie_garbe_2019]: https://doi.org/10.1177/0021998319875491
+[research_oromiehie_matti_2024]: https://doi.org/10.1007/978-981-97-0102-5_3
+[research_oromiehie_prusty_2016]: https://doi.org/10.1177/1475921716658616
+[research_oromiehie_prusty_2019]: https://doi.org/10.1016/j.compstruct.2019.110987
+[research_orozco]: https://doi.org/10.31979/etd.8ftb-hy9g
+[research_ortizdemendibil_aretxabaleta_2016]: https://doi.org/10.1016/j.compstruct.2015.12.026
+[research_osakue_martina_2017]: https://doi.org/10.1515/hf-2016-0199
+[research_osama_2024]: https://doi.org/10.20944/preprints202410.0861.v1
+[research_oshima_aoki_2001]: https://doi.org/10.6089/jscm.27.237
+[research_oshima_inoue_2003]: https://doi.org/10.1299/jsmeatem.2003.2._os09w0223
+[research_oshima_inoue_2003_b]: https://doi.org/10.1117/12.483451
+[research_oshima_inoue_2003_c]: https://doi.org/10.1299/jsmeatem.2003.355
+[research_oshima_koyanagi_2025]: https://doi.org/10.3390/polym17030377
+[research_oshima_mikami_2023]: https://doi.org/10.1016/j.compstruct.2022.116453
+[research_oshima_yoshimura_2019]: https://doi.org/10.1016/j.compstruct.2019.111330
+[research_oskay_2012]: https://doi.org/10.21236/ada572212
+[research_ostwald_sathyamoorthy_1992]: https://doi.org/10.1016/b978-0-444-89398-7.50010-0
+[research_oterkus_barut_2005]: https://doi.org/10.1016/j.ijsolstr.2005.02.024
+[research_ouinas_2012]: https://doi.org/10.1177/1099636212460039
+[research_ouinas_bachirbouiadjra_2012]: https://doi.org/10.1016/j.compositesb.2011.08.022
+[research_ouinas_bouiadjra_2010]: https://doi.org/10.1016/j.matdes.2010.03.048
+[research_out_of_autoclave]: https://doi.org/10.12681/eadd/47950
+[research_outeiro_umbrello_2007]: https://doi.org/10.1063/1.2740966
+[research_outtime_cure_kinetics]: https://doi.org/10.1016/j.compscitech.2014.05.027
+[research_outtime_cure_monitoring]: https://doi.org/10.1016/j.compscitech.2014.07.027
+[research_outtime_moisture]: https://doi.org/10.1016/j.compscitech.2016.11.023
+[research_outtime_tow_impregnation]: https://doi.org/10.1016/j.compositesa.2012.10.001
+[research_ouyang_wang_2026]: https://doi.org/10.1016/j.compositesb.2026.113926
+[research_ovesy_assaee_2018]: https://doi.org/10.1201/9781351077309-72
+[research_owen_middleton_1990]: https://doi.org/10.1016/0956-7143(90)90239-s
+[research_oyanguren_williams_1993]: https://doi.org/10.1002/app.1993.070470806
+[research_oz_uz_2025]: https://doi.org/10.1002/pc.30039
+[research_ozaydinince_can_2024]: https://doi.org/10.2139/ssrn.4730013
+[research_ozdoeva_smolyakov_2020]: https://doi.org/10.26425/1816-4277-2020-1-121-128
+[research_ozer_2018]: https://doi.org/10.5772/intechopen.74229
+[research_ozer_oz_2012]: https://doi.org/10.4028/www.scientific.net/amr.445.1000
+[research_paccou]: https://doi.org/10.70675/09a0a7bdz6dcfz4c67z81e6z8f3c3488ed50
+[research_pace_chov_2025]: https://doi.org/10.2172/2570004
+[research_paez_utrera_2022]: https://doi.org/10.23967/r.matcomp.2018.07.018
+[research_paine_rogers_1995]: https://doi.org/10.1115/imece1995-1402
+[research_paithankar_sangani_1990]: https://doi.org/10.1177/002199839002400305
+[research_pal_2005]: https://doi.org/10.1177/0021998305048744
+[research_pal_soumyamol_2025]: https://doi.org/10.1615/compmechcomputapplintj.2024052930
+[research_palaniappan_ogin_2008]: https://doi.org/10.1016/j.compscitech.2007.09.020
+[research_palaniappan_sreedhar_2001]: https://doi.org/10.1002/1521-3935(20010401)202:7<1227::aid-macp1227>3.3.co;2-v
+[research_palardy_hubert_2012]: https://doi.org/10.1016/j.compositesb.2011.06.002
+[research_palazotto_1988]: https://doi.org/10.1520/stp26135s
+[research_palazotto_1995]: https://doi.org/10.1007/978-94-011-1228-4_11
+[research_palmberg_blom_1987]: https://doi.org/10.1007/978-94-017-2764-8_2
+[research_palmese_lascala_2020]: https://doi.org/10.33599/s.20.0179
+[research_paluch_grediac_2008]: https://doi.org/10.1016/j.compstruct.2007.04.023
+[research_pananiswami_bishop_1991]: https://doi.org/10.1016/0925-5273(91)90162-m
+[research_panda_sarnaik_2025]: https://doi.org/10.1007/978-981-96-5707-0_25
+[research_pang_gillham_1988]: https://doi.org/10.21236/ada197644
+[research_pang_gillham_1989]: https://doi.org/10.21236/ada205875
+[research_pang_gillham_1990]: https://doi.org/10.1002/app.1990.070390411
+[research_pang_li_2014]: https://doi.org/10.4028/www.scientific.net/amr.912-914.115
+[research_panigrahi_2009]: https://doi.org/10.1007/s10443-009-9087-5
+[research_panigrahi_nimje_2022]: https://doi.org/10.1201/9781003201113-1
+[research_panigrahi_nimje_2022_b]: https://doi.org/10.1201/9781003201113-4
+[research_panigrahi_nimje_2022_c]: https://doi.org/10.1201/9781003201113-2
+[research_panneerselvan_mohan_2026]: https://doi.org/10.1080/10601325.2026.2680460
+[research_pantaloni_bourmaud_2020]: https://doi.org/10.3390/ma13214811
+[research_pantelelis_2003]: https://doi.org/10.1016/s0266-3538(02)00196-3
+[research_pantelelis_2005]: https://doi.org/10.1016/j.compscitech.2004.12.030
+[research_pantelelis_vrouvakis_2003]: https://doi.org/10.1007/s10010-003-0099-2
+[research_pantelides_1996]: https://doi.org/10.1016/0263-8231(96)00009-2
+[research_paolozzi_peroni_1996]: https://doi.org/10.1016/s0263-8223(96)00057-8
+[research_paonessa_digiulio_2005]: https://doi.org/10.2514/6.2005-3035
+[research_papadakis_chapman_1992]: https://doi.org/10.1016/0963-8695(92)90504-a
+[research_paper_board]: https://doi.org/10.3403/30408899u
+[research_papila_atilgan_2022]: https://doi.org/10.1016/j.finmec.2021.100066
+[research_parambil_chen_2022]: https://doi.org/10.1016/j.compositesb.2021.109562
+[research_parametric_investigations_2024]: https://doi.org/10.25212/lfu.qzj.9.1.42
+[research_parham_1971]: https://doi.org/10.21236/ad0726930
+[research_parham_1971_b]: https://doi.org/10.21236/ada305340
+[research_park_2007]: https://doi.org/10.4028/www.scientific.net/amr.26-28.1265
+[research_park_2015]: https://doi.org/10.4028/www.scientific.net/kem.665.149
+[research_park_2016]: https://doi.org/10.1177/0021998316643579
+[research_park_2017]: https://doi.org/10.1002/app.44707
+[research_park_2019]: https://doi.org/10.1016/j.compstruct.2019.04.058
+[research_park_choi_2009]: https://doi.org/10.1007/s00170-009-2408-x
+[research_park_choi_2010]: https://doi.org/10.1016/j.jmatprotec.2010.01.017
+[research_park_choi_2018]: https://doi.org/10.1007/s10443-018-9688-y
+[research_park_choi_2018_b]: https://doi.org/10.1016/j.compstruct.2017.11.073
+[research_park_goo_2003]: https://doi.org/10.1016/s0263-8223(03)00083-7
+[research_park_han_2003]: https://doi.org/10.1007/978-94-017-0161-7_17
+[research_park_jeong_2010]: https://doi.org/10.1016/j.jiec.2010.01.035
+[research_park_kan_2012]: https://doi.org/10.1080/13588265.2012.709976
+[research_park_kang_2007]: https://doi.org/10.4028/0-87849-427-8.385
+[research_park_kong_2011]: https://doi.org/10.1016/j.compositesa.2011.05.002
+[research_park_kong_2013]: https://doi.org/10.1016/j.ast.2013.04.007
+[research_park_lee_1998]: https://doi.org/10.1002/(sici)1097-4628(19980207)67:6<1101::aid-app18>3.0.co;2-2
+[research_park_lee_2001]: https://doi.org/10.1177/002199801772662217
+[research_park_lee_2004]: https://doi.org/10.1016/j.compstruct.2003.10.010
+[research_park_marcus_1994]: https://doi.org/10.1163/156855494x00058
+[research_park_riedl_1999]: https://doi.org/10.1016/s0032-3861(98)00400-5
+[research_park_youn_2024]: https://doi.org/10.2139/ssrn.4901917
+[research_parker_1986]: https://doi.org/10.1016/0263-8223(86)90073-5
+[research_parker_1994]: https://doi.org/10.1520/stp12916s
+[research_parker_povey_2012]: https://doi.org/10.1016/j.foodhyd.2011.04.016
+[research_parks_1985]: https://doi.org/10.4050/sm_comp_1984-3953
+[research_parnas_1998]: https://doi.org/10.1007/978-94-011-4437-7_7
+[research_paroissien_sartor_2007]: https://doi.org/10.2514/1.24452
+[research_partridge_2000]: https://doi.org/10.5006/c2000-00770
+[research_partridge_maistros_2000]: https://doi.org/10.1016/b0-08-042993-9/00157-1
+[research_parvathy_mohanty_2021]: https://doi.org/10.1002/9783527823604.ch4
+[research_parveez_2024]: https://doi.org/10.1016/b978-0-323-95318-4.00004-5
+[research_pashkov_zhuleva_2023]: https://doi.org/10.1051/e3sconf/202338305007
+[research_patel_2014]: https://doi.org/10.1007/978-94-007-2739-7_877
+[research_patel_dodge_2026]: https://doi.org/10.2514/6.2026-0361
+[research_patel_gajjar_2020]: https://doi.org/10.1201/9780429321573-61
+[research_patel_ji_2025]: https://doi.org/10.2514/6.2025-2471
+[research_patel_lee_1995]: https://doi.org/10.1002/pc.750160507
+[research_patel_lee_1996]: https://doi.org/10.1002/pc.10594
+[research_patel_patel_1987]: https://doi.org/10.1002/pi.4980190106
+[research_patham_2012]: https://doi.org/10.1002/app.38744
+[research_patil_moheimani_2019]: https://doi.org/10.12783/asc34/31307
+[research_patil_moheimani_2019_b]: https://doi.org/10.1016/j.tsep.2019.100419
+[research_patil_shah_2019]: https://doi.org/10.12783/asc34/31378
+[research_patnaik_pai_2008]: https://doi.org/10.2514/6.2008-5879
+[research_patterson_grenestedt_2018]: https://doi.org/10.1016/j.compstruct.2018.08.052
+[research_patterson_piatkowski_2010]: https://doi.org/10.21236/ada555994
+[research_patterson_pinckney_1988]: https://doi.org/10.4050/sm-struct-1988-1762
+[research_patwardhan_ramani_2004]: https://doi.org/10.1115/detc2004-57778
+[research_patz_1981]: https://doi.org/10.1007/978-94-009-8120-1_28
+[research_paul]: https://doi.org/10.31274/rtd-180816-5526
+[research_paul_andrea_2021]: https://doi.org/10.33599/nasampe/s.21.0629
+[research_paxton_penghui_2025]: https://doi.org/10.46254/au04.20250209
+[research_pazabuin_pellin_1997]: https://doi.org/10.1016/s0032-3861(96)00957-3
+[research_pedersen_slepniov_2016]: https://doi.org/10.1108/ijopm-08-2013-0365
+[research_pellone_ciminello_2024]: https://doi.org/10.3390/applmech5010003
+[research_peng_li_2024]: https://doi.org/10.1016/j.compstruct.2023.117796
+[research_peng_riedl_1994]: https://doi.org/10.1016/0032-3861(94)90024-8
+[research_peng_wang_2023]: https://doi.org/10.1016/j.compstruct.2022.116641
+[research_peng_xu_2022]: https://doi.org/10.3390/polym14142903
+[research_peng_yu_2021]: https://doi.org/10.1201/9780429032301-7
+[research_peng_yu_2021_b]: https://doi.org/10.1201/9780429032301-2
+[research_pengfei_xuhui_2025]: https://doi.org/10.1007/978-3-032-09862-7_18
+[research_penumadu_2020]: https://doi.org/10.1007/978-3-030-31065-3_19
+[research_perala_lee_1979]: https://doi.org/10.23919/emc.1979.10797767
+[research_pereira_cardoso_2026]: https://doi.org/10.1016/j.compositesa.2026.109722
+[research_pereira_leboulluec_2019]: https://doi.org/10.1016/j.compositesa.2019.105491
+[research_peretto_1997]: https://doi.org/10.2139/ssrn.47584
+[research_perez_johnson_2000]: https://doi.org/10.2514/6.2000-1547
+[research_perfetto_deluca_2018]: https://doi.org/10.1016/j.prostr.2018.11.079
+[research_perfetto_deluca_2019]: https://doi.org/10.4028/www.scientific.net/msf.957.319
+[research_perfetto_lamanna_2019]: https://doi.org/10.4028/www.scientific.net/kem.827.19
+[research_perillo_vedivik_2014]: https://doi.org/10.1177/0021998314521474
+[research_peronnet]: https://doi.org/10.70675/0f2c6396zaba6z4faez9fdezc6b541b75a42
+[research_perret]: https://doi.org/10.70675/29d804c9zd36ez4f85za4a1zcaf9ee981d00
+[research_perret_mistou_2011]: https://doi.org/10.1016/j.compstruct.2011.04.026
+[research_perret_mistou_2011_b]: https://doi.org/10.4028/www.scientific.net/amm.62.49
+[research_perret_mistou_2012]: https://doi.org/10.1016/j.compstruct.2011.07.029
+[research_perreux_lazuardi_2001]: https://doi.org/10.1016/s0266-3538(00)00119-6
+[research_perreux_lazuardi_2001_b]: https://doi.org/10.1016/s0266-3538(00)00224-4
+[research_perrin_vaudemont_2023]: https://doi.org/10.3390/ma16237340
+[research_perry_lee_1992]: https://doi.org/10.1177/002199839202600207
+[research_perry_mauchand]: https://doi.org/10.1007/1-84628-210-1_26
+[research_peterlin_1975]: https://doi.org/10.1021/ba-1975-0142.ch001
+[research_peters_1994]: https://doi.org/10.1177/002199839402800602
+[research_peters_springer_1986]: https://doi.org/10.21236/ada174160
+[research_petersson_motte_2013]: https://doi.org/10.1115/imece2013-62272
+[research_pethrick_miller_2009]: https://doi.org/10.1002/pi.2714
+[research_pettit_1979]: https://doi.org/10.1520/stp36028s
+[research_peyron_watts_2022]: https://doi.org/10.33599/nasampe/s.22.0808
+[research_peyser_bascom_1974]: https://doi.org/10.1007/978-1-4757-4509-2_40
+[research_peyser_bascom_1977]: https://doi.org/10.1002/app.1977.070210906
+[research_phansalkar_han_2024]: https://doi.org/10.1109/tcpmt.2024.3382133
+[research_phansalkar_han_2026]: https://doi.org/10.1109/ectc51846.2026.00257
+[research_phansalkar_jang_2024]: https://doi.org/10.2139/ssrn.4745116
+[research_phansalkar_jang_2025]: https://doi.org/10.1016/j.mseb.2024.117829
+[research_philipp_muller_2009]: https://doi.org/10.1088/1367-2630/11/2/023015
+[research_philippidis_2000]: https://doi.org/10.1016/s0266-3538(00)00150-0
+[research_philippidis_lekou_1999]: https://doi.org/10.1016/s0263-8223(99)00012-4
+[research_phillips_1986]: https://doi.org/10.1108/eb036352
+[research_phillips_1986_b]: https://doi.org/10.1108/eb036370
+[research_phillips_agarwal_2018]: https://doi.org/10.1038/s41598-018-27913-0
+[research_phosphate_bonded_1991]: https://doi.org/10.1016/0010-4361(91)90047-k
+[research_photo_curing_schemes_2018]: https://doi.org/10.13188/2380-5021.1000010
+[research_physical_chemical_characterization]: https://doi.org/10.4271/arp1610a
+[research_physio_chemical_characterization]: https://doi.org/10.4271/arp1610
+[research_pillai_advani_1998]: https://doi.org/10.1177/002199839803201902
+[research_pillai_thomas_2011]: https://doi.org/10.1080/10601325.2011.596069
+[research_pilon]: https://doi.org/10.37099/mtu.dc.etds/172
+[research_pimm_1976]: https://doi.org/10.2514/6.1976-907
+[research_pinckney_1964]: https://doi.org/10.2514/6.1964-164
+[research_pipes_scott_1979]: https://doi.org/10.1520/stp696-eb
+[research_pirondi_giuliese_2015]: https://doi.org/10.1016/b978-0-85709-806-1.00013-6
+[research_pisharody_smith_2022]: https://doi.org/10.1016/j.compstruct.2022.115531
+[research_pishvar_amirkhosravi_2017]: https://doi.org/10.1115/imece2017-72019
+[research_pishvar_amirkhosravi_2018]: https://doi.org/10.3791/57254
+[research_pitchumani_2000]: https://doi.org/10.21236/ada402954
+[research_plagianakos_saravanos_2009]: https://doi.org/10.1016/j.compstruct.2007.12.002
+[research_plaka_bednarcyk_2022]: https://doi.org/10.12783/asc37/36492
+[research_plastics]: https://doi.org/10.3403/30493816
+[research_plastics_b]: https://doi.org/10.3403/30396017u
+[research_plastics_differential]: https://doi.org/10.3403/02603820u
+[research_plastics_differential_b]: https://doi.org/10.3403/30077498u
+[research_plastics_epoxy]: https://doi.org/10.3403/30211365
+[research_plaza_rohlf_2008]: https://doi.org/10.1016/j.ijpe.2008.05.005
+[research_plesu_azaar_1993]: https://doi.org/10.1016/0014-3057(93)90309-4
+[research_pochiraju_1999]: https://doi.org/10.1115/imece1999-0546
+[research_podoba_kodali_1981]: https://doi.org/10.1016/0378-5963(81)90048-9
+[research_podymova_karabutov_2013]: https://doi.org/10.1007/s10921-013-0210-z
+[research_poe_1971]: https://doi.org/10.1520/stp26674s
+[research_pohya_wicke_2018]: https://doi.org/10.2514/6.2018-0282
+[research_pol_banerjee_2014]: https://doi.org/10.1117/12.2042745
+[research_polimeno_meo_2009]: https://doi.org/10.1016/j.compstruct.2009.04.014
+[research_polnikorn_2024]: https://doi.org/10.21741/9781644903131-45
+[research_polowick]: https://doi.org/10.22215/etd/2013-06604
+[research_poly_amide_imide_1991]: https://doi.org/10.1016/0010-4361(91)90298-u
+[research_polyclad_introduces_2002]: https://doi.org/10.1108/cw.2002.21728bad.001
+[research_polyclad_introduces_2003]: https://doi.org/10.1108/cw.2003.21729cad.002
+[research_polyclad_introduces_2004]: https://doi.org/10.1108/cw.2004.21730dad.001
+[research_polyester_fibreglass_reinforced_1978]: https://doi.org/10.1016/0010-4361(78)90633-x
+[research_polyimide_composition_1991]: https://doi.org/10.1016/0956-7143(91)90162-a
+[research_polyxeni_christina_2019]: https://doi.org/10.4236/wjm.2019.96010
+[research_pommer_sinapius_2018]: https://doi.org/10.3390/s18061819
+[research_poncia_krauss_1975]: https://doi.org/10.21236/ada012776
+[research_ponomareva_irzhak_1978]: https://doi.org/10.1016/0032-3950(78)90155-7
+[research_poorabdollah_kamran_2017]: https://doi.org/10.1177/0021998317702000
+[research_poorzeinolabedin_parnas_2014]: https://doi.org/10.1016/j.matdes.2014.08.008
+[research_popham_2019]: https://doi.org/10.1016/b978-0-08-102264-1.00008-x
+[research_popineau_celino_2021]: https://doi.org/10.1007/s10443-021-09890-2
+[research_porosity_characterization_1994]: https://doi.org/10.1016/0963-8695(94)90658-0
+[research_portanovamarca_1994]: https://ntrs.nasa.gov/citations/19940022930
+[research_posarac_dimitrijevic_2010]: https://doi.org/10.1080/09349840903381044
+[research_posteuca_sakamoto_2017]: https://doi.org/10.1201/9781315155838-4
+[research_posteuca_sakamoto_2017_b]: https://doi.org/10.1201/9781315155838-6
+[research_posteuca_sakamoto_2017_c]: https://doi.org/10.1201/9781315155838-5
+[research_potapov_lukyanov_1988]: https://doi.org/10.1007/bf01530866
+[research_potentially_game_changing_2023]: https://doi.org/10.1016/j.fopow.2023.03.001
+[research_pothnis_velon_2024]: https://doi.org/10.1016/j.compstruct.2023.117648
+[research_potluri_kusak_2003]: https://doi.org/10.1016/s0263-8223(02)00087-9
+[research_potter_1982]: https://doi.org/10.1520/stp28869s
+[research_potter_1997]: https://doi.org/10.1007/978-94-009-0021-9_6
+[research_potter_1997_b]: https://doi.org/10.1007/978-94-009-0021-9
+[research_potter_1997_c]: https://doi.org/10.1007/978-94-009-0021-9_1
+[research_potter_1997_d]: https://doi.org/10.1007/978-94-009-0021-9_7
+[research_potter_1997_e]: https://doi.org/10.1007/978-94-009-0021-9_2
+[research_potter_1997_f]: https://doi.org/10.1007/978-94-009-0021-9_8
+[research_potter_1997_g]: https://doi.org/10.1007/978-94-009-0021-9_4
+[research_potter_1997_h]: https://doi.org/10.1007/978-94-009-0021-9_10
+[research_potter_1997_i]: https://doi.org/10.1007/978-94-009-0021-9_9
+[research_potter_1997_j]: https://doi.org/10.1007/978-94-009-0021-9_11
+[research_potter_1999]: https://doi.org/10.1016/s1359-835x(98)00179-1
+[research_potter_2023]: https://doi.org/10.1016/b978-0-12-819160-6.00015-9
+[research_potter_davies_2001]: https://doi.org/10.1016/s0263-8223(00)00155-0
+[research_potting_compound]: https://doi.org/10.4271/ams3731/5a
+[research_pouchias_cunningham_2019]: https://doi.org/10.3390/s19235292
+[research_poulopoulos_zervos_2022]: https://doi.org/10.1117/12.2621285
+[research_pourahmadi_shadmehri_2024]: https://doi.org/10.1016/j.compositesb.2023.111104
+[research_poursartip_fernlund_2020]: https://doi.org/10.33599/nasampe/s.20.0016
+[research_powder_coating_2019]: https://doi.org/10.1016/j.fopow.2019.11.024
+[research_pozosestrada_2025]: https://doi.org/10.3390/w17070927
+[research_prabhakar_2020]: https://doi.org/10.1007/978-3-030-31065-3_20
+[research_prabhakaran_saha_2002]: https://doi.org/10.1520/stp10636s
+[research_prabhune_talreja_2007]: https://doi.org/10.1108/00022660710758231
+[research_practical_cost_2005]: https://doi.org/10.1201/9781420026955-5
+[research_practice_for]: https://doi.org/10.1520/e3174-21
+[research_practice_for_b]: https://doi.org/10.1520/e1307-05
+[research_practice_for_c]: https://doi.org/10.1520/d1828-01r13
+[research_practice_for_d]: https://doi.org/10.1520/d5266-99
+[research_prakash_bag_2025]: https://doi.org/10.1186/s42252-025-00071-z
+[research_pramanik_fowler_2014]: https://doi.org/10.1007/s11998-013-9565-4
+[research_prasad_prabhakaran_1987]: https://doi.org/10.1016/0263-8223(87)90067-5
+[research_prasittisopin_tuvayanond_2022]: https://doi.org/10.20944/preprints202211.0290.v1
+[research_preau_hubert_2018]: https://doi.org/10.1016/j.ijadhadh.2017.10.004
+[research_precup_2025]: https://doi.org/10.70156/1754-2383.1533
+[research_predecki_barrett_1983]: https://doi.org/10.1154/s0376030800017146
+[research_predecki_barrett_1984]: https://doi.org/10.1007/978-1-4613-2775-2_28
+[research_preeti_jones_2022]: https://doi.org/10.1049/icp.2022.0970
+[research_preface_1998]: https://doi.org/10.1016/b978-1-85573-406-7.50003-x
+[research_preforms_for_1989]: https://doi.org/10.1016/0306-3747(89)90377-1
+[research_preisz_holtmannspotter_2026]: https://doi.org/10.2139/ssrn.6960411
+[research_prepreg_2007]: https://doi.org/10.1002/9780470114735.hawley13416
+[research_prepreg_2021]: https://doi.org/10.5040/9781501365072.12725
+[research_prepreg_adj_2023]: https://doi.org/10.1093/oed/5028399221
+[research_prepreg_for_1985]: https://doi.org/10.1016/0010-4361(85)90473-2
+[research_prepreg_requires_1998]: https://doi.org/10.1016/s0034-3617(98)92162-2
+[research_pressure_altitude_2014]: https://doi.org/10.1007/978-3-642-41714-6_163587
+[research_pressure_altitude_variation_2014]: https://doi.org/10.1007/978-3-642-41714-6_163588
+[research_pressures_and_2000]: https://doi.org/10.1016/b978-012257060-5/50023-x
+[research_prf_launches_2016]: https://doi.org/10.1016/j.repl.2016.08.040
+[research_prime_1973]: https://doi.org/10.1002/pen.760130508
+[research_prime_hill_2004]: https://doi.org/10.1177/0021998304045584
+[research_primer_adhesive]: https://doi.org/10.4271/ams3107
+[research_prince_zhao_2026]: https://doi.org/10.2514/6.2026-1079
+[research_prince_zhao_2026_b]: https://doi.org/10.2514/6.2026-1079.c1
+[research_printed_circuit_2001]: https://doi.org/10.1201/9780824741587.ch6
+[research_printed_circuit_2010]: https://doi.org/10.1201/9781420089288-12
+[research_pritz_etzel_2016]: https://doi.org/10.4271/2016-01-2085
+[research_process_for_1972]: https://doi.org/10.1016/0010-4361(72)90046-8
+[research_process_for_1988]: https://doi.org/10.1016/0010-4361(88)90229-7
+[research_process_for_1989]: https://doi.org/10.1016/0010-4361(89)90474-6
+[research_process_for_1991]: https://doi.org/10.1016/0956-7143(91)90205-u
+[research_process_for_1992]: https://doi.org/10.1016/0010-4361(92)90427-v
+[research_process_for_1993]: https://doi.org/10.1016/0010-4361(93)90085-m
+[research_process_for_1994]: https://doi.org/10.1016/0956-7143(94)90153-8
+[research_process_for_1995]: https://doi.org/10.1016/0010-4361(95)96828-t
+[research_process_induced_distortions]: https://doi.org/10.12681/eadd/54612
+[research_process_induced_stress_1992]: https://doi.org/10.1016/0010-4361(92)90028-s
+[research_process_of_1991]: https://doi.org/10.1016/0956-7143(91)90199-q
+[research_processing_of_1975]: https://doi.org/10.1016/0010-4361(75)90346-8
+[research_product_manufacturing_2013]: https://doi.org/10.1016/c2012-0-00833-2
+[research_production_of_2008]: https://doi.org/10.1002/9783527626458.ch7
+[research_prototype_aircraft_1987]: https://doi.org/10.1108/eb036389
+[research_prozorovska_muralidharan_2017]: https://doi.org/10.12783/asc2017/15293
+[research_pugazhenthi_gopalakannan_2018]: https://doi.org/10.1109/icscan.2018.8541192
+[research_puglia_kenny_2015]: https://doi.org/10.1007/978-3-319-18158-5_8-1
+[research_puglia_kenny_2017]: https://doi.org/10.1007/978-3-319-40043-3_8
+[research_pugno_1999]: https://doi.org/10.1504/ijmpt.1999.036285
+[research_puhurcuoglu_arman_2024]: https://doi.org/10.1002/pat.6498
+[research_puhurcuoglu_arman_2025]: https://doi.org/10.1002/pc.29870
+[research_pulipati_kokkadaravindranath_2023]: https://doi.org/10.1002/pc.27922
+[research_purabgola_rastogi_2020]: https://doi.org/10.1002/9781119737322.ch1
+[research_pusatcioglu_fricke_1979]: https://doi.org/10.1002/app.1979.070240408
+[research_puspaningtyas_jusuf_2024]: https://doi.org/10.1016/j.heliyon.2024.e24141
+[research_pyun_koester_2022]: https://doi.org/10.1007/s10921-022-00904-y
+[research_qi_zhou_2026]: https://doi.org/10.2139/ssrn.6515744
+[research_qian_sun_2008]: https://doi.org/10.2514/6.2008-1845
+[research_qiao_xing_2025]: https://doi.org/10.1016/j.polymer.2025.128230
+[research_qiao_yao_2020]: https://doi.org/10.3390/ma13204503
+[research_qin_liu_2017]: https://doi.org/10.1142/9789813208322_0027
+[research_qin_zhao_2009]: https://doi.org/10.4028/www.scientific.net/kem.417-418.861
+[research_qing_beard_2006]: https://doi.org/10.1088/0964-1726/15/3/n03
+[research_qing_liu_2020]: https://doi.org/10.1177/1475921720958082
+[research_qiu_shi_2017]: https://doi.org/10.1115/pvp2017-65580
+[research_qu_he_2021]: https://doi.org/10.1016/j.compstruct.2021.113608
+[research_qu_zhao_2025]: https://doi.org/10.1016/j.compstruct.2025.119527
+[research_quadrini_santoro_2021]: https://doi.org/10.1115/msec2021-63821
+[research_quagliato_jang_2019]: https://doi.org/10.1016/j.compstruct.2018.10.078
+[research_quan_alderliesten_2020]: https://doi.org/10.1016/j.compstruct.2020.112595
+[research_quan_zhao_2022]: https://doi.org/10.1016/j.compscitech.2022.109567
+[research_quaresimin_2005]: https://doi.org/10.1201/9781439823736.ch16
+[research_quate_1979]: https://doi.org/10.21236/ada148536
+[research_quate_1981]: https://doi.org/10.21236/ada113874
+[research_quatmann_reimerdes_2011]: https://doi.org/10.1007/s13272-011-0025-5
+[research_quattrocchi_freni_2019]: https://doi.org/10.1080/10589759.2019.1699084
+[research_quinlan_farhang_2014]: https://doi.org/10.4050/f-0070-2014-9555
+[research_quinlivan_fenbert_1995]: https://doi.org/10.1007/978-1-4899-0502-4_1
+[research_quinn_davidson_2023]: https://doi.org/10.3390/polym15153175
+[research_quintana_sharp_2023]: https://doi.org/10.33599/nasampe/s.23.0152
+[research_quintanamolina_pradohernandez_2023]: https://doi.org/10.3390/w15162870
+[research_r_narayananaik_2020]: https://doi.org/10.1016/j.matpr.2020.01.006
+[research_rachowitz_coletti_1979]: https://doi.org/10.21236/ada073507
+[research_rackers_1998]: https://doi.org/10.1007/978-94-011-4437-7_1
+[research_rafighi_tabarsa_2011]: https://doi.org/10.4028/www.scientific.net/kem.471-472.1091
+[research_ragavan_amde_1999]: https://doi.org/10.1061/(asce)0733-9399(1999)125:10(1164)
+[research_raghavan_2009]: https://doi.org/10.1016/j.compositesa.2008.12.010
+[research_rahatekar_roux_2003]: https://doi.org/10.1177/0021998303037012005
+[research_raheem_2018]: https://doi.org/10.4172/2321-6212-c5-026
+[research_rahim_2021]: https://doi.org/10.32920/ryerson.14654778
+[research_rahman_radford_2016]: https://doi.org/10.1016/j.compositesa.2016.03.001
+[research_rai_lee_1991]: https://doi.org/10.2514/6.1991-1043
+[research_raigar_velu_2026]: https://doi.org/10.1016/j.jmapro.2026.06.064
+[research_raihan_qhobosheane_2022]: https://doi.org/10.33599/nasampe/s.22.0771
+[research_raisch]: https://doi.org/10.17918/00006214
+[research_raja_2009]: https://doi.org/10.1007/978-90-481-3771-8_24
+[research_rajasekaran_shadmehri_2020]: https://doi.org/10.12783/asc35/34869
+[research_rajeckas_1989]: https://doi.org/10.1007/978-1-4757-0866-0_7
+[research_rajmohan_arunachalam_2022]: https://doi.org/10.21278/tof.461024320
+[research_rakestraw_vrana_1994]: https://doi.org/10.1115/imece1994-1295
+[research_ramakrishnan_rajan_2014]: https://doi.org/10.1049/el.2013.4233
+[research_ramamurthy_rao_1978]: https://doi.org/10.1016/0093-6413(78)90069-1
+[research_ramesh_heng_2010]: https://doi.org/10.1504/ijmtm.2010.034292
+[research_ramezani_2020]: https://doi.org/10.31224/osf.io/bjmz7
+[research_ramos_frazao_2006]: https://doi.org/10.4028/www.scientific.net/msf.514-516.629
+[research_ramos_pagani_2005]: https://doi.org/10.1016/j.polymer.2005.02.069
+[research_ramyharik_andrewlovejoy]: https://ntrs.nasa.gov/citations/20205002602
+[research_ramyharik_andrewlovejoy_b]: https://ntrs.nasa.gov/citations/20205006082
+[research_ranade_guan_2014]: https://doi.org/10.1016/j.ijadhadh.2014.08.006
+[research_rand_airframe_costs]: https://doi.org/10.7249/mr1370
+[research_rans_alderliesten_2009]: https://doi.org/10.1007/978-90-481-2746-7_5
+[research_rao_sinha_2024]: https://doi.org/10.2139/ssrn.4902804
+[research_raper_1991]: https://doi.org/10.21236/ada240387
+[research_rapoffandrewj_dillharoldd_1990]: https://ntrs.nasa.gov/citations/19920023336
+[research_raps_chadwick_2022]: https://doi.org/10.1016/j.compstruct.2021.115087
+[research_rarthlomeusz_paul_1993]: https://doi.org/10.1108/eb037363
+[research_rashedi_sridhar_2016]: https://doi.org/10.1016/j.compstruct.2015.11.029
+[research_rasiah_breach]: https://doi.org/10.1109/emap.2000.904191
+[research_rasuo_2015]: https://doi.org/10.1016/b978-0-08-100137-0.00023-7
+[research_rathinam_chinnamokkaiyan_2026]: https://doi.org/10.1590/1517-7076-rmat-2026-0196
+[research_ratle_achim_2009]: https://doi.org/10.1016/j.asoc.2008.05.008
+[research_ratna_2022]: https://doi.org/10.1016/b978-0-323-85664-5.00003-x
+[research_ratna_2022_b]: https://doi.org/10.1016/b978-0-323-85664-5.00004-1
+[research_ratna_2022_c]: https://doi.org/10.1016/b978-0-323-85664-5.00001-6
+[research_ratwani_1977]: https://doi.org/10.21236/ada046179
+[research_ravanfar_daniel]: https://doi.org/10.58530/2023/5419
+[research_rawat_pathak_2014]: https://doi.org/10.1039/c3sm52701h
+[research_rayne_1975]: https://doi.org/10.1007/978-3-642-95275-3_2
+[research_razaqpur_cameron_2020]: https://doi.org/10.1016/j.compstruct.2019.111574
+[research_reading_2023]: https://doi.org/10.1016/b978-0-12-811347-9.00003-5
+[research_recurring_cost_part_size]: https://doi.org/10.1177/0021998302036004556
+[research_redin]: https://doi.org/10.1109/pac.1999.792238
+[research_reed_batzinger_1993]: https://doi.org/10.1007/978-1-4615-2848-7_162
+[research_reinhart_1988]: https://doi.org/10.1007/978-94-009-2752-0_2
+[research_reinoso_blazquez_2012]: https://doi.org/10.1016/j.compstruct.2011.12.014
+[research_reis_1994]: https://doi.org/10.1007/978-1-4615-2574-5_38
+[research_reis_costa_2022]: https://doi.org/10.1016/j.compstruct.2022.115875
+[research_reis_ferreira_2011]: https://doi.org/10.1177/0892705711408161
+[research_remer_ziegler_1992]: https://doi.org/10.1142/s0960313192000170
+[research_remirey_rinahashimoto_2026]: https://doi.org/10.66857/jirt.v3i1.37
+[research_rempe_1996]: https://doi.org/10.21236/ada305374
+[research_rempt_2003]: https://doi.org/10.21236/ada425565
+[research_remyjanepampongrosalinaasagocsoc_2026]: https://doi.org/10.12692/ijb/28.3.155-163
+[research_ren_gao_2019]: https://doi.org/10.1080/13588265.2019.1603850
+[research_ren_lissenden_2015]: https://doi.org/10.12783/shm2015/238
+[research_ren_wang_2017]: https://doi.org/10.7449/2017/mst_2017_141_147
+[research_ren_wang_2018]: https://doi.org/10.1515/secm-2017-0244
+[research_ren_zhang_2025]: https://doi.org/10.1007/s12221-025-00849-9
+[research_ren_zhang_2025_b]: https://doi.org/10.1002/adem.202402136
+[research_renton_vinson_1973]: https://doi.org/10.21236/ad0766932
+[research_renton_vinson_1975]: https://doi.org/10.2514/6.1975-798
+[research_repair_and_1996]: https://doi.org/10.14359/1465
+[research_report_no_1935]: https://doi.org/10.1016/s0016-0032(35)90062-x
+[research_residual_stress_2016]: https://doi.org/10.21741/9781945291173-68
+[research_residual_stress_2024]: https://doi.org/10.1002/9781119908142.ch14
+[research_residual_stresses_1972]: https://doi.org/10.1016/0010-4361(72)90529-0
+[research_resin_technology_2017]: https://doi.org/10.1016/j.repl.2017.07.063
+[research_resin_transfer_1993]: https://doi.org/10.1016/0010-4361(93)90152-x
+[research_resin_transfer_1994]: https://doi.org/10.1016/s0034-3617(05)80115-8
+[research_resin_transfer_1995]: https://doi.org/10.31399/asm.hb.emde.a0003020
+[research_resin_transfer_1998]: https://doi.org/10.1007/978-94-011-4437-7
+[research_retolaza_corujo_2022]: https://doi.org/10.23967/r.matcomp.2019.04.011
+[research_retz_2019]: https://doi.org/10.1201/9780367853099-11
+[research_review_of_research_2022]: https://doi.org/10.12677/sea.2022.116157
+[research_ribeiro_campilho_2016]: https://doi.org/10.1016/j.compstruct.2015.09.054
+[research_riccio_garofano_2024]: https://doi.org/10.1002/masy.202300183
+[research_riccio_raimondo_2018]: https://doi.org/10.1016/j.compositesb.2018.05.044
+[research_riccio_saputo_2019]: https://doi.org/10.3390/aerospace6060072
+[research_riccio_saputo_2020]: https://doi.org/10.1016/j.compstruct.2020.112519
+[research_riccio_saputo_2020_b]: https://doi.org/10.3390/app10062019
+[research_riccio_saputo_2020_c]: https://doi.org/10.1016/j.compstruct.2019.111662
+[research_riccio_saputo_2021]: https://doi.org/10.1016/j.matpr.2020.01.190
+[research_rich_maass_1981]: https://doi.org/10.1520/stp29310s
+[research_rich_ridgley_1975]: https://doi.org/10.4050/jahs.20.3.2
+[research_richard_lin_2016]: https://doi.org/10.2514/6.2016-1502
+[research_richard_lin_2017]: https://doi.org/10.2514/6.2017-1602
+[research_richardson_1992]: https://doi.org/10.1351/pac199264111789
+[research_richardson_angelici_1987]: https://doi.org/10.1002/chin.198725050
+[research_richardson_stewart_2012]: https://doi.org/10.4271/2012-01-1857
+[research_rider_olssonjacques_1999]: https://doi.org/10.1002/(sici)1096-9918(199912)27:12<1055::aid-sia675>3.0.co;2-t
+[research_ridha_tan_2011]: https://doi.org/10.1016/j.compstruct.2010.10.015
+[research_rigelsford_2004]: https://doi.org/10.1108/aa.2004.03324bae.001
+[research_rigid_pvc]: https://doi.org/10.3403/bsiso18373
+[research_riguidel_ridler_1998]: https://doi.org/10.1108/03056129810223918
+[research_riley_1986]: https://doi.org/10.1243/pime_proc_1986_200_178_02
+[research_rinconurbina_ayre_2022]: https://doi.org/10.1049/pbme015e_ch13
+[research_rispler_2004]: https://doi.org/10.1016/b978-1-85573-831-7.50092-4
+[research_river_2003]: https://doi.org/10.1201/9780203912225.ch15
+[research_riveragonzalez_2024]: https://doi.org/10.33599/nasampe/c.24.0264
+[research_rivers_leesullivan_2017]: https://doi.org/10.1016/j.compscitech.2017.06.011
+[research_rizk_nahas_2019]: https://doi.org/10.1016/j.compstruct.2019.01.001
+[research_rizzolo_walczyk_2014]: https://doi.org/10.1115/msec2014-4167
+[research_rizzolo_walczyk_2016]: https://doi.org/10.1177/0892705714565705
+[research_rkoloor_tamin_2018]: https://doi.org/10.1016/j.compstruct.2018.07.132
+[research_roach_1998]: https://doi.org/10.2172/677126
+[research_roach_2002]: https://doi.org/10.1016/b978-008042699-0/50019-x
+[research_roach_rackow_2004]: https://doi.org/10.1520/stp12587s
+[research_roach_rackow_2007]: https://doi.org/10.2172/912655
+[research_roach_rackow_2018]: https://doi.org/10.1016/b978-0-08-100540-8.00011-x
+[research_roach_scala_2002]: https://doi.org/10.1016/b978-008042699-0/50025-5
+[research_roberge_2008]: https://doi.org/10.4050/vfs-f64-000315
+[research_robert_dusserre_2013]: https://doi.org/10.1002/pen.23700
+[research_roberts_justusson_2021]: https://doi.org/10.2514/6.2021-0444
+[research_robertson_1988]: https://doi.org/10.1002/pi.4980200506
+[research_robinson]: https://doi.org/10.33915/etd.1164
+[research_robinson_1984]: https://doi.org/10.1016/0161-7346(84)90046-4
+[research_robinson_1984_b]: https://doi.org/10.1016/0161-7346(84)90014-2
+[research_robinson_kosmatka_2008]: https://doi.org/10.2514/6.2008-2033
+[research_rocha_semprimoschnig_2021]: https://doi.org/10.1007/s12567-021-00357-5
+[research_rochery_lam_2000]: https://doi.org/10.1002/(sici)1099-0488(20000301)38:5<812::aid-polb18>3.0.co;2-g
+[research_rodgers_johnson_1987]: https://doi.org/10.2514/6.1987-1907
+[research_rodriguez_1994]: https://doi.org/10.1520/stp15379s
+[research_rodzewicz_2009]: https://doi.org/10.1108/00022660910983743
+[research_rodzewicz_2010]: https://doi.org/10.2478/v10164-010-0029-3
+[research_roeper_sommacal_2023]: https://doi.org/10.1016/j.compstruct.2023.117338
+[research_rogers]: https://doi.org/10.14264/322380
+[research_rogers_1972]: https://doi.org/10.4271/720344
+[research_rogers_1974]: https://doi.org/10.21236/ad0785597
+[research_rogers_leesullivan_2003]: https://doi.org/10.1002/pen.10001
+[research_rogers_marand_1999]: https://doi.org/10.1088/0954-0083/11/1/003
+[research_rohr_klein_1990]: https://doi.org/10.1021/ie00103a020
+[research_romberg_hershey_2022]: https://doi.org/10.1007/s00170-022-10380-3
+[research_romberg_kotula_2023]: https://doi.org/10.1016/j.addma.2023.103589
+[research_romilly_clark_2005]: https://doi.org/10.4271/2005-01-3331
+[research_romilly_clark_2008]: https://doi.org/10.1016/j.compstruct.2007.02.007
+[research_rorsted_1999]: https://doi.org/10.1007/978-0-387-35569-6_45
+[research_rose_1991]: https://doi.org/10.1007/978-1-4757-9006-1_15
+[research_rose_1992]: https://doi.org/10.1016/0963-8695(92)90528-o
+[research_rose_1997]: https://doi.org/10.1016/b978-0-08-042820-8.50018-2
+[research_rose_wilkins_2026]: https://doi.org/10.3390/app16031473
+[research_rosenfeld_1971]: https://doi.org/10.1520/stp486-eb
+[research_rosenthal_1982]: https://doi.org/10.4271/821341
+[research_rosty_russell_1982]: https://doi.org/10.21236/adb064672
+[research_rosu_cascaval_2002]: https://doi.org/10.1016/s0040-6031(01)00672-4
+[research_rosu_mititelu_2004]: https://doi.org/10.1016/s0142-9418(03)00082-5
+[research_roth_bodis_1997]: https://doi.org/10.1080/09349849708968126
+[research_rotheiser_2009]: https://doi.org/10.3139/9781569904961.003
+[research_roudolff_gadke_2000]: https://doi.org/10.1016/s1270-9638(00)00113-9
+[research_rouse_ambur_1996]: https://doi.org/10.2514/3.46985
+[research_rouse_ambur_2006]: https://doi.org/10.2514/1.22397
+[research_rousseau_friedmann_2001]: https://doi.org/10.4050/vfs-f57-00033
+[research_roy_gacougnolle_1993]: https://doi.org/10.1177/096369359300200402
+[research_roy_mabru_1997]: https://doi.org/10.1023/a:1008859215034
+[research_roy_palacio_2000]: https://doi.org/10.1007/978-1-4471-0777-4_28
+[research_royall_williams_2018]: https://doi.org/10.1063/1.5000263
+[research_roychowdhury_gillespie_1992]: https://doi.org/10.1007/978-94-011-2874-2_7
+[research_roychowdhury_gillespie_2001]: https://doi.org/10.1177/002199801772662208
+[research_rozylo_2021]: https://doi.org/10.1016/j.compstruct.2021.113598
+[research_rubber_compounding]: https://doi.org/10.3403/30167034
+[research_rubber_raw]: https://doi.org/10.3403/30343610
+[research_rubber_vulcanized]: https://doi.org/10.3403/30397423u
+[research_rudawska_2019]: https://doi.org/10.1016/b978-0-12-817010-6.00009-6
+[research_rudawska_debski_2015]: https://doi.org/10.5604/12314005.1137450
+[research_rudd_2001]: https://doi.org/10.31399/asm.hb.v21.a0003413
+[research_rudd_long_1995]: https://doi.org/10.1016/0956-7143(95)95014-p
+[research_rudd_long_1997]: https://doi.org/10.1533/9781845695446.1
+[research_rudd_long_1997_b]: https://doi.org/10.1533/9781845695446
+[research_rudd_owen_1990]: https://doi.org/10.1179/mst.1990.6.7.656
+[research_rudd_turner_1999]: https://doi.org/10.1016/s1359-835x(99)00010-x
+[research_rufai_chandarana_2020]: https://doi.org/10.1016/j.compstruct.2020.112861
+[research_ruiz_trochu_2005]: https://doi.org/10.1016/j.compositesa.2004.10.021
+[research_russell_2018]: https://doi.org/10.1016/b978-0-12-803581-8.09925-2
+[research_russell_bowers_1991]: https://doi.org/10.1007/978-94-011-3662-4_11
+[research_russell_madhukar_2000]: https://doi.org/10.1106/uy9u-f2qw-2fkk-91kg
+[research_russian_khan_2021]: https://doi.org/10.1016/j.compstruct.2020.113048
+[research_russo_guida_2019]: https://doi.org/10.1007/s11665-019-04027-w
+[research_russo_langella_2021]: https://doi.org/10.1109/metroaerospace51421.2021.9511708
+[research_rust_todt]: https://doi.org/10.1520/stp10024s
+[research_rutt_lekakou_2019]: https://doi.org/10.1080/02670836.2018.1557916
+[research_ruzek_behal_2009]: https://doi.org/10.1016/j.ijfatigue.2008.05.028
+[research_ruzzene_2003]: https://doi.org/10.1115/imece2003-41552
+[research_ryan_ridgard_2023]: https://doi.org/10.33599/nasampe/s.23.0214
+[research_rydarowski_koziol_2014]: https://doi.org/10.1177/0021998314521259
+[research_s_k_2011]: https://doi.org/10.18000/ijodam.70098
+[research_saad_abdelhamid_2011]: https://doi.org/10.1016/j.tca.2011.07.014
+[research_saad_echchelh_2011]: https://doi.org/10.2298/tsci100928016s
+[research_saad_ezz_2015]: https://doi.org/10.1016/j.tca.2014.11.013
+[research_saadat_cretin_2002]: https://doi.org/10.1108/01445150210436482
+[research_saadat_thomas]: https://doi.org/10.1109/issm.1994.729423
+[research_sabat_palazotto_2013]: https://doi.org/10.1016/j.compstruct.2012.09.057
+[research_sabelkin_mall_2006]: https://doi.org/10.1016/j.engfracmech.2006.01.029
+[research_sabzevari_alavisoltani_2011]: https://doi.org/10.1007/s10973-011-1587-5
+[research_sacco_bazradwan_2020]: https://doi.org/10.1016/j.compstruct.2020.112514
+[research_sachse_pickett_2020]: https://doi.org/10.1016/j.compositesb.2020.108070
+[research_sachse_pickett_2021]: https://doi.org/10.1016/j.compstruct.2021.114301
+[research_sachyani_dickstein_2020]: https://doi.org/10.1201/9781003078784-17
+[research_sadeghi_zimmermann_2019]: https://doi.org/10.1080/00218464.2019.1656614
+[research_sadighi_azimi_2021]: https://doi.org/10.1080/13588265.2021.2017654
+[research_sadiq_bakhy_2020]: https://doi.org/10.1088/1757-899x/881/1/012046
+[research_sadowski_1988]: https://doi.org/10.21236/ada209321
+[research_saenzcastillo_martin_2020]: https://doi.org/10.1177/0731684420924081
+[research_safari_farahani_2020]: https://doi.org/10.1080/15397734.2020.1777876
+[research_safarpour_omrani_2011]: https://doi.org/10.1002/pat.1571
+[research_saffar_beauchene_2022]: https://doi.org/10.3389/fmats.2022.1035427
+[research_saffar_sonnenfeld_2020]: https://doi.org/10.3389/fmats.2020.00195
+[research_sagnard]: https://doi.org/10.70675/918fed9aze595z4152z8118ze3d9ba77d1fe
+[research_saha_scheneman_2026]: https://doi.org/10.2514/6.2026-1674
+[research_sahoo_2021]: https://doi.org/10.1177/14644207211005802
+[research_sahoo_dattaguru_2013]: https://doi.org/10.1002/9781118753682.ch8
+[research_sahoo_gujar_2017]: https://doi.org/10.1007/978-981-10-7197-3_7
+[research_sahoo_swain_2025]: https://doi.org/10.1177/10996362251317109
+[research_sahraei_boodaghei_2023]: https://doi.org/10.21203/rs.3.rs-3438545/v1
+[research_sahu_singh_2018]: https://doi.org/10.1007/s11029-018-9742-8
+[research_said_2026]: https://doi.org/10.21203/rs.3.rs-9478810/v1
+[research_saikrishna_srinivas_2014]: https://doi.org/10.4028/www.scientific.net/amm.592-594.153
+[research_saillard]: https://doi.org/10.14264/8d10c22
+[research_sakaguchi_1975]: https://doi.org/10.1080/10601327508056947
+[research_sakinc_esmith_2023]: https://doi.org/10.58567/jea02030007
+[research_sakka_mackenzie_1971]: https://doi.org/10.1016/0022-3093(71)90053-6
+[research_sakuno_1993]: https://doi.org/10.5990/jwpa.19.50
+[research_sakurayama_minakuchi_2015]: https://doi.org/10.1016/j.compstruct.2015.06.074
+[research_salacinski_leski_2016]: https://doi.org/10.1515/fas-2016-0009
+[research_salacinski_puchala_2026]: https://doi.org/10.5604/01.3001.0055.8130
+[research_salamon_1981]: https://doi.org/10.1520/stp29309s
+[research_saldana_martinezmonteagudo_2013]: https://doi.org/10.5772/54486
+[research_salem_elgaraihy_2012]: https://doi.org/10.1002/9781118356074.ch71
+[research_saliba_attard_2018]: https://doi.org/10.1109/icmae.2018.8467636
+[research_salla_cadenato_1999]: https://doi.org/10.1023/a:1010158223347
+[research_salmoria_klauss_2008]: https://doi.org/10.1016/j.polymertesting.2008.05.008
+[research_saltoglu_humaira_2016]: https://doi.org/10.1155/2016/2576825
+[research_samann_2019]: https://doi.org/10.1109/icoase.2019.8723757
+[research_samantaray_misra_2023]: https://doi.org/10.1080/02286203.2023.2188515
+[research_samaratunga_severino_2021]: https://doi.org/10.32548/2021.me-04198
+[research_samikkannu_2011]: https://doi.org/10.5772/21628
+[research_sancaktar_kumar_1999]: https://doi.org/10.1115/imece1999-1191
+[research_sanchezserrano_urena_2015]: https://doi.org/10.1080/09276440.2015.1056671
+[research_sandberg_hattel_2019]: https://doi.org/10.1016/j.ijmultiphaseflow.2019.06.014
+[research_sandberg_yuksel_2021]: https://doi.org/10.1016/j.compositesb.2021.108812
+[research_sandler_2026]: https://doi.org/10.26434/chemrxiv.15008366/v1
+[research_sands_vaidya_2008]: https://doi.org/10.21236/ada478278
+[research_sanford_mccullough_1990]: https://doi.org/10.1002/polb.1990.090280701
+[research_sangbong_2007]: https://doi.org/10.1109/isam.2007.4288459
+[research_sanjana_schaefer_1981]: https://doi.org/10.1002/pen.760210807
+[research_santaremichaelh_pipesrbyron_1992]: https://ntrs.nasa.gov/citations/19920024369
+[research_santoro_bellisario_2020]: https://doi.org/10.1007/s00170-020-05671-6
+[research_santosa_1992]: https://doi.org/10.21236/ada261370
+[research_sarfaraz_2015]: https://doi.org/10.1016/b978-0-85709-806-1.00003-3
+[research_sarjeant_speer]: https://doi.org/10.1109/ceidp.1998.732954
+[research_sarka_2017]: https://doi.org/10.4028/www.scientific.net/ssp.261.495
+[research_sarker_coates_1997]: https://doi.org/10.1016/s0925-5273(97)00010-8
+[research_sarojininarayana_khoun_2024]: https://doi.org/10.1080/20550340.2024.2378586
+[research_sarthakmahapatra_belnoue_2021]: https://doi.org/10.12783/asc36/35757
+[research_satheeshkumar_ganeshnarayanan_2016]: https://doi.org/10.1520/jte20140239
+[research_satheeshkumar_narayanan_2014]: https://doi.org/10.4028/www.scientific.net/amr.939.328
+[research_sato_2005]: https://doi.org/10.1533/9781845690755.2.164
+[research_savci_curiskis_2000]: https://doi.org/10.1016/s0266-3538(00)00078-6
+[research_sawal_hazizan_2011]: https://doi.org/10.4028/www.scientific.net/kem.471-472.461
+[research_sawant_prabhugaonkar_2025]: https://doi.org/10.1007/978-981-96-4718-7_27
+[research_sawaragi_nochino_1987]: https://doi.org/10.2208/jscej.1987.381_141
+[research_sawicki_2004]: https://doi.org/10.1520/stp12591s
+[research_sayyad_ghugal_2022]: https://doi.org/10.1016/j.compstruct.2022.115577
+[research_sbirrazzuoli_vyazovkin_2003]: https://doi.org/10.1002/macp.200350051
+[research_scala_doyle_1995]: https://doi.org/10.1007/bf00735534
+[research_scanlan_rao_2006]: https://doi.org/10.2514/1.17362
+[research_scarponi_pizzinelli_2009]: https://doi.org/10.1166/jbmb.2009.1040
+[research_schechter_centea_2018]: https://doi.org/10.1016/j.compositesa.2018.08.002
+[research_schechter_centea_2020]: https://doi.org/10.1016/j.compositesa.2019.105723
+[research_scheerer_simon_2025]: https://doi.org/10.12783/shm2025/37334
+[research_scheirer]: https://doi.org/10.31274/etd-20200902-137
+[research_schell_deleglise_2007]: https://doi.org/10.1016/j.compositesa.2007.08.005
+[research_schenke_ehlers_2016]: https://doi.org/10.1002/pamm.201610228
+[research_scherer_2008]: https://doi.org/10.1016/j.cemconres.2007.09.028
+[research_schilling_mittelstedt_2021]: https://doi.org/10.23967/complas.2021.012
+[research_schilling_mittelstedt_2022]: https://doi.org/10.1016/j.tws.2022.110027
+[research_schiraldi_baldini_1985]: https://doi.org/10.1007/bf01914305
+[research_schlimbach_ogale_2012]: https://doi.org/10.1533/9780857096258.3.435
+[research_schmachtenberg_schultezurheide_2005]: https://doi.org/10.1016/j.polymertesting.2004.11.002
+[research_schmidt_frazier_2000]: https://doi.org/10.1163/156855400300184253
+[research_schmidt_ragavan_2000]: https://doi.org/10.1061/(asce)0733-9399(2000)126:12(1308)
+[research_schmueser_johnson_1990]: https://doi.org/10.1080/00218469008030189
+[research_schoenholz_moomaw_2022]: https://doi.org/10.12783/asc37/36383
+[research_schoenhoz_zobeiry_2023]: https://doi.org/10.12783/asc38/36531
+[research_schoenwald_kendig]: https://doi.org/10.1109/ultsym.1989.67060
+[research_schoeppner_mollenhauer_2002]: https://doi.org/10.1142/9789812777973_0076
+[research_schoeppner_roy_1998]: https://doi.org/10.2514/6.1998-1885
+[research_scholle_sinapius_2018]: https://doi.org/10.20944/preprints201808.0417.v1
+[research_schonborn_haessner_1985]: https://doi.org/10.1016/0040-6031(85)87059-3
+[research_schubbe_mall_1999]: https://doi.org/10.1016/s0263-8223(99)00025-2
+[research_schubbe_mall_1999_b]: https://doi.org/10.1016/s0013-7944(99)00032-6
+[research_schubert_2009]: https://doi.org/10.1002/9783527627110.ch47
+[research_schultzmarcr_oremontleonard_2011]: https://ntrs.nasa.gov/citations/20110010005
+[research_schuster_govignon_2014]: https://doi.org/10.4236/ojcm.2014.41001
+[research_schuster_mayer_2020]: https://doi.org/10.1016/j.promfg.2020.10.071
+[research_sciomenta_paoletti_2024]: https://doi.org/10.1016/j.ijadhadh.2024.103652
+[research_scott_1966]: https://doi.org/10.1520/stp44643s
+[research_scratch_hardness_1989]: https://doi.org/10.1016/0010-4361(89)90273-5
+[research_sealing_compound]: https://doi.org/10.4271/amss83318b
+[research_sealing_compounds]: https://doi.org/10.4271/amss85420
+[research_sebaey_2022]: https://doi.org/10.1016/j.compstruct.2021.115105
+[research_sebaey_bouhrara_2021]: https://doi.org/10.3390/polym13030473
+[research_sebaey_gonzalez_2013]: https://doi.org/10.1016/j.compstruct.2012.07.005
+[research_sebaey_mahdi_2016]: https://doi.org/10.1016/j.ijimpeng.2015.11.007
+[research_sebastian_2001]: https://doi.org/10.21236/ada398766
+[research_sebastian_obertscheider_2019]: https://doi.org/10.4028/www.scientific.net/kem.809.480
+[research_sebastian_obertscheider_2021]: https://doi.org/10.1016/j.ijheatmasstransfer.2021.121856
+[research_sebera_praus_2026]: https://doi.org/10.2139/ssrn.6690587
+[research_secondary_bonding_2001]: https://doi.org/10.1017/cbo9780511816116.007
+[research_sedalor_fleming_2020]: https://doi.org/10.2514/6.2020-0970
+[research_sedkova_vlk_2022]: https://doi.org/10.1080/24705314.2021.1971894
+[research_seemann_2019]: https://doi.org/10.1007/978-3-662-60276-8_8
+[research_seemann_2019_b]: https://doi.org/10.1007/978-3-662-60276-8_7
+[research_seemann_2020]: https://doi.org/10.1007/978-3-662-60276-8
+[research_seferis_2006]: https://doi.org/10.21236/ada452054
+[research_seferis_2009]: https://doi.org/10.21236/ada639922
+[research_segal_1988]: https://doi.org/10.1016/0263-8223(88)90063-3
+[research_segal_dickstein_1990]: https://doi.org/10.1007/bf00566978
+[research_segreto_teti_2019]: https://doi.org/10.5772/intechopen.80573
+[research_sehdev_fan_1995]: https://doi.org/10.1108/09642369310081936
+[research_seidl_1998]: https://doi.org/10.1007/978-1-4615-6389-1_40
+[research_seifi_hojjati_2005]: https://doi.org/10.1177/0021998305048738
+[research_seifried_2001]: https://doi.org/10.1063/1.1373874
+[research_sellitto_dicaprio_2020]: https://doi.org/10.3390/ma13163594
+[research_sellitto_riccio_2019]: https://doi.org/10.1016/j.compstruct.2018.10.105
+[research_sells_zhang_2024]: https://doi.org/10.5220/0012469300003636
+[research_selvaraj_radhakrishnan_2008]: https://doi.org/10.1007/s00170-008-1580-8
+[research_selyugin_2021]: https://doi.org/10.31224/osf.io/v6djp
+[research_semipermeable_membrane]: https://doi.org/10.1080/20550340.2022.2143105
+[research_sen_saito_2020]: https://doi.org/10.1115/lemp2020-8541
+[research_seneviratne_saseendran_2019]: https://doi.org/10.12783/asc34/31330
+[research_seneviratne_tomblin_2015]: https://doi.org/10.1016/b978-0-85709-806-1.00010-0
+[research_seo_lim_2005]: https://doi.org/10.1016/j.compscitech.2004.12.013
+[research_seo_yoon_2004]: https://doi.org/10.4028/www.scientific.net/kem.270-273.64
+[research_seon_nikishkov_2020]: https://doi.org/10.1016/j.engfracmech.2019.106792
+[research_seong_kim_2017]: https://doi.org/10.1177/0021998317723693
+[research_sernek_kamke_2007]: https://doi.org/10.1016/j.ijadhadh.2006.10.004
+[research_serrano_olivier_2017]: https://doi.org/10.1063/1.5007996
+[research_sevkat_brahimi_2011]: https://doi.org/10.1016/j.proeng.2011.04.028
+[research_sfarzbed]: https://doi.org/10.70675/1bc9c3d5z4d60z42f9z8b61z87816072803d
+[research_shaban_2025]: https://doi.org/10.54361/ljmr.19.1.08
+[research_shabani_li_2026]: https://doi.org/10.2514/6.2026-0448
+[research_shafaq_donough_2024]: https://doi.org/10.1177/00219983241283598
+[research_shah_clifford_2015]: https://doi.org/10.1007/978-3-319-07944-8_4
+[research_shah_halls_2017]: https://doi.org/10.1177/0021998317714317
+[research_shah_kapania_2019]: https://doi.org/10.2514/6.2019-0206
+[research_shah_schubel_2015]: https://doi.org/10.1177/0731684415623652
+[research_shahverdi_vassilopoulos_2015]: https://doi.org/10.1016/b978-0-85709-806-1.00007-0
+[research_shahverdi_vassilopoulos_2015_b]: https://doi.org/10.1016/b978-0-85709-806-1.00012-4
+[research_shaik_ramakrishna_2021]: https://doi.org/10.13111/2066-8201.2021.13.2.13
+[research_shan_heng_2011]: https://doi.org/10.4028/www.scientific.net/amr.279.142
+[research_shang]: https://doi.org/10.31274/etd-180810-3357
+[research_shang_2013]: https://doi.org/10.2172/1342569
+[research_shang_2023]: https://doi.org/10.32604/fdmp.2023.026742
+[research_shanks_2011]: https://doi.org/10.1007/s10973-011-1684-5
+[research_shannon_liaw_1993]: https://doi.org/10.1007/978-1-4615-2848-7_181
+[research_shanthar_prosser_2026]: https://doi.org/10.1016/j.compositesa.2026.109839
+[research_shao_he_2012]: https://doi.org/10.4028/www.scientific.net/amm.184-185.1189
+[research_sharma_1981]: https://doi.org/10.1520/stp29303s
+[research_shaw_dayyani_2015]: https://doi.org/10.1016/j.compstruct.2014.09.001
+[research_sheahen_schmidt_2000]: https://doi.org/10.2514/6.2000-1430
+[research_sheinman_frostig_1988]: https://doi.org/10.1016/b978-0-444-70474-0.50023-9
+[research_sheinman_frostig_1992]: https://doi.org/10.1016/0045-7949(92)90539-c
+[research_shembekar_kabir_2020]: https://doi.org/10.33599/nasampe/s.20.0374
+[research_shen_guo_2019]: https://doi.org/10.1784/insi.2019.61.6.310
+[research_shen_he_2026]: https://doi.org/10.2139/ssrn.6908629
+[research_shen_kurfess_2013]: https://doi.org/10.1080/10589759.2013.823611
+[research_shen_rutherford_1970]: https://doi.org/10.21236/ad0880416
+[research_shen_skordos_2024]: https://doi.org/10.2139/ssrn.5006681
+[research_sheng_yin_2016]: https://doi.org/10.1039/c5ra25431k
+[research_shepard_2018]: https://doi.org/10.1016/b978-0-12-803581-8.10038-4
+[research_shepard_day_1988]: https://doi.org/10.4271/881184
+[research_shepard_smith_1998]: https://doi.org/10.1007/978-1-4615-4847-8_61
+[research_shepard_smith_1999]: https://doi.org/10.1108/02602289910279094
+[research_sheppard_leong_1998]: https://doi.org/10.1016/s0263-8223(98)00010-5
+[research_sheppard_senturia_1986]: https://doi.org/10.1109/ceidp.1986.7726486
+[research_sherifelgizawy_kuan_2003]: https://doi.org/10.1016/s1526-6125(03)70039-5
+[research_sherwin_1999]: https://doi.org/10.1016/s0143-7496(98)00030-x
+[research_shesh_sastryveluri_2023]: https://doi.org/10.61653/joast.v65i1.2013.432
+[research_sheu_young_2023]: https://doi.org/10.3390/jcs7100412
+[research_shevtsov_zhilyaev_2012]: https://doi.org/10.4028/www.scientific.net/amr.569.185
+[research_shevtsov_zhilyaev_2017]: https://doi.org/10.1063/1.4972736
+[research_shevtsov_zhilyaev_2021]: https://doi.org/10.1016/j.compstruct.2020.113437
+[research_shevtsov_zhilyaev_2021_b]: https://doi.org/10.1109/iceet53442.2021.9659662
+[research_shi_chen_2018]: https://doi.org/10.1177/1099636218789615
+[research_shi_li_2014]: https://doi.org/10.1016/j.compstruct.2014.08.022
+[research_shi_villegas_2016]: https://doi.org/10.1177/0892705716662514
+[research_shi_wang_2016]: https://doi.org/10.1515/9783110471748-008
+[research_shi_wang_2023]: https://doi.org/10.2139/ssrn.4498588
+[research_shi_wang_2024]: https://doi.org/10.1016/j.heliyon.2024.e25288
+[research_shi_wu_2021]: https://doi.org/10.1016/j.compstruct.2020.112903
+[research_shi_zhang_2013]: https://doi.org/10.4028/www.scientific.net/amr.746.128
+[research_shibata_2013]: https://doi.org/10.1002/9783527659647.ch9
+[research_shibayama_2000]: https://doi.org/10.1063/1.1291532
+[research_shibayama_ozeki_2005]: https://doi.org/10.1016/j.polymer.2005.01.018
+[research_shiino_cipo_2021]: https://doi.org/10.1177/00219983211037047
+[research_shilun_2014]: https://doi.org/10.2174/1874155x01408010721
+[research_shim_ahn_2013]: https://doi.org/10.1080/09243046.2013.862391
+[research_shim_lee_1991]: https://doi.org/10.1007/bf01032662
+[research_shim_seferis_1997]: https://doi.org/10.1002/(sici)1097-4628(19970705)65:1<5::aid-app2>3.0.co;2-o
+[research_shimada_miyajima_2001]: https://doi.org/10.7567/ssdm.2001.p-1-9
+[research_shimamoto_tominaga_2016]: https://doi.org/10.1080/09243046.2016.1178998
+[research_shimokawa_kakuta_2007]: https://doi.org/10.1177/0021998307075438
+[research_shimpi_sawarkar_2026]: https://doi.org/10.1007/s44465-026-00024-1
+[research_shin_hwang_2015]: https://doi.org/10.7234/composres.2015.28.3.099
+[research_shin_kim_1997]: https://doi.org/10.1016/s0263-8223(97)00057-3
+[research_shin_kim_2023]: https://doi.org/10.2139/ssrn.4468368
+[research_shinde_kumar_2015]: https://doi.org/10.1080/15685543.2015.1012426
+[research_shine_2014]: https://doi.org/10.2172/1165024
+[research_shiue_1991]: https://doi.org/10.1016/0925-5273(91)90074-4
+[research_shivajee_singh_2019]: https://doi.org/10.1016/j.jclepro.2019.117678
+[research_shnawa_2022]: https://doi.org/10.1007/s00289-021-04012-1
+[research_shojaei_2006]: https://doi.org/10.3139/217.0129
+[research_shojaei_2006_b]: https://doi.org/10.1016/j.compositesa.2005.06.021
+[research_shojiro_tanaka_1997]: https://doi.org/10.1163/156855498x00252
+[research_shokrieh_taheribehrooz_2001]: https://doi.org/10.1016/s0263-8223(01)00107-6
+[research_shokrollahi_toghraie_2020]: https://doi.org/10.1007/s12221-020-9085-7
+[research_shoukroun_olivo_2021]: https://doi.org/10.1115/qnde2021-75009
+[research_shrestha_enos_2022]: https://doi.org/10.12783/asc37/36399
+[research_shroff_kassapoglou_2014]: https://doi.org/10.2514/1.c032544
+[research_shrotriya_sottos_2001]: https://doi.org/10.1106/68xm-y59m-txqa-2rv2
+[research_shtrauss_2002]: https://doi.org/10.1023/a:1014993812922
+[research_shtrauss_kalpinsh_1996]: https://doi.org/10.1007/bf02254695
+[research_shu_2004]: https://doi.org/10.1243/095440504322984894
+[research_shuart_1981]: https://doi.org/10.1520/stp29308s
+[research_shukla_salazar_2020]: https://doi.org/10.1007/978-3-030-31065-3_1
+[research_shuklajg_bayhatd_1993]: https://ntrs.nasa.gov/citations/19950022614
+[research_shuler_heil_2013]: https://doi.org/10.21236/ada591614
+[research_shuvo_2019]: https://doi.org/10.31031/rdms.2019.12.000780
+[research_shyprykevich]: https://doi.org/10.1520/stp10023s
+[research_shyprykevichp_1983]: https://ntrs.nasa.gov/citations/19830016605
+[research_shyr_pan_2004]: https://doi.org/10.1016/j.compstruct.2003.08.006
+[research_sicot_gong_2005]: https://doi.org/10.1163/156855105774470393
+[research_siddiqui_sudher_2013]: https://doi.org/10.1016/j.tca.2012.12.009
+[research_sierakowski_2000]: https://doi.org/10.1201/9781439822814.ch4
+[research_siggins_2013]: https://doi.org/10.3997/2214-4609.20131861
+[research_sihn_miyano_2003]: https://doi.org/10.1177/0021998303037001993
+[research_sikarwar_velmurugan_2017]: https://doi.org/10.1080/13588265.2017.1340819
+[research_sikdar_banerjee_2016]: https://doi.org/10.1016/j.ultras.2016.05.025
+[research_sikdar_banerjee_2016_b]: https://doi.org/10.1016/j.compstruct.2016.05.064
+[research_sikdar_banerjee_2016_c]: https://doi.org/10.1177/1045389x15610906
+[research_sikdar_kudela_2018]: https://doi.org/10.1117/12.2295928
+[research_silva_carneironeto_2019]: https://doi.org/10.26678/abcm.cobem2019.cob2019-0276
+[research_sim_tan_2012]: https://doi.org/10.4028/www.scientific.net/ssp.185.106
+[research_simacek_advani_2008]: https://doi.org/10.1177/0021998308096320
+[research_simitses_1995]: https://doi.org/10.1007/978-94-011-1228-4_9
+[research_simonovyemelyanov_ezdakov_2024]: https://doi.org/10.35164/0554-2901-2024-02-3-7
+[research_simulating_liquid_2002]: https://doi.org/10.1016/s0034-3617(02)80021-2
+[research_singer_1956]: https://doi.org/10.1016/0083-6656(56)90015-0
+[research_singh_schonberg_2005]: https://doi.org/10.2514/1.1795
+[research_singhal_sahu_2018]: https://doi.org/10.1016/j.compstruct.2017.10.031
+[research_singhgill_visotsky_2016]: https://doi.org/10.1115/1.4034713
+[research_sinkler_ravangard_2025]: https://doi.org/10.33599/nasampe/s.25.0171
+[research_sircar_chartoff_1994]: https://doi.org/10.1520/stp15377s
+[research_sirinkaraarslan_ozsevik_2015]: https://doi.org/10.1080/01694243.2015.1111187
+[research_sirtautas_pickett_2014]: https://doi.org/10.1007/s10443-014-9411-6
+[research_sittiwaitayaporn]: https://doi.org/10.58837/chula.the.2020.196
+[research_sjolund_peeters_2019]: https://doi.org/10.1016/j.compstruct.2019.03.003
+[research_skelly_1989]: https://doi.org/10.2514/6.1989-378
+[research_skinner_chattopadhyay_2021]: https://doi.org/10.1016/j.compstruct.2021.114006
+[research_skordos_karkanas_1999]: https://doi.org/10.1088/0957-0233/11/1/304
+[research_skordos_partridge_2000]: https://doi.org/10.1179/146580100101541201
+[research_skordos_partridge_2007]: https://doi.org/10.1002/pc.20277
+[research_skorupa_skorupa_2012]: https://doi.org/10.1007/978-94-007-4282-6_1
+[research_skorupa_skorupa_2012_b]: https://doi.org/10.1007/978-94-007-4282-6_10
+[research_slark_okane_1997]: https://doi.org/10.1016/s0014-3057(96)00257-1
+[research_slattery_coronabittick_1998]: https://doi.org/10.1117/12.302543
+[research_smiley_chao_1991]: https://doi.org/10.1016/0956-7143(91)90144-6
+[research_smillie_1983]: https://doi.org/10.1108/eb035868
+[research_smith_1968]: https://doi.org/10.21236/ad0684315
+[research_smith_2000]: https://doi.org/10.2172/760271
+[research_smith_2002]: https://doi.org/10.1016/b978-008042699-0/50028-0
+[research_smith_2004]: https://doi.org/10.21236/ada443149
+[research_smith_cliff_1987]: https://doi.org/10.2514/6.1987-2930
+[research_smith_pik_2024]: https://doi.org/10.33599/nasampe/s.24.0163
+[research_smith_poursartip_1993]: https://doi.org/10.1177/002199839302701704
+[research_smith_qureshi_2016]: https://doi.org/10.1177/0731684416659544
+[research_smith_yang_1992]: https://doi.org/10.1016/0963-8695(92)90548-u
+[research_smithpeterj_wilsonrobertd_1985]: https://ntrs.nasa.gov/citations/19890005816
+[research_smithpj_thomsonlw_1986]: https://ntrs.nasa.gov/citations/19900000870
+[research_smotrova_2021]: https://doi.org/10.52190/2073-2562_2021_2_14
+[research_smunt_1999]: https://doi.org/10.1080/002075499189826
+[research_smunt_2000]: https://doi.org/10.1007/1-4020-0612-8_504
+[research_smunt_2011]: https://doi.org/10.1201/b10957-8
+[research_snow_armistead_1994]: https://doi.org/10.1002/app.1994.070520305
+[research_so]: https://doi.org/10.5353/th_b3121096
+[research_so_taube_2004]: https://doi.org/10.1002/pen.20137
+[research_soahib_miao_2007]: https://doi.org/10.1515/polyeng.2007.27.8.565
+[research_soares_henriques_2018]: https://doi.org/10.1080/00207543.2018.1508903
+[research_sobel_sharp_1994]: https://doi.org/10.2514/6.1994-1365
+[research_soderquist_1981]: https://doi.org/10.4271/811061
+[research_soderquist_1987]: https://doi.org/10.4271/871846
+[research_sofiyev_2016]: https://doi.org/10.1016/j.compositesb.2015.08.058
+[research_software_to_2009]: https://doi.org/10.1108/aeat.2009.12781eab.002
+[research_sohouli_yildiz_2017]: https://doi.org/10.1016/j.compstruct.2017.06.030
+[research_solid_composite]: https://doi.org/10.4271/arp5605
+[research_solodov_pfleiderer_2008]: https://doi.org/10.1080/09349840801954223
+[research_solodov_segur_2018]: https://doi.org/10.1080/09349847.2018.1478050
+[research_soltani_le_2014]: https://doi.org/10.1115/imece2014-39771
+[research_solvay_and_2023]: https://doi.org/10.12968/s0306-3747(23)70054-7
+[research_somalwar]: https://doi.org/10.14264/uql.2017.204
+[research_somers_weller_1991]: https://doi.org/10.1016/0263-8223(91)90024-s
+[research_somers_weller_1992]: https://doi.org/10.1016/0263-8223(92)90050-m
+[research_somireddy_czekanski_2020]: https://doi.org/10.1016/j.matdes.2020.108953
+[research_son_1991]: https://doi.org/10.1080/00207549108930081
+[research_song_2006]: https://doi.org/10.1007/s10443-006-9020-0
+[research_song_lim_2001]: https://doi.org/10.1007/bf03027088
+[research_soohyun_dongyoung_2015]: https://doi.org/10.1016/j.compstruct.2014.09.037
+[research_soovere_1983]: https://doi.org/10.2514/6.1983-955
+[research_soovere_1985]: https://doi.org/10.2514/3.45117
+[research_sorensen_lund_2015]: https://doi.org/10.1007/s00158-015-1230-3
+[research_sorensen_sorensen_2014]: https://doi.org/10.1007/s00158-014-1047-5
+[research_sorrentino_bellini_2015]: https://doi.org/10.1080/03602559.2015.1050513
+[research_sorrentino_polini_2013]: https://doi.org/10.1080/09243046.2013.847780
+[research_sorrentino_romano_2019]: https://doi.org/10.12783/shm2019/32180
+[research_sorrentino_romano_2021]: https://doi.org/10.1108/aeat-10-2020-0222
+[research_sorrentino_tersigni_2010]: https://doi.org/10.1007/s10443-010-9179-2
+[research_sourour_kamal_1976]: https://doi.org/10.1016/0040-6031(76)80056-1
+[research_southward_mallinson_2008]: https://doi.org/10.1177/1099636207081346
+[research_sp_165_repair_1996]: https://doi.org/10.14359/14205
+[research_space_environment]: https://doi.org/10.3403/30237419
+[research_spagnoli_chryssanthopoulos_1999]: https://doi.org/10.1016/s0141-0296(98)00036-4
+[research_special_design_1996]: https://doi.org/10.14359/1526
+[research_specification_for]: https://doi.org/10.1520/d3299-10
+[research_specification_for_2008]: https://doi.org/10.1520/d3299-07
+[research_specification_for_b]: https://doi.org/10.1520/d4097-01r10
+[research_specification_for_c]: https://doi.org/10.1520/e0866-19
+[research_spencer_hassen_2021]: https://doi.org/10.1016/j.compstruct.2021.114545
+[research_spies_1953]: https://doi.org/10.1108/eb032268
+[research_spini_marzorati_2025]: https://doi.org/10.1016/j.tca.2025.180133
+[research_spray_metal_1982]: https://doi.org/10.1016/0010-4361(82)90100-8
+[research_spring_in_simulation_2020]: https://doi.org/10.1016/b978-0-12-819957-2.00014-6
+[research_springer_1982]: https://doi.org/10.1177/002199838201600505
+[research_spurgeon_2005]: https://doi.org/10.21236/ada436340
+[research_sreejith_kannan_2021]: https://doi.org/10.1016/j.ijengsci.2020.103412
+[research_sreejith_kannan_2023]: https://doi.org/10.1016/j.ijengsci.2022.103789
+[research_sreekantamurthythammaiah_hudsontylerb_2016]: https://ntrs.nasa.gov/citations/20160012030
+[research_sreenivasa_joshi_2013]: https://doi.org/10.1007/978-3-642-35335-2_9
+[research_sreeshan_dinesh_2020]: https://doi.org/10.1007/s42452-020-03619-9
+[research_sridharan_zeggane_1992]: https://doi.org/10.2514/3.11635
+[research_staal_caglar_2022]: https://doi.org/10.12783/asc37/36384
+[research_stahl_arena_1984]: https://doi.org/10.21236/ada151575
+[research_stamatelos_labeas_2025]: https://doi.org/10.3390/aerospace12080726
+[research_stamopoulos_tserpes_2015]: https://doi.org/10.1177/0021998315602049
+[research_standard_atmosphere]: https://doi.org/10.1007/springerreference_29038
+[research_standard_atmosphere_1927]: https://doi.org/10.6028/nbs.mp.78
+[research_standard_atmosphere_1927_b]: https://doi.org/10.6028/nbs.mp.82
+[research_standard_atmosphere_2005]: https://doi.org/10.1017/cbo9780511807138.014
+[research_standard_atmosphere_2007]: https://doi.org/10.1007/978-0-387-30160-0_10930
+[research_standard_atmosphere_2013]: https://doi.org/10.1016/b978-0-12-384866-6.00029-5
+[research_standard_atmosphere_2014]: https://doi.org/10.1351/goldbook.s05906
+[research_standard_atmosphere_2021]: https://doi.org/10.5040/9781501365072.15547
+[research_standard_atmosphere_2021_b]: https://doi.org/10.5040/9781501365072.15548
+[research_standard_atmosphere_2023]: https://doi.org/10.1017/9781009043076.015
+[research_standard_atmosphere_2024]: https://doi.org/10.2514/5.9781624107290.1007.1012
+[research_standard_practice]: https://doi.org/10.1520/e3433-24
+[research_standard_test]: https://doi.org/10.1520/d8132_d8132m
+[research_staniszewski_bogetti_2012]: https://doi.org/10.21236/ada569337
+[research_stark_jaunich_2013]: https://doi.org/10.1016/j.polymertesting.2013.09.014
+[research_stark_jaunich_2013_b]: https://doi.org/10.1016/j.polymertesting.2013.07.007
+[research_starr_starr_1998]: https://doi.org/10.1533/9781855736993.2.301
+[research_starr_starr_1998_b]: https://doi.org/10.1533/9781855736993.2.263
+[research_steen_1989]: https://doi.org/10.1016/0020-7683(89)90011-5
+[research_stein_1988]: https://doi.org/10.2514/6.1988-2215
+[research_steiner_sandor_1991]: https://doi.org/10.1088/0954-0083/3/3/001
+[research_steiner_sandor_1992]: https://doi.org/10.1088/0954-0083/4/3/006
+[research_steinmetz_2025]: https://doi.org/10.1007/978-3-031-72422-0_4
+[research_steinmetz_2025_b]: https://doi.org/10.1007/978-3-031-72422-0
+[research_steinmetz_2025_c]: https://doi.org/10.1007/978-3-031-72422-0_5
+[research_steinmetz_2025_d]: https://doi.org/10.1007/978-3-031-72422-0_2
+[research_steinmetz_2025_e]: https://doi.org/10.1007/978-3-031-72422-0_3
+[research_steinmetz_2025_f]: https://doi.org/10.1007/978-3-031-72422-0_6
+[research_steinzig_broetto_2014]: https://doi.org/10.2172/1159052
+[research_stenberg_1988]: https://doi.org/10.1016/0263-8223(88)90061-x
+[research_stevens_ricci_1995]: https://doi.org/10.1016/0010-4361(95)91382-f
+[research_stiftinger_skrnajakl_1995]: https://doi.org/10.1016/0263-8231(95)00021-5
+[research_stinson_2006]: https://doi.org/10.4271/2006-01-3151
+[research_stjohn_george_1992]: https://doi.org/10.1016/0032-3861(92)90438-3
+[research_stocchi_colabella_2014]: https://doi.org/10.1016/j.matdes.2013.09.054
+[research_stone_1978]: https://doi.org/10.4271/781021
+[research_strasser_moukhina_2024]: https://doi.org/10.1002/mats.202400039
+[research_stratton_1998]: https://doi.org/10.1007/978-94-011-4437-7_14
+[research_strength_analysis_2021]: https://doi.org/10.37896/jxu14.7/241
+[research_strength_calculation_2008]: https://doi.org/10.1002/9783527626458.ch10
+[research_strength_of_adhesive_bonded_2002]: https://doi.org/10.3923/jas.2002.757.762
+[research_stresses_in_1975]: https://doi.org/10.1016/0010-4361(75)90029-4
+[research_strizhius_2014]: https://doi.org/10.1007/s11029-014-9445-8
+[research_strizhius_2016]: https://doi.org/10.1007/s11029-016-9597-9
+[research_strizhius_2020]: https://doi.org/10.26467/2079-0619-2020-23-2-87-100
+[research_stroe_crunteanu_2025]: https://doi.org/10.13111/2066-8201.2025.17.4.19
+[research_strong_2026]: https://doi.org/10.31399/asm.hb.v21.a0007093
+[research_structural_adhesives]: https://doi.org/10.3403/02882980
+[research_struzziero_nardi_2020]: https://doi.org/10.1177/0021998320908631
+[research_study_of_1968]: https://doi.org/10.1016/0042-207x(68)90518-6
+[research_sturm_klett_2014]: https://doi.org/10.1016/j.compstruct.2014.02.001
+[research_sturtevant_1980]: https://doi.org/10.1007/978-94-009-9035-7_27
+[research_stutz_mertes_1989]: https://doi.org/10.1002/app.1989.070380501
+[research_stutz_mertes_1993]: https://doi.org/10.1002/pola.1993.080310810
+[research_stutzmann_1987]: https://doi.org/10.1080/13642818708211224
+[research_su_gao_2014]: https://doi.org/10.1016/j.compstruct.2013.07.018
+[research_su_kuo_1995]: https://doi.org/10.1002/polb.1995.090331608
+[research_su_mai_1999]: https://doi.org/10.1016/s0263-8223(00)00039-8
+[research_su_woo_1995]: https://doi.org/10.1016/0032-3861(95)94337-s
+[research_su_yang_2014]: https://doi.org/10.4028/www.scientific.net/amr.1024.151
+[research_suarez_townsend_2016]: https://doi.org/10.1016/j.proeng.2016.11.695
+[research_suarezj_dastins_1992]: https://ntrs.nasa.gov/citations/19940028630
+[research_subawi_2011]: https://doi.org/10.4236/msa.2011.25061
+[research_sue_whitcomb_2008]: https://doi.org/10.1177/1099636208090579
+[research_suemasu_aoki_2021]: https://doi.org/10.1016/j.compstruct.2021.113677
+[research_suemasu_aoki_2023]: https://doi.org/10.1016/j.compstruct.2022.116607
+[research_sugiman_crocombe_2012]: https://doi.org/10.1016/j.compstruct.2012.03.013
+[research_suh_han_2003]: https://doi.org/10.1016/s0263-8223(03)00116-8
+[research_suh_lee_2004]: https://doi.org/10.1016/j.compstruct.2004.04.065
+[research_sukia_esnaola_2022]: https://doi.org/10.23967/r.matcomp.2022.07.047
+[research_sulaiman_heil_2013]: https://doi.org/10.21236/ada590117
+[research_sulaiman_ortiz_2012]: https://doi.org/10.21236/ada567023
+[research_sullivan]: https://doi.org/10.18260/p.25430
+[research_sullivan_davis_1979]: https://doi.org/10.1520/stp36039s
+[research_summers]: https://doi.org/10.33915/etd.10643
+[research_summerscales_1993]: https://doi.org/10.1016/0956-7143(93)90013-x
+[research_summerscales_searle_2005]: https://doi.org/10.1243/146442005x10238
+[research_sun]: https://doi.org/10.31390/gradschool_dissertations.952
+[research_sun_2003]: https://doi.org/10.1063/1.1570244
+[research_sun_2026]: https://doi.org/10.1088/1742-6596/3207/1/012034
+[research_sun_cheng_2025]: https://doi.org/10.1016/j.tws.2025.113906
+[research_sun_han_2017]: https://doi.org/10.1177/096369351702600404
+[research_sun_han_2021]: https://doi.org/10.1016/j.compstruct.2020.113215
+[research_sun_huang_2016]: https://doi.org/10.1016/j.compstruct.2015.12.001
+[research_sun_li_2013]: https://doi.org/10.1177/0021998313476320
+[research_sun_liu_2014]: https://doi.org/10.1002/app.40711
+[research_sun_mao_1993]: https://doi.org/10.1016/0263-8223(93)90074-z
+[research_sun_pugno_2015]: https://doi.org/10.1007/s10704-015-0036-z
+[research_sun_zhang_2020]: https://doi.org/10.1115/isfa2020-9651
+[research_sun_zhao_2024]: https://doi.org/10.2139/ssrn.4881766
+[research_sun_zhao_2025]: https://doi.org/10.1016/j.csite.2024.105552
+[research_surface_preparation]: https://doi.org/10.4271/arp1524a
+[research_surface_preparation_1972]: https://doi.org/10.1016/0010-4361(72)90034-1
+[research_surface_preparation_2001]: https://doi.org/10.1016/s0026-0576(01)81268-x
+[research_surface_preparation_2013]: https://doi.org/10.1016/c2012-0-02158-8
+[research_surface_preparation_b]: https://doi.org/10.4271/arp1843a
+[research_surjoseputro_blumel_2018]: https://doi.org/10.1007/s41777-018-0018-8
+[research_surjoseputro_blumel_2018_b]: https://doi.org/10.1007/s35725-018-0023-1
+[research_susott_1982]: https://doi.org/10.1093/forestscience/28.4.839
+[research_sussmann_amirkhosravi_2018]: https://doi.org/10.3390/polym10090992
+[research_sutherland_amado_2017]: https://doi.org/10.1016/j.compstruct.2016.09.076
+[research_sutin_2000]: https://doi.org/10.21236/ada377667
+[research_sutter_comparison]: https://ntrs.nasa.gov/citations/20110016095
+[research_suwanpakpraek_patamaprohm_2019]: https://doi.org/10.1088/1757-899x/501/1/012023
+[research_suzuki_matsuzaki_2013]: https://doi.org/10.1016/j.ijadhadh.2013.01.008
+[research_swamy_grouve_2023]: https://doi.org/10.1177/08927057231177571
+[research_swamy_grouve_2024]: https://doi.org/10.1177/08927057241259745
+[research_swamy_manjunath_2021]: https://doi.org/10.1201/9781003128861-7
+[research_swamy_wijskamp_2023]: https://doi.org/10.33599/nasampe/s.23.0320
+[research_swan_creighton_2021]: https://doi.org/10.1021/acsapm.1c00983
+[research_swanson_toombes_1989]: https://doi.org/10.1115/1.3226447
+[research_swarin_wims_1977]: https://doi.org/10.1007/978-1-4615-6443-0_13
+[research_sweeney]: https://doi.org/10.15368/theses.2017.17
+[research_swiderski_vavilov_2015]: https://doi.org/10.1515/oere-2015-0009
+[research_swingle_harik_2022]: https://doi.org/10.33599/nasampe/s.22.0689
+[research_syensqo_expands_2024]: https://doi.org/10.12968/s0306-3747(24)70753-2
+[research_szepe_1966]: https://doi.org/10.1007/bf02327312
+[research_szeptynski_2025]: https://doi.org/10.1016/j.istruc.2025.109550
+[research_tadlaoui_granger_1994]: https://doi.org/10.1016/0014-3057(94)90029-9
+[research_tafreshi_2006]: https://doi.org/10.1016/j.compstruct.2005.01.009
+[research_tagle_daz_1984]: https://doi.org/10.1007/bf01045331
+[research_taha_alnahhal_2020]: https://doi.org/10.1016/j.compstruct.2020.112277
+[research_taha_alnahhal_2021]: https://doi.org/10.1016/j.compstruct.2021.114034
+[research_taheri_hassen_2019]: https://doi.org/10.3390/app9081628
+[research_taheri_shadlou_2013]: https://doi.org/10.7569/raa.2013.097315
+[research_tahir_allsop_2024]: https://doi.org/10.2139/ssrn.4955778
+[research_tai_zhou_2023]: https://doi.org/10.1016/j.cjmeam.2023.100089
+[research_taig_1972]: https://doi.org/10.1016/0010-4361(72)90467-3
+[research_takagaki_hisada_2016]: https://doi.org/10.1177/0021998316672001
+[research_takagaki_minakuchi_2013]: https://doi.org/10.1080/09243046.2013.844901
+[research_takamizawa_hirokane_2022]: https://doi.org/10.21203/rs.3.rs-1657178/v1
+[research_takeda_aoki_2007]: https://doi.org/10.1016/j.compstruct.2005.11.057
+[research_takemura_sugiura_2019]: https://doi.org/10.1201/9780429426506-263
+[research_takezawa_guo_2022]: https://doi.org/10.1016/j.addma.2022.103194
+[research_taki_kitagawa_1995]: https://doi.org/10.2514/6.1995-3934
+[research_talbot_2004]: https://doi.org/10.1002/pola.20219
+[research_talezadehlari_rahimi_2016]: https://doi.org/10.1016/j.compstruct.2015.09.006
+[research_talreja_phan_2019]: https://doi.org/10.1016/j.compstruct.2019.03.052
+[research_tan_1992]: https://doi.org/10.21236/ada267792
+[research_tan_ahmad_2013]: https://doi.org/10.1016/j.indcrop.2012.07.049
+[research_tan_akil_2012]: https://doi.org/10.1016/j.compositesb.2011.08.036
+[research_tan_mills_2022]: https://doi.org/10.4337/9781839105524.00029
+[research_tanabe_nakata_2017]: https://doi.org/10.1299/jsmemecj.2017.j0440304
+[research_tang_1989]: https://doi.org/10.21236/ada216966
+[research_tang_lee_1987]: https://doi.org/10.1177/002199838702100502
+[research_tang_postle_2000]: https://doi.org/10.1016/s0263-8223(00)00082-9
+[research_tang_wang_2022]: https://doi.org/10.1016/j.compstruct.2022.116051
+[research_tanulia_wang_2022]: https://doi.org/10.1016/j.jcomc.2022.100315
+[research_tanzerhj_1982]: https://ntrs.nasa.gov/citations/19830002109
+[research_tao_li_2020]: https://doi.org/10.1016/j.compscitech.2019.107964
+[research_tarasov_shevtsov_2015]: https://doi.org/10.4028/www.scientific.net/amm.772.257
+[research_tatar_torrence_2018]: https://doi.org/10.1016/j.ijadhadh.2018.02.009
+[research_tauhiduzzaman_carlsson_2020]: https://doi.org/10.1177/1099636219896859
+[research_tay_flores_2019]: https://doi.org/10.1080/13588265.2018.1524547
+[research_tedlapu_geriniromagnoli_2024]: https://doi.org/10.1115/imece2024-145777
+[research_teil_page_2004]: https://doi.org/10.1002/app.20631
+[research_teimouri_li_2024]: https://doi.org/10.1002/pol.20241095
+[research_teller_diercks_1990]: https://doi.org/10.1007/978-1-4684-5772-8_165
+[research_tencate_to_2015]: https://doi.org/10.1016/j.repl.2015.01.024
+[research_teng_lou_2014]: https://doi.org/10.1016/j.ijpe.2013.10.012
+[research_teoh_hsiao_2011]: https://doi.org/10.1016/j.compositesa.2011.03.003
+[research_teplinsky_gutman_1996]: https://doi.org/10.1016/0927-0256(96)00035-3
+[research_terasaki_fujio_2024]: https://doi.org/10.1016/j.ijadhadh.2024.103786
+[research_terry_2000]: https://doi.org/10.4271/2000-01-1673
+[research_test_method]: https://doi.org/10.1520/d3530
+[research_test_method_1900]: https://doi.org/10.1520/d3529_d3529m
+[research_test_method_1900_b]: https://doi.org/10.1520/d3531
+[research_test_method_1900_c]: https://doi.org/10.1520/d3532
+[research_test_method_2008]: https://doi.org/10.1520/d3530_d3530m
+[research_test_method_2008_b]: https://doi.org/10.1520/c0613_c0613m
+[research_test_method_b]: https://doi.org/10.1520/c0613-14
+[research_test_method_c]: https://doi.org/10.1520/d3529_d3529m-97r03e01
+[research_test_method_d]: https://doi.org/10.1520/d7854-16
+[research_test_method_e]: https://doi.org/10.1520/d8132_d8132m-23
+[research_test_method_f]: https://doi.org/10.1520/d3532_d3532m-12
+[research_test_method_g]: https://doi.org/10.1520/d3531-99r09
+[research_test_method_h]: https://doi.org/10.1520/e0928-96
+[research_test_method_i]: https://doi.org/10.1520/e2602-09r15
+[research_test_method_j]: https://doi.org/10.1520/e1545-11r16
+[research_test_method_k]: https://doi.org/10.1520/d1184-98r20
+[research_test_method_l]: https://doi.org/10.1520/d3762
+[research_test_method_m]: https://doi.org/10.1520/c1404_c1404m-98r03
+[research_test_method_n]: https://doi.org/10.1520/d7336_d7336m-16
+[research_test_methods]: https://doi.org/10.1520/d3529-16
+[research_test_methods_1989]: https://doi.org/10.1520/stp1003-eb
+[research_test_methods_b]: https://doi.org/10.1520/d3529-16r21
+[research_test_methods_c]: https://doi.org/10.1520/e2602-24
+[research_test_methods_d]: https://doi.org/10.1520/e2602-22
+[research_test_methods_e]: https://doi.org/10.3403/30420647
+[research_testing_adhesive_1971]: https://doi.org/10.1016/0029-1021(71)90030-2
+[research_tetteh_mensah_2023]: https://doi.org/10.1177/00219983231191299
+[research_tezel_sarmah_2021]: https://doi.org/10.1016/j.carbon.2020.12.090
+[research_thanikasalam_ramamoorthy_2024]: https://doi.org/10.1080/15397734.2024.2345766
+[research_the_application_1994]: https://doi.org/10.1201/9781482272604-81
+[research_the_effect_1987]: https://doi.org/10.1515/9783110867381-014
+[research_the_flight_2021]: https://doi.org/10.1002/9781118949818.ch2
+[research_the_handbook_2023]: https://doi.org/10.1016/c2015-0-05607-6
+[research_the_international_2017]: https://doi.org/10.1016/b978-0-08-100194-3.00017-1
+[research_the_international_2026]: https://doi.org/10.1016/b978-0-32-399544-3.00016-5
+[research_the_learning_2011]: https://doi.org/10.2307/j.ctt6wpj7p.16
+[research_the_modelling_1988]: https://doi.org/10.1016/0010-4361(88)90022-5
+[research_the_standard_1964]: https://doi.org/10.1016/b978-0-12-634450-9.50033-6
+[research_the_standard_1976]: https://doi.org/10.1016/b978-0-08-020414-7.50016-2
+[research_the_transverse_1992]: https://doi.org/10.1016/0010-4361(92)90206-a
+[research_the_use_1996]: https://doi.org/10.1016/s0963-8695(96)80330-6
+[research_thermal_diffusivity_2014]: https://doi.org/10.1201/b17135-22
+[research_thermal_residual_1987]: https://doi.org/10.1016/0010-4361(87)90453-8
+[research_thermoset_announces_2003]: https://doi.org/10.1108/mi.2003.21820bad.006
+[research_thermoset_resin_1983]: https://doi.org/10.1016/0010-4361(83)90098-8
+[research_thermoset_resin_1995]: https://doi.org/10.1016/0034-3617(95)91926-0
+[research_thermoset_resin_2016]: https://doi.org/10.1039/bk9781782628149-00173
+[research_thermoset_resins]: https://doi.org/10.1533/9781855736993.2.39
+[research_thermosetting_resin_1991]: https://doi.org/10.1016/0010-4361(91)90064-n
+[research_thiedesmet_wadsworth_1998]: https://doi.org/10.1007/978-94-011-4437-7_10
+[research_third_european_1980]: https://doi.org/10.1016/b978-0-08-024771-7.50004-1
+[research_thirunavukarasu_sikarwar_2024]: https://doi.org/10.2139/ssrn.4715813
+[research_thirunavukkarasu_2021]: https://doi.org/10.26524/royal.62
+[research_thomas]: https://doi.org/10.17918/00004678
+[research_thomas_antony_2003]: https://doi.org/10.1108/00438020310485976
+[research_thomas_joseph_1997]: https://doi.org/10.1002/pc.10282
+[research_thomas_kardos]: https://doi.org/10.1109/acc.1994.751788
+[research_thomas_nutt_2009]: https://doi.org/10.1007/s10443-009-9086-6
+[research_thomson_scott_2000]: https://doi.org/10.1007/s004660000154
+[research_thostenson_chou_2001]: https://doi.org/10.1002/pc.10531
+[research_thrall_1977]: https://doi.org/10.2514/3.58825
+[research_through_life_damage_2016]: https://doi.org/10.2514/5.9781624103261.0539.0594
+[research_thuresson_abelin_1987]: https://doi.org/10.1016/0010-4361(87)90298-9
+[research_tian]: https://doi.org/10.70675/1d5e96b5zc7bbz49ffzb71dza5e81905a7e5
+[research_tierney_higgins_2021]: https://doi.org/10.1016/j.promfg.2021.07.002
+[research_tifkitsis_skordos_2019]: https://doi.org/10.1016/j.compositesa.2019.05.014
+[research_tifkitsis_winistoerfer_2023]: https://doi.org/10.1016/j.jmapro.2023.01.027
+[research_tihansky_1976]: https://doi.org/10.1287/opre.24.1.26
+[research_timmerman_hayes_2003]: https://doi.org/10.1002/pc.10013
+[research_timms_bickerton_2012]: https://doi.org/10.1016/j.compositesa.2011.12.012
+[research_tirkel_2013]: https://doi.org/10.1109/tsm.2013.2272017
+[research_tirovolis_serghides_2005]: https://doi.org/10.2514/1.12491
+[research_titomanlio_piccarolo_1984]: https://doi.org/10.1007/978-1-4613-2781-3_7
+[research_tittmann_1975]: https://doi.org/10.1007/978-3-642-95275-3_3
+[research_tittmann_2018]: https://doi.org/10.1016/b978-0-12-803581-8.10076-1
+[research_tittmann_crane_2000]: https://doi.org/10.1016/b0-08-042993-9/00201-1
+[research_tittmann_hosten_1986]: https://doi.org/10.1109/ultsym.1986.198897
+[research_tlija_letaief_2018]: https://doi.org/10.1016/j.procir.2018.03.132
+[research_tm_2025]: https://doi.org/10.63456/jsegt-1-1-14
+[research_tobin_kumarbandaru_2024]: https://doi.org/10.1016/j.compstruct.2024.118243
+[research_toda_2022]: https://doi.org/10.1016/j.tca.2022.179330
+[research_todd_challis_1999]: https://doi.org/10.1109/58.741528
+[research_todoroki_sekishiro_2007]: https://doi.org/10.2514/6.2007-2880
+[research_todoroki_sekishiro_2008]: https://doi.org/10.1299/jcst.2.234
+[research_todoroki_sekishiro_2008_b]: https://doi.org/10.2514/1.34548
+[research_toffol_ricci_2023]: https://doi.org/10.1016/j.compstruct.2022.116557
+[research_tokucoglu_chen_2022]: https://doi.org/10.1007/978-3-030-90532-3_50
+[research_tollens_lee_1993]: https://doi.org/10.1016/0032-3861(93)90279-j
+[research_tolstikov_pykhalov_2021]: https://doi.org/10.34759/trd-2021-118-05
+[research_tomioka_kakiage_1996]: https://doi.org/10.1016/b978-008042268-8/50078-2
+[research_tong_applebyhougham_1986]: https://doi.org/10.1002/app.1986.070310812
+[research_tong_hua_2022]: https://doi.org/10.1016/j.compstruct.2022.115736
+[research_tong_sheppard_1994]: https://doi.org/10.1016/0263-8223(94)90125-2
+[research_tong_spelt_2003]: https://doi.org/10.1007/978-94-017-0329-1_2
+[research_tong_steven_1996]: https://doi.org/10.1016/s0263-8223(96)00069-4
+[research_tong_zhu_1997]: https://doi.org/10.4028/www.scientific.net/kem.145-149.537
+[research_tool_board_2015]: https://doi.org/10.1016/j.repl.2015.03.041
+[research_tooling_study_2014]: https://doi.org/10.1016/s0034-3617(14)70249-8
+[research_toor_1973]: https://doi.org/10.1016/0013-7944(73)90054-4
+[research_toratani_takamizawa_1994]: https://doi.org/10.1295/polymj.26.797
+[research_torrelli_paroissien_2020]: https://doi.org/10.1016/j.compstruct.2020.112641
+[research_torres_2019]: https://doi.org/10.1016/j.compositesa.2019.105500
+[research_torres_piedra_2019]: https://doi.org/10.3390/aerospace6020011
+[research_torres_sket_2022]: https://doi.org/10.23967/r.matcomp.2018.07.019
+[research_torres_sket_2022_b]: https://doi.org/10.23967/r.matcomp.2021.10.008
+[research_torreslopez]: https://doi.org/10.20868/upm.thesis.56274
+[research_toughened_thermoset_2015]: https://doi.org/10.1201/9781420034721-16
+[research_toutanji_ortiz_2001]: https://doi.org/10.1016/s0263-8223(01)00057-5
+[research_towill_1977]: https://doi.org/10.1080/00207547708943099
+[research_towill_1985]: https://doi.org/10.1108/eb054735
+[research_toyama_yamamoto_2017]: https://doi.org/10.1080/09243046.2017.1416517
+[research_toyoda_lorin_2024]: https://doi.org/10.2139/ssrn.4948266
+[research_tracy_2009]: https://doi.org/10.21236/ada522328
+[research_tracy_2011]: https://doi.org/10.21236/ada550862
+[research_tracy_totaro_1992]: https://doi.org/10.5006/c1992-92360
+[research_training_guidance]: https://doi.org/10.4271/air7491
+[research_trends_in_1993]: https://doi.org/10.1016/0034-3617(93)90304-9
+[research_trenton_abiel_2021]: https://doi.org/10.33599/nasampe/s.21.0599
+[research_triollet_robert_2011]: https://doi.org/10.1117/12.884855
+[research_tripathy_rao_1991]: https://doi.org/10.1007/978-94-011-3662-4_29
+[research_tripathy_rao_1993]: https://doi.org/10.1016/0263-8223(93)90193-t
+[research_triska_hnidka_2023]: https://doi.org/10.1088/2053-1591/ace237
+[research_trochez_jamora_2021]: https://doi.org/10.1177/00219983211042073
+[research_truong]: https://doi.org/10.14264/106429
+[research_tsai_alper_1999]: https://doi.org/10.21236/ada375743
+[research_tsaprailis_liang_2017]: https://doi.org/10.5006/c2017-09602
+[research_tsaprailis_rao_2023]: https://doi.org/10.5006/c2023-18767
+[research_tserpes_karachalios_2014]: https://doi.org/10.1016/j.compstruct.2013.09.053
+[research_tsotsis_2013]: https://doi.org/10.1115/msec2013-1023
+[research_tsuchiya_1990]: https://doi.org/10.1016/b978-0-08-037193-1.50085-9
+[research_tsuchiya_2004]: https://doi.org/10.1016/j.ijhydene.2003.10.011
+[research_tsujimoto_barkmeier_2016]: https://doi.org/10.1111/eos.12291
+[research_tsujimoto_fischer_2022]: https://doi.org/10.3390/jfb13030134
+[research_tubular_autoclave_1992]: https://doi.org/10.1016/0956-7143(92)90098-f
+[research_tucci_esperto_2024]: https://doi.org/10.3390/polym16121642
+[research_tungare_martin_1988]: https://doi.org/10.1002/pen.760281610
+[research_turan_2026]: https://doi.org/10.1007/978-3-032-19231-8_6
+[research_turk_ruegg_2019]: https://doi.org/10.1017/dsj.2019.16
+[research_turns_kraige]: https://doi.org/10.1017/cbo9780511813696.014
+[research_turturro_caputo_2020]: https://doi.org/10.3390/w12102668
+[research_tuttle_1987]: https://doi.org/10.1111/j.1747-1567.1987.tb00668.x
+[research_tuvayanond_prasittisopin_2023]: https://doi.org/10.20944/preprints202211.0290.v2
+[research_tuvayanond_prasittisopin_2023_b]: https://doi.org/10.3390/buildings13020429
+[research_twerdowski_vonbuttlar_2006]: https://doi.org/10.1117/12.657881
+[research_tyahla_storr_1988]: https://doi.org/10.2514/6.1988-4421
+[research_tye_1994]: https://doi.org/10.1520/stp15361s
+[research_tyler_brady_2009]: https://doi.org/10.37665/smnowjd78104
+[research_tylerbhudson_kennethmserrano]: https://ntrs.nasa.gov/citations/20205001858
+[research_u_s_standard_1966]: https://doi.org/10.1071/es66020
+[research_ucar_dizman_2026]: https://doi.org/10.1002/pc.71041
+[research_udd_2004]: https://doi.org/10.21236/ada427012
+[research_udd_kreger_2003]: https://doi.org/10.21236/ada416764
+[research_ukraintsev_1998]: https://doi.org/10.2514/6.1998-5243
+[research_ulker_haddadderafshi_2020]: https://doi.org/10.37763/wr.1336-4561/65.4.675686
+[research_ullah_waseem_2024]: https://doi.org/10.3390/engproc2024075011
+[research_ultra_low_temperature_cure_2022]: https://doi.org/10.1016/j.fopow.2021.12.024
+[research_ultrasonic_inspection]: https://doi.org/10.4271/j428_201801
+[research_ultrasonic_inspection_1971]: https://doi.org/10.1016/0010-4361(71)90182-0
+[research_ultrasonic_inspection_1971_b]: https://doi.org/10.1016/0041-624x(71)90227-7
+[research_ultrasonic_inspection_1972]: https://doi.org/10.1016/0041-624x(72)90018-2
+[research_ultrasonic_inspection_1985]: https://doi.org/10.1016/0010-4361(85)90567-1
+[research_ultrasonic_inspection_1994]: https://doi.org/10.1016/0963-8695(94)90657-2
+[research_ultrasonic_inspection_1994_b]: https://doi.org/10.1016/0963-8695(94)90631-9
+[research_ultrasonic_inspection_1994_c]: https://doi.org/10.1016/0963-8695(94)90648-3
+[research_ultrasonic_inspection_2013]: https://doi.org/10.31399/asm.tb.imub.t53720267
+[research_ultrasonic_nondestructive_2003]: https://doi.org/10.1201/9780203501962-14
+[research_ultrasonic_probes_1971]: https://doi.org/10.1016/0041-624x(71)90205-8
+[research_ultrasonic_probes_1972]: https://doi.org/10.1016/0041-624x(72)90392-7
+[research_ultrasonic_study_1994]: https://doi.org/10.1016/0963-8695(94)90702-1
+[research_ultrasonic_system_1990]: https://doi.org/10.1016/0308-9126(90)91671-f
+[research_ultrasonic_system_1994]: https://doi.org/10.1016/0963-8695(94)90713-7
+[research_ultrasonic_testing_1966]: https://doi.org/10.1016/0041-624x(66)90293-9
+[research_um_byun_2009]: https://doi.org/10.1163/156855109x428745
+[research_um_daniel_2002]: https://doi.org/10.1016/s0266-3538(01)00188-9
+[research_um_lee_2002]: https://doi.org/10.1179/146580102225005036
+[research_umer_bickerton_2007]: https://doi.org/10.4028/0-87849-427-8.113
+[research_umer_bickerton_2007_b]: https://doi.org/10.1016/j.compositesa.2006.03.003
+[research_umer_bickerton_2008]: https://doi.org/10.1016/j.compositesa.2007.08.023
+[research_umezawa_aoki_2015]: https://doi.org/10.2514/6.2015-1432
+[research_ungar_1975]: https://doi.org/10.3397/1.2831999
+[research_ungarish_joseph_1990]: https://doi.org/10.1016/0010-4361(90)90420-2
+[research_unidirectional_carbon]: https://doi.org/10.4271/ams6885/2
+[research_unidirectional_carbon_b]: https://doi.org/10.4271/ams6885/3
+[research_unidirectional_carbon_c]: https://doi.org/10.4271/ams6885/1
+[research_unidirectional_carbon_d]: https://doi.org/10.4271/ams6885
+[research_unidirectional_carbon_e]: https://doi.org/10.4271/ams6885/5
+[research_unidirectional_carbon_f]: https://doi.org/10.4271/ams6885/4
+[research_unitary_vacuum_1996]: https://doi.org/10.1016/1359-835x(95)98788-d
+[research_unknown_1986]: https://doi.org/10.55274/r0011837
+[research_unwin_2002]: https://doi.org/10.1063/1.1473004
+[research_unwin_2004]: https://doi.org/10.1063/1.1711794
+[research_uozumi_kito_2005]: https://doi.org/10.1163/156855105774470366
+[research_upper_atmosphere_1961]: https://doi.org/10.2172/4791901
+[research_urbaczewski_pascault_1990]: https://doi.org/10.1002/macp.1990.021910420
+[research_urbaniak_2011]: https://doi.org/10.14314/polimery.2011.240
+[research_urbaniak_2018]: https://doi.org/10.14314/polimery.2018.1.3
+[research_urbaniak_grudzinski_2007]: https://doi.org/10.14314/polimery.2007.255
+[research_urbaniak_grudzinski_2007_b]: https://doi.org/10.14314/polimery.2007.117
+[research_us_standard_2014]: https://doi.org/10.1016/b978-0-12-419953-8.00019-x
+[research_using_the_2010]: https://doi.org/10.1002/9780470643815.ch9
+[research_utham_watts_2025]: https://doi.org/10.1177/10996362251411359
+[research_uysal_2016]: https://doi.org/10.12693/aphyspola.129.445
+[research_v_kmaharana_2022]: https://doi.org/10.21275/sr22430140225
+[research_vacher_molimard_2004]: https://doi.org/10.1177/096739110401200402
+[research_vafayan_abedini_2013]: https://doi.org/10.1002/pc.22526
+[research_valverde_sun_2022]: https://doi.org/10.12783/asc37/36424
+[research_vanassche_vanhemelrijck_1995]: https://doi.org/10.1016/0040-6031(95)02693-2
+[research_vanassche_vanhemelrijck_1996]: https://doi.org/10.1016/0040-6031(96)03005-5
+[research_vanassche_vanhemelrijck_1997]: https://doi.org/10.1016/s0040-6031(97)00175-5
+[research_vanassche_verdonck_2000]: https://doi.org/10.1023/a:1010112718501
+[research_vandennieuwenhuizen_miller_1994]: https://doi.org/10.1115/imece1994-0706
+[research_vanderwerff_heisserer_2025]: https://doi.org/10.52202/081621-0003
+[research_vandijk_eleveld_1992]: https://doi.org/10.1021/ma00034a032
+[research_vangerko_1988]: https://doi.org/10.1016/0010-4361(88)90706-9
+[research_vanharten_1993]: https://doi.org/10.1017/cbo9780511751837.005
+[research_vanhattum_regel_2011]: https://doi.org/10.1179/174328911x12988622801052
+[research_vanhoa_duchoang_2016]: https://doi.org/10.1177/0892705716662516
+[research_vanmechelen_2017]: https://doi.org/10.1109/irmmw-thz.2017.8067108
+[research_vanmelick_haagh_1998]: https://doi.org/10.1177/096369359800700102
+[research_vanotterloo]: https://doi.org/10.31274/rtd-180815-5051
+[research_vantooren_gleich_2004]: https://doi.org/10.1163/156856104323016315
+[research_vanzijl_sukumar_1994]: https://doi.org/10.1006/jmra.1994.1248
+[research_vargasrojas_camarenaarellano_2014]: https://doi.org/10.1063/1.4876781
+[research_variable_temperature_2020]: https://doi.org/10.1016/j.repl.2020.08.051
+[research_varley_hodgkin_1996]: https://doi.org/10.1002/(sici)1097-4628(19960620)60:12<2251::aid-app24>3.0.co;2-8
+[research_varshitha_rayanam_2026]: https://doi.org/10.1088/1742-6596/3196/1/012103
+[research_vary_bowles_1979]: https://doi.org/10.1002/pen.760190509
+[research_vasconcellosbirro]: https://doi.org/10.70675/0a11db8dz6f5az4730z924bz8ec6924ac0ff
+[research_vasconcelos_chosie_2013]: https://doi.org/10.14796/jwmm.r246-10
+[research_vasconcelos_leite_2011]: https://doi.org/10.1061/41173(414)364
+[research_vasconcelos_wright_2011]: https://doi.org/10.1061/41173(414)362
+[research_vassilopoulos_2015]: https://doi.org/10.1016/b978-0-85709-806-1.00016-1
+[research_vassilopoulos_2015_b]: https://doi.org/10.1016/b978-0-85709-806-1.00009-4
+[research_vassilopoulos_keller_2015]: https://doi.org/10.1016/b978-0-85709-806-1.00008-2
+[research_vassilopoulos_shahverdi_2015]: https://doi.org/10.1016/b978-0-85709-806-1.00006-9
+[research_vasudevan]: https://doi.org/10.33915/etd.1470
+[research_vaughan_2003]: https://doi.org/10.1016/b0-12-227090-8/00379-1
+[research_vaxman_narkis_2011]: https://doi.org/10.1002/9781118097298.weoc070
+[research_vazqueztorres_2014]: https://doi.org/10.1002/9783527666874.ch5
+[research_venkatachari_natarajan_2015]: https://doi.org/10.1016/j.compstruct.2015.05.080
+[research_venkatesan_zulkifli_2023]: https://doi.org/10.1016/j.compstruct.2023.116725
+[research_verchere_sautereau_1990]: https://doi.org/10.1021/ma00205a006
+[research_vergnaud_bouzon_1992]: https://doi.org/10.1007/978-1-4471-1915-9_19
+[research_vergnaud_bouzon_1992_b]: https://doi.org/10.1007/978-1-4471-1915-9_13
+[research_vergnaud_bouzon_1992_c]: https://doi.org/10.1007/978-1-4471-1915-9_7
+[research_vergnaud_bouzon_1992_d]: https://doi.org/10.1007/978-1-4471-1915-9_10
+[research_verheus_peeters_1993]: https://doi.org/10.1016/0956-7143(93)90014-y
+[research_verhoeven_2005]: https://doi.org/10.21236/ada437177
+[research_vermes_czigany_2022]: https://doi.org/10.1016/j.compstruct.2022.115847
+[research_vermeulen_vantooren_2007]: https://doi.org/10.2514/6.2007-2287
+[research_vermilyea_1988]: https://doi.org/10.1016/0730-725x(88)90469-9
+[research_vernigora_sypchenko_2020]: https://doi.org/10.2118/202064-ms
+[research_vernigora_sypchenko_2020_b]: https://doi.org/10.2118/202064-ru
+[research_verrey_michaud_2006]: https://doi.org/10.1016/j.compositesa.2005.04.011
+[research_vescovini_bisagni_2018]: https://doi.org/10.1142/9781786344335_0006
+[research_vickersjohnh_pelhamlarryi_1993]: https://ntrs.nasa.gov/citations/19930012986
+[research_viehman_schweizer_2008]: https://doi.org/10.1063/1.2837295
+[research_vijay_durvasula_1998]: https://doi.org/10.1016/s0263-8223(98)00039-7
+[research_vijayakumar_bhat_2013]: https://doi.org/10.1016/j.ijadhadh.2013.01.004
+[research_villacarlos_pulutan_2020]: https://doi.org/10.1109/eptc50525.2020.9315142
+[research_villareal_harden_2019]: https://doi.org/10.33599/nasampe/c.19.0638
+[research_villiere_gueroult_2015]: https://doi.org/10.1016/j.compositesa.2014.11.024
+[research_vincent_2009]: https://doi.org/10.2514/6.2009-6450
+[research_vinnik_roznyatovsky_2003]: https://doi.org/10.1023/a:1025886615246
+[research_vinnik_roznyatovsky_2006]: https://doi.org/10.1007/s10973-005-7144-3
+[research_vinogradov_golovkin_1995]: https://doi.org/10.1007/978-94-011-1268-0_2
+[research_vinson_1978]: https://doi.org/10.21236/ada061978
+[research_vinson_1981]: https://doi.org/10.21236/ada106720
+[research_vistein_deden_2019]: https://doi.org/10.1016/j.promfg.2020.01.160
+[research_viswanathau_soong_1973]: https://doi.org/10.1016/0010-4485(73)90107-3
+[research_vitali_sankar_1999]: https://doi.org/10.2514/6.1999-1313
+[research_viviansilveira_canhotoalves_2025]: https://doi.org/10.26678/abcm.cobem2025.cob2025-0244
+[research_vlassopoulos_chira_1998]: https://doi.org/10.1007/s003970050148
+[research_vmohan_tamma_1998]: https://doi.org/10.1016/s0965-9978(98)00009-x
+[research_vo_poulsen_2019]: https://doi.org/10.33599/nasampe/s.19.1507
+[research_vo_pucci_2022]: https://doi.org/10.1016/j.colsurfa.2021.128120
+[research_vo_vora_2013]: https://doi.org/10.1002/app.39541
+[research_vogel_1978]: https://doi.org/10.21236/ada094451
+[research_vogel_1978_b]: https://doi.org/10.21236/ada094450
+[research_vogl_knott_2024]: https://doi.org/10.1016/j.compstruct.2023.117826
+[research_volkerink_huhne_2022]: https://doi.org/10.1016/j.jcomc.2022.100236
+[research_vonjamora_chaunceywu]: https://ntrs.nasa.gov/citations/20205005869
+[research_vora_trivedi_1996]: https://doi.org/10.1177/147823919600400107
+[research_vora_vo_2014]: https://doi.org/10.1002/app.41548
+[research_voss_vallee_2023]: https://doi.org/10.1016/b978-0-323-91214-3.00022-3
+[research_voto_sequeira_2021]: https://doi.org/10.1016/j.polymer.2021.124304
+[research_vroon_vanhoorn_2023]: https://doi.org/10.23967/c.composites.2023.004
+[research_vukhanh_denault_1991]: https://doi.org/10.1177/089270579100400404
+[research_vyazovkin_sbirrazzuoli_1996]: https://doi.org/10.1021/ma951162w
+[research_wadsworth_1998]: https://doi.org/10.1007/978-94-011-4437-7_9
+[research_waenawae_pumkrachang_2016]: https://doi.org/10.4028/www.scientific.net/msf.864.3
+[research_wagih_hashem_2022]: https://doi.org/10.1016/j.compositesa.2022.107134
+[research_wake_1979]: https://doi.org/10.1016/0032-3861(79)90110-1
+[research_walbran_bickerton_2009]: https://doi.org/10.1016/j.compositesa.2009.05.004
+[research_walbran_bickerton_2012]: https://doi.org/10.1177/0021998312441811
+[research_walbran_verleye_2012]: https://doi.org/10.1016/j.compositesa.2011.09.028
+[research_waller_bakis_2022]: https://doi.org/10.1177/00219983211070348
+[research_walls_crawford_1995]: https://doi.org/10.1016/0956-7143(95)95017-s
+[research_walrath_adams_1980]: https://doi.org/10.21236/ada083494
+[research_walser_ranjan_2016]: https://doi.org/10.2118/183063-ms
+[research_walter_beausoleil_2026]: https://doi.org/10.58286/33489
+[research_walter_scherdel_2026]: https://doi.org/10.1007/s43939-026-00834-w
+[research_wang]: https://doi.org/10.33915/etd.2578
+[research_wang_1964]: https://doi.org/10.1007/bf02329635
+[research_wang_2005]: https://doi.org/10.21236/ada440199
+[research_wang_2022]: https://doi.org/10.1016/j.compstruct.2022.116042
+[research_wang_2025]: https://doi.org/10.1145/3773365.3773605
+[research_wang_abdalla_2015]: https://doi.org/10.1016/j.compstruct.2014.09.050
+[research_wang_abdalla_2016]: https://doi.org/10.1007/978-3-319-20007-1_1
+[research_wang_abdalla_2017]: https://doi.org/10.1016/j.compstruct.2016.10.013
+[research_wang_bai_2016]: https://doi.org/10.1007/s10443-016-9498-z
+[research_wang_banbury_1998]: https://doi.org/10.1016/s0263-8223(98)00053-1
+[research_wang_chen_2022]: https://doi.org/10.1007/s00289-022-04462-1
+[research_wang_daniel_1992]: https://doi.org/10.1177/002199839202600606
+[research_wang_day_1998]: https://doi.org/10.1080/09349849808968132
+[research_wang_dou_2017]: https://doi.org/10.1108/aa-02-2017-021
+[research_wang_duong_2016]: https://doi.org/10.1016/b978-0-12-417153-4.00005-0
+[research_wang_duong_2016_b]: https://doi.org/10.1016/b978-0-12-417153-4.00010-4
+[research_wang_ediger_2000]: https://doi.org/10.1002/1099-0488(20000901)38:17<2132::aid-polb30>3.0.co;2-j
+[research_wang_fan_2023]: https://doi.org/10.1016/j.compositesa.2022.107321
+[research_wang_gao_2016]: https://doi.org/10.3390/app6080216
+[research_wang_grove_2008]: https://doi.org/10.1115/pvp2008-61832
+[research_wang_guan_2016]: https://doi.org/10.1109/icmae.2016.7549502
+[research_wang_guo_2010]: https://doi.org/10.1016/j.compstruct.2009.09.018
+[research_wang_he_1997]: https://doi.org/10.1002/(sici)1097-4628(19971128)66:9<1751::aid-app13>3.0.co;2-y
+[research_wang_he_2022]: https://doi.org/10.1016/j.apacoust.2021.108528
+[research_wang_hsu_2009]: https://doi.org/10.1016/j.compstruct.2007.12.001
+[research_wang_hu_2025]: https://doi.org/10.2139/ssrn.5220322
+[research_wang_huang_2018]: https://doi.org/10.1016/j.jclepro.2018.03.258
+[research_wang_huang_2021]: https://doi.org/10.21203/rs.3.rs-619513/v1
+[research_wang_hwang_1997]: https://doi.org/10.1023/a:1008864319656
+[research_wang_ji_2016]: https://doi.org/10.1016/j.compstruct.2016.03.005
+[research_wang_kwag_2006]: https://doi.org/10.1177/096739110601400501
+[research_wang_lai_2024]: https://doi.org/10.2139/ssrn.4988168
+[research_wang_li_2016]: https://doi.org/10.1080/00218464.2015.1130629
+[research_wang_li_2020]: https://doi.org/10.1016/j.compositesa.2020.105913
+[research_wang_liang_2020]: https://doi.org/10.1016/j.compstruct.2019.111573
+[research_wang_liu_2019]: https://doi.org/10.1177/1475921719866274
+[research_wang_liu_2022]: https://doi.org/10.1615/compmechcomputapplintj.2021040145
+[research_wang_luo_2023]: https://doi.org/10.1007/s13726-023-01156-x
+[research_wang_matlock_1993]: https://doi.org/10.1016/0921-5093(93)90347-h
+[research_wang_ning_2026]: https://doi.org/10.1016/j.ijsolstr.2026.114201
+[research_wang_niu_2021]: https://doi.org/10.1016/j.polymdegradstab.2021.109604
+[research_wang_poe_2006]: https://doi.org/10.1016/j.compscitech.2006.01.011
+[research_wang_qiao_2021]: https://doi.org/10.1016/j.compstruct.2020.112936
+[research_wang_ren_2026]: https://doi.org/10.2139/ssrn.6333907
+[research_wang_segura_2020]: https://doi.org/10.1007/s11998-020-00407-3
+[research_wang_song_2022]: https://doi.org/10.1007/s12221-022-4887-4
+[research_wang_spier]: https://doi.org/10.1520/stp36903s
+[research_wang_storm_2003]: https://doi.org/10.1002/masy.200390068
+[research_wang_sun_2026]: https://doi.org/10.1016/j.addma.2026.105158
+[research_wang_timofte_2024]: https://doi.org/10.1016/j.coco.2024.102114
+[research_wang_vasconcelos_2018]: https://doi.org/10.14796/jwmm.c444
+[research_wang_wang_2020]: https://doi.org/10.1016/j.compstruct.2020.112670
+[research_wang_xie_2026]: https://doi.org/10.2139/ssrn.6901976
+[research_wang_xu_2023]: https://doi.org/10.1063/5.0147511
+[research_wang_xu_2024]: https://doi.org/10.3390/aerospace11121038
+[research_wang_xu_2025]: https://doi.org/10.1080/10589759.2025.2580403
+[research_wang_yazdaninezhad_2022]: https://doi.org/10.1049/pbme015e_ch7
+[research_wang_zhang_2011]: https://doi.org/10.4028/www.scientific.net/amr.299-300.816
+[research_wang_zhang_2022]: https://doi.org/10.3389/fmats.2022.1050074
+[research_wang_zhang_2024]: https://doi.org/10.1016/j.compstruct.2024.117998
+[research_wang_zhang_2026]: https://doi.org/10.1007/978-981-95-3031-1_37
+[research_wang_zhu_2018]: https://doi.org/10.1177/0021998318788918
+[research_wangjohnt_jegleydawnc_1996]: https://ntrs.nasa.gov/citations/19960048076
+[research_ward_1974]: https://doi.org/10.1520/stp35505s
+[research_ward_2026]: https://doi.org/10.31399/asm.hb.v21.a0007103
+[research_ward_sheridan_1984]: https://doi.org/10.1007/978-1-4613-2749-3_21
+[research_warda_wahba_2019]: https://doi.org/10.1115/1.4044650
+[research_warman_1996]: https://doi.org/10.1007/978-0-387-34981-7_23
+[research_warner_1960]: https://doi.org/10.2172/4120264
+[research_warrior_wilson_2001]: https://doi.org/10.1533/cras.2001.0197
+[research_wasim_oliveira_2022]: https://doi.org/10.1080/13287982.2022.2092949
+[research_watson_1980]: https://doi.org/10.1007/978-1-4684-1033-4_4
+[research_watson_1981]: https://doi.org/10.2514/6.1981-232
+[research_watson_1982]: https://doi.org/10.2514/3.57381
+[research_wazalwar_raichur_2021]: https://doi.org/10.1016/j.tca.2020.178857
+[research_weathering_tests_1996]: https://doi.org/10.14359/10058
+[research_weber_englhard_2019]: https://doi.org/10.1177/0021998319846556
+[research_weber_middendorf_2022]: https://doi.org/10.33599/nasampe/s.22.0676
+[research_weber_voelkle_2023]: https://doi.org/10.33599/nasampe/s.23.0310
+[research_weber_voelkle_2023_b]: https://doi.org/10.33599/nasampe/s.23.0335
+[research_weckner_cuenca_2020]: https://doi.org/10.2514/6.2020-0971
+[research_weeks_2001]: https://doi.org/10.2514/2.2730
+[research_wegman_mitchell_1992]: https://doi.org/10.1016/0963-8695(92)90544-q
+[research_wehbe_tatting_2019]: https://doi.org/10.33599/nasampe/s.19.1591
+[research_wehbe_tatting_2020]: https://doi.org/10.1016/j.compstruct.2020.112394
+[research_wei_egbelu_2000]: https://doi.org/10.1080/095119200130054
+[research_wei_fu_2022]: https://doi.org/10.3390/su15010056
+[research_weiland_debruyne_2019]: https://doi.org/10.1080/00218464.2018.1553713
+[research_weissberg_baruch_1981]: https://doi.org/10.2514/3.44731
+[research_weitsman_1985]: https://doi.org/10.21236/ada164191
+[research_welch_eden_1989]: https://doi.org/10.1007/978-1-4613-0817-1_257
+[research_wen_long]: https://doi.org/10.58530/2023/3962
+[research_wen_yue_2018]: https://doi.org/10.1016/j.jmsy.2018.01.008
+[research_wen_yue_2019]: https://doi.org/10.1016/j.jmsy.2019.04.001
+[research_wendler_frazier_1995]: https://doi.org/10.1080/00218469508014362
+[research_wendler_frazier_1996]: https://doi.org/10.1002/(sici)1097-4628(19960801)61:5<775::aid-app8>3.0.co;2-l
+[research_westerdahl_hall_1973]: https://doi.org/10.21236/ad0761073
+[research_westergaard_2005]: https://doi.org/10.21236/ada439079
+[research_wetton_foster_1990]: https://doi.org/10.1007/978-94-009-0767-6_44
+[research_whinery_clayton_1971]: https://doi.org/10.2514/3.59190
+[research_whisnant_1992]: https://doi.org/10.2172/7075849
+[research_white_hahn_1990]: https://doi.org/10.1002/pen.760302207
+[research_white_hahn_1992]: https://doi.org/10.1177/002199839202601605
+[research_white_hahn_1993]: https://doi.org/10.1177/002199839302701402
+[research_whitehead_deo_1983]: https://doi.org/10.2514/6.1983-947
+[research_whiteheadrs_1991]: https://ntrs.nasa.gov/citations/19930021255
+[research_whiting_carr_1979]: https://doi.org/10.1016/0040-6031(79)87024-0
+[research_whittingham_baker_2009]: https://doi.org/10.1016/j.compositesa.2008.12.011
+[research_whittingham_li_2006]: https://doi.org/10.1016/j.compstruct.2006.04.055
+[research_why_do]: https://doi.org/10.1017/9781139542418.009
+[research_why_do_1999]: https://doi.org/10.1017/cbo9780511808906.009
+[research_wiacek_1991]: https://doi.org/10.14314/polimery.1991.440
+[research_wicke_pohya_2018]: https://doi.org/10.2514/6.2018-0270
+[research_widanage_kim_2024]: https://doi.org/10.1016/j.autcon.2024.105705
+[research_wiedemann_pittsyk_2025]: https://doi.org/10.1016/j.procir.2024.10.333
+[research_wikswo_2000]: https://doi.org/10.21236/ada381761
+[research_wilkinsdj_1983]: https://ntrs.nasa.gov/citations/19830025688
+[research_wilkinson_ruggleswrenn_2016]: https://doi.org/10.1115/imece2016-65763
+[research_wilkinson_ruggleswrenn_2016_b]: https://doi.org/10.1016/j.polymertesting.2016.07.010
+[research_willard_1972]: https://doi.org/10.1002/pen.760120208
+[research_willdenkurtis_metschans_1992]: https://ntrs.nasa.gov/citations/19950022053
+[research_williams_1981]: https://doi.org/10.21236/ada109107
+[research_williams_1981_b]: https://doi.org/10.21236/ada109106
+[research_williams_1981_c]: https://doi.org/10.21236/ada109105
+[research_williams_1981_d]: https://doi.org/10.21236/ada109104
+[research_williams_1981_e]: https://doi.org/10.21236/ada108902
+[research_williams_1981_f]: https://doi.org/10.21236/ada109110
+[research_williams_2022]: https://doi.org/10.33599/nasampe/c.22.0186
+[research_williams_ambler]: https://doi.org/10.1109/test.2002.1041798
+[research_williams_borrajo_1984]: https://doi.org/10.1021/ba-1984-0208.ch013
+[research_williams_donnellan_1987]: https://doi.org/10.21236/ada216674
+[research_wilson_1984]: https://doi.org/10.1016/0161-7346(84)90013-0
+[research_wilson_charles_1981]: https://doi.org/10.1007/bf02327018
+[research_wilson_currens_2016]: https://doi.org/10.1017/s143192761601000x
+[research_wingard_beatty_1990]: https://doi.org/10.1002/app.1990.070401114
+[research_winter_2017]: https://doi.org/10.1002/masy.201600113
+[research_wiranto_saraswati_2024]: https://doi.org/10.1016/j.prostr.2024.04.033
+[research_wisanrakkit_gillham_1990]: https://doi.org/10.1021/ba-1990-0227.ch009
+[research_wise_2000]: https://doi.org/10.1201/9780203908020.ch6
+[research_wit_2001]: https://doi.org/10.1007/978-94-010-0995-9_15
+[research_witman_wang_2006]: https://doi.org/10.1021/jp051365e
+[research_wodesenbet_kidane_2003]: https://doi.org/10.1016/s0263-8223(02)00315-x
+[research_woerdeman_spoerre_1997]: https://doi.org/10.1002/pc.10268
+[research_woigk_hallett_2018]: https://doi.org/10.1016/j.compstruct.2018.06.078
+[research_wojtczak_rucka_2022]: https://doi.org/10.1016/j.compstruct.2022.115930
+[research_wolff_1987]: https://doi.org/10.1177/002199838702100106
+[research_wolfrum_stang_2004]: https://doi.org/10.1002/pc.20023
+[research_wollmann_bernhard_2008]: https://doi.org/10.1103/physrevstab.11.100702
+[research_womer_marcotte_1986]: https://doi.org/10.1080/08823871.1986.10462349
+[research_wong]: https://doi.org/10.15368/theses.2019.121
+[research_wong_2017]: https://doi.org/10.1016/j.ijadhadh.2017.06.003
+[research_wong_2020]: https://doi.org/10.1201/9781003076155-126
+[research_wong_imam_1992]: https://doi.org/10.1007/978-1-4615-3480-8_13
+[research_wong_wang_2025]: https://doi.org/10.1016/j.compositesa.2025.108816
+[research_wongwiwat_rizzo_1991]: https://doi.org/10.1007/978-1-4615-3742-7_31
+[research_woo_ditto_1985]: https://doi.org/10.4050/sm_comp_1984-2210
+[research_woodmansee_1992]: https://doi.org/10.1080/10589759208952774
+[research_woodson_johnson_1995]: https://doi.org/10.2514/6.1995-1218
+[research_woodson_johnson_1996]: https://doi.org/10.1533/cras.1996.0027
+[research_wright_darville_2022]: https://doi.org/10.1016/j.addma.2022.102985
+[research_wright_kelly_2023]: https://doi.org/10.3390/app132011606
+[research_wright_maclaren_2026]: https://doi.org/10.1016/j.compositesa.2026.109617
+[research_wu_2017]: https://doi.org/10.1201/9780203742860-14
+[research_wu_2017_b]: https://doi.org/10.1201/9780203742860-11
+[research_wu_baur_2024]: https://doi.org/10.33599/nasampe/s.24.0244
+[research_wu_fakcharoenphol_2010]: https://doi.org/10.2118/130343-ms
+[research_wu_hu_2023]: https://doi.org/10.1016/j.compstruct.2022.116339
+[research_wu_hualu]: https://doi.org/10.1109/isapm.1998.664452
+[research_wu_huang_2014]: https://doi.org/10.1109/infoseee.2014.6947861
+[research_wu_larsson_2020]: https://doi.org/10.1007/s12289-020-01570-z
+[research_wu_liu_2013]: https://doi.org/10.1016/j.compstruct.2013.07.009
+[research_wu_liu_2023]: https://doi.org/10.21203/rs.3.rs-2502047/v1
+[research_wu_qiu_2024]: https://doi.org/10.1088/1742-6596/2730/1/012003
+[research_wu_sadhukhan_2023]: https://doi.org/10.7763/ijet.2023.v15.1216
+[research_wu_tan_2026]: https://doi.org/10.1016/j.compositesa.2026.110049
+[research_wu_wei_2025]: https://doi.org/10.3390/polym17223059
+[research_wu_xu_2025]: https://doi.org/10.2174/0115734137296780240529172003
+[research_wu_young_2022]: https://doi.org/10.1007/s00170-022-10049-x
+[research_wu_young_2022_b]: https://doi.org/10.21203/rs.3.rs-1762896/v1
+[research_wu_young_2022_c]: https://doi.org/10.1177/00219983221143229
+[research_wu_young_2024]: https://doi.org/10.3390/jcs8100418
+[research_wu_zhan_2016]: https://doi.org/10.1051/matecconf/20178802004
+[research_wu_zhang_1991]: https://doi.org/10.1016/0263-8223(91)90012-n
+[research_wu_zhang_2001]: https://doi.org/10.1117/12.452648
+[research_wu_zhou_2015]: https://doi.org/10.1115/1.4028128
+[research_wymer_engel_1994]: https://doi.org/10.1177/002199839402800104
+[research_xianfei_yunwen_2017]: https://doi.org/10.1080/13588265.2016.1258957
+[research_xiang_2017]: https://doi.org/10.11648/j.ajmie.20170205.12
+[research_xiang_zhao_2010]: https://doi.org/10.1063/1.3362214
+[research_xiao_howden_2020]: https://doi.org/10.1117/12.2558296
+[research_xiao_qu_2025]: https://doi.org/10.1016/j.compstruct.2025.119112
+[research_xiao_shen_2018]: https://doi.org/10.1080/10589759.2018.1476512
+[research_xiaojing_chunpeng_2013]: https://doi.org/10.3724/sp.j.1105.2013.12420
+[research_xiaojunwang_chung_1997]: https://doi.org/10.1163/156855498x00199
+[research_xiashi_1987]: https://doi.org/10.1007/978-94-009-3455-9_44
+[research_xie_huang_2020]: https://doi.org/10.1016/j.cej.2019.123667
+[research_xie_liu_2004]: https://doi.org/10.1002/polb.20220
+[research_xie_liu_2016]: https://doi.org/10.1016/j.matdes.2016.03.020
+[research_xie_zhang_2009]: https://doi.org/10.1016/j.tca.2009.01.001
+[research_xin_gu_2010]: https://doi.org/10.1002/pc.21048
+[research_xin_li_2011]: https://doi.org/10.1177/0731684411424334
+[research_xiong_1995]: https://doi.org/10.1177/096369359500400105
+[research_xu_2009]: https://doi.org/10.2514/6.2009-2508
+[research_xu_2026]: https://doi.org/10.2139/ssrn.7030800
+[research_xu_bao_2003]: https://doi.org/10.1002/app.12013
+[research_xu_chen_2020]: https://doi.org/10.2514/1.j058492
+[research_xu_li_2026]: https://doi.org/10.1109/icd64907.2026.11665249
+[research_xu_liu_2024]: https://doi.org/10.1504/ijvp.2024.10060871
+[research_xu_ramani_2023]: https://doi.org/10.1201/9780429070709-18
+[research_xu_schlup_1996]: https://doi.org/10.1366/0003702963906654
+[research_xu_schlup_1998]: https://doi.org/10.1002/(sici)1097-4628(19980131)67:5<895::aid-app15>3.0.co;2-n
+[research_xu_tian_2021]: https://doi.org/10.1016/j.tca.2021.178942
+[research_xu_wang_2026]: https://doi.org/10.1007/978-981-95-3037-3_11
+[research_xu_xie_2025]: https://doi.org/10.1080/0305215x.2025.2517722
+[research_xu_yu_2015]: https://doi.org/10.1016/j.ijadhadh.2015.02.007
+[research_xu_yue_2014]: https://doi.org/10.4028/www.scientific.net/amr.1082.551
+[research_xu_zhang_2024]: https://doi.org/10.1002/pc.28758
+[research_xu_zhou_2022]: https://doi.org/10.1016/j.coco.2022.101158
+[research_xuan]: https://doi.org/10.14711/thesis-991013106357503412
+[research_xue_ding_2014]: https://doi.org/10.1590/s1679-78252014000900007
+[research_xue_wang_2011]: https://doi.org/10.1260/2041-4196.2.4.515
+[research_xue_zhang_2014]: https://doi.org/10.1177/0954008314542472
+[research_xuxinsheng_fangshuiliang_2006]: https://doi.org/10.1049/cp:20060769
+[research_yachin_1981]: https://doi.org/10.21236/ada109099
+[research_yachin_1981_b]: https://doi.org/10.21236/ada109093
+[research_yachin_1981_c]: https://doi.org/10.21236/ada109096
+[research_yachin_1981_d]: https://doi.org/10.21236/ada109102
+[research_yachin_1981_e]: https://doi.org/10.21236/ada109097
+[research_yachin_1981_f]: https://doi.org/10.21236/ada109101
+[research_yachin_1981_g]: https://doi.org/10.21236/ada109095
+[research_yachin_1981_h]: https://doi.org/10.21236/ada109100
+[research_yadav_kumar_2020]: https://doi.org/10.1016/j.matpr.2020.03.077
+[research_yamada_kobayashi_2017]: https://doi.org/10.1299/jsmemecj.2017.j0440402
+[research_yamaguchi_amano_1980]: https://doi.org/10.1007/978-1-4613-3093-6_27
+[research_yamakawa_yamamoto_1976]: https://doi.org/10.1021/ma60053a013
+[research_yamamoto_hayama_2016]: https://doi.org/10.2514/6.2016-2709
+[research_yamanaka_matsubara_2023]: https://doi.org/10.1016/j.ijsolstr.2023.112161
+[research_yamashina_mizuyama_1997]: https://doi.org/10.1007/978-1-4615-6379-2_47
+[research_yamashita_kenmotsu_2013]: https://doi.org/10.1016/j.tws.2013.04.005
+[research_yamashita_kien_2011]: https://doi.org/10.4028/www.scientific.net/msf.673.253
+[research_yamini_shakeri_2019]: https://doi.org/10.1016/j.tca.2019.03.003
+[research_yan]: https://doi.org/10.14711/thesis-991013106457903412
+[research_yan_2006]: https://doi.org/10.1177/0021998306060175
+[research_yan_jiang_2023]: https://doi.org/10.3390/ma16103753
+[research_yan_lin_2017]: https://doi.org/10.1016/j.compstruct.2016.11.055
+[research_yan_matveev_2025]: https://doi.org/10.1016/j.compstruct.2025.119022
+[research_yanen_solmaz_2022]: https://doi.org/10.1515/mt-2021-2054
+[research_yang]: https://doi.org/10.31390/gradschool_disstheses.5604
+[research_yang_2025]: https://doi.org/10.2139/ssrn.5115620
+[research_yang_bao_2021]: https://doi.org/10.21203/rs.3.rs-541810/v1
+[research_yang_bao_2021_b]: https://doi.org/10.1080/15376494.2021.1968551
+[research_yang_cao_2023]: https://doi.org/10.1016/j.compstruct.2023.117232
+[research_yang_chiesura_2014]: https://doi.org/10.1016/j.protcy.2014.09.024
+[research_yang_gao_2013]: https://doi.org/10.1177/0954008312471066
+[research_yang_hsieh_2009]: https://doi.org/10.1002/app.29589
+[research_yang_huang_2024]: https://doi.org/10.1016/j.compstruct.2024.117904
+[research_yang_liu_2018]: https://doi.org/10.1016/j.compstruct.2017.12.041
+[research_yang_liu_2024]: https://doi.org/10.1007/s00170-024-13519-6
+[research_yang_plovie_2021]: https://doi.org/10.1109/tim.2021.3057291
+[research_yang_ren_2024]: https://doi.org/10.1177/00219983241231099
+[research_yang_silva_2019]: https://doi.org/10.1016/j.compstruct.2019.01.016
+[research_yang_wang_2019]: https://doi.org/10.1016/j.compstruct.2018.10.086
+[research_yang_wang_2019_b]: https://doi.org/10.5755/j01.ms.25.1.22446
+[research_yang_xiao_2011]: https://doi.org/10.1007/s10443-011-9233-8
+[research_yang_xie_2018]: https://doi.org/10.1021/acs.iecr.8b04698
+[research_yang_yang_2022]: https://doi.org/10.21203/rs.3.rs-2071761/v1
+[research_yang_yang_2023]: https://doi.org/10.1038/s41598-023-34253-1
+[research_yang_yang_2024]: https://doi.org/10.21203/rs.3.rs-5267025/v1
+[research_yang_zhao_2018]: https://doi.org/10.1115/1.4038922
+[research_yang_zhao_2023]: https://doi.org/10.1002/app.53743
+[research_yang_zhipeng_2024]: https://doi.org/10.2139/ssrn.4923164
+[research_yangyang_pyi_2020]: https://doi.org/10.34759/tpt-2020-12-4-185-191
+[research_yao_wei]: https://doi.org/10.1007/978-1-84800-239-5_17
+[research_yao_xu_2021]: https://doi.org/10.1016/j.jclepro.2020.124827
+[research_yarlagadda_2012]: https://doi.org/10.21236/ada566598
+[research_yas_hojjati_2026]: https://doi.org/10.1177/00219983261428772
+[research_yasa_ersoy_2018]: https://doi.org/10.5772/intechopen.75628
+[research_yashiro_wada_2016]: https://doi.org/10.1177/1475921716669979
+[research_yassene_fares_2017]: https://doi.org/10.1080/09349847.2016.1250975
+[research_yasuoka_2021]: https://doi.org/10.1299/jsmemecj.2021.f041-01
+[research_yau_ocholi_2024]: https://doi.org/10.2139/ssrn.4939807
+[research_yazici_deniz_2013]: https://doi.org/10.1016/j.conbuildmat.2013.01.003
+[research_yazid_ginting_2024]: https://doi.org/10.32734/jsti.v26i2.13643
+[research_ye_yan_2019]: https://doi.org/10.1016/j.compstruct.2019.110986
+[research_ye_zhang_2009]: https://doi.org/10.1016/j.matdes.2008.06.003
+[research_yeager_simacek_2015]: https://doi.org/10.12783/shm2015/110
+[research_yee_groleau_1995]: https://doi.org/10.1115/imece1995-1374
+[research_yee_kunselman_1975]: https://doi.org/10.21236/ada037633
+[research_yi_hilton_1995]: https://doi.org/10.1115/imece1995-1370
+[research_yi_hilton_1996]: https://doi.org/10.2514/6.1996-1577
+[research_yi_hilton_1998]: https://doi.org/10.1177/002199839803200701
+[research_yi_lam_2012]: https://doi.org/10.1108/13565361211252926
+[research_yi_liang_2005]: https://doi.org/10.4271/2005-01-0824
+[research_yi_werrel_2023]: https://doi.org/10.1016/j.procir.2023.08.005
+[research_yildirimmanav_yaziciakbiyik_2025]: https://doi.org/10.1186/s12903-025-07142-4
+[research_yilmaz_celik_2026]: https://doi.org/10.1007/s10266-026-01543-9
+[research_yilmaz_jasiuniene_2020]: https://doi.org/10.1016/j.ijadhadh.2020.102675
+[research_yilmazoglu_hanzlik_2025]: https://doi.org/10.33599/nasampe/s.25.0178
+[research_yin_2012]: https://doi.org/10.2741/3945
+[research_yin_hou_2019]: https://doi.org/10.13031/aim.201900289
+[research_yingzhao_mengni_2026]: https://doi.org/10.1016/j.compstruct.2026.120879
+[research_yohanes_idris_2021]: https://doi.org/10.36842/jomase.v65i3.254
+[research_yokozeki_ishibashi_2015]: https://doi.org/10.1080/09243046.2015.1052130
+[research_yolken_matzkanin_2001]: https://doi.org/10.21236/ada398280
+[research_yoneyama_iizuka_2025]: https://doi.org/10.13052/97887-438-0828-2_3
+[research_yoo_hajela_2000]: https://doi.org/10.1115/imece2000-2168
+[research_yoo_vinot_2025]: https://doi.org/10.1177/00219983251357662
+[research_yoon_chung_2004]: https://doi.org/10.1177/096369350401300503
+[research_yoon_kim_2001]: https://doi.org/10.1177/002199801772662244
+[research_yoon_kim_2019]: https://doi.org/10.1016/j.compositesb.2019.01.082
+[research_yoon_lee_2000]: https://doi.org/10.4028/www.scientific.net/kem.183-187.1087
+[research_yoozbashizadeh_barjasteh_2018]: https://doi.org/10.1007/s10443-018-9739-4
+[research_you_wang_2024]: https://doi.org/10.2139/ssrn.4882346
+[research_youker_harrisezell_2007]: https://doi.org/10.1111/j.1524-4725.2007.34020.x
+[research_young_1995]: https://doi.org/10.1016/0266-3538(95)00067-4
+[research_young_1995_b]: https://doi.org/10.1002/pc.750160309
+[research_young_1996]: https://doi.org/10.1002/pc.10599
+[research_young_wang_2002]: https://doi.org/10.3139/217.1698
+[research_young_yu_2022]: https://doi.org/10.2139/ssrn.4108848
+[research_younossi_kennedy_2001]: https://doi.org/10.7249/rb79
+[research_yousefi_lafleur_1997]: https://doi.org/10.1002/pc.10270
+[research_yu_an_2024]: https://doi.org/10.3390/polym16142011
+[research_yu_feng_2016]: https://doi.org/10.1016/j.matdes.2016.04.050
+[research_yu_han_2016]: https://doi.org/10.1016/j.matdes.2015.09.154
+[research_yu_mhaisalkar_2005]: https://doi.org/10.1002/marc.200500333
+[research_yu_mhaisalkar_2006]: https://doi.org/10.1016/j.tsf.2005.09.115
+[research_yu_wang_2022]: https://doi.org/10.1016/j.compstruct.2022.116131
+[research_yu_xue_2016]: https://doi.org/10.4028/www.scientific.net/kem.725.94
+[research_yu_zhang_2020]: https://doi.org/10.3390/aerospace8010005
+[research_yuan_1993]: https://doi.org/10.1016/0263-8223(93)90045-r
+[research_yuan_chen_2012]: https://doi.org/10.4028/www.scientific.net/amm.249-250.887
+[research_yuan_han_2014]: https://doi.org/10.4028/www.scientific.net/amm.599-601.164
+[research_yuan_kong_2021]: https://doi.org/10.1016/j.coco.2021.100671
+[research_yuan_li_2008]: https://doi.org/10.1007/s10443-008-9056-4
+[research_yuan_sun_2018]: https://doi.org/10.1016/j.autcon.2017.12.021
+[research_yuan_wang_2016]: https://doi.org/10.1016/j.compositesb.2016.01.016
+[research_yuan_wei_2024]: https://doi.org/10.1007/s13369-023-08694-9
+[research_yuan_yang_2021]: https://doi.org/10.1007/s11029-021-09924-7
+[research_yue_li_2025]: https://doi.org/10.1093/cdm/wqaf014
+[research_yue_shi_2018]: https://doi.org/10.1080/00224065.2018.1474688
+[research_yue_wen_2018]: https://doi.org/10.1115/1.4038510
+[research_yue_xu_2022]: https://doi.org/10.1007/s10443-022-10068-7
+[research_yun_xu_2026]: https://doi.org/10.1007/978-981-95-3022-9_32
+[research_yun_zhao_2024]: https://doi.org/10.2139/ssrn.4707412
+[research_yuritsyn_2019]: https://doi.org/10.1134/s1087659619030179
+[research_yuritsyn_2020]: https://doi.org/10.1134/s1087659620040148
+[research_yurovvm_2019]: https://doi.org/10.31489/2019no2/26-30
+[research_zabeu]: https://doi.org/10.11606/d.25.2017.tde-03122021-094725
+[research_zacherl_fontes_2024]: https://doi.org/10.1016/j.compstruct.2024.118256
+[research_zade_kuppusamy_2019]: https://doi.org/10.1016/j.matpr.2019.07.605
+[research_zade_kuppusamy_2020]: https://doi.org/10.1016/j.matpr.2019.09.212
+[research_zade_kuppusamy_2021]: https://doi.org/10.1007/978-981-16-3033-0_6
+[research_zade_neogi_2023]: https://doi.org/10.1177/07316844231212527
+[research_zade_shyamprasad_2021]: https://doi.org/10.1016/j.matpr.2021.05.695
+[research_zahran_abdelwahab_2019]: https://doi.org/10.4028/www.scientific.net/msf.953.88
+[research_zaini_azaman_2018]: https://doi.org/10.1177/1099636218758589
+[research_zakki_windyandari_2023]: https://doi.org/10.1515/cls-2022-0211
+[research_zalameda_bolduc_2017]: https://doi.org/10.1117/12.2264093
+[research_zalameda_smith_1994]: https://doi.org/10.1007/978-1-4615-2574-5_94
+[research_zaloom_miller_1982]: https://doi.org/10.1016/0167-188x(82)90012-x
+[research_zang_liu_2024]: https://doi.org/10.1016/j.compstruct.2024.117929
+[research_zappino_petrolo_2024]: https://doi.org/10.1115/ssdm2024-121553
+[research_zarei_delavari_2026]: https://doi.org/10.5703/1288284318663
+[research_zarrelli_partridge_2006]: https://doi.org/10.1016/j.compositesa.2005.05.012
+[research_zellouf_goyette_2001]: https://doi.org/10.1016/s0041-624x(00)00065-2
+[research_zemer_1960]: https://doi.org/10.1520/stp46965s
+[research_zeng_gui_2025]: https://doi.org/10.1016/j.compstruct.2025.119558
+[research_zeng_leng_2023]: https://doi.org/10.1016/j.polymdegradstab.2023.110569
+[research_zeng_raghavan_2010]: https://doi.org/10.1016/j.compositesa.2010.04.017
+[research_zeng_schubel_2016]: https://doi.org/10.1016/j.compositesa.2016.08.004
+[research_zeng_sun_2010]: https://doi.org/10.1515/polyeng.2010.30.9.535
+[research_zenker_schon_2019]: https://doi.org/10.1063/1.5112526
+[research_zero_pressure_2014]: https://doi.org/10.1007/978-3-642-41714-6_260029
+[research_zervos_syriopoulos_2024]: https://doi.org/10.1117/12.3001491
+[research_zevincentqueenata_imadewiragunarsa_2025]: https://doi.org/10.54706/senastindo.v7.2025.423
+[research_zhai_lyu_2025]: https://doi.org/10.1016/j.jmapro.2025.10.017
+[research_zhang_an_2021]: https://doi.org/10.1177/1687814021995703
+[research_zhang_borigo_2017]: https://doi.org/10.1063/1.4974551
+[research_zhang_chang_2018]: https://doi.org/10.1088/1757-899x/322/2/022062
+[research_zhang_chen_2017]: https://doi.org/10.1016/j.compstruct.2017.08.068
+[research_zhang_cheng_2025]: https://doi.org/10.4071/001c.129283
+[research_zhang_ding_2015]: https://doi.org/10.4028/www.scientific.net/amr.1102.37
+[research_zhang_dong_2012]: https://doi.org/10.1016/j.tca.2012.09.015
+[research_zhang_fu_2010]: https://doi.org/10.4028/www.scientific.net/amr.139-141.59
+[research_zhang_ge_2017]: https://doi.org/10.1080/13588265.2017.1304169
+[research_zhang_heider_2017]: https://doi.org/10.1177/0021998317700700
+[research_zhang_heider_2017_b]: https://doi.org/10.1177/0021998317715089
+[research_zhang_heider_2020]: https://doi.org/10.1177/0892705720978248
+[research_zhang_hongkepan_2011]: https://doi.org/10.1109/icetce.2011.5775960
+[research_zhang_huang_2021]: https://doi.org/10.1016/j.porgcoat.2021.106135
+[research_zhang_li_2007]: https://doi.org/10.4028/www.scientific.net/msf.546-549.1623
+[research_zhang_li_2020]: https://doi.org/10.1016/j.compstruct.2020.112636
+[research_zhang_li_2025]: https://doi.org/10.2139/ssrn.5174182
+[research_zhang_li_2025_b]: https://doi.org/10.1016/j.jallcom.2025.182489
+[research_zhang_lin_2023]: https://doi.org/10.1016/j.compstruct.2023.116773
+[research_zhang_liu_2016]: https://doi.org/10.1080/13588265.2016.1270495
+[research_zhang_liu_2020]: https://doi.org/10.1016/j.mechmachtheory.2019.103651
+[research_zhang_liu_2024]: https://doi.org/10.2514/1.c037475
+[research_zhang_peng_2022]: https://doi.org/10.1016/j.compstruct.2022.116170
+[research_zhang_prabha_2026]: https://doi.org/10.2139/ssrn.6578539
+[research_zhang_qu_2024]: https://doi.org/10.2139/ssrn.4797968
+[research_zhang_shang_2026]: https://doi.org/10.1002/pc.70984
+[research_zhang_sun_2015]: https://doi.org/10.1142/9789814733878_0086
+[research_zhang_taheri_2003]: https://doi.org/10.1016/s1359-8368(02)00134-8
+[research_zhang_vairavarnoorthy_2006]: https://doi.org/10.1016/s1007-0214(06)70196-1
+[research_zhang_vyazovkin_2007]: https://doi.org/10.1021/jp071001h
+[research_zhang_wan_2026]: https://doi.org/10.3390/aerospace13050467
+[research_zhang_wang_1999]: https://doi.org/10.1088/0964-1726/8/4/310
+[research_zhang_wang_2018]: https://doi.org/10.1016/j.compstruct.2018.07.040
+[research_zhang_wang_2019]: https://doi.org/10.1016/j.compstruct.2019.111461
+[research_zhang_wang_2019_b]: https://doi.org/10.3390/ma12020259
+[research_zhang_wang_2026]: https://doi.org/10.21203/rs.3.rs-10286002/v1
+[research_zhang_wu_2000]: https://doi.org/10.1117/12.411735
+[research_zhang_xu_2010]: https://doi.org/10.1515/epoly.2010.10.1.41
+[research_zhang_xu_2017]: https://doi.org/10.1080/13588265.2017.1367355
+[research_zhang_xu_2020]: https://doi.org/10.1016/j.compstruct.2020.111882
+[research_zhang_xu_2021]: https://doi.org/10.21203/rs.3.rs-401234/v1
+[research_zhang_xu_2022]: https://doi.org/10.1016/j.compstruct.2022.116156
+[research_zhang_xu_2022_b]: https://doi.org/10.1016/j.compstruct.2021.114889
+[research_zhang_xu_2023]: https://doi.org/10.1016/j.compstruct.2023.117517
+[research_zhang_xu_2024]: https://doi.org/10.1016/j.compstruct.2024.118441
+[research_zhang_yang_2019]: https://doi.org/10.1016/j.microrel.2019.04.025
+[research_zhang_ye_2026]: https://doi.org/10.1016/j.compstruct.2026.120655
+[research_zhang_yin_2016]: https://doi.org/10.1515/secm-2015-0195
+[research_zhang_zhang_2020]: https://doi.org/10.32604/jrm.2020.09513
+[research_zhao_cordovez_2001]: https://doi.org/10.1023/a:1011232402628
+[research_zhao_donough_2021]: https://doi.org/10.1016/j.compstruct.2020.113106
+[research_zhao_donough_2023]: https://doi.org/10.1016/j.compstruct.2023.116694
+[research_zhao_guo_2014]: https://doi.org/10.21611/qirt.2014.195
+[research_zhao_hu_2010]: https://doi.org/10.1016/j.polymer.2010.05.056
+[research_zhao_jiang_2025]: https://doi.org/10.1049/icp.2024.3447
+[research_zhao_kapania_2016]: https://doi.org/10.1016/j.compstruct.2015.09.041
+[research_zhao_kapania_2016_b]: https://doi.org/10.2514/6.2016-1500
+[research_zhao_lin_2024]: https://doi.org/10.1016/j.compstruct.2024.118127
+[research_zhao_lu_2011]: https://doi.org/10.1016/j.ijadhadh.2011.03.002
+[research_zhao_qin_2013]: https://doi.org/10.1177/0021998313477169
+[research_zhao_rodgers_2021]: https://doi.org/10.1177/0021998320987600
+[research_zhao_wang_2020]: https://doi.org/10.1016/j.compstruct.2020.112427
+[research_zhao_wu_2025]: https://doi.org/10.3390/polym17192710
+[research_zhao_xiao_2016]: https://doi.org/10.1177/0731684416659933
+[research_zhao_yan_2025]: https://doi.org/10.1016/j.compstruct.2025.119190
+[research_zhao_zhang_2020]: https://doi.org/10.1016/j.polymertesting.2020.106440
+[research_zhaoxiaojia_urdumassoud_2014]: https://doi.org/10.3233/978-1-61499-440-4-64
+[research_zheleznov_sereznov_2021]: https://doi.org/10.3103/s106879982103003x
+[research_zhen_wang_2023]: https://doi.org/10.1016/j.jclepro.2023.137848
+[research_zheng_zhao_2010]: https://doi.org/10.4028/www.scientific.net/amr.97-101.952
+[research_zhiying_feifei_2024]: https://doi.org/10.1088/1742-6596/2822/1/012108
+[research_zhong_guo_1998]: https://doi.org/10.1016/s0032-3861(97)10237-3
+[research_zhong_nsengiyumva_2022]: https://doi.org/10.1007/978-981-19-0848-4_4
+[research_zhong_nsengiyumva_2022_b]: https://doi.org/10.1007/978-981-19-0848-4_2
+[research_zhong_nsengiyumva_2022_c]: https://doi.org/10.1007/978-981-19-0848-4
+[research_zhong_nsengiyumva_2022_d]: https://doi.org/10.1007/978-981-19-0848-4_8
+[research_zhou_davies_1994]: https://doi.org/10.1115/imece1994-0210
+[research_zhou_enos_2022]: https://doi.org/10.1016/j.compstruct.2021.114816
+[research_zhou_li_2013]: https://doi.org/10.1002/pc.22711
+[research_zhou_sancaktar]: https://doi.org/10.1163/ej.9789004165922.i-426.135
+[research_zhou_xu_2014]: https://doi.org/10.1109/icept.2014.6922824
+[research_zhou_xu_2015]: https://doi.org/10.1016/j.mee.2015.04.019
+[research_zhou_yin_2011]: https://doi.org/10.4028/www.scientific.net/amr.236-238.2058
+[research_zhou_zhu_2024]: https://doi.org/10.1049/icp.2024.0633
+[research_zhu_cai_2015]: https://doi.org/10.1002/pc.23663
+[research_zhu_chai_2013]: https://doi.org/10.1016/j.compstruct.2013.02.010
+[research_zhu_droste_2022]: https://doi.org/10.1177/00219983221108445
+[research_zhu_liu_2023]: https://doi.org/10.3390/app132312921
+[research_zhu_wang_2019]: https://doi.org/10.1016/j.compstruct.2019.03.033
+[research_zhu_wang_2019_b]: https://doi.org/10.1016/j.compstruct.2019.01.035
+[research_zhu_yan_2015]: https://doi.org/10.2514/1.c033107
+[research_zhu_yan_2015_b]: https://doi.org/10.1016/j.compstruct.2014.10.021
+[research_zhu_yang_2025]: https://doi.org/10.21203/rs.3.rs-7444741/v1
+[research_zhu_yang_2026]: https://doi.org/10.1007/s11696-026-04783-9
+[research_zhu_zhou_2026]: https://doi.org/10.1016/j.compstruct.2025.119810
+[research_zhuang_chaurasia_2022]: https://doi.org/10.1115/imece2022-95057
+[research_zimmermann_klein_2006]: https://doi.org/10.1016/j.compstruct.2005.11.050
+[research_zimmermann_rolfes_2006]: https://doi.org/10.1016/j.compstruct.2005.11.041
+[research_zingraff_michaud_2005]: https://doi.org/10.1016/j.compositesa.2005.03.023
+[research_zok_fleck_2010]: https://doi.org/10.21236/ada524282
+[research_zorko_2025]: https://doi.org/10.1016/b978-0-443-21457-8.00025-x
+[research_zou_jia_2025]: https://doi.org/10.1007/s11029-025-10319-1
+[research_zou_mou_2012]: https://doi.org/10.2514/1.c031867
+[research_zou_yang_2026]: https://doi.org/10.1002/pc.71327
+[research_zoughi_ganchev_1995]: https://doi.org/10.21236/ada294388
+[research_zu_luo_2024]: https://doi.org/10.1016/j.tws.2023.111484
+[research_zu_zhou_2017]: https://doi.org/10.1177/0021998316687029
+[research_zukas_1994]: https://doi.org/10.1002/app.1994.070530406
+[research_zukas_macknight_1982]: https://doi.org/10.1021/bk-1982-0227.ch014
+[research_zukas_wentworth_1987]: https://doi.org/10.1002/pc.750080404
+[research_zumbo_bevacqua_2021]: https://doi.org/10.23919/ursigass51995.2021.9560209
+[research_zvetkov_krastev_2008]: https://doi.org/10.1016/j.tca.2008.08.012

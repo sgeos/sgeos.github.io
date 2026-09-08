@@ -1957,6 +1957,77 @@ def t_homonym_a351_tags_cover_every_pattern_in_their_family():
         "Adjoint-Based Optimization Method", allow=A351) is not None
 
 
+def t_homonym_a352_split_a_pattern_that_spanned_two_families():
+    """A352: A TAG SWITCHES OFF A WHOLE ENTRY, AND AN ENTRY CAN SPAN TWO FAMILIES.
+
+    A351 found that a FAMILY can span two patterns, so tagging one leaves the other
+    armed. **A352 met the converse.** The A347 rotor-blade repair entry alternates
+    `field-replaceable`, `rotor blade`, `blade pocket`, `hot corrosion`, `adhesive bond`,
+    `corrosion protection` and `depot maintenance`. Exactly one of those alternatives
+    names A352's subject, adhesive bonding being how a unitised composite airframe is
+    joined. **Tagging the entry would have opened the wrong half**, readmitting rotor
+    blade pockets and hot corrosion, so the alternative was split into its own tagged
+    entry and the remainder left armed.
+
+    The store deleted 2,430 of an 11,325-record harvest before these tags existed, being
+    21.5 percent, and 432 afterwards, being 3.8 percent. **The `epoxy|resin|laminate`
+    entry alone accounted for 1,529 of them**, which is 63 percent of every deletion, and
+    it is a composites article's entire subject.
+    """
+    A352 = ("adhesive-bonding", "composites", "cost-estimation", "cure-monitoring",
+            "delamination", "fracture", "meteorology", "ndt", "nomenclature")
+    for tag in A352:
+        assert tag in homonyms.TAGS, tag
+
+    # **EVERY TITLE IS ASSERTED ARMED BEFORE IT IS ASSERTED DISARMED**, which is the
+    # A351 guard. A test that would pass with the fix reverted is not a test, and each
+    # of these is additionally disarmed by ONE named tag rather than by the whole set,
+    # so no assertion can be carried by a neighbour.
+    for tag, title in [
+        ("adhesive-bonding",
+         "Effects of processing conditions on bondline void formation in vacuum bag "
+         "only adhesive bonding"),
+        ("composites",
+         "Robust Out-of-Autoclave Prepreg Processing Using a Semi-Permeable Membrane "
+         "to Maintain Resin Pressure"),
+        ("cost-estimation", "Composite Airframe Cost Estimation Model Research"),
+        ("cure-monitoring", "Dielectric cure monitoring for glass/polyester prepreg "
+                            "composites"),
+        ("delamination", "Delamination analysis of multi-angle composite curved beams "
+                         "using an out-of-autoclave material"),
+        ("fracture", "Out of autoclave manufacturing of CFRPs having multiscale "
+                     "reinforcement for improved interlaminar fracture toughness"),
+        ("ndt", "Health Monitoring of Composite Structures Using Ultrasonic Guided "
+                "Waves"),
+    ]:
+        assert homonyms.noise_hit(title) is not None, f"vacuous, never armed: {title}"
+        assert homonyms.noise_hit(title, allow=(tag,)) is None, f"{tag}: {title}"
+        assert homonyms.noise_hit(title, allow=A352) is None, title
+
+    # THE SPLIT ITSELF. The half that was separated must still be armed with the tag on,
+    # or the split achieved nothing and simply opened the family.
+    kept_armed = [
+        "Bonded Field-Replaceable Rotor Blade Pocket for the CH-54B",
+        "Hot corrosion of turbine blade coatings in marine service",
+        "Depot level maintenance planning for rotary wing aircraft",
+    ]
+    for title in kept_armed:
+        assert homonyms.noise_hit(title) is not None, f"vacuous: {title}"
+        assert homonyms.noise_hit(title, allow=A352) is not None, (
+            f"the split opened the wrong half: {title}")
+
+    # AND THE FAMILIES A352 DELIBERATELY LEFT ARMED MUST STAY ARMED. Wind-turbine blade
+    # manufacture and marine composites are adjacent process literatures and were judged
+    # out of subject rather than contaminating, which is a decision recorded in the
+    # article rather than a defect in the store.
+    for title in [
+        "Optimization of the skin thickness distribution in the composite wind "
+        "turbine blade",
+        "Case History: Bonded Composite Reinforcement of Ship Structures",
+    ]:
+        assert homonyms.noise_hit(title, allow=A352) is not None, title
+
+
 def t_homonym_unknown_tag_raises_rather_than_failing_open():
     """A typo in an allow list must not silently leave a pattern armed.
 
