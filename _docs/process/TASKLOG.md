@@ -10,10 +10,56 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A350 are drafted with all four passes complete on every one, committed and
-PUSHED. A351, Gulfstream X-54, has completed the DRAFT PASS and the EQUATION-DENSITY REVIEW and is
-committed and NOT pushed**, which is what those passes ask for. **Fifty-five of seventy-two drafted.
-None published, and publication has never been authorised. Seventeen articles remain.**
-The next prompt in the rhythm is A351's **primary-reference review**.
+PUSHED. A351, Gulfstream X-54, has completed the DRAFT PASS, the EQUATION-DENSITY REVIEW and the
+PRIMARY-REFERENCE REVIEW and is committed and NOT pushed**, which is what those passes ask for.
+**Fifty-five of seventy-two drafted. None published, and publication has never been authorised.
+Seventeen articles remain.** The next prompt in the rhythm is A351's **publication review**, which is
+the one that asks for a push.
+
+**THE PRIMARY PASS TOOK REPORT PRIMARIES FROM 318 AT 10.4 PERCENT TO 380 AT 12.1, AND THE CURATED SET
+FROM FORTY-TWO TO EIGHTY-FOUR.** The pass began by measuring which of the thirty-one display equations
+carried no citation. **Sixteen did not**, because the equation review had made a dozen subjects
+load-bearing that the draft had correctly treated as background, and **the four-pass rhythm has no
+step that re-asks whether an absent subject has become load-bearing**. This audit is that step.
+
+**THE LARGEST GAIN CAME FROM BIBLIOGRAPHIES AND NOT FROM SWEEPING.** The Quiet Spike flight test
+report, the shaped-boom demonstration paper and the Mach cutoff investigation each list the work they
+were built on, and this article had been using their accounts of those documents rather than the
+documents. **This is the A350 finding one article later.** It added the Gulfstream design chain from
+2003 to 2009 including the March 2004 patent, the classical literature from 1956 to 1979 including
+Whitham on weak shocks and Hayes with the stratified-atmosphere code, the human-response experiments
+the loudness procedure was calibrated against, and the standard atmosphere the article computes in.
+
+**AND A FINDING THAT CHANGED THE SHAPE OF THE STORY. Mach cutoff was measured in flight and published
+in 1971**, which is two years before the prohibition it now helps displace and fifty-four before the
+order to repeal it. The article had it as the modern alternative demonstrated in 2012. **That came out
+of a bibliography, and it turns the closing argument from a new technique overtaking an old aeroplane
+into an old technique outlasting one.**
+
+**THE EQUATION PASS HAD SHIPPED AN ANACHRONISM AND THIS PASS CAUGHT IT.** A regulatory limit of 0.11
+pounds per square foot went into an article dated November 2025, and it is the interim limit in a
+notice of proposed rulemaking published in **July 2026**. The prose promised it would `later appear`
+in an article that stops before it does. **An anachronism hides in a number as easily as in a
+sponsor's name.** The passage is re-anchored on Concorde at roughly two pounds per square foot, and
+`verify_numbers.py` now refuses any year in the prose after the dateline.
+
+**A DOUBLED BACKSLASH IS INVISIBLE TO A MACRO ALLOWLIST**, since `\\times` contains `\times`, so the
+check added last pass passed it while MathJax would have rendered a line break and a word. It came out
+of an emitter whose escaping had been through a heredoc twice. **A HARD-CODED WORD LIST IN THE
+VERIFIER ALSO REPORTED THE ARTICLE AS WRONG WHEN THE CHECKER WAS STALE**, the store having gained two
+tag families. Both are fixed and both fixes were proved by injection.
+
+**ONE IDENTIFIER COULD NOT BE VERIFIED AND WAS DROPPED RATHER THAN CITED.** `Sonic Boom: Six Decades of
+Research` is the standard monograph and the NTRS API returns 404 on four consecutive requests while
+the citations page returns 200. **That 200 is the single-page-app shell.**
+
+**A NEW CONTAMINANT FAMILY WAS EARNED. `community response` IS AN ECOLOGICAL TERM AS WELL AS AN
+ACOUSTIC ONE**, and a plant-community treatment study reached the kept set of a survey whose
+second-largest cluster is community response to noise. Coupled atmosphere-ocean modelling was recorded
+at the same time and also removed three ocean shadow-zone studies that had entered through the
+atmospheric shadow-zone anchor. **Store 132 patterns, seventeen tags.** `merge_sweeps.py` now re-gates
+all three sweeps together whenever the store changes, because a pattern is global and re-gating one
+sweep would leave the corpus as the union of two instruments.
 
 **THE EQUATION PASS TOOK 11 DISPLAY EQUATIONS TO 31 AND CHANGED A CONCLUSION TWICE.** Adding the
 equations was not the point. Working them was, and two of the article's own claims did not survive
@@ -116,10 +162,11 @@ are emitted and cannot drift while body labels are typed. **It found one mismatc
 this repository would have seen.** Separately, the identifier check caught one wrong curated DOI before
 assembly, pointing at a paper on thermals and cloud modelling.
 
-**A351 COUNTS AFTER THE EQUATION PASS.** 6,891 lines, 41,392 words, **31 display equations**, 3,159 reference definitions, 3,072
-research records, **318 report primaries at 10.4 percent**, 42 curated sources with every identifier
-verified, 7 books resolved on the search index, 8,289 records retrieved across two sweeps, 3,210
-through the gate, 11 clusters with a residual of 57.
+**A351 COUNTS AFTER THE PRIMARY PASS.** 7,057 lines, 44,159 words, **31 display equations**, 3,231
+reference definitions, 3,143 research records, **380 report primaries at 12.1 percent**, 84 curated
+sources with every identifier verified, 7 books resolved on the search index, 9,521 records retrieved
+across three sweeps, 3,273 through the gate, 11 clusters. **105 prose citation labels checked against
+the titles they point at, none mismatched.**
 
 **A324's `book_jenkins` LABEL REMAINS THE ONE LIVE REPAIR**, unchanged. The key is correct and the
 label swallowed the title. **The OpenLibrary work pages returning Internal Error to a reader** is also

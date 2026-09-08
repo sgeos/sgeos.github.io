@@ -21,9 +21,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_gulfstream_x54.markdown`, A351, editorial date 2025-11-29, series `x_planes` index 55 of 72.
 
-**6,891 lines, 31 display equations, 3,159 reference definitions, 41,392 words after the
-equation-density review.** **DRAFT PASS AND EQUATION-DENSITY REVIEW COMPLETE, two of four.** Committed
-and **NOT pushed**, which is what those passes ask for. **Not published**, and publication of the series has never been authorised.
+**7,057 lines, 31 display equations, 3,231 reference definitions, 44,159 words after the
+primary-reference review.** **DRAFT, EQUATION-DENSITY AND PRIMARY-REFERENCE PASSES COMPLETE, three of
+four.** Committed and **NOT pushed**, which is what those passes ask for. **Not published**, and publication of the series has never been authorised.
 **Designation-anomaly class**, and the third such article after the X-39 and the X-52, but different
 from both because this number was allocated to a real contractor with a real sponsor and a real
 mission statement, and then nothing was built.
@@ -121,11 +121,56 @@ does not minimise the other.
 
 **TWO PASSAGES NARRATED THE ARTICLE'S OWN DRAFTING HISTORY INSIDE THE ARGUMENT AND WERE REWRITTEN.**
 
-**The stub-isolated production build succeeded in 94 seconds with no Liquid error, against the exact
+**THE PRIMARY PASS TOOK REPORT PRIMARIES FROM 318 AT 10.4 PERCENT TO 380 AT 12.1, AND THE CURATED SET
+FROM FORTY-TWO TO EIGHTY-FOUR.** It began by measuring which of the thirty-one display equations
+carried no citation. **Sixteen did not**, because the equation review had made a dozen subjects
+load-bearing that the draft had correctly treated as background. **The four-pass rhythm has no step
+that re-asks whether an absent subject has become load-bearing**, and this audit is that step.
+
+**THE LARGEST GAIN CAME FROM BIBLIOGRAPHIES AND NOT FROM SWEEPING.** The Quiet Spike flight test
+report, the shaped-boom demonstration paper and the Mach cutoff investigation each list the work they
+were built on, and the article had been using their accounts of those documents rather than the
+documents themselves. **This is the A350 finding one article later.** It added the Gulfstream design
+chain from 2003 to 2009 including the March 2004 extendable-spike patent, the classical literature
+from 1956 to 1979 including Whitham on weak shock propagation and Hayes with the stratified-atmosphere
+code, the human-response experiments the loudness procedure was calibrated against, and the standard
+atmosphere the article computes in.
+
+**AND A FINDING THAT CHANGED THE SHAPE OF THE STORY. Mach cutoff was measured in flight and published
+in 1971**, two years before the prohibition it now helps displace and fifty-four years before the
+order to repeal it. **The article had it as the modern alternative demonstrated in 2012.** That turns
+the closing argument from a new technique overtaking an old aeroplane into an old technique outlasting
+one.
+
+**THE EQUATION PASS HAD SHIPPED AN ANACHRONISM.** A regulatory limit of 0.11 pounds per square foot
+went into an article dated November 2025, and it is the interim limit in a notice of proposed
+rulemaking published in **July 2026**. The prose promised it would `later appear` in an article that
+stops before it does. **An anachronism hides in a number as easily as in a sponsor's name.** The
+passage is re-anchored on Concorde at roughly two pounds per square foot, being 133.6 decibels peak
+and one part in 1,060 of ambient, and the verifier now refuses any year in the prose after the
+dateline.
+
+**A DOUBLED BACKSLASH IS INVISIBLE TO A MACRO ALLOWLIST**, since `\times` contains `	imes`, so the
+check added in the previous pass passed it while MathJax would have rendered a line break and a word.
+**A hard-coded word list in the verifier also reported the article as wrong when the checker was the
+stale one.** Both are fixed and both fixes were proved by injecting the defect.
+
+**ONE IDENTIFIER COULD NOT BE VERIFIED AND WAS DROPPED RATHER THAN CITED**, the standard monograph of
+the subject, whose report-server API returns 404 on four consecutive requests while its citations page
+returns a 200 that is the single-page-app shell.
+
+**A NEW CONTAMINANT FAMILY WAS EARNED. `community response` IS AN ECOLOGICAL TERM AS WELL AS AN
+ACOUSTIC ONE**, and a plant-community treatment study reached the kept set of a survey whose
+second-largest cluster is community response to noise. Coupled atmosphere-ocean modelling was recorded
+beside it. **Store 132 patterns, seventeen tags**, and all three sweeps are now re-gated together
+whenever the store changes.
+
+**The stub-isolated production build succeeded with no Liquid error, against the exact
 bytes committed**, the checksum having been matched against the stub copy before the build started and
 against the draft after it finished. **The rendered audit reports no findings across 90 pages.** Source
 and rendered display-equation counts agree at **31**, with **zero raw dollar pairs leaking**, zero
-unresolved reference brackets, zero unexpanded slots and zero unrendered Liquid.
+unresolved reference brackets, zero unexpanded slots and zero unrendered Liquid. **105 prose citation
+labels were checked against the titles they point at and none mismatched.**
 
 
 ## X-Planes Boeing X-53 Active Aeroelastic Wing A350 2025-11-28

@@ -5,130 +5,130 @@
 ## Last Updated
 
 **Date**: 2026-09-07
-**Task**: **A351, X-Planes: Gulfstream X-54, equation-density review. The second of four.**
+**Task**: **A351, X-Planes: Gulfstream X-54, primary-reference review. The third of four.**
 Committed and **not pushed**, which is what this pass asks for. **Not published**, and publication of
 the series still not authorised. **Fifty-five of seventy-two drafted.**
 
-**Eleven display equations to thirty-one.**
+**Report primaries 318 to 380, being 10.4 percent to 12.1. Curated sources forty-two to eighty-four.**
 
 ---
 
-## The Pass Changed a Conclusion Twice, Which Is What It Is For
+## The Largest Gain Came From Bibliographies, Not From Sweeping
 
-**Adding the equations was not the point. Working them was.** Two of the article's own claims did not
-survive being computed properly, and both errors ran in the direction that flattered the argument.
+**Sixteen of the article's thirty-one display equations carried no citation at all**, which the pass
+began by measuring rather than assuming. The equation review had made a dozen subjects load-bearing
+that the draft pass had correctly treated as background, and **the four-pass rhythm has no step that
+re-asks whether an absent subject has become load-bearing.** This audit is that step.
 
-### The Draft Divided by the Wrong Distance
+**Three primary documents carry bibliographies naming exactly what those equations needed.** The Quiet
+Spike flight test report, the shaped-boom demonstration paper and the Mach cutoff investigation each
+list the work they were built on, and this article had been using their ACCOUNTS of those documents
+rather than the documents. **This is the A350 finding, one article later, and it doubled the curated
+set.**
 
-**A boom does not travel straight down.** The ray leaves normal to the Mach cone, so it makes the Mach
-angle with the vertical and the path from 45,000 feet at Mach 1.4 is
-
-    r = h / cos(mu) = h / sqrt(1 - 1/M^2)
-
-which is **19,598 metres and not 13,716**. Every percentage in the draft's coalescence table was too
-large by 42.9 percent. **The correction makes the finding stronger, which is exactly why it was easy
-to miss.**
-
-### And the Conclusion Is Conditional, Which the Plane-Wave Form Hid
-
-**The draft said the coalescence result did not depend on the assumed shock strength.** It looked that
-way because dividing a fixed closing rate into a fixed separation scales the same at every strength.
-**Adding geometric spreading breaks that.** Both shocks weaken as roughly the inverse square root of
-distance, so integrating
-
-    ds/dr = -((gamma+1)/(4 gamma)) delta_0 sqrt(r_0/r)
-
-to zero separation gives `sqrt(r_c) = sqrt(r_0) + L/(2 sqrt(r_0))`, where `L` is the plane-wave answer
-and `r_0` is one aeroplane length.
-
-| Strength difference | Plane wave | With spreading | Share of the ray path |
-|---|---|---|---|
-| 0.01 | 1,729 m | 40,177 m | **never completes** |
-| 0.02 | 864 m | 10,491 m | 53.5 percent |
-| 0.05 | 346 m | 1,902 m | 9.7 percent |
-| 0.10 | 173 m | 577 m | 2.9 percent |
-
-**At the weakest strength in the range the shocks would still be separate when they arrived.** The
-finding holds at 0.02 and above, which is where an aeroplane the size of an F-15 sits. **So the
-programme's stated reason is right about its own aeroplane and is not a general truth about spikes**,
-and the article now says the smaller thing.
+- **The Gulfstream design chain from 2003 to 2009.** The company's supersonic vehicle studies, its
+  non-axisymmetric shaping method, Henne's published case for the small supersonic civil aircraft, the
+  extendable-spike patent of March 2004, the prototype design and validation, the flight results, the
+  aerodynamic effect of a thirty-foot boom on the host, and the propagation work it went on publishing
+  after the aeroplane it wanted was not built.
+- **The classical literature from 1956 to 1979.** Whitham on weak shock propagation, Jones on lower
+  bounds, Hayes with the stratified-atmosphere propagation code, McLean on nonasymptotic effects,
+  Carlson on transport design, Darden in real rather than isothermal atmospheres, and the wind-tunnel
+  study that validated the minimisation concept before anybody flew it.
+- **The human-response experiments the loudness procedure was calibrated against**, including booms of
+  different shapes and rise times, booms against aircraft flyovers, and simulated booms in people's
+  own homes.
+- **The standard atmosphere the article computes in**, which is the A341 lesson document.
 
 ---
 
-## Symbols Collided Four Times and a Table Now Prevents It
+## And a Finding That Changed the Shape of the Story
 
-**`T` was the temperature, the N-wave duration and the sound-exposure reference time.** **`L` was the
-atmospheric lapse rate, the coalescence distance and the sound pressure level.** **`R` was the gas
-constant and the ground reflection coefficient.** **`\ell` was the lift per unit length and the shock
-separation.** A349 shipped the same class of defect using `m` and `n` for two things each.
+**Mach cutoff was measured in flight and published in 1971.** The article had it as the modern
+alternative, demonstrated by the space agency in 2012. **It is two years older than the prohibition it
+now helps displace and fifty-four years older than the order to repeal it.**
 
-**`verify_numbers.py` now carries a declared symbol table and refuses anything undeclared.** A regex
-cannot know what a symbol means, so the instrument is the table plus the refusal, and maintaining it is
-what catches a collision because a second meaning has nowhere to go. **It was proved non-vacuous by
-injecting an undeclared symbol and watching it fail.**
-
-**The check itself was wrong on its first run** and reported LaTeX operators as undeclared symbols,
-because `\int_{0}` is `\int` followed by an underscore and a trailing word boundary never matches one.
-**A broken diagnostic reports the data as broken**, which is the direction that wastes work.
+**That came out of a bibliography and not out of a sweep.** It turns the closing argument from a new
+technique overtaking an old aeroplane into an old technique outlasting one.
 
 ---
 
-## A Pipe Masked a Failed Assembly and the Verifier Validated Stale Bytes
+## The Equation Pass Had Shipped an Anachronism
 
-**`python3 assemble.py | tail -3 && python3 verify_numbers.py` reports the exit status of `tail`**, so
-a failed assembly let the verifier run against the previous draft and report all checks passing.
-**A checker that silently validates stale output is worse than no checker.** `verify_numbers.py` now
-refuses to run when `body.md` or any input JSON is newer than the draft, which is cheaper than
-remembering to set `pipefail`.
+**A regulatory limit of 0.11 pounds per square foot went into the article dated November 2025.** It is
+the interim limit in a notice of proposed rulemaking published in **July 2026**, seven months after
+the editorial date, and the prose promised it would `later appear` in an article that stops before it
+does.
 
----
+**An anachronism hides in a number as easily as in a sponsor's name**, which is the A350 lesson met
+from a new direction. The passage is re-anchored on Concorde, which boomed throughout the period the
+article covers, at roughly two pounds per square foot, 133.6 decibels peak and one part in 1,060 of
+ambient. **No pressure target for a shaped signature is quoted, because a low-boom goal is stated in
+perceived level and the two are not interconvertible.**
 
-## What Was Added
-
-**Twenty new display equations.** The speed of sound; the ray path from altitude; the N-wave waveform
-and its positive-phase impulse; the total lift term in the equivalent area and the resulting
-square-root weight scaling; the von Karman wave-drag integral; the two standard-atmosphere layers; the
-dynamic pressure in its pressure-and-Mach form; the aging length; the spreading-corrected coalescence;
-the Taylor shock profile; the ray invariant for a stratified medium; the sound pressure level; the
-ground reflection factor; the threshold as a pressure ratio; the effective sound speed with wind; the
-lateral cutoff azimuth; and the turning altitude.
-
-**Three of them produce numbers the article had no way to state before.**
-
-- **The dynamic pressure relation is a check on the record and the record passes it.** The Quiet Spike
-  report gives 685 pounds per square foot at Mach 1.8 and 45,000 feet, and inverting the relation at
-  that altitude gives **Mach 1.782**.
-- **The turning altitude collapses fast.** At Mach 1.10 the ray turns at 4,001 metres and at Mach 1.15
-  at 251 metres, so five hundredths of Mach take the shadow zone from 13,125 feet to 823. **The
-  technique that actually changed the rule is a forecast rather than a chart.**
-- **The threshold in acoustic units.** 0.11 pounds per square foot is 5.27 pascals, **108.4 decibels
-  peak** against roughly 133.6 for a Concorde at cruise, and one part in 19,000 of ambient.
-
-**And one is an engineering tension the article had stated only in words.** Wave drag is a functional
-of the same second derivative that sets the F-function, so **the boom and the drag are two functionals
-of one function** and the distribution minimising one does not minimise the other.
+**`verify_numbers.py` now refuses any year in the prose after the dateline**, and it was proved
+non-vacuous by injecting one.
 
 ---
 
-## Two Passages Narrated the Article's Own Drafting History and Were Rewritten
+## Instruments
 
-**A reader has no access to a superseded draft.** The corrected position is now stated directly in the
-argument and the correction itself lives in What the Data Changed, which is the A345 rule and the
-section that exists for it.
+**A doubled backslash is invisible to a macro allowlist.** `\\times` contains `\times`, so the check
+added last pass passed it while MathJax would have rendered a line break followed by the word. **It
+came out of an emitter whose escaping had been through a heredoc twice.** The verifier now refuses a
+doubled backslash in math, proved by injection.
+
+**A hard-coded word list in the verifier reported the article as wrong when the checker was stale.**
+The store gained two tag families this pass, so the spelled-out count moved from nine to eleven and
+the check still expected nine. **A spelled-out claim needs a spelled-out check computed from the same
+data the prose is.**
+
+**One anchor pointed at a paper whose title was not the label citing it**, and two anchors shared one
+URL. The label checker found the first and the reference integrity check found the second, and they
+were the same defect seen from two directions.
+
+**One identifier could not be verified and was dropped rather than cited.** `Sonic Boom: Six Decades
+of Research` is the standard monograph and the NTRS API returns 404 for it on four consecutive
+requests while the citations page returns 200. **That 200 is the single-page-app shell.** An HTTP 200
+is not verification.
+
+---
+
+## A New Contaminant Family, Earned by This Subject
+
+**`community response` is an ecological term as well as an acoustic one.** `Plant Community Response
+in Small Plots One Year after Treatment with Triclopyr and Endothall` reached the kept set of a survey
+whose second-largest cluster is community response to noise. **The pattern is anchored on the ORGANISM
+word rather than on `community`, which must survive.**
+
+**Coupled atmosphere-ocean modelling** was recorded at the same time, and it also removed three North
+Pacific Acoustic Laboratory studies of ocean SHADOW ZONE arrivals that had entered through the
+atmospheric shadow-zone anchor. **Store 132 patterns, seventeen tags.**
+
+**Every sweep is re-gated whenever the store changes.** A pattern is global, so re-gating only the
+sweep that motivated it would leave the corpus as the union of two instruments. `merge_sweeps.py`
+applies one gate, one store and one tag set to all three sweeps, and the store's four measured numbers
+were re-taken with the current instrument rather than carried forward.
 
 ---
 
 ## Counts
 
-| Quantity | Draft pass | After this pass |
-|---|---|---|
-| Lines | 6,745 | 6,891 |
-| Words | 39,473 | 41,392 |
-| Display equations | 11 | **31** |
-| Reference definitions | 3,159 | 3,159 |
-| Prose citation labels checked | 41 | 48 |
+| Quantity | Draft | Equations | Primaries |
+|---|---|---|---|
+| Lines | 6,745 | 6,891 | 7,057 |
+| Words | 39,473 | 41,392 | 44,159 |
+| Display equations | 11 | 31 | 31 |
+| Reference definitions | 3,159 | 3,159 | 3,231 |
+| Research records | 3,072 | 3,072 | 3,143 |
+| Report primaries | 318 at 10.4 percent | unchanged | **380 at 12.1 percent** |
+| Curated sources | 42 | 42 | **84** |
+| Retrieved across sweeps | 8,289 in two | unchanged | **9,521 in three** |
+| Prose citation labels checked | 41 | 48 | **105** |
 
-**References were not touched by this pass**, which is the next one's job.
+**The measure misses four of the documents that decide the argument** — a designation registry, an
+executive order, a part of the code of federal regulations and a patent — and the article reports the
+count of named primary documents beside the fraction rather than instead of it.
 
 ---
 
@@ -138,4 +138,5 @@ section that exists for it.
 
 **The OpenLibrary work pages returning Internal Error to a reader** is also unchanged.
 
-**Nothing is pushed.** The next prompt in the rhythm is the primary-reference review.
+**Nothing is pushed.** The next prompt in the rhythm is the publication review, which is the one that
+asks for a push.

@@ -369,6 +369,28 @@ NOISE_PATTERNS = [
      "a general bibliographic index",
      "geophysics"),
 
+    # ---- A351, the Gulfstream X-54. Contaminants of a COMMUNITY-NOISE survey.
+    (r"(?:plant|vegetation|species|microbial|benthic|fish|bird|insect|algal|coral|"
+     r"invertebrate|macroinvertebrate|floral|faunal)\s+communit",
+     "A351: `COMMUNITY RESPONSE` IS AN ECOLOGICAL TERM AS WELL AS AN ACOUSTIC ONE. "
+     "'Plant Community Response in Small Plots One Year after Treatment with Triclopyr "
+     "and Endothall' reached the kept set of a survey whose second-largest cluster is "
+     "community response to noise. **The phrase is the exact subject anchor of any "
+     "annoyance survey**, so the pattern is anchored on the ORGANISM word rather than on "
+     "`community`, which must survive",
+     "ecology"),
+    (r"atmosphere[- ]ocean|air[- ]sea (?:interface|coupl|flux)|"
+     r"coupled (?:atmosphere|ocean)[\w -]{0,20}(?:ocean|atmosphere|wave) model|"
+     r"\bocean model(?:ing|ling|s)?\b",
+     "A351: COUPLED ATMOSPHERE-OCEAN MODELLING shares every atmospheric anchor a "
+     "propagation survey needs. 'Particle Methods for Atmosphere and Ocean Modeling' and "
+     "'A Unified Air-Sea Interface for Fully Coupled Atmosphere-Wave-Ocean Models' both "
+     "reached the kept set. **It also removed three North Pacific Acoustic Laboratory "
+     "studies of SHADOW ZONE arrivals in the ocean**, which had entered through the "
+     "atmospheric shadow-zone anchor and which the marine family could not catch because "
+     "this article had switched marine off",
+     "ocean-modelling"),
+
     # ---- general field bleed, seen across several sweeps
     (r"\bpatient\b|\bclinic", "medical bleed, seen in most sweeps", "medicine"),
     (r"\bvaccin|\bepidemi|\bmortality\b", "public-health bleed", "medicine"),
