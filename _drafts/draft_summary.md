@@ -21,11 +21,36 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_lockheed_martin_x55_acca.markdown`, A352, editorial date 2025-11-30, series `x_planes` index 56 of 72.
 
-**10,459 lines, 8 display equations, 4,970 reference definitions, 59,764 words after the draft
-pass.** **DRAFT PASS COMPLETE, the first of four.** Committed and **NOT pushed**, which is the
-rhythm. **Not published**, and publication of the series has never been authorised.
+**10,681 lines, 31 display equations, 4,976 reference definitions, 62,552 words after the
+equation-density review.** **TWO OF FOUR PASSES COMPLETE.** Committed and **NOT pushed**, which is
+the rhythm. **Not published**, and publication of the series has never been authorised.
 **Manufacturing-demonstrator class, and the first article in this series whose subject is a way of
 building rather than a way of flying.**
+
+**THE EQUATION PASS TOOK 8 DISPLAY EQUATIONS TO 31 AND CHANGED TWO OF THE ARTICLE'S OWN
+EXPLANATIONS.** The draft was modelling the wrong fluid in its gas-transport argument, air and resin
+crossing the same channels with viscosities a factor of **540,541** apart, so evacuation is fast and
+sealing is slow and **four hours of vacuum would clear 12.1 metres of dry tow**. The length of the
+path was never the constraint. And the draft blamed the datasheet's cure margin partly on laminate
+thickness, where **a six millimetre facesheet equilibrates in two minutes against a four hour
+dwell**, so the margin is the oven, whose pressure buys a factor of **4.93** in convective heat
+transfer alongside its 7.35 in consolidation.
+
+**THE STRONGEST NEW RESULT IS WHY THE POST-CURE IS NOT OPTIONAL.** A thermoset vitrifies when its own
+glass transition overtakes the cure temperature, and the reaction stops. Inverting DiBenedetto gives
+a ceiling of **0.824 at 120 degrees and exactly 1 only at 180**, so `low-temperature curing` does not
+describe a complete process at all. **The sensitivity was computed rather than asserted** and the
+conclusion is parameter-free even though the numbers are not.
+
+**SURFACE TENSION LOCATES THE AUTOCLAVE'S REAL ADVANTAGE.** A vacuum bag at Plant 42 stops at **0.758
+micrometres** and a full autoclave at **0.103**, the ratio being the pressure ratio exactly.
+
+**AND A FIGURE THE DRAFT PASS DELETED CAME BACK WITH ARITHMETIC BEHIND IT.** The break-even run is
+**between 41 and 409 aeroplanes and 109 on the middle assumption**, against a run of one.
+
+**THE SYMBOL TABLE WAS A DICT LITERAL AND ABSORBED TEN DUPLICATE DECLARATIONS SILENTLY.** Rebuilding
+it to raise on a repeat found **five real collisions**, every one renamed in the article rather than
+declared twice. **Four more checkers failed to discriminate** and were repaired with injection proofs.
 
 **THE REGISTRY ENTRY IS THE ARTICLE AND ITS UNIQUENESS IS MEASURED RATHER THAN ASSERTED.** The X-55A
 was allocated on 19 October 2009 to Lockheed Martin, with two Pratt and Whitney PW306B engines and
@@ -85,12 +110,12 @@ vacuous.
 **Verifier clean at 0 errors and 0 warnings. Tests 106 of 106. Lint 0 defects.** The article's own
 verifier runs six checks and every one was proved capable of failing by injection.
 
-**The stub-isolated production build succeeded in 700 seconds with no Liquid error, against the
+**The stub-isolated production build succeeded in 229 seconds with no Liquid error, against the
 exact bytes committed**, the checksum having been matched against the stub copy before the build
 started and against both stub and draft after it finished. **The rendered audit reports no findings
-across 91 pages.** Source and rendered display-equation counts agree at **8**, with **zero raw dollar
+across 91 pages.** Source and rendered display-equation counts agree at **31**, with **zero raw dollar
 pairs leaking**, **zero unresolved reference brackets**, **zero unexpanded slots** and **zero
-unrendered Liquid**. The page is 934,230 bytes.
+unrendered Liquid**. The page is 955,254 bytes.
 
 ## X-Planes Gulfstream X-54 A351 2025-11-29
 

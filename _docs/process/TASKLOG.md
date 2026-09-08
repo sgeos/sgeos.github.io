@@ -10,100 +10,82 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A351 are drafted with all four passes complete on every one, committed and
-PUSHED. A352, Lockheed Martin X-55 ACCA, has completed its DRAFT PASS and is committed and NOT
-pushed**, which is the rhythm. **Fifty-six of seventy-two drafted. None published, and publication has
-never been authorised. Sixteen articles remain.** The next pass is **A352's equation-density review**.
+PUSHED. A352, Lockheed Martin X-55 ACCA, has completed its DRAFT PASS and its EQUATION-DENSITY
+REVIEW, and is committed and NOT pushed**, which is the rhythm. **Fifty-six of seventy-two drafted.
+None published, and publication has never been authorised. Sixteen articles remain.** The next pass
+is **A352's primary-reference review**.
 
-**THE SUBJECT IS MANUFACTURE AND NOT FLIGHT, AND THE REGISTRY ENTRY SAYS SO.** The X-55A was
-allocated on 19 October 2009 to Lockheed Martin with two Pratt and Whitney PW306B engines and the
-Air Force as sponsor, to `validate extreme time and cost compression in airframe manufacture using
-large, unitized composite structures fabricated using low-temperature, out-of autoclave curing
-techniques`. **Of 526 allocation rows in the addendum it is the only entry that names manufacture,
-the only one that names fabrication, the only one that names a unitized structure and the only one
-that mentions an autoclave.** Ten other entries name cost and every one of them describes a vehicle
-that is itself cheap, so cost is an adjective there and the dependent variable here. **The FA-18E
-entry is the register's only other construction claim**, recording forty-two percent fewer structural
-parts as a property of an aeroplane already in production.
+**THE EQUATION PASS TOOK 8 DISPLAY EQUATIONS TO 31 AND CHANGED TWO OF THE ARTICLE'S OWN
+EXPLANATIONS.** Adding the equations was not the point. Working them was, and in both cases the draft
+had been asserting something the arithmetic does not support.
 
-**THE NUMBER ARRIVED 139 DAYS AFTER THE FIRST FLIGHT.** The aeroplane flew on 2 June 2009 and was
-designated on 19 October. **That is the third article running in which the number and the flying have
-come apart**, after an aeroplane designated a year after it stopped flying and a number allocated to
-an aeroplane never built.
+**THE DRAFT WAS MODELLING THE WRONG FLUID IN ITS GAS-TRANSPORT ARGUMENT.** Air and resin cross the
+same channels with viscosities a factor of **540,541** apart, so evacuation is fast and sealing is
+slow. Air crosses ten millimetres of dry tow in **0.01 seconds** and four hours of vacuum would clear
+**12.1 metres** of it. **The length of the path was never the constraint**, and the result survives a
+hundredfold error in the permeability because the length goes as its square root. **What the process
+races is whether the channels are still open**, which is a question about out-time, and the draft had
+kept the void mechanism and the out-life argument as separate arguments.
 
-**THE ARTICLE'S CENTRAL ARITHMETIC IS THAT THE REGISTRY ENTRY PULLS AGAINST ITSELF.** Low-temperature
-curing and time compression run in opposite directions, and the material datasheet prices the tension
-exactly. **Fitting an Arrhenius law to two lines of the MTM45-1 cure table gives 54.5 kilojoules per
-mole**, which predicts the table's third entry at 3.02 hours against a recommended four, a margin of
-32.2 percent that is what a process specification carries. **Counting the mandatory post-cure, the
-low-temperature route costs three times the oven dwell of the autoclave route it replaces and the
-lowest-temperature option costs eleven times.** So the time compression cannot come from the cure. It
-comes from part count, which is a recurring saving a run of one cannot collect.
+**THE DRAFT BLAMED THE DATASHEET'S CURE MARGIN PARTLY ON LAMINATE THICKNESS AND THE FOURIER TIME SAYS
+OTHERWISE.** A six millimetre facesheet equilibrates in **two minutes**, which is **0.83 percent** of
+a four hour dwell. **The margin is the oven and the tool.** Putting a number on the oven found the
+autoclave's pressure buying a factor of **4.93** in convective heat transfer through the
+Dittus-Boelter scaling, alongside its factor of 7.35 in consolidation. **The article had been counting
+one of those and not the other.**
 
-**AND THE SCHEDULE IS THE HALF THAT FAILED.** Twelve months were asked for and about twenty were
-taken, an overrun of roughly two thirds, **because the skin on the lower fuselage did not bond and a
-second fuselage had to be built**. The demonstration of time compression was delayed by the process
-being demonstrated. The cost half held, and the trade press recorded the programme as seven months
-late and on budget.
+**THE STRONGEST NEW RESULT IS WHY THE POST-CURE IS NOT OPTIONAL.** A curing thermoset vitrifies when
+its own glass transition overtakes the cure temperature, and the reaction stops there. Inverting
+DiBenedetto for the conversion gives a ceiling of **0.824 at 120 degrees and 0.857 at 130**, and
+**exactly 1 only at 180**. **The registry entry's phrase `low-temperature curing` does not describe a
+complete process.** It describes the first half of a two-stage one whose second stage runs at exactly
+the temperature the first was chosen to avoid. **The sensitivity was computed rather than asserted**:
+two of the three parameters are assumptions and the ceiling moves between 0.741 and 0.899 across the
+range they occupy, **while the conclusion does not move at all**, because vitrification is defined by
+the glass transition meeting the cure temperature and nothing else enters that definition.
 
-**THE FASTENER ARITHMETIC IS THE SHARPEST RESULT.** Thirty-six thousand fasteners were not installed,
-and at two to ten minutes each and a hundred to two hundred dollars an hour that is **0.24 to 2.44
-percent of the 49,097,981 dollar Phase II contract**. The saving is real and it is recurring, and a
-demonstrator is a run of one.
+**SURFACE TENSION LOCATES THE AUTOCLAVE'S REAL ADVANTAGE.** A void's own surface sustains a pressure
+that grows as it shrinks, so setting that excess equal to the available consolidation gives the
+radius below which pressure cannot close a void at all. **A vacuum bag at Plant 42 stops at 0.758
+micrometres and a full autoclave at 0.103.** The advantage is not bulk squeezing. It is reaching
+voids **7.35 times smaller**, and the factor is the pressure ratio exactly.
 
-**A SUSPICION FAILED AND THE FAILURE IS IN THE ARTICLE.** The first draft of the autoclave argument
-said no autoclave was large enough. **The pressure vessel scaling gives 18.4 tonnes of shell for a
-vessel that would take the part**, an ordinary industrial machine, so the size argument is real at
-launch-vehicle scale and false at this one. The steel goes as the cube of the diameter, which is why
-it is real at the other scale.
+**AND A FIGURE THE DRAFT PASS DELETED HAS COME BACK WITH ARITHMETIC BEHIND IT.** The conclusion had
+said the saving only exists on the hundredth aeroplane, which was a rhetorical number no checker had
+seen, and it was removed. **Dividing the programme cost by the recurring saving puts the break-even
+between 41 and 409 aeroplanes and at 109 on the middle assumption.** The rhetorical figure was
+approximately right, which is not a reason to have kept it. **The article states plainly that this is
+not the industrial break-even**, which would weigh the saving against a production programme's own
+non-recurring cost, a figure this article does not have.
 
-**THE ONE PLACE THE ATMOSPHERE IS LOAD-BEARING DECIDES A MANUFACTURING SPECIFICATION.** A vacuum bag
-cannot press harder than the air outside it, so consolidation is bounded by the elevation of the
-factory floor. **Air Force Plant 42 is at 2,543 feet, where the whole atmosphere is 27.27 inches of
-mercury and the prepreg datasheet asks for a minimum vacuum of 29.** Read as a gauge vacuum that
-specification is unattainable on that site by 1.73 inches. Elevation alone costs 8.85 percent of the
-available consolidation pressure. **`gate.ATMOSPHERE` is named for that computation and for nothing
-else.**
+**THE SYMBOL TABLE WAS A DICT LITERAL AND A DICT LITERAL ACCEPTS A DUPLICATE KEY SILENTLY.** Ten
+symbols had been declared twice and the later declaration simply won. **The whole point of a declared
+table is that a second meaning has nowhere to go, and a dict was quietly giving it somewhere.**
+Rebuilding it to raise on a repeat found **five real collisions**: `h` was the geopotential altitude
+and the sandwich core separation, `\lambda` the atmospheric lapse rate and the DiBenedetto parameter,
+`\rho` the density of steel and the learning progress ratio, `n` the reaction order and both the unit
+index and the Prandtl exponent, and `A` the Arrhenius pre-exponential and the skin area's stem. **Every
+one was renamed in the article rather than declared twice.**
 
-**THE SWEEP STORE WAS ARMED AGAINST THIS ARTICLE'S ENTIRE SUBJECT AND THE MEASUREMENT WAS TAKEN
-FIRST.** With every pattern armed the store refused **2,430 of the 11,325-record main harvest, being
-21.5 percent**, and **a single entry accounted for 1,529 of them, 63 percent of every deletion**,
-being the alternation `epoxy`, `resin`, `laminate` recorded by A335. **Seven new tag families were
-written and one existing entry was split**, taking the refusal to 432 at 3.8 percent and recovering
-1,998 records. **The split is the new lesson and it runs opposite to A351's**: that article found a
-contaminant family spanning two entries, this one found a single entry spanning two families, and
-tagging the whole entry would have readmitted rotor blade pockets and hot corrosion. Store **134
-patterns, 25 tag families**, and `dentistry` was added in the same commit because switching off
-`composites`, `adhesive-bonding` and `fracture` readmitted thirty-nine records on restorative
-dentistry.
+**FOUR MORE CHECKERS FAILED TO DISCRIMINATE AND WERE REPAIRED WITH INJECTION PROOFS.** The symbol
+scanner collapsed `\mathrm{Nu}` to `Nu` and read `N` and `u` as two undeclared symbols; a nested brace
+in a subscript defeated its non-nesting parse; the sweep-time property check compared rounded figures
+and reported the data as wrong when the tolerance was wrong, which is A342's rule met from the other
+side; and a conditional expression inside a dict literal bound the whole entry rather than the value.
 
-**REWORDING BEAT SWEEPING IN FIVE OF SIX THIN SUBJECTS, WHICH IS THE EIGHTH ARTICLE RUNNING.**
-Out-life went 7 to 150 on vocabulary alone and 150 to 196 on a sweep. **The three columns are
-reported separately because the first version of that table conflated them**, crediting the
-vocabulary with the sweep's records inside the very fragment that warns against doing so.
-
-**FIVE CHECKERS COULD NOT FAIL WHEN FIRST WRITTEN AND EVERY ONE WAS CAUGHT BY COUNTING WHAT IT HAD
-LOOKED AT.** The gate's self-satisfying-conjunction test parsed zero candidates and missed an
-injected defect. The store injection harness patched the source pattern list while the code reads a
-compiled cache, so it injected nothing and **reported a good test as vacuous**. The symbol table
-stripped every macro before scanning and could not see a Greek letter. The assembler's leftover-slot
-regex could not match a digit, and nine of eighty-two slots carry one. And the probe's separator
-helper crashed on a character class.
-
-**THE PERIOD STATISTICS NOW STOP AT THE DATELINE AND THE BIBLIOGRAPHY DOES NOT.** 136 records carry a
-year after 30 November 2025 and are excluded from every statistic while remaining cited, because a
-rate computed over papers not yet written is a claim about the future wearing the clothes of a
-measurement. **A351 states a median over a corpus holding forty-nine records dated after its own
-dateline**, which is the established convention for citation and had not been separated from
-statistics before.
+**EQUATION CITATION COVERAGE WAS AUDITED AT THE END OF THE PASS RATHER THAN THE START OF THE NEXT.**
+Five of thirty-one displays carried no nearby citation, against sixteen of thirty-one in A351, and
+three were closed with curated identifiers taken from the harvest. **The two that remain are one-line
+consequences of the relation immediately above them.**
 
 **Verifier clean at 0 errors and 0 warnings. Tests 106 of 106. Lint 0 defects.**
 
-**The stub-isolated production build succeeded in 700 seconds with no Liquid error, against the
+**The stub-isolated production build succeeded in 229 seconds with no Liquid error, against the
 exact bytes committed**, the checksum having been matched against the stub copy before the build
 started and against both stub and draft after it finished. **The rendered audit reports no findings
-across 91 pages.** Source and rendered display-equation counts agree at **8**, with **zero raw dollar
+across 91 pages.** Source and rendered display-equation counts agree at **31**, with **zero raw dollar
 pairs leaking**, **zero unresolved reference brackets**, **zero unexpanded slots** and **zero
-unrendered Liquid**. The page is 934,230 bytes.
+unrendered Liquid**. The page is 955,254 bytes.
 
 
 **Open for the pilot.** A324's malformed `book_jenkins` label over a correct key, unchanged. The
@@ -832,6 +814,7 @@ the pilot.
 
 | Date | Change |
 |------|--------|
+| 2026-09-08 | **A352 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed. NOT published.** **Display equations 8 to 31**, lines 10,459 to 10,681, words 59,764 to 62,552, references 4,970 to 4,976, curated identifiers 25 to 28. **WORKING THE RELATIONS CHANGED TWO OF THE ARTICLE'S OWN EXPLANATIONS.** The draft's gas-transport argument had one fluid where there are two, air and resin crossing the same channels with viscosities a factor of 540,541 apart, so evacuation is fast and sealing slow and **four hours of vacuum would clear 12.1 metres of dry tow**, which survives a hundredfold permeability error because the length goes as its square root. **The path length was never the constraint**, and the void mechanism and the out-life argument are one argument the draft had as two. **The cure margin was blamed on laminate thickness and the Fourier time says otherwise**, a six millimetre facesheet equilibrating in two minutes against a four hour dwell, so the margin is the oven, whose pressure buys **4.93** in convective heat transfer alongside 7.35 in consolidation. **THE STRONGEST NEW RESULT IS WHY THE POST-CURE IS NOT OPTIONAL**: a thermoset vitrifies when its glass transition overtakes the cure temperature, and inverting DiBenedetto gives a ceiling of 0.824 at 120 degrees and exactly 1 only at 180, so `low-temperature curing` does not describe a complete process. **The sensitivity was computed and the conclusion is parameter-free while the numbers are not.** **Surface tension locates the autoclave's real advantage**, a bag stopping at 0.758 micrometres and an autoclave at 0.103, the ratio being the pressure ratio exactly. **A figure the draft pass deleted came back with arithmetic behind it**, the break-even run being 41 to 409 aeroplanes and 109 on the middle assumption. **THE SYMBOL TABLE WAS A DICT LITERAL AND ABSORBED TEN DUPLICATE DECLARATIONS SILENTLY**; rebuilding it to raise found **five real collisions** in `h`, `\lambda`, `\rho`, `n` and `A`, every one renamed in the article rather than declared twice. **Four more checkers failed to discriminate** and were repaired with injection proofs, including a property check that compared rounded figures and reported the data as wrong when the tolerance was wrong. **Equation citation coverage audited at the end of this pass**, five of thirty-one uncited against sixteen of thirty-one in A351, three closed. Verifier 0 errors 0 warnings, tests 106 of 106, lint 0 defects. **Build clean in 229 seconds against checksum-matched bytes, 91 pages, rendered audit reports no findings**, source and rendered display-equation counts agree at 31. |
 | 2026-09-08 | **A352 RESEARCHED AND WRITTEN, the draft pass, the first of four. Committed, NOT pushed. NOT published.** Lockheed Martin X-55 ACCA, editorial date 2025-11-30, series index 56. **10,459 lines, 8 display equations, 4,970 reference definitions, 59,764 words**, research 4,874, report primaries 308 at 6.3 percent, 25 curated identifiers with every title taken from the registry rather than typed. **THE SUBJECT IS MANUFACTURE AND NOTHING IN THE GATE IS AERODYNAMIC.** Of 526 allocation rows the X-55A is the only entry naming manufacture, fabrication, a unitized structure or an autoclave, and the ten other entries naming cost all describe vehicles that are themselves cheap. **THE STORE WAS ARMED AGAINST THE WHOLE SUBJECT AND THE MEASUREMENT WAS TAKEN BEFORE THE TAGS WERE WRITTEN**, refusing 2,430 of 11,325 at 21.5 percent with a single `epoxy|resin|laminate` entry accounting for 1,529 of them. Seven new tag families plus one entry SPLIT took it to 432 at 3.8 percent. **A352's lesson runs opposite to A351's**: a family can span two entries and an entry can span two families, and tagging the A347 rotor-repair entry whole would have readmitted blade pockets and hot corrosion. Store 134 patterns, 25 tags, `dentistry` added in the same commit as the sentence recording it. **REWORDING BEAT SWEEPING IN FIVE OF SIX THIN SUBJECTS**, out-life going 7 to 150 on vocabulary and 150 to 196 on a sweep, reported in three columns after the first version conflated them. **THE CENTRAL FINDING IS THAT THE REGISTRY ENTRY PULLS AGAINST ITSELF**, an Arrhenius fit to two lines of the MTM45-1 datasheet giving 54.5 kJ/mol and predicting the table's third entry to within the margin a process specification carries, and the low-temperature route costing three times the autoclave route's dwell once the mandatory post-cure is counted. **The schedule overran by roughly two thirds because the lower fuselage skin did not bond**, so the demonstration of time compression was delayed by the process being demonstrated. **Fastener labour is 0.24 to 2.44 percent of the contract**, which locates the saving in production rather than in a demonstrator. **A SUSPICION FAILED AND IS RECORDED**: an ACCA-sized autoclave is 18.4 tonnes of shell, so `no autoclave is large enough` is false at this scale. **Plant 42 at 2,543 feet cannot supply the 29 inches of vacuum the datasheet asks for**, which is why `gate.ATMOSPHERE` is named. **FIVE CHECKERS COULD NOT FAIL WHEN WRITTEN**, including an injection harness that patched a source list while the code read a compiled cache and therefore reported a good test as vacuous. Verifier 0 errors 0 warnings, tests 106 of 106, lint 0 defects. **Build clean in 700 seconds against checksum-matched bytes, 91 pages, rendered audit reports no findings**, source and rendered display-equation counts agree at 8 with zero raw dollar pairs leaking and zero unexpanded slots. |
 | 2026-09-06 | **A350 PUBLICATION REVIEW, the fourth and final pass. Committed and PUSHED. NOT published.** All fifty-four X-Planes drafts remain in `_drafts/`. Final state **8,036 lines, 27 display equations, 3,682 reference definitions, 47,556 words**, research 3,605, primaries 282 at 7.8 percent of which 275 carry a report-server identifier and 7 are journal papers named by hand. **READING THE OPENING AGAINST THE CONCLUSION FOUND TWO DEFECTS, MAKING SIX CONSECUTIVE ARTICLES.** The opening said `It worked` where the body spends three sections qualifying it, and **the conclusion predated three sections added in the two later passes** and mentioned none of them. **Eight conclusions probed and the three thin ones are the three that make the aeroplane interesting**, being the phenomenon it is named for, the effector it used instead and the constraint that dominated its flight test, **and none was thin because the probe was badly worded**. One was rephrased and harvested for, the two moves reported separately, 34 to 58 by rewording and 58 to 145 by a sweep of 1,569 fresh records of which 310 passed the gate. **`The Leading Edge` is a geophysics journal** and the family is now in the store, which stands at 130 patterns. Retrieved 10,181 across three sweeps, 3,715 through the gate. |
 | 2026-09-05 | **A350 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed. NOT published.** References 3,372 to 3,384, research 3,296 to 3,307, **primaries 247 to 261, being 7.5 to 7.9 percent**, lines 7,299 to 7,404, words 42,861 to 43,817, equations unchanged at 27. **THE PROGRAMME'S OWN CITATION CHAIN HAD BEEN READ AND NOT CITED**, and fourteen sources from the flight test report's own bibliography were added and verified. **The primary count now splits into 254 report-server identifiers the corpus measure can see and 7 named journal papers it cannot**, and the article reports both. Two further wartime reports were added to the classical sizing literature that had stood at two cited once each. **An anachronism was caught in the prose read**, the article having the Air Force Research Laboratory sponsor a 1984 programme when that laboratory was formed in 1997. **A wait-on-log matched a previous build's completion token** because the log had not been truncated when the wait began, which is the third variant in two articles of trusting a stale signal. |
