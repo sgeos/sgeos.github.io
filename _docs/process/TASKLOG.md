@@ -10,66 +10,65 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A352 are drafted with all four passes complete on every one,
-committed and PUSHED. A353, Lockheed Martin X-56, has completed TWO of four passes** and is
-committed but deliberately not pushed. **Fifty-seven of seventy-two drafted. None published,
-and publication has never been authorised. Fifteen articles remain.**
+committed and PUSHED. A353, Lockheed Martin X-56, has completed THREE of four passes** and
+is committed but deliberately not pushed. **Fifty-seven of seventy-two drafted. None
+published, and publication has never been authorised. Fifteen articles remain.**
 
-**DISPLAY EQUATIONS 8 TO 36, DECLARED SYMBOLS 20 TO 51**, lines 8,380 to 8,554, words 49,601
-to 51,338. References unchanged at 3,971, because this pass adds relations rather than
-sources.
+**REPORT PRIMARIES 275 AT 7.1 PERCENT TO 496 AT 10.3**, references 3,971 to 4,905, research
+3,862 to 4,796, lines 8,554 to 10,442, words 51,338 to 61,958. Display equations unchanged
+at 36.
 
-**THE STRONGEST NEW RESULT IS AN EXCHANGE RATE AND IT IS EXACT AND PARAMETER FREE.** The
-programme wanted thirty to forty percent more aspect ratio. **The prize is induced drag**,
-which falls as the reciprocal of the aspect ratio ratio, giving 23.1 percent at thirty and
-28.6 at forty, with neither lift coefficient nor span efficiency surviving into the ratio.
-**The price is bending stiffness and it goes as the square**, because the cantilever bending
-frequency falls with the square of semispan, the short period frequency rises with airspeed,
-body freedom flutter is where they coalesce, and span goes as the square root of aspect ratio
-at fixed area. **Holding the flutter speed therefore costs 1.69 times the bending stiffness
-at thirty percent and 1.96 at forty.** The structural price is the square of the aerodynamic
-prize, and **that single relation is the entire commercial argument for this aeroplane**,
-since a feedback law removes the exponent. The uniform-cantilever idealisation is stated
-rather than buried, because the exponent survives it even though the numbers are approximate.
+**THE BIBLIOGRAPHY FOUND WHAT THE SWEEP MISSED, WHICH IS THE OPPOSITE OF A352.** That
+article transcribed its programme's reference list and found twenty-six of thirty-two
+already present. **A353 found only six of twenty-three.**
 
-**THREE MORE RELATIONS CHANGED WHAT THE ARTICLE COULD SAY.** The 0.04 damping gate became
-physical, being an amplitude ratio of 0.778 per cycle or a loss of about 22 percent.
-**The instability past the boundary was bounded by inversion rather than assumed**, a
-threefold growth over three cycles implying about minus 0.058 and a tenfold growth about
-minus 0.121, both the same order as the 0.04 the closed loop supplied. **And the accident
-became an angle**, a wingtip rising at one metre per second at 65 knots losing 1.71 degrees
-of local angle of attack, which is the same order as the one to one and a half degree
-deflection later used to provoke flutter deliberately.
+**AND THE DIAGNOSIS IS IN THE QUERIES.** The draft sweep named this aeroplane once, in a
+query reading `X-56 multi utility technology testbed flutter`. **That query returned exactly
+200 records, which is the row cap**, and the ranking was carried by the words that are not
+the aeroplane's name, bringing back a millimetre-wave seeker testbed, a Testbed-12 tile
+retrieval service and four tiltrotor whirl-flutter testbeds. **Six records in a 6,477-record
+harvest had the X-56 in their title and sixteen of the seventeen documents the report cites
+were never retrieved at all.** A bibliographic query mixes its terms, so a distinctive
+designation beside five generic words is diluted by them. **This is a general lesson for the
+fifteen articles remaining, because every one is named after a vehicle.**
 
-**THE SYMBOL TABLE REFUSED THREE COLLISIONS**, the Zimmerman parameter already owning
-`\beta_1`, `\omega_1` and `\omega_2`, so the cantilever eigenvalue became `\kappa_1` and
-the specific frequencies became `\omega_b` and `\omega_{sp}`.
+**A second sweep querying the designation alone, the mechanism alone, and the names of the
+people who publish under them** retrieved 3,919 records, doubled the X-56 titled records to
+twelve, and took the overlap to fifteen of twenty-three. **The eight still absent were
+curated by hand**, among them Theodorsen's 1935 report, the Helios mishap findings, and the
+deadband paper whose title is itself the finding. Every curated identifier was requested
+individually against its own metadata with two deliberately absent controls, and both
+controls failed correctly.
 
-**THE SYMBOL SCANNER'S FIRST VERSION REPRODUCED ALL FOUR OF A352's SCANNER FAILURES AT
-ONCE**, splitting `AR` and `EI` into letters, emptying a `\text` subscript to `L_{}`,
-stripping the digit from `x_{n+1}`, and reading the `h` inside `\dot{h}` twice. **So it does
-not tokenise any more**, and instead removes declared symbols longest first and asks what is
-left. Proved against all four failure modes by injection.
+**A TAG COUNT IS A COUNT OF FIRST REASONS, NOT OF RELEASABLE RECORDS.** The four opened
+families sum to 153 and opening them returns 152, because a study of turbine rotor blade
+pressure is caught by wind energy and by turbomachinery and opening the first leaves the
+second holding it. **The store defends some records twice**, and the release is now measured
+as a set difference rather than summed from the histogram.
 
-**AND A PRESENCE CHECK WENT GREEN BECAUSE A NUMBER HAD GONE STALE.** Almost every derived
-number appears twice, once in an equation and once in the prose. **An injection changing the
-PROSE from `about minus 0.058` to `about minus 0.048` sailed past a check looking for
-`0.058`, because the equation still held it.** The expected prose is now built from the
-computed value, so the equation cannot satisfy the check on the prose's behalf. Eight phrases
-pinned, all eight proved to bite.
+**TWO NUMBERS WERE EMITTED FROM THE WRONG FILE.** The statistics emitter read `raw.json`
+alone, so the article stated the first sweep's retrieval against the merged pool and
+computed the store's cost over a denominator a third too small. **And the article claimed
+four sweeps when it had run one**, the phrase carried straight from A352's source base where
+it was true. **A phrase inherited from a sibling article is an unmeasured claim wearing a
+measured one's clothes.** The sweep count is now counted, and the verifier asserts both that
+the right count appears and that none of the wrong ones do.
 
-**EQUATION CITATION COVERAGE WAS AUDITED AND CLOSED**, twenty of thirty-six uncited at first
-placement against A352's five of thirty-one, now zero of thirty-six.
+**THE STORE HAS TWO DROP COUNTS AND THE ARTICLE WAS CONFLATING THEM**, 673 of 8,935 at 7.5
+percent armed as written against 521 at 5.8 percent with the four families opened. Both are
+now stated with their own denominators.
 
-**FINAL STATE. 8,554 lines, 36 display equations, 51 declared symbols, 3,971 reference
-definitions, 51,338 words**, research 3,862, report primaries 275 at 7.1 percent.
+**FINAL STATE. 10,442 lines, 36 display equations, 51 declared symbols, 4,905 reference
+definitions, 61,958 words**, research 4,796, report primaries 496 at 10.3 percent, two
+sweeps retrieving 10,396 of which 8,935 distinct, gate 4,902, store residual 5.8 percent.
 
-**Verifier clean at 0 errors 0 warnings. Tests 107 of 107. Lint 0 findings.** The article
-verifier runs 124 passing checks, eleven injected defects all caught, plus eight further
-injections against the rebuilt prose figures. **Build clean in 168 seconds against
-checksum-matched bytes, 92 pages, rendered audit reports no findings**, source and rendered
-display-equation counts agree at 36.
+**Verifier 0 errors 0 warnings. Tests 107 of 107. Lint 0 findings.** Seventeen injected
+defects all caught. **Build clean in 660 seconds against checksum-matched bytes, 92 pages,
+rendered audit reports no findings**, source and rendered display-equation counts agree at
+36.
 
-**Next**: the primary-reference pass on A353, on the pilot's prompt.
+**Next**: the publication review on A353, on the pilot's prompt. It is the pass that reads
+the opening against the conclusion, which has found a defect in every article since A340.
 
 ## Success Criteria
 
@@ -791,6 +790,7 @@ display-equation counts agree at 36.
 
 | Date | Change |
 |------|--------|
+| 2026-09-09 | **A353 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed. NOT published.** **Report primaries 275 at 7.1 percent to 496 at 10.3**, both count and fraction moving; references 3,971 to 4,905, research 3,862 to 4,796, lines 8,554 to 10,442, words 51,338 to 61,958, equations unchanged at 36. **THE BIBLIOGRAPHY FOUND WHAT THE SWEEP MISSED, WHICH IS THE OPPOSITE OF A352**, that article finding twenty-six of thirty-two already present and this one only six of twenty-three. **AND THE DIAGNOSIS IS IN THE QUERIES.** The draft sweep named the aeroplane once, in `X-56 multi utility technology testbed flutter`, which **returned exactly 200 records, the row cap**, its ranking carried by the words that are not the name, bringing back a millimetre-wave seeker testbed, a Testbed-12 tile retrieval service and four tiltrotor whirl-flutter testbeds. **Six records in 6,477 had the X-56 in their title and sixteen of seventeen cited documents were never retrieved.** A bibliographic query mixes its terms, so a distinctive designation beside generic words is diluted by them, **which is a general lesson for the fifteen articles remaining because every one is named after a vehicle**. A second sweep on the designation alone, the mechanism alone and the publishing authors retrieved 3,919, doubled the X-56 titled records to twelve and took the overlap to fifteen of twenty-three; **the eight still absent were curated by hand**, including Theodorsen 1935, the Helios mishap findings and the deadband paper whose title is the finding, each identifier requested individually against its own metadata with two absent controls that both failed correctly. **A TAG COUNT IS A COUNT OF FIRST REASONS, NOT OF RELEASABLE RECORDS**, the four opened families summing to 153 while opening them returns 152, because turbine rotor blade pressure is held by wind energy and by turbomachinery at once; **the store defends some records twice** and the release is now a set difference. **TWO NUMBERS WERE EMITTED FROM THE WRONG FILE**, the emitter reading `raw.json` alone so the first sweep's retrieval was stated against the merged pool and the store cost computed over a denominator a third too small, **and the article claimed four sweeps when it had run one**, that phrase carried from A352's source base where it was true. **THE STORE HAS TWO DROP COUNTS AND THE ARTICLE WAS CONFLATING THEM**, 673 at 7.5 percent armed against 521 at 5.8 with the families open, now stated with their own denominators. Verifier 0 errors 0 warnings, tests 107 of 107, lint 0 findings, **seventeen injected defects all caught**. **Build clean in 660 seconds against checksum-matched bytes, 92 pages, rendered audit reports no findings**, source and rendered display-equation counts agree at 36. |
 | 2026-09-09 | **A353 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed. NOT published.** **Display equations 8 to 36, declared symbols 20 to 51**, lines 8,380 to 8,554, words 49,601 to 51,338, references unchanged at 3,971. **THE STRONGEST NEW RESULT IS AN EXCHANGE RATE, EXACT AND PARAMETER FREE.** Thirty to forty percent more aspect ratio buys 23.1 to 28.6 percent less induced drag with neither lift coefficient nor span efficiency surviving the ratio, **and costs 1.69 to 1.96 times the bending stiffness to hold the flutter speed**, because the cantilever bending frequency falls with the square of semispan, the short period frequency rises with airspeed, body freedom flutter is where they coalesce, and span goes as the square root of aspect ratio at fixed area. **The structural price is the square of the aerodynamic prize**, which is the entire commercial argument for the aeroplane, since a feedback law removes the exponent. **THE 0.04 DAMPING GATE BECAME PHYSICAL** at 0.778 per cycle or 22 percent lost. **THE INSTABILITY PAST THE BOUNDARY WAS BOUNDED BY INVERSION RATHER THAN ASSUMED**, threefold growth over three cycles implying minus 0.058 and tenfold minus 0.121, both the same order as the 0.04 supplied, and cycles rather than seconds is the right unit because cycles to double depends only on damping. **THE ACCIDENT BECAME AN ANGLE**, one metre per second of tip rise at 65 knots costing 1.71 degrees, the same order as the deflection later used to provoke flutter on command. **THE SYMBOL TABLE REFUSED THREE COLLISIONS** and the scanner's first version reproduced all four of A352's scanner failures at once, so it no longer tokenises and instead removes declared symbols longest first. **AND A PRESENCE CHECK WENT GREEN BECAUSE A NUMBER HAD GONE STALE**, the prose changing from `about minus 0.058` to `0.048` while the equation still held the old string, so expected prose is now built from the computed value; eight phrases pinned and all eight proved to bite. **Equation citation coverage audited and closed**, twenty of thirty-six uncited at placement, now zero. Verifier 0 errors 0 warnings, tests 107 of 107, lint 0 findings, 124 passing checks and nineteen injections all caught. **Build clean in 168 seconds against checksum-matched bytes, 92 pages, rendered audit reports no findings**, source and rendered display-equation counts agree at 36. |
 | 2026-09-09 | **A353 RESEARCHED AND WRITTEN, the draft pass, the first of four. Committed, NOT pushed. NOT published.** Lockheed Martin X-56, editorial date 2025-12-01, series index 57. **8,380 lines, 8 display equations, 3,971 reference definitions, 49,601 words**, research 3,862, report primaries 275 at 7.1 percent, one sweep retrieving 6,477 records, store residual 5.9 percent. **THE REGISTER HAS THREE VERBS AND THIS ENTRY USES A FOURTH.** Eighteen rows say demonstrate, five investigate, one validate, and every one takes a capability as its object; **exactly one uses the verb exhibit and its object is a failure mode**. Five separate counts return one and all return the X-56A row. **THE OPENING OVERREACHED AND THE REGISTER NARROWED IT, THREE ARTICLES RUNNING**, since two entries name a sonic boom, one vortices, two icing and one fatigue, so the surviving claim is that it is the only entry meaning to produce a phenomenon **capable of destroying the vehicle built to demonstrate it**. **THE PLURAL IS THE ONE CLAUSE NOT DELIVERED**: body freedom flutter at 111 to 114 knots was flown past under active control and the controller frozen in flight to watch the instability, but the second mechanism at 138 to 144 knots sits above the 135 knot maximum level flight speed and the envelope stopped at 120. **The reason is recorded and is not aerodynamic**, the retrospective saying one remaining airframe made the team too risk averse and that three vehicles would have been the sweet spot. **AND THE AEROPLANE BUILT TO FLUTTER WAS DESTROYED BY ROTATION** at sixty knots, fifty below the boundary, by flexible wings bending up and turning tip lift loss into a pitch up moment on an aft swept planform. **THE TWO STABILITY PROBLEMS DISAGREE**, the statically safer forward centre of gravity fluttering three knots earlier. **FOUR INSTRUMENT DEFECTS AND TWO SHARE A352's ROOT CAUSE**: the gate read uncleaned titles while the reference list read cleaned ones, so 45 markup-carrying records were refused on markup the pattern cannot see; **cluster assignment is first match wins and a general flutter pattern above a specific suppression pattern reported the programme's own subject at 19 where it is 325**; the verifier searched pdftotext output for phrases wrapped mid-sentence; two presence checks were written against the source's wording rather than the article's; **and the dateline regex could not match a year before 2020**, its own non-vacuity guard being the only thing that noticed. **A DISPLAY EQUATION WAS DEMOTED TO INLINE MATH** by a slot substituted at the end of a text line, source declaring eight and the built page carrying seven, **and an assembler guard now asserts every slot begins its own line**, proved by reinjection. **A TAG BROADER THAN ITS OWN NAME IS A NEW CASE**, the bare word `dielectric` tagged `cure-monitoring` also catching plasma and elastomer actuators, split so each half opens alone; store 135 patterns, 26 families, 35 tagged. **The new test asserted the wrong thing and the suite caught it**, because the binary liquid incident is covered twice. Verifier 0 errors, tests 107 of 107, lint 0 findings. **Nine defects injected one at a time and all nine caught.** **Build clean against checksum-matched bytes, 92 pages, rendered audit reports no findings.** |
 | 2026-09-08 | **A352 PUBLICATION REVIEW, the fourth and final pass. Committed and PUSHED. NOT published.** All fifty-six X-Planes drafts remain in `_drafts/`. Final state **12,285 lines, 31 display equations, 5,716 reference definitions, 72,926 words**, research 5,614, report primaries 376 at 6.7 percent, 29 named primary documents of which 23 carry no identifier the measure recognises. **READING THE OPENING AGAINST THE CONCLUSION FOUND A CONTRADICTION, WHICH IS NINE CONSECUTIVE ARTICLES.** The conclusion said the aeroplane retired the technical risk that would have made the cost estimate inadmissible, while the body established that certifying a bonded unitised structure was still an open laboratory problem fourteen years later. **It also asserted the part-count saving unqualified after the body showed certification gives part of it back.** The conclusion now separates the manufacturing risk the aeroplane did retire from the certification risk it could not have, **and the same stale claim was found sitting in the body as well**. **EIGHT OF NINE CONCLUSIONS PROBED AND SIX OPENED ON REWORDING ALONE WITH NO HARVEST**, three measuring zero under the article's own vocabulary of which two are not thin at all. The designation stays at zero and **A341's measurement is cited rather than repeated**, and one conclusion is out of scope for the article's own gate, correctly. **A METRIC QUIETLY USED THE WRONG COLUMN**, the rewording sentence reading the post-sweep figures and saying six where rewording alone opens four. **AND A FOURTH BROKEN DIAGNOSTIC**, the prose-colon scanner unable to read across a line break. **Four instruments in this article reported the data as wrong when the instrument was wrong**, which is the most consistent finding of its whole rhythm. All twelve survey rows cite at least what they claim and the table total agrees with the research count exactly. All 5,716 definitions cited, none orphaned, none undefined. Every curated identifier requested individually against a 404 control and every book key held to title and author against an absent control. Verifier 0 errors 0 warnings, tests 106 of 106, lint 0 defects. **Build clean in 449 seconds against checksum-matched bytes, 91 pages, rendered audit reports no findings**, source and rendered display-equation counts agree at 31, page 1,098,707 bytes. |

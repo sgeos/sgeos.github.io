@@ -5,163 +5,134 @@
 ## Last Updated
 
 **Date**: 2026-09-09
-**Task**: **A353, X-Planes: Lockheed Martin X-56, equation-density review. The second of
+**Task**: **A353, X-Planes: Lockheed Martin X-56, primary-reference review. The third of
 four passes.** Committed and **NOT PUSHED**, which is the rhythm. **Not published**, and
 publication of the series still not authorised. **Fifty-seven of seventy-two drafted.**
 
 ---
 
-## Display Equations 8 to 36, and Working Them Produced the Article's Best Result
+## Report Primaries 275 at 7.1 Percent to 496 at 10.3, and Both Numbers Moved
 
-**Lines 8,380 to 8,554, words 49,601 to 51,338, display equations 8 to 36, declared
-symbols 20 to 51.** References unchanged at 3,971, because this pass adds relations rather
-than sources.
-
-**THE STRONGEST NEW RESULT IS AN EXCHANGE RATE, AND IT IS EXACT AND PARAMETER FREE.** The
-programme's stated goal was thirty to forty percent more aspect ratio, and both halves of
-that trade can be computed without knowing anything about the particular aeroplane.
-
-**The prize is induced drag**, which falls as the reciprocal of the aspect ratio ratio.
-Neither the lift coefficient nor the span efficiency survives into the ratio, so thirty
-percent more aspect ratio is **23.1 percent** less induced drag and forty percent is
-**28.6 percent**.
-
-**The price is bending stiffness, and it goes as the square.** Treating the wing as a
-uniform cantilever, the first bending frequency falls with the square of semispan and rises
-with the square root of stiffness. The short period frequency rises with airspeed. Body
-freedom flutter is where they coalesce, so the flutter speed inherits the bending
-frequency's scaling exactly. At fixed area, span goes as the square root of aspect ratio,
-so **holding the flutter speed requires the bending stiffness to rise by the square of the
-aspect ratio ratio**, being **1.69** at thirty percent and **1.96** at forty.
-
-**The structural price is the square of the aerodynamic prize.** A 23.1 percent drag
-reduction costs 69 percent more bending stiffness, and stiffness is weight. **That single
-relation is the entire commercial argument for this aeroplane**, because if the margin can
-come from a feedback law instead, the exponent on the right hand side is what goes away.
-
-**The idealisation is stated rather than buried.** A real wing is not a uniform cantilever.
-**What survives is the exponent**, because the fourth power comes from the length scale and
-the square comes from the definition of aspect ratio, so the numbers are approximate and
-the shape of the trade is not.
+**References 3,971 to 4,905, research 3,862 to 4,796, lines 8,554 to 10,442, words 51,338
+to 61,958.** Display equations unchanged at 36, because this pass adds sources rather than
+relations.
 
 ---
 
-## Three More Relations That Changed What the Article Could Say
+## The Bibliography Found What the Sweep Missed, Which Is the Opposite of Last Article
 
-**THE DAMPING GATE BECAME PHYSICAL.** The programme required a closed loop damping ratio
-above 0.04 to proceed. Through the logarithmic decrement that is an amplitude ratio of
-**0.778 per cycle**, so the gate says a disturbance must lose about **22 percent** of its
-amplitude every cycle. **That is a small margin**, and the aeroplane was required to hold it
-while flying above the speed at which the same structure, uncontrolled, had none.
+**A352 transcribed its programme's reference list and found twenty-six of thirty-two
+already in the pool**, and concluded that a bibliography's value is not that it finds what
+a sweep missed but that it says which records the argument needs.
 
-**AND THE INSTABILITY PAST THE BOUNDARY WAS BOUNDED BY INVERSION.** The report says that
-about two knots past onset the response was approaching test limits by the third open loop
-oscillation, and the test limit is not published. **Sweeping the growth factor rather than
-assuming it**, a threefold growth over three cycles implies a damping ratio of about
-**minus 0.058** and a tenfold growth about **minus 0.121**. Both are the same order as the
-positive 0.04 the closed loop had to supply. **The aeroplane was not far past its boundary
-in any absolute sense.**
+**A353 ran the same exercise and got the opposite answer.** The flight test report's
+seventeen references, plus the ancestor's mishap reporting and the theory the article
+computes with, gave twenty-three documents found by hand. **Only six were in the first
+sweep.**
 
-**AND THAT EXPLAINS THE OPEN LOOP WINDOW'S UNIT.** Cycles to double depends only on the
-damping ratio, while seconds to double depends on the frequency as well. **A window measured
-in cycles means the same thing at every condition and a window in seconds does not.**
+**AND THE DIAGNOSIS IS IN THE QUERIES.** The draft sweep named this aeroplane once, in a
+query reading `X-56 multi utility technology testbed flutter`. **That query returned
+exactly 200 records, which is the row cap**, and the ranking was carried by the words that
+are not the aeroplane's name. It brought back a millimetre-wave seeker testbed, a
+Testbed-12 tile retrieval service and four separate tiltrotor whirl-flutter testbeds.
+**Six records in a 6,477-record harvest had the X-56 in their title, and sixteen of the
+seventeen documents the report cites were never retrieved at all.**
 
-**THE ACCIDENT BECAME AN ANGLE.** A wingtip rising at one metre per second at a takeoff
-speed of 65 knots loses **1.71 degrees** of local angle of attack. **The deliberate
-excitation used to provoke flutter at the boundary was one to one and a half degrees of
-control deflection**, so a single metre per second of tip motion during rotation is the same
-order of disturbance as the input the programme later used to make the aeroplane flutter on
-command.
+**A bibliographic query mixes its terms, so a distinctive designation put beside five
+generic words is diluted by them.** The more distinctive the designation, the more of the
+ranking is spent on its neighbours. **This is a general lesson for the fifteen articles
+remaining**, because every one of them is named after a vehicle.
 
-**AND THE LIMIT CYCLE GOT ITS MECHANISM.** The describing function of a deadband rises
-monotonically with amplitude, from zero inside the deadband to unity for a large signal, so
-a loop unstable at small amplitude gains authority as the oscillation grows and settles
-where the gain restores marginal stability. **The instability is bounded by the nonlinearity
-that caused it.**
+**The fix was a second sweep querying the designation alone, the mechanism alone, and the
+names of the people who publish under them.** It retrieved 3,919 records, doubled the
+X-56 titled records from six to twelve, and took the hand-found overlap from six of
+twenty-three to fifteen. **The eight still absent were curated by hand**, among them
+Theodorsen's 1935 report, the Helios mishap findings by Noll and others, and the deadband
+paper whose title is itself the finding.
 
----
-
-## The Symbol Table Refused Three Collisions
-
-**Rebuilt from a dict to a duplicate-refusing list by A352, it earned its keep again.** The
-Zimmerman parameter already owned `\beta_1` as a decay rate and the cantilever eigenvalue is
-conventionally the same letter, so the cantilever one became `\kappa_1`. The Zimmerman
-parameter also owned `\omega_1` and `\omega_2` as a generic mechanism's two modes, so the
-specific frequencies became `\omega_b` and `\omega_{sp}`. **Renaming in the article is the
-fix and declaring both is not.**
-
-**THE SYMBOL SCANNER'S FIRST VERSION REPRODUCED ALL FOUR OF A352's SCANNER FAILURES AT
-ONCE.** It split the multi-letter symbols `AR` and `EI` into single letters, emptied
-`\text{new}` out of a subscript and reported `L_{}`, stripped the digit out of `x_{n+1}` and
-reported `x_{n+}`, and read the `h` inside `\dot{h}` twice.
-
-**SO IT DOES NOT TOKENISE ANY MORE.** It removes the declared symbols from each equation,
-longest first, and asks whether anything symbol-shaped is left. **That is the question,
-stated directly**, and it cannot be defeated by a symbol whose name is longer than one
-character. It is proved against all four failure modes by injection, and it reports that all
-**51** declared symbols are used and every symbol used is declared.
+**Every curated identifier was requested individually and its returned metadata compared
+against the title this article gives it**, alongside a deliberately absent digital object
+identifier and a deliberately absent report number as controls. **Both controls failed
+correctly**, because a checker that says yes to everything says nothing.
 
 ---
 
-## A Presence Check Went Green Because a Number Had Gone Stale
+## A Tag Count Is a Count of First Reasons, Not of Releasable Records
 
-**THIS IS THE DEFECT `survey.py` EXISTS TO PREVENT, AND IT REAPPEARED IN A NEW COSTUME.**
+**The four opened families sum to 153 in the histogram and opening them returns 152.**
 
-Almost every derived number in this article appears twice, once inside a display equation
-and once in the prose that interprets it. The verifier asserted presence by looking for the
-bare substring. **An injection that changed the PROSE from `about minus 0.058` to `about
-minus 0.048` sailed straight past a check looking for `0.058`, because the equation still
-contained it.**
+The difference is one record and it generalises. A study of unsteady pressure on turbine
+rotor blades is caught by the wind energy family and by the turbomachinery family, and
+opening the first leaves the second holding it. **The store defends some records twice.**
 
-**So the expected prose is now built from the computed value and then looked for.** Each
-assertion names a phrase that exists only in the prose, so the equation cannot satisfy it on
-the prose's behalf. **Eight such phrases are pinned and all eight were proved to bite.**
+**The article now measures the release as a set difference rather than summing the
+histogram**, and says so, because the histogram overstates what opening a family returns.
+**This is the same property a test pinned in the previous commit** for the binary liquid
+records, now measured in the pool rather than asserted about two titles.
 
 ---
 
-## Equation Citation Coverage Was Audited and Closed
+## Two Numbers Were Emitted From the Wrong File
 
-**An equation is a claim and a claim needs a source.** The first audit after placement found
-**twenty of thirty-six uncited** within two paragraphs, which is worse than A352's five of
-thirty-one, because dense runs of equations push the section's citations out of range.
-**Sources were added adjacent to every block and the count is now zero of thirty-six.**
+**THE SOURCE BASE REPORTED THE FIRST SWEEP'S RETRIEVAL AGAINST THE MERGED POOL.** The
+statistics emitter read `raw.json` alone, so after the primary sweep the article stated
+6,477 records retrieved when 10,396 had been, and computed the store's cost over a
+denominator a third too small. **A number emitted from the wrong file is the same defect as
+a number typed from a console.**
+
+**AND THE ARTICLE CLAIMED FOUR SWEEPS WHEN IT HAD RUN ONE.** The draft pass's source base
+carried the phrase `four sweeps` straight from A352, where it was true. **A phrase inherited
+from a sibling article is an unmeasured claim wearing a measured one's clothes.** The number
+of sweeps is now counted from the artefacts, and the verifier asserts both that the correct
+count appears and that none of the wrong ones do.
+
+**THE STORE HAS TWO DROP COUNTS AND THE ARTICLE WAS CONFLATING THEM.** Armed exactly as
+written it removes 673 of 8,935 distinct records, being 7.5 percent. With the four families
+opened it removes 521, being 5.8 percent. **The article was quoting one count against the
+other's fraction**, and now states both with their own denominators.
 
 ---
 
 ## Verification
 
-**Verifier clean at 0 errors and 0 warnings. Tests 107 of 107. Lint 0 findings.**
+**Verifier clean at 0 errors and 0 warnings. Tests 107 of 107. Lint 0 findings. The symbol
+scanner reports all 51 declared symbols used and every symbol used declared.**
 
-**The article verifier now runs 124 passing checks across eight groups.** Eleven defects
-were injected one at a time and all eleven caught, being a contraction, a prose colon, a
-semicolon, an em dash, a parenthetical, capitals used for emphasis, a wrong register count,
-a wrong stiffness factor, a wrong drag reduction, a wrong damping inversion and a year past
-the dateline. **A further eight injections against the rebuilt prose figures were all
-caught.**
+**Seventeen defects were injected one at a time and all seventeen caught**, being a
+contraction, a prose colon, a semicolon, an em dash, a parenthetical, capitals used for
+emphasis, a wrong register count, a wrong stiffness factor, a wrong damping inversion, a
+wrong primary count, a wrong primary fraction, a wrong retrieval total, a wrong armed store
+count, a wrong released count, a wrong bibliography overlap, a wrong sweep count and a year
+past the dateline.
 
-**FINAL STATE. 8,554 lines, 36 display equations, 51 declared symbols, 3,971 reference
-definitions, 51,338 words**, research 3,862, report primaries 275 at 7.1 percent.
+**Every survey statistic the article states is recomputed from the reference data and the
+sweep artefacts rather than matched against a remembered string.**
 
-**The stub-isolated production build succeeded in 168 seconds with no Liquid error, against
+**FINAL STATE. 10,442 lines, 36 display equations, 51 declared symbols, 4,905 reference
+definitions, 61,958 words**, research 4,796, report primaries 496 at 10.3 percent, two
+sweeps retrieving 10,396 records of which 8,935 distinct, gate 4,902, store residual 5.8
+percent. **All 4,905 definitions are cited, none orphaned and none undefined.**
+
+**The stub-isolated production build succeeded in 660 seconds with no Liquid error, against
 the exact bytes committed**, the checksum matched against the stub copy before the build and
-against both afterwards. **The rendered audit reports no findings across 92 pages.** Source
-and rendered display-equation counts agree at **36**, with zero raw dollar pairs leaking,
-zero unresolved reference brackets, zero unexpanded slots and zero unrendered Liquid. The
-page is 748,231 bytes.
+against both afterwards, **which also proves the seventeen injections did not contaminate
+the built bytes**. **The rendered audit reports no findings across 92 pages.** Source and
+rendered display-equation counts agree at **36**, with zero raw dollar pairs leaking, zero
+unresolved reference brackets, zero unexpanded slots and zero unrendered Liquid. The page is
+903,112 bytes.
 
 ---
 
 ## What Is Not Done
 
-**The primary-reference pass and the publication review have not run.** References are
-unchanged from the draft pass at 3,971, and report primaries stand at 275 or 7.1 percent,
-which is where the next pass will work.
+**The publication review has not run.** It is the pass that reads the opening against the
+conclusion, which has found a defect in every article since A340, and the pass that probes
+each conclusion against the pool.
 
 **Three disagreements remain recorded and unresolved**, being the register's P-240 against
 the report's P400, three maximum weights across three documents of the same programme, and
 the X-56B's questioned 2019 date against 2021 flight dates in secondary sources.
 
-**The wing area and the modal frequencies are still not published**, which is why the
-central trade is derived as a scaling law rather than evaluated numerically. The aspect
-ratio of approximately fourteen comes from secondary sources and every quantity resting on
-it is flagged as approximate in the article.
+**The wing area and the modal frequencies are still not published.** The aspect ratio of
+approximately fourteen comes from secondary sources and every quantity resting on it is
+flagged as approximate.
