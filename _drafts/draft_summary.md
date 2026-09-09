@@ -21,73 +21,65 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_lockheed_martin_x56.markdown`, A353, editorial date 2025-12-01, series `x_planes` index 57 of 72.
 
-**10,442 lines, 36 display equations, 51 declared symbols, 4,905 reference definitions,
-61,958 words after the primary-reference pass.** **THREE OF FOUR PASSES COMPLETE.**
-Committed, **NOT pushed**. **Not published**, and publication of the series has never been
-authorised. **Deliberate-instability class, and the only aeroplane in this series built so
-that a failure mode would happen.**
+**11,108 lines, 36 display equations, 51 declared symbols, 5,210 reference definitions,
+66,567 words after the publication review.** **ALL FOUR PASSES COMPLETE.** Committed and
+**PUSHED**. **Not published**, and publication of the series has never been authorised.
+**Deliberate-instability class, and the only aeroplane in this series built so that a
+failure mode would happen.**
 
 **THE REGISTER HAS THREE VERBS AND THIS ENTRY USES A FOURTH.** Of 526 allocation rows,
 eighteen say demonstrate, five say investigate and one says validate, and every one takes a
 capability as its object. **Exactly one uses the verb exhibit and its object is a failure
-mode.** The opening overreached and the register narrowed it, since two entries name a sonic
-boom, one vortices, two icing and one fatigue, so **the surviving claim is that it is the
-only entry meaning to produce a phenomenon capable of destroying the vehicle built to
-demonstrate it.**
+mode.** The opening overreached and the register narrowed it, so the surviving claim is that
+it is **the only entry meaning to produce a phenomenon capable of destroying the vehicle
+built to demonstrate it.**
 
 **THE PLURAL IS THE ONE CLAUSE THE PROGRAMME DID NOT DELIVER.** Body freedom flutter at 111
-to 114 knots was flown past under active control, with the controller frozen in flight so
-the instability could be watched. **The second mechanism was predicted at 138 to 144 knots
-against a 135 knot maximum level flight speed**, reachable only in a dive, and the envelope
-stopped at 120. **One remaining airframe made the team too risk averse, and the
-retrospective says three vehicles would have been the sweet spot.**
+to 114 knots was flown past under active control, with the controller frozen in flight after
+a deliberate excitation so the instability could be watched for three or four oscillations.
+**The second mechanism was predicted at 138 to 144 knots against a 135 knot maximum level
+flight speed**, reachable only in a dive, and the envelope stopped at 120. **One remaining
+airframe made the team too risk averse, and the retrospective says three vehicles would have
+been the sweet spot.**
 
 **AND THE AEROPLANE BUILT TO FLUTTER WAS DESTROYED BY ROTATION**, at about sixty knots,
-fifty below the boundary. **The model was excellent where the research was and absent where
-the flying was.**
+fifty below the boundary, on a takeoff it had made **eight** times before with stiffer wings.
+**The model was excellent where the research was and absent where the flying was.**
 
 **THE EQUATION PASS PRODUCED AN EXCHANGE RATE THAT IS EXACT AND PARAMETER FREE.** Thirty to
 forty percent more aspect ratio buys 23.1 to 28.6 percent less induced drag and costs 1.69
 to 1.96 times the bending stiffness to hold the flutter speed. **The structural price is the
 square of the aerodynamic prize**, which is the entire commercial argument for the aeroplane.
 
-**THE PRIMARY PASS TOOK REPORT PRIMARIES FROM 275 AT 7.1 PERCENT TO 496 AT 10.3**, both
-count and fraction moving, and references from 3,971 to 4,905.
+**THE PRIMARY PASS TOOK REPORT PRIMARIES FROM 275 AT 7.1 PERCENT TO 513 AT 10.1**, and found
+that **the sweep had missed the aeroplane's own literature**, only six of twenty-three
+hand-found documents surviving the first sweep's gate. A bibliographic query dilutes a
+distinctive designation with its generic neighbours.
 
-**THE BIBLIOGRAPHY FOUND WHAT THE SWEEP MISSED, WHICH IS THE OPPOSITE OF A352.** That
-article found twenty-six of thirty-two already present; this one found six of twenty-three.
-**The diagnosis is in the queries.** The draft sweep named the aeroplane once, in `X-56
-multi utility technology testbed flutter`, and **that query returned exactly 200 records,
-which is the row cap**, its ranking carried by the words that are not the name. It brought
-back a millimetre-wave seeker testbed, a Testbed-12 tile retrieval service and four
-tiltrotor whirl-flutter testbeds. **Six records in a 6,477-record harvest had the X-56 in
-their title, and sixteen of the seventeen documents the report cites were never retrieved.**
-**A bibliographic query mixes its terms**, so a distinctive designation beside generic words
-is diluted by them, which is a general lesson for the fifteen articles remaining.
+**THE PUBLICATION REVIEW FOUND THE OPENING CONTRADICTING THE BODY, WHICH IS TEN CONSECUTIVE
+ARTICLES.** The opening said the aeroplane spent its budget flying into flutter; the body
+says takeoff and landing were more dangerous, two airframes were lost in ordinary
+operations, and the sponsor kept the project alive just far enough to reach the boundary
+once.
 
-**A second sweep on the designation alone, the mechanism alone and the publishing authors**
-retrieved 3,919 records, doubled the X-56 titled records to twelve and took the overlap to
-fifteen of twenty-three. **The eight still absent were curated by hand**, including
-Theodorsen's 1935 report, the Helios mishap findings and the deadband paper. Every curated
-identifier was requested individually against its own metadata with two deliberately absent
-controls, both of which failed correctly.
+**AND THE CONCLUSION STATED A FLIGHT COUNT TWO SOURCE CLASSES DISAGREE ABOUT**, saying
+sixteen where the programme says eight on each of two centre bodies. **That number was
+itself unpinned until an injection proved it.**
 
-**A TAG COUNT IS A COUNT OF FIRST REASONS, NOT OF RELEASABLE RECORDS.** The four opened
-families sum to 153 and opening them returns 152, because turbine rotor blade pressure is
-held by wind energy and by turbomachinery at once. **The store defends some records twice**,
-and the release is now measured as a set difference.
+**THE SAME BLINDNESS WAS FOUND TWICE IN ONE PIPELINE.** The sweep could not find the
+aeroplane's literature and the gate could not keep it, the Helios mishap findings being
+retrieved and then refused for carrying no subject anchor. **A proper noun is the one thing
+a subject gate cannot see**, and naming the vehicles returned 73 records.
 
-**TWO NUMBERS WERE EMITTED FROM THE WRONG FILE**, the emitter reading only the first sweep
-so its retrieval was stated against the merged pool and the store cost computed over too
-small a denominator. **And the article claimed four sweeps when it had run one**, that
-phrase carried from A352's source base where it was true.
+**NINE CONCLUSIONS PROBED, ALL NINE ZERO UNDER THE ARTICLE'S OWN WORDS AND EIGHT OF NINE
+COVERED UNDER THE FIELD'S.** Five thin at first, **four opening on rewording alone**, one
+swept, and the designation staying at one with A341's measurement cited rather than repeated.
 
-**Verifier 0 errors 0 warnings. Tests 107 of 107. Lint 0 findings.** Seventeen injected
-defects all caught. **Build clean in 660 seconds against checksum-matched bytes, 92 pages,
-rendered audit reports no findings**, source and rendered display-equation counts agree at
-36.
-
-**Remaining work**: the publication review.
+**Verifier 0 errors 0 warnings. Tests 107 of 107. Lint 0 findings.** 143 passing checks and
+eighteen injected defects all caught. All fifteen cluster rows state their own recomputed
+count and the table total equals the research count exactly at 5,101. **Build clean in 454
+seconds against checksum-matched bytes, 92 pages, rendered audit reports no findings**,
+source and rendered display-equation counts agree at 36, page 962,847 bytes.
 
 ## X-Planes Lockheed Martin X-55 ACCA A352 2025-11-30
 
