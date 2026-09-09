@@ -53,12 +53,30 @@ STORE = os.path.join(HERE, "rejected.json")
 # later reader decide whether the pattern still applies to a different subject.
 NOISE_PATTERNS = [
     # ---- observed in the A369 compiler sweep, by reading the venue histogram
-    (r"\bdielectric\b", "A369: 'binary translation' returned 45 records on the static "
-                        "dielectric constants of BINARY LIQUID MIXTURES. **A352 TAGGED IT** "
-                        "because DIELECTRIC CURE MONITORING is how a thermoset's state of "
-                        "cure is measured in situ, and this pattern deleted 90 records "
-                        "including 'Dielectric Measurements for Monitoring the Cure of "
-                        "Epoxies and Composite Materials'",
+    # **A353 SPLIT THIS ENTRY, FOR THE SAME REASON A352 SPLIT THE ROTOR-REPAIR ENTRY.**
+    # The tag said `cure-monitoring` and the pattern was the bare word `dielectric`, which
+    # spans at least three unrelated fields. A DIELECTRIC BARRIER DISCHARGE is a plasma
+    # actuator for active flow control and a DIELECTRIC ELASTOMER is a soft actuator, and
+    # both are actuation technologies a flutter-suppression article wants. **Opening
+    # `cure-monitoring` to reach them would also have opened binary liquid mixtures**,
+    # which is the noise the pattern was written for, so the tag was not a usable handle.
+    # **A TAG MUST NOT BE BROADER THAN ITS OWN NAME**, because the article that needs one
+    # half then has to choose between taking the other half and going without.
+    (r"\bdielectric (?:barrier discharge|elastomer)s?\b",
+     "A353: the bare `dielectric` pattern below deleted 'Active flow control of a wing "
+     "section in stall flutter by dielectric barrier discharge plasma actuators', which "
+     "is stall flutter under active control and is squarely this corpus's subject. "
+     "**SPLIT OUT AND TAGGED SEPARATELY** so an aeroelastic article can open the "
+     "actuators without also opening thermoset cure monitoring",
+     "smart-actuators"),
+    (r"^(?!.*\bdielectric (?:barrier discharge|elastomer)s?\b)(?=.*\bdielectric\b)",
+     "A369: 'binary translation' returned 45 records on the static "
+     "dielectric constants of BINARY LIQUID MIXTURES. **A352 TAGGED IT** "
+     "because DIELECTRIC CURE MONITORING is how a thermoset's state of "
+     "cure is measured in situ, and this pattern deleted 90 records "
+     "including 'Dielectric Measurements for Monitoring the Cure of "
+     "Epoxies and Composite Materials'. **A353 NARROWED IT** with a negative lookahead "
+     "so that the two actuator senses split out above are no longer swept up here",
      "cure-monitoring"),
     (r"\bliquid mixtur", "A369: same incident as dielectric"),
     (r"\blanguage corpora\b", "A369: 'code corpora' returned LINGUISTIC corpora"),

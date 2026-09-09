@@ -4,140 +4,168 @@
 
 ## Last Updated
 
-**Date**: 2026-09-08
-**Task**: **A352, X-Planes: Lockheed Martin X-55 ACCA, publication review. The fourth and last of
-four.** Committed and **PUSHED**. **Not published**, and publication of the series still not
-authorised. **Fifty-six of seventy-two drafted.**
+**Date**: 2026-09-09
+**Task**: **A353, X-Planes: Lockheed Martin X-56, researched and written. The first of
+four passes.** Committed and **NOT PUSHED**, which is the rhythm. **Not published**, and
+publication of the series still not authorised. **Fifty-seven of seventy-two drafted.**
 
 ---
 
-## Reading the Opening Against the Conclusion Found a Contradiction, Which Is Nine Consecutive Articles
+## The Register Has Three Verbs and This Entry Uses a Fourth
 
-**The conclusion predated the primary pass and disagreed with the body it was supposed to close.**
+**Of 526 allocation rows, eighteen say demonstrate, five say investigate and one says
+validate.** Every one of those verbs takes a capability as its object. **Exactly one entry
+uses the verb exhibit, and its object is a failure mode.**
 
-It said the aeroplane **retired the technical risk that would have made the cost estimate
-inadmissible**. The primary pass had established that certifying a bonded unitised primary structure
-was an open problem before the X-55 flew and **was still the subject of an Air Force Research
-Laboratory programme publishing in 2023**, fourteen years later. **A conclusion cannot say a risk was
-retired when the body spends a section saying it was not.**
+> A remotely piloted, high aspect ratio, flying wing vehicle designed to exhibit multiple
+> flutter mechanisms within its flight envelope.
 
-**It also asserted the part-count saving unqualified**, after the body had shown that certification
-puts mechanical fasteners back through the bondline and takes some of that saving away.
+Five separate counts return one and they all return the same row. It is the only entry
+naming flutter, the only one using any form of exhibit, the only one naming a flying wing,
+the only one naming a high aspect ratio and the only one naming a flight envelope.
 
-The conclusion now separates the two. **The aeroplane retired a manufacturing risk, which is a real
-thing to retire**, because before June 2009 the proposition that a twenty metre bonded composite
-fuselage could be laid up, bonded, closed and flown outside an autoclave was an assertion. **What it
-did not retire, and could not have, is the certification risk**, because what a certification basis
-wants is not a demonstration but a body of evidence about how the structure fails.
-
-**AND THE SAME STALE CLAIM WAS SITTING IN THE BODY.** The section on what a single aeroplane can
-demonstrate still said it retires `the technical risk` without qualification. **A statement can go
-stale between passes in two places at once**, and it was finding it in the conclusion that sent the
-search back into the body.
+**THE OPENING OVERREACHED AND THE REGISTER NARROWED IT, WHICH IS NOW THREE ARTICLES
+RUNNING.** The first draft claimed the X-56A is the only entry whose purpose is to produce
+an unwanted phenomenon. **It is not.** Two entries name a sonic boom, one names vortices,
+two name icing and one names fatigue. **The claim that survives is sharper.** A sonic boom
+does not threaten the aeroplane making it. Flutter destroys the structure exhibiting it,
+and the X-56A is the only entry whose stated purpose is to produce a phenomenon capable of
+destroying the vehicle built to demonstrate it.
 
 ---
 
-## Eight of Nine Conclusions Probed, and Six Opened on Rewording Alone
+## The Plural Is the One Clause the Programme Did Not Deliver
 
-**The first three passes harvest for what an article is about and nobody harvests for what it turns
-out to conclude.** That check has found a gap in every publication review since A340.
+**Body freedom flutter was found between 111 and 114 knots depending on fuel state, and
+the aeroplane was flown past it under active control.** A second mechanism, coupling the
+first symmetric wing bending mode with the first symmetric wing torsion mode, was predicted
+from flight data at 138 knots at low fuel and 144 at high fuel.
 
-| Conclusion | The article's words | The field's words |
-|---|---|---|
-| it was built cheaper and slower | 0 | 149 |
-| low-temperature curing costs time | 341 | 512 |
-| the saving is recurring and a demonstrator is a run of one | 83 | 214 |
-| certification puts some of the fasteners back | 23 | 263 |
-| out-life bounds how large a unitised part can be | 9 | 100 |
-| a vacuum bag cannot press harder than the air outside it | 8 | 229 |
-| an autoclave buys heat transfer as well as pressure | 0 | 142 |
-| surface tension bounds the smallest void pressure can close | 6 | 150 |
-| the designation recognised a result rather than authorising an attempt | 0 | 0 |
+**Maximum level flight speed is 135 knots.** The second mechanism therefore sits three to
+nine knots above anything the aeroplane can do in level flight and is reachable only in a
+dive. **The envelope was expanded to 120 knots, eighteen knots short of it.**
 
-**Not one needed a harvest.** Three measured zero under the article's own vocabulary and two of those
-three are not thin in the least. **The survey covers every conclusion this article draws**, and the
-appearance that it did not was a fact about the probe.
-
-**The one that stays at zero is the designation, and this series has already bought that
-measurement.** A341 ran eight queries for designation systems and got Massachusetts tax valuations of
-1771 and salmonella serotype naming. **It is cited rather than repeated.** One further conclusion is
-out of scope for this article's own gate and that is correct, the cost and schedule claim belonging
-to defence acquisition, which an aeronautical manufacturing gate refuses by design.
+**And the reason is recorded and is not aerodynamic.** The programme retrospective states
+that the vehicle was capable of likely flying deeper into flutter and possibly getting
+close to the second flutter mode, that with only one vehicle left the team became too risk
+averse, and that the Air Force Research Laboratory kept the project going just enough to
+get past flutter. **The register's plural was defeated by arithmetic about spare
+airframes**, and the retrospective's own recommendation is that three vehicles would
+likely have been the sweet spot.
 
 ---
 
-## A Metric Quietly Used the Wrong Column
+## The Aeroplane Built to Flutter Was Destroyed by Rotation
 
-The sentence reporting how many thin subjects opened **on rewording alone** was reading the column
-measured after three further sweeps. **It said six where rewording alone opens four.**
+**The first X-56A was lost on 19 November 2015 on its first takeoff with flexible wings,
+and not to flutter.** It pitched up, stalled and crashed back onto the ground at about
+sixty knots, with the flutter boundary fifty knots away and irrelevant.
 
-**That is the count-in-own-prose defect with the arithmetic hidden one level down**, and it is the
-eighth time this corpus has paid for that family. A number emitted from data is only as honest as the
-column it is emitted from.
+Two causes, both consequences of the design. **The aeroplane is statically unstable**, so
+during rotation the lift arrives well forward of the main gear and produces a positive
+pitch acceleration. **And the flexible wings bend up as lift builds**, which gives the tip
+a vertical velocity, which reduces the local angle of attack, which reduces tip lift, which
+on an aft swept wing is a pitch up moment.
 
----
-
-## And a Fourth Broken Diagnostic
-
-The prose-colon scanner could not read across a line break, so a citation label split over two lines
-reported as a prose colon. Reflowing the label removed it.
-
-**Four instruments in this article reported the data as wrong when the instrument was wrong.** The
-store injection harness patched a source list while the code read a compiled cache. The sweep-time
-property check compared rounded figures. The identifier overlap check split a digital object
-identifier at its last slash. And now this. **That is the single most consistent finding of the whole
-four-pass rhythm on this article.**
+**The programme's own account of why is the sentence worth keeping.** At the time of the
+mishaps, a piloted simulation with fully coupled structural dynamics was an active area of
+research for the team but was not a requirement for airworthiness, and the coupled models
+that existed were built for the up and away condition. **The model was excellent where the
+research was and absent where the flying was.**
 
 ---
 
-## Everything Else Came Back Clean
+## Four Instrument Defects, and Two Share A352's Root Cause
 
-Zero prose colons, semicolons, em or en dashes, parentheses, contractions and caps-emphasis spans.
-**All twelve survey rows cite at least what they claim and the table total agrees with the research
-count exactly.** All 5,716 definitions are cited, none orphaned and none undefined. Every curated
-identifier was requested individually against a 404 control, and every book key held to title and
-author against an absent control.
+**THE GATE AND THE REFERENCE LIST WERE READING DIFFERENT STRINGS.** Forty-five harvested
+titles carry HTML markup or entities. Every reference definition passes through
+`refs.clean`, which is why no published title carries a tag. **Nothing was cleaning the
+title the gate reads.** A paper on fixed order robust control was matched against a pattern
+for the term it is about, written in markup the pattern cannot see, and refused as off
+subject. **A defect that only ever deletes evidence leaves no trace in the output**, which
+is why it survived to A353. Cleaning at load recovered fifty-four records.
+
+**CLUSTER ASSIGNMENT IS FIRST MATCH WINS, SO LIST ORDER IS A MEASUREMENT DECISION.** A
+general pattern for flutter placed above a specific pattern for flutter suppression
+reported the programme's own subject at **19** records. Moving the specific cluster above
+the general one it is a special case of reported **325**. **The survey understated the
+article's central topic by a factor of seventeen**, and the cause was the order of two
+entries in a list.
+
+**A SCANNER THAT CANNOT READ ACROSS A LINE BREAK, AGAIN.** The verifier searched the
+extracted text of the flight report for two phrases that are wrapped mid-sentence by
+`pdftotext`, and reported the report as not containing what it plainly contains. **This is
+A352's colon-scanner defect in a new place**, and the fix is the same, which is to
+normalise whitespace once at the source rather than weaken each needle.
+
+**A PRESENCE CHECK WRITTEN AGAINST THE SOURCE RATHER THAN THE ARTICLE.** Two checks looked
+for `28 ft` and `54 flights`, which are the source's forms. The prose spells them out as
+`28 feet` and `Fifty-four flights`, because the house style does. **The check was
+measuring the wrong document.**
+
+**A HORIZON CHECK THAT COULD NOT SEE MOST OF ITS YEARS.** The dateline regex read
+`20[2-9]\d`, so 1940, 1964, 2003, 2012, 2015, 2017 and 2019 were all invisible to it.
+**Its own non-vacuity guard was the only thing that noticed**, and without that guard it
+would have reported a pass while checking almost nothing.
 
 ---
 
-## Counts
+## A Tag Broader Than Its Own Name, Which Is a New Case
 
-| Quantity | Draft | Equations | Primaries | Publication |
-|---|---|---|---|---|
-| Lines | 10,459 | 10,681 | 12,235 | 12,285 |
-| Words | 59,764 | 62,552 | 72,231 | 72,926 |
-| Display equations | 8 | 31 | 31 | 31 |
-| Reference definitions | 4,970 | 4,976 | 5,716 | 5,716 |
-| Research records | 4,874 | 4,874 | 5,614 | 5,614 |
-| Report primaries | 308 at 6.3 percent | 308 | 376 at 6.7 | 376 at 6.7 |
-| Named primary documents | 8 | 8 | 29 | 29 |
-| Curated identifiers | 25 | 28 | 60 | 60 |
-| Prose citation labels checked | 61 | 73 | 90 | 92 |
+A351 found that a family can span two patterns. A352 found the converse, that an entry can
+span two families. **A353 found the third case.**
 
-**Verifier clean at 0 errors and 0 warnings. Tests 106 of 106. Lint 0 defects.** The article's own
-verifier runs seven checks and every one was proved capable of failing by injection.
+The entry was the bare word `dielectric`, tagged `cure-monitoring`. Dielectric cure
+monitoring is a real subject and the tag was correct for A352. **But a dielectric barrier
+discharge is a plasma actuator and a dielectric elastomer is a soft actuator**, and both
+are actuation technologies a flutter suppression survey wants. Opening the tag to reach
+them would also have readmitted the binary liquid mixtures the pattern exists for.
+**The entry was split so each half opens alone**, and the store is now 135 patterns across
+26 families with 35 tagged.
 
-**The stub-isolated production build succeeded in 449 seconds with no Liquid error, against the
-exact bytes committed**, the checksum having been matched against the stub copy before the build
-started and against both stub and draft after it finished. **The rendered audit reports no findings
-across 91 pages.** Source and rendered display-equation counts agree at **31**, with **zero raw dollar
-pairs leaking**, **zero unresolved reference brackets**, **zero unexpanded slots** and **zero
-unrendered Liquid**. The page is 1,098,707 bytes.
+**AND THE NEW TEST ASSERTED THE WRONG THING AND THE SUITE CAUGHT IT.** The first version
+claimed that opening `cure-monitoring` readmits the binary liquid records. It does not,
+because a second and untagged pattern also covers them. **The store defends that incident
+twice**, which is worth pinning rather than a failure, and it was found only because a new
+pattern was given a test in the same change.
 
 ---
 
-## Open Questions for the Pilot
+## Verification
 
-**A324's `book_jenkins` label remains the one live repair**, unchanged across all four passes. The
-key is correct and the label swallowed the title.
+**Verifier clean at 0 errors.** Two `progress-stale` warnings stood until the process files
+were updated in this same commit, which is the expected order.
 
-**The OpenLibrary work pages returning Internal Error to a reader** is also unchanged.
+**Tests 107 of 107**, one added for the store split. **Lint 0 findings.**
 
-**And A350 ships a duplicated `## The Contemporary Literature` heading** at lines 412 and 414 of
-`x_planes_boeing_x53_active_aeroelastic_wing.markdown`, found while comparing section structures.
-**It is not repaired here**, because A350 is complete on all four passes and editing a finished
-article during another article's work mixes two units.
+**The article verifier runs seven check groups and every one was proved non-vacuous by
+injection.** Nine defects were injected one at a time, being a contraction, a prose colon,
+a semicolon, an em dash, a parenthetical, capitals used for emphasis, a wrong register
+count, a wrong flight count and a year past the dateline. **All nine were caught, and the
+restored article verifies clean.**
 
-**A352 is complete on all four passes and is PUSHED. Nothing is published and publication of the
-series has never been authorised.** The next new article is **A353, the X-56**, editorial date
-2025-12-01, series index 57.
+**Every count the article states about the register is recomputed from the register**, and
+every number attributed to the flight test report is checked against the report's own text
+and then checked again for presence in the prose.
+
+**FINAL STATE. 8,378 lines, 8 display equations, 3,971 reference definitions, 49,601
+words**, 3,862 curated research records, 275 report primaries at 7.1 percent, one sweep
+retrieving 6,477 records, store residual 5.9 percent. **All 3,971 definitions are cited,
+none orphaned and none undefined.**
+
+---
+
+## What Is Not Done
+
+**The equation-density pass, the primary-reference pass and the publication review have not
+run.** This is the first of four and the draft is deliberately at draft strength, with
+eight equations where the series typically lands near thirty.
+
+**The engine disagreement is recorded and not resolved.** The register says P-240 and the
+flight test report says P400. **Three different maximum weights appear in three documents
+of the same programme**, being 525, 550 and about 480 pounds, and the article states all
+three rather than smoothing them.
+
+**The X-56B date is not resolved.** The register says 2019 with its own question mark, and
+secondary sources place the flights in 2021. The article records the discrepancy and does
+not adjudicate it.

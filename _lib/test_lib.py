@@ -1957,6 +1957,68 @@ def t_homonym_a351_tags_cover_every_pattern_in_their_family():
         "Adjoint-Based Optimization Method", allow=A351) is not None
 
 
+def t_homonym_a353_split_a_tag_broader_than_its_own_name():
+    """A353: A TAG THAT IS BROADER THAN ITS NAME IS NOT A USABLE HANDLE.
+
+    A351 found that a FAMILY can span two patterns. A352 found the converse, that an
+    ENTRY can span two families. **A353 found the third case, which is a tag whose NAME
+    describes a narrower thing than its PATTERN matches.** The entry was the bare word
+    `dielectric` carrying the tag `cure-monitoring`. Dielectric cure monitoring is a real
+    subject and the tag was correct for A352. **But a DIELECTRIC BARRIER DISCHARGE is a
+    plasma actuator for active flow control and a DIELECTRIC ELASTOMER is a soft
+    actuator**, and neither has anything to do with curing a thermoset.
+
+    The store therefore deleted `Active flow control of a wing section in stall flutter
+    by dielectric barrier discharge plasma actuators` from a flutter survey, and the only
+    handle offered for recovering it would also have readmitted the static dielectric
+    constants of binary liquid mixtures, which is the noise the pattern exists for.
+    **The article that needs one half must not have to take the other half to get it.**
+
+    The narrowed half uses a negative lookahead rather than a shorter word list, because
+    the noise sense is the open-ended one and the two actuator senses are the closed set.
+    """
+    assert "smart-actuators" in homonyms.TAGS
+    assert "cure-monitoring" in homonyms.TAGS
+
+    # **ARMED BEFORE DISARMED**, which is the A351 guard. A test that would pass with the
+    # split reverted is not a test.
+    actuators = [
+        "Active flow control of a wing section in stall flutter by dielectric barrier "
+        "discharge plasma actuators",
+        "Active vibration control of a flexible thin-walled structure using dielectric "
+        "elastomer actuators",
+    ]
+    for title in actuators:
+        assert homonyms.noise_hit(title) is not None, f"vacuous, never armed: {title}"
+        assert homonyms.noise_hit(title, allow=("smart-actuators",)) is None, title
+        # AND THE OTHER HALF MUST NOT REACH IT. If `cure-monitoring` still opened these,
+        # the split changed the reason reported and nothing else.
+        assert homonyms.noise_hit(title, allow=("cure-monitoring",)) is not None, (
+            f"the narrowed half still matches the actuator sense: {title}")
+
+    # THE HALF THAT WAS NARROWED MUST STILL BE ARMED, OR THE SPLIT SIMPLY OPENED THE
+    # FAMILY. This is the record the pattern was written for.
+    cure = ("Dielectric Measurements for Monitoring the Cure of Epoxies and Composite "
+            "Materials")
+    assert homonyms.noise_hit(cure) is not None, f"vacuous: {cure}"
+    assert homonyms.noise_hit(cure, allow=("smart-actuators",)) is not None, (
+        f"the split opened the wrong half: {cure}")
+    assert homonyms.noise_hit(cure, allow=("cure-monitoring",)) is None, cure
+
+    # **AND THE ORIGINATING INCIDENT IS COVERED TWICE, WHICH THIS TEST ASSERTED WRONGLY
+    # THE FIRST TIME.** A369's binary-liquid records trip `liquid mixtur` as well as
+    # `dielectric`, and that entry carries no tag. Opening `cure-monitoring` therefore
+    # does NOT readmit them, which is a property of the store worth pinning rather than a
+    # failure. **The first version of this test asserted the opposite and the suite caught
+    # it**, which is the whole reason a new pattern gets a test in the same commit.
+    liquid = "Static dielectric constants of binary liquid mixtures"
+    assert homonyms.noise_hit(liquid) is not None, f"vacuous: {liquid}"
+    assert homonyms.noise_hit(liquid, allow=("cure-monitoring", "smart-actuators")) \
+        is not None, (
+            "binary liquid mixtures must stay out even with both dielectric tags open, "
+            "because an untagged pattern also covers them")
+
+
 def t_homonym_a352_split_a_pattern_that_spanned_two_families():
     """A352: A TAG SWITCHES OFF A WHOLE ENTRY, AND AN ENTRY CAN SPAN TWO FAMILIES.
 
