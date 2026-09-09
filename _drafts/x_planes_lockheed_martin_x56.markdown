@@ -43,6 +43,28 @@ Of the 526 allocation rows the addendum carries, this is **the only one containi
 
 Two structural modes are usually enough. Each has a frequency and a shape, which is what a normal mode is [[Normal Mode][ref_normal_mode]], and each is damped by some fraction of the damping that would suppress oscillation entirely [[Damping Ratio][ref_damping_ratio]]. **Measuring those frequencies and dampings on a real structure is a discipline of its own** [[Ewins, Modal testing, theory and practice][book_ewins]], and the X-56 programme did it on the ground before it did it in the air. As airspeed rises the aerodynamic forces grow, the frequencies move, and at some speed two of them approach one another closely enough to couple. **Once they couple, the damping of one mode falls and the damping of the other rises**, and at the speed where the falling one reaches zero the structure will sustain an oscillation on the energy the airflow supplies. **Above that speed the damping is negative and the amplitude grows every cycle** [[Wright and Cooper, Introduction to aircraft aeroelasticity and loads][book_wright_cooper]] [[Hodges and Pierce, Introduction to structural dynamics and aeroelasticity][book_hodges_pierce]].
 
+**Damping is what is actually measured, and it is measured from how an oscillation decays.** Strike a structure, watch consecutive peaks, and the ratio between them gives the logarithmic decrement [[Damping Ratio][ref_damping_ratio]] [[Ewins, Modal testing, theory and practice][book_ewins]].
+
+$$
+\Delta = \ln\!\left(\frac{x_n}{x_{n+1}}\right)= \frac{2\pi\zeta}{\sqrt{1-\zeta^{2}}}
+$$
+
+$$
+\frac{x_{n+1}}{x_n} = \exp\!\left(\frac{-2\pi\zeta}{\sqrt{1-\zeta^{2}}}\right)
+$$
+
+**That relation is the reason the X-56A programme could set a numerical gate on proceeding.** Its requirement was a closed loop damping ratio above 0.04 at every cleared condition [[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]].
+
+$$
+\zeta_c > 0.04
+$$
+
+$$
+\zeta = 0.04 \;\Longrightarrow\; \frac{x_{n+1}}{x_n} = 0.778
+$$
+
+**So the gate says that a disturbance must lose about 22 percent of its amplitude every cycle** [[Damping Ratio][ref_damping_ratio]]. That is not a large margin. It is roughly the damping of a structure that rings four or five times after being struck, and the aeroplane was required to hold it while flying above the speed at which the same structure, uncontrolled, would have had none at all.
+
 **The consequence is that flutter has no useful warning margin in the ordinary sense.** A structure at ninety-five percent of its flutter speed is not slightly fluttering. It is stable, and it will look stable, and the quantity that is about to go through zero is a damping ratio that no one aboard can feel. **This is why flutter is cleared by prediction and margin rather than by approaching it and observing**, and it is exactly the convention the X-56A was built to break.
 
 The most widely known flutter event is not an aeroplane at all. The Tacoma Narrows bridge deck of 1940 is the canonical case, and bridge aerodynamics remains one of the two fields where the flutter boundary is a routine design quantity [[Tacoma Narrows Bridge, 1940][ref_tacoma_narrows]] [[Simiu and Scanlan, Wind effects on structures][book_simiu_scanlan]]. **That is not an aside**, and this article's reference survey is built on the observation that a bridge deck and a wing are the same problem with different boundary conditions.
@@ -55,7 +77,7 @@ $$
 V_F \;\ge\; 1.15 \, V_D
 $$
 
-**The requirement is stated in equivalent airspeed and that is not a detail.** Flutter depends on dynamic pressure rather than on speed, and dynamic pressure is the quantity that equivalent airspeed is constructed to preserve.
+**The requirement is stated in equivalent airspeed and that is not a detail.** Flutter depends on dynamic pressure rather than on speed [[Dynamic Pressure][ref_dynamic_pressure]], and dynamic pressure is the quantity that equivalent airspeed is constructed to preserve [[Equivalent Airspeed][ref_equivalent_airspeed]].
 
 $$
 q = \tfrac{1}{2} \rho V^{2}
@@ -65,6 +87,24 @@ $$
 V_E = V \sqrt{\frac{\rho}{\rho_0}} = V \sqrt{\sigma}
 $$
 
+$$
+\frac{q_F}{q_D} \;\ge\; 1.15^{2} = 1.3225
+$$
+
+**A fifteen percent speed margin is a thirty-two percent margin in the quantity that actually drives the instability** [[14 CFR 25.629, Aeroelastic Stability Requirements][ref_far_25_629]], because dynamic pressure goes as the square of speed. **The regulation is written in speed and paid for in pressure**, and the factor between the two is what makes the structural penalty as large as it is.
+
+The flying was done from a lake bed about 2,300 feet above sea level [[Rogers Dry Lake][ref_rogers_dry_lake]], where the standard atmosphere gives a density ratio a little under unity [[U.S. Standard Atmosphere][ref_us_standard_atmosphere]] [[True Airspeed][ref_true_airspeed]].
+
+$$
+\sigma = \frac{1.145}{1.225} = 0.934, \qquad \sqrt{\sigma} = 0.967
+$$
+
+$$
+q_1 = \tfrac{1}{2}(1.145)(57.1)^{2} = 1.87 \times 10^{3}
+$$
+
+**The first mechanism therefore arrives at about 1.87 kilopascals**, which is a little under two percent of an atmosphere pressing on the wing.
+
 **Two aeroplanes at the same equivalent airspeed and different altitudes are at the same dynamic pressure and therefore at the same point relative to a flutter boundary**, while their true airspeeds differ by the square root of the density ratio [[Equivalent Airspeed][ref_equivalent_airspeed]] [[True Airspeed][ref_true_airspeed]] [[U.S. Standard Atmosphere][ref_us_standard_atmosphere]]. **Every speed quoted in this article is the speed its source quotes**, and the flight test report works in knots without stating a conversion, which is defensible for an aeroplane whose entire envelope sits within a few thousand feet of a dry lake bed.
 
 **The phrase carry around enough structure is the entire economic argument.** Torsional and bending stiffness are bought with material, material is weight, and weight is fuel. **The flutter margin is therefore a mass penalty paid on every flight of every aeroplane in the fleet**, in exchange for the assurance that a boundary is never approached.
@@ -72,6 +112,84 @@ $$
 **The proposition the X-56 exists to test is that the margin could be supplied by a control system instead of by structure.** If a feedback law can add damping to the mode that is losing it, the boundary moves, and the structure does not have to be as stiff. **The wing may then be longer and thinner, which reduces induced drag, and lighter, which reduces everything.** The programme's stated goal was to increase aspect ratio by thirty to forty percent [[X-56A Multi-Utility Technology Testbed, NASA Facts FS 2015 08 105 AFRC][ref_x56_factsheet]].
 
 **That is why the aeroplane had to flutter.** A control law that suppresses an instability cannot be validated against an aeroplane that never becomes unstable. **The demonstration requires the failure mode to be present, reachable, survivable and repeatable**, and no aeroplane certified under the ordinary rule offers any of those four.
+
+## The Prize and the Price, and the Exchange Rate Between Them
+
+**The programme's stated goal was to increase aspect ratio by thirty to forty percent, and both halves of that trade can be computed.**
+
+The prize is induced drag. For a wing of given lift coefficient and span efficiency, induced drag falls as aspect ratio rises [[Aspect Ratio, Aeronautics][ref_aspect_ratio]] [[Megson, Aircraft structures for engineering students][book_megson]].
+
+$$
+C_{D_i} = \frac{C_L^{2}}{\pi \, AR \, e}
+$$
+
+$$
+\frac{C_{D_i}(\Lambda \cdot AR)}{C_{D_i}(AR)} = \frac{1}{\Lambda}
+$$
+
+$$
+\Lambda = 1.3 \Rightarrow 0.769, \qquad \Lambda = 1.4 \Rightarrow 0.714
+$$
+
+**Neither the lift coefficient nor the span efficiency survives into the ratio** [[Aspect Ratio, Aeronautics][ref_aspect_ratio]], so this part of the trade is parameter free. **Thirty percent more aspect ratio is 23.1 percent less induced drag and forty percent is 28.6 percent**, and no property of the particular aeroplane is needed to say so.
+
+**The price is the flutter speed, and computing it requires knowing how the two coalescing frequencies move.**
+
+Treat the wing as a uniform cantilever, which is an idealisation and is flagged as one. Its fundamental bending frequency is set by stiffness, mass per length and the fourth power of the semispan [[Ewins, Modal testing, theory and practice][book_ewins]] [[Hodges and Pierce, Introduction to structural dynamics and aeroelasticity][book_hodges_pierce]].
+
+$$
+\omega_b = \frac{(\kappa_1 L)^{2}}{L^{2}} \sqrt{\frac{EI}{m'}},\qquad \kappa_1 L = 1.8751
+$$
+
+$$
+\omega_b \;\propto\; \frac{1}{L^{2}} \sqrt{\frac{EI}{m'}}
+$$
+
+**The bracketed group is the standard cantilever coefficient**, being 1.8751 squared, or 3.516, and it is a property of the boundary conditions rather than of any particular wing.
+
+**The short period frequency, by contrast, rises with airspeed**, because the aerodynamic restoring moment that sets it grows with dynamic pressure [[Nelson, Flight stability and automatic control][book_nelson]] [[Stengel, Flight dynamics][book_stengel]].
+
+$$
+\omega_{sp} \;\propto\; V
+$$
+
+**Body freedom flutter occurs where the rising one meets the nearly stationary one** [[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]] [[Aeroelasticity][ref_aeroelasticity]].
+
+$$
+\omega_{sp}(V_F) \;=\; \omega_b
+$$
+
+$$
+V_F \;\propto\; \omega_b \;\propto\; \frac{1}{L^{2}} \sqrt{\frac{EI}{m'}}
+$$
+
+**So the flutter speed inherits the wing bending frequency's scaling exactly.** It rises with the square root of bending stiffness and falls with the square of the semispan [[Bisplinghoff, Ashley and Halfman, Aeroelasticity][book_bisplinghoff]] [[Wright and Cooper, Introduction to aircraft aeroelasticity and loads][book_wright_cooper]].
+
+Now raise the aspect ratio. At fixed wing area the span goes as the square root of aspect ratio [[Aspect Ratio, Aeronautics][ref_aspect_ratio]] [[Flying Wing][ref_flying_wing]].
+
+$$
+b = \sqrt{AR \cdot S} \;\propto\; \sqrt{AR}
+$$
+
+$$
+\frac{EI(\Lambda \cdot AR)}{EI(AR)}= \left(\sqrt{\Lambda}\right)^{4} = \Lambda^{2}
+$$
+
+$$
+\Lambda = 1.3 \Rightarrow 1.69, \qquad \Lambda = 1.4 \Rightarrow 1.96
+$$
+
+**The two halves of the trade can now be set side by side, and they are not the same size** [[X-56A Multi-Utility Technology Testbed, NASA Facts FS 2015 08 105 AFRC][ref_x56_factsheet]].
+
+$$
+C_{D_i} \;\times\; \Lambda^{-1}, \qquad EI \;\times\; \Lambda^{+2}
+$$
+
+**A factor in aspect ratio buys its reciprocal in induced drag and costs its square in bending stiffness.** Thirty percent more aspect ratio is 23.1 percent less induced drag and 69 percent more bending stiffness. Forty percent is 28.6 percent less drag and 96 percent more stiffness. **The structural price is the square of the aerodynamic prize, and it is a price paid in weight.**
+
+**That single relation is the entire commercial argument for this aeroplane.** If the flutter margin has to come from stiffness, the wing that is thirty percent more slender needs to be most of twice as stiff, and the weight of that stiffness eats the drag saving that motivated the slenderness. **If instead the margin can come from a feedback law, the exponent on the right hand side is the one that goes away.**
+
+**The idealisation should be stated plainly rather than buried.** A real wing is not a uniform cantilever, its mass per length is not constant, the short period frequency does not rise exactly linearly, and body freedom flutter involves the coupled system rather than either frequency alone. **What survives all of that is the exponent**, because the fourth power in the cantilever relation comes from the length scale and not from the mass distribution, and the square in the aspect ratio relation comes from the definition of aspect ratio. **The numbers are approximate. The shape of the trade is not.**
 
 ## What Was Actually Built
 
@@ -115,6 +233,14 @@ $$
 n_s = 12 + 2\times 25 + 93 + 30 + 6 + 134 = 325
 $$
 
+**The 93 aerodynamic lag states are there for a specific reason.** A wing oscillating in a stream does not feel the forces a steady analysis would predict, because the flow has memory of where the surface was. **How much memory matters is set by the reduced frequency**, which compares the time the air takes to cross the chord with the period of the oscillation [[Bisplinghoff, Ashley and Halfman, Aeroelasticity][book_bisplinghoff]] [[Dowell, A modern course in aeroelasticity][book_dowell]].
+
+$$
+k = \frac{\omega_b \, \bar{c}}{2V}
+$$
+
+**When that number is not small, a steady theory cannot predict an oscillation at all**, and the lag states are how a state space model carries the memory that Theodorsen's function carries in the frequency domain.
+
 **Those parts sum to exactly 325**, which is worth checking rather than repeating, because a decomposition that does not add up is a misread decomposition. **The largest single block is not the structure and not the aerodynamics.** It is the 134 sensor states, which is more than the rigid body, structural and actuator states combined.
 
 ## The Wreck Behind the Programme
@@ -137,6 +263,10 @@ $$
 F = \left[\left(\frac{\omega_2^{2}-\omega_1^{2}}{2}\right)+\left(\frac{\beta_2^{2}-\beta_1^{2}}{2}\right)\right]^{2}+ 4\,\beta_1\beta_2\left[\left(\frac{\omega_2^{2}+\omega_1^{2}}{2}\right)+ 2\left(\frac{\beta_1^{2}+\beta_2^{2}}{2}\right)\right]- \left(\frac{\beta_2-\beta_1}{\beta_1+\beta_2}\right)\left[\left(\frac{\omega_2^{2}-\omega_1^{2}}{2}\right)+ 2\left(\frac{\beta_1^{2}+\beta_2^{2}}{2}\right)\right]
 $$
 
+$$
+F(V) = a V^{2} + g V + c, \qquad F(V_F) = 0
+$$
+
 **The parameter is defined only below the boundary**, which is the property that makes it useful and also the property that makes it awkward. It gives an estimate of a speed the aeroplane has not reached from data taken where the aeroplane is safe, and it stops being defined at exactly the moment the answer would be observable.
 
 **Its accuracy improved as the boundary was approached, which is both reassuring and the reason the buildup had to be incremental.** With data only from low speed, far from flutter, the prediction was significantly wrong because the extrapolation was long. **From ten knots away it was within one knot**, which on a boundary of 111 knots is under one percent [[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]].
@@ -145,11 +275,7 @@ $$
 
 The envelope was expanded in ten knot increments until the predicted boundary was within ten knots, and in five knot increments after that. At each new condition the aeroplane was excited with a short doublet, called a rap, applied to the outboard surfaces, of 0.25 seconds and one to one and a half degrees of amplitude.
 
-$$
-\zeta_{\text{closed loop}} > 0.04
-$$
-
-**The requirement to proceed was a closed loop damping ratio above 0.04**, and separately a gain margin above 3 decibels and a phase margin above 30 degrees [[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]] [[Gain Margin][ref_gain_margin]] [[Phase Margin][ref_phase_margin]].
+**The requirement to proceed was the closed loop damping gate already stated**, and separately a gain margin above 3 decibels and a phase margin above 30 degrees [[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]] [[Gain Margin][ref_gain_margin]] [[Phase Margin][ref_phase_margin]].
 
 ## The Two Stability Problems Disagree About Which Fuel State Is Dangerous
 
@@ -177,11 +303,47 @@ The procedure is worth stating in full because it is the most direct realisation
 
 **Two knots.** The margin between an aeroplane that can be left uncontrolled for three cycles and one that cannot is two knots out of 111.
 
+**How unstable is that, in the unit the gate was written in?** The test limit is not published [[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]], so the question is answered as a bound rather than a measurement, by asking what negative damping would produce a given growth over three cycles [[Damping Ratio][ref_damping_ratio]].
+
+$$
+\zeta = -\frac{u}{\sqrt{1+u^{2}}}, \qquad u = \frac{\ln G^{1/3}}{2\pi}
+$$
+
+$$
+G = 3 \Rightarrow \zeta = -0.058, \qquad G = 10 \Rightarrow \zeta = -0.121
+$$
+
+**A threefold growth over three oscillations implies a damping ratio of about minus 0.058, and a tenfold growth about minus 0.121** [[Wright and Cooper, Introduction to aircraft aeroelasticity and loads][book_wright_cooper]]. Both are the same order as the positive 0.04 the closed loop was required to hold. **The aeroplane was not far past its boundary in any absolute sense**, and the control system was not fighting an enormous instability. It was supplying a few percent of damping where the airflow was removing a few percent.
+
+**That also explains why the open loop window was configured in cycles rather than in seconds** [[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]].
+
+$$
+n_2 = \frac{\ln 2 \, \sqrt{1-\zeta^{2}}}{2\pi\,|\zeta|}
+$$
+
+$$
+\zeta = -0.02 \Rightarrow n_2 = 5.5, \qquad \zeta = -0.05 \Rightarrow n_2 = 2.2
+$$
+
+**At a few percent of negative damping an oscillation doubles in a handful of cycles** [[Normal Mode][ref_normal_mode]], and the number of cycles depends only on the damping ratio while the number of seconds depends on the frequency as well. **A window measured in cycles means the same thing at every condition. A window measured in seconds does not.**
+
 ## The Limit Cycle the Suppressor Could Not See
 
 **One of the most distinctive signs of being near the boundary was a small limit cycle oscillation in pitch, and its cause is a mechanism worth separating from the flutter itself.**
 
 The limit cycle was produced by deadbands in the actuators [[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]] [[Deadband][ref_deadband]] [[Limit Cycle][ref_limit_cycle]]. An actuator with a deadband does not respond to a command below some threshold. **While the motion was inside that threshold the aeroplane was effectively open loop, and therefore unstable**, so the amplitude grew. Once the amplitude was large enough to push the actuators out of the deadband, the control system regained effectiveness and arrested the growth.
+
+**The mechanism has a standard description and it is worth writing down**, because it explains why the oscillation stopped growing rather than merely why it started. An actuator deadband is a nonlinearity, and its effect on a loop is captured by a describing function, being the effective gain it presents to a sinusoid of a given amplitude [[Deadband][ref_deadband]].
+
+$$
+N(A) = 1 - \frac{2}{\pi}\left[\arcsin\!\frac{d}{A}+ \frac{d}{A}\sqrt{1-\left(\frac{d}{A}\right)^{2}}\,\right],\quad A > d
+$$
+
+$$
+\lim_{A \to d^{+}} N(A) = 0, \qquad \lim_{A \to \infty} N(A) = 1
+$$
+
+**The effective gain rises monotonically with amplitude.** A small oscillation sees almost no actuator authority, so the loop behaves as though it were open and the amplitude grows. As it grows the actuators spend more of each cycle outside the deadband, the effective gain rises, and the oscillation settles at the amplitude where the gain is just enough to restore marginal stability.
 
 **The result is an aeroplane that is unstable in the small and stable in the large**, which is the inverse of the usual arrangement and a consequence of the suppressor being unable to see what it was supposed to suppress. **The instability was bounded by the nonlinearity that caused it.**
 
@@ -196,6 +358,18 @@ The mechanism has two parts and both are consequences of the design rather than 
 **The first is that the aeroplane is statically unstable.** On a statically stable aeroplane the aerodynamic centre is aft of the centre of gravity, so during rotation the lift force arrives nearly collocated with the main gear and produces little moment change. **On a statically unstable aeroplane the lift arrives well forward of the main gear**, and the result is a positive pitch acceleration exactly when the pilot is already commanding a pitch up.
 
 **The second is the flexibility itself.** During rotation the flexible wings bend upward as lift builds. That bending gives the wingtip a vertical velocity, vertical motion into the oncoming airflow reduces the local angle of attack, and reduced angle of attack reduces the tip lift. **On an aft swept wing, losing lift at the tip is a pitch up moment.** The programme estimated from wing video that this additional moment was likely enough to push the vehicle into stall.
+
+**The angle involved is worth computing, because it is smaller than intuition suggests and still large enough to matter** [[Miller, X-56 Flight Test and Lessons Learned, Aerospace Control and Guidance Systems Committee Meeting 127][ref_x56_lessons]]. A section moving upward at some rate into a stream meets that stream at a reduced angle [[Etkin and Reid, Dynamics of flight][book_etkin]].
+
+$$
+\Delta\alpha = -\arctan\!\left(\frac{\dot{h}}{V}\right)
+$$
+
+$$
+\dot{h} = 1,\; V = 33.4 \;\Longrightarrow\; \Delta\alpha = -1.71^{\circ}
+$$
+
+**At a takeoff speed of 65 knots, a wingtip rising at one metre per second loses 1.71 degrees of local angle of attack.** For comparison, the deliberate excitation used to provoke the flutter mode at the boundary was a control surface deflection of one to one and a half degrees. **A single metre per second of tip motion during rotation is the same order of disturbance as the input the programme used, years later, to make the aeroplane flutter on command.**
 
 **So the aeroplane commissioned to exhibit an aeroelastic instability was destroyed by an aeroelastic effect, at about sixty knots, with the flutter boundary fifty knots away and entirely irrelevant.** The effect that killed it is not flutter. It is a quasi-static coupling between wing bending and pitching moment, operating during the few seconds of rotation, in a regime the modelling effort had not been aimed at.
 

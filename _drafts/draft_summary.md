@@ -21,74 +21,71 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_lockheed_martin_x56.markdown`, A353, editorial date 2025-12-01, series `x_planes` index 57 of 72.
 
-**8,380 lines, 8 display equations, 3,971 reference definitions, 49,601 words after the
-draft pass.** **ONE OF FOUR PASSES COMPLETE.** Committed, **NOT pushed**, which is the
-rhythm for a draft pass. **Not published**, and publication of the series has never been
-authorised. **Deliberate-instability class, and the only aeroplane in this series built so
-that a failure mode would happen.**
+**8,554 lines, 36 display equations, 51 declared symbols, 3,971 reference definitions,
+51,338 words after the equation-density pass.** **TWO OF FOUR PASSES COMPLETE.** Committed,
+**NOT pushed**. **Not published**, and publication of the series has never been authorised.
+**Deliberate-instability class, and the only aeroplane in this series built so that a
+failure mode would happen.**
 
 **THE REGISTER HAS THREE VERBS AND THIS ENTRY USES A FOURTH.** Of 526 allocation rows,
 eighteen say demonstrate, five say investigate and one says validate, and every one takes a
 capability as its object. **Exactly one entry uses the verb exhibit and its object is a
-failure mode.** The X-56A row is the only one naming flutter, the only one using any form of
-exhibit, the only one naming a flying wing, the only one naming a high aspect ratio and the
-only one naming a flight envelope, which is five separate counts all returning one.
+failure mode.** Five separate counts all return the X-56A row. The opening's first draft
+overreached and the register narrowed it, since two entries name a sonic boom, one vortices,
+two icing and one fatigue, so **the surviving claim is that it is the only entry meaning to
+produce a phenomenon capable of destroying the vehicle built to demonstrate it.**
 
-**THE OPENING OVERREACHED AND THE REGISTER NARROWED IT.** The claim that it is the only
-entry meaning to produce an unwanted phenomenon is false, since two entries name a sonic
-boom, one names vortices, two name icing and one names fatigue. **The surviving claim is
-that it is the only entry whose stated purpose is to produce a phenomenon capable of
-destroying the vehicle built to demonstrate it.**
+**THE PLURAL IS THE ONE CLAUSE THE PROGRAMME DID NOT DELIVER.** Body freedom flutter at 111
+to 114 knots was flown past under active control, with the controller frozen in flight after
+a deliberate excitation so the instability could be watched for three or four oscillations.
+**The second mechanism was predicted at 138 to 144 knots against a 135 knot maximum level
+flight speed**, so it is reachable only in a dive, and the envelope stopped at 120.
+**The retrospective says one remaining airframe made the team too risk averse and that three
+vehicles would likely have been the sweet spot.**
 
-**THE PLURAL IS THE ONE CLAUSE THE PROGRAMME DID NOT DELIVER.** Body freedom flutter was
-found at 111 knots at forward centre of gravity and 114 at aft, and the aeroplane was flown
-past it under active control, with the control system frozen in flight after a deliberate
-excitation so the instability could be watched for three or four oscillations. **A second
-mechanism was predicted at 138 to 144 knots against a maximum level flight speed of 135**,
-so it lies three to nine knots above level flight and is reachable only in a dive. The
-envelope reached 120 knots. **The retrospective states the vehicle could likely have gone
-deeper, that one remaining airframe made the team too risk averse, and that three vehicles
-would likely have been the sweet spot.**
+**AND THE AEROPLANE BUILT TO FLUTTER WAS DESTROYED BY ROTATION**, at about sixty knots,
+fifty below the boundary. **The model was excellent where the research was and absent where
+the flying was.**
 
-**AND THE AEROPLANE BUILT TO FLUTTER WAS DESTROYED BY ROTATION**, at about sixty knots on
-its first flexible wing takeoff, fifty knots below the boundary. It is statically unstable
-so lift arrives forward of the main gear, and the flexible wings bend up as lift builds,
-dropping tip angle of attack, which on an aft swept wing is a pitch up moment. **The model
-was excellent where the research was and absent where the flying was.**
+**THE EQUATION PASS PRODUCED AN EXCHANGE RATE THAT IS EXACT AND PARAMETER FREE.** Thirty to
+forty percent more aspect ratio buys **23.1 to 28.6 percent** less induced drag, with neither
+lift coefficient nor span efficiency surviving into the ratio. **It costs 1.69 to 1.96 times
+the bending stiffness to hold the flutter speed**, because the cantilever bending frequency
+falls with the square of semispan, the short period frequency rises with airspeed, body
+freedom flutter is where they coalesce, and span goes as the square root of aspect ratio at
+fixed area. **The structural price is the square of the aerodynamic prize**, and that is the
+entire commercial argument for the aeroplane, since a feedback law removes the exponent.
+The uniform-cantilever idealisation is stated rather than buried.
 
-**THE TWO STABILITY PROBLEMS DISAGREE.** The tail tank means burning fuel moves the centre
-of gravity forward, so the aeroplane is statically least stable at takeoff. **But the
-forward centre of gravity case flutters three knots earlier**, so the statically safer end
-is the aeroelastically more dangerous one.
+**THREE MORE RELATIONS CHANGED WHAT THE ARTICLE COULD SAY.** The 0.04 damping gate became
+physical at 0.778 per cycle, a loss of about 22 percent. **The instability past the boundary
+was bounded by inversion rather than assumed**, threefold growth over three cycles implying
+about minus 0.058 and tenfold about minus 0.121, both the same order as the 0.04 the closed
+loop supplied. **And the accident became an angle**, one metre per second of tip rise at 65
+knots costing 1.71 degrees, the same order as the deflection later used to provoke flutter
+on command. The limit cycle got its mechanism from the describing function of a deadband,
+whose gain rises with amplitude, so **the instability is bounded by the nonlinearity that
+caused it.**
 
-**FOUR INSTRUMENT DEFECTS, TWO SHARING A352's ROOT CAUSE.** The gate and the reference list
-were reading different strings, since forty-five harvested titles carry markup that only the
-reference path cleans. **Cluster assignment is first match wins and a general flutter
-pattern above a specific suppression pattern reported the programme's own subject at 19
-where it is 325.** The verifier searched `pdftotext` output for phrases wrapped
-mid-sentence. Two presence checks were written against the source's wording rather than the
-article's. **And the dateline regex could not match a year before 2020.**
+**THE SYMBOL TABLE REFUSED THREE COLLISIONS** and the symbol scanner's first version
+reproduced all four of A352's scanner failures at once, so **it no longer tokenises** and
+instead removes declared symbols longest first and asks what is left.
 
-**A DISPLAY EQUATION WAS DEMOTED TO INLINE MATH AND ONLY THE RENDERED PAGE SHOWED IT.** One
-slot was substituted at the end of a text line, so kramdown read the `$$` as inline. The
-source declared eight and the built page carried seven. **A guard now asserts in the
-assembler that every equation slot begins its own line**, and it was proved non-vacuous by
-reinjecting the defect.
+**AND A PRESENCE CHECK WENT GREEN BECAUSE A NUMBER HAD GONE STALE.** Almost every derived
+number appears twice, once in an equation and once in prose, and an injection changing the
+prose from `about minus 0.058` to `0.048` sailed past a check looking for `0.058`.
+**Expected prose is now built from the computed value.** Eight phrases pinned, all proved
+to bite.
 
-**THE STORE GAINED A SPLIT AND A TAG.** The bare word `dielectric` was tagged
-`cure-monitoring`, but it also catches dielectric barrier discharge plasma actuators and
-dielectric elastomer actuators. **A tag broader than its own name is not a usable handle**,
-so the entry was split. Store now 135 patterns, 26 families, 35 tagged. Four families were
-opened for this article after reading their drops, being wind energy, civil structures,
-fracture and the new smart actuators, and `medicine` stays armed because atrial flutter is
-the purest homonym the store holds.
+**Equation citation coverage audited and closed**, twenty of thirty-six uncited at first
+placement, now zero of thirty-six.
 
-**Verifier 0 errors. Tests 107 of 107. Lint 0 findings.** The article verifier's seven check
-groups were each proved non-vacuous by injecting nine defects one at a time, all caught.
-**Build clean against checksum-matched bytes, 92 pages, rendered audit reports no findings.**
+**Verifier 0 errors 0 warnings. Tests 107 of 107. Lint 0 findings.** 124 passing checks and
+nineteen injected defects all caught. **Build clean in 168 seconds against checksum-matched
+bytes, 92 pages, rendered audit reports no findings**, source and rendered display-equation
+counts agree at 36.
 
-**Remaining work**: the equation-density pass, the primary-reference pass and the
-publication review.
+**Remaining work**: the primary-reference pass and the publication review.
 
 ## X-Planes Lockheed Martin X-55 ACCA A352 2025-11-30
 
