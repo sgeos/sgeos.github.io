@@ -51,6 +51,27 @@ STORE = os.path.join(HERE, "rejected.json")
 # Each entry is (pattern, incident). The incident is not decoration. It is the
 # evidence that the pattern describes a real contaminant, and it is what lets a
 # later reader decide whether the pattern still applies to a different subject.
+# **A VENUE THAT NAMES SEVERAL TRANSPORT MODES CARRIES NO EVIDENCE ABOUT WHICH ONE A PAPER
+# IS IN, AND THE STORE WAS TREATING IT AS EVIDENCE FOR ALL OF THEM.** `filter_records`
+# joins the title and the venue into one string before matching, which is right, because a
+# marine journal is real evidence that a paper is marine. **It stops being right when the
+# venue is deliberately multi-modal.**
+#
+# A354 found the IEEE conference `Electrical Systems for Aircraft, Railway, Ship Propulsion
+# and Road Vehicles`, which is a principal venue for electric aircraft propulsion. Its name
+# alone dropped 31 records from an electric-aeroplane survey, including `Advanced aircraft
+# electrical systems to enable an All-Electric aircraft` and `Reliability Assessment of
+# Power Modules Across Mission Phases in Electric Aircraft Propulsion`, **neither of whose
+# titles contains a marine or rail word at all**.
+#
+# The guard below is a negative lookahead applied to the marine, rail and road families. It
+# fires only when the string names aircraft ALONGSIDE another mode, which is the signature
+# of a multi-modal venue and never the signature of a paper about ships.
+_MULTIMODAL = (r"(?!.*\b(?:aircraft|aeronautic|aerospace|aviation)\b.{0,60}"
+               r"\b(?:railway|rail|ship|road vehicle|marine|naval)\b)"
+               r"(?!.*\b(?:railway|rail|ship|road vehicle|marine|naval)\b.{0,60}"
+               r"\b(?:aircraft|aeronautic|aerospace|aviation)\b)")
+
 NOISE_PATTERNS = [
     # ---- observed in the A369 compiler sweep, by reading the venue histogram
     # **A353 SPLIT THIS ENTRY, FOR THE SAME REASON A352 SPLIT THE ROTOR-REPAIR ENTRY.**
@@ -313,7 +334,8 @@ NOISE_PATTERNS = [
      "A347: THE ROTOR OF AN ELECTRICAL MACHINE. Six records reached the kept set, "
      "including 'Decoupling control of the rotor cross-coupling voltage for doubly-fed "
      "induction generator'. That title carries BOTH this contaminant and the "
-     "cross-coupling one, and a stopped rotor is a locked rotor to a motor engineer"),
+     "cross-coupling one, and a stopped rotor is a locked rotor to a motor engineer",
+     "electric-machines"),
 
     # ---- carried from the X-Planes sweeps, where the recurring families were
     #      meteorology, marine engineering and spectroscopy sharing vocabulary
@@ -837,15 +859,17 @@ NOISE_PATTERNS = [
      "them in the vocabulary of aerodynamics. Distinct from 'wind tunnel', which must "
      "survive, so the pattern is anchored on the whole phrase",
      "wind-energy"),
-    (r"\bships?\b|\bvessels?\b|\btwin-screw\b|\bship-steering\b|\bnaval architect",
+    (_MULTIMODAL + r"^.*?(?:\bships?\b|\bvessels?\b|\btwin-screw\b|\bship-steering\b|"
+     r"\bnaval architect)",
      "A341: YAW, ROLL, RUDDER and AUTOPILOT are the whole vocabulary of SHIP steering "
      "as well as of flight. 'An internal model control approach to the design of "
      "yaw-rate-control ship-steering autopilots' and 'Dynamic inverse control of ship "
      "rudder roll/yaw stabilization' both reached the kept set. The boundary before "
      "'ship' protects AIRSHIP and RELATIONSHIP, which must survive",
      "marine"),
-    (r"\broad vehicles?\b|\bautomobil|\bpassenger cars?\b|\bvehicle yaw rate\b|"
-     r"\bthree-axle\b|\belectronic stability (?:control|program)\b",
+    (_MULTIMODAL + r"^.*?(?:\broad vehicles?\b|\bautomobil|\bpassenger cars?\b|"
+     r"\bvehicle yaw rate\b|"
+     r"\bthree-axle\b|\belectronic stability (?:control|program)\b)",
      "A341: VEHICLE YAW RATE CONTROL is a road vehicle dynamics field with its own "
      "large literature using yaw, sideslip, stability and control identically. "
      "'Adaptive Yaw Control Of Three-Axle Road Vehicles' reached the kept set",
@@ -992,7 +1016,8 @@ NOISE_PATTERNS = [
      "fighter, aircrew and flight completely. 'Fighter Index of Thermal Stress: Development "
      "of Interim Guidance for Hot-Weather USAF Operations' reached the kept set through the "
      "`fighter` anchor this article itself added"),
-    (r"\brailways?\b|\brailroad|\brolling stock\b|\blocomotive|\bhigh-speed trains?\b",
+    (_MULTIMODAL + r"^.*?(?:\brailways?\b|\brailroad|\brolling stock\b|\blocomotive|"
+     r"\bhigh-speed trains?\b)",
      "A341: RAILWAY CROSSWIND aerodynamics is a real field using the aerodynamic "
      "vocabulary. 'Railway applications. Railway rolling stock power and control "
      "cables' reached the kept set. Note that SHOCK TRAIN is a scramjet isolator term "

@@ -5,163 +5,179 @@
 ## Last Updated
 
 **Date**: 2026-09-09
-**Task**: **A353, X-Planes: Lockheed Martin X-56, publication review. The fourth and last of
-four.** Committed and **PUSHED**. **Not published**, and publication of the series still not
-authorised. **Fifty-seven of seventy-two drafted.**
+**Task**: **A354, X-Planes: ESAero X-57 Maxwell, researched and written. The first of four
+passes.** Committed and **NOT PUSHED**, which is the rhythm. **Not published**, and
+publication of the series still not authorised. **Fifty-eight of seventy-two drafted.**
 
 ---
 
-## Reading the Opening Against the Body Found a Contradiction, Which Is Ten Consecutive Articles
+## The Longest Entry in the Class Belongs to the Aeroplane That Flew Least
 
-**The opening said the aeroplane spent its flight test budget flying into flutter on
-purpose.** The body says the opposite. Takeoff and landing were more dangerous than the
-instability under test, the landing gear was compromised by having to survive a parachute
-recovery, two airframes were lost in ordinary operations, and the sponsor kept the project
-alive just far enough to reach the boundary once.
+**Of the thirty X designations the register carries, the X-57A has the longest mission
+statement at 343 characters**, more than double the median X row. **The aeroplane never
+flew.** The programme ran from 2016 to 2023, delivered an aircraft, tested it on the
+ground, and closed out without it leaving the runway.
 
-**The opening now says the aeroplane was eventually flown into flutter**, and the
-conclusion explains what the word eventually is carrying. **The flutter research is the
-part of this programme that nearly did not happen, and the reason has nothing to do with
-flutter.**
+**Five separate counts return one and all return this row**, it being the only entry
+naming all electric, propulsion technology, a high lift device, a wing tip or a leading
+edge. Four rows mention electricity at all. It is also one of only four rows naming two
+contractors joined by the word and.
 
----
-
-## And the Conclusion Stated a Flight Count Two Classes of Source Disagree About
-
-**It said the aeroplane had made the same takeoff sixteen times before.** Contemporary
-reporting and the reference literature say sixteen. **The programme's own retrospective
-says Lockheed Martin flew eight flights with the stiff wings on the first centre body and
-NASA flew eight on the second.**
-
-**Sixteen is the total across both aircraft, and the one that was lost had flown eight.**
-The article now says eight and shows its working, on the principle that a count taken from
-the programme beats a count taken from reporting about it.
-
-**AND THAT NUMBER WAS ITSELF UNPINNED, WHICH AN INJECTION PROVED.** Changing `eight times
-before` to `nine` sailed straight through the verifier. **A number corrected in a pass is
-exactly the number most worth pinning in the same pass**, and this one was not. It is now
-checked against the retrospective's own words, and the check is scoped to the conclusion,
-because the phrase `sixteen times before` legitimately appears twice elsewhere where the
-article documents its own correction.
+**And it reads as a specification rather than an intention.** The register's ordinary
+grammar is a purpose clause. **This entry explains a mechanism, names its parts, says where
+each is mounted and what each is for.** It is the only entry in the register that teaches
+the reader how something works.
 
 ---
 
-## The Same Blindness Twice, at Two Stages of One Pipeline
+## A Tempting Opening Was Tested and Abandoned
 
-**The primary pass found that the sweep could not find the aeroplane's own literature.** A
-bibliographic query dilutes a distinctive designation with its generic neighbours, so a
-query naming the X-56 alongside five ordinary words spent its ranking on tiltrotor testbeds
-and a millimetre-wave seeker.
-
-**The publication review found the same defect one stage later, in the gate.** The Helios
-mishap findings, a primary document this article's argument rests on, were retrieved by the
-first sweep and then refused for carrying no subject anchor. Its title is `Technical
-Findings, Lessons Learned, and Recommendations Resulting from the Helios Prototype Vehicle
-Mishap`, which names a vehicle and an event and no physics at all.
-
-**A proper noun is the one thing an instrument keyed on subject vocabulary cannot see.**
-The gate now names the vehicles explicitly, and doing so returned a further 73 records.
+**The engines cell for this row is empty**, which invites the reading that the register had
+no category for an aeroplane without engines. **Eighty-eight of 526 rows have an empty
+engines cell, and the two other X rows that do are a supersonic demonstrator and a rocket**,
+both of which plainly have engines. **The blank is a gap in the compilation.** It is
+recorded in the article because it is the first thing an argument would reach for, and
+because two of the preceding three articles opened with a uniqueness that measurement had
+to take away.
 
 ---
 
-## Nine Conclusions Probed, and Four of Five Thin Ones Opened on Rewording Alone
+## The Wing Is the Argument, and the Prize Is Smaller Than It Looks
 
-**Every one of the nine measured zero under the article's own vocabulary, and eight of the
-nine are thickly covered under the field's.** That is A352's result repeating, and it is a
-fact about phrasing rather than about the pool.
+**The Mod III wing is 42 percent of the area of the wing it replaced**, 14.76 square metres
+becoming 6.19. At the same mass that multiplies the wing loading by 2.38, and holding the
+stall speed then requires multiplying the maximum lift coefficient by 2.38. **The twelve
+leading-edge propellers exist to supply that factor and nothing else.**
 
-| Conclusion | First probe | After rewording | After a sweep |
-|---|---:|---:|---:|
-| the second flutter mechanism | 7 | 37 | 42 |
-| takeoff rotation of a flexible aeroplane | 1 | 46 | 47 |
-| damping estimated from a decaying oscillation | 2 | 14 | 18 |
-| centre of gravity against flutter margin | 0 | 5 | 11 |
-| the designation as a failure mode | 0 | 1 | 1 |
+**But cutting the wing to 42 percent did not cut the drag to 42 percent.** Parasite drag
+scales with wetted area, and twelve nacelles put wetted area back, so **the wing area fell
+58 percent and the wetted area fell 18**.
 
-**Four of five opened on rewording alone.** One was genuinely thin and was swept, being the
-interaction between mass distribution and the flutter boundary, which took 831 further
-records to move from five to eleven. **The fifth stays at one and this series has already
-bought that measurement**, A341 having run eight queries for designation systems and
-received Massachusetts tax valuations and salmonella serotype naming. It is cited rather
-than repeated.
+**And the induced drag went the wrong way.** Induced drag is set by span, not by aspect
+ratio, and the new wing has nearly twice the aspect ratio on a shorter span, 9.94 metres
+against 11.40. **Induced drag rose 32 percent while parasite drag fell 18.**
 
----
-
-## Two More Instrument Defects, Both of the Stale-Number Family
-
-**A NUMBER SPELLED OUT AS A WORD WENT STALE BESIDE TWO COMPUTED FIGURES THAT DID NOT.** The
-sentence reporting how far the tag histogram overstates a family's release said `one
-record`, which was true across two sweeps and false after the third, while the two figures
-on either side of it updated correctly. **A number typed as a word next to a number emitted
-from data is the stalest thing on the page**, and this is the second time in one article
-that the same shape of defect appeared.
-
-**AND A CHECK MEASURED OVERLAP AGAINST A POOL IT HAD ITSELF FILLED.** The identifier check
-compared the hand-found bibliography against `refs.json`, which by the end of the primary
-pass contains the eight documents curated precisely because they were missing. **It duly
-reported twenty-three of twenty-three, being 100 percent**, which is not a measurement of
-anything. It now compares against the first sweep's own artefact, and reports seven of
-twenty-three retrieved, of which six survived that sweep's gate.
+**That result was derived here and then found stated independently in the primary source**,
+which says the reduction in span led to higher induced drag despite the higher aspect ratio
+and increased the importance of the wingtip propellers. **Agreement between an independent
+derivation and the source is recorded as a check that passed rather than as a discovery.**
 
 ---
 
-## The Caps Defect Landed in Newly Written Source Base Prose, Which Is Four Passes Running
+## The Published Geometry Does Not Close
 
-**It has never once appeared in prose written by hand about the aeroplane, and has appeared
-every time in prose written to describe the survey.** That is a fact about which paragraphs
-get drafted quickly rather than about the rule. The check catches it every time, and the
-pattern is now consistent enough to be worth naming in the article itself.
+**Three quantities describe a wing and two are independent, so a published set of three can
+be checked.** For the original wing they agree to better than one percent. **For the new
+wing a span of 9.94 metres and an area of 6.19 square metres give an aspect ratio of 15.96
+against the 15.0 the same paragraph states**, a disagreement of 6.4 percent. The report
+notes the span excludes the wingtip propeller, which would widen the gap rather than close
+it. **The article uses area and span, which enter every computation, and does not use the
+aspect ratio, which enters none.**
+
+---
+
+## What Actually Stopped It Was Transistors
+
+**Not the wing, not the battery, not the aerodynamics.** The cruise and high-lift motor
+controllers used silicon carbide transistors switching at 538 volts and 200 amperes peak
+per phase, and they failed three ways. **Vibration**, where the first module could not
+survive 7.7 g root mean square for twenty minutes per axis and shorted across the bus.
+**Heat**, where a thermal gap pad was too thin, the case wore through it, and the internals
+were ejected. **Software**, where an early version commanded shoot-through and a mistuned
+control law destroyed all three phases.
+
+**The deck summarising this for a standards committee contains the sentence that describes
+the whole programme**, which is that one loose washer can cause catastrophic failure.
+
+**And the lessons learned report gives a root cause that is not technical.** The project was
+scoped as an integration effort, so the plan assumed no time or money was needed to develop
+subsystems and the team was staffed accordingly. **The readiness assessment rested on access
+to overseas flight-proven hardware, and the direction was then given to use United States
+industry only.** The report states that the project may have benefitted from reassessing the
+readiness of American components, and that it did not. Four subsystems had to be developed
+by a team staffed to integrate them.
+
+---
+
+## The Sweep Was Built the Way the Previous Article's Failure Taught It
+
+**A353 named its aeroplane once, beside five generic words, and spent the whole query on the
+generic words.** Every proper noun in this harvest was queried alone, and the aeroplane's
+own literature came back with it. **Twenty primary documents were curated from NASA's own
+published technical papers page before the primary pass**, rather than after it.
+
+---
+
+## The Store Met Its Largest Exposure in This Series, and Two Defects
+
+**Armed as written the store would remove 677 of 5,477 records, being 12.4 percent.**
+
+**ONE FAMILY HAD TO BE TAGGED BEFORE IT COULD BE OPENED.** The pattern removing the rotor of
+an electrical machine was added by A347, where it contaminated a rotorcraft survey. **Here
+the electrical machine is the subject**, and one of this article's primary documents is an
+electromagnetic model of a permanent magnet synchronous cruise motor. The pattern carried no
+tag, so there was no handle. One was added and the family opened, taking the residual to
+9.9 percent.
+
+**AND A VENUE THAT NAMES FOUR TRANSPORT MODES WAS REJECTING PAPERS ABOUT THE FIRST OF
+THEM.** The store joins title and venue before matching, which is right when a venue carries
+evidence. **The IEEE conference named for electrical systems in aircraft, railways, ship
+propulsion and road vehicles is a principal venue for this exact subject**, and its name
+alone removed 31 records, including one titled advanced aircraft electrical systems to
+enable an all-electric aircraft, whose own title contains no marine or rail word. **A venue
+naming several fields is evidence for none of them.** The marine, rail and road families are
+now guarded by a condition that fires only when a string names aircraft alongside another
+mode.
+
+**The release is measured as a set difference and the gap is the largest yet.** The
+histogram sums to 161 and opening returns 134, because the electrical machine pattern
+overlaps heavily with marine and wind energy. **Twenty-seven records are held by a second
+armed pattern**, against two in the previous article.
+
+---
+
+## And the Aeroplane Is Named After a Physicist
+
+**Of 126 harvested titles containing the word Maxwell, 26 also mention aircraft, propulsion
+or flight and 100 do not.** The store's geophysics family caught the Love numbers of a
+generalized Maxwell sphere and a Maxwell-Wagner polarization theory, and its teaching family
+caught a study of teaching the Maxwell distribution. **Naming an aeroplane after a physicist
+has consequences for anybody who later tries to survey it.**
 
 ---
 
 ## Verification
 
-**Verifier clean at 0 errors and 0 warnings. Tests 107 of 107. Lint 0 findings.** The symbol
-scanner reports all 51 declared symbols used and every symbol used declared.
+**Verifier clean at 0 errors.** Two `progress-stale` warnings stood until the process files
+were updated in this same commit, which is the expected order. **Tests 108 of 108**, one
+added for the multi-modal venue guard. **Lint 0 findings.** The symbol scanner reports all
+34 declared symbols used and every symbol used declared.
 
-**The article verifier runs 143 passing checks across ten groups.** Eighteen defects were
-injected one at a time and, after the flight count was pinned, all eighteen are caught.
+**The article verifier runs 110 passing checks and seventeen injected defects were all
+caught.** Two of the seventeen needed their anchors corrected first, which was a fault in the
+injection harness rather than in the verifier.
 
-**Every survey statistic is recomputed from the reference data and the sweep artefacts.**
-The cluster table's rows each state their own recomputed count, the total equals the
-research count exactly at 5,101, and **every cluster section cites at least what its row
-claims**.
+**FINAL STATE. 5,551 lines, 16 display equations, 34 declared symbols, 2,567 reference
+definitions, 31,980 words**, research 2,451, report primaries 187 at 7.6 percent, one sweep
+retrieving 5,477 records, gate 2,538, store residual 9.9 percent. **All 2,567 definitions
+are cited, none orphaned and none undefined.**
 
-**All 5,210 definitions are cited, none orphaned and none undefined.** Every curated
-identifier was requested individually against its own metadata with a deliberately absent
-digital object identifier and a deliberately absent report number as controls, and both
-controls failed correctly.
-
-**FINAL STATE. 11,108 lines, 36 display equations, 51 declared symbols, 5,210 reference
-definitions, 66,567 words**, research 5,101, report primaries 513 at 10.1 percent, three
-sweeps retrieving 11,227 records of which 9,532 distinct, gate 5,218, store residual 6.0
-percent.
-
-**The stub-isolated production build succeeded in 454 seconds with no Liquid error, against
-the exact bytes committed**, the checksum matched against the stub copy before the build and
-against both afterwards. **The rendered audit reports no findings across 92 pages.** Source
-and rendered display-equation counts agree at **36**, with zero raw dollar pairs leaking,
-zero unresolved reference brackets, zero unexpanded slots and zero unrendered Liquid. The
-page is 962,847 bytes.
+**The stub-isolated production build succeeded against the exact bytes committed**, the
+checksum matched against the stub copy before the build and against both afterwards.
+**The rendered audit reports no findings across 93 pages.** Source and rendered
+display-equation counts agree at **16**, with zero raw dollar pairs leaking, zero unresolved
+reference brackets, zero unexpanded slots and zero unrendered Liquid. The page is 495,906
+bytes.
 
 ---
 
-## What Remains
+## What Is Not Done
 
-**A353 is complete on all four passes and is pushed. It is NOT published**, and publication
-of this series has never been authorised.
+**The equation-density, primary-reference and publication passes have not run.** Sixteen
+equations is draft strength; the series lands near thirty.
 
-**Three disagreements remain recorded and unresolved in the article**, being the register's
-P-240 against the flight test report's P400, three maximum weights across three documents of
-the same programme, and the X-56B's questioned 2019 date against 2021 flight dates in
-secondary sources. **One disagreement was resolved during this pass**, being the flight
-count.
-
-**The wing area and the modal frequencies are still not published**, which is why the
-article's central trade is derived as a scaling law rather than evaluated numerically.
-
-**The next article is A354, the X-57**, editorial date 2025-12-02, series index 58. It is
-the all-electric distributed propulsion aeroplane. **Its register entry is the longest of
-the thirty X rows at 343 characters, and the third longest of all 526**, behind a modified
-DC-9 and a rescue helicopter. **That was checked rather than asserted**, because a first
-draft of this line claimed it was the longest in the addendum and it is not.
+**Two disagreements are recorded and unresolved.** The high-lift motor power is 12.6
+kilowatts in the flight performance report and 10.5 in the reference literature, and the
+article uses the report. The battery is quoted at 80 watt hours per pound while usable
+energy over pack mass gives 55, and the difference between a cell rating and a usable pack
+figure is not documented in the sources consulted.

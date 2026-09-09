@@ -17,6 +17,59 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes ESAero X-57 Maxwell A354 2025-12-02
+
+`x_planes_esaero_x57_maxwell.markdown`, A354, editorial date 2025-12-02, series `x_planes` index 58 of 72.
+
+**5,551 lines, 16 display equations, 34 declared symbols, 2,567 reference definitions,
+31,980 words after the draft pass.** **ONE OF FOUR PASSES COMPLETE.** Committed, **NOT
+pushed**. **Not published**, and publication of the series has never been authorised.
+**Unflown-demonstrator class, and the aeroplane with the longest register entry in the whole
+X series.**
+
+**THE LONGEST ENTRY IN THE CLASS BELONGS TO THE AEROPLANE THAT FLEW LEAST.** The X-57A
+mission statement is 343 characters, more than double the median X row, and **the aeroplane
+never flew**. It is the only entry naming all electric, propulsion technology, a high lift
+device, a wing tip or a leading edge. **It reads as a specification rather than an
+intention**, and is the only entry in the register that teaches the reader how something
+works.
+
+**A TEMPTING OPENING WAS TESTED AND ABANDONED.** The engines cell is empty, but 88 of 526
+rows are, and the two other empty X rows are a supersonic demonstrator and a rocket.
+
+**THE WING IS 42 PERCENT OF THE AREA IT REPLACED**, which multiplies wing loading by 2.38
+and requires the maximum lift coefficient to be multiplied by 2.38 to hold the stall speed.
+**The twelve leading-edge propellers exist to supply that factor and nothing else.** But
+**the wetted area fell only 18 percent against the wing's 58**, because twelve nacelles put
+it back, and **induced drag rose 32 percent** because span fell from 11.40 to 9.94 metres
+despite the higher aspect ratio. **That was derived here and then found stated independently
+in the primary source.**
+
+**THE PUBLISHED GEOMETRY DOES NOT CLOSE**, span and area giving an aspect ratio of 15.96
+against a published 15.0.
+
+**THE BATTERY IS THE CONSTRAINT EVERYTHING ELSE IS SPENT AGAINST.** Fuel carries 99 times
+more energy per kilogram than the pack, the electric drivetrain gives back a factor of
+three, and **32 remains**. The design range was 87 nautical miles.
+
+**WHAT STOPPED IT WAS TRANSISTORS**, silicon carbide devices switching 538 volts at 200
+amperes peak, failing under vibration, under heat, and under software that commanded
+shoot-through. **The root cause in the lessons learned report is not technical**, the project
+having been scoped as integration rather than development and its readiness assessment never
+repeated after the buy-American direction that invalidated it.
+
+**THE STORE MET ITS LARGEST EXPOSURE IN THIS SERIES AT 12.4 PERCENT.** A family had to be
+**tagged before it could be opened**, and **a venue naming four transport modes was rejecting
+papers about the first of them**, removing 31 records by its name alone. **27 records proved
+held by a second armed pattern**, against two in the previous article.
+
+**Verifier 0 errors. Tests 108 of 108. Lint 0 findings.** 110 passing checks and seventeen
+injected defects all caught. **Build clean against checksum-matched bytes, 93 pages, rendered
+audit reports no findings**, source and rendered display-equation counts agree at 16.
+
+**Remaining work**: the equation-density pass, the primary-reference pass and the publication
+review.
+
 ## X-Planes Lockheed Martin X-56 A353 2025-12-01
 
 `x_planes_lockheed_martin_x56.markdown`, A353, editorial date 2025-12-01, series `x_planes` index 57 of 72.

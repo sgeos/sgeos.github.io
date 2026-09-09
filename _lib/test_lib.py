@@ -1957,6 +1957,57 @@ def t_homonym_a351_tags_cover_every_pattern_in_their_family():
         "Adjoint-Based Optimization Method", allow=A351) is not None
 
 
+def t_homonym_a354_a_multimodal_venue_is_evidence_for_nothing():
+    """A354: THE STORE MATCHES TITLE AND VENUE TOGETHER, AND A VENUE CAN NAME FOUR FIELDS.
+
+    Joining the title and the venue before matching is right. A paper in a marine journal
+    is probably marine even if its title is coy about it. **It stops being right when the
+    venue is deliberately multi-modal.**
+
+    The IEEE conference `Electrical Systems for Aircraft, Railway, Ship Propulsion and Road
+    Vehicles` is a principal venue for electric aircraft propulsion. Its name alone dropped
+    31 records from an electric-aeroplane survey, including `Advanced aircraft electrical
+    systems to enable an All-Electric aircraft`, **whose title contains no marine or rail
+    word at all**. The venue named this article's own subject first and three other
+    subjects afterwards, and the store read only the other three.
+
+    **A venue that names several transport modes carries no evidence about which one a
+    paper is in.** The guard is a negative lookahead that fires only when the string names
+    aircraft alongside another mode, which is the signature of a multi-modal venue and
+    never the signature of a paper about ships.
+    """
+    venue = ("2015 International Conference on Electrical Systems for Aircraft, Railway, "
+             "Ship Propulsion and Road Vehicles")
+    for title in [
+        "Advanced aircraft electrical systems to enable an All-Electric aircraft",
+        "Reliability Assessment of Power Modules Across Mission Phases in Electric "
+        "Aircraft Propulsion",
+        "Fault identification for More Electric Aircraft distribution systems",
+    ]:
+        assert homonyms.noise_hit(f"{title} {venue}") is None, (
+            f"a multi-modal venue still rejects an aircraft paper: {title}")
+
+    # **AND THE FAMILIES MUST STILL BITE ON GENUINE RECORDS**, or the guard has simply
+    # switched three families off. Each of these is the incident its pattern was written
+    # for, and none of them names aircraft.
+    for title in [
+        "Electric motors and drives for modern ship thruster propulsion",
+        "Full scale cruise ship dynamic identification using operational modal analysis",
+        "Railway applications. Railway rolling stock power and control",
+        "Wind tunnel test of an aeroelastic model of a catenary system for a high-speed "
+        "railway in China",
+        "An Estimation of the Unsteady Aerodynamic Loads on a Road Vehicle in Windy "
+        "Conditions",
+    ]:
+        assert homonyms.noise_hit(title) is not None, (
+            f"the guard switched off a family that should still bite: {title}")
+
+    # **A VENUE NAMING ONLY MARINE FIELDS MUST STILL REJECT.** The guard keys on aircraft
+    # appearing beside another mode, so a single-mode marine venue is untouched.
+    assert homonyms.noise_hit(
+        "Propeller cavitation measurements Journal of Ship Research") is not None
+
+
 def t_homonym_a353_split_a_tag_broader_than_its_own_name():
     """A353: A TAG THAT IS BROADER THAN ITS NAME IS NOT A USABLE HANDLE.
 
