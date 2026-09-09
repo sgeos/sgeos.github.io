@@ -21,11 +21,11 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_esaero_x57_maxwell.markdown`, A354, editorial date 2025-12-02, series `x_planes` index 58 of 72.
 
-**6,905 lines, 34 display equations, 52 declared symbols, 3,176 reference definitions,
-40,283 words after the primary-reference pass.** **THREE OF FOUR PASSES COMPLETE.**
-Committed, **NOT pushed**. **Not published**, and publication of the series has never been
-authorised. **Unflown-demonstrator class, and the aeroplane with the longest register entry
-in the whole X series.**
+**6,956 lines, 34 display equations, 52 declared symbols, 3,176 reference definitions,
+41,314 words after the publication review.** **ALL FOUR PASSES COMPLETE.** Committed and
+**PUSHED**. **Not published**, and publication of the series has never been authorised.
+**Unflown-demonstrator class, and the aeroplane with the longest register entry in the whole
+X series.**
 
 **THE LONGEST ENTRY IN THE CLASS BELONGS TO THE AEROPLANE THAT FLEW LEAST**, 343 characters
 against a median X row less than half that, and **the aeroplane never flew**. **It reads as
@@ -38,31 +38,33 @@ result derived here and then found stated independently in the primary source.
 
 **THE EQUATION PASS TRIED TO VERIFY THE CENTRAL CLAIM AND COULD NOT.** Ideal actuator discs
 put the blowing requirement at 139 kilowatts against 151 installed, and at a realistic
-propulsive efficiency it exceeds the installed power. **That is a boundary on the
-explanation rather than a fault in the aeroplane.**
+propulsive efficiency it exceeds the installed power. **That boundary is carried through to
+the conclusion rather than resolved by assertion.**
 
 **THE PRIMARY PASS TOOK REPORT PRIMARIES FROM 187 AT 7.6 PERCENT TO 342 AT 11.2**, and found
-that **a programme's own index cannot be searched, only read**. Sixty-one of NASA's published
-X-57 papers resolved, and **the first sweep had retrieved eleven**, being eighteen percent,
-from a sweep that queried the designation alone. **A direct query reports seventy-four
-matching records and returns ten**, and asking by offset returns the same ten again. **The
-suspicion that the fetching library never paginates was tested and disproved**, since it
-paginates correctly and the server ignores the offset.
+that **a programme's own index cannot be searched, only read**, the first sweep having
+retrieved eleven of sixty-one published papers. **A direct query reports seventy-four
+matching records and returns ten**, and the suspicion that the fetching library never
+paginates was tested and disproved.
 
-**A PRESENCE CHECK WAS SATISFIED BY A SECOND COPY OF THE SAME SENTENCE**, and the fix now
-counts the stem and requires every occurrence to carry the computed value.
+**THE PUBLICATION REVIEW FOUND THE CONCLUSION OVERREACHING IN TWO PLACES, WHICH IS ELEVEN
+CONSECUTIVE ARTICLES.** It said the design being finished is not the same as the aeroplane
+being possible, **which the sources do not support**, since a modified cruise motor was
+heading for a design review when the schedule and budget ended. **And it asserted that the
+blowing solved the landing problem**, which the equation pass had declined to confirm.
+
+**NINE OF TEN CONCLUSIONS MEASURE ZERO UNDER THE ARTICLE'S OWN VOCABULARY AND EIGHT OF TEN
+ARE COVERED UNDER THE FIELD'S.** Three were thin and **two opened on rewording alone**, the
+wetted area conclusion going from 2 to 169.
 
 **WHAT STOPPED THE PROGRAMME WAS TRANSISTORS**, with a root cause that is not technical, the
 project having been scoped as integration rather than development and its readiness
 assessment never repeated after the buy-American direction that invalidated it.
 
-**Verifier 0 errors 0 warnings. Tests 108 of 108. Lint 0 findings.** 144 passing checks,
-twenty-four of sixty-one curated identifiers sampled against their own metadata with an
-absent control that failed correctly. **Build clean in 121 seconds against checksum-matched
+**Verifier 0 errors 0 warnings. Tests 108 of 108. Lint 0 findings.** 144 passing checks and
+eighteen injected defects all caught. **Build clean in 172 seconds against checksum-matched
 bytes, 93 pages, rendered audit reports no findings**, source and rendered display-equation
 counts agree at 34.
-
-**Remaining work**: the publication review.
 
 ## X-Planes Lockheed Martin X-56 A353 2025-12-01
 

@@ -9,49 +9,53 @@ Current task state and verification log. This file is the shared source of truth
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
-**Status**: **A297 through A353 are drafted with all four passes complete on every one,
-committed and PUSHED. A354, ESAero X-57 Maxwell, has completed THREE of four passes** and is
-committed but deliberately not pushed. **Fifty-eight of seventy-two drafted. None published,
-and publication has never been authorised. Fourteen articles remain.**
+**Status**: **A297 through A354 are drafted with all four passes complete on every one,
+committed and PUSHED. A354, ESAero X-57 Maxwell, has completed ALL FOUR PASSES.**
+**Fifty-eight of seventy-two drafted. None published, and publication has never been
+authorised. Fourteen articles remain.** The next new article is **A355, the X-59**,
+editorial date 2025-12-03, series index 59.
 
-**REPORT PRIMARIES 187 AT 7.6 PERCENT TO 342 AT 11.2**, references 2,567 to 3,176, research
-2,451 to 3,060, lines 5,669 to 6,905, words 33,185 to 40,283. Equations unchanged at 34.
+**THE CONCLUSION OVERREACHED IN TWO PLACES, WHICH IS ELEVEN CONSECUTIVE ARTICLES.** It said
+the design being finished is not the same as the aeroplane being possible. **The sources do
+not support that**, since the cruise motors were deemed an unacceptable risk for flight in
+their then-current configuration and a modified motor was heading for a design review when
+the schedule and budget ended. **The conclusion now says the design being finished is not
+the same as the parts being ready.** It also asserted that the blowing solved the landing
+problem, **which the equation pass had explicitly declined to confirm**, and it now carries
+the boundary instead. A third repair uses the empty engines cell rather than walking past it.
 
-**A PROGRAMME'S OWN INDEX CANNOT BE SEARCHED, ONLY READ.** NASA publishes a page listing the
-X-57 programme's technical output; sixty-three entries were transcribed and sixty-one
-resolved. **The first sweep had retrieved eleven**, being eighteen percent, from a sweep
-built specifically to avoid A353's failure and which queried the designation alone.
+**CONCLUSIONS PROBED, AND TWO OF THREE THIN ONES OPENED ON REWORDING ALONE.** Nine of ten
+measure zero under the article's own vocabulary and eight of ten are thickly covered under
+the field's, which is the third article running with that result. **The wetted area
+conclusion went from 2 to 169** because the first probe asked for the phrase and the field
+writes about drag. **The designation stays at one and A341's measurement is cited rather
+than repeated.** One conclusion is out of this gate's scope and correctly so, being how a
+programme's published output can be retrieved, which is bibliography rather than aeronautics.
 
-**THE REASON WAS TESTED AND A HYPOTHESIS WAS DISPROVED.** A direct query reports seventy-four
-matching records and returns ten; asking for a hundred returns ten; **asking by offset
-returns the same ten again at every offset from ten to seventy**. The suspicion was that the
-fetching library never paginates, which would have been a defect affecting every article in
-this series. **It paginates correctly and the server ignores the offset.** So A353's lesson
-needs strengthening rather than repeating, because **the constraint is not the query**.
+**THE CAPS DEFECT DID NOT APPEAR**, having landed in newly written Source Base prose in four
+of the five preceding passes. **That is one observation and not a trend**, and the check is
+unchanged.
 
-**A PRESENCE CHECK WAS SATISFIED BY A SECOND COPY OF THE SAME SENTENCE.** A353 found that a
-presence check cannot tell whether it matched the equation or the prose. **A354 found the
-next case, a figure appearing twice in the PROSE**, once where it is derived and once where
-the article records what a pass changed. An injection altered one and the other satisfied
-the check. **The fix counts the stem and requires every occurrence to carry the computed
-value**, proved against injections in the first position, the second, and both.
-
-**FINAL STATE. 6,905 lines, 34 display equations, 52 declared symbols, 3,176 reference
-definitions, 40,283 words**, research 3,060, report primaries 342 at 11.2 percent, two
+**FINAL STATE. 6,956 lines, 34 display equations, 52 declared symbols, 3,176 reference
+definitions, 41,314 words**, research 3,060, report primaries 342 at 11.2 percent, two
 sweeps retrieving 8,079 of which 7,031 distinct, gate 3,138, store residual 9.8 percent.
 
-**Verifier 0 errors 0 warnings. Tests 108 of 108. Lint 0 findings.** 144 passing checks.
-**Twenty-four of sixty-one curated identifiers sampled against their own metadata with an
-absent control that failed correctly**, and one documented exception carried rather than a
-threshold lowered. **Build clean in 121 seconds against checksum-matched bytes, 93 pages,
-rendered audit reports no findings**, source and rendered display-equation counts agree at
-34.
+**Verifier 0 errors 0 warnings. Tests 108 of 108. Lint 0 defects.** 144 passing checks and
+eighteen injected defects all caught. **All fifteen cluster rows state their own recomputed
+count, the table total equals the research count exactly at 3,060, and every cluster section
+cites at least what its row claims.** All 3,176 definitions cited, none orphaned, none
+undefined.
 
-**Next**: the publication review on A354, on the pilot's prompt. It reads the opening against
-the conclusion, which has found a defect in every article since A340. **One boundary stands
-rather than a conclusion**, the equation pass having established that dynamic pressure alone
-cannot account for landing this wing, and the review should check whether the enlarged pool
-can now say how much the other slipstream effects do.
+**The stub-isolated production build succeeded in 172 seconds against the exact bytes
+committed**, checksum matched before and after. **The rendered audit reports no findings
+across 93 pages.** Source and rendered display-equation counts agree at 34. The page is
+616,574 bytes.
+
+**ONE BOUNDARY IS LEFT STANDING ON PURPOSE.** Raising the dynamic pressure over seventy
+percent of the span cannot by itself account for landing this wing on the installed power.
+The pool covers the mechanism at 113 records, **but none of the sources consulted apportions
+the work between dynamic pressure, swirl, effective angle of attack and delayed
+separation.** The article says so rather than choosing a number.
 
 ## Success Criteria
 
@@ -773,6 +777,7 @@ can now say how much the other slipstream effects do.
 
 | Date | Change |
 |------|--------|
+| 2026-09-09 | **A354 PUBLICATION REVIEW, the fourth and final pass. Committed and PUSHED. NOT published.** All fifty-eight X-Planes drafts remain in `_drafts/`. Final state **6,956 lines, 34 display equations, 52 declared symbols, 3,176 reference definitions, 41,314 words**, research 3,060, report primaries 342 at 11.2 percent, two sweeps retrieving 8,079 of which 7,031 distinct. **THE CONCLUSION OVERREACHED IN TWO PLACES, WHICH IS ELEVEN CONSECUTIVE ARTICLES.** It said the design being finished is not the same as the aeroplane being possible, **which the sources do not support**, the cruise motors having been deemed an unacceptable risk for flight in their then-current configuration with a modified motor heading for a design review when the schedule and budget ended; the conclusion now says the parts being ready rather than the aeroplane being possible. **And it asserted that the blowing solved the landing problem, which the equation pass had explicitly declined to confirm**, so it now carries the boundary instead. A third repair uses the empty engines cell rather than walking past it. **CONCLUSIONS PROBED, NINE OF TEN ZERO UNDER THE ARTICLE'S OWN WORDS AND EIGHT OF TEN COVERED UNDER THE FIELD'S**, three thin at first and **two opening on rewording alone with no sweep needed**, the wetted area conclusion going from 2 to 169 because the probe asked for the phrase while the field writes about drag; the designation stays at one with A341's measurement cited rather than repeated, and one conclusion is out of the gate's scope correctly. **THE CAPS DEFECT DID NOT APPEAR**, having landed in newly written Source Base prose in four of the five preceding passes, which is one observation and not a trend. All fifteen cluster rows state their own recomputed count and the table total equals the research count exactly. Verifier 0 errors 0 warnings, tests 108 of 108, lint 0 defects, 144 passing checks, eighteen injections all caught. **Build clean in 172 seconds against checksum-matched bytes, 93 pages, rendered audit reports no findings**, source and rendered display-equation counts agree at 34, page 616,574 bytes. **One boundary is left standing on purpose**, no consulted source apportioning the blown lift between dynamic pressure, swirl, effective angle of attack and delayed separation. |
 | 2026-09-09 | **A354 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed. NOT published.** **Report primaries 187 at 7.6 percent to 342 at 11.2**, both count and fraction moving; references 2,567 to 3,176, research 2,451 to 3,060, lines 5,669 to 6,905, words 33,185 to 40,283, equations unchanged at 34. **A PROGRAMME'S OWN INDEX CANNOT BE SEARCHED, ONLY READ.** Sixty-three entries transcribed from NASA's published technical papers page resolved to sixty-one, and **the first sweep had retrieved eleven, being eighteen percent**, from a sweep built specifically to avoid A353's failure and which queried the designation alone. **THE REASON WAS TESTED AND A HYPOTHESIS DISPROVED**: a direct query reports seventy-four matching records and returns ten, asking for a hundred returns ten, and **asking by offset returns the same ten again at every offset from ten to seventy**. The suspicion was that the fetching library never paginates, which would have been a corpus-wide defect; **it paginates correctly and the server ignores the offset**, so **the constraint is not the query** and A353's lesson needs strengthening rather than repeating. **A PRESENCE CHECK WAS SATISFIED BY A SECOND COPY OF THE SAME SENTENCE**, the implied lift to drag figure appearing once where derived and once where the article records what a pass changed, so an injection altered one and the other satisfied the check; **the fix counts the stem and requires every occurrence to carry the computed value**, proved in the first position, the second, and both. Verifier 0 errors 0 warnings, tests 108 of 108, lint 0 findings, 144 passing checks, **twenty-four of sixty-one curated identifiers sampled against their own metadata with an absent control that failed correctly** and one documented exception carried rather than a threshold lowered. **Build clean in 121 seconds against checksum-matched bytes, 93 pages, rendered audit reports no findings**, source and rendered display-equation counts agree at 34. |
 | 2026-09-09 | **A354 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed. NOT published.** **Display equations 16 to 34, declared symbols 34 to 52**, lines 5,551 to 5,669, words 31,980 to 33,185, references unchanged at 2,567. **THE PASS TRIED TO VERIFY THE ARTICLE'S CENTRAL CLAIM AND COULD NOT.** Only seventy percent of the span is blown, so the blown part needs a 73 percent velocity increase rather than 54, being 22 metres per second at the stall speed, and **ideal actuator discs put the requirement at 139 kilowatts against 151 installed, with a realistic propulsive efficiency taking it past the installed power**. **That is a boundary on the explanation rather than a fault in the aeroplane**, since raising dynamic pressure alone cannot account for landing this wing, and the article states it does not know from these sources how much of the work the other slipstream effects do. **THE PUBLISHED RANGE DOES CLOSE**, implying a lift to drag of about seventeen, which matters in an article whose draft pass found the published wing geometry does not. **THE MOTORS ARE A SMALLER ADVANCE THAN THE ARCHITECTURE SUGGESTS**, 1.36 against 1.17 kilowatts per kilogram on a comparison that already flatters the motor, so **what distributed electric propulsion buys is divisibility rather than power density**; the cruise propellers run at an advance ratio of 1.34 and the high-lift set at 0.68. **The pack would draw six times its capacity per hour if everything ran at once** and empty in under ten minutes. Verifier 0 errors 0 warnings, tests 108 of 108, lint 0 findings, 134 passing checks, eighteen injections all caught, **equation citation coverage closed from six uncited to zero**. **Build clean against checksum-matched bytes, 93 pages, rendered audit reports no findings**, source and rendered display-equation counts agree at 34. |
 | 2026-09-09 | **A354 RESEARCHED AND WRITTEN, the draft pass, the first of four. Committed, NOT pushed. NOT published.** ESAero X-57 Maxwell, editorial date 2025-12-02, series index 58. **5,551 lines, 16 display equations, 34 declared symbols, 2,567 reference definitions, 31,980 words**, research 2,451, report primaries 187 at 7.6 percent, one sweep retrieving 5,477, store residual 9.9 percent. **THE LONGEST ENTRY IN THE CLASS BELONGS TO THE AEROPLANE THAT FLEW LEAST**, 343 characters against a median X row less than half that, and **the aeroplane never flew**. It is the only entry naming all electric, propulsion technology, a high lift device, a wing tip or a leading edge, and **it reads as a specification rather than an intention**. **A TEMPTING OPENING WAS TESTED AND ABANDONED**, the empty engines cell being one of 88 and the other empty X rows being a supersonic demonstrator and a rocket. **THE WING IS 42 PERCENT OF THE AREA IT REPLACED**, multiplying wing loading by 2.38 and requiring the same multiple of maximum lift coefficient, which is what the twelve leading-edge propellers supply, **but the wetted area fell only 18 percent against the wing's 58** because twelve nacelles put it back, **and induced drag rose 32 percent** on a shorter span despite the higher aspect ratio, **a result derived here and then found stated independently in the primary source**. **THE PUBLISHED GEOMETRY DOES NOT CLOSE**, span and area giving 15.96 against a published 15.0. **WHAT STOPPED IT WAS TRANSISTORS**, silicon carbide devices failing under vibration, heat and a software fault that commanded shoot-through, **with a root cause that is not technical**, the project scoped as integration rather than development and its readiness assessment never repeated after the buy-American direction that invalidated it. **THE STORE MET ITS LARGEST EXPOSURE AT 12.4 PERCENT**, one family needing to be **tagged before it could be opened**, **and a venue naming four transport modes rejecting papers about the first of them**, 31 records removed by a conference name; **a venue naming several fields is evidence for none of them**, and 27 records proved held by a second armed pattern against two in the previous article. **Of 126 titles containing Maxwell, 100 have nothing to do with the aeroplane.** Verifier 0 errors, tests 108 of 108, lint 0 findings, 110 passing checks, seventeen injections all caught. **Build clean against checksum-matched bytes, 93 pages, rendered audit reports no findings**, source and rendered display-equation counts agree at 16. |

@@ -17,7 +17,7 @@ series_index: 58
 
 This is the fifty-eighth article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], the [X-46][related_post_a343_boeing_x46], the [X-47][related_post_a344_northrop_grumman_x47], the [X-48][related_post_a345_boeing_x48], the [X-49][related_post_a346_piasecki_x49], the [X-50][related_post_a347_boeing_x50], the [X-51][related_post_a348_boeing_x51], the [X-52][related_post_a349_x52_designation_refused], the [X-53][related_post_a350_boeing_x53], the [X-54][related_post_a351_gulfstream_x54], the [X-55][related_post_a352_lockheed_martin_x55], and the [X-56][related_post_a353_lockheed_martin_x56].
 
-**The X-57 Maxwell never flew.** The programme ran from 2016 to 2023, delivered an aeroplane, tested it on the ground, and was closed out without the aircraft leaving the runway.
+**The X-57 Maxwell never flew.** The programme ran from 2016 to 2023, delivered an aeroplane, tested it on the ground, and was closed out without the aircraft leaving the runway. **It was not shown to be unflyable.** A redesigned cruise motor was in work when the schedule and the budget ended, and that distinction is carried through this article to its conclusion.
 
 ## The Registry Entry Is the Primary Document
 
@@ -387,6 +387,41 @@ The marine, rail and road families are now guarded against that construction, by
 
 **The median year of the curated records is 2018.** 1,717 of them, being 59 percent, were published in 2015 or later, and 295 predate 1980. **A survey of an instability first understood in the 1930s that is three quarters contemporary is telling you that the control problem is the live one**, because the aerodynamics has not changed and the actuators and the computers have.
 
+### Conclusions Probed Against the Pool
+
+**The first three passes harvest for what an article is about, and nobody harvests for what it turns out to conclude.** Each conclusion this article draws was therefore measured against the pool twice, once in the article's own vocabulary and once in the vocabulary the field would use.
+
+| Conclusion | The article's words | The field's words |
+|---|---:|---:|
+| the register entry is a specification rather than an intention | 0 | 1 |
+| a wing cut to 42 percent has to be blown to be landed | 0 | 164 |
+| the wetted area saving is far smaller than the wing area cut | 0 | 169 |
+| induced drag rose because the span fell despite the higher aspect ratio | 0 | 46 |
+| wingtip propellers recover energy from the tip vortex | 1 | 58 |
+| dynamic pressure alone cannot account for the lift the wing needs | 0 | 113 |
+| a battery carries far less energy per kilogram than the fuel it replaced | 0 | 442 |
+| silicon carbide transistors ended the programme | 0 | 184 |
+| the root cause was a technology readiness assessment, not a technology | 0 | 15 |
+| a programme's own published index cannot be retrieved by searching it | 0 | 11 |
+
+**9 of 10 measure zero under the article's own phrasing, and 8 of 10 are thickly covered under the field's.** **A thin count under an article's own words is a fact about the words**, which is the result the two preceding articles recorded and this one repeats [[X-Planes: Lockheed Martin X-56][related_post_a353_lockheed_martin_x56]].
+
+### Rewording Against Sweeping
+
+**Three conclusions measured thin on the first probe, and the question of whether that was the pool or the phrasing is answered by trying the phrasing first.**
+
+| Conclusion | First probe | After rewording |
+|---|---:|---:|
+| the wetted area saving against the wing cut | 2 | 169 |
+| a programme's index as a subject of study | 0 | 11 |
+| the register entry as a specification | 0 | 1 |
+
+**Two of the three opened on rewording alone and no sweep was needed.** The wetted area conclusion went from 2 to 169 because the first probe asked for the phrase and the field writes about drag, and the retrieval conclusion went from 0 to 11 for the same reason.
+
+**The third stays at one, and this series has already bought that measurement.** A341 ran eight queries for designation systems and received Massachusetts tax valuations of 1771 and salmonella serotype naming [[X-Planes: X-44, One Designation and Two Aircraft][related_post_a341_x44_two_aircraft]]. **It is cited rather than repeated.**
+
+**One conclusion is out of this gate's scope and that is correct.** How a programme's published output can and cannot be retrieved is a question about bibliography rather than about aeronautics, and an aeronautical gate refuses it by design. **It is reported in the article because the article ran into it, not because the survey covers it.**
+
 ### What the Gate Was Built For, and What It Refuses
 
 **The gate is A350's gate reordered.** That article was about a wing twisted on purpose, and its own comment on its flutter block called flutter the dynamic problem the flight programme deliberately dropped [[X-Planes: Boeing X-53 Active Aeroelastic Wing][related_post_a350_boeing_x53]]. **Here the dropped problem is the keystone**, and the block that stood as a boundary term there is promoted to the front. Nothing from the X-55 article survives, because a shared contractor is not a shared subject [[X-Planes: Lockheed Martin X-55 ACCA][related_post_a352_lockheed_martin_x55]].
@@ -488,6 +523,16 @@ The marine, rail and road families are now guarded against that construction, by
 
 **Working the power density showed the motors to be a smaller advance than the architecture suggests.** A cruise motor with its propeller gives 1.36 kilowatts per kilogram against about 1.17 for the piston engine it replaced, and that comparison already flatters the motor. **What distributed electric propulsion buys is not power density but divisibility**, because an electric motor loses very little efficiency as it is made smaller and a piston engine loses a great deal.
 
+**The publication review found the conclusion overreaching in two places, which is eleven consecutive articles.**
+
+**It said the design being finished is not the same as the aeroplane being possible.** The sources do not support that. The cruise motors in their then-current configuration were deemed an unacceptable risk for flight, and the team was working toward a design review for a modified motor when the schedule and the budget ended. **What the record shows is a programme that ran out of both, not a machine that could not be built.** The conclusion now says the design being finished is not the same as the parts being ready, which is the article's actual thesis and is what a register cannot record.
+
+**And it asserted that the blowing solved the landing problem, which the equation pass had explicitly declined to confirm.** The body establishes that dynamic pressure augmentation over seventy percent of the span cannot account for the required lift on the installed power. **A conclusion cannot resolve by assertion what the body left standing as a boundary**, and it now carries the boundary instead.
+
+**The conclusion also listed the engines among the register's columns without noting that this row's is empty**, after the body had spent a section on exactly that cell. It now uses the blank rather than walking past it.
+
+**Nine of ten conclusions measure zero under the article's own vocabulary and eight of ten are thickly covered under the field's.** Three were thin at first and **two opened on rewording alone**, the wetted area conclusion going from 2 to 169 because the first probe asked for the phrase while the field writes about drag. **One conclusion is out of this gate's scope and correctly so**, being how a programme's published output can and cannot be retrieved, which is a question about bibliography rather than aeronautics.
+
 **The primary pass found that a programme's own index cannot be searched, only read.** NASA publishes a page listing the X-57 programme's technical output, and sixty-three entries transcribed from it resolved to sixty-one records. **The first sweep, which queried the designation alone, had retrieved eleven of them.** That is eighteen percent, from a sweep built specifically to avoid the failure the previous article documented.
 
 **The reason was tested rather than assumed.** A direct query for the designation reports seventy-four matching records and returns ten. Asking for a hundred returns ten. **Asking for the eleventh onward by offset returns the same ten again**, at every offset from ten to seventy. **The suspicion was that the fetching library never paginates, which would have been a defect affecting every article in this series. It paginates correctly and the server ignores it.** The hypothesis was disproved by the check that was written to confirm it.
@@ -528,11 +573,17 @@ The marine, rail and road families are now guarded against that construction, by
 
 The entry is not wrong. **The wing was designed optimally for the electric motor configuration**, and the design is tight enough that its parts can only be understood together. The wing was cut to 42 percent of its area to reduce drag in cruise. That made it unable to land, so twelve propellers were put along its leading edge to blow it. Those propellers add wetted area, so the parasite saving fell from 58 percent to 18. The span came down as the aspect ratio went up, so the induced drag rose by 32 percent. **The cruise propellers went to the wingtips because after all of that the configuration needed the vortex energy back.**
 
+**This article could not close the blowing on the installed power and says so.** Treating the propellers as ideal discs puts the requirement above what was fitted once any real efficiency is allowed, which means the slipstream had to be doing more than raising the dynamic pressure. **That is a limit on what these sources let anyone conclude, not a verdict on the aeroplane**, and it is left standing rather than resolved by assertion.
+
 **And underneath every one of those decisions is a battery carrying ninety-nine times less energy per kilogram than the fuel it replaced**, giving back a factor of three in drivetrain efficiency and leaving a factor of thirty-two to be found somewhere in the aerodynamics.
 
 **None of that is what stopped it.** What stopped it was that the transistors in the motor controllers failed under vibration, failed under heat, and failed when the software commanded both halves of a bridge to conduct at once. **The programme had been scoped on the assumption that those controllers could be bought rather than developed**, and the assessment that produced that assumption was never repeated after the sourcing direction that invalidated it.
 
-**A designation register has a column for the contractor, the sponsor, the engines and the mission. It has no column for whether the parts exist yet.** The X-57's entry is the longest in its class because the design was finished. **The design being finished is not the same as the aeroplane being possible**, and it is the only one of those two things a register can record.
+**And it should be said plainly that the aeroplane was not shown to be impossible.** The cruise motors in their then-current configuration were deemed an unacceptable risk for flight, and the team was working toward a design review for a modified motor when the money and the schedule ran out. **What the sources record is a programme that ran out of both, not a machine that could not be built.**
+
+**A designation register has a column for the contractor, the sponsor, the engines and the mission, and for this row the engines column is empty.** That blank turned out to mean nothing, since eighty-eight rows share it. **The blank that would have mattered is the one no register has**, which is a column for whether the parts exist yet at the maturity the plan assumed.
+
+**The X-57's entry is the longest in its class because the design was finished.** The design being finished is not the same as the parts being ready, and a register can record only the first.
 
 ## References
 

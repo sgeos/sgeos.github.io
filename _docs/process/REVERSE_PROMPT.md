@@ -5,59 +5,66 @@
 ## Last Updated
 
 **Date**: 2026-09-09
-**Task**: **A354, X-Planes: ESAero X-57 Maxwell, primary-reference review. The third of four
-passes.** Committed and **NOT PUSHED**, which is the rhythm. **Not published**, and
-publication of the series still not authorised. **Fifty-eight of seventy-two drafted.**
+**Task**: **A354, X-Planes: ESAero X-57 Maxwell, publication review. The fourth and last of
+four.** Committed and **PUSHED**. **Not published**, and publication of the series still not
+authorised. **Fifty-eight of seventy-two drafted.**
 
 ---
 
-## Report Primaries 187 at 7.6 Percent to 342 at 11.2, and Both Numbers Moved
+## The Conclusion Overreached in Two Places, Which Is Eleven Consecutive Articles
 
-**References 2,567 to 3,176, research 2,451 to 3,060, lines 5,669 to 6,905, words 33,185 to
-40,283.** Display equations unchanged at 34.
+**It said the design being finished is not the same as the aeroplane being possible.** The
+sources do not support that. **The cruise motors in their then-current configuration were
+deemed an unacceptable risk for flight, and the team was working toward a design review for
+a modified motor when the schedule and the budget ended.** What the record shows is a
+programme that ran out of both, not a machine that could not be built.
 
----
+**The conclusion now says the design being finished is not the same as the parts being
+ready**, which is the article's actual thesis and is the thing a register cannot record. The
+opening carries the same distinction so the two ends agree.
 
-## A Programme's Own Index Cannot Be Searched, Only Read
+**And it asserted that the blowing solved the landing problem, which the equation pass had
+explicitly declined to confirm.** The body establishes that dynamic pressure augmentation
+over seventy percent of the span cannot account for the required lift on the installed
+power. **A conclusion cannot resolve by assertion what the body left standing as a
+boundary.** It now carries the boundary.
 
-**This is the pass's finding and it strengthens the previous article's rather than
-repeating it.**
-
-NASA publishes a page listing the X-57 programme's technical output. **Sixty-three entries
-were transcribed from it and sixty-one resolved**, the other two carrying metadata too thin
-to identify. **The first sweep had retrieved eleven of those sixty-one**, which is eighteen
-percent, from a sweep built specifically to avoid the failure A353 documented and which
-queried the designation alone.
-
-**THE REASON WAS TESTED RATHER THAN ASSUMED, AND A HYPOTHESIS WAS DISPROVED.** A direct query
-for the designation reports **seventy-four matching records and returns ten**. Asking for a
-hundred returns ten. **Asking for the eleventh onward by offset returns the same ten again**,
-at every offset tried from ten to seventy.
-
-**The suspicion was that the fetching library never paginates and was leaving records on the
-table, which would have been a defect affecting every article in this series.** It
-paginates correctly and the server ignores the offset. **The library's own note already said
-the endpoint caps well below what is asked for, and that note is right.**
-
-**So A353's lesson needs strengthening.** Query a distinctive designation alone rather than
-beside generic words, yes. **But this article did that and still retrieved eighteen percent,
-because the constraint is not the query.** The remaining sixty-four records cannot be reached
-by that interface at all. **A programme's own published index must be read.**
+**A third repair was smaller and worth noting.** The conclusion listed the engines among the
+register's columns without noting that this row's is empty, after the body had spent a
+section on that cell. **It now uses the blank rather than walking past it**, since the blank
+that would have mattered is the one no register has, being a column for whether the parts
+exist yet.
 
 ---
 
-## A Presence Check Was Satisfied by a Second Copy of the Same Sentence
+## Conclusions Probed, and Two of Three Thin Ones Opened on Rewording Alone
 
-**A353 found that a presence check cannot tell whether it matched the equation or the prose.
-A354 found the next case, which is a figure appearing twice in the PROSE.**
+**Nine of ten measure zero under the article's own vocabulary and eight of ten are thickly
+covered under the field's.** That is the third article running with the same result, and it
+is a fact about phrasing rather than about the pool.
 
-The implied lift to drag ratio is stated once where it is derived and once where the article
-records what the equation pass changed. **An injection altered one of them and the check was
-satisfied by the other.**
+| Conclusion | First probe | After rewording |
+|---|---:|---:|
+| the wetted area saving against the wing cut | 2 | 169 |
+| a programme's index as a subject of study | 0 | 11 |
+| the register entry as a specification | 0 | 1 |
 
-**The fix counts the stem and requires every occurrence to carry the computed value**, which
-closes both cases at once and fails loudly if the stem disappears entirely. It was proved
-against an injection in the first position, the second position, and both at once.
+**No sweep was needed.** The wetted area conclusion went from 2 to 169 because the first
+probe asked for the phrase and the field writes about drag. **The designation stays at one
+and A341's measurement is cited rather than repeated.**
+
+**One conclusion is out of this gate's scope and correctly so.** How a programme's published
+output can and cannot be retrieved is a question about bibliography rather than about
+aeronautics. **It is reported because the article ran into it, not because the survey covers
+it.**
+
+---
+
+## The Caps Defect Did Not Appear
+
+**It landed in newly written Source Base prose in four of the five preceding passes.** This
+review wrote two new Source Base sections and the check came back clean. **That is one
+observation and not a trend**, and the check stays exactly as it is.
 
 ---
 
@@ -66,42 +73,51 @@ against an injection in the first position, the second position, and both at onc
 **Verifier clean at 0 errors and 0 warnings. Tests 108 of 108. Lint 0 findings.** The symbol
 scanner reports all 52 declared symbols used and every symbol used declared.
 
-**The article verifier runs 144 passing checks.** Seventeen injected defects were caught,
-and the eighteenth was missed until the every-occurrence check was written, after which it
-is caught in either position and in both.
+**The article verifier runs 144 passing checks and eighteen injected defects were all
+caught**, covering the prose rules, the register counts, the derived relations, the survey
+statistics, the cluster table and the dateline.
 
-**Twenty-four of the sixty-one curated identifiers were sampled and every one matched its
-own record's metadata**, alongside a deliberately absent report number as a control, which
-failed correctly. **One documented exception is carried rather than a threshold quietly
-lowered**, being a record whose NTRS metadata is truncated to `X-57 Maxwell Aircraft` where
-NASA's own index gives the fuller title, and the check asserts the record's title is a
-prefix of the label used.
+**Every survey statistic is recomputed from the reference data and the sweep artefacts.**
+All fifteen cluster rows state their own recomputed count, the total equals the research
+count exactly at 3,060, and every cluster section cites at least what its row claims.
 
-**FINAL STATE. 6,905 lines, 34 display equations, 52 declared symbols, 3,176 reference
-definitions, 40,283 words**, research 3,060, report primaries 342 at 11.2 percent, two
+**All 3,176 definitions are cited, none orphaned and none undefined.**
+
+**FINAL STATE. 6,956 lines, 34 display equations, 52 declared symbols, 3,176 reference
+definitions, 41,314 words**, research 3,060, report primaries 342 at 11.2 percent, two
 sweeps retrieving 8,079 records of which 7,031 distinct, gate 3,138, store residual 9.8
-percent. **All 3,176 definitions are cited, none orphaned and none undefined.**
+percent.
 
-**The stub-isolated production build succeeded in 121 seconds against the exact bytes
-committed**, checksum matched before and after. **The rendered audit reports no findings
-across 93 pages.** Source and rendered display-equation counts agree at **34**, with zero
-raw dollar pairs leaking, zero unresolved reference brackets, zero unexpanded slots and zero
-unrendered Liquid. The page is 608,311 bytes.
+**The stub-isolated production build succeeded in 172 seconds against the exact bytes
+committed**, the checksum matched against the stub copy before the build and against both
+afterwards. **The rendered audit reports no findings across 93 pages.** Source and rendered
+display-equation counts agree at **34**, with zero raw dollar pairs leaking, zero unresolved
+reference brackets, zero unexpanded slots and zero unrendered Liquid. The page is 616,574
+bytes.
 
 ---
 
-## What Is Not Done
+## What Remains
 
-**The publication review has not run.** It is the pass that reads the opening against the
-conclusion, which has found a defect in every article since A340, and the pass that probes
-each conclusion against the pool.
+**A354 is complete on all four passes and is pushed. It is NOT published**, and publication
+of this series has never been authorised.
 
-**Two disagreements remain recorded and unresolved**, being the high-lift motor power at
-12.6 kilowatts in the flight performance report against 10.5 in the reference literature,
-and the battery at 80 watt hours per pound against a usable 55.
+**Two disagreements remain recorded and unresolved in the article**, being the high-lift
+motor power at 12.6 kilowatts in the flight performance report against 10.5 in the reference
+literature, and the battery at 80 watt hours per pound against a usable 55.
 
-**And one boundary stands rather than a conclusion.** The equation pass established that
-raising dynamic pressure over seventy percent of the span cannot by itself account for
-landing this wing on the installed power. **The article says it does not know from these
-sources how much of the remaining work the other slipstream effects do**, and the
-publication review should check whether the enlarged reference pool can now answer that.
+**And one boundary is left standing on purpose.** Raising the dynamic pressure over seventy
+percent of the span cannot by itself account for landing this wing on the installed power.
+The enlarged pool covers the mechanism thickly at 113 records under the field's vocabulary,
+**but none of the sources this article consulted apportions the work between dynamic
+pressure, swirl, effective angle of attack and delayed separation.** The article says so
+rather than choosing a number.
+
+**The next article is A355, the X-59**, editorial date 2025-12-03, series index 59. It is
+the Quiet SuperSonic Technology demonstrator, and its register entry reads that the aircraft
+will create a shaped sonic boom signature. **Exactly two rows in the whole register name a
+sonic boom, the X-54A and the X-59A**, so this is the second and last of them and A351's
+gate is the one to read first. **Its engines cell is empty too**, which A354 established is
+a compilation gap rather than a finding. **A first draft of this line called it the third
+such article, which the register refutes**, and the count was checked before the handoff was
+committed.
