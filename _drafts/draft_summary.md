@@ -21,54 +21,47 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_esaero_x57_maxwell.markdown`, A354, editorial date 2025-12-02, series `x_planes` index 58 of 72.
 
-**5,551 lines, 16 display equations, 34 declared symbols, 2,567 reference definitions,
-31,980 words after the draft pass.** **ONE OF FOUR PASSES COMPLETE.** Committed, **NOT
-pushed**. **Not published**, and publication of the series has never been authorised.
+**5,669 lines, 34 display equations, 52 declared symbols, 2,567 reference definitions,
+33,185 words after the equation-density pass.** **TWO OF FOUR PASSES COMPLETE.** Committed,
+**NOT pushed**. **Not published**, and publication of the series has never been authorised.
 **Unflown-demonstrator class, and the aeroplane with the longest register entry in the whole
 X series.**
 
 **THE LONGEST ENTRY IN THE CLASS BELONGS TO THE AEROPLANE THAT FLEW LEAST.** The X-57A
 mission statement is 343 characters, more than double the median X row, and **the aeroplane
-never flew**. It is the only entry naming all electric, propulsion technology, a high lift
-device, a wing tip or a leading edge. **It reads as a specification rather than an
-intention**, and is the only entry in the register that teaches the reader how something
-works.
+never flew**. **It reads as a specification rather than an intention**, and is the only entry
+in the register that teaches the reader how something works.
 
-**A TEMPTING OPENING WAS TESTED AND ABANDONED.** The engines cell is empty, but 88 of 526
-rows are, and the two other empty X rows are a supersonic demonstrator and a rocket.
+**THE WING IS 42 PERCENT OF THE AREA IT REPLACED**, which multiplies wing loading by 2.38 and
+requires the same multiple of maximum lift coefficient. But **the wetted area fell only 18
+percent against the wing's 58**, and **induced drag rose 32 percent** on a shorter span,
+**a result derived here and then found stated independently in the primary source**.
 
-**THE WING IS 42 PERCENT OF THE AREA IT REPLACED**, which multiplies wing loading by 2.38
-and requires the maximum lift coefficient to be multiplied by 2.38 to hold the stall speed.
-**The twelve leading-edge propellers exist to supply that factor and nothing else.** But
-**the wetted area fell only 18 percent against the wing's 58**, because twelve nacelles put
-it back, and **induced drag rose 32 percent** because span fell from 11.40 to 9.94 metres
-despite the higher aspect ratio. **That was derived here and then found stated independently
-in the primary source.**
+**THE EQUATION PASS TRIED TO VERIFY THE CENTRAL CLAIM AND COULD NOT.** Only seventy percent
+of the span is blown, so the blown part needs a 73 percent velocity increase, 22 metres per
+second at the stall speed. **Ideal actuator discs put the requirement at 139 kilowatts
+against 151 installed**, and at a realistic propulsive efficiency it exceeds the installed
+power. **That is a boundary on the explanation rather than a fault in the aeroplane**, since
+raising dynamic pressure alone cannot account for landing this wing.
 
-**THE PUBLISHED GEOMETRY DOES NOT CLOSE**, span and area giving an aspect ratio of 15.96
-against a published 15.0.
+**THE PUBLISHED RANGE DOES CLOSE**, implying a lift to drag of about seventeen, which matters
+in an article that already found the published wing geometry does not close.
 
-**THE BATTERY IS THE CONSTRAINT EVERYTHING ELSE IS SPENT AGAINST.** Fuel carries 99 times
-more energy per kilogram than the pack, the electric drivetrain gives back a factor of
-three, and **32 remains**. The design range was 87 nautical miles.
+**THE MOTORS ARE A SMALLER ADVANCE THAN THE ARCHITECTURE SUGGESTS**, 1.36 against 1.17
+kilowatts per kilogram. **What distributed electric propulsion buys is divisibility rather
+than power density.**
 
-**WHAT STOPPED IT WAS TRANSISTORS**, silicon carbide devices switching 538 volts at 200
-amperes peak, failing under vibration, under heat, and under software that commanded
-shoot-through. **The root cause in the lessons learned report is not technical**, the project
-having been scoped as integration rather than development and its readiness assessment never
-repeated after the buy-American direction that invalidated it.
+**WHAT STOPPED IT WAS TRANSISTORS**, silicon carbide devices failing under vibration, heat
+and a software fault that commanded shoot-through, **with a root cause that is not
+technical**, the project having been scoped as integration rather than development and its
+readiness assessment never repeated after the buy-American direction that invalidated it.
 
-**THE STORE MET ITS LARGEST EXPOSURE IN THIS SERIES AT 12.4 PERCENT.** A family had to be
-**tagged before it could be opened**, and **a venue naming four transport modes was rejecting
-papers about the first of them**, removing 31 records by its name alone. **27 records proved
-held by a second armed pattern**, against two in the previous article.
+**Verifier 0 errors 0 warnings. Tests 108 of 108. Lint 0 findings.** 134 passing checks and
+eighteen injected defects all caught, equation citation coverage closed from six uncited to
+zero. **Build clean against checksum-matched bytes, 93 pages, rendered audit reports no
+findings**, source and rendered display-equation counts agree at 34.
 
-**Verifier 0 errors. Tests 108 of 108. Lint 0 findings.** 110 passing checks and seventeen
-injected defects all caught. **Build clean against checksum-matched bytes, 93 pages, rendered
-audit reports no findings**, source and rendered display-equation counts agree at 16.
-
-**Remaining work**: the equation-density pass, the primary-reference pass and the publication
-review.
+**Remaining work**: the primary-reference pass and the publication review.
 
 ## X-Planes Lockheed Martin X-56 A353 2025-12-01
 

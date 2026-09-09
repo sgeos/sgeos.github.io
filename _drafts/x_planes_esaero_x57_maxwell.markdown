@@ -71,6 +71,12 @@ $$
 \frac{(W/S)_1}{(W/S)_0} = \frac{S_0}{S_1} = 2.38
 $$
 
+Lift is the product of dynamic pressure, wing area and a lift coefficient [[Lift Coefficient][ref_lift_coefficient]].
+
+$$
+L = \tfrac{1}{2}\rho V^{2} S\, C_L
+$$
+
 Stall speed depends on wing loading and on the maximum lift coefficient the wing can reach [[Wing Loading][ref_wing_loading]] [[Stall, Fluid Dynamics][ref_stall_speed]] [[Lift Coefficient][ref_lift_coefficient]].
 
 $$
@@ -88,6 +94,68 @@ q_w = \tfrac{1}{2}\rho\,(V + \Delta V)^{2} \;>\; \tfrac{1}{2}\rho V^{2}
 $$
 
 **A propeller ahead of a wing raises the local dynamic pressure** [[Dynamic Pressure][ref_dynamic_pressure]] [[U.S. Standard Atmosphere][ref_us_standard_atmosphere]], and lift goes as dynamic pressure, so a wing in a slipstream makes more lift at the same airspeed and the same angle of attack [[X-57 Maxwell High-Lift Propeller Testing and Model Development][research_x57_high_lift_propeller_testing]] [[X-57 High-Lift Propeller Control Schedule Development][research_x57_high_lift_control_schedule]].
+
+## Whether the Blowing Can Actually Do It
+
+**The article has so far asserted that twelve propellers supply a factor of 2.38 in lift. That is a computation the published numbers permit, and it is worth doing.**
+
+**Only part of the wing is blown.** Twelve propellers of 1.9 feet diameter sweep about 6.95 metres of a 9.94 metre span [[Propeller, Aeronautics][ref_propeller]].
+
+$$
+f = \frac{12\,d}{b_1} = \frac{6.95}{9.94} = 0.70
+$$
+
+$$
+A_h = 12\,\frac{\pi d^{2}}{4} = 3.16
+$$
+
+**So roughly seventy percent of the span sits in a slipstream and the rest of the wing makes its lift the ordinary way.** If the blown fraction sees a velocity higher by a factor of one plus some increment, and the rest sees the free stream, then the whole wing's lift multiple is a weighted sum [[Lift Coefficient][ref_lift_coefficient]] [[Slipstream][ref_slipstream]].
+
+$$
+f\,(1+x)^{2} + (1-f) = \frac{S_0}{S_1}
+$$
+
+**Blowing the whole wing would need a 54 percent velocity increase. Blowing seventy percent of it needs 73 percent** [[Dynamic Pressure][ref_dynamic_pressure]].
+
+$$
+x_{whole} = \sqrt{2.38} - 1 = 0.544
+$$
+
+$$
+x = \sqrt{1 + \frac{2.38 - 1}{0.70}} - 1 = 0.726
+$$
+
+$$
+\Delta V = x\,V_s = 0.726 \times 29.8 = 21.7
+$$
+
+**At a stall speed of 58 knots the blown part of the wing must see an airflow moving 22 metres per second faster than the aeroplane is.**
+
+**What that costs can be bounded from below by treating the propellers as ideal actuator discs** [[Momentum Theory][ref_momentum_theory]] [[Glauert, The elements of aerofoil and airscrew theory][book_glauert]].
+
+$$
+T = 2\rho A_h v_i \,(V_s + v_i), \qquad v_i = \tfrac{1}{2}\Delta V
+$$
+
+$$
+P_i = T\,(V_s + v_i) = 139
+$$
+
+$$
+\frac{P_i}{P_h} = \frac{139}{151} = 0.92
+$$
+
+**The ideal requirement is 139 kilowatts against 151 installed, which is 92 percent** [[Flight Performance Estimates for the NASA X-57 Distributed Electric Propulsion Flight Demonstrator][research_x57_flight_performance_estimates]]. An actuator disc has no profile drag, no swirl loss, no tip loss, no motor loss and no controller loss. **The real requirement is larger than the ideal one, and at a propulsive efficiency of 75 percent it exceeds the installed power.**
+
+$$
+\frac{P_i}{\eta_{pr}} = \frac{139}{0.75} = 185 \;>\; P_h
+$$
+
+**This does not mean the design was wrong. It means the model in this section is not the whole mechanism.**
+
+A slipstream does more to a wing than speed the air up. It arrives with swirl, it changes the local angle of attack, and it re-energises the boundary layer so that the wing separates later than it otherwise would. **The high-lift literature is largely about those effects rather than about dynamic pressure** [[Blown Flap][ref_blown_flap]] [[Powered Lift][ref_powered_lift]] [[McCormick, Aerodynamics, aeronautics and flight mechanics][book_mccormick]], and the programme's own testing was aimed at measuring thrust and slipstream velocities rather than at assuming them [[X-57 Maxwell High-Lift Propeller Testing and Model Development][research_x57_high_lift_propeller_testing]].
+
+**What the calculation establishes is a boundary on the explanation.** Raising the dynamic pressure over seventy percent of the span cannot by itself account for landing this wing on this installed power. **Something else has to be doing part of the work**, and the article does not know from these sources how much.
 
 ## The Prize Was Smaller Than the Wing Cut Suggests
 
@@ -119,7 +187,7 @@ $$
 
 ## The Published Geometry Does Not Close
 
-**Three quantities describe a wing and only two of them are independent, so a published set of three can be checked.**
+**Three quantities describe a wing and only two of them are independent, so a published set of three can be checked** [[Aspect Ratio, Aeronautics][ref_aspect_ratio]] [[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]].
 
 $$
 AR = \frac{b^{2}}{S}
@@ -142,6 +210,26 @@ $$
 $$
 \frac{P_h}{P_0} = \frac{151.2}{149.1} = 1.01
 $$
+
+**The two propeller sets are designed for different jobs and the advance ratio shows it** [[Propeller, Aeronautics][ref_propeller]].
+
+$$
+J = \frac{V}{n\,d}
+$$
+
+$$
+J_{cruise} = 1.34, \qquad J_{lift} = 0.68
+$$
+
+**The high-lift propellers run at half the advance ratio of the cruise pair**, which is what a propeller built to move a lot of air slowly looks like beside one built to move a little air quickly.
+
+**And the motors are less of an advance over the engines than the architecture suggests** [[Rotax 912][ref_rotax_912]] [[Hughes and Drury, Electric motors and drives][book_hughes]].
+
+$$
+\frac{72}{53.1} = 1.36 \quad \text{against} \quad \frac{74.6}{64.0} = 1.17
+$$
+
+**A cruise motor with its propeller manages 1.36 kilowatts per kilogram against about 1.17 for the Rotax it replaced**, and that comparison flatters the motor, because the Rotax figure is a dry mass without a propeller while the motor figure includes one. **The gain is real and it is modest.** What distributed electric propulsion buys is not power density but divisibility, since an electric motor loses very little efficiency as it is made smaller.
 
 **The aeroplane carries a complete second propulsion system whose only job is to make the wing survivable at low speed**, and that system is slightly larger than the whole propulsive installation of the aeroplane it was built from.
 
@@ -167,6 +255,18 @@ $$
 
 **Fuel carries ninety-nine times more energy per kilogram than this battery pack did.**
 
+**And the pack is asked to deliver its energy quickly as well as to store it.**
+
+$$
+C_r = \frac{P}{E} = \frac{295.2}{47} = 6.3
+$$
+
+$$
+t = \frac{E}{P} = \frac{47}{295.2} = 0.159
+$$
+
+**Running everything at once would empty the pack in under ten minutes and would draw six times its own capacity per hour**, which is a demanding discharge for a pack sized by energy rather than by power [[Lithium-Ion Battery][ref_lithium_ion]] [[Linden, Handbook of batteries][book_linden]]. Nothing in the mission asks for that, since the high-lift motors are used only at the ends of the flight, but it bounds what the pack and its wiring had to be built for [[X-57 Traction Power System][research_x57_traction_power_system]].
+
 **The electric drive gives most of that back only once.** A piston engine turns roughly thirty percent of its fuel's energy into shaft work and an electric drivetrain turns roughly ninety-three percent of its stored energy into the same thing [[Lithium-Ion Battery][ref_lithium_ion]] [[Synchronous Motor][ref_pmsm]].
 
 $$
@@ -174,6 +274,18 @@ $$
 $$
 
 **The efficiency advantage is a factor of three and the energy deficit is a factor of ninety-nine, so the aeroplane is still thirty-two times worse off per kilogram.** That is not a number that better packaging closes. **It is why the design range was 87 nautical miles** [[Range, Aeronautics][ref_breguet]].
+
+**The published range can be checked against the published energy, and it closes.** For an electric aeroplane the range is the stored energy times the drivetrain efficiency, divided by the weight, times the lift to drag ratio [[Range, Aeronautics][ref_breguet]] [[Lift-to-Drag Ratio][ref_lift_to_drag]].
+
+$$
+R = \frac{E\,\eta_e}{m\,g}\;\frac{L}{D_i}
+$$
+
+$$
+\frac{L}{D_i} = \frac{R\,m\,g}{E\,\eta_e} = 16.9
+$$
+
+**Inverting it, the published range implies a lift to drag ratio of about seventeen**, which is a reasonable figure for a clean aeroplane of this aspect ratio. **The range, the energy and the efficiency are consistent with one another**, which is worth stating because several other published quantities in this programme are not.
 
 **Every aerodynamic gain in this aeroplane exists to be spent against that ratio.** The smaller wing, the higher aspect ratio, the wingtip propellers and the blown leading edge are all attempts to buy back efficiency in an airframe carrying an energy source two orders of magnitude worse than the one it replaced.
 
@@ -357,6 +469,12 @@ The marine, rail and road families are now guarded against that construction, by
 [[AI-based electric motor fault 2023][research_ai_based_electric_2023]] [[An and Wu 1987][research_an_wu_1987]] [[Anderson et al 2000][research_anderson_wright_2000]] [[Andrenucci 1990][research_andrenucci_1990]] [[Arakeri 2011][research_arakeri_2011]] [[Arifin et al 2024][research_arifin_imronrosadi_2024]] [[Aston 1985][research_aston_1985]] [[Aston and Aston 1987][research_aston_aston_1987]] [[Atkins 1974][research_atkins_1974]] [[Austin and Kisko 1979][research_austin_kisko_1979]] [[Balachandran et al 2020][research_balachandran_reband_2020]] [[Balachandran et al 2020][research_balachandran_reband_2020_b]] [[Balda et al 2005][research_balda_barlow_2005]] [[Barber and Meissinger 1969][research_barber_meissinger_1969]] [[Barber et al 1982][research_barber_challita_1982]] [[Bartoli and Berry 1987][research_bartoli_berry_1987]] [[Ben Miloud et al 2017][research_benmiloud_dghim_2017]] [[Bender and Bourke 1972][research_bender_bourke_1972]] [[Bennett 1973][research_bennett_1973]] [[Berkopec et al 1985][research_berkopec_stone_1985]] [[Berry 1985][research_berry_1985]] [[Bianco 2020][research_bianco_2020]] [[Borsboom et al 2023][research_borsboom_lokker_2023]] [[Bracher and Von Rohden 1972][research_bracher_vonrohden_1972]] [[Bright et al 2013][research_bright_korntheuer_2013]] [[Brown et al 2009][research_brown_beal_2009]] [[Buden et al 1981][research_buden_angelojr_1981]] [[Burgers 2016][research_burgers_2016]] [[Burgers and Alexander 2012][research_burgers_alexander_2012]] [[Burns 1975][research_burns_1975]] [[Burtness 1987][research_burtness_1987]] [[Bussard 1988][research_bussard_1988]] [[Byers 1979][research_byers_1979]] [[Byers and Wasel 1987][research_byers_wasel_1987]] [[Cake et al 1978][research_cake_hawthorne_1978]] [[Cantrell 1985][research_cantrell_1985]] [[Caplinger et al 1983][research_caplinger_rose_1983]] [[Casal 1969][research_casal_1969]] [[Castillo et al 1990][research_castillo_andrews_1990]] [[Caveny and Vondra 1989][research_caveny_vondra_1989]] [[Characteristics of Primary Electric 1981][research_characteristics_of_1981]] [[Chatterjee et al 2021][research_chatterjee_vechalapu_2021]] [[Chenghan and Hui 2011][research_chenghan_hui_2011]] [[Choi and Brown 2017][research_choi_brown_2017]] [[Choi et al 2017][research_choi_hunker_2017]] [[Clark 1974][research_clark_1974]] [[Clarke, Sean 2015][research_clarkesean_2015]] [[Cook and Krajkowski 1982][research_cook_krajkowski_1982]] [[Costogue and Hasbach 1979][research_costogue_hasbach_1979]] [[Dacles-Mariani et al 1995][research_daclesmariani_zilliac_1995]] [[Dailey and Lovberg 1978][research_dailey_lovberg_1978]] [[Dailey and Lovberg 1982][research_dailey_lovberg_1982]] [[Dailey et al 1967][research_dailey_katz_1967]] [[Dailey et al 1990][research_dailey_hieatt_1990]] [[Dantsker et al 2019][research_dantsker_imtiaz_2019]] [[Darrah et al 2025][research_darrah_liu_2025]] [[Day and Fearn 1969][research_day_fearn_1969]] [[Dazzo 1975][research_dazzo_1975]] [[Dazzo and Nagorski 1973][research_dazzo_nagorski_1973]] [[Deininger 1985][research_deininger_1985]] [[Deininger and Nock 1990][research_deininger_nock_1990]] [[Deininger and Vondra 1986][research_deininger_vondra_1986]] [[Dowdle et al 2018][research_dowdle_hall_2018]] [[Durai 2014][research_durai_2014]] [[Edgecombe and Haughey 1969][research_edgecombe_haughey_1969]] [[Edgecombe and Haughey 1970][research_edgecombe_haughey_1970]] [[Elantably 2000][research_elantably_2000]] [[Electric Drive Cooling Fan][research_electric_drive]] [[Electric Motor Targets Record 2020][research_electric_motor_2020]] [[Electric propulsion][research_electric_propulsion]] [[Electric Propulsion Conference 1963][research_electric_propulsion_1963]] [[Electric Propulsion Fundamentals 2019][research_electric_propulsion_2019]] [[Electric propulsion in Europe 1990][research_electric_propulsion_1990]] [[Electric Propulsion Motor Shipboard 2011][research_electric_propulsion_2011]] [[Electric Propulsion Systems 1975][research_electric_propulsion_1975]] [[Epstein and O'Flarity 2019][research_epstein_oflarity_2019]] [[European electric propulsion activities 1979][research_european_electric_1979]] [[European Electric Propulsion Activities 1981][research_european_electric_1981]] [[Experimental Investigation of Drag 1980][research_experimental_investigation_1980]] [[Felli et al 2006][research_felli_guj_2006]] [[Ferrera 1969][research_ferrera_1969]] [[Fife 2002][research_fife_2002]] [[Fife et al 1999][research_fife_leduc_1999]] [[Flanagan and Jarrett 2023][research_flanagan_jarrett_2023]] [[Free 1973][research_free_1973]] [[Free 1987][research_free_1987]] [[Frisbee et al 1991][research_frisbee_blandino_1991]] [[Fundamentals of Electric Motor 2014][research_fundamentals_of_2014]] [[Fundamentals of Electric Propulsion 2011][research_fundamentals_of_2011]] [[Ganev and Salam 2019][research_ganev_salam_2019]] [[Garrett et al 2000][research_garrett_newton_2000]] [[Ghosh and Huson 1969][research_ghosh_huson_1969]] [[Gilland et al 1990][research_gilland_myers_1990]] [[Ginn, Starr Renee 2015][research_ginnstarrrenee_2015]] [[Giulivo et al 2010][research_giulivo_sulligoi_2010]] [[Goldman 1977][research_goldman_1977]] [[Guo et al 2023][research_guo_wang_2023]] [[Gur and Rosen 2009][research_gur_rosen_2009]] [[Hanif et al 2024][research_hanif_cantemir_2024]] [[Harris et al 2001][research_harris_laskar_2001]] [[Hastings et al 2005][research_hastings_martinezsanchez_2005]] [[Higdon 1969][research_higdon_1969]] [[High-Power and High-Thrust-Density Electric 2008][research_high_power_and_2008]] [[Hiller et al 2025][research_hiller_campbell_2025]] [[Hodkinson and Fenton 2000][research_hodkinson_fenton_2000]] [[Hofler 1996][research_hofler_1996]] [[Holcomb 2010][research_holcomb_2010]] [[Holloran 1989][research_holloran_1989]] [[Hudson 1978][research_hudson_1978]] [[Hudson 1979][research_hudson_1979]] [[Hudson and Finke 1976][research_hudson_finke_1976]] [[Hybrid and Electric Propulsion 2025][research_hybrid_and_2025]] [[Iijima et al 2021][research_iijima_kobayashi_2021]] [[Ing and Zhang 1993][research_ing_zhang_1993]] [[Ishii 1971][research_ishii_1971]] [[Ivany 1990][research_ivany_1990]] [[Iwakuma and Izumi 2023][research_iwakuma_izumi_2023]] [[Jahn 1985][research_jahn_1985]] [[Jakubowski 1991][research_jakubowski_1991]] [[Janardhanan et al 2022][research_janardhanan_laine_2022]] [[Jansons et al 2004][research_jansons_lin_2004]] [[Jeon et al 2024][research_jeon_ren_2024]] [[Johnson 1969][research_johnson_1969]] [[Jones 1982][research_jones_1982]] [[Juvé et al 2017][research_juve_joubert_2017]] [[Kaminski 2020][research_kaminski_2020]] [[Karkoulias et al 2023][research_karkoulias_bourdousi_2023]] [[Kelly 1988][research_kelly_1988]] [[Kim 1988][research_kim_1988]] [[King 2005][research_king_2005]] [[King 2010][research_king_2010]] [[Kuriki 1976][research_kuriki_1976]] [[Kuriki 1990][research_kuriki_1990]] [[Kuroda 1978][research_kuroda_1978]] [[Kuznetsov][research_kuznetsov]] [[Lansink Rotgerink 2023][research_lansinkrotgerink_2023]] [[Larsen et al 1963][research_larsen_litz_1963]] [[LaSalle 1963][research_lasalle_1963]] [[Lazar 1969][research_lazar_1969]] [[Lazar 1973][research_lazar_1973]] [[Levin 2009][research_levin_2009]] [[Loeb 1973][research_loeb_1973]] [[Loeb 1981][research_loeb_1981]] [[Lu et al 2019][research_lu_tremblaydionne_2019]] [[Ma et al 2020][research_ma_shi_2020]] [[Macie 1970][research_macie_1970]] [[Macpherson and Molitor 1969][research_macpherson_molitor_1969]] [[Macpherson et al 1970][research_macpherson_molitor_1970]] [[Martin and Cresdee 1987][research_martin_cresdee_1987]] [[Masek 1972][research_masek_1972]] [[Masek et al 1973][research_masek_richardson_1973]] [[Masek et al 1975][research_masek_ward_1975]] [[Masel 2009][research_masel_2009]] [[Masel 2012][research_masel_2012]] [[Masel 2013][research_masel_2013]] [[Masel 2014][research_masel_2014]] [[Matloff 1987][research_matloff_1987]] [[McCann and Anh Le][research_mccann_anhle]] [[McGinnis 1972][research_mcginnis_1972]] [[Meissinger 1970][research_meissinger_1970]] [[Menetrey and Ritchie 1966][research_menetrey_ritchie_1966]] [[Michalík and Čerňan 2020][research_michalik_cernan_2020]] [[Molitor and Olson 1967][research_molitor_olson_1967]] [[Molitor and Russell 1967][research_molitor_russell_1967]] [[Molitor and Russell 1969][research_molitor_russell_1969]] [[Molitor and Russell 1970][research_molitor_russell_1970]] [[Mondt 1981][research_mondt_1981]] [[Mondt et al 1979][research_mondt_stapfer_1979]] [[Müller et al 2014][research_muller_heinze_2014]] [[Nagorski and Boain 1981][research_nagorski_boain_1981]] [[NASA Electric Propulsion Program 1981][research_nasa_electric_1981]] [[Nock and Garrison 1982][research_nock_garrison_1982]] [[Nuclear Power Source for 1981][research_nuclear_power_1981]] [[O'Regan et al 2012][research_oregan_griffin_2012]] [[Okai et al 2016][research_okai_himeno_2016]] [[Okai et al 2017][research_okai_nomura_2017]] [[Openshaw 1969][research_openshaw_1969]] [[Orrick 2024][research_orrick_2024]] [[Ortolani et al 2022][research_ortolani_santic_2022]] [[Palaszewski 1985][research_palaszewski_1985]] [[Palaszewski 1987][research_palaszewski_1987]] [[Papanicolaou 2009][research_papanicolaou_2009]] [[Papathakis, Kurt V. et al 2017][research_papathakiskurtv_sessionsalaricm_2017]] [[Parish 1990][research_parish_1990]] [[Pasandideh Fard and Sahaf 2016][research_pasandidehfard_sahaf_2016]] [[Pawlik and Phillips 1976][research_pawlik_phillips_1976]] [[Peng and Eliasson 2008][research_peng_eliasson_2008]] [[Perel and Wolfson 1976][research_perel_wolfson_1976]] [[Perel et al 1981][research_perel_mahoney_1981]] [[Perkins 1993][research_perkins_1993]] [[Phillips and Pawlik 1978][research_phillips_pawlik_1978]] [[Poeschel 1982][research_poeschel_1982]] [[Pornet 2015][research_pornet_2015]] [[Pornet 2016][research_pornet_2016]] [[Porru et al 2024][research_porru_serpi_2024]] [[Prabhakaran and Thirumoorthi 2025][research_prabhakaran_thirumoorthi_2025]] [[Practice for Design and][research_practice_for]] [[Prickett and Spera 1972][research_prickett_spera_1972]] [[Pushylin and Loginov 2025][research_pushylin_loginov_2025]] [[Rajamani 2019][research_rajamani_2019]] [[Ransone 2002][research_ransone_2002]] [[Rinkeviciene 2024][research_rinkeviciene_2024]] [[Rivera and Gutierrez 2021][research_rivera_gutierrez_2021]] [[Ross, Jr. 1973][research_rossjr_1973]] [[Rotgerink 2022][research_rotgerink_2022]] [[Rudnik 2008][research_rudnik_2008]] [[Rulis 1970][research_rulis_1970]] [[Russi and Lien 1963][research_russi_lien_1963]] [[Ruttner 1973][research_ruttner_1973]] [[Salazar et al 2020][research_salazar_liou_2020]] [[Samuel and Lin 2015][research_samuel_lin_2015]] [[Sang 2009][research_sang_2009]] [[Sanks et al 1990][research_sanks_jones_1990]] [[Sater 1973][research_sater_1973]] [[Satori et al 2001][research_satori_mae_2001]] [[Sauer and Atkins 1972][research_sauer_atkins_1972]] [[Sauer, Jr. 1975][research_sauerjr_1975]] [[Sauer, Jr. 1987][research_sauerjr_1987]] [[Scala et al 2026][research_scala_astarita_2026]] [[Sellen, Jr. 1973][research_sellenjr_1973]] [[Sellen, Jr. and Fitzgerald 1975][research_sellenjr_fitzgerald_1975]] [[Sharp 1975][research_sharp_1975]] [[Sharpe 1990][research_sharpe_1990]] [[Shin 2019][research_shin_2019]] [[Shin 2021][research_shin_2021]] [[Shklovskii and Kurt 1961][research_shklovskii_kurt_1961]] [[Showers 1952][research_showers_1952]] [[Simpson 1966][research_simpson_1966]] [[Singer 1956][research_singer_1956]] [[Sivarajah][research_sivarajah]] [[Small craft. Electric propulsion][research_small_craft]] [[Solar electric propulsion for 1972][research_solar_electric_1972]] [[Solar Electric Propulsion System 1981][research_solar_electric_1981]] [[Sonju et al 1971][research_sonju_teno_1971]] [[Sorniotti et al 2010][research_sorniotti_boscolo_2010]] [[Spanjers et al 2001][research_spanjers_schilling_2001]] [[Specification for Aircraft Electric][research_specification_for]] [[Sponable and Penn 1987][research_sponable_penn_1987]] [[Spores and Birkan 1998][research_spores_birkan_1998]] [[Spores and Birkan 2002][research_spores_birkan_2002]] [[Spores et al 2001][research_spores_spanjers_2001]] [[Spores et al 2001][research_spores_spanjers_2001_b]] [[Standard Specification for Aircraft][research_standard_specification]] [[Stearns 1963][research_stearns_1963]] [[Stella and Flood 1990][research_stella_flood_1990]] [[Stevens 1979][research_stevens_1979]] [[Sudak][research_sudak]] [[Sun et al 2014][research_sun_zhong_2014]] [[Sutton et al 1995][research_sutton_bromaghim_1995]] [[Swank 2011][research_swank_2011]] [[System study of electric 1972][research_system_study_1972]] [[Tabibi et al 1998][research_tabibi_nguyen_1998]] [[Tarrant 1973][research_tarrant_1973]] [[The solar electric propulsion 1972][research_the_solar_1972]] [[Theisen et al 1973][research_theisen_scruggs_1973]] [[Thomas and Adamson 1973][research_thomas_adamson_1973]] [[Thompson et al 2000][research_thompson_atkinson_2000]] [[Tielking 1989][research_tielking_1989]] [[Tilton et al 1989][research_tilton_pais_1989]] [[Toki et al 1990][research_toki_shimizu_1990]] [[Tong and Tao 2024][research_tong_tao_2024]] [[Touhami][research_touhami]] [[Trump et al 1979][research_trump_james_1979]] [[Trump et al 1982][research_trump_james_1982]] [[Turchi 1982][research_turchi_1982]] [[Turchi 2022][research_turchi_2022]] [[Turns and Kraige][research_turns_kraige]] [[U.S. Air Force Programs 1981][research_u_s_air_1981]] [[Upper Atmosphere Re-Entry Study 1961][research_upper_atmosphere_1961]] [[Veneri et al 2012][research_veneri_migliardini_2012]] [[Vepa 2018][research_vepa_2018]] [[Vickland 1967][research_vickland_1967]] [[Volpe et al 2017][research_volpe_goss_2017]] [[Vondra 1979][research_vondra_1979]] [[Vos 2019][research_vos_2019_d]] [[Wang and Fahimi 2012][research_wang_fahimi_2012]] [[Wang and Rahmani 2021][research_wang_rahmani_2021]] [[Wang et al 2013][research_wang_wu_2013]] [[Weddell et al 1978][research_weddell_mcrae_1978]] [[Weiner 1987][research_weiner_1987]] [[White et al 1976][research_white_jr_1976]] [[Wilson and Smith 1977][research_wilson_smith_1977]] [[Womack and Chen 1972][research_womack_chen_1972]] [[Woodcock and Wingo 2006][research_woodcock_wingo_2006]] [[Xu et al 2022][research_xu_lin_2022]] [[Xu et al 2026][research_xu_wang_2026]] [[Young 1979][research_young_1979]] [[Zeaiter][research_zeaiter]] [[Zeaiter and Fenot 2018][research_zeaiter_fenot_2018]] [[Zeng et al 2006][research_zeng_fan_2006]] [[Zhang et al 2018][research_zhang_bowman_2018]] [[Zharkov et al 2026][research_zharkov_shayhlislamov_2026]] [[Zheng and Ramaprian 1993][research_zheng_ramaprian_1993]] [[Zhurin et al 1976][research_zhurin_porotnikov_1976]]
 
 ## What the Data Changed
+
+**The equation pass tried to verify the central claim and could not.** The draft asserted that twelve propellers supply a factor of 2.38 in lift, which is a computation the published numbers permit. **Treating the propellers as ideal actuator discs puts the required power at 139 kilowatts against 151 installed**, and an ideal disc has no profile drag, no swirl, no tip loss and no motor loss. **At a realistic propulsive efficiency the requirement exceeds the installed power.** That is a boundary on the explanation rather than a fault in the aeroplane. **Raising the dynamic pressure over seventy percent of the span cannot by itself account for landing this wing**, so the slipstream must be doing more than speeding the air up, which is what the blown-wing literature says it does.
+
+**And the published range does close, which is worth stating because several other published quantities do not.** The stored energy, the drivetrain efficiency and the weight together imply a lift to drag ratio of about seventeen, which is a reasonable figure for a clean aeroplane of this aspect ratio.
+
+**Working the power density showed the motors to be a smaller advance than the architecture suggests.** A cruise motor with its propeller gives 1.36 kilowatts per kilogram against about 1.17 for the piston engine it replaced, and that comparison already flatters the motor. **What distributed electric propulsion buys is not power density but divisibility**, because an electric motor loses very little efficiency as it is made smaller and a piston engine loses a great deal.
 
 **A check on the published geometry found that it does not close.** The flight performance report gives a wing area, a span and an aspect ratio for the same wing, and any two of those determine the third. For the original wing they agree to better than one percent. **For the new wing they disagree by 6.4 percent.** The article now uses the two quantities that enter its computations and states that it is not using the third.
 
