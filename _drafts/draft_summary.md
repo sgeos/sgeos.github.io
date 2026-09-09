@@ -21,11 +21,10 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_lockheed_martin_x55_acca.markdown`, A352, editorial date 2025-11-30, series `x_planes` index 56 of 72.
 
-**12,235 lines, 31 display equations, 5,716 reference definitions, 72,231 words after the
-primary-reference review.** **THREE OF FOUR PASSES COMPLETE.** Committed and **NOT pushed**, which
-is the rhythm. **Not published**, and publication of the series has never been authorised.
-**Manufacturing-demonstrator class, and the first article in this series whose subject is a way of
-building rather than a way of flying.**
+**12,285 lines, 31 display equations, 5,716 reference definitions, 72,926 words after the
+publication review.** **ALL FOUR PASSES COMPLETE.** Committed and **PUSHED**. **Not published**, and
+publication of the series has never been authorised. **Manufacturing-demonstrator class, and the
+first article in this series whose subject is a way of building rather than a way of flying.**
 
 **THE REGISTRY ENTRY IS THE ARTICLE.** The X-55A was allocated on 19 October 2009 to validate
 `extreme time and cost compression in airframe manufacture using large, unitized composite
@@ -38,39 +37,36 @@ MTM45-1 datasheet gives **54.5 kJ/mol**, and counting the mandatory post-cure th
 route costs **three times** the autoclave route's oven dwell. **A thermoset vitrifies when its own
 glass transition overtakes the cure temperature**, so a cure at 120 degrees reaches 0.824 and only
 180 reaches 1. The time compression cannot come from the cure. It comes from part count, which is a
-recurring saving a run of one cannot collect, and **the break-even run is 41 to 409 aeroplanes and
+recurring saving a run of one cannot collect, **and the break-even run is 41 to 409 aeroplanes and
 109 on the middle assumption**.
 
 **THE SCHEDULE IS THE HALF THAT FAILED**, twelve months asked and about twenty taken, because the
-lower fuselage skin did not bond and a second fuselage had to be built.
+lower fuselage skin did not bond and a second fuselage had to be built. **The demonstration of time
+compression was delayed by the process being demonstrated.**
 
-**AND THE PRIMARY PASS FOUND THE COUNTER-ARGUMENT TO THE ARTICLE'S OWN COST CLAIM.** Certifying a
-bonded primary structure has meant putting **mechanical fasteners back through the bondline** as a
-second load path and a disbond arrest, giving up the joint stiffness and fatigue performance that
-made bonding attractive. **An AFRL programme with Northrop Grumman was still publishing on
-alternatives in 2023**, fourteen years after the aeroplane flew.
+**AND SOME OF THE FASTENERS COME BACK.** Certifying a bonded primary structure has meant putting
+mechanical fasteners through the bondline as a second load path and a disbond arrest, taking back
+part of what unitisation removed. **An AFRL programme was still publishing on alternatives in 2023.**
 
-**THE PASS ALSO CORRECTED A CLAIM ABOUT ITS OWN METHOD.** Reading the Composites Affordability
-Initiative's citation chain produced thirty-two documents, and the first measurement said none were
-in the corpus. **That check split each address at its last slash and a digital object identifier
-contains a slash.** Measured correctly, **twenty-six of the thirty-two were already there**, so the
-bibliography's value is not that it finds what a sweep missed but **that it says which of five and a
-half thousand records the argument needs**.
+**THE PUBLICATION REVIEW FOUND A CONTRADICTION BETWEEN THE CONCLUSION AND THE BODY**, the conclusion
+saying the aeroplane retired the technical risk while the body said certification was still open
+fourteen years later. **The same stale claim was sitting in the body as well.** The conclusion now
+separates the manufacturing risk the aeroplane did retire from the certification risk it could not
+have.
 
-**Report primaries 308 to 376 and the fraction 6.3 to 6.7 percent**, both moving. **289 defence
-registry against 87 report server.** A sweep aimed at the report registries returned 1,647 records
-of which 45 passed. **The article names 29 primary documents and 23 carry no identifier the measure
-recognises.** Four sweeps retrieved 21,524 records, 6,019 through the gate, residual 5.1 percent.
+**EIGHT OF NINE CONCLUSIONS PROBED AND SIX OPENED ON REWORDING ALONE, WITH NO HARVEST.** Three
+measured zero under the article's own vocabulary and two of the three are not thin at all. The
+designation stays at zero and **A341's measurement is cited rather than repeated**.
+
+**FOUR INSTRUMENTS IN THIS ARTICLE REPORTED THE DATA AS WRONG WHEN THE INSTRUMENT WAS WRONG**, which
+is the most consistent finding of its whole four-pass rhythm.
+
+**Four sweeps retrieved 21,524 records**, 6,019 through the gate, residual 5.1 percent, report
+primaries 376 at 6.7 percent, **29 named primary documents of which 23 carry no identifier the
+corpus measure recognises**.
 
 **Verifier clean at 0 errors and 0 warnings. Tests 106 of 106. Lint 0 defects.** The article's own
 verifier runs seven checks and every one was proved capable of failing by injection.
-
-**The stub-isolated production build succeeded in 380 seconds with no Liquid error, against the
-exact bytes committed**, the checksum having been matched against the stub copy before the build
-started and against both stub and draft after it finished. **The rendered audit reports no findings
-across 91 pages.** Source and rendered display-equation counts agree at **31**, with **zero raw dollar
-pairs leaking**, **zero unresolved reference brackets**, **zero unexpanded slots** and **zero
-unrendered Liquid**. The page is 1,093,676 bytes.
 
 ## X-Planes Gulfstream X-54 A351 2025-11-29
 
@@ -503,11 +499,12 @@ publication review**, of which 13,459 are author prose. **All four passes comple
 has never been authorised. **Full-aircraft class.** Report primaries **1,301 of 5,976, being 21.8
 percent**, up from 762 of 5,366 at 14.2 percent.
 
-**The stub-isolated production build succeeded in 824 seconds with no Liquid error, against the exact
-bytes committed**, the checksum having been matched against the stub copy before the build started and
-against both stub and draft after it finished. **The rendered audit reports no findings across 87
-pages.** Source and rendered display-equation counts agree at **39**, with **zero raw dollar pairs
-leaking** and **zero unresolved reference brackets**. The article renders to 1,063,589 bytes.
+**The stub-isolated production build succeeded in 449 seconds with no Liquid error, against the
+exact bytes committed**, the checksum having been matched against the stub copy before the build
+started and against both stub and draft after it finished. **The rendered audit reports no findings
+across 91 pages.** Source and rendered display-equation counts agree at **31**, with **zero raw dollar
+pairs leaking**, **zero unresolved reference brackets**, **zero unexpanded slots** and **zero
+unrendered Liquid**. The page is 1,098,707 bytes.
 
 **THE PROSE READ DID NOT COVER THE PROSE THE EMITTERS PRODUCE, AND THAT IS A NEW GAP.** Three
 sentences in the Source Base are generated from the reference data so they cannot go stale, and none

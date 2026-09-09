@@ -5,143 +5,139 @@
 ## Last Updated
 
 **Date**: 2026-09-08
-**Task**: **A352, X-Planes: Lockheed Martin X-55 ACCA, primary-reference review. The third of four
-passes.** Committed and **NOT pushed**, which is the rhythm. **Not published**, and publication of
-the series still not authorised. **Fifty-six of seventy-two drafted.**
+**Task**: **A352, X-Planes: Lockheed Martin X-55 ACCA, publication review. The fourth and last of
+four.** Committed and **PUSHED**. **Not published**, and publication of the series still not
+authorised. **Fifty-six of seventy-two drafted.**
 
 ---
 
-## The Pass Found the Counter-Argument to This Article's Own Cost Claim
+## Reading the Opening Against the Conclusion Found a Contradiction, Which Is Nine Consecutive Articles
 
-**The fastener arithmetic assumed the eliminated fasteners stay eliminated, and the certification
-literature says they do not.**
+**The conclusion predated the primary pass and disagreed with the body it was supposed to close.**
 
-A bonded joint's difficulty is not that it is weak. **It is that its strength cannot be demonstrated
-by looking at it.** A bondline can be perfect and a bondline can be a kissing bond, in which the
-surfaces touch and do not adhere, and telling them apart is hard by any method that does not load
-the joint.
+It said the aeroplane **retired the technical risk that would have made the cost estimate
+inadmissible**. The primary pass had established that certifying a bonded unitised primary structure
+was an open problem before the X-55 flew and **was still the subject of an Air Force Research
+Laboratory programme publishing in 2023**, fourteen years later. **A conclusion cannot say a risk was
+retired when the body spends a section saying it was not.**
 
-**The regulator's answer has been to require the structure to survive the bondline failing
-entirely**, and the design feature of choice has been mechanical fasteners driven through the
-bondline, known in the shop as chicken rivets. **That is a fastener put back into a structure whose
-whole justification was taking fasteners out**, and it costs more than the fastener, because it also
-gives up the joint stiffness and the fatigue performance that made bonding attractive.
+**It also asserted the part-count saving unqualified**, after the body had shown that certification
+puts mechanical fasteners back through the bondline and takes some of that saving away.
 
-**The size of the giveback is not computed and the article says so**, because the number of arrest
-fasteners a certification basis demands is not published. **What is stated is the direction, and
-that an Air Force Research Laboratory programme with Northrop Grumman was still publishing on
-fail-safe features for bonded unitised structure in 2023**, fourteen years after the X-55 flew. **A
-research programme is evidence that a problem is unsolved.**
+The conclusion now separates the two. **The aeroplane retired a manufacturing risk, which is a real
+thing to retire**, because before June 2009 the proposition that a twenty metre bonded composite
+fuselage could be laid up, bonded, closed and flown outside an autoclave was an assertion. **What it
+did not retire, and could not have, is the certification risk**, because what a certification basis
+wants is not a demonstration but a body of evidence about how the structure fails.
 
-**A section was added for this rather than a qualifying clause**, because it bears on the article's
-central number.
-
----
-
-## And the Pass Corrected a Claim This Article Made About Its Own Method
-
-Reading the Composites Affordability Initiative's citation chain produced **thirty-two documents by
-hand in an afternoon**, every one verified against the registry.
-
-**The first measurement reported that none of them were in the corpus, and it was wrong.** It
-compared identifiers by splitting each address at its last slash, and a digital object identifier
-contains a slash, so `10.2514/6.2000-1379` was compared as `6.2000-1379` and matched nothing. **A
-broken diagnostic reported the data as wrong**, which is the third time in this article and the
-second time the wrong reading was the dramatic one. **I reported that wrong number before checking
-it.**
-
-**Measured correctly, twenty-six of the thirty-two were already in the corpus after two sweeps.** A
-third sweep aimed by name at those programmes added four, and two remain reachable only by
-identifier.
-
-**So the rule A350 and A351 recorded needs restating, and the truer version is stronger.** It is not
-that a bibliography finds documents a sweep missed. **It is that a bibliography says which of five
-and a half thousand records the argument needs**, which no gate can decide and no count can show.
-Twenty-six of these sat in the survey as anonymous author-and-year entries, carrying the whole
-citation chain of the article's central claim, and unread.
+**AND THE SAME STALE CLAIM WAS SITTING IN THE BODY.** The section on what a single aeroplane can
+demonstrate still said it retires `the technical risk` without qualification. **A statement can go
+stale between passes in two places at once**, and it was finding it in the conclusion that sent the
+search back into the body.
 
 ---
 
-## The Framing Programme Is Now Cited From Its Own Papers
+## Eight of Nine Conclusions Probed, and Six Opened on Rewording Alone
 
-The article had been citing the Composites Affordability Initiative through two trade-press columns.
-It now cites the initiative's own conference papers, its Phase I report, and **the 1998 companion
-that estimated what more unitised aircraft structure is worth in cost and in weight**, which is the
-quantity the X-55 was built to test.
+**The first three passes harvest for what an article is about and nobody harvests for what it turns
+out to conclude.** That check has found a gap in every publication review since A340.
 
-**And the idea is older than the composites.** The Air Force ran the **Primary Adhesively Bonded
-Structure Technology** programme in the 1970s to establish that a metal airframe could be bonded
-rather than riveted. **The X-55 is the composites answer to a question the Air Force first asked
-about aluminium.**
+| Conclusion | The article's words | The field's words |
+|---|---|---|
+| it was built cheaper and slower | 0 | 149 |
+| low-temperature curing costs time | 341 | 512 |
+| the saving is recurring and a demonstrator is a run of one | 83 | 214 |
+| certification puts some of the fasteners back | 23 | 263 |
+| out-life bounds how large a unitised part can be | 9 | 100 |
+| a vacuum bag cannot press harder than the air outside it | 8 | 229 |
+| an autoclave buys heat transfer as well as pressure | 0 | 142 |
+| surface tension bounds the smallest void pressure can close | 6 | 150 |
+| the designation recognised a result rather than authorising an attempt | 0 | 0 |
 
----
+**Not one needed a harvest.** Three measured zero under the article's own vocabulary and two of those
+three are not thin in the least. **The survey covers every conclusion this article draws**, and the
+appearance that it did not was a fact about the probe.
 
-## Report Primaries 308 to 376, and the Fraction 6.3 to 6.7 Percent
-
-**Both moved, which is the outcome the pass wants and is not the usual one.** The count-versus-
-fraction trap ran the other way first, the fraction falling to 5.9 percent when the programme sweep
-added a large conference literature, before the report sweep brought it back up.
-
-**289 are defence-registry reports and 87 are report-server documents**, which is the reverse of the
-previous article's balance and simply a fact about who paid. Sonic boom research was a civil
-agency's and this was the Air Force's.
-
-**A sweep aimed squarely at the report registries returned 1,647 records of which 45 passed.** That
-is the A349 result repeated, and it is a measurement about the subject. **Composite manufacturing
-was done by contractors, and a contractor's process hours, cure schedules and scrap rates are a
-competitive asset rather than a publication.**
-
-**Both kinds of primary are reported because the measure cannot see most of this article's.** The
-article names and argues from **29 primary documents and 23 of them carry no identifier the corpus
-measure recognises**, being a designation register, a material datasheet, a manufacturer's account
-of the build, and the programme's own conference papers.
+**The one that stays at zero is the designation, and this series has already bought that
+measurement.** A341 ran eight queries for designation systems and got Massachusetts tax valuations of
+1771 and salmonella serotype naming. **It is cited rather than repeated.** One further conclusion is
+out of scope for this article's own gate and that is correct, the cost and schedule claim belonging
+to defence acquisition, which an aeronautical manufacturing gate refuses by design.
 
 ---
 
-## Two Recurring Defects, Both Caught
+## A Metric Quietly Used the Wrong Column
 
-**The caps-emphasis defect again, and again in newly written Source Base prose.** Third pass running
-on this article, which matches the handoff's prediction exactly.
+The sentence reporting how many thin subjects opened **on rewording alone** was reading the column
+measured after three further sweeps. **It said six where rewording alone opens four.**
 
-**And a count typed into prose was wrong again.** The rewording-against-sweeping sentence said the
-vocabulary beat the sweeps in four of six subjects and the data says five. **It is now emitted from
-the data rather than typed**, which is the seventh time this corpus has paid for that lesson.
+**That is the count-in-own-prose defect with the arithmetic hidden one level down**, and it is the
+eighth time this corpus has paid for that family. A number emitted from data is only as honest as the
+column it is emitted from.
+
+---
+
+## And a Fourth Broken Diagnostic
+
+The prose-colon scanner could not read across a line break, so a citation label split over two lines
+reported as a prose colon. Reflowing the label removed it.
+
+**Four instruments in this article reported the data as wrong when the instrument was wrong.** The
+store injection harness patched a source list while the code read a compiled cache. The sweep-time
+property check compared rounded figures. The identifier overlap check split a digital object
+identifier at its last slash. And now this. **That is the single most consistent finding of the whole
+four-pass rhythm on this article.**
+
+---
+
+## Everything Else Came Back Clean
+
+Zero prose colons, semicolons, em or en dashes, parentheses, contractions and caps-emphasis spans.
+**All twelve survey rows cite at least what they claim and the table total agrees with the research
+count exactly.** All 5,716 definitions are cited, none orphaned and none undefined. Every curated
+identifier was requested individually against a 404 control, and every book key held to title and
+author against an absent control.
 
 ---
 
 ## Counts
 
-| Quantity | Draft | Equations | Primaries |
-|---|---|---|---|
-| Lines | 10,459 | 10,681 | 12,235 |
-| Words | 59,764 | 62,552 | 72,231 |
-| Display equations | 8 | 31 | 31 |
-| Reference definitions | 4,970 | 4,976 | 5,716 |
-| Research records | 4,874 | 4,874 | 5,614 |
-| Report primaries | 308 at 6.3 percent | 308 at 6.3 | **376 at 6.7** |
-| Curated identifiers | 25 | 28 | 60 |
-| Prose citation labels checked | 61 | 73 | 90 |
-| Records retrieved | 15,422 | 15,422 | **21,524 across four sweeps** |
+| Quantity | Draft | Equations | Primaries | Publication |
+|---|---|---|---|---|
+| Lines | 10,459 | 10,681 | 12,235 | 12,285 |
+| Words | 59,764 | 62,552 | 72,231 | 72,926 |
+| Display equations | 8 | 31 | 31 | 31 |
+| Reference definitions | 4,970 | 4,976 | 5,716 | 5,716 |
+| Research records | 4,874 | 4,874 | 5,614 | 5,614 |
+| Report primaries | 308 at 6.3 percent | 308 | 376 at 6.7 | 376 at 6.7 |
+| Named primary documents | 8 | 8 | 29 | 29 |
+| Curated identifiers | 25 | 28 | 60 | 60 |
+| Prose citation labels checked | 61 | 73 | 90 | 92 |
 
 **Verifier clean at 0 errors and 0 warnings. Tests 106 of 106. Lint 0 defects.** The article's own
 verifier runs seven checks and every one was proved capable of failing by injection.
 
-**The stub-isolated production build succeeded in 380 seconds with no Liquid error, against the
+**The stub-isolated production build succeeded in 449 seconds with no Liquid error, against the
 exact bytes committed**, the checksum having been matched against the stub copy before the build
 started and against both stub and draft after it finished. **The rendered audit reports no findings
 across 91 pages.** Source and rendered display-equation counts agree at **31**, with **zero raw dollar
 pairs leaking**, **zero unresolved reference brackets**, **zero unexpanded slots** and **zero
-unrendered Liquid**. The page is 1,093,676 bytes.
+unrendered Liquid**. The page is 1,098,707 bytes.
 
 ---
 
 ## Open Questions for the Pilot
 
-**A324's `book_jenkins` label remains the one live repair**, unchanged. **The OpenLibrary work pages
-returning Internal Error to a reader** is also unchanged. **And A350 ships a duplicated
-`## The Contemporary Literature` heading** at lines 412 and 414, not repaired here because A350 is
-complete on all four passes.
+**A324's `book_jenkins` label remains the one live repair**, unchanged across all four passes. The
+key is correct and the label swallowed the title.
 
-**A352 has completed three of four passes and is committed, NOT pushed. Nothing is published and
-publication of the series has never been authorised.** The next prompt is the publication review,
-which is the pass that also asks for a push.
+**The OpenLibrary work pages returning Internal Error to a reader** is also unchanged.
+
+**And A350 ships a duplicated `## The Contemporary Literature` heading** at lines 412 and 414 of
+`x_planes_boeing_x53_active_aeroelastic_wing.markdown`, found while comparing section structures.
+**It is not repaired here**, because A350 is complete on all four passes and editing a finished
+article during another article's work mixes two units.
+
+**A352 is complete on all four passes and is PUSHED. Nothing is published and publication of the
+series has never been authorised.** The next new article is **A353, the X-56**, editorial date
+2025-12-01, series index 57.

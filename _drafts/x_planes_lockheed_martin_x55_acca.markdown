@@ -451,7 +451,11 @@ plies on a shell of that size before the material is out of time.
 
 **A flying demonstrator can settle several things and cannot settle the one it was named for.** It can settle whether a twenty metre bonded composite fuselage will carry flight loads, whether it can be built at all, whether the tooling closes, and whether the structure behaves as predicted once instrumented. **It cannot settle a recurring cost**, because a recurring cost is a property of a production run and the demonstrator is a run of one.
 
-**What it can do is retire the technical risk that would otherwise make the cost estimate inadmissible**, and that is a real and sufficient purpose. **The registry entry claims more than that**, and the gap between the two is the subject of this article.
+**What it can do is retire a manufacturing risk, and that is a real thing to retire.** Before June 2009 the proposition that a fuselage of this size could be laid up, bonded, closed and flown without an autoclave was an assertion, and afterwards it was not.
+
+**But a manufacturing risk is not the whole of the technical risk, and the section above is why.** The certification of a bonded unitised primary structure was an open problem before the X-55 flew and remained one long afterwards, and **no single flying article could have closed it**, because what a certification basis wants is not a demonstration but a body of evidence about how the structure fails.
+
+**The registry entry claims more than a demonstrator can deliver**, and the gap between the two is the subject of this article.
 
 ## What Followed
 
@@ -514,7 +518,7 @@ terms of art. A `dentistry` family was added in the same commit as this sentence
 ### Rewording Against Sweeping
 
 **Six subjects measured thin against the article's own vocabulary and
-six of them opened on rewording alone, with no harvesting whatever.**
+four of them opened on rewording alone, with no harvesting whatever.**
 This is the eighth consecutive article in which that has happened, and it is reported as two
 moves rather than one because a sweep must not be credited with work the vocabulary did.
 
@@ -538,6 +542,46 @@ than all three sweeps together in five of the
 six**, which is why the columns are separate.
 The aeroplane itself remains the smallest cluster in the survey and no amount of asking moves
 it.
+
+### Conclusions Probed Against the Pool
+
+**The article's conclusions were probed against the pool separately from its topics, because the
+first three passes harvest for what an article is about and nobody harvests for what it turns out to
+conclude.** That check has found a gap in every publication review since A340.
+
+| Conclusion | The article's words | The field's words |
+|---|---|---|
+| it was built cheaper and slower | 0 | 149 |
+| low-temperature curing costs time, so the saving is not in the chemistry | 341 | 512 |
+| the saving is recurring and a demonstrator is a run of one | 83 | 214 |
+| certification puts some of the fasteners back | 23 | 263 |
+| out-life bounds how large a unitised part can be | 9 | 100 |
+| a vacuum bag cannot press harder than the air outside it | 8 | 229 |
+| an autoclave buys heat transfer as well as pressure | 0 | 142 |
+| surface tension bounds the smallest void pressure can close | 6 | 150 |
+| the designation recognised a result rather than authorising an attempt | 0 | 0 |
+
+**Six of the nine opened on rewording alone and not one needed a
+harvest.** **Three measured zero under the article's own vocabulary**, and
+two of those are not thin at all once the question
+is asked in the field's words. **The survey
+covers every conclusion this article draws**, and the appearance that it did not was a fact about
+the probe rather than about the pool.
+
+**The exception is the designation itself, which measures zero either way and is not harvested
+for.** **This series has already bought that measurement.** A341 ran eight queries for designation
+systems and nomenclature and returned Massachusetts tax valuations of 1771, salmonella serotype
+naming and dental implant designation systems, of which thirteen survived an aerospace gate and every
+one was component nomenclature
+[[X-Planes: The X-44, Two Aircraft and One Number][related_post_a341_x44_two_aircraft]]. **A subject whose vocabulary does not discriminate is the
+fourth kind of thin and cannot be harvested away.** The claim in this article's closing sentence
+rests on two dates in the register and not on a literature.
+
+**One conclusion is out of scope for this article's own gate and that is correct.** The claim that
+the programme was built cheaper and slower belongs to defence acquisition, whose cost and schedule
+literature an aeronautical manufacturing gate refuses by design. **A gate that admitted it would be
+the wrong gate for the rest of the article**, and the claim stands on two published dates rather than
+on the survey.
 
 ### What Reading the Programme's Bibliography Was Actually Worth
 
@@ -778,7 +822,13 @@ The aerodynamics of the aeroplane, which were the Dornier's and were not modifie
 
 **The arithmetic says that is what should have been expected, and says why.** Low-temperature curing costs three times the oven dwell of the cure it replaces, so the time saving cannot come from the chemistry. It has to come from part count, and part count is a recurring saving that a run of one cannot collect. **Meanwhile the same technology that lets a part be large enough to be worth unitising puts a chemical clock on how long its layup may take**, and a programme whose whole argument was fewer and larger parts still assembled its fuselage from eight of them.
 
-**None of that makes the aeroplane a failure.** It flew, it carried its loads, it retired the risk that would have made the cost estimate inadmissible, and it did so on a Phase II contract of 49,097,981 dollars. **What it could not do was measure the quantity in its own mission statement**, because that quantity only exists across a production run. **The arithmetic puts that run at between forty and four hundred aeroplanes and at about a hundred on the middle assumption**, and there was never going to be a second.
+**And the part-count saving is not even wholly the programme's to keep.** Certifying a bonded primary structure has meant putting mechanical fasteners back through the bondline as a second load path and a disbond arrest, and those take back some of what unitisation removed while giving up the stiffness and the fatigue performance that made bonding worth doing. **How much is given back is not published and this article does not guess.**
+
+**None of that makes the aeroplane a failure.** It flew, it carried its loads, and it did so on a Phase II contract of 49,097,981 dollars. **It retired a manufacturing risk, which is a real thing to retire.** A 19.8 metre bonded composite fuselage could be built outside an autoclave, tooled, closed and flown, and before June 2009 that was an assertion.
+
+**What it did not retire, and could not have, is the certification risk.** An Air Force Research Laboratory programme was still publishing on fail-safe features for bonded unitised structure in 2023, fourteen years later, **so the question of whether such a structure can be certified without putting the fasteners back was open before the X-55 flew and remained open long after.**
+
+**And what it could not do was measure the quantity in its own mission statement**, because that quantity only exists across a production run. **The arithmetic puts that run at between forty and four hundred aeroplanes and at about a hundred on the middle assumption**, and there was never going to be a second.
 
 **And one number in this article is worth keeping for its own sake.** The pressure a vacuum bag can apply is the pressure of the air outside it, so the consolidation available to an out-of-autoclave process at Air Force Plant 42 is 13.39 pounds per square inch rather than the 14.7 of sea level, and the material datasheet asks for a vacuum the site's entire atmosphere cannot supply. **A manufacturing specification for an aeroplane turns out to depend on the elevation of the floor it is built on.**
 
