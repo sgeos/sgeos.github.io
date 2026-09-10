@@ -21,8 +21,8 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_lockheed_martin_x59_quesst.markdown`, A356, editorial date 2025-12-04, series `x_planes` index 60 of 72.
 
-**9,209 lines, 28 display equations, 65 declared symbols, 4,208 reference definitions,
-53,929 words after the draft pass.** **DRAFT PASS COMPLETE, three passes remain.**
+**9,477 lines, 51 display equations, 92 declared symbols, 4,209 reference definitions,
+57,512 words after the equation-density review.** **TWO PASSES COMPLETE, two remain.**
 Committed, **NOT pushed**. **Not published**, and publication of the series has never been
 authorised. **Flying-demonstrator class, and the first article in the series whose subject
 is a sound rather than an aeroplane.**
@@ -56,11 +56,26 @@ and the sum of the parts is smaller than the whole, which inverts A353's and A35
 measurement. **One thin conclusion was harvested for and nothing remains thin**, the first
 time in this series that has been true.
 
+**THE EQUATION PASS FOUND THE BUILDER'S OWN LITERATURE.** Lockheed Martin publishes a
+product card with the gross weight, empty weight, fuel, payload and overall length, and the
+draft had recorded the weight as unpublished. **Every relation needing a weight became
+evaluable.** **The weight rather than the shape is the majority of the signature**, the lift
+term of the equivalent area integrating to 4.232 square metres with every trace of shape
+gone, **and it grows by 2.06 between forty thousand feet and the design altitude**, so the
+two things altitude does to a boom are opposed.
+
+**THE CARPET WAS COMPUTED BY WRITING A RAY TRACER**, giving 59.2 kilometres wide with the
+boom landing 19.29 behind, **and the tracer reproduces the literature's Mach 2 rule of thumb
+to within 4.0 percent**, which is the evidence for believing it. **Length is cheaper than the
+draft said**, wave drag falling as the fourth power against wetted area rising as the first.
+**The front must take about 5.99 milliseconds to rise**, 8.2 percent of the shortest possible
+signature, so the nose is not a stylistic choice.
+
 **Verifier 0 errors 0 warnings, tests 111 of 111, lint 0 defects and 3 convention findings,
-90 checks and forty-three injected defects all caught with the total check disarmed.**
+113 checks and sixty-five injected defects all caught with the total check disarmed.**
 Identifiers verified on content with an absent control that failed correctly. Build clean
 against checksum-matched bytes, 95 pages, rendered audit reports no findings, source and
-rendered display-equation counts agree at 28.
+rendered display-equation counts agree at 51.
 
 ## X-Planes X-58 the Slot Taken by XQ-58 A355 2025-12-03
 

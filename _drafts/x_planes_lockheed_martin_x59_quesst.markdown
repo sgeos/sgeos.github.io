@@ -77,6 +77,29 @@ $$
 
 **That second term is why a sonic boom cannot be designed away by making the aeroplane thin.** The aeroplane must hold itself up, and holding itself up means turning air downwards, and turning air downwards is indistinguishable at a distance from occupying volume. **A wing that carries weight has an equivalent area whether or not it has any thickness at all.**
 
+### The Weight Puts an Equivalent Area There and No Shaping Removes It
+
+Integrating the lift term over the whole aeroplane collapses it, because the integral of the lift per unit length along the aeroplane is the total lift, and in level flight the total lift is the weight.
+
+$$
+A_e(\ell) - A_V(\ell) = \frac{\beta}{2q} \int_0^{\ell} L'(\xi)\,\mathrm{d}\xi
+= \frac{\beta\,W}{2q}
+$$
+
+**Everything about the aeroplane's shape has dropped out.** What remains is the weight divided by twice the dynamic pressure, multiplied by a Mach number factor. **A designer may redistribute this area along the length and may not reduce it**, because reducing it means either weighing less or flying faster and lower.
+
+Lockheed Martin publishes a maximum design gross weight of 24,300 pounds for this aeroplane [[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]], which is 108,092 newtons, and the dynamic pressure at the design cruise condition is computed below at 12,512 pascals.
+
+$$
+\frac{\beta\,W}{2q}
+= \frac{0.9798 \times 108,092}{2 \times 12,512}
+= 4.232\ \text{square metres}
+$$
+
+**A body of revolution with that cross-section is 2.32 metres across.** The aeroplane is ninety-nine feet long and under thirty feet in span, and a photograph of it shows a fuselage plainly slimmer than that. **The aeroplane's own volume is a minority contributor to its own signature. Its weight is the majority**, and this article states that as its own inference from the relation above rather than as anything a source says.
+
+**And the trade with altitude runs the wrong way.** The lift term is inversely proportional to the dynamic pressure, so climbing to reduce the boom by lengthening the propagation path simultaneously increases the equivalent area the lift contributes. At 55,000 feet the dynamic pressure is 12,512 pascals and at forty thousand feet it is 25,730, so **the lift-induced equivalent area is 2.06 times larger at the higher altitude**, being 4.232 square metres against 2.058. **Altitude is not a free variable in this problem and the two effects it has are opposed.**
+
 The same equivalent area governs the wave drag through von Karman's double integral [[Kuchemann, The aerodynamic design of aircraft][book_kuchemann]] [[Area rule][ref_area_rule]].
 
 $$
@@ -102,7 +125,13 @@ $$
 T_s \propto r^{1/4}
 $$
 
-The discrepancy is not a correction. It is a physical process, and it can be found by asking where the energy has gone. The acoustic energy carried across unit length of a cylinder of radius $r$ goes as the circumference times the mean square pressure divided by the impedance times the duration of the wave.
+The discrepancy is not a correction. It is a physical process, and it can be found by asking where the energy has gone. The intensity of an acoustic wave is its mean square pressure divided by the impedance of the medium [[Kinsler, Frey, Coppens and Sanders, Fundamentals of acoustics][book_kinsler]].
+
+$$
+I = \frac{p^2}{\rho\, c}
+$$
+
+The acoustic energy carried across unit length of a cylinder of radius $r$ is therefore the circumference times the intensity times the duration of the wave.
 
 $$
 \Pi(r) \;\sim\; r\, \frac{(\Delta p)^2}{\rho c}\, T_s
@@ -129,6 +158,21 @@ T(z) =
 T_0 - \lambda z, & 0 \le z \le z_1 \\
 T_1, & z_1 < z \le z_2
 \end{cases}
+$$
+
+**The pressure and the density follow from the same two layers**, and every quantity later in this article that needs a dynamic pressure, a Reynolds number or an impedance passes through them [[U.S. Standard Atmosphere, 1976][ref_us_standard_atmosphere]] [[International Standard Atmosphere][ref_icao_atmosphere]].
+
+$$
+p(z) = p_1 \exp\!\left[ -\frac{g\,(z - z_1)}{R\,T_1} \right]
+\qquad\qquad
+\rho(z) = \frac{p(z)}{R\,T(z)}
+$$
+
+At the design cruise altitude this gives 9,119.8 pascals and 0.14664 kilograms a cubic metre, which is 12 percent of the sea-level density.
+
+$$
+q = \tfrac{1}{2}\rho V^2 = \tfrac{1}{2} \times 0.14664 \times
+413.1^2 = 12,512\ \text{pascals}
 $$
 
 For a horizontally stratified medium the ray direction obeys an invariant of the same form as Snell's law in optics [[Pierce, Acoustics][book_pierce]].
@@ -163,6 +207,45 @@ $$
 
 **That sets this aeroplane against the technique that has overtaken it.** The [X-54][related_post_a351_gulfstream_x54]'s central finding was that the prohibition was ordered repealed on the strength of a technique that makes no ground boom at all rather than a quiet one, and that the technique is older than the prohibition. **The X-59 is the aeroplane built for the other answer**, and it flies 21.4 percent above the speed at which the problem would disappear, on purpose, because the other answer needs a boom to exist before anyone can be asked about it.
 
+### How Wide the Boom Is, Which the Same Invariant Answers
+
+**The cutoff condition was written for a ray going straight down and the interesting rays do not.** Taking the wave normal around the Mach cone at an azimuth $\phi$ measured up from the horizontal, the horizontal slowness has a component along the flight direction as well as across it, and it is the magnitude of the horizontal slowness that is invariant [[Pierce, Acoustics][book_pierce]] [[Haefeli, Hayes and others 1969][research_haefelirc_hayeswd_1969]] [[Hayes 1969][research_hayes_1969]].
+
+$$
+u = \frac{\sqrt{\sin^2\mu + \cos^2\mu \, \cos^2\phi}}{c(z_a)}
+= \text{constant along the ray}
+$$
+
+**A ray reaches the ground only if that invariant still admits a real vertical direction there** [[Haefeli, Hayes and others 1969][research_haefelirc_hayeswd_1969]].
+
+$$
+u\, c(0) \le 1
+\qquad\Longleftrightarrow\qquad
+\phi \ge \phi_c = 45.4^{\circ}
+$$
+
+At the design condition the cutoff azimuth is 45.4 degrees, so **rays leaving the cone more sideways than that turn over in the air and are never heard.** The straight-down ray is the one that reaches the ground with the shortest path, and every other ray reaching the ground lands further out.
+
+The ray path itself follows from the same invariant, and integrating it from the cruise altitude to the ground gives the lateral offset at which each ray arrives [[Pierce, Acoustics][book_pierce]].
+
+$$
+\frac{\mathrm{d}y}{\mathrm{d}z}
+= \frac{u\,c(z)}{\sqrt{1 - \left[ u\,c(z) \right]^2}}
+\;\cdot\; \frac{\cos\mu\,\cos\phi}{\sqrt{\sin^2\mu + \cos^2\mu\,\cos^2\phi}}
+$$
+
+**Integrated numerically through the standard atmosphere, the widest-arriving ray lands 29.6 kilometres to the side.**
+
+$$
+y_c = 29.6\ \text{km}
+\qquad\Longrightarrow\qquad
+2 y_c = 59.2\ \text{km}
+$$
+
+**A tracer nobody has checked is not a measurement, so it was checked.** The rule of thumb in this literature is roughly one statute mile of boom carpet for every thousand feet of altitude, quoted for the Mach 2 transports the subject grew up around. **The same tracer run at Mach 2 from the same altitude gives 85 kilometres against the rule's 88.5**, which is short of it by 3.9 percent. **That agreement is the evidence for believing the Mach 1.4 answer**, and it also explains it, because the Mach 1.4 carpet is only 69.6 percent of the Mach 2 one from the same height. **Flying slower narrows the carpet as well as quietening it.**
+
+**And the boom does not arrive underneath the aeroplane.** The straight-down ray lands 19.29 kilometres behind, so a person hearing the thump is hearing an aeroplane that passed overhead some seconds earlier and is already well down the track.
+
 ### The Published Speed Checks Out, Which Is Worth Doing
 
 Multiplying the design Mach number by the speed of sound at the cruise altitude gives the following.
@@ -190,7 +273,19 @@ $$
 \Delta p_g = K_R\, \Delta p_i
 $$
 
-A perfectly rigid surface gives exactly two, because the normal velocity must vanish there and the reflected wave arrives in phase with the incident one. **Real ground is not perfectly rigid**, so measurements give something under two, and 1.9 is the value this article uses. The reflection factor is not a constant, and it departs furthest from two exactly where the geometry is awkward, which is near the threshold Mach number and at the edge of the carpet [[Thomas 1971][research_thomas_1971]].
+A perfectly rigid surface gives exactly two, because the normal velocity must vanish there and the reflected wave arrives in phase with the incident one. **Real ground is not perfectly rigid**, so measurements give something under two, and 1.9 is the value this article uses.
+
+**That value need not be left as a convention.** For a locally reacting surface at normal incidence the reflected pressure follows from the ratio of the ground's specific acoustic impedance to the air's [[Pierce, Acoustics][book_pierce]] [[Kinsler, Frey, Coppens and Sanders, Fundamentals of acoustics][book_kinsler]].
+
+$$
+R_g = \frac{\sigma - 1}{\sigma + 1}
+\qquad\qquad
+K_R = 1 + R_g
+\qquad\Longrightarrow\qquad
+\sigma = 19
+$$
+
+**A factor of 1.9 corresponds to a normalised impedance of 19**, which is the right order for grassland at the low frequencies a boom is made of. **The conventional constant is therefore a statement about soil**, and it is not a constant at all where the incidence is oblique, which is exactly where a boom arrives at the edge of its own carpet. The reflection factor is not a constant, and it departs furthest from two exactly where the geometry is awkward, which is near the threshold Mach number and at the edge of the carpet [[Thomas 1971][research_thomas_1971]].
 
 **Every published sonic boom overpressure in this article is a ground value and already contains this factor**, so the article never applies it twice. Read backwards, the 0.3 pounds per square foot published for this aeroplane implies an incident overpressure of 0.158 pounds per square foot before the ground doubled it, which is 7.6 pascals.
 
@@ -226,7 +321,68 @@ $$
 
 Two mechanisms are held responsible. The first is molecular relaxation. Nitrogen and oxygen molecules exchange energy between translational and vibrational modes on timescales far longer than the viscous one, that exchange is a much larger absorption than viscosity at the frequencies concerned, and it depends strongly on humidity [[Pierce 1970][research_pierce_1970]]. The second is atmospheric turbulence, which distorts the wavefront on the way down and smears the arrival in time [[Pierce 1971][research_pierce_1971]] [[Raspet et al 1994][research_raspetrichard_basshenrye_1994]]. **Both are real, both are documented, and the relative contribution of the two is not settled**, and at least one study concludes outright that molecular relaxation alone is insufficient to explain the observed shock structure [[Gionfriddo et al 1991][research_gionfriddo_kang_1991]].
 
+**The same shortfall appears in the absorption coefficient, which is the same physics asked a different question.** Classical absorption from viscosity and conduction alone rises as the square of the frequency.
+
+$$
+\alpha = \frac{\omega^2 \delta_d}{2 c_0^3}
+\qquad\Longrightarrow\qquad
+0.159\ \text{decibels a kilometre at}\ 
+1,000\ \text{hertz}
+$$
+
+**That is 0.159 decibels a kilometre at 1,000 hertz, against a measured atmospheric value of the order of 5**, so classical theory is short by a factor of about 31. **The rise time and the absorption are the same failure counted twice**, and the mechanism that repairs both is molecular relaxation.
+
 **The consequence for this aeroplane is direct.** The rise time is the quantity that sets the loudness, the rise time is set by the atmosphere rather than by the airframe, and the atmosphere is not under the designer's control. **A predicted perceived level is therefore a prediction about the weather as much as about the aeroplane**, which is the reason the programme's second phase consists of flying over real communities in real weather rather than of computing harder.
+
+### The Front Is Not Allowed to Steepen, and That Fixes Its Rise Time From Below
+
+**A compression steepens as it travels, because the crests of a finite-amplitude wave move faster than its troughs.** A front that rises over a time $\tau$ becomes a discontinuity after a distance that falls as the amplitude rises, and inverting that gives the least rise time a front may have and still arrive unshocked [[Hamilton and Blackstock, Nonlinear acoustics][book_hamilton_blackstock]] [[Whitham, Linear and nonlinear waves][book_whitham]].
+
+$$
+x_s = \frac{2\,\rho_0\, c_0^3\, \tau}{(\gamma + 1)\, \Delta p}
+\qquad\Longrightarrow\qquad
+\tau_m = \frac{(\gamma + 1)\, \Delta p\, z_a}{2\,\rho_0\, c_0^3}
+$$
+
+$$
+\tau_m = 5.99\ \text{milliseconds}
+= 8.2\%\ \text{of the shortest possible signature}
+$$
+
+**Evaluated at sea level conditions as an indicative bound, the front must take about 5.99 milliseconds to rise.** The bound is indicative because the propagation is through an atmosphere whose density and sound speed vary by a factor of several along the path, and evaluating it at the ground overstates the steepening near the aeroplane and understates it near the listener. **It is stated as an order of magnitude and not as a design figure.**
+
+**What makes it worth stating is the comparison.** The shortest signature this aeroplane can produce is its own length divided by its own speed, and the front alone must occupy 8.2 percent of it. **A nose that is a third of the aeroplane is not a stylistic choice.**
+
+### The Signature Is a Waveform and the Peak Is One Number From It
+
+The classical far-field signature is a straight line from the front shock down through zero to an equal rear shock, which is what gives the N-wave its name [[Whitham, Linear and nonlinear waves][book_whitham]] [[Maglieri and others, Sonic boom, six decades of research][book_maglieri]].
+
+$$
+p(t) = \Delta p \left( 1 - \frac{2t}{T_s} \right),
+\qquad 0 \le t \le T_s
+$$
+
+Its duration has a floor. **Nothing can make the signature shorter than the time the aeroplane takes to pass its own length**, because the front of the disturbance is made at the nose and the rear at the tail.
+
+$$
+T_s \ge \frac{\ell}{V} = \frac{30.18}{413.1}
+= 73\ \text{milliseconds}
+$$
+
+From the waveform and the duration follow the two integral quantities that a structure and an ear respectively respond to [[Kinsler, Frey, Coppens and Sanders, Fundamentals of acoustics][book_kinsler]] [[SAE ARP865][ref_sae_arp865]].
+
+$$
+I_p = \int_0^{T_s/2} p(t)\,\mathrm{d}t = \frac{\Delta p\, T_s}{4}
+$$
+
+$$
+E_s = \int_0^{T_s} p^2(t)\,\mathrm{d}t = \frac{(\Delta p)^2 T_s}{3}
+\qquad\qquad
+L_E = 10 \log_{10} \frac{E_s}{p_r^2 \times 1\,\text{s}}
+= 101
+$$
+
+**At the published overpressure and the shortest possible duration the sound exposure level is 101 decibels.** That is a third metric alongside the peak level of 117.1 decibels and the perceived level of 75, and **the three are not translations of one another**. A metric that integrates over the event rewards a short signature, a metric that reads the peak ignores the duration entirely, and only the perceived level attempts to weight by what the ear does with the spectrum.
 
 ### Why Rise Time Governs Loudness
 
@@ -274,7 +430,7 @@ $$
 
 ### Where the Ninety Percent Comes From
 
-The overpressures are 2 pounds per square foot against 0.3, and one minus that ratio is 85 percent. **That is the origin of the widely quoted figure, and it is a pressure ratio being reported as a reduction in loudness.**
+The overpressures are 2 pounds per square foot against 0.3 pounds per square foot, and one minus that ratio is 85 percent. **That is the origin of the widely quoted figure, and it is a pressure ratio being reported as a reduction in loudness.**
 
 **The two are not interchangeable and the difference is not small.** In pressure the reduction is 96.8 percent. In acoustic energy it is 99.9 percent. In perceived loudness, which is the quantity the target is stated in and the quantity a person underneath actually experiences, it is 47.8 percent. **Three defensible answers spanning fifty percentage points, and the one most often published is not any of them.**
 
@@ -316,9 +472,55 @@ $$
 
 **And the length is not free.** A longer aeroplane has more wetted area for the same volume and lift, and therefore more skin friction drag, and a structure that must resist bending over a longer span of nothing. **The nose contributes no lift, carries no fuel, houses no payload and cannot be shortened**, which is a cost accepted in exchange for the only variable the design has.
 
-### The Two Published Lengths Disagree
+### Three Published Lengths, and the Builder's Is the Outlier
 
-NASA's public description of the aeroplane gives its length as 99.7 feet [[Quesst, the Aircraft][ref_nasa_quesst_aircraft]]. The project's own technical overview, presented by the deputy project manager for technology, gives 99 feet [[X-59 Aircraft Overview and Status][ref_x59_overview]]. **The two differ by 0.7 feet and neither source is wrong in any interesting way**, the shorter being a rounded design parameter and the longer a measured overall dimension. It is recorded because this article states a slenderness ratio and the reader is entitled to know which figure it was computed from. **It was computed from the project's own, and the other would give 3.38.**
+NASA's public description gives the length as 99.7 feet [[Quesst, the Aircraft][ref_nasa_quesst_aircraft]] and the project's own technical overview gives 99 [[X-59 Aircraft Overview and Status][ref_x59_overview]]. **Lockheed Martin's own product card gives an overall length of 93.83 feet** [[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]].
+
+**The three span 5.87 feet, which is 5.9 percent**, and they give slendernesses of 3.18, 3.36 and 3.38. **The aeroplane is the most slender of the comparison set on any of the three**, so the finding above does not turn on which is used, and the table was computed from the project overview's figure.
+
+**The builder's card carries a copyright date of 2019 and the project overview was presented in 2023**, so the simplest reading is that the aeroplane grew during detail design. **That is this article's inference and no source states it**, and the alternative reading, that the three figures measure to different points on the airframe, is equally consistent with what is published.
+
+### The Card's Own Weights Do Not Sum to Its Own Total
+
+The same card gives an empty weight of 15,000 pounds, fuel of 8,000 and payload of 600, against a maximum design gross weight of 24,300 [[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]]. **Those three sum to 23,600, which is 700 pounds short, or 2.9 percent.**
+
+**The difference is small and its cause is not stated.** A gross weight commonly carries a margin, and a card of this kind is not an engineering document. **It is recorded because this article's equivalent-area result is computed from the gross weight**, and a reader who prefers to add the parts would get an answer 2.9 percent smaller.
+
+### What the Length Costs and What It Saves
+
+**The article has so far treated length as a cost, and half of that is wrong.** A longer body of the same volume has more wetted area and therefore more friction drag, but its wave drag falls as the fourth power of its length. The minimum wave drag of a body of revolution of given length and volume is the Sears-Haack result [[Ashley and Landahl, Aerodynamics of wings and bodies][book_ashley_landahl]] [[Area rule][ref_area_rule]].
+
+$$
+D_w = \frac{128\, q\, \Omega^2}{\pi\, \ell^4}
+$$
+
+$$
+D_w \propto \ell^{-4}
+\qquad\text{against}\qquad
+D_f \propto S_w \propto \ell
+$$
+
+**Against a twenty metre body of the same volume, the X-59's 30.18 metres carry a wave drag smaller by a factor of 5.18 and a wetted area larger by a factor of about 1.51.** An exponent of four beats an exponent of one, so **the slenderness the boom demands is bought at a discount and not at a premium**, which is the opposite of what the preceding paragraph would suggest and is why supersonic aeroplanes were long and thin before anybody cared what they sounded like.
+
+The friction side of that trade is computable at the cruise condition. The viscosity follows from Sutherland's law and the Reynolds number from the length and the density already computed [[Anderson, Modern compressible flow][book_anderson]] [[Raymer, Aircraft design, a conceptual approach][book_raymer]].
+
+$$
+\eta(T) = \eta_r
+\left( \frac{T}{T_r} \right)^{3/2}
+\frac{T_r + C_S}{T + C_S}
+$$
+
+$$
+Re = \frac{\rho V \ell}{\eta} = 128.6 \times 10^{6}
+$$
+
+$$
+C_f = \frac{0.455}{(\log_{10} Re)^{2.58}} = 0.00206
+\qquad\qquad
+D_f = q\, C_f\, S_w
+$$
+
+**The skin friction coefficient is 0.00206 and the friction drag is 25.7 newtons for every square metre of wetted area.** **The total is not computed, because the wetted area is not published**, and multiplying by an estimate would produce a drag figure that was a statement about the estimate. That figure is a flat-plate incompressible value and a compressible correction would reduce it, so **it is an upper bound on the coefficient and is treated as one.**
 
 ## The Aeroplane Is Mostly Other Aeroplanes
 
@@ -402,9 +604,22 @@ $$
 \frac{F_N}{F_{N0}} = \left( \frac{\rho}{\rho_0} \right)^{n}
 $$
 
-**Neither is evaluated in this article and the reason is that the inputs are not published.** The X-59's weight, its fuel fraction, its lift-to-drag ratio at the design condition and the installed thrust of its engine at 55,000 feet are not stated in any source consulted. **A range figure could be produced by assuming three of them, and it would be a statement about the assumptions.**
+**The builder's card supplies the weights and the whole of the remaining uncertainty then collapses into one product.** The fuel is 8,000 pounds of a gross 24,300, which is 32.9 percent, so the logarithm in the range relation is 0.3993 and everything else that is known can be gathered into a single coefficient.
 
-**This is a boundary and it is left standing deliberately.** The [X-58][related_post_a355_x58_slot_taken_by_xq58] established that an aeroplane's published range can be used to bound its lift-to-drag ratio when the range is published. Here it is not. **The relations are displayed because they define the quantities the following section says are missing**, and for no other reason.
+$$
+R_c = \underbrace{V \ln \frac{W_i}{W_f}}_{ 165\ \text{m/s} }
+\;\cdot\; \frac{L/D}{c_t}
+$$
+
+The form is the ordinary one and only the grouping is this article's [[Range (aeronautics)][ref_breguet_range]] [[Raymer, Aircraft design, a conceptual approach][book_raymer]].
+
+**The collected coefficient is 165 metres a second and the two quantities that are not published enter only as their ratio.** The lift-to-drag ratio at the design condition and the thrust specific fuel consumption of the installed engine in supersonic cruise are both absent from every source consulted. **So the range is not unknown by three unknowns. It is unknown by one.**
+
+**For scale and for nothing else**, a lift-to-drag ratio of 6 and a specific fuel consumption of 1.8 pounds an hour a pound of thrust, neither of which is published and both of which are this article's assumptions, would give a still-air range of about 1,979 kilometres and an endurance of about 79.9 minutes. **Those figures are an illustration of magnitude and are not a result.** A mission radius is a different and much smaller quantity, since it must include a climb, an acceleration, a reserve and a return.
+
+The thrust side can be bounded rather than illustrated. The density at the cruise altitude is 12 percent of the sea-level value.
+
+**With an exponent of one the engine retains 12 percent of its sea-level thrust at the cruise density**, which against the published 22,000 pounds of sea-level thrust is 2,634 pounds [[General Electric F414][ref_f414]]. **That is an indicative bound and not an installed figure.** A real installation at Mach 1.4 recovers a great deal through ram compression, so the true installed thrust is higher, and the exponent for this installation is not published either.
 
 **One thing the relations do settle without numbers.** The aeroplane is not required to go far. Its mission is to fly a measured pass over an instrumented area or a surveyed community and return, so range is not a design driver, and the slenderness that costs it skin friction costs it something it does not need. **The design trade is unusually clean because the objective is unusually narrow.**
 
@@ -428,18 +643,27 @@ NASA's contract announcement stated that work ran through 31 December 2021, that
 
 **Every symbol used in a display equation above is declared here, and every symbol declared here is used.** That is checked mechanically rather than asserted, and the check earned its keep on this article by refusing an environment name that a one-letter symbol had eaten. **It reported the residue of the word cases**, left behind after the declared symbol for the speed of sound was removed from inside it, which is the exact failure the scanner carries a warning about in its own source.
 
+**The equation pass nearly doubled this table and every addition had to be placed as well as declared.** The draft declared one relation it never placed, the substitution reported nothing missing because nothing in the body was unfilled, and this scanner passed because it reads the declaration rather than the article. **A declared equation that is never placed is silently dropped**, and the assembler now refuses one.
+
 | Symbol | Meaning |
 |--------|---------|
 | $A_V$ | the part of the equivalent area contributed by volume alone |
 | $A_e$ | the equivalent area distribution |
+| $C_S$ | Sutherland's constant for air |
+| $C_f$ | the mean skin friction coefficient |
 | $D$ | the drag force |
+| $D_f$ | the skin friction drag |
 | $D_w$ | the wave drag |
+| $E_s$ | the sound exposure of the signature |
 | $F$ | Whitham's F-function, the aircraft's acoustic signature at the source |
 | $F_N$ | the installed net thrust |
 | $F_{N0}$ | the installed net thrust at sea level and the same Mach number |
+| $I$ | the acoustic intensity |
+| $I_p$ | the positive-phase impulse of the signature |
 | $K_R$ | the ground reflection factor |
 | $L$ | the lift force |
 | $L'$ | the lift per unit length along the aircraft |
+| $L_E$ | the sound exposure level |
 | $L_p$ | the sound pressure level |
 | $M$ | the flight Mach number |
 | $M_c$ | the cutoff Mach number, below which no boom reaches the ground |
@@ -447,32 +671,45 @@ NASA's contract announcement stated that work ran through 31 December 2021, that
 | $PL$ | the Stevens Mark VII perceived level, in decibels |
 | $R$ | the specific gas constant of air |
 | $R_c$ | the still-air cruise range |
+| $R_g$ | the pressure reflection coefficient at the ground |
+| $Re$ | the Reynolds number based on overall length |
 | $S$ | the total loudness of the signature, in sones |
+| $S_w$ | the wetted area |
 | $T$ | the absolute air temperature |
 | $T_0$ | the sea-level standard temperature |
 | $T_1$ | the temperature of the isothermal layer above the tropopause |
+| $T_r$ | the reference temperature in Sutherland's law |
 | $T_s$ | the duration of the ground signature |
 | $V$ | the true airspeed |
+| $W$ | the aircraft weight |
 | $W_f$ | the aircraft weight at the end of cruise |
 | $W_i$ | the aircraft weight at the start of cruise |
 | $\Delta p$ | the peak overpressure of the pressure signature |
 | $\Delta p_g$ | the overpressure at the ground after reflection |
 | $\Delta p_i$ | the overpressure incident on the ground before reflection |
 | $\Lambda$ | the slenderness ratio, overall length divided by span |
+| $\Omega$ | the volume of the equivalent body of revolution |
 | $\Pi$ | the acoustic energy per unit length of a cylinder of radius $r$ |
+| $\alpha$ | the classical absorption coefficient |
 | $\beta$ | the Prandtl-Glauert parameter, $\sqrt{M^2-1}$ |
 | $\delta$ | the thickness of a steady weak shock |
 | $\delta_d$ | the diffusivity of sound in air |
 | $\ell$ | the overall length of the aircraft |
 | $\eta$ | the shear viscosity of air |
 | $\eta_B$ | the bulk viscosity of air |
+| $\eta_r$ | the reference viscosity in Sutherland's law |
 | $\gamma$ | the ratio of specific heats of air |
 | $\kappa$ | the thermal conductivity of air |
 | $\lambda$ | the tropospheric temperature lapse rate |
 | $\mu$ | the Mach angle |
+| $\omega$ | angular frequency |
+| $\phi$ | the azimuth of a ray around the Mach cone, measured from the horizontal |
+| $\phi_c$ | the azimuth below which a ray no longer reaches the ground |
 | $\rho$ | the local air density |
 | $\rho_0$ | the air density at sea level |
+| $\sigma$ | the normalised specific acoustic impedance of the ground |
 | $\tau$ | the rise time of the front shock |
+| $\tau_m$ | the least front rise time that avoids coalescence over a given distance |
 | $\theta$ | the elevation angle of an acoustic ray above the horizontal |
 | $\xi$ | a dummy variable of integration in $x$ |
 | $\zeta$ | the retarded streamwise coordinate in which the F-function is written |
@@ -484,13 +721,20 @@ NASA's contract announcement stated that work ran through 31 December 2021, that
 | $c_v$ | the specific heat of air at constant volume |
 | $f$ | frequency |
 | $f_c$ | the corner frequency above which a shock's spectrum steepens |
+| $g$ | standard gravitational acceleration |
 | $n$ | the exponent of the thrust lapse with density |
 | $p$ | the acoustic pressure |
+| $p_1$ | the pressure at the tropopause |
 | $p_a$ | the ambient pressure at the aircraft |
 | $p_r$ | the reference pressure of the decibel scale, 20 micropascals |
 | $q$ | the free-stream dynamic pressure |
 | $r$ | distance from the aircraft measured along the ray |
+| $t$ | time measured from the arrival of the front shock |
+| $u$ | the horizontal slowness of a ray, which is invariant in a stratified atmosphere |
 | $x$ | the streamwise coordinate along the aircraft |
+| $x_s$ | the distance in which a compression steepens into a shock |
+| $y$ | lateral distance from the ground track |
+| $y_c$ | the half-width of the boom carpet |
 | $z$ | altitude above sea level |
 | $z_1$ | the altitude of the tropopause |
 | $z_2$ | the altitude at which the isothermal layer ends |
@@ -616,7 +860,7 @@ NASA's contract announcement stated that work ran through 31 December 2021, that
 
 ## The Source Base
 
-**48 hand-written references carry the argument and 4,101 harvested records map the field, and this article keeps them apart on purpose.** The claims about what a document does and does not contain rest on five documents read in full, being the register, the two sections of the federal aviation regulations, the executive order directing their repeal, and the programme's own conference presentation. **Those are not commentary on the evidence. They are the evidence.**
+**49 hand-written references carry the argument and 4,101 harvested records map the field, and this article keeps them apart on purpose.** The claims about what a document does and does not contain rest on five documents read in full, being the register, the two sections of the federal aviation regulations, the executive order directing their repeal, and the programme's own conference presentation. **Those are not commentary on the evidence. They are the evidence.**
 
 ### The Pool
 
@@ -688,7 +932,11 @@ NASA's contract announcement stated that work ran through 31 December 2021, that
 
 ### Where the Displayed Relations Come From
 
-**Every relation displayed in this article was evaluated before it was displayed, except the two that could not be**, and those two are named in the epistemic state as boundaries rather than presented as results. The symbol table is generated from the same declaration the equations are checked against, and a symbol declared twice is a build failure rather than a reader's confusion.
+**The article displays 51 relations and evaluates all but 3 of them**, and those 3 are named in the epistemic state as boundaries rather than presented as results. The symbol table is generated from the same declaration the equations are checked against, and a symbol declared twice is a build failure rather than a reader's confusion.
+
+**The equation pass found a manufacturer primary the draft did not have.** Lockheed Martin publishes a product card carrying the gross weight, the empty weight, the fuel, the payload, an overall length and a design Mach number. **Every relation in this article that needs a weight became evaluable because of it**, including the lift-induced equivalent area, which is the pass's central result, and the range relation, whose three unknowns collapsed to one. **A draft that reported an aeroplane's weight as unpublished had not looked at the builder's own literature**, and the lesson is that a programme has two publishers and this corpus had been reading one of them.
+
+**And the pass wrote an instrument rather than citing one.** The boom carpet is computed by tracing rays through the standard atmosphere from the Mach cone to the ground, using the invariance of the horizontal slowness. **A tracer nobody has checked is not a measurement**, so it was run at Mach 2 against the literature's rule of thumb of a statute mile of carpet per thousand feet of altitude, and agrees to within 3.9 percent. That agreement is the whole of the evidence for the Mach 1.4 answer, and the check is asserted in the calculation module rather than merely reported here.
 
 ### A Source-Level Linter Reads a Tall Bracket as a Broken Link
 
@@ -710,7 +958,7 @@ NASA's contract announcement stated that work ran through 31 December 2021, that
 
 ### Historical Fact
 
-The X-59A designation was allocated on 21 June 2018 to Lockheed Martin with NASA as sponsor, and its mission statement in the register is the one quoted [[DOD 4120.15-L Addendum][ref_mds_addendum]]. NASA announced the design and build contract on 3 April 2018 at 247.5 million dollars, stating a period of performance ending 31 December 2021 and an intention to fly over selected United States cities beginning in mid-2022 [[NASA Release 18-020][ref_nasa_release_18_020]]. The aeroplane first flew on 28 October 2025 for 67 minutes, reaching approximately 12,000 feet and 230 miles per hour with the landing gear down, from Palmdale to Edwards [[X-59 First Flight][ref_nasa_first_flight]]. The design cruise condition is Mach 1.4 at 55,000 feet and the design target is 75 on the Stevens Mark VII perceived level scale [[NASA Release 18-020][ref_nasa_release_18_020]] [[Doebler and Rathsam 2019][research_doebler_rathsam_2019]]. Executive Order 14304 of 6 June 2025 directs the repeal of the prohibition within 180 days and the establishment of an interim noise-based certification standard, without naming a threshold [[Executive Order 14304, American Presidency Project][ref_eo_14304_apps]]. **The deadline fell on 3 December 2025 and the sections quoted in this article carry no amendment later than 15 January 2021.**
+The X-59A designation was allocated on 21 June 2018 to Lockheed Martin with NASA as sponsor, and its mission statement in the register is the one quoted [[DOD 4120.15-L Addendum][ref_mds_addendum]]. NASA announced the design and build contract on 3 April 2018 at 247.5 million dollars, stating a period of performance ending 31 December 2021 and an intention to fly over selected United States cities beginning in mid-2022 [[NASA Release 18-020][ref_nasa_release_18_020]]. The aeroplane first flew on 28 October 2025 for 67 minutes, reaching approximately 12,000 feet and 230 miles per hour with the landing gear down, from Palmdale to Edwards [[X-59 First Flight][ref_nasa_first_flight]]. Lockheed Martin's product card gives a maximum design gross weight of 24,300 pounds, an empty weight of 15,000, fuel of 8,000, payload of 600, an overall length of 93.83 feet, a wingspan of 29 feet 6 inches, a design Mach number of 1.4, a loudness of less than 75 perceived level decibels and a single F414-GE-100 [[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]]. The design cruise condition is Mach 1.4 at 55,000 feet and the design target is 75 on the Stevens Mark VII perceived level scale [[NASA Release 18-020][ref_nasa_release_18_020]] [[Doebler and Rathsam 2019][research_doebler_rathsam_2019]]. Executive Order 14304 of 6 June 2025 directs the repeal of the prohibition within 180 days and the establishment of an interim noise-based certification standard, without naming a threshold [[Executive Order 14304, American Presidency Project][ref_eo_14304_apps]]. **The deadline fell on 3 December 2025 and the sections quoted in this article carry no amendment later than 15 January 2021.**
 
 ### Recomputed From the Register by This Article
 
@@ -722,7 +970,11 @@ The text of 14 CFR 91.817 and 14 CFR 91.818 was retrieved and read in full, and 
 
 ### Analysis, Which Is Arithmetic on Published Inputs
 
-The cutoff Mach number of 1.153 at the cruise altitude, and the finding that the cutoff ratio nowhere exceeds 1.153 in the standard atmosphere. The reproduction of the published 925 miles per hour to within 0.1 percent, and the identification of the released 940 miles per hour as Mach 1.42 at the same altitude. The conversion of 75 and 105 perceived level decibels to 2.134 and 4.088 sones and the resulting 47.8 percent. The classical Taylor rise time of 5.2 microseconds. The 19.9 decibel benefit of a tenfold rise time at 1,000 hertz. The slenderness ratios in the table. All are computed in this article's own calculation module from the published inputs named beside them.
+The cutoff Mach number of 1.153 at the cruise altitude, and the finding that the cutoff ratio nowhere exceeds 1.153 in the standard atmosphere. The reproduction of the published 925 miles per hour to within 0.1 percent, and the identification of the released 940 miles per hour as Mach 1.42 at the same altitude. The conversion of 75 and 105 perceived level decibels to 2.134 and 4.088 sones and the resulting 47.8 percent. The classical Taylor rise time of 5.2 microseconds. The 19.9 decibel benefit of a tenfold rise time at 1,000 hertz. The slenderness ratios in the table.
+
+**Added by the equation pass.** The dynamic pressure of 12,512 pascals and the density of 0.14664 kilograms a cubic metre at the cruise condition. **The lift-induced equivalent area of 4.232 square metres and its growth by a factor of 2.06 between forty thousand feet and fifty-five.** The Reynolds number, the skin friction coefficient of 0.00206 and the friction drag of 25.7 newtons a square metre. The wave-drag ratio of 5.18 against a twenty metre body. **The boom carpet at 59.2 kilometres wide and the along-track offset of 19.29 kilometres, from a ray trace through the standard atmosphere that reproduces the literature's Mach 2 rule of thumb to within 3.9 percent.** The minimum signature duration of 73 milliseconds and the sound exposure level of 101 decibels. The classical absorption of 0.159 decibels a kilometre. The ground impedance of 19 that reproduces the conventional reflection factor.
+
+All are computed in this article's own calculation modules from the published inputs named beside them, and every relation this article displays is evaluated except the three named below.
 
 ### Inference, Which Is This Article's Own and Is Labelled
 
@@ -731,6 +983,10 @@ The cutoff Mach number of 1.153 at the cruise altitude, and the finding that the
 **That the register's use of the verb create marks this row as different in kind.** The count of one is a fact. The reading that a shaped signature is a thing made rather than a phenomenon studied is this article's own, and nobody has been found stating it.
 
 **That the aeroplane's configuration is dominated by cost and schedule wherever the boom does not constrain it.** The annotations are NASA's and the tally is this article's.
+
+**That the aeroplane's weight rather than its shape is the majority contributor to its own signature.** The relation is standard and the evaluation is arithmetic, but the reading of it is this article's own, and it rests on comparing a computed equivalent diameter of 2.32 metres against a fuselage whose slimness is visible rather than measured.
+
+**That the aeroplane grew during detail design.** Three published lengths span 5.87 feet, the shortest is the builder's and carries a 2019 copyright while the longest are the agency's and are later. **No source states a growth and the alternative reading, that the figures measure to different points, is equally consistent.**
 
 ### What the Record Does Not Settle
 
@@ -744,7 +1000,11 @@ The cutoff Mach number of 1.153 at the cruise altitude, and the finding that the
 
 **What form any replacement standard will take.** Executive Order 14304 requires an interim noise-based certification standard and does not say whether it would be written as a perceived level, an overpressure, or something else, and at the editorial date no proposed rule had appeared. **A standard written as an overpressure would not use the metric this programme has spent a decade calibrating**, and nothing read here settles which it will be.
 
-**The aeroplane's weight, fuel fraction, lift-to-drag ratio and installed thrust**, none of which is published, which is why the range and thrust relations are displayed and never evaluated.
+**The lift-to-drag ratio and the thrust specific fuel consumption.** The builder's card supplied the weights the draft lacked, so the range relation now has exactly one unknown rather than three, and that unknown is the ratio of the two. **The illustration given in the body is an illustration and not a result.**
+
+**The wetted area and the volume of the equivalent body.** Without them the friction drag is given per square metre and never totalled, and the wave drag is given as a ratio against a shorter body and never evaluated absolutely.
+
+**Why the builder's card does not add up.** The empty weight, the fuel and the payload sum to 700 pounds less than the gross weight the same card states, which is 2.9 percent, and no source explains the difference.
 
 ## Out of Scope
 
@@ -762,7 +1022,11 @@ The cutoff Mach number of 1.153 at the cruise altitude, and the finding that the
 
 **The physics supports the ambition.** A signature that has not coalesced into a shock-fronted wave loses less energy on the way down and puts what remains at frequencies the ear discounts, and a factor of ten in rise time is worth about 19.9 decibels where hearing is sharpest. **The design problem is real, the mechanism is understood, and the aeroplane's extraordinary proportions are that mechanism made visible.**
 
-**Three things are less settled than the programme's public arithmetic suggests.**
+**And the proportions are cheaper than they look.** Wave drag falls as the fourth power of length and wetted area rises as the first, so the slenderness the boom demands is bought at a discount. **Supersonic aeroplanes were long and thin before anybody cared what they sounded like**, and the shaping requirement pushed a shape the aerodynamics already wanted.
+
+**What the shaping cannot touch is the weight.** Integrating the lift term of the equivalent area over the whole aeroplane leaves the weight divided by twice the dynamic pressure, with every trace of shape gone. At the design condition that is 4.232 square metres, a body 2.32 metres across, and **a designer may move it along the length and may not remove it**. Worse, it is inversely proportional to dynamic pressure, so **climbing to lengthen the propagation path enlarges it**, by a factor of 2.06 between forty thousand feet and the design altitude. **The two things altitude does to a sonic boom are opposed**, and this article states the reading of that as its own inference rather than as anything a source says.
+
+**Four things are less settled than the programme's public arithmetic suggests.**
 
 **The claimed reduction is not ninety percent in any unit the target is stated in.** In perceived loudness it is 47.8 percent against the most commonly published baseline, and between 44.3 and 53.1 percent across every baseline this article found. In pressure it is 96.8 percent and in energy 99.9. **The 85 percent that the published overpressures give is a pressure ratio being reported as a loudness.** The Mark VII scale exists precisely to prevent that substitution, and 30 decibels of perceived level is a little less than halving the loudness, because halving it takes 32.
 
@@ -773,6 +1037,8 @@ The cutoff Mach number of 1.153 at the cruise altitude, and the finding that the
 **And the rule the aeroplane exists to change contains no loudness at all.** The [X-54][related_post_a351_gulfstream_x54] established that it is a speed limit rather than a noise limit. This article adds that its exemption path requires not a quiet boom but no measurable boom, and that the executive order directing its repeal declines to name a threshold and leaves that to a later rulemaking. **There is no number in any of the three documents**, and the aeroplane's output is therefore not compliance but evidence, gathered so that a number might one day be written where none exists.
 
 **The deadline for writing it expired the day before this article.** The order of 6 June 2025 gave 180 days, the 3 December 2025 deadline came, and the regulation stood unchanged. **That is not a judgement about the programme or the agency**, since a rulemaking is slow and an executive deadline is not a statute. It is the state of the record at the date on this article, and it is the first date in this series at which the record could be read at all.
+
+**And what is being measured is not a point but a strip.** Tracing rays through the standard atmosphere, the carpet is 59.2 kilometres wide and the boom lands 19.29 kilometres behind the aeroplane that made it. **The tracer was checked against the literature's rule of thumb at Mach 2 and agrees to within 3.9 percent**, which is the reason to believe the Mach 1.4 figure, and the Mach 1.4 carpet is only 69.6 percent of the Mach 2 one. **Flying slower narrows the carpet as well as quietening it**, which the programme does not advertise and which the arithmetic gives for nothing.
 
 **At the editorial date the aeroplane had flown once, for 67 minutes, at 24.9 percent of its design cruise speed, with the landing gear down.** It had never been supersonic. The contract that built it named 31 December 2021 and the flights over cities were to begin in mid-2022. **Everything the register says about this aeroplane is written in the future tense, and at the time of writing the future tense was still correct.**
 
@@ -811,6 +1077,7 @@ The cutoff Mach number of 1.153 at the cruise altitude, and the finding that the
 - [14 CFR 91.818, Special flight authorization to exceed Mach 1][ref_far_91_818]
 - [14 CFR Part 36, Noise Standards, Aircraft Type and Airworthiness Certification][ref_far_part_36]
 - [International Standard Atmosphere][ref_icao_atmosphere]
+- [Silencing the Sonic Boom, X-59 Quiet Supersonic Technology X-Plane, Lockheed Martin FG19-00608_012][ref_lm_card]
 - [Mach number][ref_mach_number]
 - [DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]
 - [Current Designations of U.S. Military Aircraft][ref_mds_aircraft]
@@ -5027,6 +5294,7 @@ The cutoff Mach number of 1.153 at the cruise altitude, and the finding that the
 [ref_far_91_818]: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91/subpart-I/section-91.818
 [ref_far_part_36]: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-36
 [ref_icao_atmosphere]: https://en.wikipedia.org/wiki/International_Standard_Atmosphere
+[ref_lm_card]: https://lockheedmartin.com/content/dam/lockheed-martin/aero/documents/quietSuperSonic/FG19-00608_012%20Product%20Card%20X-59%20media.pdf
 [ref_mach_number]: https://en.wikipedia.org/wiki/Mach_number
 [ref_mds_addendum]: https://www.designation-systems.net/usmilav/412015-L(addendum).html
 [ref_mds_aircraft]: https://www.designation-systems.net/usmilav/aircraft.html
