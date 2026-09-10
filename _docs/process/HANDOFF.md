@@ -11,17 +11,18 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `8a538dd`
-- **Written**: 2026-09-09
-- **Tree at write**: clean, and **everything was pushed at the parent**. **One commit is unpushed when
+- **Parent commit** (the repository state this handoff describes): `73451a2`
+- **Written**: 2026-09-10
+- **Tree at write**: clean apart from this file, which is the change being committed, and
+  **everything was pushed at the parent**. **One commit is unpushed when
   you read this and it is this handoff's own**, which is what `git log origin/master..HEAD` will show.
   The protocol asks for a commit and not a push, so it was left for the pilot.
-- **Context**: the X-Planes series is IN PROGRESS. **Fifty-eight of seventy-two articles drafted. None
+- **Context**: the X-Planes series is IN PROGRESS. **Fifty-nine of seventy-two articles drafted. None
   published, and none authorised.**
-- **A354, ESAero X-57 Maxwell, is complete on all four passes and is PUSHED**, including its rendered
-  audit. **No article is mid-rhythm.** The tree is at a clean article boundary.
-- **The next prompt will be "Please draft A355, 'X-Planes: Lockheed Martin X-59.'"** Editorial date
-  2025-12-03, series index 59.
+- **A355, X-58, the Slot Taken by XQ-58, is complete on all four passes and is PUSHED.** **No article is
+  mid-rhythm.** The tree is at a clean article boundary.
+- **The next prompt will be "Please draft A356, 'X-Planes: Lockheed Martin X-59.'"** Editorial date
+  2025-12-04, series index 60.
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
 and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -39,111 +40,122 @@ described.
 
 ---
 
-## Resume prompt, and the next prompt will be "Please draft A355."
+## Resume prompt, and the next prompt will be "Please draft A356."
 
-**No article is mid-rhythm. Wait for the pilot's prompt and do not start A355 unprompted.**
+**No article is mid-rhythm. Wait for the pilot's prompt and do not start A356 unprompted.**
 
 **THE PILOT MAY HAND YOU AN EXTERNAL DRAFT INSTEAD, AS HAPPENED WITH A372 AND A373.** The prompt is
 "copy `<path>` into the drafts, and use it as the basis for an article Axxx with a `<date>` editorial
 publication date". Those arrive already stamped with their article number, series and index, and the
 work is conformance and retargeting rather than writing. **They still take all four passes afterwards.**
 
-**A355 IS THE X-59 AND ITS REGISTER ENTRY IS TWO CLAUSES JOINED BY A SEMICOLON**, allocated 21 June
-2018 to Lockheed Martin with NASA as sponsor and an empty engines cell:
+### READ THIS FIRST. The previous handoff named the wrong aeroplane and the pilot caught it.
+
+**It said A355 was the X-59. A355 was the X-58.** **Every index in this series maps to the designation
+one below it**, so index 2 is the X-1, index 59 is the X-58 and index 60 is the X-59. Checked across
+all fifty-eight designation articles there are **zero mismatches**, and the check is four lines of
+Python against the drafts.
+
+**DO NOT TRUST THIS SECTION'S ARITHMETIC WITHOUT REDOING IT.** The mapping is stated here as index 60
+to X-59, and a previous handoff stated its equivalent confidently and was wrong. **Recompute it from
+`_drafts/` before you write a title.**
+
+### A356 IS THE X-59 AND ITS REGISTER ENTRY IS TWO CLAUSES JOINED BY A SEMICOLON
+
+Allocated 21 June 2018 to Lockheed Martin with NASA as sponsor and an empty engines cell:
 
 > QueSST ; LBFD aircraft is a research aircraft that will create a shaped sonic boom signature.
 
+**The mission statement is 93 characters, which is short.** The X-57's was 343 and the longest
+in the register. **A short entry about a large programme is worth measuring rather than assuming.**
+
 **EXACTLY TWO ROWS IN THE WHOLE REGISTER NAME A SONIC BOOM, THE X-54A AND THE X-59A**, so this is the
 second and last of them. **A351 is the nearest relative and its gate is the one to read**, that article
-having been about the aeroplane allocated to conduct sonic boom research and never built. **A354's gate
-is aerodynamic and electrical and almost none of it applies**, beyond the atmosphere block.
+having been about the aeroplane allocated to conduct sonic boom research and never built. **A355's gate
+is about cost and attrition and almost none of it applies**, beyond the atmosphere block and the
+thrust-lapse and Breguet anchors.
 
 **THE VERB IS `create`, WHICH NO OTHER ENTRY USES FOR A PHENOMENON.** A354 measured the register's verb
 distribution and found demonstrate at eighteen, investigate at five, validate at one and exhibit at
 one. **Whether `create` is a fourth category or a synonym for one of the others is a measurement to
-take, not an impression to assert**, and it is exactly the shape of claim that the last three openings
-have all had to narrow.
+take, not an impression to assert.**
 
-**THE EMPTY ENGINES CELL MEANS NOTHING AND A354 ALREADY PROVED IT.** Eighty-eight of 526 rows are
-empty, and the three empty X rows are the X-57A, the X-59A and the X-60A, of which the last two plainly
-have engines. **Do not build an opening on that blank.** A354 records the false start in full so that
-this article does not have to repeat it.
+**THE EMPTY ENGINES CELL MEANS NOTHING AND TWO ARTICLES HAVE NOW PROVED IT.** Eighty-eight of 526 rows
+are empty, and the three empty X rows are the X-57A, the X-59A and the X-60A. **A354 recorded the false
+start in full and A355 declined to repeat it. Do not build an opening on that blank.**
 
-**THE STORE WILL BE EXPOSED THROUGH `hypersonics` AND `missiles`, NOT THROUGH `medicine` OR
-`electric-machines`.** A sonic boom survey meets supersonic and hypersonic vehicle literature, and a
-shaped signature meets the sonic boom minimisation work that overlaps with re-entry and missile
-aerodynamics. **Measure the drops before deciding**, which is the discipline every article since A348
-has followed.
+### THE HOMONYM WILL BITE AGAIN AND YOU CAN SEE IT COMING
 
-**AND THE LESSON A354 EARNED IS THE ONE MOST LIKELY TO MATTER HERE.** A programme's own published index
-must be read and cannot be searched. **Look for a NASA technical papers page for the X-59 before
-building the sweep**, because the X-57 had one and it contained sixty-one documents of which a
-designation-alone sweep retrieved eleven.
+**A354's aeroplane was named after a physicist and A355's after a Norse myth.** A355's pool held **74
+titles containing the word Valkyrie of which exactly one had the subject beside it**, the rest being
+Wagner, the 1944 Stauffenberg plot, a Tolkien theology paper, an America's Cup yacht and NASA's own
+humanoid robot of the same name. **The draft pass shipped all of them and the primary pass found them.**
 
-**`gate.ATMOSPHERE` IS ALMOST CERTAINLY NEEDED.** A sonic boom is a pressure signature propagating
-through a stratified atmosphere, so the medium is the subject rather than the setting.
+**QueSST, Quesst and LBFD are distinctive and safe. `X-59` is not**, because a bare hyphenated number
+matches chemical nomenclature, gene names and catalogue numbers. **Guard the proper nouns with a
+subject term in the GATE and not only in the store**, which is the mistake A355 made and recorded.
 
-**`homonyms.TAGS` IS NOW TWENTY-SEVEN FAMILIES ACROSS 135 PATTERNS**, of which 36 are tagged, and an
-unknown tag raises rather than failing open. The full list is in the Verification Toolchain below.
+### `gate.ATMOSPHERE` IS NOT OPTIONAL HERE
+
+A sonic boom is a pressure signature propagating through a stratified atmosphere and refracting in a
+temperature gradient. **The medium is the subject rather than the setting**, more so than in any article
+since the X-15.
+
+### THE STORE WILL BE EXPOSED THROUGH `hypersonics` AND `missiles`
+
+Sonic boom minimisation overlaps re-entry and missile aerodynamics, and the supersonic-transport
+literature is where most boom work lives. **Measure the drops before deciding**, which is the discipline
+every article since A348 has followed. **`missiles` carries its own note saying it must not be carried
+blindly**, and A355 opened it because an attritable aeroplane is priced against a munition.
 
 ---
 
 ## Where the Series Stands
 
-**Fifty-eight drafts, series indices 1 through 58 contiguous, all in `_drafts/`. Zero published.**
-Measured, not recalled. **Fourteen articles remain.**
+**Fifty-nine drafts, series indices 1 through 59 contiguous, all in `_drafts/`. Zero published.**
+Measured, not recalled. **Thirteen articles remain.**
 
-**Every draft has completed all four passes.** A354 is the most recent and its four commits are
-`22d63fb`, `f9a3c40`, `782fcae` and `8a538dd`.
-
-### A353, Lockheed Martin X-56
-
-**11,108 lines, 36 display equations, 5,210 reference definitions, 66,567 words**, research 5,101,
-report primaries 513 at 10.1 percent, three sweeps retrieving 11,227 records.
-**Deliberate-instability class, and the only aeroplane in this series built so that a failure mode
-would happen.**
-
-**The register has three verbs and this entry uses a fourth.** Eighteen rows say demonstrate, five
-investigate and one validate, and every one takes a capability as its object. **Exactly one uses the
-verb exhibit and its object is a failure mode.**
-
-**The plural is the one clause the programme did not deliver.** Body freedom flutter at 111 to 114
-knots was flown past under active control, with the controller frozen in flight so the instability
-could be watched. **The second mechanism was predicted at 138 to 144 knots against a 135 knot maximum
-level flight speed**, and the envelope stopped at 120. **One remaining airframe made the team too risk
-averse.**
-
-**And the aeroplane built to flutter was destroyed by rotation**, at about sixty knots, fifty below the
-boundary, on a takeoff it had made eight times before with stiffer wings.
-
-**The exchange rate is exact and parameter free.** Thirty to forty percent more aspect ratio buys 23.1
-to 28.6 percent less induced drag and costs 1.69 to 1.96 times the bending stiffness to hold the
-flutter speed. **The structural price is the square of the aerodynamic prize.**
+**Every draft has completed all four passes.** A355 is the most recent and its four commits are
+`eb3c507`, `14c6536`, `d95dccc` and `73451a2`.
 
 ### A354, ESAero X-57 Maxwell
 
 **6,956 lines, 34 display equations, 3,176 reference definitions, 41,314 words**, research 3,060,
-report primaries 342 at 11.2 percent, two sweeps retrieving 8,079 records of which 7,031 distinct.
-**Unflown-demonstrator class, and the aeroplane with the longest register entry in the whole X series.**
+report primaries 342 at 11.2 percent. **Unflown-demonstrator class, and the aeroplane with the longest
+register entry in the whole X series at 343 characters.** The wing is 42 percent of the area it
+replaced, the wetted area fell only 18 percent against the wing's 58, and **induced drag rose 32
+percent**. The equation pass could not verify the central claim and said so.
 
-**The longest entry in the class belongs to the aeroplane that flew least.** 343 characters against a
-median X row less than half that, and **the aeroplane never flew**. **It reads as a specification
-rather than an intention** and is the only entry in the register that teaches the reader how something
-works.
+### A355, X-58, the Slot Taken by XQ-58
 
-**The wing is 42 percent of the area it replaced**, which multiplies wing loading by 2.38 and demands
-the same multiple of maximum lift coefficient. **But the wetted area fell only 18 percent against the
-wing's 58**, and **induced drag rose 32 percent** on a shorter span despite the higher aspect ratio.
-That was derived here and then found stated independently in the primary source.
+**6,820 lines, 40 display equations, 101 declared symbols, 2,897 reference definitions, 45,757 words**,
+research 2,790, report primaries 540 at 19.4 percent, three sweeps retrieving 17,071 records of which
+15,522 distinct. **Designation-anomaly class, the third after the X-39 and the X-52, and the first
+whose number went to an aeroplane that exists.**
 
-**The equation pass could not verify the central claim.** Ideal actuator discs put the blowing
-requirement at 139 kilowatts against 151 installed, and at a realistic propulsive efficiency it exceeds
-the installed power. **That boundary is carried to the conclusion rather than resolved by assertion.**
+**The string X-58 appears exactly once in the 526-row register**, inside a note about a different
+aeroplane, in a parenthesis, saying it does not exist. **Three dates are the whole of the evidence**,
+the X-57A on 03-May-16, the XQ-58A on 10-Jul-17 and the X-59A on 21-Jun-18.
 
-**What stopped the programme was transistors**, silicon carbide devices failing under vibration, heat
-and a software fault that commanded shoot-through, **with a root cause that is not technical**, the
-project having been scoped as integration rather than development and its readiness assessment never
-repeated after the buy-American direction that invalidated it.
+**DAFI 16-401 carries the rule and the power to break it one sub-paragraph apart**, saying design
+numbers run consecutively, telling a requester how to find the next in series, and then reserving to
+AF/A8PE the authority to skip a design number at discretion with no reason recorded. **That is the same
+office that refused the X-52.**
+
+**Half the X series is unmanned and not one of the fifteen carries the Q vehicle type symbol the
+instruction requires**, so **the aeroplane that does carry it is the one whose number the X series
+lost.** That inverts the anomaly and is labelled the article's own inference, because nobody has been
+found saying it.
+
+**The argument for attritable aircraft needs no prices.** Once the design life stops binding the cost
+per sortie is the unit cost times the probability of loss, so the break-even against an aeroplane that
+is not meant to be lost depends only on the cost ratio. **At the ratio the Air Force has stated to
+Congress, one third the price of a crewed fighter, the aeroplane must survive 0.97 of its sorties to
+beat a fighter surviving 0.99.** That is a fighter's number.
+
+**And the canopy that lands it cannot be opened at the speed it arrives**, imposing 56.2 times gravity,
+so the recovery must be staged. **The arithmetic was right and the premise impossible, which was the
+finding rather than an error.**
 
 ## The Established Rhythm, Which Is the Most Important Thing Here
 
@@ -175,6 +187,74 @@ band.
 ---
 
 ## Method Rules Earned the Hard Way
+
+### Earned in A355, and the theme is that an instrument fails at the edge of its own vocabulary
+
+**A PROPER NOUN WITH NO CONTEXT REQUIREMENT IS NOT AN ANCHOR, IT IS A TRAWL.** A bare `Valkyrie`
+admitted 74 records of which one had the subject beside it. **The X-57 met the same effect through a
+physicist's surname and recorded it in its STORE notes**, and A355 carried the lesson into its store
+and not into its GATE. **That is the shape of a lesson learned in the wrong place**, and it survived a
+whole draft pass. Guard a vehicle name with a vehicle word, in the gate, from the first run.
+
+**A PLURAL WILL DEFEAT AN INSTRUMENT AND IT WILL DO IT TWICE.** `\bUAV\b` does not match `UAVs`, and it
+refused 24 records including the loyal wingman concept in a title. **A guard later written against
+`launch vehicle` did not match `launch vehicles`** and let the thing it was written for walk through.
+**Write `s?` into every anchor and every guard.**
+
+**A HOMONYM IS NOT A BROADER CASE OF THE SUBJECT.** `expendable` in aerospace overwhelmingly means a
+rocket that is not reused, `attrition` in the defence registry usually means personnel turnover, and
+`force` appears in so many titles that as a context term it guards nothing. **But `Personnel Attrition
+Rates in Historical Land Combat Operations` IS the subject**, so cut by the vocabulary of the wrong
+sense rather than by the word the two senses share.
+
+**A METHOD THE ARTICLE USES BRINGS ITS LITERATURE WITH IT.** A paper on the microwave oven learning
+curve was deliberately kept, because the article applies the learning curve. That is the X-52
+precedent, and it is the opposite decision from the homonym rule above. **The test is whether the
+record is about the same THING or about the same METHOD.**
+
+**A SMALL INTEGER CANNOT BE CHECKED BY PRESENCE.** In a document full of numbers, `15`, `4` and `0.2`
+appear everywhere, so a check asking whether the article contains the computed value passes on any
+other occurrence. **Five figures escaped injections for this reason and were closed with
+per-occurrence checks anchored on distinctive stems.** State a fraction as a percentage when you can,
+because `20 percent` is checkable and `0.2` is not.
+
+**A PRESENCE CHECK IS SATISFIED BY A SECOND COPY, AND THE ANSWER IS A TOTAL CHECK.** The article is a
+pure function of its body, its computed numbers and its reference data, so **reassembling it and
+comparing byte for byte catches any alteration**. That check found two live corruptions of the working
+draft that nothing else saw. **But a check that cannot fail selectively is not evidence about the
+instruments beside it**, so the injection suite disarms it and each defect must be caught by the
+instrument aimed at it.
+
+**RESTORE BY REASSEMBLY, NEVER BY COPYING BACK A FILE.** A killed injection run left the article
+modified, and every run afterwards copied that corruption into its own backup and restored it
+faithfully. **A copy can be poisoned. An assembly cannot.**
+
+**A NUMBER A SECTION STATES ABOUT ITS OWN INSTRUMENT IS AS PERISHABLE AS ONE ABOUT THE WORLD.** Five
+Source Base measurements were typed from a console and went stale when the gate was corrected twice.
+**And two numbers that were correctly emitted were still wrong in their prose**, a capitalisation
+helper writing `Three Sweeps` and a subtraction reporting a negative fall as a fall. **Emission is a
+defence against staleness and not against being wrong.**
+
+**TWO INSTRUMENTS MEASURING ONE THING MUST BE MADE TO AGREE BEFORE EITHER IS QUOTED.** Equation
+citation coverage came out 36 of 40 on the body and 32 of 40 on the finished article, because a
+one-line slot becomes a three-line block. **Shipping the larger because it appeared first would have
+been the defect.**
+
+**THE SYMBOL TABLE IS AN INSTRUMENT AND NOT DOCUMENTATION.** It refused the first draft of A355's
+equation set outright, catching `N` meaning both design life and normal force, `m` meaning both mass
+and weapons carried, and `n` meaning four things in four sections. **Do not write `\text{}` inside a
+symbol NAME**, because the markup rule strips it before the symbol can match and the stem is then
+reported undeclared.
+
+**AN EQUATION ADDED BEFORE IT IS EVALUATED IS DECORATION.** Three of A355's own new relations were
+wrong when first computed, being an inverted break-even that returned negative probabilities, a design
+life truncated at 1,000 sorties, and an opening load computed on an impossible premise. **The third
+was kept, because the arithmetic was right and the premise being impossible was the finding.**
+
+**AND REPORT COVERAGE IS BOUGHT WITH THE NUMBER OF QUERIES.** A355 acted on the X-57's measurement
+rather than merely recording it, asking the report server 42 questions after the draft's 12 and taking
+its contribution from 16 records to 77. **The ceiling is bought off, never lifted.**
+
 
 ### Earned in A354, and the theme is that an index is not a search result
 
@@ -1983,12 +2063,12 @@ FOUR ARTICLES.** After every equation pass, scan for lines that open with `$$` a
 describing each module: `fetch` for archive queries, `refs` for anchors and the reference block, `edits`
 for guarded editing, `reflow`, `lint`, `diction` for word and phrase overuse, `audit` for equation and
 citation gaps, `numcheck` for independent re-derivation, and `citations` for registry verification. Run
-`python3 _lib/test_lib.py`, which should report **108 of 108** as of 2026-09-09. **`refs.clean` gained a bare-pipe strip on
+`python3 _lib/test_lib.py`, which should report **110 of 110** as of 2026-09-10. **`refs.clean` gained a bare-pipe strip on
 2026-08-12**, because kramdown reads a paragraph whose first line contains a pipe as a table and a
 publisher-mangled apostrophe entity put one into link text. **Three modules were added on
 2026-08-11**, being `gate` for subject-anchor gating with a mandatory two-sided sample, `render` for
 auditing BUILT HTML, and `resolve` for identifier resolution. `_research/rejected.json` holds the accumulated
-sweep judgements, reused through `_research/homonyms.py`, **whose curated pattern list is now 135.**
+sweep judgements, reused through `_research/homonyms.py`, **whose curated pattern list is now 136 across 27 tagged families.**
 
 **`_lib/booklinks.py` WAS REWRITTEN ON 2026-09-04 AND ITS PREVIOUS ORACLE WAS UNSAFE.** It reads the
 OpenLibrary SEARCH INDEX rather than the work JSON endpoint, because that endpoint returns HTTP 500
@@ -2166,9 +2246,11 @@ tests the helix-angle cancellation as a **randomised property**.
 
 ## Open Decisions
 
-**Two things need the pilot rather than the agent, and both are unchanged through the whole of
-A351.** The agent raised neither again during that article because neither is inside the article in
-hand, which is the standing rule.
+**Two repairs need the pilot rather than the agent, and both were verified still live on 2026-09-10.**
+`x_planes_boeing_x53_active_aeroelastic_wing.markdown` still carries its duplicated heading at lines
+412 and 414, and A324 still carries its malformed book label. **The agent has not raised either again
+during A352 through A355 because neither is inside the article in hand**, which is the standing rule
+and the reason they persist.
 
 ### RESOLVED on 2026-09-04. The book identifiers in A342 through A346 were repaired
 
@@ -2180,7 +2262,7 @@ in the corpus, seven in A347 and one in A324, and four were resolved by fresh se
 **The measurement that made the repair possible had to be rebuilt first**, because the previous oracle
 reported correct citations as broken. See the method rule above.
 
-### The report server will serve ten records per query and no more, which bounds every future sweep
+### The report server serves ten records per query, and A355 showed what to do about it
 
 **MEASURED ON 2026-09-09 AND NOT INFERRED.** A direct query for `X-57 Maxwell` reports seventy-four
 matching records in its own `stats.total` and returns ten. **Asking for a hundred returns ten. Asking
@@ -2188,17 +2270,16 @@ by offset returns the same ten again**, at every offset tried from ten to sevent
 
 **A HYPOTHESIS ABOUT OUR OWN TOOLING WAS TESTED AND DISPROVED.** The suspicion was that
 `fetch.ntrs_search` never paginates and was silently losing records in every article of this series.
-**It sends the offset correctly and the server ignores it.** The library's docstring already said the
-endpoint caps well below what is asked for, and that note is right.
+**It sends the offset correctly and the server ignores it.**
 
-**THE CONSEQUENCE IS OPERATIONAL AND THE PILOT MAY WANT TO ACT ON IT.** A sweep of that server can
-retrieve at most ten records per query however the query is phrased, so **report coverage is bought
-with the NUMBER of queries and never with the row count**. A354 retrieved eighteen percent of its
-subject's own published output before its bibliography was read by hand.
+**A355 ACTED ON THIS RATHER THAN RECORDING IT AGAIN, AND IT WORKED.** Its supplementary sweeps asked the
+report server 42 questions after the draft's 12, and its contribution to the reference list went from
+16 records to 77. **Report coverage is bought with the NUMBER of queries and never with the row count**,
+and that is now demonstrated rather than predicted.
 
-**THE WORKAROUND IS TO READ THE PROGRAMME'S OWN INDEX**, which A354 did, taking sixty-one documents
-from a NASA page that no query would have assembled. **Whether a better interface exists is not
-something this agent has established**, and finding one would improve every remaining article.
+**THIS IS NO LONGER AN OPEN DECISION SO MUCH AS A STANDING METHOD.** What remains open is whether a
+better interface exists, which this agent has not established. **The workaround is to read the
+programme's own index where one exists**, which A354 did for sixty-one documents no query assembled.
 
 ### A350 ships a duplicated heading, found while writing A352 and not repaired
 
