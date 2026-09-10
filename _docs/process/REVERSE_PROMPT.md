@@ -5,132 +5,138 @@
 ## Last Updated
 
 **Date**: 2026-09-09
-**Task**: **A355, X-Planes: X-58, the Slot Taken by XQ-58, equation-density review. The
-second of four passes.** Committed and **NOT pushed**. **Not published**, and publication of
+**Task**: **A355, X-Planes: X-58, the Slot Taken by XQ-58, primary-reference review. The
+third of four passes.** Committed and **NOT pushed**. **Not published**, and publication of
 the series has never been authorised. **Fifty-nine of seventy-two drafted.**
 
 ---
 
-## Twenty-Two Display Equations to Forty, and Four of Them Found Something
+## Report Primaries 226 at 9.2 Percent to 532 at 19.9
 
-**Display equations 22 to 40, declared symbols 73 to 101**, lines 5,802 to 6,052, words
-36,339 to 39,919, **references unchanged at 2,557** because an equation pass adds no sources.
+**The count rose by 306 and the reference list rose by 228**, so the fraction moved for two
+reasons at once and the article says so rather than presenting it as one. **The supplementary
+sweep added report primaries and the gate corrections removed records that were never on the
+subject.** Non-primary references fell by 78.
 
-### The Two Published Speeds Do Not Refer to the Same Altitude
+References 2,557 to 2,787, lines 6,052 to 6,567, words 39,919 to 43,789, **display equations
+unchanged at 40** because a reference pass adds no relations.
 
-**The specification carries 566 knots and Mach 0.85 side by side, and those agree only at
-sea level.** At sea level 566 knots is Mach 0.856, which matches the published figure to
-within half a percent. **At the quoted 45,000 foot ceiling the same speed is Mach 0.987**,
-which is very nearly sonic and is not a speed this planform holds.
+### The Ten-Record Ceiling Was Bought Off Rather Than Lifted
 
-**Nothing in any source says the maximum is a sea level figure.** The article infers it from
-consistency and says so. **A reader who assumes both apply at the ceiling is wrong by fifteen
-percent**, and the dynamic pressure differs by a factor of 7.3 between the two conditions.
-
-### The Two Published Unit Costs Imply a Progress Ratio of 0.5
-
-**Read as a learning curve, four million dollars at fifty a year and two million at a hundred
-is a halving for one doubling.** Airframe curves are conventionally quoted at 80 to 85
-percent, and **an 85 percent curve needs 4.27 doublings to halve a cost**, not one. The same
-doubling would take an 85 percent curve to 3.4 million dollars.
-
-**The charitable reading is that these are rates and not cumulative units**, which makes the
-claim about economies of scale rather than learning. **The article states both readings and
-settles neither**, because no source specifies the basis.
-
-### The Argument for Attritable Aircraft Needs No Prices
-
-**Once the design life stops binding, the cost per sortie is the unit cost multiplied by the
-probability of loss.** The derivative with respect to survivability is therefore the unit
-cost itself, at every value of the probability. **A percentage point of survival is worth one
-percent of the airframe price per sortie**, which is 20,000 dollars at the lower unit cost.
-
-**And the break-even against an aeroplane that is not meant to be lost depends only on the
-ratio of the two costs.** Against an aeroplane twenty times its price surviving 99 sorties in
-100, this one wins above 0.8. **The relation also says when the case fails**, since a ratio of
-ten against a nearly invulnerable opponent demands 99 percent survival. **The argument needs a
-hostile sky as much as it needs a low price**, and the draft did not say so.
-
-### The Canopy That Lands It Cannot Be Opened at the Speed It Arrives
-
-**The canopy sized for an eight metre per second touchdown, opened at sixty metres per
-second, imposes 56.2 times gravity on the empty mass.** **The arithmetic is right and the
-premise is impossible, which is the finding rather than an error.** The recovery must be
-staged. A first stage of 0.1778 of the full area holds ten times gravity, and the full canopy
-is tolerable only below 25.3 metres per second.
-
-**How the staging is actually done is not documented anywhere consulted.** The article derives
-that there must be some and does not report what it is.
+**The supplementary sweep asked 42 questions of the space agency's server against the draft's
+twelve, and 56 of the defence registry.** The [X-57][related_post_a354_esaero_x57_maxwell]
+established that the server reports its true total and serves ten, ignores the offset, and
+that the fetching library paginates correctly. **This is the first article in the series to
+act on that finding rather than record it**, and the space agency's contribution went from 16
+records to 72.
 
 ---
 
-## Three Defects in the Pass's Own New Work, All Caught Before Assembly
+## A Proper Noun With No Context Requirement Is Not an Anchor, It Is a Trawl
 
-**A break-even relation was written inverted and returned negative probabilities**, which is
-the arithmetic telling the author the expression was backwards.
+**The pool holds 74 titles containing the word Valkyrie and exactly one has the subject beside
+it.** The rest are Wagner, the 1944 Stauffenberg plot, a Tolkien theology paper, an America's
+Cup yacht, a fuzzing tool, a quadruped robot and **the space agency's own humanoid robot,
+which is also called Valkyrie**. A bare `Kratos` admitted the Greek personification of power
+and two Iron Age history papers.
 
-**An opening load was computed on a truncated design life**, so an exquisite aircraft's cost
-per sortie was wrong by a third until the asymptote was allowed to hold.
+**The draft pass shipped all of them, and the cluster named for this aeroplane reported 75
+records of which 74 were noise. It now reports one.**
 
-**And the symbol table refused the first draft of the equation set.** Three collisions were
-caught before assembly, the worst of them a bare `q` for dynamic pressure against a `q` already
-meaning a survival probability, which is now `p_x`.
+**The [X-57][related_post_a354_esaero_x57_maxwell] met this through a physicist's surname and
+recorded it in its store notes.** The lesson was carried into this article's store and not
+into its gate, **which is the shape of a lesson learned in the wrong place.**
 
----
-
-## Two Instruments Measured One Thing and Disagreed
-
-**Equation citation coverage came out 36 of 40 on the body and 32 of 40 on the finished
-article**, because a one-line slot becomes a three-line block and the line windows then cover
-different amounts of prose. **Shipping the larger figure because it appeared first would have
-been the defect.** The measurement is now defined once, on the body, and the verifier
-recomputes it there and asserts the article states what was computed.
-
-**The remaining four are arithmetic on a relation cited immediately above**, which is the same
-result the [X-46][related_post_a343_boeing_x46] measured at 27 of 37 and recorded rather than
-closed.
+**And the one record that survives is a finding rather than a disappointment.** It computes a
+radar cross-section for a design model its own title calls Valkyrie-like. **The only paper in
+a 2,680-record survey that studies this aeroplane had to build something that resembles it
+first**, which is the same statement the empty engines cell makes in the register.
 
 ---
 
-## And the Verifier Learned Not to Restate a Rule It Could Import
+## Expendable in Aerospace Means a Rocket
 
-**A check expecting `20.0` failed on an article correctly saying `20`**, because the verifier
-carried its own copy of the assembler's number-formatting rule. **A duplicated rule is a
-second place to be wrong.** The verifier now imports the assembler's formatter, so the two
-agree by construction.
+**The attritability cluster held 33 records and about half were launch vehicles**, together
+with expendable bathythermographs, expendable batteries and expendable infrared sensors. **The
+word is a homonym of this article's subject and not a broader case of it.**
+
+**The guard failed on its first run because of a letter.** `launch vehicle` written with a
+word boundary does not match `launch vehicles`. **That is the second time in this article that
+a plural has defeated an instrument**, the first having refused 24 records on the plural of
+UAV.
+
+**Two further homonyms were found by reading the kept sample.** `force` admitted `The Erosion
+of the Enlisted Force A Study of Attrition`, the word appearing in a large share of the
+defence registry's titles, **while `Personnel Attrition Rates in Historical Land Combat
+Operations` IS the subject**, so the cut is by turnover vocabulary rather than by the word
+personnel. And `turbo` admitted a turbocharged diesel engine.
+
+**What was deliberately not filtered is the learning-curve method literature**, including a
+paper on the microwave oven learning curve, because **a method the article uses brings its
+literature with it**. That is the [X-52][related_post_a349_x52_designation_refused] precedent.
+
+---
+
+## The Only Official Cost Statement in the Article, and It Nearly Undoes the Argument
+
+**A congressional research product records that the Air Force has stated a collaborative
+combat aircraft would cost roughly one third the price of a crewed fighter.** That is a cost
+ratio of three.
+
+**At a ratio of three the break-even relation demands a survival probability of 0.97 against a
+fighter surviving 0.99, and 0.997 against one surviving 0.999.** **Those are not attritable
+numbers. They are fighter numbers.**
+
+**The demonstrator's own published unit costs give a ratio of 20 to 40** against an assumed
+eighty million dollar fighter, which is flagged as an assumption wherever it is used. **The
+demonstrator's ratio is between six and thirteen times the one the service has stated for the
+programme it led to.**
+
+**Attritability does not survive a tenfold rise in unit cost**, because the value of a point
+of survivability falls with the price while the cost of buying that point does not. **Whether
+that is what happened to this class is a question about a programme this article has placed
+out of scope**, and the Out of Scope section now says which single number about it was used.
 
 ---
 
 ## Verification
 
-**Verifier clean at 0 errors and 0 warnings. Tests 110 of 110. Lint 0 findings.** The symbol
-scanner reports all 101 declared symbols used and every symbol used declared.
+**Verifier clean at 0 errors and 0 warnings. Tests 110 of 110. Lint 0 findings.**
 
-**The article verifier runs 252 checks and 32 injected defects were all caught with the total
-reassembly check disarmed**, so each defect is caught by the instrument aimed at it rather
-than by the comparison that catches everything.
+**The article verifier runs 275 checks and 39 injected defects were all caught with the total
+reassembly check disarmed.** Nine of the new injections went green at first, every one because
+a figure in the Source Base had only a presence check and the same digits appear elsewhere in
+a document full of numbers. **Each now has a per-occurrence check with a distinctive stem.**
 
-**FINAL STATE. 6,052 lines, 40 display equations, 101 declared symbols, 2,557 reference
-definitions, 39,919 words**, research 2,452, report primaries 226 at 9.2 percent.
+**Identifier verification: both hand-written additions fetched and read**, 24 of 24 sampled
+report primaries resolving to the works the article names, **and a fabricated identifier of
+the same shape resolving to nothing**, which is the control that makes the other result mean
+something.
+
+**AND THE INJECTION SUITE CORRUPTED THE ARTICLE A SECOND TIME BEFORE IT WAS FIXED PROPERLY.**
+A backgrounded run was killed mid-injection, and every run after it copied the corrupted file
+to its own backup and faithfully restored the corruption, so a different check failed each
+time. **The restore is now an assembly rather than a copy**, because the article is a pure
+function of its sources and a copy can be poisoned while an assembly cannot. **The reassembly
+check caught it on both occasions and named the line.**
+
+**FINAL STATE. 6,567 lines, 40 display equations, 101 declared symbols, 2,787 reference
+definitions, 43,789 words**, research 2,680, report primaries 532 at 19.9 percent, two sweeps
+retrieving 14,701 records of which 13,457 distinct, gate 2,781, store armed 8.4 percent.
 
 **The stub-isolated production build succeeded against the exact bytes committed**, the
 checksum matching draft, stub copy and frozen record. **The rendered audit reports no findings
-across 94 pages.** Source and rendered display-equation counts agree at **40**, with zero raw
-dollar pairs leaking and zero unexpanded slots. The page is 561,617 bytes.
+across 94 pages.** Source and rendered display-equation counts agree at 40. The page is
+607,871 bytes.
 
 ---
 
 ## What Remains
 
-**A355 has completed two of four passes.** The next prompt is the primary-reference review.
+**A355 has completed three of four passes.** The next prompt is the publication review.
 
-**The fuel component of the operating cost is now bounded and is under one percent of the
-airframe amortisation at any plausible price**, which narrows the boundary the draft left
-standing without closing it. **Maintenance, ground equipment, boosters, parachutes and people
-remain unquantified**, and the fact sheet's claim of low maintenance is the one no public
-figure supports.
-
-**Three things the record does not settle were added by this pass**, being whether the maximum
-speed is a sea level figure, whether the two unit costs are cumulative or rate figures, and on
-what basis the payload fraction is quoted. **The engine-class disagreement from the draft pass
-stands**, and the arithmetic still favours the turbofan without deciding it.
+**Three disagreements or open assumptions stand**, being the engine class, whether the maximum
+speed is a sea level figure, and on what basis the two unit costs and the payload fraction are
+quoted. **Two inequalities are left as conditions on purpose**, and **the fuel component of the
+operating cost is bounded at under one percent of the airframe amortisation** while
+maintenance, ground equipment, boosters, parachutes and people remain unquantified.

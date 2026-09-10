@@ -21,14 +21,11 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_x58_slot_taken_by_xq58.markdown`, A355, editorial date 2025-12-03, series `x_planes` index 59 of 72.
 
-**6,052 lines, 40 display equations, 101 declared symbols, 2,557 reference definitions,
-39,919 words after the equation-density review.** **TWO OF FOUR PASSES COMPLETE.**
+**6,567 lines, 40 display equations, 101 declared symbols, 2,787 reference definitions,
+43,789 words after the primary-reference review.** **THREE OF FOUR PASSES COMPLETE.**
 Committed and **NOT pushed**. **Not published**, and publication of the series has never
 been authorised. **Designation-anomaly class, and the third of its kind after the X-39 and
 the X-52.**
-
-**THE HANDOFF SAID A355 WAS THE X-59 AND IT WAS WRONG BY ONE.** Index 59 is the X-58 and
-the pilot's title was right.
 
 **THE STRING X-58 APPEARS EXACTLY ONCE IN THE 526-ROW REGISTER**, in a note about a
 different aeroplane, saying it does not exist. **DAFI 16-401 carries the rule and the power
@@ -36,22 +33,26 @@ to break it one sub-paragraph apart.** **Half the X series is unmanned and not o
 fifteen carries the Q symbol the instruction requires**, so the aeroplane that does carry it
 is the one whose number the X series lost.
 
-**THE EQUATION PASS TOOK 22 EQUATIONS TO 40 AND FOUND FOUR THINGS.** The two published
-speeds do not refer to the same altitude, 566 knots being Mach 0.856 at sea level and Mach
-0.987 at the ceiling. The two published unit costs imply a progress ratio of 0.5 against a
-conventional 80 to 85 percent. **The argument for attritable aircraft needs no prices**,
-since the break-even against an aeroplane that is not meant to be lost depends only on the
-cost ratio, **and the same relation says when the case fails**. **The canopy that lands it
-cannot be opened at the speed it arrives**, imposing 56.2 times gravity, so the recovery
-must be staged.
+**REPORT PRIMARIES 226 AT 9.2 PERCENT TO 532 AT 19.9.** The count rose by 306 and the list
+by 228, so the fraction moved for two reasons at once. **The ten-record ceiling on the
+report server was bought off with 42 queries against twelve**, taking its contribution from
+16 records to 72.
 
-**Three defects in the pass's own new work were caught before assembly**, an inverted
-break-even, a truncated design life and three symbol collisions.
+**A PROPER NOUN WITH NO CONTEXT REQUIREMENT IS NOT AN ANCHOR.** The pool holds 74 titles
+containing the word Valkyrie and **exactly one has the subject beside it**. **The cluster
+named for this aeroplane reported 75 records of which 74 were noise, and it now reports
+one**, that one having had to build a model resembling the aeroplane because its shape is
+not public.
 
-**Verifier 0 errors 0 warnings, tests 110 of 110, lint 0 findings, 252 checks and
-thirty-two injected defects all caught with the total check disarmed.** Build clean against
-checksum-matched bytes, 94 pages, rendered audit reports no findings, source and rendered
-display-equation counts agree at 40.
+**THE ONLY OFFICIAL COST STATEMENT NEARLY UNDOES THE ARGUMENT.** The Air Force has told
+Congress a collaborative combat aircraft would cost roughly one third the price of a crewed
+fighter, **and at that ratio the break-even demands a survival probability of 0.97**, which
+is a fighter number rather than an attritable one.
+
+**Verifier 0 errors 0 warnings, tests 110 of 110, lint 0 findings, 275 checks and
+thirty-nine injected defects all caught with the total check disarmed.** Identifiers
+verified on content with an absent control that failed correctly. Build clean against
+checksum-matched bytes, 94 pages, rendered audit reports no findings.
 
 ## X-Planes ESAero X-57 Maxwell A354 2025-12-02
 
