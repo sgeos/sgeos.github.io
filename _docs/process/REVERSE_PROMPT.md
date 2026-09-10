@@ -5,155 +5,132 @@
 ## Last Updated
 
 **Date**: 2026-09-09
-**Task**: **A355, X-Planes: X-58, the Slot Taken by XQ-58, researched and written. The first
-of four passes.** Committed and **NOT pushed**, which is the rhythm for a draft pass.
-**Not published**, and publication of the series has never been authorised.
-**Fifty-nine of seventy-two drafted.**
+**Task**: **A355, X-Planes: X-58, the Slot Taken by XQ-58, equation-density review. The
+second of four passes.** Committed and **NOT pushed**. **Not published**, and publication of
+the series has never been authorised. **Fifty-nine of seventy-two drafted.**
 
 ---
 
-## The Handoff Said A355 Was the X-59 and It Was Wrong by One
+## Twenty-Two Display Equations to Forty, and Four of Them Found Something
 
-**Every index in this series maps to the designation one below it**, so index 2 is the X-1
-and index 58 is the [X-57][related_post_a354_esaero_x57_maxwell]. **Checked across all
-fifty-seven designation articles, there are zero mismatches**, and index 59 is therefore the
-X-58 rather than the X-59.
+**Display equations 22 to 40, declared symbols 73 to 101**, lines 5,802 to 6,052, words
+36,339 to 39,919, **references unchanged at 2,557** because an equation pass adds no sources.
 
-**The pilot's title was right and the handoff's resume prompt was wrong.** The sonic-boom
-preparation the handoff carried belongs to A356. It is recorded here so the next agent does
-not inherit the error a second time.
+### The Two Published Speeds Do Not Refer to the Same Altitude
 
----
+**The specification carries 566 knots and Mach 0.85 side by side, and those agree only at
+sea level.** At sea level 566 knots is Mach 0.856, which matches the published figure to
+within half a percent. **At the quoted 45,000 foot ceiling the same speed is Mach 0.987**,
+which is very nearly sonic and is not a speed this planform holds.
 
-## The Article Was Already Written Inside the Register
+**Nothing in any source says the maximum is a sea level figure.** The article infers it from
+consistency and says so. **A reader who assumes both apply at the ceiling is wrong by fifteen
+percent**, and the dynamic pressure differs by a factor of 7.3 between the two conditions.
 
-**The string X-58 appears exactly once in the 526-row register, inside a note about a
-different aeroplane, in a parenthesis, saying it does not exist.** That count is recomputed
-by the verifier rather than quoted.
+### The Two Published Unit Costs Imply a Progress Ratio of 0.5
 
-**Three dates are the whole of the evidence.** The X-57A was allocated 03-May-16, the XQ-58A
-on 10-Jul-17 and the X-59A on 21-Jun-18. **The number 58 was allocated between 57 and 59,
-and 57 and 59 are X numbers.**
+**Read as a learning curve, four million dollars at fifty a year and two million at a hundred
+is a halving for one doubling.** Airframe curves are conventionally quoted at 80 to 85
+percent, and **an 85 percent curve needs 4.27 doublings to halve a cost**, not one. The same
+doubling would take an 85 percent curve to 3.4 million dollars.
 
-**The instruction contains the rule and the power to break it, one sub-paragraph apart.**
-DAFI 16-401 says design numbers run consecutively, tells a requester how to find the next in
-series, and then says that the allocating office reserves the authority to skip design
-number at discretion. **No criterion, no recorded reason, no appeal.** The X-58 does not
-exist because a discretion was exercised, and the same office refused the
-[X-52][related_post_a349_x52_designation_refused].
+**The charitable reading is that these are rates and not cumulative units**, which makes the
+claim about economies of scale rather than learning. **The article states both readings and
+settles neither**, because no source specifies the basis.
 
----
+### The Argument for Attritable Aircraft Needs No Prices
 
-## Every Obvious Explanation Fails Against the Register, and One Survives
+**Once the design life stops binding, the cost per sortie is the unit cost multiplied by the
+probability of loss.** The derivative with respect to survivability is therefore the unit
+cost itself, at every value of the probability. **A percentage point of survival is worth one
+percent of the airframe price per sortie**, which is 20,000 dollars at the lower unit cost.
 
-**Half the X series is unmanned.** Fifteen of the thirty X rows say so in their own mission
-statements. **Not one of the fifteen carries the Q vehicle type symbol the instruction
-requires for an unmanned aircraft, and the aeroplane that does carry it is the one whose
-number the X series lost.**
+**And the break-even against an aeroplane that is not meant to be lost depends only on the
+ratio of the two costs.** Against an aeroplane twenty times its price surviving 99 sorties in
+100, this one wins above 0.8. **The relation also says when the case fails**, since a ratio of
+ten against a nearly invulnerable opponent demands 99 percent survival. **The argument needs a
+hostile sky as much as it needs a low price**, and the draft did not say so.
 
-**So the anomaly inverts.** The Valkyrie is not the aeroplane that failed to qualify as an
-X-plane. **It is the aeroplane whose designation obeyed the vehicle type rule**, and obeying
-it moved the aeroplane into another series and took the number along. **That is the
-article's own inference and it is labelled as one**, because nobody has been found saying it.
+### The Canopy That Lands It Cannot Be Opened at the Speed It Arrives
 
-**The mission test fails too.** The X-45A's register entry names suppression of enemy air
-defences, which is the role the Marine Corps intends for the production Valkyrie. **The
-armament test fails on the X-68A**, an armed unmanned combat air vehicle holding an X number.
+**The canopy sized for an eight metre per second touchdown, opened at sixty metres per
+second, imposes 56.2 times gravity on the empty mass.** **The arithmetic is right and the
+premise is impossible, which is the finding rather than an error.** The recovery must be
+staged. A first stage of 0.1778 of the full area holds ten times gravity, and the full canopy
+is tolerable only below 25.3 metres per second.
 
----
-
-## What the Skip Cost, Computed
-
-**The X series consumes 1.385 numbers a year over its 26 years in the register**, so one
-skipped number costs about 8.7 months of allocation and the sequence has about 667 years of
-headroom. **Scarcity explains nothing and no argument in the article rests on it.**
+**How the staging is actually done is not documented anywhere consulted.** The article derives
+that there must be some and does not report what it is.
 
 ---
 
-## The Arithmetic Favours a Turbofan Where the Sources Disagree
+## Three Defects in the Pass's Own New Work, All Caught Before Assembly
 
-**The registry says turbojet and the encyclopaedic account says a Williams FJ33 turbofan**,
-and the thrust figures agree. The published range and the computed fuel fraction demand a
-lift-to-drag ratio of 10.43 at a consumption of 0.80 per hour and 13.69 at 1.05. **The
-calculation charges all fuel to cruise and allows nothing for climb or reserve, so every
-figure is a lower bound and the turbojet case is pushed further out of reach.**
+**A break-even relation was written inverted and returned negative probabilities**, which is
+the arithmetic telling the author the expression was backwards.
 
-**The ceiling is a second opinion arrived at independently** and requires between 7.65 and
-12.53 depending on the lapse law. **Two published quantities from two sources imply the same
-band, which is a consistency check and not a measurement of the aeroplane.**
+**An opening load was computed on a truncated design life**, so an exquisite aircraft's cost
+per sortie was wrong by a third until the asymptote was allowed to hold.
 
-**And one assumption moves the answer by nearly a factor of two.** Nobody states whether the
-3,000 nautical mile range assumes the payload aboard. Clean it needs 5.76 and with both
-stations filled it needs 10.43. **The article says so rather than choosing.**
+**And the symbol table refused the first draft of the equation set.** Three collisions were
+caught before assembly, the worst of them a bare `q` for dynamic pressure against a `q` already
+meaning a survival probability, which is now `p_x`.
 
 ---
 
-## Attritability Made Quantitative, and Two Inequalities Left Standing
+## Two Instruments Measured One Thing and Disagreed
 
-**An airframe flown where it survives nine sorties in ten cannot use a life longer than
-ten**, because the expected sorties saturate at one over one minus the survival probability.
-**A life of 100 in that environment wastes 90 percent of the structure that was paid for.**
+**Equation citation coverage came out 36 of 40 on the body and 32 of 40 on the finished
+article**, because a one-line slot becomes a three-line block and the line windows then cover
+different amounts of prose. **Shipping the larger figure because it appeared first would have
+been the defect.** The measurement is now defined once, on the body, and the verifier
+recomputes it there and asserts the article states what was computed.
 
-**The cost-imposing claim and the comparison against a munition are written as inequalities
-and neither is evaluated**, because no citable figure was found for the cost of an
-interceptor or the number expended per engagement. **An inequality with one side unquantified
-is a statement about structure and not a result**, and calling it a result would be the
-defect the last three articles each had to repair in their conclusions.
+**The remaining four are arithmetic on a relation cited immediately above**, which is the same
+result the [X-46][related_post_a343_boeing_x46] measured at 27 of 37 and recorded rather than
+closed.
+
+---
+
+## And the Verifier Learned Not to Restate a Rule It Could Import
+
+**A check expecting `20.0` failed on an article correctly saying `20`**, because the verifier
+carried its own copy of the assembler's number-formatting rule. **A duplicated rule is a
+second place to be wrong.** The verifier now imports the assembler's formatter, so the two
+agree by construction.
 
 ---
 
 ## Verification
 
-**Verifier clean at 0 errors. Tests 110 of 110. Lint 0 findings.** The symbol scanner reports
-all 73 declared symbols used and every symbol used declared.
+**Verifier clean at 0 errors and 0 warnings. Tests 110 of 110. Lint 0 findings.** The symbol
+scanner reports all 101 declared symbols used and every symbol used declared.
 
-**The article verifier runs 184 checks and 22 injected defects were all caught, with the total check disarmed**, covering
-the prose rules, the register counts, the computed values, the survey statistics, the cluster
-table, the equations, the dateline and the quoted documents.
+**The article verifier runs 252 checks and 32 injected defects were all caught with the total
+reassembly check disarmed**, so each defect is caught by the instrument aimed at it rather
+than by the comparison that catches everything.
 
-**The strongest check is reassembly.** The article is a pure function of its body, its
-computed numbers and its reference data, so it is rebuilt and compared byte for byte. **Four
-injections went green before that check existed**, every one because a figure appears in both
-a table and the epistemic state and a presence check is satisfied by the second copy.
-
-**BUT A CHECK THAT CANNOT FAIL SELECTIVELY IS NOT EVIDENCE ABOUT THE INSTRUMENTS BESIDE IT.**
-With reassembly armed, every injection is caught and nothing is learned about the check it
-was aimed at. **The suite now disarms it**, and six defects were then found to be caught by
-reassembly alone. Two instruments were added to close them, one asserting the five
-multiply-stated figures at every occurrence and one comparing each equation body against its
-declaration. **All twenty-two are now caught by the instrument aimed at them.**
-
-**AND TWO INJECTION RUNS DESTROYED EACH OTHER AND ALMOST THE ARTICLE.** Both used one backup
-path, the first finished and deleted it, and the second restored nothing and left an injected
-defect in the draft. **The reassembly check caught it and named the line**, which is the only
-reason it did not reach a build. The backup is now unique per process and a lock refuses a
-second run outright.
-
-**FINAL STATE. 5,802 lines, 22 display equations, 73 declared symbols, 2,557 reference
-definitions, 36,339 words**, research 2,452, report primaries 226 at 9.2 percent, one sweep
-retrieving 9,331 records of which 9,209 distinct, gate 2,543, store armed 9.1 percent.
+**FINAL STATE. 6,052 lines, 40 display equations, 101 declared symbols, 2,557 reference
+definitions, 39,919 words**, research 2,452, report primaries 226 at 9.2 percent.
 
 **The stub-isolated production build succeeded against the exact bytes committed**, the
-checksum matching the draft, the stub copy and the frozen record. **The rendered audit
-reports no findings across 94 pages.** Source and rendered display-equation counts agree at
-22, with zero raw dollar pairs leaking and zero unexpanded slots.
+checksum matching draft, stub copy and frozen record. **The rendered audit reports no findings
+across 94 pages.** Source and rendered display-equation counts agree at **40**, with zero raw
+dollar pairs leaking and zero unexpanded slots. The page is 561,617 bytes.
 
 ---
 
 ## What Remains
 
-**A355 has completed one of four passes.** The next prompt is the equation-density review.
+**A355 has completed two of four passes.** The next prompt is the primary-reference review.
 
-**Three store patterns were repaired and two families opened, all against records.** The
-store is now 136 patterns across 27 families. **A bare curriculum stem was deleting
-reinforcement-learning papers**, because curriculum learning is a training schedule as well
-as a school timetable.
+**The fuel component of the operating cost is now bounded and is under one percent of the
+airframe amortisation at any plausible price**, which narrows the boundary the draft left
+standing without closing it. **Maintenance, ground equipment, boosters, parachutes and people
+remain unquantified**, and the fact sheet's claim of low maintenance is the one no public
+figure supports.
 
-**And the gate was wrong in both directions at once.** It admitted breast cancer
-cost-effectiveness and a diesel engine, and it refused 24 records on the plural of UAV alone,
-among them the loyal wingman concept in a title and an airbag landing system. **Both
-corrections were made and both samples were read again.**
-
-**One disagreement is recorded and unresolved**, being the engine class. **One assumption is
-left open**, being the loading the range figure assumes. **Two inequalities are left as
-conditions on purpose.**
+**Three things the record does not settle were added by this pass**, being whether the maximum
+speed is a sea level figure, whether the two unit costs are cumulative or rate figures, and on
+what basis the payload fraction is quoted. **The engine-class disagreement from the draft pass
+stands**, and the arithmetic still favours the turbofan without deciding it.

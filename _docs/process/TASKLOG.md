@@ -10,58 +10,61 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A354 are drafted with all four passes complete on every one,
-committed and PUSHED. A355, X-Planes: X-58, the Slot Taken by XQ-58, has completed the
-FIRST of four passes**, committed and **NOT pushed**, which is the rhythm for a draft
-pass. **Fifty-nine of seventy-two drafted. None published, and publication has never been
-authorised. Thirteen articles remain.**
+committed and PUSHED. A355, X-Planes: X-58, the Slot Taken by XQ-58, has completed TWO of
+four passes**, committed and **NOT pushed**. **Fifty-nine of seventy-two drafted. None
+published, and publication has never been authorised. Thirteen articles remain.**
 
-**THE HANDOFF SAID A355 WAS THE X-59 AND IT WAS WRONG BY ONE.** Every index in this series
-maps to the designation one below it, checked across all fifty-seven designation articles
-with zero mismatches, so index 59 is the X-58. **The pilot's title was right.** The
-sonic-boom preparation the handoff carried belongs to A356.
+**THE HANDOFF SAID A355 WAS THE X-59 AND IT WAS WRONG BY ONE.** Index 59 is the X-58 and
+the pilot's title was right. The sonic-boom preparation belongs to A356.
 
-**THE ARTICLE WAS ALREADY WRITTEN INSIDE THE REGISTER.** The string X-58 appears exactly
-once in 526 rows, inside a note about a different aeroplane, in a parenthesis, saying it
-does not exist. **Three dates are the whole of the evidence**, the X-57A on 03-May-16, the
-XQ-58A on 10-Jul-17 and the X-59A on 21-Jun-18.
+**THE STRING X-58 APPEARS EXACTLY ONCE IN 526 ROWS**, in a note about a different
+aeroplane, saying it does not exist. **DAFI 16-401 carries the rule and the power to break
+it one sub-paragraph apart**, saying numbers run consecutively and then reserving the
+authority to skip at discretion. **Half the X series is unmanned and not one of the fifteen
+carries the Q symbol the instruction requires**, so the aeroplane that does carry it is the
+one whose number the X series lost.
 
-**THE INSTRUCTION CARRIES THE RULE AND THE POWER TO BREAK IT ONE SUB-PARAGRAPH APART.**
-DAFI 16-401 says design numbers run consecutively and then says the allocating office
-reserves the authority to skip design number at discretion. **No criterion and no recorded
-reason.** The same office refused the X-52.
+**THE EQUATION PASS TOOK 22 DISPLAY EQUATIONS TO 40 AND FOUND FOUR THINGS.**
 
-**HALF THE X SERIES IS UNMANNED AND NOT ONE OF THEM CARRIES THE REQUIRED Q SYMBOL.**
-Fifteen of thirty X rows describe an unmanned aeroplane. **The aeroplane that does carry
-the vehicle type symbol the instruction requires is the one whose number the X series
-lost**, which inverts the anomaly and is recorded as this article's own inference rather
-than as anything the record states.
+**The two published speeds do not refer to the same altitude.** 566 knots is Mach 0.856 at
+sea level and Mach 0.987 at the quoted ceiling, and only the first agrees with the
+published Mach 0.85. **No source says the maximum is a sea level figure** and the article
+infers it from consistency.
 
-**WHAT THE SKIP COST IS 8.7 MONTHS OF ALLOCATION** against about 667 years of headroom, at
-1.385 numbers a year. **Scarcity explains nothing.**
+**The two published unit costs imply a progress ratio of 0.5**, against the 80 to 85
+percent the standard texts quote, an 85 percent curve needing 4.27 doublings to halve a
+cost rather than one. **Read as rates rather than cumulative units the claim is about
+economies of scale**, and the article states both readings and settles neither.
 
-**THE ARITHMETIC FAVOURS A TURBOFAN WHERE THE SOURCES DISAGREE.** The published range needs
-a lift-to-drag ratio of 10.43 at a consumption of 0.80 per hour and 13.69 at 1.05, and the
-ceiling independently needs 7.65 to 12.53. **Both are lower bounds, so the turbojet case is
-pushed further out of reach.**
+**The argument for attritable aircraft needs no prices.** Once the design life stops
+binding the cost per sortie is the unit cost times the probability of loss, so **a point of
+survivability is worth one percent of the airframe price per sortie at every value of the
+probability**, and the break-even against an aeroplane that is not meant to be lost depends
+only on the cost ratio. **The relation also says when the case fails**, which the draft did
+not.
 
-**FINAL STATE. 5,802 lines, 22 display equations, 73 declared symbols, 2,557 reference
-definitions, 36,339 words**, research 2,452, report primaries 226 at 9.2 percent, one sweep
-retrieving 9,331 of which 9,209 distinct, gate 2,543, store armed 9.1 percent.
+**The canopy that lands it cannot be opened at the speed it arrives**, imposing 56.2 times
+gravity, so the recovery must be staged at about 0.1778 of the full area. **The arithmetic
+is right and the premise is impossible, which is the finding.**
 
-**Verifier 0 errors. Tests 110 of 110. Lint 0 defects.** 161 checks and 22 injected defects
-all caught. **The strongest check is reassembly**, the article being a pure function of its
-sources, and four injections went green before it existed because a figure appearing in
-both a table and the epistemic state defeats a presence check.
+**THREE DEFECTS IN THE PASS'S OWN NEW WORK WERE CAUGHT BEFORE ASSEMBLY**, an inverted
+break-even returning negative probabilities, a truncated design life, and three symbol
+collisions the symbol table refused.
 
-**The stub-isolated production build succeeded against the exact bytes committed**,
-checksum matched against draft, stub copy and frozen record. **The rendered audit reports
-no findings across 94 pages.** Source and rendered display-equation counts agree at 22.
+**TWO INSTRUMENTS MEASURED EQUATION CITATION COVERAGE AND DISAGREED, 36 OF 40 AGAINST 32
+OF 40**, because a one-line slot becomes a three-line block and the line windows then cover
+different prose. **The measurement is now defined once, on the body.** **And a check
+expecting 20.0 failed on an article correctly saying 20**, because the verifier carried its
+own copy of the assembler's formatting rule; it now imports it.
 
-**TWO INEQUALITIES ARE LEFT AS CONDITIONS ON PURPOSE.** The cost-imposing claim and the
-comparison against a munition are written out and neither is evaluated, because no citable
-figure was found for the cost of an interceptor. **One disagreement is recorded and
-unresolved**, being the engine class, and **one assumption is left open**, being the
-loading the published range assumes.
+**FINAL STATE. 6,052 lines, 40 display equations, 101 declared symbols, 2,557 reference
+definitions, 39,919 words**, research 2,452, report primaries 226 at 9.2 percent.
+
+**Verifier 0 errors 0 warnings. Tests 110 of 110. Lint 0 defects.** 252 checks and 32
+injected defects all caught **with the total reassembly check disarmed**, so each is caught
+by the instrument aimed at it. **Build clean against checksum-matched bytes, 94 pages,
+rendered audit reports no findings**, source and rendered display-equation counts agree at
+40.
 
 ## Success Criteria
 
@@ -783,6 +786,7 @@ loading the published range assumes.
 
 | Date | Change |
 |------|--------|
+| 2026-09-09 | **A355 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed. NOT published.** **Display equations 22 to 40, declared symbols 73 to 101**, lines 5,802 to 6,052, words 36,339 to 39,919, **references unchanged at 2,557** since an equation pass adds no sources. **THE TWO PUBLISHED SPEEDS DO NOT REFER TO THE SAME ALTITUDE.** 566 knots is Mach 0.856 at sea level and Mach 0.987 at the quoted ceiling, and only the first agrees with the published Mach 0.85; **no source says the maximum is a sea level figure** and the article infers it from consistency, noting the dynamic pressure differs by 7.3 times between the two conditions. **THE TWO PUBLISHED UNIT COSTS IMPLY A PROGRESS RATIO OF 0.5**, against the 80 to 85 percent the standard texts quote, an 85 percent curve needing 4.27 doublings to halve a cost rather than one and reaching 3.4 million where the published pair reaches 2. **Read as annual rates rather than cumulative units the claim is about economies of scale**, a different mechanism, and the article states both readings and settles neither because no source specifies the basis. **THE ARGUMENT FOR ATTRITABLE AIRCRAFT NEEDS NO PRICES.** Once the design life stops binding the cost per sortie is the unit cost times the probability of loss, so the derivative with respect to survivability is the unit cost itself at every value of the probability, being 20,000 dollars a sortie per point at the lower unit cost, **and the break-even against an aeroplane that is not meant to be lost depends only on the ratio of the two costs**. **That relation also says when the case fails**, a ratio of ten against a nearly invulnerable opponent demanding 99 percent survival, so **the argument needs a hostile sky as much as a low price**, which the draft did not say. **THE CANOPY THAT LANDS IT CANNOT BE OPENED AT THE SPEED IT ARRIVES**, imposing 56.2 times gravity, so the recovery must be staged at about 0.1778 of the full area or opened below 25.3 metres per second; **the arithmetic is right and the premise is impossible, which is the finding rather than an error**, and the staging is not documented anywhere consulted. **THE FUEL COMPONENT OF THE OPERATING COST IS NOW BOUNDED** at under one percent of the airframe amortisation at any plausible price, narrowing the boundary the draft left standing, and the cruise model closes against its own input to within two percent. **THREE DEFECTS IN THE PASS'S OWN NEW WORK WERE CAUGHT BEFORE ASSEMBLY**, an inverted break-even returning negative probabilities, a design life truncated at 1,000 sorties that made an exquisite aircraft a third too cheap, and three symbol collisions the symbol table refused outright. **TWO INSTRUMENTS MEASURED EQUATION CITATION COVERAGE AND DISAGREED, 36 OF 40 AGAINST 32 OF 40**, because a one-line slot becomes a three-line block and the line windows then cover different prose; **shipping the larger figure because it appeared first would have been the defect**, so the measurement is now defined once on the body and the verifier recomputes it there. **AND A CHECK EXPECTING 20.0 FAILED ON AN ARTICLE CORRECTLY SAYING 20**, because the verifier carried its own copy of the assembler's formatting rule; **a duplicated rule is a second place to be wrong** and it now imports the assembler's. Verifier 0 errors 0 warnings, tests 110 of 110, lint 0 findings, 252 checks, **thirty-two injections all caught with the total reassembly check disarmed** so that each is caught by the instrument aimed at it. **Build clean in 77 seconds against checksum-matched bytes, 94 pages, rendered audit reports no findings**, source and rendered display-equation counts agree at 40, page 561,617 bytes. |
 | 2026-09-09 | **A355 RESEARCHED AND WRITTEN, the draft pass, the first of four. Committed, NOT pushed. NOT published.** X-Planes: X-58, the Slot Taken by XQ-58, editorial date 2025-12-03, series index 59. **5,802 lines, 22 display equations, 73 declared symbols, 2,557 reference definitions, 36,339 words**, research 2,452, report primaries 226 at 9.2 percent, one sweep retrieving 9,331 of which 9,209 distinct, store armed 9.1 percent. **THE HANDOFF SAID A355 WAS THE X-59 AND IT WAS WRONG BY ONE**, every index mapping to the designation one below it with zero mismatches across all fifty-seven designation articles, so index 59 is the X-58 and the pilot's title was right. **THE STRING X-58 APPEARS EXACTLY ONCE IN 526 ROWS**, inside a note about a different aeroplane, in a parenthesis, saying it does not exist. **THREE DATES ARE THE WHOLE OF THE EVIDENCE**, the X-57A on 03-May-16, the XQ-58A on 10-Jul-17 and the X-59A on 21-Jun-18. **THE INSTRUCTION CARRIES THE RULE AND THE POWER TO BREAK IT ONE SUB-PARAGRAPH APART**, DAFI 16-401 saying design numbers run consecutively and then that the allocating office reserves the authority to skip design number at discretion, with no criterion and no recorded reason, **by the same office that refused the X-52**. **HALF THE X SERIES IS UNMANNED AND NOT ONE OF THEM CARRIES THE REQUIRED Q SYMBOL**, fifteen of thirty rows, so **the aeroplane that does carry the vehicle type symbol the instruction requires is the one whose number the X series lost**, which inverts the anomaly and is recorded as this article's own inference rather than as anything the record states. The manned test, the mission test and the armament test all fail against the register's own rows, the X-45A naming suppression of enemy air defences and the X-68A being an armed unmanned combat air vehicle with an X number. **THE SKIP COST 8.7 MONTHS OF ALLOCATION** at 1.385 numbers a year against about 667 years of headroom, so scarcity explains nothing. **THE ARITHMETIC FAVOURS A TURBOFAN WHERE THE SOURCES DISAGREE**, the published range needing a lift-to-drag ratio of 10.43 at 0.80 per hour against 13.69 at 1.05, and the ceiling independently needing 7.65 to 12.53; **both are lower bounds because all fuel is charged to cruise**. **ONE ASSUMPTION MOVES THE ANSWER BY NEARLY A FACTOR OF TWO** and nobody states it, being whether the range figure carries the payload. **TWO INEQUALITIES ARE LEFT AS CONDITIONS ON PURPOSE**, the cost-imposing claim and the comparison against a munition, because no citable interceptor cost was found. **THE SYMBOL TABLE CAUGHT THREE COLLISIONS BEFORE ASSEMBLY**, N meaning design life and normal force, m meaning mass and weapons carried, and n meaning four things in four sections. **THE GATE WAS WRONG IN BOTH DIRECTIONS AT ONCE**, admitting breast cancer cost-effectiveness and a diesel engine, and **refusing 24 records on the plural of UAV alone**, among them the loyal wingman concept in a title and an airbag landing system. **THREE STORE PATTERNS REPAIRED AND TWO FAMILIES OPENED, ALL AGAINST RECORDS**, a bare curriculum stem having been deleting reinforcement-learning papers because curriculum learning is a training schedule as well as a school timetable. **FIVE SOURCE-BASE MEASUREMENTS WERE TYPED FROM A CONSOLE AND WENT STALE WHEN THE GATE WAS CORRECTED TWICE**, and are now emitted. **THE WORD THE PROGRAMME USES IS NOT THE WORD THE FIELD USES**, nine titles of 2,452 containing attritable against 120 containing low cost. Verifier 0 errors, tests 110 of 110, lint 0 findings, 184 checks, twenty-two injections all caught with the total check disarmed. **The strongest check is reassembly**, and **four injections went green before it existed** because a figure in both a table and the epistemic state defeats a presence check; **the injection suite now disarms it so each instrument is proven separately**. **Build clean against checksum-matched bytes, 94 pages, rendered audit reports no findings**, source and rendered display-equation counts agree at 22. |
 | 2026-09-09 | **A354 PUBLICATION REVIEW, the fourth and final pass. Committed and PUSHED. NOT published.** All fifty-eight X-Planes drafts remain in `_drafts/`. Final state **6,956 lines, 34 display equations, 52 declared symbols, 3,176 reference definitions, 41,314 words**, research 3,060, report primaries 342 at 11.2 percent, two sweeps retrieving 8,079 of which 7,031 distinct. **THE CONCLUSION OVERREACHED IN TWO PLACES, WHICH IS ELEVEN CONSECUTIVE ARTICLES.** It said the design being finished is not the same as the aeroplane being possible, **which the sources do not support**, the cruise motors having been deemed an unacceptable risk for flight in their then-current configuration with a modified motor heading for a design review when the schedule and budget ended; the conclusion now says the parts being ready rather than the aeroplane being possible. **And it asserted that the blowing solved the landing problem, which the equation pass had explicitly declined to confirm**, so it now carries the boundary instead. A third repair uses the empty engines cell rather than walking past it. **CONCLUSIONS PROBED, NINE OF TEN ZERO UNDER THE ARTICLE'S OWN WORDS AND EIGHT OF TEN COVERED UNDER THE FIELD'S**, three thin at first and **two opening on rewording alone with no sweep needed**, the wetted area conclusion going from 2 to 169 because the probe asked for the phrase while the field writes about drag; the designation stays at one with A341's measurement cited rather than repeated, and one conclusion is out of the gate's scope correctly. **THE CAPS DEFECT DID NOT APPEAR**, having landed in newly written Source Base prose in four of the five preceding passes, which is one observation and not a trend. All fifteen cluster rows state their own recomputed count and the table total equals the research count exactly. Verifier 0 errors 0 warnings, tests 108 of 108, lint 0 defects, 144 passing checks, eighteen injections all caught. **Build clean in 172 seconds against checksum-matched bytes, 93 pages, rendered audit reports no findings**, source and rendered display-equation counts agree at 34, page 616,574 bytes. **One boundary is left standing on purpose**, no consulted source apportioning the blown lift between dynamic pressure, swirl, effective angle of attack and delayed separation. |
 | 2026-09-09 | **A354 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed. NOT published.** **Report primaries 187 at 7.6 percent to 342 at 11.2**, both count and fraction moving; references 2,567 to 3,176, research 2,451 to 3,060, lines 5,669 to 6,905, words 33,185 to 40,283, equations unchanged at 34. **A PROGRAMME'S OWN INDEX CANNOT BE SEARCHED, ONLY READ.** Sixty-three entries transcribed from NASA's published technical papers page resolved to sixty-one, and **the first sweep had retrieved eleven, being eighteen percent**, from a sweep built specifically to avoid A353's failure and which queried the designation alone. **THE REASON WAS TESTED AND A HYPOTHESIS DISPROVED**: a direct query reports seventy-four matching records and returns ten, asking for a hundred returns ten, and **asking by offset returns the same ten again at every offset from ten to seventy**. The suspicion was that the fetching library never paginates, which would have been a corpus-wide defect; **it paginates correctly and the server ignores the offset**, so **the constraint is not the query** and A353's lesson needs strengthening rather than repeating. **A PRESENCE CHECK WAS SATISFIED BY A SECOND COPY OF THE SAME SENTENCE**, the implied lift to drag figure appearing once where derived and once where the article records what a pass changed, so an injection altered one and the other satisfied the check; **the fix counts the stem and requires every occurrence to carry the computed value**, proved in the first position, the second, and both. Verifier 0 errors 0 warnings, tests 108 of 108, lint 0 findings, 144 passing checks, **twenty-four of sixty-one curated identifiers sampled against their own metadata with an absent control that failed correctly** and one documented exception carried rather than a threshold lowered. **Build clean in 121 seconds against checksum-matched bytes, 93 pages, rendered audit reports no findings**, source and rendered display-equation counts agree at 34. |

@@ -191,13 +191,61 @@ $$
 | Service ceiling | 45,000 ft, being 13,716 m |
 | Range | 3,000 nmi, being 5,556 km |
 
-**The mass fractions follow from two of those rows and they are the first thing that tells you what kind of aeroplane this is.**
+**The mass fractions follow from two of those rows and they are the first thing that tells you what kind of aeroplane this is.** The budget closes in the usual way.
+
+$$
+W_0 \;=\; W_e \;+\; W_p \;+\; W_f
+$$
 
 $$
 \zeta \;=\; \frac{W_f}{W_0} \;=\; 1 \;-\; \frac{W_e + W_p}{W_0}
 $$
 
 **The empty mass is 41.7 percent of the maximum and the fuel is 38.3 percent with both payload stations filled**, which is 1,043.3 kg of fuel [[Kratos XQ-58 Valkyrie][ref_ds_q58]] [[Kratos XQ-58 Valkyrie][ref_xq58_wikipedia]]. **An empty fraction near four tenths on an airframe this small is the signature of a structure built to a price rather than to a mass target.**
+
+**The payload fraction is the row that carries the comparison, and this series has already measured the number to compare it against.**
+
+$$
+\Pi_p \;=\; \frac{W_p}{W_0}
+$$
+
+**The Valkyrie carries 20 percent of its maximum mass as payload.** The [X-46][related_post_a343_boeing_x46] measured the Boeing unmanned combat air vehicle family at 12.29 percent, and found the figure constant to four significant figures across a tripling of payload. **The Valkyrie's is 1.627 times that.**
+
+**Two readings are available and the article does not choose between them.** Either the aeroplane is genuinely more efficient at carrying things, which a structure relieved of a pilot, an ejection seat and a long life might well be, **or the two figures are not measuring the same thing**, because a fraction quoted against maximum mass and one quoted against a design gross weight differ by whatever fuel the design case leaves out. **No source consulted here states which basis either figure uses.**
+
+### The Two Published Speeds Do Not Refer to the Same Altitude
+
+**The specification table carries a maximum speed of 566 knots and a maximum Mach number of 0.85, and those two figures are not compatible at the altitude the aeroplane cruises at.** The speed of sound depends only on temperature, and the temperature depends on altitude.
+
+$$
+a_s \;=\; \sqrt{\gamma \, \mathcal{R} \, \Theta}
+$$
+
+$$
+M \;=\; \frac{V}{a_s} \;=\; \frac{V}{\sqrt{\gamma \, \mathcal{R} \, \Theta}}
+$$
+
+**At sea level the standard atmosphere gives 340.3 metres per second and at the quoted ceiling it gives 295.1** [[U.S. Standard Atmosphere, 1976][ref_us_standard_atmosphere]] [[International Standard Atmosphere][ref_icao_atmosphere]]. Evaluating the quoted speeds against both gives the following.
+
+| Quantity | At sea level | At 45,000 ft |
+|---|---:|---:|
+| 566 kn as a Mach number | 0.856 | 0.987 |
+| 476 kn as a Mach number | 0.72 | 0.83 |
+| Mach 0.85 as a speed in knots | 562.3 | 487.5 |
+
+**The 566 knot figure is Mach 0.856 at sea level and Mach 0.987 at the ceiling.** The first agrees with the published Mach 0.85 to within half a percent. **The second is very nearly sonic and is not a speed a subsonic airframe of this shape holds.**
+
+**So the two figures are consistent, and only at sea level.** Nothing in the sources says so. **A maximum speed quoted in knots and a maximum Mach number quoted beside it are the same limit expressed at two different altitudes**, and a reader who assumes both apply at the ceiling will be wrong by fifteen percent.
+
+**The cruise figure behaves the same way and is less troublesome.** At the ceiling, 476 knots is Mach 0.83, which sits below the maximum and is where a subsonic aeroplane of this planform would be expected to cruise. **The cruise figure is therefore an altitude figure and the maximum is a sea level figure**, which is a normal way to write a specification and an easy one to misread.
+
+**The dynamic pressure makes the difference concrete.**
+
+$$
+q \;=\; \tfrac{1}{2} \, \rho \, V^{2} \;=\; \tfrac{1}{2} \, \gamma \, p \, M^{2}
+$$
+
+**At 476 knots at the ceiling the dynamic pressure is 7.1 kilopascals. At 566 knots at sea level it is 51.9**, which is 7.3 times as much. **The structure is sized by the second and the mission is flown at the first**, and the register's mention of flight down to fifty feet means the second is not hypothetical [[Kratos XQ-58 Valkyrie][ref_ds_q58]].
 
 ### The Record of What It Has Done
 
@@ -231,6 +279,14 @@ $$
 N^{\star} \;\simeq\; \frac{1}{1-p} \qquad\text{and}\qquad \eta_L \;=\; \frac{\bar{s}}{N} \;=\; \frac{1-p^{N}}{N\,(1-p)}
 $$
 
+**The same statement can be made as a probability rather than as an expectation, and it is starker that way.**
+
+$$
+\Pr\{\text{the airframe reaches } N\} \;=\; p^{N}
+$$
+
+**An airframe surviving nine sorties in ten reaches a life of ten with probability 0.3487 and a life of a hundred with probability 2.656e-05.** **Qualifying a structure for a hundred sorties in that environment is qualifying it for an outcome that happens about once in forty thousand airframes.**
+
 **The penalty for getting this wrong is severe and it is easy to state.** An airframe given a life of 100 sorties and flown where $p = 0.90$ delivers 10 sorties, so **90 percent of the structural life that was paid for is never used.** Given a life of 10 in the same environment it delivers 6.513 sorties, so the waste falls to 34.9 percent, and the article that is wasted is a much cheaper one. **This is the whole of the attritable argument, and it is arithmetic rather than doctrine.**
 
 **The exquisite aeroplane fails this test by construction.** A structure qualified for thousands of hours, inspected on a schedule that assumes it will survive to need inspecting, and maintained to keep it airworthy for decades, is paying for a life the threat will not let it spend. **The laboratory's fact sheet makes exactly this argument about inspection and maintenance burden**, in prose rather than in symbols [[Factsheet Technology, XQ-58A Valkyrie][ref_afrl_factsheet]].
@@ -245,6 +301,46 @@ $$
 
 **Two unit costs are published and they assume different production rates.** The airframe is stated to be producible at four million dollars each at fifty aircraft per year, and possibly under two million at more than a hundred per year [[Kratos XQ-58 Valkyrie][ref_xq58_wikipedia]]. **At a survival probability of 0.90 and a life long enough not to bind, the airframe cost per sortie is 400,011 dollars at the higher unit cost and 200,005 dollars at the lower.** At 0.95 the same figures fall to 201,191 and 100,596 dollars.
 
+**Once the design life stops binding, that expression collapses to something with no free parameters at all.**
+
+$$
+\bar{C} \;\to\; C_a \, (1-p) \qquad\text{and}\qquad \frac{\partial \bar{C}}{\partial p} \;=\; -\, C_a
+$$
+
+**The cost per sortie becomes the unit cost multiplied by the probability of loss, and the derivative with respect to survivability is the unit cost itself.** **A single percentage point of survival probability is worth one percent of the airframe price, per sortie, and it is worth exactly that at every value of the probability.** At four million dollars that is -40,000 dollars a sortie and at two million it is -20,000.
+
+**That result explains the whole design philosophy in one line.** Survivability is bought with money, and the amount it is worth is proportional to the price of the thing being made survivable. **Making the aeroplane cheap does not merely reduce the loss when it happens. It reduces the value of preventing the loss**, and therefore the amount worth spending on stealth, redundancy, warning receivers and everything else that makes an exquisite aeroplane exquisite.
+
+### The Comparison That Needs No Prices
+
+**The draft of this article left the cost-imposing inequality standing because no citable interceptor price was found. The comparison against an aeroplane that is not meant to be lost has no such difficulty**, because the absolute figures cancel.
+
+$$
+C_a \, (1 - p) \;<\; C_x \, (1 - p_x) \qquad\Longrightarrow\qquad p^{\star} \;=\; 1 \;-\; \frac{C_x}{C_a} \, (1 - p_x)
+$$
+
+**Only the ratio of the two unit costs appears, and the price of neither is needed.** Against an aeroplane twenty times its cost that survives 99 of every 100 sorties, the attritable aeroplane is cheaper per sortie whenever it survives more than 0.8 of its own.
+
+| Cost ratio | Against a survival of 0.99 | Against a survival of 0.999 |
+|---:|---:|---:|
+| 10 | 0.9 | 0.99 |
+| 20 | 0.8 | 0.98 |
+| 40 | 0.6 | 0.96 |
+
+**The table is the argument for attritable aircraft, stated without a single price.** **A cost ratio of forty buys the right to lose four sorties in ten and still be ahead** of an aeroplane that hardly ever fails to come home. **A cost ratio of ten against an opponent that is nearly invulnerable does not**, since the attritable aeroplane must then survive 99 percent of its sorties, which is very nearly what the expensive one manages.
+
+**So the case does not rest on the aeroplane being cheap. It rests on the ratio being large and on the environment being hostile enough that the expensive aeroplane's survival is not near one.** **In a permissive sky the arithmetic favours the exquisite aeroplane**, which is what the laboratory's own fact sheet says in words when it observes that the most sophisticated unmanned aircraft are limited to permissive environments [[Factsheet Technology, XQ-58A Valkyrie][ref_afrl_factsheet]].
+
+### What a Cost Per Sortie Buys, in Airframes
+
+**A campaign needs sorties and a programme buys airframes, and the expected-sorties relation converts one into the other.**
+
+$$
+n_{ac} \;=\; \left\lceil \frac{S_{req}}{\bar{s}} \right\rceil
+$$
+
+**A thousand sorties at a survival probability of 0.90 needs 100 airframes, and at 0.95 it needs 51.** **Five percentage points of survivability halves the fleet.** That is the same result as the derivative above, expressed in the unit a programme office actually orders in.
+
 **Those are airframe amortisation only and they exclude operating cost, weapons and everything else**, which is why the relation above carries $C_{op}$ explicitly and this article does not fill it in. **No published figure for the operating cost of this aeroplane was found.**
 
 **The dependence on production rate is not incidental and it has a standard form.** Unit cost falls with cumulative production along a learning curve, and the exponent is set by the progress ratio [[Experience curve effects][ref_learning_curve]] [[Roskam, Airplane design part VIII, airplane cost estimation][book_roskam]].
@@ -252,6 +348,24 @@ $$
 $$
 C_u \;=\; C_1 \, u^{\,\beta}, \qquad \beta \;=\; \frac{\ln \phi}{\ln 2}
 $$
+
+**Solving the same relation for the progress ratio turns the two published costs into a testable claim.**
+
+$$
+\phi \;=\; \left( \frac{C_B}{C_A} \right)^{\!\!\frac{1}{\log_2 (u_B / u_A)}}
+$$
+
+**Read as a learning curve, the published pair implies a progress ratio of 0.5 and an exponent of -1.** That is a halving of unit cost for one doubling of output. **Airframe learning curves are conventionally quoted between 80 and 85 percent** [[Roskam, Airplane design part VIII, airplane cost estimation][book_roskam]] [[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]] [[Experience curve effects][ref_learning_curve]], and the number of doublings such a curve needs to halve a cost is not one.
+
+$$
+\nu \;=\; \frac{\ln \tfrac{1}{2}}{\ln \phi}
+$$
+
+**On an 85 percent curve it takes 4.27 doublings to halve the unit cost.** The same doubling that the published figures take from four million to two million would take an 85 percent curve to 3,400,000 dollars, and an 80 percent curve to 3,200,000.
+
+**The charitable reading is that the published pair is not a learning curve at all.** The figures are quoted against annual production rates rather than cumulative units, and a rate is not a cumulative total [[Kratos XQ-58 Valkyrie][ref_xq58_wikipedia]]. **Read as rates the claim is about economies of scale**, which are a different mechanism with different arithmetic, arising from tooling amortisation, purchasing and line balance rather than from repetition.
+
+**The article states both readings and settles neither**, because no source consulted specifies the basis. **What can be said is that under the reading the words most naturally support, the implied curve is far steeper than the ones the standard texts quote**, and that this is the kind of claim a programme makes before it has built a hundred of anything.
 
 **This is why the two published unit costs differ by a factor of two, and it is also why neither is a property of the aeroplane.** A cost that depends on a production rate that depends on a procurement decision is not a design parameter. **The number two million dollars is a forecast conditional on somebody ordering a hundred aeroplanes a year, and the record does not show that anybody has.**
 
@@ -268,6 +382,20 @@ $$
 $$
 \frac{C_a}{\bar{s}\,N_w} \;+\; C_w \;<\; C_m
 $$
+
+### Why Survivability Is Expensive, Which Is the Other Half of the Same Trade
+
+**The derivative above says what survivability is worth. The radar range equation says what it costs.** Detection range against a given radar varies as the fourth root of the radar cross-section, because the returned power falls as the fourth power of range [[Knott, Shaeffer and Tuley, Radar cross section][book_knott]].
+
+$$
+R_d \;\propto\; \Sigma^{\,1/4} \qquad\Longrightarrow\qquad \frac{\Sigma'}{\Sigma} \;=\; \left( \frac{R_d'}{R_d} \right)^{\!4}
+$$
+
+**A fourth-root law is brutal in the direction the designer wants to go.** Halving the range at which the vehicle is seen costs a factor of 16 in cross-section. Quartering it costs a factor of 256. **A tenfold reduction in cross-section, which is a serious and expensive piece of engineering, buys a detection range of 0.5623 of the original**, which is to say it takes rather less than half of it away.
+
+**Put the two relations beside each other and the attritable case makes itself.** Survivability is worth the unit cost per point, and it is bought against a fourth-root law. **Lowering the unit cost lowers the value of every point of survivability in exactly the proportion the price falls, while the price of buying those points does not fall at all.** **At some cost ratio the sums stop supporting the shaping**, and the aeroplane is better made plainer, cheaper and more numerous.
+
+**This article does not claim to know where that point is for the Valkyrie**, whose cross-section is not published and whose shaping is visible in photographs but not quantified anywhere consulted. **The relation is displayed because it is the mechanism, not because this article can evaluate it.**
 
 **Both inequalities are left as conditions and neither is evaluated here, because this article has no citable figure for the cost of a modern surface-to-air interceptor or for the number expended per engagement.** **An inequality with one side unquantified is a statement about structure and not a result**, and calling it a result would be the defect the preceding three articles in this series each had to repair in their conclusions.
 
@@ -338,6 +466,46 @@ $$
 
 **A canopy of fifteen metres across for an aeroplane whose wings span eight is the price of not needing a runway at the other end.** The area scales as the inverse square of the touchdown speed, so every metre per second of impact the airframe can tolerate is bought back several times over in canopy.
 
+### The Canopy That Lands It Cannot Be Opened at the Speed It Arrives
+
+**Everything above is the steady descent, which is the easy part.** The sizing case is the opening, and writing it down shows that the two cannot be the same canopy.
+
+$$
+F \;=\; k_s \, \tfrac{1}{2} \, \rho \, V_d^{2} \, C_{D_p} \, S_p
+$$
+
+**Take the canopy that gives an eight metre per second touchdown, 189.1 square metres, and open it at 60 metres per second with no shock factor at all.** The force is 625,448 newtons, which on the empty mass is **56.2 times gravity**. **No airframe of this kind takes that, and no payload does either.**
+
+**The arithmetic is right and the premise is impossible, which is the finding rather than an error.** A landing canopy opened at flight speed destroys what it is recovering. **So the recovery must be staged**, and the relation says in what way.
+
+**One way out is to slow down first.** Solving the same expression for the speed at which the full canopy is tolerable gives a limit.
+
+$$
+V_d \;\le\; \sqrt{\frac{2 \, n_g \, m_e \, g_0}{\rho \, C_{D_p} \, S_p}}
+$$
+
+**The full canopy may be opened at 25.3 metres per second for ten times gravity and 17.9 for five.** **Those are speeds well below anything this aeroplane flies at**, so something else has to take it from cruise to there.
+
+**The other way out is to open a smaller canopy first, which is what reefing is** [[Knacke, Parachute recovery systems design manual][book_knacke]].
+
+$$
+\frac{S_r}{S_p} \;=\; \frac{2 \, n_g \, m_e \, g_0}{\rho \, C_{D_p} \, V_d^{2} \, S_p}
+$$
+
+**At 60 metres per second the first stage may present 33.6 square metres for ten times gravity, being 0.1778 of the full canopy, or 16.8 square metres for five, being 0.0889.** **A reefing ratio near a fifth is entirely ordinary**, and the published description of a drogue and a main is exactly this arithmetic made into hardware [[Kratos XQ-58 Valkyrie][ref_ds_q58]].
+
+**The registry's account says the vehicle is recovered by parachute and says no more than that.** **The staging is not documented anywhere consulted, and this section derives that there must be some rather than reporting what it is.**
+
+### Where It Comes Down Is Not Where It Was Released
+
+**A slow descent is a long descent, and a long descent drifts.**
+
+$$
+x_d \;=\; V_w \, \frac{h_d}{V_t}
+$$
+
+**From a thousand metres at eight metres per second the descent lasts 125 seconds, and a ten metre per second wind carries the vehicle 1,250 metres downwind.** **Runway independence buys freedom from the airfield and pays for it in a recovery footprint over a kilometre across**, which is a different constraint rather than no constraint. **The trade is real and it is not free**, and the fact sheet's phrase about maximum operational flexibility does not mention it [[Factsheet Technology, XQ-58A Valkyrie][ref_afrl_factsheet]].
+
 **And the energy the recovery has to shed is the number that puts the whole scheme in proportion.**
 
 $$
@@ -371,6 +539,32 @@ $$
 | 1.05 per hour | turbojet | 13.69 |
 
 **A lift-to-drag ratio near ten and a half is unremarkable for a small swept jet with an internal bay. A ratio near fourteen is not.** **The arithmetic therefore favours the turbofan**, and it does so more strongly than the table shows, because the calculation charges the whole fuel load to cruise and allows nothing for climb, descent or reserve. **Allowing for those raises every figure in the right-hand column and pushes the turbojet case further out of reach.**
+
+### What the Engine Actually Has to Do, and What That Costs
+
+**The lift-to-drag ratio the range demands can be turned round to say what the engine is doing in cruise.**
+
+$$
+T_{req} \;=\; \frac{W}{L/D}
+$$
+
+**At the mid-cruise weight and the derived lift-to-drag ratio the thrust required is 2,068 newtons**, which is 0.2325 of the installed 8,896. **An aeroplane cruising on less than a quarter of its sea level thrust is unremarkable**, since thrust lapses with density and the remainder buys climb and acceleration.
+
+**The fuel flow and the endurance follow immediately.**
+
+$$
+\dot{W}_f \;=\; c \, T_{req} \qquad\text{and}\qquad t \;=\; \frac{W_f}{c \, T_{req}}
+$$
+
+**That gives 168.7 kilograms an hour and an endurance of 6.18 hours with every kilogram of fuel spent in cruise.** Multiplying by the cruise speed returns 5,451 kilometres against the published 5,556. **The two agree to within two percent, and the residual is the rounding in the lift-to-drag ratio and the use of a mid-cruise weight in place of the integral.** **A closure this tight is what makes the earlier argument about the engine class worth anything**, since a model that could not reproduce its own input would be no evidence about anything.
+
+### And It Partly Closes the Cost Boundary the Draft Left Open
+
+**The cost-per-sortie relation carries an operating term this article could not fill in.** Fuel is the one component of it that the numbers above determine.
+
+**At 1,043.3 kilograms a sortie and an assumed dollar a kilogram, the fuel costs 1,043 dollars.** **The price is assumed and is not cited**, and it is stated so that the reader can substitute another and see that it does not matter. **Against the airframe amortisation of 200,005 dollars at the lower unit cost and a survival probability of 0.90, the fuel is 0.522 percent.**
+
+**A price ten times higher would still leave fuel under six percent of the amortisation.** **So the operating term is not where this aeroplane's cost per sortie lives**, and the boundary the draft left standing is narrower than it looked. **What remains unquantified is maintenance, ground equipment, the boosters, the parachutes and the people**, and the fact sheet's claim of low maintenance is the very thing no public figure supports.
 
 **This is offered as a consistency argument and not as a resolution of the sources.** No primary document consulted here names the engine. **What can be said is that the published range and the published fuel fraction are consistent with a turbofan and strained by a turbojet, and that the registry's own specification note warns that its figures may be inaccurate** [[Kratos XQ-58 Valkyrie][ref_ds_q58]].
 
@@ -425,6 +619,33 @@ $$
 | $N$ | design life, in sorties |
 | $k$ | sortie index |
 | $t$ | time |
+| $\gamma$ | ratio of specific heats for air |
+| $M$ | Mach number |
+| $a_s$ | speed of sound |
+| $\Theta$ | air temperature |
+| $q$ | dynamic pressure |
+| $\Pi_p$ | payload fraction |
+| $C_A$ | unit cost at the lower production rate |
+| $C_B$ | unit cost at the higher production rate |
+| $u_A$ | the lower production rate |
+| $u_B$ | the higher production rate |
+| $\nu$ | doublings of output needed to halve the unit cost |
+| $p^{\star}$ | survival probability at which the two aeroplanes cost the same |
+| $C_x$ | unit cost of an aeroplane that is not meant to be lost |
+| $p_x$ | its probability of surviving one sortie |
+| $n_{ac}$ | airframes needed |
+| $S_{req}$ | sorties the campaign requires |
+| $T_{req}$ | thrust required in cruise |
+| $\dot{W}_f$ | rate at which fuel weight is consumed |
+| $R_d$ | range at which the vehicle is detected |
+| $\Sigma$ | radar cross-section |
+| $n_g$ | load factor the airframe may take on opening |
+| $S_r$ | reefed canopy area |
+| $V_d$ | speed at which the canopy is deployed |
+| $V_w$ | wind speed |
+| $x_d$ | distance the vehicle drifts under the canopy |
+| $h_d$ | height at which the descent begins |
+| $k_s$ | opening shock factor |
 | $p$ | probability of surviving one sortie |
 | $\eta_L$ | fraction of the design life actually used |
 | $\bar{C}$ | expected cost per sortie |
@@ -476,6 +697,7 @@ $$
 | $V_{LO}$ | lift-off speed |
 | $\mu$ | coefficient of friction along the launch rail |
 | $F_N$ | normal force between the vehicle and the rail |
+| $F$ | force the canopy exerts as it opens |
 | $I_{req}$ | booster impulse required |
 | $I_{sp}$ | booster specific impulse |
 | $L_r$ | launch rail length |
@@ -650,6 +872,12 @@ $$
 
 **The general unmanned-aircraft pattern matches 1,160 of the 2,452 references**, because a sweep about an unmanned aeroplane returns a pool of unmanned aeroplanes. Read before the specific clusters it would claim 1,160 and starve every cluster below it, and as placed it claims 791. **Starving the clusters below is the defect the [X-56][related_post_a353_lockheed_martin_x56] recorded when its own central subject reported 19 where it was 325.** **A class that general is a residual and not a subject**, so it now claims only what the specific clusters did not.
 
+### Where the Displayed Relations Come From
+
+**36 of the 40 display equations carry a citation within six lines above or twelve below.** The remainder are arithmetic on a relation cited immediately above them, which is the same result the [X-46][related_post_a343_boeing_x46] measured at 27 of 37 and recorded rather than closed.
+
+**The number is reported because the alternative is to cite the same source beside every step of a derivation**, which pads a reference list without adding a source. **What would be wrong is a displayed relation whose provenance is nowhere in the section**, and the measurement exists to find that.
+
 ### The Report Server Serves Ten Records a Query However the Query Is Phrased
 
 **The space agency's report server contributed 16 records to the reference list across 12 queries.** That is the ceiling and not a measurement of the subject. The [X-57][related_post_a354_esaero_x57_maxwell] established that the server reports its true total and serves ten, and ignores the offset, and that the fetching library sends the offset correctly. **Report coverage is bought with the number of queries and never with the row count.**
@@ -684,6 +912,14 @@ $$
 
 **The booster propellant needed to reach a lift-off speed between 40 and 70 m per second is between 1.77 and 3.1 percent of the maximum mass.** This ignores engine thrust, drag and rail friction along the launch run, all of which reduce the requirement, so it is an upper bound.
 
+**The equation pass added five results and each is arithmetic on published figures.** **The published maximum speed of 566 knots is Mach 0.856 at sea level and Mach 0.987 at the quoted ceiling**, so it agrees with the published Mach 0.85 at the first and not the second. **The two published unit costs, read as a learning curve, imply a progress ratio of 0.5** against the 80 to 85 percent the standard texts quote, and an 85 percent curve would need 4.27 doublings rather than one.
+
+**Once the design life stops binding, the cost per sortie is the unit cost multiplied by the probability of loss, so the derivative with respect to survivability is the unit cost itself.** A percentage point is worth -20,000 dollars a sortie at the lower unit cost. **The break-even against an aeroplane that is not meant to be lost depends only on the ratio of the two unit costs and not on either price.**
+
+**The canopy that gives an eight metre per second touchdown, opened at 60 metres per second, would impose 56.2 times gravity.** **The arithmetic is right and the premise is impossible**, which is why the recovery must be staged, and a first stage of about 0.1778 of the full area holds the load to ten times gravity.
+
+**The cruise model closes against its own input to within two percent**, returning 5,451 kilometres against a published 5,556.
+
 ### Inference
 
 **That the number 58 was taken from the X series is an inference from three dates and it is the registry's inference before it is this article's.** No allocation letter is public. **The inference is strong and it is not proof.**
@@ -700,9 +936,19 @@ $$
 
 **Whether the engine is a turbojet or a turbofan is not settled by any primary document found here.** The arithmetic favours the turbofan and does not decide it.
 
+**No source states that the maximum speed is a sea level figure.** The article infers it because the alternative puts a subsonic airframe at Mach 0.987. **That is an inference from consistency and not a statement anybody has made.**
+
+**Whether the two published unit costs are cumulative-unit figures or annual-rate figures is not stated**, and the two readings describe different mechanisms. **The article reports both and settles neither.**
+
+**On what basis the payload fraction is quoted is not stated either**, so the comparison with the figure the [X-46][related_post_a343_boeing_x46] measured may be comparing two different things.
+
+**How the parachute recovery is staged is not documented anywhere consulted.** The article derives that it must be staged and does not report how.
+
 **Which loading the published range assumes is not stated**, and the answer changes the implied lift-to-drag ratio by nearly a factor of two.
 
-**What the aeroplane costs to operate is not published**, so every cost-per-sortie figure in this article is airframe amortisation alone.
+**What the aeroplane costs to operate is not published**, so every cost-per-sortie figure in this article is airframe amortisation alone. **The fuel component can be bounded and is under one percent of the amortisation at any plausible price**, which narrows the gap without closing it. **Maintenance, ground equipment, boosters, parachutes and people remain unquantified**, and the fact sheet's claim of low maintenance is the one no public figure supports.
+
+**The radar cross-section is not published**, so the relation between survivability and its price is displayed as a mechanism and never evaluated for this aeroplane.
 
 ## Out of Scope
 
@@ -727,6 +973,10 @@ $$
 **Every obvious reason for the Valkyrie not being an X-plane fails against the register.** Half the X series is unmanned. One X row is an armed unmanned combat air vehicle. Another was allocated for the same mission the production Valkyrie is intended to fly. **The register refutes the manned test, the combat test and the armament test in turn, and it does so with its own rows.**
 
 **What survives is a distinction the register cannot record.** An X-plane's value sits in its airframe, so the airframe governs the risk. **An attritable aeroplane's value sits in the effect it delivers, and the airframe is a consumable.** The [X-56][related_post_a353_lockheed_martin_x56] stopped short of the boundary it was built to cross because one airframe was left. **The Valkyrie is designed so that the same question never arises.**
+
+**The arithmetic added one thing the prose could not have reached, and it is the argument for attritable aircraft stated without a price.** Once the design life stops binding, the cost per sortie is the unit cost multiplied by the probability of loss. **The break-even against an aeroplane that is not meant to be lost therefore depends only on the ratio of the two costs**, and against an aeroplane twenty times its price that survives 99 sorties in 100, this one is ahead whenever it survives more than 0.8 of its own.
+
+**That relation also says when the case fails**, which is the half a programme brochure leaves out. **In a sky where the expensive aeroplane hardly ever fails to come home, a cost ratio of ten demands that the cheap one survive 99 percent of its sorties**, which is very nearly what the expensive one manages. **The argument needs a hostile sky as much as it needs a low price.**
 
 **And there is one thing the register does record, which is the shape of a system losing a rule.** Four of the five out-of-sequence Q numbers inside the X range are X gaps, the fifth follows a fighter, and the registry has already written of the fighters that there is to all intents and purposes no longer a sequence [[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. **A design number was once a position in a queue. It is becoming a thing a programme chooses because of what it says.**
 
