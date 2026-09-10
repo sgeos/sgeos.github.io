@@ -1990,6 +1990,44 @@ def t_homonym_a355_a_curriculum_can_be_a_training_schedule():
         assert homonyms.noise_hit(title) is not None, f"school curriculum survived: {title}"
 
 
+def t_homonym_a356_an_aeroplane_flown_on_a_camera_owns_the_display_literature():
+    """A356: A FAMILY MUST BE TAGGED BEFORE IT CAN BE OPENED, AND THIS ONE WAS NOT.
+
+    The cockpit-display family was earned by A347 against the human-factors literature of
+    ROTORCRAFT displays, where it is about the pilot of a helicopter and A347's subject was
+    unmanned. **The X-59 has no forward windscreen.** It is flown on a four-thousand-line
+    camera feeding a display with integrated symbology, and NASA's own project overview
+    names that system a principal supporting technology and records that it was validated
+    in flight with guest pilots performing see-to-avoid and see-to-follow tasks.
+
+    Untagged, the family removed 31 records from A356's pool. **The repair is a tag rather
+    than a weakening**, on the A352 adhesive-bonding precedent, because hover symbology
+    scaling is still contamination for a rotorcraft-autonomy survey.
+
+    Both directions are asserted. A guard that released the records the family was written
+    for would be a deletion rather than a repair, so the rotorcraft records are checked to
+    be still held while the family is armed.
+    """
+    for title in [
+        "Challenges with displaying enhanced and synthetic vision video on a head-up "
+        "display",
+        "Effects of Primary Flight Symbology on Workload and Situation Awareness in a "
+        "Head-Up Synthetic Vision Display",
+        "Multi-dimensionality of synthetic vision cockpit displays Prevention of "
+        "controlled-flight-into-terrain",
+    ]:
+        assert homonyms.noise_hit(title) is not None, (
+            f"the family must still be armed by default: {title}")
+        kept, dropped = homonyms.filter_records(
+            {"u": {"title": title, "venue": ""}}, allow=("cockpit-displays",))
+        assert "u" in kept, f"opening the family must release it: {title}"
+
+    # **AND THE FAMILY MUST STILL HOLD WHAT IT WAS WRITTEN FOR** while it is armed.
+    assert homonyms.noise_hit(
+        "Effects of Hover Symbology Display Scaling on Performance and Workload"
+    ) is not None, "the record the family was written for is no longer held"
+
+
 def t_homonym_a355_two_abbreviations_that_an_aeroplane_paper_may_use_correctly():
     """A355: A STORE PATTERN MUST NOT PUNISH A PAPER FOR USING A WORD PROPERLY.
 

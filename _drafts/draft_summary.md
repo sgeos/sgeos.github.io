@@ -17,6 +17,51 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Lockheed Martin X-59 Quesst A356 2025-12-04
+
+`x_planes_lockheed_martin_x59_quesst.markdown`, A356, editorial date 2025-12-04, series `x_planes` index 60 of 72.
+
+**9,209 lines, 28 display equations, 65 declared symbols, 4,208 reference definitions,
+53,929 words after the draft pass.** **DRAFT PASS COMPLETE, three passes remain.**
+Committed, **NOT pushed**. **Not published**, and publication of the series has never been
+authorised. **Flying-demonstrator class, and the first article in the series whose subject
+is a sound rather than an aeroplane.**
+
+**OF 526 ALLOCATION ROWS EXACTLY 2 MENTION A SONIC BOOM AND THE WORD CREATE APPEARS IN 1.**
+The other boom row is the X-54, never built, which was to be capable of generating relevant
+ground signatures where this one will create a shaped one. **The difference is one adjective
+and it is the whole programme.**
+
+**THE RULE IT EXISTS TO CHANGE CONTAINS NO LOUDNESS AND NEITHER DOES THE ORDER TO REPEAL
+IT.** The X-54 established that 91.817 is a speed limit; this article adds that 91.818
+requires no measurable overpressure at the surface and that Executive Order 14304 leaves the
+threshold to a later rulemaking. **The 180-day deadline expired the day before the editorial
+date and nothing happened**, which the X-54 could not report and this article can.
+
+**THE LOUDNESS CLAIM DOES NOT SURVIVE BEING GIVEN A UNIT.** Seventy-five perceived level
+decibels is 47.8 percent quieter than Concorde's 105 in sones and 44.3 to 53.1 across every
+published baseline. **The ninety percent that is repeatedly published is a pressure ratio of
+85 percent reported as a loudness.**
+
+**CLASSICAL THEORY IS WRONG ABOUT THE RISE TIME BY A FACTOR OF 192**, and rise time is what
+sets loudness, so **a predicted perceived level is a prediction about the weather**. **The
+cutoff Mach number reproduces the X-54's 1.153 by a different derivation and the aeroplane
+cruises 21.4 percent above it on purpose.**
+
+**AT THE EDITORIAL DATE IT HAD FLOWN ONCE, SUBSONICALLY, WITH THE GEAR DOWN**, 67 minutes at
+24.9 percent of design cruise speed, 3.82 years after the stated end of its contract.
+
+**Thirteen of twenty-eight store families are open, the most of any article in this series**,
+and the sum of the parts is smaller than the whole, which inverts A353's and A354's
+measurement. **One thin conclusion was harvested for and nothing remains thin**, the first
+time in this series that has been true.
+
+**Verifier 0 errors 0 warnings, tests 111 of 111, lint 0 defects and 3 convention findings,
+90 checks and forty-three injected defects all caught with the total check disarmed.**
+Identifiers verified on content with an absent control that failed correctly. Build clean
+against checksum-matched bytes, 95 pages, rendered audit reports no findings, source and
+rendered display-equation counts agree at 28.
+
 ## X-Planes X-58 the Slot Taken by XQ-58 A355 2025-12-03
 
 `x_planes_x58_slot_taken_by_xq58.markdown`, A355, editorial date 2025-12-03, series `x_planes` index 59 of 72.
@@ -9164,17 +9209,19 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fifty-eight files exist in `_drafts/`. One is a template. One is this summary.
-**Forty-eight are the in-progress X-Planes series, A297 through A344, none of them published**, and
-publication of the series has never been authorised.
+Seventy files exist in `_drafts/`. One is a template. One is this summary.
+**Sixty are the in-progress X-Planes series, A297 through A356 with no gaps, none of them
+published**, and publication of the series has never been authorised.
 Eight are the pre-release candidates listed below.
 No stubs remain.
 A79 through A144 have been published.
 
-**These counts were re-measured against the working tree on 2026-08-31 rather than carried forward.**
-The previous version read fifty-two files and forty-two X-Planes drafts running to A338, which had
-been true three articles earlier. **A resume channel that disagrees with the tree is worse than one
-that is merely terse**, so the figures above come from counting the directory.
+**These counts were re-measured against the working tree on 2026-09-10 rather than carried forward.**
+The previous version read fifty-eight files and forty-eight X-Planes drafts running to A344, which
+had been true twelve articles earlier, and it had been correct when written on 2026-08-31. **A
+resume channel that disagrees with the tree is worse than one that is merely terse**, so the figures
+above come from counting the directory, and the contiguity of the article numbers was checked rather
+than assumed.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.

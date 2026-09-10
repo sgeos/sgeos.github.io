@@ -279,7 +279,13 @@ NOISE_PATTERNS = [
      "Symbology Display Scaling on Performance and Workload'. It is genuinely about "
      "helicopters and genuinely about hover, and it is about the PILOT rather than the "
      "aircraft. A347's subject was unmanned, which is what makes the family off-topic "
-     "here rather than merely peripheral"),
+     "here rather than merely peripheral. **A356 TAGGED IT AND OPENED IT**, because the "
+     "X-59 has no forward windscreen and is flown on a camera and a display, so the "
+     "synthetic-vision and symbology literature is that aeroplane's own subject. The "
+     "family untagged deleted 31 records including 'Challenges with displaying enhanced "
+     "and synthetic vision video on a head-up display'. **A FAMILY MUST BE TAGGED BEFORE "
+     "IT CAN BE OPENED**, which A354 recorded and this is the next case of",
+     "cockpit-displays"),
     (r"adhesive bond",
      "A347 recorded this inside the rotor-blade repair entry below. **A352 SPLIT IT OUT AND "
      "TAGGED IT**, because adhesive bonding is how a unitised composite airframe is joined "
