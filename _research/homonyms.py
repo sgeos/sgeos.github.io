@@ -467,7 +467,17 @@ NOISE_PATTERNS = [
     (r"\bvaccin|\bepidemi|\bmortality\b", "public-health bleed", "medicine"),
     (r"\bblood pressure\b|\bcholesterol\b",
      "'lowering' is a compiler term and a medical one", "medicine"),
-    (r"\bclassroom\b|\bcurricul|\bpedagog", "'instruction' is a machine term and a TEACHING term",
+    (r"\bclassroom\b|\bpedagog", "'instruction' is a machine term and a TEACHING term",
+     "teaching"),
+    (r"^(?!.*\b(?:curriculum learning|automatic curriculum|reinforcement learning|"
+     r"deep learning|machine learning|neural|attention|policy gradient|"
+     r"multi[- ]agent|agent|adversarial|self[- ]play)\b)(?=.*\bcurricul)",
+     "A355: CURRICULUM LEARNING is a training schedule in reinforcement learning and "
+     "shares its word with the school timetable. The bare `curricul` stem removed "
+     "'Hierarchical Reinforcement Learning with Automatic Curriculum Generation for "
+     "Unmanned Combat Aerial Vehicles' and two further air-combat papers, which are that "
+     "article's autonomy cluster. **The pedagogical sense is kept and the machine sense "
+     "is released**, so a genuine curriculum-revision study still drops",
      "teaching"),
     (r"\bnanoparticle|\bcatalys", "'synthesis' is a program term and a CHEMICAL term"),
     (r"\bwireless sensor network", "'coverage' in sensor networks is a different problem"),
@@ -540,7 +550,8 @@ NOISE_PATTERNS = [
      "A335: the PARACHUTE FLARE again, this time written as 'Flare, Surface: "
      "Parachute XM183' so that the two words are separated and the earlier pattern "
      "missed it"),
-    (r"\bODE\b|\bordinary differential equation\b|\bcalculus\b|\bteaching\b",
+    (r"^(?!.*\b(?:Breguet|aircraft design|cruise (?:mission|segment)|flight (?:envelope|mechanics))\b)"
+     r"(?=.*(?:\bODE\b|\bordinary differential equation\b|\bcalculus\b|\bteaching\b))",
      "A335: THE PARACHUTE PROBLEM is a standard exercise in differential equations "
      "teaching. 'ODE Models for the Parachute Problem' reached the kept set",
      "teaching"),
@@ -891,7 +902,7 @@ NOISE_PATTERNS = [
      r"land cover|remote sensing|oil spill|heritage|archaeolog|wildlife|"
      r"forest (?:fire|inventory)|power line inspection|parcel deliver|delivery drone|"
      r"\bfarming\b|vineyard|weed detect|disaster (?:response|management|assessment)|"
-     r"search and rescue",
+     r"(?<!combat )search and rescue",
      "A342: CIVIL SMALL-AIRCRAFT APPLICATIONS reached the kept set through the bare "
      "`unmanned` anchor, being hyperspectral imaging for precision agriculture, flood "
      "monitoring, forest fire prevention and heritage documentation. The cut is by "

@@ -5,119 +5,155 @@
 ## Last Updated
 
 **Date**: 2026-09-09
-**Task**: **A354, X-Planes: ESAero X-57 Maxwell, publication review. The fourth and last of
-four.** Committed and **PUSHED**. **Not published**, and publication of the series still not
-authorised. **Fifty-eight of seventy-two drafted.**
+**Task**: **A355, X-Planes: X-58, the Slot Taken by XQ-58, researched and written. The first
+of four passes.** Committed and **NOT pushed**, which is the rhythm for a draft pass.
+**Not published**, and publication of the series has never been authorised.
+**Fifty-nine of seventy-two drafted.**
 
 ---
 
-## The Conclusion Overreached in Two Places, Which Is Eleven Consecutive Articles
+## The Handoff Said A355 Was the X-59 and It Was Wrong by One
 
-**It said the design being finished is not the same as the aeroplane being possible.** The
-sources do not support that. **The cruise motors in their then-current configuration were
-deemed an unacceptable risk for flight, and the team was working toward a design review for
-a modified motor when the schedule and the budget ended.** What the record shows is a
-programme that ran out of both, not a machine that could not be built.
+**Every index in this series maps to the designation one below it**, so index 2 is the X-1
+and index 58 is the [X-57][related_post_a354_esaero_x57_maxwell]. **Checked across all
+fifty-seven designation articles, there are zero mismatches**, and index 59 is therefore the
+X-58 rather than the X-59.
 
-**The conclusion now says the design being finished is not the same as the parts being
-ready**, which is the article's actual thesis and is the thing a register cannot record. The
-opening carries the same distinction so the two ends agree.
-
-**And it asserted that the blowing solved the landing problem, which the equation pass had
-explicitly declined to confirm.** The body establishes that dynamic pressure augmentation
-over seventy percent of the span cannot account for the required lift on the installed
-power. **A conclusion cannot resolve by assertion what the body left standing as a
-boundary.** It now carries the boundary.
-
-**A third repair was smaller and worth noting.** The conclusion listed the engines among the
-register's columns without noting that this row's is empty, after the body had spent a
-section on that cell. **It now uses the blank rather than walking past it**, since the blank
-that would have mattered is the one no register has, being a column for whether the parts
-exist yet.
+**The pilot's title was right and the handoff's resume prompt was wrong.** The sonic-boom
+preparation the handoff carried belongs to A356. It is recorded here so the next agent does
+not inherit the error a second time.
 
 ---
 
-## Conclusions Probed, and Two of Three Thin Ones Opened on Rewording Alone
+## The Article Was Already Written Inside the Register
 
-**Nine of ten measure zero under the article's own vocabulary and eight of ten are thickly
-covered under the field's.** That is the third article running with the same result, and it
-is a fact about phrasing rather than about the pool.
+**The string X-58 appears exactly once in the 526-row register, inside a note about a
+different aeroplane, in a parenthesis, saying it does not exist.** That count is recomputed
+by the verifier rather than quoted.
 
-| Conclusion | First probe | After rewording |
-|---|---:|---:|
-| the wetted area saving against the wing cut | 2 | 169 |
-| a programme's index as a subject of study | 0 | 11 |
-| the register entry as a specification | 0 | 1 |
+**Three dates are the whole of the evidence.** The X-57A was allocated 03-May-16, the XQ-58A
+on 10-Jul-17 and the X-59A on 21-Jun-18. **The number 58 was allocated between 57 and 59,
+and 57 and 59 are X numbers.**
 
-**No sweep was needed.** The wetted area conclusion went from 2 to 169 because the first
-probe asked for the phrase and the field writes about drag. **The designation stays at one
-and A341's measurement is cited rather than repeated.**
-
-**One conclusion is out of this gate's scope and correctly so.** How a programme's published
-output can and cannot be retrieved is a question about bibliography rather than about
-aeronautics. **It is reported because the article ran into it, not because the survey covers
-it.**
+**The instruction contains the rule and the power to break it, one sub-paragraph apart.**
+DAFI 16-401 says design numbers run consecutively, tells a requester how to find the next in
+series, and then says that the allocating office reserves the authority to skip design
+number at discretion. **No criterion, no recorded reason, no appeal.** The X-58 does not
+exist because a discretion was exercised, and the same office refused the
+[X-52][related_post_a349_x52_designation_refused].
 
 ---
 
-## The Caps Defect Did Not Appear
+## Every Obvious Explanation Fails Against the Register, and One Survives
 
-**It landed in newly written Source Base prose in four of the five preceding passes.** This
-review wrote two new Source Base sections and the check came back clean. **That is one
-observation and not a trend**, and the check stays exactly as it is.
+**Half the X series is unmanned.** Fifteen of the thirty X rows say so in their own mission
+statements. **Not one of the fifteen carries the Q vehicle type symbol the instruction
+requires for an unmanned aircraft, and the aeroplane that does carry it is the one whose
+number the X series lost.**
+
+**So the anomaly inverts.** The Valkyrie is not the aeroplane that failed to qualify as an
+X-plane. **It is the aeroplane whose designation obeyed the vehicle type rule**, and obeying
+it moved the aeroplane into another series and took the number along. **That is the
+article's own inference and it is labelled as one**, because nobody has been found saying it.
+
+**The mission test fails too.** The X-45A's register entry names suppression of enemy air
+defences, which is the role the Marine Corps intends for the production Valkyrie. **The
+armament test fails on the X-68A**, an armed unmanned combat air vehicle holding an X number.
+
+---
+
+## What the Skip Cost, Computed
+
+**The X series consumes 1.385 numbers a year over its 26 years in the register**, so one
+skipped number costs about 8.7 months of allocation and the sequence has about 667 years of
+headroom. **Scarcity explains nothing and no argument in the article rests on it.**
+
+---
+
+## The Arithmetic Favours a Turbofan Where the Sources Disagree
+
+**The registry says turbojet and the encyclopaedic account says a Williams FJ33 turbofan**,
+and the thrust figures agree. The published range and the computed fuel fraction demand a
+lift-to-drag ratio of 10.43 at a consumption of 0.80 per hour and 13.69 at 1.05. **The
+calculation charges all fuel to cruise and allows nothing for climb or reserve, so every
+figure is a lower bound and the turbojet case is pushed further out of reach.**
+
+**The ceiling is a second opinion arrived at independently** and requires between 7.65 and
+12.53 depending on the lapse law. **Two published quantities from two sources imply the same
+band, which is a consistency check and not a measurement of the aeroplane.**
+
+**And one assumption moves the answer by nearly a factor of two.** Nobody states whether the
+3,000 nautical mile range assumes the payload aboard. Clean it needs 5.76 and with both
+stations filled it needs 10.43. **The article says so rather than choosing.**
+
+---
+
+## Attritability Made Quantitative, and Two Inequalities Left Standing
+
+**An airframe flown where it survives nine sorties in ten cannot use a life longer than
+ten**, because the expected sorties saturate at one over one minus the survival probability.
+**A life of 100 in that environment wastes 90 percent of the structure that was paid for.**
+
+**The cost-imposing claim and the comparison against a munition are written as inequalities
+and neither is evaluated**, because no citable figure was found for the cost of an
+interceptor or the number expended per engagement. **An inequality with one side unquantified
+is a statement about structure and not a result**, and calling it a result would be the
+defect the last three articles each had to repair in their conclusions.
 
 ---
 
 ## Verification
 
-**Verifier clean at 0 errors and 0 warnings. Tests 108 of 108. Lint 0 findings.** The symbol
-scanner reports all 52 declared symbols used and every symbol used declared.
+**Verifier clean at 0 errors. Tests 110 of 110. Lint 0 findings.** The symbol scanner reports
+all 73 declared symbols used and every symbol used declared.
 
-**The article verifier runs 144 passing checks and eighteen injected defects were all
-caught**, covering the prose rules, the register counts, the derived relations, the survey
-statistics, the cluster table and the dateline.
+**The article verifier runs 184 checks and 22 injected defects were all caught, with the total check disarmed**, covering
+the prose rules, the register counts, the computed values, the survey statistics, the cluster
+table, the equations, the dateline and the quoted documents.
 
-**Every survey statistic is recomputed from the reference data and the sweep artefacts.**
-All fifteen cluster rows state their own recomputed count, the total equals the research
-count exactly at 3,060, and every cluster section cites at least what its row claims.
+**The strongest check is reassembly.** The article is a pure function of its body, its
+computed numbers and its reference data, so it is rebuilt and compared byte for byte. **Four
+injections went green before that check existed**, every one because a figure appears in both
+a table and the epistemic state and a presence check is satisfied by the second copy.
 
-**All 3,176 definitions are cited, none orphaned and none undefined.**
+**BUT A CHECK THAT CANNOT FAIL SELECTIVELY IS NOT EVIDENCE ABOUT THE INSTRUMENTS BESIDE IT.**
+With reassembly armed, every injection is caught and nothing is learned about the check it
+was aimed at. **The suite now disarms it**, and six defects were then found to be caught by
+reassembly alone. Two instruments were added to close them, one asserting the five
+multiply-stated figures at every occurrence and one comparing each equation body against its
+declaration. **All twenty-two are now caught by the instrument aimed at them.**
 
-**FINAL STATE. 6,956 lines, 34 display equations, 52 declared symbols, 3,176 reference
-definitions, 41,314 words**, research 3,060, report primaries 342 at 11.2 percent, two
-sweeps retrieving 8,079 records of which 7,031 distinct, gate 3,138, store residual 9.8
-percent.
+**AND TWO INJECTION RUNS DESTROYED EACH OTHER AND ALMOST THE ARTICLE.** Both used one backup
+path, the first finished and deleted it, and the second restored nothing and left an injected
+defect in the draft. **The reassembly check caught it and named the line**, which is the only
+reason it did not reach a build. The backup is now unique per process and a lock refuses a
+second run outright.
 
-**The stub-isolated production build succeeded in 172 seconds against the exact bytes
-committed**, the checksum matched against the stub copy before the build and against both
-afterwards. **The rendered audit reports no findings across 93 pages.** Source and rendered
-display-equation counts agree at **34**, with zero raw dollar pairs leaking, zero unresolved
-reference brackets, zero unexpanded slots and zero unrendered Liquid. The page is 616,574
-bytes.
+**FINAL STATE. 5,802 lines, 22 display equations, 73 declared symbols, 2,557 reference
+definitions, 36,339 words**, research 2,452, report primaries 226 at 9.2 percent, one sweep
+retrieving 9,331 records of which 9,209 distinct, gate 2,543, store armed 9.1 percent.
+
+**The stub-isolated production build succeeded against the exact bytes committed**, the
+checksum matching the draft, the stub copy and the frozen record. **The rendered audit
+reports no findings across 94 pages.** Source and rendered display-equation counts agree at
+22, with zero raw dollar pairs leaking and zero unexpanded slots.
 
 ---
 
 ## What Remains
 
-**A354 is complete on all four passes and is pushed. It is NOT published**, and publication
-of this series has never been authorised.
+**A355 has completed one of four passes.** The next prompt is the equation-density review.
 
-**Two disagreements remain recorded and unresolved in the article**, being the high-lift
-motor power at 12.6 kilowatts in the flight performance report against 10.5 in the reference
-literature, and the battery at 80 watt hours per pound against a usable 55.
+**Three store patterns were repaired and two families opened, all against records.** The
+store is now 136 patterns across 27 families. **A bare curriculum stem was deleting
+reinforcement-learning papers**, because curriculum learning is a training schedule as well
+as a school timetable.
 
-**And one boundary is left standing on purpose.** Raising the dynamic pressure over seventy
-percent of the span cannot by itself account for landing this wing on the installed power.
-The enlarged pool covers the mechanism thickly at 113 records under the field's vocabulary,
-**but none of the sources this article consulted apportions the work between dynamic
-pressure, swirl, effective angle of attack and delayed separation.** The article says so
-rather than choosing a number.
+**And the gate was wrong in both directions at once.** It admitted breast cancer
+cost-effectiveness and a diesel engine, and it refused 24 records on the plural of UAV alone,
+among them the loyal wingman concept in a title and an airbag landing system. **Both
+corrections were made and both samples were read again.**
 
-**The next article is A355, the X-59**, editorial date 2025-12-03, series index 59. It is
-the Quiet SuperSonic Technology demonstrator, and its register entry reads that the aircraft
-will create a shaped sonic boom signature. **Exactly two rows in the whole register name a
-sonic boom, the X-54A and the X-59A**, so this is the second and last of them and A351's
-gate is the one to read first. **Its engines cell is empty too**, which A354 established is
-a compilation gap rather than a finding. **A first draft of this line called it the third
-such article, which the register refutes**, and the count was checked before the handoff was
-committed.
+**One disagreement is recorded and unresolved**, being the engine class. **One assumption is
+left open**, being the loading the range figure assumes. **Two inequalities are left as
+conditions on purpose.**

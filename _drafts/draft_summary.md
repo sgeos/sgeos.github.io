@@ -17,6 +17,48 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes X-58 the Slot Taken by XQ-58 A355 2025-12-03
+
+`x_planes_x58_slot_taken_by_xq58.markdown`, A355, editorial date 2025-12-03, series `x_planes` index 59 of 72.
+
+**5,802 lines, 22 display equations, 73 declared symbols, 2,557 reference definitions,
+36,339 words after the draft pass.** **ONE OF FOUR PASSES COMPLETE.** Committed and **NOT
+pushed**, which is the rhythm for a draft pass. **Not published**, and publication of the
+series has never been authorised. **Designation-anomaly class, and the third of its kind
+after the X-39 and the X-52.**
+
+**THE HANDOFF SAID A355 WAS THE X-59 AND IT WAS WRONG BY ONE.** Every index in this series
+maps to the designation one below it, with zero mismatches across all fifty-seven
+designation articles, so index 59 is the X-58. **The pilot's title was right.**
+
+**THE STRING X-58 APPEARS EXACTLY ONCE IN THE 526-ROW REGISTER**, inside a note about a
+different aeroplane, in a parenthesis, saying it does not exist. **Three dates are the
+whole of the evidence**, the X-57A on 03-May-16, the XQ-58A on 10-Jul-17 and the X-59A on
+21-Jun-18.
+
+**THE INSTRUCTION CARRIES THE RULE AND THE POWER TO BREAK IT ONE SUB-PARAGRAPH APART.**
+DAFI 16-401 says design numbers run consecutively and then reserves to the allocating
+office the authority to skip design number at discretion, with no criterion and no
+recorded reason. **The same office refused the X-52.**
+
+**HALF THE X SERIES IS UNMANNED AND NOT ONE OF THEM CARRIES THE Q SYMBOL THE INSTRUCTION
+REQUIRES.** Fifteen of thirty rows. **The aeroplane that does carry it is the one whose
+number the X series lost**, which inverts the anomaly and is recorded as the article's own
+inference rather than as anything the record states.
+
+**WHAT THE SKIP COST IS 8.7 MONTHS OF ALLOCATION** at 1.385 numbers a year against about
+667 years of headroom.
+
+**THE ARITHMETIC FAVOURS A TURBOFAN WHERE THE SOURCES DISAGREE**, the published range
+needing a lift-to-drag ratio of 10.43 at 0.80 per hour against 13.69 at 1.05, with the
+ceiling independently needing 7.65 to 12.53. **Two inequalities are left as conditions on
+purpose** and **one assumption is left open**, being whether the range figure carries the
+payload, which moves the answer by nearly a factor of two.
+
+**Verifier 0 errors 0 warnings, tests 110 of 110, lint 0 findings, 184 checks and
+twenty-two injected defects all caught with the total check disarmed.** Build clean against
+checksum-matched bytes, 94 pages, rendered audit reports no findings.
+
 ## X-Planes ESAero X-57 Maxwell A354 2025-12-02
 
 `x_planes_esaero_x57_maxwell.markdown`, A354, editorial date 2025-12-02, series `x_planes` index 58 of 72.

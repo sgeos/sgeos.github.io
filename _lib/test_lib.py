@@ -1957,6 +1957,73 @@ def t_homonym_a351_tags_cover_every_pattern_in_their_family():
         "Adjoint-Based Optimization Method", allow=A351) is not None
 
 
+def t_homonym_a355_a_curriculum_can_be_a_training_schedule():
+    """A355: CURRICULUM LEARNING IS A REINFORCEMENT-LEARNING TECHNIQUE.
+
+    The `teaching` family carried a bare `\\bcurricul` stem, earned honestly against school
+    timetables. **Curriculum learning is also the name of a training schedule in
+    reinforcement learning**, in which an agent is shown easy tasks before hard ones, and
+    the stem removed three air-combat autonomy papers from a survey whose autonomy cluster
+    is exactly that literature.
+
+    **The two senses are separated by the company the word keeps**, so the pedagogical
+    sense is kept armed and the machine sense is released. A guard that released both would
+    have been no guard at all, which is why the school records are asserted as well.
+    """
+    for title in [
+        "Hierarchical Reinforcement Learning with Automatic Curriculum Generation for "
+        "Unmanned Combat Aerial Vehicles",
+        "Multi-UCAV Air Combat in Short-Range Maneuver Strategy Generation using "
+        "Reinforcement Learning and Curriculum Learning",
+        "Multi-Uav Swarm Air Combat Decision-Making Method Based on Multi-Head Attention "
+        "and Curriculum Learning",
+    ]:
+        assert homonyms.noise_hit(title) is None, f"machine curriculum still dropped: {title}"
+
+    # **AND THE SCHOOL SENSE MUST STILL DROP**, or the guard has deleted the family.
+    for title in [
+        "Korea Air Force Academy's Physical Education Curriculum Revision Research",
+        "The inherent vulnerability of the Australian Curriculum's cross-curriculum "
+        "priorities",
+        "Accessing the General Education Curriculum Through a Retrofit Framework",
+    ]:
+        assert homonyms.noise_hit(title) is not None, f"school curriculum survived: {title}"
+
+
+def t_homonym_a355_two_abbreviations_that_an_aeroplane_paper_may_use_correctly():
+    """A355: A STORE PATTERN MUST NOT PUNISH A PAPER FOR USING A WORD PROPERLY.
+
+    Two patterns were removing on-subject records for saying exactly what they meant.
+
+    **`\\bODE\\b` was earned against the parachute problem as a differential-equations
+    exercise**, and it removed `Comparison of Breguet and ODE Evaluation of the Cruise
+    Mission Segment in the Context of High-Fidelity Aircraft Design`, which is an
+    aircraft-design paper that happens to integrate the range equation numerically. **A
+    title naming Breguet or aircraft design is aeronautical whatever else it says.**
+
+    **`search and rescue` was earned against civil drone applications**, and combat search
+    and rescue is a military air mission with its own effectiveness literature. The guard
+    is the single word in front of it.
+
+    Both original incidents are asserted, because a guard that releases the record it was
+    written for is a deletion rather than a repair.
+    """
+    for title in [
+        "Comparison of Breguet and ODE Evaluation of the Cruise Mission Segment in the "
+        "Context of High-Fidelity Aircraft Design",
+        "Combat Search and Rescue CSAR Aircraft Effectiveness",
+    ]:
+        assert homonyms.noise_hit(title) is None, f"on-subject record still dropped: {title}"
+
+    # **THE INCIDENTS THE PATTERNS WERE WRITTEN FOR MUST STILL DROP.**
+    for title in [
+        "ODE Models for the Parachute Problem",
+        "Teaching Aircraft Combat Survivability by Distance Learning",
+        "A Low-Cost Technique for Search and Rescue Using a Small Unmanned Aerial Vehicle",
+    ]:
+        assert homonyms.noise_hit(title) is not None, f"original incident survived: {title}"
+
+
 def t_homonym_a354_a_multimodal_venue_is_evidence_for_nothing():
     """A354: THE STORE MATCHES TITLE AND VENUE TOGETHER, AND A VENUE CAN NAME FOUR FIELDS.
 
