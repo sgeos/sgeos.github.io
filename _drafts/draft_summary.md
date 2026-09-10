@@ -21,38 +21,37 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_x58_slot_taken_by_xq58.markdown`, A355, editorial date 2025-12-03, series `x_planes` index 59 of 72.
 
-**6,567 lines, 40 display equations, 101 declared symbols, 2,787 reference definitions,
-43,789 words after the primary-reference review.** **THREE OF FOUR PASSES COMPLETE.**
-Committed and **NOT pushed**. **Not published**, and publication of the series has never
-been authorised. **Designation-anomaly class, and the third of its kind after the X-39 and
-the X-52.**
+**6,820 lines, 40 display equations, 101 declared symbols, 2,897 reference definitions,
+45,757 words after the publication review.** **ALL FOUR PASSES COMPLETE.** Committed and
+**PUSHED**. **Not published**, and publication of the series has never been authorised.
+**Designation-anomaly class, and the third of its kind after the X-39 and the X-52.**
 
 **THE STRING X-58 APPEARS EXACTLY ONCE IN THE 526-ROW REGISTER**, in a note about a
-different aeroplane, saying it does not exist. **DAFI 16-401 carries the rule and the power
-to break it one sub-paragraph apart.** **Half the X series is unmanned and not one of the
-fifteen carries the Q symbol the instruction requires**, so the aeroplane that does carry it
-is the one whose number the X series lost.
+different aeroplane, saying it does not exist. **Three dates are the whole of the
+evidence.** **DAFI 16-401 carries the rule and the power to break it one sub-paragraph
+apart**, and **half the X series is unmanned while not one of the fifteen carries the Q
+symbol the instruction requires**, so the aeroplane that does carry it is the one whose
+number the X series lost.
 
-**REPORT PRIMARIES 226 AT 9.2 PERCENT TO 532 AT 19.9.** The count rose by 306 and the list
-by 228, so the fraction moved for two reasons at once. **The ten-record ceiling on the
-report server was bought off with 42 queries against twelve**, taking its contribution from
-16 records to 72.
+**THE CONCLUSION CLAIMED A FIRST AND THE REGISTER REFUTES IT TWICE**, the X-50A being a
+special number fifteen years earlier and the XRQ-72A four months earlier. **The surviving
+claim is that this is the first case where the registry is certain, not the first case.**
+**It also asserted a cause the record does not contain** and **quoted the cost ratio that
+flattered the argument**, both repaired.
 
-**A PROPER NOUN WITH NO CONTEXT REQUIREMENT IS NOT AN ANCHOR.** The pool holds 74 titles
-containing the word Valkyrie and **exactly one has the subject beside it**. **The cluster
-named for this aeroplane reported 75 records of which 74 were noise, and it now reports
-one**, that one having had to build a model resembling the aeroplane because its shape is
-not public.
+**AT THE RATIO THE AIR FORCE HAS STATED TO CONGRESS the aeroplane must survive 0.97 of its
+sorties to beat a fighter surviving 0.99**, which is a fighter's number. **The argument
+needs a hostile sky and a large cost ratio together.**
 
-**THE ONLY OFFICIAL COST STATEMENT NEARLY UNDOES THE ARGUMENT.** The Air Force has told
-Congress a collaborative combat aircraft would cost roughly one third the price of a crewed
-fighter, **and at that ratio the break-even demands a survival probability of 0.97**, which
-is a fighter number rather than an attritable one.
+**Report primaries 226 at 9.2 percent to 540 at 19.4.** **The pool held 74 titles containing
+the word Valkyrie and exactly one has the subject beside it.** **One thin conclusion was
+harvested for and opened**, the canopy-opening claim going 16 to 281.
 
-**Verifier 0 errors 0 warnings, tests 110 of 110, lint 0 findings, 275 checks and
-thirty-nine injected defects all caught with the total check disarmed.** Identifiers
-verified on content with an absent control that failed correctly. Build clean against
-checksum-matched bytes, 94 pages, rendered audit reports no findings.
+**Verifier 0 errors 0 warnings, tests 110 of 110, lint 0 findings, 295 checks and forty-five
+injected defects all caught with the total check disarmed.** Identifiers verified on content
+with an absent control that failed correctly. Build clean against checksum-matched bytes, 94
+pages, rendered audit reports no findings, source and rendered display-equation counts agree
+at 40.
 
 ## X-Planes ESAero X-57 Maxwell A354 2025-12-02
 

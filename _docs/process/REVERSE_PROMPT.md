@@ -5,138 +5,147 @@
 ## Last Updated
 
 **Date**: 2026-09-09
-**Task**: **A355, X-Planes: X-58, the Slot Taken by XQ-58, primary-reference review. The
-third of four passes.** Committed and **NOT pushed**. **Not published**, and publication of
-the series has never been authorised. **Fifty-nine of seventy-two drafted.**
+**Task**: **A355, X-Planes: X-58, the Slot Taken by XQ-58, publication review. The fourth and
+last of four.** Committed and **PUSHED**. **Not published**, and publication of the series
+still not authorised. **Fifty-nine of seventy-two drafted.**
 
 ---
 
-## Report Primaries 226 at 9.2 Percent to 532 at 19.9
+## The Conclusion Claimed a First and the Register Refutes It Twice
 
-**The count rose by 306 and the reference list rose by 228**, so the fraction moved for two
-reasons at once and the article says so rather than presenting it as one. **The supplementary
-sweep added report primaries and the gate corrections removed records that were never on the
-subject.** Non-primary references fell by 78.
+**It ended by calling the X-58 the first place in the X series where a number stopped being
+the next one and became the right one.** That is false.
 
-References 2,557 to 2,787, lines 6,052 to 6,567, words 39,919 to 43,789, **display equations
-unchanged at 40** because a reference pass adds no relations.
+**The registry names the X-50A a special number**, allocated 13-Feb-02, fifteen years earlier,
+**and this series has already written that article** [[X-Planes: Boeing X-50 Dragonfly][related_post_a347_boeing_x50]].
+**And the XQ-58A is not the first of its own family either**, the XRQ-72A having been
+allocated four months before it on a number that is also a gap in the X series.
 
-### The Ten-Record Ceiling Was Bought Off Rather Than Lifted
-
-**The supplementary sweep asked 42 questions of the space agency's server against the draft's
-twelve, and 56 of the defence registry.** The [X-57][related_post_a354_esaero_x57_maxwell]
-established that the server reports its true total and serves ten, ignores the offset, and
-that the fetching library paginates correctly. **This is the first article in the series to
-act on that finding rather than record it**, and the space agency's contribution went from 16
-records to 72.
+**The surviving claim is narrower and it is what the record supports.** The XQ-58A is the
+earliest allocation whose number the registry states outright was taken from the X series,
+the 72 being recorded as unclear and the 73 as probable. **It is the first case where the
+registry is certain, not the first case**, and the correction names the claim it corrects
+rather than deleting it quietly.
 
 ---
 
-## A Proper Noun With No Context Requirement Is Not an Anchor, It Is a Trawl
+## And the Conclusion Asserted a Cause the Record Does Not Contain
 
-**The pool holds 74 titles containing the word Valkyrie and exactly one has the subject beside
-it.** The rest are Wagner, the 1944 Stauffenberg plot, a Tolkien theology paper, an America's
-Cup yacht, a fuzzing tool, a quadruped robot and **the space agency's own humanoid robot,
-which is also called Valkyrie**. A bare `Kratos` admitted the Greek personification of power
-and two Iron Age history papers.
+**It said the X-58 does not exist because somebody with the authority to skip a number
+skipped it.** The record does not show that authority being exercised. It shows that the
+number is absent, that the registry says the slot was skipped, and that the instruction
+permits skipping without a recorded reason.
 
-**The draft pass shipped all of them, and the cluster named for this aeroplane reported 75
-records of which 74 were noise. It now reports one.**
-
-**The [X-57][related_post_a354_esaero_x57_maxwell] met this through a physicist's surname and
-recorded it in its store notes.** The lesson was carried into this article's store and not
-into its gate, **which is the shape of a lesson learned in the wrong place.**
-
-**And the one record that survives is a finding rather than a disappointment.** It computes a
-radar cross-section for a design model its own title calls Valkyrie-like. **The only paper in
-a 2,680-record survey that studies this aeroplane had to build something that resembles it
-first**, which is the same statement the empty engines cell makes in the register.
+**A number consumed by another series does not need to be refused**, so no allocation letter
+for the X-58 need ever have existed. **The conclusion now says the absence is permitted and
+unexplained rather than that somebody decided it.** That is twelve consecutive articles in
+which the conclusion overreached, and this one overreached about the article's own central
+question.
 
 ---
 
-## Expendable in Aerospace Means a Rocket
+## And It Quoted the Cost Ratio That Flattered the Argument
 
-**The attritability cluster held 33 records and about half were launch vehicles**, together
-with expendable bathythermographs, expendable batteries and expendable infrared sensors. **The
-word is a homonym of this article's subject and not a broader case of it.**
+**The break-even table runs from a cost ratio of three to forty, and the conclusion used
+twenty.** The ratio of three is the one the Air Force has stated to Congress. **The
+conclusion now leads with the stated number and gives the demonstrator's own as the
+comparison**, because using the favourable end of a range one has just published is a
+selection rather than a summary.
 
-**The guard failed on its first run because of a letter.** `launch vehicle` written with a
-word boundary does not match `launch vehicles`. **That is the second time in this article that
-a plural has defeated an instrument**, the first having refused 24 records on the plural of
-UAV.
-
-**Two further homonyms were found by reading the kept sample.** `force` admitted `The Erosion
-of the Enlisted Force A Study of Attrition`, the word appearing in a large share of the
-defence registry's titles, **while `Personnel Attrition Rates in Historical Land Combat
-Operations` IS the subject**, so the cut is by turnover vocabulary rather than by the word
-personnel. And `turbo` admitted a turbocharged diesel engine.
-
-**What was deliberately not filtered is the learning-curve method literature**, including a
-paper on the microwave oven learning curve, because **a method the article uses brings its
-literature with it**. That is the [X-52][related_post_a349_x52_designation_refused] precedent.
+**At a ratio of three the aeroplane must survive 0.97 of its sorties to beat a fighter
+surviving 0.99.** That is a fighter's number. **The argument needs a hostile sky and a large
+cost ratio together**, and an aeroplane at a third the price of a fighter, flown where
+fighters mostly come home, has neither.
 
 ---
 
-## The Only Official Cost Statement in the Article, and It Nearly Undoes the Argument
+## Conclusions Probed, and the One Closable Thin One Was Harvested For
 
-**A congressional research product records that the Air Force has stated a collaborative
-combat aircraft would cost roughly one third the price of a crewed fighter.** That is a cost
-ratio of three.
+**Ten of ten measure thin under the article's own vocabulary and eight of ten are covered
+under the field's.** That is the fourth article running with the same result, and it is a
+fact about phrasing rather than about the pool.
 
-**At a ratio of three the break-even relation demands a survival probability of 0.97 against a
-fighter surviving 0.99, and 0.997 against one surviving 0.999.** **Those are not attritable
-numbers. They are fighter numbers.**
+**One thin conclusion was harvested for and it opened.** The claim that a canopy sized for a
+survivable touchdown cannot be opened at the speed the vehicle arrives measured 16 records,
+**in a pool that already held 231 titles naming a parachute.** A third sweep of thirty
+queries aimed at opening loads, inflation and reefing took it to 281, and the launch and
+recovery cluster from 127 records to 223. **The claim was thin because the pool held
+parachutes and not their opening.**
 
-**The demonstrator's own published unit costs give a ratio of 20 to 40** against an assumed
-eighty million dollar fighter, which is flagged as an assumption wherever it is used. **The
-demonstrator's ratio is between six and thirteen times the one the service has stated for the
-programme it led to.**
+**Two conclusions stay thin and both are about the designation**, at six records each. **This
+series has paid twice to learn why**, A341 having harvested Massachusetts tax valuations of
+1771 and the [X-52][related_post_a349_x52_designation_refused] having declined to buy the
+measurement again. **The designation half of this article rests on four primary documents and
+would say exactly the same things if the survey were deleted.**
 
-**Attritability does not survive a tenfold rise in unit cost**, because the value of a point
-of survivability falls with the price while the cost of buying that point does not. **Whether
-that is what happened to this class is a question about a programme this article has placed
-out of scope**, and the Out of Scope section now says which single number about it was used.
+---
+
+## Two Emitted Numbers Were Wrong in Their Own Prose
+
+**A capitalisation helper wrote "Three Sweeps"**, and a subtraction that reported how far
+non-primary references had fallen returned a negative number and said fallen anyway. **Both
+were emitted rather than typed, which is the defence this corpus relies on, and neither was
+caught by any check.** The second now names the direction it measures.
+
+**And the query count conflated the draft's questions with the supplementary ones**, then
+went stale again when a third sweep was added. Each sweep is now counted separately and the
+prose says which number it is using.
 
 ---
 
 ## Verification
 
-**Verifier clean at 0 errors and 0 warnings. Tests 110 of 110. Lint 0 findings.**
+**Verifier clean at 0 errors and 0 warnings. Tests 110 of 110. Lint 0 findings.** The symbol
+scanner reports all 101 declared symbols used and every symbol used declared.
 
-**The article verifier runs 275 checks and 39 injected defects were all caught with the total
-reassembly check disarmed.** Nine of the new injections went green at first, every one because
-a figure in the Source Base had only a presence check and the same digits appear elsewhere in
-a document full of numbers. **Each now has a per-occurrence check with a distinctive stem.**
+**The article verifier runs 295 checks and 45 injected defects were all caught with the total
+reassembly check disarmed**, so each is caught by the instrument aimed at it rather than by
+the comparison that catches everything. **Two of the new injections went green at first,
+both because a small integer cannot be checked by presence** in a document full of numbers.
 
-**Identifier verification: both hand-written additions fetched and read**, 24 of 24 sampled
-report primaries resolving to the works the article names, **and a fabricated identifier of
-the same shape resolving to nothing**, which is the control that makes the other result mean
-something.
+**Identifier verification passed both hand-written additions on content, 24 of 24 sampled
+report primaries, and a fabricated identifier resolving to nothing.**
 
-**AND THE INJECTION SUITE CORRUPTED THE ARTICLE A SECOND TIME BEFORE IT WAS FIXED PROPERLY.**
-A backgrounded run was killed mid-injection, and every run after it copied the corrupted file
-to its own backup and faithfully restored the corruption, so a different check failed each
-time. **The restore is now an assembly rather than a copy**, because the article is a pure
-function of its sources and a copy can be poisoned while an assembly cannot. **The reassembly
-check caught it on both occasions and named the line.**
+**Every survey statistic is recomputed from the reference data and the sweep artefacts.** All
+fourteen cluster rows state their own recomputed count, the total equals the research count
+exactly at 2,790, and every cluster section cites at least what its row claims.
 
-**FINAL STATE. 6,567 lines, 40 display equations, 101 declared symbols, 2,787 reference
-definitions, 43,789 words**, research 2,680, report primaries 532 at 19.9 percent, two sweeps
-retrieving 14,701 records of which 13,457 distinct, gate 2,781, store armed 8.4 percent.
+**All 2,897 definitions are cited, none orphaned and none undefined.**
+
+**FINAL STATE. 6,820 lines, 40 display equations, 101 declared symbols, 2,897 reference
+definitions, 45,757 words**, research 2,790, report primaries 540 at 19.4 percent, three
+sweeps retrieving 17,071 records of which 15,522 distinct, gate 2,897, store armed 8.4
+percent.
 
 **The stub-isolated production build succeeded against the exact bytes committed**, the
 checksum matching draft, stub copy and frozen record. **The rendered audit reports no findings
-across 94 pages.** Source and rendered display-equation counts agree at 40. The page is
-607,871 bytes.
+across 94 pages.** Source and rendered display-equation counts agree at **40**, with zero raw
+dollar pairs leaking, zero unresolved reference brackets, zero unexpanded slots and zero
+unrendered Liquid. The page is 632,017 bytes.
 
 ---
 
 ## What Remains
 
-**A355 has completed three of four passes.** The next prompt is the publication review.
+**A355 is complete on all four passes and is pushed. It is NOT published**, and publication of
+this series has never been authorised.
 
-**Three disagreements or open assumptions stand**, being the engine class, whether the maximum
-speed is a sea level figure, and on what basis the two unit costs and the payload fraction are
-quoted. **Two inequalities are left as conditions on purpose**, and **the fuel component of the
-operating cost is bounded at under one percent of the airframe amortisation** while
-maintenance, ground equipment, boosters, parachutes and people remain unquantified.
+**One disagreement remains recorded and unresolved**, being whether the engine is a turbojet
+or a turbofan, the arithmetic favouring the turbofan without deciding it.
+
+**Three assumptions are left open on purpose**, being whether the maximum speed is a sea level
+figure, whether the two unit costs are cumulative or annual-rate figures, and on what basis
+the payload fraction is quoted. **The last of these makes the comparison with the figure the
+[X-46][related_post_a343_boeing_x46] measured possibly a comparison of two different things,
+and the article says so.**
+
+**And one boundary is left standing.** The radar cross-section is not published, so the
+relation between survivability and its price is displayed as a mechanism and never evaluated
+for this aeroplane. **The only paper in the survey that computes one had to build a model that
+merely resembles the aircraft.**
+
+**The next article is A356, the X-59**, editorial date 2025-12-04, series index 60. It is the
+Quiet SuperSonic Technology demonstrator, and **the sonic-boom preparation the earlier handoff
+carried belongs to it rather than to this one.** Exactly two rows in the register name a sonic
+boom, the X-54A and the X-59A, so it is the second and last of them and A351's gate is the one
+to read first.
