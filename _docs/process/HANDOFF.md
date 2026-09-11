@@ -11,18 +11,18 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `73451a2`
-- **Written**: 2026-09-10
+- **Parent commit** (the repository state this handoff describes): `4736498`
+- **Written**: 2026-09-11
 - **Tree at write**: clean apart from this file, which is the change being committed, and
-  **everything was pushed at the parent**. **One commit is unpushed when
-  you read this and it is this handoff's own**, which is what `git log origin/master..HEAD` will show.
-  The protocol asks for a commit and not a push, so it was left for the pilot.
-- **Context**: the X-Planes series is IN PROGRESS. **Fifty-nine of seventy-two articles drafted. None
+  **everything was pushed at the parent**. **One commit is unpushed when you read this and it is this
+  handoff's own**, which is what `git log origin/master..HEAD` will show. The protocol asks for a
+  commit and not a push, so it was left for the pilot.
+- **Context**: the X-Planes series is IN PROGRESS. **Sixty of seventy-two articles drafted. None
   published, and none authorised.**
-- **A355, X-58, the Slot Taken by XQ-58, is complete on all four passes and is PUSHED.** **No article is
+- **A356, Lockheed Martin X-59 Quesst, is complete on all four passes and is PUSHED.** **No article is
   mid-rhythm.** The tree is at a clean article boundary.
-- **The next prompt will be "Please draft A356, 'X-Planes: Lockheed Martin X-59.'"** Editorial date
-  2025-12-04, series index 60.
+- **The next prompt will be "Please draft A357, 'X-Planes: Generation Orbit X-60.'"** Editorial date
+  2025-12-05, series index 61.
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
 and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -40,122 +40,133 @@ described.
 
 ---
 
-## Resume prompt, and the next prompt will be "Please draft A356."
+## Resume prompt, and the next prompt will be "Please draft A357."
 
-**No article is mid-rhythm. Wait for the pilot's prompt and do not start A356 unprompted.**
+**No article is mid-rhythm. Wait for the pilot's prompt and do not start A357 unprompted.**
 
 **THE PILOT MAY HAND YOU AN EXTERNAL DRAFT INSTEAD, AS HAPPENED WITH A372 AND A373.** The prompt is
 "copy `<path>` into the drafts, and use it as the basis for an article Axxx with a `<date>` editorial
 publication date". Those arrive already stamped with their article number, series and index, and the
 work is conformance and retargeting rather than writing. **They still take all four passes afterwards.**
 
-### READ THIS FIRST. The previous handoff named the wrong aeroplane and the pilot caught it.
+### The index-to-designation mapping, recomputed rather than remembered
 
-**It said A355 was the X-59. A355 was the X-58.** **Every index in this series maps to the designation
-one below it**, so index 2 is the X-1, index 59 is the X-58 and index 60 is the X-59. Checked across
-all fifty-eight designation articles there are **zero mismatches**, and the check is four lines of
-Python against the drafts.
+**Every index maps to the designation one below it**, so index 60 is the X-59 and **index 61 is the
+X-60**. Checked across all sixty drafts on 2026-09-11 there are **zero mismatches** and the indices run
+1 through 60 with no gaps. **DO NOT TRUST THIS SECTION'S ARITHMETIC WITHOUT REDOING IT**, because a
+handoff two generations back stated its equivalent confidently and was wrong by one, and the pilot
+caught it rather than the file. The check is four lines of Python against `_drafts/`.
 
-**DO NOT TRUST THIS SECTION'S ARITHMETIC WITHOUT REDOING IT.** The mapping is stated here as index 60
-to X-59, and a previous handoff stated its equivalent confidently and was wrong. **Recompute it from
-`_drafts/` before you write a title.**
+### A357 IS THE X-60 AND THE REGISTER CALLS A ROCKET AN AIRCRAFT
 
-### A356 IS THE X-59 AND ITS REGISTER ENTRY IS TWO CLAUSES JOINED BY A SEMICOLON
+Allocated 07-Sep-18 to Generation Orbit Launch Services with the Air Force as sponsor and an empty
+engines cell:
 
-Allocated 21 June 2018 to Lockheed Martin with NASA as sponsor and an empty engines cell:
+> *GOLauncher 1*; This aircraft is an autonomous hypersonic vehicle that is capable of flight testing
+> experimental hypersonic technologies at cruise flight conditions.
 
-> QueSST ; LBFD aircraft is a research aircraft that will create a shaped sonic boom signature.
+**The statement is 149 characters, which is twelfth of thirty by length against a median of 119**, so
+it is an ordinary entry and the length is not the story. **The story is the first word.** The register
+calls it an **aircraft**, and the X-60A is an air-launched single-stage liquid rocket.
 
-**The mission statement is 93 characters, which is short.** The X-57's was 343 and the longest
-in the register. **A short entry about a large programme is worth measuring rather than assuming.**
+**AND THE SPECIALIST REGISTRY AGREES WITH THE PHYSICS RATHER THAN WITH THE REGISTER.** Its page for the
+X-60A is at `dusrm/app4/x-60.html`, which is the **Directory of U.S. Military Rockets and Missiles**,
+not the aircraft pages the last sixty articles have been reading. **Verified live on 2026-09-11, HTTP
+200, 4,939 bytes.** That is the same shape of finding as A355's, where an aeroplane carrying the
+required unmanned symbol held the number the X series had lost, and it should be measured rather than
+asserted. **Only three X rows name a rocket in their engines or mission cell**, being the X-40B, X-63A
+and X-64A, **and the X-60A is not one of them.**
 
-**EXACTLY TWO ROWS IN THE WHOLE REGISTER NAME A SONIC BOOM, THE X-54A AND THE X-59A**, so this is the
-second and last of them. **A351 is the nearest relative and its gate is the one to read**, that article
-having been about the aeroplane allocated to conduct sonic boom research and never built. **A355's gate
-is about cost and attrition and almost none of it applies**, beyond the atmosphere block and the
-thrust-lapse and Breguet anchors.
+**THE WORD HYPERSONIC APPEARS IN FIVE ROWS OF 526 AND TWO OF THEM ARE X ROWS**, the X-51A and this one,
+so [the X-51][related_post_a348_boeing_x51] is the nearest relative in the register and its gate is
+worth reading before building a new one. **The word autonomous appears in six rows and this is the only
+X row among them**, the others being small unmanned reconnaissance aircraft, which is a measurable
+oddity and may or may not be a finding.
 
-**THE VERB IS `create`, WHICH NO OTHER ENTRY USES FOR A PHENOMENON.** A354 measured the register's verb
-distribution and found demonstrate at eighteen, investigate at five, validate at one and exhibit at
-one. **Whether `create` is a fourth category or a synonym for one of the others is a measurement to
-take, not an impression to assert.**
+**THE EMPTY ENGINES CELL MEANS NOTHING AND THIS SERIES HAS NOW PROVED IT THREE TIMES.** Eighty-eight of
+526 rows are empty and the three empty X rows are the X-57A, the X-59A and the X-60A. **A354 recorded
+the false start in full, A355 declined to repeat it and A356 declined again. Do not build an opening on
+that blank.**
 
-**THE EMPTY ENGINES CELL MEANS NOTHING AND TWO ARTICLES HAVE NOW PROVED IT.** Eighty-eight of 526 rows
-are empty, and the three empty X rows are the X-57A, the X-59A and the X-60A. **A354 recorded the false
-start in full and A355 declined to repeat it. Do not build an opening on that blank.**
+### THE RECORD GOES SILENT IN FEBRUARY 2020 AND THAT IS PROBABLY THE ARTICLE
 
-### THE HOMONYM WILL BITE AGAIN AND YOU CAN SEE IT COMING
+**Reconnaissance done on 2026-09-11 and not yet verified against primary documents.** The X-60A passed
+its critical design review in March 2019, completed propulsion ground tests and static firings by
+January 2020, and had a first free flight planned for March 2020. **In February 2020 the Air Force
+Research Laboratory announced a delay to later that year without giving a reason, and the public record
+then stops.** No first flight, no further delay, no cancellation and no explanation was found.
 
-**A354's aeroplane was named after a physicist and A355's after a Norse myth.** A355's pool held **74
-titles containing the word Valkyrie of which exactly one had the subject beside it**, the rest being
-Wagner, the 1944 Stauffenberg plot, a Tolkien theology paper, an America's Cup yacht and NASA's own
-humanoid robot of the same name. **The draft pass shipped all of them and the primary pass found them.**
+**THAT MAKES THIS A DOCUMENTARY-ABSENCE ARTICLE OF A KIND THE SERIES HAS NOT YET WRITTEN.** The
+[X-39][related_post_a336_x39_reserved_never_assigned] was reserved and lost, the
+[X-52][related_post_a349_x52_designation_refused] was refused, the
+[X-58][related_post_a355_x58_slot_taken_by_xq58] was skipped and the
+[X-54][related_post_a351_gulfstream_x54] was allocated and never built. **This one was designed, built
+far enough to fire its engine on the ground, and then vanished from the record.** A331's X-34 is the
+nearest precedent in shape, being finished, never asked a question it could fail, and scrapped.
 
-**QueSST, Quesst and LBFD are distinctive and safe. `X-59` is not**, because a bare hyphenated number
-matches chemical nomenclature, gene names and catalogue numbers. **Guard the proper nouns with a
-subject term in the GATE and not only in the store**, which is the mistake A355 made and recorded.
+**THE FIRST JOB IS TO ESTABLISH WHAT THE RECORD ACTUALLY CONTAINS AFTER FEBRUARY 2020**, by reading
+the defence registry and the agency's own server rather than the trade press, and **an absence
+established by reading is worth an article while an absence assumed is worth nothing.** A355 spent its
+whole draft pass on three dates and it was enough.
 
-### `gate.ATMOSPHERE` IS NOT OPTIONAL HERE
+### The homonyms are foreseeable and one of them is severe
 
-A sonic boom is a pressure signature propagating through a stratified atmosphere and refracting in a
-temperature gradient. **The medium is the subject rather than the setting**, more so than in any article
-since the X-15.
+**`orbit` IS THE WORST WORD IN THIS SUBJECT'S NAME.** It is orbital mechanics, an electron orbit, the
+orbit of the eye, a company name and a dynamical-systems term. **`Generation Orbit` must never be
+queried or gated as `orbit`**, and the two words together are distinctive enough to stand alone.
+`GOLauncher` and `GO1` are distinctive. **`X-60` bare is not**, being a catalogue number, an alloy
+designation and a gene name, so it carries a vehicle requirement in the GATE and not only in the store.
 
-### THE STORE WILL BE EXPOSED THROUGH `hypersonics` AND `missiles`
+**AND THE STORE FAMILIES THAT MUST BE OPENED ARE THE ONES THIS ARTICLE IS MADE OF.** `hypersonics` is
+the subject, as it was for the X-30 and the X-43 and as its own note in `_research/homonyms.py`
+records. `missiles` is the subject, because the vehicle is a rocket and its literature is filed as one.
+`ramjet` is adjacent and should be measured rather than assumed. **Measure the release as a set
+difference through the whole pipeline**, which `tmp/a356/release.py` does and which can be copied.
 
-Sonic boom minimisation overlaps re-entry and missile aerodynamics, and the supersonic-transport
-literature is where most boom work lives. **Measure the drops before deciding**, which is the discipline
-every article since A348 has followed. **`missiles` carries its own note saying it must not be carried
-blindly**, and A355 opened it because an attritable aeroplane is priced against a munition.
+### The sonic-boom pool is worthless here and the gate must be rebuilt
 
----
+**A356's pool of 18,330 records contains zero titles naming the X-60, GOLauncher or Generation Orbit.**
+It holds 148 hypersonic titles, 17 scramjet, 8 sounding rocket and 4 air-launch, which is a coincidence
+of vocabulary and not a head start. **Build the gate from the X-51's, not from the X-59's.**
 
 ## Where the Series Stands
 
-**Fifty-nine drafts, series indices 1 through 59 contiguous, all in `_drafts/`. Zero published.**
-Measured, not recalled. **Thirteen articles remain.**
+**Sixty drafts, series indices 1 through 60 contiguous, all in `_drafts/`. Zero published.**
+Measured on 2026-09-11, not recalled. **Twelve articles remain**, ending at editorial date 2025-12-16.
 
-**Every draft has completed all four passes.** A355 is the most recent and its four commits are
-`eb3c507`, `14c6536`, `d95dccc` and `73451a2`.
-
-### A354, ESAero X-57 Maxwell
-
-**6,956 lines, 34 display equations, 3,176 reference definitions, 41,314 words**, research 3,060,
-report primaries 342 at 11.2 percent. **Unflown-demonstrator class, and the aeroplane with the longest
-register entry in the whole X series at 343 characters.** The wing is 42 percent of the area it
-replaced, the wetted area fell only 18 percent against the wing's 58, and **induced drag rose 32
-percent**. The equation pass could not verify the central claim and said so.
+**Every draft has completed all four passes.** A356 is the most recent and its four commits are
+`460f96f`, `c6759cb`, `9c5f99b` and `4736498`.
 
 ### A355, X-58, the Slot Taken by XQ-58
 
 **6,820 lines, 40 display equations, 101 declared symbols, 2,897 reference definitions, 45,757 words**,
-research 2,790, report primaries 540 at 19.4 percent, three sweeps retrieving 17,071 records of which
-15,522 distinct. **Designation-anomaly class, the third after the X-39 and the X-52, and the first
-whose number went to an aeroplane that exists.**
+report primaries 540 at 19.4 percent. **Designation-anomaly class**, the third after the X-39 and the
+X-52, and the first whose number went to an aeroplane that exists. **The string X-58 appears exactly
+once in 526 rows, in a parenthesis saying it does not exist.**
 
-**The string X-58 appears exactly once in the 526-row register**, inside a note about a different
-aeroplane, in a parenthesis, saying it does not exist. **Three dates are the whole of the evidence**,
-the X-57A on 03-May-16, the XQ-58A on 10-Jul-17 and the X-59A on 21-Jun-18.
+### A356, Lockheed Martin X-59 Quesst
 
-**DAFI 16-401 carries the rule and the power to break it one sub-paragraph apart**, saying design
-numbers run consecutively, telling a requester how to find the next in series, and then reserving to
-AF/A8PE the authority to skip a design number at discretion with no reason recorded. **That is the same
-office that refused the X-52.**
+**10,072 lines, 51 display equations, 92 declared symbols, 4,455 reference definitions, 63,424 words**,
+research 4,340, report primaries 808 at 18.6 percent, **six sweeps** retrieving 22,654 records of which
+18,330 distinct, gate 4,568. **Flying-demonstrator class, and the first article in this series whose
+subject is a sound rather than an aeroplane.**
 
-**Half the X series is unmanned and not one of the fifteen carries the Q vehicle type symbol the
-instruction requires**, so **the aeroplane that does carry it is the one whose number the X series
-lost.** That inverts the anomaly and is labelled the article's own inference, because nobody has been
-found saying it.
+**Of 526 allocation rows exactly 2 mention a sonic boom and the word `create` appears in 1.** The other
+boom row is the X-54, never built. **The difference between the two sentences is one adjective.**
 
-**The argument for attritable aircraft needs no prices.** Once the design life stops binding the cost
-per sortie is the unit cost times the probability of loss, so the break-even against an aeroplane that
-is not meant to be lost depends only on the cost ratio. **At the ratio the Air Force has stated to
-Congress, one third the price of a crewed fighter, the aeroplane must survive 0.97 of its sorties to
-beat a fighter surviving 0.99.** That is a fighter's number.
+**The weight rather than the shape sets most of the signature**, the lift term of the equivalent area
+integrating to the weight over twice the dynamic pressure with every trace of shape gone. **It grows
+with altitude**, so two of the things altitude does to a boom are opposed.
 
-**And the canopy that lands it cannot be opened at the speed it arrives**, imposing 56.2 times gravity,
-so the recovery must be staged. **The arithmetic was right and the premise impossible, which was the
-finding rather than an error.**
+**Loudness is set by rise time, classical theory is short by a factor of 192, and the classical
+absorption is short by 31**, both repaired by molecular relaxation. **The claimed reduction is 47.8
+percent in sones and not the ninety percent that is published**, which is a pressure ratio of 85
+percent reported as a loudness.
+
+**Across five governing documents and 206,232 characters the programme's own metric appears zero
+times**, and in 2021 the agency wrote that the determination made in the 1970s that no level of sonic
+boom is acceptable over land still applies. **At the editorial date the aeroplane had flown once,
+subsonically, with the gear down.**
 
 ## The Established Rhythm, Which Is the Most Important Thing Here
 
@@ -187,6 +198,96 @@ band.
 ---
 
 ## Method Rules Earned the Hard Way
+
+### Earned in A356, and the theme is that a check can be abandoned rather than absent
+
+**A PROGRAMME HAS TWO PUBLISHERS AND THIS CORPUS HAD BEEN READING ONE OF THEM.** The draft's epistemic
+state recorded the aeroplane's weight as not stated in any source consulted. **It was stated by the
+company that built it**, on a product card carrying the gross weight, the empty weight, the fuel, the
+payload, an overall length and the engine. **Every relation needing a weight became evaluable**, and
+the range relation's three unknowns collapsed to one. Look for the prime contractor's own literature
+before recording a quantity as unpublished.
+
+**A THEMATIC SWEEP AND A NAME SWEEP ARE DIFFERENT INSTRUMENTS.** After four thematic sweeps a
+ten-question probe by bare programme name returned sixty-six records of which **twenty-eight were not
+in a pool of sixteen thousand**, eleven squarely on subject. **That is A353's lesson stated the other
+way round.** A designation beside generic words is diluted by them, and the corollary nobody had drawn
+is that the designation alone finds what the designation beside words does not.
+
+**A METHOD RULE CAN RETURN A NEGATIVE AND THE NEGATIVE IS WORTH FIVE MINUTES.** A354 established that a
+programme's own published index recovers what a thematic sweep does not. **This programme publishes
+none**, its project page carrying an editor's note that the project has concluded. Establishing that
+cost nothing and it is recorded so the next agent does not hunt for one either.
+
+**A DECLARED EQUATION THAT IS NEVER PLACED IS SILENTLY DROPPED.** The module declared 28 relations, the
+body placed 27, the substitution reported nothing missing because nothing in the body was unfilled, and
+the symbol checker passed because it reads the DECLARATION rather than the article. **Only the
+assembler's own summary line noticed, and only because a human compared it.** The assembler now refuses
+an unplaced or a duplicated equation.
+
+**A COUNT IS NOT AN IDENTITY.** The symbol table was checked for the right number of rows, so an
+injection that renamed one symbol was missed. It is now checked as a set.
+
+**A VERIFIER THAT CANNOT READ A DECIMAL POINT REPORTS TWELVE CORRECT NUMBERS AS WRONG.** The inherited
+occurrence check stopped its capture at the full stop, which was harmless for A355's integers.
+**And some sentences put the number first**, so a rightward-only check reports a correct figure absent;
+there is now a leftward sibling.
+
+**AN ARTICLE'S OWN CENTRAL QUANTITY IS THE MOST DANGEROUS BARE ANCHOR.** `rise time` was written bare
+precisely because it is what the article is about, and it admitted a surface-acoustic-wave resonator,
+partial discharge under square-wave voltage, a Kerr cell, a klystron and chlorophyll absorption.
+
+**A PLACE NAME DELETES THE MEASUREMENT LITERATURE.** The `missiles` family was removing the White Sands
+Missile Range sonic boom propagation experiment. **A missile range is where a boom is measured.**
+
+**A PARTS-CATALOGUE FILTER REFUSES REPORT TITLES.** The inherited rule refused any all-capitals title
+with three or more comma-separated fields, the shape of `SCREW, MACHINE, ROUND HEAD`. **It is also the
+shape of a 1962 defence report**, because the registry typesets its older records in capitals and their
+titles name a place and a year. It was removing a foundational community study while keeping a
+lower-case registration of the same work. **The discriminator is terseness, not capitalisation.**
+
+**THREE COPIES OF ONE RULE ARE THREE PLACES TO BE WRONG**, and they disagree the moment one is
+repaired. That filter lived in three files and now lives in the gate module and is imported.
+
+**THE EMITTED BLOCKS ARE A FUNCTION OF THE EMITTER AND REASSEMBLY DOES NOT SEE IT.** A patch script
+asserted partway through, discarded its own earlier edit, and the emitter was never re-run. **The
+article carried a false claim in its source base and the correction of that claim in its epistemic
+state, at the same time, and reassembly passed because the article was a faithful assembly of a stale
+block.** The verifier now re-runs the emitter and compares its output first.
+
+**A NUMERIC VERIFIER CANNOT CHECK A CLAIM THAT CONTAINS NO NUMBER.** The injection suite proved it by
+reverting two prose corrections without a single check going red. **The answer is a guarded list of
+withdrawn formulations**, which is a regression guard and not a test of truth and must be labelled as
+one. **It has to exclude the section that names the corrections**, because this series names a
+retracted claim rather than deleting it. **Writing that list found two more live overreaches that three
+passes of reading had missed.**
+
+**THE PROBE IS WRITTEN IN PASS ONE AND LATER PASSES ADD CONCLUSIONS.** Four of A356's fourteen
+conclusions had never been probed at all. **That is A349's defect from the other direction**, a
+conclusion written before half the findings exist becoming a probe written before half the conclusions
+exist. Go back to the probe in every pass that adds a claim.
+
+**LOSING A CHECK MAKES IT SILENT RATHER THAN FAILING.** The corpus survey-row gate reads a line
+beginning with the count in bold; thirteen articles used that format and four then stopped, and nobody
+noticed because the check simply had nothing to read. **Ask of any check whether it is passing or
+merely not being fed.**
+
+**THE SIGN OF THE RELEASE DIFFERENCE HAS MEANING.** A353 and A354 found the single-family releases
+summing to more than the joint release. **A356 found the opposite**, because a record held by patterns
+from two different families is released only when both are open. With many families open the whole
+exceeds the sum of its parts.
+
+**A PDF IS NOT ITS OWN TEXT, AND A SITE CAN REFUSE BY SERVING A STUB.** The regulations site answers
+this corpus's fetching library with ten kilobytes of navigation chrome for a section that is eighty in
+a browser, and the quoted clause is not in the ten. **An HTTP 200 with a plausible body defeats both a
+status check and a naive content check.** Retry with a browser user agent, save the text, quote from
+the saved copy, and check the copy against the live page.
+
+**A PREAMBLE IS A PRIMARY DOCUMENT AND A REGULATION IS NOT THE WHOLE OF IT.** The draft read the rule
+and not the rulemaking, which is the difference between knowing what a rule says and knowing what its
+author thinks it means. The Federal Register's API and full-text endpoint both work and are listed
+below.
+
 
 ### Earned in A355, and the theme is that an instrument fails at the edge of its own vocabulary
 
@@ -2063,12 +2164,12 @@ FOUR ARTICLES.** After every equation pass, scan for lines that open with `$$` a
 describing each module: `fetch` for archive queries, `refs` for anchors and the reference block, `edits`
 for guarded editing, `reflow`, `lint`, `diction` for word and phrase overuse, `audit` for equation and
 citation gaps, `numcheck` for independent re-derivation, and `citations` for registry verification. Run
-`python3 _lib/test_lib.py`, which should report **110 of 110** as of 2026-09-10. **`refs.clean` gained a bare-pipe strip on
+`python3 _lib/test_lib.py`, which should report **111 of 111** as of 2026-09-11. **`refs.clean` gained a bare-pipe strip on
 2026-08-12**, because kramdown reads a paragraph whose first line contains a pipe as a table and a
 publisher-mangled apostrophe entity put one into link text. **Three modules were added on
 2026-08-11**, being `gate` for subject-anchor gating with a mandatory two-sided sample, `render` for
 auditing BUILT HTML, and `resolve` for identifier resolution. `_research/rejected.json` holds the accumulated
-sweep judgements, reused through `_research/homonyms.py`, **whose curated pattern list is now 136 across 27 tagged families.**
+sweep judgements, reused through `_research/homonyms.py`, **whose curated pattern list is now 136 across 28 tagged families.**
 
 **`_lib/booklinks.py` WAS REWRITTEN ON 2026-09-04 AND ITS PREVIOUS ORACLE WAS UNSAFE.** It reads the
 OpenLibrary SEARCH INDEX rather than the work JSON endpoint, because that endpoint returns HTTP 500
@@ -2078,12 +2179,19 @@ search index also returns the AUTHOR, so a key can be held to both halves of an 
 which is a higher standard than the gate it has to pass. `author_claim` and `author_agrees` are
 reported and not enforced, because repositories list editors and initials inconsistently.
 
-**THIRTY-SIX OF THOSE PATTERNS CARRY TAGS AND CAN BE SWITCHED OFF BY NAME**, across twenty-seven
-families: `adhesive-bonding`, `civil-structures`, `composites`, `cost-estimation`, `cure-monitoring`,
-`delamination`, `dentistry`, `ecology`, `electric-machines`, `environmental-assessment`, `fracture`,
-`geophysics`, `hypersonics`, `interpreting`, `marine`, `medicine`, `meteorology`, `missiles`, `ndt`,
-`nomenclature`, `ocean-modelling`, `ramjet`, `remote-sensing`, `smart-actuators`, `surface-transport`,
-`teaching` and `wind-energy`.
+**THOSE PATTERNS CARRY TAGS AND CAN BE SWITCHED OFF BY NAME**, across twenty-eight
+families: `adhesive-bonding`, `civil-structures`, `cockpit-displays`, `composites`, `cost-estimation`,
+`cure-monitoring`, `delamination`, `dentistry`, `ecology`, `electric-machines`,
+`environmental-assessment`, `fracture`, `geophysics`, `hypersonics`, `interpreting`, `marine`,
+`medicine`, `meteorology`, `missiles`, `ndt`, `nomenclature`, `ocean-modelling`, `ramjet`,
+`remote-sensing`, `smart-actuators`, `surface-transport`, `teaching` and `wind-energy`.
+
+**A356 TAGGED ONE AND OPENED THIRTEEN.** The cockpit-display family was written by A347 against the
+human-factors literature of rotorcraft displays and **carried no tag**, so it could not be reached at
+all, and it was deleting 105 titles of synthetic vision, head-up display and symbology literature from
+an article about an aeroplane with no forward windscreen. **The repair is a tag rather than a
+weakening**, on the A352 adhesive-bonding precedent. **Thirteen families open is as many as any article
+in this series has opened**, equalled by A351, and both are the sonic boom articles.
 
 **A353 SPLIT ONE ENTRY AND A354 TAGGED ONE AND GUARDED THREE.** A353 found a tag whose NAME was
 narrower than its PATTERN, the bare word `dielectric` carrying the tag `cure-monitoring` while also
@@ -2182,6 +2290,14 @@ and the edit payloads. These are the article's argument and do not belong in `_l
 
 ### The Endpoints, Also Documented Here Because They Are Easy to Get Wrong
 
+**THE FEDERAL REGISTER IS A PRIMARY SOURCE AND A356 WAS THE FIRST ARTICLE TO USE IT.** Its search API
+is `https://www.federalregister.gov/api/v1/documents.json` with `conditions[term]`,
+`conditions[agencies][]`, `conditions[type][]` and `conditions[publication_date][gte|lte]`, and it
+returns a `raw_text_url` for each document. **The full text is served inside a preformatted HTML block,
+so the tags must come off before it is searched.** **A direct fetch of a document page redirects an
+automated agent to an unblock page**, so use the API or the full-text endpoint. The American Presidency
+Project carries executive orders in plain HTML when the Federal Register refuses.
+
 - **NTRS search**, `https://ntrs.nasa.gov/api/citations/search?q=<terms>`, detail at
   `https://ntrs.nasa.gov/api/citations/<id>`. **Cite `https://ntrs.nasa.gov/citations/<id>`.** Caps at
   ten and is phrasing sensitive, so **many narrow period queries beat few broad ones**. Authors are a
@@ -2246,11 +2362,26 @@ tests the helix-angle cancellation as a **randomised property**.
 
 ## Open Decisions
 
-**Two repairs need the pilot rather than the agent, and both were verified still live on 2026-09-10.**
-`x_planes_boeing_x53_active_aeroelastic_wing.markdown` still carries its duplicated heading at lines
-412 and 414, and A324 still carries its malformed book label. **The agent has not raised either again
-during A352 through A355 because neither is inside the article in hand**, which is the standing rule
-and the reason they persist.
+**Three repairs need the pilot rather than the agent. The first two were verified still live on
+2026-09-10.** `x_planes_boeing_x53_active_aeroelastic_wing.markdown` still carries its duplicated
+heading at lines 412 and 414, and A324 still carries its malformed book label. **The agent has not
+raised either again during A352 through A356 because neither is inside the article in hand**, which is
+the standing rule and the reason they persist.
+
+### NEW on 2026-09-10. Four articles are outside a corpus check that reads their format
+
+**`_verify.py` gates a survey cluster row against its own citation count by matching a line that
+begins with the record count in bold and carries the citations on the same line.** Thirteen articles of
+this series used exactly that format, being A339 through A351, and A356 uses it again.
+
+**A352, A353 and A354 state no per-cluster count at all, and A355 states it inside a sentence with the
+citations on the line below, which the rule cannot read.** Nothing is ungated, because each article's
+own verifier recomputes the same agreement from its own reference data. **But roughly fifty rows sit
+outside a corpus-wide check that would read them if they were reshaped.**
+
+**It is not repaired**, because all four are complete on their four passes and editing a finished
+article during another article's work mixes two units. **That is the standing rule and it is why this
+is a pilot decision rather than an agent action.**
 
 ### RESOLVED on 2026-09-04. The book identifiers in A342 through A346 were repaired
 
