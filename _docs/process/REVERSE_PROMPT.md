@@ -5,13 +5,16 @@
 ## Last Updated
 
 **Date**: 2026-09-10
-**Task**: **A356, X-Planes: Lockheed Martin X-59 Quesst, equation-density review. The
-second of four passes.** Committed, **NOT pushed**. **Not published**, and publication of
+**Task**: **A356, X-Planes: Lockheed Martin X-59 Quesst, primary-reference review. The
+third of four passes.** Committed, **NOT pushed**. **Not published**, and publication of
 the series has never been authorised. **Sixty of seventy-two drafted, twelve remain.**
 
-**Display equations 28 to 51, declared symbols 65 to 92**, lines 9,209 to 9,477, words
-53,929 to 57,512, **references up by one to 4,209** because the pass found a source rather
-than because a reference pass had run.
+**Report primaries 571 at 13.9 percent to 808 at 18.6**, references 4,209 to 4,455,
+research 4,101 to 4,340, lines 9,477 to 10,039, words 57,512 to 62,220, **display equations
+unchanged at 51** since a reference pass adds no relations. **The count rose by 237 and the
+reference list by 239, so non-primary references rose by two**, which is to say that
+essentially the whole growth was primary material. **Three further sweeps, for six in all**,
+retrieving 22,654 records of which 18,330 distinct.
 
 ---
 
@@ -119,6 +122,130 @@ of 19**, which is the right order for grassland at the frequencies a boom is mad
 conventional constant is a statement about soil. **And the sound exposure level of the
 signature is 101 decibels**, a third metric alongside the peak level of 117.1 and the
 perceived level of 75, none of which is a translation of the others.
+
+---
+
+## The X-57's Lesson Returned a Negative, and the Negative Is Worth Recording
+
+**That article established that a programme's own published index recovers what a thematic
+sweep does not, and that searching for the index recovered eighteen percent of what reading
+it did.** So this pass looked for one. **This programme publishes none.** The agency's
+commercial supersonic project page carries an editor's note saying the project has concluded
+and is no longer updated, and it links to no publications list at all.
+
+**A method rule that yields nothing on a given article is still the right rule**, and the
+five minutes spent establishing that is the cheapest part of this pass.
+
+---
+
+## The Campaign Names Were the Questions Nobody Had Asked
+
+**This subject's community-response data was produced by named flight campaigns, and the
+first three sweeps asked for almost none of them.** QSF18 stood at 6 records, the no-boom
+threshold investigation at 4, the waveform perception campaign at 4, the carpet measurement
+campaign at 3, **and the atmospheric turbulence campaign at zero**, which is the flight
+programme that measured the very effect the article's rise-time section turns on.
+
+**A fourth sweep of 103 questions took the seven campaigns from 29 records to 39.** That is
+a fact about the questions asked and not about the gate, which was refusing exactly one of
+them, and the gate was repaired anyway because a campaign name is a proper noun and a
+subject gate is blind to a proper noun.
+
+---
+
+## A THEMATIC SWEEP AND A NAME SWEEP ARE DIFFERENT INSTRUMENTS
+
+**After four thematic sweeps, a ten-question probe by bare programme name returned
+sixty-six records of which twenty-eight were not in a pool of sixteen thousand.** Eleven
+were squarely on subject, including the propulsion overview, the mission status report, the
+dose-response data collection plan and the design of the community campaign's cumulative
+metric.
+
+**That is the [X-56]'s lesson stated the other way round.** A bibliographic query mixes its
+terms, so a designation beside generic words is diluted by them. **The corollary nobody had
+drawn is that the designation alone finds what the designation beside words does not.** A
+fifth sweep of 45 name questions retrieved only 162 records and 55 of them became primaries
+in the reference list, which is the best yield per record of any sweep in this series.
+
+---
+
+## A Parts-Catalogue Filter Was Refusing Report Titles
+
+**A filter inherited from the [X-58] was removing 65 records here.** It refused any
+all-capitals title with three or more comma-separated fields, which is the shape of a
+catalogue designation such as a screw, a machine and a round head. **It is also the shape of
+a 1962 defence report**, because the registry typesets its older records in capitals and
+their titles name a place and a year.
+
+**It was removing `EFFECTS OF SONIC BOOM ON PEOPLE ST. LOUIS, MISSOURI, 1961-1962`**, one of
+the foundational community-response studies of this whole subject, **while keeping a second
+registration of the same work in lower case.** The discriminator is terseness and not
+capitalisation, so the rule now requires every field to be at most three words. It refuses 4
+where it refused 65.
+
+**And it lived in three files.** It is now in the gate module and imported, because three
+copies of one rule are three places to be wrong and they disagree the moment one is
+repaired. **One was repaired.**
+
+---
+
+## The Draft Had Read the Regulation and Not the Rulemaking
+
+**A preamble is a primary document about what an agency decided and why, and it is the only
+place the reasoning behind a regulation is written down.** This pass retrieved and read five
+governing documents totalling 206,232 characters, being the two sections of the regulation,
+the 2021 final rule that put them in their present form, the 2020 proposal to bring
+supersonic aeroplanes into the noise certification rules, and the one authorisation to
+exceed Mach 1 that has been granted and noticed.
+
+**Across all five, the phrase sonic boom appears 62 times and the programme's own metric
+appears 0.** Neither the abbreviation nor the words behind it occur once. **The aeroplane
+itself is named 0 times**, against 16 mentions of the agency that operates it. **A claim
+that a document does not say something is a count of zero**, so it is computed from the
+retrieved text and the calculation module refuses to finish if it becomes nonzero.
+
+---
+
+## THE AGENCY RESTATED THE ABSOLUTE POSITION IN 2021 AND INDUSTRY HAD ASKED IT NOT TO
+
+The 2021 preamble is unambiguous and it is now quoted in the article.
+
+> The FAA notes that the determination made in the 1970s that no level of sonic boom is
+> acceptable over land still applies and is not based exclusively on economics.
+
+**No level.** Written three years after this aeroplane was designated and while it was being
+built. **And the same preamble records that prospective supersonic airframe and engine
+manufacturers had asked for the no-measurable-overpressure provision to be removed as overly
+restrictive and outdated**, with two trade associations reading it as an absolute
+prohibition no applicant could guarantee. **The agency retained it.**
+
+---
+
+## The Only Noise Standard Ever Proposed for These Aeroplanes Governs Them Subsonically
+
+> This proposal is limited to establishing procedures and noise levels for subsonic
+> operation of supersonic aircraft during landing and takeoff.
+
+**A supersonic aeroplane is to be certificated for the noise it makes while flying
+subsonically near an airport.** And the proposal was never adopted, the 2021 authorisation
+rule being the only supersonic rule finalised in the period.
+
+**The exemption path has been used three times**, in 2003, 2016 and 2024, the first coming
+30 years after the prohibition took effect. **The most recent was granted to Boom Supersonic
+for up to twenty flights over Edwards Air Force Base within pre-existing supersonic
+corridors**, which is the exemption working as designed and granting supersonic flight over
+a military range rather than over anybody's town.
+
+---
+
+## A Claim the Draft Made and This Pass Withdrew
+
+**The draft said the X-59 flies under the rule.** It cannot support that. The prohibition
+applies by its own words to a **civil** aircraft, a research aeroplane operated by a
+government agency is ordinarily a public aircraft, and the rulemaking never names this
+aeroplane. **The article now says the clause describes the aeroplane's purpose and that
+whether the aeroplane needs the clause is unresolved**, and the point is in the epistemic
+state as an open question rather than in the body as a fact.
 
 ---
 
@@ -330,50 +457,45 @@ article uses for the object is not a name the literature puts in titles.
 ## Verification
 
 **Verifier clean at 0 errors and 0 warnings. Tests 111 of 111. Lint 0 defects and 3
-convention findings**, of which two are one display equation whose tall bracket a
-source-level scanner reads as a broken link. **The symbol scanner reports all 92 declared
-symbols used and every symbol used declared.**
+convention findings.** The symbol scanner reports all 92 declared symbols used and every
+symbol used declared.
 
-**The article verifier runs 113 checks and 65 injected defects were all caught with the
-total reassembly check disarmed.** **Six of the new injections were untested at first
-because their anchors did not exist**, every one because the assembler's formatter strips a
-trailing zero and the suite was written against the unformatted value.
+**The article verifier runs 135 checks and 76 injected defects were all caught with the
+total reassembly check disarmed.** **Four went green at first.** Two because a figure the
+article states about its own survey had no anchored check at all, one because a stem as
+common as `being` matched a second sentence the pass had added inside the same window, and
+one because the regulatory corpus size appears under three phrasings and only two carried an
+anchor. **Every phrasing that carries a number needs its own anchor.**
 
-**A PDF IS NOT ITS OWN TEXT.** The identifier check reported the builder's card as not
-containing a figure that is plainly on the page, because it searched the compressed bytes.
-**That is the same distinction as the regulations site's stub wearing different clothes**,
-and the stream is now extracted before it is searched.
+**A quotation is checked against the document and not against itself.** Every regulatory
+block quote in the article is matched verbatim against the retrieved text of the document it
+came from, and **the Federal Register serves its full text inside a preformatted HTML
+block**, so the tags come off before the search, exactly as a PDF stream is extracted before
+being searched.
 
-**Identifier verification passed seven hand-written addresses on content**, including the
-builder's card on a figure the article quotes rather than on a word that would appear
-anyway, **both regulation sections against the copies they were quoted from and against the
-live page, 24 of 24 sampled report primaries, and a fabricated identifier resolving to
-nothing.**
+**Identifier verification passed seven hand-written addresses on content, both regulation
+sections against the live page, 24 of 24 sampled report primaries, and a fabricated
+identifier resolving to nothing.**
 
-**Every relation displayed is evaluated except three, and those three are named as
-boundaries**, being the lift-to-drag ratio and the fuel consumption which enter the range
-only as a product, the wetted area, and the volume of the equivalent body. **47 of 51
-display equations carry a citation within six lines** and the four that do not are
-evaluations rather than sourced relations.
+**Every survey statistic is recomputed from the reference data where recomputation is
+affordable and compared against the survey artefact where it is not**, and the article says
+which is which. All 16 cluster rows state their own recomputed count, the total equals the
+research count exactly at 4,340, and all 4,455 definitions are cited with none orphaned and
+none undefined.
 
-**All 16 cluster rows state their own recomputed count, the total equals the research count
-exactly at 4,101, and all 4,209 definitions are cited with none orphaned and none
-undefined.**
-
-**FINAL STATE. 9,477 lines, 51 display equations, 92 declared symbols, 4,209 reference
-definitions, 57,512 words**, research 4,101, report primaries 571 at 13.9 percent, three
-sweeps retrieving 16,217 records of which 14,831 distinct, gate 4,293, store armed 2.5
-percent.
+**FINAL STATE. 10,039 lines, 51 display equations, 92 declared symbols, 4,455 reference
+definitions, 62,220 words**, research 4,340, report primaries 808 at 18.6 percent, six
+sweeps retrieving 22,654 records of which 18,330 distinct, gate 4,568.
 
 **The stub-isolated production build succeeded against the exact bytes committed**, the
 checksum matching draft, stub copy and frozen record. **The rendered audit reports no
 findings across 95 pages.** Source and rendered display-equation counts agree at **51**, with
 zero raw dollar pairs, zero unresolved reference brackets and zero unrendered Liquid. The
-page is 818,458 bytes.
+page is 874,469 bytes.
 
 ## What Remains
 
-**Two passes on A356**, being primary references and publication review.
+**One pass on A356**, the publication review.
 **Twelve articles after it**, the X-60 through the X-71 in the reduced order, ending at
 editorial date 2025-12-16.
 

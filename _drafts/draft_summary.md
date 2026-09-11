@@ -21,8 +21,8 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_lockheed_martin_x59_quesst.markdown`, A356, editorial date 2025-12-04, series `x_planes` index 60 of 72.
 
-**9,477 lines, 51 display equations, 92 declared symbols, 4,209 reference definitions,
-57,512 words after the equation-density review.** **TWO PASSES COMPLETE, two remain.**
+**10,039 lines, 51 display equations, 92 declared symbols, 4,455 reference definitions,
+62,220 words after the primary-reference review.** **THREE PASSES COMPLETE, one remains.**
 Committed, **NOT pushed**. **Not published**, and publication of the series has never been
 authorised. **Flying-demonstrator class, and the first article in the series whose subject
 is a sound rather than an aeroplane.**
@@ -71,8 +71,25 @@ draft said**, wave drag falling as the fourth power against wetted area rising a
 **The front must take about 5.99 milliseconds to rise**, 8.2 percent of the shortest possible
 signature, so the nose is not a stylistic choice.
 
+**REPORT PRIMARIES 571 AT 13.9 PERCENT TO 808 AT 18.6**, the count rising by 237 and the
+list by 239, so non-primary references rose by two. **The X-57's lesson returned a negative**,
+this programme publishing no index at all. **The campaign names were the questions nobody had
+asked**, the atmospheric turbulence campaign standing at zero records. **A thematic sweep and
+a name sweep are different instruments**, a ten-question name probe returning twenty-eight
+records absent from a pool of sixteen thousand.
+
+**A PARTS-CATALOGUE FILTER WAS REFUSING REPORT TITLES** because old defence reports are
+typeset in capitals, and it was removing a foundational 1962 community study while keeping a
+lower-case registration of the same work.
+
+**THE DRAFT HAD READ THE REGULATION AND NOT THE RULEMAKING.** Five governing documents were
+read in full and **the programme's own metric appears in none of them**. **In 2021 the agency
+restated that no level of sonic boom is acceptable over land**, against industry asking
+otherwise, and the only noise standard ever proposed for supersonic aeroplanes governs them
+while flying subsonically and was never adopted.
+
 **Verifier 0 errors 0 warnings, tests 111 of 111, lint 0 defects and 3 convention findings,
-113 checks and sixty-five injected defects all caught with the total check disarmed.**
+135 checks and seventy-six injected defects all caught with the total check disarmed.**
 Identifiers verified on content with an absent control that failed correctly. Build clean
 against checksum-matched bytes, 95 pages, rendered audit reports no findings, source and
 rendered display-equation counts agree at 51.
