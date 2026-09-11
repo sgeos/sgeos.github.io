@@ -21,9 +21,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_lockheed_martin_x59_quesst.markdown`, A356, editorial date 2025-12-04, series `x_planes` index 60 of 72.
 
-**10,039 lines, 51 display equations, 92 declared symbols, 4,455 reference definitions,
-62,220 words after the primary-reference review.** **THREE PASSES COMPLETE, one remains.**
-Committed, **NOT pushed**. **Not published**, and publication of the series has never been
+**10,072 lines, 51 display equations, 92 declared symbols, 4,455 reference definitions,
+63,424 words after the publication review.** **ALL FOUR PASSES COMPLETE.** Committed and
+**PUSHED**. **Not published**, and publication of the series has never been
 authorised. **Flying-demonstrator class, and the first article in the series whose subject
 is a sound rather than an aeroplane.**
 
@@ -88,11 +88,23 @@ restated that no level of sonic boom is acceptable over land**, against industry
 otherwise, and the only noise standard ever proposed for supersonic aeroplanes governs them
 while flying subsonically and was never adopted.
 
+**THE PUBLICATION REVIEW FOUND FIVE WRONG CLAIMS AND NAMES THEM RATHER THAN DELETING THEM.**
+The draft said a corpus check had never once fired on this series; **thirteen articles used
+exactly the format it reads**, and the article carried the false claim and its correction at
+the same time because a patch script discarded its own earlier edit and the emitter was never
+re-run. **Reassembly did not catch it**, so the verifier now re-runs the emitter first.
+
+**A NUMERIC VERIFIER CANNOT CHECK A CLAIM THAT CONTAINS NO NUMBER**, which the injection suite
+proved by reverting two corrections without a check going red. The answer is a guarded list of
+withdrawn formulations, **and writing it found two more live overreaches three passes of
+reading had missed**. **The cluster order was wrong**, the buildings cluster being a special
+case of the human-response one and placed below it.
+
 **Verifier 0 errors 0 warnings, tests 111 of 111, lint 0 defects and 3 convention findings,
-135 checks and seventy-six injected defects all caught with the total check disarmed.**
+144 checks and eighty-two injected defects all caught with the total check disarmed.**
 Identifiers verified on content with an absent control that failed correctly. Build clean
 against checksum-matched bytes, 95 pages, rendered audit reports no findings, source and
-rendered display-equation counts agree at 51.
+rendered display-equation counts agree at 51, page 882,606 bytes.
 
 ## X-Planes X-58 the Slot Taken by XQ-58 A355 2025-12-03
 
