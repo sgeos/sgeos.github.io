@@ -9,49 +9,82 @@ Current task state and verification log. This file is the shared source of truth
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
-**Status**: **A297 through A356 are drafted with ALL FOUR PASSES COMPLETE on every one,
-committed and PUSHED. A356, X-Planes: Lockheed Martin X-59 Quesst, has completed ALL FOUR
-PASSES.** **Sixty of seventy-two drafted. None published, and publication has never been
-authorised. Twelve articles remain.** The next new article is **A357, the X-60**, editorial
-date 2025-12-05, series index 61.
+**Status**: **A297 through A357 are drafted. A297 through A356 have ALL FOUR PASSES
+COMPLETE and are PUSHED. A357, X-Planes: Generation Orbit X-60, has completed the DRAFT PASS
+only**, committed and not pushed. **Sixty-one of seventy-two drafted. None published, and
+publication has never been authorised. Eleven articles remain.** The next new article is
+**A358, the X-61**, editorial date 2025-12-06, series index 62.
 
-**FIVE CLAIMS WERE WRONG AND THE ARTICLE NAMES THEM RATHER THAN DELETING THEM.** The draft
-said a corpus check had never once fired on this series. **Thirteen articles, A339 through
-A351, used exactly the format the check reads**, it was lost for four articles and this one
-restores it. **Losing a check makes it silent rather than failing, which is why nobody
-noticed.**
+**THE REGISTER CALLS IT AN AIRCRAFT AND THE AIR FORCE CALLS IT A ROCKET TWELVE TIMES.**
+Across the three Air Force releases, 1,032 words in all, rocket appears 12 times and aircraft
+once, and that once is the business jet the rocket hangs under. The register's 164-character
+entry says aircraft once and rocket not at all.
 
-**AND THE ARTICLE CARRIED THE FALSE CLAIM AND ITS CORRECTION AT THE SAME TIME.** A patch
-script asserted partway through and discarded its own earlier edit, the emitter was never
-re-run, and the source base kept the false paragraph while the epistemic state carried the
-repair. **Reassembly did not catch it, because the article was a faithful assembly of a stale
-block.** The verifier now re-runs the emitter and compares its output first.
+**AND THE REGISTER HAD NO ALTERNATIVE.** DAFI 16-401 makes X both a status prefix and a
+Research basic mission in the AIRCRAFT system, and **only a status prefix in the missile,
+rocket, probe, booster and satellite system, which has no Research basic mission at all.** A
+vehicle designated as a rocket cannot be an X-plane. **The taxonomy has no research category
+for anything that is not an aeroplane**, which is the article rather than a complaint.
 
-**A NUMERIC VERIFIER CANNOT CHECK A CLAIM THAT CONTAINS NO NUMBER**, which the injection suite
-proved by reverting two corrections without a check going red. The answer is a list of
-withdrawn formulations that must not reappear, a regression guard and not a test of truth,
-**and writing that list found two more live overreaches three passes of reading had missed.**
+**THE TWO PUBLISHED PERFORMANCE FIGURES ARE ONE FIGURE.** Dynamic pressure is
+`gamma p M^2 / 2` with the temperature cancelled exactly, so Mach 5 at 70,000 feet is
+**1,649 pounds per square foot**, which is a scramjet test condition in disguise.
 
-**THE CLUSTER ORDER WAS WRONG, WHICH IS A353's LESSON IN MINIATURE.** A boom is heard indoors
-as a building moving, so the buildings cluster is a special case of the human-response one and
-was placed below it, losing 14 of 57 structural records to the general cluster.
+**A FIRST DRAFT CONCLUSION WAS WRONG AND THE CORRECTION IS BETTER.** The first trajectory
+analysis said the published pair was unreachable. Widening the grid to **53 pitch programmes
+on one propellant load** puts the vehicle at Mach 5 between 55.5 and 147.4 thousand feet,
+**spanning a factor of 72.8 in dynamic pressure**, with the published pair inside. Dynamic
+pressure is a property of the trajectory and not of the vehicle.
 
-**FOURTEEN CONCLUSIONS PROBED AND FOURTEEN COVERED**, four of which had never been probed
-because the probe was written in the first pass and later passes added conclusions without
-returning to it. Eight of fourteen measure thin under the article's own words.
+**THE REGISTER SAYS CRUISE AND THE VEHICLE CANNOT CRUISE.** At full thrust the engine
+produces 2.23 times the largest force the vehicle could absorb, and the flight path angle
+that would absorb the excess needs a sine of 2.84. Throttled, holding Mach 6 needs between
+**5.2 and 20.9 percent** of rated thrust, which is at or past the edge of the art.
 
-**FINAL STATE. 10,072 lines, 51 display equations, 92 declared symbols, 4,455 reference
-definitions, 63,424 words**, research 4,340, report primaries 808 at 18.6 percent, six sweeps
-retrieving 22,654 of which 18,330 distinct, gate 4,568.
+**THE STATUTE ASKED THE ONLY QUESTION WITH A NUMERICAL ANSWER.** 51 U.S.C. 50902(24) defines
+a suborbital rocket by thrust exceeding lift for the majority of powered ascent. **The lift is
+solved for rather than modelled**, and thrust exceeds lift for **100 percent** of ascent on
+every one of the 53 programmes.
 
-**Verifier 0 errors 0 warnings. Tests 111 of 111. Lint 0 defects and 3 convention
-findings.** 144 checks and 82 injected defects all caught **with the total reassembly check
-disarmed**. Identifiers verified on content with an absent control that failed correctly.
-**All 16 cluster rows state their own recomputed count and the total equals the research
-count exactly at 4,340.** All 4,455 definitions cited, none orphaned, none undefined.
+**THE PUBLIC RECORD STOPS IN FEBRUARY 2020 AND THE CONTRACT RECORD RUNS TO FEBRUARY 2023.**
+30,921,064.62 dollars across 30 modifications, of which **30.1 percent was obligated after the
+programme stopped being visible.** Three months after the deferral one modification obligates
+4,808,000 dollars for numerical analysis, so the money moved from flight to computation in a
+line item. **The last positive obligation is 22,873.11 dollars to pay for shipping of
+equipment.** No cancellation notice was found and none is claimed.
 
-**Build clean against checksum-matched bytes, 95 pages, rendered audit reports no
-findings**, source and rendered display-equation counts agree at 51, page 882,606 bytes.
+**THE ENGINE OUTLIVED THE VEHICLE.** The Hadley was first qualified in 2021 and first flew on
+9 March 2024 on Stratolaunch's Talon-A1, 1,469 days after the X-60A was to have flown.
+
+**THE REFERENCE LIST HAS A MEASURED BUILD-TIME CEILING AND IT IS ROUGHLY CUBIC.** The first
+assembly carried 10,882 definitions and did not finish a production build in thirty minutes of
+processor time. Timed with the reference count as the only variable the markdown processor
+takes **0.43 seconds at 500 definitions, 8.8 at 2,000 and 103 at 4,500**. The budget is 4,500,
+the largest count this repository has shipped, and **the build now completes in 190 seconds.**
+Every report primary is kept unconditionally and the rest is the most recent work by cluster.
+
+**AND THE PRIMARY FRACTION ROSE WITHOUT A SINGLE PRIMARY BEING ADDED**, from 13.3 percent of
+10,754 to 31.8 percent of 4,501 with the count fixed at 1,430. The article reports both
+numbers every time it reports either.
+
+**THE HOMONYMS A SWEEP GUARDS ARE NOT THE HOMONYMS THAT BITE IT.** Hadley, Ursa Major,
+Gulfstream and orbit were all guarded before the first sweep and **none produced a
+contaminant**. The record that got through was **Sandia's PEGASUS pulsed-power machine**,
+whose flyer plates are called booster projectiles, so the title carries launch vocabulary in
+every position. Recorded in the store as `pulsed-power` with a two-directional test.
+
+**FINAL STATE. 10,235 lines, 47 display equations, 84 declared symbols, 4,628 reference
+definitions, 62,588 words**, research 4,501, report primaries 1,430 at 31.8 percent, three
+sweeps retrieving 38,596 of which 31,527 distinct, gate 11,149 under a 4,500 citation budget.
+
+**Verifier 0 errors 0 warnings. Tests 112 of 112. Lint 0 defects and 1 convention finding.**
+The article verifier runs 251 checks and passes all of them. Identifiers verified on content
+with an absent control that failed correctly and 24 of 24 sampled primaries resolving. **All
+16 cluster rows state their own recomputed count and the total equals the research count
+exactly at 4,501.** All 4,628 definitions cited, none orphaned, none undefined.
+
+**Build clean in 190 seconds against checksum-matched bytes, 96 pages, rendered audit reports
+no findings**, source and rendered display-equation counts agree at 47, page 889,709 bytes.
 
 ## Success Criteria
 
@@ -746,6 +779,10 @@ findings**, source and rendered display-equation counts agree at 51, page 882,60
 - [ ] Categories confirmed by the human pilot. `aerospace history engineering` is the agent's assumption and fixes 72 URLs permanently at publication.
 - [ ] Search-endpoint citations resolved to fixed document identifiers. 109 Open Library and 27 NTRS citations point at endpoints that return 200 for any query, so their targets are unverified by the sweep.
 
+- [x] A357 drafted as `_drafts/x_planes_generation_orbit_x60.markdown`, editorial date 2025-12-05, series `x_planes` index 61. 10,235 lines, 47 display equations, 84 declared symbols, 4,628 reference definitions, 62,588 words. **The register calls a rocket an aircraft and DAFI 16-401 explains why it had no alternative**, since the X in an X number is the Research basic mission and that mission is defined over aircraft while the rocket system's X is only a status prefix. **The two published performance figures multiply out to one dynamic pressure of 1,649 pounds per square foot.** **The statutory definition of a suborbital rocket was integrated rather than asserted** and thrust exceeds lift for 100 percent of powered ascent on all 53 pitch programmes. **The public record stops in February 2020 and the contract record runs to February 2023**, with 30.1 percent of the money obligated after the silence and the last positive obligation paying to ship the equipment.
+- [x] A357 reference list bounded by a MEASURED build-time ceiling rather than by judgement. The first assembly carried 10,882 definitions and did not finish a production build in thirty minutes of processor time, and the markdown processor was timed at 0.43 seconds for 500 definitions, 8.8 for 2,000 and 103 for 4,500, an exponent of 2.2 then 3.0. Budget set to 4,500, the largest count this repository has shipped, every report primary kept unconditionally and the rest filled with the most recent work per cluster in proportion to cluster size. Build completes in 190 seconds.
+- [x] A357 store repair earned by measurement rather than anticipation. Four proper-noun collisions in the vehicle's own parts list were guarded before the first sweep and none produced a contaminant, while **Sandia's PEGASUS pulsed-power machine** reached the kept set twice because a flyer plate is called a booster projectile. Recorded as `pulsed-power` with a two-directional regression test, taking the store to 137 patterns across 29 families and the suite to 112 tests.
+
 ## Notes
 
 - **Documentation defect found 2026-08-04, RESOLVED 2026-08-05.** `_docs/process/FORWARD_DATED_POSTS.md` documented `future: true` while `_config.yml` line 86 sets `future: false`. The document has been rewritten against the live configuration and the error corrected in the five other places it had propagated to. The behavioural claim was verified against an actual Jekyll build rather than reasoned about.
@@ -1274,3 +1311,4 @@ findings**, source and rendered display-equation counts agree at 51, page 882,60
 | 2026-08-10 | A329 equation-density review, the second of four passes. Committed, not pushed. **15 display equations to 28 across 10 edits**, 7,195 to 7,303 lines and 39,311 to 40,142 words, references held at 2,108 and measured before and after. **THREE OF THE ADDITIONS CHANGED WHAT THE ARTICLE SAYS RATHER THAN MERELY DISPLAYING IT.** **THE FIRST IS AN IDENTITY THE ARTICLE HAD ALREADY ASSEMBLED WITHOUT STATING**: momentum theory gives the disc loading as 2 rho Vi squared and the far field runs at 2 Vi, so **the dynamic pressure in the fully developed jet IS the disc loading, exactly**, which means the table of disc loadings the article already printed is also a table of the pressure each architecture imposes on the surface underneath it, **1,467 lb/ft2 for the lift fan against 2,852 for two nozzles two and a half feet across**, a factor of 1.94 that deck coatings and ground crew feel and that cost nothing extra to derive. **THE SECOND IS THE SQUARE-ROOT LAW SEEN FROM THE OTHER SIDE**: two streams mix at the mass-weighted mean of their temperatures, and because the cold stream is SLOWER it carries **more mass per unit thrust**, so a 47.7 percent share of the LIFT is a **60.9 percent share of the MASS** and the mixed-mean exhaust falls from 1,200 F with all-hot lift to **505 F**; the article had asserted the cooler exhaust and never written the relation. **THE THIRD PRICES A CLAIM THE ARTICLE HAD ONLY ASSERTED**: bleeding a fraction of the mass flow for reaction controls removes that fraction of the thrust **before any moment is produced**, so a four percent bleed costs 1,120 lb of lift and takes the direct-lift allowance from 2,637 lb to 1,570, **forty percent of everything the aircraft can bring home**, while the lift-fan aircraft takes its roll control from posts already producing lift. Also added the wing loading and thrust-to-weight relations the vehicle table stated as bare answers; the corrected-parameter definitions behind the ingestion lapse; the fan mass flow at 18.00 slug/s or 579 lb/s inferred from the same two relations; the exact lift partition, where the published total is precisely the sum of its published parts; the allowance as a straight line of slope 0.9524 crossing zero at 25,232 lb; the roll moment as differential thrust times lateral arm; the sink distance by integrating the acceleration twice; and the documentary ratio of 29 to 1. **ONE DEFECT IN MY OWN VERIFIER, CAUGHT BY THE HARNESS**: three checks compared the allowance LINE against the DIRECT form, which is an agreement between two computed routes rather than a value the article states, and recording them with `chk` made `require_in_text` demand that unrounded intermediates such as 2636.67 appear in the prose; **that is exactly the two-kinds-of-check distinction the harness exists to keep** and the comparison is now made without being recorded. Verification: **77 of 77 independent checks passing, none importing the calculation**, with the disc-loading identity tested as a randomised PROPERTY over 20,000 random thrust and area pairs by computing the two sides SEPARATELY from their own definitions, the fan mass flow reached by DIVIDING THE MOMENTUM FLUX rather than by thrust over twice the induced velocity, the mixed mean by SIMULATING the mixing of forty thousand parcels, and the claim that a slower stream carries a larger mass share than thrust share tested as a PROPERTY over random velocity pairs rather than at the one published point; all article-facing values confirmed present; `_verify.py` at the 21-warning baseline; check_any clean; `_lib/test_lib.py` at 48 of 48; and a 33-article isolated build rendering **all 28 equations across 16 sections, 51 subsections and 15 tables**. **FOR THE REFERENCE PASS**: 12 displayed equations have no nearby citation, and the pass promoted momentum theory, corrected engine parameters and stream mixing as subjects. Next available article number A370. |
 | 2026-08-10 | A329 primary-reference review, the third of four passes. Committed, not pushed. **References 2,108 to 4,096 definitions and 2,049 to 4,037 cited**, article 7,303 to 13,353 lines and 40,142 to 71,302 words, **equations held at 28 and measured before and after**, with every anchored record cited and none left over. **THIS ARTICLE HAS TWO PRIMARY BASES AND THEY SIT IN DIFFERENT DECADES, WHICH IS ITSELF PART OF THE FINDING.** The DECISION is a 1996 to 2002 subject and that window holds 621 records; **the PHYSICS is not**, since the vertical-landing research the competition rested on was done in the 1970s and 1980s and **a 1985 report on hot gas ingestion is primary for the article's central mechanism in a way a 2019 review is not**, that base holding **1,324 records across 1970 to 1995** and being the healthier of the two; treating everything pre-2003 as one undifferentiated band would hide the distinction, so the Source Base separates them. **THE MEASUREMENT CAME FIRST**: the set held 2,985 records with only **265, or 8.9 percent, in the programme window**, and the clusters carrying claims were among the thinnest, hot gas ingestion at 7 in-window against the article's central mechanism, jet-induced ground effects at 6, hover control at 1, momentum theory at 1 against an identity the equation pass had just promoted, and the winning aircraft's cluster at 3. **A HARVEST OF ROUGHLY A HUNDRED AND FORTY NARROW QUERIES TOOK THE WINDOW FROM 265 TO 621 AND THE SET FROM 2,985 TO 4,037**, momentum theory going 22 to 91 and nozzle design 64 to 130; **the cause of the shortfall was the same mechanical one as A328**, the reports server capping at ten and rewarding specificity, with the pool standing at 186 records for a subject NASA researched for thirty years. **A HOMONYM NOBODY PREDICTED AND THE DANGEROUS KIND BECAUSE IT IS INTERNAL TO THE DISCIPLINE**: **hot gas ingestion is also a TURBOMACHINERY subject**, describing sealing flows between a turbine rotor disc and its stator, and it uses the IDENTICAL PHRASE; the pool holds 82 titles containing 'hot gas' and only 44 belong to this article, the remainder being rim cavities, purge flows and sealing effectiveness joined by dust, particle and salt ingestion, **and it was found by reading the discarded records rather than by anticipation**; bird ingestion remains deliberately ADMITTED because an inlet swallowing a bird and an inlet swallowing its own exhaust are the same fluid mechanics. **HOT GAS INGESTION IS REPORTED AS THIN RATHER THAN PADDED**, thirteen narrow queries aimed directly at it moving the cluster from 43 to 44, because the open literature on inlet reingestion is genuinely small and the measurements that matter are full-scale and made by manufacturers; **the article's central failure mechanism rests on a thin public base and says so**. **CITATION GAPS 12 TO 5**, the five remaining being the three that construct the bring-back allowance, the roll moment as elementary statics, and the documentary ratio, all either original constructions or too elementary to cite, which the article states in its own subsection. Verification: 77 of 77 numerical checks passing unchanged with all article-facing values confirmed present; `_verify.py` at the 21-warning baseline; check_any clean; `_lib/test_lib.py` at 48 of 48; reference integrity at 4,096 with zero undefined, zero orphaned and **zero link-text defects across 8,133 reference entries**; **the set swept with ZERO HARD FAILURES** including all 161 NTRS identifiers, 600 of 3,103 sampled journal DOIs, 160 of 774 sampled DTIC DOIs and all 8 books and 18 curated URLs, with **zero search-endpoint citations**; and a 33-article isolated build rendering **all 28 equations across 16 sections, 56 subsections and 16 tables** at 977 KB with 8,440 list items, zero broken anchors and zero empty headings. Next available article number A370. |
 | 2026-08-10 | A329 publication review, the fourth and final pass. Committed and **pushed**. **Not published.** All thirty-three articles remain in `_drafts/`. Final state **19,593 lines, 28 display equations, 6,159 reference definitions, 103,943 words**, from 13,353 lines and 4,096 definitions, with every one of the 6,100 master records cited and none left over. **THE CONTEMPORARY SURVEY WAS THE HALF THE PRIMARY PASS LEFT BEHIND, AND THIS IS THE COUNT-VERSUS-FRACTION TRAP ARRIVING AS AN ACTUAL GAP RATHER THAN AS AN ARTEFACT**: coverage stood at **1,371 records, 34.0 percent**, purely because the period count had risen underneath it while nothing was added to the modern half, and **nothing had been removed**. A harvest took it to **3,428 records, 56.2 percent, with 1,651 published from 2022 onward**, filling twelve thin modern clusters, the sharpest being momentum theory 8 to 51, nozzle design 14 to 121 and computational fluid dynamics 12 to 105. **TWO CONTEMPORARY SUBJECTS THE ARTICLE'S OWN ARGUMENT REACHES HAD NO HEADING, AND BOTH FOLLOW FROM RESULTS THE EARLIER PASSES PRODUCED RATHER THAN FROM BEING MERELY RECENT.** **Shipboard thermal and deck interaction is the operational consequence of the disc-loading identity the equation pass derived**, since an architecture at 2,852 lb/ft2 imposes almost twice the pressure of one at 1,467 on the same deck at the same landing weight, and ships were resurfaced because of that number. **Digital engineering and model-based acquisition is what partly replaced the fly-off**, and the trade it embodies is between an evidence source that MATCHES THE PROPOSAL EXACTLY and one that MATCHES REALITY EXACTLY, which is precisely the difficulty this competition exposed, since a model can be made to be the proposal but cannot supply what the X-35B's single sortie supplied. **AN ACRONYM DEFECT WAS FOUND AND IT HAS A CAUSE WORTH RECORDING**: the National Aeronautics and Space Administration was never spelled out, and **the reference lists had grown until a verbatim citation title carrying the acronym appeared at character 9,460 while the authorial spell-out sat at 56,304**, so a GROWING REFERENCE SET CAN MOVE A VERBATIM OCCURRENCE AHEAD OF AN AUTHORIAL ONE and the check must be re-run after every reference pass rather than once; the spell-out was moved into the opening prose. Publication checks: prose style clean with zero em dashes, zero en dashes, zero contractions, zero prose parentheticals, zero prose colons and zero prose semicolons in the body; **zero link-text defects across 12,259 reference entries**; diction clean with `lift` at 7.78 and `aircraft` at 7.51 per thousand judged **legitimate as the article's keystone quantity and subject noun** rather than filler; acronym spell-out verified for both STOVL and NASA ahead of every occurrence; structural conformance confirmed with all twelve genre sections plus the three series sections. Final verification: 77 of 77 numerical checks passing unchanged with all article-facing values confirmed present; `_verify.py` at the 21-warning baseline; check_any clean; `_lib/test_lib.py` at 48 of 48; reference integrity at 6,159 with zero undefined, zero orphaned and zero malformed anchors; citation gaps held at 5, all original constructions or elementary statics; **the final set swept with ZERO HARD FAILURES AND ZERO MISMATCHES** including all 169 NTRS identifiers, 600 of 5,159 sampled journal DOIs, 160 of 773 sampled DTIC DOIs and all 8 books and 18 curated URLs, with **zero search-endpoint citations**; and a 33-article isolated build rendering **all 28 equations across 16 sections, 58 subsections and 16 tables** at 1.41 MB with 12,568 list items, zero broken anchors and zero empty headings. Next available article number A370. |
+| 2026-09-11 | A357, the Generation Orbit X-60, drafted as `_drafts/x_planes_generation_orbit_x60.markdown`, editorial date 2025-12-05, series index 61. Committed, **not pushed**. **10,235 lines, 47 display equations, 84 declared symbols, 4,628 reference definitions, 62,588 words**, research 4,501 with 1,430 report primaries at 31.8 percent, three sweeps retrieving 38,596 of which 31,527 distinct, gate 11,149 under a 4,500 citation budget. **The register calls a rocket an aircraft and the instruction that governs the register explains why it had no alternative.** **The two published performance figures are one dynamic pressure of 1,649 pounds per square foot.** **The statutory suborbital-rocket test was integrated and passes at 100 percent on every one of 53 pitch programmes.** **The contract record runs three years past the last public word and ends by paying to ship the equipment.** Verifier 0 errors 0 warnings, tests 112 of 112, 251 article checks all passing, build clean in 190 seconds against checksum-matched bytes, rendered audit no findings across 96 pages, page 889,709 bytes. **Not published.** |

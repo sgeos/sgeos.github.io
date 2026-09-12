@@ -17,6 +17,44 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Generation Orbit X-60 A357 2025-12-05
+
+`x_planes_generation_orbit_x60.markdown`, A357, editorial date 2025-12-05, series `x_planes` index 61 of 72.
+
+**10,235 lines, 47 display equations, 84 declared symbols, 4,628 reference definitions,
+62,588 words after the draft pass.** **DRAFT PASS COMPLETE, three passes remain.** Committed,
+**not pushed**. **Not published**, and publication of the series has never been authorised.
+**Designated but never flown, and the first article in this series whose subject is a
+taxonomy.**
+
+**THE REGISTER CALLS IT AN AIRCRAFT AND THE AIR FORCE CALLS IT A ROCKET TWELVE TIMES.**
+Across three Air Force releases totalling 1,032 words the word rocket appears 12 times and
+aircraft once, and that once is the business jet the rocket hangs under. The register's
+164-character entry says aircraft once and rocket not at all.
+
+**AND THE REGISTER HAD NO ALTERNATIVE, WHICH IS THE ARTICLE.** DAFI 16-401 makes X both a
+status prefix and a Research basic mission in the aircraft system, and only a status prefix
+in the missile, rocket, probe, booster and satellite system, which has no Research basic
+mission at all. **A vehicle designated as a rocket cannot be an X-plane**, so the only door
+into the series is the aircraft door.
+
+**THE TWO PUBLISHED PERFORMANCE FIGURES ARE ONE FIGURE.** Dynamic pressure is
+`gamma p M^2 / 2` with the temperature cancelled exactly, so Mach 5 above 70,000 feet is
+1,649 pounds per square foot, which is a scramjet test condition written in the only units a
+press release can use.
+
+**THE STATUTORY DEFINITION OF A SUBORBITAL ROCKET WAS INTEGRATED RATHER THAN ASSERTED.**
+Thrust exceeds lift for 100 percent of powered ascent on every one of 53 pitch programmes,
+with the lift solved for rather than modelled.
+
+**THE PUBLIC RECORD STOPS IN FEBRUARY 2020 AND THE CONTRACT RECORD RUNS TO FEBRUARY 2023**,
+with 30.1 percent of the money obligated after the silence, 4,808,000 dollars redirected to
+numerical analysis three months after the flight was deferred, and a last positive obligation
+of 22,873.11 dollars to pay for shipping of equipment.
+
+**Publication Sensibility**: Do not publish. The series is unpublished and unauthorised, and
+this article has completed one of four passes.
+
 ## X-Planes Lockheed Martin X-59 Quesst A356 2025-12-04
 
 `x_planes_lockheed_martin_x59_quesst.markdown`, A356, editorial date 2025-12-04, series `x_planes` index 60 of 72.
@@ -9253,19 +9291,23 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Seventy files exist in `_drafts/`. One is a template. One is this summary.
-**Sixty are the in-progress X-Planes series, A297 through A356 with no gaps, none of them
+Seventy-one files exist in `_drafts/`. One is a template. One is this summary.
+**Sixty-one are the in-progress X-Planes series, A297 through A357 with no gaps, none of them
 published**, and publication of the series has never been authorised.
 Eight are the pre-release candidates listed below.
 No stubs remain.
 A79 through A144 have been published.
 
-**These counts were re-measured against the working tree on 2026-09-10 rather than carried forward.**
-The previous version read fifty-eight files and forty-eight X-Planes drafts running to A344, which
-had been true twelve articles earlier, and it had been correct when written on 2026-08-31. **A
-resume channel that disagrees with the tree is worse than one that is merely terse**, so the figures
-above come from counting the directory, and the contiguity of the article numbers was checked rather
-than assumed.
+**These counts were re-measured against the working tree on 2026-09-11 rather than carried forward.**
+An earlier version read fifty-eight files and forty-eight X-Planes drafts running to A344, which had
+been true twelve articles earlier. **A resume channel that disagrees with the tree is worse than one
+that is merely terse**, so the figures above come from counting the directory, and the contiguity of
+the article numbers was checked rather than assumed. **The count was taken wrong once before it was taken right.** A first pass at
+this paragraph asserted that the file count had not moved, on the reasoning that the directory already
+held seventy entries. It held seventy MARKDOWN files and seventy-one files, because this summary is a
+`.md` and every draft is a `.markdown`, so the two counts differ by exactly one and adding an article
+moves both. **A count of files is not a count of drafts and neither is a count of one extension**, and
+the figures above come from three separate listings rather than from one.
 
 **Tier 1: Publishable with moderate effort.**
 No drafts remain in Tier 1.

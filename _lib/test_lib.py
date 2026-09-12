@@ -1990,6 +1990,47 @@ def t_homonym_a355_a_curriculum_can_be_a_training_schedule():
         assert homonyms.noise_hit(title) is not None, f"school curriculum survived: {title}"
 
 
+def t_homonym_a357_the_homonyms_a_sweep_guards_are_not_the_ones_that_bite_it():
+    """A357: SANDIA'S PEGASUS AGAINST THE PEGASUS AIR-LAUNCHED BOOSTER.
+
+    A357's vehicle carries four proper nouns that each collide with a large literature. Its
+    engine is the **Hadley**, which in atmospheric science is a circulation cell and a
+    research centre. Its engine's maker is **Ursa Major**, a constellation. Its carrier is a
+    **Gulfstream**, an ocean current. Its contractor is **Generation Orbit**, and orbit is an
+    electron shell, an eye socket and the whole of astrodynamics. All four were guarded in
+    that article's gate before its first sweep ran.
+
+    **NONE OF THE FOUR PRODUCED A SINGLE CONTAMINANT.** The record that reached the kept set
+    was Sandia's PEGASUS, a capacitor bank that accelerates flyer plates, which nobody had
+    thought about, and it arrived twice because two indexes carry it.
+
+    **THE WORD BOOSTER IS WHY IT IS INVISIBLE.** A pulsed-power flyer plate is called a
+    booster projectile, so the title carries launch vocabulary in every position a subject
+    gate inspects, and the machine shares its name with the winged rocket that every
+    air-launch study in that pool measures itself against.
+
+    Both directions are asserted, because a guard that also deleted the air-launched booster
+    would have cost the article its most-cited comparison vehicle.
+    """
+    for title in [
+        "Acceleration of aluminum booster projectiles with PEGASUS",
+        "Acceleration of Aluminum Booster Projectiles With PEGASUS",
+    ]:
+        assert homonyms.noise_hit(title) is not None, (
+            f"the pulsed-power machine must be held: {title}")
+
+    # **AND THE ROCKET MUST SURVIVE**, which is the half that matters to the article.
+    for title in [
+        "Carriage and launch characteristics of the Pegasus air-launched space booster",
+        "Structural analysis and testing of the Pegasus air-launched space booster",
+        "Aerodynamic flight research using the Pegasus air-launched space booster",
+        "Summary of aerothermal test results from the first flight of the Pegasus "
+        "air-launched space booster",
+    ]:
+        assert homonyms.noise_hit(title) is None, (
+            f"the air-launched booster must not be deleted with the machine: {title}")
+
+
 def t_homonym_a356_an_aeroplane_flown_on_a_camera_owns_the_display_literature():
     """A356: A FAMILY MUST BE TAGGED BEFORE IT CAN BE OPENED, AND THIS ONE WAS NOT.
 

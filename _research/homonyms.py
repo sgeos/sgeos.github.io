@@ -90,6 +90,33 @@ NOISE_PATTERNS = [
      "**SPLIT OUT AND TAGGED SEPARATELY** so an aeroelastic article can open the "
      "actuators without also opening thermoset cure monitoring",
      "smart-actuators"),
+    # **A357: PEGASUS THE PULSED-POWER MACHINE AGAINST PEGASUS THE AIR-LAUNCHED ROCKET.**
+    # Sandia's PEGASUS is a capacitor bank that accelerates flyer plates, and the Orbital
+    # Sciences Pegasus is the winged booster every air-launch study measures itself against.
+    # `Acceleration of aluminum booster projectiles with PEGASUS` reached A357's kept set
+    # twice, once from each source, admitted by a gate that had guarded the vehicle's own four
+    # foreseeable name collisions and not this one.
+    #
+    # **THE WORD BOOSTER IS WHAT MAKES IT INVISIBLE.** A pulsed-power flyer plate is called a
+    # booster projectile, so the title carries launch vocabulary in every position a subject
+    # gate looks at. The discriminator is the capitalisation of the machine's name together
+    # with pulsed-power company, and the pattern deliberately does not match `Pegasus` in
+    # title case, which is the rocket.
+    # **THE PATTERN IS ORDER-FREE AND THE FIRST VERSION WAS NOT.** Written as a bounded
+    # lookahead after the machine's name it missed the very record that produced it, because
+    # `PEGASUS` is the last word of that title and there is nothing after it to look at. A
+    # discriminator that depends on which side of the name the evidence falls on is not a
+    # discriminator.
+    (r"(?=.*\bPEGASUS\b)(?=.*(?:pulsed power|capacitor bank|flyer plates?|"
+     r"projectiles?|liner implosion|magnetic flux compression))",
+     "A357: SANDIA'S PEGASUS PULSED-POWER MACHINE against the Orbital Sciences Pegasus "
+     "air-launched booster. 'Acceleration of aluminum booster projectiles with PEGASUS' "
+     "reached the kept set twice. **The word BOOSTER is what makes it invisible**, because "
+     "a flyer plate is called a booster projectile and the title therefore carries launch "
+     "vocabulary in every position. **The four collisions A357 predicted from the vehicle's "
+     "own parts list, being Hadley, Ursa Major, Gulfstream and orbit, produced no "
+     "contaminant at all**, so this entry is the record that the homonyms a sweep guards "
+     "are not the homonyms that bite it", "pulsed-power"),
     (r"^(?!.*\bdielectric (?:barrier discharge|elastomer)s?\b)(?=.*\bdielectric\b)",
      "A369: 'binary translation' returned 45 records on the static "
      "dielectric constants of BINARY LIQUID MIXTURES. **A352 TAGGED IT** "
