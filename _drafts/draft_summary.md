@@ -21,9 +21,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_generation_orbit_x60.markdown`, A357, editorial date 2025-12-05, series `x_planes` index 61 of 72.
 
-**10,235 lines, 47 display equations, 84 declared symbols, 4,628 reference definitions,
-62,588 words after the draft pass.** **DRAFT PASS COMPLETE, three passes remain.** Committed,
-**not pushed**. **Not published**, and publication of the series has never been authorised.
+**10,524 lines, 82 display equations, 126 declared symbols, 4,628 reference definitions,
+64,907 words after the equation-density review.** **TWO OF FOUR PASSES COMPLETE, the draft and
+the equation-density review. Two remain.** Committed, **not pushed**. **Not published**, and publication of the series has never been authorised.
 **Designated but never flown, and the first article in this series whose subject is a
 taxonomy.**
 
@@ -45,7 +45,16 @@ press release can use.
 
 **THE STATUTORY DEFINITION OF A SUBORBITAL ROCKET WAS INTEGRATED RATHER THAN ASSERTED.**
 Thrust exceeds lift for 100 percent of powered ascent on every one of 53 pitch programmes,
-with the lift solved for rather than modelled.
+with the lift solved for rather than modelled. **The equation-density review then found that
+the definition has a second half the draft never tested**, being the vacuum instantaneous
+impact point, which resolves to a perigee radius 6,199 kilometres below the surface at 22.9
+percent of circular orbital speed. Both halves are now satisfied by computation.
+
+**THE EQUATION-DENSITY REVIEW TOOK 47 DISPLAY RELATIONS TO 82.** The section carrying the
+article's central claim, that no steady state exists at cruise, had no equations at all, and
+three draft approximations were replaced by computed values, among them the share of the
+atmosphere a carrier aircraft removes, which is 80.9 percent and not the three quarters the
+draft estimated.
 
 **THE PUBLIC RECORD STOPS IN FEBRUARY 2020 AND THE CONTRACT RECORD RUNS TO FEBRUARY 2023**,
 with 30.1 percent of the money obligated after the silence, 4,808,000 dollars redirected to
@@ -53,7 +62,7 @@ numerical analysis three months after the flight was deferred, and a last positi
 of 22,873.11 dollars to pay for shipping of equipment.
 
 **Publication Sensibility**: Do not publish. The series is unpublished and unauthorised, and
-this article has completed one of four passes.
+this article has completed two of four passes.
 
 ## X-Planes Lockheed Martin X-59 Quesst A356 2025-12-04
 

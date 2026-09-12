@@ -28,7 +28,37 @@ This is the sixty-first article in the [X-Planes series][related_post_a297_frami
 
 Every article in this series has asked what binding unknown its aeroplane existed to resolve. **The X-60A did not exist to resolve an unknown. It existed to sell access to one.**
 
-The condition it sold is a region of the Mach-altitude plane that hypersonic hardware has to survive and that no ground facility fully reproduces. Air-breathing hypersonic propulsion runs at high **dynamic pressure**, because a scramjet's thrust scales with the mass of air it can swallow and the pressure it can recover, and both scale with $q$. Thermal protection has to be exposed to a real stagnation enthalpy for a real duration. Boundary-layer transition, which decides how much heating a vehicle actually sees, depends on a unit Reynolds number, a wall temperature ratio and a free-stream disturbance environment that a ground tunnel does not get right at the same time.
+The condition it sold is a region of the Mach-altitude plane that hypersonic hardware has to survive and that no ground facility fully reproduces.
+
+**Air-breathing hypersonic propulsion runs at high dynamic pressure for a reason that can be written down.** A scramjet's thrust follows the mass of air it swallows, and the mass an inlet of a given capture area swallows is set by the density and the flight speed, which is twice the dynamic pressure divided by that speed.
+
+$$
+\dot{m}_a \;=\; \rho V A_c \;=\; \frac{2 q}{V} \, A_c
+$$
+
+**So the corridor is a statement about what the engine can breathe.** At the middle of the band the flux is a usable number rather than an abstraction.
+
+$$
+\frac{\dot{m}_a}{A_c} \bigg|_{M = 6} \;=\; \frac{2 \times 1500 \times 47.88\ \text{Pa}}
+{1,479.5\ \text{m/s} \times 6/5}
+  \;=\; 80.4\ \text{kg}\,\text{m}^{-2}\text{s}^{-1}
+$$
+
+**And the flux falls as the Mach number rises at fixed dynamic pressure**, from 97 kilograms per square metre per second at Mach 5 to 59.8 at Mach 8, because the same $q$ is being delivered at a higher speed and therefore a lower density. An engine that wants more air as it goes faster has to be flown deeper into the atmosphere, which is the tension the corridor exists to manage.
+
+Thermal protection has to be exposed to a real stagnation enthalpy for a real duration. Boundary-layer transition, which decides how much heating a vehicle actually sees, depends on a Reynolds number based on distance from the leading edge.
+
+$$
+\mathit{Re}_x \;=\; \frac{\rho V x_t}{\mu}
+$$
+
+It also depends on the ratio of the wall temperature to the temperature the wall would reach if it were insulated.
+
+$$
+\frac{T_w}{T_r}
+$$
+
+**A ground tunnel does not get those two and the free-stream disturbance environment right at the same time**, which is the argument the programme was built on.
 
 The programme's own statement of purpose is unusually direct.
 
@@ -93,6 +123,7 @@ The public record gives two performance figures for the X-60A. The designation r
 | $h$ | geopotential altitude |
 | $h_b$ | the geopotential altitude of the base of an atmospheric layer |
 | $\Delta z$ | the altitude gained between release and the corridor |
+| $\Delta q$ | a change in dynamic pressure |
 | $\gamma$ | the ratio of specific heats of air |
 | $R$ | the specific gas constant of air |
 | $R_e$ | the effective radius of the Earth used by the standard atmosphere |
@@ -118,6 +149,14 @@ The public record gives two performance figures for the X-60A. The designation r
 | $k_s$ | the Sutton-Graves constant for air |
 | $\mathit{Re}$ | the Reynolds number |
 | $L_r$ | a reference length |
+| $\mathit{Pr}$ | the Prandtl number of air |
+| $r_f$ | the recovery factor, which is the fraction of the stagnation temperature rise a wall actually sees |
+| $T_r$ | the adiabatic wall recovery temperature |
+| $T_w$ | the wall temperature of the test article |
+| $\mathit{Re}_x$ | the Reynolds number based on distance from the leading edge |
+| $x_t$ | the distance from the leading edge at which the boundary layer goes turbulent |
+| $A_c$ | the inlet capture area of an air-breathing test article |
+| $\dot{m}_a$ | the mass flow of air an inlet captures |
 | $F$ | the engine thrust |
 | $F_v$ | the vacuum thrust of the engine |
 | $\dot{m}$ | the propellant mass flow rate |
@@ -138,6 +177,16 @@ The public record gives two performance figures for the X-60A. The designation r
 | $m_s$ | the structural and inert mass of the vehicle |
 | $m_l$ | the payload mass |
 | $\zeta$ | the propellant mass fraction |
+| $\sigma_s$ | the structural coefficient, the inert mass as a share of inert plus propellant |
+| $f_l$ | the payload mass fraction |
+| $\rho_b$ | the bulk density of the loaded propellant |
+| $\Gamma$ | the Vandenkerckhove function of the ratio of specific heats |
+| $T_c$ | the combustion chamber temperature |
+| $M_x$ | the Mach number at the nozzle exit plane |
+| $\phi$ | the throttle setting, as a fraction of rated thrust |
+| $\Delta p_j$ | the pressure drop across the injector |
+| $C_j$ | the discharge coefficient of an injector orifice |
+| $A_j$ | the total injector orifice area |
 | $t_b$ | the powered burn duration |
 | $\Delta V$ | the velocity increment the rocket must supply |
 | $\Delta V_g$ | the velocity lost to gravity during powered ascent |
@@ -155,6 +204,9 @@ The public record gives two performance figures for the X-60A. The designation r
 | $l_t$ | the length of the propellant tankage |
 | $f_r$ | the fineness ratio of the booster |
 | $\theta$ | the flight path angle above the horizontal |
+| $\theta_0$ | the flight path angle at release from the carrier |
+| $\theta_b$ | the commanded flight path angle at burnout |
+| $\theta_c$ | the flight path angle the pitch programme commands |
 | $n$ | the aerodynamic load factor |
 | $\beta_b$ | the ballistic coefficient |
 | $t$ | time from engine ignition |
@@ -168,6 +220,26 @@ The public record gives two performance figures for the X-60A. The designation r
 | $N_f$ | the number of flights flown |
 | $\tau$ | the time a payload spends inside the test corridor on one flight |
 | $c_s$ | the cost per second of test condition delivered |
+| $c_m$ | the marginal cost of one further flight |
+| $M_d$ | the Mach number above which a flight counts as being at condition |
+| $M_i$ | the Mach number at an anchor point of the drag model, the next anchor being $M_i'$ |
+| $\mu_E$ | the gravitational parameter of the Earth |
+| $R_m$ | the volumetric mean radius of the Earth |
+| $r_b$ | the geocentric radius at burnout |
+| $r_p$ | the perigee radius of the coasting ellipse |
+| $\varepsilon$ | the specific orbital energy of the burnout state |
+| $\ell$ | the specific angular momentum of the burnout state |
+| $a_s$ | the semi-major axis of the coasting ellipse |
+| $e_c$ | the eccentricity of the coasting ellipse |
+| $V_c$ | the circular orbital speed at the burnout radius |
+| $\kappa$ | the exponent of the markdown processor's cost in the reference count |
+| $n_r$ | a number of reference definitions |
+| $t_k$ | the time the markdown processor takes on a document |
+| $B_c$ | the citation budget |
+| $n_c$ | the number of records a cluster holds |
+| $n_t$ | the total number of non-primary records across all clusters |
+| $Q_c$ | the citation quota allocated to a cluster |
+| $R_q$ | the budget remaining after the report primaries are kept |
 
 ### Dynamic Pressure Does Not Depend on Temperature
 
@@ -269,6 +341,13 @@ $$
   \;=\; -\, \frac{1}{H}
 $$
 
+That is the differential form. The finite-difference form is what a guidance law has to work with.
+
+$$
+\frac{\Delta q}{q} \;=\; 1 - \exp\!\left( -\, \frac{\Delta z}{H} \right)
+  \;=\; 14.51\ \text{percent per kilometre}
+$$
+
 **A kilometre of altitude is 14.51 percent of dynamic pressure.** Holding $q$ to within ten percent at fixed Mach therefore means holding altitude to within about seven hundred metres, on a vehicle climbing at several hundred metres per second. That is the control problem stated as a number, and it is the reason a corridor is difficult rather than merely narrow.
 
 The same relation read along the corridor rather than across it gives the slope of a constant-$q$ line in the Mach-altitude plane.
@@ -318,6 +397,19 @@ $$
 \frac{p_0}{p} \;=\; \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\gamma / (\gamma - 1)}
 $$
 
+**The first column overstates what a wall actually reaches, and by a knowable amount.** A surface in a moving boundary layer recovers only part of the stagnation temperature rise, and the fraction is set by the Prandtl number.
+
+$$
+r_f \;=\; \mathit{Pr}^{1/2} \;\; \text{(laminar)}, \qquad
+r_f \;=\; \mathit{Pr}^{1/3} \;\; \text{(turbulent)}
+$$
+
+$$
+T_r \;=\; T \left( 1 + r_f \, \frac{\gamma - 1}{2} M^2 \right)
+$$
+
+With a Prandtl number of 0.71 the recovery factor is 0.843 laminar and 0.892 turbulent, so the turbulent recovery temperature at Mach 6 is 1,639 kelvin against a stagnation value of 1,811. **The correction is 9.5 percent and it runs the safe way**, which is why stagnation temperature is the figure a specification quotes and recovery temperature is the figure a designer sizes to.
+
 **The third column is why ground facilities are hard.** To reproduce Mach 8 at 1,500 pounds per square foot a blowdown tunnel needs a reservoir at 9,762.9 times the test-section static pressure and at 3,099 kelvin, and it needs to hold both for long enough to take data. Facilities that reach the enthalpy do so for milliseconds, and facilities that run for minutes do not reach the enthalpy [[Bertin][book_bertin]] [[Anderson][book_anderson_hypersonic]].
 
 The Reynolds number in the fourth column uses Sutherland's law for viscosity.
@@ -328,6 +420,12 @@ $$
 
 $$
 \mathit{Re} = \frac{\rho V L_r}{\mu}
+$$
+
+The fourth column of the table above is that quantity per metre of length, which is how a flight condition is reported when the test article's length is not yet decided.
+
+$$
+\frac{\mathit{Re}}{L_r} \;=\; \frac{\rho V}{\mu}
 $$
 
 **Unit Reynolds number is the quantity a ground facility most often gets wrong**, and it is the one that decides where the boundary layer goes turbulent, which decides the heating, which decides the thermal protection mass. A tunnel matching Mach number and stagnation enthalpy at the wrong Reynolds number produces a laminar answer to a turbulent question.
@@ -365,6 +463,28 @@ $$
 $$
 \epsilon = \frac{A_e}{A_t}
 $$
+
+The area ratio and the exit Mach number are the same fact written two ways, through the relation every convergent-divergent nozzle obeys.
+
+$$
+\epsilon \;=\; \frac{A_e}{A_t} \;=\; \frac{1}{M_x}
+\left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M_x^2 \right) \right]^{(\gamma + 1) / (2(\gamma - 1))}
+$$
+
+**Neither the chamber pressure nor the throat area is published, and one can be traded for the other rather than invented.** The mass flow through a choked throat is fixed by the chamber conditions and the throat area.
+
+$$
+\dot{m} \;=\; \frac{\Gamma \, p_c A_t}{\sqrt{R \, T_c}}, \qquad
+\Gamma \;=\; \sqrt{\gamma} \left( \frac{2}{\gamma + 1} \right)^{(\gamma + 1) / (2(\gamma - 1))}
+$$
+
+With $\Gamma$ equal to 0.6847 for air, and taking a characteristic velocity of 1,800 metres per second, which is typical for liquid oxygen and kerosene and is **not published for this engine**, the product of chamber pressure and throat area follows from the mass flow alone.
+
+$$
+p_c A_t \;=\; \dot{m} \, c_* \;=\; 14,078\ \text{N}
+$$
+
+**That is one number standing in for two.** At a chamber pressure of four megapascals the throat is 66.9 millimetres across, at seven it is 50.6, and at ten it is 42.3. An oxygen-rich staged combustion cycle exists to run at the higher end of that range, so the throat is probably nearer the last figure than the first, and the article does not pretend to know which.
 
 **The quoted 5,000 pounds is a sea-level rating and this vehicle never sees sea level.** The pressure term is negative at sea level and vanishes in vacuum, so the same engine produces more thrust the higher it goes.
 
@@ -459,6 +579,20 @@ $$
 
 **The recovery is an estimate with three assumptions in it and they are stated rather than buried.** The mixture ratio is assumed, the tankage is assumed to occupy seventy percent of the 4.9 metre booster, and the tanks are assumed cylindrical at the full body diameter. Under those assumptions the propellant volume is 0.6763 cubic metres and the diameter is **0.501 metres**, giving a fineness ratio of 9.8 and a span of 3.39 diameters.
 
+The same two numbers give the density the tankage has to carry.
+
+$$
+\rho_b \;=\; \frac{m_p}{V_p} \;=\; 1,015.3\ \text{kg}\,\text{m}^{-3}
+$$
+
+**A loaded liquid oxygen and kerosene stage is very nearly the density of water**, at 1.015 times it, which is a useful sanity check on any propellant volume and is why launch vehicles are mostly empty space by mass and mostly full by volume.
+
+The span follows the same way.
+
+$$
+\frac{S}{d}
+$$
+
 **Those three numbers are mutually consistent with a vehicle that exists in photographs**, which is the only check available. A body of nine to ten calibres with a small cruciform or planar fin set at three and a half diameters of span is an ordinary slender supersonic configuration, and a wildly wrong diameter would have produced a body of four calibres or of twenty.
 
 **The diameter and the propellant load are not independent and the first version of this analysis treated them as if they were.** The propellant volume sets the diameter, the diameter sets the frontal area, the frontal area sets the drag, and the drag sets how much propellant the corridor costs. It is a fixed point, and solving it as one took 13 iterations and moved the diameter 8.2 percent from the single-pass value of 0.463 metres.
@@ -483,9 +617,35 @@ $$
 \beta_b = \frac{m}{C_d S}
 $$
 
+Two kinematic relations close the set, one for altitude and one for the mass the engine is consuming.
+
+$$
+\frac{dz}{dt} \;=\; V \sin\theta, \qquad \frac{dm}{dt} \;=\; -\, \dot{m}
+$$
+
+The pitch programme is the only thing left free, and it is commanded rather than solved, running linearly from the release angle to the burnout angle over the burn.
+
+$$
+\theta_c(t) \;=\; \theta_0 + \left( \theta_b - \theta_0 \right)
+\min\!\left( 1, \; \frac{t}{t_b} \right)
+$$
+
+The drag coefficient is interpolated between anchor points that reproduce the shape every slender supersonic body shares, being a low subsonic value, a transonic peak near Mach 1.2 and a slow supersonic decline.
+
+$$
+C_d(M) \;=\; C_d(M_i) + \left[ C_d(M_i') - C_d(M_i) \right]
+\frac{M - M_i}{M_i' - M_i}, \qquad M_i \le M \le M_i'
+$$
+
 **This article integrates those equations and it is important to be clear about what that is and is not.** No trajectory for the X-60A has been published. What follows is a two-degree-of-freedom point-mass ascent on a commanded pitch programme, using the published mass, the published sea-level thrust and the fixed-point geometry above, with a drag coefficient taken from the shape every slender supersonic body shares rather than from this vehicle. **It shows what the published corridor costs. It does not show what the programme intended to fly.**
 
-The lift is not modelled. It is solved for, by asking the flight-path equation what lift the commanded pitch programme requires at each instant. **A lift coefficient guessed from an artist's impression would put a fabricated number on both sides of the comparison that the next section rests on.**
+The lift is not modelled. It is solved for, by asking the flight-path equation what lift the commanded pitch programme requires at each instant, which is that equation rearranged.
+
+$$
+L \;=\; m V \frac{d\theta}{dt} + m g \cos\theta
+$$
+
+**A lift coefficient guessed from an artist's impression would put a fabricated number on both sides of the comparison that the next section rests on.**
 
 Integrating to the Mach numbers the Air Force published gives the propellant each one costs.
 
@@ -495,9 +655,24 @@ Integrating to the Mach numbers the Air Force published gives the propellant eac
 | Mach 6 | 52.9 % | 50.5 % | 48.2 % |
 | Mach 8 | 65 % | 62.7 % | 60.6 % |
 
-**The mass budget closes and that is worth reporting because it might not have.** At the nominal specific impulse, reaching Mach 8 costs 852.9 kilograms of propellant and leaves 507.1 kilograms for everything else. Subtracting the published 320 kilogram payload leaves 187.1 kilograms for the tank, the engine, the thrust vector actuators, the avionics, the fins and the flight termination system, which is 13.8 percent of gross. **Against 852.9 kilograms of propellant that is a structural coefficient a real expendable stage achieves**, so the published payload and the top of the published speed range are compatible rather than in tension.
+**The mass budget closes and that is worth reporting because it might not have.** At the nominal specific impulse, reaching Mach 8 costs 852.9 kilograms of propellant and leaves 507.1 kilograms for everything else. Subtracting the published 320 kilogram payload leaves 187.1 kilograms for the tank, the engine, the thrust vector actuators, the avionics, the fins and the flight termination system, which is 13.8 percent of gross.
 
-The computed losses are modest, which the geometry explains. Drag costs 243.6 metres per second and gravity 185, for 428.6 in total, against the 1,603.9 metre per second allowance the hand calculation assumed. **A vehicle released at twelve kilometres has already been carried above three quarters of the atmosphere's mass**, and the peak drag coefficient of 0.62 occurs transonically where the dynamic pressure is still small.
+A stage is judged on two ratios rather than on either mass alone.
+
+$$
+\sigma_s \;=\; \frac{m_s}{m_s + m_p}, \qquad f_l \;=\; \frac{m_l}{m_0}
+$$
+
+**The payload fraction is 23.5 percent and the structural coefficient at Mach 8 is 18 percent**, against 34 at Mach 6 and 42.7 at Mach 5. An expendable upper stage built to launch a satellite reaches 0.08 to 0.12, so **the hardest case here is more generous than a launcher stage has to be**, and the published payload and the top of the published speed range are compatible rather than in tension. **The budget closes with room, which is the opposite of the answer this calculation was expected to give.**
+
+The computed losses are modest, which the geometry explains. Drag costs 243.6 metres per second and gravity 185, for 428.6 in total, against the 1,603.9 metre per second allowance the hand calculation assumed. **The reason is that a carrier aircraft removes most of the atmosphere before the rocket lights.** The mass of the air column above an altitude is its pressure divided by gravity, so the share left below the release point is one minus a pressure ratio.
+
+$$
+\frac{m}{S} \bigg|_{\text{above } z} \;=\; \frac{p(z)}{g_0}, \qquad
+1 - \frac{p(z)}{p_b(0)} \;=\; 80.9\ \text{percent}
+$$
+
+**A vehicle released at twelve kilometres has already been carried above 80.9 percent of the atmosphere's mass**, leaving 1,978 kilograms per square metre overhead against 10,332 at sea level. **The draft of this article said three quarters and that was an estimate rather than a calculation**, which is recorded here because the figure was easy to compute and was not computed. The peak drag coefficient of 0.62 then occurs transonically, where the dynamic pressure is still small.
 
 ## The Flight Test Record
 
@@ -566,15 +741,32 @@ $$
 c_s \;=\; \frac{30,921,064.62}{N_f \, \tau} \quad \text{with} \quad N_f = 0
 $$
 
+The denominator's other factor is a dwell, which is the time a flight spends above the Mach number that counts as being at condition.
+
+$$
+\tau \;=\; \int_{0}^{t_b} dt \;\; \text{over the interval where} \;\; M(t) \ge M_d
+$$
+
 **0 flights were flown and 0 seconds of test condition were delivered.** The cost per second of hypersonic condition supplied by the X-60A is not large. It is undefined.
 
 **It is worth computing what the number would have been, because the programme deserves to be measured against its own ambition rather than only against its outcome.** On the integrated trajectory, a vehicle carrying the Mach 6 propellant load spends **12.2 seconds above Mach 5**, which is 13.9 percent of an 87.8 second burn. Against the 30,921,064.62 dollars obligated, a single flight would have cost 2,538,675 dollars per second at condition, four flights 634,669, and ten flights 253,868.
 
-**Those are development costs divided by flights, not marginal costs, and dividing a development programme by its first article always produces an absurd number.** The honest reading is the third column. At ten flights the figure approaches a quarter of a million dollars per second of hypersonic condition, and whether that is cheap depends entirely on what a second of the same condition costs in a ground facility, which is a comparison the programme never got to make.
+**Those are development costs divided by flights, not marginal costs, and dividing a development programme by its first article always produces an absurd number.** The two terms behave differently and the article keeps them apart.
+
+$$
+\frac{C_t}{N_f} \;=\; \frac{C_t}{N_f} \bigg|_{\text{development}} + \; c_m
+$$
+
+The first term falls as the reciprocal of the flight count and the second does not fall at all, so an average cost per flight approaches the marginal cost from above and never reaches it. The honest reading is the third column. At ten flights the figure approaches a quarter of a million dollars per second of hypersonic condition, and whether that is cheap depends entirely on what a second of the same condition costs in a ground facility, which is a comparison the programme never got to make.
 
 ### The Dwell Is the Uncomfortable Number
 
 **12.2 seconds is short**, and it is short for a structural reason rather than a design failure. A rocket that is still burning is still accelerating, so it crosses Mach 5 near the end of its burn and reaches its peak Mach number at burnout. **The time above any given Mach number is therefore the tail of the burn and not the burn.**
+
+$$
+\frac{\tau}{t_b} \;=\; \frac{12.2}{87.8}
+  \;=\; 13.9\ \text{percent}
+$$
 
 The register's phrase for what the vehicle does is *at cruise flight conditions* [[DOD 4120.15-L Addendum][ref_mds_addendum]], and a cruise is a steady state. The next section asks whether one exists.
 
@@ -582,11 +774,34 @@ The register's phrase for what the vehicle does is *at cruise flight conditions*
 
 The register says the X-60A tests **at cruise flight conditions** [[DOD 4120.15-L Addendum][ref_mds_addendum]]. **A cruise is a steady state, so the claim has an exact answer.**
 
-At constant speed the thrust must balance the drag plus the component of weight along the flight path. The largest that second term can be is the whole weight, which happens in a vertical climb. **If the thrust at its lowest available setting still exceeds drag plus weight, then no steady state exists at any flight path angle** and the vehicle accelerates whatever anybody commands.
+At constant speed the thrust must balance the drag plus the component of weight along the flight path.
+
+$$
+F \;=\; D + W \sin\theta
+$$
+
+That is one equation in one unknown, so the flight path angle a cruise would require is not a choice.
+
+$$
+\sin\theta \;=\; \frac{F - D}{W}
+$$
+
+**The largest the weight term can be is the whole weight, which happens in a vertical climb**, so the test has an answer that does not depend on the trajectory at all.
+
+$$
+F \;>\; D + W \quad \Longrightarrow \quad \sin\theta > 1 \quad \Longrightarrow \quad
+\text{no steady state exists}
+$$
 
 At Mach 6 on the published dynamic pressure of 1,649 pounds per square foot, which is 23,652 metres, the drag on the derived frontal area is 3,842 newtons. The vehicle at burnout weighs 6,604 newtons. **Drag plus full weight is 10,446 newtons and the engine at its rated sea-level thrust produces 22,241**, which is 2.13 times as much. The flight path angle that would absorb the excess needs a sine of 2.79, and no angle has one.
 
-**So the vehicle cannot cruise at full thrust. It can only cruise throttled, and the depth required is the finding.**
+**And the answer is the same at every dynamic pressure in the corridor.** The required sine is 3.19 at 500 pounds per square foot, 3.02 at a thousand, 2.79 at the published condition and 2.66 at two thousand. **All four exceed 1, which is the largest a sine can be.**
+
+**So the vehicle cannot cruise at full thrust. It can only cruise throttled, and the depth required is the finding.** A throttle setting is the fraction of rated thrust the engine is asked for, and holding a speed means asking for exactly the drag.
+
+$$
+\phi \;=\; \frac{D}{F} \bigg|_{\text{rated}}
+$$
 
 | Dynamic pressure | Altitude at Mach 6 | Drag | Throttle setting to hold speed |
 |---|---|---|---|
@@ -595,7 +810,14 @@ At Mach 6 on the published dynamic pressure of 1,649 pounds per square foot, whi
 | 1,650 lbf/ft² | 23,652 m | 864 lbf | 17.3 % |
 | 2,000 lbf/ft² | 22,407 m | 1,047 lbf | 20.9 % |
 
-**A throttle range of 5.2 to 20.9 percent is at or beyond the edge of what liquid rocket engines do.** Deep throttling is difficult because the injector pressure drop that keeps combustion stable falls with the square of the flow rate, so an engine throttled far enough becomes unstable before it becomes quiet [[Sutton and Biblarz][book_sutton_biblarz]] [[Huzel and Huang][book_huzel_huang]]. The engines that reached ten to twenty percent were designed for that one requirement and are famous for it.
+**A throttle range of 5.2 to 20.9 percent is at or beyond the edge of what liquid rocket engines do.** Deep throttling is difficult for a reason that can be written down. The pressure drop across an injector is what keeps the feed system from talking to the combustion chamber, and it follows the square of the flow rate through a fixed orifice area.
+
+$$
+\Delta p_j \;=\; \frac{1}{2 \rho_b} \left( \frac{\dot{m}}{C_j A_j} \right)^2
+\;\propto\; \dot{m}^2 \;\propto\; \phi^2
+$$
+
+**A throttle ratio therefore costs the square of itself in injector stiffness.** At twenty percent thrust the drop is 4 percent of its rated value, at ten percent it is 1, and at five percent it is 0.25. An engine throttled far enough becomes unstable before it becomes quiet, which is why deep throttling is an engine programme rather than a control setting [[Sutton and Biblarz][book_sutton_biblarz]] [[Huzel and Huang][book_huzel_huang]]. The engines that reached ten to twenty percent were designed for that one requirement and are famous for it.
 
 **This is why the Hadley has an active throttle, and it is the strongest available evidence that the register's word was chosen deliberately.** An engine intended to accelerate a vehicle to a Mach number does not need to throttle at all. An engine intended to hold a vehicle at a condition needs to throttle very deeply indeed, and the propulsion release records that the ground campaign covered **system throttling** alongside full-duration burns and gimballing [[AFRL][ref_afrl_propulsion]].
 
@@ -605,7 +827,13 @@ At Mach 6 on the published dynamic pressure of 1,649 pounds per square foot, whi
 
 There is a compensating result and it is the more important one.
 
-Flying the integrated ascent on 53 pitch programmes, with the same vehicle and the same propellant load, **the dynamic pressure at which the vehicle first reaches Mach 5 ranges from 54 to 3,928 pounds per square foot**. That is a factor of 72.8. The altitude at which it happens ranges from 55.7 thousand feet to 147.9 thousand feet.
+Flying the integrated ascent on 53 pitch programmes, with the same vehicle and the same propellant load, **the dynamic pressure at which the vehicle first reaches Mach 5 ranges from 54 to 3,928 pounds per square foot**. That is a factor of 72.8.
+
+$$
+\frac{q_{\max}}{q_{\min}} \bigg|_{M \ge 5} \;=\; 72.8
+$$
+
+The altitude at which it happens ranges from 55.7 thousand feet to 147.9 thousand feet.
 
 **Dynamic pressure is a property of the trajectory and not of the vehicle.** The published pair of Mach 5 and seventy thousand feet sits unremarkably inside that range, and so does most of the air-breathing test corridor. **This is what makes a rocket with almost no wing a plausible substitute for a wind tunnel.** A tunnel's condition is fixed by its nozzle and its reservoir and changing it means changing hardware. This vehicle's condition is fixed by its pitch programme, and changing it means changing a table in a flight computer.
 
@@ -665,6 +893,45 @@ F > L \quad \Longleftrightarrow \quad n < \frac{F}{W} \;=\; 1.668
 $$
 
 **Across all 53 pitch programmes, thrust exceeds lift for 100 percent of powered ascent in the worst case.** The largest lift demanded anywhere in the set is 0.591 of the thrust. The statute's threshold is a majority, and the answer is unanimous.
+
+### The Definition Has a Second Half and It Is Also Computable
+
+**The thrust-against-lift clause is not the whole test.** A suborbital rocket must also be *intended for flight on a suborbital trajectory*, and the statute defines that term too [[51 U.S.C. 50902][ref_usc_50902]].
+
+> "suborbital trajectory" means the intentional flight path of a launch vehicle, reentry vehicle, or any portion thereof, whose vacuum instantaneous impact point does not leave the surface of the Earth.
+
+**A vacuum instantaneous impact point is where the vehicle would land if the engine stopped and the air vanished**, which makes it a two-body problem with a closed-form answer. The burnout state gives a specific energy and a specific angular momentum.
+
+$$
+\varepsilon \;=\; \frac{V^2}{2} - \frac{\mu_E}{r_b}, \qquad
+\ell \;=\; r_b V \cos\theta
+$$
+
+Those two fix the coasting ellipse completely.
+
+$$
+a_s \;=\; -\, \frac{\mu_E}{2 \varepsilon}, \qquad
+e_c \;=\; \sqrt{ 1 + \frac{2 \varepsilon \ell^2}{\mu_E^2} }, \qquad
+r_p \;=\; a_s \left( 1 - e_c \right)
+$$
+
+And the ellipse either reaches the surface or it does not.
+
+$$
+r_p \;<\; R_m \quad \Longleftrightarrow \quad
+\text{the vacuum instantaneous impact point does not leave the surface}
+$$
+
+On the integrated trajectory the vehicle burns out at 1,805.9 metres per second and 24,209 metres. **The resulting ellipse has a semi-major axis of 0.515 Earth radii and an eccentricity of 0.9477, giving a perigee radius of 171,811 metres**, which is about 6,199 kilometres below the surface. The impact point is not merely on the Earth. It is deep inside it.
+
+The same state read against orbital speed says how far from orbit the vehicle is.
+
+$$
+V_c \;=\; \sqrt{\frac{\mu_E}{r_b}}, \qquad
+\frac{V}{V_c} \;=\; 22.9\ \text{percent}
+$$
+
+**Burnout speed is 22.9 percent of circular orbital speed at that altitude and 5.2 percent of the kinetic energy**, which is the quantitative form of the observation that an endoatmospheric testbed and a launch vehicle are not the same kind of machine even though both are rockets. **Both halves of the statutory definition are satisfied, and neither was satisfied by assertion.**
 
 **The X-60A is a suborbital rocket in the sense that matters legally**, and it is an aircraft in the sense that matters bureaucratically, and the two systems were never designed to agree because they were written for different purposes by different bodies.
 
@@ -848,9 +1115,31 @@ There is also a limit on how far the physics in this article should be pushed. *
 
 **The gate admitted 11,149 records and this article cites 4,501 of them, and the reason is that the reference list has a build-time ceiling which is roughly cubic.** Timed on this article's own markdown with the reference count as the only variable, the markdown processor takes 0.43 seconds at 500 definitions, 8.8 seconds at 2,000 and 103 seconds at 4,500. The exponent between those points is 2.2 and then 3.0. **The first assembly of this article carried 10,882 definitions and did not finish a production build in thirty minutes of processor time.**
 
+$$
+t_k \;\propto\; n_r^{\kappa}, \qquad
+\kappa \;=\; \frac{\ln\left( t_k' / t_k \right)}{\ln\left( n_r' / n_r \right)}
+$$
+
+$$
+\kappa \;=\; \frac{\ln\left( 8.82 / 0.43 \right)}
+{\ln\left( 2,000 / 500 \right)} \;=\; 2.18,
+\qquad
+\frac{\ln\left( 103.36 / 8.82 \right)}
+{\ln\left( 4,500 / 2,000 \right)} \;=\; 3.04
+$$
+
+**Extrapolating the second exponent to the first assembly predicts 25.1 minutes for the markdown alone**, which is consistent with a build that had consumed more than thirty minutes of processor time when it was stopped. **The law was measured rather than assumed**, and it is the only reason this article cites a sample instead of the whole gated pool.
+
 **The budget of 4,500 is the largest count this repository has actually shipped**, being the reference list of the [X-59][related_post_a356_x59_quesst], so it is a measured precedent rather than a round number. The deploy gate runs that build on every push, and a bibliography that cannot be built is not a bibliography.
 
-**The selection rule implements the standing directive rather than a convenience.** Every report primary is kept unconditionally, because the directive is to prefer primary sources. The remainder of the budget is filled with the most recent non-primary work, allocated across clusters in proportion to each cluster's size so that no part of the field is starved. **The pool size is reported beside the cited count throughout**, because a sample presented as a census is the defect this whole apparatus exists to prevent.
+**The selection rule implements the standing directive rather than a convenience.** Every report primary is kept unconditionally, because the directive is to prefer primary sources. The remainder of the budget is filled with the most recent non-primary work, allocated across clusters in proportion to each cluster's size so that no part of the field is starved.
+
+$$
+Q_c \;=\; R_q \, \frac{n_c}{n_t}, \qquad
+R_q \;=\; B_c - \left| \{ \text{report primaries} \} \right|
+$$
+
+**The pool size is reported beside the cited count throughout**, because a sample presented as a census is the defect this whole apparatus exists to prevent.
 
 ### The Report-Primary Fraction
 
@@ -912,7 +1201,7 @@ There is also a limit on how far the physics in this article should be pushed. *
 
 ### What This Article Displays and Declares
 
-**47 display relations and 84 declared symbols.** Every symbol used in a display is declared in the table above, and every declared symbol is used in a display, which is asserted at build time rather than reviewed.
+**82 display relations and 126 declared symbols.** Every symbol used in a display is declared in the table above, and every declared symbol is used in a display, which is asserted at build time rather than reviewed.
 
 **Numbers inside displays are slots and not literals.** A worked example typed into an equation is a number no verifier can reach, which is how an article comes to carry a stale figure in its mathematics and a fresh one in its prose. Every evaluated display in this article is filled from the same computation the prose reads.
 

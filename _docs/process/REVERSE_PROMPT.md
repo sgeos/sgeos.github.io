@@ -4,243 +4,185 @@
 
 ## Last Updated
 
-**Date**: 2026-09-11
-**Task**: **A357, X-Planes: Generation Orbit X-60, drafted.** The first of four passes.
-Committed. **Not pushed and not published**, and publication of the series still not
-authorised. **Sixty-one of seventy-two drafted, eleven remain.**
+**Date**: 2026-09-12
+**Task**: **A357, X-Planes: Generation Orbit X-60, equation-density review.** The second of
+four passes. Committed. **Not pushed and not published**, and publication of the series
+still not authorised. **Sixty-one of seventy-two drafted, eleven remain.**
 
 ---
 
-## The Register Calls It an Aircraft and the Air Force Calls It a Rocket Twelve Times
+## Forty-Seven Display Relations to Eighty-Two, and Eighty-Four Symbols to a Hundred and Twenty-Six
 
-**THE OPENING IS A WORD COUNT AND IT IS RECOMPUTED FROM THE RETRIEVED TEXT ON EVERY RUN.**
-Across the three Air Force releases about this vehicle, 1,032 words in all, **rocket appears
-12 times and aircraft appears once**, and that once refers to the business jet the rocket
-hangs under. The register's entry, 164 characters, says aircraft once, vehicle once and
-**rocket not at all.**
+**THE RULE IS THAT A RESULT THE PROSE NAMES MUST BE SHOWN.** The audit read every sentence
+making a relational or quantitative claim and asked whether the relation behind it was
+displayed. **Thirty-five were not**, and each is now placed where the prose relies on it.
 
-**AND THE REGISTER HAD NO ALTERNATIVE, WHICH IS THE FINDING RATHER THAN THE COMPLAINT.**
-DAFI 16-401 splits its symbol set into two designator systems. In the aircraft system the
-letter X is both a status prefix meaning Experimental and **a basic mission meaning
-Research, defined as an aircraft designed for testing highly experimental configurations**.
-In the guided missile, rocket, probe, booster and satellite system **X exists only as a
-status prefix** and there is no Research basic mission at all. **A vehicle designated as a
-rocket therefore cannot be an X-plane.** The only door into the X series is the aircraft
-door, and the taxonomy has no research category for anything that is not an aeroplane.
+## The Section Carrying the Article's Central Claim Had No Equations At All
 
-**The instruction's own tables were used as the evidence rather than paraphrased.** The
-verifier cuts the document at Table A3.1 and Table A4.1 and asserts that `X (Research)`
-appears in the first and not the second, and that `X (Experimental)` appears in both.
+**THE CRUISE ARGUMENT WAS ENTIRELY PROSE.** The register says the X-60A tests at cruise
+flight conditions, the article's answer is that no steady state exists, and the whole of that
+answer was written in words. It is now five relations. The thrust must balance drag plus the
+component of weight along the path, that fixes the required flight path angle, and the
+largest the weight term can be is the whole weight in a vertical climb, so the test does not
+depend on the trajectory.
 
-## The Two Published Performance Figures Are One Figure
+**The required sine is 3.19 at 500 pounds per square foot, 3.02 at a thousand, 2.79 at
+the published condition and 2.66 at two thousand.** All four exceed one, which is the largest
+a sine can be, so the impossibility holds at every dynamic pressure in the corridor rather
+than at the one the draft happened to evaluate.
 
-**DYNAMIC PRESSURE DOES NOT DEPEND ON TEMPERATURE.** Substituting the perfect gas law and
-the speed of sound into the definition gives `q = gamma p M^2 / 2` with the temperature
-cancelled exactly, checked here two ways at one point and agreeing to zero pascals.
+**And the injector relation is now displayed rather than named.** The draft said the injector
+pressure drop falls with the square of the flow rate. **A throttle ratio therefore costs the
+square of itself in stiffness**, so twenty percent thrust leaves 4 percent of the rated drop,
+ten percent leaves 1, and five percent leaves 0.25. That is the quantitative reason deep
+throttling is an engine programme rather than a control setting.
 
-**So `Mach 5 and above` and `above 70,000 feet` are not a speed and a ceiling. They are a
-dynamic pressure of 1,649 pounds per square foot**, which is squarely inside the band the
-air-breathing hypersonic test literature works in. The two figures a press release could
-publish were a scramjet test condition in disguise.
+## The Statutory Definition Has a Second Half and the Draft Never Tested It
 
-## A First Draft Conclusion Was Wrong and the Correction Is the Better Result
+**51 U.S.C. 50902(24) DEFINES A SUBORBITAL ROCKET BY TWO CONDITIONS AND THE DRAFT CHECKED
+ONE.** The thrust-against-lift clause was integrated. The requirement that the vehicle be
+*intended for flight on a suborbital trajectory* was not, and the statute defines that term
+too, at 50902(25), by the vacuum instantaneous impact point.
 
-**THE FIRST TRAJECTORY ANALYSIS CONCLUDED THAT THE PUBLISHED PAIR WAS NOT REACHABLE.** It
-was wrong, and it was wrong because the family of pitch programmes tested was too narrow.
-Widening the grid to **53 programmes on one propellant load** puts the same vehicle at Mach
-5 anywhere between 55.5 and 147.4 thousand feet, **spanning a factor of 72.8 in dynamic
-pressure**, with the published pair sitting unremarkably inside.
+**That is a two-body problem with a closed-form answer.** The burnout state gives a specific
+energy and a specific angular momentum, those fix the coasting ellipse, and the ellipse
+either reaches the surface or it does not.
 
-**Dynamic pressure is a property of the trajectory and not of the vehicle**, which is
-exactly what makes a rocket with almost no wing a plausible substitute for a wind tunnel.
-The correction is recorded in the article rather than quietly replaced.
+**Burnout is at 1,805.9 metres per second and 24,209 metres. The ellipse has a semi-major
+axis of 0.515 Earth radii and an eccentricity of 0.9477, giving a perigee radius of 171,811
+metres**, which is about 6,199 kilometres below the surface. The impact point is not merely
+on the Earth. It is deep inside it. **Burnout speed is 22.9 percent of circular orbital speed
+and 5.2 percent of the kinetic energy**, which is the quantitative form of the observation
+that an endoatmospheric testbed and a launch vehicle are not the same kind of machine.
 
-## The Register Says Cruise and the Vehicle Cannot Cruise
+**Both halves of the definition are now satisfied and neither was satisfied by assertion.**
 
-**A CRUISE IS A STEADY STATE, SO THE CLAIM HAS AN EXACT ANSWER.** At full thrust the engine
-produces 2.23 times the largest force the vehicle could absorb, being drag plus its entire
-weight in a vertical climb, and the flight path angle that would absorb the excess needs a
-sine of 2.84. **No steady state exists at any angle.**
+## Why the Corridor Is a Dynamic Pressure Band, Written Down
 
-**Throttled, holding Mach 6 needs between 5.2 and 20.9 percent of rated thrust** depending
-on the dynamic pressure chosen. Only the high-dynamic-pressure end is within the deepest
-throttle ratios ever demonstrated. **That is why the Hadley has an active throttle**, and
-the propulsion release records that the ground campaign tested exactly that.
+**THE DRAFT ASSERTED THAT A SCRAMJET'S THRUST FOLLOWS THE AIR IT SWALLOWS AND LEFT IT
+THERE.** The captured mass flow per unit area is twice the dynamic pressure over the flight
+speed, which is why the corridor is a statement about what the engine can breathe.
 
-## The Statute Asked the Only Question With a Numerical Answer
+**And the flux falls as the Mach number rises at fixed dynamic pressure**, from 97.0
+kilograms per square metre per second at Mach 5 to 59.8 at Mach 8, because the same $q$ is
+delivered at a higher speed and therefore a lower density. **An engine that wants more air as
+it goes faster has to be flown deeper into the atmosphere**, which is the tension the corridor
+exists to manage and which the draft never stated.
 
-**51 U.S.C. 50902(24) defines a suborbital rocket as one whose thrust exceeds its lift for
-the majority of powered ascent.** That is an inequality between two forces evaluated over
-time, so it was integrated rather than asserted. **The lift is not modelled, it is solved
-for**, by asking the flight-path equation what lift each commanded pitch programme requires,
-because a lift coefficient guessed from an artist's impression would put a fabricated number
-on both sides of the comparison.
+## Three Draft Claims Were Approximate and Are Now Computed
 
-**Thrust exceeds lift for 100 percent of powered ascent on every one of the 53
-programmes**, and the largest lift demanded anywhere is 0.591 of the thrust. **The X-60A is
-a suborbital rocket in the sense that matters legally and an aircraft in the sense that
-matters bureaucratically**, and the specialist registry supplies a third answer by filing it
-under rockets and missiles.
+**THE DRAFT SAID A CARRIER AIRCRAFT LIFTS THE ROCKET ABOVE THREE QUARTERS OF THE
+ATMOSPHERE'S MASS.** The column mass above an altitude is its pressure divided by gravity, so
+the figure was always computable and was not computed. **It is 80.9 percent**, leaving 1,978
+kilograms per square metre overhead against 10,332 at sea level. The article records that the
+estimate was easy to compute and was not.
 
-## The Public Record Stops in February 2020 and the Contract Record Does Not
+**The draft said the Mach 8 mass budget gives a structural coefficient a real expendable
+stage achieves.** Directionally right and imprecisely put. **The coefficient is 18.0 percent
+against 8 to 12 for an expendable upper stage**, so the hardest case here is *more generous*
+than a launcher stage has to be. **The budget closes with room, which is the opposite of the
+answer the calculation was expected to give.**
 
-**THIS IS THE FINDING NO SECONDARY SOURCE STATES.** The registry that tracks these vehicles
-records that no news item about the X-60A appears after February 2020 and infers the
-programme is dead. **The federal contract record runs to 28 February 2023.**
+**And stagnation temperature is not what a wall reaches.** A surface in a moving boundary
+layer recovers only part of the rise, set by the Prandtl number, so the turbulent recovery
+temperature at Mach 6 is 1,639 kelvin against a stagnation value of 1,811. **The correction is
+9.5 percent and it runs the safe way.**
 
-Contract FA865017C2414 obligated **30,921,064.62 dollars across 30 modifications**, and
-**30.1 percent of that money was obligated after the programme stopped being visible.** The
-purchase descriptions carry the ending. On 7 May 2020, three months after the deferral, one
-modification obligates **4,808,000 dollars for numerical analysis for scramjet and cold
-start**, so the money moved from flight to computation in a line item. In November 2022 a
-no-cost time extension adds nothing but time. **The last positive obligation, 22,873.11
-dollars in December 2022, is to pay for shipping of equipment.**
+## The Throat the Record Does Not Publish, Traded Rather Than Invented
 
-**No cancellation notice was found and the article does not claim one exists.** What the
-documents support is narrower and stranger than a cancellation.
+Neither chamber pressure nor throat area is published. Characteristic velocity ties them
+through the mass flow, so **one unpublished quantity can be traded for another**. The product
+of chamber pressure and throat area is 14,078 newtons, which puts the throat at 66.9
+millimetres across at four megapascals, 50.6 at seven and 42.3 at ten. **An oxygen-rich staged
+combustion cycle exists to run at the higher end**, so the throat is probably nearer the last
+figure, and the article says it does not know which.
 
-## The Engine Outlived the Vehicle
+## The Build-Time Law Is Now Displayed With Its Exponents
 
-**The Hadley was first qualified in 2021, a year after the X-60A's planned first flight**,
-and its hypersonic variant was developed with Stratolaunch. **It first flew on 9 March 2024
-on Talon-A1**, which is 1,469 days after the X-60A was to have flown. The condition the
-X-60A was built to sell is now sold from a different airframe without an X number.
+The citation budget rests on a measured cost curve and the draft quoted its exponents without
+showing the relation that produces them. **The exponent between 500 and 2,000 definitions is
+2.18 and between 2,000 and 4,500 it is 3.04**, and extrapolating the second to the first
+assembly's 10,882 definitions predicts 25.1 minutes for the markdown alone, which is
+consistent with a build that had consumed over thirty minutes of processor time when it was
+stopped.
 
-## The Reference List Has a Measured Build-Time Ceiling and It Is Roughly Cubic
+## Four Repairs to the Shared Instruments
 
-**THE FIRST ASSEMBLY CARRIED 10,882 REFERENCE DEFINITIONS AND DID NOT FINISH A PRODUCTION
-BUILD IN THIRTY MINUTES OF PROCESSOR TIME.** Timed on this article's own markdown with the
-reference count as the only variable, the markdown processor takes **0.43 seconds at 500
-definitions, 8.8 at 2,000 and 103 at 4,500**. The exponent between those points is 2.2 and
-then 3.0.
+**THE A353 BLOCK-SLOT ASSERTION WAS ONE-SIDED.** It refuses a slot with text before it on the
+same line and said nothing about text after it. **A relation glued to the front of a sentence
+fails in exactly the same way**, and this pass produced one, giving an unclosed display fence,
+163 fence lines and one display equation fewer than the article declared. **The assembler's
+own summary line was again the only thing that noticed**, which is how A356's unplaced
+equation surfaced. The check now looks both ways, and the verifier refuses an odd fence count
+outright rather than letting integer division hide it.
 
-**A bibliography that cannot be built is not a bibliography**, and the deploy gate runs that
-build on every push. The budget is therefore **4,500 research references, which is the
-largest count this repository has actually shipped**, being the [X-59]'s list, so it is a
-measured precedent rather than a round number. **The build now completes in 190 seconds.**
+**THE PLACEMENT CHECK SCANNED THE BODY AND NOT THE EMITTED BLOCKS.** Three relations belong in
+the source base, where the budget they justify is explained. **A check that inspects a subset
+of its subject reports a clean subset.** It now scans the body with the emitted blocks in it.
 
-**The selection rule implements the standing directive rather than a convenience.** Every
-report primary is kept unconditionally and the remainder is filled with the most recent
-non-primary work, allocated across clusters in proportion to their size. **The pool size is
-reported beside the cited count everywhere it appears**, because a sample presented as a
-census is the defect the apparatus exists to prevent.
+**`make_stub.sh` NOW REFUSES WHILE THE INJECTION SUITE HOLDS THE ARTICLE.** The suite rewrites
+the draft in place for each injection, so a stub taken while it runs may faithfully copy a
+deliberately corrupted article, and **the checksum guard cannot catch that because both copies
+are the same corrupt bytes**. This pass did exactly that and built for four and a half
+minutes before the post-hoc comparison of the draft against the frozen checksum caught it.
+The suite already wrote a lock and the stub builder now honours it.
 
-**AND THE PRIMARY FRACTION ROSE WITHOUT A SINGLE PRIMARY BEING ADDED.** The same 1,430
-primaries were 13.3 percent of 10,754 and are 31.8 percent of 4,501. **Reporting the
-fraction without the count would read as a primary-reference pass that never happened**,
-which is the inverse of the trap the genre note warns about, so the article reports both
-numbers every time it reports either.
+**AND `min` AND `max` WERE NEVER IN THE SYMBOL SCANNER'S OPERATOR LIST**, so a declared `m`
+and `n` ate the letters out of them and the scanner reported a bare `i`.
 
-## The Homonyms a Sweep Guards Are Not the Homonyms That Bite It
+## A Duplicate Computation the Collision Guard Could Not See
 
-**EVERY PROPER NOUN IN THIS VEHICLE'S PARTS LIST COLLIDES WITH A LARGE LITERATURE.** The
-engine is the **Hadley**, a circulation cell and a climate research centre. Its maker is
-**Ursa Major**, a constellation. The carrier is a **Gulfstream**, an ocean current. The
-contractor is **Generation Orbit**, and orbit is an electron shell, an eye socket and the
-whole of astrodynamics. All four were guarded in the gate before the first sweep ran.
+`calc2.py` and `calc4.py` both compute the inert mass, under two different names. **The
+assembler's collision guard compares keys and these keys differ**, so it saw nothing. The
+agreement is now asserted in the file that came second. The guard did fire correctly on a
+genuine key collision, refusing `span_over_diameter` when it was defined twice with values
+that would have differed, 3.67 against the converged 3.39.
 
-**NOT ONE OF THE FOUR PRODUCED A CONTAMINANT.** The record that reached the kept set was
-**Sandia's PEGASUS, a capacitor bank that accelerates flyer plates**, which shares its name
-with the air-launched booster every study in this pool measures itself against. **The word
-booster is what makes it invisible**, because a pulsed-power flyer plate is called a booster
-projectile, so the title carries launch vocabulary in every position a subject gate
-inspects. It arrived twice, once from each index.
+## The Injection Suite Found the Same Defect Twice in One Article
 
-**The pattern is in the repository store with its incident, tagged `pulsed-power`**, and a
-regression test asserts both directions. **The store now holds 137 patterns across 29 tagged
-families and the test suite is 112 of 112.**
+**FIFTY-NINE OF SEVENTY-SIX ON THE FIRST RUN AFTER THE PASS.** All fifty-six original
+injections were still caught and every one of the seventeen new ones was missed, because
+thirty-five relations and their numbers had been added with no article-side checks at all.
+**Adding content without adding checks is how an article acquires unverified prose**, and it
+is the defect the suite found in the draft pass met a second time in the same article.
 
-**THE FIRST VERSION OF THAT PATTERN MISSED THE RECORD THAT PRODUCED IT**, because it was
-written as a bounded lookahead after the machine's name and `PEGASUS` is the last word of
-that title. A discriminator that depends on which side of a name the evidence falls on is
-not a discriminator, so it is order-free now.
+With the checks added the suite is **76 of 76** with the total reassembly check disarmed.
 
-## Three Repairs to the Shared Instruments
+## A Number in the Previous Reverse Prompt Was Wrong
 
-**A LIST PARSED OUT OF PROSE IS A LIST THE PROSE CAN CORRUPT.** `symcheck.py` builds its
-operator list by splitting a string that contains its own explanatory comment, so every word
-of the note was being compiled as an operator pattern. It had been harmless only because the
-note happened to contain no regular-expression metacharacter, and writing a backquoted
-`\mathit{Re}` into that note broke it within a minute. The comment lines are stripped before
-the split and every token is asserted alphabetic.
-
-**`mathit` WAS ADDED TO THE OPERATOR LIST AND REMOVED AGAIN WITHIN THE MINUTE**, because
-`\mathit{Re}` then lost its wrapper, the declared symbol `R` ate the R, and the scanner
-reported a bare `e`. It is the `\begin{cases}` failure of A356 in new clothes, and it is
-recorded rather than re-learned.
-
-**A CURRENCY DOLLAR SIGN IS AN INLINE MATH DELIMITER ON A MATHJAX PAGE**, and the first
-assembly shipped 26 of them. The linter reported it as a bold span crossing a line break,
-which is the symptom rather than the cause. Amounts are written as a number followed by the
-word dollars, and the verifier now refuses a bare currency dollar sign outright.
-
-**AND A LEAVE-ONE-OUT MEASUREMENT RAN THE EXPENSIVE STAGE ONCE PER CONFIGURATION.** The
-gate's verdict does not depend on the store, so the gate is run once over every harvested
-record and intersected with each store configuration afterwards. It is exactly equivalent
-and it turned most of an hour into minutes. **A measurement nobody will wait for is a
-measurement that gets skipped, and a skipped measurement is how an article comes to assert
-a family's cost instead of measuring it.**
-
-## What the Store Cost This Subject, Measured
-
-**SIX TAGGED FAMILIES WERE OPENED AND BETWEEN THEM THEY RELEASE 4,231 RECORDS**, taking the
-gate from 6,918 to 11,149. Measured end to end through the whole pipeline rather than counted
-as tags, because a record held by one armed pattern may be held by a second.
-
-| Family | Releases | Why |
-|---|---:|---|
-| hypersonics | 3,767 | the subject, and the pattern's own note says so |
-| ramjet | 694 | the payload is often a scramjet |
-| missiles | 224 | an air-launched rocket is tested where missiles are |
-| meteorology | 95 | **a meteorological rocket is a sounding rocket** |
-| geophysics | 19 | sounding-rocket observations and the standard atmosphere |
-| environmental-assessment | 7 | the regulatory documents for hypersonic flight tests |
-
-**Two were opened for reasons that have nothing to do with the vehicle.** The meteorological
-rocket literature is this vehicle's direct ancestry, and the environmental assessments
-written for hypersonic flight tests are the regulatory documents for exactly this kind of
-flight.
-
-## Fourteen Conclusions Probed, Fourteen Covered
-
-**All 14 are thin under the article's own words and 0 are thin under the field's.** The probe
-was written **after** the body rather than before it, which is A356's defect met from the
-front, since that article wrote its probe in the first pass and never returned to it.
+**THE DRAFT PASS REPORTED 251 ARTICLE CHECKS AND THAT WAS ARITHMETIC ON AN ESTIMATE RATHER
+THAN A COUNT.** The verifier now runs **235 checks, measured** by counting its own output
+lines, and it ran fewer than that before this pass added thirty. **A figure about the
+verification apparatus is exactly the kind of figure this apparatus exists to stop anyone
+guessing**, and it was guessed, in a commit message and in three process files. The count is
+measured here and the method for measuring it is one shell command.
 
 ## Verification
 
-**Verifier 0 errors and 0 warnings once the process files are synced. Tests 112 of 112. Lint
-0 defects and 1 convention finding**, which is 94 display equations spanning several source
-lines and is the intended form.
+**Verifier 0 errors and 0 warnings. Tests 112 of 112. Lint 0 defects and 1 convention
+finding**, which is 164 display equations spanning several source lines and is the intended
+form. **The tall-bracket false positive the draft carried is gone**, because the one relation
+that produced it now keeps its bracket on a single line.
 
-**The article verifier runs 251 checks and passes all of them.** Every register figure is
-recomputed from the register HTML, every release word count from the retrieved release text,
-every contract figure from the saved transaction record, every physical figure from
-`calc.py` and `calc2.py`, and every survey figure from the reference data. **The symbol
-scanner reports all 84 declared symbols used and every symbol used declared.**
+**The article verifier runs 235 checks and passes all of them**, measured rather than
+estimated. **The symbol scanner reports all 126 declared symbols used and every symbol used
+declared.** **76 of 76 injected defects caught** with the total reassembly check disarmed.
 
-**Identifier verification passed on content.** Seven hand-written addresses checked against
-a phrase each must contain, six quoted documents checked against the copies they were quoted
-from, the live statute checked against the saved copy, **24 of 24 sampled report primaries
-resolving to the works the article names**, and a fabricated identifier resolving to nothing.
-**All three `af.mil` addresses return zero bytes to an automated fetch**, which is why the
-article cites the archived captures beside the official ones.
+**The stub-isolated production build succeeded in 173 seconds against checksum-matched
+bytes**, run after the injection suite released the article rather than beside it. The
+rendered audit reports no findings across 96 pages. Source and rendered display-equation
+counts agree at **82**, with zero raw dollar pairs, zero unresolved reference brackets and
+zero unrendered Liquid. The page is 905,719 bytes.
 
-**The stub-isolated production build succeeded in 190 seconds against checksum-matched
-bytes.** The rendered audit reports no findings across 96 pages. Source and rendered
-display-equation counts agree at **47**, with zero raw dollar pairs, zero unresolved
-reference brackets and zero unrendered Liquid. The page is 889,709 bytes.
-
-**FINAL STATE. 10,235 lines, 47 display equations, 84 declared symbols, 4,628 reference
-definitions, 62,588 words**, research 4,501, report primaries 1,430 at 31.8 percent, three
-sweeps retrieving 38,596 records of which 31,527 distinct, gate 11,149 reduced to a 4,500
-citation budget.
+**FINAL STATE. 10,524 lines, 82 display equations, 126 declared symbols, 4,628 reference
+definitions, 64,907 words**, research 4,501, report primaries 1,430 at 31.8 percent, three
+sweeps retrieving 38,596 records of which 31,527 distinct, gate 11,149 under a 4,500 citation
+budget.
 
 ## What Remains
 
-**A357 has completed one of four passes.** The equation-density review, the
-primary-reference review and the publication review are separate pilot prompts and have not
-been run.
+**A357 has completed two of four passes.** The primary-reference review and the publication
+review are separate pilot prompts and have not been run.
 
 **Two repairs are still awaiting a pilot decision.** A350 carries a duplicated
 `## The Contemporary Literature` heading at lines 412 and 414, and A324 carries a malformed
@@ -248,7 +190,6 @@ been run.
 
 **And the fourth-article format decision carries forward.** A352 through A355 present no
 per-cluster record count in a shape the corpus check can read, which leaves approximately
-fifty rows outside the corpus gate. That is a change to finished drafts rather than to this
-article, so it is recorded rather than done.
+fifty rows outside the corpus gate.
 
 **Nothing is published and publication of the series has never been authorised.**
