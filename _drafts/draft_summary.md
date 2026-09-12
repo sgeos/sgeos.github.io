@@ -21,9 +21,9 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_generation_orbit_x60.markdown`, A357, editorial date 2025-12-05, series `x_planes` index 61 of 72.
 
-**10,524 lines, 82 display equations, 126 declared symbols, 4,628 reference definitions,
-64,907 words after the equation-density review.** **TWO OF FOUR PASSES COMPLETE, the draft and
-the equation-density review. Two remain.** Committed, **not pushed**. **Not published**, and publication of the series has never been authorised.
+**12,131 lines, 83 display equations, 126 declared symbols, 5,413 reference definitions,
+75,243 words after the primary-reference review.** **THREE OF FOUR PASSES COMPLETE. Only the
+publication review remains.** Committed, **not pushed**. **Not published**, and publication of the series has never been authorised.
 **Designated but never flown, and the first article in this series whose subject is a
 taxonomy.**
 
@@ -50,6 +50,10 @@ the definition has a second half the draft never tested**, being the vacuum inst
 impact point, which resolves to a perigee radius 6,199 kilometres below the surface at 22.9
 percent of circular orbital speed. Both halves are now satisfied by computation.
 
+**THE PRIMARY-REFERENCE REVIEW RAISED REPORT PRIMARIES 1,430 TO 1,846 AND THE FRACTION 31.8
+TO 34.9 PERCENT**, across six sweeps retrieving 45,900 records of which 34,673 distinct, with
+the citation budget solved from a 300 second build limit rather than copied from a precedent.
+
 **THE EQUATION-DENSITY REVIEW TOOK 47 DISPLAY RELATIONS TO 82.** The section carrying the
 article's central claim, that no steady state exists at cruise, had no equations at all, and
 three draft approximations were replaced by computed values, among them the share of the
@@ -62,7 +66,7 @@ numerical analysis three months after the flight was deferred, and a last positi
 of 22,873.11 dollars to pay for shipping of equipment.
 
 **Publication Sensibility**: Do not publish. The series is unpublished and unauthorised, and
-this article has completed two of four passes.
+this article has completed three of four passes.
 
 ## X-Planes Lockheed Martin X-59 Quesst A356 2025-12-04
 

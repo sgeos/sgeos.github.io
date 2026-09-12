@@ -11,7 +11,8 @@ Current task state and verification log. This file is the shared source of truth
 
 **Status**: **A297 through A357 are drafted. A297 through A356 have ALL FOUR PASSES
 COMPLETE and are PUSHED. A357, X-Planes: Generation Orbit X-60, has completed the DRAFT PASS
-and the EQUATION-DENSITY REVIEW, two of four**, committed and not pushed. **Sixty-one of seventy-two drafted. None published, and
+the EQUATION-DENSITY REVIEW and the PRIMARY-REFERENCE REVIEW, three of four**,
+committed and not pushed. **Sixty-one of seventy-two drafted. None published, and
 publication has never been authorised. Eleven articles remain.** The next new article is
 **A358, the X-61**, editorial date 2025-12-06, series index 62.
 
@@ -109,20 +110,54 @@ article-side checks. With the checks added it is **76 of 76**.
 **AND A NUMBER IN THE DRAFT-PASS REPORT WAS WRONG.** It said 251 article checks, which was
 arithmetic on an estimate rather than a count. **The verifier runs 235 checks, measured.**
 
-**FINAL STATE. 10,524 lines, 82 display equations, 126 declared symbols, 4,628 reference
-definitions, 64,907 words**, research 4,501, report primaries 1,430 at 31.8 percent, three
-sweeps retrieving 38,596 of which 31,527 distinct, gate 11,149 under a 4,500 citation budget.
+**THE PRIMARY-REFERENCE REVIEW RAISED THE COUNT 1,430 TO 1,846 AND THE FRACTION 31.8 TO
+34.9 PERCENT.** Both moved the same way, and the count is reported first regardless. Three
+further sweeps aimed at the report servers asked 164 narrow questions, and **the yield per
+question fell from 8.8 to 6.7 across 302 questions**, which is the measurement that says when
+to stop asking. Five hand-written primaries were added and each was read before it was written
+down.
+
+**TWO FEDERAL RECORDS DISAGREE BY SIX MONTHS AND THE MODIFICATIONS RECONCILE THEM.** The award
+record ends the award on 31 August 2022 and the contract record runs to 28 February 2023.
+Three modifications fall in between and the first is a no-cost time extension, which is
+precisely the instrument that moves an end date without moving money.
+
+**THE BUDGET MODEL WAS WRONG BY HALF AND THE LIMIT WAS HELD ANYWAY.** A micro-benchmark of
+kramdown alone gave an exponent of 3.04, which predicted a 317 second build at 6,061
+definitions. **The build took 474.** Refitted against the two full builds actually measured the
+local exponent is **4.83**, and the repair was to correct the model and cut the budget rather
+than raise the limit after seeing the result.
+
+**AND THE CAP WAS BINDING ON THE WRONG SET.** It solved a time limit for a total and applied
+that total to the harvested records alone, leaving 133 hand-written references outside it,
+which was the whole of a seven percent overrun. The cap now binds on every definition.
+
+**ONE SAMPLE IS NOT A MEASUREMENT.** The build at the shipped count took 275.1 seconds and
+then 305.0 on an identical input, **10.9 percent of variance**, so the budget sits at the limit
+rather than inside it and both samples are reported.
+
+**A DEAD LINK SURVIVED TWO PASSES** because the identifier verifier checked a hand-picked list
+rather than every hand-written address. It now sweeps all of them, finding 0 dead.
+
+**THE INJECTION SUITE FOUND THE SAME DEFECT A THIRD AND A FOURTH TIME**, at 78 of 92 and then
+92 of 96, because new figures were added without checks and then with bare presence checks that
+A355 had already established cannot hold a small number. The suite now carries **98 injections and catches all of them**.
+
+**FINAL STATE. 12,131 lines, 83 display equations, 126 declared symbols, 5,413 reference
+definitions, 75,243 words**, research 5,282, report primaries 1,846 at 34.9 percent, six
+sweeps retrieving 45,900 of which 34,673 distinct, gate 11,708 under a 5,413 definition budget
+solved from a 300 second build limit.
 
 **Verifier 0 errors 0 warnings. Tests 112 of 112. Lint 0 defects and 1 convention finding**,
 the tall-bracket false positive having gone with a reflowed relation. The article verifier
-runs 235 checks and passes all of them, and 76 of 76 injected defects are caught. Identifiers
+runs 268 checks and passes all of them. Identifiers
 verified on content with an absent control that failed correctly and 24 of 24 sampled
 primaries resolving. **All
 16 cluster rows state their own recomputed count and the total equals the research count
 exactly at 4,501.** All 4,628 definitions cited, none orphaned, none undefined.
 
-**Build clean in 190 seconds against checksum-matched bytes, 96 pages, rendered audit reports
-no findings**, source and rendered display-equation counts agree at 47, page 889,709 bytes.
+**Build clean in 305 seconds against checksum-matched bytes, 96 pages, rendered audit reports
+no findings**, source and rendered display-equation counts agree at 83, page 1,044,904 bytes.
 
 ## Success Criteria
 
@@ -825,6 +860,10 @@ no findings**, source and rendered display-equation counts agree at 47, page 889
 - [x] A357 equation-pass figures anchored in the prose rather than only recomputed. The injection suite caught 59 of 76 on its first run after the pass, with every one of the seventeen new injections missed because the added relations had no article-side checks, which is the draft pass's defect met a second time in the same article. With 30 checks added the suite is 76 of 76 and the verifier runs 235 checks, measured rather than estimated.
 - [x] A357 instrument repairs earned by the pass. The A353 block-slot assertion made two-sided after a relation glued to the front of a sentence produced an unclosed display fence; the placement check extended to the emitted blocks; a fence-parity check added so integer division cannot hide an unclosed display; `make_stub.sh` taught to refuse while the injection suite holds the article, after a four and a half minute build against possibly injected bytes; and `min` and `max` added to the symbol scanner's operator list.
 
+- [x] A357 primary-reference review performed on request. **Report primaries 1,430 to 1,846, a gain of 416, and the fraction 31.8 percent to 34.9**, both reported every time either is. Three further sweeps aimed at the report servers, 164 narrow questions, yield per question falling 8.8 to 6.7 across 302 questions. Five hand-written primaries added and read, one dead address repaired. **Two federal records disagreeing by six months reconciled by a no-cost time extension found in the modification history.**
+- [x] A357 citation budget corrected twice and the stated limit held both times. The micro-benchmark model under-predicted a build by fifty percent, the exponent being 4.83 rather than 3.04 when fitted to the builds that actually happened; and the cap was found to bind on the harvested subset while the cost depends on every definition, which was the whole of a seven percent overrun. The build at the shipped count was measured twice at 275.1 and 305.0 seconds, an eleven percent spread, and both are reported because one sample is not a measurement.
+- [x] A357 identifier verification widened from a hand-picked list to every hand-written address, after a dead spaceport link survived two passes. 58 reachable, 3 refused by hosts known to refuse automated fetches, 0 dead.
+
 ## Notes
 
 - **Documentation defect found 2026-08-04, RESOLVED 2026-08-05.** `_docs/process/FORWARD_DATED_POSTS.md` documented `future: true` while `_config.yml` line 86 sets `future: false`. The document has been rewritten against the live configuration and the error corrected in the five other places it had propagated to. The behavioural claim was verified against an actual Jekyll build rather than reasoned about.
@@ -1355,3 +1394,4 @@ no findings**, source and rendered display-equation counts agree at 47, page 889
 | 2026-08-10 | A329 publication review, the fourth and final pass. Committed and **pushed**. **Not published.** All thirty-three articles remain in `_drafts/`. Final state **19,593 lines, 28 display equations, 6,159 reference definitions, 103,943 words**, from 13,353 lines and 4,096 definitions, with every one of the 6,100 master records cited and none left over. **THE CONTEMPORARY SURVEY WAS THE HALF THE PRIMARY PASS LEFT BEHIND, AND THIS IS THE COUNT-VERSUS-FRACTION TRAP ARRIVING AS AN ACTUAL GAP RATHER THAN AS AN ARTEFACT**: coverage stood at **1,371 records, 34.0 percent**, purely because the period count had risen underneath it while nothing was added to the modern half, and **nothing had been removed**. A harvest took it to **3,428 records, 56.2 percent, with 1,651 published from 2022 onward**, filling twelve thin modern clusters, the sharpest being momentum theory 8 to 51, nozzle design 14 to 121 and computational fluid dynamics 12 to 105. **TWO CONTEMPORARY SUBJECTS THE ARTICLE'S OWN ARGUMENT REACHES HAD NO HEADING, AND BOTH FOLLOW FROM RESULTS THE EARLIER PASSES PRODUCED RATHER THAN FROM BEING MERELY RECENT.** **Shipboard thermal and deck interaction is the operational consequence of the disc-loading identity the equation pass derived**, since an architecture at 2,852 lb/ft2 imposes almost twice the pressure of one at 1,467 on the same deck at the same landing weight, and ships were resurfaced because of that number. **Digital engineering and model-based acquisition is what partly replaced the fly-off**, and the trade it embodies is between an evidence source that MATCHES THE PROPOSAL EXACTLY and one that MATCHES REALITY EXACTLY, which is precisely the difficulty this competition exposed, since a model can be made to be the proposal but cannot supply what the X-35B's single sortie supplied. **AN ACRONYM DEFECT WAS FOUND AND IT HAS A CAUSE WORTH RECORDING**: the National Aeronautics and Space Administration was never spelled out, and **the reference lists had grown until a verbatim citation title carrying the acronym appeared at character 9,460 while the authorial spell-out sat at 56,304**, so a GROWING REFERENCE SET CAN MOVE A VERBATIM OCCURRENCE AHEAD OF AN AUTHORIAL ONE and the check must be re-run after every reference pass rather than once; the spell-out was moved into the opening prose. Publication checks: prose style clean with zero em dashes, zero en dashes, zero contractions, zero prose parentheticals, zero prose colons and zero prose semicolons in the body; **zero link-text defects across 12,259 reference entries**; diction clean with `lift` at 7.78 and `aircraft` at 7.51 per thousand judged **legitimate as the article's keystone quantity and subject noun** rather than filler; acronym spell-out verified for both STOVL and NASA ahead of every occurrence; structural conformance confirmed with all twelve genre sections plus the three series sections. Final verification: 77 of 77 numerical checks passing unchanged with all article-facing values confirmed present; `_verify.py` at the 21-warning baseline; check_any clean; `_lib/test_lib.py` at 48 of 48; reference integrity at 6,159 with zero undefined, zero orphaned and zero malformed anchors; citation gaps held at 5, all original constructions or elementary statics; **the final set swept with ZERO HARD FAILURES AND ZERO MISMATCHES** including all 169 NTRS identifiers, 600 of 5,159 sampled journal DOIs, 160 of 773 sampled DTIC DOIs and all 8 books and 18 curated URLs, with **zero search-endpoint citations**; and a 33-article isolated build rendering **all 28 equations across 16 sections, 58 subsections and 16 tables** at 1.41 MB with 12,568 list items, zero broken anchors and zero empty headings. Next available article number A370. |
 | 2026-09-11 | A357, the Generation Orbit X-60, drafted as `_drafts/x_planes_generation_orbit_x60.markdown`, editorial date 2025-12-05, series index 61. Committed, **not pushed**. **10,235 lines, 47 display equations, 84 declared symbols, 4,628 reference definitions, 62,588 words**, research 4,501 with 1,430 report primaries at 31.8 percent, three sweeps retrieving 38,596 of which 31,527 distinct, gate 11,149 under a 4,500 citation budget. **The register calls a rocket an aircraft and the instruction that governs the register explains why it had no alternative.** **The two published performance figures are one dynamic pressure of 1,649 pounds per square foot.** **The statutory suborbital-rocket test was integrated and passes at 100 percent on every one of 53 pitch programmes.** **The contract record runs three years past the last public word and ends by paying to ship the equipment.** Verifier 0 errors 0 warnings, tests 112 of 112, 251 article checks all passing, build clean in 190 seconds against checksum-matched bytes, rendered audit no findings across 96 pages, page 889,709 bytes. **Not published.** |
 | 2026-09-12 | A357 equation-density review, the second of four passes. Committed, **not pushed**. **47 display equations to 82 across 35 additions, 84 declared symbols to 126**, article 10,235 to 10,524 lines and 62,588 to 64,907 words. **The cruise section, which carries the article's central claim, had no equations at all** and is now five relations showing the impossibility holds at every dynamic pressure rather than at one. **The statutory suborbital-rocket definition was found to have a second half the draft never tested**, the vacuum instantaneous impact point, which resolves to a perigee radius 6,199 kilometres inside the Earth at 22.9 percent of orbital speed. **Three draft approximations replaced by computation**, the atmospheric mass share being 80.9 percent and not three quarters. Four instrument repairs including a two-sided block-slot assertion and a stub builder that refuses while the injection suite holds the article. Verifier 0 errors 0 warnings, tests 112 of 112, **235 article checks measured and all passing, 76 of 76 injected defects caught**, build clean in 173 seconds against checksum-matched bytes, rendered audit no findings across 96 pages, 82 source displays against 82 rendered, page 905,719 bytes. **Not published.** |
+| 2026-09-12 | A357 primary-reference review, the third of four passes. Committed, **not pushed**. **Report primaries 1,430 to 1,846, a gain of 416, and the fraction 31.8 to 34.9 percent**, both reported together. **Three further sweeps aimed at the report servers**, taking the survey to six sweeps, 45,900 retrieved, 34,673 distinct, gate 11,708, with the yield per question falling 8.8 to 6.7 across 302 questions. Five hand-written primaries added and one dead address repaired after the identifier verifier was widened from a hand-picked list to every hand-written address. **Two federal records disagreeing by six months reconciled by a no-cost time extension.** **The citation budget model was wrong by half and the limit was held anyway**, the exponent being 4.83 rather than 3.04 when fitted to real builds, and the cap was then corrected to bind on every definition rather than the harvested subset. **The build at the shipped count was measured twice at 275.1 and 305.0 seconds and both are reported.** 12,131 lines, 83 display equations, 126 declared symbols, 5,413 reference definitions, 75,243 words. Verifier 0 errors 0 warnings, tests 112 of 112, 268 article checks all passing, 98 of 98 injected defects caught, build clean in 305 seconds against checksum-matched bytes, rendered audit no findings across 96 pages, page 1,044,904 bytes. **Not published.** |
