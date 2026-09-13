@@ -5,10 +5,143 @@
 ## Last Updated
 
 **Date**: 2026-09-13
-**Task**: **A358, X-Planes: Dynetics X-61 Gremlins, equation-density review. The second of
-four.** Committed. **Not pushed**, which is what every pass before the publication review
-asks for. **Not published**, and publication of the series has never been authorised.
-**Sixty-two of seventy-two drafted, ten remain.**
+**Task**: **A358, X-Planes: Dynetics X-61 Gremlins, primary-reference review. The third of
+four.** Committed. **Not pushed**, which is what every pass before the publication review asks
+for. **Not published**, and publication of the series has never been authorised. **Sixty-two
+of seventy-two drafted, ten remain.**
+
+---
+
+## The Programme's Own Paper Trail Is Nine Months Older Than the Programme
+
+**The draft credited the phrase `aircraft carriers in the sky` to the Phase 2 release of March
+2017. It is from a Request for Information of 9 November 2014**, and the words are a quotation
+from the same programme manager who would announce the programme nine months later. **The
+attribution is corrected in the article and the correction is named rather than made
+silently.**
+
+**That document fixes three things before any contractor existed.** It names the carrier by
+type, asking about launch and recovery from existing large manned aircraft **such as C-130
+transport planes**. It caps the payload at **100 pounds or less**, which the vehicle eventually
+built exceeded by **1.45 times**. And it asks for **plans reaching a full-system flight
+demonstration within four years**.
+
+**A stated duration is rare in a programme record and this one can be measured.** The first
+free flight came at **1.26 times** the four-year plan and the airborne recovery at **1.74
+times**. The article says at once that running to 1.74 times a plan stated seven years earlier
+is not a scandal, and reports it because the record rarely contains a duration that can be
+checked at all.
+
+**And the agency named its own antecedents correctly**, being automated aerial refuelling and
+the shipboard capture work that came out of the Tern programme. The article's own comparison
+sections had reached the same two by a different route.
+
+## The Contract Record Is the Opposite Shape From the Previous Article's
+
+**Three contracts, three awarding agencies, 82,680,983.37 dollars across 38 modifications.**
+The Air Force paid for Phases 1 and 2, **the Department of the Interior paid for Phase 2 Part
+B through an interagency vehicle**, and the agency itself paid for Phase 3. Each of the three
+totals is the sum of its own transactions to the cent, which is a reassembly check because the
+registry states the total separately from the modifications that make it up.
+
+**The Interior contract is the only place in the whole record that names the solicitation**,
+which is DARPA-BAA-15-59, and the only one carrying a negative line.
+
+**The money and the publicity agree more closely than they usually do.** The Phase 1
+obligation moved 7 days before the Phase 1 announcement and **the Phase 2 obligation moved on
+the same day as the Phase 2 release**.
+
+**The pandemic is priced.** Two modifications on 9 March 2021 obligate **5,852,178.74 dollars**
+and say in their own description that the cost growth is due to COVID-19, which is **11.18
+percent of the Phase 3 contract**. The contractor had said the second flight test was delayed
+by the pandemic. The contract says what the delay cost.
+
+**AND THE SHAPE IS THE INVERSE OF THE X-60A'S.** That programme obligated 30.1 percent of its
+money after it stopped being publicly visible. **This one stopped paying 47 days after the
+recovery and stayed open for another 1,463 days on zero-dollar modifications.** Only 3.22
+percent was obligated after the last flight test. **A contract that is open and unfunded is a
+different object from one that is quietly spending**, and the two articles now have one of
+each.
+
+## The Fourth Sweep, and Both Numbers Reported
+
+**A fourth sweep aimed at nothing but report primaries**, being 146 narrow questions to the
+NASA reports server and 40 to the Defense Technical Information Center's registry. The reports
+server caps at ten and rewards specificity, so the first three sweeps were limited by the
+number of questions asked. The defence registry is the opposite and was ceiling-limited, with
+its four most productive earlier queries all returning exactly the two hundred rows allowed.
+
+**REPORT PRIMARIES ROSE FROM 814 TO 1,155 AND THEIR SHARE FROM 12.0 PERCENT TO 16.2.** Both
+moved and both are given. **Every cluster's primary fraction rose**, the largest being general
+aerodynamics from 12.0 to 20.6 percent, flight test from 20.3 to 31.6, and getting it off the
+aeroplane from 12.5 to 19.0.
+
+**THE KEYSTONE IS THE EXCEPTION AND THE PUBLISHER COMPOSITION SAYS WHY.** It went from 11.1 to
+11.2 percent. **The cluster is 24.2 percent papers from the American Institute of Aeronautics
+and Astronautics and 17.5 percent from the Institute of Electrical and Electronics Engineers,
+against 11.6 percent from the two agency report servers combined**, where the pool as a whole
+is 16.7 percent agency reports. **This subject was published at conferences rather than in
+agency report series**, the historical half in the Aerodynamic Decelerator Systems Technology
+Conference proceedings and the modern half in control conferences from 2009. **Only three
+records in the whole pool carry mid-air or aerial recovery in the title and are also agency
+reports.** A thin primary fraction here is a fact about where the work was published.
+
+## One Conclusion the Survey Does Not Support, and It Is a Gate Decision
+
+**The schedule comparison rests on a primary document rather than on this survey.** The probe
+finds **ten records** in the whole pool under the field's words for schedule and cost growth in
+acquisition. Admitting the acquisition-policy literature would bring a very large body of work
+about defence procurement into an article about catching an aeroplane, and none of it would
+bear on whether the catch can be made. **The conclusion is carried by the document that states
+the plan and the record that shows the outcome**, and the article says so. **A gate that
+excludes a subject has not measured it.**
+
+## Two Instruments Bit, Both on Multiplicity
+
+**THE PHRASE GUARD WAS A PRESENCE CHECK AND THE INJECTION SUITE CAUGHT IT AT 135 OF 136.** The
+source base added a second occurrence of `A gate that excludes a subject has not measured it`,
+so corrupting the first left the second standing and the test passed. **A presence check cannot
+see one of two occurrences going wrong, whether what it holds is a digit or a sentence**, and
+the phrase guard now counts exactly as its numeric sibling does. **This is the same defect the
+equation pass fixed for numbers and did not notice it had a twin.**
+
+**AND A BARE NUMBER COLLIDED.** The rate shortfall is 11.2 and the keystone's primary fraction
+is now 11.2 percent, so a count check on the bare digits reported two occurrences of a figure
+that occurs once. The shortfall is anchored on the sentence that states it.
+
+**The dateline horizon check was added this pass and fired on its first run**, which is worth
+recording because it fired on the right thing for the wrong reason. It found the year 2026 in
+citation labels and in the survey's own year range. **A bibliographic year is not a claim the
+article makes**, so the check now strips citations first, and the survey's range is excluded by
+name with the reason written down rather than hidden.
+
+## Verification
+
+**Verifier 0 errors and 0 warnings. Tests 115 of 115. Lint 0 defects and 1 convention
+finding.** The article verifier runs **231 checks** and passes all of them, up from 183, and
+**the injection suite catches 136 of 136**, up from 110. The symbol scanner reports all 116
+declared symbols used and every symbol used declared. **Identifier verification passes on
+content**, with 25 quoted phrases held against the saved copies they were read from.
+
+**The whole corpus with this article published builds in 19.1 seconds against checksum-matched
+bytes.** The rendered audit reports **no findings across 540 pages**, and source and rendered
+display-equation counts agree at **57**. The page is 1,378,473 bytes and carries 14,800 links.
+
+**FINAL STATE. 15,714 lines, 57 display equations, 116 declared symbols, 7,248 reference
+definitions, 94,702 words.** Four sweeps retrieved 43,205 records of which 34,657 distinct, the
+store removed 3,168, the gate admitted 7,412 and refused 24,077, and **every one of the 7,128
+records surviving deduplication is cited**, alongside 120 hand-written definitions. Report
+primaries 1,155 at 16.2 percent. Median year 2011, with 80.2 percent at or before the
+programme's last flight test.
+
+## What Remains
+
+**A358 has completed the draft pass, the equation-density review and the primary-reference
+review.** The publication review is the last prompt. **Ten articles remain**, ending at
+editorial date 2025-12-16.
+
+**The probe now covers 26 conclusions with one uncovered**, and the uncovered one is a
+deliberate gate decision the article states rather than a gap.
 
 ---
 

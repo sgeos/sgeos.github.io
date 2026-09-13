@@ -10,11 +10,40 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A358 are drafted. A297 through A357 have ALL FOUR PASSES COMPLETE
-and are PUSHED. A358, X-Planes: Dynetics X-61 Gremlins, has completed the DRAFT PASS and the
-EQUATION-DENSITY REVIEW**, committed and **NOT PUSHED**, which is what every pass before the
-publication review asks for. **Sixty-two of seventy-two drafted. None published, and
-publication has never been authorised. Ten articles remain.** The next two prompts on A358 are
-the primary-reference review and the publication review.
+and are PUSHED. A358, X-Planes: Dynetics X-61 Gremlins, has completed the DRAFT PASS, the
+EQUATION-DENSITY REVIEW and the PRIMARY-REFERENCE REVIEW**, committed and **NOT PUSHED**, which
+is what every pass before the publication review asks for. **Sixty-two of seventy-two drafted.
+None published, and publication has never been authorised. Ten articles remain.** The
+publication review is the last prompt on A358.
+
+**THE PROGRAMME'S PAPER TRAIL IS NINE MONTHS OLDER THAN THE PROGRAMME.** The draft credited
+the phrase `aircraft carriers in the sky` to the Phase 2 release of 2017. **It is from a
+Request for Information of 9 November 2014**, and the attribution is corrected in the article
+rather than silently changed. That document names the C-130 by type before any contractor
+existed, caps the payload at 100 pounds, which the built vehicle exceeded by **1.45 times**,
+and asks for a full-system flight demonstration **within four years**. The first free flight
+came at **1.26 times** that and the recovery at **1.74 times**.
+
+**THE CONTRACT RECORD IS THE INVERSE SHAPE OF THE X-60A'S.** Three contracts under three
+awarding agencies total **82,680,983.37 dollars across 38 modifications**, and each total is
+the sum of its own transactions to the cent. The Phase 2 obligation moved on the same day as
+the Phase 2 announcement. **The pandemic is priced at 5,852,178.74 dollars, 11.18 percent of
+the Phase 3 contract**, by modifications that say so in their own description. **The money
+stopped 47 days after the recovery and the contract stayed open another 1,463 days on
+zero-dollar modifications**, against the X-60A obligating 30.1 percent of its money after it
+stopped being visible.
+
+**REPORT PRIMARIES ROSE FROM 814 TO 1,155 AND THEIR SHARE FROM 12.0 PERCENT TO 16.2**, after a
+fourth sweep of 146 narrow reports-server questions and 40 defence-registry ones. **Every
+cluster's fraction rose except the keystone**, which went from 11.1 to 11.2, and the publisher
+composition says why. **That cluster is 24.2 percent AIAA and 17.5 percent IEEE against 11.6
+percent agency reports**, because the subject was published at conferences rather than in
+report series.
+
+**AND ONE CONCLUSION THE SURVEY DOES NOT SUPPORT IS NAMED AS A GATE DECISION.** The schedule
+comparison rests on the Request for Information and the contract record, and the pool holds ten
+records on acquisition schedule growth, because admitting the acquisition-policy literature
+would bring defence procurement into an article about catching an aeroplane.
 
 **THE EQUATION REVIEW WITHDREW THE FRAMING THE DRAFT LIKED BEST.** The draft called the towed
 docking device the end of a resonator and left its damping as an adjective. Computing the

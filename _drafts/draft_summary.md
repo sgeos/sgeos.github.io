@@ -21,10 +21,21 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_dynetics_x61_gremlins.markdown`, A358, editorial date 2025-12-06, series `x_planes` index 62 of 72.
 
-**14,962 lines, 57 display equations, 116 declared symbols, 6,903 reference definitions,
-88,939 words after the equation-density review.** **DRAFT PASS AND EQUATION-DENSITY REVIEW
-COMPLETE.** Committed and **NOT PUSHED**, which is what every pass before the publication
-review asks for.
+**15,714 lines, 57 display equations, 116 declared symbols, 7,248 reference definitions,
+94,702 words after the primary-reference review.** **DRAFT PASS, EQUATION-DENSITY REVIEW AND
+PRIMARY-REFERENCE REVIEW COMPLETE.** Committed and **NOT PUSHED**, which is what every pass
+before the publication review asks for.
+
+**THE PRIMARY PASS FOUND A PAPER TRAIL NINE MONTHS OLDER THAN THE PROGRAMME** and corrected an
+attribution because of it, the phrase `aircraft carriers in the sky` belonging to a Request for
+Information of 9 November 2014 rather than to the Phase 2 release the draft credited. That
+document asks for a full-system flight demonstration within four years, and the recovery came
+at 1.74 times that. **The contract record is the inverse shape of the X-60A's**, being three
+contracts under three awarding agencies totalling 82,680,983.37 dollars, with the money
+stopping 47 days after the recovery and the contract staying open another 1,463 days on
+zero-dollar modifications. **Report primaries rose from 814 to 1,155 and their share from 12.0
+percent to 16.2**, with every cluster rising except the keystone, whose literature turns out to
+be a conference literature rather than an agency-report one.
 
 **THE EQUATION REVIEW WITHDREW THE FRAMING THE DRAFT LIKED BEST.** The draft called the towed
 docking device the end of a resonator and left its damping as an adjective. The linearised
