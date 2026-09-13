@@ -1069,6 +1069,52 @@ NOISE_PATTERNS = [
      "fighter, aircrew and flight completely. 'Fighter Index of Thermal Stress: Development "
      "of Interim Guidance for Hot-Weather USAF Operations' reached the kept set through the "
      "`fighter` anchor this article itself added"),
+    # A358: **MOLECULAR DOCKING IN DRUG DISCOVERY OWNS THE WORD `docking`.** The homonym
+    # table has named it since A334 and no pattern had ever been written, because no
+    # article had needed the word until one about docking an aeroplane with another
+    # aeroplane. **Sixty-six records reached that article's relative-navigation cluster**,
+    # being pancreatic adenocarcinoma inhibition, dopamine D3 receptor binding geometries,
+    # androgenetic alopecia, kidney stones and the taste mechanism of umami peptides.
+    #
+    # **THE PHRASE `docking and molecular dynamics` IS WHY A QUALIFIER LIST DID NOT HELP.**
+    # An aerospace gate qualifying `docking` with `dynamics` matches that phrase perfectly,
+    # and it is one of the commonest collocations in computational chemistry. The pattern
+    # below therefore requires a drug-discovery companion rather than excluding a
+    # qualifier, and it is tagged because this is somebody else's subject.
+    # **THE COMPANION WORDS ARE STEMS AND NOT WHOLE WORDS, AND THE FIRST VERSION GOT THAT
+    # WRONG.** Written with a trailing word boundary, `inhibitor` refused `inhibitors`,
+    # `receptor` refused `receptors` and `peptide` refused `peptides`, so the pattern
+    # missed a paper on mercaptoguanine derivatives as inhibitors of HPPK by docking.
+    # **A plural fails silently and returns a smaller answer rather than a wrong one**,
+    # which is the defect family this store has recorded four times.
+    (r"\bdocking\b(?=[^.]{0,90}\b(?:molecular dynamic|protein|ligand|receptor|peptide|"
+     r"enzyme|inhibitor|binding (?:affinit|site|energ|pocket)|virtual screening|"
+     r"pharmacophor|\bADMET\b|in silico|phytochem|bioactiv|antioxidant|"
+     r"homology model|molecular recognition|binding mechanism|physicochemical|"
+     r"network pharmacolog|drug (?:design|discovery|repurpos)))|"
+     r"\b(?:molecular dynamic|molecular recognition|protein|ligand|receptor|peptide|"
+     r"enzyme|inhibitor|virtual screening|pharmacophor|in silico|phytochem|"
+     r"homology model|binding mechanism|physicochemical|network pharmacolog|"
+     # **THE BACKWARD WINDOW IS WIDER THAN THE FORWARD ONE AND THAT IS DELIBERATE.** A
+     # title that opens with the chemistry and reaches the method at the end can put a
+     # hundred characters between them, as `Molecular recognition of bio-active
+     # triterpenoids from Swertia chirayita towards hepatitis Delta antigen a mechanism
+     # through docking` does at a hundred and five. Widening the FORWARD window instead
+     # would risk a spacecraft docking paper whose later words happen to match.
+     r"drug (?:design|discovery|repurpos))[^.]{0,130}\bdocking\b",
+     "A358: MOLECULAR DOCKING, which is a computational chemistry method and not a "
+     "manoeuvre. Sixty-six records reached an article about docking an unmanned aircraft "
+     "with a towed device, every one of them pharmacological. The companion word is "
+     "required rather than a qualifier excluded, because `docking and molecular dynamics` "
+     "satisfies any qualifier list an aerospace gate would write",
+     "drug-discovery"),
+    # A358: the African locust bean, which arrived through a programme named LOCUST and is
+    # a food crop rather than the insect, so the ecology pattern did not hold it.
+    (r"locust bean|\bParkia\b|\bcarob\b",
+     "A358: THE AFRICAN LOCUST BEAN, Parkia biglobosa, a food crop whose pulp wastes have "
+     "a binding power and a chemical composition. It reached the kept set through the "
+     "DARPA programme named LOCUST and is neither the insect nor the aircraft",
+     "ecology"),
     # A358: **A PROGRAMME NAMED AFTER AN ANIMAL INHERITS THAT ANIMAL'S LITERATURE**, and
     # this article met three at once. `Perdix` is the micro air vehicle the Department of
     # Defense air-launched in volleys from fighters, and `Perdix perdix` is the grey

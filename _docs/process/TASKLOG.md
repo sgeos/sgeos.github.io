@@ -10,11 +10,45 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A358 are drafted. A297 through A357 have ALL FOUR PASSES COMPLETE
-and are PUSHED. A358, X-Planes: Dynetics X-61 Gremlins, has completed the DRAFT PASS ONLY**,
-committed and **NOT PUSHED**, which is what the draft pass asks for. **Sixty-two of
-seventy-two drafted. None published, and publication has never been authorised. Ten articles
-remain.** The next three prompts on A358 are the equation-density review, the
-primary-reference review and the publication review.
+and are PUSHED. A358, X-Planes: Dynetics X-61 Gremlins, has completed the DRAFT PASS and the
+EQUATION-DENSITY REVIEW**, committed and **NOT PUSHED**, which is what every pass before the
+publication review asks for. **Sixty-two of seventy-two drafted. None published, and
+publication has never been authorised. Ten articles remain.** The next two prompts on A358 are
+the primary-reference review and the publication review.
+
+**THE EQUATION REVIEW WITHDREW THE FRAMING THE DRAFT LIKED BEST.** The draft called the towed
+docking device the end of a resonator and left its damping as an adjective. Computing the
+linearised aerodynamic damping gives a modal damping ratio of **0.324** on the fundamental,
+which decays by a factor of e in **0.49 of a cycle**. **It does not ring.** What survives is
+the part the argument used, which is that the loop still cannot reject motion at those
+frequencies whatever produces it.
+
+**AND THE TWO LOOP ARCHITECTURES DIFFER STRUCTURALLY RATHER THAN BY CONVENTION.** The minor
+loop falls off by two orders, so its Bode sensitivity integral is zero and amplification is
+compulsory. The forward-path form falls off by one, so its integral is finite and negative and
+equals **minus half pi times the high-frequency loop gain, or -3.154**, to four figures. **It
+pays for that freedom with a factor of 140 more high-frequency noise.**
+
+**A LIFE REQUIREMENT SATURATES AGAINST ATTRITION, WHICH TIES BOTH HALVES OF THE ARTICLE
+TOGETHER.** A twenty-use airframe delivers 18.21 sorties at one percent loss, 12.83 at five and
+**4.47 at the 22.2 percent the development programme showed**. At five percent the ceiling
+equals the design life exactly, so the requirement is only specifiable below that.
+
+**THE POLAR FIXES A CEILING OF 13.27** on a band the draft carried as open, and **the
+best-range Mach number at 35,000 feet is 0.59** against a published maximum of 0.6, which
+corroborates the draft's reading of that figure by an independent route.
+
+**AND THE SHARP-EDGED GUST WAS VERY NEARLY RIGHT.** Integrating the von Karman spectrum puts
+**89.4 percent of the disturbance energy below the loop's own natural frequency**, so the crude
+model the draft apologised for needed no apology.
+
+**THE PASS PROMOTED FIVE SUBJECTS AND A THIRD SWEEP FOLLOWED**, taking them from between 26 and
+46 records to between 90 and 539. Reading that sweep's kept sample found **66 records on
+molecular docking** in the relative-navigation cluster, a family the homonym table has named
+since A334 and for which no store pattern had ever been written.
+
+**FROM 26 DISPLAY EQUATIONS TO 57 AND FROM 71 DECLARED SYMBOLS TO 116.** The article verifier
+went from 85 checks to 183 and the injection suite from 66 of 66 to 110 of 110.
 
 **THE REGISTER STOPS BEING A PRIMARY SOURCE AT THIS DESIGNATION AND IT SAYS SO ITSELF.** The
 compiler's note states that no complete official data on designations assigned after October

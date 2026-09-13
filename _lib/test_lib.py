@@ -1990,6 +1990,61 @@ def t_homonym_a355_a_curriculum_can_be_a_training_schedule():
         assert homonyms.noise_hit(title) is not None, f"school curriculum survived: {title}"
 
 
+def t_homonym_a358_molecular_docking_owns_the_word_docking():
+    """A358: MOLECULAR DOCKING REACHED AN ARTICLE ABOUT DOCKING ONE AEROPLANE WITH ANOTHER.
+
+    The homonym table has named molecular docking since A334 and no pattern had ever been
+    written for it, because until A358 no article in this series needed the word. **Sixty-six
+    records reached that article's relative-navigation cluster**, being pancreatic ductal
+    adenocarcinoma inhibition, dopamine D3 receptor binding geometries, androgenetic
+    alopecia, kidney stones and the taste mechanism of umami peptides.
+
+    **THE PHRASE `docking and molecular dynamics` IS WHY A QUALIFIER LIST CANNOT HELP.** An
+    aerospace gate that qualifies `docking` with `dynamics`, `control` or `mechanism` matches
+    that phrase exactly, and it is one of the commonest collocations in computational
+    chemistry. The pattern requires a drug-discovery companion rather than excluding a
+    qualifier.
+
+    **THE COMPANION WORDS ARE STEMS RATHER THAN WHOLE WORDS**, because a first version wrote
+    a trailing word boundary and `inhibitor` then refused `inhibitors`. A plural fails
+    silently and returns a smaller answer rather than a wrong one, which is why it survives.
+    """
+    for title in [
+        "Network Toxicology, Molecular Docking, and Molecular Dynamics Simulations Reveal "
+        "the Mechanism",
+        "The Inhibition Mechanism of Pancreatic Ductal Adenocarcinoma via LXR Receptors, a "
+        "multifaceted study with docking",
+        "Probing the binding mechanism of mercaptoguanine derivatives as inhibitors of HPPK "
+        "by docking",
+        "Docking and Molecular Dynamics Simulations of Steviol Glycoside Human Bitter "
+        "Receptor Interactions",
+        "Molecular recognition of bio-active triterpenoids from Swertia chirayita towards "
+        "hepatitis Delta antigen a mechanism through docking, dynamics simulation",
+    ]:
+        assert homonyms.noise_hit(title) is not None, (
+            f"molecular docking must be held: {title[:70]}")
+
+    # **AND EVERY AEROSPACE SENSE MUST SURVIVE**, which is the half that matters, since one
+    # article in this series has docking as its entire subject.
+    for title in [
+        "Automated Rendezvous and Docking of Spacecraft",
+        "Coupled Rendezvous and Docking Maneuver Control of Spacecraft using Sliding Mode",
+        "Docking controller for autonomous aerial refueling with adaptive dynamic surface "
+        "control",
+        "Contact dynamics of a docking mechanism for spacecraft capture",
+        "Toward Autonomous In-flight Docking of Unmanned Multi-rotor Aerial Vehicles",
+        "Robust control of an actively controlled drogue for autonomous aerial docking",
+        "Path Planning of Aerial Docking of Multi-Body Unmanned Aerial Vehicle",
+    ]:
+        assert homonyms.noise_hit(title) is None, (
+            f"the aerospace manoeuvre must not be deleted with the method: {title[:70]}")
+
+    assert homonyms.noise_hit(
+        "Network Toxicology, Molecular Docking, and Molecular Dynamics Simulations",
+        allow=("drug-discovery",)) is None, (
+        "a computational chemistry article must be able to open this family by name")
+
+
 def t_homonym_a358_a_programme_named_after_an_animal_inherits_that_animal():
     """A358: THE GREY PARTRIDGE AND THE DESERT LOCUST REACHED AN ARTICLE ABOUT CATCHING AN
     AEROPLANE.

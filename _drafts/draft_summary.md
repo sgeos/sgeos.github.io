@@ -21,9 +21,21 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_dynetics_x61_gremlins.markdown`, A358, editorial date 2025-12-06, series `x_planes` index 62 of 72.
 
-**12,518 lines, 26 display equations, 71 declared symbols, 5,852 reference definitions,
-73,390 words after the draft pass.** **DRAFT PASS ONLY.** Committed and **NOT PUSHED**, which
-is what the draft pass asks for. **Not published**, and publication of the series has never
+**14,962 lines, 57 display equations, 116 declared symbols, 6,903 reference definitions,
+88,939 words after the equation-density review.** **DRAFT PASS AND EQUATION-DENSITY REVIEW
+COMPLETE.** Committed and **NOT PUSHED**, which is what every pass before the publication
+review asks for.
+
+**THE EQUATION REVIEW WITHDREW THE FRAMING THE DRAFT LIKED BEST.** The draft called the towed
+docking device the end of a resonator and left its damping as an adjective. The linearised
+aerodynamic damping gives a modal damping ratio of 0.324 on the fundamental, which decays by a
+factor of e in 0.49 of a cycle. **It does not ring**, and what survives is that the loop still
+cannot reject motion at those frequencies whatever produces it. **The two loop architectures
+also turned out to differ in relative degree rather than by convention**, with the forward-path
+form's Bode integral equal to minus half pi times its loop gain and paying a factor of 140 in
+high-frequency noise for the freedom. **And a life requirement saturates against attrition**, a
+twenty-use airframe delivering 4.47 sorties at the rate the programme actually showed, which
+ties the article's reliability half to its economics half. **Not published**, and publication of the series has never
 been authorised. **The first article in this series whose subject the register declines to
 describe.**
 

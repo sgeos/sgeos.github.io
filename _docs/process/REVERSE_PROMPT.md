@@ -5,12 +5,171 @@
 ## Last Updated
 
 **Date**: 2026-09-13
-**Task**: **A358, X-Planes: Dynetics X-61 Gremlins, draft pass. The first of four.**
-Committed. **Not pushed**, which is what the draft pass asks for. **Not published**, and
-publication of the series has never been authorised. **Sixty-two of seventy-two drafted, ten
-remain.**
+**Task**: **A358, X-Planes: Dynetics X-61 Gremlins, equation-density review. The second of
+four.** Committed. **Not pushed**, which is what every pass before the publication review
+asks for. **Not published**, and publication of the series has never been authorised.
+**Sixty-two of seventy-two drafted, ten remain.**
 
 ---
+
+## Writing the Relation Down Withdrew the Framing This Article Liked Best
+
+**The draft called the towed docking device the end of a resonator and left the damping as an
+adjective.** It said a cable has a great deal of aerodynamic damping and stopped there. **An
+adjective is not a quantity**, and computing it took the claim away.
+
+A cable dragged sideways through air at two hundred knots changes its own normal drag, and
+linearising that about the equilibrium inclination gives a damping force per unit length per
+unit transverse velocity. Divided by twice the mass per unit length and the modal frequency it
+is a damping ratio, and the fundamental comes out at **0.324**. **A mode that damped decays by
+a factor of e in 0.49 of a cycle. It does not ring.** The word is withdrawn in the article
+rather than deleted from it.
+
+**What survives is the part the argument actually used, and it is not weakened.** A heavily
+damped system still moves when something moves it, the frequencies it responds at are
+unchanged to within a few percent, and the loop that must dock with it still cannot reject
+motion there. **The damping removes the ringing and leaves the tracking problem exactly where
+it was.**
+
+## And the Two Loop Architectures Differ Structurally Rather Than by Convention
+
+**The draft reported that one architecture amplifies the cable's motion and the other does
+not, and called the difference a convention it had no information about.** It is not a
+convention. **It is a difference of relative degree and the Bode integral is where it shows.**
+
+The minor-loop form has an open loop falling off by two orders, so its sensitivity integral is
+zero and amplification is compulsory. The forward-path form falls off by one, so the integral
+is finite and negative and the loop is free to sit below unity everywhere. **The convergence is
+the evidence rather than either value.** The minor-loop residual halves each time the upper
+limit doubles, at -0.0205, -0.0101 and -0.0048. The forward-path integral does not move at
+all, and it agrees with the closed form a relative degree of one predicts, **minus half pi
+times the high-frequency loop gain, or -3.154**, to four figures.
+
+**So the architecture that escapes the amplification pays for it in high-frequency noise.** At
+a hundred times the natural frequency the forward-path form passes 0.0140 of what its sensor
+reports against 0.0001 for the minor loop, **a factor of 140**. **That turns an arbitrary
+convention into a genuine engineering trade**, and the article still does not know which way
+it was made.
+
+## A Life Requirement Saturates Against Attrition, Which Neither Half Could See Alone
+
+**The draft said a twenty-use life buys fleet size and did not compute it.** An airframe that
+can be lost on any sortie delivers a geometric sum rather than its design life, and that sum
+cannot pass the reciprocal of the loss rate however long the life is.
+
+A twenty-use airframe delivers **18.21 sorties at one percent loss, 12.83 at five percent and
+4.47 at the 22.2 percent the development programme showed**. **At five percent the ceiling is
+exactly twenty**, so the requirement is only specifiable if the loss rate is well below it.
+Inverting for the rate at which it delivers half of what it says gives **8.19 percent**.
+
+**The article's reliability half and its economics half turn out to be one relation**, because
+the number that decides what reuse is worth is not the design life but the expected sorties,
+and the expected sorties are set by attrition once attrition is anything but small. A hundred
+sorties need 5.49 airframes at one percent and **22.4 at the development rate, a factor of
+4.07**.
+
+## The Polar Fixes a Ceiling the Draft Carried as an Open Band
+
+The draft used lift to drag ratios of 6, 9 and 12 and said the true value was not published.
+**Differentiating the polar it already displayed gives 13.27 at the bounded aspect ratio**,
+reached at a lift coefficient of 0.796, so the band's upper end is very nearly the best the
+geometry allows.
+
+**And the best-range speed at 35,000 feet is Mach 0.59.** The published maximum is Mach 0.6.
+**That is an independent reason to read it as a chosen cruise condition rather than a limit**,
+reached without reference to the engine at all, and it corroborates the draft's claim by
+another route.
+
+## The Sharp-Edged Gust Turned Out To Be Very Nearly Right
+
+The draft used the crudest available gust model and apologised for it. **An apology is not a
+measurement.** Integrating the von Karman vertical spectrum shows that **89.4 percent of the
+disturbance energy lies below the loop's own natural frequency**, which is where the loop has
+to fight it. **The crude model was not conservative and not poor. It was close**, and the
+article now says so instead of hedging.
+
+## What the Equation Pass Cost the Reference Base
+
+**The equation review promoted five subjects and the reference base had to follow, for the
+eleventh article running.** The first two sweeps never asked for the drag polar, for feedback
+design limitations, for the phase a transport delay costs, for aerodynamic damping of a cable,
+or for attrition modelling, and the probe measured all five **between 26 and 46 records** in a
+pool of nearly six thousand. **A third sweep in those five vocabularies took them to between
+90 and 539.** The audit was run before that sweep and not after it.
+
+**And reading the third sweep's kept sample found what two earlier readings had missed.** One
+off-subject title in a sample of thirty, a drag coefficient for a revetment block, led to a
+scan that turned up **66 records on molecular docking** in the relative-navigation cluster,
+being pancreatic adenocarcinoma inhibition, dopamine receptor binding geometries, androgenetic
+alopecia, kidney stones and the taste mechanism of umami peptides. **The homonym table has
+named molecular docking since A334 and no pattern had ever been written**, because no article
+had needed the word until one whose entire subject is docking.
+
+**A qualifier list cannot separate them**, because `docking and molecular dynamics` is one of
+the commonest collocations in computational chemistry and satisfies any qualifier an aerospace
+gate would reach for. The store pattern requires a drug-discovery companion instead, and is
+tagged `drug-discovery`, the thirtieth family. **A first version wrote those companions as
+whole words and `inhibitor` then refused `inhibitors`**, which is the plural-boundary defect
+this store has now recorded five times.
+
+## Four Instruments Bit This Pass, and One of Them Was Mine
+
+**The duplicate-symbol refusal caught a real collision.** `z` was already the depth below the
+vortex plane and the atmosphere section redeclared it as altitude. A dictionary literal would
+have accepted the second declaration in silence.
+
+**The symbol scanner's own docstring warns against `\text{}` inside a symbol name and this
+pass walked into it anyway.** Written `\sigma_{w, \text{band}}` the subscript decayed before
+the symbol was matched, the declared `\sigma_w` no longer matched, and the bare `\sigma` was
+eaten letter by letter by the declared s, g, m and a, leaving an undeclared `i`.
+
+**A uniform quadrature cannot integrate the Bode identity at a large upper limit.** The
+verifier reported the residual failing to halve, which was the integration and not the
+identity. A logarithmic grid fixes it and is a genuinely different rule from the calculation's.
+
+**And a tolerance set from habit failed on a figure that was right.** Solving the break-even
+forwards through a value rounded to two decimals cannot recover its input to a dollar. The
+tolerance is now derived from the rounding.
+
+**The one I wrote and broke was the caps-lowering script.** It worked line by line, two
+capitalised runs spanned a source line break, and it shipped `had to FOLLOW, Which is now` into
+the emitted source base. **A check that inspects a subset of its subject reports a clean
+subset**, and so does a repair.
+
+## Verification
+
+**Verifier 0 errors and 0 warnings. Tests 115 of 115. Lint 0 defects and 1 convention
+finding**, the intended multi-line equation form. **Diction 0 constructions above the corpus
+maximum** across 61 peers, on 12,068 words of author prose.
+
+**The article verifier now runs 183 checks and passes all of them**, up from 85, and **the
+injection suite catches 110 of 110**, up from 66. The symbol scanner reports all 116 declared
+symbols used and every symbol used declared. Identifier verification passes on content, with
+25 quoted phrases held against the saved copies they were read from.
+
+**The whole corpus with this article published builds in 34.5 seconds against checksum-matched
+bytes.** The rendered audit reports **no findings across 540 pages**. Source and rendered
+display-equation counts agree at **57**.
+
+**FINAL STATE. 14,962 lines, 57 display equations, 116 declared symbols, 6,903 reference
+definitions, 88,939 words.** Three sweeps retrieved 36,928 records of which 31,233 distinct,
+the store removed 2,971, the gate admitted 7,039 and refused 21,223, and **every one of the
+6,792 records surviving deduplication is cited**. Report primaries 814 at 12.0 percent.
+
+**The counts and the fractions both moved and both are given.** Display equations went from 26
+to 57 and declared symbols from 71 to 116. **Report primaries rose from 695 to 814 while their
+fraction fell from 12.1 percent to 12.0**, because the survey grew from 5,741 records to 6,792.
+Reporting only the fraction would describe a pass that added 119 primaries as a regression.
+
+## What Remains
+
+**A358 has completed the draft pass and the equation-density review.** The primary-reference
+review and the publication review are the next two prompts. **Ten articles remain**, ending at
+editorial date 2025-12-16.
+
+**The probe now covers 24 conclusions with none uncovered**, eight of them added by this pass
+and probed here rather than left to the publication review, which is A356's defect met in
+advance.
 
 ## The Register Stops Being a Primary Source at This Designation, and It Says So Itself
 
