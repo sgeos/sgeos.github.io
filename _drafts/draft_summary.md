@@ -17,6 +17,77 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Lockheed Martin X-62 VISTA A359 2025-12-07
+
+`x_planes_lockheed_martin_x62_vista.markdown`, A359, editorial date 2025-12-07, series
+`x_planes` index 63 of 72.
+
+**15,770 lines, 21 display equations, 46 declared symbols, 7,507 reference definitions,
+91,850 words after the drafting pass.** **FIRST OF FOUR PASSES COMPLETE.** Committed and
+**NOT pushed**, which is the rhythm. **Not published**, and publication of the series has
+never been authorised.
+
+**THE X NUMBER IS NOT IN THE ACCOUNTING SYSTEM.** The federal award record carries 73
+transactions and 29,085,924.37 dollars against this aeroplane from February 2014 to September
+2025 and **not one of them calls it the X-62A**. The designation appears exactly once in the
+whole record and that once falls 23 days past the article's own editorial date, **so an
+article that filtered in the sentence rather than in the data would have reported the opposite
+of this record's most interesting property**. **The register's unofficial sentence is
+corroborated anyway by a different government record**, the Air Force having obligated
+799,956.00 dollars under a line naming the Skyborg programme 108 days after the redesignation.
+
+**`REDESIGNATED` APPEARS IN EXACTLY ONE OF THE REGISTER'S 539 ROWS.** Eight X rows describe an
+aircraft modified from an existing one and the other seven say *highly modified*, *converted*,
+*derivative of* or *upgrade*. **Only this one says the aeroplane was renamed.**
+
+**THE KEYSTONE IS AN IDENTITY AND IT REMOVES THE VEHICLE.** Exact model following holds if and
+only if a projector built from the host's control effectiveness matrix annihilates the demanded
+change of dynamics, and when it fails the residual is driven by the model's own state so no
+feedback gain removes it. **The rank bound turns that into a count of control surfaces at three
+per axis and the variable stability system has exactly three in each**, the throttle among them
+because the speed equation is one of the three. **With one pitch control 83.3 percent of the
+demanded change in the lift row is unreachable and 0.05 percent of the moment row is**, so a
+simulator built round a tail alone can imitate any pitch stiffness and cannot imitate a
+different wing.
+
+**THE BINDING LIMITS WERE PUBLISHED IN 1979** in a NASA report that never names the aeroplane
+in its title. A rate limit divided by a deflection limit is a frequency, and **the symmetric
+horizontal tail, which has the most travel, has the lowest corner of all four at 2.4 radians
+per second, below a fighter's own short period**. **And the deepest limit is one-sided**,
+because every delay in the host lies between the pilot and the simulated response, so the
+machine can make any aeroplane sluggish and cannot make any aeroplane crisp.
+
+**THE NAME DOES NOT SPELL ITS OWN ACRONYM.** Seven expansions across 55 occurrences in the
+award record, of which 54 keep a word that contributes no letter. **The prime contractor has
+now fixed it by deleting that word.**
+
+**TWO INSTRUMENT REPAIRS WENT INTO THE SHARED STORE**, splitting the stem `physiolog` out of
+A348's biomedical entry into its own tagged family rather than opening `medicine` wholesale,
+and guarding the turbomachinery family against an omnibus proceedings volume whose name lists
+four unrelated fields. **A second sweep repaired three of four thin conclusions**, taking
+direct lift from 8 records to 93, control effectiveness from 16 to 118 and ownership cost from
+15 to 349. **The fourth is reported as uncovered rather than softened.**
+
+**ONE ATTRIBUTION WAS CORRECTED BEFORE IT SHIPPED.** The solvability condition belongs to a
+NASA Technical Memorandum of 18 October 1967 and not to the 1970 journal paper the draft
+credited, and the memorandum was already in the sweep, unpromoted, among a thousand siblings
+in the keystone cluster.
+
+**VERIFICATION.** Verifier 0 errors and 0 warnings. Tests 117 of 117. **The article verifier
+runs 269 checks and passes all of them and the injection suite catches 139 of 139.** The
+symbol scanner reports all 46 declared symbols used and every symbol used declared.
+Identifier verification holds 28 quoted phrases against the saved copies they were read from
+and 14 book identifiers against both recorded title and recorded author, **and the address
+sweep found one dead link, an address this article had invented for a page that does not
+exist**. **The whole corpus with this article published builds in 18.5 seconds against
+checksum-matched bytes and the rendered audit reports no findings across 541 pages.** Source
+and rendered display-equation counts agree at 21, with zero raw dollar pairs, zero unresolved
+reference brackets, zero unexpanded slots and zero unrendered Liquid. The page is 1,383,690
+bytes and carries 15,280 links.
+
+**REMAINING WORK.** Equation density, primary-reference density and publication review, in
+that order and each on its own prompt.
+
 ## X-Planes Dynetics X-61 Gremlins A358 2025-12-06
 
 `x_planes_dynetics_x61_gremlins.markdown`, A358, editorial date 2025-12-06, series `x_planes` index 62 of 72.

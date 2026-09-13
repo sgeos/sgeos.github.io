@@ -5,142 +5,162 @@
 ## Last Updated
 
 **Date**: 2026-09-13
-**Task**: **A358, X-Planes: Dynetics X-61 Gremlins, publication review. The fourth and last of
-four.** Committed and **PUSHED**. **Not published**, and publication of the series has never
-been authorised. **Sixty-two of seventy-two drafted, ten remain.**
+**Task**: **A359, X-Planes: Lockheed Martin X-62 VISTA, drafted. The first of four passes.**
+Committed and **NOT PUSHED**, per the rhythm. **Not published**, and publication of the
+series has never been authorised. **Sixty-three of seventy-two drafted, nine remain.**
 
 ---
 
-## Seven Sentences of Drafting History Had Leaked Into the Article
+## The X Number Is Not in the Accounting System
 
-**This is the largest single class the publication review found and it is the one the corpus
-has paid for twice before.** A322 shipped five such sentences and A323 six. This article had
-**seven**, every one of the form `the draft of this section said X and was wrong`.
+**The federal award record carries 73 transactions and 29,085,924.37 dollars against this
+aeroplane, and not one of them calls it the X-62A.** The designation was allocated on 14 June
+2021 and by this article's editorial date, 1,637 days later, the system that pays for the
+aircraft had still never used it. It calls it VISTA, or the variable stability in-flight
+simulator, or the airframe.
 
-They arose honestly. Three passes each withdrew a claim, and naming a withdrawn claim rather
-than deleting it is this series' own convention. **But a reader has never seen the draft.** The
-distinction that matters is between epistemic content, which is that a tempting claim is false,
-and revision history, which is that an earlier version of this document made it. **The first
-belongs on the page and the second does not**, and all seven were rewritten to keep the first.
+**The designation appears exactly once in the whole record and that once falls 23 days past
+the article's own date**, which is why the dateline horizon is enforced at the source rather
+than in the prose. **An article that had filtered in the sentence would have reported the
+opposite of this record's most interesting property.**
 
-**The test is whether the sentence still works for a reader who has never seen a previous
-version.** `It is tempting to stop there and call the docking device the end of a resonator.
-Writing down the damping refuses that` passes it. `The draft of this section stopped there`
-does not.
+**The register's own sentence is corroborated anyway, by a different government record.** The
+compiler marks the description as not official Department of Defense wording and it says the
+upgrade was for the Skyborg programme. **One hundred and eight days after the redesignation
+the Air Force obligated 799,956.00 dollars under a line naming HAVE Autonomous Air Combat
+Operations Phase Two Skyborg.** The accounting system and the designation register are
+maintained for unrelated purposes and they agree, which is the strongest thing this series has
+been able to say about a reconstructed description since the register stopped being a primary
+source one article ago.
 
-## Three Rankings Had Nothing Behind Them
+## The Keystone Is an Identity and It Removes the Vehicle
 
-**A superlative scan over the author prose found twenty sentences carrying a strong ranking and
-three of them were unsupported.**
+**Exact model following holds if and only if a projector built from the host's control
+effectiveness matrix annihilates the demanded change of dynamics**, which is Erzberger's
+condition. When it holds the gains are immediate. When it fails the residual is computable, it
+is driven by the model's own state, and **no feedback gain removes it because the residual does
+not contain the feedback gain**.
 
-The article said the nine-attempts sentence was **the only public statement** of the capture
-tolerance. That is a claim about the whole public record and this article searched part of it.
-It now says it is the only statement this article found, **and says that is a fact about the
-search**.
+**The counting bound turns that into hardware.** The projector's rank is the number of states
+less the rank of the control matrix, so a simulator needs as many independent controls per axis
+as the axis has dynamic states. **Three in pitch, three in roll and yaw, and the variable
+stability system has exactly three in each.** A symmetric stabilator, a symmetric flaperon and a
+throttle. A differential stabilator, an asymmetric flaperon and a rudder.
 
-It said **span is the only way** to buy efficiency at the transport's speed. The relation it
-had just displayed has two levers, weight and span, and the vehicle uses both. Corrected.
+**That is why the second flight control system commands the throttle.** The speed equation is
+one of the three and no aerodynamic surface changes axial force independently of normal force
+and pitching moment. **The engine is not propulsion in this argument. It is the third column of
+a matrix.**
 
-And it asserted that no uncrewed aircraft had ever flown itself into a towed docking device
-before October 2021. **That is the agency's claim and the contractor's, both interested
-parties**, and it is now attributed to them rather than asserted, with the observation that
-nothing in seven thousand records contradicts it.
+**And the worked residual says which half of the aeroplane goes wrong without the flap.** With
+one pitch control, 83.3 percent of the demanded change in the lift row is unreachable and 0.05
+percent of the moment row is, a ratio of 1,677. **A tail makes moment and not lift**, so a
+simulator built round a tail alone can imitate any pitch stiffness and cannot imitate a
+different wing.
 
-## The Closing Sections Had Outrun Three Passes
+## The Binding Limits Were Published in 1979
 
-**The Epistemic State still listed the sharp-edged gust as an assumption and called it the
-crudest available model giving an acceleration rather than a spectrum.** The equation pass had
-added the von Karman spectrum two passes earlier and shown that 89.4 percent of the energy
-falls inside the loop's band. **A withdrawn assumption still asserted in the epistemic state is
-A333's defect exactly**, and it was there because the closing sections were written at the
-draft pass and never revisited.
+**NASA Technical Paper 1538 tabulates the F-16's deflection limits, rate limits and actuator
+lags**, and it never names the aeroplane in its title. Its appendix on aerodynamic data says
+the data came from wind-tunnel tests of subscale models of the F-16.
 
-**What Is Computed now carries the later passes**, being the cable damping, the relative-degree
-result, the life saturation, the polar ceiling and the contract totals. **What the Record Does
-Not Settle now carries the two the later passes opened**, being which control architecture the
-vehicle used and what a recovery sortie costs.
+**A rate limit divided by a deflection limit is a frequency.** The four surfaces the second
+system commands come out at 2.4, 11.16, 3.72 and 4.0 radians per second. **The symmetric
+horizontal tail, which has the most travel, has the lowest corner frequency of all of them and
+it falls below a fighter's own short period.** The differential tail, with a fifth of the travel
+and the same rate limit, has 4.65 times the bandwidth, which is exactly the ratio of the
+deflections.
 
-**And one claim in the Conclusion was an overreach.** It said the register had declined to say
-what an X-plane was for **for the first time in sixty-two articles**. The register only covers
-allocations after August 1998, so most of this series has no row to read at all. The measured
-claim is that of the 31 X rows the X-60A is the last with official wording and the X-61A the
-first without, and that is what it now says.
+**And the deepest limit is one-sided.** A model-following system drives the host's surfaces, so
+every delay in the host lies between the pilot and the simulated response and the simulation can
+only add. **The machine can make any aeroplane sluggish and cannot make any aeroplane crisp**,
+with a floor of at least 49.5 milliseconds from the published actuator lag alone.
 
-## A Statistic Had Gone Stale Within One Pass
+**The instrument also contains the nonlinearity it was built to study.** Rate limiting is the
+mechanism of one class of pilot-induced oscillation and the second system drives the same
+surfaces through the same rate limits. **The machine simulates the model plus itself.**
 
-**The Source Base stated the keystone cluster's publisher composition as 24.2 and 11.6 percent,
-typed as literals.** A gate change later in the same pass moved the cluster by four records and
-the prose did not follow. **A number an article states about its own survey must be recomputed
-and never matched**, which is this corpus's oldest survey lesson, and the emitter now derives
-all four figures.
+## The Name Does Not Spell Its Own Acronym
 
-**Worse, the body and the source base were computing the same quantity on different
-denominators**, one from the gated set and one from the cited set, so the article carried two
-percentages for one thing. Both now use the cited set and the verifier holds each at two
-occurrences so they cannot drift apart again.
+**The government expands VISTA seven ways in the award record for this one aeroplane**, across
+55 occurrences, of which 54 keep the word `stability` and one drops it. **Variable stability
+in-flight simulator test aircraft spells VSISTA.** The word `stability` has always contributed
+no letter.
+
+**The prime contractor has now fixed it** by writing the name as Variable In-flight Simulation
+Test Aircraft, which spells the acronym exactly. **The repair was made by deleting the word that
+never fitted**, and the consequence is not cosmetic, because the original name says the variable
+quantity is the stability and the new one says it is the simulation.
+
+## Two Instrument Repairs, Both Committed to the Shared Store
+
+**`physiolog` was deleting the pilot-workload literature.** The biomedical
+computational-fluid-dynamics entry earned by A348 alternates ten terms and exactly one of them
+names the discipline that measures a pilot. **Opening `medicine` wholesale would have readmitted
+thirty-eight records on artificial intelligence in clinical trials**, so the alternative was
+split into its own tagged entry on the A352 precedent. Two tests hold both halves.
+
+**And an omnibus proceedings volume is a list of subjects rather than a subject.** One
+conference prints each year as `Volume 2, Aircraft Engine, Marine, Microturbines and Small
+Turbomachinery, Oil and Gas Applications`, and that container name alone removed a paper on
+integrated flight and propulsion control from an article about flight control. **This is A354's
+multi-modal venue defect in a different family** and the guard has the same shape. A measurement
+found 137 records in this pool dropped by the container alone with a clean title, most of them
+correctly, including a paper titled `Dogfight in the clouds` published in a volume on British
+archaeology in the Middle East.
+
+## The Probe Found Four Thin Conclusions and a Second Sweep Repaired Three
+
+**A thin count under the field's words is a fact about the sweep and not about the claim.** The
+probe run after the first sweep found four conclusions under twenty records in the field's own
+vocabulary. **A second sweep of 26 registry questions, 22 reports-server questions and 6
+defence-registry questions took direct lift from 8 to 93, the control-effectiveness vocabulary
+from 16 to 118 and ownership cost from 15 to 349.**
+
+**The fourth is still uncovered at 2 and it is reported rather than softened.** It is the claim
+that the contract record and the designation register are independent documents that happen to
+agree, which has no aeronautical literature because it is a claim about records.
 
 ## Verification
 
-**Verifier 0 errors and 0 warnings. Tests 115 of 115. Lint 0 defects and 1 convention
-finding**, the intended multi-line equation form. **Diction 0 constructions above the corpus
-maximum** across 61 peers on 14,330 words of author prose, and **no content word above five per
-thousand**, the largest ratios being cable, docking and towed.
+**Verifier 0 errors and 0 warnings. Tests 117 of 117**, the two new ones holding the split
+physiology family and the omnibus-volume guard. **Diction reports 0 constructions above the
+corpus maximum** across 62 peers, and the 53 content words above the peer maximum are the
+subject nouns the tool's own note predicts.
 
-**The article verifier runs 234 checks and passes all of them. The injection suite catches 136
-of 136.** The symbol scanner reports all 116 declared symbols used and every symbol used
-declared. **Structural conformance holds**, with the genre's three extra sections present, the
-required tail in order, no duplicate heading, and the three general clusters last so that
-neither drains a specific one.
+**The article verifier runs 269 checks and passes all of them. The injection suite catches 139
+of 139**, across frozen occurrence counts, computed values, contract figures, register claims
+and reversed sentences. The symbol scanner reports all 46 declared symbols used and every symbol
+used declared.
 
-**Identifier verification passes on content**, with 33 quoted phrases held against the saved
-copies they were read from, three contract totals resummed from raw transaction files, and
-**all 59 hand-written addresses swept individually with 58 reachable, 1 refused and 0 dead**.
-The refusal is an American Institute of Aeronautics and Astronautics identifier, which that
-publisher refuses to automated requests and which was verified through the Crossref registry
-instead, a strictly stronger check than an HTTP 200.
+**The register is verified by a second parser reading the saved HTML**, and that re-parse found
+a defect in itself before it found anything else. **Written as a bare `<tr>` it matched 512 of
+the 539 rows and missed exactly the 27 that carry a class**, which are the wholly unofficial and
+unconfirmed ones. The omission was invisible as a parse failure and visible only as a
+disagreement with the other parser, which is the entire reason the file re-parses rather than
+re-reads.
 
-**The whole corpus with this article published builds in 15.0 seconds against checksum-matched
-bytes.** The rendered audit reports **no findings across 540 pages**. Source and rendered
-display-equation counts agree at **57**, with zero raw dollar pairs, zero unresolved reference
-brackets, zero unexpanded slots and zero unrendered Liquid. The page is 1,384,546 bytes and
-carries 14,802 links.
+**Identifier verification passes on content**, with 28 quoted phrases held against the saved
+copies they were read from and 14 book identifiers held against both the recorded title and the
+recorded author.
 
-**FINAL STATE. 15,736 lines, 57 display equations, 116 declared symbols, 7,248 reference
-definitions, 95,600 words.** Four sweeps retrieved 43,205 records of which 34,657 distinct, the
-store removed 3,168, the gate admitted 7,412 and refused 24,077, and **every one of the 7,128
-records surviving deduplication is cited** across 16 clusters, alongside 120 hand-written
-definitions. Report primaries 1,155 at 16.2 percent. Median year 2011, range 1826 to 2026, with
-80.2 percent at or before the programme's last flight test.
+**The whole corpus with this article published builds against checksum-matched bytes and the
+rendered audit reports no findings across 541 pages.**
 
-**The probe covers 26 conclusions with one uncovered**, and the uncovered one is a gate decision
-the article states rather than a gap.
+## One Attribution Was Corrected Before It Shipped
 
-## What the Article Says, in Four Findings
+**The draft credited the solvability condition to a 1970 Journal of Aircraft paper and dated it
+vaguely to 1968.** It is a NASA Technical Memorandum of 18 October 1967, which the sweep had
+already retrieved and which was sitting unpromoted in the keystone cluster among a thousand
+siblings. **A358 learned the same lesson from a Request for Information nine months older than
+its programme.** Read the earliest thing the sweep returned before writing down who first said
+it.
 
-**The register stops being a primary source at this designation and says so itself.** Of the 31
-X rows, the X-60A is the last whose description is official Department of Defense wording and
-the X-61A is the first whose description is not. The row is not blue; only its description is,
-so the date, designation, contractor, engine and sponsor are official and the sentence saying
-what the aeroplane was for is withheld.
+## What Comes Next
 
-**The vehicle is not a cruise missile and its published dimensions prove it with no estimate**,
-carrying 1,922 newtons per metre of span against 3,909 for the cruise missile that shares its
-engine, so its induced drag at a given dynamic pressure is 4.14 times smaller.
-
-**The hard part is the last few metres.** The worst place to hold station behind a transport is
-a fixed fraction of its span, 30.1 feet for a C-130. A towed cable's inclination is set by its
-own weight against its own drag and cannot be commanded, so the docking device has to fly. And
-the position loop needed to hold a six inch window crosses over between the first and second
-transverse modes of the cable that device hangs from.
-
-**And a design life saturates against attrition**, which makes the article's reliability half
-and its economics half one relation. At five percent loss per sortie the ceiling equals the
-twenty-use requirement exactly, and the only rate the record contains is 22.2 percent.
-
-## What Remains
-
-**A358 is complete at all four passes and is PUSHED.** The next new article is **A359, the
-X-62**, editorial date 2025-12-07, series index 63. **Ten articles remain**, ending at editorial
-date 2025-12-16.
-
-**Nothing is published and publication of the series has never been authorised.**
+**The equation-density review.** The draft carries 21 display equations, which is the lowest
+count this series has drafted with in some time and is deliberate, because the argument is
+algebraic rather than numerical. **The candidates the draft already implies** are the
+describing function of a rate limiter, the equivalent-system match a handling-qualities
+criterion uses, the crossover model of the human operator, the sensitivity integral over the
+nested loop, and the singular-value form of the deflection required to simulate a given model.

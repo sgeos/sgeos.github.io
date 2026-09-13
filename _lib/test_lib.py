@@ -2509,6 +2509,92 @@ def t_loose_survives_the_flattening_the_corpus_applies():
     assert survey.loose("") == ""
     assert survey.loose("   ") == ""
 
+def t_homonym_a359_physiology_is_the_discipline_that_measures_a_pilot():
+    """A359: THE STEM `physiolog` DELETED THE PILOT-WORKLOAD LITERATURE.
+
+    A359's subject is a human being deceived about which aeroplane he or she is flying, so
+    the literature that measures that human is the article's subject rather than its
+    contamination. **The biomedical computational-fluid-dynamics entry earned by A348
+    alternated ten terms and exactly one of them, the stem `physiolog`, names that
+    discipline.** The entry untagged removed forty records from the A359 pool, of which
+    roughly half name a pilot, a cockpit, a simulator or flight.
+
+    **OPENING `medicine` WHOLESALE WOULD HAVE READMITTED THIRTY-EIGHT RECORDS ON ARTIFICIAL
+    INTELLIGENCE IN CLINICAL TRIALS**, so the alternative was separated into its own tagged
+    entry on the A352 precedent rather than the family being widened. This test holds both
+    halves: the biomedical sense is still deleted with `physiology` open, and the
+    aeromedical sense is released by it.
+
+    **ONE OF THE FOUR RELEASED RECORDS IS DELETED BY ITS VENUE AND NOT ITS TITLE**, being a
+    paper on simulator frame rate published in Frontiers in Physiology, and it is included
+    deliberately because `filter_records` joins the title and the venue before matching.
+    """
+    for title in [
+        "Physiological assessment of pilot workload in simulated and actual flight "
+        "environments",
+        "Pilot Workload Analysis Based upon In-Flight Physiological Measurements and Task "
+        "Analysis",
+        "A Physiologically Based Model of Neuromuscular System Dynamics",
+        "Effect of simulator frame rate on pilot training for high-speed fighter aircraft "
+        "Frontiers in Physiology",
+    ]:
+        assert homonyms.noise_hit(title) is not None, (
+            f"the untagged store must still hold this, or the split changed behaviour "
+            f"for every other article: {title}")
+        assert homonyms.noise_hit(title, allow=("physiology",)) is None, (
+            f"an article about the pilot must be able to open this family: {title}")
+
+    # **THE BIOMEDICAL HALF MUST NOT COME BACK WITH IT**, which is the whole point of
+    # splitting the entry rather than tagging it.
+    for title in [
+        "Hydrodynamic modelling and CFD simulation of ferrofluids flow in magnetic "
+        "targeting drug delivery",
+        "Artificial Intelligence, An Intuitive Network Recent Advances in Clinical Trials",
+    ]:
+        assert homonyms.noise_hit(title, allow=("physiology",)) is not None, (
+            f"opening physiology must not readmit the medical literature: {title}")
+
+
+def t_homonym_a359_an_omnibus_proceedings_volume_is_not_a_subject():
+    """A359: AN ASME TURBO EXPO VOLUME NAME DELETED A PAPER ON FLIGHT CONTROL.
+
+    `filter_records` joins the title and the venue before matching, which is right, because
+    a turbomachinery journal is real evidence that a paper is turbomachinery. **It stops
+    being right when the container is a numbered proceedings volume whose name concatenates
+    its tracks.** The ASME Turbo Expo prints `Volume 2: Aircraft Engine; Marine;
+    Microturbines and Small Turbomachinery; Oil and Gas Applications`, which names four
+    unrelated fields, and that string alone removed `Integrated Flight and Propulsion
+    Operating Modes for Advanced Fighter Engines` from an article about flight control.
+
+    **THIS IS A354'S MULTI-MODAL VENUE DEFECT IN A DIFFERENT FAMILY**, and the guard has
+    the same shape: it fires only when the container names a numbered volume alongside
+    aeronautics, which is the signature of an omnibus proceedings and never of a
+    turbomachinery journal.
+
+    **THE GUARD IS ANCHORED**, because an unanchored negative lookahead succeeds somewhere
+    past the phrase it was written to refuse and does nothing at all. The second half of
+    this test is what proves the guard did not simply disarm the family.
+    """
+    for title in [
+        "Integrated Flight and Propulsion Operating Modes for Advanced Fighter Engines "
+        "Volume 2 Aircraft Engine Marine Microturbines and Small Turbomachinery",
+        "Development and Evaluation of Integrated Flight/Propulsion Control Algorithms "
+        "Volume 2 Aircraft Engine Marine Microturbines and Small Turbomachinery",
+    ]:
+        assert homonyms.noise_hit(title) is None, (
+            f"an omnibus volume name must not delete an aeronautical paper: {title}")
+
+    # **AND A GENUINE TURBOMACHINERY PAPER MUST STILL BE DELETED**, or the guard has
+    # disarmed the family instead of narrowing it. These are A347's own incidents.
+    for title in [
+        "Aerodynamic Modeling of Multistage Compressor Flowfields",
+        "Supersonic turbomachine rotor flutter control by aerodynamic detuning",
+        "Effect of inlet guide vane setting on centrifugal compressor stage performance",
+    ]:
+        assert homonyms.noise_hit(title) is not None, (
+            f"the turbomachinery family must still hold this: {title}")
+
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)

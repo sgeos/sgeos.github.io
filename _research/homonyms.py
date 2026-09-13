@@ -72,6 +72,22 @@ _MULTIMODAL = (r"(?!.*\b(?:aircraft|aeronautic|aerospace|aviation)\b.{0,60}"
                r"(?!.*\b(?:railway|rail|ship|road vehicle|marine|naval)\b.{0,60}"
                r"\b(?:aircraft|aeronautic|aerospace|aviation)\b)")
 
+# **AND A MULTI-TRACK PROCEEDINGS VOLUME IS A LIST OF SUBJECTS RATHER THAN A SUBJECT.**
+# A354's guard above is about transport modes. A359 met the same defect in a different
+# family: the ASME Turbo Expo prints each year's proceedings as a numbered volume whose
+# name concatenates its tracks, so `Volume 2: Aircraft Engine; Marine; Microturbines and
+# Small Turbomachinery; Oil and Gas Applications` names four unrelated fields and matches
+# the turbomachinery family, the marine family and the oil-and-gas family at once. A paper
+# on integrated flight and propulsion control of a fighter engine, published in that
+# volume, is deleted by its own venue.
+#
+# The guard fires only when the container names a numbered volume AND aeronautics, which is
+# the signature of an omnibus proceedings and never of a turbomachinery journal. **It is
+# anchored, because an unanchored negative lookahead succeeds somewhere past the phrase it
+# was written to refuse and does nothing at all**, which A358 proved on nine titles.
+_OMNIBUS_VOLUME = (r"(?!.*\bVolume \d+\b.{0,150}"
+                   r"\b(?:aircraft|aeronautic|aerospace|aviation)\b)")
+
 NOISE_PATTERNS = [
     # ---- observed in the A369 compiler sweep, by reading the venue histogram
     # **A353 SPLIT THIS ENTRY, FOR THE SAME REASON A352 SPLIT THE ROTOR-REPAIR ENTRY.**
@@ -232,12 +248,34 @@ NOISE_PATTERNS = [
      "CFD' reached the kept set through the CARTESIAN MESH query rather than through the "
      "aeroplane's name, which is why a name-based filter would have missed it"),
     (r"drug delivery|ferrofluid|\bblood flow\b|arter(?:y|ial|ies)|cardiac|\bstent(?:s|ing)?\b|"
-     r"aneurysm|respiratory tract|biomedical|physiolog",
+     r"aneurysm|respiratory tract|biomedical",
      "A348: BIOMEDICAL COMPUTATIONAL FLUID DYNAMICS. 'Hydrodynamic modelling and CFD "
      "simulation of ferrofluids flow in magnetic targeting drug delivery' reached the "
      "kept set of a scramjet survey through the bare CFD anchor. Every article in this "
-     "series that names computational fluid dynamics is exposed to this family",
+     "series that names computational fluid dynamics is exposed to this family. "
+     "**A359 SPLIT `physiolog` OUT OF THIS ENTRY**, on the A352 precedent, because one "
+     "alternative of the ten named that article's subject and the other nine did not",
      "medicine"),
+    # **A359 SPLIT THIS OUT OF THE BIOMEDICAL ENTRY ABOVE, WHICH IS THE A352 PRECEDENT
+    # EXACTLY.** That entry alternated ten terms and exactly one of them, the stem
+    # `physiolog`, is the vocabulary of the discipline that measures a pilot. The entry
+    # untagged removed 'Physiological assessment of pilot workload in simulated and actual
+    # flight environments', 'Pilot Workload Analysis Based upon In-Flight Physiological
+    # Measurements', 'A Physiologically Based Model of Neuromuscular System Dynamics' from
+    # IEEE Transactions on Man-Machine Systems, and 'Effect of simulator frame rate on
+    # pilot training for high-speed fighter aircraft', **the last of them on its VENUE
+    # alone**, which is Frontiers in Physiology. **Opening `medicine` wholesale would have
+    # readmitted thirty-eight records on artificial intelligence in clinical trials**, so
+    # the alternative was separated rather than the family widened. The medical half that
+    # this releases carries no aeronautical anchor and is refused by the gate downstream,
+    # which is where the division of labour between store and gate is supposed to fall.
+    (r"physiolog",
+     "A359: AEROSPACE PHYSIOLOGY AND PILOT WORKLOAD. Split out of the biomedical "
+     "computational-fluid-dynamics entry above, because an article whose subject is a "
+     "human being deceived about which aeroplane he or she is flying needs the "
+     "literature that measures that human. Forty records in the A359 pool carry the "
+     "stem and roughly half name a pilot, a cockpit, a simulator or flight",
+     "physiology"),
     (r"\bUAS\b.{0,40}(?:safety|efficiency|traffic|airspace|integration|operation)|"
      r"small unmanned aircraft|\bsUAS\b|drone (?:delivery|inspection|photograph)",
      "A348: SMALL UNMANNED AIRCRAFT OPERATIONS against unmanned research vehicles. 'UAS "
@@ -329,14 +367,20 @@ NOISE_PATTERNS = [
      "Blade Pocket for the CH-54B' and a hot corrosion study reached the kept set. The "
      "words name a rotor blade and the subject is adhesives and corrosion, which is a "
      "manufacturing literature rather than an aerodynamic one"),
-    (r"\bcompressors?\b|inlet guide vanes?|\bIGV\b|turbomachin|blade rows?|"
+    (_OMNIBUS_VOLUME +
+     r"^.*?(?:\bcompressors?\b|inlet guide vanes?|\bIGV\b|turbomachin|blade rows?|"
      r"(?:axial|centrifugal|multistage|transonic) (?:compressor|turbine stage)|"
-     r"stator.{0,25}rotor|rotor.{0,25}stator|splitter vane|aerodynamic detuning",
+     r"stator.{0,25}rotor|rotor.{0,25}stator|splitter vane|aerodynamic detuning)",
      "A347: TURBOMACHINERY AERODYNAMICS, WHICH IS NOT THE ROTORDYNAMICS FAMILY THE STORE "
      "ALREADY CARRIED. 96 records reached the A347 kept set, led by 'Aerodynamic Modeling "
      "of Multistage Compressor Flowfields' and 'Supersonic turbomachine rotor flutter "
      "control by aerodynamic detuning'. A compressor rotor and a helicopter rotor share "
-     "almost every word except the one that distinguishes them, which is the STATOR"),
+     "almost every word except the one that distinguishes them, which is the STATOR. "
+     "**A359 ADDED THE OMNIBUS-VOLUME GUARD**, because the ASME Turbo Expo prints its "
+     "proceedings as 'Volume 2: Aircraft Engine; Marine; Microturbines and Small "
+     "Turbomachinery', and that container name alone removed 'Integrated Flight and "
+     "Propulsion Operating Modes for Advanced Fighter Engines' from an article about "
+     "flight control"),
     (r"volatile organic|green leaf volatile|\baerosol|\bozone\b|trace gas|"
      r"atmospheric chemistr|air quality|emissions? inventor|biogenic|particulate matter|"
      r"greenhouse gas|pollutant dispers|\bmethane\b",
