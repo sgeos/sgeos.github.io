@@ -9,12 +9,33 @@ Current task state and verification log. This file is the shared source of truth
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
-**Status**: **A297 through A358 are drafted. A297 through A357 have ALL FOUR PASSES COMPLETE
-and are PUSHED. A358, X-Planes: Dynetics X-61 Gremlins, has completed the DRAFT PASS, the
-EQUATION-DENSITY REVIEW and the PRIMARY-REFERENCE REVIEW**, committed and **NOT PUSHED**, which
-is what every pass before the publication review asks for. **Sixty-two of seventy-two drafted.
-None published, and publication has never been authorised. Ten articles remain.** The
-publication review is the last prompt on A358.
+**Status**: **A297 through A358 are drafted. A297 through A358 have ALL FOUR PASSES COMPLETE
+and are PUSHED.** **Sixty-two of seventy-two drafted. None published, and publication has never
+been authorised. Ten articles remain.** The next new article is **A359, the X-62**, editorial
+date 2025-12-07, series index 63.
+
+**THE PUBLICATION REVIEW FOUND SEVEN SENTENCES OF DRAFTING HISTORY**, every one of the form
+`the draft of this section said X and was wrong`. A322 shipped five and A323 six, and this
+article had seven because three passes each withdrew a claim and named it. **Naming a withdrawn
+claim is epistemic content and naming the draft that made it is revision history**, and all
+seven were rewritten to keep the first.
+
+**THREE RANKINGS HAD NOTHING BEHIND THEM.** The article said the nine-attempts sentence was the
+only public statement of the capture tolerance, which is a claim about a record it searched
+part of. It said span is the only way to buy efficiency at the transport's speed, where the
+relation it had displayed has two levers. And it asserted a historical first that belongs to
+two interested parties. **All three are corrected or attributed.**
+
+**THE CLOSING SECTIONS HAD OUTRUN THREE PASSES.** The Epistemic State still listed the
+sharp-edged gust as the crudest available model giving an acceleration rather than a spectrum,
+two passes after the von Karman spectrum was added and showed 89.4 percent of the energy inside
+the loop's band. **A withdrawn assumption still asserted in the epistemic state is A333's defect
+exactly.**
+
+**AND A STATISTIC WENT STALE WITHIN ONE PASS.** The Source Base typed the keystone's publisher
+composition as literals and a later gate change moved the cluster by four records. Worse, the
+body and the source base computed the same quantity on different denominators. **Both are now
+derived from the cited set and the verifier holds each at two occurrences.**
 
 **THE PROGRAMME'S PAPER TRAIL IS NINE MONTHS OLDER THAN THE PROGRAMME.** The draft credited
 the phrase `aircraft carriers in the sky` to the Phase 2 release of 2017. **It is from a

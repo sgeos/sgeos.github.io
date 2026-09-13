@@ -48,9 +48,9 @@ The programme was announced in 2015 by the Defense Advanced Research Projects Ag
 
 ### The Earliest Document Is Nine Months Older Than the Programme
 
-**The phrase this article has been quoting from the Phase 2 release is nine months older than the programme, and it comes from a Request for Information.** On 9 November 2014 the agency asked for ideas on transforming planes into **aircraft carriers in the sky**, and the words are a quotation from the same programme manager who would announce the programme \[[DARPA Request for Information][ref_darpa_rfi_2014]\].
+**The phrase most often quoted about this programme is nine months older than the programme, and it comes from a Request for Information.** On 9 November 2014 the agency asked for ideas on transforming planes into **aircraft carriers in the sky**, and the words are a quotation from the same programme manager who would announce the programme \[[DARPA Request for Information][ref_darpa_rfi_2014]\]. **The agency repeated them in its Phase 2 release of March 2017, which is where they are usually found.**
 
-**That document is worth reading closely because it fixes three things before any contractor existed.** It names the carrier by type, asking about launch and recovery from one or more types of existing large manned aircraft **such as C-130 transport planes**. It caps the payload at **100 pounds or less**, which is 1.45 times smaller than the 145 pounds the vehicle that was eventually built could carry. And it asks respondents for **plans for achieving full-system flight demonstrations within four years**.
+**That document is worth reading closely because it fixes three things before any contractor existed.** It names the carrier by type, asking about launch and recovery from one or more types of existing large manned aircraft **such as C-130 transport planes**. It caps the payload at **100 pounds or less**, which the vehicle eventually built exceeded by **1.45 times**, carrying 145 pounds. And it asks respondents for **plans for achieving full-system flight demonstrations within four years**.
 
 **A stated duration is rare in a programme record and this one can be measured against the outcome.** Four years from the Request for Information falls on 9 November 2018. The first free flight came 5.04 years after the request, which is **1.26 times the plan**, and the airborne recovery that was the full-system demonstration came 6.97 years after it, which is **1.74 times**.
 
@@ -58,11 +58,11 @@ The programme was announced in 2015 by the Defense Advanced Research Projects Ag
 
 ### Four Teams, Then Two, Then One
 
-Phase 1 contracts went to four teams on 31 March 2016, led by Composite Engineering, Dynetics, General Atomics Aeronautical Systems and Lockheed Martin \[[DARPA][ref_darpa_phase1]\]. Phase 2 contracts went to two of them on 15 March 2017, being Dynetics and General Atomics, and the agency repeated the aircraft-carriers-in-the-sky phrase in that release \[[DARPA][ref_darpa_phase2]\], which is where the draft of this article first found it and wrongly took it to originate. Dynetics, a Huntsville firm that became a subsidiary of Leidos during the programme \[[Dynetics][ref_dynetics]\], won Phase 3 in April 2018 and received a contract for five X-61A air vehicles, with the airframes subcontracted to Kratos \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x61]\].
+Phase 1 contracts went to four teams on 31 March 2016, led by Composite Engineering, Dynetics, General Atomics Aeronautical Systems and Lockheed Martin \[[DARPA][ref_darpa_phase1]\]. Phase 2 contracts went to two of them on 15 March 2017, being Dynetics and General Atomics, and the agency repeated the aircraft-carriers-in-the-sky phrase in that release \[[DARPA][ref_darpa_phase2]\]. **That repetition is where the phrase is usually found and it is not where it originates**, as the section above establishes. Dynetics, a Huntsville firm that became a subsidiary of Leidos during the programme \[[Dynetics][ref_dynetics]\], won Phase 3 in April 2018 and received a contract for five X-61A air vehicles, with the airframes subcontracted to Kratos \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x61]\].
 
-**Three programme managers ran it across its life**, being the one who wrote the Request for Information and announced the programme, the one who awarded Phase 2, and the one who announced the recovery \[[DARPA Request for Information][ref_darpa_rfi_2014]\] \[[DARPA][ref_darpa_phase2]\] \[[DARPA][ref_darpa_recovery]\].
+**That is a four to two to one funnel across two years, and it is the ordinary shape of an agency programme.** What is worth noticing is the date. The Phase 3 award was April 2018 and the designation was allocated 6 June 2019, which is fourteen months later. **The number followed the contract by more than a year**, which is the same ordering the [X-55][related_post_a352_lockheed_martin_x55] and the [X-53][related_post_a350_boeing_x53] showed and the opposite of the one the series opened with.
 
-**That is a four to two to one funnel across two years, and it is the ordinary shape of an agency programme.** What is worth noticing is the date. The Phase 3 award was April 2018 and the designation was allocated 6 June 2019, which is fourteen months later. **The number followed the contract by more than a year**, which is the same ordering the [X-55][related_post_a352_lockheed_martin_x55] and the [X-53][related_post_a350_boeing_x53] showed and the opposite of the ordering the series opened with.
+**Three programme managers ran the programme across its life**, being the one who wrote the Request for Information and announced the programme, the one who awarded Phase 2, and the one who announced the recovery \[[DARPA Request for Information][ref_darpa_rfi_2014]\] \[[DARPA][ref_darpa_phase2]\] \[[DARPA][ref_darpa_recovery]\]. **A seven-year programme changing hands twice is unremarkable**, and it is recorded because the three releases read as one voice and are not.
 
 ### The Contractor Says August and the Register Says June
 
@@ -70,7 +70,7 @@ Kratos, announcing the first flight, wrote that the team **received a U.S. Air F
 
 The likeliest reading is that the register records the date the allocation was made and the contractor records the date it learned, and there is a documented gap of that kind in the system. **But that is a reading and not a finding**, and the record carries both dates without reconciling them.
 
-**The designation also came 415 days after the Phase 3 contract**, which is the same ordering as the money and the publicity throughout this programme and the opposite of the ordering the series opened with.
+**The designation also came 415 days after the Phase 3 contract.** In this programme the money moves first, the publicity follows, and the number comes last.
 
 ### What It Cost, and the Three Agencies That Paid
 
@@ -84,11 +84,11 @@ The likeliest reading is that the register records the date the allocation was m
 
 **Each of the three totals is the sum of its own transactions to the cent**, which is a reassembly check rather than a restatement, because the registry states the total separately from the modifications that make it up \[[DARPA Phase III contract][ref_usa_hr001118c0071]\] \[[Air Force contract][ref_usa_fa865016c7618]\] \[[Interior contract][ref_usa_ind17pc00148]\].
 
-**The Department of the Interior is not a typographical error.** That contract is an interagency acquisition, and its description is the one place in the whole record that names the solicitation, being **DARPA-BAA-15-59**. It is also the only one of the three that carries a negative line, a deobligation of 6,832.54 dollars in March 2020.
+**The Department of the Interior is not a typographical error.** That contract is an interagency acquisition, and its description is the one place in the whole record that names the solicitation, being the Broad Agency Announcement numbered **DARPA-BAA-15-59**. It is also the only one of the three that carries a negative line, a deobligation of 6,832.54 dollars in March 2020.
 
 **The money and the publicity agree more closely than they usually do.** The Phase 1 obligation moved 7 days before the public announcement of Phase 1, and **the Phase 2 obligation moved on the same day as the Phase 2 release**, which is 15 March 2017 in both records.
 
-**And the pandemic is priced.** Two modifications on 9 March 2021 obligate 5,852,178.74 dollars and state in their own description that the cost growth is due to COVID-19, which is **11.18 percent of the Phase 3 contract**. The contractor's August 2020 release had said the second flight test was delayed by the pandemic \[[Dynetics][ref_prn_second_flight]\]. **The contract says what that delay cost.**
+**And the pandemic is priced.** Two modifications on 9 March 2021 obligate 5,852,178.74 dollars and state in their own description that the cost growth is due to COVID-19, the coronavirus pandemic, which is **11.18 percent of the Phase 3 contract**. The contractor's August 2020 release had said the second flight test was delayed by the pandemic \[[Dynetics][ref_prn_second_flight]\]. **The contract says what that delay cost.**
 
 ## What the Vehicle Has To Be, Which Is Not a Cruise Missile
 
@@ -118,7 +118,7 @@ $$
 | AGM-86B | 3,909 newtons per metre | 4.14 |
 | BGM-109 | 4,837 newtons per metre | 6.33 |
 
-**At the same dynamic pressure the cruise missile that shares this vehicle's engine pays 4.14 times the induced drag, and the other one pays 6.33 times.** That is the whole aerodynamic case for the difference between the two kinds of vehicle, and it contains no assumption. A one-way missile flies once, fast, at a condition it chooses. **A vehicle that has to come back and fly formation with a transport aeroplane has to be efficient at a speed the transport chooses, and the only way to buy that is span.**
+**At the same dynamic pressure the cruise missile that shares this vehicle's engine pays 4.14 times the induced drag, and the other one pays 6.33 times.** That is the whole aerodynamic case for the difference between the two kinds of vehicle, and it contains no assumption. A one-way missile flies once, fast, at a condition it chooses. **A vehicle that has to come back and fly formation with a transport aeroplane has to be efficient at a speed the transport chooses, and the relation above offers two levers for that, being less weight or more span.** The X-61A has both, at less than half the weight and a comparable span, and **span is the lever that does not cost payload**.
 
 ### What the Wing Must at Least Be
 
@@ -188,7 +188,7 @@ Forecast International's survey of the F107 family, published in October 2014 an
 
 Every public description of the X-61A gives its engine as 700 pounds of thrust \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x61]\] \[[Dynetics X-61 Gremlins][ref_x61_wikipedia]\]. **The official record names a dash number whose only published rating is twice that.**
 
-The consequence is computable, and computing it needs three relations the draft of this section used and did not display. An engine delivers less thrust where the air is thinner and a little more where the free stream helps it, drag rises steeply once the flow over the wing goes locally sonic, and the maximum speed is simply where the two curves cross.
+The consequence is computable and it needs three relations. An engine delivers less thrust where the air is thinner and a little more where the free stream helps it, drag rises steeply once the flow over the wing goes locally sonic, and the maximum speed is where the two curves cross.
 
 $$
 T(h, M) = T_0 \left( \frac{\rho}{\rho_0} \right)^{0.9} \left( 1 + \tfrac{1}{2} \left( \gamma - 1 \right) M^2 \right)^{1/2}
@@ -403,7 +403,7 @@ $$
 
 For the 150 metre steel rope at the tension computed above, the wave speed is 52.9 metres per second and the first three transverse modes lie at 0.176, 0.352 and 0.529 hertz. **The fundamental has a period of 5.67 seconds.**
 
-**The draft of this section stopped there and called the docking device the end of a resonator. Writing down the damping withdraws that.**
+**It is tempting to stop there and call the docking device the end of a resonator. Writing down the damping refuses that, and the refusal is the finding.**
 
 A cable is not only a string. It is a string being dragged sideways through air at two hundred knots, and a transverse velocity changes the normal component of the relative wind and therefore the normal drag. Linearising that about the equilibrium inclination gives a damping force per unit length per unit transverse velocity, and the string equation acquires a first-order term.
 
@@ -441,7 +441,7 @@ At this speed and density the coefficient is **0.287 kilograms per metre per sec
 
 ### How Long an Uncontrolled Vehicle Stays in the Window
 
-The third test series made **nine aerial docking attempts, each coming within inches of capture, and captured nothing** \[[Military Embedded Systems][ref_third_test]\]. **That sentence gives the tolerance**, and it is the only public statement that does. The capture window is of the order of inches rather than feet, so the sections below carry it at six inches and at twelve.
+The third test series made **nine aerial docking attempts, each coming within inches of capture, and captured nothing** \[[Military Embedded Systems][ref_third_test]\]. **That sentence gives the tolerance**, and it is the only statement of it this article has found. **That is a statement about this article's search rather than about the record**, and a figure may exist somewhere it did not look. The capture window is of the order of inches rather than feet, so the sections below carry it at six inches and at twelve.
 
 The disturbance is the atmosphere. A vertical gust changes the angle of attack and therefore the lift, and the resulting load factor is inversely proportional to the wing loading \[[Etkin and Reid, Dynamics of flight][book_etkin_reid]\] \[[Nelson, Flight stability and automatic control][book_nelson]\].
 
@@ -472,7 +472,7 @@ $$
 
 ### The Gust Is Not a Step, and the Spectrum Says How Much That Matters
 
-**The sharp-edged gust used above is the crudest model available and the draft said so and left it there. An apology is not a measurement.** Real turbulence is a continuum with more energy at long wavelengths than short ones, and the standard description of it gives the energy as a function of frequency.
+**The sharp-edged gust used above is the crudest model available, and naming it as crude is not the same as knowing what it costs. An apology is not a measurement.** Real turbulence is a continuum with more energy at long wavelengths than short ones, and the standard description of it gives the energy as a function of frequency.
 
 $$
 \Phi_w(\omega) = \frac{\sigma_w^2 \lambda_w}{\pi V} \frac{1 + \tfrac{8}{3} \left( 1.339 \lambda_w \omega / V \right)^2}{\left[ 1 + \left( 1.339 \lambda_w \omega / V \right)^2 \right]^{11/6}}
@@ -494,7 +494,7 @@ $$
 \frac{t_d}{\tau} = \frac{1}{\tau} \sqrt{\frac{2 \delta}{\alpha}}
 $$
 
-Taking a fast simple reaction time of a quarter of a second and a short line-of-sight datalink round trip of a tenth, which are both at the optimistic end, the budget is 0.35 seconds against a drift time of 0.99 seconds. **That is a margin of 2.82, and it is not the decisive argument this article first expected it to be.**
+Taking a fast simple reaction time of a quarter of a second and a short line-of-sight datalink round trip of a tenth, which are both at the optimistic end, the budget is 0.35 seconds against a drift time of 0.99 seconds. **That is a margin of 2.82, which is uncomfortable rather than decisive.**
 
 **Comparing a delay to a drift time is the wrong comparison anyway, and the right one is tighter.** A latency is not a reaction that either happens in time or does not. It is a phase lag that grows in proportion to frequency, and a loop that must keep any phase margin at all therefore cannot cross over above a frequency the latency fixes.
 
@@ -526,7 +526,7 @@ For the six inch window that is 0.228 hertz, and for the twelve inch window 0.16
 
 **The required loop bandwidth is 1.3 times the fundamental of the cable it has to dock with, and 0.65 times the first overtone. The crossover sits between two modes of its own target.**
 
-**That proximity has a computable consequence, and working it out withdrew the claim this paragraph was first written to make.** The first version said that a loop whose crossover sits near a mode of its target drives that mode. **Computing it showed that whether it does depends entirely on an architectural choice the public record does not report.**
+**That proximity has a computable consequence, and it is not the obvious one.** The natural thing to say is that a loop whose crossover sits near a mode of its target drives that mode. **Computing it shows that whether it does depends entirely on an architectural choice the public record does not report**, so this article does not say it.
 
 **A feedback loop has exactly two transfer functions of interest and they sum to one.** The sensitivity carries a disturbance through to the tracking error and the complementary sensitivity carries a command through to the output, and no design can make both small at the same frequency because their sum is fixed.
 
@@ -546,7 +546,7 @@ $$
 \mathcal{S}_{\mathrm{f}} = \frac{\left( \mathrm{j} \omega \right)^2}{\left( \mathrm{j} \omega \right)^2 + 2 \zeta \omega_n \mathrm{j} \omega + \omega_n^2} , \qquad \mathcal{S}_{\mathrm{m}} = \frac{\mathrm{j} \omega \left( \mathrm{j} \omega + 2 \zeta \omega_n \right)}{\left( \mathrm{j} \omega \right)^2 + 2 \zeta \omega_n \mathrm{j} \omega + \omega_n^2}
 $$
 
-**The draft of this section called that difference a convention. It is not. It is a difference of relative degree, and the integral above is where it shows.** The minor-loop form has an open loop that falls off by two orders, so its integral is zero and the amplification is compulsory. The forward-path form falls off by only one, so the integral is finite and negative and the loop is free to sit below unity everywhere.
+**That difference looks like a convention and is not. It is a difference of relative degree, and the integral above is where it shows.** The minor-loop form has an open loop that falls off by two orders, so its integral is zero and the amplification is compulsory. The forward-path form falls off by only one, so the integral is finite and negative and the loop is free to sit below unity everywhere.
 
 | Upper limit of the integral | Minor loop | Forward path |
 |---|---|---|
@@ -813,7 +813,7 @@ The nineteen forties and fifties produced several attempts at carrying and recov
 
 ## What the Data Changed
 
-**The programme moved exactly one thing from unknown to known, and it is a large thing.** Before October 2021 no uncrewed aircraft had flown itself into a towed docking device and been taken aboard the aircraft that launched it. After it, one had. **The feasibility question is closed and the reliability question is untouched.**
+**The programme moved exactly one thing from unknown to known, and it is a large thing.** The agency describes the October 2021 event as the first airborne recovery of an unmanned air vehicle by the aircraft that launched it, and the contractor calls it historic \[[DARPA][ref_darpa_recovery]\] \[[Leidos][ref_leidos_captured]\]. **Both are interested parties and the claim is theirs rather than this article's**, but nothing in a survey of seven thousand records contradicts it, and the third test series calling its own nine attempts the programme's first ever is consistent with it. **The feasibility question is closed and the reliability question is untouched.**
 
 Three quantitative things follow from the record.
 
@@ -822,6 +822,10 @@ Three quantitative things follow from the record.
 **The refurbishment claim has one data point.** One vehicle was turned round and flown again within either twenty-four hours or twenty-four working hours, depending on which participant is describing it. **One instance of a twenty-fold reuse claim is not a demonstration of it and the article says so.**
 
 **And the fleet attrition is measured even though it is not a measure of the design.** Two of five airframes were lost in nine sorties, one to a parachute that is not part of the operational system and one to a power fault whose cause was found and fixed. **That is 22.2 percent per sortie on a first-of-type development article, and quoting it as a property of the vehicle would be a mistake.** It is quoted here because the twenty-use requirement is a reliability claim and this is the only reliability data the programme produced.
+
+**And the two halves of that sentence meet.** A design life saturates against attrition, so a twenty-use requirement is only specifiable if the loss rate is well below five percent per sortie. **At the rate the development programme actually showed, a twenty-use airframe delivers 4.47 sorties**, which is 22.4 percent of what the requirement asks for. **Nobody claims that rate is what a mature system would show**, and this article does not either. What the record establishes is that the requirement and the only measured rate are on opposite sides of the point where the requirement stops meaning anything.
+
+**A fourth thing follows from the contract rather than from the flying.** The money stopped 47 days after the recovery and the period of performance ran on for another 1,463 days without it. **A programme that stops paying and stays open has decided something**, even if no document records the decision, and the previous article in this series found a programme that did the reverse.
 
 ## Where the Framing Breaks Down
 
@@ -840,6 +844,8 @@ Each panel is 1.45 metres, which is 0.345 of the body it must lie along, and the
 **And the C-130 is treated as free, which it is not.** A recovery sortie costs a transport aircraft, its crew and its fuel, and that cost is divided by however many vehicles come home on it. **The programme demonstrated one.** At one vehicle per sortie the recovery aircraft's share is the dominant term in the cost identity and this article cannot evaluate it, because no participant has published what a recovery sortie costs.
 
 **One further thing is absent rather than wrong.** The article has said nothing about what the vehicles were for. The payloads named in the public descriptions are electro-optical sensors, infrared imagers, electronic warfare systems and weapons, and the operational concept is a volley launched from outside the defended area. **That is the reason the programme was funded and it is almost entirely absent from the arithmetic above**, because none of it bears on whether the catch can be made.
+
+**And two of this article's own instruments have limits worth naming.** The loop analysis reaches a result that depends on an architectural choice the record does not report, so the article computes both branches and claims neither, which is weaker than it would like to be. **And the survey behind the keystone is a conference literature rather than an agency-report one**, at 24.1 percent from one aeronautical society and 18.1 percent from one engineering institute against 11.2 percent from the two agency report servers combined. **A reader who expected the report literature to carry this subject would be disappointed, and the reason is where the work was published rather than how hard it was looked for.**
 
 ## The Contemporary Literature
 
@@ -957,7 +963,7 @@ The shared rejection store carries 140 curated patterns across 30 tagged familie
 
 **The count and the fraction both moved and both are given, because reporting either alone misleads in a known direction.** Report primaries rose from 814 to 1155 and their share from 12.0 percent to 16.2 percent. **Every cluster's primary fraction rose**, the largest movements being the general aerodynamics cluster from 12.0 to 20.6 percent, flight test from 20.3 to 31.6 and getting it off the aeroplane from 12.5 to 19.0.
 
-**The keystone is the exception and it did not move**, going from 11.1 percent to 11.2. That is not a failure of the sweep, and the publisher composition says why. **The keystone cluster is 24.2 percent papers from the American Institute of Aeronautics and Astronautics and 17.5 percent from the Institute of Electrical and Electronics Engineers, against 11.6 percent from the two agency report servers combined.** The whole pool is 16.7 percent agency reports, so the keystone is less report-heavy than the article around it.
+**The keystone is the exception and it did not move**, going from 11.1 percent to 11.2. That is not a failure of the sweep, and the publisher composition says why. **The keystone cluster is 24.1 percent papers from the American Institute of Aeronautics and Astronautics and 18.1 percent from the Institute of Electrical and Electronics Engineers, against 11.2 percent from the two agency report servers combined.** The whole pool is 16.2 percent agency reports, so the keystone is less report-heavy than the article around it.
 
 **The reason is that this subject was published at conferences rather than in agency report series.** The historical half sits in the Aerodynamic Decelerator Systems Technology Conference proceedings, which ran from the nineteen sixties, and the modern half sits in control conferences from 2009 onward. **Only three records in the whole pool carry mid-air or aerial recovery in the title and are also agency reports.** A thin primary fraction here is a fact about where the work was published and not about how hard it was looked for.
 
@@ -978,7 +984,7 @@ The shared rejection store carries 140 curated patterns across 30 tagged familie
 | the maximum wake gradient behind a transport is fixed by its span alone | 0 | 669 |
 | a wake encounter is a hazard whose severity depends on position in the wake | 0 | 124 |
 | a towed cable settles to an inclination set by its own weight and its own drag | 0 | 142 |
-| the towed docking device rings at frequencies near the docking loop's bandwidth | 5 | 266 |
+| the towed docking device responds at frequencies near the docking loop's bandwidth | 0 | 266 |
 | an uncontrolled vehicle leaves an inches-wide capture window in about one second | 0 | 813 |
 | the docking loop must be closed on board rather than by a remote operator | 11 | 343 |
 | a speed-matched capture carries far less energy than a canopy snatch | 0 | 49 |
@@ -1147,7 +1153,15 @@ Every symbol used in a display equation is declared in the table below with one 
 
 **The relative kinetic energy at a 1960 Corona canopy snatch was about 165.1 kilojoules against a few hundred joules for a vehicle that has matched speed**, a factor of 486.
 
-**A flyaway cap of 700,000 dollars and a 20 use life are one requirement**, and its value is 35,000 dollars of airframe per sortie.
+**A flyaway cap of 700,000 dollars and a 20-use life are one requirement**, and its value is 35,000 dollars of airframe per sortie.
+
+**The towed cable is too heavily damped to ring**, at a modal damping ratio of 0.324 on its fundamental, which decays by a factor of e in 0.49 of a cycle. **A loop cannot reject a disturbance at every frequency and that is an identity rather than a rule of thumb**, and the two standard forms of a second-order position loop differ in relative degree, so one must amplify somewhere and the other need not. The one that need not pays **140 times** more high-frequency noise for it.
+
+**A design life saturates against attrition.** An airframe that can be lost with probability epsilon on any sortie delivers a geometric sum rather than its design life, and that sum cannot pass one over epsilon. **At five percent per sortie the ceiling is exactly twenty**, which is the required life, so the requirement is only specifiable below that rate.
+
+**The polar allows a lift to drag ratio of at most 13.27** at the bounded aspect ratio, and the best-range Mach number at 35,000 feet is 0.59 against a published maximum of 0.6.
+
+**The three contracts sum to 82,680,983.37 dollars across 38 modifications**, each total equalling the sum of its own transactions to the cent. **The pandemic is priced at 5,852,178.74 dollars by modifications that name it**, which is 11.18 percent of the Phase 3 contract.
 
 ### What Is Assumed
 
@@ -1159,7 +1173,7 @@ Every symbol used in a display equation is declared in the table below with one 
 
 **The capture window is inferred from the phrase within inches** and is carried at six and at twelve inches.
 
-**The turbulence is represented by a sharp-edged gust**, which is the crudest available model and gives an acceleration rather than a spectrum.
+**The turbulence is represented both ways.** A sharp-edged gust gives the acceleration the drift time is computed from, and the von Karman spectrum gives the share of the disturbance energy that falls inside the loop's band, which is 89.4 percent. **The two agree**, in the sense that almost all of the energy is where the crude model implicitly put it, and the scale length and intensity of the spectrum are assumed.
 
 ### What the Record Does Not Settle
 
@@ -1170,6 +1184,10 @@ Every symbol used in a display equation is declared in the table below with one 
 **The turnaround.** The agency writes twenty-four working hours and the contractor writes approximately twenty-four hours, about the same event.
 
 **The number of docking attempts in the fourth series**, which is why the success rate above is a bound rather than a figure.
+
+**Which control architecture the vehicle used.** A second-order position loop can put its damping term in the forward path or in a minor loop, and the two give opposite answers about whether the loop amplifies the docking device's motion. **The article computes both and claims neither.**
+
+**What a recovery sortie costs**, which is the term that dominates the cost identity once only one vehicle comes home per sortie.
 
 **Why the programme stopped.** The agency's page says the programme is complete and its 2021 release says the team would determine next steps. **No cancellation, transition or follow-on decision has been found and none is claimed.**
 
@@ -1187,7 +1205,7 @@ Every symbol used in a display equation is declared in the table below with one 
 
 ## Conclusion
 
-**The register stops being a primary source at this designation and the article had to change method because of it.** For the [X-60A][related_post_a357_generation_orbit_x60] the government's own sentence about the vehicle could be read closely enough to carry a whole argument. For the X-61A there is no such sentence. The official record is a date, a designation, a contractor, an engine and a sponsor, and everything else in the register's row is a compiler's reconstruction, marked as one. **That is the first time in sixty-two articles that the register has declined to say what an X-plane was for.**
+**The register stops being a primary source at this designation and the article had to change method because of it.** For the [X-60A][related_post_a357_generation_orbit_x60] the government's own sentence about the vehicle could be read closely enough to carry a whole argument. For the X-61A there is no such sentence. The official record is a date, a designation, a contractor, an engine and a sponsor, and everything else in the register's row is a compiler's reconstruction, marked as one. **Of the 31 X rows the register carries, the X-60A is the last whose description is official wording and the X-61A is the first whose description is not.** The register only covers allocations made after August 1998, so most of this series has no row to read at all. **What is new here is a row that exists and declines to say what the aeroplane was for.**
 
 **What it did say, in the one cell that is official, is an engine that disagrees with every public account by a factor of two.** The F107-WR-105 is documented at 1,400 pounds of thrust and the vehicle is universally described with 700. Neither figure changes the conclusions here, because at Mach 0.6 both are several times the drag, and **the published maximum speed is therefore a choice rather than a ceiling on either reading**.
 
@@ -1199,7 +1217,11 @@ Every symbol used in a display equation is declared in the table below with one 
 
 **The programme answered the feasibility question and could not begin on the reliability one.** Four vehicles recovered in under thirty minutes was the objective and one vehicle recovered was the result, in a mission that was not attempting the rate. A twenty-use life was the requirement and the whole fleet flew 45 percent of the sorties that one life test needs. **The economics survive that easily, because even five uses brings the airframe cost per sortie to 140,000 dollars, which means twenty was never the break-even.** **And what twenty buys turns out to saturate.** An airframe that can be lost on any sortie delivers the sum of a geometric series rather than its design life, and that sum cannot pass the reciprocal of the loss rate however long the life is. At five percent per sortie the ceiling is exactly twenty, so the requirement is only specifiable if the loss rate is well below it. **The reliability question and the economics question are the same relation asked twice**, which neither half of this article could see alone.
 
-**And the record's last word is a contradiction the series has met before.** The agency's page says the programme is complete. Its own release says the team would analyse the data and determine next steps. **No decision is recorded either way**, which is the [X-60A's][related_post_a357_generation_orbit_x60] ending arriving at a vehicle that flew.
+**And the record's last word is not in the publicity at all.** The agency's page says the programme is complete. Its own release of November 2021 says the team would analyse the data and determine next steps. **No decision is recorded either way in anything the programme published.**
+
+**The contract says more than the publicity does.** The last positive obligation is 47 days after the recovery, and the period of performance then ran on for 1,463 days carrying nothing but zero-dollar modifications. **A programme that stops paying and stays open has decided something.** The [X-60A][related_post_a357_generation_orbit_x60] did the reverse, obligating 30.1 percent of its money after it stopped being visible, and ending by paying to ship equipment.
+
+**Two articles, two programmes, and the same lesson from opposite directions.** The publicity is not the record. **Here it is the money that stops speaking first**, and there it was the money that went on speaking after everything else had stopped.
 
 ## References
 

@@ -21,10 +21,19 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 
 `x_planes_dynetics_x61_gremlins.markdown`, A358, editorial date 2025-12-06, series `x_planes` index 62 of 72.
 
-**15,714 lines, 57 display equations, 116 declared symbols, 7,248 reference definitions,
-94,702 words after the primary-reference review.** **DRAFT PASS, EQUATION-DENSITY REVIEW AND
-PRIMARY-REFERENCE REVIEW COMPLETE.** Committed and **NOT PUSHED**, which is what every pass
-before the publication review asks for.
+**15,736 lines, 57 display equations, 116 declared symbols, 7,248 reference definitions,
+95,600 words after the publication review.** **ALL FOUR PASSES COMPLETE.** Committed and
+**PUSHED**. **Not published**, and publication of the series has never been authorised.
+
+**THE PUBLICATION REVIEW FOUND SEVEN SENTENCES OF DRAFTING HISTORY**, every one of the form
+`the draft of this section said X and was wrong`, which arose because three passes each
+withdrew a claim and named it. Naming a withdrawn claim is epistemic content and naming the
+draft that made it is revision history, and all seven were rewritten to keep the first. **Three
+rankings had nothing behind them** and are corrected or attributed. **The closing sections had
+outrun three passes**, the Epistemic State still calling the sharp-edged gust the crudest
+available model two passes after the spectrum vindicated it. **And a statistic went stale within
+one pass**, the keystone's publisher composition having been typed as literals and then computed
+on two different denominators in two places.
 
 **THE PRIMARY PASS FOUND A PAPER TRAIL NINE MONTHS OLDER THAN THE PROGRAMME** and corrected an
 attribution because of it, the phrase `aircraft carriers in the sky` belonging to a Request for
