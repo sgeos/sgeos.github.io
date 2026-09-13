@@ -9,187 +9,74 @@ Current task state and verification log. This file is the shared source of truth
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
-**Status**: **A297 through A357 are drafted. A297 through A356 have ALL FOUR PASSES
-COMPLETE and are PUSHED. A357, X-Planes: Generation Orbit X-60, has completed the DRAFT PASS
-the EQUATION-DENSITY REVIEW, the PRIMARY-REFERENCE REVIEW and the PUBLICATION REVIEW,
-ALL FOUR PASSES COMPLETE**, committed and **PUSHED**. **Sixty-one of seventy-two drafted. None published, and
-publication has never been authorised. Eleven articles remain.** The next new article is
-**A358, the X-61**, editorial date 2025-12-06, series index 62.
+**Status**: **A297 through A358 are drafted. A297 through A357 have ALL FOUR PASSES COMPLETE
+and are PUSHED. A358, X-Planes: Dynetics X-61 Gremlins, has completed the DRAFT PASS ONLY**,
+committed and **NOT PUSHED**, which is what the draft pass asks for. **Sixty-two of
+seventy-two drafted. None published, and publication has never been authorised. Ten articles
+remain.** The next three prompts on A358 are the equation-density review, the
+primary-reference review and the publication review.
 
-**THE REGISTER CALLS IT AN AIRCRAFT AND THE AIR FORCE CALLS IT A ROCKET TWELVE TIMES.**
-Across the three Air Force releases, 1,032 words in all, rocket appears 12 times and aircraft
-once, and that once is the business jet the rocket hangs under. The register's 164-character
-entry says aircraft once and rocket not at all.
+**THE REGISTER STOPS BEING A PRIMARY SOURCE AT THIS DESIGNATION AND IT SAYS SO ITSELF.** The
+compiler's note states that no complete official data on designations assigned after October
+2018 is available, that for later allocations **the official description is no longer
+releasable to the public**, and that such entries are shown in blue to mark them as not
+official Department of Defense wording. **Of the 31 X rows, the last official description is
+the X-60A's and the first unofficial one is the X-61A's.** A blue description is a narrower
+claim than an entirely blue row, and the X-61A's row is not blue, so its date, designation,
+contractor, engine and sponsor are official and only its mission statement is not.
 
-**AND THE REGISTER HAD NO ALTERNATIVE.** DAFI 16-401 makes X both a status prefix and a
-Research basic mission in the AIRCRAFT system, and **only a status prefix in the missile,
-rocket, probe, booster and satellite system, which has no Research basic mission at all.** A
-vehicle designated as a rocket cannot be an X-plane. **The taxonomy has no research category
-for anything that is not an aeroplane**, which is the article rather than a complaint.
+**THE ONE OFFICIAL CELL ABOUT PROPULSION DISAGREES WITH EVERY PUBLIC ACCOUNT BY A FACTOR OF
+TWO.** The engines cell says `1 F107-WR-105`, and the only published rating for that dash
+number is **1,400 pounds of thrust** against the **700** every description of the vehicle
+gives. **The published Mach 0.6 cannot discriminate**, because even the smaller rating
+delivers 2.78 times the drag at that condition, so Mach 0.6 is a chosen cruise condition
+rather than a ceiling on either reading. The conflict is reported and not settled.
 
-**THE TWO PUBLISHED PERFORMANCE FIGURES ARE ONE FIGURE.** Dynamic pressure is
-`gamma p M^2 / 2` with the temperature cancelled exactly, so Mach 5 at 70,000 feet is
-**1,649 pounds per square foot**, which is a scramjet test condition in disguise.
+**THE VEHICLE IS NOT A CRUISE MISSILE AND ITS PUBLISHED DIMENSIONS PROVE IT WITH NO ESTIMATE.**
+It carries **1,922 newtons per metre of span** against 3,909 for the AGM-86B that shares its
+engine and 4,837 for the BGM-109, so its induced drag at a given dynamic pressure is smaller
+by **4.14** and **6.33** times. The independent verifier caught a 1.2 percent error here,
+because the calculation had entered the rounded metric conversions the encyclopaedia displays
+rather than the imperial figures the sources print.
 
-**A FIRST DRAFT CONCLUSION WAS WRONG AND THE CORRECTION IS BETTER.** The first trajectory
-analysis said the published pair was unreachable. Widening the grid to **53 pitch programmes
-on one propellant load** puts the vehicle at Mach 5 between 55.5 and 147.4 thousand feet,
-**spanning a factor of 72.8 in dynamic pressure**, with the published pair inside. Dynamic
-pressure is a property of the trajectory and not of the vehicle.
+**THE WORST PLACE TO HOLD STATION BEHIND A TRANSPORT IS FIXED BY ITS SPAN ALONE.** The
+downwash gradient peaks at pi times the span over eight root three, which contains no
+circulation, weight, speed, density or altitude. For the C-130 it is **30.1 feet**, and the
+formation station at 125 feet sits 4.16 times deeper where the gradient is 6.19 times flatter.
 
-**THE REGISTER SAYS CRUISE AND THE VEHICLE CANNOT CRUISE.** At full thrust the engine
-produces 2.23 times the largest force the vehicle could absorb, and the flight path angle
-that would absorb the excess needs a sine of 2.84. Throttled, holding Mach 6 needs between
-**5.2 and 20.9 percent** of rated thrust, which is at or past the edge of the art.
+**A TOWED CABLE CANNOT BE TOLD WHERE TO HANG.** Its asymptotic inclination is set by its own
+weight against its own drag and contains neither tension nor length. A ten millimetre steel
+rope at 200 knots settles at **14.9 degrees**, and a cable that would hang at forty-five would
+have to weigh 10.4 times what such a rope weighs. **The forward calculation fails to produce
+the programme's geometry and the failure locates the design decision**, which is why the
+docking device is attitude-controlled.
 
-**THE STATUTE ASKED THE ONLY QUESTION WITH A NUMERICAL ANSWER.** 51 U.S.C. 50902(24) defines
-a suborbital rocket by thrust exceeding lift for the majority of powered ascent. **The lift is
-solved for rather than modelled**, and thrust exceeds lift for **100 percent** of ascent on
-every one of the 53 programmes.
+**AND THE DOCKING LOOP'S CROSSOVER SITS BETWEEN TWO MODES OF ITS OWN TARGET.** The cable's
+first three transverse modes lie at 0.176, 0.352 and 0.529 hertz and the loop needed to hold a
+six inch window is 0.228. **A stronger claim was withdrawn when computing it showed it
+depended on where the damping term sits**, which the record does not report. What survives
+both architectures is that the most favourable sensitivity either reaches at any of the three
+modes is 0.52, so the loop does not filter the swing out on any reading.
 
-**THE PUBLIC RECORD STOPS IN FEBRUARY 2020 AND THE CONTRACT RECORD RUNS TO FEBRUARY 2023.**
-30,921,064.62 dollars across 30 modifications, of which **30.1 percent was obligated after the
-programme stopped being visible.** Three months after the deferral one modification obligates
-4,808,000 dollars for numerical analysis, so the money moved from flight to computation in a
-line item. **The last positive obligation is 22,873.11 dollars to pay for shipping of
-equipment.** No cancellation notice was found and none is claimed.
+**THE FLIGHT TEST RECORD ADDS UP THREE WAYS.** Nine sorties in four series, eighteen hours,
+two of five vehicles lost, three remaining. The sorties summed from the four series equal the
+stated total exactly, built less lost equals remaining exactly, and the hours sum to 17.58
+against a stated 18. **Nine docking attempts in November 2020, each within inches, none
+captured.** One capture on 29 October 2021, so at least ten attempts and one success, a rate
+stated as a bound of at most 10 percent.
 
-**THE ENGINE OUTLIVED THE VEHICLE.** The Hadley was first qualified in 2021 and first flew on
-9 March 2024 on Stratolaunch's Talon-A1, 1,469 days after the X-60A was to have flown.
+**AND THE FIRST FLIGHT WAS NOT WHEN EVERY COMPILATION SAYS IT WAS.** The date universally
+given is 17 January 2020, which is the announcement. The contemporaneous release from a
+participant says the flight was completed on 23 November 2019. The gap is fifty-five days.
 
-**THE REFERENCE LIST HAS A MEASURED BUILD-TIME CEILING AND IT IS ROUGHLY CUBIC.** The first
-assembly carried 10,882 definitions and did not finish a production build in thirty minutes of
-processor time. Timed with the reference count as the only variable the markdown processor
-takes **0.43 seconds at 500 definitions, 8.8 at 2,000 and 103 at 4,500**. The budget is 4,500,
-the largest count this repository has shipped, and **the build now completes in 190 seconds.**
-Every report primary is kept unconditionally and the rest is the most recent work by cluster.
+**THE PHASE 3 OBJECTIVE WAS FOUR RECOVERIES IN UNDER THIRTY MINUTES AND THE RESULT WAS ONE**,
+in a mission that was not attempting the rate, which the article says at once. **The twenty-use
+life was never approachable**, because the whole fleet flew 45 percent of the sorties one life
+test needs. **The economics survive it easily**, because even five uses brings the airframe
+cost per sortie to 140,000 dollars, so twenty was never the break-even and what it buys is
+fleet size rather than margin.
 
-**AND THE PRIMARY FRACTION ROSE WITHOUT A SINGLE PRIMARY BEING ADDED**, from 13.3 percent of
-10,754 to 31.8 percent of 4,501 with the count fixed at 1,430. The article reports both
-numbers every time it reports either.
-
-**THE HOMONYMS A SWEEP GUARDS ARE NOT THE HOMONYMS THAT BITE IT.** Hadley, Ursa Major,
-Gulfstream and orbit were all guarded before the first sweep and **none produced a
-contaminant**. The record that got through was **Sandia's PEGASUS pulsed-power machine**,
-whose flyer plates are called booster projectiles, so the title carries launch vocabulary in
-every position. Recorded in the store as `pulsed-power` with a two-directional test.
-
-**THE EQUATION-DENSITY REVIEW TOOK 47 DISPLAY RELATIONS TO 82 AND 84 SYMBOLS TO 126.**
-Thirty-five relations the prose named, relied on or quoted a value from were not displayed.
-
-**THE SECTION CARRYING THE ARTICLE'S CENTRAL CLAIM HAD NO EQUATIONS AT ALL.** The cruise
-argument was entirely prose and is now five relations, and the impossibility is shown to hold
-at every dynamic pressure in the corridor rather than at the one the draft evaluated, the
-required sine running 2.66 to 3.19 against a maximum of one.
-
-**THE STATUTORY DEFINITION HAS A SECOND HALF AND THE DRAFT NEVER TESTED IT.** 51 U.S.C.
-50902(25) defines a suborbital trajectory by its vacuum instantaneous impact point, which is a
-two-body problem with a closed-form answer. **The coasting ellipse has a perigee radius of
-171,811 metres, about 6,199 kilometres below the surface**, and burnout speed is 22.9 percent
-of circular orbital speed and 5.2 percent of the energy.
-
-**THREE DRAFT CLAIMS WERE APPROXIMATE AND ARE NOW COMPUTED.** The carrier lifts the rocket
-above **80.9 percent** of the atmosphere's mass and not three quarters. The Mach 8 structural
-coefficient is **18.0 percent against 8 to 12 for an expendable upper stage**, so the hardest
-case is more generous than a launcher needs rather than merely achievable. And stagnation
-temperature is not what a wall reaches, the turbulent recovery temperature at Mach 6 being
-1,639 kelvin against 1,811, a **9.5 percent** correction.
-
-**FOUR INSTRUMENT REPAIRS.** The A353 block-slot assertion was one-sided and a relation glued
-to the FRONT of a sentence passes it, which produced an unclosed fence and one equation fewer
-than declared. The placement check scanned the body and not the emitted blocks. **`make_stub.sh`
-now refuses while the injection suite holds the article**, because this pass built for four
-and a half minutes against bytes the suite may have injected and only a post-hoc checksum
-caught it. And `min` and `max` were never in the symbol scanner's operator list.
-
-**THE INJECTION SUITE FOUND THE SAME DEFECT TWICE IN ONE ARTICLE.** Fifty-nine of seventy-six
-on the first run after the pass, with all fifty-six original injections caught and every one
-of the seventeen new ones missed, because thirty-five relations had been added with no
-article-side checks. With the checks added it is **76 of 76**.
-
-**AND A NUMBER IN THE DRAFT-PASS REPORT WAS WRONG.** It said 251 article checks, which was
-arithmetic on an estimate rather than a count. **The verifier runs 235 checks, measured.**
-
-**THE PRIMARY-REFERENCE REVIEW RAISED THE COUNT 1,430 TO 1,846 AND THE FRACTION 31.8 TO
-34.9 PERCENT.** Both moved the same way, and the count is reported first regardless. Three
-further sweeps aimed at the report servers asked 164 narrow questions, and **the yield per
-question fell from 8.8 to 6.7 across 302 questions**, which is the measurement that says when
-to stop asking. Five hand-written primaries were added and each was read before it was written
-down.
-
-**TWO FEDERAL RECORDS DISAGREE BY SIX MONTHS AND THE MODIFICATIONS RECONCILE THEM.** The award
-record ends the award on 31 August 2022 and the contract record runs to 28 February 2023.
-Three modifications fall in between and the first is a no-cost time extension, which is
-precisely the instrument that moves an end date without moving money.
-
-**THE BUDGET MODEL WAS WRONG BY HALF AND THE LIMIT WAS HELD ANYWAY.** A micro-benchmark of
-kramdown alone gave an exponent of 3.04, which predicted a 317 second build at 6,061
-definitions. **The build took 474.** Refitted against the two full builds actually measured the
-local exponent is **4.83**, and the repair was to correct the model and cut the budget rather
-than raise the limit after seeing the result.
-
-**AND THE CAP WAS BINDING ON THE WRONG SET.** It solved a time limit for a total and applied
-that total to the harvested records alone, leaving 133 hand-written references outside it,
-which was the whole of a seven percent overrun. The cap now binds on every definition.
-
-**ONE SAMPLE IS NOT A MEASUREMENT.** The build at the shipped count took 275.1 seconds and
-then 305.0 on an identical input, **10.9 percent of variance**, so the budget sits at the limit
-rather than inside it and both samples are reported.
-
-**A DEAD LINK SURVIVED TWO PASSES** because the identifier verifier checked a hand-picked list
-rather than every hand-written address. It now sweeps all of them, finding 0 dead.
-
-**THE INJECTION SUITE FOUND THE SAME DEFECT A THIRD AND A FOURTH TIME**, at 78 of 92 and then
-92 of 96, because new figures were added without checks and then with bare presence checks that
-A355 had already established cannot hold a small number. The suite now carries **98 injections and catches all of them**.
-
-**THE PUBLICATION REVIEW FOUND THAT THE CITATION BUDGET WAS A MISDIAGNOSIS.** Three passes
-capped the reference list because the markdown processor's cost appeared to rise as the cube
-of the reference count and then faster. **The timings were real and the variable was wrong.**
-This series writes an inline citation as a link inside a pair of square brackets, so the
-processor tries to parse a link inside a link and backtracks once per citation. **Escaping the
-outer pair turned 226.02 seconds into 0.70, a factor of 323, with output identical to the
-byte**, and two controls separate line length from brackets. **The article now cites every one
-of the 11,708 gated records** and the whole corpus with it published builds in 18.5 seconds
-against 12.8 without it.
-
-**THE EVIDENCE WAS IN THE REPOSITORY THROUGHOUT.** A published post carries 13,803 definitions
-and 27,584 citations and costs nothing, because it writes its references one to a list item.
-**A model fitted to one article's own numbers agreed with itself and never looked at the
-corpus it lives in**, and the earlier passes had also been timing a 96-page stub rather than
-the deploy.
-
-**SIX CLAIMS WERE WITHDRAWN AND THE LIST IS IN THE ARTICLE**, among them a false universal
-about the series, two unsupported rankings, a corridor claim contradicted by the article's own
-table, and an attribution that appears in secondary reporting and in none of the documents
-read. **A numeric verifier cannot catch any of them**, so the guard is a list of formulations
-that must not reappear, and three injections reinstate three of them.
-
-**FOUR ACRONYMS AND A PROBE GAP.** AFRL, MDS and DAFI are now spelled out before first use,
-and the probe had never seen two conclusions the equation pass introduced. **16 conclusions
-probed, none uncovered.**
-
-**ONE CONCLUSION IS NOT SUPPORTED BY THIS ARTICLE'S OWN SURVEY AND THE ARTICLE SAYS SO.** The
-statutory suborbital test rests on two-body orbital mechanics and the pool holds 4 records on
-it, because the gate excludes astrodynamics on purpose. **A gate that excludes a subject has
-not measured it.**
-
-**FINAL STATE. 24,065 lines, 82 display equations, 121 declared symbols, 11,379 reference
-definitions, 135,012 words**, research 11,248, report primaries 1,846 at 16.4 percent, six
-sweeps retrieving 45,900 of which 34,673 distinct, every one of the 11,708 gated records
-cited. **The primary count is unchanged and the fraction fell because the survey doubled**,
-which is the trap the genre note names.
-
-**Verifier 0 errors 0 warnings. Tests 112 of 112. Lint 0 defects and 1 convention finding.**
-276 article checks all passing. **98 of 100 injected defects caught on the full run**, the two
-misses being exponents checked by presence rather than anchored, repaired and re-checked
-individually along with a third related case, all three then caught. Identifiers verified on
-content with every hand-written address swept, 0 dead, and an absent control that failed
-correctly.
-
-**Build clean in 18.5 seconds against checksum-matched bytes, the whole corpus with the
-article published, rendered audit reports no findings across 539 pages**, source and rendered
-display-equation counts agree at 82, page 2,012,081 bytes.
+---
 
 ## Success Criteria
 

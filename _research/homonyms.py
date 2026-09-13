@@ -932,6 +932,15 @@ NOISE_PATTERNS = [
     #      testbeds and those results transfer to the subject. 38 of 39 quadrotor
     #      records survive these patterns and the one that does not is agricultural.
     (r"photogrammetr|precision agricultur|crop (?:monitor|yield|spray|health)|"
+     # **A358: `retrieval` IS THE REMOTE-SENSING WORD FOR INVERTING A MEASUREMENT**, and
+     # that sense reached an article about airborne recovery of an aeroplane. `Retrieval of
+     # Leaf Chlorophyll Content Using Drone Imagery and Fusion with Sentinel-2 Data` was
+     # admitted by an aerial-recovery anchor. The clause is written as a retrieval BESIDE a
+     # remotely sensed quantity, so that mid-air retrieval survives untouched.
+     r"retriev\w+.{0,45}(?:aerosol|trace gas|cloud propert|water vapou?r|methane|ozone|"
+     r"albedo|leaf area|leaf chlorophyll|canopy|reflectance|radiance|limb[- ]?sound|"
+     r"hyperspectral|polarimet|chlorophyll|soil moisture|sea surface temperature|"
+     r"sounder|sounding|\bDOAS\b|\blidar\b|\bLIDAR\b)|"
      r"land cover|remote sensing|oil spill|heritage|archaeolog|wildlife|"
      r"forest (?:fire|inventory)|power line inspection|parcel deliver|delivery drone|"
      r"\bfarming\b|vineyard|weed detect|disaster (?:response|management|assessment)|"
@@ -1060,6 +1069,32 @@ NOISE_PATTERNS = [
      "fighter, aircrew and flight completely. 'Fighter Index of Thermal Stress: Development "
      "of Interim Guidance for Hot-Weather USAF Operations' reached the kept set through the "
      "`fighter` anchor this article itself added"),
+    # A358: **A PROGRAMME NAMED AFTER AN ANIMAL INHERITS THAT ANIMAL'S LITERATURE**, and
+    # this article met three at once. `Perdix` is the micro air vehicle the Department of
+    # Defense air-launched in volleys from fighters, and `Perdix perdix` is the grey
+    # partridge, which brought eighteen records in five languages including the uropygial
+    # gland fat of the partridge, the names of the grey partridge in Udmurt dialects, and
+    # nest predation in Flanders. `LOCUST` is a tube-launched swarming programme and locust
+    # SWARMING is a very large subject in ecology, so the one qualifier a swarm article
+    # would naturally reach for is the exact word that admits the insect. The pattern is
+    # tagged, because an ecology article's subject is somebody else's contaminant only
+    # here.
+    # **THE LOCUST CLAUSE CARRIES A NEGATIVE LOOKAHEAD AND THE FIRST VERSION DID NOT.**
+    # Written with `swarm` as a positive qualifier it held `LOCUST tube launched unmanned
+    # aircraft swarm demonstration`, which is the programme itself. The guard fires only
+    # when the string names no air vehicle anywhere in it.
+    (r"(?!.*\b(?:unmanned|\bUAVs?\b|\bUASs?\b|drones?|aircraft|air vehicles?|"
+     r"tube[- ]launch\w*|micro air|munitions?)\b)"
+     r".*?(?:\bPerdix perdix\b|\bgr[ae]y partridge\b|\bRebhuhn\b|\bpatrijs\b|"
+     r"(?:desert |migratory )?locust\w*\b(?=[^.]{0,60}\b(?:swarm\w*|hatch\w*|"
+     r"gregaria|phase change|vegetation|outbreak|entomolog))|"
+     r"\bSchistocerca\b)",
+     "A358: THE GREY PARTRIDGE AND THE DESERT LOCUST, admitted by the programme names "
+     "`Perdix` and `LOCUST`. Eighteen partridge records and six locust-swarming records "
+     "reached the kept set of an article about catching an unmanned aircraft in mid-air. "
+     "The locust half is the dangerous one, because `swarming` is the qualifier a swarm "
+     "article would add in order to be careful",
+     "ecology"),
     (_MULTIMODAL + r"^.*?(?:\brailways?\b|\brailroad|\brolling stock\b|\blocomotive|"
      r"\bhigh-speed trains?\b)",
      "A341: RAILWAY CROSSWIND aerodynamics is a real field using the aerodynamic "

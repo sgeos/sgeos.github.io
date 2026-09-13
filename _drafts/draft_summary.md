@@ -17,6 +17,74 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Dynetics X-61 Gremlins A358 2025-12-06
+
+`x_planes_dynetics_x61_gremlins.markdown`, A358, editorial date 2025-12-06, series `x_planes` index 62 of 72.
+
+**12,518 lines, 26 display equations, 71 declared symbols, 5,852 reference definitions,
+73,390 words after the draft pass.** **DRAFT PASS ONLY.** Committed and **NOT PUSHED**, which
+is what the draft pass asks for. **Not published**, and publication of the series has never
+been authorised. **The first article in this series whose subject the register declines to
+describe.**
+
+**THE REGISTER STOPS BEING A PRIMARY SOURCE AT THIS DESIGNATION AND IT SAYS SO ITSELF.** Its
+compiler's note states that no complete official data on designations assigned after October
+2018 is available, that for later allocations the official description is no longer releasable
+to the public, and that such entries are shown in blue to mark them as not official Department
+of Defense wording. **Of the 31 X rows the last official description is the X-60A's and the
+first unofficial one is the X-61A's.** The row itself is not blue, so its date, designation,
+contractor, engine and sponsor are official and only the sentence saying what the aeroplane
+was for is withheld.
+
+**THE ONE OFFICIAL CELL ABOUT PROPULSION DISAGREES WITH EVERY PUBLIC ACCOUNT BY A FACTOR OF
+TWO.** The engines cell reads `1 F107-WR-105` and the only published rating for that dash
+number is 1,400 pounds of thrust against the 700 every description gives. **The published Mach
+0.6 cannot discriminate between them**, because even the smaller rating delivers 2.78 times
+the drag at that condition, so the Mach number is a chosen cruise condition rather than a
+ceiling. The conflict is reported and not settled.
+
+**THE VEHICLE IS NOT A CRUISE MISSILE AND ITS PUBLISHED DIMENSIONS PROVE IT WITH NO ESTIMATE.**
+It carries 1,922 newtons per metre of span against 3,909 for the AGM-86B that shares its engine
+and 4,837 for the BGM-109, so its induced drag at a given dynamic pressure is smaller by 4.14
+and 6.33 times. A vehicle that must come home and fly formation with a transport has to be
+efficient at the transport's speed, and span is the only thing that buys that.
+
+**THE KEYSTONE IS THE LAST FEW METRES AND THREE RESULTS CARRY IT.** The worst place to hold
+station behind a transport is at pi times its span over eight root three, an identity
+containing no circulation, weight, speed, density or altitude, which for the C-130 is 30.1
+feet against a formation station at 125. A towed cable's inclination is set by its own weight
+against its own drag and contains neither tension nor length, so **a passive cable cannot put
+a docking device where this one had to be**, which is why the device is attitude-controlled.
+And the cable's transverse modes at 0.176, 0.352 and 0.529 hertz bracket the 0.228 hertz the
+docking loop needs.
+
+**A CLAIM WAS WITHDRAWN BECAUSE COMPUTING IT SHOWED IT DEPENDED ON AN UNKNOWN.** Whether the
+loop amplifies the cable's motion turns on where the damping term sits, which the record does
+not report, and the two standard architectures give opposite answers. **What survives both is
+stated instead**, which is that the most favourable sensitivity either reaches at any of the
+three modes is 0.52, so the loop does not filter the swing out on any reading.
+
+**THE FLIGHT TEST RECORD ADDS UP THREE WAYS.** Nine sorties in four series, eighteen hours,
+two of five vehicles lost, three remaining, with the sorties summed from the parts equal to
+the stated total exactly and built less lost equal to remaining exactly. **Nine docking
+attempts in November 2020, each within inches, none captured**, and one capture on 29 October
+2021, giving at most a 10 percent rate stated as a bound. **And the first flight was 23
+November 2019 rather than the 17 January 2020 every compilation gives**, which is the
+announcement date, a gap of fifty-five days.
+
+**THE SURVEY.** Two sweeps retrieved 27,977 records of which 23,483 distinct, the shared store
+removed 2,394, the gate admitted 5,952 and refused 15,137, and every one of the 5,741 records
+surviving deduplication is cited. Report primaries 695 at 12.1 percent, median year 2012.
+**The keystone cluster stands at 120 and the article names which kind of thin that is**, being
+work that was never done rather than a wrong heading or work filed elsewhere.
+
+**VERIFICATION.** Verifier 0 errors and 0 warnings, tests 114 of 114, lint 0 defects and 1
+convention finding, diction 0 constructions above the corpus maximum across 61 peers. The
+article verifier runs 85 checks and passes all of them, and **the injection suite catches 66 of
+66**. The whole corpus with this article published builds in 28.7 seconds against
+checksum-matched bytes, and the rendered audit reports no findings across 540 pages with source
+and rendered display-equation counts agreeing at 26.
+
 ## X-Planes Generation Orbit X-60 A357 2025-12-05
 
 `x_planes_generation_orbit_x60.markdown`, A357, editorial date 2025-12-05, series `x_planes` index 61 of 72.

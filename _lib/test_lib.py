@@ -1990,6 +1990,117 @@ def t_homonym_a355_a_curriculum_can_be_a_training_schedule():
         assert homonyms.noise_hit(title) is not None, f"school curriculum survived: {title}"
 
 
+def t_homonym_a358_a_programme_named_after_an_animal_inherits_that_animal():
+    """A358: THE GREY PARTRIDGE AND THE DESERT LOCUST REACHED AN ARTICLE ABOUT CATCHING AN
+    AEROPLANE.
+
+    A358 guarded `gremlin`, `retrieval`, `parasite`, `formation`, `capture`, `swarm` and
+    `bullet` before its first sweep, all measured against the registry rather than guessed
+    at, **and not one of the seven produced a contaminant.** What got through were three
+    programme names that are also an animal, an insect and a motto, being `Perdix`, the
+    micro air vehicle, which is also `Perdix perdix` the grey partridge; `LOCUST`, a
+    tube-launched swarming programme, which is also the insect; and `ALTIUS`, which is also
+    a third of the Olympic motto. Eighteen partridge records arrived in five languages.
+
+    **THE LOCUST HALF IS THE DANGEROUS ONE AND IT IS WHY THIS ENTRY CARRIES A NEGATIVE
+    LOOKAHEAD.** `swarming` is precisely the qualifier a careful author writing about a
+    drone swarm would add, and it is also the central word of the locust literature. A
+    first version of the pattern used `swarm` as a positive qualifier and held the
+    programme itself.
+
+    The tag is `ecology`, because a grey partridge is somebody's subject.
+    """
+    for title in [
+        "Perdix perdix grey partridge",
+        "Die Burzeldrusenlipide des Rebhuhns Perdix perdix",
+        "SOCIAL BEHAVIOUR IN THE PARTRIDGE PERDIX PERDIX",
+        "Locust Dynamics Behavioral Phase Change and Swarming",
+        "Fractal index captures the role of vegetation clumping in locust swarming",
+    ]:
+        assert homonyms.noise_hit(title) is not None, (
+            f"the animal must be held: {title}")
+
+    # **AND THE PROGRAMMES MUST SURVIVE**, which is the half that matters, because both
+    # are air-launched volley concepts that an article on airborne recovery must cite.
+    for title in [
+        "Perdix micro air vehicle air launched from a fighter",
+        "LOCUST tube launched unmanned aircraft swarm demonstration",
+        "Low-Cost UAV Swarming Technology LOCUST demonstration",
+        "Deployment and Flight Operations of a Large Scale UAS Combat Swarm",
+    ]:
+        assert homonyms.noise_hit(title) is None, (
+            f"the programme must not be deleted with the animal: {title}")
+
+    assert homonyms.noise_hit("Perdix perdix grey partridge",
+                              allow=("ecology",)) is None, (
+        "an ecology article must be able to open this family by name")
+
+
+def t_homonym_a358_retrieval_is_the_remote_sensing_word_for_inverting_a_measurement():
+    """A358: THE REMOTE-SENSING SENSE OF `retrieval` REACHED AN ARTICLE ABOUT CATCHING AN
+    AEROPLANE.
+
+    A358's subject is the airborne recovery of an unmanned aircraft, whose field calls the
+    manoeuvre **mid-air retrieval**. In atmospheric and Earth remote sensing, `retrieval` is
+    the word for inverting a measurement to obtain a geophysical quantity, and that
+    literature is enormous and uses `airborne` freely. A probe for `airborne retrieval`
+    returned limb sounders, leaf area index, aerosol polarimetry, methane and trace gas
+    mixing ratios, and airborne light detection and ranging, with nothing aeronautical at
+    all in the first twelve results.
+
+    **THE INCIDENT IS ONE RECORD THAT SURVIVED THE GATE.** `Retrieval of Leaf Chlorophyll
+    Content Using Drone Imagery and Fusion with Sentinel-2 Data` was admitted by an
+    aerial-recovery anchor and clustered with the article's keystone.
+
+    **THE CLAUSE IS WRITTEN AS A RETRIEVAL BESIDE A REMOTELY SENSED QUANTITY AND NOT AS A
+    BARE WORD**, because a bare `retrieval` would delete the whole of the subject. Both
+    directions are asserted, and the second is the half that matters, since the family is
+    tagged `remote-sensing` and an article that opened that tag would readmit the first
+    set deliberately.
+    """
+    for title in [
+        "Retrieval of Leaf Chlorophyll Content Using Drone Imagery and Fusion with "
+        "Sentinel-2 Data",
+        "Improving retrieval quality for airborne limb-sounders by horizontal "
+        "regularisation",
+        "Parameterization retrieval of trace gas volume mixing ratios from airborne "
+        "MAX-DOAS",
+    ]:
+        assert homonyms.noise_hit(title) is not None, (
+            f"the remote-sensing inversion must be held: {title}")
+
+    # **AND MID-AIR RETRIEVAL MUST SURVIVE**, which is the article's own subject and the
+    # reason the clause requires a remotely sensed quantity beside the word.
+    for title in [
+        "Demonstration of a parafoil based mid-air retrieval system for an unmanned air "
+        "vehicle",
+        "Mid-air retrieval - Optimizing performance and weight of the aircraft-borne and "
+        "descent systems",
+        "The Past, Present, and Future of Mid-Air Retrieval",
+        "Mid-Air Retrieval technology for returning of reusable launch vehicles' boosters",
+    ]:
+        assert homonyms.noise_hit(title) is None, (
+            f"mid-air retrieval must not be deleted with the inversion: {title}")
+
+    # **THE TAG IS ASSERTED, BECAUSE A PATTERN THAT CANNOT BE SWITCHED OFF BY NAME IS THE
+    # DEFECT A356 PAID FOR.** An article whose subject IS remote sensing must be able to
+    # open this family, and it can only do that if the clause carries the tag.
+    # **THE TEST STRING IS THE INCIDENT ITSELF AND NOT A CONVENIENT ONE.** The first
+    # version of this assertion used an aerosol retrieval, which is held by a SEPARATE and
+    # UNTAGGED atmospheric-chemistry pattern earned by A347, so opening the tag freed
+    # nothing and the assertion failed for a reason that had nothing to do with this
+    # clause. **A test whose subject is caught by a different pattern is testing that
+    # pattern.**
+    for title in [
+        "Retrieval of Leaf Chlorophyll Content Using Drone Imagery and Fusion with "
+        "Sentinel-2 Data",
+        "Improving retrieval quality for airborne limb-sounders by horizontal "
+        "regularisation",
+    ]:
+        assert homonyms.noise_hit(title, allow=("remote-sensing",)) is None, (
+            f"the clause must be reachable by its tag: {title}")
+
+
 def t_homonym_a357_the_homonyms_a_sweep_guards_are_not_the_ones_that_bite_it():
     """A357: SANDIA'S PEGASUS AGAINST THE PEGASUS AIR-LAUNCHED BOOSTER.
 
