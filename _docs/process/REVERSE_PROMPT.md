@@ -98,7 +98,7 @@ article-specific sections interleaved.
 ## The Injection Suite, and the Same Lesson a Fifth Time
 
 **98 OF 100 ON THE FULL RUN.** Both misses were the build exponents, checked by presence
-rather than anchored. **`2.18` occurs eight times in this article, seven of them inside
+rather than anchored. **`2.18` occurs five times in this article, four of them inside
 digital object identifiers**, so a presence check on it passes while the equation says
 something else. That is A355's lesson met for the third time in this one article.
 

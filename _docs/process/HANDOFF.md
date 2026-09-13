@@ -11,18 +11,24 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `4736498`
-- **Written**: 2026-09-11
-- **Tree at write**: clean apart from this file, which is the change being committed, and
-  **everything was pushed at the parent**. **One commit is unpushed when you read this and it is this
-  handoff's own**, which is what `git log origin/master..HEAD` will show. The protocol asks for a
-  commit and not a push, so it was left for the pilot.
-- **Context**: the X-Planes series is IN PROGRESS. **Sixty of seventy-two articles drafted. None
+- **Parent commit** (the repository state this handoff describes): `3906ffe`
+- **Written**: 2026-09-12
+- **Tree at write**: this file and `REVERSE_PROMPT.md`, both of which are the change being
+  committed, and **everything was pushed at the parent**. **One commit is unpushed when you read this
+  and it is this handoff's own**, which is what `git log origin/master..HEAD` will show. The protocol
+  asks for a commit and not a push, so it was left for the pilot.
+- **The reverse prompt is touched because writing this file found an error in it.** It said `2.18`
+  occurs eight times in A357 with seven inside digital object identifiers. **It occurs five times with
+  four inside them.** The original figure came from counting LINES matching either `2.18` or `4.83`
+  rather than occurrences of one of them. The point it supports is unchanged, since a presence check
+  still passes on a string that occurs elsewhere, **but the number was wrong in a commit message, in
+  the reverse prompt and in a comment inside the verifier**, and all three are corrected.
+- **Context**: the X-Planes series is IN PROGRESS. **Sixty-one of seventy-two articles drafted. None
   published, and none authorised.**
-- **A356, Lockheed Martin X-59 Quesst, is complete on all four passes and is PUSHED.** **No article is
+- **A357, Generation Orbit X-60, is complete on all four passes and is PUSHED.** **No article is
   mid-rhythm.** The tree is at a clean article boundary.
-- **The next prompt will be "Please draft A357, 'X-Planes: Generation Orbit X-60.'"** Editorial date
-  2025-12-05, series index 61.
+- **The next prompt will be "Please draft A358, 'X-Planes: Dynetics X-61 Gremlins.'"** Editorial date
+  2025-12-06, series index 62.
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
 and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -40,9 +46,9 @@ described.
 
 ---
 
-## Resume prompt, and the next prompt will be "Please draft A357."
+## Resume prompt, and the next prompt will be "Please draft A358."
 
-**No article is mid-rhythm. Wait for the pilot's prompt and do not start A357 unprompted.**
+**No article is mid-rhythm. Wait for the pilot's prompt and do not start A358 unprompted.**
 
 **THE PILOT MAY HAND YOU AN EXTERNAL DRAFT INSTEAD, AS HAPPENED WITH A372 AND A373.** The prompt is
 "copy `<path>` into the drafts, and use it as the basis for an article Axxx with a `<date>` editorial
@@ -51,122 +57,85 @@ work is conformance and retargeting rather than writing. **They still take all f
 
 ### The index-to-designation mapping, recomputed rather than remembered
 
-**Every index maps to the designation one below it**, so index 60 is the X-59 and **index 61 is the
-X-60**. Checked across all sixty drafts on 2026-09-11 there are **zero mismatches** and the indices run
-1 through 60 with no gaps. **DO NOT TRUST THIS SECTION'S ARITHMETIC WITHOUT REDOING IT**, because a
-handoff two generations back stated its equivalent confidently and was wrong by one, and the pilot
-caught it rather than the file. The check is four lines of Python against `_drafts/`.
+**Every index maps to the designation one below it**, so index 61 is the X-60 and **index 62 is the
+X-61**. Checked across all sixty-one drafts on 2026-09-12 there are **zero mismatches** on either the
+article number or the designation, and the indices run 1 through 61 with no gaps. **DO NOT TRUST THIS
+SECTION'S ARITHMETIC WITHOUT REDOING IT**, because a handoff two generations back stated its equivalent
+confidently and was wrong by one, and the pilot caught it rather than the file. The check is four lines
+of Python against `_drafts/`.
 
-### A357 IS THE X-60 AND THE REGISTER CALLS A ROCKET AN AIRCRAFT
+### A358 IS THE X-61 AND IT FLEW, WHICH BREAKS THE RUN
 
-Allocated 07-Sep-18 to Generation Orbit Launch Services with the Air Force as sponsor and an empty
-engines cell:
+Allocated 06-Jun-19 to Dynetics with DARPA as sponsor and a real engine in the engines cell:
 
-> *GOLauncher 1*; This aircraft is an autonomous hypersonic vehicle that is capable of flight testing
-> experimental hypersonic technologies at cruise flight conditions.
+> *Gremlins*; Small UAV to be deployed and retrieved in-flight by C-130 aircraft
 
-**The statement is 149 characters, which is twelfth of thirty by length against a median of 119**, so
-it is an ordinary entry and the length is not the story. **The story is the first word.** The register
-calls it an **aircraft**, and the X-60A is an air-launched single-stage liquid rocket.
+**The statement is 66 characters, twenty-sixth of thirty by length against a median of 119**, so it is
+one of the terse rows. **The engines cell says `1 F107-WR-105`**, which is the Williams turbofan that
+powers the Tomahawk, and that matters because the last three X allocations before this one all had an
+empty engines cell and A357 spent a section establishing that the emptiness means nothing. **This row
+is the control case.** It is the same register, the same era, and it names an engine.
 
-**AND THE SPECIALIST REGISTRY AGREES WITH THE PHYSICS RATHER THAN WITH THE REGISTER.** Its page for the
-X-60A is at `dusrm/app4/x-60.html`, which is the **Directory of U.S. Military Rockets and Missiles**,
-not the aircraft pages the last sixty articles have been reading. **Verified live on 2026-09-11, HTTP
-200, 4,939 bytes.** That is the same shape of finding as A355's, where an aeroplane carrying the
-required unmanned symbol held the number the X series had lost, and it should be measured rather than
-asserted. **Only three X rows name a rocket in their engines or mission cell**, being the X-40B, X-63A
-and X-64A, **and the X-60A is not one of them.**
+**AND UNLIKE THE X-60A, THIS ONE FLEW.** Expect a real flight test record with airframes, sorties,
+losses and a recovery. That is a change of key after the X-60A, whose flight test record section had
+to be written as an account of a silence. **Do not import the X-60A's structure wholesale.**
 
-**THE WORD HYPERSONIC APPEARS IN FIVE ROWS OF 526 AND TWO OF THEM ARE X ROWS**, the X-51A and this one,
-so [the X-51][related_post_a348_boeing_x51] is the nearest relative in the register and its gate is
-worth reading before building a new one. **The word autonomous appears in six rows and this is the only
-X row among them**, the others being small unmanned reconnaissance aircraft, which is a measurable
-oddity and may or may not be a finding.
+**THE SUBJECT IS AIRBORNE RECOVERY AND NOT THE AEROPLANE.** A small uncrewed aircraft that is launched
+from a transport is ordinary. One that is *caught* in flight and taken back aboard is not, and the
+register's own sentence puts `deployed and retrieved` in that order. The keystone is almost certainly
+the retrieval, and the binding quantity is a closing-speed and station-keeping problem in the wake of a
+C-130 rather than anything about the vehicle's own performance.
 
-**THE EMPTY ENGINES CELL MEANS NOTHING AND THIS SERIES HAS NOW PROVED IT THREE TIMES.** Eighty-eight of
-526 rows are empty and the three empty X rows are the X-57A, the X-59A and the X-60A. **A354 recorded
-the false start in full, A355 declined to repeat it and A356 declined again. Do not build an opening on
-that blank.**
+### The homonyms, measured on 2026-09-12 rather than guessed
 
-### THE RECORD GOES SILENT IN FEBRUARY 2020 AND THAT IS PROBABLY THE ARTICLE
+**`gremlin` IS UNUSABLE AS A BARE ANCHOR AND THE COLLISION IS BIOMEDICAL.** Gremlin-1, also written
+GREM1, is a bone morphogenetic protein antagonist with a very large literature in fibrosis, renal
+disease and oncology. A targeted probe returned 50 title-mentions of the word of which **48 were
+biomedical**. A general probe for the bare word returned a children's therapy series, *The Anger
+Gremlin* and *The Anxiety Gremlin*, together with a dictionary headword.
 
-**Reconnaissance done on 2026-09-11 and not yet verified against primary documents.** The X-60A passed
-its critical design review in March 2019, completed propulsion ground tests and static firings by
-January 2020, and had a first free flight planned for March 2020. **In February 2020 the Air Force
-Research Laboratory announced a delay to later that year without giving a reason, and the public record
-then stops.** No first flight, no further delay, no cancellation and no explanation was found.
+**`GREMLINS` IS ALSO AN ACRONYM IN TWO UNRELATED FIELDS**, standing for a reconfigurable-robotics
+architecture and for `Generalized Multipartite Networks`.
 
-**THAT MAKES THIS A DOCUMENTARY-ABSENCE ARTICLE OF A KIND THE SERIES HAS NOT YET WRITTEN.** The
-[X-39][related_post_a336_x39_reserved_never_assigned] was reserved and lost, the
-[X-52][related_post_a349_x52_designation_refused] was refused, the
-[X-58][related_post_a355_x58_slot_taken_by_xq58] was skipped and the
-[X-54][related_post_a351_gulfstream_x54] was allocated and never built. **This one was designed, built
-far enough to fire its engine on the ground, and then vanished from the record.** A331's X-34 is the
-nearest precedent in shape, being finished, never asked a question it could fail, and scrapped.
+**`swarm` IS THE SECOND SEVERE ONE.** Swarm intelligence and particle swarm optimisation are an
+enormous literature, and A357's pool already carries 34 records matching the word. Never query or gate
+it bare.
 
-**THE FIRST JOB IS TO ESTABLISH WHAT THE RECORD ACTUALLY CONTAINS AFTER FEBRUARY 2020**, by reading
-the defence registry and the agency's own server rather than the trade press, and **an absence
-established by reading is worth an article while an absence assumed is worth nothing.** A355 spent its
-whole draft pass on three dates and it was enough.
+**A357's POOL IS NO HELP AND THAT IS MEASURED.** It holds **0** records naming Gremlins, **0** naming
+X-61, **0** naming Dynetics, **4** naming C-130 and **1** on in-flight recovery. **The sweep must be
+built from nothing**, unlike the X-59 to X-60 transition where the hypersonics families carried over.
 
-### The homonyms are foreseeable and one of them is severe
+### Store families to consider opening
 
-**`orbit` IS THE WORST WORD IN THIS SUBJECT'S NAME.** It is orbital mechanics, an electron orbit, the
-orbit of the eye, a company name and a dynamical-systems term. **`Generation Orbit` must never be
-queried or gated as `orbit`**, and the two words together are distinctive enough to stand alone.
-`GOLauncher` and `GO1` are distinctive. **`X-60` bare is not**, being a catalogue number, an alloy
-designation and a gene name, so it carries a vehicle requirement in the GATE and not only in the store.
+`missiles` is the obvious one, because the airframe is a cruise-missile-derived vehicle on a
+cruise-missile engine and the store tags that family as a contaminant for rotorcraft articles. Check
+`store_cost.py` before opening anything, and open against records rather than against a family name.
 
-**AND THE STORE FAMILIES THAT MUST BE OPENED ARE THE ONES THIS ARTICLE IS MADE OF.** `hypersonics` is
-the subject, as it was for the X-30 and the X-43 and as its own note in `_research/homonyms.py`
-records. `missiles` is the subject, because the vehicle is a rocket and its literature is filed as one.
-`ramjet` is adjacent and should be measured rather than assumed. **Measure the release as a set
-difference through the whole pipeline**, which `tmp/a356/release.py` does and which can be copied.
-
-### The sonic-boom pool is worthless here and the gate must be rebuilt
-
-**A356's pool of 18,330 records contains zero titles naming the X-60, GOLauncher or Generation Orbit.**
-It holds 148 hypersonic titles, 17 scramjet, 8 sounding rocket and 4 air-launch, which is a coincidence
-of vocabulary and not a head start. **Build the gate from the X-51's, not from the X-59's.**
+---
 
 ## Where the Series Stands
 
-**Sixty drafts, series indices 1 through 60 contiguous, all in `_drafts/`. Zero published.**
-Measured on 2026-09-11, not recalled. **Twelve articles remain**, ending at editorial date 2025-12-16.
+**Sixty-one of seventy-two drafted, A297 through A357, indices 1 through 61 contiguous. Eleven
+remain**, ending at editorial date 2025-12-16. **Nothing is published and publication has never been
+authorised.**
 
-**Every draft has completed all four passes.** A356 is the most recent and its four commits are
-`460f96f`, `c6759cb`, `9c5f99b` and `4736498`.
+**A356, Lockheed Martin X-59 Quesst**, editorial date 2025-12-04, index 60. All four passes, pushed.
+The aeroplane built to make a quieter bang, whose register row uses the verb `create` once in 526
+rows.
 
-### A355, X-58, the Slot Taken by XQ-58
+**A357, Generation Orbit X-60**, editorial date 2025-12-05, index 61. All four passes, pushed across
+four commits, `c329969`, `73dada9`, `2cc7aef` and `3906ffe`. **A rocket the designation system had to
+call an aircraft in order to give it a number, and it never flew.** The register says aircraft and the
+Air Force's own releases say rocket twelve times in 1,032 words. DAFI 16-401 explains why the register
+had no alternative, because the X in an X number is the Research basic mission and that mission is
+defined over aircraft, while the rocket designation system's X is only a status prefix. The two
+published performance figures multiply out to one dynamic pressure. The statutory definition of a
+suborbital rocket was integrated rather than asserted, both halves of it. And the public record stops
+in February 2020 while the contract record runs to February 2023 and ends by paying to ship the
+equipment.
 
-**6,820 lines, 40 display equations, 101 declared symbols, 2,897 reference definitions, 45,757 words**,
-report primaries 540 at 19.4 percent. **Designation-anomaly class**, the third after the X-39 and the
-X-52, and the first whose number went to an aeroplane that exists. **The string X-58 appears exactly
-once in 526 rows, in a parenthesis saying it does not exist.**
-
-### A356, Lockheed Martin X-59 Quesst
-
-**10,072 lines, 51 display equations, 92 declared symbols, 4,455 reference definitions, 63,424 words**,
-research 4,340, report primaries 808 at 18.6 percent, **six sweeps** retrieving 22,654 records of which
-18,330 distinct, gate 4,568. **Flying-demonstrator class, and the first article in this series whose
-subject is a sound rather than an aeroplane.**
-
-**Of 526 allocation rows exactly 2 mention a sonic boom and the word `create` appears in 1.** The other
-boom row is the X-54, never built. **The difference between the two sentences is one adjective.**
-
-**The weight rather than the shape sets most of the signature**, the lift term of the equivalent area
-integrating to the weight over twice the dynamic pressure with every trace of shape gone. **It grows
-with altitude**, so two of the things altitude does to a boom are opposed.
-
-**Loudness is set by rise time, classical theory is short by a factor of 192, and the classical
-absorption is short by 31**, both repaired by molecular relaxation. **The claimed reduction is 47.8
-percent in sones and not the ninety percent that is published**, which is a pressure ratio of 85
-percent reported as a loudness.
-
-**Across five governing documents and 206,232 characters the programme's own metric appears zero
-times**, and in 2021 the agency wrote that the determination made in the 1970s that no level of sonic
-boom is acceptable over land still applies. **At the editorial date the aeroplane had flown once,
-subsonically, with the gear down.**
+**Final state 24,065 lines, 82 display equations, 121 declared symbols, 11,379 reference definitions,
+135,012 words.**
 
 ## The Established Rhythm, Which Is the Most Important Thing Here
 
@@ -198,6 +167,98 @@ band.
 ---
 
 ## Method Rules Earned the Hard Way
+
+### Earned in A357, and the theme is that a measurement can be right and mean nothing
+
+**THE LARGEST FINDING OF A357 IS THAT THREE OF ITS OWN PASSES WERE BUILT ON A MISDIAGNOSIS.** Read
+this first, because it is the one most likely to repeat.
+
+**A COST CURVE FITTED TO ONE VARIABLE PROVES NOTHING ABOUT THAT VARIABLE.** A357 timed the markdown
+processor against its reference count, found 0.43 seconds at 500 definitions, 8.8 at 2,000 and 103.36
+at 4,500, and concluded the cost went as the cube of the count. It imposed a citation budget, refitted
+the exponent to 4.83 when a build overran, and cut the budget again. **Every timing was real.** The
+cost was in an unescaped square bracket around every inline citation, which makes the processor attempt
+to parse a link inside a link and backtrack once per citation.
+
+**THE SERIES CITATION FORM `[[text][anchor]]` COSTS 226 SECONDS WHERE `\[[text][anchor]\]` COSTS
+0.70**, on the same content, with rendered output identical to the byte. **Escape the outer brackets.**
+Two controls separate the explanations, and run both before believing either. Wrapping the long lines
+with the brackets left alone gave 196.49 seconds, a thirteen percent gain, which rules out line length.
+Removing the brackets entirely gave 0.63, matching the escaped form, which isolates the brackets.
+
+**MEASURE THE BUILD THE DEPLOY RUNS, NOT A STUB.** Three passes timed a 96-page stub site. The deploy
+builds 301 posts. **The whole corpus builds in 12.8 seconds**, and it always did, including a published
+post carrying 13,803 reference definitions and 27,584 citations. That post writes its references one to
+a list item and never pays the backtracking. **The counter-example was in the repository the whole
+time and no model fitted to one article's own numbers was ever going to find it.** `tmp/a357/full_build.sh`
+is the script that measures the real thing, and it is worth copying forward.
+
+**A CHECK CAN BE RIGHT ABOUT THE WRONG THING.** Every budget check A357 wrote passed, on every run, for
+three passes. They verified an apparatus that should not have existed.
+
+**ONE SAMPLE IS NOT A MEASUREMENT.** The same article at the same reference count built in 275.1
+seconds and then 305.0, an eleven percent spread on an identical input. Report both. Reporting only the
+faster is choosing the favourable sample, which is the same failure as quoting the model that agreed
+and not the one that did not.
+
+**ADDING PROSE WITHOUT ADDING CHECKS IS THE DEFECT THIS ARTICLE COMMITTED FOUR TIMES.** The injection
+suite caught it every time and nothing else ever did, at 78 of 92, 59 of 76, 92 of 96 and 98 of 100.
+**Write the check when you write the sentence**, and run the suite after every pass rather than at the
+end.
+
+**A BARE PRESENCE CHECK CANNOT HOLD A SMALL NUMBER.** A355 established it and A357 violated it three
+separate times. `2.18` occurs five times in A357, four of them inside digital object identifiers, so
+`ok("2.18" in text)` passes while the equation says something else. **Anchor every number on
+distinctive neighbouring text**, and make the anchor specific. `to`, `which is`, `asked` and `carries`
+all matched everywhere and produced failures about the stem rather than about the number.
+
+**A CHECK THAT INSPECTS A SUBSET OF ITS SUBJECT REPORTS A CLEAN SUBSET.** Three instances in one
+article. The assembler's placement assertion scanned the body and not the emitted blocks. A353's
+block-slot assertion checked what precedes a slot and not what follows it, so a relation glued to the
+front of a sentence passed and produced an unclosed display fence. And `verify_ids.py` checked a
+hand-picked list of addresses rather than all of them, which is how a dead link survived two passes.
+**All three now scan everything.**
+
+**AN ODD FENCE COUNT IS AN UNCLOSED DISPLAY AND INTEGER DIVISION HIDES IT.** Assert the parity before
+believing the count.
+
+**A CURRENCY DOLLAR SIGN IS AN INLINE MATH DELIMITER ON A MATHJAX PAGE.** A357 shipped 26 of them in
+its first assembly. Write amounts as a number followed by the word dollars. The linter reports it as a
+bold span crossing a line break, which is the symptom and not the cause.
+
+**DO NOT RUN THE STUB BUILDER, `_verify.py`, OR ANY OTHER CHECK AGAINST THE ARTICLE WHILE THE INJECTION
+SUITE HOLDS IT.** A357 did both, building for four and a half minutes against possibly injected bytes
+and reporting a phantom em-dash from an injected defect. `make_stub.sh` now refuses while
+`inject.lock` exists. **Run the suite and the build in sequence, never beside each other.**
+
+**A `cd` THAT FAILS SILENTLY SKIPS THE EDIT BEHIND IT.** `cd tmp/a357 && python3 - <<PY` short-circuits
+when the working directory is already there, the heredoc never runs, and `str.replace` on a missing
+target writes nothing and says nothing. **Assert that an edit's target exists before replacing it**,
+which caught five undefined citations that would otherwise have shipped.
+
+**A HAND-TYPED COMPARISON TO AN EARLIER PASS IS A STALE NUMBER WITH A LONGER FUSE.** A357 wrote `13.3
+percent of 10,754` into its emitter as a literal. `pass_history.json` now carries each pass's measured
+figures and the emitter reads the last one, and the file carries the current pass under `current` for
+the next to promote.
+
+**A PROBE WRITTEN BEFORE THE CONCLUSIONS EXIST DOES NOT COVER THEM.** A356 found this and A357 repeated
+it, adding two conclusions in the equation pass that the probe never saw. **Re-read the probe against
+the finished Conclusion in the publication review.**
+
+**AND SAY WHICH CONCLUSIONS YOUR OWN SURVEY DOES NOT SUPPORT.** A357's statutory suborbital test rests
+on two-body orbital mechanics and its pool holds 4 records on it, because the gate excludes
+astrodynamics deliberately. **A gate that excludes a subject has not measured it**, and a reader should
+not have to infer from a citation count that a question is unstudied.
+
+**THE HOMONYMS YOU GUARD ARE NOT THE HOMONYMS THAT BITE YOU.** A357 guarded Hadley, Ursa Major,
+Gulfstream and orbit before its first sweep and **none of the four produced a contaminant**. The record
+that got through was Sandia's PEGASUS pulsed-power machine, whose flyer plates are called booster
+projectiles, so the title carried launch vocabulary in every position. **Guard the foreseeable ones
+anyway and then read the kept sample**, because only reading finds the rest.
+
+**AN ORDER-DEPENDENT DISCRIMINATOR IS NOT A DISCRIMINATOR.** The first PEGASUS pattern was a bounded
+lookahead after the name and missed the very record that produced it, because the name is that title's
+last word.
 
 ### Earned in A356, and the theme is that a check can be abandoned rather than absent
 
@@ -2160,16 +2221,40 @@ FOUR ARTICLES.** After every equation pass, scan for lines that open with `$$` a
 
 ## Verification Toolchain
 
+**A357 ADDED FOUR INSTRUMENTS WORTH COPYING FORWARD, ALL IN `tmp/a357/` AND THEREFORE GITIGNORED.**
+
+**`full_build.sh` BUILDS WHAT THE DEPLOY BUILDS.** It rsyncs the whole repository, copies the draft
+into `_posts`, writes a front-matter stub for every sibling draft so `post_url` resolves, checksums the
+copy against the draft, and times a production build of all 301 posts. **The stub builder every earlier
+article used measures 96 pages and is not the deploy**, which is how three passes of A357 came to model
+a cost that did not exist. Use both, and believe the corpus one.
+
+**`pass_history.json` MAKES A BEFORE-AND-AFTER COMPARISON DATA RATHER THAN PROSE.** Each pass appends
+its measured research count, primary count and per-query yield, the emitter reads the last entry, and
+the current pass sits under `current` for the next to promote. **A comparison typed as a literal is
+A342's stale-statistic defect with a longer fuse.**
+
+**`check_withdrawn` IS A REGRESSION GUARD AND NOT A TEST OF TRUTH.** A numeric verifier cannot catch a
+claim that contains no number, so the withdrawn formulations are listed and the article is scanned for
+their return, with the paragraph that names them cut before the scan.
+
+**AND THE INJECTION SUITE HAS BECOME THE SLOWEST INSTRUMENT AND THE MOST VALUABLE ONE.** A357's runs
+took up to two hours for a hundred injections, because each one re-runs a verifier that re-integrates a
+53-programme trajectory grid. **Budget for that**, and do not run anything else against the article
+while it holds `inject.lock`.
+
 **THE SHARED MECHANISM IS COMMITTED AND MUST NOT BE REBUILT.** `_lib/` holds it, with `README.md`
 describing each module: `fetch` for archive queries, `refs` for anchors and the reference block, `edits`
 for guarded editing, `reflow`, `lint`, `diction` for word and phrase overuse, `audit` for equation and
 citation gaps, `numcheck` for independent re-derivation, and `citations` for registry verification. Run
-`python3 _lib/test_lib.py`, which should report **111 of 111** as of 2026-09-11. **`refs.clean` gained a bare-pipe strip on
+`python3 _lib/test_lib.py`, which should report **112 of 112** as of 2026-09-12. **`refs.clean` gained a bare-pipe strip on
 2026-08-12**, because kramdown reads a paragraph whose first line contains a pipe as a table and a
 publisher-mangled apostrophe entity put one into link text. **Three modules were added on
 2026-08-11**, being `gate` for subject-anchor gating with a mandatory two-sided sample, `render` for
 auditing BUILT HTML, and `resolve` for identifier resolution. `_research/rejected.json` holds the accumulated
-sweep judgements, reused through `_research/homonyms.py`, **whose curated pattern list is now 136 across 28 tagged families.**
+sweep judgements, reused through `_research/homonyms.py`, **whose curated pattern list is now 137 across 29 tagged families**, the newest being
+`pulsed-power`, earned by A357 when Sandia's PEGASUS capacitor bank reached a kept set about the
+Orbital Sciences Pegasus air-launched booster.
 
 **`_lib/booklinks.py` WAS REWRITTEN ON 2026-09-04 AND ITS PREVIOUS ORACLE WAS UNSAFE.** It reads the
 OpenLibrary SEARCH INDEX rather than the work JSON endpoint, because that endpoint returns HTTP 500
@@ -2179,7 +2264,7 @@ search index also returns the AUTHOR, so a key can be held to both halves of an 
 which is a higher standard than the gate it has to pass. `author_claim` and `author_agrees` are
 reported and not enforced, because repositories list editors and initials inconsistently.
 
-**THOSE PATTERNS CARRY TAGS AND CAN BE SWITCHED OFF BY NAME**, across twenty-eight
+**THOSE PATTERNS CARRY TAGS AND CAN BE SWITCHED OFF BY NAME**, across twenty-nine
 families: `adhesive-bonding`, `civil-structures`, `cockpit-displays`, `composites`, `cost-estimation`,
 `cure-monitoring`, `delamination`, `dentistry`, `ecology`, `electric-machines`,
 `environmental-assessment`, `fracture`, `geophysics`, `hypersonics`, `interpreting`, `marine`,
@@ -2361,6 +2446,18 @@ tests the helix-angle cancellation as a **randomised property**.
 ---
 
 ## Open Decisions
+
+### The citation format, which is the largest of these and is repository-wide
+
+**EVERY ARTICLE IN THIS SERIES THAT CITES IN BULK WRITES `[[text][anchor]]` AND PAYS FOR IT.** A357
+measured the cost at 226.02 seconds against 0.70 for the escaped form `\[[text][anchor]\]`, on
+identical content with identical rendered output. **Several sibling drafts carry thousands of these**,
+one of them with 4,544 citations on a single line, and each is paying the same backtracking cost in
+every build.
+
+**A357 fixed only itself.** The change is mechanical, the rendered appearance is unchanged, and the
+corpus survey-row check reads `][anchor]` either way so it keeps working. **It is a change to finished
+drafts rather than to the article in hand**, so it is recorded here for the pilot rather than done.
 
 **Three repairs need the pilot rather than the agent. The first two were verified still live on
 2026-09-10.** `x_planes_boeing_x53_active_aeroelastic_wing.markdown` still carries its duplicated
