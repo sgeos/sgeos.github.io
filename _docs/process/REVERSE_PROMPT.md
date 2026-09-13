@@ -5,156 +5,150 @@
 ## Last Updated
 
 **Date**: 2026-09-12
-**Task**: **A357, X-Planes: Generation Orbit X-60, primary-reference review.** The third of
-four passes. Committed. **Not pushed and not published**, and publication of the series
-still not authorised. **Sixty-one of seventy-two drafted, eleven remain.**
+**Task**: **A357, X-Planes: Generation Orbit X-60, publication review. The fourth and last of
+four.** Committed and **PUSHED**. **Not published**, and publication of the series still not
+authorised. **Sixty-one of seventy-two drafted, eleven remain.**
 
 ---
 
-## The Count and the Fraction Both Rose
+## The Citation Budget Was a Misdiagnosis and It Cost Three Passes
 
-**REPORT PRIMARIES 1,430 TO 1,846, A GAIN OF 416, AND THE FRACTION 31.8 PERCENT TO 34.9.**
-The directive is to report the count as well as the fraction, because adding a contemporary
-survey lowers the fraction while leaving the count unchanged and reporting only the fraction
-reads as a regression when it is the directive working. **This time both moved the same way**,
-which is the easy case and is stated with the count first regardless.
+**THE ARTICLE NOW CITES EVERY ONE OF THE 11,708 RECORDS THE GATE ADMITTED.** For three passes
+it cited a sample, under a budget of 4,500 references, then 5,928, then 5,413. **Every figure
+behind those budgets was measured and every conclusion drawn from them was wrong.**
 
-**THREE FURTHER SWEEPS WERE RUN AND THEY WERE AIMED AT THE REPORT SERVERS**, because a report
-primary is an original result and a journal record usually is not. The space agency's server
-is capped near ten records a question and is therefore bought with questions rather than with
-patience, so the three sweeps asked 164 narrow questions and almost nothing of the
-bibliographic index.
+The draft pass timed the markdown processor against the reference count and found a cost
+rising as the cube of it and then faster. **The timings were real. The variable they were
+attributed to was not.** This series writes an inline citation as a link inside a pair of
+square brackets, so the processor sees an opening bracket, tries to parse a link whose text is
+itself a link, fails, and backtracks, once per citation on the page.
 
-**THE YIELD PER QUESTION FELL FROM 8.8 TO 6.7 ACROSS 302 QUESTIONS.** That is what a capped
-server returning overlapping answers looks like, and it is the measurement that says when to
-stop asking rather than a feeling about diminishing returns.
+**Escaping the outer pair turned 226.02 seconds into 0.70, a factor of 323, with output
+identical to the byte.** Two controls separate the explanations. Breaking the long lines so
+each citation sits on its own line, brackets left alone, took 196.49 seconds, a thirteen
+percent gain, which rules out line length. Removing the brackets entirely took 0.63, matching
+the escaped form, which isolates the brackets as the whole of it.
 
-## Five Hand-Written Primaries, and a Dead Link the Draft Carried
+**THE EVIDENCE WAS IN THE REPOSITORY THROUGHOUT.** A published post carries 13,803 reference
+definitions and 27,584 citations, more than twice what this article carried under its budget,
+and the whole 301-post corpus builds in 12.8 seconds. **That post writes its references one to
+a list item rather than inline**, so it never pays the backtracking.
 
-Each was fetched and read before it was written down. **The small-business award record**, a
-separate document from the contract record. **The sounding-rocket user handbook**, which is
-this vehicle's ancestry in the operator's own words. **The definitions section of the launch
-regulations** and **the 2020 rule that consolidated launch licensing**, which is nine months
-after the X-60A's planned first flight, so the programme spanned the change. And **the
-conference paper describing the vehicle that later flew this one's engine**.
+**A model fitted to one article's own numbers agreed with itself and never looked at the
+corpus it lives in.** That is the defect underneath all three budgets and it is worth more
+than any of them. **The earlier passes also measured the wrong build**, timing a 96-page stub
+rather than the deploy, which is what made the corpus comparison invisible.
 
-**THE SPACEPORT'S OWN ADDRESS WAS DEAD AND HAD BEEN THROUGH TWO PASSES.** It returned a 404
-and survived because `verify_ids.py` checked a hand-picked list rather than every hand-written
-address. **A verifier that inspects a chosen subset of its subject reports a clean subset**,
-which is the same defect the equation pass found in the assembler's placement check. It now
-sweeps all of them. **58 reachable, 3 refused by hosts known to refuse automated fetches, 0
-dead.**
+**The whole corpus with this article published now builds in 18.5 seconds against 12.8 without
+it.** Publishing it costs the deploy about six seconds while carrying twice the references it
+had this morning.
 
-## Two Federal Records Disagree by Six Months and the Modifications Reconcile Them
+## Six Claims Withdrawn, and the List Is in the Article
 
-**THE AWARD RECORD ENDS THE AWARD ON 31 AUGUST 2022 AND THE CONTRACT RECORD RUNS TO 28
-FEBRUARY 2023.** A six-month discrepancy between two government databases usually means one is
-wrong. **Neither is.** Three modifications fall after the award record's end date and the
-first of them is a no-cost time extension, which is precisely the instrument that moves an end
-date without moving any money. One record states the award as awarded and the other as
-extended.
+**A NUMERIC VERIFIER CANNOT CATCH ANY OF THESE, BECAUSE NOT ONE CONTAINS A NUMBER.**
 
-**The award record also carries the programme's abstract cut off in mid-word**, ending
-*validate the f*, which is an artefact of the database and is recorded because a reader
-following the citation will see a sentence that stops.
+The draft said **every article in this series asks what binding unknown its aeroplane existed
+to resolve**, which is false of the designation anomalies, where there is no aeroplane. It
+called the dynamic pressure identity **the cleanest result in the subject**, a ranking with
+nothing behind it. It said the corridor sits **above every air-breathing aeroplane**, and the
+two densest cells of its own table are below the sustained altitude record of the fastest one.
+It called unit Reynolds number **the quantity a ground facility most often gets wrong**, a
+ranking no source read here supports. It credited the engine's maker with being **the first
+American company to fire an oxygen-rich staged combustion engine**, which appears in secondary
+reporting and **in none of the documents read for this article**. And it said federal law
+asked **the only question about this vehicle with a numerical answer**, which every computed
+figure in the preceding sections contradicts.
 
-## The Budget Model Was Wrong by Half and the Limit Was Held Anyway
+**The guard is a list of withdrawn formulations that must not reappear**, which is a
+regression test rather than a test of truth, and it excludes the paragraph that names them,
+because this series names a retracted claim rather than deleting it. **Three injections
+reinstate three of them and all three are caught.**
 
-**THE DRAFT PASS DERIVED ITS CITATION BUDGET FROM A MICRO-BENCHMARK OF KRAMDOWN ALONE**, which
-gave an exponent of 3.04. Extrapolating that to 6,061 definitions predicted a 317 second build.
-**The build took 474.**
+## Four Acronyms and a Probe Gap
 
-**THE EXPONENT IS NOT CONSTANT. IT RISES WITH THE COUNT.** Fitted between the two full
-production builds actually measured, being 173 seconds at 4,628 definitions and 473.7 at 6,061,
-**the local exponent is 4.83**. A micro-benchmark of one stage is a worse calibration than a
-measurement of the whole thing, and the whole thing is what the deploy gate runs.
+**AFRL appeared first inside a block quote and was spelled out sixty thousand characters
+later.** MDS and DAFI were never spelled out at all. All three now precede their acronym.
 
-**THE LIMIT WAS STATED BEFORE THE COUNT WAS KNOWN AND IT WAS HELD RATHER THAN MOVED.** A
-five-minute limit overran by half, and the repair was to correct the model and cut the budget,
-not to raise the limit after seeing the result.
+**AND THE PROBE HAD NOT SEEN TWO CONCLUSIONS.** The equation pass introduced the vacuum
+instantaneous impact point and the inlet capture relation, and the probe was written before
+them, which is A356's defect exactly. Both are added, and the probe now carries **16
+conclusions with none uncovered**.
 
-**AND THEN THE CAP WAS FOUND TO BE BINDING ON THE WRONG SET.** It solved a time limit for a
-total and applied that total to the harvested records alone, leaving the hand-written block
-outside it. **The markdown processor does not know which definitions were typed by hand**, so
-the cost follows the total, and the whole of a seven percent overrun was those 133 references.
-The cap now binds on every definition and the article carries exactly 5,413 of them.
+## One Conclusion Is Not Supported by This Article's Own Survey
 
-**THE CORRECTED MODEL ALSO EXPLAINS THE BUILD THAT NEVER FINISHED**, putting the first
-assembly's 10,882 definitions at 118 minutes rather than the 25 the old model gave. **A
-prediction of 25 minutes for a build that had already run past thirty when it was stopped
-should have been the clue that the exponent was wrong.**
+**THE STATUTORY SUBORBITAL TEST RESTS ON TWO-BODY ORBITAL MECHANICS AND THE POOL HOLDS 4
+RECORDS ON IT.** That is a decision rather than an oversight, because `orbit` is the worst
+homonym in the vehicle's own name and admitting astrodynamics would have brought the whole of
+spaceflight into a pool about endoatmospheric flight. **The conclusion is carried by the
+textbooks and the article says so**, rather than leaving a reader to infer from a citation
+count that the question is unstudied. **A gate that excludes a subject has not measured it**,
+which is the same distinction as a dead link and a refused one.
 
-## One Sample Is Not a Measurement
+## Diction, Structure and the Rest of the Checklist
 
-**THE BUILD AT THE SHIPPED COUNT WAS RUN TWICE AND TOOK 275.1 SECONDS AND THEN 305.0**, on an
-otherwise identical input. That is **10.9 percent of run-to-run variance**, and the slower
-sample is 1.7 percent over the stated limit. **The budget therefore sits at the limit rather
-than comfortably inside it**, and reporting only the faster sample would have been choosing
-the favourable one, which is the same failure as quoting the model that agreed and not the one
-that did not. Both are in the article.
+**Five content words sit above five per thousand and all five are subject vocabulary**, being
+vehicle, flight, Mach, pressure and number, the last of which is Mach number eighteen times
+and Reynolds number eight. None is filler.
 
-## The Before-and-After Is Now Emitted From Data
+**Cluster order holds**, with the two residual clusters at positions thirteen and fourteen of
+sixteen and the specific clusters before the general ones they are special cases of.
+**Structural conformance holds**, with the genre's twelve sections in order and three
+article-specific sections interleaved.
 
-**THE DRAFT PASS WROTE `13.3 PERCENT OF 10,754` INTO THE EMITTER AS A LITERAL.** It was true
-when written and would have stayed in the article unchanged however the figures moved.
-**A hand-typed comparison to an earlier pass is A342's stale-statistic defect with a longer
-fuse.** The comparison now reads `pass_history.json`, which each pass appends to, and the
-file carries this pass's figures under `current` for the next one to promote.
+## The Injection Suite, and the Same Lesson a Fifth Time
 
-## The Injection Suite Found the Same Defect a Third and a Fourth Time
+**98 OF 100 ON THE FULL RUN.** Both misses were the build exponents, checked by presence
+rather than anchored. **`2.18` occurs eight times in this article, seven of them inside
+digital object identifiers**, so a presence check on it passes while the equation says
+something else. That is A355's lesson met for the third time in this one article.
 
-**78 OF 92 ON THE FIRST RUN AFTER THE PASS.** Fourteen new survey figures had been added with
-no article-side checks. That is the draft pass's defect and the equation pass's defect met
-again in the same article.
+**Repaired and re-checked individually, those two and a third related case are all caught.**
+The full hundred were not re-run after the repair, and this report says so rather than
+claiming a round number it did not measure.
 
-**AND THEN 92 OF 96**, because four of the checks written to fix that were **bare presence
-checks**, which A355 established cannot hold a small number in a document full of numbers.
-Anchored properly the suite is **98 of 98**.
-
-**THE PATTERN IS NOW UNAMBIGUOUS AND IT IS WORTH CARRYING FORWARD.** Every pass of this
-article added prose faster than it added checks, and nothing except the injection suite ever
-noticed. **The suite should be run after every pass rather than at the end**, and the check
-written for a new figure should be anchored rather than a presence test.
-
-## Two Smaller Repairs
-
-**A DUPLICATE BUDGET CHECK IN THE VERIFIER WENT STALE.** Two checks of one fact in two places
-is two places to go stale, which is the rule this article applies to its own computations and
-had not applied to its verifier.
-
-**AND A `cd` THAT FAILED SILENTLY SKIPPED AN EDIT.** The five hand-written primaries were
-written into a heredoc whose working directory was wrong, the shell short-circuited, and the
-edit never landed. **The verifier caught it as five undefined citations**, which is the
-failure mode that apparatus exists for.
+**THIS PASS WROTE ITS CHECKS BEFORE RUNNING THE SUITE**, which is the only change of habit the
+three previous findings actually asked for, and it is why the publication review's own
+fourteen figures were caught by construction rather than by the suite.
 
 ## Verification
 
 **Verifier 0 errors and 0 warnings. Tests 112 of 112. Lint 0 defects and 1 convention
-finding**, which is the intended multi-line equation form.
+finding**, the intended multi-line equation form.
 
-**The article verifier runs 268 checks and passes all of them**, measured by counting its own
-output lines. **The symbol scanner reports all 126 declared symbols used and every symbol used
-declared.** **Identifier verification passed on content**, with twelve hand-written addresses
-checked against a phrase each must contain, six quoted documents checked against the copies
-they were quoted from, the live statute checked against the saved copy, every remaining
-hand-written address swept for reachability with none dead, 23 of 24 sampled report primaries
-resolving, and a fabricated identifier resolving to nothing.
+**The article verifier runs 276 checks and passes all of them.** The symbol scanner reports
+all 121 declared symbols used and every symbol used declared. **Identifier verification passed
+on content**, with twelve hand-written addresses checked against a phrase each must contain,
+six quoted documents checked against the copies they were quoted from, the live statute
+checked against the saved copy, **every hand-written address swept with 58 reachable, 3
+refused by hosts known to refuse automated fetches and 0 dead**, 23 of 24 sampled report
+primaries resolving, and a fabricated identifier resolving to nothing.
 
-**The stub-isolated production build succeeded against checksum-matched bytes**, run after the
-injection suite released the article rather than beside it. The rendered audit reports no
-findings. Source and rendered display-equation counts agree at **83**, with zero raw dollar pairs,
-zero unresolved reference brackets and zero unrendered Liquid. The build measured 305
-seconds and the page is 1,044,904 bytes.
+**The production build is now the real one.** The whole corpus with this article published
+builds in 18.5 seconds against checksum-matched bytes. **The rendered audit reports no
+findings across 539 pages.** Source and rendered display-equation counts agree at **82**, with
+zero raw dollar pairs, zero unresolved reference brackets and zero unrendered Liquid. The page
+is 2,012,081 bytes and carries 23,031 links.
 
-**FINAL STATE. 12,131 lines, 83 display equations, 126 declared symbols, 5,413 reference
-definitions, 75,243 words**, research 5,282, report primaries 1,846 at 34.9 percent, six
-sweeps retrieving 45,900 records of which 34,673 distinct, gate 11,708 under a 5,413
-definition budget solved from a 300 second build limit.
+**FINAL STATE. 24,065 lines, 82 display equations, 121 declared symbols, 11,379 reference
+definitions, 135,012 words**, research 11,248, report primaries 1,846 at 16.4 percent, six
+sweeps retrieving 45,900 records of which 34,673 distinct, **every one of the 11,708 gated
+records cited**.
+
+**The report-primary count is unchanged at 1,846 and the fraction fell from 34.9 percent to
+16.4**, because the survey grew from 5,282 records to 11,248. **That is the trap the genre
+note names**, and reporting only the fraction would describe a pass that doubled the
+literature as a regression.
 
 ## What Remains
 
-**A357 has completed three of four passes.** The publication review is a separate pilot prompt
-and has not been run.
+**A357 is complete at all four passes.** The next new article is **A358, the X-61**, editorial
+date 2025-12-06, series index 62. **Eleven articles remain**, ending at editorial date
+2025-12-16.
+
+**THE CITATION FORMAT FINDING APPLIES TO THE WHOLE SERIES AND IS NOT ACTED ON HERE.** Several
+sibling drafts carry thousands of inline citations in the unescaped form, one of them with
+4,544 on a single line, and each is paying the same cost. **That is a change to finished
+drafts rather than to this article**, so it is recorded for the pilot rather than done.
 
 **Two repairs are still awaiting a pilot decision.** A350 carries a duplicated
 `## The Contemporary Literature` heading at lines 412 and 414, and A324 carries a malformed

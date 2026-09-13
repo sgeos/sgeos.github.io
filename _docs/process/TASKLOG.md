@@ -11,8 +11,8 @@ Current task state and verification log. This file is the shared source of truth
 
 **Status**: **A297 through A357 are drafted. A297 through A356 have ALL FOUR PASSES
 COMPLETE and are PUSHED. A357, X-Planes: Generation Orbit X-60, has completed the DRAFT PASS
-the EQUATION-DENSITY REVIEW and the PRIMARY-REFERENCE REVIEW, three of four**,
-committed and not pushed. **Sixty-one of seventy-two drafted. None published, and
+the EQUATION-DENSITY REVIEW, the PRIMARY-REFERENCE REVIEW and the PUBLICATION REVIEW,
+ALL FOUR PASSES COMPLETE**, committed and **PUSHED**. **Sixty-one of seventy-two drafted. None published, and
 publication has never been authorised. Eleven articles remain.** The next new article is
 **A358, the X-61**, editorial date 2025-12-06, series index 62.
 
@@ -143,21 +143,53 @@ rather than every hand-written address. It now sweeps all of them, finding 0 dea
 92 of 96, because new figures were added without checks and then with bare presence checks that
 A355 had already established cannot hold a small number. The suite now carries **98 injections and catches all of them**.
 
-**FINAL STATE. 12,131 lines, 83 display equations, 126 declared symbols, 5,413 reference
-definitions, 75,243 words**, research 5,282, report primaries 1,846 at 34.9 percent, six
-sweeps retrieving 45,900 of which 34,673 distinct, gate 11,708 under a 5,413 definition budget
-solved from a 300 second build limit.
+**THE PUBLICATION REVIEW FOUND THAT THE CITATION BUDGET WAS A MISDIAGNOSIS.** Three passes
+capped the reference list because the markdown processor's cost appeared to rise as the cube
+of the reference count and then faster. **The timings were real and the variable was wrong.**
+This series writes an inline citation as a link inside a pair of square brackets, so the
+processor tries to parse a link inside a link and backtracks once per citation. **Escaping the
+outer pair turned 226.02 seconds into 0.70, a factor of 323, with output identical to the
+byte**, and two controls separate line length from brackets. **The article now cites every one
+of the 11,708 gated records** and the whole corpus with it published builds in 18.5 seconds
+against 12.8 without it.
 
-**Verifier 0 errors 0 warnings. Tests 112 of 112. Lint 0 defects and 1 convention finding**,
-the tall-bracket false positive having gone with a reflowed relation. The article verifier
-runs 268 checks and passes all of them. Identifiers
-verified on content with an absent control that failed correctly and 24 of 24 sampled
-primaries resolving. **All
-16 cluster rows state their own recomputed count and the total equals the research count
-exactly at 4,501.** All 4,628 definitions cited, none orphaned, none undefined.
+**THE EVIDENCE WAS IN THE REPOSITORY THROUGHOUT.** A published post carries 13,803 definitions
+and 27,584 citations and costs nothing, because it writes its references one to a list item.
+**A model fitted to one article's own numbers agreed with itself and never looked at the
+corpus it lives in**, and the earlier passes had also been timing a 96-page stub rather than
+the deploy.
 
-**Build clean in 305 seconds against checksum-matched bytes, 96 pages, rendered audit reports
-no findings**, source and rendered display-equation counts agree at 83, page 1,044,904 bytes.
+**SIX CLAIMS WERE WITHDRAWN AND THE LIST IS IN THE ARTICLE**, among them a false universal
+about the series, two unsupported rankings, a corridor claim contradicted by the article's own
+table, and an attribution that appears in secondary reporting and in none of the documents
+read. **A numeric verifier cannot catch any of them**, so the guard is a list of formulations
+that must not reappear, and three injections reinstate three of them.
+
+**FOUR ACRONYMS AND A PROBE GAP.** AFRL, MDS and DAFI are now spelled out before first use,
+and the probe had never seen two conclusions the equation pass introduced. **16 conclusions
+probed, none uncovered.**
+
+**ONE CONCLUSION IS NOT SUPPORTED BY THIS ARTICLE'S OWN SURVEY AND THE ARTICLE SAYS SO.** The
+statutory suborbital test rests on two-body orbital mechanics and the pool holds 4 records on
+it, because the gate excludes astrodynamics on purpose. **A gate that excludes a subject has
+not measured it.**
+
+**FINAL STATE. 24,065 lines, 82 display equations, 121 declared symbols, 11,379 reference
+definitions, 135,012 words**, research 11,248, report primaries 1,846 at 16.4 percent, six
+sweeps retrieving 45,900 of which 34,673 distinct, every one of the 11,708 gated records
+cited. **The primary count is unchanged and the fraction fell because the survey doubled**,
+which is the trap the genre note names.
+
+**Verifier 0 errors 0 warnings. Tests 112 of 112. Lint 0 defects and 1 convention finding.**
+276 article checks all passing. **98 of 100 injected defects caught on the full run**, the two
+misses being exponents checked by presence rather than anchored, repaired and re-checked
+individually along with a third related case, all three then caught. Identifiers verified on
+content with every hand-written address swept, 0 dead, and an absent control that failed
+correctly.
+
+**Build clean in 18.5 seconds against checksum-matched bytes, the whole corpus with the
+article published, rendered audit reports no findings across 539 pages**, source and rendered
+display-equation counts agree at 82, page 2,012,081 bytes.
 
 ## Success Criteria
 
@@ -864,6 +896,11 @@ no findings**, source and rendered display-equation counts agree at 83, page 1,0
 - [x] A357 citation budget corrected twice and the stated limit held both times. The micro-benchmark model under-predicted a build by fifty percent, the exponent being 4.83 rather than 3.04 when fitted to the builds that actually happened; and the cap was found to bind on the harvested subset while the cost depends on every definition, which was the whole of a seven percent overrun. The build at the shipped count was measured twice at 275.1 and 305.0 seconds, an eleven percent spread, and both are reported because one sample is not a measurement.
 - [x] A357 identifier verification widened from a hand-picked list to every hand-written address, after a dead spaceport link survived two passes. 58 reachable, 3 refused by hosts known to refuse automated fetches, 0 dead.
 
+- [x] A357 publication review performed on request. **The citation budget three passes had imposed was found to be a misdiagnosis.** The markdown processor's cost was in an unescaped square bracket around every inline citation and not in the reference count, and escaping it turned 226.02 seconds into 0.70 with output identical to the byte. **The article now cites every one of the 11,708 gated records**, and the whole corpus with it published builds in 18.5 seconds against 12.8 without it. Two controls separate line length from brackets, and the counter-example was a published post in this repository carrying twice as many references at no cost.
+- [x] A357 six claims withdrawn and listed rather than deleted, being a false universal about the series, two unsupported rankings, a corridor claim contradicted by the article's own table, an attribution found only in secondary reporting, and a false claim that federal law asked the only numerical question. Guarded by a withdrawn-formulations check and three reinstating injections.
+- [x] A357 acronym, probe, diction, cluster-order and structural conformance checks run. AFRL, MDS and DAFI spelled out before first use; two conclusions the equation pass introduced added to the probe, which now covers 16 with none uncovered; five words above five per thousand all subject vocabulary; residual clusters last; genre section order intact.
+- [x] A357 states one conclusion its own survey does not support, the statutory suborbital test resting on two-body orbital mechanics of which the pool holds 4 records, because the gate excludes astrodynamics deliberately.
+
 ## Notes
 
 - **Documentation defect found 2026-08-04, RESOLVED 2026-08-05.** `_docs/process/FORWARD_DATED_POSTS.md` documented `future: true` while `_config.yml` line 86 sets `future: false`. The document has been rewritten against the live configuration and the error corrected in the five other places it had propagated to. The behavioural claim was verified against an actual Jekyll build rather than reasoned about.
@@ -1395,3 +1432,4 @@ no findings**, source and rendered display-equation counts agree at 83, page 1,0
 | 2026-09-11 | A357, the Generation Orbit X-60, drafted as `_drafts/x_planes_generation_orbit_x60.markdown`, editorial date 2025-12-05, series index 61. Committed, **not pushed**. **10,235 lines, 47 display equations, 84 declared symbols, 4,628 reference definitions, 62,588 words**, research 4,501 with 1,430 report primaries at 31.8 percent, three sweeps retrieving 38,596 of which 31,527 distinct, gate 11,149 under a 4,500 citation budget. **The register calls a rocket an aircraft and the instruction that governs the register explains why it had no alternative.** **The two published performance figures are one dynamic pressure of 1,649 pounds per square foot.** **The statutory suborbital-rocket test was integrated and passes at 100 percent on every one of 53 pitch programmes.** **The contract record runs three years past the last public word and ends by paying to ship the equipment.** Verifier 0 errors 0 warnings, tests 112 of 112, 251 article checks all passing, build clean in 190 seconds against checksum-matched bytes, rendered audit no findings across 96 pages, page 889,709 bytes. **Not published.** |
 | 2026-09-12 | A357 equation-density review, the second of four passes. Committed, **not pushed**. **47 display equations to 82 across 35 additions, 84 declared symbols to 126**, article 10,235 to 10,524 lines and 62,588 to 64,907 words. **The cruise section, which carries the article's central claim, had no equations at all** and is now five relations showing the impossibility holds at every dynamic pressure rather than at one. **The statutory suborbital-rocket definition was found to have a second half the draft never tested**, the vacuum instantaneous impact point, which resolves to a perigee radius 6,199 kilometres inside the Earth at 22.9 percent of orbital speed. **Three draft approximations replaced by computation**, the atmospheric mass share being 80.9 percent and not three quarters. Four instrument repairs including a two-sided block-slot assertion and a stub builder that refuses while the injection suite holds the article. Verifier 0 errors 0 warnings, tests 112 of 112, **235 article checks measured and all passing, 76 of 76 injected defects caught**, build clean in 173 seconds against checksum-matched bytes, rendered audit no findings across 96 pages, 82 source displays against 82 rendered, page 905,719 bytes. **Not published.** |
 | 2026-09-12 | A357 primary-reference review, the third of four passes. Committed, **not pushed**. **Report primaries 1,430 to 1,846, a gain of 416, and the fraction 31.8 to 34.9 percent**, both reported together. **Three further sweeps aimed at the report servers**, taking the survey to six sweeps, 45,900 retrieved, 34,673 distinct, gate 11,708, with the yield per question falling 8.8 to 6.7 across 302 questions. Five hand-written primaries added and one dead address repaired after the identifier verifier was widened from a hand-picked list to every hand-written address. **Two federal records disagreeing by six months reconciled by a no-cost time extension.** **The citation budget model was wrong by half and the limit was held anyway**, the exponent being 4.83 rather than 3.04 when fitted to real builds, and the cap was then corrected to bind on every definition rather than the harvested subset. **The build at the shipped count was measured twice at 275.1 and 305.0 seconds and both are reported.** 12,131 lines, 83 display equations, 126 declared symbols, 5,413 reference definitions, 75,243 words. Verifier 0 errors 0 warnings, tests 112 of 112, 268 article checks all passing, 98 of 98 injected defects caught, build clean in 305 seconds against checksum-matched bytes, rendered audit no findings across 96 pages, page 1,044,904 bytes. **Not published.** |
+| 2026-09-12 | **A357 PUBLICATION REVIEW, the fourth and final pass. Committed and PUSHED. NOT published.** All sixty-one X-Planes drafts remain in `_drafts/` and publication has never been authorised. **The citation budget three passes had imposed was a misdiagnosis**, the markdown processor's cost being in an unescaped bracket around every inline citation rather than in the reference count; escaping it turned 226.02 seconds into 0.70 with identical output, and **the article now cites every one of the 11,708 gated records**. The whole corpus with it published builds in 18.5 seconds against 12.8 without it. **Six claims withdrawn and listed**, three acronyms spelled out, two conclusions added to the probe, one conclusion named as unsupported by the article's own survey. **24,065 lines, 82 display equations, 121 declared symbols, 11,379 reference definitions, 135,012 words**, research 11,248, primaries 1,846 at 16.4 percent. Verifier 0 errors 0 warnings, tests 112 of 112, 276 article checks passing, 98 of 100 injected defects caught with the two misses repaired and re-verified, rendered audit no findings across 539 pages, page 2,012,081 bytes. |
