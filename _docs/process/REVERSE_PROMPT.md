@@ -4,163 +4,162 @@
 
 ## Last Updated
 
-**Date**: 2026-09-13
-**Task**: **A359, X-Planes: Lockheed Martin X-62 VISTA, drafted. The first of four passes.**
-Committed and **NOT PUSHED**, per the rhythm. **Not published**, and publication of the
-series has never been authorised. **Sixty-three of seventy-two drafted, nine remain.**
+**Date**: 2026-09-14
+**Task**: **A359, X-Planes: Lockheed Martin X-62 VISTA, publication review. The fourth and last
+of four.** Committed and **PUSHED**. **Not published**, and publication of the series has never
+been authorised. **Sixty-three of seventy-two drafted, nine remain.**
+
+**A CONCURRENT SESSION HAS UNCOMMITTED WORK IN THIS TREE**, being A374 and its
+`URL_VERIFICATION.md` entries. Its TASKLOG row and its `draft_summary.md` block were interleaved
+with this article's in shared files and could not be separated without destroying one, so they
+ride along in this article's commits and the commit messages say so. **Its own draft and its
+`URL_VERIFICATION.md` change are left unstaged for it.**
 
 ---
 
-## The X Number Is Not in the Accounting System
+## The Scan Found No Drafting History and That Is the First Time
 
-**The federal award record carries 73 transactions and 29,085,924.37 dollars against this
-aeroplane, and not one of them calls it the X-62A.** The designation was allocated on 14 June
-2021 and by this article's editorial date, 1,637 days later, the system that pays for the
-aircraft had still never used it. It calls it VISTA, or the variable stability in-flight
-simulator, or the airframe.
+**A322 shipped five sentences of drafting history, A323 six and A358 seven**, every one of the
+form `the draft said X and was wrong`. **This article shipped none.** The scan was run over 483
+author sentences and returned nothing, which is worth recording because the convention that
+produces those sentences, naming a withdrawn claim rather than deleting it, is unchanged. **What
+changed is that the equation pass wrote its withdrawals as statements about the subject from the
+start**, so there was nothing to rewrite.
 
-**The designation appears exactly once in the whole record and that once falls 23 days past
-the article's own date**, which is why the dateline horizon is enforced at the source rather
-than in the prose. **An article that had filtered in the sentence would have reported the
-opposite of this record's most interesting property.**
+## The Superlative Scan Found Four Real Defects
 
-**The register's own sentence is corroborated anyway, by a different government record.** The
-compiler marks the description as not official Department of Defense wording and it says the
-upgrade was for the Skyborg programme. **One hundred and eight days after the redesignation
-the Air Force obligated 799,956.00 dollars under a line naming HAVE Autonomous Air Combat
-Operations Phase Two Skyborg.** The accounting system and the designation register are
-maintained for unrelated purposes and they agree, which is the strongest thing this series has
-been able to say about a reconstructed description since the register stopped being a primary
-source one article ago.
+**Seventy-six sentences carried a strong ranking and four of them did not earn it.**
 
-## The Keystone Is an Identity and It Removes the Vehicle
+**The article said the X-62A is the fourth or fifth machine in the line of variable-stability
+aeroplanes.** That is a count this article never made, and the line includes at minimum the
+Cornell and Calspan machines, the NT-33A, the Total In-Flight Simulator, the Learjets and two
+European aircraft. **It now says the X-62A is a late member rather than the first, and says
+plainly that it does not know how many stand between**, because counting them would mean
+settling what makes an aeroplane a variable-stability aeroplane and no source consulted draws
+that line.
 
-**Exact model following holds if and only if a projector built from the host's control
-effectiveness matrix annihilates the demanded change of dynamics**, which is Erzberger's
-condition. When it holds the gains are immediate. When it fails the residual is computable, it
-is driven by the model's own state, and **no feedback gain removes it because the residual does
-not contain the feedback gain**.
+**It said NASA Technical Paper 1538's appendix gives the actuator lag and rate limit of every
+surface.** It gives them for every surface but the speedbrake, which carries a deflection limit
+in Table 1 and no actuator anywhere. **The article now says so**, and observes that the omission
+is consistent with the speedbrake not being a flight control.
 
-**The counting bound turns that into hardware.** The projector's rank is the number of states
-less the rank of the control matrix, so a simulator needs as many independent controls per axis
-as the axis has dynamic states. **Three in pitch, three in roll and yaw, and the variable
-stability system has exactly three in each.** A symmetric stabilator, a symmetric flaperon and a
-throttle. A differential stabilator, an asymmetric flaperon and a rudder.
+**It said the award record is the only place the older expansion of the acronym survives at
+scale.** That is a claim about everywhere and this article searched part of it. **It now says it
+is the largest body of text this article searched in which the older expansion still stands.**
 
-**That is why the second flight control system commands the throttle.** The speed equation is
-one of the three and no aerodynamic surface changes axial force independently of normal force
-and pitching moment. **The engine is not propulsion in this argument. It is the third column of
-a matrix.**
+**And it called manual control theory's crossover model the strongest single result in the
+field.** That is a ranking over a discipline. **It is now described as the field's central
+result**, which is what the textbooks call it.
 
-**And the worked residual says which half of the aeroplane goes wrong without the flap.** With
-one pitch control, 83.3 percent of the demanded change in the lift row is unreachable and 0.05
-percent of the moment row is, a ratio of 1,677. **A tail makes moment and not lift**, so a
-simulator built round a tail alone can imitate any pitch stiffness and cannot imitate a
-different wing.
+**Three further softenings were made on the same pass**, being `every simulator of every kind`,
+`will always show a lumpy record` and `the whole twelve years` against a measured span of 11.6.
 
-## The Binding Limits Were Published in 1979
+## A Formatting Defect the Number Checks Could Not See
 
-**NASA Technical Paper 1538 tabulates the F-16's deflection limits, rate limits and actuator
-lags**, and it never names the aeroplane in its title. Its appendix on aerodynamic data says
-the data came from wind-tunnel tests of subscale models of the F-16.
+**The article printed `the weaker one for the last 4.48` with no unit.** The slot held a number
+of years and the sentence supplied no noun. **Every numeric check passed**, because the value
+was correct and appeared the expected number of times. **A unit is not a number and nothing in
+the suite was looking for one.**
 
-**A rate limit divided by a deflection limit is a frequency.** The four surfaces the second
-system commands come out at 2.4, 11.16, 3.72 and 4.0 radians per second. **The symmetric
-horizontal tail, which has the most travel, has the lowest corner frequency of all of them and
-it falls below a fighter's own short period.** The differential tail, with a fifth of the travel
-and the same rate limit, has 4.65 times the bandwidth, which is exactly the ratio of the
-deflections.
+## A Decision Was Recorded in the Process Files and Never Reached the Page
 
-**And the deepest limit is one-sided.** A model-following system drives the host's surfaces, so
-every delay in the host lies between the pilot and the simulated response and the simulation can
-only add. **The machine can make any aeroplane sluggish and cannot make any aeroplane crisp**,
-with a floor of at least 49.5 milliseconds from the published actuator lag alone.
+**The equation pass decided not to use the phase-delay parameter of the bandwidth criterion and
+wrote that decision into TASKLOG and this file.** It never reached the article. **The
+publication review found it by re-reading the closing sections against the process files**,
+which is the check that exists for exactly this.
 
-**The instrument also contains the nonlinearity it was built to study.** Rate limiting is the
-mechanism of one class of pilot-induced oscillation and the second system drives the same
-surfaces through the same rate limits. **The machine simulates the model plus itself.**
+**The article now carries it as a section.** The criterion is the field's own way of turning a
+delay into a handling-qualities level and its phase-delay parameter is exactly what the delay
+floor should be expressed in. **Deriving that parameter for a pure delay from the definition as
+recalled gives half the delay, and the usual summary of the subject says it is the delay.** Those
+cannot both be right, **a factor of two is not a rounding**, and the specification that settles
+it has not been read. So the article uses the phase margin, which it derives in one line, and
+says why the other is absent.
 
-## The Name Does Not Spell Its Own Acronym
+## What the Primary Pass Had Found
 
-**The government expands VISTA seven ways in the award record for this one aeroplane**, across
-55 occurrences, of which 54 keep the word `stability` and one drops it. **Variable stability
-in-flight simulator test aircraft spells VSISTA.** The word `stability` has always contributed
-no letter.
+**Report primaries 842 to 1,199 and 10.2 percent to 13.9**, after a fourth sweep of 148 narrow
+reports-server questions and 42 defence-registry ones. **Every cluster rose.** The keystone rose
+least, from 4.0 to 5.5, and **no single venue holds more than 4.8 percent of it**, so it is a
+dispersed conference and journal literature and was never a report literature.
 
-**The prime contractor has now fixed it** by writing the name as Variable In-flight Simulation
-Test Aircraft, which spells the acronym exactly. **The repair was made by deleting the word that
-never fitted**, and the consequence is not cosmetic, because the original name says the variable
-quantity is the stability and the new one says it is the simulation.
+**Every one of the 42 defence-registry questions returned exactly 200 rows.** All of them. The
+reports server saturated on 60.8 percent and averaged 7.29 against a cap of 10. **The two
+registries are limited in different ways and this sweep measured it rather than repeating it.**
 
-## Two Instrument Repairs, Both Committed to the Shared Store
+**The programme publishes eight papers and a thematic sweep found four**, the four it missed
+being the ones whose titles name the systems rather than the aeroplane. Walking two contiguous
+identifier ranges recovered all eight and turned up a correction notice on one of them.
 
-**`physiolog` was deleting the pilot-workload literature.** The biomedical
-computational-fluid-dynamics entry earned by A348 alternates ten terms and exactly one of them
-names the discipline that measures a pilot. **Opening `medicine` wholesale would have readmitted
-thirty-eight records on artificial intelligence in clinical trials**, so the alternative was
-split into its own tagged entry on the A352 precedent. Two tests hold both halves.
+**And the school teaches the scale its own aeroplane is measured on.** The USAF Test Pilot School
+publishes its Flying Qualities Phase textbook chapter by chapter into the defence registry, and
+**Chapter 16 is a reprint of NASA Technical Note D-5153**. It was found by a question about
+specifications rather than by looking for it, and it is now the Conclusion's penultimate finding.
 
-**And an omnibus proceedings volume is a list of subjects rather than a subject.** One
-conference prints each year as `Volume 2, Aircraft Engine, Marine, Microturbines and Small
-Turbomachinery, Oil and Gas Applications`, and that container name alone removed a paper on
-integrated flight and propulsion control from an article about flight control. **This is A354's
-multi-modal venue defect in a different family** and the guard has the same shape. A measurement
-found 137 records in this pool dropped by the container alone with a clean title, most of them
-correctly, including a paper titled `Dogfight in the clouds` published in a volume on British
-archaeology in the Middle East.
+## What the Equation Pass Had Found
 
-## The Probe Found Four Thin Conclusions and a Second Sweep Repaired Three
-
-**A thin count under the field's words is a fact about the sweep and not about the claim.** The
-probe run after the first sweep found four conclusions under twenty records in the field's own
-vocabulary. **A second sweep of 26 registry questions, 22 reports-server questions and 6
-defence-registry questions took direct lift from 8 to 93, the control-effectiveness vocabulary
-from 16 to 118 and ownership cost from 15 to 349.**
-
-**The fourth is still uncovered at 2 and it is reported rather than softened.** It is the claim
-that the contract record and the designation register are independent documents that happen to
-agree, which has no aeronautical literature because it is a claim about records.
+**From 21 display equations to 45 and from 46 declared symbols to 88.** Its two findings were
+that **the column which makes the projector vanish is the column that runs out first**, the flap
+saturating at 8.17 degrees of angle of attack where the tail would not until 30.5, and that
+**the leading-edge flap's scheduled lead is very nearly cancelled by its own actuator**, the
+schedule's pole and the actuator's corner sitting 1.42 percent apart.
 
 ## Verification
 
-**Verifier 0 errors and 0 warnings. Tests 117 of 117**, the two new ones holding the split
-physiology family and the omnibus-volume guard. **Diction reports 0 constructions above the
-corpus maximum** across 62 peers, and the 53 content words above the peer maximum are the
-subject nouns the tool's own note predicts.
+**Verifier 0 errors and 0 warnings. Tests 117 of 117.** **The article verifier runs 492 checks
+and passes all of them**, up from 269 at the drafting pass. **The injection suite catches 281 of
+281.** The symbol scanner reports all 88 declared symbols used and every symbol used declared.
+**Diction reports 0 constructions above the corpus maximum** across 62 peers on 17,573 words of
+author prose. **Zero citation gaps at a nine-hundred-character window. Zero contractions, zero
+dashes, zero prose colons, zero semicolons, and no caps emphasis outside engine designations.**
 
-**The article verifier runs 269 checks and passes all of them. The injection suite catches 139
-of 139**, across frozen occurrence counts, computed values, contract figures, register claims
-and reversed sentences. The symbol scanner reports all 46 declared symbols used and every symbol
-used declared.
-
-**The register is verified by a second parser reading the saved HTML**, and that re-parse found
-a defect in itself before it found anything else. **Written as a bare `<tr>` it matched 512 of
-the 539 rows and missed exactly the 27 that carry a class**, which are the wholly unofficial and
-unconfirmed ones. The omission was invisible as a parse failure and visible only as a
-disagreement with the other parser, which is the entire reason the file re-parses rather than
-re-reads.
-
-**Identifier verification passes on content**, with 28 quoted phrases held against the saved
-copies they were read from and 14 book identifiers held against both the recorded title and the
-recorded author.
+**Identifier verification passes on content**, with 33 quoted phrases held against the saved
+copies they were read from, **39 curated identifiers resolved through the registry and compared
+against the year their labels claim**, 14 book identifiers held against both recorded title and
+recorded author, **a deliberately fabricated identifier resolving to nothing**, and 0 dead
+addresses.
 
 **The whole corpus with this article published builds against checksum-matched bytes and the
-rendered audit reports no findings across 541 pages.**
+rendered audit reports no findings across 542 pages.** Source and rendered display-equation
+counts agree at 45, with zero raw dollar pairs, zero unresolved reference brackets, zero
+unexpanded slots and zero unrendered Liquid.
 
-## One Attribution Was Corrected Before It Shipped
+**FINAL STATE.** **18,645 lines, 45 display equations, 88 declared symbols, 8,749 reference
+definitions, 113,876 words.** Four sweeps retrieved 35,837 records of which 30,647 distinct, the
+store removed 1,829, the gate admitted 9,012 and refused 19,806, and **every one of the 8,596
+records surviving deduplication is cited** across 15 clusters alongside 153 hand-written
+definitions. Report primaries 1,199 at 13.9 percent. Median year 2006, range 1927 to 2027, with
+85.0 percent at or before the year of the redesignation.
 
-**The draft credited the solvability condition to a 1970 Journal of Aircraft paper and dated it
-vaguely to 1968.** It is a NASA Technical Memorandum of 18 October 1967, which the sweep had
-already retrieved and which was sitting unpromoted in the keystone cluster among a thousand
-siblings. **A358 learned the same lesson from a Request for Information nine months older than
-its programme.** Read the earliest thing the sweep returned before writing down who first said
-it.
+**The probe covers 19 conclusions with one uncovered**, being the claim that the contract record
+and the designation register are independent documents that agree, **which has no aeronautical
+literature because it is a claim about records** and rests on the two records themselves.
+
+## What the Article Says, in Five Findings
+
+**THE X NUMBER IS NOT IN THE ACCOUNTING SYSTEM.** 73 transactions and 29,085,924.37 dollars over
+11.6 years and not one of them calls it the X-62A. The designation appears once in the whole
+record and that once falls 23 days past the article's own date, **so the dateline horizon had to
+be enforced in the data rather than in the sentence** or the article would have reported the
+opposite.
+
+**THE KEYSTONE IS AN IDENTITY AND IT REMOVES THE VEHICLE.** Exact model following holds if and
+only if a projector built from the host's control effectiveness matrix annihilates the demanded
+change of dynamics. **The rank bound turns that into a count of control surfaces at three per
+axis and the aeroplane has three per axis**, the throttle among them because the speed equation
+is one of the three.
+
+**THE COLUMN THAT MAKES THE PROJECTOR VANISH IS THE COLUMN THAT RUNS OUT FIRST**, so the
+envelope is set by the weakest control and not the strongest.
+
+**THE MACHINE CAN MAKE ANY AEROPLANE SLUGGISH AND CANNOT MAKE ANY AEROPLANE CRISP**, because
+every delay in the host lies between the pilot and the simulated response and delays add.
+
+**AND THE ANSWER COMES BACK ON A SCALE WITH TEN BOXES AND NO METRIC**, whose defining paper is
+Chapter 16 of the operating school's own textbook.
 
 ## What Comes Next
 
-**The equation-density review.** The draft carries 21 display equations, which is the lowest
-count this series has drafted with in some time and is deliberate, because the argument is
-algebraic rather than numerical. **The candidates the draft already implies** are the
-describing function of a rate limiter, the equivalent-system match a handling-qualities
-criterion uses, the crossover model of the human operator, the sensitivity integral over the
-nested loop, and the singular-value form of the deflection required to simulate a given model.
+**A360, the X-63**, editorial date 2025-12-08, series index 64. **The register has now been
+unofficial for two designations running and the X-63A is the third**, allocated 10.2 months after
+this one. **Wait for the pilot's prompt.**

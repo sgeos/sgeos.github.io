@@ -65,64 +65,64 @@ most usefully add the full TIDALWAVE report and the full Foreign Affairs and For
 `x_planes_lockheed_martin_x62_vista.markdown`, A359, editorial date 2025-12-07, series
 `x_planes` index 63 of 72.
 
-**17,810 lines, 45 display equations, 88 declared symbols, 8,378 reference definitions,
-105,778 words after the equation-density review.** **TWO OF FOUR PASSES COMPLETE.** Committed
-and **not pushed**, which is the rhythm. **Not published**, and publication of the series has
-never been authorised.
+**18,645 lines, 45 display equations, 88 declared symbols, 8,749 reference definitions,
+113,876 words after the publication review.** **ALL FOUR PASSES COMPLETE.** Committed and
+**PUSHED**. **Not published**, and publication of the series has never been authorised.
 
-**THE EQUATION REVIEW TOOK THE ARTICLE FROM 21 DISPLAY EQUATIONS TO 45 AND FROM 46 DECLARED
-SYMBOLS TO 88**, and a scan found seventeen sections naming a relation and displaying none.
-Most were documentary and needed no mathematics. **Six needed it and one of them produced a
-finding rather than a tidy-up.**
+**THE DRAFTING-HISTORY SCAN FOUND NOTHING AND THAT IS THE FIRST TIME.** A322 shipped five
+sentences of the form `the draft said X and was wrong`, A323 six and A358 seven. **The
+convention that produces them is unchanged**, being that this series names a withdrawn claim
+rather than deleting it. **What changed is that the equation pass wrote its withdrawals as
+statements about the subject from the start.**
 
-**THE COLUMN THAT MAKES THE PROJECTOR VANISH IS THE COLUMN THAT RUNS OUT FIRST.** Solving the
-worked example for its gains rather than its residual shows the simulation demanding 2.63
-degrees of symmetric flap per degree of angle of attack against 0.82 of tail. **The flap
-reaches its published limit at 8.17 degrees of angle of attack and the tail would not reach its
-own until 30.5**, so the envelope of aeroplanes the machine can imitate is set by its weakest
-control and not by its strongest. **The rank argument does not predict that.**
+**THE SUPERLATIVE SCAN FOUND FOUR REAL DEFECTS IN SEVENTY-SIX RANKING SENTENCES.** The article
+said the X-62A is the fourth or fifth machine in the line of variable-stability aeroplanes,
+**which is a count it never made**, and it now says the aeroplane is a late member and says
+plainly that it does not know how many stand between. It said NASA Technical Paper 1538 gives
+an actuator for **every surface**, where the speedbrake carries a deflection limit and no
+actuator anywhere. It said the award record is **the only place** the older acronym expansion
+survives, which is a claim about a record it searched part of. And it called the crossover
+model **the strongest single result** in manual control theory, which is a ranking over a
+discipline.
 
-**AND THE LEADING-EDGE FLAP'S SCHEDULED LEAD IS VERY NEARLY CANCELLED BY ITS OWN ACTUATOR.**
-The draft offered the surface's slow actuator as a sufficient reason for the second flight
-control system not commanding it. **The aeroplane's own flap schedule is published in the same
-appendix as the actuator lag**, and it is a lead network of two with a pole at 7.25 radians per
-second while the actuator's corner is 7.35, **a separation of 1.42 percent**. Across the band
-where the simulation lives the surface delivers a gain rise of 0.8 where the schedule asks for
-1.8. **The lead is not merely reduced. Its sign is reversed.** The article reports the
-coincidence and claims nothing about its cause.
+**A FORMATTING DEFECT THE NUMBER CHECKS STRUCTURALLY COULD NOT SEE.** The article printed `the
+weaker one for the last 4.48` with no unit, and **every numeric check passed**, because the
+value was right and appeared the expected number of times. **A unit is not a number and nothing
+in the suite was looking for one.**
 
-**THE TWO SHORT PERIODS ARE NOW MODES RATHER THAN EIGHT MATRIX ENTRIES.** The host is an
-ordinary oscillatory pair at 3.13 radians per second with a damping ratio of 0.431. **The
-model's determinant is negative, so it is not oscillatory at all**, and it diverges with a time
-to double amplitude of 0.755 seconds.
+**A DECISION WAS RECORDED IN THE PROCESS FILES AND NEVER REACHED THE PAGE.** The equation pass
+decided not to use the phase-delay parameter of the bandwidth criterion and wrote that into
+`TASKLOG.md` and `REVERSE_PROMPT.md` only. **The publication review found it by re-reading the
+closing sections against the process files**, which is the check that exists for exactly this,
+and the article now carries it as a section.
 
-**THE DELAY FLOOR IS NOW PRICED IN THE CURRENCY THE PILOT SPENDS.** The crossover model leaves
-ninety degrees of margin and a transport delay takes from it linearly, so **the host consumes
-14.23 percent of the pilot's margin at three radians per second and 28.46 percent at six**,
-before the simulated aeroplane contributes anything.
+**THE EARLIER PASSES.** The equation review took the article from 21 display equations to 45
+and found that **the column which makes the projector vanish is the column that runs out
+first**, the flap saturating at 8.17 degrees of angle of attack where the tail would not until
+30.5, and that **the leading-edge flap's scheduled lead is very nearly cancelled by its own
+actuator**, the schedule's pole and the actuator's corner sitting 1.42 percent apart. The
+primary review took report primaries from 842 to 1,199 and their share from 10.2 percent to
+13.9, found that **the programme publishes eight papers where a thematic sweep found four**,
+and found that **the operating school's own textbook reprints the paper defining the rating
+scale as its Chapter 16**.
 
-**AND THE ORDINAL CLAIM IS NOW AN INVARIANCE RATHER THAN AN ASSERTION.** A statistic is
-meaningful on an ordinal scale exactly when it survives every strictly increasing relabelling
-of the points. **The median does and the mean does not**, which is the whole of the argument.
+**VERIFICATION.** Verifier 0 errors and 0 warnings. Tests 117 of 117. **The article verifier
+runs 492 checks and passes all of them and the injection suite catches 281 of 281.** Diction 0
+constructions above the corpus maximum across 62 peers on 17,573 words of author prose. **Zero
+citation gaps at a nine-hundred-character window, zero contractions, zero dashes, zero prose
+colons, zero semicolons and no caps emphasis outside engine designations.** Identifier
+verification holds 33 quoted phrases against the saved copies they were read from, **39 curated
+identifiers resolved through the registry against the year their labels claim**, 14 books
+against recorded title and author, **a deliberately fabricated identifier resolving to
+nothing**, and 0 dead addresses. **The whole corpus with this article published builds against
+checksum-matched bytes and the rendered audit reports no findings across 542 pages.** Source
+and rendered display-equation counts agree at 45.
 
-**THE PASS PROMOTED SEVEN CONCLUSIONS AND A THIRD SWEEP FOLLOWED**, which is this corpus's
-oldest rule. Five subjects measured under seventy records after the pass had placed equations
-in them. **The sweep took describing functions from 188 to 738, pilot rating scales from 76 to
-656, high-lift scheduling from 13 to 190 and ownership cost from 15 to 351.** Nineteen
-conclusions are now probed and **one remains uncovered**, being the claim that the contract
-record and the designation register are independent documents that agree, which has no
-aeronautical literature because it is a claim about records.
-
-**VERIFICATION.** Verifier 0 errors and 0 warnings. **The article verifier runs 479 checks and
-passes all of them and the injection suite catches 275 of 275.** The symbol scanner reports all
-88 declared symbols used and every symbol used declared. **The whole corpus with this article
-published builds in 17.0 seconds against checksum-matched bytes and the rendered audit reports
-no findings across 542 pages.** Source and rendered display-equation counts agree at 45, with
-zero raw dollar pairs, zero unresolved reference brackets, zero unexpanded slots and zero
-unrendered Liquid. The page is 1,557,522 bytes and carries 17,027 links.
-
-**REMAINING WORK.** Primary-reference density and publication review, in that order and each on
-its own prompt.
+**Four sweeps retrieved 35,837 records of which 30,647 distinct**, the store removed 1,829, the
+gate admitted 9,012 and refused 19,806, and **every one of the 8,596 records surviving
+deduplication is cited** across 15 clusters alongside 153 hand-written definitions. Median year
+2006, range 1927 to 2027. **Nineteen conclusions probed with one uncovered**, being a claim
+about documents rather than about aeroplanes.
 
 
 ## X-Planes Dynetics X-61 Gremlins A358 2025-12-06
