@@ -11,161 +11,174 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `f54ce6e`
-- **Written**: 2026-09-13
-- **Tree at write**: **clean apart from this file**, which is the change being committed. **Everything
-  was pushed at the parent**, so `git log origin/master..HEAD` shows exactly one commit when you read
-  this and it is this handoff's own. The protocol asks for a commit and not a push, so it was left for
-  the pilot.
-- **Context**: the X-Planes series is IN PROGRESS. **Sixty-two of seventy-two articles drafted. None
-  published, and none authorised.**
-- **A358, Dynetics X-61 Gremlins, is complete on all four passes and is PUSHED.** **No article is
-  mid-rhythm.** The tree is at a clean article boundary.
-- **The next prompt will be "Please draft A359, 'X-Planes: Lockheed Martin X-62 VISTA.'"** Editorial
-  date 2025-12-07, series index 63.
+- **Parent commit** (the repository state this handoff describes): `5f05a80`
+- **Written**: 2026-09-14
+- **Tree at write**: **this file is the only change of this session's own.** **Everything of A359's
+  was pushed at the parent**, so `git log origin/master..HEAD` shows exactly one commit when you
+  read this and it is this handoff's own. The protocol asks for a commit and not a push.
+- **BUT THE TREE IS NOT OTHERWISE CLEAN, AND THAT IS NOT THIS SESSION'S DOING.** A concurrent
+  session left two items uncommitted, being `_drafts/published_wargames_of_war_with_china.markdown`
+  and a four-row addition to `_docs/process/URL_VERIFICATION.md`. **Leave them alone.** They belong
+  to A374, a standalone wargaming essay outside this series, and they are deliberately unstaged for
+  that session to commit itself.
+- **Context**: the X-Planes series is IN PROGRESS. **Sixty-three of seventy-two articles drafted.
+  None published, and none authorised.**
+- **A359, Lockheed Martin X-62 VISTA, is complete on all four passes and is PUSHED.** **No article
+  is mid-rhythm.** The tree is at a clean article boundary.
+- **The next prompt will be "Please draft A360, 'X-Planes: ABL Space Systems X-63.'"** Editorial
+  date 2025-12-08, series index 64.
 
-**Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that day
-and 147 commits took new identifiers. Anything older than that will not resolve.
+**Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that
+day and 147 commits took new identifiers. Anything older than that will not resolve.
 
-**Validate before trusting.** Compare the recorded **Parent commit** to `git rev-parse HEAD~1`. Because
-this handoff file is itself committed, its commit becomes the branch tip and its parent is the state
-described.
+**Validate before trusting.** Compare the recorded **Parent commit** to `git rev-parse HEAD~1`.
+Because this handoff file is itself committed, its commit becomes the branch tip and its parent is
+the state described.
 
 - **Match → VALID.** Proceed per the resume prompt below.
-- **Mismatch → INVALID and STALE.** A later commit moved the tip, so this file describes a state that
-  is no longer current. Do **not** proceed and do **not** guess what changed. Report it as
+- **Mismatch → INVALID and STALE.** A later commit moved the tip, so this file describes a state
+  that is no longer current. Do **not** proceed and do **not** guess what changed. Report it as
   invalid-and-stale, familiarize from the live channels, namely `REVERSE_PROMPT.md`, `TASKLOG.md`,
   `_drafts/draft_summary.md`, and the git log, which are always authoritative, and wait for
-  instruction.
+  instruction. **A mismatch may simply be the concurrent session committing A374**, which is
+  harmless, and the way to tell is to read the commit rather than to assume either way.
 
 ---
 
-## Resume prompt, and the next prompt will be "Please draft A359."
+## Resume prompt, and the next prompt will be "Please draft A360."
 
-**No article is mid-rhythm. Wait for the pilot's prompt and do not start A359 unprompted.**
+**No article is mid-rhythm. Wait for the pilot's prompt and do not start A360 unprompted.**
 
-**THE PILOT MAY HAND YOU AN EXTERNAL DRAFT INSTEAD, AS HAPPENED WITH A372 AND A373.** The prompt is
-"copy `<path>` into the drafts, and use it as the basis for an article Axxx with a `<date>` editorial
-publication date". Those arrive already stamped with their article number, series and index, and the
-work is conformance and retargeting rather than writing. **They still take all four passes afterwards.**
+**THE PILOT MAY HAND YOU AN EXTERNAL DRAFT INSTEAD, AS HAPPENED WITH A372, A373 AND A374.** The
+prompt is "copy `<path>` into the drafts, and use it as the basis for an article Axxx with a
+`<date>` editorial publication date". Those arrive already stamped with their article number and
+the work is conformance and retargeting rather than writing. **They still take all four passes.**
+
+**AND THE PILOT MAY RUN A SECOND SESSION IN THIS TREE AT THE SAME TIME.** One was running through
+the whole of A359. **Check `git status` before every commit and stage your own paths explicitly.**
 
 ### The index-to-designation mapping, recomputed rather than remembered
 
-**Every index maps to the designation one below it**, so index 62 is the X-61 and **index 63 is the
-X-62**. Recomputed across all sixty-two drafts on 2026-09-13 there are **zero mismatches** on article
-number and **one on designation, which is the series opener at index 1** and has no designation at all.
-The indices run 1 through 62 with no gaps. **DO NOT TRUST THIS SECTION'S ARITHMETIC WITHOUT REDOING
+**Every index maps to the designation one below it**, so index 63 was the X-62 and **index 64 is the
+X-63**. Recomputed across all sixty-three drafts on 2026-09-14 there are **zero mismatches** on
+article number, **zero on designation** except the series opener at index 1 which has none, and the
+indices run 1 through 63 with no gaps. **DO NOT TRUST THIS SECTION'S ARITHMETIC WITHOUT REDOING
 IT**, because a handoff two generations back stated its equivalent confidently and was wrong by one,
 and the pilot caught it rather than the file. The check is six lines of Python against `_drafts/`.
 
-### A359 IS THE X-62 AND ITS REGISTER ROW IS UNIQUE IN A WAY THAT IS MEASURED
+### A360 AND A361 ARE ONE PROGRAMME AND THE REGISTER SAYS SO IN BYTES
 
-Allocated 14-Jun-21 to Lockheed Martin, sponsored by the Air Force, engines cell `1 Pratt & Whitney
-F100`:
+**THIS IS THE MOST IMPORTANT THING IN THIS FILE.** The X-63A and the X-64A were allocated on the
+same day, to the same sponsor, with the same engines cell, **and with byte-identical descriptions**.
+They differ in the designation and in the contractor and in nothing else.
 
-> *VISTA*; NF-16D redesignated after upgrade for "Skyborg" program
+| Field | X-63A | X-64A |
+|---|---|---|
+| Date | 20-Apr-22 | 20-Apr-22 |
+| Contractor | ABL Space Systems | Invocon, KT Engineering, Troy7 |
+| Engines | 1 rocket engine | 1 rocket engine |
+| Sponsor | USAF/USSF | USAF/USSF |
+| Description | *Demonstrator rocket for AFRL's ARISE (Aerospike Rocket Integration and Suborbital Experiment) program* | the same string |
 
-**THE WORD `redesignated` APPEARS IN EXACTLY ONE ROW OF THE WHOLE 539-ROW REGISTER AND THIS IS IT.**
-That was measured on 2026-09-13 against the parsed register in `tmp/a358/register.json`, which is
-gitignored and can be rebuilt from `addendum.html` in the same directory. Eight X rows describe a
-modification of an existing aircraft, and the other seven say `Highly modified`, `converted`,
-`Derivative of` or `Upgrade`. **Only this one says the aeroplane was renamed.**
+**That is the only duplicated description among the 31 X rows.** Eleven descriptions repeat across
+the whole 539-row register and every other repeat is a missile or a target drone. **Two X numbers
+for one programme, distinguished only by who builds them**, measured on 2026-09-14 against
+`tmp/a359/register.json`, which is gitignored and rebuildable from `addendum.html` beside it.
 
-**THE DESCRIPTION IS NOT OFFICIAL DEPARTMENT OF DEFENSE WORDING**, which is the finding A358 opened
-with and which now applies for the second article running. It is 62 characters, **third shortest of
-the 31 X rows** against a median of 110.
+**PLAN A360 AND A361 TOGETHER OR A361 WILL HAVE NOTHING LEFT.** The series has met this shape once
+before, at A341, the X-44 that was two aircraft. **The natural division is that A360 carries the
+programme, the aerospike and the altitude-compensation mathematics, and A361 carries the
+contractor, the instrumentation and what it means for one programme to hold two numbers.** That is
+a judgement and the pilot may prefer another, so raise it rather than assume it.
 
-**THE AEROPLANE IS TWENTY-NINE YEARS OLDER THAN ITS X NUMBER.** The NF-16D VISTA flew from 1992 and
-the designation was allocated in 2021. **That is a fourth kind of ordering for the closer to carry**,
-beside the X-53 designated after it stopped flying, the X-54 designated and never built, and the X-55
-designated 139 days after it flew.
+### The subject is an aerospike and the mathematics is altitude compensation
 
-**AND THE SUBJECT IS NOT AN AEROPLANE. IT IS A SIMULATOR THAT FLIES.** A variable-stability aircraft
-exists to reproduce the dynamics of a different aeroplane, so the binding quantity is **model-following
-fidelity** rather than any performance of its own. **Do not import A358's structure**, whose subject
-was a capture.
+**A ROCKET AGAIN, WHICH IS THE SECOND IN FOUR ARTICLES.** A357's X-60A was a rocket the designation
+system had to call an aircraft. **This one is a rocket and the register says `Demonstrator rocket`
+in its own words**, which is a different position from the X-60A's and worth comparing directly.
 
-**THE KEYSTONE CANDIDATE IS PERFECT AGAINST REAL MODEL FOLLOWING AND IT IS AN IDENTITY.** The
-literature distinguishes them explicitly, in `Real model following control` and `Application of optimal
-control to perfect model following`, both in the Journal of Aircraft around 1970 and both already
-visible in a registry probe. **Perfect model following has exact algebraic conditions on the host
-aircraft's own control effectiveness**, and when they fail the simulation is approximate by an amount
-that can be computed. **That is an identity that removes the vehicle**, which is the shape this series
-rewards.
+**THE KEYSTONE CANDIDATE IS THE ALTITUDE-COMPENSATION IDENTITY AND IT REMOVES THE VEHICLE.** A bell
+nozzle has one design altitude and is over-expanded below it and under-expanded above it. **A plug
+or aerospike nozzle lets the ambient pressure set the outer boundary of the plume**, so the exit
+condition tracks the atmosphere. The thrust loss of a fixed-area nozzle away from its design point
+is a closed-form expression in the pressure ratio and the area ratio, and **the integral of that
+loss over an ascent trajectory is what an aerospike is bought to avoid**. That is an identity in
+the same shape as A359's projector and A358's worst-gradient depth.
 
-### The homonyms, measured on 2026-09-13 rather than guessed
+**THE X-33's LINEAR AEROSPIKE IS THE OBVIOUS PRECEDENT AND IT IS THIS SERIES' OWN A330.** Read that
+article before writing, because the XRS-2200 is the largest aerospike ever built and it never flew.
 
-**`VISTA` IS UNUSABLE BARE AND THE COLLISION IS AN OPERATING SYSTEM.** A bare probe returned ten
-results of which seven are Microsoft Windows Vista administration books, plus the grammaticalisation of
-the Portuguese `em vista de`, plus Linda Vista and Vista Hermosa as place names. **Nothing aeronautical
-appeared at all.** Qualified as `VISTA aircraft simulator` it returns the programme's own founding
-papers, being `VISTA - A modest proposal for a new fighter in-flight simulator` from 1984 and
-`VISTA/F16 - The next high-performance in-flight simulator` from 1988.
+### The homonyms, measured on 2026-09-14 rather than guessed
 
-**`Skyborg` CANNOT BE QUALIFIED WITH `autonomy`.** That probe returned Spinoza on autonomy, contractual
-autonomy, the autonomy of labour law, autonomy and paternalism, and autonomy in schooling. **Autonomy is
-a word in political philosophy before it is a word in aviation**, and it is one of the worst qualifiers
-available.
+**`ARISE` IS UNUSABLE BARE AND IT IS NOT EVEN CLOSE.** A bare probe returned a Victorian poem in
+`Notes and Queries`, two Oxford English Dictionary headwords for the noun and the verb, a hymn, a
+chemistry paper using `arise` as an ordinary verb, and Christopher Reeve. **It also collides with a
+real research infrastructure**, being `ARISE, Atmospheric Dynamics Research InfraStructure in
+Europe`, which is aerospace-adjacent and will not be caught by a general-science guard. **Nothing
+aeronautical appeared at all.**
 
-**`ACE` IS THE PROGRAMME THIS AEROPLANE FLEW FOR AND IT COLLIDES WITH AN ECONOMICS SUBFIELD THAT USES
-THE SAME THREE LETTERS.** Agent-Based Computational Economics is abbreviated ACE and has its own
-journals and calls for papers. The word `agent` adds surfactants, since a surface-active agent is an
-agent. **Never query `ACE agent`.** It is also angiotensin-converting enzyme, which no probe was needed
-to predict.
+**`ABL` IS WORSE AND ONE OF ITS COLLISIONS IS INTERNAL.** A bare probe returned **the Airborne
+Laser**, which is aeronautics itself and which no aerospace gate can refuse; **Abl tyrosine kinase**,
+which is one of the most-studied genes in oncology; and German canon-law documents on safeguarding.
+**Never query `ABL` bare and never gate on it bare.** The company must be named in full.
 
-**`Calspan` IS A STRONG ANCHOR AND NOT A CLEAN ONE.** It is a whole laboratory, so a bare probe
-returns its shock tunnels, a Chrysler research safety vehicle and electromagnetic wave absorption
-alongside `Adaptive Flight Control Systems on Calspan Learjet`. Qualify it with flight or aircraft.
+**`aerospike` IS CLEAN AND PRODUCTIVE AND HAS ONE CHARMING COLLISION.** It returns the linear
+aerospike engine papers of 1974 and 1977, aerospike nozzle thrust vectoring, and hybrid-rocket
+aerospikes. It is also an Oxford English Dictionary headword and **a fish**, `A Prototype Aerospike:
+Another Fish in the Sea`. One record, not a family.
 
-**`NF-16D` IS AN EXCELLENT ANCHOR AND `16D` ALONE IS NOT**, which returned `Poem 16d` and a Nova Scotia
-map sheet. The qualified form returns the SPIE papers on the VISTA NF-16D programmable helmet-mounted
-display system from 1997 to 1999.
+**`plug nozzle altitude compensation` IS THE CLEANEST PRODUCTIVE PHRASE FOUND**, returning the plume
+physics of aerospike altitude compensation directly.
 
-**`variable stability` AND `in-flight simulator` ARE BOTH CLEAN AND BOTH PRODUCTIVE.** The first
-returns the Navy variable-stability handling-qualities studies, a 2017 book chapter titled `Variable
-Stability Aircraft and In-Flight Simulators`, and **the Bell X-22A variable stability research
-airplane, which is this series' own A319.**
+**`RS1` RETURNS NOTHING ON THE VEHICLE.** The contractor's launch vehicle name is too short and too
+generic to be an anchor.
 
-### A358's pool is no help, and that is measured
+**`Troy7` AND `Invocon` ARE A361's PROBLEM AND WERE NOT PROBED.** Do that before A361.
 
-Of A358's 7,412 gated records, the pool holds **0 naming X-62 or VISTA, 0 naming Calspan, 0 naming
-Skyborg and 0 naming Cooper-Harper**. It holds **1** on variable stability, **2** on in-flight
-simulation and **1** on model following. **Only `handling qualities` carries over, at 44 records.**
-**The sweep must be built from nothing**, exactly as A358's was.
+### A359's pool is some help and that is measured
+
+Of A359's 9,012 gated records the pool holds **0 naming X-63, X-64, ARISE, aerospike or ABL Space
+Systems.** It holds the rate-limit, actuator and flight-control vocabulary in quantity and none of
+the propulsion vocabulary this subject needs. **The sweep must be built from nothing again**, which
+is now three articles running.
 
 ### Store families to consider opening
 
-`cockpit-displays` is the obvious one, because the VISTA NF-16D's documented work is largely
-programmable helmet-mounted and head-down displays and the family was written by A347 against exactly
-that literature. A356 tagged it and opened it for the same reason. **Check `store_cost.py` before
-opening anything, and open against records rather than against a family name.**
+`missiles` and `ramjet` are the obvious candidates, because a suborbital demonstrator rocket meets
+the missile literature as its own subject. **Check the tag list before opening anything, open
+against records rather than against a family name, and say in the Source Base which were switched
+off and why.** A359 opened three and split one entry to create the third.
 
 ---
 
 ## Where the Series Stands
 
-**Sixty-two of seventy-two drafted, A297 through A358, indices 1 through 62 contiguous. Ten remain**,
-ending at editorial date 2025-12-16. **Nothing is published and publication has never been authorised.**
+**Sixty-three of seventy-two drafted, A297 through A359, indices 1 through 63 contiguous. Nine
+remain**, ending at editorial date 2025-12-16. **Nothing is published and publication has never been
+authorised.**
 
-**A357, Generation Orbit X-60**, editorial date 2025-12-05, index 61. All four passes, pushed. A rocket
-the designation system had to call an aircraft in order to give it a number, and it never flew.
+**A358, Dynetics X-61 Gremlins**, editorial date 2025-12-06, index 62. All four passes, pushed. The
+register stops being a primary source at that designation and says so itself.
 
-**A358, Dynetics X-61 Gremlins**, editorial date 2025-12-06, index 62. All four passes, pushed across
-four commits, `d70e26a`, `31a1a1d`, `2aad8be` and `f54ce6e`. **The register stops being a primary source
-at this designation and says so itself**, because the compiler's note states that for allocations after
-2018 the official description is no longer releasable to the public. Of the 31 X rows the X-60A is the
-last with official wording and the X-61A the first without. **The one official cell about propulsion
-names an `F107-WR-105`, whose only published rating is twice what every public account of the vehicle
-states**, and the article reports the conflict rather than settling it. **The vehicle is not a cruise
-missile and its published dimensions prove it with no estimate**, at 1,922 newtons per metre of span
-against 3,909 for the cruise missile that shares its engine. **The worst place to hold station behind a
-transport is a fixed fraction of its span**, 30.1 feet for a C-130, which is an identity. **A towed
-cable cannot be told where to hang**, so the docking device has to fly. **And a design life saturates
-against attrition**, which makes the article's reliability half and its economics half one relation.
+**A359, Lockheed Martin X-62 VISTA**, editorial date 2025-12-07, index 63. All four passes, pushed
+across three commits, `bf85876`, `5098585` and `5f05a80`. **The government gave the aeroplane an X
+number in 2021 and then spent 29,085,924.37 dollars on it across 73 transactions without once
+writing the number down**, the designation appearing exactly once in the whole award record and
+that once falling 23 days past the article's own date. **The register's unofficial sentence is
+corroborated anyway by the accounting system**, which names the Skyborg programme 108 days after the
+redesignation, and that is the strongest thing this series has said about a reconstructed
+description since the register stopped being official. **`Redesignated` appears in exactly one of
+539 rows.** **The keystone is an identity that removes the vehicle**, being that exact model
+following holds if and only if a projector built from the host's control effectiveness matrix
+annihilates the demanded change of dynamics, which turns the design into a count of control
+surfaces at three per axis, **the throttle among them because the speed equation is one of the
+three**. **The column that makes the projector vanish is the column that runs out first.** **The
+machine can make any aeroplane sluggish and cannot make any aeroplane crisp.** **And the school that
+flies it teaches the paper defining its rating scale as Chapter 16 of its own textbook.**
 
-**Final state 15,736 lines, 57 display equations, 116 declared symbols, 7,248 reference definitions,
-95,600 words**, with every one of 7,128 surviving records cited across 16 clusters and 1,155 report
-primaries at 16.2 percent.
+**Final state 18,645 lines, 45 display equations, 88 declared symbols, 8,749 reference definitions,
+113,876 words**, with every one of 8,596 surviving records cited across 15 clusters and 1,199 report
+primaries at 13.9 percent.
 
 ## The Established Rhythm, Which Is the Most Important Thing Here
 
@@ -197,6 +210,145 @@ band.
 ---
 
 ## Method Rules Earned the Hard Way
+
+### Earned in A359, and the theme is that a rule you write down is not a rule you follow
+
+**`pgrep -f <PATTERN>` MATCHES THE WAITING SHELL'S OWN COMMAND LINE, AND THIS COST SIX SHELLS IN ONE
+SESSION.** An `until ! pgrep -f "a359/harvest3.py"; do sleep; done` loop contains the string it is
+searching for, so it matches itself and can never terminate. **Two shells sat in that loop for over
+an hour**, one of them after its real work had already succeeded. **The rule was diagnosed, written
+into `REVERSE_PROMPT.md` and `TASKLOG.md`, and then broken four more times in the same session.**
+
+**THE RULE AS FIRST WRITTEN NAMED THE SYMPTOM AND NOT THE HABIT.** The correct form is used twice in
+the same session and works both times, being `until grep -q "^WROTE " <log>` and `until grep -q
+"FULL DONE" <log>`. **The reason for the relapse is that those two scripts printed a completion
+marker and the others did not**, so the fallback was reached for whenever there was nothing to grep
+for. **If a long job has no completion marker, give it one.** Do not reach for `pgrep`.
+
+**AND A WAIT CONDITION THAT CANNOT TELL YOUR PROCESS FROM ANOTHER SESSION'S IS THE SAME DEFECT.** A
+loop watching for `jekyll build` to disappear was watching the concurrent session's `_check.sh`,
+while this article's own build had finished in seventeen seconds.
+
+**A SECOND SESSION MAY BE WRITING THE SAME SHARED FILES AND `git add -A` WILL SWEEP UP ITS WORK.**
+A359 met this for the whole of three passes. **`TASKLOG.md` and `draft_summary.md` are append-and-edit
+files that two sessions can interleave in, and `REVERSE_PROMPT.md` is single-writer by design.**
+The resolution used was to stage this article's own paths explicitly, to insert the new history row
+BELOW the other session's rather than above it, and **to say in the commit message that the other
+session's interleaved text rides along because separating it would destroy it.** Nothing was lost.
+**Check `git status` before every commit.**
+
+**A NUMERIC VERIFIER CANNOT SEE A MISSING UNIT.** A359 shipped `the weaker one for the last 4.48`
+into three passes. **Every numeric check passed**, because the value was correct, rendered
+correctly and appeared exactly as often as the frozen list expected. **A unit is not a number and
+nothing in the suite was looking for one.** The superlative scan found it by accident.
+
+**A DECISION RECORDED IN THE PROCESS FILES IS NOT A DECISION IN THE ARTICLE.** The equation pass
+declined to use the phase-delay parameter of the bandwidth criterion and wrote that into
+`TASKLOG.md` and `REVERSE_PROMPT.md`. **It never reached the page.** The publication review found it
+by reading the closing sections against the process files, **which is the only check that would
+have.** Do that comparison at every pass after the first.
+
+**AND THE REASON FOR THE REFUSAL IS ITSELF A RULE.** Deriving the phase-delay parameter for a pure
+delay from the definition as recalled gave half the delay, where the usual summary of the subject
+says it is the delay. **A factor of two is not a rounding**, and the specification that settles it
+had not been read. **A formula reached for from memory is not a citation.** The article derived the
+phase margin it could and said why the other is absent.
+
+**WALK A CONFERENCE'S OWN NUMBERING.** A thematic sweep found four of the programme's eight papers.
+**Resolving every identifier in two contiguous ranges found all eight**, in two blocks of four, and
+the four the sweep missed are the ones whose titles name the SYSTEMS rather than the aeroplane.
+This is A356's lesson fired again, and that article's programme published no index where this one
+published a session. **The same walk turned up a correction notice on one of the eight.**
+
+**AND SEARCH THE DEFENCE REGISTRY FOR THE CURRICULUM, NOT ONLY FOR THE RESEARCH.** The United
+States Air Force Test Pilot School publishes its own flying-qualities textbook chapter by chapter
+into that registry. **Chapter 16 is a reprint of NASA Technical Note D-5153**, which is the paper
+defining the Cooper-Harper scale. **It was the best citation of the primary pass and it was found by
+a question about specifications rather than by looking for it.**
+
+**CHECK WHETHER THE REGISTRY CARRIES AN ABSTRACT BEFORE REFUSING TO QUOTE A PAPER.** An abstract is
+published metadata that may legitimately be read and quoted, and Crossref carries one for a great
+many works. **It carries none for any of the eight session papers**, nor for the aeroplane's 1984
+and 1988 founding papers, so the refusal became a measured limit rather than a scruple.
+
+**A THIN PRIMARY FRACTION MAY BE A FACT ABOUT WHERE A DISCIPLINE PUBLISHES, AND THE TEST IS THE
+NEIGHBOURING CLUSTER.** A359's keystone sat at 4.0 percent report primaries against the article's
+10.2. **No single venue holds more than 4.8 percent of it**, so model following is a dispersed
+conference and journal literature. **The aeronautical half of the same subject sat at 16.8 percent**,
+and that contrast is what makes the claim a measurement rather than an excuse.
+
+**THE TWO REGISTRIES ARE LIMITED IN DIFFERENT WAYS AND A SWEEP SHOULD LOG WHICH.** A359's fourth
+sweep printed its per-question yield. **All 42 defence-registry questions returned exactly 200
+rows**, so the binding constraint there is entirely the number of questions. **The reports server
+saturated on 60.8 percent and averaged 7.29 against a cap of 10**, and the two questions in five
+that came back under the cap are the only evidence that any part of the sweep reached the bottom of
+anything. **The earlier three sweeps printed a running total where the fourth printed an
+increment**, and parsing them alike gave three hundred records per question against a cap of ten.
+**An impossible number is the clearest sign that a parser is reading the wrong column.**
+
+**A NEGATIVE LOOKAHEAD GUARDING ONE CLAUSE LEAVES THE SIBLING CLAUSE ARMED, FOR THE THIRD TIME.**
+A359's `terrain following` guard was applied to the model-following clauses and not to the
+model-reference-adaptive one. **In that instance the record it admitted was genuinely on subject**,
+because the title independently named model reference adaptive control, so the gate was left as it
+was and the reasoning recorded. **Read what the unguarded clause admits before widening or
+narrowing it.**
+
+**AN OMNIBUS PROCEEDINGS VOLUME IS A LIST OF SUBJECTS AND NOT A SUBJECT.** One conference prints
+each year as `Volume 2, Aircraft Engine, Marine, Microturbines and Small Turbomachinery, Oil and Gas
+Applications`, and that container name alone deleted a paper on integrated flight and propulsion
+control from an article about flight control. **This is A354's multi-modal venue defect in a
+different family** and the guard has the same shape. **137 records in that pool were dropped by the
+container alone with a clean title**, most of them correctly, including a paper titled `Dogfight in
+the clouds` published in a volume on British archaeology in the Middle East. **The container filter
+earns its place and needs guarding, which are not in tension.**
+
+**AND A STORE ENTRY CAN SPAN TWO FAMILIES WHERE ONLY ONE IS THE ARTICLE'S SUBJECT.** A348's
+biomedical entry alternated ten terms and exactly one of them, the stem `physiolog`, names the
+discipline that measures a pilot. **Opening `medicine` wholesale would have readmitted
+thirty-eight records on artificial intelligence in clinical trials**, so the alternative was split
+into its own tagged entry on the A352 precedent. **The medical remainder the split releases carries
+no aeronautical anchor and the gate refuses it downstream**, which is where the division of labour
+between store and gate is supposed to fall.
+
+**A MACRO ALLOWLIST THAT REJECTS VALID INPUT TRAINS ITS AUTHOR TO WIDEN IT WITHOUT LOOKING.**
+A359's rejected `iff`, `ll`, `ne` and `simeq`, all of which are base TeX. **The list exists to
+catch a macro MathJax does NOT provide**, because an unknown macro renders as red text and fails
+nothing, **and a list that cries wolf is worse than a short one.**
+
+**THE SYMBOL SCANNER'S OPERATOR LIST IS ARTICLE-DEPENDENT AND MUST BE READ AS SUCH.** A359 added
+`det` and `dot`, because `\det` left a `d` after the declared `E`, `t` and `e` had eaten the rest,
+and `\dot{x}` left a `do` the same way. **`dot` is only safe while no symbol NAME contains it**,
+which A359's table satisfied and an article declaring `\dot{h}` would not. **`bar` stayed out**,
+because `\bar{c}` was a declared name.
+
+**AND A SYMBOL NAME MAY NOT CONTAIN A MACRO THE SCANNER STRIPS, WHICH IS A358'S RULE MET AGAIN.**
+A359 first wrote an amplitude as `\mathcal{a}`. The scanner removes `\mathcal` as an operator before
+it looks for declared symbols, so the declaration never matched, the braces fell away and a bare `a`
+was reported undeclared. **The amplitude became a hatted delta.**
+
+**A GUARD AGAINST A PARTIAL NUMERIC MATCH MUST NOT REJECT A FULL STOP.** A359's first occurrence
+scan wrote the trailing guard as a bare `(?![\d,.])`, which refuses any occurrence at the end of a
+sentence, **and a value that appears three times was reported as appearing none.** Reject a
+following DIGIT, or a comma or point that is itself followed by a digit, and nothing else.
+
+**AND THE FROZEN OCCURRENCE LIST MUST REFUSE TO DECAY.** A359 holds 104 values at their measured
+counts and **asserts that every unambiguous value reaching the page is in the list**, so a value
+added by a later pass cannot be silently unguarded. **Values of two digits or fewer are excluded and
+the reason is written down**, because a `4` cannot be located in a hundred thousand words and a
+check that counts every incidental four measures nothing.
+
+**A RE-PARSE FINDS ITS OWN DEFECTS FIRST AND THAT IS THE POINT OF IT.** A359's verifier re-parses
+the saved register HTML rather than re-reading the parsed JSON. **Written as a bare `<tr>` it
+matched 512 of 539 rows and missed exactly the 27 that carry a class**, which are the wholly
+unofficial and unconfirmed ones. **The omission was invisible as a parse failure and visible only
+as a disagreement with the other parser.**
+
+**AND A CONTRACT RECORD IS A THIRD KIND OF OBJECT AGAIN.** A357 found money that outlived its
+publicity, A358 found the inverse, and **A359 found an operating account rather than a development
+programme**, obligated in calendar-year increments to two contractors for twelve years. **It
+answers what an instrument costs to own**, which neither of the other two could ask. **The
+whole-record average conceals the step and is the figure a reader computes first**, so the article
+reported it alongside the step rather than instead of it.
 
 ### Earned in A358, and the theme is that the thing you did not guard is the thing that bites
 
@@ -2410,6 +2562,49 @@ FOUR ARTICLES.** After every equation pass, scan for lines that open with `$$` a
 
 ## Verification Toolchain
 
+**A359 ADDED SEVEN INSTRUMENTS WORTH COPYING FORWARD, ALL IN `tmp/a359/` AND THEREFORE
+GITIGNORED.** The whole A359 pipeline is there and repoints cleanly: `harvest.py` through
+`harvest4.py`, `merge_sweeps`, `gate_and_cluster`, `build_refs`, `emit`, `emit_source_base`,
+`emit_limits`, `emit_years`, `emit_spellings`, `calc` and `calc2`, `eqns`, `symcheck`,
+`article_numbers` and `article_numbers2`, `probe`, `regstats`, `contract`, `usa`, `usa2`,
+`related`, `assemble`, `verify_numbers`, `verify_ids`, `inject`, `pubscan`, `eqn_scan`,
+`homprobe`, `homprobe360`, `lin` and `full_build.sh`.
+
+**`lin.py` IS SMALL DENSE LINEAR ALGEBRA IN PURE PYTHON, BECAUSE THIS ENVIRONMENT HAS NO ARRAY
+LIBRARY.** Gauss-Jordan inverse, full-column-rank pseudoinverse, the projector, power-iteration
+spectral norm, closed-form two-by-two singular values and a bounded-loop rank. **Every loop has a
+bound visible in its header.** A359's first draft of `calc.py` imported `numpy` and died.
+
+**`pubscan.py` IS THE PUBLICATION REVIEW'S OWN INSTRUMENT AND IT FOUND FOUR REAL DEFECTS.** It
+splits the AUTHOR PROSE into sentences, having removed citations, display equations and tables,
+and reports two classes: **drafting-history candidates**, by a vocabulary of `the draft`, `an
+earlier version`, `was withdrawn` and their relatives, and **superlatives**, by `the only`, `the
+first`, `never`, `every`, `always`, `unique` and thirty more. A359 returned **0 drafting-history
+candidates**, which is the first time in this series, and **76 superlatives of which four did not
+earn their place**.
+
+**`eqn_scan.py` IS THE EQUATION PASS'S MIRROR OF IT.** It reports sections that name a relation or
+carry four or more numeric literals and display no equation. **The shared `audit.equation_gaps`
+counts a one-line `$$ ... $$` fence and this corpus writes a three-line one**, so it reports zero
+equations everywhere and every section as a gap, which is a check reporting a clean subset in
+reverse. The fence shape is the whole of the difference.
+
+**`emit_limits.py`, `emit_years.py` AND `emit_spellings.py` EMIT TABLES RATHER THAN LETTING THEM BE
+TYPED**, each asserting its own total against a figure computed separately. A358 typed a
+composition as literals and a gate change moved it within the same pass.
+
+**`regstats.py` RECOMPUTES EVERY CLAIM THE ARTICLE MAKES ABOUT THE REGISTER**, and the verifier
+then re-parses the saved HTML by a second route and compares. **That second parser found its own
+defect before it found anything else.**
+
+**AND THE CURATED-IDENTIFIER CHECK IN `verify_ids.py` IS NEW AND IS THE STRONGEST OF THEM.** Every
+hand-written DOI and reports-server identifier is resolved through the registry and compared
+against the year its label claims, **and a deliberately fabricated identifier is resolved alongside
+them and required to return nothing.** A check that cannot distinguish a real identifier from an
+invented one is measuring the network. A359 held 39 of them, plus 33 quoted phrases against saved
+copies with a whitespace-collapsing fallback for scanned text, plus 14 books against both recorded
+title and recorded author.
+
 **A358 ADDED SIX INSTRUMENTS WORTH COPYING FORWARD, ALL IN `tmp/a358/` AND THEREFORE
 GITIGNORED.**
 
@@ -2464,12 +2659,15 @@ while it holds `inject.lock`.
 describing each module: `fetch` for archive queries, `refs` for anchors and the reference block, `edits`
 for guarded editing, `reflow`, `lint`, `diction` for word and phrase overuse, `audit` for equation and
 citation gaps, `numcheck` for independent re-derivation, and `citations` for registry verification. Run
-`python3 _lib/test_lib.py`, which should report **115 of 115** as of 2026-09-13. **`refs.clean` gained a bare-pipe strip on
+`python3 _lib/test_lib.py`, which should report **117 of 117** as of 2026-09-14. **`refs.clean` gained a bare-pipe strip on
 2026-08-12**, because kramdown reads a paragraph whose first line contains a pipe as a table and a
 publisher-mangled apostrophe entity put one into link text. **Three modules were added on
 2026-08-11**, being `gate` for subject-anchor gating with a mandatory two-sided sample, `render` for
 auditing BUILT HTML, and `resolve` for identifier resolution. `_research/rejected.json` holds the accumulated
-sweep judgements, reused through `_research/homonyms.py`, **whose curated pattern list is now 140 across 30 tagged families**, the newest family being
+sweep judgements, reused through `_research/homonyms.py`, **whose curated pattern list is now 141 across 31 tagged families**, the newest family being
+`physiology`, earned by A359 and **created by SPLITTING AN ENTRY rather than by widening one**,
+because A348's biomedical computational-fluid-dynamics entry alternated ten terms of which exactly
+one, the stem `physiolog`, names the discipline that measures a pilot. The family before it was
 `drug-discovery`, earned by A358 when molecular docking reached the relative-navigation cluster of
 an article about docking one aeroplane with another. **A358 added four patterns**, being that one,
 the remote-sensing sense of `retrieval`, the grey partridge and desert locust behind two programme
@@ -2491,6 +2689,11 @@ families: `adhesive-bonding`, `civil-structures`, `cockpit-displays`, `composite
 `environmental-assessment`, `fracture`, `geophysics`, `hypersonics`, `interpreting`, `marine`,
 `medicine`, `meteorology`, `missiles`, `ndt`, `nomenclature`, `ocean-modelling`, `ramjet`,
 `remote-sensing`, `smart-actuators`, `surface-transport`, `teaching` and `wind-energy`.
+
+**A359 OPENED THREE AND SPLIT AN ENTRY TO CREATE THE THIRD**, being `cockpit-displays` because
+its subject was a pilot in a cockpit being deceived, `teaching` because the aeroplane is operated
+by a school and the family was deleting three papers about that school's own curriculum, and
+`physiology` because the family that held it did not exist until A359 made it.
 
 **A356 TAGGED ONE AND OPENED THIRTEEN.** The cockpit-display family was written by A347 against the
 human-factors literature of rotorcraft displays and **carried no tag**, so it could not be reached at
@@ -2667,6 +2870,36 @@ tests the helix-angle cancellation as a **randomised property**.
 ---
 
 ## Open Decisions
+
+### NEW on 2026-09-14. A concurrent session shares this working tree
+
+**A second session drafted A374, a standalone wargaming essay, while A359 was in its second and
+third passes**, and left two items uncommitted: `_drafts/published_wargames_of_war_with_china.markdown`
+and four rows added to `_docs/process/URL_VERIFICATION.md`. **Its own TASKLOG row and its
+`draft_summary.md` block were interleaved with A359's in shared files**, could not be separated
+without destroying one, and therefore ride along in A359's commits, which say so.
+
+**The pilot has confirmed the arrangement and that the other session is parked on a gate.** What is
+not settled is **who owns `REVERSE_PROMPT.md`**, which is single-writer by design and which that
+session's own TASKLOG row claims to have written and did not. **A359 wrote it.** If both sessions
+continue, the pilot may want a convention, such as one file per session or a named section each.
+
+### NEW on 2026-09-14. A360 and A361 are one programme and the roster gives them two articles
+
+**The X-63A and the X-64A were allocated on the same day with byte-identical descriptions**,
+differing only in contractor. **That is the only duplicated description among the 31 X rows.** The
+roster gives them an article each. **Plan them together or the second will have nothing left**, and
+raise the division with the pilot rather than deciding it alone. The precedent is A341, the X-44
+that was two aircraft.
+
+### NEW on 2026-09-14. The bandwidth criterion's phase-delay parameter is unresolved
+
+**A359 wanted it and would not use it.** Deriving the phase delay of a pure delay from the
+definition as recalled gives half the delay, where the usual summary of the subject says it is the
+delay. **A factor of two is not a rounding.** The specification that settles it, MIL-STD-1797 or its
+handbook, **has not been read and is not in the corpus.** Any later article that wants to express a
+delay as a handling-qualities level must read it first.
+
 
 ### NEW on 2026-09-13. Two published-chain drafts show anchor slugs where titles belong
 
@@ -3193,6 +3426,38 @@ present the spectrum as running from the measurable to the merely estimated.
 
 X-58 and X-67 were lost to the **parallel XQ- unmanned series drawing from the same numeric pool**,
 which is a genuine finding about how the system evolved and belongs in the closer.
+
+**A359 ADDS THREE TO THE CLOSER AND THE FIRST IS THE STRONGEST THING THIS SERIES HAS ON WHAT A
+DESIGNATION IS FOR.** The government allocated the X-62A in June 2021 and then spent 29,085,924.37
+dollars on the aeroplane across 73 transactions **without once writing the number down**. The
+designation appears exactly once in the whole federal award record and that once falls 23 days past
+the article's own editorial date. **A designation is a claim about a vehicle's purpose made by one
+part of a government to another, and the part that buys the fuel and the spares had no use for the
+claim**, because for its purposes the aeroplane had not changed and the contract line was the same
+contract line. **Both records are right and they are answering different questions**, which is a
+sharper statement of what the register is than anything the series has had.
+
+**A SECOND, WHICH COMPLETES THE ORDERING TABLE.** The series has now met five distinct orderings
+between a designation and its aeroplane: the number first and the aeroplane after, which is most of
+the early series; the number after the aeroplane stopped flying, which is the X-53; the number
+allocated and no aeroplane ever built, which is the X-54; the number following first flight by
+months, which is the X-55; and **the number following first flight by twenty-nine years while the
+aeroplane is still flying, which is the X-62A**. **The fifth is the only one in which the
+designation records a change of purpose rather than an event in the aeroplane's life.**
+
+**A THIRD, WHICH IS AHEAD RATHER THAN BEHIND AND WHICH THE CLOSER SHOULD NOT LOSE.** The X-63A and
+the X-64A were allocated on the same day, to the same sponsor, with the same engines cell, **and
+with byte-identical descriptions**, differing only in contractor. **It is the only duplicated
+description among the 31 X rows.** Two numbers for one programme, distinguished by who builds them.
+**The system is counting contractors there rather than aeroplanes**, which belongs beside the X-44's
+two aircraft and the XQ- series drawing from the same pool.
+
+**AND A CORROBORATION THAT CUTS THE OTHER WAY, WHICH THE CLOSER SHOULD CARRY HONESTLY.** A358
+established that the register stops being a primary source at the X-61A. **A359 found one of those
+unofficial sentences corroborated by a different arm of the same government**, the accounting system
+naming the Skyborg programme 108 days after the redesignation. **A reconstruction is not thereby
+official and it is corroborated**, which is a weaker claim and a more useful one, and the closer
+should not let the register's loss of authority become a blanket refusal to believe it.
 
 ## Writing a New Handoff
 
