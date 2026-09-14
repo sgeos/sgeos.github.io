@@ -17,76 +17,113 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## What Published Wargames Say About a War With China A374 2026-08-11
+
+`published_wargames_of_war_with_china.markdown`, A374, editorial date 2026-08-11, standalone
+analytical essay, categories `geopolitics military war-gaming`. Not part of the X-Planes series and
+drafted outside its rhythm on the pilot's instruction.
+
+**805 lines, 12 display equations, 27 reference definitions, roughly 5,300 words after the drafting
+pass.** **Drafting pass complete.** Committed and **not pushed**. **Not published.**
+
+**Source.** A pilot-supplied exchange with an external large language model that summarized the
+public wargaming of a war with China. **Every claim was checked against the primary reports and
+nine were corrected**, and the corrections are listed in the article's Epistemic State section.
+
+**THE SUMMARY SAID THE INVASION FAILS IN THE VAST MAJORITY OF CSIS ITERATIONS, AND THE COUNT SAYS NINE
+OF TWENTY-FOUR.** The Center for Strategic and International Studies report's own family counts give
+3 base, 18 pessimistic, 2 optimistic and 1 Taiwan-alone iterations. Decisive Chinese defeat in 9,
+stalemate in 14, PLA victory in the 1 without American intervention. The report's headline, that the
+invasion is defeated in most scenarios, is not wrong, but it is not a vast majority.
+
+**THE SUMMARY ASSERTED A UNIFORM CONSENSUS AND CITED THE ONE SOURCE THAT BREAKS IT.** Its logistics
+citation was an AMAC news article reporting on the Heritage Foundation's TIDALWAVE model, which finds
+the United States culminating in less than half the time China does. The summary did not say so.
+
+**THE KEYSTONE IS THE NUCLEAR RESULT.** The CSIS nuclear study found that seven of eight nuclear uses
+were Chinese first use at the moment of conventional defeat. The conventional failure that the
+external summary treated as the end of the gamble is where the nuclear games place the greatest
+danger. This synthesis is marked as inference.
+
+**Unresolved and stated in the article.** The CSIS invasion report describes a Ragnarok scenario
+without an iteration count while its four stated family counts already sum to 24, and its table and
+text disagree on average Chinese aircraft losses at 155 against 161.
+
+**Evidence tiers.** The CSIS invasion, nuclear, blockade and munitions reports, the RAND 2016 and 2025
+reports, and the National Bureau of Statistics communiqué were read from primary text. TIDALWAVE,
+TIDALWAVE II and Bloomberg Economics rest on summaries and press copies, because heritage.org and
+bloomberg.com refused retrieval. The four peak-China essays are characterized from publisher
+summaries and were not read in full.
+
+**Remaining passes.** Equation density, primary-reference density and publication review. The
+reference density is deliberately modest against X-Planes norms, and a primary-reference pass would
+most usefully add the full TIDALWAVE report and the full Foreign Affairs and Foreign Policy essays.
+
+
 ## X-Planes Lockheed Martin X-62 VISTA A359 2025-12-07
 
 `x_planes_lockheed_martin_x62_vista.markdown`, A359, editorial date 2025-12-07, series
 `x_planes` index 63 of 72.
 
-**15,770 lines, 21 display equations, 46 declared symbols, 7,507 reference definitions,
-91,850 words after the drafting pass.** **FIRST OF FOUR PASSES COMPLETE.** Committed and
-**NOT pushed**, which is the rhythm. **Not published**, and publication of the series has
+**17,810 lines, 45 display equations, 88 declared symbols, 8,378 reference definitions,
+105,778 words after the equation-density review.** **TWO OF FOUR PASSES COMPLETE.** Committed
+and **not pushed**, which is the rhythm. **Not published**, and publication of the series has
 never been authorised.
 
-**THE X NUMBER IS NOT IN THE ACCOUNTING SYSTEM.** The federal award record carries 73
-transactions and 29,085,924.37 dollars against this aeroplane from February 2014 to September
-2025 and **not one of them calls it the X-62A**. The designation appears exactly once in the
-whole record and that once falls 23 days past the article's own editorial date, **so an
-article that filtered in the sentence rather than in the data would have reported the opposite
-of this record's most interesting property**. **The register's unofficial sentence is
-corroborated anyway by a different government record**, the Air Force having obligated
-799,956.00 dollars under a line naming the Skyborg programme 108 days after the redesignation.
+**THE EQUATION REVIEW TOOK THE ARTICLE FROM 21 DISPLAY EQUATIONS TO 45 AND FROM 46 DECLARED
+SYMBOLS TO 88**, and a scan found seventeen sections naming a relation and displaying none.
+Most were documentary and needed no mathematics. **Six needed it and one of them produced a
+finding rather than a tidy-up.**
 
-**`REDESIGNATED` APPEARS IN EXACTLY ONE OF THE REGISTER'S 539 ROWS.** Eight X rows describe an
-aircraft modified from an existing one and the other seven say *highly modified*, *converted*,
-*derivative of* or *upgrade*. **Only this one says the aeroplane was renamed.**
+**THE COLUMN THAT MAKES THE PROJECTOR VANISH IS THE COLUMN THAT RUNS OUT FIRST.** Solving the
+worked example for its gains rather than its residual shows the simulation demanding 2.63
+degrees of symmetric flap per degree of angle of attack against 0.82 of tail. **The flap
+reaches its published limit at 8.17 degrees of angle of attack and the tail would not reach its
+own until 30.5**, so the envelope of aeroplanes the machine can imitate is set by its weakest
+control and not by its strongest. **The rank argument does not predict that.**
 
-**THE KEYSTONE IS AN IDENTITY AND IT REMOVES THE VEHICLE.** Exact model following holds if and
-only if a projector built from the host's control effectiveness matrix annihilates the demanded
-change of dynamics, and when it fails the residual is driven by the model's own state so no
-feedback gain removes it. **The rank bound turns that into a count of control surfaces at three
-per axis and the variable stability system has exactly three in each**, the throttle among them
-because the speed equation is one of the three. **With one pitch control 83.3 percent of the
-demanded change in the lift row is unreachable and 0.05 percent of the moment row is**, so a
-simulator built round a tail alone can imitate any pitch stiffness and cannot imitate a
-different wing.
+**AND THE LEADING-EDGE FLAP'S SCHEDULED LEAD IS VERY NEARLY CANCELLED BY ITS OWN ACTUATOR.**
+The draft offered the surface's slow actuator as a sufficient reason for the second flight
+control system not commanding it. **The aeroplane's own flap schedule is published in the same
+appendix as the actuator lag**, and it is a lead network of two with a pole at 7.25 radians per
+second while the actuator's corner is 7.35, **a separation of 1.42 percent**. Across the band
+where the simulation lives the surface delivers a gain rise of 0.8 where the schedule asks for
+1.8. **The lead is not merely reduced. Its sign is reversed.** The article reports the
+coincidence and claims nothing about its cause.
 
-**THE BINDING LIMITS WERE PUBLISHED IN 1979** in a NASA report that never names the aeroplane
-in its title. A rate limit divided by a deflection limit is a frequency, and **the symmetric
-horizontal tail, which has the most travel, has the lowest corner of all four at 2.4 radians
-per second, below a fighter's own short period**. **And the deepest limit is one-sided**,
-because every delay in the host lies between the pilot and the simulated response, so the
-machine can make any aeroplane sluggish and cannot make any aeroplane crisp.
+**THE TWO SHORT PERIODS ARE NOW MODES RATHER THAN EIGHT MATRIX ENTRIES.** The host is an
+ordinary oscillatory pair at 3.13 radians per second with a damping ratio of 0.431. **The
+model's determinant is negative, so it is not oscillatory at all**, and it diverges with a time
+to double amplitude of 0.755 seconds.
 
-**THE NAME DOES NOT SPELL ITS OWN ACRONYM.** Seven expansions across 55 occurrences in the
-award record, of which 54 keep a word that contributes no letter. **The prime contractor has
-now fixed it by deleting that word.**
+**THE DELAY FLOOR IS NOW PRICED IN THE CURRENCY THE PILOT SPENDS.** The crossover model leaves
+ninety degrees of margin and a transport delay takes from it linearly, so **the host consumes
+14.23 percent of the pilot's margin at three radians per second and 28.46 percent at six**,
+before the simulated aeroplane contributes anything.
 
-**TWO INSTRUMENT REPAIRS WENT INTO THE SHARED STORE**, splitting the stem `physiolog` out of
-A348's biomedical entry into its own tagged family rather than opening `medicine` wholesale,
-and guarding the turbomachinery family against an omnibus proceedings volume whose name lists
-four unrelated fields. **A second sweep repaired three of four thin conclusions**, taking
-direct lift from 8 records to 93, control effectiveness from 16 to 118 and ownership cost from
-15 to 349. **The fourth is reported as uncovered rather than softened.**
+**AND THE ORDINAL CLAIM IS NOW AN INVARIANCE RATHER THAN AN ASSERTION.** A statistic is
+meaningful on an ordinal scale exactly when it survives every strictly increasing relabelling
+of the points. **The median does and the mean does not**, which is the whole of the argument.
 
-**ONE ATTRIBUTION WAS CORRECTED BEFORE IT SHIPPED.** The solvability condition belongs to a
-NASA Technical Memorandum of 18 October 1967 and not to the 1970 journal paper the draft
-credited, and the memorandum was already in the sweep, unpromoted, among a thousand siblings
-in the keystone cluster.
+**THE PASS PROMOTED SEVEN CONCLUSIONS AND A THIRD SWEEP FOLLOWED**, which is this corpus's
+oldest rule. Five subjects measured under seventy records after the pass had placed equations
+in them. **The sweep took describing functions from 188 to 738, pilot rating scales from 76 to
+656, high-lift scheduling from 13 to 190 and ownership cost from 15 to 351.** Nineteen
+conclusions are now probed and **one remains uncovered**, being the claim that the contract
+record and the designation register are independent documents that agree, which has no
+aeronautical literature because it is a claim about records.
 
-**VERIFICATION.** Verifier 0 errors and 0 warnings. Tests 117 of 117. **The article verifier
-runs 269 checks and passes all of them and the injection suite catches 139 of 139.** The
-symbol scanner reports all 46 declared symbols used and every symbol used declared.
-Identifier verification holds 28 quoted phrases against the saved copies they were read from
-and 14 book identifiers against both recorded title and recorded author, **and the address
-sweep found one dead link, an address this article had invented for a page that does not
-exist**. **The whole corpus with this article published builds in 18.5 seconds against
-checksum-matched bytes and the rendered audit reports no findings across 541 pages.** Source
-and rendered display-equation counts agree at 21, with zero raw dollar pairs, zero unresolved
-reference brackets, zero unexpanded slots and zero unrendered Liquid. The page is 1,383,690
-bytes and carries 15,280 links.
+**VERIFICATION.** Verifier 0 errors and 0 warnings. **The article verifier runs 479 checks and
+passes all of them and the injection suite catches 275 of 275.** The symbol scanner reports all
+88 declared symbols used and every symbol used declared. **The whole corpus with this article
+published builds in 17.0 seconds against checksum-matched bytes and the rendered audit reports
+no findings across 542 pages.** Source and rendered display-equation counts agree at 45, with
+zero raw dollar pairs, zero unresolved reference brackets, zero unexpanded slots and zero
+unrendered Liquid. The page is 1,557,522 bytes and carries 17,027 links.
 
-**REMAINING WORK.** Equation density, primary-reference density and publication review, in
-that order and each on its own prompt.
+**REMAINING WORK.** Primary-reference density and publication review, in that order and each on
+its own prompt.
+
 
 ## X-Planes Dynetics X-61 Gremlins A358 2025-12-06
 

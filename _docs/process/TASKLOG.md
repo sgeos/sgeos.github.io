@@ -9,93 +9,72 @@ Current task state and verification log. This file is the shared source of truth
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
-**Status**: **A297 through A358 have ALL FOUR PASSES COMPLETE and are PUSHED. A359 is DRAFTED,
-committed and NOT pushed**, which is the rhythm. **Sixty-three of seventy-two drafted. None
-published, and publication has never been authorised. Nine articles remain.** The next new
-article is **A360, the X-63**, editorial date 2025-12-08, series index 64.
+**Status**: **A297 through A358 have ALL FOUR PASSES COMPLETE and are PUSHED. A359 has TWO OF
+FOUR, being the drafting pass and the equation-density review**, committed and NOT pushed, which
+is the rhythm. **Sixty-three of seventy-two drafted. None published, and publication has never
+been authorised. Nine articles remain.** The next new article is **A360, the X-63**, editorial
+date 2025-12-08, series index 64.
 
-**THE X NUMBER IS NOT IN THE ACCOUNTING SYSTEM.** The federal award record carries 73
-transactions and 29,085,924.37 dollars against this aeroplane from February 2014 to September
-2025, and **not one of them calls it the X-62A**. The designation was allocated on 14 June 2021
-and by this article's editorial date, 1,637 days later, the system that pays for the aircraft
-had never used it. **The designation appears exactly once in the whole record and that once
-falls 23 days past the article's own date**, so an article that filtered in the sentence rather
-than in the data would have reported the opposite of this record's most interesting property.
+**THE EQUATION REVIEW TOOK THE ARTICLE FROM 21 DISPLAY EQUATIONS TO 45 AND FROM 46 DECLARED
+SYMBOLS TO 88.** A scan found seventeen sections naming a relation and displaying none. **Most
+were documentary and needed no mathematics**, which is reported rather than repaired, and six
+needed it.
 
-**AND THE REGISTER'S UNOFFICIAL SENTENCE IS CORROBORATED BY A DIFFERENT GOVERNMENT RECORD.**
-The compiler marks the description as not official Department of Defense wording and it names
-the Skyborg programme. **One hundred and eight days after the redesignation the Air Force
-obligated 799,956.00 dollars under a line naming HAVE Autonomous Air Combat Operations Phase
-Two Skyborg.** The two records are maintained for unrelated purposes and they agree, which is
-the strongest thing this series has said about a reconstructed description since the register
-stopped being a primary source one article ago.
+**THE COLUMN THAT MAKES THE PROJECTOR VANISH IS THE COLUMN THAT RUNS OUT FIRST.** Solving the
+worked example for its gains rather than its residual has the simulation demanding 2.63 degrees
+of symmetric flap per degree of angle of attack against 0.82 of tail. **The flap reaches its
+published limit at 8.17 degrees of angle of attack and the tail would not reach its own until
+30.5**, so the envelope of aeroplanes the machine can imitate is set by its weakest control and
+not by its strongest. **The rank argument does not predict that and the deflection arithmetic
+does.**
 
-**ONE WORD IN THIS ROW APPEARS NOWHERE ELSE IN THE REGISTER.** `Redesignated` occurs in exactly
-one of 539 rows. Eight X rows describe an aircraft modified from an existing one and the other
-seven say *highly modified*, *converted*, *derivative of* or *upgrade*. **Only this one says the
-aeroplane was renamed**, which is a statement about paperwork rather than about metal.
+**AND THE LEADING-EDGE FLAP'S SCHEDULED LEAD IS VERY NEARLY CANCELLED BY ITS OWN ACTUATOR.**
+The drafting pass offered the surface's slow actuator as a sufficient reason for the second
+flight control system not commanding it. **The aeroplane's own flap schedule is published in the
+same appendix as the actuator lag**, and reading it shows a lead network of two with a pole at
+7.25 radians per second against an actuator corner of 7.35, **a separation of 1.42 percent**.
+Across the band where the simulation lives the surface delivers a gain rise of 0.8 where the
+schedule commands 1.8, and by fifteen radians per second the combined response lags by 51.7
+degrees. **The lead is not merely reduced. Its sign is reversed.** The article reports the
+coincidence and claims nothing about its cause.
 
-**THE KEYSTONE IS AN IDENTITY AND IT REMOVES THE VEHICLE.** Exact model following holds if and
-only if a projector built from the host's control effectiveness matrix annihilates the demanded
-change of dynamics. When it fails the residual is driven by the model's own state and **no
-feedback gain removes it**. The rank bound turns that into a count of control surfaces, at three
-per axis, **and the variable stability system has exactly three in each**. A symmetric
-stabilator, a symmetric flaperon and a throttle in pitch. **The engine is in the list because
-the speed equation is one of the three**, so it appears in the mathematics as a column rather
-than as propulsion.
+**THE TWO SHORT PERIODS ARE NOW MODES RATHER THAN EIGHT MATRIX ENTRIES.** The host is an
+oscillatory pair at 3.13 radians per second damped at 0.431 and **the model's determinant is
+negative**, so it is not oscillatory at all and diverges with a time to double of 0.755 seconds.
 
-**AND THE WORKED RESIDUAL SAYS WHICH HALF OF THE AEROPLANE GOES WRONG WITHOUT THE FLAP.** With
-one pitch control, **83.3 percent of the demanded change in the lift row is unreachable and
-0.05 percent of the moment row is**, a ratio of 1,677. A tail makes moment and not lift, so a
-simulator built round a tail alone can imitate any pitch stiffness and cannot imitate a
-different wing.
+**THE DELAY FLOOR IS NOW PRICED IN THE PILOT'S OWN CURRENCY.** The crossover model leaves ninety
+degrees of margin and a delay takes from it linearly, so **the host consumes 14.23 percent of it
+at three radians per second and 28.46 percent at six.** The crossover frequencies are assumed
+and named as assumptions. **The crossover ceiling of 21.08 radians per second is far above where
+a pilot works, so the article states it and declines to call it binding.**
 
-**THE BINDING LIMITS WERE PUBLISHED IN 1979** in a NASA report that never names the aeroplane in
-its title. **A rate limit divided by a deflection limit is a frequency**, and the four surfaces
-the second system commands come out at 2.4, 11.16, 3.72 and 4.0 radians per second. **The
-symmetric horizontal tail, which has the most travel, has the lowest corner of all of them and
-it falls below a fighter's own short period.** The differential tail, with a fifth of the travel
-and the same rate limit, has 4.65 times the bandwidth, which is exactly the deflection ratio.
+**AND THE ORDINAL CLAIM IS NOW AN INVARIANCE.** A statistic is meaningful on an ordinal scale
+exactly when it survives every strictly increasing relabelling. **The median does and the mean
+does not.**
 
-**AND THE DEEPEST LIMIT IS ONE-SIDED.** Every delay in the host lies between the pilot and the
-simulated response and the simulation can only add. **The machine can make any aeroplane
-sluggish and cannot make any aeroplane crisp**, with a floor of at least 49.5 milliseconds from
-the published actuator lag alone. **The instrument also contains the nonlinearity it was built
-to study**, because rate limiting is the mechanism of one class of pilot-induced oscillation.
+**ONE RELATION WAS WANTED AND REFUSED.** The bandwidth and phase-delay criterion is the field's
+own way of turning a delay into a handling-qualities level, and its phase-delay parameter has a
+definition this article could not verify without reading the specification. **A formula reached
+for from memory is not a citation**, so the article uses the phase margin it can derive and says
+the criterion exists.
 
-**THE NAME DOES NOT SPELL ITS OWN ACRONYM.** The government expands VISTA seven ways in the
-award record for this one aeroplane, across 55 occurrences, **of which 54 keep the word
-`stability` and one drops it**. Variable stability in-flight simulator test aircraft spells
-VSISTA. **The prime contractor has now fixed it** by writing Variable In-flight Simulation Test
-Aircraft, which spells the acronym exactly, **and the repair was made by deleting the word that
-never fitted**.
+**THE PASS PROMOTED SEVEN CONCLUSIONS AND A THIRD SWEEP FOLLOWED**, which is this corpus's
+oldest and most reliable rule. Five subjects measured under seventy records after the pass had
+placed equations in them. **The sweep took describing functions from 188 to 738, pilot rating
+scales from 76 to 656, high-lift scheduling from 13 to 190, direct lift from 144 to 342 and
+ownership cost from 15 to 351.** Nineteen conclusions are probed and **ten of them gained more
+than half again as much coverage**. One remains uncovered and is reported rather than softened.
 
-**TWO INSTRUMENT REPAIRS WERE COMMITTED TO THE SHARED STORE.** The stem `physiolog` was deleting
-the pilot-workload literature, so it was **split out of A348's biomedical entry into its own
-tagged family** rather than opening `medicine` wholesale, which would have readmitted
-thirty-eight records on artificial intelligence in clinical trials. **And an omnibus proceedings
-volume is a list of subjects rather than a subject**, so the turbomachinery family gained a
-guard of A354's shape after a container named `Volume 2, Aircraft Engine, Marine, Microturbines
-and Small Turbomachinery` deleted a paper on flight and propulsion control.
-
-**THE PROBE FOUND FOUR THIN CONCLUSIONS AND A SECOND SWEEP REPAIRED THREE**, taking direct lift
-from 8 records to 93, the control-effectiveness vocabulary from 16 to 118 and ownership cost
-from 15 to 349. **The fourth is still uncovered at 2 and is reported rather than softened**,
-being a claim about documents rather than about aeroplanes.
-
-**ONE ATTRIBUTION WAS CORRECTED BEFORE IT SHIPPED.** The draft credited the solvability
-condition to a 1970 journal paper. **It is a NASA Technical Memorandum of 18 October 1967**,
-which the sweep had already retrieved and which was sitting unpromoted in the keystone cluster
-among a thousand siblings.
-
-**VERIFICATION.** Verifier 0 errors and 0 warnings. Tests 117 of 117. **The article verifier
-runs 269 checks and passes all of them and the injection suite catches 139 of 139.** The symbol
-scanner reports all 46 declared symbols used and every symbol used declared. **The register is
-checked by a second parser reading the saved HTML, and that re-parse found a defect in itself
-first**, having matched 512 of 539 rows because a bare `<tr>` pattern missed exactly the 27 rows
-that carry a class. Identifier verification holds 28 quoted phrases against saved copies and 14
-book identifiers against both recorded title and recorded author, and **the address sweep found
-one dead link, an address this article had invented for a page that does not exist**.
+**VERIFICATION.** Verifier 0 errors and 0 warnings. **The article verifier runs 479 checks and
+passes all of them, up from 269, and the injection suite catches 275 of 275, up from 139.** The
+symbol scanner reports all 88 declared symbols used and every symbol used declared. **The
+allowlist rejected four valid base TeX macros before it rejected anything else**, which is
+recorded because a list that refuses valid input trains its author to widen it without looking.
+Identifier verification holds 33 quoted phrases against the saved copies they were read from,
+**two of them through a whitespace-collapsing comparison**, because the scanned report spreads
+words across runs of spaces and that is an artefact of the scan rather than a fact about the
+document. **The whole corpus builds in 17.0 seconds against checksum-matched bytes and the
+rendered audit reports no findings across 542 pages.**
 
 ---
 
@@ -836,6 +815,8 @@ one dead link, an address this article had invented for a page that does not exi
 
 | Date | Change |
 |------|--------|
+| 2026-09-14 | **A374 DRAFTED, standalone analytical essay, What Published Wargames Say About a War With China, editorial date 2026-08-11.** Committed, **not pushed and not published**. Side task on the pilot's instruction, outside the X-Planes rhythm, which it does not touch. **Number and date selection.** A374 is the next number after the reserved X-Planes range A297 to A368 and the published A369 to A373, per the TASKLOG note at line 815. 2026-08-11 was the only unused date between 2025-12-17 and 2026-08-19 across `_posts/` and `_drafts/`. **Source.** A pilot-supplied external large language model summary of public wargames, every claim checked against primary reports. **NINE CLAIMS CORRECTED**, the largest being that the invasion fails in the vast majority of CSIS iterations when the count is **9 of 24 decisive defeats, 14 stalemates and 1 PLA victory**, and that the record is uniform when the Heritage Foundation's TIDALWAVE model, which the summary cited through a news article, finds the United States culminating first. **Inference marked as inference.** The CSIS nuclear study puts 7 of 8 nuclear uses at Chinese conventional defeat, which is exactly the outcome the summary called the end of the gamble. **Unresolved and stated.** The CSIS Ragnarok iteration count is not given while the four stated family counts sum to 24, and the report's table and text disagree on Chinese aircraft losses, 155 against 161. **Evidence tiers stated in the Epistemic State**, with TIDALWAVE, TIDALWAVE II and Bloomberg resting on summaries and press copies. `URL_VERIFICATION.md` gains heritage.org, newsweek.com, usnews.com and the fetcher refusals on bloomberg.com and cnn.com. **VERIFICATION.** `_verify.py` **0 errors and 0 warnings** across 301 posts, 805 lines, 12 display equations, 27 reference definitions all used and sorted, no dashes, no diction word at or above the peer maximum, 25 of 27 URLs returning 200 after replacing a timed-out usnews.com wire copy with a reachable one and retrying aei.org at a longer timeout, the remaining two being 403 on the heritage.org TIDALWAVE page and 406 on newsweek.com, and all fifteen arithmetic statements in the article rechecked by script. `./_check.sh --drafts` result recorded in `REVERSE_PROMPT.md`. |
+| 2026-09-14 | **A359 EQUATION-DENSITY REVIEW, the second of four passes. Committed and NOT pushed.** State **17,810 lines, 45 display equations, 88 declared symbols, 8,378 reference definitions, 105,778 words**, research 8,248, report primaries 842 at 10.2 percent, three sweeps retrieving 31,254 of which 28,236 distinct, gate 8,579. **FROM 21 DISPLAY EQUATIONS TO 45 AND FROM 46 DECLARED SYMBOLS TO 88.** A scan found seventeen sections naming a relation and displaying none; most were documentary and are reported rather than repaired. **THE COLUMN THAT MAKES THE PROJECTOR VANISH IS THE COLUMN THAT RUNS OUT FIRST**, the simulation demanding 2.63 degrees of symmetric flap per degree of angle of attack against 0.82 of tail, **so the flap saturates at 8.17 degrees where the tail would not until 30.5**, and the envelope is set by the weakest control rather than the strongest. The rank argument does not predict that. **AND THE LEADING-EDGE FLAP'S SCHEDULED LEAD IS VERY NEARLY CANCELLED BY ITS OWN ACTUATOR**, the published schedule being a lead of two with a pole at 7.25 radians per second against an actuator corner of 7.35, **a separation of 1.42 percent**, so the surface delivers a gain rise of 0.8 where the schedule commands 1.8. **The lead is not merely reduced. Its sign is reversed.** **THE TWO SHORT PERIODS ARE NOW MODES**, the host oscillatory at 3.13 radians per second damped at 0.431 and the model divergent with a time to double of 0.755 seconds. **THE DELAY FLOOR IS PRICED IN THE PILOT'S OWN CURRENCY**, consuming 14.23 percent of the crossover margin at three radians per second and 28.46 at six. **THE ORDINAL CLAIM IS NOW AN INVARIANCE**, the median surviving a strictly increasing relabelling and the mean not. **ONE RELATION WAS WANTED AND REFUSED**, the phase-delay parameter of the bandwidth criterion, whose definition this article could not verify without reading the specification. **SEVEN CONCLUSIONS PROMOTED AND A THIRD SWEEP FOLLOWED**, taking describing functions from 188 to 738, pilot rating scales from 76 to 656, high-lift scheduling from 13 to 190 and ownership cost from 15 to 351; nineteen conclusions probed and ten gained more than half again as much coverage. Verifier 0 and 0, **article verifier 479 checks up from 269, injection suite 275 of 275 up from 139**, rendered audit no findings across 542 pages against checksum-matched bytes. |
 | 2026-09-13 | **A359 DRAFTED, the first of four passes. Committed and NOT pushed.** Sixty-three of seventy-two drafted, nine remain, none published and none authorised. State **15,770 lines, 21 display equations, 46 declared symbols, 7,507 reference definitions, 91,850 words**, research 7,377, report primaries 767 at 10.4 percent, two sweeps retrieving 23,318 of which 21,989 distinct, gate 7,659. **THE X NUMBER IS NOT IN THE ACCOUNTING SYSTEM.** 73 transactions and 29,085,924.37 dollars and not one calls it the X-62A; the designation appears once in the whole record and that once falls 23 days past the article's own date, so the dateline horizon is enforced at the source. **THE REGISTER'S UNOFFICIAL SENTENCE IS CORROBORATED BY A DIFFERENT GOVERNMENT RECORD**, the Air Force obligating 799,956.00 dollars under a Skyborg line 108 days after the redesignation. **`Redesignated` appears in exactly one of 539 rows.** **THE KEYSTONE IS AN IDENTITY**, exact model following holding when a projector annihilates the demanded change of dynamics, the rank bound giving three controls per axis, **and the variable stability system having exactly three in each, the throttle among them**. With one pitch control 83.3 percent of the lift row is unreachable and 0.05 percent of the moment row is. **THE BINDING LIMITS WERE PUBLISHED IN 1979** and the symmetric tail's full-deflection corner of 2.4 radians per second falls below a fighter's short period. **THE MACHINE CAN MAKE ANY AEROPLANE SLUGGISH AND CANNOT MAKE ANY AEROPLANE CRISP**, at a floor of 49.5 milliseconds. **THE NAME DOES NOT SPELL ITS OWN ACRONYM**, seven expansions across 55 occurrences of which 54 keep a word that contributes no letter. **TWO INSTRUMENT REPAIRS WENT INTO THE SHARED STORE**, splitting `physiolog` out of A348's biomedical entry and guarding the turbomachinery family against an omnibus proceedings volume. **A SECOND SWEEP REPAIRED THREE OF FOUR THIN CONCLUSIONS**, direct lift 8 to 93, control effectiveness 16 to 118, ownership cost 15 to 349. **ONE ATTRIBUTION WAS CORRECTED BEFORE IT SHIPPED**, the solvability condition belonging to a NASA memorandum of 18 October 1967 rather than to a 1970 journal paper. Verifier 0 and 0, tests 117 of 117, **article verifier 269 checks and injection suite 139 of 139**, rendered audit no findings. |
 | 2026-09-10 | **A356 PUBLICATION REVIEW, the fourth and final pass. Committed and PUSHED. NOT published.** All sixty X-Planes drafts remain in `_drafts/`. Final state **10,072 lines, 51 display equations, 92 declared symbols, 4,455 reference definitions, 63,424 words**, research 4,340, report primaries 808 at 18.6 percent, six sweeps retrieving 22,654 of which 18,330 distinct, gate 4,568. **FIVE CLAIMS WERE WRONG AND THE ARTICLE NAMES THEM RATHER THAN DELETING THEM.** The draft said a corpus check had never once fired on this series; **thirteen articles, A339 through A351, used exactly the format the check reads**, it was lost for four articles and this one restores it, and **losing a check makes it silent rather than failing, which is why nobody noticed**. **AND THE ARTICLE CARRIED THE FALSE CLAIM AND ITS CORRECTION AT THE SAME TIME**, a patch script having asserted partway through and discarded its own earlier edit so the emitter was never re-run; **reassembly did not catch it because the article was a faithful assembly of a stale block**, and the verifier now re-runs the emitter and compares its output before comparing the article to its sources. **THE EQUATION PASS SAID SLENDERNESS IS BOUGHT AT A DISCOUNT**, which comparing two exponents does not establish, since whether the net drag falls depends on a division of the total that nobody publishes. **THE DRAFT CALLED THE DIFFERENCE BETWEEN THE TWO REGISTER ENTRIES THE DIFFERENCE BETWEEN MEASURING A PHENOMENON AND MANUFACTURING ONE**, and both entries describe an aeroplane that would make signatures, **the difference being the adjective and nothing else**. **AND THE DRAFT SAID EVERYTHING THE REGISTER SAYS IS IN THE FUTURE TENSE**, where the entry says the aircraft IS a research aircraft and WILL CREATE a shaped signature, half of it having been true since rollout. **A NUMERIC VERIFIER CANNOT CHECK A CLAIM THAT CONTAINS NO NUMBER**, which the injection suite proved by reverting two of those corrections without a single check going red; the answer is a list of withdrawn formulations that must not reappear, **a regression guard and not a test of truth**, and it has to exclude the section that names the corrections because this series names a retracted claim rather than deleting it. **WRITING THAT LIST FOUND TWO MORE LIVE OVERREACHES THAT THREE PASSES OF READING HAD MISSED**, a ranking with nothing behind it and a claim that length was the only variable the design has, which the article's own later sections contradict. **TWO SUPERLATIVES WERE CHECKED AND TWO FAILED**, the thirteen open store families being as many as any article in this series has opened and not more, **the other being the X-54, which is the other sonic boom article**, and nothing remaining thin being true of the four preceding articles and not claimed of the other fifty-five. **THE CLUSTER ORDER WAS WRONG, WHICH IS A353's LESSON IN MINIATURE**, the buildings cluster being a special case of the human-response one and placed below it, losing 14 of 57 structural records. **FOURTEEN CONCLUSIONS PROBED AND FOURTEEN COVERED**, four of which had never been probed at all because the probe was written in the first pass and the later passes added conclusions without returning to it, **which is A349's defect met from the other direction**; eight of fourteen measure thin under the article's own words and nothing remains thin. Verifier 0 errors 0 warnings, tests 111 of 111, lint 0 defects and 3 convention findings, 144 checks, **eighty-two injections all caught with the total check disarmed**; **three went green at first**, two being prose claims carrying no number and one a stale anchor. Identifier verification passed seven hand-written addresses on content, both regulation sections against the live page, 24 of 24 sampled primaries and a fabricated identifier resolving to nothing. **Every regulatory block quote is matched verbatim against the retrieved text of the document it came from.** **Build clean against checksum-matched bytes, 95 pages, rendered audit reports no findings**, source and rendered display-equation counts agree at 51, page 882,606 bytes. **One repair this article's findings imply but did not make**, being that four articles of this series present no per-cluster record count and one presents it in a shape the corpus check cannot read, so bringing A352 through A355 into the gated format would put about fifty more rows under the corpus gate; that is a change to other drafts and is recorded rather than done. |
 | 2026-09-10 | **A356 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed. NOT published.** **Report primaries 571 at 13.9 percent to 808 at 18.6**, references 4,209 to 4,455, research 4,101 to 4,340, lines 9,477 to 10,039, words 57,512 to 62,220, **display equations unchanged at 51** since a reference pass adds no relations. **The count rose by 237 and the list by 239, so non-primary references rose by two** and essentially the whole growth was primary material. **THE X-57's LESSON RETURNED A NEGATIVE AND THE NEGATIVE IS WORTH RECORDING**; that article established that a programme's own published index recovers what a thematic sweep does not, and **this programme publishes none**, its project page carrying an editor's note that the project has concluded and linking to no publications list, so the coverage was bought with questions. **THE CAMPAIGN NAMES WERE THE QUESTIONS NOBODY HAD ASKED**, QSF18 standing at 6 records, the no-boom threshold investigation at 4, the waveform perception campaign at 4, the carpet campaign at 3 and **the atmospheric turbulence campaign at zero**, which is the flight programme that measured the effect the rise-time section turns on; a fourth sweep of 103 questions took the seven campaigns from 29 to 39, **a fact about the questions asked and not about the gate**, which was refusing exactly one of them. **A THEMATIC SWEEP AND A NAME SWEEP ARE DIFFERENT INSTRUMENTS**, a ten-question probe by bare programme name after four thematic sweeps returning sixty-six records of which twenty-eight were not in a pool of sixteen thousand and eleven were squarely on subject; **that is the X-56's lesson stated the other way round**, the corollary nobody had drawn being that the designation alone finds what the designation beside words does not, and a fifth sweep of 45 name questions retrieved 162 records of which 55 became primaries. **A PARTS-CATALOGUE FILTER WAS REFUSING REPORT TITLES**, the inherited rule refusing any all-capitals title with three or more comma-separated fields, **which is also the shape of a 1962 defence report**, and it was removing `EFFECTS OF SONIC BOOM ON PEOPLE ST. LOUIS, MISSOURI, 1961-1962` while keeping a lower-case registration of the same work; it refused 65 and now refuses 4, **and it lived in three files** so it now lives in the gate module and is imported. **THE DRAFT HAD READ THE REGULATION AND NOT THE RULEMAKING**, a preamble being the only place the reasoning behind a regulation is written down; five governing documents totalling 206,232 characters were retrieved and read, **the phrase sonic boom appearing 62 times across them and the programme's own metric 0**, with the aeroplane named 0 times against 16 mentions of the agency. **IN 2021 THE AGENCY WROTE THAT THE DETERMINATION MADE IN THE 1970s THAT NO LEVEL OF SONIC BOOM IS ACCEPTABLE OVER LAND STILL APPLIES**, three years after this aeroplane was designated and while it was being built, and the same preamble records industry asking for the no-measurable-overpressure provision to be removed as overly restrictive, **which the agency declined**. **THE ONLY NOISE STANDARD EVER PROPOSED FOR SUPERSONIC AEROPLANES GOVERNS THEM WHILE FLYING SUBSONICALLY** and was never adopted. **The exemption path has been used three times**, in 2003, 2016 and 2024, the first 30 years after the prohibition took effect and the most recent granting Boom Supersonic twenty flights over Edwards Air Force Base within existing corridors, **which grants supersonic flight over a military range rather than over anybody's town**. **A CLAIM THE DRAFT MADE AND THIS PASS WITHDREW**, that the X-59 flies under the rule; the prohibition applies by its words to a CIVIL aircraft, a research aeroplane operated by a government agency is ordinarily a public aircraft, and the rulemaking never names this one, so **the point is now an open question in the epistemic state rather than a fact in the body**. Verifier 0 errors 0 warnings, tests 111 of 111, lint 0 defects and 3 convention findings, 135 checks, **seventy-six injections all caught with the total check disarmed**; **four went green at first**, two for having no anchored check at all, one for a stem as common as `being`, and one because the same figure appears under three phrasings and only two carried an anchor. **A quotation is checked against the document and not against itself**, every regulatory block quote being matched verbatim against the retrieved text, and **the Federal Register serves its full text inside a preformatted HTML block** so the tags come off before the search. Identifier verification passed seven hand-written addresses on content, both regulation sections against the live page, 24 of 24 sampled primaries and a fabricated identifier resolving to nothing. **Build clean against checksum-matched bytes, 95 pages, rendered audit reports no findings**, source and rendered display-equation counts agree at 51, page 874,469 bytes. |
