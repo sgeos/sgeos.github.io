@@ -49,6 +49,7 @@ the minimum the wargames assume and no more.
 
 **Three passes complete, drafting, equation density and primary references. Committed, NOT PUSHED,
 NOT PUBLISHED.**
+
 Standalone analytical essay at editorial date **2026-08-11**, categories
 `geopolitics military war-gaming`, **1,407 lines, 54 display equations, 53 inline expressions, 32
 references, about 8,300 words.** Article number and date were chosen as the next free number after
@@ -60,8 +61,10 @@ reports. **The largest error was that the invasion fails in the vast majority of
 The counts give **9 decisive Chinese defeats, 14 stalemates and 1 PLA victory out of 24**, the victory
 being the run where the United States stays out. **The second was that the record is uniform.** The
 summary's own logistics citation was a news article about the Heritage Foundation's TIDALWAVE model,
-**which finds the United States culminating first and calls the result catastrophic defeat**, and the
-summary did not say so. The other seven corrections are listed in the article's Epistemic State.
+**whose stated aim is to push the American culmination date beyond the PRC's, which implies the
+United States culminates first**, and the summary did not say so. The blunter phrasing about
+catastrophic defeat is a press claim and is not in the archived executive summary, as the
+primary-reference pass established below. The other seven corrections are listed in the article's Epistemic State.
 
 **THE KEYSTONE IS THAT THE TWO CSIS GAMES POINT AT THE SAME MOMENT FROM OPPOSITE SIDES.** The
 conventional game treats destruction of the amphibious fleet as decisive. The nuclear game puts
@@ -93,9 +96,9 @@ gate only in which other drafts are present, none of which this article referenc
 succeeded in 37.5 seconds after the primary-reference pass and its rendered audit reports no findings
 across 466 pages**, with the
 draft's checksum matched before and after. The rendered page was then read directly. **No unresolved
-reference brackets, no raw dollar pairs, no unexpanded Liquid, 50 display blocks for 48 equations plus
-two `\\[2ex]` line breaks, and all three `post_url` links resolving to live addresses.** All **61
-arithmetic statements were rechecked by script** with no failures. **Two defects in my own new prose
+reference brackets, no raw dollar pairs, no unexpanded Liquid, 56 display blocks for the 54 equations
+plus two `\\[2ex]` line breaks, and all three `post_url` links resolving to live addresses.** **All 75
+arithmetic statements across those 54 blocks were rechecked by script** with no failures. **Two defects in my own new prose
 were caught by reading and not by any checker**, a survival example claiming four voyages where two
 already suffice, and `An [news article]`.
 

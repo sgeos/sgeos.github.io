@@ -103,7 +103,9 @@ invasion is defeated in most scenarios, is not wrong, but it is not a vast major
 
 **THE SUMMARY ASSERTED A UNIFORM CONSENSUS AND CITED THE ONE SOURCE THAT BREAKS IT.** Its logistics
 citation was an AMAC news article reporting on the Heritage Foundation's TIDALWAVE model, which finds
-the United States culminating in less than half the time China does. The summary did not say so.
+the United States culminating first, which the summary did not say. **The half-the-time and
+catastrophic-defeat phrasings turned out to be press claims absent from the archived executive
+summary**, which the primary-reference pass corrected and which is recorded below.
 
 **THE KEYSTONE IS THE NUCLEAR RESULT.** The CSIS nuclear study found that seven of eight nuclear uses
 were Chinese first use at the moment of conventional defeat. The conventional failure that the
