@@ -58,6 +58,10 @@ These canonical sources return 403 to curl due to bot-detection. The URL is the 
 | AIP Publishing | pubs.aip.org | Publisher bot-detection, observed 2026-08-14 |
 | ASME Digital Collection | asmedigitalcollection.asme.org | Publisher bot-detection, observed 2026-08-14 |
 | Hindawi and Wiley open access | downloads.hindawi.com, hindawi.com | Publisher bot-detection, observed 2026-08-14 |
+| Heritage Foundation | heritage.org | Returns 403 on the TIDALWAVE pages to curl and to the fetcher, while other report pages return 200, observed 2026-09-14 |
+| Newsweek | newsweek.com | Returns 406 to curl, observed 2026-09-14 |
+| U.S. News and World Report | usnews.com | Connection times out under curl, so a Reuters wire copy elsewhere was cited instead, observed 2026-09-14 |
+| Bloomberg and CNN article pages | bloomberg.com, cnn.com | The fetcher receives 403 and 451 respectively, so figures were taken from republished copies, observed 2026-09-14 |
 
 **A 403 FROM A PUBLISHER IS NOT A CITATION CHECK EITHER WAY, AND THE RIGHT INSTRUMENT IS THE REGISTRY.**
 A339 sampled 40 harvested identifiers and 25 returned 403, which looks alarming and means nothing.

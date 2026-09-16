@@ -23,8 +23,37 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 analytical essay, categories `geopolitics military war-gaming`. Not part of the X-Planes series and
 drafted outside its rhythm on the pilot's instruction.
 
-**805 lines, 12 display equations, 27 reference definitions, roughly 5,300 words after the drafting
-pass.** **Drafting pass complete.** Committed and **not pushed**. **Not published.**
+**1,226 lines, 48 display equations, 57 inline expressions, 27 reference definitions, roughly 7,100
+words after the equation-density pass**, up from 805 lines and 12 display equations after drafting.
+**Drafting and equation-density passes complete.** **Not pushed. Not published.** The drafting-pass
+process entries were swept into the X-Planes session's commit `5098585`, which records that it did so.
+
+**EQUATION DENSITY, 12 TO 48, AND EVERY ONE IS ARITHMETIC ON A PUBLISHED FIGURE.** No equation models
+a war, and the opening now says so. **Consistency checks** that close against the sources are the
+population balance, which leaves implied net migration at zero to the published precision, the crude
+rates recomputed from counts, the CSIS family and outcome partitions, the combined loss row, the
+Chinese ship composition, the Armageddon outcome and recommendation partitions, the blockade game
+count, the missile sum, and the implied world GDP behind each Bloomberg run at about 98 and 110
+trillion dollars. **Derived comparisons** added are the dependency ratio growth at 3.55 percent a year
+and its reciprocal falling from 4.76 to 1.92, CSIS outcome fractions, an implied amphibious fleet of
+about 96 ships, ship and aircraft exchange ratios for base and pessimistic cases, pessimistic-to-base
+multipliers, the Armageddon conditional frequencies 12 of 15, 7 of 12 and 7 of 8, the first-week share
+of losses, the blockade casualty exchange ratio falling from 11.0 to 1.52 as escalation widens, energy
+exhaustion ratios, missile rates, the TIDALWAVE culmination inequality and shortage bracket of 5 to 8,
+the RAND loss-ratio bounds of 2.5 to 7, and the design ratio of 18 pessimistic to 2 optimistic runs.
+**Symbols are now defined before each display equation**, per the MathJax conventions, and the
+drafting pass had defined them after.
+
+**THE LATEST BLOOMBERG RATIO FALLS BELOW THE WHOLE RAND RANGE**, 1.7 against a floor of 2.5, which the
+drafting pass could not see because it compared only midpoints.
+
+**FOUR ASSUMPTIONS ARE THE ARTICLE'S OWN AND ARE LISTED AS SUCH** in a new Epistemic State paragraph,
+the independent forty percent loss per voyage behind the ship survival figure being the one a reader
+is most likely to mistake for the report's. Two others are listed with them there.
+
+**TWO DEFECTS IN MY OWN NEW PROSE, BOTH CAUGHT BY READING.** A survival example said four runs made loss
+more likely than not when two already do, and an article read `An [news article]`. All 61 arithmetic
+statements rechecked by script with no failures.
 
 **Source.** A pilot-supplied exchange with an external large language model that summarized the
 public wargaming of a war with China. **Every claim was checked against the primary reports and
@@ -55,7 +84,7 @@ TIDALWAVE II and Bloomberg Economics rest on summaries and press copies, because
 bloomberg.com refused retrieval. The four peak-China essays are characterized from publisher
 summaries and were not read in full.
 
-**Remaining passes.** Equation density, primary-reference density and publication review. The
+**Remaining passes.** Primary-reference density and publication review. The
 reference density is deliberately modest against X-Planes norms, and a primary-reference pass would
 most usefully add the full TIDALWAVE report and the full Foreign Affairs and Foreign Policy essays.
 

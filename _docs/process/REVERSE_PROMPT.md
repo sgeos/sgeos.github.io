@@ -15,6 +15,73 @@ with this article's in shared files and could not be separated without destroyin
 ride along in this article's commits and the commit messages say so. **Its own draft and its
 `URL_VERIFICATION.md` change are left unstaged for it.**
 
+**THAT SESSION HAS NOW COMMITTED.** A374 and the `URL_VERIFICATION.md` entries are committed on
+`master` and **not pushed**. The X-Planes rhythm was not touched. Its report is the next section.
+
+---
+
+## A374, What Published Wargames Say About a War With China, Drafted and Equation-Reviewed
+
+**Two passes complete, drafting and equation density. Committed, NOT PUSHED, NOT PUBLISHED.**
+Standalone analytical essay at editorial date **2026-08-11**, categories
+`geopolitics military war-gaming`, **1,226 lines, 48 display equations, 57 inline expressions, 27
+references, about 7,100 words.** Article number and date were chosen as the next free number after
+the reserved X-Planes range and the only unused date between 2025-12-17 and 2026-08-19.
+
+**THE SOURCE WAS AN EXTERNAL MODEL'S SUMMARY AND NINE OF ITS CLAIMS WERE WRONG.** The pilot supplied
+an exchange with an external large language model. Every claim was checked against the primary
+reports. **The largest error was that the invasion fails in the vast majority of the CSIS iterations.**
+The counts give **9 decisive Chinese defeats, 14 stalemates and 1 PLA victory out of 24**, the victory
+being the run where the United States stays out. **The second was that the record is uniform.** The
+summary's own logistics citation was a news article about the Heritage Foundation's TIDALWAVE model,
+**which finds the United States culminating first and calls the result catastrophic defeat**, and the
+summary did not say so. The other seven corrections are listed in the article's Epistemic State.
+
+**THE KEYSTONE IS THAT THE TWO CSIS GAMES POINT AT THE SAME MOMENT FROM OPPOSITE SIDES.** The
+conventional game treats destruction of the amphibious fleet as decisive. The nuclear game puts
+**seven of its eight nuclear uses at Chinese first use while facing exactly that defeat**. The
+conventional failure the external summary treated as the end of the gamble is where the nuclear games
+locate the greatest danger. **This synthesis is marked as inference and is not stated in that form by
+any single report.**
+
+**EQUATION DENSITY WENT 12 TO 48 AND EVERY EQUATION IS ARITHMETIC ON A PUBLISHED FIGURE.** The opening
+says so, because none of them models a war. The consistency checks close against the sources. **The
+population balance leaves implied net migration at zero**, the crude rates recompute from the counts,
+and **the Bloomberg dollar and percentage figures imply world output of about 98 and 110 trillion
+dollars**, which are plausible for their years. **The equation pass also found something the drafting
+pass had missed.** Comparing only midpoints hid that **the latest Bloomberg ratio of Chinese to
+American loss, 1.7, falls below the entire RAND range of 2.5 to 7.**
+
+**FOUR ASSUMPTIONS ARE MINE AND NOT THE SOURCES' AND ARE LISTED AS SUCH**, the one most likely to be
+mistaken for a report finding being the independent forty percent loss per voyage behind the ship
+survival figure.
+
+**VERIFICATION, AND ONE LIMITATION THAT MATTERS.** `_verify.py` reports **0 errors and 0 warnings**
+across 301 posts. **The deploy gate `./_check.sh` passed end to end**, 465 pages, 170 carrying display
+math, **no findings**. **The `--drafts` gate could not be run.** It was killed three times for low
+memory, because `_drafts/` holds **73 files, 51 MB and 648,000 lines** of X-Planes work and building
+all of it exhausts memory. **A374 was therefore built in a scratch copy carrying the real `Gemfile`,
+`_config.yml`, all four plugins and the whole `_posts` corpus, with only this article in `_drafts/`.**
+That is not the Gemfile-free plugin-stripped build the process forbids, and it differs from the full
+gate only in which other drafts are present, none of which this article references. **That build
+succeeded in 15.0 seconds and its rendered audit reports no findings across 466 pages**, with the
+draft's checksum matched before and after. The rendered page was then read directly. **No unresolved
+reference brackets, no raw dollar pairs, no unexpanded Liquid, 50 display blocks for 48 equations plus
+two `\\[2ex]` line breaks, and all three `post_url` links resolving to live addresses.** All **61
+arithmetic statements were rechecked by script** with no failures. **Two defects in my own new prose
+were caught by reading and not by any checker**, a survival example claiming four voyages where two
+already suffice, and `An [news article]`.
+
+**URLs.** 25 of 27 return 200. `heritage.org` returns 403 on the TIDALWAVE pages and `newsweek.com`
+returns 406, both recorded in `URL_VERIFICATION.md` along with the `usnews.com` timeout that forced a
+different Reuters copy and the fetcher refusals from `bloomberg.com` and `cnn.com`.
+
+**WHAT IS NOT DONE.** Two passes remain, primary-reference density and publication review. **The
+TIDALWAVE, TIDALWAVE II and Bloomberg findings rest on summaries and press copies**, and the four
+peak-China essays were characterized from publisher summaries and not read in full. A
+primary-reference pass would most usefully retrieve those originals. **Publication is not requested
+and the article is not pushed.**
+
 ---
 
 ## The Scan Found No Drafting History and That Is the First Time
