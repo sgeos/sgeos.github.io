@@ -23,10 +23,46 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 analytical essay, categories `geopolitics military war-gaming`. Not part of the X-Planes series and
 drafted outside its rhythm on the pilot's instruction.
 
-**1,226 lines, 48 display equations, 57 inline expressions, 27 reference definitions, roughly 7,100
-words after the equation-density pass**, up from 805 lines and 12 display equations after drafting.
-**Drafting and equation-density passes complete.** **Not pushed. Not published.** The drafting-pass
-process entries were swept into the X-Planes session's commit `5098585`, which records that it did so.
+**1,407 lines, 54 display equations, 53 inline expressions, 32 reference definitions, roughly 8,300
+words after the primary-reference pass**, up from 805 lines, 12 display equations and 27 references
+after drafting. **Drafting, equation-density and primary-reference passes complete.** **Not pushed.
+Not published.** The drafting-pass process entries were swept into the X-Planes session's commit
+`5098585`, which records that it did so.
+
+**THE PRIMARY-REFERENCE PASS CAUGHT MY OWN WORST DEFECT AND IT WAS A MISATTRIBUTION.** The drafting
+pass credited the Heritage Foundation's executive summary with four TIDALWAVE figures, the
+culmination ratio, the five to seven and thirty-five to forty day munitions brackets, and ninety
+percent of aircraft destroyed on the ground. **The archived executive summary contains none of them.**
+They came from a search-engine summary and a news article. heritage.org refuses every page to curl and
+to the fetcher, so **a Wayback snapshot of 14 April 2026 supplied the text the live site would not**,
+bylined Robert Greenway and Anna Gustafson. The two equations built on the unverified figures were
+**deleted**, the figures are now labelled press claims, and the section rests on what the primary
+states. **The primary says something close to the opposite on munitions**, that in the most intense
+cases *platform destruction, not munition exhaustion, limits combat power*, with part of the magazine
+never fired because the aircraft and ships are already dead. It also gives PLA sustainment windows of
+more than 90 days in the air and 120 to 140 at sea under targeting, and China's 43 percent Gulf oil
+dependency.
+
+**THE SCENARIO YEARS NOW HAVE A SOURCED ORIGIN.** The drafting pass could only say the reports gave no
+rationale. The Senate Armed Services Committee stenographic transcript of 9 March 2021 carries Admiral
+Davidson's sentence to Senator Sullivan, *I think the threat is manifest during this decade, in fact,
+in the next six years*, and 2021 plus six is 2027, which is where the literature clusters. The
+TIDALWAVE summary independently says many insiders point to 2027.
+
+**FIVE PRIMARIES ADDED AND SEVEN ANCHORS REPOINTED.** New are the 2024 statistics communiqué, the
+State Council Information Office account of the Ministry of Civil Affairs marriage bulletin, the
+Senate hearing transcript, the 2022 white paper on reunification, and the archived TIDALWAVE summary.
+The four CSIS, one CNAS and two RAND anchors now point at the PDF documents actually read rather than
+at landing pages. **The three peak-China essays were read in full** and are quoted rather than
+characterized, Brands and Beckley in Foreign Policy, Mastro and Scissors in the American Enterprise
+Institute republication, and Medeiros in a copy of the print article.
+
+**THE WHITE PAPER IS THE PREMISE'S OWN PRIMARY.** It states that peaceful reunification is the first
+choice and that *we will not renounce the use of force*, which is the minimum the wargames assume and
+no more than that. **Six equations added**, including a 2024 population balance that closes the same
+way 2025 does, a marriage rate recomputed from the registration count at 4.34 against a published 4.3,
+and a marrying-age cohort that lost a seventh of its number between 2013 and 2023, so part of the
+marriage collapse is arithmetic and not preference.
 
 **EQUATION DENSITY, 12 TO 48, AND EVERY ONE IS ARITHMETIC ON A PUBLISHED FIGURE.** No equation models
 a war, and the opening now says so. **Consistency checks** that close against the sources are the
@@ -84,9 +120,11 @@ TIDALWAVE II and Bloomberg Economics rest on summaries and press copies, because
 bloomberg.com refused retrieval. The four peak-China essays are characterized from publisher
 summaries and were not read in full.
 
-**Remaining passes.** Primary-reference density and publication review. The
-reference density is deliberately modest against X-Planes norms, and a primary-reference pass would
-most usefully add the full TIDALWAVE report and the full Foreign Affairs and Foreign Policy essays.
+**Remaining pass.** The publication review. The reference density is deliberately modest against
+X-Planes norms, which suits an article whose subject is a handful of reports read closely rather than
+a harvested literature. **The full TIDALWAVE report and the TIDALWAVE II report were never
+retrieved**, and the Bloomberg model is not public, so those three claims remain at press-account
+strength and should be labelled that way at publication.
 
 
 ## X-Planes Lockheed Martin X-62 VISTA A359 2025-12-07

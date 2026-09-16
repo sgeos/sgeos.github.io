@@ -59,8 +59,11 @@ both in millions,
 let $B$ and $D$ be the births and deaths during 2025 in millions,
 and let $M$ be net international migration in millions,
 which the communiqué does not report.
-The year-end 2024 figure is recovered from the reported decrease as
-$P_0 = 1{,}404.89 + 3.39 = 1{,}408.28$.
+The bureau's
+[communiqué for 2024][data_nbs_2024_communique]
+states the year-end 2024 population directly as 1,408.28 million,
+which is also what the 2025 decrease implies,
+since $1{,}404.89 + 3.39 = 1{,}408.28$.
 
 $$
 P_1 = P_0 + B - D + M
@@ -76,6 +79,24 @@ $$
 
 Births less deaths account for the entire reported decrease to the precision published,
 so the decline is natural decrease and not emigration.
+
+The same balance closes for the year before.
+The 2024 communiqué reports 9.54 million births and 10.93 million deaths
+against a decrease of 1.39 million.
+
+$$
+B_{2024} - D_{2024} = 9.54 - 10.93 = -1.39
+$$
+
+Natural decrease accounts for the whole of that year as well.
+Setting the two decreases side by side shows how fast the decline is steepening.
+
+$$
+\frac{3.39}{1.39} \approx 2.44
+$$
+
+The 2025 decrease is roughly two and a half times the 2024 decrease,
+which is a sharper change than the smallness of either figure suggests.
 
 The second check is the crude rates.
 Let $\bar{P}$ be the mean population over the year in millions,
@@ -129,7 +150,41 @@ $$
 \frac{m_{2023} - m_{2024}}{m_{2023}} = \frac{7.68 - 6.1}{7.68} \approx 0.206
 $$
 
-A decline of about a fifth in one year is consistent with the wire report's description of the largest drop on record.
+The ministry's own bulletin,
+reported through the
+[State Council Information Office][data_scio_2025_marriage_registrations],
+puts the 2024 figure at 6.106 million registrations,
+a fall of 20.5 percent,
+with a marriage rate of 4.3 per thousand people
+and 3.513 million divorces concluded.
+The precise count confirms the decline of about a fifth
+and allows two further checks.
+The marriage rate should be the registrations against the year-end population.
+
+$$
+1000 \times \frac{6.106}{1{,}408.28} \approx 4.34 \ \text{per thousand}
+$$
+
+That agrees with the published 4.3.
+The ratio of divorces concluded to marriages registered follows from the same bulletin.
+
+$$
+\frac{3.513}{6.106} \approx 0.575
+$$
+
+The bulletin's account also names the cause that demography alone would predict.
+The population aged 20 to 39,
+the core marrying ages,
+fell from about 435 million in 2013 to about 371 million in 2023.
+
+$$
+435 - 371 = 64 \ \text{million},
+\qquad
+\frac{64}{435} \approx 0.147
+$$
+
+A seventh of the marrying-age cohort disappeared in a decade,
+so part of the fall in marriages is arithmetic and not a change of preferences.
 
 A RAND Corporation study,
 [Pollard, Bouey, Wang and Pandey 2025][research_pollard_2025_fertility_decline],
@@ -200,15 +255,32 @@ and in the book
 that a China which has peaked
 is more dangerous than a rising one,
 because it may conclude that its opportunity is closing.
+They call the situation a peaking power trap
+and write that China "will be sorely tempted to use force to resolve the Taiwan question on its terms in the next decade
+before Washington and Taipei can finish retooling their militaries".
+Their demographic figure is that from 2020 to 2050
+China loses about 200 million working-age adults and gains about 200 million senior citizens.
+That figure can be checked against the RAND projection used above.
+RAND puts the working-age population at 745 million in 2050,
+so a loss of 200 million implies a 2020 base of about 945 million.
+
+$$
+745 + 200 = 945
+$$
+
+O'Hanlon's independent account has the working-age population peaking above 900 million in 2011
+and falling to roughly 700 million by mid-century,
+a decline of about the same 200 million.
+Three sources therefore agree on the magnitude while differing on the baseline year.
 [Howard 2026][commentary_howard_2026_peaked_power]
 restates the argument
 and adds that depleted American precision munitions could make the environment more permissive for preventive action.
 
 The argument has serious critics.
 [Mastro and Scissors 2022][commentary_mastro_scissors_2022_peak]
-argued that Chinese income and defense spending trajectories
-leave Beijing more resources to compete militarily over the coming decade than over the previous two,
-so that it can afford to wait.
+wrote that "current income and defense spending trajectories suggest that China will have more resources
+to compete militarily with the United States over the next ten years than it has had over the last 20",
+so that Beijing has space to bide its time.
 [O'Hanlon 2023][commentary_ohanlon_2023_shrinking_population]
 at the Brookings Institution
 agreed that demography will constrain Chinese power
@@ -216,10 +288,32 @@ but rejected the inference that this makes near-term aggression likely,
 pointing to the difficulty of a decisive victory in a great-power war.
 [Medeiros 2024][commentary_medeiros_2024_delusion_peak_china]
 called the peak thesis a delusion that underrates a durable competitor.
+His objection is about perception more than about statistics.
+"Xi still believes China is rising, and he is acting accordingly," he writes,
+adding that China peaking economically is not the same as China peaking geopolitically,
+a distinction he says many advocates of the argument lose.
+If the premise of this article is a leadership that acts on a belief about decline,
+then Medeiros is denying the belief and not only the decline.
 
 The external summary that prompted this article attributed the closing window argument to Brookings.
 The Brookings piece found for this article argues against the inference.
 That misattribution is recorded in the Epistemic State section.
+
+### What Beijing states in its own documents
+
+The wargames model an attempt to take Taiwan by force,
+and the PRC's own published position is the primary source for whether that is contemplated at all.
+The 2022 white paper
+[The Taiwan Question and China's Reunification in the New Era][government_prc_2022_taiwan_white_paper],
+issued by the Taiwan Affairs Office of the State Council and the State Council Information Office,
+states that "national reunification by peaceful means is the first choice
+of the CPC and the Chinese government in resolving the Taiwan question".
+It also states that "we will not renounce the use of force,
+and we reserve the option of taking all necessary measures",
+which it frames as guarding against external interference and separatist activity.
+The document neither announces a timetable nor concedes one.
+It establishes that force is retained as an option and preference is stated for the alternative,
+which is the minimum the scenarios above assume and no more than that.
 
 ## Which Wargames Are Public
 
@@ -242,16 +336,33 @@ The table lists the projects this article draws on.
 | The First Battle of the Next War | CSIS | January 2023 | 2026 | 24 | Rules-based operational game |
 | Confronting Armageddon | CSIS and MIT | December 2024 | 2028 | 15 | The 2023 game with nuclear rules added |
 | Lights Out | CSIS | July 2025 | Blockade scenarios | 26 | Escalation-matrix game plus free play |
-| TIDALWAVE | Heritage Foundation | January 2026 | Extended conflict | Thousands, as reported | Computer simulation described as enabled by artificial intelligence |
+| TIDALWAVE | Heritage Foundation | January 2026 | Longer than six months | Not stated in the archived summary | Computer simulation described as enabled by artificial intelligence |
 | TIDALWAVE II, Azure Dragon | Heritage Foundation | January 2026 | 2030 | One tabletop exercise | Nuclear escalation exercise |
 
 </div>
 
 The nuclear study was a joint project of CSIS and the Massachusetts Institute of Technology,
 shown as MIT in the table.
-The scenario years cluster between 2026 and 2030.
-The executive summaries read for this article do not tie that choice to demographic projections,
-so the external summary's suggestion that the timing reflects a demographic peak is not supported by these sources.
+The scenario years cluster between 2026 and 2030,
+and the origin of that clustering is a matter of record.
+On 9 March 2021,
+at the Senate Committee on Armed Services
+[hearing on United States Indo-Pacific Command][government_sasc_2021_indopacom],
+Admiral Philip Davidson told Senator Dan Sullivan that
+"I think the threat is manifest during this decade, in fact, in the next six years".
+Counting from the year of that testimony gives the date the literature returns to.
+
+$$
+2021 + 6 = 2027
+$$
+
+The Heritage summary discussed below says in its own words that
+"many insiders point to 2027 as the year for a potential conflict between China and the U.S."
+The scenario years are therefore anchored to a statement about military capability timelines,
+made by a commander in open testimony.
+**None of the reports read here ties its scenario year to demographic projections**,
+so the external summary's suggestion that the timing reflects a demographic peak
+is not supported by these sources.
 
 ## The Invasion Result
 
@@ -734,45 +845,68 @@ It is described by the foundation as a simulation enabled by artificial intellig
 that models an extended conflict longer than six months,
 built from open sources,
 and focused on fuel and munitions.
-According to the foundation's
-[executive summary][research_heritage_2026_tidalwave]
-as indexed at the time of writing,
-the United States culminates in less than half the time the PRC does,
-resulting in catastrophic defeat.
-Writing $T_{\text{US}}$ and $T_{\text{PRC}}$ for the time each side takes to culminate,
-the claim is an inequality.
+The foundation's
+[live pages][research_heritage_2026_tidalwave]
+refuse automated retrieval.
+An archived copy of the
+[executive summary][research_greenway_2026_tidalwave_archived],
+captured on 14 April 2026 and bylined Robert Greenway and Anna Gustafson,
+is the primary text used here.
+It describes an artificial-intelligence-enabled simulation of an escalation scenario longer than six months,
+built on more than 7,000 open sources reviewed by experts,
+with four models covering United States fuel, United States munitions, PLA fuel and PLA munitions.
+The outputs are first-deficit days,
+collapse windows,
+and the magnitude and location of unmet demand.
 
-$$
-T_{\text{US}} < \frac{1}{2} \, T_{\text{PRC}}
-$$
-
-The summary also reports critical American munitions beginning to be unavailable within five to seven days
-and exhausted within thirty-five to forty days across most scenarios.
-Let $t_{\text{on}}$ be the onset of shortage and $t_{\text{ex}}$ the time to exhaustion.
-The ratio of the two brackets is wide.
-
-$$
-\frac{t_{\text{ex}}}{t_{\text{on}}} \in \left[ \frac{35}{7}, \frac{40}{5} \right] = [5, 8]
-$$
-
-On these figures,
-shortages would begin in the first week
-and the stock would last five to eight times as long as it took for the first shortages to appear.
-That is consistent with the CSIS finding that the scarcest anti-ship missiles go first
-while more plentiful types last longer.
-
-A [news article][news_amac_2026_tidalwave]
+**The archived summary does not contain the figures most widely quoted from this project.**
+The claims that the United States culminates in less than half the PRC's time,
+that critical munitions become unavailable within five to seven days
+and are exhausted within thirty-five to forty days,
+and that up to ninety percent of aircraft at forward bases are destroyed on the ground,
+appear in a search-engine summary of the foundation's site
+and in a [news article][news_amac_2026_tidalwave]
 from the Association of Mature American Citizens,
 or AMAC,
-reporting on the project quotes it as finding that up to ninety percent of American and allied aircraft at major forward bases in Japan and Guam are destroyed on the ground,
-and that the United States does not so much run out of fuel as lose the ability to move fuel under fire.
-Newsweek reported that the government requested redactions before release.
+but not in the executive summary itself.
+They are reported here as press claims about the project and not as findings read in the primary text.
+This article's first draft attributed them to the executive summary,
+which was wrong,
+and the correction is recorded in the Epistemic State section.
 
-The foundation's pages refused automated retrieval,
-so the TIDALWAVE findings in this article come from the indexed executive summary and two press accounts
-and have not been checked against the full report.
-The model is not public,
-so its assumptions cannot be audited in the way the CSIS rules can.
+What the archived summary does state is directional and in one respect the opposite of the press account.
+Its stated purpose is to produce recommendations that "extend our sustainment
+and push the U.S. culmination date beyond that of the PRC",
+which implies that the United States culminates first as matters stand.
+On munitions it reports that in the highest-intensity cases
+"platform destruction, not munition exhaustion, limits combat power",
+with aircraft and ships destroyed so fast that some of the magazine is never fired.
+That is a different failure from running out of missiles,
+and it cuts against the simple reading that stockpile depth is the binding constraint.
+
+The summary also states two quantitative results about the other side.
+Strikes on fixed production and storage sites could hold PLA sustainment of a moderate to high-intensity conflict
+to more than 90 days in the air domain and 120 to 140 days at sea.
+Taking the air figure as the tighter bound,
+the naval window is longer by the following factors.
+
+$$
+\frac{120}{90} \approx 1.33,
+\qquad
+\frac{140}{90} \approx 1.56
+$$
+
+The summary further notes that 43 percent of China's oil imports come from the Gulf region,
+which is the dependency the targeting discussion rests on.
+On the American side it names concentrated forward basing at Guam and Kadena,
+vulnerable to missile strikes in the opening hours and days,
+and a sealift, airlift and replenishment capacity it judges very likely insufficient for surge demand.
+
+[Newsweek][news_newsweek_2026_tidalwave_redactions]
+reported that the government requested redactions before release in January 2026.
+The model itself is not public,
+so its assumptions cannot be audited in the way the CSIS rules can,
+and the full report was not retrieved for this article.
 
 ## The Economic Estimates Are Not Wargames
 
@@ -907,8 +1041,10 @@ CNAS found no upper hand after a week,
 CSIS scored most pessimistic iterations as stalemates when play ended,
 and TIDALWAVE models a conflict of more than six months.
 - **Precision munitions run short within days to weeks.**
-CSIS found the anti-ship missile inventory gone in the first week
-and TIDALWAVE reports exhaustion of critical munitions in thirty-five to forty days.
+CSIS found the anti-ship missile inventory gone in the first week.
+TIDALWAVE measures first-deficit days and collapse windows for both sides,
+though its archived summary adds that in the most intense cases platforms are destroyed
+before their magazines are emptied.
 - **Nuclear use is a live possibility in every project that permitted it.**
 CNAS and TIDALWAVE II saw nuclear signaling or theater use,
 and Confronting Armageddon saw nuclear use in eight instances across fifteen games.
@@ -921,9 +1057,11 @@ It is not.
 
 - **Who culminates first.**
 CSIS finds the invasion fleet destroyed before China can secure ports in its base cases.
-TIDALWAVE finds the United States culminating in less than half the time China does.
-These cannot both describe the same war,
-and the difference lies in assumptions about duration, sustainment and forward basing that cannot be fully compared because TIDALWAVE's model is not public.
+TIDALWAVE states its aim as pushing the American culmination date beyond the PRC's,
+which implies the United States culminates first as matters stand.
+These do not describe the same war,
+and the difference lies in assumptions about duration, sustainment and forward basing
+that cannot be fully compared because TIDALWAVE's model is not public.
 - **Whether a Chinese defeat is the end of the story.**
 The conventional CSIS game treats destruction of the amphibious fleet as decisive.
 The nuclear CSIS game finds that exactly that moment generated the greatest pressure for Chinese nuclear use.
@@ -1017,19 +1155,31 @@ were read from the published PDF reports.
 The CNAS findings were read from its executive summary.
 The RAND 2016 economic estimates and four war cases were read from the report's summary.
 The RAND 2025 demographic projections and its assessment of PLA force size were read from the report.
-The 2025 population figures were read from the National Bureau of Statistics communiqué.
+The 2024 and 2025 population figures were read from the two National Bureau of Statistics communiqués.
+The marriage, divorce and cohort figures were read from the State Council Information Office account
+of the Ministry of Civil Affairs bulletin.
 The CSIS munitions expenditure figures were read from the Jones report.
+The Davidson quotation was read from the stenographic transcript of the Senate hearing of 9 March 2021.
+The reunification passages were read from the 2022 white paper.
+The TIDALWAVE description, the culmination aim, the platform-destruction finding,
+the PLA sustainment windows and the Gulf oil dependency
+were read from an archived copy of the executive summary captured on 14 April 2026.
+The Brands and Beckley essay was read in Foreign Policy,
+the Mastro and Scissors essay in the American Enterprise Institute republication,
+and the Medeiros essay in a copy of the Foreign Affairs print article.
 
 **Documented only through summaries or press accounts.**
-The TIDALWAVE and TIDALWAVE II findings rest on indexed Heritage Foundation summary text,
-Newsweek,
-and an AMAC news article,
-because the foundation's pages refused automated retrieval.
+The widely quoted TIDALWAVE figures,
+being the culmination ratio, the five to seven and thirty-five to forty day munitions brackets,
+and the ninety percent of aircraft destroyed at forward bases,
+rest on a search-engine summary and the AMAC article,
+and are absent from the archived executive summary.
+They are reported as press claims and are not used as findings.
+The TIDALWAVE II results rest on the summary text of the foundation's report page.
 The Bloomberg Economics figures rest on Taiwan News and Insurance Journal accounts,
 because Bloomberg refuses automated retrieval.
-The marriage figures rest on a Reuters report of Ministry of Civil Affairs data.
-The critiques by Mastro and Scissors, Medeiros, and Brands and Beckley are characterized from publisher summaries and secondary descriptions,
-and the full essays were not read.
+The full TIDALWAVE report, which runs to about 400 pages according to Newsweek, was not retrieved.
+The Danger Zone book is cited from its publisher page and was not read.
 
 **Derived in this article.**
 Every displayed equation is arithmetic on published figures and can be rechecked from the cited sources.
@@ -1042,6 +1192,9 @@ the Chinese ship composition,
 the Armageddon outcome and recommendation partitions,
 the blockade game count,
 the missile expenditure sum,
+the 2024 population balance,
+the marriage rate recomputed from the registration count,
+the working-age loss cross-checked across three sources,
 and the implied world GDP behind each Bloomberg run.
 The derived comparisons are the marriage decline,
 the dependency ratio multiple, growth rate and reciprocal,
@@ -1055,7 +1208,10 @@ the first-week share of losses,
 the blockade casualty growth and exchange ratios,
 the energy exhaustion ratios,
 the missile expenditure rates and share,
-the TIDALWAVE culmination inequality and shortage bracket,
+the ratio of the two annual population decreases,
+the divorce to marriage ratio,
+the marrying-age cohort loss,
+the PLA sustainment windows,
 the ratios of Chinese to American economic loss,
 the blockade and Taiwan loss comparisons,
 and the design ratios in the Limits section.
@@ -1113,7 +1269,22 @@ and places the constraint further out.
 That figure was not verified.
 The RAND projection of an old age dependency ratio of 0.52 by 2050 is reported in its place.
 - It suggested that the scenario years were chosen around a demographic peak.
-The executive summaries read here give no such rationale.
+The reports read here give no such rationale.
+The clustering traces instead to Admiral Davidson's March 2021 testimony about the next six years,
+which the primary-reference pass located in the hearing transcript.
+
+**A claim in this article's own first draft that was corrected.**
+The drafting pass attributed four TIDALWAVE figures to the foundation's executive summary,
+namely the culmination ratio,
+the two munitions brackets,
+and the share of aircraft destroyed on the ground.
+**The archived executive summary contains none of them.**
+They came from a search-engine summary and a news article.
+The figures are now reported as press claims,
+the two equations built on them have been removed,
+and the section rests on what the archived primary actually states,
+which includes the finding that platform destruction and not munition exhaustion
+limits combat power in the most intense cases.
 
 **Bounds.**
 The article is authoritative only as a reading of the public reports named in it,
@@ -1177,7 +1348,11 @@ is not thereby a gamble the rest of the world could safely watch it lose.
 - [Commentary, Michaels and Williams 2025, A Wargame to Take Taiwan, from China's Perspective][commentary_michaels_williams_2025_wargame_china_perspective]
 - [Commentary, O'Hanlon 2023, China's Shrinking Population and Constraints on Its Future Power][commentary_ohanlon_2023_shrinking_population]
 - [Commentary, Tetreau 2023, War on the Rocks Review of Ten Years of U.S.-Chinese Military Assessments][commentary_tetreau_2023_where_the_wargames_were_not]
+- [Data, National Bureau of Statistics of China 2025, Statistical Communiqué on the 2024 National Economic and Social Development][data_nbs_2024_communique]
 - [Data, National Bureau of Statistics of China 2026, Statistical Communiqué on the 2025 National Economic and Social Development][data_nbs_2025_communique]
+- [Data, State Council Information Office 2025, China's Tally of Marriage Registrations Down in 2024][data_scio_2025_marriage_registrations]
+- [Government, Senate Committee on Armed Services 2021, Hearing to Receive Testimony on United States Indo-Pacific Command][government_sasc_2021_indopacom]
+- [Government, Taiwan Affairs Office and State Council Information Office 2022, The Taiwan Question and China's Reunification in the New Era][government_prc_2022_taiwan_white_paper]
 - [News, AMAC 2026, Artificial Intelligence War Game Exposes United States Weaknesses in China Conflict][news_amac_2026_tidalwave]
 - [News, Insurance Journal 2026, The 10 Trillion Dollar Fight, Modeling a United States and China War Over Taiwan][news_insurance_journal_2026_bloomberg]
 - [News, Newsweek 2026, United States Government Requested Redactions to Report on China War Vulnerabilities][news_newsweek_2026_tidalwave_redactions]
@@ -1190,6 +1365,7 @@ is not thereby a gamble the rest of the world could safely watch it lose.
 - [Research, Cancian, Cancian and Heginbotham 2024, Confronting Armageddon, Wargaming Nuclear Deterrence and Its Failures in a U.S.-China Conflict over Taiwan][research_cancian_2024_confronting_armageddon]
 - [Research, Cancian, Cancian and Heginbotham 2025, Lights Out? Wargaming a Chinese Blockade of Taiwan][research_cancian_2025_lights_out]
 - [Research, Gompert, Cevallos and Garafola 2016, War with China, Thinking Through the Unthinkable][research_gompert_2016_war_with_china]
+- [Research, Greenway and Gustafson 2026, TIDALWAVE Executive Summary, Archived Copy][research_greenway_2026_tidalwave_archived]
 - [Research, Heritage Foundation 2026, Limited Nuclear War Over Taiwan, An Initial Exercise][research_heritage_2026_limited_nuclear_war]
 - [Research, Heritage Foundation 2026, TIDALWAVE Executive Summary][research_heritage_2026_tidalwave]
 - [Research, Jones 2023, Empty Bins in a Wartime Environment, The Challenge to the U.S. Defense Industrial Base][research_jones_2023_empty_bins]
@@ -1205,7 +1381,11 @@ is not thereby a gamble the rest of the world could safely watch it lose.
 [commentary_michaels_williams_2025_wargame_china_perspective]: https://warontherocks.com/2025/10/a-wargame-to-take-taiwan-from-chinas-perspective/
 [commentary_ohanlon_2023_shrinking_population]: https://www.brookings.edu/articles/chinas-shrinking-population-and-constraints-on-its-future-power/
 [commentary_tetreau_2023_where_the_wargames_were_not]: https://warontherocks.com/2023/09/where-the-wargames-werent-assessing-10-years-of-u-s-chinese-military-assessments/
+[data_nbs_2024_communique]: https://www.stats.gov.cn/english/PressRelease/202502/t20250228_1958822.html
 [data_nbs_2025_communique]: https://www.stats.gov.cn/english/PressRelease/202602/t20260228_1962661.html
+[data_scio_2025_marriage_registrations]: http://english.scio.gov.cn/pressroom/2025-07/31/content_118005719.html
+[government_prc_2022_taiwan_white_paper]: http://english.scio.gov.cn/whitepapers/2022-08/10/content_78365819.htm
+[government_sasc_2021_indopacom]: https://www.armed-services.senate.gov/imo/media/doc/21-10_03-09-2021.pdf
 [news_amac_2026_tidalwave]: https://amac.us/newsline/national-security/shocking-new-ai-driven-u-s-china-war-game-was-so-accurate-the-trump-administration-asked-for-redactions/
 [news_insurance_journal_2026_bloomberg]: https://www.insurancejournal.com/news/international/2026/02/12/857770.htm
 [news_newsweek_2026_tidalwave_redactions]: https://www.newsweek.com/us-government-requested-redactions-report-china-war-vulnerabilities-11391583
@@ -1214,13 +1394,14 @@ is not thereby a gamble the rest of the world could safely watch it lose.
 [related_post_china_rise]: {% post_url 2026-03-23-china_rise %}
 [related_post_industrialization_snapshot]: {% post_url 2026-03-26-contemporary_snapshot_and_extrapolation %}
 [related_post_metagaming]: {% post_url 2026-01-14-metagaming_framework_for_life_strategy %}
-[research_cancian_2023_first_battle]: https://www.csis.org/analysis/first-battle-next-war-wargaming-chinese-invasion-taiwan
-[research_cancian_2024_confronting_armageddon]: https://www.csis.org/analysis/confronting-armageddon
-[research_cancian_2025_lights_out]: https://www.csis.org/analysis/lights-out-wargaming-chinese-blockade-taiwan
-[research_gompert_2016_war_with_china]: https://www.rand.org/pubs/research_reports/RR1140.html
+[research_cancian_2023_first_battle]: https://csis-website-prod.s3.amazonaws.com/s3fs-public/publication/230109_Cancian_FirstBattle_NextWar.pdf
+[research_cancian_2024_confronting_armageddon]: https://csis-website-prod.s3.amazonaws.com/s3fs-public/2024-12/241213_Cancian_Confronting_Armageddon.pdf
+[research_cancian_2025_lights_out]: https://csis-website-prod.s3.amazonaws.com/s3fs-public/2025-07/250730_Cancian_Taiwan_Blockade.pdf
+[research_gompert_2016_war_with_china]: https://www.rand.org/content/dam/rand/pubs/research_reports/RR1100/RR1140/RAND_RR1140.pdf
+[research_greenway_2026_tidalwave_archived]: https://web.archive.org/web/20260414184735/https://www.heritage.org/tidalwave/introduction/executive-summary
 [research_heritage_2026_limited_nuclear_war]: https://www.heritage.org/defense/report/limited-nuclear-war-over-taiwan-initial-exercise
 [research_heritage_2026_tidalwave]: https://www.heritage.org/tidalwave/introduction/executive-summary
-[research_jones_2023_empty_bins]: https://www.csis.org/analysis/empty-bins-wartime-environment-challenge-us-defense-industrial-base
-[research_pettyjohn_2022_dangerous_straits]: https://www.cnas.org/publications/reports/dangerous-straits-wargaming-a-future-conflict-over-taiwans
-[research_pollard_2025_fertility_decline]: https://www.rand.org/pubs/research_reports/RRA3372-1.html
+[research_jones_2023_empty_bins]: https://csis-website-prod.s3.amazonaws.com/s3fs-public/2023-01/230119_Jones_Empty_Bins.pdf
+[research_pettyjohn_2022_dangerous_straits]: https://s3.amazonaws.com/files.cnas.org/CNAS+Report-Dangerous+Straits-Defense-Jun+2022-FINAL-print.pdf
+[research_pollard_2025_fertility_decline]: https://www.rand.org/content/dam/rand/pubs/research_reports/RRA3300/RRA3372-1/RAND_RRA3372-1.pdf
 [research_richter_2026_filling_the_ranks]: https://digital-commons.usnwc.edu/cmsi-maritime-reports/53/

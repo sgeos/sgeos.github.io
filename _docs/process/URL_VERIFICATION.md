@@ -58,7 +58,8 @@ These canonical sources return 403 to curl due to bot-detection. The URL is the 
 | AIP Publishing | pubs.aip.org | Publisher bot-detection, observed 2026-08-14 |
 | ASME Digital Collection | asmedigitalcollection.asme.org | Publisher bot-detection, observed 2026-08-14 |
 | Hindawi and Wiley open access | downloads.hindawi.com, hindawi.com | Publisher bot-detection, observed 2026-08-14 |
-| Heritage Foundation | heritage.org | Returns 403 on the TIDALWAVE pages to curl and to the fetcher, while other report pages return 200, observed 2026-09-14 |
+| Heritage Foundation | heritage.org | Returns 403 to curl and to the fetcher on every page tried, including the TIDALWAVE chapters and the report pages, observed 2026-09-14 and again 2026-09-16. **A Wayback Machine snapshot retrieved the text that the live site refused**, which is how the TIDALWAVE executive summary was read |
+| American Enterprise Institute | aei.org | Refuses a HEAD request with 403 and serves the same URL to GET with 200, so a HEAD-only sweep misreports it, observed 2026-09-16 |
 | Newsweek | newsweek.com | Returns 406 to curl, observed 2026-09-14 |
 | U.S. News and World Report | usnews.com | Connection times out under curl, so a Reuters wire copy elsewhere was cited instead, observed 2026-09-14 |
 | Bloomberg and CNN article pages | bloomberg.com, cnn.com | The fetcher receives 403 and 451 respectively, so figures were taken from republished copies, observed 2026-09-14 |

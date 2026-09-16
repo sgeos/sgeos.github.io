@@ -20,12 +20,38 @@ ride along in this article's commits and the commit messages say so. **Its own d
 
 ---
 
-## A374, What Published Wargames Say About a War With China, Drafted and Equation-Reviewed
+## A374, What Published Wargames Say About a War With China, Three Passes Complete
 
-**Two passes complete, drafting and equation density. Committed, NOT PUSHED, NOT PUBLISHED.**
+**THE PRIMARY-REFERENCE PASS CAUGHT A MISATTRIBUTION IN MY OWN DRAFTING PASS, AND THE PRIMARY SAYS
+CLOSE TO THE OPPOSITE.** The drafting pass credited the Heritage Foundation's executive summary with
+four TIDALWAVE figures, the culmination ratio, the five to seven and thirty-five to forty day
+munitions brackets, and ninety percent of aircraft destroyed on the ground. **The archived executive
+summary contains none of them.** They came from a search-engine summary and a news article.
+heritage.org refuses every page to curl and to the fetcher, so **a Wayback snapshot of 14 April 2026
+supplied the text the live site would not**, bylined Robert Greenway and Anna Gustafson. **The two
+equations built on those figures were deleted** and the figures are now labelled press claims. **On
+munitions the primary states that platform destruction, not munition exhaustion, limits combat power**
+in the most intense cases, with part of the magazine never fired because the platforms are already
+destroyed. That is a different failure from running out of missiles and it weakens the tidy reading
+that stockpile depth is the binding constraint.
+
+**THE SCENARIO YEARS NOW HAVE A SOURCED ORIGIN.** The drafting pass could say only that the reports
+gave no rationale. The Senate Armed Services Committee stenographic transcript of 9 March 2021 carries
+Admiral Davidson telling Senator Sullivan that the threat is manifest during this decade, in fact in
+the next six years. **2021 plus six is 2027**, which is where CSIS at 2026, CNAS at 2027, the nuclear
+game at 2028 and the Heritage exercise at 2030 cluster, and the TIDALWAVE summary independently says
+many insiders point to 2027. The demographic-peak explanation the external summary offered remains
+unsupported.
+
+**THE PREMISE NOW CARRIES BEIJING'S OWN PRIMARY.** The 2022 white paper states that peaceful
+reunification is the first choice and that force is not renounced. It announces no timetable. That is
+the minimum the wargames assume and no more.
+
+**Three passes complete, drafting, equation density and primary references. Committed, NOT PUSHED,
+NOT PUBLISHED.**
 Standalone analytical essay at editorial date **2026-08-11**, categories
-`geopolitics military war-gaming`, **1,226 lines, 48 display equations, 57 inline expressions, 27
-references, about 7,100 words.** Article number and date were chosen as the next free number after
+`geopolitics military war-gaming`, **1,407 lines, 54 display equations, 53 inline expressions, 32
+references, about 8,300 words.** Article number and date were chosen as the next free number after
 the reserved X-Planes range and the only unused date between 2025-12-17 and 2026-08-19.
 
 **THE SOURCE WAS AN EXTERNAL MODEL'S SUMMARY AND NINE OF ITS CLAIMS WERE WRONG.** The pilot supplied
@@ -64,7 +90,8 @@ all of it exhausts memory. **A374 was therefore built in a scratch copy carrying
 `_config.yml`, all four plugins and the whole `_posts` corpus, with only this article in `_drafts/`.**
 That is not the Gemfile-free plugin-stripped build the process forbids, and it differs from the full
 gate only in which other drafts are present, none of which this article references. **That build
-succeeded in 15.0 seconds and its rendered audit reports no findings across 466 pages**, with the
+succeeded in 37.5 seconds after the primary-reference pass and its rendered audit reports no findings
+across 466 pages**, with the
 draft's checksum matched before and after. The rendered page was then read directly. **No unresolved
 reference brackets, no raw dollar pairs, no unexpanded Liquid, 50 display blocks for 48 equations plus
 two `\\[2ex]` line breaks, and all three `post_url` links resolving to live addresses.** All **61
@@ -72,15 +99,17 @@ arithmetic statements were rechecked by script** with no failures. **Two defects
 were caught by reading and not by any checker**, a survival example claiming four voyages where two
 already suffice, and `An [news article]`.
 
-**URLs.** 25 of 27 return 200. `heritage.org` returns 403 on the TIDALWAVE pages and `newsweek.com`
-returns 406, both recorded in `URL_VERIFICATION.md` along with the `usnews.com` timeout that forced a
-different Reuters copy and the fetcher refusals from `bloomberg.com` and `cnn.com`.
+**URLs.** 27 of the 29 addressed definitions return 200, the exceptions being 403 on both
+`heritage.org` pages and 406 on `newsweek.com`. **`aei.org` refuses HEAD with 403 and serves GET with
+200**, so a HEAD-only sweep misreports it. That, the `usnews.com` timeout that forced a different
+Reuters copy, the fetcher refusals from `bloomberg.com` and `cnn.com`, and the Wayback route around
+`heritage.org` are all recorded in `URL_VERIFICATION.md`.
 
-**WHAT IS NOT DONE.** Two passes remain, primary-reference density and publication review. **The
-TIDALWAVE, TIDALWAVE II and Bloomberg findings rest on summaries and press copies**, and the four
-peak-China essays were characterized from publisher summaries and not read in full. A
-primary-reference pass would most usefully retrieve those originals. **Publication is not requested
-and the article is not pushed.**
+**WHAT IS NOT DONE.** One pass remains, the publication review. **The full TIDALWAVE report, about
+400 pages according to Newsweek, was never retrieved**, and neither were the TIDALWAVE II report or
+the Bloomberg model, so those three rest on summaries and press copies. The three peak-China essays
+have now been read in full and are quoted. **Publication is not requested and the article is not
+pushed.**
 
 ---
 
