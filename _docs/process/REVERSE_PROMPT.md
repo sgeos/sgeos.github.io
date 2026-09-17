@@ -20,7 +20,51 @@ ride along in this article's commits and the commit messages say so. **Its own d
 
 ---
 
-## A374, What Published Wargames Say About a War With China, Three Passes Complete
+## A374, What Published Wargames Say About a War With China, All Four Passes Complete
+
+**THE PUBLICATION REVIEW DOUBLED THE ARTICLE AND TRIPLED ITS REFERENCES, 32 TO 111.** On the pilot's
+instruction the article now also serves as a comprehensive survey of the contemporary literature. A
+new section of thirteen subsections covers the other operational wargames, the allied and European
+games, invasion feasibility in the peer-reviewed journals, whether Taiwan is strategically decisive,
+the nuclear escalation split, deterrence theory, blockade, the economic estimates, semiconductor
+dependence, official assessments, wargaming as a method, and artificial intelligence in wargaming.
+Four delegated research sweeps supplied leads and **every citation was verified here before use**,
+which is why several leads did not survive into the article.
+
+**THE OFFICIAL ASSESSMENT CONTRADICTS THIS ARTICLE'S OWN PREMISE.** The threat assessment of the
+United States intelligence community, prepared with information available as of 14 March 2026, states
+that **Chinese leaders do not currently plan to execute an invasion of Taiwan in 2027, nor do they have
+a fixed timeline for achieving unification**, and that Chinese officials recognise an amphibious
+invasion **would be extremely challenging and carry a high risk of failure**. The article was built on
+a closing-window premise, so this now appears early in the premise section rather than buried in a
+survey. It is the sharpest official contradiction of that premise available and it comes from the body
+whose job is to assess Chinese intent.
+
+**THE ECONOMIC LITERATURE IS SMALLER THAN IT LOOKS.** Only Bloomberg, Rhodium and the Institute for
+Economics and Peace produce original numbers. The Commission, the German Marshall Fund and others
+re-cite them, which manufactures a false impression of convergence. **The two blockade estimates differ
+by a factor approaching two**, 2.8 percent of global output against 5 percent, because one prices trade
+disruption and the other a macroeconomic shock. RAND's 2025 work prices sanctions alone and therefore
+sits an order of magnitude below the war figures, so quoting it beside them would misrepresent both.
+
+**THE SEMICONDUCTOR FIGURE NOW CARRIES ITS THRESHOLD AND ITS DATE.** The famous 92 percent is a 2019
+measurement of capacity below 10 nanometres, where that capacity was about 2 percent of all capacity.
+TrendForce measured 68 percent at 16 and 14 nanometres and below in 2023. The two are not in conflict,
+and a claim quoted without its threshold cannot be checked.
+
+**TWO INDEPENDENTLY DESIGNED GAMES LAND WITHIN EIGHT PERCENT OF EACH OTHER.** The Sasakawa hex-map
+exercise destroyed 127 major Chinese ships where the CSIS base scenario averaged 138. **The starkest
+number in the public record comes from the game members of Congress played**, where 40,000 of 50,000
+landed troops became casualties in six days.
+
+**THE METHOD CRITICS ARE NOW IN THE ARTICLE, AND THEY ARE WARGAME DESIGNERS.** Their case is that
+wargames are about understanding and not knowledge, that a game often reveals more about its players
+than about the war, and that combat wargames should not be repurposed to answer questions about
+deterrence or war termination. One RAND study finds artificial intelligence least promising for games
+**played as one-offs or a very limited number of times**, which describes most of the public Taiwan
+games.
+
+
 
 **THE PRIMARY-REFERENCE PASS CAUGHT A MISATTRIBUTION IN MY OWN DRAFTING PASS, AND THE PRIMARY SAYS
 CLOSE TO THE OPPOSITE.** The drafting pass credited the Heritage Foundation's executive summary with
@@ -47,12 +91,12 @@ unsupported.
 reunification is the first choice and that force is not renounced. It announces no timetable. That is
 the minimum the wargames assume and no more.
 
-**Three passes complete, drafting, equation density and primary references. Committed, NOT PUSHED,
-NOT PUBLISHED.**
+**All four passes complete. Committed and PUSHED on the pilot's instruction. NOT PUBLISHED**, and
+publication was explicitly not requested.
 
 Standalone analytical essay at editorial date **2026-08-11**, categories
-`geopolitics military war-gaming`, **1,407 lines, 54 display equations, 53 inline expressions, 32
-references, about 8,300 words.** Article number and date were chosen as the next free number after
+`geopolitics military war-gaming`, **2,069 lines, 63 display equations, 53 inline expressions, 111
+references, about 12,100 words.** Article number and date were chosen as the next free number after
 the reserved X-Planes range and the only unused date between 2025-12-17 and 2026-08-19.
 
 **THE SOURCE WAS AN EXTERNAL MODEL'S SUMMARY AND NINE OF ITS CLAIMS WERE WRONG.** The pilot supplied
@@ -108,11 +152,21 @@ already suffice, and `An [news article]`.
 Reuters copy, the fetcher refusals from `bloomberg.com` and `cnn.com`, and the Wayback route around
 `heritage.org` are all recorded in `URL_VERIFICATION.md`.
 
-**WHAT IS NOT DONE.** One pass remains, the publication review. **The full TIDALWAVE report, about
-400 pages according to Newsweek, was never retrieved**, and neither were the TIDALWAVE II report or
-the Bloomberg model, so those three rest on summaries and press copies. The three peak-China essays
-have now been read in full and are quoted. **Publication is not requested and the article is not
-pushed.**
+**WHAT WAS DROPPED, AND WHAT REMAINS WEAK.** A Cyber Defense Review wargame paper refused at 403 and
+was never read. A French institute after-action report would not connect. A St Louis Fed review
+article would not resolve. **The Department of Defense annual report on Chinese military power refused
+every retrieval route tried**, so only its existence is cited and its warhead figures are attributed to
+an accessible specialist summary. A sweep also reported fleet counts attributed to that report that
+could not be found in it, and they are not used. **The full TIDALWAVE report, about 400 pages according
+to Newsweek, was never retrieved**, nor was TIDALWAVE II, nor is the Bloomberg model public, so those
+three remain at press-account strength and are labelled as such.
+
+**THE TWO REMAINING VERIFIER WARNINGS BELONG TO THE X-PLANES SESSION AND WERE LEFT ALONE.** They report
+that its TASKLOG current task and this reverse prompt state 63 drafted while 64 `x_planes` drafts are
+on disk, which went stale when that session added the X-63. This article carries no series field and is
+not the cause.
+
+**Publication is not requested and the article is not published.**
 
 ---
 

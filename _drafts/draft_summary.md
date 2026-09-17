@@ -23,10 +23,44 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 analytical essay, categories `geopolitics military war-gaming`. Not part of the X-Planes series and
 drafted outside its rhythm on the pilot's instruction.
 
-**1,407 lines, 54 display equations, 53 inline expressions, 32 reference definitions, roughly 8,300
-words after the primary-reference pass**, up from 805 lines, 12 display equations and 27 references
-after drafting. **Drafting, equation-density and primary-reference passes complete.** **Not pushed.
-Not published.** The drafting-pass process entries were swept into the X-Planes session's commit
+**2,069 lines, 63 display equations, 53 inline expressions, 111 reference definitions, roughly 12,100
+words after the publication review**, up from 805 lines, 12 display equations and 27 references after
+drafting. **ALL FOUR PASSES COMPLETE.** Committed and **PUSHED** on the pilot's instruction. **Not
+published**, and publication was explicitly not requested.
+
+**THE PUBLICATION REVIEW WAS ALSO A SURVEY PASS, AND REFERENCES WENT 32 TO 111.** The pilot directed
+that articles in this series carry no length or reference limit and serve as a comprehensive survey of
+the contemporary literature. A new section of thirteen subsections now covers the other operational
+wargames, the allied and European games, invasion feasibility in the peer-reviewed literature, whether
+Taiwan is strategically decisive, the nuclear escalation split, deterrence theory, blockade, the
+economic estimates, semiconductor dependence, official assessments, wargaming as a method, and
+artificial intelligence in wargaming. **Four delegated research sweeps supplied leads and every
+citation was then verified here**, which is why several of them are not in the article.
+
+**THE OFFICIAL ASSESSMENT CONTRADICTS THE ARTICLE'S OWN PREMISE, AND THAT IS NOW STATED EARLY.** The
+threat assessment of the United States intelligence community, prepared with information available as
+of 14 March 2026, states that *Chinese leaders do not currently plan to execute an invasion of Taiwan
+in 2027, nor do they have a fixed timeline for achieving unification*, and that officials recognise an
+amphibious invasion *would be extremely challenging and carry a high risk of failure*. An article
+built on a closing-window premise should say early that the body charged with assessing Chinese intent
+does not see one, and it now does.
+
+**THE ECONOMIC LITERATURE IS NOT INDEPENDENT AND THE ARTICLE NOW SAYS SO.** Only Bloomberg, Rhodium
+and the Institute for Economics and Peace produce original numbers; the Commission, the German
+Marshall Fund, the Hague Centre and others re-cite them, which manufactures a false impression of
+convergence. **The two blockade estimates differ by a factor approaching two**, 2.8 percent of global
+output against 5 percent, because one prices trade disruption and the other a macroeconomic shock.
+RAND's 2025 figures sit an order of magnitude lower because they price sanctions alone.
+
+**THE SEMICONDUCTOR CLAIM IS NOW STATED WITH ITS THRESHOLD AND ITS DATE.** The famous 92 percent is a
+2019 measurement of capacity below 10 nanometres, where such capacity was about 2 percent of all
+capacity. TrendForce put 2023 capacity at 16 and 14 nanometres and below at 68 percent. The two are
+not in conflict and quoting either without its threshold is what makes the claim unfalsifiable.
+
+**TWO INDEPENDENTLY DESIGNED GAMES LAND WITHIN EIGHT PERCENT.** The Sasakawa hex-map exercise destroyed
+127 major Chinese ships against the CSIS base-scenario average of 138. **The starkest ratio in the
+public record is from the game members of Congress played**, where 40,000 of 50,000 landed troops
+became casualties in six days. The drafting-pass process entries were swept into the X-Planes session's commit
 `5098585`, which records that it did so.
 
 **THE PRIMARY-REFERENCE PASS CAUGHT MY OWN WORST DEFECT AND IT WAS A MISATTRIBUTION.** The drafting
@@ -122,11 +156,17 @@ TIDALWAVE II and Bloomberg Economics rest on summaries and press copies, because
 bloomberg.com refused retrieval. The four peak-China essays are characterized from publisher
 summaries and were not read in full.
 
-**Remaining pass.** The publication review. The reference density is deliberately modest against
-X-Planes norms, which suits an article whose subject is a handful of reports read closely rather than
-a harvested literature. **The full TIDALWAVE report and the TIDALWAVE II report were never
-retrieved**, and the Bloomberg model is not public, so those three claims remain at press-account
-strength and should be labelled that way at publication.
+**What was dropped for unverifiability.** A Cyber Defense Review wargame paper, refused at 403 and
+never read. A French institute after-action report whose host would not connect. A Federal Reserve
+Bank of St Louis review article whose page would not resolve. **The Department of Defense annual report
+on Chinese military power refused every retrieval route**, so only its existence is cited and its two
+figures are attributed to an accessible specialist summary. A research sweep also reported fleet
+counts attributed to that report which could not be found in it, and they are not used.
+
+**Still at press-account strength.** The full TIDALWAVE and TIDALWAVE II reports were never retrieved
+and the Bloomberg model is not public. The article labels all three as such.
+
+**Publication was not requested and the article is not published.**
 
 
 ## X-Planes Lockheed Martin X-62 VISTA A359 2025-12-07
