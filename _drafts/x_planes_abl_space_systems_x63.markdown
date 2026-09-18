@@ -159,6 +159,128 @@ $$ F_{\mathrm{vac}} = \dot{m} v_e + p_e A_e, \qquad F = F_{\mathrm{vac}} - p_a A
 
 **Thrust is an affine function of ambient pressure, and the slope is minus the exit area.** Nothing else in the nozzle appears in that slope. A fixed nozzle therefore traces one straight line as it climbs, and its whole behaviour in the atmosphere is fixed by two numbers, being where the line starts and how steeply it falls.
 
+### The Same Statement Without the Engine in It
+
+Everything below is easier in coefficients than in newtons, and the reason is that the coefficients do not know how large the engine is.
+
+Let $p_c$ be the chamber pressure in pascal, $A_t$ the area of the throat in square metre, $\varepsilon$ the ratio of exit area to throat area, dimensionless, and $C_F$ the thrust coefficient, also dimensionless. The definitions are these.
+
+$$ C_F \equiv \frac{F}{p_c A_t}, \qquad \varepsilon \equiv \frac{A_e}{A_t} $$
+
+Dividing the affine law by $p_c A_t$ carries it across unchanged, and the slope becomes the area ratio.
+
+$$ C_F\left( \varepsilon, p_a \right) = C_{F,\mathrm{vac}}\left( \varepsilon \right) - \varepsilon \frac{p_a}{p_c} $$
+
+**Two numbers still describe the nozzle and neither is a length.** A fixed nozzle is a point on the vertical axis and a slope, and the whole of what follows is about which straight line to choose.
+
+### Where the Vacuum Coefficient Comes From
+
+The vacuum coefficient is not a free parameter. For a calorically perfect gas expanding isentropically it is fixed by the ratio of specific heats and the area ratio alone.
+
+Let $\gamma$ be the ratio of specific heats, dimensionless, let $M$ be the local Mach number, dimensionless, and let $\Gamma$ be the Vandenkerckhove constant, dimensionless, which collects the throat conditions.
+
+$$ \Gamma\left( \gamma \right) = \sqrt{\gamma} \left( \frac{2}{\gamma + 1} \right)^{\frac{\gamma + 1}{2\left( \gamma - 1 \right)}} $$
+
+The area ratio and the pressure ratio at any station follow from the Mach number there.
+
+$$ \frac{A}{A_t} = \frac{1}{M}\left[ \frac{2}{\gamma + 1}\left( 1 + \frac{\gamma - 1}{2} M^2 \right) \right]^{\frac{\gamma + 1}{2\left( \gamma - 1 \right)}}, \qquad \frac{p}{p_c} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{-\frac{\gamma}{\gamma - 1}} $$
+
+The first of those is monotone on the supersonic branch, so an area ratio fixes a Mach number, a Mach number fixes an exit pressure ratio, and the vacuum coefficient follows.
+
+$$ C_{F,\mathrm{vac}}\left( \varepsilon \right) = \Gamma \sqrt{ \frac{2 \gamma}{\gamma - 1} \left[ 1 - \left( \frac{p_e}{p_c} \right)^{\frac{\gamma - 1}{\gamma}} \right] } + \varepsilon \frac{p_e}{p_c} $$
+
+**Every number this article computes about nozzles comes out of those four relations and nothing else.** The first term is momentum and the second the exit plane pushing on a vacuum. Written the other way, with the constant absorbed, the momentum term is the form most texts print, and the two agree to thirteen decimal places in the cases checked.
+
+### The Symbols This Article Uses
+
+Forty-five relations need a table, and this is it. **Two letters carry two meanings each and the table says so rather than quietly reusing them**, since $L$ is a thrust loss in the nozzle sections and a moment arm in the sections about steering, and $k$ indexes a module in one place and is a separation threshold in another.
+
+| Symbol | Meaning | Unit |
+|---|---|---|
+| $ \alpha $ | equivalent gimbal angle | radian |
+| $ \alpha_{1T} $ | first stationary point of the Bessel function of order one | dimensionless |
+| $ \bar{M} $ | mean molar mass of the combustion products | kilogram per kilomole |
+| $ \bar{p}_a $ | burn-averaged ambient pressure | pascal |
+| $ \delta $ | available throttle depth | dimensionless |
+| $ \dot{m} $ | mass flow of propellant | kilogram per second |
+| $ \eta $ | fractional impulse gain of the ideal spike | dimensionless |
+| $ \Gamma $ | Vandenkerckhove constant | dimensionless |
+| $ \gamma $ | ratio of specific heats | dimensionless |
+| $ \lambda $ | temperature lapse rate of an atmospheric layer | kelvin per metre |
+| $ \phi $ | direction of the commanded moment | radian |
+| $ \sigma $ | contraction ratio, chamber area over throat area | dimensionless |
+| $ \tau_k $ | throttle fraction of module k | dimensionless |
+| $ \theta_k $ | angular position of module k on the ring | radian |
+| $ \varepsilon $ | ratio of exit area to throat area | dimensionless |
+| $ \varepsilon^{\star} $ | area ratio the mean-in-time rule selects | dimensionless |
+| $ \varepsilon_{\mathrm{sep}} $ | largest area ratio that avoids separation at sea level | dimensionless |
+| $ A $ | cross-sectional area at a station in the nozzle | square metre |
+| $ A_b $ | area of the exposed base of a truncated plug | square metre |
+| $ A_d $ | exit area of a fixed nozzle at its own design point | square metre |
+| $ A_e $ | area of the nozzle exit plane | square metre |
+| $ A_t $ | area of the nozzle throat | square metre |
+| $ c $ | speed of sound in the combustion products | metre per second |
+| $ c^{\star} $ | characteristic velocity | metre per second |
+| $ C_F $ | thrust coefficient | dimensionless |
+| $ C_F^{\star} $ | thrust coefficient of the ideal altitude-compensating nozzle | dimensionless |
+| $ C_{F,\mathrm{vac}} $ | thrust coefficient in vacuum | dimensionless |
+| $ D $ | chamber diameter | metre |
+| $ F $ | thrust | newton |
+| $ F^{\star} $ | upper envelope of the thrust of all fixed nozzles | newton |
+| $ F_w $ | axial force on the wetted surface of a plug | newton |
+| $ f_{1T} $ | frequency of the first tangential acoustic mode | hertz |
+| $ F_{\mathrm{vac}} $ | thrust the same nozzle would produce against a vacuum | newton |
+| $ G $ | vacuum thrust regarded as a function of exit area | newton |
+| $ g_0 $ | standard gravity | metre per second squared |
+| $ H $ | pressure scale height of the atmosphere | metre |
+| $ h $ | geometric altitude | metre |
+| $ h_0 $ | altitude at the base of an atmospheric layer | metre |
+| $ h_b $ | altitude at main engine cut-off | metre |
+| $ I $ | delivered impulse in units of chamber pressure times throat area | second |
+| $ I_{sp} $ | specific impulse | second |
+| $ J $ | time integral of ambient pressure over the burn | pascal second |
+| $ j $ | index of the module that failed | dimensionless |
+| $ k $ | index over modules, and elsewhere the separation threshold ratio | dimensionless |
+| $ L $ | loss of a fixed nozzle against the envelope, and elsewhere the distance from the engine plane to the centre of mass | newton, and metre |
+| $ M $ | Mach number | dimensionless |
+| $ m $ | number of sides of the achievable moment polygon | dimensionless |
+| $ M_{\mathrm{out}} $ | unbalanced moment left by the loss of one module | newton metre |
+| $ N $ | number of thruster modules on the ring | dimensionless |
+| $ n $ | shape exponent of the ascent profile, and elsewhere a count of trials | dimensionless |
+| $ p $ | static pressure at a station | pascal |
+| $ p_0 $ | pressure at the base of an atmospheric layer | pascal |
+| $ p_a $ | ambient atmospheric pressure | pascal |
+| $ p_b $ | pressure acting on the exposed base of a truncated plug | pascal |
+| $ p_c $ | chamber pressure | pascal |
+| $ p_d $ | ambient pressure at which a fixed nozzle is matched | pascal |
+| $ p_e $ | static pressure of the exhaust at the exit plane | pascal |
+| $ p_{\mathrm{SL}} $ | sea-level pressure of the standard atmosphere | pascal |
+| $ q $ | dummy variable of integration over ambient pressure | pascal |
+| $ R $ | specific gas constant of air | joule per kilogram kelvin |
+| $ r $ | radius of the ring of thruster modules | metre |
+| $ R_u $ | universal gas constant | joule per kilomole kelvin |
+| $ T $ | temperature | kelvin |
+| $ t $ | time from liftoff | second |
+| $ T_0 $ | temperature at the base of an atmospheric layer | kelvin |
+| $ t_b $ | burn duration of the first stage | second |
+| $ T_c $ | chamber temperature | kelvin |
+| $ u $ | dummy variable of integration over angle | radian |
+| $ v $ | climb rate | metre per second |
+| $ v_e $ | exhaust velocity at the exit plane | metre per second |
+| $ X $ | number of engines suffering the instability | dimensionless |
+
+**Every symbol above appears in the mathematics and every symbol in the mathematics appears above**, checked by a scanner that strips the operators and the prose inside `\text` and then requires the remainder to be empty.
+
+### What the Coefficient Is Worth in Seconds
+
+One conversion is worth having, because specific impulse is the currency this subject is argued in.
+
+Let $\dot{m}$ be the mass flow as before, $c^{\star}$ the characteristic velocity in metre per second, $T_c$ the chamber temperature in kelvin, $\bar{M}$ the mean molar mass of the combustion products in kilogram per kilomole, $R_u$ the universal gas constant in joule per kilomole kelvin, $g_0$ the standard gravity in metre per second squared, and $I_{sp}$ the specific impulse in second.
+
+$$ c^{\star} = \frac{p_c A_t}{\dot{m}} = \frac{1}{\Gamma}\sqrt{\frac{R_u T_c}{\bar{M}}}, \qquad I_{sp} = \frac{C_F \, c^{\star}}{g_0} $$
+
+**The split is clean and it is why this article can work in coefficients.** The characteristic velocity carries everything about the propellant and the chamber, the thrust coefficient carries everything about the nozzle and the atmosphere, and they multiply. **A claim about altitude compensation is a claim about the second factor only.**
+
 That is already enough to say something the subject's usual presentation obscures. **The entire atmospheric penalty of a fixed nozzle over a whole burn is its exit area multiplied by the time integral of the ambient pressure.** Let $t_b$ be the burn duration in second, and let $J$ be that integral in pascal second.
 
 $$ J = \int_{0}^{t_b} p_a(t) \, \mathrm{d}t, \qquad \int_{0}^{t_b} F \, \mathrm{d}t = F_{\mathrm{vac}} t_b - A_e J $$
@@ -183,6 +305,12 @@ which is $G$ minus a linear term in exactly the pairing that defines a Legendre 
 
 Maximising the thrust over the exit area at a fixed ambient pressure requires $G'(A_e) = p_a$, and $G'(A_e)$ is $p_e$. **So the optimum is $p_e = p_a$, which is the matched-expansion condition that every text states as a separate empirical fact.** It is not a separate fact. It is the first-order condition of the transform.
 
+In coefficients the same statement is a derivative with respect to the area ratio, and it is the form the later sections use.
+
+$$ \frac{\partial C_F}{\partial \varepsilon} = \frac{p_e - p_a}{p_c} $$
+
+**The derivative of the thrust coefficient with respect to area ratio is the pressure difference across the exit plane.** Lengthening the nozzle helps while the exhaust is still pushing harder than the atmosphere and hurts once it is not, which is the whole of the design trade written as one line. Checked against central differences at three ratios of specific heats, three ambient pressures and three area ratios, the worst disagreement in the twenty-seven cases is five parts in ten million, which is the step size rather than the relation.
+
 A numerical check of the identity was run across three ratios of specific heats and four area ratios, differentiating the vacuum thrust coefficient by central differences and comparing with the exit pressure ratio computed from the isentropic relations. **The worst disagreement in the twelve cases is 2.1 parts in a hundred thousand million.**
 
 ## The Envelope, and What a Fixed Nozzle Gives Up
@@ -199,11 +327,37 @@ Two consequences follow immediately and neither needs any hardware.
 
 **Second, every fixed nozzle touches the envelope at exactly one point and lies strictly below it everywhere else.** That one point is its design altitude. This is the whole of the altitude-compensation argument, and it is a statement about tangency rather than about gas dynamics.
 
-The gap between the envelope and the tangent line has a name. Let $p_d$ be the ambient pressure at which a particular fixed nozzle is matched, in pascal, and let $A_d$ be its exit area in square metre. The envelope theorem gives $\mathrm{d}F^{\star}/\mathrm{d}p_a = -A_e$, so $F^{\star\prime}(p_d) = -A_d$, and the loss of that nozzle at some other ambient pressure is
+That second consequence has a name and an exact statement, which is the Fenchel-Young inequality.
+
+$$ G\left( A_e \right) \le F^{\star}\left( p_a \right) + p_a A_e \quad \text{for every } A_e \text{ and every } p_a $$
+
+**Equality holds if and only if the nozzle is matched to that ambient pressure.** Rearranged, the inequality says that the thrust of any fixed nozzle at any altitude is at most the envelope's, which is the sentence above, now with a condition attached to the one case where it is tight. It was checked at three area ratios against three ambient pressures each, and the gap is positive in every case away from the design point and zero to twelve decimal places at it.
+
+The transform also runs backwards, which is worth stating because it says the envelope loses nothing.
+
+$$ G\left( A_e \right) = \min_{p_a} \left\{ F^{\star}\left( p_a \right) + p_a A_e \right\} $$
+
+**The family of fixed nozzles and the envelope carry the same information.** Knowing the ideal spike's thrust at every altitude is knowing the vacuum thrust of every bell, and conversely. **An aerospike is not a new capability so much as a different point on a structure that was already there.**
+
+Two derivatives of the envelope are worth writing down, because between them they say what shape it is. Let $A_e(p_a)$ denote the exit area the envelope selects at ambient pressure $p_a$, in square metre.
+
+$$ \frac{\mathrm{d} F^{\star}}{\mathrm{d} p_a} = -A_e\left( p_a \right), \qquad \frac{\mathrm{d}^2 F^{\star}}{\mathrm{d} p_a^2} = -\frac{\mathrm{d} A_e}{\mathrm{d} p_a} \ge 0 $$
+
+The first is the envelope theorem, which says the slope of the envelope is minus the exit area of whichever nozzle is optimal there. **Convexity is the other, and it holds for a physical reason rather than a formal one.** A higher ambient pressure selects a shorter nozzle, so the exit area falls as the ambient rises, so its negative is non-negative. **The envelope bends upward because the optimal nozzle shrinks as the air thickens.**
+
+The gap between the envelope and the tangent line has a name. Let $p_d$ be the ambient pressure at which a particular fixed nozzle is matched, in pascal, and let $A_d$ be its exit area in square metre, so that $F^{\star\prime}(p_d) = -A_d$. The loss of that nozzle at some other ambient pressure is
 
 $$ L(p_a) = F^{\star}(p_a) - \left[ G(A_d) - p_a A_d \right] = F^{\star}(p_a) - F^{\star}(p_d) - F^{\star\prime}(p_d)\left( p_a - p_d \right) $$
 
-**That is the Bregman divergence of the convex function $F^{\star}$ generated at the design point** \[[Bregman divergence][ref_bregman]\] \[[envelope theorem][ref_envelope_theorem]\].** It is zero at the design altitude, positive everywhere else, and it grows faster than linearly in the mismatch because the envelope is convex. The performance penalty of a fixed nozzle is not merely analogous to a Bregman divergence. **It is one.**
+**That is the Bregman divergence of the convex function $F^{\star}$ generated at the design point** \[[Bregman divergence][ref_bregman]\] \[[envelope theorem][ref_envelope_theorem]\]. It is zero at the design altitude, positive everywhere else, and it grows faster than linearly in the mismatch because the envelope is convex. The performance penalty of a fixed nozzle is not merely analogous to a Bregman divergence. **It is one.**
+
+Substituting the first derivative above turns that difference into an integral, and the integral is the form that can be read off a picture.
+
+$$ L\left( p_a \right) = \int_{p_d}^{p_a} \left[ A_d - A_e\left( q \right) \right] \mathrm{d}q $$
+
+**The loss is the area between a horizontal line at the fixed nozzle's exit area and the curve of the exit area the envelope would have chosen.** Above the design point the envelope wants a smaller nozzle than the one fitted and the integrand is positive. Below it the envelope wants a larger one and the integrand is negative, but so is the direction of travel, **so the loss is positive on both sides and for the same reason**.
+
+**The order of that subtraction was settled by a check rather than by inspection.** Written the other way round the expression is the negative of the loss, and the first version of the numerical test was, which is how the sign was fixed before the relation reached this page.
 
 ## The Rule That Chooses a Fixed Nozzle, Which Is a Mean in Time
 
@@ -220,6 +374,10 @@ Differentiate with respect to $\varepsilon$ and set the derivative to zero. The 
 $$ t_b \frac{p_e}{p_c} = \frac{J}{p_c} \qquad \Longrightarrow \qquad p_e = \frac{J}{t_b} = \frac{1}{t_b}\int_{0}^{t_b} p_a(t)\, \mathrm{d}t $$
 
 **The optimal fixed nozzle expands to the time-averaged ambient pressure of its own flight.**
+
+Writing $\bar{p}_a$ for that burn-averaged ambient pressure in pascal, and $\varepsilon^{\star}$ for the area ratio the rule selects, dimensionless, the statement is a condition on the exit pressure and nothing else.
+
+$$ \bar{p}_a \equiv \frac{1}{t_b}\int_{0}^{t_b} p_a(t)\, \mathrm{d}t, \qquad p_e\left( \varepsilon^{\star} \right) = \bar{p}_a $$
 
 Nothing about the gas appears. Nothing about the chamber pressure appears. Nothing about the vehicle appears. **The rule is a mean, it is a mean in time and not in altitude, and it is exact.** The question it answers has been asked of other vehicles by other routes \[[Hiers and Knapke 2019][ref_optimum_ratio_2019]\].
 
@@ -244,7 +402,23 @@ Liftoff is at zero. **Main engine cut-off and stage separation occur at 160 seco
 
 Those points already say something about the shape of the climb. **The mean vertical speed over the first stage is 469 metres per second against a speed at cut-off of 2,600**, so the vertical component is about eighteen percent of the total and the trajectory has turned most of the way over by the time the first stage finishes. A first stage is not a lift.
 
-Two published points and a zero initial rate do not determine a trajectory, so the pressure-time integral was computed over a family of monotone profiles of the form $h(t) = h_b (t/t_b)^n$, with $h_b$ the cut-off altitude in metre and the exponent $n$ swept from 1.5 to 3.0. Ambient pressure is taken from the 1976 United States Standard Atmosphere implemented as its seven gradient and isothermal layers, which reproduces the published values at 11 and 20 kilometres to six figures.
+Two published points and a zero initial rate do not determine a trajectory, so the pressure-time integral was computed over a family of monotone profiles. Let $h$ be geometric altitude in metre, $h_b$ the cut-off altitude in metre and $n$ a shape exponent, dimensionless.
+
+$$ h(t) = h_b \left( \frac{t}{t_b} \right)^{n}, \qquad 1.5 \le n \le 3.0 $$
+
+**The exponent is a guess and the sweep is what makes it honest.** A value of 2 is constant acceleration, below 2 is a vehicle that climbs steeply and then pitches over, and above 2 is one that lingers low.
+
+Ambient pressure comes from the 1976 United States Standard Atmosphere, implemented as its seven layers. Let $\lambda$ be the temperature lapse rate of a layer in kelvin per metre, $T_0$ and $p_0$ the temperature and pressure at its base in kelvin and pascal, $h_0$ its base altitude in metre, $g_0$ the standard gravity and $R$ the specific gas constant of air in joule per kilogram kelvin. A layer with a lapse rate and an isothermal layer take different forms.
+
+$$ p(h) = p_0 \left( 1 + \frac{\lambda \left( h - h_0 \right)}{T_0} \right)^{-\frac{g_0}{R \lambda}}, \qquad p(h) = p_0 \exp\left( -\frac{g_0 \left( h - h_0 \right)}{R T_0} \right) $$
+
+**The isothermal form is the limit of the other as the lapse rate goes to zero**, which is worth noticing because it is the only place in this article where a formula and its own degenerate case both have to be implemented. The implementation reproduces the published table values at 5, 11, 15, 20, 32 and 47 kilometres to better than two parts in a hundred thousand.
+
+The natural length in that expression is the scale height, in metre, and it is what sets how quickly the question answers itself.
+
+$$ H \equiv -\frac{p}{\mathrm{d}p / \mathrm{d}h} = \frac{R T}{g_0} $$
+
+At sea level that is **8,434.9 metres against the isothermal value of 8,434.5**, a difference of four tenths of a metre which is the lapse rate showing up in the fourth figure. **The first draft of this sentence rounded both to the nearest metre and wrote them as different numbers**, which they are not at that precision. **The first attempt to evaluate it returned exactly twice that**, because the pressure function clamps below sea level and a central difference at the ground therefore halves its own denominator. **A factor of two at a boundary is the cheapest error to make and the easiest to catch**, since the isothermal value is one line of arithmetic.
 
 **Across that family the burn-averaged ambient pressure runs from 19.4 to 41.6 percent of sea-level pressure**, and the value for the constant-acceleration case is 28.06 percent. That is the spread the unknown trajectory shape produces, and it is stated rather than hidden behind a single figure.
 
@@ -255,11 +429,23 @@ Two published points and a zero initial rate do not determine a trajectory, so t
 | 2.5 | 35,916 pascal | 35.4 percent | 29.4 seconds |
 | 3.0 | 42,178 pascal | 41.6 percent | 34.0 seconds |
 
+One closed form is worth having beside the numbers, because it says what the integral depends on. For an isothermal atmosphere climbed at a constant rate $v$ in metre per second,
+
+$$ J = \frac{p_0 H}{v}\left[ 1 - \exp\left( -\frac{v t_b}{H} \right) \right] \;\longrightarrow\; \frac{p_0 H}{v} \quad \text{as } v t_b \gg H $$
+
+**The atmospheric penalty of a long burn does not depend on how long the burn is.** Once the vehicle is several scale heights up, the integral has stopped growing, and what remains is sea-level pressure times the scale height divided by the climb rate. **A rocket does not pay for the atmosphere by the second. It pays once, and the bill is set by how fast it left.**
+
 **The more useful number is where the integral is accumulated.** Half of the whole pressure-time integral of a 160 second burn is collected in the first 17.6 to 34.0 seconds, depending on the profile. **The altitude-compensation question is settled in the first fifth of the burn and the remaining four fifths barely vote.** Ambient pressure is at half of its sea-level value by 5.48 kilometres, at a tenth by 16.1 kilometres, at a hundredth by 31.0 kilometres, and at cut-off altitude it is two parts in a hundred thousand of sea level. **The atmosphere is effectively gone for the last two thirds of the burn and the nozzle still has to carry the exit area it chose for the first third.**
 
 ## What the Spike Buys, on This Trajectory
 
 With the trajectory in hand the gain of ideal altitude compensation can be computed rather than asserted. The comparison is a ratio of two integrals of thrust coefficients, so **it requires no dimension of the engine at all**, which is fortunate, because none is public.
+
+The quantity is a ratio of two integrals. Writing $\eta$ for the fractional gain, dimensionless,
+
+$$ \eta = \frac{\displaystyle\int_{0}^{t_b} C_F^{\star}\left( p_a(t) \right) \mathrm{d}t}{\displaystyle\int_{0}^{t_b} C_F\left( \varepsilon^{\star}, p_a(t) \right) \mathrm{d}t} - 1 $$
+
+**The throat area cancels, the chamber pressure cancels and the mass flow cancels**, which is why a figure for a vehicle whose engine is not public can be quoted at all.
 
 Against the best possible fixed nozzle for this trajectory, chosen by the rule derived above, **an ideal altitude-compensating nozzle delivers between 5.3 and 8.5 percent more first-stage impulse**, across ratios of specific heats from 1.20 to 1.24 and chamber pressures from 3 to 10 megapascal. Against a fixed nozzle matched at sea level, which is the naive choice, **the gain is between 7.8 and 12.5 percent**.
 
@@ -285,9 +471,19 @@ Two remarks keep those numbers honest.
 
 The mean-in-time rule has a consequence that the usual presentation of altitude compensation never reaches, because the usual presentation stops at the design-point trade.
 
-Recall that the rule sets the exit pressure of the optimal fixed nozzle equal to the burn-averaged ambient pressure. **At liftoff the ambient pressure is sea-level pressure, so the exit-to-ambient pressure ratio of the optimal nozzle at liftoff is exactly the burn-averaged ambient pressure expressed as a fraction of sea level.** For the constant-acceleration model of this vehicle's first stage that fraction is 0.2806, and the calculation returns 0.28064 for the optimal nozzle at every one of the nine combinations of gas and chamber pressure tested. **The invariance is the identity showing itself.**
+Recall that the rule sets the exit pressure of the optimal fixed nozzle equal to the burn-averaged ambient pressure. At liftoff the ambient pressure is sea-level pressure, so the exit-to-ambient pressure ratio of the optimal nozzle at liftoff is that burn-averaged pressure divided by the sea-level value, and the chamber pressure has cancelled on the way.
 
-Now set that against the other thing a nozzle designer has to respect. An over-expanded nozzle does not merely lose thrust. Below some exit-to-ambient pressure ratio the boundary layer separates from the divergent wall, the separation line is unsteady, and the resulting side loads are a structural problem rather than a performance one. The oldest rules of thumb put the onset near four tenths, later correlations for contoured nozzles put it lower and make it depend on the overall pressure ratio, and the band usually quoted runs from about a quarter to about four tenths \[[Scheller and Bierlein 1953][ref_separation_1953]\] \[[Arens 1963][ref_separation_contoured_1963]\] \[[Stark 2013][ref_separation_overview_2013]\]. **This article has not read those correlations and does not attribute the band to any one of them.** What it does is sweep the whole band and report what each end implies, which is what a range taken on report deserves.
+$$ \left. \frac{p_e}{p_a} \right|_{t=0} = \frac{\bar{p}_a}{p_{\mathrm{SL}}} = \frac{1}{p_{\mathrm{SL}} t_b} \int_{0}^{t_b} p_a(t) \, \mathrm{d}t $$
+
+**The condition a designer has to satisfy at liftoff is a property of the whole flight and of nothing else.** Not of the engine, not of the propellant, not of the size of the vehicle. For the constant-acceleration model of this vehicle's first stage that fraction is 0.2806, and the calculation returns 0.28064 for the optimal nozzle at every one of the nine combinations of gas and chamber pressure tested. **The invariance is the identity showing itself.**
+
+Now set that against the other thing a nozzle designer has to respect. An over-expanded nozzle does not merely lose thrust. Below some exit-to-ambient pressure ratio the boundary layer separates from the divergent wall, the separation line is unsteady, and the resulting side loads are a structural problem rather than a performance one.
+
+Let $k$ be that threshold ratio, dimensionless, and $\varepsilon_{\mathrm{sep}}$ the largest area ratio that respects it at sea level. The criterion and the limit it implies are these.
+
+$$ \frac{p_e}{p_a} \ge k \qquad \Longrightarrow \qquad p_e\left( \varepsilon_{\mathrm{sep}} \right) = k \, p_{\mathrm{SL}} $$
+
+**Both constraints are now conditions on the same quantity**, which is the exit pressure at liftoff. One says it should equal the burn-averaged ambient pressure. The other says it must not fall below $k$ times sea level. **Whether they can both be met is arithmetic.** The oldest rules of thumb put the onset near four tenths, later correlations for contoured nozzles put it lower and make it depend on the overall pressure ratio, and the band usually quoted runs from about a quarter to about four tenths \[[Scheller and Bierlein 1953][ref_separation_1953]\] \[[Arens 1963][ref_separation_contoured_1963]\] \[[Stark 2013][ref_separation_overview_2013]\]. **This article has not read those correlations and does not attribute the band to any one of them.** What it does is sweep the whole band and report what each end implies, which is what a range taken on report deserves.
 
 **The optimum sits at 0.2806, which is inside that band.**
 
@@ -310,9 +506,19 @@ The fact sheet names open wake, wake transition and closed wake as the three mod
 
 A full-length plug would be long, heavy and hot. **Real ones are truncated**, which leaves a blunt base at the downstream end, and the flow behind that base is the thing the three names classify.
 
+Truncation splits the thrust into two terms, and the split is exact whatever the flow does. Let $F_w$ be the axial force the expanding gas exerts on the wetted surface of the plug in newton, $p_b$ the pressure acting on the exposed base in pascal, and $A_b$ the area of that base in square metre.
+
+$$ F = F_w + p_b A_b $$
+
+**Cutting the plug short removes part of the first term and creates the second.** How much of the loss the second term returns is what the base pressure decides, and the base pressure is what the three regimes are about. **This article can write the decomposition and cannot evaluate it**, because $p_b$ is set by a recirculating turbulent flow and no one-dimensional isentropic model produces one.
+
 At low altitude the ambient pressure is high, the plume is squeezed inward against the plug, and the recirculating region behind the truncated base is closed off by the converging flow. That is the **closed wake**. The base sits at a pressure set by the recirculation rather than by the atmosphere, and the pressure acting on it contributes to thrust.
 
-At high altitude the ambient pressure is low, the plume no longer closes behind the base, and the base region is open to the external flow. That is the **open wake**, and in it the base pressure is tied to the ambient pressure. **A normal shock stands in the plume at the transition** \[[Giel and Mueller 1975][ref_mach_disc_1975]\] \[[Marsilio 2001][ref_plug_flowfields_2001]\].
+At high altitude the ambient pressure is low, the plume no longer closes behind the base, and the base region is open to the external flow. That is the **open wake**, and in it the base pressure is tied to the ambient pressure. The two regimes are distinguished by which quantity sets the base pressure, and that is the whole of the classification.
+
+$$ p_b \approx p_a \;\; \text{open wake}, \qquad p_b \neq p_a \;\; \text{closed wake} $$
+
+**In the open regime the base contributes nothing the atmosphere does not already take back.** In the closed regime it contributes a pressure the recirculation sets, which may be above or below ambient, and that is the term a truncated spike is designed to keep. **A normal shock stands in the plume at the transition** \[[Giel and Mueller 1975][ref_mach_disc_1975]\] \[[Marsilio 2001][ref_plug_flowfields_2001]\].
 
 **Between them is a transition, and a transition between two flow topologies is exactly the kind of thing that can be hysteretic, unsteady, or abrupt** \[[Geron and others 2005][ref_wake_transition_2005]\] \[[Mizukaki and Watabe 2016][ref_closed_wake_2016]\] \[[Taylor and Sato 2008][ref_ed_open_wake_2008]\]. That is the reason a flight is needed. A ground test can produce either end state in a vacuum chamber. It cannot produce the passage between them at full scale with a real plume and a real trajectory, which is the sentence the fact sheet makes in its own words.
 
@@ -332,7 +538,11 @@ Let $N$ be the number of modules, dimensionless, equally spaced around a ring of
 
 $$ M(\phi) = \frac{F r}{N} \sum_{k=0}^{N-1} \tau_k \cos\left( \theta_k - \phi \right) $$
 
-Because the unthrottled ring is balanced, $\sum_k \cos(\theta_k - \phi) = 0$ for every $N \ge 2$ and every $\phi$. Subtracting that identity removes the baseline entirely, and what is left is the throttle depth acting on the modules in the forward half only. The optimal throttle pattern is bang-bang, every module in the forward half wide open and every module in the rear half closed to its floor, and the moment it produces is
+The unthrottled ring is balanced, and that is an identity rather than an approximation.
+
+$$ \sum_{k=0}^{N-1} \cos\left( \theta_k - \phi \right) = 0 \qquad \text{for every } N \ge 2 \text{ and every } \phi $$
+
+**A ring of equally spaced thrusters all wide open applies no moment about any axis**, which is what makes the arrangement usable at all, and subtracting that identity removes the baseline entirely. What is left is the throttle depth acting on the modules in the forward half only. The optimal throttle pattern is bang-bang, every module in the forward half wide open and every module in the rear half closed to its floor, and the moment it produces is
 
 $$ \frac{M(\phi)}{F r} = \frac{\delta}{N} \sum_{k} \max\left( \cos\left( \theta_k - \phi \right), \, 0 \right) $$
 
@@ -340,7 +550,11 @@ $$ \frac{M(\phi)}{F r} = \frac{\delta}{N} \sum_{k} \max\left( \cos\left( \theta_
 
 ## The Directional Average Is the Throttle Depth Divided by Pi, Exactly
 
-Average that expression over all commanded directions. Each module contributes the mean of $\max(\cos u, 0)$ over a full turn, which is $1/\pi$, and there are $N$ modules divided by $N$.
+Average that expression over all commanded directions. Each module contributes the mean of $\max(\cos u, 0)$ over a full turn, and that mean is one elementary integral.
+
+$$ \frac{1}{2\pi}\int_{0}^{2\pi} \max\left( \cos u, 0 \right) \mathrm{d}u = \frac{1}{2\pi}\int_{-\pi/2}^{\pi/2} \cos u \, \mathrm{d}u = \frac{1}{\pi} $$
+
+There are $N$ modules and the expression divides by $N$, so the module count cancels exactly.
 
 $$ \left\langle \frac{M}{F r} \right\rangle_{\phi} = \frac{\delta}{\pi} $$
 
@@ -352,7 +566,11 @@ $$ \left\langle \frac{M}{F r} \right\rangle_{\phi} = \frac{\delta}{\pi} $$
 
 The polygon's side count is not the module count, and the difference is the result worth having.
 
-Let $m$ be the number of sides of the achievable moment polygon, dimensionless. The support function is a pure cosine between the directions at which the set of open modules changes, and it changes whenever a module crosses the boundary of the forward half plane, which happens at $\phi = \theta_k \pm \pi/2$. **So the number of sides is the number of distinct such crossings.**
+Let $m$ be the number of sides of the achievable moment polygon, dimensionless. The support function is a pure cosine between the directions at which the set of open modules changes, and it changes whenever a module crosses the boundary of the forward half plane. Those directions are exactly these.
+
+$$ \phi \in \left\{ \theta_k + \frac{\pi}{2} \right\} \cup \left\{ \theta_k - \frac{\pi}{2} \right\}, \qquad k = 0, \dots, N-1 $$
+
+**So the number of sides is the number of distinct members of that union**, which was checked by enumeration at ten module counts from four to seventeen and agrees with the closed form below in every case.
 
 **For an even ring the two families of crossings coincide**, because a half turn is a whole number of module spacings, so a module enters the forward half at the same instant another leaves it and there are $N$ crossings. **For an odd ring a half turn is not a whole number of spacings**, the two families interleave, and there are $2N$.
 
@@ -396,7 +614,17 @@ The RS1 first stage from which the X-63A was to be derived carried **nine** engi
 
 The same geometry answers the engine-out question, and the first attempt to answer it here was wrong in a way worth recording.
 
-Lose one module of $N$ and two things happen. **The axial thrust falls by a fraction $1/N$.** And because the intact ring is balanced, removing one module leaves a net moment equal to minus that module's own contribution, which normalised the same way is also $1/N$. **Both penalties are one over the module count and they arrive together.**
+Lose one module of $N$ and two things happen, and the balance identity above gives both at once. Removing module $j$ from a sum that vanishes leaves minus that module's own term.
+
+$$ \frac{\Delta F}{F} = \frac{1}{N}, \qquad \frac{M_{\mathrm{out}}\left( \phi \right)}{F r} = -\frac{1}{N}\cos\left( \theta_j - \phi \right) $$
+
+**The axial thrust falls by one part in $N$, and the unbalanced moment peaks at one part in $N$ as well.** Both penalties are one over the module count and they arrive together.
+
+What the surviving ring can then do is its own support function, taken over the modules that remain rather than over all of them.
+
+$$ \frac{M\left( \phi \right)}{F r} = \frac{1}{N}\sum_{k \neq j} \tau_k \cos\left( \theta_k - \phi \right), \qquad \tau_k \in \left[ 0, 1 \right] $$
+
+**That sum is not the intact one with a smaller coefficient.** It is a different sum, missing a term, and the difference is the whole of what follows.
 
 The mistake was to then ask how much authority the ring has left and to answer with the closed form derived above. **That formula is for a regular ring and a ring with a hole in it is not regular.** In some commanded directions the module that would have pushed hardest is precisely the one that failed, so the degraded polygon is not a scaled copy of the intact one. Solving the degraded problem directly, by taking the support function of the surviving modules over their full throttle range, gives numbers that are smaller by factors of **1.15 to 2.62**, and at four modules the discrepancy is total.
 
@@ -418,6 +646,16 @@ The correct figures, as the fraction of guaranteed steering authority that survi
 **Here the parity result reverses.** Odd rings steer more evenly when intact, because their control polygon has twice as many sides. But a failure breaks the symmetry that the parity argument depends on, and after a failure what matters is simply how many modules are left and how finely they surround the gap. **Twelve beats nine on this measure even though nine beats twelve on the other.**
 
 **The two results are both geometric, both exact, and they point in opposite directions.** An odd ring is the better steering machine and the worse survivor. That is a real design tension rather than a paradox, and it is the kind of thing a programme buys a flight to find out about, except that this particular question can be settled with a pencil.
+
+### What the Authority Is Worth in Degrees
+
+A moment normalised by thrust and ring radius is hard to compare with anything, so it is worth converting into the quantity a designer of a conventional stage would quote, which is a gimbal angle.
+
+Let $L$ be the distance from the engine plane to the vehicle's centre of mass in metre and $\alpha$ the equivalent gimbal angle in radian. A gimballed engine deflected by $\alpha$ applies a moment $F L \sin \alpha$, and setting that equal to the ring's directional average gives
+
+$$ \sin \alpha = \frac{\delta}{\pi} \cdot \frac{r}{L} $$
+
+**The ring radius divided by the distance to the centre of mass is a small number on a slender vehicle**, and the throttle depth divided by pi is smaller still. A throttle range of two tenths on a ring whose radius is a quarter of the arm gives an equivalent deflection of **0.91 degrees**. **That is not a substitute for a gimbal and it was never going to be.** What differential throttling buys is attitude control on a vehicle that has nowhere to put a gimbal, at an authority that is adequate for trim and marginal for anything faster.
 
 ## The Vehicle, and a Table That Does Not Close
 
@@ -447,11 +685,21 @@ The first tangential acoustic mode of a cylindrical chamber has a frequency fixe
 
 $$ f_{1T} = \frac{\alpha_{1T} \, c}{\pi D} \qquad \Longrightarrow \qquad D = \frac{\alpha_{1T} \, c}{\pi f_{1T}} $$
 
-**Naming the frequency names the diameter, to within whatever must be assumed about the gas.** The speed of sound follows from the flame temperature, the mean molar mass of the products and the ratio of specific heats, none of which is published either, so all three are swept rather than chosen. Flame temperatures from 3,200 to 3,800 kelvin, molar masses from 21 to 24 kilogram per kilomole and ratios of specific heats from 1.15 to 1.25 give forty-eight combinations, sound speeds from **1,129 to 1,371 metres per second**, and a chamber diameter of
+**Naming the frequency names the diameter, to within whatever must be assumed about the gas.** The speed of sound follows from the flame temperature, the mean molar mass of the products and the ratio of specific heats, none of which is published either, so all three are swept rather than chosen.
+
+$$ c = \sqrt{\frac{\gamma R_u T_c}{\bar{M}}} $$
+
+**That is the frozen speed of sound**, which treats the composition as fixed through the acoustic cycle. A real chamber recombines, which raises the effective value, so the diameters below are if anything slightly small. Flame temperatures from 3,200 to 3,800 kelvin, molar masses from 21 to 24 kilogram per kilomole and ratios of specific heats from 1.15 to 1.25 give forty-eight combinations, sound speeds from **1,129 to 1,371 metres per second**, and a chamber diameter of
 
 **147 to 179 millimetres**, with a midpoint of 163.
 
-Chamber pressure needs two more assumptions, being a contraction ratio and a sea-level thrust coefficient. Sweeping contraction ratios from 2 to 4 and thrust coefficients from 1.45 to 1.65 across the diameter band gives thirty-six combinations and a chamber pressure of **2.6 to 8.7 megapascal**, with a midpoint of 5.67.
+Chamber pressure needs two more assumptions, being a contraction ratio and a sea-level thrust coefficient. Let $\sigma$ be the contraction ratio, dimensionless, which is the chamber cross-section divided by the throat. The chain from the diameter to the pressure is two lines, and the second is just the definition of the thrust coefficient rearranged.
+
+$$ A_t = \frac{\pi D^2}{4 \sigma}, \qquad p_c = \frac{F}{C_F A_t} = \frac{4 \sigma F}{\pi C_F D^2} $$
+
+**The chamber pressure goes as the inverse square of the diameter**, which is why the recovered band is wide even though the frequency is published to two significant figures. A twenty percent uncertainty in the diameter is a factor of 1.44 in the pressure before any other assumption is made.
+
+Sweeping contraction ratios from 2 to 4 and thrust coefficients from 1.45 to 1.65 across the diameter band gives thirty-six combinations and a chamber pressure of **2.6 to 8.7 megapascal**, with a midpoint of 5.67.
 
 | Quantity | Low | High | Combinations swept |
 |---|---|---|---|
@@ -469,7 +717,11 @@ The incident report also quantifies the risk that modularity carries, and it doe
 
 **Two of eleven engines suffered the instability.** The report says that in more than three hundred prior tests of the E2 the phenomenon had been observed once, and attributes that single occurrence to an unrelated timing anomaly \[[Flight 2 Static Fire Update][ref_abl_staticfire]\].
 
-Take the historical rate at face value as one in three hundred per engine start. The probability that two or more of eleven independent starts go unstable is then **6.0 parts in ten thousand, or about one in 1,669**. The observed rate of two in eleven is **54.5 times** the historical rate, and the expected number of failures at the historical rate is 0.037.
+Take the historical rate at face value as one in three hundred per engine start. Let $p$ be that per-start probability, dimensionless, and $n$ the number of engines. If the starts were independent, the chance of two or more going unstable would be the binomial tail.
+
+$$ \Pr\left[ X \ge 2 \right] = 1 - \left( 1 - p \right)^{n} - n p \left( 1 - p \right)^{n-1} $$
+
+At $p = 1/300$ and $n = 11$ that is **6.0 parts in ten thousand, or about one in 1,669**. The observed rate of two in eleven is **54.5 times** the historical rate, and the expected number of failures at the historical rate is 0.037.
 
 **The company draws the conclusion itself**, that the second block's propellant feed system produced a higher energy start on the vehicle than the test stand ever did. The arithmetic is worth adding because it says how strong that conclusion is. **A rate this far above the record is not something that happens to a batch of eleven.**
 

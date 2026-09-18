@@ -4,15 +4,134 @@
 
 ## Last Updated
 
-**Date**: 2026-09-17
-**Task**: **A360, X-Planes: ABL Space Systems X-63, drafting pass. The first of four.**
-Committed and **NOT pushed**. **Not published**, and publication of the series has never been
+**Date**: 2026-09-18
+**Task**: **A360, X-Planes: ABL Space Systems X-63, equation-density review. The second of
+four.** Committed and **NOT pushed**. **Not published**, and publication of the series has never been
 authorised. **Sixty-four of seventy-two drafted, eight remain.**
 
 **A CONCURRENT SESSION IS WORKING IN THIS TREE AND HAS COMMITTED THREE TIMES.** Its A374 commits
 sit on `master` unpushed, below this article's. **Its draft is modified again and is left
 unstaged.** Only this article's own paths were staged. Its report is preserved below this one
 rather than overwritten, because the file has two writers whatever its design says.
+
+---
+
+## A360, Equation-Density Review
+
+**DISPLAY EQUATIONS 15 TO 45, INLINE EXPRESSIONS 70 TO 181, LINES 19,915 TO 20,167, WORDS
+114,090 TO 117,925.** A symbol table of **71 entries** is added and checked in both
+directions.
+
+**THE ARTICLE PERFORMED A WHOLE THERMODYNAMIC CALCULATION AND SHOWED NONE OF ITS
+MACHINERY.** The drafting pass used the thrust coefficient in nine places and **never
+defined it**. It used the area ratio without relating it to the throat, the isentropic
+relations without writing them, the Vandenkerckhove constant not at all, and it quoted a
+gain in percent without saying that the quantity is a ratio of two integrals. **The
+throat area did not appear anywhere in the article.** That is the density gap, and it was
+found by listing the symbols the mathematics uses and asking which had been introduced.
+
+### What Was Added, and Which Additions Changed Something
+
+**THE DEFINITIONAL LAYER.** The thrust coefficient and area ratio, the affine law in
+coefficients, the Vandenkerckhove constant, the area-Mach and pressure-ratio relations,
+the vacuum coefficient, and the split of specific impulse into characteristic velocity
+times thrust coefficient. **That last one earns its place**, because it is why an article
+about a vehicle with no published engine can quote a performance figure at all. The
+characteristic velocity carries the propellant and the chamber, the thrust coefficient
+carries the nozzle and the atmosphere, and **a claim about altitude compensation is a claim
+about the second factor only**.
+
+**THE STRUCTURE THE KEYSTONE ALREADY HAD AND DID NOT STATE.** The Fenchel-Young inequality,
+which says exactly that every fixed nozzle lies at or below the envelope with equality only
+at its own design point. The inverse transform, which says the family of bells and the
+envelope carry the same information, so **an aerospike is a different point on a structure
+that was already there rather than a new capability**. The envelope theorem and the
+convexity, the second of which **has a physical reason rather than a formal one**, since a
+higher ambient pressure selects a shorter nozzle, so the exit area falls as the ambient
+rises and its negative is non-negative. **The envelope bends upward because the optimal
+nozzle shrinks as the air thickens.**
+
+**AND THE BREGMAN LOSS AS AN INTEGRAL**, which is the form that can be read off a picture.
+The loss is the area between a horizontal line at the fitted exit area and the curve of the
+area the envelope would have chosen. **The order of that subtraction was settled by a check
+and not by inspection.** Written the other way round the expression is the negative of the
+loss, and the first version of the numerical test was written that way, which is how the
+sign was fixed before the relation reached the page.
+
+**THE ATMOSPHERE, WHICH THE DRAFTING PASS USED AND NEVER SHOWED.** Both barometric forms,
+the isothermal one being the limit of the other as the lapse rate goes to zero, the scale
+height, and **a closed form for the pressure-time integral that says something the numbers
+do not**. For an isothermal atmosphere climbed at a constant rate the integral saturates at
+sea-level pressure times scale height over climb rate. **A rocket does not pay for the
+atmosphere by the second. It pays once, and the bill is set by how fast it left.**
+
+### One New Substantive Result
+
+**THE EQUIVALENT GIMBAL ANGLE OF DIFFERENTIAL THROTTLING IS 0.91 DEGREES.** Converting the
+ring's directional-average authority into the quantity a conventional stage would quote
+gives a deflection whose sine is the throttle depth over pi times the ring radius over the
+moment arm. At a throttle range of two tenths and a radius a quarter of the arm, that is
+**under one degree**. **Differential throttling is adequate for trim and marginal for
+anything faster**, and the article now says so with a number rather than leaving the reader
+to assume the technique is a substitute for a gimbal. **The drafting pass had the authority
+figure and never converted it into a unit anyone thinks in.**
+
+### Three Defects in My Own New Work
+
+**BOTH SCALE HEIGHTS ROUND TO 8,435 AND I PRINTED THEM AS 8,435 AND 8,434.** The sea-level
+value is 8,434.9 metres and the isothermal value 8,434.5, a gap of four tenths of a metre
+which is the lapse rate appearing in the fourth figure. **Rounding to whole metres makes
+two numbers that agree look as though they disagree**, which is the opposite of what the
+sentence was for. Caught by a check that compared the two roundings rather than the two
+values.
+
+**THE SYMBOL SCANNER'S PASS ORDER WAS WRONG THREE TIMES BEFORE IT WAS RIGHT.** Stripping
+operators first breaks every declared name containing a macro, so `C_{F,\mathrm{vac}}`
+stopped matching and reported a bare undeclared `C`. Stripping declared symbols first
+breaks the operators instead, because a single-letter symbol such as `c` sits inside
+`\frac`. **The only order in which no pass destroys another's input** is compound names
+first as placeholders, macros second, bare letters last. Environment names then had to be
+removed with their braces, because `\begin{cases}` leaves `{cases}` behind as three more
+undeclared letters.
+
+**AND ONE CONSTRUCTION WENT OVER THE CORPUS MAXIMUM BECAUSE OF THIS PASS.** `the second is`
+reached six uses against a peer maximum of 0.34 per thousand, three of them added here by
+the habit of writing `the first is` and `the second is` when introducing a pair of
+relations. Three were varied and the rate is back under the maximum.
+
+### Two Things Deliberately Not Added
+
+**THE BASE PRESSURE OF A TRUNCATED PLUG IS NOT COMPUTED AND NOW SAYS SO IN AN EQUATION.**
+The thrust splits exactly into the force on the wetted surface plus the base pressure times
+the base area, and that decomposition is worth writing because it names the term this
+article cannot evaluate. **A one-dimensional isentropic model does not produce a
+recirculating turbulent base pressure**, so the regimes are classified by which quantity
+sets that pressure and the magnitude is left to the literature.
+
+**AND THE ASCENT PROFILE IS A GUESS WITH AN EXPONENT, WHICH THE EQUATION NOW SHOWS.** The
+family is stated as a power law with the exponent swept from 1.5 to 3.0 rather than
+described in prose, so a reader can see that two published points and a zero initial rate
+do not determine a trajectory and that the spread is the honest measure of what that costs.
+
+### Verification
+
+`_verify.py` **0 errors and 0 warnings** across 301 posts. Library tests **119 of 119**.
+**Article verifier 626 checks and 0 failures.** **A separate verifier for the new relations
+runs 246 checks and 0 failures**, each relation evaluated against an independent route
+rather than against the code that produced it. **The symbol check passes in both
+directions**, every symbol in the mathematics declared and every declaration used, with the
+macro allowlist confirming that all thirty macros are base TeX. Diction **0 constructions
+above the corpus maximum** after three were varied. **Zero contractions, parentheses,
+colons, semicolons or dashes outside verbatim quotations.** The stub-isolated production
+build succeeded in **15.4 seconds** with no Liquid error against checksum-matched bytes,
+**the rendered audit reports no findings across 543 pages**, and **source and rendered
+display-equation counts agree at 45** with the inline count at **181 balanced pairs**, zero
+raw dollar pairs, zero unresolved reference brackets and zero unrendered Liquid.
+
+**AND THE BUILD WAS RUN TWICE FOR THE RIGHT REASON.** The first run finished against bytes
+that three diction edits had already superseded, and a build of superseded bytes verifies
+nothing about what ships, which is A345's lesson and which the frozen checksum made visible
+immediately.
 
 ---
 

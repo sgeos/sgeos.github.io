@@ -189,9 +189,33 @@ and the Bloomberg model is not public. The article labels all three as such.
 `x_planes_abl_space_systems_x63.markdown`, A360, editorial date 2025-12-08, series
 `x_planes` index 64 of 72.
 
-**19,915 lines, 15 display equations, 70 inline expressions, 9,609 reference definitions, 114,090
-words.** **Drafting pass complete, the first of four.** Committed and **not pushed**. **Not
-published**, and publication of the series has never been authorised.
+**20,167 lines, 45 display equations, 181 inline expressions, a 71-entry symbol table, 9,609
+reference definitions, 117,925 words**, up from 19,915 lines and 15 display equations after
+drafting. **Drafting and equation-density passes complete, two of four.** Committed and **not
+pushed**. **Not published**, and publication of the series has never been authorised.
+
+**EQUATION DENSITY, 15 TO 45, AND THE GAP WAS THAT THE ARTICLE SHOWED NONE OF ITS MACHINERY.**
+The drafting pass used the thrust coefficient in nine places and never defined it, used the area
+ratio without relating it to the throat, used the isentropic relations without writing them, and
+**never mentioned the throat area at all**. **Added, the definitional layer**, being the thrust
+coefficient and area ratio, the affine law in coefficients, the Vandenkerckhove constant, the
+area-Mach and pressure-ratio relations, the vacuum coefficient, and the split of specific impulse
+into characteristic velocity times thrust coefficient, **which is why an article about a vehicle
+with no published engine can quote a performance figure**. **Added, the structure the keystone
+already had**, being the Fenchel-Young inequality with equality exactly at matched expansion, the
+inverse transform, the envelope theorem and the convexity, **which holds for a physical reason
+since a higher ambient pressure selects a shorter nozzle**. **Added, the Bregman loss as an
+integral**, whose integrand order was settled by a failing check rather than by inspection.
+**Added, the atmosphere**, both barometric forms, the scale height, and a closed form saying that
+a rocket pays for the atmosphere once rather than by the second.
+
+**ONE NEW SUBSTANTIVE RESULT.** The ring's directional-average authority converts to an equivalent
+gimbal angle of **0.91 degrees** at a throttle range of two tenths and a radius a quarter of the
+moment arm, so **differential throttling is adequate for trim and marginal for anything faster**.
+
+**THREE DEFECTS IN MY OWN NEW WORK.** Both scale heights round to 8,435 and were printed as 8,435
+and 8,434. The symbol scanner's pass order was wrong three times before it was right. And `the
+second is` went over the corpus maximum at six uses, three of them added by this pass.
 
 **THE REGISTER ISSUED TWO X NUMBERS ON ONE DAY WITH ONE DESCRIPTION, IDENTICAL TO THE BYTE.** The
 X-63A to ABL Space Systems and the X-64A to a team of Invocon, KT Engineering and Troy7, sharing
@@ -265,7 +289,7 @@ the band assumed independently, when its floor falls below the assumed floor and
 overlap**, over 93.5 percent of the recovered band and 82.0 percent of the assumed one. Both are
 now checked.
 
-**Remaining passes.** Equation density, primary-reference density and publication review. **The
+**Remaining passes.** Primary-reference density and publication review. **The
 report primary fraction at 10.4 percent is the third pass's problem arriving early**, because this
 subject's primaries were written between 1956 and 1978 as government reports rather than as papers,
 and the reports server returned 606 records against the journal index's 8,849.
