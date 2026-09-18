@@ -169,6 +169,93 @@ and the Bloomberg model is not public. The article labels all three as such.
 **Publication was not requested and the article is not published.**
 
 
+## X-Planes ABL Space Systems X-63 A360 2025-12-08
+
+`x_planes_abl_space_systems_x63.markdown`, A360, editorial date 2025-12-08, series
+`x_planes` index 64 of 72.
+
+**19,915 lines, 15 display equations, 70 inline expressions, 9,609 reference definitions, 114,090
+words.** **Drafting pass complete, the first of four.** Committed and **not pushed**. **Not
+published**, and publication of the series has never been authorised.
+
+**THE REGISTER ISSUED TWO X NUMBERS ON ONE DAY WITH ONE DESCRIPTION, IDENTICAL TO THE BYTE.** The
+X-63A to ABL Space Systems and the X-64A to a team of Invocon, KT Engineering and Troy7, sharing
+the allocation date, the sponsor cell, the engines cell and all 101 characters. Eleven descriptions
+repeat in the 539-row register, ten of those repeats are munitions, targets or a ground station,
+and **this pair is the only duplicate among the 31 rows beginning with X**. **The Space Force
+appears in that register's X rows exactly twice and both times are here**, and **`1 rocket engine`
+appears in exactly two of 539 rows**, also these.
+
+**A CORRECTION TO THIS SERIES' OWN ARITHMETIC, AND IT IS OUTSTANDING.** The officiality markup has
+three states and the last two articles each summarised it in two numbers. Recomputed from the saved
+page and confirmed by an independent re-parse of the markup, the split is **436, 86 and 17 across
+the register and 21, 9 and 1 across the 31 X rows**. A358's register-wide figures are exactly
+right, and its X-row pair of 21 and 9 accounts for 30 of 31 rows. **A359 closed that sum by raising
+the official count to 22**, which puts the partly marked row on the side its markup denies. **A360
+states the three-way split correctly and neither earlier article has been edited.**
+
+**THE KEYSTONE IS AN IDENTITY THAT REMOVES THE VEHICLE.** The incremental vacuum thrust bought by
+an increment of exit area is exactly the exit pressure acting on that increment, which follows in
+one line from the one-dimensional momentum equation. **So ambient pressure is the variable
+conjugate to exit area**, the ideal altitude-compensating nozzle's thrust curve is the Legendre
+transform of the vacuum thrust, every fixed nozzle is one of its tangent lines, and **a fixed
+nozzle's loss is a Bregman divergence rather than being analogous to one**.
+
+**THE DESIGN RULE EMERGED AS AN INVARIANT BEFORE IT WAS DERIVED.** The same exit-pressure fraction
+came out of nine optimisations that shared no parameters. **The optimal fixed nozzle expands to the
+time-averaged ambient pressure of its own flight**, with nothing about the gas, the chamber or the
+vehicle in it, checked across 100 independent searches spanning area ratios from 4.985 to 84.093
+with a worst disagreement of 4.2 parts in ten million. **And the rule places the optimum where it
+cannot be built**, at an exit-to-ambient ratio at liftoff of 0.2806 against a separation band of
+about a quarter to four tenths. Half the pressure-time integral of a 160 second burn is collected
+in the first 18 to 34 seconds.
+
+**THE MODULE RING GIVES A DIRECTIONAL AVERAGE AUTHORITY OF EXACTLY THE THROTTLE DEPTH DIVIDED BY
+PI, AT EVERY COUNT FROM THREE UPWARD.** More modules buy evenness rather than authority, and **the
+evenness depends on parity**, an odd ring closing a polygon with two sides per module against an
+even ring's one. **Nine modules steer as evenly as eighteen and beat every even count below
+twenty.** After a failure the ranking reverses and **a four-module ring keeps no guaranteed
+authority at all**.
+
+**THE AWARD RECORD DOES NOT CONTAIN THE PROGRAMME AND THE ANNOUNCEMENT SAYS WHY**, the instrument
+being a Space Enterprise Consortium other transaction agreement. **The manufacturer's own table
+does not close**, giving nine engines at 12,100 pounds force and a total of 133,118, which is
+11.0015 engines, and the company's own incident report names Engine 10. **A suppressed engineering
+parameter was recovered from that failure report**, the published 4.5 kilohertz first tangential
+mode fixing the chamber diameter at 147 to 179 millimetres and the chamber pressure at 2.6 to 8.7
+megapascal, **a band sitting inside the one this article had assumed independently several sections
+earlier**.
+
+**Source base.** Three sweeps retrieved 29,246 records of which 22,875 were distinct. The shared
+rejection store removed 1,530, the subject gate admitted 9,787 and refused 11,558, deduplication
+removed 298, and **9,467 records are cited across 14 clusters** with 984 report primaries at 10.4
+percent. Five primary documents were retrieved, saved and read end to end, and every quotation
+comes from one of them. **Every central noun of this subject is owned by another field**, which is
+why the whole gate is built from two-word compounds, and the homonym probe is recorded in the
+Source Base.
+
+**Verification.** `_verify.py` 0 errors and 0 warnings across 301 posts, library tests 119 of 119,
+**article verifier 608 checks and 0 failures** with every number the prose states checked against
+the file that produced it, **23 hand-written identifiers resolved through the registry against
+their claimed titles and years with a deliberately fabricated one required to return nothing**, an
+address sweep of 57 in which **two did not exist and were replaced**, diction 0 constructions above
+the corpus maximum, and zero contractions, parentheses, colons, semicolons or dashes outside
+verbatim quotations. **The stub-isolated production build succeeded in 16.9 seconds with no Liquid error, against checksum-matched bytes**, and **the rendered audit reports no findings across 543 pages**, 171 of which carry display math. The article renders to 1,714,391 bytes with 19,474 links. Source and rendered display-equation counts agree at **15**, the inline count agrees at **70 balanced pairs**, and the page carries **zero raw dollar pairs, zero unresolved reference brackets, zero unexpanded slots, zero unrendered Liquid and zero double-escaped entities**.
+
+**Two defects in this article's own new prose were found by reading the assembled page.** A
+three-year term from December 2019 against an allocation of 20 April 2022 was written as four
+months where the answer is eight, **and nothing in the numeric suite was looking at dates**. And
+the chamber-pressure band recovered from the published instability frequency was said to sit inside
+the band assumed independently, when its floor falls below the assumed floor and **the two merely
+overlap**, over 93.5 percent of the recovered band and 82.0 percent of the assumed one. Both are
+now checked.
+
+**Remaining passes.** Equation density, primary-reference density and publication review. **The
+report primary fraction at 10.4 percent is the third pass's problem arriving early**, because this
+subject's primaries were written between 1956 and 1978 as government reports rather than as papers,
+and the reports server returned 606 records against the journal index's 8,849.
+
+
 ## X-Planes Lockheed Martin X-62 VISTA A359 2025-12-07
 
 `x_planes_lockheed_martin_x62_vista.markdown`, A359, editorial date 2025-12-07, series

@@ -442,3 +442,149 @@ record of an unautomated check.
 
 **A contradiction and a staleness are reported separately**, because comparing a single stated claim
 to the truth cannot catch a contradiction in which one of the two claims is correct.
+
+---
+
+## A cached measurement does not know what it depends on
+
+**What happened.** A360's subject gate measured what each candidate store family would cost the
+article's pool, printed the counts, and persisted them so the expensive measurement need not be
+repeated. **The gate was then widened by two noun lists.** The persisted file still said the
+`ramjet` family releases 74 records the gate would admit; a later run of a different script, using
+the widened gate, said 75. **Both numbers were correct when they were taken and both reached the
+page.**
+
+**The check.** Record the fingerprint of whatever the cached value depends on alongside the value,
+and recompute when it changes. A360 stores a hash of the gate's own pattern list in the same file.
+
+**The habit.** A cache whose key is a filename is not a cache. Ask what the number is a function of.
+
+---
+
+## A measurement that disappears once it is acted on cannot be audited
+
+**What happened.** The same family-cost report compared the article's current allow list against
+that list plus the candidate tag. **The moment a family was opened on the strength of that
+evidence, the difference became empty and the report said zero.** The evidence for the decision
+vanished from the log at the instant the decision was made.
+
+**The check.** Measure against the baseline the decision was made from, not against the current
+state. A360 computes the allow list with the tag removed, so the number is the same before and
+after the family is opened.
+
+**The habit.** If a report exists to justify a choice, it must still read the same after the choice.
+
+---
+
+## A pairwise continuity test is decided by its single worst gap
+
+**What happened.** A360 needed the year from which a literature publishes continuously, to check a
+sixty-year claim in an award announcement. The first test asked for the first year after which no
+two consecutive publishing years differ by more than three. **One four-year gap between 1988 and
+1992 moved the answer from 1956 to 1992**, a difference of thirty-six years, and the number looked
+plausible enough to write down.
+
+**The check.** Ask instead that every window of a fixed length from that year onward contain at
+least one record, and vary the window. A360 returns 1956 at five, six, eight and ten years.
+
+**The habit.** A criterion that a single outlier can move by decades is measuring the outlier.
+
+---
+
+## A per-record helper that touches global state is a quadratic cost wearing a linear disguise
+
+**What happened.** `homonyms._anchor_stem` began with `sys.path.insert(0, ...)` followed by an
+import. The import is cached after the first call. **The insert is not**, so a sweep of thirty
+thousand records left thirty thousand copies of one directory on the path and every later insert
+had to shift all of them. A360 measured 6.19 seconds for three thousand records and **6.27 seconds
+for the same three thousand on a second pass**, which is the signature of a cost that grows with
+work already done. **Every article in this corpus had been paying it**, and it was invisible
+because a slow literature sweep looks like a slow network.
+
+**The check.** Time the same input twice in one process. A pure function that takes longer the
+second time is mutating something.
+
+**The habit.** Hoist imports and path manipulation out of anything called per record.
+
+---
+
+## A verifier's independent route may disagree because the geometry is real
+
+**What happened.** A360 derived closed forms for the extremes of a control-authority polygon and
+checked them by evaluating the support function at the polygon's vertices and edge midpoints.
+**The check reported eighteen failures with the maximum and minimum swapped.** The closed forms
+were right. The check had assumed the extremal directions sit in the same places for every module
+count, and **for an even ring the polygon is rotated half a side relative to the modules**, so the
+direction of least authority points straight at a module.
+
+**The check.** When an independent route disagrees, establish which one is wrong before repairing
+either. Evaluating at both candidate sets and taking the extremes over the union removes the
+assumption entirely.
+
+**The habit.** A disagreement between two routes is information about the subject, not only about
+the code.
+
+---
+
+## A formula outlives the assumptions that made it true
+
+**What happened.** A360 derived the guaranteed control authority of a regular ring of thrusters and
+then used the same formula for a ring with one thruster failed. **A ring with a hole in it is not
+regular.** The formula overstates the surviving authority by up to a factor of 2.62 and, at four
+modules, by all of it, since a four-module ring loses every bit of guaranteed authority when one
+fails and the formula reports a quarter.
+
+**The check.** Solve the degraded problem directly. No test was looking, and nothing failed.
+
+**The habit.** When the subject of a formula changes, re-read the derivation's first paragraph.
+
+---
+
+## A number typed into prose goes stale when the thing it counts moves
+
+**What happened.** A360's prose stated the size of its own reference survey. **Adding twenty-two
+hand-written references moved that count from 9,485 to 9,467**, because a record that acquires a
+hand-written definition stops being auto-cited. The prose was written before the references were
+added and was correct at the time.
+
+**The check.** A frozen list of expected values, compared against the article after every rebuild.
+It caught this.
+
+**The habit.** The repair is not to retype the number. Put a slot in the prose and fill it from the
+file that computes it.
+
+---
+
+## A working directory that does not persist is the same trap upside down
+
+**What happened.** The first entry in this file records a `cd` into a throwaway copy that **did**
+persist, so eight edits landed in a tree that was later deleted. A360 met the inverse. A command
+ending in `&` changed directory, was backgrounded, and **the session's own working directory did
+not follow it**. A subsequent edit addressed a scratch file by bare name, reported that it had
+patched the file, and **patched nothing that the build would read**. The stale wording reached the
+assembled article twice before a grep for the new text found it missing.
+
+**The check.** After a patch, grep the file for the text the patch was supposed to introduce. A
+script that prints `patched` has reported its own intention, not its effect.
+
+**The habit.** Address every file by absolute path. A relative path is an assumption about a
+directory, and the direction that assumption fails in is not predictable.
+
+---
+
+## Running a check the process notes have already ruled out
+
+**What happened.** A360 ran `./_check.sh --drafts` as its deploy gate, restarted it five times as
+the article changed, and on the final run watched it hold one processor at a hundred percent for
+**five hours and forty-one minutes** with an empty output directory. **`HANDOFF.md` had already
+recorded that this build scales superlinearly in link-definition count, that it took over three
+hours by A340, and that the agent runs the stub-isolated build per pass and the full corpus build
+at publication absent instruction.** The stub build it should have run took **sixteen point nine
+seconds**.
+
+**The check.** Before starting anything that might run long, grep the process notes for the name of
+the command. The answer was written down before the work began.
+
+**The habit.** A slow tool is a question about the method, not about the machine. When something
+takes an order of magnitude longer than the last time, stop and find out whether it is the thing
+that was supposed to be run.

@@ -2595,6 +2595,81 @@ def t_homonym_a359_an_omnibus_proceedings_volume_is_not_a_subject():
             f"the turbomachinery family must still hold this: {title}")
 
 
+def t_a360_stem_cache_is_stable_and_does_not_grow_sys_path():
+    """A360: `_anchor_stem` inserted into `sys.path` once per harvested record.
+
+    **THE IMPORT WAS CACHED AND THE INSERT WAS NOT**, so a thirty-thousand-record sweep
+    left thirty thousand copies of the same directory on the path and every later insert
+    had to shift all of them. **A360 measured 6.19 seconds for three thousand records and
+    6.27 for the same three thousand on a second pass**, which is the signature of a cost
+    that grows with how much work has already been done. **Every article in this corpus
+    was paying it, and it looked like slow network.**
+
+    This test holds both halves of the repair. The path must not grow, and the memoised
+    stem must equal the unmemoised one, because a cache that returns a different answer
+    is worse than no cache.
+    """
+    recs = {f"k{i}": {"title": f"Plug nozzle base pressure study number {i}",
+                      "authors": ["Mueller", "Sule"], "year": "1973", "venue": "AIAA"}
+            for i in range(200)}
+    before = len(sys.path)
+    homonyms.filter_records(recs)
+    homonyms.filter_records(recs)
+    assert len(sys.path) - before <= 1, (
+        f"the store filter grew sys.path by {len(sys.path) - before} entries, which is "
+        "the quadratic defect A360 found")
+
+    # **THE CACHE MUST NOT CHANGE THE ANSWER.** Computed directly, then through the
+    # cached path, and the two must agree for every record.
+    rec = {"title": "Annular truncated plug nozzle flowfield",
+           "authors": ["Sule"], "year": "1973"}
+    direct = refs.anchor_stem(rec["authors"], rec["year"], rec["title"],
+                              kind="research")
+    assert homonyms._anchor_stem(rec) == direct, (
+        "the memoised anchor stem disagrees with the direct computation")
+    assert homonyms._anchor_stem(rec) == direct, (
+        "the memoised anchor stem is not stable across calls")
+
+
+def t_a360_fracture_family_guards_the_nozzle_wake():
+    """A360: two guards written for unrelated reasons are what this subject needed.
+
+    **AN AEROSPIKE'S CENTRAL FLOW FEATURE IS ITS WAKE AND WHETHER THAT WAKE IS CLOSED.**
+    A bare probe of `wake closure` returns fatigue crack closure in the crack wake, an
+    entire metallurgical literature using both words in its own sense, and no rocket
+    result at all. **The `fracture` family, earned by A335 against parachute opening
+    loads and tagged by A352 for bonded composite joints, is the only thing in this
+    repository that refuses it.** The `wind-energy` family, earned by A341 against rotor
+    aerodynamics, is what refuses the wind-turbine thrust coefficient.
+
+    This test fixes both, because a later article that opens either without reading this
+    would readmit a literature that shares every word with a rocket nozzle.
+    """
+    for title in [
+        "Influence of Fatigue Crack Wake Length and State of Stress on Crack Closure",
+        "The effect of crack wake characteristics on fatigue crack closure",
+    ]:
+        assert homonyms.noise_hit(title) is not None, (
+            f"the fracture family must refuse the crack-wake literature: {title}")
+    for title in [
+        "Numerical investigation of wind turbine wakes under high thrust coefficient",
+        "Optimal closed-loop wake steering in a wind farm",
+    ]:
+        assert homonyms.noise_hit(title) is not None, (
+            f"the wind-energy family must refuse turbine wakes: {title}")
+
+    # **AND THE ROCKET SENSE MUST SURVIVE BOTH**, or the guards have taken the subject
+    # with the noise.
+    for title in [
+        "Transition Between Open and Closed Wake in 3D Linear Aerospike Nozzles",
+        "Annular truncated plug nozzle flowfield and base pressure characteristics",
+        "Visualization of stagnation point inside the closed wake of a truncated plug "
+        "nozzle at start-up",
+    ]:
+        assert homonyms.noise_hit(title) is None, (
+            f"a plug-nozzle wake paper must survive the store: {title}")
+
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)

@@ -1213,6 +1213,40 @@ def load():
         return json.load(fh)
 
 
+# **THIS IMPORT USED TO HAPPEN ONCE PER RECORD AND IT GREW `sys.path` EVERY TIME.**
+# `_anchor_stem` is called for every harvested record by `filter_records`, and its first
+# two lines inserted a directory at the front of `sys.path` and then imported. The import
+# is cached after the first call, **but the insert is not**, so a sweep of thirty thousand
+# records left thirty thousand copies of the same directory on the path, and every later
+# insert had to shift all of them. A360 measured 6.19 seconds for three thousand records
+# and 6.27 for the same three thousand a second time with the path already six thousand
+# entries long, against a subject gate that processes the whole pool seven times when it
+# is measuring which store families to open. **The cost is paid by every article in the
+# corpus and it was invisible because it looks like slow network.**
+_REFS = None
+_REFS_TRIED = False
+_STEM_CACHE = {}
+_MISS = object()
+
+
+def _load_refs():
+    """Import the reference library once and remember the result, including failure."""
+    global _REFS, _REFS_TRIED
+    if _REFS_TRIED:
+        return _REFS
+    _REFS_TRIED = True
+    try:
+        lib = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                           "_lib")
+        if lib not in sys.path:
+            sys.path.insert(0, lib)
+        import refs
+        _REFS = refs
+    except Exception:  # noqa: BLE001
+        _REFS = None
+    return _REFS
+
+
 def _anchor_stem(rec):
     """The anchor this record WOULD be given, computed the way `gen_master` does.
 
@@ -1228,20 +1262,28 @@ def _anchor_stem(rec):
     `gen_master` calls, so a record rejected in one article is recognised in the
     next before it is ever gated.
     """
-    try:
-        sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(
-            os.path.abspath(__file__))), "_lib"))
-        import refs
-    except Exception:  # noqa: BLE001
+    refs = _load_refs()
+    if refs is None:
         return None
     title = rec.get("title") or ""
     if not title:
         return None
+    # **THE SAME RECORD IS STEMMED ONCE PER PASS AND A GATE MAKES SEVERAL PASSES.**
+    # `gate_and_cluster` filters the whole pool once for each store family whose cost it
+    # is measuring, and then once more for real. The stem is a pure function of the three
+    # fields below, so it is computed once and remembered. The cache is bounded by the
+    # number of distinct records a process sees, which is the pool size.
+    key = (title, tuple(rec.get("authors") or ()), str(rec.get("year") or ""))
+    hit = _STEM_CACHE.get(key, _MISS)
+    if hit is not _MISS:
+        return hit
     try:
-        return refs.anchor_stem(rec.get("authors") or [], rec.get("year") or "",
-                                title, kind="research")
+        out = refs.anchor_stem(rec.get("authors") or [], rec.get("year") or "",
+                               title, kind="research")
     except Exception:  # noqa: BLE001
-        return None
+        out = None
+    _STEM_CACHE[key] = out
+    return out
 
 
 # A STORED ANCHOR MAY CARRY A DISAMBIGUATION SUFFIX. `assign_anchors` appends
