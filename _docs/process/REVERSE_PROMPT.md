@@ -244,7 +244,21 @@ below it rather than overwriting, which is a choice and not a convention.
 
 ---
 
-## A374, What Published Wargames Say About a War With China, All Four Passes Complete
+## A374, What Published Wargames Say About a War With China, Four Passes and a Diction Pass
+
+**THE PATHOLOGICAL WORD-USAGE PASS FOUND AN OVER-CORRECTION I HAD INTRODUCED MYSELF.** `and not` ran
+at **1.67 per thousand against a corpus median of 0.60** while `rather` had fallen to **0.28 against a
+median of 4.00**. The equation pass had substituted `and not` for `rather than` and the survey pass had
+raised it again, so avoiding the corpus-normal construction manufactured a replacement tic. That is the
+failure `STYLE_GUIDE.md` names, and the fix was to restore `rather than` where the structure is
+parallel rather than to invent a third formula. **34 constructions varied**, leaving `and not` at 0.28
+and `rather` at 1.30, both below median. The `Let X be` equation opener went 16 to 5 across three
+rotated forms, `were read from` 10 to 3, and `which is` 14 to 9. **Four were kept on purpose**, two
+paraphrasing McGrady and one quoting TIDALWAVE, because editing a quotation to hit a rate is
+falsification. The full diff was read line by line, an n-gram rescan confirmed no new formula, and the
+rendered audit reports no findings across 466 pages.
+
+
 
 **THE PUBLICATION REVIEW DOUBLED THE ARTICLE AND TRIPLED ITS REFERENCES, 32 TO 111.** On the pilot's
 instruction the article now also serves as a comprehensive survey of the contemporary literature. A

@@ -156,6 +156,21 @@ TIDALWAVE II and Bloomberg Economics rest on summaries and press copies, because
 bloomberg.com refused retrieval. The four peak-China essays are characterized from publisher
 summaries and were not read in full.
 
+**PATHOLOGICAL WORD-USAGE PASS, AND THE PATHOLOGY WAS MY OWN OVER-CORRECTION.** `and not` stood at
+**1.67 per thousand against a corpus median of 0.60**, eighteen uses, because the equation pass had
+substituted it for `rather than` and the survey pass had pushed it back up. `rather` had fallen to
+**0.28 against a corpus median of 4.00**, so the article had avoided the corpus-normal construction
+hard enough to manufacture a replacement tic, which is the exact failure the style guide names.
+**34 constructions varied.** `and not` 18 to 3 at 0.28, `rather` 3 to 14 at 1.30, still far below the
+median. **Three further formulas rotated.** The `Let X be` equation opener went 16 to 5, spread across
+*Write X for*, *Take X as* and *Denote by X*. The evidence-tier formula `were read from` went 10 to 3.
+The appositive opener `which is` went 14 to 9. **Four instances were deliberately kept**, two that
+paraphrase McGrady's own *understanding, not knowledge* and one quoting TIDALWAVE's *platform
+destruction, not munition exhaustion*, because changing a quotation to satisfy a rate is falsification.
+`this article` at 1.95 against a median of 1.74 and a maximum of 4.79 is within norms and was left
+alone, as were the subject nouns the outlier check flags. Re-measured clean with no construction above
+the corpus maximum, `_verify.py` 0 and 0, and the rendered audit reporting no findings across 466 pages.
+
 **What was dropped for unverifiability.** A Cyber Defense Review wargame paper, refused at 403 and
 never read. A French institute after-action report whose host would not connect. A Federal Reserve
 Bank of St Louis review article whose page would not resolve. **The Department of Defense annual report

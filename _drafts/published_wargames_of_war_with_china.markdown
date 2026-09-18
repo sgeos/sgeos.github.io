@@ -78,7 +78,7 @@ M \approx 0.00
 $$
 
 Births less deaths account for the entire reported decrease to the precision published,
-so the decline is natural decrease and not emigration.
+so the decline is natural decrease rather than emigration.
 
 The same balance closes for the year before.
 The 2024 communiqué reports 9.54 million births and 10.93 million deaths
@@ -96,12 +96,12 @@ $$
 $$
 
 The 2025 decrease is roughly two and a half times the 2024 decrease,
-which is a sharper change than the smallness of either figure suggests.
+a sharper change than the smallness of either figure suggests.
 
 The second check is the crude rates.
-Let $\bar{P}$ be the mean population over the year in millions,
+Write $\bar{P}$ for the mean population over the year in millions,
 taken as the average of the two year-end figures,
-and let $b$ and $d$ be the crude birth and death rates per thousand population.
+with $b$ and $d$ the crude birth and death rates per thousand population.
 
 $$
 \bar{P} = \frac{P_0 + P_1}{2},
@@ -189,8 +189,8 @@ so part of the fall in marriages is arithmetic before it is anything about prefe
 A RAND Corporation study,
 [Pollard, Bouey, Wang and Pandey 2025][research_pollard_2025_fertility_decline],
 projects the old age dependency ratio.
-Let $N_{65+}$ be the number of people aged 65 and older
-and $N_{15\text{ to }64}$ the number aged 15 to 64.
+Write $N_{65+}$ for the number of people aged 65 and older
+and $N_{15\text{ to }64}$ for the number aged 15 to 64.
 
 $$
 R_{\text{old}} = \frac{N_{65+}}{N_{15\text{ to }64}}
@@ -243,7 +243,7 @@ A United States Naval War College report on PLA Navy recruiting,
 identifies low physical fitness among potential recruits as a problem
 and documents a rising share of recruits with college degrees.
 Fitness and talent competition are real constraints.
-A contracting cohort is a long-run constraint and not yet a binding one.
+A contracting cohort is a long-run constraint that is not yet binding.
 
 ### The closing window argument and its critics
 
@@ -328,7 +328,7 @@ which is the minimum the scenarios above assume and no more than that.
 
 ## Which Wargames Are Public
 
-Much of the wargaming of a war with China is classified and not open to public scrutiny.
+Much of the wargaming of a war with China is classified and therefore closed to public scrutiny.
 The public record consists of a small number of think tank projects
 from the RAND Corporation,
 the Center for a New American Security or CNAS,
@@ -416,7 +416,7 @@ $$
 14 = 3 + 7 + 4
 $$
 
-Let $f_k$ be the fraction of all iterations ending in outcome $k$,
+Take $f_k$ as the fraction of all iterations ending in outcome $k$,
 with $n_k$ the count of such iterations.
 
 $$
@@ -453,7 +453,7 @@ and the four stated family counts already sum to 24,
 so its place in the total could not be reconciled from the text.
 
 The report states four conditions that the defense needed in every successful case.
-Taiwan must resist and not capitulate.
+Taiwan must resist rather than capitulate.
 The United States must join the fighting within days and with its full capabilities,
 because there is no Ukraine model in which supplies alone suffice for an island that China can isolate.
 The United States must be able to fight from its bases in Japan.
@@ -513,7 +513,7 @@ The invasion was defeated by sinking its lift,
 which is why transports make up most of the ship loss count.
 
 Two exchange ratios summarize the naval and air fighting.
-Let $E_S$ be Chinese ships lost per coalition ship lost
+Write $E_S$ for Chinese ships lost per coalition ship lost
 and $E_A$ Chinese aircraft lost per coalition aircraft lost,
 where the coalition is the United States and Japan together.
 
@@ -536,7 +536,7 @@ the report estimates about 7,000 Chinese casualties in ground combat,
 roughly a third assumed killed,
 and about 15,000 soldiers lost at sea,
 half assumed killed.
-Let $K$ be the implied number of Chinese dead.
+Denote by $K$ the implied number of Chinese dead.
 
 $$
 K \approx \frac{7000}{3} + \frac{15000}{2} \approx 2{,}300 + 7{,}500 \approx 9{,}800
@@ -545,16 +545,16 @@ $$
 The report adds that many,
 and probably an overwhelming majority,
 of the more than 30,000 Chinese survivors on Taiwan would likely become prisoners.
-Let $C$ be the number captured.
+Write $C$ for the number captured.
 Because neither the share captured nor the exact survivor count is given,
-the sum is an order of magnitude and not a bound.
+the sum is an order of magnitude rather than a bound.
 
 $$
 K + C \sim 9{,}800 + 30{,}000 \approx 40{,}000
 $$
 
 The phrase tens of thousands of troops killed or captured is therefore accurate for killed and captured together,
-and not for killed alone.
+but not for killed alone.
 
 In the pessimistic scenarios,
 those more favorable to China,
@@ -565,7 +565,7 @@ and 327 for China,
 with ship losses of 14 for the United States,
 14 for Japan,
 and 113 for China.
-Let $\mu$ be the ratio of a pessimistic average to the corresponding base average.
+Take $\mu$ as the ratio of a pessimistic average to the corresponding base average.
 
 $$
 \mu_{A,\text{US}} = \frac{484}{270} \approx 1.79,
@@ -722,7 +722,7 @@ and Taiwan fought assertively without American combat forces,
 coalition casualties were 2,256 and Chinese casualties were 206.
 In the base variant of a wider war on both sides
 they were 20,529 and 13,515.
-Let $L_{\text{co}}$ and $L_{\text{CN}}$ be coalition and Chinese casualties,
+Write $L_{\text{co}}$ and $L_{\text{CN}}$ for coalition and Chinese casualties,
 with superscripts for the lower and the wider war variant.
 
 $$
@@ -768,7 +768,7 @@ $$
 Under that assumption a ship making only two runs would already be more likely than not to be sunk,
 which illustrates the report's finding that commercial shipping would not accept the risk
 and that acquiring ships to run the blockade was critical.
-The independence assumption is this article's and not the report's.
+The independence assumption is this article's rather than the report's.
 
 Energy was the decisive shortfall.
 Natural gas ran out in about ten days in every scenario,
@@ -781,7 +781,7 @@ $$
 T = \frac{I}{c - s}, \qquad c > s
 $$
 
-The report states exhaustion times and not stocks and rates,
+The report states exhaustion times rather than stocks and rates,
 so the equation is used here only to compare them.
 Taking seven weeks as 49 days and twenty weeks as 140 days,
 coal and oil lasted about five and fourteen times as long as gas.
@@ -881,7 +881,7 @@ and in a [news article][news_amac_2026_tidalwave]
 from the Association of Mature American Citizens,
 or AMAC,
 but not in the executive summary itself.
-They are reported here as press claims about the project and not as findings read in the primary text.
+They are reported here as press claims about the project rather than as findings read in the primary text.
 This article's first draft attributed them to the executive summary,
 which was wrong,
 and the correction is recorded in the Epistemic State section.
@@ -963,9 +963,9 @@ with losses of 11 percent for China,
 and 14.7 percent for Japan.
 
 A dollar loss and a percentage loss together imply the size of the world economy the model assumed.
-Let $\Delta Y$ be the first-year dollar loss,
-$\ell$ the proportional loss,
-and $W$ the implied world GDP,
+Take $\Delta Y$ as the first-year dollar loss,
+$\ell$ as the proportional loss,
+and $W$ as the implied world GDP,
 all in trillions of dollars except $\ell$.
 
 $$
@@ -1077,7 +1077,7 @@ $$
 $$
 
 Four in five of the troops put ashore became casualties in six days of play.
-The authors state that such exercises are indicative and not predictive.
+The authors state that such exercises are indicative rather than predictive.
 
 CSIS has also published crisis simulations distinct from its invasion game.
 [Shadow Risk][research_jensen_2022_shadow_risk]
@@ -1086,7 +1086,7 @@ ten offering players long-term military options and ten offering only immediate 
 and found that the availability of long-term options made deferral more attractive
 while raising the magnitude of escalation in the following round.
 That is a result about how the menu shapes the choice,
-which is a different kind of finding from a loss table.
+a different kind of finding from a loss table.
 
 The RAND Corporation's contribution is mostly analytic rather than gamed.
 [The U.S.-China Military Scorecard][research_heginbotham_2015_scorecard]
@@ -1262,12 +1262,12 @@ The split matters for how the CSIS nuclear results should be read.
 That study found seven of eight nuclear uses beginning with a China team facing conventional defeat.
 Talmadge and Kearn would treat that as confirmation.
 Wu would treat it as an artifact of players who do not share Chinese doctrinal beliefs,
-which is a criticism of the method and not of the finding.
+a criticism that lands on the method rather than on the finding.
 
 ### Deterrence theory, which doubts that more certainty helps
 
 [Goldstein 2013][journal_goldstein_2013]
-argues the near-term danger is crisis escalation and not long-run rivalry,
+argues the near-term danger is crisis escalation rather than long-run rivalry,
 and that escalation pressure is highest early,
 which compresses the window for diplomacy.
 [Harris and McKinney 2024][journal_harris_mckinney_2024]
@@ -1427,7 +1427,7 @@ $$
 $$
 
 The implied exchange rate is close to the market rate of the period,
-which is the kind of check that catches a transposed figure.
+the kind of check that catches a transposed figure.
 
 The Department of Defense publishes an annual report on Chinese military power,
 the [2025 edition of which appeared on 23 December 2025][government_dod_2025_china_report].
@@ -1466,7 +1466,7 @@ while naming recruitment, bias and generalisability as the constraints.
 [Curry 2020][journal_curry_2020]
 reviews a century of declassified professional games
 and finds many of them contained major errors,
-which is a caution against treating any single game as authoritative.
+a caution against treating any single game as authoritative.
 [Downes-Martin 2014][journal_downes_martin_2014]
 names the institutional problem,
 that a sponsor, a boss and a set of players can each distort a game's findings.
@@ -1508,7 +1508,7 @@ and records that no model ever chose accommodation or withdrawal under pressure.
 
 [Panda and Reddie 2026][commentary_panda_reddie_2026_ai_wargaming]
 supply the rebuttal,
-arguing that such results reveal machine psychology and not human nuclear decision-making,
+arguing that such results reveal machine psychology rather than human nuclear decision-making,
 and that the models escalate because their training corpus is thick with coercive strategy
 and thin with de-escalatory reasoning.
 [Geist, Frank and Menthe 2024][research_geist_2024_ai_wargames_limits]
@@ -1602,7 +1602,7 @@ They also do not show that its failure would be safe for anyone else.
 
 ## Limits of Wargaming as Evidence
 
-A wargame is a structured argument about a war and not a sample from the distribution of possible wars.
+A wargame is a structured argument about a war rather than a sample from the distribution of possible wars.
 Several limits apply to everything above.
 
 - **The sample is narrow.**
@@ -1656,15 +1656,15 @@ the fraction of decisive Chinese defeats would have risen with no change in anyt
 The CSIS invasion, nuclear and blockade results,
 including the iteration counts, outcome categories, loss tables and energy exhaustion times,
 were read from the published PDF reports.
-The CNAS findings were read from its executive summary.
-The RAND 2016 economic estimates and four war cases were read from the report's summary.
-The RAND 2025 demographic projections and its assessment of PLA force size were read from the report.
-The 2024 and 2025 population figures were read from the two National Bureau of Statistics communiqués.
+The CNAS findings come from its executive summary.
+The RAND 2016 economic estimates and four war cases come from the report's summary.
+The RAND 2025 demographic projections and its assessment of PLA force size are taken from the report itself.
+The 2024 and 2025 population figures are taken from the two National Bureau of Statistics communiqués.
 The marriage, divorce and cohort figures were read from the State Council Information Office account
 of the Ministry of Civil Affairs bulletin.
-The CSIS munitions expenditure figures were read from the Jones report.
+The CSIS munitions expenditure figures come from the Jones report.
 The Davidson quotation was read from the stenographic transcript of the Senate hearing of 9 March 2021.
-The reunification passages were read from the 2022 white paper.
+The reunification passages come from the 2022 white paper.
 The TIDALWAVE description, the culmination aim, the platform-destruction finding,
 the PLA sustainment windows and the Gulf oil dependency
 were read from an archived copy of the executive summary captured on 14 April 2026.
@@ -1720,7 +1720,7 @@ the ratios of Chinese to American economic loss,
 the blockade and Taiwan loss comparisons,
 and the design ratios in the Limits section.
 
-**Assumptions introduced by this article and not made by the sources.**
+**Assumptions this article introduces that its sources do not make.**
 The implied migration term takes the reported decrease as exact to two decimal places.
 The crude rate check uses a simple average of year-end populations as the mean population.
 The implied amphibious fleet size treats the report's about ninety percent as exactly ninety percent.
