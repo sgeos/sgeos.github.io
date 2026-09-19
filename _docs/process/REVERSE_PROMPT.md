@@ -515,6 +515,61 @@ below it rather than overwriting, which is a choice and not a convention.
 
 ---
 
+## A374 IS PUBLISHED AND LIVE
+
+**PUBLISHED 2026-09-19 at the editorial date 2026-08-11.** Moved by `git mv` to
+`_posts/2026-08-11-published_wargames_of_war_with_china.markdown` and live at
+`/geopolitics/military/war-gaming/2026/08/11/published_wargames_of_war_with_china.html`.
+**The two-commit pattern was followed**, the draft state having been committed across five earlier
+commits and this being the publication move.
+
+**THE INTERLOCK WAS VERIFIED BEFORE THE MOVE, NOT AFTER.** The 2026-08-11 date slot was free. All
+three `post_url` targets were already published, so no build-breaking forward reference exists.
+Nothing in the corpus forward-references this article. The article carries no series, so **no
+navigation was renumbered on any live page**, which is the failure mode that renumbered four pages
+when A373 published.
+
+**THIS IS THE FIRST POST WHOSE FIRST CATEGORY IS `geopolitics`**, so it claims a new top-level path.
+**Fifty-eight sibling repositories were checked** for a name matching `geopolitics`, `military` or
+`war-gaming`, and none exists. That check is the one the `keleusma` shadowing incident exists to
+force, and a live-site probe alone would not have answered it, since an unclaimed path and a shadowed
+path both return 404 before publication.
+
+**Deploy gate before pushing.** `_verify.py` 0 errors and 0 warnings across **302 posts**, build ok,
+and the rendered audit reporting **no findings across 466 pages**.
+
+### Draft release announcement, for the pilot to review
+
+```
+New Blog Post: What Published Wargames Say About a War With China
+
+Everyone cites the same handful of Taiwan wargames and almost nobody reads them. I read them,
+checked every number, and found that the most confident summaries get the headline result wrong.
+
+Key takeaways:
+- The invasion does not fail in "the vast majority" of the CSIS iterations. Nine of twenty-four
+  ended in clear Chinese defeat, fourteen ended in stalemate, and the one Chinese victory came
+  when the United States stayed out.
+- The nuclear study finds that seven of eight nuclear uses began with a China team facing exactly
+  the conventional defeat the other games treat as the happy ending.
+- The economic consensus is an artefact of citation. Three original estimates exist and everything
+  else re-cites them, and two estimates of the same blockade differ by nearly a factor of two
+  because one prices trade disruption and the other a macroeconomic shock.
+- The United States intelligence community says Chinese leaders have no current plan for 2027 and
+  no fixed timeline, which contradicts the closing-window premise the whole genre assumes.
+
+You can read the full article here:
+https://sgeos.github.io/geopolitics/military/war-gaming/2026/08/11/published_wargames_of_war_with_china.html
+
+Let me know your thoughts. I would love to hear how you handle load-bearing numbers that arrive
+through a summary rather than from the source!
+
+hashtag#Wargaming hashtag#NationalSecurity hashtag#Taiwan hashtag#Research hashtag#Verification
+hashtag#DataQuality hashtag#Analysis
+```
+
+---
+
 ## A374, What Published Wargames Say About a War With China, Four Passes and a Diction Pass
 
 **THE PATHOLOGICAL WORD-USAGE PASS FOUND AN OVER-CORRECTION I HAD INTRODUCED MYSELF.** `and not` ran

@@ -23,10 +23,15 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 analytical essay, categories `geopolitics military war-gaming`. Not part of the X-Planes series and
 drafted outside its rhythm on the pilot's instruction.
 
+**PUBLISHED 2026-09-19 at the editorial date 2026-08-11** as
+`_posts/2026-08-11-published_wargames_of_war_with_china.markdown`, live at
+`/geopolitics/military/war-gaming/2026/08/11/published_wargames_of_war_with_china.html`.
 **2,069 lines, 63 display equations, 53 inline expressions, 111 reference definitions, roughly 12,100
-words after the publication review**, up from 805 lines, 12 display equations and 27 references after
-drafting. **ALL FOUR PASSES COMPLETE.** Committed and **PUSHED** on the pilot's instruction. **Not
-published**, and publication was explicitly not requested.
+words**, up from 805 lines, 12 display equations and 27 references after drafting. **All four passes
+plus a pathological word-usage pass complete.** **THIS IS THE FIRST POST WHOSE FIRST CATEGORY IS
+`geopolitics`**, so it claims a new top-level URL path. Fifty-eight sibling repositories were checked
+for a name that would shadow `geopolitics`, `military` or `war-gaming` and none exists, which is the
+check the `keleusma` incident exists to force.
 
 **THE PUBLICATION REVIEW WAS ALSO A SURVEY PASS, AND REFERENCES WENT 32 TO 111.** The pilot directed
 that articles in this series carry no length or reference limit and serve as a comprehensive survey of
