@@ -149,17 +149,58 @@ NTRS_SEARCH = "https://ntrs.nasa.gov/api/citations/search"
 NTRS_DETAIL = "https://ntrs.nasa.gov/api/citations"
 
 
-def ntrs_search(query, rows=25, **kw):
-    """NASA Technical Reports Server search.
+# **THE PAGE SIZE IS TEN AND THE SERVER WILL NOT BUDGE, BUT THE OFFSET WORKS AND THE
+# SPELLING MATTERS.** Passing `page` as a JSON object, which this module did from A317
+# until A360, gets the size clamped to ten AND THE OFFSET SILENTLY IGNORED, so every
+# request returns the same first ten records however deep you ask. Passing `page[size]`
+# and `page[from]` as separate query parameters is honoured. A360 measured the query
+# `plug nozzle` at 242 matching records, of which the old call returned 10 and the new one
+# returns all 242 with no duplicates. **Every literature sweep in this corpus has been
+# taking the top ten of each reports-server query and leaving the rest**, which is why the
+# reports fraction has been the recurring complaint of every primary-reference pass.
+NTRS_PAGE = 10          # the server's hard page size, measured rather than documented
 
-    The endpoint caps results well below what is asked for and is sensitive to
-    phrasing, so several narrow queries beat one broad one. It returns NEITHER
-    AUTHORS NOR YEAR, which is why ntrs_detail exists and why link text built
+
+def ntrs_search(query, rows=25, **kw):
+    """NASA Technical Reports Server search, paginated to `rows`.
+
+    Returns up to `rows` records, walking the server's ten-record pages. It returns
+    NEITHER AUTHORS NOR YEAR, which is why `ntrs_detail` exists and why link text built
     from search results alone produced labels such as "Tests of the".
+
+    **THE LOOP IS BOUNDED BY `rows` AND BY A REPEATED PAGE.** A server that ignored the
+    offset would return the same page for ever, which is exactly the defect this function
+    was written to fix, so an offset that yields nothing new stops the walk rather than
+    spinning.
     """
-    params = {"q": query, "page": json.dumps({"size": rows, "from": 0})}
-    j = get_json(f"{NTRS_SEARCH}?{urllib.parse.urlencode(params)}", **kw)
-    return (j or {}).get("results", []) or []
+    out, seen = [], set()
+    for frm in range(0, max(rows, 1), NTRS_PAGE):        # bound: rows / 10 requests
+        url = (f"{NTRS_SEARCH}?q={urllib.parse.quote(query)}"
+               f"&page%5Bsize%5D={NTRS_PAGE}&page%5Bfrom%5D={frm}")
+        j = get_json(url, **kw)
+        page = (j or {}).get("results", []) or []
+        fresh = [r for r in page if r.get("id") not in seen]
+        if not fresh:
+            break
+        for r in fresh:
+            seen.add(r.get("id"))
+            out.append(r)
+            if len(out) >= rows:
+                return out
+    return out
+
+
+def ntrs_total(query, **kw):
+    """How many records the reports server says it holds for a query.
+
+    **THE SERVER REPORTS ITS OWN TOTAL AND NOTHING WAS READING IT.** That number is what
+    turns a sweep's coverage from a guess into a measurement, because it says how much of
+    each question was left on the server.
+    """
+    url = (f"{NTRS_SEARCH}?q={urllib.parse.quote(query)}"
+           f"&page%5Bsize%5D=1&page%5Bfrom%5D=0")
+    j = get_json(url, **kw)
+    return int(((j or {}).get("stats") or {}).get("total") or 0)
 
 
 def ntrs_detail(record_id, **kw):

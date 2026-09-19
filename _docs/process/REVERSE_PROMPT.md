@@ -5,7 +5,7 @@
 ## Last Updated
 
 **Date**: 2026-09-18
-**Task**: **A360, X-Planes: ABL Space Systems X-63, equation-density review. The second of
+**Task**: **A360, X-Planes: ABL Space Systems X-63, primary-reference review. The third of
 four.** Committed and **NOT pushed**. **Not published**, and publication of the series has never been
 authorised. **Sixty-four of seventy-two drafted, eight remain.**
 
@@ -13,6 +13,158 @@ authorised. **Sixty-four of seventy-two drafted, eight remain.**
 sit on `master` unpushed, below this article's. **Its draft is modified again and is left
 unstaged.** Only this article's own paths were staged. Its report is preserved below this one
 rather than overwritten, because the file has two writers whatever its design says.
+
+---
+
+## A360, Primary-Reference Review
+
+**REPORT PRIMARIES 984 TO 3,748, FROM 10.4 PERCENT TO 30.6.** Research records 9,467 to
+12,231, reference definitions 9,609 to 12,395, lines 20,167 to 25,796, words 117,925 to
+159,118. **Every one of the fourteen clusters rose**, the range moving from 3.7 to 23.3
+percent up to 14.8 to 49.0.
+
+### The Reports Server Was Being Read One Page Deep, by Every Article in This Corpus
+
+**THIS IS THE FINDING OF THE PASS AND IT IS NOT ABOUT THIS ARTICLE.** `fetch.ntrs_search`
+passed its page specification as a single encoded object. **That server clamps such a
+request to ten records AND SILENTLY IGNORES THE OFFSET INSIDE IT**, so six requests at six
+different offsets return the identical ten records, which is what the probe found.
+Passing the size and the offset as separate bracketed parameters is honoured.
+
+**The question `plug nozzle` matches 242 records. The old call returned 10. The corrected
+one returns all 242 with no duplicates.** The fourth sweep's reports-server return is
+**10,160 records against 606 from the first three sweeps combined**, a factor of sixteen
+and a half, and it is the direct cause of the primary fraction tripling.
+
+**EVERY PRIMARY-REFERENCE PASS IN THIS SERIES HAS COMPLAINED THAT THE REPORTS FRACTION IS
+THIN.** A359 said so, and this article's own drafting pass wrote that the imbalance was
+`the third pass's problem arriving early`. **Part of that complaint was an instrument
+reading its first page.** The fix is a parameter spelling, it is held by a test that runs
+offline against a fake transport, and it is in the shared library where every later
+article inherits it.
+
+**AND THE SERVER REPORTS ITS OWN TOTAL, WHICH NOTHING WAS READING.** `fetch.ntrs_total` is
+added, and with it the coverage of a sweep stops being an assumption. Across 89 questions
+the server reported **32,488 matching records and returned 14,929**, which is 46.0 percent.
+**That average hides a clean split.** Sixty-eight questions were taken to the bottom,
+holding 7,798 between them and returning all 7,798. **Twenty-one hit this article's own
+walk limit of 400 rather than the server's**, and **every one of the 17,559 records not
+taken belongs to those twenty-one**, which are the broad organisational questions such as
+`Marshall Space Flight Center engine`, holding 5,402 on its own. **The focused half of the
+sweep is complete and the truncation is entirely of this article's choosing.**
+
+**THE SAME MEASUREMENT CANNOT BE MADE OF THE BIBLIOGRAPHIC INDEX AND THE ARTICLE SAYS SO.**
+That index performs a ranked retrieval rather than a boolean match, and asking it how many
+records match `rocket nozzle performance` returns 2,406,511, which is not a count of
+anything. **A coverage figure is worth quoting only where the denominator is a match
+count.**
+
+### A Read Primary Withdrew This Article's Sharpest Claim
+
+**THE DRAFTING PASS SAID THE TRAJECTORY-OPTIMAL NOZZLE CANNOT BE BUILT.** That rested on a
+separation threshold of four tenths taken from secondary accounts, and the pass said
+plainly that it had not read the correlations.
+
+**NASA Technical Paper 1207 has now been read in full and it changes three things.**
+
+**It gives the attribution the drafting pass struck.** The four tenths belongs to
+Summerfield, Foster and Swan in the Journal of Jet Propulsion for 1954, and the paper adds
+that the value `is still quoted today ... although more recent studies have shown it to be
+inadequate`. **The drafting pass went looking for exactly that attribution, found a 1953
+paper by Scheller and Bierlein in the index instead, and removed the name rather than
+assert it.** Removing it was right on the evidence then. **The paper that corrects it also
+explains the confusion**, because Scheller and Bierlein are the early study that conflicted
+with the others.
+
+**It says the four tenths is for the wrong kind of nozzle.** Contoured nozzles, `the case
+of most interest for modern nozzle design`, follow a different correlation, and the paper
+fits a second-order curve to them between separation Mach 2.4 and 4.5.
+
+**And applying that curve to this article's own nozzles takes the claim back.** The
+criterion is local, so the nozzle is walked from throat to exit. **The trajectory optimum
+separates only below about 3.3 to 3.7 megapascal of chamber pressure**, and above that it
+runs attached with between 6.6 and 12.7 percent of margin in area ratio. **The chamber
+pressure recovered from this engine's own instability frequency, 2.6 to 8.7 megapascal,
+straddles that crossover.** So the honest claim is that the optimum sits pressed against
+the limit rather than beyond it, which is weaker, better supported and more interesting.
+
+**THE DRAFTING PASS'S ERROR HAS A NAME.** It used the more conservative of two criteria and
+the conservative one is the one the primary calls inadequate. **A band taken on report is
+not a band**, because a range quoted without its provenance hides which end belongs to
+which kind of nozzle. The opening, the section, the reflection and the conclusion were all
+corrected.
+
+### Two Further Corrections the Checks Forced Out of My Own New Prose
+
+**THE CRITERION AT MACH 3 IS 0.340 AND I WROTE 0.342**, which was arithmetic done in my
+head and caught by a check that evaluated the polynomial.
+
+**AND I SAID THE CONTOURED CORRELATION TOLERATES ROUGHLY TWICE THE OVER-EXPANSION, WHICH IS
+TRUE NOWHERE.** It crosses the flat four tenths at separation Mach 2.59 and is **stricter
+below that**, reaching 0.433 at the bottom of its fitted range. The old rule is 1.74 times
+as restrictive at the top of the range and slightly less restrictive at the bottom. **A
+nozzle of the area ratios this article discusses separates well above Mach 3, so the
+permissive end applies here, but stating it without the crossing would have repeated the
+error the section is about.**
+
+### Twenty-Two Curated Primaries, Three Read in Full
+
+**NASA SP-8120, the design-criteria monograph for liquid rocket engine nozzles**, which
+supplies the J-2 case history the article was describing in the abstract. That engine was
+given a deliberately nonoptimum contour to raise its exit pressure, suffered unsteady
+asymmetric separation from a wall-pressure minimum, lost thrust chambers to the loads, and
+ended up with a bolt-on diffuser and restraining arms from the test stand to the nozzle
+skirt. **It also states, in the design community's own voice, that separation predictions
+`are used only as a guide`**, which is the qualification this article makes independently.
+
+**NASA Technical Paper 1207**, described above.
+
+**The 1976 United States Standard Atmosphere.** **The drafting pass implemented that
+atmosphere and cited an encyclopedia for it**, which is precisely the gap a
+primary-reference pass exists to close.
+
+The remaining nineteen are the four Lewis reports of 1954 to 1959 that founded the
+plug-nozzle literature, the design monographs for turbopumps and combustion chambers, the
+standard design text, the four LASRE reports covering the only aerospike that ever left
+the ground, and the five X-33 reports covering the largest one ever built.
+
+### Which Clusters Rose, and Why the Keystone Rose Least
+
+**THE KEYSTONE WENT FROM 8.7 PERCENT TO 16.8, WHICH IS A NEAR DOUBLING AND STILL BELOW THE
+ARTICLE'S OWN AVERAGE OF 30.6.** The largest gains were general rocket propulsion at plus
+29.8 points, manufacture at plus 27.0 and named vehicles at plus 23.0. The smallest was the
+wake cluster at plus 3.3, which was already among the richest.
+
+**AND A359'S TEST SAYS THE REMAINING THINNESS IS A FACT ABOUT THE DISCIPLINE.** The three
+thinnest clusters are exactly the three in which one publisher's conference proceedings
+hold the largest share, being altitude compensation at 34 percent, the wake at 49 and the
+fixed-nozzle limits at 51. **Half of the wake literature and half of the limits literature
+is one conference series.** The general nozzle cluster beside them is 26 percent that
+publisher and 29 percent reports, and general rocket propulsion is 29 and 49. **The
+specifically aerospike subject is a conference literature and the rocket propulsion around
+it is a report literature.**
+
+### A Third Instance of the Cached-Measurement Defect, Caught Before It Bit
+
+The family-cost cache added in the drafting pass was fingerprinted on the gate's patterns.
+**The fourth sweep changed the pool rather than the gate**, which would have served the old
+counts against new records. The fingerprint now covers the pool size as well. **That is the
+trap this article documented two passes ago, one level up, and it was caught by looking for
+it rather than by anything failing.**
+
+### Verification
+
+`_verify.py` **0 errors and 0 warnings** across 301 posts. Library tests **120 of 120**,
+one added holding both halves of the pagination repair. **Article verifier 652 checks and 0
+failures**, and **the relation verifier 246 checks and 0 failures**. **The symbol check
+passes in both directions** at 73 declared symbols, 46 display equations and 187 inline
+expressions. Diction **0 constructions above the corpus maximum**. **Zero contractions,
+parentheses, colons, semicolons or dashes outside verbatim quotations.** The stub-isolated
+production build succeeded in **19.2 seconds** with no Liquid error against checksum-matched
+bytes, **the rendered audit reports no findings across 543 pages**, source and rendered
+display-equation counts agree at **46**, the inline count at **187 balanced pairs**, and the
+page carries zero raw dollar pairs, zero unresolved reference brackets and zero unrendered
+Liquid.
 
 ---
 

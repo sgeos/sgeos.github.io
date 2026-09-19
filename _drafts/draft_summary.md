@@ -189,10 +189,46 @@ and the Bloomberg model is not public. The article labels all three as such.
 `x_planes_abl_space_systems_x63.markdown`, A360, editorial date 2025-12-08, series
 `x_planes` index 64 of 72.
 
-**20,167 lines, 45 display equations, 181 inline expressions, a 71-entry symbol table, 9,609
-reference definitions, 117,925 words**, up from 19,915 lines and 15 display equations after
-drafting. **Drafting and equation-density passes complete, two of four.** Committed and **not
-pushed**. **Not published**, and publication of the series has never been authorised.
+**25,796 lines, 46 display equations, 187 inline expressions, a 73-entry symbol table, 12,395
+reference definitions, 159,118 words.** **Drafting, equation-density and primary-reference passes
+complete, three of four.** Committed and **not pushed**. **Not published**, and publication of the
+series has never been authorised.
+
+**PRIMARY REFERENCES, 984 TO 3,748, FROM 10.4 PERCENT TO 30.6**, with research records 9,467 to
+12,231 and **every one of the fourteen clusters rising**. **The finding of the pass is not about
+this article.** The shared fetcher passed its reports-server page specification as an encoded
+object, **which that server clamps to ten records and whose offset it silently ignores**, so six
+requests at six offsets returned the identical ten. The question `plug nozzle` matches 242 records,
+of which the old call returned 10. **The reports-server return went from 606 records across three
+sweeps to 10,160 in one**, and every primary-reference pass in this series has been complaining
+about a thinness that was partly an instrument reading its first page. Fixed in the shared library
+and held by an offline test. **The server also reports its own total, which nothing was reading**,
+so coverage is now measured: 89 questions, **32,488 matches reported and 14,929 returned**, with 68
+questions taken to the bottom and every unretrieved record belonging to the 21 broad ones that hit
+this article's own walk limit.
+
+**A READ PRIMARY WITHDREW THE ARTICLE'S SHARPEST CLAIM.** NASA Technical Paper 1207, read in full,
+gives the separation attribution the drafting pass struck for lack of evidence, being Summerfield,
+Foster and Swan 1954, and records that the four tenths **is still quoted although shown to be
+inadequate**. It is a conical rule; contoured nozzles follow a different correlation; and under it
+**the trajectory optimum separates only below 3.3 to 3.7 megapascal**, with 6.6 to 12.7 percent of
+margin above. The recovered chamber pressure straddles that. **So the optimum is pressed against
+the limit rather than beyond it**, and the opening, the section, the reflection and the conclusion
+were all corrected. **A band taken on report is not a band.**
+
+**Two further corrections the checks forced out of my own new prose**, the criterion at Mach 3
+being 0.340 where I wrote 0.342, and the claim that the contoured correlation is twice as
+permissive, **which is true nowhere** since it crosses the flat rule at Mach 2.59 and is stricter
+below it.
+
+**Twenty-two curated primaries, three read in full**, being NASA SP-8120 which supplies the J-2
+separation case history, NASA TP-1207, and **the 1976 Standard Atmosphere, which the drafting pass
+implemented while citing an encyclopedia**.
+
+**The keystone rose least and the reason is measured.** Altitude compensation went 8.7 to 16.8
+percent, and **the three thinnest clusters are exactly the three where one conference publisher
+holds the largest share**, at 34, 49 and 51 percent. **The aerospike subject is a conference
+literature and the rocket propulsion around it is a report literature.**
 
 **EQUATION DENSITY, 15 TO 45, AND THE GAP WAS THAT THE ARTICLE SHOWED NONE OF ITS MACHINERY.**
 The drafting pass used the thrust coefficient in nine places and never defined it, used the area
@@ -289,7 +325,7 @@ the band assumed independently, when its floor falls below the assumed floor and
 overlap**, over 93.5 percent of the recovered band and 82.0 percent of the assumed one. Both are
 now checked.
 
-**Remaining passes.** Primary-reference density and publication review. **The
+**Remaining passes.** Publication review, which is the pass that also asks for a push. **The
 report primary fraction at 10.4 percent is the third pass's problem arriving early**, because this
 subject's primaries were written between 1956 and 1978 as government reports rather than as papers,
 and the reports server returned 606 records against the journal index's 8,849.

@@ -26,6 +26,7 @@ import booklinks
 import diction
 import homonyms
 import edits
+import fetch
 import gate
 import lint
 import post
@@ -2668,6 +2669,64 @@ def t_a360_fracture_family_guards_the_nozzle_wake():
     ]:
         assert homonyms.noise_hit(title) is None, (
             f"a plug-nozzle wake paper must survive the store: {title}")
+
+
+def t_a360_ntrs_search_paginates_with_bracketed_parameters():
+    """A360: the reports server was returning the top ten of every question.
+
+    **`fetch.ntrs_search` PASSED ITS PAGE SPECIFICATION AS A JSON OBJECT**, which the
+    server clamps to ten records AND WHOSE OFFSET IT SILENTLY IGNORES, so six requests at
+    six different offsets returned the identical ten records. Passing `page[size]` and
+    `page[from]` as separate query parameters is honoured. **A360 measured the question
+    `plug nozzle` at 242 matching records, of which the old call returned 10 and the new
+    one returns all 242 with no duplicates.** Every literature sweep in this corpus has
+    been taking the first page and leaving the rest.
+
+    This test is offline. It substitutes a fake transport that records the addresses asked
+    for and serves a distinct page per offset, so it checks the two things that were
+    wrong, being the parameter spelling and the fact that the walk advances at all.
+    """
+    calls = []
+
+    def fake_get_json(url, **kw):
+        calls.append(url)
+        m = re.search(r"page%5Bfrom%5D=(\d+)", url)
+        if not m:
+            return {"results": [{"id": i} for i in range(10)], "stats": {"total": 242}}
+        frm = int(m.group(1))
+        if frm >= 25:
+            return {"results": [], "stats": {"total": 25}}
+        return {"results": [{"id": frm + i} for i in range(min(10, 25 - frm))],
+                "stats": {"total": 25}}
+
+    real = fetch.get_json
+    try:
+        fetch.get_json = fake_get_json
+        out = fetch.ntrs_search("plug nozzle", rows=100)
+    finally:
+        fetch.get_json = real
+
+    assert all("page%5Bsize%5D" in u for u in calls), (
+        "the page size must be sent as a bracketed parameter, not inside a JSON object")
+    assert any("page%5Bfrom%5D=10" in u for u in calls), (
+        "the walk must ask for a second page, which the JSON form never did")
+    ids = [r["id"] for r in out]
+    assert ids == list(range(25)), (
+        f"the walk must collect every distinct record in order, got {ids}")
+    assert len(ids) == len(set(ids)), "the walk must not return a record twice"
+
+    # **A SERVER THAT IGNORED THE OFFSET WOULD LOOP FOR EVER**, which is exactly the
+    # defect being fixed, so a page with nothing new must stop the walk.
+    def stuck_get_json(url, **kw):
+        return {"results": [{"id": i} for i in range(10)], "stats": {"total": 999}}
+
+    try:
+        fetch.get_json = stuck_get_json
+        out2 = fetch.ntrs_search("anything", rows=500)
+    finally:
+        fetch.get_json = real
+    assert len(out2) == 10, (
+        f"a server repeating one page must terminate the walk, got {len(out2)} records")
 
 
 for name, fn in sorted(list(globals().items())):
