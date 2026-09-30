@@ -14,6 +14,18 @@ literature sweep ran long enough that the pilot's next two prompts arrived befor
 drafting pass had been committed. The rhythm asks for a commit after each pass and this
 article has two commits for four passes, which is recorded here rather than smoothed over.
 
+**A SECOND LINE IS ALSO ACTIVE AND ITS REPORT IS BELOW THIS ONE.** A375 has completed its
+**primary-reference pass, the third of four**, and is committed and not pushed. That section
+is preserved rather than overwritten, as this line's A374 section was preserved by it.
+**The A375 line reports the same class of finding twice over: a checker that passes because
+its scope is wrong.** Four of that article's references were defined, listed and never cited
+in the argument, and `_verify.py` counted them as used because the References bullet list
+cites every anchor. **That is the same shape as A360's numerical check being robust and
+therefore blind, and as A361's decision probe using my own phrasing rather than the
+article's.** Three independent instances now argue the pattern is structural rather than
+incidental, and the common fix is the same, which is to run the check against the artefact a
+reader sees rather than against a convenient proxy for it.
+
 ---
 
 ## A361, X-Planes: Invocon X-64
@@ -834,6 +846,112 @@ decades of instrumentation contracts under the Invocon name.
 
 **AND `REVERSE_PROMPT.md` NOW HAS TWO WRITERS.** This report preserves the concurrent session's
 below it rather than overwriting, which is a choice and not a convention.
+
+---
+
+## A375, What Rebuilding Would Take After a War With China, Primary-Reference Pass
+
+**THREE OF FOUR PASSES COMPLETE. Committed, not pushed, not published. Only the publication
+review remains.** References **78 to 97**, display equations **50 to 63**, lines **1,448 to
+2,303**, author prose about **7,600 to 12,800 words**.
+
+### The pass began by finding a defect the verifier structurally cannot see
+
+**Four references were defined, listed and never cited in the argument.** `_verify.py`
+reported zero unused anchors, and it was right on its own terms, because **the References
+bullet list cites every anchor**, so a reference that appears only in that list satisfies the
+unused-anchor check. The four were the Section 301 maritime report, the annual threat
+assessment, the commission's Taiwan chapter and a War on the Rocks essay.
+
+**All four turned out to be precisely the primary documents this pass wanted**, which is why
+the defect mattered rather than being cosmetic. The check to run is a citation count against
+the body text alone, excluding the bullet list. The article now carries 97 references and 97
+cited in the body.
+
+### The best single find is an energy figure that sits on the wargame horizon
+
+The commission's Taiwan chapter reports the island holds storage for **20 days** of liquefied
+natural gas and about **42 days** of coal. The published games end at about **21 days**.
+**The modelled war ends at about the moment the island's gas runs out.**
+
+That is not a finding about the games, which model an invasion rather than a blockade, and the
+two quantities were measured by different people for different purposes. It is a finding about
+the aftermath, and it joins to the Heim denial essay, which states that a defeated invasion is
+plausibly followed by **a shift to blockade**. **Neither source makes the connection**, and
+every reconstruction estimate in the article assumes electricity is available to rebuild with.
+
+The same chapter supplies the thesis at the smallest scale anyone has tested it. Undersea
+cables to the Matsu Islands were cut in 2023 and the islands were offline for weeks; cut again
+in 2025, backup installed in between kept services running. **The repair time did not improve.
+The redundancy did.**
+
+### And the European bombing survey measured the thesis in 1945
+
+In the anti-friction bearing industry, building destruction equalled about **half the preraid
+floor space** while **machine tools destroyed equalled 12 percent of the original inventory**.
+The survey adds that "it proved more difficult to put the plants out of operation than had been
+foreseen". **The article's organising claim, that what bombing destroys is production rather
+than the means of production, is a 1945 finding before it is a 2009 econometric one.**
+
+### Six corrections came from reading the primaries behind secondary accounts
+
+- **Japanese damage figures disagree with the survey Davis and Weinstein cite.** 2,510,000
+  buildings against the paper's 2.2 million, 330,000 fatalities against three hundred
+  thousand, and the important one is a difference of subject: **the survey's 40 percent is
+  built-up area destroyed**, where the share who lost homes is about 30 percent. **An earlier
+  draft additionally inserted the word urban into the paper's sentence**, producing a claim
+  that matched neither source.
+- **Quinlivan 1995 states no 20-per-thousand rule.** It is descriptive, sectioned by ratio
+  band, and reaches 20 per thousand as a measured value in two cases. The norm was hardened by
+  FM 3-24 of 2006, which credits nobody, and **the 2014 revision deleted the ratio entirely**.
+  The number the central calculation uses is in no current doctrine.
+- **Taiwan's population was stale and unsourced.** The ministry series is now cited and the
+  requirement is **465,980 rather than 468,000**, with the declining trend stated.
+- **The 395-ship figure is a 2023 projection and not a count**, and the 2025 edition of that
+  report gives no fleet total at all.
+- **The Ukrainian damage growth is the report's own 15.5 percent**, not a ratio of rounded
+  inputs giving 16.
+- **The Nature Food claim was too strong**, since the largest scenario assumes attacks on
+  seven countries including China.
+
+**One claim was strengthened instead.** The 2025 National Academies report, read in full,
+carries **no economic recovery analysis and no recovery timescale for human systems**, and
+names that as a research gap itself. **The only official study with a recuperation analysis is
+the Office of Technology Assessment's of 1979**, which said that the effects which cannot be
+calculated "are at least as important as those for which calculations are attempted".
+
+### Two methodological findings worth keeping
+
+**A failed string match is not evidence of a bad quotation.** Nineteen quotations verified on
+first match; several more failed and were confirmed only after normalising for scanned
+hyphenation, two-column interleaving, and a running header that fell inside a sentence.
+Every quotation was confirmed against source text rather than against an agent's report of it,
+and three delegated leads needed correction.
+
+**The user agent cuts both ways.** Nine addresses answer a browser string and refuse an honest
+one carrying a contact address, while `archive.dni.gov` and `documents.worldbank.org` do the
+exact opposite. **A single-agent sweep therefore reports blocks that are properties of the
+client**, and a two-agent sweep took reachability from 70 to 79 of 94. Separately, `osti.gov`
+answered a throttled sweep with HTTP/2 stream resets rather than a status code, which is a
+transport failure and must not be recorded as a 403. Both are now in `URL_VERIFICATION.md`.
+
+### Verification
+
+`_verify.py` **0 errors and 0 warnings across 302 posts**. **85 arithmetic statements
+rechecked by script with no failures**, up from 53. Diction reports **0 words at or above the
+peer maximum**, the earlier deliberate flags having fallen as the article grew. No prose
+colons, semicolons, parentheses, dashes or contractions. Build 12.7 seconds, **rendered audit
+no findings across 458 pages**, and **source and rendered display counts agree at 63**, which
+is the mandatory check this line earned the hard way.
+
+### What remains
+
+**The publication review, which is the fourth pass.** Under the standing instruction it must
+also make the article a comprehensive survey of the contemporary literature, with no length or
+reference limit. **The 2026-08-12 date still collides with the
+`android_development_on_freebsd` pre-release candidate**, invisible to the verifier while both
+are drafts and a hard error the moment either publishes. That remains the pilot's content
+decision and has not been made.
 
 ---
 

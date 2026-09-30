@@ -22,9 +22,92 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `rebuilding_after_war_with_china.markdown`, A375, editorial date 2026-08-12, standalone analytical
 essay and the companion to the published A374, categories `geopolitics military war-gaming`.
 
-**1,448 lines, 50 display equations, 14 inline expressions, 78 reference definitions, roughly 7,600
-words after the equation-density pass**, up from 1,215 lines and 21 display equations after drafting.
-**TWO OF FOUR PASSES COMPLETE.** Committed and **NOT pushed**, which is the rhythm. **Not published.**
+**2,303 lines, 63 display equations, 17 inline expressions, 97 reference definitions, roughly 12,800
+words of author prose after the primary-reference pass**, up from 1,448 lines, 50 equations and 78
+references after the equation pass, and from 1,215 lines and 21 equations after drafting.
+**THREE OF FOUR PASSES COMPLETE.** Only the publication review remains. **Not published.**
+
+**THE REFERENCE PASS FOUND A DEFECT THE VERIFIER STRUCTURALLY CANNOT SEE.** Four references were
+defined and listed and **never cited in the argument**. `_verify.py` reported them as used, because the
+References bullet list cites every anchor, so a reference that appears only in that list counts as
+used. The four were the Section 301 maritime report, the annual threat assessment, the commission's
+Taiwan chapter and a War on the Rocks essay, and **all four turned out to be exactly the primary
+documents this pass wanted**. They are now cited in the body, and the check to run is a citation count
+against the body text alone, excluding the bullet list. The article now has **97 references and 97
+cited in the body**.
+
+**THE BEST SINGLE FIND IS AN ENERGY FIGURE THAT SITS ON THE WARGAME HORIZON.** The commission's Taiwan
+chapter reports that the island has storage capacity for **20 days** of liquefied natural gas and about
+**42 days** of coal. The published games end at about **21 days**. The modelled war therefore ends at
+about the moment the island's gas runs out. That is not a finding about the games, which model an
+invasion rather than a blockade, and the two quantities were measured by different people for different
+purposes. It is a finding about the aftermath, and it joins to the Heim denial essay, which anticipates
+that a defeated invasion is followed by **a shift to blockade**. Neither source makes the connection.
+
+**THE SAME CHAPTER SUPPLIES THE THESIS AT ITS SMALLEST SCALE.** Undersea cables to the Matsu Islands
+were cut in February 2023 and the islands were without internet **for several weeks** while repairs
+ran. The same two cables were cut again in January 2025, and microwave and satellite backup installed
+in between kept services running. **The repair time did not improve. The redundancy did.**
+
+**AND THE EUROPEAN BOMBING SURVEY MEASURED THE THESIS IN 1945.** In the anti-friction bearing industry,
+building destruction equalled about **half the preraid floor space** while **machine tools destroyed
+equalled 12 percent of the original inventory**, a ratio of about four. The survey adds that "it proved
+more difficult to put the plants out of operation than had been foreseen". The article's organising
+claim, that what bombing destroys is production rather than the means of production, is a 1945 finding
+before it is a 2009 econometric one.
+
+**SIX CORRECTIONS CAME OUT OF READING PRIMARIES BEHIND SECONDARY ACCOUNTS.**
+
+1. **Japanese damage figures disagree with the survey Davis and Weinstein cite.** The survey gives
+   2,510,000 buildings destroyed against the paper's 2.2 million, and 330,000 fatalities against three
+   hundred thousand. **The important one is a difference of subject.** The survey's 40 percent is
+   *built-up area destroyed*; the population who lost homes is *about 30 percent*. **An earlier draft
+   additionally inserted the word "urban" into the paper's sentence**, producing a claim matching
+   neither source. All three now carry their subjects.
+2. **Quinlivan 1995 does not state a 20-per-thousand rule.** It is descriptive, sectioned by ratio
+   bands, and reaches 20 per thousand as a measured value in Malaya and Northern Ireland. The norm was
+   hardened by **FM 3-24 of 2006**, which attributes it to nobody, and **the 2014 revision deleted the
+   ratio entirely**. So the number the central calculation uses appears in no current doctrine, which
+   widens the fourth gap rather than closing it.
+3. **Taiwan's population was stale and unsourced.** "About 23.4 million" was the end-2024 figure. The
+   Ministry of the Interior series is now cited, the calculation uses the end-2025 figure of
+   23,299,132, and the requirement is **465,980 rather than 468,000**, with the declining trend stated.
+4. **The 395-ship figure is a projection, not a count.** The 2023 departmental report says the fleet
+   "is expected to grow to 395 ships by 2025"; the 2025 edition **gives no fleet total at all**. Both
+   quantities are now dated and a second ratio is computed from the firmest numbers, 370 against the
+   Navy's own 291.
+5. **The Ukraine damage-growth ratio was computed from rounded inputs.** The draft reported about 16
+   percent; the report states **15.5 percent**, which the unrounded values give.
+6. **The Nature Food claim was too strong.** The draft said every study models South Asia or the United
+   States and Russia. The largest scenario **assumes attacks on seven countries including China**, so
+   the claim is now the narrower and correct one, that none models a China and United States war
+   arising over Taiwan.
+
+**ONE CLAIM WAS STRENGTHENED.** Reading the 2025 National Academies report in full confirmed it
+contains **no economic recovery analysis and no recovery timescale for human systems**, and says so by
+naming the gap. **The only official study with a recuperation analysis is the Office of Technology
+Assessment's of 1979**, which supplies the article's sharpest quotations, including that a lost
+recovery race could leave the country at "the economic equivalent of the Middle Ages" and that "Nobody
+knows how to estimate the likelihood that industrial civilization might collapse in the areas
+attacked".
+
+**TWO ITEMS LEFT THE UNVERIFIED LIST.** Occupation-era aid to Japan now has a primary figure, about
+1.99 billion dollars disbursed and a 1.8 billion claim settled for 490 million, with the State
+Department's own caution that the bookkeeping "had been very fuzzy and sloppy". Taiwan's grid item was
+narrowed to a costing rather than removed, since stockpile durations are now sourced.
+
+**NINETEEN QUOTATIONS VERIFIED ON FIRST MATCH AND SEVERAL MORE ONLY AFTER NORMALISATION.** Scanned
+hyphenation, two-column interleaving and a running header falling inside a sentence each produced a
+false absence. **A failed string match is not evidence of a bad quotation**, and every quotation added
+was confirmed against source text rather than against an agent's report of it. Three delegated leads
+were corrected in the process, including one where the reported Department of Energy attribution was
+right and the brief's premise was wrong.
+
+**85 arithmetic statements recheck by script with no failures**, up from 53, in
+`tmp/a375/verify_numbers.py`. Source and rendered display counts agree at **63**, the mandatory check.
+The rendered audit reports **no findings across 458 pages**. Reachability is **79 of 94 addresses**,
+and reaching that number **required two user agents**, since nine hosts refuse an honest agent and two
+government hosts refuse a browser string.
 
 **EQUATION DENSITY, 21 TO 50, AND THE PASS CAUGHT A RENDERING DEFECT NO CHECKER SAW.** Twenty-six
 blocks were added, all arithmetic on figures already verified in the drafting pass. **Four of them
@@ -53,8 +136,16 @@ at 0.74. **The occupation requirement set against the invasion force, 468,000 ag
 so the garrison is larger than the landing.** The Iraq deployment shortfall at 3.3 times. Nuclear
 scaling at thirty times the soot for thirteen times the deaths and twenty-one times the starving.
 
-**53 arithmetic statements rechecked by script with no failures.** Symbols are defined before their
-equations per `MATHJAX_CONVENTIONS.md`.
+**The thirteen equations the reference pass added** are the Ukrainian housing multiple at 1.45 against
+the economy-wide 2.98, the damage growth at 15.5 percent, the housing stock and output pair as
+inequality and approximation, the Chinese tonnage share growth at ten, the hiring target against the
+present shipbuilding headcount at 1.65, the game horizon against the gas stockpile at 1.05 and the coal
+stockpile at twice the horizon, the surface ship and munitions prime collapses at four and 4.3, the
+survey-to-paper building count at 1.14, **buildings against machine tools at 4.2**, German dwelling
+units at 0.390, Marshall funds expended against available at 0.87, the Japanese settlement against the
+claim at 0.27, and the battle force ratio recomputed at 1.27.
+
+Symbols are defined before their equations per `MATHJAX_CONVENTIONS.md`.
 
 **THE KEYSTONE IS THAT THE SAME REPORT WHICH SINKS THE FLEET SAYS IT CANNOT BE REPLACED.** A374 read
 the wargames for whether the war is won. This article reads them for what is left afterwards. The CSIS

@@ -91,6 +91,24 @@ If a new 403 site appears during a publication, add it to this catalogue with on
 
 Two hosts rate-limit aggressive sweeps and will make every link look dead if paced too tightly. `openlibrary.org` is the worst offender and `blueorigin.com` the second. Pace verification or isolate the suspect URL and retest it alone before concluding anything is broken.
 
+**Add `osti.gov` to that list, and note how its rate limit presents.** On 2026-09-30 a sweep pulled a 42 MB PDF from it and the host then failed every subsequent request for the rest of the session, as `HTTP/2 stream 1 reset by server (error 0x2 INTERNAL_ERROR)` and as `OpenSSL SSL_read: unexpected eof`, with `curl` exit 92 and 56 and a written status of `000`. **A transport-layer failure is not a 403 and must not be recorded as a block.** The same URL had returned 200 minutes earlier. When a host starts resetting streams mid-sweep, stop hitting it and cite a persistent identifier instead. A `doi.org` DOI still resolves with a 302 to the throttled host, so the 302 is evidence the identifier is good and not evidence the document is reachable.
+
+**When a host is throttled and a local copy exists, verify the local copy.** The rigorous check for a citation is the document, not the link. Reading the retrieved PDF's own title page settled the imprint for the same report after the host stopped answering, and that is the verification of record.
+
+### The user agent cuts both ways, so a single-agent sweep reports false blocks
+
+**Measured on 2026-09-30 while verifying A375. Some hosts refuse the browser string and some refuse the honest one, so neither agent alone gives a true picture.**
+
+| Host | Research UA with contact address | Spoofed Chrome UA |
+|------|----------------------------------|-------------------|
+| `archive.dni.gov` | 200 | 403 |
+| `documents.worldbank.org` | 200 | 403 |
+| `rand.org` | 403 | 200 |
+
+The first two serve the document to `blog-research/1.0 (mailto:...)` and refuse a Chrome string, on `http` and `https` alike, which is the opposite of the Cloudflare and Akamai pattern catalogued above. `rand.org` behaves the conventional way. The likely cause of the inversion is a filter that treats a declared bot carrying a contact address as well behaved and an implausible browser string as evasion.
+
+**The operational rule is to try both agents before recording any 403, and to record which one worked.** A sweep that sends only `_lib/fetch.py`'s honest agent will report every `rand.org` link as blocked; a hand-rolled `curl` with a copied browser string will report every World Bank and ODNI link as blocked. Both reports would be artefacts of the client. **A 403 from one agent is not a finding about the document.**
+
 ## An HTTP 200 Does Not Verify a Citation
 
 A status check confirms that a URL resolves. It does not confirm that the document at the other end is the work the citation names. Those are different properties, and the second is the one that matters.

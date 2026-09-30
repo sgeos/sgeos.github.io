@@ -107,6 +107,23 @@ Its casualty figures carry the matching caveat,
 that they "do not encompass the full scope of the war"
 and that the "numbers presented here represent a floor, not a ceiling".
 
+**The intelligence community states the protraction risk in its own voice,
+which is worth recording because it is the official judgment
+against which the three-week games should be read.**
+The [Office of the Director of National Intelligence 2026][government_odni_2026_threat_assessment]
+annual threat assessment holds that
+"a protracted war with the U.S. risks unprecedented economic costs
+to the U.S., Chinese, and global economies".
+It judges that Chinese officials themselves
+"recognize that an amphibious invasion of Taiwan would be extremely
+challenging and carry a high risk of failure,
+especially in the event of U.S. intervention",
+and that Chinese leaders "do not currently plan to execute an invasion of Taiwan
+in 2027, nor do they have a fixed timeline for achieving unification".
+The same document expects disruption to the United States transportation sector
+from Chinese cyber attack to be "significant but recoverable",
+a word chosen carefully and applied to one sector only.
+
 [Tetreau 2023][commentary_tetreau_2023_where_the_wargames_were_not]
 surveyed ten assessments from the preceding decade
 and named conflict termination as one of the principal gaps,
@@ -190,13 +207,39 @@ before any account of who lost more.
 
 ### Surface combatants and carriers, which are not the easy case
 
-The constraint here is not money but yards.
+**The constraint here is not money but yards,
+and the Navy has now said so itself in the plainest terms in this article.**
+The [Navy's shipbuilding plan for fiscal year 2027][government_navy_2026_shipbuilding_plan],
+submitted under section 231 of title 10 of the United States Code,
+opens by stating that the department
+"currently operates 291 battle force ships,
+while the Navy requirement by law is 355",
+and then supplies the sentence that settles the money question.
+"Over the past two decades, the shipbuilding budget has doubled,
+yet we have no more ships now than in 2003."
+The plan calls the problem "structural" rather than merely industrial,
+observes that "Many shipbuilders are using 1960's technology
+with 1980's manufacturing processes",
+and concedes that its own projections
+"assume industry increases manufacturing capacity
+and produces future ships on time and within budget".
+A doubled budget that bought no additional fleet in twenty years
+is the throughput constraint stated by the organisation that holds the money.
+
 [Labs 2025][research_labs_2025_cbo_shipbuilding]
 at the Congressional Budget Office records that essentially all Navy battle force ships
 are built by seven shipyards,
 that destroyers and submarines took five to six years to build in the 2000s
 and now take eight to nine years on average,
 and that a new submarine takes about nine years.
+The [Government Accountability Office 2022][research_gao_2022_industrial_base]
+gives the history behind that count,
+reporting that capacity and competition in shipbuilding
+"declined significantly over the past 50 years,
+with 14 shipyards that built Navy ships closing".
+Three more left the defence industry and one opened,
+"leaving only seven shipyards owned by four prime contractors".
+Seven yards under four owners is a narrower market than seven yards alone implies.
 Taking the midpoints of the two brackets,
 build duration has lengthened by half again within a generation.
 
@@ -206,6 +249,23 @@ $$
 
 The CSIS passage names two yards for large surface combatants
 and puts the loss at a dozen or more.
+**That two is independently confirmed by the Department of Defense,
+which counted the same collapse market by market.**
+The competition report's table of prime contractors by weapons category
+gives surface ships as 8 in 1990, 5 in 1998 and 2 in 2020,
+and names the two survivors as General Dynamics and Huntington Ingalls.
+The same table records missiles and munitions
+going from 30 prime contractors three decades ago to seven.
+
+$$
+\frac{8}{2} = 4,
+\qquad
+\frac{30}{7} \approx 4.3
+$$
+
+Two independent sectors lost about three quarters of their prime contractors,
+which is the pattern rather than a shipbuilding peculiarity.
+
 Writing $n$ for the number of building yards,
 $B$ for the build duration
 and $L$ for hulls lost,
@@ -341,9 +401,43 @@ note that those same anti-ship munitions were barely touched in the 2026 air cam
 so their inventories are intact,
 and that they "would rapidly dwindle in a war against a near-peer naval power".
 
-The structural cause is consolidation.
-Following the 1993 meeting known as the Last Supper,
-the number of aerospace and defence prime contractors fell from 51 to 5.
+The structural cause is consolidation,
+and the Department of Defense has measured it in its own words.
+The [State of Competition within the Defense Industrial Base][government_dod_2022_competition]
+report finds that "Since the 1990s, the defense sector has consolidated substantially,
+transitioning from 51 to 5 aerospace and defense prime contractors",
+and dates the change precisely,
+with "the total number of U.S.-based prime contractors declining from 51 in 1993 to 5 in 2000".
+The five it names are Lockheed Martin, Raytheon, General Dynamics,
+Northrop Grumman and Boeing.
+The report is also clear that the trend did not stop,
+having "continued in the last five years,
+due to vertical and horizontal integrations
+and the entry of private equity firms performing roll ups".
+**The 1993 meeting that is conventionally called the Last Supper
+appears nowhere in the report**,
+so the figures are cited here from the department
+and the nickname is left to the secondary literature that uses it.
+The department is also not the origin of the figure,
+since both of its footnotes on the point
+cite the final report of the Commission on the Future of the United States Aerospace Industry
+of November 2002.
+That commission report was not retrieved for this article,
+so the chain is recorded at one remove
+rather than presented as though the earliest source had been read.
+
+An older independent measurement agrees on the direction.
+The [General Accounting Office 1998][research_gao_1998_defense_consolidation]
+reported that the defence industry
+"is now more concentrated than at any time in more than half a century",
+and that "the number of contractors producing tactical missiles has dropped from 13 to 4".
+Its table gives surface ships falling from 8 to 5 between 1990 and 1998,
+which matches the department's later figure for 1998,
+while its tactical missile count of 4 for that year
+sits against the department's 3.
+The small disagreement is left visible rather than reconciled,
+because two agencies counting the same market differently
+is information about the difficulty of the count.
 [Rumbaugh 2026][research_rumbaugh_2026_solid_rocket_motors]
 records the same pattern in solid rocket motors,
 where the domestic supplier base shrank from six to two between 2000 and 2015.
@@ -369,6 +463,24 @@ $$
 \frac{174{,}000}{10} = 17{,}400 \ \text{workers per year}
 $$
 
+**That requirement is larger than the workforce that exists.**
+The Section 301 report cited above,
+drawing on a Maritime Administration fact sheet,
+records that in 2023 the United States shipbuilding industry
+directly employed 105,652 people.
+
+$$
+\frac{174{,}000}{105{,}652} \approx 1.65
+$$
+
+The two figures measure different things and are reported together for that reason.
+The 174,000 is new workers the Government Accountability Office says are needed
+over a decade to meet Navy shipbuilding goals,
+which includes replacing those who leave,
+while the 105,652 is total employment across private shipbuilding and repair,
+naval and commercial work together.
+Set side by side they say that the decade's hiring target
+exceeds the entire present headcount by about two thirds.
 The Congressional Budget Office notes that employment
 in the shipbuilding and boatbuilding industry has not grown since 1990.
 A hiring requirement of that size against a flat sector
@@ -440,7 +552,41 @@ and was "not intended as a deep-dive into the PRC commercial shipbuilding indust
 The reporter noted that it is unclear how much commercial capacity
 the United States figure incorporates.
 
-The defensible comparison comes from
+**A search of the public record found no released Office of Naval Intelligence document
+that states Chinese shipbuilding capacity or tonnage.**
+The office's own China page lists four public items,
+a 2015 publication on the People's Liberation Army Navy,
+two videos and a 2022 recognition poster,
+and the 2015 publication contains no such figure.
+The widely quoted ratio therefore has no public primary behind it at all.
+This is a statement about the public record and not about the slide,
+which may well be authentic,
+and the office produces classified material that nothing here can speak to.
+What follows is that the number should be attributed to the outlet that obtained it
+rather than to the intelligence community,
+which is how it is treated above.
+
+**The primary document on this question is a statutory trade investigation
+rather than a briefing slide, and it was published.**
+The [Office of the United States Trade Representative 2025][data_ustr_2025_maritime]
+report on its Section 301 investigation
+into China's targeting of the maritime, logistics and shipbuilding sectors
+finds that "China increased its commercial vessel tonnage from just 5 percent
+in 1999 to over 50 percent of global tonnage by 2023".
+It records a Chinese policy target of 35 percent of global shipbuilding output,
+and puts Chinese state support to the sector
+at approximately 132 billion dollars across eight years.
+The tonnage share rose by an order of magnitude in a generation.
+
+$$
+\frac{50}{5} = 10
+$$
+
+That is a finding of an administrative proceeding
+with a record and a comment period,
+which is a different evidentiary object from an unreleased slide.
+
+The independent expert comparison comes from
 [Funaiole 2026][research_funaiole_2026_testimony],
 who testified that Chinese output grew from under 5 percent of the global total in 2000
 to more than 53 percent in 2025,
@@ -453,6 +599,10 @@ $$
 That ratio is larger than the slide's,
 computed from different quantities,
 and it measures commercial output share rather than warship-building capacity.
+The testimony and the trade investigation agree on the Chinese trajectory
+to within their rounding,
+which is the check that matters,
+since the two were prepared by different institutions from different sources.
 Funaiole states the limitation himself,
 that warships and commercial vessels
 "have substantially different design and construction requirements,
@@ -479,10 +629,41 @@ About a fifth of the sample took the damage and the rest serve as the control.
 The bombing "destroyed almost half of all structures in these cities,
 a total of 2.2 million buildings",
 two thirds of productive capacity vanished,
-300,000 people were killed,
-and 40 percent of the urban population was made homeless.
+and "Three hundred thousand Japanese were killed".
 Hiroshima lost more than two thirds of its built-up area
 and more than 20 percent of its population.
+
+**Reading the primary survey behind those figures produced three disagreements,
+and they are reported rather than reconciled.**
+The [United States Strategic Bombing Survey's summary report on the Pacific war][government_ussbs_1946_pacific_summary]
+of July 1946 is the source the paper names for its sample of 66 cities,
+and the counts do not match.
+The survey puts buildings destroyed by air attack at 2,510,000,
+against the paper's 2.2 million.
+
+$$
+\frac{2{,}510}{2{,}200} \approx 1.14
+$$
+
+The survey gives civilian casualties of "approximately 806,000"
+of which "approximately 330,000 were fatalities",
+against the paper's three hundred thousand killed.
+**The third disagreement is the one that matters,
+because it is a difference of subject rather than of magnitude.**
+The paper states that "Forty percent of the population was rendered homeless".
+The survey's 40 percent is not a population share.
+"In the aggregate some 40 percent of the built-up area of the 66 cities attacked was destroyed",
+and the homelessness figure it gives is smaller,
+that "Approximately 30 percent of the entire urban population of Japan
+lost their homes and many of their possessions".
+An earlier draft of this article compounded the problem
+by inserting the word urban into the paper's sentence,
+which the paper does not contain,
+producing a claim that matched neither source.
+Forty percent of built-up area destroyed
+and thirty percent of the urban population made homeless
+are both survey findings,
+and forty percent of a population made homeless is not.
 
 The recovery result is a regression coefficient of $-1.0$
 on prior-period growth,
@@ -544,6 +725,48 @@ because it had been pushed off its path temporarily rather than stripped of its 
 and that "More than half the economy's growth in the 1950s remains to be explained"
 by capital accumulation alone.
 
+**The bombing survey measured that distinction at plant level in 1945,
+and its finding is this article's thesis stated thirty years before the econometrics.**
+The [Over-all Report on the European war][government_ussbs_1945_overall_report],
+issued in September 1945,
+examined the anti-friction bearing industry after repeated attacks.
+Building destruction "equaled approximately one-half the preraid floor space of the industry,
+while the equivalent of another half was heavily damaged".
+The machines inside those buildings came through very differently.
+"The damage to the machine tools was not proportionate to the damage to the buildings.
+Machine tools destroyed equaled 12 percent of the original inventory
+and those damaged an additional 30 percent."
+
+$$
+\frac{50}{12} \approx 4.2
+$$
+
+Buildings were destroyed at roughly four times the rate of the machine tools they housed.
+The survey drew the operational conclusion in the same passage,
+that "it proved more difficult to put the plants out of operation than had been foreseen"
+and that "Even direct hits on vital processes did not put a plant out of operation".
+
+The same report states the lag between capacity and output as a general rule.
+"During the process of contraction
+the shrinkage in final output always lags behind the shrinkage in productive activity",
+because stocks of parts and semifinished products carry final assembly for a while.
+It also bounds what the bombing achieved against production in its heaviest year,
+holding that "the total loss of German armament output from air raids in 1943
+cannot be put higher than about 3 to 5 percent".
+On housing the survey is precise where the secondary literature rounds,
+recording that 49 of the larger cities
+"had 39 percent of their dwelling units destroyed or seriously damaged",
+which it gives as 2,164,800 out of 5,554,500.
+
+$$
+\frac{2{,}164{,}800}{5{,}554{,}500} \approx 0.390
+$$
+
+**Two wars, measured by the same organisation, give the same shape.**
+Buildings and dwellings took heavy and quantified damage,
+the machine tools and the productive capacity behind them took much less,
+and output fell further than either.
+
 ### Vietnam, with its correction attached
 
 [Miguel and Roland 2011][journal_miguel_roland_2011]
@@ -570,6 +793,12 @@ examined 32 cases and found that while losers' power is eroded at first,
 "the effects of the loss dissipate,
 losers accelerate their recovery and soon resume antebellum status"
 over a long run they put at fifteen to twenty years.
+The full statement of that result is the third chapter of
+[The War Ledger][book_organski_kugler_1980_war_ledger],
+which carries the same title as the phenomenon.
+The book's interior text was not obtained for this article,
+so the result is quoted from the journal article
+and the book is cited as the fuller treatment rather than as a source of quotations.
 [Koubi 2005][journal_koubi_2005]
 goes further and finds a positive causal effect of war duration on subsequent growth,
 though concentrated in civil wars,
@@ -625,6 +854,64 @@ Full regional self-sufficiency costs about three times what replacing Taiwanese 
 Three years is fast by the standards of the fifteen-year literature.
 It is very slow by the standards of a war that the games end in three weeks,
 and nothing in the estimate assumes the war is still going on.
+
+### The island holds about twenty days of stored energy
+
+The foundries need power,
+and the published figure for how long the island can supply it
+sits almost exactly on the wargame horizon.
+The [US-China Economic and Security Review Commission 2025][government_uscc_2025_taiwan_chapter]
+reports that Taiwan "is almost entirely reliant on imported energy",
+that increased reliance on natural gas
+"does not address the island's vulnerability to a blockade scenario,
+given that it only has storage capacity to hold 20 days' worth of stockpiles",
+and that coal stockpiles in early 2025
+"were estimated to last 42 days at regular consumption,
+which could be extended dependent on rationing".
+Natural gas supplied 42 percent of Taiwan's energy in 2024
+against a 2030 target of 50 percent,
+which is the commission's wording,
+and the last nuclear plant shut in May 2025.
+The commission records what that closure traded away,
+noting that earthquake and accident concerns outweighed
+"nuclear's value as a domestic power supply
+that can mitigate risk of disruptions to imports".
+The share of supply is therefore rising toward the fuel
+that the same chapter says is held for twenty days.
+
+Set the gas figure against the horizon established at the top of this article.
+
+$$
+\frac{T_g}{T_{\text{LNG}}} = \frac{21}{20} \approx 1.05,
+\qquad
+\frac{T_{\text{coal}}}{T_g} = \frac{42}{21} = 2
+$$
+
+**The modelled war ends at about the moment the island's gas runs out.**
+That coincidence is not a finding about the wargames,
+which model an invasion and not a blockade,
+and the two quantities were measured by different people for different purposes.
+It is a finding about the aftermath.
+A game that stops at 21 days stops before the energy question becomes binding,
+and every reconstruction estimate in this article
+assumes electricity is available to do the rebuilding.
+Coal buys twice the horizon and no more,
+and a rationed grid is not a grid that runs leading-edge lithography.
+
+The commission also supplies a small measured case
+of infrastructure repair under Chinese pressure,
+which is the only one this article located with dates on both sides of a repeat event.
+After undersea cables to the Matsu Islands were cut in February 2023
+the islands "were almost entirely without internet service for several weeks
+while waiting for the cables to be repaired".
+When the same two cables were damaged again in January 2025,
+microwave and satellite backup installed in the interval
+"enabled most public services and businesses to continue functioning
+while the cables were repaired".
+**The repair time did not improve.
+The redundancy did.**
+That is this article's thesis at the smallest scale on which anyone has tested it,
+and the instrument that worked was built before the war rather than after it.
 
 ### Trade relationships recover on a decadal clock, and more slowly now
 
@@ -708,25 +995,56 @@ of a federal budget near 30 billion dollars.
 appears in that source**,
 and none is asserted here.
 
+**The statute and the administration's own accounts are available
+and they give different numbers from the secondary summaries.**
+The [Economic Cooperation Act of 1948][government_economic_cooperation_act_1948],
+enacted on 3 April 1948 at 62 Stat. 137,
+authorised "not to exceed $4,300,000,000"
+for the twelve months following enactment,
+and states plainly that the authorisation is limited to that period
+"in order that subsequent Congresses may pass on any subsequent authorizations".
+An authorisation is not an appropriation,
+which is why the 4.3 billion in the statute
+and the roughly 4 billion first-year figure quoted above
+are both correct and are not the same quantity.
+
+The [thirteenth and last report of the Economic Cooperation Administration][government_eca_1951_thirteenth_report],
+covering the quarter ended 30 June 1951,
+gives the programme's own accounting.
+"During the three and a quarter years that the Marshall Plan has been in operation
+a total of $12.3 billion has been made available to ECA",
+of which 12.2 billion had been obligated and 10.7 billion expended.
+
+$$
+\frac{10.7}{12.3} \approx 0.87
+$$
+
+Thirteen percent of the money made available had not been spent
+when the programme's final report was written,
+which is a fact about the speed of reconstruction spending
+rather than about its size.
+The figure also sits below the 13.3 billion quoted from the secondary account above,
+because one counts what reached the administration
+and the other counts the programme as later totalled.
+
 ### What reconstruction costs when somebody measures it
 
-[The World Bank and partners 2025][research_world_bank_2025_rdna4]
+The [Fourth Rapid Damage and Needs Assessment][research_world_bank_2025_rdna4],
+prepared by the World Bank with the government of Ukraine,
+the European Commission and the United Nations,
 assessed Ukraine after almost three years of war.
-Direct damage reached 176 billion dollars,
-and total reconstruction and recovery needs over the next decade reached 524 billion,
-which the assessment puts at approximately 2.8 times Ukraine's 2024 nominal gross domestic product.
-Thirteen percent of the housing stock was damaged or destroyed.
+It is the one case in this literature where a damaged economy at war
+has been costed line by line by its eventual funders,
+and it is read here in the full report rather than in the press release.
+Direct damage reached 176.1 billion dollars,
+and total reconstruction and recovery needs estimated over ten years reached 524.6 billion,
+which the assessment puts at "approximately 2.8 times the estimated nominal
+GDP of Ukraine for 2024".
 Needs exceed measured damage by a factor near three,
 because recovery is not the same thing as repair.
 
 $$
-\frac{524}{176} \approx 2.98
-$$
-
-The damage figure itself grew between assessments.
-
-$$
-\frac{176}{152} \approx 1.16
+\frac{524.6}{176.1} \approx 2.98
 $$
 
 That ratio is the most transferable quantity in the reconstruction literature,
@@ -735,6 +1053,61 @@ because it is dimensionless.
 $$
 \frac{\text{reconstruction needs}}{\text{annual output}} \approx 2.8
 $$
+
+**The sector detail is where the assessment speaks to this article's thesis.**
+Housing took 57.6 billion dollars of the damage
+and carries 83.7 billion of the needs,
+the largest sectoral share at about 16 percent of the total.
+
+$$
+\frac{83.7}{57.6} \approx 1.45
+$$
+
+Housing is the most nearly physical category in the assessment
+and its needs-to-damage multiple is roughly half the economy-wide figure.
+The categories that push the aggregate multiple to three
+are the ones with no damaged asset behind them at all,
+among them explosive hazards management at almost 30 billion dollars
+and debris clearance and demolition at around 13 billion.
+**Rebuilding what was hit is the cheap part of recovery,
+and the assessment's own arithmetic says so.**
+
+The assessment also measures the gap between plant and output directly.
+Thirteen percent of the total housing stock was damaged or destroyed,
+affecting more than 2.5 million households,
+while "2024 GDP is 78 percent of 2021 GDP in real terms".
+Writing $K$ for the housing stock and $Y$ for real output,
+each as a share of its own baseline,
+the two quantities have moved by different amounts in the same direction.
+
+$$
+K \ge 87, \qquad Y \approx 78
+$$
+
+The inequality is deliberate.
+The 13 percent is housing damaged or destroyed together,
+so the share of the stock still standing is at least 87 percent
+and is higher than that to the extent damaged units are repairable.
+The two figures also carry different baselines,
+the housing share against the current stock and the output share against 2021,
+so the pair is a comparison of magnitudes and not a matched ratio.
+What survives those caveats is the direction.
+**At most a seventh of the housing is gone
+and something near a fifth of the output is gone**,
+which is the same shape as the German pair above
+and is measured here in a war that has not stopped.
+
+The damage figure itself grew between assessments,
+and the report states the growth rather than leaving it to be computed.
+Direct damage rose by almost 24 billion dollars against the third assessment's 152.5 billion,
+which the report gives as 15.5 percent.
+
+$$
+\frac{176.1 - 152.5}{152.5} \approx 0.155
+$$
+
+A war that is being assessed while it continues
+adds about a sixth to its own damage bill in a single year.
 
 For comparison of scale rather than of case,
 [SIGIR 2013][research_sigir_2013_learning_from_iraq]
@@ -747,6 +1120,36 @@ Expenditure of 53.26 billion dollars across nine years gives the daily rate.
 $$
 \frac{53.26 \times 10^{9}}{9 \times 365} \approx 16.2 \ \text{million dollars per day}
 $$
+
+**Occupation-era aid to Japan was listed as unverified in an earlier draft
+and a primary figure has now been located.**
+A [State Department paper of March 1962][government_frus_1962_garioa_settlement],
+published in the Foreign Relations of the United States series,
+records that total disbursements to Japan
+under the Government and Relief in Occupied Areas appropriations
+for fiscal years 1947 through 1952,
+together with earlier emergency assistance from the Army,
+"were about $1.99 billion",
+and that after deductions the United States claim "was about $1.8 billion".
+Japan settled that claim for 490 million dollars over fifteen years.
+
+$$
+\frac{490}{1{,}800} \approx 0.27
+$$
+
+Japan repaid a bit over a quarter of the claimed sum.
+Two cautions belong with those figures.
+They cover Japan alone and not Germany or Korea,
+and they bundle the relief appropriations
+with the economic rehabilitation spending
+that a 1948 proviso authorised out of the same account
+rather than through a separate one.
+The department's own view of the bookkeeping was unflattering.
+A [memorandum of conversation from 1954][government_frus_1954_garioa_bookkeeping]
+records Secretary Dulles observing that
+"the bookkeeping on the GARIOA funds had been very fuzzy and sloppy",
+which is a caution about the figure
+issued by the government that produced it.
 
 The [World Bank 1996][research_world_bank_1996_bosnia]
 priced Bosnian priority reconstruction at 5.1 billion dollars over three to four years.
@@ -788,6 +1191,41 @@ which means a settlement may become available only after the leadership that sta
 [Flavin 2003][journal_flavin_2003_conflict_termination]
 states the distinction the planning literature keeps losing,
 that "Conflict termination is the formal end of fighting, not the end of conflict".
+
+**Joint doctrine confirms the narrowness he complains of.**
+[Joint Publication 3-0][government_jp_3_0_2018]
+defines termination criteria as
+"The specified standards approved by the President and/or the Secretary of Defense
+that must be met before a military operation can be concluded",
+and frames the military end state as
+"a point in time or a set of conditions
+beyond which the President does not require the military instrument of national power
+as the primary means to achieve remaining national objectives".
+**Termination in doctrine is therefore the end of an operation
+and the start of somebody else's problem**,
+which is precisely the handoff no source in this article costs.
+
+**The strategy literature has thought about the end of the war more carefully
+than the wargames have, and it does not promise one.**
+[Heim, Burdette and Beauchamp-Mustafaga 2024][commentary_heim_2024_denial_worst]
+argue for a denial theory of victory over cost imposition,
+and are explicit that denial is not a termination mechanism.
+Denial "gives Beijing space to decide to stop the war
+after it realizes that its military operation has failed",
+but it "does not rest on the assumption that China will immediately stop fighting
+after the invasion fails".
+They name the continuation directly,
+that "It is certainly possible that China would shift to a blockade
+or strategic bombing of Taiwan
+to see if it could still achieve its original political objective".
+
+That sentence and the energy figures above belong together,
+and no source located joins them.
+The recommended American strategy for defeating an invasion
+anticipates a shift to blockade as the likely next move,
+and the island holds about twenty days of gas and about forty days of coal.
+**A theory of victory that succeeds on its own terms
+hands the aftermath to the constraint the reconstruction literature never prices.**
 
 [Krepinevich 2020][research_krepinevich_2020_protracted_great_power_war]
 draws the conclusion for the nuclear case.
@@ -854,6 +1292,11 @@ $$
 
 [Goemans, Gleditsch and Chiozza 2009][journal_goemans_2009_archigos]
 give the population rates from 3,025 leader spells across 188 countries from 1875 to 2004.
+The [dataset behind that paper][data_archigos_2016_leader_dataset]
+has since been extended,
+version 4.1 of March 2016 covering 1875 to the end of 2015,
+and its authors ask that the version and date be cited alongside the article.
+The rates quoted here are the published ones and not recomputed from the current file.
 Exits were 64.63 percent regular and 19.07 percent irregular,
 and post-tenure fates were 63.64 percent no punishment,
 12.43 percent exile,
@@ -913,20 +1356,63 @@ per thousand inhabitants",
 counting troops and police together,
 which is roughly ten times the ratio required for simple policing.
 
-Taiwan's population is about 23.4 million.
+**The provenance of that ratio needs stating carefully,
+because it is not what it is usually said to be.**
+The earlier [Quinlivan 1995][research_quinlivan_1995_force_requirements]
+article in *Parameters* is routinely credited with establishing a 20-per-thousand rule,
+and reading it shows that it does no such thing.
+It is descriptive throughout,
+organised into sections on ratios of one to four, four to ten, and above ten per thousand,
+and its own summary claim is weak,
+that "Force ratios larger than ten members of the security forces
+for every thousand of population are not uncommon in current operations".
+Twenty per thousand appears in it as a measured value in two cases rather than as a norm,
+the British in Malaya, where "the British generated a force ratio
+of about 20 per thousand of population",
+and Northern Ireland, "giving a force ratio of about 20 per thousand".
+**What 1995 contributed was the population-proportional method.
+The norm was hardened later by other hands.**
+
+Doctrine is where it hardened.
+The 2006 counterinsurgency field manual
+[FM 3-24][government_fm_3_24_2006]
+states at paragraph 1-67 that "Most density recommendations fall within a range
+of 20 to 25 counterinsurgents for every 1000 residents in an AO",
+and that "Twenty counterinsurgents per 1000 residents
+is often considered the minimum troop density required for effective COIN operations",
+while adding that "as with any fixed ratio,
+such calculations remain very dependent upon the situation".
+It attributes the number to nobody.
+**The 2014 revision of that manual removed the ratio altogether**,
+so the figure this article is about to use
+appears in no current United States doctrinal publication.
+
+Taiwan's registered population was 23,299,132 at the end of December 2025,
+according to the
+[Ministry of the Interior's monthly bulletin of interior statistics][data_moi_2026_taiwan_population].
 Writing $P$ for population and $\rho$ for the required ratio per thousand,
 the requirement follows.
 
 $$
-F = \rho \times \frac{P}{1000} = 20 \times 23{,}400 = 468{,}000 \ \text{personnel}
+F = \rho \times \frac{P}{1000} = 20 \times 23{,}299 = 465{,}980 \ \text{personnel}
 $$
 
 Quinlivan also states a rule of five for sustainment,
 five personnel in the force for each one deployed on a six-month rotation.
 
 $$
-5 \times 468{,}000 = 2{,}340{,}000 \ \text{personnel}
+5 \times 465{,}980 \approx 2{,}330{,}000 \ \text{personnel}
 $$
+
+**The population is falling, so the requirement falls with it.**
+The same series gives 23,400,220 at the end of 2024
+and 23,224,721 at the end of August 2026,
+a decline of about 175,000 in twenty months.
+At the most recent figure the garrison requirement is about 464,000,
+so the quantity is drifting downward by a few hundred personnel a month.
+That sensitivity is worth stating because it is small.
+**A demographic trend of that size does not change the conclusion,
+which is what a claim about an order of magnitude should look like.**
 
 **This calculation is my own and appears in no source located.**
 It applies a ratio derived from Bosnia, Kosovo, Somalia, Haiti, Afghanistan and Iraq
@@ -942,7 +1428,7 @@ which lands 262,000 troops by day 19,
 the garrison requirement is larger than the invasion.
 
 $$
-\frac{468{,}000}{262{,}000} \approx 1.79
+\frac{465{,}980}{262{,}000} \approx 1.78
 $$
 
 Against the actual deployment in Iraq in 2003,
@@ -977,15 +1463,20 @@ of how it would attempt to rule the island afterwards".
 
 The nuclear consequence literature is large, quantitative, and about other wars.
 [Xia and others 2022][journal_xia_2022_nature_food]
-model soot injection against food supply.
-At 5 teragrams of soot from 100 weapons,
+model soot injection against food supply across six scenarios.
+Their first table is read here in the published paper,
+which is open access,
+and every figure below is taken from it directly.
+At 5 teragrams of soot from 100 weapons of 15 kilotons,
 direct fatalities are 27 million and 255 million people are without food at the end of year two.
-At 150 teragrams from 4,400 weapons,
+At 150 teragrams from 4,400 weapons of 100 kilotons,
 direct fatalities are 360 million
 and 5.341 billion people are without food.
-Global mean surface temperature falls 1.5 degrees Celsius at the low end
+Maximum average surface air temperature over crop regions
+falls 1.5 degrees Celsius at the low end
 and 14.8 degrees at the high end,
-and the climatic impacts "would last for about a decade".
+peaking within one to two years
+and with the reduction "lasting for more than 10 years".
 
 The ratio between the direct and the indirect toll is the finding.
 
@@ -1009,6 +1500,38 @@ $$
 
 The indirect toll grows faster than the direct one,
 which is the whole argument of that literature.
+
+**The same paper carries a second table that the secondary accounts of it drop,
+and it is the one that bears on this article.**
+It reports the change in food calorie availability in year two
+for each nuclear-armed nation,
+assuming no trade.
+Under its central livestock assumption
+Chinese availability falls 14.1 percent at 5 teragrams
+against a global average fall of 8.2 percent,
+and 99.5 percent at 150 teragrams against a global 81.3 percent.
+
+$$
+\frac{14.1}{8.2} \approx 1.72
+$$
+
+China loses over 70 percent more of its food calories than the world average
+in a scenario that is a war between India and Pakistan
+and has nothing to do with China at all.
+Of the nine nuclear-armed states in the table
+only North Korea fares worse at that soot level, at 18.1 percent,
+while France, Russia and the United Kingdom show small gains
+because the no-trade assumption stops them exporting.
+The mechanism is latitude and diet rather than proximity to the detonations.
+
+**The paper also states a scope limit that no recovery argument may ignore.**
+Impacts in the warring nations themselves
+"are likely to be dominated by local problems,
+such as infrastructure destruction, radioactive contamination and
+supply chain disruptions,
+so the results here apply only to indirect effects from soot injection in remote locations".
+The model is therefore silent about the belligerents,
+which is precisely the population an article about postwar recovery would want.
 
 [Shi and others 2025][journal_shi_2025_adapting_agriculture]
 address recovery rather than damage,
@@ -1035,11 +1558,97 @@ and [Robock, Toon and Bardeen 2019][journal_robock_2019_comment]
 objected that the modelled target resembled a low-density suburb.
 Both sides agree the uncertainty is in the plume and not in the response to soot aloft.
 The [National Academies 2025][research_nas_2025_nuclear_war_effects]
-synthesis states that major uncertainties limit modelling at every stage of the causal pathway,
-and it explicitly excluded radioactive fallout,
+consensus study,
+read here in full rather than from its catalogue entry,
+states the uncertainty position in its own words.
+"It is important to bear in mind that uncertainties are involved in the analysis
+of every step of the causal pathway
+that leads from a nuclear weapons exchange
+to its environmental and societal and economic endpoints",
+and those uncertainties "interact with each other and propagate along the pathway,
+such that, regardless of the relative certainty of knowledge at any one point,
+the overall analytical uncertainty will always increase along the pathway".
+Its concluding chapter holds that the compounded uncertainty and the missing data
+"fundamentally constrain the quantification of precise environmental
+and societal and economic outcomes from any given nuclear war scenario".
+The study also excluded radioactive fallout by design,
+stating that "an evaluation of the effects of radioactive fallout
+was not included in the scope of the work",
 which matters for any recovery argument built on it.
 
-**Every one of those studies models South Asia or the United States and Russia.**
+**Reading that report in full settled a question this article had left open.
+It contains no economic recovery analysis and no recovery timescale for human systems.**
+What it offers on recovery is a physical result,
+that in the largest simulation "ocean recovery from the conflict
+is decades at the surface and hundreds of years at depth",
+and a research gap,
+that "There are major research gaps around quantifying the impacts
+of abrupt cooling and environmental shocks on crop yields, livestock, fisheries,
+pollution exposure pathways, and ecosystem recovery timelines".
+The newest and most authoritative synthesis in the field
+therefore does not answer the question this article is asking,
+and says as much.
+
+### The one government study that did model recuperation is from 1979
+
+**The most substantial official treatment of recovery after nuclear use
+is nearly fifty years old.**
+The Office of Technology Assessment's
+[Effects of Nuclear War][government_ota_1979_effects_of_nuclear_war],
+prepared for the Senate Committee on Foreign Relations,
+devotes a chapter to what it calls the recuperation period,
+and its framing has not been superseded.
+Recovery is posed as a race.
+"In effect, the country would enter a race, with economic viability as the prize",
+in which production must be restored
+before the consumption of stocks and the wearing out of surviving goods overtakes it.
+If that race is lost,
+consumption sinks to the level of production and depresses it further,
+and "At some point this spiral would stop,
+but by the time it did so
+the United States might have returned to the economic equivalent of the Middle Ages".
+
+The study is candid about the limit of its own method,
+in terms no modern document improves on.
+"The effects of a nuclear war that cannot be calculated
+are at least as important as those for which calculations are attempted."
+It sorts consequences into three classes,
+those that can be calculated,
+"Effects that would surely take place, but whose magnitude cannot be calculated",
+and effects whose likelihood is as incalculable as their magnitude,
+among which it lists "a long downward economic spiral before viability is attained"
+and political disintegration.
+On the central question it is blunt.
+"Nobody knows how to estimate the likelihood
+that industrial civilization might collapse in the areas attacked."
+And on the planning question that the wargame literature inherits,
+"The economic and social problems following a nuclear attack
+cannot be foreseen clearly enough to permit drafting of detailed recovery plans".
+
+Its statement of the asymmetry between destruction and rebuilding
+is the cleanest in any source located,
+and it is the thesis of this article in one sentence written in 1979.
+Structures destroyed in seconds or hours
+"might not be rebuilt or replaced for years, or even decades",
+while the dead "might not be replaced in a demographic sense for several generations".
+For the standing reference on weapons effects themselves
+the corresponding document is
+[Glasstone and Dolan 1977][government_glasstone_dolan_1977],
+issued jointly by the Department of Defense and the Department of Energy.
+
+**None of those studies models a war between China and the United States,
+and reading the primary tables makes the claim more precise than it first appears.**
+The scenarios divide into regional exchanges in South Asia
+and a single global exchange.
+The 150 teragram case is not a United States and Russia scenario,
+since the paper states it "assumes attacks on France, Germany, Japan,
+United Kingdom, United States, Russia and China".
+China is therefore a target in the largest scenario in the literature,
+but as one member of a general exchange among all the major arsenals,
+entered at the top of an escalation ladder rather than from a war over Taiwan.
+The distinction matters because the quantity a recovery estimate needs
+is the damage to two belligerents and their trading partners,
+and no published scenario supplies it.
 [Xia and others 2015][journal_xia_2015_chinese_agriculture]
 is the closest to the case at hand,
 finding first-year Chinese wheat production down 53 percent
@@ -1094,6 +1703,32 @@ $$
 \frac{395}{295} \approx 1.34
 $$
 
+**Checking that ratio against the primary documents changed what it means.**
+The 395 is not a count of Chinese ships in 2025.
+It is a projection made in 2023.
+The [Department of Defense annual report to Congress][government_dod_2023_china_report]
+for that year
+states that the People's Liberation Army Navy
+"is the largest navy in the world with a battle force of over 370 platforms"
+and that its "overall battle force is expected to grow to 395 ships by 2025
+and 435 ships by 2030".
+**The 2025 edition of the same report gives no fleet total at all**,
+having been restructured to about half the length of the 2023 edition,
+so no current official count is available to test the projection against.
+The American figure does have a current primary,
+since the Navy's own plan states 291 battle force ships.
+Recomputed on the two firmest numbers,
+a 2023 measurement of over 370 against a 2026 statement of 291,
+the ratio is smaller and rests on quantities three years apart.
+
+$$
+\frac{370}{291} \approx 1.27
+$$
+
+Either way the direction holds and the precision does not,
+and a ratio assembled from a projection and a count
+should not be quoted to three figures.
+
 [Ikenberry 2019][book_ikenberry_2019_after_victory]
 supplies the older theoretical baseline,
 that the order a victor builds depends on its capacity for credible self-restraint.
@@ -1121,15 +1756,41 @@ exists in the public record as a conditional sentence in an executive summary
 whose authors disclaim having studied it.
 - **Nobody has modelled nuclear consequences or recovery for a Taiwan scenario.**
 The escalation studies stop at use.
-The consequence studies are about other theatres.
+The consequence studies are about other theatres,
+and the one scenario that includes China as a target
+reaches it through a general exchange among every major arsenal.
+Reading the 2025 National Academies report in full
+confirmed that the field's newest synthesis
+carries no economic recovery analysis and no recovery timescale for human systems,
+and names that as a research gap in its own text.
+**The only official study containing a recuperation analysis dates from 1979.**
 - **The occupation force-density literature and the invasion literature have never been joined.**
 The arithmetic above took minutes and appears nowhere.
+The reference pass made this gap wider rather than narrower.
+The ratio the arithmetic depends on
+is descriptive in the 1995 article usually credited with it,
+prescriptive in a 2006 field manual that attributes it to nobody,
+and **absent from that manual's 2014 revision**,
+so the number is applied to no Taiwan case
+and no longer appears in the doctrine that made it a norm.
 
 A fifth observation follows from the four.
 There appears to be no published work whose central thesis
 is that the wargaming literature ignores the aftermath.
 What exists is adjacent and assemblable,
 which is what this article has done.
+
+**A sixth observation came out of the reference pass itself.**
+The primary documents are more candid about all of this than the secondary literature is.
+The Navy says its doubled budget bought no additional ships.
+The intelligence community says a protracted war
+risks unprecedented economic costs.
+The National Academies says its own causal pathway cannot be quantified.
+The Office of Technology Assessment said in 1979
+that "Nobody knows how to estimate the likelihood
+that industrial civilization might collapse in the areas attacked".
+**The confidence in this field increases with distance from the primary sources**,
+which is a finding about the literature rather than about the war.
 
 ## Epistemic State
 
@@ -1150,7 +1811,61 @@ The Glick and Taylor working paper.
 The De Long and Eichengreen working paper.
 The Goemans 2008 and Archigos working papers, for the base rates quoted.
 The Krepinevich executive summary.
-The World Bank press release for the Ukraine figures.
+The full Fourth Rapid Damage and Needs Assessment for Ukraine,
+replacing the press release this article first cited,
+which is the source of the sector split, the housing figures and the real output ratio.
+The Nature Food paper, which is open access,
+including both its scenario table and its per-nation calorie table.
+The Office of the United States Trade Representative Section 301 report
+on the maritime, logistics and shipbuilding sectors.
+The Office of the Director of National Intelligence annual threat assessment.
+The US-China Economic and Security Review Commission Taiwan chapter,
+for the energy stockpile and undersea cable passages.
+The Heim, Burdette and Beauchamp-Mustafaga essay,
+whose quotations were checked against the page source rather than a summary of it.
+The National Academies report in full, through the read-online view,
+since its own catalogue page puts the file behind a login.
+The Office of Technology Assessment study of 1979,
+through a scan of the printed edition,
+with the page offset between scan and folio confirmed at several points.
+Both bombing survey reports,
+the Pacific summary from a scan
+and the European over-all report from page images,
+the latter transcribed by eye because its optical character recognition is unusable for quotation.
+The Navy shipbuilding plan for fiscal year 2027, direct from the Navy comptroller.
+The Department of Defense competition report and both accountability office reports,
+through the Wayback Machine, since the canonical hosts refuse automated clients.
+The two annual reports to Congress on Chinese military developments, for 2023 and 2025.
+The Economic Cooperation Act as enacted, and the final report of its administering agency.
+Two State Department documents in the Foreign Relations of the United States series.
+The 1995 Quinlivan article, through an archived copy of the original electronic edition.
+The approved December 2006 counterinsurgency field manual and its 2014 revision.
+Joint Publication 3-0.
+The Ministry of the Interior population series, parsed from the published spreadsheet.
+
+**Every quotation added in the reference pass was checked against the source text
+rather than against an intermediary's report of it.**
+Nineteen were confirmed on the first pass.
+Several others failed a literal string match
+and were confirmed only after normalising for scanned hyphenation,
+two-column interleaving and a running header that fell inside a sentence.
+**That distinction matters, because a failed match is not evidence of a bad quotation
+and a passing match on a summary is not evidence of a good one.**
+
+**Reachability of the references.**
+Ninety-seven references carry 94 external addresses,
+the other three being internal cross-references to published posts.
+Seventy-nine of the 94 resolve to a 200 response.
+The remaining fifteen are catalogued publisher and agency blocks,
+every one of them a journal digital object identifier
+or the Congressional Budget Office,
+and each was verified through the registry instead.
+**Reaching that count required two different user agents.**
+Nine addresses answer a browser string and refuse an honest one that carries a contact address,
+and two government hosts do the exact opposite,
+so a sweep that sends a single agent reports blocks that are properties of the client.
+That measurement is recorded in the project's URL verification notes
+rather than left in this article.
 
 **Verified against the registry rather than read.**
 Every journal citation was checked against Crossref for title, authors, journal, volume, issue, year and pages.
@@ -1161,8 +1876,20 @@ Where an abstract is the only layer verified, no number from inside the article 
 
 **Documented only through a summary or a press account.**
 The 200-to-1 shipbuilding slide, through the outlet that obtained it and the Navy's own caveat.
-The Nature Food soot table, through a research sweep's extraction rather than my own reading.
-The National Academies synthesis, through its catalogue page.
+That slide is no longer load-bearing,
+because the Section 301 report now carries the tonnage-share claim as a government finding,
+and a search of the public record found no released intelligence publication stating it.
+
+**Cited at one remove, with the earliest source not read.**
+The 51-to-5 consolidation figure,
+which the Department of Defense states three times
+and attributes to a presidential commission report of 2002 that was not retrieved.
+The seven-yards-and-four-primes count,
+which the accountability office reports from a departmental industrial capabilities report
+that was not retrieved.
+The phoenix factor result,
+quoted from the 1977 journal article,
+with the 1980 book cited as the fuller treatment and its interior text not obtained.
 
 **Derived in this article.**
 The aircraft replacement bracket, which reproduces the published figure.
@@ -1210,10 +1937,73 @@ A sweep reported a civil defence funding pledge at two different values
 in two outlets,
 so no figure for it appears here.
 
+**Corrections the primary-reference pass produced.**
+All six figures this article quotes from the Nature Food scenario table
+were confirmed against the published table,
+so the earlier reliance on a sweep's extraction is withdrawn rather than merely noted.
+Reading the same paper corrected a claim this article had made too strongly.
+The draft said that every study in that literature
+models South Asia or the United States and Russia.
+The largest scenario in fact assumes attacks on seven countries including China,
+so the claim is now the narrower and correct one,
+that no study models a war between China and the United States
+arising from a conflict over Taiwan.
+The draft also computed the growth in Ukrainian damage
+as a ratio of two rounded figures and reported about 16 percent.
+The report states 15.5 percent,
+and the unrounded values it prints give that figure,
+so the article now uses the source's own number.
+The draft further stated Taiwan's grid resilience as unverified and absent.
+The commission chapter supplies stockpile durations,
+which is not a resilience programme cost,
+so the absent item has been narrowed rather than removed.
+
+**Four further corrections came from reading the primaries behind secondary accounts.**
+The draft reported Japanese bombing damage from Davis and Weinstein alone.
+The bombing survey gives 2,510,000 buildings destroyed against the paper's 2.2 million,
+330,000 fatalities against the paper's three hundred thousand,
+and, most importantly,
+a 40 percent figure that describes built-up area destroyed
+rather than a share of population made homeless.
+**The draft had additionally inserted the word urban into the paper's sentence**,
+producing a claim that matched neither the paper nor the survey.
+All three quantities now appear with their subjects and sources attached.
+
+The draft credited Quinlivan's 1995 article
+with establishing the 20-per-thousand force ratio.
+Reading it shows the article is descriptive
+and reaches 20 per thousand as a measured value in two historical cases,
+so the article now credits it with the method
+and locates the norm in the 2006 field manual,
+while recording that the 2014 revision of that manual deleted the ratio.
+
+The draft gave Taiwan's population as about 23.4 million with no source.
+That was the end-of-2024 figure.
+The official series is now cited,
+the calculation uses the end-of-2025 figure,
+and the declining trend is stated
+along with its small effect on the result.
+
+The draft took a naval balance ratio from a journal author.
+The 395 in it is a 2023 departmental projection of what 2025 would hold,
+not a count,
+and the 2025 edition of that report gives no fleet total at all,
+so the ratio is now presented with both quantities dated
+and with a second ratio computed from the firmest available numbers.
+
+**One claim was strengthened rather than corrected.**
+The draft asserted that no study models nuclear consequences or recovery for this theatre.
+Reading the 2025 National Academies report in full confirmed
+that it contains no economic recovery analysis and no recovery timescale for human systems,
+and that it says so itself by naming the research gap.
+The only official study with a recuperation analysis
+turns out to be the Office of Technology Assessment's of 1979.
+
 **Not verified and therefore absent.**
 Any figure for the Marshall Plan as a share of donor output.
-Any figure for occupation-era aid to Japan.
-Any estimate of Taiwan's own reconstruction cost or of its grid resilience programme.
+Any estimate of Taiwan's own reconstruction cost,
+or any costing of its grid resilience programme,
+as distinct from the stockpile durations reported above.
 Any figure from three Parameters articles whose publisher refuses automated access.
 
 **Inference.**
@@ -1247,12 +2037,23 @@ Japanese cities recovered their relative size in about fifteen years
 with reconstruction spending contributing under one percentage point.
 West German industrial capacity in 1948 stood above its 1936 level,
 so what the bombing destroyed was output rather than plant.
+The bombing survey had measured the same thing at plant level in 1945,
+finding half the floor space of an industry destroyed
+and only 12 percent of its machine tools.
 Losers of major wars resume antebellum standing within fifteen to twenty years.
+Ukraine, assessed while still at war,
+shows at most a seventh of its housing gone against a fifth of its output,
+and its housing needs run at 1.45 times housing damage
+where the whole economy's needs run at three times.
 
 Throughput and relationships do not heal on that clock.
 Two shipyards build large surface combatants,
-a destroyer takes eight to nine years,
+which is the Department of Defense's own count of surface ship primes for 2020,
+down from eight in 1990.
+A destroyer takes eight to nine years,
 and the report that sinks a dozen of them says replacement would take decades.
+The Navy states that its shipbuilding budget doubled across two decades
+and bought no additional ships.
 Carriers have no replacement rate at all,
 because the yards can only sustain the fleet that exists.
 Munitions run on a 52-month cycle
@@ -1261,7 +2062,9 @@ are the ones a peer war needs most.
 Replacing programme inventories takes 8.4 years at surge rates,
 and that figure explicitly excludes combat losses.
 Leading-edge semiconductor capacity takes a minimum of three years
-and 350 billion dollars to rebuild somewhere else.
+and 350 billion dollars to rebuild somewhere else,
+and the island those foundries sit on
+holds about twenty days of stored gas and about forty days of coal.
 Trade between former adversaries is still a fifth below its old level eight years on,
 and the modern era repaired itself more slowly than the era before 1938.
 
@@ -1278,8 +2081,22 @@ though the most cited report asserts it might not
 in the same sentence that disclaims having looked.
 No consequence or recovery study exists for nuclear use in this theatre.
 And the occupation arithmetic that follows from the literature's own ratio,
-about 468,000 personnel for Taiwan and roughly five times that to sustain them,
+about 466,000 personnel for Taiwan and roughly five times that to sustain them,
 took minutes to compute and appears in none of it.
+
+**Reading the primary documents rather than the accounts of them
+changed the article in one consistent direction.**
+Every correction made the secondary literature look more confident than its sources,
+and every primary document read here was more candid about its own limits
+than the works citing it.
+The clearest statement of the whole problem is nearly fifty years old.
+A study prepared for the Senate in 1979 said
+that the effects which cannot be calculated
+"are at least as important as those for which calculations are attempted",
+and that nobody knows how to estimate
+whether industrial civilisation survives in the areas attacked.
+Nothing published since has improved on that,
+and the newest authoritative synthesis says as much about itself.
 
 A literature that models the first three weeks in twenty-four iterations
 and the following twenty years in one conditional clause
@@ -1292,6 +2109,7 @@ and then stopping where the hard part starts.
 - [Book, Goemans 2000, War and Punishment][book_goemans_2000_war_and_punishment]
 - [Book, Ikenberry 2019, After Victory][book_ikenberry_2019_after_victory]
 - [Book, Ikle 2005, Every War Must End][book_ikle_2005_every_war_must_end]
+- [Book, Organski and Kugler 1980, The War Ledger][book_organski_kugler_1980_war_ledger]
 - [Book, Reiter 2009, How Wars End][book_reiter_2009_how_wars_end]
 - [Commentary, Blanchette and McGregor 2026, After the Invasion, China Considers the Problem of Ruling Taiwan][commentary_blanchette_2026_after_invasion]
 - [Commentary, Heath 2023, Wargames Cannot Tell Us How to Deter a Chinese Attack on Taiwan][commentary_heath_2023_wargames_deterrence]
@@ -1301,8 +2119,23 @@ and then stopping where the hard part starts.
 - [Commentary, Trevithick 2023, Alarming Navy Intelligence Slide on Chinese Shipbuilding Capacity][commentary_twz_2023_oni_slide]
 - [Data, Boston Consulting Group and Semiconductor Industry Association 2021, Strengthening the Global Semiconductor Value Chain][data_bcg_sia_2021_value_chain]
 - [Data, Chicago Council on Global Affairs 2022, Thinking Nuclear, South Korean Attitudes on Nuclear Weapons][data_chicago_council_2022_south_korea]
+- [Data, Goemans, Gleditsch and Chiozza 2016, Archigos, a Data Set on Leaders 1875 to 2015, Version 4.1][data_archigos_2016_leader_dataset]
 - [Data, Office of the United States Trade Representative 2025, Report on China's Targeting of the Maritime, Logistics and Shipbuilding Sectors][data_ustr_2025_maritime]
+- [Data, Republic of China Ministry of the Interior 2026, Monthly Bulletin of Interior Statistics, Resident Population][data_moi_2026_taiwan_population]
+- [Government, Department of Defense 2022, State of Competition within the Defense Industrial Base][government_dod_2022_competition]
+- [Government, Department of Defense 2023, Military and Security Developments Involving the People’s Republic of China][government_dod_2023_china_report]
+- [Government, Department of State 1954, Memorandum of Conversation on the Government and Relief in Occupied Areas Claim][government_frus_1954_garioa_bookkeeping]
+- [Government, Department of State 1962, Settlement of the United States Claim for Postwar Economic Assistance to Japan][government_frus_1962_garioa_settlement]
+- [Government, Department of the Army and United States Marine Corps 2006, FM 3-24, Counterinsurgency][government_fm_3_24_2006]
+- [Government, Department of the Navy 2026, United States Navy Shipbuilding Plan, Fiscal Year 2027][government_navy_2026_shipbuilding_plan]
+- [Government, Economic Cooperation Administration 1951, Thirteenth Report to Congress][government_eca_1951_thirteenth_report]
+- [Government, Glasstone and Dolan 1977, The Effects of Nuclear Weapons, Third Edition, TID-28061][government_glasstone_dolan_1977]
+- [Government, Joint Chiefs of Staff 2018, Joint Publication 3-0, Joint Operations][government_jp_3_0_2018]
+- [Government, Office of Technology Assessment 1979, The Effects of Nuclear War][government_ota_1979_effects_of_nuclear_war]
 - [Government, Office of the Director of National Intelligence 2026, Annual Threat Assessment][government_odni_2026_threat_assessment]
+- [Government, United States Congress 1948, Economic Cooperation Act of 1948, 62 Stat. 137][government_economic_cooperation_act_1948]
+- [Government, United States Strategic Bombing Survey 1945, Over-all Report, European War][government_ussbs_1945_overall_report]
+- [Government, United States Strategic Bombing Survey 1946, Summary Report, Pacific War][government_ussbs_1946_pacific_summary]
 - [Government, US-China Economic and Security Review Commission 2025, Annual Report to Congress, Taiwan Chapter][government_uscc_2025_taiwan_chapter]
 - [Journal, Brakman, Garretsen and Schramm 2004, The Strategic Bombing of German Cities, Journal of Economic Geography 4 number 2][journal_brakman_2004_german_bombing]
 - [Journal, Bueno de Mesquita, Siverson and Woller 1992, War and the Fate of Regimes, American Political Science Review 86 number 3][journal_bueno_de_mesquita_1992]
@@ -1348,7 +2181,9 @@ and then stopping where the hard part starts.
 - [Research, Evans 2023, Alternative Futures Following a Great Power War, Volume 2][research_evans_2023_alternative_futures_v2]
 - [Research, Funaiole 2026, Testimony on Countering Chinese Dominance in Global Shipbuilding][research_funaiole_2026_testimony]
 - [Research, Garlauskas, Gilbert and Imai 2025, A Rising Nuclear Double-Threat in East Asia][research_garlauskas_2025_guardian_tiger]
+- [Research, General Accounting Office 1998, Defense Industry, Consolidation and Options for Preserving Competition][research_gao_1998_defense_consolidation]
 - [Research, Gompert, Cevallos and Garafola 2016, War with China, Thinking Through the Unthinkable][research_gompert_2016_war_with_china]
+- [Research, Government Accountability Office 2022, Defense Industrial Base, DOD Should Take Actions to Strengthen Its Risk Mitigation Approach][research_gao_2022_industrial_base]
 - [Research, Government Accountability Office 2025, Shipbuilding and Repair, Private Sector Industrial Base Investments][research_gao_2025_shipbuilding_workforce]
 - [Research, Gunzinger and Penney 2026, Rebuilding America's Air Force][research_gunzinger_2026_rebuilding_air_force]
 - [Research, Jones 2023, Empty Bins in a Wartime Environment][research_jones_2023_empty_bins]
@@ -1360,17 +2195,19 @@ and then stopping where the hard part starts.
 - [Research, Oakley 2026, Navy and Coast Guard Shipbuilding, a Strategy-Driven Approach Is Needed][research_oakley_2026_gao_shipbuilding]
 - [Research, Predd and others 2025, Thinking Through Protracted War with China, Nine Scenarios][research_predd_2025_protracted_war]
 - [Research, Priebe and others 2023, Alternative Futures Following a Great Power War, Volume 1][research_priebe_2023_alternative_futures_v1]
+- [Research, Quinlivan 1995, Force Requirements in Stability Operations, Parameters 25][research_quinlivan_1995_force_requirements]
 - [Research, Quinlivan 2003, Burden of Victory, the Painful Arithmetic of Stability Operations][research_quinlivan_2003_burden_of_victory]
 - [Research, Rumbaugh 2026, Solid Rocket Motors for Missile Defense][research_rumbaugh_2026_solid_rocket_motors]
 - [Research, Special Inspector General for Iraq Reconstruction 2013, Learning From Iraq][research_sigir_2013_learning_from_iraq]
 - [Research, Stewart 2023, Island Blitz, a Campaign Analysis of a Taiwan Takeover][research_stewart_2023_island_blitz]
 - [Research, Tarnoff 2018, The Marshall Plan, Design, Accomplishments, and Significance][research_tarnoff_2018_marshall_plan]
 - [Research, World Bank 1996, Bosnia and Herzegovina, the Priority Reconstruction and Recovery Program][research_world_bank_1996_bosnia]
-- [Research, World Bank and partners 2025, Ukraine Fourth Rapid Damage and Needs Assessment][research_world_bank_2025_rdna4]
+- [Research, World Bank, Government of Ukraine, European Commission and United Nations 2025, Ukraine Fourth Rapid Damage and Needs Assessment, February 2022 to December 2024][research_world_bank_2025_rdna4]
 
 [book_goemans_2000_war_and_punishment]: https://doi.org/10.1515/9781400823956
 [book_ikenberry_2019_after_victory]: https://doi.org/10.23943/princeton/9780691169217.001.0001
 [book_ikle_2005_every_war_must_end]: https://cup.columbia.edu/book/every-war-must-end/9780231136679
+[book_organski_kugler_1980_war_ledger]: https://doi.org/10.7208/chicago/9780226351841.001.0001
 [book_reiter_2009_how_wars_end]: https://doi.org/10.1515/9781400831036
 [commentary_blanchette_2026_after_invasion]: https://warontherocks.com/after-the-invasion-china-considers-the-problem-of-ruling-taiwan/
 [commentary_heath_2023_wargames_deterrence]: https://www.rand.org/pubs/external_publications/EP70064.html
@@ -1378,11 +2215,26 @@ and then stopping where the hard part starts.
 [commentary_sudduth_2026_double_edged_swords]: https://warontherocks.com/double-edged-swords-how-military-purges-shape-authoritarian-appetite-for-war/
 [commentary_tetreau_2023_where_the_wargames_were_not]: https://warontherocks.com/2023/09/where-the-wargames-werent-assessing-10-years-of-u-s-chinese-military-assessments/
 [commentary_twz_2023_oni_slide]: https://www.twz.com/alarming-navy-intel-slide-warns-of-chinas-200-times-greater-shipbuilding-capacity
+[data_archigos_2016_leader_dataset]: http://ksgleditsch.com/archigos.html
 [data_bcg_sia_2021_value_chain]: https://www.semiconductors.org/wp-content/uploads/2021/05/BCG-x-SIA-Strengthening-the-Global-Semiconductor-Value-Chain-April-2021_1.pdf
 [data_chicago_council_2022_south_korea]: https://globalaffairs.org/research/public-opinion-survey/thinking-nuclear-south-korean-attitudes-nuclear-weapons
+[data_moi_2026_taiwan_population]: https://statis.moi.gov.tw/micst/report/321010.xlsx
 [data_ustr_2025_maritime]: https://ustr.gov/sites/default/files/enforcement/301Investigations/USTRReportChinaTargetingMaritime.pdf
+[government_dod_2022_competition]: https://web.archive.org/web/20240102044927/https://media.defense.gov/2022/Feb/15/2002939087/-1/-1/1/STATE-OF-COMPETITION-WITHIN-THE-DEFENSE-INDUSTRIAL-BASE.PDF
+[government_dod_2023_china_report]: https://web.archive.org/web/2024/https://media.defense.gov/2023/Oct/19/2003323409/-1/-1/1/2023-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA.PDF
+[government_eca_1951_thirteenth_report]: https://www.govinfo.gov/content/pkg/SERIALSET-11551_00_00-005-0249-0000/pdf/SERIALSET-11551_00_00-005-0249-0000.pdf
+[government_economic_cooperation_act_1948]: https://www.govinfo.gov/content/pkg/STATUTE-62/pdf/STATUTE-62-Pg137.pdf
+[government_fm_3_24_2006]: https://archive.org/download/FugitiveDistro_FM_3_24_Counterinsurgency_Anonymous/FM%203%2024%20Counterinsurgency_READ_EN_282.pdf
+[government_frus_1954_garioa_bookkeeping]: https://history.state.gov/historicaldocuments/frus1952-54v14p2/d712
+[government_frus_1962_garioa_settlement]: https://history.state.gov/historicaldocuments/frus1961-63v22/d353
+[government_glasstone_dolan_1977]: https://doi.org/10.2172/6852629
+[government_jp_3_0_2018]: https://web.archive.org/web/20200113010443id_/https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp3_0ch1.pdf
+[government_navy_2026_shipbuilding_plan]: https://www.secnav.navy.mil/fmc/fmb/Documents/27pres/30%20Year%20Shipbuilding%20Plan.pdf
 [government_odni_2026_threat_assessment]: https://archive.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf
+[government_ota_1979_effects_of_nuclear_war]: https://ia801509.us.archive.org/13/items/effectsofnuclear00unit/effectsofnuclear00unit.pdf
 [government_uscc_2025_taiwan_chapter]: https://www.uscc.gov/sites/default/files/2025-11/Chapter_11--Taiwan.pdf
+[government_ussbs_1945_overall_report]: https://books.google.com/books?id=4PBmAAAAMAAJ
+[government_ussbs_1946_pacific_summary]: https://archive.org/download/summaryreportpac00unit/summaryreportpac00unit.pdf
 [journal_brakman_2004_german_bombing]: https://doi.org/10.1093/jeg/4.2.201
 [journal_bueno_de_mesquita_1992]: https://doi.org/10.2307/1964127
 [journal_caverley_2025]: https://doi.org/10.1353/tns.00004
@@ -1426,6 +2278,8 @@ and then stopping where the hard part starts.
 [research_delong_eichengreen_1991_marshall]: https://www.nber.org/system/files/working_papers/w3899/w3899.pdf
 [research_evans_2023_alternative_futures_v2]: https://www.rand.org/pubs/research_reports/RRA591-2.html
 [research_funaiole_2026_testimony]: https://docs.house.gov/meetings/FA/FA05/20260722/119432/HHRG-119-FA05-Wstate-FunaioleM-20260722.pdf
+[research_gao_1998_defense_consolidation]: https://web.archive.org/web/2024/https://www.gao.gov/assets/nsiad-98-141.pdf
+[research_gao_2022_industrial_base]: https://web.archive.org/web/2024/https://www.gao.gov/assets/gao-22-104154.pdf
 [research_gao_2025_shipbuilding_workforce]: https://files.gao.gov/reports/GAO-25-106286/index.html
 [research_garlauskas_2025_guardian_tiger]: https://www.atlanticcouncil.org/in-depth-research-reports/report/a-rising-nuclear-double-threat-in-east-asia-insights-from-our-guardian-tiger-i-and-ii-tabletop-exercises/
 [research_gompert_2016_war_with_china]: https://www.rand.org/content/dam/rand/pubs/research_reports/RR1100/RR1140/RAND_RR1140.pdf
@@ -1439,10 +2293,11 @@ and then stopping where the hard part starts.
 [research_orourke_2026_virginia_class]: https://www.everycrsreport.com/reports/RL32418.html
 [research_predd_2025_protracted_war]: https://www.rand.org/pubs/research_reports/RRA1475-1.html
 [research_priebe_2023_alternative_futures_v1]: https://www.rand.org/pubs/research_reports/RRA591-1.html
+[research_quinlivan_1995_force_requirements]: https://doi.org/10.55540/0031-1723.1751
 [research_quinlivan_2003_burden_of_victory]: https://www.rand.org/content/dam/rand/pubs/corporate_pubs/2007/RAND_CP22-2003-08.pdf
 [research_rumbaugh_2026_solid_rocket_motors]: https://csis-website-prod.s3.amazonaws.com/s3fs-public/2026-06/260612_Rumbaugh_Rocket_Motors.pdf
 [research_sigir_2013_learning_from_iraq]: https://web.archive.org/web/20131104045644id_/http://www.sigir.mil/files/learningfromiraq/Report_-_March_2013.pdf
 [research_stewart_2023_island_blitz]: https://cimsec.org/island-blitz-a-campaign-analysis-of-a-taiwan-takeover-by-the-pla/
 [research_tarnoff_2018_marshall_plan]: https://www.everycrsreport.com/reports/R45079.html
-[research_world_bank_1996_bosnia]: http://documents.worldbank.org/curated/en/998241468743939643/pdf/multi0page.pdf
-[research_world_bank_2025_rdna4]: https://www.worldbank.org/en/news/press-release/2025/02/25/updated-ukraine-recovery-and-reconstruction-needs-assessment-released
+[research_world_bank_1996_bosnia]: https://documents.worldbank.org/curated/en/998241468743939643/pdf/multi0page.pdf
+[research_world_bank_2025_rdna4]: https://documents.worldbank.org/curated/en/099022025114040022/pdf/P1801741ca39ec0d81b5371ff73a675a0a8.pdf
