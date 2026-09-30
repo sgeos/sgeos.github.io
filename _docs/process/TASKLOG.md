@@ -9,10 +9,11 @@ Current task state and verification log. This file is the shared source of truth
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
-**Status**: **A297 through A360 have ALL FOUR PASSES COMPLETE and are PUSHED.** **Sixty-four of
-seventy-two drafted. None published, and publication has never been authorised. Eight articles
-remain.** The next new article is **A361, the X-64**, editorial date 2025-12-09, series index 65,
-**which shares every word of its register description with A360**.
+**Status**: **A297 through A360 have ALL FOUR PASSES COMPLETE and are PUSHED.** **A361, the X-64,
+has its DRAFTING, EQUATION-DENSITY and PRIMARY-REFERENCE passes complete.** **Sixty-five of
+seventy-two drafted. None published, and publication has never been authorised. Seven articles
+remain.** The next prompt for A361 is the publication review, which is the pass that also asks for
+a push.
 
 **A361 CANNOT BE BUILT THE WAY A360 WAS AND THAT IS ALREADY MEASURED.** `Invocon` and `Troy7`
 return nothing at all from the bibliographic index and `KT Engineering` is flooded by a

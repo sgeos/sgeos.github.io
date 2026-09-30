@@ -7,8 +7,8 @@
 **Date**: 2026-09-30
 **Task**: **A360, X-Planes: ABL Space Systems X-63, publication review. The fourth and last
 of the four passes.** Committed and **pushed**, which this pass is the one that asks for.
-**Not published**, and publication of the series has never been authorised. **Sixty-four of
-seventy-two drafted, eight remain.**
+**Not published**, and publication of the series has never been authorised. **Sixty-five of
+seventy-two drafted, seven remain.**
 
 **The concurrent session has finished.** A374 is published and its report is preserved
 below this one rather than overwritten.
