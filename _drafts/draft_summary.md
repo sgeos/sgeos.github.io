@@ -22,9 +22,39 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `rebuilding_after_war_with_china.markdown`, A375, editorial date 2026-08-12, standalone analytical
 essay and the companion to the published A374, categories `geopolitics military war-gaming`.
 
-**1,215 lines, 21 display equations, 12 inline expressions, 78 reference definitions, roughly 6,900
-words after the drafting pass.** **FIRST OF FOUR PASSES COMPLETE.** Committed and **NOT pushed**,
-which is the rhythm. **Not published.**
+**1,448 lines, 50 display equations, 14 inline expressions, 78 reference definitions, roughly 7,600
+words after the equation-density pass**, up from 1,215 lines and 21 display equations after drafting.
+**TWO OF FOUR PASSES COMPLETE.** Committed and **NOT pushed**, which is the rhythm. **Not published.**
+
+**EQUATION DENSITY, 21 TO 50, AND THE PASS CAUGHT A RENDERING DEFECT NO CHECKER SAW.** Twenty-six
+blocks were added, all arithmetic on figures already verified in the drafting pass. **Four of them
+rendered as inline math rather than display**, because the inserted blocks left no blank line after the
+closing delimiter and kramdown folded them into the following paragraph. **`_verify.py` passed and the
+rendered audit reported no findings**, because the mathematics still rendered and no raw delimiter
+leaked. The defect was found only by comparing the source display count against the rendered display
+count, 50 against 46. After the fix both read 50. **That comparison is now the check to run after any
+pass that inserts equations.**
+
+**What the new equations add.** The horizon arithmetic, 6 turns at three and a half days giving 21 days.
+**The replacement clock against the game clock, 8.4 years against 21 days, a factor near 146.** Serial
+hull replacement worked at two concurrency assumptions, 51 years and 26. The submarine shortfall at 1.13
+boats a year. Tomahawk replacement at five years from expenditure against production. Consolidation at
+51 primes to 5 and six solid rocket motor suppliers to two. The Office of Naval Intelligence slide
+ratio at 232 set beside the defensible 482. Japanese bombed cities as a fifth of the sample. **The
+German pair stated as indices, output at 64 against capacity at 113, so what the bombing destroyed was
+production and not the means of production.** Between a third and a half of German cities never
+returning to trend. The Vietnam tonnage concentration at seven. Self-sufficient supply chains at about
+three times the cost of replacing Taiwan. First and second world war trade destruction at 95 and 94
+percent. Marshall aid at 3.3 billion a year covering about a third of the demand gap. Ukraine needs
+against damage at 2.98. Iraq expenditure at 16.2 million dollars a day. **The Goemans shares summing to
+101, which the paper attributes to rounding and which is recorded because an unexplained sum is how a
+transcription error hides.** The Archigos exit categories summing to exactly 100. Fravel's settlements
+at 0.74. **The occupation requirement set against the invasion force, 468,000 against 262,000 landed,
+so the garrison is larger than the landing.** The Iraq deployment shortfall at 3.3 times. Nuclear
+scaling at thirty times the soot for thirteen times the deaths and twenty-one times the starving.
+
+**53 arithmetic statements rechecked by script with no failures.** Symbols are defined before their
+equations per `MATHJAX_CONVENTIONS.md`.
 
 **THE KEYSTONE IS THAT THE SAME REPORT WHICH SINKS THE FLEET SAYS IT CANNOT BE REPLACED.** A374 read
 the wargames for whether the war is won. This article reads them for what is left afterwards. The CSIS

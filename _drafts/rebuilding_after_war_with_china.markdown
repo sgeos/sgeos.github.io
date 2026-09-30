@@ -64,6 +64,12 @@ which the report gives as 21 days of campaign time,
 and "getting to final resolution would require many additional weeks of combat.
 In the case of stalemate, the war might have continued for many months".
 The report adds that "escalation decisions were not part of the game".
+Each turn represents three and a half days,
+so the horizon is a product of two stated quantities.
+
+$$
+6 \ \text{turns} \times 3.5 \ \text{days per turn} = 21 \ \text{days}
+$$
 
 Writing $T_g$ for the modelled horizon and $T_w$ for the war the same report describes,
 the relation is an inequality the authors assert rather than a quantity they measure.
@@ -116,6 +122,11 @@ The CSIS report states 24,
 which was checked in the report text for this article.
 The discrepancy is small and it is the kind that propagates,
 so both figures are reported with their sources named.
+The gap is one twelfth of the count.
+
+$$
+\frac{24 - 22}{24} \approx 0.083
+$$
 
 ### The single paragraph on rebuilding
 
@@ -186,6 +197,12 @@ are built by seven shipyards,
 that destroyers and submarines took five to six years to build in the 2000s
 and now take eight to nine years on average,
 and that a new submarine takes about nine years.
+Taking the midpoints of the two brackets,
+build duration has lengthened by half again within a generation.
+
+$$
+\frac{8.5}{5.5} \approx 1.55
+$$
 
 The CSIS passage names two yards for large surface combatants
 and puts the loss at a dozen or more.
@@ -201,6 +218,18 @@ $$
 Here $k$ is the number of hulls a yard carries concurrently,
 which the public sources do not state,
 so the expression is a shape rather than a calculation.
+Working it at the low end of the loss and the midpoint of the build
+shows why the shape matters more than the precision.
+
+$$
+\frac{12}{2} \times \frac{8.5}{1} = 51 \ \text{years},
+\qquad
+\frac{12}{2} \times \frac{8.5}{2} \approx 26 \ \text{years}
+$$
+
+Even two hulls at a time in each of two yards,
+which is generous against the delivery record below,
+leaves a quarter century.
 What the sources do support is the direction.
 With 12 to 20 hulls lost,
 two yards,
@@ -235,6 +264,13 @@ $$
 $$
 
 Reaching the planned rate requires almost doubling output before any wartime loss is replaced.
+Stated as an annual shortfall against the target rate,
+the gap is more than a boat a year.
+
+$$
+2.33 - 1.2 = 1.13 \ \text{boats per year}
+$$
+
 [Oakley 2026][research_oakley_2026_gao_shipbuilding]
 at the Government Accountability Office reports that two boats were delivered in 2025
 and both were over three years late.
@@ -277,6 +313,22 @@ $$
 
 Reaching the surge rate is close to a ninefold step up from the decade average,
 and the surge rate is the one that exists on paper today.
+Measured instead against the current baseline rather than the procurement average,
+the step is smaller and still large.
+
+$$
+\frac{2{,}000}{650} \approx 3.1
+$$
+
+For the Tomahawk the same comparison uses expenditure against production.
+More than 1,000 were expended and recent annual production is below 200.
+
+$$
+\frac{1{,}000}{200} = 5 \ \text{years}
+$$
+
+That is the replacement time at the recent rate,
+before the four-year cycle above is added to it.
 
 The Taiwan-specific version of the shortfall is older and sharper.
 [Jones 2023][research_jones_2023_empty_bins]
@@ -295,6 +347,16 @@ the number of aerospace and defence prime contractors fell from 51 to 5.
 [Rumbaugh 2026][research_rumbaugh_2026_solid_rocket_motors]
 records the same pattern in solid rocket motors,
 where the domestic supplier base shrank from six to two between 2000 and 2015.
+Both consolidations are large multiples rather than trims.
+
+$$
+\frac{51}{5} \approx 10.2,
+\qquad
+\frac{6}{2} = 3
+$$
+
+A base that has contracted by a factor of ten
+is the reason surge capacity has to be bought in advance rather than found in a crisis.
 
 ### The workforce, which is the constraint behind the others
 
@@ -329,6 +391,14 @@ $$
 
 Surging buys a factor of about 1.6,
 not a factor of ten.
+Set the surge figure against the horizon the wargames actually model,
+and the mismatch between the two literatures becomes a single number.
+
+$$
+\frac{8.4 \times 365}{21} \approx 146
+$$
+
+The replacement clock runs about a hundred and fifty times longer than the clock the games run on.
 Navy shipbuilding has the longest replacement times of all categories,
 and the industrial base has become more brittle over time,
 since replacement takes longer at 2020 rates than at 1999 rates.
@@ -358,6 +428,11 @@ Its origin is an Office of Naval Intelligence slide
 reported by [The War Zone in 2023][commentary_twz_2023_oni_slide],
 showing about 23,250,000 tons of Chinese capacity
 against under 100,000 tons for the United States.
+
+$$
+\frac{23{,}250{,}000}{100{,}000} \approx 232
+$$
+
 The Navy confirmed the slide's authenticity and simultaneously limited it,
 stating that it was "developed by the Office of Naval Intelligence from multiple public sources
 as part of an overall brief on strategic competition"
@@ -395,6 +470,12 @@ and it is optimistic with data rather than with sentiment.
 
 [Davis and Weinstein 2002][journal_davis_weinstein_2002]
 studied 303 Japanese cities of which 66 were bombed.
+
+$$
+\frac{66}{303} \approx 0.218
+$$
+
+About a fifth of the sample took the damage and the rest serve as the control.
 The bombing "destroyed almost half of all structures in these cities,
 a total of 2.2 million buildings",
 two thirds of productive capacity vanished,
@@ -421,6 +502,16 @@ which points at institutions rather than rubble.
 apply synthetic control to 53 West German cities
 and find mean reversion for only 50 to 70 percent of them,
 with a sizeable minority never returning to trend.
+The complement is the part that matters for a forecast.
+
+$$
+100 - 70 = 30 \ \text{percent},
+\qquad
+100 - 50 = 50 \ \text{percent}
+$$
+
+Between a third and a half of cities never came back to their path,
+which is a different claim from the one the fifteen-year result is usually used to support.
 
 ### German capacity was never what was destroyed
 
@@ -434,6 +525,19 @@ while United Kingdom output in the same year
 was 13 percent above its own prewar level.
 The two 13 percent figures describe different countries and different quantities,
 and conflating them inverts the argument.
+Writing $Y$ for output and $K$ for industrial capacity,
+both indexed to their own prewar year,
+the German pair moves in opposite directions.
+
+$$
+Y_{1948} = 64,
+\qquad
+K_{1948} = 113
+$$
+
+Output stood 36 percent below its 1938 level
+while capacity stood 13 percent above its 1936 level.
+What the bombing destroyed was production, not the means of production.
 
 The inference the authors draw is that Germany grew at nearly 8 percent a year through the 1950s
 because it had been pushed off its path temporarily rather than stripped of its plant,
@@ -452,6 +556,12 @@ which corrected a projection error that displaced every district
 by roughly two degrees of latitude and survived twelve years of citation.
 The corrected interval preserves the headline null.
 The finding is citable and it should never be cited without the correction.
+The concentration of the tonnage is worth stating as a ratio,
+because it is what gives the study its statistical power.
+
+$$
+\frac{70 \ \text{percent of tonnage}}{10 \ \text{percent of districts}} = 7
+$$
 
 ### The phoenix factor
 
@@ -503,6 +613,14 @@ and a 35 to 65 percent increase in semiconductor prices,
 and records that 92 percent of world capacity below 10 nanometres sat in Taiwan on 2019 data,
 with the remaining 8 percent in South Korea.
 Research to volume manufacturing runs about 10 to 15 years in this industry.
+The two investment figures are worth comparing directly,
+since one replaces Taiwan and the other replaces the trading system.
+
+$$
+\frac{1{,}000}{350} \approx 2.9
+$$
+
+Full regional self-sufficiency costs about three times what replacing Taiwanese capacity costs.
 
 Three years is fast by the standards of the fifteen-year literature.
 It is very slow by the standards of a war that the games end in three weeks,
@@ -534,6 +652,17 @@ $$
 
 The modern, more integrated economy repaired its trade relationships
 more slowly rather than faster.
+The two world wars sit far above the average case,
+and their coefficients convert the same way.
+
+$$
+1 - e^{-3.02} \approx 0.951,
+\qquad
+1 - e^{-2.74} \approx 0.935
+$$
+
+Trade between adversaries fell about 95 percent in the first
+and about 94 percent in the second.
 Neutrals are not exempt,
 losing 12 percent of trade with belligerents over the full sample,
 and 65 percent in the Second World War.
@@ -558,6 +687,16 @@ What the aid did was fiscal and political.
 Aid of two and a half percent of national product
 went "a substantial way toward closing" an excess demand gap of seven or eight percent,
 shortening the distributional fight that follows a war.
+The annual flow and the share of the gap it closed are both modest.
+
+$$
+\frac{13.2}{4} = 3.3 \ \text{billion dollars per year},
+\qquad
+\frac{2.5}{7.5} \approx 0.33
+$$
+
+Aid covering about a third of an excess demand gap
+is a stabilisation instrument rather than a construction budget.
 
 [Tarnoff 2018][research_tarnoff_2018_marshall_plan]
 gives the official totals,
@@ -577,6 +716,18 @@ Direct damage reached 176 billion dollars,
 and total reconstruction and recovery needs over the next decade reached 524 billion,
 which the assessment puts at approximately 2.8 times Ukraine's 2024 nominal gross domestic product.
 Thirteen percent of the housing stock was damaged or destroyed.
+Needs exceed measured damage by a factor near three,
+because recovery is not the same thing as repair.
+
+$$
+\frac{524}{176} \approx 2.98
+$$
+
+The damage figure itself grew between assessments.
+
+$$
+\frac{176}{152} \approx 1.16
+$$
 
 That ratio is the most transferable quantity in the reconstruction literature,
 because it is dimensionless.
@@ -591,6 +742,12 @@ recorded 60.64 billion dollars of United States relief and reconstruction fundin
 across nine years,
 averaging more than 15 million dollars a day,
 with at least 8 billion judged wasted.
+Expenditure of 53.26 billion dollars across nine years gives the daily rate.
+
+$$
+\frac{53.26 \times 10^{9}}{9 \times 365} \approx 16.2 \ \text{million dollars per day}
+$$
+
 The [World Bank 1996][research_world_bank_1996_bosnia]
 priced Bosnian priority reconstruction at 5.1 billion dollars over three to four years.
 Taiwan's own reconstruction has no published estimate at all,
@@ -672,6 +829,13 @@ only 20 percent escaped punishment,
 41 percent were exiled,
 22 percent imprisoned
 and 18 percent killed.
+Those four shares sum to 101 rather than 100,
+which the paper attributes to rounding and which is recorded here
+because an unexplained sum is how a transcription error hides.
+
+$$
+20 + 41 + 22 + 18 = 101
+$$
 
 The conditional result is the one that matters,
 and it cuts against the popular story.
@@ -695,6 +859,12 @@ and post-tenure fates were 63.64 percent no punishment,
 12.43 percent exile,
 5.09 percent imprisonment
 and 3.83 percent death.
+The exit categories in that dataset sum as they should,
+which is the check the previous figures invite.
+
+$$
+64.63 + 19.07 + 6.08 + 1.98 + 0.17 + 2.38 + 5.59 + 0.10 = 100.00
+$$
 
 [Bueno de Mesquita, Siverson and Woller 1992][journal_bueno_de_mesquita_1992]
 established the directional relationship between defeat and violent regime change
@@ -712,6 +882,13 @@ often with substantial compromises,
 and that "state leaders are more likely to compromise in territorial disputes
 when confronting internal threats to regime security".
 That is the opposite of gambling for resurrection.
+
+$$
+\frac{17}{23} \approx 0.74
+$$
+
+Roughly three quarters of the disputes were settled,
+many of them on terms that conceded territory.
 [Quek and Johnston 2018][journal_quek_johnston_2018]
 tested Chinese public tolerance for backing down
 and found that leaders may prefer more flexibility in a crisis rather than less.
@@ -757,6 +934,27 @@ to a case none of those resembles,
 and it assumes a garrison model rather than a compliant population.
 It is offered as the order of magnitude the published literature implies,
 and as evidence that the two bodies of work have never been joined.
+
+Two comparisons put that figure in proportion.
+Against the invasion force in the most detailed public campaign model,
+[Stewart 2023][research_stewart_2023_island_blitz],
+which lands 262,000 troops by day 19,
+the garrison requirement is larger than the invasion.
+
+$$
+\frac{468{,}000}{262{,}000} \approx 1.79
+$$
+
+Against the actual deployment in Iraq in 2003,
+which Quinlivan records at 6.1 personnel per thousand inhabitants,
+the required ratio is more than three times what was fielded.
+
+$$
+\frac{20}{6.1} \approx 3.3
+$$
+
+The two operations that did reach the ratio were Bosnia at 22.6 and Kosovo at 23.7 per thousand,
+on populations far smaller than Taiwan's.
 For context on the resistance side,
 [Lee, Chen and Chen 2024][journal_lee_2024_taiwan_attitudes]
 report willingness to fight between 68 and 75 percent across five survey waves,
@@ -797,11 +995,32 @@ $$
 \frac{5{,}341}{360} \approx 14.8 \ \text{at 150 Tg}
 $$
 
+Two further ratios describe how the scenarios scale.
+A thirtyfold increase in soot multiplies direct deaths by about thirteen
+and the starving by about twenty-one.
+
+$$
+\frac{150}{5} = 30,
+\qquad
+\frac{360}{27} \approx 13.3,
+\qquad
+\frac{5{,}341}{255} \approx 20.9
+$$
+
+The indirect toll grows faster than the direct one,
+which is the whole argument of that literature.
+
 [Shi and others 2025][journal_shi_2025_adapting_agriculture]
 address recovery rather than damage,
 finding maize production down 7 percent at 5 teragrams and 80 percent at 150,
 "with recovery taking 7 to 12 years",
 and seed availability as the binding bottleneck.
+
+$$
+\frac{80}{7} \approx 11.4
+$$
+
+The crop loss scales more steeply than the soot does at the low end.
 [Jehn and others 2025][journal_jehn_2025_food_trade]
 find that at 37 teragrams most countries lose 50 to 100 percent of food imports.
 [Chan and others 2025][journal_chan_2025_resilience]
@@ -857,10 +1076,24 @@ On allied nuclear latency the demand signal already exists.
 The [Chicago Council 2022][data_chicago_council_2022_south_korea]
 found 71 percent of South Koreans favouring an indigenous nuclear weapon,
 and 67 percent preferring that to redeployed United States weapons when forced to choose.
+
+$$
+\frac{67}{9} \approx 7.4
+$$
+
+The preference for an indigenous arsenal runs more than seven to one
+against the alliance-managed alternative.
 [Nemeth 2026][journal_nemeth_2026_suez_moment]
 gives the two paths for the alliance system after a visible defeat,
 a hollowing into ceremonial shells
 or an adaptation in which the United States becomes first among equals.
+His supporting figures put the naval balance at 395 Chinese battle-force ships
+against roughly 295 for the United States in 2025.
+
+$$
+\frac{395}{295} \approx 1.34
+$$
+
 [Ikenberry 2019][book_ikenberry_2019_after_victory]
 supplies the older theoretical baseline,
 that the order a victor builds depends on its capacity for credible self-restraint.
