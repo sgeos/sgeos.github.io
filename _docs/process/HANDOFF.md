@@ -11,22 +11,25 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `5f05a80`
-- **Written**: 2026-09-14
-- **Tree at write**: **this file is the only change of this session's own.** **Everything of A359's
-  was pushed at the parent**, so `git log origin/master..HEAD` shows exactly one commit when you
-  read this and it is this handoff's own. The protocol asks for a commit and not a push.
-- **BUT THE TREE IS NOT OTHERWISE CLEAN, AND THAT IS NOT THIS SESSION'S DOING.** A concurrent
-  session left two items uncommitted, being `_drafts/published_wargames_of_war_with_china.markdown`
-  and a four-row addition to `_docs/process/URL_VERIFICATION.md`. **Leave them alone.** They belong
-  to A374, a standalone wargaming essay outside this series, and they are deliberately unstaged for
-  that session to commit itself.
-- **Context**: the X-Planes series is IN PROGRESS. **Sixty-three of seventy-two articles drafted.
-  None published, and none authorised.**
-- **A359, Lockheed Martin X-62 VISTA, is complete on all four passes and is PUSHED.** **No article
-  is mid-rhythm.** The tree is at a clean article boundary.
-- **The next prompt will be "Please draft A360, 'X-Planes: ABL Space Systems X-63.'"** Editorial
-  date 2025-12-08, series index 64.
+- **Parent commit** (the repository state this handoff describes): `76cf087`
+- **Written**: 2026-09-30
+- **Tree at write**: **this file is the only change, and everything else is pushed.**
+  `git status --porcelain` returns exactly one line, being this handoff's own modification, and
+  `git log origin/master..HEAD` returns nothing. **That is a change from the last two handoffs**,
+  which both described unpushed work. **The protocol asks for a commit and not a push**, so after
+  this file is committed there will be exactly one unpushed commit and it will be this one.
+- **THE CONCURRENT SESSION FINISHED AND PUBLISHED.** A374, the standalone wargaming essay, is
+  published at `_posts/2026-08-11-published_wargames_of_war_with_china.markdown`. The corpus is now
+  **302 posts**. **That session's final push carried A360's three unpushed commits with it**, which
+  is why the tree is clean when the drafting rhythm did not ask for a push.
+- **Context**: the X-Planes series is IN PROGRESS. **Sixty-four of seventy-two articles drafted.
+  None of the series is published, and none is authorised.** A374 is not part of it.
+- **A360, ABL Space Systems X-63, is THREE PASSES COMPLETE and PUSHED.** Drafting `df0c5ba`,
+  equation density `7262aaf`, primary references `ef0a250`. **It is mid-rhythm.** The tree is NOT at
+  an article boundary.
+- **The next prompt will be the publication review of A360**, quoted in full under the Standing
+  Directive below. **That prompt also asks for a push**, and A360 is already pushed, so the push it
+  asks for is of the publication-review commit.
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that
 day and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -40,145 +43,105 @@ the state described.
   that is no longer current. Do **not** proceed and do **not** guess what changed. Report it as
   invalid-and-stale, familiarize from the live channels, namely `REVERSE_PROMPT.md`, `TASKLOG.md`,
   `_drafts/draft_summary.md`, and the git log, which are always authoritative, and wait for
-  instruction. **A mismatch may simply be the concurrent session committing A374**, which is
-  harmless, and the way to tell is to read the commit rather than to assume either way.
+  instruction. **The concurrent session that caused mismatches through A359 and A360 has finished**,
+  so a mismatch now is more likely to be real.
 
 ---
 
-## Resume prompt, and the next prompt will be "Please draft A360."
+## Resume prompt, and the next prompt is A360's publication review
 
-**No article is mid-rhythm. Wait for the pilot's prompt and do not start A360 unprompted.**
+**A360 IS MID-RHYTHM WITH ONE PASS LEFT. Wait for the pilot's prompt and do not start the pass
+unprompted.**
 
-**THE PILOT MAY HAND YOU AN EXTERNAL DRAFT INSTEAD, AS HAPPENED WITH A372, A373 AND A374.** The
-prompt is "copy `<path>` into the drafts, and use it as the basis for an article Axxx with a
-`<date>` editorial publication date". Those arrive already stamped with their article number and
-the work is conformance and retargeting rather than writing. **They still take all four passes.**
+**THE ARTICLE IS IN AN UNUSUAL STATE FOR A FOURTH PASS AND YOU SHOULD KNOW WHY.** The
+primary-reference pass did something the fourth pass normally does, which is **withdraw a claim**.
+The drafting pass asserted that the trajectory-optimal nozzle cannot be built. Reading NASA Technical
+Paper 1207 in full showed the threshold it used to be a conical-nozzle rule of 1954 that the
+compiling authority calls inadequate, and the article now says the optimum is **pressed against the
+separation limit rather than beyond it**. The opening, the separation section, the reflection and the
+conclusion were all rewritten. **So the publication review inherits a conclusion that has already
+been softened once, and its job includes checking that the softening is consistent everywhere rather
+than assuming the sharp version survives somewhere.**
 
-**AND THE PILOT MAY RUN A SECOND SESSION IN THIS TREE AT THE SAME TIME.** One was running through
-the whole of A359. **Check `git status` before every commit and stage your own paths explicitly.**
+**THE SUPERLATIVE SCAN IS THE HIGHEST-YIELD CHECK AND IT HAS NOT BEEN RUN ON THIS ARTICLE.** A359's
+publication review found four bare rankings in seventy-six ranking sentences. A360 has three passes
+of accumulated claims and **its mathematics invites superlatives**, since it contains exact results
+and the temptation is to call them the strongest or the only. Run it.
 
-### The index-to-designation mapping, recomputed rather than remembered
+**AND THE DRAFTING-HISTORY SCAN MATTERS MORE HERE THAN USUAL.** A359 shipped none, which was the
+first time. **A360 deliberately narrates its own corrections in several places**, because three
+passes each found defects in the previous one and the convention is to state the withdrawn claim
+rather than delete it. **Some of that is epistemic content and belongs on the page. Some of it is
+drafting history and does not.** The line A322, A323 and A358 kept crossing is whether a sentence
+tells the reader something about the subject or something about the author's previous draft. Read
+every instance and decide, rather than keeping them all or cutting them all.
 
-**Every index maps to the designation one below it**, so index 63 was the X-62 and **index 64 is the
-X-63**. Recomputed across all sixty-three drafts on 2026-09-14 there are **zero mismatches** on
-article number, **zero on designation** except the series opener at index 1 which has none, and the
-indices run 1 through 63 with no gaps. **DO NOT TRUST THIS SECTION'S ARITHMETIC WITHOUT REDOING
-IT**, because a handoff two generations back stated its equivalent confidently and was wrong by one,
-and the pilot caught it rather than the file. The check is six lines of Python against `_drafts/`.
+### The Three Numbers a Fourth Pass Usually Moves, and Where They Stand
 
-### A360 AND A361 ARE ONE PROGRAMME AND THE REGISTER SAYS SO IN BYTES
+**Report primaries are already at 30.6 percent**, being 3,748 of 12,231 cited research records, which
+is the highest fraction this series has reached. **Do not expect to move it much and do not pad it.**
+A359 finished at 13.9 percent.
 
-**THIS IS THE MOST IMPORTANT THING IN THIS FILE.** The X-63A and the X-64A were allocated on the
-same day, to the same sponsor, with the same engines cell, **and with byte-identical descriptions**.
-They differ in the designation and in the contractor and in nothing else.
+**Display equations are at 46 and inline expressions at 187**, with a 73-entry symbol table checked
+in both directions. **The equation pass is done and the fourth pass is not an equation pass.**
 
-| Field | X-63A | X-64A |
-|---|---|---|
-| Date | 20-Apr-22 | 20-Apr-22 |
-| Contractor | ABL Space Systems | Invocon, KT Engineering, Troy7 |
-| Engines | 1 rocket engine | 1 rocket engine |
-| Sponsor | USAF/USSF | USAF/USSF |
-| Description | *Demonstrator rocket for AFRL's ARISE (Aerospike Rocket Integration and Suborbital Experiment) program* | the same string |
+**The article is 25,796 lines and 159,118 words.** There is no length limit and no reference limit.
 
-**That is the only duplicated description among the 31 X rows.** Eleven descriptions repeat across
-the whole 539-row register and every other repeat is a missile or a target drone. **Two X numbers
-for one programme, distinguished only by who builds them**, measured on 2026-09-14 against
-`tmp/a359/register.json`, which is gitignored and rebuildable from `addendum.html` beside it.
+### What Is Deliberately Unfinished and Belongs to A361
 
-**PLAN A360 AND A361 TOGETHER OR A361 WILL HAVE NOTHING LEFT.** The series has met this shape once
-before, at A341, the X-44 that was two aircraft. **The natural division is that A360 carries the
-programme, the aerospike and the altitude-compensation mathematics, and A361 carries the
-contractor, the instrumentation and what it means for one programme to hold two numbers.** That is
-a judgement and the pilot may prefer another, so raise it rather than assume it.
+**A360 LEFT THE SIBLING DESIGNATION ITS SUBJECT ON PURPOSE AND SAYS SO IN ITS OUT OF SCOPE.** The
+X-64A row reads, byte for byte, the same as the X-63A's. A360 took the programme, the aerospike and
+the altitude-compensation mathematics. **A361 has the contractor, the instrumentation, the recovery
+gear and the question of what it means for one programme to hold two numbers.**
 
-### The subject is an aerospike and the mathematics is altitude compensation
-
-**A ROCKET AGAIN, WHICH IS THE SECOND IN FOUR ARTICLES.** A357's X-60A was a rocket the designation
-system had to call an aircraft. **This one is a rocket and the register says `Demonstrator rocket`
-in its own words**, which is a different position from the X-60A's and worth comparing directly.
-
-**THE KEYSTONE CANDIDATE IS THE ALTITUDE-COMPENSATION IDENTITY AND IT REMOVES THE VEHICLE.** A bell
-nozzle has one design altitude and is over-expanded below it and under-expanded above it. **A plug
-or aerospike nozzle lets the ambient pressure set the outer boundary of the plume**, so the exit
-condition tracks the atmosphere. The thrust loss of a fixed-area nozzle away from its design point
-is a closed-form expression in the pressure ratio and the area ratio, and **the integral of that
-loss over an ascent trajectory is what an aerospike is bought to avoid**. That is an identity in
-the same shape as A359's projector and A358's worst-gradient depth.
-
-**THE X-33's LINEAR AEROSPIKE IS THE OBVIOUS PRECEDENT AND IT IS THIS SERIES' OWN A330.** Read that
-article before writing, because the XRS-2200 is the largest aerospike ever built and it never flew.
-
-### The homonyms, measured on 2026-09-14 rather than guessed
-
-**`ARISE` IS UNUSABLE BARE AND IT IS NOT EVEN CLOSE.** A bare probe returned a Victorian poem in
-`Notes and Queries`, two Oxford English Dictionary headwords for the noun and the verb, a hymn, a
-chemistry paper using `arise` as an ordinary verb, and Christopher Reeve. **It also collides with a
-real research infrastructure**, being `ARISE, Atmospheric Dynamics Research InfraStructure in
-Europe`, which is aerospace-adjacent and will not be caught by a general-science guard. **Nothing
-aeronautical appeared at all.**
-
-**`ABL` IS WORSE AND ONE OF ITS COLLISIONS IS INTERNAL.** A bare probe returned **the Airborne
-Laser**, which is aeronautics itself and which no aerospace gate can refuse; **Abl tyrosine kinase**,
-which is one of the most-studied genes in oncology; and German canon-law documents on safeguarding.
-**Never query `ABL` bare and never gate on it bare.** The company must be named in full.
-
-**`aerospike` IS CLEAN AND PRODUCTIVE AND HAS ONE CHARMING COLLISION.** It returns the linear
-aerospike engine papers of 1974 and 1977, aerospike nozzle thrust vectoring, and hybrid-rocket
-aerospikes. It is also an Oxford English Dictionary headword and **a fish**, `A Prototype Aerospike:
-Another Fish in the Sea`. One record, not a family.
-
-**`plug nozzle altitude compensation` IS THE CLEANEST PRODUCTIVE PHRASE FOUND**, returning the plume
-physics of aerospike altitude compensation directly.
-
-**`RS1` RETURNS NOTHING ON THE VEHICLE.** The contractor's launch vehicle name is too short and too
-generic to be an anchor.
-
-**`Troy7` AND `Invocon` ARE A361's PROBLEM AND WERE NOT PROBED.** Do that before A361.
-
-### A359's pool is some help and that is measured
-
-Of A359's 9,012 gated records the pool holds **0 naming X-63, X-64, ARISE, aerospike or ABL Space
-Systems.** It holds the rate-limit, actuator and flight-control vocabulary in quantity and none of
-the propulsion vocabulary this subject needs. **The sweep must be built from nothing again**, which
-is now three articles running.
-
-### Store families to consider opening
-
-`missiles` and `ramjet` are the obvious candidates, because a suborbital demonstrator rocket meets
-the missile literature as its own subject. **Check the tag list before opening anything, open
-against records rather than against a family name, and say in the Source Base which were switched
-off and why.** A359 opened three and split one entry to create the third.
+**AND A361's HOMONYMS ARE ALREADY MEASURED, WHICH IS UNUSUAL.** `Invocon` returns **nothing at all**
+from the bibliographic index. `Troy7` returns nothing. `KT Engineering` is flooded by a journal of
+mechanical engineering with those initials. **Three contractors and no indexed publications between
+them**, which is a measurement about that team rather than a gap in the probe, and it means A361
+cannot be built the way A360 was. **What A361 does have is the federal award record**, where the
+recipient name returns decades of instrumentation contracts for the space agency and the services,
+and the physical description from the contractor's own release, being a recoverable vehicle about
+twelve metres tall and two and a half in diameter landing on four legs that double as stabilising
+fins.
 
 ---
 
 ## Where the Series Stands
 
-**Sixty-three of seventy-two drafted, A297 through A359, indices 1 through 63 contiguous. Nine
-remain**, ending at editorial date 2025-12-16. **Nothing is published and publication has never been
-authorised.**
+**Sixty-four of seventy-two drafted, A297 through A360, indices 1 through 64 contiguous. Eight
+remain**, ending at editorial date 2025-12-16. **Nothing in the series is published and publication
+has never been authorised.**
 
-**A358, Dynetics X-61 Gremlins**, editorial date 2025-12-06, index 62. All four passes, pushed. The
-register stops being a primary source at that designation and says so itself.
+**A358, Dynetics X-61 Gremlins**, editorial date 2025-12-06, index 62. Four passes, pushed.
 
-**A359, Lockheed Martin X-62 VISTA**, editorial date 2025-12-07, index 63. All four passes, pushed
-across three commits, `bf85876`, `5098585` and `5f05a80`. **The government gave the aeroplane an X
-number in 2021 and then spent 29,085,924.37 dollars on it across 73 transactions without once
-writing the number down**, the designation appearing exactly once in the whole award record and
-that once falling 23 days past the article's own date. **The register's unofficial sentence is
-corroborated anyway by the accounting system**, which names the Skyborg programme 108 days after the
-redesignation, and that is the strongest thing this series has said about a reconstructed
-description since the register stopped being official. **`Redesignated` appears in exactly one of
-539 rows.** **The keystone is an identity that removes the vehicle**, being that exact model
-following holds if and only if a projector built from the host's control effectiveness matrix
-annihilates the demanded change of dynamics, which turns the design into a count of control
-surfaces at three per axis, **the throttle among them because the speed equation is one of the
-three**. **The column that makes the projector vanish is the column that runs out first.** **The
-machine can make any aeroplane sluggish and cannot make any aeroplane crisp.** **And the school that
-flies it teaches the paper defining its rating scale as Chapter 16 of its own textbook.**
+**A359, Lockheed Martin X-62 VISTA**, editorial date 2025-12-07, index 63. Four passes, pushed.
+**The government gave the aeroplane an X number and then spent 29,085,924.37 dollars on it across 73
+transactions without once writing the number down.**
 
-**Final state 18,645 lines, 45 display equations, 88 declared symbols, 8,749 reference definitions,
-113,876 words**, with every one of 8,596 surviving records cited across 15 clusters and 1,199 report
-primaries at 13.9 percent.
+**A360, ABL Space Systems X-63**, editorial date 2025-12-08, index 64. **Three passes, pushed, one
+to go.** Final state after the third pass is **25,796 lines, 46 display equations, 187 inline
+expressions, a 73-entry symbol table, 12,395 reference definitions and 159,118 words**, with
+**12,231 research records cited across 14 clusters and 3,748 report primaries at 30.6 percent**, from
+four sweeps retrieving 41,391 records of which 32,817 were distinct and 13,141 passed the gate.
+
+**WHAT A360 FOUND, IN ONE PARAGRAPH.** Two X numbers were issued on 20 April 2022 with descriptions
+identical to the byte, the only duplicate among the 31 X rows. **The Space Force appears in those 31
+rows exactly twice and both times are here.** The keystone is that the incremental vacuum thrust
+bought by an increment of exit area is exactly the exit pressure, which makes ambient pressure the
+variable conjugate to exit area, **so the ideal spike's thrust curve is a Legendre transform and a
+fixed nozzle's loss is a Bregman divergence**. From the same identity, **the optimal fixed nozzle
+expands to the time-averaged ambient pressure of its own flight**, a rule containing nothing about
+the gas, the engine or the vehicle. **Differential throttling of a ring gives a directional average
+authority of exactly the throttle depth divided by pi at every module count**, so more modules buy
+evenness rather than authority, and the evenness depends on parity because an odd ring has twice as
+many polygon sides. **Nine modules steer as evenly as eighteen.** The award record does not contain
+the programme and the announcement says why, the instrument being a Space Enterprise Consortium other
+transaction agreement. And **a published combustion-instability frequency recovers a chamber diameter
+and pressure the manufacturer never released**.
+
+**A374, What Published Wargames Say About a War With China**, editorial date 2026-08-11. **PUBLISHED.**
+Not part of this series, drafted and published by a concurrent session on the pilot's instruction.
+**It is the reason the corpus is 302 posts and the reason A360's commits are already pushed.**
 
 ## The Established Rhythm, Which Is the Most Important Thing Here
 
@@ -192,6 +155,16 @@ Four passes, each a separate prompt from the pilot. **Do not run ahead.**
 
 After every pass, update `REVERSE_PROMPT.md`, `TASKLOG.md` and `_drafts/draft_summary.md`, and commit
 them with the article in one commit.
+
+**A360's THREE COMPLETED PASSES ARE ALREADY PUSHED AND THAT WAS NOT THIS SESSION'S DOING.** The
+concurrent session's publication push carried them. **The rhythm still says do not push on passes one
+to three**, and the fact that they are pushed anyway is an accident of a shared tree rather than a
+change of practice.
+
+**AND THE BUILD TO RUN PER PASS IS THE STUB BUILD.** `./_check.sh --drafts` scales superlinearly in
+link-definition count and **A360 lost five hours and forty-one minutes to it before reading the
+paragraph in this file that forbids it**. Use `tmp/a360/site_build.sh` or its equivalent, which takes
+under twenty seconds, and run `_verify.py` against the real tree.
 
 ---
 
@@ -210,6 +183,240 @@ band.
 ---
 
 ## Method Rules Earned the Hard Way
+
+### Earned in A360, and the theme is that each pass found the previous pass's most confident sentence to be its weakest
+
+**THE READING ORDER OF THIS SECTION IS THE ORDER THE PASSES RAN**, because the point is the sequence.
+The drafting pass stated a conclusion with no hedge. The equation pass found that the article had
+performed a whole calculation and shown none of its machinery. The primary-reference pass read one
+document and withdrew the drafting pass's conclusion. **No check failed at any stage. Each pass
+found the previous one's confident sentence by doing its own job properly.**
+
+#### The instrument findings, of which the first is the largest this series has had
+
+**THE REPORTS SERVER WAS BEING READ TEN RECORDS DEEP BY EVERY ARTICLE IN THIS CORPUS.**
+`fetch.ntrs_search` passed its page specification as a single encoded object. **That server clamps
+such a request to ten records AND SILENTLY IGNORES THE OFFSET INSIDE IT**, so six requests at six
+different offsets return the identical ten records. Passing `page[size]` and `page[from]` as separate
+bracketed query parameters is honoured. **The question `plug nozzle` matches 242 records, of which
+the old call returned 10 and the corrected one returns all 242 with no duplicates.** A360's fourth
+sweep returned **10,160 reports-server records against 606 from its first three sweeps combined**,
+and its report-primary fraction went from 10.4 percent to 30.6.
+
+**EVERY PRIMARY-REFERENCE PASS IN THIS SERIES HAS COMPLAINED THAT THE REPORTS FRACTION IS THIN**, and
+part of that complaint was an instrument reading its first page. **The fix is in `_lib/fetch.py` and
+is held by a test that runs offline against a fake transport**, checking both the parameter spelling
+and that the walk advances. **Expect every sweep after A360 to return far more than the sweeps before
+it, and do not compare a post-A360 primary fraction with a pre-A360 one without saying which side of
+the repair it sits on.**
+
+**AND THE SERVER REPORTS ITS OWN TOTAL, WHICH NOTHING WAS READING.** `fetch.ntrs_total` is added.
+With it a sweep's coverage becomes a measurement, and A360 reports that across 89 questions the
+server held 32,488 records and returned 14,929. **The average hides a clean split and the split is
+the useful figure.** Sixty-eight questions were exhausted and returned all 7,798 they held; 21 hit
+the article's own walk limit; **every one of the 17,559 records not taken belongs to those 21**, which
+are the broad organisational questions. **Report the split, not the average.**
+
+**A COVERAGE FIGURE IS ONLY WORTH QUOTING WHERE THE DENOMINATOR IS A MATCH COUNT.** The reports
+server performs a boolean match against a curated collection, so its total means something. **The
+bibliographic index performs a ranked retrieval and answers 2,406,511 to `rocket nozzle
+performance`**, which is not a count of anything an article wants. The defence registry sits between
+them, being a ranked retrieval restricted to one prefix, and there a total is meaningful again.
+
+**A `sys.path.insert` INSIDE A PER-RECORD FUNCTION IS A QUADRATIC COST THAT LOOKS LIKE SLOW NETWORK.**
+`homonyms._anchor_stem` inserted a directory and imported once per harvested record. The import is
+cached; **the insert is not**, so a thirty-thousand-record sweep left thirty thousand copies on the
+path. **A360 measured 6.19 seconds for three thousand records and 6.27 for the same three thousand on
+a second pass**, which is the signature of a cost that grows with work already done. Hoisting the
+import and memoising the stem takes a repeated pass to 2.27 seconds. **Time the same input twice in
+one process. A pure function that takes longer the second time is mutating something.**
+
+#### A procedure written down is not a procedure followed, which is A359's theme arriving again
+
+**A360 RAN `./_check.sh --drafts` FIVE TIMES AND LET THE LAST ONE HOLD A PROCESSOR AT A HUNDRED
+PERCENT FOR FIVE HOURS AND FORTY-ONE MINUTES WITH AN EMPTY OUTPUT DIRECTORY.** This file already
+recorded that the full-corpus drafts build scales superlinearly in link-definition count, that it
+took over three hours by A340, and that **the agent runs the stub build per pass and the full build
+at publication absent instruction**. **The stub build it should have run took sixteen point nine
+seconds.** The answer was written down before the work began and the cost of not reading it was a
+working day of wall clock.
+
+**THE RECIPE IS IN `tmp/a360/site_build.sh` AND THAT PATH IS GITIGNORED, SO USE IT BEFORE IT IS
+GONE.** Copy the repository excluding `_site`, `tmp`, `.git` and `vendor`, symlink `vendor` back in,
+put the article under work into `_posts` with its date prefix, write every sibling draft into
+`_posts` as front matter plus one line, empty `_drafts`, **match the checksum before the build starts**,
+then build with `JEKYLL_ENV=production` and run `_lib/render.py` on the output. **Do not run
+`_verify.py` against the stub**, because the stubs would fail it. Run that against the real tree.
+
+**AND A `cd` IN A COMMAND THAT ENDS WITH `&` DOES NOT PERSIST.** The first entry in
+`VERIFICATION_TRAPS.md` records a `cd` that persisted and cost eight edits. **A360 met the inverse.**
+A patch addressed a scratch file by bare name, reported that it had patched it, and **patched nothing
+the build would read**, and the stale wording reached the assembled article twice. **Address every
+file by absolute path, and after a patch grep the file for the text the patch was supposed to
+introduce.** A script that prints `patched` has reported its intention, not its effect.
+
+#### A cached measurement does not know what it depends on, and this fired three times
+
+**THE FAMILY-COST REPORT IS EXPENSIVE, SO A360 PERSISTED IT, AND THEN THE CACHE WAS WRONG TWICE.**
+First it compared the current allow list against that list plus the candidate tag, so **the moment a
+family was opened on that evidence the difference became empty and the report said zero**. The
+evidence for the decision vanished at the instant the decision was made. **Measure against the
+baseline the decision was made from.** Second it was keyed on a fingerprint of the gate's patterns,
+and **the fourth sweep changed the pool rather than the gate**, which would have served the old
+counts against new records. The fingerprint now covers the pool size.
+
+**RECORD THE FINGERPRINT OF WHATEVER A CACHED VALUE DEPENDS ON, ALONGSIDE THE VALUE.** A cache whose
+key is a filename is not a cache. **And if a report exists to justify a choice, it must still read
+the same after the choice.**
+
+#### A band taken on report is not a band
+
+**THE DRAFTING PASS SAID THE TRAJECTORY-OPTIMAL NOZZLE CANNOT BE BUILT, ON A THRESHOLD IT DECLINED TO
+ATTRIBUTE.** It quoted a separation band of about a quarter to about four tenths from secondary
+accounts, said plainly that this article had not read the correlations, and drew a flat conclusion
+from the conservative end.
+
+**NASA TECHNICAL PAPER 1207, READ IN FULL BY THE THIRD PASS, TOOK THE CONCLUSION BACK.** The four
+tenths belongs to Summerfield, Foster and Swan in 1954, and the paper records that it **is still
+quoted today although more recent studies have shown it to be inadequate**. It is a conical-nozzle
+rule. **Contoured nozzles, which is what a rocket has, follow a different correlation**, and under
+that correlation the optimum separates only below about 3.3 to 3.7 megapascal of chamber pressure.
+
+**A RANGE QUOTED WITHOUT ITS PROVENANCE HIDES WHICH END BELONGS TO WHICH CASE.** That is the rule.
+**And the pass that goes looking for sources is the pass that can fix it**, which is an argument for
+doing the primary-reference pass before believing anything the drafting pass concluded from a
+secondary account.
+
+**THE SAME PAPER ALSO RESTORED AN ATTRIBUTION THE DRAFTING PASS HAD STRUCK FOR GOOD REASON.** A360
+went looking for the name behind the four tenths, found a 1953 paper by Scheller and Bierlein in the
+bibliographic index instead, and removed the attribution rather than assert it. **Removing it was
+right on the evidence then available.** The paper that corrects it also explains the confusion,
+because Scheller and Bierlein are the early study that **conflicted** with the others. **A search
+that returns the nearest thing is not a search that returns the right thing.**
+
+#### An article can perform a calculation and show none of its machinery
+
+**A360's DRAFTING PASS USED THE THRUST COEFFICIENT IN NINE PLACES AND NEVER DEFINED IT.** It used the
+area ratio without relating it to the throat, used the isentropic relations without writing them, and
+**never mentioned the throat area anywhere in the article**. Fifteen display equations looked like an
+adequate density and the gap was structural rather than thin.
+
+**THE CUE-PHRASE SCAN FOUND TWELVE SENTENCES AND WOULD HAVE MISSED ALL OF IT.** What found it was
+**listing every symbol the mathematics uses and asking which had been introduced**. Do that. A search
+for prose that describes a relation finds relations the author chose to describe; it cannot find the
+ones the author assumed.
+
+**AND THE SYMBOL TABLE IS WORTH BUILDING AT THIS DENSITY BECAUSE THE SCANNER THAT CHECKS IT FINDS
+REAL THINGS.** `tmp/a360/symcheck.py` requires every symbol in the mathematics to be declared and
+every declaration to be used, and it caught two undeclared symbols the third pass introduced.
+
+**THE SCANNER'S PASS ORDER WAS WRONG THREE TIMES BEFORE IT WAS RIGHT, AND THE REASON GENERALISES.**
+Stripping operators first breaks every declared name containing a macro, so `C_{F,\mathrm{vac}}`
+stops matching and reports a bare `C`. Stripping declared symbols first breaks the operators, because
+a single-letter symbol such as `c` sits inside `\frac`. **The only order in which no pass destroys
+another's input is compound names first as placeholders, macros second, bare letters last**, and
+environment names then have to go with their braces because `\begin{cases}` leaves `{cases}` behind.
+**A358 and A359 both recorded that a symbol name must not contain a macro the scanner strips. A360's
+addition is that the same hazard applies to the ORDER of the passes.**
+
+#### Checks that caught the author rather than the code
+
+**A NUMERIC VERIFIER CANNOT SEE A MISSING UNIT AND CANNOT SEE DATE ARITHMETIC.** A359 shipped a value
+with no unit. **A360 wrote four months where the answer is eight**, a three-year term from December
+2019 against an allocation of 20 April 2022, and nothing in the suite was looking at dates because a
+month is not a quantity the calculation files produce. There is now a check that recomputes every
+interval the prose states between two named dates.
+
+**AN ENUMERATION MUST HAVE AS MANY ITEMS AS THE SENTENCE CLAIMS.** A360 wrote that ten of eleven
+duplicated register descriptions are munitions and targets, and then listed nine, having merged two
+of the three target entries. **Nothing counts a list for you.** The repeat structure is now recomputed
+and the multiplicities the prose names are checked against it.
+
+**BOTH SCALE HEIGHTS ROUND TO 8,435 AND A360 PRINTED THEM AS 8,435 AND 8,434.** The gap is four
+tenths of a metre. **Rounding to whole metres makes two numbers that agree look as though they
+disagree**, which is the opposite of what the sentence was for. Caught by a check that compared the
+two roundings rather than the two values.
+
+**OVERLAP IS NOT CONTAINMENT.** A360 said the chamber-pressure band recovered from the instability
+frequency **sits inside** the band it had assumed independently. It does not; its floor falls below
+the assumed floor and the two merely overlap, over 93.5 percent of one and 82.0 percent of the other.
+**The calculation had only ever tested overlap and the prose promoted it to containment.**
+
+**AND A CLAIM ABOUT A WHOLE RANGE MUST BE CHECKED AT BOTH ENDS OF IT.** A360 said the contoured
+separation correlation tolerates roughly twice the over-expansion of the flat rule. **It crosses the
+flat rule at separation Mach 2.59 and is stricter below that**, reaching 0.433 at the bottom of its
+fitted range against the flat 0.400. The permissive end is the end that applies to this article's
+nozzles, **and saying `far more permissive` without the crossing would have repeated the very error
+the section is about**.
+
+#### A formula outlives the assumptions that made it true
+
+**A360 DERIVED THE GUARANTEED CONTROL AUTHORITY OF A REGULAR RING AND THEN USED THE SAME FORMULA FOR
+A RING WITH ONE THRUSTER FAILED.** A ring with a hole in it is not regular. The formula overstates the
+surviving authority by up to a factor of 2.62 and, at four modules, by all of it, since **a
+four-module ring loses every bit of guaranteed authority when one fails** and the formula reports a
+quarter. **No test was looking and nothing failed.** It was found by asking whether the derivation's
+assumptions still held.
+
+**AND A VERIFIER'S INDEPENDENT ROUTE MAY DISAGREE BECAUSE THE GEOMETRY IS REAL.** The ring check
+evaluated the maximum at the module directions, which is right for an odd ring and wrong for an even
+one, and reported eighteen failures with the two extremes swapped. **The closed forms were correct.**
+For an even ring the control polygon is rotated half a side, so the direction of least authority
+points straight at a module. **When two routes disagree, establish which is wrong before repairing
+either**, because the disagreement is sometimes information about the subject.
+
+#### A survey number typed into prose goes stale, and a table is prose
+
+**ADDING TWENTY-TWO HAND-WRITTEN REFERENCES MOVED A360's RESEARCH COUNT FROM 9,485 TO 9,467**, because
+a record that acquires a hand-written definition stops being auto-cited. The prose said 9,485 and the
+frozen-occurrence check caught it. **The repair is not to retype the number.** Put a slot in the prose
+and fill it from the file that computes it.
+
+**A NUMBER SLOT MAY LEGITIMATELY APPEAR TWICE AND A BLOCK SLOT MAY NOT.** The assembler's once-only
+rule was written for generated blocks, where a repeat means a duplicated section. A figure may be
+stated in two sentences and is still safe because both come from one computed value.
+
+**AND A SLOT THAT HOLDS A YEAR IS DESCRIBED IN PROSE BY WHAT HAPPENED THAT YEAR.** A360 calls the
+earliest record in its plug-nozzle family a weather-rocket patent. **If a later sweep finds something
+older, the slot updates silently and the description does not**, so there is now a check that the
+record the slot came from still matches what the prose calls it.
+
+#### A pairwise continuity test is decided by its single worst gap
+
+**A360 NEEDED THE YEAR FROM WHICH A LITERATURE PUBLISHES CONTINUOUSLY.** The first test asked for the
+first year after which no two consecutive publishing years differ by more than three. **One four-year
+gap between 1988 and 1992 moved the answer from 1956 to 1992**, thirty-six years, and the number
+looked plausible enough to write down. A window test, asking that every window of a fixed length
+contain at least one record, cannot be moved by one gap.
+
+**AND WHEN THE WINDOW GETS WIDE ENOUGH IT STOPS MEASURING THE LITERATURE.** After the fourth sweep
+added a second record in the nineteen forties, the eight-year and ten-year windows put the start at
+1944 while the five-year and six-year windows still say 1956. **At that point the window is doing the
+work.** The article reports both and says which.
+
+#### Two thrust figures in one table row are not one nozzle
+
+**A360 ALMOST DERIVED AN EXIT AREA FROM A SUBTRACTION THAT IS ARITHMETICALLY VALID AND PHYSICALLY
+EMPTY.** The manufacturer's table prints `12,100 (sea-level)` and `13,000 (vacuum)` on one row, and
+the difference divided by sea-level pressure would give the exit area exactly. **Two lines above, the
+same document says stage one uses nine sea-level engines and stage two uses one vacuum engine**, so
+the figures describe two different nozzles. **Read what a table says about itself before doing
+arithmetic across it.**
+
+#### And two store families guarded this article for reasons that had nothing to do with it
+
+**`fracture` WAS EARNED BY A335 AGAINST PARACHUTE OPENING LOADS AND TAGGED BY A352 FOR BONDED
+JOINTS.** It is the only thing in this repository standing between an aerospike sweep and the
+fatigue-crack-closure literature, **which shares both of its words with this nozzle's central flow
+feature**. `wind-energy`, earned by A341 and A347 against rotor aerodynamics, is what refuses the
+wind-turbine thrust coefficient. **Check what the armed families are protecting before opening any of
+them, because the reason a pattern exists is not always the reason it is load-bearing.**
+
+**AND `ramjet` WAS LEFT ARMED ON EVIDENCE RATHER THAN ON ITS NAME.** It releases 134 records of which
+A360's gate admits 75, and **28 of those 75 land in a nozzle cluster and every one is the exhaust
+nozzle of an air-breathing engine**, being a single expansion ramp on a hypersonic afterbody. That is
+external expansion and it is not altitude compensation. **This vehicle has no inlet.** The cost is
+stated in the Source Base rather than hidden.
 
 ### Earned in A359, and the theme is that a rule you write down is not a rule you follow
 
@@ -2562,6 +2769,65 @@ FOUR ARTICLES.** After every equation pass, scan for lines that open with `$$` a
 
 ## Verification Toolchain
 
+**A360 ADDED TWO TO THE SHARED LIBRARY AND SEVEN TO ITS OWN PIPELINE.** The shared ones are the
+ones that matter, because they are inherited.
+
+**IN `_lib/fetch.py`, WHICH EVERY LATER ARTICLE GETS FOR FREE.** `ntrs_search` now paginates with
+bracketed parameters and actually returns the `rows` it is asked for, where before it returned ten
+whatever it was asked. `ntrs_total` is new and reports the server's own match count. **Both are held
+by `t_a360_ntrs_search_paginates_with_bracketed_parameters` in `_lib/test_lib.py`, which runs offline
+against a fake transport** and checks the parameter spelling, that the walk advances, that no record
+comes back twice, and that a server repeating one page terminates the walk rather than spinning.
+
+**AND IN `_research/homonyms.py`.** `_anchor_stem` no longer inserts into `sys.path` per record, and
+the stem is memoised. `t_a360_stem_cache_is_stable_and_does_not_grow_sys_path` holds both halves,
+being that the path does not grow and that the cached answer equals the direct one.
+`t_a360_fracture_family_guards_the_nozzle_wake` fixes the finding that the `fracture` and
+`wind-energy` families are what protect a plug-nozzle sweep, with the rocket sense required to
+survive both. **The suite is at 120 of 120.**
+
+**IN `tmp/a360/`, WHICH IS GITIGNORED, SO LIFT WHAT YOU WANT BEFORE IT GOES.**
+
+  `noz.py`        Isentropic nozzle flow and the 1976 standard atmosphere in pure Python, with
+                  bounded bisection, the Vandenkerckhove constant, thrust coefficients, the ideal
+                  envelope and the Bregman loss. **Every loop has a bound in its header** and the
+                  scale-height function documents the factor-of-two boundary error it once had.
+  `neweqns.py`    **246 checks that verify each relation the equation pass added, by a route
+                  different from the one that produced it.** The conjugacy identity is checked by a
+                  momentum integral rather than by differencing the closed form, Fenchel-Young by
+                  evaluating the gap, the Bregman form by quadrature, and the ring identities by
+                  enumerating the crossing directions.
+  `symcheck.py`   The symbol table and its two-way check, with the pass-order lesson in its
+                  docstring. **Run it with `--table` to regenerate `symbols.md`.**
+  `sepcalc.py`    The separation criterion of NASA TP-1207 applied to this article's nozzles by
+                  walking the nozzle from throat to exit. **This is the instrument that withdrew the
+                  drafting pass's conclusion.**
+  `primaudit.py`  Report-primary fraction per cluster, with the largest registrant of each. **This
+                  is what says whether a thin fraction is a shortfall or a fact about a
+                  discipline**, and it is the file to run first in any primary-reference pass.
+  `primrefs.py`   Curated primaries resolved by identifier with their titles read back.
+  `site_build.sh` The stub-isolated build. **Use this and not `_check.sh --drafts`.**
+
+Also present and reusable without change: `harvest.py` through `harvest4.py`, `merge_sweeps`,
+`gate_and_cluster` with its fingerprinted family-cost cache, `build_refs`, `emit`,
+`emit_source_base`, `emit_years`, `emit_spellings`, `emit_tables`, `emit_series_line`, `calc`,
+`calc2`, `chamber`, `engineout`, `meanid`, `regstats`, `related`, `assemble`, `verify_numbers`,
+`verify_ids`, `urlcheck`, `homprobe`, `curated`, `keydois`, `ramjetprobe`, `remeasure_families`,
+`usa` and `usa2`.
+
+**THREE PRIMARY DOCUMENTS ARE SAVED AS PDF AND TEXT IN THAT DIRECTORY AND ARE WORTH KEEPING**, being
+NASA SP-8120 on liquid rocket engine nozzles, NASA Technical Paper 1207 on separation criteria, and
+the 1976 United States Standard Atmosphere. **A361 will want all three.**
+
+**`primaudit.py` IS THE ONE TO RUN FIRST NEXT TIME.** A360's third pass began by measuring the
+primary fraction per cluster, found the keystone at 8.7 percent against an article average of 10.4,
+and aimed its sweep at the clusters that measured thin. **Every cluster then rose, and the keystone
+rose to 16.8 while remaining the thinnest.** The test that says why is A359's: **the three thinnest
+clusters are exactly the three in which one conference publisher holds the largest share**, at 34, 49
+and 51 percent, against 26 and 29 percent for the general nozzle and propulsion clusters which carry
+29 and 49 percent reports. **The aerospike subject is a conference literature and the rocket
+propulsion around it is a report literature**, so the remaining thinness is a fact about publishing.
+
 **A359 ADDED SEVEN INSTRUMENTS WORTH COPYING FORWARD, ALL IN `tmp/a359/` AND THEREFORE
 GITIGNORED.** The whole A359 pipeline is there and repoints cleanly: `harvest.py` through
 `harvest4.py`, `merge_sweeps`, `gate_and_cluster`, `build_refs`, `emit`, `emit_source_base`,
@@ -2871,26 +3137,66 @@ tests the helix-angle cancellation as a **randomised property**.
 
 ## Open Decisions
 
-### NEW on 2026-09-14. A concurrent session shares this working tree
+### RESOLVED on 2026-09-30. The concurrent session finished and published
 
-**A second session drafted A374, a standalone wargaming essay, while A359 was in its second and
-third passes**, and left two items uncommitted: `_drafts/published_wargames_of_war_with_china.markdown`
-and four rows added to `_docs/process/URL_VERIFICATION.md`. **Its own TASKLOG row and its
-`draft_summary.md` block were interleaved with A359's in shared files**, could not be separated
-without destroying one, and therefore ride along in A359's commits, which say so.
+**A374 IS PUBLISHED** at `_posts/2026-08-11-published_wargames_of_war_with_china.markdown`, and the
+corpus is 302 posts. The shared-tree arrangement held for four passes of A359 and three of A360
+without losing a line of either session's work. **The convention that worked, and is worth reusing if
+two sessions run again**, was to stage only one's own paths, insert a new history row without
+displacing the other's, and say in the commit message that interleaved text rides along because
+separating it would destroy it.
 
-**The pilot has confirmed the arrangement and that the other session is parked on a gate.** What is
-not settled is **who owns `REVERSE_PROMPT.md`**, which is single-writer by design and which that
-session's own TASKLOG row claims to have written and did not. **A359 wrote it.** If both sessions
-continue, the pilot may want a convention, such as one file per session or a named section each.
+**WHAT IS STILL NOT SETTLED IS WHO OWNS `REVERSE_PROMPT.md`.** It is single-writer by design and it
+had two writers. **The arrangement that emerged is a dated header describing the latest state,
+followed by one section per article, newest first**, with each session rewriting the header and
+leaving the other's section intact. A360 followed it and updated the other session's stale note about
+verifier warnings in place rather than deleting it. **That is a convention by accident and the pilot
+may want to make it one on purpose.**
 
-### NEW on 2026-09-14. A360 and A361 are one programme and the roster gives them two articles
+### PARTLY RESOLVED on 2026-09-30. A360 and A361 are one programme
 
-**The X-63A and the X-64A were allocated on the same day with byte-identical descriptions**,
-differing only in contractor. **That is the only duplicated description among the 31 X rows.** The
-roster gives them an article each. **Plan them together or the second will have nothing left**, and
-raise the division with the pilot rather than deciding it alone. The precedent is A341, the X-44
-that was two aircraft.
+**THE DIVISION WAS MADE AND A360 EXECUTED IT.** A360 took the programme, the aerospike and the
+altitude-compensation mathematics. **A361 has the contractor, the instrumentation, the recovery gear
+and the question of what it means for one programme to hold two numbers**, and A360's Out of Scope
+section says so explicitly so that a reader is not surprised.
+
+**WHAT REMAINS OPEN IS WHETHER A361 CAN BE BUILT THE WAY THIS SERIES BUILDS ARTICLES.** `Invocon`
+returns **nothing at all** from the bibliographic index, `Troy7` returns nothing, and `KT Engineering`
+is flooded by a journal with those initials. **Three contractors and no indexed publications between
+them.** A361 therefore has no literature of its own to survey under its subject's name, and will have
+to be built from the instrumentation and measurement literature plus the award record, where the
+recipient name does return decades of contracts. **Raise this before drafting rather than discovering
+it in the first sweep.**
+
+### NEW on 2026-09-30. Two earlier articles carry a two-number version of a three-state split
+
+**THIS IS THE ONE OUTSTANDING FACTUAL CORRECTION IN THE SERIES AND IT IS THE PILOT'S DECISION.** The
+register's officiality markup has three states. The correct split is **21 official, 9 wholly
+unofficial and 1 partly unofficial** across the 31 X rows, recomputed from the saved page and
+confirmed by an independent re-parse.
+
+**A358 says 21 and 9, which accounts for 30 of 31 rows.** Its register-wide figures, 86 and a further
+17, are exactly right, so the defect is that it omitted the third category it had itself just defined.
+
+**A359 says 22 and 9**, which closes the sum by moving the partly marked row onto the official side,
+**where its own markup says it cannot be**.
+
+**A360 states the three-way split correctly and points at the discrepancy in its own Epistemic
+State.** Neither earlier article has been edited, because both are pushed and editing a finished
+article is not the agent's call. **A359 needs one clause changed. A358 needs a third number added
+rather than a different one.**
+
+### NEW on 2026-09-30. Every primary fraction in this corpus predates a fixed instrument
+
+**THE REPORTS SERVER WAS BEING READ TEN RECORDS DEEP UNTIL A360.** Every report-primary fraction
+recorded in `TASKLOG.md` for A297 through A359 was measured with that defect in place. **A360 reached
+30.6 percent where A359 reached 13.9, and the difference is mostly the repair rather than the effort.**
+
+**The decision is whether that matters to the pilot.** Nothing published is wrong, because a
+fraction is a true statement about the survey that was actually assembled. **But the series' habit of
+comparing one article's primary fraction against its predecessors' is no longer sound across the A359
+and A360 boundary**, and any later article that wants to say its fraction is high or low by the
+series' standards should say which side of the repair its comparison sits on.
 
 ### NEW on 2026-09-14. The bandwidth criterion's phase-delay parameter is unresolved
 
@@ -3458,6 +3764,49 @@ unofficial sentences corroborated by a different arm of the same government**, t
 naming the Skyborg programme 108 days after the redesignation. **A reconstruction is not thereby
 official and it is corroborated**, which is a weaker claim and a more useful one, and the closer
 should not let the register's loss of authority become a blanket refusal to believe it.
+
+**A360 ADDS THREE TO THE CLOSER AND THE FIRST IS A SECOND INSTANCE OF A359's STRONGEST FINDING.**
+A359 found a government that allocated an X number and then spent twenty-nine million dollars without
+writing it down. **A360 found a government that bought a vehicle with an instrument designed to leave
+no trace in the procurement record, and an announcement that says so in advance.** Twelve keywords put
+to the federal award system across five families of award type return nothing for this programme
+anywhere, because the awards were made through a Space Enterprise Consortium other transaction
+agreement, which exists precisely so that a company outside the Federal Acquisition Regulation can be
+paid. **A359's silence was an accident of accounting practice. A360's is the point of the
+instrument**, and the closer should distinguish them, because together they say that a designation's
+visibility in the record depends on which mechanism bought the vehicle.
+
+**A SECOND, WHICH IS THE PAIRED DESIGNATION AND IS NOW MEASURED RATHER THAN NOTED.** The X-63A and
+X-64A share an allocation date, a sponsor cell, an engines cell and 101 characters of description, and
+**it is the only duplicated description among the 31 X rows**. Eleven descriptions repeat in the whole
+539-row register and the other ten are munitions, targets and a ground station. **The system is
+counting contractors there rather than aeroplanes.** Two further facts belong with it. **The Space
+Force appears in the register's X rows exactly twice and both times are this pair**, so a service that
+did not exist when most of the register was written enters its experimental series for two halves of
+one rocket programme. **And `1 rocket engine` appears in exactly two of 539 rows**, also these,
+against an engines column that otherwise names a model, because at allocation the engine had no model
+name and arguably did not exist.
+
+**A THIRD, WHICH IS A CORRECTION TO THIS SERIES' OWN ARITHMETIC AND IS STILL OUTSTANDING.** The
+register's officiality markup has three states, not two. Recomputed from the saved page and confirmed
+by an independent re-parse of the markup, the split is **436 official, 86 wholly unofficial and 17
+partly unofficial across the register, and 21, 9 and 1 across the 31 X rows**. **A358 gave the
+register-wide figures exactly right** and then gave the X-row figures as 21 official and 9 not, which
+accounts for 30 of 31 rows because the partly marked one has nowhere to go in a two-number summary.
+**A359 closed that sum by raising the official count to 22**, which places the partly marked row on
+the one side its own markup denies. **A360 states the three-way split correctly and neither earlier
+article has been edited.** The repair is one clause in A359 and a third number in A358, **and it is
+the pilot's decision because both are pushed.**
+
+**AND A METHODOLOGICAL FINDING FOR THE CLOSER RATHER THAN A FACTUAL ONE.** A360's keystone is an
+identity that removes the vehicle entirely, being that ambient pressure is the variable conjugate to
+exit area, so the ideal altitude-compensating nozzle's thrust curve is a Legendre transform and a
+fixed nozzle's loss is a Bregman divergence. **That is the third consecutive article whose central
+result is an exact identity rather than a measurement**, after A358's Bode sensitivity integral and
+A359's control-effectiveness projector. **The series is accumulating a second spectrum alongside the
+one about how answerable a question was, which is how much of an X-plane's research question can be
+settled without the aeroplane.** A360's answer is almost all of it, and the article says so, which is
+an uncomfortable thing for a programme that bought a flight.
 
 ## Writing a New Handoff
 
