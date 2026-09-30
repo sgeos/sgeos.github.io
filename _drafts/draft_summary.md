@@ -17,6 +17,75 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## What Rebuilding Would Take After a War With China A375 2026-08-12
+
+`rebuilding_after_war_with_china.markdown`, A375, editorial date 2026-08-12, standalone analytical
+essay and the companion to the published A374, categories `geopolitics military war-gaming`.
+
+**1,215 lines, 21 display equations, 12 inline expressions, 78 reference definitions, roughly 6,900
+words after the drafting pass.** **FIRST OF FOUR PASSES COMPLETE.** Committed and **NOT pushed**,
+which is the rhythm. **Not published.**
+
+**THE KEYSTONE IS THAT THE SAME REPORT WHICH SINKS THE FLEET SAYS IT CANNOT BE REPLACED.** A374 read
+the wargames for whether the war is won. This article reads them for what is left afterwards. The CSIS
+invasion report states that with only two yards building large surface combatants *it would take
+decades to replace the dozen or more such ships lost*, and that **lost carriers could not be replaced
+because capacity is sufficient only to maintain the current force**. Aircraft at about 120 a year take
+two to four years, which this article's arithmetic reproduces at 1.7 and 4.2.
+
+**THE FINDING INVERTED THE EXPECTATION GOING IN.** The working hypothesis was that rebuilding is slow.
+For buildings the empirical literature says the opposite and says it with data. **Japanese cities
+recovered their relative size in about fifteen years** with reconstruction spending contributing under
+one percentage point, **West German surviving industrial capacity in 1948 stood 13 percent above
+1936**, and Organski and Kugler put losers back to antebellum standing in fifteen to twenty years.
+What does not recover on that clock is throughput and relationships. **Leading-edge chip capacity
+needs a minimum of three years and 350 billion dollars to rebuild elsewhere**, and **trade between
+former adversaries is still 42 percent down at five years and 21 percent down at eight**, with the
+1939 to 1997 subperiod slower than the 1870 to 1938 one at nine years against four.
+
+**FOUR GAPS ARE REPORTED AS FINDINGS.** No wargame models the post-invasion period. The reverse case of
+Communist Party survival is one conditional clause in an executive summary whose authors disclaim
+having studied it. No consequence or recovery study exists for nuclear use in this theatre. And the
+occupation force-density literature has never been joined to the invasion literature, so **the 468,000
+personnel implied for Taiwan at twenty per thousand, and roughly 2.34 million to sustain them, is this
+article's own arithmetic and is labelled as such**.
+
+**Research method.** Four delegated sweeps across war termination and regime survival, defence
+industrial reconstitution, economic reconstruction, and the postwar order and nuclear aftermath. Every
+citation was verified here before use. **Fifty-eight DOIs were checked against Crossref.** Load-bearing
+quotations were read in the primary PDFs, including the CSIS reconstitution passage, the RAND
+termination passages, the Quinlivan force ratios, Glick and Taylor's recovery path, and the Boston
+Consulting Group cost figure.
+
+**THREE SWEEP CLAIMS FAILED VERIFICATION AND WERE CORRECTED OR DROPPED.** A RAND quotation containing
+*foreshorten it* is absent from the report text and was dropped. A sweep reported German industrial
+capacity as 13 percent above 1936, which is correct, but the same paper carries a different 13 percent
+figure about United Kingdom output, so both are now stated with their subjects attached. A civil
+defence pledge appears at two different values in two outlets, so no figure for it appears. **Heath's
+22 iterations against the CSIS report's 24 are both reported with sources**, because the discrepancy
+is real and propagates.
+
+**One defect of my own, caught by reading rather than by a checker.** The added paragraph quoting the
+CSIS risk list initially followed the RAND paragraph, so *the same report* read as RAND. The antecedent
+was corrected to name CSIS.
+
+**Diction judgment recorded rather than applied.** `presumably`, `significant` and `quite` sit at or
+above the peer maximum. All seven occurrences are inside direct quotations or are the statistical term
+*significantly negative*. Editing a source's words to move a rate would falsify the quotation, so they
+stand and this is the measured reason.
+
+**Remaining passes.** Equation density, primary-reference density and publication review. The date
+2026-08-12 collides with the pre-release candidate `android_development_on_freebsd.markdown`, which is
+invisible to the verifier while both are drafts and **must be resolved before either is published**.
+
+**VERIFICATION.** `_verify.py` 0 errors and 0 warnings across 302 posts, 78 references all used and
+sorted with the bulleted list in category order, no prose colons, semicolons, parentheses, dashes or
+contractions, 18 substantive arithmetic statements rechecked by script plus one definitional
+restatement, 47 of 75 URL definitions returning 200 with every exception a catalogued publisher or
+government block, scratch build succeeding in 13.8 seconds, and **the rendered audit reporting no
+findings across 467 pages** with all three `post_url` targets resolving to live addresses.
+
+
 ## What Published Wargames Say About a War With China A374 2026-08-11
 
 `published_wargames_of_war_with_china.markdown`, A374, editorial date 2026-08-11, standalone
