@@ -11,25 +11,31 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `76cf087`
-- **Written**: 2026-09-30
-- **Tree at write**: **this file is the only change, and everything else is pushed.**
-  `git status --porcelain` returns exactly one line, being this handoff's own modification, and
-  `git log origin/master..HEAD` returns nothing. **That is a change from the last two handoffs**,
-  which both described unpushed work. **The protocol asks for a commit and not a push**, so after
-  this file is committed there will be exactly one unpushed commit and it will be this one.
-- **THE CONCURRENT SESSION FINISHED AND PUBLISHED.** A374, the standalone wargaming essay, is
-  published at `_posts/2026-08-11-published_wargames_of_war_with_china.markdown`. The corpus is now
-  **302 posts**. **That session's final push carried A360's three unpushed commits with it**, which
-  is why the tree is clean when the drafting rhythm did not ask for a push.
-- **Context**: the X-Planes series is IN PROGRESS. **Sixty-four of seventy-two articles drafted.
-  None of the series is published, and none is authorised.** A374 is not part of it.
-- **A360, ABL Space Systems X-63, is THREE PASSES COMPLETE and PUSHED.** Drafting `df0c5ba`,
-  equation density `7262aaf`, primary references `ef0a250`. **It is mid-rhythm.** The tree is NOT at
-  an article boundary.
-- **The next prompt will be the publication review of A360**, quoted in full under the Standing
-  Directive below. **That prompt also asks for a push**, and A360 is already pushed, so the push it
-  asks for is of the publication-review commit.
+- **Parent commit** (the repository state this handoff describes): `c8d5179`
+- **Written**: 2026-09-30, by the A375 line, which is the second writer on this file
+- **Tree at write**: this handoff is the **only tracked modification**. One untracked file exists and
+  it is **not mine**, being `_drafts/x_planes_invocon_x64.markdown`, the A361 drafting output, which
+  is left exactly where its own session put it. `git log origin/master..HEAD` returns **two**
+  commits, both A375's, so after this handoff is committed there will be three.
+- **TWO LINES OF WORK ARE IN FLIGHT AND THE OTHER CHANNELS SAY OTHERWISE.** Both
+  `TASKLOG.md` under Current Task and `REVERSE_PROMPT.md` under Last Updated state that the
+  concurrent session has finished. **That was true on 2026-09-19 and is no longer true.** The same
+  session returned on 2026-09-30 and drafted A375. Read those two sentences as history rather than
+  as status.
+- **Line one, X-Planes, is not mine and I have not touched its work.** A297 through A360 have all
+  four passes complete and are pushed, A360's publication review being `b2ba669`. **Sixty-five
+  `x_planes` drafts are on disk against the sixty-four its status lines state**, because A361's
+  drafting output exists and is uncommitted. **The section immediately below this one describes
+  A360's publication review as the next prompt, and that pass is already done.** Treat it as a
+  record of a completed pass, not as an instruction.
+- **Line two, A375, is mine and is mid-rhythm.** A374 is published at
+  `_posts/2026-08-11-published_wargames_of_war_with_china.markdown` and the corpus is **302 posts**.
+  **A375 is TWO OF FOUR PASSES COMPLETE and NOT PUSHED.** Drafting `59f2006`, equation density
+  `c8d5179`. The tree is **not** at an article boundary for either line.
+- **The two verifier warnings are line one's, not a defect.** `_verify.py` reports `progress-stale`
+  twice, that the TASKLOG and the reverse prompt state 64 drafted while 65 `x_planes` drafts are on
+  disk. **Do not fix those lines.** They belong to the other session and will resolve when it
+  commits A361.
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that
 day and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -38,13 +44,112 @@ day and 147 commits took new identifiers. Anything older than that will not reso
 Because this handoff file is itself committed, its commit becomes the branch tip and its parent is
 the state described.
 
-- **Match → VALID.** Proceed per the resume prompt below.
+- **Match → VALID.** Proceed per the resume prompt for the line the pilot names.
 - **Mismatch → INVALID and STALE.** A later commit moved the tip, so this file describes a state
   that is no longer current. Do **not** proceed and do **not** guess what changed. Report it as
   invalid-and-stale, familiarize from the live channels, namely `REVERSE_PROMPT.md`, `TASKLOG.md`,
   `_drafts/draft_summary.md`, and the git log, which are always authoritative, and wait for
-  instruction. **The concurrent session that caused mismatches through A359 and A360 has finished**,
-  so a mismatch now is more likely to be real.
+  instruction. **A mismatch is likely rather than exceptional here.** Two sessions commit to this
+  branch, A361's drafting commit is pending on the other line, and either line may move the tip
+  before this file is read.
+
+---
+
+## Resume prompt for line two, A375, and the next prompt is its primary-reference pass
+
+**A375 IS MID-RHYTHM WITH TWO PASSES LEFT. Wait for the pilot's prompt and do not start a pass
+unprompted.** The rhythm for this line matches the X-Planes rhythm described below, four passes of
+drafting, equation density, primary references and publication review, with a commit after each and
+no push unless the pilot asks.
+
+**The article.** `_drafts/rebuilding_after_war_with_china.markdown`, A375, titled *What Rebuilding
+Would Take After a War With China*, editorial date **2026-08-12**, categories
+`geopolitics military war-gaming`, standalone analytical essay and the companion to the published
+A374. State after two passes is **1,448 lines, 50 display equations, 14 inline expressions, 78
+reference definitions and about 7,600 words**.
+
+**What it argues, so it is not re-derived.** A374 read the public wargames for whether a war with
+China is won. A375 reads them for what is left afterwards, starting from the fact that every major
+public game stops at about 21 days and says so in its own text. **The keystone is that the same CSIS
+report which sinks the fleet says it cannot be replaced**, that two yards build large surface
+combatants so replacement would take decades, and that lost carriers could not be replaced at all
+because capacity only maintains the current force. **The organising finding inverted the working
+hypothesis.** Buildings and industrial capacity recover fast on the empirical record, Japanese cities
+in about fifteen years and West German surviving capacity in 1948 standing above 1936, while
+throughput, production ecosystems and trade relationships do not, chips needing a minimum of three
+years and 350 billion dollars elsewhere and trade still a fifth below prewar eight years on. **Four
+gaps in the literature are reported as findings**, the sharpest being that the occupation
+force-density ratio has never been applied to Taiwan, so the 468,000 personnel implied at twenty per
+thousand and the 2.34 million needed to sustain them are the article's own arithmetic and are
+labelled as such in the text.
+
+**What the next pass should do.** The primary-reference pass should retrieve the documents that are
+still at press-account strength and either upgrade or withdraw what rests on them. The list is short
+and explicit in the article's Epistemic State. **The unretrieved items are the full TIDALWAVE report,
+the Nature Food soot table, which was taken from a research sweep's extraction rather than my own
+reading, and the National Academies synthesis, which is cited from its catalogue page.** Several
+journal articles exist only as registry records because MIT Press, Oxford University Press, Wiley,
+Sage, Taylor and Francis and JSTOR all refuse automated clients, and where an abstract is the only
+verified layer, **no number from inside the article is quoted**. That rule must hold.
+
+### Three things about this article that are easy to lose
+
+- **THE DATE COLLIDES AND THE VERIFIER CANNOT SEE IT.** `_drafts/android_development_on_freebsd.markdown`
+  carries the same editorial date, 2026-08-12. `_verify.py` builds its date map from `_posts` only, so
+  two drafts sharing a date are invisible to it and become a hard `date-collision` error the moment
+  either is published. **This must be resolved before either publishes.** The cheap fix is re-dating
+  that pre-release candidate into the run from 2026-08-20 onward, which is free of both posts and
+  drafts, but that is the pilot's content decision and it has not been made.
+- **THREE DICTION FLAGS ARE DELIBERATE AND SHOULD NOT BE EDITED.** `_lib/diction.py` reports
+  `significant` at or above the peer maximum, and reported `presumably` and `quite` before the article
+  grew. **Every occurrence is inside a direct quotation or is the statistical term
+  *significantly negative*.** Editing a source's words to move a rate would falsify the quotation. The
+  judgment is recorded in `draft_summary.md` and stands.
+- **THE DRAFTS GATE CANNOT BE RUN AND THE SUBSTITUTE IS DOCUMENTED.** `./_check.sh --drafts` is killed
+  for low memory, because `_drafts/` holds 73 files and roughly 51 MB of X-Planes work. The substitute
+  is a scratch copy under `tmp/a375/scratch` carrying the real `Gemfile`, `_config.yml`, all four
+  plugins and the whole `_posts` corpus, with **only this draft** in `_drafts/`. That is not the
+  Gemfile-free plugin-stripped build the process forbids. Build it, run `python3 _lib/render.py` over
+  the output, and check the draft's checksum before and after.
+
+### Method rules earned on this article
+
+- **A SOURCE-TO-RENDERED DISPLAY COUNT COMPARISON IS NOW MANDATORY AFTER ANY EQUATION PASS.** The
+  equation pass inserted 26 blocks and **four of them rendered as inline mathematics rather than
+  display**, because the inserted block left no blank line after the closing delimiter and kramdown
+  folded it into the following paragraph. **`_verify.py` passed and `_lib/render.py` reported no
+  findings**, because the mathematics still rendered and no raw delimiter leaked. The only thing that
+  exposed it was counting `^\$\$$` pairs in the source against `\[` occurrences in the rendered
+  HTML, 50 against 46. After the fix both read 50.
+- **A DELEGATED CITATION IS A LEAD AND NOT EVIDENCE.** Four research sweeps supplied this article's
+  discovery. **Three of their claims failed verification here.** A RAND quotation containing the
+  phrase *foreshorten it* is absent from the report text and was dropped. A 13 percent figure was
+  reported as West German industrial capacity above 1936, which the paper does say, while the same
+  paper carries a different 13 percent figure about United Kingdom output, so both now appear with
+  their subjects attached. A civil defence pledge appears at two different values in two outlets, so
+  no figure for it is used. **Every DOI was checked against Crossref**, 58 of them.
+- **A DISCREPANCY BETWEEN TWO SOURCES IS REPORTED, NOT RESOLVED SILENTLY.** Heath attributes 22
+  iterations to the CSIS game and the CSIS report states 24, which was checked in the report text.
+  Both appear with their sources named.
+- **AN ANTECEDENT MOVES WHEN A PARAGRAPH IS INSERTED.** A quotation from the CSIS risk list was added
+  after the RAND paragraph, so *the same report* read as RAND. Caught by reading, not by any checker.
+
+### Verification state at this handoff
+
+`_verify.py` reports **0 errors and 2 warnings**, both of them line one's stale drafted count. The
+78 references are all used, all defined and sorted, with the bulleted list in category order. There
+are no prose colons, semicolons, parentheses, dashes or contractions. **53 arithmetic statements
+recheck by script with no failures.** The scratch build succeeds in about 13.6 seconds and the
+rendered audit reports **no findings across 467 pages**, with source and rendered display counts
+agreeing at 50 and all three `post_url` targets resolving to live published addresses. **47 of 75
+URL definitions return 200** and every exception is a catalogued publisher or government block
+recorded in `URL_VERIFICATION.md`.
+
+### Local artefacts
+
+Downloaded primary PDFs and their extracted text are under `tmp/a375/` and `tmp/a374/`, which is
+where scratch belongs for this repository. The scratch build copy and its output are deleted after
+each use. **Nothing outside the repository holds state this line depends on.**
 
 ---
 
