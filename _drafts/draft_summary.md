@@ -288,6 +288,67 @@ and the Bloomberg model is not public. The article labels all three as such.
 **Publication was not requested and the article is not published.**
 
 
+## X-Planes Invocon X-64 A361 2025-12-09
+
+`x_planes_invocon_x64.markdown`, A361, editorial date 2025-12-09, series `x_planes` index 65
+of 72.
+
+**8,873 lines, 39 display equations, 231 inline expressions, a 90-entry symbol table, 3,934
+reference definitions, 67,030 words.** **ALL FOUR PASSES COMPLETE.** Committed and **pushed**.
+**Not published**, and publication of the series has never been authorised. **A361 has two
+commits for four passes**, because its literature sweep ran long enough that the pilot's next
+two prompts arrived before the drafting pass had been committed.
+
+**THE REGISTER SAYS ONE THING AND THE LABORATORY SAYS ANOTHER.** A360 established that the
+X-63A and X-64A rows are identical in every cell describing the machine. The laboratory's own
+background paper, cleared September 2022, says **each company has their own launch vehicle and
+chosen approach** and ties each designation to its company. **No sweep would have found that
+document**, a public-affairs PDF with no report identifier reached through the encyclopedia
+entry's own source list. **A source list at the foot of a secondary is a retrieval channel.**
+
+**THE KEYSTONE IS THE MEASUREMENT HALF OF A360's QUESTION.** An accelerometer is blind to
+gravity, so it reads thrust minus drag over mass, and **the drag term is the only one no
+instrument on board can reduce**. Holding it to a tenth of A360's 5.3 percent effect needs a
+drag model good to 2.65 percent at a drag fraction of one fifth. **And the timing reverses the
+expected answer**, dynamic pressure peaking 2.10 to 2.48 times later than the half-signal time,
+by which point 83.6 to 95.3 percent of the pressure-time integral is collected. **The
+trajectory is the instrument.**
+
+**TWO POWER LAWS ARE NOT A TRAJECTORY AND THE MODEL SAID SO ITSELF**, returning 190 kilopascal
+and a drag fraction above one, which describes a decelerating vehicle.
+
+**THE SHAPE SAYS IT WAS BUILT TO COME BACK.** Fineness about five against the RS1's 14.67, so
+one calibre of static margin costs 20 percent of its own length against 6.8 percent. **The
+tip-over anisotropy is A360's differential-throttling anisotropy character for character**,
+exactly the square root of two for four legs, but the footprint has N sides for every N where
+the control polygon had N or 2N. **Harmonic N sampled at N points has the discrete mean of
+harmonic zero**, so four taps on a four-legged vehicle would report its own legs as a change in
+the thrust-bearing mean.
+
+**A NAME IS A QUERY.** `Troy7` returns nothing in any of five award families and `Troy 7`
+returns fifteen rows, and **every one of the seven `segmented launch vehicle` rows in the whole
+record belongs to KT Engineering**.
+
+**THE PRIMARY PASS FOUND A LITERATURE THE DRAFTING PASS ENGAGED NONE OF.** In-flight thrust
+determination is a settled discipline whose review states this article's premise in as many
+words, and it is about air-breathing engines, which is why a rocket may use an accelerometer.
+**The established methodology separates bias from precision and carries a model bias error
+where this budget has neither**, so the article now says plainly that it presents a sensitivity
+analysis and not an uncertainty statement. **Report primaries 45.0 percent against A360's
+30.6.** Barrowman 1967 read in full confirms both halves of a displayed relation, and **the
+bibliographic index returns nothing for his name while the reports server holds the document**,
+so the two registries hold different literatures.
+
+**A GATE BUG THE TWO-SIDED AUDIT CAUGHT AND NOTHING ELSE WOULD HAVE.** Exclusion guards
+concatenated with match patterns anchored the body to the start of the title, so every guarded
+pattern matched only titles opening with its subject phrase. **Three clusters came back
+absurdly small and nothing failed.** Fixing it took fins from 16 records to 148 and recovery
+from 310 to 546. **This is the fifth appearance in this series of a lookahead not guarding what
+its author assumed.**
+
+**THE PUBLICATION REVIEW FOUND FOUR RANKING DEFECTS IN 158 SENTENCES**, of which one was simply
+wrong, a claim that the encyclopedia entry describes only one image when it credits two.
+
 ## X-Planes ABL Space Systems X-63 A360 2025-12-08
 
 `x_planes_abl_space_systems_x63.markdown`, A360, editorial date 2025-12-08, series

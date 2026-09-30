@@ -5,13 +5,173 @@
 ## Last Updated
 
 **Date**: 2026-09-30
-**Task**: **A360, X-Planes: ABL Space Systems X-63, publication review. The fourth and last
-of the four passes.** Committed and **pushed**, which this pass is the one that asks for.
+**Task**: **A361, X-Planes: Invocon X-64, all four passes.** Committed and **pushed**.
 **Not published**, and publication of the series has never been authorised. **Sixty-five of
 seventy-two drafted, seven remain.**
 
-**The concurrent session has finished.** A374 is published and its report is preserved
-below this one rather than overwritten.
+**THREE PASSES WENT INTO ONE COMMIT AND THE PUBLICATION REVIEW INTO A SECOND.** A361's
+literature sweep ran long enough that the pilot's next two prompts arrived before the
+drafting pass had been committed. The rhythm asks for a commit after each pass and this
+article has two commits for four passes, which is recorded here rather than smoothed over.
+
+---
+
+## A361, X-Planes: Invocon X-64
+
+**FINAL STATE 8,873 lines, 67,030 words, 39 display equations, 231 inline expressions, a
+90-entry symbol table, 3,934 reference definitions**, with **3,837 research records cited
+across 15 clusters and 1,726 report primaries at 45.0 percent**, median year 2003, period
+share 87.7 percent, from one sweep retrieving 23,960 records of which 23,824 were distinct.
+
+### The Register Says One Thing and the Laboratory Says Another
+
+**A360 established that the X-63A and X-64A rows are identical in every cell that describes
+the machine.** This article found the government document that contradicts the impression
+that leaves. The laboratory's own background paper on its rocket propulsion organisation,
+cleared September 2022, says **each company has their own launch vehicle and chosen approach**
+and ties each designation to its company.
+
+**THAT DOCUMENT HAD NEVER BEEN USED BY THIS SERIES AND NO SWEEP WOULD HAVE FOUND IT.** It is
+a public-affairs PDF on a laboratory web site with no report identifier, and it was reached
+through the encyclopedia entry's own source list. **A source list at the foot of a secondary
+is a retrieval channel**, and it is the channel that produced the sentence this article is
+built on. It also quantifies the modularity half of ARISE, which A360 said the fact sheet did
+not, the portfolio seeking **70 percent less development time and 50 percent less cost**.
+
+**Two slips in that primary are recorded rather than smoothed.** It writes `into the 22nd
+century` twice where it means the twenty-first, and it names nitrogen tetroxide with Aerozine
+50 in one sentence and with monomethylhydrazine in the next, which are different fuels.
+
+### A Name Is a Query and a Query Is Only as Good as Its Spelling
+
+Invocon returns **81** award rows of wireless instrumentation, impact detection and radiation
+monitors. KT Engineering returns **15**, and **every one of the seven rows the phrase
+`segmented launch vehicle` returns in the whole record is this company's**. The announcement
+writes `Troy7` and the award record writes `TROY 7`. **`Troy7` returns nothing in any of five
+award families and `Troy 7` returns fifteen.** **And the spaced spelling imports a collision
+the unspaced one avoided**, matching a router backup and a seven-inch rifle rail, so the more
+findable query is the less precise one and both halves of that trade are stated.
+
+### The Keystone, and a Timing Result That Reversed the Expected Answer
+
+**An accelerometer is blind to gravity, which is what makes it the right instrument.** It
+reads thrust minus drag over mass, so the largest term in the equation of motion is the one it
+declines to see. **Recovering thrust needs a drag model and the drag term is the only one no
+instrument on board can reduce.** Holding it to a tenth of A360's 5.3 percent effect needs a
+drag model good to **2.65 percent** at a drag fraction of one fifth, and the drag fraction at
+which the total error equals the effect is **0.209** for a quarter-accurate model.
+
+**THE EXPECTATION WAS THAT THE CONFOUNDER PEAKS WHERE THE SIGNAL LIVES AND IT DOES NOT.**
+Ambient pressure depends on position while drag depends on position and the square of speed,
+and a rocket reaches altitude before it reaches speed. **Dynamic pressure peaks 2.10 to 2.48
+times later than the half-signal time, and by then between 83.6 and 95.3 percent of the
+pressure-time integral is collected.** The trajectory is the instrument.
+
+### Two Power Laws Are Not a Trajectory
+
+Taking A360's altitude exponent of 2 with a speed law linear in time returns a peak dynamic
+pressure of **190 kilopascal** and a drag fraction above one, **and a drag fraction above one
+describes a decelerating vehicle**. The repair removes an assumption rather than correcting
+one, making the published cut-off altitude a constraint. **A model with one assumption too
+many will usually tell you so somewhere, and rarely in the quantity you were computing.**
+
+### The Shape, and the Same Polygon A360 Found in the Sky
+
+Two published numbers give a fineness ratio of about five against the RS1's 14.67, so the
+frontal area is 1.72 times as large and **one calibre of static margin costs 20 percent of
+this vehicle's own length against 6.8 percent for the other**. The tip-over anisotropy is one
+over the cosine of pi over N, **exactly the square root of two for four legs**, but the
+footprint has N sides for every N where A360's control polygon had N or 2N, **and the
+difference is a half-plane truncation rather than anything geometric**.
+
+**Harmonic N sampled at N points has exactly the discrete mean of harmonic zero**, so a
+four-legged vehicle with four taps would report its own legs' disturbance as a change in the
+thrust-bearing mean, and both phases of harmonic mu need 2mu plus 1 sensors.
+
+### The Equation Pass, 20 to 39
+
+**The largest omission was a structural result that lived in the numerics and never reached
+the page**, being the drag fraction in terms of thrust-to-weight and ballistic coefficient,
+from which follows the relation that licenses the article's central comparison. Also added
+were the geometry relations as scaling laws so the article says which figures are
+consequences, the atmosphere's layer forms, the mass history, **the exact axial-force
+decomposition that makes the zero-angle-of-attack approximation precise rather than merely
+disclosed**, the slender-body slopes that explain why the legs must be fins, the support
+function beside the lever arm, and the Fourier estimators with the counting bound. **One
+symbol collision forced a change of notation**, A360's gamma for the ratio of specific heats
+becoming kappa because gamma was already the flight-path angle.
+
+### The Primary Pass Found a Literature the Drafting Pass Engaged None Of
+
+**Determining thrust in flight is a settled discipline whose own review states this article's
+premise in as many words.** That literature is about air-breathing engines, where an inlet
+captures a momentum flux no body-mounted instrument can separate from drag, **which is why its
+method is gas-path modelling and why a rocket may use an accelerometer**. The inverse was done
+once in flight, the XB-70's drag measured by determining its thrust independently. **Thrust
+minus drag is one observable and splitting it always costs a model of one side.**
+
+**AND THE ESTABLISHED METHODOLOGY NAMES A TERM THIS BUDGET DOES NOT HAVE.** It separates bias
+from precision and carries a model bias error, where this budget combines three terms in
+quadrature as though all were random, and a drag model's error is more likely systematic than
+random. **So the article now says plainly that it presents a sensitivity analysis and not an
+uncertainty statement**, and that a single demonstrator flight is a single-sample experiment.
+
+**Report primaries 45.0 percent against A360's 30.6**, from the fixed fetcher and from the
+subject being a report literature rather than a conference one. **Three encyclopaedia anchors
+dropped as superseded** by Barrowman, Moffat, and Shannon with Nyquist. **Barrowman 1967 read
+in full confirms both halves of a displayed relation**, and the bibliographic index returns
+gastrointestinal lymphatics for his name while the reports server holds the document under its
+title, **so the two registries hold different literatures rather than the same literature to
+different depths**. **Four sources are used from their abstracts alone and say so.**
+
+### The Publication Review
+
+**The superlative scan found four real defects in 158 ranking sentences.** A claim that the
+1967 report is what `the whole practice rests on`, which is field-wide and now says it made the
+method a convention. That `Invocon was never a launch company`, which an award record cannot
+settle and now says the record gives no sign it had ever been one. That `the only image the
+encyclopedia entry describes is a three-dimensional printed model`, **which is simply wrong**,
+the entry crediting two images and captioning one, so the article now says no photograph of
+flight hardware is identified as such in any source consulted. And a claim about `the only
+claim this article makes without qualification`, now scoped to drag.
+
+**The drafting-history scan took six instances to two.** The lever-arm inversion is now stated
+as the tempting construction rather than as a previous draft, a reference to A360's own review
+process became a reference to its finding, and the two kept are the defused coincidence, which
+is epistemic content, and `What the Data Changed`, whose purpose is exactly that.
+
+**ARMR first appeared inside a quotation and was never expanded before it.** A quotation cannot
+be altered, so the expansion is now in the sentence introducing it.
+
+**And the diction scan found one tic**, the laboratory's key sentence paraphrased four times
+beyond its quotation, now twice.
+
+**No unit is missing and no decision is stranded.** Forty recorded decisions were probed
+against the article and all forty are present, **the one apparent miss being my probe using my
+own report's phrasing rather than the article's**, which is the same class of false failure as
+a check whose scope is wrong.
+
+### Verification
+
+| Gate | Result |
+|---|---|
+| `verify_numbers.py` | **1,531 checks, 0 failures** |
+| `neweqns.py` | **466 checks on the new relations, 0 failures** |
+| `symcheck.py` | 90 symbols, both directions, 39 display equations, 218 inline, 0 failures |
+| `_verify.py` | 302 posts, **0 errors, 0 warnings** |
+| `urlcheck.py` | 33 addresses, 30 fetched, **3 confirmed through the registry**, 0 unresolved |
+| stub build | clean, **against checksum-matched bytes** |
+| `_lib/render.py` | 545 pages, 172 carrying display math, **no findings** |
+| rendered article | 912,434 bytes, 8,213 links, 18 tables, 0 unresolved brackets, 0 raw dollar pairs |
+
+### What Comes Next
+
+**A361 IS COMPLETE. FOUR PASSES, COMMITTED AND PUSHED, AND NOT PUBLISHED.** The next article
+is **A362, the X-65**, editorial date 2025-12-10, series index 66. The register gives the
+X-65A to Aurora Flight Sciences with an engines cell of `1 Williams FJ44-3A` and a DARPA
+sponsor, which is the active-flow-control demonstrator.
+
+**THE A358 AND A359 OFFICIALITY CORRECTION REMAINS THE PILOT'S DECISION AND IS UNTOUCHED.**
 
 ---
 

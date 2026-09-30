@@ -657,3 +657,93 @@ pass go stale the moment that pass runs.
 
 **The habit.** Prose that interprets a number is a separate claim from the number. Emitters keep
 figures current and leave their interpretations exactly as they were written.
+
+---
+
+## A guard that silently anchors what it guards
+
+**What happened.** A361's subject gate combined exclusion guards with match patterns by string
+concatenation, in the form `_NOT_SOFTWARE + _NOT_HVAC + BODY` where each guard is
+`\A(?!.*\bbad\b)`. **The guard's `\A` fixes the match position at zero, so `BODY` then has to
+begin the title.** Every guarded pattern matched only titles that opened with its subject phrase.
+
+**The cost was large and invisible in the totals.** Three clusters came back absurdly small,
+being fins at 16 records, modular vehicles at 12 and the named cluster at 1, against neighbours
+in the hundreds. **Nothing failed.** The gate ran, produced a plausible 4,164 admitted records
+and clustered them.
+
+**What found it.** The mandatory two-sided audit, which prints thirty random REFUSED records
+beside thirty kept ones. The refused list contained `Qualitative investigation of booster
+recovery in open sea` while `booster recovery` was a phrase the gate was written to keep. **A
+count cannot tell you what is missing. A sample of what you threw away can.**
+
+**The fix.** Put the body inside its own lookahead, so the whole expression is zero-width at
+position zero and the body is free to match anywhere.
+
+    def guarded(guards, body):
+        return guards + r"(?=.*" + body + r")"
+
+Repairing it took fins from 16 records to 148 and recovery from 310 to 546.
+
+**The check.** Assert every guarded pattern against a title where the subject phrase sits in the
+MIDDLE. `check_guards` in A361's gate pins five keep cases and nine refusal cases, and **every
+keep case places its phrase mid-title on purpose**, because a silently anchoring guard passes a
+test whose phrase comes first.
+
+**The habit.** **This is the fifth appearance in this series of a lookahead that does not guard
+what its author thought.** The earlier four were negative lookaheads before an alternation,
+guarding only the first clause. This one anchors. **A lookahead's scope is never what the eye
+assumes**, and the only reliable response is to test the pattern against a string it should match
+and a string it should refuse, every time one is written.
+
+---
+
+## Two power laws are not a trajectory
+
+**What happened.** A360 fitted altitude alone as `h_b (t/t_b)^n` and used it inside a
+pressure integral, where only altitude enters and the fit is honest. A361 needed dynamic
+pressure, which needs altitude and speed together, and paired that altitude law with a speed
+law linear in time. **The result put the vehicle at Mach 2.85 at 8.4 kilometre, returned a peak
+dynamic pressure of 190 kilopascal against a launch vehicle's usual 30 to 40, and gave a
+drag-to-thrust ratio above one.**
+
+**The model refuted itself on a quantity nobody asked it about.** A drag fraction above one
+describes a decelerating vehicle and this one was climbing. **Nothing in the altitude fit or the
+speed fit was wrong on its own**, and the defect lived entirely in treating two dependent
+quantities as independent assumptions.
+
+**The fix was to remove an assumption rather than to correct one.** A rocket's altitude is the
+integral of the vertical component of its own speed, so a speed law and a pitch program
+determine it, and **the published cut-off altitude then fixes the remaining parameter instead of
+being assumed alongside it.** One swept assumption replaced two, and the peak dynamic pressure
+became 45.9 to 92.2 kilopascal.
+
+**The check.** Evaluate a derived quantity the model was not built to produce and compare it
+against the physical range. A drag fraction, a Mach number and a dynamic pressure are all cheap
+to compute and all have ranges a reader of the field knows by heart.
+
+**The habit.** **A model with one assumption too many will usually tell you so somewhere, and
+the place it tells you is rarely the quantity you were computing.** Inheriting a fit from another
+article is inheriting the conditions under which it was valid.
+
+---
+
+## A publisher's refusal is not a dead link, and a registry check is stronger than a 200
+
+**What happened.** A361's address sweep reported three of thirty-three hand-written references as
+unresolved, all of them publisher DOIs at IEEE and ASME. **All three are registered and correct.**
+The publishers return 403 to a non-browser client, which this corpus's memory already records for
+several domains.
+
+**The repair is better than the check it replaces.** A DOI that will not fetch is now looked up in
+the registry that issued it, and its title, author and year are compared against what the article
+says the reference is. **That confirms the identifier points at the intended document**, which a
+200 from a landing page does not.
+
+**The check.** For a DOI, verify through the registry rather than by fetching the publisher. For a
+report identifier, the reports server serves metadata and the comparison is the same.
+
+**The habit.** **An HTTP status is evidence about a server and a registry record is evidence about
+a citation.** The sweep now distinguishes fetched, confirmed-through-the-registry, and unresolved,
+and reports all three, because collapsing the middle case into either of the others is a lie in
+one direction or the other.
