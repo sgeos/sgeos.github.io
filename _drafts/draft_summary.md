@@ -195,9 +195,39 @@ and the Bloomberg model is not public. The article labels all three as such.
 `x_planes` index 64 of 72.
 
 **25,796 lines, 46 display equations, 187 inline expressions, a 73-entry symbol table, 12,395
-reference definitions, 159,118 words.** **Drafting, equation-density and primary-reference passes
-complete, three of four.** Committed and **not pushed**. **Not published**, and publication of the
+reference definitions, 159,263 words.** **ALL FOUR PASSES COMPLETE.** Committed and **pushed**,
+which the publication review is the pass that asks for. **Not published**, and publication of the
 series has never been authorised.
+
+**THE PUBLICATION REVIEW FOUND A SUBSTANTIVE PHYSICS ERROR AND FOUND IT BY CHECKING ONE OF ITS OWN
+EDITS.** The article said that on an **even** ring of thruster modules the direction of least
+steering authority points at a module. **That holds only when four divides the module count**, and
+at six, ten, fourteen, eighteen and twenty-two it is the direction of **greatest** authority, as at
+every odd count, because a quarter turn is a whole number of module spacings exactly when four
+divides the count. **The closed forms were never wrong**, so every authority figure stands.
+**It survived two passes because the numerical check evaluated both candidate direction sets and
+took the extremes over their union**, which made it correct and blind to the false rule, while the
+comment above it documented that false rule as the justification for the code that made the check
+immune to it. **Robustness in a check and confirmation of a claim are opposites.** The suite went
+from 652 checks to **699**.
+
+**A WITHDRAWN PHRASE WAS STILL STANDING IN TWO SUMMARISING SECTIONS.** The third pass established
+that `roughly twice as permissive` is **true nowhere**, then left the phrase in `What the Data
+Changed` and in the conclusion, so the article asserted in two places what it refuted in a third.
+**No check could see it, because a retracted wording carries no number to recompute.**
+
+**AND A PARAGRAPH WAS REFUTED BY THE PARAGRAPH AFTER IT.** The Source Base called the reports share
+thin and a fact about the subject rather than the sweep, four lines above the subsection proving it
+was a library defect, and said the primary-reference pass **is where this imbalance has to be
+answered** after that pass had run.
+
+**Twelve shouted spans cleared**, the third pass having reintroduced caps emphasis that commit
+65e807f swept corpus-wide. **The drafting-history scan was decided rather than swept**, twenty
+candidate lines to seven, the separation section going from six statements about its own drafting
+pass to one, with the boundary-clamped central difference and the degraded-ring warning kept and
+reframed as subject content. **The superlative scan, not previously run, found three real defects in
+158 ranking sentences**, the largest being `the largest aerospike ever built`, a ranking over the
+world's hardware from a survey of publications containing no size comparison.
 
 **PRIMARY REFERENCES, 984 TO 3,748, FROM 10.4 PERCENT TO 30.6**, with research records 9,467 to
 12,231 and **every one of the fourteen clusters rising**. **The finding of the pass is not about

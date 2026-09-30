@@ -4,15 +4,177 @@
 
 ## Last Updated
 
-**Date**: 2026-09-18
-**Task**: **A360, X-Planes: ABL Space Systems X-63, primary-reference review. The third of
-four.** Committed and **NOT pushed**. **Not published**, and publication of the series has never been
-authorised. **Sixty-four of seventy-two drafted, eight remain.**
+**Date**: 2026-09-30
+**Task**: **A360, X-Planes: ABL Space Systems X-63, publication review. The fourth and last
+of the four passes.** Committed and **pushed**, which this pass is the one that asks for.
+**Not published**, and publication of the series has never been authorised. **Sixty-four of
+seventy-two drafted, eight remain.**
 
-**A CONCURRENT SESSION IS WORKING IN THIS TREE AND HAS COMMITTED THREE TIMES.** Its A374 commits
-sit on `master` unpushed, below this article's. **Its draft is modified again and is left
-unstaged.** Only this article's own paths were staged. Its report is preserved below this one
-rather than overwritten, because the file has two writers whatever its design says.
+**The concurrent session has finished.** A374 is published and its report is preserved
+below this one rather than overwritten.
+
+---
+
+## A360, Publication Review
+
+**THE PASS FOUND A SUBSTANTIVE PHYSICS ERROR, NOT ONLY PROSE DEFECTS**, and it found it by
+refusing to let one of its own edits stand unverified.
+
+### The Rule Is Modulo Four and the Article Said Parity
+
+**The article claimed that on an even ring of thruster modules the direction of least
+steering authority points straight at a module.** That is true only when **four divides the
+module count**. At six, ten, fourteen, eighteen and twenty-two modules the module direction
+is the direction of **greatest** authority, as it is at every odd count. The reason is that a
+quarter turn is a whole number of module spacings exactly when four divides the count, so
+that is the only case in which a module sits on the boundary of the forward half plane when
+the command points at another module.
+
+**The closed forms were never wrong**, because they depend only on the polygon's side count,
+and every one of the article's authority figures stands unchanged. **What was wrong was the
+statement about where the extremes sit**, which is the part an autopilot designer would use.
+
+**HOW IT SURVIVED TWO PASSES IS THE USEFUL PART.** The numerical check evaluated **both**
+candidate direction sets and took the extremes over their union, specifically so that it
+would not have to assume which set held the maximum. That made the check correct and
+**blind to the false rule**. Worse, the comment above it documented the false rule as the
+justification for evaluating both sets, **so the wrong belief was written into the verifier
+as the reason for the code that made the verifier immune to it.**
+
+**AND I FOUND IT BY CHECKING MY OWN EDIT.** The publication review first replaced a
+drafting-history sentence with a tidier one asserting that a naive check reports swapped
+extremes `at every even module count`. That was an unverified structural claim, so it was
+tested before being trusted, and the test refuted both it and the article's original
+sentence. `check_extremal_parity` now pins the rule by enumeration against the modulo-four
+condition. The suite is **652 checks to 699**.
+
+### A Withdrawn Phrase Standing in Two Summarising Sections
+
+**The primary-reference pass established that `roughly twice as permissive` is, in the
+article's own words, true nowhere**, the correlation crossing the flat four tenths at
+separation Mach 2.59 and being stricter below it, with 1.74 times as the correct figure at
+the top of the fitted range.
+
+**It then left that exact phrase standing in `What the Data Changed` and again in the
+conclusion.** The article asserted in two places the phrasing it refuted in a third.
+
+**No check could see it.** 652 checks passed. **A retracted wording carries no number to
+recompute**, so a suite built on recomputing stated quantities is blind to it by
+construction. This is the inconsistency the handoff predicted the fourth pass would inherit,
+and it was worse than an unsoftened claim, because it was a self-contradiction.
+
+### A Paragraph Refuted by the Paragraph After It
+
+**The Source Base opened by calling the reports server's share thin and `a fact about this
+subject rather than about the sweep`**, and closed by saying the primary-reference pass **is
+where this imbalance has to be answered**. The subsection four lines below proves the
+thinness was a defect in the shared fetcher, and the pass that would answer it had already
+run. **Both readings stood in the article's own voice.** The emitter had regenerated the
+paragraph's numbers and left the sentences interpreting them exactly as written.
+
+### Caps Emphasis, Cleared Again
+
+**Twelve shouted spans**, converted to bold sentence case. The corpus-wide sweep of commit
+65e807f cleared caps emphasis across the series and **this article's third pass reintroduced
+it**, five spans in the separation section and seven in the Source Base.
+
+### The Drafting-History Scan, Decided Rather Than Swept
+
+**Twenty candidate lines, reduced to seven.** The handoff was right that this mattered more
+than usual, and right that the answer was neither to keep them all nor to cut them all.
+
+**Cut as autobiography**, being sentences that told the reader about a previous draft rather
+than about the subject: that the drafting pass implemented the atmosphere and cited an
+encyclopedia for it; that the first draft of a sentence rounded two scale heights to
+different numbers; that a verifier reported eighteen failures. **The separation section
+carried six statements about its own drafting pass and now carries one.**
+
+**Kept and reframed**, being sentences whose content is about the subject: the numerical
+lesson that a central difference at a clamped boundary halves its own denominator, restated
+as a fact about evaluating the derivative rather than about a first attempt; and the warning
+that the regular-ring closed form does not apply to a ring with a module missing, restated
+as the tempting move rather than as this article's mistake.
+
+**Kept unaltered**, being the seven in sections licensed to narrate method: `What the Data
+Changed`, whose whole purpose is to record what the work overturned, and `The Source Base`,
+whose subject is the instrument.
+
+### The Superlative Scan, Which Had Not Been Run
+
+**158 ranking sentences, three real defects.**
+
+**`The largest aerospike ever built is the XRS-2200`** is a ranking over the world's
+aerospike hardware made from a survey of publications that **contains no size comparison**.
+The corpus holds four toroidal-aerospike records and none of the 1970s large-engine
+hardware that would settle it. Now scoped to the largest the survey documents.
+
+**`the matched-expansion condition that every text states as a separate empirical fact`** is
+a claim about every text ever written, from an article that read a handful. Now `texts
+commonly state`.
+
+**`Seven decades of publication`** sat directly beneath a table whose nine decade rows a
+reader would count. Now **seven decades of continuous publication**, which ties it to the
+verified continuity from 1956 and is exact to this article's dateline.
+
+Also softened: **`the cheapest error to make`** to `among the cheapest`.
+
+### One Sentence That Was Not Grammatical
+
+`Written the other way round the expression is the negative of the loss, and the first
+version of the numerical test was, which is how the sign was fixed` is elliptical past
+readability. **The surviving content is the one a reader implementing the integral needs**,
+which is that the integrand is the fitted nozzle's exit area minus the envelope's and not
+the reverse.
+
+### What Did Not Need Changing
+
+**The style scan is clean.** No contractions, no parentheticals in this article's own voice,
+no em-dashes or en-dashes, no prose colons or semicolons. The three parenthetical hits are
+inside quoted primary material and were left exactly as the sources write them.
+
+**No unit is missing.** A359 shipped a number with no unit past every numeric check. Twelve
+bolded numbers were examined here and each carries its unit in the adjacent clause or is
+dimensionless by construction.
+
+**No decision was stranded in the process files.** A359 recorded a decision in `TASKLOG.md`
+and this file that never reached the article. Twenty substantive claims the process files say
+A360 carries were probed against the article and **all twenty are present**.
+
+**The three numbers a fourth pass usually moves were left alone**, as the handoff directed.
+Report primaries stay at 3,748 of 12,231, being 30.6 percent. Display equations stay at 46
+and inline expressions at 187, with the symbol table at 73 rows checked in both directions.
+
+### Verification
+
+| Gate | Result |
+|---|---|
+| `verify_numbers.py` | **699 checks, 0 failures**, up from 652 |
+| `neweqns.py` | 246 checks on the new relations, 0 failures |
+| `symcheck.py` | 73 symbols, 46 display equations, 187 inline, 0 failures |
+| `_verify.py` | 302 posts, **0 errors, 0 warnings** |
+| stub site build | 40 seconds, clean |
+| `_lib/render.py` | 543 pages, 172 carrying display math, **no findings** |
+| `_lib/test_lib.py` | **120 of 120 passed** |
+| rendered article | 2,274,470 bytes, 25,054 links, 0 unresolved references |
+
+**The article is 25,796 lines and 159,263 words**, up 145 words, the increase being the
+corrected modulo-four passage.
+
+### What Comes Next
+
+**A360 IS COMPLETE. FOUR PASSES, COMMITTED AND PUSHED, AND NOT PUBLISHED.** The next article
+is **A361, the X-64**, editorial date 2025-12-09, series index 65, **which shares every word
+of its register description with A360**.
+
+**A361 cannot be built the way A360 was, and that is already measured.** `Invocon` and
+`Troy7` return nothing at all from the bibliographic index and `KT Engineering` is flooded by
+a mechanical-engineering journal with those initials. **Three contractors and no indexed
+publications between them.** What A361 has instead is the federal award record, where the
+recipient name returns decades of instrumentation contracts, and the contractor's own
+physical description of a recoverable vehicle about twelve metres tall landing on four legs
+that double as stabilising fins.
+
+**THE A358 AND A359 OFFICIALITY CORRECTION REMAINS THE PILOT'S DECISION AND IS UNTOUCHED.**
 
 ---
 
