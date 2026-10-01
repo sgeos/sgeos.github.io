@@ -5,11 +5,24 @@
 ## Last Updated
 
 **Date**: 2026-09-30
-**Task**: **A362, X-Planes: Aurora Flight Sciences X-65 CRANE, equation-density review, the second of four passes.** Committed,
+**Task**: **A362, X-Planes: Aurora Flight Sciences X-65 CRANE, primary-reference review, the third of four passes.** Committed,
 **not pushed**, which is the rhythm for passes one to three. **Not published**, and publication
 of the series has never been authorised. **Sixty-six of seventy-two drafted, six remain.**
 
-**A SECOND LINE IS ALSO ACTIVE AND ITS REPORT IS PRESERVED BELOW.** A375 has completed its
+**A SECOND LINE HAS FINISHED ITS ARTICLE AND ITS REPORT IS PRESERVED BELOW.**
+**A375 is COMPLETE through all four passes, committed and PUSHED, and NOT PUBLISHED,
+which is what the pilot asked for.** Its publication-review section is immediately below this
+one, and its earlier primary-reference report is kept further down rather than overwritten.
+**The A375 line reports the same class of defect for a third time, and it is worth this line's
+attention because the pattern now has four instances across two articles.** A checker passes
+because its scope is wrong. A360's numerical check was robust and therefore blind. A361's
+decision probe used my own phrasing rather than the article's. A375's reference pass found four
+references counted as used because the bullet list cites every anchor. And A375's publication
+review found a reachability sweep that would have recorded publisher bot policy as a fact about
+its own citations. **The common fix is to run the check against the artefact a reader sees,
+never against a convenient proxy for it.**
+
+The older note follows. A375 had completed its
 primary-reference pass, the third of four, and is committed and not pushed. **That section is
 preserved rather than overwritten**, which is the rule its own author wrote down when preserving
 this line's A374 section.
@@ -23,6 +36,135 @@ believes the header. **It is repaired here from `git show HEAD`, which is the on
 was lost.**
 
 ---
+
+## A362, Primary-Reference Review
+
+**Report primaries 1,387 to 1,464, a share of 38.1 to 39.5 percent, the
+period count 1,205 to 1,274 and its share 34.4 to
+35.7 percent.** Research records 3,636 to 3,709, reference
+definitions 3,658 to 3,804, lines 8,516 to 8,773 and words 64,114 to
+67,817. Display equations held at 46 and inline at 228. Committed,
+**not pushed**, which is the rhythm. **Not published.**
+
+**BOTH THE COUNT AND THE SHARE ROSE, WHICH THE GENRE DOCUMENT WARNS IS UNUSUAL.** A reference pass
+normally raises the period count while lowering the recent share, because it adds older primaries
+faster than recent ones and the denominator grows with them. **This sweep was aimed at one
+registry's literature rather than at the subject broadly**, so primaries arrived faster than
+anything else. The median year did not move, staying at 2007, and the earliest record
+moved back ten years to 1927.
+
+### Seven Claims Were Second-Hand and the Audit Began by Saying So
+
+**Every threshold in the article was read through one review.** The regime boundary of three to
+five percent, the reduced-frequency band, the measured response at 0.08 percent, the reattachment
+at 0.34 percent, the modified-coefficient thresholds, the velocity-ratio condition, the caution
+against comparing momentum coefficients across configurations and the attribution of the
+definition to Poisson-Quinton. **A pass that exists to prefer primaries has to start by listing
+what is not one.**
+
+**Nine originals were located and four could be read in full, and all four are agency reports.**
+Every journal item the review names is paywalled. **The upgrade from second-hand to first-hand was
+available only where the work was also published as a report**, which is the practical reason this
+corpus prefers the report literature, and six items are now carried at registry-record strength
+and quoted for nothing.
+
+### The Report That Reversed the Equation Pass
+
+**Seifert and Pack, AIAA 2000-2542, read in full, demonstrated oscillatory separation control at
+chord Reynolds numbers as high as forty million** and state that the Reynolds number has a very
+weak effect on the pressure distributions and spectra of a deliberately fully turbulent baseline.
+
+**The equation-density pass had argued the opposite way round.** It computed this aircraft's
+Reynolds number at 11.44 million, compared it with the low-Reynolds experiments whose
+thresholds the article had borrowed, found a gap of one to nearly three orders of magnitude and
+concluded that the thresholds were the part most likely to be wrong at flight scale. **The X-65A
+flies at 0.715 times that report's sixteen million and 0.286 times the
+forty million it quotes.** It is inside the demonstrated range, not beyond it. **The strong form of
+the argument is withdrawn in the body rather than quietly softened**, and what remains is the
+narrow and correct form, that transferring a threshold differs from transferring a phenomenon.
+
+**And the report quotes the coefficients it used, on a definition identical to this article's.**
+Oscillatory momentum coefficients of 0.03 to 0.32 percent, with its own stated
+uncertainty of plus or minus twenty-five percent. **This article's wing-referenced
+0.0945 percent sits inside that band**, reaching 2 of 5 quoted cases
+with no concentration at all. **At that report's own Mach number of 0.25 the same bleed budget
+delivers 0.5579 percent, which is 1.74 times its highest quoted value.** So the
+air is sufficient where the method is proved and marginal only where this aircraft wants to fly.
+
+### The Primary Names This Article's Keystone as the Open Problem
+
+**Among its proposals for future work is overcoming the lack of sufficient control authority,
+especially at high speeds.** That is the conclusion this article derived from the Mach dependence
+of a bleed-fed momentum coefficient. **The article now says the constraint was derived here and
+discovered elsewhere**, which is the second time in three passes that a primary has shown a result
+to be a rediscovery.
+
+### The Targeted Sweep Returned Little and the Little-ness Is the Finding
+
+**Eighty-six new questions were asked of the two report registries and the per-cluster share was
+computed before any of them were written.** Five clusters were thin. **The one the pass most wanted
+to fix moved least.** The air budget stood at 9.1 percent of 77 records and now
+stands at 12.5 percent of 80. **Thirty-five dedicated questions across both
+registries bought three records.**
+
+**The reason is measurable and it is not the sweep's.** A reports server asked for a secondary air
+system returns two hundred and seven records of a seal workshop, because inside an engine secondary
+air means internal cooling. Asked for an aircraft air supply system it returns electric-propulsion
+impedance and direct-current power supplies. The defence registry asked what bleed air costs in
+engine performance returns two hundred records of which three pass the gate and none is about bleed
+air. **What a bleed costs an engine is known to the companies that build engines and is in neither
+public registry**, so the article's refusal to put a number on the thrust penalty is a gap in the
+record rather than in its research.
+
+**Two clusters did move.** Conventional actuation went 25.6 to 35.1 percent, because
+hinge moments and actuation power are what the agency reports of the 1960s and 1970s are full of.
+**Control without a hinge did not move at all, staying at 50.0 percent**, which says that
+literature is genuinely journal-held.
+
+### The Programme's Own Ancestor Has No Report Literature
+
+**The CRANE manager named Micro Adaptive Flow Control as the work CRANE descends from and neither
+registry holds a report about it.** The reports server returns two 1995 summer faculty fellowship
+programmes, a Spacelab life-sciences experiment and a paper on the importance of properties in
+modelling. The defence registry returns one hundred and twenty-one records of which two pass the
+gate and both concern adaptive structures. **A DARPA programme leaves no report literature in a
+NASA registry because it was never a NASA programme.**
+
+### Four Method Findings
+
+**THE SAME WORK IS HELD TWICE AND ONLY ONE IDENTIFIER CARRIES THE FILE.** A request for the
+flight-Reynolds report's full text returned nothing, and the duplicate record of the same work
+carries both a portable document and a plain-text rendering. **A null answer from a registry is
+usually a measurement about the literature and this one was about the catalogue.**
+
+**SERENDIPITY IS RECORDED AS SERENDIPITY.** Three of the better allocation records came from a
+question about secondary power extraction, being a 1997 report on tailless aircraft control
+allocation and two of 1999 on robust nonlinear control of tailless aircraft. **A sweep that found
+its best records for one cluster while asking about another has not demonstrated a method.**
+
+**A REWRITE SILENTLY DELETED A DISPLAY EQUATION.** Replacing a span from one heading to another
+swallowed a third heading between them, taking the moment relation and its table. **Every figure
+still reconciled, every slot still filled, `_verify.py` passed and the rendered audit passed**,
+because a missing equation is not a defect in anything that remains. The verifier now carries a
+floor at the equation pass's own count, and the first version of that floor used a dotted-all flag
+that made its pattern greedy across newlines and reported one equation where there were
+forty-six.
+
+**AND A DOUBLED BACKSLASH LEFT A LITERAL ONE IN THE PAGE.** An escaped citation written with two
+backslashes rather than one renders the backslash, and it was found by counting brackets in the
+rendered page against display blocks in the source, 47 against 46, where the extra was not an
+equation at all.
+
+### Verification
+
+`verify_numbers.py` runs **141 checks with none failing**, up from 111, now including the pass's
+before-and-after figures recomputed from a frozen baseline, the four primaries read in full, the
+withdrawn Reynolds wording, the air-budget negative result, the equation floor and the doubled
+escape. `_verify.py` reports **0 errors and 0 warnings**, and it caught an undefined anchor when the
+new primaries were cited before being defined. The rendered audit reports **no findings across 546
+pages**, source and rendered display blocks both count **46**, and no inline expression
+in the page carries an emphasis tag.
+
 
 ## A362, Equation-Density Review
 
@@ -1105,6 +1247,91 @@ decades of instrumentation contracts under the Invocon name.
 
 **AND `REVERSE_PROMPT.md` NOW HAS TWO WRITERS.** This report preserves the concurrent session's
 below it rather than overwriting, which is a choice and not a convention.
+
+---
+
+## A375, What Rebuilding Would Take After a War With China, Publication Review
+
+**ALL FOUR PASSES COMPLETE. Committed and PUSHED. NOT PUBLISHED, as instructed.**
+References **97 to 222**, display equations **63 to 75**, lines **2,303 to 3,797**,
+author prose about **12,800 to 21,000 words**, 16 sections and 40 subsections.
+
+### The opening paragraph contradicted the article's own evidence
+
+The first paragraph said **every major public wargame stops within about three weeks**.
+Seventeen hundred lines later the article cites Stewart modelling the campaign
+to the seizure of Taipei on **day 46**. The opening now gives the horizon precisely and says
+that no public game located continues into the period the article is about, which is both true
+and a stronger claim. The conclusion carried the same defect and was fixed with it.
+
+### Three antecedent defects, two of them created by the previous pass
+
+An inserted accountability-office paragraph displaced *the two brackets* from the build-duration
+figures it referred to. An inserted note about the Archigos dataset split an attribution from the
+figures it introduced, so published rates read as though they came from the current data file.
+And **a forward reference was described as backward**, the workforce section citing a report
+*cited above* that was first cited 106 lines **below**.
+**Inserting a paragraph moves an antecedent, and no checker in this repository sees it.**
+
+### What else the scans found
+
+A date error, the bombing survey said to precede the econometrics by *thirty years* when 1945 to
+2009 is more than half a century. A broken promise, the article undertaking to treat Taiwan's
+missing reconstruction estimate *below as one of the gaps* when the gaps section did not contain
+it; it is now the fifth gap and **the count is recomputed from the bullets**. Two overclaims in my
+own prose, including a conclusion asserting that *every* correction made the secondary literature
+look overconfident, which was false because two corrections were the article's own. Eleven ranking
+claims scoped. Six acronyms expanded, four of which first appear inside quotations that cannot be
+altered, so the expansion went into the introducing sentence.
+
+### The survey section, and the finding that reorganised it
+
+Fifteen clusters were added and **125 references**, every one confirmed in a registry with matching
+authors, title, year and venue, with a finding attached only where an abstract or full text was
+retrieved.
+
+**The best single finding is that three incommensurable quantities wear the same units.** The
+circulating cost estimates for a Taiwan contingency run from about two trillion dollars to about
+ten, and that is not a disagreement about magnitude. The low end counts activity at risk and its
+authors say in their own text that they do not estimate welfare. The middle counts modelled welfare
+loss and is far smaller. The high end bundles destruction, mobilisation and panic behind a method
+that could not be read. **The only properly specified input-output estimate located, a geological
+survey model of a total gallium and germanium cutoff, lands at 3.4 billion dollars**, three orders
+of magnitude below the headlines.
+
+### The survey corrected this line's own headline finding
+
+**The twenty-day liquefied natural gas figure is the commission's, carried in its footnotes, and
+appears in no Taiwanese government energy series located.** The article now says so and sets
+against it the one stockpile that is statutory, 60 days of petroleum held by industry plus 30 by
+government. **Petroleum has a 90-day statutory reserve and the fuel the island is moving toward has
+none.** Food supplies a third horizon at about six months, so the ordering is gas, coal, food, and
+**the binding constraint in a long blockade is energy rather than starvation.**
+
+### The reachability figure was nearly reported wrong
+
+A sweep showed 89 of 219 addresses failing, 87 of them digital object identifiers, which looked
+like a corpus problem. Tested individually, the registry resolves with a 302 every time and **the
+publisher refuses the client**. The identifier works and the paywall does not. **Writing the
+aggregate into the article would have recorded publisher bot policy as a fact about the citations.**
+
+### Verification
+
+`_verify.py` **0 errors and 0 warnings across 302 posts**. **111 arithmetic and structural
+statements recheck by script with no failures**, up from 85, and they now include every stated
+reference-composition figure recomputed from the list, the agreement and disagreement counts, and
+the gap count. Diction reports **0 words at or above the peer maximum**. Build 12.7 seconds,
+**rendered audit no findings across 458 pages**, and **source and rendered display counts agree at
+75**, which is this line's mandatory check.
+
+### What remains, and it is the pilot's decision
+
+**A375 is finished and unpublished.** The only blocking item is the date.
+**`_drafts/android_development_on_freebsd.markdown` still carries the same editorial date,
+2026-08-12.** `_verify.py` builds its date map from `_posts` only, so two drafts sharing a date are
+invisible while both are drafts and become a hard `date-collision` error the moment either
+publishes. The run from 2026-08-20 onward is free of both posts and drafts. **That is a content
+decision and it has not been made.**
 
 ---
 

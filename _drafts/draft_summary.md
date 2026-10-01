@@ -25,7 +25,87 @@ essay and the companion to the published A374, categories `geopolitics military 
 **2,303 lines, 63 display equations, 17 inline expressions, 97 reference definitions, roughly 12,800
 words of author prose after the primary-reference pass**, up from 1,448 lines, 50 equations and 78
 references after the equation pass, and from 1,215 lines and 21 equations after drafting.
-**THREE OF FOUR PASSES COMPLETE.** Only the publication review remains. **Not published.**
+**ALL FOUR PASSES COMPLETE.** Committed and **PUSHED**, which the publication review is the pass
+that asks for. **NOT PUBLISHED**, as instructed.
+
+**FINAL STATE after the publication review: 3,797 lines, 75 display equations, 19 inline
+expressions, 222 references and about 21,000 words of author prose**, up from 2,303 lines, 63
+equations and 97 references after the reference pass. 16 top-level sections and 40 subsections.
+**111 arithmetic and structural statements recheck by script with no failures.**
+
+**THE PUBLICATION REVIEW FOUND A CONTRADICTION BETWEEN THE ARTICLE'S OPENING AND ITS OWN
+EVIDENCE.** The first paragraph said *every major public wargame stops within about three weeks*,
+and 1,700 lines later the article cites Stewart modelling the campaign to the seizure of Taipei on
+**day 46**. The opening now says the most cited games stop at about three weeks, that the most
+detailed public campaign model runs to day 46, and that none of them continues into the period the
+article is about, which is both true and stronger. The conclusion carried the same defect and was
+fixed with it.
+
+**THREE ANTECEDENT DEFECTS, TWO OF THEM INTRODUCED BY THE REFERENCE PASS ITSELF.** An inserted
+accountability-office paragraph displaced *the two brackets* from the build-duration figures it
+referred to. An inserted note about the Archigos dataset split the Goemans attribution from the
+figures it introduced, so the published rates read as though they came from the current data file.
+And **a forward reference was described as backward**, the workforce section citing *the Section
+301 report cited above* when that report was first cited 106 lines **below**. Inserting a paragraph
+moves an antecedent, and no checker sees it.
+
+**A DATE ERROR AND A BROKEN PROMISE.** The article said the bombing survey measured the
+capital-versus-output distinction *thirty years before the econometrics*; 1945 to 2009 is more than
+half a century. And at line 1,185 the article promised that Taiwan's missing reconstruction estimate
+was *treated below as one of the gaps*, and the gaps section did not contain it. That is now the
+fifth gap, the section heading and the introduction were renumbered, and **the gap count is
+recomputed from the bullets by script**.
+
+**TWO OVERCLAIMS IN MY OWN PROSE.** The conclusion said *every correction made the secondary
+literature look more confident than its sources*, which is false, because two of the corrections
+were the article's own rounding and overstatement. It now names both directions and **declines to
+total them, because a count would invite the false precision the pass was correcting.** Eleven
+further ranking claims were scoped, including *the most consequential thing in the public record*
+and *the strongest quantitative claim in this literature*.
+
+**THE SURVEY SECTION IS THE LARGEST ADDITION AND IT INVERTED A HEADLINE FINDING.** Nine clusters
+were added covering war termination, recovery economics, the industrial base, mobilisation history,
+force ratios, occupation outcomes, resistance, nuclear consequences, the grid, Chinese nuclear
+posture, regime survival, the postwar order, contingency costs, decoupling policy and Taiwan's own
+preparation. **125 references were added, every one confirmed in Crossref or OpenAlex with matching
+authors, title, year and venue**, and a finding is attached only where an abstract or full text was
+retrieved.
+
+**THE SURVEY'S BEST SINGLE FINDING IS THAT THREE INCOMMENSURABLE QUANTITIES WEAR THE SAME UNITS.**
+The circulating cost estimates for a Taiwan contingency run from about two trillion dollars to about
+ten, and that is not a disagreement about magnitude. The low end counts *activity at risk*, and its
+authors state in their own text that they do not estimate welfare loss. The middle counts modelled
+welfare loss and comes in far smaller. The high end bundles destruction, mobilisation and financial
+panic, and its method could not be read. **The only properly specified input-output disruption
+estimate located, a United States Geological Survey model of a total gallium and germanium cutoff,
+lands at 3.4 billion dollars**, three orders of magnitude below the headline figures.
+
+**AND THE SURVEY CORRECTED THE REFERENCE PASS'S OWN HEADLINE FINDING.** The twenty-day liquefied
+natural gas figure is the commission's, carried in its footnotes, and **appears in no Taiwanese
+government energy series located**. The article now says so, and sets against it the one stockpile
+that is statutory, namely 60 days of petroleum held by industry plus 30 by government under Article
+24 of the Petroleum Administration Act. **Petroleum has a 90-day statutory reserve and the fuel the
+island is moving toward has none.**
+
+**FOUR FURTHER CORRECTIONS FROM THE SURVEY.** Waldinger's decomposition supports the article's
+thesis and narrows it, finding a physical-capital shock that did not persist against a
+human-capital shock four times larger that did. Vonyo finds that surviving German capacity could
+not be used because the housing for its workers was gone, which is a refinement the Ukrainian
+housing figures should be read against. Cerra and Saxena argue recovery is largely a myth and
+Mueller's comment reverses their one exception. And the willingness-to-fight range is now qualified
+by Lai and others, who find the measure frame-dependent and **military recruits less willing to
+fight than civilians**.
+
+**A NEW SYNTHESIS SECTION PAIRS THREE AGREEMENTS AGAINST NINE DISAGREEMENTS**, each with both sides
+named and quoted, and **both counts are recomputed from the section's own bullets by script** rather
+than asserted.
+
+**THE REACHABILITY FIGURE WAS NEARLY REPORTED WRONG.** A sweep showed 89 of 219 addresses failing,
+87 of them digital object identifiers, which looked like a corpus problem. Testing them individually
+showed the registry resolving correctly with a 302 every time and **the publisher refusing the
+automated client**. The identifier works and the paywall does not. Had the sweep's aggregate been
+written into the article it would have recorded a fact about publisher bot policy as a fact about
+the citations.
 
 **THE REFERENCE PASS FOUND A DEFECT THE VERIFIER STRUCTURALLY CANNOT SEE.** Four references were
 defined and listed and **never cited in the argument**. `_verify.py` reported them as used, because the
