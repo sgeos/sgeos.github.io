@@ -464,8 +464,8 @@ and the Bloomberg model is not public. The article labels all three as such.
 `x_planes_aurora_x65_crane.markdown`, A362, editorial date 2025-12-10, series `x_planes` index
 66 of 72.
 
-**8,516 lines, 46 display equations, 228 inline expressions, a
-100-entry symbol table, 3,721 reference definitions, 64,114 words.** **TWO OF
+**8,773 lines, 46 display equations, 228 inline expressions, a
+100-entry symbol table, 3,804 reference definitions, 67,817 words.** **THREE OF
 FOUR PASSES COMPLETE.** Committed and **NOT pushed**, which is the rhythm. **Not published**, and
 publication of the series has never been authorised.
 
@@ -517,10 +517,21 @@ rhymes, `novel effectors` returns fungal pathogens, `control authority` is libra
 helicopters on the reports server**, which is the first registry-dependent homonym this series has
 recorded.
 
-**3,636 research records across 15 of 16 declared clusters**,
-1,387 report primaries at 38.1 percent, median year 2007, from a pool of
-18,432. **The one empty cluster is the finding**, since no record in the pool names this
+**3,709 research records across 15 of 16 declared clusters**,
+1,464 report primaries at 39.5 percent, median year 2007, from a pool of
+20,430. **The one empty cluster is the finding**, since no record in the pool names this
 programme, this aircraft or this contractor.
+
+**THE PRIMARY PASS REVERSED THE EQUATION PASS'S REYNOLDS ARGUMENT.** A report read in full
+demonstrated oscillatory separation control at chord Reynolds numbers as high as forty million, and
+the X-65A flies at 11.44 million, **inside the demonstrated range rather than beyond it**. The
+same report quotes the coefficients it used on a definition identical to this article's,
+0.03 to 0.32 percent, and this article's 0.0945 percent sits inside that band.
+**And it names this article's keystone as the open problem.** Report primaries 1,387 to
+1,464, a share of 38.1 to 39.5 percent, the period count 1,205 to
+1,274. **The air budget, the cluster the pass most wanted to fix, moved from 9.1 to
+12.5 percent on three records from thirty-five dedicated questions**, because what a bleed
+costs an engine is in neither public registry.
 
 **THE EQUATION PASS TOOK 21 DISPLAY EQUATIONS TO 46 AND THREE ADDITIONS ARE FINDINGS.**
 The X-65A flies at a Reynolds number of 11.44 million, **19.1 to 497.6 times that of the
