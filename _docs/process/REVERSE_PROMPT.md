@@ -5,7 +5,7 @@
 ## Last Updated
 
 **Date**: 2026-09-30
-**Task**: **A362, X-Planes: Aurora Flight Sciences X-65 CRANE, drafting pass.** Committed,
+**Task**: **A362, X-Planes: Aurora Flight Sciences X-65 CRANE, equation-density review, the second of four passes.** Committed,
 **not pushed**, which is the rhythm for passes one to three. **Not published**, and publication
 of the series has never been authorised. **Sixty-six of seventy-two drafted, six remain.**
 
@@ -24,7 +24,119 @@ was lost.**
 
 ---
 
-## A362, X-Planes: Aurora Flight Sciences X-65 CRANE
+## A362, Equation-Density Review
+
+**Display equations 21 to 46, inline expressions 113 to 228, the symbol
+table 48 entries to 100, lines 8,281 to 8516 and words 60,403 to
+64114.** Reference definitions unchanged at 3721. Committed, **not pushed**, which
+is the rhythm. **Not published.**
+
+### What Was Missing Was the Ground the Whole Article Stands On
+
+**Twenty-five relations were added and most of them had been in use since the drafting pass
+without ever appearing.** The standard atmosphere, the speed of sound, the total conditions, the
+corrected-flow invariant, the compressor temperature ratio, the two mass-flow routes, the core
+flow, the aspect ratio, the wing loading and the lift coefficient were all computed and none was
+shown. **The genre rule is that a relation the prose relies on gets displayed, and an article
+that tabulates a standard-atmosphere pressure without showing where it comes from fails it.**
+
+**The additions that are findings rather than bookkeeping are three.**
+
+### The Reynolds Number Gap, Which Quantifies Why the Aeroplane Exists
+
+**The drafting pass asserted that Reynolds number is why a flight demonstrator is needed and
+never computed it.** On the mid-sweep chord at Mach 0.7 and thirty thousand feet the X-65A flies
+at **11.44 million**, by Sutherland's law for the viscosity, checked against the published
+sea-level value.
+
+**The experiments this article borrows its thresholds from ran at between 19.1 and
+497.6 times less.** The measured reattachment at 0.34 percent was obtained at one hundred
+thousand. The modified-coefficient thresholds at twenty-three thousand. **Every number used to
+decide whether the bleed budget is adequate was measured one to nearly three orders of magnitude
+below the condition it is applied to**, and the article now says so and says the direction of the
+error is not known in advance, since a boundary layer that separates later needs less control
+while being less receptive to it.
+
+### Sharing One Plenum Is an Advantage, and the Limit Is Pi Squared Over Two
+
+**The drafting pass said the constraint set is a simplex rather than a box and left the
+impression that sharing is a penalty.** The algebra says otherwise and the algebra is now shown.
+The demanded moment is the effectiveness matrix times the demand vector, three axes need full row
+rank, and the reachable set is the image of the admissible set. **A box maps to a zonotope and a
+simplex maps to the convex hull of its vertices' images.**
+
+**Held at the same total air, the shared plenum reaches 4.9360 times the moment area that
+equal fixed per-effector shares would reach**, at fourteen effectors. **The ratio converges to an
+exact closed form**, the hull tending to a half disc and the equal-share zonotope to the
+reciprocal of pi, so the limit is pi squared over two, 4.9348. At a hundred effectors the
+computed ratio sits within a part in ten thousand of it. **Both areas were also checked against a
+rejection sample over an exactly computed bounding box, and the unit square and unit triangle by
+hand.**
+
+**So the cost of one supply is not a smaller reachable set. It is that the set is no longer a
+box**, so the allocator cannot be a per-axis gain and has to solve a programme. The geometry is
+labelled illustrative in the text, because the effector positions are not published.
+
+### The Air's Price, Now Stated
+
+**Bleeding 1.860 percent of total engine flow is also the floor on the thrust it costs**,
+and the compressor work already spent on each kilogram is 334.1 kilojoule at a temperature
+ratio of 2.3241. **The article states the inequality and declines to compute the true loss**,
+which needs an engine deck. And the bleed inversion is now displayed, so the fractions are
+derived rather than tabulated: 6.77 percent of core flow reaches the lowest measured
+threshold and 253.95 percent would be needed for super-circulation, **which is two and a
+half times the core flow the engine has.**
+
+### Four Defects, and Two Were in the Checks
+
+**THE FIRST EQUATION CHECK FAILED FOUR TIMES AND THREE WERE ITS OWN REFERENCE VALUES.** Its
+standard-atmosphere table carried the 1976 values at five thousand FEET against a key in METRES.
+**A unit confusion in a test accuses the code of the test's own mistake**, and this is the fourth
+time in this series an equation pass has failed in the check rather than the article.
+
+**THE FOURTH FAILURE WAS A MONTE CARLO WHOSE BOUNDING BOX MISSED THE EXTREME POINTS.** It
+reported a hull area BELOW the closed form, which for a coarse outer approximation is impossible,
+and that impossibility is how it was spotted. The bounding box is exact and needed no sampling.
+
+**AND THE RENDERED PAGE CARRIED TWO CORRUPTED EXPRESSIONS THAT NOTHING SAW.** Kramdown does not
+protect `$...$` from markdown processing, so an underscore opened emphasis in one expression and
+closed it in another, putting an `<em>` tag inside the mathematics. **`_verify.py` passed,
+`_lib/render.py` passed, and the equations still rendered.** It was found by reading a snippet of
+the page by eye.
+
+**THE FIRST FIX WAS BUILT ON A GUESS AND MADE IT WORSE, TWO CORRUPTED SPANS BECOMING THREE.** It
+braced every subscript on a wrong model of the flanking rule. **A direct probe of kramdown
+settled the rule in five lines**, and the measured behaviour is that an underscore opens when the
+character before it is not a word character and closes when the character after it is not.
+Escaping the openers works and costs nothing, because kramdown consumes the backslash and MathJax
+receives the underscore. **Nine spans carry the escape and the rendered page now carries none of
+the tags.**
+
+**THE DEFECT IS PRE-EXISTING AND CORPUS-WIDE, AND THE FIRST COUNT OF IT WAS WRONG TOO.** A scan
+built on the pre-probe flanking rule reported fifteen pairs across ten files. **Rebuilt on the
+measured rule it reports seventy-two pairs across thirty-eight files**, of which **thirty-five are
+published posts carrying sixty-nine pairs** and three are drafts carrying three. The heaviest is a
+projection-series post with seven. **Two of the drafts are this series' own**, being the opener and
+A361, and the third is A334.
+
+**A362 is fixed and the other thirty-seven are reported and untouched**, because editing the
+mathematics of published posts is the pilot's call and not a side effect of an equation-density
+review. **The wrong count had already been written into these files and was corrected before the
+commit**, which is the only reason it is not in the history table as a fact.
+
+### Verification
+
+`verify_numbers.py` now runs **111 checks with none failing**, up from sixty-three, and
+`neweqns.py` runs **fifty-two** more against published table values, independent routes and
+hand-checkable cases. `symcheck.py` reports 100 declared symbols with every token
+used resolving to one, after **two more collisions were renamed**, the lapse rate off `L` which
+`\Delta L` and `C_L` were already using, and the tropopause conditions off `T_t` and `p_t` which
+are the plenum's. `_verify.py` reports **0 errors and 0 warnings**. The rendered audit reports
+**no findings across 546 pages**, and **source display blocks and rendered blocks both count
+46**.
+
+
+## A362, X-Planes: Aurora Flight Sciences X-65 CRANE, Drafting Pass
 
 ### The Keystone, Which Cancelled Altitude Twice and Exactly
 

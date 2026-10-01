@@ -384,8 +384,8 @@ and the Bloomberg model is not public. The article labels all three as such.
 `x_planes_aurora_x65_crane.markdown`, A362, editorial date 2025-12-10, series `x_planes` index
 66 of 72.
 
-**8,281 lines, 21 display equations, 113 inline expressions, a
-48-entry symbol table, 3,721 reference definitions, 60,403 words.** **ONE OF
+**8,516 lines, 46 display equations, 228 inline expressions, a
+100-entry symbol table, 3,721 reference definitions, 64,114 words.** **TWO OF
 FOUR PASSES COMPLETE.** Committed and **NOT pushed**, which is the rhythm. **Not published**, and
 publication of the series has never been authorised.
 
@@ -441,6 +441,16 @@ recorded.
 1,387 report primaries at 38.1 percent, median year 2007, from a pool of
 18,432. **The one empty cluster is the finding**, since no record in the pool names this
 programme, this aircraft or this contractor.
+
+**THE EQUATION PASS TOOK 21 DISPLAY EQUATIONS TO 46 AND THREE ADDITIONS ARE FINDINGS.**
+The X-65A flies at a Reynolds number of 11.44 million, **19.1 to 497.6 times that of the
+experiments its threshold values come from**. **A shared plenum reaches 4.9360 times the moment
+area that equal per-effector shares of the same air would**, converging to an exact pi squared
+over two, so sharing one supply is an advantage where the drafting pass had implied a cost. And
+the bleed's thrust cost now carries a displayed lower bound. **Kramdown had corrupted two inline
+expressions with emphasis tags that `_verify.py`, the rendered audit and MathJax all passed**, the
+defect is pre-existing across thirty-five published posts and three drafts, seventy-two pairs in
+all, and A362 is fixed while the others are reported and untouched.
 
 **Publication was not requested and the article is not published.**
 
