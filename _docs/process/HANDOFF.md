@@ -11,23 +11,24 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `5a39dfd`
-- **Written**: 2026-09-30, by the X-Planes line
-- **Tree at write**: **CLEAN.** `git status --porcelain` returns nothing, which is a change from
-  the previous three handoffs and means no file is mid-edit by either line. **Nothing is unpushed
-  either**, so after this file is committed there will be exactly one unpushed commit and it will
-  be this one.
-- **BOTH LINES OF WORK ARE COMPLETE AND BOTH ARE AT AN ARTICLE BOUNDARY.** Neither is mid-rhythm.
-- **Line one, X-Planes, is mine. A362 IS COMPLETE.** A297 through A362 have all four passes
-  complete and are pushed. A362's four commits are `3b7d8a9` drafting, `e6249ed` equation density,
-  `8076c13` primary references and `5a39dfd` the publication review. **Sixty-six of seventy-two
-  drafted. Six remain.** Nothing in the series is published and publication has never been
-  authorised.
-- **Line two, A375, is not mine and it is also finished and pushed.** Four passes plus a
-  pathological-word-usage pass, its commits running to `1665f91`. **NOT published, as instructed.**
-  Its resume section below is preserved as its own author wrote it.
-- **A362 KEPT ONE COMMIT PER PASS, WHICH A361 DID NOT.** The previous handoff recorded A361's two
-  commits for four passes as a departure and asked the next article to keep to one each. It did.
+- **Parent commit** (the repository state this handoff describes): `e5980e2`
+- **Written**: 2026-10-01, by the A375 line, which is the second writer on this file
+- **Tree at write**: **CLEAN.** `git status --porcelain` returns nothing and
+  `git log origin/master..HEAD` returns nothing, so every commit below is on the remote. After this
+  handoff is committed there will be exactly one unpushed commit and it will be this one.
+- **BOTH LINES ARE AT AN ARTICLE BOUNDARY AND NEITHER IS MID-RHYTHM.**
+- **Line one, X-Planes, is not mine and I have not touched it.** A297 through A362 have all four
+  passes complete and are pushed. **Sixty-six of seventy-two drafted and 66 `x_planes` drafts are on
+  disk, which agrees for the first time in several handoffs.** Six remain. Nothing in the series is
+  published and publication has never been authorised. **Its resume section below is preserved as
+  its own author wrote it, and its next prompt is A363.**
+- **Line two, A375, is mine and it is FINISHED AND PUBLISHED.** Four passes, a
+  pathological-word-usage pass, and publication. **The corpus is 303 posts.** Its commits run
+  `29af463` publication review, `1665f91` diction pass, `72599c4` the deferred process entries,
+  `4a20589` the publication itself, and `e5980e2` the re-dating that followed from it.
+- **THE DATE COLLISION THAT THREE HANDOFFS CARRIED AS AN OPEN DECISION IS CLOSED.** It is recorded
+  under the A375 section below with the constraint that made the obvious fix wrong, because that
+  constraint will recur.
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that
 day and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -74,23 +75,64 @@ says it is overwritten and which in practice accumulates will be truncated by wh
 header.**
 
 
-## Resume prompt for line two, A375, which is finished and is preserved as a record
+## Line two, A375, is finished and published, and this section is a record
 
-**A375 IS COMPLETE AND PUSHED AND IT IS NOT MINE.** Four passes plus a pathological-word-usage
-pass. `_drafts/rebuilding_after_war_with_china.markdown`, A375, titled *What Rebuilding Would Take
-After a War With China*, editorial date **2026-08-12**, categories `geopolitics military war-gaming`,
-standalone analytical essay and the companion to the published A374. **Final state 3,797 lines, 75
-display equations, 222 reference definitions and about 21,000 words of author prose, in 16 sections
-and 40 subsections.** **NOT published, as its pilot instructed.**
+**A375 IS PUBLISHED AND LIVE AND NOTHING IS OUTSTANDING ON IT.** Published 2026-10-01 at the
+editorial date **2026-08-12** as `_posts/2026-08-12-rebuilding_after_war_with_china.markdown`,
+verified at HTTP 200 on the live site with **75 of 75 display equations rendering**, no raw
+delimiters, no unresolved reference brackets and no raw Liquid. Titled *What Rebuilding Would Take
+After a War With China*, categories `geopolitics military war-gaming`, standalone analytical essay
+and the companion to A374. **Final state 3,807 lines, 75 display equations, 222 references all cited
+in the argument, about 21,000 words of author prose, 16 sections and 40 subsections.** **Next
+available article number is A376.**
 
-**Its publication review found that its own opening paragraph contradicted its evidence**, saying
-every major public wargame stops within about three weeks where the article later cites a campaign
-modelled to day 46. **That is the defect class this series keeps meeting**, an article refuted by
-something it says about itself seventeen hundred lines later.
+**Do not resume this line. There is no pass left to run.** If the pilot returns to it, the live
+channels carry the detail and `REVERSE_PROMPT.md` is append-at-top with all three of its reports.
 
-**This section is a record and not a direction.** If the pilot resumes that line, read
-`REVERSE_PROMPT.md` for its own report, which is append-at-top and carries both of its passes.
+### Four rules this line earned that generalise beyond it
 
+- **A SOURCE-TO-RENDERED DISPLAY COUNT COMPARISON IS MANDATORY AFTER ANY EQUATION PASS.** Four
+  inserted blocks once rendered as inline mathematics because the insertion left no blank line after
+  the closing delimiter. **`_verify.py` passed and the rendered audit reported no findings**, because
+  the mathematics still rendered and no delimiter leaked. Only counting `^\$\$$` pairs in source
+  against `\[` in the rendered HTML exposed it.
+- **A CHECKER PASSES BECAUSE ITS SCOPE IS WRONG, AND THIS SERIES HAS NOW MET IT FOUR TIMES.** A360's
+  numerical check was robust and therefore blind. A361's decision probe used my own phrasing rather
+  than the article's. A375's reference pass found four references counted as used because the
+  References bullet list cites every anchor. A375's publication review nearly recorded a reachability
+  sweep in which 87 of 89 failures were publishers refusing the client, not bad citations. **The fix
+  is always the same: run the check against the artefact a reader sees, never a convenient proxy.**
+- **A DICTION FIX MUST BE RE-MEASURED AFTER IT IS APPLIED, EXACTLY LIKE AN EQUATION PASS.** The
+  diction pass over-corrected twice in a row, putting `earlier` into five of six replacements and
+  then `above` into four, and pushing `report that` over the peer maximum while redistributing
+  attribution verbs. **Each was caught by re-measuring and none by reading.** The enumerated tic
+  class found nothing before or after, so the targets had to be discovered against the published
+  corpus; the instrument is `tmp/a375/pathology.py` and it is gitignored, so it will not survive.
+- **DO NOT CONSTRUCT AN IDENTIFIER YOU CAN READ.** A background deploy-waiter was given a full commit
+  SHA whose first seven characters were real and whose remaining thirty-three were invented. The
+  `select` never matched, the fallback clause returned `"0"` rather than empty, and the loop polled
+  GitHub every twenty seconds for a commit that does not exist until it was killed. **This is the
+  same class as reading `tail`'s exit status instead of the watched command's.**
+
+### The date collision is closed, and the constraint that closed it will recur
+
+**The slot 2026-08-12 was shared by A375 and `android_development_on_freebsd.markdown`.** The
+verifier builds its date map from `_posts` alone, so `date-collision` is an **error** only when two
+*posts* share a day; a draft sharing the date of a post is the weaker `draft-date-taken` **warning**.
+Publishing A375 therefore did not trip it, and the warning was cleared afterwards by re-dating.
+
+**THE OBVIOUS FIX WAS WRONG AND THE REASON IS GENERAL.** `post_url` hard-codes the target's dated
+filename, and `android_unit_testing.markdown` back-references the draft that had to move. Every day
+from 2026-08-13 to 2026-08-19 was held by the same eight-draft cohort and every day before 2026-08-12
+is a published post, so **no free slot existed earlier than the dependent**. Moving the dependency
+alone would have inverted the direction and left a trap in which publishing the dependent on its own
+fails the whole site build on an unresolvable `post_url`. **Both were moved**, to 2026-08-20 and
+2026-08-21, and the `post_url` was retargeted.
+
+**The rule to carry: before re-dating any draft, check what back-references it, because `post_url`
+encodes the date and a re-date silently inverts a dependency.** 2026-08-16 is now free and the
+Android pair sits at the end of its run rather than the start; the alternative, shifting the whole
+cohort down one day, was offered to the pilot and not taken.
 
 ## Resume prompt for line one, X-Planes, and the next prompt is A363
 
@@ -207,8 +249,8 @@ SPRINT, and the closing synthesis. **Three of the six are anomaly or synthesis a
 genre document's reduced order governs them.**
 
 **A374, What Published Wargames Say About a War With China**, editorial date 2026-08-11.
-**PUBLISHED.** Not part of this series. **A375 is its companion, is finished, and is line two of this
-file.**
+**PUBLISHED.** Not part of this series. **A375 is its companion and is also PUBLISHED, at the
+editorial date 2026-08-12, which is line two of this file and is finished.**
 
 
 ## The Established Rhythm, Which Is the Most Important Thing Here
