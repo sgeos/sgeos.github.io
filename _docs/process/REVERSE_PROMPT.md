@@ -5,28 +5,175 @@
 ## Last Updated
 
 **Date**: 2026-09-30
-**Task**: **A361, X-Planes: Invocon X-64, all four passes.** Committed and **pushed**.
-**Not published**, and publication of the series has never been authorised. **Sixty-five of
-seventy-two drafted, seven remain.**
+**Task**: **A362, X-Planes: Aurora Flight Sciences X-65 CRANE, drafting pass.** Committed,
+**not pushed**, which is the rhythm for passes one to three. **Not published**, and publication
+of the series has never been authorised. **Sixty-six of seventy-two drafted, six remain.**
 
-**THREE PASSES WENT INTO ONE COMMIT AND THE PUBLICATION REVIEW INTO A SECOND.** A361's
-literature sweep ran long enough that the pilot's next two prompts arrived before the
-drafting pass had been committed. The rhythm asks for a commit after each pass and this
-article has two commits for four passes, which is recorded here rather than smoothed over.
+**A SECOND LINE IS ALSO ACTIVE AND ITS REPORT IS PRESERVED BELOW.** A375 has completed its
+primary-reference pass, the third of four, and is committed and not pushed. **That section is
+preserved rather than overwritten**, which is the rule its own author wrote down when preserving
+this line's A374 section.
 
-**A SECOND LINE IS ALSO ACTIVE AND ITS REPORT IS BELOW THIS ONE.** A375 has completed its
-**primary-reference pass, the third of four**, and is committed and not pushed. That section
-is preserved rather than overwritten, as this line's A374 section was preserved by it.
-**The A375 line reports the same class of finding twice over: a checker that passes because
-its scope is wrong.** Four of that article's references were defined, listed and never cited
-in the argument, and `_verify.py` counted them as used because the References bullet list
-cites every anchor. **That is the same shape as A360's numerical check being robust and
-therefore blind, and as A361's decision probe using my own phrasing rather than the
-article's.** Three independent instances now argue the pattern is structural rather than
-incidental, and the common fix is the same, which is to run the check against the artefact a
-reader sees rather than against a convenient proxy for it.
+**AND THIS FILE WAS OVERWRITTEN WHOLE ONCE BEFORE IT WAS REPAIRED, WHICH IS WORTH RECORDING.**
+The A362 pass read `REVERSE_PROMPT.md` as a single slot holding the latest report, wrote 150 lines
+over 1,305, and destroyed the A375 line's section along with every prior report from both lines.
+**The convention is append-at-top with history preserved.** A file whose header says it is
+overwritten after each task, and which in practice accumulates, will be truncated by whoever
+believes the header. **It is repaired here from `git show HEAD`, which is the only reason nothing
+was lost.**
 
 ---
+
+## A362, X-Planes: Aurora Flight Sciences X-65 CRANE
+
+### The Keystone, Which Cancelled Altitude Twice and Exactly
+
+**The momentum coefficient an engine-bled flow-control effector can deliver is exactly
+independent of altitude.** Corrected mass flow makes the bled flow proportional to ambient
+pressure, the compressible identity makes dynamic pressure proportional to ambient pressure, and
+those cancel. **Then a second cancellation nobody asked for**, because corrected flow divides by
+the square root of the compressor-face total temperature while a choked jet fed from that same
+air multiplies by it. **The inlet total-condition factor cancels once as well.** What survives is
+the inlet's own total-pressure recovery over the square of the Mach number, verified identical to
+twelve significant figures across ninety-one altitudes from sea level to forty-five thousand feet.
+
+**The other architecture varies by 7.92 times over the same band**, so the published
+phrase `a pressurized source` conceals which behaviour this aircraft has. **The article's
+prediction is that two flights at one Mach number and two altitudes settle it.**
+
+**AND A MONOTONICITY CHECK REFUTED A BOUND THE ARTICLE HAD ASSERTED.** The Mach factor was
+claimed monotone to about Mach 1.9. It turns at exactly Mach 1.4142, independently of the
+specific-heat ratio, and the minimum has the closed form gamma to the power gamma over gamma
+minus one, halved. **Three routes agree to one part in ten to the fifteenth.**
+
+### The Result That Had to Be Withdrawn, and the Review That Withdrew It
+
+**THE DRAFTING PASS INVENTED A BAND AND A PRIMARY REFUTED IT.** The first version asserted that
+separation control needs a momentum coefficient between 0.005 and 0.02, computed that engine
+bleed cannot reach it, and made that the central difficulty. **An open-access review, read in
+full, reports the separation-control to super-circulation threshold at three to five percent and
+a measured lift response at 0.08 percent.** The wing-referenced coefficient computed here is
+0.0945 percent, so it reaches the smallest value at which a response has been measured, and
+needs a concentration factor of only 3.60 to reach a measured reattachment threshold.
+**The conclusion reversed and the reversal favours the aircraft.**
+
+**The same review names the article's own quantity.** What this article derived as an
+amplification identity, the ratio of the lift increment to the momentum coefficient, the
+literature calls the actuation efficiency and already reports as falling through the regime
+transition. **No novelty is claimed and the article says so in its own text.**
+
+**It also cautions against the use the article makes of the momentum coefficient**, because many
+combinations of mass flow and jet velocity give one value, and the parameter that separates them
+is the velocity ratio, which must exceed unity. **It is 2.083 here.** And because a higher
+velocity ratio beats a higher mass flow at the same momentum, **the single-stage centrifugal
+compressor that forces hot full-cycle bleed is favourable in exactly that dimension**, which is a
+reason not to precool the air and was not looked for.
+
+### Where Flow Control Loses to a Hinge
+
+**The authority ratio is altitude-independent and falls as the square of the Mach number.** At an
+amplification of thirty against a surface worth 0.05 in lift coefficient, the crossover is Mach
+0.485, flow control delivering 5.15 times the hinge's authority at Mach 0.2 and
+0.567 of it at Mach 0.7. **For a conventional aeroplane the hard case for control power
+is slow flight. For this one it is fast flight**, and an envelope expanded upward walks from the
+easy end to the hard one.
+
+### The Award Record Names What the Narrative Does Not
+
+**Twenty-five offers, three awards, and the downselect visible as an exercised option.** Aurora
+Flight Sciences, Lockheed Martin and Georgia Tech Research Corporation each hold a Phase 0
+contract reporting twenty-five offers received. Aurora and Lockheed each exercised an option in
+mid-2021 and **Georgia Tech never exercised one at all**, leaving 45.1 percent of its ceiling
+unused, so the record dates a cut no source states in words. **Georgia Tech was also cost no fee
+where both companies were cost plus fixed fee.**
+
+**The Phase 2 and Phase 3 contract carries 94,372,238 dollars against a press figure of forty-two
+million**, because the two phases went onto one instrument. **Its last obligation is 16 January
+2025 and the only action after it is a zero-dollar change order on 11 February 2025**, which is
+the pause appearing as an absence. The period of performance expired on 2 October 2025, sixty-nine
+days before the article's dateline, with the fuselage unfinished. **The restructured co-investment
+appears nowhere in the record, because a contractor's cost share is not federal spending.**
+
+### Seven Budget Books, and a Milestone That Slipped Two Fiscal Years
+
+Every CRANE line in every DARPA justification book from the fiscal year 2020 request to the
+fiscal year 2026 request was read. **The three columns of an exhibit are a prior-year actual, a
+current-year estimate and a budget-year request, so one fiscal year appears in three consecutive
+books wearing three hats**, and reading the disagreement as inconsistency would be wrong.
+
+**Fiscal year 2020 came in 81.33 percent above its request and every year since has come in
+below, at a mean shortfall of 16.29 percent.** The programme asked 200.507 million
+dollars across seven years and expects 179.416 million. **The critical design review was
+promised in four consecutive books for three different fiscal years.** The fiscal year 2026
+request of 4.000 million is the only round number among seven figures carrying three decimals.
+
+### The Vocabulary Is the Worst the Series Has Met
+
+**`CRANE` returns a logging-crane fatality, a mobile-gantry-crane fatality and two collections of
+nursery rhymes, with nothing aeronautical in ten results.** `novel effectors`, the literal phrase
+in the programme's title, returns fungal and oncological effectors. `control authority` is
+bibliographic authority control, ten of ten. `fluidic oscillator` is an American Water Works
+Association standard for cold-water meters. **`momentum coefficient`, the article's keystone
+parameter, returns microchannel accommodation, rarefied momentum exchange and an evolutionary
+optimiser.**
+
+**AND ONE HOMONYM DEPENDS ON WHICH REGISTRY YOU ASK, WHICH IS NEW TO THIS SERIES.**
+`hingeless control` returned ten of ten on subject from the bibliographic index, every one about
+flow-control effectors, and seventy-two records from the reports server of which every one is a
+helicopter rotor hub. **The same two words name two unrelated subjects and the right anchor
+differs by registry.** The gate carries a rotorcraft guard because a probe was read, not because
+an audit failed.
+
+**The keystone parameter is almost never in a title.** Twelve titles in nearly twenty thousand
+name it and the gate admits eleven. **The parameter is a method rather than a subject**, which is
+a third case beside a query that failed and a literature that was thin.
+
+### What the Audit and the Checkers Caught
+
+**The two-sided audit changed the gate twice.** A refused co-flow jet paper revealed an entire
+effector family with no anchor. A refused reconfigurable-control record revealed fifty-nine
+control-allocation records of which forty were being refused, **and twenty-eight effectors on
+three axes is an allocation problem by construction**, so that cluster exists because refusals
+were read.
+
+**A GUARD WAS DEFEATED BY A HYPHEN AND THE SHARED LIBRARY CANNOT REPAIR IT.** The library flattens
+intraword hyphens only after an unflattened pattern has failed. **A guard is a negative lookahead,
+so a guard that fails to fire is a guard that admits**, and the record is admitted before
+flattening is tried. Two further guards leaked when refusal cases were re-tested with hyphens,
+having passed because the test used the spelling the probe returned.
+
+**THE YEAR RESOLVER FAILED ON ALL 1,321 RECORDS AND RAISED NOTHING.** It read the raw response's
+`publications` field from a library function that had already consumed and discarded it. **An
+empty year is a legitimate value, so a total parser failure and a dateless registry are the same
+observation**, and the only instrument that can separate them is a success-rate floor, which the
+file now carries.
+
+**A ZERO-COUNT CLUSTER IS INVISIBLE IN A COUNTER.** The statistics looked for zero values and
+found none, because `collections.Counter` never creates a key it did not count. **The one empty
+cluster is a finding**, being that not one record in 18,432 names this programme, this
+aircraft or this contractor.
+
+**`symcheck.py` FOUND TWO REAL SYMBOL COLLISIONS.** The letter A served as the amplification and
+as the choked throat area, and f served as a dimensionless factor and as a frequency. Both were
+renamed.
+
+### Verification
+
+**8,281 lines built from eleven body files with every number filled from a slot**, so no
+figure is typed into the prose. `verify_numbers.py` runs sixty-three checks and all pass,
+re-deriving the atmosphere against published table values, the altitude invariance across
+ninety-one altitudes, the turning point by three routes, the amplification identity and the
+survey statistics from the reference base. `_verify.py` reports **0 errors**. The stub build took
+fifteen seconds and the rendered audit reports **no findings across 546 pages**. **Source display
+equations and rendered display blocks both count 21**, which is the check A375 earned
+when four of its equations folded into a paragraph.
+
+---
+
+## Next
+
+**Await the pilot's prompt.** By the rhythm the next prompt is A362's equation-density review.
+
 
 ## A361, X-Planes: Invocon X-64
 

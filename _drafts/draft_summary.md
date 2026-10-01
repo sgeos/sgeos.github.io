@@ -379,6 +379,72 @@ and the Bloomberg model is not public. The article labels all three as such.
 **Publication was not requested and the article is not published.**
 
 
+## X-Planes Aurora Flight Sciences X-65 CRANE A362 2025-12-10
+
+`x_planes_aurora_x65_crane.markdown`, A362, editorial date 2025-12-10, series `x_planes` index
+66 of 72.
+
+**8,281 lines, 21 display equations, 113 inline expressions, a
+48-entry symbol table, 3,721 reference definitions, 60,403 words.** **ONE OF
+FOUR PASSES COMPLETE.** Committed and **NOT pushed**, which is the rhythm. **Not published**, and
+publication of the series has never been authorised.
+
+**THE KEYSTONE CANCELS ALTITUDE TWICE AND EXACTLY.** The momentum coefficient an engine-bled
+flow-control effector delivers is independent of altitude, because corrected mass flow and
+compressible dynamic pressure both scale with ambient pressure, **and because a choked jet fed
+from compressor air gains in velocity exactly what corrected flow loses in the square root of
+temperature.** The inlet total-condition factor cancels once as well. Verified identical to twelve
+significant figures across ninety-one altitudes. **A compressor at fixed shaft power varies by
+7.92 times over the same band**, and the published phrase `a pressurized source` does not
+say which this aircraft has. **Two flights at one Mach number and two altitudes would settle it.**
+
+**WHAT SURVIVES HAS AN EXACT MINIMUM AT MACH 1.4142**, independently of the specific-heat
+ratio, with a closed-form value. **A monotonicity check refuted the bound the article had
+asserted**, which had put the turn near Mach 1.9.
+
+**A RESULT WAS WITHDRAWN DURING DRAFTING AND THE WITHDRAWAL IS THE IMPROVEMENT.** The first
+version invented a separation-control band of 0.005 to 0.02, computed that bleed cannot reach it,
+and made that the central difficulty. **An open-access review read in full reports the regime
+threshold at three to five percent and a measured lift response at 0.08 percent**, and the
+wing-referenced coefficient here is 0.0945 percent. **The conclusion reversed in the aircraft's
+favour.** The same review names the article's amplification as the actuation efficiency, so no
+novelty is claimed, and it cautions against the article's own use of the momentum coefficient,
+whose remedy is the velocity ratio, **2.083 here and required to exceed unity**.
+
+**THE AUTHORITY RATIO FALLS WITH MACH NUMBER AND NOT WITH ALTITUDE.** Crossover at Mach
+0.485 for an amplification of thirty against a surface worth 0.05, delivering
+5.15 times a hinge's authority at Mach 0.2 and 0.567 of it at Mach 0.7. **For a
+conventional aeroplane the hard case for control power is slow flight. For this one it is fast
+flight.**
+
+**THE AWARD RECORD NAMES THE THREE COMPETITORS AND DATES THE DOWNSELECT.** Twenty-five offers,
+three Phase 0 awards to Aurora Flight Sciences, Lockheed Martin and Georgia Tech Research
+Corporation. Aurora and Lockheed each exercised an option in mid-2021 and **Georgia Tech never
+exercised one**, which dates a cut no source states. The Phase 2 and Phase 3 contract carries
+94,372,238 dollars, its last obligation is 16 January 2025, **and the only action after it is a
+zero-dollar change order**. Its period of performance expired sixty-nine days before the dateline
+with the fuselage unfinished. **The restructured co-investment appears nowhere, because a
+contractor's cost share is not federal spending.**
+
+**SEVEN BUDGET BOOKS WERE READ AND THE PROGRAMME NEVER ONCE GOT WHAT IT ASKED FOR AFTER THE FIRST
+YEAR.** Mean shortfall 16.29 percent, 200.507 million asked against 179.416
+million expected, **and the critical design review promised in four consecutive books for three
+different fiscal years.**
+
+**THE VOCABULARY IS THE WORST THE SERIES HAS MET.** `CRANE` returns crane fatalities and nursery
+rhymes, `novel effectors` returns fungal pathogens, `control authority` is library cataloguing.
+**And `hingeless control` is ten of ten on subject in the bibliographic index and seventy-two
+helicopters on the reports server**, which is the first registry-dependent homonym this series has
+recorded.
+
+**3,636 research records across 15 of 16 declared clusters**,
+1,387 report primaries at 38.1 percent, median year 2007, from a pool of
+18,432. **The one empty cluster is the finding**, since no record in the pool names this
+programme, this aircraft or this contractor.
+
+**Publication was not requested and the article is not published.**
+
+
 ## X-Planes Invocon X-64 A361 2025-12-09
 
 `x_planes_invocon_x64.markdown`, A361, editorial date 2025-12-09, series `x_planes` index 65
