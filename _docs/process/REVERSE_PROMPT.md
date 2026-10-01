@@ -5,8 +5,7 @@
 ## Last Updated
 
 **Date**: 2026-09-30
-**Task**: **A362, X-Planes: Aurora Flight Sciences X-65 CRANE, primary-reference review, the third of four passes.** Committed,
-**not pushed**, which is the rhythm for passes one to three. **Not published**, and publication
+**Task**: **A362, X-Planes: Aurora Flight Sciences X-65 CRANE, all four passes complete.** Committed and **PUSHED** on the pilot's instruction. **Not published**, and publication
 of the series has never been authorised. **Sixty-six of seventy-two drafted, six remain.**
 
 **A SECOND LINE HAS FINISHED ITS ARTICLE AND ITS REPORT IS PRESERVED BELOW.**
@@ -36,6 +35,91 @@ believes the header. **It is repaired here from `git show HEAD`, which is the on
 was lost.**
 
 ---
+
+## A362, Publication Review
+
+**Lines 8,775 to 8,777, words 67,925 to 67,992, the symbol table 100 entries to
+102.** Display equations held at 46, references at 3,804.
+Committed and **PUSHED** on the pilot's instruction. **NOT PUBLISHED**, and publication of the
+series has never been authorised.
+
+### A Claim This Review Refuted by Counting
+
+**The article said `hingeless control` returned seventy-two records from the reports server of
+which every one was a helicopter. It is 61 of 72.** The review counted
+all 72 titles instead of trusting the sample that had been read, and
+11 do not carry rotorcraft vocabulary. **Most of those are rotorcraft work under
+other words**, being higher harmonic control, flap-lag stability in forward flight, ground
+resonance and a vertical and short take-off conference. **Two are not rotorcraft at all.** They
+are the DARPA, Air Force Research Laboratory, NASA and Northrop Grumman Smart Wing programme,
+**which shares the hingeless vocabulary because it is about a wing with no discrete moving
+surface**, and which this article's sweep never asked for. The corrected count and the Smart Wing
+finding are both in the body.
+
+### Seven Rankings Were Scoped to What Had Been Measured
+
+**The superlative scan returned forty-five hits and seven were rankings this article had not
+earned.** That the aircraft is the first in the series able to be compared with itself, a ranking
+across sixty-six articles. That `CRANE` is the least useful query in the sweep, a ranking over
+roughly two hundred probes where ten were read by hand. That a declared symbol table is the only
+instrument that catches a collision. That the air architecture is the single largest uncertainty in
+the analysis, where the amplification range is wider. That the differencing design is the single
+most important decision in the aircraft. That this article's vocabulary is the worst the series has
+met, across vocabularies never measured. And that asking the detail endpoint was the only way to
+tell a catalogue gap from a literature gap. **Each is now scoped to what was checked**, and the
+rankings that survive are the ones with a measurement behind them, such as the air budget being the
+thinnest of fifteen clusters.
+
+### A Stale Figure an Emitter Had Hard-Coded
+
+**The empty-cluster message said the sweep retrieved 18,432 records and the pool is 20,430.** The
+figure was written into `emit_clusters.py` as a literal after the second sweep and the third sweep
+moved it. **The article therefore stated a number its own source base contradicted**, which is the
+defect the slot discipline exists to prevent and which survived because this one number was not a
+slot. It now reads the pool from the gate statistics.
+
+### An Acronym Reached the Reader as a Subscript
+
+**`AFC` appeared first in the authority-ratio equation as a subscript and was never expanded.**
+`symcheck.py` could not see it because it strips `\mathrm{...}` before comparing symbols, so a
+subscript that is itself an unexpanded acronym passed every check the article had. The prose that
+introduces the equation now spells it out and both subscripted force increments are declared,
+taking the symbol table to 102.
+
+### Small Counts and Dollar Figures
+
+**The article spelled fourteen, eighteen and twenty-five and wrote `4 move no money`,
+`5 times out of 5`, `2 of the 5 quoted cases`, `8 questions` and `where 6 still did not`.** Counts
+are now spelled and measured quantities keep their numerals, so eight percent of core flow and 1.5
+percent stay as they were. **Eleven dollar figures carried a meaningless `.00`** against the
+article's own `192,823 dollars`, and the one figure with real cents keeps them. **And a cluster
+heading read `1 records.`**
+
+### What Was Checked and Found Clean
+
+**Prose style.** No em dashes, no en dashes, no contractions, no capitals as emphasis. Three
+findings and all three are permitted, being a colon inside a code span quoting what a registry
+emits, the semicolon in the mandated debug tag, and a parenthetical inside a block quotation of the
+register's own description.
+
+**Structure.** All eighteen sections in the order the research-aircraft genre prescribes, with the
+Epistemic State, Out of Scope and Conclusion present and last.
+
+**Diction.** Zero content-independent words at or above the peer maximum. Forty-six words exceed it
+and every one is the subject or a proper noun, being the contractor, the programme, the agency, the
+plenum, the effectors, the fiscal years and the budget books.
+
+**Thirty URLs.** Every one verified. Nine publisher addresses refused the fetcher and all nine are
+confirmed in the registry by title, venue and year. **Two were flagged thin and both were false
+positives of this review's own byte threshold**, the encyclopedia's pages being plain markup with no
+boilerplate and the federal award service being a JavaScript application whose markup is a shell by
+construction.
+
+**Numbers.** `verify_numbers.py` runs **160 checks with none failing**, `neweqns.py` a further 52.
+`_verify.py` reports 0 errors and 0 warnings across 302 posts. The rendered audit reports no
+findings across 546 pages, source and rendered display blocks both count 46, and no
+inline expression in the page carries an emphasis tag.
+
 
 ## A362, Primary-Reference Review
 

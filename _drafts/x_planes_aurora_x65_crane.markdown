@@ -14,7 +14,7 @@ series_index: 66
 
 This is the sixty-sixth article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], the [X-46][related_post_a343_boeing_x46], the [X-47][related_post_a344_northrop_grumman_x47], the [X-48][related_post_a345_boeing_x48], the [X-49][related_post_a346_piasecki_x49], the [X-50][related_post_a347_boeing_x50], the [X-51][related_post_a348_boeing_x51], the [X-52][related_post_a349_x52_designation_refused], the [X-53][related_post_a350_boeing_x53], the [X-54][related_post_a351_gulfstream_x54], the [X-55][related_post_a352_lockheed_martin_x55], the [X-56][related_post_a353_lockheed_martin_x56], the [X-57][related_post_a354_esaero_x57_maxwell], the [X-58][related_post_a355_x58_slot_taken_by_xq58], the [X-59][related_post_a356_x59_quesst], the [X-60][related_post_a357_generation_orbit_x60], the [X-61][related_post_a358_dynetics_x61_gremlins], the [X-62][related_post_a359_lockheed_martin_x62_vista], the [X-63][related_post_a360_abl_space_systems_x63], and the [X-64][related_post_a361_invocon_x64].
 
-**The programme is named for a bird that its own literature cannot find, and the aircraft is the first in this series built so that it can be compared with itself.**
+**The programme is named for a bird that its own literature cannot find, and the aircraft carries two complete control systems so that it can be compared with itself.**
 
 The X-65A was allocated on 24 April 2023 to Aurora Flight Sciences, a Boeing subsidiary, with the engines cell reading `1 Williams FJ44-3A` and the sponsor cell reading DARPA \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. The description is one line.
 
@@ -59,17 +59,17 @@ The narrative account is short. DARPA began CRANE in 2020, invited three contrac
 
 **All three Phase 0 and Phase 1 contracts report twenty-five offers received.** So the solicitation drew 25 proposals and three were funded, which is a competition ratio the published accounts do not mention. **The Phase 2 and Phase 3 contract reports two offers**, which is the Phase 1 downselect appearing as a procurement fact rather than as a press statement.
 
-**And the downselect itself is visible as an exercised option.** Aurora's contract shows an option exercised on 29 June 2021 worth 8,312,272 dollars and Lockheed Martin's shows one exercised on 12 August 2021 worth 10,135,107 dollars. **Georgia Tech Research Corporation has no option exercise at any date.** Its last funding action is 13 April 2022 for 192,823 dollars, and 5,581,362.00 dollars of its ceiling, being 45.1 percent, was never exercised. **The record therefore dates the cut from three to two to the middle of 2021**, which no source consulted states in words.
+**And the downselect itself is visible as an exercised option.** Aurora's contract shows an option exercised on 29 June 2021 worth 8,312,272 dollars and Lockheed Martin's shows one exercised on 12 August 2021 worth 10,135,107 dollars. **Georgia Tech Research Corporation has no option exercise at any date.** Its last funding action is 13 April 2022 for 192,823 dollars, and 5,581,362 dollars of its ceiling, being 45.1 percent, was never exercised. **The record therefore dates the cut from three to two to the middle of 2021**, which no source consulted states in words.
 
 **Georgia Tech was also on different terms.** Its contract is priced cost no fee where both companies are cost plus fixed fee, and it is classified as an other United States entity where both companies are a United States owned business. **A university research corporation took no fee for the same work**, and it is the one of the three that was not carried forward.
 
-Aurora took 48.4 percent of the 49,184,174.00 dollars obligated across the three early contracts, and left 4,557,089.00 dollars, or 16.1 percent, of its own ceiling unexercised. **Total obligations across all four CRANE contracts are 143,556,412.00 dollars.**
+Aurora took 48.4 percent of the 49,184,174 dollars obligated across the three early contracts, and left 4,557,089 dollars, or 16.1 percent, of its own ceiling unexercised. **Total obligations across all four CRANE contracts are 143,556,412 dollars.**
 
 ### The Forty-Two Million Dollar Contract Is Not in the Record
 
-Press accounts report that DARPA awarded Aurora a 42 million dollar contract in January 2023 to begin detailed design \[[two-year flight delay][ref_defensenews_delay]\]. **The contract in the award record is 94,372,238.00 dollars, which is 2.25 times that, it is described as covering Phase 2 and Phase 3 together, and it begins on 7 December 2022 rather than in January 2023** \[[USAspending][ref_usaspending]\].
+Press accounts report that DARPA awarded Aurora a 42 million dollar contract in January 2023 to begin detailed design \[[two-year flight delay][ref_defensenews_delay]\]. **The contract in the award record is 94,372,238 dollars, which is 2.25 times that, it is described as covering Phase 2 and Phase 3 together, and it begins on 7 December 2022 rather than in January 2023** \[[USAspending][ref_usaspending]\].
 
-**The two figures are not in conflict and the reason is worth stating rather than glossing.** Phase 2 and Phase 3 were placed on one instrument, so the announced Phase 2 value and the eventual obligated total on the same contract number are different quantities. **The initial obligation on the day the contract began was 6,500,000.00 dollars, which is 6.9 percent of what the contract eventually carried.**
+**The two figures are not in conflict and the reason is worth stating rather than glossing.** Phase 2 and Phase 3 were placed on one instrument, so the announced Phase 2 value and the eventual obligated total on the same contract number are different quantities. **The initial obligation on the day the contract began was 6,500,000 dollars, which is 6.9 percent of what the contract eventually carried.**
 
 | Date | Obligation, dollar | Cumulative, dollar |
 |---|---|---|
@@ -92,7 +92,7 @@ Press accounts report that DARPA awarded Aurora a 42 million dollar contract in 
 | 2025-01-16 | 4,737,863.00 | 94,372,238.00 |
 | 2025-02-11 | 0.00 | 94,372,238.00 |
 
-**The shape of that column is the programme's history.** Money arrives in eighteen actions, of which 4 move no money at all, and the last dollar is obligated on 16 January 2025. **After that there is one zero-dollar change order, dated 11 February 2025, and nothing else.**
+**The shape of that column is the programme's history.** Money arrives in eighteen actions, of which four move no money at all, and the last dollar is obligated on 16 January 2025. **After that there is one zero-dollar change order, dated 11 February 2025, and nothing else.**
 
 ### The Pause Is in the Record as an Absence
 
@@ -102,11 +102,11 @@ DARPA told a reporter that it chose to strategically pause the X-65's developmen
 
 **So the federal award record, read on this article's own date, shows CRANE as a completed contract with no aircraft.** That is not a defect in the record. **A cost share by a contractor is not federal spending, so a database of federal spending is the wrong instrument to see it with**, and the interesting fact is that the instrument is silent rather than that it is wrong. **A programme can be restructured into a shape that the public record of its funding cannot represent.**
 
-Two adjacent awards are worth naming. **Scientific, engineering and technical assistance support to the DARPA Tactical Technology Office for CRANE was contracted on 20 December 2019**, six months before any performer, through a Navy vehicle, and carried 5,679,994.63 dollars with a de-obligation of 220,000.00 dollars in September 2024. **The support was bought before the research was.** And the Office of Naval Research funded 1,251,577.00 dollars of work titled finless unmanned combat air system flight control with active flow control effectors, beginning September 2022, **which is the same idea pursued by a different service at a fiftieth of the cost**.
+Two adjacent awards are worth naming. **Scientific, engineering and technical assistance support to the DARPA Tactical Technology Office for CRANE was contracted on 20 December 2019**, six months before any performer, through a Navy vehicle, and carried 5,679,994.63 dollars with a de-obligation of 220,000 dollars in September 2024. **The support was bought before the research was.** And the Office of Naval Research funded 1,251,577 dollars of work titled finless unmanned combat air system flight control with active flow control effectors, beginning September 2022, **which is the same idea pursued by a different service at a fiftieth of the cost**.
 
 ## What the Programme's Own Name Costs It
 
-**`CRANE` is the least useful query in this article's sweep and the measurement is not close.** Ten results were read from the bibliographic index for the bare acronym. They are a logging-crane operator fatality, a mobile-gantry-crane fatality, a civil-engineering journal that shares the name, a software toolsite, an 1886 romance and an 1878 collection of nursery rhymes. **Nothing aeronautical appeared.**
+**`CRANE` is the least useful of the queries this article read by hand, and the measurement is not close.** Ten results were read from the bibliographic index for the bare acronym. They are a logging-crane operator fatality, a mobile-gantry-crane fatality, a civil-engineering journal that shares the name, a software toolsite, an 1886 romance and an 1878 collection of nursery rhymes. **Nothing aeronautical appeared.**
 
 **`novel effectors`, the literal phrase in the programme's title, is worse than useless because it is confidently wrong.** It returns fungal effectors, oomycete effectors, the effectors of plant-defence suppression and the downstream effectors of a ubiquitin ligase in gastric cancer. **In molecular biology an effector is a protein that a pathogen injects into a host, and that field publishes far more than aeronautics does.**
 
@@ -116,7 +116,7 @@ Two adjacent awards are worth naming. **Scientific, engineering and technical as
 
 ### The Symbols This Article Uses
 
-Every symbol below is declared here and nowhere carries a second meaning. **A declared table is the only instrument that catches a collision**, because a pattern cannot know what a symbol means, and the discipline is inherited from an earlier article in this series in which one letter served as three different quantities.
+Every symbol below is declared here and nowhere carries a second meaning. **A declared table is the only instrument this corpus has found that catches a collision**, because a pattern cannot know what a symbol means, and the discipline is inherited from an earlier article in this series in which one letter served as three different quantities.
 
 | Symbol | Meaning | Unit |
 |---|---|---|
@@ -147,6 +147,8 @@ Every symbol below is declared here and nowhere carries a second meaning. **A de
 | $\Delta C_{L,\mathrm{conv}}$ | lift-coefficient increment produced by a conventional surface at full deflection | dimensionless |
 | $\delta F$ | thrust decrement caused by bleed | newton |
 | $\Delta L$ | aerodynamic force increment produced by an effector | newton |
+| $\Delta L_{\mathrm{AFC}}$ | force increment from an active-flow-control effector, the subscript being the programme's own abbreviation | newton |
+| $\Delta L_{\mathrm{conv}}$ | force increment from a conventional control surface | newton |
 | $\Delta T$ | total-temperature rise across a compressor | kelvin |
 | $D_f$ | engine face diameter | metre |
 | $\eta_c$ | compressor isentropic efficiency | dimensionless |
@@ -263,7 +265,7 @@ This article's reference case is the physical one reported for the aircraft, bei
 
 ### Where the Air Comes From, Which the Record Does Not Say
 
-DARPA's release says the aircraft uses `jets of air from a pressurized source` \[[DARPA moves forward on the X-65][ref_darpa_news]\]. The contractor says `active flow control uses pressurized air for flight control` \[[X-65 experimental aircraft][ref_aurora_x65]\]. **Neither says where the pressure comes from, and the difference between the two plausible answers is the single largest uncertainty in this article's analysis**, because the two behave oppositely with altitude.
+DARPA's release says the aircraft uses `jets of air from a pressurized source` \[[DARPA moves forward on the X-65][ref_darpa_news]\]. The contractor says `active flow control uses pressurized air for flight control` \[[X-65 experimental aircraft][ref_aurora_x65]\]. **Neither says where the pressure comes from, and that is the largest quantity the record leaves undetermined**, because the two behave oppositely with altitude.
 
 **The first architecture bleeds the engine.** At a fixed corrected spool speed a gas turbine passes a constant corrected mass flow, so its actual mass flow follows the total pressure at its face divided by the square root of the total temperature there. Let $\dot{m}\_{\mathrm{ref}}$ be the engine's sea-level static mass flow in kilogram per second, $\delta$ the ratio of compressor-face total pressure to sea-level standard pressure and $\theta$ the ratio of compressor-face total temperature to sea-level standard temperature, both dimensionless, and $\beta$ the bleed fraction, dimensionless.
 
@@ -407,7 +409,7 @@ $$ G_{\min} = \frac{\gamma^{\frac{\gamma}{\gamma-1}}}{2} = 1.6234 $$
 
 ## The Authority Ratio, and Where a Jet Loses to a Hinge
 
-The question the aircraft exists to answer can now be written in one line. Let $\Delta C_{L,\mathrm{conv}}$ be the lift-coefficient increment a conventional surface delivers at full deflection, dimensionless, and $\Lambda$ the authority ratio, dimensionless.
+The question the aircraft exists to answer can now be written in one line. Let $\Delta L_{\mathrm{AFC}}$ be the force increment an active-flow-control effector delivers in newton, where the subscript is the programme's own abbreviation for active flow control, $\Delta L_{\mathrm{conv}}$ the force increment a conventional surface delivers in newton, $\Delta C_{L,\mathrm{conv}}$ the lift-coefficient increment that surface delivers at full deflection, dimensionless, and $\Lambda$ the authority ratio, dimensionless.
 
 $$ \Lambda = \frac{\Delta L_{\mathrm{AFC}}}{\Delta L_{\mathrm{conv}}} = \frac{\mathcal{A} \, C_\mu \, q S}{\Delta C_{L,\mathrm{conv}} \, q S} = \frac{\mathcal{A} \, C_\mu}{\Delta C_{L,\mathrm{conv}}} $$
 
@@ -673,7 +675,7 @@ A joined tandem wing carries lift on two surfaces, so a single reference area is
 
 **The X-65A performs the same subtraction inside one airframe.** The mass is the same, the drag is the same, the trajectory is the same, the transducers are the same, the flight is in some cases the same flight. **What changes between the baseline and the test case is which effectors are commanded**, and the difference is therefore an estimate of the thing wanted rather than of the things not wanted.
 
-**That is the single most important design decision in this aircraft and the published record treats it as risk reduction.** It is risk reduction. **It is also the reason the programme can produce a number at all.** A vehicle with only flow-control effectors would return an absolute measurement of its own handling qualities and no measurement of what flow control is worth. **A vehicle with both returns a difference, and a difference is what the question asks for.**
+**That is the design decision this article takes to be the consequential one, and the published record treats it as risk reduction.** It is risk reduction. **It is also the reason the programme can produce a number at all.** A vehicle with only flow-control effectors would return an absolute measurement of its own handling qualities and no measurement of what flow control is worth. **A vehicle with both returns a difference, and a difference is what the question asks for.**
 
 ### The Combinatorial Number Is a Red Herring
 
@@ -695,7 +697,7 @@ $$ N_c = 2^{n_s} n_w, \qquad N_f = \left\lceil \frac{N_2}{k} \right\rceil $$
 | Pairwise interactions among the effectors | 91 |
 | Terms in a second-order model, per axis | 105 |
 | Terms in a second-order model, three axes | 315 |
-| Flights to identify that model at thirty test points each | 11 |
+| Flights to identify that model at thirty test points each | eleven |
 
 **16,384 configurations, or 65,536 once the wing sets are counted, is not the size of the flight-test programme and treating it as one would be an error.** An aircraft is not characterised by visiting its configurations. It is characterised by identifying a model, and the model is small.
 
@@ -707,7 +709,7 @@ A model that allows every pair of effectors to interact adds one term per pair.
 
 $$ N_2 = n_a \left( n + \binom{n}{2} \right) = n_a \left( n + \frac{n \left( n - 1 \right)}{2} \right) $$
 
-**For fourteen effectors on three axes that is 42 derivatives in the linear case and 315 terms with every pairwise interaction included.** At thirty usable test points per flight, identifying the full second-order model needs about 11 flights. **A hundred flights would visit 0.61 percent of the lock-out configurations and would over-determine the second-order model many times over.**
+**For fourteen effectors on three axes that is 42 derivatives in the linear case and 315 terms with every pairwise interaction included.** At thirty usable test points per flight, identifying the full second-order model needs about eleven flights. **A hundred flights would visit 0.61 percent of the lock-out configurations and would over-determine the second-order model many times over.**
 
 **So the combinatorics do not bind. The aircraft's availability does**, and the quantity to watch in a flight-test programme of this kind is flights flown rather than configurations covered. **Locking the surfaces only in symmetric pairs reduces the configuration count to 128**, which is a reminder that most of the apparent combinatorial space is asymmetric cases a flight-test programme has no reason to visit.
 
@@ -768,7 +770,7 @@ $$ \lim_{n_e \to \infty} \frac{\operatorname{area} \mathcal{H}}{\operatorname{ar
 
 The record of what was planned is as follows. Fabrication was under way at facilities in West Virginia and Mississippi by January 2024, rollout was scheduled for early 2025, and first flight for the summer of the same year \[[DARPA moves forward on the X-65][ref_darpa_news]\]. **Both dates passed.** DARPA paused the programme early in 2025 because the cost of producing the prototype exceeded expectations, restructured it into a partnership in which the contractor became a co-investor, finalised that arrangement in August 2025, and now expects ground testing in late 2026 or early 2027 and first flight in late 2027 \[[two-year flight delay][ref_defensenews_delay]\]. **The fuselage was expected to be complete in January 2026.** The aircraft is being built in Bridgeport, West Virginia.
 
-**The slip is 30 months against the schedule stated when the build contract was announced**, which is 7 years after the first CRANE contracts and 28 years after the programme its own manager named as its ancestor.
+**The slip is 30 months against the schedule stated when the build contract was announced**, which is seven years after the first CRANE contracts and 28 years after the programme its own manager named as its ancestor.
 
 **There is therefore no flight envelope reached to compare with the envelope designed for, and the genre this series uses expects that comparison.** This article states the absence rather than writing around it. **What can be compared is what was promised against what was recorded, and for that the budget justifications are a better instrument than the press.**
 
@@ -790,9 +792,9 @@ $$ \frac{o - r}{r} $$
 | FY2025 | 29.715 | 23.893 | - | -19.59 percent |
 | FY2026 | 4.000 | - | - | - |
 
-**The first year came in 81.33 percent above its request and every year since has come in below.** Fiscal year 2020 was requested at 13.000 million dollars, estimated at 20.000 and recorded at 23.573. **From fiscal year 2021 to fiscal year 2025 the programme was funded below its request 5 times out of 5, at a mean shortfall of 16.29 percent.** The worst single year is fiscal year 2023, requested at 52.685 million and recorded at 40.565 million, which is -23.00 percent.
+**The first year came in 81.33 percent above its request and every year since has come in below.** Fiscal year 2020 was requested at 13.000 million dollars, estimated at 20.000 and recorded at 23.573. **From fiscal year 2021 to fiscal year 2025 the programme was funded below its request five times out of five, at a mean shortfall of 16.29 percent.** The worst single year is fiscal year 2023, requested at 52.685 million and recorded at 40.565 million, which is -23.00 percent.
 
-**Across fiscal years 2020 to 2025 the programme asked for 200.507 million dollars counting the fiscal year 2026 request, and is expected to receive 179.416 million, a shortfall of 10.73 percent.** Appropriations through fiscal year 2024 total 151.523 million dollars against 143,556,412.00 dollars obligated across the four contracts, a ratio of 1.0555, **which is the right sort of agreement because obligations lag appropriations**.
+**Across fiscal years 2020 to 2025 the programme asked for 200.507 million dollars counting the fiscal year 2026 request, and is expected to receive 179.416 million, a shortfall of 10.73 percent.** Appropriations through fiscal year 2024 total 151.523 million dollars against 143,556,412 dollars obligated across the four contracts, a ratio of 1.0555, **which is the right sort of agreement because obligations lag appropriations**.
 
 **And the fiscal year 2026 request is 4.000 million, which is 10.5 percent of what fiscal year 2024 actually received.** It is also the only round number in the whole series, every other figure carrying three decimal places. **A round number among precise ones is the signature of a placeholder.**
 
@@ -887,7 +889,7 @@ with $C_1$ of $1.458 \times 10^{-6}$ and $S_\mu$ of 110.4 kelvin. **That returns
 | wall pressures, Reynolds 16 million, Mach 0.25 | 0.13 percent | 0.727 | 1.38 |
 | reduced frequency 0.5 | 0.32 percent | 0.295 | 3.39 |
 
-**The wing-referenced coefficient this article computes, 0.0945 percent, sits inside the range that report used, 0.03 to 0.32 percent.** It reaches 2 of the 5 quoted cases with no concentration at all, and the largest needs a factor of 3.39. **The report states its own uncertainty on that coefficient as plus or minus 25 percent of the quoted values**, which is a primary-sourced error bar and not an assumption of this article.
+**The wing-referenced coefficient this article computes, 0.0945 percent, sits inside the range that report used, 0.03 to 0.32 percent.** It reaches two of the five quoted cases with no concentration at all, and the largest needs a factor of 3.39. **The report states its own uncertainty on that coefficient as plus or minus 25 percent of the quoted values**, which is a primary-sourced error bar and not an assumption of this article.
 
 **And at that report's own Mach number of 0.25 the bleed budget delivers 0.5579 percent, which is 1.74 times its highest quoted value.** So the air budget is not marginal at the condition where the method was demonstrated. **It is marginal only where this aircraft wants to fly**, and the factor between the two is 5.903, which is the Mach dependence derived above and nothing else.
 
@@ -1005,11 +1007,11 @@ The survey behind this article holds **3,709 records** after gating and de-dupli
 
 ### This programme, this aircraft and this contractor
 
-**No records.** The sweep retrieved 18,432 records and not one of them names this programme, this aircraft or this contractor. **That is a measurement about the subject rather than about the sweep**, and the probe that predicted it is in the source base below.
+**No records.** The sweep retrieved 20,430 records and not one of them names this programme, this aircraft or this contractor. **That is a measurement about the subject rather than about the sweep**, and the probe that predicted it is in the source base below.
 
 ### The medium, admitted by the shared atmosphere family alone
 
-**1 records.** \[[Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]\]
+**One record.** \[[Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]\]
 
 ## The Source Base
 
@@ -1021,13 +1023,13 @@ Two sweeps retrieved **20,430 distinct records**. The homonym store refused 1,53
 
 ### What the Reports Server Was Asked, and What It Holds
 
-The reports server was asked 176 questions across two sweeps. **It reported 22,841 matches and returned 17,518, which is 76.7 percent.** 8 questions in the first sweep hit the retrieval depth and were walked deeper in the second, where 6 still did not reach the bottom.
+The reports server was asked 176 questions across two sweeps. **It reported 22,841 matches and returned 17,518, which is 76.7 percent.** eight questions in the first sweep hit the retrieval depth and were walked deeper in the second, where six still did not reach the bottom.
 
 **Four questions the server holds nothing at all for are worth naming**, because a null answer from a registry is a measurement. They are `hingeless aerodynamic control effector`, `technology demonstrator aircraft programme`, `Coanda effect jet attachment` and `mixing enhancement jet actuator`. **The first of those is the finding and it is treated separately below.**
 
 ### The Homonyms, Measured Before the Sweep Was Written
 
-**This article's vocabulary is the worst the series has met and the measurement is the reason the sweep looks as it does.** Ten results were read from the bibliographic index for each probe and counted by hand.
+**This article's vocabulary collides more widely than any this series has probed, and the measurement is the reason the sweep looks as it does.** Ten results were read from the bibliographic index for each probe and counted by hand.
 
 | Probe | Results read | On subject | What the rest were |
 |---|---|---|---|
@@ -1059,11 +1061,13 @@ The reports server was asked 176 questions across two sweeps. **It reported 22,8
 
 ### A Homonym That Depends on Which Registry You Ask
 
-**`hingeless control` returned ten results from the bibliographic index of which ten were about flow-control effectors, and seventy-two from the reports server of which every one was a helicopter.**
+**`hingeless control` returned ten results from the bibliographic index of which ten were about flow-control effectors, and 72 from the reports server of which 61 carry rotorcraft vocabulary in the title.**
+
+**The first version of that sentence said every one of the 72 was a helicopter and this review refuted it by counting.** 11 do not carry rotorcraft vocabulary, and most of those are rotorcraft work under other words, being higher harmonic control, flap-lag stability in forward flight, ground resonance and a V and short take-off conference. **Two are not rotorcraft at all.** They are the DARPA, Air Force Research Laboratory, NASA and Northrop Grumman Smart Wing programme, **which shares the hingeless vocabulary because it is about a wing with no discrete moving surface** and is genuinely adjacent prior art that this article's sweep never asked for.
 
 A hingeless rotor is a blade retention without flap and lag hinges, which is a structural subject with a large literature from the 1960s and 1970s. A hingeless control effector is an aerodynamic surface replaced by a jet. **The same two words name two unrelated subjects and which one you get depends on which registry you ask.**
 
-**This series has recorded that two registries hold different literatures. This is the first time it has recorded that they hold different meanings for one phrase.** The gate therefore carries a rotorcraft exclusion that its first version did not, and the exclusion was added because a probe was read rather than because an audit failed. **The right anchor differs by registry**, being `hingeless control` for the journals and `control effectors` for the reports, and the second returns the aerodynamic control effectors, the passive porosity effectors and the active flow effectors that the first sweep had no word for.
+**This series has recorded that two registries hold different literatures. This article is the first to record that they hold different meanings for one phrase.** The gate therefore carries a rotorcraft exclusion that its first version did not, and the exclusion was added because a probe was read rather than because an audit failed. **The right anchor differs by registry**, being `hingeless control` for the journals and `control effectors` for the reports, and the second returns the aerodynamic control effectors, the passive porosity effectors and the active flow effectors that the first sweep had no word for.
 
 ### What the Audit Found, Because It Was Read in Both Directions
 
@@ -1139,7 +1143,7 @@ The shared library flattens intraword hyphens so that an anchor written `wind tu
 
 ### The Same Work Twice, Once With a File and Once Without
 
-**The reports server holds that report under two identifiers and only one of them carries the document.** A search returns both. The first has a record and no attachment, so a request for its full text returns nothing at all, and the second carries the portable document and a plain-text rendering of it. **A null answer from a registry is usually a measurement about the literature. This one was a measurement about the catalogue**, and the only way to tell the difference was to ask the detail endpoint which identifier had a file.
+**The reports server holds that report under two identifiers and only one of them carries the document.** A search returns both. The first has a record and no attachment, so a request for its full text returns nothing at all, and the second carries the portable document and a plain-text rendering of it. **A null answer from a registry is usually a measurement about the literature. This one was a measurement about the catalogue**, and what told the difference was asking the detail endpoint which identifier had a file.
 
 ### The Sweep Was Targeted by Measurement
 
@@ -1161,7 +1165,7 @@ The shared library flattens intraword hyphens so that an anchor written `wind tu
 
 ## Epistemic State
 
-**Historical fact, from documents read in full.** The X-65A designation was allocated on 24 April 2023 to Aurora Flight Sciences, with the engines cell reading `1 Williams FJ44-3A` and DARPA as sponsor. CRANE began with three Phase 0 contracts in mid-2020 to Aurora Flight Sciences, Lockheed Martin and Georgia Tech Research Corporation, all three reporting twenty-five offers received. A Phase 2 and Phase 3 contract was placed on Aurora on 7 December 2022 and carried 94,372,238.00 dollars in eighteen actions ending 16 January 2025. DARPA paused the programme early in 2025, restructured it so the contractor became a co-investor, finalised that in August 2025, and expects first flight in late 2027. The aircraft has fourteen flow-control effectors, fourteen conventional control surfaces, four interchangeable wing sets, a thirty foot span and a limit of Mach 0.7. The programme manager named Micro Adaptive Flow Control as its ancestor and said he had managed that programme from 1999 to 2003.
+**Historical fact, from documents read in full.** The X-65A designation was allocated on 24 April 2023 to Aurora Flight Sciences, with the engines cell reading `1 Williams FJ44-3A` and DARPA as sponsor. CRANE began with three Phase 0 contracts in mid-2020 to Aurora Flight Sciences, Lockheed Martin and Georgia Tech Research Corporation, all three reporting twenty-five offers received. A Phase 2 and Phase 3 contract was placed on Aurora on 7 December 2022 and carried 94,372,238 dollars in eighteen actions ending 16 January 2025. DARPA paused the programme early in 2025, restructured it so the contractor became a co-investor, finalised that in August 2025, and expects first flight in late 2027. The aircraft has fourteen flow-control effectors, fourteen conventional control surfaces, four interchangeable wing sets, a thirty foot span and a limit of Mach 0.7. The programme manager named Micro Adaptive Flow Control as its ancestor and said he had managed that programme from 1999 to 2003.
 
 **Engineering analysis, this article's own, checkable from the equations given.** The amplification identity. The exact cancellation of altitude from the bleed-fed momentum coefficient. The identical nozzle pressure ratio across the envelope. The Mach-number factor, its exact minimum at Mach 1.4142, and the closed form of that minimum. The authority ratio, the crossover Mach number and the amplification required to match a conventional surface. The concentration factor and the effector sizing. The slot areas. The reduced-frequency band mapped onto this aircraft's chord. The linear and second-order term counts and the flights they imply. **All of it is conditional on parameter values that are not published, and every such parameter is swept.**
 
@@ -1209,11 +1213,11 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 
 **And the open problem was named in 2000.** The report that demonstrated the method at these Reynolds numbers proposed, among its future directions, overcoming the lack of sufficient control authority especially at high speeds \[[Seifert and Pack 2000][research_seifert_pack_2000]\]. **This article derived that constraint and did not discover it.**
 
-**And the aircraft's most consequential design decision is not aerodynamic.** It carries two complete, equinumerous control systems and locks one out progressively. [The previous article][related_post_a361_invocon_x64] established that two vehicles cannot be differenced because the difference sought is smaller than the differences not sought. **The X-65A performs the subtraction inside one airframe**, which is why it can return a number rather than an impression. The 16,384 configurations that follow from fourteen surfaces are a red herring, because the quantity to identify is a model with 315 terms and that is about 11 flights.
+**And the aircraft's most consequential design decision is not aerodynamic.** It carries two complete, equinumerous control systems and locks one out progressively. [The previous article][related_post_a361_invocon_x64] established that two vehicles cannot be differenced because the difference sought is smaller than the differences not sought. **The X-65A performs the subtraction inside one airframe**, which is why it can return a number rather than an impression. The 16,384 configurations that follow from fourteen surfaces are a red herring, because the quantity to identify is a model with 315 terms and that is about eleven flights.
 
 **None of it has flown.** The programme has asked for 200.507 million dollars across seven budget years and expects 179.416 million, has been funded below its request in every year since fiscal year 2021 at a mean shortfall of 16.29 percent, promised its critical design review in four consecutive books for three different fiscal years, and was paused and restructured into an arrangement the federal award record cannot represent. **Its period of performance expired 69 days before this article's dateline with the fuselage unfinished.**
 
-**The last thing to say is about the programme's name.** It is called CRANE, for Control of Revolutionary Aircraft with Novel Effectors, and its own acronym returns a logging-crane fatality and two books of nursery rhymes. The phrase `novel effectors` returns fungal pathogens. **The words that find this aircraft's actual prior art are `hingeless control effectors`, which no document in the programme uses**, and even those mean helicopter rotor hubs if you ask the wrong registry. **An aircraft meant to break a century-old paradigm was given a name under which the work it descends from cannot be found.**
+**The last thing to say is about the programme's name.** It is called CRANE, for Control of Revolutionary Aircraft with Novel Effectors, and its own acronym returns a logging-crane fatality and two books of nursery rhymes. The phrase `novel effectors` returns fungal pathogens. **The words that find this aircraft's actual prior art are `hingeless control effectors`, which no document this article read from the programme uses**, and even those mean helicopter rotor hubs if you ask the wrong registry. **An aircraft meant to break a century-old paradigm was given a name under which the work it descends from cannot be found.**
 
 ## References
 

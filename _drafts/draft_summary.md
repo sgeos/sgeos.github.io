@@ -511,9 +511,9 @@ and the Bloomberg model is not public. The article labels all three as such.
 `x_planes_aurora_x65_crane.markdown`, A362, editorial date 2025-12-10, series `x_planes` index
 66 of 72.
 
-**8,773 lines, 46 display equations, 228 inline expressions, a
-100-entry symbol table, 3,804 reference definitions, 67,817 words.** **THREE OF
-FOUR PASSES COMPLETE.** Committed and **NOT pushed**, which is the rhythm. **Not published**, and
+**8,777 lines, 46 display equations, 232 inline expressions, a
+102-entry symbol table, 3,804 reference definitions, 67,992 words.** **ALL FOUR
+PASSES COMPLETE.** Committed and **PUSHED** on the pilot's instruction. **Not published**, and
 publication of the series has never been authorised.
 
 **THE KEYSTONE CANCELS ALTITUDE TWICE AND EXACTLY.** The momentum coefficient an engine-bled
@@ -568,6 +568,15 @@ recorded.
 1,464 report primaries at 39.5 percent, median year 2007, from a pool of
 20,430. **The one empty cluster is the finding**, since no record in the pool names this
 programme, this aircraft or this contractor.
+
+**THE PUBLICATION REVIEW REFUTED A CLAIM BY COUNTING.** The article said `hingeless control`
+returned 72 reports of which every one was a helicopter, and it is 61 of
+72. **Two of the exceptions are the DARPA, Air Force Research Laboratory, NASA and
+Northrop Grumman Smart Wing programme**, adjacent prior art the sweep never asked for. Seven
+unsupported rankings were scoped to what had been measured, **a stale pool size an emitter had
+hard-coded was corrected from 18,432 to 20,430**, and `AFC` was found reaching the reader
+first as a math subscript with no expansion, invisible to the symbol checker because it strips the
+roman-text wrapper before comparing.
 
 **THE PRIMARY PASS REVERSED THE EQUATION PASS'S REYNOLDS ARGUMENT.** A report read in full
 demonstrated oscillatory separation control at chord Reynolds numbers as high as forty million, and
