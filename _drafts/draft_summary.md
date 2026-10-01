@@ -25,8 +25,55 @@ essay and the companion to the published A374, categories `geopolitics military 
 **2,303 lines, 63 display equations, 17 inline expressions, 97 reference definitions, roughly 12,800
 words of author prose after the primary-reference pass**, up from 1,448 lines, 50 equations and 78
 references after the equation pass, and from 1,215 lines and 21 equations after drafting.
-**ALL FOUR PASSES COMPLETE.** Committed and **PUSHED**, which the publication review is the pass
-that asks for. **NOT PUBLISHED**, as instructed.
+**ALL FOUR PASSES COMPLETE, PLUS A PATHOLOGICAL WORD USAGE PASS.** Committed and **PUSHED**.
+**NOT PUBLISHED**, as instructed.
+
+**THE DICTION PASS HAD TO DISCOVER ITS OWN TARGETS, BECAUSE THE ENUMERATED CLASS FOUND NOTHING.**
+`_lib/diction.py tics` reported 0 words at or above the peer maximum and `report` reported 0
+constructions above the corpus maximum, both before and after. Its own banner says the tic class is
+enumerated and not discovered, and a pathological-usage pass has to find the crutches *this* article
+invented. A discovery script in `tmp/a375/pathology.py` compares unigram, bigram and trigram rates
+against all 258 published posts, with quotations and mathematics stripped, and ranks by distance
+above the peer maximum.
+
+**THE PATHOLOGY WAS A CLUSTER AND NOT SCATTERED WORDS: the article kept talking about itself.**
+`this article's` at 1.97 times the peer maximum, `the article above` used **six times and never once
+by any peer**, `the draft` at 1.23, plus `says so` and `in its own words` as candour formulas. The
+six `the article above` uses were the opening sentence of six consecutive survey subsections.
+
+**`finding` WAS THE SIGNATURE WORD AND THE STATISTICS SAID IT WAS FINE.** 45 uses, of which 33 were
+the noun labelling a conclusion rather than the participle attributing a result. Against the full
+corpus it sits at 2.24 against a peer maximum of 8.56, so **no gate would ever have flagged it**.
+The case for cutting is repetition, not frequency: four near-identical bold openers of the form
+**One/The X finding...** inside a single section. 18 label uses were recast into direct statements
+and the noun now does only the work it has to, marking real epistemic distinctions such as *neither
+is a finding* and *a finding about the aftermath rather than about the wargames*.
+
+**THE PASS CAUGHT ITSELF OVER-CORRECTING TWICE, WHICH IS THE A374 FAILURE MODE REPEATING.** Varying
+the six openers put `earlier` into five of the six replacements. Fixing that put `above` into four
+and left two sharing an identical passive shape. And redistributing attribution verbs pushed
+`report that` from under the peer maximum to 1.68 times it. Each was measured and corrected rather
+than noticed by eye. **The attribution spread went from 29 `finds that` against 14 for the next verb
+to 21 / 15 / 10 / 8 / 8 / 8 / 4 / 2 / 2 / 1 across ten verbs.**
+
+**WHERE THE PASS STOPPED IS A JUDGMENT AND IT IS RECORDED.** `report that` remains at 1.37 times the
+peer maximum and is left alone, because the peers are not literature surveys and a survey citing 130
+works is inherently denser in attribution. `own` at 2.84 against a peer maximum of 6.12 was left
+alone because `a source's own words` is the article's method. All six `article's own` uses were kept,
+because each marks the boundary between this article's arithmetic and a source's, which is the
+distinction the corpus requires. `sentence` at 1.46 times the maximum is subject matter, since the
+regime-survival argument turns on one CSIS sentence that asserts and disclaims in the same breath.
+
+**THE TASKLOG AND REVERSE PROMPT ENTRIES FOR THIS PASS ARE DEFERRED ON PURPOSE.** Both files carry
+the other line's uncommitted A362 publication-review edits, so editing and staging them would sweep
+that session's work into this commit. The record for this pass lives here until those files are
+clean.
+
+**VERIFICATION AFTER THE PASS.** `_verify.py` 0 and 0, **111 arithmetic and structural checks pass**,
+diction **0 above peer maximum** on both modes, no prose colons, semicolons, parentheses, dashes or
+contractions, build clean, **rendered audit no findings across 458 pages**, source and rendered
+display counts agreeing at **75**, and a sample of nine quotations re-verified against their sources
+to confirm no quoted span was altered by the rewriting.
 
 **FINAL STATE after the publication review: 3,797 lines, 75 display equations, 19 inline
 expressions, 222 references and about 21,000 words of author prose**, up from 2,303 lines, 63

@@ -34,7 +34,7 @@ and the shape of the postwar order.
 It then surveys the wider literature behind those sections,
 sets out the places where the sources agree and the places where they contradict one another,
 and records where the record is empty,
-because five of the gaps are large enough to be findings in their own right.
+because five of the gaps are large enough to count as results in their own right.
 
 The equations below are arithmetic on published figures.
 They check whether the numbers in the reports agree with one another,
@@ -47,7 +47,7 @@ and with the
 [account of China's rise][related_post_china_rise]
 for the industrial base under discussion.
 
-**The finding that organised this article was not the one expected at the outset.**
+**What organised this article was not what was expected at the outset.**
 The expectation was that rebuilding would prove slow.
 For buildings and even for industrial capacity the empirical literature says the opposite,
 and says it with data.
@@ -716,7 +716,7 @@ Reconstruction spending was not the mechanism,
 contributing under one percentage point
 against cumulative city growth of 55 to 96 percent.
 
-Two qualifications belong with that finding and are usually dropped.
+Two qualifications belong with that result and are usually dropped.
 [Brakman, Garretsen and Schramm 2004][journal_brakman_2004_german_bombing]
 find the German effect "significant but temporary"
 in West Germany and absent in East Germany,
@@ -827,7 +827,7 @@ had no robust long-run effect on poverty, consumption, infrastructure, literacy 
 which corrected a projection error that displaced every district
 by roughly two degrees of latitude and survived twelve years of citation.
 The corrected interval preserves the headline null.
-The finding is citable and it should never be cited without the correction.
+The result is citable and it should never be cited without the correction.
 The concentration of the tonnage is worth stating as a ratio,
 because it is what gives the study its statistical power.
 
@@ -857,7 +857,7 @@ The fifteen-year city result and the fifteen to twenty year power result
 were reached by entirely different methods on different units of analysis,
 and they agree.
 That convergence is the firmest quantitative footing
-anything in this article's recovery literature stands on.
+anything in the recovery literature read here stands on.
 
 ## Reconciling the Two
 
@@ -1001,7 +1001,7 @@ and a rationed grid is not a grid that runs leading-edge lithography.
 
 **Food has its own horizon and it is longer than the energy one.**
 [Ferreira and Critelli 2023][journal_ferreira_critelli_2023_food_resiliency]
-find that Taiwan's food stocks, rice excepted,
+report that Taiwan's food stocks, rice excepted,
 could endure trade disruption for only six months,
 and identify which products a resupply operation would have to carry first.
 Taiwan's own agriculture ministry puts the food self-sufficiency ratio
@@ -1184,7 +1184,7 @@ $$
 \frac{\text{reconstruction needs}}{\text{annual output}} \approx 2.8
 $$
 
-**The sector detail is where the assessment speaks to this article's thesis.**
+**The sector detail is where the assessment speaks to the thesis above.**
 Housing took 57.6 billion dollars of the damage
 and carries 83.7 billion of the needs,
 the largest sectoral share at about 16 percent of the total.
@@ -1313,7 +1313,7 @@ who expect punishment whether they lose moderately or disastrously,
 have a disincentive to settle on moderately losing terms
 and therefore gamble for resurrection.
 [Stanley and Sawyer 2009][journal_stanley_sawyer_2009]
-find that rational updating during a war
+show that rational updating during a war
 "can develop a significant lag, which extends the war beyond a logical ending point",
 and that a change in the domestic governing coalition
 is often what restarts it.
@@ -1479,7 +1479,7 @@ than non-personalist counterparts.
 
 Taken together the honest summary is that the theory points both ways,
 the base rates are modest,
-the one China-specific empirical finding located points toward compromise,
+the one China-specific empirical result located points toward compromise,
 and no published study applies any of it to a failed Taiwan invasion.
 
 ## Occupation Arithmetic, Which Nobody Appears to Have Done
@@ -1631,7 +1631,7 @@ and 14.8 degrees at the high end,
 peaking within one to two years
 and with the reduction "lasting for more than 10 years".
 
-The ratio between the direct and the indirect toll is the finding.
+The ratio between the direct and the indirect toll carries the argument.
 
 $$
 \frac{255}{27} \approx 9.4 \ \text{at 5 Tg},
@@ -1740,7 +1740,7 @@ observed in Hamburg, Dresden, and Hiroshima during World War II".
 **Every one of those objections is about how much soot is lofted and how high,
 and none is about what the climate does once it is there.**
 The contested step is the fuel and the plume,
-and the National Academies report locates the difficulty in the same place.
+and the National Academies report puts the difficulty in the same place.
 It records that "The amount of smoke produced from urban fires varies between studies
 based on assumptions about burnable material and fire characteristics",
 and that "challenges remain in predicting
@@ -1860,7 +1860,7 @@ saves more lives than immediate evacuation.
 ## The Postwar Order
 
 [Priebe and others 2023][research_priebe_2023_alternative_futures_v1]
-is the closest published match to this article's subject that it located.
+is the closest published match to the subject here that was located.
 In the scenario where China annexes Taiwan after an eight-month war
 ending in a Chinese non-strategic nuclear demonstration,
 a United States-led counterbalancing coalition forms
@@ -1962,7 +1962,7 @@ and no claim is attributed to it.
 
 ### War termination, where the bargaining literature disagrees with itself
 
-The article above uses Reiter, Goemans and Iklé.
+Reiter, Goemans and Iklé carry the termination argument earlier in this piece.
 The formal literature behind them is larger and does not speak with one voice.
 
 **The baseline is that war is a bargaining failure.**
@@ -1979,7 +1979,7 @@ and it bears directly on a war nobody can end.**
 argues that informational explanations "often provide a poor account
 of prolonged conflict",
 and recasts bargaining indivisibilities as commitment problems.
-That is the position this article's termination section implicitly adopts
+That is the position the termination section above implicitly adopts
 when it says neither side could promise not to rearm.
 
 **A third position holds that neither mechanism is needed.**
@@ -2019,7 +2019,7 @@ which places it in the category with the lower settlement rate
 and the missing enforcement mechanism.
 
 [Weisiger 2013][book_weisiger_2013_logics_of_war]
-locates the longest and deadliest conflicts in preventive wars driven by mutual distrust,
+traces the longest and deadliest conflicts to preventive wars driven by mutual distrust,
 while optimism-driven wars are corrected quickly by battlefield reality and settle cheaply.
 [Thyne 2012][journal_thyne_2012_intra_war_bargaining]
 finds that the strength and stability of executives
@@ -2059,7 +2059,7 @@ supplies a mechanism specific to this war,
 that a conventional American campaign could threaten China's retaliatory capability
 and make limited nuclear escalation look like the least-bad response
 despite a declared no-first-use policy.
-**That paper is the bridge between this article's termination section
+**That paper is the bridge between the termination section
 and its nuclear section, and no wargame in the public record plays it out.**
 
 On settlement design the evidence runs against the pessimists and then qualifies itself.
@@ -2067,7 +2067,7 @@ On settlement design the evidence runs against the pessimists and then qualifies
 finds negotiated settlements structurally fragile
 because power-sharing leaves the loser able to resume,
 while [Hartzell and Hoddie 2003][journal_hartzell_2003_institutionalizing_peace]
-find that the more dimensions of power sharing an agreement specifies, the longer peace holds.
+record that the more dimensions of power sharing an agreement specifies, the longer peace holds.
 [Werner and Yuen 2005][journal_werner_yuen_2005_making_keeping_peace]
 qualify the design literature from inside it,
 finding that ceasefires produced by third-party pressure are more likely to fail
@@ -2078,9 +2078,9 @@ because the two use different samples and different outcome measures.
 
 ### Recovery economics, where the central question is what makes damage persist
 
-The article above leans on Davis and Weinstein, Eichengreen and Ritschl,
-Organski and Kugler, and Miguel and Roland.
-Each of those has an opponent in print.
+Davis and Weinstein, Eichengreen and Ritschl, Organski and Kugler,
+and Miguel and Roland carried the recovery argument earlier.
+Each of them has an opponent in print.
 
 **Whether bombed cities return to trend is unresolved and the dispute is methodological.**
 [Davis and Weinstein 2008][journal_davis_weinstein_2008_multiple_equilibria]
@@ -2100,7 +2100,7 @@ side with multiplicity on a cleaner shock,
 treating the move of Germany's air hub from Berlin to Frankfurt
 as a shift between steady states rather than a return to fundamentals.
 
-**The cleanest decomposition of what persists supports this article's thesis
+**The cleanest decomposition of what persists supports the thesis here
 and narrows it at the same time.**
 [Waldinger 2016][journal_waldinger_2016_bombs_brains]
 uses the dismissal of scientists in Nazi Germany and wartime bombing as separate shocks
@@ -2117,7 +2117,7 @@ $$
 That is the strongest single piece of evidence in this survey
 for the proposition that buildings are the recoverable part,
 and it also says what the irrecoverable part is,
-which this article's sources otherwise leave vague.
+which the sources used here otherwise leave vague.
 
 **On Germany the revisionist position is stronger than the article's own framing allowed.**
 [Vonyo 2018][book_vonyo_2018_economic_consequences]
@@ -2126,7 +2126,7 @@ and that recovery was driven by wartime legacies of enhanced industrial capacity
 and an enlarged labour force
 rather than by liberal reform or the Marshall Plan.
 **That sets him against the De Long and Eichengreen framing used above**,
-and in the same direction as this article's reading of the capacity index.
+and in the same direction as the reading of the capacity index given above.
 [Vonyo 2012][journal_vonyo_2012_bombing_of_germany]
 adds the constraint that the plant-survives story usually omits,
 finding that destruction of urban housing
@@ -2134,7 +2134,7 @@ left urban industry short of labour and capacity underutilised,
 while rural areas gained workers and lost industrial productivity.
 **Capacity that survives is not capacity that can be used
 if the workers have nowhere to live**,
-which is a refinement this article's Ukrainian housing figures should be read against.
+which is a refinement the Ukrainian housing figures above should be read against.
 
 **Against the optimistic reading stands a literature arguing recovery is a myth.**
 [Cerra and Saxena 2008][journal_cerra_saxena_2008_myth_of_recovery]
@@ -2175,7 +2175,7 @@ through eroded interethnic trust.
 **One strand finds destruction can raise output, which no part of this article anticipated.**
 [Hornbeck and Keniston 2017][journal_hornbeck_keniston_2017_creative_destruction]
 study the Great Boston Fire of 1872
-and find that enabling widespread simultaneous reconstruction
+and show that enabling widespread simultaneous reconstruction
 set off a virtuous circle of upgrades,
 raising land values on burned and neighbouring unburned plots,
 which implies that durable obsolete buildings had been constraining growth beforehand.
@@ -2200,15 +2200,15 @@ argue post-conflict settings differ,
 with absorptive capacity roughly doubling in years four to ten,
 so aid should phase in where historically it has tapered out.
 **[Girod 2011][journal_girod_2011_effective_foreign_aid]
-supplies the most uncomfortable finding for this article's subject.**
+supplies the most uncomfortable result for the subject here.**
 Aid improves development only where donors have little strategic interest in the recipient
 and the recipient is desperate for income.
 A reconstruction of an ally the donor cannot afford to lose
-is precisely the case the finding predicts will go badly.
+is precisely the case that result predicts will go badly.
 
 ### Nuclear consequences, where the dispute has a measurable crossover
 
-The article above reports that the contested step is the plume.
+Sections above settle on the plume as the contested step.
 The literature is more precise than that,
 and one paper locates the crossover.
 
@@ -2255,7 +2255,7 @@ and that their case was already a worst case.
 
 **The plume physics has a separate dispute that cuts across the camps.**
 [Tarshish and Romps 2022][journal_tarshish_romps_2022_latent_heating]
-find that a dry plume needs at least a 60 kelvin anomaly to reach the cold point
+calculate that a dry plume needs at least a 60 kelvin anomaly to reach the cold point
 and that simulated dry firestorm plumes fall short by a factor of two or more,
 so only moist plumes reach the stratosphere.
 **The strongest observational evidence runs the other way.**
@@ -2266,7 +2266,7 @@ with plumes continuing to rise over three months
 "in a manner consistent with existing nuclear winter theory".
 
 **On the food pathway the literature has an optimistic pole
-that this article's nuclear section did not represent.**
+that the nuclear section above did not represent.**
 [Jägermeyr and others 2020][journal_jagermeyr_2020_food_security]
 give a 12 percent single-year global caloric loss from a 5 teragram war
 across six harmonised crop models,
@@ -2280,13 +2280,13 @@ model a 150 teragram scenario and find global famine
 only without trade and without adaptation,
 with maintained trade and rapid resilient-food scale-up
 sufficient in their model to feed the global population.
-**The disagreement is therefore about human response and not about soot**,
+**What divides them is therefore human response and not soot**,
 which is a different kind of uncertainty from the fire-physics one
 and is more amenable to policy.
 
 ### The grid, which is the recovery constraint nobody in the wargames prices
 
-Two findings in the consequence literature bear directly on rebuilding
+Two results in the consequence literature bear directly on rebuilding
 and belong in this article rather than in the nuclear section alone.
 [Baker and others 2021][journal_baker_2021_large_transformers]
 report that large power transformers have replacement times measured in months to years,
@@ -2297,7 +2297,7 @@ a long-lead component with few suppliers
 whose replacement clock is set by manufacturing rather than by money.
 [Blouin and others 2024][journal_blouin_2024_electricity_loss]
 model catastrophic electricity loss against the food supply chain
-and find that a recovery measured in weeks to months still permits adequate calories
+and conclude that a recovery measured in weeks to months still permits adequate calories
 if distribution is equitable,
 while a year-long recovery across most of the continental United States
 could precipitate famine.
@@ -2306,7 +2306,7 @@ which is a reconstruction variable and not a war-fighting one.
 
 For the single-detonation case the planning literature is more settled.
 [Dillon 2014][journal_dillon_2014_shelter_times]
-finds that rapid adequate sheltering could save tens of thousands of lives,
+calculates that rapid adequate sheltering could save tens of thousands of lives,
 and gives an operational rule,
 to leave a poor shelter within thirty minutes if better shelter is fifteen minutes away.
 [Scouras 2019][journal_scouras_2019_global_catastrophic_risk]
@@ -2326,9 +2326,9 @@ limited evidence of a doctrinal shift but a clear posture shift toward secure se
 driven by fear of American limited nuclear use
 and of non-nuclear threats to Chinese nuclear forces.
 
-**The most consequential finding for this article is an asymmetry of belief.**
+**The asymmetry that matters most here is one of belief.**
 [Cunningham and Fravel 2019][journal_cunningham_fravel_2019_dangerous_confidence]
-find that Chinese strategists doubt escalation can be controlled
+document that Chinese strategists doubt escalation can be controlled
 and plan only retaliatory strikes,
 while American analysts are more confident that limited use would stay limited.
 **Two sides that disagree about whether a nuclear war can be kept limited
@@ -2337,7 +2337,7 @@ and that mechanism appears in no public wargame of this conflict.
 
 ### Regime survival, where the literature contains the strongest objection to its own use
 
-The article above reports that the base rates are modest.
+Modest base rates were the conclusion above.
 The literature contains something sharper,
 and it sits inside the body of work usually cited for the opposite claim.
 
@@ -2347,7 +2347,7 @@ only for culpable democratic leaders
 and for culpable non-democratic leaders who are also vulnerable to removal.
 Non-democratic leaders who are not vulnerable are insensitive regardless of culpability.**
 That conditional is the one that matters for a personalised leadership,
-and it is a finding against the claim that defeat endangers the Party,
+and it is evidence against the claim that defeat endangers the Party,
 published by two of the authors whose earlier work is cited for the claim.
 
 Three further results point the same way.
@@ -2380,10 +2380,10 @@ which connects the regime-survival question to the nuclear one.
 
 ### The postwar order, where the proliferation cascade is not a simple function of defeat
 
-The article above reports South Korean demand for an indigenous arsenal.
+A demand signal already exists in South Korean opinion, as reported above.
 The literature disputes what drives it.
 
-**The anomaly is the most interesting finding here.**
+**The result that complicates the cascade story runs backwards.**
 [Sukin 2019][journal_sukin_2019_credible_commitments_backfire]
 runs survey experiments in 2018 and 2019
 and finds that increases in the credibility of the American guarantee
@@ -2422,25 +2422,25 @@ holding that converting economic into military capacity is harder than it was.
 holds that a liberal order is possible only under unipolarity
 and predicts a thin international order plus two bounded ones.
 [Ikenberry 2018][journal_ikenberry_2018_end_of_liberal_order]
-locates the crisis inside the West rather than in rising revisionist states.
+places the crisis inside the West rather than in rising revisionist states.
 
-**One finding speaks directly to what a victorious coalition should expect.**
+**What a victorious coalition should expect has been measured directly.**
 [Wolford 2017][journal_wolford_2017_shared_victory]
 analyses war-winning coalitions from 1816 to 2007
 and finds that larger coalitions are associated with less durable postwar peace
 among their own members,
 as are more extensive prewar alliance commitments.
 **The coalition that wins the war is a predictor of the instability that follows it**,
-which is the only quantitative finding located
+which is the only quantitative result located
 that treats the victors' postwar relations as the dependent variable.
 
 ### The defence industrial base, where the camps disagree about the binding constraint
 
-The article above treats yards, workforce and consolidation as one constraint.
-The literature does not,
+Yards, workforce and consolidation are treated above as one constraint.
+The literature does not treat them that way,
 and it divides into four positions about what actually binds.
 
-**Money.** The defence-inflation literature locates the constraint in cost escalation,
+**Money.** The defence-inflation literature puts the constraint in cost escalation,
 which implies that appropriations can fix it.
 This is the premise underneath most European rearmament instruments.
 [Fabbrini 2024][journal_fabbrini_2024_defence_union]
@@ -2561,7 +2561,7 @@ The dissent from the dissent is
 who finds material preponderance remains essential
 and sometimes the most important factor.
 
-**One finding sharpens the unit of measurement rather than rejecting it.**
+**The peacekeeping evidence sharpens the unit of measurement rather than rejecting it.**
 [Hultman, Kathman and Shannon 2014][journal_hultman_2014_beyond_keeping_peace]
 find a dose-response relationship in peacekeeping
 that holds for armed military troops and not for police or observers.
@@ -2596,7 +2596,7 @@ matches neither the vanishing pattern nor the surviving one.
 ### Resistance to occupation, where a headline result has been shown to be fragile
 
 [Stephan and Chenoweth 2008][journal_stephan_chenoweth_2008_why_civil_resistance]
-established the influential finding that nonviolent campaigns outperform violent ones,
+established the influential result that nonviolent campaigns outperform violent ones,
 and [Chenoweth and Lewis 2013][journal_chenoweth_lewis_2013_navco]
 extended the data with an explicit anti-occupation category.
 **[Chenoweth 2020][journal_chenoweth_2020_future_of_resistance]
@@ -2719,7 +2719,7 @@ Every dollar figure in circulation comes from think tanks or private forecasters
 
 ### Whether decoupling policy achieves what it is for
 
-Four findings face the same way and against the premise of the policy.
+Four results face the same way and against the premise of the policy.
 [Crosignani and others 2024][research_crosignani_2024_geopolitical_risk]
 give firm-level evidence that American export controls
 destroyed about 130 billion dollars of supplier market capitalisation
@@ -2793,7 +2793,7 @@ with anchor damage the largest single category across 2022 to 2025.
 Beyond that zone, about 44 percent of 2025 faults were caused by earthquakes,
 one December event cutting six systems at once.
 [Mok 2026][journal_mok_2026_undersea_cable_resilience]
-locates the real vulnerability in a lack of redundancy,
+finds the real vulnerability in a lack of redundancy,
 limited repair capacity and gaps in maritime law
 rather than in attribution.
 **The Matsu case above is therefore the right lesson drawn from a thin evidence base**,
@@ -2865,7 +2865,7 @@ Neither published the counting rule.
 Organski and Kugler find losers recover to antebellum standing.
 Koubi finds a positive causal effect of war duration on later growth.
 Federle and others find an output drop near 10 percent at the war site.
-**The disagreement is partly about the sample**,
+**Part of the split is about the sample**,
 since Koubi's effect concentrates in civil wars,
 and partly about whether the counterfactual is the prewar level or the prewar path.
 
@@ -2931,7 +2931,7 @@ reaches it through a general exchange among every major arsenal.
 The field's newest synthesis,
 the 2025 National Academies consensus study,
 carries no economic recovery analysis and no recovery timescale for human systems,
-and names that as a research gap in its own text.
+and names that as a research gap itself.
 **The only official study containing a recuperation analysis that this search found
 dates from 1979.**
 - **The occupation force-density literature and the invasion literature have never been joined.**
@@ -3036,9 +3036,9 @@ rather than a search engine,
 because this session's web-search budget was exhausted before the survey began.
 Every work named in it was confirmed in Crossref or OpenAlex
 with matching authors, title, year and venue.
-**A finding is attached to a work only where an abstract or full text was retrieved.**
-Where a work is named without a finding,
-its text was not obtained and no claim is attributed to it,
+**A result is attached to a work only where an abstract or full text was read.**
+A work named without one was not obtained,
+and no claim is attributed to it,
 which applies to several landmarks whose publishers refuse automated clients.
 The bounds are real and not random with respect to the subject.
 English-language sources only,
@@ -3226,7 +3226,7 @@ and with a second ratio computed from the firmest available numbers.
 The draft asserted that no study models nuclear consequences or recovery for this theatre.
 Reading the 2025 National Academies report in full confirmed
 that it contains no economic recovery analysis and no recovery timescale for human systems,
-and that it says so itself by naming the research gap.
+and that it names the research gap itself.
 The only official study with a recuperation analysis located
 is the Office of Technology Assessment's of 1979.
 
@@ -3242,7 +3242,7 @@ The organising claim, that capital stock recovers on a decadal clock
 while throughput, production ecosystems and trade relationships do not,
 is this article's reading of sources that do not state it in that form.
 The four gaps are inferences from a bounded search.
-**The section pairing agreements against disagreements is also this article's construction.**
+**The section pairing agreements against disagreements is also a construction of this piece.**
 No source located arranges these works that way,
 the groupings are editorial judgments about what counts as the same question,
 and a different reader could reasonably sort them differently.
@@ -3318,7 +3318,7 @@ and the constraint is rarely money.
 It is yards, cycles, skilled workers, seed stock, and relationships,
 none of which respond to appropriation on the timescale of a crisis.
 
-What the record does not contain is the more useful finding.
+What the record does not contain is more useful than what it does.
 No public wargame models the period after the landing or after the failure.
 No study examines whether the Chinese state survives losing,
 though the report most often quoted on the point asserts it might not
