@@ -17,7 +17,7 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## What Rebuilding Would Take After a War With China A375 2026-08-12
+## What Rebuilding Would Take After a War With China A375 2026-08-12 PUBLISHED
 
 `rebuilding_after_war_with_china.markdown`, A375, editorial date 2026-08-12, standalone analytical
 essay and the companion to the published A374, categories `geopolitics military war-gaming`.
@@ -25,8 +25,19 @@ essay and the companion to the published A374, categories `geopolitics military 
 **2,303 lines, 63 display equations, 17 inline expressions, 97 reference definitions, roughly 12,800
 words of author prose after the primary-reference pass**, up from 1,448 lines, 50 equations and 78
 references after the equation pass, and from 1,215 lines and 21 equations after drafting.
-**ALL FOUR PASSES COMPLETE, PLUS A PATHOLOGICAL WORD USAGE PASS.** Committed and **PUSHED**.
-**NOT PUBLISHED**, as instructed.
+**ALL FOUR PASSES COMPLETE, PLUS A PATHOLOGICAL WORD USAGE PASS, AND NOW PUBLISHED.**
+**PUBLISHED 2026-10-01 at the editorial date 2026-08-12** as
+`_posts/2026-08-12-rebuilding_after_war_with_china.markdown`, live at
+`/geopolitics/military/war-gaming/2026/08/12/rebuilding_after_war_with_china.html`.
+The corpus is now **303 posts**.
+
+**THE DATE COLLISION IS NOW A WARNING AND IT BELONGS TO THE OTHER DRAFT.**
+`android_development_on_freebsd.markdown` still carries the editorial date 2026-08-12.
+`_verify.py` errors on `date-collision` only when two **posts** share a date, and its date map is
+built from `_posts`, so with A375 published and the other still a draft the result is a
+`draft-date-taken` **warning** rather than an error. **It becomes a hard error the moment that
+draft is published**, so it must be re-dated first. The run from 2026-08-20 onward is free of both
+posts and drafts.
 
 **THE DICTION PASS HAD TO DISCOVER ITS OWN TARGETS, BECAUSE THE ENUMERATED CLASS FOUND NOTHING.**
 `_lib/diction.py tics` reported 0 words at or above the peer maximum and `report` reported 0

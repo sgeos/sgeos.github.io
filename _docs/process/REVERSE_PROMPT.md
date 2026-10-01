@@ -9,8 +9,13 @@
 of the series has never been authorised. **Sixty-six of seventy-two drafted, six remain.**
 
 **A SECOND LINE HAS FINISHED ITS ARTICLE AND ITS REPORT IS PRESERVED BELOW.**
-**A375 is COMPLETE through all four passes plus a pathological word usage pass,
-committed and PUSHED.** Its publication-review section is immediately below this
+**A375 IS PUBLISHED AND LIVE.** All four passes plus a pathological word usage pass,
+published on 2026-10-01 at the editorial date 2026-08-12, and **the corpus is now 303 posts**.
+**One thing is left behind for the pilot**, which is that
+`android_development_on_freebsd.markdown` still carries the same editorial date. That is a
+`draft-date-taken` warning today and a hard `date-collision` error the moment that draft
+publishes, because the verifier builds its date map from `_posts` alone. It needs re-dating
+before it ships, and 2026-08-20 onward is free of both posts and drafts. Its publication-review section is immediately below this
 one, and its earlier primary-reference report is kept further down rather than overwritten.
 **The A375 line reports the same class of defect for a third time, and it is worth this line's
 attention because the pattern now has four instances across two articles.** A checker passes
