@@ -9,8 +9,8 @@
 of the series has never been authorised. **Sixty-six of seventy-two drafted, six remain.**
 
 **A SECOND LINE HAS FINISHED ITS ARTICLE AND ITS REPORT IS PRESERVED BELOW.**
-**A375 is COMPLETE through all four passes, committed and PUSHED, and NOT PUBLISHED,
-which is what the pilot asked for.** Its publication-review section is immediately below this
+**A375 is COMPLETE through all four passes plus a pathological word usage pass,
+committed and PUSHED.** Its publication-review section is immediately below this
 one, and its earlier primary-reference report is kept further down rather than overwritten.
 **The A375 line reports the same class of defect for a third time, and it is worth this line's
 attention because the pattern now has four instances across two articles.** A checker passes
@@ -1331,6 +1331,36 @@ decades of instrumentation contracts under the Invocon name.
 
 **AND `REVERSE_PROMPT.md` NOW HAS TWO WRITERS.** This report preserves the concurrent session's
 below it rather than overwriting, which is a choice and not a convention.
+
+---
+
+## A375, Pathological Word Usage Pass
+
+**THE ENUMERATED TIC CLASS FOUND NOTHING, BEFORE OR AFTER.** `diction.py tics` reports 0 words at
+or above the peer maximum and `report` reports 0 constructions above the corpus maximum. Its own
+banner says the class is enumerated and not discovered, so the pass had to find what *this* article
+invented. `tmp/a375/pathology.py` compares unigram, bigram and trigram rates against all 258
+published posts, with quotations and mathematics stripped.
+
+**THE PATHOLOGY WAS ONE CLUSTER: the article kept talking about itself.** `this article's` at 1.97
+times the peer maximum, **`the article above` used six times and never once by any peer**, and it
+was the opening sentence of six consecutive survey subsections.
+
+**THE SIGNATURE WORD WAS ONE NO GATE WOULD FLAG.** `finding`, 45 uses, 33 of them the noun
+labelling a conclusion, sitting at **2.24 against a peer maximum of 8.56**. **The case for cutting
+was repetition and not frequency**, four near-identical bold openers inside one section. A reader
+meets that formula four times in a few pages whatever the corpus says.
+
+**THE PASS CAUGHT ITSELF OVER-CORRECTING TWICE.** Varying the six openers put `earlier` into five
+of six replacements. Fixing that put `above` into four with two sharing a passive shape. And
+redistributing attribution verbs pushed `report that` over the peer maximum. **Each was caught by
+re-measuring, not by reading.** This is A374's failure mode recurring, and the lesson is that a
+diction fix must be measured after it is applied, exactly like an equation pass.
+
+**WHERE IT STOPPED IS RECORDED RATHER THAN SILENT.** `report that` stays at 1.37 times the maximum
+because the peer set is not literature surveys. `own` stays because a source's own words is the
+method. All six `article's own` uses stay because each marks the boundary between the article's
+arithmetic and a source's.
 
 ---
 
