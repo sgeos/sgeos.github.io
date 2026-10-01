@@ -17,6 +17,52 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## Whether a War With China Would Change the Global Balance of Power A376 2026-08-13
+
+`balance_of_power_after_war_with_china.markdown`, A376, editorial date 2026-08-13, third and last
+article of the `war_with_china` series, categories `geopolitics military war-gaming`,
+series index 3.
+
+**2,896 lines, 39 display equations, 9 inline expressions, 86 reference definitions, roughly
+16,300 words of author prose after the drafting pass.**
+**DRAFTING PASS COMPLETE. NOT PUBLISHED.** Three of the four passes remain, namely equation
+density, primary references and publication review.
+
+**A374, A375 AND A376 ARE A SERIES.** The series lines were added to the two published posts,
+which moved no URLs because categories and dates are unchanged and so no `redirects/` entry is
+owed. While A376 is a draft the two live pages read Part 1 of 2 and Part 2 of 2, becoming of 3
+when it publishes.
+
+**The article asks whether a United States-China war would shift the global balance of power, and
+answers mostly from data generated for other purposes.** The base rate is computed from Correlates
+of War National Material Capabilities v7.0 and Inter-State War v4.0 rather than quoted. Across 95
+inter-state wars the median belligerent gains about seven percent of relative standing over the
+following decade while 38 percent of winners decline, and among wars above 100,000 battle deaths
+all eleven losers decline with a median loss of 41.8 percent. The prewar trend does not predict
+the postwar change. Applying those medians to the 2022 standing puts an American victory at
+approximate parity rather than restored primacy, leaves a defeated China above where the United
+States stands today, and has India passing the United States if the United States loses.
+
+**The structural finding is that the belligerents would hold about 36 percent of measured world
+capability against 82 percent in 1914 and 98 in 1939**, so for the first time there would be a
+bystander pool large enough to absorb a redistribution, which is also why the historical record
+cannot test the mechanism.
+
+**The measurement sections report the index's documented caveats with magnitudes attached**,
+including that the published column misses one by more than a thousandth in 183 of 207 years, that
+the urban component changes definition in 2002 and again from 2017, and that the latter cuts
+recorded United States urban population by 44 percent in a single year.
+
+**The financial sections were computed from the Fund's own reserve series**, which shows the
+dollar share falling more slowly after the 2022 reserve freeze than before it and the renminbi
+peaking one quarter before that freeze.
+
+**Verification at the drafting pass.** `_verify.py` 0 errors across 303 posts, 185 numeric checks
+across two harnesses with none failing, production build clean, rendered audit no findings across
+468 pages, zero contractions and zero dashes in prose, all 86 references cited in the body and
+alphabetically ordered, and every reference URL resolving or returning the documented publisher
+refusal.
+
 ## What Rebuilding Would Take After a War With China A375 2026-08-12 PUBLISHED
 
 `rebuilding_after_war_with_china.markdown`, A375, editorial date 2026-08-12, standalone analytical

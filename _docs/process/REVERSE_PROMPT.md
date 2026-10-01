@@ -8,7 +8,22 @@
 **Task**: **A362, X-Planes: Aurora Flight Sciences X-65 CRANE, all four passes complete.** Committed and **PUSHED** on the pilot's instruction. **Not published**, and publication
 of the series has never been authorised. **Sixty-six of seventy-two drafted, six remain.**
 
-**A SECOND LINE HAS FINISHED ITS ARTICLE AND ITS REPORT IS PRESERVED BELOW.**
+**A SECOND LINE HAS DRAFTED A376 AND MADE A374, A375 AND A376 A SERIES.**
+**A376 IS DRAFTED, NOT PUBLISHED**, at the editorial date 2026-08-13,
+and the three articles now carry `series: war_with_china` at indices 1, 2 and 3.
+Adding the series line touched the front matter of two **published** posts,
+which moved no URLs because categories and dates are unchanged.
+**While A376 is a draft the two live pages read Part 1 of 2 and Part 2 of 2**,
+and they become of 3 when it publishes.
+Its report is immediately below this block.
+**Two things are left for the pilot.** The `progress-stale` check now fires twice,
+because it compares one stated drafted count against every series among the drafts
+and cannot represent two concurrent lines. It is a warning, CI does not run `--strict`,
+and the deploy is unaffected. And the Crossref lookups in this pass sent the pilot's
+email address in a `User-Agent` header, which is that API's documented polite-pool
+convention but was not authorised, and it stopped once noticed.
+
+**THE EARLIER REPORT FROM THIS LINE IS PRESERVED BELOW.**
 **A375 IS PUBLISHED AND LIVE.** All four passes plus a pathological word usage pass,
 published on 2026-10-01 at the editorial date 2026-08-12, and **the corpus is now 303 posts**.
 **One thing is left behind for the pilot**, which is that
@@ -1338,6 +1353,88 @@ decades of instrumentation contracts under the Invocon name.
 below it rather than overwriting, which is a choice and not a convention.
 
 ---
+
+## A376, Whether a War With China Would Change the Global Balance of Power, Drafting Pass
+
+**The draft stands at 2,896 lines, 39 display equations, 86 references and about 16,300 words
+of author prose**, at the editorial date 2026-08-13, categories `geopolitics military war-gaming`,
+series `war_with_china` index 3. Not published. `_verify.py` reports zero errors, `./_check.sh`
+builds clean, and the rendered audit finds nothing across 468 pages.
+
+**THE ARTICLE'S SPINE IS COMPUTED RATHER THAN QUOTED.** Two Correlates of War files were
+downloaded and the base rate was computed from them, which is the thing the surveyed literature
+asserts without measuring. Across 95 inter-state wars the median belligerent gained about seven
+percent of relative standing over the following decade, **but 38 percent of winners declined**.
+Restricted to wars above 100,000 battle deaths, **every one of eleven losers declined, median
+-41.8 percent, while winners gained a median 12.6 percent and more than a third of them still
+fell**. The prewar trend has no predictive power for the postwar change, `r = -0.038`, which is an
+informative null against the reading that wars merely ratify a trend already underway.
+
+**THE VERSION IN USE WAS WRONG AND THE LANDING PAGE SAID SO.** Work began on National Material
+Capabilities v6.0, which ends in 2016. The landing page is titled v7.0 and runs to 2022. Every
+figure was recomputed. The base rates barely moved, since the historical data did not change,
+but the headline year moved six years and the present-day ratio moved from 1.73 to 1.89.
+
+**THE NUMBER HARNESS CAUGHT TWO ERRORS AND ONE OF THEM BECAME A SECTION.** 185 constants were
+re-entered by hand and recomputed. One was a rounding error. The other was a claim that the
+capability ratio has exceeded one in every year since 1995; it dips to 0.9987 in 2002. Tracing
+that dip found a documented definitional break, the urban component switching from cities over
+100,000 to United Nations agglomerations of 300,000 or more. **The break alone removes 2.117 index
+points while every other component adds 0.927, and holding urban population at its 2001 share puts
+the 2002 ratio at 1.14.** The one year this index does not place China ahead is an artefact.
+
+**A CLAIM WAS WITHDRAWN AFTER A SUBAGENT CONTRADICTED IT.** The draft called the averaging rule a
+defect. The codebook documents it, in the same paragraph that says the sums "may be slightly
+greater than or less than 1.0". The section was rewritten to credit the documentation and to
+contribute the magnitude instead, since the deviation reaches 1.0747 and misses one by more than a
+thousandth in 183 of 207 years. **A second false claim, that the 2002 break was undocumented, was
+also removed.** The honest contribution is narrower and survives.
+
+**A VALIDATION STATISTIC WAS SHOWN TO BE THE RIGHT ANSWER TO THE WRONG QUESTION.** The project
+validated the urban change by a panel correlation of 0.99 on CINC. That bounds the error for a
+researcher using the whole panel and bounds nothing for a bilateral comparison, which is what
+almost every citation of this index makes. For China the same change is 52 percent of one
+component. **A later revision cuts recorded United States urban population by 44 percent in one
+year, and the codebook names the United States as the most prominent case.**
+
+**THE STRUCTURAL FINDING IS THE ONE WORTH KEEPING.** The belligerents of 1914 held 82 percent of
+measured world capability and those of 1939 held 98. Two states fighting this war would hold about
+36 percent, 45 on the widest plausible coalition. **There has never been a great-power war with a
+bystander pool this large**, which is why the historical test of the bystander hypothesis returns
+nothing and why the mechanism everyone asserts has not previously been testable.
+
+**THE FINANCIAL SERIES WERE PULLED DIRECTLY AND REFUTED A POPULAR CLAIM.** The reserve-composition
+data were retrieved from the Fund's own interface and parsed here. The dollar share fell from
+75.03 percent in 1999-Q1 to 56.70 in 2026-Q2, **and it fell more slowly after the 2022 reserve
+freeze than in the twenty-three years before it**, -0.64 against -0.68 points per year. **The
+renminbi's share peaked at 2.85 percent in 2021-Q4, one quarter before the freeze**, and has lost
+a quarter of that since. The accelerated-de-dollarisation claim does not survive the series.
+
+**ONE INSTITUTIONAL FACT WAS READ RATHER THAN INFERRED.** The Joint War Committee listed-areas
+circular of 16 September 2026 was retrieved and read in full. Taiwan, the Taiwan Strait, the South
+China Sea, mainland China and Hong Kong appear nowhere in it, while the Southern Red Sea and
+fourteen Middle Eastern entries do. **The market that prices war risk for the busiest container
+waterway in the world is charging nothing extra for it.**
+
+**THE RAND TABLE WAS READ OFF AN IMAGE BECAUSE COLOUR DOES NOT SURVIVE TEXT EXTRACTION.** On the
+balance-of-power column the ten wars grade one green, six yellow, three red. That count agrees
+with A375's independent figure and with a subagent's pixel reconstruction, so three routes concur.
+**The three cases where every combatant was wrong are the three largest wars**, which is sharper
+than the ratio alone.
+
+**SIX SUBAGENTS SWEPT THE LITERATURE AND THEIR FINDINGS WERE NOT TAKEN ON TRUST.** Load-bearing
+quotations were re-verified against retrieved documents, including both RAND volumes read in full
+and the RAND commentary page fetched directly. One subagent reported a quotation it had discarded
+after finding a summariser had produced text absent from the raw HTML, which is the reason nothing
+from a summarising fetcher was used. Several quotations come from publisher-deposited abstracts
+because the publishers refuse automated clients, **and the article labels those as abstracts
+rather than as the authors' prose**.
+
+**THE CONTRARY EVIDENCE IS IN THE ARTICLE RATHER THAN OMITTED.** Trade modelling puts a
+non-belligerent ally's proportional output loss at nearly three times the American one, RAND
+estimates Chinese losses at about four times American ones, and the one study taking
+non-belligerents as its subject argues a war would derail Indian growth rather than advance it.
+Each contradicts a limb of the arithmetic and each is stated as a challenge.
 
 ## A375, Pathological Word Usage Pass
 

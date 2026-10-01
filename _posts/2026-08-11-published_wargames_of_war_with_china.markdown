@@ -5,6 +5,9 @@ comments: true
 title: "What Published Wargames Say About a War With China"
 date: 2026-08-11 09:00:00 +0000
 categories: geopolitics military war-gaming
+series: war_with_china
+series_title: A War With China
+series_index: 1
 ---
 
 <!-- A374 -->
