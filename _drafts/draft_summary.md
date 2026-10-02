@@ -23,10 +23,29 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 article of the `war_with_china` series, categories `geopolitics military war-gaming`,
 series index 3.
 
-**4,357 lines, 88 display equations, 202 reference definitions, roughly 22,400 words of author
-prose after the primary-reference pass**, up from 3,201 lines, 80 equations and 86 references
-after the equation pass, and from 2,896 lines and 39 equations after drafting.
-**THREE OF FOUR PASSES COMPLETE. NOT PUBLISHED.** Only the publication review remains.
+**4,443 lines, 89 display equations, 202 reference definitions, roughly 23,100 words of author
+prose after the publication review**, up from 2,896 lines, 39 equations and 86 references after
+drafting.
+**ALL FOUR PASSES COMPLETE. NOT PUBLISHED.** Ready for the pilot's publication decision.
+
+**THE PUBLICATION REVIEW REFUTED A CLAIM THE ARTICLE HAD MADE IN THREE PASSES.** The article
+asserted that a great-power war in which the belligerents hold a minority of world capability
+would be without precedent, and that the resulting bystander pool was the novel feature of the
+prospective case. **That is false.** Twenty wars with at least twenty thousand battle deaths had
+less concentrated belligerents, among them the Russo-Japanese War and the Gulf War. The claim
+survived three passes because it was reasoned from the two world wars rather than computed from
+the ninety-five wars in the file. Computing it returned a relationship running the other way,
+**belligerent concentration correlating with belligerent loss at minus 0.225 across seventy-six
+wars**, with the prospective case at the ninety-sixth percentile of concentration and ten of the
+twelve wars in its band ending with the belligerents smaller. That now replaces the refuted claim
+in the opening, the bystander section, the agreements section, the gaps section and the
+conclusion, and it supports the article's conclusion by a different mechanism.
+
+**THE REVIEW ALSO FOUND STRUCTURAL DAMAGE FROM THE REFERENCE PASS.** Four subsections had been
+duplicated, including two on the same allies argument where the first said a quotation appeared
+"earlier" when it appeared forty-six lines later. Four blocks on bystanders, official assessments,
+shipping and fiscal position had been inserted under the Alliances heading and belonged elsewhere.
+Both are fixed, and the article now has no duplicate headings.
 
 **The reference pass took the article from 86 to 202 references and raised the primary share.**
 Government documents went from 6 to 30 and datasets from 12 to 20, so primary sources are now
@@ -85,6 +104,14 @@ recorded United States urban population by 44 percent in a single year.
 **The financial sections were computed from the Fund's own reserve series**, which shows the
 dollar share falling more slowly after the 2022 reserve freeze than before it and the renminbi
 peaking one quarter before that freeze.
+
+**Verification at the publication review.** `_verify.py` 0 errors across 303 posts, **263 numeric
+checks across three harnesses** with none failing, build clean, rendered audit no findings,
+**source-to-rendered display count agreeing at 89**, no duplicate headings, delimiters balanced,
+zero contractions and zero dashes in prose, and all 202 references cited and ordered. Three
+quotations taken from subagent reports were verified directly against the sources, which caught a
+fidelity error where the article hyphenated a word the source does not. One claim attributed to
+Allison's project could not be verified and was replaced with one that could.
 
 **Verification at the primary-reference pass.** `_verify.py` 0 errors across 303 posts, **245
 numeric checks across three harnesses** with none failing, production build clean, rendered audit
@@ -599,68 +626,46 @@ and the Bloomberg model is not public. The article labels all three as such.
 ## X-Planes Boeing X-66 A363 2025-12-11
 
 `x_planes_boeing_x66.markdown`, A363, editorial date 2025-12-11, series `x_planes` index 67,
-categories `aerospace history engineering`. **DRAFTING, EQUATION-DENSITY AND PRIMARY-REFERENCE
-PASSES COMPLETE, three of four. Committed and NOT PUSHED**, which is the rhythm for passes one to
-three. **NOT PUBLISHED**, and publication of the series has never been authorised.
+categories `aerospace history engineering`. **ALL FOUR PASSES COMPLETE. Committed and PUSHED** on the
+pilot's instruction. **NOT PUBLISHED**, and publication of the series has never been authorised.
 
-**10,767 lines, 59,396 words, 83 display equations, 188 inline expressions, an 84-entry symbol table
+**10,795 lines, 59,564 words, 83 display equations, 188 inline expressions, an 84-entry symbol table
 and 4,537 reference definitions**, in 21 H2 and 60 H3 sections with 24 tables. The reference base is
 21 primary documents written by hand after reading, 14 research records cited by hand with their
 depth of reading recorded, 66 prior articles of the series, and **4,436 gated research records with
 1,256 report primaries at 28.3 percent**, a period count of **1,790 at 42.6 percent**, a median year
-of 2012 and a range from **1921** to 2026. **Both the primary count and the primary fraction rose
-over the pass**, from 1,035 and 26.1 percent.
+of 2012 and a range from **1921** to 2026.
 
 **THE KEYSTONE IS INFRASTRUCTURAL.** The wing folds at 118 feet and **118 feet is exactly where the
-Federal Aviation Administration's Airplane Design Group III ends**, against a bound that is
-exclusive. **Reading the circular rather than a reproduction of its table showed that 118 feet and 36
-metre are one boundary written twice**, its front matter stating that the customary units govern and
-the metric values are soft rounded conversions, so the 1.3228-inch gap is that rounding rather than a
-disagreement between two authorities. The fold is worth **35.96 percent in lift-to-drag ratio** and
-the remaining aerodynamic optimum **0.9481 percent** in fuel on the exact Breguet treatment.
+Federal Aviation Administration's Airplane Design Group III ends**, against an exclusive bound.
+Reading the circular rather than a reproduction of its table showed that **118 feet and 36 metre are
+one boundary written twice**, its front matter stating that the customary units govern and the metric
+values are soft rounded conversions. The fold is worth **35.96 percent in lift-to-drag ratio** and
+the remaining aerodynamic optimum **0.9481 percent** in fuel.
 
-**THE EQUATION-DENSITY PASS CORRECTED THE KEYSTONE'S OWN APPROXIMATION.** Carrying the Breguet
-exponential rather than linearising it introduces one factor, **0.892462** at this aeroplane's
-twenty percent fuel fraction, giving **nu-star equals Phi delta** at fixed lift and **Phi delta over
-one minus Phi plus two Phi delta** at fixed area, both reducing to the drafted forms as the fuel
-fraction vanishes. The penalty at the design point fell from 1.9024 to **0.9481 percent**, which now
-falls inside the Phase II report's independently optimised bound of under 1.4 percent rather than
-above it.
+**THE OPTIMALITY CONDITION IS TWO CONDITIONS AND BOTH ARE EXACT.** At fixed wing area and cruise
+condition the stationary aspect ratio is where the logarithmic derivative of weight with respect to
+aspect ratio equals one half, independently of every other parameter. At fixed cruise lift
+coefficient it equals the induced-drag fraction. **Carrying the Breguet exponential rather than
+linearising it generalises both by a single factor**, giving **nu-star equals Phi delta** and **Phi
+delta over one minus Phi plus two Phi delta**, with the curvature **Phi delta times open bracket n
+plus one minus delta minus Phi delta close bracket plus Phi-prime X delta squared**.
 
-**THE PRIMARY-REFERENCE PASS READ THE PAPER THE ARTICLE SAID IT HAD NOT READ.** The Phase IV report
-asked for an equivalent optimisation of cantilever and truss-braced aircraft of the same technology
-level, and a NASA Ames team published it in January 2025. Holding payload, range, technology, engine
-and the wing-fold rule equal and applying a tube-and-wing weight calibration to both, **it gives 1.65
-percent at the economic nine-hundred-nautical-mile mission against Boeing's 7.2**, a factor of
-**4.36**, or 5.71 percent with body tanks, while **at the long mission the three figures agree within
-a point**. Its two ranked causes, fuel volume and the weight calibration, **are exactly the two
-uncertainties the drafting pass had named and could not price.**
+**FOUR INDEPENDENT ROUTES AGREE THAT THE ASPECT RATIO IS BELOW ITS OPTIMUM**, being the derivation,
+the Phase II span optimisation, the Phase IV group weight statement and the 2025 NASA Ames
+like-for-like pair. **And that fair comparison, which the Phase IV report had asked somebody to make,
+gives 1.65 percent at the economic mission against Boeing's 7.2**, a factor of 4.36, with fuel volume
+and the weight calibration as its two ranked causes.
 
-**IT IS ALSO A FOURTH INDEPENDENT ROUTE TO THE KEYSTONE.** Its like-for-like pair gives apparent
-weight elasticities of **-0.00384, -0.12956, -0.00282 and +0.09926**, every one below the exact
-fixed-lift target of 0.299033 and three of four negative, and it prices the truss at **24.6 to 28.1
-percent** on the cantilever wing while **the wing alone is 1.4 to 4.3 percent heavier**, directly
-measuring the derived claim that a geometrically similar truss buys a coefficient and not an
-exponent. **And it names a limit on the keystone**, the braced aeroplane needing 25.65 percent more
-installed thrust and cruising 4,250 feet higher, so a cruise-fuel condition is the wrong objective
-for a nine-hundred-nautical-mile sector.
+**THE PUBLICATION REVIEW FOUND THE ARTICLE CONTRADICTING ITSELF AND A FACTUAL ERROR.** A heading
+claimed the FY2026 supplement says three things nothing else says, where the same paragraph conceded
+otherwise. And the article had the Boeing 747-8 at Code E when at 68.4 metre it is Code F. **The
+corrected passage is stronger**, because the 777X folding across a code boundary is the manoeuvre
+this article says the X-66A depends on and it is already certificated. **Thirteen rankings were
+scoped and one was false**, three computed literals became slots, fourteen small counts were spelled
+at the emitter, and diction went from one word above the peer maximum to zero.
 
-**THE THIRD SWEEP WAS AIMED BY MEASUREMENT AND REPORTED WHAT IT BOUGHT, INCLUDING NOTHING.**
-`aspect_ratio` went from 11.9 to **23.4 percent** and 64 primaries to **167**, and the lifting-line
-vocabulary reached **Munk's 1921 NACA Report 121** and a **1935 analysis of a strut with a single
-elastic support in the span**. **But fourteen airport-planning questions, nine returning nothing at
-all, bought one record and zero primaries**, leaving `span_constraint` at exactly zero, because
-airport design is a regulator's subject published as advisory circulars rather than technical
-reports.
-
-**THREE MORE PRIMARIES EACH REPLACED AN ASSERTION**, being a 1981 Grumman wing weight methodology
-that names non-optimum weight, minimum gages and secondary loads in the article's own terms, a 2016
-NASA Langley aero-structural efficiency paper that states the article's methodological thesis in one
-sentence, and a 1980 NASA-contracted study that developed a business jet at **aspect ratio 25
-strut-braced**. **Volumes II, III and IV of the Phase IV report are not held by the reports server at
-all.**
-
-**VERIFICATION.** `verify_numbers.py` **128 checks** and `neweqns.py` **94 checks**, both passing,
+**VERIFICATION.** `verify_numbers.py` **158 checks** and `neweqns.py` **94 checks**, both passing,
 the latter importing neither the calculation module nor the equation pass's own. `_verify.py` 0
 errors across 303 posts and no new warnings. The stub-isolated production build succeeds against
 checksum-matched bytes and **the rendered audit reports no findings across 549 pages**. **Source and
@@ -669,7 +674,8 @@ rendered display counts agree at 83** and no expression in the page carries an e
 citation `51 U.S.C. 20113(e)`. **Thirty-five hand-written addresses, 25 reached and 10 refused by one
 publisher's bot policy, all ten verified in the registry by title, venue and year.**
 
-**REMAINING WORK.** One pass, the publication review, which is the pass that also pushes.
+**REMAINING WORK.** None. **The article is complete and awaits a publication decision, which has not
+been given for any article in this series.**
 
 ## X-Planes Aurora Flight Sciences X-65 CRANE A362 2025-12-10
 

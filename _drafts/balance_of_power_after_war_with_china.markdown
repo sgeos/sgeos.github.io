@@ -37,9 +37,9 @@ Those two facts together do most of the work in this article.
 The first means that a war fought to arrest a transition
 would be fought after the transition had already been recorded by the instrument
 most often used to detect it.
-The second means that, for the first time in the record of great-power war,
-there exists a pool of non-participants large enough
-to absorb a substantial redistribution of relative standing.
+The second means that the belligerents would be
+unusually concentrated for a war but far less so than in either world war,
+and that concentration turns out to predict how belligerents fare afterwards.
 
 The title asks whether, and the qualification is not rhetorical.
 Across ninety-five inter-state wars between 1823 and 2003
@@ -179,7 +179,7 @@ and exceeds one in every subsequent year but one.
 The exception is 2002, where it reads 0.9987,
 and that single year turns out to be an artefact
 of a documented break in one of the six component series,
-which the subsection after next takes up.
+which the subsection on breaks takes up below.
 
 | Year | China | United States | Ratio | India |
 |------|-------|---------------|-------|-------|
@@ -705,6 +705,35 @@ and both bases for military spending.
 Lowy scores comprehensive power at 80.4 for the United States against 73.7 for China,
 and its defence networks measure, which counts alliances,
 scores 81.4 against 18.9.
+
+$$
+\frac{81.4}{18.9} \approx 4.3
+$$
+
+Expressed throughout as Chinese standing relative to American,
+the five instruments give the following.
+
+$$
+1.89, \qquad
+\frac{336}{954} \approx 0.35, \qquad
+1.34, \qquad
+0.63, \qquad
+\frac{73.7}{80.4} \approx 0.92
+$$
+
+**Five instruments, five answers, spanning from
+China at nearly twice the United States to China at about a third of it.**
+
+$$
+\frac{1.89}{0.35} \approx 5.4
+$$
+
+The extreme readings differ by a factor of more than five.
+**The instrument producing the most dramatic Chinese lead
+is the one this article uses**,
+which is a reason to distrust the levels it reports
+and the reason every comparison in this article is built
+on ratios and on direction rather than on levels.
 The index publishes its weights and its own caveat
 that "it is of course possible to reach other value judgements
 about the relative importance of the measures",
@@ -750,6 +779,12 @@ which is consistent with the decomposition performed above,
 where the index's verdict turned out to rest on two components out of six.
 
 Other critiques are older and narrower.
+[Brooks and Wohlforth][journal_brooks_wohlforth_2016_rise_and_fall]
+add that the conversion from economic weight into military power
+has itself become harder,
+so that "the transition from a great power to a superpower
+is much harder now than it was in the past",
+which bears directly on reading an industrial-age index forward.
 [Markowitz and Fariss][journal_markowitz_fariss_2013_going_the_distance]
 observe that capability counted at home is not capability projected abroad
 and propose a distance adjustment.
@@ -1049,7 +1084,7 @@ limit its aims or change its settlement
 is absent from the base rate by construction.
 
 The index is an industrial-age instrument,
-as the previous section established,
+as the decomposition at the start of this article established,
 so the base rate measures what wars did
 to belligerents' shares of steel, energy, population and troops.
 A war whose main effect ran through semiconductors,
@@ -1184,14 +1219,16 @@ of measured world capability between them.**
 A transfer of standing to non-participants
 had almost nowhere to go.
 
-This reframes the earlier null result.
-The bystander-gain hypothesis was not tested fairly by the historical record,
-because the historical record of great-power war
-does not contain a case with a large pool of non-participants.
+This reframes the earlier null result for these two cases.
+**The world wars cannot test the bystander hypothesis at all**,
+because they left no bystanders worth the name.
+Other wars can test it, many of them do have large non-participant pools,
+and what those cases show is taken up next.
+It is not what the hypothesis predicts.
 
-### The present case is structurally different
+### Where the present case would sit
 
-That is precisely what distinguishes the contingency this series is about.
+The prospective case can be placed on the same scale.
 Using 2022 shares, the most recent available,
 the two prospective belligerents hold the following.
 
@@ -1215,15 +1252,6 @@ raises it to about 45 percent.
 
 **Even on the most expansive plausible coalition,
 a majority of measured world capability stays out of this war.**
-That has not been true of a great-power war in the period the data cover.
-Set against 1939 the difference is not incremental.
-
-$$
-\frac{0.6448}{0.0192} \approx 34
-$$
-
-The bystander pool is about thirty-four times the size it was
-in the last general war among great powers.
 Expressed against the two world wars,
 the prospective belligerent share is a little over a third
 of the 1939 figure and a little over two fifths of the 1914 figure.
@@ -1233,6 +1261,71 @@ $$
 \qquad
 \frac{0.3552}{0.9808} \approx 0.36
 $$
+
+**The tempting next sentence is that a majority staying out
+has never happened in a great-power war, and it is false.**
+The same data that produced everything else here
+return twenty wars with at least twenty thousand battle deaths
+in which the belligerents held a smaller share than 0.3552,
+among them the Russo-Japanese War at 0.1424,
+the Second Russo-Turkish at 0.1392 and the Gulf War at 0.2741.
+Small belligerent shares are ordinary.
+What is unusual about this case is the opposite of what that sentence claims,
+and stating it correctly turns out to be more useful.
+
+$$
+\frac{73}{76} \approx 0.96
+$$
+
+**Of the seventy-six wars where the comparison can be made,
+seventy-three had less concentrated belligerents than this one would have,
+putting the prospective case at about the ninety-sixth percentile.**
+It is unusually concentrated for a war
+and far less concentrated than either world war.
+
+### What belligerent concentration predicts, which is not what was expected
+
+Having built the measure, the obvious question is whether it predicts anything,
+and the answer is yes and in the opposite direction from the bystander hypothesis.
+
+| Belligerents' combined share | Wars | Median change | Share that lost |
+|------------------------------|------|---------------|-----------------|
+| Under 0.2 | 61 | +0.082 | 38 percent |
+| 0.2 to 0.4 | 12 | -0.052 | 83 percent |
+| 0.4 to 0.6 | 1 | -0.068 | 100 percent |
+| Over 0.6 | 2 | -0.031 | 100 percent |
+
+$$
+r = -0.225 \quad (n = 76)
+$$
+
+**The more of the world's capability the belligerents hold,
+the worse they do afterwards.**
+When they hold under a fifth of it they more often gain,
+with a median of plus eight percent and only thirty-eight percent declining.
+The bottom three rows carry fifteen wars between them,
+and the last two carry three,
+so the monotonic appearance of the table is weaker than it looks
+and the correlation is the quantity to trust.
+
+The band the prospective case falls into is the second row,
+and it is worth naming its members because twelve is a readable number.
+They are the invasion of Afghanistan, the Russo-Finnish War,
+the First Russo-Turkish, the second phase of the Laotian war,
+the Sino-Russian war of 1900, Italian unification, the Roman Republic,
+the Manchurian war, the Sino-French war, Kosovo,
+the Gulf War and the Anglo-Persian war.
+**Ten of those twelve ended with the belligerents holding less than they started with,
+at a median of minus five percent.**
+
+That is a real result and it is a modest one.
+It points the same way as the headline conclusion,
+which is that the belligerents in this war
+would most likely come out of it slightly smaller relative to everyone else,
+and it reaches that conclusion by a mechanism
+different from the one asserted in the scenario literature.
+**The mechanism is not that bystanders capture something.
+It is that concentrated belligerents have more to lose.**
 
 The single largest non-participant is the one the regional framing tends to omit.
 India held 9.9 percent of world capability on this index in 2022,
@@ -1248,6 +1341,42 @@ without India doing anything at all.
 That is an arithmetic observation about shares and not a forecast,
 and it illustrates why the question in this article's title
 cannot be answered by examining the two belligerents alone.
+
+### The one historical case where a bystander demonstrably gained
+
+The bystander argument has been structural so far.
+There is one case in the record where the mechanism is documented
+in the contemporaneous official correspondence
+rather than reconstructed from an index,
+and it involves the same two principals.
+
+Japan did not fight in Korea.
+It supplied the war.
+The [State Department's own record][government_frus_1952_japan_procurement]
+shows American officials worrying in 1953
+about Japanese dependence on that trade,
+noting the Japanese fear of
+"a drastic decline in United States special procurement following a Korean armistice"
+at a time when Japan had failed "to regain more than 30 percent
+of its prewar export volume".
+A [companion document][government_frus_1952_japan_dollar_earnings]
+is blunter still about the dependence it had created,
+describing a government "wasteful of its substance
+and confident that the United States will bail it out
+through special procurement, Korean rehabilitation, or new loans".
+
+**That is a bystander gaining materially from a war it did not join,
+recorded by the belligerent that was paying for it, as it happened.**
+It is also the case this article's own base rate assigns
+the largest stalemate effect to,
+with the American share falling 13 percent over the following decade
+while the Chinese share rose 18.
+
+The documents do not settle the size of the effect,
+and no verified dollar series for the procurement programme
+was obtained for this article,
+so what they establish is the mechanism and not its magnitude.
+**That distinction is the honest one and it is the pattern throughout this subject.**
 
 ### The control case nobody fought
 
@@ -1482,7 +1611,7 @@ The first is the bystander hypothesis, asserted.
 This article tested it and found the historical record
 does not support it in the aggregate,
 for the reason that the historical record contains no case
-with a bystander pool large enough.
+at this level of belligerent concentration.
 **RAND and this article agree about the mechanism
 and disagree about whether the past demonstrates it.
 Both can be right, because the structural condition is new.**
@@ -2383,6 +2512,31 @@ with a half-life above thirty years after hostilities end.
 **None of that appears in any capability index**,
 and none of it appears in the scenario literature either.
 
+### The fiscal position, from the issuing authority
+
+The debt figures used above come from the Treasury's own publication.
+[Debt to the Penny][data_treasury_debt_to_the_penny]
+gives total public debt outstanding and the portion held by the public,
+and the [Bank for International Settlements credit series][data_bis_total_credit]
+gives the internationally comparable version
+for both states on a consistent definition.
+
+**The comparison between the two states is where the definitions bite.**
+On the Bank's general-government measure,
+the Chinese and American positions are closer than the headline Chinese figure suggests,
+while the [International Monetary Fund's augmented measure][government_imf_2026_china_article_iv],
+which expands the perimeter "to include government-guided funds
+and the activity of local government financing vehicles",
+is substantially higher.
+**That measure is formally contested inside the same document**,
+whose statement by the member state's executive director
+records that they "hold different views on the characterization
+of the fiscal expansion as modest,
+as well as issues related to the concept of augmented debt".
+Three perimeters are in circulation and they differ by definition rather than by vintage,
+so any sentence of the form that Chinese debt is a particular share of output
+is wrong unless it names the perimeter.
+
 ### Decoupling is asymmetric, and against China
 
 The fragmentation literature bears on the balance of power directly,
@@ -2758,23 +2912,6 @@ It is also the reason a cascade argument cannot treat Taiwan as a passive object
 though what Taiwan would do in the scenarios this series covers
 is outside what any located source addresses.
 
-### Whether allies want what the cascade argument assumes
-
-[Tomz and Weeks][journal_tomz_weeks_2021_military_alliances]
-examine the domestic foundation of a commitment,
-asking whether publics support honouring one,
-which is the variable underneath every credibility argument above.
-[Henry's book-length treatment][book_henry_2022_reliability]
-develops the article quoted earlier,
-and the finding that matters here is the one about direction.
-Allied confidence is not monotonically increasing
-in demonstrated willingness to fight,
-because a demonstration of willingness also raises the risk of entrapment.
-
-**So a war fought to prove a commitment
-could reduce allied confidence by proving it too well**,
-which is a possibility no scenario in the surveyed literature models.
-
 ### The regime these arguments assume is already failing
 
 [Arms Control Today's reporting][commentary_act_2026_npt_revcon]
@@ -2822,42 +2959,101 @@ because a demonstration of willingness also raises entrapment risk.
 makes the complementary point from the American side,
 counting only five cases of plausible entanglement since 1945,
 two of which are Taiwan Strait crises.
+[Henry's book-length treatment][book_henry_2022_reliability]
+develops the argument at length,
+and [Tomz and Weeks][journal_tomz_weeks_2021_military_alliances]
+supply the variable underneath it,
+which is whether publics support honouring a commitment at all.
 
-### The one historical case where a bystander demonstrably gained
+**So a war fought to prove a commitment
+could reduce allied confidence by proving it too well**,
+and that is a possibility no scenario in the surveyed literature models.
 
-The bystander argument has been structural so far.
-There is one case in the record where the mechanism is documented
-in the contemporaneous official correspondence
-rather than reconstructed from an index,
-and it involves the same two principals.
+## A Survey of the Contemporary Literature
 
-Japan did not fight in Korea.
-It supplied the war.
-The [State Department's own record][government_frus_1952_japan_procurement]
-shows American officials worrying in 1953
-about Japanese dependence on that trade,
-noting the Japanese fear of
-"a drastic decline in United States special procurement following a Korean armistice"
-at a time when Japan had failed "to regain more than 30 percent
-of its prewar export volume".
-A [companion document][government_frus_1952_japan_dollar_earnings]
-is blunter still about the dependence it had created,
-describing a government "wasteful of its substance
-and confident that the United States will bail it out
-through special procurement, Korean rehabilitation, or new loans".
+The sections above used the literature to argue.
+This one reports it, including the parts that cut against the argument.
+The organising principle is by dispute rather than by topic,
+because on almost every question that matters here
+the literature contains two defensible positions
+and the article's contribution is to say which evidence separates them.
 
-**That is a bystander gaining materially from a war it did not join,
-recorded by the belligerent that was paying for it, as it happened.**
-It is also the case this article's own base rate assigns
-the largest stalemate effect to,
-with the American share falling 13 percent over the following decade
-while the Chinese share rose 18.
+### Measuring national power, where the instruments disagree categorically
 
-The documents do not settle the size of the effect,
-and no verified dollar series for the procurement programme
-was obtained for this article,
-so what they establish is the mechanism and not its magnitude.
-**That distinction is the honest one and it is the pattern throughout this subject.**
+The measurement dispute is set out with its figures in
+the opening sections of this article and is not repeated here.
+What belongs in a survey is the shape of the literature.
+
+**There is no agreed instrument and the field says so.**
+The index this article uses descends from
+[Singer, Bremer and Stuckey][book_singer_1972_capability_distribution]
+and persists, on [Höhn's][research_hohn_2014_geopolitics_measurement] account,
+for reasons of coverage rather than quality.
+The critiques divide into three kinds.
+[Carroll and Kenkel][journal_carroll_kenkel_2019_prediction_proxies]
+attack the aggregation rule and show a replacement built from the same data
+predicts dispute outcomes an order of magnitude better.
+[Beckley][journal_beckley_2018_power_of_nations] and
+[Anders, Fariss and Markowitz][journal_anders_2020_surplus_domestic_product]
+attack the gross-against-net confusion,
+in capability and in output respectively.
+[Markowitz and Fariss][journal_markowitz_fariss_2013_going_the_distance]
+and [Brooks and Wohlforth][journal_brooks_wohlforth_2016_rise_and_fall]
+attack the conversion assumption,
+the first on distance and the second on the growing difficulty
+of turning economic weight into military power.
+[Kadera and Sorokin][journal_kadera_sorokin_2004_measuring_national_power]
+and [Tellis and others][research_tellis_2000_measuring_national_power]
+propose alternative frameworks outright.
+
+**Every one of those critiques points the same way**,
+which is that the headline index overstates China relative to the United States.
+The article reports the index anyway,
+because overstating the challenger is the conservative direction
+for an argument that a war would not change relative standing much.
+
+### Power transition theory, where the family agrees the war is not the cause
+
+Covered above and summarised here for the survey's completeness.
+[Gilpin][journal_gilpin_1988_hegemonic_war] has the settlement reflect an emergent distribution.
+[Organski and Kugler][journal_organski_kugler_1977_phoenix] have losers resume antebellum status in fifteen to twenty years.
+[Powell][journal_powell_2006_commitment_problem], [Levy][journal_levy_1987_declining_power]
+and [Fearon][journal_fearon_1995_rationalist] all run causation from shift to war.
+[Chadefaux][journal_chadefaux_2011_bargaining] shows a shift alone is never sufficient under complete information.
+[Doran and Parsons][journal_doran_parsons_1980_war_cycle]
+offer the main rival within the family,
+locating war at inflection points on an already-traced capability curve,
+which inherits the same measurement problems
+because it is operationalised on near-identical inputs.
+[DiCicco and Levy][journal_dicicco_levy_1999_power_shifts]
+assess the programme from inside and find parts of it degenerating.
+
+### Whether Taiwan itself changes the military balance
+
+This is the sharpest two-sided dispute in the field
+and it bears directly on whether the war's object is worth the war.
+[Green and Talmadge][journal_green_talmadge_2022]
+argue Chinese control of the island
+"would likely improve the military balance in China's favor"
+through submarine basing and ocean surveillance.
+[Caverley][journal_caverley_2025] answers with a kill-chain model
+and reaches the opposite conclusion,
+that the transformation "would make little difference to the broader military balance".
+His quantitative argument is the memorable one.
+
+> At 395 kilometers from north to south,
+> the additional range ring provided by Taiwan
+> is a minor bump along the Chinese mainland's 14,500 km of coastline.
+
+$$
+\frac{395}{14{,}500} \approx 0.027
+$$
+
+**Less than three percent.**
+[Anderson and Press][journal_anderson_press_2025_access_denied]
+come at the same question from the American side
+and find that the current approach to defending Taiwan
+"exposes U.S. forces to significant risk of catastrophic defeat".
 
 ### What the official assessments say about the balance itself
 
@@ -2936,159 +3132,6 @@ in a treatment that source applies to China and to no other country,
 which is the sort of asymmetry that produces a startling ratio
 and does not survive being read.
 
-### The fiscal position, from the issuing authority
-
-The debt figures used above come from the Treasury's own publication.
-[Debt to the Penny][data_treasury_debt_to_the_penny]
-gives total public debt outstanding and the portion held by the public,
-and the [Bank for International Settlements credit series][data_bis_total_credit]
-gives the internationally comparable version
-for both states on a consistent definition.
-
-**The comparison between the two states is where the definitions bite.**
-On the Bank's general-government measure,
-the Chinese and American positions are closer than the headline Chinese figure suggests,
-while the [International Monetary Fund's augmented measure][government_imf_2026_china_article_iv],
-which expands the perimeter "to include government-guided funds
-and the activity of local government financing vehicles",
-is substantially higher.
-**That measure is formally contested inside the same document**,
-whose statement by the member state's executive director
-records that they "hold different views on the characterization
-of the fiscal expansion as modest,
-as well as issues related to the concept of augmented debt".
-Three perimeters are in circulation and they differ by definition rather than by vintage,
-so any sentence of the form that Chinese debt is a particular share of output
-is wrong unless it names the perimeter.
-
-## A Survey of the Contemporary Literature
-
-The sections above used the literature to argue.
-This one reports it, including the parts that cut against the argument.
-The organising principle is by dispute rather than by topic,
-because on almost every question that matters here
-the literature contains two defensible positions
-and the article's contribution is to say which evidence separates them.
-
-### Measuring national power, where the instruments disagree categorically
-
-The disagreement among instruments is not marginal.
-On the index used throughout this article,
-China stood at 1.89 times the United States in 2022.
-[SIPRI's 2026 fact sheet][data_sipri_2026_milex]
-reports that "in 2025 the USA spent 2.8 times as much on the military as China",
-with the United States at 954 billion current dollars and 33 percent of world spending
-and China at an estimated 336 billion and 12 percent.
-World Bank indicators for 2025 put Chinese gross domestic product
-at about 134 percent of the American figure on purchasing power parity
-and about 63 percent at market exchange rates.
-The [Lowy Institute's Asia Power Index][data_lowy_2025_asia_power_index]
-scores the United States at 80.4 and China at 73.7 for comprehensive power,
-while scoring defence networks at 81.4 against 18.9.
-Expressed as Chinese standing relative to American,
-the five instruments give the following.
-
-$$
-1.89, \qquad
-\frac{336}{954} \approx 0.35, \qquad
-1.34, \qquad
-0.63, \qquad
-\frac{73.7}{80.4} \approx 0.92
-$$
-
-**Five instruments, five answers, spanning from
-China at nearly twice the United States to China at under a quarter.**
-
-$$
-\frac{1.89}{0.35} \approx 5.4
-$$
-
-The extreme readings differ by a factor of more than five.
-On the component where the alliance system is counted
-the gap is wider still.
-
-$$
-\frac{81.4}{18.9} \approx 4.3
-$$
-
-The index that produces the most dramatic Chinese lead
-is the one this article uses,
-which is a reason to distrust the levels it reports
-and the reason the argument above was built on ratios and on direction.
-
-The critiques are specific.
-[Carroll and Kenkel][journal_carroll_kenkel_2019_prediction_proxies]
-report that the capability ratio
-"is barely better than random guessing at predicting militarized dispute outcomes",
-and build a replacement from the same underlying data
-that is "an order of magnitude better".
-**That is the most damaging available finding about this instrument,
-and it is damaging in the right way,
-since it indicts the aggregation rule rather than the measurements.**
-[Beckley][journal_beckley_2018_power_of_nations]
-argues that gross indicators
-"exaggerate the wealth and military power of poor, populous countries,
-such as China and India",
-and that net measures predict dispute outcomes better.
-[Anders, Fariss and Markowitz][journal_anders_2020_surplus_domestic_product]
-make the same move for output,
-separating subsistence income from the surplus
-that can actually be converted into arms.
-[Brooks and Wohlforth][journal_brooks_wohlforth_2016_rise_and_fall]
-add that the conversion itself has become harder,
-so that "the transition from a great power to a superpower
-is much harder now than it was in the past".
-
-Every one of those critiques points the same way,
-which is that this article's headline index
-overstates China relative to the United States.
-The article reports the index anyway,
-because overstating the challenger is the conservative direction
-for an argument that a war would not change the standing much.
-
-### Power transition theory, where the family agrees the war is not the cause
-
-Covered above and summarised here for the survey's completeness.
-[Gilpin][journal_gilpin_1988_hegemonic_war] has the settlement reflect an emergent distribution.
-[Organski and Kugler][journal_organski_kugler_1977_phoenix] have losers resume antebellum status in fifteen to twenty years.
-[Powell][journal_powell_2006_commitment_problem], [Levy][journal_levy_1987_declining_power]
-and [Fearon][journal_fearon_1995_rationalist] all run causation from shift to war.
-[Chadefaux][journal_chadefaux_2011_bargaining] shows a shift alone is never sufficient under complete information.
-[Doran and Parsons][journal_doran_parsons_1980_war_cycle]
-offer the main rival within the family,
-locating war at inflection points on an already-traced capability curve,
-which inherits the same measurement problems
-because it is operationalised on near-identical inputs.
-[DiCicco and Levy][journal_dicicco_levy_1999_power_shifts]
-assess the programme from inside and find parts of it degenerating.
-
-### Whether Taiwan itself changes the military balance
-
-This is the sharpest two-sided dispute in the field
-and it bears directly on whether the war's object is worth the war.
-[Green and Talmadge][journal_green_talmadge_2022]
-argue Chinese control of the island
-"would likely improve the military balance in China's favor"
-through submarine basing and ocean surveillance.
-[Caverley][journal_caverley_2025] answers with a kill-chain model
-and reaches the opposite conclusion,
-that the transformation "would make little difference to the broader military balance".
-His quantitative argument is the memorable one.
-
-> At 395 kilometers from north to south,
-> the additional range ring provided by Taiwan
-> is a minor bump along the Chinese mainland's 14,500 km of coastline.
-
-$$
-\frac{395}{14{,}500} \approx 0.027
-$$
-
-**Less than three percent.**
-[Anderson and Press][journal_anderson_press_2025_access_denied]
-come at the same question from the American side
-and find that the current approach to defending Taiwan
-"exposes U.S. forces to significant risk of catastrophic defeat".
-
 ### The economics of a conflict, where the estimates measure different things
 
 Covered above.
@@ -3150,6 +3193,27 @@ A later and larger survey of 25,266 respondents
 found 8 percent of Europeans supporting their own troops fighting in such a war
 against 32 percent of Americans.
 
+### Hedging, where the concept has been narrowed by its own literature
+
+That material used the word hedging loosely.
+[Kuik][journal_kuik_2008_essence_of_hedging]
+gave the concept its standard treatment through the Malaysian and Singaporean cases,
+and [Lim and Cooper][journal_lim_cooper_2015_reassessing_hedging]
+then narrowed it sharply.
+Their accepted manuscript argues that hedging behaviour
+"should not include costless activities
+that do not require states to face tradeoffs in their security choices",
+and that once redefined as signalling that generates ambiguity
+about a secondary state's shared security interests,
+hedging "occurs in far narrower" circumstances than is widely believed.
+
+**On the narrow definition, most of what the survey data above measure is not hedging.**
+Expressing a preference to a pollster is costless.
+That is a reason to read the ISEAS oscillation
+as information about sentiment rather than about alignment,
+and it strengthens the reading already given
+that three reversals within sampling error are noise around parity.
+
 ### The alliance literature, where loyalty is not the variable it is assumed to be
 
 Covered above through [Henry][journal_henry_2020_what_allies_want]
@@ -3185,24 +3249,6 @@ of how little weight these estimates bear.**
 [Sechser and Fuhrmann][journal_sechser_fuhrmann_2013_nuclear_blackmail],
 using more than 200 compellent threats from 1918 to 2001,
 find that "compellent threats from nuclear states are no more likely to succeed".
-
-### The long peace, where the statistics do not yet support a trend
-
-[Clauset][journal_clauset_2018_trends_fluctuations],
-using the same war data this article uses,
-finds that the postwar absence of great-power war
-is not yet distinguishable from a fluctuation.
-
-> The models indicate that the postwar pattern of peace
-> would need to endure at least another 100 to 140 years
-> to become a statistically significant trend.
-
-[Cirillo and Taleb][journal_cirillo_taleb_2016_tail_risk]
-reach a compatible conclusion from a different method,
-finding the true mean of war casualties
-"considerably larger than the sample mean"
-and that "no particular trend can be asserted"
-in inter-arrival times between tail events.
 
 ### Prediction accuracy, where the measured record is poor
 
@@ -3251,6 +3297,53 @@ was itself low, and by more than its own upper bound.**
 
 ### The order literature, which changed the object of study
 
+The works cited above as a group have an internal order worth setting out,
+because the field moved from measuring capabilities to describing architecture
+for reasons it stated at the time.
+
+[Ikenberry's journal statement][journal_ikenberry_1999_institutions_restraint]
+precedes the book and is the compact form of the argument,
+that a victor's advantage is transient
+and that institutions are how it is converted into something durable.
+[After Victory][book_ikenberry_2019_after_victory] develops it through
+the settlements of 1815, 1919 and 1945.
+Two decades later [the same author][journal_ikenberry_2018_end_of_liberal_order]
+asked whether the order was ending,
+and concluded that the threat came from inside the West
+rather than from the rising states the theory had expected.
+[Lim and Ikenberry][journal_lim_ikenberry_2023_illiberal_hegemony]
+then applied the framework prospectively to China,
+restating the hegemonic-war mechanism in current prose,
+that "in the wake of hegemonic war,
+a newly powerful state rises up and seeks to rebuild international order".
+
+[Ikenberry and Nexon][journal_ikenberry_nexon_2019_hegemony_studies]
+survey where the subfield had arrived,
+and [Cooley and Nexon's][book_cooley_nexon_2020_exit_from_hegemony]
+book reverses the question from construction to unravelling.
+Their [earlier article][journal_cooley_nexon_2013_empire_compensate]
+is the empirical anchor for that,
+examining the overseas basing network
+and finding it "combines elements of liberal multilateralism
+with neo-imperial hegemony",
+which is the concrete form in which a hegemonic position is actually held
+and therefore the thing a war would act upon.
+
+[Lake][journal_lake_2007_escape_state_of_nature]
+supplies the conceptual move the whole group depends on,
+that it is "a fallacy to infer that all relationships
+within this system are anarchic",
+and that hierarchy is "a fragile relationship, easily abused"
+precisely because it rests on the legitimacy subordinates confer.
+His [book-length treatment][book_lake_2017_hierarchy]
+develops the authority relation.
+
+**If that is right, the quantity a war would damage
+is not capability but the consent of subordinate states**,
+which is unmeasured by every instrument in this article
+and is the same gap the Suez case exposed.
+
+The current positions in that literature divide on what follows.
 [Mearsheimer][journal_mearsheimer_2019_bound_to_fail]
 argues the liberal international order was "bound to fail"
 and that multipolarity will produce "two bounded orders".
@@ -3396,25 +3489,6 @@ the trade modelling measures the right thing
 and the capability arithmetic is the distraction.
 **The article cannot settle that and reports the arithmetic on both.**
 
-### Hedging, where the concept has been narrowed by its own literature
-
-The regional alignment material above used the word hedging loosely.
-[Kuik][journal_kuik_2008_essence_of_hedging]
-gave the concept its standard treatment through the Malaysian and Singaporean cases,
-and [Lim and Cooper][journal_lim_cooper_2015_reassessing_hedging]
-then narrowed it sharply,
-arguing that the term "should not include costless activities
-that do not require states to face trade-offs in their security choices"
-and that properly defined, hedging "occurs in far narrower
-but arguably more interesting circumstances than is widely believed".
-
-**On the narrow definition, most of what the survey data above measure is not hedging.**
-Expressing a preference to a pollster is costless.
-That is a reason to read the ISEAS oscillation
-as information about sentiment rather than about alignment,
-and it strengthens the reading already given
-that three reversals within sampling error are noise around parity.
-
 ### Blockade, which is the form in which this question usually arrives
 
 Several of the economic estimates above price a blockade rather than an invasion,
@@ -3448,54 +3522,6 @@ proposing deterrence through the threat of destroying what an invader would capt
 which is relevant here because it is the one published proposal
 whose explicit object is the postwar economic distribution
 rather than the fighting.
-
-### The order literature in its own sequence
-
-The works cited above as a group have an internal order worth setting out,
-because the field moved from measuring capabilities to describing architecture
-for reasons it stated at the time.
-
-[Ikenberry's journal statement][journal_ikenberry_1999_institutions_restraint]
-precedes the book and is the compact form of the argument,
-that a victor's advantage is transient
-and that institutions are how it is converted into something durable.
-[After Victory][book_ikenberry_2019_after_victory] develops it through
-the settlements of 1815, 1919 and 1945.
-Two decades later [the same author][journal_ikenberry_2018_end_of_liberal_order]
-asked whether the order was ending,
-and concluded that the threat came from inside the West
-rather than from the rising states the theory had expected.
-[Lim and Ikenberry][journal_lim_ikenberry_2023_illiberal_hegemony]
-then applied the framework prospectively to China,
-restating the hegemonic-war mechanism in current prose,
-that "in the wake of hegemonic war,
-a newly powerful state rises up and seeks to rebuild international order".
-
-[Ikenberry and Nexon][journal_ikenberry_nexon_2019_hegemony_studies]
-survey where the subfield had arrived,
-and [Cooley and Nexon's][book_cooley_nexon_2020_exit_from_hegemony]
-book reverses the question from construction to unravelling.
-Their [earlier article][journal_cooley_nexon_2013_empire_compensate]
-is the empirical anchor for that,
-examining the overseas basing network
-and finding it "combines elements of liberal multilateralism
-with neo-imperial hegemony",
-which is the concrete form in which a hegemonic position is actually held
-and therefore the thing a war would act upon.
-
-[Lake][journal_lake_2007_escape_state_of_nature]
-supplies the conceptual move the whole group depends on,
-that it is "a fallacy to infer that all relationships
-within this system are anarchic",
-and that hierarchy is "a fragile relationship, easily abused"
-precisely because it rests on the legitimacy subordinates confer.
-His [book-length treatment][book_lake_2017_hierarchy]
-develops the authority relation.
-
-**If that is right, the quantity a war would damage
-is not capability but the consent of subordinate states**,
-which is unmeasured by every instrument in this article
-and is the same gap the Suez case exposed.
 
 ### The recent journal literature, which has turned to this contingency
 
@@ -3533,10 +3559,23 @@ named the postwar absence of great-power war,
 and [Mueller][journal_mueller_1988_essential_irrelevance]
 argued that nuclear weapons were not what produced it.
 [Cederman, Warren and Sornette][journal_cederman_2011_testing_clausewitz]
-model war severity directly,
-and [Clauset][journal_clauset_2018_trends_fluctuations]
-and [Cirillo and Taleb][journal_cirillo_taleb_2016_tail_risk]
-both conclude the trend is not yet statistically distinguishable from a fluctuation.
+model war severity directly.
+
+[Clauset][journal_clauset_2018_trends_fluctuations],
+using the same war data this article uses,
+finds that the postwar absence of great-power war
+is not yet distinguishable from a fluctuation.
+
+> The models indicate that the postwar pattern of peace
+> would need to endure at least another 100 to 140 years
+> to become a statistically significant trend.
+
+[Cirillo and Taleb][journal_cirillo_taleb_2016_tail_risk]
+reach a compatible conclusion from a different method,
+finding the true mean of war casualties
+"considerably larger than the sample mean"
+and that "no particular trend can be asserted"
+in inter-arrival times between tail events.
 
 **That matters for this article's method rather than for its subject.**
 If the postwar period is a draw from the same distribution as the century before it,
@@ -3634,7 +3673,11 @@ The [Correlates of War codebook][data_cow_nmc_v7] warns against longitudinal use
 [Lowy][data_lowy_2025_asia_power_index] states that other value judgements about its weights are possible.
 [SIPRI][data_sipri_2026_milex] warns that its revision replaces all previously published data.
 [Carroll and Kenkel][journal_carroll_kenkel_2019_prediction_proxies] show the standard ratio barely beats guessing.
-Allison's own project concedes there are no agreed metrics of national power.
+[Allison's own project][commentary_allison_2015_thucydides_trap]
+states that its cases use rise and rule
+"according to their conventional definitions,
+generally emphasizing rapid shifts in relative GDP and military strength",
+which is a measurement choice presented as a convention.
 
 ### Seven disagreements, each with both sides named
 
@@ -3648,7 +3691,8 @@ The windows differ and the samples differ, and the two have not been reconciled.
 RAND asserts that victors "will be weakened relative to noncombatant states",
 and Frederick says the great power that benefits most is the one that did not fight.
 The historical test in this article finds no such pattern,
-for the reason that no historical case had a large enough bystander pool.
+and the relationship that does appear runs the other way,
+with concentrated belligerents faring worse rather than bystanders faring better.
 [Nikkei's][commentary_nikkei_2022_taiwan_emergency] trade modelling finds non-belligerents bearing heavy absolute costs.
 All three can hold simultaneously and the article says so.
 
@@ -3704,11 +3748,13 @@ Nothing located for this article indicates one exists.
 This is the same gap the previous article found for reconstruction,
 one step further out.
 
-**No study models a great-power war
-in which the belligerents hold a minority of world capability.**
-Every historical case has the belligerents at 82 percent or more.
-The structural condition that makes bystander redistribution possible
-is new and unmodelled.
+**No study relates belligerent concentration to belligerent fortune.**
+The measure is trivial to construct from published data
+and this article found a correlation of minus 0.225 across seventy-six wars,
+which is the sort of result a literature on the consequences of war
+might have been expected to produce already.
+Nothing located does, and the finding here is offered
+as a first pass that wants replication rather than as a settled one.
 
 **The two literatures on cost do not share units.**
 Capability share, value added at risk, and reduction in gross domestic product
@@ -3749,12 +3795,27 @@ the Correlates of War National Material Capabilities version 7.0
 and the Inter-State War Data version 4.0,
 both downloaded from the project's own site.
 The computation is independently checkable.
-Three harnesses re-entered 245 constants by hand from the article text
+Three harnesses re-entered 263 constants by hand from the article text
 and recomputed each,
-which caught two errors before publication,
+which caught two arithmetic errors before publication,
 a relative change stated as 1.07 that is 1.06,
 and a claim that the capability ratio has exceeded one in every year since 1995
 when it dips below in 2002.
+
+**The publication review caught a third and larger error, which was not arithmetic.**
+Three passes of this article asserted that a great-power war
+in which the belligerents hold a minority of world capability
+would be without precedent, and that the resulting pool of non-participants
+was the novel feature of the prospective case.
+That is false, and the data used throughout refute it.
+Twenty wars with at least twenty thousand battle deaths
+had less concentrated belligerents than this one would have.
+**The claim survived three passes because nobody had computed it,
+including the author, and it was reached by reasoning from the two world wars
+rather than from the ninety-five wars in the file.**
+Computing it returned a relationship running the other way,
+which is now reported in place of the refuted one
+and which supports the article's conclusion by a different mechanism.
 **The third harness checks only the article's own arithmetic
 on figures it quotes from the literature.**
 It cannot establish that a source says what the article reports,
@@ -3871,8 +3932,10 @@ the base rate measures something real about steel and population
 and little about power.
 The scenario arithmetic applies a median to a single case
 with wide dispersion behind it.
-The bystander argument is structural rather than empirical,
-since the historical record cannot test it.
+The concentration result rests on twelve comparable wars
+and a correlation of minus 0.225 across seventy-six,
+with no controls and a span of 180 years,
+so it is a first pass that wants replication rather than an identified effect.
 And the whole article measures capability,
 while the most persuasive account of how a Pacific war
 would change the world, the Suez analogy,
@@ -3915,19 +3978,22 @@ and named the Franco-Prussian and Korean wars as the scale of analogue.
 Those two wars moved relative standing by 27 and 18 percent respectively.
 That is a real change and it is not a new world.
 
-**On the distribution of power in the world, possibly a great deal,
-and for a reason that has no historical precedent.**
+**On the distribution of power in the world, a modest loss to the belligerents,
+by a mechanism other than the one usually asserted.**
 The belligerents of 1914 held 82 percent of measured world capability
 and those of 1939 held 98 percent.
 Two states fighting this war would hold about 36 percent,
-and about 45 percent on the widest plausible coalition.
-For the first time in the period the data cover,
-there would be a pool of non-participants
-large enough to absorb a serious redistribution.
-Whether it would is not knowable from the historical record,
-because the historical record contains no such case.
-**The honest statement is that the mechanism everyone asserts
-has never been testable before and now would be.**
+and about 45 percent on the widest plausible coalition,
+which is less concentrated than either world war
+and more concentrated than ninety-six percent of the wars in the record.
+Across those wars, belligerent concentration predicts belligerent fortune
+at a correlation of minus 0.225,
+and in the band this case falls into
+ten of twelve belligerent sets came out smaller,
+at a median of minus five percent.
+**That is not the bystander mechanism the scenario literature asserts.**
+Nobody captures anything. Concentrated belligerents simply have more to lose,
+and these would be concentrated.
 
 **And on what should be believed about any of this, very little with confidence.**
 In one of ten historical great-power wars
@@ -3946,11 +4012,12 @@ So the article ends where the data end rather than where the question does.
 **A war between the United States and China
 would be unlikely to restore an American advantage that has already gone,
 unlikely to remove China from the ranks of great powers,
-and uniquely likely, by the arithmetic of who would be fighting,
-to transfer standing to states doing nothing at all.**
+and likely to leave both of them slightly smaller
+relative to the states that stayed out.**
 Each of those three is a statement about measured capability,
 each rests on an instrument whose makers warn against this use,
-and the third has never happened before.
+and the third is the weakest of them,
+resting on twelve comparable wars and a correlation of minus 0.225.
 
 The financial series point the same way and from a different direction.
 The dollar's reserve share has fallen by eighteen points since 1999,

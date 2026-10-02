@@ -5,100 +5,189 @@
 ## Last Updated
 
 **Date**: 2026-10-01
-**Task**: **A363, X-Planes: Boeing X-66, PRIMARY-REFERENCE REVIEW COMPLETE, the third of four
-passes.** Committed, **NOT PUSHED**. **Not published**, and publication of the series has never
-been authorised. **Sixty-seven of seventy-two drafted, five remain.**
+**Task**: **A363, X-Planes: Boeing X-66, ALL FOUR PASSES COMPLETE.** Committed and **PUSHED** on the
+pilot's instruction. **NOT PUBLISHED**, and publication of the series has never been authorised.
+**Sixty-seven of seventy-two drafted, five remain.**
 
-**A363 WENT FROM 4,064 REFERENCE DEFINITIONS TO 4,537, FROM 1,035 REPORT PRIMARIES TO 1,256, AND
-FROM A 26.1 PERCENT PRIMARY SHARE TO 28.3.** Now 10,767 lines and 59,396 words, 83 display
-equations, 188 inline expressions, an 84-entry symbol table, 21 H2 and 60 H3 sections and 24 tables.
-**Both the count and the fraction rose**, which the genre document asks to be reported together.
+**FINAL STATE 10,795 lines, 59,564 words, 83 display equations, 188 inline expressions, an 84-entry
+symbol table, 4,537 reference definitions, 21 H2 and 60 H3 sections and 24 tables**, citing 4,436
+research records across 17 clusters with 1,256 report primaries at 28.3 percent, a period count of
+1,790 at 42.6 percent, median year 2012 and a range from 1921 to 2026. **Four commits for four
+passes**, which is the rhythm the handoff asks for.
 
-**THE PASS READ THE ONE PAPER THE ARTICLE SAID IT HAD NOT READ, AND IT QUARTERS THE HEADLINE.** The
-Phase IV report's own recommendation list asked for an equivalent optimisation of cantilever and
-truss-braced aircraft of the same technology level, and a NASA Ames team published exactly that in
-January 2025, three months before the pause. **It is on the reports server and it is now read in
-full.** Under one consistent set of assumptions, the same payload, range, technology, engine and
-wing-fold rule, and **a tube-and-wing weight calibration applied to both**, it gives **1.65 percent
-at the economic nine-hundred-nautical-mile mission against Boeing's 7.2 percent**, a factor of
-**4.36**, or **5.71 percent** if the braced wing is allowed body tanks. **At the long mission the
-three figures agree within a point.** So the disagreement is about the mission and not the
-aerodynamics.
+**THE PUBLICATION REVIEW FOUND THE ARTICLE CONTRADICTING ITSELF, WHICH IS THIS SERIES' RECURRING
+DEFECT.** A heading read *Three Things the FY2026 Supplement Says That Nothing Else Does* and the
+first of the three was that it uses a word the agency's press item avoided. **The same paragraph
+then conceded that the press item uses that word too**, for a different object. The concession was
+right and the heading and lead were wrong. Both were rewritten and the honest statement now leads.
 
-**ITS TWO NAMED CAUSES ARE EXACTLY THE TWO UNCERTAINTIES THE DRAFTING PASS HAD IDENTIFIED.** Fuel
-volume first, rated Significant, because the thin high-aspect-ratio wing cannot carry its own fuel
-without more planform. Weight calibration second, rated Moderate. **The article had raised both from
-the Phase IV tables and could not price either.**
+**THIRTEEN RANKINGS WERE SCOPED TO WHAT THE ARTICLE MEASURED AND ONE WAS SIMPLY FALSE.** It called
+the centroid argument **the only independent confirmation** of a closed form that the same paragraph
+confirms twice. It called the fold **the single largest number in this article** when the article
+carries a ratio of 10,316. It ranked an input, a service to the reader, a thing an assertion can do,
+and the most interesting passage of a contractor report. **Each now names its comparison set, is
+marked as a judgement, or is gone.**
 
-**AND IT INDEPENDENTLY CORROBORATES THE KEYSTONE'S OWN QUANTITY.** Its like-for-like pair gives an
-apparent weight elasticity between **-0.130 and +0.099**, every value below the article's exact
-fixed-lift target of 0.299 and **three of the four negative**, which means the braced aeroplane at
-aspect ratio 19.57 weighs less than the cantilever at 13. **That is a fourth independent route to the
-same conclusion**, after the derivation, the Phase II span optimisation and the group weight
-statement. The paper also prices the truss directly, the braced wing plus strut being **24.6 to 28.1
-percent** heavier than the cantilever wing while **the wing alone is only 1.4 to 4.3 percent
-heavier**, which is a direct measurement of the article's derived claim that a geometrically similar
-truss buys a coefficient and not an exponent.
+**AND A FACTUAL ERROR IN AN AERODROME CODE.** The article had the Boeing 747-8 at Code E. **It spans
+about 68.4 metre, which is in the 65-to-80 band and is therefore Code F.** The aeroplane that reaches
+Code E is the 777X with its wingtips folded, which the same sentence already named. **The corrected
+passage is stronger**, because the 777X folding across a code boundary is precisely the manoeuvre
+this article says the X-66A would need, and it is already certificated.
 
-**IT ALSO NAMES A LIMIT ON THE KEYSTONE'S REACH AND THE ARTICLE NOW STATES IT.** The braced
-aeroplane needs **25.65 percent more installed thrust** and cruises **4,250 feet higher**, and the
-paper says it spends more time climbing. **The optimality conditions are cruise-fuel conditions, and
-on a nine-hundred-nautical-mile sector this class of aeroplane does not spend most of its fuel in
-cruise.** The keystone is correct about cruise and silent about climb.
+**THREE COMPUTED FIGURES WERE TYPED AS LITERALS AND ARE NOW SLOTS**, being the before-sweep primary
+share and the gate's own pattern and test-case counts. **That is the A362 defect class**, where one
+hard-coded pool size went stale by two thousand records and the publication review had to find it by
+hand.
 
-**READING THE FAA's OWN CIRCULAR RATHER THAN A REPRODUCTION OF ITS TABLE CORRECTED THE ARTICLE
-AGAIN.** Its Table 1-2 gives every bound in **both** unit systems and its front matter says the
-customary units govern and the metric values are soft rounded conversions. **So 118 feet and 36
-metre are one boundary written twice, not two regulators disagreeing**, and the 1.3228-inch gap is
-the rounding the circular itself warns about. The article's framing was recast accordingly.
+**FOURTEEN SMALL COUNTS ARE NOW SPELLED AT THE EMITTER RATHER THAN IN THE PROSE**, so the convention
+cannot drift when a count changes, and the verifier reads them back through the shared library's
+words-to-integer helper.
 
-**THE THIRD SWEEP WAS AIMED BY MEASUREMENT AND BOUGHT WHAT THE MEASUREMENT PREDICTED, EXCEPT WHERE
-THERE WAS NOTHING TO BUY.** The per-cluster primary share was computed first and the six thinnest
-substantive clusters taken as targets, with questions written in the report literature's own
-vocabulary. **`aspect_ratio` went from 11.9 to 23.4 percent and from 64 primaries to 167**, and
-`fuel_burn` from 28.8 to 36.2. **The vocabulary was what reached them**, and it reached **Munk's 1921
-minimum-induced-drag paper** and a **1935 analysis of a strut with a single elastic support in the
-span**, which is literally this article's jury-strut problem.
+**DICTION WENT FROM ONE WORD ABOVE THE PEER MAXIMUM TO ZERO.** `fairly` appeared three times where no
+peer in seventy-five used it once. **It was not a hedge but the report's own criterion**, so the three
+uses were varied across a rotation rather than deleted, to an equal footing, like-for-like, and on
+equal terms.
 
-**AND THE CLUSTER THAT MATTERS MOST BOUGHT NOTHING, WHICH IS THE HONEST NEGATIVE RESULT.** Fourteen
-questions in the airport-planning vocabulary were aimed at `span_constraint`, the cluster carrying
-the keystone. **Nine returned no records at all, the cluster grew by one record, and its report
-primaries remain at exactly zero.** The reading is that **airport design is a regulator's subject and
-not a research agency's**, so it is published as advisory circulars and aerodrome annexes rather than
-as technical reports. **The constraint this article argues is binding has no research literature
-because it is not a research question.** That is the same shape as A362's thirty-five air-budget
-questions buying three records.
+**FOUND CLEAN.** Prose style, with every parenthetical and both semicolons outside maths proving to be
+inside block quotations except one statutory subsection citation that cannot be written otherwise.
+Structure, all twelve of the genre's sections present and in order among twenty-one. The dateline,
+with every post-dateline year proving to be a future date stated by a primary document. Reference
+integrity, with no anchor undefined and no definition unused.
 
-**FOUR MORE PRIMARIES WERE READ AND EACH REPLACED AN ASSERTION.** A 1981 Grumman wing weight
-methodology names **non-optimum weight, minimum gages and secondary loads** in the same terms the
-article had used for its non-optimum factor, and names flutter and divergence as the penalty that
-can change an exponent rather than a coefficient. A 2016 NASA Langley paper on aero-structural
-efficiency **states the article's own methodological thesis in one sentence**, that the trade differs
-by objective. A 1980 study under NASA contract developed a business jet at **aspect ratio 25
-strut-braced**, reported fuel savings above twenty percent and noted the higher cruise altitude and
-lower wing loading, forty-five years before the Ames comparison rediscovered them as a cost. And the
-Phase I final report holds the planform optimisation every later phase inherited.
+**VERIFICATION.** `verify_numbers.py` **158 checks** and `neweqns.py` **94 checks**, both passing,
+the latter importing neither the calculation module nor the equation pass's own. `_verify.py` 0
+errors and no new warnings. `_lib/render.py` no findings across 549 pages. `mathrot.py` matching 83
+source display blocks against 83 rendered brackets with zero emphasis tags in any expression.
+`symcheck.py` passing across 84 declared symbols. **Thirty-five hand-written addresses, 25 reached
+and 10 refused by one publisher's bot policy, every one of those ten verified in the registry by
+title, venue and year.** `emrisk.py` and `astrisk.py` both confirm A363 adds nothing to the
+corpus-wide corrupted-maths count.
 
-**ONE THING THE PASS COULD NOT GET.** Volumes II, III and IV of the Phase IV final report are not
-held by the reports server at all, so they are unavailable rather than merely unread, and the
-article now says so.
-
-**A QUOTATION WAS RESTRUCTURED RATHER THAN ALTERED.** The Ames paper's summary contains a
-contraction and `_verify.py` flagged it, correctly, since its check does not exclude block
-quotations as this article's own style checker does. **The source's phrases are kept inline and its
-contraction is not reproduced**, which keeps the corpus at zero new warnings without putting words
-into a source's mouth.
-
-**VERIFICATION.** `verify_numbers.py` **128 checks** and `neweqns.py` **94 checks**, both passing.
-`_verify.py` 0 errors and no new warnings. `_lib/render.py` no findings across 549 pages.
-`mathrot.py` matching 83 source display blocks against 83 rendered brackets with zero emphasis tags.
-`symcheck.py` passing. `stylecheck.py` one finding, the statutory citation. **Thirty-five
-hand-written addresses, 25 reached and 10 refused by one publisher's bot policy, every one of those
-ten verified in the registry by title, venue and year.**
+**TWO ITEMS REMAIN FOR THE PILOT AND BOTH ARE OLDER THAN THIS ARTICLE.** The A358 and A359
+officiality correction, now surviving five articles. And the corrupted mathematics in published
+posts, which this article's new instruments have **re-measured in the rendered pages as 133 spans
+across 37 pages, 104 underscore-driven and 29 asterisk-driven**, where the recorded figure was 72
+source-side pairs and the asterisk cause was outside the existing instrument's model entirely.
 
 The older reports follow, newest first. **Nothing below this block was rewritten.**
 
 ---
+
+## A363, Publication Review
+
+**Lines 10,784 to 10,795, words 59,517 to 59,564.** Display equations held at 83, references at
+4,537, the symbol table at 84. Committed and **PUSHED**. **NOT PUBLISHED.**
+
+### The Article Contradicted Itself and the Heading Was the Wrong Half
+
+**A heading read *Three Things the FY2026 Supplement Says That Nothing Else Does*, and the first of
+the three was that the supplement uses the word pause where the agency's press item avoided it.**
+Three sentences later the same paragraph conceded that the press item uses the word too, applied to
+the flight-demonstrator work rather than to the project. **The concession was correct and the
+heading and the bold lead were not.**
+
+The heading is now *Three Things the FY2026 Supplement Says Plainly*, and the lead states what is
+actually true, which is that **the agency used both words on the same day for different objects and
+the budget document is the one that says so without a headline over it.** This is the defect class
+this series keeps meeting, an article refuted by something it says about itself a few lines later.
+
+### Thirteen Rankings Scoped, and One That Was False
+
+**One was not a scoping problem but an error.** The article called the centroid argument **the only
+independent confirmation** of the root-moment closed form, in a paragraph that goes on to report a
+second confirmation by quadrature at six stations. **It is one of two and now says so.**
+
+**One was false on its face.** The fold was **the single largest number in this article**, which
+carries a ratio of 10,316 to one and a factor of 18.17. The intended claim was about effect size and
+it now reads **the largest aerodynamic effect this article computes**.
+
+**The rest named no comparison set.** The induced-drag fraction was **the single most important
+input** and is now one of the two quantities every condition is written in. Reading three budget
+books was **the only way** to see the money and is now the route this article took. A declared
+symbol table was **the only instrument this corpus has found** that catches a collision and now
+simply catches them. Setting three figures side by side was **the most useful service this article
+can perform** and is now what a reader needs. An assertion refuting its own docstring was **the most
+useful thing an assertion can do** and the sentence survives without the ranking. The aeroelastic
+passages were **the most interesting single thing** in the report and are now the ones this article
+found hardest to summarise. The flutter margin was **the single largest soft spot** and is now the
+only named soft spot that could change the exponent rather than the coefficient, **which is the
+reason, and the reason is what was missing.**
+
+**Two rankings were kept with their reasons attached.** The gate-box claim is now explicitly an
+inference and the one the article would defend first **because a reader can check it in one line**.
+The homonym measurements now carry outside the subject **because the registries do not change
+between articles**, rather than being the most transferable thing in the article.
+
+### A Factual Error in an Aerodrome Code
+
+**The article placed the Boeing 747-8 at Code E.** It spans about 68.4 metre, the Code F band runs
+from 65 to 80, and the 747-8 is therefore **Code F**. The aeroplane that reaches Code E is the
+**777X with its wingtips folded**, at about 64.8 metre against 71.8 unfolded, and the same sentence
+had already named it for a different purpose.
+
+**The corrected passage is stronger than the error was.** A wide-body that folds its wingtips across
+a code boundary is precisely the manoeuvre this article argues the X-66A depends on, **and it is
+already certificated**, which is the best available reason to think the gate box is negotiable for
+an aeroplane worth negotiating for.
+
+### Three Literals That Should Have Been Slots
+
+**A362 shipped a stale pool size because one figure in the article was a hard-coded literal rather
+than a slot, and the publication review had to find it by hand.** This pass scanned every numeric
+literal in the prose mechanically, excluding quotations, tables, maths, dates, designations and
+instrument numbers.
+
+**Three survived the exclusions as computed quantities.** The primary share before the third sweep,
+and the gate's own pattern count and its two test-case counts. **All three are now emitted**, so a
+change to the gate or a re-run of the sweep cannot leave the prose behind.
+
+**One more was a citation gap rather than a staleness risk.** The demonstrator's span of 145 feet was
+attributed to trade coverage with no reference, and now says in terms that it comes from secondary
+aerospace coverage and **from no primary document this article has read**.
+
+### Small Counts, Spelled at the Emitter
+
+**Fourteen small counts were numerals where the convention asks for words.** The fix is applied in
+`emit.py` rather than in the prose, so the convention holds when a count changes, and
+`verify_numbers.py` reads them back through `_lib/survey.py`'s words-to-integer helper rather than
+parsing them as integers. **A convention enforced in prose is a convention that drifts.**
+
+### Diction, One Word and Not a Hedge
+
+**`fairly` appeared three times and no peer in seventy-five used it once.** Inspection showed it was
+not a hedge but the Phase IV report's own criterion, rendered as *done fairly*, *made fairly* and
+*made fairly* again. **The word carried meaning and the phrasing repeated**, which the style guide
+says to fix by varying across a rotation rather than by substituting one replacement. The three now
+read **put on an equal footing**, **like-for-like** and **on equal terms**. Diction reports zero
+words at or above the peer maximum, and the one construction above the corpus maximum is *in other
+words*, inside a quotation.
+
+### What Was Found Clean, With the Exceptions Named
+
+**Prose style.** Zero em-dashes, en-dashes, contractions and prose colons. **Nine parentheticals and
+two semicolons, every one of which proved to be inside a block quotation or the mandated debug tag,
+except a single statutory subsection citation** which cannot be written otherwise.
+
+**Structure.** All twelve of the research-aircraft genre's sections present and in the prescribed
+order among twenty-one, with the Epistemic State, Out of Scope and Conclusion in the last three body
+positions and References last.
+
+**The dateline.** Fourteen prose years after December 2025, every one of them a future date stated
+by a primary document, being the agreement's seven-year term and its milestone schedule, the budget
+books' out-year projections and the Ames paper's 2035 technology level.
+
+**Reference integrity.** No anchor used without a definition and no definition unused, checked in
+`verify_numbers.py` rather than by eye.
+
+### Verification
+
+`verify_numbers.py` **158 checks**, `neweqns.py` **94 checks**, both passing. `_verify.py` 0 errors
+and no new warnings across 303 posts. The stub build succeeds against checksum-matched bytes.
+`_lib/render.py` reports no findings across 549 pages. `mathrot.py` matches 83 source display blocks
+against 83 rendered brackets with zero emphasis tags. `symcheck.py` passes. `stylecheck.py` reports
+only the statutory citation. **Thirty-five hand-written addresses, 25 reached and 10 refused by one
+publisher's bot policy, all ten registry-verified by title, venue and year.**
+
 
 ## A363, Primary-Reference Review
 
@@ -1894,6 +1983,56 @@ decades of instrumentation contracts under the Invocon name.
 below it rather than overwriting, which is a choice and not a convention.
 
 ---
+
+## A376, Publication Review
+
+**All four passes are complete. The article is committed and pushed and is NOT published.**
+Lines 4,443, display equations 89, references 202 at 25.0 percent primary, prose about 23,100
+words.
+
+**THE REVIEW REFUTED A CLAIM THE ARTICLE HAD CARRIED THROUGH THREE PASSES.** It said that a
+great-power war in which the belligerents hold a minority of world capability would be without
+precedent, and that the resulting pool of non-participants was the novel feature of this case. The
+same file that produced every other number in the article refutes it. Twenty wars with at least
+twenty thousand battle deaths had less concentrated belligerents, among them the Russo-Japanese
+War and the Gulf War. **The claim survived three passes because it was reasoned from the two world
+wars rather than computed from the ninety-five wars in the file.** The article had a dataset
+capable of testing its own central structural assertion and did not point it at it until the
+fourth pass.
+
+**COMPUTING IT RETURNED A BETTER RESULT THAN THE ONE IT REPLACED.** Belligerent concentration
+predicts belligerent fortune at a correlation of minus 0.225 across seventy-six wars. The
+prospective case sits at the ninety-sixth percentile of concentration, and ten of the twelve wars
+in its band ended with the belligerents holding less than they started with, at a median of minus
+five percent. That supports the article's conclusion by a different mechanism. Nobody captures
+anything; concentrated belligerents simply have more to lose. The refuted claim was removed from
+the opening, the bystander section, the agreements section, the gaps section and the conclusion.
+
+**STRUCTURAL DAMAGE FROM THE REFERENCE PASS WAS FOUND AND REPAIRED.** Four subsections had been
+duplicated, including two making the same allies argument, where the first said a quotation
+appeared "earlier" when it appeared forty-six lines later. Four blocks on bystanders, official
+assessments, shipping and the fiscal position had been inserted under the Alliances heading with
+no topical relation to it. All eight were merged or relocated, and the article now has no
+duplicate headings. Two directional references were wrong, one counting "the subsection after
+next" when the target is three subsections later.
+
+**THREE QUOTATIONS TAKEN FROM SUBAGENT REPORTS WERE VERIFIED DIRECTLY AND ONE WAS WRONG.** Clauset
+and Eichengreen and Flandreau were confirmed verbatim from open-access copies. Lim and Cooper was
+confirmed from the author manuscript, which spells "tradeoffs" where the article had hyphenated
+it. **A one-character difference in a quotation is still a difference**, and the article now
+quotes the verified text and says it is the accepted manuscript.
+
+**A FOURTH CLAIM COULD NOT BE VERIFIED AND WAS REPLACED.** The article asserted that Allison's
+project concedes there are no agreed metrics of national power. The page that was supposed to
+carry that is dead, and the live essay does not say it. What the live essay does say is that the
+cases use rise and rule "according to their conventional definitions, generally emphasizing rapid
+shifts in relative GDP and military strength", which supports the same paragraph and is checkable.
+
+**FOR THE PILOT.** The article is ready for a publication decision and has not been published. Its
+editorial date is 2026-08-13, the slot is free of other posts, and `post_url` targets resolve
+because both back-references point at articles already published. **Publishing will renumber the
+series navigation on two live pages** from Part 1 of 2 and Part 2 of 2 to of 3, which is the only
+outward-facing change beyond the new page itself.
 
 ## A376, Primary-Reference Pass
 

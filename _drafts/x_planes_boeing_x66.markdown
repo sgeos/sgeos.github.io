@@ -45,7 +45,9 @@ The addendum to the joint designation handbook gives the row above and nothing e
 
 The absence is not carelessness. **The row was allocated on 3 May 2023 and the engine was not selected until the following year.** The engine eventually announced was a dedicated derivative of the geared-turbofan family that powers the Airbus A220 and the Embraer E-Jet E2, chosen in preference to a derivative of the larger family on weight grounds. **So the register recorded the manufacturer because the manufacturer was settled and omitted the model because the model was not**, and a reader who treats a register cell as a specification will mistake a dated snapshot for an omission.
 
-**The donor aeroplane's own engines are not Pratt and Whitney at all.** An MD-90 flies on the V2500, which is built by International Aero Engines, a consortium in which Pratt and Whitney is one partner among several. The register is describing the demonstrator's planned engines and not the donor's, which is the first of several places in this article where **the modification boundary is where the interesting engineering lives** and where a statement about the X-66A is silently a statement about something else.
+**The donor aeroplane's own engines are not Pratt and Whitney at all.** An MD-90 flies on the V2500, which is built by International Aero Engines, a consortium in which Pratt and Whitney is one partner among several. The register is describing the demonstrator's planned engines and not the donor's, which is one of the places where **the modification boundary is where the interesting
+engineering lives** and where a statement about the X-66A is silently a statement about
+something else.
 
 **And this designation has no entry in the directory this series has leaned on sixty-six times.** Appendix 4 of the Directory of U.S. Military Rockets and Missiles carries the X-63 and the X-64 and the X-65 and stops \[[Aurora X-65 CRANE directory entry][ref_ds_x65]\]. That is correct behaviour rather than a gap, because the X-66A is a civil transport demonstrator sponsored by a civil agency and belongs to no missile directory. **The series has met this before at the X-49 and the handoff predicted it would recur.** It recurred here for a different reason, which is worth separating. The X-49 had no entry because the compiler had not written one. The X-66A has none because it is the wrong kind of aircraft for that volume.
 
@@ -55,7 +57,7 @@ The narrative account is short. NASA established the Sustainable Flight Demonstr
 
 **The signed instrument tells it better, and the signed instrument is public.** The Funded Space Act Agreement, numbered PAM 36785, runs to twenty-seven articles and two appendices and was read in full for this article \[[Funded Space Act Agreement][ref_fsaa]\]. It is entered under 51 U.S.C. 20113(e), which is to say under the agency's own authority to enter agreements rather than under procurement law, and that single fact governs everything that follows about how the programme is recorded and how it ended.
 
-**Boeing signed on 12 January 2023 and NASA signed the next morning.** Article 19 makes the agreement effective on the date of the last signature and gives it a term of **7 years from that date or completion, whichever comes first**, so it expires on **13 January 2030**. The last milestone, the **Closeout Review**, falls due **August 2029**, which leaves **5 months** of margin against the term. **A twenty-seven-milestone schedule ending five months before its own instrument expires has very little room**, and the agreement's Article 7 adds that any milestone date is an estimate contingent on the availability of NASA facilities.
+**Boeing signed on 12 January 2023 and NASA signed the next morning.** Article 19 makes the agreement effective on the date of the last signature and gives it a term of **seven years from that date or completion, whichever comes first**, so it expires on **13 January 2030**. The last milestone, the **Closeout Review**, falls due **August 2029**, which leaves **five months** of margin against the term. **A twenty-seven-milestone schedule ending five months before its own instrument expires has very little room**, and the agreement's Article 7 adds that any milestone date is an estimate contingent on the availability of NASA facilities.
 
 ### The Milestone Schedule, Which Is the Only Published Spending Profile
 
@@ -104,9 +106,9 @@ Milestone 24 is first flight, due **September 2028**, and it is worth **1.5 mill
 
 Boeing announced on 24 April 2025 that development of the flight demonstrator would stop and that the effort would move to a ground-based thin-wing test article. NASA's own item that day is headed as an updated approach rather than a cancellation, and says that the agencies would continue to collaborate on the truss-braced wing concept, that all of the demonstrator's design and all hardware acquired or modified for it would be retained, and that the flight demonstrator work would **pause for later consideration based on the thin-wing testbed results** \[[NASA thin-wing item][ref_nasa_thin_wing_2025]\].
 
-**The agreement has no pause state.** The word appears zero times in its 7-year instrument. What Article 20 provides instead is termination by mutual consent, termination by NASA thirty days after written notice that the partner has failed to meet a scheduled milestone, and unilateral termination by NASA on four grounds including a written determination by the Administrator that the project no longer aligns with the agency's strategic objectives. **A missed milestone is, in the instrument's own terms, a ground for termination rather than an occasion for a pause**, and Article 20.B.2 adds that a partner failing a milestone is entitled to no payment for it and to nothing for termination-related expenses, while retaining everything already paid.
+**The agreement has no pause state.** The word appears zero times in its seven-year instrument. What Article 20 provides instead is termination by mutual consent, termination by NASA thirty days after written notice that the partner has failed to meet a scheduled milestone, and unilateral termination by NASA on four grounds including a written determination by the Administrator that the project no longer aligns with the agency's strategic objectives. **A missed milestone is, in the instrument's own terms, a ground for termination rather than an occasion for a pause**, and Article 20.B.2 adds that a partner failing a milestone is entitled to no payment for it and to nothing for termination-related expenses, while retaining everything already paid.
 
-**The pause landed in the narrowest possible gap in that schedule.** Milestone 9 fell due in February 2025 and the next milestone was **number 10, the Wing / Strut Critical Design Review, due May 2025 and worth 25 million dollar**. Through the February milestone the agreement had reached **153 million dollar**, which is **36.00 percent** of its total.
+**The pause landed in the narrowest possible gap in that schedule.** Milestone nine fell due in February 2025 and the next milestone was **number 10, the Wing / Strut Critical Design Review, due May 2025 and worth 25 million dollar**. Through the February milestone the agreement had reached **153 million dollar**, which is **36.00 percent** of its total.
 
 **So the programme stopped immediately before the review that would have frozen the wing and strut for fabrication, and the thing it announced it would keep doing is wing research.** That is not a coincidence and it is not hidden. It is what a partner does when it has learned what it wanted from a design phase and does not want the build.
 
@@ -146,7 +148,9 @@ Three of those are worth naming. **NNL17AA46T, at 11,993,610.00 dollar from Dece
 
 ## What Three Budget Books Said
 
-The programme's money appears in NASA's Congressional Justifications only at the programme level. The Integrated Aviation Systems Program table breaks out the Low Boom Flight Demonstrator and the Electrified Powertrain Flight Demonstration by name and folds everything else, the Sustainable Flight Demonstrator included, into a line called Other Projects \[[FY2024 justification][ref_nasa_cj_2024]\] \[[FY2025 justification][ref_nasa_cj_2025]\]. **So the agency's own published budget documents never state what this project costs per year.** Reading three successive books against one another is therefore the only way to see what happened to the money, and what they show is this.
+The programme's money appears in NASA's Congressional Justifications only at the programme level. The Integrated Aviation Systems Program table breaks out the Low Boom Flight Demonstrator and the Electrified Powertrain Flight Demonstration by name and folds everything else, the Sustainable Flight Demonstrator included, into a line called Other Projects \[[FY2024 justification][ref_nasa_cj_2024]\] \[[FY2025 justification][ref_nasa_cj_2025]\]. **So none of the three budget documents read for this article states what this project costs per
+year.** Reading three successive books against one another is the route this article took to see what
+happened to the money, and what they show is this.
 
 | Fiscal year | FY2024 justification | FY2025 justification | FY2026 supplement |
 |---|---|---|---|
@@ -166,9 +170,18 @@ $$ \text{revision} = \frac{\mathcal{P}_{\mathrm{new}} - \mathcal{P}_{\mathrm{old
 **The same programme line, projected one year apart, falls by 67.8 percent in fiscal
 year 2029.** The FY2025 justification put fiscal year 2029 at **342.0 million dollar** and the FY2026 technical supplement puts it at **110.0 million dollar**. The Other Projects line within it, which is where this project lives, goes from **167.6** to **100.0 million dollar** for fiscal year 2026. The programme itself is requested at **167.2 million dollar** for fiscal year 2026. The whole aeronautics account falls from **935.0** to **588.7 million dollar**, a reduction of **37.0 percent** \[[FY2026 technical supplement][ref_nasa_ts_2026]\].
 
-### Three Things the FY2026 Supplement Says That Nothing Else Does
+### Three Things the FY2026 Supplement Says Plainly
 
-**It uses the word the agency's press item avoided.** Under Explanation of Major Changes it states that the project **will pause development of the flight demonstrator aircraft in cooperation with Boeing in order to pursue a ground-based, full-scale wing demonstration of integrated thin-wing technologies** \[[FY2026 technical supplement][ref_nasa_ts_2026]\]. So the pause is NASA's own word for the aircraft even where the agency's headline called the whole thing an updated approach, and the honest statement is that the agency used both words for different objects on the same day.
+**It applies the word pause to the project rather than only to the aircraft.** Under Explanation
+of Major Changes it states that the project **will pause development of the flight demonstrator
+aircraft in cooperation with Boeing in order to pursue a ground-based, full-scale wing
+demonstration of integrated thin-wing technologies**
+\[[FY2026 technical supplement][ref_nasa_ts_2026]\]. **The agency's own news item of 24 April 2025
+uses the same word for the same object**, saying the flight demonstrator work would pause for
+later consideration based on the thin-wing testbed results, while its headline calls the whole
+thing an updated approach. **So the honest statement is that the agency used both words on the
+same day for different objects, and the budget document is the one that says so without a
+headline over it.**
 
 **It restores a qualifier that an earlier agency release had dropped.** The January 2023 award release said the configuration could cut fuel consumption and emissions by up to thirty percent relative to today's most efficient single-aisle aircraft **when combined with other advancements in propulsion systems, materials, and systems architecture** \[[NASA award release][ref_nasa_award_2023]\]. The June 2023 designation release said up to thirty percent less fuel consumption and reduced emissions **when compared with today's best-in-class aircraft**, with the combination clause gone \[[NASA X-plane release][ref_nasa_x66_designation]\]. The FY2026 supplement says **when combined with additional technologies, this configuration will reduce fuel consumption up to 30 percent relative to today's most efficient single-aisle aircraft**, which restores it \[[FY2026 technical supplement][ref_nasa_ts_2026]\]. **The number never changed and the clause that assigns it came and went**, and the section below computes what the wing alone is worth so that a reader can see which version of the sentence the evidence supports.
 
@@ -186,7 +199,9 @@ year 2029.** The FY2025 justification put fiscal year 2029 at **342.0 million do
 
 ### The Symbols This Article Uses
 
-Every symbol below is declared here and nowhere carries a second meaning. **A declared table is the only instrument this corpus has found that catches a collision**, because a pattern cannot know what a symbol means, and the discipline was earned in an earlier article in this series in which one letter served as three quantities.
+Every symbol below is declared here and nowhere carries a second meaning. **A declared table is what catches a collision, because a pattern cannot know what a symbol
+means.** The discipline was earned in an earlier article in this series in which one letter
+served as three quantities, and this pass found seven more collisions before they shipped.
 
 | Symbol | Meaning | Unit |
 |---|---|---|
@@ -371,7 +386,7 @@ That gives **0.009026** against the published 0.00903, an error of **0.050 perce
 
 $$ \delta = \frac{C_{D,i}}{C_D} $$
 
-**For this aeroplane at its design cruise point, $\delta$ is 0.3351**, so **33.51 percent of cruise drag is the price of holding the aeroplane up**. That number is measured from the report and not assumed, and it is the single most important input below.
+**For this aeroplane at its design cruise point, $\delta$ is 0.3351**, so **33.51 percent of cruise drag is the price of holding the aeroplane up**. That number is measured from the report and not assumed, and it is one of the two quantities every optimality condition below is written in, the other being the weight elasticity.
 
 ### Where the Three Halves Comes From
 
@@ -405,7 +420,7 @@ $$ \mathcal{M}(0) = \frac{L b}{3\pi} $$
 At the design load factor of 2.5 and the published take-off weight, that root moment is **78.46 million pound inch**.
 
 **That is the classical result and it has an elementary check, which belongs on its own line
-because it is the only independent confirmation of the closed form above.** The centroid of a
+because it is one of two independent confirmations of the closed form above.** The centroid of a
 semi-ellipse lies at $4(b/2)/(3\pi)$ from the root, and half the lift acting at that arm gives the
 same moment.
 
@@ -461,7 +476,7 @@ material density of 0.067 pound per cubic inch, a load factor of 2.5, the publis
 that correction gives **6,807 pound**, which is **0.909** times the published
 figure.
 
-**That agreement is a coincidence and reporting it as a validation would be a mistake.** The model just evaluated is a **cantilever**, with no truss at all, and a cantilever must be heavier than the braced wing it is being compared with, not lighter. The agreement is the product of two large errors pointing in opposite directions. The model is far too optimistic about how much of a real wing box is sized by the design bending moment, and it omits the brace entirely. Section below puts a number on the first of those. **The honest summary is that this model gets the absolute weight wrong and gets the exponent right, and the keystone needs only the exponent.**
+**That agreement is a coincidence and reporting it as a validation would be a mistake.** The model just evaluated is a **cantilever**, with no truss at all, and a cantilever must be heavier than the braced wing it is being compared with, not lighter. The agreement is the product of two large errors pointing in opposite directions. The model is far too optimistic about how much of a real wing box is sized by the design bending moment, and it omits the brace entirely. The section on what the truss buys puts a number on the first of those. **The honest summary is that this model gets the absolute weight wrong and gets the exponent right, and the keystone needs only the exponent.**
 
 **A constant factor, however large, does not touch a logarithmic derivative.** That is why the rest of this article uses the three halves and treats the absolute scale as the contractor's to supply.
 
@@ -800,7 +815,7 @@ The unfolded span is less dramatic and still tight. It clears ICAO's Code D boun
 
 ### What the Fold Is Worth
 
-The arithmetic of the fold is the single largest number in this article. **Ask what aspect ratio the Code C box permits at this wing area without folding.**
+The arithmetic of the fold produces the largest aerodynamic effect this article computes. **Ask what aspect ratio the Code C box permits at this wing area without folding.**
 
 $$ A_{\mathrm{folded}} = \frac{b_f^2}{S} $$
 
@@ -840,7 +855,7 @@ semispan**, and the March 2025 technical memorandum on airport operations notes 
 
 **The folded aspect ratio of 9.427 deserves a second look, because it is almost exactly the aspect ratio of the aeroplanes this one was meant to replace.** A current single-aisle narrowbody sits near nine and a half. The Phase IV report's own comparison baseline, the 765-093 representing best-in-class practice, carries an effective aspect ratio of **10.41** \[[SUGAR Phase IV final report][ref_cr_phase4]\].
 
-**So the aspect ratio of the conventional single-aisle fleet is, to within a few percent, the aspect ratio that the Code C gate box permits at the wing area those aeroplanes need.** That is the claim this article is most willing to defend and it reframes the subject. The received explanation for why airliners do not have long thin wings is structural weight. The arithmetic here says that for a 737-class aeroplane the structural limit is not where the fleet sits. **The fleet sits at the airport limit, and it has sat there for forty years because every family grew its span until the letter ran out.** The Phase II report makes the historical observation in one line.
+**So the aspect ratio of the conventional single-aisle fleet is, to within a few percent, the aspect ratio that the Code C gate box permits at the wing area those aeroplanes need.** That is an inference rather than a measurement, and it is the one this article would defend first, because it rests on an arithmetic coincidence that a reader can check in one line. The received explanation for why airliners do not have long thin wings is structural weight. The arithmetic here says that for a 737-class aeroplane the structural limit is not where the fleet sits. **The fleet sits at the airport limit, and it has sat there for forty years because every family grew its span until the letter ran out.** The Phase II report makes the historical observation in one line.
 
 > Aircraft wingspans have been growing over the years. [...] each aircraft family has experienced wingspan growth to the limit of its airport design category
 
@@ -1071,8 +1086,7 @@ section the turning point is **52.3000 degrees**.
 **That closed form is the repair for a defect in this article's own method.** The first version of
 the inversion searched a bracket from zero to seventy degrees, found the target value below the
 objective at both ends, and **refused to run rather than returning the wrong root**. The docstring it
-refused had claimed the function was monotone. **An assertion caught a wrong sentence written by the
-person who wrote the assertion**, which is the most useful thing an assertion can do, and the
+refused had claimed the function was monotone. **An assertion caught a wrong sentence written by the person who wrote the assertion**, and the
 inversion now searches only up to $\Lambda^{\*}$ so that the branch is monotone by construction.
 
 ### What the Thinning Cost in Structure
@@ -1115,7 +1129,8 @@ A thin high-aspect-ratio wing with a small leading-edge radius has more leading 
 
 ### Aeroelasticity, and a Correction That Turned a Forty Percent Margin Negative
 
-**The aeroelastic story in the primary record is the most interesting single thing in it after the keystone, and it is a story about a model rather than about an aeroplane.**
+**The aeroelastic passages of the primary record are the ones this article found hardest to
+summarise, because they are a story about a model rather than about an aeroplane.**
 
 Phase II identified novel aeroelastic effects as one of two primary risks and addressed them with an analytical model and an aeroelastic wind-tunnel test in the Transonic Dynamics Tunnel at NASA Langley. Its conclusion was favourable and carefully bounded.
 
@@ -1147,7 +1162,8 @@ the minimum stability margin by about ten percent overall. At **Mach 0.92 and 26
 
 **A braced wing is a statically indeterminate structure and its modes depend on its preload.** The Phase II work had already met this experimentally, reporting that the flutter speed of the wind-tunnel model varied as the loads on the model varied and that the non-linear result had to be modelled by including preload and large-displacement effects. **So the flutter boundary of this aeroplane is not a single number. It is a function of the load state**, and a certification basis built on a single number would be testing the wrong quantity.
 
-**What this means for the keystone is specific and limited.** The flutter weight increment is the term that could in principle give the wing an aspect-ratio exponent above the three halves, because flutter speed depends on stiffness distribution in a way that bending strength does not. Phase II found that increment small and Phase IV found it zero at the conditions it could model. **Neither statement covers the Mach 0.92 condition where the corrected model goes negative**, so the exponent assumed in this article is supported at the conditions analysed and is unsupported at the condition the report itself flags, and that is the single largest soft spot in the argument.
+**What this means for the keystone is specific and limited.** The flutter weight increment is the term that could in principle give the wing an aspect-ratio exponent above the three halves, because flutter speed depends on stiffness distribution in a way that bending strength does not. Phase II found that increment small and Phase IV found it zero at the conditions it could model. **Neither statement covers the Mach 0.92 condition where the corrected model goes negative**, so the exponent assumed in this article is supported at the conditions analysed and is unsupported at the condition the report itself flags, and of the soft spots this article names it is the only one that could change the exponent
+rather than the coefficient, which is why it is treated as the largest.
 
 ### Wing and Strut Interference, Which Phase III Reduced to One Percent
 
@@ -1235,7 +1251,7 @@ denominator.
 
 ## What the Thirty Percent Means, Measured Against What
 
-**The figure every account of this programme leads with is thirty percent, and the primary record contains three different numbers, each correct against a different baseline.** Setting them out together is the most useful service this article can perform for a reader who has only seen the headline.
+**The figure every account of this programme leads with is thirty percent, and the primary record contains three different numbers, each correct against a different baseline.** Setting them out together is what a reader who has only seen the headline needs.
 
 ### The Wing Alone, Against an Advanced Conventional Aeroplane
 
@@ -1295,7 +1311,7 @@ of them is what an airline pays, **and they differ by exactly the factor above**
 
 **No X-66A has flown and none exists.** The record at the article's dateline consists of a donor airframe, a modification programme stopped before its wing was committed to fabrication, and an agreement with almost two thirds of its milestones unexercised.
 
-What was actually accomplished is nonetheless substantial and is not flight test. **The donor MD-90 was reactivated and ferried from Victorville to Palmdale in August 2023**, which is the agreement's Milestone 5, named *Aircraft Reactivation* and due February 2024, so that step ran roughly six months ahead of its milestone date \[[Boeing arrival release][ref_boeing_arrival_2023]\] \[[Funded Space Act Agreement][ref_fsaa]\]. The wings and nineteen fuselage sections were to be removed and the fuselage shortened. Through the February 2025 milestone the agreement had reached **9 of 27 milestones** and **36.00 percent** of its value.
+What was actually accomplished is nonetheless substantial and is not flight test. **The donor MD-90 was reactivated and ferried from Victorville to Palmdale in August 2023**, which is the agreement's Milestone 5, named *Aircraft Reactivation* and due February 2024, so that step ran roughly six months ahead of its milestone date \[[Boeing arrival release][ref_boeing_arrival_2023]\] \[[Funded Space Act Agreement][ref_fsaa]\]. The wings and nineteen fuselage sections were to be removed and the fuselage shortened. Through the February 2025 milestone the agreement had reached **nine of 27 milestones** and **36.00 percent** of its value.
 
 **The wind-tunnel record, by contrast, is long and is the programme's real output.** Phase II tested an aeroelastic model in the Transonic Dynamics Tunnel. Phase III tested a transonic performance model in the Ames eleven-foot transonic wind tunnel. Phase IV tested both high-speed and low-speed models from 2019, with the results in volumes this article did not read in full. **The X-66A was to be the end of a fifteen-year test campaign and the campaign is almost all of what exists.**
 
@@ -1325,7 +1341,8 @@ What was actually accomplished is nonetheless substantial and is not flight test
 
 \[[SUGAR Phase IV final report][ref_cr_phase4]\]
 
-**Boeing's own final report recommends that the comparison on which the entire concept rests be done fairly, which is a statement that it has not been.** The 7.2 and 9.0 percent figures are against an aspect ratio 13 conventional aeroplane of equivalent technology, and the report is asking for both sides of that comparison to be optimised to the same standard before the numbers are believed.
+**Boeing's own final report asks for the comparison on which the entire concept rests to be put on
+an equal footing, which is a statement that it was not.** The 7.2 and 9.0 percent figures are against an aspect ratio 13 conventional aeroplane of equivalent technology, and the report is asking for both sides of that comparison to be optimised to the same standard before the numbers are believed.
 
 ### The Comparison Was Done, and It Quarters the Short-Mission Benefit
 
@@ -1429,7 +1446,7 @@ article computed from the Phase IV group weight statement**, which ran from 0.07
 0.2749. **Four routes, one conclusion.**
 
 **And the same table prices the truss directly against a cantilever of the same technology**, which
-is the comparison the Phase IV report said had not been made fairly.
+is the like-for-like comparison the Phase IV report had asked somebody to make.
 
 | Quantity | Cantilever wing | Braced wing plus strut |
 |---|---|---|
@@ -1459,7 +1476,9 @@ The X-66A is that preliminary design phase, carried through four design reviews 
 
 ### The Demonstrator Is Not the Aeroplane the Analysis Describes
 
-**Every number in the sizing sections above belongs to configuration 1104-001-RG, a 737-class vision aircraft that was never built, and not to the X-66A.** The demonstrator is a modified MD-90 with a shortened fuselage, a different wing, different engines and an empennage inherited from a DC-9 lineage. Its span is reported in trade coverage at 145 feet against the vision aircraft's 170, and **its wing area is not published**, so **its aspect ratio cannot be computed and is not stated anywhere in this article**. Anyone quoting an aspect ratio for the X-66A itself is quoting the vision aircraft.
+**Every number in the sizing sections above belongs to configuration 1104-001-RG, a 737-class vision aircraft that was never built, and not to the X-66A.** The demonstrator is a modified MD-90 with a shortened fuselage, a different wing, different engines and an empennage inherited from a DC-9 lineage. Its span is given as 145 feet by secondary aerospace coverage and **by no primary document this
+article has read**, against the vision aircraft's 170, and **its wing area is not published
+at all**, so **its aspect ratio cannot be computed and is not stated anywhere in this article**. Anyone quoting an aspect ratio for the X-66A itself is quoting the vision aircraft.
 
 **The consequence for the keystone is that the keystone is not about the demonstrator at all.** A demonstrator exists to validate models, not to be optimal, and nothing in the optimality analysis above applies to an aeroplane whose fuselage, tail and payload were chosen by what was available at Victorville. **Treating the X-66A as a small transport aircraft would be the central error available here**, and the series has made the equivalent error before.
 
@@ -1485,7 +1504,12 @@ The X-66A is that preliminary design phase, carried through four design reviews 
 
 ### An Aerodrome Reference Code Is Not a Law of Nature
 
-**The sharpest claim in this article is that the aspect ratio of the single-aisle fleet is an airport number, and the claim has a limit.** Code letters are revised, airports are rebuilt, and a sufficiently valuable aeroplane changes its infrastructure rather than fitting it. The Airbus A380 and the Boeing 747-8 both obtained accommodation at Code F and Code E respectively by being worth accommodating, and the Boeing 777X folds its wingtips for the same reason this aeroplane would.
+**The sharpest claim in this article is that the aspect ratio of the single-aisle fleet is an airport number, and the claim has a limit.** Code letters are revised, airports are rebuilt, and a sufficiently valuable aeroplane changes its infrastructure rather than fitting it. **The Airbus A380 and the Boeing 747-8 are both Code F aeroplanes and both obtained
+accommodation**, at spans of about 79.8 and 68.4 metre against that band's 65 to 80. **And the
+Boeing 777X folds its wingtips across a code boundary exactly as this aeroplane would**, from
+about 71.8 metre unfolded, which is Code F, to about 64.8 folded, which is Code E. **So the
+manoeuvre this article describes is already certificated on a wide-body**, which is the strongest
+reason to think the gate box is negotiable for an aeroplane worth negotiating for.
 
 **What the coincidence of margins does establish is weaker and still useful.** It establishes that **for this class of aeroplane, at this moment, the designers treated the boundary as fixed and designed to within inches of it twice**. That is a fact about the design process and about the economics of gate compatibility for a high-volume narrowbody, and it is not a claim about aerodynamics at all.
 
@@ -1493,7 +1517,7 @@ The X-66A is that preliminary design phase, carried through four design reviews 
 
 **This subject has a large and continuously active literature, which distinguishes it from the three articles that precede it in this series.** The X-63A, the X-64A and the X-65A each had a thin public record and a subject whose literature had to be assembled from adjacent fields. The truss-braced wing has its own body of work with a fifty-year history, a named research programme, a sustained Virginia Tech and Georgia Institute of Technology school, and a steady output of conference and journal papers through the whole period of this programme.
 
-**The sweep behind this article admitted 4,744 records from a pool of 18,863, and assigned them across seventeen clusters, of which 17 are non-empty.** The clusters are the shape of the field as this sweep found it.
+**The sweep behind this article admitted 4,744 records from a pool of 18,863, and assigned them across seventeen clusters, of which seventeen are non-empty.** The clusters are the shape of the field as this sweep found it.
 
 | Cluster | Records | What it holds |
 |---|---|---|
@@ -1523,7 +1547,7 @@ The X-66A is that preliminary design phase, carried through four design reviews 
 
 **The reference base behind this article is 4,537 definitions**, of which
 **21** are primary documents written by hand after reading,
-**14** are research records cited by hand with their depth of reading recorded,
+**fourteen** are research records cited by hand with their depth of reading recorded,
 **66** are the prior articles of this series, and **4,436** are the gated
 research records.
 
@@ -1549,11 +1573,12 @@ $$ \text{primary fraction} = \frac{\left|\left\{r : \mathrm{src}(r) \in \{\text{
 **The survey statistics are recomputed from the reference data and are not matched against a stored
 string.** Of the 4,436 research records, **1,256 come from report servers rather than journal indices, which is 28.3 percent**. **4,197 carry a resolved publication year**, their median is **2012** and they run from **1921 to 2026**. **1,790 are from 2015 onward, which is 42.6 percent**, and **1,372 predate 2000, which is 32.7 percent**.
 
-**The primary fraction of 28.3 percent is the lowest this series has reported in four articles and the reason is the subject and not the method.** The three preceding articles reported 30.6, 45.0 and 39.5 percent. This subject's literature lives in journals and in conference proceedings to a degree the others did not, because truss-braced wing work has been done largely in universities and published through the American Institute of Aeronautics and Astronautics rather than issued as agency reports. **The period count of 1,790 is the figure to read beside it**, since adding a contemporary survey lowers a fraction while raising a count, and both moved in the same direction here only because the pool grew.
+**The primary fraction of 28.3 percent is the lowest this series has reported in four articles and the reason is the subject and not the method.** The three preceding articles reported 30.6, 45.0 and 39.5 percent, those being their own recorded
+figures rather than anything recomputed here. This subject's literature lives in journals and in conference proceedings to a degree the others did not, because truss-braced wing work has been done largely in universities and published through the American Institute of Aeronautics and Astronautics rather than issued as agency reports. **The period count of 1,790 is the figure to read beside it**, since adding a contemporary survey lowers a fraction while raising a count, and both moved in the same direction here only because the pool grew.
 
 ### How the Sweep Was Run, and What It Measured About Itself
 
-**Three sweeps across three registries, 230 questions at the reports server in passes of 80, 70 and 80, and the rest at a defence registry and a bibliographic index.** The pool divides as **4,928 records from the reports server, 4,656 from the defence registry and 9,279 from the bibliographic index**, and that last figure being half the pool is the reason the primary fraction below is what it is. The first sweep's questions reported **3,195 holdings** and returned **3,138**, which is **98.2 percent**, so retrieval was nearly complete and only **1** question hit the retrieval wall.
+**Three sweeps across three registries, 230 questions at the reports server in passes of 80, 70 and 80, and the rest at a defence registry and a bibliographic index.** The pool divides as **4,928 records from the reports server, 4,656 from the defence registry and 9,279 from the bibliographic index**, and that last figure being half the pool is the reason the primary fraction below is what it is. The first sweep's questions reported **3,195 holdings** and returned **3,138**, which is **98.2 percent**, so retrieval was nearly complete and only **one** question hit the retrieval wall.
 
 **A THIRD SWEEP WAS AIMED AT THE THINNEST CLUSTERS AND ITS AIM WAS MEASURED RATHER THAN GUESSED.**
 Before writing it, the per-cluster primary share was computed, and the six thinnest substantive
@@ -1575,16 +1600,15 @@ asks about multidisciplinary optimisation and a report names its code.
 | span_constraint | 0.0 | 0.0 | 0 | 0 |
 
 **Overall the gated pool went from 4,238 records with 1,144 report primaries
-to 4,744 with 1,380, a share rising from 27.0 to
-29.1 percent**,
+to 4,744 with 1,380, a share rising from 27.0 to 29.1 percent**,
 with the aspect-ratio cluster nearly doubling its share and more than doubling its count. **The
 lifting-line and span-loading vocabulary was what reached it**, since a report from 1976 does not
 use the phrase this subject's contemporary literature uses.
 
 **AND THE CLUSTER THAT MATTERS MOST BOUGHT NOTHING, WHICH IS A MEASUREMENT AND NOT A FAILURE.**
-**14** questions were written in the airport-planning vocabulary and aimed at
-`span_constraint`, the cluster carrying this article's own keystone. **9 of
-the 14 returned no records at all.** The cluster grew by **1** record and its report primaries remain at **zero**.
+**fourteen** questions were written in the airport-planning vocabulary and aimed at
+`span_constraint`, the cluster carrying this article's own keystone. **nine of
+the fourteen returned no records at all.** The cluster grew by **one** record and its report primaries remain at **zero**.
 
 **The honest reading is that the report literature does not contain airport-compatibility work**,
 because airport design is a regulator's and an airport planner's subject rather than a research
@@ -1593,10 +1617,11 @@ reports. **The constraint this article argues is binding has no research literat
 not a research question.** That is the same shape of finding as the previous article's thirty-five
 air-budget questions buying three records, and it belongs in the article for the same reason.
 
-**9 of the first sweep's questions returned nothing at all, and
-7 of those 9 were rescued by rephrasing.** A zero from this registry is a statement about phrasing and not about literature, which this series has documented since A355, and the rephrasings were written in the vocabulary the registry's own titles use. **7 questions still return nothing after rephrasing** and those are recorded rather than retried, since a third attempt at the same idea tells a reader less than the fact that two failed. The second sweep added **953** records.
+**nine of the first sweep's questions returned nothing at all, and
+seven of those nine were rescued by rephrasing.** A zero from this registry is a statement about phrasing and not about literature, which this series has documented since A355, and the rephrasings were written in the vocabulary the registry's own titles use. **seven questions still return nothing after rephrasing** and those are recorded rather than retried, since a third attempt at the same idea tells a reader less than the fact that two failed. The second sweep added **953** records.
 
-**The homonym measurements are the most transferable thing in this article's method and they are measurements.**
+**The homonym measurements carry outside this subject, because the registries do not change
+between articles, and they are measurements rather than guesses.**
 
 | Query | What the registry actually returns |
 |---|---|
@@ -1613,7 +1638,9 @@ air-budget questions buying three records, and it belongs in the article for the
 
 ### The Gate, and What Auditing It Both Ways Found
 
-The shared homonym store refused **1,196** of the 18,863 pooled records, leaving **17,667**, and the subject gate then kept **4,744** and refused **12,923**. The gate carries 139 patterns behind nine exclusion families, and its regression test checks 29 titles that must be admitted and 43 that must be refused, with the audit sample drawn against seed 20251211, which is the article's own editorial date so that the sample is reproducible, **with every refusal re-tested with its internal spaces hyphenated**, which is the repair the previous article earned after a guard was defeated by a hyphen.
+The shared homonym store refused **1,196** of the 18,863 pooled records, leaving **17,667**, and the subject gate then kept **4,744** and refused **12,923**. The gate carries 139 patterns behind nine exclusion families, and
+its regression test checks 29 titles that must be admitted and
+43 that must be refused, with the audit sample drawn against seed 20251211, which is the article's own editorial date so that the sample is reproducible, **with every refusal re-tested with its internal spaces hyphenated**, which is the repair the previous article earned after a guard was defeated by a hyphen.
 
 **The two-sided audit changed the gate in both directions and that is the only reason it is reported.** Reading thirty admitted records found six that should not have been there, being rotorcraft flight simulation with an aeroelastic rotor, a rotary-wing simulation paper, the damage detection of an aeroelastic **panel**, a methanol-economy net-zero study, an open-rotor shield impact test, and a rotorcraft vibration paper. **A bare `aeroelastic` does not name a wing, a bare `net zero` does not name aviation, and a bare `open rotor` does not name an airframe**, so all three now require a qualifier and a rotary-wing exclusion family was added.
 
@@ -1627,7 +1654,7 @@ The shared homonym store refused **1,196** of the 18,863 pooled records, leaving
 
 The X-66A designation was allocated on 3 May 2023 to Boeing with NASA as sponsor and an engines cell reading `2 Pratt & Whitney`, and the register's description names a Transonic Truss-Braced Wing demonstrator built from a highly modified MD-90 \[[DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
-The Funded Space Act Agreement numbered PAM 36785 was signed by Boeing on 12 January 2023 and by NASA on 13 January 2023, carries a term of 7 years from the later signature, and lists 27 funded milestones totalling 425 million dollar \[[Funded Space Act Agreement][ref_fsaa]\]. Those figures are read from the instrument, and the milestone sum was checked against the appendix's own stated total rather than merely computed.
+The Funded Space Act Agreement numbered PAM 36785 was signed by Boeing on 12 January 2023 and by NASA on 13 January 2023, carries a term of seven years from the later signature, and lists 27 funded milestones totalling 425 million dollar \[[Funded Space Act Agreement][ref_fsaa]\]. Those figures are read from the instrument, and the milestone sum was checked against the appendix's own stated total rather than merely computed.
 
 NASA announced the selection on 18 January 2023 with a stated NASA contribution of 425 million dollar over seven years and a partner contribution of about 725 million dollar \[[NASA award release][ref_nasa_award_2023]\]. The United States Air Force conferred the designation and NASA announced it on 12 June 2023 \[[NASA X-plane release][ref_nasa_x66_designation]\]. The donor aeroplane arrived at Palmdale from Victorville in August 2023 \[[Boeing arrival release][ref_boeing_arrival_2023]\]. NASA published its account of a revised approach on 24 April 2025 \[[NASA thin-wing item][ref_nasa_thin_wing_2025]\].
 
@@ -1738,11 +1765,12 @@ not govern**. The unfolded span of 170 feet clears the next boundary by 12 inch 
 
 **The truss turned out to buy a coefficient and not a power.** A geometrically similar truss leaves the three-halves exponent exactly where a cantilever leaves it, and since the optimum moves only as $k_w^{-2/5}$, no plausible structural achievement moves it far. **So the value of this configuration is not in the truss as a weight-saving device.** It is in the thin wing the truss makes affordable, which raises the drag-divergence Mach number, which permits less sweep, which permits laminar flow. **That chain is what Boeing kept when it stopped the aeroplane**, and on this article's reading the chain is where the fuel was all along.
 
-**What the programme bought for 153 million dollar was 9 design reviews and a very good report.** The agreement would have paid **98.824 percent** of its total before the aeroplane flew, so the public money was never mostly about the flying. It stopped between the February 2025 milestone and the May 2025 Wing and Strut Critical Design Review, which is the gate at which a wing becomes a thing to be built rather than a thing to be studied. **The instrument that funded it has no pause in it**, offering termination for a missed milestone instead, and the federal award record holds, under the project's own name, a single contract for **41,198.00 dollar** worth of desk models.
+**What the programme bought for 153 million dollar was nine design reviews and a very good report.** The agreement would have paid **98.824 percent** of its total before the aeroplane flew, so the public money was never mostly about the flying. It stopped between the February 2025 milestone and the May 2025 Wing and Strut Critical Design Review, which is the gate at which a wing becomes a thing to be built rather than a thing to be studied. **The instrument that funded it has no pause in it**, offering termination for a missed milestone instead, and the federal award record holds, under the project's own name, a single contract for **41,198.00 dollar** worth of desk models.
 
 **And the number everybody quotes is not in the document that funds it.** The agreement states no percentage. The wing alone is worth **7.2 percent** against an advanced conventional aeroplane of aspect ratio 13, by the contractor's own calculation and explicitly independent of other technologies. The whole package against a 2005 aeroplane is **55.86 percent**. **Thirty percent is between them**, and the clause that makes it true, which attributes it to the configuration combined with additional technologies, appeared in January 2023, vanished in June 2023 and returned in the 2026 budget supplement. **The figure never changed and the sentence that earned it came and went twice.**
 
-**The last word belongs to the report, because its recommendation list says what fifteen years of work concluded.** It asks for a dedicated buffet wind-tunnel test, a high-Reynolds-number low-speed entry, a detailed structural integration effort, and **an equivalent optimisation of cantilever and truss-braced aircraft of the same technology level to allow a more fair and transparent comparison of the two configurations**. That last item is a statement, by the organisation with the most to gain, that the comparison on which the concept rests has not yet been made fairly. **Then it asks for the preliminary design of a demonstrator, which is the one recommendation that was carried out, and which is the aeroplane that did not fly.**
+**The last word belongs to the report, because its recommendation list says what fifteen years of work concluded.** It asks for a dedicated buffet wind-tunnel test, a high-Reynolds-number low-speed entry, a detailed structural integration effort, and **an equivalent optimisation of cantilever and truss-braced aircraft of the same technology level to allow a more fair and transparent comparison of the two configurations**. That last item is a statement, by the organisation with the most to gain, that the comparison on
+which the concept rests had not yet been made on equal terms. **Then it asks for the preliminary design of a demonstrator, which is the one recommendation that was carried out, and which is the aeroplane that did not fly.**
 
 ## References
 
