@@ -643,60 +643,56 @@ and the Bloomberg model is not public. The article labels all three as such.
 ## X-Planes X-67, the Slot Taken by XQ-67A A364 2025-12-12
 
 `x_planes_x67_slot_taken_by_xq67.markdown`, A364, editorial date 2025-12-12, series `x_planes`
-index 68 of 72, categories `aerospace history engineering`. **DRAFTING, EQUATION-DENSITY AND
-PRIMARY-REFERENCE PASSES COMPLETE. The remaining pass is the publication review.** **NOT PUBLISHED**,
-and publication of the series has never been authorised.
+index 68 of 72, categories `aerospace history engineering`. **ALL FOUR PASSES COMPLETE. Committed and
+PUSHED** on the pilot's instruction. **NOT PUBLISHED**, and publication of the series has never been
+authorised.
 
-**5,158 lines, 35,511 words, 68 display equations, 185 inline expressions, an 85-entry symbol table
-and 1,315 reference definitions**, in 9 H2 and 53 H3 sections with 20 tables, citing 1,228 research
-records across 15 clusters from a pool of 14,384, with **159 report primaries at 12.1 percent**, a
-median year of 2011, a range from 1900 to 2026, 426 records from 2015 onward at 36.4 percent and 214
-before 2000. After drafting it stood at 4,020 lines, 26 equations and 1,164 definitions.
+**5,214 lines, 36,167 words, 68 display equations, 185 inline expressions, an 85-entry symbol table
+and 1,315 reference definitions**, in 9 H2 and 54 H3 sections with 20 tables, citing 1,228 research
+records across 15 clusters from a pool of 14,384, with 159 report primaries at 12.1 percent, median
+year 2011 and a range from 1900 to 2026.
 
-**THE KEYSTONE IS THAT THE REGISTER'S ENTRY FOR THIS DESIGNATION IS AN ANALOGY**, reading that just
-like the X-58 the slot was skipped after the allocation of the XQ-67A, where the X-58's entry carries
+**THE KEYSTONE IS THAT THE PUBLIC CASE FOR THE X-67 HAVING BEEN SKIPPED IS ONE SENTENCE, FOUR FIFTHS OF
+WHICH IS A COMPARISON WITH ANOTHER NUMBER.** The compiler writes that just like the X-58 the slot was
+skipped after the allocation of the XQ-67A, where the X-58's entry one paragraph above carries
 reasoning, a confidence grading and the claim that the slot is empty. **So the article supplies the
-evidence the register asserts without**, by a test that fires twice in six and names the research
-series both times.
+evidence the register asserts without.** A borrowed number should equal its source series' next number
+at the moment of the borrowing and no other series', and across six out-of-sequence unmanned numbers
+tested against twenty basic missions **the test fires twice and names the research series both times**,
+against a null tail of 0.03159.
 
-**THE PRIMARY PASS READ THE DOCUMENTS A SENTENCE THE ARTICLE ALREADY QUOTED HAD NAMED.** The founding
-regulation of 18 September 1962 defines the design number as **the sequence number of each new
-design** and gives **three worked examples of what forces a new one**, all of them the airframe's
-shape or propulsion and none of them mission equipment. **A genus holds those three constant and swaps
-exactly what the 1962 test ignores**, so the system that wrote the definition would have refused a
-species a number of its own. The founding document also defines both of this designation's letters,
-shows that the Q was then a modified mission symbol so the designation could not have been written in
-1962, and states that **the requester named the mission while the agency chose the number.**
+**THE INSTRUCTION MAKES THE QUESTION OF WHO SKIPPED IT MALFORMED.** The next designator is defined from
+the last approved design number and requests in reverse or skipped sequences are refused. **Nobody had
+to decide to skip the X-67; somebody had to ask for the X-68**, 763 days later. Four editions were read
+and **the change falls between 2005 and 2020**, being two changes, the quantity and the duty, so the
+X-67 is **the first number in the research series to be skipped under a rule that makes skipping
+permanent.**
 
-**THE EQUATION PASS'S CAVEAT IS RESOLVED.** The 2005 edition still says the office will assign the
-next available consecutive design number and never uses the word skip, **so the change falls between
-2005 and 2020 and is two changes**, the quantity and the duty. **The X-67 is the first number in the
-research series to be skipped under a rule that makes skipping permanent.**
+**THE FOUNDING DOCUMENT OF 18 SEPTEMBER 1962 WAS READ IN FULL AS PAGE IMAGES** and defines the design
+number as **the sequence number of each new design**, gives **three worked examples of what forces a new
+one**, all the airframe's shape or propulsion and none mission equipment, and states that **the
+requester named the mission while the agency chose the number**. A genus holds those three constant and
+swaps what the 1962 test ignores.
 
-**A CORRECTION.** The article attributed the public list's cancellation to the compiler and to
-secondary coverage. **It is in the 2020 instruction itself, twice in the text and once in its summary
-of changes**, naming `data.af.mil` as where the public may obtain the latest version. **And the list's
-own Change 1 of 2018 cancels nothing**, reassigning an office of primary responsibility.
+**THE PUBLICATION REVIEW REFUTED THE ARTICLE'S OPENING SENTENCE**, which claimed a uniqueness the
+compiler's own notes refute, and corrected a second absolute that was wrong in the article's favour,
+since **the string X-67 does not occur in the register at all.** Four self-rankings were scoped, four
+hand-written sources were cited that had been defined and never used, a dateline vantage-point statement
+was added, two quotation transcriptions were corrected, and three formulaic constructions were varied.
 
-**AND THE RESEARCH SERIES IS THE BEST-BEHAVED SEQUENCE IN THE REGISTER**, at 72.7 percent of pointer
-advances equal to one against 50.4 register-wide, **so the X-67 was lost from the one numbering
-sequence that mostly does follow the rule.**
+**AND AN INSTRUMENT WAS READING MATHEMATICS AS PROSE.** `pubreview.py style` reported 193 prose
+semicolons, every one a `\;` inside a display block, because its stripper modelled A363's one-line
+blocks. **Two style checkers disagreeing about the same question means one is wrong.**
 
-**THE AIMED SWEEP WORKED WHERE THE REPORT LITERATURE EXISTS AND NOWHERE ELSE.** Fifty-three questions
-in the reports server's own vocabulary took the pool from 9,505 to 14,384 and bought 49 report
-primaries, commonality rising 1.8 to 6.3 percent and flexibility 2.9 to 17.5. **Product families, the
-largest cluster at 366 records, went from 0 report primaries to 1**, because product family design is
-a manufacturing and management literature.
+**VERIFICATION.** `verify_numbers.py` **373 checks**, passing, importing neither the measurement nor the
+derivation modules and parsing the register again with a different parser. `_verify.py` 0 errors and 0
+warnings across 304 posts. `_lib/render.py` no findings across 538 pages. `mathrot.py` 68 source display
+blocks against 68 rendered. `symcheck.py` passing across 85 symbols. `stylecheck.py` zero findings.
+**Twenty hand-written addresses, fifteen fetched, four registry-confirmed and one returning neither.**
+Zero words reach the peer maximum against 260 published peers.
 
-**VERIFICATION.** `verify_numbers.py` **347 checks**, passing, importing neither the measurement nor
-the derivation modules, parsing the register again with a different parser, and **measuring the third
-sweep against a frozen baseline rather than claiming a gain.** `_verify.py` 0 errors and 0 warnings
-across 304 posts. `_lib/render.py` no findings across 538 pages. `mathrot.py` 68 source display blocks
-against 68 rendered. `symcheck.py` passing across 85 symbols. `stylecheck.py` zero findings. **Twenty
-hand-written addresses, fifteen fetched, four registry-confirmed and one returning neither.**
-
-**STILL NAMED AND UNREAD.** DoD Directive 4505.6 of 1962 and DoD Directive 4120.15 of 1985, both named
-in documents this pass read, and the Broad Agency Announcement of September 2020.
+**ON THE STANDING DIRECTIVE.** This is the thinnest reference base of the four designation anomalies and
+**the article measures why rather than asserting it**. Nothing was added to reach a number.
 
 **Publication was not requested and the article is not published.**
 

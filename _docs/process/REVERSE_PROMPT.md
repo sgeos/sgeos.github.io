@@ -5,6 +5,109 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **A364 PUBLICATION REVIEW, the fourth and last of four passes. Committed and PUSHED on the
+pilot's instruction. STILL NOT PUBLISHED**, and publication of the series has never been authorised.
+**Sixty-eight of seventy-two drafted, four remain.**
+
+**FINAL STATE 5,214 lines, 36,167 words, 68 display equations, 185 inline expressions, an 85-entry
+symbol table and 1,315 reference definitions**, in 9 H2 and 54 H3 sections with 20 tables, citing 1,228
+research records across 15 clusters from a pool of 14,384, with 159 report primaries at 12.1 percent,
+median year 2011, range 1900 to 2026.
+
+**THE REVIEW REFUTED THE ARTICLE'S OPENING SENTENCE, WHICH IS THIS SERIES' RECURRING DEFECT IN ITS MOST
+VISIBLE POSITION.** It read that the X-67 is the only designation in this series whose entry in the
+register is an analogy. **The compiler's own notes refute it.** His note on the XRQ-73A derives the
+number 73 from the XRQ-72A because one programme follows the other, and his note on the YFQ-44A says the
+number is out of sequence like the YFQ-42A's. **The article's own table two sections later lists both.**
+The opening is now a comparison against a named comparison set, which is what the superlative rule asks
+for, and the narrower claim it makes is that the 67 is derived from another number's derivation while
+the 73 is derived from a programme relationship. **The counter-examples are in the article.**
+
+**AND A SECOND ABSOLUTE WAS WRONG IN THE ARTICLE'S FAVOUR.** It said that searching the register for the
+string X-67 finds the note and nothing else. **The string does not occur in the register at all**, not
+even in the note, whose text says X-series. The two occurrences anywhere in the compiler's work are both
+in the separate compilation of missing designations. **The register does not deny the X-67. It has no
+X-67 in it.**
+
+**A THIRD WAS TOO STRONG BECAUSE THE PRIMARY PASS HAD MADE IT SO.** The article said the
+lowest-never-allocated definition cannot be computed from the public record at all. **The primary pass
+had just added two documents that reach back before the register**, so the claim is now that no public
+document this article has found is a complete history of allocations, which is the reason the quantity is
+not computable and is a narrower statement than the one it replaced.
+
+**FOUR SELF-RANKINGS WERE SCOPED AND ONE CONTRASTIVE CLAIM NARROWED.** The sharpest statement this
+article can make became the only statement carrying both a date and a document. The article's own best
+document became the document this article relies on most. The deepest difference between the borrowings
+became the difference that matters most to a register. The only corroboration available became the only
+corroboration this article has found.
+
+**FOUR HAND-WRITTEN SOURCES WERE DEFINED, SWEPT, AND NEVER CITED IN THE BODY**, among them **all three
+Baldwin and Clark entries, which is the modularity theory the whole commonality section rests on** and
+whose title the source base already tells a story about. **A reference that appears only in its own
+bibliography entry is a reference the article does not actually make.** All four are now cited where
+they belong, and the verifier asserts that no hand-written source is body-uncited.
+
+**A DATELINE PROBLEM THE GENRE PROVIDES FOR BUT THE ARTICLE HAD NOT HANDLED.** Three statements are
+dated after the editorial date of 2025-12-12, all of them measurements the article made of itself rather
+than events in the subject. **The genre requires the Epistemic State to say so and it did not.** A
+vantage-point subsection now names all three, states that no event in the subject postdates the dateline,
+and says plainly that **the hostname claim is about the date it was checked and is the only claim in the
+article that could change without any document changing.**
+
+**AND ONE PROSE COLON OF MY OWN.** The other two the scan reports are a quotation from the 1962
+regulation and a document title inside a citation.
+
+**TWO QUOTATION TRANSCRIPTIONS WERE CORRECTED AGAINST THE SCAN.** The 1962 regulation says design
+redesignations and the article had the singular; and a paraphrase of the publication duty omitted that
+the required description is unclassified. **A quotation must be exact and a paraphrase must not drop a
+qualifier.**
+
+**DICTION WENT FROM THREE FORMULAIC CONSTRUCTIONS TO NONE ABOVE CONCERN, AND ZERO WORDS REACH THE PEER
+MAXIMUM.** Against 260 published peers no enumerated tic word reaches the maximum, `rather` being the
+highest at 0.74 of it. The discovered-formula scan found the contrast device **X and not about Y** six
+times, **the article says so** four times, **nothing at all** five times and **a draft of this** six
+times. Each was varied across a rotation rather than replaced by one substitute, taking them to three,
+two, three and two. **`is an inference` was left at nine and the reason is recorded**, since eight of
+the nine are the Epistemic State's inference list where the parallel construction is the section's
+function.
+
+**AN INSTRUMENT WAS READING MATHEMATICS AS PROSE AND THE TWO STYLE CHECKERS DISAGREED.**
+`pubreview.py style` reported **193 prose semicolons and eight prose parentheticals**, every one of them
+a `\;` or a `\bigl(` inside a display block. Its stripper removed the `$$` delimiter lines and left the
+block body, **because A363 wrote display blocks on one line and A364 writes them over three.** That is
+the same defect the display-equation counter had in the equation pass. **Two instruments disagreeing
+about the same question means one of them is wrong**, and the block is now removed as a block.
+
+**STRUCTURE, GENRE AND INTEGRITY FOUND CLEAN.** Nine top-level sections in the designation anomaly's
+reduced order, with the Epistemic State, Out of Scope and Conclusion at positions six, seven and eight
+of nine and the Epistemic State before the end. No contraction, em dash, en dash, capitalised emphasis or
+author parenthetical. No anchor undefined and no definition unused. **The apparent 1,232 orphaned anchors
+are the corpus convention and A363 shows 4,452 of the same kind**, being research records cited by their
+own bullet in the references listing.
+
+**ON THE STANDING DIRECTIVE.** No length limit and no reference limit are permissions, and the genre
+document forbids padding an anomaly article in the same breath. **At 1,315 definitions this is the
+thinnest reference base of the four designation anomalies and the article measures why rather than
+asserting it**, the report-primary share of 12.1 percent and the product-family cluster's one primary in
+366 records both being reported in the article. **Nothing was added to reach a number.**
+
+**VERIFICATION.** `verify_numbers.py` **373 checks**, passing, up from 347, now including that every
+hand-written source is cited in the body, that the vantage-point statement is present, and that the
+withdrawn opening and the withdrawn search claim are absent while their replacements are present.
+`_verify.py` 0 errors and 0 warnings across 304 posts. `_lib/render.py` no findings across 538 pages.
+`mathrot.py` 68 source display blocks against 68 rendered with zero emphasis tags. `symcheck.py` passing
+across 85 declared symbols. `stylecheck.py` zero findings. `emrisk.py` and `astrisk.py` both confirm the
+article adds nothing to the corpus-wide corrupted-maths count. **Twenty hand-written addresses, fifteen
+fetched, four confirmed against the bibliographic index after a publisher refused the client, and one
+returning neither**, that one being the Department's own portal for a document read from a web archive.
+
+**ONE PILOT ITEM REMAINS.** The corrupted mathematics in published posts, re-measured by A363 in the
+rendered pages as 133 spans across 37 pages, 104 underscore-driven and 29 asterisk-driven.
+
+**THE WORKING TREE STILL CARRIES EIGHT DRAFTS THIS LINE DID NOT TOUCH**, re-dated from 2026-08-14
+through 21 to 2126, uncommitted and excluded from this commit, as is the untracked `sa.html`.
+
+**Date**: 2026-10-02
 **Task**: **A364 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, not pushed, NOT
 published.** **Reference definitions 1,164 to 1,315**, research records 1,081 to 1,228, report
 primaries **110 to 159** and the share **9.5 to 12.1 percent**, lines 4,573 to 5,158, words 30,926 to
