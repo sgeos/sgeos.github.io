@@ -27,8 +27,12 @@ series index 3.
 once quoted material is excluded**, up from 2,896 lines, 39 equations and 86 references after
 drafting, and down two lines from the 4,442 on the remote. **This file previously recorded
 4,443, which was off by one before this pass and is corrected here.**
-**ALL FOUR PASSES COMPLETE, PLUS A PATHOLOGICAL WORD USAGE PASS. NOT PUBLISHED.** Ready for the
-pilot's publication decision.
+**ALL FOUR PASSES COMPLETE, PLUS A PATHOLOGICAL WORD USAGE PASS. PUBLISHED 2026-10-02 on the
+pilot's instruction** as `_posts/2026-08-13-balance_of_power_after_war_with_china.markdown`, which
+completes the `war_with_china` series. **A374 and A375 now read Part 1 of 3 and Part 2 of 3, and
+neither URL moved**, so no `redirects/` entry is owed. **Publishing also cleared the
+`progress-stale` warnings**, since the two-concurrent-series condition that produced them no longer
+holds with only `x_planes` drafts on disk.
 
 **THE PATHOLOGICAL USAGE PASS FOUND THE ENUMERATED TIC CLASS CLEAN AND ONE DISCOVERED FORMULA
 OVER THE LIMIT.** Against 259 published peers, zero of the seventy watched tic words reach the

@@ -157,9 +157,25 @@ publication decision on A376, which is line two of the handoff. **The A358 and A
 correction is resolved above.**
 
 **Date**: 2026-10-02
-**Task**: **A376, pathological word usage pass. The enumerated tic class is CLEAN against 259 peers
-and one discovered formula was over the limit and is now under it.** See the A376 section below.
-**A376 remains NOT PUBLISHED and awaits the pilot's decision.** The previous report follows.
+**Task**: **A376 IS PUBLISHED and the `war_with_china` series is complete at three articles.**
+Published on the pilot's instruction as
+`_posts/2026-08-13-balance_of_power_after_war_with_china.markdown`, following a pathological word
+usage pass in which **the enumerated tic class came back clean against 259 peers** and one
+discovered formula was over the limit and is now under it. See the A376 sections below.
+
+**THE PUBLICATION USED THE TWO-COMMIT PATTERN.** The draft commit is `3ce299f` and the move is its
+successor. **A374 and A375 now read Part 1 of 3 and Part 2 of 3 and neither URL moved**, so no
+`redirects/` entry is owed. **The `progress-stale` warnings are gone**, not by a tooling change but
+because the two-concurrent-series condition that produced them no longer holds. `./_check.sh`
+reports **0 errors and 0 warnings across 304 posts**, a clean build, and no rendered findings across
+469 pages.
+
+**ONE ITEM REMAINS OPEN ON THIS LINE AND IT IS NOT MINE TO DECIDE.** Commits `1dd90d0` and `33fd7fe`
+carry this line's staged work under the other line's commit messages. The content is intact and
+verified byte-identical on the remote; only the attribution is wrong, and the history was
+deliberately not rewritten because those commits are pushed.
+
+The previous report follows.
 
 **Date**: 2026-10-01
 **Task**: **A363, X-Planes: Boeing X-66, ALL FOUR PASSES COMPLETE.** Committed and **PUSHED** on the
