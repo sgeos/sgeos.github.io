@@ -5,66 +5,231 @@
 ## Last Updated
 
 **Date**: 2026-10-01
-**Task**: **A363, X-Planes: Boeing X-66, DRAFTING PASS COMPLETE.** Committed, **NOT PUSHED**,
-which is the rhythm for passes one to three. **Not published**, and publication of the series
-has never been authorised. **Sixty-seven of seventy-two drafted, five remain.**
+**Task**: **A363, X-Planes: Boeing X-66, EQUATION-DENSITY REVIEW COMPLETE, the second of four
+passes.** Committed, **NOT PUSHED**. **Not published**, and publication of the series has never
+been authorised. **Sixty-seven of seventy-two drafted, five remain.**
 
-**A363 STANDS AT 9,160 lines, 50,183 words, 38 display equations, 130 inline expressions, a
-61-entry symbol table and 4,064 reference definitions**, with 3,969 research records across
-17 clusters and 1,035 report primaries at 26.1 percent, a period count of 1,641 at 43.9
-percent, median year 2012, from a pool of 14,967 distinct records across two sweeps.
+**A363 WENT FROM 38 DISPLAY EQUATIONS TO 82, FROM 130 INLINE EXPRESSIONS TO 188, AND FROM A
+61-ENTRY SYMBOL TABLE TO 84.** Now 9,546 lines and 53,128 words in 21 H2 and 56 H3 sections with
+19 tables and 4,064 reference definitions.
 
-**THE KEYSTONE IS THAT THE SPAN OF A TRANSPORT WING COMES FROM AN AIRPORT.** The wing folds at
-118 feet and **118 feet is exactly where the Federal Aviation Administration's Airplane Design
-Group III ends**, to the inch, against a bound that is exclusive. ICAO draws the same line at
-36 metre, which is 118.1102 feet, **so the two regulators disagree by 1.3228 inch and the fold
-station sits in the gap**. The fold is worth **35.96 percent** in lift-to-drag ratio and
-everything the aerodynamic optimum has left beyond the chosen span is worth **1.90 percent** in
-fuel, which the programme's own Phase II optimisation reported nine years earlier as under 1.4
-percent.
+**THE PASS FOUND A DEFECT IN THE ARTICLE'S OWN KEYSTONE AND FIXING IT IMPROVED THE RESULT.** The
+optimality conditions rested on linearising the Breguet exponential and **this aeroplane's fuel
+fraction is 20.0 percent**, at which the linearisation overstates fuel by **11.585 percent**.
+Carrying the exponential introduces one factor, $\Phi = Xe^{-X}/(1-e^{-X})$, which is **0.892462**
+here, and both conditions generalise cleanly to **nu-star equals Phi delta** at fixed lift and **Phi
+delta over one minus Phi plus two Phi delta** at fixed area. Both reduce to the drafted results as
+the fuel fraction vanishes, checked at three vanishing fractions. **The exact curvature carries one
+extra term** and is **0.503772** against the linearised 0.613125, so the optimum is **17.84 percent
+flatter still**.
 
-**AND THE OPTIMALITY CONDITION IS TWO CONDITIONS.** At fixed wing area and cruise condition the
-fuel-burn-optimal aspect ratio is where the logarithmic derivative of weight with respect to
-aspect ratio equals **exactly one half, independently of every other parameter in the problem**.
-At fixed cruise lift coefficient it equals the induced-drag fraction of drag. The curvature at
-the second stationary point is exactly **delta times (n + 1 - 2 delta)**, which is why a design
-can sit 28.3 percent below its optimum and pay under two percent.
+**AND THAT CLOSED A GAP THE DRAFTING PASS HAD TO APOLOGISE FOR.** The linearised penalty at the
+design point was **1.9024 percent** against the Phase II report's independently optimised bound of
+**under 1.4 percent**, which needed an excuse. The exact penalty is **0.9481 percent**, which falls
+inside the bound. **A discrepancy the article was prepared to explain away was an artefact of its
+own approximation.**
 
-**THREE OF THIS ARTICLE'S OWN EXPECTATIONS WERE OVERTURNED BY DERIVING THEM.** The truss was
-expected to lower the aspect-ratio exponent and **a geometrically similar truss leaves it at
-exactly three halves**, buying a coefficient instead, and the optimum moves only as the
-coefficient to the power minus two fifths. The first-principles bending-material model landed
-within nine percent of the published figure and **that agreement is a coincidence of two large
-errors in opposite directions and is not a validation**. And the Korn relation was asserted
-monotone in sweep in a docstring and **an assertion in the same file refuted it**.
+**THE LIFT EQUATION FOUND AN INCONSISTENCY IN THE PRIMARY RECORD THAT NOTHING ELSE WOULD HAVE.**
+The Phase IV drag buildup states a cruise altitude of 40,000 feet, Mach 0.80 and a lift coefficient
+of 0.695. **At maximum take-off weight those three do not hold together.** The lift coefficient at
+40,000 feet is **0.5594**, and 0.695 requires either **24.2 percent more weight than the aeroplane
+has** or an altitude of **44,515 feet**, which is **78 feet, 0.175 percent**, from the report's own
+optimum altitude in a different table. **So the buildup's lift coefficient belongs to the optimum
+altitude and the altitude printed beside it does not.**
 
-**THE DEAD REFERENCE IMPROVED THE ARTICLE.** The address sweep found the ICAO publications page
-unreachable, which sent the argument back to the primary table reproduced in NASA/TM-20250002858,
-and that table is in **feet** with **exclusive** bounds. The metric-coincidence framing the
-article had been built on was replaced by a sharper, fully primary one. **A citation that cannot
-be reached is a reason to find a better source, not a reason to soften a claim.**
+**TWO MORE INDEPENDENT CLOSURES ON THE REPORT'S OWN BUILDUP.** The equivalent flat plate area of
+27.7722 square feet over the reference area gives a parasite drag coefficient of **0.0188017**
+against the published 0.01880, an error of **0.0092 percent**, and it prices the truss at **12.422
+percent of the parasite drag area**. And the Korn relation's turning point, which the drafting pass
+located by scanning, has a **closed form** from the quadratic in the secant of sweep, agreeing with
+a seven-thousand-five-hundred-point scan on the angle and to six decimals on the peak value.
 
-**THE AWARD RECORD SAYS ALMOST NOTHING AND THAT IS THE FINDING.** A Funded Space Act Agreement
-is not a procurement contract, so the only award under the project's own name is **41,198 dollar
-to Pacmin Inc for desktop and floor models**, and the agreement is **10,316 times** larger. Nine
-truss-braced-wing research contracts totalling **21,420,664.42 dollar** across fourteen years are
-all there. **The 425 million dollar spending profile exists in public in exactly one place**,
-which is Appendix A.2 of the agreement, reproduced in the article in full.
+**A NEW INSTANCE OF A DOCUMENTED CORRUPTION CLASS, AND `emrisk.py` WAS BLIND TO IT.** Writing
+`$\nu^{*}$` twice in one paragraph produced `\nu^{<em>}` and `\nu^{</em>}` in the rendered page.
+**Kramdown pairs ASTERISKS inside inline mathematics exactly as it pairs underscores**, and
+`emrisk.py` models only underscores. Probed directly rather than modelled, the rule is that two
+bare asterisks in a paragraph pair, one survives, and `\*` is inert. **`astrisk.py` is new and
+predicts it, and `mathcorpus.py` is new and MEASURES it in the rendered pages.**
 
-**AND THE NUMBER EVERYBODY QUOTES IS NOT IN THE DOCUMENT THAT FUNDS IT.** The agreement states no
-percentage. The wing alone is worth **7.2 percent** against an advanced conventional aeroplane of
-aspect ratio 13, by the contractor's own calculation. The whole package against a 2005 aeroplane
-is **55.87 percent**. Thirty percent is between them, and the qualifier that earns it appeared in
-January 2023, vanished in June 2023 and returned in the FY2026 budget supplement.
+**THE CORPUS NUMBER IN THE OPEN DECISION NEEDS UPDATING AND THIS IS THE PILOT'S ITEM.**
+`mathcorpus.py` reads the built pages and finds **133 corrupted mathematical spans across 37
+pages, of which 104 are underscore-driven and 29 asterisk-driven.** That is consistent with the
+recorded 72 source-side pairs once the unit is matched, since a pair corrupts two spans, **and the
+asterisk cases were outside the existing instrument's model entirely.** A363 itself carries none,
+confirmed in the rendered page.
 
-**ONE THING FOR THE PILOT.** The FY2026 technical supplement calls the project the **Subsonic**
-Flight Demonstrator in three places, including its acronym list, where every earlier document says
-**Sustainable**. No release announces a renaming and the article records the document's wording
-without inferring intent.
+**THREE DISPLAY BLOCKS SHIPPED WITH PROSE ON THE SAME LINE AND A TOKEN COUNT FOUND THEM.** Dollar
+pairs came to 164 against 79 counted blocks, which cannot both be right. **A display block with
+text after its closing delimiter is one paragraph, not a block**, which is the defect that cost
+A375 four equations to a missing blank line.
+
+**AND `mathrot.py` REPORTED A MISMATCH ON A PAGE THAT WAS CORRECT.** A LaTeX line break with
+optional row spacing, `\\[4pt]`, contains the opener the counter looked for, so a piecewise
+atmosphere definition produced two more openers than closers. **The counter now requires that a
+delimiter not be preceded by another backslash.**
+
+**THE VERIFIER'S OWN REFERENCE TABLE WAS WRONG AGAIN, WHICH IS THE A362 DEFECT IN A NEW UNIT.**
+`neweqns.py` first checked the atmosphere against standard-atmosphere values typed from memory,
+then added a geometric-to-geopotential conversion in the wrong direction to explain the mismatch it
+had caused. **A check against numbers the author cannot source is not a check.** It now checks the
+two defining temperatures, that the two pressure branches agree at the tropopause, the barometric
+exponent against its definition, and **the hydrostatic equation itself by central difference at six
+hundred random altitudes**, which tests the model against the physics rather than against a printout.
+
+**VERIFICATION.** `verify_numbers.py` **108 checks**, `neweqns.py` **94 checks** importing neither
+`meas.py` nor `calc2.py`, both passing. `_verify.py` 0 errors. `_lib/render.py` no findings across
+549 pages. `mathrot.py` matches 82 source display blocks against 82 rendered brackets with zero
+emphasis tags in any expression. `symcheck.py` passes across 84 declared symbols. `stylecheck.py`
+reports one finding, the statutory citation `51 U.S.C. 20113(e)`.
 
 The older reports follow, newest first. **Nothing below this block was rewritten.**
 
 ---
+
+## A363, Equation-Density Review
+
+**38 display equations to 82, 130 inline expressions to 188, the symbol table 61 entries to 84,
+9,540 lines to 9,546 and 50,183 words to 53,128.** Committed, **NOT PUSHED**, **NOT PUBLISHED**.
+
+### What the Scan Looked For
+
+The governing rule is the genre document's. **If the prose names a result, relies on a relation, or
+quotes a value that some relation produced, the relation is shown.** A crude scan over 454
+paragraphs found 139 verbal signatures of a relation in use, 87 of them in paragraphs with no
+adjacent display equation, and each was then judged by hand. **Forty-four equations were added.**
+
+### The Largest Addition Corrected the Article's Own Keystone
+
+**The two optimality conditions rested on linearising the Breguet exponential, and this aeroplane's
+usable fuel is 29,028 pound of a 145,000 pound take-off weight.** A fuel fraction of 20.0 percent
+is not small, and at that fraction the linearisation overstates fuel by **11.585 percent**.
+
+Carrying the exponential through introduces exactly one factor and nothing else changes.
+**Phi equals X e-to-the-minus-X over one minus e-to-the-minus-X**, which is **0.892462** here, and
+the differential of the logarithm of fuel becomes the differential of the logarithm of weight plus
+Phi times the differential of the logarithm of the exponent. **Both conditions then follow
+immediately.** At fixed cruise lift coefficient **nu-star equals Phi delta**, which is **0.299033**
+against the drafted 0.335065. At fixed wing area **nu-star equals Phi delta over one minus Phi plus
+two Phi delta**, which is **0.423797** against the drafted one half. **Both reduce to the drafted
+forms as the fuel fraction vanishes**, checked at three vanishing fractions rather than asserted.
+
+**The curvature gains one term.** It is **Phi delta times open bracket n plus one minus delta minus
+Phi delta close bracket, plus Phi-prime times X times delta squared**, which also reduces correctly
+and which evaluates to **0.503772** against the linearised 0.613125. **The closed form was checked
+against a second difference on the exact objective, agreeing to seven decimal places, and
+Phi-prime against a central difference at three hundred random points.**
+
+**Every figure moves in the direction that strengthens the conclusion.** The stationary aspect ratio
+falls from 25.100 to **23.754**, the shortfall from 28.29 to **21.41 percent**, the penalty from
+1.9024 to **0.9481 percent**, and the required exponents from 2.4376 and 3.6376 to **2.1755 and
+3.0832**. **The conclusion survives every weight reading and the margin narrows**, the
+deliberately over-generous reading now short by **8.07 percent** rather than by the margin the
+linearised figures implied, and the article says so in those terms.
+
+**AND IT CLOSED A GAP THE DRAFTING PASS HAD TO APOLOGISE FOR.** The linearised 1.9024 percent sat
+**above** the Phase II report's independently optimised bound of under 1.4 percent and needed an
+explanation. The exact 0.9481 percent sits **below** it and needs none. **A discrepancy the article
+was prepared to explain away turned out to be an artefact of its own approximation.**
+
+### The Lift Equation Found a Defect in the Primary Record
+
+**Writing down $C_L = W/(qS)$ was enough to show that the drag buildup's three stated conditions do
+not hold together.** It gives a cruise altitude of 40,000 feet, Mach 0.80 and a lift coefficient of
+0.695. At maximum take-off weight the lift coefficient at 40,000 feet is **0.5594**. The stated
+0.695 requires either a weight **24.2 percent above maximum take-off weight** or an altitude of
+**44,515 feet**, and the report's own optimum cruise altitude at maximum take-off weight, in a
+different table of the same document, is **44,437 feet**. **The two differ by 78 feet, which is
+0.175 percent.**
+
+**So the lift coefficient belongs to the optimum altitude and the altitude printed beside it does
+not.** It is a bookkeeping entry rather than an error of substance, since a drag buildup is properly
+a function of Mach number and lift coefficient. **It is recorded because this article uses that lift
+coefficient in every subsequent calculation.**
+
+**The inversion that found it hit its bracket edge and returned it on the first attempt**, with the
+direction test inverted, so the production version asserts the root is bracketed before searching.
+
+### Two More Independent Closures, and a Closed Form That Replaced a Scan
+
+**The equivalent flat plate area closes on the published parasite drag.** Dividing the buildup's own
+27.7722 square feet by the reference area gives **0.0188017** against the published **0.01880**, an
+error of **0.0092 percent**. It also prices the truss in drag, the strut and jury being **12.422
+percent of the parasite drag area** and **0.0023356** as a coefficient.
+
+**The Korn turning point has a closed form.** Substituting the secant of sweep makes the relation a
+cubic whose derivative is a quadratic, so the turning point is a positive root. It gives **53.8022
+degrees** at the Mach 0.80 thickness and **52.3000** at the Phase III thickness, against **53.80**
+and **52.30** from a scan of seven and a half thousand angles, **with the peak values agreeing to
+six decimal places**. The drafting pass had only the scan.
+
+**The prop influence coefficient also turned out to be elementary.** The unit-load denominator is
+exactly **eta cubed over three**, confirmed against quadrature to nine decimals at six stations, so
+the prop force needs no numerical self-influence at all and the beam stiffness cancels.
+
+**And the percentage-point distinction became exact.** The ratio between a percentage-point change
+in a reduction and a percentage change in fuel is **the baseline over the compared value**, which is
+**2.3279**. The drafting pass said about two and a half.
+
+### A New Instance of a Documented Corruption Class
+
+**Kramdown pairs ASTERISKS inside inline mathematics exactly as it pairs underscores, and
+`emrisk.py` is blind to it.** Writing `$\nu^{*}$` twice in one paragraph produced `\nu^{<em>}` and
+`\nu^{</em>}` in the rendered page.
+
+**The rule was probed against kramdown directly rather than modelled**, which is A362's lesson about
+this exact defect. Two bare asterisks in one paragraph of inline mathematics pair. One survives
+alone. `\*` is inert because kramdown eats the escape. **Display blocks pass through untouched**,
+so a display equation carries a bare asterisk correctly and only inline spans need escaping.
+
+**`astrisk.py` is new and predicts it from source. `mathcorpus.py` is new and MEASURES it in the
+rendered pages**, which is the only authority. Reading all 549 built pages finds **133 corrupted
+mathematical spans across 37 pages, 104 underscore-driven and 29 asterisk-driven**, consistent with
+the recorded 72 source-side pairs once the unit is matched since a pair corrupts two spans.
+**A363 itself carries none.**
+
+### Three Instruments Failed And Each Failure Was Instructive
+
+**A token count found three display blocks with prose on the same line.** Dollar pairs came to 164
+against 79 counted blocks, which cannot both be true. **A display block with text after its closing
+delimiter is a paragraph and not a block.** A375 lost four equations to the same class.
+
+**`mathrot.py` reported a mismatch on a page that was correct.** A LaTeX line break with optional
+row spacing, `\\[4pt]`, contains the display opener the counter looked for, so the piecewise
+atmosphere definition produced two more openers than closers. **The counter now requires that a
+delimiter not be preceded by another backslash.** The equation pass hit this the moment it used a
+`cases` environment, which the series had never done.
+
+**`neweqns.py` CHECKED THE ATMOSPHERE AGAINST A TABLE IT COULD NOT SOURCE, WHICH IS THE A362 DEFECT
+IN A NEW UNIT.** That article put five-thousand-FOOT values against a key in metres. This one typed
+tabulated values from memory, failed, and then added a geometric-to-geopotential conversion **in the
+wrong direction** to explain the mismatch it had itself caused, which made the high-altitude entries
+fail worse. **A check against numbers the author cannot source is not a check.** What replaced it is
+the two defining temperatures, the agreement of the two pressure branches at the tropopause, the
+barometric exponent against its definition, and **the hydrostatic equation by central difference at
+six hundred random altitudes**, which tests the model against the physics rather than against a
+printout.
+
+**A fourth failure was smaller and worth one line.** The presence checks for the new display
+relations were written as regular expressions, and `\Phi` is a bad escape, so the check crashed
+rather than running. **A presence test for a literal string has no business being a pattern.**
+
+### Seven Symbol Collisions Were Resolved Before They Shipped
+
+The new relations introduced seven base letters that would have carried two meanings each. The
+established meaning kept its letter and the newer arrival was renamed. **Cap separation yielded `h`
+to geopotential altitude. The flat plate area took script F because `f(u)` is the moment shape
+function. Fuel volume took script V because `V` is airspeed. The record set took script R because
+`R` is range. The budget projection took script P because `P` is the prop force. Block fuel per seat
+took beta because `b` is span. The milestone payment took mu because `m_f` is the fuel mass.**
+`symcheck.py` then needed the trigonometric functions and the layout directives added to its
+structural set, since neither had appeared in this series before.
+
+### Instruments Added This Pass
+
+`calc2.py` the new quantities, `exact.py` the exact Breguet derivation with its limits, `neweqns.py`
+94 independent checks, `astrisk.py` the asterisk prediction, `mathcorpus.py` the rendered corpus
+measurement, `count.py` the structure count. `mathrot.py` and `symcheck.py` repaired.
+
 
 ## A363, X-Planes: Boeing X-66, Drafting Pass
 
