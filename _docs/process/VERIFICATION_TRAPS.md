@@ -10,6 +10,10 @@ shipped. This file applies it to the working method rather than to the corpus.
 belief was reasonable, the work looked finished, and only an independent observation exposed it. The
 lesson is not to be more careful. It is to run the observation.
 
+**A different failure has its own file.** Where an entry here ships a wrong claim, a durability
+failure ships nothing at all, because the work existed only in a turn that did not complete. See
+[Work Durability](./WORK_DURABILITY.md).
+
 ---
 
 ## The working directory is sticky and a later edit will land in the wrong tree
