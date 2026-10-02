@@ -11,27 +11,28 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `c49856f`
-- **Written**: 2026-10-01, by the A376 line and then extended by the X-Planes line,
-  which is the third writer on this file in one day. **The stamp was `33fd7fe` when the
-  A376 line wrote the sections above and is now `c49856f`, which is that line's own handoff
-  commit**, because this file's rule is that its commit becomes the tip and the state it
-  describes is whatever HEAD was before it. **Everything above the A364 resume section was
-  written by the A376 line and was not altered**, apart from this stamp and the re-measured
-  corrupted-mathematics decision, which is line one's own item.
-- **Tree at write**: **CLEAN of tracked changes.** `git status --porcelain` returns one untracked
-  file, `sa.html`, which belongs to neither line and was not created by either. `git log
-  origin/master..HEAD` returns nothing, so every commit below is on the remote. After this handoff
-  is committed there will be exactly one unpushed commit and it will be this one.
-- **BOTH LINES ARE AT AN ARTICLE BOUNDARY AND NEITHER IS MID-RHYTHM.**
-- **Line one, X-Planes, is not mine.** A297 through A363 have all four passes complete and are
-  pushed. **Sixty-seven of seventy-two drafted and 67 `x_planes` drafts are on disk, which agrees.**
-  Five remain. Nothing in the series is published and publication has never been authorised. **Its
-  next prompt is A364.**
-- **Line two, A376, is mine and all four passes are complete, pushed, and NOT published.** It is
-  the third of a three-article series with A374 and A375, both of which are published.
-- **A376 AWAITS A PUBLICATION DECISION AND THAT IS THE ONE OPEN ITEM ON THIS LINE.** Its section
-  below records the interlock, which was verified, and the one outward-facing consequence.
+- **Parent commit** (the repository state this handoff describes): `91cf7c9`
+- **Written**: 2026-10-02, by the X-Planes line, which is the only line still running.
+- **Tree at write**: **NOT clean, and the unclean part is not this line's.** `git status --porcelain`
+  returns eight modified drafts and one untracked file. **The eight drafts have been re-dated from
+  2026-08-14 through 21 to 2126**, a century forward with day and time preserved, and they are the
+  android, Claude Code, Phoenix and Solana drafts. **They are uncommitted, they are not this line's
+  work, and three A364 commits were made around them without touching them.** `sa.html` is untracked
+  and belongs to neither line.
+- **Nothing was unpushed at write.** `origin/master` and `HEAD` were both at `91cf7c9`, so after this
+  file is committed there will be exactly one unpushed commit and it will be this one.
+- **LINE TWO IS FINISHED AND PUBLISHED. THERE IS ONE LINE NOW.** A376 was published on 2026-10-02 as
+  commit `4d4938e`, completing the `war_with_china` series at three articles. **Its resume section
+  below has been retitled and corrected rather than deleted**, because its apparatus notes and its
+  method rules still apply to the corpus.
+- **Line one, X-Planes, is mine and is at an article boundary.** A297 through A364 have all four
+  passes complete and are pushed. **Sixty-eight of seventy-two drafted and 68 `x_planes` drafts are
+  on disk, which agrees.** Four remain. **Nothing in the series is published and publication has
+  never been authorised.** Its next prompt is A365.
+- **THE CORPUS BASELINE IS NOW 0 ERRORS AND 0 WARNINGS ACROSS 304 POSTS.** The two `progress-stale`
+  warnings that were the steady state for weeks **resolved themselves when A376 published**, because
+  the check could not represent two concurrent series and there is now only one. **Do not expect two
+  warnings any more. Two warnings now means something is wrong.**
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that
 day and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -47,6 +48,35 @@ the state described.
   `_drafts/draft_summary.md`, and the git log, which are always authoritative, and wait for
   instruction. **This file has two writers and a mismatch is the expected state whenever the other
   line commits.**
+
+**THREE HARD-WON WARNINGS WERE LOST FROM THIS FILE WHEN IT WAS REWRITTEN AND ARE RESTORED HERE.** Each
+describes a failure that actually happened. **A handoff that drops its own operational warnings is the
+failure it was warning about**, and the loss was found by grepping this file for them rather than by
+anyone noticing.
+
+**THE STAMP ON THIS FILE HAS BEEN WRONG ONCE AND THE ERROR IS WORTH NAMING AGAIN.** It was once written
+as `HEAD~1` at the moment the Validity block was drafted. **But this file's own rule is that its commit
+becomes the branch tip**, so the state it describes is whatever HEAD was BEFORE that commit. **The
+quantity to record is the current HEAD at write time, not the current `HEAD~1`.** A self-check that runs
+before the commit and compares against `HEAD~1` as it then stands will agree with the wrong value. **A
+check that runs at the wrong moment confirms the wrong thing.** Run it twice, once before the commit
+against `HEAD` and once after against `HEAD~1`.
+
+**AND `REVERSE_PROMPT.md` IS APPEND-AT-TOP, NOT A SINGLE SLOT.** Its header describes a file overwritten
+after each completed task and its practice is to accumulate, newest first, with every prior section
+preserved including the other line's. **A362's drafting pass read the header, wrote 150 lines over 1,305,
+and destroyed the A375 line's section along with every prior report from both lines.** It was repaired
+from `git show HEAD`. **A file whose header says it is overwritten and which in practice accumulates
+will be truncated by whoever believes the header.** **`_lib/progress.py` believed it too**, which is why
+`_verify.py` now narrows that channel to its newest report before checking a drafted count.
+
+**AND A SPAN EDIT BOUNDED BY A LATER SECTION'S TEXT HAS DESTROYED SECTIONS THREE TIMES NOW.** A362's
+TASKLOG edit deleted three. **And an attempt at writing THIS file replaced a span and then looked for a
+heading that the same span had just removed**, failing partway through, after which the file was restored
+with `git checkout`. **Compute every boundary on the original string, assemble the result in one pass,
+and compare the full heading list before and after.** That is cheap and it is the only thing that catches
+it. **This revision was written that way and its heading comparison is in the commit message.**
+
 
 ## THE OTHER LINE COMMITTED THIS LINE'S STAGED WORK INTO ITS OWN COMMIT
 
@@ -68,35 +98,37 @@ commit is being composed, the window between `git add` and `git commit` is a win
 another writer can take the index. Keep it short, and after committing, verify with
 `git show --stat HEAD` that the commit contains what was intended and nothing else.
 
-## Resume prompt for line two, A376, which is finished and awaiting a publication decision
+## Line two, the war-with-China series, is FINISHED AND PUBLISHED
 
-**DO NOT PUBLISH WITHOUT THE PILOT SAYING SO.** The pilot's last instruction on this line was
-explicit, that the draft be committed and pushed but not yet published. That has been done.
+**THIS SECTION'S HEADING AND OPENING WERE CORRECTED BY LINE ONE ON 2026-10-02 AND NOTHING ELSE IN IT WAS
+ALTERED.** It previously read as a resume prompt for an article awaiting a publication decision. **That
+decision was taken.** A376 published on 2026-10-02 as commit `4d4938e`, so the heading was false and a
+resuming agent reading it would have been told to wait for something that had already happened.
 
-**A376, Whether a War With China Would Change the Global Balance of Power.** Editorial date
-**2026-08-13**, categories `geopolitics military war-gaming`, series `war_with_china` index 3.
-Final state **4,442 lines, 89 display equations, 202 reference definitions at 25.0 percent primary,
-about 23,100 words of author prose, 17 H2 and 82 H3 sections, 124 block quotations**. All four
-passes complete in four commits, though the fourth is inside `33fd7fe` for the reason above.
+**A376, Whether a War With China Would Change the Global Balance of Power**, editorial date
+**2026-08-13**, categories `geopolitics military war-gaming`, series `war_with_china` index 3, is
+**PUBLISHED** at `_posts/2026-08-13-balance_of_power_after_war_with_china.markdown`. **The series is
+complete at three articles and the corpus is 304 posts.** A374 and A375 now read Part 1 of 3 and Part 2
+of 3, which was the one outward-facing consequence its own author recorded in advance.
 
-**THE PUBLICATION INTERLOCK WAS VERIFIED AND IS RECORDED SO IT IS NOT RE-DERIVED.** The date slot
-2026-08-13 is free of other posts and the only draft holding it is A376 itself. Both `post_url`
-targets, `2026-08-11-published_wargames_of_war_with_china` and
-`2026-08-12-rebuilding_after_war_with_china`, are already published and resolve. Nothing
-forward-references A376. `./_check.sh` passes with the draft in a scratch build.
+**Everything below in this section is line two's own writing and is kept because it still applies.** Its
+final state was **4,442 lines, 89 display equations, 202 reference definitions at 25.0 percent primary,
+about 23,100 words of author prose, 17 H2 and 82 H3 sections, 124 block quotations**.
 
-**PUBLISHING RENUMBERS TWO LIVE PAGES.** A374 and A375 carry `series: war_with_china` at indices 1
-and 2 and currently read Part 1 of 2 and Part 2 of 2. Publishing A376 makes them of 3. That is the
-only outward-facing change beyond the new page, and **no URL moves**, because the series lines were
-added without touching categories or dates, so no `redirects/` entry is owed.
-
-**What the article argues, in case a later pass needs it.** On the standard capability index China
-passed the United States in 1995 and stood at 1.89 times it in 2022. Applying the historical median
-for large wars, an American victory produces approximate parity rather than restored primacy, and a
-defeated China stays above where the United States is today. Belligerent concentration predicts
-belligerent fortune at minus 0.225 across seventy-six wars, the prospective case sits at the
+**What the article argues, in its author's words, in case a later pass needs it.** On the standard
+capability index China passed the United States in 1995 and stood at 1.89 times it in 2022. Applying the
+historical median for large wars, an American victory produces approximate parity rather than restored
+primacy, and a defeated China stays above where the United States is today. Belligerent concentration
+predicts belligerent fortune at minus 0.225 across seventy-six wars, the prospective case sits at the
 ninety-sixth percentile of concentration, and ten of the twelve wars in its band ended with the
 belligerents smaller.
+
+**THE EIGHT RE-DATED DRAFTS IN THE WORKING TREE ARE PROBABLY THIS LINE'S AFTERMATH AND ARE NOT
+EXPLAINED ANYWHERE.** A375's publication record notes that `android_development_on_freebsd.markdown`
+collided with the 2026-08-12 slot and would have to be re-dated before it published. **Eight drafts have
+since been moved from 2026-08-14 through 21 to 2126 and left uncommitted.** Line one did not do it, has
+not touched them, and records the fact rather than guessing at the intent. **A resuming agent should ask
+the pilot before committing or reverting them.**
 
 ### The A376 verification apparatus lives in a gitignored path and will not survive a clean checkout
 
@@ -174,172 +206,162 @@ subsections and four blocks filed under an unrelated heading. One duplicate said
 appeared "earlier" when it appeared forty-six lines later. **After any pass that inserts sections,
 dump the heading list and read it**, and check for repeated headings programmatically.
 
-## Where Both Lines Stand
+## Where the Series Stands
 
-**Line one, X-Planes.** Sixty-seven of seventy-two drafted, A297 through A363, indices 1 through 67
-contiguous. **Five remain**, ending at editorial date 2025-12-16. Nothing in the series is
-published and publication has never been authorised. **A363, the Boeing X-66, has all four passes
-complete and is pushed**, at 10,795 lines, 59,564 words, 83 display equations and 4,537 reference
-definitions with 1,256 report primaries at 28.3 percent. **Its findings are recorded by its own
-author in `REVERSE_PROMPT.md` and are not restated here**, because this line did not write them and
-should not paraphrase them. **The next article is A364**, editorial date 2025-12-12, series index
-68, the X-67 slot taken by the XQ-67A, which the register treats as a designation anomaly under the
-reduced order.
+**Sixty-eight of seventy-two drafted, A297 through A364, indices 1 through 68 contiguous. Four remain**,
+ending at editorial date 2025-12-16. **Nothing in the series is published and publication has never been
+authorised.**
 
-**THE REMAINING FIVE ARE A364 THROUGH A368**, editorial dates 2025-12-12 to 2025-12-16, series
-indices 68 to 72. From the register those are the XQ-67A anomaly, the X-68A to General Atomics for
-Longshot, the leapfrogged X-69 to X-75 block, the X-76A to Bell Textron for SPRINT, and the closing
-synthesis. **Three of the five are anomaly or synthesis articles and the genre document's reduced
-order governs them.**
+**A362, Aurora Flight Sciences X-65 CRANE**, editorial date 2025-12-10, index 66. Four passes, pushed.
+8,777 lines, 46 display equations, 3,804 reference definitions, 39.5 percent primaries. Keystone: **the
+momentum coefficient a bleed-fed effector can deliver is exactly independent of altitude.**
 
-**Line two, the war-with-China series, is complete at three articles.** **A374, What Published
-Wargames Say About a War With China**, editorial date 2026-08-11, PUBLISHED. **A375, What
-Rebuilding Would Take After a War With China**, editorial date 2026-08-12, PUBLISHED. **A376,
-Whether a War With China Would Change the Global Balance of Power**, editorial date 2026-08-13,
-**four passes complete, pushed, NOT published**. All three carry `series: war_with_china` at
-indices 1, 2 and 3. The corpus is **303 posts**.
+**A363, Boeing X-66**, editorial date 2025-12-11, index 67. Four passes, pushed. 10,795 lines, 59,564
+words, 83 display equations, 4,537 reference definitions, 28.3 percent primaries. Keystone: **the span of
+a transport wing comes from an airport**, the wing folding at exactly the Federal Aviation
+Administration's Airplane Design Group III bound.
+
+**A364, X-67, the Slot Taken by XQ-67A**, editorial date 2025-12-12, index 68. **Four passes in four
+commits, pushed**, `a9ecee9`, `8805696`, `fd6362e` and `91cf7c9`. **5,214 lines, 36,167 words, 68 display
+equations, 185 inline expressions, an 85-entry symbol table and 1,315 reference definitions**, in 9 H2
+and 54 H3 sections with 20 tables, citing 1,228 research records across 15 clusters from a pool of
+14,384, with 159 report primaries at 12.1 percent, median year 2011 and a range from 1900 to 2026.
+
+**WHAT A364 FOUND, IN ONE PARAGRAPH, BECAUSE A POINTER IS NOT A SUMMARY.** The whole public case for the
+X-67 having been skipped is one sentence and four fifths of it is a comparison with another number, the
+compiler writing that **just like the X-58** the slot was skipped after the allocation of the XQ-67A,
+where the X-58's entry one paragraph above carries reasoning, a confidence grading and the claim that the
+slot is empty. **So the article supplied the evidence the register asserts without.** A borrowed number
+should equal its source series' next number at the moment of the borrowing and no other series', and
+across six out-of-sequence unmanned numbers tested against twenty basic missions **the test fires twice
+and names the research series both times**, against a null tail of 0.03159. **The instruction then makes
+the question of who skipped it malformed**, defining the next designator from the last approved design
+number and refusing requests in reverse or skipped sequences, so **nobody had to decide to skip the X-67
+and somebody had to ask for the X-68**, 763 days later. **Four editions of the rule were read and the
+change falls between 2005 and 2020**, being two changes, the quantity and the duty, which makes the X-67
+**the first number in the research series to be skipped under a rule that makes skipping permanent**
+while the X-49A of 2003 filled a gap the X-50A had passed and the X-58's slot stayed recoverable for two
+years while nobody wanted it. **The founding document of 18 September 1962 was read in full as page
+images** and defines the design number as **the sequence number of each new design**, gives **three
+worked examples of what forces a new one**, all the airframe's shape or propulsion and none mission
+equipment, defines both of this designation's letters on facing pages, shows the Q was then a modified
+mission symbol so the designation could not have been written in 1962, and states that **the requester
+named the mission while the agency chose the number**. **The aeroplane that consumed the number was built
+to deny the premise the number rests on**, the Off-Board Sensing Station existing to prove a shared genus
+carrying replaceable species, and **a genus holds the 1962 test's three examples constant and swaps
+exactly what that test ignores**. The register shows the same from both sides, six pairs of design
+numbers carrying identical official descriptions with the contractor the only differing field in five,
+while 27 design numbers survive a change of leading firm. **And the research series is the best-behaved
+sequence in the register at 72.7 percent of pointer advances equal to one against 50.4 register-wide**,
+so the X-67 was lost from the one numbering sequence that mostly does follow the rule.
+
+**THE FOUR THAT REMAIN ARE A365 THROUGH A368**, editorial dates 2025-12-13 to 2025-12-16, series indices
+69 to 72. The X-68A to General Atomics for Longshot, the leapfrogged X-69 to X-75 block, the X-76A to
+Bell Textron for SPRINT, and the closing synthesis. **Two of the four are anomaly or synthesis articles
+and the genre document's reduced order governs them.**
 
 **Next available article number: A377.**
 
-## Open Items, Both Lines
+## Open Items
 
-**A376 awaits a publication decision.** Interlock verified, consequences recorded above.
+**ONE PILOT ITEM REMAINS AND IT IS OLDER THAN A364.** Corrupted mathematics in published posts,
+re-measured by A363 in the rendered pages as **133 spans across 37 pages, 104 underscore-driven and 29
+asterisk-driven**, against a previously recorded figure of 72 source-side pairs. **It edits published
+pages and it is the pilot's call.** The detail is under `Open Decisions` below.
 
-**The `progress-stale` check cannot represent two concurrent series and fires on every run.** It
-compares one stated drafted count against every series slug present among the drafts, so a second
-line warns by construction. **CI runs `_verify.py` without `--strict`, so the deploy is
-unaffected.** Two warnings are the expected steady state while both lines have drafts on disk. A
-fix would be to compare a stated count only against a series the channel names, which touches
-shared tooling and was left to the pilot.
+**THE REGISTER OFFICIALITY CORRECTION IS NOW ANSWERED ON THE FACTS AND STILL OPEN ON THE REPAIR.** A364
+recomputed the research series' split as **21 fully official, 7 official allocations whose description is
+the compiler's, 2 rows absent from officially released data altogether, and 1 partly**. **That agrees
+with the recorded twenty-one, nine and one, provided wholly unofficial merges two different claims**,
+which for A364's purposes it must not. **So the recorded figure was right and the category is too
+coarse.** A358 and A359 still disagree with each other and neither has been edited. **The repair is the
+pilot's decision and it has now survived six articles.**
 
-**The commit attribution for A376's publication review is wrong and was deliberately not
-repaired.** See the second section of this file.
+**THE `progress-stale` ITEM IS RESOLVED AND THE RESOLUTION WAS NOT A FIX.** It fired twice for weeks
+because `_lib/progress.py` cannot represent two concurrent series. **A376 published, the second series
+left the drafts directory, and the warnings went away by themselves.** A related defect WAS fixed in
+A364's drafting pass, namely that `_verify.py` passed `REVERSE_PROMPT.md` whole while narrowing
+`TASKLOG.md` to its Current Task block, so the first pass to add a second report stating a drafted count
+produced a `progress-contradiction` against a file that is append-at-top by design.
+**`progress.newest_report` now narrows such a channel and there is one new test.**
 
-**`sa.html` is untracked at the repository root and belongs to neither line.** It has been left
-alone through several commits by both writers.
+**THE COMMIT ATTRIBUTION FOR A376's PUBLICATION REVIEW IS WRONG AND WAS DELIBERATELY NOT REPAIRED.** See
+the second section of this file. **The history is pushed and rewriting it is a pilot decision.**
 
-**Line one carries two older open decisions and they are further down this file under `Open
-Decisions`**, being the register officiality correction that has now survived four articles, and
-seventy-two corrupted mathematical expressions in published posts. **Both edit published pages and
-both are the pilot's call.** They are line one's and this line has not touched them.
+**`sa.html` IS UNTRACKED AT THE REPOSITORY ROOT AND BELONGS TO NEITHER LINE.** It is a 4,428-byte
+bot-challenge page titled *Session Verification*, referenced by nothing, and it has now been left alone
+through eight commits by two writers. **The deploy builds from the committed tree, so the risk to the
+live site is zero. Mention it once and leave it.**
 
-## Resume prompt for line one, X-Planes, and the next prompt is A364
+**AND EIGHT DRAFTS ARE RE-DATED TO 2126 AND UNCOMMITTED.** See the line two section above. **Ask before
+committing or reverting them.**
 
-**THIS SECTION WAS ADDED BY LINE ONE AFTER THE REST OF THIS FILE WAS WRITTEN.** The A376 line wrote
-everything above and correctly declined to paraphrase line one's findings, pointing instead at
-`REVERSE_PROMPT.md`. **This section supplies the imperative direction for line one that a pointer
-cannot**, and nothing above it was altered.
+## Resume prompt for the X-Planes line, and the next prompt is A365
 
-**A363 IS COMPLETE AND PUSHED AND THE LINE IS AT AN ARTICLE BOUNDARY. Wait for the pilot's prompt and
-do not start A364 unprompted.**
+**A364 IS COMPLETE AND PUSHED AND THE LINE IS AT AN ARTICLE BOUNDARY. Wait for the pilot's prompt and do
+not start A365 unprompted.**
 
-**The next article is A364, *X-Planes: X-67, the Slot Taken by XQ-67A*.** Editorial date
-**2025-12-12**, series index **68**.
+**The next article is A365, *X-Planes: General Atomics X-68A LongShot*.** Editorial date **2025-12-13**,
+series index **69**.
 
-**A364 IS A DESIGNATION ANOMALY AND THE GENRE DOCUMENT'S REDUCED ORDER GOVERNS IT.** There is **no
-X-67 row in the register at all**, which A363 confirmed directly from the saved addendum at
-`tmp/a359/addendum.html` while extracting the X-66A row. The rows run X-65A, X-66A, X-68A with
-nothing between them. The roster records the slot as *Number Skipped, slot assigned to General
-Atomics XQ-67A*. **So the subject is the number and not an aeroplane**, there is no keystone to
-identify and no system to dimension, and the order is six items rather than twelve.
+**THIS IS A FULL-AIRCRAFT ARTICLE AND THE TWELVE-SECTION ORDER GOVERNS IT**, unlike A364. The register's
+row reads **20-Aug-25, X-68A, General Atomics, 1 Williams WJ38-15, DARPA, `Longshot`, an experimental
+air-launched unmanned combat air vehicle for air-to-air engagements**, and that description is **partly
+unofficial**, the popular name being official wording and the sentence after it the compiler's. **It is
+the only research row in the register with a span-level mark rather than a cell-level one**, which A364
+measured and which is worth a sentence in A365.
 
-1. Opening prose naming the designation and the anomaly.
-2. What happened, with dates and the deciding authority where the record gives them.
-3. Why, if the record says.
-4. What the anomaly reveals about the designation system.
-5. `## Epistemic State`.
-6. `## References`.
+**FOUR THINGS A364 ESTABLISHED THAT A365 INHERITS DIRECTLY.**
 
-**DO NOT PAD IT INTO A FULL-AIRCRAFT ARTICLE.** The genre document is explicit that an anomaly
-article is complete at the length its record supports, and that padding it with an Out of Scope
-section it does not need is worse than leaving it short. **A320 established the boundary**, which is
-that a vehicle that existed and produced data gets the full order however disputed its designation,
-and a slot where no vehicle was ever built gets the reduced one. **No X-67 vehicle was ever built, so
-the reduced order applies.**
+- **THE X-68A IS THE ALLOCATION THAT CLOSED THE X-67.** A364's whole irreversibility argument turns on
+  the X-68A having been approved on 2025-08-20 when both computable readings of the instruction gave 67.
+  **A365 is the other side of that event and should say so rather than re-deriving it.** The three
+  readings of why the government issued 68 are in A364 and A365 need not relitigate them.
+- **THE SAME FIRM IS ON BOTH SIDES OF THE GAP.** General Atomics holds the XQ-67A that took the number
+  and the X-68A that closed it, and it holds sixteen register rows, eleven unmanned, four
+  unmanned-control and this one research row. **A364 recorded the coincidence and claimed no intent.**
+- **DARPA IS THE SPONSOR AND THE AGENCY HOLDS FIVE RESEARCH ROWS, NOT THREE.** Counted from the
+  register they are the X-50A, X-61A, X-65A, X-68A and X-76A, and **four of those five are in the last
+  eight research allocations.** A first draft of this section said three and the count was wrong; **the
+  closing article should take the measured five.**
+- **THE WILLIAMS ENGINE FAMILY RECURS ACROSS THREE CONSECUTIVE SUBJECTS OF THIS SERIES.** The X-65A
+  carries an FJ44-3A, the XQ-67A an FJ44-4A and the X-68A a WJ38-15, so A362, A364 and A365 share an
+  engine maker. **Register-wide, thirteen rows carry a Williams engine and four of them are research
+  rows**, the others being the X-48A and the X-50A. That is a measurable fact about the demonstrator
+  economy and belongs in the closer if not here.
 
-**THE STANDING DIRECTIVE DOES NOT OVERRIDE THAT.** No length limit and no reference limit are
-permissions and not instructions, and the genre document forbids padding in the same breath that the
-directive permits length. **An anomaly article satisfies the survey directive by surveying what
-exists**, which for a skipped designation is the designation system itself rather than a technology.
+**AND ONE WARNING SPECIFIC TO THIS SUBJECT.** LongShot is an air-launched vehicle carrying air-to-air
+missiles, so **the keystone is probably the staging arithmetic rather than the airframe**, being what a
+launch aircraft buys by releasing a powered carrier rather than a missile. **Expect the public record to
+be thin and classified in places**, and expect the budget documents and the award record to carry more
+than the press items, as they did for A364.
 
-**Three things A364 will need that A363 established.**
+### What A364 Established That A365 Inherits as Practice
 
-- **The XQ-67A is a real General Atomics aircraft that flew**, so the article must separate the X-67
-  slot from the XQ-67A airframe and resist writing about the latter. **That is the same
-  modification-boundary discipline A363 needed for the MD-90**, and A363's framing-breakdown section
-  names treating the demonstrator as the subject as the central available error.
-- **The register's officiality markup matters here more than usual.** From the X-61A onward the
-  compiler marks descriptions as not official Department of Defense wording, which is A358's finding,
-  and an article about what the register does and does not record has to say which kind of entry it
-  is reading. **The unresolved officiality correction under `Open Decisions` is directly relevant and
-  A364 is the natural place to resolve it if the pilot authorises that.**
-- **Expect the sweep to buy very little and report that rather than hiding it.** A363 aimed fourteen
-  questions at the one cluster carrying its own keystone, **nine returned nothing at all**, and the
-  cluster gained one record and zero report primaries, because airport design is a regulator's
-  subject rather than a research agency's. **A skipped designation has no research literature by
-  construction**, so the honest article is short and says why.
-
-### What A363 Established That A364 Inherits
-
-- **THE AIMED THIRD SWEEP IS NOW THE PRACTICE AND ITS AIM IS A MEASUREMENT.** Run
-  `tmp/a363/before_after.py` first, read the per-cluster primary share, take the thinnest substantive
-  clusters as targets, and **write the questions in the report literature's own vocabulary rather
-  than the subject's**. A363's aspect-ratio cluster went from 11.9 to 23.4 percent and from 64
-  primaries to 167 on that basis, and the lifting-line vocabulary reached a 1921 NACA report on the
-  minimum induced drag of aerofoils and a 1935 analysis of a strut with a single elastic support in
-  the span.
-- **AND MEASURE WHAT THE TARGETED SWEEP BOUGHT, BECAUSE IT MAY BUY NOTHING.** Run the same file again
-  afterwards and report the before-and-after table in the article. A363's honest negative result is
-  in the article because the measurement existed to put there.
-- **READ THE REGULATOR'S OWN DOCUMENT, NOT A REPRODUCTION OF ITS TABLE.** A363 cited a NASA
-  memorandum's reproduction of an FAA table for two passes. Reading the circular itself showed that
-  its front matter declares **the customary units govern and the metric values are soft rounded
-  conversions**, which settled the unit question the whole keystone turned on.
-- **READ THE PAPER YOU SAID YOU HAD NOT READ.** A363's drafting pass pointed a reader at a 2025
-  comparison and recorded that it knew it only from a registry entry. **The primary-reference pass
-  found it on the reports server, read it, and it quartered the article's headline figure** while
-  independently corroborating the keystone. **A named-but-unread document is a task, not a caveat.**
-- **A363's PRIMARY FRACTION OF 28.3 PERCENT IS NOT A STANDARD EITHER.** A360 reported 30.6, A361 45.0
-  and A362 39.5. **Report the period count beside the fraction**, which the genre document requires,
-  and note when both move the same way, as they did here from 1,035 primaries at 26.1 percent to
-  1,256 at 28.3.
-- **`tmp/a363/` CARRIES THE INSTRUMENT SET AND IT IS GITIGNORED, SO LIFT WHAT YOU WANT BEFORE IT
-  GOES.** The per-file list is under `Verification Toolchain` below.
-
-### Where A363's Numbers Landed, So They Are Not Re-derived
-
-**10,795 lines, 59,564 words, 83 display equations, 188 inline expressions, an 84-entry symbol table,
-4,537 reference definitions, 21 H2 and 60 H3 sections and 24 tables**, with **4,436 research records
-across 17 clusters and 1,256 report primaries at 28.3 percent**, period count 1,790 at 42.6 percent,
-median year 2012, range 1921 to 2026, from a pool of 18,863 distinct records across three sweeps.
-**`verify_numbers.py` 158 checks and `neweqns.py` 94 checks, both passing.** Four commits for four
-passes, `9629490`, `25d96a4`, `1dd90d0` and `33fd7fe`.
-
-**WHAT A363 FOUND, IN ONE PARAGRAPH, BECAUSE A POINTER IS NOT A SUMMARY.** Its keystone is that **the
-span of a transport wing comes from an airport**. The wing folds at 118 feet and **118 feet is
-exactly where the Federal Aviation Administration's Airplane Design Group III ends**, against an
-exclusive bound, and the circular declares its own metric rendering of 36 metre a soft rounded
-conversion that does not govern. **The fold is worth 35.96 percent in lift-to-drag ratio and
-everything the aerodynamic optimum has left beyond the chosen span is worth 0.9481 percent in fuel**,
-so the mechanism is worth more than the optimum, and **the folded aspect ratio of 9.43 is essentially
-that of the fleet this aeroplane was meant to replace**. The optimality condition turned out to be
-**two** conditions, because an optimum aspect ratio is a property of an aeroplane plus a statement of
-what is held fixed. At fixed wing area and cruise condition the stationary point is where the
-logarithmic derivative of weight with respect to aspect ratio equals **exactly one half,
-independently of every other parameter in the problem**. At fixed cruise lift coefficient it equals
-the induced-drag fraction, and the curvature there has an exact closed form, which is why a design
-can sit far below its optimum and pay under one percent. **Carrying the Breguet exponential rather
-than linearising it generalises both conditions by one factor** and makes the optimum flatter still.
-**A geometrically similar truss leaves the three-halves exponent exactly where a cantilever leaves it
-and buys a coefficient instead.** **Four independent routes agree that the aspect ratio is below its
-optimum**, and the fourth is the fair comparison the Phase IV report's own recommendation list asked
-for, which **gives 1.65 percent at the economic mission against Boeing's 7.2** and names a limit on
-the keystone, since a short sector spends the aerodynamic advantage on climb. **The signed Funded
-Space Act Agreement lists twenty-seven milestones summing to exactly 425 million dollar of which
-98.824 percent is paid before first flight, and the word pause appears in it zero times**, while the
-federal award record holds one contract under the project's name for forty-one thousand dollars of
-desk models.
-
+- **READ THE DOCUMENTS A SENTENCE YOU ALREADY QUOTE HAS NAMED.** A364's largest yield came from the 2020
+  instruction naming three documents of 18 September 1962 that the article quoted and had not read.
+  **They were image-only scans and were read page by page as images**, because a text extraction
+  returning nineteen bytes is not a reading. **The founding definitions it carries changed four of the
+  article's claims.**
+- **AND A WEB ARCHIVE IS A LEGITIMATE ROUTE TO A DOCUMENT A PORTAL REFUSES.** The Department's issuance
+  portal returns HTTP 403 for DoD 4120.15-L to every client. **The document was read from a public
+  archive snapshot and the definition says so**, which is honest and is better than recording it unread.
+- **THE AIMED SWEEP IS AIMED AT A MEASUREMENT AND MEASURED AFTERWARDS.** `before_after.py` first,
+  thinnest substantive clusters as targets, **questions written in the report literature's own vocabulary
+  rather than the subject's**, then the same file again. A364's commonality cluster went 1.8 to 6.3
+  percent and **its largest cluster went from zero report primaries to one**, which is the honest
+  negative and is in the article.
+- **A HAND-WRITTEN SOURCE MUST BE CITED IN THE BODY AND NOT ONLY DEFINED.** A364's publication review
+  found four that were defined, swept and never used, including the whole modularity theory its
+  commonality section rests on. **`verify_numbers.py` now asserts it.**
+- **AN ARTICLE WITH STATEMENTS DATED AFTER ITS DATELINE MUST SAY SO IN THE EPISTEMIC STATE.** A364 has
+  three, all of them measurements it made of itself. **The genre provides for this and the article has
+  to use the provision.**
+- **A364's REPORT-PRIMARY SHARE OF 12.1 PERCENT IS NOT A STANDARD.** A360 reported 30.6, A361 45.0, A362
+  39.5 and A363 28.3. **Report the period count beside the fraction** and expect a subject outside the
+  report literature to score low and say why.
+- **`tmp/a364/` CARRIES THE INSTRUMENT SET AND IT IS GITIGNORED, SO LIFT WHAT YOU WANT BEFORE IT GOES.**
+  The per-file list is under `Verification Toolchain` below.
 
 ## The Established Rhythm, Which Is the Most Important Thing Here
 
@@ -381,6 +403,104 @@ band.
 ---
 
 ## Method Rules Earned the Hard Way
+
+### Earned in A364, and the theme is that the document you already quote is the one you have not read
+
+**THE PASS THAT YIELDED MOST WAS THE ONE THAT FOLLOWED A CITATION BACKWARDS**, and three of the
+instrument failures below are the previous article's formatting surviving into this one's tools.
+
+- **READ THE DOCUMENTS A SENTENCE YOU ALREADY QUOTE HAS NAMED.** A364 quoted the instruction's sentence
+  that the designator format was established on 18 September 1962 by three named regulations, and had
+  read none of the three. **They are one document issued three times over, a public scan exists, and
+  reading it changed four of the article's claims.** It defines the design number as **the sequence
+  number of each new design**, gives three worked examples of what forces a new one where the modern
+  instruction gives none, and states that the agency chose the number while the requester named only the
+  mission. **A named document inside a quotation is a task, not a footnote.**
+- **AND AN IMAGE-ONLY SCAN IS READ AS IMAGES OR NOT AT ALL.** Text extraction from that scan returned
+  **nineteen bytes**. A pass that had trusted the extraction would have reported the document as empty or
+  cited it unread. **Check the extracted length against the file size before believing an extraction.**
+- **A WEB ARCHIVE IS A LEGITIMATE ROUTE TO A DOCUMENT A PORTAL REFUSES, AND THE DEFINITION SAYS SO.** The
+  Department's issuance portal returns HTTP 403 for its own list to every client tried. **The document
+  was read from a public archive snapshot**, and reading it showed that the 2018 change the article had
+  been told cancelled the public list **cancels nothing**; it reassigns an office. **The cancellation is
+  in the 2020 instruction the article was already quoting twice.**
+- **AN OPENING SENTENCE CAN BE REFUTED BY THE ARTICLE'S OWN TABLE TWO SECTIONS LATER.** A364's opening
+  claimed the X-67's register entry is the only one that reasons by analogy. **The compiler's notes
+  reason by analogy for the XRQ-73A and the YFQ-44A and the article's own table lists both.** This is the
+  series' most frequent defect and it was in the most visible position in the article. **Run the risky
+  and superlative scans and read every absolute against the paragraphs that follow it, not only the one
+  it sits in.**
+- **AND A SECOND ABSOLUTE WAS WRONG IN THE ARTICLE'S FAVOUR.** It said a search of the register for the
+  string X-67 finds the note and nothing else. **The string does not occur in the register at all.** The
+  corrected sentence is stronger. **Verify a negative by enumeration even when the weaker version
+  already supports the argument.**
+- **A CLAIM CAN BECOME TOO STRONG BECAUSE AN EARLIER PASS STRENGTHENED THE EVIDENCE.** The
+  lowest-never-allocated number was said to be uncomputable from the public record, and the primary pass
+  had just added two documents reaching back before the register. **Re-read the absolutes after any pass
+  that adds sources.**
+- **A HAND-WRITTEN SOURCE DEFINED AND NEVER CITED IN THE BODY IS A SOURCE THE ARTICLE DOES NOT USE.**
+  Four were found, including all three entries for the modularity theory the commonality section rests
+  on, whose title the source base already told a story about. **`verify_numbers.py` now asserts that no
+  hand-written source is body-uncited.**
+- **AN ARTICLE WHOSE OWN MEASUREMENTS POSTDATE ITS DATELINE MUST SAY SO IN THE EPISTEMIC STATE.** A364
+  carries three such statements and the genre provides for exactly that. **The provision has to be used,
+  not merely to exist.**
+- **A REMEMBERED IDENTIFIER IS WORSE THAN A PLACEHOLDER BECAUSE NO RULE ABOUT PLACEHOLDERS CATCHES IT.**
+  A digital object identifier was written into the reference file in the belief that it was correct and
+  **resolves to nothing**, while the real one was in the harvest throughout. **The address sweep's
+  registry fallback is what caught it**, by distinguishing an identifier whose publisher refuses a robot
+  from one that resolves to no record at all.
+- **AN INHERITED INSTRUMENT MODELS THE PREVIOUS ARTICLE'S FORMATTING, THREE TIMES IN ONE ARTICLE.** The
+  display-equation counter saw only one-line blocks and reported zero against twenty-six. The
+  publication-review style scan removed the `$$` delimiter lines and left the block body, reporting
+  **193 prose semicolons that were every `\;` in the article**. And the officiality parser read one of the
+  register's three markup levels and reported a confident wrong count **twice, at a different level each
+  time**. **Two instruments disagreeing about the same question means one of them is wrong.**
+- **A CHECKER THAT CANNOT SEE SCRIPT LETTERS CANNOT CHECK THEM.** `symcheck.py` treated `\mathcal` as
+  structural and stripped its contents, **so the five new script sets the equation pass added would have
+  been validated by nothing.** It now keeps the script form as a compound token and immediately found
+  four undeclared sets. **A blind spot is invisible precisely in the pass that would have used it.**
+- **A FROZEN OCCURRENCE COUNT MUST BE MEASURED ON WHITESPACE-NORMALISED TEXT.** The body is hard-wrapped,
+  so a phrase carrying a newline returned zero. **A count of zero for a phrase plainly in the article is
+  the instrument reading the line wrapping rather than the prose.**
+- **A TOLERANCE DERIVED FROM THE LAST PRINTED DIGIT MUST ADMIT TWO KINDS OF SLACK.** It failed on a
+  correctly rounded figure because the computed value carried floating-point noise eight parts in a
+  billion beyond the exact half. **A verifier that fails on its own display rounding is measuring the
+  wrong thing, and so is one that fails on the representation of the number it is rounding.**
+- **A LIMIT CHECK NEEDS AN ARGUMENT LARGE ENOUGH FOR ITS OWN EXPONENT.** Ten to the ninth left a sharing
+  slope at minus 0.9922 against a limit of minus one, because the exponent is 0.2345. **Ten to the
+  fortieth passes. Choose the argument from the exponent, not from how large the number looks.**
+- **A DUPLICATE KEY IN A DICT LITERAL IS A DEFECT EVEN WHEN THE SURVIVOR IS CORRECT.** Merging a second
+  sweep left `source` assigned twice in one literal. **It happened to be right and it was waiting for
+  somebody to reorder the lines.**
+- **AN INCREMENT AND A POINTER ADVANCE MEASURE DIFFERENT THINGS AND CONFLATING THEM DOUBLE-COUNTS.** An
+  allocation below the pointer makes its own increment negative and inflates the next one by the same
+  amount. **The advance of the running maximum separates skipping from out-of-order allocation**, and
+  only the second measure produced a gap list that matched this series' own articles exactly.
+- **AND A SERIES LETTER OF B OR LATER PROVES ITS DESIGN NUMBER PREDATES THE ROW.** Without that filter
+  the walk counted a B-model as a new design number and reported a step of minus four, **which is the
+  register's own edge misread as a government decision.**
+- **A PARENTHESIS INSIDE A PROPER NAME IS NOT A PARENTHETICAL.** The instruction is officially named
+  `AFI 16-401(I)` and cannot be cited without it. **An interruption is preceded by a space and a name
+  suffix is not**, which is narrower than excluding citation link texts wholesale and is what the check
+  now tests.
+- **THE REPORT LITERATURE'S VOCABULARY IS NOT THE PROGRAMME'S AND THE PROBE SAYS WHICH.** `commonality`
+  returns 421 records on the reports server and they are space station and habitat commonality. **The
+  first sweep asked in aeronautical words and missed all of them.** Asking in the server's words bought
+  49 report primaries. **And the largest cluster still went from zero primaries to one**, because
+  product family design is a management literature and no rephrasing moves it.
+- **COMPLETE COVERAGE CAN BE A PROPERTY OF THE PHRASING RATHER THAN OF THE REACH.** The first sweep
+  retrieved 745 of 745 and the article called that complete coverage. **The third retrieved 1,795 of
+  2,966 and walked out on two questions**, because those questions reach a literature large enough to
+  walk out of. **Say which.**
+- **AN OFF-BY-ONE THAT RUNS IN BOTH DIRECTIONS READS AS CORRECT IN EXACTLY ONE OF THEM.** The handoff's
+  own validity check parsed `git status --porcelain` for lines beginning `" M "` after a helper had
+  called `strip()` on the output, **so it discarded whichever path sorted first, always.** Run before
+  the commit the discarded path was this file's own and the draft count came out right by two errors
+  cancelling; run after, it discarded a real draft and reported one too few. **The claim under test was
+  true the whole time and the instrument failed it.** Parse with `git diff --name-only`, which has no
+  status columns to misalign, and count the population the claim is actually about rather than a
+  superset of it. This is why the protocol runs the check twice: a single run would have passed.
 
 ### Earned in A363, and the theme is that the instrument is wrong more often than the subject
 
@@ -3431,6 +3551,43 @@ FOUR ARTICLES.** After every equation pass, scan for lines that open with `$$` a
 
 ## Verification Toolchain
 
+### Added in A364, and the register is the instrument rather than the subject
+
+**IN `tmp/a364/`, WHICH IS GITIGNORED, SO LIFT WHAT YOU WANT BEFORE IT GOES.**
+
+| File | What it does that nothing else did |
+|---|---|
+| `register.py` | parses the allocation register into rows with officiality at **three markup levels**, a row mark, a cell mark and a span mark, which mean three different things |
+| `meas.py` | every count, share, ordering and gap the article states about the register, including the borrowing chronology and the identical-description measurement |
+| `calc.py` | the code space, the information bound, the commonality and refresh closed forms, and the empirical ceiling-match test |
+| `calc2.py` | the increment and pointer walks that test the instruction's own definition of a design number, plus every derivative, limit and inversion the equation pass added |
+| `eqscan.py` | lists every prose line carrying a figure with no display block nearby, after excluding dates, designations, contract numbers and status codes, **because none of those is a result** |
+| `getdocs.py`, `getdocs2.py`, `getdocs3.py` | the primary-document fetches, each recording whether bytes arrived, whether they are a document, and under which user agent |
+| `primhunt.py` | the named-document hunt, which checks a **proof phrase** inside the bytes so that a wrong document arriving at a right address is visible |
+| `harvest2.py` | the aimed third sweep, written in the report literature's vocabulary rather than the programme's |
+
+**AND THE REPAIRS TO INHERITED INSTRUMENTS MATTER AS MUCH AS THE NEW ONES.** `mathrot.py`'s source-side
+counter now counts three-line display blocks as well as one-line ones. `symcheck.py` keeps `\mathcal{X}`
+as a compound token instead of stripping it, and gained the operator and label tokens the equation pass
+introduced. `stylecheck.py` excludes inline code spans, narrows the parenthetical test to an actual
+interruption, and carries this article's acronyms rather than A363's. `pubreview.py` removes a display
+block as a block. `urlcheck.py` gained a **registry fallback**, which is what separates a publisher
+refusing a robot from an identifier that resolves to no record at all, and is what caught an invented
+identifier. `run_gate.py` merges two sweeps and normalises the source label once.
+
+**`verify_numbers.py` RUNS 373 CHECKS AND IMPORTS NEITHER `meas.py` NOR `calc.py` BY DESIGN**, and
+**parses the register again with a different parser**, because two parsers agreeing is evidence and one
+parser is a transcription. **The shapes that transfer**: re-derive rather than read; freeze occurrence
+counts on whitespace-normalised text rather than asserting presence; carry a floor on the display-equation
+count; assert withdrawn wordings absent **and** their replacements present; check a closed form against a
+quadrature, a central difference or a simulation rather than against itself; take a limit at an argument
+chosen from the exponent; assert that every partition is exhaustive and disjoint; and **assert that every
+hand-written source is cited in the body**.
+
+**THE STUB BUILD IS STILL THE BUILD TO RUN PER PASS.** `tmp/a364/site_build.sh` takes about fifteen
+seconds and matches the shipped bytes by checksum before it starts. **`./_check.sh --drafts` scales
+superlinearly in link-definition count and A360 lost five hours and forty-one minutes to it.**
+
 ### Added in A363, and three of them exist because an existing instrument was blind
 
 **IN `tmp/a363/`, WHICH IS GITIGNORED, SO LIFT WHAT YOU WANT BEFORE IT GOES.**
@@ -3924,17 +4081,34 @@ tests the helix-angle cancellation as a **randomised property**.
 
 ## Open Decisions
 
-### Still open, and now surviving four articles. The A358 and A359 officiality correction
+### Still open on the repair, ANSWERED on the facts by A364. The A358 and A359 officiality correction
 
-**THE REGISTER'S OFFICIALITY MARKUP HAS THREE STATES AND TWO PUBLISHED ARTICLES SUMMARISE IT IN TWO
-NUMBERS.** A358 gives the X-row split as 21 official and 9 not, which accounts for 30 of 31 rows
-because the partly marked row has nowhere to go. **A359 closed that sum by raising the official count
-to 22**, which places the partly marked row on the side its own markup denies. The correct three-way
-split, recomputed from the saved page and reproduced by an independent re-parse, is **21 official, 9
-wholly unofficial and 1 partly unofficial**, and A360 states it correctly.
+**THE REGISTER'S OFFICIALITY MARKUP HAS FOUR STATES AND TWO PUBLISHED ARTICLES SUMMARISE IT IN TWO
+NUMBERS.** A358 gives the X-row split as 21 official and 9 not, which accounts for 30 of 31 rows because
+the partly marked row has nowhere to go. **A359 closed that sum by raising the official count to 22**,
+which places the partly marked row on the side its own markup denies. The split recorded here has been
+**21 official, 9 wholly unofficial and 1 partly unofficial**, and A360 states it correctly.
 
-**NEITHER EARLIER ARTICLE HAS BEEN EDITED AND THE REPAIR IS THE PILOT'S DECISION.** It has now
-survived four articles unresolved. **A361 and A362 both left it alone.**
+**A364 RECOMPUTED IT FROM THE MARKUP AND THE RECORDED FIGURE IS RIGHT, WITH ONE QUALIFICATION THAT
+MATTERS.** The mark sits at three levels and they mean three different things. **A row-level mark says
+the allocation itself is absent from officially released data. A cell-level mark says the allocation is
+official and its stated purpose is the compiler's. A span-level mark says part of the description is
+official wording and part is not.** Measured that way the research series is **21 fully official, 7
+cell-marked, 2 row-marked and 1 span-marked**, which sums to 31 and reproduces the recorded twenty-one,
+nine and one **only if wholly unofficial merges the row-marked and the cell-marked**.
+
+**SO THE RECORDED NUMBER WAS CORRECT AND THE CATEGORY IS TOO COARSE FOR SOME USES.** A364's central
+comparison is between the XQ-58A, whose description is official Department wording, and the XQ-67A, whose
+description is cell-marked, **and merging cell with row would have destroyed that comparison.** A364 uses
+the four-state split throughout and says so.
+
+**AND A364'S OWN FIRST TWO ATTEMPTS AT THIS MEASUREMENT WERE BOTH WRONG, AT A DIFFERENT LEVEL EACH TIME.**
+The first regex captured a cell's inner HTML and discarded the `class` attribute, so every row read as
+official. The second read the cell and missed the mark on the `<tr>`. **A confident wrong count twice
+over, from a parser that could not see its own evidence.**
+
+**NEITHER EARLIER ARTICLE HAS BEEN EDITED AND THE REPAIR IS STILL THE PILOT'S DECISION.** It has now
+survived six articles. **A361, A362, A363 and A364 all left it alone.**
 
 ### New and needing a decision. Corrupted mathematics in published posts, RE-MEASURED
 
