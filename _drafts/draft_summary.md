@@ -563,6 +563,77 @@ and the Bloomberg model is not public. The article labels all three as such.
 **Publication was not requested and the article is not published.**
 
 
+## X-Planes Boeing X-66 A363 2025-12-11
+
+`x_planes_boeing_x66.markdown`, A363, editorial date 2025-12-11, series `x_planes` index 67,
+categories `aerospace history engineering`. **DRAFTING PASS COMPLETE, the first of four. Committed
+and NOT PUSHED**, which is the rhythm for passes one to three. **NOT PUBLISHED**, and publication of
+the series has never been authorised.
+
+**9,160 lines, 50,183 words, 38 display equations, 130 inline expressions, a 61-entry symbol table
+and 4,064 reference definitions**, in 21 H2 and 54 H3 sections with 17 tables. The reference base is
+19 primary documents written by hand after reading, 11 research records cited by hand with their
+depth of reading recorded, 66 prior articles of the series, and **3,969 gated research records with
+1,035 report primaries at 26.1 percent**, a period count of 1,641 at 43.9 percent, a median year of
+2012 and a range from 1930 to 2026.
+
+**THE PRIMARY FRACTION OF 26.1 PERCENT IS THE LOWEST OF FOUR ARTICLES AND THE REASON IS THE
+SUBJECT.** A360 reported 30.6, A361 45.0 and A362 39.5. The truss-braced wing literature lives in
+journals and conference proceedings because the work was done largely in universities and published
+through the American Institute of Aeronautics and Astronautics, so the bibliographic index supplied
+7,710 of the pool's 14,967 records. **The period count is the figure to read beside the fraction.**
+
+**THE KEYSTONE IS INFRASTRUCTURAL RATHER THAN AERODYNAMIC.** The wing folds at 118 feet and **118
+feet is exactly where the Federal Aviation Administration's Airplane Design Group III ends, to the
+inch**, against a bound that is exclusive so that a span of exactly 118.000 feet is a Group IV
+aeroplane. ICAO draws the same line at 36 metre, which is 118.1102 feet, **so the two regulators
+disagree by 1.3228 inch and the fold station sits in the gap**. The memorandum's wording is **less
+than 118 feet** where the report says **at 118 feet**, and the article records that discrepancy
+rather than resolving it. **The fold is worth 35.96 percent in lift-to-drag ratio** and everything
+the aerodynamic optimum has left beyond the chosen span is worth **1.90 percent** in fuel.
+
+**AND THE OPTIMALITY CONDITION SPLITS IN TWO.** At fixed wing area and cruise condition the
+fuel-burn-optimal aspect ratio is where the logarithmic derivative of weight with respect to aspect
+ratio equals **exactly one half, independently of every other parameter in the problem**. At fixed
+cruise lift coefficient it equals the induced-drag fraction of drag. **The curvature at the second
+stationary point is exactly delta times (n + 1 - 2 delta)**, which is why a design can sit 28.3
+percent below its optimum and pay under two percent. **The Phase II report's own multidisciplinary
+optimisation reported under 1.4 percent nine years earlier**, by a route sharing no arithmetic.
+
+**THREE OF THE ARTICLE'S OWN EXPECTATIONS WERE OVERTURNED BY DERIVING THEM.** A geometrically
+similar truss leaves the aspect-ratio exponent at exactly three halves and buys a coefficient
+instead. The first-principles bending-material model landed within nine percent of the published
+figure and **that agreement is a coincidence of two large errors in opposite directions**, the
+implied non-optimum factor being 7.88. And an assertion refuted the docstring of the function it
+guarded, the Korn relation turning over at 53.8 degrees where the docstring claimed monotonicity.
+
+**A DEAD REFERENCE IMPROVED THE ARTICLE.** The address sweep found the ICAO publications page
+unreachable, which sent the argument back to the design-group table reproduced in
+NASA/TM-20250002858, and that table is in feet with exclusive bounds. **The metric-coincidence
+framing the keystone had rested on was replaced by a sharper and fully primary one.**
+
+**THE PROGRAMME RECORD IS FROM THE SIGNED INSTRUMENT.** The Funded Space Act Agreement PAM 36785 was
+read in full and lists **twenty-seven milestones summing to exactly 425 million dollar**, of which
+**98.824 percent is paid before first flight**. **The word pause appears zero times in it.** The
+pause landed between Milestone 9 in February 2025 and Milestone 10, the Wing and Strut Critical
+Design Review, due May 2025. **The federal award record holds one contract under the project's name,
+for 41,198 dollar of desk models**, and nine research contracts totalling 21,420,664.42 dollar.
+
+**VERIFICATION.** `_verify.py` 0 errors across 303 posts with the four `progress-stale` warnings
+resolved by this commit. **`verify_numbers.py` passes 104 checks and imports nothing from the
+calculation module by design**, and it found three faults in itself before passing, being an eight
+million evaluation quadrature that timed out, eleven failures that were all the article's own
+display rounding, and a regex conversion that rescaled one slot by ten thousand. The stub-isolated
+production build succeeded in about fifteen seconds against checksum-matched bytes, and **the
+rendered audit reports no findings across 549 pages**, 173 of which carry display math. **Source and
+rendered display counts agree at 38** and no inline expression in the page carries an emphasis tag.
+`symcheck.py` passes with every token resolving to a declared symbol. **`stylecheck.py` is new** and
+reports zero contractions, zero dashes, zero prose colons and zero prose semicolons, with one
+finding that is the statutory citation `51 U.S.C. 20113(e)` and cannot be written otherwise.
+
+**REMAINING WORK.** Three passes, being equation density, reference density with an emphasis on
+primary references, and the publication review, which is the pass that also pushes.
+
 ## X-Planes Aurora Flight Sciences X-65 CRANE A362 2025-12-10
 
 `x_planes_aurora_x65_crane.markdown`, A362, editorial date 2025-12-10, series `x_planes` index

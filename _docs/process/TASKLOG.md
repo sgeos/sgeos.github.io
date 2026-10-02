@@ -9,124 +9,76 @@ Current task state and verification log. This file is the shared source of truth
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
-**Status**: **A297 through A361 have ALL FOUR PASSES COMPLETE and are PUSHED. A362 HAS ITS
-DRAFTING PASS COMPLETE and is COMMITTED, NOT PUSHED.** **Sixty-six of seventy-two drafted. None
-published, and publication has never been authorised. Six articles remain.** The next new article
-is **A363, the X-66**, editorial date 2025-12-11, series index 67, which the register gives to
-Boeing with an engines cell of `2 Pratt & Whitney` and NASA as sponsor, described as a Transonic
-Truss-Braced Wing demonstrator, a highly modified MD-90 for the Sustainable Flight Demonstrator
-project.
+**Status**: **A297 through A362 have ALL FOUR PASSES COMPLETE and are PUSHED. A363 HAS ITS
+DRAFTING PASS COMPLETE and is COMMITTED, NOT PUSHED.** **Sixty-seven of seventy-two drafted.
+None published, and publication has never been authorised. Five articles remain.** The next new
+article is **A364, the X-67 slot taken by the XQ-67A**, editorial date 2025-12-12, series index
+68, which is a designation anomaly and takes the genre document's reduced order.
 
-**A362 STANDS AT 8,777 lines, 46 display equations, 232 inline expressions, a 102-entry symbol table and 3,804 reference definitions**, with 3,709 research records and 1,464 report primaries at 39.5 percent, a period count of 1,274 at 35.7 percent, median year 2007. **Sixty-six of seventy-two drafted and six remain, the next being A363, the X-66.**
+**A363 STANDS AT 9,160 lines, 50,183 words, 38 display equations, 130 inline expressions, a 61-entry symbol table and 4,064 reference definitions**, in 21 H2 and 54 H3 sections with 17 tables, citing 3,969 research records across 17 clusters with 1,035 report primaries at 26.1 percent, a period count of 1,641 at 43.9 percent and a median year of 2012, from a pool of 14,967 distinct records across two sweeps.
 
-**THE PUBLICATION REVIEW REFUTED A CLAIM BY COUNTING.** The article said `hingeless control` returned 72 reports of which every one was a helicopter, and it is 61 of 72; 11 carry no rotorcraft vocabulary and two are the DARPA, Air Force Research Laboratory, NASA and Northrop Grumman Smart Wing programme, **adjacent prior art the sweep never asked for**. Seven unsupported rankings were scoped to what had been measured, **a stale pool size an emitter had hard-coded was corrected from 18,432 to 20,430**, and `AFC` was found reaching the reader first as a math subscript with no expansion, invisible to `symcheck.py` because it strips `\mathrm{...}` before comparing.
+**THE KEYSTONE IS THAT THE SPAN OF A TRANSPORT WING COMES FROM AN AIRPORT.** The wing folds at 118 feet and **118 feet is exactly where the Federal Aviation Administration's Airplane Design Group III ends, to the inch**, against a bound that is exclusive. ICAO draws the same line at 36 metre, which is 118.1102 feet, **so the two regulators disagree by 1.3228 inch and the fold station sits in the gap**. The fold is worth **35.96 percent** in lift-to-drag ratio and everything the aerodynamic optimum has left beyond the chosen span is worth **1.90 percent** in fuel.
 
-**A362's LARGEST FINDING IS A DOUBLE CANCELLATION AND ITS SECOND LARGEST IS A WITHDRAWAL.** The
-bleed-fed momentum coefficient is exactly altitude-independent, because corrected flow and
-compressible dynamic pressure both scale with pressure and because a choked jet fed from
-compressor air gains the square root of temperature that corrected flow loses. **A fixed-shaft-power
-compressor varies by 7.92 times over the same band and the record does not say which
-architecture the aircraft has.** Separately, **the drafting pass invented a separation-control band
-and an open-access review refuted it in the aircraft's favour**, reporting the regime threshold at
-three to five percent where the article had assumed half a percent.
+**AND THE OPTIMALITY CONDITION IS TWO CONDITIONS, WHICH IS THE ANALYTICAL RESULT.** At fixed wing
+area and cruise condition the fuel-burn-optimal aspect ratio is where the logarithmic derivative of
+weight with respect to aspect ratio equals **exactly one half, independently of every other
+parameter in the problem**. At fixed cruise lift coefficient it equals the induced-drag fraction of
+drag. The curvature at the second stationary point is exactly **delta times (n + 1 - 2 delta)**,
+which is why a design can sit 28.3 percent below its optimum and pay under two percent. **The Phase
+II report's own multidisciplinary optimisation reported under 1.4 percent nine years earlier**, by a
+route sharing no arithmetic with this one.
 
-**AND THREE INSTRUMENTS CAUGHT DEFECTS NOTHING ELSE WOULD HAVE.** A monotonicity check refuted a
-bound the article asserted, locating the Mach factor's turn at exactly root two rather than near
-1.9. **The year resolver failed on all 1,321 records and raised nothing**, because it read a field
-a library function had already consumed and an empty year is a legitimate value, so the file now
-carries a success-rate floor. **A guard was defeated by a hyphen in a way the shared library
-structurally cannot repair**, since flattening runs only after a pattern fails and a guard that
-fails is a guard that admits.
+**THREE OF THIS ARTICLE'S OWN EXPECTATIONS WERE OVERTURNED BY DERIVING THEM.** A geometrically
+similar truss leaves the aspect-ratio exponent at **exactly three halves** and buys a coefficient
+instead, so the optimum moves only as the coefficient to the power minus two fifths. The
+first-principles bending-material model landed within nine percent of the published figure and
+**that agreement is a coincidence of two large errors in opposite directions**, not a validation,
+the implied non-optimum factor being 7.88. And **an assertion refuted the docstring of the function
+it guarded**, the Korn relation turning over at 53.8 degrees of sweep where the docstring had
+claimed monotonicity.
 
-**A SCRATCH SCRIPT NAMED `select.py` BROKE `subprocess` IN A FILE THAT NEVER IMPORTED IT.** The
-working directory goes on `sys.path`, so it shadowed the standard library module, `selectors`
-could not find `select.select`, and the failure surfaced in an unrelated script naming a module
-nobody had written. **A scratch script must not take a standard library module's name.**
+**A DEAD REFERENCE IMPROVED THE ARTICLE AND THAT IS WORTH RECORDING.** The address sweep found the
+ICAO publications page unreachable, which sent the argument back to the design-group table
+reproduced in NASA/TM-20250002858, and that table is **in feet with exclusive bounds**. The
+metric-coincidence framing the keystone had rested on was replaced by a sharper and fully primary
+one. **A citation that cannot be reached is a reason to find a better source.**
 
-**A361 HAS TWO COMMITS FOR FOUR PASSES AND THAT IS RECORDED RATHER THAN SMOOTHED OVER.** Its
-literature sweep ran long enough that the pilot's next two prompts arrived before the drafting
-pass had been committed, so drafting, equation density and primary references went into one commit
-and the publication review into a second. **The rhythm asks for a commit after each pass.**
+**THE AWARD RECORD SAYS ALMOST NOTHING, WHICH IS THE OPPOSITE OF A362.** A Funded Space Act
+Agreement is not a procurement contract, so the only award under the project's name is **41,198
+dollar for desktop and floor models**, and the agreement is **10,316 times** larger. Nine
+truss-braced-wing research contracts totalling **21,420,664.42 dollar** across fourteen years are
+all present. **The 425 million dollar spending profile exists in public in exactly one place**,
+being Appendix A.2 of the agreement, which lists twenty-seven milestones summing to exactly 425
+million and of which **98.824 percent is paid before first flight**.
 
-**A METHOD IMPROVEMENT EVERY LATER ARTICLE INHERITS.** The reports-server search response already
-carries the title and the authors, so the detail call buys only the publication year, and the
-subject gate runs on titles. **Resolving years for the admitted records alone avoided 10,889
-requests on A361, which is 61.7 minutes at the shared library's per-host floor.** The search
-phase now also writes to disk before the slow walk begins.
+**THE AGREEMENT HAS NO PAUSE IN IT.** The word appears zero times in the signed instrument, which
+offers termination for a missed milestone instead. **The pause landed between Milestone 9 in
+February 2025 and Milestone 10, the Wing and Strut Critical Design Review, due May 2025**, which is
+the gate at which the wing would have been committed to fabrication, and the retained activity is
+wing research.
 
-**A361 CANNOT BE BUILT THE WAY A360 WAS AND THAT IS ALREADY MEASURED.** `Invocon` and `Troy7`
-return nothing at all from the bibliographic index and `KT Engineering` is flooded by a
-mechanical-engineering journal with those initials. **Three contractors and no indexed publications
-between them**, which is a measurement about that team rather than a gap in the probe. What A361 has
-instead is the federal award record, where the recipient name returns decades of instrumentation
-contracts, and the contractor's own description of a recoverable vehicle about twelve metres tall
-landing on four legs that double as stabilising fins.
+**THE VERIFIER FOUND THREE FAULTS IN ITSELF BEFORE PASSING 104 CHECKS.** Its first quadrature was
+eight million evaluations and timed out when the taper integral needed computing once. It then
+reported **eleven failures that were all the article's own display rounding**, so its tolerance is
+now derived from the last printed digit. And a regex conversion moved explicit tolerances into a
+scale parameter, **rescaling one slot by ten thousand**, which it caught as a 999,934 percent error.
 
-**THE CONCURRENT SESSION HAS FINISHED.** A374 is published and the corpus is 302 posts. Its final
-push is the reason A360's first three commits were already on the remote before the pass that asks
-for a push.
+**THE TWO-SIDED AUDIT CHANGED THE GATE IN BOTH DIRECTIONS AND THE REFUSED SIDE MATTERED MORE.** Six
+admitted records should not have been, so a bare `aeroelastic` now needs an aeronautical noun and a
+rotary-wing and panel exclusion family was added. **Three refused records were an entire missing
+cluster**, being a joined wing, a tandem wing and a blended wing body, and `alt_config` now holds
+448 records and is the third largest in the article. **A gate audited only on what it keeps cannot
+find an absence.**
 
-**NO PRIMARY FRACTION RECORDED FOR A297 THROUGH A359 IS COMPARABLE WITH A LATER ONE** without
-saying which side of the reports-server repair it sits on. The fetcher was reading ten records per
-question before A360.
+**A PLACEHOLDER DIGITAL OBJECT IDENTIFIER WAS CAUGHT BEFORE IT SHIPPED.** A reference was entered
+as `10.2514/6.2026-0000` while the real one was looked up, which is `10.2514/6.2026-4344`. **A
+fabricated identifier that resolves to nothing is worse than no citation at all.**
 
-**A CORRECTION IS OUTSTANDING AND IT IS THE PILOT'S DECISION.** The register's officiality markup
-has three states. **A358 gave the register-wide split correctly as 86 and a further 17, then gave
-the X-row split as 21 official and 9 not, which accounts for 30 of 31 rows.** **A359 closed that
-sum by raising the official count to 22**, which places the one partly marked row on the official
-side, where its own markup says it cannot be. The correct three-way split, recomputed from the
-saved page and confirmed by an independent re-parse, is **21 official, 9 wholly unofficial and 1
-partly unofficial**. **A360 states it correctly and neither earlier article has been edited.**
-
-**THE DRAFTING-HISTORY SCAN FOUND NOTHING AND THAT IS THE FIRST TIME.** A322 shipped five such
-sentences, A323 six and A358 seven, every one of the form `the draft said X and was wrong`. **The
-convention that produces them is unchanged**, being that this series names a withdrawn claim
-rather than deleting it. **What changed is that the equation pass wrote its withdrawals as
-statements about the subject from the start**, so there was nothing to rewrite.
-
-**THE SUPERLATIVE SCAN FOUND FOUR REAL DEFECTS IN SEVENTY-SIX RANKING SENTENCES.** The article
-said the X-62A is **the fourth or fifth machine** in the line of variable-stability aeroplanes,
-which is a count it never made; it now says the aeroplane is a late member and **says plainly
-that it does not know how many stand between**, because counting them would mean settling what
-makes an aeroplane a variable-stability aeroplane and no source draws that line. It said NASA
-Technical Paper 1538 gives the actuator lag and rate limit of **every surface**, where the
-speedbrake carries a deflection limit and no actuator. It said the award record is **the only
-place** the older acronym expansion survives, which is a claim about a record it searched part
-of. And it called the crossover model **the strongest single result** in manual control theory,
-which is a ranking over a discipline and is now the field's central result.
-
-**A FORMATTING DEFECT THE NUMBER CHECKS STRUCTURALLY COULD NOT SEE.** The article printed `the
-weaker one for the last 4.48` with no unit. **Every numeric check passed**, because the value was
-right and appeared the expected number of times. **A unit is not a number and nothing in the
-suite was looking for one.**
-
-**A DECISION WAS RECORDED IN THE PROCESS FILES AND NEVER REACHED THE PAGE.** The equation pass
-decided not to use the phase-delay parameter of the bandwidth criterion and wrote that into this
-file and into `REVERSE_PROMPT.md`. **It never reached the article.** The publication review found
-it by re-reading the closing sections against the process files, which is the check that exists
-for exactly this. **The article now carries it as a section**, stating that deriving the
-parameter for a pure delay from a recalled definition gives half the delay where the usual
-summary says it is the delay, that **a factor of two is not a rounding**, and that the
-specification which settles it has not been read.
-
-**VERIFICATION.** Verifier 0 errors and 0 warnings. Tests 117 of 117. **The article verifier runs
-492 checks and passes all of them and the injection suite catches 281 of 281.** Diction 0
-constructions above the corpus maximum across 62 peers on 17,573 words of author prose. **Zero
-citation gaps at a nine-hundred-character window, zero contractions, zero dashes, zero prose
-colons, zero semicolons and no caps emphasis outside engine designations.** Identifier
-verification holds 33 quoted phrases against saved copies, **39 curated identifiers resolved
-through the registry against the year their labels claim**, 14 books against recorded title and
-author, **a fabricated identifier resolving to nothing**, and 0 dead addresses. **Build clean
-against checksum-matched bytes and the rendered audit reports no findings across 542 pages.**
-
-**FINAL STATE. 18,645 lines, 45 display equations, 88 declared symbols, 8,749 reference
-definitions, 113,876 words.** Four sweeps retrieved 35,837 of which 30,647 distinct, the store
-removed 1,829, the gate admitted 9,012 and refused 19,806, and **every one of the 8,596 records
-surviving deduplication is cited** across 15 clusters alongside 153 hand-written definitions.
-Report primaries 1,199 at 13.9 percent. **Nineteen conclusions probed with one uncovered**, being
-a claim about documents rather than about aeroplanes.
-
----
+**THE HOMONYM MEASUREMENTS ARE THE TRANSFERABLE PART.** `SUGAR` is astrophysical ice analogues,
+carbonaceous meteorites and blood sugar, one of ten aeronautical, and **`sugar aircraft` is ten of
+ten**. **`aspect ratio` is aeronautical at the reports server and zero of ten aeronautical in the
+bibliographic index**, the second registry-dependent homonym this series has recorded. `strut`
+returns zero of ten wing braces, `truss` two of ten, and **`braced wing` ten of ten**.
 
 ## Success Criteria
 
@@ -865,6 +817,7 @@ a claim about documents rather than about aeroplanes.
 
 | Date | Change |
 |------|--------|
+| 2026-10-01 | A363 drafted, X-Planes: Boeing X-66, drafting pass of four. 9,160 lines, 38 display equations, 4,064 reference definitions, 50,183 words. Keystone is that the wing folds at exactly the FAA Airplane Design Group III bound and that the fuel-burn optimality condition splits in two. Committed, not pushed, not published. |
 | 2026-10-01 | **A376 DRAFTED at the editorial date 2026-08-13** as `_drafts/balance_of_power_after_war_with_china.markdown`, **NOT published**, categories `geopolitics military war-gaming`, **2,896 lines, 39 display equations, 86 references and about 16,300 words of author prose**. **A374, A375 AND A376 ARE NOW A SERIES**, `war_with_china` at indices 1, 2 and 3; the series lines were added to two **published** posts, which moved no URLs because categories and dates are unchanged, so no `redirects/` entry is owed, and the two live pages read of 2 until A376 publishes. **THE SPINE IS COMPUTED RATHER THAN QUOTED.** Correlates of War National Material Capabilities v7.0 and Inter-State War v4.0 were downloaded and the base rate computed: across 95 wars the median belligerent gains about 7 percent of relative standing over the following decade **but 38 percent of winners decline**, and among wars above 100,000 battle deaths **all eleven losers decline, median -41.8 percent**, while winners gain a median 12.6 and over a third still fall. Prewar trend does not predict postwar change, `r = -0.038`. **THE WRONG DATASET VERSION WAS CAUGHT BY ITS OWN LANDING PAGE.** Work began on v6.0, which ends 2016; v7.0 runs to 2022. Everything was recomputed and the present-day ratio moved from 1.73 to 1.89. **THE HARNESS CAUGHT TWO ERRORS FROM 185 HAND-ENTERED CONSTANTS AND ONE BECAME A SECTION.** A rounding error, and a claim that the ratio has exceeded one every year since 1995 when it reads 0.9987 in 2002; tracing that found a documented break where the urban component switches from cities over 100,000 to agglomerations of 300,000 or more, **removing 2.117 index points while every other component adds 0.927**. **TWO OF MY OWN CLAIMS WERE WITHDRAWN AFTER A SUBAGENT CONTRADICTED THEM**, that the averaging rule is a defect and that the 2002 break is undocumented; the codebook documents both, and the contribution was narrowed to the magnitudes. **A VALIDATION STATISTIC WAS SHOWN TO ANSWER THE WRONG QUESTION**, the project's 0.99 panel correlation bounding error across all states and bounding nothing for the bilateral comparison every citation makes, where the same change is 52 percent of one Chinese component and a later revision cuts recorded United States urban population by 44 percent in one year. **THE STRUCTURAL FINDING.** Belligerents held 82 percent of world capability in 1914 and 98 in 1939; two states fighting this war would hold about 36, so **no historical case has a bystander pool this large** and the mechanism the scenario literature asserts has not previously been testable. **THE FINANCIAL SERIES WERE PULLED DIRECTLY AND REFUTED A POPULAR CLAIM**, the dollar reserve share falling 75.03 to 56.70 percent since 1999 but **more slowly after the 2022 reserve freeze than before it**, -0.64 against -0.68 points a year, with **the renminbi peaking at 2.85 percent one quarter before the freeze** and losing a quarter since. **ONE FACT WAS READ RATHER THAN INFERRED**, the Joint War Committee circular of 16 September 2026 read in full, in which Taiwan, the Taiwan Strait, the South China Sea, China and Hong Kong appear nowhere. **SIX SUBAGENTS SWEPT THE LITERATURE AND WERE NOT TAKEN ON TRUST**, with load-bearing quotations re-verified against retrieved documents, both RAND volumes read in full, the RAND forecasting table read off a rendered image because colour does not survive text extraction and agreeing with A375's independent count, and abstracts labelled as abstracts rather than as authors' prose. **VERIFICATION.** `_verify.py` 0 errors across 303 posts, 185 numeric checks passing across two harnesses, build clean, **rendered audit no findings across 468 pages**, zero contractions and zero dashes in prose, all 86 references cited in the body and alphabetically ordered, and every reference URL resolving or returning the documented publisher 403. **The `progress-stale` warning now fires twice because the check cannot represent two concurrent series; CI does not run `--strict` and the deploy is unaffected.** |
 | 2026-10-01 | **A375 PUBLISHED at the editorial date 2026-08-12** as `_posts/2026-08-12-rebuilding_after_war_with_china.markdown`, live at `/geopolitics/military/war-gaming/2026/08/12/rebuilding_after_war_with_china.html`. **The corpus is now 303 posts.** Standalone analytical essay and the companion to A374, categories `geopolitics military war-gaming`, **3,807 lines, 75 display equations, 222 references and about 21,000 words of author prose**. No series, so no navigation was renumbered. **THE PUBLICATION INTERLOCK WAS VERIFIED BEFORE THE MOVE RATHER THAN AFTER.** All three `post_url` targets were already published and resolve in the built page, no raw Liquid survives, the three category archives are present, and the first category `geopolitics` was already proven unshadowed by A374. **The deploy gate passed on the published state**, `_verify.py` 0 errors across 303 posts, the production build ok, and the rendered audit reporting **no findings across 467 pages**, with source and rendered display counts agreeing at 75 in the real build. **THE DATE SLOT IS SHARED WITH A DRAFT AND THAT IS NOW A WARNING RATHER THAN A BLOCKER.** `android_development_on_freebsd.markdown` carries the same editorial date 2026-08-12. The verifier builds its date map from `_posts` alone, so `date-collision` errors only when two **posts** share a day; with one published and one still drafted the result is `draft-date-taken`, a warning. **It becomes a hard error the moment that draft publishes**, so it must be re-dated first, and the run from 2026-08-20 onward is free of both posts and drafts. **The pilot's instruction was to publish A375, and re-dating another line's draft was not part of it.** |
 | 2026-09-30 | **A375 PATHOLOGICAL WORD USAGE PASS. Committed and PUSHED. NOT PUBLISHED at the time of this entry.** **THE ENUMERATED TIC CLASS FOUND NOTHING, BEFORE OR AFTER.** `diction.py tics` reports 0 words at or above the peer maximum and `report` reports 0 constructions above the corpus maximum. Its own banner says the class is enumerated and not discovered, so the pass had to find the crutches this article invented. `tmp/a375/pathology.py` compares unigram, bigram and trigram rates against all 258 published posts with quotations and mathematics stripped, ranked by distance above the peer maximum. **THE PATHOLOGY WAS A CLUSTER AND NOT SCATTERED WORDS, NAMELY THAT THE ARTICLE KEPT TALKING ABOUT ITSELF.** `this article's` at 1.97 times the peer maximum, **`the article above` used six times and never once by any peer**, `the draft` at 1.23, plus `says so` and `in its own words` as candour formulas. The six `the article above` uses were the opening sentence of six consecutive survey subsections. **`finding` WAS THE SIGNATURE WORD AND NO GATE WOULD EVER HAVE FLAGGED IT.** 45 uses, 33 of them the noun labelling a conclusion rather than the participle attributing a result, sitting at 2.24 against a peer maximum of 8.56. **The case for cutting is repetition and not frequency**, four near-identical bold openers of the form `One/The X finding` inside one section. 18 label uses were recast into direct statements and the noun now marks only real distinctions such as `neither is a finding`. **THE PASS CAUGHT ITSELF OVER-CORRECTING TWICE, WHICH IS THE A374 FAILURE MODE REPEATING.** Varying the six openers put `earlier` into five of the six replacements; fixing that put `above` into four and left two sharing an identical passive shape; and redistributing attribution verbs pushed `report that` from under the peer maximum to 1.68 times it. **Each was caught by measurement and not by eye.** The attribution spread went from 29 `finds that` against 14 for the next verb to **21 / 15 / 10 / 8 / 8 / 8 / 4 / 2 / 2 / 1 across ten verbs**. **WHERE THE PASS STOPPED IS A RECORDED JUDGMENT.** `report that` stays at 1.37 times the peer maximum because the peers are not literature surveys and a survey citing 130 works is denser in attribution by nature. `own` at 2.84 against 6.12 stays because a source's own words is the article's method. All six `article's own` uses stay because each marks the boundary between this article's arithmetic and a source's. `sentence` at 1.46 times the maximum is subject matter, the regime-survival argument turning on one CSIS sentence that asserts and disclaims in the same breath. **VERIFICATION.** `_verify.py` 0 and 0 across 302 posts, **111 arithmetic and structural checks pass**, diction 0 above peer maximum on both modes, build clean, **rendered audit no findings across 458 pages**, source and rendered display counts agreeing at 75, and **nine quotations re-verified against their sources** to confirm the rewriting altered no quoted span. One initially read as absent and was my checker's hyphenation normalisation rather than the article. |

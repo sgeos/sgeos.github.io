@@ -4,57 +4,269 @@
 
 ## Last Updated
 
-**Date**: 2026-09-30
-**Task**: **A362, X-Planes: Aurora Flight Sciences X-65 CRANE, all four passes complete.** Committed and **PUSHED** on the pilot's instruction. **Not published**, and publication
-of the series has never been authorised. **Sixty-six of seventy-two drafted, six remain.**
+**Date**: 2026-10-01
+**Task**: **A363, X-Planes: Boeing X-66, DRAFTING PASS COMPLETE.** Committed, **NOT PUSHED**,
+which is the rhythm for passes one to three. **Not published**, and publication of the series
+has never been authorised. **Sixty-seven of seventy-two drafted, five remain.**
 
-**A SECOND LINE HAS DRAFTED A376 AND MADE A374, A375 AND A376 A SERIES.**
-**A376 IS DRAFTED, NOT PUBLISHED**, at the editorial date 2026-08-13,
-and the three articles now carry `series: war_with_china` at indices 1, 2 and 3.
-Adding the series line touched the front matter of two **published** posts,
-which moved no URLs because categories and dates are unchanged.
-**While A376 is a draft the two live pages read Part 1 of 2 and Part 2 of 2**,
-and they become of 3 when it publishes.
-Its report is immediately below this block.
-**Two things are left for the pilot.** The `progress-stale` check now fires twice,
-because it compares one stated drafted count against every series among the drafts
-and cannot represent two concurrent lines. It is a warning, CI does not run `--strict`,
-and the deploy is unaffected. And the Crossref lookups in this pass sent the pilot's
-email address in a `User-Agent` header, which is that API's documented polite-pool
-convention but was not authorised, and it stopped once noticed.
+**A363 STANDS AT 9,160 lines, 50,183 words, 38 display equations, 130 inline expressions, a
+61-entry symbol table and 4,064 reference definitions**, with 3,969 research records across
+17 clusters and 1,035 report primaries at 26.1 percent, a period count of 1,641 at 43.9
+percent, median year 2012, from a pool of 14,967 distinct records across two sweeps.
 
-**THE EARLIER REPORT FROM THIS LINE IS PRESERVED BELOW.**
-**A375 IS PUBLISHED AND LIVE.** All four passes plus a pathological word usage pass,
-published on 2026-10-01 at the editorial date 2026-08-12, and **the corpus is now 303 posts**.
-**One thing is left behind for the pilot**, which is that
-`android_development_on_freebsd.markdown` still carries the same editorial date. That is a
-`draft-date-taken` warning today and a hard `date-collision` error the moment that draft
-publishes, because the verifier builds its date map from `_posts` alone. It needs re-dating
-before it ships, and 2026-08-20 onward is free of both posts and drafts. Its publication-review section is immediately below this
-one, and its earlier primary-reference report is kept further down rather than overwritten.
-**The A375 line reports the same class of defect for a third time, and it is worth this line's
-attention because the pattern now has four instances across two articles.** A checker passes
-because its scope is wrong. A360's numerical check was robust and therefore blind. A361's
-decision probe used my own phrasing rather than the article's. A375's reference pass found four
-references counted as used because the bullet list cites every anchor. And A375's publication
-review found a reachability sweep that would have recorded publisher bot policy as a fact about
-its own citations. **The common fix is to run the check against the artefact a reader sees,
-never against a convenient proxy for it.**
+**THE KEYSTONE IS THAT THE SPAN OF A TRANSPORT WING COMES FROM AN AIRPORT.** The wing folds at
+118 feet and **118 feet is exactly where the Federal Aviation Administration's Airplane Design
+Group III ends**, to the inch, against a bound that is exclusive. ICAO draws the same line at
+36 metre, which is 118.1102 feet, **so the two regulators disagree by 1.3228 inch and the fold
+station sits in the gap**. The fold is worth **35.96 percent** in lift-to-drag ratio and
+everything the aerodynamic optimum has left beyond the chosen span is worth **1.90 percent** in
+fuel, which the programme's own Phase II optimisation reported nine years earlier as under 1.4
+percent.
 
-The older note follows. A375 had completed its
-primary-reference pass, the third of four, and is committed and not pushed. **That section is
-preserved rather than overwritten**, which is the rule its own author wrote down when preserving
-this line's A374 section.
+**AND THE OPTIMALITY CONDITION IS TWO CONDITIONS.** At fixed wing area and cruise condition the
+fuel-burn-optimal aspect ratio is where the logarithmic derivative of weight with respect to
+aspect ratio equals **exactly one half, independently of every other parameter in the problem**.
+At fixed cruise lift coefficient it equals the induced-drag fraction of drag. The curvature at
+the second stationary point is exactly **delta times (n + 1 - 2 delta)**, which is why a design
+can sit 28.3 percent below its optimum and pay under two percent.
 
-**AND THIS FILE WAS OVERWRITTEN WHOLE ONCE BEFORE IT WAS REPAIRED, WHICH IS WORTH RECORDING.**
-The A362 pass read `REVERSE_PROMPT.md` as a single slot holding the latest report, wrote 150 lines
-over 1,305, and destroyed the A375 line's section along with every prior report from both lines.
-**The convention is append-at-top with history preserved.** A file whose header says it is
-overwritten after each task, and which in practice accumulates, will be truncated by whoever
-believes the header. **It is repaired here from `git show HEAD`, which is the only reason nothing
-was lost.**
+**THREE OF THIS ARTICLE'S OWN EXPECTATIONS WERE OVERTURNED BY DERIVING THEM.** The truss was
+expected to lower the aspect-ratio exponent and **a geometrically similar truss leaves it at
+exactly three halves**, buying a coefficient instead, and the optimum moves only as the
+coefficient to the power minus two fifths. The first-principles bending-material model landed
+within nine percent of the published figure and **that agreement is a coincidence of two large
+errors in opposite directions and is not a validation**. And the Korn relation was asserted
+monotone in sweep in a docstring and **an assertion in the same file refuted it**.
+
+**THE DEAD REFERENCE IMPROVED THE ARTICLE.** The address sweep found the ICAO publications page
+unreachable, which sent the argument back to the primary table reproduced in NASA/TM-20250002858,
+and that table is in **feet** with **exclusive** bounds. The metric-coincidence framing the
+article had been built on was replaced by a sharper, fully primary one. **A citation that cannot
+be reached is a reason to find a better source, not a reason to soften a claim.**
+
+**THE AWARD RECORD SAYS ALMOST NOTHING AND THAT IS THE FINDING.** A Funded Space Act Agreement
+is not a procurement contract, so the only award under the project's own name is **41,198 dollar
+to Pacmin Inc for desktop and floor models**, and the agreement is **10,316 times** larger. Nine
+truss-braced-wing research contracts totalling **21,420,664.42 dollar** across fourteen years are
+all there. **The 425 million dollar spending profile exists in public in exactly one place**,
+which is Appendix A.2 of the agreement, reproduced in the article in full.
+
+**AND THE NUMBER EVERYBODY QUOTES IS NOT IN THE DOCUMENT THAT FUNDS IT.** The agreement states no
+percentage. The wing alone is worth **7.2 percent** against an advanced conventional aeroplane of
+aspect ratio 13, by the contractor's own calculation. The whole package against a 2005 aeroplane
+is **55.87 percent**. Thirty percent is between them, and the qualifier that earns it appeared in
+January 2023, vanished in June 2023 and returned in the FY2026 budget supplement.
+
+**ONE THING FOR THE PILOT.** The FY2026 technical supplement calls the project the **Subsonic**
+Flight Demonstrator in three places, including its acronym list, where every earlier document says
+**Sustainable**. No release announces a renaming and the article records the document's wording
+without inferring intent.
+
+The older reports follow, newest first. **Nothing below this block was rewritten.**
 
 ---
+
+## A363, X-Planes: Boeing X-66, Drafting Pass
+
+**9,160 lines, 50,183 words, 38 display equations, 130 inline expressions, a 61-entry symbol
+table, 4,064 reference definitions, 21 H2 sections, 54 H3 sections and 17 tables.** Committed,
+**NOT PUSHED**. **NOT PUBLISHED.**
+
+### The Keystone, and Why It Is Infrastructural Rather Than Aerodynamic
+
+The aspect-ratio trade is derived from the lift distribution outward. An elliptic spanload gives a
+root bending moment of **L b over three pi**, checked three ways. Cap area is moment over the
+product of allowable stress and box depth, and integrating it across a straight-taper wing gives
+bending material proportional to **the three-halves power of aspect ratio at fixed area and
+thickness ratio, and to the inverse first power of thickness ratio**. The exponent is derived and
+then measured numerically as 1.5000.
+
+**The optimality condition then splits in two, which is the analytical result worth keeping.**
+Holding wing area and cruise condition makes induced drag proportional to weight squared over
+aspect ratio, so the stationary point is **nu equals one half exactly**, with the induced-drag
+fraction cancelling out of the condition entirely. Holding cruise lift coefficient instead gives
+**nu equals delta**. Both are exact, both are parameter-free in their own terms, and they call for
+different aspect ratios on the same aeroplane.
+
+**Every reading of the weight data puts this aeroplane below both stationary points.** Counting
+only the 7,488 pound of bending material the report identifies gives nu of 0.0775 against a
+required 0.5. Counting the whole wing group and the whole truss group at the three-halves power
+gives 0.2062. **The falsifiable form is that the wing and truss together would have to grow as
+the 3.64 power under one criterion or the 2.44 power under the other.**
+
+**And then the tone reverses, because the optimum is flat and the flatness has a closed form.**
+The curvature at the fixed-lift stationary point is exactly **delta times (n + 1 - 2 delta)**,
+which is 0.6131 here, so a 28.3 percent shortfall costs **1.90 percent** in fuel. **The Phase II
+report, by a full multidisciplinary optimisation over span limits nine years earlier, reported
+under 1.4 percent for all further span beyond 170 feet.** Two routes sharing no arithmetic agree
+on magnitude and sign, and the gap is explained by the field-length and range constraints the
+optimisation had active and the expansion does not see.
+
+### The Gate Box, Which the Dead Reference Forced Into Better Shape
+
+**The address sweep found the ICAO publications page unreachable.** Replacing it meant going to
+the Airplane Design Group table reproduced in NASA/TM-20250002858, and that table is **in feet
+with exclusive bounds**. Group III runs from 79 feet up to but not including 118, and Group IV
+from 118 up to but not including 171.
+
+**So the fold station is not near a boundary. It is exactly on one, to the inch, with a margin of
+exactly zero.** And because the bound is exclusive, a span of exactly 118.000 feet is a Group IV
+aeroplane. The memorandum's own wording is **less than 118 feet**, while the Phase IV report puts
+the fold **at 118 feet**. **Whether that is a rounding, an unrecorded inch, or a genuine gap
+between two NASA documents is not settled by the record and the article says so.** ICAO's bound of
+36 metre is 118.1102 feet, **1.3228 inch looser**, so the same fold clears Code C and not Group III.
+
+**The fold is worth 35.96 percent in lift-to-drag ratio**, because the Code C box permits aspect
+ratio 9.427 at this area against the 19.565 the fold buys. **And 9.427 is essentially the aspect
+ratio of the conventional single-aisle fleet**, whose own comparison baseline in the report carries
+10.41. The inference the article draws, and labels as an inference, is that **the aspect ratio of
+the fleet is an airport number rather than a structural one**.
+
+### Three Expectations This Article Overturned By Deriving Them
+
+**The truss buys a coefficient and not a power.** A truss whose attachment station, dihedral and
+proportions scale with span leaves the exponent at exactly three halves, and since the optimum
+moves as the coefficient to the power minus two fifths, halving the bending material would move
+the optimum aspect ratio by about thirty-two percent and the fuel consequence by very little.
+**That is the uncomfortable corollary, because it says the truss's structural achievement cannot
+by itself be worth much in fuel**, and the value has to be in the fold and in the thin wing.
+
+**The absolute weight model is wrong and the way it is wrong is the point.** The cantilever
+estimate landed at 0.909 times the published **braced** bending material, which looks like a
+validation and is a coincidence of two large errors in opposite directions, since a cantilever
+must be heavier. With the brace included the model is low by a factor of **7.88**, which is
+non-optimum material. **A constant factor does not touch a logarithmic derivative**, which is
+exactly why the keystone survives being unable to predict the absolute weight.
+
+**And an assertion refuted the docstring of the function it guarded.** The Korn relation's
+inversion for sweep was written with a bracket from zero to seventy degrees and a docstring
+claiming monotonicity. The relation turns over at **53.8 degrees** because the thickness and lift
+terms grow as the inverse square and cube of the cosine, so both ends of the bracket fell below
+the target and **the assertion refused to run rather than returning the wrong root**.
+
+### What the Korn Relation Found That Nothing Else Did
+
+**Both configurations sit the same distance below their own drag-divergence Mach number.** With a
+single supercritical constant of 0.95 the margins are **0.0203** for the Mach 0.745 predecessor
+and **0.0181** for the Mach 0.80 configuration, **differing by 0.00212**, and the difference stays
+below **0.00672** across the whole plausible range of that constant. Neither margin was an input.
+**So the ten degrees of sweep and the thickness reduction Phase IV added are, to within a few
+thousandths in Mach number, exactly what the relation requires to buy 0.055 in cruise Mach.** The
+thinning alone is worth **4.86 degrees** of sweep and cost about **28.7 percent** in bending
+material, which is a prediction the volume read here cannot check.
+
+### What the Primary Record Admits About Itself
+
+**A flutter correction turned a forty percent margin negative.** At Mach 0.92 the raw
+doublet-lattice model gave margins near forty percent and the computational-fluid-dynamics
+adjusted model produced multiple mechanisms with margins as low as **minus 7.5 percent**, with the
+report saying the adjustments **completely changed the character of the analysis results**. It also
+says the method is incapable of capturing the nonlinear flow features and that a braced wing's
+redundant load path requires prestressed modes about a large deformation state. **That is the
+largest soft spot in this article's own keystone**, because flutter-driven stiffness is the term
+that could push the exponent above three halves and it is unmodelled at the critical condition.
+
+**And the report's own recommendation list undercuts the figures everybody quotes.** It asks for
+**equivalent conceptual-level design, sizing and optimization studies of cantilever and
+truss-braced wing aircraft of the same technology level to allow a more fair and transparent
+comparison**, which is a statement by the organisation with the most to gain that the comparison
+has not been made fairly. A January 2025 paper appears to answer it and is cited from its registry
+record only. **Then it asks for the preliminary design of a demonstrator, which is the one
+recommendation that was carried out.**
+
+### The Programme, From the Signed Instrument
+
+**Twenty-seven funded milestones totalling exactly 425 million dollar**, checked against the
+appendix's own stated total rather than merely summed. **98.824 percent is paid before first
+flight**, which is itself worth 1.5 million dollar against a largest milestone 18.17 times that.
+Boeing signed 12 January 2023 and NASA the next morning, so the seven-year term expires 13 January
+2030 while the last milestone falls due August 2029.
+
+**The agreement has no pause in it.** The word appears zero times. Article 20 offers termination by
+mutual consent, termination thirty days after notice of a missed milestone, and unilateral
+termination on four grounds. **The pause landed between Milestone 9 in February 2025 and Milestone
+10, the Wing and Strut Critical Design Review, due May 2025**, which is the gate at which the wing
+would have been committed to fabrication, and the activity announced as retained is wing research.
+Through February 2025 the agreement had reached **153 million dollar, 36.00 percent**.
+
+**The award record holds one contract under the project's name, for 41,198 dollar of desk models**,
+and nine truss-braced-wing research contracts totalling **21,420,664.42 dollar**, of which
+**80LARC21F0101 at 615,042 dollar is a dedicated task for truss-braced wing structural weight
+estimation**, the quantity the keystone turns on. **Three budget books show the Integrated Aviation
+Systems Program line falling 67.8 percent for fiscal year 2029 between two successive
+justifications**, and aeronautics overall falling 37.0 percent.
+
+### The Sweep, the Gate, and What the Audit Changed
+
+**Two sweeps, 150 reports-server questions, a pool of 14,967, a gate keeping 4,238 across 17
+clusters.** The first sweep retrieved 98.2 percent of what the server reported and only one
+question hit the wall. **Nine questions returned nothing and seven were rescued by rephrasing in
+the vocabulary the registry's own titles use.**
+
+**The homonym measurements are the transferable part.** `SUGAR` returns astrophysical ice
+analogues, carbonaceous meteorites, Coccidioides immitis and blood sugar, one of ten aeronautical,
+and **`sugar aircraft` returns ten of ten**. **`aspect ratio` is aeronautical at the reports server
+and zero of ten aeronautical in the bibliographic index**, which is the second registry-dependent
+homonym this series has recorded. `strut` returns zero of ten wing braces and `truss` two of ten,
+while **`braced wing` returns ten of ten**.
+
+**THE TWO-SIDED AUDIT CHANGED THE GATE IN BOTH DIRECTIONS AND THE REFUSED SIDE MATTERED MORE.**
+Reading thirty admitted records found six that should not have been there, so a bare `aeroelastic`
+now needs an aeronautical noun, a bare `net zero` needs aviation, a bare `open rotor` needs an
+airframe, and a rotary-wing exclusion family was added. **Reading thirty refused records found an
+entire missing cluster**, being a joined-wing research aircraft, a tandem-wing spacing study and a
+blended-wing-body pre-design, none of which any pattern admitted. **`alt_config` now holds 448
+records and is the third largest in the article. A gate audited only on what it keeps cannot find
+an absence.**
+
+**One tightening failed twice on the same title.** Narrowing `aeroelastic` left an aeroelastic
+**panel** paper admitted, first because the qualifier list contained the words `model` and
+`analysis`, which qualify nothing, and then because the leak was in a second pattern entirely.
+**A panel, a plate and a shell are aeroelastic and are not wings.**
+
+### The Verifier Found Three Faults In Itself
+
+**`verify_numbers.py` passes 104 checks and the first three runs failed inside the checker.** Its
+first quadrature design was eight million evaluations and timed out, when the taper integral does
+not depend on aspect ratio and needed computing once. It then compared the article's rounded
+display strings at full precision and reported **eleven failures that were all the article's own
+rounding**, so the tolerance is now derived from the last printed digit. And a regex conversion
+moved explicit tolerances into a `scale` parameter, **rescaling one slot by ten thousand**, which
+the check caught as a 999,934 percent error. **A verifier that fails on its own display precision
+is measuring the wrong thing.**
+
+### Instruments
+
+`meas.py` the physics with every loop bounded in its header. `calc.py` the driver.
+`verify_numbers.py` 104 checks, importing nothing from `meas.py` by design. `gate_and_cluster.py`
+139 patterns, nine exclusion families, 29 keep cases and 43 refusal cases with every refusal
+re-tested hyphenated. `run_gate.py`, deliberately not named `select.py`. `homprobe.py` the homonym
+measurements. `harvest.py` and `harvest2.py`. `resolve_years.py` with its success-rate floor,
+resolving 785 of 965 at 0.813. `build_refs.py`, `emit.py` 233 slots, `assemble.py` which reports
+unused slots as well as unfilled ones, `series_line.py` which generates the opening line from the
+same mapping that emits its definitions. **`stylecheck.py` is new**, checking the project's prose
+rules on prose only after stripping tables, headings, quotations, maths and reference definitions,
+and checking that each acronym is expanded before its first bare use. `urlcheck2.py`, `symcheck.py`
+with trigonometric operators added, `mathrot.py`, `rendercheck.py`, `emrisk.py`, `site_build.sh`.
+
+### Verification State
+
+`_verify.py` 0 errors and 4 warnings, all four `progress-stale` and all four resolved by this
+commit's channel updates. The stub build takes about fifteen seconds. `_lib/render.py` reports no
+findings across 549 pages. `mathrot.py` matches 38 source display blocks against 38 rendered
+brackets with zero emphasis tags inside any expression. **`emrisk.py` confirms A363 adds nothing
+to the corpus-wide count of 72 corrupted expressions in 38 files**, which remains an open pilot
+decision. `symcheck.py` passes. `stylecheck.py` reports one finding, which is the statutory
+citation `51 U.S.C. 20113(e)` and cannot be written otherwise.
+
+### A Placeholder Identifier Was Caught Before It Shipped
+
+**A reference was entered with the digital object identifier `10.2514/6.2026-0000` as a placeholder
+while the real one was looked up.** The real identifier is `10.2514/6.2026-4344`. **A fabricated
+identifier that resolves to nothing is worse than no citation at all**, and the record is omitted
+rather than cited because the article's dateline is December 2025 and a 2026 conference paper cannot
+be used in the body.
+
 
 ## A362, Publication Review
 
