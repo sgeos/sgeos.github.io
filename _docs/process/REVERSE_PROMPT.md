@@ -5,86 +5,250 @@
 ## Last Updated
 
 **Date**: 2026-10-01
-**Task**: **A363, X-Planes: Boeing X-66, EQUATION-DENSITY REVIEW COMPLETE, the second of four
+**Task**: **A363, X-Planes: Boeing X-66, PRIMARY-REFERENCE REVIEW COMPLETE, the third of four
 passes.** Committed, **NOT PUSHED**. **Not published**, and publication of the series has never
 been authorised. **Sixty-seven of seventy-two drafted, five remain.**
 
-**A363 WENT FROM 38 DISPLAY EQUATIONS TO 82, FROM 130 INLINE EXPRESSIONS TO 188, AND FROM A
-61-ENTRY SYMBOL TABLE TO 84.** Now 9,546 lines and 53,128 words in 21 H2 and 56 H3 sections with
-19 tables and 4,064 reference definitions.
+**A363 WENT FROM 4,064 REFERENCE DEFINITIONS TO 4,537, FROM 1,035 REPORT PRIMARIES TO 1,256, AND
+FROM A 26.1 PERCENT PRIMARY SHARE TO 28.3.** Now 10,767 lines and 59,396 words, 83 display
+equations, 188 inline expressions, an 84-entry symbol table, 21 H2 and 60 H3 sections and 24 tables.
+**Both the count and the fraction rose**, which the genre document asks to be reported together.
 
-**THE PASS FOUND A DEFECT IN THE ARTICLE'S OWN KEYSTONE AND FIXING IT IMPROVED THE RESULT.** The
-optimality conditions rested on linearising the Breguet exponential and **this aeroplane's fuel
-fraction is 20.0 percent**, at which the linearisation overstates fuel by **11.585 percent**.
-Carrying the exponential introduces one factor, $\Phi = Xe^{-X}/(1-e^{-X})$, which is **0.892462**
-here, and both conditions generalise cleanly to **nu-star equals Phi delta** at fixed lift and **Phi
-delta over one minus Phi plus two Phi delta** at fixed area. Both reduce to the drafted results as
-the fuel fraction vanishes, checked at three vanishing fractions. **The exact curvature carries one
-extra term** and is **0.503772** against the linearised 0.613125, so the optimum is **17.84 percent
-flatter still**.
+**THE PASS READ THE ONE PAPER THE ARTICLE SAID IT HAD NOT READ, AND IT QUARTERS THE HEADLINE.** The
+Phase IV report's own recommendation list asked for an equivalent optimisation of cantilever and
+truss-braced aircraft of the same technology level, and a NASA Ames team published exactly that in
+January 2025, three months before the pause. **It is on the reports server and it is now read in
+full.** Under one consistent set of assumptions, the same payload, range, technology, engine and
+wing-fold rule, and **a tube-and-wing weight calibration applied to both**, it gives **1.65 percent
+at the economic nine-hundred-nautical-mile mission against Boeing's 7.2 percent**, a factor of
+**4.36**, or **5.71 percent** if the braced wing is allowed body tanks. **At the long mission the
+three figures agree within a point.** So the disagreement is about the mission and not the
+aerodynamics.
 
-**AND THAT CLOSED A GAP THE DRAFTING PASS HAD TO APOLOGISE FOR.** The linearised penalty at the
-design point was **1.9024 percent** against the Phase II report's independently optimised bound of
-**under 1.4 percent**, which needed an excuse. The exact penalty is **0.9481 percent**, which falls
-inside the bound. **A discrepancy the article was prepared to explain away was an artefact of its
-own approximation.**
+**ITS TWO NAMED CAUSES ARE EXACTLY THE TWO UNCERTAINTIES THE DRAFTING PASS HAD IDENTIFIED.** Fuel
+volume first, rated Significant, because the thin high-aspect-ratio wing cannot carry its own fuel
+without more planform. Weight calibration second, rated Moderate. **The article had raised both from
+the Phase IV tables and could not price either.**
 
-**THE LIFT EQUATION FOUND AN INCONSISTENCY IN THE PRIMARY RECORD THAT NOTHING ELSE WOULD HAVE.**
-The Phase IV drag buildup states a cruise altitude of 40,000 feet, Mach 0.80 and a lift coefficient
-of 0.695. **At maximum take-off weight those three do not hold together.** The lift coefficient at
-40,000 feet is **0.5594**, and 0.695 requires either **24.2 percent more weight than the aeroplane
-has** or an altitude of **44,515 feet**, which is **78 feet, 0.175 percent**, from the report's own
-optimum altitude in a different table. **So the buildup's lift coefficient belongs to the optimum
-altitude and the altitude printed beside it does not.**
+**AND IT INDEPENDENTLY CORROBORATES THE KEYSTONE'S OWN QUANTITY.** Its like-for-like pair gives an
+apparent weight elasticity between **-0.130 and +0.099**, every value below the article's exact
+fixed-lift target of 0.299 and **three of the four negative**, which means the braced aeroplane at
+aspect ratio 19.57 weighs less than the cantilever at 13. **That is a fourth independent route to the
+same conclusion**, after the derivation, the Phase II span optimisation and the group weight
+statement. The paper also prices the truss directly, the braced wing plus strut being **24.6 to 28.1
+percent** heavier than the cantilever wing while **the wing alone is only 1.4 to 4.3 percent
+heavier**, which is a direct measurement of the article's derived claim that a geometrically similar
+truss buys a coefficient and not an exponent.
 
-**TWO MORE INDEPENDENT CLOSURES ON THE REPORT'S OWN BUILDUP.** The equivalent flat plate area of
-27.7722 square feet over the reference area gives a parasite drag coefficient of **0.0188017**
-against the published 0.01880, an error of **0.0092 percent**, and it prices the truss at **12.422
-percent of the parasite drag area**. And the Korn relation's turning point, which the drafting pass
-located by scanning, has a **closed form** from the quadratic in the secant of sweep, agreeing with
-a seven-thousand-five-hundred-point scan on the angle and to six decimals on the peak value.
+**IT ALSO NAMES A LIMIT ON THE KEYSTONE'S REACH AND THE ARTICLE NOW STATES IT.** The braced
+aeroplane needs **25.65 percent more installed thrust** and cruises **4,250 feet higher**, and the
+paper says it spends more time climbing. **The optimality conditions are cruise-fuel conditions, and
+on a nine-hundred-nautical-mile sector this class of aeroplane does not spend most of its fuel in
+cruise.** The keystone is correct about cruise and silent about climb.
 
-**A NEW INSTANCE OF A DOCUMENTED CORRUPTION CLASS, AND `emrisk.py` WAS BLIND TO IT.** Writing
-`$\nu^{*}$` twice in one paragraph produced `\nu^{<em>}` and `\nu^{</em>}` in the rendered page.
-**Kramdown pairs ASTERISKS inside inline mathematics exactly as it pairs underscores**, and
-`emrisk.py` models only underscores. Probed directly rather than modelled, the rule is that two
-bare asterisks in a paragraph pair, one survives, and `\*` is inert. **`astrisk.py` is new and
-predicts it, and `mathcorpus.py` is new and MEASURES it in the rendered pages.**
+**READING THE FAA's OWN CIRCULAR RATHER THAN A REPRODUCTION OF ITS TABLE CORRECTED THE ARTICLE
+AGAIN.** Its Table 1-2 gives every bound in **both** unit systems and its front matter says the
+customary units govern and the metric values are soft rounded conversions. **So 118 feet and 36
+metre are one boundary written twice, not two regulators disagreeing**, and the 1.3228-inch gap is
+the rounding the circular itself warns about. The article's framing was recast accordingly.
 
-**THE CORPUS NUMBER IN THE OPEN DECISION NEEDS UPDATING AND THIS IS THE PILOT'S ITEM.**
-`mathcorpus.py` reads the built pages and finds **133 corrupted mathematical spans across 37
-pages, of which 104 are underscore-driven and 29 asterisk-driven.** That is consistent with the
-recorded 72 source-side pairs once the unit is matched, since a pair corrupts two spans, **and the
-asterisk cases were outside the existing instrument's model entirely.** A363 itself carries none,
-confirmed in the rendered page.
+**THE THIRD SWEEP WAS AIMED BY MEASUREMENT AND BOUGHT WHAT THE MEASUREMENT PREDICTED, EXCEPT WHERE
+THERE WAS NOTHING TO BUY.** The per-cluster primary share was computed first and the six thinnest
+substantive clusters taken as targets, with questions written in the report literature's own
+vocabulary. **`aspect_ratio` went from 11.9 to 23.4 percent and from 64 primaries to 167**, and
+`fuel_burn` from 28.8 to 36.2. **The vocabulary was what reached them**, and it reached **Munk's 1921
+minimum-induced-drag paper** and a **1935 analysis of a strut with a single elastic support in the
+span**, which is literally this article's jury-strut problem.
 
-**THREE DISPLAY BLOCKS SHIPPED WITH PROSE ON THE SAME LINE AND A TOKEN COUNT FOUND THEM.** Dollar
-pairs came to 164 against 79 counted blocks, which cannot both be right. **A display block with
-text after its closing delimiter is one paragraph, not a block**, which is the defect that cost
-A375 four equations to a missing blank line.
+**AND THE CLUSTER THAT MATTERS MOST BOUGHT NOTHING, WHICH IS THE HONEST NEGATIVE RESULT.** Fourteen
+questions in the airport-planning vocabulary were aimed at `span_constraint`, the cluster carrying
+the keystone. **Nine returned no records at all, the cluster grew by one record, and its report
+primaries remain at exactly zero.** The reading is that **airport design is a regulator's subject and
+not a research agency's**, so it is published as advisory circulars and aerodrome annexes rather than
+as technical reports. **The constraint this article argues is binding has no research literature
+because it is not a research question.** That is the same shape as A362's thirty-five air-budget
+questions buying three records.
 
-**AND `mathrot.py` REPORTED A MISMATCH ON A PAGE THAT WAS CORRECT.** A LaTeX line break with
-optional row spacing, `\\[4pt]`, contains the opener the counter looked for, so a piecewise
-atmosphere definition produced two more openers than closers. **The counter now requires that a
-delimiter not be preceded by another backslash.**
+**FOUR MORE PRIMARIES WERE READ AND EACH REPLACED AN ASSERTION.** A 1981 Grumman wing weight
+methodology names **non-optimum weight, minimum gages and secondary loads** in the same terms the
+article had used for its non-optimum factor, and names flutter and divergence as the penalty that
+can change an exponent rather than a coefficient. A 2016 NASA Langley paper on aero-structural
+efficiency **states the article's own methodological thesis in one sentence**, that the trade differs
+by objective. A 1980 study under NASA contract developed a business jet at **aspect ratio 25
+strut-braced**, reported fuel savings above twenty percent and noted the higher cruise altitude and
+lower wing loading, forty-five years before the Ames comparison rediscovered them as a cost. And the
+Phase I final report holds the planform optimisation every later phase inherited.
 
-**THE VERIFIER'S OWN REFERENCE TABLE WAS WRONG AGAIN, WHICH IS THE A362 DEFECT IN A NEW UNIT.**
-`neweqns.py` first checked the atmosphere against standard-atmosphere values typed from memory,
-then added a geometric-to-geopotential conversion in the wrong direction to explain the mismatch it
-had caused. **A check against numbers the author cannot source is not a check.** It now checks the
-two defining temperatures, that the two pressure branches agree at the tropopause, the barometric
-exponent against its definition, and **the hydrostatic equation itself by central difference at six
-hundred random altitudes**, which tests the model against the physics rather than against a printout.
+**ONE THING THE PASS COULD NOT GET.** Volumes II, III and IV of the Phase IV final report are not
+held by the reports server at all, so they are unavailable rather than merely unread, and the
+article now says so.
 
-**VERIFICATION.** `verify_numbers.py` **108 checks**, `neweqns.py` **94 checks** importing neither
-`meas.py` nor `calc2.py`, both passing. `_verify.py` 0 errors. `_lib/render.py` no findings across
-549 pages. `mathrot.py` matches 82 source display blocks against 82 rendered brackets with zero
-emphasis tags in any expression. `symcheck.py` passes across 84 declared symbols. `stylecheck.py`
-reports one finding, the statutory citation `51 U.S.C. 20113(e)`.
+**A QUOTATION WAS RESTRUCTURED RATHER THAN ALTERED.** The Ames paper's summary contains a
+contraction and `_verify.py` flagged it, correctly, since its check does not exclude block
+quotations as this article's own style checker does. **The source's phrases are kept inline and its
+contraction is not reproduced**, which keeps the corpus at zero new warnings without putting words
+into a source's mouth.
+
+**VERIFICATION.** `verify_numbers.py` **128 checks** and `neweqns.py` **94 checks**, both passing.
+`_verify.py` 0 errors and no new warnings. `_lib/render.py` no findings across 549 pages.
+`mathrot.py` matching 83 source display blocks against 83 rendered brackets with zero emphasis tags.
+`symcheck.py` passing. `stylecheck.py` one finding, the statutory citation. **Thirty-five
+hand-written addresses, 25 reached and 10 refused by one publisher's bot policy, every one of those
+ten verified in the registry by title, venue and year.**
 
 The older reports follow, newest first. **Nothing below this block was rewritten.**
 
 ---
+
+## A363, Primary-Reference Review
+
+**4,064 reference definitions to 4,537, report primaries 1,035 to 1,256, the primary share 26.1 to
+28.3 percent, the period count 1,641 to 1,790, and the record base's earliest year 1930 to 1921.**
+Lines 9,546 to 10,767, words 53,128 to 59,396, tables 19 to 24. Committed, **NOT PUSHED**, **NOT
+PUBLISHED**.
+
+### The Aim Was Measured Before the Sweep Was Written
+
+`before_after.py` computed the per-cluster primary share first, which is A362's rule. **The result
+named `span_constraint` as the cluster with 37 records and ZERO report primaries**, and it is the
+cluster carrying this article's own keystone. The other five thinnest were `aspect_ratio` at 11.9
+percent, `alt_config` at 12.1, `gust_loads` at 17.1, `mdo` at 17.9 and `thin_transonic` at 24.1.
+
+**The eighty questions were then written in the report literature's own vocabulary rather than the
+subject's.** A journal asks about airport compatibility and a report asks about *airplane
+characteristics for airport planning*. A journal asks about multidisciplinary optimisation and a
+report names its code, being FLOPS or ACSYNT. **That is the whole difference between a sweep that
+buys primaries and one that buys more of what the pool already has.**
+
+**It worked where there was report literature.** `aspect_ratio` went from 11.9 to **23.4 percent**
+and from 64 primaries to **167**, `fuel_burn` from 28.8 to **36.2**, `thin_transonic` from 24.1 to
+**30.5**, `high_lift` from 32.2 to **36.1**, `mdo` from 17.9 to **20.1**. The pool went from 14,967
+to 18,863 and the gated set from 4,238 to 4,744. **And the lifting-line vocabulary reached the
+foundations**, bringing in **Munk's 1921 NACA Report 121 on the minimum induced drag of aerofoils**,
+a 1922 report on the effect of aspect ratio on lift-curve slope, and a **1935 analysis of a strut
+with a single elastic support in the span**, which is this article's jury strut by another name.
+
+### And It Bought Nothing Where It Mattered Most
+
+**Fourteen questions in the airport-planning vocabulary, nine of them returning no records at all,
+bought one record and zero primaries.** `span_constraint` is still at exactly zero.
+
+**The honest reading is that this is a fact about where the knowledge lives rather than a failure of
+the sweep.** Airport design is a regulator's and an airport planner's subject. It is published as
+advisory circulars and aerodrome annexes, not as technical reports, and a research-report server
+therefore has almost none of it. **The constraint this article argues is binding has no research
+literature because it is not a research question**, and that belongs in the article for the same
+reason A362's three-record air-budget result did.
+
+### The Paper the Article Said It Had Not Read
+
+**The Phase IV report's recommendation list asked for an equivalent conceptual-level optimisation of
+cantilever and truss-braced aircraft of the same technology level, to allow a more fair and
+transparent comparison. A NASA Ames team published it in January 2025 and it is on the reports
+server.** The article had cited it from a publisher identifier and said in terms that it had not
+read it. **It is now read in full.**
+
+**What it holds equal is the point.** Same payload of 33,750 pound, same 3,400-nautical-mile design
+range, same design Mach number, same 2035 technology, same advanced direct-drive turbofan, **same
+wing-fold rule above 118 feet**, and **a tube-and-wing weight calibration applied to both** rather
+than each contractor's own.
+
+| Mission | Boeing Phase IV | Ames, fuel in wings | Ames, body tanks |
+|---|---|---|---|
+| 900 nautical mile | 7.2 percent | **1.65 percent** | 5.71 percent |
+| About 3,400 to 3,500 | 9.0 percent | 7.51 percent | 9.39 percent |
+
+**Boeing's economic-mission figure is 4.36 times the Ames figure for a wing that must carry its own
+fuel.** At the long mission the three agree within a point. **The disagreement is about the mission
+and not about the aerodynamics.**
+
+**The two causes it names and ranks are exactly the two the drafting pass had identified and could
+not price.** Fuel volume, rated Significant, because the thin high-aspect-ratio wing cannot carry
+all the fuel without a significant increase in planform area. Weight calibration, rated Moderate,
+because the empty weight and fuel burn both rise under the tube-and-wing calibration.
+
+### A Fourth Independent Route to the Keystone
+
+**Its like-for-like pair is the closest thing to a measurement of the weight elasticity that this
+subject's public record contains.** Four readings give **-0.00384, -0.12956, -0.00282 and +0.09926**,
+every one below the exact fixed-lift target of **0.299033**, the largest short by **66.8 percent**,
+and **three of four negative**, meaning the braced aeroplane at aspect ratio 19.57 weighs less than
+the cantilever at 13.
+
+**An elasticity from a pair is not a derivative** and the article says so, because the two aeroplanes
+differ in span, area, thrust and altitude too. **What it establishes is magnitude**, and the
+magnitude agrees with the three readings computed from the Phase IV group weight statement, which ran
+from 0.0775 to 0.2749. **Four routes, one conclusion.**
+
+**And it prices the truss directly against a cantilever of the same technology**, which is the
+comparison the Phase IV report said had not been made fairly. Wing plus strut is **24.58 percent**
+heavier on the contractor's calibration and **28.10 percent** on the harsher one, while **the wing
+alone is only 1.38 and 4.28 percent heavier**. **The strut is almost the whole penalty**, which is a
+direct measurement of the derived claim that a geometrically similar truss buys a coefficient rather
+than an exponent.
+
+### The Limit on the Keystone's Reach
+
+**The braced aeroplane needs 25.65 percent more sea-level static thrust and cruises 4,250 feet
+higher, with a 12.92 percent better start-of-climb lift-to-drag ratio.** The paper says it spends
+more time climbing, which pronounces the engine-efficiency differences.
+
+**So the aerodynamic advantage is real and the short mission spends it.** The optimality conditions
+derived in this article are cruise-fuel conditions, and **an aspect ratio chosen to minimise cruise
+fuel is being chosen against the wrong objective for the mission this class flies most often.** The
+article now states that as a limit and does not derive a climb-inclusive condition.
+
+### The Circular Corrected the Article a Second Time
+
+**The article had cited the FAA's airport design circular for a table it had read in a NASA
+memorandum. This pass read the circular.** Its Table 1-2 gives every bound in **both** unit systems,
+and its front matter settles the question.
+
+> Throughout this AC, U.S. customary units are used followed with "soft" (rounded) conversion to metric units. The U.S. customary units govern.
+
+**So 118 feet and 36 metre are one boundary written twice and the circular declares which writing
+governs.** The 1.3228-inch gap is the rounding the circular warns about, not a disagreement between
+two authorities. **The article's framing was recast and every downstream passage with it**, and the
+reproduced table now prints both unit columns as the circular does.
+
+### Three More Primaries Each Replaced an Assertion
+
+**The non-optimum factor now has a source.** A 1981 Grumman methodology prepared for NASA describes
+the whole class of wing weight equations as a rational bending-material model with regression
+constants absorbing **non-optimum weight, minimum gages and secondary loads**, which is what the
+article had asserted in its own words. **The same report names flutter and divergence as the penalty
+that can change an exponent**, which is the article's own named soft spot.
+
+**The methodological thesis now has a source too.** A 2016 NASA Langley paper deriving an
+aero-structural efficiency metric states that the trade differs by objective in one sentence, and
+its metric is the lift-to-drag ratio that would give the same fuel consumption with a weightless
+wing, coming out eleven to twelve percent below the aerodynamic value for a 737-class aeroplane.
+**This article reaches the same place by the derivative route.**
+
+**And the stationary aspect ratio turns out not to be novel.** A 1980 study under NASA contract
+NAS1-16000 developed a business jet with an **aspect ratio 25 strut-braced high wing**, reported fuel
+savings above twenty percent, and noted the higher cruise altitude and lower wing loading that the
+2025 comparison rediscovered as a cost. **The article records the coincidence of magnitude and
+declines to claim more**, because the report does not say how the 25 was chosen and a business jet is
+a different class.
+
+### What Could Not Be Got, and One Repair
+
+**Volumes II, III and IV of the Phase IV final report are not held by the reports server at all.**
+The article now says they are unavailable through this channel rather than merely unread.
+
+**A quotation was restructured rather than altered.** The Ames summary contains a contraction and
+`_verify.py` flagged it, correctly, since its contraction check does not exclude block quotations as
+`stylecheck.py` does. **The source's own phrases are kept inline and its contraction is not
+reproduced**, which keeps the corpus at no new warnings without putting words into a source's mouth.
+
+### Instruments
+
+`before_after.py` the per-cluster measurement, run twice to produce the before-and-after table.
+`harvest3.py` the aimed sweep, 80 reports-server questions plus 15 and 15. `primhunt.py` the
+document hunt, eleven targets and eight full texts. `fairpair.py` the like-for-like arithmetic.
+`urlcheck2.py` re-run across 35 addresses.
+
 
 ## A363, Equation-Density Review
 

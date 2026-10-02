@@ -599,76 +599,77 @@ and the Bloomberg model is not public. The article labels all three as such.
 ## X-Planes Boeing X-66 A363 2025-12-11
 
 `x_planes_boeing_x66.markdown`, A363, editorial date 2025-12-11, series `x_planes` index 67,
-categories `aerospace history engineering`. **DRAFTING AND EQUATION-DENSITY PASSES COMPLETE, two of
-four. Committed and NOT PUSHED**, which is the rhythm for passes one to three. **NOT PUBLISHED**, and
-publication of the series has never been authorised.
+categories `aerospace history engineering`. **DRAFTING, EQUATION-DENSITY AND PRIMARY-REFERENCE
+PASSES COMPLETE, three of four. Committed and NOT PUSHED**, which is the rhythm for passes one to
+three. **NOT PUBLISHED**, and publication of the series has never been authorised.
 
-**9,546 lines, 53,128 words, 82 display equations, 188 inline expressions, an 84-entry symbol table
-and 4,064 reference definitions**, in 21 H2 and 56 H3 sections with 19 tables. The equation-density
-review took display equations from 38 to **82**, inline expressions from 130 to **188**, and the
-symbol table from 61 entries to **84**. The reference base is 19 primary documents written by hand
-after reading, 11 research records cited by hand, 66 prior articles of the series, and **3,969 gated
-research records with 1,035 report primaries at 26.1 percent**, a period count of 1,641 at 43.9
-percent and a median year of 2012.
+**10,767 lines, 59,396 words, 83 display equations, 188 inline expressions, an 84-entry symbol table
+and 4,537 reference definitions**, in 21 H2 and 60 H3 sections with 24 tables. The reference base is
+21 primary documents written by hand after reading, 14 research records cited by hand with their
+depth of reading recorded, 66 prior articles of the series, and **4,436 gated research records with
+1,256 report primaries at 28.3 percent**, a period count of **1,790 at 42.6 percent**, a median year
+of 2012 and a range from **1921** to 2026. **Both the primary count and the primary fraction rose
+over the pass**, from 1,035 and 26.1 percent.
 
 **THE KEYSTONE IS INFRASTRUCTURAL.** The wing folds at 118 feet and **118 feet is exactly where the
-Federal Aviation Administration's Airplane Design Group III ends, to the inch**, against a bound that
-is exclusive. ICAO draws the same line at 36 metre, which is 118.1102 feet, **so the two regulators
-disagree by 1.3228 inch and the fold station sits in the gap**. The fold is worth **35.96 percent in
-lift-to-drag ratio** and everything the aerodynamic optimum has left beyond the chosen span is worth
-**0.9481 percent** in fuel.
+Federal Aviation Administration's Airplane Design Group III ends**, against a bound that is
+exclusive. **Reading the circular rather than a reproduction of its table showed that 118 feet and 36
+metre are one boundary written twice**, its front matter stating that the customary units govern and
+the metric values are soft rounded conversions, so the 1.3228-inch gap is that rounding rather than a
+disagreement between two authorities. The fold is worth **35.96 percent in lift-to-drag ratio** and
+the remaining aerodynamic optimum **0.9481 percent** in fuel on the exact Breguet treatment.
 
-**THE EQUATION-DENSITY REVIEW CORRECTED THE ARTICLE'S OWN KEYSTONE AND IMPROVED THE RESULT.** The
-optimality conditions rested on linearising the Breguet exponential and **this aeroplane's fuel
-fraction is 20.0 percent**, at which the linearisation overstates fuel by 11.585 percent. Carrying
-the exponential introduces one factor, **0.892462** here, and both conditions generalise to
-**nu-star equals Phi delta** at fixed lift and **Phi delta over one minus Phi plus two Phi delta**
-at fixed area, both reducing to the drafted forms as the fuel fraction vanishes. **The exact
-curvature is 0.503772 against 0.613125, so the optimum is 17.84 percent flatter still**, and the
-penalty at the design point falls from 1.9024 to **0.9481 percent**, which now falls **inside** the
-Phase II report's independently optimised bound of under 1.4 percent rather than above it. **A
-discrepancy the drafting pass was prepared to explain away was an artefact of its own
-approximation.**
+**THE EQUATION-DENSITY PASS CORRECTED THE KEYSTONE'S OWN APPROXIMATION.** Carrying the Breguet
+exponential rather than linearising it introduces one factor, **0.892462** at this aeroplane's
+twenty percent fuel fraction, giving **nu-star equals Phi delta** at fixed lift and **Phi delta over
+one minus Phi plus two Phi delta** at fixed area, both reducing to the drafted forms as the fuel
+fraction vanishes. The penalty at the design point fell from 1.9024 to **0.9481 percent**, which now
+falls inside the Phase II report's independently optimised bound of under 1.4 percent rather than
+above it.
 
-**THE LIFT EQUATION FOUND AN INCONSISTENCY IN THE PRIMARY RECORD.** The Phase IV drag buildup states
-40,000 feet, Mach 0.80 and a lift coefficient of 0.695, and at maximum take-off weight those three do
-not hold together. The lift coefficient there is **0.5594**, and 0.695 requires either **24.2 percent
-more weight than the aeroplane has** or an altitude of **44,515 feet**, which is 78 feet from the
-report's own optimum altitude in a different table.
+**THE PRIMARY-REFERENCE PASS READ THE PAPER THE ARTICLE SAID IT HAD NOT READ.** The Phase IV report
+asked for an equivalent optimisation of cantilever and truss-braced aircraft of the same technology
+level, and a NASA Ames team published it in January 2025. Holding payload, range, technology, engine
+and the wing-fold rule equal and applying a tube-and-wing weight calibration to both, **it gives 1.65
+percent at the economic nine-hundred-nautical-mile mission against Boeing's 7.2**, a factor of
+**4.36**, or 5.71 percent with body tanks, while **at the long mission the three figures agree within
+a point**. Its two ranked causes, fuel volume and the weight calibration, **are exactly the two
+uncertainties the drafting pass had named and could not price.**
 
-**TWO MORE INDEPENDENT CLOSURES.** The equivalent flat plate area over the reference area gives a
-parasite drag coefficient of **0.0188017** against the published 0.01880, an error of **0.0092
-percent**. And the Korn turning point, which the drafting pass located by scanning, has a **closed
-form** agreeing with the scan on the angle and to six decimals on the peak.
+**IT IS ALSO A FOURTH INDEPENDENT ROUTE TO THE KEYSTONE.** Its like-for-like pair gives apparent
+weight elasticities of **-0.00384, -0.12956, -0.00282 and +0.09926**, every one below the exact
+fixed-lift target of 0.299033 and three of four negative, and it prices the truss at **24.6 to 28.1
+percent** on the cantilever wing while **the wing alone is 1.4 to 4.3 percent heavier**, directly
+measuring the derived claim that a geometrically similar truss buys a coefficient and not an
+exponent. **And it names a limit on the keystone**, the braced aeroplane needing 25.65 percent more
+installed thrust and cruising 4,250 feet higher, so a cruise-fuel condition is the wrong objective
+for a nine-hundred-nautical-mile sector.
 
-**A NEW INSTANCE OF A DOCUMENTED CORRUPTION CLASS.** Kramdown pairs **asterisks** inside inline
-mathematics exactly as it pairs underscores, which `emrisk.py` does not model. **`astrisk.py`
-predicts it and `mathcorpus.py` measures it in the rendered pages**, finding **133 corrupted spans
-across 37 pages, 104 underscore-driven and 29 asterisk-driven**. **A363 carries none.**
+**THE THIRD SWEEP WAS AIMED BY MEASUREMENT AND REPORTED WHAT IT BOUGHT, INCLUDING NOTHING.**
+`aspect_ratio` went from 11.9 to **23.4 percent** and 64 primaries to **167**, and the lifting-line
+vocabulary reached **Munk's 1921 NACA Report 121** and a **1935 analysis of a strut with a single
+elastic support in the span**. **But fourteen airport-planning questions, nine returning nothing at
+all, bought one record and zero primaries**, leaving `span_constraint` at exactly zero, because
+airport design is a regulator's subject published as advisory circulars rather than technical
+reports.
 
-**THREE EXPECTATIONS OF THE DRAFTING PASS WERE OVERTURNED BY DERIVING THEM**, being that a
-geometrically similar truss leaves the exponent at exactly three halves, that the bending-material
-model's nine percent agreement is a coincidence of two large errors, and that the Korn relation is
-not monotone in sweep.
+**THREE MORE PRIMARIES EACH REPLACED AN ASSERTION**, being a 1981 Grumman wing weight methodology
+that names non-optimum weight, minimum gages and secondary loads in the article's own terms, a 2016
+NASA Langley aero-structural efficiency paper that states the article's methodological thesis in one
+sentence, and a 1980 NASA-contracted study that developed a business jet at **aspect ratio 25
+strut-braced**. **Volumes II, III and IV of the Phase IV report are not held by the reports server at
+all.**
 
-**THE PROGRAMME RECORD IS FROM THE SIGNED INSTRUMENT.** The Funded Space Act Agreement PAM 36785 was
-read in full and lists **twenty-seven milestones summing to exactly 425 million dollar**, of which
-**98.8235 percent is paid before first flight**. **The word pause appears zero times in it.** The
-pause landed between Milestone 9 in February 2025 and Milestone 10, the Wing and Strut Critical
-Design Review, due May 2025. **The federal award record holds one contract under the project's name,
-for 41,198 dollar of desk models.**
-
-**VERIFICATION.** `verify_numbers.py` **108 checks** and `neweqns.py` **94 checks**, both passing,
+**VERIFICATION.** `verify_numbers.py` **128 checks** and `neweqns.py` **94 checks**, both passing,
 the latter importing neither the calculation module nor the equation pass's own. `_verify.py` 0
-errors across 303 posts. The stub-isolated production build succeeds in about fifteen seconds against
-checksum-matched bytes, and **the rendered audit reports no findings across 549 pages**. **Source and
-rendered display counts agree at 82** and no expression in the page carries an emphasis tag.
-`symcheck.py` passes across 84 declared symbols after **seven collisions were resolved before they
-shipped**. `stylecheck.py` reports zero contractions, zero dashes, zero prose colons and zero prose
-semicolons, with one finding that is the statutory citation `51 U.S.C. 20113(e)`.
+errors across 303 posts and no new warnings. The stub-isolated production build succeeds against
+checksum-matched bytes and **the rendered audit reports no findings across 549 pages**. **Source and
+rendered display counts agree at 83** and no expression in the page carries an emphasis tag.
+`symcheck.py` passes across 84 declared symbols. `stylecheck.py` reports one finding, the statutory
+citation `51 U.S.C. 20113(e)`. **Thirty-five hand-written addresses, 25 reached and 10 refused by one
+publisher's bot policy, all ten verified in the registry by title, venue and year.**
 
-**REMAINING WORK.** Two passes, being reference density with an emphasis on primary references, and
-the publication review, which is the pass that also pushes.
+**REMAINING WORK.** One pass, the publication review, which is the pass that also pushes.
 
 ## X-Planes Aurora Flight Sciences X-65 CRANE A362 2025-12-10
 

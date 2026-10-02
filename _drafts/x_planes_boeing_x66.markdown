@@ -20,7 +20,10 @@ The X-66A was allocated on 3 May 2023 to Boeing, with the engines cell reading `
 
 > Transonic Truss-Braced Wing demonstrator, a highly modified MD-90 for Sustainable Flight Demonstrator project
 
-That much is widely reported. What is not reported is that the wing the demonstrator exists to prove folds at **118 feet of span**, and that **118 feet is exactly where the Federal Aviation Administration's Airplane Design Group III ends**. The International Civil Aviation Organization, hereafter ICAO, draws the equivalent line at **36 metre**, which is **118.1102 feet**, so the two regulators disagree about the same boundary by **1.3228 inch** and the fold station sits in the gap. Unfolded the span is **170 feet**, which clears the next boundary up by **12 inch** by the FAA's reckoning and **7.24 inch** by ICAO's. Both figures come from the final reports of Subsonic Ultra Green Aircraft Research, the research programme whose acronym is SUGAR and which this article cites repeatedly by that short form \[[SUGAR Phase IV final report][ref_cr_phase4]\] \[[SUGAR Phase II volume I][ref_cr_phase2_vol1]\].
+That much is widely reported. What is not reported is that the wing the demonstrator exists to prove folds at **118 feet of span**, and that **118 feet is exactly where the Federal Aviation Administration's Airplane Design Group III ends**. The International Civil Aviation Organization, hereafter ICAO, states the equivalent line in metres
+at **36**, which is **118.1102 feet**, and the FAA's own circular prints
+both while declaring that the customary value governs. **The two renderings differ by
+1.3228 inch and the fold station sits inside that rounding.** Unfolded the span is **170 feet**, which clears the next boundary up by **12 inch** by the FAA's reckoning and **7.24 inch** by ICAO's. Both figures come from the final reports of Subsonic Ultra Green Aircraft Research, the research programme whose acronym is SUGAR and which this article cites repeatedly by that short form \[[SUGAR Phase IV final report][ref_cr_phase4]\] \[[SUGAR Phase II volume I][ref_cr_phase2_vol1]\].
 
 **An aeroplane wedged into a two-letter gap of an aerodrome reference code is not an aerodynamic object. It is an infrastructural one**, and the question this article asks is what that costs.
 
@@ -464,7 +467,22 @@ figure.
 
 ## The Optimality Condition, Which Depends On What Is Held Fixed
 
-**This is the keystone, and the first thing to say about it is that there is not one condition but two, because "the optimal aspect ratio" is not a property of an aeroplane.** It is a property of an aeroplane together with a statement of what is being held fixed while the aspect ratio moves, and the two natural statements give two different exact answers. A great deal of loose argument about high-aspect-ratio wings comes from not saying which.
+**This is the keystone, and the first thing to say about it is that there is not one condition but
+two, because "the optimal aspect ratio" is not a property of an aeroplane.** It is a property of an
+aeroplane together with a statement of what is being held fixed while the aspect ratio moves, and
+the two natural statements give two different exact answers. A great deal of loose argument about
+high-aspect-ratio wings comes from not saying which.
+
+**That is not this article's observation alone.** A NASA Langley paper deriving a metric for
+aero-structural efficiency, which is the same trade approached with a different instrument, states
+the same dependence in one sentence \[[Guynn 2016][research_guynn_2016]\].
+
+> The nature of the trade-off actually varies depending on the overall objective of the design. In other words, the L/D and wing weight trades will be different if the designer's focus is aircraft weight, cost, or fuel consumption.
+
+**Its metric is defined as the lift-to-drag ratio that would return the same fuel consumption if the
+wing weighed nothing**, and for a 737-class aeroplane it comes out eleven to twelve percent below
+the aerodynamic lift-to-drag ratio. **This article takes the derivative route instead and arrives at
+the same place**, which is that a span trade has no answer until an objective is named.
 
 Start from the fuel. Over a cruise leg of range $R$ at true airspeed $V$ with thrust specific fuel consumption $c_T$, the Breguet relation gives the fuel burned, and for a fuel fraction small enough that the exponential may be linearised it reduces to a product.
 
@@ -714,18 +732,33 @@ report says so in terms.
 
 ### Two Spans, Two Code Letters, And Margins Measured in Inches
 
-ICAO classifies aerodromes by a reference code whose letter is set by the wingspan of the aircraft the aerodrome is built for, and the Federal Aviation Administration, hereafter FAA, carries an equivalent classification into numbered Airplane Design Groups. **The two classifications are the same classification and their numbers are not the same numbers**, which is the finding this section turns on. The March 2025 technical memorandum on airport operations reproduces the whole table from the FAA's airport design circular \[[airport operations memorandum][ref_tm_airport_ops]\] \[[FAA airport design][ref_faa_ac_airport_design]\].
+ICAO classifies aerodromes by a reference code whose letter is set by the wingspan of the aircraft
+the aerodrome is built for, and the FAA carries an equivalent classification into numbered Airplane
+Design Groups. **The primary-reference review went to the FAA's own circular rather than to the
+NASA memorandum that reproduces its table, and the circular settles something the reproduction
+cannot.** Its Table 1-2 gives each bound in both unit systems \[[FAA airport design][ref_faa_ac_airport_design]\].
 
 | FAA group | ICAO code | Tail height | Wingspan |
 |---|---|---|---|
-| I | A | below 20 foot | below 49 foot |
-| II | B | 20 to below 30 foot | 49 to below 79 foot |
-| III | C | 30 to below 45 foot | 79 to below 118 foot |
-| IV | D | 45 to below 60 foot | 118 to below 171 foot |
-| V | E | 60 to below 66 foot | 171 to below 214 foot |
-| VI | F | 66 to below 80 foot | 214 to below 262 foot |
+| I | A | below 20 foot, below 6 metre | below 49 foot, below 15 metre |
+| II | B | 20 to below 30 foot, 6 to below 9 metre | 49 to below 79 foot, 15 to below 24 metre |
+| III | C | 30 to below 45 foot, 9 to below 13.5 metre | 79 to below 118 foot, 24 to below 36 metre |
+| IV | D | 45 to below 60 foot, 13.5 to below 18.5 metre | 118 to below 171 foot, 36 to below 52 metre |
+| V | E | 60 to below 66 foot, 18.5 to below 20 metre | 171 to below 214 foot, 52 to below 65 metre |
+| VI | F | 66 to below 80 foot, 20 to below 24.5 metre | 214 to below 262 foot, 65 to below 80 metre |
 
-**Every FAA bound in that table is a round number of feet and every bound is exclusive**, so an aeroplane whose span equals a bound belongs to the group above it. ICAO draws the same two lines in metres, at **36 metre** for Code C and **52 metre** for Code D, which are **118.1102 feet** and **170.6037 feet**. **The Code C bound and the Group III bound therefore differ by 1.3228 inch**, because one regulator rounded in metres and the other in feet.
+**Three features of that table are load-bearing.** Every bound is a round number of feet. **Every
+bound is exclusive**, so an aeroplane whose span equals a bound belongs to the group above it. And
+the metric column is not an independent standard. The circular says so in its own front matter.
+
+> Throughout this AC, U.S. customary units are used followed with "soft" (rounded) conversion to metric units. The U.S. customary units govern.
+
+**So 118 feet and 36 metre are the same boundary, written twice, and the circular declares which
+writing governs.** They are not equal. **118 feet is 35.9664 metre and 36 metre is
+118.1102 feet, a difference of 1.3228 inch**, which is exactly the rounding
+the circular warns about. ICAO's Annex 14 states its limit in metres natively, so **the same fold
+station clears Code C and does not reach Group III**, and the apparent latitude between them is an
+artefact of a soft conversion rather than a disagreement between two authorities.
 
 The Phase II report states the intent plainly.
 
@@ -746,7 +779,7 @@ The Phase IV report gives the fold station for the Mach 0.80 wing in one sentenc
 | Unfolded | 170 | 170.6037 | 7.24 | 171 | 12 |
 | Folded | 118 | 118.1102 | 1.32 | 118 | 0 |
 
-**The fold station is not near the Federal Aviation Administration's Group III boundary. It is exactly on it, to the inch.** The Phase IV report puts the fold at 118 feet of span and the FAA's Group III runs from 79 feet up to but **not including** 118 feet, so **the margin is exactly zero** and a span of exactly 118.000 feet is a Group IV aeroplane rather than a Group III one.
+**The fold station is not near the FAA's Group III boundary. It is exactly on it, to the inch.** The Phase IV report puts the fold at 118 feet of span and the FAA's Group III runs from 79 feet up to but **not including** 118 feet, so **the margin is exactly zero** and a span of exactly 118.000 feet is a Group IV aeroplane rather than a Group III one.
 
 **The airport-operations memorandum states the condition in the strict form and that is the strongest evidence that the boundary is the design driver.**
 
@@ -754,7 +787,10 @@ The Phase IV report gives the fold station for the Mach 0.80 wing in one sentenc
 
 \[[airport operations memorandum][ref_tm_airport_ops]\]
 
-**Less than 118 feet, and the wing folds at 118 feet.** Whether that is a rounding in the Phase IV report, a detail of an inch that nobody wrote down, or a genuine gap between two NASA documents is **not settled by the record**, and this article records the discrepancy rather than resolving it. **What is settled is that ICAO's bound is 1.3228 inch looser**, since 36 metre is 118.1102 feet, so the same fold station clears Code C by **1.32 inch** while clearing Group III by nothing at all. **The fold sits inside the gap between two regulators' roundings of the same line.**
+**Less than 118 feet, and the wing folds at 118 feet.** Whether that is a rounding in the Phase IV report, a detail of an inch that nobody wrote down, or a genuine gap between two NASA documents is **not settled by the record**, and this article records the discrepancy rather than resolving it. **What is settled is that ICAO's bound is 1.3228 inch looser**, since
+36 metre is 118.1102 feet, so the same fold station clears Code C by
+**1.32 inch** while clearing Group III by nothing at all. **The fold sits inside the
+rounding, and the circular's own front matter says the rounding does not govern.**
 
 The unfolded span is less dramatic and still tight. It clears ICAO's Code D bound of 170.6037 feet by **7.24 inch** and the FAA's Group IV bound of 171 feet by **12 inch**, which is one foot exactly. In metric terms the two spans are **51.816 metre** and **35.9664 metre**, leaving **0.1840 metre** and **0.0336 metre** against ICAO's two bounds, and those are the figures a European reader will recognise.
 
@@ -868,7 +904,23 @@ published bending material**, and the ratio of the two has a name.
 
 $$ k_{\mathrm{no}} = \frac{W_b^{\,\mathrm{published}}}{\text{relief}\left(\eta,\lambda\right) \, W_b^{\,\mathrm{model}}} = 7.88 $$
 
-That factor is the honest measure of everything this model omits, and it has a name in wing weight estimation, which is non-optimum material. It is the material present for load cases other than the design bending moment, for damage tolerance, for manufacturing minimum gauges, for joints and cut-outs, for fuel sealing and for the fact that skins carrying bending also carry torsion and shear. **It is approximately constant across aspect ratios, which is exactly why the keystone survives being unable to predict it.**
+That factor is the honest measure of everything this model omits, and **it is not this article's
+coinage.** A 1981 methodology report prepared for NASA by Grumman Aerospace describes the whole
+class of wing weight estimating equations in the same terms, and names the same three omissions
+\[[Grumman wing weight methodology][research_wing_weight_1981]\].
+
+> These methods rely on a rational, though certainly simplified, model for (at least) bending material and determination of constants, coefficients and exponents by a regression or similar analysis to include non-theoretical influences on the box beam weight. Such influences as non-optimum weight, minimum gages and secondary loads, and other design requirements
+
+**So the structure of the model used here is the structure the field uses**, being a rational
+bending-material core with a regression-determined factor in front of it, and the factor absorbs
+non-optimum weight, minimum gauges and secondary loads. **That report also names the one mechanism
+that could change the exponent rather than the coefficient.**
+
+> Wing weight may be penalized by flutter and divergence.
+
+**The non-optimum factor is approximately constant across aspect ratios and the flutter penalty is
+not, which is exactly why the keystone survives being unable to predict the first and is exposed to
+the second.**
 
 ### Why a Shallow Strut Is an Expensive Way to Carry a Vertical Load
 
@@ -915,6 +967,31 @@ $$ W_b^{\,\mathrm{braced}} = \text{relief}(\eta, \lambda) \times \frac{\rho_m \,
 $$ A^{*} \propto k_w^{-1/(n+1)}, \qquad \left.\frac{d\ln A^{*}}{d\ln k_w}\right|_{n=3/2} = -0.4 $$
 
 **So a reduction in the weight coefficient moves the optimum aspect ratio by only two fifths of its own size in logarithm.** Cutting $k_w$ to nine tenths raises the optimum aspect ratio by **4.30 percent** and cutting it to four fifths raises it by **9.34 percent**. **A truss that halved the bending material would move the optimum aspect ratio by about thirty-two percent, not by a factor of two**, and the flatness result then says that the fuel consequence of such a move is small.
+
+### A 1980 Study Picked Aspect Ratio Twenty-Five
+
+**The primary-reference review found that this article's stationary aspect ratio was selected by a
+design study forty-five years earlier, for a different aeroplane, and that the coincidence of
+magnitude is worth recording while the coincidence of reasoning is not available.**
+
+A study under NASA contract NAS1-16000, reported in October 1980, developed a subsonic business jet
+employing **an aspect ratio 25 strut-braced high wing**, with lifting struts chosen over non-lifting
+ones for the induced-drag improvement \[[aspect ratio 25 strut-braced business jet][research_ar25_bizjet_1980]\].
+Its findings read remarkably like the 2025 ones.
+
+> The strut-braced wing airplane cruises at higher altitudes and lower speeds
+
+> due to its larger wing, the strut-braced wing airplane has a much lower wing loading than the conventional wing airplane
+
+> a fuel savings in excess of twenty percent is realized with the strut-braced wing design
+
+**This article's linearised stationary aspect ratio is 25.100 and its exact one is
+23.754.** A 1980 study selecting 25 for a strut-braced wing is a coincidence of magnitude
+and **this article does not claim it is more than that**, because a business jet is a different
+weight class, a different mission and a different wing loading, and because the report does not say
+how the 25 was chosen. **What it does establish is that the figure is not novel and that the
+configuration's higher cruise altitude and lower wing loading were understood forty-five years
+ago**, which the Ames comparison rediscovered as a cost on the short mission.
 
 **That is the uncomfortable corollary of the keystone.** If the optimum is flat and insensitive to the weight coefficient, then the structural achievement of the truss cannot by itself be worth very much in fuel, and the value has to come from somewhere else. The two places it comes from are the fold, computed above at **36.0 percent** of lift-to-drag ratio, and the thin wing, which is the subject of the next section.
 
@@ -1250,7 +1327,121 @@ What was actually accomplished is nonetheless substantial and is not flight test
 
 **Boeing's own final report recommends that the comparison on which the entire concept rests be done fairly, which is a statement that it has not been.** The 7.2 and 9.0 percent figures are against an aspect ratio 13 conventional aeroplane of equivalent technology, and the report is asking for both sides of that comparison to be optimised to the same standard before the numbers are believed.
 
-**There is a 2025 paper that appears to answer it.** A NASA Ames team published a quantification of design trade-offs comparing the transonic truss-braced wing to an advanced tube-and-wing aircraft at the January 2025 SciTech forum \[[Recine and others 2025][research_recine_2025]\]. **This article knows it only from its registry record and has not read it**, so what it concludes is not reported here. Its existence, five years after the recommendation and three months before the pause, is recorded because a reader tracing this question should start there.
+### The Comparison Was Done, and It Quarters the Short-Mission Benefit
+
+**A NASA Ames team did it, and the primary-reference review of this article read the result.** The
+paper was presented at the January 2025 SciTech forum, five years after the recommendation and three
+months before the pause, and it compares the transonic truss-braced wing with an advanced
+tube-and-wing aeroplane under a single consistent set of assumptions
+\[[Recine and others 2025][ref_recine_2025]\].
+
+**What makes it the fair comparison is the list of things it holds equal.** The same payload of
+33,750 pound, the same design range of 3,400 nautical mile, the same design
+Mach number, the same 2035 aerodynamic and structural technology, the same advanced direct-drive
+turbofan with a fan pressure ratio of 1.50, **the same wing-fold rule above 118 feet**, and
+critically **a tube-and-wing-based weight calibration applied to both** rather than the
+contractor's own calibration applied to one of them.
+
+| Quantity | Advanced tube and wing | Truss-braced, fuel in wings | Truss-braced, body tanks allowed |
+|---|---|---|---|
+| Aspect ratio | 13 | 19.57 | 19.57 |
+| Wing span, foot | 128.7 | 170.7 | 155.2 |
+| Wing area, square foot | 1,317.7 | 1,489.6 | 1,231.2 |
+| Gross take-off weight, pound | 140,073 | 139,853 | 132,843 |
+| Empty weight, pound | 72,435 | 73,863 | 67,586 |
+| Cruise altitude, foot | 40,500 | 44,750 | 42,750 |
+| Start-of-climb lift-to-drag ratio | 20.9 | 23.6 | 22.8 |
+| Sea-level static thrust, pound | 18,525 | 23,277 | 20,810 |
+| Fuel burn at 3,400 nautical mile, pound | 24,201 | 22,384 | 21,929 |
+| Fuel burn at 900 nautical mile, pound | 7,204 | 7,085 | 6,793 |
+
+**At the long mission the two accounts agree closely. At the economic mission they do not agree at
+all.**
+
+| Mission | Boeing Phase IV | Ames, fuel in wings | Ames, body tanks allowed |
+|---|---|---|---|
+| 900 nautical mile | 7.2 percent | 1.65 percent | 5.71 percent |
+| About 3,400 to 3,500 nautical mile | 9.0 percent | 7.51 percent | 9.39 percent |
+
+**On the economic mission Boeing's figure is 4.36 times the Ames figure for a wing that
+must carry its own fuel, and 1.26 times the figure with body tanks allowed.** On the
+long mission the three figures are within a point of one another. **So the disagreement is not about
+the aerodynamics. It is about the mission.**
+
+**The paper names the two causes and ranks them.** The first is fuel volume, which this article
+raised from the Phase IV tables and could not price. Its summary names the effect as **Body Tanks
+Allowed vs. All Fuel in Wings**, describes the mechanism as the thin high-aspect-ratio wing being
+unable to carry all the fuel **without a significant increase in the planform area**, and rates its
+impact on the crossover range as **Significant**, putting it between under three hundred and about
+two thousand nautical mile.
+
+The second is the weight calibration, which is the quantity the Phase IV report calls its own largest
+uncertainty.
+
+> SUGAR reports vs. T&W [...] The TTBW empty weight and fuel burn increase when using the T&W calibration [...] Moderate
+
+**So both of the uncertainties this article named in its drafting pass are exactly the two the fair
+comparison finds to dominate**, and the fuel-volume one is the larger. That is a satisfying outcome
+for an article that had identified them and an uncomfortable one for the seven point two percent.
+
+### Why the Short Mission Loses It, Which Is Not a Weight Effect
+
+**The aerodynamic advantage in the fair comparison is real and large.** Start-of-climb lift-to-drag
+ratio is **12.92 percent** better. What the short mission does is spend it.
+
+**The braced aeroplane needs 25.65 percent more sea-level static thrust and cruises
+4,250 feet higher**, and the paper says what that costs.
+
+> The TTBW spends more time climbing and cruises higher, pronouncing differences in engine efficiency during climb and cruise
+
+**That is a limit on this article's keystone and it should be stated as one.** The optimality
+conditions derived above are cruise-fuel conditions. **On a nine-hundred-nautical-mile sector a
+single-aisle aeroplane does not spend most of its fuel in cruise**, and an aspect ratio chosen to
+minimise cruise fuel is being chosen against the wrong objective for the mission the aeroplane
+actually flies most often. The keystone is correct about cruise and silent about climb.
+
+### And It Independently Corroborates the Keystone's Own Quantity
+
+**The fair comparison is a like-for-like pair of aeroplanes differing in aspect ratio, which is the
+closest thing to a measurement of the weight elasticity that this subject's public record
+contains.** Taking logarithms of the weight ratio over the aspect-ratio ratio gives an apparent
+elasticity.
+
+$$ \nu_{\mathrm{apparent}} = \frac{\ln\left(W_2/W_1\right)}{\ln\left(A_2/A_1\right)} $$
+
+| Pair | Apparent elasticity on gross weight |
+|---|---|
+| Fuel in wings | -0.00384 |
+| Body tanks allowed | -0.12956 |
+| Weight table, contractor calibration | -0.00282 |
+| Weight table, tube-and-wing calibration | +0.09926 |
+
+**Every one of the four is below the article's exact fixed-lift target of 0.299033, and
+three of the four are negative.** The largest is **0.09926**, which is
+**66.8 percent short of the target**. **A negative elasticity means the braced
+aeroplane at aspect ratio 19.57 weighs less than the cantilever at aspect ratio
+13**, which on this criterion says the aspect ratio should be pushed further still.
+
+**An apparent elasticity from a pair is not a derivative** and this article does not treat it as
+one, because the two aeroplanes differ in span, area, thrust and altitude as well as in aspect
+ratio. **What it establishes is magnitude, and the magnitude agrees with the three readings this
+article computed from the Phase IV group weight statement**, which ran from 0.0775 to
+0.2749. **Four routes, one conclusion.**
+
+**And the same table prices the truss directly against a cantilever of the same technology**, which
+is the comparison the Phase IV report said had not been made fairly.
+
+| Quantity | Cantilever wing | Braced wing plus strut |
+|---|---|---|
+| Contractor calibration | 12,867 pound | 16,030 pound, +24.58 percent |
+| Tube-and-wing calibration | 12,867 pound | 16,483 pound, +28.10 percent |
+
+**The wing alone is only +1.38 percent heavier on the contractor's calibration and
++4.28 percent on the harsher one, so the strut is almost the whole penalty.** That
+is a direct measurement of what this article derived, which is that **a geometrically similar truss
+buys a coefficient rather than an exponent**. A wing of aspect ratio 19.57 weighing within
+a few percent of a cantilever wing of aspect ratio 13 is the three-halves law with a
+relief factor in front of it, and the strut is the bill for that factor.
 
 ### What the Programme Changed Without Flying
 
@@ -1302,35 +1493,51 @@ The X-66A is that preliminary design phase, carried through four design reviews 
 
 **This subject has a large and continuously active literature, which distinguishes it from the three articles that precede it in this series.** The X-63A, the X-64A and the X-65A each had a thin public record and a subject whose literature had to be assembled from adjacent fields. The truss-braced wing has its own body of work with a fifty-year history, a named research programme, a sustained Virginia Tech and Georgia Institute of Technology school, and a steady output of conference and journal papers through the whole period of this programme.
 
-**The sweep behind this article admitted 4,238 records from a pool of 14,967, and assigned them across seventeen clusters, of which 17 are non-empty.** The clusters are the shape of the field as this sweep found it.
+**The sweep behind this article admitted 4,744 records from a pool of 18,863, and assigned them across seventeen clusters, of which 17 are non-empty.** The clusters are the shape of the field as this sweep found it.
 
 | Cluster | Records | What it holds |
 |---|---|---|
-| braced_wing | 308 | the truss-braced and strut-braced wing proper, the junction, the jury strut |
-| aspect_ratio | 540 | the span and induced-drag trade, span loading, span efficiency |
-| alt_config | 448 | the joined wing, the box wing, the tandem wing, the blended wing body |
-| wing_weight | 96 | weight estimation, bending material, structural sizing and optimisation |
-| thin_transonic | 266 | thickness, sweep, drag divergence, supercritical sections |
-| aeroelastic | 1,151 | flutter, divergence, limit-cycle oscillation, aeroelastic tailoring |
-| gust_loads | 328 | gust and manoeuvre loads, load alleviation, flexible-aircraft dynamics |
-| span_constraint | 37 | folding wingtips, airport compatibility, span limits |
-| laminar | 317 | natural laminar flow, hybrid laminar flow control, transition, crossflow |
-| high_lift | 214 | high-lift systems, buffet, maximum lift, stall, icing, ground effect |
-| prop_integration | 232 | nacelle and wing interference, high bypass ratio, geared turbofans |
-| fuel_burn | 132 | fuel burn, Breguet, lift-to-drag ratio, advanced transport concepts |
-| demonstrator | 142 | flight demonstrators, testbed aircraft, technology readiness |
-| ground_test | 287 | static and full-scale test, ground vibration, loads calibration, strain sensing |
-| mdo | 224 | multidisciplinary optimisation, conceptual design, sizing, aerostructural design |
-| emissions | 228 | aviation emissions, net-zero targets, noise, contrails |
-| named | 40 | the programme and configuration designations themselves |
+| braced_wing | 309 | the truss-braced and strut-braced wing proper, the junction, the jury strut |
+| aspect_ratio | 713 | the span and induced-drag trade, span loading, span efficiency |
+| alt_config | 522 | the joined wing, the box wing, the tandem wing, the blended wing body |
+| wing_weight | 105 | weight estimation, bending material, structural sizing and optimisation |
+| thin_transonic | 318 | thickness, sweep, drag divergence, supercritical sections |
+| aeroelastic | 1,195 | flutter, divergence, limit-cycle oscillation, aeroelastic tailoring |
+| gust_loads | 397 | gust and manoeuvre loads, load alleviation, flexible-aircraft dynamics |
+| span_constraint | 38 | folding wingtips, airport compatibility, span limits |
+| laminar | 327 | natural laminar flow, hybrid laminar flow control, transition, crossflow |
+| high_lift | 244 | high-lift systems, buffet, maximum lift, stall, icing, ground effect |
+| prop_integration | 246 | nacelle and wing interference, high bypass ratio, geared turbofans |
+| fuel_burn | 152 | fuel burn, Breguet, lift-to-drag ratio, advanced transport concepts |
+| demonstrator | 159 | flight demonstrators, testbed aircraft, technology readiness |
+| ground_test | 292 | static and full-scale test, ground vibration, loads calibration, strain sensing |
+| mdo | 259 | multidisciplinary optimisation, conceptual design, sizing, aerostructural design |
+| emissions | 236 | aviation emissions, net-zero targets, noise, contrails |
+| named | 41 | the programme and configuration designations themselves |
 
-**The largest cluster is aeroelasticity at 1,151 records and that is the correct shape for this subject.** A very high aspect-ratio wing is an aeroelastic problem before it is an aerodynamic one, and the field's output reflects that. **The smallest substantive cluster is span_constraint at 37 records**, and that asymmetry is itself a finding. **The constraint this article argues is binding is the one the literature has written least about.** Thirty-seven records against 1,151 for the thing that is not binding is a ratio worth sitting with.
+**The largest cluster is aeroelasticity at 1,195 records and that is the correct shape for this subject.** A very high aspect-ratio wing is an aeroelastic problem before it is an aerodynamic one, and the field's output reflects that. **The smallest substantive cluster is span_constraint at 38 records**, and that asymmetry is itself a finding. **The constraint this article argues is binding is the one the literature has written least about.** Thirty-seven records against 1,195 for the thing that is not binding is a ratio worth sitting with.
 
-**The weight cluster is also thin at 96 records**, which matters because weight is the quantity the Phase IV report names as the largest uncertainty and the quantity the keystone needs. **A field that has produced 1,151 papers on flutter and 96 on wing weight has its effort allocated to the risk it can compute rather than to the risk that decides the answer.** That is an observation about the literature and not a criticism of any paper in it.
+**The weight cluster is also thin at 105 records**, which matters because weight is the quantity the Phase IV report names as the largest uncertainty and the quantity the keystone needs. **A field that has produced 1,195 papers on flutter and 105 on wing weight has its effort allocated to the risk it can compute rather than to the risk that decides the answer.** That is an observation about the literature and not a criticism of any paper in it.
 
 ## The Source Base
 
-**The reference base behind this article is 4,064 definitions**, of which **eighteen** are primary documents written by hand after reading, **11** are research records cited by hand with their depth of reading recorded, **66** are the prior articles of this series, and **3,969** are the gated research records.
+**The reference base behind this article is 4,537 definitions**, of which
+**21** are primary documents written by hand after reading,
+**14** are research records cited by hand with their depth of reading recorded,
+**66** are the prior articles of this series, and **4,436** are the gated
+research records.
+
+**Eight documents were located and read in the primary-reference review and they are the reason this
+section changed.** The fair comparison the Phase IV report recommended, which the article had cited
+from a registry entry and now cites from the agency's own deposit. The Phase I final report, which
+contains the planform optimisation every later phase inherited. **The Federal Aviation
+Administration's own airport design circular**, which the article had cited for a table it had read
+in a NASA memorandum and which turned out to settle the unit question the keystone turns on. A 1981
+Grumman wing weight methodology, which supplies a primary for the non-optimum factor. A 2016 NASA
+Langley paper on aero-structural efficiency, which states this article's own methodological thesis
+in one sentence. A 1980 strut-braced business jet study at aspect ratio twenty-five. A 1976
+span-distributed-load cargo study. And a 2024 multidisciplinary optimisation of this configuration
+using the Aviary framework.
 
 **The two statistics this genre requires are a fraction and a count, and they are defined here
 because reporting one without the other is the failure the convention exists to prevent.** Adding a
@@ -1340,15 +1547,54 @@ mean the directive is working.
 $$ \text{primary fraction} = \frac{\left|\left\{r : \mathrm{src}(r) \in \{\text{reports}, \text{defence}\}\right\}\right|}{\left|\mathcal{R}\right|}, \qquad \text{period count} = \left|\left\{r : \mathrm{year}(r) \ge 2015\right\}\right| $$
 
 **The survey statistics are recomputed from the reference data and are not matched against a stored
-string.** Of the 3,969 research records, **1,035 come from report servers rather than journal indices, which is 26.1 percent**. **3,739 carry a resolved publication year**, their median is **2012** and they run from **1930 to 2026**. **1,641 are from 2015 onward, which is 43.9 percent**, and **1,129 predate 2000, which is 30.2 percent**.
+string.** Of the 4,436 research records, **1,256 come from report servers rather than journal indices, which is 28.3 percent**. **4,197 carry a resolved publication year**, their median is **2012** and they run from **1921 to 2026**. **1,790 are from 2015 onward, which is 42.6 percent**, and **1,372 predate 2000, which is 32.7 percent**.
 
-**The primary fraction of 26.1 percent is the lowest this series has reported in four articles and the reason is the subject and not the method.** The three preceding articles reported 30.6, 45.0 and 39.5 percent. This subject's literature lives in journals and in conference proceedings to a degree the others did not, because truss-braced wing work has been done largely in universities and published through the American Institute of Aeronautics and Astronautics rather than issued as agency reports. **The period count of 1,641 is the figure to read beside it**, since adding a contemporary survey lowers a fraction while raising a count, and both moved in the same direction here only because the pool grew.
+**The primary fraction of 28.3 percent is the lowest this series has reported in four articles and the reason is the subject and not the method.** The three preceding articles reported 30.6, 45.0 and 39.5 percent. This subject's literature lives in journals and in conference proceedings to a degree the others did not, because truss-braced wing work has been done largely in universities and published through the American Institute of Aeronautics and Astronautics rather than issued as agency reports. **The period count of 1,790 is the figure to read beside it**, since adding a contemporary survey lowers a fraction while raising a count, and both moved in the same direction here only because the pool grew.
 
 ### How the Sweep Was Run, and What It Measured About Itself
 
-**Two sweeps across three registries, 150 questions at the reports server in two passes of 80 and 70, and the rest at a defence registry and a bibliographic index.** The pool divides as **3,387 records from the reports server, 3,870 from the defence registry and 7,710 from the bibliographic index**, and that last figure being half the pool is the reason the primary fraction below is what it is. The first sweep's questions reported **3,195 holdings** and returned **3,138**, which is **98.2 percent**, so retrieval was nearly complete and only **1** question hit the retrieval wall.
+**Three sweeps across three registries, 230 questions at the reports server in passes of 80, 70 and 80, and the rest at a defence registry and a bibliographic index.** The pool divides as **4,928 records from the reports server, 4,656 from the defence registry and 9,279 from the bibliographic index**, and that last figure being half the pool is the reason the primary fraction below is what it is. The first sweep's questions reported **3,195 holdings** and returned **3,138**, which is **98.2 percent**, so retrieval was nearly complete and only **1** question hit the retrieval wall.
 
-**9 of the first sweep's questions returned nothing at all, and 7 of those 9 were rescued by rephrasing.** A zero from this registry is a statement about phrasing and not about literature, which this series has documented since A355, and the rephrasings were written in the vocabulary the registry's own titles use. **7 questions still return nothing after rephrasing** and those are recorded rather than retried, since a third attempt at the same idea tells a reader less than the fact that two failed. The second sweep added **953** records.
+**A THIRD SWEEP WAS AIMED AT THE THINNEST CLUSTERS AND ITS AIM WAS MEASURED RATHER THAN GUESSED.**
+Before writing it, the per-cluster primary share was computed, and the six thinnest substantive
+clusters were taken as the targets. **Its questions were then written in the report literature's own
+vocabulary rather than the subject's**, which is the whole difference between a sweep that buys
+primaries and one that buys more of what the pool already has. A journal asks about airport
+compatibility and a report asks about *airplane characteristics for airport planning*. A journal
+asks about multidisciplinary optimisation and a report names its code.
+
+| Cluster | Primary share before | Primary share after | Primaries before | Primaries after |
+|---|---|---|---|---|
+| aspect_ratio | 11.9 | 23.4 | 64 | 167 |
+| fuel_burn | 28.8 | 36.2 | 38 | 55 |
+| thin_transonic | 24.1 | 30.5 | 64 | 97 |
+| mdo | 17.9 | 20.1 | 40 | 52 |
+| high_lift | 32.2 | 36.1 | 69 | 88 |
+| gust_loads | 17.1 | 15.9 | 56 | 63 |
+| alt_config | 12.1 | 12.5 | 54 | 65 |
+| span_constraint | 0.0 | 0.0 | 0 | 0 |
+
+**Overall the gated pool went from 4,238 records with 1,144 report primaries
+to 4,744 with 1,380, a share rising from 27.0 to
+29.1 percent**,
+with the aspect-ratio cluster nearly doubling its share and more than doubling its count. **The
+lifting-line and span-loading vocabulary was what reached it**, since a report from 1976 does not
+use the phrase this subject's contemporary literature uses.
+
+**AND THE CLUSTER THAT MATTERS MOST BOUGHT NOTHING, WHICH IS A MEASUREMENT AND NOT A FAILURE.**
+**14** questions were written in the airport-planning vocabulary and aimed at
+`span_constraint`, the cluster carrying this article's own keystone. **9 of
+the 14 returned no records at all.** The cluster grew by **1** record and its report primaries remain at **zero**.
+
+**The honest reading is that the report literature does not contain airport-compatibility work**,
+because airport design is a regulator's and an airport planner's subject rather than a research
+agency's, and it is published as advisory circulars and aerodrome annexes rather than as technical
+reports. **The constraint this article argues is binding has no research literature because it is
+not a research question.** That is the same shape of finding as the previous article's thirty-five
+air-budget questions buying three records, and it belongs in the article for the same reason.
+
+**9 of the first sweep's questions returned nothing at all, and
+7 of those 9 were rescued by rephrasing.** A zero from this registry is a statement about phrasing and not about literature, which this series has documented since A355, and the rephrasings were written in the vocabulary the registry's own titles use. **7 questions still return nothing after rephrasing** and those are recorded rather than retried, since a third attempt at the same idea tells a reader less than the fact that two failed. The second sweep added **953** records.
 
 **The homonym measurements are the most transferable thing in this article's method and they are measurements.**
 
@@ -1367,11 +1613,11 @@ string.** Of the 3,969 research records, **1,035 come from report servers rather
 
 ### The Gate, and What Auditing It Both Ways Found
 
-The shared homonym store refused **944** of the 14,967 pooled records, leaving **14,023**, and the subject gate then kept **4,238** and refused **9,785**. The gate carries 139 patterns behind nine exclusion families, and its regression test checks 29 titles that must be admitted and 43 that must be refused, with the audit sample drawn against seed 20251211, which is the article's own editorial date so that the sample is reproducible, **with every refusal re-tested with its internal spaces hyphenated**, which is the repair the previous article earned after a guard was defeated by a hyphen.
+The shared homonym store refused **1,196** of the 18,863 pooled records, leaving **17,667**, and the subject gate then kept **4,744** and refused **12,923**. The gate carries 139 patterns behind nine exclusion families, and its regression test checks 29 titles that must be admitted and 43 that must be refused, with the audit sample drawn against seed 20251211, which is the article's own editorial date so that the sample is reproducible, **with every refusal re-tested with its internal spaces hyphenated**, which is the repair the previous article earned after a guard was defeated by a hyphen.
 
 **The two-sided audit changed the gate in both directions and that is the only reason it is reported.** Reading thirty admitted records found six that should not have been there, being rotorcraft flight simulation with an aeroelastic rotor, a rotary-wing simulation paper, the damage detection of an aeroelastic **panel**, a methanol-economy net-zero study, an open-rotor shield impact test, and a rotorcraft vibration paper. **A bare `aeroelastic` does not name a wing, a bare `net zero` does not name aviation, and a bare `open rotor` does not name an airframe**, so all three now require a qualifier and a rotary-wing exclusion family was added.
 
-**Reading thirty refused records found three the gate should have kept and they were an entire missing cluster.** A joined-wing research aircraft configuration, a tandem-wing spacing study and a blended-wing-body structural pre-design are the braced wing's own adjacent configurations, and **no existing pattern admitted any of them.** The `alt_config` cluster exists because of that sample and now holds **448** records, which is the third largest in the article. **A gate audited only on what it keeps would never have found an absence**, and this is the clearest instance of that the series has produced.
+**Reading thirty refused records found three the gate should have kept and they were an entire missing cluster.** A joined-wing research aircraft configuration, a tandem-wing spacing study and a blended-wing-body structural pre-design are the braced wing's own adjacent configurations, and **no existing pattern admitted any of them.** The `alt_config` cluster exists because of that sample and now holds **522** records, which is the third largest in the article. **A gate audited only on what it keeps would never have found an absence**, and this is the clearest instance of that the series has produced.
 
 **One tightening took two attempts and the second failure is instructive.** Narrowing `aeroelastic` to require an aeronautical noun left the aeroelastic-panel paper admitted, because a different pattern matched `aeroelastic` and then `limit cycle oscillation` within forty-five characters. **The qualifier list had included the words `model` and `analysis`, which qualify nothing**, and removing them was not enough because the leak was in a second pattern entirely. **A panel, a plate and a shell are aeroelastic and are not wings**, so they went into the exclusion family. The regression test failed twice before it passed, both times on the same title, and both times because the fix addressed the pattern the author was looking at rather than the pattern that matched.
 
@@ -1399,7 +1645,8 @@ The stationary aspect ratio located by bisection on the anchored power law is 25
 
 Carrying the Breguet exponential rather than linearising it introduces one factor, $\Phi = Xe^{-X}/(1-e^{-X})$, which is 0.892462 at this aeroplane's fuel fraction of 0.200193. The exact stationary conditions are $\nu^{\*} = \Phi\delta$ at fixed cruise lift coefficient and $\nu^{\*} = \Phi\delta/(1-\Phi+2\Phi\delta)$ at fixed wing area, giving 0.299033 and 0.423797, and both reduce to the linearised forms as the fuel fraction vanishes. The exact curvature is $\Phi\delta(n+1-\delta-\Phi\delta) + \Phi'(X)X\delta^2$, which is 0.503772.
 
-The folded span of 118 feet clears the ICAO Code C boundary of 118.1102 feet by 1.32 inch and sits exactly on the FAA Airplane Design Group III boundary of 118 feet, whose bound is exclusive. The unfolded span clears the Code D boundary of 170.6037 feet by 7.24 inch and the Group IV boundary of 171 feet by 12 inch. The two regulators' bounds for the same class differ by 1.3228 inch. The aspect ratio the folded span permits at the same area is 9.427, so the fold is worth a factor of 2.076 in aspect ratio and 36.0 percent in lift-to-drag ratio.
+The folded span of 118 feet clears the ICAO Code C boundary of 118.1102 feet by 1.32 inch and sits exactly on the FAA Airplane Design Group III boundary of 118 feet, whose bound is exclusive. The unfolded span clears the Code D boundary of 170.6037 feet by 7.24 inch and the Group IV boundary of 171 feet by 12 inch. The two renderings of the same bound differ by 1.3228 inch, and the FAA circular
+states that its customary units govern and its metric values are soft rounded conversions. The aspect ratio the folded span permits at the same area is 9.427, so the fold is worth a factor of 2.076 in aspect ratio and 36.0 percent in lift-to-drag ratio.
 
 The Korn relation with a supercritical constant of 0.95 gives drag-divergence margins of 0.0203 and 0.0181 for the two configurations, differing by 0.00212, and the difference stays below 0.00672 across the whole plausible range of that constant. The thinning from 0.120 to 0.104 is worth 4.86 degrees of sweep.
 
@@ -1421,7 +1668,16 @@ The main strut carries 4.013 times the vertical relief it delivers and its horiz
 
 **The wing area of the X-66A is not published, so its aspect ratio cannot be computed.** This article states no aspect ratio for the demonstrator.
 
-**The weight of the configuration is the primary record's own largest stated uncertainty** and it is the input the keystone is most sensitive to. The aspect-ratio exponent of the full airframe, as opposed to the bending material, is unknown, and the value above which this article's conclusion reverses is 2.44 under one criterion and 3.64 under the other.
+**The weight of the configuration is the primary record's own largest stated uncertainty** and it is
+the input the keystone is most sensitive to. The aspect-ratio exponent of the full airframe, as
+opposed to the bending material, is unknown, and the value above which this article's conclusion
+reverses is 2.1755 under one criterion and 3.0832 under the other on
+the exact treatment.
+
+**The fair comparison narrows that uncertainty without closing it.** Its like-for-like pair gives an
+apparent weight elasticity between -0.12956 and +0.09926, every value below the
+target and three of four negative, **but an elasticity from a pair of aeroplanes differing in span,
+area, thrust and altitude is not a derivative** and this article does not treat it as one.
 
 **The flutter margin at Mach 0.92 is unresolved in the primary record**, where two models of the same structure disagree by about fifty percentage points and about the sign, and the report states that the method used is incapable of capturing the relevant flow features.
 
@@ -1429,7 +1685,19 @@ The main strut carries 4.013 times the vertical relief it delivers and its horiz
 
 **The maximum lift coefficient at flight Reynolds number has not been measured**, and it feeds the field-length constraint that helped set the span.
 
-**The fair cantilever-versus-braced comparison the Phase IV report recommends has not been read for this article.** A January 2025 paper appears to address it and is cited from its registry record only \[[Recine and others 2025][research_recine_2025]\].
+**The fair cantilever-versus-braced comparison the Phase IV report recommended has now been read
+and it is no longer an open item for this article.** A NASA Ames team published it in January 2025
+and it is read in full \[[Recine and others 2025][ref_recine_2025]\]. **It gives
+1.65 percent at the economic mission against Boeing's 7.2 percent**, a factor
+of 4.36, with fuel volume the dominant cause and the weight calibration second.
+
+**What remains unsettled is the keystone's reach rather than its correctness.** The optimality
+conditions are cruise-fuel conditions, and the fair comparison shows that on a nine-hundred-nautical-mile
+sector the configuration's aerodynamic advantage is largely spent on climbing to an altitude
+4,250 feet higher with 25.65 percent more installed thrust. **An
+aspect ratio chosen to minimise cruise fuel is being chosen against the wrong objective for the
+mission this class of aeroplane flies most often**, and this article does not derive a
+climb-inclusive condition.
 
 **The structural weight of the Phase III configuration is not published in the volume read here**, so this article's prediction that the Phase IV thinning and sweeping cost 28.7 percent in bending material stands unchecked.
 
@@ -1445,7 +1713,11 @@ The main strut carries 4.013 times the vertical relief it delivers and its horiz
 
 **The detailed aerodynamic design of the wing and strut.** Phase IV devotes fifty-six pages to the inverse design of the junction region, the strut planform modifications, the fuselage bump and the twist distribution, using computational tools this article names and does not exercise. **That is a subsystem deep-dive and not a research-aircraft article.**
 
-**The low-speed and high-lift test volumes.** Volumes II, III and IV of the Phase IV final report cover the high-speed test, the high-lift system design and the high-lift test. They were identified and not read, and the conclusions drawn from them here are limited to what Volume I quotes.
+**The low-speed and high-lift test volumes.** Volumes II, III and IV of the Phase IV final report
+cover the high-speed test, the high-lift system design and the high-lift test. **The
+primary-reference review searched for all three in the reports server and none is held there**, so
+they are not merely unread but unavailable through the channel this article uses, and the conclusions
+drawn from them here are limited to what Volume I quotes.
 
 **The noise and community-impact question.** The sweep returned a system noise technology roadmap for a truss-braced wing against a conventional peer and an aeroacoustic computation series, and airframe noise from a wing of this planform is a genuine open question. It is a different keystone.
 
@@ -1457,7 +1729,10 @@ The main strut carries 4.013 times the vertical relief it delivers and its horiz
 
 **The X-66A was to answer whether a truss-braced wing is worth its truss, and the primary record contains enough to answer a sharper question than that, which is where the span of a transport aeroplane actually comes from.**
 
-The answer is that it comes from an airport. **The wing folds at 118 feet and 118 feet is exactly where the Federal Aviation Administration's Airplane Design Group III ends**, with a margin of zero inches against a bound that is exclusive. ICAO draws the same line at 118.1102 feet, **so the two regulators disagree by 1.3228 inch and the fold sits in the gap**. The unfolded span of 170 feet clears the next boundary by 12 inch by one reckoning and 7.24 inch by the other. The fold is worth **36.0 percent** in lift-to-drag ratio, and everything the unconstrained aerodynamic optimum has left to give beyond the chosen span is worth **0.9481 percent** in fuel, which falls inside the under 1.4 percent the programme's own independent optimisation reported nine years earlier. **The mechanism is worth more than the optimum.**
+The answer is that it comes from an airport. **The wing folds at 118 feet and 118 feet is exactly where the Federal Aviation Administration's Airplane Design Group III ends**, with a margin of zero inches against a bound that is exclusive. ICAO states the same line in metres, which is 118.1102 feet, and the FAA circular prints
+both renderings while declaring that the customary one governs, **so the two differ by
+1.3228 inch and the fold station sits inside a rounding the circular itself says does
+not govern**. The unfolded span of 170 feet clears the next boundary by 12 inch by one reckoning and 7.24 inch by the other. The fold is worth **36.0 percent** in lift-to-drag ratio, and everything the unconstrained aerodynamic optimum has left to give beyond the chosen span is worth **0.9481 percent** in fuel, which falls inside the under 1.4 percent the programme's own independent optimisation reported nine years earlier. **The mechanism is worth more than the optimum.**
 
 **The optimality condition itself turned out to be two conditions, and that is the analytical result this article would keep if it could keep only one.** At fixed wing area and cruise condition the fuel-burn-optimal aspect ratio is where a one percent gain in aspect ratio costs exactly half a percent in weight, and **no other quantity in the problem appears**. At fixed cruise lift coefficient it is where the weight elasticity equals the induced-drag fraction of drag. **The curvature at the second stationary point is exactly $\delta(n+1-2\delta)$**, which is why a design can sit 21.41 percent below its optimum and pay 0.9481 percent for it, and why an infrastructural constraint can bind without visible cost. **Carrying the Breguet exponential rather than linearising it generalises both conditions by a single factor and makes the optimum flatter still**, and it was the equation-density review that found the linearisation was not free at a twenty percent fuel fraction.
 
@@ -1474,12 +1749,14 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 ### Reference
 
 - [Allen, Bradley and Droney, Subsonic Ultra Green Aircraft Research Phase II Volume III, Truss Braced Wing Aeroelastic Test Report, NASA/CR-2015-218704 Volume III, read in part][ref_cr_phase2_vol3]
+- [Aretskin-Hariton and others, Multidisciplinary Optimization of a Transonic Truss-Braced Wing Aircraft using Aviary, NASA Glenn, Langley and Ames Research Centers, read in part][ref_ttbw_aviary_2024]
 - [Aurora X-65 CRANE, Directory of U.S. Military Rockets and Missiles, Appendix 4, cited for the absence of a sibling X-66 entry][ref_ds_x65]
+- [Bradley and Droney, Subsonic Ultra Green Aircraft Research Phase I Final Report, NASA/CR-2011-216847, April 2011, read in part][ref_cr_phase1]
 - [Bradley, Droney and Allen, Subsonic Ultra Green Aircraft Research Phase II Volume I, Truss Braced Wing Design Exploration, NASA/CR-2015-218704 Volume I, April 2015, read in part][ref_cr_phase2_vol1]
 - [Chatterji, Sridhar and Palopo, Transonic Truss-Braced Wing Airplane Characteristics for Airport Operations, NASA/TM-20250002858, March 2025, read in part][ref_tm_airport_ops]
 - [DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]
 - [Droney, Sclafani and Grasch, Subsonic Ultra Green Aircraft Research Phase III, Mach 0.75 Transonic Truss-Braced Wing Design, NASA contractor report, read in part][ref_cr_phase3]
-- [Federal Aviation Administration, Airport Design, Advisory Circular 150/5300-13B, 31 March 2022, cited for the design-group definitions][ref_faa_ac_airport_design]
+- [Federal Aviation Administration, Airport Design, Advisory Circular 150/5300-13B, read in part, Table 1-2 Airplane Design Group and the Use of Metrics paragraph read directly][ref_faa_ac_airport_design]
 - [Funded Space Act Agreement PAM 36785 between NASA Armstrong Flight Research Center and The Boeing Company for Sustainable Flight Demonstrator Development and Flight Test, signed 12 and 13 January 2023, read in full][ref_fsaa]
 - [Harrison, Hoffman, Lazzara, Reichenbach, Sclafani and Droney, Subsonic Ultra Green Aircraft Research Phase IV Final Report Volume I, Mach 0.80 Transonic Truss-Braced Wing High-Speed Design Report, NASA/CR-20220016017, October 2023, read in full][ref_cr_phase4]
 - [NASA Transonic Truss-Braced Wing Studies, International Council of the Aeronautical Sciences, 2024, read in part][ref_icas_ttbw_2024]
@@ -1489,10 +1766,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [National Aeronautics and Space Administration, NASA Issues Award for Greener, More Fuel-Efficient Airliner of Future, 18 January 2023][ref_nasa_award_2023]
 - [National Aeronautics and Space Administration, NASA, Boeing Consider New Thin-Wing Aircraft Research Focus, 24 April 2025][ref_nasa_thin_wing_2025]
 - [National Aeronautics and Space Administration, Next Generation Experimental Aircraft Becomes NASA's Newest X-Plane, 12 June 2023][ref_nasa_x66_designation]
+- [Recine, Schuh, Listgarten and James, Quantification of Design Trade-Offs When Comparing Transonic Truss-Braced Wing to Advanced Tube and Wing Aircraft, AIAA SciTech Forum, 6 January 2025, NASA Ames Research Center, read in full][ref_recine_2025]
 - [The Boeing Company, Airplane Arrives at Boeing Site for X-66A Modification, 17 August 2023][ref_boeing_arrival_2023]
 - [USAspending.gov, the federal award reporting system][ref_usaspending]
 
 [ref_boeing_arrival_2023]: https://boeing.mediaroom.com/2023-08-17-Airplane-Arrives-at-Boeing-Site-for-X-66A-Modification
+[ref_cr_phase1]: https://ntrs.nasa.gov/citations/20110011321
 [ref_cr_phase2_vol1]: https://ntrs.nasa.gov/citations/20150017036
 [ref_cr_phase2_vol3]: https://ntrs.nasa.gov/citations/20150017040
 [ref_cr_phase3]: https://ntrs.nasa.gov/citations/20205005698
@@ -1508,7 +1787,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [ref_nasa_thin_wing_2025]: https://www.nasa.gov/aeronautics/nasa-boeing-new-thin-wing-aircraft/
 [ref_nasa_ts_2026]: https://www.nasa.gov/wp-content/uploads/2025/05/fy-2026-budget-technical-supplement-002.pdf
 [ref_nasa_x66_designation]: https://www.nasa.gov/news-release/next-generation-experimental-aircraft-becomes-nasas-newest-x-plane/
+[ref_recine_2025]: https://ntrs.nasa.gov/citations/20240015830
 [ref_tm_airport_ops]: https://ntrs.nasa.gov/citations/20250002858
+[ref_ttbw_aviary_2024]: https://ntrs.nasa.gov/citations/20230016987
 [ref_usaspending]: https://www.usaspending.gov/
 
 ### Research
@@ -1517,29 +1798,34 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [A Comprehensive Analysis of][research_a_comprehensive]
 - [A Dual-Engine Artificial Intelligence][research_a_dual_engine]
 - [A New Steady Approach 2006][research_a_new_2006]
+- [A study of the 1973][research_a_study_1973]
 - [A-7 Transonic Wing Designs 1982][research_a_7_transonic_1982]
 - [Aarons et al 2011][research_aarons_canfield_2011]
 - [Abbott, Frank T., Jr. et al 1963][research_abbottfranktjr_kelleyhneale_1963]
 - [Abdel-Motaleb et al 2019][research_abdelmotaleb_taylor_2019]
 - [Abdelkader et al 2011][research_abdelkader_harmin_2011]
+- [Abdi, F. et al 1988][research_abdif_ideh_1988]
 - [Abdullah and Sulaeman 2013][research_abdullah_sulaeman_2013]
 - [Abel et al 1979][research_abel_newsom_1979]
 - [Abel, I. et al 1977][research_abeli_perrybiii_1977]
 - [Abnous et al 2017][research_abnous_zheng_2017]
 - [Abouhamzeh et al 2022][research_abouhamzeh_ma_2022]
 - [Abouhamzeh et al 2022][research_abouhamzeh_ma_2022_b]
+- [Abramovich et al 2005][research_abramovich_weller_2005]
 - [Abrudan et al 2023][research_abrudan_dragulinescu_2023]
 - [Abulibdeh 2026][research_abulibdeh_2026]
 - [Aburto and Castillo-Landero 2025][research_aburto_castillolandero_2025]
 - [Aburto and Castillo-Landero 2025][research_aburto_castillolandero_2025_b]
 - [Acharya et al 2024][research_acharya_acharya_2024]
 - [Acosta, Diana M. et al 2013][research_acostadianam_guynnmarkd_2013]
+- [Active control of a 1994][research_active_control_1994]
 - [Adamovsky 1987][research_adamovsky_1987]
 - [Adams, Charles L. 2004][research_adamscharlesl_2004]
 - [Adams, William M., Jr. and Hoadley, Sherwood T. 1993][research_adamswilliammjr_hoadleysherwoodt_1993]
 - [Adelman and Mantay 1988][research_adelman_mantay_1988]
 - [Adler and Martins 2024][research_adler_martins_2024]
 - [Adler et al 2022][research_adler_brelje_2022]
+- [Advanced subsonic long-haul transport 1974][research_advanced_subsonic_1974]
 - [Advisory Group for Aerospace Research and Development 1984][research_advisorygroupforaerospaceresearchanddevelopment_1984]
 - [AERO Dynamic Shape of 2014][research_aero_dynamic_shape_2014]
 - [Aeroacoustics STOL Noise Airframe 1976][research_aeroacoustics_stol_1976]
@@ -1554,10 +1840,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Ahmad et al 2014][research_ahmad_rahman_2014]
 - [Ahmad et al 2018][research_ahmad_baig_2018]
 - [Ahmadi et al 2024][research_ahmadi_farsadi_2024]
+- [Ahmadi Tehrani et al 2025][research_ahmaditehrani_ellis_2025]
 - [Ahmed and Goonaratne 2002][research_ahmed_goonaratne_2002]
 - [Ahmed and Kurtulus 2019][research_ahmed_kurtulus_2019]
 - [Ahn et al 2017][research_ahn_kim_2017]
 - [Ahrens et al 2025][research_ahrens_gebel_2025]
+- [Ahuja and Mavris 2022][research_ahuja_mavris_2022]
 - [Ahuja et al 2026][research_ahuja_patel_2026]
 - [Air Force Flight Test Center Edwards Afb Ca 1974][research_airforceflighttestcenteredwardsafbca_1974]
 - [Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]
@@ -1570,6 +1858,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Aircraft Noise Airframe 2022][research_aircraft_noise_2022]
 - [Aircraft Piston Engine Exhaust 1976][research_aircraft_piston_1976]
 - [Aircraft Recommended Practice, Ball-On-Cylinder][research_aircraft_recommended]
+- [Aircraft Sizing, Engine Matching 2010][research_aircraft_sizing_2010]
+- [Aircraft Wing Weight Build-Up Methodology with Modification for Materials and Construction Techniques, Grumman Aerospace Corporation, NASA/CR-166173, 1981, read in part][research_wing_weight_1981]
 - [Aircraft with annular wing 2001][research_aircraft_with_2001]
 - [Ajaj 2021][research_ajaj_2021]
 - [Ajaj et al 2013][research_ajaj_friswell_2013]
@@ -1608,14 +1898,18 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [An et al 2018][research_an_xie_2018]
 - [An et al 2023][research_an_zhu_2023]
 - [Analysis and Design of 2012][research_analysis_and_2012]
+- [Analysis of Gust-Response Flight-Test 1988][research_analysis_of_1988]
 - [Anders et al 1999][research_anders_anderson_1999]
 - [Andersen et al 1997][research_andersen_forster_1997]
 - [Anderson 1995][research_anderson_1995]
 - [Anderson and Gebert 1996][research_anderson_gebert_1996]
+- [Anderson et al 1972][research_anderson_berger_1972]
+- [Anderson et al 1973][research_anderson_berger_1973]
 - [Anderson et al 2023][research_anderson_cardona_2023]
 - [Anderson, David J. and Mizukami, Masashi 1993][research_andersondavidj_mizukamimasashi_1993]
 - [Andika et al 2023][research_andika_moelyadi_2023]
 - [Ando and Yamamoto 1976][research_ando_yamamoto_1976]
+- [Ando and Yashiro 1976][research_ando_yashiro_1976]
 - [Andreeva-Mor et al 2011][research_andreevamor_suzuki_2011]
 - [Andreu Angulo and Ansell 2018][research_andreuangulo_ansell_2018]
 - [Andrew and Stenton 1967][research_andrew_stenton_1967]
@@ -1640,7 +1934,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Application of a Shock-Turbulent 1982][research_application_of_1982_b]
 - [Application of Computational Methods 1982][research_application_of_1982]
 - [Applin, Zachary T. and Gentry, Garl L., Jr. 1988][research_applinzacharyt_gentrygarlljr_1988]
+- [Arbuckle, P. D. and Sliwa, S. M. 1984][research_arbucklepd_sliwasm_1984]
 - [Arcara, P. C., Jr. et al 1991][research_arcarapcjr_bartlettdw_1991]
+- [Ardema et al 1996][research_ardema_chambers_1996]
 - [Ardema, M. D. et al 1975][research_ardemamd_harperm_1975]
 - [Ardema, M. D. et al 1976][research_ardemamd_harperm_1976]
 - [Arena et al 2011][research_arena_lacarbonara_2011]
@@ -1651,13 +1947,16 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Arizono and Isogai 2005][research_arizono_isogai_2005]
 - [Armstrong 1977][research_armstrong_1977]
 - [Army Aviation Board Fort Rucker Al 1957][research_armyaviationboardfortruckeral_1957]
+- [Arnault et al 2016][research_arnault_dandois_2016]
 - [Arnold 1942][research_arnold_1942]
 - [Arslan and Carlson 1996][research_arslan_carlson_1996]
 - [Artis Jr 1975][research_artisjr_1975]
 - [Asai 2022][research_asai_2022]
 - [Asaro et al 2023][research_asaro_cavaliere_2023]
 - [Ascani 1974][research_ascani_1974]
+- [Ashenberg and Weihs 1984][research_ashenberg_weihs_1984]
 - [Asher, Troy A. et al 2013][research_ashertroya_willliamstimothyl_2013]
+- [Ashill 1970][research_ashill_1970]
 - [Ashley, H. 1979][research_ashleyh_1979]
 - [Assessment of Wingtip Modifications 2007][research_assessment_of_2007]
 - [Athar et al 2025][research_athar_patki_2025]
@@ -1673,9 +1972,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Avin et al 2022][research_avin_raveh_2022]
 - [Awes et al 2021][research_awes_carbonneau_2021]
 - [Awes-Cheynis][research_awescheynis]
+- [Axelson, John A. and Crown, J. Conrad 1948][research_axelsonjohna_crownjconrad_1948]
 - [Axten et al 2026][research_axten_coder_2026]
 - [Ayala et al 2026][research_ayala_parenteau_2026]
 - [Ayar 2025][research_ayar_2025]
+- [Ayers, T. G. 1972][research_ayerstg_1972]
+- [Ayers, T. G. 1973][research_ayerstg_1973]
 - [Ayers, T. G. and Hallissy, J. B. 1981][research_ayerstg_hallissyjb_1981]
 - [Azevedo 1987][research_azevedo_1987]
 - [Aziz Alaoui][research_azizalaoui]
@@ -1687,17 +1989,23 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Bae and Lee 2002][research_bae_lee_2002]
 - [Bae et al 2002][research_bae_yang_2002]
 - [Bae et al 2005][research_bae_seigler_2005]
+- [Baerst, C. F. et al 1981][research_baerstcf_heldenbrandrw_1981]
 - [Bagwill and Selberg 1996][research_bagwill_selberg_1996]
 - [Bagwill et al 1997][research_bagwill_selberg_1997]
+- [Bahamonde Jacome and Elham 2017][research_bahamondejacome_elham_2017]
+- [Bahia Monteiro et al 2023][research_bahiamonteiro_gray_2023]
 - [Bahr, Christopher J. et al 2014][research_bahrchristopherj_thomasrussellh_2014]
 - [Bahr, Christopher J. et al 2016][research_bahrchristopherj_hutchesonflorencev_2016]
 - [Bai et al 2014][research_bai_mingqiang_2014]
 - [Bai et al 2014][research_bai_zhang_2014]
+- [Baigang 2024][research_baigang_2024]
+- [Bainbridge et al 2019][research_bainbridge_bacharoudis_2019]
 - [Bainsla et al 2021][research_bainsla_singari_2021]
 - [Bakalyar, John A. and Jutte, Christine 2012][research_bakalyarjohna_juttechristine_2012]
 - [Baker 1974][research_baker_1974]
 - [Baker et al 1999][research_baker_mendoza_1999]
 - [Baker, Donald J. et al 2003][research_bakerdonaldj_fudgejack_2003]
+- [Bakhle, Milind A. 2000][research_bakhlemilinda_2000]
 - [Bakhtiari-Nejad et al 2017][research_bakhtiarinejad_modarres_2017]
 - [Balabanov et al 1998][research_balabanov_grossman_1998]
 - [Balaji Shankar Venkatachari et al 2020][research_balajishankarvenkatachari_pedroparedes_2020]
@@ -1706,8 +2014,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Balaji Venkatachari et al 2021][research_balajivenkatachari_pedroparedes_2021]
 - [Balakrishnan et al 2014][research_balakrishnan_tuffaha_2014]
 - [Balas et al 2011][research_balas_seiler_2011]
+- [Balatti et al 2023][research_balatti_ellis_2023]
 - [Balatti et al 2023][research_balatti_khodaparast_2023]
 - [Balducci et al 1964][research_balducci_adams_1964]
+- [Balow, III et al 1993][research_balowiii_guglielmo_1993]
 - [Balunov et al 2023][research_balunov_solyaev_2023]
 - [Banavara and Dimitrov 2014][research_banavara_dimitrov_2014]
 - [Bandopadhyay et al 2022][research_bandopadhyay_jagdeep_2022]
@@ -1721,6 +2031,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Bardon and Massol 2025][research_bardon_massol_2025]
 - [Barklage et al 2022][research_barklage_romer_2022]
 - [Barnaby 1955][research_barnaby_1955]
+- [Barnes and Barnes 1997][research_barnes_barnes_1997]
 - [Barnes and O. G. 1965][research_barnes_og_1965]
 - [Barnes and Visbal 2019][research_barnes_visbal_2019]
 - [Barnes et al 1976][research_barnes_mccoubrey_1976]
@@ -1742,6 +2053,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Barth et al 2002][research_barth_schneider_2002]
 - [Barthelemy and Bergen 1988][research_barthelemy_bergen_1988]
 - [Barthelemy and Bergen 1989][research_barthelemy_bergen_1989]
+- [Barthelemy, J.-F. M. et al 1991][research_barthelemyjfm_coenpg_1991]
+- [Barthelemy, J.-F. M. et al 1992][research_barthelemyjfm_coenpg_1992]
+- [Bartlett, D. W. 1977][research_bartlettdw_1977]
 - [Barton][research_barton]
 - [Barzgaran et al 2021][research_barzgaran_quenzer_2021]
 - [Batina and Yang 1985][research_batina_yang_1985]
@@ -1788,6 +2102,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Bennett, Robert M. and Batina, John T. 1989][research_bennettrobertm_batinajohnt_1989]
 - [Bennett, Robert M. et al 1988][research_bennettrobertm_batinajohnt_1988]
 - [Bennett, Robert M. et al 1989][research_bennettrobertm_batinajohnt_1989_b]
+- [Benton et al 2009][research_benton_chang_2009]
 - [Beran and Snyder 2008][research_beran_snyder_2008]
 - [Beran et al 2004][research_beran_lucia_2004]
 - [Beran et al 2005][research_beran_hur_2005]
@@ -1800,6 +2115,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Bergero et al 2022][research_bergero_gosnell_2022]
 - [Bergero et al 2023][research_bergero_gosnell_2023]
 - [Bergman et al 2011][research_bergman_vakakis_2011]
+- [Bergmann and Hummel 2001][research_bergmann_hummel_2001]
 - [Bernasconi et al 2015][research_bernasconi_kharshiduzzaman_2015]
 - [Bernini et al 2008][research_bernini_minardo_2008]
 - [Berns et al 2026][research_berns_zhukov_2026]
@@ -1811,7 +2127,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Bertsch et al 2019][research_bertsch_wolters_2019]
 - [Bertsch et al 2025][research_bertsch_wienke_2025]
 - [Beschorner et al 2025][research_beschorner_kriewall_2025]
+- [Beyer et al 2023][research_beyer_cavaliere_2023]
 - [Beyer et al 2024][research_beyer_steen_2024]
+- [Bhasin et al 2012][research_bhasin_chen_2012]
 - [Bhat 2018][research_bhat_2018]
 - [Bhatia et al 2009][research_bhatia_kapania_2009]
 - [Bhatia et al 2010][research_bhatia_gur_2010]
@@ -1819,6 +2137,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Bhatia et al 2012][research_bhatia_kapania_2012]
 - [Bhatia, K. G. and Nagaraja, K. S. 1984][research_bhatiakg_nagarajaks_1984_b]
 - [Bhatia, K. G. et al 1984][research_bhatiakg_nagarajaks_1984]
+- [Bhowmick et al 2025][research_bhowmick_palanivel_2025]
 - [Bhuwal et al 2025][research_bhuwal_liu_2025]
 - [Bi et al 2017][research_bi_xie_2017]
 - [Bi et al 2017][research_bi_xie_2017_b]
@@ -1829,6 +2148,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Biggi et al 2024][research_biggi_abdelnour_2024]
 - [Bindolino et al 2010][research_bindolino_ghiringhelli_2010]
 - [bing et al 2015][research_bing_lei_2015]
+- [Birch et al 2004][research_birch_lee_2004]
 - [Biss 2012][research_biss_2012]
 - [Biswas 2020][research_biswas_2020]
 - [Black et al][research_black_parry]
@@ -1873,29 +2193,40 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Boo et al 2015][research_boo_mansor_2015]
 - [Boozer et al 2017][research_boozer_vantooren_2017]
 - [Borer et al 2019][research_borer_cox_2019]
+- [Borisova and Silantiev 2022][research_borisova_silantiev_2022]
 - [Borland and Rizzetta 1981][research_borland_rizzetta_1981]
 - [Boswinkle, R. W., Jr. and Smith, S. L., III 1958][research_boswinklerwjr_smithsliii_1958]
 - [Bottai et al 2022][research_bottai_campbell_2022]
 - [Bourdin 2001][research_bourdin_2001]
 - [Bourisli and Hamadeh 2020][research_bourisli_hamadeh_2020]
 - [Bowen et al 2024][research_bowen_kamliyajawahar_2024]
+- [Bowers, Albion H. 2007][research_bowersalbionh_2007]
+- [Bowers, Albion H. 2015][research_bowersalbionh_2015]
+- [Bowers, Albion H. 2018][research_bowersalbionh_2018]
+- [Bowers, Albion H. et al 2016][research_bowersalbionh_murillooscarj_2016]
 - [Boyd 1977][research_boyd_1977]
+- [Boyd, J. W. and Phelps, E. R. 1957][research_boydjw_phelpser_1957]
 - [Boyle 2022][research_boyle_2022]
 - [Bozzaotre 2026][research_bozzaotre_2026]
-- [Bradley, Marty K. and Droney, Christopher K. 2011][research_bradleymartyk_droneychristopherk_2011]
 - [Bradley, Marty K. and Droney, Christopher K. 2012][research_bradleymartyk_droneychristopherk_2012]
 - [Bradley, Marty K. and Droney, Christopher K. 2015][research_bradleymartyk_droneychristopherk_2015]
 - [Brady et al 1954][research_brady_maier_1954]
 - [Bragg and Gregorek 1989][research_bragg_gregorek_1989]
+- [Bragg, M. B. and Khodadoust, A. 1989][research_braggmb_khodadousta_1989]
 - [Bragin 2018][research_bragin_2018]
 - [Bramsiepe et al 2022][research_bramsiepe_klimmek_2022]
 - [Brandon et al 2004][research_brandon_foster_2004]
+- [Brandon, Jay M. and Shah, Gautam H. 1988][research_brandonjaym_shahgautamh_1988]
 - [Brandt and Bons 2024][research_brandt_bons_2024]
 - [Bras et al 2022][research_bras_warwick_2022]
+- [Braslow, A. L. and Alford, W. J., Jr. 1972][research_braslowal_alfordwjjr_1972]
 - [Braslow, A. L. and Fischer, M. C. 1985][research_braslowal_fischermc_1985]
 - [Braune and Hebler 2018][research_braune_hebler_2018]
 - [Bravo et al 2026][research_bravo_bras_2026]
 - [Breitbach, E. J. 1979][research_breitbachej_1979]
+- [Breitenstein and Radespiel 2021][research_breitenstein_radespiel_2021]
+- [Breitenstein et al 2023][research_breitenstein_muller_2023]
+- [Breitenstein et al 2024][research_breitenstein_muller_2024]
 - [Breitsamter 2005][research_breitsamter_2005]
 - [Brendel and Sulaeman 1994][research_brendel_sulaeman_1994]
 - [Brennan and McDaniel 1994][research_brennan_mcdaniel_1994]
@@ -1929,6 +2260,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Brown 1987][research_brown_1987]
 - [Brown 1989][research_brown_1989]
 - [Brown 2012][research_brown_2012]
+- [Brown and Timmerman 1991][research_brown_timmerman_1991]
 - [Brown and Vos 2018][research_brown_vos_2018]
 - [Brown et al 2022][research_brown_mcgowan_2022]
 - [Brown, Jr. 1970][research_brownjr_1970]
@@ -1943,6 +2275,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Bruni et al 2014][research_bruni_cestino_2014]
 - [Bryson and Rumpfkeil 2016][research_bryson_rumpfkeil_2016]
 - [Buch and George M. 2010][research_buch_georgem_2010]
+- [Buchnik and Karpel 2014][research_buchnik_karpel_2014]
 - [Buddhamatya et al 2026][research_buddhamatya_miranda_2026]
 - [Buffington 1999][research_buffington_1999]
 - [Buffington 1999][research_buffington_1999_b]
@@ -1964,10 +2297,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Butler et al 1995][research_butler_lillico_1995]
 - [Butler et al 1998][research_butler_lillico_1998]
 - [Butler et al 1999][research_butler_hansson_1999]
+- [Butler et al 1999][research_butler_lillico_1999]
 - [Butt et al 2012][research_butt_bhatia_2012]
 - [Butter et al 1996][research_butter_pausder_1996]
 - [Buvarp and Leijon 2024][research_buvarp_leijon_2024]
 - [Byrdsong, T. A. 1977][research_byrdsongta_1977]
+- [Byrdsong, T. A. and Brooks, C. W., Jr. 1983][research_byrdsongta_brookscwjr_1983]
 - [Byreddy et al 2003][research_byreddy_grandhi_2003]
 - [Byun and Guruswamy 1996][research_byun_guruswamy_1996]
 - [Byun and Guruswamy 1998][research_byun_guruswamy_1998]
@@ -1976,6 +2311,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [C P van Dam et al][research_cpvandam_seyedehsheidahosseini]
 - [Cahn and Garcia 1971][research_cahn_garcia_1971]
 - [Cai et al 2014][research_cai_wu_2014]
+- [Cai et al 2022][research_cai_rajaram_2022]
 - [Caillaud et al 2019][research_caillaud_winkler_2019]
 - [Cakan and Sezgen 2026][research_cakan_sezgen_2026]
 - [Calculation of critical flutter 1981][research_calculation_of_1981]
@@ -1993,6 +2329,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Candon et al 2026][research_candon_tohmuang_2026]
 - [Canfield 2014][research_canfield_2014]
 - [Canton and Burgaud 2016][research_canton_burgaud_2016]
+- [Cao et al 2024][research_cao_fu_2024]
 - [Cappuccio, Gelsomina 1992][research_cappucciogelsomina_1992]
 - [Cardoso et al 2013][research_cardoso_suleman_2013]
 - [Carl J Recine et al][research_carljrecine_michaeljschuh]
@@ -2005,6 +2342,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Carlsson 2003][research_carlsson_2003]
 - [Carlsson 2005][research_carlsson_2005]
 - [Carlsson and Kuttenkeuler 2003][research_carlsson_kuttenkeuler_2003]
+- [Carmel, Melvin M 1953][research_carmelmelvinm_1953]
+- [Carmichael, B. H. 1979][research_carmichaelbh_1979]
 - [Carney, Kelly et al 2013][research_carneykelly_pereiramichael_2013]
 - [Carpenter et al 2001][research_carpenter_lucey_2001]
 - [Carpenter et al 2018][research_carpenter_solomon_2018]
@@ -2018,6 +2357,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Carroll and Weinberg 1967][research_carroll_weinberg_1967]
 - [Carson 1980][research_carson_1980]
 - [Carter et al 2006][research_carter_campbell_2006]
+- [Carter, A. W. 1970][research_carteraw_1970]
+- [Cassetti, Marlowe D. et al 1961][research_cassettimarlowed_rerichardj_1961]
 - [Castellani et al 2016][research_castellani_cooper_2016]
 - [Castellani et al 2016][research_castellani_cooper_2016_b]
 - [Castellani et al 2017][research_castellani_cooper_2017]
@@ -2029,7 +2370,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Catalano et al 2020][research_catalano_derosa_2020]
 - [Catalano et al 2024][research_catalano_diodati_2024]
 - [Cavagna et al 2008][research_cavagna_ricci_2008]
+- [Cavagna et al 2009][research_cavagna_ricci_2009]
 - [Cavagna et al 2010][research_cavagna_ricci_2010]
+- [Cavagna et al 2011][research_cavagna_ricci_2011]
 - [Cavalcanti et al 2006][research_cavalcanti_demattos_2006]
 - [Cavalcanti et al 2026][research_cavalcanti_kolmanovsky_2026]
 - [Cavaliere and Fezans 2024][research_cavaliere_fezans_2024]
@@ -2050,6 +2393,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Cesnik and Su 2011][research_cesnik_su_2011]
 - [Cesnik et al 2010][research_cesnik_senatore_2010]
 - [Cesnik et al 2012][research_cesnik_senatore_2012]
+- [CFD Analysis of Box 2016][research_cfd_analysis_2016]
 - [CFD Analysis of RAE 2015][research_cfd_analysis_of_2015]
 - [Chai et al 2025][research_chai_song_2025]
 - [Chajec 2019][research_chajec_2019]
@@ -2060,6 +2404,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Chambers, Mark C. et al 1996][research_chambersmarkc_ardemamarkd_1996]
 - [Chan et al 2024][research_chan_sun_2024]
 - [Chan et al 2024][research_chan_sun_2024_b]
+- [Chandrasekhara 1994][research_chandrasekhara_1994]
 - [Chandre Vila][research_chandrevila]
 - [Chandre-Vila et al 2023][research_chandrevila_boin_2023]
 - [Chang and Hodges 2007][research_chang_hodges_2007]
@@ -2097,13 +2442,16 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Chen et al 2002][research_chen_zhang_2002]
 - [Chen et al 2003][research_chen_fu_2003]
 - [Chen et al 2003][research_chen_fu_2003_b]
+- [Chen et al 2006][research_chen_wickramasinghe_2006]
 - [Chen et al 2006][research_chen_zha_2006]
 - [Chen et al 2007][research_chen_matsumori_2007]
 - [Chen et al 2009][research_chen_fan_2009]
+- [Chen et al 2009][research_chen_ulker_2009]
 - [Chen et al 2010][research_chen_wu_2010]
 - [Chen et al 2011][research_chen_li_2011]
 - [Chen et al 2012][research_chen_zuo_2012]
 - [Chen et al 2013][research_chen_sun_2013]
+- [Chen et al 2014][research_chen_jia_2014]
 - [Chen et al 2015][research_chen_zhou_2015]
 - [Chen et al 2017][research_chen_yan_2017]
 - [Chen et al 2018][research_chen_zhou_2018]
@@ -2120,6 +2468,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Cheng 1982][research_cheng_1982]
 - [Cheng 1982][research_cheng_1982_b]
 - [Cheng 2009][research_cheng_2009]
+- [Cheng 2009][research_cheng_2009_b]
 - [Cheng et al 2023][research_cheng_cea_2023]
 - [Cheng et al 2026][research_cheng_zhang_2026]
 - [Chepurnykh 2015][research_chepurnykh_2015]
@@ -2152,6 +2501,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Christhilf, David M. et al 2010][research_christhilfdavidm_pototzkyanthonys_2010]
 - [Christine V. Jutte et al][research_christinevjutte_brianhmason]
 - [Christison Gray and Martins 2026][research_christisongray_martins_2026]
+- [Christopher Forte and Nhan Nguyen][research_christopherforte_nhannguyen]
 - [Christopher J Forte and Nhan T Nguyen][research_christopherjforte_nhantnguyen]
 - [Christopher J Forte and Nhan T Nguyen][research_christopherjforte_nhantnguyen_b]
 - [Christopher J Forte and Nhan T Nguyen][research_christopherjforte_nhantnguyen_c]
@@ -2171,6 +2521,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Chwalowski et al 2022][research_chwalowski_massey_2022]
 - [Chwalowski, Pawel et al 2011][research_chwalowskipawel_florancejenniferp_2011]
 - [Chwalowski, Pawel et al 2017][research_chwalowskipawel_heegjennifer_2017]
+- [Ciniglio et al 2003][research_ciniglio_manimala_2003]
+- [Cipolla et al 2020][research_cipolla_abusalem_2020]
 - [Cizmas and Strganac 2010][research_cizmas_strganac_2010]
 - [Clark 1980][research_clark_1980]
 - [Clark et al 1999][research_clark_kim_1999]
@@ -2192,8 +2544,11 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Coder 2023][research_coder_2023]
 - [Coder 2025][research_coder_2025]
 - [Coder 2026][research_coder_2026]
+- [Coe, P. L., Jr. and Weston, R. P. 1978][research_coepljr_westonrp_1978]
+- [Coe, P. L., Jr. and Weston, R. P. 1979][research_coepljr_westonrp_1979]
 - [Coetzee et al 2023][research_coetzee_lowenberg_2023]
 - [Coggin et al 2014][research_coggin_kapania_2014]
+- [Cohan and Hirsh 1966][research_cohan_hirsh_1966]
 - [Colamartino et al 2024][research_colamartino_cavalera_2024]
 - [Colas et al 2018][research_colas_roberts_2018]
 - [Cole 1986][research_cole_1986]
@@ -2214,8 +2569,11 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Colmenares Quintero et al 2010][research_colmenaresquintero_brink_2010]
 - [Colmenares-Quintero et al 2018][research_colmenaresquintero_goezsanchez_2018]
 - [Comair reduces fuel burn 2008][research_comair_reduces_2008]
+- [Comparison of statistical weight 1994][research_comparison_of_1994]
+- [Conner, D William and Mitchell, Meade H, Jr 1951][research_connerdwilliam_mitchellmeadehjr_1951]
 - [Cook and de Castro 2004][research_cook_decastro_2004]
 - [Cook et al 2013][research_cook_palacios_2013]
+- [Cooney, T V and Schott, Russell L 1956][research_cooneytv_schottrusselll_1956]
 - [Cooper 2018][research_cooper_2018]
 - [Cooper 2023][research_cooper_2023]
 - [Corelli Grappadelli et al 2022][research_corelligrappadelli_sudhi_2022]
@@ -2231,6 +2589,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Crean 1937][research_crean_1937]
 - [Crittenden et al 1977][research_crittenden_weisshaar_1977]
 - [Crittenden et al 1978][research_crittenden_weishaar_1978]
+- [Crossley et al 2011][research_crossley_skillen_2011]
 - [Crouch et al 2010][research_crouch_sutanto_2010]
 - [Crouch et al 2018][research_crouch_garbaruk_2018]
 - [Crowder, Marianne and deCallafon, Raymond 2002][research_crowdermarianne_decallafonraymond_2002]
@@ -2245,6 +2604,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Cunningham, Herbert J. et al 1989][research_cunninghamherbertj_bennettrobertm_1989]
 - [Cunningham, Jr. and Den Boer 1992][research_cunninghamjr_denboer_1992]
 - [Cunnington and Parmley 1980][research_cunnington_parmley_1980]
+- [Curpanaru et al 2025][research_curpanaru_pastor_2025]
 - [Currao and Jiang 2026][research_currao_jiang_2026]
 - [Currao and Yeh 2026][research_currao_yeh_2026]
 - [Céron-Muñoz et al 2013][research_ceronmunoz_cosin_2013]
@@ -2263,6 +2623,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Dahlia D.V. Pham et al][research_dahliadvpham_jeffreyvbowles]
 - [Dai et al 2011][research_dai_wu_2011]
 - [Dai et al 2017][research_dai_yang_2017]
+- [Dai et al 2025][research_dai_hu_2025]
 - [Dakka and Johnson 2019][research_dakka_johnson_2019]
 - [Dale E Van Zante and Richard A Wahls][research_daleevanzante_richardawahls]
 - [Damstrom and Mayes 1970][research_damstrom_mayes_1970]
@@ -2279,6 +2640,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Dardel and Bakhtiari-Nejad 2010][research_dardel_bakhtiarinejad_2010]
 - [Dargel and Thiede 2002][research_dargel_thiede_2002]
 - [Darjanto et al 2015][research_darjanto_irsyam_2015]
+- [Das and Wichmann 2004][research_das_wichmann_2004]
 - [Das et al 2020][research_das_carrese_2020]
 - [Das et al 2021][research_das_venkatraman_2021]
 - [Das et al 2022][research_das_marzocca_2022]
@@ -2289,6 +2651,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Davis et al 2015][research_davis_pedrazzani_2015]
 - [Dawkins et al 2024][research_dawkins_gannon_2024]
 - [Daxini et al 2022][research_daxini_aydin_2022]
+- [de Carvalho Bertoli et al 2016][research_decarvalhobertoli_adabo_2016]
 - [de Melo et al 2024][research_demelo_bussamra_2024]
 - [De Schutter et al 2002][research_deschutter_audenaert_2002]
 - [De Silva and Carmichael 1978][research_desilva_carmichael_1978]
@@ -2304,9 +2667,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Degregori and Kim 2021][research_degregori_kim_2021]
 - [Dehaan 1990][research_dehaan_1990]
 - [Dehennis 2025][research_dehennis_2025]
+- [Dehpanah and Nejat 2015][research_dehpanah_nejat_2015]
+- [Deicing System Protects General 2007][research_deicing_system_2007]
 - [Dela Peña 2024][research_delapentildea_2024]
 - [Dela Peña 2026][research_delapena_2026]
 - [Delavenne et al 2020][research_delavenne_barriety_2020]
+- [Delavenne et al 2022][research_delavenne_benard_2022]
 - [Delgado Regis et al 2004][research_delgadoregis_mattos_2004]
 - [Demandel 2024][research_demandel_2024]
 - [Demasi 2007][research_demasi_2007]
@@ -2317,8 +2683,16 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Demasi and Livne 2008][research_demasi_livne_2008]
 - [Demasi et al 2014][research_demasi_dipace_2014]
 - [Demasi et al 2014][research_demasi_dipace_2014_b]
+- [Demasi et al 2015][research_demasi_monegato_2015]
 - [Demasi et al 2016][research_demasi_monegato_2016]
+- [Demasi et al 2016][research_demasi_monegato_2016_b]
+- [Demasi et al 2017][research_demasi_monegato_2017]
 - [Demasi et al 2018][research_demasi_monegato_2018]
+- [Demasi et al 2019][research_demasi_monegato_2019]
+- [Demasi et al 2022][research_demasi_monegato_2022]
+- [Demasi et al 2022][research_demasi_monegato_2022_b]
+- [Demele, Fred A 1958][research_demelefreda_1958]
+- [Demele, Fred A and Powell K Harmon 1958][research_demelefreda_powellkharmon_1958]
 - [Demenkov and Goman 2009][research_demenkov_goman_2009]
 - [Deneke et al 2026][research_deneke_carter_2026]
 - [Deng et al 2026][research_deng_yi_2026]
@@ -2326,16 +2700,24 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Denieul et al 2018][research_denieul_bordeneuve_2018]
 - [Denison, Marie et al 2019][research_denisonmarie_garaianirban_2019]
 - [Denney et al 2012][research_denney_tai_2012]
+- [Dennis W Bartlett and Richard J Re 1972][research_denniswbartlett_richardjre_1972]
 - [Denton and Xu 2002][research_denton_xu_2002]
 - [Desalvo et al 2014][research_desalvo_whalen_2014]
 - [DeSalvo et al 2016][research_desalvo_gissen_2016]
 - [Design and CFD Analysis 2024][research_design_and_2024]
 - [Deslich and McHugh 2024][research_deslich_mchugh_2024]
+- [Dever, Timothy P. et al 2015][research_devertimothyp_duffykirstenp_2015]
+- [Deyoung, J. 1979][research_deyoungj_1979]
 - [Deyoung, J. 1980][research_deyoungj_1980]
+- [Deyoung, John 1947][research_deyoungjohn_1947]
+- [Deyoung, John 1951][research_deyoungjohn_1951]
+- [Deyoung, John 1952][research_deyoungjohn_1952]
 - [Di Benedetto et al 2026][research_dibenedetto_derisi_2026]
 - [Di Leone et al 2021][research_dileone_lobalbo_2021]
 - [Dias and Melo 2025][research_dias_melo_2025]
 - [Dibley et al 2005][research_dibley_allen_2005]
+- [Dickey, Robert R. 1959][research_dickeyrobertr_1959]
+- [Diehl, Walter S 1922][research_diehlwalters_1922]
 - [Dietz et al 2003][research_dietz_scherer_2003]
 - [Dietz et al 2004][research_dietz_schewe_2004]
 - [Dietz et al 2005][research_dietz_schewe_2005]
@@ -2358,17 +2740,20 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Dobrzynski et al 1998][research_dobrzynski_nagakura_1998]
 - [Dodbele 1990][research_dodbele_1990]
 - [Dodbele 1992][research_dodbele_1992]
+- [Dodbele, S. S. and Plotkin, A. 1985][research_dodbeless_plotkina_1985]
+- [Dodbele, S. S. and Plotkin, A. 1987][research_dodbeless_plotkina_1987]
 - [Dodds, W. J. et al 1978][research_doddswj_gleasoncc_1978]
 - [Doelling 1961][research_doelling_1961]
 - [Doelling and Bolt 1961][research_doelling_bolt_1961]
 - [Doelling and Bolt 1961][research_doelling_bolt_1961_b]
 - [Doggett and Soistmann 1992][research_doggett_soistmann_1992]
-- [Doggett, Jr. and Soistmann 1989][research_doggettjr_soistmann_1989]
 - [Doggett, R. V., Jr. and Cunningham, H. J. 1976][research_doggettrvjr_cunninghamhj_1976]
+- [Doggett, R. V., Jr. and Rainey, A. G. 1968][research_doggettrvjr_raineyag_1968]
 - [Doggett, R. V., Jr. and Ricketts, R. A. 1980][research_doggettrvjr_rickettsra_1980]
 - [Doggett, R. V., Jr. and Ricketts, R. H. 1977][research_doggettrvjr_rickettsrh_1977]
 - [Doggett, R. V., Jr. et al 1959][research_doggettrvjr_morganhg_1959]
 - [Doggett, Robert V., Jr. 1989][research_doggettrobertvjr_1989]
+- [Doggett, Robert V., Jr. and Soistmann, David L. 1989][research_doggettrobertvjr_soistmanndavidl_1989_b]
 - [Doggett, Robert V., Jr. et al 1989][research_doggettrobertvjr_soistmanndavidl_1989]
 - [Dollyhigh, S. M. et al 1977][research_dollyhighsm_montawj_1977]
 - [Domenski et al][research_domenski_wolinski]
@@ -2395,6 +2780,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Drake and Solomon 2010][research_drake_solomon_2010]
 - [Drew, Michael C. et al 2019][research_drewmichaelc_hashemikelleye_2019]
 - [Drew, Michael C. et al 2020][research_drewmichaelc_hashemikelleye_2020]
+- [Driver, C. 1974][research_driverc_1974]
+- [Driver, Cornelius 1958][research_drivercornelius_1958]
 - [Du Cray et al 2025][research_ducray_bolam_2025]
 - [Duan and Zhang 2018][research_duan_zhang_2018]
 - [Duan et al 2021][research_duan_kolmanovsky_2021]
@@ -2404,6 +2791,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Duessler et al 2023][research_duessler_mylvaganam_2023]
 - [Duessler et al 2024][research_duessler_mylvaganam_2024]
 - [Duffy, Kirsten P. et al 2018][research_duffykirstenp_provenzaandrewj_2018]
+- [Dugan, Duane W 1952][research_duganduanew_1952]
 - [Dugundji et al 1962][research_dugundji_dowell_1962]
 - [Dumont et al 2011][research_dumont_reynolds_2011]
 - [Durham, Michael H. et al 1988][research_durhammichaelh_colestanleyr_1988]
@@ -2420,6 +2808,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Dykins 1969][research_dykins_1969]
 - [Dym and Williams 2015][research_dym_williams_2015]
 - [Dyson, Rodger 2018][research_dysonrodger_2018]
+- [Dyson, Rodger et al 2021][research_dysonrodger_taraucalin_2021]
 - [Dyson, Rodger W. 2018][research_dysonrodgerw_2018]
 - [Dönmez and Cecen 2024][research_donmez_cecen_2024]
 - [E Aretskin-Hariton et al][research_earetskinhariton_jgratz]
@@ -2446,6 +2835,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Elahi et al 2019][research_elahi_eugeni_2019]
 - [Elena 2026][research_elena_2026]
 - [Eleshaky and Baysal 1994][research_eleshaky_baysal_1994]
+- [Elham and Bahamonde Jacome 2016][research_elham_bahamondejacome_2016]
 - [Elham and Timmer 2016][research_elham_timmer_2016]
 - [Elham et al 2011][research_elham_larocca_2011]
 - [Elham et al 2013][research_elham_larocca_2013]
@@ -2477,11 +2867,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Essari 2018][research_essari_2018]
 - [Ethan S Beyak et al][research_ethansbeyak_meelanchoudhari]
 - [Evaluation of laminar flow 1978][research_evaluation_of_1978]
+- [Evaluation of laminar flow 1979][research_evaluation_of_1979]
 - [Evaluation of laminar flow 1980][research_evaluation_of_1980]
 - [Evangelinos et al 2022][research_evangelinos_tscharaktschiew_2022]
 - [Eversman and Pitt 1989][research_eversman_pitt_1989]
 - [Eversman and Pitt 1991][research_eversman_pitt_1991]
 - [Exhaust Emission Limits for][research_exhaust_emission]
+- [Experimental investigation of parametric 1972][research_experimental_investigation_1972]
 - [Fabbiane et al 2022][research_fabbiane_irisarri_2022]
 - [Fagley et al 2016][research_fagley_seidel_2016]
 - [Fan et al 2004][research_fan_he_2004]
@@ -2504,6 +2896,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Fehrs and Kaiser 2025][research_fehrs_kaiser_2025]
 - [Fehrs et al 2021][research_fehrs_helm_2021]
 - [Feistel, T. W. 1985][research_feisteltw_1985]
+- [Fejer 1979][research_fejer_1979]
 - [Felder, James L. et al 2009][research_felderjamesl_kimhyundae_2009]
 - [Felder, James L. et al 2011][research_felderjamesl_browngeraldv_2011]
 - [Feldhausen et al 2021][research_feldhausen_bell_2021]
@@ -2513,7 +2906,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Ferrier et al 2018][research_ferrier_nguyen_2018]
 - [Ferris and Khorrami 2024][research_ferris_khorrami_2024]
 - [Ferris, J. C. 1973][research_ferrisjc_1973]
+- [Ferris, J. C. 1975][research_ferrisjc_1975]
 - [Fezans 2017][research_fezans_2017]
+- [Fezans and Joos 2017][research_fezans_joos_2017]
 - [Fezans et al 2019][research_fezans_joos_2019]
 - [Fiber Optic Sensing 2019][research_fiber_optic_2019]
 - [Fiber Optic Sensor for 1994][research_fiber_optic_1994]
@@ -2525,6 +2920,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Finaish, Fathi 1992][research_finaishfathi_1992]
 - [Finger et al 2023][research_finger_quitter_2023]
 - [Fink 1977][research_fink_1977]
+- [Fink, Marvin P. and Lastinger, James L. 1961][research_finkmarvinp_lastingerjamesl_1961]
 - [Fischer and Klug 1989][research_fischer_klug_1989]
 - [Fischer and Vemuru 1991][research_fischer_vemuru_1991]
 - [Fischer et al 1983][research_fischer_wrightjr_1983]
@@ -2550,17 +2946,25 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Forte et al 2022][research_forte_nguyen_2022]
 - [Forte et al 2023][research_forte_nguyen_2023]
 - [Forte et al 2026][research_forte_nguyen_2026_c]
+- [Forte et al 2026][research_forte_nguyen_2026_e]
 - [Fossati et al 2024][research_fossati_jones_2024]
 - [Foster 1971][research_foster_1971]
 - [Foster 1972][research_foster_1972]
+- [Foster, G. V. 1959][research_fostergv_1959]
 - [Foughner, J. T., Jr. and Bensinger, C. T. 1977][research_foughnerjtjr_bensingerct_1977]
 - [Fournier et al 2022][research_fournier_massioni_2022]
+- [Fournier et al 2022][research_fournier_massioni_2022_b]
+- [Fournier, P. G. 1975][research_fournierpg_1975]
+- [Fournier, P. G. and Goodson, K. W. 1974][research_fournierpg_goodsonkw_1974]
 - [Fournier, P. G. and Sleeman, W. C., Jr. 1972][research_fournierpg_sleemanwcjr_1972]
+- [Fournier, P. G. and Sleeman, W. C., Jr. 1973][research_fournierpg_sleemanwcjr_1973]
 - [Fournier, P. G. and Sleeman, W. C., Jr. 1974][research_fournierpg_sleemanwcjr_1974]
 - [Fournis and Gaultier 2026][research_fournis_gaultier_2026]
 - [Francisco Peña and Benjamin Park 2024][research_franciscopena_benjaminpark_2024]
 - [Francois et al 2017][research_francois_cooper_2017]
+- [Frank et al 2008][research_frank_joo_2008]
 - [Frederick, Mike et al 2014][research_frederickmike_banksdan_2014]
+- [Frediani et al 2001][research_frediani_chiarelli_2001]
 - [Freudinger, Lawrence C. 1989][research_freudingerlawrencec_1989]
 - [Freudinger, Lawrence C. and Kehoe, Michael W. 1990][research_freudingerlawrencec_kehoemichaelw_1990]
 - [Friedewald et al 2017][research_friedewald_thormann_2017]
@@ -2594,11 +2998,15 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Full-Scale Testing of Wacker 2003][research_full_scale_testing_2003]
 - [Full-scale Transport Controlled Impact 1987][research_full_scale_transport_1987]
 - [Furey 1980][research_furey_1980]
+- [Furlong, G. Chester and Fitzpatrick, James E. 1947][research_furlonggchester_fitzpatrickjamese_1947]
 - [Furstenau 1992][research_furstenau_1992]
 - [Fusaro et al 2021][research_fusaro_viola_2021]
 - [Försching 1970][research_forsching_1970]
+- [Gagnon and Zingg 2015][research_gagnon_zingg_2015]
 - [Gagnon and Zingg 2016][research_gagnon_zingg_2016]
 - [Gaifullin 2023][research_gaifullin_2023]
+- [Gainer, Patrick A. and Aiken, William S., Jr. 1959][research_gainerpatricka_aikenwilliamsjr_1959]
+- [Gainer, T. G. et al 1984][research_gainertg_mannmj_1984]
 - [Galea et al 2003][research_galea_blake_2003]
 - [Gallman and Kroo 1996][research_gallman_kroo_1996]
 - [Gallman et al 1993][research_gallman_smith_1993]
@@ -2613,9 +3021,11 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Gangsaas, D. et al 1981][research_gangsaasd_lyu_1981]
 - [Gao and Smith 2020][research_gao_smith_2020]
 - [Gao et al 2006][research_gao_shi_2006]
+- [Gao et al 2017][research_gao_cai_2017]
 - [Gao et al 2018][research_gao_zhang_2018]
 - [Gao et al 2024][research_gao_liu_2024]
 - [Garbaruk et al 2021][research_garbaruk_strelets_2021]
+- [Garcelon et al 1999][research_garcelon_balabanov_1999]
 - [Garcia et al 2001][research_garcia_slingerland_2001]
 - [Garg et al 2026][research_garg_neves_2026]
 - [Garmann and Visbal 2012][research_garmann_visbal_2012]
@@ -2649,6 +3059,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Gern, Frank H. et al 2000][research_gernfrankh_naghshinehamirh_2000]
 - [Gerontakos and Lee 2006][research_gerontakos_lee_2006]
 - [Ghalandari et al 2022][research_ghalandari_mahariq_2022]
+- [Ghasemikaram et al 2021][research_ghasemikaram_mazidi_2021]
 - [Ghee and Taylor 2000][research_ghee_taylor_2000]
 - [Ghee and Taylor 2004][research_ghee_taylor_2004]
 - [Giacomin et al 2018][research_giacomin_nabarrete_2018]
@@ -2662,11 +3073,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Giese et al 1996][research_giese_reich_1996]
 - [Giesing 1970][research_giesing_1970]
 - [Giesseler et al 2012][research_giesseler_kopf_2012]
+- [Gifford, R. V. and Van Dam, C. P. 1982][research_giffordrv_vandamcp_1982]
 - [Gil Megias et al 2025][research_gilmegias_quinteroigeno_2025]
 - [Gilbert, Michael G. 1989][research_gilbertmichaelg_1989]
 - [Gilbrook et al 2023][research_gilbrook_ma_2023]
-- [Giles 1986][research_giles_1986]
+- [Giles, G. L. 1986][research_gilesgl_1986]
 - [Giles, Gary L. 1995][research_gilesgaryl_1995]
+- [Gillespie, Warren, Jr 1956][research_gillespiewarrenjr_1956]
 - [Gillespie, Warren, Jr. 1960][research_gillespiewarrenjr_1960]
 - [Gillette 1977][research_gillette_1977]
 - [Gilman and Burdges 1967][research_gilman_burdges_1967]
@@ -2677,18 +3090,23 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Glaese and Anderson 1999][research_glaese_anderson_1999]
 - [Gloss, B. B. et al 1974][research_glossbb_hendersonwp_1974]
 - [Gobal and Grandhi 2015][research_gobal_grandhi_2015]
+- [Goble, R. L. 1972][research_goblerl_1972]
 - [Goc et al 2023][research_goc_agrawal_2023]
 - [Godwin et al 1964][research_godwin_frazier_1964]
+- [Goetz, R. C. and Doggett, R. V., Jr. 1974][research_goetzrc_doggettrvjr_1974]
 - [Goetz, R. C. and Stonesifer, J. C. 1961][research_goetzrc_stonesiferjc_1961]
 - [Gogate et al 1994][research_gogate_pant_1994]
+- [Goggin 1992][research_goggin_1992]
 - [Goizueta et al 2021][research_goizueta_drachinsky_2021]
 - [Goizueta et al 2022][research_goizueta_wynn_2022]
+- [Gokcin Cinar et al 2023][research_gokcincinar_yucai_2023]
 - [Goldberg et al 2017][research_goldberg_nalianda_2017]
 - [Golla et al 2024][research_golla_kennedy_2024]
 - [Golshany et al 2024][research_golshany_strat_2024]
 - [Gonzalez et al 2026][research_gonzalez_ilie_2026]
 - [González and Hosoda 2016][research_gonzalez_hosoda_2016]
 - [Goodwin, Sabine A. and Raj, P. 1999][research_goodwinsabinea_rajp_1999]
+- [Goodyear, M. D. 1987][research_goodyearmd_1987]
 - [Gopalarathnam and Selig 2001][research_gopalarathnam_selig_2001]
 - [Gopkalo et al 2026][research_gopkalo_dmytrienko_2026]
 - [Goradia, S. and Morgan, H. L., Jr. 1986][research_goradias_morganhljr_1986]
@@ -2700,6 +3118,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Govers et al 2017][research_govers_sinske_2017]
 - [Govers et al 2019][research_govers_sinske_2019]
 - [Govindaraju et al 2017][research_govindaraju_davendralingam_2017]
+- [Graber, Edwin J. 1987][research_graberedwinj_1987]
+- [Graham, David and Evans, William T 1955][research_grahamdavid_evanswilliamt_1955]
 - [Grandhi 2005][research_grandhi_2005]
 - [Grant et al 2006][research_grant_mccutcheon_2006]
 - [Grants and Gerbeth 2007][research_grants_gerbeth_2007]
@@ -2721,9 +3141,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Green, J. A. 1986][research_greenja_1986]
 - [Greene and Sobieszczanski-Sobieski 1980][research_greene_sobieszczanskisobieski_1980]
 - [Greene and Sobieszczanski-Sobieski 1982][research_greene_sobieszczanskisobieski_1982]
+- [Greene, George C. 1988][research_greenegeorgec_1988]
+- [Greene, George C. 1989][research_greenegeorgec_1989]
 - [Greenhalgh, Skott et al 1993][research_greenhalghskott_pastorechristopherm_1993]
 - [Gregory et al 2007][research_gregory_cao_2007]
 - [Gregory G Zilliac 2026][research_gregorygzilliac_2026]
+- [Greitzer, E. M. et al 2010][research_greitzerem_bonnefoypa_2010]
 - [Grewe 2020][research_grewe_2020]
 - [Gribbin et al 2025][research_gribbin_odohertyjennings_2025]
 - [Griffin et al 1983][research_griffin_haerter_1983]
@@ -2751,6 +3174,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Gunasekaran and Mukherjee 2016][research_gunasekaran_mukherjee_2016]
 - [Gundlac et al 2000][research_gundlac_tetrault_2000]
 - [Gundlach et al 2000][research_gundlach_tetrault_2000]
+- [Gunturu and Jain 2025][research_gunturu_jain_2025]
 - [Guo 2007][research_guo_2007]
 - [Guo and Thomas 2022][research_guo_thomas_2022]
 - [Guo et al 2015][research_guo_delosmonteros_2015]
@@ -2777,6 +3201,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Gur et al 2011][research_gur_bhatia_2011]
 - [Gur et al 2011][research_gur_schetz_2011]
 - [Gurley, J. R., Jr. and Ruhlin, C. L. 1962][research_gurleyjrjr_ruhlincl_1962]
+- [Guruswamy 1991][research_guruswamy_1991]
 - [Guruswamy and Goorjian 1985][research_guruswamy_goorjian_1985]
 - [Guruswamy and Tu 1989][research_guruswamy_tu_1989]
 - [Guruswamy and Tu 1994][research_guruswamy_tu_1994]
@@ -2790,6 +3215,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Gusto Andika et al 2020][research_gustoandika_kismonohadi_2020]
 - [Gutierrez et al 1994][research_gutierrez_tate_1994]
 - [Gutiérrez-Antonio 2025][research_gutierrezantonio_2025]
+- [Guynn, Effective L/D, A Theoretical Approach to the Measurement of Aero-Structural Efficiency in Aircraft Design, NASA Langley Research Center, 2016, read in part][research_guynn_2016]
 - [Guynn, Mark D. 2011][research_guynnmarkd_2011]
 - [Guynn, Mark D. et al 2004][research_guynnmarkd_frehjoshuae_2004]
 - [Guynn, Mark D. et al 2011][research_guynnmarkd_bertonjeffreyj_2011]
@@ -2804,26 +3230,33 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Haderlie and Crossley 2009][research_haderlie_crossley_2009]
 - [Haftka 1977][research_haftka_1977]
 - [Hager et al 1992][research_hager_eyi_1992]
+- [Haghighat et al 2009][research_haghighat_liu_2009]
 - [Haghighat et al 2010][research_haghighat_liu_2010]
 - [Haghighat et al 2012][research_haghighat_liu_2012]
 - [Hah and Shin 2012][research_hah_shin_2012]
-- [Hahn 2012][research_hahn_2012]
+- [Hahn, Andrew S. 2012][research_hahnandrews_2012]
 - [Hahne, David E. and Glaab, Louis J. 1999][research_hahnedavide_glaablouisj_1999]
 - [Hajela and Chen 1986][research_hajela_chen_1986]
 - [Hajj 2004][research_hajj_2004]
 - [Hall et al 2024][research_hall_lynch_2024]
 - [Hall et al 2024][research_hall_lynch_2024_b]
+- [Hall, Albert W and Mckay, James M 1952][research_hallalbertw_mckayjamesm_1952]
 - [Halle E. Buescher and Joseph W. Connolly][research_halleebuescher_josephwconnolly]
 - [Haller, William et al 2012][research_hallerwilliam_guynnmark_2012]
 - [Hallissy and Cesnik 2011][research_hallissy_cesnik_2011]
 - [Hallissy, J. B. and Ayers, T. G. 1977][research_hallissyjb_ayerstg_1977]
 - [Hallissy, J. B. and Harris, C. D. 1974][research_hallissyjb_harriscd_1974]
+- [Ham 1985][research_ham_1985]
+- [Hamada et al 2019][research_hamada_saitoh_2019]
+- [Hamada et al 2020][research_hamada_kikuchi_2020]
 - [Hammer and Olivier 2019][research_hammer_olivier_2019]
 - [Hammer and Shumway 2026][research_hammer_shumway_2026]
 - [Hammer et al 2021][research_hammer_garmann_2021]
 - [Hammer et al 2021][research_hammer_garmann_2021_b]
 - [Hammerton et al 2018][research_hammerton_su_2018]
 - [Hammerton, Jared R. et al 2018][research_hammertonjaredr_suweihua_2018]
+- [Hammond, Alexander D and Hayes, William C, Jr 1954][research_hammondalexanderd_hayeswilliamcjr_1954]
+- [Hammond, Alexander D and Keffer, Barbara M 1953][research_hammondalexanderd_kefferbarbaram_1953]
 - [Han and Li][research_han_li]
 - [Han et al 2007][research_han_lee_2007]
 - [Han et al 2016][research_han_chen_2016]
@@ -2837,6 +3270,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Haney et al 1980][research_haney_johnson_1980]
 - [Hang et al 2013][research_hang_jihong_2013]
 - [Hanin and Barsony-Nagy 1983][research_hanin_barsonynagy_1983]
+- [Hanman et al 2025][research_hanman_yao_2025]
 - [Hansen et al 2007][research_hansen_heinze_2007]
 - [Hansen et al 2020][research_hansen_duan_2020]
 - [Hansen et al 2020][research_hansen_duan_2020_b]
@@ -2847,11 +3281,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Hanson et al 2018][research_hanson_andrade_2018]
 - [Hanson, P. W. 1980][research_hansonpw_1980]
 - [Hanson, P. W. 1984][research_hansonpw_1984]
+- [Hao et al 2023][research_hao_ma_2023]
 - [Harash et al 2012][research_harash_yadykin_2012]
 - [Harbeck and Jameson 2005][research_harbeck_jameson_2005]
 - [Hardin, Jay D. et al 1993][research_hardinjayd_potterrc_1993]
 - [Harish et al 2022][research_harish_shi_2022]
 - [Harris 1980][research_harris_1980]
+- [Harris, C. D. 1971][research_harriscd_1971]
 - [Harris, C. D. 1972][research_harriscd_1972]
 - [Harris, C. D. and Blackwell, J. A., Jr. 1972][research_harriscd_blackwelljajr_1972]
 - [Harris, Charles D. et al 1988][research_harrischarlesd_harveywilliamd_1988]
@@ -2864,13 +3300,16 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Hartwich, Peter M. et al 2014][research_hartwichpeterm_dickeyericd_2014]
 - [Hartwich, Peter M. et al 2016][research_hartwichpeterm_shmilovicharvin_2016]
 - [Harvey et al 1969][research_harvey_blankenship_1969]
+- [Harvey, W. D. 1982][research_harveywd_1982]
 - [Harvey, W. D. and Pride, J. D. 1982][research_harveywd_pridejd_1982]
 - [Harvey, W. D. and Pride, J. D. 1982][research_harveywd_pridejd_1982_b]
 - [Harvey, W. D. et al 1986][research_harveywd_harriscd_1986]
 - [Hasan and Alam 2013][research_hasan_alam_2013]
+- [Hasan and Alam 2014][research_hasan_alam_2014]
 - [Hasan et al 2022][research_hasan_redonnet_2022]
 - [Hashemi and Nguyen 2018][research_hashemi_nguyen_2018_b]
 - [Hashemi et al 2018][research_hashemi_nguyen_2018]
+- [Hashemi, Kelley 2017][research_hashemikelley_2017]
 - [Hashemi, Kelley E. et al 2020][research_hashemikelleye_alderandrew_2020]
 - [Hass et al 2024][research_hass_housman_2024]
 - [Hassall 2015][research_hassall_2015]
@@ -2878,6 +3317,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Hassan and Mavris 2018][research_hassan_mavris_2018]
 - [Hassan and Mavris 2020][research_hassan_mavris_2020]
 - [Hattasanjaya 2024][research_hattasanjaya_2024]
+- [Havenar and Ilie 2025][research_havenar_ilie_2025]
 - [Hayase 1974][research_hayase_1974]
 - [Hayase 1974][research_hayase_1974_b]
 - [Hayduk, R. J. 1986][research_haydukrj_1986]
@@ -2891,12 +3331,15 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [He and Su 2023][research_he_su_2023]
 - [He et al 2014][research_he_yang_2014]
 - [He et al 2020][research_he_jia_2020]
+- [He et al 2021][research_he_ma_2021]
 - [He et al 2022][research_he_caire_2022]
 - [He et al 2022][research_he_wang_2022]
 - [He et al 2023][research_he_chen_2023]
 - [He et al 2024][research_he_zhan_2024]
+- [Head, V. L. 1972][research_headvl_1972]
 - [Healy et al 2022][research_healy_cheung_2022]
 - [Healy et al 2026][research_healy_rezgui_2026]
+- [Heaney, Patrick S. et al 2018][research_heaneypatricks_ivancothomasg_2018]
 - [Heath, Christopher M. and Gray, Justin S. 2012][research_heathchristopherm_grayjustins_2012]
 - [Heather Maliska et al 2024][research_heathermaliska_vincentschultz_2024]
 - [Hebert et al 1970][research_hebert_joseph_1970]
@@ -2907,6 +3350,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Heeg, Jennifer and Chwalowski, Pawel 2019][research_heegjennifer_chwalowskipawel_2019]
 - [Heeg, Jennifer et al 2005][research_heegjennifer_spaincharlesv_2005]
 - [Hefner 1992][research_hefner_1992]
+- [Heimbaugh, Richard M. 1987][research_heimbaughrichardm_1987]
+- [Heitmeyer, John C and Smith, Willard G 1952][research_heitmeyerjohnc_smithwillardg_1952]
 - [Henderson 1987][research_henderson_1987]
 - [Henderson, W. P. and Patterson, J. C., Jr. 1983][research_hendersonwp_pattersonjcjr_1983]
 - [Hendricks, Eric S. and Tong, Michael T. 2012][research_hendrickserics_tongmichaelt_2012]
@@ -2915,6 +3360,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Henne 1989][research_henne_1989]
 - [Henne, P. A. et al 1982][research_hennepa_dahlinja_1982]
 - [Henning, Allen B 1953][research_henningallenb_1953]
+- [Henningsson and Bomphrey 2013][research_henningsson_bomphrey_2013]
 - [Henry et al 2005][research_henry_blondeau_2005]
 - [Herbert W Schlickenmaier et al 2023][research_herbertwschlickenmaier_markanderson_2023]
 - [Herencia et al 2007][research_herencia_weaver_2007]
@@ -2931,12 +3377,15 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Hewitt and Albright][research_hewitt_albright]
 - [Hewitt et al 2005][research_hewitt_weiss_2005]
 - [Heykena et al 2020][research_heykena_obayashi_2020]
-- [Hicks 1981][research_hicks_1981]
+- [Hicken and Zingg 2010][research_hicken_zingg_2010]
 - [Hicks and Matheny 1987][research_hicks_matheny_1987]
 - [Hicks and Moulton 1988][research_hicks_moulton_1988]
+- [Hicks, John W. and Huckabine, Thomas 1989][research_hicksjohnw_huckabinethomas_1989]
 - [Hicks, John W. et al 1987][research_hicksjohnw_kaniajan_1987]
+- [Hicks, R. M. 1981][research_hicksrm_1981]
 - [High Reynolds Number Hybrid 1999][research_high_reynolds_1999]
 - [Highly Skewed Propellers-Full Scale 2025][research_highly_skewed_2025]
+- [Hildebrand, Francis B and Reissner, Eric 1944][research_hildebrandfrancisb_reissnereric_1944]
 - [Hilfer et al 2011][research_hilfer_rossler_2011]
 - [Hilger and Ritter 2021][research_hilger_ritter_2021]
 - [Hilger and Ritter 2023][research_hilger_ritter_2023]
@@ -2950,8 +3399,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Hillebrand et al 2024][research_hillebrand_breitenstein_2024]
 - [Hillebrand et al 2026][research_hillebrand_breitenstein_2026]
 - [Hillebrand et al 2026][research_hillebrand_lutz_2026_b]
+- [Hiller et al 2024][research_hiller_campbell_2024]
 - [Hiller et al 2025][research_hiller_campbell_2025]
 - [Hinshaw et al 1964][research_hinshaw_sickles_1964]
+- [Hinson et al 2022][research_hinson_morgansen_2022]
 - [Hirschel et al 2020][research_hirschel_rizzi_2020]
 - [Hirschel et al 2020][research_hirschel_rizzi_2020_b]
 - [Hirschel et al 2020][research_hirschel_rizzi_2020_c]
@@ -2965,15 +3416,20 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Hodge, Kenneth E. and Kellogg, Yvonne 1996][research_hodgekennethe_kelloggyvonne_1996]
 - [Hoell et al 2011][research_hoell_kabatveljob_2011]
 - [Hoffmann et al 2011][research_hoffmann_loftfield_2011]
+- [Holdaway, George H. and Mellenthin, Jack A. 1960][research_holdawaygeorgeh_mellenthinjacka_1960]
+- [Holdaway, George H. and Mellenthin, Jack A. 1960][research_holdawaygeorgeh_mellenthinjacka_1960_b]
 - [Holistic Methodology to Guide][research_holistic_methodology]
 - [Holmes and Obara 1983][research_holmes_obara_1983]
 - [Holmes and Obara 1992][research_holmes_obara_1992]
+- [Honda et al 2023][research_honda_sato_2023]
 - [Hong et al 2008][research_hong_rhoads_2008]
 - [Hong et al 2020][research_hong_lv_2020]
+- [Hoogreef et al 2020][research_hoogreef_devries_2020]
 - [Hooker et al 2013][research_hooker_wick_2013]
 - [Hoover and Shen 2018][research_hoover_shen_2018]
-- [Hopkins 1975][research_hopkins_1975]
 - [Hopkins 1977][research_hopkins_1977]
+- [Hopkins, E. J. 1975][research_hopkinsej_1975]
+- [Hopkins, Edward J and Carel, Hubert C 1951][research_hopkinsedwardj_carelhubertc_1951]
 - [Hoque and Duan 2020][research_hoque_duan_2020]
 - [Horak and Novotny 2018][research_horak_novotny_2018]
 - [Horikawa and Saito 1986][research_horikawa_saito_1986]
@@ -2996,12 +3452,15 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Hu and Zhou 2007][research_hu_zhou_2007]
 - [Hu et al 2022][research_hu_dai_2022]
 - [Hu et al 2024][research_hu_lu_2024]
+- [Hu et al 2025][research_hu_dai_2025]
 - [Hu et al 2026][research_hu_zhao_2026]
+- [Huang et al 1996][research_huang_dudley_1996]
 - [Huang et al 2003][research_huang_mostafa_2003]
 - [Huang et al 2020][research_huang_tsushima_2020]
 - [Huang et al 2025][research_huang_fraihat_2025]
 - [Huang et al 2026][research_huang_farsadi_2026]
 - [Huebner and Reimer 2019][research_huebner_reimer_2019]
+- [Huffman, J. K. and Jackson, C. M., Jr. 1974][research_huffmanjk_jacksoncmjr_1974]
 - [Hughes and Gazzaniga 2009][research_hughes_gazzaniga_2009]
 - [Hughes and Olsen 2022][research_hughes_olsen_2022]
 - [Hughes et al 2011][research_hughes_vanzante_2011]
@@ -3011,6 +3470,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Hughes, Chris and Lord, Wed 2008][research_hugheschris_lordwed_2008]
 - [Hughes, Christopher 2011][research_hugheschristopher_2011]
 - [Hughes, Christopher E. 2009][research_hugheschristophere_2009]
+- [Hughes, Christopher E. 2013][research_hugheschristophere_2013]
 - [Hughes, Christopher E. and Zeug, Theresa 2008][research_hugheschristophere_zeugtheresa_2008]
 - [Hughes, D. L. 1973][research_hughesdl_1973]
 - [Huijts and Voskuijl 2015][research_huijts_voskuijl_2015]
@@ -3020,13 +3480,15 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Humphrey et al 2026][research_humphrey_burnett_2026]
 - [Humphreys-Jennings et al 2019][research_humphreysjennings_lappas_2019]
 - [Humphreys-Jennings et al 2020][research_humphreysjennings_lappas_2020]
+- [Hunsaker and Phillips 2020][research_hunsaker_phillips_2020]
+- [Hunsaker et al 2017][research_hunsaker_phillips_2017]
 - [Hunsaker et al 2019][research_hunsaker_montgomery_2019]
 - [Huo et al 2013][research_huo_wang_2013]
 - [Huo et al 2025][research_huo_yang_2025]
 - [Hur et al 2004][research_hur_beran_2004]
 - [Husain et al 2026][research_husain_piotrowski_2026]
 - [Hutcheson et al 2016][research_hutcheson_spalt_2016]
-- [Hutchison et al 1992][research_hutchison_unger_1992]
+- [Hutchison, M. G. et al 1992][research_hutchisonmg_ungerer_1992]
 - [Huttsell, L. J. et al 1976][research_huttselllj_nollte_1976]
 - [Hwang and Pi 1982][research_hwang_pi_1982]
 - [Hwang, C. et al 1979][research_hwangc_wintherba_1979]
@@ -3055,12 +3517,17 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Imoisili 2026][research_imoisili_2026]
 - [Imoisili 2026][research_imoisili_2026_b]
 - [In Situ Liquid-Phase-Adsorption Measurement][research_in_situ]
+- [Inac 2023][research_inac_2023]
 - [Induced Drag Effect on 1976][research_induced_drag_1976]
+- [Inger 1991][research_inger_1991]
+- [Inger 1993][research_inger_1993]
 - [Ingraldi et al 1992][research_ingraldi_kariya_1992]
 - [Ingraldi, Anthony M. et al 1991][research_ingraldianthonym_rerichardj_1991]
+- [Ingram and Eichenbaum 1969][research_ingram_eichenbaum_1969]
 - [Integrated Algal Biorefinery to 2026][research_integrated_algal_2026]
 - [Integrated application of active 1980][research_integrated_application_1980]
 - [Integrated Application of Active 1981][research_integrated_application_1981]
+- [Integrated Application of Active 1982][research_integrated_application_1982]
 - [Integrative application of active 1980][research_integrative_application_1980]
 - [Interface Protective Devices][research_interface_protective]
 - [Investigating the Feasibility of 2025][research_investigating_the_2025]
@@ -3072,6 +3539,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Irian Ordaz][research_irianordaz]
 - [Irvin and Swan 1956][research_irvin_swan_1956]
 - [Ishida et al 2016][research_ishida_ishiko_2016]
+- [Ishrak et al 2024][research_ishrak_shuvo_2024]
+- [Islam et al 2018][research_islam_martin_2018]
 - [Islam et al 2024][research_islam_mohona_2024]
 - [Isogai 1979][research_isogai_1979]
 - [Isogai 1981][research_isogai_1981]
@@ -3093,6 +3562,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Jackson, E. B. et al 1993][research_jacksoneb_riversroberta_1993]
 - [Jacobs, P. F. 1982][research_jacobspf_1982]
 - [Jacobs, P. F. 1983][research_jacobspf_1983]
+- [Jacobsen, Carl R 1952][research_jacobsencarlr_1952]
+- [Jacobsen, Carl R 1953][research_jacobsencarlr_1953_b]
+- [Jacobsen, Carl R. 1953][research_jacobsencarlr_1953]
 - [Jafari et al 2020][research_jafari_nikolaidis_2020]
 - [Jagtap 2025][research_jagtap_2025]
 - [Jagtap et al 2024][research_jagtap_childs_2024]
@@ -3105,6 +3577,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [James A. Kenyon et al][research_jamesakenyon_barbaramesker]
 - [James D Heidmann][research_jamesdheidmann]
 - [James Jim Heidmann][research_jamesjimheidmann]
+- [James Joseph et al][research_jamesjoseph_davidjkinney]
+- [James Joseph et al][research_jamesjoseph_davidjkinney_b]
 - [James Kenyon][research_jameskenyon]
 - [James Reynolds et al][research_jamesreynolds_ryandwallace]
 - [Jameson 2009][research_jameson_2009]
@@ -3122,14 +3596,17 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Jason C June et al 2022][research_jasoncjune_russellhthomas_2022]
 - [Jasperson et al 1984][research_jasperson_nastrom_1984]
 - [Jaworski and Dowell 2009][research_jaworski_dowell_2009]
+- [Jayaram, S. et al 1992][research_jayarams_myklebusta_1992]
 - [Jayatilake et al 2024][research_jayatilake_lowenberg_2024]
 - [Jayatilake et al 2025][research_jayatilake_lowenberg_2025]
 - [Jeff Trudell][research_jefftrudell]
 - [Jeff Trudell 2023][research_jefftrudell_2023]
+- [Jeffrey C. Chin et al][research_jeffreycchin_eliotdaretskinhariton]
 - [Jeffrey J. Berton 2022][research_jeffreyjberton_2022]
 - [Jeffrey Ouellette][research_jeffreyouellette]
 - [Jeffrey Ouellette][research_jeffreyouellette_b]
 - [Jeffrey Ouellette et al][research_jeffreyouellette_chrisjmiller]
+- [Jemitola and Okonkwo 2023][research_jemitola_okonkwo_2023]
 - [Jemitola et al 2013][research_jemitola_monterzino_2013]
 - [Jenkins 1971][research_jenkins_1971]
 - [Jenkins 1986][research_jenkins_1986]
@@ -3191,7 +3668,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Jones, George W, Jr and Dubose, Hugh C 1953][research_jonesgeorgewjr_dubosehughc_1953]
 - [Jones, George W, Jr and Unangst, John R 1956][research_jonesgeorgewjr_unangstjohnr_1956]
 - [Jones, R. E. et al 1978][research_jonesre_diehlla_1978]
+- [Jones, Robert T 1946][research_jonesrobertt_1946]
 - [Jordan 1971][research_jordan_1971]
+- [Jordan, F. L., Jr. 1976][research_jordanfljr_1976]
+- [Joseph Weil and William D Morrison, Jr 1953][research_josephweil_williamdmorrisonjr_1953]
 - [Joshi 1998][research_joshi_1998]
 - [Josiah M Waite et al][research_josiahmwaite_jaredgrauer]
 - [Joslin 1998][research_joslin_1998]
@@ -3201,6 +3681,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Jun et al 2014][research_jun_harmin_2014]
 - [June et al 2025][research_june_hickey_2025]
 - [Jung et al 2008][research_jung_lee_2008]
+- [Junlei et al 2017][research_junlei_zhou_2017]
 - [Juntao Xiong and Nhan Nguyen][research_juntaoxiong_nhannguyen_d]
 - [Juntao Xiong and Nhan Nguyen][research_juntaoxiong_nhannguyen_e]
 - [Juntao Xiong and Nhan Nguyen][research_juntaoxiong_nhannguyen_g]
@@ -3213,8 +3694,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Juntao Xiong et al][research_juntaoxiong_nhannguyen_i]
 - [Juntao Xiong et al][research_juntaoxiong_robertebartels]
 - [Juntao Xiong et al][research_juntaoxiong_robertebartels_b]
+- [Junxuan and Xun 2015][research_junxuan_xun_2015]
 - [Justin S. Gray][research_justinsgray]
 - [Jutte et al 2024][research_jutte_mason_2024]
+- [Jutte, Christine and Stanford, Bret K. 2014][research_juttechristine_stanfordbretk_2014]
 - [Jutte, Christine V. et al 2011][research_juttechristinev_kowilliaml_2011]
 - [Jutte, Christine V. et al 2014][research_juttechristinev_stanfordbretk_2014]
 - [Jutte, Christine V. et al 2015][research_juttechristinev_stanfordbretk_2015]
@@ -3242,6 +3725,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Kapania et al 2022][research_kapania_schetz_2022]
 - [Kapania, Rakesh K. et al 1993][research_kapaniarakeshk_issacjasonc_1993]
 - [Kapania, Rakesh K. et al 2018][research_kapaniarakeshk_schetzjosepha_2018]
+- [Karagoz et al 2019][research_karagoz_reilley_2019]
 - [Kargarnovin and Sayrarfie 1995][research_kargarnovin_sayrarfie_1995]
 - [Karpel 1982][research_karpel_1982]
 - [Karpel, Mardechay 1992][research_karpelmardechay_1992]
@@ -3258,10 +3742,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Karpuk et al 2022][research_karpuk_radespiel_2022]
 - [Karpuk et al 2023][research_karpuk_ma_2023]
 - [Kasi et al 2019][research_kasi_dsouza_2019]
+- [Katz, Ellis 1948][research_katzellis_1948]
 - [Katz, H. et al 1976][research_katzh_foppegf_1976]
 - [Kaul 2024][research_kaul_2024]
 - [Kawai and Hrach 1980][research_kawai_hrach_1980]
+- [Kawai, R. T. et al 1982][research_kawairt_mccarthyrf_1982]
 - [Kawakami et al 2008][research_kawakami_takatoya_2008]
+- [Kaykayoglu 1996][research_kaykayoglu_1996]
 - [Kaynak, U. et al 1986][research_kaynaku_holsttl_1986]
 - [Kayran 2004][research_kayran_2004]
 - [Kayran 2007][research_kayran_2007]
@@ -3287,6 +3774,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Kelly, H. N. 1957][research_kellyhn_1957]
 - [Kelly, Thomas C. 1959][research_kellythomasc_1959]
 - [Kelsa Palomares et al][research_kelsapalomares_jameswerner]
+- [Kendall 1984][research_kendall_1984]
+- [Kendall 1985][research_kendall_1985]
 - [Kennelly, Jr. 1983][research_kennellyjr_1983]
 - [Kenny et al 2026][research_kenny_kamath_2026]
 - [Kenter Ahrazoğlu et al 2025][research_kenterahrazoglu_ahrazoglu_2025]
@@ -3300,6 +3789,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Khadilkar and Balakrishnan 2011][research_khadilkar_balakrishnan_2011]
 - [Khadilkar and Balakrishnan 2012][research_khadilkar_balakrishnan_2012]
 - [Khadiv et al 2025][research_khadiv_tayefi_2025]
+- [Khalid and Kumar 2014][research_khalid_kumar_2014]
 - [Khalid et al 2010][research_khalid_sokhey_2010]
 - [Khalil and Bauknecht 2024][research_khalil_bauknecht_2024]
 - [Khalil and Fezans 2019][research_khalil_fezans_2019]
@@ -3316,8 +3806,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Khoirun Nisa et al 2018][research_khoirunnisa_andaomanu_2018]
 - [Kholyavko 1971][research_kholyavko_1971]
 - [Khongbamphen 2025][research_khongbamphen_2025]
+- [Khot et al 2001][research_khot_appa_2001]
 - [Khrabrov 2007][research_khrabrov_2007]
 - [Kida 1982][research_kida_1982]
+- [Kida and Miyai 1974][research_kida_miyai_1974]
 - [Kida and Miyai 1978][research_kida_miyai_1978]
 - [Kidd 1966][research_kidd_1966]
 - [Kikuchi et al 2026][research_kikuchi_miyake_2026]
@@ -3326,6 +3818,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Kim and Crassidis 2003][research_kim_crassidis_2003]
 - [Kim and Lee 2001][research_kim_lee_2001]
 - [Kim and Lee 2007][research_kim_lee_2007]
+- [Kim and Marciniak 1999][research_kim_marciniak_1999]
+- [Kim and Strganac 2002][research_kim_strganac_2002]
 - [Kim et al 1999][research_kim_kabe_1999]
 - [Kim et al 2002][research_kim_lee_2002]
 - [Kim et al 2006][research_kim_jeon_2006]
@@ -3351,15 +3845,21 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Kitsios et al 2020][research_kitsios_dimopoulos_2020]
 - [Kjelgaard, S. O. and Paulson, J. W., Jr. 1981][research_kjelgaardso_paulsonjwjr_1981]
 - [Kleemann et al 2020][research_kleemann_karpuk_2020]
+- [Klein and Viswanathan 1973][research_klein_viswanathan_1973]
 - [Klein and Viswanathan 1975][research_klein_viswanathan_1975]
 - [Klein and Viswanathan 1975][research_klein_viswanathan_1975_b]
+- [Klepl 1990][research_klepl_1990]
 - [Klinkhachorn 2005][research_klinkhachorn_2005]
+- [Klug et al 2020][research_klug_radespiel_2020]
+- [Klug et al 2021][research_klug_naik_2021]
 - [Klug et al 2023][research_klug_ullah_2023]
 - [Klutchnikov and Ballmann 2004][research_klutchnikov_ballmann_2004]
 - [Klyde et al 2004][research_klyde_harris_2004]
 - [Ko et al 2000][research_ko_grossman_2000]
+- [Kobayakawa and Maeda 1978][research_kobayakawa_maeda_1978]
 - [Koc et al 2005][research_koc_kim_2005]
 - [Kocan 2023][research_kocan_2023]
+- [Kocharin et al 2021][research_kocharin_yatskikh_2021]
 - [Kodigaddi 2026][research_kodigaddi_2026]
 - [Kodigaddi et al 2024][research_kodigaddi_khazi_2024]
 - [Koike et al 2016][research_koike_ueno_2016]
@@ -3370,6 +3870,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Kolonay and Yang 1998][research_kolonay_yang_1998]
 - [Kolonay et al 2004][research_kolonay_eastep_2004]
 - [Kolosz et al 2026][research_kolosz_ibrahimnagidi_2026]
+- [Komarov and Zinchenko 2023][research_komarov_zinchenko_2023]
+- [Konstantinos Milios et al 2023][research_konstantinosmilios_christopherhall_2023]
+- [Kontou et al 2024][research_kontou_trompoukis_2024]
 - [Koo et al 2025][research_koo_zhang_2025]
 - [Koohi et al 2014][research_koohi_shahverdi_2014]
 - [Kooi et al 1994][research_kooi_kiock_1994]
@@ -3381,6 +3884,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Korthäuer et al 2023][research_korthauer_accorinti_2023]
 - [Kosin 1965][research_kosin_1965]
 - [Kosmatka and Panza 2003][research_kosmatka_panza_2003]
+- [Kotansky, D. R. and Glaze, L. W. 1978][research_kotanskydr_glazelw_1978]
 - [Kothari 2011][research_kothari_2011]
 - [Kotikalpudi et al 2018][research_kotikalpudi_danowsky_2018]
 - [Kratz 2024][research_kratz_2024]
@@ -3388,6 +3892,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Kratz, Jonathan L. and Chapman, Jeffryes W. 2018][research_kratzjonathanl_chapmanjeffryesw_2018]
 - [Krengel 2024][research_krengel_2024]
 - [Krengel and Hepperle 2023][research_krengel_hepperle_2023]
+- [Krengel et al 2019][research_krengel_hepperle_2019]
 - [Krenz 1979][research_krenz_1979]
 - [Kreshock et al 2018][research_kreshock_yeo_2018]
 - [Kretov and Tiniakov 2022][research_kretov_tiniakov_2022]
@@ -3398,6 +3903,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Kristopher Pierson et al][research_kristopherpierson_matthewha]
 - [Krivanek, Thomas M. et al 2003][research_krivanekthomasm_rochejosephm_2003]
 - [Krone, Jr. 1980][research_kronejr_1980]
+- [Kroo 1982][research_kroo_1982]
+- [Kroo, Ilan and Smith, Stephen 1990][research_krooilan_smithstephen_1990]
+- [Kroo, Ilan and Smith, Stephen 1991][research_krooilan_smithstephen_1991_b]
 - [Kroo, Ilan et al 1991][research_krooilan_smithstephen_1991]
 - [Kroyan et al 2022][research_kroyan_wojcieszyk_2022]
 - [Krumbein et al 2022][research_krumbein_francois_2022]
@@ -3411,10 +3919,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Kuhlman and Brown 1989][research_kuhlman_brown_1989]
 - [Kuhlman et al 1988][research_kuhlman_cerney_1988]
 - [Kuhlman, J. 1979][research_kuhlmanj_1979]
+- [Kuhlman, John M. and Liaw, Paul 1987][research_kuhlmanjohnm_liawpaul_1987]
 - [Kuhn 1975][research_kuhn_1975]
 - [Kuhn 1975][research_kuhn_1975_b]
 - [Kuhn et al 2026][research_kuhn_nussbaumer_2026]
 - [Kukreja, Sunil L. 2007][research_kukrejasunill_2007]
+- [Kukreja, Sunil L. 2007][research_kukrejasunill_2007_b]
 - [Kukreja, Sunil L. 2008][research_kukrejasunill_2008]
 - [Kukreja, Sunil L. et al 2012][research_kukrejasunill_viogaretha_2012]
 - [Kumar 2018][research_kumar_2018]
@@ -3422,17 +3932,21 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Kumar and Khalid 2014][research_kumar_khalid_2014]
 - [Kumar and Khalid 2017][research_kumar_khalid_2017]
 - [Kummer et al 2012][research_kummer_allred_2012]
+- [Kumud Ajmani and Jeffrey P. Moder][research_kumudajmani_jeffreypmoder]
 - [Kuntawala et al 2011][research_kuntawala_hicken_2011]
 - [Kuntjoro et al 2015][research_kuntjoro_wisnoe_2015]
 - [Kursakov et al 2022][research_kursakov_lysenkov_2022]
 - [Kuya et al 2020][research_kuya_boda_2020]
 - [Kwon and Vepa 2022][research_kwon_vepa_2022]
 - [Kwon et al 2001][research_kwon_leblanc_2001]
+- [Kwon, Oh J. and Sankar, Lakshmi N. 1990][research_kwonohj_sankarlakshmin_1990]
+- [Kyser and Willis 1973][research_kyser_willis_1973]
 - [Kılıç et al 2026][research_kilic_yildiz_2026]
 - [Kłopotowski and Cwojdziński 2022][research_klopotowski_cwojdzinski_2022]
 - [L James Runyan and Louis L Steers 1980][research_ljamesrunyan_louislsteers_1980]
 - [La Rocca et al 2002][research_larocca_krakers_2002]
 - [Lai et al 2014][research_lai_zhang_2014]
+- [Laitone 1978][research_laitone_1978]
 - [Lakiza et al 2025][research_lakiza_krasnorutskiy_2025]
 - [Lakshminarayan and Farhat 2014][research_lakshminarayan_farhat_2014]
 - [Lam 1993][research_lam_1993]
@@ -3447,12 +3961,16 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Lammen and Vankan 2020][research_lammen_vankan_2020]
 - [Lammering et al 2014][research_lammering_sauterleute_2014]
 - [Lampropoulos and Sarris 2025][research_lampropoulos_sarris_2025]
+- [Lampropoulos et al 2025][research_lampropoulos_vouros_2025]
 - [Land, Norman S and Abbott, Frank T, Jr 1955][research_landnormans_abbottfranktjr_1955]
 - [Landmann, A. E. et al 1992][research_landmannae_tillemahf_1992]
 - [Lang et al 2024][research_lang_wen_2024]
 - [Lange 1983][research_lange_1983]
 - [Lange 1984][research_lange_1984]
 - [Lange 1984][research_lange_1984_b]
+- [Lange and Moore 1979][research_lange_moore_1979]
+- [Lange and Moore 1980][research_lange_moore_1980]
+- [Lange, Roy H and May, Ralph W, Jr 1948][research_langeroyh_mayralphwjr_1948]
 - [Lange, Roy H. 1987][research_langeroyh_1987]
 - [Lange, Roy H. 1988][research_langeroyh_1988]
 - [Langford et al 2026][research_langford_fleming_2026]
@@ -3462,6 +3980,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Lasauskas 2016][research_lasauskas_2016]
 - [Latif et al 2020][research_latif_khan_2020]
 - [Lau][research_lau]
+- [Lau, May Yuen 1996][research_laumayyuen_1996]
 - [Laughlin et al 2013][research_laughlin_corman_2013]
 - [Lauten, W. T., Jr. et al 1954][research_lautenwtjr_lundstromrr_1954]
 - [Lauten, William T and Barmby, J G 1949][research_lautenwilliamt_barmbyjg_1949]
@@ -3492,6 +4011,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Lee and Ohman 1984][research_lee_ohman_1984_b]
 - [Lee and Palazotto 2019][research_lee_palazotto_2019]
 - [Lee and Tang 1989][research_lee_tang_1989]
+- [Lee E Boddy 1946][research_leeeboddy_1946]
 - [Lee et al 1991][research_lee_miura_1991]
 - [Lee et al 1994][research_lee_kim_1994]
 - [Lee et al 2002][research_lee_kroo_2002]
@@ -3501,8 +4021,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Lee et al 2018][research_lee_liou_2018]
 - [Lee et al 2018][research_lee_tan_2018]
 - [Lee, E. E., Jr. and Pendergraft, O. C., Jr. 1985][research_leeeejr_pendergraftocjr_1985]
+- [Lee-Rausch and Batina 1993][research_leerausch_batina_1993]
 - [Legriffon et al 2023][research_legriffon_bertsch_2023]
 - [Lehman and Stearman 1977][research_lehman_stearman_1977]
+- [Lehtinen, B. and Soeder, J. F. 1980][research_lehtinenb_soederjf_1980]
 - [Lei et al 2020][research_lei_wang_2020]
 - [Leifsson et al 2013][research_leifsson_ko_2013]
 - [Lents, Charles et al 2016][research_lentscharles_hardinlarry_2016]
@@ -3511,6 +4033,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Leonardo Barros da Luz et al 2026][research_leonardobarrosdaluz_flavioluizcardosoribeiro_2026]
 - [Leonardo Machado et al][research_leonardomachado_timothychau]
 - [Lesiak et al 2010][research_lesiak_rajan_2010]
+- [Letcher 1972][research_letcher_1972]
 - [Levin and Katz 1992][research_levin_katz_1992]
 - [Lewerenz 1987][research_lewerenz_1987]
 - [Leyds 1956][research_leyds_1956]
@@ -3529,6 +4052,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Li et al 2014][research_li_zhang_2014]
 - [Li et al 2016][research_li_wang_2016]
 - [Li et al 2017][research_li_cao_2017]
+- [Li et al 2017][research_li_zhao_2017]
+- [Li et al 2018][research_li_huang_2018]
 - [Li et al 2019][research_li_bai_2019]
 - [Li et al 2019][research_li_zhang_2019]
 - [Li et al 2020][research_li_ji_2020]
@@ -3536,10 +4061,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Li et al 2021][research_li_wan_2021]
 - [Li et al 2021][research_li_wang_2021]
 - [Li et al 2022][research_li_bai_2022]
+- [Li et al 2023][research_li_feng_2023]
 - [Li et al 2023][research_li_qiao_2023]
+- [Li et al 2023][research_li_zhang_2023]
 - [Li et al 2024][research_li_davidson_2024]
 - [Li et al 2024][research_li_qian_2024]
 - [Li et al 2024][research_li_zhang_2024]
+- [Li et al 2025][research_li_dai_2025]
 - [Li et al 2025][research_li_gong_2025]
 - [Li et al 2025][research_li_jia_2025]
 - [Li et al 2025][research_li_qiao_2025]
@@ -3554,6 +4082,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Librescu and Simovich 1988][research_librescu_simovich_1988]
 - [Librescu and Song 1992][research_librescu_song_1992]
 - [Librescu and Thangjitham 1991][research_librescu_thangjitham_1991]
+- [Licheva and Liscouet-Hanke 2023][research_licheva_liscouethanke_2023]
+- [Lichtenstein, Jacob H and Williams, James L 1952][research_lichtensteinjacobh_williamsjamesl_1952]
 - [Liebeck 2002][research_liebeck_2002]
 - [Liebeck 2003][research_liebeck_2003]
 - [Liebeck 2004][research_liebeck_2004]
@@ -3561,12 +4091,14 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Liebst et al 1986][research_liebst_garrard_1986]
 - [Liebst et al 1988][research_liebst_garrard_1988]
 - [Liem et al 2015][research_liem_kenway_2015]
+- [Liersch et al 2009][research_liersch_streit_2009]
 - [Life-Cycle Assessment of Sustainable][research_life_cycle_assessment]
 - [Lijewski 1987][research_lijewski_1987]
 - [Lin 2025][research_lin_2025]
 - [Lin et al 1989][research_lin_jhou_1989]
 - [Lin et al 1996][research_lin_crawley_1996]
 - [Lin et al 1997][research_lin_chieng_1997]
+- [Lin et al 2022][research_lin_wu_2022]
 - [Lin et al 2025][research_lin_zheng_2025]
 - [Lin, Ray-Sing and Reed, Helen L. 1993][research_linraysing_reedhelenl_1993]
 - [Lind, Rick 1999][research_lindrick_1999]
@@ -3576,6 +4108,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Lineberger, L. B. 1984][research_linebergerlb_1984]
 - [Lineberger, L. B. 1984][research_linebergerlb_1984_b]
 - [Liou, May-Fun et al 2017][research_lioumayfun_kimhyoungjin_2017]
+- [Lissaman, P. B. S. 1973][research_lissamanpbs_1973]
+- [Litt, Jonathan S. 1999][research_littjonathans_1999]
 - [Littell, Justin 2011][research_littelljustin_2011]
 - [Liu 1992][research_liu_1992]
 - [Liu 2018][research_liu_2018]
@@ -3583,7 +4117,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Liu and Jiang 2022][research_liu_jiang_2022]
 - [Liu and Stumpf 2018][research_liu_stumpf_2018]
 - [Liu and Sun 2016][research_liu_sun_2016]
+- [Liu and Sun 2017][research_liu_sun_2017_b]
 - [Liu and Xiang 2006][research_liu_xiang_2006]
+- [Liu and Yang 2016][research_liu_yang_2016]
 - [Liu and Yu 2021][research_liu_yu_2021]
 - [Liu et al 2004][research_liu_wang_2004]
 - [Liu et al 2012][research_liu_tao_2012]
@@ -3596,6 +4132,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Liu et al 2017][research_liu_sun_2017]
 - [Liu et al 2018][research_liu_dong_2018]
 - [Liu et al 2018][research_liu_zhang_2018]
+- [Liu et al 2020][research_liu_guo_2020]
 - [Liu et al 2022][research_liu_bai_2022]
 - [Liu et al 2024][research_liu_chen_2024]
 - [liu et al 2024][research_liu_yang_2024]
@@ -3608,7 +4145,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Lizotte, Andrew M. and Lokos, William A. 2005][research_lizotteandrewm_lokoswilliama_2005]
 - [Lobitz et al 2023][research_lobitz_traub_2023]
 - [Locatelli et al 2016][research_locatelli_riggins_2016]
+- [Lockheed-Georgia Co Marietta 1969][research_lockheedgeorgiacomarietta_1969]
+- [Lockwood Taylor 1942][research_lockwoodtaylor_1942]
 - [Lockwood, V. E. 1966][research_lockwoodve_1966]
+- [Lockwood, Vernard E and Fikes, Joseph E 1952][research_lockwoodvernarde_fikesjosephe_1952]
 - [Logan 1989][research_logan_1989]
 - [Logan Anderson et al][research_logananderson_ryanjcaverly]
 - [Lokos, William A. et al 2002][research_lokoswilliama_olneycandidad_2002]
@@ -3618,21 +4158,27 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Lombardi and Vicini 1994][research_lombardi_vicini_1994]
 - [Long 2011][research_long_2011]
 - [Long et al 2012][research_long_liu_2012]
+- [Lorber and Carta 1991][research_lorber_carta_1991]
 - [Losada Costoso et al 2024][research_losadacostoso_nguyenvan_2024]
 - [Loth and Boyle 1969][research_loth_boyle_1969]
 - [Loth and Loth 1984][research_loth_loth_1984]
 - [Lottati 1984][research_lottati_1984]
 - [Lottati 1985][research_lottati_1985]
 - [Lottati 1988][research_lottati_1988]
+- [Love and Kapania 2020][research_love_kapania_2020]
 - [Love et al 2005][research_love_zink_2005]
 - [Lovejoy, Andrew E. 2006][research_lovejoyandrewe_2006]
 - [Lovell, W. A. et al 1978][research_lovellwa_priceje_1978]
+- [Lowson 1990][research_lowson_1990]
+- [Lowson 1992][research_lowson_1992]
+- [Lu and Lu 1997][research_lu_lu_1997]
 - [Lu et al 2016][research_lu_cui_2016]
 - [Lucas et al 2009][research_lucas_valasek_2009]
 - [Lucky Bose et al 2024][research_luckybose_isfaqahmedrafsun_2024]
 - [Lukyanov et al 2024][research_lukyanov_hoang_2024]
 - [Lundry 1967][research_lundry_1967]
 - [Lundry 1977][research_lundry_1977]
+- [Lundry and LlSSAMAN 1968][research_lundry_llssaman_1968]
 - [Lundstrom, Reginald R et al 1948][research_lundstromreginaldr_lautenwilliamtjr_1948]
 - [Lung, Shun-fat and Pak, Chan-gi 2009][research_lungshunfat_pakchangi_2009]
 - [Lunia et al 2000][research_lunia_isaac_2000]
@@ -3640,6 +4186,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Luu 2025][research_luu_2025]
 - [Luyckx et al 2006][research_luyckx_dewaele_2006]
 - [Lv et al 2008][research_lv_wan_2008]
+- [Lyapunov 1993][research_lyapunov_1993]
 - [Lynch and Rogers 1976][research_lynch_rogers_1976]
 - [Lynde, Michelle N. and Campbell, Richard L. 2016][research_lyndemichellen_campbellrichardl_2016]
 - [Lynde, Michelle N. and Campbell, Richard L. 2017][research_lyndemichellen_campbellrichardl_2017]
@@ -3649,6 +4196,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Lyu and Martins 2014][research_lyu_martins_2014]
 - [Lyu et al 2024][research_lyu_sun_2024]
 - [Lyu et al 2026][research_lyu_wen_2026]
+- [M G Potapczuk et al 1991][research_mgpotapczuk_mbbragg_1991]
 - [M. and Mukherjee 2017][research_m_mukherjee_2017]
 - [M. Nasir et al 2022][research_mnasir_mohamad_2022]
 - [Ma 2025][research_ma_2025]
@@ -3678,6 +4226,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Mahig 1973][research_mahig_1973]
 - [Maikapar 2000][research_maikapar_2000]
 - [Makgantai et al 2021][research_makgantai_subaschandar_2021]
+- [Malathi et al 2024][research_malathi_kamalakrishna_2024]
 - [Maldonado et al 2021][research_maldonado_hunter_2021]
 - [Maldonado et al 2024][research_maldonado_housman_2024]
 - [Maldonado, Daniel et al 2020][research_maldonadodaniel_housmanjeffreya_2020]
@@ -3693,12 +4242,15 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Mamedov et al 2018][research_mamedov_paryshev_2018]
 - [Mamla and Galinski 2009][research_mamla_galinski_2009]
 - [Manan and Cooper 2008][research_manan_cooper_2008]
+- [Mancini and Vos 2019][research_mancini_vos_2019]
 - [Mangalam et al 2008][research_mangalam_mangalam_2008]
+- [Mangalam et al 2010][research_mangalam_jutte_2010]
 - [Manjunath et al 2020][research_manjunath_kulkarni_2020]
 - [Manning and Kroo 1999][research_manning_kroo_1999]
 - [Mansour 1985][research_mansour_1985]
 - [Mansour, N. N. 1984][research_mansournn_1984]
 - [Mao et al 2019][research_mao_xie_2019]
+- [Mao et al 2020][research_mao_xu_2020]
 - [Maraniello and Palacios 2017][research_maraniello_palacios_2017]
 - [Marchese 1963][research_marchese_1963]
 - [Marchetti 2023][research_marchetti_2023]
@@ -3711,6 +4263,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Mares and Suresh Babu 2026][research_mares_sureshbabu_2026]
 - [Marino 2004][research_marino_2004]
 - [Marisarla et al 2003][research_marisarla_narayanan_2003]
+- [Mark and Dehart 1976][research_mark_dehart_1976]
 - [Mark D Guynn et al][research_markdguynn_jeffreyjberton]
 - [Mark K. Leader et al][research_markkleader_eliotaretskinhariton]
 - [Martin et al 2008][research_martin_carpenter_2008]
@@ -3730,8 +4283,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Mason 1992][research_mason_1992]
 - [Mason et al 2025][research_mason_anderson_2025]
 - [Masson et al 1999][research_masson_veilleux_1999]
+- [Mastin, C. Wayne et al 1996][research_mastincwayne_smithroberte_1996]
 - [Mastropierro et al 2020][research_mastropierro_sebastiampillai_2020]
 - [Mateer et al 1987][research_mateer_seegmiller_1987]
+- [Mateer, G. G. et al 1994][research_mateergg_seegmillerhl_1994]
 - [Matesanz García et al 2023][research_matesanzgarcia_macmanus_2023]
 - [Matheny, N. W. and Gatlin, D. H. 1978][research_mathenynw_gatlindh_1978]
 - [Mathias et al 1995][research_mathias_ross_1995]
@@ -3746,6 +4301,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Matula et al 2026][research_matula_yalla_2026]
 - [Mauerer et al 2026][research_mauerer_proff_2026]
 - [Mavriplis et al 2020][research_mavriplis_yang_2020]
+- [Mavris, Dimitri N. 1997][research_mavrisdimitrin_1997]
+- [Maxwell, R. L. and Dickinson, L. V., Jr. 1981][research_maxwellrl_dickinsonlvjr_1981]
 - [Mayer 2012][research_mayer_2012]
 - [Mayor and Tol 2007][research_mayor_tol_2007]
 - [Mayor and Tol 2010][research_mayor_tol_2010]
@@ -3754,6 +4311,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [McCarthy et al 1955][research_mccarthy_jackf_1955]
 - [Mccarthy et al 1955][research_mccarthy_johnf_1955]
 - [McCarty 2001][research_mccarty_2001]
+- [Mccarty, John E. and Roeseler, William G. 1984][research_mccartyjohne_roeselerwilliamg_1984]
+- [McComas et al 2025][research_mccomas_burns_2025]
 - [Mccuish and Caldwell 2018][research_mccuish_caldwell_2018]
 - [McCutchen 1989][research_mccutchen_1989]
 - [McCutchen 2006][research_mccutchen_2006]
@@ -3772,6 +4331,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [McRanie 1979][research_mcranie_1979]
 - [Meadows, Schetz, Kapania, Bhatia and Seber, Multidisciplinary Design Optimization of Medium-Range Transonic Truss-Braced Wing Transport Aircraft, Journal of Aircraft, volume 49, number 6, 2012, registry record only][research_meadows_2012]
 - [Meelan Choudhari et al][research_meelanchoudhari_nathanielhildebrand]
+- [Meheut et al 2012][research_meheut_arntz_2012]
 - [Mei and Striz 1992][research_mei_striz_1992]
 - [Meinicke et al 2017][research_meinicke_martinellirodrigues_2017]
 - [Meirovitch 1995][research_meirovitch_1995]
@@ -3782,9 +4342,11 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Meleason and Wells 1976][research_meleason_wells_1976]
 - [Mello et al 2004][research_mello_sovieiro_2004]
 - [Mellquist and Bendiksen 2014][research_mellquist_bendiksen_2014]
+- [Melton, LaTunia Pack et al 2007][research_meltonlatuniapack_schaefflernormanw_2007]
 - [Melville and Gordnier 1998][research_melville_gordnier_1998]
 - [Melville et al 2018][research_melville_kolaei_2018]
 - [Memari et al 2007][research_memari_shirazi_2007]
+- [Menees, Gene P. and Boyd, John W. 1959][research_meneesgenep_boydjohnw_1959]
 - [Meng et al 2020][research_meng_kaihua_2020]
 - [Meng et al 2021][research_meng_wan_2021]
 - [Meng et al 2022][research_meng_an_2022]
@@ -3796,6 +4358,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Mery et al 2025][research_mery_piot_2025]
 - [Metkowski and Maughmer 2021][research_metkowski_maughmer_2021]
 - [Metkowski and Maughmer 2023][research_metkowski_maughmer_2023]
+- [Miake-Lye, Richard C. et al 1992][research_miakelyerichardc_matulaitisja_1992]
 - [Mian et al 2014][research_mian_wang_2014]
 - [Michael J Czech and Russell H Thomas][research_michaeljczech_russellhthomas]
 - [Michael Jorgensen and Tristan Finazzo 2025][research_michaeljorgensen_tristanfinazzo_2025]
@@ -3818,6 +4381,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Miller et al 2011][research_miller_decallafon_2011]
 - [Miller, Eric J. et al 2014][research_millerericj_holguinandrewc_2014]
 - [Miller, Eric J. et al 2019][research_millerericj_penafrancisco_2019]
+- [Mineck, R. E. and Carter, A. W. 1974][research_mineckre_carteraw_1974]
 - [Mirea 2025][research_mirea_2025]
 - [Mirea and Cican 2024][research_mirea_cican_2024]
 - [Mirin Morris-ward][research_mirinmorrisward]
@@ -3831,14 +4395,20 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Mixson, J. S. et al 1978][research_mixsonjs_bartonck_1978]
 - [Miyaji and Arasawa 2001][research_miyaji_arasawa_2001]
 - [Miyaji and Takegawa 2022][research_miyaji_takegawa_2022]
+- [Miyake and Terashima 2022][research_miyake_terashima_2022]
 - [Miyake and Terashima 2023][research_miyake_terashima_2023]
+- [Miyake and Terashima 2026][research_miyake_terashima_2026]
 - [Mizoguchi and Itoh 2016][research_mizoguchi_itoh_2016]
 - [Modeling and Control for 2015][research_modeling_and_2015]
 - [Mody et al 2010][research_mody_sato_2010]
 - [Moens et al 2007][research_moens_perraud_2007]
 - [Moerland et al 2017][research_moerland_pfeiffer_2017]
+- [Mogford, Richard H. and Wold, Sheryl 2008][research_mogfordrichardh_woldsheryl_2008]
 - [Mohd et al 2025][research_mohd_amoozgar_2025]
 - [Mohr, Ross W. et al 1988][research_mohrrossw_batinajohnt_1988]
+- [Mokotoff et al 2025][research_mokotoff_arnson_2025]
+- [Mokotoff et al 2026][research_mokotoff_arnson_2026]
+- [Molloy, J. K. 1979][research_molloyjk_1979]
 - [Molloy, J. K. et al 1982][research_molloyjk_granthamwd_1982]
 - [Molz and Breitsamter 2026][research_molz_breitsamter_2026]
 - [Momodu et al 2026][research_momodu_beg_2026]
@@ -3846,18 +4416,27 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Monner Hans Peter and Riemenschneider Johannes 2012][research_monnerhanspeter_riemenschneiderjohannes_2012]
 - [Monsch et al 2007][research_monsch_figliola_2007]
 - [Moore 1978][research_moore_1978]
+- [Moore 1992][research_moore_1992]
+- [Moore 1995][research_moore_1995]
 - [Moore 1997][research_moore_1997]
 - [Moore 2021][research_moore_2021]
+- [Moore, Douglas B. et al 1991][research_mooredouglasb_millergeraldd_1991]
 - [Moorhouse 1990][research_moorhouse_1990]
 - [Moravej Barzani and Shahverdi 2023][research_moravejbarzani_shahverdi_2023]
 - [Morelli et al 2022][research_morelli_guardone_2022]
+- [Morgan, H. L., Jr. and Kjelgaard, S. O. 1983][research_morganhljr_kjelgaardso_1983]
 - [Morgan, Harry L. 1986][research_morganharryl_1986]
 - [Mori et al 2024][research_mori_arnoult_2024]
 - [Morino, L. and Noll, R. B. 1977][research_morinol_nollrb_1977]
 - [Morrison et al 2011][research_morrison_hansman_2011]
 - [Morrison et al 2012][research_morrison_hansman_2012]
+- [Morrow, John D 1950][research_morrowjohnd_1950]
+- [Morrow, John D 1955][research_morrowjohnd_1955]
+- [Mortara, Karl W. and Maughmer, Mark D. 1993][research_mortarakarlw_maughmermarkd_1993]
 - [Morton 1956][research_morton_1956]
 - [Morton and Beran 1995][research_morton_beran_1995]
+- [Morton and Beran 1996][research_morton_beran_1996]
+- [Morton and Beran 1996][research_morton_beran_1996_b]
 - [Mosca and Elham 2022][research_mosca_elham_2022]
 - [Mosca and Karpuk 2025][research_mosca_karpuk_2025]
 - [Moseley, William C., Jr. and Gainer, Thomas G. 1959][research_moseleywilliamcjr_gainerthomasg_1959]
@@ -3870,16 +4449,22 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Mouyon et al 2003][research_mouyon_cumer_2003]
 - [Mr. S. Aravindan et al 2017][research_mrsaravindan_kknithiyanantham_2017]
 - [Mubenesha et al 2026][research_mubenesha_okoyechine_2026]
+- [Muchmore, C. B., Jr. 1988][research_muchmorecbjr_1988]
 - [Mueller and Torres 2001][research_mueller_torres_2001]
+- [Mugler, John P, Jr 1956][research_muglerjohnpjr_1956]
 - [Muhamad Jayadi 2025][research_muhamadjayadi_2025]
+- [Mukherjee, Rinku et al 2003][research_mukherjeerinku_gopalarathnamashok_2003]
 - [Mukhopadhyay et al 2004][research_mukhopadhyay_sobieszczanskisobieski_2004]
 - [Mukhopadhyay, V. 2005][research_mukhopadhyayv_2005]
 - [Mukhopadhyay, V. et al 1989][research_mukhopadhyayv_pototzkya_1989]
 - [Mukhopadhyay, V. et al 2002][research_mukhopadhyayv_sobieszczanskisobieskij_2002]
+- [Mukhopadhyay, Vivek 1996][research_mukhopadhyayvivek_1996]
 - [Mukhopadhyay, Vivek 1999][research_mukhopadhyayvivek_1999]
 - [Mukhopadhyay, Vivek 1999][research_mukhopadhyayvivek_1999_b]
+- [Mukhopadhyay, Vivek 2003][research_mukhopadhyayvivek_2003]
 - [Mukhopadhyay, Vivek et al 2017][research_mukhopadhyayvivek_ozoroskithomasa_2017]
 - [Mukhopadhyay, Vivekananda 1988][research_mukhopadhyayvivekananda_1988]
+- [Mullen, J., Jr. 1976][research_mullenjjr_1976]
 - [Mullen, Jr. 1979][research_mullenjr_1979]
 - [Mullender and Poll 1995][research_mullender_poll_1995]
 - [Multidisciplinary Design Optimization 2021][research_multidisciplinary_design_2021]
@@ -3896,11 +4481,16 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Murphy, A. C. 1981][research_murphyac_1981]
 - [Murphy, A. C. et al 1983][research_murphyac_rogerswa_1983]
 - [Murthy, A. V. et al 1983][research_murthyav_johnsoncb_1983]
+- [Mv et al 2023][research_mv_mondal_2023]
+- [Mwasandube et al 2026][research_mwasandube_marino_2026]
 - [Myers, M. R. et al 1983][research_myersmr_guruswamyp_1983]
 - [Mébarki and Le Sant 2001][research_mebarki_lesant_2001]
 - [Müller et al 2026][research_muller_woidt_2026]
 - [NACA Conference on Aircraft 1957][research_naca_conference_1957]
 - [Nagamatsu and Ficarra 1985][research_nagamatsu_ficarra_1985]
+- [Nagamatsu, H. T. and Dyer, R. 1984][research_nagamatsuht_dyerr_1984]
+- [Nagamatsu, H. T. et al 1983][research_nagamatsuht_ficarrar_1983]
+- [Nagamatsu, H. T. et al 1984][research_nagamatsuht_orozcord_1984]
 - [Nagaraja, K. S. and Kraft, R. H. 1999][research_nagarajaks_kraftrh_1999]
 - [Nagy et al 2022][research_nagy_jones_2022]
 - [Nagy et al 2025][research_nagy_jones_2025]
@@ -3913,6 +4503,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Nam, Chang-Ho and Weisshaar, Terrence A. 1990][research_namchangho_weisshaarterrencea_1990]
 - [Namgoong et al 2002][research_namgoong_crossley_2002]
 - [Nan et al 2024][research_nan_zheng_2024]
+- [Nangia and Palmer 2006][research_nangia_palmer_2006]
 - [Nangia et al 2003][research_nangia_palmer_2003]
 - [Nangia et al 2003][research_nangia_palmer_2003_b]
 - [Nangia et al 2005][research_nangia_palmer_2005]
@@ -3941,9 +4532,11 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Neal A Harrison et al 2025][research_nealaharrison_anthonyjsclafani_2025]
 - [Neal A. Harrison et al][research_nealaharrison_davidgakiyama]
 - [Nederlof et al 2023][research_nederlof_kooij_2023]
+- [Neely, Robert H et al 1947][research_neelyroberth_bollechthomasv_1947]
 - [Nelson, Robert C. et al 1994][research_nelsonrobertc_thomasfo_1994]
 - [Neubert et al 1990][research_neubert_hobbs_1990]
 - [New engine architecture provides 2006][research_new_engine_2006]
+- [New et al 2023][research_new_teo_2023]
 - [Newey][research_newey]
 - [Newman Iii et al 1999][research_newmaniii_newman_1999]
 - [Next Generation Sustainable Aviation 2026][research_next_generation_2026]
@@ -3990,10 +4583,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Nhan Nguyen et al][research_nhannguyen_juntaoxiong_k]
 - [Nhan T Nguyen and Juntao Xiong][research_nhantnguyen_juntaoxiong]
 - [Nichkawde et al 2006][research_nichkawde_strganac_2006]
+- [Nicholson and lowry 1966][research_nicholson_lowry_1966]
 - [Nickol, Craig L. 2012][research_nickolcraigl_2012]
 - [Nickol, Craig L. and Haller, William J. 2016][research_nickolcraigl_hallerwilliamj_2016]
 - [Nie et al 2009][research_nie_zhang_2009]
 - [Nie et al 2025][research_nie_song_2025]
+- [Nielsen, Jack N 1947][research_nielsenjackn_1947]
 - [Niemeier et al 2007][research_niemeier_phelan_2007]
 - [Nigam et al 2015][research_nigam_ayyalasomayajula_2015]
 - [Nikbay and Acar 2012][research_nikbay_acar_2012]
@@ -4004,7 +4599,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Nikolaidis et al 2020][research_nikolaidis_jafari_2020]
 - [Nissim and Lottati 1979][research_nissim_lottati_1979]
 - [Nissim and Lottati 1980][research_nissim_lottati_1980]
+- [Nissim, E. 1978][research_nissime_1978]
+- [Niu et al 2020][research_niu_yi_2020]
 - [Niu et al 2020][research_niu_zhang_2020]
+- [Nixon 2003][research_nixon_2003]
 - [Nixon and Tzuoo 1986][research_nixon_tzuoo_1986]
 - [Nixon and Tzuoo 1987][research_nixon_tzuoo_1987]
 - [Nizamitdinov et al 2017][research_nizamitdinov_sohret_2017]
@@ -4028,6 +4626,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [O'Neil and Strganac 1998][research_oneil_strganac_1998]
 - [Obayashi][research_obayashi]
 - [Obazu 2026][research_obazu_2026]
+- [Odriozola et al 2026][research_odriozola_marquier_2026]
 - [Oggioni et al 2026][research_oggioni_riboldi_2026]
 - [Ohta and Fujimori 1988][research_ohta_fujimori_1988]
 - [Okai et al 2022][research_okai_fujiwara_2022]
@@ -4096,6 +4695,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Paletta et al 2010][research_paletta_belardo_2010]
 - [Palladino][research_palladino]
 - [Palumbo et al 2022][research_palumbo_palmer_2022]
+- [Panaro et al 2009][research_panaro_frediani_2009]
 - [Pandya and Aftosmis 2001][research_pandya_aftosmis_2001]
 - [Pandya, Mohagna J. et al 2011][research_pandyamohagnaj_abdolhamidkhaleds_2011]
 - [Pandya, S. and Aftosmis, M. J. 2000][research_pandyas_aftosmismj_2000]
@@ -4108,16 +4708,22 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Parikh, P. G. and Nagel, A. L. 1990][research_parikhpg_nagelal_1990]
 - [Park 2007][research_park_2007]
 - [Park and O'Kelly 2014][research_park_okelly_2014]
+- [Park and Rokhsaz 2003][research_park_rokhsaz_2003]
 - [Park et al 2007][research_park_kim_2007]
 - [Park et al 2008][research_park_stearman_2008]
 - [Park et al 2011][research_park_chung_2011]
+- [Park et al 2025][research_park_jeong_2025]
 - [Park et al 2025][research_park_spivey_2025]
+- [Parker 1986][research_parker_1986]
 - [Parker et al 2007][research_parker_maple_2007]
+- [Pasamanick, Jerome and Proterra, Anthony J 1948][research_pasamanickjerome_proterraanthonyj_1948]
 - [Pascioni, Kyle A. and Rizzi, Stephen A. 2018][research_pascionikylea_rizzistephena_2018]
 - [Pascual and Zingg 2025][research_pascual_zingg_2025]
 - [Pascual and Zingg 2026][research_pascual_zingg_2026]
 - [Pasley et al 1973][research_pasley_rohling_1973]
+- [Passamanick, Jerome 1948][research_passamanickjerome_1948]
 - [Pasutto and Zeghal 2022][research_pasutto_zeghal_2022]
+- [Pate and German 2013][research_pate_german_2013]
 - [Patel and Chudoba 2026][research_patel_chudoba_2026]
 - [Patel et al 2024][research_patel_ragauss_2024]
 - [Patel et al 2025][research_patel_ergan_2025]
@@ -4128,6 +4734,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Patricio A. Ravetta et al][research_patricioaravetta_mehdirkhorrami]
 - [Patrick S Heaney][research_patricksheaney]
 - [Patterson and Watts 1985][research_patterson_watts_1985]
+- [Patterson and Watts 1986][research_patterson_watts_1986]
 - [Patterson et al 1962][research_patterson_wnuk_1962]
 - [Paudel 2016][research_paudel_2016]
 - [Paul and Paul 2019][research_paul_paul_2019]
@@ -4139,6 +4746,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Pařez et al 2026][research_parez_emrich_2026]
 - [Pearce, W. E. 1982][research_pearcewe_1982]
 - [Pearce, W. E. 1983][research_pearcewe_1983]
+- [Pearson, H A 1937][research_pearsonha_1937]
 - [Pechloff and Laschka 2010][research_pechloff_laschka_2010]
 - [Peck and Hudson 1956][research_peck_hudson_1956]
 - [Pedestrian Dummy Full-Scale Test][research_pedestrian_dummy]
@@ -4173,6 +4781,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Perraud et al 2003][research_perraud_moens_2003]
 - [Perraud et al 2008][research_perraud_cliquet_2008]
 - [Perry and Miklosovic 2012][research_perry_miklosovic_2012]
+- [Perry, B., III 1984][research_perrybiii_1984]
 - [Perry, Boyd, III 2017][research_perryboydiii_2017]
 - [Perry, Boyd, III et al 2007][research_perryboydiii_silvawaltera_2007]
 - [Persoon et al 1983][research_persoon_horsten_1983]
@@ -4180,6 +4789,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Peter and King 2026][research_peter_king_2026]
 - [Petermeier et al 2010][research_petermeier_radtke_2010]
 - [Peterson and Grant 2011][research_peterson_grant_2011]
+- [Peterson, Victor L. 1959][research_petersonvictorl_1959]
 - [Petre and Ashley 1975][research_petre_ashley_1975]
 - [Petre and Ashley 1976][research_petre_ashley_1976]
 - [Petrolo 2013][research_petrolo_2013]
@@ -4196,6 +4806,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Phillips et al 2020][research_phillips_hunsaker_2020]
 - [Pi et al 1979][research_pi_kelly_1979]
 - [Piatak, David J. and Cleckner, Craig S. 2002][research_piatakdavidj_clecknercraigs_2002]
+- [Picchi Scardaoni 2020][research_picchiscardaoni_2020]
 - [Piccolo Serafim et al 2023][research_piccoloserafim_freydin_2023]
 - [Piette et al 1985][research_piette_crooks_1985]
 - [Piette, Douglas S. and Cazier, Frank W., Jr. 1989][research_piettedouglass_cazierfrankwjr_1989]
@@ -4207,8 +4818,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Pitera, David M. et al 2011][research_piteradavidm_dehaanmark_2011]
 - [Pitkin, Marvin et al 1947][research_pitkinmarvin_gardnerwilliamn_1947]
 - [Pitt 2004][research_pitt_2004]
+- [Pittel, Murray 1956][research_pittelmurray_1956]
 - [Pittman, J. L. and Giles, G. L. 1986][research_pittmanjl_gilesgl_1986]
 - [Plath][research_plath]
+- [Platt, Robert J, Jr and Brooks, Joseph D 1955][research_plattrobertjjr_brooksjosephd_1955]
 - [Pohya and Wicke 2019][research_pohya_wicke_2019]
 - [Pohya et al 2019][research_pohya_wicke_2019_b]
 - [Poll 2000][research_poll_2000]
@@ -4233,10 +4846,15 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Pourtakdoust and Khodabakhsh 2026][research_pourtakdoust_khodabakhsh_2026]
 - [Poussot-Vassal et al 2022][research_poussotvassal_vuillemin_2022]
 - [Povitsky and Pierson 2020][research_povitsky_pierson_2020]
+- [Powell, A. G. et al 1989][research_powellag_agrawals_1989]
+- [Prabhu, R. K. et al 1985][research_prabhurk_liuch_1985]
 - [Prakash et al 2009][research_prakash_uthup_2009]
 - [Prasannakumar et al 2024][research_prasannakumar_sudhi_2024]
 - [Pratt, George L 1955][research_prattgeorgel_1955]
 - [Precup et al 2018][research_precup_mor_2018]
+- [Predachenko and Lemko 2019][research_predachenko_lemko_2019]
+- [Preliminary Analysis of the Span-Distributed-Load Concept for Cargo Aircraft Design, NASA TM X-3319, 1976, read in part][research_spanload_cargo_1976]
+- [Preliminary Design Characteristics of a Subsonic Business Jet Concept Employing an Aspect Ratio 25 Strut-Braced Wing, Kentron International, NASA contract NAS1-16000, October 1980, read in part][research_ar25_bizjet_1980]
 - [Present Place of Discrete-Gust 1988][research_present_place_1988]
 - [Price and Paul 2022][research_price_paul_2022]
 - [Procedure for the Calculation][research_procedure_for]
@@ -4255,6 +4873,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Putnam, T. W. 1984][research_putnamtw_1984]
 - [Pätzel et al 2024][research_patzel_caudron_2024]
 - [Pérez Segura et al 2026][research_perezsegura_beltramo_2026]
+- [Pérez-Álvarez et al 2015][research_perezalvarez_cuernorejado_2015]
 - [Qi et al 2015][research_qi_ting_2015]
 - [Qi et al 2021][research_qi_zong_2021]
 - [Qi et al 2026][research_qi_gao_2026]
@@ -4292,31 +4911,40 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Rahman and Li 2013][research_rahman_li_2013]
 - [Rahman and Whidborne 2010][research_rahman_whidborne_2010]
 - [Rahman et al 2015][research_rahman_hasan_2015]
+- [Rahman et al 2015][research_rahman_labib_2015]
 - [Rahman et al 2016][research_rahman_labib_2016]
 - [Rai and Murthy 1992][research_rai_murthy_1992]
 - [Ram et al 1985][research_ram_vemuru_1985]
 - [Ramachandran et al 1992][research_ramachandran_tsai_1992]
+- [Ramsey, H. D. and Lewolt, J. G. 1979][research_ramseyhd_lewoltjg_1979]
 - [Randall 1955][research_randall_1955]
 - [Ranjan et al 2026][research_ranjan_ongole_2026]
 - [Rao et al][research_rao_behal]
 - [Rasheed et al 2024][research_rasheed_jayalingam_2024]
 - [Rasmussen et al 2004][research_rasmussen_canfield_2004]
+- [Rasmussen et al 2004][research_rasmussen_canfield_2004_b]
 - [Rasmussen et al 2006][research_rasmussen_canfield_2006]
+- [Rasmussen et al 2008][research_rasmussen_canfield_2008]
 - [Raspa et al 2014][research_raspa_ramananarivo_2014]
 - [Ratcliff and Carlson 1989][research_ratcliff_carlson_1989]
 - [Ratnayake and Takahashi 2023][research_ratnayake_takahashi_2023]
 - [Rausch and Ruffin 1990][research_rausch_ruffin_1990]
 - [Ravat and Bryant 2026][research_ravat_bryant_2026]
+- [Raveh 2007][research_raveh_2007]
 - [Raveh and Levy 2004][research_raveh_levy_2004]
 - [Ravetta et al 2024][research_ravetta_khorrami_2024]
+- [Ravindren et al 2007][research_ravindren_ghia_2007]
 - [Ray et al 1988][research_ray_hicks_1988]
 - [Raymer, Daniel P. et al 2011][research_raymerdanielp_wilsonjack_2011]
 - [Re, Richard J. 2005][research_rerichardj_2005]
 - [Reaction to fire tests][research_reaction_to]
 - [Read 1971][research_read_1971]
 - [Recine et al 2023][research_recine_pham_2023]
-- [Recine, Listgarten, Schuh and James, Quantification of Design Trade-Offs When Comparing Transonic Truss-Braced Wing to Advanced Tube and Wing Aircraft, AIAA SciTech 2025 Forum, registry record only][research_recine_2025]
+- [Recine et al 2025][research_recine_schuh_2025]
 - [Recktenwald and Ahmed 2008][research_recktenwald_ahmed_2008]
+- [Redd, L. T. et al 1974][research_reddlt_gilmanjjr_1974]
+- [Reddingius 1974][research_reddingius_1974]
+- [Reddingius 1977][research_reddingius_1977]
 - [Reddy 1989][research_reddy_1989]
 - [Redeker and Wichmann 1988][research_redeker_wichmann_1988]
 - [Redeker and Wichmann 1991][research_redeker_wichmann_1991]
@@ -4328,6 +4956,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Reed, W. H., III 1976][research_reedwhiii_1976_b]
 - [Reed, W. H., III 1981][research_reedwhiii_1981]
 - [Regan, Christopher D. and Jutte, Christine V. 2012][research_reganchristopherd_juttechristinev_2012]
+- [Rehfield, Lawrence W. et al 1992][research_rehfieldlawrencew_changstephen_1992]
 - [Rehman 2022][research_rehman_2022]
 - [Reich et al 2002][research_reich_raveh_2002]
 - [Reich et al 2004][research_reich_raveh_2004]
@@ -4338,11 +4967,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Reist and Zingg 2014][research_reist_zingg_2014]
 - [Reist and Zingg 2015][research_reist_zingg_2015]
 - [Reist and Zingg 2016][research_reist_zingg_2016]
+- [Report no. 121, The 1921][research_report_no_1921]
 - [Report No. 349. A 1930][research_report_no_1930]
 - [Response of Full-Scale Three-Story 2017][research_response_of_2017]
 - [Reubush 1977][research_reubush_1977]
 - [Reubush 1978][research_reubush_1978]
 - [Reubush 1979][research_reubush_1979]
+- [Revell 1975][research_revell_1975]
 - [Review of Paper #SE-2020-61 2020][research_review_of_2020]
 - [Rezy, B. J. et al 1979][research_rezybj_stuckaskj_1979]
 - [Ribeiro and Lacava 2013][research_ribeiro_lacava_2013]
@@ -4351,6 +4982,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Riccobene et al 2023][research_riccobene_grassi_2023]
 - [Rice and Oetting 1976][research_rice_oetting_1976]
 - [Richard A Wahls and Jennifer Cole 2025][research_richardawahls_jennifercole_2025]
+- [Richard A Wahls et al][research_richardawahls_michaelmrogers]
 - [Richard A. Wahls][research_richardawahls]
 - [Richard L Campbell et al][research_richardlcampbell_sallyaviken]
 - [Richard Mogford et al 2002][research_richardmogford_stevegreen_2002]
@@ -4362,6 +4994,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Richey et al 1968][research_richey_stava_1968]
 - [Richey et al 1983][research_richey_surber_1983]
 - [Richter and Cosner 2003][research_richter_cosner_2003]
+- [Riebe, John M and Davenport, Edwin E 1958][research_riebejohnm_davenportedwine_1958]
 - [Rieck et al 2026][research_rieck_herrmann_2026]
 - [Riley, D. R. 1985][research_rileydr_1985]
 - [Rimer et al 1984][research_rimer_chipman_1984]
@@ -4407,6 +5040,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Robinson and Robinson 1950][research_robinson_robinson_1950]
 - [Robinson et al 2021][research_robinson_macmanus_2021]
 - [Robinson, John W. et al 2013][research_robinsonjohnw_mccleskeycareym_2013]
+- [Robinson, Ross B 1952][research_robinsonrossb_1952]
 - [Rocha Da Costa][research_rochadacosta]
 - [Rocha et al 2006][research_rocha_li_2006]
 - [Rockwell 1994][research_rockwell_1994]
@@ -4414,14 +5048,17 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Rodden 1989][research_rodden_1989]
 - [Rodden 1989][research_rodden_1989_b]
 - [Rodriguez 2021][research_rodriguez_2021]
+- [Roehl et al 1995][research_roehl_mavris_1995]
 - [Roesch and Harlan 1974][research_roesch_harlan_1974]
 - [Rogers 1998][research_rogers_1998]
 - [Rogers and Donnelly 2004][research_rogers_donnelly_2004]
+- [Rohlmann and Keye 2015][research_rohlmann_keye_2015]
 - [Rokoni and Hasan 2013][research_rokoni_hasan_2013]
 - [Roman et al 2000][research_roman_allen_2000]
 - [Romeo et al 2012][research_romeo_borello_2012]
 - [Roos 1979][research_roos_1979]
 - [Roos 1985][research_roos_1985]
+- [Roos, F. W. and Riddle, D. W. 1977][research_roosfw_riddledw_1977]
 - [Rooth and Hiemstra 2000][research_rooth_hiemstra_2000]
 - [Rosatelli et al 2023][research_rosatelli_cesnik_2023]
 - [Rose and Seginer 1977][research_rose_seginer_1977]
@@ -4433,6 +5070,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Rousselot et al 2008][research_rousselot_truffi_2008]
 - [Rowell et al 1999][research_rowell_braun_1999]
 - [Rozendaal, R. A. 1986][research_rozendaalra_1986]
+- [Rudey, R. A. and Lezberg, E. A. 1976][research_rudeyra_lezbergea_1976]
 - [Rudnik et al 1999][research_rudnik_ronzheimer_1999]
 - [Rudolph, Peter K. C. 1996][research_rudolphpeterkc_1996]
 - [Ruffini et al 2020][research_ruffini_szczyglowski_2020]
@@ -4447,15 +5085,20 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Ruhlin, C. L. et al 1986][research_ruhlincl_bhatiakg_1986]
 - [Ruhlin, Charle L and Bowwinkle, Robert W, Jr 1957][research_ruhlincharlel_bowwinklerobertwjr_1957]
 - [Ruhlin, Charles L 1956][research_ruhlincharlesl_1956]
+- [Rui Nie et al 2009][research_ruinie_weiguozhang_2009]
 - [Ruijgrok 1980][research_ruijgrok_1980]
 - [Rumsey, Christopher L. et al 2001][research_rumseychristopherl_allisondenniso_2001]
+- [Runnels, J. N. and Gupfa, A. 1973][research_runnelsjn_gupfaa_1973]
 - [Ruo et al 1983][research_ruo_malone_1983]
 - [Ruo et al 1985][research_ruo_malone_1985]
 - [Rusovici et al 2017][research_rusovici_haughey_2017]
 - [Russo et al 2020][research_russo_tognaccini_2020]
 - [Russo et al 2020][research_russo_tognaccini_2020_b]
+- [Russo et al 2021][research_russo_saetta_2021]
 - [Rustenburg 1972][research_rustenburg_1972]
+- [Ryall, T. G. et al 2004][research_ryalltg_mosesrw_2004]
 - [Ryan Ferris and Mehdi R. Khorrami][research_ryanferris_mehdirkhorrami]
+- [Rynaski 1979][research_rynaski_1979]
 - [Röntsch et al 2016][research_rontsch_taubert_2016]
 - [S et al 2018][research_s_sinha_2018]
 - [S et al 2020][research_s_sanjana_2020]
@@ -4465,11 +5108,14 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Sabater et al 2022][research_sabater_bekemeyer_2022]
 - [Sabatini et al 2026][research_sabatini_coppotelli_2026]
 - [Sabatini et al 2026][research_sabatini_livne_2026]
+- [Sabeti and Winter 2024][research_sabeti_winter_2024]
 - [Sabri et al 2022][research_sabri_elzaabalawy_2022]
 - [Sachs and Christodoulou 1987][research_sachs_christodoulou_1987]
 - [Sadr Lahidjani et al 2003][research_sadrlahidjani_ovesy_2003]
 - [Saeed et al 2010][research_saeed_graham_2010]
 - [Safavi et al 2015][research_safavi_tarkian_2015]
+- [Saha et al 2025][research_saha_baker_2025]
+- [Sahai and Stumpf 2014][research_sahai_stumpf_2014]
 - [Sahin 2022][research_sahin_2022]
 - [Sahu 2009][research_sahu_2009]
 - [Sahyoun et al 2026][research_sahyoun_boose_2026]
@@ -4478,7 +5124,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Saitoh et al 2006][research_saitoh_kim_2006]
 - [Saitoh et al 2012][research_saitoh_tamayama_2012]
 - [Sako et al 1999][research_sako_kim_1999]
+- [Salam and Bil 2012][research_salam_bil_2012]
 - [Salgas et al 2023][research_salgas_delbecq_2023]
+- [Sallee, G. P. 1973][research_salleegp_1973]
 - [Sally A Viken et al 2022][research_sallyaviken_craigahunter_2022]
 - [Saltari et al 2022][research_saltari_pizzoli_2022]
 - [Samson et al 2025][research_samson_keerti_2025]
@@ -4495,6 +5143,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Sang 2009][research_sang_2009]
 - [Sang et al 2006][research_sang_jiang_2006]
 - [Sang et al 2007][research_sang_li_2007]
+- [Sanghi 2003][research_sanghi_2003]
 - [Sanghi et al 2020][research_sanghi_riso_2020]
 - [Sanghi et al 2022][research_sanghi_riso_2022]
 - [Sanghi et al 2023][research_sanghi_cesnik_2023]
@@ -4509,6 +5158,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Saric, William S. 1996][research_saricwilliams_1996]
 - [Sarkar and Paı̈doussis 2003][research_sarkar_paidoussis_2003]
 - [Sarojini et al 2022][research_sarojini_solano_2022]
+- [Sato 2010][research_sato_2010]
 - [Sato et al 2011][research_sato_yokoyama_2011]
 - [Satriya and Kadir 2023][research_satriya_kadir_2023]
 - [Savelyev et al 2016][research_savelyev_zlenko_2016]
@@ -4532,12 +5182,14 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Schmidt-Eisenlohr and Kosing 2008][research_schmidteisenlohr_kosing_2008]
 - [Schneider][research_schneider]
 - [Schnulo, Sydney L. et al 2017][research_schnulosydneyl_chinjeffreyc_2017]
+- [Schoen, A. H. et al 1980][research_schoenah_rosensteinh_1980]
 - [Schrauf and von Geyr 2020][research_schrauf_vongeyr_2020]
 - [Schrauf and von Geyr 2021][research_schrauf_vongeyr_2021]
 - [Schrauf and von Geyr 2021][research_schrauf_vongeyr_2021_b]
 - [Schuelein 2008][research_schuelein_2008]
 - [Schueltke and Stumpf 2017][research_schueltke_stumpf_2017]
 - [Schuhmacher et al 2002][research_schuhmacher_murra_2002]
+- [Schuldenfrei, Marvin et al 1947][research_schuldenfreimarvin_comisarowpaul_1947]
 - [Schumacher 1952][research_schumacher_1952]
 - [Schumann et al 2025][research_schumann_wustenhagen_2025]
 - [Schuster 1995][research_schuster_1995]
@@ -4575,9 +5227,11 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Sellers, Thomas B and Land, Norman S 1957][research_sellersthomasb_landnormans_1957]
 - [Semaan et al 2013][research_semaan_scholz_2013]
 - [Sengupta et al 2021][research_sengupta_roy_2021]
+- [Sensmeier, Mark D. and Samareh, Jamshid A. 2005][research_sensmeiermarkd_samarehjamshida_2005]
 - [Seth Kelly et al][research_sethkelly_tausifjamal]
 - [Seth W Kelly et al][research_sethwkelly_tausifjamal]
 - [Setyo Hariyadi et al 2021][research_setyohariyadi_sutardi_2021]
+- [Sevier, John R., Jr. 1960][research_sevierjohnrjr_1960]
 - [Shafaghat et al 2022][research_shafaghat_noorian_2022]
 - [Shah and Ahmed 2023][research_shah_ahmed_2023]
 - [Shahjahan and Ahuja 2026][research_shahjahan_ahuja_2026]
@@ -4628,7 +5282,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Sibilli et al 2012][research_sibilli_savill_2012]
 - [Siddiqui et al 2025][research_siddiqui_maqsood_2025]
 - [Siebert et al 2026][research_siebert_strothteicher_2026]
+- [Siegel 1972][research_siegel_1972]
+- [Siegers and Smith 1995][research_siegers_smith_1995]
+- [Sieradzki et al 2016][research_sieradzki_dziubinski_2016]
 - [Silva][research_silva]
+- [Silva][research_silva_b]
+- [Silva and Guimarães 2020][research_silva_guimaraes_2020]
 - [Silva and Silva 2025][research_silva_silva_2025]
 - [Silva et al 2019][research_silva_acerragil_2019]
 - [Silva et al 2021][research_silva_resende_2021]
@@ -4637,6 +5296,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Silva, Walter A. et al 1991][research_silvawaltera_heegjennifer_1991]
 - [Silva, Walter A. et al 2006][research_silvawaltera_shimkoanthony_2006]
 - [Silva, Walter A. et al 2017][research_silvawaltera_chwalowskipawel_2017]
+- [Silvers H Norman and Spreeman, Kenneth P 1949][research_silvershnorman_spreemankennethp_1949]
+- [Silverstein, Abe 1935][research_silversteinabe_1935]
 - [Silvestre et al 2017][research_silvestre_guimaraesneto_2017]
 - [Simmons et al 2025][research_simmons_riso_2025]
 - [Simmons et al 2026][research_simmons_chang_2026]
@@ -4652,6 +5313,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Sims and Carter 1981][research_sims_carter_1981]
 - [Singh and Venkatraman 2023][research_singh_venkatraman_2023]
 - [Singh et al 2016][research_singh_toropov_2016]
+- [Singh et al 2020][research_singh_aloor_2020]
 - [Singh et al 2022][research_singh_gajula_2022]
 - [Singh et al 2022][research_singh_karnick_2022]
 - [Singh et al 2026][research_singh_pant_2026]
@@ -4664,8 +5326,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Sivaji et al][research_sivaji_marisarla]
 - [Sivaji et al 2003][research_sivaji_ghia_2003]
 - [Skillen and Crossley 2005][research_skillen_crossley_2005]
+- [Skillen and Crossley 2008][research_skillen_crossley_2008]
 - [Skomorokhov et al 2014][research_skomorokhov_nikolay_2014]
 - [Slaboch, Paul E. et al 2016][research_slabochpaule_stephensdavidb_2016]
+- [Sleeman, William C., Jr. 1957][research_sleemanwilliamcjr_1957]
 - [Slotnick et al 2000][research_slotnick_an_2000]
 - [Smallwood et al 2003][research_smallwood_canfield_2003]
 - [Smeltzer et al 1983][research_smeltzer_durston_1983]
@@ -4676,12 +5340,17 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Smith et al 1973][research_smith_lebacqz_1973]
 - [Smith et al 2001][research_smith_patil_2001]
 - [Smith et al 2016][research_smith_liu_2016]
+- [Smith, Arthur F. and Brooks, Bennett M. 1986][research_smitharthurf_brooksbennettm_1986]
+- [Smith, C. C., Jr. 1973][research_smithccjr_1973]
+- [Smith, Leigh Ann and Campbell, Richard L. 1996][research_smithleighann_campbellrichardl_1996]
 - [Smith, P. J. et al 1986][research_smithpj_thomsonlw_1986]
 - [Smith, P. M. et al 1981][research_smithpm_deyoungj_1981]
+- [Smith, Peter J. et al 1985][research_smithpeterj_wilsonrobertd_1985]
 - [Smith, S. C. et al 1987][research_smithsc_cliffse_1987]
 - [Smith, Stephen C. 1996][research_smithstephenc_1996]
 - [Smith, Stephen C. and Kroo, Ilan M. 1990][research_smithstephenc_krooilanm_1990]
 - [Smith, Stephen C. and Stonum, Ronald K. 1989][research_smithstephenc_stonumronaldk_1989]
+- [Smith, Williard G. 1954][research_smithwilliardg_1954]
 - [Snyder and Zumwalt 1969][research_snyder_zumwalt_1969]
 - [Snyder et al 2005][research_snyder_hur_2005]
 - [Snyder et al 2009][research_snyder_sanders_2009]
@@ -4691,7 +5360,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Soda and Tefy 2004][research_soda_tefy_2004]
 - [Soderman, P. T. and Aiken, T. N. 1971][research_sodermanpt_aikentn_1971]
 - [Sodja et al 2021][research_sodja_werter_2021]
+- [Soeiro Pereira][research_soeiropereira]
 - [Soemarwoto et al 2000][research_soemarwoto_labrujere_2000]
+- [Sogukpinar 2019][research_sogukpinar_2019]
 - [Sohst et al 2022][research_sohst_lobodovale_2022]
 - [Soistmann, David L. and Spain, Charles V. 1993][research_soistmanndavidl_spaincharlesv_1993]
 - [Sokhey 1990][research_sokhey_1990]
@@ -4704,6 +5375,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Song et al 2011][research_song_lu_2011]
 - [Song et al 2014][research_song_yang_2014]
 - [Song et al 2022][research_song_liang_2022]
+- [Song et al 2025][research_song_gao_2025]
 - [Song et al 2026][research_song_fang_2026]
 - [Soni et al 2023][research_soni_ewert_2023]
 - [Sorbilli et al 2018][research_sorbilli_dibianchi_2018]
@@ -4715,6 +5387,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Sotoudeh and Hodges 2011][research_sotoudeh_hodges_2011]
 - [Souza Coimbra et al 2022][research_souzacoimbra_matoscampos_2022]
 - [Spacht 1983][research_spacht_1983]
+- [Spaid 1979][research_spaid_1979]
 - [Speakman et al 1978][research_speakman_powell_1978]
 - [Special Features of Antiaircraft 2010][research_special_features_2010]
 - [Spellman, Regina L. 2003][research_spellmanreginal_2003]
@@ -4724,7 +5397,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Spivey, Natalie D. et al 2007][research_spiveynatalied_herreraclaudiay_2007]
 - [Spivey, Natalie D. et al 2007][research_spiveynatalied_herreraclaudiay_2007_b]
 - [Spivey, Natalie et al 2020][research_spiveynatalie_saltzmanrachel_2020]
+- [Spreeman, Kenneth P and Alford, William J, Jr 1952][research_spreemankennethp_alfordwilliamjjr_1952]
+- [Spreeman, Kenneth P and Alford, William J, Jr 1954][research_spreemankennethp_alfordwilliamjjr_1954]
 - [Spreemann, Kenneth P and Alford, William J, Jr 1951][research_spreemannkennethp_alfordwilliamjjr_1951]
+- [Spreemann, Kenneth P and Alford, William J, Jr 1952][research_spreemannkennethp_alfordwilliamjjr_1952]
+- [Spreemann, Kenneth P and Alford, William J, Jr 1953][research_spreemannkennethp_alfordwilliamjjr_1953]
+- [Spreemann, Kenneth P and Alford, William J, Jr 1957][research_spreemannkennethp_alfordwilliamjjr_1957]
+- [Spreemann, Kenneth P. 1959][research_spreemannkennethp_1959]
 - [Spyropoulos and Holmes 1999][research_spyropoulos_holmes_1999]
 - [Squires 2004][research_squires_2004]
 - [Sridhar, Banavar 2015][research_sridharbanavar_2015]
@@ -4737,13 +5416,16 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Sriram and Narahari 2020][research_sriram_narahari_2020]
 - [Srivastava et al 2019][research_srivastava_damodaran_2019]
 - [Srivastava et al 2019][research_srivastava_damodaran_2019_b]
+- [Stack, John and Lindsey, W F 1949][research_stackjohn_lindseywf_1949]
 - [Stagliano and Hornung 2012][research_stagliano_hornung_2012]
 - [Stahle, C. V. and Forlifer, W. R. 1975][research_stahlecv_forliferwr_1975]
 - [Stalewski and Sznajder 2016][research_stalewski_sznajder_2016]
 - [Stalla et al 2024][research_stalla_kier_2024]
 - [Stalla et al 2026][research_stalla_looye_2026]
+- [Standard Atmosphere 2024][research_standard_atmosphere_2024]
 - [Standard Practice for Strain][research_standard_practice]
 - [Standard Test Method for][research_standard_test]
+- [Stanford 2021][research_stanford_2021]
 - [Stanford and Beran 2011][research_stanford_beran_2011]
 - [Stanford and Jacobson 2023][research_stanford_jacobson_2023]
 - [Stanford and Jacobson 2024][research_stanford_jacobson_2024]
@@ -4783,10 +5465,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Streitenberger and Feldwisch 2025][research_streitenberger_feldwisch_2025]
 - [Striz 1991][research_striz_1991]
 - [Striz and Lee 1994][research_striz_lee_1994]
+- [Strothteicher and Fezans 2026][research_strothteicher_fezans_2026]
+- [Stroud, W. J. et al 1972][research_stroudwj_dextercb_1972]
 - [Structural Aspects of Flexible 2000][research_structural_aspects_2000]
 - [Structural weight comparison of 1981][research_structural_weight_1981]
 - [Studebaker, Karen and Abrego, Anita 1994][research_studebakerkaren_abregoanita_1994]
 - [Study of Mach 0.8 Transonic Truss-Braced Wing Aircraft Wing-Strut Interference Effects, AIAA SciTech 2021 Forum, registry record only][research_interference_2021]
+- [Study of the application 1972][research_study_of_1972]
 - [Study on the Ground 2022][research_study_on_2022]
 - [Sturgeon, R. F. 1978][research_sturgeonrf_1978]
 - [Sturgeon, R. F. 1978][research_sturgeonrf_1978_b]
@@ -4820,11 +5505,16 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Sumimoto et al 2019][research_sumimoto_chiba_2019]
 - [Sumsurooah et al 2022][research_sumsurooah_piecyk_2022]
 - [Sun and Allwright 1992][research_sun_allwright_1992]
+- [Sun et al 2018][research_sun_wang_2018]
 - [Sun et al 2021][research_sun_wang_2021]
 - [Sun et al 2022][research_sun_zhu_2022]
+- [Sun et al 2025][research_sun_guo_2025]
+- [Sun et al 2025][research_sun_zhou_2025]
 - [Sun et al 2026][research_sun_chen_2026]
 - [Sun et al 2026][research_sun_gao_2026]
 - [Sun et al 2026][research_sun_spinielli_2026]
+- [Sun et al 2026][research_sun_zhou_2026]
+- [Sundaram et al 2024][research_sundaram_teja_2024]
 - [Sung et al 2025][research_sung_spreizer_2025]
 - [Sung et al 2025][research_sung_spreizer_2025_b]
 - [Sung et al 2026][research_sung_spreizer_2026]
@@ -4848,6 +5538,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Szczyglowski et al 2018][research_szczyglowski_neild_2018]
 - [Szczyglowski et al 2019][research_szczyglowski_neild_2019]
 - [Szodruch et al 2011][research_szodruch_grimme_2011]
+- [Szubert et al 2015][research_szubert_grossi_2015]
 - [Sóbester 2010][research_sobester_2010]
 - [Table 1 PGLS models][research_table_1]
 - [Table 2 PGLS models][research_table_2]
@@ -4872,6 +5563,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Takeda et al 2001][research_takeda_ashcroft_2001]
 - [Tal and Nguyen 2015][research_tal_nguyen_2015]
 - [Tam 2015][research_tam_2015]
+- [Tamayama et al 2017][research_tamayama_maki_2017]
 - [Tang and Dowell 2002][research_tang_dowell_2002]
 - [Tang and Dowell 2002][research_tang_dowell_2002_b]
 - [Tang and Dowell 2008][research_tang_dowell_2008]
@@ -4888,6 +5580,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Tangler 1979][research_tangler_1979]
 - [Tani et al 2018][research_tani_seki_2018]
 - [Tantaroudas and Karachalios 2026][research_tantaroudas_karachalios_2026]
+- [Tao et al 2013][research_tao_liu_2013]
 - [Tao et al 2018][research_tao_zhao_2018]
 - [Tao et al 2019][research_tao_sun_2019]
 - [Tao et al 2025][research_tao_mukarakate_2025]
@@ -4896,6 +5589,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Tausif Jamal et al][research_tausifjamal_sethkelly]
 - [Tausif Jamal et al][research_tausifjamal_sethkelly_b]
 - [Tavares Silva et al 2023][research_tavaressilva_lundbladh_2023]
+- [Taylor and Hunsaker 2020][research_taylor_hunsaker_2020]
 - [Taylor and Hunsaker 2023][research_taylor_hunsaker_2023]
 - [Teeters et al 2002][research_teeters_pallard_2002]
 - [Teeters et al 2003][research_teeters_pollard_2003]
@@ -4911,6 +5605,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Test Method for Full][research_test_method]
 - [Tfaily and Kokkolaras 2018][research_tfaily_kokkolaras_2018]
 - [Thanawala 2020][research_thanawala_2020]
+- [Thapa Magar et al 2017][research_thapamagar_reich_2017]
 - [Thapa Magar et al 2018][research_thapamagar_pankonien_2018]
 - [Thawait et al 2022][research_thawait_tandaiya_2022]
 - [The Boeing Canard rotor/wing 2004][research_the_boeing_2004]
@@ -4927,12 +5622,14 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Thomas and Shkarayev 2026][research_thomas_shkarayev_2026]
 - [Thomas et al 2010][research_thomas_burley_2010]
 - [Thomas et al 2012][research_thomas_burley_2012]
+- [Thomas, David F, Jr and Wolhart, Walter D 1957][research_thomasdavidfjr_wolhartwalterd_1957]
 - [Thomas, Russell H. et al 2014][research_thomasrussellh_burleycaseyl_2014]
 - [Thomas, Russell H. et al 2016][research_thomasrussellh_burleycaseyl_2016]
 - [Thompson, Jr. and Strganac 2000][research_thompsonjr_strganac_2000]
 - [Thompson, Robert F 1950][research_thompsonrobertf_1950]
 - [Thompson, Robert F and Moseley, William C, Jr 1956][research_thompsonrobertf_moseleywilliamcjr_1956]
 - [Thornton, Stephen V. 1993][research_thorntonstephenv_1993]
+- [Three-dimensional boundary-layer transition on 1994][research_three_dimensional_boundary_layer_1994]
 - [Thurston 2001][research_thurston_2001]
 - [Thuwis et al][research_thuwis_debreuker]
 - [Tian et al 2016][research_tian_yang_2016]
@@ -4953,6 +5650,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Ting et al 2017][research_ting_chaparro_2017]
 - [Ting et al 2023][research_ting_mesbahi_2023]
 - [Ting, Eric Bi-Wen et al 2014][research_tingericbiwen_reynoldskevinwayne_2014]
+- [Tinling, Bruce E and Karpen, A V 1955][research_tinlingbrucee_karpenav_1955]
+- [Tinling, Bruce E and Karpen, A V 1957][research_tinlingbrucee_karpenav_1957]
+- [Tinling, Bruce E and Kolk, W Richard 1951][research_tinlingbrucee_kolkwrichard_1951]
+- [Tinling, Bruce E and Lopez, Armando E 1954][research_tinlingbrucee_lopezarmandoe_1954]
 - [Tinoco et al 1986][research_tinoco_ball_1986]
 - [Tischler and Venkayya 1998][research_tischler_venkayya_1998]
 - [Titov and Albagachiev 2015][research_titov_albagachiev_2015]
@@ -4962,6 +5663,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Toffol 2024][research_toffol_2024]
 - [Tokugawa and Yoshida 2006][research_tokugawa_yoshida_2006]
 - [Tokuslu 2020][research_tokuslu_2020]
+- [Tolson, R. H. and Sobieszczanski-Sobieski, J. 1985][research_tolsonrh_sobieszczanskisobieskij_1985]
+- [Tong et al 2016][research_tong_zhang_2016]
 - [Tony Nerone][research_tonynerone]
 - [Toon 2024][research_toon_2024]
 - [Toor 1973][research_toor_1973]
@@ -5008,11 +5711,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Tu, Eugene L. and VanDalsem, William R. 1996][research_tueugenel_vandalsemwilliamr_1996]
 - [Tu, Eugene L. et al 1993][research_tueugenel_obayashishigeru_1993]
 - [Tucker et al 2016][research_tucker_reed_2016]
+- [Tuktarov and Chedrik 2015][research_tuktarov_chedrik_2015]
 - [Tuling et al 2013][research_tuling_dala_2013]
 - [Tuncer and Platzer 1998][research_tuncer_platzer_1998]
 - [Tung and Song 2011][research_tung_song_2011]
 - [Turner 1982][research_turner_1982]
-- [Turriziani, R. V. et al 1980][research_turrizianirv_lovellwa_1980]
+- [Tuttle, M. H. and Maddalon, D. V. 1982][research_tuttlemh_maddalondv_1982]
 - [Tyacke et al 2019][research_tyacke_wang_2019]
 - [Tyler et al 2002][research_tyler_schwabacher_2002]
 - [Tzong et al 1992][research_tzong_sikes_1992]
@@ -5026,6 +5730,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Ullah et al 2021][research_ullah_fabijanic_2021]
 - [Ullah et al 2022][research_ullah_fabijanic_2022]
 - [Ullah et al 2023][research_ullah_lutz_2023]
+- [Ulrich et al 2001][research_ulrich_roche_2001]
 - [Unangst, John R. 1959][research_unangstjohnr_1959]
 - [Uncertainty-Based Multidisciplinary Design Optimization 2015][research_uncertainty_based_multidisciplinary_2015]
 - [Unruh, J. F. and Scheidt, D. C. 1979][research_unruhjf_scheidtdc_1979]
@@ -5047,6 +5752,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [van der Voet et al 2012][research_vandervoet_geuskens_2012]
 - [Van Dommelen 1995][research_vandommelen_1995]
 - [Van Gaasbeek 1980][research_vangaasbeek_1980]
+- [Van Treuren and Wisniewski 2022][research_vantreuren_wisniewski_2022]
+- [Van Treuren et al 2021][research_vantreuren_sanchez_2021]
+- [Van Treuren et al 2021][research_vantreuren_sanchez_2021_b]
 - [Van Wyckhouse 1966][research_vanwyckhouse_1966]
 - [Van Zante, Dale 2011][research_vanzantedale_2011]
 - [Van Zante, Dale and Suder, Kenneth 2015][research_vanzantedale_suderkenneth_2015]
@@ -5067,6 +5775,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Varshney et al 2022][research_varshney_varshney_2022]
 - [Vartio et al 2005][research_vartio_shimko_2005]
 - [Vartio et al 2008][research_vartio_shaw_2008]
+- [Vassberg, John C. et al 2002][research_vassbergjohnc_buningpieterg_2002]
+- [Vatsa, Veer N. et al 2019][research_vatsaveern_dudabenjamin_2019]
+- [Veer N Vatsa et al][research_veernvatsa_johnclin]
 - [Velasco 2006][research_velasco_2006]
 - [Velden 1997][research_velden_1997]
 - [Vemula et al 2023][research_vemula_duponcheel_2023]
@@ -5083,6 +5794,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Vijgen, P. M. H. W. et al 1992][research_vijgenpmhw_hardinjd_1992]
 - [Viken, Jeff et al 1991][research_vikenjeff_pfenningerw_1991]
 - [Viken, Jeffrey K. et al 1987][research_vikenjeffreyk_watsonvikensallya_1987]
+- [Viken, Sally 2015][research_vikensally_2015]
 - [Vile et al 2019][research_vile_alwi_2019]
 - [Vile et al 2019][research_vile_alwi_2019_b]
 - [Vineeth and Patel 2022][research_vineeth_patel_2022]
@@ -5106,16 +5818,19 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Voracek, David F. 1990][research_voracekdavidf_1990]
 - [Voracek, David F. 1993][research_voracekdavidf_1993]
 - [Voracek, David F. and Clarke, Robert 1991][research_voracekdavidf_clarkerobert_1991]
+- [Vos 2019][research_vos_2019]
 - [Vos et al 2020][research_vos_charbonnier_2020]
 - [Voss et al 2026][research_voss_frohler_2026]
 - [Wada et al 2018][research_wada_igawa_2018]
 - [Waggoner, Edgar G. 1986][research_waggoneredgarg_1986]
 - [Waggoner, Edgar G. et al 1986][research_waggoneredgarg_campbellrichardl_1986]
 - [Wagner et al 1990][research_wagner_maddalon_1990]
+- [Wagner, O. 1981][research_wagnero_1981]
 - [Wagner, R. D. 1986][research_wagnerrd_1986]
 - [Wahler et al 2025][research_wahler_ma_2025]
 - [Wahlich et al 2024][research_wahlich_bismark_2024]
 - [Wai et al 1982][research_wai_yoshihara_1982]
+- [Wai et al 1994][research_wai_herling_1994]
 - [Waite, Josiah M. et al 2019][research_waitejosiahm_stanfordbretk_2019]
 - [Wakayama 1998][research_wakayama_1998]
 - [Wakayama 2000][research_wakayama_2000]
@@ -5123,6 +5838,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Wakayama and Kroo 1995][research_wakayama_kroo_1995]
 - [Wakayama et al 1996][research_wakayama_page_1996]
 - [Walker and Kaufman 1977][research_walker_kaufman_1977]
+- [Walker, Harold J and Berggren, Robert E 1948][research_walkerharoldj_berggrenroberte_1948]
 - [Wall et al 2025][research_wall_amoozgar_2025]
 - [Walter A. Silva et al 2007][research_walterasilva_ericvartio_2007]
 - [Wan and Cesnik 2013][research_wan_cesnik_2013]
@@ -5132,12 +5848,15 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Wang 2019][research_wang_2019]
 - [Wang 2026][research_wang_2026]
 - [Wang and Guo 2009][research_wang_guo_2009]
+- [Wang and Inman 2017][research_wang_inman_2017]
 - [Wang and Wang 2012][research_wang_wang_2012]
 - [Wang and Zha 2019][research_wang_zha_2019]
 - [Wang et al 2012][research_wang_gibbs_2012]
 - [Wang et al 2013][research_wang_lv_2013]
 - [Wang et al 2013][research_wang_palacios_2013]
 - [Wang et al 2015][research_wang_li_2015]
+- [Wang et al 2016][research_wang_li_2016]
+- [Wang et al 2017][research_wang_vankampen_2017]
 - [Wang et al 2018][research_wang_tyacke_2018]
 - [Wang et al 2018][research_wang_vankampen_2018]
 - [Wang et al 2018][research_wang_wynn_2018]
@@ -5160,6 +5879,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Wang et al 2025][research_wang_li_2025]
 - [Wang et al 2025][research_wang_song_2025]
 - [Wang et al 2025][research_wang_yu_2025]
+- [Wang et al 2025][research_wang_zhou_2025]
 - [Wang et al 2026][research_wang_he_2026]
 - [Wang et al 2026][research_wang_liu_2026]
 - [Wang et al 2026][research_wang_schukar_2026]
@@ -5173,6 +5893,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Waszak et al 2002][research_waszak_davidson_2002]
 - [Waters et al 2013][research_waters_voskuijl_2013]
 - [Watson 1973][research_watson_1973]
+- [Watson, J. J. 1982][research_watsonjj_1982]
 - [Wayhs-Lopes et al 2020][research_wayhslopes_dowell_2020]
 - [Wayman et al 2025][research_wayman_coder_2025]
 - [Wayman et al 2026][research_wayman_coder_2026]
@@ -5184,6 +5905,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Wei and Masood 2017][research_wei_masood_2017]
 - [Wei et al 2024][research_wei_zheng_2024]
 - [Wei et al 2026][research_wei_liu_2026]
+- [Weiberg, James A and Holzhauser, Curt A. 1961][research_weibergjamesa_holzhausercurta_1961]
 - [Weil Brenner et al 2012][research_weilbrenner_trepanier_2012]
 - [Weinold and McKenna 2026][research_weinold_mckenna_2026]
 - [Weiss et al 2013][research_weiss_heinze_2013]
@@ -5204,24 +5926,36 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Wentz, W. H., Jr. and Nagati, M. G. 1975][research_wentzwhjr_nagatimg_1975]
 - [Wentz, W. H., Jr. et al 1984][research_wentzwhjr_nyenhuisr_1984]
 - [Werter and De Breuker 2016][research_werter_debreuker_2016]
+- [West, F. E., Jr. 1959][research_westfejr_1959]
+- [Wetzel, Benton E 1955][research_wetzelbentone_1955]
+- [Wetzel, Benton E 1955][research_wetzelbentone_1955_b]
+- [Wetzel, Benton E and Pfyl, Frank A 1954][research_wetzelbentone_pfylfranka_1954]
 - [Wey and Lee 2018][research_wey_lee_2018]
 - [Wheatcroft et al 2025][research_wheatcroft_groh_2025]
+- [Whitcomb, Richard T. 1947][research_whitcombrichardt_1947]
+- [Whitcomb, Richard T. 1957][research_whitcombrichardt_1957]
+- [White 1970][research_white_1970]
+- [White 1971][research_white_1971]
 - [White and Crimi 1961][research_white_crimi_1961]
 - [White, Edward V. et al 2015][research_whiteedwardv_kapaniarakeshk_2015]
 - [Whitehead, R. S. et al 1992][research_whiteheadrs_foremancr_1992]
 - [Whitlow, W., Jr. and Bennett, R. M. 1982][research_whitlowwjr_bennettrm_1982]
 - [Whitlow, Woodrow, Jr. 1993][research_whitlowwoodrowjr_1993]
+- [Widhalm et al 2007][research_widhalm_ronzheimer_2007]
 - [Wie, Y. S. et al 1991][research_wieys_collierfsjr_1991]
 - [Wie, Yong-Sun et al 1992][research_wieyongsun_collierfayettesjr_1992]
 - [Wienke et al 2023][research_wienke_bertsch_2023]
 - [Wiesman, Carol D. et al 2005][research_wiesmancarold_silvawaltera_2005]
 - [Wieszala et al 2022][research_wieszala_kolodziej_2022]
+- [Wild 2012][research_wild_2012]
+- [Wild 2013][research_wild_2013]
 - [Wild 2021][research_wild_2021]
 - [Wildermuth et al 1974][research_wildermuth_rothammer_1974]
 - [Wildermuth et al 1974][research_wildermuth_rothammer_1974_b]
 - [Wildschek 2014][research_wildschek_2014]
 - [Wildschek et al 2006][research_wildschek_maier_2006]
 - [Wildschek et al 2013][research_wildschek_hanis_2013]
+- [Wilhite, A. W. and Rehder, J. J. 1979][research_wilhiteaw_rehderjj_1979]
 - [William J Coupe and Swati Saxena 2024][research_williamjcoupe_swatisaxena_2024]
 - [Williams 1972][research_williams_1972]
 - [Williams 1973][research_williams_1973]
@@ -5229,9 +5963,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Williams et al 2001][research_williams_nguyen_2001]
 - [Willis et al 2018][research_willis_anwar_2018]
 - [Wilmott 1986][research_wilmott_1986]
+- [Wilson, William C. et al 2016][research_wilsonwilliamc_moorejasonp_2016]
 - [Winblade, R. L. 1980][research_winbladerl_1980]
 - [Winkelmann 1989][research_winkelmann_1989]
 - [Wintzer 2010][research_wintzer_2010]
+- [Wisniewski and Van Treuren 2022][research_wisniewski_vantreuren_2022]
+- [Wisniewski and Van Treuren 2022][research_wisniewski_vantreuren_2022_b]
 - [Withdrawal Notice Design Optimization 2020][research_withdrawal_notice_2020]
 - [Woan, Chung-Jin et al 1991][research_woanchungjin_gingrichphilipb_1991]
 - [Woehler et al 2023][research_woehler_burschyk_2023]
@@ -5253,6 +5990,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Wright, A. S. 1979][research_wrightas_1979]
 - [Wu and Zhao 2011][research_wu_zhao_2011]
 - [Wu et al 2014][research_wu_long_2014]
+- [Wu et al 2024][research_wu_li_2024]
 - [Wu et al 2024][research_wu_liu_2024]
 - [Wu et al 2024][research_wu_zhou_2024]
 - [Wu et al 2025][research_wu_fu_2025]
@@ -5289,6 +6027,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Xiong et al 2022][research_xiong_nguyen_2022_d]
 - [Xiong et al 2023][research_xiong_nguyen_2023]
 - [Xiong et al 2023][research_xiong_nguyen_2023_c]
+- [Xiong et al 2025][research_xiong_peng_2025]
 - [Xiong et al 2026][research_xiong_nguyen_2026]
 - [Xiong et al 2026][research_xiong_peng_2026]
 - [Xiong et al 2026][research_xiong_yi_2026]
@@ -5333,8 +6072,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Yang et al 1980][research_yang_striz_1980]
 - [Yang et al 1981][research_yang_striz_1981]
 - [Yang et al 2009][research_yang_chen_2009]
+- [Yang et al 2010][research_yang_xiao_2010]
 - [Yang et al 2012][research_yang_samadsuhaeb_2012]
 - [Yang et al 2012][research_yang_yang_2012]
+- [Yang et al 2013][research_yang_wu_2013]
 - [Yang et al 2015][research_yang_wang_2015]
 - [Yang et al 2016][research_yang_he_2016]
 - [Yang et al 2017][research_yang_he_2017]
@@ -5344,6 +6085,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Yang et al 2024][research_yang_li_2024_b]
 - [Yang et al 2025][research_yang_liu_2025]
 - [Yang et al 2025][research_yang_wu_2025]
+- [Yang et al 2025][research_yang_zhang_2025]
 - [Yanto][research_yanto]
 - [Yanto and Liem 2018][research_yanto_liem_2018]
 - [Yao et al 2021][research_yao_ma_2021]
@@ -5369,7 +6111,6 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Yolum et al 2025][research_yolum_aydin_2025]
 - [Yoo 2018][research_yoo_2018]
 - [York 2006][research_york_2006]
-- [York, P. and Labell, R. W. 1980][research_yorkp_labellrw_1980]
 - [Yoshida and Tani 1993][research_yoshida_tani_1993]
 - [Yossri et al 2021][research_yossri_bouma_2021]
 - [Young 2010][research_young_2010]
@@ -5392,9 +6133,11 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Yue 2026][research_yue_2026]
 - [Yue et al 2009][research_yue_wang_2009]
 - [Yuhara et al 2018][research_yuhara_kubota_2018]
+- [Yuhong et al 2017][research_yuhong_guanxin_2017]
 - [Yurkovich 2008][research_yurkovich_2008]
 - [Yurkovich 2009][research_yurkovich_2009]
 - [Zachary D. Windous and Jesse R. Quinlan][research_zacharydwindous_jesserquinlan]
+- [Zafirov 2013][research_zafirov_2013]
 - [Zaraska 2025][research_zaraska_2025]
 - [Zare Shahnehb 2022][research_zareshahnehb_2022]
 - [Zauner et al 2023][research_zauner_moise_2023]
@@ -5402,6 +6145,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Zeiler, T. A. and Weisshaar, T. A. 1986][research_zeilerta_weisshaarta_1986]
 - [Zeiler, Thomas A. and Weisshaar, Terrence A. 1988][research_zeilerthomasa_weisshaarterrencea_1988]
 - [Zelinski et al 2025][research_zelinski_recine_2025]
+- [Zeng et al 2008][research_zeng_moulin_2008]
 - [Zeng et al 2010][research_zeng_moulin_2010]
 - [Zeng et al 2012][research_zeng_de_2012]
 - [Zeng et al 2012][research_zeng_kukreja_2012]
@@ -5428,6 +6172,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Zhang et al 2013][research_zhang_wang_2013]
 - [Zhang et al 2015][research_zhang_fang_2015]
 - [Zhang et al 2016][research_zhang_kou_2016]
+- [Zhang et al 2017][research_zhang_liu_2017]
 - [Zhang et al 2017][research_zhang_shan_2017]
 - [Zhang et al 2018][research_zhang_duan_2018]
 - [Zhang et al 2018][research_zhang_zhou_2018]
@@ -5443,6 +6188,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Zhang et al 2025][research_zhang_khir_2025]
 - [Zhang et al 2025][research_zhang_zhou_2025]
 - [Zhang et al 2026][research_zhang_cao_2026]
+- [Zhang et al 2026][research_zhang_dai_2026]
 - [Zhang et al 2026][research_zhang_deng_2026]
 - [Zhang et al 2026][research_zhang_li_2026]
 - [Zhang et al 2026][research_zhang_zhao_2026]
@@ -5469,15 +6215,19 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Zhou 2026][research_zhou_2026]
 - [Zhou and Huang 2021][research_zhou_huang_2021]
 - [Zhou and Huang 2021][research_zhou_huang_2021_b]
+- [Zhou et al 2022][research_zhou_wu_2022]
 - [Zhou et al 2024][research_zhou_huang_2024]
+- [Zhou et al 2025][research_zhou_zhao_2025]
 - [Zhu and Qiu 2005][research_zhu_qiu_2005]
 - [Zhu et al 1994][research_zhu_xia_1994]
 - [Zhu et al 2009][research_zhu_jin_2009]
 - [Zhu et al 2019][research_zhu_fan_2019]
 - [Zhu et al 2019][research_zhu_li_2019]
+- [Zhu et al 2020][research_zhu_wang_2020]
 - [Zimmermann et al 2018][research_zimmermann_mayer_2018]
 - [Zink et al 1998][research_zink_mavris_1998]
 - [Zink et al 1999][research_zink_mavris_1999]
+- [Zink et al 2000][research_zink_raveh_2000]
 - [Zink et al 2002][research_zink_raveh_2002]
 - [Zink et al 2003][research_zink_raveh_2003]
 - [Zink et al 2004][research_zink_raveh_2004]
@@ -5490,6 +6240,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 - [Zyl 2003][research_zyl_2003]
 - [Zyl 2005][research_zyl_2005]
 - [Öztürk et al 2026][research_ozturk_kilic_2026]
+- [Ünal et al 2023][research_unal_oz_2023]
 - [Čečrdle et al 2022][research_cecrdle_malinek_2022]
 - [Łukasik 2017][research_ukasik_2017]
 - [Ņevskis][research_nevskis]
@@ -5499,28 +6250,33 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_a_comprehensive]: https://doi.org/10.1021/acs.est.5c02371.s001
 [research_a_dual_engine]: https://doi.org/10.1021/jacs.5c22256.s001
 [research_a_new_2006]: https://doi.org/10.5139/jksas.2006.34.5.012
+[research_a_study_1973]: https://ntrs.nasa.gov/citations/19730009309
 [research_aarons_canfield_2011]: https://doi.org/10.2514/6.2011-2011
 [research_abbottfranktjr_kelleyhneale_1963]: https://ntrs.nasa.gov/citations/19630009727
 [research_abdelkader_harmin_2011]: https://doi.org/10.2514/6.2011-1712
 [research_abdelmotaleb_taylor_2019]: https://doi.org/10.2514/6.2019-2120
+[research_abdif_ideh_1988]: https://ntrs.nasa.gov/citations/19890026240
 [research_abdullah_sulaeman_2013]: https://doi.org/10.4028/www.scientific.net/amm.464.110
 [research_abel_newsom_1979]: https://doi.org/10.2514/6.1979-1633
 [research_abeli_perrybiii_1977]: https://ntrs.nasa.gov/citations/19770059921
 [research_abnous_zheng_2017]: https://doi.org/10.2514/6.2017-4150
 [research_abouhamzeh_ma_2022]: https://doi.org/10.2514/6.2022-0724
 [research_abouhamzeh_ma_2022_b]: https://doi.org/10.2514/6.2022-0724.c1
+[research_abramovich_weller_2005]: https://doi.org/10.1177/1045389x05053149
 [research_abrudan_dragulinescu_2023]: https://doi.org/10.1117/12.2643287
 [research_abulibdeh_2026]: https://doi.org/10.1016/j.jclepro.2026.149589
 [research_aburto_castillolandero_2025]: https://doi.org/10.1007/978-3-031-83721-0_11
 [research_aburto_castillolandero_2025_b]: https://doi.org/10.1007/978-3-031-83721-0_8
 [research_acharya_acharya_2024]: https://doi.org/10.2139/ssrn.4876901
 [research_acostadianam_guynnmarkd_2013]: https://ntrs.nasa.gov/citations/20140008298
+[research_active_control_1994]: https://doi.org/10.1016/0967-0661(94)90531-2
 [research_adamovsky_1987]: https://doi.org/10.1117/12.940678
 [research_adamscharlesl_2004]: https://ntrs.nasa.gov/citations/20040161451
 [research_adamswilliammjr_hoadleysherwoodt_1993]: https://ntrs.nasa.gov/citations/19930049977
 [research_adelman_mantay_1988]: https://doi.org/10.21236/ada239205
 [research_adler_brelje_2022]: https://doi.org/10.3390/aerospace9050243
 [research_adler_martins_2024]: https://doi.org/10.2514/1.c037582
+[research_advanced_subsonic_1974]: https://ntrs.nasa.gov/citations/19740008616
 [research_advisorygroupforaerospaceresearchanddevelopment_1984]: https://ntrs.nasa.gov/citations/19840026325
 [research_aero_dynamic_shape_2014]: https://doi.org/10.20535/0203-377127201438043
 [research_aeroacoustics_stol_1976]: https://doi.org/10.2514/4.865190
@@ -5535,10 +6291,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_ahmad_wu_2013]: https://doi.org/10.4028/www.scientific.net/amm.390.28
 [research_ahmad_wuzhigang_2013]: https://doi.org/10.1109/ibcast.2013.6512157
 [research_ahmadi_farsadi_2024]: https://doi.org/10.1016/j.ast.2024.109023
+[research_ahmaditehrani_ellis_2025]: https://doi.org/10.2514/6.2025-0715
 [research_ahmed_goonaratne_2002]: https://doi.org/10.2514/2.2940
 [research_ahmed_kurtulus_2019]: https://doi.org/10.1007/978-3-030-14195-0_7
 [research_ahn_kim_2017]: https://doi.org/10.5139/ijass.2017.18.2.290
 [research_ahrens_gebel_2025]: https://doi.org/10.1115/gt2025-151555
+[research_ahuja_mavris_2022]: https://doi.org/10.2514/1.c036654
 [research_ahuja_patel_2026]: https://doi.org/10.2514/1.c038511
 [research_aircraft_emissions_2006]: https://doi.org/10.1016/s0140-6701(06)81918-1
 [research_aircraft_emissions_2022]: https://doi.org/10.2514/5.9781624106408.0755.0790
@@ -5547,6 +6305,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_aircraft_noise_2022]: https://doi.org/10.2514/5.9781624106408.0575.0604
 [research_aircraft_piston_1976]: https://ntrs.nasa.gov/citations/19770010138
 [research_aircraft_recommended]: https://doi.org/10.4271/map1794
+[research_aircraft_sizing_2010]: https://doi.org/10.1017/cbo9780511844652.013
 [research_aircraft_with_2001]: https://doi.org/10.1108/aeat.2001.12773dad.007
 [research_airforceflighttestcenteredwardsafbca_1974]: https://doi.org/10.21236/ada011561
 [research_airforcetestpilotschooledwardsafbca_1962]: https://doi.org/10.21236/ada320208
@@ -5589,14 +6348,18 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_an_xu_2013]: https://doi.org/10.2514/6.2013-1094
 [research_an_zhu_2023]: https://doi.org/10.1109/icmae59650.2023.10424458
 [research_analysis_and_2012]: https://doi.org/10.1201/b11900-14
+[research_analysis_of_1988]: https://doi.org/10.2514/5.9781600861888.0173.0186
 [research_anders_anderson_1999]: https://doi.org/10.2514/2.2557
 [research_andersen_forster_1997]: https://doi.org/10.2514/2.2208
 [research_anderson_1995]: https://doi.org/10.2514/6.1995-3925
+[research_anderson_berger_1972]: https://doi.org/10.2514/6.1972-870
+[research_anderson_berger_1973]: https://doi.org/10.2514/3.60204
 [research_anderson_cardona_2023]: https://doi.org/10.2514/6.2023-2083
 [research_anderson_gebert_1996]: https://doi.org/10.2514/6.1996-4023
 [research_andersondavidj_mizukamimasashi_1993]: https://ntrs.nasa.gov/citations/19930016947
 [research_andika_moelyadi_2023]: https://doi.org/10.1063/5.0181451
 [research_ando_yamamoto_1976]: https://doi.org/10.1007/bf00539778
+[research_ando_yashiro_1976]: https://doi.org/10.2514/3.48148
 [research_andreevamor_suzuki_2011]: https://doi.org/10.11113/aej.v1.15280
 [research_andreuangulo_ansell_2018]: https://doi.org/10.2514/6.2018-0546
 [research_andrew_stenton_1967]: https://doi.org/10.2514/6.1967-16
@@ -5621,7 +6384,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_application_of_1982]: https://doi.org/10.2514/5.9781600865558.0405.0430
 [research_application_of_1982_b]: https://doi.org/10.2514/5.9781600865558.0621.0636
 [research_applinzacharyt_gentrygarlljr_1988]: https://ntrs.nasa.gov/citations/19880020392
+[research_ar25_bizjet_1980]: https://ntrs.nasa.gov/citations/19810002505
+[research_arbucklepd_sliwasm_1984]: https://ntrs.nasa.gov/citations/19870002290
 [research_arcarapcjr_bartlettdw_1991]: https://ntrs.nasa.gov/citations/19920057340
+[research_ardema_chambers_1996]: https://doi.org/10.4271/965583
 [research_ardemamd_harperm_1975]: https://ntrs.nasa.gov/citations/19750038436
 [research_ardemamd_harperm_1976]: https://ntrs.nasa.gov/citations/19760056877
 [research_arena_lacarbonara_2011]: https://doi.org/10.2514/6.2011-1916
@@ -5632,13 +6398,16 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_arizono_isogai_2005]: https://doi.org/10.2514/1.392
 [research_armstrong_1977]: https://doi.org/10.21236/adb029224
 [research_armyaviationboardfortruckeral_1957]: https://doi.org/10.21236/ad0134995
+[research_arnault_dandois_2016]: https://doi.org/10.1016/j.compfluid.2016.06.006
 [research_arnold_1942]: https://doi.org/10.2514/8.10949
 [research_arslan_carlson_1996]: https://doi.org/10.2514/3.46925
 [research_artisjr_1975]: https://doi.org/10.21236/adb004715
 [research_asai_2022]: https://doi.org/10.52843/cassyni.pd9g9h
 [research_asaro_cavaliere_2023]: https://doi.org/10.2514/6.2023-1946
 [research_ascani_1974]: https://doi.org/10.21236/ada002850
+[research_ashenberg_weihs_1984]: https://doi.org/10.2514/3.56733
 [research_ashertroya_willliamstimothyl_2013]: https://ntrs.nasa.gov/citations/20140010193
+[research_ashill_1970]: https://doi.org/10.1017/s0001925900005400
 [research_ashleyh_1979]: https://ntrs.nasa.gov/citations/19790045006
 [research_assessment_of_2007]: https://doi.org/10.17226/11839
 [research_athar_patki_2025]: https://doi.org/10.2139/ssrn.5197550
@@ -5654,9 +6423,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_avin_raveh_2022]: https://doi.org/10.2514/1.j060621
 [research_awes_carbonneau_2021]: https://doi.org/10.1115/1.0002414v
 [research_awescheynis]: https://doi.org/10.70675/13299cdezf840z4441zbf36zd2c14cfee8b5
+[research_axelsonjohna_crownjconrad_1948]: https://ntrs.nasa.gov/citations/19930085834
 [research_axten_coder_2026]: https://doi.org/10.2514/6.2026-4163
 [research_ayala_parenteau_2026]: https://doi.org/10.2514/6.2026-2114
 [research_ayar_2025]: https://doi.org/10.1007/978-3-032-00618-9_5
+[research_ayerstg_1972]: https://ntrs.nasa.gov/citations/19720041916
+[research_ayerstg_1973]: https://ntrs.nasa.gov/citations/19830002758
 [research_ayerstg_hallissyjb_1981]: https://ntrs.nasa.gov/citations/19810023573
 [research_azevedo_1987]: https://doi.org/10.2514/6.1987-708
 [research_azizalaoui]: https://doi.org/10.70675/73504d22zf353z4d23za723z849fb7f409c4
@@ -5668,17 +6440,23 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_bae_lee_2002]: https://doi.org/10.1115/imece2002-33066
 [research_bae_seigler_2005]: https://doi.org/10.2514/1.4397
 [research_bae_yang_2002]: https://doi.org/10.2514/2.2984
+[research_baerstcf_heldenbrandrw_1981]: https://ntrs.nasa.gov/citations/19820016326
 [research_bagwill_selberg_1996]: https://doi.org/10.2514/6.1996-2373
 [research_bagwill_selberg_1997]: https://doi.org/10.2514/6.1997-37
+[research_bahamondejacome_elham_2017]: https://doi.org/10.2514/1.c034050
+[research_bahiamonteiro_gray_2023]: https://doi.org/10.2514/6.2023-0728
 [research_bahrchristopherj_hutchesonflorencev_2016]: https://ntrs.nasa.gov/citations/20160009101
 [research_bahrchristopherj_thomasrussellh_2014]: https://ntrs.nasa.gov/citations/20140007355
 [research_bai_mingqiang_2014]: https://doi.org/10.5139/ijass.2014.15.4.383
 [research_bai_zhang_2014]: https://doi.org/10.1109/chicc.2014.6896634
+[research_baigang_2024]: https://doi.org/10.1016/j.ast.2024.109759
+[research_bainbridge_bacharoudis_2019]: https://doi.org/10.4271/2019-01-1884
 [research_bainsla_singari_2021]: https://doi.org/10.4271/2021-01-0040
 [research_bakalyarjohna_juttechristine_2012]: https://ntrs.nasa.gov/citations/20140006952
 [research_baker_1974]: https://doi.org/10.21236/ada036487
 [research_baker_mendoza_1999]: https://doi.org/10.2514/6.1999-1217
 [research_bakerdonaldj_fudgejack_2003]: https://ntrs.nasa.gov/citations/20040085785
+[research_bakhlemilinda_2000]: https://ntrs.nasa.gov/citations/20050192416
 [research_bakhtiarinejad_modarres_2017]: https://doi.org/10.1115/detc2017-67289
 [research_balabanov_grossman_1998]: https://doi.org/10.2514/6.1998-4804
 [research_balajishankarvenkatachari_pedroparedes_2020]: https://ntrs.nasa.gov/citations/20200002924
@@ -5687,8 +6465,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_balajivenkatachari_pedroparedes_2021]: https://ntrs.nasa.gov/citations/20205011051
 [research_balakrishnan_tuffaha_2014]: https://doi.org/10.1016/j.jfranklin.2014.04.010
 [research_balas_seiler_2011]: https://doi.org/10.2514/6.2011-6290
+[research_balatti_ellis_2023]: https://doi.org/10.2514/6.2023-2567
 [research_balatti_khodaparast_2023]: https://doi.org/10.1016/j.jfluidstructs.2023.103892
 [research_balducci_adams_1964]: https://doi.org/10.21236/ad0605841
+[research_balowiii_guglielmo_1993]: https://doi.org/10.2514/6.1993-3952
 [research_balunov_solyaev_2023]: https://doi.org/10.34759/trd-2023-129-04
 [research_banavara_dimitrov_2014]: https://doi.org/10.1007/978-3-319-03158-3_37
 [research_bandopadhyay_jagdeep_2022]: https://doi.org/10.1108/aeat-02-2021-0045
@@ -5702,6 +6482,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_bardon_massol_2025]: https://doi.org/10.1016/j.rser.2024.115279
 [research_barklage_romer_2022]: https://doi.org/10.2514/6.2022-2452
 [research_barnaby_1955]: https://doi.org/10.1016/0016-0032(55)90695-5
+[research_barnes_barnes_1997]: https://doi.org/10.2514/6.1997-5559
 [research_barnes_mccoubrey_1976]: https://doi.org/10.4050/sm_rotor_1976-2050
 [research_barnes_og_1965]: https://doi.org/10.21236/ad0654783
 [research_barnes_visbal_2013]: https://doi.org/10.2514/6.2013-3179
@@ -5723,6 +6504,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_barth_schneider_2002]: https://doi.org/10.1007/978-1-4471-0675-3_24
 [research_barthelemy_bergen_1988]: https://doi.org/10.2514/6.1988-2301
 [research_barthelemy_bergen_1989]: https://doi.org/10.2514/3.45829
+[research_barthelemyjfm_coenpg_1991]: https://ntrs.nasa.gov/citations/19910013822
+[research_barthelemyjfm_coenpg_1992]: https://ntrs.nasa.gov/citations/19920013987
+[research_bartlettdw_1977]: https://ntrs.nasa.gov/citations/19830002800
 [research_barton]: https://doi.org/10.15368/theses.2019.144
 [research_barzgaran_quenzer_2021]: https://doi.org/10.2514/6.2021-0500
 [research_batina_yang_1985]: https://doi.org/10.2514/3.45137
@@ -5769,6 +6553,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_bennettrobertm_batinajohnt_1989]: https://ntrs.nasa.gov/citations/19900046299
 [research_bennettrobertm_batinajohnt_1989_b]: https://ntrs.nasa.gov/citations/19890062697
 [research_bensimon_shoham_2017]: https://doi.org/10.12783/shm2017/13857
+[research_benton_chang_2009]: https://doi.org/10.4050/vfs-f65-000264
 [research_beran_hur_2005]: https://doi.org/10.2514/6.2005-1944
 [research_beran_lindsley_2009]: https://doi.org/10.21236/ada494780
 [research_beran_lucia_2004]: https://doi.org/10.1016/j.jfluidstructs.2004.04.002
@@ -5781,6 +6566,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_bergero_gosnell_2022]: https://doi.org/10.21203/rs.3.rs-1871023/v1
 [research_bergero_gosnell_2023]: https://doi.org/10.1038/s41893-022-01046-9
 [research_bergman_vakakis_2011]: https://doi.org/10.21236/ada565204
+[research_bergmann_hummel_2001]: https://doi.org/10.2514/6.2001-116
 [research_bernasconi_kharshiduzzaman_2015]: https://doi.org/10.1080/00218464.2015.1043005
 [research_bernini_minardo_2008]: https://doi.org/10.1142/9789812833532_0085
 [research_berns_zhukov_2026]: https://doi.org/10.31772/2712-8970-2026-27-2-289-301
@@ -5792,7 +6578,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_bertsch_wolters_2018]: https://doi.org/10.2514/6.2018-0264
 [research_bertsch_wolters_2019]: https://doi.org/10.2514/1.c034935
 [research_beschorner_kriewall_2025]: https://doi.org/10.2514/1.c038220
+[research_beyer_cavaliere_2023]: https://doi.org/10.2514/6.2023-4452
 [research_beyer_steen_2024]: https://doi.org/10.2514/1.g007984
+[research_bhasin_chen_2012]: https://doi.org/10.2514/6.2012-1791
 [research_bhat_2018]: https://doi.org/10.1201/9781315370613-11
 [research_bhatia_flutter_2019]: https://doi.org/10.2514/6.2019-0217
 [research_bhatia_gur_2010]: https://doi.org/10.2514/6.2010-9077
@@ -5801,6 +6589,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_bhatia_kapania_2012]: https://doi.org/10.2514/1.c031556
 [research_bhatiakg_nagarajaks_1984]: https://ntrs.nasa.gov/citations/19840052120
 [research_bhatiakg_nagarajaks_1984_b]: https://ntrs.nasa.gov/citations/19850004960
+[research_bhowmick_palanivel_2025]: https://doi.org/10.2514/6.2025-0254
 [research_bhuwal_liu_2025]: https://doi.org/10.2514/6.2025-3658
 [research_bi_xie_2017]: https://doi.org/10.2514/6.2017-1349
 [research_bi_xie_2017_b]: https://doi.org/10.1016/j.cja.2016.12.028
@@ -5811,6 +6600,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_biggi_abdelnour_2024]: https://doi.org/10.2514/6.2024-1491
 [research_bindolino_ghiringhelli_2010]: https://doi.org/10.2514/1.41552
 [research_bing_lei_2015]: https://doi.org/10.1016/j.proeng.2014.12.683
+[research_birch_lee_2004]: https://doi.org/10.2514/1.2707
 [research_biss_2012]: https://doi.org/10.21236/ada559372
 [research_biswas_2020]: https://doi.org/10.1007/s11220-020-00298-z
 [research_black_parry]: https://doi.org/10.5089/9798400290244.066.a001
@@ -5855,29 +6645,40 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_boo_mansor_2015]: https://doi.org/10.2514/6.2015-2250
 [research_boozer_vantooren_2017]: https://doi.org/10.2514/6.2017-0128
 [research_borer_cox_2019]: https://doi.org/10.2514/6.2019-2855
+[research_borisova_silantiev_2022]: https://doi.org/10.1134/s086986432203009x
 [research_borland_rizzetta_1981]: https://doi.org/10.2514/6.1981-608
 [research_boswinklerwjr_smithsliii_1958]: https://ntrs.nasa.gov/citations/19660027826
 [research_bottai_campbell_2022]: https://doi.org/10.2514/6.2022-2537
 [research_bourdin_2001]: https://doi.org/10.4271/2001-01-2978
 [research_bourisli_hamadeh_2020]: https://doi.org/10.2514/6.2020-1297
 [research_bowen_kamliyajawahar_2024]: https://doi.org/10.1016/j.ast.2024.109084
+[research_bowersalbionh_2007]: https://ntrs.nasa.gov/citations/20070035040
+[research_bowersalbionh_2015]: https://ntrs.nasa.gov/citations/20150009297
+[research_bowersalbionh_2018]: https://ntrs.nasa.gov/citations/20180006672
+[research_bowersalbionh_murillooscarj_2016]: https://ntrs.nasa.gov/citations/20160003578
 [research_boyd_1977]: https://doi.org/10.21236/ada053640
+[research_boydjw_phelpser_1957]: https://ntrs.nasa.gov/citations/19660010456
 [research_boyle_2022]: https://doi.org/10.1115/gt2022-82669
 [research_bozzaotre_2026]: https://doi.org/10.21741/9781644904251-98
-[research_bradleymartyk_droneychristopherk_2011]: https://ntrs.nasa.gov/citations/20110011321
 [research_bradleymartyk_droneychristopherk_2012]: https://ntrs.nasa.gov/citations/20120009038
 [research_bradleymartyk_droneychristopherk_2015]: https://ntrs.nasa.gov/citations/20150017039
 [research_brady_maier_1954]: https://doi.org/10.21236/ad0055205
 [research_bragg_gregorek_1989]: https://doi.org/10.2514/6.1989-2049
+[research_braggmb_khodadousta_1989]: https://ntrs.nasa.gov/citations/19890038189
 [research_bragin_2018]: https://doi.org/10.1615/tsagiscij.2018029594
 [research_bramsiepe_klimmek_2022]: https://doi.org/10.1007/s13272-022-00596-0
 [research_brandon_foster_2004]: https://doi.org/10.2514/6.2004-5273
+[research_brandonjaym_shahgautamh_1988]: https://ntrs.nasa.gov/citations/19880063353
 [research_brandt_bons_2024]: https://doi.org/10.2514/6.2024-0693
 [research_bras_warwick_2022]: https://doi.org/10.1016/j.ast.2022.107400
+[research_braslowal_alfordwjjr_1972]: https://ntrs.nasa.gov/citations/19720054011
 [research_braslowal_fischermc_1985]: https://ntrs.nasa.gov/citations/19860005800
 [research_braune_hebler_2018]: https://doi.org/10.2514/6.2018-3641
 [research_bravo_bras_2026]: https://doi.org/10.1051/matecconf/202642201007
 [research_breitbachej_1979]: https://ntrs.nasa.gov/citations/19790018907
+[research_breitenstein_muller_2023]: https://doi.org/10.2514/6.2023-3953
+[research_breitenstein_muller_2024]: https://doi.org/10.2514/1.c037648
+[research_breitenstein_radespiel_2021]: https://doi.org/10.1017/aer.2021.116
 [research_breitsamter_2005]: https://doi.org/10.2514/1.8174
 [research_brendel_sulaeman_1994]: https://doi.org/10.2514/6.1994-1890
 [research_brennan_mcdaniel_1994]: https://doi.org/10.21236/ada284253
@@ -5912,6 +6713,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_brown_1989]: https://doi.org/10.2514/6.1989-2112
 [research_brown_2012]: https://doi.org/10.21236/ada569074
 [research_brown_mcgowan_2022]: https://doi.org/10.2514/1.j061845
+[research_brown_timmerman_1991]: https://doi.org/10.2514/6.1991-3167
 [research_brown_vos_2018]: https://doi.org/10.2514/6.2018-0522
 [research_browne_maldonado_2024]: https://doi.org/10.2514/6.2024-0065
 [research_browne_maldonado_2025]: https://doi.org/10.2514/1.c037981
@@ -5925,6 +6727,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_bruni_cestino_2014]: https://doi.org/10.1115/imece2014-38851
 [research_bryson_rumpfkeil_2016]: https://doi.org/10.2514/6.2016-0294
 [research_buch_georgem_2010]: https://doi.org/10.21236/ada526601
+[research_buchnik_karpel_2014]: https://doi.org/10.2514/6.2014-0680
 [research_buddhamatya_miranda_2026]: https://doi.org/10.2514/6.2026-2116
 [research_buffet_2024]: https://doi.org/10.2514/6.2024-4056
 [research_buffington_1999]: https://doi.org/10.21236/ada375713
@@ -5947,16 +6750,19 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_butler_hansson_1999]: https://doi.org/10.2514/2.2554
 [research_butler_lillico_1995]: https://doi.org/10.2514/6.1995-1223
 [research_butler_lillico_1998]: https://doi.org/10.2514/6.1998-4857
+[research_butler_lillico_1999]: https://doi.org/10.1017/s0001924000064617
 [research_butt_bhatia_2012]: https://doi.org/10.2514/6.2012-1794
 [research_butter_pausder_1996]: https://doi.org/10.4050/vfs-f52-1152
 [research_buvarp_leijon_2024]: https://doi.org/10.2514/6.2024-4183
 [research_byrdsongta_1977]: https://ntrs.nasa.gov/citations/19770010053
+[research_byrdsongta_brookscwjr_1983]: https://ntrs.nasa.gov/citations/19830020905
 [research_byreddy_grandhi_2003]: https://doi.org/10.21236/ada417124
 [research_byun_guruswamy_1996]: https://doi.org/10.2514/6.1996-1389
 [research_byun_guruswamy_1998]: https://doi.org/10.2514/2.2297
 [research_byunchansup_1995]: https://ntrs.nasa.gov/citations/19950020170
 [research_c_yharmin_2018]: https://doi.org/10.14419/ijet.v7i4.13.21355
 [research_cahn_garcia_1971]: https://doi.org/10.2514/3.44233
+[research_cai_rajaram_2022]: https://doi.org/10.31224/2410
 [research_cai_wu_2014]: https://doi.org/10.4028/www.scientific.net/amr.1016.359
 [research_caillaud_winkler_2019]: https://doi.org/10.1007/s12283-019-0307-4
 [research_cakan_sezgen_2026]: https://doi.org/10.1063/5.0341650
@@ -5975,6 +6781,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_candon_tohmuang_2026]: https://doi.org/10.2514/6.2026-1056
 [research_canfield_2014]: https://doi.org/10.21236/ada610546
 [research_canton_burgaud_2016]: https://doi.org/10.2514/6.2016-2360
+[research_cao_fu_2024]: https://doi.org/10.1007/978-981-97-3998-1_113
 [research_cappucciogelsomina_1992]: https://ntrs.nasa.gov/citations/19940028998
 [research_cardoso_suleman_2013]: https://doi.org/10.2514/6.2013-1450
 [research_carljrecine_dahliadvpham]: https://ntrs.nasa.gov/citations/20230006461
@@ -5987,6 +6794,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_carlsson_2003]: https://doi.org/10.2514/6.2003-450
 [research_carlsson_2005]: https://doi.org/10.2514/1.5440
 [research_carlsson_kuttenkeuler_2003]: https://doi.org/10.2514/2.3079
+[research_carmelmelvinm_1953]: https://ntrs.nasa.gov/citations/19930087471
+[research_carmichaelbh_1979]: https://ntrs.nasa.gov/citations/19790017853
 [research_carneykelly_pereiramichael_2013]: https://ntrs.nasa.gov/citations/20140011431
 [research_carpenter_lucey_2001]: https://doi.org/10.2514/2.2790
 [research_carpenter_solomon_2018]: https://doi.org/10.2514/6.2018-3809
@@ -6000,6 +6809,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_carroll_weinberg_1967]: https://doi.org/10.21236/ad0823623
 [research_carson_1980]: https://doi.org/10.2514/6.1980-1847
 [research_carter_campbell_2006]: https://doi.org/10.2514/1.22765
+[research_carteraw_1970]: https://ntrs.nasa.gov/citations/19700009363
+[research_cassettimarlowed_rerichardj_1961]: https://ntrs.nasa.gov/citations/19980227081
 [research_castellani_cooper_2016]: https://doi.org/10.2514/6.2016-1573
 [research_castellani_cooper_2016_b]: https://doi.org/10.1155/2016/4805817
 [research_castellani_cooper_2017]: https://doi.org/10.2514/1.c033825
@@ -6011,7 +6822,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_catalano_derosa_2020]: https://doi.org/10.2514/1.c035445
 [research_catalano_diodati_2024]: https://doi.org/10.2514/6.2024-3502
 [research_cavagna_ricci_2008]: https://doi.org/10.2514/6.2008-5911
+[research_cavagna_ricci_2009]: https://doi.org/10.2514/6.2009-2571
 [research_cavagna_ricci_2010]: https://doi.org/10.2514/6.2010-9076
+[research_cavagna_ricci_2011]: https://doi.org/10.2514/1.c031072
 [research_cavalcanti_demattos_2006]: https://doi.org/10.2514/6.2006-7022
 [research_cavalcanti_kolmanovsky_2026]: https://doi.org/10.2514/6.2026-1442
 [research_cavaliere_fezans_2024]: https://doi.org/10.2514/1.g007762
@@ -6034,6 +6847,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_cesnik_senatore_2012]: https://doi.org/10.2514/1.j051392
 [research_cesnik_su_2005]: https://doi.org/10.2514/6.2005-2169
 [research_cesnik_su_2011]: https://doi.org/10.2514/6.2011-1226
+[research_cfd_analysis_2016]: https://doi.org/10.21275/v5i4.nov162673
 [research_cfd_analysis_of_2015]: https://doi.org/10.15623/ijret.2015.0409047
 [research_chai_song_2025]: https://doi.org/10.1016/j.ymssp.2025.112360
 [research_chajec_2019]: https://doi.org/10.1108/aeat-03-2018-0102
@@ -6044,6 +6858,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_chambersmarkc_ardemamarkd_1996]: https://ntrs.nasa.gov/citations/19960025262
 [research_chan_sun_2024]: https://doi.org/10.2514/6.2024-3750
 [research_chan_sun_2024_b]: https://doi.org/10.2514/6.2024-3989
+[research_chandrasekhara_1994]: https://doi.org/10.21236/ada291804
 [research_chandrevila]: https://doi.org/10.70675/d83cfa8bz5f8fz4e1az8e9aze0b59b413f31
 [research_chandrevila_boin_2023]: https://doi.org/10.2514/1.c037052
 [research_chang_hodges_2007]: https://doi.org/10.2514/1.30733
@@ -6074,6 +6889,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_chen_fu_2003_b]: https://doi.org/10.2514/2.6878
 [research_chen_gray_2026]: https://doi.org/10.2514/6.2026-1489
 [research_chen_han_2017]: https://doi.org/10.21595/mme.2017.18505
+[research_chen_jia_2014]: https://doi.org/10.1360/132013-185
 [research_chen_katz_2004]: https://doi.org/10.2514/6.2004-38
 [research_chen_khalid_2001]: https://doi.org/10.2514/6.2001-2485
 [research_chen_li_2011]: https://doi.org/10.1142/s0219876211002435
@@ -6086,9 +6902,11 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_chen_strelets_2023]: https://doi.org/10.1051/e3sconf/202344606003
 [research_chen_sun_2013]: https://doi.org/10.2322/tjsass.56.8
 [research_chen_tang_2017]: https://doi.org/10.1177/0954410017746199
+[research_chen_ulker_2009]: https://doi.org/10.2514/1.42489
 [research_chen_wang_2024]: https://doi.org/10.21203/rs.3.rs-4185963/v1
 [research_chen_wang_2026]: https://doi.org/10.2139/ssrn.6110070
 [research_chen_wang_2026_b]: https://doi.org/10.1016/j.ast.2026.112456
+[research_chen_wickramasinghe_2006]: https://doi.org/10.1017/s000192400001318x
 [research_chen_wu_2010]: https://doi.org/10.1109/icicip.2010.5564227
 [research_chen_xia_2026]: https://doi.org/10.2139/ssrn.6438825
 [research_chen_xie_2025]: https://doi.org/10.1007/978-981-95-3025-0_9
@@ -6101,7 +6919,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_chen_zuo_2012]: https://doi.org/10.1155/2012/152123
 [research_cheng_1982]: https://doi.org/10.1016/b978-0-12-493280-7.50010-3
 [research_cheng_1982_b]: https://doi.org/10.1007/978-3-662-12610-3_23
-[research_cheng_2009]: https://doi.org/10.1017/s1727719100002938
+[research_cheng_2009]: https://doi.org/10.21236/ada606693
+[research_cheng_2009_b]: https://doi.org/10.1017/s1727719100002938
 [research_cheng_cea_2023]: https://doi.org/10.2514/6.2023-2073
 [research_cheng_zhang_2026]: https://doi.org/10.1016/j.rser.2026.117291
 [research_chenhh_changkc_1997]: https://ntrs.nasa.gov/citations/19980003841
@@ -6136,6 +6955,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_christhilfdavidm_pototzkyanthonys_2010]: https://ntrs.nasa.gov/citations/20100030591
 [research_christinevjutte_brianhmason]: https://ntrs.nasa.gov/citations/20230018256
 [research_christisongray_martins_2026]: https://doi.org/10.2514/6.2026-1010
+[research_christopherforte_nhannguyen]: https://ntrs.nasa.gov/citations/20230018068
 [research_christopherjforte_nhantnguyen]: https://ntrs.nasa.gov/citations/20250011567
 [research_christopherjforte_nhantnguyen_b]: https://ntrs.nasa.gov/citations/20250011499
 [research_christopherjforte_nhantnguyen_c]: https://ntrs.nasa.gov/citations/20250011465
@@ -6155,6 +6975,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_chwalowski_massey_2022]: https://doi.org/10.2514/6.2022-1347
 [research_chwalowskipawel_florancejenniferp_2011]: https://ntrs.nasa.gov/citations/20110015415
 [research_chwalowskipawel_heegjennifer_2017]: https://ntrs.nasa.gov/citations/20170000734
+[research_ciniglio_manimala_2003]: https://doi.org/10.4050/vfs-f59-000140
+[research_cipolla_abusalem_2020]: https://doi.org/10.2514/6.2020-0267
 [research_cizmas_strganac_2010]: https://doi.org/10.21236/ada563189
 [research_clark_1980]: https://doi.org/10.4050/vfs-f36-035
 [research_clark_kim_1999]: https://doi.org/10.21236/ada381315
@@ -6176,8 +6998,11 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_coder_2023]: https://doi.org/10.2514/6.2023-2452
 [research_coder_2025]: https://doi.org/10.21203/rs.3.rs-6389577/v1
 [research_coder_2026]: https://doi.org/10.1007/s13272-026-00956-0
+[research_coepljr_westonrp_1978]: https://ntrs.nasa.gov/citations/19780025104
+[research_coepljr_westonrp_1979]: https://ntrs.nasa.gov/citations/19790017849
 [research_coetzee_lowenberg_2023]: https://doi.org/10.2514/6.2023-1311
 [research_coggin_kapania_2014]: https://doi.org/10.2514/6.2014-0335
+[research_cohan_hirsh_1966]: https://doi.org/10.21236/ad0638366
 [research_colamartino_cavalera_2024]: https://doi.org/10.4050/f-0080-2024-1222
 [research_colas_roberts_2018]: https://doi.org/10.2514/6.2018-3029
 [research_cole_1986]: https://doi.org/10.2514/6.1986-9
@@ -6198,8 +7023,11 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_colmenaresquintero_brink_2010]: https://doi.org/10.1115/1.4000135
 [research_colmenaresquintero_goezsanchez_2018]: https://doi.org/10.1080/23311916.2018.1429984
 [research_comair_reduces_2008]: https://doi.org/10.1108/aeat.2008.12780eab.007
+[research_comparison_of_1994]: https://doi.org/10.2514/6.1994-4379
+[research_connerdwilliam_mitchellmeadehjr_1951]: https://ntrs.nasa.gov/citations/19930086530
 [research_cook_decastro_2004]: https://doi.org/10.1017/s0001924000005029
 [research_cook_palacios_2013]: https://doi.org/10.2514/1.j051697
+[research_cooneytv_schottrusselll_1956]: https://ntrs.nasa.gov/citations/19930084592
 [research_cooper_2018]: https://doi.org/10.2514/6.2018-1949
 [research_cooper_2023]: https://doi.org/10.52843/cassyni.czz9tq
 [research_corelligrappadelli_sudhi_2022]: https://doi.org/10.2514/6.2022-3770
@@ -6216,6 +7044,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_crean_1937]: https://doi.org/10.1108/eb030151
 [research_crittenden_weishaar_1978]: https://doi.org/10.2514/3.58383
 [research_crittenden_weisshaar_1977]: https://doi.org/10.2514/6.1977-454
+[research_crossley_skillen_2011]: https://doi.org/10.2514/1.c031180
 [research_crouch_garbaruk_2018]: https://doi.org/10.2514/6.2018-3229
 [research_crouch_sutanto_2010]: https://doi.org/10.2514/6.2010-1302
 [research_crowdermarianne_decallafonraymond_2002]: https://ntrs.nasa.gov/citations/20020076391
@@ -6230,6 +7059,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_cunninghamherbertj_bennettrobertm_1989]: https://ntrs.nasa.gov/citations/19890009886
 [research_cunninghamjr_denboer_1992]: https://doi.org/10.2514/6.1992-2125
 [research_cunnington_parmley_1980]: https://doi.org/10.4271/801155
+[research_curpanaru_pastor_2025]: https://doi.org/10.2514/6.2025-3739
 [research_currao_jiang_2026]: https://doi.org/10.1017/flo.2026.10056
 [research_currao_yeh_2026]: https://doi.org/10.2139/ssrn.6450319
 [research_dacostacardoso]: https://doi.org/10.70675/881d98a0zeffaz49b6zac58z771432ea2f76
@@ -6241,6 +7071,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_daguanno_schrijer_2021]: https://doi.org/10.1007/s00348-021-03319-z
 [research_daguanno_schrijer_2022]: https://doi.org/10.2514/1.j061974
 [research_dahliadvpham_jeffreyvbowles]: https://ntrs.nasa.gov/citations/20230006542
+[research_dai_hu_2025]: https://doi.org/10.1016/j.cja.2024.09.021
 [research_dai_wu_2011]: https://doi.org/10.1007/s11431-011-4358-4
 [research_dai_yang_2017]: https://doi.org/10.1016/j.conengprac.2016.11.013
 [research_dakka_johnson_2019]: https://doi.org/10.15394/ijaaa.2019.1411
@@ -6263,6 +7094,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_das_carrese_2020]: https://doi.org/10.2514/6.2020-1988
 [research_das_marzocca_2022]: https://doi.org/10.2514/6.2022-1956
 [research_das_venkatraman_2021]: https://doi.org/10.2514/6.2021-0730
+[research_das_wichmann_2004]: https://doi.org/10.1016/j.ast.2004.05.001
 [research_dasgupta_som_2024]: https://doi.org/10.1115/gt2024-126789
 [research_dasilvadias_morales_2025]: https://doi.org/10.26678/abcm.cobem2025.cob2025-2692
 [research_dauria_davis_2024]: https://doi.org/10.2514/6.2024-4544
@@ -6276,15 +7108,19 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_deangelisvm_1981]: https://ntrs.nasa.gov/citations/19820030846
 [research_deangelisvm_1982]: https://ntrs.nasa.gov/citations/19830031949
 [research_deangelisvm_monaghanrc_1977]: https://ntrs.nasa.gov/citations/19770025136
+[research_decarvalhobertoli_adabo_2016]: https://doi.org/10.4271/2016-36-0437
 [research_deck_2004]: https://doi.org/10.2514/6.2004-5378
 [research_deck_2005]: https://doi.org/10.2514/1.9885
 [research_deerekarena_vikenjefferyk_2018]: https://ntrs.nasa.gov/citations/20180003196
 [research_degregori_kim_2021]: https://doi.org/10.1063/5.0036821
 [research_dehaan_1990]: https://doi.org/10.2514/6.1990-3062
 [research_dehennis_2025]: https://doi.org/10.4050/f-0081-2025-0228
+[research_dehpanah_nejat_2015]: https://doi.org/10.1016/j.ast.2015.02.015
+[research_deicing_system_2007]: https://ntrs.nasa.gov/citations/20080003912
 [research_delapena_2026]: https://doi.org/10.2139/ssrn.7511406
 [research_delapentildea_2024]: https://doi.org/10.2139/ssrn.5042237
 [research_delavenne_barriety_2020]: https://doi.org/10.2514/6.2020-2662
+[research_delavenne_benard_2022]: https://doi.org/10.1088/1757-899x/1226/1/012009
 [research_delgadoregis_mattos_2004]: https://doi.org/10.2514/6.2004-5192
 [research_demandel_2024]: https://doi.org/10.31224/3878
 [research_demasi_2007]: https://doi.org/10.2514/1.21884
@@ -6295,8 +7131,16 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_demasi_livne_2005]: https://doi.org/10.2514/6.2005-2172
 [research_demasi_livne_2007]: https://doi.org/10.2514/6.2007-2052
 [research_demasi_livne_2008]: https://doi.org/10.2514/6.2008-1818
+[research_demasi_monegato_2015]: https://doi.org/10.2514/6.2015-0697
 [research_demasi_monegato_2016]: https://doi.org/10.2514/6.2016-0236
+[research_demasi_monegato_2016_b]: https://doi.org/10.1007/978-3-319-45680-5_8
+[research_demasi_monegato_2017]: https://doi.org/10.2514/1.j055652
 [research_demasi_monegato_2018]: https://doi.org/10.2514/6.2018-1790
+[research_demasi_monegato_2019]: https://doi.org/10.2514/6.2019-2301
+[research_demasi_monegato_2022]: https://doi.org/10.1007/s42496-022-00110-z
+[research_demasi_monegato_2022_b]: https://doi.org/10.1007/s42496-022-00114-9
+[research_demelefreda_1958]: https://ntrs.nasa.gov/citations/19930090339
+[research_demelefreda_powellkharmon_1958]: https://ntrs.nasa.gov/citations/19930085266
 [research_demelo_bussamra_2024]: https://doi.org/10.21203/rs.3.rs-3761279/v1
 [research_demenkov_goman_2009]: https://doi.org/10.3182/20090622-3-uk-3004.00066
 [research_deneke_carter_2026]: https://doi.org/10.2514/6.2026-0884
@@ -6305,6 +7149,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_denieul_bordeneuve_2018]: https://doi.org/10.2514/1.c034268
 [research_denisonmarie_garaianirban_2019]: https://ntrs.nasa.gov/citations/20190027028
 [research_denney_tai_2012]: https://doi.org/10.2514/6.2012-548
+[research_denniswbartlett_richardjre_1972]: https://ntrs.nasa.gov/citations/19780016135
 [research_denton_xu_2002]: https://doi.org/10.1115/gt2002-30327
 [research_desalvo_gissen_2016]: https://doi.org/10.2514/6.2016-3306
 [research_desalvo_whalen_2014]: https://doi.org/10.2514/6.2014-0198
@@ -6313,12 +7158,19 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_desilva_carmichael_1978]: https://doi.org/10.2514/6.1978-99
 [research_deslich_mchugh_2024]: https://doi.org/10.1115/ssdm2024-121652
 [research_desouza_ciloni_2021]: https://doi.org/10.2514/6.2021-2533
+[research_devertimothyp_duffykirstenp_2015]: https://ntrs.nasa.gov/citations/20150000747
 [research_devisser_1999]: https://doi.org/10.2514/6.1999-1258
 [research_dewart_jr_1958]: https://doi.org/10.21236/ad0155543
+[research_deyoungj_1979]: https://ntrs.nasa.gov/citations/19790015752
 [research_deyoungj_1980]: https://ntrs.nasa.gov/citations/19810003514
+[research_deyoungjohn_1947]: https://ntrs.nasa.gov/citations/19930082544
+[research_deyoungjohn_1951]: https://ntrs.nasa.gov/citations/19930092101
+[research_deyoungjohn_1952]: https://ntrs.nasa.gov/citations/19930092116
 [research_dias_melo_2025]: https://doi.org/10.2514/6.2025-0466
 [research_dibenedetto_derisi_2026]: https://doi.org/10.1016/j.prostr.2025.12.229
 [research_dibley_allen_2005]: https://doi.org/10.2514/6.2005-6314
+[research_dickeyrobertr_1959]: https://ntrs.nasa.gov/citations/19980231999
+[research_diehlwalters_1922]: https://ntrs.nasa.gov/citations/19930080914
 [research_dietz_mai_2007]: https://doi.org/10.2514/6.2007-2018
 [research_dietz_mai_2008]: https://doi.org/10.2514/1.31363
 [research_dietz_scherer_2003]: https://doi.org/10.2514/6.2003-5418
@@ -6342,16 +7194,19 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_dobrzynski_nagakura_1998]: https://doi.org/10.2514/6.1998-2337
 [research_dodbele_1990]: https://doi.org/10.2514/6.1990-303
 [research_dodbele_1992]: https://doi.org/10.2514/3.46167
+[research_dodbeless_plotkina_1985]: https://ntrs.nasa.gov/citations/19850058554
+[research_dodbeless_plotkina_1987]: https://ntrs.nasa.gov/citations/19870054409
 [research_doddswj_gleasoncc_1978]: https://ntrs.nasa.gov/citations/19780024154
 [research_doelling_1961]: https://doi.org/10.21236/ad0404785
 [research_doelling_bolt_1961]: https://doi.org/10.21236/ad0403701
 [research_doelling_bolt_1961_b]: https://doi.org/10.21236/ad0403730
 [research_doggett_soistmann_1992]: https://doi.org/10.2514/3.46155
-[research_doggettjr_soistmann_1989]: https://doi.org/10.2514/6.1989-1325
 [research_doggettrobertvjr_1989]: https://ntrs.nasa.gov/citations/19890019953
 [research_doggettrobertvjr_soistmanndavidl_1989]: https://ntrs.nasa.gov/citations/19900004889
+[research_doggettrobertvjr_soistmanndavidl_1989_b]: https://ntrs.nasa.gov/citations/19890010723
 [research_doggettrvjr_cunninghamhj_1976]: https://ntrs.nasa.gov/citations/19770013564
 [research_doggettrvjr_morganhg_1959]: https://ntrs.nasa.gov/citations/19660024036
+[research_doggettrvjr_raineyag_1968]: https://ntrs.nasa.gov/citations/19680027593
 [research_doggettrvjr_rickettsra_1980]: https://ntrs.nasa.gov/citations/19810006882
 [research_doggettrvjr_rickettsrh_1977]: https://ntrs.nasa.gov/citations/19770042940
 [research_dollyhighsm_montawj_1977]: https://ntrs.nasa.gov/citations/19780008057
@@ -6380,6 +7235,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_drake_solomon_2010]: https://doi.org/10.2514/6.2010-4571
 [research_drewmichaelc_hashemikelleye_2019]: https://ntrs.nasa.gov/citations/20190002252
 [research_drewmichaelc_hashemikelleye_2020]: https://ntrs.nasa.gov/citations/20200001382
+[research_driverc_1974]: https://ntrs.nasa.gov/citations/19740055994
+[research_drivercornelius_1958]: https://ntrs.nasa.gov/citations/19980232000
 [research_duan_kolmanovsky_2021]: https://doi.org/10.2514/6.2021-0501
 [research_duan_zhang_2018]: https://doi.org/10.1007/s42401-018-0009-9
 [research_duanl_choudharim_2014]: https://ntrs.nasa.gov/citations/20150001525
@@ -6389,6 +7246,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_duessler_mylvaganam_2023]: https://doi.org/10.2514/6.2023-2571
 [research_duessler_mylvaganam_2024]: https://doi.org/10.2514/6.2024-0614
 [research_duffykirstenp_provenzaandrewj_2018]: https://ntrs.nasa.gov/citations/20180002212
+[research_duganduanew_1952]: https://ntrs.nasa.gov/citations/19930087008
 [research_dugundji_dowell_1962]: https://doi.org/10.21236/ad0278235
 [research_dumont_reynolds_2011]: https://doi.org/10.2514/6.2011-6886
 [research_durhammichaelh_colestanleyr_1988]: https://ntrs.nasa.gov/citations/19880016060
@@ -6405,6 +7263,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_dykins_1969]: https://doi.org/10.21236/ad0694954
 [research_dym_williams_2015]: https://doi.org/10.1177/0306419015573908
 [research_dysonrodger_2018]: https://ntrs.nasa.gov/citations/20180006123
+[research_dysonrodger_taraucalin_2021]: https://ntrs.nasa.gov/citations/20220005795
 [research_dysonrodgerw_2018]: https://ntrs.nasa.gov/citations/20180005342
 [research_earetskinhariton_jgratz]: https://ntrs.nasa.gov/citations/20240000011
 [research_early_2000]: https://doi.org/10.1017/s0001924000064010
@@ -6430,6 +7289,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_elahi_eugeni_2019]: https://doi.org/10.1016/j.actaastro.2018.12.044
 [research_elena_2026]: https://doi.org/10.1007/s42401-026-00535-5
 [research_eleshaky_baysal_1994]: https://doi.org/10.2514/6.1994-160
+[research_elham_bahamondejacome_2016]: https://doi.org/10.2514/6.2016-1660
 [research_elham_larocca_2011]: https://doi.org/10.4271/2011-01-2765
 [research_elham_larocca_2013]: https://doi.org/10.1016/j.ast.2013.01.012
 [research_elham_timmer_2016]: https://doi.org/10.2514/6.2016-0160
@@ -6461,11 +7321,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_essari_2018]: https://doi.org/10.59743/aujas.v3i1.1613
 [research_ethansbeyak_meelanchoudhari]: https://ntrs.nasa.gov/citations/20230016659
 [research_evaluation_of_1978]: https://ntrs.nasa.gov/citations/19790007771
+[research_evaluation_of_1979]: https://ntrs.nasa.gov/citations/19790012872
 [research_evaluation_of_1980]: https://ntrs.nasa.gov/citations/19800022878
 [research_evangelinos_tscharaktschiew_2022]: https://doi.org/10.1108/978-1-80382-787-220221013
 [research_eversman_pitt_1989]: https://doi.org/10.2514/6.1989-1322
 [research_eversman_pitt_1991]: https://doi.org/10.2514/3.46066
 [research_exhaust_emission]: https://doi.org/10.4271/air1312
+[research_experimental_investigation_1972]: https://ntrs.nasa.gov/citations/19780074239
 [research_fabbiane_irisarri_2022]: https://doi.org/10.1007/s13272-022-00615-0
 [research_fagley_seidel_2016]: https://doi.org/10.1016/j.jfluidstructs.2016.07.021
 [research_faisse_vernay_2021]: https://doi.org/10.2514/6.2021-0892
@@ -6488,6 +7350,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_fehrs_helm_2021]: https://doi.org/10.1007/978-3-030-79561-0_16
 [research_fehrs_kaiser_2025]: https://doi.org/10.1007/s13272-025-00856-9
 [research_feisteltw_1985]: https://ntrs.nasa.gov/citations/19860053768
+[research_fejer_1979]: https://doi.org/10.21236/ada065106
 [research_felderjamesl_browngeraldv_2011]: https://ntrs.nasa.gov/citations/20120000856
 [research_felderjamesl_kimhyundae_2009]: https://ntrs.nasa.gov/citations/20130010780
 [research_feldhausen_bell_2021]: https://doi.org/10.2514/6.2021-2029
@@ -6497,7 +7360,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_ferrier_nguyen_2018]: https://doi.org/10.2514/6.2018-0620
 [research_ferris_khorrami_2024]: https://doi.org/10.2514/6.2024-3058
 [research_ferrisjc_1973]: https://ntrs.nasa.gov/citations/19830002757
+[research_ferrisjc_1975]: https://ntrs.nasa.gov/citations/19830002811
 [research_fezans_2017]: https://doi.org/10.1007/978-3-319-65283-2_3
+[research_fezans_joos_2017]: https://doi.org/10.2514/6.2017-3548
 [research_fezans_joos_2019]: https://doi.org/10.1007/s13272-019-00362-9
 [research_fiber_optic_1994]: https://doi.org/10.14359/4579
 [research_fiber_optic_2019]: https://doi.org/10.5772/intechopen.78479
@@ -6509,6 +7374,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_finaishfathi_1992]: https://ntrs.nasa.gov/citations/19930007579
 [research_finger_quitter_2023]: https://doi.org/10.2514/6.2023-3517
 [research_fink_1977]: https://doi.org/10.2514/6.1977-1271
+[research_finkmarvinp_lastingerjamesl_1961]: https://ntrs.nasa.gov/citations/19980231058
 [research_fischer_klug_1989]: https://doi.org/10.2514/6.1989-2580
 [research_fischer_vemuru_1991]: https://doi.org/10.4271/912115
 [research_fischer_wrightjr_1983]: https://doi.org/10.2514/6.1983-2508
@@ -6534,17 +7400,25 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_forte_nguyen_2026_b]: https://doi.org/10.2514/6.2026-1840
 [research_forte_nguyen_2026_c]: https://doi.org/10.2514/6.2026-2895
 [research_forte_nguyen_2026_d]: https://doi.org/10.2514/6.2026-2109
+[research_forte_nguyen_2026_e]: https://doi.org/10.2514/6.2026-1836
 [research_fossati_jones_2024]: https://doi.org/10.2514/6.2024-2332
 [research_foster_1971]: https://doi.org/10.2514/6.1971-96
 [research_foster_1972]: https://doi.org/10.2514/3.58958
+[research_fostergv_1959]: https://ntrs.nasa.gov/citations/19630002675
 [research_foughnerjtjr_bensingerct_1977]: https://ntrs.nasa.gov/citations/19780003061
 [research_fournier_massioni_2022]: https://doi.org/10.2514/1.g006084
+[research_fournier_massioni_2022_b]: https://doi.org/10.2514/6.2022-0285
+[research_fournierpg_1975]: https://ntrs.nasa.gov/citations/19760003956
+[research_fournierpg_goodsonkw_1974]: https://ntrs.nasa.gov/citations/19830002752
 [research_fournierpg_sleemanwcjr_1972]: https://ntrs.nasa.gov/citations/19830002760
+[research_fournierpg_sleemanwcjr_1973]: https://ntrs.nasa.gov/citations/19830002763
 [research_fournierpg_sleemanwcjr_1974]: https://ntrs.nasa.gov/citations/19830002845
 [research_fournis_gaultier_2026]: https://doi.org/10.2514/6.2026-4272
 [research_franciscopena_benjaminpark_2024]: https://ntrs.nasa.gov/citations/20240008449
 [research_francois_cooper_2017]: https://doi.org/10.12989/aas.2017.4.2.093
+[research_frank_joo_2008]: https://doi.org/10.1177/1045389x08096734
 [research_frederickmike_banksdan_2014]: https://ntrs.nasa.gov/citations/20140010358
+[research_frediani_chiarelli_2001]: https://doi.org/10.1007/978-3-540-45359-8_33
 [research_freudingerlawrencec_1989]: https://ntrs.nasa.gov/citations/19900002416
 [research_freudingerlawrencec_kehoemichaelw_1990]: https://ntrs.nasa.gov/citations/19900015819
 [research_friedewald_thormann_2017]: https://doi.org/10.1007/s13272-017-0273-0
@@ -6578,10 +7452,14 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_full_scale_testing_2003_b]: https://doi.org/10.14359/12596
 [research_full_scale_transport_1987]: https://ntrs.nasa.gov/citations/19880000639
 [research_furey_1980]: https://doi.org/10.21236/ada112312
+[research_furlonggchester_fitzpatrickjamese_1947]: https://ntrs.nasa.gov/citations/19930081927
 [research_furstenau_1992]: https://doi.org/10.1117/12.2298041
 [research_fusaro_viola_2021]: https://doi.org/10.3390/aerospace8110331
+[research_gagnon_zingg_2015]: https://doi.org/10.2514/6.2015-0695
 [research_gagnon_zingg_2016]: https://doi.org/10.2514/1.c033592
 [research_gaifullin_2023]: https://doi.org/10.1134/s0015462823600426
+[research_gainerpatricka_aikenwilliamsjr_1959]: https://ntrs.nasa.gov/citations/19980228145
+[research_gainertg_mannmj_1984]: https://ntrs.nasa.gov/citations/19840018599
 [research_galea_blake_2003]: https://doi.org/10.1017/s0001924000013270
 [research_gallman_kroo_1996]: https://doi.org/10.2514/3.46924
 [research_gallman_smith_1993]: https://doi.org/10.2514/3.46432
@@ -6594,11 +7472,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_gangolirao_sharma_2017]: https://doi.org/10.2139/ssrn.3101299
 [research_gangolirao_yin_2014]: https://doi.org/10.1108/aeat-04-2014-0054
 [research_gangsaasd_lyu_1981]: https://ntrs.nasa.gov/citations/19810036140
+[research_gao_cai_2017]: https://doi.org/10.1061/(asce)as.1943-5525.0000685
 [research_gao_liu_2024]: https://doi.org/10.1016/j.ast.2024.109671
 [research_gao_shi_2006]: https://doi.org/10.1016/j.measurement.2005.12.002
 [research_gao_smith_2020]: https://doi.org/10.2514/6.2020-1955
 [research_gao_zhang_2018]: https://doi.org/10.1016/j.ast.2018.03.047
 [research_garbaruk_strelets_2021]: https://doi.org/10.2514/1.j060707
+[research_garcelon_balabanov_1999]: https://doi.org/10.2514/6.1999-1349
 [research_garcia_slingerland_2001]: https://doi.org/10.2514/6.2001-5237
 [research_garg_neves_2026]: https://doi.org/10.2514/6.2026-4178
 [research_garmann_visbal_2012]: https://doi.org/10.2514/6.2012-3277
@@ -6632,6 +7512,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_gernfrankh_naghshinehamirh_2000]: https://ntrs.nasa.gov/citations/20000023179
 [research_gerontakos_lee_2006]: https://doi.org/10.1007/s00348-006-0242-6
 [research_ghalandari_mahariq_2022]: https://doi.org/10.32604/cmc.2022.020884
+[research_ghasemikaram_mazidi_2021]: https://doi.org/10.1142/s021945542250016x
 [research_ghee_taylor_2000]: https://doi.org/10.21236/ada377908
 [research_ghee_taylor_2004]: https://doi.org/10.2514/6.2004-4843
 [research_giacomin_nabarrete_2018]: https://doi.org/10.1007/978-3-319-74642-5_17
@@ -6645,10 +7526,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_giese_reich_1996]: https://doi.org/10.21236/ada399629
 [research_giesing_1970]: https://doi.org/10.2514/6.1970-539
 [research_giesseler_kopf_2012]: https://doi.org/10.3182/20120823-5-nl-3013.00049
+[research_giffordrv_vandamcp_1982]: https://ntrs.nasa.gov/citations/19820057398
 [research_gilbertmichaelg_1989]: https://ntrs.nasa.gov/citations/19890015868
 [research_gilbrook_ma_2023]: https://doi.org/10.2514/6.2023-4428
-[research_giles_1986]: https://doi.org/10.2514/3.45393
 [research_gilesgaryl_1995]: https://ntrs.nasa.gov/citations/19960016182
+[research_gilesgl_1986]: https://ntrs.nasa.gov/citations/19860054099
+[research_gillespiewarrenjr_1956]: https://ntrs.nasa.gov/citations/19930089139
 [research_gillespiewarrenjr_1960]: https://ntrs.nasa.gov/citations/20040046997
 [research_gillette_1977]: https://doi.org/10.2514/6.1977-102
 [research_gilman_burdges_1967]: https://doi.org/10.2514/3.43894
@@ -6660,18 +7543,23 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_glaese_anderson_1999]: https://doi.org/10.21236/ada451505
 [research_glossbb_hendersonwp_1974]: https://ntrs.nasa.gov/citations/19750015487
 [research_gobal_grandhi_2015]: https://doi.org/10.2514/6.2015-0766
+[research_goblerl_1972]: https://ntrs.nasa.gov/citations/19720045289
 [research_goc_agrawal_2023]: https://doi.org/10.2514/6.2023-4338
 [research_godwin_frazier_1964]: https://doi.org/10.21236/ad0613504
+[research_goetzrc_doggettrvjr_1974]: https://ntrs.nasa.gov/citations/19740026253
 [research_goetzrc_stonesiferjc_1961]: https://ntrs.nasa.gov/citations/19660022440
 [research_gogate_pant_1994]: https://doi.org/10.2514/6.1994-4301
+[research_goggin_1992]: https://doi.org/10.2514/6.1992-2126
 [research_goizueta_drachinsky_2021]: https://doi.org/10.2514/6.2021-1711
 [research_goizueta_wynn_2022]: https://doi.org/10.2514/6.2022-1345
+[research_gokcincinar_yucai_2023]: https://ntrs.nasa.gov/citations/20230003923
 [research_goldberg_nalianda_2017]: https://doi.org/10.2514/6.2017-4604
 [research_golla_kennedy_2024]: https://doi.org/10.2514/6.2024-2413
 [research_golshany_strat_2024]: https://doi.org/10.1504/pcfd.2024.10069140
 [research_gonzalez_hosoda_2016]: https://doi.org/10.1016/j.jairtraman.2016.08.006
 [research_gonzalez_ilie_2026]: https://doi.org/10.2514/6.2026-0866
 [research_goodwinsabinea_rajp_1999]: https://ntrs.nasa.gov/citations/19990019862
+[research_goodyearmd_1987]: https://ntrs.nasa.gov/citations/19900000714
 [research_gopalarathnam_selig_2001]: https://doi.org/10.2514/2.2734
 [research_gopkalo_dmytrienko_2026]: https://doi.org/10.1007/s11223-026-00902-9
 [research_goradias_morganhljr_1986]: https://ntrs.nasa.gov/citations/19860064852
@@ -6683,6 +7571,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_govers_sinske_2017]: https://doi.org/10.2514/6.2017-1824
 [research_govers_sinske_2019]: https://doi.org/10.1007/978-3-030-12676-6_10
 [research_govindaraju_davendralingam_2017]: https://doi.org/10.3233/aop-170061
+[research_graberedwinj_1987]: https://ntrs.nasa.gov/citations/19880006423
+[research_grahamdavid_evanswilliamt_1955]: https://ntrs.nasa.gov/citations/19930088639
 [research_grandhi_2005]: https://doi.org/10.21236/ada442871
 [research_grant_mccutcheon_2006]: https://doi.org/10.1016/j.optlaseng.2005.04.002
 [research_grants_gerbeth_2007]: https://doi.org/10.1016/j.jcrysgro.2007.09.002
@@ -6703,10 +7593,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_green_whitesides_1996]: https://doi.org/10.2514/6.1996-2502
 [research_greene_sobieszczanskisobieski_1980]: https://doi.org/10.2514/6.1980-724
 [research_greene_sobieszczanskisobieski_1982]: https://doi.org/10.2514/3.57380
+[research_greenegeorgec_1988]: https://ntrs.nasa.gov/citations/19880054969
+[research_greenegeorgec_1989]: https://ntrs.nasa.gov/citations/19900058441
 [research_greenhalghskott_pastorechristopherm_1993]: https://ntrs.nasa.gov/citations/19940012392
 [research_greenja_1986]: https://ntrs.nasa.gov/citations/19860054140
 [research_gregory_cao_2007]: https://doi.org/10.2514/6.2007-6525
 [research_gregorygzilliac_2026]: https://ntrs.nasa.gov/citations/20260008447
+[research_greitzerem_bonnefoypa_2010]: https://ntrs.nasa.gov/citations/20100042401
 [research_grewe_2020]: https://doi.org/10.4324/9781315572406-2
 [research_gribbin_odohertyjennings_2025]: https://doi.org/10.2514/6.2025-3654
 [research_griffin_haerter_1983]: https://doi.org/10.21236/ada133188
@@ -6734,6 +7627,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_gunasekaran_mukherjee_2016]: https://doi.org/10.2514/6.2016-1779
 [research_gundlac_tetrault_2000]: https://doi.org/10.2514/6.2000-420
 [research_gundlach_tetrault_2000]: https://doi.org/10.2514/2.2724
+[research_gunturu_jain_2025]: https://doi.org/10.1007/978-3-032-00447-5_13
 [research_guo_2007]: https://doi.org/10.1016/j.ast.2007.01.003
 [research_guo_delosmonteros_2015]: https://doi.org/10.3390/aerospace2020135
 [research_guo_li_2015]: https://doi.org/10.18280/ijht.330422
@@ -6760,6 +7654,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_gur_schetz_2010]: https://doi.org/10.2514/6.2010-4813
 [research_gur_schetz_2011]: https://doi.org/10.2514/1.c031171
 [research_gurleyjrjr_ruhlincl_1962]: https://ntrs.nasa.gov/citations/19660025705
+[research_guruswamy_1991]: https://doi.org/10.2514/6.1991-1013
 [research_guruswamy_goorjian_1985]: https://doi.org/10.2514/3.45107
 [research_guruswamy_goorjian_1985_b]: https://doi.org/10.2514/6.1985-690
 [research_guruswamy_goorjian_1986]: https://doi.org/10.2514/3.45342
@@ -6773,6 +7668,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_gustoandika_kismonohadi_2020]: https://doi.org/10.1088/1757-899x/1007/1/012015
 [research_gutierrez_tate_1994]: https://doi.org/10.2514/6.1994-2558
 [research_gutierrezantonio_2025]: https://doi.org/10.1007/978-3-031-83721-0_15
+[research_guynn_2016]: https://ntrs.nasa.gov/citations/20160006027
 [research_guynnmarkd_2011]: https://ntrs.nasa.gov/citations/20110014792
 [research_guynnmarkd_bertonjeffreyj_2011]: https://ntrs.nasa.gov/citations/20110015875
 [research_guynnmarkd_bertonjeffreyj_2013]: https://ntrs.nasa.gov/citations/20140001089
@@ -6787,26 +7683,33 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_haderlie_crossley_2009]: https://doi.org/10.2514/6.2009-6950
 [research_haftka_1977]: https://doi.org/10.2514/3.7400
 [research_hager_eyi_1992]: https://doi.org/10.2514/6.1992-4681
+[research_haghighat_liu_2009]: https://doi.org/10.2514/6.2009-5929
 [research_haghighat_liu_2010]: https://doi.org/10.2514/6.2010-9123
 [research_haghighat_liu_2012]: https://doi.org/10.2514/1.57013
 [research_hah_shin_2012]: https://doi.org/10.1115/1.4006878
-[research_hahn_2012]: https://doi.org/10.2514/6.2012-547
+[research_hahnandrews_2012]: https://ntrs.nasa.gov/citations/20120001455
 [research_hahnedavide_glaablouisj_1999]: https://ntrs.nasa.gov/citations/20000021552
 [research_hajela_chen_1986]: https://doi.org/10.2514/6.1986-2653
 [research_hajj_2004]: https://doi.org/10.21236/ada428596
 [research_hall_lynch_2024]: https://doi.org/10.2514/6.2024-2528
 [research_hall_lynch_2024_b]: https://doi.org/10.2514/6.2024-2528.c1
+[research_hallalbertw_mckayjamesm_1952]: https://ntrs.nasa.gov/citations/19930087023
 [research_halleebuescher_josephwconnolly]: https://ntrs.nasa.gov/citations/20240007306
 [research_hallerwilliam_guynnmark_2012]: https://ntrs.nasa.gov/citations/20150010337
 [research_hallissy_cesnik_2011]: https://doi.org/10.2514/6.2011-1914
 [research_hallissyjb_ayerstg_1977]: https://ntrs.nasa.gov/citations/19770026171
 [research_hallissyjb_harriscd_1974]: https://ntrs.nasa.gov/citations/19830002846
+[research_ham_1985]: https://doi.org/10.4050/vfs-f41-1200
+[research_hamada_kikuchi_2020]: https://doi.org/10.1016/j.ifacol.2020.12.1928
+[research_hamada_saitoh_2019]: https://doi.org/10.1016/j.ifacol.2019.11.125
 [research_hammer_garmann_2021]: https://doi.org/10.2514/6.2021-1089
 [research_hammer_garmann_2021_b]: https://doi.org/10.2514/6.2021-2948
 [research_hammer_olivier_2019]: https://doi.org/10.1117/12.2524708
 [research_hammer_shumway_2026]: https://doi.org/10.2514/1.c038997
 [research_hammerton_su_2018]: https://doi.org/10.2514/6.2018-2213
 [research_hammertonjaredr_suweihua_2018]: https://ntrs.nasa.gov/citations/20180000772
+[research_hammondalexanderd_hayeswilliamcjr_1954]: https://ntrs.nasa.gov/citations/19930088211
+[research_hammondalexanderd_kefferbarbaram_1953]: https://ntrs.nasa.gov/citations/19930087716
 [research_han_chen_2016]: https://doi.org/10.2514/6.2016-2041
 [research_han_ciera_2026]: https://doi.org/10.2514/6.2026-4600
 [research_han_lee_2007]: https://doi.org/10.2514/1.26267
@@ -6820,6 +7723,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_haney_johnson_1980]: https://doi.org/10.2514/3.57925
 [research_hang_jihong_2013]: https://doi.org/10.1109/icca.2013.6565040
 [research_hanin_barsonynagy_1983]: https://doi.org/10.2514/3.8147
+[research_hanman_yao_2025]: https://doi.org/10.3390/fluids10020027
 [research_hansen_duan_2020]: https://doi.org/10.2514/6.2020-1186
 [research_hansen_duan_2020_b]: https://doi.org/10.2514/6.2020-1186.c1
 [research_hansen_duan_2022]: https://doi.org/10.2514/1.g006577
@@ -6830,11 +7734,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_hanson_andrade_2018]: https://doi.org/10.2514/6.2018-3561
 [research_hansonpw_1980]: https://ntrs.nasa.gov/citations/19800019876
 [research_hansonpw_1984]: https://ntrs.nasa.gov/citations/19840015856
+[research_hao_ma_2023]: https://doi.org/10.3390/aerospace10060511
 [research_harash_yadykin_2012]: https://doi.org/10.3103/s1068799810040083
 [research_harbeck_jameson_2005]: https://doi.org/10.2514/6.2005-1041
 [research_hardinjayd_potterrc_1993]: https://ntrs.nasa.gov/citations/19930065520
 [research_harish_shi_2022]: https://doi.org/10.1109/itec53557.2022.9813859
 [research_harris_1980]: https://doi.org/10.1520/stp27137s
+[research_harriscd_1971]: https://ntrs.nasa.gov/citations/19780019136
 [research_harriscd_1972]: https://ntrs.nasa.gov/citations/19840019599
 [research_harriscd_blackwelljajr_1972]: https://ntrs.nasa.gov/citations/19830002750
 [research_harrischarlesd_harveywilliamd_1988]: https://ntrs.nasa.gov/citations/19880011733
@@ -6847,13 +7753,16 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_hartwichpeterm_dickeyericd_2014]: https://ntrs.nasa.gov/citations/20140012783
 [research_hartwichpeterm_shmilovicharvin_2016]: https://ntrs.nasa.gov/citations/20160006410
 [research_harvey_blankenship_1969]: https://doi.org/10.21236/ad0862594
+[research_harveywd_1982]: https://ntrs.nasa.gov/citations/19890044960
 [research_harveywd_harriscd_1986]: https://ntrs.nasa.gov/citations/19880005569
 [research_harveywd_pridejd_1982]: https://ntrs.nasa.gov/citations/19820012276
 [research_harveywd_pridejd_1982_b]: https://ntrs.nasa.gov/citations/19820049792
 [research_hasan_alam_2013]: https://doi.org/10.1016/j.proeng.2013.03.123
+[research_hasan_alam_2014]: https://doi.org/10.1615/interjfluidmechres.v41.i5.50
 [research_hasan_redonnet_2022]: https://doi.org/10.3390/app12020752
 [research_hashemi_nguyen_2018]: https://doi.org/10.2514/6.2018-0623
 [research_hashemi_nguyen_2018_b]: https://doi.org/10.2514/6.2018-0619
+[research_hashemikelley_2017]: https://ntrs.nasa.gov/citations/20180000863
 [research_hashemikelleye_alderandrew_2020]: https://ntrs.nasa.gov/citations/20200001383
 [research_hass_housman_2024]: https://doi.org/10.2514/6.2024-4263
 [research_hassall_2015]: https://doi.org/10.7287/peerj.preprints.998v1
@@ -6861,6 +7770,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_hassan_mavris_2018]: https://doi.org/10.2514/6.2018-0281
 [research_hassan_mavris_2020]: https://doi.org/10.2514/1.c035470
 [research_hattasanjaya_2024]: https://doi.org/10.31274/cc-20240624-484
+[research_havenar_ilie_2025]: https://doi.org/10.2514/6.2025-3508
 [research_hayase_1974]: https://doi.org/10.21236/ada002866
 [research_hayase_1974_b]: https://doi.org/10.21236/ada002862
 [research_haydukrj_1986]: https://ntrs.nasa.gov/citations/19860012462
@@ -6874,12 +7784,15 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_he_chen_2023]: https://doi.org/10.1016/j.cja.2023.06.005
 [research_he_cui_2022]: https://doi.org/10.32604/icces.2022.08753
 [research_he_jia_2020]: https://doi.org/10.1109/access.2020.3012714
+[research_he_ma_2021]: https://doi.org/10.1109/iccar52225.2021.9463429
 [research_he_su_2023]: https://doi.org/10.2514/6.2023-0586
 [research_he_wang_2022]: https://doi.org/10.1145/3548608.3559293
 [research_he_yang_2014]: https://doi.org/10.1360/132013-258
 [research_he_zhan_2024]: https://doi.org/10.1016/j.cja.2023.10.029
+[research_headvl_1972]: https://ntrs.nasa.gov/citations/19720007141
 [research_healy_cheung_2022]: https://doi.org/10.2514/1.c036372
 [research_healy_rezgui_2026]: https://doi.org/10.2514/1.c038748
+[research_heaneypatricks_ivancothomasg_2018]: https://ntrs.nasa.gov/citations/20190000879
 [research_heathchristopherm_grayjustins_2012]: https://ntrs.nasa.gov/citations/20140016748
 [research_heathermaliska_vincentschultz_2024]: https://ntrs.nasa.gov/citations/20250001718
 [research_hebert_joseph_1970]: https://doi.org/10.21236/ad0875238
@@ -6890,6 +7803,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_heegjennifer_chwalowskipawel_2019]: https://ntrs.nasa.gov/citations/20200002638
 [research_heegjennifer_spaincharlesv_2005]: https://ntrs.nasa.gov/citations/20050203672
 [research_hefner_1992]: https://doi.org/10.1007/978-1-4612-2872-1_1
+[research_heimbaughrichardm_1987]: https://ntrs.nasa.gov/citations/19870012911
+[research_heitmeyerjohnc_smithwillardg_1952]: https://ntrs.nasa.gov/citations/19930087209
 [research_henderson_1987]: https://doi.org/10.4271/872411
 [research_hendersonwp_pattersonjcjr_1983]: https://ntrs.nasa.gov/citations/19830035295
 [research_hendrickserics_tongmichaelt_2012]: https://ntrs.nasa.gov/citations/20120014381
@@ -6898,6 +7813,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_henne_1989]: https://doi.org/10.2514/6.1989-2023
 [research_hennepa_dahlinja_1982]: https://ntrs.nasa.gov/citations/19840020658
 [research_henningallenb_1953]: https://ntrs.nasa.gov/citations/19930089146
+[research_henningsson_bomphrey_2013]: https://doi.org/10.1098/rsif.2013.0099
 [research_henry_blondeau_2005]: https://doi.org/10.2514/6.2005-2044
 [research_herbertwschlickenmaier_markanderson_2023]: https://ntrs.nasa.gov/citations/20220015049
 [research_herencia_weaver_2007]: https://doi.org/10.2514/6.2007-2214
@@ -6914,12 +7830,15 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_hewitt_albright]: https://doi.org/10.1520/stp11542s
 [research_hewitt_weiss_2005]: https://doi.org/10.1520/stp11301s
 [research_heykena_obayashi_2020]: https://doi.org/10.1007/978-3-030-52429-6_21
-[research_hicks_1981]: https://doi.org/10.4271/810565
+[research_hicken_zingg_2010]: https://doi.org/10.2514/1.j050379
 [research_hicks_matheny_1987]: https://doi.org/10.2514/6.1987-2949
 [research_hicks_moulton_1988]: https://doi.org/10.2514/6.1988-2144
+[research_hicksjohnw_huckabinethomas_1989]: https://ntrs.nasa.gov/citations/19910019863
 [research_hicksjohnw_kaniajan_1987]: https://ntrs.nasa.gov/citations/19870035128
+[research_hicksrm_1981]: https://ntrs.nasa.gov/citations/19810058326
 [research_high_reynolds_1999]: https://ntrs.nasa.gov/citations/19990052586
 [research_highly_skewed_2025]: https://doi.org/10.5957/ssc1978symp18
+[research_hildebrandfrancisb_reissnereric_1944]: https://ntrs.nasa.gov/citations/19930084742
 [research_hilfer_rossler_2011]: https://doi.org/10.1007/978-94-007-1664-3_42
 [research_hilger_ritter_2021]: https://doi.org/10.3390/aerospace8100308
 [research_hilger_ritter_2023]: https://doi.org/10.2514/6.2023-0190
@@ -6931,10 +7850,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_hillebrand_lutz_2026]: https://doi.org/10.2514/6.2026-4527
 [research_hillebrand_lutz_2026_b]: https://doi.org/10.1007/978-3-032-11115-9_46
 [research_hillebrand_muller_2023]: https://doi.org/10.2514/6.2023-4347
+[research_hiller_campbell_2024]: https://doi.org/10.2514/6.2024-0677
 [research_hiller_campbell_2025]: https://doi.org/10.2514/6.2025-0244
 [research_hillga_brownsa_2004]: https://ntrs.nasa.gov/citations/20040139604
 [research_hillgeoffreya_olsonerikd_2004]: https://ntrs.nasa.gov/citations/20040110957
 [research_hinshaw_sickles_1964]: https://doi.org/10.21236/ad0600498
+[research_hinson_morgansen_2022]: https://doi.org/10.2514/6.2022-0617
 [research_hirschel_rizzi_2020]: https://doi.org/10.1007/978-3-662-61328-3_8
 [research_hirschel_rizzi_2020_b]: https://doi.org/10.1007/978-3-662-61328-3_10
 [research_hirschel_rizzi_2020_c]: https://doi.org/10.1007/978-3-662-61328-3_9
@@ -6950,15 +7871,20 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_hodgekennethe_kelloggyvonne_1996]: https://ntrs.nasa.gov/citations/19960047139
 [research_hoell_kabatveljob_2011]: https://doi.org/10.2514/6.2011-3174
 [research_hoffmann_loftfield_2011]: https://doi.org/10.1007/978-3-642-19817-5_25
+[research_holdawaygeorgeh_mellenthinjacka_1960]: https://ntrs.nasa.gov/citations/19980227180
+[research_holdawaygeorgeh_mellenthinjacka_1960_b]: https://ntrs.nasa.gov/citations/19980235518
 [research_holistic_methodology]: https://doi.org/10.1021/acs.energyfuels.4c02795.s001
 [research_holmes_obara_1983]: https://doi.org/10.2514/3.48203
 [research_holmes_obara_1992]: https://doi.org/10.1007/978-1-4612-2872-1_3
+[research_honda_sato_2023]: https://doi.org/10.2514/6.2023-4315
 [research_hong_lv_2020]: https://doi.org/10.1016/j.yofte.2020.102178
 [research_hong_rhoads_2008]: https://doi.org/10.4050/vfs-f64-000146
+[research_hoogreef_devries_2020]: https://doi.org/10.2514/6.2020-0503
 [research_hooker_wick_2013]: https://doi.org/10.2514/6.2013-2920
 [research_hoover_shen_2018]: https://doi.org/10.2514/1.c035081
-[research_hopkins_1975]: https://doi.org/10.2514/6.1975-995
 [research_hopkins_1977]: https://doi.org/10.2514/3.58766
+[research_hopkinsedwardj_carelhubertc_1951]: https://ntrs.nasa.gov/citations/19930086662
+[research_hopkinsej_1975]: https://ntrs.nasa.gov/citations/19750055435
 [research_hoque_duan_2020]: https://doi.org/10.1364/fio.2020.fth5a.6
 [research_horak_novotny_2018]: https://doi.org/10.1051/matecconf/201818804023
 [research_horikawa_saito_1986]: https://doi.org/10.2514/6.1986-956
@@ -6979,14 +7905,17 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_houbolt_williamson_1975]: https://doi.org/10.21236/ada021713
 [research_hounkateshwar_taylor_1995]: https://doi.org/10.2514/6.1995-1692
 [research_hu_dai_2022]: https://doi.org/10.2514/1.j061763
+[research_hu_dai_2025]: https://doi.org/10.1016/j.ast.2025.110174
 [research_hu_lu_2024]: https://doi.org/10.3390/aerospace11110932
 [research_hu_zhao_2026]: https://doi.org/10.2139/ssrn.6351259
 [research_hu_zhou_2007]: https://doi.org/10.1117/12.716013
+[research_huang_dudley_1996]: https://doi.org/10.2514/3.46989
 [research_huang_farsadi_2026]: https://doi.org/10.1016/j.cja.2026.104462
 [research_huang_fraihat_2025]: https://doi.org/10.2514/6.2025-3471
 [research_huang_mostafa_2003]: https://doi.org/10.1016/s1000-9361(11)60208-2
 [research_huang_tsushima_2020]: https://doi.org/10.2514/6.2020-1450
 [research_huebner_reimer_2019]: https://doi.org/10.2514/6.2019-3198
+[research_huffmanjk_jacksoncmjr_1974]: https://ntrs.nasa.gov/citations/19740020370
 [research_hughes_gazzaniga_2009]: https://doi.org/10.2514/6.2009-3139
 [research_hughes_gopalarathnam_2026]: https://doi.org/10.2514/1.j065541
 [research_hughes_olsen_2022]: https://doi.org/10.2514/1.b38393
@@ -6996,6 +7925,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_hugheschris_lordwed_2008]: https://ntrs.nasa.gov/citations/20090008382
 [research_hugheschristopher_2011]: https://ntrs.nasa.gov/citations/20110015520
 [research_hugheschristophere_2009]: https://ntrs.nasa.gov/citations/20130013128
+[research_hugheschristophere_2013]: https://ntrs.nasa.gov/citations/20140004373
 [research_hugheschristophere_zeugtheresa_2008]: https://ntrs.nasa.gov/citations/20090007808
 [research_hughesdl_1973]: https://ntrs.nasa.gov/citations/19730006257
 [research_huijts_voskuijl_2015]: https://doi.org/10.1016/j.ast.2015.07.001
@@ -7006,12 +7936,14 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_humphreysjennings_lappas_2019]: https://doi.org/10.20944/preprints201911.0284.v1
 [research_humphreysjennings_lappas_2020]: https://doi.org/10.3390/aerospace7050051
 [research_hunsaker_montgomery_2019]: https://doi.org/10.2514/6.2019-2040
+[research_hunsaker_phillips_2017]: https://doi.org/10.2514/6.2017-1419
+[research_hunsaker_phillips_2020]: https://doi.org/10.2514/6.2020-0644
 [research_huo_wang_2013]: https://doi.org/10.1155/2013/513637
 [research_huo_yang_2025]: https://doi.org/10.1108/aeat-01-2025-0033
 [research_hur_beran_2004]: https://doi.org/10.2514/6.2004-116
 [research_husain_piotrowski_2026]: https://doi.org/10.2514/6.2026-1695
 [research_hutcheson_spalt_2016]: https://doi.org/10.2514/6.2016-2708
-[research_hutchison_unger_1992]: https://doi.org/10.2514/6.1992-212
+[research_hutchisonmg_ungerer_1992]: https://ntrs.nasa.gov/citations/19920043061
 [research_huttselllj_nollte_1976]: https://ntrs.nasa.gov/citations/19770014086
 [research_hwang_pi_1982]: https://doi.org/10.2514/6.1982-724
 [research_hwangc_johnsoneh_1980]: https://ntrs.nasa.gov/citations/19810003606
@@ -7039,12 +7971,17 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_imoisili_2026]: https://doi.org/10.1039/9781837678723-00508
 [research_imoisili_2026_b]: https://doi.org/10.1039/9781837678723-00464
 [research_in_situ]: https://doi.org/10.1021/acsomega.8b01059.s001
+[research_inac_2023]: https://doi.org/10.31224/3175
 [research_induced_drag_1976]: https://doi.org/10.2514/5.9781600865190.0221.0235
+[research_inger_1991]: https://doi.org/10.2514/6.1991-3210
+[research_inger_1993]: https://doi.org/10.2514/3.46354
 [research_ingraldi_kariya_1992]: https://doi.org/10.1115/1.2906661
 [research_ingraldianthonym_rerichardj_1991]: https://ntrs.nasa.gov/citations/19920033022
+[research_ingram_eichenbaum_1969]: https://doi.org/10.2514/3.44101
 [research_integrated_algal_2026]: https://doi.org/10.66816/pr6640796
 [research_integrated_application_1980]: https://ntrs.nasa.gov/citations/19820024473
 [research_integrated_application_1981]: https://ntrs.nasa.gov/citations/19830022130
+[research_integrated_application_1982]: https://ntrs.nasa.gov/citations/19840019655
 [research_integrative_application_1980]: https://ntrs.nasa.gov/citations/19820024504
 [research_interface_protective]: https://doi.org/10.4271/air1558
 [research_interference_2019]: https://doi.org/10.2514/6.2019-3026
@@ -7057,6 +7994,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_irianordaz]: https://ntrs.nasa.gov/citations/20250011495
 [research_irvin_swan_1956]: https://doi.org/10.21236/ad0147927
 [research_ishida_ishiko_2016]: https://doi.org/10.2514/6.2016-1310
+[research_ishrak_shuvo_2024]: https://doi.org/10.21203/rs.3.rs-4172049/v3
+[research_islam_martin_2018]: https://doi.org/10.2514/6.2018-2834
 [research_islam_mohona_2024]: https://doi.org/10.2514/6.2024-88782
 [research_isogai_1979]: https://doi.org/10.2514/3.61226
 [research_isogai_1981]: https://doi.org/10.2514/3.7853
@@ -7074,6 +8013,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_jackson_2023]: https://doi.org/10.32920/ryerson.14660895.v1
 [research_jackson_coyle_1983]: https://doi.org/10.2514/6.1983-2724
 [research_jacksoneb_riversroberta_1993]: https://ntrs.nasa.gov/citations/19930069741
+[research_jacobsencarlr_1952]: https://ntrs.nasa.gov/citations/19930090450
+[research_jacobsencarlr_1953]: https://ntrs.nasa.gov/citations/20050028475
+[research_jacobsencarlr_1953_b]: https://ntrs.nasa.gov/citations/19930087389
 [research_jacobspf_1982]: https://ntrs.nasa.gov/citations/19850002612
 [research_jacobspf_1983]: https://ntrs.nasa.gov/citations/19850007386
 [research_jafari_nikolaidis_2020]: https://doi.org/10.1115/gt2020-14637
@@ -7088,6 +8030,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_jamesakenyon_barbaramesker]: https://ntrs.nasa.gov/citations/20210022620
 [research_jamesdheidmann]: https://ntrs.nasa.gov/citations/20220011765
 [research_jamesjimheidmann]: https://ntrs.nasa.gov/citations/20240014160
+[research_jamesjoseph_davidjkinney]: https://ntrs.nasa.gov/citations/20240014871
+[research_jamesjoseph_davidjkinney_b]: https://ntrs.nasa.gov/citations/20240006450
 [research_jameskenyon]: https://ntrs.nasa.gov/citations/20220003059
 [research_jameson_2009]: https://doi.org/10.21236/ada500380
 [research_jameson_vassberg_2008]: https://doi.org/10.2514/6.2008-145
@@ -7105,8 +8049,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_jasoncjune_russellhthomas_2022]: https://ntrs.nasa.gov/citations/20220008607
 [research_jasperson_nastrom_1984]: https://doi.org/10.2514/3.45054
 [research_jaworski_dowell_2009]: https://doi.org/10.2514/1.39244
+[research_jayarams_myklebusta_1992]: https://ntrs.nasa.gov/citations/19920050721
 [research_jayatilake_lowenberg_2024]: https://doi.org/10.2514/1.j064058
 [research_jayatilake_lowenberg_2025]: https://doi.org/10.1007/s11071-025-10936-4
+[research_jeffreycchin_eliotdaretskinhariton]: https://ntrs.nasa.gov/citations/20205004497
 [research_jeffreyjberton_2022]: https://ntrs.nasa.gov/citations/20220015470
 [research_jeffreyouellette]: https://ntrs.nasa.gov/citations/20250010920
 [research_jeffreyouellette_b]: https://ntrs.nasa.gov/citations/20240016082
@@ -7114,6 +8060,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_jefftrudell]: https://ntrs.nasa.gov/citations/20230009244
 [research_jefftrudell_2023]: https://ntrs.nasa.gov/citations/20230012580
 [research_jemitola_monterzino_2013]: https://doi.org/10.1017/s0001924000008022
+[research_jemitola_okonkwo_2023]: https://doi.org/10.7771/2159-6670.1253
 [research_jenkins_1971]: https://doi.org/10.2514/6.1971-577
 [research_jenkins_1986]: https://doi.org/10.4271/861767
 [research_jenkinsjeraldm_kuhlalberte_1977]: https://ntrs.nasa.gov/citations/20020086520
@@ -7175,7 +8122,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_jonesgeorgewjr_unangstjohnr_1956]: https://ntrs.nasa.gov/citations/19930089046
 [research_jonesgwjr_unangstjr_1963]: https://ntrs.nasa.gov/citations/19630002604
 [research_jonesre_diehlla_1978]: https://ntrs.nasa.gov/citations/19780025159
+[research_jonesrobertt_1946]: https://ntrs.nasa.gov/citations/19930084600
 [research_jordan_1971]: https://doi.org/10.1007/978-1-4684-8346-8_13
+[research_jordanfljr_1976]: https://ntrs.nasa.gov/citations/19830002748
+[research_josephweil_williamdmorrisonjr_1953]: https://ntrs.nasa.gov/citations/19930087927
 [research_joshi_1998]: https://doi.org/10.1006/jsvi.1998.1754
 [research_josiahmwaite_jaredgrauer]: https://ntrs.nasa.gov/citations/20205002993
 [research_joslin_1998]: https://doi.org/10.1146/annurev.fluid.30.1.1
@@ -7185,6 +8135,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_jun_harmin_2014]: https://doi.org/10.4028/www.scientific.net/amm.629.182
 [research_june_hickey_2025]: https://doi.org/10.2514/6.2025-3884
 [research_jung_lee_2008]: https://doi.org/10.2514/6.2008-5864
+[research_junlei_zhou_2017]: https://doi.org/10.1109/cmame.2017.8540111
 [research_juntaoxiong_nhannguyen]: https://ntrs.nasa.gov/citations/20205011345
 [research_juntaoxiong_nhannguyen_b]: https://ntrs.nasa.gov/citations/20210025848
 [research_juntaoxiong_nhannguyen_c]: https://ntrs.nasa.gov/citations/20220019225
@@ -7197,8 +8148,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_juntaoxiong_nhannguyen_j]: https://ntrs.nasa.gov/citations/20220008239
 [research_juntaoxiong_robertebartels]: https://ntrs.nasa.gov/citations/20205011475
 [research_juntaoxiong_robertebartels_b]: https://ntrs.nasa.gov/citations/20210018303
+[research_junxuan_xun_2015]: https://doi.org/10.1016/j.proeng.2014.12.579
 [research_justinsgray]: https://ntrs.nasa.gov/citations/20210000078
 [research_jutte_mason_2024]: https://doi.org/10.2514/6.2024-2811
+[research_juttechristine_stanfordbretk_2014]: https://ntrs.nasa.gov/citations/20140006404
 [research_juttechristinev_kowilliaml_2011]: https://ntrs.nasa.gov/citations/20120004140
 [research_juttechristinev_stanfordbretk_2014]: https://ntrs.nasa.gov/citations/20140007306
 [research_juttechristinev_stanfordbretk_2015]: https://ntrs.nasa.gov/citations/20150003788
@@ -7226,6 +8179,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_kapania_schetz_2022]: https://doi.org/10.2514/6.2022-3785
 [research_kapaniarakeshk_issacjasonc_1993]: https://ntrs.nasa.gov/citations/19930050174
 [research_kapaniarakeshk_schetzjosepha_2018]: https://ntrs.nasa.gov/citations/20180008436
+[research_karagoz_reilley_2019]: https://doi.org/10.2514/6.2019-0498
 [research_kargarnovin_sayrarfie_1995]: https://doi.org/10.1007/978-3-642-79654-8_171
 [research_karpel_1982]: https://doi.org/10.2514/3.57379
 [research_karpelmardechay_1992]: https://ntrs.nasa.gov/citations/19930005577
@@ -7242,10 +8196,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_karpuk_mosca_2024]: https://doi.org/10.2514/1.c037744
 [research_karpuk_radespiel_2022]: https://doi.org/10.3390/aerospace9050279
 [research_kasi_dsouza_2019]: https://doi.org/10.1615/ihmtc-2019.1430
+[research_katzellis_1948]: https://ntrs.nasa.gov/citations/19930085793
 [research_katzh_foppegf_1976]: https://ntrs.nasa.gov/citations/19770014093
 [research_kaul_2024]: https://doi.org/10.1016/j.ast.2024.109376
 [research_kawai_hrach_1980]: https://doi.org/10.2514/6.1980-1194
+[research_kawairt_mccarthyrf_1982]: https://ntrs.nasa.gov/citations/19820054143
 [research_kawakami_takatoya_2008]: https://doi.org/10.2514/6.2008-6419
+[research_kaykayoglu_1996]: https://doi.org/10.2514/6.1996-168
 [research_kaynaku_holsttl_1986]: https://ntrs.nasa.gov/citations/19860037966
 [research_kayran_2004]: https://doi.org/10.1115/esda2004-58467
 [research_kayran_2007]: https://doi.org/10.1108/00022660710732707
@@ -7271,6 +8228,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_kellyhn_1957]: https://ntrs.nasa.gov/citations/19710065520
 [research_kellythomasc_1959]: https://ntrs.nasa.gov/citations/19980227986
 [research_kelsapalomares_jameswerner]: https://ntrs.nasa.gov/citations/20220006156
+[research_kendall_1984]: https://doi.org/10.2514/6.1984-2164
+[research_kendall_1985]: https://doi.org/10.2514/3.45214
 [research_kennellyjr_1983]: https://doi.org/10.2514/6.1983-1864
 [research_kenny_kamath_2026]: https://doi.org/10.2514/6.2026-2127
 [research_kenterahrazoglu_ahrazoglu_2025]: https://doi.org/10.2514/6.2025-1619
@@ -7284,6 +8243,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_khadilkar_balakrishnan_2011]: https://doi.org/10.2514/6.2011-6383
 [research_khadilkar_balakrishnan_2012]: https://doi.org/10.1016/j.trd.2012.06.005
 [research_khadiv_tayefi_2025]: https://doi.org/10.1108/aeat-03-2025-0080
+[research_khalid_kumar_2014]: https://doi.org/10.58940/2374-6793.1034
 [research_khalid_sokhey_2010]: https://doi.org/10.2514/6.2010-6501
 [research_khalil_asaro_2020]: https://doi.org/10.2514/6.2020-2940
 [research_khalil_asaro_2022]: https://doi.org/10.2514/1.c036426
@@ -7300,8 +8260,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_khoirunnisa_andaomanu_2018]: https://doi.org/10.14419/ijet.v7i4.25.22420
 [research_kholyavko_1971]: https://doi.org/10.1007/bf01019800
 [research_khongbamphen_2025]: https://doi.org/10.2139/ssrn.5195879
+[research_khot_appa_2001]: https://doi.org/10.1117/12.436485
 [research_khrabrov_2007]: https://doi.org/10.1134/s0015462807010164
 [research_kida_1982]: https://doi.org/10.1515/9783112546963-011
+[research_kida_miyai_1974]: https://doi.org/10.1017/s0001925900006776
 [research_kida_miyai_1978]: https://doi.org/10.1017/s0001925900008477
 [research_kidd_1966]: https://doi.org/10.2514/3.43709
 [research_kikuchi_miyake_2026]: https://doi.org/10.2514/6.2026-4526
@@ -7322,7 +8284,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_kim_lim_2009]: https://doi.org/10.1142/s0217984909018618
 [research_kim_liou_2015]: https://doi.org/10.2514/6.2015-3805
 [research_kim_manning_2013]: https://doi.org/10.17226/22565
+[research_kim_marciniak_1999]: https://doi.org/10.2514/6.1999-1468
 [research_kim_park_2009]: https://doi.org/10.2514/1.36762
+[research_kim_strganac_2002]: https://doi.org/10.2514/6.2002-1412
 [research_kimberlin_sims_1996]: https://doi.org/10.4271/965508
 [research_kimberlyannscarberry_joshuaesams_2021]: https://ntrs.nasa.gov/citations/20210022568
 [research_kimblekr_ruosy_1973]: https://ntrs.nasa.gov/citations/19730032076
@@ -7336,16 +8300,22 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_kitsios_dimopoulos_2020]: https://doi.org/10.1109/icuas48674.2020.9213877
 [research_kjelgaardso_paulsonjwjr_1981]: https://ntrs.nasa.gov/citations/19810023576
 [research_kleemann_karpuk_2020]: https://doi.org/10.2514/6.2020-0008
+[research_klein_viswanathan_1973]: https://doi.org/10.1007/bf01590797
 [research_klein_viswanathan_1975]: https://doi.org/10.2514/3.44425
 [research_klein_viswanathan_1975_b]: https://doi.org/10.2514/3.59866
+[research_klepl_1990]: https://doi.org/10.23919/acc.1990.4790836
 [research_klinkhachorn_2005]: https://doi.org/10.1063/1.1916846
 [research_klopotowski_cwojdzinski_2022]: https://doi.org/10.35117/a_eng_22_08_09_07
+[research_klug_naik_2021]: https://doi.org/10.2514/6.2021-1649
+[research_klug_radespiel_2020]: https://doi.org/10.2514/6.2020-0271
 [research_klug_ullah_2023]: https://doi.org/10.1007/s13272-023-00645-2
 [research_klutchnikov_ballmann_2004]: https://doi.org/10.1007/978-1-4020-2313-2_24
 [research_klyde_harris_2004]: https://doi.org/10.21236/ada426452
 [research_ko_grossman_2000]: https://doi.org/10.2514/6.2000-5609
+[research_kobayakawa_maeda_1978]: https://doi.org/10.2514/3.58403
 [research_koc_kim_2005]: https://doi.org/10.2514/6.2005-4856
 [research_kocan_2023]: https://doi.org/10.2514/6.2023-3457
+[research_kocharin_yatskikh_2021]: https://doi.org/10.1063/5.0051932
 [research_kodigaddi_2026]: https://doi.org/10.21203/rs.3.rs-10227402/v1
 [research_kodigaddi_khazi_2024]: https://doi.org/10.37591/jopc.v11i13.136771
 [research_koike_ueno_2016]: https://doi.org/10.2514/6.2016-4044
@@ -7356,6 +8326,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_kolonay_eastep_2004]: https://doi.org/10.2514/6.2004-4362
 [research_kolonay_yang_1998]: https://doi.org/10.2514/2.7578
 [research_kolosz_ibrahimnagidi_2026]: https://doi.org/10.1039/9781837678723-00390
+[research_komarov_zinchenko_2023]: https://doi.org/10.20535/0203-3771452023290873
+[research_konstantinosmilios_christopherhall_2023]: https://ntrs.nasa.gov/citations/20230003929
+[research_kontou_trompoukis_2024]: https://doi.org/10.23967/eccomas.2024.139
 [research_koo_zhang_2025]: https://doi.org/10.1080/23249935.2025.2607526
 [research_koohi_shahverdi_2014]: https://doi.org/10.1016/j.compstruct.2014.03.012
 [research_kooi_kiock_1994]: https://doi.org/10.2514/6.1994-2562
@@ -7367,12 +8340,14 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_korthauer_accorinti_2023]: https://doi.org/10.2514/1.j061915
 [research_kosin_1965]: https://doi.org/10.2514/3.43672
 [research_kosmatka_panza_2003]: https://doi.org/10.2514/6.2003-6501
+[research_kotanskydr_glazelw_1978]: https://ntrs.nasa.gov/citations/19810010491
 [research_kothari_2011]: https://doi.org/10.1007/978-94-007-1664-3_44
 [research_kotikalpudi_danowsky_2018]: https://doi.org/10.2514/6.2018-3426
 [research_kratz_2024]: https://doi.org/10.2514/6.2024-3824
 [research_kratz_culley_2018]: https://doi.org/10.2514/6.2018-4659
 [research_kratzjonathanl_chapmanjeffryesw_2018]: https://ntrs.nasa.gov/citations/20180006648
 [research_krengel_2024]: https://doi.org/10.23967/eccomas.2024.094
+[research_krengel_hepperle_2019]: https://doi.org/10.2514/6.2019-3368
 [research_krengel_hepperle_2023]: https://doi.org/10.2514/6.2023-3369
 [research_krenz_1979]: https://doi.org/10.2514/6.1979-692
 [research_kreshock_yeo_2018]: https://doi.org/10.4050/f-0074-2018-12761
@@ -7384,7 +8359,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_kristopherpierson_matthewha]: https://ntrs.nasa.gov/citations/20260007955
 [research_krivanekthomasm_rochejosephm_2003]: https://ntrs.nasa.gov/citations/20030055618
 [research_kronejr_1980]: https://doi.org/10.2514/6.1980-1882
+[research_kroo_1982]: https://doi.org/10.2514/3.61557
+[research_krooilan_smithstephen_1990]: https://ntrs.nasa.gov/citations/19910063988
 [research_krooilan_smithstephen_1991]: https://ntrs.nasa.gov/citations/19910048911
+[research_krooilan_smithstephen_1991_b]: https://ntrs.nasa.gov/citations/19910014793
 [research_kroyan_wojcieszyk_2022]: https://doi.org/10.1016/j.energy.2022.124470
 [research_krumbein_francois_2022]: https://doi.org/10.2514/1.c036918
 [research_kryvokhatko_2023]: https://doi.org/10.1007/978-3-031-23777-5_4
@@ -7397,10 +8375,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_kuhlman_brown_1989]: https://doi.org/10.2514/6.1989-644
 [research_kuhlman_cerney_1988]: https://doi.org/10.2514/6.1988-7
 [research_kuhlmanj_1979]: https://ntrs.nasa.gov/citations/19790015753
+[research_kuhlmanjohnm_liawpaul_1987]: https://ntrs.nasa.gov/citations/19870061823
 [research_kuhn_1975]: https://doi.org/10.21236/ada955473
 [research_kuhn_1975_b]: https://doi.org/10.21236/ada955472
 [research_kuhn_nussbaumer_2026]: https://doi.org/10.3390/aerospace13050435
 [research_kukrejasunill_2007]: https://ntrs.nasa.gov/citations/20070028827
+[research_kukrejasunill_2007_b]: https://ntrs.nasa.gov/citations/20070026140
 [research_kukrejasunill_2008]: https://ntrs.nasa.gov/citations/20080041566
 [research_kukrejasunill_viogaretha_2012]: https://ntrs.nasa.gov/citations/20120011695
 [research_kumar_2018]: https://doi.org/10.22214/ijraset.2018.3331
@@ -7408,13 +8388,17 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_kumar_khalid_2014]: https://doi.org/10.2514/6.2014-3002
 [research_kumar_khalid_2017]: https://doi.org/10.15394/ijaaa.2017.1187
 [research_kummer_allred_2012]: https://doi.org/10.2514/6.2012-3702
+[research_kumudajmani_jeffreypmoder]: https://ntrs.nasa.gov/citations/20230002924
 [research_kuntawala_hicken_2011]: https://doi.org/10.2514/6.2011-642
 [research_kuntjoro_wisnoe_2015]: https://doi.org/10.15224/978-1-63248-072-9-61
 [research_kursakov_lysenkov_2022]: https://doi.org/10.53954/9785604788974_95
 [research_kuya_boda_2020]: https://doi.org/10.2514/1.c035902
 [research_kwon_leblanc_2001]: https://doi.org/10.1007/bf03185113
 [research_kwon_vepa_2022]: https://doi.org/10.1017/aer.2022.5
+[research_kwonohj_sankarlakshmin_1990]: https://ntrs.nasa.gov/citations/19900032955
+[research_kyser_willis_1973]: https://doi.org/10.2514/6.1973-394
 [research_lai_zhang_2014]: https://doi.org/10.2514/6.2014-1200
+[research_laitone_1978]: https://doi.org/10.2514/3.58457
 [research_lakiza_krasnorutskiy_2025]: https://doi.org/10.26732/j.st.2025.2.04
 [research_lakshminarayan_farhat_2014]: https://doi.org/10.2514/6.2014-0221
 [research_lam_1993]: https://doi.org/10.2514/3.61536
@@ -7429,14 +8413,18 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_lammen_vankan_2020]: https://doi.org/10.2514/6.2020-0505
 [research_lammering_sauterleute_2014]: https://doi.org/10.2514/6.2014-0378
 [research_lampropoulos_sarris_2025]: https://doi.org/10.3844/jastsp.2025.1.11
+[research_lampropoulos_vouros_2025]: https://doi.org/10.3390/fluids10030054
 [research_landmannae_tillemahf_1992]: https://ntrs.nasa.gov/citations/19920011134
 [research_landnormans_abbottfranktjr_1955]: https://ntrs.nasa.gov/citations/19930088658
 [research_lang_wen_2024]: https://doi.org/10.2139/ssrn.5004829
 [research_lange_1983]: https://doi.org/10.2514/6.1983-2440
 [research_lange_1984]: https://doi.org/10.2514/6.1984-2416
 [research_lange_1984_b]: https://doi.org/10.2514/3.45031
+[research_lange_moore_1979]: https://doi.org/10.2514/6.1979-845
+[research_lange_moore_1980]: https://doi.org/10.2514/3.57898
 [research_langeroyh_1987]: https://ntrs.nasa.gov/citations/19900003190
 [research_langeroyh_1988]: https://ntrs.nasa.gov/citations/19880011740
+[research_langeroyh_mayralphwjr_1948]: https://ntrs.nasa.gov/citations/19930085421
 [research_langford_fleming_2026]: https://doi.org/10.2514/6.2026-3557
 [research_langston_2014]: https://doi.org/10.1115/1.2014-apr-5
 [research_lannoo_priasso_2025]: https://doi.org/10.2514/6.2025-0458
@@ -7446,6 +8434,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_latif_khan_2020]: https://doi.org/10.1017/aer.2020.71
 [research_lau]: https://doi.org/10.14711/thesis-b921749
 [research_laughlin_corman_2013]: https://doi.org/10.2514/6.2013-1082
+[research_laumayyuen_1996]: https://ntrs.nasa.gov/citations/19990052727
 [research_lautenwilliamt_barmbyjg_1949]: https://ntrs.nasa.gov/citations/19930085864
 [research_lautenwilliamtjr_burgessmarvinf_1957]: https://ntrs.nasa.gov/citations/19930089666
 [research_lautenwilliamtjr_nelsonherbertc_1957]: https://ntrs.nasa.gov/citations/19930084784
@@ -7483,9 +8472,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_lee_palazotto_2019]: https://doi.org/10.2514/6.2019-0513
 [research_lee_tan_2018]: https://doi.org/10.2514/6.2018-3814
 [research_lee_tang_1989]: https://doi.org/10.2514/3.45785
+[research_leeeboddy_1946]: https://ntrs.nasa.gov/citations/20140000007
 [research_leeeejr_pendergraftocjr_1985]: https://ntrs.nasa.gov/citations/19860010875
+[research_leerausch_batina_1993]: https://doi.org/10.2514/6.1993-1422
 [research_legriffon_bertsch_2023]: https://doi.org/10.25144/14610
 [research_lehman_stearman_1977]: https://doi.org/10.21236/ada039245
+[research_lehtinenb_soederjf_1980]: https://ntrs.nasa.gov/citations/19810003583
 [research_lei_wang_2020]: https://doi.org/10.21595/jve.2019.20968
 [research_leifsson_ko_2013]: https://doi.org/10.1016/j.ast.2011.12.004
 [research_lentscharles_hardinlarry_2016]: https://ntrs.nasa.gov/citations/20170000881
@@ -7494,6 +8486,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_leonardobarrosdaluz_flavioluizcardosoribeiro_2026]: https://doi.org/10.55592/cilamce2025.v5i.14495
 [research_leonardomachado_timothychau]: https://ntrs.nasa.gov/citations/20240008311
 [research_lesiak_rajan_2010]: https://doi.org/10.4302/plp.2010.3.15
+[research_letcher_1972]: https://doi.org/10.2514/3.59045
 [research_levin_katz_1992]: https://doi.org/10.2514/3.46222
 [research_lewerenz_1987]: https://doi.org/10.2514/6.1987-1732
 [research_leyds_1956]: https://doi.org/10.1108/eb032680
@@ -7501,8 +8494,11 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_li_bai_2019]: https://doi.org/10.1016/j.ast.2019.105338
 [research_li_bai_2022]: https://doi.org/10.2514/1.c036413
 [research_li_cao_2017]: https://doi.org/10.1007/s13042-017-0644-1
+[research_li_dai_2025]: https://doi.org/10.1016/j.taml.2024.100554
 [research_li_davidson_2024]: https://doi.org/10.3397/in_2024_4017
+[research_li_feng_2023]: https://doi.org/10.1017/flo.2023.30
 [research_li_gong_2025]: https://doi.org/10.3390/app15168882
+[research_li_huang_2018]: https://doi.org/10.1177/1077546318810033
 [research_li_ji_2020]: https://doi.org/10.1016/j.ast.2020.105696
 [research_li_jia_2025]: https://doi.org/10.1109/icfeeie66944.2025.00018
 [research_li_kim_2026]: https://doi.org/10.56952/arma-2026-0645
@@ -7525,7 +8521,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_li_yang_2013]: https://doi.org/10.4028/www.scientific.net/amm.0.738
 [research_li_zhang_2014]: https://doi.org/10.4028/www.scientific.net/amm.608-609.708
 [research_li_zhang_2019]: https://doi.org/10.2514/6.2019-1214
+[research_li_zhang_2023]: https://doi.org/10.1063/5.0130176
 [research_li_zhang_2024]: https://doi.org/10.1080/0305215x.2024.2420746
+[research_li_zhao_2017]: https://doi.org/10.2514/1.g002178
 [research_li_zhong_2016]: https://doi.org/10.1115/gt2016-57463
 [research_liang_wang_2018]: https://doi.org/10.2991/mecae-18.2018.118
 [research_liao_zhang_2026]: https://doi.org/10.3390/aerospace13080725
@@ -7533,6 +8531,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_librescu_simovich_1988]: https://doi.org/10.2514/3.45572
 [research_librescu_song_1992]: https://doi.org/10.1016/0961-9526(92)90039-9
 [research_librescu_thangjitham_1991]: https://doi.org/10.2514/3.46004
+[research_licheva_liscouethanke_2023]: https://doi.org/10.2514/6.2023-0213
+[research_lichtensteinjacobh_williamsjamesl_1952]: https://ntrs.nasa.gov/citations/19930083602
 [research_liebeck_2002]: https://doi.org/10.2514/6.2002-2
 [research_liebeck_2003]: https://doi.org/10.2514/6.2003-2659
 [research_liebeck_2004]: https://doi.org/10.2514/1.9084
@@ -7540,6 +8540,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_liebst_garrard_1986]: https://doi.org/10.2514/6.1986-2247
 [research_liebst_garrard_1988]: https://doi.org/10.2514/3.20297
 [research_liem_kenway_2015]: https://doi.org/10.2514/1.j052940
+[research_liersch_streit_2009]: https://doi.org/10.2514/6.2009-898
 [research_life_cycle_assessment]: https://doi.org/10.1021/acssuschemeng.4c00795.s001
 [research_lifei_choudharimeelanm_2011]: https://ntrs.nasa.gov/citations/20110008274
 [research_lifei_choudharimeelanm_2016]: https://ntrs.nasa.gov/citations/20160006029
@@ -7548,6 +8549,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_lin_chieng_1997]: https://doi.org/10.2514/6.1997-725
 [research_lin_crawley_1996]: https://doi.org/10.2514/3.47045
 [research_lin_jhou_1989]: https://doi.org/10.4271/891060
+[research_lin_wu_2022]: https://doi.org/10.3390/aerospace9090523
 [research_lin_zheng_2025]: https://doi.org/10.1016/j.measurement.2025.117448
 [research_lindner_oldeweme_2023]: https://doi.org/10.2514/6.2023-3539
 [research_lindrick_1999]: https://ntrs.nasa.gov/citations/19990050914
@@ -7557,7 +8559,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_linebergerlb_1984_b]: https://ntrs.nasa.gov/citations/19880004684
 [research_linraysing_reedhelenl_1993]: https://ntrs.nasa.gov/citations/19930065013
 [research_lioumayfun_kimhyoungjin_2017]: https://ntrs.nasa.gov/citations/20170007963
+[research_lissamanpbs_1973]: https://ntrs.nasa.gov/citations/19730008255
 [research_littelljustin_2011]: https://ntrs.nasa.gov/citations/20110011656
+[research_littjonathans_1999]: https://ntrs.nasa.gov/citations/20050188523
 [research_liu_1992]: https://doi.org/10.2514/3.46198
 [research_liu_2018]: https://doi.org/10.1049/joe.2018.9016
 [research_liu_anemaat_2013]: https://doi.org/10.2514/6.2013-4371
@@ -7565,6 +8569,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_liu_bai_2022]: https://doi.org/10.1155/2022/4868037
 [research_liu_chen_2024]: https://doi.org/10.3390/app14219628
 [research_liu_dong_2018]: https://doi.org/10.1109/icca.2018.8444282
+[research_liu_guo_2020]: https://doi.org/10.1145/3452940.3452958
 [research_liu_he_2025]: https://doi.org/10.1007/978-981-96-1467-7_35
 [research_liu_hou_2016]: https://doi.org/10.1109/robio.2016.7866632
 [research_liu_jiang_2022]: https://doi.org/10.1155/2022/9288966
@@ -7573,10 +8578,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_liu_stumpf_2018]: https://doi.org/10.2514/1.c034296
 [research_liu_sun_2016]: https://doi.org/10.1155/2016/1060574
 [research_liu_sun_2017]: https://doi.org/10.1016/j.ast.2017.10.006
+[research_liu_sun_2017_b]: https://doi.org/10.1061/(asce)as.1943-5525.0000712
 [research_liu_tao_2012]: https://doi.org/10.1109/isdea.2012.624
 [research_liu_wang_2004]: https://doi.org/10.2514/6.2004-4319
 [research_liu_xiang_2006]: https://doi.org/10.1016/s1000-9361(11)60265-3
 [research_liu_xie_2016]: https://doi.org/10.1016/j.cja.2015.12.013
+[research_liu_yang_2016]: https://doi.org/10.1080/19942060.2016.1210029
 [research_liu_yang_2024]: https://doi.org/10.1117/12.3054550
 [research_liu_yu_2021]: https://doi.org/10.1007/978-981-33-6060-0_10
 [research_liu_zhang_2018]: https://doi.org/10.1109/gncc42960.2018.9019008
@@ -7592,7 +8599,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_ljamesrunyan_louislsteers_1980]: https://ntrs.nasa.gov/citations/19810042099
 [research_lobitz_traub_2023]: https://doi.org/10.3390/aerospace10110938
 [research_locatelli_riggins_2016]: https://doi.org/10.2514/6.2016-0780
+[research_lockheedgeorgiacomarietta_1969]: https://doi.org/10.21236/ad0700436
+[research_lockwoodtaylor_1942]: https://doi.org/10.1108/eb030921
 [research_lockwoodve_1966]: https://ntrs.nasa.gov/citations/19660023730
+[research_lockwoodvernarde_fikesjosephe_1952]: https://ntrs.nasa.gov/citations/19930087420
 [research_logan_1989]: https://doi.org/10.4050/sm_rotary_1989-3454
 [research_logananderson_ryanjcaverly]: https://ntrs.nasa.gov/citations/20250010913
 [research_lokoswilliam_millereric_2015]: https://ntrs.nasa.gov/citations/20160000200
@@ -7602,21 +8612,27 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_lombardi_vicini_1994]: https://doi.org/10.1017/s0001924000049733
 [research_long_2011]: https://doi.org/10.1177/0892705711403524
 [research_long_liu_2012]: https://doi.org/10.2514/6.2012-5456
+[research_lorber_carta_1991]: https://doi.org/10.2514/6.1991-935
 [research_losadacostoso_nguyenvan_2024]: https://doi.org/10.23967/eccomas.2024.145
 [research_loth_boyle_1969]: https://doi.org/10.21236/ad0704502
 [research_loth_loth_1984]: https://doi.org/10.2514/6.1984-2149
 [research_lottati_1984]: https://doi.org/10.2514/3.45051
 [research_lottati_1985]: https://doi.org/10.2514/3.45238
 [research_lottati_1988]: https://doi.org/10.2514/3.45588
+[research_love_kapania_2020]: https://doi.org/10.2514/6.2020-0166
 [research_love_zink_2005]: https://doi.org/10.2514/6.2005-1947
 [research_lovejoyandrewe_2006]: https://ntrs.nasa.gov/citations/20060051803
 [research_lovellwa_priceje_1978]: https://ntrs.nasa.gov/citations/19780022102
+[research_lowson_1990]: https://doi.org/10.2514/3.25332
+[research_lowson_1992]: https://doi.org/10.2514/3.56861
 [research_lu_cui_2016]: https://doi.org/10.2514/6.2016-1226
+[research_lu_lu_1997]: https://doi.org/10.2514/6.1997-324
 [research_lucas_valasek_2009]: https://doi.org/10.2514/6.2009-2536
 [research_luckybose_isfaqahmedrafsun_2024]: https://doi.org/10.30574/wjarr.2024.23.3.2961
 [research_lukyanov_hoang_2024]: https://doi.org/10.20944/preprints202406.0412.v1
 [research_lundry_1967]: https://doi.org/10.2514/3.43797
 [research_lundry_1977]: https://doi.org/10.2514/3.44595
+[research_lundry_llssaman_1968]: https://doi.org/10.2514/3.43901
 [research_lundstromreginaldr_lautenwilliamtjr_1948]: https://ntrs.nasa.gov/citations/19930085467
 [research_lungshunfat_pakchangi_2009]: https://ntrs.nasa.gov/citations/20090019136
 [research_lunia_isaac_2000]: https://doi.org/10.1088/0964-1726/9/6/305
@@ -7624,6 +8640,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_luu_2025]: https://doi.org/10.32920/29170238
 [research_luyckx_dewaele_2006]: https://doi.org/10.1364/ofs.2006.the13
 [research_lv_wan_2008]: https://doi.org/10.1117/12.806859
+[research_lyapunov_1993]: https://doi.org/10.1007/bf01051213
 [research_lynch_rogers_1976]: https://doi.org/10.2514/6.1976-1505
 [research_lyndemichellen_campbellrichardl_2016]: https://ntrs.nasa.gov/citations/20160010025
 [research_lyndemichellen_campbellrichardl_2017]: https://ntrs.nasa.gov/citations/20170005688
@@ -7661,6 +8678,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_mahig_1973]: https://doi.org/10.2514/3.62940
 [research_maikapar_2000]: https://doi.org/10.1023/a:1026611503563
 [research_makgantai_subaschandar_2021]: https://doi.org/10.1109/icuas51884.2021.9476801
+[research_malathi_kamalakrishna_2024]: https://doi.org/10.1007/978-981-97-5373-4_22
 [research_maldonado_housman_2024]: https://doi.org/10.2514/6.2024-3639
 [research_maldonado_hunter_2021]: https://doi.org/10.2514/6.2021-1531
 [research_maldonadodaniel_housmanjeffreya_2020]: https://ntrs.nasa.gov/citations/20200000705
@@ -7676,12 +8694,15 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_mamedov_paryshev_2018]: https://doi.org/10.1615/tsagiscij.2018027114
 [research_mamla_galinski_2009]: https://doi.org/10.2514/1.42084
 [research_manan_cooper_2008]: https://doi.org/10.2514/6.2008-5868
+[research_mancini_vos_2019]: https://doi.org/10.2514/6.2019-3272
+[research_mangalam_jutte_2010]: https://doi.org/10.2514/6.2010-8113
 [research_mangalam_mangalam_2008]: https://doi.org/10.2514/6.2008-7187
 [research_manjunath_kulkarni_2020]: https://doi.org/10.1088/1742-6596/1473/1/012005
 [research_manning_kroo_1999]: https://doi.org/10.2514/6.1999-3102
 [research_mansour_1985]: https://doi.org/10.2514/3.9056
 [research_mansournn_1984]: https://ntrs.nasa.gov/citations/19840014467
 [research_mao_xie_2019]: https://doi.org/10.1155/2019/5847627
+[research_mao_xu_2020]: https://doi.org/10.1088/1361-665x/aba9ab
 [research_maraniello_palacios_2017]: https://doi.org/10.2514/6.2017-1352
 [research_marchese_1963]: https://doi.org/10.21236/ad0442887
 [research_marchetti_2023]: https://doi.org/10.21741/9781644902813-8
@@ -7694,6 +8715,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_mares_sureshbabu_2026]: https://doi.org/10.2514/6.2026-112608
 [research_marino_2004]: https://doi.org/10.1017/s000192400000035x
 [research_marisarla_narayanan_2003]: https://doi.org/10.2514/6.2003-625
+[research_mark_dehart_1976]: https://doi.org/10.2514/6.1976-910
 [research_markdguynn_jeffreyjberton]: https://ntrs.nasa.gov/citations/20200005866
 [research_markkleader_eliotaretskinhariton]: https://ntrs.nasa.gov/citations/20240007437
 [research_martin_carpenter_2008]: https://doi.org/10.2514/6.2008-1636
@@ -7713,8 +8735,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_mason_1992]: https://doi.org/10.1117/12.2298050
 [research_mason_anderson_2025]: https://doi.org/10.2514/6.2025-0636
 [research_masson_veilleux_1999]: https://doi.org/10.2514/6.1999-3187
+[research_mastincwayne_smithroberte_1996]: https://ntrs.nasa.gov/citations/20040110939
 [research_mastropierro_sebastiampillai_2020]: https://doi.org/10.1115/1.4045077
 [research_mateer_seegmiller_1987]: https://doi.org/10.2514/6.1987-1241
+[research_mateergg_seegmillerhl_1994]: https://ntrs.nasa.gov/citations/19960047577
 [research_matesanzgarcia_macmanus_2023]: https://doi.org/10.2514/6.2023-3466
 [research_mathenynw_gatlindh_1978]: https://ntrs.nasa.gov/citations/19780012197
 [research_mathias_ross_1995]: https://doi.org/10.2514/3.46858
@@ -7729,6 +8753,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_matula_yalla_2026]: https://doi.org/10.5194/wes-2025-263
 [research_mauerer_proff_2026]: https://doi.org/10.1007/s13272-026-00965-z
 [research_mavriplis_yang_2020]: https://doi.org/10.2514/6.2020-1292
+[research_mavrisdimitrin_1997]: https://ntrs.nasa.gov/citations/19980200851
+[research_maxwellrl_dickinsonlvjr_1981]: https://ntrs.nasa.gov/citations/19810009492
 [research_mayer_2012]: https://doi.org/10.1109/icnsurv.2012.6218432
 [research_mayor_tol_2007]: https://doi.org/10.1016/j.tranpol.2007.07.002
 [research_mayor_tol_2010]: https://doi.org/10.1016/j.gloenvcha.2009.08.001
@@ -7737,6 +8763,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_mccarthy_jackf_1955]: https://doi.org/10.21236/ad0110593
 [research_mccarthy_johnf_1955]: https://doi.org/10.21236/ad0103035
 [research_mccarty_2001]: https://doi.org/10.31399/asm.hb.v21.a0003445
+[research_mccartyjohne_roeselerwilliamg_1984]: https://ntrs.nasa.gov/citations/19870008427
+[research_mccomas_burns_2025]: https://doi.org/10.2514/6.2025-0668
 [research_mccuish_caldwell_2018]: https://doi.org/10.1201/9781315136820-12
 [research_mccutchen_1989]: https://doi.org/10.2514/3.45790
 [research_mccutchen_2006]: https://doi.org/10.2514/1.12330
@@ -7756,6 +8784,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_meadows_2012]: https://doi.org/10.2514/1.c031695
 [research_mebarki_lesant_2001]: https://doi.org/10.1007/bf03183893
 [research_meelanchoudhari_nathanielhildebrand]: https://ntrs.nasa.gov/citations/20250004462
+[research_meheut_arntz_2012]: https://doi.org/10.2514/6.2012-3122
 [research_mei_striz_1992]: https://doi.org/10.2514/6.1992-4794
 [research_meinicke_martinellirodrigues_2017]: https://doi.org/10.26678/abcm.cobem2017.cob17-1408
 [research_meirovitch_1995]: https://doi.org/10.21236/ada293689
@@ -7766,9 +8795,11 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_meleason_wells_1976]: https://doi.org/10.2514/6.1976-623
 [research_mello_sovieiro_2004]: https://doi.org/10.2514/6.2004-5077
 [research_mellquist_bendiksen_2014]: https://doi.org/10.2514/6.2014-0674
+[research_meltonlatuniapack_schaefflernormanw_2007]: https://ntrs.nasa.gov/citations/20070004937
 [research_melville_gordnier_1998]: https://doi.org/10.2514/6.1998-2657
 [research_melville_kolaei_2018]: https://doi.org/10.2514/6.2018-2066
 [research_memari_shirazi_2007]: https://doi.org/10.12989/sem.2007.25.4.365
+[research_meneesgenep_boydjohnw_1959]: https://ntrs.nasa.gov/citations/19980228046
 [research_meng_an_2022]: https://doi.org/10.1016/j.cja.2022.01.020
 [research_meng_bi_2022]: https://doi.org/10.3390/aerospace9110661
 [research_meng_kaihua_2020]: https://doi.org/10.1109/icus50048.2020.9274846
@@ -7780,6 +8811,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_mery_piot_2025]: https://doi.org/10.2514/6.2025-1646
 [research_metkowski_maughmer_2021]: https://doi.org/10.2514/6.2021-0843
 [research_metkowski_maughmer_2023]: https://doi.org/10.2514/6.2023-2268
+[research_mgpotapczuk_mbbragg_1991]: https://ntrs.nasa.gov/citations/19920012443
+[research_miakelyerichardc_matulaitisja_1992]: https://ntrs.nasa.gov/citations/19920009880
 [research_mian_wang_2014]: https://doi.org/10.1016/j.jfluidstructs.2014.04.011
 [research_michaeljczech_russellhthomas]: https://ntrs.nasa.gov/citations/20200004772
 [research_michaeljorgensen_tristanfinazzo_2025]: https://ntrs.nasa.gov/citations/20250008745
@@ -7802,6 +8835,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_miller_decallafon_2011]: https://doi.org/10.2514/6.2011-6207
 [research_millerericj_holguinandrewc_2014]: https://ntrs.nasa.gov/citations/20140003965
 [research_millerericj_penafrancisco_2019]: https://ntrs.nasa.gov/citations/20190000082
+[research_mineckre_carteraw_1974]: https://ntrs.nasa.gov/citations/19740020362
 [research_mirea_2025]: https://doi.org/10.20944/preprints202503.0053.v1
 [research_mirea_cican_2024]: https://doi.org/10.3390/inventions9010016
 [research_mirinmorrisward]: https://ntrs.nasa.gov/citations/20205005479
@@ -7815,15 +8849,21 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_mixsonjs_bartonck_1978]: https://ntrs.nasa.gov/citations/19780045732
 [research_miyaji_arasawa_2001]: https://doi.org/10.2514/6.2001-2465
 [research_miyaji_takegawa_2022]: https://doi.org/10.1299/jfst.2022jfst0004
+[research_miyake_terashima_2022]: https://doi.org/10.1007/978-981-19-2689-1_47
 [research_miyake_terashima_2023]: https://doi.org/10.2514/1.j063099
+[research_miyake_terashima_2026]: https://doi.org/10.2514/1.j066278
 [research_mizoguchi_itoh_2016]: https://doi.org/10.2514/6.2016-4341
 [research_mnasir_mohamad_2022]: https://doi.org/10.21834/ebpj.v7isi9.4313
 [research_modeling_and_2015]: https://doi.org/10.1007/978-3-319-10792-9
 [research_mody_sato_2010]: https://doi.org/10.2514/6.2010-4812
 [research_moens_perraud_2007]: https://doi.org/10.2514/6.2007-4302
 [research_moerland_pfeiffer_2017]: https://doi.org/10.2514/6.2017-4397
+[research_mogfordrichardh_woldsheryl_2008]: https://ntrs.nasa.gov/citations/20110023849
 [research_mohd_amoozgar_2025]: https://doi.org/10.1115/ssdm2025-152329
 [research_mohrrossw_batinajohnt_1988]: https://ntrs.nasa.gov/citations/19880007292
+[research_mokotoff_arnson_2025]: https://doi.org/10.2514/6.2025-2374
+[research_mokotoff_arnson_2026]: https://doi.org/10.2514/1.c038452
+[research_molloyjk_1979]: https://ntrs.nasa.gov/citations/19790047108
 [research_molloyjk_granthamwd_1982]: https://ntrs.nasa.gov/citations/19820023418
 [research_molz_breitsamter_2026]: https://doi.org/10.1016/j.ast.2026.113432
 [research_momodu_beg_2026]: https://doi.org/10.54709/joebs.1781579
@@ -7831,18 +8871,27 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_monnerhanspeter_riemenschneiderjohannes_2012]: https://doi.org/10.3233/978-1-61499-063-5-94
 [research_monsch_figliola_2007]: https://doi.org/10.2514/6.2007-1079
 [research_moore_1978]: https://doi.org/10.2514/6.1978-1466
+[research_moore_1992]: https://doi.org/10.2514/6.1992-2100
+[research_moore_1995]: https://doi.org/10.2514/3.46703
 [research_moore_1997]: https://doi.org/10.1201/9781482294965-1
 [research_moore_2021]: https://doi.org/10.1115/1.0002064v
+[research_mooredouglasb_millergeraldd_1991]: https://ntrs.nasa.gov/citations/19910013022
 [research_moorhouse_1990]: https://doi.org/10.2514/6.1990-3306
 [research_moravejbarzani_shahverdi_2023]: https://doi.org/10.1177/09544100231167728
 [research_morelli_guardone_2022]: https://doi.org/10.2514/6.2022-2939
 [research_morganharryl_1986]: https://ntrs.nasa.gov/citations/19880014355
+[research_morganhljr_kjelgaardso_1983]: https://ntrs.nasa.gov/citations/19850022697
 [research_mori_arnoult_2024]: https://doi.org/10.2514/6.2024-1408
 [research_morinol_nollrb_1977]: https://ntrs.nasa.gov/citations/19770048017
 [research_morrison_hansman_2011]: https://doi.org/10.2514/6.2011-6844
 [research_morrison_hansman_2012]: https://doi.org/10.2514/1.c031407
+[research_morrowjohnd_1950]: https://ntrs.nasa.gov/citations/19930086248
+[research_morrowjohnd_1955]: https://ntrs.nasa.gov/citations/19930084314
+[research_mortarakarlw_maughmermarkd_1993]: https://ntrs.nasa.gov/citations/19930063219
 [research_morton_1956]: https://doi.org/10.1108/eb032772
 [research_morton_beran_1995]: https://doi.org/10.2514/6.1995-1905
+[research_morton_beran_1996]: https://doi.org/10.2514/6.1996-60
+[research_morton_beran_1996_b]: https://doi.org/10.2514/6.1996-1975
 [research_mosca_elham_2022]: https://doi.org/10.3390/aerospace9120744
 [research_mosca_karpuk_2025]: https://doi.org/10.2514/6.2025-3291
 [research_moseleywilliamcjr_gainerthomasg_1959]: https://ntrs.nasa.gov/citations/19980232889
@@ -7855,17 +8904,23 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_mouyon_cumer_2003]: https://doi.org/10.2514/6.2003-5417
 [research_mrsaravindan_kknithiyanantham_2017]: https://doi.org/10.17577/ijertv6is020019
 [research_mubenesha_okoyechine_2026]: https://doi.org/10.1039/9781837678723-00068
+[research_muchmorecbjr_1988]: https://ntrs.nasa.gov/citations/19880053479
 [research_mueller_torres_2001]: https://doi.org/10.21236/ada397533
+[research_muglerjohnpjr_1956]: https://ntrs.nasa.gov/citations/19930089294
 [research_muhamadjayadi_2025]: https://doi.org/10.35894/jtk.v10i1.259
+[research_mukherjeerinku_gopalarathnamashok_2003]: https://ntrs.nasa.gov/citations/20040085758
 [research_mukhopadhyay_sobieszczanskisobieski_2004]: https://doi.org/10.2514/1.417
 [research_mukhopadhyayv_2005]: https://ntrs.nasa.gov/citations/20050182126
 [research_mukhopadhyayv_pototzkya_1989]: https://ntrs.nasa.gov/citations/19900000795
 [research_mukhopadhyayv_sobieszczanskisobieskij_2002]: https://ntrs.nasa.gov/citations/20030005461
+[research_mukhopadhyayvivek_1996]: https://ntrs.nasa.gov/citations/19970005613
 [research_mukhopadhyayvivek_1999]: https://ntrs.nasa.gov/citations/20040086731
 [research_mukhopadhyayvivek_1999_b]: https://ntrs.nasa.gov/citations/20040086829
+[research_mukhopadhyayvivek_2003]: https://ntrs.nasa.gov/citations/20030064926
 [research_mukhopadhyayvivek_ozoroskithomasa_2017]: https://ntrs.nasa.gov/citations/20190000712
 [research_mukhopadhyayvivekananda_1988]: https://ntrs.nasa.gov/citations/19880044248
 [research_mullender_poll_1995]: https://doi.org/10.4271/952016
+[research_mullenjjr_1976]: https://ntrs.nasa.gov/citations/19820008196
 [research_mullenjr_1979]: https://doi.org/10.2514/6.1979-724
 [research_muller_woidt_2026]: https://doi.org/10.2514/1.c038139
 [research_multidisciplinary_design_1994]: https://doi.org/10.2514/6.1994-4305
@@ -7882,9 +8937,14 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_murphyac_1981]: https://ntrs.nasa.gov/citations/19810012530
 [research_murphyac_rogerswa_1983]: https://ntrs.nasa.gov/citations/19830048658
 [research_murthyav_johnsoncb_1983]: https://ntrs.nasa.gov/citations/19830035468
+[research_mv_mondal_2023]: https://doi.org/10.14429/dsj.73.17735
+[research_mwasandube_marino_2026]: https://doi.org/10.21203/rs.3.rs-10542205/v1
 [research_myersmr_guruswamyp_1983]: https://ntrs.nasa.gov/citations/19830048630
 [research_naca_conference_1957]: https://ntrs.nasa.gov/citations/19710070068
 [research_nagamatsu_ficarra_1985]: https://doi.org/10.2514/6.1985-207
+[research_nagamatsuht_dyerr_1984]: https://ntrs.nasa.gov/citations/19850018354
+[research_nagamatsuht_ficarrar_1983]: https://ntrs.nasa.gov/citations/19840008067
+[research_nagamatsuht_orozcord_1984]: https://ntrs.nasa.gov/citations/19840055267
 [research_nagarajaks_kraftrh_1999]: https://ntrs.nasa.gov/citations/20100033317
 [research_nagy_jones_2022]: https://doi.org/10.2514/6.2022-3668
 [research_nagy_jones_2025]: https://doi.org/10.1017/aer.2025.10026
@@ -7900,6 +8960,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_nangia_palmer_2003]: https://doi.org/10.2514/6.2003-605
 [research_nangia_palmer_2003_b]: https://doi.org/10.2514/6.2003-3927
 [research_nangia_palmer_2005]: https://doi.org/10.2514/6.2005-243
+[research_nangia_palmer_2006]: https://doi.org/10.2514/6.2006-859
 [research_nantke_2011]: https://doi.org/10.4155/cmt.11.14
 [research_narain_1983]: https://doi.org/10.2514/6.1983-186
 [research_narayan_1975]: https://doi.org/10.1017/s0001925900007332
@@ -7925,10 +8986,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_nealaharrison_anthonyjsclafani_2025]: https://ntrs.nasa.gov/citations/20230005431
 [research_nealaharrison_davidgakiyama]: https://ntrs.nasa.gov/citations/20210014778
 [research_nederlof_kooij_2023]: https://doi.org/10.2514/6.2023-3543
+[research_neelyroberth_bollechthomasv_1947]: https://ntrs.nasa.gov/citations/19930081871
 [research_nelsonrobertc_thomasfo_1994]: https://ntrs.nasa.gov/citations/19950014926
 [research_neubert_hobbs_1990]: https://doi.org/10.2514/6.1990-1915
 [research_nevskis]: https://doi.org/10.7250/9789934229374
 [research_new_engine_2006]: https://doi.org/10.1108/aeat.2006.12778daf.009
+[research_new_teo_2023]: https://doi.org/10.3390/aerospace10080661
 [research_newey]: https://doi.org/10.15368/theses.2020.107
 [research_newmaniii_newman_1999]: https://doi.org/10.1016/s0045-7930(98)00047-4
 [research_next_generation_2026]: https://doi.org/10.66816/pr4112731
@@ -7975,10 +9038,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_nhannguyen_juntaoxiong_k]: https://ntrs.nasa.gov/citations/20250011777
 [research_nhantnguyen_juntaoxiong]: https://ntrs.nasa.gov/citations/20250011782
 [research_nichkawde_strganac_2006]: https://doi.org/10.2514/6.2006-1637
+[research_nicholson_lowry_1966]: https://doi.org/10.21236/ad0635106
 [research_nickolcraigl_2012]: https://ntrs.nasa.gov/citations/20120016006
 [research_nickolcraigl_hallerwilliamj_2016]: https://ntrs.nasa.gov/citations/20160007652
 [research_nie_song_2025]: https://doi.org/10.2514/1.j064474
 [research_nie_zhang_2009]: https://doi.org/10.1109/ical.2009.5262891
+[research_nielsenjackn_1947]: https://ntrs.nasa.gov/citations/19930082144
 [research_niemeier_phelan_2007]: https://doi.org/10.1038/oby.2007.295
 [research_nigam_ayyalasomayajula_2015]: https://doi.org/10.2514/6.2015-3360
 [research_nikbay_acar_2012]: https://doi.org/10.2514/6.2012-5455
@@ -7989,7 +9054,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_nikolaidis_jafari_2020]: https://doi.org/10.3390/app10217945
 [research_nissim_lottati_1979]: https://doi.org/10.2514/6.1979-792
 [research_nissim_lottati_1980]: https://doi.org/10.2514/3.56000
+[research_nissime_1978]: https://ntrs.nasa.gov/citations/19790036115
+[research_niu_yi_2020]: https://doi.org/10.1016/j.cja.2020.02.017
 [research_niu_zhang_2020]: https://doi.org/10.1016/j.cja.2020.01.008
+[research_nixon_2003]: https://doi.org/10.4271/2003-01-3021
 [research_nixon_tzuoo_1986]: https://doi.org/10.21236/ada167748
 [research_nixon_tzuoo_1987]: https://doi.org/10.2514/3.45510
 [research_nizamitdinov_sohret_2017]: https://doi.org/10.1007/978-3-319-67134-5_12
@@ -8010,6 +9078,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_obayashi]: https://doi.org/10.1109/icsmc.1998.726486
 [research_obazu_2026]: https://doi.org/10.1039/9781837678723-00300
 [research_odonnell_mohseni_2017]: https://doi.org/10.2514/6.2017-1270
+[research_odriozola_marquier_2026]: https://doi.org/10.2514/1.c038643
 [research_oggioni_riboldi_2026]: https://doi.org/10.3390/engproc2026142017
 [research_ohta_fujimori_1988]: https://doi.org/10.2514/6.1988-4114
 [research_okai_fujiwara_2022]: https://doi.org/10.2514/6.2022-1494
@@ -8081,6 +9150,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_paletta_belardo_2010]: https://doi.org/10.2514/1.c000265
 [research_palladino]: https://doi.org/10.70675/9cc6a041za3c7z4ff2z9f80ze94e800fb3e7
 [research_palumbo_palmer_2022]: https://doi.org/10.2514/6.2022-2481
+[research_panaro_frediani_2009]: https://doi.org/10.1007/978-0-387-95857-6_17
 [research_pandya_aftosmis_2001]: https://doi.org/10.2514/6.2001-997
 [research_pandyamohagnaj_abdolhamidkhaleds_2011]: https://ntrs.nasa.gov/citations/20110013215
 [research_pandyas_aftosmismj_2000]: https://ntrs.nasa.gov/citations/20010066498
@@ -8094,16 +9164,22 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_parikhpg_nagelal_1990]: https://ntrs.nasa.gov/citations/19900016628
 [research_park_2007]: https://doi.org/10.21236/ada474610
 [research_park_chung_2011]: https://doi.org/10.2514/6.2011-6960
+[research_park_jeong_2025]: https://doi.org/10.1016/j.apenergy.2024.124567
 [research_park_kim_2007]: https://doi.org/10.2514/6.2007-1799
 [research_park_okelly_2014]: https://doi.org/10.1016/j.jtrangeo.2014.08.017
+[research_park_rokhsaz_2003]: https://doi.org/10.2514/6.2003-4069
 [research_park_spivey_2025]: https://doi.org/10.13052/97887-438-0154-2_8
 [research_park_stearman_2008]: https://doi.org/10.2514/1.31451
+[research_parker_1986]: https://doi.org/10.2514/6.1986-2622
 [research_parker_maple_2007]: https://doi.org/10.2514/1.21051
+[research_pasamanickjerome_proterraanthonyj_1948]: https://ntrs.nasa.gov/citations/19930085410
 [research_pascionikylea_rizzistephena_2018]: https://ntrs.nasa.gov/citations/20190000886
 [research_pascual_zingg_2025]: https://doi.org/10.2514/6.2025-0484
 [research_pascual_zingg_2026]: https://doi.org/10.2514/6.2026-1698
 [research_pasley_rohling_1973]: https://doi.org/10.2514/6.1973-791
+[research_passamanickjerome_1948]: https://ntrs.nasa.gov/citations/19930085382
 [research_pasutto_zeghal_2022]: https://doi.org/10.2514/6.2022-3836
+[research_pate_german_2013]: https://doi.org/10.2514/1.c032074
 [research_patel_chudoba_2026]: https://doi.org/10.1108/aeat-01-2025-0015
 [research_patel_ergan_2025]: https://doi.org/10.2514/6.2025-0001
 [research_patel_ragauss_2024]: https://doi.org/10.2514/6.2024-0282
@@ -8114,6 +9190,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_patricioaravetta_mehdirkhorrami]: https://ntrs.nasa.gov/citations/20240004973
 [research_patricksheaney]: https://ntrs.nasa.gov/citations/20200003567
 [research_patterson_watts_1985]: https://doi.org/10.1016/0165-7836(85)90033-5
+[research_patterson_watts_1986]: https://doi.org/10.1016/0165-7836(86)90037-8
 [research_patterson_wnuk_1962]: https://doi.org/10.2172/4765779
 [research_patzel_caudron_2024]: https://doi.org/10.5194/egusphere-gc12-fibreoptic-78
 [research_paudel_2016]: https://doi.org/10.11648/j.ijmea.20160404.12
@@ -8126,6 +9203,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_pchiozzotto_2016]: https://doi.org/10.1007/s13272-016-0204-5
 [research_pearcewe_1982]: https://ntrs.nasa.gov/citations/19830009280
 [research_pearcewe_1983]: https://ntrs.nasa.gov/citations/19860018605
+[research_pearsonha_1937]: https://ntrs.nasa.gov/citations/19930081392
 [research_pechloff_laschka_2010]: https://doi.org/10.2514/1.45233
 [research_peck_hudson_1956]: https://doi.org/10.21236/ad0140230
 [research_pedestrian_dummy]: https://doi.org/10.4271/j2868_202309
@@ -8152,6 +9230,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_perera_guo_2008]: https://doi.org/10.2514/6.2008-5969
 [research_perez_liu_2004]: https://doi.org/10.2514/6.2004-4537
 [research_perez_liu_2006]: https://doi.org/10.2514/1.22263
+[research_perezalvarez_cuernorejado_2015]: https://doi.org/10.1177/0954410015620444
 [research_perezsegura_beltramo_2026]: https://doi.org/10.2139/ssrn.6073388
 [research_perkins_1985]: https://doi.org/10.2514/6.1985-275
 [research_perkins_yang_2022]: https://doi.org/10.2514/6.2022-2536
@@ -8161,6 +9240,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_perraud_moens_2003]: https://doi.org/10.2514/6.2003-3796
 [research_perraud_moens_2007]: https://doi.org/10.2514/6.2007-264
 [research_perry_miklosovic_2012]: https://doi.org/10.1115/imece2012-85266
+[research_perrybiii_1984]: https://ntrs.nasa.gov/citations/19850006524
 [research_perryboydiii_2017]: https://ntrs.nasa.gov/citations/20170009599
 [research_perryboydiii_silvawaltera_2007]: https://ntrs.nasa.gov/citations/20070021483
 [research_persoon_horsten_1983]: https://doi.org/10.2514/6.1983-1031
@@ -8168,6 +9248,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_peter_king_2026]: https://doi.org/10.1201/9781003761891-31
 [research_petermeier_radtke_2010]: https://doi.org/10.2514/6.2010-9075
 [research_peterson_grant_2011]: https://doi.org/10.2514/6.2011-6542
+[research_petersonvictorl_1959]: https://ntrs.nasa.gov/citations/19980228033
 [research_petre_ashley_1975]: https://doi.org/10.2514/6.1975-775
 [research_petre_ashley_1976]: https://doi.org/10.2514/3.58707
 [research_petrolo_2013]: https://doi.org/10.1016/j.compstruct.2012.06.021
@@ -8184,6 +9265,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_phillips_hunsaker_2020]: https://doi.org/10.1017/aer.2020.24
 [research_pi_kelly_1979]: https://doi.org/10.2514/6.1979-78
 [research_piatakdavidj_clecknercraigs_2002]: https://ntrs.nasa.gov/citations/20030013003
+[research_picchiscardaoni_2020]: https://doi.org/10.1007/s42496-020-00058-y
 [research_piccoloserafim_freydin_2023]: https://doi.org/10.1016/j.jfluidstructs.2023.103981
 [research_piette_crooks_1985]: https://doi.org/10.2514/6.1985-664
 [research_piettedouglass_cazierfrankwjr_1989]: https://ntrs.nasa.gov/citations/19890009890
@@ -8195,8 +9277,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_piteradavidm_dehaanmark_2011]: https://ntrs.nasa.gov/citations/20110023250
 [research_pitkinmarvin_gardnerwilliamn_1947]: https://ntrs.nasa.gov/citations/19930085761
 [research_pitt_2004]: https://doi.org/10.2514/6.2004-1754
+[research_pittelmurray_1956]: https://ntrs.nasa.gov/citations/19930084447
 [research_pittmanjl_gilesgl_1986]: https://ntrs.nasa.gov/citations/19860053068
 [research_plath]: https://doi.org/10.70675/9415f5c4zb15ez4e25z87c4z376e176813a2
+[research_plattrobertjjr_brooksjosephd_1955]: https://ntrs.nasa.gov/citations/19930088565
 [research_pohya_wicke_2019]: https://doi.org/10.2514/6.2019-1589
 [research_pohya_wicke_2019_b]: https://doi.org/10.2514/1.c035205
 [research_poll_2000]: https://doi.org/10.2514/6.2000-2540
@@ -8221,10 +9305,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_pourtakdoust_khodabakhsh_2026]: https://doi.org/10.1016/j.ast.2025.111214
 [research_poussotvassal_vuillemin_2022]: https://doi.org/10.2514/6.2022-1044
 [research_povitsky_pierson_2020]: https://doi.org/10.1080/10618562.2020.1856822
+[research_powellag_agrawals_1989]: https://ntrs.nasa.gov/citations/19890017470
+[research_prabhurk_liuch_1985]: https://ntrs.nasa.gov/citations/19860001700
 [research_prakash_uthup_2009]: https://doi.org/10.2514/6.2009-3631
 [research_prasannakumar_sudhi_2024]: https://doi.org/10.2514/1.c037398
 [research_prattgeorgel_1955]: https://ntrs.nasa.gov/citations/19930088680
 [research_precup_mor_2018]: https://doi.org/10.2514/6.2018-3106
+[research_predachenko_lemko_2019]: https://doi.org/10.18372/1990-5548.61.14222
 [research_present_place_1988]: https://doi.org/10.2514/5.9781600861888.0197.0202
 [research_price_paul_2022]: https://doi.org/10.2514/6.2022-2609
 [research_procedure_for]: https://doi.org/10.4271/air5715
@@ -8276,32 +9363,41 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_rahman_akbar_2026]: https://doi.org/10.2514/6.2026-4063
 [research_rahman_akbar_2026_b]: https://doi.org/10.2514/6.2026-4063.c1
 [research_rahman_hasan_2015]: https://doi.org/10.1016/j.proeng.2015.05.021
+[research_rahman_labib_2015]: https://doi.org/10.4236/ojfd.2015.54031
 [research_rahman_labib_2016]: https://doi.org/10.1063/1.4958385
 [research_rahman_li_2013]: https://doi.org/10.4028/www.scientific.net/amm.419.55
 [research_rahman_whidborne_2010]: https://doi.org/10.2514/1.46195
 [research_rai_murthy_1992]: https://doi.org/10.1016/b978-0-444-89791-6.50021-4
 [research_ram_vemuru_1985]: https://doi.org/10.2514/6.1985-522
 [research_ramachandran_tsai_1992]: https://doi.org/10.21236/ada263044
+[research_ramseyhd_lewoltjg_1979]: https://ntrs.nasa.gov/citations/19790045036
 [research_randall_1955]: https://doi.org/10.21236/ad0056013
 [research_ranjan_ongole_2026]: https://doi.org/10.2514/6.2026-4502
 [research_rao_behal]: https://doi.org/10.1109/cdc.2005.1582536
 [research_rasheed_jayalingam_2024]: https://doi.org/10.1063/5.0218187
 [research_rasmussen_canfield_2004]: https://doi.org/10.2514/6.2004-1760
+[research_rasmussen_canfield_2004_b]: https://doi.org/10.2514/6.2004-4330
 [research_rasmussen_canfield_2006]: https://doi.org/10.2514/1.21951
+[research_rasmussen_canfield_2008]: https://doi.org/10.1007/s00158-008-0229-4
 [research_raspa_ramananarivo_2014]: https://doi.org/10.1063/1.4870254
 [research_ratcliff_carlson_1989]: https://doi.org/10.2514/6.1989-2204
 [research_ratnayake_takahashi_2023]: https://doi.org/10.2514/6.2023-4311
 [research_rausch_ruffin_1990]: https://doi.org/10.1117/12.963119
 [research_ravat_bryant_2026]: https://doi.org/10.2514/6.2026-112071
+[research_raveh_2007]: https://doi.org/10.2514/6.2007-1985
 [research_raveh_levy_2004]: https://doi.org/10.2514/6.2004-1515
 [research_ravetta_khorrami_2024]: https://doi.org/10.2514/6.2024-3059
+[research_ravindren_ghia_2007]: https://doi.org/10.1115/fedsm2007-37683
 [research_ray_hicks_1988]: https://doi.org/10.2514/6.1988-2145
 [research_raymerdanielp_wilsonjack_2011]: https://ntrs.nasa.gov/citations/20110023431
 [research_reaction_to]: https://doi.org/10.3403/30098024
 [research_read_1971]: https://doi.org/10.1017/s0001924000046066
-[research_recine_2025]: https://doi.org/10.2514/6.2025-0457
 [research_recine_pham_2023]: https://doi.org/10.2514/6.2023-3367
+[research_recine_schuh_2025]: https://doi.org/10.2514/6.2025-0457
 [research_recktenwald_ahmed_2008]: https://doi.org/10.2514/6.2008-371
+[research_reddingius_1974]: https://doi.org/10.21236/ad0785360
+[research_reddingius_1977]: https://doi.org/10.21236/ada042143
+[research_reddlt_gilmanjjr_1974]: https://ntrs.nasa.gov/citations/19740043950
 [research_reddy_1989]: https://doi.org/10.2514/3.45878
 [research_redeker_horstmann_1988]: https://doi.org/10.2514/3.45627
 [research_redeker_horstmann_1990]: https://doi.org/10.2514/6.1990-3043
@@ -8313,6 +9409,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_reedwhiii_1976_b]: https://ntrs.nasa.gov/citations/19760018188
 [research_reedwhiii_1981]: https://ntrs.nasa.gov/citations/19820030434
 [research_reganchristopherd_juttechristinev_2012]: https://ntrs.nasa.gov/citations/20120013450
+[research_rehfieldlawrencew_changstephen_1992]: https://ntrs.nasa.gov/citations/19920021061
 [research_rehman_2022]: https://doi.org/10.13111/2066-8201.2022.14.3.8
 [research_reich_raveh_2002]: https://doi.org/10.2514/6.2002-1633
 [research_reich_raveh_2004]: https://doi.org/10.2514/1.78
@@ -8323,12 +9420,14 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_reist_zingg_2014]: https://doi.org/10.2514/6.2014-0905
 [research_reist_zingg_2015]: https://doi.org/10.2514/6.2015-3292
 [research_reist_zingg_2016]: https://doi.org/10.2514/6.2016-3874
+[research_report_no_1921]: https://doi.org/10.1016/s0016-0032(21)90863-9
 [research_report_no_1930]: https://doi.org/10.1016/s0016-0032(30)90271-2
 [research_rerichardj_2005]: https://ntrs.nasa.gov/citations/20050209961
 [research_response_of_2017]: https://doi.org/10.14359/51689502
 [research_reubush_1977]: https://doi.org/10.2514/6.1977-884
 [research_reubush_1978]: https://doi.org/10.2514/6.1978-1083
 [research_reubush_1979]: https://doi.org/10.2514/3.58532
+[research_revell_1975]: https://doi.org/10.2514/6.1975-487
 [research_review_of_2020]: https://doi.org/10.5194/se-2020-61-rc2
 [research_rezybj_stuckaskj_1979]: https://ntrs.nasa.gov/citations/19790052724
 [research_ribeiro_lacava_2013]: https://doi.org/10.4271/2013-36-0511
@@ -8338,6 +9437,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_rice_oetting_1976]: https://doi.org/10.2514/3.44522
 [research_richardawahls]: https://ntrs.nasa.gov/citations/20230007095
 [research_richardawahls_jennifercole_2025]: https://ntrs.nasa.gov/citations/20250005274
+[research_richardawahls_michaelmrogers]: https://ntrs.nasa.gov/citations/20200005952
 [research_richardlcampbell_sallyaviken]: https://ntrs.nasa.gov/citations/20200009991
 [research_richardmogford_stevegreen_2002]: https://ntrs.nasa.gov/citations/20030007823
 [research_richards_brenner_2004]: https://doi.org/10.2514/6.2004-1941
@@ -8348,6 +9448,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_richey_stava_1968]: https://doi.org/10.4271/680288
 [research_richey_surber_1983]: https://doi.org/10.2514/6.1983-84
 [research_richter_cosner_2003]: https://doi.org/10.2514/6.2003-2563
+[research_riebejohnm_davenportedwine_1958]: https://ntrs.nasa.gov/citations/19930085194
 [research_rieck_herrmann_2026]: https://doi.org/10.21203/rs.3.rs-8496708/v1
 [research_rileydr_1985]: https://ntrs.nasa.gov/citations/19850016939
 [research_rimer_chipman_1984]: https://doi.org/10.2514/3.45034
@@ -8393,6 +9494,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_robinson_macmanus_2021]: https://doi.org/10.1016/j.ast.2020.106191
 [research_robinson_robinson_1950]: https://doi.org/10.21236/adb812174
 [research_robinsonjohnw_mccleskeycareym_2013]: https://ntrs.nasa.gov/citations/20130014496
+[research_robinsonrossb_1952]: https://ntrs.nasa.gov/citations/19930087065
 [research_rocha_li_2006]: https://doi.org/10.2514/1.21934
 [research_rochadacosta]: https://doi.org/10.22215/etd/2017-11781
 [research_rockwell_1994]: https://doi.org/10.21236/ada278988
@@ -8400,15 +9502,18 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_rodden_1989]: https://doi.org/10.2514/3.45842
 [research_rodden_1989_b]: https://doi.org/10.2514/3.45825
 [research_rodriguez_2021]: https://doi.org/10.2514/6.2021-2408
+[research_roehl_mavris_1995]: https://doi.org/10.2514/6.1995-1222
 [research_roesch_harlan_1974]: https://doi.org/10.2514/6.1974-773
 [research_rogers_1998]: https://doi.org/10.2514/6.1998-4324
 [research_rogers_donnelly_2004]: https://doi.org/10.2514/6.2004-1244
+[research_rohlmann_keye_2015]: https://doi.org/10.2514/6.2015-2570
 [research_rokoni_hasan_2013]: https://doi.org/10.3329/jme.v43i1.15782
 [research_roman_allen_2000]: https://doi.org/10.2514/6.2000-4335
 [research_romeo_borello_2012]: https://doi.org/10.1109/esars.2012.6387492
 [research_rontsch_taubert_2016]: https://doi.org/10.2514/6.2016-3169
 [research_roos_1979]: https://doi.org/10.2514/6.1979-351
 [research_roos_1985]: https://doi.org/10.2514/6.1985-1609
+[research_roosfw_riddledw_1977]: https://ntrs.nasa.gov/citations/19770022156
 [research_rooth_hiemstra_2000]: https://doi.org/10.1115/2000-gt-0053
 [research_rosatelli_cesnik_2023]: https://doi.org/10.2514/6.2023-0729
 [research_rose_seginer_1977]: https://doi.org/10.2514/6.1977-681
@@ -8420,6 +9525,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_rousselot_truffi_2008]: https://doi.org/10.1115/gt2008-51008
 [research_rowell_braun_1999]: https://doi.org/10.2514/2.2428
 [research_rozendaalra_1986]: https://ntrs.nasa.gov/citations/19860015188
+[research_rudeyra_lezbergea_1976]: https://ntrs.nasa.gov/citations/19770011154
 [research_rudnik_ronzheimer_1999]: https://doi.org/10.1007/978-3-663-10901-3_47
 [research_rudolphpeterkc_1996]: https://ntrs.nasa.gov/citations/19960052267
 [research_ruffini_szczyglowski_2020]: https://doi.org/10.1007/s40799-020-00394-5
@@ -8435,14 +9541,19 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_ruhlincl_watsonjj_1982]: https://ntrs.nasa.gov/citations/19820046605
 [research_ruhlincl_youngls_1964]: https://ntrs.nasa.gov/citations/19640020185
 [research_ruijgrok_1980]: https://doi.org/10.1016/0022-460x(80)90358-2
+[research_ruinie_weiguozhang_2009]: https://doi.org/10.1109/icicisys.2009.5357893
 [research_rumseychristopherl_allisondenniso_2001]: https://ntrs.nasa.gov/citations/20020015798
+[research_runnelsjn_gupfaa_1973]: https://ntrs.nasa.gov/citations/19740009640
 [research_ruo_malone_1983]: https://doi.org/10.2514/6.1983-1686
 [research_ruo_malone_1985]: https://doi.org/10.2514/3.45076
 [research_rusovici_haughey_2017]: https://doi.org/10.2316/p.2017.848-057
+[research_russo_saetta_2021]: https://doi.org/10.2514/6.2021-2544
 [research_russo_tognaccini_2020]: https://doi.org/10.2514/6.2020-0447
 [research_russo_tognaccini_2020_b]: https://doi.org/10.2514/1.j059080
 [research_rustenburg_1972]: https://doi.org/10.21236/ada004456
+[research_ryalltg_mosesrw_2004]: https://ntrs.nasa.gov/citations/20040086633
 [research_ryanferris_mehdirkhorrami]: https://ntrs.nasa.gov/citations/20240004970
+[research_rynaski_1979]: https://doi.org/10.2514/6.1979-1676
 [research_s_sanjana_2020]: https://doi.org/10.2139/ssrn.3524175
 [research_s_sinha_2018]: https://doi.org/10.1016/j.ifacol.2018.05.052
 [research_saadeh_chau_2026]: https://doi.org/10.2514/6.2026-0868
@@ -8450,11 +9561,14 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_sabater_bekemeyer_2022]: https://doi.org/10.2514/1.j060676
 [research_sabatini_coppotelli_2026]: https://doi.org/10.2514/1.g009632
 [research_sabatini_livne_2026]: https://doi.org/10.2514/6.2026-1443
+[research_sabeti_winter_2024]: https://doi.org/10.2514/6.2024-3503
 [research_sabri_elzaabalawy_2022]: https://doi.org/10.1007/s00707-021-03138-7
 [research_sachs_christodoulou_1987]: https://doi.org/10.2514/3.45486
 [research_sadrlahidjani_ovesy_2003]: https://doi.org/10.2514/6.2003-1492
 [research_saeed_graham_2010]: https://doi.org/10.2514/6.2010-4379
 [research_safavi_tarkian_2015]: https://doi.org/10.1177/1063293x15587020
+[research_saha_baker_2025]: https://doi.org/10.2514/6.2025-1990
+[research_sahai_stumpf_2014]: https://doi.org/10.2514/6.2014-2078
 [research_sahin_2022]: https://doi.org/10.1108/aeat-05-2021-0148
 [research_sahu_2009]: https://doi.org/10.2514/6.2009-3852
 [research_sahyoun_boose_2026]: https://doi.org/10.1007/s13272-026-00954-2
@@ -8463,7 +9577,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_saitoh_kim_2006]: https://doi.org/10.2514/6.2006-3461
 [research_saitoh_tamayama_2012]: https://doi.org/10.2478/s13531-012-0008-2
 [research_sako_kim_1999]: https://doi.org/10.21236/ada381177
+[research_salam_bil_2012]: https://doi.org/10.2514/6.2012-251
 [research_salgas_delbecq_2023]: https://doi.org/10.2514/6.2023-1357
+[research_salleegp_1973]: https://ntrs.nasa.gov/citations/19730011093
 [research_sallyaviken_craigahunter_2022]: https://ntrs.nasa.gov/citations/20205007879
 [research_saltari_pizzoli_2022]: https://doi.org/10.2514/6.2022-1187
 [research_samson_keerti_2025]: https://doi.org/10.13052/97887-438-0153-5_1
@@ -8480,6 +9596,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_sang_2009]: https://doi.org/10.2514/6.2009-3627
 [research_sang_jiang_2006]: https://doi.org/10.2514/6.2006-3647
 [research_sang_li_2007]: https://doi.org/10.2514/6.2007-1077
+[research_sanghi_2003]: https://doi.org/10.1515/tjj.2003.20.1.83
 [research_sanghi_cesnik_2023]: https://doi.org/10.2514/6.2023-0186
 [research_sanghi_cesnik_2024]: https://doi.org/10.2514/1.c037470
 [research_sanghi_riso_2020]: https://doi.org/10.2514/6.2020-2645
@@ -8494,6 +9611,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_saricwilliams_1996]: https://ntrs.nasa.gov/citations/19960021105
 [research_sarkar_paidoussis_2003]: https://doi.org/10.1016/s0889-9746(02)00150-0
 [research_sarojini_solano_2022]: https://doi.org/10.2514/6.2022-4054
+[research_sato_2010]: https://doi.org/10.3182/20100906-5-jp-2022.00003
 [research_sato_yokoyama_2011]: https://doi.org/10.5772/16353
 [research_satriya_kadir_2023]: https://doi.org/10.1063/5.0181433
 [research_savelyev_zlenko_2016]: https://doi.org/10.1063/1.4964065
@@ -8517,12 +9635,14 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_schmidthj_nielsenthomas_1994]: https://ntrs.nasa.gov/citations/19950013063
 [research_schneider]: https://doi.org/10.70675/b8e9486dz5049z42bdz806cz7c4ff08ef266
 [research_schnulosydneyl_chinjeffreyc_2017]: https://ntrs.nasa.gov/citations/20170007957
+[research_schoenah_rosensteinh_1980]: https://ntrs.nasa.gov/citations/19800024893
 [research_schrauf_vongeyr_2020]: https://doi.org/10.2514/6.2020-1536
 [research_schrauf_vongeyr_2021]: https://doi.org/10.2514/1.c036179
 [research_schrauf_vongeyr_2021_b]: https://doi.org/10.2514/6.2021-1305
 [research_schuelein_2008]: https://doi.org/10.2514/6.2008-4208
 [research_schueltke_stumpf_2017]: https://doi.org/10.1108/aeat-11-2016-0210
 [research_schuhmacher_murra_2002]: https://doi.org/10.2514/6.2002-5406
+[research_schuldenfreimarvin_comisarowpaul_1947]: https://ntrs.nasa.gov/citations/19930093791
 [research_schumacher_1952]: https://doi.org/10.21236/ada075866
 [research_schumann_wustenhagen_2025]: https://doi.org/10.2514/6.2025-0083
 [research_schuster_1995]: https://doi.org/10.2514/3.46686
@@ -8560,9 +9680,11 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_sellersthomasb_landnormans_1957]: https://ntrs.nasa.gov/citations/19930089454
 [research_semaan_scholz_2013]: https://doi.org/10.2514/6.2013-2813
 [research_sengupta_roy_2021]: https://doi.org/10.1063/5.0075692
+[research_sensmeiermarkd_samarehjamshida_2005]: https://ntrs.nasa.gov/citations/20050175694
 [research_sethkelly_tausifjamal]: https://ntrs.nasa.gov/citations/20250006503
 [research_sethwkelly_tausifjamal]: https://ntrs.nasa.gov/citations/20250005725
 [research_setyohariyadi_sutardi_2021]: https://doi.org/10.1088/1742-6596/2117/1/012013
+[research_sevierjohnrjr_1960]: https://ntrs.nasa.gov/citations/19980228048
 [research_shafaghat_noorian_2022]: https://doi.org/10.1016/j.ast.2022.107663
 [research_shah_ahmed_2023]: https://doi.org/10.2514/6.2023-1982
 [research_shahjahan_ahuja_2026]: https://doi.org/10.2514/6.2026-4665
@@ -8613,8 +9735,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_sibilli_savill_2012]: https://doi.org/10.1115/gt2012-68908
 [research_siddiqui_maqsood_2025]: https://doi.org/10.1016/j.ijnonlinmec.2024.104934
 [research_siebert_strothteicher_2026]: https://doi.org/10.2139/ssrn.6498098
+[research_siegel_1972]: https://doi.org/10.2514/6.1972-795
+[research_siegers_smith_1995]: https://doi.org/10.2514/6.1995-3881
+[research_sieradzki_dziubinski_2016]: https://doi.org/10.1515/meceng-2016-0026
 [research_silva]: https://doi.org/10.14393/ufu.te.2022.345
 [research_silva_acerragil_2019]: https://doi.org/10.26678/abcm.cobem2019.cob2019-1134
+[research_silva_b]: https://doi.org/10.14393/ufu.di.2019.26
+[research_silva_guimaraes_2020]: https://doi.org/10.2514/6.2020-1503
 [research_silva_guimaraes_2023]: https://doi.org/10.2514/6.2023-1677
 [research_silva_resende_2021]: https://doi.org/10.1007/s00158-021-03033-8
 [research_silva_silva_2025]: https://doi.org/10.26678/abcm.cobem2025.cob2025-1253
@@ -8622,6 +9749,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_silvawaltera_chwalowskipawel_2017]: https://ntrs.nasa.gov/citations/20170001026
 [research_silvawaltera_heegjennifer_1991]: https://ntrs.nasa.gov/citations/19910013020
 [research_silvawaltera_shimkoanthony_2006]: https://ntrs.nasa.gov/citations/20060018361
+[research_silvershnorman_spreemankennethp_1949]: https://ntrs.nasa.gov/citations/19930086008
+[research_silversteinabe_1935]: https://ntrs.nasa.gov/citations/19930091575
 [research_silvestre_guimaraesneto_2017]: https://doi.org/10.26678/abcm.cobem2017.cob17-2047
 [research_simmons_chang_2026]: https://doi.org/10.2514/1.c038907
 [research_simmons_riso_2025]: https://doi.org/10.4050/f-0081-2025-0208
@@ -8635,6 +9764,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_simpsonma_tranbn_1991]: https://ntrs.nasa.gov/citations/19910022613
 [research_simpsonmylesa_tranboin_1992]: https://ntrs.nasa.gov/citations/19930035139
 [research_sims_carter_1981]: https://doi.org/10.2514/6.1981-2387
+[research_singh_aloor_2020]: https://doi.org/10.31219/osf.io/3r79q
 [research_singh_gajula_2022]: https://doi.org/10.47893/gret.2022.1059
 [research_singh_karnick_2022]: https://doi.org/10.2514/6.2022-4172
 [research_singh_pant_2026]: https://doi.org/10.2514/6.2026-4003
@@ -8649,8 +9779,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_sivaji_ghia_2003]: https://doi.org/10.2514/6.2003-606
 [research_sivaji_marisarla]: https://doi.org/10.1007/3-540-31261-7_14
 [research_skillen_crossley_2005]: https://doi.org/10.2514/6.2005-1960
+[research_skillen_crossley_2008]: https://doi.org/10.2514/6.2008-166
 [research_skomorokhov_nikolay_2014]: https://doi.org/10.2514/6.2014-2994
 [research_slabochpaule_stephensdavidb_2016]: https://ntrs.nasa.gov/citations/20160007560
+[research_sleemanwilliamcjr_1957]: https://ntrs.nasa.gov/citations/20050019253
 [research_slotnick_an_2000]: https://doi.org/10.2514/6.2000-4219
 [research_smallwood_canfield_2003]: https://doi.org/10.2514/6.2003-1459
 [research_smeltzer_durston_1983]: https://doi.org/10.2514/3.44950
@@ -8661,12 +9793,17 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_smith_liu_2016]: https://doi.org/10.1109/icuas.2016.7502575
 [research_smith_patil_2001]: https://doi.org/10.2514/6.2001-1582
 [research_smith_srokowski_1983]: https://doi.org/10.2514/6.1983-1832
+[research_smitharthurf_brooksbennettm_1986]: https://ntrs.nasa.gov/citations/19870014182
+[research_smithccjr_1973]: https://ntrs.nasa.gov/citations/19730021288
+[research_smithleighann_campbellrichardl_1996]: https://ntrs.nasa.gov/citations/19960015890
+[research_smithpeterj_wilsonrobertd_1985]: https://ntrs.nasa.gov/citations/19890005816
 [research_smithpj_thomsonlw_1986]: https://ntrs.nasa.gov/citations/19900000870
 [research_smithpm_deyoungj_1981]: https://ntrs.nasa.gov/citations/19810011539
 [research_smithsc_cliffse_1987]: https://ntrs.nasa.gov/citations/19880029248
 [research_smithstephenc_1996]: https://ntrs.nasa.gov/citations/19960015887
 [research_smithstephenc_krooilanm_1990]: https://ntrs.nasa.gov/citations/19900063583
 [research_smithstephenc_stonumronaldk_1989]: https://ntrs.nasa.gov/citations/19890014914
+[research_smithwilliardg_1954]: https://ntrs.nasa.gov/citations/20090025453
 [research_snyder_hur_2005]: https://doi.org/10.2514/6.2005-1948
 [research_snyder_sanders_2009]: https://doi.org/10.2514/1.34685
 [research_snyder_zumwalt_1969]: https://doi.org/10.2514/3.44076
@@ -8677,7 +9814,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_soda_tefy_2004]: https://doi.org/10.1007/978-3-540-39604-8_11
 [research_sodermanpt_aikentn_1971]: https://ntrs.nasa.gov/citations/19720002382
 [research_sodja_werter_2021]: https://doi.org/10.2514/1.c035955
+[research_soeiropereira]: https://doi.org/10.70675/10b10c6ez6fa0z441aza617zfe2ca7a0eec5
 [research_soemarwoto_labrujere_2000]: https://doi.org/10.1016/b978-008043693-7/50116-1
+[research_sogukpinar_2019]: https://doi.org/10.1007/s40997-019-00278-z
 [research_sohst_lobodovale_2022]: https://doi.org/10.1016/j.ast.2022.107531
 [research_soistmanndavidl_spaincharlesv_1993]: https://ntrs.nasa.gov/citations/19930049894
 [research_sokhey_1990]: https://doi.org/10.2514/6.1990-2146
@@ -8687,6 +9826,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_somersdanm_2019]: https://ntrs.nasa.gov/citations/20190031816
 [research_sommerwerk_krukow_2016]: https://doi.org/10.2514/1.c033780
 [research_song_fang_2026]: https://doi.org/10.1016/j.advengsoft.2026.104119
+[research_song_gao_2025]: https://doi.org/10.1007/s10409-025-24113-x
 [research_song_li]: https://doi.org/10.4203/ccc.9.3.2
 [research_song_liang_2022]: https://doi.org/10.1016/j.engstruct.2022.114011
 [research_song_lu_2011]: https://doi.org/10.2514/1.c031038
@@ -8701,6 +9841,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_sotoudeh_hodges_2011]: https://doi.org/10.2514/1.c031302
 [research_souzacoimbra_matoscampos_2022]: https://doi.org/10.26678/abcm.encit2022.cit22-0442
 [research_spacht_1983]: https://doi.org/10.2514/6.1983-1058
+[research_spaid_1979]: https://doi.org/10.2514/6.1979-1501
+[research_spanload_cargo_1976]: https://ntrs.nasa.gov/citations/19760005977
 [research_speakman_powell_1978]: https://doi.org/10.21236/ada053701
 [research_special_features_2010]: https://doi.org/10.2514/5.9781600867552.0545.0614
 [research_spellmanreginal_2003]: https://ntrs.nasa.gov/citations/20030065918
@@ -8710,7 +9852,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_spiveynatalie_saltzmanrachel_2020]: https://ntrs.nasa.gov/citations/20200001757
 [research_spiveynatalied_herreraclaudiay_2007]: https://ntrs.nasa.gov/citations/20070018156
 [research_spiveynatalied_herreraclaudiay_2007_b]: https://ntrs.nasa.gov/citations/20090008318
+[research_spreemankennethp_alfordwilliamjjr_1952]: https://ntrs.nasa.gov/citations/19930087071
+[research_spreemankennethp_alfordwilliamjjr_1954]: https://ntrs.nasa.gov/citations/19930093721
+[research_spreemannkennethp_1959]: https://ntrs.nasa.gov/citations/19630003100
 [research_spreemannkennethp_alfordwilliamjjr_1951]: https://ntrs.nasa.gov/citations/19930086543
+[research_spreemannkennethp_alfordwilliamjjr_1952]: https://ntrs.nasa.gov/citations/19930086883
+[research_spreemannkennethp_alfordwilliamjjr_1953]: https://ntrs.nasa.gov/citations/19930087652
+[research_spreemannkennethp_alfordwilliamjjr_1957]: https://ntrs.nasa.gov/citations/19930084566
 [research_spyropoulos_holmes_1999]: https://doi.org/10.2514/6.1999-1801
 [research_squires_2004]: https://doi.org/10.21236/ada427305
 [research_srbland_1979]: https://ntrs.nasa.gov/citations/19800001963
@@ -8724,13 +9872,16 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_sriram_narahari_2020]: https://doi.org/10.1007/978-981-15-5432-2_6
 [research_srivastava_damodaran_2019]: https://doi.org/10.2514/6.2019-1527
 [research_srivastava_damodaran_2019_b]: https://doi.org/10.2514/6.2019-1527.c1
+[research_stackjohn_lindseywf_1949]: https://ntrs.nasa.gov/citations/19930091987
 [research_stagliano_hornung_2012]: https://doi.org/10.2514/6.2012-5587
 [research_stahlecv_forliferwr_1975]: https://ntrs.nasa.gov/citations/19760003018
 [research_stalewski_sznajder_2016]: https://doi.org/10.7712/100016.2271.15624
 [research_stalla_kier_2024]: https://doi.org/10.2514/6.2024-1442
 [research_stalla_looye_2026]: https://doi.org/10.2514/6.2026-1557
+[research_standard_atmosphere_2024]: https://doi.org/10.2514/5.9781624107290.1007.1012
 [research_standard_practice]: https://doi.org/10.1520/e3410-24
 [research_standard_test]: https://doi.org/10.1520/c1824-16
+[research_stanford_2021]: https://doi.org/10.2514/1.c036315
 [research_stanford_beran_2011]: https://doi.org/10.2514/1.c031185
 [research_stanford_jacobson_2020]: https://doi.org/10.2514/6.2020-2716
 [research_stanford_jacobson_2023]: https://doi.org/10.2514/6.2023-0589
@@ -8770,9 +9921,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_streitenberger_feldwisch_2025]: https://doi.org/10.2514/6.2025-1663
 [research_striz_1991]: https://doi.org/10.21236/ada248487
 [research_striz_lee_1994]: https://doi.org/10.2514/6.1994-4410
+[research_strothteicher_fezans_2026]: https://doi.org/10.2514/1.g009267
+[research_stroudwj_dextercb_1972]: https://ntrs.nasa.gov/citations/19720006238
 [research_structural_aspects_2000]: https://ntrs.nasa.gov/citations/20000053157
 [research_structural_weight_1981]: https://doi.org/10.2514/6.1981-366
 [research_studebakerkaren_abregoanita_1994]: https://ntrs.nasa.gov/citations/19940031465
+[research_study_of_1972]: https://ntrs.nasa.gov/citations/19720018357
 [research_study_on_2022]: https://doi.org/10.47939/et.v3i2.111
 [research_sturgeonrf_1978]: https://ntrs.nasa.gov/citations/19780019128
 [research_sturgeonrf_1978_b]: https://ntrs.nasa.gov/citations/19780068717
@@ -8808,9 +9962,14 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_sun_allwright_1992]: https://doi.org/10.23919/acc.1992.4792367
 [research_sun_chen_2026]: https://doi.org/10.1007/s00158-026-04375-x
 [research_sun_gao_2026]: https://doi.org/10.2139/ssrn.7120563
+[research_sun_guo_2025]: https://doi.org/10.1049/icp.2025.3445
 [research_sun_spinielli_2026]: https://doi.org/10.59490/joas.2026.8750
+[research_sun_wang_2018]: https://doi.org/10.1007/s42405-018-0072-9
 [research_sun_wang_2021]: https://doi.org/10.1063/5.0060604
+[research_sun_zhou_2025]: https://doi.org/10.1155/ijae/9931529
+[research_sun_zhou_2026]: https://doi.org/10.1155/ijae/6628131
 [research_sun_zhu_2022]: https://doi.org/10.3233/atde220068
+[research_sundaram_teja_2024]: https://doi.org/10.1201/9781003545774-72
 [research_sung_spreizer_2025]: https://doi.org/10.2139/ssrn.5966936
 [research_sung_spreizer_2025_b]: https://doi.org/10.1115/detc2025-168977
 [research_sung_spreizer_2026]: https://doi.org/10.2139/ssrn.6689264
@@ -8834,6 +9993,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_szczyglowski_neild_2018]: https://doi.org/10.2514/6.2018-1958
 [research_szczyglowski_neild_2019]: https://doi.org/10.2514/1.c035452
 [research_szodruch_grimme_2011]: https://doi.org/10.1016/j.jairtraman.2010.10.007
+[research_szubert_grossi_2015]: https://doi.org/10.1016/j.jfluidstructs.2015.03.005
 [research_table_1]: https://doi.org/10.7717/peerj.8423/table-1
 [research_table_2]: https://doi.org/10.7717/peerj.8423/table-2
 [research_table_3]: https://doi.org/10.7717/peerj.8423/table-3
@@ -8857,6 +10017,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_takeda_ashcroft_2001]: https://doi.org/10.2514/6.2001-707
 [research_tal_nguyen_2015]: https://doi.org/10.2514/6.2015-2722
 [research_tam_2015]: https://doi.org/10.21236/ada625485
+[research_tamayama_maki_2017]: https://doi.org/10.1299/jsmetld.2017.26.1021
 [research_tang_attar_2006]: https://doi.org/10.2514/1.12634
 [research_tang_chen_2017]: https://doi.org/10.1016/j.apm.2017.04.012
 [research_tang_dowell_2002]: https://doi.org/10.2514/2.1691
@@ -8873,6 +10034,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_tangler_1979]: https://doi.org/10.21236/ada074141
 [research_tani_seki_2018]: https://doi.org/10.2514/6.2018-1794
 [research_tantaroudas_karachalios_2026]: https://doi.org/10.24132/acm.2026.1114
+[research_tao_liu_2013]: https://doi.org/10.1109/icdma.2013.208
 [research_tao_mukarakate_2025]: https://doi.org/10.1007/978-3-031-83721-0_2
 [research_tao_sun_2019]: https://doi.org/10.1016/j.ast.2019.06.041
 [research_tao_zhao_2018]: https://doi.org/10.1142/s0217984918400407
@@ -8881,6 +10043,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_tausifjamal_sethkelly]: https://ntrs.nasa.gov/citations/20250006616
 [research_tausifjamal_sethkelly_b]: https://ntrs.nasa.gov/citations/20250006121
 [research_tavaressilva_lundbladh_2023]: https://doi.org/10.1016/j.ast.2023.108350
+[research_taylor_hunsaker_2020]: https://doi.org/10.2514/6.2020-2113
 [research_taylor_hunsaker_2023]: https://doi.org/10.2514/6.2023-0038
 [research_teeters_pallard_2002]: https://doi.org/10.3940/rina.ya.2002.10
 [research_teeters_pollard_2003]: https://doi.org/10.3940/rina.ijsct.2003.b2.10031
@@ -8897,6 +10060,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_tfaily_kokkolaras_2018]: https://doi.org/10.2514/6.2018-3742
 [research_thanawala_2020]: https://doi.org/10.54660/.ijmrge.2020.1.5.112-115
 [research_thapamagar_pankonien_2018]: https://doi.org/10.2514/6.2018-0850
+[research_thapamagar_reich_2017]: https://doi.org/10.2514/6.2017-1485
 [research_thawait_tandaiya_2022]: https://doi.org/10.1615/tfec2022.aer.040842
 [research_the_boeing_2004]: https://doi.org/10.1108/aeat.2004.12776bab.005
 [research_the_estimated_available_2015]: https://doi.org/10.20535/2219-380412201546101
@@ -8912,12 +10076,14 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_thomas_dowell_2015]: https://doi.org/10.2514/6.2015-3435
 [research_thomas_dowell_2026]: https://doi.org/10.2514/6.2026-0808
 [research_thomas_shkarayev_2026]: https://doi.org/10.2514/6.2026-4006
+[research_thomasdavidfjr_wolhartwalterd_1957]: https://ntrs.nasa.gov/citations/19930085077
 [research_thomasrussellh_burleycaseyl_2014]: https://ntrs.nasa.gov/citations/20140007354
 [research_thomasrussellh_burleycaseyl_2016]: https://ntrs.nasa.gov/citations/20160007659
 [research_thompsonjr_strganac_2000]: https://doi.org/10.2514/6.2000-1413
 [research_thompsonrobertf_1950]: https://ntrs.nasa.gov/citations/19930086384
 [research_thompsonrobertf_moseleywilliamcjr_1956]: https://ntrs.nasa.gov/citations/19930089197
 [research_thorntonstephenv_1993]: https://ntrs.nasa.gov/citations/19940019822
+[research_three_dimensional_boundary_layer_1994]: https://doi.org/10.2514/6.1994-2375
 [research_thurston_2001]: https://doi.org/10.1061/(asce)1084-0680(2001)6:3(116)
 [research_thuwis_debreuker]: https://doi.org/10.4203/ccp.89.112
 [research_tian_feng_2017]: https://doi.org/10.2514/1.c033574
@@ -8938,6 +10104,10 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_ting_chaparro_2017]: https://doi.org/10.2514/6.2017-1815
 [research_ting_mesbahi_2023]: https://doi.org/10.2514/1.g007450
 [research_tingericbiwen_reynoldskevinwayne_2014]: https://ntrs.nasa.gov/citations/20140011160
+[research_tinlingbrucee_karpenav_1955]: https://ntrs.nasa.gov/citations/19930089143
+[research_tinlingbrucee_karpenav_1957]: https://ntrs.nasa.gov/citations/19930084795
+[research_tinlingbrucee_kolkwrichard_1951]: https://ntrs.nasa.gov/citations/19930086535
+[research_tinlingbrucee_lopezarmandoe_1954]: https://ntrs.nasa.gov/citations/19930088077
 [research_tinoco_ball_1986]: https://doi.org/10.2514/6.1986-1811
 [research_tischler_venkayya_1998]: https://doi.org/10.2514/6.1998-4778
 [research_titov_albagachiev_2015]: https://doi.org/10.1007/s11018-015-0590-9
@@ -8947,6 +10117,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_toffol_2024]: https://doi.org/10.3390/app14219883
 [research_tokugawa_yoshida_2006]: https://doi.org/10.2514/6.2006-3165
 [research_tokuslu_2020]: https://doi.org/10.1016/j.energy.2020.118219
+[research_tolsonrh_sobieszczanskisobieskij_1985]: https://ntrs.nasa.gov/citations/19850048076
+[research_tong_zhang_2016]: https://doi.org/10.2514/6.2016-1555
 [research_tonynerone]: https://ntrs.nasa.gov/citations/20240009297
 [research_toon_2024]: https://doi.org/10.64628/ab.33eudpueu
 [research_toor_1973]: https://doi.org/10.2514/6.1973-324
@@ -8992,11 +10164,12 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_tueugenel_1992_b]: https://ntrs.nasa.gov/citations/19930029307
 [research_tueugenel_obayashishigeru_1993]: https://ntrs.nasa.gov/citations/19930064238
 [research_tueugenel_vandalsemwilliamr_1996]: https://ntrs.nasa.gov/citations/20020041911
+[research_tuktarov_chedrik_2015]: https://doi.org/10.1615/tsagiscij.2015014306
 [research_tuling_dala_2013]: https://doi.org/10.2514/6.2013-2823
 [research_tuncer_platzer_1998]: https://doi.org/10.2514/2.2359
 [research_tung_song_2011]: https://doi.org/10.2514/6.2011-168
 [research_turner_1982]: https://doi.org/10.2514/3.57431
-[research_turrizianirv_lovellwa_1980]: https://ntrs.nasa.gov/citations/19810002505
+[research_tuttlemh_maddalondv_1982]: https://ntrs.nasa.gov/citations/19820023769
 [research_tyacke_wang_2019]: https://doi.org/10.2514/1.j057057
 [research_tyler_schwabacher_2002]: https://doi.org/10.2514/6.2002-702
 [research_tzong_sikes_1992]: https://doi.org/10.2514/6.1992-1002
@@ -9011,6 +10184,8 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_ullah_fabijanic_2021]: https://doi.org/10.2514/6.2021-1733
 [research_ullah_fabijanic_2022]: https://doi.org/10.2514/6.2022-3392
 [research_ullah_lutz_2023]: https://doi.org/10.2514/1.c037086
+[research_ulrich_roche_2001]: https://doi.org/10.1007/978-3-540-45359-8_32
+[research_unal_oz_2023]: https://doi.org/10.1108/aeat-02-2022-0056
 [research_unangstjohnr_1959]: https://ntrs.nasa.gov/citations/19980236841
 [research_uncertainty_based_multidisciplinary_2015]: https://doi.org/10.1002/9781118897072.ch10
 [research_unruhjf_scheidtdc_1979]: https://ntrs.nasa.gov/citations/19790052741
@@ -9038,6 +10213,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_vandommelen_1995]: https://doi.org/10.21236/ada329654
 [research_vangaasbeek_1980]: https://doi.org/10.21236/ada089008
 [research_vankan_lammen_2019]: https://doi.org/10.1051/matecconf/201930403008
+[research_vantreuren_sanchez_2021]: https://doi.org/10.2514/6.2021-2225
+[research_vantreuren_sanchez_2021_b]: https://doi.org/10.2514/6.2021-2221
+[research_vantreuren_wisniewski_2022]: https://doi.org/10.1115/gt2022-82330
 [research_vanwyckhouse_1966]: https://doi.org/10.21236/ad0630927
 [research_vanzantedale_2011]: https://ntrs.nasa.gov/citations/20110011738
 [research_vanzantedale_suderkenneth_2015]: https://ntrs.nasa.gov/citations/20150023471
@@ -9052,6 +10230,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_varshney_varshney_2022]: https://doi.org/10.2514/6.2022-1333
 [research_vartio_shaw_2008]: https://doi.org/10.2514/6.2008-7192
 [research_vartio_shimko_2005]: https://doi.org/10.2514/6.2005-1946
+[research_vassbergjohnc_buningpieterg_2002]: https://ntrs.nasa.gov/citations/20030005441
+[research_vatsaveern_dudabenjamin_2019]: https://ntrs.nasa.gov/citations/20200002623
+[research_veernvatsa_johnclin]: https://ntrs.nasa.gov/citations/20200010338
 [research_velasco_2006]: https://doi.org/10.1016/j.electacta.2005.08.028
 [research_velden_1997]: https://doi.org/10.1007/978-3-7091-2658-5_19
 [research_vemula_duponcheel_2023]: https://doi.org/10.1615/tfec2023.aer.046042
@@ -9068,6 +10249,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_vijgenpmhw_hardinjd_1992]: https://ntrs.nasa.gov/citations/19930018259
 [research_vikenjeff_pfenningerw_1991]: https://ntrs.nasa.gov/citations/19910059015
 [research_vikenjeffreyk_watsonvikensallya_1987]: https://ntrs.nasa.gov/citations/19900003224
+[research_vikensally_2015]: https://ntrs.nasa.gov/citations/20160006957
 [research_vile_alwi_2019]: https://doi.org/10.23919/acc.2019.8814298
 [research_vile_alwi_2019_b]: https://doi.org/10.1109/cdc40024.2019.9030030
 [research_vineeth_patel_2022]: https://doi.org/10.1063/5.0082400
@@ -9091,15 +10273,18 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_voracekdavidf_1990]: https://ntrs.nasa.gov/citations/19910009768
 [research_voracekdavidf_1993]: https://ntrs.nasa.gov/citations/19940006761
 [research_voracekdavidf_clarkerobert_1991]: https://ntrs.nasa.gov/citations/19910047389
+[research_vos_2019]: https://doi.org/10.35294/ls201902.vos1
 [research_vos_charbonnier_2020]: https://doi.org/10.1007/978-3-030-36514-1_5
 [research_voss_frohler_2026]: https://doi.org/10.2514/6.2026-4001
 [research_wada_igawa_2018]: https://doi.org/10.1364/ofs.2018.wf98
 [research_waggoneredgarg_1986]: https://ntrs.nasa.gov/citations/19880014356
 [research_waggoneredgarg_campbellrichardl_1986]: https://ntrs.nasa.gov/citations/19880005566
 [research_wagner_maddalon_1990]: https://doi.org/10.2514/3.45925
+[research_wagnero_1981]: https://ntrs.nasa.gov/citations/19810018537
 [research_wagnerrd_1986]: https://ntrs.nasa.gov/citations/19870025747
 [research_wahler_ma_2025]: https://doi.org/10.3390/aerospace12020077
 [research_wahlich_bismark_2024]: https://doi.org/10.2514/6.2024-1303
+[research_wai_herling_1994]: https://doi.org/10.2514/6.1994-657
 [research_wai_yoshihara_1982]: https://doi.org/10.2514/6.1982-255
 [research_waitejosiahm_stanfordbretk_2019]: https://ntrs.nasa.gov/citations/20200002401
 [research_wakayama_1998]: https://doi.org/10.2514/6.1998-4938
@@ -9108,6 +10293,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_wakayama_kroo_1995]: https://doi.org/10.2514/3.46786
 [research_wakayama_page_1996]: https://doi.org/10.2514/6.1996-4003
 [research_walker_kaufman_1977]: https://doi.org/10.21236/ada042114
+[research_walkerharoldj_berggrenroberte_1948]: https://ntrs.nasa.gov/citations/19930090356
 [research_wall_amoozgar_2025]: https://doi.org/10.1115/ssdm2025-152407
 [research_walterasilva_ericvartio_2007]: https://ntrs.nasa.gov/citations/20070028870
 [research_wan_cesnik_2013]: https://doi.org/10.2514/6.2013-1894
@@ -9121,7 +10307,9 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_wang_hao_2025]: https://doi.org/10.1142/s0219455426503724
 [research_wang_he_2025]: https://doi.org/10.3390/aerospace12090807
 [research_wang_he_2026]: https://doi.org/10.1177/09560599261447634
+[research_wang_inman_2017]: https://doi.org/10.1002/9781118928691.ch14
 [research_wang_li_2015]: https://doi.org/10.2514/6.2015-2243
+[research_wang_li_2016]: https://doi.org/10.2514/6.2016-2006
 [research_wang_li_2022]: https://doi.org/10.1007/s42405-022-00442-x
 [research_wang_li_2025]: https://doi.org/10.3390/aerospace12090846
 [research_wang_liu_2024]: https://doi.org/10.1007/s40747-024-01612-y
@@ -9138,6 +10326,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_wang_tang_2019]: https://doi.org/10.23919/chicc.2019.8865402
 [research_wang_ting_2024]: https://doi.org/10.1016/j.ccst.2024.100263
 [research_wang_tyacke_2018]: https://doi.org/10.1016/j.crme.2018.07.003
+[research_wang_vankampen_2017]: https://doi.org/10.2514/6.2017-1400
 [research_wang_vankampen_2018]: https://doi.org/10.2514/6.2018-0774
 [research_wang_vankampen_2019]: https://doi.org/10.2514/1.g003980
 [research_wang_wan_2019]: https://doi.org/10.2514/6.2019-0004
@@ -9148,6 +10337,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_wang_yang_2019]: https://doi.org/10.1115/msec2019-3062
 [research_wang_yu_2025]: https://doi.org/10.1016/j.cja.2025.103603
 [research_wang_zha_2019]: https://doi.org/10.2514/6.2019-0034
+[research_wang_zhou_2025]: https://doi.org/10.2139/ssrn.5799964
 [research_wangyi_pantkapil_2018]: https://ntrs.nasa.gov/citations/20180000581
 [research_wangyi_songhongjun_2016]: https://ntrs.nasa.gov/citations/20160000869
 [research_warner_ozgur_1980]: https://doi.org/10.21236/ada088148
@@ -9158,6 +10348,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_waszak_davidson_2002]: https://doi.org/10.2514/6.2002-4875
 [research_waters_voskuijl_2013]: https://doi.org/10.1016/j.ast.2013.01.004
 [research_watson_1973]: https://doi.org/10.21236/ad0757116
+[research_watsonjj_1982]: https://ntrs.nasa.gov/citations/19820017338
 [research_wayhslopes_dowell_2020]: https://doi.org/10.1016/j.jfluidstructs.2020.103054
 [research_wayman_coder_2025]: https://doi.org/10.2514/6.2025-3185
 [research_wayman_coder_2026]: https://doi.org/10.2514/6.2026-1179
@@ -9169,6 +10360,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_wei_liu_2026]: https://doi.org/10.1063/5.0311606
 [research_wei_masood_2017]: https://doi.org/10.1109/ibcast.2017.7868039
 [research_wei_zheng_2024]: https://doi.org/10.3390/app14135463
+[research_weibergjamesa_holzhausercurta_1961]: https://ntrs.nasa.gov/citations/19980228286
 [research_weilbrenner_trepanier_2012]: https://doi.org/10.2514/6.2012-5649
 [research_weinold_mckenna_2026]: https://doi.org/10.21105/joss.09280
 [research_weiss_heinze_2013]: https://doi.org/10.2514/6.2013-2521
@@ -9189,24 +10381,36 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_wentzwhjr_nagatimg_1975]: https://ntrs.nasa.gov/citations/19760003924
 [research_wentzwhjr_nyenhuisr_1984]: https://ntrs.nasa.gov/citations/19840058557
 [research_werter_debreuker_2016]: https://doi.org/10.1016/j.compstruct.2016.09.044
+[research_westfejr_1959]: https://ntrs.nasa.gov/citations/19980223614
+[research_wetzelbentone_1955]: https://ntrs.nasa.gov/citations/19930088987
+[research_wetzelbentone_1955_b]: https://ntrs.nasa.gov/citations/19930088458
+[research_wetzelbentone_pfylfranka_1954]: https://ntrs.nasa.gov/citations/19930088269
 [research_wey_lee_2018]: https://doi.org/10.1201/b20287-3
 [research_wheatcroft_groh_2025]: https://doi.org/10.1017/aer.2025.10113
+[research_whitcombrichardt_1947]: https://ntrs.nasa.gov/citations/20030063954
+[research_whitcombrichardt_1957]: https://ntrs.nasa.gov/citations/20090026510
+[research_white_1970]: https://doi.org/10.2514/6.1970-877
+[research_white_1971]: https://doi.org/10.2514/3.59169
 [research_white_crimi_1961]: https://doi.org/10.21236/ad0275102
 [research_whiteedwardv_kapaniarakeshk_2015]: https://ntrs.nasa.gov/citations/20150017734
 [research_whiteheadrs_foremancr_1992]: https://ntrs.nasa.gov/citations/19950022016
 [research_whitlowwjr_bennettrm_1982]: https://ntrs.nasa.gov/citations/19820046621
 [research_whitlowwoodrowjr_1993]: https://ntrs.nasa.gov/citations/19930055501
+[research_widhalm_ronzheimer_2007]: https://doi.org/10.2514/6.2007-4060
 [research_wienke_bertsch_2023]: https://doi.org/10.2514/6.2023-4170
 [research_wiesmancarold_silvawaltera_2005]: https://ntrs.nasa.gov/citations/20050196822
 [research_wieszala_kolodziej_2022]: https://doi.org/10.1109/ntad57912.2022.10013540
 [research_wieyongsun_collierfayettesjr_1992]: https://ntrs.nasa.gov/citations/19920043629
 [research_wieys_collierfsjr_1991]: https://ntrs.nasa.gov/citations/19920057341
+[research_wild_2012]: https://doi.org/10.2514/6.2012-108
+[research_wild_2013]: https://doi.org/10.2514/1.c032138
 [research_wild_2021]: https://doi.org/10.1201/9781003220459-6
 [research_wildermuth_rothammer_1974]: https://doi.org/10.21236/ada002854
 [research_wildermuth_rothammer_1974_b]: https://doi.org/10.21236/ada002873
 [research_wildschek_2014]: https://doi.org/10.2514/6.2014-0599
 [research_wildschek_hanis_2013]: https://doi.org/10.1051/eucass/201306707
 [research_wildschek_maier_2006]: https://doi.org/10.2514/6.2006-6054
+[research_wilhiteaw_rehderjj_1979]: https://ntrs.nasa.gov/citations/19790050696
 [research_williamjcoupe_swatisaxena_2024]: https://ntrs.nasa.gov/citations/20240007629
 [research_williams_1972]: https://doi.org/10.2514/6.1972-756
 [research_williams_1973]: https://doi.org/10.2514/3.60234
@@ -9214,9 +10418,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_williams_wynn_1989]: https://doi.org/10.21236/ada210579
 [research_willis_anwar_2018]: https://doi.org/10.2514/6.2018-0312
 [research_wilmott_1986]: https://doi.org/10.1017/s0001924000015347
+[research_wilsonwilliamc_moorejasonp_2016]: https://ntrs.nasa.gov/citations/20160010142
 [research_winbladerl_1980]: https://ntrs.nasa.gov/citations/19800059944
+[research_wing_weight_1981]: https://ntrs.nasa.gov/citations/19810014535
 [research_winkelmann_1989]: https://doi.org/10.2514/6.1989-570
 [research_wintzer_2010]: https://doi.org/10.2514/1.c031049
+[research_wisniewski_vantreuren_2022]: https://doi.org/10.1115/gt2022-81579
+[research_wisniewski_vantreuren_2022_b]: https://doi.org/10.1115/1.4056015
 [research_withdrawal_notice_2020]: https://doi.org/10.4271/2020-01-0472.1
 [research_woanchungjin_gingrichphilipb_1991]: https://ntrs.nasa.gov/citations/19910034548
 [research_woehler_burschyk_2023]: https://doi.org/10.2514/6.2023-3229
@@ -9237,6 +10445,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_wrenn_dovi_1987]: https://doi.org/10.2514/6.1987-714
 [research_wrightas_1979]: https://ntrs.nasa.gov/citations/19790011929
 [research_wu_fu_2025]: https://doi.org/10.3390/math13243986
+[research_wu_li_2024]: https://doi.org/10.1016/j.ast.2024.109693
 [research_wu_li_2025]: https://doi.org/10.1016/j.tws.2025.113710
 [research_wu_liao_2025]: https://doi.org/10.1063/5.0291537
 [research_wu_liu_2024]: https://doi.org/10.1016/b978-0-323-95362-7.00001-7
@@ -9274,6 +10483,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_xiong_nguyen_2023_c]: https://doi.org/10.2514/6.2023-1575
 [research_xiong_nguyen_2024]: https://doi.org/10.2514/6.2024-2668
 [research_xiong_nguyen_2026]: https://doi.org/10.2514/6.2026-1111
+[research_xiong_peng_2025]: https://doi.org/10.1063/5.0270945
 [research_xiong_peng_2026]: https://doi.org/10.1016/j.ast.2025.110877
 [research_xiong_shen_2024]: https://doi.org/10.1007/978-981-97-6211-8_13
 [research_xiong_yi_2026]: https://doi.org/10.1016/j.ast.2026.112223
@@ -9325,10 +10535,13 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_yang_striz_1981]: https://doi.org/10.2514/3.57576
 [research_yang_wan_1978]: https://doi.org/10.21236/ada061942
 [research_yang_wang_2015]: https://doi.org/10.1260/1369-4332.18.2.173
+[research_yang_wu_2013]: https://doi.org/10.2514/6.2013-1487
 [research_yang_wu_2025]: https://doi.org/10.1063/5.0280452
+[research_yang_xiao_2010]: https://doi.org/10.1007/s11431-010-4103-4
 [research_yang_xie_2019]: https://doi.org/10.1177/0954410019885238
 [research_yang_yang_2012]: https://doi.org/10.1007/s11431-012-4933-3
 [research_yang_yao_2025]: https://doi.org/10.1016/j.resconrec.2025.108124
+[research_yang_zhang_2025]: https://doi.org/10.1063/5.0305585
 [research_yanto]: https://doi.org/10.14711/thesis-hdl174884
 [research_yanto_liem_2018]: https://doi.org/10.1016/j.trd.2018.09.014
 [research_yao_ma_2021]: https://doi.org/10.1016/j.cja.2021.01.007
@@ -9354,7 +10567,6 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_yolum_aydin_2025]: https://doi.org/10.4050/f-0081-2025-0181
 [research_yoo_2018]: https://doi.org/10.2514/6.2018-3009
 [research_york_2006]: https://doi.org/10.2514/1.16277
-[research_yorkp_labellrw_1980]: https://ntrs.nasa.gov/citations/19810014535
 [research_yoshida_tani_1993]: https://doi.org/10.2514/6.1993-3960
 [research_yossri_bouma_2021]: https://doi.org/10.2514/6.2021-0906
 [research_young_2010]: https://doi.org/10.1002/9780470686652.eae250
@@ -9377,9 +10589,11 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_yue_2026]: https://doi.org/10.2514/6.2026-4344
 [research_yue_wang_2009]: https://doi.org/10.2514/6.2009-6155
 [research_yuhara_kubota_2018]: https://doi.org/10.2514/6.2018-0046
+[research_yuhong_guanxin_2017]: https://doi.org/10.1109/icmae.2017.8038694
 [research_yurkovich_2008]: https://doi.org/10.2514/6.2008-1899
 [research_yurkovich_2009]: https://doi.org/10.2514/6.2009-2514
 [research_zacharydwindous_jesserquinlan]: https://ntrs.nasa.gov/citations/20230004275
+[research_zafirov_2013]: https://doi.org/10.2514/6.2013-5087
 [research_zaraska_2025]: https://doi.org/10.1016/s0262-4079(25)00754-7
 [research_zareshahnehb_2022]: https://doi.org/10.31031/nrs.2022.13.000801
 [research_zauner_moise_2023]: https://doi.org/10.1007/s10494-023-00415-4
@@ -9389,6 +10603,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_zelinski_recine_2025]: https://doi.org/10.2514/6.2025-3101
 [research_zeng_de_2012]: https://doi.org/10.5772/31136
 [research_zeng_kukreja_2012]: https://doi.org/10.2514/1.56790
+[research_zeng_moulin_2008]: https://doi.org/10.2514/6.2008-6373
 [research_zeng_moulin_2010]: https://doi.org/10.2514/1.46091
 [research_zeng_qian_2017]: https://doi.org/10.2514/6.2017-4146
 [research_zerihan_zhang_2000]: https://doi.org/10.2514/2.2711
@@ -9402,6 +10617,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_zhang_cao_2026]: https://doi.org/10.1016/j.ast.2025.111291
 [research_zhang_chen_2011]: https://doi.org/10.2514/6.2011-27
 [research_zhang_chen_2020]: https://doi.org/10.1016/j.compstruct.2019.111696
+[research_zhang_dai_2026]: https://doi.org/10.2514/1.j066148
 [research_zhang_deng_2026]: https://doi.org/10.3390/aerospace13010098
 [research_zhang_duan_2018]: https://doi.org/10.2991/icaita-18.2018.36
 [research_zhang_fang_2015]: https://doi.org/10.1016/j.ast.2015.02.024
@@ -9412,6 +10628,7 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_zhang_kou_2016]: https://doi.org/10.2514/1.j054951
 [research_zhang_li_2023]: https://doi.org/10.1016/j.cja.2023.04.016
 [research_zhang_li_2026]: https://doi.org/10.1016/j.measurement.2025.118820
+[research_zhang_liu_2017]: https://doi.org/10.2514/1.c033511
 [research_zhang_meng_2022]: https://doi.org/10.1063/5.0122064
 [research_zhang_qiu_2024]: https://doi.org/10.3390/act13060229
 [research_zhang_shan_2017]: https://doi.org/10.1360/n092016-00329
@@ -9455,14 +10672,18 @@ The answer is that it comes from an airport. **The wing folds at 118 feet and 11
 [research_zhou_huang_2021]: https://doi.org/10.1007/s11071-021-06577-y
 [research_zhou_huang_2021_b]: https://doi.org/10.1016/j.cnsns.2021.105946
 [research_zhou_huang_2024]: https://doi.org/10.1016/j.measurement.2024.114279
+[research_zhou_wu_2022]: https://doi.org/10.3390/aerospace9040225
+[research_zhou_zhao_2025]: https://doi.org/10.2139/ssrn.5605077
 [research_zhu_fan_2019]: https://doi.org/10.1016/j.cja.2019.08.003
 [research_zhu_jin_2009]: https://doi.org/10.1109/cise.2009.5362656
 [research_zhu_li_2019]: https://doi.org/10.2514/1.j058011
 [research_zhu_qiu_2005]: https://doi.org/10.2514/6.2005-6338
+[research_zhu_wang_2020]: https://doi.org/10.1142/s0217979220400834
 [research_zhu_xia_1994]: https://doi.org/10.1007/978-3-7091-9310-5_31
 [research_zimmermann_mayer_2018]: https://doi.org/10.2514/1.j056193
 [research_zink_mavris_1998]: https://doi.org/10.2514/6.1998-4781
 [research_zink_mavris_1999]: https://doi.org/10.4271/1999-01-5640
+[research_zink_raveh_2000]: https://doi.org/10.2514/6.2000-1439
 [research_zink_raveh_2002]: https://doi.org/10.2514/6.2002-5603
 [research_zink_raveh_2003]: https://doi.org/10.2514/2.3126
 [research_zink_raveh_2004]: https://doi.org/10.2514/1.64
