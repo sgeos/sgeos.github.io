@@ -118,9 +118,21 @@ allocation rather than about one cell.
 | Partly unofficial description | Part of the description is official wording and part is not | 13 |
 | Unofficial row | The allocation itself is absent from officially released data | 16 |
 
+**The four states are exhaustive and disjoint, which is what makes any officiality count meaningful**,
+and the article states the partition rather than assuming it.
+
+$$
+\lvert \mathcal{R} \rvert \;=\; \lvert \mathcal{R}_{\mathrm{off}} \rvert
++ \lvert \mathcal{R}_{\mathrm{cell}} \rvert
++ \lvert \mathcal{R}_{\mathrm{span}} \rvert
++ \lvert \mathcal{R}_{\mathrm{row}} \rvert
+$$
+
 **So 98 of the 532 well-formed rows carry a mark of some kind.** The
 distinction between the second state and the fourth is the one this article leans on, and merging them
-would destroy the comparison the next section makes.
+would destroy the comparison the next section makes. **The verifier asserts the identity**, so a row
+falling into none of the four or into two of them would fail the build rather than quietly change a
+total.
 
 ### The Absence Is Measured and Not Quoted
 
@@ -134,18 +146,47 @@ from 37 to 76, which is a span of 40 positions, and **fifteen of those
 positions carry no row at all**, being 38, 39, 41, 42, 43, 52, 58, 67, 69, 70, 71, 72, 73, 74 and 75. **The number 67 is among them, and the count
 of research-series rows carrying the design number 67 is zero.**
 
-**That absence divides into two kinds and only one kind is evidence.** The register opens on 19 August
-1998, so a designation allocated before that date is absent from it for a reason that has nothing to do
-with being skipped. **five of the fifteen absences fall in that category**, being
+**That absence divides into two kinds and only one kind is evidence**, and the division is a disjoint
+decomposition of the set above.
+
+$$
+A \;=\; A_{\mathrm{out}} \,\sqcup\, A_{\mathrm{in}}
+$$
+
+**The register opens on 19 August 1998, so a designation allocated before that date is absent from it
+for a reason that has nothing to do with being skipped.** **five of the fifteen absences fall in that category**, being
 38, 39, 41, 42 and 43, and this series has already written three of them as real allocations that
 predate the window. **ten fall inside the window**, being 52, 58, 67, 69, 70, 71, 72, 73, 74 and 75, and
 for those the absence is informative because their neighbours are in the same document.
 
-**The share is worth stating because it is larger than a reader would guess.** 37.5 percent
-of the positions in the span the register covers carry no research-series row. **And the series is not
-fast.** The 29 dated research rows span 26.289 years, which is
-1.1031 allocations per year. **A series issuing roughly one number a year has lost
-ten numbers inside its own document**, which is more than a decade of its own output.
+**The share is worth stating because it is larger than a reader would guess, and it is the ratio of the
+two counts above.** Writing the set of absent numbers as $A$ and the span's endpoints as $d_{\min}$ and
+$d_{\max}$ gives the completeness of the record directly.
+
+$$
+\gamma_A \;=\; \frac{\lvert A \rvert}{d_{\max} - d_{\min} + 1}
+$$
+
+**That evaluates to 37.5 percent.** More than a third of the positions in the span the
+register covers carry no research-series row at all.
+
+**And the series is not fast, which is what makes that share matter.** The allocation rate over the
+window is the count of dated rows divided by the interval they span.
+
+$$
+\lambda \;=\; \frac{n}{t_n - t_1}
+$$
+
+**The 29 dated research rows span 26.289 years, so $\lambda$ is
+1.1031 allocations per year.** Dividing the numbers lost inside the window by that rate converts
+them into the series' own output.
+
+$$
+\Delta t_A \;=\; \frac{\lvert A_{\mathrm{in}} \rvert}{\lambda}
+$$
+
+**That is 9.07 years.** A series issuing roughly one number a year has lost
+ten numbers inside its own document, **which is a decade of its own output.**
 
 **That is a different arithmetic from the one the earlier article did and it answers a different
 question.** The [X-58][related_post_a355_x58_slot_taken_by_xq58] article computed the rate at which the
@@ -374,9 +415,16 @@ programme returns five contracts, all awarded in the spring of 2019
 | FA865019F2501 | Aurora Flight Sciences | 1,191,580.19 | 2019-03-22 |
 
 **The count of five matches the laboratory's own sentence about five industry vendors, which is
-the only corroboration available for it.** The total is 24,479,631.19 dollar. **The firm that
-eventually built the aeroplane already held 43.60 percent of that money**, and the top two
-awards together held 83.53 percent. The eventual winner's award was
+the only corroboration available for it.** The total is 24,479,631.19 dollar. **Every share quoted in
+this section is the same relation**, which is one award over the sum of them, written once here and not
+again.
+
+$$
+\varsigma_i \;=\; \frac{c_i}{\sum_j c_j}
+$$
+
+**The firm that eventually built the aeroplane already held 43.60 percent of that money**,
+and the top two awards together held 83.53 percent. The eventual winner's award was
 1.0922 times the second largest and 7.710 times the fourth.
 
 **All five of those firms hold research-series designations in their own right, and
@@ -402,9 +450,18 @@ reported matching cost-plus-fixed-fee contracts of 17,700,000.00 dollar each, po
 further fifteen
 \[[Kratos, General Atomics Get Contracts for Off-Board Sensing Station][ref_asf_obss_2021]].
 
+**Comparing an outturn against a reported figure is the other relation this section uses repeatedly**,
+and it is a relative deviation from a reference.
+
+$$
+\epsilon \;=\; \frac{c - c_{\mathrm{ref}}}{c_{\mathrm{ref}}}
+$$
+
 **Against those figures the award record shows one contract at 3.8410 times its reported base
 and 38.75 percent above its reported ceiling, an excess of 18,986,112.00 dollar, while the
 other ended at 90.41 percent of its reported base, 9.59 percent short.**
+**The two deviations have opposite signs**, which is the shape of a competition resolved rather than
+completed and is the only thing this pair of numbers establishes.
 One contract grew past the maximum its own option defined and the other stopped before its minimum. **The
 sum of the two is 83,989,414.00 dollar, which is 3.431 times the whole platform-sharing
 programme that preceded it.**
@@ -445,8 +502,15 @@ the end of 2022.** The record contains no document that chooses, and the designa
 | First flight | 2024-02-28 | 1,805 |
 
 **The designation came 631 days after the build contract and 224 days before
-first flight.** Measured against the 855 days from build contract to first flight, **the
-number arrived with 73.8 percent of that interval already elapsed.** The aeroplane was
+first flight.** Placing an event inside an interval is a ratio of two differences, and it is the last
+relation this section needs.
+
+$$
+f \;=\; \frac{t_{\mathrm{event}} - t_{\mathrm{start}}}{t_{\mathrm{end}} - t_{\mathrm{start}}}
+$$
+
+**Measured against the 855 days from build contract to first flight, the number arrived
+with 73.8 percent of that interval already elapsed.** The aeroplane was
 contracted, designed and largely built before it had a designation.
 
 **That is a sixth ordering between a number and an aeroplane and the closing article should have it.**
@@ -532,6 +596,55 @@ refutes it.** Searching every draft and post for the procedural phrase returns t
 about novelty rather than an error about the instruction**, and it is recorded here because a series that
 reports its own method defects owes the same treatment to the ones it catches between passes.
 
+### The Rule Changed, and the Register Holds the Before-Case in the Same Series
+
+**The research series contains one number that was skipped and later recovered, and the equation above
+is what found it.** The pointer advanced from 48 to 50 on 2002-02-13, passing the 49, and the X-49A was
+allocated on 2003-05-23, **464 days later** \[[DOD 4120.15-L Addendum][ref_mds_addendum]]. The
+[X-49][related_post_a346_piasecki_x49] article records why the number was passed, which is that the
+round fifty was wanted for a rotorcraft, and that the vacancy was filled when a programme changed
+sponsor. **What that article did not ask is whether the fill was permitted.**
+
+**It was, and the edition then in force says so in one sentence.** The joint instruction of 9 September
+1994, which implements a Department directive of 1985, states the procedure plainly.
+
+> HQ ASC/ENOS will assign the next available consecutive design number within each basic mission for new
+> vehicles.
+
+**Next available is not the same quantity as last approved, and the difference is the whole of this
+article's mechanism.** A number that has been passed is **available**, so under the 1994 rule the 49 was
+the next available number in May 2003 and the X-49A is the instruction obeyed rather than bent. **Under
+the 2020 rule the next number is derived from the last approved one, and a passed number is behind the
+pointer and unrequestable.**
+
+**The word skip does not appear in the 1994 instruction at all**, which is the finding the
+[X-52][related_post_a349_x52_designation_refused] article recorded when it read the same document for a
+refusal in 2006 \[[AFJI 16-401, 9 September 1994][ref_afji_16_401_1994]]. **That article dated the
+arrival of a bare discretion to skip to the 2020 issue.** This one adds what the same change did to the
+other direction, **which is that it closed the route the X-49A had used.**
+
+**So the four research-series numbers skipped and not recovered were skipped under three different
+regimes and only the last of them was unrecoverable from the start.**
+
+| Number | Skipped | Rule then in force | Why it was not recovered |
+|---:|---|---|---|
+| 49 | 2002-02-13 | next available consecutive | **it was recovered**, 464 days later |
+| 52 | 2006-08-16 | next available consecutive | it had been refused on confusability grounds, which is a different bar |
+| 58 | 2018-06-21 | next available consecutive | nobody asked, and the route closed in 2020 |
+| 67 | 2025-08-20 | last approved, skipped sequences refused | the route was already closed |
+
+**The X-67 is therefore the first number in the research series to be skipped under a rule that makes
+skipping permanent.** That is a dated claim from primary text and it is the sharpest statement this
+article can make about why the slot is empty. **The X-58's slot was recoverable for the first two years
+of its existence and nobody wanted it. The X-67's never was.**
+
+**Two caveats, and both are limits on what was read rather than on the argument.** This article can read
+two editions, the joint instruction of 1994 and the Department instruction of 2020, **and whether an
+edition between them changed the language earlier is not established here.** And the 1994 instruction's
+sentence is about what the coordinating office **will assign** rather than about what a requester may
+**ask for**, so reading it as permitting a fill is an inference from a procedural duty. **The X-49A is
+the evidence that the inference is right**, because the fill happened.
+
 ### Three Readings of the X-68A, and the Record Chooses None
 
 **The X-68A is the strongest evidence in the record that somebody treated the X-67 as spent, and it is
@@ -577,6 +690,50 @@ unrequestable, states when it became so, and declines to say who made it so.**
 circular for this purpose.** He writes that the next available design number in the research series is
 X-69 \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. **That figure presupposes that 67
 and 68 are both gone, which is the proposition at issue for the 67.**
+
+### Three Definitions of the Next Number, Written Down
+
+**The article has been using the phrase the next number in three different senses and they need
+separating, because the X-68A's number is correct under one of them and not under the others.** Let
+$\mathcal{A}_t$ be the set of design numbers allocated in a basic mission before a date $t$.
+
+$$
+\nu^{\mathrm{hi}}_t \;=\; 1 + \max \mathcal{A}_t
+$$
+
+$$
+\nu^{\mathrm{seq}}_t \;=\; \min \bigl\{\, n \ge 1 \;:\; n \notin \mathcal{A}_t \,\bigr\}
+$$
+
+$$
+\nu^{\mathrm{rec}}_t \;=\; 1 + d\bigl(\arg\max_{\,a \in \mathcal{A}_t} t_a\bigr)
+$$
+
+**The first is one above the highest number ever allocated. The second is the lowest number never
+allocated. The third is one above the most recently allocated number**, which differs from the first
+whenever an allocation has been made below the pointer.
+
+**The 2020 instruction's procedure names the first, in the words last approved design number. The 1994
+instruction named the second, in the words next available consecutive.** The compiler's published
+figures follow neither cleanly, because he excludes the allocations he judges out of sequence before
+applying the first. **And his derivation for the FQ-48 follows the third**, since the fighter numbers
+reach 117 while he reads the 48 as following the 47.
+
+**The second definition cannot be computed from the public record at all, and a first draft of this
+section claimed otherwise.** Evaluating the lowest never-allocated number over the register returns
+1, because the register opens on 19 August 1998 and carries no row for the X-1 through
+the X-36. **The quantity the 1994 instruction named is therefore not derivable from the only public
+source of the thing it governs**, which is a fourth consequence of the printed list's withdrawal and not
+a defect in the register.
+
+**Of the two definitions that are computable, both gave 67 on the day the X-68A was
+approved.** At 2025-08-20 the highest research design number allocated was
+66 and the most recently allocated was 66, carried by the
+X-66A, so one above either is 67.
+
+**So under either computable reading of the instruction the X-68A should have been the X-67A.** That is
+the sharpest form of the problem the next section addresses, **and it is why the three readings there are
+needed**, since the arithmetic alone does not produce the number the government issued.
 
 **His convention is also not the maximum, and seeing that is what shows the figure to be a judgement.**
 The register carries an X-76A, allocated on 20 October 2025, so the highest research design number is
@@ -699,6 +856,106 @@ levels.** A major design change earns a new number. A major modification earns a
 the instruction says how to tell one from the other**, and the only concrete test offered anywhere is the
 series letter's clause about changing the logistics support of the vehicle.
 
+### The Instruction's Claim Has a Testable Consequence and the Register Fails It
+
+**The sixteenth-approved-designator sentence is not decoration. It is a claim with a consequence, and the
+consequence can be checked.** If the design number is the ordinal of the allocation within its basic
+mission, then the $k$th design number allocated in that mission is $k$ itself.
+
+$$
+d_k \;=\; k
+$$
+
+**That form cannot be tested against this register, and saying why is half the measurement.** The
+register opens on 19 August 1998 and most basic missions were already numbering by then, so the origin
+of each sequence is outside the document and no ordinal can be read off it. **Differencing the claim
+removes the origin.**
+
+$$
+\Delta_k \;=\; d_k - d_{k-1} \;=\; 1
+$$
+
+**So the instruction's definition implies that each new design number exceeds the previous new one by
+exactly one, and that implication survives an unknown starting point.** Only first allocations enter the
+walk, because a second row on a number already allocated is a series letter or a modified mission on an
+existing design rather than a new design number.
+
+**One refinement was needed and the first version of this measurement did not have it.** A row whose
+series letter is B or later is evidence that its design number existed before the row, whatever the
+register carries, **because the series letter counts models of a number that was already approved.**
+Without that filter the walk counted the X-40B as a new design number and reported a step of minus four
+from the X-44A, **which is the register's own edge misread as a government decision.**
+
+**With the filter the research series gives 23 new design numbers over
+22 steps, of which fifteen are exactly one, or 68.2 percent.** The unmanned
+series gives 30 over 29 steps with nine exactly one, or
+31.0 percent.
+
+### The Increment and the Pointer Measure Different Things, and the Article Needs Both
+
+**An increment of one and a pointer advancing by one are not the same statement, and conflating them
+double-counts.** Write the running maximum as the pointer, which is the quantity the allocation
+procedure actually reads, and define its advance.
+
+$$
+\nu_k \;=\; \max_{\,j \le k} d_j
+\qquad\text{and}\qquad
+\alpha_k \;=\; \nu_k - \nu_{k-1}
+$$
+
+**The two differ exactly when a number below the pointer is allocated**, and there the identity is
+immediate.
+
+$$
+\alpha_k \;=\; 0
+\qquad\Longleftrightarrow\qquad
+d_k \;\le\; \nu_{k-1}
+$$
+
+**An allocation below the pointer makes its own increment negative and inflates the next one by the same
+amount**, so counting skips off the increment counts each out-of-order allocation twice. The pointer does
+not have that defect, and the numbers actually skipped are the advances in excess of one.
+
+$$
+\lvert A_{\mathrm{skip}} \rvert \;=\; \sum_{k \,:\, \alpha_k > 1} \bigl(\alpha_k - 1\bigr)
+$$
+
+**For the research series that sum is eleven, across five advances greater than one,
+with sixteen advances of exactly one and one of zero, over 22 steps.** The
+obedience rate is therefore the share of advances equal to one.
+
+$$
+\theta \;=\; \frac{\lvert \{\, k : \alpha_k = 1 \,\} \rvert}{\lvert \{\, k \,\} \rvert}
+$$
+
+**That is 72.7 percent for the research series and 50.4 percent across the whole
+register**, being 67 advances of one in 133 steps, with
+43 allocations below the pointer.
+
+**And the research series is the best-behaved sequence in the register, which sharpens the finding
+rather than softening it.** Among the three basic missions with at least twenty steps the
+rates are 72.7 percent for the X series over 22 steps, 51.5 percent for the M series over 33 steps and 44.8 percent for the Q series over 29 steps. **The X-67 was lost from the one numbering sequence in this register that
+mostly does follow the rule.**
+
+### Every Research-Series Skip Has a Cause This Series Has Written About
+
+**The five advances greater than one are not a statistical tail. They are a list, and it is this series'
+own table of contents.**
+
+| After | Allocated | Date | Numbers skipped | What this series says happened |
+|---:|---|---|---|---|
+| 48 | X-50A | 2002-02-13 | 49 | the number was passed over so that a rotorcraft could have the round fifty, and the [X-49][related_post_a346_piasecki_x49] article records it |
+| 51 | X-53A | 2006-08-16 | 52 | the [X-52][related_post_a349_x52_designation_refused] was requested and refused for resembling a bomber |
+| 57 | X-59A | 2018-06-21 | 58 | the [X-58][related_post_a355_x58_slot_taken_by_xq58] was consumed by an unmanned allocation |
+| 66 | X-68A | 2025-08-20 | 67 | this article |
+| 68 | X-76A | 2025-10-20 | 69 to 75 | the block leapfrogged for a number chosen as a nod to 1776 |
+
+**And the one advance of zero is the one number that came back.** The X-49A was allocated on 2003-05-23,
+464 days after the X-50A had passed it, filling a gap the pointer had already crossed
+\[[DOD 4120.15-L Addendum][ref_mds_addendum]]. **So the register contains exactly
+one research-series number that was skipped and later recovered**, and the next section is
+about why that number could be recovered and the X-67 cannot.
+
 ### Six Pairs of Numbers in the Register Carry the Same Official Sentence
 
 **If the design number were an ordinal over designs, two different numbers should not describe the same
@@ -731,12 +988,65 @@ of them \[[DOD 4120.15-L Addendum][ref_mds_addendum]] \[[X-Planes: Invocon X-64]
 distinguish these pairs, so whatever distinguishes two design numbers in the register's practice is not
 the stated purpose. **In five of six cases it is the designing organisation.**
 
+### The Two Candidate Readings Are an Injectivity and a Well-Definedness, and Both Fail
+
+**Stating the two readings as properties of maps makes the failures precise and makes them countable.**
+Let $\mathcal{N}$ be the set of mission-and-number pairs the register carries, and let the register
+supply two maps out of it.
+
+$$
+\mathsf{purpose} : \mathcal{N} \to \mathcal{T}
+\qquad\text{and}\qquad
+\mathsf{maker} : \mathcal{N} \to \mathcal{F}
+$$
+
+**The first reading, that a design number indexes a purpose, requires the purpose map to be
+injective.** Two different numbers must not carry the same official statement.
+
+$$
+\mathsf{purpose}(x) = \mathsf{purpose}(y) \;\Longrightarrow\; x = y
+$$
+
+**It is not injective and the failures are counted.** Over 490 distinct descriptions of
+twenty characters or more, **six are shared by more than one design number.**
+
+**The second reading, that a design number indexes an organisation, requires the maker map to be well
+defined**, which is a weaker demand than injectivity and a different one. It asks only that every row on
+one number name the same firm.
+
+$$
+\lvert \{\, \mathsf{maker}(w) \;:\; w \in \mathcal{N}^{-1}(x) \,\} \rvert \;=\; 1
+\qquad\text{for every } x \in \mathcal{N}
+$$
+
+**It is not well defined either.** Of 235 mission-and-number pairs,
+**27 carry rows naming more than one leading firm, which is 11.5 percent.**
+
+**So the two readings fail in different ways and the article states both rather than choosing.** The
+purpose map is a function and is not injective, so **a number carries no more purpose than its
+neighbour.** The maker map is not even a function, so **a number does not carry a maker at all.**
+
 ### And a Design Number Can Survive a Change of Manufacturer, So the Pairing Was a Choice
 
 **If the design number tracked the designer, a change of designer would force a new number, and it does
 not.** Of the register's design numbers, 103 carry more than one row. **36 of
 those carry more than one distinct contractor string and 27 carry more than one distinct
-leading firm name, which is 26.2 percent.**
+leading firm name.**
+
+**That last count supports two shares and the article quotes both, so it says which denominator each
+uses.**
+
+$$
+\frac{\lvert \mathcal{M} \rvert}{\lvert \mathcal{N}_{>1} \rvert} \;=\; 26.2\,\%
+\qquad\text{and}\qquad
+\frac{\lvert \mathcal{M} \rvert}{\lvert \mathcal{N} \rvert} \;=\; 11.5\,\%
+$$
+
+**The first is as a share of the 103 numbers that carry more than one row, which is the
+population in which a change of firm is even possible. The second is as a share of all
+235 numbers**, which is the figure the well-definedness condition above reports. **Both are
+the same 27 numbers and neither is the more honest one**, so the article gives both and
+names the denominator each time.
 
 **The clearest case is a missile rather than an aeroplane and it is extreme.** The design number 88 in
 the missile series carries ten rows across the series letters A, D, E, E, E, F, G, G, H and J, and the
@@ -775,6 +1085,15 @@ top of the field.
 
 $$
 I(\nu) \;=\; \log_2\!\bigl(N_d - \nu + 1\bigr)
+$$
+
+**The zero is worth writing as a conditional entropy rather than asserting**, because that is the form
+in which it is a statement about the register and not about one allocation.
+
+$$
+H\bigl(d_k \,\big|\, d_1, \ldots, d_{k-1}\bigr) \;=\; 0
+\qquad\text{whenever}\qquad
+d_k = \nu_{k-1} + 1
 $$
 
 **At the research series' position in July 2023 that bound is 9.8657 bits, against
@@ -817,6 +1136,19 @@ and purposes stopped having a sequence at all
 \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. **The X-67 is one number lost in the
 middle of that transition.**
 
+**The transition has a size in bits and summing the bound over the departures gives it.**
+
+$$
+I_{\Sigma} \;=\; \sum_{k \,:\, \delta_k > 0} \log_2\!\bigl(N_d - \nu_k + 1\bigr)
+$$
+
+**That is 59.5355 bits across the six dated out-of-sequence unmanned allocations,
+or 9.9226 bits each.** The figure is a ceiling and not a measurement of what was said, because
+**a bound on what a channel could carry is not a reading of what went through it.** What it establishes
+is the scale: **a sequence that chose every number freely would carry about ten bits per allocation and a
+sequence that took the next one carries none**, and the unmanned series has moved some distance from the
+second toward the first.
+
 ### The Borrowing Claim Is Testable and It Passes
 
 **The compiler asserts that the 58 and the 67 came from the research series and gives no evidence for the
@@ -855,8 +1187,15 @@ $$
 \Pr\!\left[\,N_h \ge k\,\right] \;=\; \sum_{i=k}^{n} \binom{n}{i} \, \pi^{\,i} \, (1-\pi)^{\,n-i}
 $$
 
-**At $n$ equal to six and $k$ equal to two that tail probability is
-0.03159, or about one chance in 31.7.** That is a weak signal on its own and the article
+**The expectation is the more legible quantity and it comes first.**
+
+$$
+\mathbb{E}\bigl[N_h\bigr] \;=\; n \, \pi
+$$
+
+**At six draws and a per-draw probability of 0.049020 that is 0.2941 accidental
+hits expected**, against two observed. **At $n$ equal to six and $k$ equal to
+two the tail probability is 0.03159, or about one chance in 31.7.** That is a weak signal on its own and the article
 does not pretend otherwise. **It is not on its own.** Both hits name the same series, the compiler
 independently states that series for both, and the research series independently shows a gap at both
 numbers. **Four facts that could each be a coincidence are not four coincidences.**
@@ -946,6 +1285,17 @@ $\rho = 1/S$, so a family of three species holds a third of the distinct parts, 
 0.3333. At $\phi = 0$ nothing is shared and $\rho = 1$. **At a shared fraction of three fifths the
 ratio is 0.7000 for two species and 0.6000 for three.**
 
+**The gradient is constant, which is worth saying because it means the first shared part is worth as
+much as the last one in this model.**
+
+$$
+\frac{\partial \rho}{\partial \phi} \;=\; -\left(1 - \frac{1}{S}\right)
+$$
+
+**At three species that is -0.6667**, so each percentage point of sharing removes two thirds of a
+point of the distinct-part count. **That constancy is the model's weakness and the penalty section below
+is where it is repaired.**
+
 **That relation is about drawings, qualification and spares rather than about unit cost**, because a part
 that exists once has to be designed once, tested once, catalogued once and stocked once. **It is also the
 weakest form of the claim, because it counts parts rather than weighting them**, and the parts a family
@@ -963,9 +1313,18 @@ c(Q) \;=\; c_1 \, Q^{-b} \qquad\text{with}\qquad 2^{-b} = r
 $$
 
 **An eighty-five percent progress ratio gives $b$ equal to 0.23447 and a ninety percent ratio gives
-0.15200.** Now split each aeroplane into a shared fraction and a bespoke fraction. **The bespoke
-fraction is built at the quantity of one species and gains nothing. The shared fraction is built at $S$
-times that quantity and slides down the curve by $S^{-b}$.** The two add in proportion.
+0.15200.** Now split each aeroplane into a shared fraction and a bespoke fraction. **The step the
+whole argument turns on is that the two fractions are built at different quantities**, and writing it
+down is what makes the rest arithmetic.
+
+$$
+Q_{\mathrm{shared}} \;=\; S \, Q_{\mathrm{species}}
+\qquad\text{and}\qquad
+Q_{\mathrm{bespoke}} \;=\; Q_{\mathrm{species}}
+$$
+
+**The bespoke fraction is built at the quantity of one species and gains nothing. The shared fraction is
+built at $S$ times that quantity and slides down the curve by $S^{-b}$.** The two add in proportion.
 
 $$
 \kappa \;=\; \bigl(1 - \phi\bigr) \;+\; \phi \, S^{-b}
@@ -981,9 +1340,45 @@ $$
 $$
 
 **For three species on an eighty-five percent curve the slope $a$ is -0.22709, and for two
-species it is -0.15000.** Because $a$ is negative for every $S$ greater than one, this model says
-that commonality always helps, monotonically, without limit. **That conclusion is false and the reason it
-is false is the thing the model omits.**
+species it is -0.15000.** The gradient of the cost factor is the slope itself, which is the
+statement that this model is linear in the shared fraction.
+
+$$
+\frac{\partial \kappa}{\partial \phi} \;=\; a \;=\; S^{-b} - 1
+$$
+
+**At three species that is -0.22709.** Because $a$ is negative for every $S$ greater than one, this
+model says that commonality always helps, monotonically. **But it does not help without limit, and the
+limit is worth having because it bounds every claim the programme could make.**
+
+$$
+\lim_{S \to \infty} a \;=\; -1
+\qquad\text{so}\qquad
+\lim_{S \to \infty} \kappa \;=\; 1 - \phi
+$$
+
+**So no family, however large, saves more in unit cost than the fraction it shares.**
+
+$$
+\sup_{S} \bigl(1 - \kappa\bigr) \;=\; \phi
+$$
+
+**At a three-fifths shared fraction the ceiling is 60.00 percent at any family size**, against
+13.63 percent actually reached at three species. **The ceiling is also what makes the
+inversion well posed.** Asking how many species a stated saving needs means solving the cost factor for
+$S$, and the solution exists only below the ceiling.
+
+$$
+S \;=\; \left(1 - \frac{1 - \kappa}{\phi}\right)^{-1/b}
+$$
+
+**A tenth of unit cost needs 2.176 species at a three-fifths shared fraction, a fifth needs
+5.637, and three tenths needs 19.227.** The last figure is the useful one.
+**A programme wanting a thirty percent unit-cost saving from commonality alone, at these parameters,
+needs about nineteen species on one chassis**, and the programme that consumed the X-67 named two.
+
+**And the monotonic conclusion is still false, because the reason it is false is the thing the model
+omits.**
 
 ### The Omission Is the Penalty, and Adding It Changes the Answer Qualitatively
 
@@ -1002,8 +1397,15 @@ $$
 \;=\; 1 + (a + \eta)\,\phi + a\,\eta\,\phi^{2}
 $$
 
-**The coefficient of $\phi^{2}$ is $a\eta$, which is negative, so the quadratic is concave and its
-stationary point is a maximum rather than a minimum.** The cheapest shared fraction is therefore at one
+**The curvature settles it in one line.**
+
+$$
+\frac{\partial^{2} \kappa_{\mathrm{eff}}}{\partial \phi^{2}} \;=\; 2\,a\,\eta
+$$
+
+**That is negative for every admissible pair, being -0.13625 at three species and a penalty
+coefficient of 30 percent, so the quadratic is concave and its stationary point is a maximum
+rather than a minimum.** The cheapest shared fraction is therefore at one
 end of the interval or the other, and full commonality beats none exactly when the product at $\phi = 1$
 falls below one.
 
@@ -1035,15 +1437,31 @@ $$
 whether an interior optimum exists at all.**
 
 $$
-\Delta \;=\; 4\eta^{2} - 12\,a^{2}\eta \;=\; 4\eta\bigl(\eta - 3a^{2}\bigr)
+\Theta \;=\; 4\eta^{2} - 12\,a^{2}\eta \;=\; 4\eta\bigl(\eta - 3a^{2}\bigr)
 $$
 
 $$
-\phi^{\ast} \;=\; \frac{-2\eta + \sqrt{\Delta}}{6\,a\,\eta}
+\phi^{\ast} \;=\; \frac{-2\eta + \sqrt{\Theta}}{6\,a\,\eta}
 $$
 
-**So an interior optimum exists only when $\eta$ exceeds $3a^{2}$, which for three species on an
-eighty-five percent curve is 15.47 percent, and for two species 6.75 percent.**
+**So an interior optimum exists only when the penalty coefficient clears a threshold set by the slope
+alone.**
+
+$$
+\eta \;>\; \eta_{\ast} \;=\; 3 a^{2}
+$$
+
+**That is 15.47 percent for three species on an eighty-five percent curve and
+6.75 percent for two.** The threshold rises with the family size, and its limit follows from
+the slope's.
+
+$$
+\lim_{S \to \infty} \eta_{\ast} \;=\; 3
+$$
+
+**So a sufficiently large family tolerates a sharing penalty of 300 percent before an interior
+optimum appears at all**, which is the formal version of the observation that commonality is worth more
+the more species carry it.
 Below that the minimum is the corner at full commonality. **That threshold was found by an assertion
 refusing to run rather than by algebra done in advance**, which is recorded in the method notes because
 the refusal was the right answer and not an error.
@@ -1098,6 +1516,17 @@ narrower reading that only the winning firm's platform-sharing award of 10,674,3
 chassis, the requirement falls to 73,323,277.50 dollar at two species, a premium of 7.85 percent,
 and 71,544,222.33 dollar at three, a premium of 5.23 percent.
 
+**The sensitivity of the break-even to the chassis cost is a reciprocal and it gives the figure a
+programme manager would want.**
+
+$$
+\frac{\partial S^{\ast}}{\partial \mathcal{C}_g} \;=\; \frac{1}{c_b - c_s}
+$$
+
+**At the two-species figures above that is one additional species required for every
+12,239,815.59 dollar added to the chassis.** The relation is also the honest reading of the inversion,
+**since it says that the break-even is sensitive to a quantity nobody has published.**
+
 **A third reading is that the chassis cost is inside the species cost and not separable at all**, since
 the award record carries no line for a chassis. **Under that reading the data cannot answer the question
 and the article says so rather than choosing the reading that gives a number.**
@@ -1149,8 +1578,39 @@ $$
 | 10 | 72.05 percent |
 | 15 | 80.87 percent |
 
+**The monotonicity the table displays is a derivative rather than four values, and writing it down is
+what makes it a claim about every interval rather than about those four.**
+
+$$
+\frac{\partial \sigma}{\partial T}
+\;=\; \frac{1 - \bigl(1 + gT\bigr)e^{-gT}}{g T^{2}}
+$$
+
+**That is positive for every positive argument, so the shortfall increases with the freeze without
+exception.** It is 0.08940 per year at a three-year freeze and 0.01238 at fifteen, a ratio of
+7.218, **so the first year of delay costs about seven times what the fifteenth does.** That
+is the quantitative form of the programme's own argument for cadence.
+
+**And for a long freeze the exponential has died and the shortfall has a one-term form.**
+
+$$
+\sigma \;\approx\; 1 - \frac{1}{gT}
+\qquad\text{for}\qquad
+gT \gg 1
+$$
+
+**At fifteen years that approximation gives 80.76 percent against the exact
+80.87 percent**, so the asymptote is already within a tenth of a point at the longest interval
+the table carries.
+
 **Shortening the freeze from fifteen years to three takes the shortfall from 80.87 percent to
-37.82 percent.** That is the quantitative content of the refresh claim and **it is much larger
+37.82 percent, and the gain is the difference.**
+
+$$
+\Delta\sigma \;=\; \sigma(T_{\mathrm{old}}) - \sigma(T_{\mathrm{new}})
+$$
+
+**That is 43.05 percentage points.** That is the quantitative content of the refresh claim and **it is much larger
 than the unit-cost saving commonality buys**, which at the parameters above was
 13.63 percent. **If the genus concept is worth what the laboratory says it is worth, the
 value is in the cadence rather than in the parts.**
@@ -1195,11 +1655,32 @@ since the established meaning keeps its letter.
 | $N_c$ | distinct number-and-series codes within one basic mission | count |
 | $d_k$ | the design number of the $k$th allocation | none |
 | $\nu_k$ | the number a sequential allocator would issue at the $k$th allocation | none |
+| $\nu^{\mathrm{hi}}_t$ | one above the highest number allocated before a date | none |
+| $\nu^{\mathrm{seq}}_t$ | the lowest number never allocated before a date | none |
+| $\nu^{\mathrm{rec}}_t$ | one above the most recently allocated number | none |
 | $j$ | an allocation index earlier than the $k$th | none |
 | $\delta_k$ | the departure of an allocation from the sequential number | count |
+| $\Delta_k$ | the increment between consecutive new design numbers | count |
+| $\alpha_k$ | the advance of the pointer at the $k$th first allocation | count |
+| $\theta$ | the share of pointer advances equal to one | dimensionless |
+| $A$ | the set of design numbers absent from a series' span | none |
+| $\gamma_A$ | absent numbers as a share of the span | dimensionless |
+| $\lambda$ | allocations per unit time in one basic mission | reciprocal year |
+| $\Delta t_A$ | the absent numbers expressed as the series' own output | year |
 | $I$ | information a chosen number can carry at a given ceiling | bit |
 | $H$ | entropy of the observed departures | bit |
 | $\pi_i$ | the probability of the $i$th departure value | dimensionless |
+| $I_{\Sigma}$ | the total information the departures could carry | bit |
+| $\mathcal{N}$ | the set of mission-and-number pairs the register carries | none |
+| $\mathcal{N}_{>1}$ | those pairs carrying more than one register row | none |
+| $\mathcal{M}$ | those pairs naming more than one leading firm | none |
+| $\mathcal{R}$ | the register's well-formed rows, partitioned by officiality | none |
+| $\mathcal{A}_t$ | design numbers allocated in a basic mission before a date | none |
+| $\mathcal{B}$ | the article's reference definitions, partitioned by provenance | none |
+| $\mathcal{T}$ | the set of official statements of purpose | none |
+| $\mathcal{F}$ | the set of leading firm names | none |
+| $x$, $y$ | elements of $\mathcal{N}$, being mission-and-number pairs | none |
+| $w$ | a single register row | none |
 | $\pi$ | per-draw hit probability under the null model | dimensionless |
 | $\bar{\tau}$ | mean count of next-in-series values falling inside the band | count |
 | $B$ | the width of the band the null model draws from | count |
@@ -1226,6 +1707,11 @@ since the established meaning keeps its letter.
 | $c_s$ | non-recurring cost of one species on the genus | dollar |
 | $c_b$ | non-recurring cost of one wholly bespoke aircraft type | dollar |
 | $S^{\ast}$ | species at which the genus repays its own development cost | count |
+| $\varsigma_i$ | one award as a share of a set of awards | dimensionless |
+| $\epsilon$ | relative deviation of an outturn from a reference figure | dimensionless |
+| $f$ | the position of an event within an interval | dimensionless |
+| $\Theta$ | discriminant of the first-order condition for the optimum | dimensionless |
+| $\eta_{\ast}$ | the sharing penalty above which an interior optimum exists | dimensionless |
 | $F$ | capability available at the frontier at a given time | capability |
 | $F_0$ | capability available when a design is frozen | capability |
 | $g$ | exponential growth rate of available capability | reciprocal year |
@@ -1234,6 +1720,15 @@ since the established meaning keeps its letter.
 | $T_2$ | doubling time of available capability | year |
 | $\bar{\varrho}$ | time-average ratio of delivered to available capability | dimensionless |
 | $\sigma$ | time-average capability shortfall, one less the ratio above | dimensionless |
+| $\Pi$ | records in the harvested pool | count |
+| $D$ | records a stage refused | count |
+| $K$ | records the subject gate kept | count |
+| $R_q$ | records retrieved for one sweep question | count |
+| $N_q$ | records a sweep question reported holding | count |
+| $\varkappa$ | retrieved records as a share of those reported | dimensionless |
+| $\varpi$ | report primaries as a share of the gated records | dimensionless |
+| $\mathcal{K}_c$ | the set of records assigned to one cluster | none |
+| $\bar{m}$ | mean clusters per gated record | count |
 
 **The four collisions, and what yielded.** The sequential number was written $c_k$ in the first
 draft while the costs are $c_s$ and $c_b$, so **the sequential number took $\nu_k$ for next and the
@@ -1244,6 +1739,18 @@ is borrowed from elsewhere. **The common part count keeps $C$ and the costs took
 the part count appears in the derivation that defines the shared fraction and the costs appear only in the
 break-even. **The freeze interval keeps $T$ and the null model's mean target count took $\bar{\tau}$**, for
 the same reason.
+
+**Four collisions arrived with the equation pass and three were resolved by renaming.** The pool took
+$\Pi$ because $P$ is the part count. The cluster set took a script form because $C$ is the common part
+count. The discriminant took $\Theta$ because $\Delta$ is a difference throughout. **And a row inside
+the well-definedness condition took $w$ because $r$ is the progress ratio**, which is the collision a
+reader is most likely to trip over, since both appear in the same section.
+
+**Three pairs differ only in case and the table relies on that difference.** $D$ counts records a sweep
+stage refused while $d$ is a design number. $K$ counts records the gate kept while $k$ indexes an
+allocation. **$R_q$ counts records retrieved while $r$ is the progress ratio.** Each pair appears in a
+different section and none appears in an expression with its partner, **but a reader skimming the table
+should know the cases are doing work.**
 
 **One near-collision was left standing and is flagged rather than fixed.** The distinct-part ratio is
 $\rho$ and the capability ratio is $\bar{\varrho}$, which are different letters that render similarly at
@@ -1266,7 +1773,16 @@ by an order of magnitude.**
 
 **The sweep admitted 1,153 records from a pool of 9,505 and assigned them across
 fifteen clusters, of which fifteen are non-empty.** A record may belong to more than
-one cluster, so the 1,225 assignments exceed the record count.
+one cluster, so the assignments exceed the record count and the mean is the quantity that says by how
+much.
+
+$$
+\bar{m} \;=\; \frac{1}{K} \sum_{c} \lvert \mathcal{K}_c \rvert
+$$
+
+**That is 1.0624 clusters per record across 1,225 assignments.** A
+mean barely above one says the clusters are nearly disjoint, **which is a property of the gate rather
+than of the field**, since each cluster admits on compound nouns the others do not use.
 
 | Cluster | Records | What it holds |
 |---|---:|---|
@@ -1359,6 +1875,26 @@ zero hit the retrieval bound.** The homonym store then refused 527 records on
 patterns written by earlier articles, and the subject gate then kept 1,153 of the
 8,978 that reached it and refused 7,825.
 
+**Those four counts are not independent and the identity that ties them is checked rather than
+assumed.**
+
+$$
+\Pi \;=\; D_{\mathrm{store}} + K + D_{\mathrm{gate}}
+$$
+
+**Every record in the pool $\Pi$ is refused by the store, kept by the gate or refused by the gate**, and the
+verifier asserts the identity so that a record silently lost between the three stages would fail the
+build rather than shrink a reported total.
+
+**Coverage is the second relation and it is the one the next subsection turns on.**
+
+$$
+\varkappa \;=\; \frac{\sum_q R_q}{\sum_q N_q}
+$$
+
+**Summing what the reports server returned against what it said it held gives 100.0 percent**,
+with $R_q$ the records retrieved for a question and $N_q$ the total that question reported.
+
 ### The Reports Server Holds Almost None of This
 
 **That the sweep achieved complete coverage is a statement about the server and not about the sweep, and
@@ -1367,9 +1903,15 @@ the numbers say so plainly.** The whole of the reports server's holding across
 and collaborative unmanned aircraft is 745 records. **The bibliographic index returned
 5,951.**
 
-**The report-primary share is therefore the lowest this series has recorded.** Of the
-1,153 gated records, 110 come from the reports server or the defence registry, which
-is 9.5 percent, split 21 from the reports server and
+**The report-primary share is therefore the lowest this series has recorded, and the definition is the
+one the series has used throughout.**
+
+$$
+\varpi \;=\; \frac{K_{\mathrm{reports}} + K_{\mathrm{defence}}}{K}
+$$
+
+Of the 1,153 gated records, 110 come from the reports server or the defence registry,
+so $\varpi$ is **9.5 percent**, split 21 from the reports server and
 89 from the defence registry. **The preceding four articles reported 30.6, 45.0, 39.5 and 28.3
 percent on the same definition, and those four figures are quoted from those articles rather than
 recomputed here.** This one reports 9.5.
@@ -1381,9 +1923,18 @@ programme documents exist in the report literature under names the sweep did not
 Attritable Aircraft Technologies initiative and the Low-Cost Attritable Strike Demonstrator being two
 such names, together with the Broad Agency Announcement the trade coverage dates to September 2020.
 
-**The reference base as a whole is 1,163 definitions.** eleven are hand-written
-primary sources, four are hand-written theory sources, 67 are the prior articles of
-this series, and 1,081 are harvested research records. **Of the harvested records
+**The reference base as a whole is 1,164 definitions and it partitions four ways.**
+
+$$
+\lvert \mathcal{B} \rvert \;=\; \lvert \mathcal{B}_{\mathrm{prim}} \rvert
++ \lvert \mathcal{B}_{\mathrm{hand}} \rvert
++ \lvert \mathcal{B}_{\mathrm{rel}} \rvert
++ \lvert \mathcal{B}_{\mathrm{res}} \rvert
+$$
+
+**twelve are hand-written primary sources, four are hand-written theory sources,
+67 are the prior articles of this series, and 1,081 are harvested research
+records.** **Of the harvested records
 1,043 came from the bibliographic index**, which is the proportion the subject dictates rather
 than a choice.
 
@@ -1751,6 +2302,7 @@ rebuilt because the official one was withdrawn.**
 ### Reference
 
 - [AFRL Chooses General Atomics Drone for Off-Board Sensing Station Program, The Defense Post, 6 February 2023, read in full, and SECONDARY, being the source of the February 2023 selection date the laboratory's own release contradicts][ref_dp_obss_2023]
+- [Air Force Joint Instruction 16-401 and NAVAIRINST 8800.3A, Designating and Naming Defense Military Aerospace Vehicles, 9 September 1994, implementing DoD Directive 4120.15 of 2 May 1985, read in full, and the edition in force when the X-49A filled a gap the X-50A had passed][ref_afji_16_401_1994]
 - [Castrejon, AFRL's XQ-67A Makes 1st Successful Flight, Air Force Research Laboratory, 29 February 2024, distributed through the Defense Visual Information Distribution Service, read in full][ref_afrl_firstflight]
 - [Current Designations of U.S. Military Aircraft, compiled by Andreas Parsch, read in part][ref_dsnet_aircraft]
 - [Department of the Air Force Instruction 16-401, Designating and Naming Defense Military Aerospace Vehicles, 3 November 2020, sections 4 and 5 and Attachment 2 read directly][ref_dafi_16_401_2020]
@@ -1762,6 +2314,7 @@ rebuilt because the official one was withdrawn.**
 - [Tirpak, Kratos, General Atomics Get Contracts for Off-Board Sensing Station Unmanned Fighter Escort, Air and Space Forces Magazine, 29 October 2021, read in full, and SECONDARY, being the source of the reported contract values the award record contradicts][ref_asf_obss_2021]
 - [USAspending.gov, the federal award reporting system, queried for the Off-Board Sensing Station and Low Cost Attritable Aircraft Platform Sharing programmes][ref_usaspending]
 
+[ref_afji_16_401_1994]: https://irp.fas.org/doddir/usaf/16-401.htm
 [ref_afrl_firstflight]: https://www.dvidshub.net/news/465637/afrls-xq-67a-makes-1st-successful-flight
 [ref_asf_obss_2021]: https://www.airandspaceforces.com/kratos-general-atomics-contracts-unmanned-fighter-escort/
 [ref_dafi_16_401_2020]: https://www.designation-systems.net/usmilav/afi16-401.pdf

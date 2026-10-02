@@ -5,6 +5,129 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **A364 EQUATION-DENSITY REVIEW, the second of four passes. Committed, not pushed, NOT
+published.** **Display equations 26 to 68**, lines 4,020 to 4,573, words 26,616 to 30,926, inline
+expressions 124 to 185, the symbol table 50 entries to 85, references held at 1,164, in 9 H2 and 48 H3
+sections with 18 tables.
+
+**A SCAN DROVE THE PASS AND IT FOUND 172 CANDIDATES.** `eqscan.py` lists every prose line carrying a
+figure with no display block within six lines, after excluding dates, years, designation numbers,
+contract numbers, document numbers and status codes, **because none of those is a result**. The author
+then decided which candidates were relations. **The excluded families are measured rather than assumed**,
+and the exclusions are why the output was readable at all.
+
+**THE PASS ADDED ONE NEW MEASUREMENT AND IT TESTS THE INSTRUCTION'S OWN DEFINITION OF A DESIGN
+NUMBER.** The instruction says the 16 in F-16A is the sixteenth approved designator for a fighter, which
+is a claim with a testable consequence. **The ordinal form cannot be tested against this register**,
+because it opens in August 1998 and most series were already numbering, **so the claim was differenced**
+and each new design number should exceed the previous new one by exactly one. **The research series gives
+15 of 22 steps exactly one, or 68.2 percent, and the unmanned series 9 of 29.**
+
+**AND THE FIRST VERSION OF THAT MEASUREMENT WAS WRONG IN TWO WAYS, BOTH NOW RECORDED IN THE ARTICLE.**
+It counted the X-40B as a new design number, **which is the register's own edge misread as a government
+decision**, since a series letter of B or later is evidence that the number predates the row. And it
+conflated skipping with out-of-order allocation, **because an allocation below the pointer makes its own
+increment negative and inflates the next one by the same amount.** A second measure was added for that,
+the advance of the running maximum, with the identity that the advance is zero exactly when the
+allocation is at or below the pointer.
+
+**THE POINTER MEASURE PRODUCES THE ARTICLE'S CLEANEST TABLE.** The research series has 22 steps, **16
+advances of exactly one, 5 greater than one and 1 of zero**, and the five gaps are exactly this series'
+own five documented losses, being the 49 passed for a round fifty, the refused 52, the borrowed 58, this
+article's 67, and the leapfrogged 69 to 75. **Eleven numbers skipped and exactly one ever filled.**
+
+**AND THE RESEARCH SERIES IS THE BEST-BEHAVED SEQUENCE IN THE REGISTER, WHICH SHARPENS THE FINDING.**
+Among the three basic missions with at least twenty steps the rates are 72.7 percent for the research
+series, 51.5 for missiles and 44.8 for unmanned, against 50.4 percent register-wide. **The X-67 was lost
+from the one numbering sequence that mostly does follow the rule.**
+
+**THE PASS'S LARGEST FINDING IS THAT THE RULE CHANGED, AND WRITING DOWN THE RELATION IS WHAT FOUND
+IT.** The pointer passed the 49 on 2002-02-13 and the X-49A was allocated 464 days later, filling a gap
+the pointer had already crossed. **The joint instruction of 9 September 1994, in force at the time, says
+the office will assign the next available consecutive design number**, and a passed number is available.
+**The 2020 instruction replaced that with the last approved design number and added a refusal of requests
+in reverse or skipped sequences.** So the X-49A is the instruction obeyed under one rule and would be
+refused under the other. **The X-67 is the first number in the research series to be skipped under a rule
+that makes skipping permanent**, and the X-58's slot was recoverable for its first two years while
+nobody wanted it.
+
+**A CLAIM WAS WRONG AND THE ARITHMETIC CORRECTED IT INTO SOMETHING STRONGER.** A draft said the three
+competing definitions of the next number all coincided at 67. **The lowest-never-allocated definition
+returns 1 over this register**, because the X-1 through the X-36 are outside the window, **so the
+quantity the 1994 instruction named is not derivable from the only public source of the thing it
+governs.** Of the two definitions that are computable, **both gave 67 on the day the X-68A was approved**,
+which is sharper than the claim it replaced.
+
+**THE KEYSTONE'S FORMAL STATEMENT WAS ADDED AND IT IS TWO DIFFERENT FAILURES RATHER THAN ONE.** For a
+design number to index a purpose the purpose map must be injective, and **6 of 490 distinct descriptions
+are shared across numbers**. For it to index an organisation the maker map must be well defined, and
+**27 of 235 mission-and-number pairs name more than one leading firm**. So the purpose map is a function
+and is not injective, while the maker map is not a function at all.
+
+**AND THAT EXPOSED A DENOMINATOR THE ARTICLE WAS QUOTING TWO WAYS.** The same 27 numbers are 11.5
+percent of all pairs and 26.2 percent of the pairs carrying more than one row. **Both were in the
+article and neither named its denominator**, which is now displayed as two fractions with the same
+numerator.
+
+**THE COMMONALITY MODEL GAINED ITS DERIVATIVES AND ITS LIMITS, AND THE LIMITS BOUND THE PROGRAMME'S
+CLAIM.** The sharing slope tends to minus one as the family grows, so **no family however large saves
+more unit cost than the fraction it shares**, which at three fifths is 60.00 percent against the 13.63
+percent three species actually reach. Inverting the cost factor for the family size needed, **a thirty
+percent saving at those parameters needs about nineteen species on one chassis** and the programme named
+two. The linear-penalty curvature is displayed and is negative, which is why that model has no interior
+optimum, and **the quadratic threshold's limit is 300 percent**, so a large enough family tolerates a
+tripling of cost before an interior optimum appears.
+
+**AND THE REFRESH ARGUMENT GAINED THE DERIVATIVE THAT MAKES IT A CLAIM ABOUT EVERY INTERVAL.** The
+shortfall's gradient is 0.08940 per year at a three-year freeze against 0.01238 at fifteen, a ratio of
+7.218, **so the first year of delay costs about seven times what the fifteenth does.** The long-freeze
+asymptote is also displayed and is within a tenth of a point of the exact value at fifteen years.
+
+**THE SURVEY'S OWN BOOKKEEPING IS NOW RELATIONS RATHER THAN ASSERTIONS.** The pool identity, the
+officiality partition into four exhaustive and disjoint states, the absence partition into inside and
+outside the register's window, the reference-base partition into four provenances, the coverage ratio,
+the report-primary share and the mean clusters per record. **Each is asserted in the verifier**, so a
+record or a row falling into none of a partition's parts, or into two, fails the build rather than
+quietly changing a total.
+
+**FOUR SYMBOL COLLISIONS ARRIVED WITH THE PASS AND THREE WERE RESOLVED BY RENAMING.** The pool took a
+capital pi because the part count is $P$, the cluster set took a script form because the common part
+count is $C$, the discriminant took a capital theta because $\Delta$ is a difference throughout, and
+**a row inside the well-definedness condition took $w$ because $r$ is the progress ratio.** Three further
+pairs differ only in case and the article says so, since $D$ counts refused records while $d$ is a design
+number.
+
+**AND `symcheck.py` HAD A BLIND SPOT THAT THIS PASS WOULD HAVE WALKED STRAIGHT PAST.** It treated
+`\mathcal` as structural and stripped its contents, **so every script letter was invisible and the five
+new script sets this pass added would have been validated by nothing.** It now keeps the script form as
+a compound token, and it immediately reported four undeclared sets. The symbol table is 85 entries and
+every token resolves.
+
+**VERIFICATION.** `verify_numbers.py` **322 checks**, passing, up from 256, **with every new gradient
+re-evaluated by a central difference on the function it is the gradient of, every limit by evaluation at
+ten to the fortieth, the inversion by a round trip through the forward relation, and the increment and
+pointer walks redone with a different loop and sort key.** The two walks are asserted to agree on their
+step count. `_verify.py` **0 errors and 0 warnings across 304 posts**, the two `progress-stale` warnings
+having resolved themselves when the other line published its series. `_lib/render.py` no findings across
+538 pages. `mathrot.py` **68 source display blocks against 68 rendered brackets** with zero emphasis
+tags. `stylecheck.py` zero findings. `emrisk.py` and `astrisk.py` both confirm the article adds nothing
+to the corpus-wide corrupted-maths count.
+
+**THREE VERIFIER DEFECTS WERE FOUND BY IT FAILING, WHICH IS THE PATTERN THIS SERIES KEEPS MEETING.** The
+emitter divided the pointer's eleven skipped numbers by the allocation rate where the prose defines the
+quantity over the ten numbers actually absent, **the difference being the X-49 which the pointer skipped
+and which is present in the register.** A limit check at ten to the ninth failed by three quarters of a
+percent, because the sharing slope goes as a power of 0.2345 and a billion is not large at that
+exponent. **And a tolerance derived from the last printed digit failed on a correctly rounded figure**,
+because the computed value carried floating-point noise eight parts in a billion beyond the exact half.
+
+**THE WORKING TREE CARRIES EIGHT DRAFTS THIS LINE DID NOT TOUCH.** `android_development_on_freebsd`,
+`android_unit_testing`, three `claude_code_getting_started` drafts, `phoenix_json_api_authentication_with_guardian`
+and two solana drafts have been re-dated from 2026-08-14 through 21 to **2126**, a century forward, day
+and time preserved. **They are uncommitted, they are not this line's work, and they are excluded from
+this commit.** The untracked `sa.html` is excluded as before.
+
+**Date**: 2026-10-02
 **Task**: **A364, X-Planes: X-67, the Slot Taken by XQ-67A, DRAFTED.** Committed, not pushed, and
 **NOT PUBLISHED**, publication of the series never having been authorised. **Sixty-eight of
 seventy-two drafted, four remain.** The three remaining passes on this article are equation density,
