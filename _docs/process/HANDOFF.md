@@ -11,8 +11,14 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `33fd7fe`
-- **Written**: 2026-10-01, by the A376 line, which is the second writer on this file
+- **Parent commit** (the repository state this handoff describes): `c49856f`
+- **Written**: 2026-10-01, by the A376 line and then extended by the X-Planes line,
+  which is the third writer on this file in one day. **The stamp was `33fd7fe` when the
+  A376 line wrote the sections above and is now `c49856f`, which is that line's own handoff
+  commit**, because this file's rule is that its commit becomes the tip and the state it
+  describes is whatever HEAD was before it. **Everything above the A364 resume section was
+  written by the A376 line and was not altered**, apart from this stamp and the re-measured
+  corrupted-mathematics decision, which is line one's own item.
 - **Tree at write**: **CLEAN of tracked changes.** `git status --porcelain` returns one untracked
   file, `sa.html`, which belongs to neither line and was not created by either. `git log
   origin/master..HEAD` returns nothing, so every commit below is on the remote. After this handoff
@@ -217,6 +223,124 @@ Decisions`**, being the register officiality correction that has now survived fo
 seventy-two corrupted mathematical expressions in published posts. **Both edit published pages and
 both are the pilot's call.** They are line one's and this line has not touched them.
 
+## Resume prompt for line one, X-Planes, and the next prompt is A364
+
+**THIS SECTION WAS ADDED BY LINE ONE AFTER THE REST OF THIS FILE WAS WRITTEN.** The A376 line wrote
+everything above and correctly declined to paraphrase line one's findings, pointing instead at
+`REVERSE_PROMPT.md`. **This section supplies the imperative direction for line one that a pointer
+cannot**, and nothing above it was altered.
+
+**A363 IS COMPLETE AND PUSHED AND THE LINE IS AT AN ARTICLE BOUNDARY. Wait for the pilot's prompt and
+do not start A364 unprompted.**
+
+**The next article is A364, *X-Planes: X-67, the Slot Taken by XQ-67A*.** Editorial date
+**2025-12-12**, series index **68**.
+
+**A364 IS A DESIGNATION ANOMALY AND THE GENRE DOCUMENT'S REDUCED ORDER GOVERNS IT.** There is **no
+X-67 row in the register at all**, which A363 confirmed directly from the saved addendum at
+`tmp/a359/addendum.html` while extracting the X-66A row. The rows run X-65A, X-66A, X-68A with
+nothing between them. The roster records the slot as *Number Skipped, slot assigned to General
+Atomics XQ-67A*. **So the subject is the number and not an aeroplane**, there is no keystone to
+identify and no system to dimension, and the order is six items rather than twelve.
+
+1. Opening prose naming the designation and the anomaly.
+2. What happened, with dates and the deciding authority where the record gives them.
+3. Why, if the record says.
+4. What the anomaly reveals about the designation system.
+5. `## Epistemic State`.
+6. `## References`.
+
+**DO NOT PAD IT INTO A FULL-AIRCRAFT ARTICLE.** The genre document is explicit that an anomaly
+article is complete at the length its record supports, and that padding it with an Out of Scope
+section it does not need is worse than leaving it short. **A320 established the boundary**, which is
+that a vehicle that existed and produced data gets the full order however disputed its designation,
+and a slot where no vehicle was ever built gets the reduced one. **No X-67 vehicle was ever built, so
+the reduced order applies.**
+
+**THE STANDING DIRECTIVE DOES NOT OVERRIDE THAT.** No length limit and no reference limit are
+permissions and not instructions, and the genre document forbids padding in the same breath that the
+directive permits length. **An anomaly article satisfies the survey directive by surveying what
+exists**, which for a skipped designation is the designation system itself rather than a technology.
+
+**Three things A364 will need that A363 established.**
+
+- **The XQ-67A is a real General Atomics aircraft that flew**, so the article must separate the X-67
+  slot from the XQ-67A airframe and resist writing about the latter. **That is the same
+  modification-boundary discipline A363 needed for the MD-90**, and A363's framing-breakdown section
+  names treating the demonstrator as the subject as the central available error.
+- **The register's officiality markup matters here more than usual.** From the X-61A onward the
+  compiler marks descriptions as not official Department of Defense wording, which is A358's finding,
+  and an article about what the register does and does not record has to say which kind of entry it
+  is reading. **The unresolved officiality correction under `Open Decisions` is directly relevant and
+  A364 is the natural place to resolve it if the pilot authorises that.**
+- **Expect the sweep to buy very little and report that rather than hiding it.** A363 aimed fourteen
+  questions at the one cluster carrying its own keystone, **nine returned nothing at all**, and the
+  cluster gained one record and zero report primaries, because airport design is a regulator's
+  subject rather than a research agency's. **A skipped designation has no research literature by
+  construction**, so the honest article is short and says why.
+
+### What A363 Established That A364 Inherits
+
+- **THE AIMED THIRD SWEEP IS NOW THE PRACTICE AND ITS AIM IS A MEASUREMENT.** Run
+  `tmp/a363/before_after.py` first, read the per-cluster primary share, take the thinnest substantive
+  clusters as targets, and **write the questions in the report literature's own vocabulary rather
+  than the subject's**. A363's aspect-ratio cluster went from 11.9 to 23.4 percent and from 64
+  primaries to 167 on that basis, and the lifting-line vocabulary reached a 1921 NACA report on the
+  minimum induced drag of aerofoils and a 1935 analysis of a strut with a single elastic support in
+  the span.
+- **AND MEASURE WHAT THE TARGETED SWEEP BOUGHT, BECAUSE IT MAY BUY NOTHING.** Run the same file again
+  afterwards and report the before-and-after table in the article. A363's honest negative result is
+  in the article because the measurement existed to put there.
+- **READ THE REGULATOR'S OWN DOCUMENT, NOT A REPRODUCTION OF ITS TABLE.** A363 cited a NASA
+  memorandum's reproduction of an FAA table for two passes. Reading the circular itself showed that
+  its front matter declares **the customary units govern and the metric values are soft rounded
+  conversions**, which settled the unit question the whole keystone turned on.
+- **READ THE PAPER YOU SAID YOU HAD NOT READ.** A363's drafting pass pointed a reader at a 2025
+  comparison and recorded that it knew it only from a registry entry. **The primary-reference pass
+  found it on the reports server, read it, and it quartered the article's headline figure** while
+  independently corroborating the keystone. **A named-but-unread document is a task, not a caveat.**
+- **A363's PRIMARY FRACTION OF 28.3 PERCENT IS NOT A STANDARD EITHER.** A360 reported 30.6, A361 45.0
+  and A362 39.5. **Report the period count beside the fraction**, which the genre document requires,
+  and note when both move the same way, as they did here from 1,035 primaries at 26.1 percent to
+  1,256 at 28.3.
+- **`tmp/a363/` CARRIES THE INSTRUMENT SET AND IT IS GITIGNORED, SO LIFT WHAT YOU WANT BEFORE IT
+  GOES.** The per-file list is under `Verification Toolchain` below.
+
+### Where A363's Numbers Landed, So They Are Not Re-derived
+
+**10,795 lines, 59,564 words, 83 display equations, 188 inline expressions, an 84-entry symbol table,
+4,537 reference definitions, 21 H2 and 60 H3 sections and 24 tables**, with **4,436 research records
+across 17 clusters and 1,256 report primaries at 28.3 percent**, period count 1,790 at 42.6 percent,
+median year 2012, range 1921 to 2026, from a pool of 18,863 distinct records across three sweeps.
+**`verify_numbers.py` 158 checks and `neweqns.py` 94 checks, both passing.** Four commits for four
+passes, `9629490`, `25d96a4`, `1dd90d0` and `33fd7fe`.
+
+**WHAT A363 FOUND, IN ONE PARAGRAPH, BECAUSE A POINTER IS NOT A SUMMARY.** Its keystone is that **the
+span of a transport wing comes from an airport**. The wing folds at 118 feet and **118 feet is
+exactly where the Federal Aviation Administration's Airplane Design Group III ends**, against an
+exclusive bound, and the circular declares its own metric rendering of 36 metre a soft rounded
+conversion that does not govern. **The fold is worth 35.96 percent in lift-to-drag ratio and
+everything the aerodynamic optimum has left beyond the chosen span is worth 0.9481 percent in fuel**,
+so the mechanism is worth more than the optimum, and **the folded aspect ratio of 9.43 is essentially
+that of the fleet this aeroplane was meant to replace**. The optimality condition turned out to be
+**two** conditions, because an optimum aspect ratio is a property of an aeroplane plus a statement of
+what is held fixed. At fixed wing area and cruise condition the stationary point is where the
+logarithmic derivative of weight with respect to aspect ratio equals **exactly one half,
+independently of every other parameter in the problem**. At fixed cruise lift coefficient it equals
+the induced-drag fraction, and the curvature there has an exact closed form, which is why a design
+can sit far below its optimum and pay under one percent. **Carrying the Breguet exponential rather
+than linearising it generalises both conditions by one factor** and makes the optimum flatter still.
+**A geometrically similar truss leaves the three-halves exponent exactly where a cantilever leaves it
+and buys a coefficient instead.** **Four independent routes agree that the aspect ratio is below its
+optimum**, and the fourth is the fair comparison the Phase IV report's own recommendation list asked
+for, which **gives 1.65 percent at the economic mission against Boeing's 7.2** and names a limit on
+the keystone, since a short sector spends the aerodynamic advantage on climb. **The signed Funded
+Space Act Agreement lists twenty-seven milestones summing to exactly 425 million dollar of which
+98.824 percent is paid before first flight, and the word pause appears in it zero times**, while the
+federal award record holds one contract under the project's name for forty-one thousand dollars of
+desk models.
+
+
 ## The Established Rhythm, Which Is the Most Important Thing Here
 
 Four passes, each a separate prompt from the pilot. **Do not run ahead.**
@@ -257,6 +381,127 @@ band.
 ---
 
 ## Method Rules Earned the Hard Way
+
+### Earned in A363, and the theme is that the instrument is wrong more often than the subject
+
+**EVERY ONE OF THESE WAS FOUND BY A CHECK FAILING, AND IN EIGHT CASES THE CHECK WAS THE THING THAT
+WAS WRONG.** That is the shape of this article's method record, and it is the opposite of A362's,
+where the corrections needed correcting.
+
+- **A PLACEHOLDER IDENTIFIER WAS ENTERED INTO A REFERENCE FILE AND CAUGHT BEFORE IT SHIPPED.** A
+  digital object identifier was written as `10.2514/6.2026-0000` while the real one was looked up.
+  **A fabricated identifier that resolves to nothing is worse than no citation at all**, because it
+  looks checkable and is not. **Never write a placeholder into a reference definition. Leave the
+  entry out until the identifier is in hand.**
+- **KRAMDOWN PAIRS ASTERISKS INSIDE INLINE MATHEMATICS EXACTLY AS IT PAIRS UNDERSCORES, AND
+  `emrisk.py` IS BLIND TO IT.** Writing an inline `^{*}` twice in one paragraph produced an `<em>`
+  and a `</em>` inside the rendered expressions. **The rule was probed against kramdown directly
+  rather than modelled**, which is A362's lesson about this exact defect. Two bare asterisks in one
+  paragraph pair, one alone survives, an escaped one is inert, and **display blocks pass through
+  untouched so only inline spans need escaping**. `tmp/a363/astrisk.py` predicts it from source.
+- **AND THE CORPUS-WIDE NUMBER IS LARGER THAN RECORDED AND HAS TWO CAUSES.** `tmp/a363/mathcorpus.py`
+  reads the built pages and measures **133 corrupted mathematical spans across 37 pages, 104
+  underscore-driven and 29 asterisk-driven**, where the open decision recorded 72 source-side pairs.
+  **The two agree once the unit is matched, since a pair corrupts two spans**, and the asterisk cause
+  was outside the existing instrument's model entirely. **A measurement in the rendered pages beats a
+  prediction from the source.**
+- **A LATEX LINE BREAK WITH OPTIONAL ROW SPACING CONTAINS THE DISPLAY OPENER A COUNTER LOOKS FOR.**
+  A row-spacing break inside a `cases` environment passes through verbatim, so counting bare opening
+  brackets found two more openers than closers and **reported a mismatch on a page that was
+  correct**. A delimiter is only a delimiter when it is not preceded by another backslash. The
+  equation pass hit this the moment it used a piecewise definition, which this series had never done.
+- **A DISPLAY BLOCK WITH PROSE ON THE SAME LINE IS NOT A DISPLAY BLOCK**, and three shipped that way
+  before a token count found them. **Dollar pairs came to 164 against 79 counted blocks, which cannot
+  both be true.** A375 lost four equations to the same class through a missing blank line. **Count
+  delimiter tokens against counted blocks after any pass that inserts mathematics.**
+- **A VERIFIER'S REFERENCE TABLE MUST BE SOURCEABLE, AND THIS IS THE A362 DEFECT IN A NEW UNIT.** That
+  article put five-thousand-FOOT standard-atmosphere values against a key in METRES. This one typed
+  tabulated values from memory, failed, **and then added a geometric-to-geopotential conversion in the
+  wrong direction to explain the mismatch it had itself caused**, which made the high-altitude entries
+  fail worse. **A check against numbers the author cannot source is not a check.** It was replaced by
+  the two defining temperatures, the agreement of the two pressure branches at the tropopause, the
+  barometric exponent against its definition, and **the hydrostatic equation by central difference at
+  six hundred random altitudes**, which tests the model against the physics rather than a printout.
+- **A VERIFIER THAT FAILS ON ITS OWN DISPLAY ROUNDING IS MEASURING THE WRONG THING.** Comparing a
+  printed value against a computed one at a tolerance tighter than the printing reported eleven
+  failures, **every one of them the rounding the article itself performs**. The tolerance is now
+  derived from the last printed digit. **A slot holds a rounded display string and not a
+  full-precision number.**
+- **A REGEX CONVERSION MOVED EXPLICIT TOLERANCES INTO A `scale` PARAMETER AND RESCALED A SLOT BY TEN
+  THOUSAND.** The check caught it as a 999,934 percent error, which is the only reason it was visible.
+  **A bulk rewrite of call sites must be checked against the signature it is rewriting into.**
+- **A PRESENCE TEST FOR A LITERAL STRING HAS NO BUSINESS BEING A PATTERN.** Nineteen presence checks
+  for new display relations were written as regular expressions, one LaTeX macro is a bad regex
+  escape, and **the check crashed rather than running**. Literal substrings now.
+- **A BISECTION MUST ASSERT ITS BRACKET BEFORE IT SEARCHES, AND TWO DID NOT.** One searched a bracket
+  that did not contain its root, with an inverted direction test, and **returned the bracket edge**,
+  which is a silent wrong answer rather than a failure. **Both production inversions now assert that
+  the root is bracketed first.**
+- **AND AN INVERSION MUST SAY WHICH BRANCH IT IS ON.** The Korn drag-divergence relation is not
+  monotone in sweep, turning over near fifty-four degrees, and a bracket spanning the turning point
+  put the target below the objective at both ends. **The assertion refused to run rather than
+  returning the wrong root, and the docstring it refused had claimed the function was monotone.** An
+  assertion caught a wrong sentence written by the person who wrote the assertion. **The closed form
+  for the turning point then replaced the scan entirely.**
+- **THE TWO-SIDED AUDIT'S REFUSED SIDE FOUND AN ENTIRE MISSING CLUSTER.** Thirty refused records
+  carried a joined-wing research aircraft, a tandem-wing spacing study and a blended-wing-body
+  pre-design, **and no existing pattern admitted any of them**. The new cluster holds 522 records and
+  is the third largest in the article. **A gate audited only on what it keeps cannot find an absence.**
+- **A GUARD QUALIFIER LIST MUST NOT CONTAIN WORDS THAT QUALIFY NOTHING.** Narrowing a bare
+  `aeroelastic` to require a nearby aeronautical noun left an aeroelastic **panel** paper admitted,
+  because the qualifier list contained `model` and `analysis`. **The regression test failed twice on
+  the same title**, the second time because the leak was in a different pattern from the one being
+  edited. A panel, a plate and a shell are aeroelastic and are not wings.
+- **A LINEARISATION IS NOT FREE AND THE FUEL FRACTION DECIDES.** The whole keystone rested on
+  linearising the Breguet exponential at a **twenty percent** fuel fraction, where the linearisation
+  overstates fuel by 11.585 percent. **Carrying the exponential generalised both optimality conditions
+  by one factor, moved every figure, and closed a gap the drafting pass had to apologise for**, taking
+  the computed penalty from above the report's independently optimised bound to inside it. **Check the
+  fraction before linearising anything, and take the limit to prove the general form reduces.**
+- **WRITE DOWN THE GOVERNING EQUATION AND IT WILL AUDIT THE PRIMARY SOURCE FOR YOU.** Writing the lift
+  equation showed that the Phase IV drag buildup's stated altitude, Mach number and lift coefficient
+  **do not hold together at the aeroplane's own weight**, and that the altitude at which they do is
+  the report's own optimum altitude from a different table, seventy-eight feet away. **No amount of
+  reading would have found that. Only the equation did.**
+- **SEVEN SYMBOL COLLISIONS IN ONE PASS, AND THE ESTABLISHED MEANING KEEPS ITS LETTER.** Cap
+  separation yielded its letter to altitude, the flat plate area took a script form because the plain
+  one was the moment shape function, fuel volume yielded to airspeed, the record set to range, the
+  budget projection to the prop force, block fuel to span, and the milestone payment to fuel mass.
+  **`symcheck.py` also needed the trigonometric functions and the layout directives added to its
+  structural set**, neither having appeared in this series before.
+- **SPELL SMALL COUNTS AT THE EMITTER AND NOT IN THE PROSE.** Fourteen were numerals where the
+  convention asks for words. **A convention enforced in prose is a convention that drifts** when a
+  count changes, so the rule now lives in the emitter and the verifier reads the words back through
+  `_lib/survey.py`'s words-to-integer helper rather than parsing them as integers.
+- **A SUPERLATIVE NEEDS A COMPARISON SET OR IT IS DECORATION, AND ONE WAS SIMPLY FALSE.** Thirteen
+  rankings were scoped in the publication review. The centroid argument was called **the only
+  independent confirmation** of a closed form the same paragraph confirms twice. The fold was **the
+  single largest number in this article**, which carries a ratio of ten thousand to one. **Two
+  rankings were kept by attaching their reasons, which was what had been missing rather than the
+  ranking itself.**
+- **A HEADING CAN BE REFUTED BY ITS OWN PARAGRAPH.** A heading claimed a budget document says three
+  things nothing else says, and three sentences later the paragraph conceded that the agency's press
+  item says one of the three too. **The concession was right and the heading was wrong**, which is
+  this series' most frequent defect and is why the risky-claim scan exists. **Run `pubreview.py
+  risky` and read every absolute and negative-existence claim against the paragraph it sits in.**
+- **AND A FACTUAL ERROR SURVIVED THREE PASSES.** An aeroplane was placed in the wrong aerodrome code
+  class by one band. **The publication review found it and the corrected passage is stronger**,
+  because the aeroplane that does belong in the lower class folds its wingtips, which is precisely
+  the manoeuvre the article argues its subject depends on and which is already certificated.
+- **A DEAD CITATION IS A REASON TO FIND A BETTER SOURCE, NOT TO SOFTEN A CLAIM.** The address sweep
+  found a standards body's publications page unreachable. Replacing it sent the argument to the
+  regulator's own circular, **which is in feet with exclusive bounds and settled the unit question
+  the keystone turned on.** The article got stronger because a citation died.
+- **A COMPUTED FIGURE TYPED INTO PROSE IS A STALENESS BOMB, AND A MECHANICAL SCAN FINDS THEM.** A362
+  shipped a stale pool size for exactly this reason. A363 scanned every numeric literal in its prose,
+  excluding quotations, tables, mathematics, dates, designations and instrument numbers, and **three
+  survived the exclusions as computed quantities** and became slots. **A fourth was a citation gap
+  rather than a staleness risk**, a span figure attributed to nothing, now attributed to secondary
+  coverage and to no primary document the article has read.
+- **AND THE SHARED TREE WILL SWEEP UP THE OTHER LINE'S WORK, SO SAY SO IN THE MESSAGE.** A363's
+  publication-review commit carried A376's staged draft. **Do not unstage another session's work to
+  tidy an attribution**, which is the larger risk. Record it in the commit message, which is the
+  convention this file already carried and which A363 followed. The mirror happened at `29af463`.
 
 ### Earned in A362, and the theme is that a correction can need correcting
 
@@ -3186,6 +3431,46 @@ FOUR ARTICLES.** After every equation pass, scan for lines that open with `$$` a
 
 ## Verification Toolchain
 
+### Added in A363, and three of them exist because an existing instrument was blind
+
+**IN `tmp/a363/`, WHICH IS GITIGNORED, SO LIFT WHAT YOU WANT BEFORE IT GOES.**
+
+| File | What it does that nothing else did |
+|---|---|
+| `astrisk.py` | predicts kramdown's ASTERISK pairing inside inline mathematics, which `emrisk.py` does not model at all |
+| `mathcorpus.py` | MEASURES corrupted mathematics in the rendered corpus and attributes each span to its cause, which is the only authority on the count |
+| `stylecheck.py` | the project's prose rules checked on prose only, after stripping tables, headings, quotations, mathematics and reference definitions, plus an acronym-before-first-bare-use check |
+| `exact.py` | the exact Breguet optimality conditions with their small-fuel limits taken rather than asserted |
+| `fairpair.py` | the like-for-like arithmetic from the Ames comparison, including the apparent weight elasticity from a pair |
+| `before_after.py` | the per-cluster primary share, run before and after the third sweep so the aim and the result are both measurements |
+| `primhunt.py` | the named-document hunt, eleven targets and eight full texts, which separates a download from a reading in what it prints |
+| `count.py` | the structure count, in a file because a heredoc double-escapes regexes and reported eight thousand symbols |
+
+**`stylecheck.py` IS THE ONE MOST WORTH CARRYING FORWARD.** `_verify.py`'s contraction check does not
+exclude block quotations, so it correctly flagged a contraction that belonged to a quoted source and
+A363 had to restructure the quotation to keep the corpus at no new warnings. **`stylecheck.py` knows
+the difference between the author's punctuation and a source's**, which is what makes its zero
+meaningful, and it proved that all nine parentheticals and both semicolons in A363 were quotations
+except one statutory subsection citation.
+
+**AND THE REPAIRS TO INHERITED INSTRUMENTS MATTER AS MUCH AS THE NEW ONES.** `mathrot.py`'s display
+counter now requires that a delimiter not be preceded by another backslash. `symcheck.py` gained the
+trigonometric functions and the layout directives. `verify_numbers.py` derives its tolerance from the
+last printed digit rather than comparing rounded strings at full precision, and reads spelled counts
+back through `_lib/survey.py`.
+
+**`verify_numbers.py` RUNS 158 CHECKS AND `neweqns.py` RUNS 94, AND THE SECOND IMPORTS NEITHER
+`meas.py` NOR `calc2.py` BY DESIGN.** A verifier that calls the calculation module checks that the
+module is self-consistent and nothing else. **The shape that transfers**: re-derive rather than read,
+freeze occurrence counts rather than asserting presence, carry a FLOOR on the display-equation count,
+assert withdrawn wordings absent AND their replacements present, check a closed form against a
+quadrature or a difference rather than against itself, and **take the limit of a general form to prove
+it reduces to the special case it generalises**.
+
+**THE STUB BUILD IS STILL THE BUILD TO RUN PER PASS.** `tmp/a363/site_build.sh` takes about fifteen
+seconds and matches the shipped bytes by checksum before it starts. **`./_check.sh --drafts` scales
+superlinearly in link-definition count and A360 lost five hours and forty-one minutes to it.**
+
 ### Added in A362, and all four exist because something reached the rendered page unseen
 
 **A362 ADDED FOUR INSTRUMENTS AND NONE OF THEM TOUCHED THE SHARED LIBRARY.** They live in
@@ -3651,20 +3936,32 @@ wholly unofficial and 1 partly unofficial**, and A360 states it correctly.
 **NEITHER EARLIER ARTICLE HAS BEEN EDITED AND THE REPAIR IS THE PILOT'S DECISION.** It has now
 survived four articles unresolved. **A361 and A362 both left it alone.**
 
-### New and needing a decision. Seventy-two corrupted mathematical expressions in published posts
+### New and needing a decision. Corrupted mathematics in published posts, RE-MEASURED
 
-**KRAMDOWN HAS PUT AN EMPHASIS TAG INSIDE INLINE MATHEMATICS IN THIRTY-EIGHT FILES, THIRTY-FIVE OF
-THEM PUBLISHED POSTS.** Seventy-two pairs in total. The heaviest is a projection-series post with
-seven. **Two of the three affected drafts are this series' own**, being the X-Planes opener and A361,
-and the third is A334.
+**THE RECORDED FIGURE WAS SEVENTY-TWO SOURCE-SIDE PAIRS ACROSS THIRTY-EIGHT FILES AND A363 MEASURED
+IT IN THE RENDERED PAGES INSTEAD.** `tmp/a363/mathcorpus.py` reads every built page and counts what
+kramdown actually emitted, which is the only authority.
 
-**A362 IS FIXED AND THE OTHER THIRTY-SEVEN ARE UNTOUCHED.** The fix is mechanical and verified,
-escaping the underscores that can open emphasis, which kramdown then consumes so MathJax receives the
-correct LaTeX. **`tmp/a362/emrisk.py` lists the files and `tmp/a362/mathfix.py` performs the fix.**
+**133 corrupted mathematical spans across 37 pages, of which 104 are underscore-driven and 29 are
+asterisk-driven.** The two figures agree once the unit is matched, since one emphasis pair corrupts
+two spans. **The heaviest pages are a reinforcement-learning article at nine spans, a reputation
+article at nine and a projection article at eight.**
 
-**THIS IS THE PILOT'S CALL FOR THREE REASONS.** It edits published posts. It is a rendering defect
-rather than a factual one, so no claim changes. And it is wide, touching three series. **The A362
-pass declined to do it as a side effect of an equation-density review.**
+**THE ASTERISK CAUSE IS NEW AND THE EXISTING INSTRUMENT IS BLIND TO IT.** `tmp/a362/emrisk.py`
+models kramdown's underscore pairing only. **Kramdown pairs bare asterisks inside inline mathematics
+in exactly the same way**, which A363 discovered by writing an inline superscript star twice in one
+paragraph and finding an emphasis tag in the rendered expression. **`tmp/a363/astrisk.py` predicts
+that cause and reports 57 further paragraphs carrying a single unpaired asterisk, which are latent
+rather than broken**, since one more asterisk in the same paragraph would pair with it.
+
+**THE FIX IS MECHANICAL AND VERIFIED IN BOTH DIRECTIONS.** Escape the underscores and the asterisks
+that can open emphasis, which kramdown then consumes so MathJax receives the correct LaTeX. **Only
+inline spans need it, because display blocks pass through untouched**, which was measured by probing
+kramdown directly rather than modelled. `tmp/a362/mathfix.py` performs the underscore half.
+
+**THIS REMAINS THE PILOT'S CALL FOR THREE REASONS.** It edits published posts. It is a rendering
+defect rather than a factual one, so no claim changes. And it is wide, touching three series. **A362
+and A363 are both clean and both declined to repair the others as a side effect of a review.**
 
 ### Resolved since the last handoff
 
