@@ -640,6 +640,66 @@ and the Bloomberg model is not public. The article labels all three as such.
 **Publication was not requested and the article is not published.**
 
 
+## X-Planes General Atomics X-68 LongShot A365 2025-12-13
+
+`x_planes_general_atomics_x68_longshot.markdown`, A365, editorial date 2025-12-13, series `x_planes`
+index 69 of 72, categories `aerospace history engineering`. **FIRST PASS COMPLETE, the draft.
+Committed, not pushed.** Equation, primary-reference and publication passes remain. **NOT
+PUBLISHED**, and publication of the series has never been authorised.
+
+**2,504 lines, 18,566 words, 24 display equations, 90 inline expressions, a 53-entry symbol table and
+543 reference definitions**, in 16 H2 and 74 H3 sections, citing 458 distinct works across 11
+clusters from a pool of 4,711, with 72 report primaries at 15.7 percent, median year 2009 and a range
+from 1935 to 2026, plus 17 primaries read directly. **The twelve-section research-aircraft order plus
+the three series sections, in order, with the required sections present.**
+
+**THE KEYSTONE IS A STORE MASS FRACTION AND THE GOVERNMENT NAMED IT.** Four budget justification
+books inside the editorial date, and a fifth outside it, carry the sentence that the programme will
+address the stability and control challenges of launching air-to-air missiles from a relatively small
+unmanned vehicle. **The reach benefit every account leads with is the motivation and it is
+arithmetic.** A fighter releasing one of these missiles sheds 0.616 percent of itself and a vehicle of
+this class releasing two sheds 17.94 percent, a factor of 29, and the article derives the
+centre-of-gravity shift, the static-margin change, the retrim demand, both parallel-axis inertia
+corrections, the asymmetric-release rolling moment and the ejector recoil from that ratio alone.
+
+**THE PREMISE IS STATED AS A COST RATHER THAN A BENEFIT.** Reach is logarithmic in the speed ratio, so
+doubling the missile's own reach takes its propellant fraction from 0.402 to 0.746 and leaves nothing
+for a warhead, while the carrier flies the same distance on a fuel fraction of 0.013. **A first pass
+reported a terminal-energy gain of six thousand and withdrew it**, because a missile with a
+114 kilometre decay length cannot fly the 500 kilometres that expression assumed. The exponential is
+a reach ceiling and the article says so.
+
+**THREE FINDINGS FROM THE PRIMARY RECORD.** The Department has released one word about this aeroplane
+and it is the name, the register's markup putting only `Longshot` outside the unofficial span, and
+**it is the only research row in the register marked at that level** against 13 register-wide. The
+concept changed exactly once, from a multi-mode-propulsion weapon to an air-breathing vehicle
+carrying existing missiles, **in an eleven-month window the budget books date and the award record
+corroborates independently** by preserving the original wording verbatim in a contract description
+from January 2021. And **the in-flight release of a missile from the vehicle appears in the plans of
+exactly one book**, replaced in the next by the vehicle's separation from its host, which is carriage
+release and a different test, with a ground pit drop of a mass simulant standing in the record
+instead. Stated as an observation about documents and not a claim about engineering.
+
+**THE METHOD FAILURES ARE THE USEFUL PART.** I "corrected" three of the handoff's register counts and
+the handoff was right in all three, because I had measured on a narrower population than it used.
+**The subject gate passed a clean two-sided audit while admitting 17.9 percent and refusing the F-15
+store-separation loads report**, because its keep cases had been copied from the homonym probe's
+output, which lists exactly what the patterns already match. Redrawn from the refused pile it failed
+on 24 cases at once. **The gate's organising principle was then wrong too**: boundary-layer, flow and
+leading-edge separation are the word's largest aeronautical users and no aeronautical guard can
+exclude them, so the gate now requires a word naming a carried object and admits `separation` nowhere
+alone. A hyphen was found defeating a cluster pattern, which **refuses wrongly and silently** where a
+defeated guard admits wrongly and loudly.
+
+**Gate: `_verify.py` 0 errors and 0 warnings across 304 posts.** `verify365.py` 71 independent checks
+with 0 disagreeing, importing none of the measurement or emitter modules and re-parsing the register
+and the budget books with different patterns. Stub build clean in 15 seconds, rendered audit no
+findings across 539 pages, 24 source display blocks matching 24 rendered, 98 inline spans and none
+carrying an emphasis tag. Symbol check 53 declared and every token resolving.
+
+**Publication was not requested and the article is not published.**
+
+
 ## X-Planes X-67, the Slot Taken by XQ-67A A364 2025-12-12
 
 `x_planes_x67_slot_taken_by_xq67.markdown`, A364, editorial date 2025-12-12, series `x_planes`

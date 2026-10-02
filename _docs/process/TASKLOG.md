@@ -9,10 +9,17 @@ Current task state and verification log. This file is the shared source of truth
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
-**Status**: **A297 through A364 have ALL FOUR PASSES COMPLETE and are PUSHED.** **Sixty-eight of
-seventy-two drafted. None published, and publication has never been authorised. Four articles remain.**
-The next new article is **A365, the General Atomics X-68A LongShot**, editorial date 2025-12-13, series
-index 69.
+**Status**: **A297 through A364 have ALL FOUR PASSES COMPLETE and are PUSHED. A365 has its FIRST
+PASS complete.** **Sixty-nine of seventy-two drafted. None published, and publication has never been
+authorised. Three articles remain.** The next new article after A365's remaining passes is **A366**.
+
+**A365 FIRST-PASS STATE 2,504 lines, 18,566 words, 24 display equations, 90 inline expressions, a
+53-entry symbol table and 543 reference definitions**, in 16 H2 and 74 H3 sections, citing 458
+distinct works across 11 clusters from a pool of 4,711, with 72 report primaries at 15.7 percent,
+median year 2009 and a range from 1935 to 2026, plus 17 primaries read directly. **Its keystone is
+the store mass fraction, which the budget books name as the programme's own binding unknown in four
+books inside the editorial date and a fifth outside it.** Equation, primary-reference and publication
+passes remain.
 
 **A364 FINAL STATE 5,214 lines, 36,167 words, 68 display equations, 185 inline expressions, an 85-entry
 symbol table and 1,315 reference definitions**, in 9 H2 and 54 H3 sections with 20 tables, citing 1,228

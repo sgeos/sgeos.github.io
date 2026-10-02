@@ -5,6 +5,100 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **A365 FIRST PASS, the draft of *X-Planes: General Atomics X-68 LongShot*. Committed, not
+pushed. NOT PUBLISHED**, and publication of the series has never been authorised. **Sixty-nine of
+seventy-two drafted, three remain.** Equation, primary-reference and publication passes remain.
+
+**FIRST-PASS STATE 2,504 lines, 18,566 words, 24 display equations, 90 inline expressions, a 53-entry
+symbol table and 543 reference definitions**, in 16 H2 and 74 H3 sections, citing 458 distinct works
+across 11 clusters from a pool of 4,711, with 72 report primaries at 15.7 percent, median year 2009,
+range 1935 to 2026, plus 17 primaries read directly.
+
+**THE KEYSTONE IS NAMED BY THE GOVERNMENT AND IT IS NOT THE RANGE.** Four budget justification books
+inside the editorial date, and a fifth outside it, carry the sentence that the programme will address
+the stability and control challenges of launching air-to-air missiles from a relatively small unmanned
+vehicle. **So the subject is a store mass fraction.** A fighter releasing one of these missiles sheds
+0.616 percent of itself and a vehicle of this class releasing two sheds 17.94 percent, a factor of 29,
+and the article derives the centre-of-gravity shift, the static-margin change, the retrim demand, the
+two parallel-axis inertia corrections, the asymmetric-release rolling moment and the ejector recoil
+from that one ratio.
+
+**THE REACH BENEFIT IS THE MOTIVATION AND IT IS ARITHMETIC, STATED AS A COST.** A missile's reach is
+logarithmic in its speed ratio, so doubling it with its own motor takes the propellant fraction from
+0.402 to 0.746 and leaves nothing for a warhead, while the carrier flies the same distance on a fuel
+fraction of 0.013. **A first pass reported a terminal-energy gain of six thousand and that figure was
+an artefact**, because a missile with a 114 kilometre decay length cannot fly the 500 kilometres the
+expression assumed. The exponential is a reach ceiling and the article says so.
+
+**THREE FINDINGS FROM THE PRIMARY RECORD.**
+
+- **The Department has released one word about this aeroplane and it is the name.** The register's
+  description is `Longshot; Experimental air-launched UCAV for air-to-air engagements.` and the markup
+  puts only `Longshot` outside the unofficial span. **It is the only research row in the register with
+  a span-level mark**, 13 rows carrying one register-wide.
+- **The concept changed exactly once and the budget books date it to an eleven-month window.** A
+  weapon system with multi-mode propulsion became an air-launched unmanned vehicle carrying existing
+  missiles between the book of May 2021 and the book of April 2022. **The award record corroborates
+  it independently**, holding the multi-mode wording verbatim in Northrop Grumman's contract
+  description from January 2021, and the single-mode cruise-missile engine is the physical trace.
+- **The demonstration of the keystone appears in the plans of exactly one book.** PB2024 planned
+  flight demonstrations validating separation of the missile from the vehicle. PB2025 replaced it with
+  validating the vehicle's separation from the host aircraft, which is carriage release and a
+  different test. What stands in the record instead is a ground pit drop of a mass simulant.
+  **Captive carry meanwhile slipped two fiscal years across three books, each planning it for its own
+  budget year.** Stated as an observation about documents and not a claim about engineering.
+
+**FIVE THINGS I GOT WRONG AND CORRECTED, RECORDED BECAUSE THEY ARE THE USEFUL PART.**
+
+- **I "corrected" three of the handoff's register counts and the handoff was right.** General Atomics
+  holds 16 rows and 13 rows name Williams, exactly as it said. I had measured on `register.rows()`,
+  which drops rows whose date will not parse, against the handoff's `meas.all_rows()`. **Mixing two
+  instruments' populations is already in `VERIFICATION_TRAPS.md` and I did it anyway.**
+- **The subject gate passed a clean two-sided audit while refusing the subject.** It admitted 17.9
+  percent, and the refused pile held the F-15 store-separation loads report, powered missile
+  separation from an F/A-18, in-flight captive store loads, the cavity door papers and the
+  aircraft-store interface standards. **The audit passed because its keep cases were copied from the
+  homonym probe's output, which lists what the patterns already match.** A keep sample drawn from what
+  a gate admits cannot measure what it refuses. Redrawn from the refused pile, it failed on 24 cases
+  at once.
+- **The gate's organising principle was wrong.** Boundary-layer, flow, leading-edge and turbulent
+  separation are the word's largest aeronautical users, and **they are aerodynamics, so no guard that
+  asks whether a title is aeronautical can exclude them.** The gate now requires a word naming a
+  carried object and admits `separation` nowhere on its own. Retail was the other unguarded collision
+  and the first probe's sample was too small to show it.
+- **A hyphen defeated a cluster pattern rather than a guard.** The series has recorded hyphens
+  defeating guards, which admits wrongly and is loud. **A hyphen defeating a cluster pattern refuses
+  wrongly and is silent**, because the record is simply not in the output. Separator tolerance is now
+  applied once, centrally.
+- **A verifier pattern matched the wrong sentence.** The draft states a burnout speed twice and
+  `burnout speed of ([\d,]+)` took the motor's actual figure where the check wanted the doubled-reach
+  demand. Eleven of twelve first-run disagreements were the verifier's own bugs and the draft was
+  right in all eleven.
+
+**Gate: `_verify.py` 0 errors and 0 warnings across 304 posts.** `verify365.py` 71 checks, 0
+disagreeing, importing none of the measurement or emitter modules and parsing the register and the
+budget books again with different patterns. Stub build clean in 15 seconds, rendered audit no findings
+across 539 pages, 24 source display blocks matching 24 rendered in both delimiters, 98 inline spans
+and none carrying an emphasis tag. Symbol check 53 declared and every token resolving. Style scan
+zero contractions, zero em and en dashes, zero prose colons, zero prose parentheticals, zero capitals
+as emphasis, and four semicolons all inside the verbatim register quotation or the debug tag.
+
+**QUESTION FOR THE PILOT.** Three load-bearing anchors come from an encyclopedia rather than a
+primary source: the engine's thrust through the cruise missile that shares it, the missile's mass, and
+the host aircraft's masses. The keystone comparison uses the missile's mass and the engine anchors the
+whole mass sweep. **I propose the primary-reference pass replace all three**, and I have not done so
+in this pass because it is that pass's work.
+
+**AND ONE PROCESS NOTE.** The first attempt at this draft ended when a safeguard flagged the turn
+after fourteen minutes of research, with no draft on disk and the findings only in the conversation.
+The research survived because it had been written to files and **the findings did not, because they
+had only been said.** That is now documented in general terms as
+[`_docs/process/WORK_DURABILITY.md`](./WORK_DURABILITY.md), committed separately, and this draft was
+composed section by section to disk for that reason.
+
+---
+
+**Date**: 2026-10-02
 **Task**: **A364 PUBLICATION REVIEW, the fourth and last of four passes. Committed and PUSHED on the
 pilot's instruction. STILL NOT PUBLISHED**, and publication of the series has never been authorised.
 **Sixty-eight of seventy-two drafted, four remain.**
