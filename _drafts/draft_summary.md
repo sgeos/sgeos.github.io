@@ -23,10 +23,24 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 article of the `war_with_china` series, categories `geopolitics military war-gaming`,
 series index 3.
 
-**2,896 lines, 39 display equations, 9 inline expressions, 86 reference definitions, roughly
-16,300 words of author prose after the drafting pass.**
-**DRAFTING PASS COMPLETE. NOT PUBLISHED.** Three of the four passes remain, namely equation
-density, primary references and publication review.
+**3,201 lines, 80 display equations, 12 inline expressions, 86 reference definitions, roughly
+16,800 words of author prose after the equation-density pass**, up from 2,896 lines and 39
+equations after drafting.
+**DRAFTING AND EQUATION-DENSITY PASSES COMPLETE. NOT PUBLISHED.** Two of the four passes remain,
+namely primary references and publication review.
+
+**The equation pass roughly doubled the display count, from 39 to 80**, which puts the article
+above both companions at comparable length, A374 carrying 63 and A375 carrying 75. The additions
+are definitions that were previously carried in prose, such as the component share, the relative
+change, the prewar-trend window and the belligerent share, plus the arithmetic behind figures that
+had been asserted rather than shown.
+
+**THE PASS FOUND TWO RENDERING DEFECTS THAT NO GATE WAS CATCHING.** Eight of the new blocks sat
+flush against the following prose, which kramdown folds into inline math; the source-to-rendered
+count is what surfaced them. And **the article carried one unpaired inline math delimiter**, a
+bare currency sign inside a quotation from the drafting pass, which would have left MathJax with
+an unterminated delimiter. Both are fixed, and the currency signs in quotations are now escaped so
+the reader sees the character while MathJax does not.
 
 **A374, A375 AND A376 ARE A SERIES.** The series lines were added to the two published posts,
 which moved no URLs because categories and dates are unchanged and so no `redirects/` entry is
@@ -57,11 +71,13 @@ recorded United States urban population by 44 percent in a single year.
 dollar share falling more slowly after the 2022 reserve freeze than before it and the renminbi
 peaking one quarter before that freeze.
 
-**Verification at the drafting pass.** `_verify.py` 0 errors across 303 posts, 185 numeric checks
-across two harnesses with none failing, production build clean, rendered audit no findings across
-468 pages, zero contractions and zero dashes in prose, all 86 references cited in the body and
-alphabetically ordered, and every reference URL resolving or returning the documented publisher
-refusal.
+**Verification at the equation pass.** `_verify.py` 0 errors across 303 posts, **238 numeric
+checks across three harnesses** with none failing, production build clean, rendered audit no
+findings across 468 pages, zero contractions and zero dashes in prose, all 86 references cited in
+the body and alphabetically ordered, and every reference URL resolving or returning the documented
+publisher refusal. **The source-to-rendered display count agrees at 80**, verified in a scratch
+build carrying the real configuration and this draft alone, with the published A375 in the same
+build reporting 75 as a control on the method.
 
 ## What Rebuilding Would Take After a War With China A375 2026-08-12 PUBLISHED
 

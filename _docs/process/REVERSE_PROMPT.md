@@ -1566,6 +1566,52 @@ below it rather than overwriting, which is a choice and not a convention.
 
 ---
 
+## A376, Equation-Density Pass
+
+**Display equations 39 to 80, lines 2,896 to 3,201, inline expressions 9 to 12, references held at
+86.** Not published. The article now carries more display mathematics than either companion at
+comparable length, A374 having 63 and A375 75.
+
+**A SCAN DROVE THE PASS AND NOT A READ-THROUGH.** Every prose line carrying a figure with no
+display block within six lines was listed, which returned 160 candidates across 42 sections and
+made the thin sections obvious. The additions are mostly definitions the article had been carrying
+in words, including the component share, the relative change with its equal-length prewar window,
+the constant-membership share, the belligerent share and its bystander complement, the exact
+contribution decomposition and the scenario map.
+
+**THE SOURCE-TO-RENDERED COUNT CAUGHT EIGHT DEFECTS AND NOTHING ELSE WOULD HAVE.** Eight of the new
+blocks closed flush against the following prose, which kramdown folds into inline mathematics.
+`_verify.py`, the production build and the rendered audit all passed with them present. **A
+scratch build carrying the real configuration and this draft alone now reports 80 source blocks
+against 80 rendered**, and the published A375 in the same build reports 75, which is the control
+that shows the method measures what it claims to.
+
+**A SECOND RENDERING DEFECT PREDATED THIS PASS AND THE EQUATION WORK SURFACED IT.** Counting
+unescaped dollar signs outside display blocks returned an odd number. The odd one was a currency
+sign inside a quotation added during the drafting pass, which would have left MathJax with an
+unterminated inline delimiter free to consume following text as mathematics. Currency signs inside
+quotations are now escaped, the reader sees the character, and the rendered page carries no
+literal backslash.
+
+**A FIGURE WAS CHASED TO ITS SOURCE RATHER THAN LEFT IN AN EQUATION UNVERIFIED.** Writing the
+ratio of the Iraq cost outturn to the top of the forecast range meant putting a specific number in
+a display block, and that number had reached the draft through a subagent quoting a work it had
+not retrieved. The open-access Chang and others paper was fetched and the sentence confirmed
+verbatim, its two-column layout interleaving exactly as A375 recorded for scanned sources. The
+article now attributes the figure to Chang and others attributing it to Bilmes, and says plainly
+that it is not independently checked here.
+
+**A THIRD HARNESS WAS ADDED AND DELIBERATELY KEPT SEPARATE.** `verify_derived.py` recomputes 53
+pieces of arithmetic the article performs on figures it quotes. It is distinct from the two that
+recompute from primary data because it cannot establish that a source says what the article
+reports, only that the division printed beside a quoted pair is the division of that pair. The
+Epistemic State now says so, and the stale count of 166 constants it carried was corrected to 238.
+
+**VERIFICATION.** `_verify.py` 0 errors across 303 posts, 238 checks across three harnesses with
+none failing, build clean, rendered audit no findings across 468 pages, 160 display delimiters
+balanced with no blank-line defects, braces and `\left`/`\right` balanced in every block, zero
+contractions and zero dashes in prose, all 86 references cited and alphabetically ordered.
+
 ## A376, Whether a War With China Would Change the Global Balance of Power, Drafting Pass
 
 **The draft stands at 2,896 lines, 39 display equations, 86 references and about 16,300 words

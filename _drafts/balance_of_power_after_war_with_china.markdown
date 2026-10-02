@@ -123,8 +123,15 @@ iron and steel production, primary energy consumption,
 total population and urban population.
 Writing $x_{c,i,t}$ for the value of component $c$
 held by state $i$ in year $t$,
-the index for that state and year is the mean over components
-of its share of the world total of each.
+each component share is that state's part of the world total.
+
+$$
+s_{c,i,t} = \frac{x_{c,i,t}}{\sum_{j} x_{c,j,t}},
+\qquad
+\sum_{i} s_{c,i,t} = 1 \;\text{for every } c
+$$
+
+The index is then the mean of the six shares.
 
 $$
 \mathrm{CINC}_{i,t}
@@ -358,8 +365,22 @@ in the codebook's sentence is "slightly".**
 Summed over the states present in each year,
 the published values exceed one in most years of the series.
 The deviation reaches 1.0747 in 1860,
-the median absolute deviation across all 207 years is about 0.021,
-and **183 of the 207 years miss one by more than a thousandth.**
+and the median absolute deviation across all 207 years is about 0.021.
+
+$$
+\max_{t} \left| \sum_{i} \mathrm{CINC}^{\text{published}}_{i,t} - 1 \right| = 0.0747,
+\qquad
+\operatorname{median}_{t} \left| \cdot \right| \approx 0.021
+$$
+
+**And 183 of the 207 years miss one by more than a thousandth.**
+
+$$
+\frac{183}{207} \approx 0.88
+$$
+
+Nearly nine years in ten fail the invariant
+that makes the index readable as a share.
 Recomputing the index from the six component columns
 and dividing by six as the headline definition states
 produces a sum of one in all 207 years,
@@ -407,6 +428,15 @@ The codebook states that
 0.23% of cases have data only on two or three components".
 Recomputed on the version 7.0 file those figures are
 83.62, 13.50, 2.66 and 0.22 percent.
+
+$$
+83.29 \longrightarrow 83.62,
+\qquad
+13.76 \longrightarrow 13.50,
+\qquad
+2.71 \longrightarrow 2.66
+$$
+
 The differences are small and in no way change the picture,
 but they indicate the passage was carried forward from an earlier version
 rather than regenerated,
@@ -502,6 +532,14 @@ and does not regain its 2001 value until 2018.
 The effect on the index can be attributed exactly,
 because the index is a sum of six equally weighted terms
 and each contributes its own change divided by six.
+
+$$
+\Delta \mathrm{CINC}_{i} = \frac{1}{6} \sum_{c=1}^{6} \Delta s_{c,i}
+$$
+
+The decomposition is therefore exact rather than approximate,
+and its terms must sum to the published change,
+which is the check performed below.
 
 | Component | 2001 share | 2002 share | Contribution to the index |
 |-----------|-----------|-----------|---------------------------|
@@ -684,11 +722,31 @@ present in both the earlier and the later year,
 which removes entry and exit.
 Ratios of the index within a year are ratios of capability,
 so restricting the denominator is well defined.
+Writing $C$ for the set of states present in both years,
+the share and the quantity reported throughout are these.
+
+$$
+S_{i,t} = \frac{\mathrm{CINC}_{i,t}}{\sum_{j \in C} \mathrm{CINC}_{j,t}},
+\qquad
+\delta_{i} = \frac{S_{i,\,t_{1}} - S_{i,\,t_{0}}}{S_{i,\,t_{0}}}
+$$
+
+Here $t_{0}$ is the year before the war began
+and $t_{1}$ is five or ten years after it ended.
 
 **An equal window before the war is measured as well.**
 If a belligerent's share was already moving in the same direction
 at the same rate before the war began,
 the war revealed a shift rather than caused one.
+The prewar comparison uses a window of identical length,
+so the two quantities are on the same footing.
+
+$$
+\tau_{i} = \frac{S_{i,\,t_{0}} - S_{i,\,t_{0}-h}}{S_{i,\,t_{0}-h}},
+\qquad
+h \in \{5, 10\}
+$$
+
 That distinction is the central dispute in power transition theory
 and it can be tested rather than assumed.
 
@@ -735,8 +793,17 @@ $$
 $$
 
 **Set against the variance, that is a weak effect.**
-Thirty-eight percent of winners declined.
-Nearly half of all losers improved their position.
+Thirty-eight percent of winners declined,
+and nearly half of all losers improved their position.
+
+$$
+\Pr(\delta < 0 \mid \text{winner}) = 0.384,
+\qquad
+\Pr(\delta > 0 \mid \text{loser}) = 0.476
+$$
+
+Those two are frequencies in this sample rather than probabilities,
+and they are written this way to make the overlap visible.
 Winning a war moved a state's share of world capability
 in the expected direction rather more often than not,
 and by an amount that a decade of ordinary economic performance
@@ -759,6 +826,11 @@ that dominates the full sample.
 **Every loser of a large war in the record
 held a smaller share of world capability a decade later,
 and the median loss was about forty-two percent of its prewar share.**
+
+$$
+\Pr(\delta < 0 \mid \text{loser, large war}) = \frac{11}{11} = 1
+$$
+
 Winners of large wars did about as well as winners generally,
 with a median gain near thirteen percent,
 and more than a third of them still declined.
@@ -766,6 +838,12 @@ and more than a third of them still declined.
 The asymmetry is therefore not between winning and losing symmetrically.
 It is between a reliable and severe penalty for losing a large war
 and an unreliable, modest reward for winning one.
+The two medians differ by more than a factor of three in magnitude.
+
+$$
+\frac{|-0.418|}{0.126} \approx 3.3
+$$
+
 Eleven observations is a small sample
 and the uniformity of the decline should be read with that in mind,
 but the uniformity is itself the finding.
@@ -783,10 +861,25 @@ $$
 r = -0.038
 $$
 
-At the five-year horizon it is similar at $-0.082$.
+At the five-year horizon it is similar.
+
+$$
+r_{10} = -0.038 \;(n = 267),
+\qquad
+r_{5} = -0.082 \;(n = 286)
+$$
+
 The sign is slightly negative rather than positive,
 which if anything suggests mild reversion,
 but neither value is distinguishable from no relationship at this sample size.
+Squaring the larger of the two bounds how little is explained.
+
+$$
+r_{5}^{2} \approx 0.0067
+$$
+
+Under one percent of the variation in postwar change
+is accounted for by the prewar trajectory.
 
 This is a genuinely informative null.
 **A belligerent's trajectory before a war
@@ -896,6 +989,16 @@ and it is testable.
 For each war, summing the belligerents' shares before and after
 and holding the denominator's membership fixed
 gives the combined belligerent share.
+Writing $B$ for the set of belligerents,
+the quantity is their combined share
+and the bystander share is its complement.
+
+$$
+B_{t} = \sum_{i \in B} S_{i,t},
+\qquad
+1 - B_{t} = \sum_{i \notin B} S_{i,t}
+$$
+
 Because shares over a fixed membership sum to one,
 a fall in the belligerents' combined share
 is exactly a rise in the combined share of the states that stayed out.
@@ -903,11 +1006,22 @@ is exactly a rise in the combined share of the states that stayed out.
 At the ten-year horizon, across the 76 wars where every belligerent
 survives into the later year as a system member,
 the belligerents' combined share rose by a median of 2.5 percent
-and fell in 36 of 76 cases,
-which is 47.4 percent.
+and fell in 36 of 76 cases.
+
+$$
+\frac{36}{76} \approx 0.474,
+\qquad
+\operatorname{median} \frac{\Delta B}{B} = +0.025
+$$
+
 Among the ten largest of those wars
 the median change was -1.5 percent
-and the belligerents lost ground in five of ten.
+and the belligerents lost ground in five of ten,
+which is as close to a coin flip as a sample of ten can report.
+
+$$
+\frac{5}{10} = 0.5
+$$
 
 **On the face of it the bystander-gain hypothesis is not supported.**
 The combined position of the states doing the fighting
@@ -954,14 +1068,33 @@ Ethiopia is excluded for absence in 1938 and is small enough not to matter.
 | World War I, measured 1913 against 1928 | 0.8229 | 0.7761 | -0.057 |
 | World War II, measured 1938 against 1955 | 0.9808 | 0.9610 | -0.020 |
 
-The belligerents' combined share barely moved,
-and the reason is in the first column.
+The belligerents' combined share barely moved.
+
+$$
+\frac{0.7761 - 0.8229}{0.8229} \approx -0.057,
+\qquad
+\frac{0.9610 - 0.9808}{0.9808} \approx -0.020
+$$
+
+The reason is in the first column.
 **The belligerents of 1914 held 82 percent of measured world capability
 and those of 1939 held 98 percent.
 There was no bystander large enough to gain anything.**
 A redistribution away from the fighting powers
 was arithmetically almost impossible,
 because the fighting powers were very nearly the whole system.
+The pool available to receive it was this.
+
+$$
+1 - 0.8229 = 0.1771,
+\qquad
+1 - 0.9808 = 0.0192
+$$
+
+**In 1939 the states not fighting held under two percent
+of measured world capability between them.**
+A transfer of standing to non-participants
+had almost nowhere to go.
 
 This reframes the earlier null result.
 The bystander-gain hypothesis was not tested fairly by the historical record,
@@ -995,6 +1128,14 @@ raises it to about 45 percent.
 **Even on the most expansive plausible coalition,
 a majority of measured world capability stays out of this war.**
 That has not been true of a great-power war in the period the data cover.
+Set against 1939 the difference is not incremental.
+
+$$
+\frac{0.6448}{0.0192} \approx 34
+$$
+
+The bystander pool is about thirty-four times the size it was
+in the last general war among great powers.
 Expressed against the two world wars,
 the prospective belligerent share is a little over a third
 of the 1939 figure and a little over two fifths of the 1914 figure.
@@ -1075,6 +1216,15 @@ $$
 
 $$
 \delta_{\text{win}} = +0.126, \qquad \delta_{\text{lose}} = -0.418
+$$
+
+Each outcome maps a present share to a post-war one by a single multiplication,
+and the bystander pool follows as the complement.
+
+$$
+S' = S\,(1 + \delta),
+\qquad
+P' = 1 - S'_{\mathrm{CHN}} - S'_{\mathrm{USA}}
 $$
 
 The four combinations give the following.
@@ -1200,8 +1350,27 @@ and what happened after them can be stated rather than estimated.
 After the Franco-Prussian War the winner's share of world capability
 rose by 27 percent over the following decade
 while the loser's fell by 3 percent.
+
+$$
+\delta_{\mathrm{GMY}} = +0.271,
+\qquad
+\delta_{\mathrm{FRN}} = -0.026
+$$
+
 After the Korean War, which the war data code a stalemate for both principals,
 the American share fell by 13 percent and the Chinese share rose by 18 percent.
+
+$$
+\delta_{\mathrm{USA}} = -0.127,
+\qquad
+\delta_{\mathrm{CHN}} = +0.180
+$$
+
+The gap between the two is the part worth holding on to.
+
+$$
+0.180 - (-0.127) = 0.307
+$$
 
 **An evolution rather than a revolution is still a quarter of a state's
 relative standing changing hands within ten years.**
@@ -1361,9 +1530,20 @@ were asked about the world of 2036.
 Seven percent expect the United States to be the dominant global power
 and four percent expect China to be,
 with around nine in ten expecting a bipolar or multipolar distribution.
+
+$$
+0.07 + 0.04 = 0.11
+$$
+
+**Eleven percent of a panel of specialists
+expect either state to be dominant a decade out.**
 Fifty-eight percent expect China to be the top economic power
 against 33 percent for the United States,
 while nearly three quarters still expect American military primacy.
+
+$$
+\frac{58}{33} \approx 1.8
+$$
 
 The movement across editions is steeper than the levels.
 The [2025 edition][research_atlantic_council_2025_welcome_2035]
@@ -1373,6 +1553,11 @@ reporting that expectations of American dominance a decade out fell
 63 percent to 58 percent for technological innovation,
 52 percent to 49 percent for economic power,
 and 32 percent to 24 percent for diplomatic power".
+The four movements in one year were these.
+
+$$
+-10, \quad -5, \quad -3, \quad -8 \;\text{percentage points}
+$$
 
 **A panel of several hundred specialists moved ten points
 on the military question in a single year, without a war occurring.**
@@ -1687,7 +1872,15 @@ $$
 $$
 
 **The erosion is real, it is large, and it is slow.**
-Averaged over the period it is about two thirds of a percentage point a year.
+
+$$
+75.03 - 56.70 = 18.33 \;\text{points},
+\qquad
+\frac{-18.33}{27.25} \approx -0.67 \;\text{points per year}
+$$
+
+Eighteen points of share is a substantial movement,
+and spread across twenty-seven years it is about two thirds of a point annually.
 
 A caveat belongs with any figure from this series.
 From the third quarter of 2025 the Fund
@@ -1761,8 +1954,15 @@ rather than of a finding being wrong.
 The reserve share and the transactional share are moving in opposite directions.
 The [Bank for International Settlements triennial survey][data_bis_2025_triennial]
 reports the dollar on one side of 89.2 percent of foreign exchange trades in April 2025,
-up from 88.4 percent in 2022,
-and the series runs 87, 88, 88, 88, 89 across 2013 to 2025.
+up from 88.4 percent in 2022.
+
+$$
+87 \to 88 \to 88 \to 88 \to 89
+\quad \text{across 2013, 2016, 2019, 2022, 2025}
+$$
+
+Shares sum to two hundred rather than one hundred on this measure,
+because two currencies stand on each side of a trade.
 
 **Store-of-value share is falling and medium-of-exchange centrality is rising.**
 This matters for the question in this article's title
@@ -1828,6 +2028,11 @@ The mutual-hostage premise has weakened on the other side too.
 mainland China holding 618.0 billion dollars of Treasury securities in July 2026,
 third behind Japan and the United Kingdom,
 against 1,033.8 billion in January 2022.
+
+$$
+\frac{618.0 - 1{,}033.8}{1{,}033.8} \approx -0.40
+$$
+
 That is a fall of about two fifths in nominal terms
 while the foreign total rose.
 The table's own notes caution that custody-based data
@@ -1899,7 +2104,15 @@ Read in the paper, interstate conflict accounts for 13.2 billion of it,
 the remainder being chiefly tropical cyclones,
 and the estimated economic risk is 0.9 billion a year
 "given shorter detours in case of disruptions".
-**The headline figure is mostly weather.**
+
+$$
+\frac{13.2}{37.3} \approx 0.35,
+\qquad
+\frac{0.9}{37.3} \approx 0.024
+$$
+
+**The headline figure is mostly weather,
+and the modelled economic risk is under three percent of it.**
 
 ## Alliances and Proliferation, Where the Cascade Is Asserted More Often Than Measured
 
@@ -1984,6 +2197,11 @@ with a margin of error of plus or minus 2.5 percent,
 found 71 percent favouring an indigenous weapon
 and, when forced to choose,
 67 percent preferring that to redeployed American weapons against 9 percent.
+
+$$
+\frac{67}{9} \approx 7.4
+$$
+
 That survey was used in the [previous article][related_post_rebuilding]
 and the ratio of roughly seven to one still holds.
 
@@ -1992,6 +2210,11 @@ complicates it in two ways.
 Its own time series shows support falling,
 from 71.3 percent in 2021 to 69 percent in 2022 and 60.2 percent in 2023,
 and its authors note this is "contrary to media reports".
+
+$$
+\frac{60.2 - 71.3}{71.3} \approx -0.16
+$$
+
 More importantly it shows the number is fragile to framing.
 
 > When presented with six different possibilities of risks
@@ -2000,9 +2223,19 @@ More importantly it shows the number is fragile to framing.
 > public opinion in favor of continuing nuclear development dropped dramatically.
 > Across all six items, only 36% to 37% agree with nuclear development.
 
+Against the headline number that is close to a halving.
+
+$$
+\frac{36.5}{71.3} \approx 0.51
+$$
+
 And when the choice is posed against the alliance itself,
 49.5 percent chose the continued presence of United States forces
 and 33.8 percent chose nuclear weapons.
+
+$$
+\frac{49.5}{33.8} \approx 1.5
+$$
 
 **The natural experiment is the valuable part.**
 The survey was in the field when the Washington Declaration was announced
@@ -2036,8 +2269,22 @@ The [Cabinet Office's plutonium management report][government_japan_2025_plutoni
 records that at the end of 2024 Japan held
 approximately 44.4 tonnes of separated plutonium,
 of which approximately 8.6 tonnes was held domestically
-and 35.8 tonnes abroad,
-21.7 tonnes in the United Kingdom and 14.1 tonnes in France.
+and 35.8 tonnes abroad.
+
+$$
+21.7 + 14.1 = 35.8,
+\qquad
+8.6 + 35.8 = 44.4
+$$
+
+The overseas holdings are 21.7 tonnes in the United Kingdom
+and 14.1 tonnes in France,
+so **four fifths of the stock sits in two other states**.
+
+$$
+\frac{35.8}{44.4} \approx 0.81
+$$
+
 Japan's [National Security Strategy][government_japan_2022_nss]
 commits it to "observing the Three Non-Nuclear Principles"
 and describes the alliance, "including the provision of extended deterrence",
@@ -2143,9 +2390,32 @@ and about 63 percent at market exchange rates.
 The [Lowy Institute's Asia Power Index][data_lowy_2025_asia_power_index]
 scores the United States at 80.4 and China at 73.7 for comprehensive power,
 while scoring defence networks at 81.4 against 18.9.
+Expressed as Chinese standing relative to American,
+the five instruments give the following.
+
+$$
+1.89, \qquad
+\frac{336}{954} \approx 0.35, \qquad
+1.34, \qquad
+0.63, \qquad
+\frac{73.7}{80.4} \approx 0.92
+$$
 
 **Five instruments, five answers, spanning from
 China at nearly twice the United States to China at under a quarter.**
+
+$$
+\frac{1.89}{0.35} \approx 5.4
+$$
+
+The extreme readings differ by a factor of more than five.
+On the component where the alliance system is counted
+the gap is wider still.
+
+$$
+\frac{81.4}{18.9} \approx 4.3
+$$
+
 The index that produces the most dramatic Chinese lead
 is the one this article uses,
 which is a reason to distrust the levels it reports
@@ -2240,7 +2510,7 @@ and the diagnosis here is identical.
 
 [Vest and Kratz][research_vest_kratz_2023_sanctioning_china]
 add the financial dimension,
-estimating "at least $3 trillion in trade and financial flows"
+estimating "at least \$3 trillion in trade and financial flows"
 at immediate risk in a maximalist sanctions scenario,
 and noting that 77 percent of China's trade
 is settled in currencies other than the renminbi.
@@ -2252,6 +2522,15 @@ fielded from 5 January to 20 February 2026 with 2,008 respondents,
 asked which rival ASEAN should choose if forced.
 China took 52.0 percent against the United States at 48.0,
 having been 47.7 against 52.3 the previous year.
+
+$$
+52.0 - 48.0 = 4.0,
+\qquad
+52.3 - 47.7 = 4.6
+$$
+
+The margin reversed sign between the two years
+while barely changing in magnitude.
 The report's own reading is the right one,
 that the margin "reflects a deeply divided strategic landscape
 rather than a decisive shift toward one pole".
@@ -2339,6 +2618,14 @@ Events experts called impossible or nearly impossible
 occurred about 15 percent of the time,
 and events they called certain or nearly certain
 failed to occur about 27 percent of the time.
+
+$$
+\Pr(\text{occurs} \mid \text{called impossible}) \approx 0.15,
+\qquad
+\Pr(\text{fails} \mid \text{called certain}) \approx 0.27
+$$
+
+**Both of those should be near zero and neither is.**
 [Chang and others][journal_chang_2016_developing_expert_judgment]
 later showed that under an hour of debiasing training
 improved accuracy by 6 to 11 percent,
@@ -2351,9 +2638,21 @@ which opens by observing that
 "nations historically have consistently underestimated
 the cost of military conflicts"
 and gives a range of 100 billion to 1.9 trillion dollars.
-Later accounting put the figure above the top of that range.
+[Chang and others][journal_chang_2016_developing_expert_judgment]
+report the outturn in passing, writing that the United States
+"would continue its involvement in the country for over a decade
+at an estimated cost between \$4 and \$6 trillion",
+a figure they attribute to Bilmes
+and which is not independently checked here.
+Taken at its lower end it exceeds the top of the forecast range
+by a factor of about two.
+
+$$
+\frac{4.0}{1.9} \approx 2.1
+$$
+
 **A paper whose thesis was that cost estimates run low
-was itself low.**
+was itself low, and by more than its own upper bound.**
 
 ### The order literature, which changed the object of study
 
@@ -2544,12 +2843,18 @@ the Correlates of War National Material Capabilities version 7.0
 and the Inter-State War Data version 4.0,
 both downloaded from the project's own site.
 The computation is independently checkable.
-A harness re-entered 166 constants by hand from the article text
-and recomputed each from the data,
+Three harnesses re-entered 238 constants by hand from the article text
+and recomputed each,
 which caught two errors before publication,
 a relative change stated as 1.07 that is 1.06,
 and a claim that the capability ratio has exceeded one in every year since 1995
 when it dips below in 2002.
+**The third harness checks only the article's own arithmetic
+on figures it quotes from the literature.**
+It cannot establish that a source says what the article reports,
+which is done by reading the source,
+and it is kept separate from the two that recompute from primary data
+so that the distinction is not lost.
 **The second of those turned into a section,
 because tracing the dip located a documented definitional break.**
 
